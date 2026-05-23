@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>历史AI快讯 - AI工具导航</title>
+    <meta
+      name="description"
+      content="历史AI快讯归档，按时间整理AI模型、AI工具、GitHub项目、AI搜索、榜单和行业新闻
+    />
+    <meta name="robots" content="index,follow" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap header-grid">
+        <a class="brand" href="/" aria-label="AI工具导航首页">
+          <span class="brand-mark">AI</span>
+          <span>
+            <strong>AI工具导航</strong>
+            <small>历史快讯</small>
+          </span>
+        </a>
+        <nav class="top-nav" aria-label="主导航">
+          <a href="/">首页</a>
+          <a href="/pages/github.html">GitHub</a>
+          <a href="/pages/skills.html">Skill</a>
+          <a href="/pages/benchmark.html">榜单</a>
+          <a href="/pages/about.html">关于</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="category-page">
+      <section class="wrap category-hero">
+        <a class="back-link" href="/">返回首页</a>
+        <p class="eyebrow">AI News Archive</p>
+        <h1>历史AI快讯</h1>
+        <p class="lead">按时间归AI 模型、工具、开源项目、榜单、搜索和行业动态</p>
+        <p class="category-pitch">每条保留来源链接，适合回看选题、补 SEO 文章和做每周总结</p>
+      </section>
+
+      <section class="wrap category-layout">
+        <aside class="category-sidebar">
+          <div class="panel">
+            <label class="search-label" for="historySearch">搜索快讯</label>
+            <input id="historySearch" type="search" placeholder="搜索 GitHub、模型、榜.." />
+          </div>
+          <div class="panel">
+            <h2>本页目录</h2>
+            <nav id="historyCategoryNav" class="side-links" aria-label="历史快讯分类"></nav>
+          </div>
+          <div class="ad-slot side-ad">
+            <span>AD</span>
+            <strong>归档页广告位</strong>
+            <small>适合信息流广告或工具推荐</small>
+          </div>
+        </aside>
+
+        <div class="category-content">
+          <section class="category-section">
+            <div class="section-head">
+              <div>
+                <p class="eyebrow">Archive</p>
+                <h2>全部快讯</h2>
+              </div>
+              <span id="historyCount" class="source-name"></span>
+            </div>
+            <div id="historyGrid" class="historical-news-grid history-page-grid"></div>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <script src="/assets/data/data.js?v=1779529885"></script>
+    <script src="/assets/data/generated-data.js?v=1779529885"></script>
+    <script src="/assets/data/data-merge.js?v=1779529885"></script>
+    <script src="/assets/js/history.js"></script>
+  </body>
+</html>

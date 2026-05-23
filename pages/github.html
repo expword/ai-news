@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GitHub AI 项目分类导航 - AI工具导航</title>
+    <meta name="description" content="GitHub AI 项目按 Coding Agent、本地推理、LLM 平台、RAG、MCP、推理引擎等类型分类整理，每个项目附具体作用和 star 增量。" />
+    <meta name="robots" content="index,follow" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap header-grid">
+        <a class="brand" href="/" aria-label="AI工具导航首页">
+          <span class="brand-mark">AI</span>
+          <span>
+            <strong>AI工具导航</strong>
+            <small>GitHub 分类</small>
+          </span>
+        </a>
+        <nav class="top-nav" aria-label="主导航">
+          <a href="/">首页</a>
+          <a href="/pages/skills.html">Skill</a>
+          <a href="/pages/benchmark.html">榜单</a>
+          <a href="/pages/category.html?id=ai-coding">开发者</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="detail-v2">
+      <section class="detail-hero wrap">
+        <a class="back-link" href="/">← 返回首页</a>
+        <div class="detail-hero-copy" style="grid-column: 1 / -1;">
+          <div class="detail-hero-meta">
+            <span class="chip chip-accent">GitHub AI</span>
+            <span id="githubCountChip" class="chip chip-muted"></span>
+          </div>
+          <h1>GitHub AI 项目分类导航</h1>
+          <p class="detail-hero-lead">
+            按 Coding Agent、本地推理、LLM 平台、RAG、MCP 等类型整理 GitHub 上的 AI 项目。每张卡片直接告诉你这个项目解决什么问题、谁该用、怎么上手。
+          </p>
+          <div class="hero-search" role="search">
+            <input id="githubSearch" type="search" placeholder="搜索项目名、类型、作用..." />
+          </div>
+        </div>
+      </section>
+
+      <section class="wrap">
+        <nav id="githubCategoryNav" class="category-nav-strip" aria-label="跳转分类"></nav>
+      </section>
+
+      <section class="wrap" id="githubCategorySections"></section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-grid">
+        <span>AI工具导航</span>
+        <span>
+          <a href="/pages/about.html">关于</a>
+          <a href="/pages/contact.html">联系</a>
+          <a href="/pages/privacy.html">隐私政策</a>
+        </span>
+      </div>
+    </footer>
+
+    <script src="/assets/data/data.js?v=1779529885"></script>
+    <script src="/assets/data/generated-data.js?v=1779529885"></script>
+    <script src="/assets/data/data-merge.js?v=1779529885"></script>
+    <script src="/assets/js/github.js"></script>
+  </body>
+</html>

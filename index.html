@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI工具导航 - AI榜单、ASR、TTS、GitHub项目与模型测评</title>
+    <meta
+      name="description"
+      content="简洁的AI工具导航网站，聚合AI工具分类、Skill推荐、一周最新GitHub、中文大模型评测、ASR、TTS、OCR、Embedding、RAG和视频生成榜单
+    />
+    <meta
+      name="keywords"
+      content="AI工具导航,AI Skill推荐,一周GitHub,中文大模型评AI模型排行ASR榜单,TTS榜单,OCRBench,MTEB,VBench,AI最新消
+    />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="AI工具导航" />
+    <meta property="og:description" content="AI工具、Skill推荐、GitHub项目、AI资讯和模型榜单导航 />
+    <meta property="og:locale" content="zh_CN" />
+    <link rel="canonical" href="https://your-domain.com/" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "AI工具导航",
+        "url": "https://your-domain.com/",
+        "description": "面向中文用户的AI工具导航、Skill推荐、GitHub项目和大模型评测站
+      }
+    </script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap header-grid">
+        <a class="brand" href="/" aria-label="AI工具导航首页">
+          <span class="brand-mark">AI</span>
+          <span>
+            <strong>AI工具导航</strong>
+            <small>工具 · Skill · GitHub · 榜单</small>
+          </span>
+        </a>
+        <nav class="top-nav" aria-label="主导航">
+          <a href="#topics">入口</a>
+          <a href="#skills">Skill</a>
+          <a href="#github-weekly">GitHub</a>
+          <a href="#benchmark">AI榜单</a>
+          <a href="#latest">资讯</a>
+          <a href="/pages/about.html">关于</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="wrap hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Updated · <span id="lastUpdated">2026-05-22</span></p>
+            <h1>AI 入口，一页够用。。</h1>
+            <p class="lead">按目标找 AI：选工具、看榜单、提效率、做内容、搭知识库。。</p>
+            <div class="hero-search" role="search">
+              <input id="searchInput" type="search" placeholder="搜索 AI 工具、Skill、GitHub 项目、模型..." />
+              <a class="button primary" href="#latest">搜索</a>
+            </div>
+          </div>
+          <aside class="ad-slot hero-ad" aria-label="顶部广告位">
+            <span>AD</span>
+            <strong>顶部广告位</strong>
+            <small>通过 AdSense 后替换为广告代码</small>
+          </aside>
+        </div>
+      </section>
+
+      <section id="latest" class="wrap latest-section">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Latest</p>
+            <h2>最新资讯</h2>
+          </div>
+          <div class="latest-tools">
+            <select id="sortSelect" aria-label="排序">
+              <option value="newest">最新优先</option>
+              <option value="source">按来源排序</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="ticker" aria-label="今日AI快讯">
+          <strong>今日AI快讯</strong>
+          <div id="tickerTrack" class="ticker-track"></div>
+        </div>
+
+        <div id="newsGrid" class="news-grid compact-news"></div>
+        <div class="section-more-wrap">
+          <a class="section-more-btn" href="/pages/history.html">查看完整资讯 →</a>
+        </div>
+
+        <div class="historical-news" aria-label="历史AI快讯">
+          <div class="section-head compact">
+            <div>
+              <p class="eyebrow">History</p>
+              <h2>历史AI快讯</h2>
+            </div>
+          </div>
+          <div id="historicalNewsGrid" class="historical-news-grid"></div>
+          <div class="section-more-wrap">
+            <a class="section-more-btn" href="/pages/history.html">查看更多快讯</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="topics" class="wrap topics">
+        <div class="section-head">
+          <div>
+                <p class="eyebrow">Start Here</p>
+                <h2>你想用 AI 做什么？</h2>
+          </div>
+        </div>
+        <div id="topicGrid" class="topic-grid"></div>
+      </section>
+
+      <section class="wrap home-columns">
+        <div id="skills" class="home-block">
+          <div class="section-head compact">
+            <div>
+              <p class="eyebrow">AI Skills</p>
+              <h2>Skill 推荐</h2>
+            </div>
+          </div>
+          <div id="skillGrid" class="skill-grid compact-grid"></div>
+          <div class="section-more-wrap">
+            <a class="section-more-btn" href="/pages/skills.html">查看往期热点 →</a>
+          </div>
+        </div>
+
+        <div id="github-weekly" class="home-block">
+          <div class="section-head compact">
+            <div>
+              <p class="eyebrow">GitHub Weekly</p>
+              <h2>一周 GitHub</h2>
+            </div>
+          </div>
+          <div id="githubGrid" class="github-grid compact-grid"></div>
+          <div class="section-more-wrap">
+            <a class="section-more-btn" href="/pages/github.html">查看往期热点 →</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="benchmark" class="wrap benchmark">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">AI Benchmarks</p>
+            <h2>AI榜单与测评集</h2>
+          </div>
+          <a
+            class="read-link"
+            href="/pages/benchmark.html"
+          >完整页面</a>
+        </div>
+        <div class="benchmark-stack">
+          <div>
+            <div class="mini-head">
+              <h3>专业榜单来源</h3>
+              <span>按用途选择，不看单一总榜</span>
+            </div>
+            <div id="benchmarkBoardGrid" class="benchmark-board-grid"></div>
+            <div class="section-more-wrap">
+              <a class="section-more-btn" href="/pages/benchmark.html#boards">查看完整榜单 →</a>
+            </div>
+          </div>
+          <div>
+            <div class="mini-head">
+              <h3>常见测评数据集</h3>
+              <span>LLM、ASR、TTS、OCR、Embedding、视频</span>
+            </div>
+            <div id="benchmarkDatasetGrid" class="benchmark-dataset-grid"></div>
+            <div class="section-more-wrap">
+              <a class="section-more-btn" href="/pages/benchmark.html#datasets">查看完整数据集 →</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="sources" class="wrap sources">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Sources</p>
+            <h2>常用信息源</h2>
+          </div>
+        </div>
+        <div id="sourceGrid" class="source-grid"></div>
+        <div class="section-more-wrap">
+          <a class="section-more-btn" href="/pages/about.html#sources">查看完整信息源 →</a>
+        </div>
+      </section>
+
+      <section id="adsense" class="wrap ad-strip" aria-label="底部广告位">
+        <div class="ad-slot">
+          <span>AD</span>
+          <strong>信息流广告位</strong>
+          <small>审核前保留占位；通过 AdSense 后再替换代码</small>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-grid">
+        <span>AI工具导航</span>
+        <span>
+          <a href="/pages/about.html">关于</a>
+          <a href="/pages/contact.html">联系</a>
+          <a href="/pages/privacy.html">隐私政策</a>
+        </span>
+      </div>
+    </footer>
+
+    <div id="detailModal" class="detail-modal" aria-hidden="true">
+      <div class="detail-backdrop" data-close-detail></div>
+      <article class="detail-panel" role="dialog" aria-modal="true" aria-labelledby="detailTitle">
+        <button class="detail-close" type="button" aria-label="关闭详情" data-close-detail>×</button>
+        <div id="detailContent"></div>
+      </article>
+    </div>
+
+    <script src="/assets/data/data.js?v=1779529885"></script>
+    <script src="/assets/data/generated-data.js?v=1779529885"></script>
+    <script src="/assets/data/data-merge.js?v=1779529885"></script>
+    <script src="/assets/js/app.js"></script>
+  </body>
+</html>

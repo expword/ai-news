@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI 测评数据集详情 - AI工具导航</title>
+    <meta
+      name="description"
+      content="AI 测评数据集详情页，整C-Eval、CMMLU、MMLU-Pro、GPQA、SWE-bench、LiveCodeBench、BFCL、MMMU、ASR、TTS、MTEB、OCRBench、DocVQA 等数据集
+    />
+    <meta name="robots" content="index,follow" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap header-grid">
+        <a class="brand" href="/" aria-label="AI工具导航首页">
+          <span class="brand-mark">AI</span>
+          <span>
+            <strong>AI工具导航</strong>
+            <small>测评数据</small>
+          </span>
+        </a>
+        <nav class="top-nav" aria-label="主导航">
+          <a href="/">首页</a>
+          <a href="/pages/benchmark.html">榜单测评</a>
+          <a href="/pages/category.html?id=ai-tools">工具</a>
+          <a href="/pages/skills.html">Skill</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="dataset-detail-page">
+      <section class="wrap dataset-detail-hero">
+        <a class="back-link" href="/pages/benchmark.html#datasets">返回测评数据</a>
+        <p class="eyebrow">Benchmark Dataset</p>
+        <h1 id="datasetTitle">测评数据</h1>
+        <p id="datasetSubtitle" class="lead"></p>
+        <p id="datasetSummary" class="category-pitch"></p>
+      </section>
+
+      <section class="wrap dataset-detail-layout">
+        <aside class="dataset-detail-sidebar">
+          <div class="panel">
+            <h2>本页目录</h2>
+            <nav class="side-links" aria-label="数据集目录">
+              <a href="#facts">信息</a>
+              <a href="#rankings">Top20 排行</a>
+              <a href="#evaluates">评测</a>
+              <a href="#metrics">指标</a>
+              <a href="#usecases">适用</a>
+              <a href="#limits">局限提</a>
+              <a href="#sources">来源</a>
+            </nav>
+          </div>
+          <div class="panel ad-box">
+            <span>广告</span>
+            <strong>Dataset Sidebar</strong>
+            <small>可放 AdSense 侧栏广告</small>
+          </div>
+        </aside>
+
+        <div class="dataset-detail-content">
+          <section id="facts" class="category-section">
+            <div class="section-head">
+              <div>
+                <p class="eyebrow">Facts</p>
+                <h2>信息</h2>
+              </div>
+            </div>
+            <div id="datasetFacts" class="dataset-fact-grid"></div>
+          </section>
+
+          <section id="rankings" class="category-section">
+            <div class="section-head">
+              <div>
+                <p class="eyebrow">Leaderboard</p>
+                <h2>Top20 排行榜快</h2>
+              </div>
+            </div>
+            <div id="datasetRankingsMeta" class="dataset-ranking-meta"></div>
+            <div id="datasetRankingsTableWrap"></div>
+          </section>
+
+          <section id="evaluates" class="category-section">
+            <div class="section-head">
+              <div>
+                <p class="eyebrow">Evaluation</p>
+                <h2>它主要测什</h2>
+              </div>
+            </div>
+            <div id="datasetEvaluates" class="dataset-content-list"></div>
+          </section>
+
+          <section id="metrics" class="category-section">
+            <div class="section-head">
+              <div>
+                <p class="eyebrow">Metrics</p>
+                <h2>看哪些指</h2>
+              </div>
+            </div>
+            <div id="datasetMetrics" class="dataset-content-list"></div>
+          </section>
+
+          <section id="usecases" class="category-section">
+            <div class="section-head">
+              <div>
+                <p class="eyebrow">Use Cases</p>
+                <h2>适合用来判断什</h2>
+              </div>
+            </div>
+            <div id="datasetUseCases" class="dataset-content-list"></div>
+          </section>
+
+          <section id="limits" class="category-section">
+            <div class="section-head">
+              <div>
+                <p class="eyebrow">Cautions</p>
+                <h2>局限</h2>
+              </div>
+            </div>
+            <div id="datasetLimitations" class="dataset-content-list warning-list"></div>
+          </section>
+
+          <section id="sources" class="category-section">
+            <div class="section-head">
+              <div>
+                <p class="eyebrow">Sources</p>
+                <h2>来源与论</h2>
+              </div>
+            </div>
+            <div id="datasetSources" class="dataset-source-grid"></div>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <script src="/assets/data/data.js?v=1779529885"></script>
+    <script src="/assets/data/generated-data.js?v=1779529885"></script>
+    <script src="/assets/data/data-merge.js?v=1779529885"></script>
+    <script src="/assets/js/dataset.js"></script>
+  </body>
+</html>

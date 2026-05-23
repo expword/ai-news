@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GitHub 项目详情 - AI工具导航</title>
+    <meta name="description" content="单个 GitHub AI 项目详情，含语言、star 增量、推荐理由和仓库链接 />
+    <meta name="robots" content="index,follow" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap header-grid">
+        <a class="brand" href="/" aria-label="AI工具导航首页">
+          <span class="brand-mark">AI</span>
+          <span>
+            <strong>AI工具导航</strong>
+            <small>GitHub 详情</small>
+          </span>
+        </a>
+        <nav class="top-nav" aria-label="主导航">
+          <a href="/">首页</a>
+          <a href="/pages/github.html">GitHub 周榜</a>
+          <a href="/pages/skills.html">每周 Skill</a>
+          <a href="/pages/benchmark.html">榜单</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="dataset-detail-page">
+      <section class="wrap dataset-detail-hero">
+        <a id="backToWeek" class="back-link" href="/pages/github.html">返回 GitHub 周榜</a>
+        <p class="eyebrow">GitHub Project</p>
+        <h1 id="projTitle">GitHub 项目</h1>
+        <p id="projLang" class="lead"></p>
+        <p id="projDescription" class="category-pitch"></p>
+      </section>
+
+      <section class="wrap dataset-detail-layout">
+        <aside class="dataset-detail-sidebar">
+          <div class="panel">
+            <h2>本页目录</h2>
+            <nav class="side-links" aria-label="项目目录">
+              <a href="#facts">信息</a>
+              <a href="#details">介绍</a>
+              <a href="#features">核心特</a>
+              <a href="#quickstart">快速开</a>
+              <a href="#why">为什么看</a>
+              <a href="#source">仓库链接</a>
+            </nav>
+          </div>
+          <div class="panel ad-box">
+            <span>广告</span>
+            <strong>GitHub Sidebar</strong>
+            <small>可放 AdSense 侧栏广告</small>
+          </div>
+        </aside>
+
+        <div class="dataset-detail-content">
+          <section id="facts" class="category-section">
+            <div class="section-head">
+              <div>
+                <p class="eyebrow">Facts</p>
+                <h2>信息</h2>
+              </div>
+            </div>
+            <div id="projFacts" class="dataset-fact-grid"></div>
+          </section>
+
+          <section id="details" class="category-section">
+            <div class="section-head">
+              <div>
+                <p class="eyebrow">Details</p>
+                <h2>介绍</h2>
+              </div>
+            </div>
+            <div id="projDetails" class="dataset-content-list"></div>
+          </section>
+
+          <section id="features" class="category-section">
+            <div class="section-head">
+              <div>
+                <p class="eyebrow">Features</p>
+                <h2>核心特</h2>
+              </div>
+            </div>
+            <div id="projFeatures" class="dataset-content-list"></div>
+          </section>
+
+          <section id="quickstart" class="category-section">
+            <div class="section-head">
+              <div>
+                <p class="eyebrow">Quick Start</p>
+                <h2>快速开</h2>
+              </div>
+            </div>
+            <div id="projQuickStart" class="dataset-content-list"></div>
+          </section>
+
+          <section id="why" class="category-section">
+            <div class="section-head">
+              <div>
+                <p class="eyebrow">Why</p>
+                <h2>为什么值得</h2>
+              </div>
+            </div>
+            <div id="projWhy" class="dataset-content-list"></div>
+          </section>
+
+          <section id="source" class="category-section">
+            <div class="section-head">
+              <div>
+                <p class="eyebrow">Source</p>
+                <h2>仓库与趋势来</h2>
+              </div>
+            </div>
+            <div id="projSource" class="dataset-source-grid"></div>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <script src="/assets/data/data.js?v=1779529885"></script>
+    <script src="/assets/data/generated-data.js?v=1779529885"></script>
+    <script src="/assets/data/data-merge.js?v=1779529885"></script>
+    <script src="/assets/js/github-item.js"></script>
+  </body>
+</html>

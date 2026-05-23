@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>本周 Skill 详情 - AI工具导航</title>
+    <meta name="description" content="某一周内整理agent-skills、Claude Code Skill、MCP、prompt 模板等推荐合集 />
+    <meta name="robots" content="index,follow" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap header-grid">
+        <a class="brand" href="/" aria-label="AI工具导航首页">
+          <span class="brand-mark">AI</span>
+          <span>
+            <strong>AI工具导航</strong>
+            <small>Skill 周详</small>
+          </span>
+        </a>
+        <nav class="top-nav" aria-label="主导航">
+          <a href="/">首页</a>
+          <a href="/pages/skills.html">每周 Skill</a>
+          <a href="/pages/github.html">GitHub 周榜</a>
+          <a href="/pages/benchmark.html">榜单</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="category-page">
+      <section class="wrap category-hero">
+        <a class="back-link" href="/pages/skills.html#weeks">返回每周 Skill</a>
+        <p class="eyebrow">Weekly Skills</p>
+        <h1 id="weekTitle">本周 Skill</h1>
+        <p id="weekSubtitle" class="lead"></p>
+        <p id="weekSummary" class="category-pitch"></p>
+      </section>
+
+      <section class="wrap category-layout">
+        <aside class="category-sidebar">
+          <div class="panel">
+            <h2>本周目录</h2>
+            <nav id="skillTypeNav" class="side-links" aria-label="Skill 类型目录"></nav>
+          </div>
+          <div class="panel ad-box">
+            <span>广告</span>
+            <strong>Weekly Sidebar</strong>
+            <small>可放 AdSense 侧栏广告</small>
+          </div>
+        </aside>
+
+        <div class="category-content">
+          <section id="skills" class="category-section">
+            <div class="section-head">
+              <div>
+                <p class="eyebrow">Skills</p>
+                <h2>本周收录</h2>
+              </div>
+            </div>
+            <div id="weekSkillGrid" class="benchmark-board-grid"></div>
+          </section>
+
+          <section id="github" class="category-section">
+            <div class="section-head">
+              <div>
+                <p class="eyebrow">GitHub</p>
+                <h2>本周 GitHub 趋势</h2>
+              </div>
+            </div>
+            <p class="card-hint">本周 GitHub 趋势已单独整理在 GitHub 周榜里，下面是入口</p>
+            <div id="weekGithubLink"></div>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <script src="/assets/data/data.js?v=1779529885"></script>
+    <script src="/assets/data/generated-data.js?v=1779529885"></script>
+    <script src="/assets/data/data-merge.js?v=1779529885"></script>
+    <script src="/assets/js/skill-week.js"></script>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+.env
+.server.pid
+.claude/
+data/scheduler-state.json
+node_modules/
+__pycache__/
+backend/__pycache__/
+add_github_category.py
+fix_headings.py
+fix_truncations.py

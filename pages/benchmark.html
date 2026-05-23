@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI榜单测评 - LLM、ASR、TTS、OCR、Embedding、视频生成</title>
+    <meta
+      name="description"
+      content="AI榜单测评导航，整理大模型、ASR、TTS、OCR、Embedding、RAG、代码、Agent和视频生成的真实榜单与测评数据集
+    />
+    <meta name="robots" content="index,follow" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap header-grid">
+        <a class="brand" href="/" aria-label="AI工具导航首页">
+          <span class="brand-mark">AI</span>
+          <span>
+            <strong>AI工具导航</strong>
+            <small>榜单测评</small>
+          </span>
+        </a>
+        <nav class="top-nav" aria-label="主导航">
+          <a href="/">首页</a>
+          <a href="/pages/category.html?id=ai-tools">工具</a>
+          <a href="/pages/skills.html">Skill</a>
+          <a href="/pages/about.html">关于</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="category-page">
+      <section class="wrap category-hero">
+        <a class="back-link" href="/#topics">返回首页</a>
+        <p class="eyebrow">AI Benchmarks</p>
+        <h1>AI 榜单测评导航</h1>
+        <p class="lead">
+          不同榜单测的是不同能力。这里把 LLM、ASR、TTS、OCR、Embedding、代码、Agent 和视频生成拆开看        </p>
+        <p class="category-pitch">
+          选模型不要只看一个总排名。专业榜单区只展示可核对 Top20 的来源，ASR、TTS、OCR 等未补齐 Top20 的项目先放在数据集内容页        </p>
+      </section>
+
+      <section class="wrap category-layout">
+        <aside class="category-sidebar">
+          <div class="panel">
+            <label class="search-label" for="benchmarkSearch">搜索榜单</label>
+            <input id="benchmarkSearch" type="search" placeholder="搜索 ASR、TTS、OCR、MTEB..." />
+          </div>
+          <div class="panel">
+            <h2>本页目录</h2>
+            <nav class="side-links" aria-label="榜单目录">
+              <a href="#boards">专业榜单</a>
+              <a href="#datasets">测评数据</a>
+              <a href="#guide">怎么解读</a>
+            </nav>
+          </div>
+        </aside>
+
+        <div class="category-content">
+          <section id="boards" class="category-section">
+            <div class="section-head">
+              <div>
+                <p class="eyebrow">Boards</p>
+                <h2>专业榜单来源</h2>
+              </div>
+            </div>
+            <div id="boardGrid" class="benchmark-board-grid"></div>
+          </section>
+
+          <section id="datasets" class="category-section">
+            <div class="section-head">
+              <div>
+                <p class="eyebrow">Datasets</p>
+                <h2>测评数据</h2>
+              </div>
+            </div>
+            <div id="datasetGrid" class="benchmark-dataset-grid"></div>
+          </section>
+
+          <section id="guide" class="category-section">
+            <div class="section-head">
+              <div>
+                <p class="eyebrow">Guide</p>
+                <h2>榜单怎么</h2>
+              </div>
+            </div>
+            <div class="plan-grid">
+              <article class="plan-card">
+                <strong>先看任务</strong>
+                <p>聊天体验、代码修复、语音识别、TTS 自然度、OCR 文档理解，不能用同一个榜单判断</p>
+              </article>
+              <article class="plan-card">
+                <strong>再看指标</strong>
+                <p>ASR WER，TTS 看自然度/韵律，Embedding 看检索指标，Agent 看工具调用和真实任务完成率</p>
+              </article>
+              <article class="plan-card wide">
+                <strong>最后自己复</strong>
+                <p>公开榜单适合初筛，不适合直接替代业务测试。真正上线前，要用自己的语料、场景和预算复测</p>
+              </article>
+            </div>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <script src="/assets/data/data.js?v=1779529885"></script>
+    <script src="/assets/data/generated-data.js?v=1779529885"></script>
+    <script src="/assets/data/data-merge.js?v=1779529885"></script>
+    <script src="/assets/js/benchmark.js"></script>
+  </body>
+</html>

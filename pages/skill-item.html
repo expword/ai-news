@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Skill 详情 - AI工具导航</title>
+    <meta name="description" content="单条 Skill 详情，含适用场景、类型、原始来源和使用建议 />
+    <meta name="robots" content="index,follow" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap header-grid">
+        <a class="brand" href="/" aria-label="AI工具导航首页">
+          <span class="brand-mark">AI</span>
+          <span>
+            <strong>AI工具导航</strong>
+            <small>Skill 详情</small>
+          </span>
+        </a>
+        <nav class="top-nav" aria-label="主导航">
+          <a href="/">首页</a>
+          <a href="/pages/skills.html">每周 Skill</a>
+          <a href="/pages/github.html">GitHub 周榜</a>
+          <a href="/pages/benchmark.html">榜单</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="dataset-detail-page">
+      <section class="wrap dataset-detail-hero">
+        <a id="backToWeek" class="back-link" href="/pages/skills.html">返回每周 Skill</a>
+        <p class="eyebrow">Weekly Skill</p>
+        <h1 id="skillTitle">Skill 详情</h1>
+        <p id="skillType" class="lead"></p>
+        <p id="skillDescription" class="category-pitch"></p>
+      </section>
+
+      <section class="wrap dataset-detail-layout">
+        <aside class="dataset-detail-sidebar">
+          <div class="panel">
+            <h2>本页目录</h2>
+            <nav class="side-links" aria-label="Skill 目录">
+              <a href="#facts">信息</a>
+              <a href="#details">介绍</a>
+              <a href="#features">核心特</a>
+              <a href="#usecases">使用场景</a>
+              <a href="#tags">关键</a>
+              <a href="#source">来源</a>
+            </nav>
+          </div>
+          <div class="panel ad-box">
+            <span>广告</span>
+            <strong>Skill Sidebar</strong>
+            <small>可放 AdSense 侧栏广告</small>
+          </div>
+        </aside>
+
+        <div class="dataset-detail-content">
+          <section id="facts" class="category-section">
+            <div class="section-head">
+              <div>
+                <p class="eyebrow">Facts</p>
+                <h2>信息</h2>
+              </div>
+            </div>
+            <div id="skillFacts" class="dataset-fact-grid"></div>
+          </section>
+
+          <section id="details" class="category-section">
+            <div class="section-head">
+              <div>
+                <p class="eyebrow">Details</p>
+                <h2>介绍</h2>
+              </div>
+            </div>
+            <div id="skillDetails" class="dataset-content-list"></div>
+          </section>
+
+          <section id="features" class="category-section">
+            <div class="section-head">
+              <div>
+                <p class="eyebrow">Features</p>
+                <h2>核心特</h2>
+              </div>
+            </div>
+            <div id="skillFeatures" class="dataset-content-list"></div>
+          </section>
+
+          <section id="usecases" class="category-section">
+            <div class="section-head">
+              <div>
+                <p class="eyebrow">Use Cases</p>
+                <h2>适合</ 使用场景</h2>
+              </div>
+            </div>
+            <div id="skillUseCases" class="dataset-content-list"></div>
+          </section>
+
+          <section id="tags" class="category-section">
+            <div class="section-head">
+              <div>
+                <p class="eyebrow">Tags</p>
+                <h2>关键</h2>
+              </div>
+            </div>
+            <div id="skillTags" class="tag-row"></div>
+          </section>
+
+          <section id="source" class="category-section">
+            <div class="section-head">
+              <div>
+                <p class="eyebrow">Source</p>
+                <h2>来源</h2>
+              </div>
+            </div>
+            <div id="skillSource" class="dataset-source-grid"></div>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <script src="/assets/data/data.js?v=1779529885"></script>
+    <script src="/assets/data/generated-data.js?v=1779529885"></script>
+    <script src="/assets/data/data-merge.js?v=1779529885"></script>
+    <script src="/assets/js/skill-item.js"></script>
+  </body>
+</html>

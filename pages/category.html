@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI 分类详情 - AI工具导航</title>
+    <meta name="description" content="AI 分类详情页：整理这个方向的真实工具、适合人群、典型使用场景与注意事项。" />
+    <meta name="robots" content="index,follow" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap header-grid">
+        <a class="brand" href="/" aria-label="AI工具导航首页">
+          <span class="brand-mark">AI</span>
+          <span>
+            <strong>AI工具导航</strong>
+            <small>分类详情</small>
+          </span>
+        </a>
+        <nav class="top-nav" aria-label="主导航">
+          <a href="/#topics">分类</a>
+          <a href="/pages/skills.html">Skill</a>
+          <a href="/pages/github.html">GitHub</a>
+          <a href="/pages/benchmark.html">榜单</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="detail-v2">
+      <section class="detail-hero wrap">
+        <a class="back-link" href="/#topics">← 返回首页分类</a>
+        <div class="detail-hero-grid">
+          <div class="detail-hero-copy">
+            <div class="detail-hero-meta">
+              <span class="chip chip-accent">AI Category</span>
+              <span id="categoryCount" class="chip chip-muted"></span>
+            </div>
+            <h1 id="categoryTitle">AI 分类</h1>
+            <p id="categoryDescription" class="detail-hero-lead"></p>
+            <div id="categoryTags" class="tag-row"></div>
+            <div class="hero-search" role="search" style="margin-top:18px;">
+              <input id="resourceSearch" type="search" placeholder="搜索工具、场景、来源..." />
+            </div>
+          </div>
+          <aside class="detail-hero-card" id="categoryIntro">
+            <div class="tldr-badge">速读</div>
+            <h3 id="categoryIntroTitle"></h3>
+            <p id="categoryPitch" class="hero-card-pitch"></p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="wrap detail-body-layout">
+        <div class="detail-body-main">
+          <section class="detail-block tone-info" id="resources-section">
+            <div class="detail-block-head">
+              <span class="detail-block-icon">🧰</span>
+              <h2>真实工具与项目</h2>
+            </div>
+            <div id="resourceGrid" class="resource-grid-v2"></div>
+          </section>
+
+          <section class="detail-block tone-soft" id="audience-section" hidden>
+            <div class="detail-block-head">
+              <span class="detail-block-icon">👥</span>
+              <h2>适合谁</h2>
+            </div>
+            <p id="categoryAudience" class="detail-paragraph"></p>
+          </section>
+
+          <section class="detail-block tone-highlight" id="howto-section" hidden>
+            <div class="detail-block-head">
+              <span class="detail-block-icon">🎯</span>
+              <h2>关注点</h2>
+            </div>
+            <p id="categoryIntent" class="detail-paragraph"></p>
+          </section>
+
+          <section class="detail-block tone-warn" id="tips-section">
+            <div class="detail-block-head">
+              <span class="detail-block-icon">⚠️</span>
+              <h2>选型提醒</h2>
+            </div>
+            <ul id="categoryTips" class="warn-list"></ul>
+          </section>
+        </div>
+
+        <aside class="detail-side">
+          <div class="side-card">
+            <h4>本页目录</h4>
+            <nav class="side-meta">
+              <div><dt>·</dt><dd><a href="#resources-section">真实工具</a></dd></div>
+              <div><dt>·</dt><dd><a href="#audience-section">适合谁</a></dd></div>
+              <div><dt>·</dt><dd><a href="#howto-section">怎么用</a></dd></div>
+              <div><dt>·</dt><dd><a href="#tips-section">注意事项</a></dd></div>
+            </nav>
+          </div>
+          <div class="side-card side-cta-card">
+            <h4>更多入口</h4>
+            <p>看相关 Skill、GitHub 项目和评测榜单。</p>
+            <a class="btn-primary btn-block" href="/pages/skills.html">Skill 分类</a>
+            <a class="btn-ghost btn-block" href="/pages/github.html" style="margin-top:8px;">GitHub 分类</a>
+            <a class="btn-ghost btn-block" href="/pages/benchmark.html" style="margin-top:8px;">AI 榜单</a>
+          </div>
+          <div class="side-card ad-slot">
+            <span>AD</span>
+            <strong>分类页广告位</strong>
+            <small>AdSense 通过后接入真实代码</small>
+          </div>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-grid">
+        <span>AI工具导航</span>
+        <span>
+          <a href="/pages/about.html">关于</a>
+          <a href="/pages/contact.html">联系</a>
+          <a href="/pages/privacy.html">隐私政策</a>
+        </span>
+      </div>
+    </footer>
+
+    <script src="/assets/data/data.js?v=1779529885"></script>
+    <script src="/assets/data/generated-data.js?v=1779529885"></script>
+    <script src="/assets/data/data-merge.js?v=1779529885"></script>
+    <script src="/assets/js/category.js"></script>
+  </body>
+</html>

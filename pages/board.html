@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI 榜单详情 - AI工具导航</title>
+    <meta
+      name="description"
+      content="AI 榜单详情页，展示榜单覆盖任务、Top20 排名快照与官方来源
+    />
+    <meta name="robots" content="index,follow" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap header-grid">
+        <a class="brand" href="/" aria-label="AI工具导航首页">
+          <span class="brand-mark">AI</span>
+          <span>
+            <strong>AI工具导航</strong>
+            <small>榜单详情</small>
+          </span>
+        </a>
+        <nav class="top-nav" aria-label="主导航">
+          <a href="/">首页</a>
+          <a href="/pages/benchmark.html">榜单测评</a>
+          <a href="/pages/category.html?id=ai-tools">工具</a>
+          <a href="/pages/skills.html">Skill</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="dataset-detail-page">
+      <section class="wrap dataset-detail-hero">
+        <a class="back-link" href="/pages/benchmark.html#boards">返回专业榜单</a>
+        <p class="eyebrow">Benchmark Board</p>
+        <h1 id="boardTitle">榜单详情</h1>
+        <p id="boardType" class="lead"></p>
+        <p id="boardDescription" class="category-pitch"></p>
+      </section>
+
+      <section class="wrap dataset-detail-layout">
+        <aside class="dataset-detail-sidebar">
+          <div class="panel">
+            <h2>本页目录</h2>
+            <nav class="side-links" aria-label="榜单目录">
+              <a href="#facts">信息</a>
+              <a href="#rankings">Top20 排行</a>
+              <a href="#tags">覆盖数据</a>
+              <a href="#source">来源</a>
+            </nav>
+          </div>
+          <div class="panel ad-box">
+            <span>广告</span>
+            <strong>Board Sidebar</strong>
+            <small>可放 AdSense 侧栏广告</small>
+          </div>
+        </aside>
+
+        <div class="dataset-detail-content">
+          <section id="facts" class="category-section">
+            <div class="section-head">
+              <div>
+                <p class="eyebrow">Facts</p>
+                <h2>信息</h2>
+              </div>
+            </div>
+            <div id="boardFacts" class="dataset-fact-grid"></div>
+          </section>
+
+          <section id="rankings" class="category-section">
+            <div class="section-head">
+              <div>
+                <p class="eyebrow">Leaderboard</p>
+                <h2>Top20 排行榜快</h2>
+              </div>
+            </div>
+            <div id="boardRankingsMeta" class="dataset-ranking-meta"></div>
+            <div id="boardRankingsTableWrap"></div>
+            <p id="boardRankingsFallback" class="card-hint" hidden></p>
+          </section>
+
+          <section id="tags" class="category-section">
+            <div class="section-head">
+              <div>
+                <p class="eyebrow">Datasets</p>
+                <h2>数据集</h2>
+              </div>
+            </div>
+            <div id="boardDatasets" class="tag-row"></div>
+          </section>
+
+          <section id="source" class="category-section">
+            <div class="section-head">
+              <div>
+                <p class="eyebrow">Source</p>
+                <h2>来源</h2>
+              </div>
+            </div>
+            <div id="boardSource" class="dataset-source-grid"></div>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <script src="/assets/data/data.js?v=1779529885"></script>
+    <script src="/assets/data/generated-data.js?v=1779529885"></script>
+    <script src="/assets/data/data-merge.js?v=1779529885"></script>
+    <script src="/assets/js/board.js"></script>
+  </body>
+</html>

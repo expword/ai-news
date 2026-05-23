@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI快讯详情 - AI工具导航</title>
+    <meta name="description" content="AI快讯详情页，提供事件说明、影响解读、内容延伸建议和原始来源链接。" />
+    <meta name="robots" content="index,follow" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap header-grid">
+        <a class="brand" href="/" aria-label="AI工具导航首页">
+          <span class="brand-mark">AI</span>
+          <span>
+            <strong>AI工具导航</strong>
+            <small>快讯详情</small>
+          </span>
+        </a>
+        <nav class="top-nav" aria-label="主导航">
+          <a href="/">首页</a>
+          <a href="/pages/history.html">历史快讯</a>
+          <a href="/pages/github.html">GitHub</a>
+          <a href="/pages/benchmark.html">榜单</a>
+          <a href="/pages/about.html">关于</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="detail-v2">
+      <section class="detail-hero wrap">
+        <a class="back-link" href="/pages/history.html">← 返回历史快讯</a>
+        <div class="detail-hero-grid">
+          <div class="detail-hero-copy">
+            <div class="detail-hero-meta">
+              <span id="newsCategoryChip" class="chip chip-accent">AI News</span>
+              <span id="newsDateChip" class="chip chip-muted"></span>
+              <span id="newsSourceChip" class="chip chip-muted"></span>
+            </div>
+            <h1 id="newsTitle">AI快讯详情</h1>
+            <p id="newsLead" class="detail-hero-lead"></p>
+            <div id="newsTags" class="tag-row"></div>
+            <div class="detail-hero-actions">
+              <a id="newsSourceCtaTop" class="btn-primary" target="_blank" rel="noopener">查看原文 →</a>
+              <a class="btn-ghost" href="/pages/history.html">浏览更多快讯</a>
+            </div>
+          </div>
+          <aside class="detail-hero-card" id="newsTldr">
+            <div class="tldr-badge">核心</div>
+            <ul id="newsKeyPointsTop" class="tldr-list"></ul>
+          </aside>
+        </div>
+      </section>
+
+      <section class="wrap detail-body-layout">
+        <div class="detail-body-main" id="newsBody"></div>
+
+        <aside class="detail-side">
+          <div class="side-card">
+            <h4>快讯信息</h4>
+            <dl id="newsMeta" class="side-meta"></dl>
+          </div>
+          <div class="side-card side-cta-card">
+            <h4>原文</h4>
+            <p></p>
+            <a id="newsSourceCtaSide" class="btn-primary btn-block" target="_blank" rel="noopener">查看原文 →</a>
+          </div>
+          <div class="side-card ad-slot">
+            <span>AD</span>
+            <strong>详情页广告位</strong>
+            <small>适合信息流广告</small>
+          </div>
+        </aside>
+      </section>
+
+      <section class="wrap detail-related" id="newsRelatedSection" hidden>
+        <div class="section-head">
+          <p class="eyebrow">Related</p>
+          <h2>同类快讯</h2>
+        </div>
+        <div id="newsRelated" class="related-grid"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-grid">
+        <span>AI工具导航</span>
+        <span>
+          <a href="/pages/about.html">关于</a>
+          <a href="/pages/contact.html">联系</a>
+          <a href="/pages/privacy.html">隐私政策</a>
+        </span>
+      </div>
+    </footer>
+
+    <script src="/assets/data/data.js?v=1779529885"></script>
+    <script src="/assets/data/generated-data.js?v=1779529885"></script>
+    <script src="/assets/data/data-merge.js?v=1779529885"></script>
+    <script src="/assets/js/news-detail.js"></script>
+  </body>
+</html>

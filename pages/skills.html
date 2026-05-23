@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI Skill 分类导航 - AI工具导航</title>
+    <meta
+      name="description"
+      content="AI Skill 分类导航：agent-skills 仓库、MCP / 工作流、Claude Code 官方更新、桌面工具、方法论文章、中文 Prompt 模板等，附每条具体作用。"
+    />
+    <meta name="robots" content="index,follow" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap header-grid">
+        <a class="brand" href="/" aria-label="AI工具导航首页">
+          <span class="brand-mark">AI</span>
+          <span>
+            <strong>AI工具导航</strong>
+            <small>Skill 分类</small>
+          </span>
+        </a>
+        <nav class="top-nav" aria-label="主导航">
+          <a href="/">首页</a>
+          <a href="/pages/github.html">GitHub 项目</a>
+          <a href="/pages/benchmark.html">榜单</a>
+          <a href="/pages/category.html?id=ai-tools">工具</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="detail-v2">
+      <section class="detail-hero wrap">
+        <a class="back-link" href="/">← 返回首页</a>
+        <div class="detail-hero-copy" style="grid-column: 1 / -1;">
+          <div class="detail-hero-meta">
+            <span class="chip chip-accent">AI Skills</span>
+            <span id="skillCountChip" class="chip chip-muted"></span>
+          </div>
+          <h1>AI Skill 分类导航</h1>
+          <p class="detail-hero-lead">
+            把 Claude Code / Cursor / Codex 的 agent-skills 仓库、MCP 工作流、官方平台更新、桌面工具和中文 Prompt 模板按类型整理。每张卡片直接告诉你这个 Skill 具体能做什么。
+          </p>
+          <div class="hero-search" role="search">
+            <input id="skillSearch" type="search" placeholder="搜索 Skill 名称、类型、作用..." />
+          </div>
+        </div>
+      </section>
+
+      <section class="wrap">
+        <nav id="skillCategoryNav" class="category-nav-strip" aria-label="跳转分类"></nav>
+      </section>
+
+      <section class="wrap" id="skillCategorySections"></section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-grid">
+        <span>AI工具导航</span>
+        <span>
+          <a href="/pages/about.html">关于</a>
+          <a href="/pages/contact.html">联系</a>
+          <a href="/pages/privacy.html">隐私政策</a>
+        </span>
+      </div>
+    </footer>
+
+    <script src="/assets/data/data.js?v=1779529885"></script>
+    <script src="/assets/data/generated-data.js?v=1779529885"></script>
+    <script src="/assets/data/data-merge.js?v=1779529885"></script>
+    <script src="/assets/js/skills.js"></script>
+  </body>
+</html>
