@@ -98,6 +98,10 @@
   const audience = nonEmptyList(item.audience);
   const useCases = nonEmptyList(item.useCases || item.scenarios);
   const risks = nonEmptyList(item.risks);
+  const contentIdeas = nonEmptyList(item.contentIdeas);
+  const nextActions = nonEmptyList(item.nextActions);
+  const moduleTargets = nonEmptyList(item.moduleTargets);
+  const routeReason = isSubstantive(item.routeReason, summary) ? item.routeReason : "";
   const url = item.url || "";
 
   // === HERO ===
@@ -160,7 +164,40 @@
     blocks.push(block("warn", "⚠️", "注意", bullets(risks, "warn-list")));
   }
 
-  if (!background && !impact && !audience.length && !useCases.length && !risks.length) {
+  if (contentIdeas.length || nextActions.length) {
+    blocks.push(`
+      <section class="detail-block tone-info detail-dual">
+        <div class="detail-dual-col">
+          <div class="detail-block-head">
+            <span class="detail-block-icon">🧩</span>
+            <h2>可延伸选题</h2>
+          </div>
+          ${contentIdeas.length ? bullets(contentIdeas, "dot-list") : '<p class="muted-text">未注明</p>'}
+        </div>
+        <div class="detail-dual-col">
+          <div class="detail-block-head">
+            <span class="detail-block-icon">✅</span>
+            <h2>下一步</h2>
+          </div>
+          ${nextActions.length ? bullets(nextActions, "dot-list") : '<p class="muted-text">未注明</p>'}
+        </div>
+      </section>
+    `);
+  }
+
+  if (moduleTargets.length || routeReason) {
+    blocks.push(block(
+      "neutral",
+      "📌",
+      "分发到哪里",
+      `
+        ${moduleTargets.length ? bullets(moduleTargets, "dot-list") : ""}
+        ${routeReason ? `<p class="detail-paragraph">${routeReason}</p>` : ""}
+      `
+    ));
+  }
+
+  if (!background && !impact && !audience.length && !useCases.length && !risks.length && !contentIdeas.length && !nextActions.length) {
     blocks.push(`
       <section class="detail-block tone-soft">
         <div class="detail-block-head">
@@ -192,6 +229,7 @@
     { k: "日期", v: item.date || "—" },
     { k: "分类", v: category },
     { k: "来源", v: item.source || "—" },
+    { k: "模块", v: moduleTargets.join("、") || "news" },
     { k: "标签", v: (item.tags || []).join("、") || "—" },
   ].map((m) => `<div><dt>${m.k}</dt><dd>${m.v}</dd></div>`).join("");
 

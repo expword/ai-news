@@ -236,77 +236,93 @@ def fetch_github_candidates(since: str) -> list[dict]:
     return uniq_by(results, lambda item: item.get("name"))[:20]
 
 
-def fetch_news_api_items() -> list[dict]:
-    """轮询 SEARCH_QUERIES 所有关键词，覆盖每个已配置的新闻 API。
-    单次每个 query 拉 5 条，6 个 query × 7 个 API = 最多约 42 次 API 调用，
-    在每个免费层 100 次/天的额度内安全运行。"""
+def fetch_news_api_items(since: str | None = None, until: str | None = None) -> list[dict]:
+    """轮询 SEARCH_QUERIES 全部关键词，覆盖每个已配置的新闻 API。
+    since/until 是 'YYYY-MM-DD' 字符串；None 表示拿最新。"""
     items: list[dict] = []
-    queries = SEARCH_QUERIES[:6]  # 每次跑前 6 个关键词，避免烧 quota
+    queries = SEARCH_QUERIES[:6]
 
-    def add(title, summary, url, source):
+    def add(title, summary, url, source, published_date=None):
         if title and url:
-            items.append({"title": title, "summary": summary or "", "url": url, "source": source})
+            items.append({
+                "title": title, "summary": summary or "", "url": url, "source": source,
+                "_date_hint": published_date,
+            })
 
     if os.getenv("NEWSAPI_KEY"):
         for q in queries:
-            params = urllib.parse.urlencode({"q": q, "language": "en", "sortBy": "publishedAt", "pageSize": "5", "apiKey": os.getenv("NEWSAPI_KEY")})
+            params = {"q": q, "language": "en", "sortBy": "publishedAt", "pageSize": "10", "apiKey": os.getenv("NEWSAPI_KEY")}
+            if since: params["from"] = since
+            if until: params["to"] = until
             try:
-                for article in request_json(f"https://newsapi.org/v2/everything?{params}").get("articles", []):
-                    add(article.get("title"), article.get("description"), article.get("url"), f"NewsAPI:{q}")
+                for article in request_json(f"https://newsapi.org/v2/everything?{urllib.parse.urlencode(params)}").get("articles", []):
+                    add(article.get("title"), article.get("description"), article.get("url"), f"NewsAPI:{q}", article.get("publishedAt"))
             except Exception:
                 pass
 
     if os.getenv("GNEWS_API_KEY"):
         for q in queries:
-            params = urllib.parse.urlencode({"q": q, "lang": "en", "max": "5", "apikey": os.getenv("GNEWS_API_KEY")})
+            params = {"q": q, "lang": "en", "max": "10", "apikey": os.getenv("GNEWS_API_KEY")}
+            if since: params["from"] = since + "T00:00:00Z"
+            if until: params["to"] = until + "T23:59:59Z"
             try:
-                for article in request_json(f"https://gnews.io/api/v4/search?{params}").get("articles", []):
-                    add(article.get("title"), article.get("description"), article.get("url"), f"GNews:{q}")
+                for article in request_json(f"https://gnews.io/api/v4/search?{urllib.parse.urlencode(params)}").get("articles", []):
+                    add(article.get("title"), article.get("description"), article.get("url"), f"GNews:{q}", article.get("publishedAt"))
             except Exception:
                 pass
 
     if os.getenv("NEWSDATA_API_KEY"):
         for q in queries:
-            params = urllib.parse.urlencode({"apikey": os.getenv("NEWSDATA_API_KEY"), "q": q, "language": "en"})
+            params = {"apikey": os.getenv("NEWSDATA_API_KEY"), "q": q, "language": "en"}
+            if since: params["from_date"] = since
+            if until: params["to_date"] = until
             try:
-                for article in request_json(f"https://newsdata.io/api/1/latest?{params}").get("results", [])[:5]:
-                    add(article.get("title"), article.get("description"), article.get("link"), f"NewsData.io:{q}")
+                for article in request_json(f"https://newsdata.io/api/1/latest?{urllib.parse.urlencode(params)}").get("results", [])[:10]:
+                    add(article.get("title"), article.get("description"), article.get("link"), f"NewsData.io:{q}", article.get("pubDate"))
             except Exception:
                 pass
 
     if os.getenv("GUARDIAN_API_KEY"):
         for q in queries:
-            params = urllib.parse.urlencode({"q": q, "api-key": os.getenv("GUARDIAN_API_KEY"), "page-size": "5", "order-by": "newest"})
+            params = {"q": q, "api-key": os.getenv("GUARDIAN_API_KEY"), "page-size": "10", "order-by": "newest"}
+            if since: params["from-date"] = since
+            if until: params["to-date"] = until
             try:
-                for article in request_json(f"https://content.guardianapis.com/search?{params}").get("response", {}).get("results", []):
-                    add(article.get("webTitle"), "", article.get("webUrl"), f"The Guardian:{q}")
+                for article in request_json(f"https://content.guardianapis.com/search?{urllib.parse.urlencode(params)}").get("response", {}).get("results", []):
+                    add(article.get("webTitle"), "", article.get("webUrl"), f"The Guardian:{q}", article.get("webPublicationDate"))
             except Exception:
                 pass
 
     if os.getenv("CURRENTS_API_KEY"):
         for q in queries:
-            params = urllib.parse.urlencode({"keywords": q, "language": "en", "apiKey": os.getenv("CURRENTS_API_KEY")})
+            params = {"keywords": q, "language": "en", "apiKey": os.getenv("CURRENTS_API_KEY")}
+            if since: params["start_date"] = since + "T00:00:00.00+00:00"
+            if until: params["end_date"] = until + "T23:59:59.99+00:00"
             try:
-                for article in request_json(f"https://api.currentsapi.services/v1/search?{params}").get("news", [])[:5]:
-                    add(article.get("title"), article.get("description"), article.get("url"), f"Currents:{q}")
+                for article in request_json(f"https://api.currentsapi.services/v1/search?{urllib.parse.urlencode(params)}").get("news", [])[:10]:
+                    add(article.get("title"), article.get("description"), article.get("url"), f"Currents:{q}", article.get("published"))
             except Exception:
                 pass
 
     if os.getenv("WORLDNEWS_API_KEY"):
         for q in queries:
-            params = urllib.parse.urlencode({"text": q, "number": "5", "api-key": os.getenv("WORLDNEWS_API_KEY")})
+            params = {"text": q, "number": "10", "api-key": os.getenv("WORLDNEWS_API_KEY")}
+            if since: params["earliest-publish-date"] = since
+            if until: params["latest-publish-date"] = until
             try:
-                for article in request_json(f"https://api.worldnewsapi.com/search-news?{params}").get("news", []):
-                    add(article.get("title"), article.get("summary"), article.get("url"), f"World News API:{q}")
+                for article in request_json(f"https://api.worldnewsapi.com/search-news?{urllib.parse.urlencode(params)}").get("news", []):
+                    add(article.get("title"), article.get("summary"), article.get("url"), f"World News API:{q}", article.get("publish_date"))
             except Exception:
                 pass
 
     if os.getenv("MARKETAUX_API_KEY"):
         for q in queries:
-            params = urllib.parse.urlencode({"api_token": os.getenv("MARKETAUX_API_KEY"), "search": q, "limit": "5", "language": "en"})
+            params = {"api_token": os.getenv("MARKETAUX_API_KEY"), "search": q, "limit": "5", "language": "en"}
+            if since: params["published_after"] = since + "T00:00"
+            if until: params["published_before"] = until + "T23:59"
             try:
-                for article in request_json(f"https://api.marketaux.com/v1/news/all?{params}").get("data", []):
-                    add(article.get("title"), article.get("description"), article.get("url"), f"Marketaux:{q}")
+                for article in request_json(f"https://api.marketaux.com/v1/news/all?{urllib.parse.urlencode(params)}").get("data", []):
+                    add(article.get("title"), article.get("description"), article.get("url"), f"Marketaux:{q}", article.get("published_at"))
             except Exception:
                 pass
 
@@ -372,10 +388,16 @@ def fetch_rss_items() -> list[dict]:
     return uniq_by(items, lambda item: item.get("url"))[:40]
 
 
-def fetch_research_items() -> list[dict]:
+def fetch_research_items(since: str | None = None, until: str | None = None) -> list[dict]:
     items = []
     try:
-        params = urllib.parse.urlencode({"search_query": 'all:"large language model"', "start": "0", "max_results": "8", "sortBy": "submittedDate", "sortOrder": "descending"})
+        search = 'all:"large language model"'
+        if since and until:
+            # arXiv 日期格式 YYYYMMDDhhmm
+            s = since.replace("-", "") + "0000"
+            u = until.replace("-", "") + "2359"
+            search = f'{search} AND submittedDate:[{s} TO {u}]'
+        params = urllib.parse.urlencode({"search_query": search, "start": "0", "max_results": "16", "sortBy": "submittedDate", "sortOrder": "descending"})
         xml_text = request_text(f"https://export.arxiv.org/api/query?{params}", timeout=30)
         root = ET.fromstring(xml_text)
         ns = {"atom": "http://www.w3.org/2005/Atom"}
@@ -383,8 +405,9 @@ def fetch_research_items() -> list[dict]:
             title = " ".join((entry.findtext("atom:title", default="", namespaces=ns) or "").split())
             summary = " ".join((entry.findtext("atom:summary", default="", namespaces=ns) or "").split())[:500]
             url = entry.findtext("atom:id", default="", namespaces=ns)
+            published = entry.findtext("atom:published", default="", namespaces=ns)
             if title and url:
-                items.append({"title": title, "summary": summary, "url": url, "source": "arXiv"})
+                items.append({"title": title, "summary": summary, "url": url, "source": "arXiv", "_date_hint": published})
         time.sleep(3)
     except Exception:
         pass
@@ -411,11 +434,11 @@ NEWS_CATEGORIES = [
 
 def enrich_news_item(raw: dict) -> dict | None:
     """单条原始信息 → 调一次 LLM，产出读者向中文快讯条目。
-    只输出读者关心的字段，去掉所有编辑视角字段（contentIdeas / nextActions 等）。"""
+    风格目标：像懂行的产品博客笔记，不写套话、不堆历史背景、不说教。"""
     text = item_text(raw)
     rule_category = category_from_text(text)
     prompt = {
-        "task": "把这条原始信息整理成中文 AI 快讯条目。基于事实总结，不要编造。",
+        "task": "把英文/中文原始 AI 信息改写成简洁的中文条目。",
         "input": {
             "title": raw.get("title") or raw.get("name") or "",
             "summary": raw.get("summary") or raw.get("description") or "",
@@ -423,29 +446,41 @@ def enrich_news_item(raw: dict) -> dict | None:
             "source": raw.get("source"),
             "lang": raw.get("lang"),
         },
-        "ruleHint": {"category": rule_category, "note": "category 必须是 schema 列出的之一。"},
+        "ruleHint": {"category": rule_category},
         "schema": {
-            "title": "中文标题，简洁说清是什么（25-50 字）",
-            "summary": "中文摘要 120-220 字：是什么、做了什么、亮点、和读者关系",
+            "title": "中文标题 20-40 字；直接说事实，不要 'AI 快讯：' / '震撼发布' / '推动' 这种修饰",
+            "summary": "60-120 字中文导读；说清是谁做了什么、给出具体名字/数字/版本号；不要套话",
             "category": "|".join(NEWS_CATEGORIES),
-            "tags": ["3-5 个中文标签"],
-            "keyPoints": ["3-5 条关键事实，每条 30-80 字，基于原文事实"],
-            "background": "事件背景或上下文 60-120 字（如果原文有不止于摘要的内容才填）",
-            "impact": "对开发者/创业者/企业的实际影响 80-150 字",
-            "audience": ["2-4 个具体人群（不要笼统说 'AI 用户'）"],
-            "useCases": ["2-4 个具体使用/参考场景"],
-            "risks": ["1-3 条注意事项或局限"],
+            "tags": ["3-5 个中文标签，每个 2-6 字"],
+            "keyPoints": ["3-5 条关键事实；每条 20-50 字；只列具体事实（model name / 数字 / 时间 / 价格 / 链接关键词）"],
+            "background": "可选；只在原文有 prerequisite 知识或事件链路时写，60-100 字；没有就留空字符串",
+            "impact": "60-120 字；谁会怎么用到、要不要现在试、对哪类项目有影响；写人话不要写'推动行业发展'这种套话",
+            "audience": ["2-4 个具体人群；比如 '做 RAG 的工程师' / '电商运营' / 'AI 内容站站长'；不要写 'AI 用户'"],
+            "useCases": ["2-4 条；每条用动词开头，比如 '在 Claude Code 里安装作为 plugin'"],
+            "risks": ["0-3 条注意事项；只写真实的坑或限制（API 价、配额、商用授权、覆盖语种等）；没坑就空数组"],
         },
+        "style": [
+            "写作语气：懂行的同行做笔记，不是新闻稿编辑",
+            "禁用词：旨在 / 推动 / 助力 / 赋能 / 引领 / 重磅 / 震撼 / 引发广泛关注",
+            "禁止开头：'近年来'/'随着 AI 的发展'/'值得注意的是'",
+            "宁可短也不要套话；信息不够就留空",
+        ],
         "requirements": [
-            "中文输出，避免翻译腔",
-            "category 必须在 schema 列出的范围内",
-            "标题不要带 'AI快讯：' 前缀",
-            "若原文信息不足以填某字段，宁可留空数组/空字符串，也不要编造",
+            "category 必须是 schema 列出的之一",
             "不要输出 url / source / date / contentIdeas / nextActions / moduleTargets",
+            "数字、版本号、模型名、价格保留原样",
         ],
     }
+    prompt["schema"].update({
+        "contentIdeas": ["3-5 条可延伸成站内内容的选题，例如教程、对比、FAQ、榜单更新、案例页"],
+        "nextActions": ["2-4 条下一步编辑动作，要具体到应该补哪个页面或哪个模块"],
+        "moduleTargets": ["news|topicResources|skillRecommendations|githubWeekly|benchmarkBoards|benchmarkDatasets 中选择 1-4 个"],
+        "routeReason": "40-90 字，解释为什么应该进入这些模块",
+    })
+    prompt["requirements"][1] = "必须输出 contentIdeas / nextActions / moduleTargets / routeReason，用于详情页和模块分发。"
+
     result = call_json_llm(
-        "你是中文 AI 导航站编辑，把信息整理成读者向的中文条目。只输出 JSON，不要 markdown。",
+        "你是中文 AI 导航站编辑。语气像懂行的同行做笔记，不写套话。只输出 JSON，不要 markdown。",
         json.dumps(prompt, ensure_ascii=False),
     )
     if not isinstance(result, dict) or not result.get("title"):
@@ -453,12 +488,19 @@ def enrich_news_item(raw: dict) -> dict | None:
     # 系统注入字段
     result["url"] = raw.get("url")
     result["source"] = raw.get("source") or "Auto Search"
-    result["date"] = today_iso()
+    # 优先用原文发布日期（回填场景重要），没有就用今天
+    raw_date = (raw.get("_date_hint") or "").strip()
+    if raw_date and len(raw_date) >= 10:
+        result["date"] = raw_date[:10]  # 取 YYYY-MM-DD 部分
+    else:
+        result["date"] = today_iso()
     if result.get("category") not in NEWS_CATEGORIES:
         result["category"] = rule_category
-    # 移除可能被 LLM 误输出的编辑视角字段
-    for k in ("contentIdeas", "nextActions", "moduleTargets", "routeReason", "whyUseful"):
-        result.pop(k, None)
+    result.setdefault("contentIdeas", [])
+    result.setdefault("nextActions", [])
+    result.setdefault("moduleTargets", ["news"])
+    result.setdefault("routeReason", "")
+    result.setdefault("whyUseful", result.get("impact") or "")
     return result
 
 
@@ -485,9 +527,10 @@ def is_skill_repo(raw: dict) -> bool:
 
 
 def enrich_github_item(raw: dict) -> dict | None:
-    """单条 GitHub 项目 → 1 次 LLM，产出含 category 的中文项目条目。"""
+    """单条 GitHub 项目 → 1 次 LLM，产出含 category 的中文项目卡。
+    风格目标：像懂行的开发者推荐 repo，不写'强大的''先进的'这种空词。"""
     prompt = {
-        "task": "把这个 GitHub 项目整理成中文项目条目。基于输入事实总结，不要编造 star 数。",
+        "task": "把 GitHub 项目改写成中文项目卡。",
         "input": {
             "name": raw.get("name"),
             "lang": raw.get("lang"),
@@ -496,26 +539,31 @@ def enrich_github_item(raw: dict) -> dict | None:
             "stars": raw.get("stars"),
         },
         "schema": {
-            "name": "owner/repo 原名，不翻译",
+            "name": "保留 owner/repo 原名，不翻译",
             "lang": "主要语言",
             "category": "|".join(GITHUB_CATEGORIES),
-            "description": "一句话中文描述（40-80 字）",
-            "details": "中文详细介绍 150-280 字：解决什么问题、和同类有什么不同、适合谁",
-            "features": ["4-6 条核心特性，每条 15-40 字"],
-            "useCases": ["3-5 个具体使用场景"],
-            "quickStart": ["3-5 步快速上手指引"],
-            "why": "为什么值得看 60-120 字",
+            "description": "40-70 字一句话；说这是给谁用的什么工具",
+            "details": "120-220 字详细介绍；只说事实：解决什么问题、和同类（写出具体竞品名）的差异、推荐谁试",
+            "features": ["4-6 条；每条 10-25 字；只列能力点（如 'OpenAI 兼容 API'、'支持 GGUF 量化'），不写形容词"],
+            "useCases": ["3-5 条；动词开头（如 '本地跑 Llama3 做客服初筛'）"],
+            "quickStart": ["3-5 步上手；用命令或动作描述（'docker run' / 'pip install' / '在 Claude Code 里 add plugin'）"],
+            "why": "60-100 字；为什么这个比同类好或不同；用具体证据"
+            "（star 数 / 厂商 / 发布时间 / 技术细节），不要说'值得关注'",
             "tags": ["3-5 个中文标签"]
         },
+        "style": [
+            "禁用词：强大 / 先进 / 助力 / 推动 / 引领 / 重磅 / 旨在 / 值得关注",
+            "宁可短而具体，不要堆形容词",
+            "技术名（model name、framework、protocol）保留原样",
+        ],
         "requirements": [
-            "中文输出",
-            "category 必须严格在 schema 列出的 11 类之一，不要造新类型",
-            "如果不确定，选最接近的；非 AI 工具的项目不要进入",
-            "不要编造功能或 star 数据",
+            "category 必须严格在 schema 列出的 11 类之一",
+            "如果不是 AI 相关项目，返回不带 name 的对象（系统会过滤）",
+            "stars 字段保留输入值，不要编造",
         ],
     }
     result = call_json_llm(
-        "你是中文 AI 导航站编辑。只输出 JSON。基于 GitHub 项目信息整理成内容丰富的中文项目卡。",
+        "你是中文 AI 导航站编辑。语气像懂行的开发者推荐 repo。只输出 JSON。",
         json.dumps(prompt, ensure_ascii=False),
     )
     if not isinstance(result, dict) or not result.get("name"):
@@ -530,9 +578,10 @@ def enrich_github_item(raw: dict) -> dict | None:
 
 
 def enrich_skill_item(raw: dict) -> dict | None:
-    """单条 Skill 候选 → 1 次 LLM，产出 weeklyDigests.skills 用的 Skill 条目。"""
+    """单条 Skill 候选 → 1 次 LLM，产出 Skill 条目。
+    风格目标：像把 .claude/skills 安装文档浓缩成一张卡片。"""
     prompt = {
-        "task": "把这个项目/资源整理为 AI Skill 条目（要被分类到 9 种 Skill type 之一）。",
+        "task": "把这个资源整理为 AI Skill 条目，必须归到 9 种 type 之一。",
         "input": {
             "title": raw.get("name") or raw.get("title"),
             "description": raw.get("description") or raw.get("summary"),
@@ -541,23 +590,26 @@ def enrich_skill_item(raw: dict) -> dict | None:
             "source": raw.get("source"),
         },
         "schema": {
-            "title": "Skill 名称（保留英文项目名时不翻译，比如 mattpocock/skills 保留原样）",
+            "title": "Skill 名称；英文 owner/repo 保留原名",
             "type": "|".join(SKILL_TYPES),
-            "description": "一句话中文说明（40-80 字）",
-            "details": "中文详细介绍 150-260 字：这个 Skill 能让 Claude Code/Cursor 做什么、和同类比有什么独特",
-            "features": ["4-6 条核心特性"],
-            "useCases": ["3-5 个适用场景：什么团队/什么场景该装这个"],
+            "description": "40-70 字；告诉读者这个 Skill 让 Coding Agent 多了什么能力",
+            "details": "120-220 字；具体场景里它做什么动作（比如 'commit 前自动跑 ggshield'）；和同类比的差异",
+            "features": ["4-6 条；动作/能力点（如 'PreToolUse hook 拦截危险命令'）；不写形容词"],
+            "useCases": ["3-5 条；'谁/什么场景/解决什么'，动词开头"],
             "tags": ["3-5 个中文标签"]
         },
+        "style": [
+            "禁用词：强大 / 先进 / 助力 / 旨在 / 值得关注",
+            "技术名保留原样（Claude Code / MCP / Cursor 等）",
+            "如果输入不像 Skill / agent-skills 仓库 / MCP 服务，返回不带 title 的对象（系统会过滤）",
+        ],
         "requirements": [
-            "中文输出",
             "type 必须严格选 schema 给出的 9 种之一",
-            "如果输入不像 AI Skill / agent-skills 仓库 / MCP 服务，返回 null",
             "不要编造功能",
         ],
     }
     result = call_json_llm(
-        "你是中文 AI 导航站 Skill 编辑。只输出 JSON。基于输入资料判断它是哪类 Skill 并整理条目。",
+        "你是中文 AI Skill 编辑。语气像把 .claude/skills 安装文档浓缩成卡片。只输出 JSON。",
         json.dumps(prompt, ensure_ascii=False),
     )
     if not isinstance(result, dict) or not result.get("title"):
@@ -943,6 +995,75 @@ def split_github_for_skills(github_items: list[dict]) -> tuple[list[dict], list[
     return regular, skill_candidates
 
 
+def date_str_to_dt(s: str) -> datetime:
+    return datetime.strptime(s, "%Y-%m-%d")
+
+
+def iter_week_chunks(start: str, end: str):
+    """把 [start, end] 按 7 天切片，yields (chunk_since, chunk_until)。"""
+    s = date_str_to_dt(start)
+    e = date_str_to_dt(end)
+    cur = s
+    while cur <= e:
+        nxt = min(cur + timedelta(days=6), e)
+        yield cur.strftime("%Y-%m-%d"), nxt.strftime("%Y-%m-%d")
+        cur = nxt + timedelta(days=1)
+
+
+def run_backfill(days: int | None = None, start: str | None = None, end: str | None = None) -> dict:
+    """回填指定时间段的历史内容。按周切片，每片并发拉新闻 + GitHub + arXiv，
+    全部 LLM 并发改写为中文条目，合并入 generated-data.json。"""
+    if start and end:
+        period_start, period_end = start, end
+    else:
+        n = days or 30
+        period_end = today_iso()
+        period_start = days_ago(n)
+
+    print(f"[{datetime.now().strftime('%H:%M:%S')}] 开始 backfill：{period_start} → {period_end}")
+
+    all_news_raw: list[dict] = []
+    all_github_raw: list[dict] = []
+
+    chunks = list(iter_week_chunks(period_start, period_end))
+    print(f"  切成 {len(chunks)} 个 7 天片段")
+
+    for since, until in chunks:
+        print(f"  · 抓取片段 {since} → {until}")
+        gh = fetch_github_candidates(since)
+        all_github_raw.extend(gh)
+        news = fetch_news_api_items(since=since, until=until)
+        all_news_raw.extend(news)
+        research = fetch_research_items(since=since, until=until)
+        all_news_raw.extend(research)
+
+    all_news_raw = uniq_by(all_news_raw, lambda r: r.get("url"))
+    all_github_raw = uniq_by(all_github_raw, lambda r: r.get("name") or r.get("url"))
+    print(f"  共抓到原始：news {len(all_news_raw)} 条 / github {len(all_github_raw)} 个")
+
+    # 并发 LLM 第一波：news（可能上百条，分批并发）
+    enriched_news, failed_news = parallel_enrich(all_news_raw[:200], enrich_news_item, "backfill-news")
+    if failed_news:
+        enriched_news.extend(fallback_news(failed_news))
+
+    # 第二波：GitHub
+    regular_gh, skill_candidates = split_github_for_skills(all_github_raw[:80])
+    enriched_github, failed_gh = parallel_enrich(regular_gh, enrich_github_item, "backfill-github")
+    if failed_gh:
+        for raw in failed_gh:
+            enriched_github.append({**raw, "category": "Coding Agent", "details": (raw.get("description") or "")[:300], "features": [], "useCases": [], "quickStart": []})
+
+    # 第三波：Skill 候选
+    enriched_skills = []
+    if skill_candidates:
+        enriched_skills, _ = parallel_enrich(skill_candidates, enrich_skill_item, "backfill-skills")
+
+    payload = route_enriched(enriched_news, enriched_github, enriched_skills)
+    payload["sources"] = FREE_INFO_SOURCES
+    print(f"[{datetime.now().strftime('%H:%M:%S')}] backfill 完成：news={len(payload['news'])} github={len(enriched_github)} skills={len(enriched_skills)}")
+    return merge_generated(payload)
+
+
 def run_daily() -> dict:
     print(f"[{datetime.now().strftime('%H:%M:%S')}] run_daily 开始")
 
@@ -1043,9 +1164,12 @@ def route_enriched(news_items: list[dict], github_items: list[dict], skill_items
     }
     for n in news_items:
         text = item_text(n).lower()
+        targets = list(n.get("moduleTargets") or ["news"])
         # 工具类资讯可顺手收进 topicResources
         if any(w in text for w in ["tool", "platform", "api", "assistant", "app", "editor", "agent"]):
             topic_id = topic_from_text(item_text(n))
+            if "topicResources" not in targets:
+                targets.append("topicResources")
             routed["topicResources"].setdefault(topic_id, []).append({
                 "name": n.get("title", "")[:60],
                 "provider": (n.get("source") or "").split(":")[0].split(" · ")[0],
@@ -1057,6 +1181,10 @@ def route_enriched(news_items: list[dict], github_items: list[dict], skill_items
                 "sourceName": n.get("source") or "",
                 "url": n.get("url") or "#",
             })
+        n["moduleTargets"] = targets
+        n.setdefault("routeReason", f"根据标题、摘要和来源识别为 {n.get('category') or category_from_text(text)}，进入 {'、'.join(targets)}。")
+        n.setdefault("contentIdeas", ["补原文解读", "整理适用人群", "补同类工具或事件对比"])
+        n.setdefault("nextActions", ["核对原始链接", "把信息补到对应模块", "需要时扩展成教程或 FAQ"])
     return routed
 
 
@@ -1194,6 +1322,8 @@ def print_help() -> None:
     print("  python backend/backend.py daily     # 只跑 run_daily")
     print("  python backend/backend.py weekly    # 只跑 run_weekly")
     print("  python backend/backend.py bootstrap # 启服务前先跑一次 run_all")
+    print("  python backend/backend.py backfill [--days N | --from YYYY-MM-DD --to YYYY-MM-DD]")
+    print("                                       # 回填一段历史时间，按周切片+并发抓取+LLM")
 
 
 def main() -> None:
@@ -1223,6 +1353,31 @@ def main() -> None:
 
     if cmd in ("weekly", "run-weekly"):
         run_weekly()
+        return
+
+    if cmd == "backfill":
+        # 解析参数：--days N 或 --from YYYY-MM-DD --to YYYY-MM-DD
+        days = 30
+        start = end = None
+        i = 1
+        while i < len(args):
+            a = args[i]
+            if a in ("--days", "-d") and i + 1 < len(args):
+                days = int(args[i + 1]); i += 2
+            elif a in ("--from", "-f") and i + 1 < len(args):
+                start = args[i + 1]; i += 2
+            elif a in ("--to", "-t") and i + 1 < len(args):
+                end = args[i + 1]; i += 2
+            else:
+                i += 1
+        result = run_backfill(days=days if not (start and end) else None, start=start, end=end)
+        print(json.dumps({
+            "ok": True,
+            "counts": {
+                "news": len(result.get("news") or []),
+                "githubWeekly": len(result.get("githubWeekly") or []),
+            }
+        }, ensure_ascii=False, indent=2))
         return
 
     if cmd in ("help", "-h", "--help"):
