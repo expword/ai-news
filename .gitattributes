@@ -1,0 +1,4 @@
+# 生成的数据文件：每 10 分钟自动重生成，多机推送时不要在合并/rebase 时卡冲突。
+# merge=ours → 合并时保留当前分支版本，不产生冲突标记（需配合本机 git config，见 docs）。
+data/generated-data.json merge=ours
+assets/data/generated-data.js merge=ours

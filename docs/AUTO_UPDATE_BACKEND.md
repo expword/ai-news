@@ -99,6 +99,23 @@ GIT_BRANCH=main
 - **需要 git 凭证**：常驻电脑上要先配好推送凭证（HTTPS 用 Personal Access Token + 凭证管理器，或 SSH key），
   否则 `git push` 会失败（日志会打印 `[git] push failed`）。
 
+## 5.2 多机协作：生成文件永不冲突
+
+`data/generated-data.json` 和 `assets/data/generated-data.js` 是后端每 10 分钟重生成的产物。
+多台机器都在改并推送时，`git pull` / rebase 很容易在这两个文件上撞冲突。
+
+仓库已用 `.gitattributes` 把它们标成 `merge=ours`（合并时保留当前分支版本，不产生冲突标记）。
+**但 `merge=ours` 需要每台机器各自定义一次 merge 驱动**（这个配置在本地 `.git/config`，不随仓库同步）：
+
+```bash
+git config merge.ours.driver true
+```
+
+每个克隆都跑一次上面的命令即可。之后 `git pull` 遇到这两个生成文件的差异会自动保留本地版本，
+不再卡冲突。反正它们很快会被下一次采集重新生成，保留哪一版都不影响。
+
+> 实操建议：**只在常驻采集的那一台开 `AUTO_GIT_PUSH=1`**，其它机器保持 `0`，从根本上减少分叉。
+
 ## 6. 可接入的免费搜索/新闻源
 
 需要 API key 的源，把 key 填入 `.env.example` 对应字段即可。没有 key 时，后端仍会用 GitHub、arXiv、Semantic Scholar 等可用源做基础采集。
