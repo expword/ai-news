@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import os
 import re
+import subprocess
 import sys
 import threading
 import time
@@ -71,19 +72,111 @@ GITHUB_QUERIES = [
     "topic:claude-code pushed:>={date} stars:>5",
 ]
 
+# 国内大模型厂商：官网基本无 RSS，但开源模型都发在 GitHub。
+# 通过组织级 GitHub 搜索（org:xxx）追踪各厂最新开源动态/模型发布，单独采集不与上面的 topic 查询争名额。
+# 视为 T1 一手源（厂商官方组织）。
+GITHUB_VENDOR_ORGS = [
+    {"org": "deepseek-ai", "vendor": "DeepSeek"},
+    {"org": "QwenLM", "vendor": "通义千问 Qwen"},
+    {"org": "THUDM", "vendor": "智谱 GLM"},
+    {"org": "zai-org", "vendor": "智谱 Z.ai"},
+    {"org": "MoonshotAI", "vendor": "月之暗面 Kimi"},
+    {"org": "MiniMax-AI", "vendor": "MiniMax"},
+    {"org": "stepfun-ai", "vendor": "阶跃星辰 StepFun"},
+    {"org": "OpenBMB", "vendor": "面壁智能 MiniCPM"},
+    {"org": "InternLM", "vendor": "上海AI实验室 书生"},
+    {"org": "01-ai", "vendor": "零一万物 Yi"},
+    {"org": "baichuan-inc", "vendor": "百川智能"},
+    {"org": "Tencent-Hunyuan", "vendor": "腾讯混元"},
+    {"org": "bytedance-seed", "vendor": "字节跳动 Seed"},
+]
+
+# 信源分级（信源比信息重要，一手优先）：
+#   T1   = 官方一手 / 顶级实验室博客 / 论文源        —— 权重最高
+#   T1.5 = 官方社媒、官方聚合（杂、噪声多）          —— 权重略降
+#   T2   = KOL / 媒体 / 综合资讯站（多为二手转载）   —— 权重最低
+# 评分阶段用 TIER_WEIGHT 给最终质量分加成。
+TIER_WEIGHT = {"T1": 1.0, "T1.5": 0.8, "T2": 0.6}
+
+# 注：Anthropic 无官方 RSS（/rss.xml、/news/rss.xml 均 404），需后续单独爬 HTML
+#     （https://www.anthropic.com/news），暂未纳入下方 RSS 列表。
+# 以下 URL 均已实测可拉到有效 XML。
 RSS_FEEDS = [
-    {"name": "Hugging Face Blog", "url": "https://huggingface.co/blog/feed.xml", "lang": "en"},
-    {"name": "VentureBeat AI", "url": "https://venturebeat.com/category/ai/feed/", "lang": "en"},
-    {"name": "TechCrunch AI", "url": "https://techcrunch.com/category/artificial-intelligence/feed/", "lang": "en"},
-    {"name": "The Register AI/ML", "url": "https://www.theregister.com/software/ai_ml/headlines.atom", "lang": "en"},
-    {"name": "MIT Tech Review AI", "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed", "lang": "en"},
-    {"name": "Google AI Blog", "url": "https://blog.google/technology/ai/rss/", "lang": "en"},
-    {"name": "OpenAI Blog", "url": "https://openai.com/news/rss.xml", "lang": "en"},
-    {"name": "DeepLearning.AI", "url": "https://www.deeplearning.ai/the-batch/feed/", "lang": "en"},
-    {"name": "量子位", "url": "https://www.qbitai.com/feed", "lang": "zh"},
-    {"name": "机器之心", "url": "https://www.jiqizhixin.com/rss", "lang": "zh"},
-    {"name": "IT之家 AI", "url": "https://www.ithome.com/rss/", "lang": "zh"},
-    {"name": "少数派", "url": "https://sspai.com/feed", "lang": "zh"},
+    # —— T1 官方 / 顶级实验室一手 ——
+    {"name": "OpenAI Blog", "url": "https://openai.com/news/rss.xml", "lang": "en", "tier": "T1"},
+    {"name": "Google DeepMind", "url": "https://deepmind.google/blog/rss.xml", "lang": "en", "tier": "T1"},
+    {"name": "Google AI Blog", "url": "https://blog.google/technology/ai/rss/", "lang": "en", "tier": "T1"},
+    {"name": "Google Research", "url": "https://research.google/blog/rss/", "lang": "en", "tier": "T1"},
+    {"name": "Microsoft Research", "url": "https://www.microsoft.com/en-us/research/feed/", "lang": "en", "tier": "T1"},
+    {"name": "Hugging Face Blog", "url": "https://huggingface.co/blog/feed.xml", "lang": "en", "tier": "T1"},
+    {"name": "NVIDIA Deep Learning", "url": "https://blogs.nvidia.com/blog/category/deep-learning/feed/", "lang": "en", "tier": "T1"},
+    {"name": "AWS Machine Learning", "url": "https://aws.amazon.com/blogs/machine-learning/feed/", "lang": "en", "tier": "T1"},
+    {"name": "Amazon Science", "url": "https://www.amazon.science/index.rss", "lang": "en", "tier": "T1"},
+    {"name": "Meta Engineering", "url": "https://engineering.fb.com/feed/", "lang": "en", "tier": "T1"},
+    {"name": "Together AI", "url": "https://www.together.ai/blog/rss.xml", "lang": "en", "tier": "T1"},
+    {"name": "BAIR (Berkeley)", "url": "https://bair.berkeley.edu/blog/feed.xml", "lang": "en", "tier": "T1"},
+    {"name": "Apple ML Research", "url": "https://machinelearning.apple.com/rss.xml", "lang": "en", "tier": "T1"},
+    {"name": "Qwen (通义千问)", "url": "https://qwenlm.github.io/blog/index.xml", "lang": "en", "tier": "T1"},
+    {"name": "EleutherAI", "url": "https://blog.eleuther.ai/index.xml", "lang": "en", "tier": "T1"},
+    {"name": "Answer.AI", "url": "https://www.answer.ai/index.xml", "lang": "en", "tier": "T1"},
+    # —— T1 论文源（category=paper）——
+    {"name": "arXiv cs.AI", "url": "http://export.arxiv.org/rss/cs.AI", "lang": "en", "tier": "T1"},
+    {"name": "arXiv cs.CL", "url": "http://export.arxiv.org/rss/cs.CL", "lang": "en", "tier": "T1"},
+    {"name": "arXiv cs.LG", "url": "http://export.arxiv.org/rss/cs.LG", "lang": "en", "tier": "T1"},
+    {"name": "arXiv cs.CV", "url": "http://export.arxiv.org/rss/cs.CV", "lang": "en", "tier": "T1"},
+    {"name": "arXiv stat.ML", "url": "http://export.arxiv.org/rss/stat.ML", "lang": "en", "tier": "T1"},
+    # —— T1.5 研究者个人博客（高信号、低噪声）——
+    {"name": "Lilian Weng", "url": "https://lilianweng.github.io/index.xml", "lang": "en", "tier": "T1.5"},
+    {"name": "Sebastian Raschka", "url": "https://magazine.sebastianraschka.com/feed", "lang": "en", "tier": "T1.5"},
+    {"name": "Chip Huyen", "url": "https://huyenchip.com/feed.xml", "lang": "en", "tier": "T1.5"},
+    {"name": "Eugene Yan", "url": "https://eugeneyan.com/rss/", "lang": "en", "tier": "T1.5"},
+    {"name": "Interconnects (Nathan Lambert)", "url": "https://www.interconnects.ai/feed", "lang": "en", "tier": "T1.5"},
+    {"name": "Sebastian Ruder", "url": "https://newsletter.ruder.io/feed", "lang": "en", "tier": "T1.5"},
+    {"name": "Latent Space (swyx)", "url": "https://www.latent.space/feed", "lang": "en", "tier": "T1.5"},
+    {"name": "Andrej Karpathy", "url": "https://karpathy.github.io/feed.xml", "lang": "en", "tier": "T1.5"},
+    {"name": "Jay Alammar", "url": "https://jalammar.github.io/feed.xml", "lang": "en", "tier": "T1.5"},
+    {"name": "Chris Olah (colah)", "url": "https://colah.github.io/rss.xml", "lang": "en", "tier": "T1.5"},
+    {"name": "Ethan Mollick", "url": "https://www.oneusefulthing.org/feed", "lang": "en", "tier": "T1.5"},
+    {"name": "fast.ai (Jeremy Howard)", "url": "https://www.fast.ai/index.xml", "lang": "en", "tier": "T1.5"},
+    {"name": "Phil Schmid", "url": "https://www.philschmid.de/rss", "lang": "en", "tier": "T1.5"},
+    {"name": "Cameron Wolfe", "url": "https://cameronrwolfe.substack.com/feed", "lang": "en", "tier": "T1.5"},
+    {"name": "Tim Dettmers", "url": "https://timdettmers.com/feed/", "lang": "en", "tier": "T1.5"},
+    {"name": "The Kaitchup", "url": "https://kaitchup.substack.com/feed", "lang": "en", "tier": "T1.5"},
+    {"name": "Artificial Fintelligence", "url": "https://www.artfintel.com/feed", "lang": "en", "tier": "T1.5"},
+    {"name": "Vicki Boykis", "url": "https://vickiboykis.com/index.xml", "lang": "en", "tier": "T2"},
+    {"name": "LJ Miranda", "url": "https://ljvmiranda921.github.io/feed.xml", "lang": "en", "tier": "T2"},
+    # —— T1.5 / T2 媒体、社区、精选 newsletter ——
+    {"name": "MIT Tech Review AI", "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed", "lang": "en", "tier": "T1.5"},
+    {"name": "The Gradient", "url": "https://thegradient.pub/rss/", "lang": "en", "tier": "T1.5"},
+    {"name": "Import AI (Jack Clark)", "url": "https://importai.substack.com/feed", "lang": "en", "tier": "T1.5"},
+    {"name": "Simon Willison", "url": "https://simonwillison.net/atom/everything/", "lang": "en", "tier": "T1.5"},
+    {"name": "AI Snake Oil", "url": "https://www.aisnakeoil.com/feed", "lang": "en", "tier": "T1.5"},
+    {"name": "Understanding AI", "url": "https://www.understandingai.org/feed", "lang": "en", "tier": "T1.5"},
+    {"name": "Platformer", "url": "https://www.platformer.news/rss/", "lang": "en", "tier": "T1.5"},
+    {"name": "Smol AI News", "url": "https://news.smol.ai/rss.xml", "lang": "en", "tier": "T2"},
+    {"name": "AINews", "url": "https://buttondown.com/ainews/rss", "lang": "en", "tier": "T2"},
+    {"name": "Last Week in AI", "url": "https://lastweekin.ai/feed", "lang": "en", "tier": "T2"},
+    {"name": "TLDR AI", "url": "https://tldr.tech/api/rss/ai", "lang": "en", "tier": "T2"},
+    {"name": "Synced", "url": "https://syncedreview.com/feed/", "lang": "en", "tier": "T2"},
+    {"name": "The Decoder", "url": "https://the-decoder.com/feed/", "lang": "en", "tier": "T2"},
+    {"name": "MarkTechPost", "url": "https://www.marktechpost.com/feed/", "lang": "en", "tier": "T2"},
+    {"name": "IEEE Spectrum AI", "url": "https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss", "lang": "en", "tier": "T2"},
+    {"name": "The Verge AI", "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml", "lang": "en", "tier": "T2"},
+    {"name": "Ars Technica AI", "url": "https://arstechnica.com/ai/feed/", "lang": "en", "tier": "T2"},
+    {"name": "Wired AI", "url": "https://www.wired.com/feed/tag/ai/latest/rss", "lang": "en", "tier": "T2"},
+    {"name": "VentureBeat AI", "url": "https://venturebeat.com/category/ai/feed/", "lang": "en", "tier": "T2"},
+    {"name": "TechCrunch AI", "url": "https://techcrunch.com/category/artificial-intelligence/feed/", "lang": "en", "tier": "T2"},
+    {"name": "The Register AI/ML", "url": "https://www.theregister.com/software/ai_ml/headlines.atom", "lang": "en", "tier": "T2"},
+    # —— 工具/平台（产品动态）——
+    {"name": "Replicate", "url": "https://replicate.com/blog/rss", "lang": "en", "tier": "T2"},
+    {"name": "Roboflow", "url": "https://blog.roboflow.com/rss/", "lang": "en", "tier": "T2"},
+    # —— 国内 ——
+    {"name": "量子位", "url": "https://www.qbitai.com/feed", "lang": "zh", "tier": "T2"},
+    {"name": "机器之心", "url": "https://www.jiqizhixin.com/rss", "lang": "zh", "tier": "T2"},
+    {"name": "雷峰网", "url": "https://www.leiphone.com/feed", "lang": "zh", "tier": "T2"},
+    {"name": "36氪快讯", "url": "https://36kr.com/feed-newsflash", "lang": "zh", "tier": "T2"},
+    {"name": "IT之家 AI", "url": "https://www.ithome.com/rss/", "lang": "zh", "tier": "T2"},
+    {"name": "少数派", "url": "https://sspai.com/feed", "lang": "zh", "tier": "T2"},
 ]
 
 
@@ -233,7 +326,382 @@ def fetch_github_candidates(since: str) -> list[dict]:
                 "url": item.get("html_url"),
                 "source": f"GitHub Search · {today_iso()}",
             })
-    return uniq_by(results, lambda item: item.get("name"))[:20]
+
+    # 国内大模型厂商组织级动态（单独采集，保证不被上面的结果挤掉）
+    vendor_results = []
+    for vendor in GITHUB_VENDOR_ORGS:
+        query = f"org:{vendor['org']} pushed:>={since}"
+        params = urllib.parse.urlencode({"q": query, "sort": "updated", "order": "desc", "per_page": "5"})
+        try:
+            payload = request_json(f"https://api.github.com/search/repositories?{params}", headers=headers)
+        except Exception:
+            continue
+        for item in payload.get("items", []):
+            vendor_results.append({
+                "name": item.get("full_name"),
+                "lang": item.get("language") or "Repo",
+                "description": item.get("description") or f"{vendor['vendor']} 开源项目。",
+                "stars": f"{item.get('stargazers_count', 0)} stars",
+                "why": f"国产大模型厂商 {vendor['vendor']} 的最新开源动态/模型发布，属一手信源。",
+                "url": item.get("html_url"),
+                "source": f"GitHub · {vendor['vendor']}",
+                "tier": "T1",
+            })
+
+    topic = uniq_by(results, lambda item: item.get("name"))[:20]
+    vendors = uniq_by(vendor_results, lambda item: item.get("name"))[:30]
+    return uniq_by(topic + vendors, lambda item: item.get("name"))
+
+
+# 专门抓 GitHub 上热门的 Skill / MCP / Agent-Skills 仓库（按 star 排序取最热）
+SKILL_GITHUB_QUERIES = [
+    "topic:claude-skills",
+    "topic:agent-skills",
+    "topic:claude-code",
+    "topic:mcp-server",
+    "claude code skill in:name,description",
+    "awesome claude skills in:name,description",
+]
+
+
+def fetch_skill_repos(per_query: int = 8, top: int = 24) -> list[dict]:
+    """抓 GitHub 上最热门的 Skill / MCP 仓库（按 star 排序），作为 Skill 推荐候选。"""
+    headers = {"Accept": "application/vnd.github+json"}
+    if os.getenv("GITHUB_TOKEN"):
+        headers["Authorization"] = f"Bearer {os.getenv('GITHUB_TOKEN')}"
+    results = []
+    for q in SKILL_GITHUB_QUERIES:
+        params = urllib.parse.urlencode({"q": f"{q} stars:>10", "sort": "stars", "order": "desc", "per_page": str(per_query)})
+        try:
+            payload = request_json(f"https://api.github.com/search/repositories?{params}", headers=headers)
+        except Exception:
+            continue
+        for item in payload.get("items", []):
+            results.append({
+                "name": item.get("full_name"),
+                "lang": item.get("language") or "Repo",
+                "description": item.get("description") or "Claude / Agent Skill 相关仓库。",
+                "stars": f"{item.get('stargazers_count', 0)} stars",
+                "_stars_num": int(item.get("stargazers_count", 0)),
+                "url": item.get("html_url"),
+                "source": "GitHub Skill",
+            })
+    results = uniq_by(results, lambda it: it.get("name"))
+    results.sort(key=lambda it: -it.get("_stars_num", 0))
+    return results[:top]
+
+
+def fetch_skill_external(top: int = 30) -> list[dict]:
+    """从多个『大家分享 Skill / MCP / AI 工具』的平台聚合候选（GitHub 之外再加 8 个来源）：
+    Hacker News、Smithery MCP 注册表、Hugging Face Spaces、npm、Dev.to、Reddit(r/ClaudeAI, r/mcp)、Product Hunt。
+    注：抖音/TikTok/YouTube/小红书等视频平台无免费可用 API 且强反爬，无法用 urllib 抓取，故用上述同类的文字/代码平台替代。"""
+    ua = {"User-Agent": BROWSER_UA}
+    out: list[dict] = []
+    per_source: dict[str, int] = {}
+    PER_SOURCE_CAP = 6   # 每个平台最多取 6 条，保证多平台都有代表
+
+    def add(name, desc, url, source):
+        if not name or not url:
+            return
+        if per_source.get(source, 0) >= PER_SOURCE_CAP:
+            return
+        per_source[source] = per_source.get(source, 0) + 1
+        out.append({"name": str(name).strip(), "title": str(name).strip(),
+                    "description": (desc or "")[:300], "url": url, "source": source, "lang": "en"})
+
+    # 1) Hacker News（Show HN / 讨论里大量 Claude skill、MCP 分享）
+    for q in ("Claude skill", "MCP server", "Claude Code", "AI agent"):
+        try:
+            payload = request_json(f"https://hn.algolia.com/api/v1/search?query={urllib.parse.quote(q)}&tags=story&hitsPerPage=6", headers=ua)
+            for h in payload.get("hits", []):
+                if (h.get("points") or 0) >= 40:
+                    add(h.get("title"), f"Hacker News 讨论 · {h.get('points')} 分", h.get("url") or f"https://news.ycombinator.com/item?id={h.get('objectID')}", "Hacker News")
+        except Exception:
+            pass
+
+    # 2) Smithery —— MCP 服务器注册表（开发者发布的 skill/工具）
+    try:
+        payload = request_json("https://registry.smithery.ai/servers?page=1&pageSize=24", headers=ua)
+        for s in payload.get("servers", []):
+            qn = s.get("qualifiedName") or ""
+            add(s.get("displayName") or qn, s.get("description"), f"https://smithery.ai/server/{qn}", "Smithery MCP")
+    except Exception:
+        pass
+
+    # 3) Hugging Face Spaces（agent / assistant 类应用）
+    for q in ("agent", "assistant", "claude"):
+        try:
+            payload = request_json(f"https://huggingface.co/api/spaces?search={q}&sort=likes&limit=6", headers=ua)
+            for sp in (payload if isinstance(payload, list) else []):
+                add(sp.get("id"), f"Hugging Face Space · {sp.get('likes', 0)} likes", f"https://huggingface.co/spaces/{sp.get('id')}", "HF Spaces")
+        except Exception:
+            pass
+
+    # 4) npm（claude / mcp 相关包）
+    for q in ("mcp-server", "claude skill"):
+        try:
+            payload = request_json(f"https://registry.npmjs.org/-/v1/search?text={urllib.parse.quote(q)}&size=8", headers=ua)
+            for o in payload.get("objects", []):
+                p = o.get("package", {})
+                add(p.get("name"), p.get("description"), (p.get("links") or {}).get("npm") or f"https://www.npmjs.com/package/{p.get('name')}", "npm")
+        except Exception:
+            pass
+
+    # 5) Dev.to（claude / mcp / agent 教程与分享）
+    for tag in ("claude", "mcp", "aiagents"):
+        try:
+            payload = request_json(f"https://dev.to/api/articles?tag={tag}&top=30&per_page=5", headers=ua)
+            for a in (payload if isinstance(payload, list) else []):
+                add(a.get("title"), a.get("description"), a.get("url"), "Dev.to")
+        except Exception:
+            pass
+
+    # 6) Reddit r/ClaudeAI + r/mcp（社区热帖，RSS/Atom）
+    atom_ns = {"atom": "http://www.w3.org/2005/Atom"}
+    for sub in ("ClaudeAI", "mcp"):
+        try:
+            xml = request_text(f"https://www.reddit.com/r/{sub}/top.rss?t=week", headers=ua, timeout=15)
+            root = ET.fromstring(xml)
+            for e in root.findall("atom:entry", atom_ns)[:6]:
+                t = strip_html(e.findtext("atom:title", default="", namespaces=atom_ns) or "")
+                link = e.find("atom:link", atom_ns)
+                add(t, f"Reddit r/{sub} 本周热帖", link.get("href") if link is not None else "", f"Reddit r/{sub}")
+        except Exception:
+            pass
+
+    # 7) Product Hunt（AI 分类新发布工具，RSS）
+    try:
+        xml = request_text("https://www.producthunt.com/feed?category=artificial-intelligence", headers=ua, timeout=15)
+        root = ET.fromstring(xml)
+        for it in root.findall(".//item")[:8]:
+            add(strip_html(it.findtext("title") or ""), strip_html(it.findtext("description") or ""), (it.findtext("link") or "").strip(), "Product Hunt")
+    except Exception:
+        pass
+
+    return uniq_by(out, lambda x: x.get("url"))[:top]
+
+
+# ===== 批量 Skill 抓取 + 功能分类（用于一次性灌入大量 skill） =====
+# 分类按"功能"优先匹配，MCP/Claude/Agent 作为兜底类。顺序敏感：靠前的先命中。
+SKILL_CATEGORY_RULES = [
+    ("编程开发", ["code", "coding", "developer", "ide", "programming", "copilot", "debug", "review", "lint", "git", "godot", "unity"]),
+    ("浏览器 / 自动化", ["browser", "playwright", "puppeteer", "selenium", "automation", "scrape", "crawl", "rpa", "computer-use", "computer use"]),
+    ("RAG / 知识库", ["rag", "retrieval", "embedding", "vector", "knowledge", "memory", "semantic search"]),
+    ("搜索 / 信息", ["search", "serp", "perplexity", "exa", "tavily", "web search", "fetch"]),
+    ("数据 / 分析", ["sql", "database", "postgres", "mysql", "sqlite", "mongodb", "analytics", "data analysis", "spreadsheet", "excel", "bigquery"]),
+    ("设计 / 创意", ["image", "design", "figma", "video", "art", "draw", "diffusion", "photo", "blender", "canvas", "ui generation"]),
+    ("写作 / 办公", ["writing", "write", "notion", "obsidian", "document", "markdown", "office", "slides", "ppt", "email", "calendar", "slack"]),
+    ("语音 / 音频", ["voice", "speech", "audio", "tts", "asr", "whisper", "transcribe"]),
+    ("安全 / 运维", ["security", "vuln", "pentest", "ghidra", "devops", "docker", "kubernetes", "monitoring", "infra", "aws", "cloud"]),
+    ("金融 / 商业", ["finance", "stock", "trading", "crypto", "payment", "stripe", "market"]),
+    ("Agent 框架", ["agent framework", "autogpt", "autogen", "crewai", "langgraph", "multi-agent", "metagpt", "swarm", "orchestrat"]),
+    ("MCP 服务", ["mcp-server", "mcp server", "model context protocol", "modelcontextprotocol", "mcp"]),
+    ("Claude Skill", ["claude-skill", "claude skill", "agent-skills", "agent skill", "claude-code", "claude code", "claude"]),
+]
+
+
+def categorize_skill(text: str) -> str:
+    t = (text or "").lower()
+    for cat, kws in SKILL_CATEGORY_RULES:
+        if any(k in t for k in kws):
+            return cat
+    return "其他"
+
+
+SKILL_BULK_QUERIES = [
+    "topic:mcp-server", "topic:mcp", "topic:claude-skills", "topic:agent-skills",
+    "topic:claude-code", "topic:ai-agent", "topic:llm-agent", "topic:rag",
+    "mcp server in:name,description", "claude skill in:name,description",
+    "topic:ai-tools", "topic:autonomous-agents", "topic:ai-agents", "topic:llm-tools",
+]
+
+
+def fetch_skills_bulk(target: int = 100) -> list[dict]:
+    """从 GitHub（多查询，按 star）+ Smithery 批量抓 skill，并按功能分类。返回 target 条。"""
+    headers = {"Accept": "application/vnd.github+json"}
+    if os.getenv("GITHUB_TOKEN"):
+        headers["Authorization"] = f"Bearer {os.getenv('GITHUB_TOKEN')}"
+    raw = []
+    for q in SKILL_BULK_QUERIES:
+        params = urllib.parse.urlencode({"q": f"{q} stars:>20", "sort": "stars", "order": "desc", "per_page": "30"})
+        try:
+            payload = request_json(f"https://api.github.com/search/repositories?{params}", headers=headers)
+        except Exception:
+            continue
+        for item in payload.get("items", []):
+            name = item.get("full_name") or ""
+            desc = item.get("description") or ""
+            topics = " ".join(item.get("topics") or [])
+            cat = categorize_skill(f"{name} {desc} {topics}")
+            raw.append({
+                "title": name,
+                "type": cat,
+                "description": desc or "Claude / Agent / MCP 相关 skill。",
+                "tags": [item.get("language") or "Repo", cat, "GitHub"],
+                "url": item.get("html_url"),
+                "source": "GitHub",
+                "stars": int(item.get("stargazers_count", 0)),
+                "date": today_iso(),
+            })
+        time.sleep(1)  # 礼貌限速，避免触发 GitHub search 限流
+
+    # Smithery MCP 注册表补充
+    try:
+        payload = request_json("https://registry.smithery.ai/servers?page=1&pageSize=40", headers={"User-Agent": BROWSER_UA})
+        for s in payload.get("servers", []):
+            qn = s.get("qualifiedName") or ""
+            desc = s.get("description") or ""
+            cat = categorize_skill(f"{s.get('displayName','')} {qn} {desc}")
+            raw.append({
+                "title": s.get("displayName") or qn,
+                "type": cat,
+                "description": desc or "Smithery 上的 MCP 服务。",
+                "tags": [cat, "MCP", "Smithery"],
+                "url": f"https://smithery.ai/server/{qn}",
+                "source": "Smithery MCP",
+                "stars": int(s.get("useCount") or 0),
+                "date": today_iso(),
+            })
+    except Exception:
+        pass
+
+    deduped = uniq_by(raw, lambda x: x.get("url") or x.get("title"))
+    deduped.sort(key=lambda x: -int(x.get("stars") or 0))
+    return deduped[:target]
+
+
+def localize_skill_card(raw: dict) -> dict | None:
+    """把一条批量抓来的 skill 卡片中文化：标题用中文（知名品牌保留原名）、描述 40-70 字中文、
+    3 个中文标签。只改 title / description / tags，type / url / source / stars / date 原样保留，
+    保证首页卡片统一。LLM 失败时返回 None（调用方回退到原始英文卡片）。"""
+    title = raw.get("title") or ""
+    desc = raw.get("description") or ""
+    if not title:
+        return None
+    prompt = {
+        "task": "把这个 AI Skill / 工具卡片改写成中文，让它在中文导航站里和其它卡片风格统一。",
+        "input": {
+            "title": title,
+            "description": desc,
+            "type": raw.get("type"),
+            "url": raw.get("url"),
+        },
+        "schema": {
+            "title": "中文标题，6-16 字；知名英文产品名保留原样（如 n8n / AutoGPT / LangGraph / Dify），其余用简洁中文重命名；不要写成 owner/repo 路径",
+            "description": "40-70 字中文，说清这个 Skill / 工具给 AI Agent 或开发者带来什么能力，不要只翻译标题",
+            "tags": ["3 个中文功能标签，名词短语，不带 #"],
+        },
+        "style": [
+            "禁用词：强大 / 先进 / 助力 / 旨在 / 一站式 / 值得关注",
+            "技术名保留原样（Claude Code / MCP / Cursor / RAG 等）",
+            "不要编造原描述里没有的功能",
+        ],
+    }
+    result = call_json_llm(
+        "你是中文 AI 工具导航编辑。把英文 skill 卡片改写成统一风格的中文卡片，只输出 JSON。",
+        json.dumps(prompt, ensure_ascii=False),
+    )
+    if not isinstance(result, dict) or not result.get("title") or not result.get("description"):
+        return None
+    tags = result.get("tags")
+    if not isinstance(tags, list) or not tags:
+        tags = raw.get("tags") or []
+    # 保留原有结构性字段，只覆盖展示文案
+    card = dict(raw)
+    card["title"] = str(result["title"]).strip()
+    card["description"] = str(result["description"]).strip()
+    card["tags"] = [str(t).strip() for t in tags][:3]
+    return card
+
+
+def localize_skills_list(skills: list[dict]) -> list[dict]:
+    """并发把一批 skill 卡片中文化；失败的条目保留原始卡片，不丢数据。按 stars 重新排序。"""
+    if not skills:
+        return []
+    localized, failed = parallel_enrich(skills, localize_skill_card, "skills-localize")
+    merged = localized + failed  # failed 保留英文原卡，避免丢条目
+    merged.sort(key=lambda x: -int(x.get("stars") or 0))
+    return merged
+
+
+def seed_skills(target: int = 100) -> dict:
+    """一次性抓 target 个 skill 并按分类写入 generated-data.json 的 skillRecommendations。"""
+    skills = fetch_skills_bulk(target)
+    skills = localize_skills_list(skills)  # 中文化，保证卡片统一
+    import collections as _c
+    dist = _c.Counter(s["type"] for s in skills)
+    data = read_json(GENERATED_JSON, {})
+    data["skillRecommendations"] = skills
+    data["lastUpdated"] = today_iso()
+    write_generated(data)
+    print(f"已灌入 {len(skills)} 个 skill，分类分布：")
+    for cat, n in dist.most_common():
+        print(f"  {cat}: {n}")
+    return data
+
+
+def localize_existing_skills() -> dict:
+    """一次性命令：把 generated-data.json 里现有的 skillRecommendations 全部中文化并回写 json+js。
+    用于把历史灌入的英文卡片就地翻译，不重新抓 GitHub。"""
+    data = read_json(GENERATED_JSON, {})
+    skills = data.get("skillRecommendations") or []
+    if not skills:
+        print("generated-data.json 里没有 skillRecommendations，跳过。")
+        return data
+    print(f"开始中文化 {len(skills)} 条现有 skill 卡片…")
+    data["skillRecommendations"] = localize_skills_list(skills)
+    data["lastUpdated"] = today_iso()
+    write_generated(data)
+    print(f"完成：已回写 {len(data['skillRecommendations'])} 条到 generated-data.json / generated-data.js")
+    return data
+
+
+# ===== 大模型榜单（采集 ReLE 中文大模型能力评测）=====
+LLM_LEADERBOARD_URL = "https://raw.githubusercontent.com/jeinlee1991/chinese-llm-benchmark/main/leaderboard/%E6%80%BB%E5%88%86.md"
+
+
+def fetch_llm_leaderboard() -> list[dict]:
+    """抓取并解析 chinese-llm-benchmark 的综合能力排行榜（总分.md）。"""
+    txt = request_text(LLM_LEADERBOARD_URL, headers={"User-Agent": BROWSER_UA}, timeout=20)
+    rows = []
+    for line in txt.splitlines():
+        line = line.strip()
+        if not line.startswith("|"):
+            continue
+        cells = [c.strip() for c in line.strip("|").split("|")]
+        if len(cells) < 8:
+            continue
+        rank = cells[7]
+        if not rank.isdigit():   # 跳过表头/分隔行
+            continue
+        rows.append({
+            "rank": int(rank),
+            "type": cells[0],        # 商用 / 开源
+            "org": cells[1],         # 机构
+            "model": cells[2],       # 大模型
+            "score": cells[3],       # 总分准确率
+            "latency": cells[4],     # 平均耗时
+            "tokens": cells[5],      # 平均消耗 token
+            "cost": cells[6],        # 花费/千次（元）
+        })
+    rows.sort(key=lambda r: r["rank"])
+    return rows
+
+
+def seed_llm_leaderboard() -> dict:
+    """抓榜单写入 generated-data.json 的 llmLeaderboard。"""
+    rows = fetch_llm_leaderboard()
+    data = read_json(GENERATED_JSON, {})
+    data["llmLeaderboard"] = {
+        "updated": today_iso(),
+        "source": "ReLE 中文大模型能力评测（综合能力）",
+        "sourceUrl": "https://github.com/jeinlee1991/chinese-llm-benchmark",
+        "items": rows,
+    }
+    data["lastUpdated"] = today_iso()
+    write_generated(data)
+    print(f"大模型榜单写入 {len(rows)} 条")
+    return data
 
 
 def fetch_news_api_items(since: str | None = None, until: str | None = None) -> list[dict]:
@@ -343,6 +811,94 @@ def strip_html(html: str) -> str:
     return re.sub(r"\s+", " ", text).strip()
 
 
+_ARTICLE_TAG_RE = re.compile(r"<(article|main)[^>]*>([\s\S]*?)</\1>", re.I)
+_NOISE_BLOCK_RE = re.compile(
+    r"<(script|style|nav|footer|header|aside|form|noscript|iframe|svg)[^>]*>[\s\S]*?</\1>",
+    re.I,
+)
+
+
+def fetch_article_text(url: str, max_chars: int = 5000, timeout: int = 12) -> str:
+    """抓 URL 原文 → 去脚本/导航/页脚 → 优先取 <article>/<main> → 剥标签 → 截断。
+    失败返回空字符串，不抛异常（enrich 流程对失败要容错）。"""
+    if not url or not url.startswith(("http://", "https://")):
+        return ""
+    try:
+        html = request_text(url, timeout=timeout)
+    except Exception:
+        return ""
+    if not html:
+        return ""
+    # 优先取 <article> / <main> 主体；否则用整页
+    body = html
+    match = _ARTICLE_TAG_RE.search(html)
+    if match:
+        body = match.group(2)
+    # 剥噪音块（注意去噪要在 strip_html 之前）
+    body = _NOISE_BLOCK_RE.sub(" ", body)
+    text = strip_html(body)
+    # 过滤掉过短的（说明抓到的是登录墙/JS 渲染页）
+    if len(text) < 200:
+        return ""
+    return text[:max_chars]
+
+
+CN_TZ = timezone(timedelta(hours=8))   # 北京时间，发布时间统一按它展示
+
+
+def parse_dt(s: str):
+    """把各种日期字符串解析成 datetime（RFC822 / ISO / 'Jun 9, 2026' / YYYY-MM-DD）。失败返回 None。"""
+    s = (s or "").strip()
+    if not s:
+        return None
+    try:
+        return datetime.fromisoformat(s.replace("Z", "+00:00"))
+    except Exception:
+        pass
+    try:
+        from email.utils import parsedate_to_datetime
+        d = parsedate_to_datetime(s)
+        if d:
+            return d
+    except Exception:
+        pass
+    m = re.search(r"([A-Z][a-z]{2,8})\s+(\d{1,2}),\s+(\d{4})", s)
+    if m:
+        for fmt in ("%b %d %Y", "%B %d %Y"):
+            try:
+                return datetime.strptime(f"{m.group(1)} {m.group(2)} {m.group(3)}", fmt)
+            except Exception:
+                continue
+    m = re.search(r"\d{4}-\d{2}-\d{2}", s)
+    if m:
+        try:
+            return datetime.fromisoformat(m.group(0))
+        except Exception:
+            return None
+    return None
+
+
+def _to_cn(dt):
+    return dt.astimezone(CN_TZ) if dt.tzinfo else dt
+
+
+def parse_date_to_iso(s: str) -> str:
+    """统一成 YYYY-MM-DD（北京时间）。"""
+    dt = parse_dt(s)
+    return _to_cn(dt).strftime("%Y-%m-%d") if dt else ""
+
+
+def parse_datetime_to_iso(s: str) -> str:
+    """统一成 YYYY-MM-DDTHH:MM（北京时间）。仅当原始字符串含时间成分时返回，否则返回空。"""
+    if ":" not in (s or ""):
+        return ""
+    dt = parse_dt(s)
+    return _to_cn(dt).strftime("%Y-%m-%dT%H:%M") if dt else ""
+
+
+_DC_DATE = "{http://purl.org/dc/elements/1.1/}date"
+
+
 def fetch_rss_items() -> list[dict]:
     """抓取 RSS_FEEDS 里所有 feed，兼容 RSS 2.0 和 Atom 两种格式。"""
     items: list[dict] = []
@@ -359,6 +915,7 @@ def fetch_rss_items() -> list[dict]:
             title = strip_html(item.findtext("title") or "")
             link = (item.findtext("link") or "").strip()
             desc = strip_html(item.findtext("description") or "")
+            pub = item.findtext("pubDate") or item.findtext(_DC_DATE) or ""
             if title and link:
                 items.append({
                     "title": title,
@@ -366,6 +923,9 @@ def fetch_rss_items() -> list[dict]:
                     "url": link,
                     "source": f"RSS · {feed['name']}",
                     "lang": feed.get("lang", "en"),
+                    "tier": feed.get("tier", "T2"),
+                    "_date_hint": parse_date_to_iso(pub),
+                    "_datetime_hint": parse_datetime_to_iso(pub),
                 })
 
         # Atom：<feed><entry>
@@ -376,6 +936,8 @@ def fetch_rss_items() -> list[dict]:
             summ = strip_html(entry.findtext("atom:summary", default="", namespaces=atom_ns) or "")
             if not summ:
                 summ = strip_html(entry.findtext("atom:content", default="", namespaces=atom_ns) or "")
+            pub = (entry.findtext("atom:published", default="", namespaces=atom_ns)
+                   or entry.findtext("atom:updated", default="", namespaces=atom_ns) or "")
             if title and link:
                 items.append({
                     "title": title,
@@ -383,9 +945,66 @@ def fetch_rss_items() -> list[dict]:
                     "url": link,
                     "source": f"RSS · {feed['name']}",
                     "lang": feed.get("lang", "en"),
+                    "tier": feed.get("tier", "T2"),
+                    "_date_hint": parse_date_to_iso(pub),
+                    "_datetime_hint": parse_datetime_to_iso(pub),
                 })
 
-    return uniq_by(items, lambda item: item.get("url"))[:40]
+    # 先去重，再按信源等级排序后截断，保证 T1 一手源不会被后面的源挤掉。
+    deduped = uniq_by(items, lambda item: item.get("url"))
+    tier_rank = {"T1": 0, "T1.5": 1, "T2": 2}
+    deduped.sort(key=lambda it: tier_rank.get(it.get("tier", "T2"), 3))
+    return deduped[:80]
+
+
+# 无官方 RSS、但能从静态 HTML 里直接抽到文章链接的一手源。
+# 注：智谱 / 阶跃 / 文心 等是纯 JS 渲染的 SPA（HTML 是空壳），urllib 抓不到，
+#     需要无头浏览器，超出当前零依赖设计，故不纳入；它们的开源模型已由 GitHub 厂商管线覆盖。
+# pattern 是文章链接的相对路径正则；以下均已实测能抽到带标题的链接。
+HTML_SOURCES = [
+    {"name": "Anthropic", "url": "https://www.anthropic.com/news",
+     "base": "https://www.anthropic.com", "pattern": r"/news/[a-z0-9-]+",
+     "lang": "en", "tier": "T1"},
+    {"name": "MiniMax", "url": "https://www.minimaxi.com/news",
+     "base": "https://www.minimaxi.com", "pattern": r"/news/[a-z0-9-]+",
+     "lang": "zh", "tier": "T1"},
+]
+
+# 部分一手站点会拦截非浏览器 UA，HTML 抓取统一用浏览器 UA。
+BROWSER_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+
+
+def fetch_html_items() -> list[dict]:
+    """从无 RSS 的一手站点（Anthropic / MiniMax 等）的静态 HTML 中抽取文章链接+标题。"""
+    items: list[dict] = []
+    for src in HTML_SOURCES:
+        try:
+            html = request_text(src["url"], headers={"User-Agent": BROWSER_UA}, timeout=20)
+        except Exception:
+            continue
+        seen = set()
+        count = 0
+        for m in re.finditer(r'<a[^>]+href="(' + src["pattern"] + r')"[^>]*>(.*?)</a>', html, re.S):
+            href = m.group(1)
+            text = strip_html(m.group(2))
+            if not href or href in seen or len(text) < 8:
+                continue
+            seen.add(href)
+            url = href if href.startswith("http") else src["base"] + href
+            items.append({
+                "title": text[:120],      # 锚文本可能含分类/日期噪声，交给 LLM 归一化为中文标题
+                "summary": text[:500],
+                "url": url,
+                "source": f"HTML · {src['name']}",
+                "lang": src.get("lang", "en"),
+                "tier": src.get("tier", "T1"),
+                "_date_hint": parse_date_to_iso(text),   # 从锚文本里抽 "Jun 9, 2026" 这类发布日期
+                "_datetime_hint": parse_datetime_to_iso(text),
+            })
+            count += 1
+            if count >= 10:           # 每个源最多取 10 条最新
+                break
+    return uniq_by(items, lambda it: it.get("url"))
 
 
 def fetch_research_items(since: str | None = None, until: str | None = None) -> list[dict]:
@@ -431,77 +1050,511 @@ NEWS_CATEGORIES = [
     "ai-models", "ai-benchmark", "ai-office", "ai-research", "ai-business",
 ]
 
+# 9 类的中文名（前端筛选 chip + 日报版块标题用）
+CATEGORY_LABELS = {
+    "ai-models": "模型发布",
+    "ai-coding": "AI 编程",
+    "ai-agents": "Agent / MCP",
+    "ai-research": "论文研究",
+    "ai-tools": "AI 工具",
+    "ai-image-video": "图像视频",
+    "ai-office": "办公提效",
+    "ai-benchmark": "评测榜单",
+    "ai-business": "行业商业",
+}
+
+# ============ 评分 / 精选机制（信息处理核心层）============
+# 参考 AIHOT 的迭代教训：能用代码就别让模型决策。
+# 模型只对每条信息打 5 个维度分（0-100），最终质量分、是否精选全部由代码按公式计算——
+# 这样可控、可调、省钱，也避免"规则越加模型越笨"。
+SCORE_DIMENSIONS = ["importance", "novelty", "firsthand", "impact", "credibility"]
+SCORE_WEIGHTS = {
+    "importance": 0.30,   # 重要性：这件事在 AI 圈分量多大
+    "impact": 0.25,       # 影响范围：影响多少人 / 多少下游
+    "novelty": 0.20,      # 信息增量：是不是新东西、有没有新信息
+    "firsthand": 0.15,    # 一手性：是不是原始 / 官方发布
+    "credibility": 0.10,  # 可信度：来源是否可靠、有无实证
+}
+# 分类别精选阈值（最终质量分 >= 阈值才进精选）。一手强的类别门槛低，资讯/商业类门槛高。
+CATEGORY_THRESHOLD = {
+    "ai-models": 55, "ai-coding": 56, "ai-agents": 56, "ai-research": 58,
+    "ai-image-video": 58, "ai-tools": 58, "ai-benchmark": 58,
+    "ai-office": 60, "ai-business": 60,
+}
+DEFAULT_THRESHOLD = 58
+
+# 预筛：判断一条原始信息是否跟 AI 相关。命中即进入后续（昂贵的）抓原文 + LLM 富化。
+# 用代码先过滤，省掉对明显无关内容（股票、油价、八卦）的 LLM 开销。
+_AI_KEYWORDS = (
+    "ai", "a.i", "人工智能", "大模型", "llm", "gpt", "claude", "gemini", "deepseek",
+    "qwen", "通义", "智谱", "kimi", "llama", "mistral", "agent", "智能体", "mcp",
+    "rag", "embedding", "transformer", "neural", "深度学习", "机器学习", "model",
+    "模型", "开源模型", "推理", "inference", "微调", "fine-tun", "prompt", "提示词",
+    "多模态", "multimodal", "扩散", "diffusion", "生成式", "generative", "ocr",
+    "tts", "asr", "语音合成", "文生图", "文生视频", "sora", "midjourney", "stable diffusion",
+    "openai", "anthropic", "deepmind", "hugging face", "huggingface", "nvidia",
+    "copilot", "cursor", "benchmark", "评测", "arxiv", "数据集", "dataset",
+)
+_NON_AI_HINTS = (
+    "stock", "shares", "nasdaq", "dow jones", "oil price", "box office", "celebrity",
+    "football", "nba", "weather", "recipe", "股价", "油价", "票房", "彩票", "星座",
+)
+
+
+def is_ai_relevant(raw: dict) -> bool:
+    """代码预筛：T1/T1.5 一手源直接放行（它们本身就是 AI 信源，标题可能不含关键词）；
+    其余源要求命中 AI 关键词，且不命中明显的非 AI 噪声词。"""
+    tier = raw.get("tier")
+    source = (raw.get("source") or "").lower()
+    if tier in ("T1", "T1.5"):
+        return True
+    if source.startswith("arxiv") or "semantic scholar" in source or source.startswith("github"):
+        return True
+    blob = f"{raw.get('title') or raw.get('name') or ''} {raw.get('summary') or raw.get('description') or ''}".lower()
+    if not blob.strip():
+        return True  # 信息不足时不武断丢弃，交给 LLM 判断
+    has_ai = any(k in blob for k in _AI_KEYWORDS)
+    has_noise = any(k in blob for k in _NON_AI_HINTS)
+    if has_noise and not has_ai:
+        return False
+    return has_ai
+
+
+def compute_quality_score(scores: dict | None, tier: str = "T2") -> int:
+    """代码按公式算最终质量分：5 维加权 × 信源等级权重 → 0-100。
+    无 scores（旧数据/LLM 未给分）时用 tier 推一个保守的兜底分。"""
+    weight = TIER_WEIGHT.get(tier or "T2", 0.6)
+    if not isinstance(scores, dict) or not scores:
+        return round(70 * weight)  # 兜底：按等级给个中性分，保证旧数据可排序/展示
+    total = 0.0
+    for dim, w in SCORE_WEIGHTS.items():
+        try:
+            v = float(scores.get(dim, 0))
+        except (TypeError, ValueError):
+            v = 0.0
+        total += max(0.0, min(100.0, v)) * w
+    return round(total * weight)
+
+
+def select_threshold(category: str) -> int:
+    return CATEGORY_THRESHOLD.get(category, DEFAULT_THRESHOLD)
+
+
+# 分类归一化：旧数据/LLM 可能给中文或别名分类，统一映射回 9 个 slug
+CATEGORY_ALIASES = {
+    "ai-coding": ["编程", "代码", "coding", "code"],
+    "ai-business": ["行业", "商业", "business", "产业", "融资", "市场"],
+    "ai-research": ["研究", "论文", "paper", "research", "学术", "arxiv"],
+    "ai-tools": ["工具", "tool", "应用", "app", "平台", "助手"],
+    "ai-models": ["模型", "model", "大模型"],
+    "ai-image-video": ["图像", "视频", "图片", "image", "video", "绘画", "多模态", "生成"],
+    "ai-office": ["办公", "写作", "office", "效率", "提效"],
+    "ai-benchmark": ["榜单", "评测", "benchmark", "排行", "leaderboard"],
+    "ai-agents": ["智能体", "agent", "mcp", "代理", "工作流"],
+}
+
+
+def normalize_category(cat: str, text: str = "") -> str:
+    """把任意分类值归一化成 9 个 slug 之一。"""
+    if cat in NEWS_CATEGORIES:
+        return cat
+    c = (cat or "").lower()
+    for slug, keys in CATEGORY_ALIASES.items():
+        if any(k.lower() in c for k in keys):
+            return slug
+    return category_from_text(text or cat or "")
+
+
+# source 字符串 → tier 反查表（用于给旧数据/无 tier 条目补等级）
+_SOURCE_TIER = {f["name"]: f["tier"] for f in RSS_FEEDS}
+_SOURCE_TIER.update({s["name"]: s["tier"] for s in HTML_SOURCES})
+
+
+def infer_tier_from_source(source: str) -> str:
+    """从 source 文本推断信源等级。一手源（官方/论文/厂商）→T1，二手聚合（NewsAPI 等）→T2。"""
+    if not source:
+        return "T2"
+    s = source.strip()
+    low = s.lower()
+    if low.startswith("arxiv") or "semantic scholar" in low:
+        return "T1"
+    if low.startswith("github ·") or low.startswith("github·"):
+        return "T1"          # 厂商组织动态
+    if low.startswith("github search"):
+        return "T1.5"
+    # "RSS · 名称" / "HTML · 名称" → 去前缀后查表
+    name = re.sub(r"^(RSS|HTML)\s*·\s*", "", s).strip()
+    if name in _SOURCE_TIER:
+        return _SOURCE_TIER[name]
+    for known, tier in _SOURCE_TIER.items():
+        if known and known in s:
+            return tier
+    # NewsAPI / GNews / NewsData.io 等二手新闻 API
+    if any(p in s for p in ("NewsAPI", "GNews", "NewsData", "Guardian", "Currents",
+                            "World News", "Marketaux", "Auto Search")):
+        return "T2"
+    return "T2"
+
+
+# ============ 事件聚类去重 ============
+# 同一件事常被多源报道（官方 + X + 各媒体）。按 URL 去重留不住——URL 不同但是同一事件。
+# 用标题的"显著 token + 中文二元组"做相似度聚类：同簇只保留最权威的一条当主条，
+# 其余折叠进 relatedSources，并记 sourceCount（被多少源报道 = 热度信号）。
+_CLUSTER_STOPWORDS = {
+    "the", "and", "for", "with", "new", "now", "how", "why", "what", "your", "you",
+    "ai", "llm", "model", "models", "release", "released", "launch", "launches",
+    "introducing", "announces", "announced", "update", "updates", "发布", "推出",
+    "更新", "上线", "宣布", "正式", "最新", "中国", "全球",
+}
+
+
+def _title_tokens(title: str) -> set:
+    """从标题抽显著 token：英文词/数字/版本号（去停用词）+ 中文二元组。"""
+    if not title:
+        return set()
+    toks = set()
+    for w in re.findall(r"[a-z0-9][a-z0-9.\-]{2,}", title.lower()):
+        if w not in _CLUSTER_STOPWORDS:
+            toks.add(w)
+    zh = re.findall(r"[一-鿿]", title)
+    for i in range(len(zh) - 1):
+        bigram = zh[i] + zh[i + 1]
+        if bigram not in _CLUSTER_STOPWORDS:
+            toks.add(bigram)
+    return toks
+
+
+def _same_event(a: set, b: set, threshold: float = 0.5) -> bool:
+    """重叠系数 |A∩B| / min(|A|,|B|) >= 阈值 且共享 token >= 2 → 判为同一事件。"""
+    if not a or not b:
+        return False
+    inter = len(a & b)
+    if inter < 2:
+        return False
+    return inter / min(len(a), len(b)) >= threshold
+
+
+_TIER_RANK = {"T1": 0, "T1.5": 1, "T2": 2}
+
+
+def cluster_news(items: list[dict]) -> list[dict]:
+    """对 news 列表做事件聚类：同簇保留主条（tier 高 > 分高 > 新），其余折叠。
+    主条会带上 sourceCount 和 relatedSources。"""
+    if not items:
+        return items
+    # 代表性排序：tier 高、分高、日期新的优先当主条
+    order = sorted(
+        items,
+        key=lambda it: (
+            _TIER_RANK.get(it.get("tier", "T2"), 3),
+            -int(it.get("score") or 0),
+            str(it.get("date") or ""),
+        ),
+    )
+    sigs = {id(it): _title_tokens(it.get("title") or "") for it in order}
+    used = set()
+    representatives = []
+    for main in order:
+        if id(main) in used:
+            continue
+        used.add(id(main))
+        related = []
+        for other in order:
+            if id(other) in used:
+                continue
+            if _same_event(sigs[id(main)], sigs[id(other)]):
+                used.add(id(other))
+                related.append(other)
+        if related:
+            main["sourceCount"] = 1 + len(related)
+            main["relatedSources"] = [
+                {"source": r.get("source") or "", "url": r.get("url") or "", "title": r.get("title") or ""}
+                for r in related
+            ]
+        else:
+            main.setdefault("sourceCount", 1)
+        representatives.append(main)
+    return representatives
+
+
+# ============ AI 日报（预计算分桶）============
+# 日报不调任何大模型：精选/分类/摘要在入库时已做完，日报只是把已处理好的精选条目
+# 按类别分桶 + 按分排序，几毫秒生成。参考 AIHOT：日报是"标题层"成品。
+def existing_news_urls() -> set:
+    """已入库的 news URL 集合——用于高频采集时跳过已处理条目。"""
+    data = read_json(GENERATED_JSON, {})
+    urls = set()
+    for n in data.get("news") or []:
+        if n.get("url"):
+            urls.add(n["url"])
+        for r in n.get("relatedSources") or []:
+            if r.get("url"):
+                urls.add(r["url"])
+    return urls
+
+
+def _bucket_daily(items: list[dict], date_label: str) -> dict:
+    """把一组（已精选的）条目按 9 类分桶 + 按分排序，组装成一份日报对象。"""
+    buckets: dict[str, list] = {}
+    for n in items:
+        buckets.setdefault(n.get("category") or "ai-models", []).append(n)
+    sections = []
+    for cat in NEWS_CATEGORIES:
+        bucket = buckets.get(cat) or []
+        if not bucket:
+            continue
+        bucket = sorted(bucket, key=lambda n: -int(n.get("score") or 0))[:12]
+        sections.append({
+            "category": cat,
+            "label": CATEGORY_LABELS.get(cat, cat),
+            "items": [{
+                "title": n.get("title") or "",
+                "summary": (n.get("summary") or "")[:140],
+                "source": n.get("source") or "",
+                "url": n.get("url") or "",
+                "score": int(n.get("score") or 0),
+                "sourceCount": int(n.get("sourceCount") or 1),
+                "date": n.get("date") or "",
+                "publishedAt": n.get("publishedAt") or "",
+                "reason": n.get("reason") or "",
+            } for n in bucket],
+        })
+    return {
+        "date": date_label,
+        "generatedAt": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+        "total": sum(len(s["items"]) for s in sections),
+        "sections": sections,
+    }
+
+
+def build_daily_report(news: list[dict], window_days: int = 1, min_items: int = 8) -> dict:
+    """滚动日报：取最近窗口的精选条目分桶（首页/最新日报用）。"""
+    selected = [n for n in news if n.get("aiSelected")]
+    cutoff = days_ago(window_days)
+    recent = [n for n in selected if str(n.get("date") or "") >= cutoff]
+    if len(recent) < min_items:
+        # 兜底：数据较旧/较少时，取最近的精选条目，保证日报页不空
+        recent = sorted(selected, key=lambda n: str(n.get("date") or ""), reverse=True)[:max(min_items, 24)]
+    return _bucket_daily(recent, today_iso())
+
+
+def freeze_daily_report(for_date: str | None = None, keep: int = 60) -> dict:
+    """每天 0 点固化：把指定日期（默认昨天）当天发布且精选的条目，
+    固化成一份带日期的日报，存入 dailyReports 归档（AIHOT 式 /daily/{date}）。"""
+    data = read_json(GENERATED_JSON, {})
+    news = data.get("news") or []
+    target = for_date or days_ago(1)
+    day_items = [n for n in news if str(n.get("date") or "")[:10] == target and n.get("aiSelected")]
+    report = _bucket_daily(day_items, target)
+    archive = [r for r in (data.get("dailyReports") or []) if r.get("date") != target]
+    archive.insert(0, report)
+    data["dailyReports"] = archive[:keep]
+    # 注意：不覆盖 data["dailyReport"]（那是 merge 维护的"滚动最新日报"）；
+    # 归档是带日期的成品，日报页优先展示最新非空归档，否则回退滚动日报。
+    data["lastUpdated"] = today_iso()
+    write_generated(data)
+    print(f"[{datetime.now().strftime('%H:%M:%S')}] 固化日报 {target}：{report['total']} 条")
+    return report
+
+
+_SANITIZE_PATTERNS = [
+    re.compile(r"\?{3,}"),                           # 一堆问号
+    re.compile(r"NewsAPI:\S*", re.I),                # 残留的 source 标记
+    re.compile(r"GNews:\S*|NewsData\.io:\S*|The Guardian:\S*|Currents:\S*", re.I),
+    re.compile(r"Marketaux:\S*|World News API:\S*", re.I),
+    re.compile(r"RSS · [^.]+", re.I),
+    re.compile(r"GitHub Search · \d{4}-\d{2}-\d{2}", re.I),
+]
+
+
+def sanitize_text(s: str) -> str:
+    """清 source 残留 + 中英文标点规范化（盘古之白 + 全角括号 + 单位贴近）。"""
+    if not isinstance(s, str):
+        return s
+    for pat in _SANITIZE_PATTERNS:
+        s = pat.sub("", s)
+    s = re.sub(r"\s+", " ", s).strip()
+    # 中文 + 英文/数字 → 加空格
+    s = re.sub(r"([一-鿿])([A-Za-z0-9])", r"\1 \2", s)
+    s = re.sub(r"([A-Za-z0-9])([一-鿿])", r"\1 \2", s)
+    # 半角括号紧贴中文 → 全角
+    s = re.sub(r"([一-鿿])\(", r"\1（", s)
+    s = re.sub(r"\)([一-鿿])", r"）\1", s)
+    s = re.sub(r"([一-鿿])\)", r"\1）", s)
+    s = re.sub(r"\(([一-鿿])", r"（\1", s)
+    # 中文标点前后空格清掉
+    s = re.sub(r" ([，。！？；：、])", r"\1", s)
+    s = re.sub(r"([，。！？；：、]) ", r"\1", s)
+    # 数字 + 常见中文单位不留空格
+    s = re.sub(r"(\d) (月|日|年|时|分|秒|岁|个|条|篇|次|倍|位|名|元|周)", r"\1\2", s)
+    return s.strip()
+
+
+NEWS_WRITING_STYLES = [
+    {
+        "name": "observer",
+        "system": "你是中文 AI 行业的资深观察者。语气像把笔记本里的观察发出来：直接说事实、举具体例子、保留模型名/数字/版本号原样。",
+        "voice": "第三人称客观陈述，但偶尔在 keyPoints 里夹一句作者判断。",
+        "open_preference": "用具体事件名或具体数字开头（'OpenAI 在 5 月 20 日...'、'Claude 4.5 Sonnet 在...'）",
+        "structure_hint": "title 直接说事实；summary 先说谁做了什么、再说亮点；background 写时间线和上下文；impact 写连锁效应。",
+        "ban": ["旨在", "推动", "助力", "赋能", "引领", "重磅", "震撼", "值得关注", "标志着"],
+    },
+    {
+        "name": "reviewer",
+        "system": "你是写产品评测的中文科技博主。语气像 ProductHunt / 少数派的评测：以读者使用决策为核心。",
+        "voice": "评测口吻，给出推荐/不推荐的态度。",
+        "open_preference": "summary 用 '这次发布的核心点是...' 这类直接评测开头。",
+        "structure_hint": "background 改成 '它和同类有什么不同'；impact 改成 '推荐 vs 不推荐的人群'；useCases 含具体动作；risks 写真实坑。",
+        "ban": ["业界领先", "颠覆性", "强大", "革命性", "无与伦比"],
+    },
+    {
+        "name": "recommender",
+        "system": "你是把好用 AI 工具/项目分享给同事的资深开发者，第一人称口吻（'我'、'我们'）。",
+        "voice": "口语化、像分享个人发现，不端着。",
+        "open_preference": "summary 可以用 '我注意到...' / '最近看到...' 开头，但只在 summary 用一次，其他字段保持中性。",
+        "structure_hint": "audience 写具体角色；useCases 像在跟人介绍自己的真实使用场景。",
+        "ban": ["旨在", "推动", "助力", "据悉", "众所周知"],
+    },
+    {
+        "name": "analyst",
+        "system": "你是 AI 行业分析师。从商业、技术栈、竞争格局、监管影响的角度切入。",
+        "voice": "理性、含数据、含对比。",
+        "open_preference": "summary 含数字或对比（'相比上一代提升 X%'、'比同期同类产品...'）。",
+        "structure_hint": "background 含行业背景和竞争对手；impact 写连锁效应和下游影响；risks 写监管/合规/商业风险。",
+        "ban": ["旨在", "推动", "赋能", "引领", "重磅"],
+    },
+    {
+        "name": "tutorial",
+        "system": "你是写实用教程的中文技术编辑，重点是'读完能怎么动手'。",
+        "voice": "动作导向，结果可衡量。",
+        "open_preference": "summary 偏 '它能让你 X 分钟内做到 Y' 这种结果导向。",
+        "structure_hint": "useCases 必须是 3-5 个动作步骤（动词开头）；risks 写实操中容易踩的坑（环境配置、API quota、版本兼容）。",
+        "ban": ["值得关注", "重磅", "震撼", "引发关注"],
+    },
+    {
+        "name": "critic",
+        "system": "你是带批判性思维的中文 AI 分析者。不光介绍功能，要点出局限、对比同类、给中立结论。",
+        "voice": "中立、含反面、不当软文。",
+        "open_preference": "summary 含正反两面（'X 提升了 Y，但仍然 Z'）。",
+        "structure_hint": "risks 至少 3 条具体局限；audience 注明'不适合谁'。",
+        "ban": ["旨在", "颠覆", "无可挑剔", "完美", "前所未有"],
+    },
+]
+
+
+def pick_writing_style(seed: str) -> dict:
+    """按字符串 hash 稳定选一种风格——同一条 news 多次跑保持同样风格。"""
+    if not seed:
+        return NEWS_WRITING_STYLES[0]
+    h = sum(ord(c) for c in seed) % len(NEWS_WRITING_STYLES)
+    return NEWS_WRITING_STYLES[h]
+
+
+def sanitize_news_dict(d: dict) -> dict:
+    """对 enrich 返回的 dict 做整体清洗：字符串字段全部 sanitize，list 字段每项也清。"""
+    for k in ("title", "summary", "background", "impact", "reason"):
+        if isinstance(d.get(k), str):
+            d[k] = sanitize_text(d[k])
+    for k in ("keyPoints", "audience", "useCases", "risks", "tags",
+              "features", "quickStart", "details", "description", "why"):
+        v = d.get(k)
+        if isinstance(v, list):
+            d[k] = [sanitize_text(x) if isinstance(x, str) else x for x in v if x]
+        elif isinstance(v, str):
+            d[k] = sanitize_text(v)
+    return d
+
 
 def enrich_news_item(raw: dict) -> dict | None:
-    """单条原始信息 → 调一次 LLM，产出读者向中文快讯条目。
-    风格目标：像懂行的产品博客笔记，不写套话、不堆历史背景、不说教。"""
+    """单条原始信息 → 调一次 LLM。按 url hash 稳定选 6 种写作风格之一，
+    避免内容千篇一律。不是 AI 相关的返回 None 让系统丢弃。
+    新策略：调 LLM 前先抓 URL 原文，给 LLM 一份完整正文，避免只靠 180 字 summary 改写。"""
     text = item_text(raw)
     rule_category = category_from_text(text)
+    style = pick_writing_style(raw.get("url") or raw.get("title") or "")
+    # 抓原文（失败返回空字符串，LLM 仍可基于 summary 改写）
+    original_content = fetch_article_text(raw.get("url") or "")
     prompt = {
-        "task": "把英文/中文原始 AI 信息改写成简洁的中文条目。",
+        "task": "把英文/中文原始 AI 信息改写成 信息密度高、可读性强 的中文条目。LLM 应优先依据 input.originalContent 写作（这是抓到的完整原文）；input.summary 只是新闻 API 给的短摘要、信息量有限。如果输入不是 AI/LLM/Agent/模型/工具相关的实质内容（ASX 股票、油价、明星八卦），返回不带 title 的对象，系统会丢弃。",
+        "writingStyle": {
+            "name": style["name"],
+            "voice": style["voice"],
+            "openingHint": style["open_preference"],
+            "structureHint": style["structure_hint"],
+            "bannedWords": style["ban"],
+        },
         "input": {
             "title": raw.get("title") or raw.get("name") or "",
             "summary": raw.get("summary") or raw.get("description") or "",
+            "originalContent": original_content,
             "url": raw.get("url"),
             "source": raw.get("source"),
             "lang": raw.get("lang"),
         },
         "ruleHint": {"category": rule_category},
         "schema": {
-            "title": "中文标题 20-40 字；直接说事实，不要 'AI 快讯：' / '震撼发布' / '推动' 这种修饰",
-            "summary": "60-120 字中文导读；说清是谁做了什么、给出具体名字/数字/版本号；不要套话",
+            "title": "中文标题 20-45 字；直接说事实，不要 'AI 快讯：' 这种修饰",
+            "summary": "120-200 字中文导读；信息密度高",
             "category": "|".join(NEWS_CATEGORIES),
-            "tags": ["3-5 个中文标签，每个 2-6 字"],
-            "keyPoints": ["3-5 条关键事实；每条 20-50 字；只列具体事实（model name / 数字 / 时间 / 价格 / 链接关键词）"],
-            "background": "可选；只在原文有 prerequisite 知识或事件链路时写，60-100 字；没有就留空字符串",
-            "impact": "60-120 字；谁会怎么用到、要不要现在试、对哪类项目有影响；写人话不要写'推动行业发展'这种套话",
-            "audience": ["2-4 个具体人群；比如 '做 RAG 的工程师' / '电商运营' / 'AI 内容站站长'；不要写 'AI 用户'"],
-            "useCases": ["2-4 条；每条用动词开头，比如 '在 Claude Code 里安装作为 plugin'"],
-            "risks": ["0-3 条注意事项；只写真实的坑或限制（API 价、配额、商用授权、覆盖语种等）；没坑就空数组"],
+            "tags": ["3-6 个中文标签"],
+            "keyPoints": ["5-8 条关键事实；每条 40-90 字；至少 1 条含数字或版本号"],
+            "background": "250-400 字详细解读；事件来龙去脉、商业/技术上下文、跟之前类似事件的对比",
+            "impact": "200-340 字；分多个角度：谁会用上、改变什么决策、连锁效应",
+            "audience": ["3-6 个具体人群（'做 RAG 的工程师'/'电商美工'/'管 GPU 集群的 SRE'），不要 'AI 用户'"],
+            "useCases": ["3-6 条；每条 30-80 字；动词开头；含具体动作/工具名/期望结果"],
+            "risks": ["2-5 条；每条 40-80 字；写真实的坑：API 价、配额、商用授权、语种、硬件、兼容性"],
+            "reason": "一句话推荐理由：为什么这条值得一看（30-50 字，点出独特价值，不要套话）",
+            "scores": {
+                "importance": "0-100：这件事在 AI 圈的分量（行业级大事 80+，小更新 30-50）",
+                "novelty": "0-100：信息增量（全新发布/突破 80+，已被反复报道的旧事 20-40）",
+                "firsthand": "0-100：一手性（官方/作者原始发布 90+，媒体二手转述 30-50）",
+                "impact": "0-100：影响范围（影响大量开发者/用户 80+，小众 30-50）",
+                "credibility": "0-100：可信度（有实证/官方背书 80+，传闻/营销 20-40）",
+            },
         },
-        "style": [
-            "写作语气：懂行的同行做笔记，不是新闻稿编辑",
-            "禁用词：旨在 / 推动 / 助力 / 赋能 / 引领 / 重磅 / 震撼 / 引发广泛关注",
-            "禁止开头：'近年来'/'随着 AI 的发展'/'值得注意的是'",
-            "宁可短也不要套话；信息不够就留空",
-        ],
         "requirements": [
             "category 必须是 schema 列出的之一",
-            "不要输出 url / source / date / contentIdeas / nextActions / moduleTargets",
+            "不要输出 url / source / date",
             "数字、版本号、模型名、价格保留原样",
+            "严格按 writingStyle 指示的语气和结构来写——不同 style 必须写出不同质感",
+            "宁可写长写满，不要套话；信息不够时多角度展开",
+            "scores 的 5 个维度都必须给 0-100 的整数，客观打分，不要全部给高分",
         ],
     }
-    prompt["schema"].update({
-        "contentIdeas": ["3-5 条可延伸成站内内容的选题，例如教程、对比、FAQ、榜单更新、案例页"],
-        "nextActions": ["2-4 条下一步编辑动作，要具体到应该补哪个页面或哪个模块"],
-        "moduleTargets": ["news|topicResources|skillRecommendations|githubWeekly|benchmarkBoards|benchmarkDatasets 中选择 1-4 个"],
-        "routeReason": "40-90 字，解释为什么应该进入这些模块",
-    })
-    prompt["requirements"][1] = "必须输出 contentIdeas / nextActions / moduleTargets / routeReason，用于详情页和模块分发。"
 
     result = call_json_llm(
-        "你是中文 AI 导航站编辑。语气像懂行的同行做笔记，不写套话。只输出 JSON，不要 markdown。",
+        style["system"] + " 只输出 JSON，不要 markdown。",
         json.dumps(prompt, ensure_ascii=False),
     )
     if not isinstance(result, dict) or not result.get("title"):
         return None
-    # 系统注入字段
     result["url"] = raw.get("url")
     result["source"] = raw.get("source") or "Auto Search"
-    # 优先用原文发布日期（回填场景重要），没有就用今天
     raw_date = (raw.get("_date_hint") or "").strip()
     if raw_date and len(raw_date) >= 10:
-        result["date"] = raw_date[:10]  # 取 YYYY-MM-DD 部分
+        result["date"] = raw_date[:10]
     else:
         result["date"] = today_iso()
+    result["publishedAt"] = (raw.get("_datetime_hint") or "")   # 精确到分钟（北京时间），无则空
     if result.get("category") not in NEWS_CATEGORIES:
         result["category"] = rule_category
-    result.setdefault("contentIdeas", [])
-    result.setdefault("nextActions", [])
-    result.setdefault("moduleTargets", ["news"])
-    result.setdefault("routeReason", "")
-    result.setdefault("whyUseful", result.get("impact") or "")
+    # 保存原文正文（前端可折叠展示）
+    if original_content:
+        result["originalContent"] = original_content
+    # —— 评分 / 精选：模型只打 5 维，最终分和是否精选由代码算 ——
+    tier = raw.get("tier") or "T2"
+    scores = result.get("scores") if isinstance(result.get("scores"), dict) else None
+    result["tier"] = tier
+    result["scores"] = scores or {}
+    result["score"] = compute_quality_score(scores, tier)
+    result["aiSelected"] = result["score"] >= select_threshold(result["category"])
+    # 移除编辑视角字段（如果 LLM 误输出）
+    for k in ("contentIdeas", "nextActions", "moduleTargets", "routeReason", "whyUseful"):
+        result.pop(k, None)
+    # 记录用了哪种风格（便于排查）
+    result["_style"] = style["name"]
     return result
+
 
 
 GITHUB_CATEGORIES = [
@@ -542,13 +1595,12 @@ def enrich_github_item(raw: dict) -> dict | None:
             "name": "保留 owner/repo 原名，不翻译",
             "lang": "主要语言",
             "category": "|".join(GITHUB_CATEGORIES),
-            "description": "40-70 字一句话；说这是给谁用的什么工具",
-            "details": "120-220 字详细介绍；只说事实：解决什么问题、和同类（写出具体竞品名）的差异、推荐谁试",
-            "features": ["4-6 条；每条 10-25 字；只列能力点（如 'OpenAI 兼容 API'、'支持 GGUF 量化'），不写形容词"],
-            "useCases": ["3-5 条；动词开头（如 '本地跑 Llama3 做客服初筛'）"],
-            "quickStart": ["3-5 步上手；用命令或动作描述（'docker run' / 'pip install' / '在 Claude Code 里 add plugin'）"],
-            "why": "60-100 字；为什么这个比同类好或不同；用具体证据"
-            "（star 数 / 厂商 / 发布时间 / 技术细节），不要说'值得关注'",
+            "description": "60-100 字一句话；说这是给谁用的什么工具，含 1 个亮点",
+            "details": "200-320 字详细介绍：解决什么问题、和同类（点名具体竞品）的差异、技术栈/语言/许可证、推荐谁试、不推荐谁",
+            "features": ["5-7 条；每条 15-35 字；列能力点（如 'OpenAI 兼容 API'、'支持 GGUF 量化、混合精度'），不写形容词",],
+            "useCases": ["3-5 条；动词开头并含具体动作（如 '本地跑 Llama3 70B 做客服初筛'、'替换 Pinecone 做企业 RAG 向量检索'）"],
+            "quickStart": ["4-6 步上手；用命令或动作描述（'pip install xxx' / 'docker run' / 'curl https://...' / '在 Claude Code 里 /add-plugin'）"],
+            "why": "100-160 字；为什么这个比同类好或不同；具体证据（star 数 / 厂商 / 发布时间 / 技术细节 / 社区活跃度）；不要说'值得关注'",
             "tags": ["3-5 个中文标签"]
         },
         "style": [
@@ -593,7 +1645,7 @@ def enrich_skill_item(raw: dict) -> dict | None:
             "title": "Skill 名称；英文 owner/repo 保留原名",
             "type": "|".join(SKILL_TYPES),
             "description": "40-70 字；告诉读者这个 Skill 让 Coding Agent 多了什么能力",
-            "details": "120-220 字；具体场景里它做什么动作（比如 'commit 前自动跑 ggshield'）；和同类比的差异",
+            "details": "200-320 字；展开讲具体场景（如 'commit 前自动跑 ggshield 扫密钥' / 'PR review 时检查 SQL 注入'）、和同类的差异、技术栈/兼容性",
             "features": ["4-6 条；动作/能力点（如 'PreToolUse hook 拦截危险命令'）；不写形容词"],
             "useCases": ["3-5 条；'谁/什么场景/解决什么'，动词开头"],
             "tags": ["3-5 个中文标签"]
@@ -651,12 +1703,17 @@ def fallback_news(raw_items: list[dict]) -> list[dict]:
     for item in uniq_by(raw_items, lambda row: row.get("url"))[:10]:
         title = item.get("title") or item.get("name") or "AI 资讯"
         summary = (item.get("summary") or item.get("description") or "").strip()
+        category = category_from_text(f"{title} {summary}")
+        tier = item.get("tier") or "T2"
+        score = compute_quality_score(None, tier)
+        raw_date = (item.get("_date_hint") or "").strip()
         news.append({
             "title": title,
             "summary": summary[:180] if summary else "",
-            "category": category_from_text(f"{title} {summary}"),
+            "category": category,
             "source": item.get("source") or "Auto Search",
-            "date": today_iso(),
+            "date": raw_date[:10] if len(raw_date) >= 10 else today_iso(),
+            "publishedAt": item.get("_datetime_hint") or "",
             "tags": [],
             "url": item.get("url"),
             "keyPoints": [],
@@ -665,6 +1722,10 @@ def fallback_news(raw_items: list[dict]) -> list[dict]:
             "audience": [],
             "useCases": [],
             "risks": [],
+            "tier": tier,
+            "scores": {},
+            "score": score,
+            "aiSelected": score >= select_threshold(category),
         })
     return news
 
@@ -796,7 +1857,6 @@ def fallback_routed_content(raw_items: list[dict], github_items: list[dict] | No
             "tags": ["自动采集", category.replace("ai-", "")],
             "url": url,
             "moduleTargets": targets,
-            "routeReason": f"根据标题、摘要和来源识别为 {category}，同步进入 {', '.join(targets)}。",
             "background": f"这条信息来自 {source}，原始标题为：{title}。",
             "keyPoints": [
                 f"来源：{source}",
@@ -807,8 +1867,6 @@ def fallback_routed_content(raw_items: list[dict], github_items: list[dict] | No
             "audience": ["AI 工具用户", "内容运营", "开发者"] if "githubWeekly" not in targets else ["开发者", "AI Agent 用户", "技术内容运营"],
             "useCases": ["写成快讯详情", "归档到对应分类", "延伸为教程或对比文章"],
             "risks": ["需要打开原始来源核对细节", "自动摘要不能替代官方说明", "热度不等于长期价值"],
-            "contentIdeas": ["做中文解读", "补适用人群", "补同类对比", "加入 FAQ"],
-            "nextActions": ["核对原始来源", "按模块补充详情页", "关联到对应分类或周榜"],
         })
 
         if "topicResources" in targets:
@@ -962,11 +2020,33 @@ def merge_generated(patch: dict) -> dict:
         "weeklyDigests": uniq_by([*(patch.get("weeklyDigests") or []), *(current.get("weeklyDigests") or [])], lambda item: item.get("weekId"))[:24],
         "githubWeekly": uniq_by([*(patch.get("githubWeekly") or []), *(current.get("githubWeekly") or [])], lambda item: item.get("name") or item.get("url"))[:60],
         "topicResources": merge_topic_resources(current.get("topicResources"), patch.get("topicResources")),
-        "skillRecommendations": uniq_by([*(patch.get("skillRecommendations") or []), *(current.get("skillRecommendations") or [])], lambda item: item.get("url") or item.get("title"))[:80],
+        "skillRecommendations": uniq_by([*(patch.get("skillRecommendations") or []), *(current.get("skillRecommendations") or [])], lambda item: item.get("url") or item.get("title"))[:200],
     }
+
+    # 向后兼容 + 评分补齐（幂等）：
+    #  - 真实 LLM 打分（scores 非空）→ 保留模型分，tier 用 enrich 时写入的；
+    #  - 旧数据 / 兜底（无 scores）→ 每次按 source 反推 tier 并用兜底公式重算，保证幂等。
+    for n in merged["news"]:
+        n["category"] = normalize_category(n.get("category"), f"{n.get('title','')} {n.get('summary','')}")
+        has_real_scores = isinstance(n.get("scores"), dict) and bool(n.get("scores"))
+        if has_real_scores:
+            n.setdefault("tier", infer_tier_from_source(n.get("source") or ""))
+            if n.get("score") is None:
+                n["score"] = compute_quality_score(n["scores"], n["tier"])
+        else:
+            n["tier"] = infer_tier_from_source(n.get("source") or "")
+            n["score"] = compute_quality_score(None, n["tier"])
+        n["aiSelected"] = n["score"] >= select_threshold(n.get("category", ""))
+    # 只录精品：未过质量阈值的条目不入站（宁缺毋滥）
+    merged["news"] = [n for n in merged["news"] if n.get("aiSelected")]
+    # 事件聚类去重：同一事件折叠成一条主条，记 sourceCount / relatedSources
+    merged["news"] = cluster_news(merged["news"])
 
     # 排序：所有带 date 字段的列表按时间倒序
     merged["news"] = _sort_by_date_desc(merged["news"])
+
+    # AI 日报：基于已评分/精选/聚类的 news 预计算分桶（不调 LLM）
+    merged["dailyReport"] = build_daily_report(merged["news"])
     merged["githubWeekly"] = _sort_by_date_desc(merged["githubWeekly"])
     merged["skillRecommendations"] = _sort_by_date_desc(merged["skillRecommendations"])
     # weeklyDigests 按 weekId 字符串倒序（'2026-W21' > '2026-W20'）
@@ -979,6 +2059,10 @@ def merge_generated(patch: dict) -> dict:
     # 清除遗留的 benchmark 自动写入（防止旧数据残留）
     merged.pop("benchmarkBoards", None)
     merged.pop("benchmarkDatasets", None)
+    # 剥掉已弃用的编辑视角字段（迁移：老数据里还有 contentIdeas/nextActions/routeReason）
+    for item in merged.get("news", []) or []:
+        for k in ("contentIdeas", "nextActions", "routeReason", "whyUseful"):
+            item.pop(k, None)
     write_generated(merged)
     return merged
 
@@ -1073,9 +2157,16 @@ def run_daily() -> dict:
     raw_news_items = []
     raw_news_items.extend(fetch_news_api_items())
     raw_news_items.extend(fetch_rss_items())
+    raw_news_items.extend(fetch_html_items())
     raw_news_items.extend(fetch_research_items())
     raw_news_items = uniq_by(raw_news_items, lambda r: r.get("url"))
-    print(f"  · 新闻类原始候选 {len(raw_news_items)} 条")
+    # 代码预筛：丢掉明显非 AI 的噪声，省掉对它们的抓原文 + LLM 开销
+    before = len(raw_news_items)
+    raw_news_items = [r for r in raw_news_items if is_ai_relevant(r)]
+    # 跳过已采集过的 URL：高频（每 10 分钟）采集时，只把新增条目送 LLM，避免重复处理与重复花钱
+    known = existing_news_urls()
+    raw_news_items = [r for r in raw_news_items if r.get("url") and r.get("url") not in known]
+    print(f"  · 新闻类原始候选 {before} 条 → 预筛后 {len([r for r in raw_news_items])} 条新增（已知 {len(known)} 条已跳过）")
 
     # 并发 LLM 第一波：news 条目
     enriched_news, failed_news = parallel_enrich(raw_news_items[:60], enrich_news_item, "news")
@@ -1084,6 +2175,11 @@ def run_daily() -> dict:
 
     # 并发 LLM 第二波：GitHub 项目（含 category 分类）
     regular_gh, skill_candidates = split_github_for_skills(github_items[:30])
+    # 补充多平台热门 Skill：GitHub 仓库 + 8 个社区/注册表来源（HN、Smithery、HF、npm、Dev.to、Reddit、Product Hunt）
+    known_skill_urls = {s.get("url") for s in (read_json(GENERATED_JSON, {}).get("skillRecommendations") or [])}
+    popular_skills = fetch_skill_repos() + fetch_skill_external()
+    popular_skills = [s for s in popular_skills if s.get("url") not in known_skill_urls]
+    skill_candidates = uniq_by(skill_candidates + popular_skills, lambda s: s.get("url") or s.get("name"))[:36]
     enriched_github, failed_github = parallel_enrich(regular_gh, enrich_github_item, "github")
     if failed_github:
         for raw in failed_github:
@@ -1126,8 +2222,12 @@ def run_weekly() -> dict:
     if skill_candidates:
         enriched_skills, _ = parallel_enrich(skill_candidates, enrich_skill_item, "skills-weekly")
 
-    # 并发：news（来自 RSS）
-    rss_items = fetch_rss_items()
+    # 并发：news（来自 RSS + HTML 一手源）
+    rss_items = fetch_rss_items() + fetch_html_items()
+    rss_items = uniq_by(rss_items, lambda r: r.get("url"))
+    rss_items = [r for r in rss_items if is_ai_relevant(r)]
+    known = existing_news_urls()
+    rss_items = [r for r in rss_items if r.get("url") and r.get("url") not in known]
     enriched_news, failed_news = parallel_enrich(rss_items[:30], enrich_news_item, "news-weekly")
     if failed_news:
         enriched_news.extend(fallback_news(failed_news))
@@ -1182,9 +2282,9 @@ def route_enriched(news_items: list[dict], github_items: list[dict], skill_items
                 "url": n.get("url") or "#",
             })
         n["moduleTargets"] = targets
-        n.setdefault("routeReason", f"根据标题、摘要和来源识别为 {n.get('category') or category_from_text(text)}，进入 {'、'.join(targets)}。")
-        n.setdefault("contentIdeas", ["补原文解读", "整理适用人群", "补同类工具或事件对比"])
-        n.setdefault("nextActions", ["核对原始链接", "把信息补到对应模块", "需要时扩展成教程或 FAQ"])
+        # 清掉 LLM 可能误输出或老数据里的编辑视角字段
+        for k in ("contentIdeas", "nextActions", "routeReason", "whyUseful"):
+            n.pop(k, None)
     return routed
 
 
@@ -1250,10 +2350,12 @@ class BackendHandler(SimpleHTTPRequestHandler):
                     "benchmarkBoards": len(generated.get("benchmarkBoards") or []),
                     "benchmarkDatasets": len(generated.get("benchmarkDatasets") or []),
                     "sources": len(generated.get("sources") or []),
+                    "dailyReports": len(generated.get("dailyReports") or []),
                 },
                 "scheduler": scheduler,
                 "config": {
-                    "dailyTime": os.getenv("DAILY_TIME", "09:10"),
+                    "crawlIntervalMinutes": float(os.getenv("CRAWL_INTERVAL_MINUTES", "10")),
+                    "dailyReportTime": os.getenv("DAILY_REPORT_TIME", "00:00"),
                     "weeklyDay": int(os.getenv("WEEKLY_DAY", "1")),
                     "weeklyTime": os.getenv("WEEKLY_TIME", "09:30"),
                     "hasLLMKey": bool(os.getenv("LLM_API_KEY")),
@@ -1274,6 +2376,10 @@ class BackendHandler(SimpleHTTPRequestHandler):
                 result = run_weekly()
             elif path == "/api/admin/run-all":
                 result = run_all()
+            elif path == "/api/admin/freeze-report":
+                report = freeze_daily_report()
+                send_json(self, 200, {"ok": True, "date": report.get("date"), "total": report.get("total")})
+                return
             else:
                 send_json(self, 404, {"ok": False, "error": "Unknown admin action"})
                 return
@@ -1282,34 +2388,135 @@ class BackendHandler(SimpleHTTPRequestHandler):
             send_json(self, 500, {"ok": False, "error": str(error)})
 
 
+def git_auto_push(message: str | None = None) -> bool:
+    """把生成的数据文件提交并推送到 GitHub，从而触发 Vercel 自动重新部署。
+
+    只暂存数据文件（data/、assets/data/），不会把本地其他改动一起提交；
+    没有实际变化时不提交、不推送，返回 False。
+    需要本机已经配置好 git 推送凭证（HTTPS 用 PAT/凭证管理器，或 SSH key）。"""
+    paths = ["data", "assets/data"]
+    branch = os.getenv("GIT_BRANCH", "main")
+    remote = os.getenv("GIT_REMOTE", "origin")
+
+    def run(cmd: list[str]) -> subprocess.CompletedProcess:
+        return subprocess.run(cmd, cwd=str(ROOT), capture_output=True, text=True)
+
+    try:
+        run(["git", "add", "--"] + paths)
+        status = run(["git", "status", "--porcelain", "--"] + paths)
+        if not status.stdout.strip():
+            return False  # 没有实际变化，跳过
+        msg = message or f"chore(data): auto update {datetime.now().strftime('%Y-%m-%d %H:%M')}"
+        commit = run(["git", "commit", "-m", msg])
+        if commit.returncode != 0:
+            print("[git] commit failed:", (commit.stderr or commit.stdout).strip())
+            return False
+        push = run(["git", "push", remote, branch])
+        if push.returncode != 0:
+            print("[git] push failed:", (push.stderr or push.stdout).strip())
+            return False
+        print("[git] pushed:", msg)
+        return True
+    except Exception as error:
+        print("[git] auto push error:", error)
+        return False
+
+
+def _save_state(state: dict) -> None:
+    SCHEDULER_STATE.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
 def scheduler_loop() -> None:
+    """调度策略：
+    1) 间隔采集：每 CRAWL_INTERVAL_MINUTES 分钟跑一次 run_daily（抓取+评分+精选+滚动日报）。
+       已知 URL 不会重复送 LLM，所以高频采集只会处理新增条目，成本可控。
+       状态持久化在 scheduler-state.json，频繁重启不会重复触发；首次启动会跑一次。
+    2) 每日 0 点（DAILY_REPORT_TIME）固化：把昨天的精选固化成带日期的日报存入归档。
+    3) 每周（WEEKLY_DAY/WEEKLY_TIME）跑一次 run_weekly（GitHub/Skill 周报）。"""
     while True:
         try:
             state = read_json(SCHEDULER_STATE, {})
             now = datetime.now()
             today = today_iso()
             current_time = now.strftime("%H:%M")
-            if current_time == os.getenv("DAILY_TIME", "09:10") and state.get("lastDaily") != today:
-                state["lastDaily"] = today
-                state["lastDailyStartedAt"] = datetime.now(timezone.utc).isoformat()
-                SCHEDULER_STATE.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
+
+            # —— 1) 间隔采集 ——
+            interval_minutes = float(os.getenv("CRAWL_INTERVAL_MINUTES", "10"))
+            last_crawl = state.get("lastCrawlAt")
+            due = True
+            if last_crawl:
+                try:
+                    elapsed = (datetime.now(timezone.utc) - datetime.fromisoformat(last_crawl)).total_seconds()
+                    due = elapsed >= interval_minutes * 60
+                except Exception:
+                    due = True
+            if due:
+                state["lastCrawlAt"] = datetime.now(timezone.utc).isoformat()
+                _save_state(state)
                 try:
                     run_daily()
-                    state["lastDailyFinishedAt"] = datetime.now(timezone.utc).isoformat()
+                    state["lastCrawlFinishedAt"] = datetime.now(timezone.utc).isoformat()
+                    state.pop("lastCrawlError", None)
                 except Exception as error:
-                    state["lastDailyError"] = str(error)
-                SCHEDULER_STATE.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
+                    state["lastCrawlError"] = str(error)
+                _save_state(state)
+
+            # —— 2) 每日 0 点固化日报（固化"昨天"）——
+            if current_time == os.getenv("DAILY_REPORT_TIME", "00:00") and state.get("lastReportDate") != today:
+                state["lastReportDate"] = today
+                _save_state(state)
+                try:
+                    freeze_daily_report()
+                    state["lastReportFinishedAt"] = datetime.now(timezone.utc).isoformat()
+                    state.pop("lastReportError", None)
+                except Exception as error:
+                    state["lastReportError"] = str(error)
+                _save_state(state)
+
+            # —— 2.5) 每日刷新固定数据：大模型榜单 + 批量 Skill（每天第一次 tick 时跑一次）——
+            if state.get("lastSeedDate") != today:
+                state["lastSeedDate"] = today
+                _save_state(state)
+                try:
+                    seed_llm_leaderboard()        # 刷新大模型榜单
+                except Exception as error:
+                    state["lastLlmError"] = str(error)
+                try:
+                    seed_skills(100)              # 刷新 100 个分类 Skill
+                except Exception as error:
+                    state["lastSkillSeedError"] = str(error)
+                state["lastSeedFinishedAt"] = datetime.now(timezone.utc).isoformat()
+                _save_state(state)
+
+            # —— 3) 每周周报 ——
             weekly_day = int(os.getenv("WEEKLY_DAY", "1"))
             if now.weekday() + 1 == weekly_day and current_time == os.getenv("WEEKLY_TIME", "09:30") and state.get("lastWeekly") != today:
                 state["lastWeekly"] = today
                 state["lastWeeklyStartedAt"] = datetime.now(timezone.utc).isoformat()
-                SCHEDULER_STATE.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
+                _save_state(state)
                 try:
                     run_weekly()
                     state["lastWeeklyFinishedAt"] = datetime.now(timezone.utc).isoformat()
                 except Exception as error:
                     state["lastWeeklyError"] = str(error)
-                SCHEDULER_STATE.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
+                _save_state(state)
+
+            # —— 4) 自动推送到 GitHub（触发 Vercel 重新部署）——
+            # 与采集频率解耦：采集可以很频繁，但推送按 GIT_PUSH_INTERVAL_MINUTES 节流，
+            # 避免 Vercel 被频繁重新构建打满免费额度。
+            if os.getenv("AUTO_GIT_PUSH", "0").lower() in ("1", "true", "yes", "on"):
+                push_interval = float(os.getenv("GIT_PUSH_INTERVAL_MINUTES", "60"))
+                last_push = state.get("lastPushAt")
+                push_due = True
+                if last_push:
+                    try:
+                        elapsed = (datetime.now(timezone.utc) - datetime.fromisoformat(last_push)).total_seconds()
+                        push_due = elapsed >= push_interval * 60
+                    except Exception:
+                        push_due = True
+                if push_due and git_auto_push():
+                    state["lastPushAt"] = datetime.now(timezone.utc).isoformat()
+                    _save_state(state)
         except Exception:
             pass
         time.sleep(60)
@@ -1319,8 +2526,11 @@ def print_help() -> None:
     print("Usage:")
     print("  python backend/backend.py           # 启动 HTTP 服务 + 定时任务（默认）")
     print("  python backend/backend.py run-all   # 一次性跑：抓取+LLM+合并，跑完退出")
-    print("  python backend/backend.py daily     # 只跑 run_daily")
+    print("  python backend/backend.py daily     # 只跑 run_daily（采集+评分+精选）")
     print("  python backend/backend.py weekly    # 只跑 run_weekly")
+    print("  python backend/backend.py report [YYYY-MM-DD]  # 固化某天（默认昨天）的日报到归档")
+    print("  python backend/backend.py seed-skills [N]    # 抓 N 个 skill 并中文化后灌入（默认 100）")
+    print("  python backend/backend.py localize-skills     # 把现有 skillRecommendations 就地中文化")
     print("  python backend/backend.py bootstrap # 启服务前先跑一次 run_all")
     print("  python backend/backend.py backfill [--days N | --from YYYY-MM-DD --to YYYY-MM-DD]")
     print("                                       # 回填一段历史时间，按周切片+并发抓取+LLM")
@@ -1353,6 +2563,24 @@ def main() -> None:
 
     if cmd in ("weekly", "run-weekly"):
         run_weekly()
+        return
+
+    if cmd == "report":
+        date_arg = args[1] if len(args) > 1 else None
+        freeze_daily_report(date_arg)
+        return
+
+    if cmd == "seed-skills":
+        n = int(args[1]) if len(args) > 1 and args[1].isdigit() else 100
+        seed_skills(n)
+        return
+
+    if cmd in ("localize-skills", "localize"):
+        localize_existing_skills()
+        return
+
+    if cmd == "seed-llm":
+        seed_llm_leaderboard()
         return
 
     if cmd == "backfill":

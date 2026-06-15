@@ -2,15 +2,15 @@ window.AI_NEWS_DATA = {
   lastUpdated: "2026-05-22",
   categories: [
     { id: "all", name: "全部内容" },
-    { id: "ai-tools", name: "AI工具导航" },
-    { id: "ai-coding", name: "AI编程开" },
-    { id: "ai-image-video", name: "AI绘画视频" },
-    { id: "ai-agents", name: "AI智能" },
-    { id: "ai-models", name: "AI模型发布" },
+    { id: "ai-tools", name: "AI 工具导航" },
+    { id: "ai-coding", name: "AI 编程开" },
+    { id: "ai-image-video", name: "AI 绘画视频" },
+    { id: "ai-agents", name: "AI 智能" },
+    { id: "ai-models", name: "AI 模型发布" },
     { id: "ai-benchmark", name: "大模型评" },
-    { id: "ai-office", name: "AI办公学习" },
-    { id: "ai-research", name: "AI论文开" },
-    { id: "ai-business", name: "AI商业变现" }
+    { id: "ai-office", name: "AI 办公学习" },
+    { id: "ai-research", name: "AI 论文开" },
+    { id: "ai-business", name: "AI 商业变现" }
   ],
   homeChannels: [
     {
@@ -20,7 +20,7 @@ window.AI_NEWS_DATA = {
       promise: "不知道用哪个 AI？从这张清单开始",
       description: "ChatGPT、Claude、Gemini、Perplexity、Canva、Gamma 等常用工具按场景整理，适合新手快速选择",
       audience: "新手、运营、学生、自由职业者",
-      highlights: ["通用助手", "AI搜索", "设计/PPT", "知识"],
+      highlights: ["通用助手", "AI 搜索", "设计/PPT", "知识"],
       href: "/pages/category.html?id=ai-tools"
     },
     {
@@ -40,7 +40,7 @@ window.AI_NEWS_DATA = {
       promise: "从代码补全升级到能执行任务的 AI 工作流",
       description: "整理 Cursor、Copilot、Claude Code、MCP、UI Agent GitHub 新项目，适合做开发效率专题",
       audience: "程序员、独立开发者、技术团队",
-      highlights: ["AI编程", "MCP", "GitHub周榜", "自动化"],
+      highlights: ["AI 编程", "MCP", "GitHub 周榜", "自动化"],
       href: "/pages/category.html?id=ai-coding"
     },
     {
@@ -77,8 +77,8 @@ window.AI_NEWS_DATA = {
   topics: [
     {
       id: "ai-tools",
-      title: "AI工具导航",
-      keyword: "AI工具导航、AI工具大全、AI工具推荐",
+      title: "AI 工具导航",
+      keyword: "AI 工具导航、AI 工具大全、AI 工具推荐",
       description:
         "聚合写作、搜索、图片、视频、编程、办公和自动化工具，适合做工具收录页、榜单页和每月更新页",
       userIntent: "用户想快速找到可用工具，并比较免费额度、中文体验、适合场景",
@@ -86,8 +86,8 @@ window.AI_NEWS_DATA = {
     },
     {
       id: "ai-coding",
-      title: "AI编程开发",
-      keyword: "AI编程工具、代码生成工具、AI开发助",
+      title: "AI 编程开发",
+      keyword: "AI 编程工具、代码生成工具、AI 开发助",
       description:
         "围绕开发者高价值关键词，整理代码补全、智能体开发、API、提示词工程和应用部署教程",
       userIntent: "用户希望提高开发效率，寻找可直接用于项目的工具和教程",
@@ -95,8 +95,8 @@ window.AI_NEWS_DATA = {
     },
     {
       id: "ai-image-video",
-      title: "AI绘画与AI视频",
-      keyword: "AI绘画工具、AI视频生成、文生图工具",
+      title: "AI 绘画与 AI 视频",
+      keyword: "AI 绘画工具、AI 视频生成、文生图工具",
       description:
         "覆盖图片生成、视频生成、海报设计、商品图、短视频素材和提示词案例，适合做教程流量",
       userIntent: "用户想知道哪个工具好用、如何出图、如何商用和如何写提示词",
@@ -104,8 +104,8 @@ window.AI_NEWS_DATA = {
     },
     {
       id: "ai-agents",
-      title: "AI智能体",
-      keyword: "AI智能体、Agent平台、自动化工作",
+      title: "AI 智能体",
+      keyword: "AI 智能体、Agent 平台、自动化工作",
       description:
         "追踪智能体平台、MCP、浏览器操作、工作流自动化和企业落地案例，适合承接新趋势搜索",
       userIntent: "用户想理解智能体能做什么，并找到低门槛搭建方案",
@@ -113,26 +113,26 @@ window.AI_NEWS_DATA = {
     },
     {
       id: "ai-models",
-      title: "AI模型发布",
-      keyword: "AI模型最新消息、大模型发布、ChatGPT最新版",
+      title: "AI 模型发布",
+      keyword: "AI 模型最新消息、大模型发布、ChatGPT 最新版",
       description:
         "记录 OpenAI、Google、Anthropic、Meta、DeepSeek 等模型更新，补充简明解读和应用影响",
-      userIntent: "用户想快速了解新模型能力、价格、上下文、API和可用地区",
+      userIntent: "用户想快速了解新模型能力、价格、上下文、API 和可用地区",
       examples: ["GPT", "Gemini", "Claude", "Llama", "DeepSeek"]
     },
     {
       id: "ai-benchmark",
       title: "中文大模型评测",
-      keyword: "中文大模型评测、AI模型排行榜、大模型选型",
+      keyword: "中文大模型评测、AI 模型排行榜、大模型选型",
       description:
         "借鉴 ReLE 等开源评测项目的内容结构，整理综合榜、商用模型榜、开源模型榜和垂直能力榜",
       userIntent: "用户想知道哪个模型在中文、推理、代码、工具调用或行业任务里更适合自己",
-      examples: ["综合能力", "通用能力", "专业能力", "Coding", "Agent工具调用"]
+      examples: ["综合能力", "通用能力", "专业能力", "Coding", "Agent 工具调用"]
     },
     {
       id: "ai-office",
-      title: "AI办公学习",
-      keyword: "AI办公工具、AI写作工具、AI学习工具",
+      title: "AI 办公学习",
+      keyword: "AI 办公工具、AI 写作工具、AI 学习工具",
       description:
         "面向普通用户整理写作、PPT、表格、会议纪要、翻译、阅读和学习类 AI 应用",
       userIntent: "用户想用 AI 完成日常工作，不一定懂技术，需要清晰步骤和场景推荐",
@@ -140,8 +140,8 @@ window.AI_NEWS_DATA = {
     },
     {
       id: "ai-research",
-      title: "AI论文开源",
-      keyword: "AI论文、开源大模型、机器学习论",
+      title: "AI 论文开源",
+      keyword: "AI 论文、开源大模型、机器学习论",
       description:
         "整理 arXiv、Papers with Code、Hugging Face 上的新论文、数据集和开源模型",
       userIntent: "用户想跟踪研究趋势，找到论文、代码、模型权重和复现实验资源",
@@ -149,17 +149,17 @@ window.AI_NEWS_DATA = {
     },
     {
       id: "ai-business",
-      title: "AI商业变现",
-      keyword: "AI副业、AI创业项目、AI商业应用",
+      title: "AI 商业变现",
+      keyword: "AI 副业、AI 创业项目、AI 商业应用",
       description:
         "关注 AI SaaS、出海工具、营销自动化、企业服务和内容变现，适合商业化长尾内容",
       userIntent: "用户想找到可落地的赚钱方向、案例和工具组合",
-      examples: ["AI SaaS", "自动化获客", "AI内容站", "跨境营销", "企业AI服务"]
+      examples: ["AI SaaS", "自动化获客", "AI 内容站", "跨境营销", "企业 AI 服务"]
     },
     {
       id: "ai-audio",
-      title: "AI语音音频",
-      keyword: "ASR语音识别、TTS语音合成、音频模型榜",
+      title: "AI 语音音频",
+      keyword: "ASR 语音识别、TTS 语音合成、音频模型榜",
       description:
         "收录语音识别、语音合成、音频表征、音乐和环境声模型榜单，适合做语音工具导航",
       userIntent: "用户想比较转写准确率、声音自然度、多语言支持、延迟和商用成本",
@@ -168,10 +168,10 @@ window.AI_NEWS_DATA = {
     {
       id: "ai-retrieval",
       title: "Embedding 与 RAG",
-      keyword: "Embedding模型榜单、RAG评测、向量检索模",
+      keyword: "Embedding 模型榜单、RAG 评测、向量检索模",
       description:
         "整理 MTEB、BEIR、RAGTruth、CRAG 等检索和问答评测，适合知识库、搜索和企业问答场景",
-      userIntent: "用户想知道哪embedding、reranker 和 RAG 组合更适合自己的语料",
+      userIntent: "用户想知道哪 embedding、reranker 和 RAG 组合更适合自己的语料",
       examples: ["MTEB", "BEIR", "MIRACL", "RAGTruth", "CRAG"]
     },
     {
@@ -213,7 +213,7 @@ window.AI_NEWS_DATA = {
         provider: "Google",
         type: "Google 生态 AI 助手",
         bestFor: "Gmail、Calendar、Maps、YouTube、Photos Google 生态任",
-        description: "Gemini Google 的日AI 助手，优势在于和 Google 产品生态连接",
+        description: "Gemini Google 的日 AI 助手，优势在于和 Google 产品生态连接",
         useCases: ["邮件整理", "日程规划", "YouTube 信息提取", "地图和旅行计", "图片辅助"],
         watch: "不同地区和账号类型的可用功能可能不同",
         sourceName: "Google Gemini",
@@ -237,7 +237,7 @@ window.AI_NEWS_DATA = {
         bestFor: "团队知识库、文档写作、项目资料维",
         description: "Notion AI 适合放在团队知识库和项目文档里，用于查找、总结和更新资料",
         useCases: ["知识库问", "文档改写", "会议记录整理", "项目数据库维"],
-        watch: "要先把团队文档结构整理好，否AI 难以给出稳定答案",
+        watch: "要先把团队文档结构整理好，否 AI 难以给出稳定答案",
         sourceName: "OpenAI Apps: Notion",
         url: "https://openai.com/business/apps/notion/"
       },
@@ -246,7 +246,7 @@ window.AI_NEWS_DATA = {
         provider: "Canva",
         type: "AI 设计工具",
         bestFor: "海报、社媒图、营销素材、轻量视频与文案",
-        description: "Canva Magic Studio 把多AI 设计功能集中Canva 工作流里，适合非设计师做素材",
+        description: "Canva Magic Studio 把多 AI 设计功能集中 Canva 工作流里，适合非设计师做素材",
         useCases: ["社媒海报", "营销图片", "品牌文案", "图片编辑", "轻量视频"],
         watch: "商用时要检查素材、模板和生成内容的授权规则",
         sourceName: "Canva Magic Studio",
@@ -268,7 +268,7 @@ window.AI_NEWS_DATA = {
         provider: "Hugging Face",
         type: "模型与数据集平台",
         bestFor: "找开源模型、数据集、Spaces Demo、评测结",
-        description: "Hugging Face 是开AI 模型和数据集的重要入口，适合技术用户和内容站查资料",
+        description: "Hugging Face 是开 AI 模型和数据集的重要入口，适合技术用户和内容站查资料",
         useCases: ["模型搜索", "数据集检", "Demo 体验", "榜单和评"],
         watch: "模型质量差异很大，使用前要看许可证、模型卡和社区反馈",
         sourceName: "Hugging Face Models",
@@ -282,7 +282,7 @@ window.AI_NEWS_DATA = {
         type: "AI Coding Agent",
         bestFor: "端到端开发任务、PR、重构、迁移、复杂代码修",
         description: "Codex OpenAI AI 编程伙伴，定位不只是代码补全，而是能承担较完整的软件开发任务",
-        useCases: ["功能开", "复杂重构", "迁移", "PR处理", "代码解释"],
+        useCases: ["功能开", "复杂重构", "迁移", "PR 处理", "代码解释"],
         watch: "适合明确边界的工程任务；重要改动仍需要本地测试和人工 Review",
         sourceName: "OpenAI Codex",
         url: "https://openai.com/codex/"
@@ -292,7 +292,7 @@ window.AI_NEWS_DATA = {
         provider: "Anysphere",
         type: "AI 代码编辑",
         bestFor: "多文件修改、代码理解、重构、调",
-        description: "Cursor 是面AI 编程的代码编辑器，强调理解代码库和自然语言改代码",
+        description: "Cursor 是面 AI 编程的代码编辑器，强调理解代码库和自然语言改代码",
         useCases: ["多文件重", "解释陌生项目", "生成测试", "Bug"],
         watch: "建议先让它读项目结构，再要求小步提交，避免一次性大改",
         sourceName: "Cursor Docs",
@@ -316,7 +316,7 @@ window.AI_NEWS_DATA = {
         bestFor: "代码库级任务、终端工作流、多文件修改",
         description: "Claude Code Anthropic 的开发者工具，强调代码库理解、命令行工作流和多文件编辑",
         useCases: ["Bug", "重构", "读日", "生成 PR 说明", "MCP 工具调用"],
-        watch: "需要清晰设置权限和工作目录，重要改动必须人Review",
+        watch: "需要清晰设置权限和工作目录，重要改动必须人 Review",
         sourceName: "Claude Code",
         url: "https://claude.com/product/claude-code"
       },
@@ -325,7 +325,7 @@ window.AI_NEWS_DATA = {
         provider: "Anthropic / MCP",
         type: "Agent 工具连接协议",
         bestFor: "AI 助手连接文件、数据库、业务系统、开发工具和外部服务",
-        description: "MCP 是连AI 助手和外部系统的开放标准，适合开发者搭建可复用的工具调用能力",
+        description: "MCP 是连 AI 助手和外部系统的开放标准，适合开发者搭建可复用的工具调用能力",
         useCases: ["工具调用", "知识库连", "业务系统接入", "开发环境上下文"],
         watch: "连接真实系统时要关注权限边界、数据安全和工具调用日志",
         sourceName: "Model Context Protocol Docs",
@@ -334,10 +334,10 @@ window.AI_NEWS_DATA = {
       {
         name: "Zapier Agents",
         provider: "Zapier",
-        type: "无代AI Agent",
+        type: "无代 AI Agent",
         bestFor: "AI Agent 接到 Zapier 的应用生态里，自动处理重复任",
         description: "Zapier Agents 可以创建 AI agents，并利用 Zapier 的应用连接能力自动化工作流程",
-        useCases: ["销售跟", "邮件处理", "CRM更新", "跨应用自动化"],
+        useCases: ["销售跟", "邮件处理", "CRM 更新", "跨应用自动化"],
         watch: "适合业务流程自动化；涉及客户数据时要配置好权限和审批",
         sourceName: "Zapier Help",
         url: "https://help.zapier.com/hc/en-us/articles/24393442652557-Build-an-agent-in-Zapier-Agents"
@@ -347,8 +347,8 @@ window.AI_NEWS_DATA = {
         provider: "ByteDance",
         type: "桌面 GUI Agent",
         bestFor: "真实桌面和浏览器操作、自动化任务研究、GUI Agent 学习",
-        description: "UI-TARS Desktop 是字节开源的多模态桌Agent 项目，适合观察 AI 如何操作真实界面",
-        useCases: ["桌面自动", "浏览器操", "Agent研究", "开源项目学"],
+        description: "UI-TARS Desktop 是字节开源的多模态桌 Agent 项目，适合观察 AI 如何操作真实界面",
+        useCases: ["桌面自动", "浏览器操", "Agent 研究", "开源项目学"],
         watch: "更适合研究和开发者尝试，生产环境要重点关注权限与可控性",
         sourceName: "GitHub UI-TARS Desktop",
         url: "https://github.com/bytedance/UI-TARS-desktop"
@@ -360,7 +360,7 @@ window.AI_NEWS_DATA = {
         provider: "Adobe",
         type: "商业创意 AI Studio",
         bestFor: "品牌素材、图片、视频、音频、矢量与 Creative Cloud 工作",
-        description: "Adobe Firefly 是面向创意团队的生成AI 工具，强调商业安全和Adobe 创意软件协同",
+        description: "Adobe Firefly 是面向创意团队的生成 AI 工具，强调商业安全和 Adobe 创意软件协同",
         useCases: ["品牌素材", "图片生成", "视频生成", "创意草图", "设计团队"],
         watch: "适合已有 Adobe 工作流的团队；要关注生成额度、版权说明和企业权限",
         sourceName: "Adobe Firefly",
@@ -437,7 +437,7 @@ window.AI_NEWS_DATA = {
         provider: "Synthesia",
         type: "AI Avatar 视频",
         bestFor: "企业培训、产品讲解、内部沟通、多语言视频",
-        description: "Synthesia 是面向企业的视频生成平台，适合AI avatar 制作培训和沟通视频",
+        description: "Synthesia 是面向企业的视频生成平台，适合 AI avatar 制作培训和沟通视频",
         useCases: ["培训视频", "产品说明", "内部沟", "多语言本地"],
         watch: "企业内容要检查头像授权、品牌规范和内部合规审批",
         sourceName: "Synthesia Help",
@@ -450,7 +450,7 @@ window.AI_NEWS_DATA = {
         provider: "Google",
         type: "AI 研究与知识助",
         bestFor: "基于自己上传的资料做问答、摘要、学习和研究整理",
-        description: "NotebookLM Google AI 研究和思考伙伴，适合把资料放进一notebook 后做问答和总结",
+        description: "NotebookLM Google AI 研究和思考伙伴，适合把资料放进一 notebook 后做问答和总结",
         useCases: ["资料问答", "学习笔记", "研究整理", "播客式摘"],
         watch: "回答依赖你提供的资料质量；重要结论要回到原文核对",
         sourceName: "Google NotebookLM",
@@ -481,7 +481,7 @@ window.AI_NEWS_DATA = {
       {
         name: "Notion AI",
         provider: "Notion",
-        type: "知识AI",
+        type: "知识 AI",
         bestFor: "团队文档、项目管理、资料总结",
         description: "适合在团队文档和数据库中查找答案、总结内容、更新资料",
         useCases: ["项目文档", "会议纪要", "知识库问", "任务整理"],
@@ -549,11 +549,11 @@ window.AI_NEWS_DATA = {
       detail: "适合承接中文写作、信息抽取、阅读理解、情感分析等搜索词"
     },
     {
-      name: "Agent与工具调",
+      name: "Agent 与工具调",
       detail: "适合结合 MCP、函数调用、浏览器操作和自动化工作流做内容"
     },
     {
-      name: "Coding能力",
+      name: "Coding 能力",
       detail: "适合连接 AI 编程工具、代码生成、终端任务和开发者效率内容"
     }
   ],
@@ -564,7 +564,7 @@ window.AI_NEWS_DATA = {
     },
     {
       title: "按成本选模型",
-      text: "记录输入输出价格、平均耗时token 消耗，形成“便宜但够用”的长尾内容"
+      text: "记录输入输出价格、平均耗时 token 消耗，形成“便宜但够用”的长尾内容"
     },
     {
       title: "按中文能力选模型",
@@ -581,9 +581,9 @@ window.AI_NEWS_DATA = {
       type: "中文综合",
       description: "覆盖数学推理、科学推理、代码生成、指令遵循、幻觉控制和智能体任务规划，适合看中文应用侧模型能力",
       datasets: ["SuperCLUE", "SuperCLUE-Math", "SuperCLUE-Agent", "SuperCLUE-Code"],
-      rankingMetric: "SuperCLUE智能指数综合",
+      rankingMetric: "SuperCLUE 智能指数综合",
       rankingUpdated: "官方动态页",
-      rankingSourceName: "SuperCLUE官方榜单",
+      rankingSourceName: "SuperCLUE 官方榜单",
       rankingSourceUrl: "https://www.superclueai.com/",
       rankings: [
         { rank: 1, name: "Claude-Opus-4.6(max)", score: "77.02", note: "Anthropic / 海外参</ 闭源" },
@@ -594,7 +594,7 @@ window.AI_NEWS_DATA = {
         { rank: 6, name: "Grok-4.20-Beta-0309(Reasoning)", score: "66.07", note: "xAI / 海外参</ 闭源" },
         { rank: 7, name: "Kimi-K2.5-Thinking", score: "64.60", note: "月之暗面 / 国内原榜并列" },
         { rank: 8, name: "Qwen3.5-397B-A17B-Thinking", score: "64.48", note: "阿里巴巴 / 国内原榜并列" },
-        { rank: 9, name: "GLM-5", score: "64.27", note: "智谱AI / 国内原榜并列" },
+        { rank: 9, name: "GLM-5", score: "64.27", note: "智谱 AI / 国内原榜并列" },
         { rank: 10, name: "DeepSeek-V3.2-Thinking", score: "61.92", note: "深度求索 / 国内原榜" },
         { rank: 11, name: "MiMo-V2-Pro", score: "60.67", note: "小米集团 / 国内原榜" },
         { rank: 12, name: "Tencent HY 2.0 Think", score: "59.16", note: "腾讯 / 国内原榜并列" },
@@ -613,10 +613,10 @@ window.AI_NEWS_DATA = {
     {
       title: "OpenCompass / CompassRank",
       type: "开放评测平",
-      description: "一站式大模型评测平台，支持公开模型API 模型，覆盖多维能力和大量数据集，适合做综合对照",
+      description: "一站式大模型评测平台，支持公开模型 API 模型，覆盖多维能力和大量数据集，适合做综合对照",
       datasets: ["C-Eval", "CMMLU", "MMLU", "AGIEval", "GSM8K"],
       rankingMetric: "OpenCompass HLE score",
-      rankingUpdated: "BenchGecko 快照026-02-16",
+      rankingUpdated: "BenchGecko 快照 026-02-16",
       rankingSourceName: "BenchGecko OpenCompass HLE",
       rankingSourceUrl: "https://benchgecko.ai/benchmark/oc-hle",
       rankings: [
@@ -650,7 +650,7 @@ window.AI_NEWS_DATA = {
       description: "多层级、多学科中文评测套件，适合看模型在中文考试、知识和推理题上的基础表现",
       datasets: ["C-Eval"],
       rankingMetric: "C-Eval average accuracy",
-      rankingUpdated: "BenchLM 快照026-05-07",
+      rankingUpdated: "BenchLM 快照 026-05-07",
       rankingSourceName: "BenchLM C-Eval",
       rankingSourceUrl: "https://benchlm.ai/benchmarks/cEval",
       rankings: [
@@ -664,10 +664,10 @@ window.AI_NEWS_DATA = {
     {
       title: "CMMLU",
       type: "中文多任务理解榜",
-      description: "覆盖 67 个中文主题，包含中国特定知识，适合评估中文语境下的知识和推理能力",
+      description: "覆盖 67个中文主题，包含中国特定知识，适合评估中文语境下的知识和推理能力",
       datasets: ["CMMLU"],
       rankingMetric: "CMMLU score",
-      rankingUpdated: "BenchGecko 快照024-09-19",
+      rankingUpdated: "BenchGecko 快照 024-09-19",
       rankingSourceName: "BenchGecko CMMLU",
       rankingSourceUrl: "https://benchgecko.ai/benchmark/cmmlu",
       rankings: [
@@ -723,7 +723,7 @@ window.AI_NEWS_DATA = {
       description: "聚合官方数据集评测和社区榜单，适合找开源模型、复现实验和模型卡中的标准化结果",
       datasets: ["MMLU-Pro", "GPQA", "MATH", "IFEval", "BBH"],
       rankingMetric: "Open-source model composite score",
-      rankingUpdated: "LMMarketCap 快照026-05-22",
+      rankingUpdated: "LMMarketCap 快照 026-05-22",
       rankingSourceName: "LMMarketCap Open-Source LLM Leaderboard",
       rankingSourceUrl: "https://lmmarketcap.com/leaderboards/open-llm-leaderboard",
       rankings: [
@@ -754,10 +754,10 @@ window.AI_NEWS_DATA = {
     {
       title: "SWE-bench",
       type: "真实软件工程",
-      description: "用真GitHub issue 和补丁任务评估模Agent 修复代码问题的能力，适合AI 编程 Agent",
+      description: "用真 GitHub issue 和补丁任务评估模 Agent 修复代码问题的能力，适合 AI 编程 Agent",
       datasets: ["SWE-bench", "SWE-bench Verified"],
       rankingMetric: "SWE-bench Verified resolved %",
-      rankingUpdated: "Megadose 快照026-05-22",
+      rankingUpdated: "Megadose 快照 026-05-22",
       rankingSourceName: "Megadose SWE-bench Verified",
       rankingSourceUrl: "https://megadose.ai/b/swebench-verified",
       rankings: [
@@ -788,10 +788,10 @@ window.AI_NEWS_DATA = {
     {
       title: "Berkeley Function Calling Leaderboard",
       type: "工具调用",
-      description: "评估函数调用、API 调用、参数选择和拒绝无关工具的能力，适合Agent 与工具调用可靠性",
+      description: "评估函数调用、API 调用、参数选择和拒绝无关工具的能力，适合 Agent 与工具调用可靠性",
       datasets: ["BFCL", "BFCL V2", "BFCL V3"],
       rankingMetric: "BFCL V3 accuracy",
-      rankingUpdated: "PricePerToken 快照026-05-07",
+      rankingUpdated: "PricePerToken 快照 026-05-07",
       rankingSourceName: "PricePerToken BFCL V3",
       rankingSourceUrl: "https://pricepertoken.com/leaderboards/benchmark/bfcl-v3",
       rankings: [
@@ -825,7 +825,7 @@ window.AI_NEWS_DATA = {
       description: "持续收集新竞赛题，评估代码生成、修复、执行和输出预测，比旧代码题更能降低污染风险",
       datasets: ["LiveCodeBench"],
       rankingMetric: "LiveCodeBench score",
-      rankingUpdated: "BenchLM 快照026-05-21",
+      rankingUpdated: "BenchLM 快照 026-05-21",
       rankingSourceName: "BenchLM LiveCodeBench",
       rankingSourceUrl: "https://benchlm.ai/benchmarks/liveCodeBench",
       rankings: [
@@ -853,7 +853,7 @@ window.AI_NEWS_DATA = {
       description: "按月更新问题，覆盖数学、代码、推理、数据分析、指令遵循和语言任务，强调客观答案与抗污染",
       datasets: ["LiveBench"],
       rankingMetric: "LiveBench average score",
-      rankingUpdated: "LMMarketCap 快照026-05-22",
+      rankingUpdated: "LMMarketCap 快照 026-05-22",
       rankingSourceName: "LMMarketCap LiveBench",
       rankingSourceUrl: "https://lmmarketcap.com/benchmarks/livebench",
       rankings: [
@@ -883,11 +883,11 @@ window.AI_NEWS_DATA = {
     },
     {
       title: "Open ASR Leaderboard",
-      type: "ASR语音识别",
-      description: "Hugging Face 维护的开ASR 榜单，覆盖英文、多语言和长音频转写，主要看 WER 和不同数据集上的稳定性",
+      type: "ASR 语音识别",
+      description: "Hugging Face 维护的开 ASR 榜单，覆盖英文、多语言和长音频转写，主要看 WER 和不同数据集上的稳定性",
       datasets: ["ESB", "Earnings21/22", "TED-LIUM", "FLEURS"],
       rankingMetric: "Average WER，越低越",
-      rankingUpdated: "Appen / Hugging Face 快照026-05",
+      rankingUpdated: "Appen / Hugging Face 快照 026-05",
       rankingSourceName: "Appen / Open ASR Leaderboard",
       rankingSourceUrl: "https://www.appen.com/blog/hugging-face-open-llm-leaderboard",
       rankings: [
@@ -902,8 +902,8 @@ window.AI_NEWS_DATA = {
     },
     {
       title: "SpeechColab Leaderboard",
-      type: "ASR评测平台",
-      description: "通用开ASR 评测平台，适合补充观察语音识别模型在不同语种和数据集上的表现",
+      type: "ASR 评测平台",
+      description: "通用开 ASR 评测平台，适合补充观察语音识别模型在不同语种和数据集上的表现",
       datasets: ["ASR", "Speech Recognition"],
       rankingMetric: "ASR cross-dataset evaluation",
       rankingUpdated: "论文/平台入口",
@@ -927,7 +927,7 @@ window.AI_NEWS_DATA = {
     {
       title: "HEAR Benchmark",
       type: "音频表征",
-      description: "评估通用音频表征在语音、环境声和音乐任务上的迁移能力，适合audio embedding",
+      description: "评估通用音频表征在语音、环境声和音乐任务上的迁移能力，适合 audio embedding",
       datasets: ["HEAR", "Speech", "Environmental Sound", "Music"],
       rankingMetric: "HEAR task-normalized primary score",
       rankingUpdated: "官方动态页",
@@ -938,7 +938,7 @@ window.AI_NEWS_DATA = {
     },
     {
       title: "TTSDS / TTSDS2",
-      type: "TTS语音合成",
+      type: "TTS 语音合成",
       description: "从韵律、说话人身份和可懂度等维度评估合成语音质量，TTSDS2 支持多语言并定期更新",
       datasets: ["TTSDS", "TTSDS2"],
       rankingMetric: "TTS Distribution Score / multilingual TTSDS2",
@@ -950,8 +950,8 @@ window.AI_NEWS_DATA = {
     },
     {
       title: "MINT-Bench",
-      type: "指令跟随TTS",
-      description: "面向可控expressive、多语言 TTS 的新评测，关注文本指令对语音风格、情绪和表达的控制能力",
+      type: "指令跟随 TTS",
+      description: "面向可控 expressive、多语言 TTS 的新评测，关注文本指令对语音风格、情绪和表达的控制能力",
       datasets: ["MINT-Bench"],
       rankingMetric: "Instruction-following TTS benchmark",
       rankingUpdated: "论文入口",
@@ -966,7 +966,7 @@ window.AI_NEWS_DATA = {
       description: "Massive Text Embedding Benchmark，覆盖检索、分类、聚类、重排序、语义相似度和多语言任务",
       datasets: ["MTEB", "MMTEB", "Retrieval", "Reranking"],
       rankingMetric: "MTEB score / task average",
-      rankingUpdated: "Ailog RAG 快照026",
+      rankingUpdated: "Ailog RAG 快照 026",
       rankingSourceName: "Ailog RAG MTEB guide",
       rankingSourceUrl: "https://app.ailog.fr/en/blog/guides/choosing-embedding-models",
       rankings: [
@@ -979,7 +979,7 @@ window.AI_NEWS_DATA = {
     },
     {
       title: "MAEB",
-      type: "音频Embedding",
+      type: "音频 Embedding",
       description: "Massive Audio Embedding Benchmark，覆盖语音、音乐、环境声和音文本跨模态任务",
       datasets: ["MAEB", "Audio Embedding"],
       rankingMetric: "MAEB 98-task audio embedding evaluation",
@@ -995,7 +995,7 @@ window.AI_NEWS_DATA = {
       description: "视频生成模型评测，拆解成画质、主体一致性、运动、文本对齐、人类偏好等多维指标",
       datasets: ["VBench", "VBench++"],
       rankingMetric: "Video generation overall rank / quality signal",
-      rankingUpdated: "VidScore 快照026-05-22",
+      rankingUpdated: "VidScore 快照 026-05-22",
       rankingSourceName: "VidScore AI Video Leaderboard",
       rankingSourceUrl: "https://vidscore.dev/leaderboard",
       rankings: [
@@ -1025,11 +1025,11 @@ window.AI_NEWS_DATA = {
     },
     {
       title: "OCRBench / OCRBench v2",
-      type: "OCR/VLM文字识别",
+      type: "OCR/VLM 文字识别",
       description: "评估多模态模型在文字识别、文档问答、场景文字、公式和复杂版面理解上的能力",
       datasets: ["OCRBench", "OCRBench v2"],
       rankingMetric: "OCRBench v2 score",
-      rankingUpdated: "CodeSOTA 快照026-04/05",
+      rankingUpdated: "CodeSOTA 快照 026-04/05",
       rankingSourceName: "CodeSOTA OCRBench v2",
       rankingSourceUrl: "https://www.codesota.com/browse/computer-vision/ocr-capabilities/ocrbench-v2",
       rankings: [
@@ -1047,7 +1047,7 @@ window.AI_NEWS_DATA = {
       description: "面向扫描文档和真实文档图像的视觉问答评测，适合比较文档理解和企业资料抽取能力",
       datasets: ["DocVQA"],
       rankingMetric: "DocVQA score",
-      rankingUpdated: "LLM Stats 快照026-05",
+      rankingUpdated: "LLM Stats 快照 026-05",
       rankingSourceName: "LLM Stats DocVQA",
       rankingSourceUrl: "https://llm-stats.com/benchmarks/docvqa",
       rankings: [
@@ -1077,8 +1077,8 @@ window.AI_NEWS_DATA = {
     },
     {
       title: "IDP Leaderboard",
-      type: "文档AI",
-      description: "面向智能文档处理，覆OCR、表格、KIE、VQA、分类和长文档解析等实际任务",
+      type: "文档 AI",
+      description: "面向智能文档处理，覆 OCR、表格、KIE、VQA、分类和长文档解析等实际任务",
       datasets: ["OlmOCR", "OmniDocBench", "IDP Core"],
       rankingMetric: "IDP Core / OlmOCR / OmniDocBench capability profile",
       rankingUpdated: "官方动态页",
@@ -1098,7 +1098,7 @@ window.AI_NEWS_DATA = {
     {
       name: "CMMLU",
       area: "中文多任",
-      note: "67 个中文主题，包含中国特定知识和专业学科",
+      note: "67个中文主题，包含中国特定知识和专业学科",
       source: "https://github.com/haonan-li/CMMLU"
     },
     {
@@ -1116,7 +1116,7 @@ window.AI_NEWS_DATA = {
     {
       name: "SWE-bench Verified",
       area: "软件工程",
-      note: "真实仓库 issue 修复，适合Coding Agent 能不能改真实代码",
+      note: "真实仓库 issue 修复，适合 Coding Agent 能不能改真实代码",
       source: "https://www.swebench.com/"
     },
     {
@@ -1151,13 +1151,13 @@ window.AI_NEWS_DATA = {
     },
     {
       name: "Open ASR",
-      area: "ASR语音识别",
-      note: "覆盖公开 ASR 数据集、多语言和长音频，常WER 衡量转写错误率",
+      area: "ASR 语音识别",
+      note: "覆盖公开 ASR 数据集、多语言和长音频，常 WER 衡量转写错误率",
       source: "https://github.com/huggingface/open_asr_leaderboard"
     },
     {
       name: "FLEURS / Common Voice / LibriSpeech",
-      area: "ASR数据",
+      area: "ASR 数据",
       note: "常见语音识别数据集，用于看多语言、开源语料和干净朗读场景",
       source: "https://github.com/huggingface/open_asr_leaderboard"
     },
@@ -1175,26 +1175,26 @@ window.AI_NEWS_DATA = {
     },
     {
       name: "TTSDS",
-      area: "TTS语音合成",
+      area: "TTS 语音合成",
       note: "评估合成语音的韵律、说话人相似度和可懂度",
       source: "https://github.com/ttsds/ttsds"
     },
     {
       name: "MINT-Bench",
-      area: "指令跟随TTS",
+      area: "指令跟随 TTS",
       note: "TTS 模型能否根据文本指令控制情绪、风格、多语言表达",
       source: "https://arxiv.org/abs/2604.17958"
     },
     {
       name: "MTEB",
       area: "Embedding/RAG",
-      note: "检索、重排序、聚类、多语言和语义相似度任务的主embedding 评测",
+      note: "检索、重排序、聚类、多语言和语义相似度任务的主 embedding 评测",
       source: "https://mteb-leaderboard.hf.space/"
     },
     {
       name: "MAEB",
-      area: "音频Embedding",
-      note: "音频-only 与音文本跨模embedding 评测",
+      area: "音频 Embedding",
+      note: "音频-only 与音文本跨模 embedding 评测",
       source: "https://arxiv.org/abs/2602.16008"
     },
     {
@@ -1223,7 +1223,7 @@ window.AI_NEWS_DATA = {
       summary: "C-Eval 是面向中文基础模型的多层级、多学科评测套件，题型以选择题为主，用来观察模型在中文知识、学科推理和考试场景中的稳定性",
       facts: [
         { label: "任务类型", value: "中文多选题 / 学科知识 / 推理" },
-        { label: "规模", value: "13,948 道题，覆52 个学" },
+        { label: "规模", value: "13,948 道题，覆 52个学" },
         { label: "难度", value: "四个难度层级，从中学到专业考试" },
         { label: "常用指标", value: "Accuracy / Average Accuracy" }
       ],
@@ -1233,7 +1233,7 @@ window.AI_NEWS_DATA = {
       limitations: ["题型以选择题为主，不能代表开放问答质", "公开数据集可能存在训练污染风", "高分不等于真实业务场景可直接上线"],
       rankings: {
         metric: "C-Eval average accuracy",
-        updated: "LLM Stats 快照026-05；C-Eval 官方2025-07-26 后停止主动维",
+        updated: "LLM Stats 快照 026-05；C-Eval 官方 2025-07-26 后停止主动维",
         sourceName: "LLM Stats C-Eval",
         sourceUrl: "https://llm-stats.com/benchmarks/c-eval",
         items: [
@@ -1268,17 +1268,17 @@ window.AI_NEWS_DATA = {
       summary: "CMMLU 面向中文语言和中国文化背景，覆盖自然科学、社会科学、工程、人文等主题，用来评估模型在中文知识体系中的理解与推理能力",
       facts: [
         { label: "任务类型", value: "中文多任务选择" },
-        { label: "规模", value: "11,528 道题7 个主" },
+        { label: "规模", value: "11,528 道题 7个主" },
         { label: "覆盖范围", value: "自然科学、社会科学、工程、人文、中国特定知" },
         { label: "常用指标", value: "Accuracy" }
       ],
       evaluates: ["中文专业知识", "中文文化与本地常", "多主题语言理解", "面向中国语境的推理表"],
       metrics: ["平均准确", "主题维度准确", "STEM/人文/社科分组表现", "不同 prompt 设置下的波动"],
       useCases: ["中文模型评测", "国产/开源模型对", "中文教育和知识问答产品选型", "补充 C-Eval 的中文文化维"],
-      limitations: ["仍以选择题为", "不能覆盖长文生成和多轮对", "排行榜分数需要结合评harness prompt 设置阅读"],
+      limitations: ["仍以选择题为", "不能覆盖长文生成和多轮对", "排行榜分数需要结合评 harness prompt 设置阅读"],
       rankings: {
         metric: "CMMLU 5-shot/0-shot accuracy（多个来源合并）",
-        updated: "BenchGecko + LLM Stats 合并024-09 ~ 2026-05",
+        updated: "BenchGecko + LLM Stats 合并 024-09 ~ 2026-05",
         sourceName: "BenchGecko CMMLU + LLM Stats CMMLU",
         sourceUrl: "https://llm-stats.com/benchmarks/cmmlu",
         items: [
@@ -1314,13 +1314,13 @@ window.AI_NEWS_DATA = {
         { label: "关注", value: "更强推理、更低随机猜中概" },
         { label: "常用指标", value: "Accuracy" }
       ],
-      evaluates: ["专业知识应用", "多步推理", "复杂选项辨析", "模型harder MMLU 上的稳健"],
+      evaluates: ["专业知识应用", "多步推理", "复杂选项辨析", "模型 harder MMLU 上的稳健"],
       metrics: ["总体准确", "学科分项准确", "CoT 与直接作答差", "不同提示模板下的一致"],
-      useCases: ["通用 LLM 深度能力评估", "模型发布页的 reasoning 补充指标", "替代过于饱和的传MMLU", "大模型选型初筛"],
+      useCases: ["通用 LLM 深度能力评估", "模型发布页的 reasoning 补充指标", "替代过于饱和的传 MMLU", "大模型选型初筛"],
       limitations: ["仍不等于开放式专家任务", "选择题顺序和提示词可能影响结", "公开数据长期存在污染风险"],
       rankings: {
         metric: "MMLU-Pro accuracy",
-        updated: "PricePerToken 快照026-04-28",
+        updated: "PricePerToken 快照 026-04-28",
         sourceName: "PricePerToken MMLU-Pro",
         sourceUrl: "https://pricepertoken.com/leaderboards/benchmark/mmlu-pro",
         items: [
@@ -1367,7 +1367,7 @@ window.AI_NEWS_DATA = {
       limitations: ["题量不大，统计波动需要注", "高分不代表能安全处理真实科研结论", "部分模型可能在公开榜单上针对性优"],
       rankings: {
         metric: "GPQA Diamond accuracy",
-        updated: "PricePerToken 快照026-05",
+        updated: "PricePerToken 快照 026-05",
         sourceName: "PricePerToken GPQA",
         sourceUrl: "https://pricepertoken.com/leaderboards/benchmark/gpqa",
         items: [
@@ -1402,20 +1402,20 @@ window.AI_NEWS_DATA = {
     "swe-bench-verified": {
       title: "SWE-bench Verified",
       subtitle: "真实 GitHub issue 修复评测",
-      summary: "SWE-bench Verified SWE-bench 中经过人工验证的高质量子集，要求模型Agent 在真实代码库中理issue、修改代码并通过测试，是评估 Coding Agent 的核心基准之一",
+      summary: "SWE-bench Verified SWE-bench 中经过人工验证的高质量子集，要求模型 Agent 在真实代码库中理 issue、修改代码并通过测试，是评估 Coding Agent 的核心基准之一",
       facts: [
         { label: "任务类型", value: "真实仓库 issue patch" },
-        { label: "规模", value: "Verified 子集 500 个问题；完整 SWE-bench 2,294 个实" },
+        { label: "规模", value: "Verified 子集 500个问题；完整 SWE-bench 2,294个实" },
         { label: "输入", value: "issue 描述、仓库快照、测试环" },
         { label: "常用指标", value: "Resolved %" }
       ],
       evaluates: ["仓库级代码理", "bug 定位与修", "测试驱动验证", "Agent 工具使用和长程执"],
       metrics: ["解决", "测试通过率", "生成补丁有效", "运行成本与时"],
-      useCases: ["代码 Agent 选型", "IDE 智能体能力比", "自动bug 产品评估", "开发者工具营销页引"],
-      limitations: ["公开 GitHub 数据可能被训练见", "测试通过不等于真实生产可维护", "不同运行 harness 会影响成", "高成Agent 与低成本模型需要分开比较"],
+      useCases: ["代码 Agent 选型", "IDE 智能体能力比", "自动 bug 产品评估", "开发者工具营销页引"],
+      limitations: ["公开 GitHub 数据可能被训练见", "测试通过不等于真实生产可维护", "不同运行 harness 会影响成", "高成 Agent 与低成本模型需要分开比较"],
       rankings: {
         metric: "SWE-bench Verified resolved %",
-        updated: "Megadose 快照026-05-22",
+        updated: "Megadose 快照 026-05-22",
         sourceName: "Megadose SWE-bench Verified",
         sourceUrl: "https://megadose.ai/b/swebench-verified",
         items: [
@@ -1450,7 +1450,7 @@ window.AI_NEWS_DATA = {
     "livecodebench": {
       title: "LiveCodeBench",
       subtitle: "持续更新的抗污染代码能力评测",
-      summary: "LiveCodeBench LeetCode、AtCoder、CodeForces 等竞赛平台持续收集新题，强调时间窗口和抗污染，用来补HumanEval 等静态代码题的短板",
+      summary: "LiveCodeBench LeetCode、AtCoder、CodeForces 等竞赛平台持续收集新题，强调时间窗口和抗污染，用来补 HumanEval 等静态代码题的短板",
       facts: [
         { label: "任务类型", value: "代码生成 / 执行 / 输出预测" },
         { label: "来源", value: "竞赛平台新题" },
@@ -1463,7 +1463,7 @@ window.AI_NEWS_DATA = {
       limitations: ["偏竞赛题，不等价于工程修", "题目窗口不同会导致结果不可直接比", "不覆盖大型仓库导航和需求沟"],
       rankings: {
         metric: "LiveCodeBench Pass@1",
-        updated: "LLM Stats 快照026-05",
+        updated: "LLM Stats 快照 026-05",
         sourceName: "LLM Stats LiveCodeBench",
         sourceUrl: "https://llm-stats.com/benchmarks/livecodebench",
         items: [
@@ -1511,7 +1511,7 @@ window.AI_NEWS_DATA = {
       limitations: ["函数 schema 质量会影响结", "真实业务工具可能更脏、更长、更依赖上下", "排行榜版本更新较快，引用需标注版本"],
       rankings: {
         metric: "BFCL V3 accuracy",
-        updated: "PricePerToken 快照026-05-07",
+        updated: "PricePerToken 快照 026-05-07",
         sourceName: "PricePerToken BFCL V3",
         sourceUrl: "https://pricepertoken.com/leaderboards/benchmark/bfcl-v3",
         items: [
@@ -1549,7 +1549,7 @@ window.AI_NEWS_DATA = {
       summary: "MMMU 面向需要图文结合、学科知识和复杂推理的大学级任务，覆盖艺术、商业、科学、医学、人文、工程等六大方向，是多模态模型专业能力评估的重要数据集",
       facts: [
         { label: "任务类型", value: "多模态学科问" },
-        { label: "规模", value: "11.5K 道题0 个学" },
+        { label: "规模", value: "11.5K 道题 0个学" },
         { label: "图像类型", value: "图表、示意图、公式、地图、表格等" },
         { label: "常用指标", value: "Accuracy" }
       ],
@@ -1559,7 +1559,7 @@ window.AI_NEWS_DATA = {
       limitations: ["不能代表所有视觉任", "选择题仍有猜测因", "专业题高分不等于真实专家审核可替"],
       rankings: {
         metric: "MMMU validation accuracy",
-        updated: "LLM Stats 快照026-05",
+        updated: "LLM Stats 快照 026-05",
         sourceName: "LLM Stats MMMU",
         sourceUrl: "https://llm-stats.com/benchmarks/mmmu",
         items: [
@@ -1594,11 +1594,11 @@ window.AI_NEWS_DATA = {
     "cmmmu": {
       title: "CMMMU",
       subtitle: "中文多学科多模态理解评",
-      summary: "CMMMU 是面向中文语境的多学科多模benchmark，参MMMU 的构造方式，收集中文大学考试、测验和教材中的图文题，评估模型在中文专业场景中的视觉推理",
+      summary: "CMMMU 是面向中文语境的多学科多模 benchmark，参 MMMU 的构造方式，收集中文大学考试、测验和教材中的图文题，评估模型在中文专业场景中的视觉推理",
       facts: [
         { label: "任务类型", value: "中文多模态学科问" },
         { label: "规模", value: "12K 道人工收集题" },
-        { label: "覆盖", value: "六大核心学科0 个主题9 类图" },
+        { label: "覆盖", value: "六大核心学科 0个主题 9 类图" },
         { label: "常用指标", value: "Accuracy" }
       ],
       evaluates: ["中文图文理解", "中文学科知识", "复杂图像推理", "文化和教育语境适配"],
@@ -1640,8 +1640,8 @@ window.AI_NEWS_DATA = {
     },
     "livebench": {
       title: "LiveBench",
-      subtitle: "动态、客观评分的抗污LLM 评测",
-      summary: "LiveBench 使用近期信息源持续更新问题，并使用客ground truth 自动评分，覆盖数学、代码、推理、语言、指令遵循和数据分析，旨在降低静benchmark 的污染和 LLM-as-judge 偏差",
+      subtitle: "动态、客观评分的抗污 LLM 评测",
+      summary: "LiveBench 使用近期信息源持续更新问题，并使用客 ground truth 自动评分，覆盖数学、代码、推理、语言、指令遵循和数据分析，旨在降低静 benchmark 的污染和 LLM-as-judge 偏差",
       facts: [
         { label: "任务类型", value: "通用 LLM 动态评" },
         { label: "覆盖", value: "数学、代码、推理、语言、指令、数据分" },
@@ -1649,12 +1649,12 @@ window.AI_NEWS_DATA = {
         { label: "常用指标", value: "任务分数 / 分类平均 / 总分" }
       ],
       evaluates: ["近期信息上的泛化", "客观题推", "代码和数据分", "指令遵循与语言任务"],
-      metrics: ["总体平均", "类别分数", "任务accuracy/exact match", "不同发布时间窗口表现"],
+      metrics: ["总体平均", "类别分数", "任务 accuracy/exact match", "不同发布时间窗口表现"],
       useCases: ["通用模型版本对比", "替代静态榜单做趋势观察", "模型发布页综合能力指", "抗污染评测专"],
       limitations: ["动态更新导致历史结果需标注日期", "客观答案任务不覆盖主观写作体", "与聊天偏好榜不能直接互相替代"],
       rankings: {
         metric: "LiveBench average score",
-        updated: "LMMarketCap 快照026-05-22",
+        updated: "LMMarketCap 快照 026-05-22",
         sourceName: "LMMarketCap LiveBench",
         sourceUrl: "https://lmmarketcap.com/benchmarks/livebench",
         items: [
@@ -1737,21 +1737,21 @@ window.AI_NEWS_DATA = {
     "fleurs-common-voice-librispeech": {
       title: "FLEURS / Common Voice / LibriSpeech",
       subtitle: "ASR 常用公开语音数据集组",
-      summary: "这组三类数据集分别代表多语种平行语音、社区众包开放语音和干净朗读英文语音，常ASR 榜单组合使用，用来观察模型在语言覆盖、开源语料和标准英文转写上的表现",
+      summary: "这组三类数据集分别代表多语种平行语音、社区众包开放语音和干净朗读英文语音，常 ASR 榜单组合使用，用来观察模型在语言覆盖、开源语料和标准英文转写上的表现",
       facts: [
         { label: "FLEURS", value: "102 种语言，每种约 12 小时语音监督" },
         { label: "Common Voice", value: "Mozilla 社区众包的开放多语种语音数据" },
         { label: "LibriSpeech", value: "1000 小时 16kHz 英文朗读语音" },
         { label: "常用指标", value: "WER / CER / Language ID accuracy" }
       ],
-      evaluates: ["多语ASR", "低资源语言覆盖", "干净朗读英文识别", "社区采集语音的鲁棒"],
+      evaluates: ["多语 ASR", "低资源语言覆盖", "干净朗读英文识别", "社区采集语音的鲁棒"],
       metrics: ["WER", "CER", "语言识别准确", "不同口音/语种分项表现"],
       useCases: ["ASR 模型训练和评", "多语言字幕产品", "低资源语言研究", "开源语音模型对"],
       limitations: ["LibriSpeech 偏干净朗读，不代表会议/电话噪声", "Common Voice 质量和口音分布随语言差异", "FLEURS 每语种规模有"],
       rankings: {
         metric: "WER 综合（Open ASR Leaderboard 英文均值，LibriSpeech / CommonVoice 子集",
         updated: "Open ASR Leaderboard arXiv:2510.06961v4 + Gladia 2026 整理",
-        sourceName: "Open ASR Leaderboard 论文 + Gladia 开STT 综述",
+        sourceName: "Open ASR Leaderboard 论文 + Gladia 开 STT 综述",
         sourceUrl: "https://arxiv.org/html/2510.06961v4",
         items: [
           { rank: 1, name: "NVIDIA Canary-Qwen 2.5B", score: "5.63 avg WER", note: "LibriSpeech clean 1.6 / other 3.1" },
@@ -1791,7 +1791,7 @@ window.AI_NEWS_DATA = {
         { label: "任务类型", value: "语音表示多任务评" },
         { label: "覆盖", value: "ASR、说话人、情感、语音命令、语义等" },
         { label: "评测方式", value: "冻结 backbone + 任务" },
-        { label: "常用指标", value: "按任务使WER、accuracy、EER " }
+        { label: "常用指标", value: "按任务使 WER、accuracy、EER " }
       ],
       evaluates: ["语音内容理解", "说话人信", "副语言和情感线", "自监督语音表示泛"],
       metrics: ["WER", "Accuracy", "EER", "任务平均表现"],
@@ -1837,7 +1837,7 @@ window.AI_NEWS_DATA = {
       summary: "HEAR 评估通用音频表示能否迁移到语音、环境声和音乐等多种下游任务，重点不是单一 ASR，而是 audio embedding 的跨领域泛化能力",
       facts: [
         { label: "任务类型", value: "通用音频表征评测" },
-        { label: "规模", value: "19 个多领域任务" },
+        { label: "规模", value: "19个多领域任务" },
         { label: "领域", value: "speech、environmental sound、music" },
         { label: "评测对象", value: "音频 embedding / representation model" }
       ],
@@ -1847,7 +1847,7 @@ window.AI_NEWS_DATA = {
       limitations: ["不直接评估语音生成或转写完整体验", "任务权重会影响总分解读", "MAEB 等新 benchmark 需要结合使"],
       rankings: {
         metric: "HEAR 综合归一化得分（NeurIPS 2021 + PaSST 论文整理",
-        updated: "PaSST 论文HEAR 官方页面公开结果",
+        updated: "PaSST 论文 HEAR 官方页面公开结果",
         sourceName: "HEAR Leaderboard + PaSST 论文",
         sourceUrl: "https://hearbenchmark.com/hear-leaderboard.html",
         items: [
@@ -1882,7 +1882,7 @@ window.AI_NEWS_DATA = {
     "ttsds": {
       title: "TTSDS",
       subtitle: "Text-to-Speech Distribution Score",
-      summary: "TTSDS 用分布距离思路评估合成语音质量，把韵律、说话人身份和可懂度等因素与真实语音及噪声数据对比，适合快速比TTS 系统的整体自然度",
+      summary: "TTSDS 用分布距离思路评估合成语音质量，把韵律、说话人身份和可懂度等因素与真实语音及噪声数据对比，适合快速比 TTS 系统的整体自然度",
       facts: [
         { label: "任务类型", value: "TTS 合成语音质量评估" },
         { label: "版本", value: "TTSDS2 支持多语种并定期更新" },
@@ -1891,7 +1891,7 @@ window.AI_NEWS_DATA = {
       ],
       evaluates: ["合成语音自然", "韵律和节", "说话人相似度", "可懂"],
       metrics: ["TTSDS 综合", "韵律分布差异", "说话人身份差", "WER/可懂度相关指"],
-      useCases: ["TTS 模型选型", "配音工具横评", "多语TTS 质量跟踪", "开TTS 系统比较"],
+      useCases: ["TTS 模型选型", "配音工具横评", "多语 TTS 质量跟踪", "开 TTS 系统比较"],
       limitations: ["自动指标不能完全替代真人听感", "情绪控制和长音频稳定性需要额外测", "不同语言的可比性要谨慎"],
       rankings: {
         metric: "TTSDS2 综合分（越高越好，Ground Truth 为人工参考上限）",
@@ -1902,7 +1902,7 @@ window.AI_NEWS_DATA = {
           { rank: 1, name: "Ground Truth", score: "93.21", note: "人工参考基" },
           { rank: 2, name: "MaskGCT", score: "91.76", note: "跨域相关性最" },
           { rank: 3, name: "E2-TTS", score: "91.73", note: "接近人类评估" },
-          { rank: 4, name: "F5-TTS", score: "91.16", note: "曾超ground truth 报告" },
+          { rank: 4, name: "F5-TTS", score: "91.16", note: "曾超 ground truth 报告" },
           { rank: 5, name: "Vevo", score: "90.20", note: "2025 发布" },
           { rank: 6, name: "FishSpeech", score: "89.88", note: "多语" },
           { rank: 7, name: "GPTSoVITS", score: "89.22", note: "开源主" },
@@ -1928,7 +1928,7 @@ window.AI_NEWS_DATA = {
     },
     "mint-bench": {
       title: "MINT-Bench",
-      subtitle: "多语种指令跟TTS 评测",
+      subtitle: "多语种指令跟 TTS 评测",
       summary: "MINT-Bench 关注可控、表达型、多语种 TTS，使用分层多轴分类和混合评估协议，同时考察内容一致性、指令跟随和感知质量",
       facts: [
         { label: "任务类型", value: "Instruction-following TTS" },
@@ -1969,7 +1969,7 @@ window.AI_NEWS_DATA = {
     "mteb": {
       title: "MTEB",
       subtitle: "Massive Text Embedding Benchmark",
-      summary: "MTEB 是文embedding 领域最常用的综合评测之一，覆盖检索、分类、聚类、语义相似度、重排序、摘要、双语挖掘等任务，用来判embedding 是否适合 RAG 和语义检索",
+      summary: "MTEB 是文 embedding 领域最常用的综合评测之一，覆盖检索、分类、聚类、语义相似度、重排序、摘要、双语挖掘等任务，用来判 embedding 是否适合 RAG 和语义检索",
       facts: [
         { label: "任务类型", value: "文本 embedding 多任务评" },
         { label: "覆盖", value: "8 大任务类型，扩展到大量语言和领" },
@@ -1979,10 +1979,10 @@ window.AI_NEWS_DATA = {
       evaluates: ["语义检", "文本分类", "聚类", "语义相似度和重排"],
       metrics: ["Retrieval NDCG@10", "STS Spearman", "Classification Accuracy/F1", "Clustering V-measure"],
       useCases: ["RAG embedding 选型", "企业知识库检", "多语种语义搜", "reranker/embedding 模型对比"],
-      limitations: ["总体分不代表你的私有语料最", "检索任务应结合自己query/doc 测试", "多语种、长文本、代码和行业语料要看分项"],
+      limitations: ["总体分不代表你的私有语料最", "检索任务应结合自己 query/doc 测试", "多语种、长文本、代码和行业语料要看分项"],
       rankings: {
         metric: "MTEB Average / v2（含 legacy v2，需注意可比性）",
-        updated: "AwesomeAgents 快照026-04",
+        updated: "AwesomeAgents 快照 026-04",
         sourceName: "AwesomeAgents MTEB April 2026",
         sourceUrl: "https://awesomeagents.ai/leaderboards/embedding-model-leaderboard-mteb-april-2026/",
         items: [
@@ -2012,10 +2012,10 @@ window.AI_NEWS_DATA = {
     "maeb": {
       title: "MAEB",
       subtitle: "Massive Audio Embedding Benchmark",
-      summary: "MAEB MTEB 的统一评测思想扩展到音embedding，覆盖语音、音乐、环境声和音文本跨模态推理，用来观察音频表示模型是否能跨领域泛化",
+      summary: "MAEB MTEB 的统一评测思想扩展到音 embedding，覆盖语音、音乐、环境声和音文本跨模态推理，用来观察音频表示模型是否能跨领域泛化",
       facts: [
         { label: "任务类型", value: "音频 embedding 综合评测" },
-        { label: "覆盖", value: "30 个任务，衍生98 个任务集" },
+        { label: "覆盖", value: "30个任务，衍生 98个任务集" },
         { label: "语言", value: "100+ 语言相关任务" },
         { label: "发布时间", value: "2026-02" }
       ],
@@ -2025,11 +2025,11 @@ window.AI_NEWS_DATA = {
       limitations: ["benchmark，排行榜仍在扩展", "没有单一模型能覆盖所有音频任", "真实业务音频仍需私有集复"],
       rankings: {
         metric: "Borda count 综合 + Overall Average（百分比，越高越好）",
-        updated: "MAEB 论文 arXiv:2602.16008 + Hugging Face 博客026-02",
+        updated: "MAEB 论文 arXiv:2602.16008 + Hugging Face 博客 026-02",
         sourceName: "MAEB 论文 + HF 博客",
         sourceUrl: "https://huggingface.co/blog/AdnanElAssadi/maeb",
         items: [
-          { rank: 1, name: "LCO-Embedding-Omni-7B", score: "52.2", note: "整体第一 / 跨模50.3 / 零样64.5" },
+          { rank: 1, name: "LCO-Embedding-Omni-7B", score: "52.2", note: "整体第一 / 跨模 50.3 / 零样 64.5" },
           { rank: 2, name: "Qwen2-Audio-7B", score: "33.7", note: "整体第二 / 音频-only 第一 50.8 / 重排 80.8" },
           { rank: 3, name: "SeamlessM4T", score: "", note: "Meta / 跨语种音频翻译型代表" },
           { rank: 4, name: "Whisper Large v3", score: "", note: "OpenAI / 语音任务强项" },
@@ -2072,7 +2072,7 @@ window.AI_NEWS_DATA = {
       limitations: ["自动指标和人类审美仍有差", "不同 prompt 集合会影响排", "版权、安全和可控性需单独评估"],
       rankings: {
         metric: "Video generation overall rank / quality signal",
-        updated: "VidScore 快照026-05-22",
+        updated: "VidScore 快照 026-05-22",
         sourceName: "VidScore AI Video Leaderboard",
         sourceUrl: "https://vidscore.dev/leaderboard",
         items: [
@@ -2109,17 +2109,17 @@ window.AI_NEWS_DATA = {
       summary: "OCRBench OCRBench v2 关注多模态模型在视觉文本上的能力，覆盖场景文字、文档、表格、公式、图表和文字定位推理等任务，VLM 文档能力评估的重要入口",
       facts: [
         { label: "任务类型", value: "OCR / VLM 文本理解" },
-        { label: "OCRBench v2", value: "10,000 个人工验证问答对1 类场" },
+        { label: "OCRBench v2", value: "10,000个人工验证问答对 1 类场" },
         { label: "覆盖", value: "街景、收据、公式、图表、文档等" },
         { label: "常用指标", value: "任务准确</ 综合" }
       ],
       evaluates: ["图中文字识别", "文本定位和阅读顺", "表格/公式理解", "基于文字的视觉推"],
       metrics: ["综合", "场景分项准确", "文字定位表现", "推理型题目准确率"],
-      useCases: ["OCR/VLM 模型选型", "票据和文档处", "多模RAG 前处", "视觉文字问答产品评估"],
-      limitations: ["OCRBench 高分不等于所有扫描件都稳", "真实票据字段抽取需KIE/IDP 指标", "多页文档和版面恢复需要额外测"],
+      useCases: ["OCR/VLM 模型选型", "票据和文档处", "多模 RAG 前处", "视觉文字问答产品评估"],
+      limitations: ["OCRBench 高分不等于所有扫描件都稳", "真实票据字段抽取需 KIE/IDP 指标", "多页文档和版面恢复需要额外测"],
       rankings: {
         metric: "OCRBench v2 综合",
-        updated: "CodeSOTA 快照026-04/05",
+        updated: "CodeSOTA 快照 026-04/05",
         sourceName: "CodeSOTA OCRBench v2",
         sourceUrl: "https://www.codesota.com/browse/computer-vision/ocr-capabilities/ocrbench-v2",
         items: [
@@ -2154,10 +2154,10 @@ window.AI_NEWS_DATA = {
     "docvqa": {
       title: "DocVQA",
       subtitle: "真实文档图像上的视觉问答",
-      summary: "DocVQA 要求模型根据文档图像回答自然语言问题，答案通常来自文档中的文字片段。它OCR、版面理解和问答结合起来，比单纯识别文字更贴近文AI 场景",
+      summary: "DocVQA 要求模型根据文档图像回答自然语言问题，答案通常来自文档中的文字片段。它 OCR、版面理解和问答结合起来，比单纯识别文字更贴近文 AI 场景",
       facts: [
         { label: "任务类型", value: "Document Visual Question Answering" },
-        { label: "规模", value: "50K 问题2K+ 文档图像" },
+        { label: "规模", value: "50K 问题 2K+ 文档图像" },
         { label: "来源", value: "UCSF Industry Documents Library 等真实文" },
         { label: "常用指标", value: "ANLS / Accuracy " }
       ],
@@ -2167,7 +2167,7 @@ window.AI_NEWS_DATA = {
       limitations: ["单页文档与多页复杂文档不", "答案多为文本片段，不覆盖所有推理型文档任务", "真实业务需额外评估表格、手写和低清扫描"],
       rankings: {
         metric: "DocVQA score (ANLS)",
-        updated: "LLM Stats 快照026-05",
+        updated: "LLM Stats 快照 026-05",
         sourceName: "LLM Stats DocVQA",
         sourceUrl: "https://llm-stats.com/benchmarks/docvqa",
         items: [
@@ -2211,7 +2211,7 @@ window.AI_NEWS_DATA = {
     {
       title: "研究写作 Skill",
       level: "进阶",
-      description: "面向论文阅读、文献综述、实验记录、技术写作和审稿修改Skill 流程",
+      description: "面向论文阅读、文献综述、实验记录、技术写作和审稿修改 Skill 流程",
       keywords: ["Research", "Writing", "Review", "Claude"],
       url: "#github-weekly"
     },
@@ -2248,7 +2248,7 @@ window.AI_NEWS_DATA = {
     {
       name: "addyosmani/agent-skills",
       lang: "Skills",
-      description: "面向 AI coding agents 的工Skill 集合，把代码审查、调试、重构等动作沉淀成可复用流程",
+      description: "面向 AI coding agents 的工 Skill 集合，把代码审查、调试、重构等动作沉淀成可复用流程",
       why: "搜索趋势显示 agent skills 正在成为 AI 编程工具的新入口",
       url: "https://github.com/addyosmani/agent-skills",
       source: "SignalForges · 2026-05-10"
@@ -2256,7 +2256,7 @@ window.AI_NEWS_DATA = {
     {
       name: "bytedance/UI-TARS-desktop",
       lang: "TypeScript",
-      description: "字节开源的多模态桌Agent 栈，关注真实桌面和浏览器操作场景",
+      description: "字节开源的多模态桌 Agent 栈，关注真实桌面和浏览器操作场景",
       why: "适合放在 AI 智能体、GUI Agent 和自动化工作流专题",
       url: "https://github.com/bytedance/UI-TARS-desktop",
       source: "GitTrend · 2026-05"
@@ -2264,7 +2264,7 @@ window.AI_NEWS_DATA = {
     {
       name: "datawhalechina/hello-agents",
       lang: "Python",
-      description: "中文智能体教程项目，面向从零开始学Agent 原理、实践和工具调用",
+      description: "中文智能体教程项目，面向从零开始学 Agent 原理、实践和工具调用",
       why: "很适合作为中文 AI 学习入口和教程型长尾内容",
       url: "https://github.com/datawhalechina/hello-agents",
       source: "GitTrend · 2026-05"
@@ -2281,7 +2281,7 @@ window.AI_NEWS_DATA = {
       name: "multica-ai/andrej-karpathy-skills",
       lang: "Markdown",
       description: "Andrej Karpathy 关于 LLM 编程常见问题的观察整理成 CLAUDE.md 行为规范",
-      why: "适合作为 Skill 推荐AI 编程规范案例",
+      why: "适合作为 Skill 推荐 AI 编程规范案例",
       url: "https://github.com/multica-ai/andrej-karpathy-skills",
       source: "GitTrend · 2026-05-21"
     },
@@ -2312,8 +2312,8 @@ window.AI_NEWS_DATA = {
     {
       name: "Luongnv89/asm",
       lang: "CLI",
-      description: "通用 AI coding agent skill manager，支Claude Code、Codex、Cursor、Windsurf 等多种提供方",
-      why: "适合Skill 管理工具AI 编程工作流推荐",
+      description: "通用 AI coding agent skill manager，支 Claude Code、Codex、Cursor、Windsurf 等多种提供方",
+      why: "适合 Skill 管理工具 AI 编程工作流推荐",
       url: "https://github.com/luongnv89/asm",
       source: "GitHub · 2026-05"
     }
@@ -2322,7 +2322,7 @@ window.AI_NEWS_DATA = {
     {
       title: "Google I/O 2026 后，AI Agent 成为本周最热主",
       summary:
-        "多家媒体Gemini Spark、AI Search Antigravity 2.0 视作 Google 本轮 AI 更新的核心信号，个人助理和开发者平台都在向 Agent 形态靠拢",
+        "多家媒体 Gemini Spark、AI Search Antigravity 2.0 视作 Google 本轮 AI 更新的核心信号，个人助理和开发者平台都在向 Agent 形态靠拢",
       category: "ai-agents",
       source: "AP / TechRadar / Google Blog",
       date: "2026-05-22",
@@ -2332,11 +2332,11 @@ window.AI_NEWS_DATA = {
     {
       title: "GitHub 趋势：agent skills AI coding 工具继续升温",
       summary:
-        "本周多个趋势榜都agent skills、UI agents、AI coding agent memory、React 自动修复等项目列为关注点，说明开发者正在把 AI 使用方式工程化",
+        "本周多个趋势榜都 agent skills、UI agents、AI coding agent memory、React 自动修复等项目列为关注点，说明开发者正在把 AI 使用方式工程化",
       category: "ai-coding",
       source: "GitTrend / SignalForges / ToolBrain",
       date: "2026-05-22",
-      tags: ["GitHub", "agent-skills", "AI编程"],
+      tags: ["GitHub", "agent-skills", "AI 编程"],
       url: "https://gittrend.io/trending/ai-agent"
     },
     {
@@ -2350,9 +2350,9 @@ window.AI_NEWS_DATA = {
       url: "https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-developer-highlights/"
     },
     {
-      title: "Google I/O 2026 汇总：Gemini 3.5、Gemini Omni 与多AI 产品更新",
+      title: "Google I/O 2026 汇总：Gemini 3.5、Gemini Omni 与多 AI 产品更新",
       summary:
-        "Google 发布 I/O 2026 100 项更新，重点覆盖新一Gemini 模型、创作能力、代理式开发平台和 AI 搜索体验",
+        "Google 发布 I/O 2026 100 项更新，重点覆盖新一 Gemini 模型、创作能力、代理式开发平台和 AI 搜索体验",
       category: "ai-models",
       source: "Google Blog",
       date: "2026-05-20",
@@ -2360,13 +2360,13 @@ window.AI_NEWS_DATA = {
       url: "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/"
     },
     {
-      title: "Google Search 引入更强AI 搜索与信息代理体",
+      title: "Google Search 引入更强 AI 搜索与信息代理体",
       summary:
         "Google I/O 期间展示新的 AI Search 方向，让用户通过提问触发更复杂的信息整理、购物和任务处理流程",
       category: "ai-office",
       source: "Google Blog",
       date: "2026-05-19",
-      tags: ["AI搜索", "信息代理", "产品"],
+      tags: ["AI 搜索", "信息代理", "产品"],
       url: "https://blog.google/products-and-platforms/products/search/search-io-2026/"
     },
     {
@@ -2382,15 +2382,15 @@ window.AI_NEWS_DATA = {
     {
       title: "Google 发布开发者更新：Antigravity、Gemini API AI Studio",
       summary:
-        "面向开发者的重点更新包括 Google Antigravity 2.0、Gemini API 管理式智能体，以Android Studio AI Studio 的新能力",
+        "面向开发者的重点更新包括 Google Antigravity 2.0、Gemini API 管理式智能体，以 Android Studio AI Studio 的新能力",
       category: "ai-coding",
       source: "Google Blog",
       date: "2026-05-19",
-      tags: ["AI编程", "Gemini API", "AI Studio"],
+      tags: ["AI 编程", "Gemini API", "AI Studio"],
       url: "https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-developer-highlights/"
     },
     {
-      title: "Anthropic 收购 Stainless，加SDK MCP 工具",
+      title: "Anthropic 收购 Stainless，加 SDK MCP 工具",
       summary:
         "Anthropic 表示将通过收购 Stainless 强化 Claude 平台的开发者体验、SDK 生成能力和智能体连接外部系统的能力",
       category: "ai-agents",
@@ -2400,13 +2400,13 @@ window.AI_NEWS_DATA = {
       url: "https://www.anthropic.com/news/anthropic-acquires-stainless"
     },
     {
-      title: "Anthropic 与多家金融机构共建企AI 服务公司",
+      title: "Anthropic 与多家金融机构共建企 AI 服务公司",
       summary:
-        "Anthropic、Blackstone、Hellman & Friedman Goldman Sachs 宣布成立新公司，帮助中型企业Claude 落到关键业务流程",
+        "Anthropic、Blackstone、Hellman & Friedman Goldman Sachs 宣布成立新公司，帮助中型企业 Claude 落到关键业务流程",
       category: "ai-business",
       source: "Anthropic",
       date: "2026-05-04",
-      tags: ["企业AI", "Claude", "服务"],
+      tags: ["企业 AI", "Claude", "服务"],
       url: "https://www.anthropic.com/news/enterprise-ai-services-company"
     },
     {
@@ -2426,13 +2426,13 @@ window.AI_NEWS_DATA = {
       category: "ai-research",
       source: "Anthropic",
       date: "2026-04-01",
-      tags: ["报告", "AI智能", "趋势"],
+      tags: ["报告", "AI 智能", "趋势"],
       url: "https://resources.anthropic.com/hubfs/The%202026%20State%20of%20AI%20Agents%20Report.pdf"
     },
     {
       title: "中文大模型评测如何做 SEO：排行榜、能力维度和模型选型",
       summary:
-        "参ReLE 这类开源评测项目，内容站可以把综合榜、垂直能力榜、更新记录和选型建议拆成多个专题页",
+        "参 ReLE 这类开源评测项目，内容站可以把综合榜、垂直能力榜、更新记录和选型建议拆成多个专题页",
       category: "ai-benchmark",
       source: "本站原创",
       date: "2026-05-22",
@@ -2440,7 +2440,7 @@ window.AI_NEWS_DATA = {
       url: "#benchmark"
     },
     {
-      title: "AI工具导航站怎么做内容结构：从分类页到对比页",
+      title: "AI 工具导航站怎么做内容结构：从分类页到对比页",
       summary:
         "原创内容建议：每个分类先写工具清单，再补充使用教程、价格对比、替代品推荐和常见问题，形成可持续更新的专题",
       category: "ai-tools",
@@ -2450,13 +2450,13 @@ window.AI_NEWS_DATA = {
       url: "#topics"
     },
     {
-      title: "AI绘画视频栏目建议：用案例和提示词承接搜索流量",
+      title: "AI 绘画视频栏目建议：用案例和提示词承接搜索流量",
       summary:
-        "AI绘画和AI视频用户常搜索具体效果，内容应包含工具选择、提示词模板、商用版权提醒和作品案例",
+        "AI 绘画和 AI 视频用户常搜索具体效果，内容应包含工具选择、提示词模板、商用版权提醒和作品案例",
       category: "ai-image-video",
       source: "本站原创",
       date: "2026-05-22",
-      tags: ["AI绘画", "AI视频", "提示"],
+      tags: ["AI 绘画", "AI 视频", "提示"],
       url: "#topics"
     }
   ],
@@ -2493,7 +2493,7 @@ window.AI_NEWS_DATA = {
     },
     {
       name: "The Batch",
-      description: "DeepLearning.AI 的每AI 新闻简报",
+      description: "DeepLearning.AI 的每 AI 新闻简报",
       url: "https://www.deeplearning.ai/the-batch/"
     },
     {
@@ -2512,14 +2512,14 @@ window.AI_NEWS_DATA = {
         {
           title: "mattpocock/skills",
           type: "agent-skills 仓库",
-          description: "Matt Pocock 把个.claude 目录开源，覆盖 PRD、TDD、重构、git safety 等团队习惯。本GitHub Trending 第一，单+1,618 star",
-          details: "Matt Pocock TypeScript 教学方面的知名作者，他把自己Claude Code 里日积月累的 .claude 目录整体开源。和市面上“大而全”的 Skill 仓库不同，这个仓库只放他真实在用、能Claude Code 守住团队习惯的少Skill，比如先PRD 再动代码、用 TDD 节奏迭代、重构前要求列出风险点、提交前自动git safety。适合想给 Claude Code 立一份“工程行为规范”的团队，把它当模板再增删",
+          description: "Matt Pocock 把个.claude 目录开源，覆盖 PRD、TDD、重构、git safety 等团队习惯。本 GitHub Trending 第一，单+1,618 star",
+          details: "Matt Pocock TypeScript 教学方面的知名作者，他把自己 Claude Code 里日积月累的 .claude 目录整体开源。和市面上“大而全”的 Skill 仓库不同，这个仓库只放他真实在用、能 Claude Code 守住团队习惯的少 Skill，比如先 PRD 再动代码、用 TDD 节奏迭代、重构前要求列出风险点、提交前自动 git safety。适合想给 Claude Code 立一份“工程行为规范”的团队，把它当模板再增删",
           features: [
             "PRD Skill：让 Claude 在写代码前先输出问题、目标、非目标和验收标",
             "TDD Skill：强制先写测试、看测试失败、再写实现的红绿循环",
             "Refactor Skill：重构前先列影响面和回滚方案，避免大刀阔斧",
-            "Git safety Skill：限force push、危reset 等高风险命令",
-            "可直接作Claude Code Plugin marketplace 注册"
+            "Git safety Skill：限 force push、危 reset 等高风险命令",
+            "可直接作 Claude Code Plugin marketplace 注册"
           ],
           useCases: [
             "团队第一次给 Claude Code 立规矩，没必要从零写 Skill",
@@ -2534,42 +2534,42 @@ window.AI_NEWS_DATA = {
         {
           title: "alirezarezvani/claude-skills v2.7.3",
           type: "agent-skills 仓库",
-          description: "313+ Claude Code / Codex / Cursor / Gemini CLI Skills，含 57 plugin、跨 12 个领域（工程、营销、产品、合规、研究、运营、商务、个人效率）",
-          details: "目前社区最大的Coding Agent Skill 集合之一</17 发布 v2.7.3 版本。和单一团队风格Skill 仓库不同，这里按 12 个职能领域组Skill，包括工程、市场营销、产品管理、合规、C 级顾问、研究、商务运营、商业财务、个人效率等。每Skill 都做了跨 Coding Agent 兼容标注，可Claude Code、Codex、Cursor、Gemini CLI 8+ 工具中复用",
+          description: "313+ Claude Code / Codex / Cursor / Gemini CLI Skills，含 57 plugin、跨 12个领域（工程、营销、产品、合规、研究、运营、商务、个人效率）",
+          details: "目前社区最大的 Coding Agent Skill 集合之一</17 发布 v2.7.3 版本。和单一团队风格 Skill 仓库不同，这里按 12个职能领域组 Skill，包括工程、市场营销、产品管理、合规、C 级顾问、研究、商务运营、商业财务、个人效率等。每 Skill 都做了跨 Coding Agent 兼容标注，可 Claude Code、Codex、Cursor、Gemini CLI 8+ 工具中复用",
           features: [
             "313+ Skill 8 Coding Agent 兼容",
             "57 plugin marketplace 入口",
-            "12 个职能领域分类组织（不只是开发者向",
-            "文档站点上线，每Skill 有独立说明页",
+            "12个职能领域分类组织（不只是开发者向",
+            "文档站点上线，每 Skill 有独立说明页",
             "持续按周发版，含变更日志"
           ],
           useCases: [
             "企业需要给非开发岗也配 AI Skill（市场、合规、运营）",
-            "团队同时用多Coding Agent，想找跨平台兼容方案",
+            "团队同时用多 Coding Agent，想找跨平台兼容方案",
             "想看大型 Skill 仓库的目录结构、命名和元数据怎么组织",
-            "需要按职能Skill，而不只是按技术栈"
+            "需要按职能 Skill，而不只是按技术栈"
           ],
           url: "https://github.com/alirezarezvani/claude-skills",
           source: "Release · 2026-05-17",
-          tags: ["跨编Agent", "Plugin", "企业 Skill"]
+          tags: ["跨编 Agent", "Plugin", "企业 Skill"]
         },
         {
           title: "GitGuardian/agent-skills",
           type: "agent-skills 仓库",
-          description: "GitGuardian 把密凭据扫描沉淀Skill，教 Claude Code、Cursor 等何时扫描、如何读结果、怎么引导开发者修复",
-          details: "GitGuardian 是知名密钥泄漏检测厂商，5/21 把他们的扫描能力下沉成开Skill。这意味着 Claude Code、Cursor AI 编码助手不仅可以调用扫描，还知道在什么节点扫（提交前、PR 前、改 .env 后），看到结果怎么解读、怎么和开发者沟通修复，避免误删真密钥或忽略真泄漏",
+          description: "GitGuardian 把密凭据扫描沉淀 Skill，教 Claude Code、Cursor 等何时扫描、如何读结果、怎么引导开发者修复",
+          details: "GitGuardian 是知名密钥泄漏检测厂商，5/21 把他们的扫描能力下沉成开 Skill。这意味着 Claude Code、Cursor AI 编码助手不仅可以调用扫描，还知道在什么节点扫（提交前、PR 前、改 .env 后），看到结果怎么解读、怎么和开发者沟通修复，避免误删真密钥或忽略真泄漏",
           features: [
-            "提交前自动触ggshield 扫描",
+            "提交前自动触 ggshield 扫描",
             "secret 检测结果翻译成开发者能听懂的话",
             "区分误报和真实泄漏的判断 prompt",
-            "PR review 流程对接，自动建议修PR",
-            "适用Claude Code、Cursor AI 编码助手"
+            "PR review 流程对接，自动建议修 PR",
+            "适用 Claude Code、Cursor AI 编码助手"
           ],
           useCases: [
-            "团队担心 AI 编码助手secret 留在代码",
-            "需AI 助手在提交前主动扫描敏感信息",
-            "DevSecOps 团队想给 AI 编码工具配安Skill",
-            "希望把已GitGuardian 工作流接AI 助手"
+            "团队担心 AI 编码助手 secret 留在代码",
+            "需 AI 助手在提交前主动扫描敏感信息",
+            "DevSecOps 团队想给 AI 编码工具配安 Skill",
+            "希望把已 GitGuardian 工作流接 AI 助手"
           ],
           url: "https://github.com/gitguardian/agent-skills",
           source: "GitGuardian Changelog · 2026-05-21",
@@ -2579,16 +2579,16 @@ window.AI_NEWS_DATA = {
           title: "anthropics/skills",
           type: "agent-skills 仓库",
           description: "Anthropic 官方 Agent Skills 公共仓库，覆盖创技企业三大类，可一键注册为 Claude Code Plugin marketplace",
-          details: "Anthropic 官方维护Skill 示范仓库，作Skill 系统的官方参考实现。覆盖三大类：创意（艺术、音乐、设计）、技术（Web 应用测试、MCP server 生成）、企业（沟通、品牌、文档）。Skill 在这里被定义为“一组指令、脚本和资源的文件夹”，Claude 在需要时动态加载，让模型在特定任务上的表现更可重复",
+          details: "Anthropic 官方维护 Skill 示范仓库，作 Skill 系统的官方参考实现。覆盖三大类：创意（艺术、音乐、设计）、技术（Web 应用测试、MCP server 生成）、企业（沟通、品牌、文档）。Skill 在这里被定义为“一组指令、脚本和资源的文件夹”，Claude 在需要时动态加载，让模型在特定任务上的表现更可重复",
           features: [
             "官方 SKILL.md 元数据规范示",
             "覆盖创意 / 技</ 企业三大",
             "可一键注册为 Claude Code Plugin marketplace",
             "每个 Skill 含使用示例与脚本",
-            "可直fork 改造作为内Skill 起点"
+            "可直 fork 改造作为内 Skill 起点"
           ],
           useCases: [
-            "第一次接Agent Skills，想看官方怎么",
+            "第一次接 Agent Skills，想看官方怎么",
             "需要给企业内部 Skill 一套元数据规范",
             "想引用一些可直接用的 Skill 作为起点（MCP server 生成、艺术创作）",
             "Skill 培训或文档时引用官方示例"
@@ -2600,41 +2600,41 @@ window.AI_NEWS_DATA = {
         {
           title: "VoltAgent/awesome-agent-skills",
           type: "Skill 精",
-          description: "1000+ 来自 Anthropic、Google Labs、Vercel、Stripe、Cloudflare、Hugging Face、Figma 等官方团队与社区Skill 合集，跨 Claude Code / Codex / Gemini CLI / Cursor",
-          details: "目前覆盖面最广的 Skill 索引，超1000 条来自官dev team 和社区的 Skill。已收录 Anthropic、Google Labs、Vercel、Stripe、Cloudflare、Netlify、Trail of Bits、Sentry、Expo、Hugging Face、Figma 等公司的官方 Skill，等于把“哪些公司给 AI 编码助手出过官方 Skill”这件事系统整理出来了",
+          description: "1000+ 来自 Anthropic、Google Labs、Vercel、Stripe、Cloudflare、Hugging Face、Figma 等官方团队与社区 Skill 合集，跨 Claude Code / Codex / Gemini CLI / Cursor",
+          details: "目前覆盖面最广的 Skill 索引，超 1000条来自官 dev team 和社区的 Skill。已收录 Anthropic、Google Labs、Vercel、Stripe、Cloudflare、Netlify、Trail of Bits、Sentry、Expo、Hugging Face、Figma 等公司的官方 Skill，等于把“哪些公司给 AI 编码助手出过官方 Skill”这件事系统整理出来了",
           features: [
-            "1000+ Skill 跨多Coding Agent",
+            "1000+ Skill 跨多 Coding Agent",
             "按官方厂</ 社区两大类组",
             "每个 Skill 带原始来源和兼容性标",
             "持续追加新厂商发布的 Skill",
             "可作为发现型 Awesome List 使用"
           ],
           useCases: [
-            "想看 Stripe / Cloudflare / Hugging Face 等大厂给 AI 编码工具出了什Skill",
+            "想看 Stripe / Cloudflare / Hugging Face 等大厂给 AI 编码工具出了什 Skill",
             "做内容站时需要列出“AI 编码 Skill 推荐”的来源",
             "Skill 选型时先看官方版本，再看社区改造版",
-            "调研某个 SaaS 是否有官Skill 集成"
+            "调研某个 SaaS 是否有官 Skill 集成"
           ],
           url: "https://github.com/VoltAgent/awesome-agent-skills",
           source: "GitHub · 2026-05",
           tags: ["Agent", "官方 Skill", "Awesome"]
         },
         {
-          title: "Claude Code 平台更新026-05-21",
+          title: "Claude Code 平台更新 026-05-21",
           type: "官方平台更新",
-          description: "新增 hook / plugin 选项、更强的 agent session 控制、权限与反馈流改进，后台运行MCP 处理升级",
+          description: "新增 hook / plugin 选项、更强的 agent session 控制、权限与反馈流改进，后台运行 MCP 处理升级",
           details: "Anthropic 5/21 Claude Code 推送一次较大版本更新。核心变化是 hook 系统更细化（PreCompact、UserPromptSubmit、Stop 等钩子能拿到更多上下文），plugin 系统支持 marketplace 安装，agent session 控制改进让多任务并行更稳。后台执行和 MCP 调用的错误处理与重试也升级了",
           features: [
             "Hook 拿到更多上下文（包含工具调用历史",
             "Plugin 支持 marketplace 一键安",
             "Agent session 控制更细，多任务并行更稳",
             "权限提示流程优化，减少打",
-            "后台执行MCP 调用的错误处理更健壮"
+            "后台执行 MCP 调用的错误处理更健壮"
           ],
           useCases: [
             "想用 hook 写自己的工作流规则（提交前检查、特定文件夹保护",
             "需要为团队搭建私有 plugin marketplace",
-            "并行跑多Claude Code session 处理不同任务",
+            "并行跑多 Claude Code session 处理不同任务",
             "MCP 集成大量外部工具时遇到稳定性问"
           ],
           url: "https://github.com/anthropics/claude-code",
@@ -2644,14 +2644,14 @@ window.AI_NEWS_DATA = {
         {
           title: "Spinach Google Meet MCP",
           type: "MCP / 工作",
-          description: "Google Meet 会议纪要直接MCP 接到 Claude，免手动上传，可随时查会议中的决定和 action item",
-          details: "Spinach 是会议记SaaS 月发布了 MCP server Claude 直接通过 MCP 协议访问 Google Meet 会议纪要。以前的流程是导出转录文件、复制粘贴到 Claude；现在可以直接问“上周二的产品评审里我们决定了什么”、“过30 天里 Bob 答应做但还没做的事有哪些”，Claude 会直接查 Spinach 的存档",
+          description: "Google Meet 会议纪要直接 MCP 接到 Claude，免手动上传，可随时查会议中的决定和 action item",
+          details: "Spinach 是会议记 SaaS 月发布了 MCP server Claude 直接通过 MCP 协议访问 Google Meet 会议纪要。以前的流程是导出转录文件、复制粘贴到 Claude；现在可以直接问“上周二的产品评审里我们决定了什么”、“过 30 天里 Bob 答应做但还没做的事有哪些”，Claude 会直接查 Spinach 的存档",
           features: [
             "MCP server 直接桥接 Google Meet 转录",
             "支持按时间、参与人、关键词查询",
             "提取 action item、决定、待",
             "免手动导出和上传，免复制粘贴",
-            "兼容 Claude Code、Claude Desktop、其MCP 客户"
+            "兼容 Claude Code、Claude Desktop、其 MCP 客户"
           ],
           useCases: [
             "PM/项目经理需要追踪历次会议决",
@@ -2666,13 +2666,13 @@ window.AI_NEWS_DATA = {
         {
           title: "Context Engineering 实战指南",
           type: "方法</ 文章",
-          description: "Anthropic、Taskade、Towards Data Science 等同步推Context Engineering 指南，强调把 prompt 之外的记忆、工具、检索、状态一起架构",
-          details: "2026 年最受关注的方法论之一。核心论点是：让 Agent 表现好，不在prompt 写得多漂亮，而在于把 Agent 的“信息环境”架构清楚——它能记住什么、能调用什么工具、检索哪个知识库、当前状态怎么传递。Anthropic 工程团队的官方文章把这套思想系统化，给出了从Agent 到多 Agent 协作的具体设计建议",
+          description: "Anthropic、Taskade、Towards Data Science 等同步推 Context Engineering 指南，强调把 prompt 之外的记忆、工具、检索、状态一起架构",
+          details: "2026年最受关注的方法论之一。核心论点是：让 Agent 表现好，不在 prompt 写得多漂亮，而在于把 Agent 的“信息环境”架构清楚——它能记住什么、能调用什么工具、检索哪个知识库、当前状态怎么传递。Anthropic 工程团队的官方文章把这套思想系统化，给出了从 Agent 到多 Agent 协作的具体设计建议",
           features: [
-            "把传prompt engineering 升级Context engineering",
+            "把传 prompt engineering 升级 Context engineering",
             "明确“记</ 工具 / 检</ 状态”四要素",
-            "给出Agent 分工context 隔离原则",
-            "解释为什么不能“把所有信息塞给所Agent",
+            "给出 Agent 分工 context 隔离原则",
+            "解释为什么不能“把所有信息塞给所 Agent",
             "含具体案例和反例分析"
           ],
           useCases: [
@@ -2689,10 +2689,10 @@ window.AI_NEWS_DATA = {
           title: "farion1231/cc-switch",
           type: "桌面工具",
           description: "跨平台桌面助手，统一管理 Claude Code、Codex、OpenCode、OpenClaw、Gemini CLI、Hermes Agent，含 Skill 一键安装、用量看板、跨应用同步",
-          details: "对于同时Claude Code 又用 Codex / Cursor / Gemini CLI 的用户来说，每个工具Skill、prompt、key 各管各的，切换起来很麻烦。cc-switch 是一个跨平台桌面 App（macOS / Windows / Linux），统一管理 6+ Coding Agent Skill 安装、prompts、用量看板、conversation 历史和工作区。本周上 GitHub Trending4 小时665 star",
+          details: "对于同时 Claude Code 又用 Codex / Cursor / Gemini CLI 的用户来说，每个工具 Skill、prompt、key 各管各的，切换起来很麻烦。cc-switch 是一个跨平台桌面 App（macOS / Windows / Linux），统一管理 6+ Coding Agent Skill 安装、prompts、用量看板、conversation 历史和工作区。本周上 GitHub Trending4 小时 665 star",
           features: [
             "统一管理 Claude Code、Codex、OpenCode、OpenClaw、Gemini CLI、Hermes Agent",
-            "Skill 一键从 GitHub 仓库ZIP 安装",
+            "Skill 一键从 GitHub 仓库 ZIP 安装",
             "Markdown prompt 编辑+ App 同步",
             "用量看板：追踪花费和 token",
             "对话历史浏览、工作区编辑、云同步、deep link"
@@ -2701,7 +2701,7 @@ window.AI_NEWS_DATA = {
             "同时在用多个 Coding Agent，想统一 Skill ",
             "需要看自己每月在不同工具上花了多少",
             "频繁切换工具时想保留对话上下",
-            "团队希望统一Skill 到所有人的本"
+            "团队希望统一 Skill 到所有人的本"
           ],
           url: "https://github.com/farion1231/cc-switch",
           source: "GitHub Trending · 2026-05",
@@ -2710,11 +2710,11 @@ window.AI_NEWS_DATA = {
         {
           title: "zilliztech/claude-context",
           type: "MCP 服务",
-          description: "用向量数据库给编Agent 提供整代码库语义搜索MCP，替代直接灌目录的笨办法",
-          details: "Zilliz（Milvus 背后公司）出MCP server，给 Claude Code / Cursor 等编Agent 加一项“按语义检索整个代码库”的能力。以前的做法要么是手动选文件喂给模型，要么grep；这MCP 会在后台用向量数据库索引整个代码库，Agent 想找“哪里实现了用户认证”就能按意图检索，不用人工铺路",
+          description: "用向量数据库给编 Agent 提供整代码库语义搜索 MCP，替代直接灌目录的笨办法",
+          details: "Zilliz（Milvus 背后公司）出 MCP server，给 Claude Code / Cursor 等编 Agent 加一项“按语义检索整个代码库”的能力。以前的做法要么是手动选文件喂给模型，要么 grep；这 MCP 会在后台用向量数据库索引整个代码库，Agent 想找“哪里实现了用户认证”就能按意图检索，不用人工铺路",
           features: [
             "向量数据库索引整个代码库",
-            "MCP server 形态，无需Agent 本体",
+            "MCP server 形态，无需 Agent 本体",
             "支持增量索引（提交后自动更新",
             "可配置过滤规则（忽略 node_modules、二进制等）",
             "兼容 Claude Code、Cursor MCP 客户"
@@ -2723,7 +2723,7 @@ window.AI_NEWS_DATA = {
             "大型代码库（几十万行）让 Agent 找不到地",
             "Agent 总是看错文件、修错位",
             "团队希望 Agent 上下文不依赖手动 @file",
-            "想给 AI 编码工具RAG 但又不想自己"
+            "想给 AI 编码工具 RAG 但又不想自己"
           ],
           url: "https://github.com/zilliztech/claude-context",
           source: "GitHub · 2026-05",
@@ -2732,8 +2732,8 @@ window.AI_NEWS_DATA = {
         {
           title: "huggingface/ml-intern",
           type: "Agent 项目",
-          description: "自动调研、编写、跑ML 代码Agent，覆Hugging Face 生态，可用最少人工监督完成微调等任务",
-          details: "Hugging Face 官方出的“机器学习实习生”Agent。给它一个任务（例如“用 LoRA Qwen 上微调一个客服模型”），它会自动调研可用模型、写训练脚本、跑通、调超参，整个流程把 Hugging Face transformers / datasets / accelerate / TRL 串起来。本质是把开ML 模型的常见套路沉淀Agent 自动化流程",
+          description: "自动调研、编写、跑 ML 代码 Agent，覆 Hugging Face 生态，可用最少人工监督完成微调等任务",
+          details: "Hugging Face 官方出的“机器学习实习生”Agent。给它一个任务（例如“用 LoRA Qwen 上微调一个客服模型”），它会自动调研可用模型、写训练脚本、跑通、调超参，整个流程把 Hugging Face transformers / datasets / accelerate / TRL 串起来。本质是把开 ML 模型的常见套路沉淀 Agent 自动化流程",
           features: [
             "自动调研：决定用哪个基模型、数据集",
             "自动写代码：训练脚本、评估脚",
@@ -2742,7 +2742,7 @@ window.AI_NEWS_DATA = {
             "深度集成 Hugging Face 生"
           ],
           useCases: [
-            "想快速试一LoRA 微调，不想从零搭管道",
+            "想快速试一 LoRA 微调，不想从零搭管道",
             "ML 工程师做 baseline 时省时间",
             "教学场景：让学生看完整的 ML 项目长什么样",
             "Hugging Face 生态熟悉但不想反复抄模"
@@ -2755,7 +2755,7 @@ window.AI_NEWS_DATA = {
           title: "K-Render/best-chinese-prompt",
           type: "中文 Prompt 模板",
           description: "中文 ChatGPT/Claude 提示词秘籍，按场景分类（写作、办公、SEO、营销等），适合做中文站长尾长内容",
-          details: "中文社区维护时间最长的 ChatGPT / Claude 提示词秘籍之一。和翻译过来的英prompt 不同，里面的角色设定、句式、约束都按中文语境写，对小红书文案、公众号长文、电商详情、SEO 文章、面试问答这种中文长尾场景特别合用",
+          details: "中文社区维护时间最长的 ChatGPT / Claude 提示词秘籍之一。和翻译过来的英 prompt 不同，里面的角色设定、句式、约束都按中文语境写，对小红书文案、公众号长文、电商详情、SEO 文章、面试问答这种中文长尾场景特别合用",
           features: [
             "按场景分类：写作、办公、营销、SEO、面试等",
             "中文母语角色设定，避免翻译腔",
@@ -2764,8 +2764,8 @@ window.AI_NEWS_DATA = {
             "适配 ChatGPT、Claude、国产模"
           ],
           useCases: [
-            "做中文内容站需要可复用prompt 模板",
-            "面向中文用户AI 工具教学",
+            "做中文内容站需要可复用 prompt 模板",
+            "面向中文用户 AI 工具教学",
             "电商/营销岗想批量产中文文",
             "面试准备：用 AI 模拟中文面试问题"
           ],
@@ -2779,8 +2779,8 @@ window.AI_NEWS_DATA = {
           name: "mattpocock/skills",
           category: "Skill 集合",
           lang: "Markdown",
-          description: "Skills for Real Engineers，直接来Matt Pocock .claude 目录",
-          details: "本周 GitHub Trending 第一。Matt Pocock 把自己在 Claude Code 上的真实工程习惯（PRD、TDD、refactor 风险、git safety）打包成 Skill 仓库开源。和大而全Skill 集合不同，这里只放他每天在用、能Claude Code 守住团队规范的少Skill，是典型的「个.claude 目录 团队 Skill 起点」路径",
+          description: "Skills for Real Engineers，直接来 Matt Pocock .claude 目录",
+          details: "本周 GitHub Trending 第一。Matt Pocock 把自己在 Claude Code 上的真实工程习惯（PRD、TDD、refactor 风险、git safety）打包成 Skill 仓库开源。和大而全 Skill 集合不同，这里只放他每天在用、能 Claude Code 守住团队规范的少 Skill，是典型的「个.claude 目录 团队 Skill 起点」路径",
           features: [
             "PRD / TDD / refactor / git safety 四类 Skill",
             "Claude Code Plugin marketplace 直接安装",
@@ -2804,19 +2804,19 @@ window.AI_NEWS_DATA = {
           category: "Coding Agent",
           lang: "TypeScript",
           description: "本周 AI 编码 Agent 中增长最快的开源项目",
-          details: "OpenCode Claude Code 风格 Coding Agent 的开源版本：终端形态、读懂代码库、执行任务、git 工作流，但完全开源、可自部署、支持任意模型后端。本周单+1,589 star，受 Anthropic Skill 生态扩散带动。适合既想Claude Code 体验又想用别家模型（OpenAI、本地模型、自API）的人",
+          details: "OpenCode Claude Code 风格 Coding Agent 的开源版本：终端形态、读懂代码库、执行任务、git 工作流，但完全开源、可自部署、支持任意模型后端。本周单+1,589 star，受 Anthropic Skill 生态扩散带动。适合既想 Claude Code 体验又想用别家模型（OpenAI、本地模型、自 API）的人",
           features: [
-            "Claude Code 风格的终Coding Agent",
+            "Claude Code 风格的终 Coding Agent",
             "完全开源，支持自托",
             "模型后端可换：OpenAI / Anthropic / 本地",
             "工具调用、git 操作、文件编辑齐",
-            "兼容大部Claude Code 风格 Skill"
+            "兼容大部 Claude Code 风格 Skill"
           ],
           quickStart: [
             "npm i -g opencode 或从 release 下载二进",
             "配置 API key（OpenAI / Anthropic / Ollama 等）",
-            "在项目目录运opencode 进入交互Agent",
-            "可挂Skill 仓库扩展能力"
+            "在项目目录运 opencode 进入交互 Agent",
+            "可挂 Skill 仓库扩展能力"
           ],
           why: "OpenCode Claude Code 风格 Coding Agent 的开源版本，Anthropic 生态扩散带动",
           url: "https://github.com/anomalyco/opencode",
@@ -2828,13 +2828,13 @@ window.AI_NEWS_DATA = {
           category: "本地推理",
           lang: "C++",
           description: "本地推理引擎，跨 CPU/GPU/Apple Silicon，社区基石",
-          details: "整个本地 LLM 生态最重要的项目之一。把 LLaMA 系模型量化、压缩、放到普通笔记本上跑得动，并衍生GGUF 格式标准。Ollama、LM Studio、open-webui 这些用户级工具底层都靠它。本+605 star 来自持续推出的多模态支持和新模型适配",
+          details: "整个本地 LLM 生态最重要的项目之一。把 LLaMA 系模型量化、压缩、放到普通笔记本上跑得动，并衍生 GGUF 格式标准。Ollama、LM Studio、open-webui 这些用户级工具底层都靠它。本+605 star 来自持续推出的多模态支持和新模型适配",
           features: [
             "GGUF 格式标准的发源地",
             "支持 CPU / CUDA / Metal / ROCm / Vulkan",
             "多模态推理（图像、音频）逐步完善",
             "工具链：量化、转换、benchmark 全套",
-            "C++ 实现，绑定覆Python / Go / Rust"
+            "C++ 实现，绑定覆 Python / Go / Rust"
           ],
           quickStart: [
             "clone 仓库后用 make cmake 编译",
@@ -2842,7 +2842,7 @@ window.AI_NEWS_DATA = {
             "./llama-cli -m model.gguf -p \"你的 prompt\" 跑",
             "进阶：用 llama-server OpenAI 兼容接口"
           ],
-          why: "本周 +605 star，本LLM 部署不可绕开",
+          why: "本周 +605 star，本 LLM 部署不可绕开",
           url: "https://github.com/ggml-org/llama.cpp",
           stars: "+605 / 周（90.3k",
           source: "OSSInsight · 2026-05-22"
@@ -2851,8 +2851,8 @@ window.AI_NEWS_DATA = {
           name: "open-webui/open-webui",
           category: "本地 LLM UI",
           lang: "JavaScript",
-          description: "本地大模型自托管 UI，集RAG、文档、Ollama",
-          details: "面向终端用户的本地大模型 Web UI，可以理解为「本地版 ChatGPT」。支Ollama 后端、多用户、RAG、文档上传、对话历史、自定义模型。本+480 star，本地化部署的非技术用户增长持续",
+          description: "本地大模型自托管 UI，集 RAG、文档、Ollama",
+          details: "面向终端用户的本地大模型 Web UI，可以理解为「本地版 ChatGPT」。支 Ollama 后端、多用户、RAG、文档上传、对话历史、自定义模型。本+480 star，本地化部署的非技术用户增长持续",
           features: [
             "ChatGPT 风格 Web UI",
             "原生集成 Ollama 后端",
@@ -2890,7 +2890,7 @@ window.AI_NEWS_DATA = {
             "cmd+/ 触发 AI 编辑",
             "邀请同事建协作 session"
           ],
-          why: "本周 +411 star，作VS Code 替代AI-first 编辑器代表",
+          why: "本周 +411 star，作 VS Code 替代 AI-first 编辑器代表",
           url: "https://github.com/zed-industries/zed",
           stars: "+411 / 周（68.5k",
           source: "OSSInsight · 2026-05-22"
@@ -2900,9 +2900,9 @@ window.AI_NEWS_DATA = {
           category: "LLM 应用平台",
           lang: "TypeScript",
           description: "LLM 应用开发平台，可视化工作流 + RAG + Agent",
-          details: "国产开LLM 应用平台一线项目。提供可视化拖拽搭建 RAG 应用、Agent 工作流、Chatbot，含模型管理、知识库管理、API 暴露。可云端 SaaS 也可自部署。适合不想从零写代码但要做企业LLM 应用的团队",
+          details: "国产开 LLM 应用平台一线项目。提供可视化拖拽搭建 RAG 应用、Agent 工作流、Chatbot，含模型管理、知识库管理、API 暴露。可云端 SaaS 也可自部署。适合不想从零写代码但要做企业 LLM 应用的团队",
           features: [
-            "可视化拖拽搭LLM 应用",
+            "可视化拖拽搭 LLM 应用",
             "内置 RAG 知识库、多文档管理",
             "Agent 工作流：工具调用 + 多步推理",
             "支持 OpenAI、Anthropic、本地模型、国产模",
@@ -2910,11 +2910,11 @@ window.AI_NEWS_DATA = {
           ],
           quickStart: [
             "docker compose up -d 起本地服",
-            "或注dify.ai 直接用云端版",
+            "或注 dify.ai 直接用云端版",
             "在控制台创建应用 选模上传知识",
             "用低代码节点拖拽出工作流"
           ],
-          why: "本周 +361 star，国产开LLM 平台一线",
+          why: "本周 +361 star，国产开 LLM 平台一线",
           url: "https://github.com/langgenius/dify",
           stars: "+361 / 周（111.3k",
           source: "OSSInsight · 2026-05-22"
@@ -2923,8 +2923,8 @@ window.AI_NEWS_DATA = {
           name: "vllm-project/vllm",
           category: "推理引擎",
           lang: "Python",
-          description: "高吞LLM 推理服务，业界部署主力",
-          details: "UC Berkeley 出的高吞LLM 推理引擎，核心算PagedAttention 让显存利用率和吞吐都大幅提升。是当前企业生产环境部署 LLM 的事实标准之一，OpenAI 兼容 API 让现有代码无缝接入。本+275 star",
+          description: "高吞 LLM 推理服务，业界部署主力",
+          details: "UC Berkeley 出的高吞 LLM 推理引擎，核心算 PagedAttention 让显存利用率和吞吐都大幅提升。是当前企业生产环境部署 LLM 的事实标准之一，OpenAI 兼容 API 让现有代码无缝接入。本+275 star",
           features: [
             "PagedAttention 算法，显存利用率",
             "高并发吞吐量业界领先",
@@ -2947,19 +2947,19 @@ window.AI_NEWS_DATA = {
           name: "ollama/ollama",
           category: "本地推理",
           lang: "Go",
-          description: "本地一行命令跑 LLM，覆macOS/Linux/Windows",
-          details: "本地大模型部署「零门槛」代表。用 Go 写的单二进制，`ollama run llama3` 一行命令拉模型 + 跑起来。底层基llama.cpp，提OpenAI 兼容 API。本+258 star，是 open-webui / Continue / Page Assist 等用户级 AI 工具的默认后端",
+          description: "本地一行命令跑 LLM，覆 macOS/Linux/Windows",
+          details: "本地大模型部署「零门槛」代表。用 Go 写的单二进制，`ollama run llama3` 一行命令拉模型 + 跑起来。底层基 llama.cpp，提 OpenAI 兼容 API。本+258 star，是 open-webui / Continue / Page Assist 等用户级 AI 工具的默认后端",
           features: [
             "一行命令拉模型 + 启动",
             "OpenAI 兼容 API",
             "macOS / Linux / Windows 全覆",
-            "支持自定Modelfile（类Dockerfile",
+            "支持自定 Modelfile（类 Dockerfile",
             "模型 hub：llama3、Qwen、Gemma、DeepSeek "
           ],
           quickStart: [
             "ollama.com 下载安装",
-            "ollama run llama3 启动一个模",
-            "其他工具http://localhost:11434 调用",
+            "ollama run llama3 启动一个模型",
+            "其他工具用 http://localhost:11434 调用",
             "ollama create 自定义系统提示词"
           ],
           why: "本周 +258 star，普通用户本地化部署最简方案",
@@ -2972,11 +2972,11 @@ window.AI_NEWS_DATA = {
           category: "Agent 框架",
           lang: "Python",
           description: "LLM 应用框架，链/Agent/Memory/工具调用都有",
-          details: "LLM 应用开发的最老牌 Python 框架之一。提Chain、Agent、Memory、Tool、Retriever、Document loader 等抽象，让你不用从头prompt 模型 解析 工具调用 的胶水代码。配LangGraph（状态机Agent）、LangSmith（可观测性）。本+252 star",
+          details: "LLM 应用开发的最老牌 Python 框架之一。提 Chain、Agent、Memory、Tool、Retriever、Document loader 等抽象，让你不用从头 prompt 模型 解析 工具调用 的胶水代码。配 LangGraph（状态机 Agent）、LangSmith（可观测性）。本+252 star",
           features: [
             "Chain / Agent / Memory / Tool 抽象",
             "200+ 模型与工具集",
-            "LangGraph 做状态机式多Agent",
+            "LangGraph 做状态机式多 Agent",
             "LangSmith 做调试和可观",
             "活跃社区、文档齐"
           ],
@@ -2995,8 +2995,8 @@ window.AI_NEWS_DATA = {
           name: "infiniflow/ragflow",
           category: "RAG 引擎",
           lang: "Python",
-          description: "面向企业RAG 引擎，强在文档解析和评测",
-          details: "国产开RAG 引擎，强项在复杂文档解析（表格、扫描件、版式恢复）和检索评测。比一LangChain 风格 RAG 多了「深度文档理解」，对真实企业资料的处理更稳。本+236 star，国RAG 头部项目之一",
+          description: "面向企业 RAG 引擎，强在文档解析和评测",
+          details: "国产开 RAG 引擎，强项在复杂文档解析（表格、扫描件、版式恢复）和检索评测。比一 LangChain 风格 RAG 多了「深度文档理解」，对真实企业资料的处理更稳。本+236 star，国 RAG 头部项目之一",
           features: [
             "深度文档解析：表格、扫描件、版",
             "向量+全文+知识图谱混合检",
@@ -3010,7 +3010,7 @@ window.AI_NEWS_DATA = {
             "上传文档建知识库",
             "创建 chat assistant 选模+ 知识"
           ],
-          why: "本周 +236 star，国RAG 头部项目",
+          why: "本周 +236 star，国 RAG 头部项目",
           url: "https://github.com/infiniflow/ragflow",
           stars: "+236 / 周（61.4k",
           source: "OSSInsight · 2026-05-22"
@@ -3019,8 +3019,8 @@ window.AI_NEWS_DATA = {
           name: "All-Hands-AI/OpenHands",
           category: "Coding Agent",
           lang: "Python",
-          description: "通用 Coding Agent 平台（前OpenDevin）",
-          details: "前身 OpenDevin，是开Coding Agent 的代表项目之一。架构上比终Coding Agent 更「重」，提供 Web UI、沙箱环境、文件浏览器、浏览器自动化，可处理复杂多步工程任务。本+219 star，社区一直在补功能",
+          description: "通用 Coding Agent 平台（前 OpenDevin）",
+          details: "前身 OpenDevin，是开 Coding Agent 的代表项目之一。架构上比终 Coding Agent 更「重」，提供 Web UI、沙箱环境、文件浏览器、浏览器自动化，可处理复杂多步工程任务。本+219 star，社区一直在补功能",
           features: [
             "Web UI + Docker 沙箱环境",
             "支持浏览器自动化（不只是写代码）",
@@ -3034,7 +3034,7 @@ window.AI_NEWS_DATA = {
             "配置模型 API key",
             "给一个完整需求，让它在沙箱里完成"
           ],
-          why: "本周 +219 star，开Coding Agent 重要力量",
+          why: "本周 +219 star，开 Coding Agent 重要力量",
           url: "https://github.com/All-Hands-AI/OpenHands",
           stars: "+219 / 周（60.5k",
           source: "OSSInsight · 2026-05-22"
@@ -3044,16 +3044,16 @@ window.AI_NEWS_DATA = {
           category: "MCP 服务",
           lang: "TypeScript",
           description: "MCP 官方服务端实现集合，Claude/Cursor/Cline 通用",
-          details: "Anthropic 牵头MCP（Model Context Protocol）官方服务端实现合集。把「AI 工具调用外部系统」的接入标准化，Claude / Cursor / Cline 等客户端可以无差别接同一MCP server（Filesystem、Git、Postgres、Slack、Brave Search、Memory 等）。本+178 star，生态稳定扩张",
+          details: "Anthropic 牵头 MCP（Model Context Protocol）官方服务端实现合集。把「AI 工具调用外部系统」的接入标准化，Claude / Cursor / Cline 等客户端可以无差别接同一 MCP server（Filesystem、Git、Postgres、Slack、Brave Search、Memory 等）。本+178 star，生态稳定扩张",
           features: [
             "官方 MCP server 实现集合（Filesystem、Git、Postgres 等）",
             "TypeScript + Python 双语言示例",
             "标准协议，兼容多客户",
-            "可作为自MCP server 的模",
+            "可作为自 MCP server 的模",
             "持续接入新的常用工具"
           ],
           quickStart: [
-            "选一server（如 filesystem）按 README 安装",
+            "选一 server（如 filesystem）按 README 安装",
             "Claude Desktop claude_desktop_config.json 注册",
             "重启 Claude，新工具就出现在工具",
             "server 模板 fork 出自己的 MCP 服务"
@@ -3067,8 +3067,8 @@ window.AI_NEWS_DATA = {
           name: "AIDC-AI/Pixelle-Video",
           category: "视频生成",
           lang: "Python",
-          description: "端到端视频生pipeline：脚画面 配音 配乐 合成",
-          details: "阿里 AIDC-AI 出的端到AI 视频生成 pipeline。输入一个主题，它会写脚本、生成画面、合成配音、选配乐、最后合成成片。把「做一AI 视频」从手动串多个工具变成全自动流程。9.2k star，本周新晋视频自动化项目",
+          description: "端到端视频生 pipeline：脚画面 配音 配乐 合成",
+          details: "阿里 AIDC-AI 出的端到 AI 视频生成 pipeline。输入一个主题，它会写脚本、生成画面、合成配音、选配乐、最后合成成片。把「做一 AI 视频」从手动串多个工具变成全自动流程。9.2k star，本周新晋视频自动化项目",
           features: [
             "脚本自动生成（含分镜",
             "视觉生成（图</ 视频模型可换",
@@ -3079,7 +3079,7 @@ window.AI_NEWS_DATA = {
           quickStart: [
             "git clone + pip install -r requirements.txt",
             "配置画面 / TTS / BGM 模型 API",
-            "给一个主prompt 跑端到端",
+            "给一个主 prompt 跑端到端",
             "demo 工程里看示例视频"
           ],
           why: "本周新晋视频生成自动化项目，9.2k star",

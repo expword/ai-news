@@ -63,12 +63,41 @@ http://127.0.0.1:5179/api/admin/run-all?token=你的ADMIN_TOKEN
 `.env`：
 
 ```env
-DAILY_TIME=09:10
-WEEKLY_DAY=1
+CRAWL_INTERVAL_MINUTES=10   # 每 10 分钟采集一次（抓取+评分+精选+滚动日报）
+DAILY_REPORT_TIME=00:00     # 每天 0 点把"昨天"的精选固化成带日期的日报
+WEEKLY_DAY=1                # 每周几跑周报（周一=1 … 周日=7）
 WEEKLY_TIME=09:30
 ```
 
-`WEEKLY_DAY` 使用 Python 星期习惯：周一是 `1`，周日是 `7`。
+- **间隔采集**：每 `CRAWL_INTERVAL_MINUTES` 分钟跑一次。已采集过的 URL 不会重复送 LLM，
+  所以高频采集只处理新增条目，成本可控。状态存在 `data/scheduler-state.json`，频繁重启不会重复触发；
+  首次启动会跑一次。
+- **每日 0 点固化**：到 `DAILY_REPORT_TIME` 时，把昨天发布且精选的条目固化成一份带日期的日报，
+  存入 `dailyReports` 归档（类似 AIHOT 的 /daily/{date}），前端日报页读取。
+- **手动固化**：`python backend/backend.py report [YYYY-MM-DD]` 或 `GET /api/admin/freeze-report?token=…`。
+
+## 5.1 自动推送到 GitHub（配合 Vercel 自动部署）
+
+网页用 Vercel 部署时，只要 GitHub 仓库收到 push，Vercel 就会自动重新构建。
+后端可以在每次生成新数据后自动提交并推送，实现"常驻采集 → 自动上线"。
+
+`.env`：
+
+```env
+AUTO_GIT_PUSH=1              # 开启自动推送（常驻运行的电脑上设为 1）
+GIT_PUSH_INTERVAL_MINUTES=60 # 推送节流：至少间隔多少分钟推一次，避免 Vercel 频繁重建
+GIT_REMOTE=origin
+GIT_BRANCH=main
+```
+
+要点：
+
+- **只提交数据文件**：自动推送只 `git add data/ assets/data/`，不会把你本地其他改动一起提交。
+- **没变化不推送**：数据没实际变化时跳过提交和推送。
+- **频率解耦**：采集可以每 10 分钟一次，但推送按 `GIT_PUSH_INTERVAL_MINUTES` 节流，
+  Vercel 免费版每天构建次数有限，建议推送间隔 ≥ 30~60 分钟。
+- **需要 git 凭证**：常驻电脑上要先配好推送凭证（HTTPS 用 Personal Access Token + 凭证管理器，或 SSH key），
+  否则 `git push` 会失败（日志会打印 `[git] push failed`）。
 
 ## 6. 可接入的免费搜索/新闻源
 

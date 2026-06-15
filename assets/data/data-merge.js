@@ -53,6 +53,10 @@
 
   base.lastUpdated = generated.lastUpdated || base.lastUpdated;
   base.news = mergeBy(base.news, generated.news, (item) => `${item.title}|${item.url || ""}`);
+  // AI 日报（后端预计算分桶，前端直接用）：滚动最新 + 带日期归档
+  if (generated.dailyReport) base.dailyReport = generated.dailyReport;
+  if (generated.dailyReports) base.dailyReports = generated.dailyReports;
+  if (generated.llmLeaderboard) base.llmLeaderboard = generated.llmLeaderboard;
   base.sources = mergeBy(base.sources, generated.sources, (item) => `${item.name}|${item.url}`);
   base.githubWeekly = mergeBy(base.githubWeekly, generated.githubWeekly, (item) => item.name || item.url);
   base.weeklyDigests = mergeWeeklyDigests(base.weeklyDigests, generated.weeklyDigests);

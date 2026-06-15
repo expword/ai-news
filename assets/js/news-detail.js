@@ -9,7 +9,6 @@
   const categoryChip = document.querySelector("#newsCategoryChip");
   const dateChip = document.querySelector("#newsDateChip");
   const sourceChip = document.querySelector("#newsSourceChip");
-  const ctaTop = document.querySelector("#newsSourceCtaTop");
   const ctaSide = document.querySelector("#newsSourceCtaSide");
   const tldrEl = document.querySelector("#newsTldr");
   const keyPointsTop = document.querySelector("#newsKeyPointsTop");
@@ -34,11 +33,11 @@
     return (data.news || []).find((it) => slugOf(it) === decoded) || (data.news || [])[0];
   }
 
-  // 判断文本是否实质性非空（去掉占位、过短、和 summary 完全重复的情况）
+  // 实质性检查：有 10 字以上就算；不和 summary 完全相同；不是已知占位
   function isSubstantive(text, summary) {
     if (!text || typeof text !== "string") return false;
     const t = text.trim();
-    if (t.length < 20) return false;
+    if (t.length < 10) return false;
     if (summary && t === summary.trim()) return false;
     if (t.includes("自动采集到的 AI 相关信息")) return false;
     return true;
@@ -98,10 +97,7 @@
   const audience = nonEmptyList(item.audience);
   const useCases = nonEmptyList(item.useCases || item.scenarios);
   const risks = nonEmptyList(item.risks);
-  const contentIdeas = nonEmptyList(item.contentIdeas);
-  const nextActions = nonEmptyList(item.nextActions);
-  const moduleTargets = nonEmptyList(item.moduleTargets);
-  const routeReason = isSubstantive(item.routeReason, summary) ? item.routeReason : "";
+  const originalContent = isSubstantive(item.originalContent, summary) ? item.originalContent : "";
   const url = item.url || "";
 
   // === HERO ===
@@ -114,10 +110,8 @@
   sourceChip.textContent = item.source ? `🔗 ${item.source}` : "";
 
   if (url && !url.startsWith("#")) {
-    ctaTop.href = url;
     ctaSide.href = url;
   } else {
-    ctaTop.style.display = "none";
     ctaSide.style.display = "none";
   }
 
@@ -131,8 +125,17 @@
   // === BODY：只显示有实质内容的 section ===
   const blocks = [];
 
-  if (background) {
-    blocks.push(block("info", "📰", "解读", `<p class="detail-paragraph">${background}</p>`));
+  // 解读：优先用 background；否则用 keyPoints 拼成一段。
+  // 注意：每条 keyPoint 通常自带句末标点，拼接前先去掉，避免出现 "。；" 或 "。。"
+  let interpretText = background;
+  if (!interpretText && keyPoints.length >= 2) {
+    const cleaned = keyPoints
+      .map((k) => String(k).trim().replace(/[。；，！？、,;.!?]+$/u, ""))
+      .filter(Boolean);
+    interpretText = cleaned.join("；") + "。";
+  }
+  if (interpretText) {
+    blocks.push(block("info", "📰", "解读", `<p class="detail-paragraph">${interpretText}</p>`));
   }
 
   if (impact) {
@@ -164,40 +167,35 @@
     blocks.push(block("warn", "⚠️", "注意", bullets(risks, "warn-list")));
   }
 
-  if (contentIdeas.length || nextActions.length) {
+  if (originalContent) {
+    // 原文来自任意外站，必须 HTML 转义防 XSS
+    const escape = (s) =>
+      String(s)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#39;");
+    const paragraphs = originalContent
+      .split(/\n\n+|\r\n\r\n+/)
+      .map((s) => s.trim())
+      .filter(Boolean);
+    const html = (paragraphs.length ? paragraphs : [originalContent])
+      .map((p) => `<p class="detail-paragraph">${escape(p)}</p>`)
+      .join("");
     blocks.push(`
-      <section class="detail-block tone-info detail-dual">
-        <div class="detail-dual-col">
-          <div class="detail-block-head">
-            <span class="detail-block-icon">🧩</span>
-            <h2>可延伸选题</h2>
-          </div>
-          ${contentIdeas.length ? bullets(contentIdeas, "dot-list") : '<p class="muted-text">未注明</p>'}
-        </div>
-        <div class="detail-dual-col">
-          <div class="detail-block-head">
-            <span class="detail-block-icon">✅</span>
-            <h2>下一步</h2>
-          </div>
-          ${nextActions.length ? bullets(nextActions, "dot-list") : '<p class="muted-text">未注明</p>'}
-        </div>
-      </section>
+      <details class="detail-block tone-soft detail-original">
+        <summary class="detail-block-head detail-original-summary">
+          <span class="detail-block-icon">📄</span>
+          <h2>原文内容</h2>
+          <span class="detail-original-hint">点击展开 / 收起</span>
+        </summary>
+        <div class="detail-block-body detail-original-body">${html}</div>
+      </details>
     `);
   }
 
-  if (moduleTargets.length || routeReason) {
-    blocks.push(block(
-      "neutral",
-      "📌",
-      "分发到哪里",
-      `
-        ${moduleTargets.length ? bullets(moduleTargets, "dot-list") : ""}
-        ${routeReason ? `<p class="detail-paragraph">${routeReason}</p>` : ""}
-      `
-    ));
-  }
-
-  if (!background && !impact && !audience.length && !useCases.length && !risks.length && !contentIdeas.length && !nextActions.length) {
+  if (!background && !impact && !audience.length && !useCases.length && !risks.length && !originalContent) {
     blocks.push(`
       <section class="detail-block tone-soft">
         <div class="detail-block-head">
@@ -209,19 +207,6 @@
     `);
   }
 
-  if (url && !url.startsWith("#")) {
-    blocks.push(`
-      <section class="detail-cta-block">
-        <h2>原文</h2>
-        <a class="btn-primary btn-large" href="${url}" target="_blank" rel="noopener">查看原文 →</a>
-      </section>
-    `);
-  }
-
-  blocks.push(`
-    <p class="detail-disclaimer">本页内容由 AI 整理，关键信息以原文为准。</p>
-  `);
-
   bodyEl.innerHTML = blocks.join("");
 
   // === SIDE META ===
@@ -229,7 +214,6 @@
     { k: "日期", v: item.date || "—" },
     { k: "分类", v: category },
     { k: "来源", v: item.source || "—" },
-    { k: "模块", v: moduleTargets.join("、") || "news" },
     { k: "标签", v: (item.tags || []).join("、") || "—" },
   ].map((m) => `<div><dt>${m.k}</dt><dd>${m.v}</dd></div>`).join("");
 

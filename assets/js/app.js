@@ -3,7 +3,10 @@
   const state = {
     category: "all",
     query: "",
-    sort: "newest"
+    sort: "score",
+    mode: "selected", // selected = 只看精选；all = 全部资讯
+    skillCat: "all",  // 热门 Skill 的分类筛选
+    llmType: "all"    // 大模型榜单：全部/商用/开源
   };
 
   const lastUpdated = document.querySelector("#lastUpdated");
@@ -138,10 +141,28 @@
   ];
 
   function formatDate(dateValue) {
+    const d = new Date(dateValue);
+    if (isNaN(d.getTime())) return dateValue || "";
     return new Intl.DateTimeFormat("zh-CN", {
       month: "2-digit",
       day: "2-digit"
-    }).format(new Date(dateValue));
+    }).format(d);
+  }
+
+  // 显示发布时间：有 publishedAt（精确到分钟）则显示 "MM-DD HH:MM"，否则只显示日期
+  function formatWhen(item) {
+    const pa = item.publishedAt;
+    if (pa) {
+      const d = new Date(pa);
+      if (!isNaN(d.getTime())) {
+        const mm = String(d.getMonth() + 1).padStart(2, "0");
+        const dd = String(d.getDate()).padStart(2, "0");
+        const hh = String(d.getHours()).padStart(2, "0");
+        const mi = String(d.getMinutes()).padStart(2, "0");
+        return `${mm}-${dd} ${hh}:${mi}`;
+      }
+    }
+    return formatDate(item.date);
   }
 
   function getCategoryName(id) {
@@ -447,21 +468,68 @@
     detailModal.setAttribute("aria-hidden", "true");
   }
 
-  function getFilteredNews() {
-    const items = data.news.filter((item) => {
-      const inCategory = state.category === "all" || item.category === state.category;
-      return inCategory && matchesQuery(item);
+  // 标题归一化：用于前端兜底去重（后端已聚类，这里再防 base/generated 跨源近重复）
+  function titleKey(item) {
+    return String(item.title || "")
+      .toLowerCase()
+      .replace(/[\s\-_:：，。、！？!?.,（）()【】\[\]"'`]/g, "")
+      .slice(0, 40);
+  }
+
+  function dedupeByTitle(items) {
+    const seen = new Set();
+    return items.filter((item) => {
+      const k = titleKey(item) || (item.url || "");
+      if (!k || seen.has(k)) return false;
+      seen.add(k);
+      return true;
     });
+  }
+
+  // 取"当天"内容：有今天的就只看今天；今天还没有（如本地旧数据）则回退到最近一天
+  function recentWindow(items) {
+    const dateOf = (it) => String(it.date || "").slice(0, 10);
+    const dates = items.map(dateOf).filter(Boolean).sort();
+    if (!dates.length) return items;
+    const latest = dates[dates.length - 1];
+    const todayStr = new Date().toISOString().slice(0, 10);
+    const target = latest >= todayStr ? todayStr : latest; // 有今天用今天，否则用最近一天
+    const sameDay = items.filter((it) => dateOf(it) === target);
+    return sameDay.length ? sameDay : items;
+  }
+
+  function getFilteredNews() {
+    let items = data.news.filter((item) => {
+      const inCategory = state.category === "all" || item.category === state.category;
+      const inMode = state.mode === "all" || item.aiSelected;
+      return inCategory && inMode && matchesQuery(item);
+    });
+
+    // 首页聚焦当天（全部模式 / 搜索时不收窄，方便回看）
+    if (state.mode === "selected" && !state.query.trim()) {
+      items = recentWindow(items);
+    }
+
+    items = dedupeByTitle(items);
 
     return items.sort((a, b) => {
       if (state.sort === "source") {
-        return a.source.localeCompare(b.source, "zh-CN");
+        return (a.source || "").localeCompare(b.source || "", "zh-CN");
       }
-      return new Date(b.date) - new Date(a.date);
+      if (state.sort === "newest") {
+        return new Date(b.date || 0) - new Date(a.date || 0);
+      }
+      // 默认：精选优先 → 分数高优先 → 日期新优先
+      const selDiff = (b.aiSelected ? 1 : 0) - (a.aiSelected ? 1 : 0);
+      if (selDiff) return selDiff;
+      const scoreDiff = (b.score || 0) - (a.score || 0);
+      if (scoreDiff) return scoreDiff;
+      return new Date(b.date || 0) - new Date(a.date || 0);
     });
   }
 
   function renderTopics() {
+    if (!topicGrid) return;
     const channels = data.homeChannels || data.topics;
     const items = channels
       .filter((topic) =>
@@ -519,45 +587,65 @@
       .join("");
   }
 
+  function skillCard(s) {
+    const href = s.url || "/pages/skills.html";
+    const tags = (s.tags || s.keywords || []).slice(0, 3);
+    return `
+      <a class="card-link" href="${href}" target="_blank" rel="noopener">
+        <article class="skill-card">
+          <div>
+            <strong>${s.title}</strong>
+            <span>${s.type || s.level || "Skill"}</span>
+          </div>
+          <p>${s.description || ""}</p>
+          <div class="tag-row">
+            ${tags.map((t) => `<span class="tag">${t}</span>`).join("")}
+          </div>
+        </article>
+      </a>`;
+  }
+
   function renderSkills() {
-    const latest = (data.weeklyDigests || []).find((week) => week.skills && week.skills.length);
-    if (!latest && !(data.skillRecommendations || []).length) {
-      skillGrid.innerHTML = '<div class="empty-state">暂无本周 Skill</div>';
+    if (!skillGrid) return;
+    // 优先用 skillRecommendations（已分类的 100 个）；为空再退回本周 digest
+    let source = data.skillRecommendations || [];
+    if (!source.length) {
+      const wk = (data.weeklyDigests || []).find((w) => w.skills && w.skills.length);
+      source = wk ? wk.skills : [];
+    }
+    source = source.filter((s) => includesQuery([s.title, s.type, s.description, ...(s.tags || [])]));
+    if (!source.length) {
+      skillGrid.innerHTML = '<div class="empty-state">暂无 Skill</div>';
       return;
     }
-    const useWeeklySkills = Boolean(latest);
-    const sourceSkills = useWeeklySkills ? latest.skills || [] : data.skillRecommendations || [];
-    const skills = sourceSkills
-      .filter((s) => includesQuery([s.title, s.type, s.description, ...(s.tags || [])]))
-      .slice(0, 3);
-    const items = skills
-      .map(
-        (s) => {
-          const href = useWeeklySkills
-            ? `/pages/skill-item.html?week=${latest.weekId}&i=${sourceSkills.indexOf(s)}`
-            : s.url || "/pages/skills.html";
-          return `
-          <a class="card-link" href="${href}">
-            <article class="skill-card">
-              <div>
-                <strong>${s.title}</strong>
-                <span>${s.type || s.level || "Skill"}</span>
-              </div>
-              <p>${s.description}</p>
-              <div class="tag-row">
-                ${(s.tags || s.keywords || []).map((t) => `<span class="tag">${t}</span>`).join("")}
-              </div>
-            </article>
-          </a>
-        `;
-        }
-      )
+
+    // 按分类分组
+    const groups = {};
+    source.forEach((s) => {
+      const cat = s.type || "其他";
+      (groups[cat] = groups[cat] || []).push(s);
+    });
+    const cats = Object.keys(groups).sort((a, b) => groups[b].length - groups[a].length);
+
+    // 分类筛选 chips
+    const chips = [`<button class="skill-cat${state.skillCat === "all" ? " is-active" : ""}" data-skillcat="all">全部 <small>${source.length}</small></button>`]
+      .concat(cats.map((c) => `<button class="skill-cat${state.skillCat === c ? " is-active" : ""}" data-skillcat="${c}">${c} <small>${groups[c].length}</small></button>`))
       .join("");
 
-    skillGrid.innerHTML = items || '<div class="empty-state">没有匹配Skill</div>';
+    const showCats = state.skillCat === "all" ? cats : cats.filter((c) => c === state.skillCat);
+    const body = showCats
+      .map((c) => `
+        <div class="skill-group">
+          <h3 class="skill-group-head">${c} <small>${groups[c].length}</small></h3>
+          <div class="skill-grid">${groups[c].map(skillCard).join("")}</div>
+        </div>`)
+      .join("");
+
+    skillGrid.innerHTML = `<div class="skill-cats">${chips}</div>${body}`;
   }
 
   function renderGithubWeekly() {
+    if (!githubGrid) return;
     const latest = (data.weeklyDigests || [])[0];
     if (!latest) {
       githubGrid.innerHTML = '<div class="empty-state">暂无本周 GitHub</div>';
@@ -588,13 +676,14 @@
   }
 
   function renderBenchmark() {
+    if (!benchmarkBoardGrid && !benchmarkDatasetGrid && !rankTableBody) return;
     const slugOf = window.boardSlugByTitle || ((t) => t);
     if (benchmarkBoardGrid && benchmarkDatasetGrid) {
       benchmarkBoardGrid.innerHTML = data.benchmarkBoards
         .filter((item) =>
           hasCompleteTop20(item) && includesQuery([item.title, item.type, item.description, item.source, ...item.datasets])
         )
-        .slice(0, expandedLists.has("benchmarkBoardGrid") ? 24 : 6)
+        .slice(0, expandedLists.has("benchmarkBoardGrid") ? 60 : 24)
         .map((item) => {
           const href = `/pages/board.html?id=${slugOf(item.title)}`;
           return `
@@ -617,7 +706,7 @@
 
       benchmarkDatasetGrid.innerHTML = data.benchmarkDatasets
         .filter((item) => includesQuery([item.name, item.area, item.note, item.source]))
-        .slice(0, expandedLists.has("benchmarkDatasetGrid") ? 24 : 8)
+        .slice(0, expandedLists.has("benchmarkDatasetGrid") ? 60 : 24)
         .map((item) => {
           const detailKey = Object.keys(data.datasetDetails || {}).find(
             (key) => data.datasetDetails[key].title === item.name
@@ -679,6 +768,7 @@
   }
 
   function renderNews() {
+    if (!newsGrid) return;
     const items = getFilteredNews();
 
     if (!items.length) {
@@ -686,18 +776,30 @@
       return;
     }
 
-    const limit = expandedLists.has("newsGrid") ? 24 : 4;
-    const cards = items.slice(0, limit).map((item) => {
+    const limit = expandedLists.has("newsGrid") ? 30 : 12;
+    const cards = items.slice(0, limit).map((item, idx) => {
       const href = newsDetailHref(item);
+      const score = Number(item.score) || 0;
+      const scoreBadge = score
+        ? `<span class="score-badge is-selected" title="综合质量分（0-100）：由模型多维打分 × 信源等级算出，越高越值得看">质量 ${score}</span>`
+        : "";
+      const srcCount = Number(item.sourceCount) || 1;
+      const srcBadge = srcCount > 1 ? `<span class="src-count" title="被 ${srcCount} 个信源报道">${srcCount} 信源</span>` : "";
+      const reason = (item.reason || item.impact || "").trim();
+      const reasonLine = reason ? `<p class="news-reason"><strong>推荐理由：</strong>${reason.slice(0, 80)}</p>` : "";
       return `
         <a class="card-link" href="${href}">
-          <article class="news-card">
+          <article class="news-card${item.aiSelected ? " news-card--selected" : ""}">
             <div class="card-meta">
-              <time datetime="${item.date}">${formatDate(item.date)}</time>
+              <span class="news-rank">#${idx + 1}</span>
+              <time datetime="${item.publishedAt || item.date}">${formatWhen(item)}</time>
               <span>${getCategoryName(item.category)}</span>
+              ${srcBadge}
+              ${scoreBadge}
             </div>
             <h3>${item.title}</h3>
             <p>${item.summary}</p>
+            ${reasonLine}
             <div class="tag-row">
               ${(item.tags || []).map((tag) => `<span class="tag">${tag}</span>`).join("")}
             </div>
@@ -710,7 +812,73 @@
     newsGrid.innerHTML = cards.join("");
   }
 
+  // 每天最重要的 5 条：当天（或最近一天）精选里质量分最高的 5 条
+  function renderTop5() {
+    const list = document.querySelector("#top5List");
+    if (!list) return;
+    let items = (data.news || []).filter((n) => n.aiSelected !== false);
+    items = recentWindow(items);
+    items = dedupeByTitle(items)
+      .slice()
+      .sort((a, b) => (b.score || 0) - (a.score || 0))
+      .slice(0, 5);
+    if (!items.length) {
+      list.innerHTML = '<li class="empty-state">暂无要闻</li>';
+      return;
+    }
+    list.innerHTML = items
+      .map((item) => {
+        return `
+          <li>
+            <a href="${newsDetailHref(item)}">
+              <span class="top5-title">${item.title}</span>
+            </a>
+          </li>`;
+      })
+      .join("");
+  }
+
+  function renderLlmLeaderboard() {
+    const box = document.querySelector("#llmTable");
+    if (!box) return;
+    const lb = data.llmLeaderboard || {};
+    const items = (lb.items || []).filter((m) => state.llmType === "all" || m.type === state.llmType);
+    const srcLink = document.querySelector("#llmSource");
+    if (srcLink && lb.sourceUrl) srcLink.href = lb.sourceUrl;
+    const note = document.querySelector("#llmNote");
+    if (note) note.textContent = `${lb.source || "大模型综合能力评测"}　·　更新于 ${lb.updated || ""}　·　共 ${(lb.items || []).length} 个模型`;
+    if (!items.length) {
+      box.innerHTML = '<div class="empty-state">暂无榜单数据</div>';
+      return;
+    }
+    const rows = items
+      .map(
+        (m) => `
+        <tr>
+          <td class="llm-rank">${m.rank}</td>
+          <td class="llm-model">${m.model}</td>
+          <td>${m.org || ""}</td>
+          <td><span class="llm-tag ${m.type === "开源" ? "is-oss" : "is-com"}">${m.type || ""}</span></td>
+          <td class="llm-score">${m.score || ""}</td>
+          <td>${m.latency || ""}</td>
+          <td>${m.tokens || ""}</td>
+          <td>${m.cost || ""}</td>
+        </tr>`
+      )
+      .join("");
+    box.innerHTML = `
+      <div class="llm-table-wrap">
+        <table class="llm-table">
+          <thead>
+            <tr><th>#</th><th>模型</th><th>机构</th><th>类型</th><th>总分</th><th>耗时</th><th>Token</th><th>成本/千次</th></tr>
+          </thead>
+          <tbody>${rows}</tbody>
+        </table>
+      </div>`;
+  }
+
   function renderTicker() {
+    if (!tickerTrack) return;
     const html = data.news
       .slice()
       .sort((a, b) => new Date(b.date) - new Date(a.date))
@@ -769,8 +937,9 @@
   }
 
   function renderSources() {
+    if (!sourceGrid) return;
     sourceGrid.innerHTML = data.sources
-      .slice(0, expandedLists.has("sourceGrid") ? 32 : 8)
+      .slice(0, expandedLists.has("sourceGrid") ? 32 : 6)
       .map(
         (source) => `
           <a class="source-card" href="${source.url}" target="_blank" rel="noopener">
@@ -799,6 +968,17 @@
 
   function bindEvents() {
     document.addEventListener("click", (event) => {
+      // 侧边栏折叠开关
+      const sideToggle = event.target.closest(".side-toggle");
+      if (sideToggle) {
+        const card = sideToggle.closest(".side-card");
+        if (card) {
+          const collapsed = card.classList.toggle("is-collapsed");
+          sideToggle.setAttribute("aria-expanded", String(!collapsed));
+        }
+        return;
+      }
+
       const detailButton = event.target.closest("[data-detail-kind]");
       if (detailButton) {
         openDetail(detailButton.dataset.detailKind, detailButton.dataset.detailIndex);
@@ -844,19 +1024,79 @@
       });
     }
 
-    searchInput.addEventListener("input", (event) => {
-      state.query = event.target.value;
-      renderTopics();
-      renderSkills();
-      renderGithubWeekly();
-      renderBenchmark();
-      renderNews();
-    });
+    if (searchInput) {
+      searchInput.addEventListener("input", (event) => {
+        state.query = event.target.value;
+        renderTopics();
+        renderSkills();
+        renderGithubWeekly();
+        renderBenchmark();
+        renderNews();
+      });
+    }
 
-    sortSelect.addEventListener("change", (event) => {
-      state.sort = event.target.value;
-      renderNews();
-    });
+    if (sortSelect) {
+      sortSelect.addEventListener("change", (event) => {
+        state.sort = event.target.value;
+        renderNews();
+      });
+    }
+
+    // 大模型榜单：商用/开源 筛选
+    const llmFilter = document.querySelector("#llmFilter");
+    if (llmFilter) {
+      llmFilter.addEventListener("click", (event) => {
+        const btn = event.target.closest("[data-llm]");
+        if (!btn) return;
+        state.llmType = btn.dataset.llm;
+        llmFilter.querySelectorAll("[data-llm]").forEach((b) => b.classList.toggle("is-active", b.dataset.llm === state.llmType));
+        renderLlmLeaderboard();
+      });
+    }
+
+    // 热门 Skill 分类筛选
+    if (skillGrid) {
+      skillGrid.addEventListener("click", (event) => {
+        const chip = event.target.closest("[data-skillcat]");
+        if (!chip) return;
+        event.preventDefault();
+        state.skillCat = chip.dataset.skillcat;
+        renderSkills();
+      });
+    }
+
+    // 左侧菜单：点击切换主区面板
+    const sideNav = document.querySelector("#sideNav");
+    if (sideNav) {
+      sideNav.addEventListener("click", (event) => {
+        const button = event.target.closest("button[data-panel]");
+        if (!button) return;
+        const panel = button.dataset.panel;
+        sideNav.querySelectorAll("button[data-panel]").forEach((b) => {
+          b.classList.toggle("is-active", b.dataset.panel === panel);
+        });
+        document.querySelectorAll(".home-panel").forEach((p) => {
+          p.classList.toggle("is-active", p.dataset.panel === panel);
+        });
+        // 切换后滚动到内容区顶部
+        const main = document.querySelector(".home-main");
+        if (main && window.scrollY > main.offsetTop) main.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+    }
+
+    const modeToggle = document.querySelector("#modeToggle");
+    if (modeToggle) {
+      modeToggle.addEventListener("click", (event) => {
+        const button = event.target.closest("[data-mode]");
+        if (!button) return;
+        state.mode = button.dataset.mode;
+        modeToggle.querySelectorAll("[data-mode]").forEach((b) => {
+          b.classList.toggle("is-active", b.dataset.mode === state.mode);
+        });
+        renderCategories();
+        renderNews();
+      });
+    }
   }
 
   function init() {
@@ -868,11 +1108,27 @@
     renderTicker();
     startTickerAutoScroll();
     renderHistoricalNews();
+    renderTop5();
+    renderLlmLeaderboard();
     renderCategories();
     renderNews();
     renderSources();
     renderWatchList();
     bindEvents();
+    startAutoRefresh();
+  }
+
+  // 自动刷新：每 2 分钟检查后端是否产出了新数据（对比 generatedAt），有更新才刷新页面
+  function startAutoRefresh() {
+    const loadedAt = (window.AI_GENERATED_DATA && window.AI_GENERATED_DATA.generatedAt) || "";
+    setInterval(async () => {
+      try {
+        const res = await fetch("/assets/data/generated-data.json?t=" + Date.now(), { cache: "no-store" });
+        if (!res.ok) return;
+        const d = await res.json();
+        if (d.generatedAt && d.generatedAt !== loadedAt) location.reload();
+      } catch (e) { /* 离线/出错时静默，不打扰 */ }
+    }, 120000);
   }
 
   init();

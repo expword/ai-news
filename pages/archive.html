@@ -3,11 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>AI Skill 分类导航 - AI工具导航</title>
-    <meta
-      name="description"
-      content="AI Skill 分类导航：agent-skills 仓库、MCP / 工作流、Claude Code 官方更新、桌面工具、方法论文章、中文 Prompt 模板等，附每条具体作用。"
-    />
+    <title>AI 内容归档库 - AI工具导航</title>
+    <meta name="description" content="按时间和类型归档的 AI 资讯库：模型、工具、开源项目、榜单、搜索/Agent、行业动态，每条带来源链接，便于回看选题与每周总结。" />
     <meta name="robots" content="index,follow" />
     <link rel="stylesheet" href="/assets/css/styles.css?v=1780000006" />
   </head>
@@ -18,14 +15,15 @@
           <span class="brand-mark">AI</span>
           <span>
             <strong>AI工具导航</strong>
-            <small>Skill 分类</small>
+            <small>内容归档库</small>
           </span>
         </a>
         <nav class="top-nav" aria-label="主导航">
           <a href="/">首页</a>
-          <a href="/pages/github.html">GitHub 项目</a>
+          <a href="/pages/history.html">历史快讯</a>
+          <a href="/pages/skills.html">Skill</a>
+          <a href="/pages/github.html">GitHub</a>
           <a href="/pages/benchmark.html">榜单</a>
-          <a href="/pages/category.html?id=ai-tools">工具</a>
         </nav>
       </div>
     </header>
@@ -35,24 +33,24 @@
         <a class="back-link" href="/">← 返回首页</a>
         <div class="detail-hero-copy" style="grid-column: 1 / -1;">
           <div class="detail-hero-meta">
-            <span class="chip chip-accent">AI Skills</span>
-            <span id="skillCountChip" class="chip chip-muted"></span>
+            <span class="chip chip-accent">Archive</span>
+            <span id="archiveTotalChip" class="chip chip-muted"></span>
           </div>
-          <h1>AI Skill 分类导航</h1>
+          <h1>AI 内容归档库</h1>
           <p class="detail-hero-lead">
-            把 Claude Code / Cursor / Codex 的 agent-skills 仓库、MCP 工作流、官方平台更新、桌面工具和中文 Prompt 模板按类型整理。每张卡片直接告诉你这个 Skill 具体能做什么。
+            按月份和六大类型整理所有 AI 资讯。每条都保留原始来源链接——拿来回看选题、补 SEO 文章、做每周总结都顺手。
           </p>
-          <div class="hero-search" role="search">
-            <input id="skillSearch" type="search" placeholder="搜索 Skill 名称、类型、作用..." />
+          <div class="hero-search" role="search" style="margin-top:18px;">
+            <input id="archiveSearch" type="search" placeholder="搜索标题、来源、关键词..." />
           </div>
         </div>
       </section>
 
       <section class="wrap">
-        <nav id="skillCategoryNav" class="category-nav-strip" aria-label="跳转分类"></nav>
+        <nav id="archiveGroupNav" class="category-nav-strip" aria-label="跳转分类"></nav>
       </section>
 
-      <section class="wrap" id="skillCategorySections"></section>
+      <section class="wrap" id="archiveSections"></section>
     </main>
 
     <footer class="site-footer">
@@ -69,6 +67,6 @@
     <script src="/assets/data/data.js?v=1779592340"></script>
     <script src="/assets/data/generated-data.js?v=1779592340"></script>
     <script src="/assets/data/data-merge.js?v=1779592340"></script>
-    <script src="/assets/js/skills.js?v=1779592340"></script>
+    <script src="/assets/js/archive.js?v=1779592340"></script>
   </body>
 </html>
