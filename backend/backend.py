@@ -24,6 +24,7 @@ GENERATED_JS = ROOT / "assets" / "data" / "generated-data.js"
 SCHEDULER_STATE = ROOT / "data" / "scheduler-state.json"
 
 FREE_INFO_SOURCES = [
+    {"name": "AI HOT", "description": "中文 AI 资讯聚合站，每天精选模型发布、产品更新、行业动态、论文与技巧；开放免费 REST API / RSS，无需 token，适合做每日新鲜内容源。", "url": "https://aihot.virxact.com/"},
     {"name": "Google Programmable Search", "description": "官方 Google 搜索 API，注册 Google Cloud/PSE 后每天 100 次免费查询，适合兜底搜 AI 工具、模型和榜单来源。", "url": "https://developers.google.com/custom-search/v1/overview"},
     {"name": "NewsAPI", "description": "新闻搜索 API，注册后开发者计划每天 100 次请求；注意免费版只适合开发测试，不建议直接用于生产商业站。", "url": "https://newsapi.org/pricing"},
     {"name": "GNews API", "description": "新闻搜索 API，注册免费 key 后每天 100 次请求，适合抓 AI、startup、technology 等关键词新闻。", "url": "https://gnews.io/"},
@@ -795,6 +796,42 @@ def fetch_news_api_items(since: str | None = None, until: str | None = None) -> 
                 pass
 
     return uniq_by(items, lambda item: item.get("url"))
+
+
+# AIHOT（aihot.virxact.com）：已经聚合 + 精选好的中文 AI 资讯源，每天更新，
+# 正好补一手官方博客「不日更」的空窗。每条带原始 source 和原文 url，
+# 视为 T1.5（已精选的二手聚合源）。注意：/api/public/* 走 UA 黑名单，必须带浏览器 UA。
+AIHOT_ITEMS_API = "https://aihot.virxact.com/api/public/items"
+
+
+def fetch_aihot_items(mode: str = "selected", take: int = 50) -> list[dict]:
+    """从 AIHOT 拉取精选 AI 动态，转成统一 news 候选（再走本地富化管线）。
+    mode=selected 是它每天精挑的主菜单；take 上限 100。失败返回空列表。"""
+    take = max(1, min(int(take), 100))
+    url = f"{AIHOT_ITEMS_API}?mode={mode}&take={take}"
+    try:
+        data = request_json(url, headers={"User-Agent": BROWSER_UA}, timeout=20)
+    except Exception:
+        return []
+    items: list[dict] = []
+    for it in (data.get("items") or []):
+        title = (it.get("title") or "").strip()
+        link = (it.get("url") or "").strip()
+        if not title or not link:
+            continue
+        origin = (it.get("source") or "").strip()
+        pub = it.get("publishedAt") or ""
+        items.append({
+            "title": title,
+            "summary": (it.get("summary") or "")[:500],
+            "url": link,
+            "source": f"AIHOT · {origin}" if origin else "AIHOT",
+            "lang": "zh",
+            "tier": "T1.5",  # 已精选的聚合源
+            "_date_hint": parse_date_to_iso(pub),
+            "_datetime_hint": parse_datetime_to_iso(pub),
+        })
+    return items
 
 
 def strip_html(html: str) -> str:
@@ -2155,6 +2192,7 @@ def run_daily() -> dict:
     print(f"  · GitHub 抓取 {len(github_items)} 个候选")
 
     raw_news_items = []
+    raw_news_items.extend(fetch_aihot_items())   # 已精选的中文聚合源，放最前优先送富化
     raw_news_items.extend(fetch_news_api_items())
     raw_news_items.extend(fetch_rss_items())
     raw_news_items.extend(fetch_html_items())

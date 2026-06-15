@@ -6,6 +6,7 @@
 
 每天任务会收集：
 
+- AIHOT（aihot.virxact.com）：已聚合 + 精选的中文 AI 资讯，每天更新，作为 T1.5 源补一手官方博客的空窗
 - 新闻 API：模型发布、产品发布、产业动态
 - GitHub Search：AI 项目、Agent、MCP、Coding 工具
 - arXiv / Semantic Scholar：论文和研究线索
