@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12",
+  "lastUpdated": "2026-06-15",
   "generatedAt": "2026-06-12T10:03:15.000193Z",
   "news": [
     {
@@ -9176,1550 +9176,79 @@
   },
   "skillRecommendations": [
     {
-      "title": "rohitg00/awesome-claude-code-toolkit",
-      "type": "Skill 精选",
-      "description": "这个工具包为 Claude Code 提供了全面的支持，包括多种代理、技能和插件，增强了开发者的工作效率。",
-      "details": "该工具包包含 135 个代理、35 个精选技能、42 个命令、176+ 个插件等，适用于各种开发场景。开发者可以利用这些资源来简化代码编写、自动化任务和提升代码质量。例如，使用特定插件可以在提交前自动检查代码中的安全漏洞，确保代码的安全性和可靠性。与其他工具相比，该工具包提供了更丰富的功能和更高的灵活性，兼容 JavaScript 生态系统中的多种工具和框架。",
-      "features": [
-        "提供 135 个代理以支持多种开发需求",
-        "包含 35 个精选技能以提升代码质量",
-        "支持 176+ 个插件以扩展功能",
-        "提供 20 个 hooks 以实现自定义操作",
-        "包含 14 个 MCP 配置以简化工作流"
-      ],
-      "useCases": [
-        "自动化代码审查，确保代码安全",
-        "简化开发流程，提高工作效率",
-        "集成多种工具，提升开发体验",
-        "快速部署和管理应用程序",
-        "支持团队协作，优化代码共享"
-      ],
-      "tags": [
-        "工具包",
-        "开发效率",
-        "Claude Code",
-        "插件",
-        "自动化"
-      ],
-      "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
-      "source": "GitHub Skill",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "BehiSecc/awesome-claude-skills",
-      "type": "Skill 精选",
-      "description": "这是一个精心策划的 Claude Skills 列表，帮助开发者发现和使用多种技能。",
-      "details": "该资源汇集了多种 Claude Skills，适用于不同的开发场景。用户可以通过这个列表快速找到适合自己项目的技能，提升工作效率。与其他技能库相比，这个列表经过筛选，确保了技能的质量和实用性，适合各类开发者使用。",
-      "features": [
-        "提供多种 Claude Skills 的链接",
-        "分类清晰，便于查找",
-        "包含技能的使用示例",
-        "定期更新，保持内容新鲜"
-      ],
-      "useCases": [
-        "开发者查找适合的 Claude Skills",
-        "团队共享技能资源",
-        "快速集成新技能到项目中"
-      ],
-      "tags": [
-        "Claude Skills",
-        "开发工具",
-        "技能库"
-      ],
-      "url": "https://github.com/BehiSecc/awesome-claude-skills",
-      "source": "GitHub Skill",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "taishi-i/awesome-ChatGPT-repositories",
-      "type": "Skill 精选",
-      "description": "这是一个精心整理的资源列表，专注于与 ChatGPT、OpenAI API 和 Codex 相关的开源 GitHub 仓库，便于开发者查找和使用。",
-      "details": "该资源列表包含多个与 ChatGPT 相关的开源项目，开发者可以通过 Claude Code 技能进行搜索和访问。这些项目涵盖了从基础的 API 使用到复杂的应用场景，帮助开发者快速找到合适的工具和库。与其他资源相比，这个列表经过精心挑选，确保了项目的质量和实用性，适合各种技术栈的开发者使用。",
-      "features": [
-        "提供多种 ChatGPT 相关的开源项目",
-        "支持通过 Claude Code 技能搜索",
-        "涵盖 API 使用和应用开发",
-        "确保项目质量和实用性"
-      ],
-      "useCases": [
-        "开发者查找 ChatGPT 相关的开源工具",
-        "团队快速获取 API 使用示例",
-        "研究人员探索 Codex 的应用案例"
-      ],
-      "tags": [
-        "开源资源",
-        "ChatGPT",
-        "OpenAI",
-        "Codex",
-        "GitHub"
-      ],
-      "url": "https://github.com/taishi-i/awesome-ChatGPT-repositories",
-      "source": "GitHub Skill",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "punkpeye/awesome-mcp-servers",
-      "type": "MCP 服务",
-      "description": "该资源汇集了多种 MCP 服务器，方便开发者选择和使用。",
-      "details": "在开发过程中，选择合适的 MCP 服务器可以显著提高工作效率。该集合提供了多种不同类型的 MCP 服务器，适用于不同的开发需求。用户可以根据项目的特性和需求，快速找到合适的服务器，避免了重复的搜索和筛选过程。此外，资源中包含的服务器信息经过整理，确保了其可靠性和实用性。",
-      "features": [
-        "提供多种 MCP 服务器选择",
-        "包含服务器的详细信息",
-        "支持快速查找和筛选",
-        "适用于不同开发需求"
-      ],
-      "useCases": [
-        "开发者查找合适的 MCP 服务器",
-        "团队选择最佳的服务器进行项目开发",
-        "新手学习 MCP 服务器的使用"
-      ],
-      "tags": [
-        "MCP",
-        "服务器",
-        "开发资源"
-      ],
-      "url": "https://github.com/punkpeye/awesome-mcp-servers",
-      "source": "GitHub Search · 2026-06-12",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "A landscape overview of 70+ open-source memory systems for AI agents",
-      "type": "方法论 / 文章",
-      "description": "本文章提供了70多个开源内存系统的概述，帮助AI代理更好地管理和利用内存。",
-      "details": "在AI代理的开发中，内存管理是一个关键因素。本文详细介绍了70多个开源内存系统，涵盖了它们的功能、架构和适用场景。这些系统各具特色，适用于不同的AI应用需求。通过对比不同内存系统的优缺点，开发者可以选择最适合自己项目的解决方案，从而提升AI代理的性能和效率。",
-      "features": [
-        "提供70多个开源内存系统的详细信息",
-        "比较不同内存系统的优缺点",
-        "涵盖多种应用场景和技术栈",
-        "帮助开发者选择合适的内存管理方案"
-      ],
-      "useCases": [
-        "开发者选择合适的内存系统以优化AI代理性能",
-        "研究人员分析不同内存管理策略的效果",
-        "团队在项目中实现高效的内存使用"
-      ],
-      "tags": [
-        "开源内存系统",
-        "AI代理",
-        "内存管理"
-      ],
-      "url": "https://www.reddit.com/r/mcp/comments/1u0l0pu/a_landscape_overview_of_70_opensource_memory/",
-      "source": "Reddit r/mcp",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "Built an ISMS/ ISO 27001 MCP Server - Looking for Community Feedback",
-      "type": "MCP / 工作流",
-      "description": "该 Skill 允许用户构建和管理信息安全管理系统（ISMS），符合 ISO 27001 标准，提升信息安全管理能力。",
-      "details": "通过构建一个符合 ISO 27001 标准的 ISMS/MCP 服务器，用户可以在信息安全管理中实现更高的合规性和效率。该系统支持自动化文档管理、风险评估和合规性检查，适用于需要遵循 ISO 27001 标准的组织。与传统手动管理方式相比，该系统提供了更高的准确性和可追溯性，减少了人为错误的风险。技术栈包括 Python、Django 和 PostgreSQL，兼容多种操作系统。",
-      "features": [
-        "自动化风险评估流程",
-        "实时合规性检查",
-        "文档版本控制",
-        "用户权限管理"
-      ],
-      "useCases": [
-        "组织实施 ISO 27001 标准",
-        "信息安全团队进行风险管理",
-        "合规审计时提供必要文档"
-      ],
-      "tags": [
-        "信息安全",
-        "ISO 27001",
-        "合规管理"
-      ],
-      "url": "https://www.reddit.com/r/mcp/comments/1u2mid8/built_an_isms_iso_27001_mcp_server_looking_for/",
-      "source": "Reddit r/mcp",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "Claude Code 源代码泄露",
-      "type": "Skill 精选",
-      "description": "Claude Code 的源代码通过 NPM 注册表中的地图文件泄露，成为开发者关注的焦点。",
-      "details": "在 Hacker News 上，关于 Claude Code 源代码泄露的讨论引发了广泛关注。开发者可以利用这一事件，分析泄露的代码以识别潜在的安全漏洞和设计缺陷。这种情况在开源社区中并不罕见，开发者需提高警惕，确保自己的项目不受类似事件影响。与其他代码泄露事件相比，此次泄露涉及的技术栈和工具链可能会影响开发者的选择和使用习惯。",
-      "features": [
-        "分析泄露代码识别安全漏洞",
-        "评估项目的安全性和稳定性",
-        "学习泄露事件的应对策略",
-        "提升代码审查和安全审计能力"
-      ],
-      "useCases": [
-        "开发者分析泄露代码以发现安全隐患",
-        "团队讨论如何防止类似泄露事件",
-        "安全专家评估项目的潜在风险"
-      ],
-      "tags": [
-        "代码安全",
-        "开源",
-        "泄露事件"
-      ],
-      "url": "https://twitter.com/Fried_rice/status/2038894956459290963",
-      "source": "Hacker News",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "Claude 3.7 Sonnet and Claude Code",
-      "type": "官方平台更新",
-      "description": "Claude 3.7 版本带来了新的功能和改进，提升了编码代理的能力。",
-      "details": "Claude 3.7 版本引入了 Sonnet 和 Claude Code，增强了代码生成和理解能力。Sonnet 允许用户以更自然的方式与 AI 进行交互，而 Claude Code 则专注于代码的生成和优化。这些新功能使得开发者在编写和审查代码时更加高效，能够更好地处理复杂的编程任务。与之前版本相比，Claude 3.7 在上下文理解和代码质量方面有显著提升，支持多种编程语言，兼容性更强。",
-      "features": [
-        "支持多种编程语言的代码生成",
-        "增强的上下文理解能力",
-        "自然语言与代码的无缝交互",
-        "自动优化代码质量"
-      ],
-      "useCases": [
-        "开发者使用 Claude Code 生成高质量代码",
-        "团队在代码审查时利用 Sonnet 提高效率",
-        "初学者通过自然语言提问获取编程帮助"
-      ],
-      "tags": [
-        "Claude 3.7",
-        "代码生成",
-        "自然语言处理"
-      ],
-      "url": "https://www.anthropic.com/news/claude-3-7-sonnet",
-      "source": "Hacker News",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "travisvn/awesome-claude-skills",
-      "type": "Skill 精选",
-      "description": "这个资源汇集了众多优秀的 Claude Skills 和工具，帮助用户定制 Claude AI 工作流，特别是在 Claude Code 方面。",
-      "details": "该列表提供了多种 Claude Skills 的链接和描述，用户可以根据自己的需求选择合适的工具来增强 Claude AI 的功能。例如，用户可以找到自动化代码审查、代码生成和调试等技能，提升开发效率。与其他资源相比，这个列表专注于 Claude AI 的生态系统，确保用户获取最新和最相关的技能和工具。",
-      "features": [
-        "提供多种 Claude Skills 的链接",
-        "涵盖定制化工作流的工具",
-        "专注于 Claude Code 相关技能",
-        "定期更新和维护"
-      ],
-      "useCases": [
-        "查找适合的 Claude Skills 来提升工作效率",
-        "定制 Claude AI 工作流以满足特定需求",
-        "获取最新的 Claude 资源和工具"
-      ],
-      "tags": [
-        "Claude Skills",
-        "工作流定制",
-        "开发工具"
-      ],
-      "url": "https://github.com/travisvn/awesome-claude-skills",
-      "source": "GitHub Skill",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "antd-claude-skill",
-      "type": "agent-skills 仓库",
-      "description": "该技能包为 Coding Agent 提供了 Ant Design 组件的集成，简化了 UI 开发流程。",
-      "details": "antd-claude-skill 是一个专为使用 Ant Design 的开发者设计的技能包，能够帮助 Coding Agent 在构建用户界面时快速集成常用组件。通过该技能，开发者可以在项目中轻松调用 Ant Design 的组件，减少重复代码，提高开发效率。与其他 UI 库相比，Ant Design 提供了更为丰富的组件和更好的设计规范，适合企业级应用。该技能包兼容 React，适合使用该框架的开发者。",
-      "features": [
-        "集成 Ant Design 组件库",
-        "简化组件调用流程",
-        "支持自定义主题",
-        "提供组件示例和文档",
-        "优化开发者体验"
-      ],
-      "useCases": [
-        "快速构建企业级应用的用户界面",
-        "在项目中实现一致的设计风格",
-        "减少 UI 组件的重复开发",
-        "提升开发效率和代码可维护性"
-      ],
-      "tags": [
-        "Ant Design",
-        "UI 组件",
-        "开发工具"
-      ],
-      "url": "https://www.npmjs.com/package/antd-claude-skill",
-      "source": "npm",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "claude-skill-search",
-      "type": "MCP 服务",
-      "description": "Claude skill search server via MCP，提供技能搜索功能，提升 Coding Agent 的技能发现能力。",
-      "details": "该服务允许用户通过 MCP 接口快速搜索和获取 Claude 技能，支持多种查询方式，方便开发者在项目中集成和使用相关技能。与其他技能搜索工具相比，claude-skill-search 专注于 Claude 生态系统，提供更精准的技能匹配和更丰富的文档支持。兼容 Node.js 环境，易于集成到现有的开发流程中。",
-      "features": [
-        "支持多种查询参数",
-        "返回技能详细信息",
-        "集成简单，文档齐全",
-        "实时更新技能库"
-      ],
-      "useCases": [
-        "开发者快速查找所需技能",
-        "团队协作时共享技能信息",
-        "在项目中集成 Claude 技能"
-      ],
-      "tags": [
-        "技能搜索",
-        "Claude",
-        "MCP"
-      ],
-      "url": "https://www.npmjs.com/package/claude-skill-search",
-      "source": "npm",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "@anyformat/skill",
-      "type": "MCP / 工作流",
-      "description": "该 Skill 允许 Coding Agent 构建和运行文档提取工作流，利用 anyformat API 进行数据处理。",
-      "details": "通过集成 @anyformat/skill，用户可以轻松创建自动化的文档提取流程，适用于各种数据格式。该 Skill 支持与任何格式的文档进行交互，能够高效提取所需信息，适合需要处理大量文档的场景，如合同审核、数据录入等。与其他文档处理工具相比，anyformat 提供了更灵活的 API 接口，支持多种格式的文档，增强了工作流的兼容性和扩展性。",
-      "features": [
-        "支持多种文档格式的提取",
-        "与 anyformat API 无缝集成",
-        "可定制化的工作流设计",
-        "实时数据处理和反馈"
-      ],
-      "useCases": [
-        "自动化合同审核流程",
-        "批量数据录入任务",
-        "实时文档信息提取"
-      ],
-      "tags": [
-        "文档处理",
-        "自动化",
-        "数据提取"
-      ],
-      "url": "https://www.npmjs.com/package/@anyformat/skill",
-      "source": "npm",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "upskilled",
-      "type": "agent-skills 仓库",
-      "description": "upskilled 允许用户为任何 API 或 CLI 工具生成 Claude 技能文件，提升 Coding Agent 的集成能力。",
-      "details": "通过使用 upskilled，开发者可以轻松为各种 API 和 CLI 工具创建 Claude 技能文件。这使得 Coding Agent 能够在不同的开发环境中无缝集成，自动化任务并提高工作效率。与其他工具相比，upskilled 提供了更灵活的配置选项，支持多种编程语言和框架，确保兼容性和易用性。",
-      "features": [
-        "自动生成 Claude 技能文件",
-        "支持多种 API 和 CLI 工具",
-        "灵活的配置选项",
-        "兼容多种编程语言和框架"
-      ],
-      "useCases": [
-        "为新 API 快速生成技能文件",
-        "在 CI/CD 流程中集成 CLI 工具",
-        "简化开发环境的配置"
-      ],
-      "tags": [
-        "技能生成",
-        "API 集成",
-        "CLI 工具"
-      ],
-      "url": "https://www.npmjs.com/package/upskilled",
-      "source": "npm",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "lazymac-mcp-claude-skill-validator",
-      "type": "MCP 服务",
-      "description": "该 Skill 提供了一个 Cloudflare Workers MCP 服务器封装，专注于验证 Claude 技能的有效性。",
-      "details": "lazymac-mcp-claude-skill-validator 是一个用于验证 Claude 技能的工具，运行在 Cloudflare Workers 上。它可以帮助开发者确保他们的技能符合预期的格式和功能要求。通过集成此工具，开发者可以在技能发布前进行自动化验证，减少潜在的错误和不兼容性。与其他技能验证工具相比，该工具专注于 Claude 的特定需求，提供更为精准的反馈和支持。",
-      "features": [
-        "自动验证技能格式",
-        "检查技能依赖项",
-        "提供详细的错误报告",
-        "支持 Cloudflare Workers 部署",
-        "兼容多种技能类型"
-      ],
-      "useCases": [
-        "开发者在发布技能前进行验证",
-        "团队协作时确保技能一致性",
-        "快速定位技能中的错误",
-        "在 CI/CD 流程中集成验证步骤"
-      ],
-      "tags": [
-        "技能验证",
-        "Cloudflare Workers",
-        "MCP 服务"
-      ],
-      "url": "https://www.npmjs.com/package/lazymac-mcp-claude-skill-validator",
-      "source": "npm",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "@hunterzheng/docsync",
-      "type": "MCP / 工作流",
-      "description": "这个 Skill 提供了一个可重用的 npm CLI，用于文档同步工作流，支持多种上下文和规则检查。",
-      "details": "该工具可用于在开发流程中自动同步文档，确保文档与代码库保持一致。它支持 Repomix 上下文、markdownlint 规则、Claude Skill 和 Codex 规则等，适合需要频繁更新文档的团队。与其他文档同步工具相比，它提供了更灵活的配置选项和更好的兼容性，能够与现有的开发工具链无缝集成。",
-      "features": [
-        "支持多种文档格式的同步",
-        "集成 markdownlint 进行文档质量检查",
-        "与 Claude Skill 和 Codex 规则兼容",
-        "可配置的工作流选项"
-      ],
-      "useCases": [
-        "在代码提交前自动同步文档",
-        "在 PR 过程中检查文档更新",
-        "确保文档符合团队的编码标准"
-      ],
-      "tags": [
-        "文档同步",
-        "开发工具",
-        "npm"
-      ],
-      "url": "https://www.npmjs.com/package/@hunterzheng/docsync",
-      "source": "npm",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "OthmanAdi/planning-with-files",
-      "type": "agent-skills 仓库",
-      "description": "该 Skill 提供持久化文件基础的规划功能，适用于长时间运行的智能任务。",
-      "details": "此项目实现了基于文件的持久化规划，确保在任务崩溃时不会丢失数据。它支持 Markdown 格式的计划，提供确定性的完成门，并允许多个代理共享磁盘状态。兼容 Claude Code、Codex CLI、Cursor、Hermes agent、Pi、Kiro、OpenCode 及 60 多个代理，符合 SKILL.md 标准，适合需要长期任务管理的开发者。",
-      "features": [
-        "持久化文件存储任务计划",
-        "支持多代理共享状态",
-        "Markdown 格式的计划文档",
-        "确定性任务完成门",
-        "与多种智能代理兼容"
-      ],
-      "useCases": [
-        "管理长时间运行的任务",
-        "在多个代理之间共享状态",
-        "创建和维护 Markdown 格式的计划",
-        "确保任务崩溃时数据不丢失",
-        "实现复杂任务的自动化管理"
-      ],
-      "tags": [
-        "任务管理",
-        "文件规划",
-        "智能代理",
-        "持久化存储",
-        "Markdown"
-      ],
-      "url": "https://github.com/OthmanAdi/planning-with-files",
-      "source": "GitHub Skill",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "VoltAgent/awesome-agent-skills",
-      "type": "Skill 精选",
-      "description": "这个 Skill 精选集合了 1000 多个来自官方开发团队和社区的代理技能，兼容多种平台，提升了 Coding Agent 的多样性和灵活性。",
-      "details": "该资源汇集了大量的代理技能，适用于 Claude Code、Codex、Gemini CLI、Cursor 等多种开发环境。用户可以根据需求选择合适的技能，快速集成到自己的项目中。与其他技能库相比，这个集合不仅数量庞大，而且涵盖了多种应用场景，帮助开发者在不同的工作流中提高效率。",
-      "features": [
-        "支持多种开发平台",
-        "提供丰富的社区贡献技能",
-        "易于集成和使用",
-        "涵盖多种编程语言和框架"
-      ],
-      "useCases": [
-        "开发者快速查找和使用代理技能",
-        "团队共享和复用技能",
-        "提升项目开发效率"
-      ],
-      "tags": [
-        "代理技能",
-        "开发工具",
-        "技能集合"
-      ],
-      "url": "https://github.com/VoltAgent/awesome-agent-skills",
-      "source": "GitHub Skill",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "nanocoai/nanoclaw",
-      "type": "agent-skills 仓库",
-      "description": "一个轻量级的 OpenClaw 替代品，支持多种消息应用，增强了 Coding Agent 的交互能力。",
-      "details": "nanoclaw 是一个运行在容器中的轻量级替代品，旨在提高安全性。它可以连接到 WhatsApp、Telegram、Slack、Discord、Gmail 等多种消息应用，具备记忆功能和定时任务，直接在 Anthropic 的 Agents SDK 上运行。与其他同类工具相比，nanoclaw 更加注重安全性和灵活性，适合需要多平台消息处理的场景。",
-      "features": [
-        "支持多种消息应用的连接",
-        "具备记忆功能",
-        "支持定时任务",
-        "直接运行在 Anthropic 的 Agents SDK 上"
-      ],
-      "useCases": [
-        "在团队中自动处理消息",
-        "定期发送提醒和通知",
-        "在不同平台间同步信息"
-      ],
-      "tags": [
-        "消息处理",
-        "安全",
-        "轻量级",
-        "多平台"
-      ],
-      "url": "https://github.com/nanocoai/nanoclaw",
-      "source": "GitHub Skill",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "K-Dense-AI/scientific-agent-skills",
-      "type": "agent-skills 仓库",
-      "description": "将任何 AI 代理转变为 AI 科学家，提供 140 种现成技能和 100 多个科学数据库，涵盖生物学、化学、医学和药物发现。",
-      "details": "该库为科学研究提供了丰富的技能和数据支持，适用于生物、化学和医学领域的研究人员。用户可以利用这些技能进行数据分析、实验设计和文献检索等任务。与其他技能库相比，它专注于科学领域，提供了大量的专业数据库，确保用户能够获取最新的研究成果和数据。兼容 Cursor、Claude Code、Codex 和 Antigravity 等多种技术栈，方便用户集成到现有工作流中。",
-      "features": [
-        "提供 140 种现成的科学技能",
-        "支持 100+ 科学数据库",
-        "兼容多种 AI 代理平台",
-        "涵盖生物、化学、医学等多个领域",
-        "支持数据分析和实验设计"
-      ],
-      "useCases": [
-        "科学家进行数据分析",
-        "研究人员设计实验",
-        "学生查阅科学文献",
-        "药物研发团队获取最新数据",
-        "教育工作者进行课程设计"
-      ],
-      "tags": [
-        "科学技能",
-        "数据分析",
-        "生物医学",
-        "药物发现",
-        "AI 代理"
-      ],
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-      "source": "GitHub Skill",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "MCP Just Landed on Your Phone: What Google AI Edge Gallery Actually Does",
-      "type": "MCP 服务",
-      "description": "该 Skill 使得用户能够在手机上使用 Google AI Edge Gallery，提升了移动设备的 AI 处理能力。",
-      "details": "Google AI Edge Gallery 允许用户在移动设备上运行 MCP 服务器，提供实时的 AI 处理能力。用户可以通过手机轻松访问和管理 AI 模型，进行图像处理、数据分析等任务。与传统的云服务相比，Edge Gallery 提供了更低的延迟和更高的隐私保护。该服务兼容多种设备，适用于需要快速响应的应用场景。",
-      "features": [
-        "在手机上运行 MCP 服务器",
-        "实时处理图像和数据",
-        "支持多种 AI 模型",
-        "低延迟响应",
-        "增强隐私保护"
-      ],
-      "useCases": [
-        "开发者在移动设备上测试 AI 模型",
-        "用户进行实时图像识别",
-        "企业在现场收集和分析数据"
-      ],
-      "tags": [
-        "Google AI",
-        "MCP",
-        "移动设备",
-        "边缘计算",
-        "实时处理"
-      ],
-      "url": "https://dev.to/dannwaneri/mcp-just-landed-on-your-phone-what-google-ai-edge-gallery-actually-does-1567",
-      "source": "Dev.to",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "I gave Claude six months of our retros. It found three things I'd missed.",
-      "type": "方法论 / 文章",
-      "description": "这篇文章探讨了如何利用 Claude 分析 retros，发现项目管理中的潜在问题，提升团队效率。",
-      "details": "文章分享了作者将六个月的 retros 数据提供给 Claude 的过程，Claude 识别出了作者未曾注意的三项关键问题。这种方法不仅能帮助项目经理更好地理解团队动态，还能通过数据驱动的方式优化工作流程。与传统的手动回顾不同，Claude 的分析提供了更为客观和全面的视角，适用于各种项目管理工具和团队环境。",
-      "features": [
-        "自动识别 retros 中的关键问题",
-        "提供数据驱动的反馈",
-        "支持多种项目管理工具",
-        "提升团队沟通效率"
-      ],
-      "useCases": [
-        "项目经理分析团队反馈",
-        "团队识别潜在的工作瓶颈",
-        "优化项目管理流程"
-      ],
-      "tags": [
-        "项目管理",
-        "数据分析",
-        "团队效率"
-      ],
-      "url": "https://dev.to/mattlewandowski93/i-gave-claude-six-months-of-our-retros-it-found-three-things-id-missed-c1p",
-      "source": "Dev.to",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "Sovereign Synapse: The Context-Cleaner",
-      "type": "方法论 / 文章",
-      "description": "Sovereign Synapse 提供了一种清理上下文的方法，帮助 AI 更加礼貌和高效地处理信息。",
-      "details": "在 AI 交互中，上下文的清晰度至关重要。Sovereign Synapse 通过清理和优化输入的上下文，确保 AI 能够更准确地理解用户意图。这种方法特别适用于需要处理大量信息的场景，如客户支持、内容生成和数据分析。与传统的上下文处理方法相比，Sovereign Synapse 更加注重上下文的相关性和简洁性，能够有效减少误解和错误响应。",
-      "features": [
-        "自动清理冗余信息",
-        "优化上下文结构",
-        "增强用户意图识别",
-        "提高响应准确性"
-      ],
-      "useCases": [
-        "处理客户支持请求时清理多余信息",
-        "在内容生成中优化输入上下文",
-        "分析数据时提高信息处理效率"
-      ],
-      "tags": [
-        "上下文清理",
-        "AI 交互",
-        "信息处理"
-      ],
-      "url": "https://dev.to/kenwalger/sovereign-synapse-the-context-cleaner-2iac",
-      "source": "Dev.to",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "Rediscovering Domain-Driven Design, one MCP server at a time",
-      "type": "方法论 / 文章",
-      "description": "本文章探讨开发者在构建 MCP 服务器时无意中重新发明了界限上下文和反腐层的设计模式，提供了对这些模式的深入理解。",
-      "details": "在构建 MCP 服务器的过程中，开发者们常常会遇到需要划分界限上下文和实现反腐层的情况。虽然这些模式已经存在并经过了20年的实践检验，但许多开发者并未意识到它们的价值。文章通过实例分析，帮助开发者理解如何有效地应用这些设计模式，以提升系统的可维护性和扩展性。与其他设计方法相比，这些模式提供了更清晰的界限和更强的抗腐蚀能力，适用于各种技术栈。",
-      "features": [
-        "提供界限上下文的定义和应用场景",
-        "解释反腐层的设计原则和实现方式",
-        "分析 MCP 服务器中的常见设计问题",
-        "提供最佳实践和案例研究"
-      ],
-      "useCases": [
-        "理解如何在 MCP 服务器中应用界限上下文",
-        "识别并解决系统中的腐蚀问题",
-        "提升团队对领域驱动设计的认知",
-        "优化系统架构以支持业务变化"
-      ],
-      "tags": [
-        "领域驱动设计",
-        "MCP 服务器",
-        "软件架构"
-      ],
-      "url": "https://dev.to/aws/rediscovering-domain-driven-design-one-mcp-server-at-a-time-1i79",
-      "source": "Dev.to",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "I started responding to messages from coworkers like Claude",
-      "type": "方法论 / 文章",
-      "description": "这篇文章探讨了如何模仿 Claude 的沟通风格来提高与同事的互动效率。",
-      "details": "文章分享了在工作环境中，如何通过模仿 Claude 的回复方式来改善与同事的沟通。具体场景包括在团队协作中，使用简洁明了的语言回应同事的询问，提升信息传递的效率。与传统的沟通方式相比，这种方法更注重快速反馈和清晰表达，适合现代快节奏的工作环境。文章还讨论了适用的工具和平台，如 Slack 和 Microsoft Teams，以便更好地实施这种沟通风格。",
-      "features": [
-        "使用简洁语言回应同事",
-        "快速反馈信息",
-        "提升沟通效率",
-        "适应快节奏工作环境"
-      ],
-      "useCases": [
-        "提高团队协作中的沟通效率",
-        "减少信息传递中的误解",
-        "增强同事之间的互动",
-        "适应远程工作的沟通需求"
-      ],
-      "tags": [
-        "沟通技巧",
-        "职场效率",
-        "团队协作",
-        "Claude"
-      ],
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tz1tzv/i_started_responding_to_messages_from_coworkers/",
-      "source": "Reddit r/ClaudeAI",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "I’m ready",
-      "type": "Skill 精选",
-      "description": "本周 Reddit r/ClaudeAI 热帖，分享用户对 Claude AI 的使用体验和见解。",
-      "details": "在 Reddit r/ClaudeAI 论坛中，用户分享了他们对 Claude AI 的使用体验，包括如何利用其功能提升工作效率和解决问题。帖子中讨论了 Claude AI 在文本生成、代码辅助等方面的应用，展示了其在实际场景中的表现与优势。与其他 AI 工具相比，Claude AI 在上下文理解和生成质量上表现突出，适合多种编程语言和任务。用户还分享了具体的使用案例，帮助新用户快速上手。",
-      "features": [
-        "文本生成能力",
-        "代码辅助功能",
-        "上下文理解",
-        "多语言支持"
-      ],
-      "useCases": [
-        "分享 Claude AI 使用经验",
-        "讨论 AI 在编程中的应用",
-        "解决文本生成问题"
-      ],
-      "tags": [
-        "Claude AI",
-        "Reddit",
-        "用户体验"
-      ],
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u18cey/im_ready/",
-      "source": "Reddit r/ClaudeAI",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "Know the Claude Rules",
-      "type": "方法论 / 文章",
-      "description": "本资源介绍了 Claude 的使用规则，帮助用户更好地理解和应用 Claude AI。",
-      "details": "在 Reddit r/ClaudeAI 的热帖中，用户分享了 Claude 的使用规则，涵盖了如何有效与 Claude 互动的最佳实践。这些规则不仅有助于新手快速上手，也为经验丰富的用户提供了深入的见解。通过遵循这些规则，用户可以避免常见的误区，提高与 Claude 的交互效率。与其他 AI 交互指南相比，这篇文章更侧重于具体的使用场景和用户反馈，提供了实用的建议和技巧。",
-      "features": [
-        "提供 Claude 使用的基本规则",
-        "总结用户反馈与经验",
-        "强调有效互动的技巧",
-        "列举常见误区及解决方案"
-      ],
-      "useCases": [
-        "新用户快速了解 Claude 的使用方式",
-        "经验用户优化与 Claude 的互动",
-        "团队协作中统一 Claude 的使用标准"
-      ],
-      "tags": [
-        "Claude",
-        "使用规则",
-        "AI 互动",
-        "用户反馈"
-      ],
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u2qvrn/know_the_claude_rules/",
-      "source": "Reddit r/ClaudeAI",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "Claude Code Endgame",
-      "type": "Skill 精选",
-      "description": "本周 Reddit r/ClaudeAI 热帖，探讨 Claude Code 的最新动态与应用。",
-      "details": "在 Reddit r/ClaudeAI 上，用户分享了 Claude Code 的最新进展和使用案例，展示了其在代码生成和调试中的应用。该帖子讨论了 Claude Code 如何帮助开发者提高代码质量，减少错误，并加速开发流程。与其他代码助手相比，Claude Code 提供了更为智能的上下文理解和代码建议，适用于多种编程语言和框架，兼容性强，适合不同开发环境。",
-      "features": [
-        "提供智能代码建议",
-        "支持多种编程语言",
-        "上下文理解能力强",
-        "自动检测代码错误",
-        "加速开发流程"
-      ],
-      "useCases": [
-        "开发者在编写代码时获取实时建议",
-        "团队协作中快速识别代码问题",
-        "学习新语言时获得即时反馈"
-      ],
-      "tags": [
-        "Claude Code",
-        "编程助手",
-        "代码质量",
-        "开发工具",
-        "社区分享"
-      ],
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1u0e2pp/claude_code_endgame/",
-      "source": "Reddit r/ClaudeAI",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "I deliberately vibe-coded a real product end-to-end. Here's what AI couldn't do for me",
-      "type": "方法论 / 文章",
-      "description": "这篇文章探讨了在产品开发中，AI 的局限性和人类创造力的重要性。",
-      "details": "作者分享了自己从头到尾 vibe-coding 一个真实产品的经历，强调了在某些关键环节中，AI 无法替代人类的直觉和创造力。文章中提到，尽管 AI 在数据处理和自动化方面表现出色，但在设计和用户体验的微妙之处，仍需依赖人类的判断力。通过具体案例，作者展示了 AI 在产品开发中的不足之处，以及如何通过人类的独特视角来弥补这些缺陷。",
-      "features": [
-        "分析 AI 在产品开发中的局限性",
-        "强调人类创造力的重要性",
-        "提供实际案例和经验分享",
-        "探讨设计与用户体验的微妙差异"
-      ],
-      "useCases": [
-        "开发者理解 AI 的局限性",
-        "产品经理在设计阶段做出更好的决策",
-        "团队在产品迭代中结合人类直觉与 AI 工具"
-      ],
-      "tags": [
-        "产品开发",
-        "AI 局限性",
-        "人类创造力"
-      ],
-      "url": "https://dev.to/jrbayguade/i-deliberately-vibe-coded-a-real-product-end-to-end-heres-what-ai-couldnt-do-for-me-boc",
-      "source": "Dev.to",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "Brave Search",
-      "type": "MCP 服务",
-      "description": "使用 Brave 的独立索引搜索网页、新闻、图片和视频，提升信息检索能力。",
-      "details": "Brave Search 提供了一个独立的搜索引擎，用户可以通过自带的订阅令牌访问其 API。适用于需要获取多种类型信息的场景，如开发者在构建应用时需要快速查找相关资料，或用户希望在隐私保护的前提下进行信息搜索。与其他搜索引擎相比，Brave Search 更加注重用户隐私，避免跟踪用户行为，同时提供丰富的搜索结果。",
-      "features": [
-        "独立的搜索引擎",
-        "支持网页、新闻、图片和视频搜索",
-        "提供 API 接口",
-        "注重用户隐私"
-      ],
-      "useCases": [
-        "开发者快速查找技术文档",
-        "用户在隐私保护下搜索信息",
-        "研究人员获取相关研究资料"
-      ],
-      "tags": [
-        "搜索引擎",
-        "隐私保护",
-        "信息检索"
-      ],
-      "url": "https://smithery.ai/server/brave",
-      "source": "Smithery MCP",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "Claude Skills",
-      "type": "官方平台更新",
-      "description": "Claude Skills 是 Anthropic 发布的一系列新功能，旨在提升 AI 的交互能力和实用性。",
-      "details": "Claude Skills 通过引入新的交互模式和功能，允许用户在不同场景下更灵活地使用 AI。例如，用户可以在编程时利用这些技能自动化常见任务，如代码审查和安全检查。这些技能的设计考虑了与现有工具的兼容性，使得开发者能够无缝集成到他们的工作流中，提升效率。",
-      "features": [
-        "支持多种编程语言的代码审查",
-        "自动化安全漏洞检测",
-        "集成现有开发工具",
-        "提供实时反馈和建议"
-      ],
-      "useCases": [
-        "开发者在提交代码前进行安全检查",
-        "团队在代码审查时提高效率",
-        "用户在编写文档时获取实时建议"
-      ],
-      "tags": [
-        "AI技能",
-        "编程工具",
-        "安全检查"
-      ],
-      "url": "https://www.anthropic.com/news/skills",
-      "source": "Hacker News",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "Exa Search",
-      "type": "MCP 服务",
-      "description": "Exa Search 提供快速、智能的网页搜索和爬虫功能，帮助开发者获取最新的库、API 和 SDK 信息。",
-      "details": "Exa Search 是一个高效的网络搜索工具，专为开发者设计，能够实时抓取和更新关于各种开发资源的信息。它支持多种编程语言和框架，确保用户能够快速找到所需的文档和工具。与其他搜索引擎相比，Exa Search 更加专注于技术资源，提供更精准的搜索结果，适合开发者在项目中快速获取信息。",
-      "features": [
-        "实时抓取最新的库和 API 信息",
-        "支持多种编程语言和框架",
-        "提供智能搜索建议",
-        "快速返回相关结果"
-      ],
-      "useCases": [
-        "查找最新的开发库和工具",
-        "获取特定 API 的文档和示例",
-        "监控技术栈的更新动态"
-      ],
-      "tags": [
-        "网页搜索",
-        "开发工具",
-        "API 查询"
-      ],
-      "url": "https://smithery.ai/server/exa",
-      "source": "Smithery MCP",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "Show HN: I Made a Claude Skill for Spec-Driven Development (SDD)",
-      "type": "方法论 / 文章",
-      "description": "该 Skill 通过规范驱动开发（SDD）提升 Coding Agent 的代码质量和一致性，帮助开发者更高效地管理项目需求。",
-      "details": "该项目提供了一种基于规范驱动开发的技能，允许开发者在编码过程中自动生成和验证代码规范。通过集成到开发流程中，Skill 能够在提交代码前检查是否符合预设的规范，确保代码的一致性和可维护性。与传统的手动检查不同，该 Skill 自动化了规范验证过程，减少了人为错误，提高了开发效率。兼容多种编程语言和开发环境，适用于使用 Git 的项目。",
-      "features": [
-        "自动生成代码规范文档",
-        "在提交前验证代码是否符合规范",
-        "支持多种编程语言",
-        "集成到现有的 CI/CD 流程中"
-      ],
-      "useCases": [
-        "开发者在提交代码前自动检查规范",
-        "团队在项目初期定义和维护代码规范",
-        "项目经理确保代码质量符合团队标准"
-      ],
-      "tags": [
-        "规范驱动开发",
-        "代码质量",
-        "自动化工具"
-      ],
-      "url": "https://github.com/FredAntB/Spec-Driven-Development",
-      "source": "Hacker News",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "MCP server that reduces Claude Code context consumption by 98%",
-      "type": "MCP 服务",
-      "description": "该 MCP 服务显著降低 Claude Code 的上下文消耗，提升效率。",
-      "details": "此 MCP 服务通过优化上下文管理，减少 Claude Code 在处理请求时所需的上下文信息，达到 98% 的消耗降低。适用于需要频繁调用 Claude Code 的场景，如大规模数据处理或实时应用。与传统方法相比，该服务在资源利用率上表现更佳，能够支持更高并发的请求处理。技术栈兼容性良好，适合与现有的开发环境无缝集成。",
-      "features": [
-        "上下文消耗降低 98%",
-        "支持高并发请求处理",
-        "优化资源利用率",
-        "与现有开发环境兼容"
-      ],
-      "useCases": [
-        "处理大规模数据时减少资源消耗",
-        "在实时应用中提升响应速度",
-        "支持多用户同时调用 Claude Code"
-      ],
-      "tags": [
-        "MCP服务",
-        "Claude Code",
-        "上下文管理"
-      ],
-      "url": "https://mksg.lu/blog/context-mode",
-      "source": "Hacker News",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "MCP server for Ghidra",
-      "type": "MCP 服务",
-      "description": "该 Skill 提供了一个 MCP 服务器，支持 Ghidra 的逆向工程工作流，增强了代码分析能力。",
-      "details": "MCP server for Ghidra 是一个专为 Ghidra 设计的服务，允许用户在逆向工程过程中使用 MCP 功能。它可以在代码分析时提供实时反馈，帮助开发者快速识别潜在问题。与传统的 Ghidra 使用方式相比，MCP server 提供了更高效的工作流，支持多用户协作和自动化分析。该服务兼容 Ghidra 的最新版本，确保用户能够利用最新的功能和修复。",
-      "features": [
-        "支持多用户同时连接",
-        "实时代码分析反馈",
-        "自动化逆向工程任务",
-        "集成 Ghidra 插件",
-        "提供 API 接口"
-      ],
-      "useCases": [
-        "进行代码审计时快速识别漏洞",
-        "在团队中共享逆向工程结果",
-        "自动化处理常见的逆向工程任务"
-      ],
-      "tags": [
-        "Ghidra",
-        "逆向工程",
-        "MCP",
-        "代码分析",
-        "自动化"
-      ],
-      "url": "https://github.com/LaurieWired/GhidraMCP",
-      "source": "Hacker News",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "Claude Code skills that build complete Godot games",
-      "type": "agent-skills 仓库",
-      "description": "该仓库提供了一系列 Claude Code 技能，帮助开发者快速构建完整的 Godot 游戏。",
-      "details": "这个项目包含了多种 Claude Code 技能，专注于游戏开发，特别是使用 Godot 引擎。开发者可以利用这些技能来自动化游戏开发流程，例如生成游戏场景、处理用户输入和管理游戏状态。与其他游戏开发工具相比，这些技能提供了更高的灵活性和可扩展性，支持多种编程语言和平台，适合不同水平的开发者使用。",
-      "features": [
-        "自动生成游戏场景",
-        "处理用户输入",
-        "管理游戏状态",
-        "集成多种编程语言支持",
-        "提供示例代码和文档"
-      ],
-      "useCases": [
-        "开发者快速创建游戏原型",
-        "学生学习游戏开发基础",
-        "独立开发者实现创意游戏",
-        "团队协作开发大型游戏项目"
-      ],
-      "tags": [
-        "游戏开发",
-        "Godot",
-        "Claude Code",
-        "自动化",
-        "开源"
-      ],
-      "url": "https://github.com/htdt/godogen",
-      "source": "Hacker News",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "Mesh MCP",
-      "type": "MCP 服务",
-      "description": "Mesh MCP 提供无缝的网络访问，简化服务器管理，提升应用与工作流的效率。",
-      "details": "Mesh MCP 允许用户轻松集成现有系统，利用多种工具来增强应用程序和工作流。用户可以在不同的环境中快速部署服务，确保网络连接的稳定性和安全性。与其他服务相比，Mesh MCP 的灵活性和易用性使其成为开发者的理想选择，支持多种技术栈，兼容性强。",
-      "features": [
-        "无缝网络访问",
-        "多种工具集成",
-        "高效的服务器管理",
-        "支持多种技术栈"
-      ],
-      "useCases": [
-        "快速部署服务",
-        "提升应用程序效率",
-        "简化工作流管理"
-      ],
-      "tags": [
-        "网络服务",
-        "应用集成",
-        "工作流优化"
-      ],
-      "url": "https://smithery.ai/server/clay-inc/clay-mcp",
-      "source": "Smithery MCP",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "Tavily",
-      "type": "MCP 服务",
-      "description": "Tavily 提供快速、准确的网络搜索结果，优化了 AI 的使用体验，用户可获得干净、结构化的答案及相关链接。",
-      "details": "Tavily 是一个专为 AI 优化的搜索工具，能够快速返回相关信息，适用于需要高效信息检索的场景。用户在进行研究或获取特定数据时，可以依赖 Tavily 提供的结构化答案和来源链接。与传统搜索引擎相比，Tavily 更加注重结果的相关性评分，确保用户获取的信息更具价值和准确性。该工具兼容多种平台，适合开发者和研究人员使用。",
-      "features": [
-        "快速返回搜索结果",
-        "提供结构化答案",
-        "附带来源链接",
-        "相关性评分优化"
-      ],
-      "useCases": [
-        "进行市场调研时获取相关数据",
-        "在编写报告时快速查找信息",
-        "为开发项目寻找技术文档"
-      ],
-      "tags": [
-        "搜索工具",
-        "AI 优化",
-        "信息检索"
-      ],
-      "url": "https://smithery.ai/server/Tavily",
-      "source": "Smithery MCP",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "Claude Skills are awesome, maybe a bigger deal than MCP",
-      "type": "方法论 / 文章",
-      "description": "这篇文章讨论了 Claude Skills 的潜力，认为其重要性可能超过 MCP，适合对 AI 技术感兴趣的开发者阅读。",
-      "details": "在 Hacker News 上，作者探讨了 Claude Skills 的应用场景和优势，认为这些技能能够显著提升 AI 的能力，尤其是在处理复杂任务时。与传统的 MCP 相比，Claude Skills 提供了更灵活的解决方案，能够适应多种开发环境和需求。文章中还提到了一些具体的应用案例，展示了这些技能如何在实际项目中发挥作用。",
-      "features": [
-        "支持多种编程语言",
-        "集成简单，易于上手",
-        "提供实时反馈",
-        "可扩展性强"
-      ],
-      "useCases": [
-        "开发者在构建 AI 应用时提升效率",
-        "团队在代码审查中自动化检查",
-        "项目管理中优化任务分配"
-      ],
-      "tags": [
-        "Claude Skills",
-        "AI 技术",
-        "开发者工具"
-      ],
-      "url": "https://simonwillison.net/2025/Oct/16/claude-skills/",
-      "source": "Hacker News",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "Jina AI",
-      "type": "MCP 服务",
-      "description": "Jina AI 是一个基于 AI 的搜索和检索平台，能够搜索网络、读取页面内容、提取结构化数据，并为 AI 响应提供基础。",
-      "details": "Jina AI 允许用户在各种数据源中进行高效的搜索和信息提取。通过其强大的检索能力，用户可以在网页内容中快速找到所需信息，并将其结构化以便进一步处理。与传统搜索引擎不同，Jina AI 专注于 AI 驱动的检索，支持多种数据格式和类型，适用于需要快速获取和处理信息的场景，如数据分析、内容管理和智能问答系统。",
-      "features": [
-        "支持多种数据源的搜索",
-        "提取网页内容中的结构化数据",
-        "提供 AI 响应的基础",
-        "支持自定义检索模型",
-        "实时更新搜索结果"
-      ],
-      "useCases": [
-        "在数据分析中快速检索相关信息",
-        "为智能问答系统提供实时数据支持",
-        "在内容管理系统中提取和组织信息"
-      ],
-      "tags": [
-        "搜索",
-        "数据提取",
-        "AI"
-      ],
-      "url": "https://smithery.ai/server/jina",
-      "source": "Smithery MCP",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "smolagents/computer-agent",
-      "type": "agent-skills 仓库",
-      "description": "这个 Skill 使 Coding Agent 能够更好地与计算机进行交互，提升自动化处理能力。",
-      "details": "smolagents/computer-agent 是一个专为 Coding Agent 设计的工具，能够在编程过程中自动执行特定的计算机操作。它可以在代码提交前自动检查代码质量，确保代码符合规范，并且在运行时提供实时反馈。与其他类似工具相比，它的优势在于其轻量级和易于集成的特性，支持多种编程语言和环境，适合开发者在日常工作中使用。",
-      "features": [
-        "自动代码质量检查",
-        "实时反馈机制",
-        "支持多种编程语言",
-        "轻量级集成",
-        "易于使用的接口"
-      ],
-      "useCases": [
-        "在代码提交前检查代码质量",
-        "实时监控代码运行状态",
-        "自动化执行重复性任务",
-        "集成到现有开发流程中",
-        "提供编程建议和优化"
-      ],
-      "tags": [
-        "编程工具",
-        "自动化",
-        "代码质量",
-        "开发者工具",
-        "实时反馈"
-      ],
-      "url": "https://huggingface.co/spaces/smolagents/computer-agent",
-      "source": "HF Spaces",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "First_agent_template",
-      "type": "agent-skills 仓库",
-      "description": "该模板为开发者提供了一个基础框架，帮助他们快速构建自己的智能代理，提升自动化能力。",
-      "details": "此模板适用于希望创建自定义智能代理的开发者。用户可以在此基础上添加特定功能，如数据处理、API 调用等。与其他模板相比，该模板提供了更灵活的配置选项，支持多种编程语言和框架，确保兼容性和扩展性。",
-      "features": [
-        "支持多种编程语言",
-        "灵活的配置选项",
-        "内置示例代码",
-        "易于集成第三方 API",
-        "可扩展的插件系统"
-      ],
-      "useCases": [
-        "构建自定义数据处理代理",
-        "创建自动化测试工具",
-        "开发实时数据监控系统",
-        "实现智能客服解决方案"
-      ],
-      "tags": [
-        "智能代理",
-        "自动化",
-        "开发工具"
-      ],
-      "url": "https://huggingface.co/spaces/agents-course/First_agent_template",
-      "source": "HF Spaces",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "galileo-ai/agent-leaderboard",
-      "type": "agent-skills 仓库",
-      "description": "该仓库提供了一个用于评估和比较不同 AI Agent 的排行榜，帮助开发者了解各个 Agent 的性能。",
-      "details": "在 AI 开发过程中，选择合适的 Agent 是关键。该排行榜展示了多种 AI Agent 的性能指标，开发者可以通过可视化界面快速对比不同 Agent 的优缺点。与其他评估工具不同，galileo-ai/agent-leaderboard 提供了实时更新的性能数据，确保开发者获取最新的信息。支持多种模型和框架，兼容 Hugging Face 的生态系统，便于集成和使用。",
-      "features": [
-        "实时性能比较",
-        "多种模型支持",
-        "用户友好的可视化界面",
-        "支持 Hugging Face 生态系统",
-        "定期更新排行榜"
-      ],
-      "useCases": [
-        "评估不同 AI Agent 的性能",
-        "选择适合项目的 Agent",
-        "比较模型在特定任务上的表现"
-      ],
-      "tags": [
-        "AI Agent",
-        "性能评估",
-        "Hugging Face"
-      ],
-      "url": "https://huggingface.co/spaces/galileo-ai/agent-leaderboard",
-      "source": "HF Spaces",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "jupyter-agent/jupyter-agent",
-      "type": "agent-skills 仓库",
-      "description": "该 Skill 使 Coding Agent 能够在 Jupyter Notebook 环境中执行代码并进行交互式编程。",
-      "details": "jupyter-agent 是一个集成在 Jupyter Notebook 中的代理，允许用户通过自然语言与代码进行交互。用户可以输入问题或请求，代理将自动生成相应的代码并执行，适用于教育、数据分析和快速原型开发等场景。与传统的代码编辑器不同，jupyter-agent 提供了更为直观的交互方式，支持多种编程语言，兼容 Jupyter 的生态系统。",
-      "features": [
-        "支持自然语言输入生成代码",
-        "实时执行代码并返回结果",
-        "支持多种编程语言",
-        "集成 Jupyter Notebook 环境",
-        "提供代码示例和解释"
-      ],
-      "useCases": [
-        "教育场景中帮助学生理解编程概念",
-        "数据分析师快速生成数据处理代码",
-        "开发者快速原型设计和测试代码",
-        "研究人员进行实验和数据可视化",
-        "用户在 Jupyter Notebook 中进行交互式编程"
-      ],
-      "tags": [
-        "Jupyter",
-        "编程助手",
-        "自然语言处理",
-        "数据分析",
-        "教育"
-      ],
-      "url": "https://huggingface.co/spaces/jupyter-agent/jupyter-agent",
-      "source": "HF Spaces",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "mcp-server",
-      "type": "MCP 服务",
-      "description": "mcp-server 是一个用于构建和管理 Minecraft 服务器的工具，提供了简化的操作方式。",
-      "details": "mcp-server 允许用户轻松创建和管理 Minecraft 服务器，支持多种配置选项和插件。用户可以通过简单的命令行接口快速启动服务器，配置游戏模式、玩家数量等。与其他 Minecraft 服务器管理工具相比，mcp-server 提供了更为直观的设置和更高的灵活性，适合新手和有经验的开发者使用。该工具兼容多种操作系统，确保用户能够在不同环境下顺利运行。",
-      "features": [
-        "快速启动 Minecraft 服务器",
-        "支持多种游戏模式配置",
-        "插件管理功能",
-        "命令行界面操作简便"
-      ],
-      "useCases": [
-        "创建 Minecraft 服务器供朋友游玩",
-        "配置服务器以适应不同的游戏模式",
-        "管理服务器插件以增强游戏体验"
-      ],
-      "tags": [
-        "Minecraft",
-        "服务器管理",
-        "游戏工具"
-      ],
-      "url": "https://www.npmjs.com/package/mcp-server",
-      "source": "npm",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "@apify/actors-mcp-server",
-      "type": "MCP 服务",
-      "description": "Apify MCP Server 提供了一个强大的平台，用于管理和运行 Apify Actors，支持高效的任务调度和监控。",
-      "details": "Apify MCP Server 是一个专为 Apify Actors 设计的服务，允许用户在云端轻松管理和运行爬虫任务。它支持多种任务调度策略，用户可以根据需求设置定时任务或触发器。此外，MCP Server 提供了实时监控功能，用户可以随时查看任务的执行状态和日志。与其他爬虫管理工具相比，MCP Server 的集成性更强，能够无缝连接 Apify 的其他服务，如数据存储和代理管理，确保用户的爬虫任务高效且稳定地运行。",
-      "features": [
-        "支持多种任务调度策略",
-        "实时监控任务执行状态",
-        "集成 Apify 数据存储服务",
-        "提供详细的任务日志",
-        "支持多用户协作管理"
-      ],
-      "useCases": [
-        "管理和调度爬虫任务",
-        "实时监控爬虫执行情况",
-        "与团队成员协作开发爬虫",
-        "自动化数据采集流程",
-        "快速响应数据变化"
-      ],
-      "tags": [
-        "爬虫管理",
-        "任务调度",
-        "数据采集"
-      ],
-      "url": "https://www.npmjs.com/package/@apify/actors-mcp-server",
-      "source": "npm",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "agents-course/unit_1_quiz",
-      "type": "Skill 精选",
-      "description": "这个 Skill 提供了一个交互式测验，帮助用户巩固对代理课程第一单元的理解。",
-      "details": "该测验设计用于评估用户对代理课程第一单元内容的掌握程度。用户可以通过完成测验来检验自己的学习成果，系统会即时反馈答案的正确性。与其他学习工具相比，这个测验不仅提供了选择题，还包含了开放性问题，鼓励用户深入思考。适用于所有希望提升其在代理领域知识的学习者，兼容多种设备，方便用户随时随地进行学习。",
-      "features": [
-        "提供即时反馈",
-        "包含选择题和开放性问题",
-        "支持多设备访问",
-        "适合不同学习水平的用户"
-      ],
-      "useCases": [
-        "学习者自测知识掌握情况",
-        "教师用作课堂测验",
-        "培训机构评估学员进度"
-      ],
-      "tags": [
-        "测验",
-        "学习工具",
-        "代理课程"
-      ],
-      "url": "https://huggingface.co/spaces/agents-course/unit_1_quiz",
-      "source": "HF Spaces",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "@upstash/context7-mcp",
-      "type": "MCP 服务",
-      "description": "Context7 的 MCP 服务器，提供高效的上下文管理能力。",
-      "details": "该 MCP 服务器专为 Context7 设计，能够处理复杂的上下文数据，支持多种数据源的集成。它可以在应用程序中实现动态上下文切换，提升用户体验。与其他上下文管理工具相比，@upstash/context7-mcp 提供了更灵活的 API 和更高的性能，适用于需要实时数据处理的场景。支持 Node.js 环境，易于与现有项目集成。",
-      "features": [
-        "动态上下文切换",
-        "多数据源集成",
-        "高性能 API",
-        "实时数据处理"
-      ],
-      "useCases": [
-        "管理复杂的用户会话",
-        "在应用中实现个性化推荐",
-        "处理实时数据流",
-        "支持多用户环境下的上下文共享"
-      ],
-      "tags": [
-        "上下文管理",
-        "MCP",
-        "Node.js"
-      ],
-      "url": "https://www.npmjs.com/package/@upstash/context7-mcp",
-      "source": "npm",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "Is This How We'll Build Websites Soon? (webMCP Live Demo 🚀)",
-      "type": "方法论 / 文章",
-      "description": "本文章探讨了未来网站构建的趋势，尤其是移动设备适配的演变。",
-      "details": "随着移动设备的普及，网站构建的方式也在不断演变。文章中介绍了如何通过 webMCP 工具实现更高效的网站构建，尤其是在响应式设计和用户体验方面的改进。与传统的网站构建方法相比，webMCP 提供了更灵活的布局和组件管理，使得开发者能够快速适应不同设备的需求。技术栈方面，webMCP 兼容主流前端框架，适合现代开发环境。",
-      "features": [
-        "支持响应式设计",
-        "组件化布局管理",
-        "实时预览功能",
-        "简化的移动适配流程"
-      ],
-      "useCases": [
-        "开发者构建适配移动设备的网站",
-        "团队快速迭代网站设计",
-        "提升用户体验和访问速度"
-      ],
-      "tags": [
-        "网站构建",
-        "移动适配",
-        "webMCP"
-      ],
-      "url": "https://dev.to/sylwia-lask/is-this-how-well-build-websites-soon-webmcp-live-demo--2e33",
-      "source": "Dev.to",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "@sentry/mcp-server",
-      "type": "MCP 服务",
-      "description": "Sentry MCP Server 提供了一个高效的错误监控和报告解决方案，帮助开发者快速定位和修复问题。",
-      "details": "Sentry MCP Server 是一个用于监控和管理应用程序错误的服务，能够实时捕获和报告错误信息。开发者可以通过集成 Sentry 来自动化错误跟踪，减少手动排查的时间。与其他错误监控工具相比，Sentry 提供了更为详细的上下文信息，支持多种编程语言和框架，确保兼容性和灵活性。它适用于各种规模的项目，从小型应用到大型企业级系统。",
-      "features": [
-        "实时捕获应用程序错误",
-        "提供详细的错误上下文信息",
-        "支持多种编程语言和框架",
-        "集成简单，易于使用"
-      ],
-      "useCases": [
-        "监控生产环境中的应用错误",
-        "快速定位和修复代码中的问题",
-        "分析错误趋势以优化代码质量"
-      ],
-      "tags": [
-        "错误监控",
-        "应用程序管理",
-        "开发者工具"
-      ],
-      "url": "https://www.npmjs.com/package/@sentry/mcp-server",
-      "source": "npm",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "AI gateways: why and how",
-      "type": "方法论 / 文章",
-      "description": "这篇文章探讨了 API 网关的概念及其在 AI 应用中的重要性，帮助开发者理解如何利用 API 网关提升系统架构。",
-      "details": "在过去的两年中，作者深入研究了 Apache APISIX API 网关，分享了其在 AI 项目中的应用场景。文章详细介绍了 API 网关如何简化服务间的通信、增强安全性，并提供流量管理功能。与传统的服务架构相比，API 网关能够有效地处理请求路由、负载均衡和身份验证，适用于微服务架构和大规模分布式系统。",
-      "features": [
-        "简化服务间通信",
-        "增强系统安全性",
-        "提供流量管理功能",
-        "支持负载均衡"
-      ],
-      "useCases": [
-        "开发者构建微服务架构时使用 API 网关",
-        "团队管理 API 流量和安全策略",
-        "企业提升系统可扩展性和维护性"
-      ],
-      "tags": [
-        "API网关",
-        "微服务",
-        "系统架构"
-      ],
-      "url": "https://dev.to/nfrankel/ai-gateways-why-and-how-b5o",
-      "source": "Dev.to",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "I asked Cursor to rename a function. It sent 8,400 tokens. I checked.",
-      "type": "方法论 / 文章",
-      "description": "这篇文章探讨了使用 Cursor 进行函数重命名的过程及其生成的庞大输出，揭示了 AI 工具在代码重构中的潜力与局限。",
-      "details": "在这篇文章中，作者分享了他使用 Cursor 重命名函数的经历，结果生成了 8,400 个 token 的输出。通过对比分析，作者揭示了 AI 在代码重构中的实际应用效果，以及如何评估 AI 工具的输出质量。文章还讨论了在实际开发中，如何合理利用 AI 工具来提高工作效率，同时避免不必要的冗余输出。",
-      "features": [
-        "分析 AI 输出的有效性",
-        "比较不同重命名策略的效果",
-        "探讨 AI 工具在代码重构中的应用场景",
-        "提供实用的代码重构建议"
-      ],
-      "useCases": [
-        "开发者评估 AI 工具的输出质量",
-        "团队讨论如何优化代码重构流程",
-        "学习如何使用 AI 工具提升编码效率"
-      ],
-      "tags": [
-        "AI 工具",
-        "代码重构",
-        "开发者经验"
-      ],
-      "url": "https://dev.to/thegdsks/i-asked-cursor-to-rename-a-function-it-sent-8400-tokens-i-checked-434h",
-      "source": "Dev.to",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "Debloating The AI-Grown Codebase",
-      "type": "方法论 / 文章",
-      "description": "本文章探讨如何优化 AI 生成的代码库，减少冗余，提高代码质量，适合开发者和团队使用。",
-      "details": "随着 AI 代理的使用，代码库中常常会出现冗余和不必要的复杂性。本文提供了一系列策略，帮助开发者识别和消除这些问题，从而提升代码的可维护性和可读性。通过具体示例，读者可以学习如何在代码审查和合并请求中应用这些技巧，确保代码库的整洁。与其他方法相比，本文强调了 AI 生成代码的特定挑战，并提供了针对性的解决方案，适用于多种编程语言和框架。",
-      "features": [
-        "识别冗余代码",
-        "优化代码结构",
-        "提高代码可读性",
-        "减少技术债务"
-      ],
-      "useCases": [
-        "开发者审查 AI 生成的代码",
-        "团队优化现有代码库",
-        "提高代码合并请求的质量"
-      ],
-      "tags": [
-        "代码优化",
-        "AI 生成代码",
-        "技术债务"
-      ],
-      "url": "https://dev.to/maximsaplin/debloating-the-ai-grown-codebase-2om",
-      "source": "Dev.to",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "@notionhq/notion-mcp-server",
-      "type": "MCP 服务",
-      "description": "这是 Notion API 的官方 MCP 服务器，提供了与 Notion 交互的能力。",
-      "details": "该 MCP 服务器允许开发者通过 Notion API 进行高效的数据管理和操作。它支持实时更新和数据同步，适用于需要与 Notion 进行深度集成的应用程序。与其他第三方解决方案相比，Notion MCP 服务器提供了更好的兼容性和稳定性，确保开发者能够无缝地访问 Notion 的功能。该服务使用 Node.js 构建，易于与现有的 JavaScript 应用程序集成。",
-      "features": [
-        "实时数据同步",
-        "支持多用户协作",
-        "提供 API 访问控制",
-        "支持自定义数据模型",
-        "集成 Notion 的所有功能"
-      ],
-      "useCases": [
-        "构建与 Notion 数据库交互的应用",
-        "实现团队协作工具与 Notion 的集成",
-        "开发自动化工作流以管理 Notion 内容"
-      ],
-      "tags": [
-        "Notion",
-        "MCP",
-        "API",
-        "数据管理",
-        "开发工具"
-      ],
-      "url": "https://www.npmjs.com/package/@notionhq/notion-mcp-server",
-      "source": "npm",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "lvwerra/jupyter-agent-2",
-      "type": "agent-skills 仓库",
-      "description": "这个 Skill 使得 Coding Agent 能够在 Jupyter 环境中执行代码并进行交互式编程。",
-      "details": "lvwerra/jupyter-agent-2 是一个基于 Hugging Face Spaces 的项目，旨在为 Jupyter Notebook 提供智能助手功能。用户可以通过这个 Agent 在 Notebook 中直接运行代码、获取建议和进行调试，提升编程效率。与其他 Jupyter 插件相比，该项目专注于自然语言处理和机器学习的集成，支持多种编程语言和库，兼容性强，适合数据科学家和开发者使用。",
-      "features": [
-        "支持多种编程语言",
-        "实时代码执行",
-        "自然语言查询",
-        "智能代码建议",
-        "错误调试提示"
-      ],
-      "useCases": [
-        "在 Jupyter Notebook 中快速执行代码",
-        "通过自然语言获取编程建议",
-        "调试代码时自动提示错误",
-        "与数据科学库无缝集成",
-        "提升编程学习效率"
-      ],
-      "tags": [
-        "Jupyter",
-        "编程助手",
-        "机器学习",
-        "自然语言处理",
-        "数据科学"
-      ],
-      "url": "https://huggingface.co/spaces/lvwerra/jupyter-agent-2",
-      "source": "HF Spaces",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "Getting Claude Code off my laptop and onto shared compute",
-      "type": "方法论 / 文章",
-      "description": "本文介绍如何将 Claude Code 从个人电脑迁移到共享计算环境，帮助团队协作和资源共享。",
-      "details": "在团队开发中，个人机器上的 Claude Code 可能无法直接共享。本文提供了一系列步骤和最佳实践，帮助用户将代码迁移到共享计算环境，确保团队成员可以访问和使用相同的代码库。通过使用 Docker 和云服务，用户可以轻松部署和管理 Claude Code，避免了环境不一致的问题。与传统的手动迁移方式相比，这种方法更加高效和可靠。",
-      "features": [
-        "使用 Docker 容器化 Claude Code",
-        "配置共享计算环境",
-        "实现代码版本控制",
-        "自动化部署流程",
-        "支持多用户协作"
-      ],
-      "useCases": [
-        "团队成员共享 Claude Code",
-        "在云环境中运行 Claude Code",
-        "快速部署更新到共享环境",
-        "管理代码版本和依赖",
-        "提高团队开发效率"
-      ],
-      "tags": [
-        "Claude Code",
-        "共享计算",
-        "团队协作",
-        "云服务",
-        "Docker"
-      ],
-      "url": "https://dev.to/aws-heroes/getting-claude-code-off-my-laptop-and-onto-shared-compute-4cjc",
-      "source": "Dev.to",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "chrome-devtools-mcp",
-      "type": "MCP 服务",
-      "description": "chrome-devtools-mcp 是一个为 Chrome DevTools 提供的 MCP 服务器，增强了开发者的调试能力。",
-      "details": "该服务允许开发者通过 MCP 协议与 Chrome DevTools 进行交互，支持实时调试和监控。开发者可以在本地或远程环境中使用此服务，简化调试流程。与传统的调试工具相比，chrome-devtools-mcp 提供了更灵活的连接方式和更高的可扩展性，适用于多种开发场景。该服务兼容 Node.js 环境，易于集成到现有的开发工作流中。",
-      "features": [
-        "支持实时调试和监控",
-        "提供 MCP 协议的接口",
-        "兼容 Node.js 环境",
-        "简化与 Chrome DevTools 的交互",
-        "支持本地和远程调试"
-      ],
-      "useCases": [
-        "在开发过程中实时监控应用性能",
-        "通过 MCP 协议与 Chrome DevTools 进行调试",
-        "集成到 CI/CD 流程中进行自动化测试"
-      ],
-      "tags": [
-        "调试工具",
-        "Chrome DevTools",
-        "MCP 服务"
-      ],
-      "url": "https://www.npmjs.com/package/chrome-devtools-mcp",
-      "source": "npm",
-      "date": "2026-06-12"
-    },
-    {
       "title": "ECC 性能优化系统",
       "type": "编程开发",
       "description": "ECC 是一个性能优化系统，提供技能、直觉、记忆、安全性和以研究为先的开发，支持 Claude Code、Codex、Opencode、Cursor 等多种工具。",
       "tags": [
         "性能优化",
         "开发工具",
-        "AI 代理"
+        "AI 系统"
       ],
       "url": "https://github.com/affaan-m/ECC",
       "source": "GitHub",
-      "stars": 213274,
-      "date": "2026-06-12"
+      "stars": 215554,
+      "date": "2026-06-15"
+    },
+    {
+      "title": "Hermes Agent",
+      "type": "编程开发",
+      "description": "Hermes Agent 是一个能够随着用户需求不断成长的智能代理，帮助开发者在编程过程中实现更高效的任务管理和自动化。它提供灵活的功能扩展，适应不同的开发场景。",
+      "tags": [
+        "智能代理",
+        "任务管理",
+        "自动化工具"
+      ],
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "source": "GitHub",
+      "stars": 193593,
+      "date": "2026-06-15"
     },
     {
       "title": "n8n 工作流自动化",
       "type": "编程开发",
-      "description": "n8n 是一个公平代码的工作流自动化平台，具备原生 AI 能力。用户可以通过可视化构建与自定义代码相结合的方式，自主托管或使用云服务，并支持 400 多种集成。",
+      "description": "n8n 是一个公平代码的工作流自动化平台，具备原生 AI 能力。用户可以通过可视化构建与自定义代码相结合，选择自托管或云端部署，并支持 400 多种集成。",
       "tags": [
         "工作流自动化",
         "可视化构建",
-        "自定义代码"
+        "自托管"
       ],
       "url": "https://github.com/n8n-io/n8n",
       "source": "GitHub",
-      "stars": 192063,
-      "date": "2026-06-12"
-    },
-    {
-      "title": "NousResearch/hermes-agent",
-      "type": "编程开发",
-      "description": "这个代理工具能够随着用户的需求不断成长，帮助开发者更高效地构建和管理 AI 代理，提升开发体验和灵活性。",
-      "tags": [
-        "AI 代理",
-        "开发工具",
-        "灵活扩展"
-      ],
-      "url": "https://github.com/NousResearch/hermes-agent",
-      "source": "GitHub",
-      "stars": 190752,
-      "date": "2026-06-12"
+      "stars": 192538,
+      "date": "2026-06-15"
     },
     {
       "title": "AutoGPT",
       "type": "编程开发",
-      "description": "AutoGPT 是一个让每个人都能轻松使用和构建的 AI 工具。我们的使命是提供必要的工具，让您能够专注于真正重要的事情。",
+      "description": "AutoGPT 是一个让每个人都能轻松使用和构建的 AI 工具。我们的使命是提供必要的工具，让你能够专注于真正重要的事情。",
       "tags": [
         "AI 工具",
         "开发平台",
-        "易用性"
+        "开源项目"
       ],
       "url": "https://github.com/Significant-Gravitas/AutoGPT",
       "source": "GitHub",
-      "stars": 184886,
-      "date": "2026-06-12"
+      "stars": 184940,
+      "date": "2026-06-15"
     },
     {
       "title": "Claude Code 改进工具",
       "type": "编程开发",
-      "description": "该工具提供一个 CLAUDE.md 文件，旨在改善 Claude Code 的行为，基于 Andrej Karpathy 对大型语言模型编程陷阱的观察，帮助开发者避免常见错误。",
+      "description": "该工具提供一个 CLAUDE.md 文件，旨在改善 Claude Code 的行为，基于 Andrej Karpathy 对大型语言模型编码陷阱的观察，帮助开发者更好地理解和避免常见问题。",
       "tags": [
-        "编程优化",
-        "代码改进",
-        "开发者工具"
+        "编码优化",
+        "开发者工具",
+        "语言模型"
       ],
       "url": "https://github.com/multica-ai/andrej-karpathy-skills",
       "source": "GitHub",
-      "stars": 173375,
-      "date": "2026-06-12"
+      "stars": 175452,
+      "date": "2026-06-15"
     },
     {
-      "title": "Java 面试指南",
+      "title": "Java 面试与后端指南",
       "type": "编程开发",
-      "description": "这是一个全面的 Java 面试与后端开发指南，涵盖计算机基础、数据库知识、分布式系统、高并发处理、系统设计以及 AI 应用开发等重要主题，帮助开发者提升面试准备和技术能力。",
+      "description": "这是一份全面的 Java 面试和后端开发指南，涵盖计算机基础、数据库知识、分布式系统、高并发处理、系统设计以及 AI 应用开发等内容，帮助开发者提升面试和实战能力。",
       "tags": [
         "Java 面试",
         "后端开发",
@@ -10727,167 +9256,181 @@
       ],
       "url": "https://github.com/Snailclimb/JavaGuide",
       "source": "GitHub",
-      "stars": 156318,
-      "date": "2026-06-12"
+      "stars": 156370,
+      "date": "2026-06-15"
     },
     {
       "title": "Claude 技能库",
       "type": "Claude Skill",
-      "description": "这是一个公开的资源库，提供多种 Agent 技能，帮助开发者和 AI Agent 拓展功能，实现更复杂的任务处理与自动化。适合希望提升 AI 应用能力的开发者使用。",
+      "description": "这是一个公共仓库，提供多种 Agent 技能，供开发者和 AI Agent 使用。通过这些技能，用户可以扩展 AI 的功能，提升其在特定任务中的表现。",
       "tags": [
-        "Agent 技能",
+        "AI 技能",
         "开发者工具",
-        "自动化"
+        "公共资源"
       ],
       "url": "https://github.com/anthropics/skills",
       "source": "GitHub",
-      "stars": 149404,
-      "date": "2026-06-12"
+      "stars": 150717,
+      "date": "2026-06-15"
     },
     {
       "title": "Dify 工作流开发平台",
       "type": "编程开发",
-      "description": "Dify 是一个可用于生产的工作流开发平台，支持创建智能代理工作流，帮助开发者快速构建和部署自动化解决方案。",
+      "description": "Dify 是一个生产就绪的平台，专为智能工作流开发而设计。它为开发者提供了构建和管理 AI 代理工作流的能力，简化了开发过程，提高了效率。",
       "tags": [
         "工作流开发",
         "智能代理",
-        "自动化解决方案"
+        "平台工具"
       ],
       "url": "https://github.com/langgenius/dify",
       "source": "GitHub",
-      "stars": 144857,
-      "date": "2026-06-12"
+      "stars": 145216,
+      "date": "2026-06-15"
     },
     {
-      "title": "用户友好的 AI 界面",
+      "title": "友好的 AI 界面",
       "type": "RAG / 知识库",
-      "description": "这个工具提供了一个直观的用户界面，支持 Ollama、OpenAI API 等多种 AI 接口，方便开发者和用户进行交互和操作。",
+      "description": "这个工具提供了一个用户友好的 AI 界面，支持 Ollama、OpenAI API 等多种接口，方便开发者和用户进行交互和操作，提升使用体验。",
       "tags": [
-        "AI 界面",
-        "开发工具",
-        "用户交互"
+        "用户界面",
+        "AI 接口",
+        "开发者工具"
       ],
       "url": "https://github.com/open-webui/open-webui",
       "source": "GitHub",
-      "stars": 141092,
-      "date": "2026-06-12"
+      "stars": 141528,
+      "date": "2026-06-15"
     },
     {
       "title": "LangChain 平台",
       "type": "RAG / 知识库",
-      "description": "LangChain 是一个专注于代理工程的平台，提供构建和管理 AI 代理的工具，帮助开发者更高效地整合和利用知识库，提升应用的智能化水平。",
+      "description": "LangChain 是一个专注于代理工程的平台，提供了构建和管理 AI 代理的工具和框架，帮助开发者更高效地实现智能应用。",
       "tags": [
         "代理工程",
-        "知识库集成",
-        "开发者工具"
+        "智能应用",
+        "开发工具"
       ],
       "url": "https://github.com/langchain-ai/langchain",
       "source": "GitHub",
-      "stars": 139046,
-      "date": "2026-06-12"
+      "stars": 139291,
+      "date": "2026-06-15"
     },
     {
       "title": "火爬虫",
       "type": "浏览器 / 自动化",
-      "description": "这是一个用于大规模搜索、抓取和与网络交互的 API，能够帮助开发者高效获取网页数据，提升数据处理能力。",
+      "description": "这是一个用于大规模搜索、抓取和与网络互动的 API，帮助开发者高效获取网页数据，提升自动化处理能力。",
       "tags": [
         "网页抓取",
         "数据搜索",
-        "自动化交互"
+        "自动化工具"
       ],
       "url": "https://github.com/firecrawl/firecrawl",
       "source": "GitHub",
-      "stars": 131423,
-      "date": "2026-06-12"
+      "stars": 132812,
+      "date": "2026-06-15"
     },
     {
       "title": "工程师技能集",
       "type": "Claude Skill",
-      "description": "这个技能集专为真实工程师设计，提供实用的工具和资源，帮助开发者提升工作效率，直接来自我的 .claude 目录。",
+      "description": "这个技能集为真实工程师提供了一系列实用技能，直接来源于我的 .claude 目录，帮助 AI Agent 和开发者提升工作效率和技术能力。",
       "tags": [
         "工程师工具",
-        "开发资源",
-        "技能提升"
+        "技能提升",
+        "AI 应用"
       ],
       "url": "https://github.com/mattpocock/skills",
       "source": "GitHub",
-      "stars": 125390,
-      "date": "2026-06-12"
+      "stars": 128886,
+      "date": "2026-06-15"
     },
     {
-      "title": "超实用的 LLM 应用",
+      "title": "超实用的 AI 应用集合",
       "type": "RAG / 知识库",
-      "description": "提供 100 多个可运行的 AI 代理和 RAG 应用，用户可以轻松克隆、定制并部署，适合开发者和 AI 爱好者使用。",
+      "description": "这个项目提供了 100 多个可以实际运行的 AI 代理和 RAG 应用，用户可以轻松克隆、定制和部署，适合开发者和 AI 爱好者使用。",
       "tags": [
         "AI 代理",
-        "RAG 应用",
-        "开发工具"
+        "应用集合",
+        "定制开发"
       ],
       "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "source": "GitHub",
-      "stars": 114272,
-      "date": "2026-06-12"
+      "stars": 114557,
+      "date": "2026-06-15"
     },
     {
-      "title": "Gemini 命令行工具",
+      "title": "Gemini CLI",
       "type": "MCP 服务",
-      "description": "这是一个开源的 AI 代理工具，能够将 Gemini 的功能直接集成到你的终端中，方便开发者进行各种 AI 任务的操作与管理。",
+      "description": "Gemini CLI 是一个开源 AI 代理，可以将 Gemini 的功能直接集成到终端中，方便开发者在命令行环境下进行 AI 相关操作和任务管理。",
       "tags": [
         "开源工具",
-        "终端集成",
+        "命令行",
         "AI 代理"
       ],
       "url": "https://github.com/google-gemini/gemini-cli",
       "source": "GitHub",
-      "stars": 105166,
-      "date": "2026-06-12"
+      "stars": 105278,
+      "date": "2026-06-15"
     },
     {
-      "title": "跨平台助手",
+      "title": "跨平台助手 CC-Switch",
       "type": "编程开发",
-      "description": "这是一个跨平台桌面助手，支持 Claude Code、Codex、OpenCode、OpenClaw、Gemini CLI 和 Hermes Agent，旨在提升开发者的工作效率。更多信息请访问官方网站 ccswitch.io。",
+      "description": "CC-Switch 是一个跨平台的桌面助手，支持 Claude Code、Codex、OpenCode、OpenClaw、Gemini CLI 和 Hermes Agent，帮助开发者更高效地管理和使用这些工具。官方网址为 ccswitch.io。",
       "tags": [
         "桌面助手",
-        "编程工具",
-        "跨平台支持"
+        "跨平台",
+        "开发工具"
       ],
       "url": "https://github.com/farion1231/cc-switch",
       "source": "GitHub",
-      "stars": 98412,
-      "date": "2026-06-12"
+      "stars": 100766,
+      "date": "2026-06-15"
     },
     {
       "title": "浏览器自动化工具",
       "type": "浏览器 / 自动化",
-      "description": "🌐 使网站对 AI 代理可访问，轻松在线自动化任务，提升工作效率。适合开发者和 AI 应用，简化操作流程。",
+      "description": "🌐 使网站对 AI 代理可访问，轻松在线自动化任务，提高工作效率。适合开发者和 AI 应用。",
       "tags": [
-        "网站自动化",
-        "任务管理",
-        "AI 代理"
+        "网站访问",
+        "任务自动化",
+        "开发者工具"
       ],
       "url": "https://github.com/browser-use/browser-use",
       "source": "GitHub",
-      "stars": 98294,
-      "date": "2026-06-12"
+      "stars": 98840,
+      "date": "2026-06-15"
     },
     {
       "title": "专业 UI/UX 设计智能",
       "type": "编程开发",
-      "description": "这是一个 AI 工具，提供设计智能，帮助开发者在多个平台上构建专业的用户界面和用户体验。通过此工具，用户可以提升设计效率，优化界面布局，增强用户互动体验。",
+      "description": "这个 AI 技能为开发者提供设计智能，帮助构建专业的 UI/UX 体验，适用于多个平台，提升用户界面的设计效率与质量。",
       "tags": [
-        "UI 设计",
-        "UX 体验",
-        "跨平台开发"
+        "UI设计",
+        "UX设计",
+        "多平台支持"
       ],
       "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
       "source": "GitHub",
-      "stars": 90333,
-      "date": "2026-06-12"
+      "stars": 91678,
+      "date": "2026-06-15"
+    },
+    {
+      "title": "MCP 服务器资源汇总",
+      "type": "MCP 服务",
+      "description": "这是一个 MCP 服务器的集合，提供了多种服务器的链接和信息，方便 AI 开发者和用户快速找到合适的 MCP 服务器进行使用和参考。",
+      "tags": [
+        "MCP 服务器",
+        "资源汇总",
+        "开发者工具"
+      ],
+      "url": "https://github.com/punkpeye/awesome-mcp-servers",
+      "source": "GitHub",
+      "stars": 89159,
+      "date": "2026-06-15"
     },
     {
       "title": "RAGFlow",
       "type": "RAG / 知识库",
-      "description": "RAGFlow 是一个领先的开源检索增强生成（RAG）引擎，结合了前沿的 RAG 技术与代理能力，为大型语言模型（LLM）创建了一个卓越的上下文层。",
+      "description": "RAGFlow 是一个领先的开源检索增强生成（RAG）引擎，结合了前沿的 RAG 技术与代理能力，为大型语言模型（LLM）创建了一个优越的上下文层。",
       "tags": [
         "检索增强生成",
         "上下文处理",
@@ -10895,69 +9438,69 @@
       ],
       "url": "https://github.com/infiniflow/ragflow",
       "source": "GitHub",
-      "stars": 82465,
-      "date": "2026-06-12"
+      "stars": 82727,
+      "date": "2026-06-15"
     },
     {
-      "title": "PaddleOCR 文档解析",
-      "type": "RAG / 知识库",
-      "description": "将任何 PDF 或图像文档转换为结构化数据，便于 AI 使用。PaddleOCR 是一个轻量级的 OCR 工具包，能够有效连接图像/PDF 与大语言模型，支持 100 多种语言。",
+      "title": "Claude Mem 持久上下文",
+      "type": "编程开发",
+      "description": "Claude Mem 允许 AI Agent 在多个会话中保持上下文，记录会话中的所有操作，利用 AI 压缩信息，并将相关上下文注入未来的会话中。兼容 Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCode 等多种工具。",
       "tags": [
-        "文档解析",
-        "OCR 工具",
+        "上下文管理",
+        "会话记录",
+        "AI 压缩"
+      ],
+      "url": "https://github.com/thedotmack/claude-mem",
+      "source": "GitHub",
+      "stars": 82292,
+      "date": "2026-06-15"
+    },
+    {
+      "title": "PaddleOCR 文档识别",
+      "type": "RAG / 知识库",
+      "description": "将任何 PDF 或图像文档转换为结构化数据，便于 AI 使用。PaddleOCR 是一个轻量级的 OCR 工具包，能够有效连接图像/PDF 和大语言模型，支持 100 多种语言。",
+      "tags": [
+        "文档识别",
+        "结构化数据",
         "多语言支持"
       ],
       "url": "https://github.com/PaddlePaddle/PaddleOCR",
       "source": "GitHub",
-      "stars": 81846,
-      "date": "2026-06-12"
-    },
-    {
-      "title": "Claude-Mem 持久上下文",
-      "type": "编程开发",
-      "description": "Claude-Mem 允许 AI Agent 在不同会话间保持上下文，记录会话中的所有操作，利用 AI 压缩信息，并在未来会话中注入相关上下文。兼容 Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCode 等多种工具。",
-      "tags": [
-        "上下文管理",
-        "会话记录",
-        "AI 兼容"
-      ],
-      "url": "https://github.com/thedotmack/claude-mem",
-      "source": "GitHub",
-      "stars": 81775,
-      "date": "2026-06-12"
+      "stars": 82209,
+      "date": "2026-06-15"
     },
     {
       "title": "Netdata",
       "type": "数据 / 分析",
-      "description": "Netdata 提供快速的 AI 驱动的全栈可观察性，适合精简团队使用，帮助开发者实时监控和分析系统性能，提升运维效率。",
+      "description": "Netdata 提供快速的 AI 驱动全栈可观察性，适合精简团队使用，帮助开发者实时监控和分析系统性能，提升运维效率。",
       "tags": [
-        "监控工具",
+        "系统监控",
         "性能分析",
         "实时数据"
       ],
       "url": "https://github.com/netdata/netdata",
       "source": "GitHub",
-      "stars": 79116,
-      "date": "2026-06-12"
+      "stars": 79158,
+      "date": "2026-06-15"
     },
     {
       "title": "LobeHub 智能代理管理",
       "type": "RAG / 知识库",
-      "description": "LobeHub 是您的首席代理运营官，通过招聘、排班和报告，帮助您将整个 AI 团队组织成 7×24 小时的高效运作。它为 AI 代理和开发者提供了全面的管理能力。",
+      "description": "LobeHub 是您的首席代理运营官，通过招聘、排班和报告，帮助您将代理组织成 7×24 小时的运营团队，提升 AI 团队的管理效率。",
       "tags": [
-        "AI 团队管理",
-        "代理调度",
+        "代理管理",
+        "团队调度",
         "运营报告"
       ],
       "url": "https://github.com/lobehub/lobehub",
       "source": "GitHub",
-      "stars": 78507,
-      "date": "2026-06-12"
+      "stars": 78665,
+      "date": "2026-06-15"
     },
     {
       "title": "dair-ai/提示工程指南",
       "type": "编程开发",
-      "description": "该指南提供了关于提示工程、上下文工程、RAG 和 AI 代理的文献、课程、笔记本和资源，帮助开发者提升 AI 应用的效果和灵活性。",
+      "description": "该指南提供了关于提示工程、上下文工程、RAG 和 AI 代理的文献、课程、笔记本和资源，帮助开发者更好地理解和应用这些技术。",
       "tags": [
         "提示工程",
         "上下文工程",
@@ -10965,27 +9508,41 @@
       ],
       "url": "https://github.com/dair-ai/Prompt-Engineering-Guide",
       "source": "GitHub",
-      "stars": 75532,
-      "date": "2026-06-12"
+      "stars": 75621,
+      "date": "2026-06-15"
     },
     {
       "title": "前端开发检查清单",
       "type": "编程开发",
-      "description": "这是一个现代网页开发的基本检查清单，适用于人类和 AI 代理，帮助开发者确保项目符合最佳实践和标准。",
+      "description": "这是一个现代网页开发的必备检查清单，适用于开发者和 AI 代理，帮助确保项目符合最佳实践和标准。",
       "tags": [
         "网页开发",
-        "项目管理",
-        "最佳实践"
+        "检查清单",
+        "开发工具"
       ],
       "url": "https://github.com/thedaviddias/Front-End-Checklist",
       "source": "GitHub",
-      "stars": 72889,
-      "date": "2026-06-12"
+      "stars": 72936,
+      "date": "2026-06-15"
+    },
+    {
+      "title": "洞穴人对话",
+      "type": "编程开发",
+      "description": "🪨 通过模拟洞穴人对话，Claude Code 技能能够减少 65% 的令牌使用，帮助开发者更高效地与 AI 进行交流，简化编程过程。",
+      "tags": [
+        "令牌优化",
+        "对话简化",
+        "编程工具"
+      ],
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "source": "GitHub",
+      "stars": 72549,
+      "date": "2026-06-15"
     },
     {
       "title": "Daytona",
       "type": "编程开发",
-      "description": "Daytona 是一个安全且灵活的基础设施，专为运行 AI 生成的代码而设计。它为开发者提供了高效的环境，支持快速部署和管理 AI 应用。",
+      "description": "Daytona 是一个安全且灵活的基础设施，专为运行 AI 生成的代码而设计。它为开发者提供了一个可靠的环境，以便高效地部署和管理 AI 应用。",
       "tags": [
         "安全基础设施",
         "AI 代码运行",
@@ -10993,69 +9550,41 @@
       ],
       "url": "https://github.com/daytonaio/daytona",
       "source": "GitHub",
-      "stars": 72456,
-      "date": "2026-06-12"
+      "stars": 72428,
+      "date": "2026-06-15"
     },
     {
-      "title": "洞穴人对话",
+      "title": "长效超级代理工具",
       "type": "编程开发",
-      "description": "🪨 这个 Claude Code 技能通过模拟洞穴人的对话方式，减少 65% 的令牌使用，让开发者在编程时更加高效。适合需要优化令牌使用的 AI Agent 和开发者。",
+      "description": "这是一个开源的长效超级代理工具，能够进行研究、编码和创作。借助沙箱、记忆、工具、技能、子代理和消息网关，它可以处理不同层次的任务，耗时从几分钟到几小时不等。",
       "tags": [
-        "令牌优化",
-        "对话生成",
-        "编程工具"
-      ],
-      "url": "https://github.com/JuliusBrussee/caveman",
-      "source": "GitHub",
-      "stars": 71419,
-      "date": "2026-06-12"
-    },
-    {
-      "title": "Deer-Flow",
-      "type": "编程开发",
-      "description": "Deer-Flow 是一个开源的长时程超级代理工具，能够进行研究、编码和创作。它利用沙盒、记忆、工具、技能、子代理和消息网关，处理从几分钟到几小时的不同级别任务。",
-      "tags": [
-        "开源工具",
         "任务管理",
-        "智能代理"
+        "开源工具",
+        "代理系统"
       ],
       "url": "https://github.com/bytedance/deer-flow",
       "source": "GitHub",
-      "stars": 70976,
-      "date": "2026-06-12"
+      "stars": 71170,
+      "date": "2026-06-15"
     },
     {
-      "title": "初学者的 AI 代理构建指南",
+      "title": "初学者的 AI 代理入门",
       "type": "RAG / 知识库",
-      "description": "本课程包含 12 课，帮助初学者快速入门 AI 代理的构建。通过系统的学习，掌握基本概念和实践技巧，适合希望深入了解 AI 代理开发的开发者。",
+      "description": "通过 12 个课程，帮助初学者掌握构建 AI 代理的基础知识和技能，适合希望了解 AI 代理开发的开发者。课程内容涵盖从基础概念到实际应用的各个方面。",
       "tags": [
         "AI 代理",
-        "开发入门",
-        "在线课程"
+        "初学者",
+        "开发技能"
       ],
       "url": "https://github.com/microsoft/ai-agents-for-beginners",
       "source": "GitHub",
-      "stars": 67004,
-      "date": "2026-06-12"
+      "stars": 67244,
+      "date": "2026-06-15"
     },
     {
-      "title": "学习 Claude Code",
+      "title": "图形化代码助手",
       "type": "编程开发",
-      "description": "使用 Bash 构建的 nano Claude Code 类似的「代理框架」，从零开始实现，适合希望深入了解 Claude Code 的开发者。该工具简化了开发流程，提升了代码编写的效率。",
-      "tags": [
-        "代理框架",
-        "代码学习",
-        "开发工具"
-      ],
-      "url": "https://github.com/shareAI-lab/learn-claude-code",
-      "source": "GitHub",
-      "stars": 66080,
-      "date": "2026-06-12"
-    },
-    {
-      "title": "Graphify 知识图谱生成器",
-      "type": "编程开发",
-      "description": "Graphify 是一款 AI 编程助手，支持将代码文件夹、SQL 模式、R 脚本、Shell 脚本、文档、论文、图片或视频转换为可查询的知识图谱。它将应用代码、数据库模式和基础设施整合在一个图谱中，方便开发者和 AI Agent 使用。",
+      "description": "这个工具可以将任何代码文件夹、SQL 模式、R 脚本、Shell 脚本、文档、论文、图像或视频转换为可查询的知识图谱。它将应用代码、数据库模式和基础设施整合在一个图谱中，帮助开发者更好地理解和管理项目。",
       "tags": [
         "知识图谱",
         "代码管理",
@@ -11063,27 +9592,55 @@
       ],
       "url": "https://github.com/safishamsi/graphify",
       "source": "GitHub",
-      "stars": 65450,
-      "date": "2026-06-12"
+      "stars": 67195,
+      "date": "2026-06-15"
+    },
+    {
+      "title": "Claude Code 学习工具",
+      "type": "编程开发",
+      "description": "这个工具是一个基于 Bash 的轻量级 Claude Code 类似的「代理框架」，从零开始构建，适合希望快速上手的开发者。它提供了简单易用的接口，帮助用户更高效地进行编程开发。",
+      "tags": [
+        "编程工具",
+        "开发框架",
+        "Bash"
+      ],
+      "url": "https://github.com/shareAI-lab/learn-claude-code",
+      "source": "GitHub",
+      "stars": 66519,
+      "date": "2026-06-15"
+    },
+    {
+      "title": "本地优先的开源设计工具",
+      "type": "编程开发",
+      "description": "🎨 这是一个本地优先的开源设计工具，提供类似 Claude Design 的功能。🖥️ 原生桌面应用，支持 259+ 技能和 142+ 设计系统。用户可以创建网页、桌面和移动原型，制作幻灯片、图像和视频，并支持 HTML/PDF/PPTX/MP4 导出。🤖 兼容 Claude Code、OpenClaw、Codex 等多种 CLI 工具。",
+      "tags": [
+        "设计工具",
+        "原型制作",
+        "开源软件"
+      ],
+      "url": "https://github.com/nexu-io/open-design",
+      "source": "GitHub",
+      "stars": 64867,
+      "date": "2026-06-15"
     },
     {
       "title": "Claude 技能资源汇总",
       "type": "编程开发",
-      "description": "这是一个精心整理的 Claude 技能、资源和工具列表，旨在帮助用户定制 Claude AI 工作流程，提高工作效率和灵活性。",
+      "description": "这是一个精心整理的列表，包含了丰富的 Claude 技能、资源和工具，帮助用户定制 Claude AI 工作流程，提升工作效率。",
       "tags": [
-        "技能资源",
-        "工作流程",
-        "AI 定制"
+        "Claude 技能",
+        "工作流程定制",
+        "资源工具"
       ],
       "url": "https://github.com/ComposioHQ/awesome-claude-skills",
       "source": "GitHub",
-      "stars": 64163,
-      "date": "2026-06-12"
+      "stars": 64599,
+      "date": "2026-06-15"
     },
     {
       "title": "GSD 构建工具",
       "type": "编程开发",
-      "description": "这是一个轻量级且高效的元提示、上下文工程和规范驱动开发系统，专为 Claude Code 设计，帮助开发者更好地管理和实现项目目标。",
+      "description": "GSD 构建工具是一个轻量级的元提示、上下文工程和规范驱动开发系统，专为 Claude Code 设计，帮助开发者高效管理和实现项目目标。",
       "tags": [
         "元提示",
         "上下文工程",
@@ -11091,64 +9648,22 @@
       ],
       "url": "https://github.com/gsd-build/get-shit-done",
       "source": "GitHub",
-      "stars": 64133,
-      "date": "2026-06-12"
-    },
-    {
-      "title": "本地优先的开源设计工具",
-      "type": "编程开发",
-      "description": "🎨 这是一个本地优先的开源设计工具，提供类似 Claude Design 的功能。🖥️ 支持桌面应用，拥有 259+ 技能和 142+ 设计系统，适用于网页、桌面和移动原型、幻灯片、图像和视频。📦 提供沙盒预览和 HTML/PDF/PPTX/MP4 导出功能，兼容多种开发工具。🤖",
-      "tags": [
-        "设计工具",
-        "开源软件",
-        "桌面应用"
-      ],
-      "url": "https://github.com/nexu-io/open-design",
-      "source": "GitHub",
-      "stars": 63380,
-      "date": "2026-06-12"
+      "stars": 64228,
+      "date": "2026-06-15"
     },
     {
       "title": "D4Vinci/Scrapling",
       "type": "浏览器 / 自动化",
-      "description": "🕷️ 这是一个自适应的网页抓取框架，能够处理从单个请求到全面爬取的所有任务，非常适合开发者进行数据采集。",
+      "description": "🕷️ 一个自适应的网页抓取框架，能够处理从单个请求到大规模爬虫的所有任务，帮助开发者轻松获取网页数据。",
       "tags": [
         "网页抓取",
-        "数据采集",
+        "数据提取",
         "自动化工具"
       ],
       "url": "https://github.com/D4Vinci/Scrapling",
       "source": "GitHub",
-      "stars": 62998,
-      "date": "2026-06-12"
-    },
-    {
-      "title": "复杂代码库助手",
-      "type": "编程开发",
-      "description": "omo/lazycodex 是一个专为 tokenmaxxers 设计的编码代理，能够高效处理复杂的代码库。它为您的 Codex 和 OpenCode 提供了强大的支持，帮助开发者更轻松地管理和编写代码。",
-      "tags": [
-        "编码代理",
-        "代码管理",
-        "开发工具"
-      ],
-      "url": "https://github.com/code-yeongyu/oh-my-openagent",
-      "source": "GitHub",
-      "stars": 61914,
-      "date": "2026-06-12"
-    },
-    {
-      "title": "AnythingLLM",
-      "type": "编程开发",
-      "description": "停止租用你的智能，拥有它。AnythingLLM 提供了一切所需，助你体验强大的本地优先代理功能，适合开发者和 AI Agent 使用。",
-      "tags": [
-        "本地代理",
-        "智能拥有",
-        "开发者工具"
-      ],
-      "url": "https://github.com/Mintplex-Labs/anything-llm",
-      "source": "GitHub",
-      "stars": 61443,
-      "date": "2026-06-12"
+      "stars": 63677,
+      "date": "2026-06-15"
     },
     {
       "title": "RTK 代理工具",
@@ -11156,32 +9671,74 @@
       "description": "RTK 是一个命令行代理工具，通过减少 60-90% 的 LLM 令牌消耗，优化常见开发命令的效率。它是一个单一的 Rust 二进制文件，无需任何依赖。",
       "tags": [
         "命令行工具",
-        "令牌优化",
+        "令牌消耗优化",
         "Rust 开发"
       ],
       "url": "https://github.com/rtk-ai/rtk",
       "source": "GitHub",
-      "stars": 61375,
-      "date": "2026-06-12"
+      "stars": 62321,
+      "date": "2026-06-15"
     },
     {
-      "title": "RAG 云模板",
-      "type": "RAG / 知识库",
-      "description": "提供即用的云模板，支持 RAG、AI 流水线和企业搜索，能够实时处理数据。兼容 Docker，始终与 Sharepoint、Google Drive、S3、Kafka、PostgreSQL 和实时数据 API 等保持同步。",
+      "title": "复杂代码库助手",
+      "type": "编程开发",
+      "description": "omo/lazycodex 是一个为 tokenmaxxers 设计的编码代理，专注于处理复杂的代码库。它为您的 Codex 和 OpenCode 提供了强大的支持，帮助开发者更高效地管理和编写代码。",
       "tags": [
-        "云模板",
-        "实时数据",
-        "企业搜索"
+        "编码代理",
+        "代码管理",
+        "开发工具"
       ],
-      "url": "https://github.com/pathwaycom/llm-app",
+      "url": "https://github.com/code-yeongyu/oh-my-openagent",
       "source": "GitHub",
-      "stars": 59355,
-      "date": "2026-06-12"
+      "stars": 62239,
+      "date": "2026-06-15"
     },
     {
-      "title": "舆情监控助手 TrendRadar",
+      "title": "AnythingLLM",
+      "type": "编程开发",
+      "description": "停止租用你的智能，拥有它！AnythingLLM 提供了强大的本地优先代理体验所需的一切，让开发者能够更好地控制和利用人工智能。",
+      "tags": [
+        "本地代理",
+        "智能控制",
+        "开发工具"
+      ],
+      "url": "https://github.com/Mintplex-Labs/anything-llm",
+      "source": "GitHub",
+      "stars": 61590,
+      "date": "2026-06-15"
+    },
+    {
+      "title": "AI 编程技能",
+      "type": "编程开发",
+      "description": "该工具提供生产级的工程技能，专为 AI 编码代理设计，帮助开发者提升代码质量和开发效率。通过使用这些技能，开发者可以更好地与 AI 代理协作，优化编程流程。",
+      "tags": [
+        "AI 编码",
+        "工程技能",
+        "开发效率"
+      ],
+      "url": "https://github.com/addyosmani/agent-skills",
+      "source": "GitHub",
+      "stars": 59558,
+      "date": "2026-06-15"
+    },
+    {
+      "title": "智能多代理系统",
+      "type": "编程开发",
+      "description": "🌊 ruvnet/ruflo 是一个领先的智能代理元框架，支持部署智能多代理群体，协调自主工作流程，并构建对话式 AI 系统。具备自适应记忆、自学习群体智能、RAG 集成及原生 Claude Code / Codex 集成等功能。",
+      "tags": [
+        "多代理协作",
+        "自主工作流程",
+        "对话式 AI"
+      ],
+      "url": "https://github.com/ruvnet/ruflo",
+      "source": "GitHub",
+      "stars": 59490,
+      "date": "2026-06-15"
+    },
+    {
+      "title": "TrendRadar 舆情监控",
       "type": "设计 / 创意",
-      "description": "这款 AI 驱动的舆情监控工具，能够聚合多平台热点信息，提供 RSS 订阅和智能提醒，帮助用户精准筛选关键词。支持 AI 新闻筛选、翻译和分析简报推送至手机，同时可接入 MCP 架构，进行自然语言对话分析和情感洞察。",
+      "description": "这款 AI 驱动的舆情监控工具，聚合多平台热点信息与 RSS 订阅，支持关键词精准筛选。通过 AI 智能筛选新闻、翻译及分析简报，实时推送至手机，助你轻松掌握舆情动态。支持 Docker 部署，数据可本地或云端存储，并可接入多种通讯渠道进行智能推送。",
       "tags": [
         "舆情监控",
         "热点聚合",
@@ -11189,97 +9746,97 @@
       ],
       "url": "https://github.com/sansan0/TrendRadar",
       "source": "GitHub",
-      "stars": 59313,
-      "date": "2026-06-12"
+      "stars": 59432,
+      "date": "2026-06-15"
     },
     {
-      "title": "智能多代理系统",
-      "type": "编程开发",
-      "description": "🌊 ruvnet/ruflo 是一款领先的智能多代理框架，支持部署智能多代理群体、协调自主工作流程，并构建对话式 AI 系统。具备自适应记忆、自学习群体智能、RAG 集成及原生 Claude Code / Codex 集成等功能。",
+      "title": "云端 RAG 模板",
+      "type": "RAG / 知识库",
+      "description": "提供即用的云端模板，支持 RAG、AI 流水线和企业搜索，实时同步 Sharepoint、Google Drive、S3、Kafka、PostgreSQL 等数据源，兼容 Docker，助力开发者快速构建智能应用。",
       "tags": [
-        "多代理系统",
-        "自主工作流程",
-        "对话式 AI"
+        "云端模板",
+        "实时数据",
+        "企业搜索"
       ],
-      "url": "https://github.com/ruvnet/ruflo",
+      "url": "https://github.com/pathwaycom/llm-app",
       "source": "GitHub",
-      "stars": 58959,
-      "date": "2026-06-12"
+      "stars": 59361,
+      "date": "2026-06-15"
     },
     {
-      "title": "智能代理编程框架",
+      "title": "Egonex-AI/理解一切",
       "type": "编程开发",
-      "description": "microsoft/autogen 是一个为智能代理 AI 设计的编程框架，提供了构建和管理 AI 代理的工具和功能，帮助开发者更高效地实现智能化应用。",
+      "description": "通过交互式知识图谱，您可以探索、搜索并提问任何代码。该工具支持 Claude Code、Codex、Cursor、Copilot、Gemini CLI 等多种平台，帮助开发者更好地理解代码背后的逻辑。",
       "tags": [
-        "编程框架",
-        "智能代理",
-        "开发工具"
+        "知识图谱",
+        "代码探索",
+        "交互式学习"
       ],
-      "url": "https://github.com/microsoft/autogen",
+      "url": "https://github.com/Egonex-AI/Understand-Anything",
       "source": "GitHub",
-      "stars": 58875,
-      "date": "2026-06-12"
+      "stars": 59261,
+      "date": "2026-06-15"
     },
     {
       "title": "智能体构建教程",
       "type": "RAG / 知识库",
-      "description": "《从零开始构建智能体》是一本详细讲解智能体原理与实践的教程，适合希望深入了解智能体开发的AI开发者。通过本书，您将掌握构建智能体所需的基础知识和实用技巧。",
+      "description": "《从零开始构建智能体》是一本全面的教程，深入讲解智能体的原理与实践，适合希望了解和开发智能体的开发者。通过本书，读者可以掌握智能体的基本概念和应用方法。",
       "tags": [
         "智能体原理",
         "实践教程",
-        "AI 开发"
+        "开发者指南"
       ],
       "url": "https://github.com/datawhalechina/hello-agents",
       "source": "GitHub",
-      "stars": 58506,
-      "date": "2026-06-12"
+      "stars": 59169,
+      "date": "2026-06-15"
     },
     {
-      "title": "mem0ai/mem0",
-      "type": "RAG / 知识库",
-      "description": "这是一个通用的记忆层，旨在为 AI 代理提供持久的知识存储与检索能力，帮助其更好地管理和利用信息。",
+      "title": "智能代理编程框架",
+      "type": "编程开发",
+      "description": "这是一个为智能代理 AI 提供的编程框架，帮助开发者快速构建和管理智能代理应用，提升开发效率和灵活性。",
       "tags": [
-        "知识存储",
+        "智能代理",
+        "编程框架",
+        "开发工具"
+      ],
+      "url": "https://github.com/microsoft/autogen",
+      "source": "GitHub",
+      "stars": 58951,
+      "date": "2026-06-15"
+    },
+    {
+      "title": "通用记忆层",
+      "type": "RAG / 知识库",
+      "description": "mem0ai/mem0 是一个为 AI 代理提供通用记忆层的工具，能够帮助 AI 代理存储和检索信息，从而提升其智能化水平和响应能力。适合开发者在构建智能应用时使用。",
+      "tags": [
+        "记忆存储",
         "信息检索",
         "AI 代理"
       ],
       "url": "https://github.com/mem0ai/mem0",
       "source": "GitHub",
-      "stars": 58352,
-      "date": "2026-06-12"
+      "stars": 58562,
+      "date": "2026-06-15"
     },
     {
       "title": "Claude Code 最佳实践",
       "type": "编程开发",
-      "description": "通过实践提升 Claude Code 的应用能力，从基础编码到自主工程，帮助开发者更好地掌握和运用 Claude Code 技术。",
+      "description": "通过实践提升 Claude Code 的应用能力，从基础编码到自主工程，帮助开发者掌握高效的编程技巧和方法。",
       "tags": [
-        "编码实践",
+        "编程技巧",
         "自主工程",
-        "技术提升"
+        "实践经验"
       ],
       "url": "https://github.com/shanraisshan/claude-code-best-practice",
       "source": "GitHub",
-      "stars": 57424,
-      "date": "2026-06-12"
-    },
-    {
-      "title": "私密文档助手",
-      "type": "写作 / 办公",
-      "description": "使用 GPT 技术与您的文档进行互动，确保 100% 私密性，避免数据泄露，保护您的隐私和信息安全。",
-      "tags": [
-        "文档处理",
-        "隐私保护",
-        "GPT 交互"
-      ],
-      "url": "https://github.com/zylon-ai/private-gpt",
-      "source": "GitHub",
-      "stars": 57230,
-      "date": "2026-06-12"
+      "stars": 57720,
+      "date": "2026-06-15"
     },
     {
       "title": "Context7 平台",
       "type": "编程开发",
-      "description": "Context7 平台提供最新的代码文档，专为大型语言模型（LLMs）和 AI 代码编辑器设计，帮助开发者更高效地使用和集成 AI 技术。",
+      "description": "Context7 平台提供最新的代码文档，专为大型语言模型（LLMs）和 AI 代码编辑器设计，帮助开发者更高效地使用相关技术，提升开发体验。",
       "tags": [
         "代码文档",
         "AI 编辑器",
@@ -11287,67 +9844,67 @@
       ],
       "url": "https://github.com/upstash/context7",
       "source": "GitHub",
-      "stars": 57179,
-      "date": "2026-06-12"
+      "stars": 57357,
+      "date": "2026-06-15"
     },
     {
-      "title": "Egonex-AI 知识图谱",
-      "type": "编程开发",
-      "description": "将任何代码转换为可交互的知识图谱，用户可以探索、搜索并提问。兼容 Claude Code、Codex、Cursor、Copilot、Gemini CLI 等多种工具，帮助开发者更好地理解代码背后的逻辑。",
+      "title": "私密文档助手",
+      "type": "写作 / 办公",
+      "description": "使用 GPT 技术与您的文档进行交互，确保 100% 私密，避免数据泄露。此工具为用户提供安全的文档处理体验，适合需要保护隐私的场景。",
       "tags": [
-        "知识图谱",
-        "代码探索",
-        "互动学习"
+        "文档交互",
+        "隐私保护",
+        "安全处理"
       ],
-      "url": "https://github.com/Egonex-AI/Understand-Anything",
+      "url": "https://github.com/zylon-ai/private-gpt",
       "source": "GitHub",
-      "stars": 57169,
-      "date": "2026-06-12"
+      "stars": 57257,
+      "date": "2026-06-15"
     },
     {
       "title": "MemPalace 记忆系统",
       "type": "RAG / 知识库",
-      "description": "MemPalace 是一个开源的 AI 记忆系统，经过最佳基准测试，提供高效的知识存储与检索功能，适合 AI Agent 和开发者使用，且完全免费。",
+      "description": "MemPalace 是一个开源的 AI 记忆系统，经过最佳基准测试，能够帮助 AI Agent 更好地存储和检索信息，提升智能应用的效率。该工具完全免费，适合开发者使用。",
       "tags": [
-        "知识管理",
         "开源工具",
-        "AI 记忆"
+        "AI 记忆",
+        "信息检索"
       ],
       "url": "https://github.com/MemPalace/mempalace",
       "source": "GitHub",
-      "stars": 55364,
-      "date": "2026-06-12"
+      "stars": 55615,
+      "date": "2026-06-15"
     },
     {
-      "title": "AI 编程技能",
+      "title": "智能求职助手",
       "type": "编程开发",
-      "description": "该工具提供生产级的工程技能，专为 AI 编码代理设计，帮助开发者提升代码质量和开发效率，适用于多种编程场景。",
+      "description": "基于 Claude Code 的 AI 驱动求职系统，提供 14 种技能模式，支持 Go 仪表板、PDF 生成和批量处理功能，帮助用户高效找到合适的工作机会。",
       "tags": [
-        "AI 编程",
-        "开发工具",
-        "代码质量"
+        "求职系统",
+        "技能模式",
+        "数据处理"
       ],
-      "url": "https://github.com/addyosmani/agent-skills",
+      "url": "https://github.com/santifer/career-ops",
       "source": "GitHub",
-      "stars": 54007,
-      "date": "2026-06-12"
+      "stars": 53744,
+      "date": "2026-06-15"
     },
     {
       "title": "FlowiseAI/Flowise",
       "type": "编程开发",
-      "description": "Flowise 是一个可视化工具，帮助开发者轻松构建和管理 AI 代理。通过直观的界面，用户可以快速设计工作流程，集成不同的 AI 模型，提升开发效率。",
+      "description": "Flowise 是一个可视化工具，帮助开发者轻松构建和管理 AI 代理。通过直观的界面，用户可以快速设计工作流，集成多种 AI 模型，提升开发效率。",
       "tags": [
         "可视化开发",
-        "AI 代理构建",
-        "工作流程管理"
+        "AI 代理",
+        "工作流设计"
       ],
       "url": "https://github.com/FlowiseAI/Flowise",
       "source": "GitHub",
-      "stars": 53484,
-      "date": "2026-06-12"
+      "stars": 53576,
+      "date": "2026-06-15"
     },
     {
-      "title": "CrewAI 角色扮演框架",
+      "title": "CrewAI 协作框架",
       "type": "Agent 框架",
       "description": "CrewAI 是一个用于协调角色扮演和自主 AI 代理的框架。通过促进协作智能，CrewAI 使代理能够无缝合作，解决复杂任务。",
       "tags": [
@@ -11357,64 +9914,106 @@
       ],
       "url": "https://github.com/crewAIInc/crewAI",
       "source": "GitHub",
-      "stars": 53275,
-      "date": "2026-06-12"
-    },
-    {
-      "title": "智能职业搜索系统",
-      "type": "编程开发",
-      "description": "基于 Claude Code 的 AI 职业搜索系统，提供 14 种技能模式，支持 Go 仪表盘、PDF 生成和批量处理功能，帮助用户高效找到合适的工作机会。",
-      "tags": [
-        "职业搜索",
-        "技能模式",
-        "数据处理"
-      ],
-      "url": "https://github.com/santifer/career-ops",
-      "source": "GitHub",
-      "stars": 52685,
-      "date": "2026-06-12"
+      "stars": 53552,
+      "date": "2026-06-15"
     },
     {
       "title": "OpenClaw 技能合集",
       "type": "Claude Skill",
-      "description": "这是一个精彩的 OpenClaw 技能集合，包含超过 5400 个技能，经过官方 OpenClaw 技能注册表的筛选和分类，为 AI Agent 和开发者提供丰富的功能选择。",
+      "description": "这是一个精彩的 OpenClaw 技能集合，包含超过 5400 个技能，经过官方 OpenClaw 技能注册表的筛选和分类，帮助 AI Agent 和开发者更高效地使用这些技能。",
       "tags": [
         "技能集合",
-        "开发者工具",
-        "AI Agent"
+        "分类筛选",
+        "开发者工具"
       ],
       "url": "https://github.com/VoltAgent/awesome-openclaw-skills",
       "source": "GitHub",
-      "stars": 50110,
-      "date": "2026-06-12"
+      "stars": 50232,
+      "date": "2026-06-15"
     },
     {
-      "title": "文档智能助手",
+      "title": "文档代理与OCR平台",
       "type": "RAG / 知识库",
-      "description": "LlamaIndex 是一个领先的文档代理和光学字符识别（OCR）平台，能够帮助 AI Agent 和开发者高效处理文档信息，提升数据提取和分析能力。",
+      "description": "LlamaIndex 是一个领先的文档代理和光学字符识别（OCR）平台，能够帮助 AI Agent 和开发者高效处理和管理文档数据，提升信息提取和分析能力。",
       "tags": [
-        "文档处理",
+        "文档管理",
         "光学字符识别",
-        "数据分析"
+        "信息提取"
       ],
       "url": "https://github.com/run-llama/llama_index",
       "source": "GitHub",
-      "stars": 50081,
-      "date": "2026-06-12"
+      "stars": 50125,
+      "date": "2026-06-15"
     },
     {
       "title": "Goose AI 代理",
       "type": "编程开发",
-      "description": "Goose 是一个开源的可扩展 AI 代理，不仅提供代码建议，还支持安装、执行、编辑和测试任何大型语言模型（LLM），为开发者提供更全面的开发体验。",
+      "description": "Goose 是一个开源的可扩展 AI 代理，超越了代码建议的功能，支持安装、执行、编辑和测试任何大型语言模型（LLM）。",
       "tags": [
         "开源工具",
         "AI 代理",
-        "代码执行"
+        "代码编辑"
       ],
       "url": "https://github.com/aaif-goose/goose",
       "source": "GitHub",
-      "stars": 48842,
-      "date": "2026-06-12"
+      "stars": 49388,
+      "date": "2026-06-15"
+    },
+    {
+      "title": "CherryHQ/cherry-studio",
+      "type": "编程开发",
+      "description": "CherryHQ/cherry-studio 是一个 AI 生产力工作室，提供智能聊天、自治代理和 300 多个助手，用户可以统一访问前沿的 LLM 模型，提升工作效率。",
+      "tags": [
+        "智能聊天",
+        "自治代理",
+        "助手工具"
+      ],
+      "url": "https://github.com/CherryHQ/cherry-studio",
+      "source": "GitHub",
+      "stars": 47332,
+      "date": "2026-06-15"
+    },
+    {
+      "title": "LocalAI 本地 AI 引擎",
+      "type": "编程开发",
+      "description": "LocalAI 是一个开源的 AI 引擎，可以在任何硬件上运行各种模型，包括 LLM、视觉、语音、图像和视频，无需 GPU 支持。适合开发者和 AI Agent 使用。",
+      "tags": [
+        "开源工具",
+        "本地运行",
+        "多模型支持"
+      ],
+      "url": "https://github.com/mudler/LocalAI",
+      "source": "GitHub",
+      "stars": 46858,
+      "date": "2026-06-15"
+    },
+    {
+      "title": "JeecgBoot 低代码平台",
+      "type": "编程开发",
+      "description": "JeecgBoot 是一个 AI 低代码平台，支持低代码和零代码开发。用户可一键生成前后端代码，或在 5 分钟内搭建系统。内置 AI 聊天、知识库和流程编排功能，兼容主流大模型，显著减少 Java 项目中的重复工作，提高开发效率。",
+      "tags": [
+        "低代码开发",
+        "零代码搭建",
+        "AI 聊天"
+      ],
+      "url": "https://github.com/jeecgboot/JeecgBoot",
+      "source": "GitHub",
+      "stars": 46750,
+      "date": "2026-06-15"
+    },
+    {
+      "title": "Claude Code 技能汇总",
+      "type": "编程开发",
+      "description": "这是一个精心整理的列表，包含了 Claude Code 的技能、钩子、斜杠命令、代理协调器、应用程序和插件，旨在为开发者提供丰富的资源和灵活的扩展选项。",
+      "tags": [
+        "技能汇总",
+        "开发工具",
+        "插件资源"
+      ],
+      "url": "https://github.com/hesreallyhim/awesome-claude-code",
+      "source": "GitHub",
+      "stars": 46464,
+      "date": "2026-06-15"
     },
     {
       "title": "Google Sheets",
@@ -11427,69 +10026,13 @@
       ],
       "url": "https://smithery.ai/server/googlesheets",
       "source": "Smithery MCP",
-      "stars": 47558,
-      "date": "2026-06-12"
-    },
-    {
-      "title": "CherryHQ/cherry-studio",
-      "type": "编程开发",
-      "description": "CherryHQ/cherry-studio 是一个 AI 生产力工作室，提供智能聊天、自治代理和 300 多个助手，用户可以统一访问前沿的 LLMs，提升工作效率。",
-      "tags": [
-        "智能聊天",
-        "自治代理",
-        "助手工具"
-      ],
-      "url": "https://github.com/CherryHQ/cherry-studio",
-      "source": "GitHub",
-      "stars": 47215,
-      "date": "2026-06-12"
-    },
-    {
-      "title": "LocalAI 本地 AI 引擎",
-      "type": "编程开发",
-      "description": "LocalAI 是一个开源的 AI 引擎，支持在任何硬件上运行各种模型，包括 LLM、视觉、语音、图像和视频，无需 GPU。适合开发者进行多种 AI 应用的开发和测试。",
-      "tags": [
-        "开源工具",
-        "多模型支持",
-        "无 GPU 需求"
-      ],
-      "url": "https://github.com/mudler/LocalAI",
-      "source": "GitHub",
-      "stars": 46792,
-      "date": "2026-06-12"
-    },
-    {
-      "title": "JeecgBoot 低代码平台",
-      "type": "编程开发",
-      "description": "JeecgBoot 是一个 AI 低代码平台，支持低代码和零代码开发。用户可一键生成前后端代码，或在 5 分钟内搭建系统。内置 AI 聊天、知识库和流程编排功能，兼容主流大模型，显著减少 Java 项目中的重复工作，提高开发效率。",
-      "tags": [
-        "低代码开发",
-        "零代码搭建",
-        "AI 聊天功能"
-      ],
-      "url": "https://github.com/jeecgboot/JeecgBoot",
-      "source": "GitHub",
-      "stars": 46704,
-      "date": "2026-06-12"
-    },
-    {
-      "title": "Claude Code 技能汇总",
-      "type": "编程开发",
-      "description": "这是一个精心整理的列表，包含了 Claude Code 的各种技能、钩子、命令、代理协调器、应用程序和插件，旨在帮助开发者更好地利用 Claude Code 的功能。",
-      "tags": [
-        "技能汇总",
-        "开发工具",
-        "插件资源"
-      ],
-      "url": "https://github.com/hesreallyhim/awesome-claude-code",
-      "source": "GitHub",
-      "stars": 46198,
-      "date": "2026-06-12"
+      "stars": 45797,
+      "date": "2026-06-15"
     },
     {
       "title": "CowAgent 超级助手",
       "type": "编程开发",
-      "description": "一个开源的超级 AI 助手与代理工具，能够规划任务、运行工具和技能，具备自我进化的记忆与知识功能。支持多模型和多渠道，轻量且可扩展，安装简单。适合开发者使用。",
+      "description": "开源的超级 AI 助手与代理工具，能够规划任务、运行工具和技能，具备自我进化的记忆和知识功能。支持多模型和多渠道，轻量级且可扩展，安装简单。适合开发者使用。",
       "tags": [
         "任务规划",
         "工具运行",
@@ -11497,27 +10040,27 @@
       ],
       "url": "https://github.com/zhayujie/CowAgent",
       "source": "GitHub",
-      "stars": 45228,
-      "date": "2026-06-12"
+      "stars": 45301,
+      "date": "2026-06-15"
     },
     {
       "title": "Milvus 向量数据库",
       "type": "RAG / 知识库",
-      "description": "Milvus 是一个高性能、云原生的向量数据库，专为可扩展的向量近似最近邻搜索而设计，能够支持大规模数据处理和快速查询。",
+      "description": "Milvus 是一个高性能的云原生向量数据库，专为可扩展的向量近似最近邻搜索而设计，适合 AI 应用和大规模数据处理。",
       "tags": [
         "向量数据库",
-        "数据检索",
+        "近似搜索",
         "云原生"
       ],
       "url": "https://github.com/milvus-io/milvus",
       "source": "GitHub",
-      "stars": 44724,
-      "date": "2026-06-12"
+      "stars": 44777,
+      "date": "2026-06-15"
     },
     {
       "title": "思源笔记",
       "type": "编程开发",
-      "description": "思源笔记是一款注重隐私的自托管开源个人知识管理软件，使用 TypeScript 和 Go 语言开发。它帮助用户高效组织和管理个人知识，支持多种格式的笔记记录。",
+      "description": "思源笔记是一款注重隐私的自托管开源个人知识管理软件，使用 TypeScript 和 Go 语言开发，帮助用户高效整理和管理个人知识。支持多种格式的笔记记录，便于信息的快速检索与分享。",
       "tags": [
         "知识管理",
         "开源软件",
@@ -11525,218 +10068,218 @@
       ],
       "url": "https://github.com/siyuan-note/siyuan",
       "source": "GitHub",
-      "stars": 44389,
-      "date": "2026-06-12"
+      "stars": 44455,
+      "date": "2026-06-15"
     },
     {
-      "title": "轻量级 AI 代理",
+      "title": "HKUDS/nanobot",
       "type": "编程开发",
-      "description": "HKUDS/nanobot 是一个轻量级的开源 AI 代理，旨在简化工具、聊天和工作流程的集成，帮助开发者更高效地管理和自动化任务。",
+      "description": "HKUDS/nanobot 是一个轻量级的开源 AI 代理，旨在帮助用户更高效地管理工具、聊天和工作流程。它提供了灵活的集成能力，适合开发者和 AI 代理使用。",
       "tags": [
         "开源工具",
-        "工作流程自动化",
-        "聊天集成"
+        "工作流程管理",
+        "AI 代理"
       ],
       "url": "https://github.com/HKUDS/nanobot",
       "source": "GitHub",
-      "stars": 44057,
-      "date": "2026-06-12"
-    },
-    {
-      "title": "Kong API 网关",
-      "type": "设计 / 创意",
-      "description": "Kong 是一个高性能的 API 网关和微服务管理工具，支持流量管理、身份验证和监控等功能，帮助开发者高效地构建和管理 API 服务。",
-      "tags": [
-        "API 管理",
-        "流量控制",
-        "身份验证"
-      ],
-      "url": "https://github.com/Kong/kong",
-      "source": "GitHub",
-      "stars": 43563,
-      "date": "2026-06-12"
-    },
-    {
-      "title": "Chrome DevTools 工具",
-      "type": "编程开发",
-      "description": "Chrome DevTools 是一款为编码代理提供的工具，帮助开发者调试和优化网页应用。它提供了丰富的功能，如实时编辑、性能分析和网络监控，提升开发效率。",
-      "tags": [
-        "网页调试",
-        "性能分析",
-        "网络监控"
-      ],
-      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-      "source": "GitHub",
-      "stars": 43364,
-      "date": "2026-06-12"
-    },
-    {
-      "title": "日常股票分析",
-      "type": "金融 / 商业",
-      "description": "基于 LLM 的 A/H/美股智能分析系统，整合多数据源行情、实时新闻和决策仪表盘，支持多渠道推送，零成本定时运行，轻松获取市场动态。",
-      "tags": [
-        "股票分析",
-        "实时新闻",
-        "数据整合"
-      ],
-      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
-      "source": "GitHub",
-      "stars": 42144,
-      "date": "2026-06-12"
-    },
-    {
-      "title": "系统提示提取工具",
-      "type": "编程开发",
-      "description": "该工具提取了多个知名 AI 系统的提示信息，包括 Anthropic 的 Claude Fable 5、Opus 4.8、Claude Code 和 Claude Design，以及 OpenAI 的 ChatGPT 5.5 Thinking、GPT 5.5 Instant 和 Codex。还涵盖了 Google 的 Gemini 3.5 Flash、3.1 Pro 和 xAI 的 Grok、Cursor 等，定期更新。",
-      "tags": [
-        "系统提示",
-        "AI 开发",
-        "编程工具"
-      ],
-      "url": "https://github.com/asgeirtj/system_prompts_leaks",
-      "source": "GitHub",
-      "stars": 41658,
-      "date": "2026-06-12"
+      "stars": 44204,
+      "date": "2026-06-15"
     },
     {
       "title": "Taste-Skill",
       "type": "编程开发",
-      "description": "Taste-Skill 让你的 AI 拥有良好的品味，避免生成无趣、千篇一律的内容，提升 AI 的创作质量和吸引力。",
+      "description": "Taste-Skill 让你的 AI 拥有更好的品味，避免生成无趣、千篇一律的内容，提升生成内容的质量和吸引力。",
       "tags": [
         "内容生成",
-        "创意提升",
-        "AI 品味"
+        "AI 品味",
+        "文本优化"
       ],
       "url": "https://github.com/Leonxlnx/taste-skill",
       "source": "GitHub",
-      "stars": 41343,
-      "date": "2026-06-12"
+      "stars": 43757,
+      "date": "2026-06-15"
     },
     {
-      "title": "agno-agi/agno",
+      "title": "Chrome DevTools 工具",
       "type": "编程开发",
-      "description": "该工具允许用户构建、运行和管理智能体平台，适合开发者在 AI 代理领域进行创新和实验。",
+      "description": "Chrome DevTools 是一款为编码代理提供的开发工具，帮助开发者调试和优化网页应用，提升开发效率。它提供了强大的调试功能和实时编辑能力，适合各种开发需求。",
       "tags": [
-        "智能体管理",
-        "平台构建",
-        "开发工具"
+        "网页调试",
+        "开发工具",
+        "编码支持"
       ],
-      "url": "https://github.com/agno-agi/agno",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
       "source": "GitHub",
-      "stars": 40644,
-      "date": "2026-06-12"
+      "stars": 43608,
+      "date": "2026-06-15"
     },
     {
-      "title": "ChatboxAI 聊天框",
-      "type": "编程开发",
-      "description": "ChatboxAI 是一个功能丰富的 AI 客户端，支持开发者构建和集成智能对话系统，提升用户交互体验。该工具提供灵活的 API 接口，便于快速开发和部署。",
+      "title": "Kong 网关",
+      "type": "设计 / 创意",
+      "description": "Kong 是一个高性能的 API 和 AI 网关，提供灵活的路由、负载均衡和安全功能，帮助开发者轻松管理和扩展他们的 API 服务。适用于构建现代化的微服务架构。",
       "tags": [
-        "智能对话",
-        "API 接口",
-        "用户交互"
+        "API 管理",
+        "负载均衡",
+        "安全性"
       ],
-      "url": "https://github.com/chatboxai/chatbox",
+      "url": "https://github.com/Kong/kong",
       "source": "GitHub",
-      "stars": 40425,
-      "date": "2026-06-12"
+      "stars": 43586,
+      "date": "2026-06-15"
     },
     {
-      "title": "Antigravity 超级技能库",
-      "type": "编程开发",
-      "description": "这是一个可安装的 GitHub 库，包含超过 1500 种适用于 Claude Code、Cursor、Codex CLI、Gemini CLI 和 Antigravity 的技能。提供专业插件、安装 CLI、软件包、工作流以及官方和社区技能集合。",
+      "title": "智能股票分析系统",
+      "type": "金融 / 商业",
+      "description": "基于 LLM 的 A/H/美股智能分析工具，整合多数据源行情、实时新闻及决策仪表盘，支持多渠道推送，零成本定时运行，轻松获取市场动态。",
       "tags": [
-        "技能库",
-        "插件",
-        "开发工具"
+        "股票分析",
+        "实时新闻",
+        "多数据源"
       ],
-      "url": "https://github.com/sickn33/antigravity-awesome-skills",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
       "source": "GitHub",
-      "stars": 40370,
-      "date": "2026-06-12"
+      "stars": 42540,
+      "date": "2026-06-15"
+    },
+    {
+      "title": "系统提示提取工具",
+      "type": "编程开发",
+      "description": "该工具从多个知名 AI 系统中提取提示信息，包括 Anthropic 的 Claude Fable 5、Opus 4.8、Claude Code 和 Claude Design，OpenAI 的 ChatGPT 5.5 Thinking、GPT 5.5 Instant、Codex，Google 的 Gemini 3.5 Flash、3.1 Pro、Antigravity，以及 xAI 的 Grok、Cursor、Copilot、VS Code、Perplexity 等。定期更新，帮助开发者获取最新的系统提示。",
+      "tags": [
+        "系统提示",
+        "AI 开发",
+        "工具集成"
+      ],
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "source": "GitHub",
+      "stars": 42210,
+      "date": "2026-06-15"
     },
     {
       "title": "多平台信息汇总助手",
       "type": "编程开发",
-      "description": "这个 AI 工具能够在 Reddit、X、YouTube、HN、Polymarket 及网络上研究任何主题，并综合出一个扎实的摘要，帮助用户快速获取关键信息。",
+      "description": "这个 AI 工具能够在 Reddit、X、YouTube、HN、Polymarket 及网络上研究任何主题，并综合出一个有根据的总结，帮助用户快速获取信息。",
       "tags": [
         "信息检索",
         "内容汇总",
-        "主题研究"
+        "多平台支持"
       ],
       "url": "https://github.com/mvanhorn/last30days-skill",
       "source": "GitHub",
-      "stars": 39594,
-      "date": "2026-06-12"
+      "stars": 42085,
+      "date": "2026-06-15"
     },
     {
-      "title": "ChatTTS 语音对话生成",
+      "title": "Antigravity 超级技能库",
+      "type": "编程开发",
+      "description": "这是一个可安装的 GitHub 库，包含超过 1500 种适用于 Claude Code、Cursor、Codex CLI、Gemini CLI 和 Antigravity 的智能技能。提供专用插件、安装 CLI、捆绑包、工作流以及官方和社区技能集合。",
+      "tags": [
+        "智能技能",
+        "开发工具",
+        "插件库"
+      ],
+      "url": "https://github.com/sickn33/antigravity-awesome-skills",
+      "source": "GitHub",
+      "stars": 40733,
+      "date": "2026-06-15"
+    },
+    {
+      "title": "agno-agi/agno",
+      "type": "编程开发",
+      "description": "该工具允许用户构建、运行和管理智能代理平台，帮助开发者更高效地创建和维护 AI 代理应用。",
+      "tags": [
+        "智能代理",
+        "平台管理",
+        "开发工具"
+      ],
+      "url": "https://github.com/agno-agi/agno",
+      "source": "GitHub",
+      "stars": 40684,
+      "date": "2026-06-15"
+    },
+    {
+      "title": "ChatboxAI 聊天框",
+      "type": "编程开发",
+      "description": "ChatboxAI 是一个功能丰富的 AI 客户端，支持多种编程语言和框架，帮助开发者快速构建和集成智能聊天功能，提升用户交互体验。",
+      "tags": [
+        "AI 客户端",
+        "聊天功能",
+        "开发工具"
+      ],
+      "url": "https://github.com/chatboxai/chatbox",
+      "source": "GitHub",
+      "stars": 40465,
+      "date": "2026-06-15"
+    },
+    {
+      "title": "ChatTTS 语音生成",
       "type": "语音 / 音频",
-      "description": "ChatTTS 是一个生成式语音模型，专注于日常对话的自然交流。它能够为 AI 代理和开发者提供高质量的语音合成能力，提升人机交互体验。",
+      "description": "ChatTTS 是一个生成式语音模型，专注于日常对话的自然交流，能够为 AI 代理和开发者提供高质量的语音合成能力，提升人机互动体验。",
       "tags": [
         "语音合成",
         "对话生成",
-        "自然交流"
+        "自然语言处理"
       ],
       "url": "https://github.com/2noise/ChatTTS",
       "source": "GitHub",
-      "stars": 39430,
-      "date": "2026-06-12"
+      "stars": 39452,
+      "date": "2026-06-15"
     },
     {
-      "title": "MindsDB 平台",
+      "title": "MindsDB",
       "type": "RAG / 知识库",
-      "description": "MindsDB 是一款通用 AI 工具，专为知识工作者（如创作者、战略家和运营者）设计，帮助用户在各种环境中灵活部署和扩展 AI 系统，真正掌控工作流程。",
+      "description": "MindsDB 是一款通用 AI 工具，专为知识工作者、创作者、战略家和运营者设计，帮助用户在各种环境中灵活部署和扩展 AI 系统，真正掌控工作流程。",
       "tags": [
         "知识工作者",
         "灵活部署",
         "AI 系统"
       ],
-      "url": "https://github.com/mindsdb/minds-platform",
+      "url": "https://github.com/mindsdb/minds",
       "source": "GitHub",
-      "stars": 39289,
-      "date": "2026-06-12"
+      "stars": 39302,
+      "date": "2026-06-15"
     },
     {
       "title": "QuivrHQ/quivr",
       "type": "RAG / 知识库",
-      "description": "这是一个专注于将生成式人工智能集成到应用中的 RAG 工具。您可以轻松地将其集成到现有产品中，并进行定制。支持多种大型语言模型（如 GPT4、Groq、Llama）和向量存储（如 PGVector、Faiss），满足您的各种需求。",
+      "description": "这是一个专注于将生成式人工智能集成到应用中的 RAG 工具。您可以轻松地将其集成到现有产品中，并进行自定义设置，支持多种大型语言模型（如 GPT4、Groq、Llama）和向量存储（如 PGVector、Faiss），适用于各种文件格式，灵活性极高。",
       "tags": [
         "生成式人工智能",
-        "应用集成",
-        "知识库"
+        "知识库集成",
+        "灵活定制"
       ],
       "url": "https://github.com/QuivrHQ/quivr",
       "source": "GitHub",
-      "stars": 39151,
-      "date": "2026-06-12"
+      "stars": 39161,
+      "date": "2026-06-15"
     },
     {
       "title": "LibreChat 聊天工具",
       "type": "编程开发",
-      "description": "LibreChat 是一个增强版的 ChatGPT 克隆，支持多种 AI 模型切换、消息搜索和代码解释器等功能，适合开发者和 AI Agent 使用。它集成了多种 API 和服务，支持自托管，提供灵活的多用户认证和预设功能。",
+      "description": "LibreChat 是一个增强版的 ChatGPT 克隆，支持多种 AI 模型切换，提供消息搜索、代码解释器和多用户安全认证等功能，适合开发者自托管使用。",
       "tags": [
-        "AI 模型切换",
+        "多模型切换",
         "消息搜索",
-        "多用户认证"
+        "代码解释器"
       ],
       "url": "https://github.com/danny-avila/LibreChat",
       "source": "GitHub",
-      "stars": 38903,
-      "date": "2026-06-12"
+      "stars": 39156,
+      "date": "2026-06-15"
     },
     {
       "title": "Langchain-Chatchat",
       "type": "RAG / 知识库",
-      "description": "Langchain-Chatchat 是一个基于 Langchain 的 RAG 和 Agent 应用，结合了 ChatGLM、Qwen 和 Llama 等语言模型，支持本地知识的智能处理，适合 AI Agent 和开发者使用。",
+      "description": "Langchain-Chatchat 是一个基于 Langchain 的 RAG 和 Agent 应用，支持 ChatGLM、Qwen 和 Llama 等语言模型，能够实现本地知识的智能检索与应用，帮助开发者构建更智能的对话系统。",
       "tags": [
-        "RAG 应用",
-        "语言模型",
-        "智能处理"
+        "智能对话",
+        "知识检索",
+        "语言模型"
       ],
       "url": "https://github.com/chatchat-space/Langchain-Chatchat",
       "source": "GitHub",
-      "stars": 38157,
-      "date": "2026-06-12"
+      "stars": 38168,
+      "date": "2026-06-15"
     },
     {
       "title": "CLI代理API",
@@ -11749,69 +10292,55 @@
       ],
       "url": "https://github.com/router-for-me/CLIProxyAPI",
       "source": "GitHub",
-      "stars": 37212,
-      "date": "2026-06-12"
-    },
-    {
-      "title": "Gmail 邮箱管理",
-      "type": "搜索 / 信息",
-      "description": "全面管理 Gmail 邮箱：发送、草拟、回复、转发以及批量修改或删除邮件和对话。通过标签、归档和删除来整理收件箱，按需检索邮件、附件和个人资料信息。访问和搜索联系人以自动填写收件人，并保持人员数据同步。",
-      "tags": [
-        "邮件管理",
-        "收件箱整理",
-        "联系人搜索"
-      ],
-      "url": "https://smithery.ai/server/gmail",
-      "source": "Smithery MCP",
-      "stars": 37109,
-      "date": "2026-06-12"
+      "stars": 37512,
+      "date": "2026-06-15"
     },
     {
       "title": "Claude Code 使用指南",
       "type": "编程开发",
-      "description": "这是一本视觉化、示例驱动的指南，涵盖了 Claude Code 的基本概念到高级代理，提供可直接复制的模板，帮助开发者快速上手并应用。",
+      "description": "这是一个以视觉和实例为驱动的指南，涵盖 Claude Code 的基本概念到高级代理，提供可直接复制粘贴的模板，帮助开发者快速上手并应用。",
       "tags": [
         "编程指南",
-        "示例模板",
+        "代码模板",
         "开发者工具"
       ],
       "url": "https://github.com/luongnv89/claude-howto",
       "source": "GitHub",
-      "stars": 36840,
-      "date": "2026-06-12"
+      "stars": 37169,
+      "date": "2026-06-15"
     },
     {
-      "title": "多功能代理插件市场",
+      "title": "多插件市场",
       "type": "编程开发",
-      "description": "这是一个多功能代理插件市场，支持 Claude Code、Codex CLI、Cursor、OpenCode 和 Gemini CLI，帮助开发者轻松集成和管理各种插件，提升开发效率。",
+      "description": "这是一个多插件市场，支持 Claude Code、Codex CLI、Cursor、OpenCode、GitHub Copilot 和 Gemini CLI 等工具，方便开发者集成和使用各种智能代理插件，提升开发效率。",
       "tags": [
         "插件市场",
-        "开发工具",
-        "多功能集成"
+        "智能代理",
+        "开发工具"
       ],
       "url": "https://github.com/wshobson/agents",
       "source": "GitHub",
-      "stars": 36630,
-      "date": "2026-06-12"
+      "stars": 36750,
+      "date": "2026-06-15"
     },
     {
       "title": "LightRAG",
       "type": "RAG / 知识库",
-      "description": "LightRAG 是一种简单快速的检索增强生成模型，旨在提升 AI Agent 的信息检索和生成能力，适用于各种自然语言处理任务。",
+      "description": "LightRAG 是一种简单快速的检索增强生成模型，旨在提升 AI 代理和开发者在信息检索和生成任务中的效率与准确性。通过结合检索和生成技术，用户能够更快速地获取所需信息并生成高质量的文本。",
       "tags": [
         "检索增强生成",
-        "自然语言处理",
-        "信息检索"
+        "信息检索",
+        "文本生成"
       ],
       "url": "https://github.com/HKUDS/LightRAG",
       "source": "GitHub",
-      "stars": 36453,
-      "date": "2026-06-12"
+      "stars": 36561,
+      "date": "2026-06-15"
     },
     {
-      "title": "字节跳动/UI-TARS桌面版",
+      "title": "字节跳动 UI-TARS 桌面版",
       "type": "浏览器 / 自动化",
-      "description": "这是一个开源的多模态 AI 代理框架，旨在连接前沿的 AI 模型与代理基础设施，为开发者提供灵活的集成能力，支持多种应用场景。",
+      "description": "这是一个开源的多模态 AI 代理框架，旨在连接前沿的 AI 模型与代理基础设施，为开发者提供灵活的 AI 解决方案。",
       "tags": [
         "多模态 AI",
         "开源框架",
@@ -11819,27 +10348,27 @@
       ],
       "url": "https://github.com/bytedance/UI-TARS-desktop",
       "source": "GitHub",
-      "stars": 36300,
-      "date": "2026-06-12"
+      "stars": 36415,
+      "date": "2026-06-15"
     },
     {
       "title": "Claude Code 多代理协作",
       "type": "编程开发",
-      "description": "该工具专注于团队协作，支持多代理的协调与管理，帮助开发者更高效地使用 Claude Code 进行项目开发与任务分配。",
+      "description": "这是一个以团队为中心的多代理协调工具，专为 Claude Code 设计，帮助开发者更高效地管理和协作多个 AI 代理，提高工作流程的灵活性和效率。",
       "tags": [
+        "多代理协作",
         "团队协作",
-        "多代理管理",
-        "项目开发"
+        "工作流程管理"
       ],
       "url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
       "source": "GitHub",
-      "stars": 36210,
-      "date": "2026-06-12"
+      "stars": 36395,
+      "date": "2026-06-15"
     },
     {
       "title": "AgentGPT",
       "type": "浏览器 / 自动化",
-      "description": "🤖 在浏览器中组装、配置和部署自主 AI 代理，简化自动化任务的执行，提升工作效率。",
+      "description": "🤖 在浏览器中组装、配置和部署自主 AI 代理，轻松实现自动化任务，提升工作效率。",
       "tags": [
         "自主代理",
         "任务自动化",
@@ -11847,41 +10376,41 @@
       ],
       "url": "https://github.com/reworkd/AgentGPT",
       "source": "GitHub",
-      "stars": 36184,
-      "date": "2026-06-12"
+      "stars": 36191,
+      "date": "2026-06-15"
     },
     {
       "title": "AI 工程中心",
       "type": "RAG / 知识库",
-      "description": "提供关于大型语言模型（LLMs）、检索增强生成（RAGs）及实际应用的深入教程，帮助开发者掌握 AI 代理的构建与应用。",
+      "description": "提供关于大型语言模型（LLMs）、检索增强生成（RAGs）和现实世界 AI 代理应用的深入教程，帮助开发者掌握相关技术和应用场景。",
       "tags": [
-        "教程",
         "大型语言模型",
-        "AI 代理"
+        "检索增强生成",
+        "AI 代理应用"
       ],
       "url": "https://github.com/patchy631/ai-engineering-hub",
       "source": "GitHub",
-      "stars": 35684,
-      "date": "2026-06-12"
+      "stars": 35810,
+      "date": "2026-06-15"
     },
     {
-      "title": "Vane 智能问答引擎",
+      "title": "Vane",
       "type": "编程开发",
-      "description": "Vane 是一个基于 AI 的问答引擎，能够快速准确地回答用户的问题，帮助开发者在项目中集成智能问答功能，提升用户体验。",
+      "description": "Vane 是一个基于 AI 的问答引擎，能够快速处理和回答用户的问题，提升开发者在构建智能应用时的效率和准确性。",
       "tags": [
-        "智能问答",
-        "开发工具",
-        "AI 引擎"
+        "问答系统",
+        "AI 引擎",
+        "开发工具"
       ],
       "url": "https://github.com/ItzCrazyKns/Vane",
       "source": "GitHub",
-      "stars": 35245,
-      "date": "2026-06-12"
+      "stars": 35300,
+      "date": "2026-06-15"
     },
     {
       "title": "Khoj AI",
       "type": "浏览器 / 自动化",
-      "description": "你的 AI 第二大脑，支持自托管。可以从网络或文档中获取答案，构建自定义代理，安排自动化任务，进行深入研究。将任何在线或本地的 LLM（如 gpt、claude、gemini、llama、qwen、mistral）转变为你的个人自主 AI。开始使用 - 免费。",
+      "description": "这是你的 AI 第二大脑，支持自托管。可以从网络或文档中获取答案，构建自定义代理，安排自动化任务，进行深入研究。将任何在线或本地的 LLM（如 gpt、claude、gemini、llama、qwen、mistral）转变为你的个人自主 AI。免费开始使用。",
       "tags": [
         "自托管",
         "自动化任务",
@@ -11889,134 +10418,134 @@
       ],
       "url": "https://github.com/khoj-ai/khoj",
       "source": "GitHub",
-      "stars": 35078,
-      "date": "2026-06-12"
+      "stars": 35129,
+      "date": "2026-06-15"
     },
     {
-      "title": "GitHub Copilot 资源汇总",
-      "type": "编程开发",
-      "description": "这是一个由社区贡献的资源库，提供了关于 GitHub Copilot 的使用说明、代理、技能和配置，帮助开发者充分利用 GitHub Copilot 的功能，提高编程效率。",
+      "title": "Gmail 邮箱管理",
+      "type": "搜索 / 信息",
+      "description": "全面管理 Gmail 邮箱：发送、草拟、回复、转发及批量修改或删除邮件和线程。通过标签、归档和垃圾箱整理收件箱，按需检索邮件、附件和个人资料信息。访问和搜索联系人以自动填充收件人，并保持人员数据同步。",
       "tags": [
-        "社区资源",
-        "开发者工具",
-        "编程辅助"
+        "邮件管理",
+        "收件箱整理",
+        "联系人搜索"
       ],
-      "url": "https://github.com/github/awesome-copilot",
-      "source": "GitHub",
-      "stars": 34828,
-      "date": "2026-06-12"
-    },
-    {
-      "title": "PDF文档翻译",
-      "type": "写作 / 办公",
-      "description": "PDFMathTranslate 提供基于 AI 的 PDF 科学论文翻译服务，能够完整保留原有排版格式，支持多种翻译服务如 Google、DeepL、Ollama 和 OpenAI，适用于 CLI、GUI、MCP、Docker 和 Zotero 等环境。",
-      "tags": [
-        "PDF翻译",
-        "双语支持",
-        "格式保留"
-      ],
-      "url": "https://github.com/PDFMathTranslate/PDFMathTranslate",
-      "source": "GitHub",
-      "stars": 34754,
-      "date": "2026-06-12"
+      "url": "https://smithery.ai/server/gmail",
+      "source": "Smithery MCP",
+      "stars": 35096,
+      "date": "2026-06-15"
     },
     {
       "title": "CopilotKit 前端开发框架",
       "type": "编程开发",
-      "description": "CopilotKit 是一个为代理和生成用户界面设计的前端开发框架，支持 React、Angular、移动端和 Slack 等多种技术，致力于简化开发流程并提升用户体验。",
+      "description": "CopilotKit 是一个为代理和生成用户界面设计的前端开发框架，支持 React、Angular、移动端和 Slack 等多种技术，致力于简化开发流程，提升用户体验。",
       "tags": [
         "前端开发",
         "用户界面",
-        "技术框架"
+        "多平台支持"
       ],
       "url": "https://github.com/CopilotKit/CopilotKit",
       "source": "GitHub",
-      "stars": 34694,
-      "date": "2026-06-12"
+      "stars": 35089,
+      "date": "2026-06-15"
+    },
+    {
+      "title": "GitHub Copilot 资源",
+      "type": "编程开发",
+      "description": "这是一个由社区贡献的资源集合，提供使用 GitHub Copilot 的说明、代理、技能和配置，帮助开发者更好地利用这一工具，提高编程效率。",
+      "tags": [
+        "社区资源",
+        "编程辅助",
+        "开发工具"
+      ],
+      "url": "https://github.com/github/awesome-copilot",
+      "source": "GitHub",
+      "stars": 35011,
+      "date": "2026-06-15"
+    },
+    {
+      "title": "PDF文档双语翻译",
+      "type": "写作 / 办公",
+      "description": "PDFMathTranslate 提供基于 AI 的 PDF 科学论文翻译，能够完整保留原有排版格式。支持 Google、DeepL、Ollama 和 OpenAI 等翻译服务，适用于 CLI、GUI、MCP、Docker 和 Zotero 等多种环境。",
+      "tags": [
+        "PDF翻译",
+        "双语支持",
+        "排版保留"
+      ],
+      "url": "https://github.com/PDFMathTranslate/PDFMathTranslate",
+      "source": "GitHub",
+      "stars": 34839,
+      "date": "2026-06-15"
     },
     {
       "title": "LangGraph",
       "type": "RAG / 知识库",
-      "description": "LangGraph 是一个构建高韧性智能体的工具，支持开发者创建能够在复杂环境中自我适应的 AI 代理，提升任务执行的稳定性和效率。",
+      "description": "LangGraph 是一个构建高韧性智能体的工具，帮助开发者创建能够适应复杂环境的 AI 代理，提升其在动态场景中的表现和稳定性。",
       "tags": [
         "智能体构建",
-        "自适应系统",
-        "任务执行"
+        "环境适应",
+        "动态场景"
       ],
       "url": "https://github.com/langchain-ai/langgraph",
       "source": "GitHub",
-      "stars": 34448,
-      "date": "2026-06-12"
+      "stars": 34741,
+      "date": "2026-06-15"
     },
     {
-      "title": "AstrBot智能助手",
+      "title": "AstrBot - AI 助手框架",
       "type": "安全 / 运维",
-      "description": "AstrBot是一个AI代理助手和开发框架，集成了多种即时通讯平台、LLM、插件和AI功能，可以作为你的OpenClaw替代方案，帮助开发者更高效地构建智能应用。",
+      "description": "AstrBot 是一个集成多种即时通讯平台、语言模型、插件和 AI 功能的开发框架，能够作为您的开源替代方案，帮助开发者快速构建智能代理。✨",
       "tags": [
-        "AI助手",
+        "即时通讯集成",
         "开发框架",
-        "即时通讯"
+        "智能代理"
       ],
       "url": "https://github.com/AstrBotDevs/AstrBot",
       "source": "GitHub",
-      "stars": 34441,
-      "date": "2026-06-12"
+      "stars": 34658,
+      "date": "2026-06-15"
+    },
+    {
+      "title": "Exa 搜索",
+      "type": "浏览器 / 自动化",
+      "description": "Exa 搜索提供快速、智能的网页搜索和网络爬虫功能，帮助开发者获取最新的库、API 和 SDK 信息，提升开发效率。",
+      "tags": [
+        "网页搜索",
+        "网络爬虫",
+        "信息获取"
+      ],
+      "url": "https://smithery.ai/server/exa",
+      "source": "Smithery MCP",
+      "stars": 33996,
+      "date": "2026-06-15"
     },
     {
       "title": "Playwright MCP 服务器",
       "type": "浏览器 / 自动化",
-      "description": "Playwright MCP 服务器提供了一个强大的自动化测试环境，支持多种浏览器的自动化操作，方便开发者进行网页应用的测试和调试。",
+      "description": "Playwright MCP 服务器提供了一个强大的浏览器自动化解决方案，允许开发者通过简单的 API 进行网页测试和自动化操作，提升开发效率和测试质量。",
       "tags": [
         "浏览器自动化",
-        "测试工具",
-        "开发者支持"
+        "网页测试",
+        "开发工具"
       ],
       "url": "https://github.com/microsoft/playwright-mcp",
       "source": "GitHub",
-      "stars": 33776,
-      "date": "2026-06-12"
+      "stars": 33917,
+      "date": "2026-06-15"
     },
     {
       "title": "图形化检索增强生成系统",
       "type": "RAG / 知识库",
-      "description": "这是一个模块化的图形化检索增强生成（RAG）系统，旨在帮助开发者构建更智能的 AI 应用，通过图形化方式提升信息检索和生成的效率。",
+      "description": "这是一个模块化的图形化检索增强生成（RAG）系统，旨在帮助开发者构建更高效的知识检索与生成应用，提升信息处理能力。",
       "tags": [
-        "图形化系统",
-        "信息检索",
-        "生成模型"
+        "模块化系统",
+        "知识检索",
+        "信息生成"
       ],
       "url": "https://github.com/microsoft/graphrag",
       "source": "GitHub",
-      "stars": 33655,
-      "date": "2026-06-12"
-    },
-    {
-      "title": "Nacos",
-      "type": "安全 / 运维",
-      "description": "Nacos 是一个易于使用的动态服务发现、配置和服务管理平台，专为构建 AI 云原生应用而设计。它帮助开发者轻松管理微服务，提高系统的灵活性和可扩展性。",
-      "tags": [
-        "服务发现",
-        "配置管理",
-        "微服务"
-      ],
-      "url": "https://github.com/alibaba/nacos",
-      "source": "GitHub",
-      "stars": 33015,
-      "date": "2026-06-12"
-    },
-    {
-      "title": "VectifyAI 文档索引",
-      "type": "RAG / 知识库",
-      "description": "PageIndex 是一个无向量、基于推理的文档索引工具，帮助 AI Agent 和开发者高效管理和检索文档信息，提升信息处理能力。",
-      "tags": [
-        "文档管理",
-        "信息检索",
-        "推理工具"
-      ],
-      "url": "https://github.com/VectifyAI/PageIndex",
-      "source": "GitHub",
-      "stars": 32914,
-      "date": "2026-06-12"
+      "stars": 33736,
+      "date": "2026-06-15"
     },
     {
       "title": "市场营销技能",
@@ -12029,8 +10558,22 @@
       ],
       "url": "https://github.com/coreyhaines31/marketingskills",
       "source": "GitHub",
-      "stars": 32893,
-      "date": "2026-06-12"
+      "stars": 33326,
+      "date": "2026-06-15"
+    },
+    {
+      "title": "VectifyAI 文档索引",
+      "type": "RAG / 知识库",
+      "description": "PageIndex 是一个无向量、基于推理的文档索引工具，旨在帮助 AI Agent 和开发者高效管理和检索文档信息，提升信息处理能力。",
+      "tags": [
+        "文档管理",
+        "信息检索",
+        "推理工具"
+      ],
+      "url": "https://github.com/VectifyAI/PageIndex",
+      "source": "GitHub",
+      "stars": 33035,
+      "date": "2026-06-15"
     }
   ],
   "dailyReport": {
@@ -12448,7 +10991,7 @@
     }
   ],
   "llmLeaderboard": {
-    "updated": "2026-06-12",
+    "updated": "2026-06-15",
     "source": "ReLE 中文大模型能力评测（综合能力）",
     "sourceUrl": "https://github.com/jeinlee1991/chinese-llm-benchmark",
     "items": [
