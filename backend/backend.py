@@ -2485,6 +2485,39 @@ def git_auto_push(message: str | None = None) -> bool:
         return False
 
 
+def git_auto_self_update() -> None:
+    """定期从远端拉取最新代码（git pull --rebase --autostash）。
+    若 backend.py 内容发生变化，则原地重启进程（os.execv）加载新代码——
+    这样在另一台机器改完 backend.py 推送后，本机会在下个拉取周期自动同步并重启，
+    无需手动 pull / 重启。仅当 AUTO_GIT_PULL 开启时生效。
+
+    注意：本机工作区的 data/ 会被采集持续改写（脏），--autostash 会先收起再放回；
+    建议只让一台机器跑采集+推送，远端的代码改动来自开发机、与本机数据不冲突，放回是干净的。"""
+    branch = os.getenv("GIT_BRANCH", "main")
+    remote = os.getenv("GIT_REMOTE", "origin")
+    backend_file = Path(__file__).resolve()
+
+    def run(cmd: list[str]) -> subprocess.CompletedProcess:
+        return subprocess.run(cmd, cwd=str(ROOT), capture_output=True, text=True)
+
+    try:
+        before = backend_file.read_bytes()
+        pull = run(["git", "pull", "--rebase", "--autostash", remote, branch])
+        if pull.returncode != 0:
+            run(["git", "rebase", "--abort"])
+            print("[git] auto pull failed:", (pull.stderr or pull.stdout).strip().splitlines()[:1])
+            return
+        out = (pull.stdout or "").strip()
+        if out and "up to date" not in out.lower() and "最新" not in out:
+            print("[git] pulled:", out.splitlines()[-1])
+        if backend_file.read_bytes() != before:
+            print("[git] backend.py 已更新 → 重启进程加载新代码…")
+            sys.stdout.flush()
+            os.execv(sys.executable, [sys.executable] + sys.argv)  # 原地重启，不再返回
+    except Exception as error:
+        print("[git] auto self-update error:", error)
+
+
 def _save_state(state: dict) -> None:
     SCHEDULER_STATE.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
 
@@ -2502,6 +2535,23 @@ def scheduler_loop() -> None:
             now = datetime.now()
             today = today_iso()
             current_time = now.strftime("%H:%M")
+
+            # —— 0) 自动同步代码：定期 git pull，backend.py 变了就自重启 ——
+            # 让本机在开发机推送新代码后自动跟上，无需手动 pull/重启。
+            if os.getenv("AUTO_GIT_PULL", "0").lower() in ("1", "true", "yes", "on"):
+                pull_interval = float(os.getenv("GIT_PULL_INTERVAL_MINUTES", "5"))
+                last_pull = state.get("lastPullAt")
+                pull_due = True
+                if last_pull:
+                    try:
+                        elapsed = (datetime.now(timezone.utc) - datetime.fromisoformat(last_pull)).total_seconds()
+                        pull_due = elapsed >= pull_interval * 60
+                    except Exception:
+                        pull_due = True
+                if pull_due:
+                    state["lastPullAt"] = datetime.now(timezone.utc).isoformat()
+                    _save_state(state)        # 先存，避免重启后立即又拉一次
+                    git_auto_self_update()    # backend.py 变化时会在此原地重启，不再返回
 
             # —— 1) 间隔采集 ——
             interval_minutes = float(os.getenv("CRAWL_INTERVAL_MINUTES", "10"))

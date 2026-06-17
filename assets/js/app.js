@@ -169,25 +169,31 @@
     return data.categories.find((item) => item.id === id)?.name || "未分类";
   }
 
-  function matchesQuery(item) {
-    const query = state.query.trim().toLowerCase();
-    if (!query) return true;
+  // 归一化：转小写 + 去掉空格/连字符/下划线/斜杠/点/顿号等分隔符，
+  // 让 "GLM-5.2"、"glm 5.2"、"glm5.2"、"glm52" 互相都能匹配。
+  function normalizeText(s) {
+    return String(s == null ? "" : s).toLowerCase().replace(/[\s\-_/.:：·、，,]+/g, "");
+  }
+  // 容错匹配：query 按空白拆成多个词，每个词归一化后都要命中（AND）。
+  function looseIncludes(rawQuery, values) {
+    const q = String(rawQuery || "").trim();
+    if (!q) return true;
+    const blob = normalizeText(values.filter(Boolean).join(" "));
+    return q.split(/\s+/).every((tok) => {
+      const t = normalizeText(tok);
+      return !t || blob.includes(t);
+    });
+  }
 
-    return [item.title, item.summary, item.source, ...item.tags]
-      .join(" ")
-      .toLowerCase()
-      .includes(query);
+  function matchesQuery(item) {
+    return looseIncludes(state.query, [
+      item.title, item.summary, item.source,
+      ...(item.tags || []), ...(item.keyPoints || []), item.background,
+    ]);
   }
 
   function includesQuery(values) {
-    const query = state.query.trim().toLowerCase();
-    if (!query) return true;
-
-    return values
-      .filter(Boolean)
-      .join(" ")
-      .toLowerCase()
-      .includes(query);
+    return looseIncludes(state.query, values);
   }
 
   function getOriginalIndex(collection, item) {

@@ -8,14 +8,28 @@
   const categoryNames = new Map((data.categories || []).map((item) => [item.id, item.name]));
   let activeCategory = "all";
 
+  // 归一化 + 容错匹配：去分隔符（空格/连字符/点等）+ 多词 AND，
+  // 让 "GLM-5.2"、"glm 5.2"、"glm5.2" 都能搜到。
+  function normalizeText(s) {
+    return String(s == null ? "" : s).toLowerCase().replace(/[\s\-_/.:：·、，,]+/g, "");
+  }
+  function looseIncludes(rawQuery, values) {
+    const q = String(rawQuery || "").trim();
+    if (!q) return true;
+    const blob = normalizeText(values.filter(Boolean).join(" "));
+    return q.split(/\s+/).every((tok) => {
+      const t = normalizeText(tok);
+      return !t || blob.includes(t);
+    });
+  }
+
   function getItems(query = "") {
-    const value = query.trim().toLowerCase();
     return (data.news || [])
       .filter((item) => activeCategory === "all" || item.category === activeCategory)
-      .filter((item) => {
-        if (!value) return true;
-        return [item.title, item.summary, item.source, ...(item.tags || [])].join(" ").toLowerCase().includes(value);
-      })
+      .filter((item) => looseIncludes(query, [
+        item.title, item.summary, item.source,
+        ...(item.tags || []), ...(item.keyPoints || []), item.background,
+      ]))
       .sort((a, b) => new Date(b.date) - new Date(a.date));
   }
 

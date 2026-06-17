@@ -36,10 +36,22 @@
     return `${y} 年 ${parseInt(m, 10)} 月`;
   }
 
+  // 归一化 + 容错匹配：去分隔符（空格/连字符/点等）+ 多词 AND，
+  // 让 "GLM-5.2"、"glm 5.2"、"glm5.2" 都能搜到。
+  function normalizeText(s) {
+    return String(s == null ? "" : s).toLowerCase().replace(/[\s\-_/.:：·、，,]+/g, "");
+  }
   function matches(item, q) {
-    if (!q) return true;
-    const blob = [item.title, item.summary, item.source, ...(item.tags || [])].join(" ").toLowerCase();
-    return blob.includes(q.toLowerCase());
+    const query = String(q || "").trim();
+    if (!query) return true;
+    const blob = normalizeText([
+      item.title, item.summary, item.source,
+      ...(item.tags || []), ...(item.keyPoints || []), item.background,
+    ].filter(Boolean).join(" "));
+    return query.split(/\s+/).every((tok) => {
+      const t = normalizeText(tok);
+      return !t || blob.includes(t);
+    });
   }
 
   function slugOf(item) {
