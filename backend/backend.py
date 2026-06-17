@@ -1383,9 +1383,21 @@ def freeze_daily_report(for_date: str | None = None, keep: int = 60) -> dict:
     target = for_date or days_ago(1)
     day_items = [n for n in news if str(n.get("date") or "")[:10] == target and n.get("aiSelected")]
     report = _bucket_daily(day_items, target)
+    # 兜底：目标日的精选条目可能已被 news 的 [:100] 上限裁掉，导致归档为空壳
+    # （daily.js 会过滤掉没有 sections 的报告）。此时用当前滚动日报的内容快照成该日归档。
+    if report.get("total", 0) < 1:
+        rolling = data.get("dailyReport") or {}
+        if rolling.get("sections"):
+            report = {
+                "date": target,
+                "generatedAt": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+                "total": rolling.get("total") or sum(len(s.get("items") or []) for s in rolling["sections"]),
+                "sections": rolling["sections"],
+            }
     archive = [r for r in (data.get("dailyReports") or []) if r.get("date") != target]
     archive.insert(0, report)
-    data["dailyReports"] = archive[:keep]
+    # 只保留有内容的归档，顺带清掉历史遗留的空壳条目
+    data["dailyReports"] = [r for r in archive if r.get("sections")][:keep]
     # 注意：不覆盖 data["dailyReport"]（那是 merge 维护的"滚动最新日报"）；
     # 归档是带日期的成品，日报页优先展示最新非空归档，否则回退滚动日报。
     data["lastUpdated"] = today_iso()
@@ -2449,12 +2461,25 @@ def git_auto_push(message: str | None = None) -> bool:
         if commit.returncode != 0:
             print("[git] commit failed:", (commit.stderr or commit.stdout).strip())
             return False
-        push = run(["git", "push", remote, branch])
-        if push.returncode != 0:
-            print("[git] push failed:", (push.stderr or push.stdout).strip())
-            return False
-        print("[git] pushed:", msg)
-        return True
+
+        # 多实例/手动提交会让远端领先，导致 push 被判 non-fast-forward 拒绝。
+        # 先 push，被拒就 pull --rebase 整合远端再重试；最多重试 3 次以应对竞争。
+        # 本函数只提交 data/、assets/data/，rebase 冲突只可能发生在数据文件上，
+        # 用 -X theirs（rebase 语境=正在重放的本地提交）保留本轮最新抓取的数据。
+        for attempt in range(3):
+            push = run(["git", "push", remote, branch])
+            if push.returncode == 0:
+                print("[git] pushed:", msg)
+                return True
+            err = (push.stderr or push.stdout).strip()
+            print(f"[git] push rejected (attempt {attempt + 1}/3):", err.splitlines()[0] if err else "")
+            pull = run(["git", "pull", "--rebase", "-X", "theirs", "--autostash", remote, branch])
+            if pull.returncode != 0:
+                run(["git", "rebase", "--abort"])
+                print("[git] pull --rebase failed, aborted:", (pull.stderr or pull.stdout).strip())
+                return False
+        print("[git] push still failing after retries; will retry next cycle")
+        return False
     except Exception as error:
         print("[git] auto push error:", error)
         return False
@@ -2499,8 +2524,10 @@ def scheduler_loop() -> None:
                     state["lastCrawlError"] = str(error)
                 _save_state(state)
 
-            # —— 2) 每日 0 点固化日报（固化"昨天"）——
-            if current_time == os.getenv("DAILY_REPORT_TIME", "00:00") and state.get("lastReportDate") != today:
+            # —— 2) 每日固化日报（固化"昨天"）——
+            # catch-up：新的一天里、到了配置时间后第一次 tick 就补做一次，不再依赖恰好卡在那一分钟，
+            # 避免进程没在 00:00 那一分钟运行就整天漏掉归档。字符串比较 "HH:MM" 即可正确排序。
+            if current_time >= os.getenv("DAILY_REPORT_TIME", "00:00") and state.get("lastReportDate") != today:
                 state["lastReportDate"] = today
                 _save_state(state)
                 try:

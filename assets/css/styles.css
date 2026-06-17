@@ -3131,6 +3131,24 @@ code {
 #dailyArchive .arc-cnt { font-size: 11px; color: var(--muted); font-weight: 600; }
 #dailyArchive button.is-active .arc-cnt { color: var(--accent-dark); }
 
+/* 日报存档：按月折叠 */
+.arc-month { border-radius: var(--radius); }
+.arc-month > summary {
+  list-style: none; cursor: pointer; user-select: none;
+  display: flex; align-items: center; gap: 6px;
+  padding: 8px 12px; border-radius: var(--radius);
+  font-size: 12px; font-weight: 800; color: var(--ink);
+}
+.arc-month > summary::-webkit-details-marker { display: none; }
+.arc-month > summary::before {
+  content: "\25B8"; font-size: 10px; color: var(--muted);
+  transition: transform .15s ease; display: inline-block;
+}
+.arc-month[open] > summary::before { transform: rotate(90deg); }
+.arc-month > summary:hover { background: var(--soft); }
+.arc-month-cnt { margin-left: auto; font-size: 11px; color: var(--muted); font-weight: 600; }
+.arc-month-days { display: grid; gap: 2px; padding: 2px 0 6px 10px; }
+
 /* 热门 Skill：分类筛选 + 分组 */
 .skill-cats { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 18px; }
 .skill-cat { border: 1px solid var(--line); background: var(--panel); border-radius: 999px; padding: 6px 14px; font-size: 13px; font-weight: 700; color: var(--muted); cursor: pointer; }

@@ -95,17 +95,56 @@
       ${sectionsHtml}`;
   }
 
+  function monthKeyOf(d) {
+    return String(d || "").slice(0, 7); // 'YYYY-MM'
+  }
+  function monthLabelOf(key) {
+    const [y, m] = String(key).split("-");
+    return y && m ? `${y} 年 ${parseInt(m, 10)} 月` : "未注明日期";
+  }
+  const WEEK_SHORT = ["日", "一", "二", "三", "四", "五", "六"];
+  function dayLabel(dateStr) {
+    const d = new Date(dateStr);
+    if (isNaN(d.getTime())) return esc(dateStr || "最新");
+    return `${d.getMonth() + 1} 月 ${d.getDate()} 日 · 周${WEEK_SHORT[d.getDay()]}`;
+  }
+
+  // 按月分组渲染（reports 已按日期倒序）：每月一个可折叠 <details>，
+  // 当前查看的那天所在月份默认展开；点某天只切高亮，不重渲染，保留其它月份的展开状态。
   function renderArchive(activeIdx) {
     if (!archiveBox) return;
-    archiveBox.innerHTML = reports
-      .map((r, i) => {
-        const cnt = r.total || (r.sections || []).reduce((n, s) => n + (s.items ? s.items.length : 0), 0);
-        return `<button type="button" data-idx="${i}" class="${i === activeIdx ? "is-active" : ""}">
-          <span class="arc-date">${esc(r.date || "最新")}</span>
-          <span class="arc-cnt">${cnt} 条</span>
-        </button>`;
+    const activeMonth = monthKeyOf(reports[activeIdx] && reports[activeIdx].date);
+    const groups = [];
+    const byKey = {};
+    reports.forEach((r, i) => {
+      const mk = monthKeyOf(r.date);
+      if (!byKey[mk]) { byKey[mk] = { key: mk, items: [] }; groups.push(byKey[mk]); }
+      byKey[mk].items.push({ r, i });
+    });
+    archiveBox.innerHTML = groups
+      .map((g) => {
+        const open = g.key === activeMonth ? " open" : "";
+        const days = g.items
+          .map(({ r, i }) => {
+            const cnt = r.total || (r.sections || []).reduce((n, s) => n + (s.items ? s.items.length : 0), 0);
+            return `<button type="button" data-idx="${i}" class="${i === activeIdx ? "is-active" : ""}">
+                <span class="arc-date">${dayLabel(r.date)}</span>
+                <span class="arc-cnt">${cnt} 条</span>
+              </button>`;
+          })
+          .join("");
+        return `<details class="arc-month"${open}>
+            <summary><span class="arc-month-label">${monthLabelOf(g.key)}</span><span class="arc-month-cnt">${g.items.length} 天</span></summary>
+            <div class="arc-month-days">${days}</div>
+          </details>`;
       })
       .join("");
+  }
+
+  function setActive(idx) {
+    archiveBox.querySelectorAll("button[data-idx]").forEach((b) => {
+      b.classList.toggle("is-active", Number(b.dataset.idx) === idx);
+    });
   }
 
   let current = 0;
@@ -118,7 +157,7 @@
       if (!btn) return;
       current = Number(btn.dataset.idx);
       renderReport(reports[current]);
-      renderArchive(current);
+      setActive(current); // 仅切高亮，保留各月份的折叠状态
       window.scrollTo({ top: 0, behavior: "smooth" });
     });
   }
