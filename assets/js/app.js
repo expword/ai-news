@@ -3,7 +3,7 @@
   const state = {
     category: "all",
     query: "",
-    sort: "score",
+    sort: "newest", // 今日精选默认按发布时间线排列
     mode: "selected", // selected = 只看精选；all = 全部资讯
     skillCat: "all",  // 热门 Skill 的分类筛选
     llmType: "all"    // 大模型榜单：全部/商用/开源
@@ -163,6 +163,41 @@
       }
     }
     return formatDate(item.date);
+  }
+
+  // 时间线排序用的时间戳：优先 publishedAt（精确到分钟），退回 date（按天）
+  function tsOf(item) {
+    const t = new Date(item.publishedAt || item.date || 0).getTime();
+    return isNaN(t) ? 0 : t;
+  }
+
+  // 本地日期 YYYY-MM-DD（用于时间线按天分组，避免 UTC 偏移）
+  function localDay(value) {
+    const d = new Date(value);
+    if (isNaN(d.getTime())) return String(value || "").slice(0, 10);
+    return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+  }
+
+  // 时间线左栏：放大的 HH:MM（有 publishedAt 时），否则显示日期
+  function timelineParts(item) {
+    const dayKey = (item.date || "").slice(0, 10) || localDay(item.publishedAt);
+    let hm = "";
+    if (item.publishedAt) {
+      const d = new Date(item.publishedAt);
+      if (!isNaN(d.getTime())) {
+        hm = `${String(d.getHours()).padStart(2, "0")}:${String(d.getMinutes()).padStart(2, "0")}`;
+      }
+    }
+    return { dayKey, hm, rail: hm || formatDate(item.date) };
+  }
+
+  // 时间线按天分组的标签：今天 / 昨天 / MM-DD
+  function dayDividerLabel(dayKey) {
+    const today = localDay(new Date());
+    const yesterday = localDay(new Date(Date.now() - 86400000));
+    if (dayKey === today) return "今天";
+    if (dayKey === yesterday) return "昨天";
+    return formatDate(dayKey);
   }
 
   function getCategoryName(id) {
@@ -523,7 +558,7 @@
         return (a.source || "").localeCompare(b.source || "", "zh-CN");
       }
       if (state.sort === "newest") {
-        return new Date(b.date || 0) - new Date(a.date || 0);
+        return tsOf(b) - tsOf(a);
       }
       // 默认：精选优先 → 分数高优先 → 日期新优先
       const selDiff = (b.aiSelected ? 1 : 0) - (a.aiSelected ? 1 : 0);
@@ -777,12 +812,17 @@
     if (!newsGrid) return;
     const items = getFilteredNews();
 
+    // 时间线布局只在「按时间线」排序时启用；其它排序退回普通卡片流
+    const timeline = state.sort === "newest";
+    newsGrid.classList.toggle("timeline", timeline);
+
     if (!items.length) {
       newsGrid.innerHTML = '<div class="empty-state">没有找到匹配内容，换个关键词试试。</div>';
       return;
     }
 
     const limit = expandedLists.has("newsGrid") ? 30 : 12;
+    let lastDay = null;
     const cards = items.slice(0, limit).map((item, idx) => {
       const href = newsDetailHref(item);
       const score = Number(item.score) || 0;
@@ -793,12 +833,10 @@
       const srcBadge = srcCount > 1 ? `<span class="src-count" title="被 ${srcCount} 个信源报道">${srcCount} 信源</span>` : "";
       const reason = (item.reason || item.impact || "").trim();
       const reasonLine = reason ? `<p class="news-reason"><strong>推荐理由：</strong>${reason.slice(0, 80)}</p>` : "";
-      return `
-        <a class="card-link" href="${href}">
-          <article class="news-card${item.aiSelected ? " news-card--selected" : ""}">
+
+      const cardInner = `
             <div class="card-meta">
-              <span class="news-rank">#${idx + 1}</span>
-              <time datetime="${item.publishedAt || item.date}">${formatWhen(item)}</time>
+              ${timeline ? "" : `<span class="news-rank">#${idx + 1}</span><time datetime="${item.publishedAt || item.date}">${formatWhen(item)}</time>`}
               <span>${getCategoryName(item.category)}</span>
               ${srcBadge}
               ${scoreBadge}
@@ -809,10 +847,28 @@
             <div class="tag-row">
               ${(item.tags || []).map((tag) => `<span class="tag">${tag}</span>`).join("")}
             </div>
-            <span class="source-name">${item.source}</span>
+            <span class="source-name">${item.source}</span>`;
+
+      if (!timeline) {
+        return `
+        <a class="card-link" href="${href}">
+          <article class="news-card${item.aiSelected ? " news-card--selected" : ""}">${cardInner}
           </article>
-        </a>
-      `;
+        </a>`;
+      }
+
+      const t = timelineParts(item);
+      let divider = "";
+      if (t.dayKey && t.dayKey !== lastDay) {
+        lastDay = t.dayKey;
+        divider = `<div class="timeline-day"><span>${dayDividerLabel(t.dayKey)}</span></div>`;
+      }
+      return `${divider}
+        <a class="card-link timeline-item${item.aiSelected ? " is-selected" : ""}" href="${href}">
+          <div class="timeline-rail"><span class="timeline-time">${t.rail}</span></div>
+          <article class="news-card${item.aiSelected ? " news-card--selected" : ""}">${cardInner}
+          </article>
+        </a>`;
     });
 
     newsGrid.innerHTML = cards.join("");

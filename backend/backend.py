@@ -21,6 +21,9 @@ LLM_WORKERS = int(os.getenv("LLM_WORKERS", "50"))
 ROOT = Path(__file__).resolve().parent.parent
 GENERATED_JSON = ROOT / "data" / "generated-data.json"
 GENERATED_JS = ROOT / "assets" / "data" / "generated-data.js"
+# 前端（app.js / daily.js）直接 fetch /assets/data/generated-data.json，
+# 所以 JSON 也要在 assets/data 下放一份，否则浏览器拿到 404。
+GENERATED_JSON_ASSET = ROOT / "assets" / "data" / "generated-data.json"
 SCHEDULER_STATE = ROOT / "data" / "scheduler-state.json"
 
 FREE_INFO_SOURCES = [
@@ -223,8 +226,12 @@ def read_json(path: Path, fallback):
 
 def write_generated(data: dict) -> None:
     GENERATED_JSON.parent.mkdir(parents=True, exist_ok=True)
-    GENERATED_JSON.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    GENERATED_JS.write_text("window.AI_GENERATED_DATA = " + json.dumps(data, ensure_ascii=False, indent=2) + ";\n", encoding="utf-8")
+    GENERATED_JS.parent.mkdir(parents=True, exist_ok=True)
+    payload = json.dumps(data, ensure_ascii=False, indent=2)
+    GENERATED_JSON.write_text(payload + "\n", encoding="utf-8")
+    # 前端 fetch /assets/data/generated-data.json，这里同步落一份
+    GENERATED_JSON_ASSET.write_text(payload + "\n", encoding="utf-8")
+    GENERATED_JS.write_text("window.AI_GENERATED_DATA = " + payload + ";\n", encoding="utf-8")
 
 
 def uniq_by(items: list[dict], key_fn) -> list[dict]:

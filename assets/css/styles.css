@@ -3065,6 +3065,47 @@ code {
 .latest-section .news-card .tag-row { margin: 0; }
 .latest-section .news-card .tag-row .tag:nth-child(n+4) { display: none; }  /* 最多显示 3 个标签 */
 
+/* 今日精选：左侧时间线（按发布时间排列）。左栏放大显示时间 + 竖线 + 节点圆点 */
+.latest-section .news-grid.timeline { display: block; grid-template-columns: none; gap: 0; }
+
+.timeline-day { display: flex; align-items: center; gap: 10px; margin: 22px 0 10px; }
+.timeline-day:first-child { margin-top: 2px; }
+.timeline-day span {
+  font-size: 13.5px; font-weight: 800; color: var(--accent-dark);
+  background: rgba(15, 139, 141, 0.10); padding: 4px 13px; border-radius: 999px; white-space: nowrap;
+}
+.timeline-day::after { content: ""; flex: 1; height: 1px; background: var(--line); }
+
+.timeline-item { position: relative; display: grid; grid-template-columns: 66px 1fr; align-items: stretch; }
+/* 左栏：右对齐的放大时间 */
+.timeline-rail { position: relative; text-align: right; padding: 16px 22px 0 0; }
+.timeline-time {
+  position: relative; z-index: 1; display: inline-block;
+  font-size: 19px; font-weight: 800; color: var(--ink); line-height: 1.1;
+  letter-spacing: 0.3px; font-variant-numeric: tabular-nums; background: var(--panel); padding-bottom: 2px;
+}
+/* 贯穿的竖线 */
+.timeline-rail::before { content: ""; position: absolute; top: 0; bottom: 0; right: 7px; width: 2px; background: var(--line); }
+.timeline-item:first-of-type .timeline-rail::before { top: 18px; }
+.timeline-item:last-of-type .timeline-rail::before { bottom: auto; height: 20px; }
+/* 节点圆点 */
+.timeline-rail::after {
+  content: ""; position: absolute; top: 17px; right: 1px; width: 14px; height: 14px;
+  border-radius: 50%; background: var(--panel); border: 3px solid var(--accent); box-sizing: border-box; z-index: 2;
+  transition: transform 160ms ease, box-shadow 160ms ease;
+}
+.timeline-item.is-selected .timeline-rail::after { border-color: var(--warm); box-shadow: 0 0 0 4px rgba(255, 184, 77, 0.16); }
+.timeline-item:hover .timeline-rail::after { transform: scale(1.25); }
+
+.timeline-item .news-card { margin: 8px 0 10px 18px; }
+
+@media (max-width: 640px) {
+  .timeline-item { grid-template-columns: 52px 1fr; }
+  .timeline-rail { padding: 15px 16px 0 0; }
+  .timeline-time { font-size: 15px; }
+  .timeline-item .news-card { margin-left: 12px; }
+}
+
 /* 今日要闻 Top5 */
 .top5 { border: 1px solid var(--line); border-radius: var(--radius); background: linear-gradient(120deg, rgba(255,184,77,0.10), rgba(15,139,141,0.06)); padding: 12px 16px; margin: 4px 0 16px; }
 .top5-head { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 8px; }
