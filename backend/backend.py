@@ -2486,30 +2486,44 @@ def git_auto_push(message: str | None = None) -> bool:
 
 
 def git_auto_self_update() -> None:
-    """定期从远端拉取最新代码（git pull --rebase --autostash）。
-    若 backend.py 内容发生变化，则原地重启进程（os.execv）加载新代码——
-    这样在另一台机器改完 backend.py 推送后，本机会在下个拉取周期自动同步并重启，
-    无需手动 pull / 重启。仅当 AUTO_GIT_PULL 开启时生效。
+    """定期从远端拉取最新代码；若 backend.py 变化则原地重启进程加载新代码。
+    仅当 AUTO_GIT_PULL 开启时生效。
 
-    注意：本机工作区的 data/ 会被采集持续改写（脏），--autostash 会先收起再放回；
-    建议只让一台机器跑采集+推送，远端的代码改动来自开发机、与本机数据不冲突，放回是干净的。"""
+    安全设计（避免 autostash 放回脏数据导致冲突、把工作区搞成 unmerged 状态）：
+      1) 先 fetch，只比较"远端是否领先"；远端没有新提交就**完全不碰工作区**，
+         不打扰正在进行的采集（data 文件持续被改写属正常）。
+      2) 远端确有新提交时，才丢弃本地对 data/、assets/data/ 的未提交改动
+         （它们下一轮会自动重新生成），让工作区干净，再做**无 autostash** 的 rebase。
+      3) 任何异常都先 `rebase --abort` 复位，绝不把仓库留在半冲突状态。"""
     branch = os.getenv("GIT_BRANCH", "main")
     remote = os.getenv("GIT_REMOTE", "origin")
+    data_paths = ["data", "assets/data"]
     backend_file = Path(__file__).resolve()
 
     def run(cmd: list[str]) -> subprocess.CompletedProcess:
         return subprocess.run(cmd, cwd=str(ROOT), capture_output=True, text=True)
 
     try:
+        # 1) 防御：若上次遗留了未完成的 rebase，先复位
+        if (ROOT / ".git" / "rebase-merge").exists() or (ROOT / ".git" / "rebase-apply").exists():
+            run(["git", "rebase", "--abort"])
+
+        # 2) fetch 后判断远端是否领先；不领先就什么都不做
+        if run(["git", "fetch", remote, branch]).returncode != 0:
+            return
+        behind = run(["git", "rev-list", "--count", "HEAD..FETCH_HEAD"]).stdout.strip()
+        if behind in ("", "0"):
+            return  # 远端无新提交，保持工作区不动
+
+        # 3) 远端有新提交：丢弃本地会自动重生的 data 改动，保证工作区干净再 rebase
         before = backend_file.read_bytes()
-        pull = run(["git", "pull", "--rebase", "--autostash", remote, branch])
+        run(["git", "checkout", "--", *data_paths])
+        pull = run(["git", "pull", "--rebase", remote, branch])
         if pull.returncode != 0:
             run(["git", "rebase", "--abort"])
-            print("[git] auto pull failed:", (pull.stderr or pull.stdout).strip().splitlines()[:1])
+            print("[git] auto pull failed, aborted:", (pull.stderr or pull.stdout).strip().splitlines()[:1])
             return
-        out = (pull.stdout or "").strip()
-        if out and "up to date" not in out.lower() and "最新" not in out:
-            print("[git] pulled:", out.splitlines()[-1])
+        print("[git] pulled:", f"远端领先 {behind} 个提交，已同步")
         if backend_file.read_bytes() != before:
             print("[git] backend.py 已更新 → 重启进程加载新代码…")
             sys.stdout.flush()
