@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-07-13",
-  "generatedAt": "2026-07-12T17:54:59.095391Z",
+  "generatedAt": "2026-07-12T18:16:36.573295Z",
   "news": [
     {
       "title": "腾讯混元Hy3模型发布：2950亿参数MoE架构，微信10亿用户已集成",
@@ -1756,6 +1756,31 @@ window.AI_GENERATED_DATA = {
       "sourceCount": 1
     },
     {
+      "title": "Aurora 1.5: Extending open foundation models for weather and Earth-system applications",
+      "summary": "Aurora 1.5 adds 22 more variables, hourly temporal resolution, and probabilistic ensemble forecasting to the Aurora foundation model, making it more useful for real-world weather, ",
+      "category": "ai-research",
+      "source": "RSS · Microsoft Research",
+      "date": "2026-07-10",
+      "publishedAt": "2026-07-10T00:46",
+      "tags": [],
+      "url": "https://www.microsoft.com/en-us/research/blog/aurora-1-5-extending-open-foundation-models-for-weather-and-earth-system-applications/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
       "title": "OpenAI 发布 GPT-5.6 模型与博文",
       "summary": "我注意到 OpenAI 最近推出了他们迄今为止最强大的模型 GPT-5.6，同时还发布了一篇精彩的博文，详细介绍了这一模型的前沿智能特性。这个模型的设计旨在与用户的雄心相匹配，展现了 OpenAI 在 AI 领域的最新进展。",
       "category": "ai-models",
@@ -2911,6 +2936,56 @@ window.AI_GENERATED_DATA = {
       "sourceCount": 1
     },
     {
+      "title": "SkillOpt: Agent skills as trainable parameters",
+      "summary": "AI agents often fail because their instructions, or skills, are manually modified with no guarantee of improvement. Learn how SkillOpt turns skill editing into a training process, ",
+      "category": "ai-agents",
+      "source": "RSS · Microsoft Research",
+      "date": "2026-07-01",
+      "publishedAt": "2026-07-01T00:50",
+      "tags": [],
+      "url": "https://www.microsoft.com/en-us/research/blog/skillopt-agent-skills-as-trainable-parameters/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Memora: A Harmonic Memory Representation Balancing Abstraction and Specificity",
+      "summary": "AI agents can't remember past conversations. They must constantly reload or retrieve context, which grows less efficient as tasks get longer and more complex. Memora solves this wi",
+      "category": "ai-agents",
+      "source": "RSS · Microsoft Research",
+      "date": "2026-06-30",
+      "publishedAt": "2026-06-30T05:14",
+      "tags": [],
+      "url": "https://www.microsoft.com/en-us/research/blog/memora-a-harmonic-memory-representation-balancing-abstraction-and-specificity/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
       "title": "Gemini 3.5 Flash 集成计算机使用功能",
       "summary": "我注意到，Gemini 3.5 Flash 现在内置了计算机使用功能，这使得开发者可以更方便地创建跨平台的智能代理。这个新功能不仅提升了性能，还为长期和企业自动化任务提供了更好的支持。",
       "category": "ai-models",
@@ -2968,6 +3043,30 @@ window.AI_GENERATED_DATA = {
       "score": 84,
       "aiSelected": true,
       "_style": "recommender",
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Talos: Scaling rare disease diagnosis with automated, iterative genomic reanalysis",
+      "summary": "Talos was built to help resolve a major bottleneck in genomic medicine: human review time. The open-source system recovered 90% of in-scope diagnoses while surfacing just 1.3 candi",
+      "category": "ai-research",
+      "source": "RSS · Microsoft Research",
+      "date": "2026-06-24",
+      "publishedAt": "2026-06-24T22:00",
+      "tags": [],
+      "url": "https://www.microsoft.com/en-us/research/blog/talos-scaling-rare-disease-diagnosis-with-automated-iterative-genomic-reanalysis/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
       "moduleTargets": [
         "news"
       ],
@@ -3275,6 +3374,30 @@ window.AI_GENERATED_DATA = {
       "score": 86,
       "aiSelected": true,
       "_style": "recommender",
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Data Formulator 0.7: AI-powered data analytics for enterprise data",
+      "summary": "Data Formulator introduces AI-powered analytics for enterprise data workflows. Data teams can easily bring enterprise data into an AI-ready workspace where users can explore, analy",
+      "category": "ai-agents",
+      "source": "RSS · Microsoft Research",
+      "date": "2026-05-29",
+      "publishedAt": "2026-05-29T00:00",
+      "tags": [],
+      "url": "https://www.microsoft.com/en-us/research/blog/data-formulator-0-7-ai-powered-data-analytics-for-enterprise-data/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
       "moduleTargets": [
         "news"
       ],
@@ -4135,1056 +4258,6 @@ window.AI_GENERATED_DATA = {
     }
   ],
   "githubWeekly": [
-    {
-      "name": "CherryHQ/cherry-studio",
-      "lang": "TypeScript",
-      "category": "AI 编辑器",
-      "description": "这是一个为提高生产力而设计的 AI 工具，提供智能聊天和自主代理功能，支持 300 多个助手。",
-      "details": "Cherry Studio 是一款集成了多种前沿 LLM 的生产力工具，旨在帮助用户高效管理任务和信息。与其他 AI 编辑器如 Notion AI 和 Coda 相比，Cherry Studio 提供了更为智能的聊天功能和自主代理，能够自动执行任务。该项目使用 TypeScript 开发，采用 MIT 许可证，适合开发者和企业用户尝试，不推荐给对 AI 功能需求不高的普通用户。",
-      "features": [
-        "提供智能聊天功能",
-        "支持自主代理执行任务",
-        "集成 300+ 个助手",
-        "统一访问前沿 LLM",
-        "支持多种 API 接口"
-      ],
-      "useCases": [
-        "使用智能聊天功能进行项目管理",
-        "通过自主代理自动化日常任务",
-        "访问多种 LLM 进行信息检索",
-        "集成助手提升团队协作效率"
-      ],
-      "quickStart": [
-        "git clone https://github.com/CherryHQ/cherry-studio.git",
-        "cd cherry-studio",
-        "npm install",
-        "npm run start"
-      ],
-      "why": "Cherry Studio 拥有 48475 个星标，显示出其在社区中的受欢迎程度。与同类产品相比，它的智能聊天和自主代理功能使得用户能够更高效地完成任务。该项目的活跃开发和更新频率也为用户提供了持续的支持和改进。",
-      "tags": [
-        "AI 编辑器",
-        "生产力工具",
-        "智能助手"
-      ],
-      "url": "https://github.com/CherryHQ/cherry-studio",
-      "stars": "48475 stars",
-      "source": "GitHub Search · 2026-07-13",
-      "date": "2026-07-13"
-    },
-    {
-      "name": "MoonshotAI/kimi-code",
-      "lang": "TypeScript",
-      "category": "Agent 框架",
-      "description": "Kimi Code CLI 是下一代智能代理的起点，适合开发者和研究人员使用，支持快速构建和部署智能代理。",
-      "details": "Kimi Code CLI 旨在简化智能代理的开发流程，解决了传统开发工具复杂、效率低下的问题。与其他竞品如 OpenAI 的 Codex 相比，Kimi Code 提供了更灵活的本地部署选项和更强的自定义能力。该项目使用 TypeScript 开发，采用 MIT 许可证，适合希望快速构建智能代理的开发者和研究人员，不推荐对 CLI 工具不熟悉的用户。",
-      "features": [
-        "支持多种智能代理模型的快速构建",
-        "提供简洁的命令行界面",
-        "支持本地推理和部署",
-        "兼容主流的 AI 框架",
-        "集成多种数据源"
-      ],
-      "useCases": [
-        "构建自定义的智能客服代理",
-        "快速原型开发新的 AI 应用",
-        "在本地环境中测试和优化智能代理",
-        "集成外部 API 以增强功能"
-      ],
-      "quickStart": [
-        "git clone https://github.com/MoonshotAI/kimi-code.git",
-        "cd kimi-code",
-        "npm install",
-        "npm run build",
-        "npm start"
-      ],
-      "why": "Kimi Code CLI 以其灵活性和易用性脱颖而出，获得了超过 3064 个星标，社区活跃度高，适合快速迭代和开发。相比于其他工具，它提供了更强的本地部署能力和自定义选项，适合希望在本地环境中进行开发的用户。",
-      "tags": [
-        "智能代理",
-        "CLI工具",
-        "TypeScript",
-        "本地推理"
-      ],
-      "url": "https://github.com/MoonshotAI/kimi-code",
-      "stars": "3064 stars",
-      "source": "GitHub · 月之暗面 Kimi",
-      "date": "2026-07-13"
-    },
-    {
-      "name": "Tencent-Hunyuan/HiLS-Attention",
-      "lang": "Python",
-      "category": "推理引擎",
-      "description": "HiLS-Attention 是一个用于高效注意力机制的工具，适合研究人员和开发者使用。",
-      "details": "HiLS-Attention 解决了传统注意力机制在处理大规模数据时的效率问题。与其他注意力机制（如 Transformer）相比，HiLS-Attention 提供了更高的计算效率和更低的内存占用。该项目使用 Python 编写，采用 MIT 许可证，适合需要优化模型推理速度的开发者尝试，而不推荐对注意力机制不熟悉的用户。",
-      "features": [
-        "支持高效的注意力计算",
-        "降低内存占用",
-        "兼容多种深度学习框架",
-        "提供示例代码和文档",
-        "支持大规模数据处理"
-      ],
-      "useCases": [
-        "在大型数据集上训练深度学习模型",
-        "优化现有模型的推理速度",
-        "进行注意力机制的研究和实验"
-      ],
-      "quickStart": [
-        "git clone https://github.com/Tencent-Hunyuan/HiLS-Attention.git",
-        "cd HiLS-Attention",
-        "pip install -r requirements.txt",
-        "python example.py"
-      ],
-      "why": "HiLS-Attention 在处理大规模数据时表现出色，当前已有 83 stars，表明社区对其认可。其独特的高效计算方式使其在同类项目中脱颖而出，适合需要提升模型推理效率的开发者。",
-      "tags": [
-        "注意力机制",
-        "深度学习",
-        "模型优化"
-      ],
-      "url": "https://github.com/Tencent-Hunyuan/HiLS-Attention",
-      "stars": "83 stars",
-      "source": "GitHub · 腾讯混元",
-      "date": "2026-07-13"
-    },
-    {
-      "name": "NousResearch/hermes-agent",
-      "lang": "Python",
-      "category": "Agent 框架",
-      "description": "这是一个为用户提供智能代理的工具，能够根据用户需求不断成长。",
-      "details": "Hermes Agent 是一个灵活的智能代理框架，旨在帮助用户构建和管理个性化的智能代理。与其他同类产品（如 Rasa 和 Botpress）相比，Hermes Agent 更加注重用户的个性化需求，提供了更高的可定制性和扩展性。该项目使用 Python 开发，采用 MIT 许可证，适合开发者和研究人员使用，而不推荐初学者或对 AI 代理没有深入了解的用户。",
-      "features": [
-        "支持多种自然语言处理任务",
-        "提供可定制的对话管理",
-        "集成多种外部 API",
-        "支持用户自定义技能",
-        "实时学习用户偏好"
-      ],
-      "useCases": [
-        "构建个性化的客户服务代理",
-        "实现智能助手进行日常任务管理",
-        "开发教育领域的智能辅导系统"
-      ],
-      "quickStart": [
-        "git clone https://github.com/NousResearch/hermes-agent.git",
-        "cd hermes-agent",
-        "pip install -r requirements.txt",
-        "python main.py"
-      ],
-      "why": "Hermes Agent 以其灵活性和可扩展性脱颖而出，当前已有 213631 stars，显示出广泛的社区支持。其设计理念强调用户个性化需求，适合多种应用场景，技术栈成熟，社区活跃，适合希望深入定制智能代理的开发者。",
-      "tags": [
-        "智能代理",
-        "个性化",
-        "Python"
-      ],
-      "url": "https://github.com/NousResearch/hermes-agent",
-      "stars": "213631 stars",
-      "source": "GitHub Search · 2026-07-13",
-      "date": "2026-07-13"
-    },
-    {
-      "name": "OpenBMB/UltraX",
-      "lang": "Python",
-      "category": "Agent 框架",
-      "description": "UltraX 是一个面向开发者的 MiniCPM 开源项目，提供灵活的智能推理能力。",
-      "details": "UltraX 旨在为开发者提供一个高效的智能推理框架，特别适合需要本地推理的应用场景。与其他同类产品如 LangChain 和 Haystack 相比，UltraX 更加注重轻量级和易用性，支持多种模型的集成。项目使用 Python 开发，采用 MIT 许可证，适合希望快速构建智能应用的开发者。不推荐对本地推理需求不高的用户。",
-      "features": [
-        "支持多种模型集成",
-        "提供灵活的推理接口",
-        "兼容 OpenAI API",
-        "支持自定义技能集合",
-        "轻量级设计，易于部署"
-      ],
-      "useCases": [
-        "本地运行 MiniCPM 模型进行智能问答",
-        "构建个性化的智能助手",
-        "实现本地数据的智能分析",
-        "快速集成现有的 LLM 应用"
-      ],
-      "quickStart": [
-        "git clone https://github.com/OpenBMB/UltraX.git",
-        "cd UltraX",
-        "pip install -r requirements.txt",
-        "python run.py"
-      ],
-      "why": "UltraX 以其简洁的设计和灵活的集成能力脱颖而出，当前项目已获得 2 stars，显示出一定的社区关注度。其轻量级特性使得开发者能够快速上手，适合快速迭代和开发。",
-      "tags": [
-        "智能推理",
-        "开源项目",
-        "Python",
-        "Agent 框架"
-      ],
-      "stars": "2 stars",
-      "url": "https://github.com/OpenBMB/UltraX",
-      "source": "GitHub · 面壁智能 MiniCPM",
-      "date": "2026-07-13"
-    },
-    {
-      "name": "ByteDance-Seed/Triton-distributed",
-      "lang": "Python",
-      "category": "推理引擎",
-      "description": "这是一个基于 Triton 的分布式编译器，适用于并行系统，支持高效的计算任务调度。",
-      "details": "Triton-distributed 解决了并行计算中的编译和调度问题，能够有效利用多核和分布式计算资源。与传统的编译器相比，它提供了更高的灵活性和性能优化，特别适合需要高并发处理的应用场景。该项目使用 Python 开发，采用 MIT 许可证，适合开发者和研究人员使用，不推荐对并行计算不感兴趣的用户。",
-      "features": [
-        "支持多种并行计算架构",
-        "动态任务调度和负载均衡",
-        "与 Triton 兼容，易于集成",
-        "高效的内存管理",
-        "提供详细的性能分析工具"
-      ],
-      "useCases": [
-        "在大规模数据处理任务中实现高效并行计算",
-        "替换传统编译器提升计算性能",
-        "在科研项目中进行复杂算法的并行实现"
-      ],
-      "quickStart": [
-        "git clone https://github.com/ByteDance-Seed/Triton-distributed.git",
-        "cd Triton-distributed",
-        "pip install -r requirements.txt",
-        "python main.py"
-      ],
-      "why": "Triton-distributed 以其 1484 stars 的社区认可度，展示了其在并行计算领域的潜力。与其他编译器相比，它在性能优化和资源利用上表现出色，适合需要高效计算的开发者和研究人员。其活跃的社区支持和持续更新也为用户提供了良好的使用体验。",
-      "tags": [
-        "分布式编译",
-        "并行计算",
-        "Triton",
-        "高性能",
-        "Python"
-      ],
-      "url": "https://github.com/ByteDance-Seed/Triton-distributed",
-      "stars": "1484 stars",
-      "source": "GitHub · 字节跳动 Seed",
-      "date": "2026-07-13"
-    },
-    {
-      "name": "simstudioai/sim",
-      "lang": "TypeScript",
-      "category": "Agent 框架",
-      "description": "Sim 是一个用于构建、部署和编排 AI 代理的工具，适合需要管理 AI 劳动力的开发者。",
-      "details": "Sim 提供了一个中心智能层，帮助用户高效管理和协调多个 AI 代理。与其他同类产品（如 OpenAI 的 API 和 Hugging Face 的 Transformers）相比，Sim 更加专注于代理的编排和管理，提供了更灵活的部署选项。该项目使用 TypeScript 开发，遵循 MIT 许可证，适合希望在本地或云端运行 AI 代理的开发者。不推荐给只需简单 API 调用的用户。",
-      "features": [
-        "支持多种 AI 代理的编排",
-        "提供灵活的部署选项",
-        "兼容主流 AI 框架",
-        "支持自定义代理行为",
-        "提供可视化管理界面"
-      ],
-      "useCases": [
-        "构建自定义 AI 劳动力进行数据分析",
-        "部署多种 AI 代理进行客户服务",
-        "编排多个 AI 代理进行复杂任务处理"
-      ],
-      "quickStart": [
-        "git clone https://github.com/simstudioai/sim.git",
-        "cd sim",
-        "npm install",
-        "npm run build",
-        "npm start"
-      ],
-      "why": "Sim 拥有超过 29067 个 stars，表明其在开发者社区中的受欢迎程度。其灵活的架构和强大的编排能力使其在同类产品中脱颖而出，适合需要高效管理多个 AI 代理的用户。项目活跃，更新频繁，确保了技术的前沿性。",
-      "tags": [
-        "AI代理",
-        "编排",
-        "TypeScript"
-      ],
-      "url": "https://github.com/simstudioai/sim",
-      "stars": "29067 stars",
-      "source": "GitHub Search · 2026-07-13",
-      "date": "2026-07-13"
-    },
-    {
-      "name": "ZhuLinsen/daily_stock_analysis",
-      "lang": "Python",
-      "category": "LLM 应用平台",
-      "description": "这是一个为投资者提供多市场股票分析的工具，支持实时数据和自动推送功能。",
-      "details": "该项目解决了投资者在多市场股票分析中的信息获取和决策效率问题。与同类产品如 Alpha Vantage 和 Yahoo Finance 相比，它集成了多源行情和实时新闻，提供决策看板和自动通知功能。技术栈包括 Python，使用开源许可证，适合希望自动化股票分析的投资者，不推荐对实时数据需求不高的用户。",
-      "features": [
-        "集成多源市场数据",
-        "实时新闻推送",
-        "决策看板展示",
-        "支持自动化定时运行",
-        "零成本使用"
-      ],
-      "useCases": [
-        "分析多市场股票趋势",
-        "实时获取市场新闻",
-        "生成股票决策报告"
-      ],
-      "quickStart": [
-        "git clone https://github.com/ZhuLinsen/daily_stock_analysis.git",
-        "cd daily_stock_analysis",
-        "pip install -r requirements.txt",
-        "python main.py"
-      ],
-      "why": "该项目在 GitHub 上拥有 56857 stars，显示出其受欢迎程度和社区活跃度。它通过集成多种数据源和自动化功能，显著提高了股票分析的效率，适合需要实时决策支持的用户。",
-      "tags": [
-        "股票分析",
-        "实时数据",
-        "投资工具"
-      ],
-      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
-      "stars": "56857 stars",
-      "source": "GitHub Search · 2026-07-13",
-      "date": "2026-07-13"
-    },
-    {
-      "name": "firecrawl/firecrawl",
-      "lang": "TypeScript",
-      "category": "推理引擎",
-      "description": "这是一个用于大规模搜索、抓取和与网络交互的 API，支持高效的数据处理。",
-      "details": "Firecrawl 是一个专为需要大规模网络数据抓取和搜索的开发者设计的工具。它能够高效地从互联网上提取信息，适合数据科学家、研究人员和开发者使用。与其他抓取工具（如 Scrapy 和 Puppeteer）相比，Firecrawl 提供了更高的灵活性和可扩展性，能够处理复杂的抓取任务。该项目使用 TypeScript 开发，遵循 MIT 许可证，适合希望构建自定义网络抓取解决方案的用户，不推荐对抓取技术不熟悉的初学者。",
-      "features": [
-        "支持大规模并发抓取",
-        "提供灵活的 API 接口",
-        "支持多种数据格式输出",
-        "内置错误处理机制",
-        "可扩展的插件系统"
-      ],
-      "useCases": [
-        "抓取电商网站的产品信息",
-        "提取社交媒体上的用户评论",
-        "监控竞争对手的网站更新",
-        "分析新闻网站的文章数据"
-      ],
-      "quickStart": [
-        "git clone https://github.com/firecrawl/firecrawl.git",
-        "cd firecrawl",
-        "npm install",
-        "npm start",
-        "访问 http://localhost:3000 进行测试"
-      ],
-      "why": "Firecrawl 以其高效的抓取能力和灵活的 API 设计脱颖而出，已获得 149790 stars，显示出其在开发者社区中的受欢迎程度。与传统抓取工具相比，Firecrawl 的并发处理能力和插件扩展性使其在处理复杂抓取任务时更具优势。",
-      "tags": [
-        "网络抓取",
-        "数据提取",
-        "API"
-      ],
-      "url": "https://github.com/firecrawl/firecrawl",
-      "stars": "149790 stars",
-      "source": "GitHub Search · 2026-07-13",
-      "date": "2026-07-13"
-    },
-    {
-      "name": "harvard-edge/cs249r_book",
-      "lang": "Python",
-      "category": "AI 编辑器",
-      "description": "这是一本关于机器学习系统的教材，适合希望深入理解机器学习的学生和开发者，提供了丰富的理论与实践案例。",
-      "details": "本书专注于机器学习系统的设计与实现，涵盖了从基础理论到实际应用的广泛内容。与其他机器学习书籍相比，如《Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow》，本书更注重系统的整体架构和实际部署。使用 Python 作为主要编程语言，适合有一定编程基础的读者。推荐给希望在机器学习领域深入学习的学生和研究人员，不推荐给完全没有编程经验的初学者。",
-      "features": [
-        "提供机器学习系统设计的全面视角",
-        "结合理论与实践案例，易于理解",
-        "适合有编程基础的读者",
-        "涵盖最新的机器学习技术与工具",
-        "支持多种机器学习框架的应用"
-      ],
-      "useCases": [
-        "学习机器学习系统的设计与实现",
-        "实践机器学习项目中的理论知识",
-        "为机器学习课程提供教材支持"
-      ],
-      "quickStart": [
-        "访问项目页面：git clone https://github.com/harvard-edge/cs249r_book",
-        "安装所需依赖：pip install -r requirements.txt",
-        "阅读书籍内容，结合代码示例进行实践",
-        "参与社区讨论，分享学习经验"
-      ],
-      "why": "本书在机器学习领域具有较高的认可度，获得了 27417 stars，表明其受欢迎程度。内容更新及时，涵盖了最新的研究成果和实践经验，适合希望深入学习的读者。活跃的社区支持也为学习提供了良好的环境。",
-      "tags": [
-        "机器学习",
-        "教材",
-        "Python"
-      ],
-      "url": "https://github.com/harvard-edge/cs249r_book",
-      "stars": "27417 stars",
-      "source": "GitHub Search · 2026-07-13",
-      "date": "2026-07-13"
-    },
-    {
-      "name": "langchain-ai/langchain",
-      "lang": "Python",
-      "category": "Agent 框架",
-      "description": "这是一个为开发者提供的代理工程平台，支持快速构建和部署智能代理。",
-      "details": "LangChain 是一个专注于构建智能代理的框架，旨在简化开发过程。它解决了传统开发中对多种工具和API的依赖问题，提供了一体化的解决方案。与其他竞品如 Rasa 和 Botpress 相比，LangChain 更加灵活，支持多种语言模型和数据源的集成。该项目使用 Python 开发，采用 MIT 许可证，适合希望快速构建智能应用的开发者，不推荐对代理开发不感兴趣的用户。",
-      "features": [
-        "支持多种语言模型的集成",
-        "提供丰富的 API 接口",
-        "支持数据源的灵活配置",
-        "内置多种常用工具和模块",
-        "支持自定义代理逻辑"
-      ],
-      "useCases": [
-        "构建智能客服代理处理用户咨询",
-        "集成外部 API 提供实时数据服务",
-        "开发个性化推荐系统提升用户体验"
-      ],
-      "quickStart": [
-        "git clone https://github.com/langchain-ai/langchain.git",
-        "cd langchain",
-        "pip install -r requirements.txt",
-        "python examples/quickstart.py"
-      ],
-      "why": "LangChain 拥有超过 141598 个 stars，社区活跃，更新频繁，提供了丰富的文档和示例，适合各类开发者使用。其灵活的架构设计使得用户可以轻松扩展功能，满足不同场景的需求。与同类产品相比，LangChain 的集成能力和可扩展性更强。",
-      "tags": [
-        "代理框架",
-        "智能应用",
-        "Python"
-      ],
-      "url": "https://github.com/langchain-ai/langchain",
-      "stars": "141598 stars",
-      "source": "GitHub Search · 2026-07-13",
-      "date": "2026-07-13"
-    },
-    {
-      "name": "santifer/career-ops",
-      "lang": "JavaScript",
-      "category": "LLM 应用平台",
-      "description": "这是一个开源的 AI 求职工具，能够扫描招聘网站并对职位进行评分，帮助用户定制简历。",
-      "details": "career-ops 解决了求职者在海量职位信息中筛选合适工作的难题。与传统的求职工具相比，它不仅提供职位评分，还能根据用户的简历进行个性化调整。该项目使用 JavaScript 开发，采用开源许可证，适合希望利用 AI 技术优化求职流程的开发者和求职者。不推荐给不熟悉命令行操作的用户。",
-      "features": [
-        "扫描多个招聘网站",
-        "对职位进行 A-F 评分",
-        "定制化简历生成",
-        "本地运行于 AI 编码 CLI",
-        "跟踪申请状态"
-      ],
-      "useCases": [
-        "扫描招聘网站获取最新职位信息",
-        "根据评分选择最合适的职位申请",
-        "生成与职位匹配的个性化简历"
-      ],
-      "quickStart": [
-        "git clone https://github.com/santifer/career-ops.git",
-        "cd career-ops",
-        "npm install",
-        "npm start"
-      ],
-      "why": "career-ops 以其独特的职位评分系统和简历定制功能脱颖而出，当前已有 59734 stars，显示出其广泛的社区认可。项目活跃，适合希望通过 AI 提升求职效率的用户。",
-      "tags": [
-        "求职工具",
-        "AI 应用",
-        "开源项目"
-      ],
-      "url": "https://github.com/santifer/career-ops",
-      "stars": "59734 stars",
-      "source": "GitHub Search · 2026-07-13",
-      "date": "2026-07-13"
-    },
-    {
-      "name": "huggingface/transformers",
-      "lang": "Python",
-      "category": "LLM 应用平台",
-      "description": "🤗 Transformers 是一个为文本、视觉、音频和多模态模型提供的模型定义框架，适用于推理和训练，适合机器学习开发者使用。",
-      "details": "Transformers 解决了机器学习模型定义的复杂性，支持多种任务如文本生成、图像处理等。与其他框架如 TensorFlow 和 PyTorch 相比，Transformers 提供了更为简洁的 API 和丰富的预训练模型，方便开发者快速上手。该项目使用 Python 编写，遵循 Apache 2.0 许可证，适合希望在 NLP 和计算机视觉领域进行研究和开发的用户，不推荐对深度学习不熟悉的初学者。",
-      "features": [
-        "支持多种预训练模型，如 BERT、GPT-2 和 T5",
-        "提供简单的 API 进行模型训练和推理",
-        "支持多种任务，包括文本分类、问答和翻译",
-        "兼容 Hugging Face Hub，方便模型共享",
-        "支持分布式训练和混合精度训练"
-      ],
-      "useCases": [
-        "使用预训练模型进行文本分类任务",
-        "在本地运行 GPT-2 进行对话生成",
-        "替换传统模型进行机器翻译",
-        "在图像识别中应用 Vision Transformer",
-        "进行多模态学习任务"
-      ],
-      "quickStart": [
-        "pip install transformers",
-        "从 Hugging Face Hub 下载模型",
-        "使用模型进行推理：model = AutoModel.from_pretrained('model_name')",
-        "进行训练：trainer.train()",
-        "使用 tokenizer 进行文本预处理"
-      ],
-      "why": "Transformers 拥有超过 162540 个 stars，社区活跃，更新频繁。它的设计使得用户可以轻松访问和使用最新的模型，适合快速迭代和实验。与其他框架相比，Transformers 提供了更丰富的文档和示例，降低了学习曲线。",
-      "tags": [
-        "机器学习",
-        "自然语言处理",
-        "深度学习"
-      ],
-      "url": "https://github.com/huggingface/transformers",
-      "stars": "162540 stars",
-      "source": "GitHub Search · 2026-07-13",
-      "date": "2026-07-13"
-    },
-    {
-      "name": "browser-use/browser-use",
-      "lang": "Python",
-      "category": "Agent 框架",
-      "description": "🌐 这是一个为 AI 代理提供网站访问能力的工具，支持在线任务自动化，简化操作流程。",
-      "details": "该项目旨在解决 AI 代理在访问和操作网站时的可用性问题。与其他自动化工具（如 Selenium 和 Puppeteer）相比，browser-use 提供了更高层次的抽象，简化了与网页交互的过程。使用 Python 语言开发，采用 MIT 许可证，适合开发者和研究人员使用，不推荐给初学者。",
-      "features": [
-        "支持多种网站的自动化操作",
-        "提供简洁的 API 接口",
-        "兼容主流浏览器",
-        "支持异步操作",
-        "易于集成到现有项目中"
-      ],
-      "useCases": [
-        "自动化填写在线表单",
-        "抓取网页数据并分析",
-        "模拟用户行为进行测试"
-      ],
-      "quickStart": [
-        "git clone https://github.com/browser-use/browser-use.git",
-        "cd browser-use",
-        "pip install -r requirements.txt",
-        "python example.py",
-        "查看示例代码进行自定义"
-      ],
-      "why": "该项目在 GitHub 上拥有超过 104377 stars，显示出其广泛的社区认可度。与同类工具相比，browser-use 提供了更高的灵活性和易用性，适合快速开发和原型设计。其活跃的开发和更新频率也确保了项目的持续改进。",
-      "tags": [
-        "自动化",
-        "网站访问",
-        "AI 代理"
-      ],
-      "url": "https://github.com/browser-use/browser-use",
-      "stars": "104377 stars",
-      "source": "GitHub Search · 2026-07-13",
-      "date": "2026-07-13"
-    },
-    {
-      "name": "MiniMax-AI/MiniMax-M3",
-      "lang": "Python",
-      "category": "推理引擎",
-      "description": "MiniMax 是一个开源的推理引擎，适合开发者和研究人员使用，支持多种 AI 模型的推理。",
-      "details": "MiniMax-M3 解决了高效推理的需求，特别是在资源受限的环境中。与其他推理引擎如 TensorRT 和 ONNX Runtime 相比，MiniMax 提供了更灵活的模型支持和更简单的集成方式。该项目使用 Python 编写，采用 MIT 许可证，适合希望快速部署 AI 模型的开发者。对于需要复杂推理功能的用户，MiniMax 是一个理想选择，但对于简单需求的用户可能显得过于复杂。",
-      "features": [
-        "支持多种 AI 模型格式",
-        "高效的内存管理",
-        "灵活的推理配置",
-        "易于集成到现有项目",
-        "提供详细的文档和示例"
-      ],
-      "useCases": [
-        "在本地环境中运行 MiniMax 进行模型推理",
-        "集成 MiniMax 到现有的 AI 应用中",
-        "使用 MiniMax 进行模型性能测试"
-      ],
-      "quickStart": [
-        "git clone https://github.com/MiniMax-AI/MiniMax-M3.git",
-        "cd MiniMax-M3",
-        "pip install -r requirements.txt",
-        "python main.py"
-      ],
-      "why": "MiniMax-M3 以其 398 个 stars 显示出良好的社区支持和活跃度。相比于同类产品，MiniMax 提供了更高的灵活性和易用性，适合多种应用场景。其开源特性使得开发者能够根据需求进行定制和扩展。",
-      "tags": [
-        "推理引擎",
-        "开源",
-        "AI 模型"
-      ],
-      "url": "https://github.com/MiniMax-AI/MiniMax-M3",
-      "stars": "398 stars",
-      "source": "GitHub · MiniMax",
-      "date": "2026-07-13"
-    },
-    {
-      "name": "langgenius/dify",
-      "lang": "TypeScript",
-      "category": "Agent 框架",
-      "description": "这是一个为开发智能工作流而设计的平台，支持快速构建和部署代理应用。",
-      "details": "Dify 提供了一个生产就绪的平台，专注于智能工作流的开发，适合需要构建复杂代理系统的开发者。与其他同类产品（如 Rasa 和 Botpress）相比，Dify 更加灵活，支持多种集成和自定义功能。它使用 TypeScript 开发，采用 MIT 许可证，适合开发者和企业使用，但不推荐给初学者，因为需要一定的技术基础。",
-      "features": [
-        "支持多种工作流设计",
-        "集成多种外部 API",
-        "提供可视化界面",
-        "支持自定义插件",
-        "高效的事件处理机制"
-      ],
-      "useCases": [
-        "构建智能客服系统",
-        "实现自动化数据处理",
-        "开发个性化推荐引擎"
-      ],
-      "quickStart": [
-        "git clone https://github.com/langgenius/dify.git",
-        "cd dify",
-        "npm install",
-        "npm run start"
-      ],
-      "why": "Dify 以其灵活性和可扩展性脱颖而出，适合需要快速迭代的开发团队。它在 GitHub 上拥有 148596 stars，显示出其广泛的社区支持和活跃度。与 Rasa 和 Botpress 相比，Dify 提供了更好的集成能力和用户体验。",
-      "tags": [
-        "智能工作流",
-        "代理框架",
-        "TypeScript"
-      ],
-      "url": "https://github.com/langgenius/dify",
-      "stars": "148596 stars",
-      "source": "GitHub Search · 2026-07-13",
-      "date": "2026-07-13"
-    },
-    {
-      "name": "rasbt/LLMs-from-scratch",
-      "lang": "Jupyter Notebook",
-      "category": "LLM 应用平台",
-      "description": "这是一个用于从零开始实现类似 ChatGPT 的大型语言模型的工具，适合开发者和研究人员使用，逐步引导实现过程。",
-      "details": "该项目旨在帮助用户理解如何从头开始构建一个大型语言模型（LLM），使用 PyTorch 框架进行实现。与其他同类项目（如 Hugging Face Transformers）相比，它提供了更深入的实现细节，适合希望掌握底层原理的开发者。项目使用 Jupyter Notebook 进行逐步讲解，便于学习和实验。推荐给对深度学习和自然语言处理有兴趣的开发者，不推荐给只想快速使用现成模型的用户。",
-      "features": [
-        "逐步实现 ChatGPT 类似的 LLM",
-        "使用 PyTorch 进行深度学习",
-        "提供详细的代码注释和解释",
-        "支持 Jupyter Notebook 交互式学习",
-        "适合初学者和有经验的开发者"
-      ],
-      "useCases": [
-        "实现自定义的聊天机器人",
-        "探索 LLM 的内部工作原理",
-        "进行自然语言处理的研究和实验"
-      ],
-      "quickStart": [
-        "git clone https://github.com/rasbt/LLMs-from-scratch.git",
-        "cd LLMs-from-scratch",
-        "pip install -r requirements.txt",
-        "jupyter notebook"
-      ],
-      "why": "该项目在 GitHub 上拥有近 10 万个星标，显示出其广泛的社区关注和活跃度。通过从零开始构建 LLM，用户可以深入理解模型的架构和训练过程，这在其他现成的解决方案中是难以获得的。项目的开放性和教育性使其成为学习 LLM 的理想选择。",
-      "tags": [
-        "大型语言模型",
-        "深度学习",
-        "PyTorch"
-      ],
-      "url": "https://github.com/rasbt/LLMs-from-scratch",
-      "stars": "98968 stars",
-      "source": "GitHub Search · 2026-07-13",
-      "date": "2026-07-13"
-    },
-    {
-      "name": "vercel/ai",
-      "lang": "TypeScript",
-      "category": "AI 编辑器",
-      "description": "这是一个为开发者提供的 TypeScript AI 工具包，支持构建 AI 驱动的应用和代理，突出其开源特性。",
-      "details": "vercel/ai 是一个开源的 AI 工具包，专为 TypeScript 开发者设计，旨在简化 AI 应用的构建过程。与其他同类产品（如 OpenAI 的 API 和 Hugging Face 的 Transformers）相比，它提供了更为灵活的集成方式和更好的 TypeScript 支持。该项目使用 TypeScript 开发，遵循 MIT 许可证，适合希望在 TypeScript 环境中快速构建 AI 应用的开发者。不推荐对 TypeScript 不熟悉的开发者使用。",
-      "features": [
-        "提供 TypeScript 友好的 API",
-        "支持多种 AI 模型集成",
-        "开源且免费使用",
-        "易于与 Next.js 集成",
-        "支持自定义代理逻辑"
-      ],
-      "useCases": [
-        "构建智能客服系统",
-        "开发个性化推荐引擎",
-        "实现语音助手功能"
-      ],
-      "quickStart": [
-        "git clone https://github.com/vercel/ai.git",
-        "cd ai",
-        "npm install",
-        "npm run dev",
-        "访问 http://localhost:3000"
-      ],
-      "why": "vercel/ai 以其开源和 TypeScript 友好的特性脱颖而出，拥有超过 25509 个星标，表明其在开发者社区中的受欢迎程度。该项目由 Next.js 的创作者维护，确保了高质量的代码和活跃的社区支持。其灵活的 API 设计使得开发者能够快速上手并构建复杂的 AI 应用。",
-      "tags": [
-        "AI工具",
-        "TypeScript",
-        "开源"
-      ],
-      "url": "https://github.com/vercel/ai",
-      "stars": "25509 stars",
-      "source": "GitHub Search · 2026-07-13",
-      "date": "2026-07-13"
-    },
-    {
-      "name": "OpenHands/OpenHands",
-      "lang": "Python",
-      "category": "Agent 框架",
-      "description": "🙌 OpenHands 是一个基于 AI 的开发工具，旨在简化开发流程，特别适合开发者和团队使用。其亮点在于提供了智能化的代码生成和优化功能。",
-      "details": "OpenHands 解决了传统开发工具在代码生成和优化方面的不足，利用 AI 技术提升开发效率。与同类工具如 GitHub Copilot 和 Tabnine 相比，OpenHands 更加注重本地推理和自定义能力，允许开发者根据具体需求调整模型。该项目使用 Python 编写，采用开源许可证，适合希望提升开发效率的开发者和团队使用，但不推荐对 AI 开发不感兴趣的用户。",
-      "features": [
-        "支持智能代码生成",
-        "提供代码优化建议",
-        "兼容多种开发环境",
-        "支持本地推理",
-        "集成多种 AI 模型"
-      ],
-      "useCases": [
-        "使用 OpenHands 自动生成项目代码",
-        "在本地环境中优化现有代码",
-        "集成 OpenHands 提供的 API 进行开发",
-        "快速创建原型项目",
-        "根据需求调整生成的代码"
-      ],
-      "quickStart": [
-        "git clone https://github.com/OpenHands/OpenHands.git",
-        "cd OpenHands",
-        "pip install -r requirements.txt",
-        "python main.py",
-        "访问本地服务进行开发"
-      ],
-      "why": "OpenHands 拥有超过 80554 stars，显示了其在开发者社区中的受欢迎程度。与其他 AI 开发工具相比，它强调本地推理能力，减少了对云服务的依赖，适合对数据隐私有高要求的用户。其活跃的社区支持和持续更新也为用户提供了良好的使用体验。",
-      "tags": [
-        "AI开发",
-        "代码生成",
-        "本地推理"
-      ],
-      "url": "https://github.com/OpenHands/OpenHands",
-      "stars": "80554 stars",
-      "source": "GitHub Search · 2026-07-13",
-      "date": "2026-07-13"
-    },
-    {
-      "name": "invoke-ai/InvokeAI",
-      "lang": "TypeScript",
-      "category": "推理引擎",
-      "description": "Invoke 是一个为专业人士、艺术家和爱好者提供的创意引擎，专注于生成视觉媒体，具备行业领先的 WebUI。",
-      "details": "InvokeAI 解决了使用 Stable Diffusion 模型生成视觉内容的需求，适合需要高质量图像生成的用户。与其他同类产品（如 Midjourney、DALL-E）相比，InvokeAI 提供了更灵活的本地部署选项和强大的自定义能力。项目使用 TypeScript 开发，遵循开源许可证，适合开发者和创意工作者使用，不推荐对 AI 生成内容不感兴趣的用户。",
-      "features": [
-        "支持本地运行 Stable Diffusion 模型",
-        "提供用户友好的 WebUI",
-        "支持多种图像生成参数调整",
-        "兼容多种硬件加速选项",
-        "支持自定义模型和插件"
-      ],
-      "useCases": [
-        "生成高质量的艺术作品",
-        "创建个性化的社交媒体内容",
-        "进行产品原型设计和可视化",
-        "实现快速的概念验证和迭代"
-      ],
-      "quickStart": [
-        "git clone https://github.com/invoke-ai/InvokeAI.git",
-        "cd InvokeAI",
-        "npm install",
-        "npm run start"
-      ],
-      "why": "InvokeAI 在 GitHub 上拥有超过 27603 个星标，表明其社区活跃度和用户基础。与其他工具相比，它提供了更高的灵活性和可定制性，适合各种创意项目。其基于 TypeScript 的架构使得开发者可以轻松扩展功能，满足不同需求。",
-      "tags": [
-        "视觉生成",
-        "AI 创作",
-        "Stable Diffusion"
-      ],
-      "url": "https://github.com/invoke-ai/InvokeAI",
-      "stars": "27603 stars",
-      "source": "GitHub Search · 2026-07-13",
-      "date": "2026-07-13"
-    },
-    {
-      "name": "Significant-Gravitas/AutoGPT",
-      "lang": "Python",
-      "category": "Agent 框架",
-      "description": "AutoGPT 是一个让每个人都能使用和构建的 AI 工具，专注于提供实用的工具以便用户关注重要事务。",
-      "details": "AutoGPT 旨在解决 AI 访问门槛高的问题，允许用户轻松创建和使用 AI 应用。与其他 AI 框架（如 LangChain 和 Haystack）相比，AutoGPT 提供了更简洁的接口和更高的灵活性，支持多种任务的自动化。该项目使用 Python 开发，采用 MIT 许可证，适合开发者和 AI 爱好者尝试，不推荐完全没有编程基础的用户。",
-      "features": [
-        "支持多种任务自动化",
-        "提供简洁的 API 接口",
-        "兼容 OpenAI 模型",
-        "支持自定义插件扩展",
-        "实时反馈和调试功能"
-      ],
-      "useCases": [
-        "创建个性化的聊天机器人",
-        "自动生成内容和文档",
-        "进行数据分析和报告生成",
-        "实现自动化的客户支持",
-        "构建智能助手应用"
-      ],
-      "quickStart": [
-        "git clone https://github.com/Significant-Gravitas/AutoGPT.git",
-        "cd AutoGPT",
-        "pip install -r requirements.txt",
-        "python main.py",
-        "根据提示配置和运行"
-      ],
-      "why": "AutoGPT 拥有超过 185491 个星标，显示出其广泛的社区支持和活跃度。与同类产品相比，它提供了更高的灵活性和易用性，适合各种 AI 应用场景。其开源性质和活跃的开发者社区使得用户能够快速获取支持和更新。",
-      "tags": [
-        "AI",
-        "自动化",
-        "开发工具",
-        "开源"
-      ],
-      "url": "https://github.com/Significant-Gravitas/AutoGPT",
-      "stars": "185491 stars",
-      "source": "GitHub Search · 2026-07-13",
-      "date": "2026-07-13"
-    },
-    {
-      "name": "OpenBMB/UltraRAG",
-      "lang": "Python",
-      "category": "RAG 引擎",
-      "description": "这是一个低代码框架，帮助开发者构建复杂且创新的 RAG 流水线，支持快速开发和部署。",
-      "details": "UltraRAG 是一个低代码的多通道处理框架，专为构建复杂的 RAG（Retrieval-Augmented Generation）流水线而设计。它解决了传统 RAG 流水线开发中的复杂性问题，提供了简化的接口和模块化的组件，使得开发者能够快速构建和迭代。与其他竞品如 Haystack 和 LangChain 相比，UltraRAG 更加注重低代码开发体验，降低了入门门槛。该项目使用 Python 开发，采用 MIT 许可证，适合希望快速实现 RAG 应用的开发者，不推荐对低代码开发不感兴趣的用户。",
-      "features": [
-        "支持多种数据源集成",
-        "提供可视化流水线设计工具",
-        "支持自定义模型和组件",
-        "内置调试和监控功能",
-        "兼容主流 LLM 模型"
-      ],
-      "useCases": [
-        "构建企业知识库问答系统",
-        "实现智能客服对话生成",
-        "快速原型开发 RAG 应用",
-        "集成外部 API 进行数据检索"
-      ],
-      "quickStart": [
-        "git clone https://github.com/OpenBMB/UltraRAG.git",
-        "cd UltraRAG",
-        "pip install -r requirements.txt",
-        "python run.py"
-      ],
-      "why": "UltraRAG 以其低代码特性和模块化设计，显著降低了 RAG 流水线的开发难度。项目目前拥有5639个星标，社区活跃，更新频繁，适合快速迭代和开发。与其他框架相比，UltraRAG 更加灵活，能够满足不同场景的需求。",
-      "tags": [
-        "低代码",
-        "RAG",
-        "Python",
-        "开发框架",
-        "智能应用"
-      ],
-      "url": "https://github.com/OpenBMB/UltraRAG",
-      "stars": "5639 stars",
-      "source": "GitHub · 面壁智能 MiniCPM",
-      "date": "2026-07-13"
-    },
-    {
-      "name": "yamadashy/repomix",
-      "lang": "TypeScript",
-      "category": "LLM 应用平台",
-      "description": "Repomix 是一个为开发者设计的工具，可以将整个代码库打包成一个 AI 友好的文件，便于与大型语言模型（LLMs）交互。",
-      "details": "Repomix 解决了将代码库有效输入到 AI 工具中的问题，特别是针对大型语言模型如 ChatGPT 和 Claude。与其他工具相比，Repomix 提供了更简洁的打包方式，支持多种 AI 工具的兼容性。该项目使用 TypeScript 开发，遵循 MIT 许可证，适合需要将代码库与 AI 进行交互的开发者使用，但不推荐对 AI 交互需求不高的用户。",
-      "features": [
-        "将整个代码库打包为单个文件",
-        "支持多种 AI 工具的输入格式",
-        "兼容大型语言模型",
-        "简化代码库与 AI 的交互",
-        "使用 TypeScript 开发"
-      ],
-      "useCases": [
-        "将代码库输入到 ChatGPT 进行代码审查",
-        "为 Claude 提供代码示例以生成文档",
-        "在 DeepSeek 中快速检索代码片段",
-        "使用 Gemini 进行代码优化建议"
-      ],
-      "quickStart": [
-        "安装依赖：npm install repomix",
-        "运行打包命令：npx repomix pack",
-        "生成 AI 友好的文件：npx repomix generate",
-        "将文件上传至目标 AI 工具"
-      ],
-      "why": "Repomix 拥有超过 27077 个星标，显示出其在开发者社区中的受欢迎程度。与其他同类工具相比，Repomix 提供了更高效的打包方式，支持多种 AI 工具，且使用 TypeScript 开发，确保了代码的可维护性和扩展性。其活跃的社区也为用户提供了良好的支持。",
-      "tags": [
-        "代码打包",
-        "AI 工具",
-        "开发者工具"
-      ],
-      "url": "https://github.com/yamadashy/repomix",
-      "stars": "27077 stars",
-      "source": "GitHub Search · 2026-07-13",
-      "date": "2026-07-13"
-    },
-    {
-      "name": "QwenLM/qwen-code",
-      "lang": "TypeScript",
-      "category": "Coding Agent",
-      "description": "这是一个开源的 AI 编程助手，能够在你的终端中运行，提供代码生成和建议功能。",
-      "details": "QwenLM/qwen-code 旨在简化开发者的编码过程，通过在终端中提供实时的代码建议和生成，帮助用户提高编程效率。与其他同类工具（如 GitHub Copilot）相比，它更注重本地运行，避免了对外部服务的依赖。该项目使用 TypeScript 开发，遵循开源许可证，适合希望在本地环境中使用 AI 助手的开发者。对于需要云服务或不愿意在本地运行的用户，可能不太适合。",
-      "features": [
-        "支持多种编程语言的代码生成",
-        "提供实时代码建议",
-        "本地运行，无需网络连接",
-        "集成终端环境，使用方便",
-        "开源，允许自定义和扩展"
-      ],
-      "useCases": [
-        "在终端中快速生成 Python 函数",
-        "实时获取 JavaScript 代码建议",
-        "本地运行 C++ 项目时自动补全代码"
-      ],
-      "quickStart": [
-        "git clone https://github.com/QwenLM/qwen-code.git",
-        "cd qwen-code",
-        "npm install",
-        "npm start"
-      ],
-      "why": "QwenLM/qwen-code 拥有超过 25973 个星标，显示出其在开发者社区中的受欢迎程度。它的本地运行特性使得用户可以在没有网络的情况下使用 AI 助手，避免了数据隐私问题。与其他依赖云服务的工具相比，它提供了更高的灵活性和控制力。",
-      "tags": [
-        "AI 编程助手",
-        "开源工具",
-        "终端应用"
-      ],
-      "url": "https://github.com/QwenLM/qwen-code",
-      "stars": "25973 stars",
-      "source": "GitHub · 通义千问 Qwen",
-      "date": "2026-07-13"
-    },
-    {
-      "name": "f/prompts.chat",
-      "lang": "HTML",
-      "category": "AI 编辑器",
-      "description": "这是一个供社区分享、发现和收集 ChatGPT 提示的工具，支持自我托管，确保隐私。",
-      "details": "f/prompts.chat 是一个开源项目，旨在让用户方便地分享和获取 ChatGPT 提示。与其他类似工具（如 ChatGPT Prompt Genius）相比，它提供了更高的隐私性，用户可以选择自我托管。项目使用 HTML 语言构建，遵循开源许可证，适合希望在组织内部使用 ChatGPT 的开发者和团队。不推荐给只想要简单提示的用户，因为这个工具更适合需要自定义和隐私保护的场景。",
-      "features": [
-        "支持社区分享和发现提示",
-        "提供自我托管选项",
-        "开源，允许自由修改",
-        "用户友好的界面",
-        "支持多种提示格式"
-      ],
-      "useCases": [
-        "分享自定义的 ChatGPT 提示给团队",
-        "收集和整理社区推荐的提示",
-        "在组织内部搭建私有的提示库"
-      ],
-      "quickStart": [
-        "git clone https://github.com/f/prompts.chat.git",
-        "cd prompts.chat",
-        "npm install",
-        "npm start",
-        "访问 http://localhost:3000"
-      ],
-      "why": "f/prompts.chat 以其165545个星标在 GitHub 上获得了广泛关注，显示出其活跃的社区和用户基础。与其他工具相比，它强调隐私保护和自我托管，适合需要控制数据的用户。项目的开源特性也使得用户可以根据需求进行修改和扩展。",
-      "tags": [
-        "ChatGPT",
-        "提示管理",
-        "开源工具"
-      ],
-      "url": "https://github.com/f/prompts.chat",
-      "stars": "165545 stars",
-      "source": "GitHub Search · 2026-07-13",
-      "date": "2026-07-13"
-    },
-    {
-      "name": "stepfun-ai/Step-Realtime-CLI",
-      "lang": "TypeScript",
-      "category": "Agent 框架",
-      "description": "StepFun 提供一个实时命令行工具，适合开发者快速构建和测试 AI 代理。",
-      "details": "Step-Realtime-CLI 是一个开源项目，旨在帮助开发者在本地环境中快速构建和测试 AI 代理。与其他同类工具（如 Rasa 和 Botpress）相比，Step-Realtime-CLI 更加轻量，支持 TypeScript 开发，便于与现有的 JavaScript 生态系统集成。该项目使用 MIT 许可证，适合希望快速迭代和测试 AI 代理的开发者。不推荐给需要复杂功能或大规模部署的用户。",
-      "features": [
-        "支持实时命令行交互",
-        "轻量级 TypeScript 实现",
-        "易于集成现有 JavaScript 项目",
-        "提供简单的 API 接口",
-        "支持插件扩展功能"
-      ],
-      "useCases": [
-        "快速构建 AI 代理进行本地测试",
-        "在命令行中实时调试代理行为",
-        "集成到现有 JavaScript 项目中",
-        "开发自定义插件扩展功能"
-      ],
-      "quickStart": [
-        "git clone https://github.com/stepfun-ai/Step-Realtime-CLI.git",
-        "cd Step-Realtime-CLI",
-        "npm install",
-        "npm start"
-      ],
-      "why": "Step-Realtime-CLI 以其轻量级和实时交互的特性，适合快速开发和测试 AI 代理。相比于其他工具，它的 TypeScript 实现使得开发者能够更容易地与现有项目集成。项目目前有 34 stars，显示出一定的社区关注度，适合希望快速迭代的开发者。",
-      "tags": [
-        "AI 代理",
-        "实时交互",
-        "TypeScript"
-      ],
-      "stars": "34 stars",
-      "url": "https://github.com/stepfun-ai/Step-Realtime-CLI",
-      "source": "GitHub · 阶跃星辰 StepFun",
-      "date": "2026-07-13"
-    },
-    {
-      "name": "usestrix/strix",
-      "lang": "Python",
-      "category": "AI 编辑器",
-      "description": "这是一个开源的 AI 渗透测试工具，帮助开发者发现和修复应用程序的漏洞，具备自动化测试的能力。",
-      "details": "Strix 是一个专为开发者设计的渗透测试工具，旨在帮助他们识别和修复应用程序中的安全漏洞。与其他渗透测试工具（如 Burp Suite 和 OWASP ZAP）相比，Strix 提供了更为简洁的用户界面和自动化测试功能，降低了使用门槛。该项目使用 Python 开发，遵循 MIT 许可证，适合安全研究人员和开发者使用，但不推荐给初学者，因为需要一定的安全知识背景。",
-      "features": [
-        "自动化漏洞扫描",
-        "支持多种协议和应用类型",
-        "易于集成到 CI/CD 流程",
-        "提供详细的报告和修复建议",
-        "社区活跃，定期更新"
-      ],
-      "useCases": [
-        "执行自动化渗透测试以发现安全漏洞",
-        "集成到开发流程中进行持续安全检查",
-        "生成详细的安全报告以供审计使用"
-      ],
-      "quickStart": [
-        "git clone https://github.com/usestrix/strix.git",
-        "cd strix",
-        "pip install -r requirements.txt",
-        "python strix.py --target <your_target>"
-      ],
-      "why": "Strix 以其简洁的界面和强大的自动化能力脱颖而出，适合开发者快速上手。项目目前拥有 40783 stars，表明其在社区中的受欢迎程度。定期更新和活跃的社区支持使其成为安全测试领域的可靠选择。",
-      "tags": [
-        "渗透测试",
-        "安全工具",
-        "开源"
-      ],
-      "url": "https://github.com/usestrix/strix",
-      "stars": "40783 stars",
-      "source": "GitHub Search · 2026-07-13",
-      "date": "2026-07-13"
-    },
-    {
-      "name": "vllm-project/vllm",
-      "lang": "Python",
-      "category": "推理引擎",
-      "description": "这是一个高吞吐量和内存高效的 LLM 推理与服务引擎，适合需要快速响应的应用场景。",
-      "details": "vllm 是一个专为大语言模型（LLM）设计的推理引擎，旨在解决传统推理引擎在性能和内存使用上的瓶颈。与 Hugging Face Transformers 等竞品相比，vllm 在处理高并发请求时表现更优，且内存占用更低。该项目使用 Python 编写，采用开源许可证，适合开发者和研究人员使用，不推荐对性能要求不高的简单应用。",
-      "features": [
-        "支持高吞吐量的推理请求",
-        "内存使用效率高",
-        "兼容多种 LLM 模型",
-        "支持动态批处理",
-        "提供简单易用的 API"
-      ],
-      "useCases": [
-        "在本地部署 LLM 进行文本生成",
-        "为聊天机器人提供实时响应",
-        "在企业内部进行文档分析",
-        "替换传统推理引擎以提高性能"
-      ],
-      "quickStart": [
-        "git clone https://github.com/vllm-project/vllm",
-        "cd vllm",
-        "pip install -r requirements.txt",
-        "python run_inference.py"
-      ],
-      "why": "vllm 项目在 GitHub 上获得了超过 86058 个星标，显示出其广泛的社区认可。其高效的内存管理和快速的推理能力使其在处理大规模请求时优于许多同类产品。该项目的活跃开发和更新频率也为用户提供了持续的支持和改进。",
-      "tags": [
-        "推理引擎",
-        "大语言模型",
-        "高性能"
-      ],
-      "url": "https://github.com/vllm-project/vllm",
-      "stars": "86058 stars",
-      "source": "GitHub Search · 2026-07-13",
-      "date": "2026-07-13"
-    },
-    {
-      "name": "OpenBMB/MiniCPM-o-Demo",
-      "lang": "Python",
-      "category": "推理引擎",
-      "description": "这是一个基于 PyTorch 和 CUDA 的全功能 Web 演示工具，适合研究人员和开发者使用，支持 MiniCPM-o 4.5 模型。",
-      "details": "MiniCPM-o-Demo 提供了一个完整的 Web 演示，旨在帮助用户快速体验 MiniCPM-o 4.5 模型的功能。与其他同类项目（如 Hugging Face 的 Transformers）相比，该项目专注于提供更简洁的接口和更高效的性能。使用 Python 语言开发，基于 PyTorch 和 CUDA，采用 MIT 许可证，适合需要高效推理的开发者和研究人员，不推荐初学者使用。",
-      "features": [
-        "支持 MiniCPM-o 4.5 模型推理",
-        "基于 PyTorch 和 CUDA 提供高性能",
-        "提供简单易用的 Web 界面",
-        "支持多种输入格式",
-        "可扩展性强，适合二次开发"
-      ],
-      "useCases": [
-        "在本地运行 MiniCPM-o 4.5 进行文本生成",
-        "集成到现有的 AI 应用中进行推理",
-        "快速测试模型效果和性能",
-        "为研究提供可视化的演示工具"
-      ],
-      "quickStart": [
-        "git clone https://github.com/OpenBMB/MiniCPM-o-Demo.git",
-        "cd MiniCPM-o-Demo",
-        "pip install -r requirements.txt",
-        "python app.py",
-        "在浏览器中访问 http://localhost:5000"
-      ],
-      "why": "MiniCPM-o-Demo 以其简洁的界面和高效的推理性能脱颖而出。项目获得了 268 stars，显示出社区的认可度。基于 PyTorch 和 CUDA 的实现确保了其在性能上的优势，适合需要快速原型开发的用户。",
-      "tags": [
-        "推理引擎",
-        "Web 演示",
-        "PyTorch",
-        "CUDA",
-        "MiniCPM"
-      ],
-      "stars": "268 stars",
-      "url": "https://github.com/OpenBMB/MiniCPM-o-Demo",
-      "source": "GitHub · 面壁智能 MiniCPM",
-      "date": "2026-07-13"
-    },
     {
       "name": "OpenBMB/MiniCPM-V-Apps",
       "lang": "Swift",
@@ -6307,6 +5380,421 @@ window.AI_GENERATED_DATA = {
       "stars": "77347 stars",
       "source": "GitHub Search · 2026-07-12",
       "date": "2026-07-12"
+    },
+    {
+      "name": "MiniMax-AI/MiniMax-M3",
+      "lang": "Repo",
+      "description": "MiniMax 开源项目。",
+      "stars": "398 stars",
+      "why": "国产大模型厂商 MiniMax 的最新开源动态/模型发布，属一手信源。",
+      "url": "https://github.com/MiniMax-AI/MiniMax-M3",
+      "source": "GitHub · MiniMax",
+      "tier": "T1",
+      "category": "Coding Agent",
+      "details": "MiniMax 开源项目。",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
+      "name": "rasbt/LLMs-from-scratch",
+      "lang": "Jupyter Notebook",
+      "description": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
+      "stars": "98969 stars",
+      "why": "近期更新且具备 AI / LLM / Agent 相关主题，适合做项目介绍、教程或同类对比。",
+      "url": "https://github.com/rasbt/LLMs-from-scratch",
+      "source": "GitHub Search · 2026-07-13",
+      "category": "Coding Agent",
+      "details": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
+      "name": "CherryHQ/cherry-studio",
+      "lang": "TypeScript",
+      "description": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
+      "stars": "48475 stars",
+      "why": "近期更新且具备 AI / LLM / Agent 相关主题，适合做项目介绍、教程或同类对比。",
+      "url": "https://github.com/CherryHQ/cherry-studio",
+      "source": "GitHub Search · 2026-07-13",
+      "category": "Coding Agent",
+      "details": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
+      "name": "MoonshotAI/kimi-code",
+      "lang": "TypeScript",
+      "description": "Kimi Code CLI  —  The Starting Point for Next-Gen Agents",
+      "stars": "3064 stars",
+      "why": "国产大模型厂商 月之暗面 Kimi 的最新开源动态/模型发布，属一手信源。",
+      "url": "https://github.com/MoonshotAI/kimi-code",
+      "source": "GitHub · 月之暗面 Kimi",
+      "tier": "T1",
+      "category": "Coding Agent",
+      "details": "Kimi Code CLI  —  The Starting Point for Next-Gen Agents",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
+      "name": "Tencent-Hunyuan/HiLS-Attention",
+      "lang": "Python",
+      "description": "Official code for HiLS-Attention",
+      "stars": "83 stars",
+      "why": "国产大模型厂商 腾讯混元 的最新开源动态/模型发布，属一手信源。",
+      "url": "https://github.com/Tencent-Hunyuan/HiLS-Attention",
+      "source": "GitHub · 腾讯混元",
+      "tier": "T1",
+      "category": "Coding Agent",
+      "details": "Official code for HiLS-Attention",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
+      "name": "f/prompts.chat",
+      "lang": "HTML",
+      "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
+      "stars": "165545 stars",
+      "why": "近期更新且具备 AI / LLM / Agent 相关主题，适合做项目介绍、教程或同类对比。",
+      "url": "https://github.com/f/prompts.chat",
+      "source": "GitHub Search · 2026-07-13",
+      "category": "Coding Agent",
+      "details": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
+      "name": "vllm-project/vllm",
+      "lang": "Python",
+      "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+      "stars": "86058 stars",
+      "why": "近期更新且具备 AI / LLM / Agent 相关主题，适合做项目介绍、教程或同类对比。",
+      "url": "https://github.com/vllm-project/vllm",
+      "source": "GitHub Search · 2026-07-13",
+      "category": "Coding Agent",
+      "details": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
+      "name": "OpenHands/OpenHands",
+      "lang": "Python",
+      "description": "🙌 OpenHands: AI-Driven Development",
+      "stars": "80554 stars",
+      "why": "近期更新且具备 AI / LLM / Agent 相关主题，适合做项目介绍、教程或同类对比。",
+      "url": "https://github.com/OpenHands/OpenHands",
+      "source": "GitHub Search · 2026-07-13",
+      "category": "Coding Agent",
+      "details": "🙌 OpenHands: AI-Driven Development",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
+      "name": "simstudioai/sim",
+      "lang": "TypeScript",
+      "description": "Build, deploy, and orchestrate AI agents. Sim is the central intelligence layer for your AI workforce.",
+      "stars": "29067 stars",
+      "why": "近期更新且具备 AI / LLM / Agent 相关主题，适合做项目介绍、教程或同类对比。",
+      "url": "https://github.com/simstudioai/sim",
+      "source": "GitHub Search · 2026-07-13",
+      "category": "Coding Agent",
+      "details": "Build, deploy, and orchestrate AI agents. Sim is the central intelligence layer for your AI workforce.",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
+      "name": "huggingface/transformers",
+      "lang": "Python",
+      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
+      "stars": "162541 stars",
+      "why": "近期更新且具备 AI / LLM / Agent 相关主题，适合做项目介绍、教程或同类对比。",
+      "url": "https://github.com/huggingface/transformers",
+      "source": "GitHub Search · 2026-07-13",
+      "category": "Coding Agent",
+      "details": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
+      "name": "langgenius/dify",
+      "lang": "TypeScript",
+      "description": "Production-ready platform for agentic workflow development.",
+      "stars": "148597 stars",
+      "why": "近期更新且具备 AI / LLM / Agent 相关主题，适合做项目介绍、教程或同类对比。",
+      "url": "https://github.com/langgenius/dify",
+      "source": "GitHub Search · 2026-07-13",
+      "category": "Coding Agent",
+      "details": "Production-ready platform for agentic workflow development.",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
+      "name": "langchain-ai/langchain",
+      "lang": "Python",
+      "description": "The agent engineering platform.",
+      "stars": "141597 stars",
+      "why": "近期更新且具备 AI / LLM / Agent 相关主题，适合做项目介绍、教程或同类对比。",
+      "url": "https://github.com/langchain-ai/langchain",
+      "source": "GitHub Search · 2026-07-13",
+      "category": "Coding Agent",
+      "details": "The agent engineering platform.",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
+      "name": "browser-use/browser-use",
+      "lang": "Python",
+      "description": "🌐 Make websites accessible for AI agents. Automate tasks online with ease.",
+      "stars": "104378 stars",
+      "why": "近期更新且具备 AI / LLM / Agent 相关主题，适合做项目介绍、教程或同类对比。",
+      "url": "https://github.com/browser-use/browser-use",
+      "source": "GitHub Search · 2026-07-13",
+      "category": "Coding Agent",
+      "details": "🌐 Make websites accessible for AI agents. Automate tasks online with ease.",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
+      "name": "OpenBMB/UltraRAG",
+      "lang": "Python",
+      "description": "A Low-Code MCP Framework for Building Complex and Innovative RAG Pipelines",
+      "stars": "5639 stars",
+      "why": "国产大模型厂商 面壁智能 MiniCPM 的最新开源动态/模型发布，属一手信源。",
+      "url": "https://github.com/OpenBMB/UltraRAG",
+      "source": "GitHub · 面壁智能 MiniCPM",
+      "tier": "T1",
+      "category": "Coding Agent",
+      "details": "A Low-Code MCP Framework for Building Complex and Innovative RAG Pipelines",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
+      "name": "vercel/ai",
+      "lang": "TypeScript",
+      "description": "The AI Toolkit for TypeScript. From the creators of Next.js, the AI SDK is a free open-source library for building AI-powered applications and agents ",
+      "stars": "25509 stars",
+      "why": "近期更新且具备 AI / LLM / Agent 相关主题，适合做项目介绍、教程或同类对比。",
+      "url": "https://github.com/vercel/ai",
+      "source": "GitHub Search · 2026-07-13",
+      "category": "Coding Agent",
+      "details": "The AI Toolkit for TypeScript. From the creators of Next.js, the AI SDK is a free open-source library for building AI-powered applications and agents ",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
+      "name": "usestrix/strix",
+      "lang": "Python",
+      "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+      "stars": "40784 stars",
+      "why": "近期更新且具备 AI / LLM / Agent 相关主题，适合做项目介绍、教程或同类对比。",
+      "url": "https://github.com/usestrix/strix",
+      "source": "GitHub Search · 2026-07-13",
+      "category": "Coding Agent",
+      "details": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
+      "name": "yamadashy/repomix",
+      "lang": "TypeScript",
+      "description": "📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools like Claude, ChatGPT, DeepSeek, Perplexity, Gemini, Gemma, Llama, Grok, and more.",
+      "stars": "27077 stars",
+      "why": "近期更新且具备 AI / LLM / Agent 相关主题，适合做项目介绍、教程或同类对比。",
+      "url": "https://github.com/yamadashy/repomix",
+      "source": "GitHub Search · 2026-07-13",
+      "category": "Coding Agent",
+      "details": "📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools like Claude, ChatGPT, DeepSeek, Perplexity, Gemini, Gemma, Llama, Grok, and more.",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
+      "name": "OpenBMB/MiniCPM-o-Demo",
+      "lang": "Python",
+      "description": "Official PyTorch+CUDA Full-functional Web Demo for MiniCPM-o 4.5",
+      "stars": "268 stars",
+      "why": "国产大模型厂商 面壁智能 MiniCPM 的最新开源动态/模型发布，属一手信源。",
+      "url": "https://github.com/OpenBMB/MiniCPM-o-Demo",
+      "source": "GitHub · 面壁智能 MiniCPM",
+      "tier": "T1",
+      "category": "Coding Agent",
+      "details": "Official PyTorch+CUDA Full-functional Web Demo for MiniCPM-o 4.5",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
+      "name": "invoke-ai/InvokeAI",
+      "lang": "TypeScript",
+      "description": "Invoke is a leading creative engine for Stable Diffusion models, empowering professionals, artists, and enthusiasts to generate and create visual media using the latest AI-driven technologies. The solution offers an industry leading WebUI, and serves as the foundation for multiple commercial products.",
+      "stars": "27603 stars",
+      "why": "近期更新且具备 AI / LLM / Agent 相关主题，适合做项目介绍、教程或同类对比。",
+      "url": "https://github.com/invoke-ai/InvokeAI",
+      "source": "GitHub Search · 2026-07-13",
+      "category": "Coding Agent",
+      "details": "Invoke is a leading creative engine for Stable Diffusion models, empowering professionals, artists, and enthusiasts to generate and create visual media using the latest AI-driven technologies. The solution offers an industry leading WebUI, and serves as the foundation for multiple commercial product",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
+      "name": "firecrawl/firecrawl",
+      "lang": "TypeScript",
+      "description": "The API to search, scrape, and interact with the web at scale. 🔥",
+      "stars": "149800 stars",
+      "why": "近期更新且具备 AI / LLM / Agent 相关主题，适合做项目介绍、教程或同类对比。",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "source": "GitHub Search · 2026-07-13",
+      "category": "Coding Agent",
+      "details": "The API to search, scrape, and interact with the web at scale. 🔥",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
+      "name": "QwenLM/qwen-code",
+      "lang": "TypeScript",
+      "description": "An open-source AI coding agent that lives in your terminal.",
+      "stars": "25973 stars",
+      "why": "国产大模型厂商 通义千问 Qwen 的最新开源动态/模型发布，属一手信源。",
+      "url": "https://github.com/QwenLM/qwen-code",
+      "source": "GitHub · 通义千问 Qwen",
+      "tier": "T1",
+      "category": "Coding Agent",
+      "details": "An open-source AI coding agent that lives in your terminal.",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
+      "name": "Significant-Gravitas/AutoGPT",
+      "lang": "Python",
+      "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+      "stars": "185491 stars",
+      "why": "近期更新且具备 AI / LLM / Agent 相关主题，适合做项目介绍、教程或同类对比。",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "source": "GitHub Search · 2026-07-13",
+      "category": "Coding Agent",
+      "details": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
+      "name": "OpenBMB/UltraX",
+      "lang": "Python",
+      "description": "面壁智能 MiniCPM 开源项目。",
+      "stars": "2 stars",
+      "why": "国产大模型厂商 面壁智能 MiniCPM 的最新开源动态/模型发布，属一手信源。",
+      "url": "https://github.com/OpenBMB/UltraX",
+      "source": "GitHub · 面壁智能 MiniCPM",
+      "tier": "T1",
+      "category": "Coding Agent",
+      "details": "面壁智能 MiniCPM 开源项目。",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
+      "name": "NousResearch/hermes-agent",
+      "lang": "Python",
+      "description": "The agent that grows with you",
+      "stars": "213638 stars",
+      "why": "近期更新且具备 AI / LLM / Agent 相关主题，适合做项目介绍、教程或同类对比。",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "source": "GitHub Search · 2026-07-13",
+      "category": "Coding Agent",
+      "details": "The agent that grows with you",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
+      "name": "ByteDance-Seed/Triton-distributed",
+      "lang": "Python",
+      "description": "Distributed Compiler based on Triton for Parallel Systems",
+      "stars": "1484 stars",
+      "why": "国产大模型厂商 字节跳动 Seed 的最新开源动态/模型发布，属一手信源。",
+      "url": "https://github.com/ByteDance-Seed/Triton-distributed",
+      "source": "GitHub · 字节跳动 Seed",
+      "tier": "T1",
+      "category": "Coding Agent",
+      "details": "Distributed Compiler based on Triton for Parallel Systems",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
+      "name": "stepfun-ai/Step-Realtime-CLI",
+      "lang": "TypeScript",
+      "description": "阶跃星辰 StepFun 开源项目。",
+      "stars": "34 stars",
+      "why": "国产大模型厂商 阶跃星辰 StepFun 的最新开源动态/模型发布，属一手信源。",
+      "url": "https://github.com/stepfun-ai/Step-Realtime-CLI",
+      "source": "GitHub · 阶跃星辰 StepFun",
+      "tier": "T1",
+      "category": "Coding Agent",
+      "details": "阶跃星辰 StepFun 开源项目。",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
+      "name": "harvard-edge/cs249r_book",
+      "lang": "Python",
+      "description": "Machine Learning Systems",
+      "stars": "27417 stars",
+      "why": "近期更新且具备 AI / LLM / Agent 相关主题，适合做项目介绍、教程或同类对比。",
+      "url": "https://github.com/harvard-edge/cs249r_book",
+      "source": "GitHub Search · 2026-07-13",
+      "category": "Coding Agent",
+      "details": "Machine Learning Systems",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
+      "name": "santifer/career-ops",
+      "lang": "JavaScript",
+      "description": "Open-source AI job search: scan job portals, score listings A-F, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Gemini, Codex, OpenCode…)",
+      "stars": "59735 stars",
+      "why": "近期更新且具备 AI / LLM / Agent 相关主题，适合做项目介绍、教程或同类对比。",
+      "url": "https://github.com/santifer/career-ops",
+      "source": "GitHub Search · 2026-07-13",
+      "category": "Coding Agent",
+      "details": "Open-source AI job search: scan job portals, score listings A-F, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Gemini, Codex, OpenCode…)",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
+      "name": "ZhuLinsen/daily_stock_analysis",
+      "lang": "Python",
+      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "stars": "56857 stars",
+      "why": "近期更新且具备 AI / LLM / Agent 相关主题，适合做项目介绍、教程或同类对比。",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "source": "GitHub Search · 2026-07-13",
+      "category": "Coding Agent",
+      "details": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
     }
   ],
   "sources": [
@@ -7066,6 +6554,28 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "Memora: A Harmonic Memory Representation Balancing Abstracti",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "AI agents can't remember past conversations. They must constantly reload or retrieve context, which grows less efficient as tasks get longer and more complex. M",
+        "description": "AI agents can't remember past conversations. They must constantly reload or retrieve context, which grows less efficient as tasks get longer and more complex. Memora solves this wi",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Microsoft Research",
+        "url": "https://www.microsoft.com/en-us/research/blog/memora-a-harmonic-memory-representation-balancing-abstraction-and-specificity/"
+      },
+      {
+        "name": "SkillOpt: Agent skills as trainable parameters",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "AI agents often fail because their instructions, or skills, are manually modified with no guarantee of improvement. Learn how SkillOpt turns skill editing into ",
+        "description": "AI agents often fail because their instructions, or skills, are manually modified with no guarantee of improvement. Learn how SkillOpt turns skill editing into a training process, ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Microsoft Research",
+        "url": "https://www.microsoft.com/en-us/research/blog/skillopt-agent-skills-as-trainable-parameters/"
+      },
+      {
         "name": "Nylas 引入动态允许/拒绝列表规则管理邮件代理",
         "provider": "Currents",
         "type": "AI 项目/工具",
@@ -7678,38 +7188,6 @@ window.AI_GENERATED_DATA = {
         "watch": "由于依赖于本地存储，可能面临数据丢失的风险，需定期备份。",
         "sourceName": "NewsAPI:AI agent",
         "url": "https://pypi.org/project/agent-memory-os/0.12.0/"
-      },
-      {
-        "name": "解耦提示工程与部署流程的全新方法",
-        "provider": "Currents",
-        "type": "AI 项目/工具",
-        "bestFor": "这种方法将影响到多个开发角色，包括 AI 工程师、产品经理和 DevOps 团队。通过解耦提示与代码，团队可以更灵活地进行迭代，减少因提示变更导致的错误和延误。此外，实时的监控和反馈机制将帮助开发者更好地评估提示的效果，从而做出更明智的决策，提升整体产品质量。",
-        "description": "我注意到，使用 Humanloop MCP 服务器可以有效地将提示工程与部署流程解耦，从而实现真正的 LLMOps。这种方法不仅提升了开发效率，还减少了因提示变更导致的部署疲劳。",
-        "useCases": [
-          "使用 Humanloop API 直接在 IDE 中更新提示，提升开发效率。",
-          "通过 MCP 服务器管理提示版本，确保生产环境的稳定性。",
-          "实时监控提示执行情况，快速响应潜在问题，优化用户体验。"
-        ],
-        "watch": "使用未管理的 MCP 实现可能导致安全隐患，尤其是在生产环境中。",
-        "sourceName": "Currents:AI agent",
-        "url": "https://dev.to/renato_marinho/decoupling-prompt-engineering-from-your-deployment-pipeline-k2j"
-      },
-      {
-        "name": "WebMCP 工具可能被用来劫持 AI 代理",
-        "provider": "Currents",
-        "type": "AI 项目/工具",
-        "bestFor": "这一变化将影响到网站开发者、产品经理和安全专家等多个角色。开发者需要在设计网站时考虑到 AI 代理的安全性，避免因用户生成内容而导致的潜在风险。产品经理可能需要调整产品策略，以确保用户数据的安全性。安全专家则需加强对网站工具的审核，确保不被恶意利用。这种转变可能会促使整个行业更加重视用户生成内容的安全性，形成新的行业标",
-        "description": "我注意到，WebMCP 的风险并不在于恶意网站，而是用户评论中潜藏的指令，这些指令可能会被代理误解。确保网站安全，避免被用户生成内容劫持，是每个开发者的责任。",
-        "useCases": [
-          "审查网站工具，确保不暴露给不可信的来源。",
-          "为用户生成内容添加 untrustedContentHint 标签，提升安全性。",
-          "使用 readOnlyHint 标记不改变状态的工具，减少误操作风险。",
-          "限制工具的访问来源，确保只有可信网站可以调用。",
-          "定期更新工具的安全策略，适应新的安全挑战。"
-        ],
-        "watch": "用户生成内容可能包含恶意指令，导致代理被劫持。",
-        "sourceName": "Currents:AI agent",
-        "url": "https://nohacks.co/blog/webmcp-exposed-tools-can-hijack-agents"
       }
     ],
     "ai-models": [
@@ -10197,6 +9675,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-research": [
       {
+        "name": "Aurora 1.5: Extending open foundation models for weather and",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Aurora 1.5 adds 22 more variables, hourly temporal resolution, and probabilistic ensemble forecasting to the Aurora foundation model, making it more useful for ",
+        "description": "Aurora 1.5 adds 22 more variables, hourly temporal resolution, and probabilistic ensemble forecasting to the Aurora foundation model, making it more useful for real-world weather, ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Microsoft Research",
+        "url": "https://www.microsoft.com/en-us/research/blog/aurora-1-5-extending-open-foundation-models-for-weather-and-earth-system-applications/"
+      },
+      {
         "name": "苹果 M7 和 M8 芯片的强大源于苹果汽车研究",
         "provider": "Currents",
         "type": "AI 项目/工具",
@@ -10790,23 +10279,6 @@ window.AI_GENERATED_DATA = {
         "watch": "T3MP3ST 仍在积极开发中，某些功能可能不够稳定，使用时需谨慎。",
         "sourceName": "Currents:artificial intelligence",
         "url": "https://www.securitynewspaper.com/2026/07/06/ai-free-tool-that-can-hunt-security-bugs-like-a-team-of-experts/"
-      },
-      {
-        "name": "一名少年训练的语言模型错误认为日本首都是巴黎",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "这一事件可能影响青少年对AI研究的兴趣，激励更多年轻人参与技术创新。同时，也提醒开发者在训练模型时需谨慎，避免因训练数据或方法不当而导致的错误。对于教育机构而言，这一案例强调了在AI教育中引入实践项目的重要性，以帮助学生更好地理解AI的复杂性。",
-        "description": "一名13岁少年花费时间和金钱训练了一个语言模型，结果该模型错误地认为日本的首都是巴黎。尽管该模型在技术上有其创新之处，但其训练过程中的缺陷和结果引发了对其有效性的质疑。",
-        "useCases": [
-          "探索语言模型训练的最佳实践，避免常见错误。",
-          "开发教育工具，帮助青少年理解AI技术的基本原理。",
-          "在技术课程中引入实际案例，提升学生的学习兴趣。",
-          "为AI模型开发者提供参考，优化训练流程。",
-          "促进青少年参与AI项目，培养未来的技术人才。"
-        ],
-        "watch": "训练过程中可能出现的高成本问题，尤其是对青少年开发者而言。",
-        "sourceName": "NewsAPI:large language model",
-        "url": "https://hamiltonianresearch.xyz/blog/hr-diffuse-1.html"
       }
     ],
     "ai-office": []
@@ -12933,7 +12405,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-07-13",
-    "generatedAt": "2026-07-12T17:54:59.099419Z",
+    "generatedAt": "2026-07-12T18:16:36.577328Z",
     "total": 12,
     "sections": [
       {
