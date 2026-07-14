@@ -1,5 +1,5 @@
 window.AI_GENERATED_DATA = {
-  "lastUpdated": "2026-07-14",
+  "lastUpdated": "2026-07-15",
   "generatedAt": "2026-07-12T18:16:36.573295Z",
   "news": [
     {
@@ -10460,6 +10460,181 @@ window.AI_GENERATED_DATA = {
     ]
   },
   "dailyReports": [
+    {
+      "date": "2026-07-14",
+      "generatedAt": "2026-07-14T16:26:38.644786Z",
+      "total": 12,
+      "sections": [
+        {
+          "category": "ai-tools",
+          "label": "AI 工具",
+          "items": [
+            {
+              "title": "xAI Grok Build CLI 数据上传机制分析",
+              "summary": "这次发布的核心点是，xAI 的 Grok Build CLI 在用户登录后会上传大量数据，包括文件内容和 git 历史，且这一机制默认开启，用户难以关闭。这一行为引发了对隐私和数据安全的广泛关注。",
+              "source": "AIHOT · Hacker News 热门（buzzing.cc 中文翻译）",
+              "url": "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547",
+              "score": 66,
+              "sourceCount": 1,
+              "date": "2026-07-12",
+              "publishedAt": "2026-07-12T11:59",
+              "reason": "这条评测揭示了 Grok Build CLI 的数据上传机制，帮助用户了解潜在的隐私风险，值得关注。"
+            },
+            {
+              "title": "Mindwalk：可视化编码代理会话的 3D 地图工具",
+              "summary": "Mindwalk 是一款创新的可视化工具，能够在代码库的 3D 地图上回放 Claude Code 和 Codex 的编码代理会话。它通过将仓库呈现为夜间地图，清晰展示代理的搜索、读取和编辑活动，帮助用户直观理解代理的任务理解范围。该工具完全本地处理会话数据，确保信息安全，支持多",
+              "source": "AIHOT · Hacker News 热门（buzzing.cc 中文翻译）",
+              "url": "https://github.com/cosmtrek/mindwalk",
+              "score": 65,
+              "sourceCount": 1,
+              "date": "2026-07-12",
+              "publishedAt": "2026-07-12T21:51",
+              "reason": "Mindwalk 提供了一种全新的方式来理解和分析编码代理的行为，帮助开发者更高效地管理和优化编码过程，值得关注和尝试。"
+            },
+            {
+              "title": "Ghost Font：一种人类可读但AI无法识别的字体",
+              "summary": "Ghost Font 是一种新型反AI字体，能够通过运动和噪点隐藏文字，用户输入后生成的视频片段可供下载。该字体在传递给 Claude Fable 和 GPT Sol 5.6 Ultra 等前沿模型时，这些模型无法解码其中的信息，直到被提示具体技术。该项目灵感源自2013年设计的",
+              "source": "AIHOT · Hacker News 热门（buzzing.cc 中文翻译）",
+              "url": "https://www.mixfont.com/ghost-font",
+              "score": 62,
+              "sourceCount": 1,
+              "date": "2026-07-12",
+              "publishedAt": "2026-07-12T00:31",
+              "reason": "Ghost Font 提供了一种创新的方式来隐藏信息，挑战现代AI模型的解码能力，值得关注。"
+            }
+          ]
+        },
+        {
+          "category": "ai-coding",
+          "label": "AI 编程",
+          "items": [
+            {
+              "title": "通过 CLIProxyAPI 切换 Claude Code 后端模型至 GPT-5.6 Sol 的简单方法",
+              "summary": "我注意到用户 Tibo 分享了一种通过 CLIProxyAPI 将 Claude Code 后端模型切换为 GPT-5.6 Sol 的方法。整个过程只需三步：安装 CLIProxyAPI、连接认证、设置环境变量别名 `claudex`。这个别名配置了子智能体模型、始终启用 Eff",
+              "source": "AIHOT · X：Tibo (@thsottiaux)",
+              "url": "https://x.com/thsottiaux/status/2076119366647894371",
+              "score": 63,
+              "sourceCount": 1,
+              "date": "2026-07-12",
+              "publishedAt": "2026-07-12T09:40",
+              "reason": "这条分享提供了一个简单高效的模型切换方法，适合需要快速迭代的开发者，值得一看。"
+            }
+          ]
+        },
+        {
+          "category": "ai-agents",
+          "label": "Agent / MCP",
+          "items": [
+            {
+              "title": "腾讯混元Hy3模型发布：2950亿参数MoE架构，微信10亿用户已集成",
+              "summary": "腾讯混元团队推出Hy3大模型，采用2950亿总参数和210亿激活参数的稀疏专家模型（MoE）架构，推理效率相当于传统密集模型的2-5倍。Hy3定位为Agent向大语言模型，经过50余个真实业务场景迭代，内部任务成功率从72%提升至90%，响应时间缩短34%，幻觉和常识错误显著减少",
+              "source": "AIHOT · X：阿易 AI Notes (@AYi_AInotes)",
+              "url": "https://x.com/AYi_AInotes/status/2076341952023310580",
+              "score": 68,
+              "sourceCount": 1,
+              "date": "2026-07-13",
+              "publishedAt": "2026-07-13T00:24",
+              "reason": "Hy3通过大规模MoE架构实现高效推理和多场景落地，结合微信10亿用户生态，展示国产大模型在商业化和技术性能上的显著进步，值得关注。"
+            }
+          ]
+        },
+        {
+          "category": "ai-models",
+          "label": "模型发布",
+          "items": [
+            {
+              "title": "OpenAI GPT-5.6 系列医疗评估结果超越医生表现",
+              "summary": "我注意到 OpenAI 最近发布了 GPT-5.6 系列在医疗领域的评估结果，显示其在多项任务中表现优于医生。最小变体 GPT-5.6 Luna 在最低推理强度下的表现超越了最高推理强度的 GPT-5.5，且成本低 25 倍。最大变体 GPT-5.6 Sol 则树立了新的标杆，所",
+              "source": "AIHOT · X：Sam Altman (@sama)",
+              "url": "https://x.com/sama/status/2075985056846451123",
+              "score": 67,
+              "sourceCount": 1,
+              "date": "2026-07-12",
+              "publishedAt": "2026-07-12T00:46",
+              "reason": "这条信息展示了 GPT-5.6 系列在医疗领域的突破性进展，值得关注其对未来医疗决策的潜在影响。"
+            },
+            {
+              "title": "Mesh LLM 实现分布式 AI 计算",
+              "summary": "Mesh LLM 是一个开源项目，能够将多台机器的 GPU 和内存池化，提供兼容 OpenAI 的 API。通过 iroh 网络库实现点对点连接，无需中央服务器，支持多种模型，适合希望降低 AI 计算成本的团队。",
+              "source": "AIHOT · Hacker News 热门（buzzing.cc 中文翻译）",
+              "url": "https://www.iroh.computer/blog/mesh-llm",
+              "score": 65,
+              "sourceCount": 1,
+              "date": "2026-07-12",
+              "publishedAt": "2026-07-12T10:23",
+              "reason": "Mesh LLM 提供了一种灵活且经济的方式来运行大型 AI 模型，适合希望掌控计算资源的团队，值得关注。"
+            },
+            {
+              "title": "苹果起诉OpenAI，指控窃密或影响硬件计划",
+              "summary": "我注意到苹果最近在美国对OpenAI提起诉讼，指控其挖角400名员工并窃取机密文件。分析师认为，即使这些指控未被证实，OpenAI的硬件计划也可能受到影响，双方的合作关系将进一步恶化。斯坦福教授指出，如果前苹果员工确实带走了机密信息，情况将更加严重。此案涉及消费级硬件，未来可能会",
+              "source": "AIHOT · IT之家（RSS）",
+              "url": "https://www.ithome.com/0/975/666.htm",
+              "score": 61,
+              "sourceCount": 1,
+              "date": "2026-07-12",
+              "publishedAt": "2026-07-12T10:37",
+              "reason": "这条信息揭示了苹果与OpenAI之间的法律纠纷，可能对双方的硬件计划产生深远影响，值得关注。"
+            }
+          ]
+        },
+        {
+          "category": "ai-research",
+          "label": "论文研究",
+          "items": [
+            {
+              "title": "博科圣地利用主流AI聊天机器人进行袭击策划与武器开发",
+              "summary": "剑桥大学的研究表明，博科圣地已利用ChatGPT、Claude等主流AI聊天机器人进行袭击策划、武器开发及维护。该组织的两个派系均设立了专门的AI部门，利用AI技术提升作战能力。研究指出，AI安全过滤器未能有效防止滥用，恐怖组织对AI的兴趣日益增加，可能导致更大安全隐患。",
+              "source": "AIHOT · The Decoder：AI News（RSS）",
+              "url": "https://the-decoder.com/terrorist-groups-are-using-every-major-ai-chatbot-for-attack-planning-and-weapons-development",
+              "score": 67,
+              "sourceCount": 1,
+              "date": "2026-07-12",
+              "publishedAt": "2026-07-12T01:04",
+              "reason": "本研究揭示了恐怖组织如何利用AI技术进行武器开发和袭击策划，警示我们对AI安全的重视和应对措施的必要性。"
+            }
+          ]
+        },
+        {
+          "category": "ai-business",
+          "label": "行业商业",
+          "items": [
+            {
+              "title": "纳德拉：企业需保护核心知识以应对反向信息悖论",
+              "summary": "微软CEO萨提亚·纳德拉提出\"反向信息悖论\"，强调在AI时代，企业在使用AI时必须保护自身的专有知识。企业需要建立信任边界，确保数据和评估权重不被外泄，并主张拥有私有评估和组织记忆的所有权，以控制学习循环。",
+              "source": "AIHOT · X：Satya Nadella (@satyanadella)",
+              "url": "https://x.com/satyanadella/status/2076323181154230284",
+              "score": 66,
+              "sourceCount": 1,
+              "date": "2026-07-12",
+              "publishedAt": "2026-07-12T23:09",
+              "reason": "纳德拉的观点为企业在AI时代如何保护核心知识提供了重要的思考，值得关注。"
+            },
+            {
+              "title": "苹果起诉 OpenAI 涉窃商业机密，前员工泄密成关键",
+              "summary": "苹果公司对 OpenAI 提起诉讼，指控前员工 Chang Liu 在离职时带走未归还的 MacBook 和商业机密，并利用软件漏洞持续访问苹果内网。诉讼称 OpenAI 试图复制 iPhone 的研发体系，核心基于非法获取的商业机密。至今已有超过 400 名苹果员工跳槽至 Op",
+              "source": "AIHOT · IT之家（RSS）",
+              "url": "https://www.ithome.com/0/975/634.htm",
+              "score": 64,
+              "sourceCount": 1,
+              "date": "2026-07-12",
+              "publishedAt": "2026-07-12T07:21",
+              "reason": "此次诉讼揭示了苹果与 OpenAI 之间的激烈竞争，涉及商业机密的泄露和技术研发的未来走向，值得关注。"
+            },
+            {
+              "title": "OpenAI CEO 认为 AI 净创造就业，Anthropic CEO 也修正看法",
+              "summary": "我注意到，OpenAI 的 CEO Sam Altman 最近表示，他\"相当确信\"AI 迄今为止净创造了就业机会，这与他之前对 AI 可能导致大规模裁员的预警形成鲜明对比。Anthropic 的 CEO Dario Amodei 也调整了早期的观点，将自动化视为生产力的倍增器，而",
+              "source": "AIHOT · The Decoder：AI News（RSS）",
+              "url": "https://the-decoder.com/openai-ceo-altman-is-now-pretty-sure-ai-is-net-job-creating-which-is-quite-the-pivot-from-predicting-mass-layoffs",
+              "score": 63,
+              "sourceCount": 1,
+              "date": "2026-07-12",
+              "publishedAt": "2026-07-12T17:15",
+              "reason": "这条信息值得关注，因为它反映了行业领袖对 AI 影响的重新评估，可能改变我们对未来就业市场的看法。"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-07-13",
       "generatedAt": "2026-07-13T16:23:56.412664Z",
