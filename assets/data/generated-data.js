@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
-  "lastUpdated": "2026-07-20",
-  "generatedAt": "2026-07-20T15:17:27.439066Z",
+  "lastUpdated": "2026-07-21",
+  "generatedAt": "2026-07-20T16:22:37.087228Z",
   "news": [
     {
       "title": "Hugging Face 遭自主AI智能体入侵，数小时内完成取证分析",
@@ -2471,166 +2471,41 @@ window.AI_GENERATED_DATA = {
       "sourceCount": 1
     },
     {
-      "title": "xAI 起诉用户利用 Grok 制作儿童性虐待内容",
-      "summary": "xAI 首次对 Grok 用户提起诉讼，指控其利用该模型制作儿童性虐待图像（CSAM）。此举标志着 xAI 对于 Grok 能生成此类内容的立场转变，案件聚焦于用户的滥用行为，而非模型本身的技术缺陷。",
-      "category": "ai-tools",
-      "tags": [
-        "xAI",
-        "Grok",
-        "儿童性虐待",
-        "法律诉讼",
-        "人工智能"
-      ],
-      "keyPoints": [
-        "xAI 于2026年首次对 Grok 用户提起诉讼，指控其制作儿童性虐待图像（CSAM）。",
-        "被告 Terry Wayne Harwood 被控使用 Grok 生成非法内容，涉及多达7000张性别化图像。",
-        "xAI 的诉讼强调用户滥用行为，试图将责任推给用户而非模型本身。",
-        "南卡罗来纳州检察官办公室确认 Harwood 已被逮捕，案件仍在审理中。",
-        "xAI 计划通过此诉讼减轻潜在的法律责任，保护公司免受未来诉讼的影响。"
-      ],
-      "background": "此次诉讼是 xAI 在面临越来越多的压力后做出的决定，之前该公司曾否认其模型 Grok 能生成儿童性虐待内容。随着多起案件的曝光，xAI 逐渐承认用户可以利用该模型生成不当内容。Harwood 的案件引发了公众对 AI 模型滥用的广泛关注，尤其是在涉及儿童保护的法律框架下。xAI 的诉讼不仅是对个别用户的追责，也可能影响未来 AI 模型的监管和使用规范。",
-      "impact": "此事件可能会促使更多的法律法规出台，以规范 AI 模型的使用，尤其是在涉及敏感内容时。对于开发者和用户而言，必须更加谨慎地使用 AI 工具，避免法律风险。同时，xAI 的举动可能会影响其他 AI 公司在用户责任和内容监管方面的策略，推动行业内的自律和合规性提升。",
-      "audience": [
-        "法律顾问",
-        "AI 开发者",
-        "儿童保护组织",
-        "技术政策研究者",
-        "内容审核员"
-      ],
-      "useCases": [
-        "审查 Grok 生成的内容，确保不违反法律法规，保护儿童安全。",
-        "开发更严格的内容审核机制，防止 AI 模型被滥用。",
-        "与法律机构合作，提升对 AI 滥用行为的识别和应对能力。",
-        "为用户提供使用 AI 模型的法律指导，降低法律风险。",
-        "参与行业讨论，推动 AI 伦理和法律框架的建立。"
-      ],
-      "risks": [
-        "使用 Grok 生成内容时，可能面临法律责任，尤其是涉及儿童内容时。",
-        "API 可能存在使用限制，导致无法满足高频率的内容生成需求。",
-        "模型输出的内容可能不符合当地法律法规，需谨慎审核。",
-        "在使用 AI 工具时，需关注版本兼容性，避免技术故障导致的法律问题。",
-        "用户信息保护不足，可能导致滥用行为难以追踪和处理。"
-      ],
-      "reason": "此事件揭示了 AI 模型在法律责任方面的复杂性，值得关注其对行业的深远影响。",
-      "scores": {
-        "importance": 85,
-        "novelty": 75,
-        "firsthand": 70,
-        "impact": 80,
-        "credibility": 90
-      },
-      "url": "https://arstechnica.com/tech-policy/2026/07/xai-cant-deny-grok-makes-csam-anymore-so-its-suing-users",
-      "source": "AIHOT · Ars Technica：AI（RSS）",
-      "date": "2026-07-17",
-      "publishedAt": "2026-07-17T04:26",
-      "originalContent": "Text settings Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more Minimize to nav Facing mounting pressure to acknowledge that Grok can still be used to generate non-consensual sexualized images of adults and minors, xAI filed a lawsuit Tuesday, suing the first user that Elon Musk’s firm has accused of using its chatbot to create illegal content. The complaint targets Terry Wayne Harwood, who was arrested earlier this year for possession and distribution of child sexual abuse materials (CSAM), the South Carolina attorney’s office announced . As xAI alleged, the company assisted in that arrest after discovering that Harwood had been using two xAI accounts for months to undress or “nudify” non-sexual images of multiple victims, including a young girl who appeared to be as young as 10. xAI’s lawsuit comes a little more than a week after a different young girl joined a proposed class action representing several kids allegedly harmed by Grok. She alleged that her stepfather committed suicide after he was discovered using Grok , possibly in conjunction with other AI tools, to create 7,000 sexualized images of her and then distribute them on the dark web. In that case, the victim alleged that xAI refused to help police identify the user who uploaded her image to Grok. To support claims that it is xAI’s common practice, her lawyers cited a 2026 National Center for Missing & Exploited Children (NCMEC) report confirming that 90 percent of xAI’s CyberTipline reports “were not actionable by law enforcement because xAI declined to include user information that would allow law enforcement to track and locate perpetrators.” As victims accused X of shielding predators, Musk had previously maintained that he had not seen any examples of Grok-generated CSAM. Rather than move to restrict Grok’s outputs to make CSAM outputs impossible, Musk warned users to act responsibly, posting on X on January 3 that “anyone using Grok to make illegal content will suffer the same consequences as if they upload illegal content.” While Musk was posting through it, though, Harwood was allegedly ignoring Musk’s warning and prompting Grok as many times as it took to get the chatbot to generate likely nonconsensual explicit images. Now Musk seemingly can’t deny that Grok makes CSAM. xAI’s lawsuit claimed that Harwood used at least two accounts with convoluted usernames—“ceae2cb4-a9f6-4885-8ae9-6e2096d084f4” and “befccb94-4029-454d-9f1f-0d4945e8fa7c”—to generate illegal content from December 8 to February 18. Sometimes Grok safeguards did prevent harmful outputs, “refusing to follow” some of the prompts “on the basis that such material violated Grok’s content moderation guardrails.” The lawsuit includes an example of an especially creepy prompt that Grok rejected, using phrases like “white slime” to mask intent to generate sexualized images. That particular prompt may have been rejected for an obvious reason, though. Harwood explicitly asked the chatbot to “remove all her clothing,” which directly violates xAI user terms against requests to undress real people. In the proposed class action, it’s alleged that xAI overlooks a lot of bad requests, only reporting to NCMEC one prompt to depict “gang rape” out of 7,000 harmful outputs in the most recent victim’s case. Likely to avoid other bad actors circumventing safeguards, xAI did not include examples of Harwood’s successful prompts or describe methods used to bypass filters. xAI only alleged that Harwood modified prompts to get around safeguards “in clear violation of the xAI Terms of Service and of US law,” including “some” requests for “obscene” images involving the “likeness of minor children.” A spokesperson for the South Carolina attorney general’s office told Ars that Harwood’s case is still pending. Specifically, he has been charged with “distributing, transporting, exhibiting, receiving, selling, purchasing, exchanging, or soliciting CSAM that was ‘through the use of an artificial intelligence platform.’” The spokesperson was not authorized to verify if Grok was the platform used. However, xAI’s complaint alleged that “upon information and belief, at least some of the images at-issue in the Harwood Criminal Action were generated or altered through Defendant’s violative use of Grok.” xAI did not immediately respond to Ars’ request to comment. xAI’s plan to blame users In the lawsuit, xAI makes its case for why only users should be liable for Grok-generated CSAM. If the court agreed, such a finding could strengthen xAI’s defense in the looming potential class action, which lawyers estimate could involve thousands of victims. It could also give xAI a hammer to bring down on other users any time a victim comes forward with a complaint. xAI said that it was partly suing Harwood for breach of contract to avoid “substantial legal fees” and the “risk of considerable liability for damages” that may be sought if any of his alleged victims sues",
-      "tier": "T1.5",
-      "score": 64,
-      "aiSelected": true,
-      "_style": "tutorial",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "54%企业遭遇AI智能体安全事件，凭证共享现象严重",
-      "summary": "VentureBeat对107家企业的调查显示，54%的企业已经历AI智能体安全事件，其中18%确认发生事故，36%险些酿成重大损失。仅32%的企业为每个智能体分配独立身份凭证，30%的企业将高风险智能体隔离在沙箱中，显示出当前安全措施的不足。",
-      "category": "ai-agents",
-      "tags": [
-        "AI安全",
-        "智能体",
-        "企业风险",
-        "凭证管理",
-        "VentureBeat"
-      ],
-      "keyPoints": [
-        "54%的企业经历过AI智能体安全事件，18%确认事故，36%险些酿成重大损失。",
-        "仅32%的企业为每个智能体分配独立身份凭证，显示出安全管理的薄弱。",
-        "30%的企业将高风险智能体隔离在沙箱中，表明对风险的重视程度不足。",
-        "大多数企业依赖模型提供商的原生安全方案，专用智能体安全产品的渗透率极低。",
-        "调查涵盖107家企业，反映出行业普遍存在的安全隐患。"
-      ],
-      "background": "2023年，随着AI技术的快速发展，企业在使用AI智能体时面临越来越多的安全挑战。VentureBeat对107家企业的调查揭示了这一现象，54%的企业报告称已遭遇AI智能体安全事件。与以往的安全事件相比，这些事件的复杂性和潜在影响更大，尤其是在数据泄露和系统入侵方面。尽管企业意识到风险，但在安全措施上仍显得力不从心，尤其是在凭证管理和智能体隔离方面。",
-      "impact": "这一调查结果对企业的安全策略提出了严峻挑战。首先，企业需要重新审视智能体的凭证管理策略，确保每个智能体都有独立的身份凭证，以降低风险。其次，安全工具的选择也需更加多样化，不能仅依赖模型提供商的原生方案。此外，企业可能需要考虑引入专用的智能体安全产品，以增强整体安全防护能力。随着AI技术的普及，未来可能会有更多企业面临类似的安全事件，迫使行业整体提升安全标准。",
-      "audience": [
-        "企业安全负责人",
-        "IT运维人员",
-        "AI开发者",
-        "风险管理专家",
-        "数据保护专员"
-      ],
-      "useCases": [
-        "评估现有AI智能体的安全风险，制定改进措施。",
-        "为每个智能体分配独立身份凭证，提升安全性。",
-        "将高风险智能体隔离在沙箱中，防止潜在威胁。"
-      ],
-      "risks": [
-        "企业可能面临因凭证共享导致的数据泄露风险，影响客户信任。",
-        "依赖单一安全方案可能导致安全漏洞，增加被攻击的可能性。",
-        "未能及时更新安全措施可能导致合规性问题，影响企业声誉。"
-      ],
-      "reason": "这条信息揭示了企业在AI智能体安全管理上的普遍漏洞，值得关注。",
-      "scores": {
-        "importance": 85,
-        "novelty": 70,
-        "firsthand": 50,
-        "impact": 80,
-        "credibility": 75
-      },
-      "url": "https://venturebeat.com/ai/the-agent-security-gap-54-of-enterprises-have-already-had-an-ai-agent-incident-and-most-still-let-agents-share-credentials",
-      "source": "AIHOT · VentureBeat：AI（RSS）",
-      "date": "2026-07-17",
-      "publishedAt": "2026-07-17T03:02",
-      "tier": "T1.5",
-      "score": 60,
-      "aiSelected": true,
-      "_style": "observer",
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "谷歌 DeepMind 与 Isomorphic Labs 的生物韧性战略",
-      "summary": "我注意到谷歌 DeepMind 和 Isomorphic Labs 正在分享他们在生物韧性和 AI 模型方面的联合策略。随着全球生物安全形势的快速变化，AI 的应用变得愈发重要，尤其是在应对传染病和潜在的生物威胁方面。",
+      "title": "Google DeepMind 与 Isomorphic Labs 的生物韧性战略",
+      "summary": "我注意到，Google DeepMind 和 Isomorphic Labs 正在分享他们在生物韧性和 AI 模型方面的联合策略。随着全球生物安全形势的快速变化，AI 不仅是应对挑战的关键工具，也是提升社会韧性的必要手段。通过与政府和科研机构的合作，他们致力于防止模型被恶意使用，并加快对新疫情的检测和响应。",
       "category": "ai-models",
       "tags": [
         "生物韧性",
-        "AI 模型",
-        "传染病",
-        "生物安全",
-        "药物设计"
+        "AI模型",
+        "疫情应对",
+        "DeepMind",
+        "Isomorphic Labs"
       ],
       "keyPoints": [
-        "谷歌 DeepMind 和 Isomorphic Labs 在过去 12 个月内与政府和生物安全组织建立了 15 个以上的合作伙伴关系，以防止模型被恶意使用。",
-        "AlphaFold 是一项突破性技术，能够绘制几乎所有已知蛋白质的 3D 结构，为生物研究提供了新的视角。",
-        "Isomorphic Labs 的 AI 驱动药物设计引擎（IsoDDE）能够以空前的精确度导航新型生物系统，提升药物研发效率。",
-        "通过优化算法，AlphaEvolve 能够加速病原体监测，降低全球疾病追踪的成本。",
-        "Isomorphic Labs 正在快速部署其药物设计引擎，以应对自然发生的疫情和潜在的 AI 滥用风险。"
+        "Google DeepMind 和 Isomorphic Labs 在过去一年内与超过 15 个政府和生物安全组织建立了合作关系，以防止模型被恶意使用。",
+        "AlphaFold 是一项突破性技术，能够绘制几乎所有已知蛋白质的 3D 结构，推动生物研究的进展。",
+        "Isomorphic Labs 的 AI 驱动药物设计引擎（IsoDDE）提供了前所未有的精确度，帮助研究人员设计主动防御措施。",
+        "AlphaEvolve 能够优化算法，加速新疫情的检测，降低全球疾病追踪的成本。",
+        "Isomorphic Labs 正在快速部署其药物设计引擎，以应对自然疫情和潜在的 AI 滥用风险。"
       ],
-      "background": "随着全球生态系统的变化和 AI 潜在滥用的风险，生物安全问题日益严峻。谷歌 DeepMind 和 Isomorphic Labs 认识到，AI 不仅是应对这些挑战的工具，更是提升社会韧性的关键。通过与各国政府和生物安全专家的合作，他们致力于开发前沿 AI 模型，以应对未来的疫情和生物威胁。此举不仅是对当前生物安全形势的回应，也是在为未来的公共卫生挑战做好准备。",
-      "impact": "这一战略将影响政府机构、科研人员和生物安全专家等多个群体。通过提供先进的 AI 工具，他们能够更有效地监测和应对传染病，优化药物研发流程。这种合作模式可能会改变公共卫生决策，促进全球健康生态系统的安全性和韧性。此外，随着 AI 技术的不断进步，未来可能会出现更多创新的防御措施，从而降低疫情爆发的风险。",
+      "background": "随着全球生物安全形势的变化，AI 在应对传染病和未来疫情方面的作用愈发重要。Google DeepMind 和 Isomorphic Labs 的合作旨在利用 AI 的先进能力，提升社会对疫情的韧性。通过建立与政府和生物安全专家的合作关系，他们不仅关注模型的安全性，还致力于加快对新疫情的响应速度。这一战略的核心在于利用 AI 技术的突破，帮助科学家们设计更有效的防御措施。",
+      "impact": "这一战略的实施将使政府、科研机构和生物安全专家能够更有效地利用 AI 技术，提升对疫情的响应能力。通过优化检测和响应流程，相关机构能够更快地识别和应对新出现的健康威胁。此外，AI 的应用将推动药物研发的速度，帮助应对未来可能出现的疫情，最终提升全球健康安全。",
       "audience": [
         "公共卫生研究员",
         "生物安全专家",
-        "药物研发科学家",
-        "政府公共卫生官员"
+        "药物研发工程师"
       ],
       "useCases": [
-        "利用 AlphaFold 加速蛋白质结构分析，帮助研究人员更快理解疾病机制。",
+        "利用 AlphaFold 加速蛋白质结构研究，帮助科学家们更快理解疾病机制。",
         "通过 Isomorphic Labs 的 IsoDDE 设计新药，缩短药物研发周期。",
-        "使用 AlphaEvolve 优化病原体监测算法，提高疫情响应速度。",
-        "与政府合作，利用 AI 模型制定公共卫生政策，提升应对疫情的能力。"
+        "使用 AlphaEvolve 优化病原体监测算法，提高疫情检测的准确性和效率。"
       ],
       "risks": [
-        "API 价格可能较高，影响小型研究机构的使用能力。",
-        "模型的商用授权可能存在限制，需仔细评估合规性。",
-        "不同地区对 AI 技术的接受度和法律框架差异，可能影响项目推广。",
-        "硬件要求较高，可能导致部分用户无法顺利部署相关技术。"
+        "模型的安全性仍需持续监控，可能面临恶意使用的风险。",
+        "AI 技术的应用需要高性能硬件支持，可能导致成本上升。",
+        "在不同地区的法律和伦理标准可能影响 AI 模型的部署和使用。"
       ],
-      "reason": "这项战略展示了 AI 在生物安全领域的巨大潜力，值得关注其对未来公共卫生的影响。",
+      "reason": "这项战略展示了 AI 在生物安全领域的巨大潜力，值得关注其对未来疫情应对的影响。",
       "scores": {
         "importance": 85,
         "novelty": 80,
@@ -2642,7 +2517,7 @@ window.AI_GENERATED_DATA = {
       "source": "RSS · Google DeepMind",
       "date": "2026-07-16",
       "publishedAt": "2026-07-16T17:30",
-      "originalContent": "July 16, 2026 Responsibility & Safety Our approach to bioresilience Isomorphic Labs and Google DeepMind Share The global biosecurity landscape is rapidly evolving. Shifting natural ecosystems, global travel and the potential misuse of AI require greater vigilance — yet AI is also a critical tool for our response. We need frontier AI models, and the scientific advances they will enable , to respond to these challenges and help make society more resilient to events like future outbreaks. Today, Google DeepMind and Isomorphic Labs are sharing our joint approach to bioresilience . Our work is twofold - to prevent threat actors from misusing our models, and to ensure that governments, scientists, biosecurity experts and our teams can harness these technologies to build a more resilient world. Over the past 12 months, we have advanced more than 15 partnerships with government bodies, biosecurity organizations, and research groups to prevent threat actors from misusing our models, detect new outbreaks quickly and respond quickly and effectively. Inside our bioresilience program We believe society must harness AI’s advancing capabilities to address infectious diseases and prepare for future outbreaks. Breakthroughs like Google DeepMind’s AlphaFold , which mapped the 3D structures of nearly all known proteins; Isomorphic Labs’ AI-powered Drug Design Engine (IsoDDE), which provides the real-world accuracy required to navigate novel biological systems with unprecedented precision; and AlphaGenome, which sheds light on genome function, are radically shifting the balance. Instead of just reacting to natural outbreaks or safety risks, we can now use these intelligent systems to help researchers design proactive defenses, accelerate the discovery of therapeutics, and safeguard the global health ecosystem with greater speed and precision. With this in mind, we are making our AI models and agents available to trusted partners to support progress across three key areas: prevention, detection and response. Here are some examples: Prevent: To ensure our models, like Gemini, are safe and useful to experts, we follow a four-step safety process: threat modeling, evaluations, mitigations and monitoring. We partner closely with in-house biologists, security experts and external partners to understand potential threats, test our models against them and build in robust safeguards. Additionally, we’re working on adapting our SynthID watermarking technology to biology, which could help DNA synthesis providers screen for potentially risky, AI-generated biological sequences. Detect: We are helping make pathogen surveillance more cost-effective. For example, our agent AlphaEvolve can optimize algorithms used for producing and analyzing metagenomic sequencing data, helping detect new outbreaks faster. This optimization allows for quicker and more accurate DNA analysis, making it cheaper to track diseases worldwide on a large scale. We are also exploring how technologies like AlphaGenome and Protein Function annotation could be used to help detect and characterize pathogens from sequence data, identifying novel patterns and emerging threats faster than traditional methods. Respond: Building on the scientific impact of AlphaFold, we are granting trusted researchers access to Google DeepMind’s latest AI systems to help accelerate the design of vaccines and other countermeasures for both known and novel threats. To support government bodies and non-profit organizations during novel outbreaks, Isomorphic Labs has established a focused unit to rapidly deploy its drug design engine to design medical countermeasures that could address both naturally occurring pandemics and potential risks arising from the misuse of advanced AI. Working in collaboration with governments and global health authorities to advance a diverse range of diagnostic and therapeutic strategies enables the Isomorphic Labs Drug Design Engine’s real-world impact for bioresilience. This is a complex, long-term effort, and part of our broader approach to managing potential Chemical, Biological, Radiological and Nuclear (CBRN) risks, aligning with the proactive mitigations and rigorous evaluation protocols of our Frontier Safety Framework. We are committed to working openly and collaboratively — with biosecurity labs, governments and the broader scientific community — to ensure AI is developed and deployed responsibly to help protect against one of society’s greatest risks. To read more about our work and our call for new partnerships, see this full update on our approach. Related posts AlphaGenome: AI for better understanding the genome June 2025 Science Learn more AlphaEvolve: A Gemini-powered coding agent for designing advanced algorithms May 2025 Science Learn more",
+      "originalContent": "July 16, 2026 Responsibility & Safety Our approach to bioresilience Google DeepMind and Isomorphic Labs Share The global biosecurity landscape is rapidly evolving. Shifting natural ecosystems, global travel and the potential misuse of AI require greater vigilance — yet AI is also a critical tool for our response. We need frontier AI models, and the scientific advances they will enable , to respond to these challenges and help make society more resilient to events like future outbreaks. Today, Google DeepMind and Isomorphic Labs are sharing our joint approach to bioresilience . Our work is twofold - to prevent threat actors from misusing our models, and to ensure that governments, scientists, biosecurity experts and our teams can harness these technologies to build a more resilient world. Over the past 12 months, we have advanced more than 15 partnerships with government bodies, biosecurity organizations, and research groups to prevent threat actors from misusing our models, detect new outbreaks quickly and respond quickly and effectively. Inside our bioresilience program We believe society must harness AI’s advancing capabilities to address infectious diseases and prepare for future outbreaks. Breakthroughs like Google DeepMind’s AlphaFold , which mapped the 3D structures of nearly all known proteins; Isomorphic Labs’ AI-powered Drug Design Engine (IsoDDE), which provides the real-world accuracy required to navigate novel biological systems with unprecedented precision; and AlphaGenome, which sheds light on genome function, are radically shifting the balance. Instead of just reacting to natural outbreaks or safety risks, we can now use these intelligent systems to help researchers design proactive defenses, accelerate the discovery of therapeutics, and safeguard the global health ecosystem with greater speed and precision. With this in mind, we are making our AI models and agents available to trusted partners to support progress across three key areas: prevention, detection and response. Here are some examples: Prevent: To ensure our models, like Gemini, are safe and useful to experts, we follow a four-step safety process: threat modeling, evaluations, mitigations and monitoring. We partner closely with in-house biologists, security experts and external partners to understand potential threats, test our models against them and build in robust safeguards. Additionally, we’re working on adapting our SynthID watermarking technology to biology, which could help DNA synthesis providers screen for potentially risky, AI-generated biological sequences. Detect: We are helping make pathogen surveillance more cost-effective. For example, our agent AlphaEvolve can optimize algorithms used for producing and analyzing metagenomic sequencing data, helping detect new outbreaks faster. This optimization allows for quicker and more accurate DNA analysis, making it cheaper to track diseases worldwide on a large scale. We are also exploring how technologies like AlphaGenome and Protein Function annotation could be used to help detect and characterize pathogens from sequence data, identifying novel patterns and emerging threats faster than traditional methods. Respond: Building on the scientific impact of AlphaFold, we are granting trusted researchers access to Google DeepMind’s latest AI systems to help accelerate the design of vaccines and other countermeasures for both known and novel threats. To support government bodies and non-profit organizations during novel outbreaks, Isomorphic Labs has established a focused unit to rapidly deploy its drug design engine to design medical countermeasures that could address both naturally occurring pandemics and potential risks arising from the misuse of advanced AI. Working in collaboration with governments and global health authorities to advance a diverse range of diagnostic and therapeutic strategies enables the Isomorphic Labs Drug Design Engine’s real-world impact for bioresilience. This is a complex, long-term effort, and part of our broader approach to managing potential Chemical, Biological, Radiological and Nuclear (CBRN) risks, aligning with the proactive mitigations and rigorous evaluation protocols of our Frontier Safety Framework. We are committed to working openly and collaboratively — with biosecurity labs, governments and the broader scientific community — to ensure AI is developed and deployed responsibly to help protect against one of society’s greatest risks. To read more about our work and our call for new partnerships, see this full update on our approach. Related posts AlphaGenome: AI for better understanding the genome June 2025 Science Learn more AlphaEvolve: A Gemini-powered coding agent for designing advanced algorithms May 2025 Science Learn more",
       "tier": "T1",
       "score": 84,
       "aiSelected": true,
@@ -2655,53 +2530,53 @@ window.AI_GENERATED_DATA = {
     },
     {
       "title": "Cars24 利用 OpenAI 提升客户沟通效率",
-      "summary": "Cars24 通过 OpenAI 驱动的语音和聊天代理，每月处理超过 100 万分钟的对话，成功挽回 12% 的失去潜在客户，并为公司各团队带来了高效的工作流程。这一创新虽然提升了沟通效率，但仍面临技术整合和用户体验等挑战。",
+      "summary": "Cars24 通过 OpenAI 驱动的语音和聊天代理，每月处理超过 100 万分钟的对话，成功恢复 12% 的流失客户，并在公司内部推广高效的工作流程。这一举措虽然提升了客户服务效率，但仍面临技术整合和成本控制的挑战。",
       "category": "ai-agents",
       "tags": [
         "客户服务",
-        "语音助手",
-        "聊天机器人",
+        "对话代理",
         "OpenAI",
-        "效率提升"
+        "技术整合",
+        "业务效率"
       ],
       "keyPoints": [
         "Cars24 每月处理超过 100 万分钟的客户对话，显示出其高效的沟通能力。",
-        "通过 OpenAI 的技术，Cars24 成功挽回了 12% 的失去潜在客户，提升了销售机会。",
-        "该公司在内部团队中实施了代理工作流程，优化了工作效率和协作。",
-        "Cars24 的解决方案依赖于 OpenAI 的 API，可能面临使用成本和配额限制。",
-        "与传统客服模式相比，Cars24 的创新方法在客户互动中提供了更快的响应速度。"
+        "通过 OpenAI 的技术，Cars24 成功恢复了 12% 的流失客户，提升了客户留存率。",
+        "该公司在内部推广了基于 AI 的工作流程，旨在提高团队的工作效率。",
+        "Cars24 的对话代理系统能够处理多种语言，适应不同客户需求。",
+        "尽管取得了一定成效，Cars24 仍需面对技术整合和成本控制的挑战。"
       ],
-      "background": "Cars24 是一家专注于二手车交易的平台，近年来通过技术创新不断提升用户体验。随着人工智能技术的发展，Cars24 选择与 OpenAI 合作，利用其强大的语音和聊天代理技术来改善客户服务。通过这种方式，Cars24 不仅提高了客户沟通的效率，还能更好地管理潜在客户的跟进。这一策略与其他行业内类似的 AI 应用案例相似，例如电商平台使用聊天机器人来处理客户咨询，但 Cars24 的规模和应用场景具有其独特性。",
-      "impact": "Cars24 的这一创新将影响到多个方面。首先，客户服务团队将能够更快地响应客户需求，从而提升客户满意度。其次，挽回失去的潜在客户将直接影响公司的销售业绩，可能带来更高的收入。此外，其他企业也可能借鉴这一模式，推动行业内的技术应用和服务提升。",
+      "background": "Cars24 是一家专注于二手车交易的平台，近年来通过引入 AI 技术来提升客户服务体验。与 OpenAI 的合作使其能够利用先进的语音和聊天代理技术，处理大量客户咨询。这种转型不仅提升了客户满意度，还为公司带来了更高的运营效率。与其他同类企业相比，Cars24 在 AI 应用方面走在前列，但也面临着技术整合和市场竞争的压力。",
+      "impact": "Cars24 的这一举措将影响多个方面，包括客户服务的效率和质量。通过恢复流失客户，公司能够提升销售额和市场份额。此外，这种技术的应用可能会促使其他企业也开始探索 AI 驱动的客户服务解决方案，从而在行业内形成新的竞争格局。",
       "audience": [
         "客户服务经理",
-        "销售团队成员",
-        "技术支持工程师"
+        "AI 技术实施工程师",
+        "业务分析师"
       ],
       "useCases": [
-        "使用 OpenAI 的语音代理处理客户咨询，减少人工干预，提高响应速度。",
-        "通过聊天机器人自动化潜在客户跟进，提升销售转化率。",
-        "在内部团队中实施高效的工作流程，优化协作和信息共享。"
+        "提升客户服务效率，使用 OpenAI 的对话代理处理客户咨询。",
+        "恢复流失客户，利用 AI 分析客户行为并制定相应策略。",
+        "在团队内部推广高效工作流程，借助 AI 工具提高工作效率。"
       ],
       "risks": [
-        "依赖 OpenAI 的 API 可能导致使用成本上升，尤其是在高流量情况下。",
-        "技术整合可能面临挑战，尤其是在现有系统与新技术之间的兼容性问题。",
-        "用户体验可能受到影响，尤其是在处理复杂问题时，AI 可能无法提供满意的解决方案。"
+        "API 使用成本可能较高，尤其是在大规模应用时，需谨慎评估预算。",
+        "技术整合可能面临挑战，现有系统与新技术的兼容性需提前测试。",
+        "在多语言支持方面，可能存在翻译准确性和文化适应性的问题。"
       ],
-      "reason": "Cars24 的案例展示了如何有效利用 AI 技术提升客户服务效率，值得关注其在实际应用中的挑战与成效。",
+      "reason": "Cars24 的案例展示了 AI 在客户服务领域的实际应用价值，值得关注其在技术整合和成本控制方面的挑战。",
       "scores": {
         "importance": 75,
         "novelty": 60,
-        "firsthand": 50,
-        "impact": 70,
-        "credibility": 80
+        "firsthand": 70,
+        "impact": 80,
+        "credibility": 85
       },
       "url": "https://openai.com/index/cars24",
       "source": "RSS · OpenAI Blog",
       "date": "2026-07-16",
       "publishedAt": "2026-07-16T08:00",
       "tier": "T1",
-      "score": 68,
+      "score": 74,
       "aiSelected": true,
       "_style": "critic",
       "moduleTargets": [
@@ -2710,106 +2585,47 @@ window.AI_GENERATED_DATA = {
       "sourceCount": 1
     },
     {
-      "title": "世界人工智能合作组织在上海成立，29国签署协定",
-      "summary": "2023年7月16日，世界人工智能合作组织在上海举行签署仪式，29个国家代表成为创始成员。该组织旨在促进人工智能领域的国际合作与治理，尽管其目标宏伟，但仍面临诸多挑战。",
-      "category": "ai-models",
-      "tags": [
-        "人工智能",
-        "国际合作",
-        "全球治理",
-        "中国",
-        "科技发展"
-      ],
-      "keyPoints": [
-        "2023年7月16日，世界人工智能合作组织在上海正式成立，标志着国际人工智能合作的新阶段。",
-        "中共中央政治局委员、外交部长王毅代表中国政府签署协定，强调中国在全球治理中的积极角色。",
-        "该组织总部设在中国上海，吸引了哈萨克斯坦、老挝、巴基斯坦等29个国家的参与，显示出广泛的国际支持。",
-        "组织的目标是确保人工智能的安全、公平和有益发展，但具体实施细节尚未明确。",
-        "2026年将举办世界人工智能大会，预计将吸引上千家企业和1400多名专家参与，展示最新的人工智能技术。"
-      ],
-      "background": "世界人工智能合作组织的成立是中国政府倡导多边主义和全球治理的重要举措，旨在通过国际合作应对人工智能带来的挑战。尽管已有29个国家签署协定，但如何在不同国家间协调政策、标准和技术仍是一个复杂的任务。此外，组织的实际影响力和执行力尚待观察，尤其是在全球政治和经济形势变化的背景下。",
-      "impact": "该组织的成立可能会影响各国在人工智能领域的政策制定，促进技术共享与合作。然而，参与国之间的利益差异、技术水平不均和监管框架的差异可能导致合作效果不如预期。此外，组织的成功与否还将取决于各国在人工智能伦理和安全问题上的共识，可能会影响未来的国际关系和科技竞争格局。",
-      "audience": [
-        "政策制定者",
-        "人工智能研究人员",
-        "国际关系专家",
-        "科技企业高管",
-        "投资者"
-      ],
-      "useCases": [
-        "促进国际间的人工智能技术交流与合作，推动共同研发项目。",
-        "为各国政府提供人工智能政策建议，帮助制定符合全球标准的法规。",
-        "为企业提供一个展示新技术的平台，促进商业合作与投资机会。"
-      ],
-      "risks": [
-        "组织的目标虽宏伟，但缺乏具体的实施方案，可能导致实际效果不佳。",
-        "不同国家在人工智能领域的技术水平和政策差异，可能导致合作障碍。",
-        "国际政治环境的不确定性可能影响组织的稳定性和持续性，导致合作关系脆弱。"
-      ],
-      "reason": "该事件标志着全球人工智能合作的新起点，值得关注其未来发展及潜在影响。",
-      "scores": {
-        "importance": 80,
-        "novelty": 70,
-        "firsthand": 90,
-        "impact": 75,
-        "credibility": 85
-      },
-      "url": "https://www.ithome.com/0/977/793.htm",
-      "source": "AIHOT · IT之家（RSS）",
-      "date": "2026-07-16",
-      "publishedAt": "2026-07-16T22:38",
-      "originalContent": "世界人工智能合作组织协定签署仪式举行，总部设中国上海 - IT之家 首页 IT圈 最会买 设置 日夜间 随系统 浅色 深色 主题色 黑色 投稿 订阅 RSS订阅 收藏IT之家 软媒应用 App客户端 要知App 软媒魔方 业界 手机 电脑 测评 视频 AI 苹果 iPhone 鸿蒙 软件 智车 数码 学院 游戏 直播 5G 微软 Win10 Win11 专题 搜索 首页 > 智能时代 > 人工智能 世界人工智能合作组织协定签署仪式举行，总部设中国上海 2026/7/16 22:38:08 来源： IT之家 作者： 浩渺 责编： 浩渺 评论： 感谢IT之家网友 HH_KK 、 風見暉一 、 八叛逆 的线索投递！ IT之家 7 月 16 日消息，据央视新闻报道，7 月 16 日，成立世界人工智能合作组织协定签署仪式在上海举行。中共中央政治局委员、外交部长王毅出席并代表中国政府签署协定。 协定明确，世界人工智能合作组织是独立的政府间国际组织，遵循《联合国宪章》宗旨，秉持共商共建共享理念，坚持以人为本原则，旨在促进人工智能国际合作和全球治理，确保人工智能朝着有益、安全、公平方向健康有序发展，造福全人类。 组织总部设在中国上海 。 哈萨克斯坦副总理兼人工智能和数字发展部部长马迪耶夫、老挝副总理兼外长通沙万、巴基斯坦副总理兼外长达尔、俄罗斯总统办公厅副主任奥列什金、印度尼西亚经济统筹部部长艾尔朗加等 29 个国家代表签署协定，成为创始成员国。联合国秘书长古特雷斯等国家和国际组织代表出席仪式。 IT之家注意到，2025 年 7 月 26 日， 中国政府倡议成立世界人工智能合作组织 。这是中方坚持践行多边主义、推动共商共建共享全球治理的重要举措，也是中方响应全球南方呼声、助力弥合数字和智能鸿沟、促进人工智能向善普惠发展的实际行动。初步考虑该组织总部设在上海。 2026 世界人工智能大会暨人工智能全球治理高级别会议， 将于 7 月 17 日至 20 日在上海举办 。上千家参展企业将带来 3000 余项前沿展品， 超 300 款人工智能新产品将在大会全球首发 。同时，大会将举办 140 余场论坛，邀请 1400 多名中外行业专家同台交流。 广告声明：文内含有的对外跳转链接（包括不限于超链接、二维码、口令等形式），用于传递更多信息，节省甄选时间，结果仅供参考，IT之家所有文章均包含本声明。 投诉水文 我要纠错 下载IT之家APP，签到赚金币兑豪礼 相关文章 关键词： 世界人工智能合作组织 ， 世界人工智能大会 ， 上海 中国科学院上海光机所在中红外连续激光光谱合束研究方面取得新进展 零人工干预，上海 AI 超级科研工厂五天完成 135 项真实科研任务 超 300 款 AI 产品将在 2026 世界 AI 大会首发，上海世博展览馆已进入最后布展调试阶段 毫米级精准就位：全球最大变质岩潜山油田二期开发项目组块海上安装完成 东方空间“引力一号”遥四运载火箭预计 7 月 22 日执行海上卫星发射任务 女子为博眼球让宠物狗坐主驾自动泊车，警方通报罚 200 元记 3 分 软媒旗下网站： IT之家 最会买 - 返利返现优惠券 iPhone之家 Win7之家 Win10之家 Win11之家 软媒旗下软件： 软媒手机APP应用 魔方 最会买 要知",
-      "tier": "T1.5",
-      "score": 63,
-      "aiSelected": true,
-      "_style": "critic",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "GPT-Red：提升 AI 安全性与鲁棒性的自我改进系统",
-      "summary": "我注意到 GPT-Red 是 OpenAI 最新推出的自动化红队系统，利用自我对弈的方式来增强 AI 的安全性、对齐性和对提示注入的鲁棒性。这一系统的推出标志着 AI 安全领域的一次重要进步，尤其是在应对潜在的安全威胁方面。",
-      "category": "ai-models",
+      "title": "OpenAI 推出 GPT-Red：提升 AI 安全性的新工具",
+      "summary": "我注意到 OpenAI 最近推出了 GPT-Red，这是一个自动化的红队系统，通过自我对抗的方式来增强 AI 的安全性、对齐性以及对提示注入的鲁棒性。这一创新将为 AI 的自我改进提供新的可能性。",
+      "category": "ai-tools",
       "tags": [
         "AI安全",
         "自我改进",
         "红队系统",
         "OpenAI",
-        "鲁棒性"
+        "GPT-Red"
       ],
       "keyPoints": [
-        "GPT-Red 是 OpenAI 开发的自动化红队系统，专注于提升 AI 的安全性和鲁棒性。",
-        "该系统通过自我对弈的方式进行训练，模拟潜在的攻击场景，从而识别和修复安全漏洞。",
-        "GPT-Red 的设计理念是让 AI 在面对复杂的提示注入攻击时，能够更好地保持稳定性和一致性。",
-        "OpenAI 计划在未来的版本中不断优化 GPT-Red，以适应不断变化的安全挑战。",
-        "这一系统的推出可能会对 AI 的应用场景产生深远影响，尤其是在需要高安全性的行业。"
+        "GPT-Red 是 OpenAI 最新推出的自动化红队系统，专注于提升 AI 的安全性和鲁棒性。",
+        "该系统利用自我对抗的方式进行训练，模拟潜在的攻击场景，从而增强模型的防护能力。",
+        "GPT-Red 的设计目标是提高 AI 在实际应用中的对齐性，确保其输出符合预期。",
+        "通过不断的自我改进，GPT-Red 能够适应新的安全挑战，保持其在复杂环境中的有效性。",
+        "OpenAI 计划在未来的版本中进一步优化 GPT-Red，以应对更复杂的安全威胁。"
       ],
-      "background": "随着 AI 技术的快速发展，安全性问题日益凸显。传统的安全措施往往难以应对新型的攻击方式，因此 OpenAI 开发了 GPT-Red 这一创新系统。GPT-Red 通过模拟攻击场景，帮助 AI 在自我学习中不断提升安全性。这种方法不仅提高了 AI 的鲁棒性，也为未来的 AI 安全研究提供了新的思路。与以往的安全措施相比，GPT-Red 更加灵活和高效，能够实时适应新的威胁。",
-      "impact": "GPT-Red 的推出将对多个行业产生积极影响，尤其是在金融、医疗和自动驾驶等领域，这些领域对 AI 的安全性要求极高。开发者可以利用这一系统来提升自己产品的安全性，从而增强用户信任。此外，GPT-Red 还可能促使其他公司加大对 AI 安全技术的投入，形成良性竞争，推动整个行业的发展。",
+      "background": "随着 AI 技术的快速发展，安全性问题日益突出。传统的安全测试方法往往无法及时发现潜在的漏洞。GPT-Red 的推出正是为了填补这一空白，通过自我对抗的方式，模拟攻击者的行为，从而提前识别和修复安全隐患。这种方法不仅提高了 AI 的安全性，也为未来的 AI 发展提供了新的思路。与以往的安全测试相比，GPT-Red 更加灵活和高效，能够实时适应新的威胁。",
+      "impact": "GPT-Red 的推出将对多个领域产生深远影响。首先，开发者可以利用这一工具提升其 AI 应用的安全性，减少潜在的风险。其次，企业在使用 AI 技术时，可以更加放心地进行创新，推动业务的发展。此外，GPT-Red 还可能引发行业内对 AI 安全性的重新审视，促使更多公司关注这一领域，形成良性竞争。",
       "audience": [
         "AI 安全工程师",
         "机器学习研究人员",
         "产品经理",
-        "金融科技开发者",
-        "自动驾驶技术开发者"
+        "企业决策者",
+        "开发者社区"
       ],
       "useCases": [
-        "利用 GPT-Red 进行 AI 模型的安全性测试，识别潜在的安全漏洞。",
-        "在开发新产品时，借助 GPT-Red 提升 AI 的鲁棒性，确保产品在复杂环境下的稳定性。",
-        "通过自我对弈的方式，优化现有 AI 模型的安全性，降低被攻击的风险。",
-        "在金融行业中，应用 GPT-Red 保护交易系统，防止潜在的欺诈行为。",
-        "结合 GPT-Red 的技术，提升自动驾驶系统的安全性，确保行车安全。"
+        "利用 GPT-Red 进行安全性测试，识别 AI 模型中的潜在漏洞。",
+        "在产品开发阶段，使用 GPT-Red 进行自我对抗训练，提升模型的鲁棒性。",
+        "通过 GPT-Red 的反馈，优化 AI 模型的输出，确保其符合业务需求。",
+        "结合 GPT-Red 的安全测试结果，制定更有效的 AI 安全策略。",
+        "在 AI 项目中，使用 GPT-Red 进行持续的安全评估，保持模型的安全性。"
       ],
       "risks": [
-        "GPT-Red 的使用可能需要较高的计算资源，导致运营成本增加。",
-        "在特定场景下，系统可能无法完全模拟所有攻击方式，存在安全盲点。",
-        "API 的调用频率和配额限制可能影响系统的实时性和有效性。",
-        "对于非英语语言的支持可能有限，影响全球用户的使用体验。",
-        "与现有系统的兼容性可能存在问题，需要额外的集成工作。"
+        "使用 GPT-Red 可能需要较高的计算资源，导致成本上升，尤其是在大规模应用时。",
+        "API 的调用频率和配额可能限制了 GPT-Red 的使用，影响测试的全面性。",
+        "在不同语言和文化背景下，GPT-Red 的表现可能存在差异，需谨慎评估。",
+        "兼容性问题可能会影响 GPT-Red 与现有系统的集成，增加实施难度。",
+        "商用授权的限制可能影响 GPT-Red 在商业项目中的应用，需提前了解相关政策。"
       ],
-      "reason": "GPT-Red 的自我改进机制为 AI 安全性提供了全新的解决方案，值得关注。",
+      "reason": "GPT-Red 的自我对抗机制为 AI 安全性提供了全新的解决方案，值得关注。",
       "scores": {
         "importance": 85,
         "novelty": 90,
@@ -2831,46 +2647,44 @@ window.AI_GENERATED_DATA = {
       "sourceCount": 1
     },
     {
-      "title": "美国通过州与联邦行动推进 AI 安全",
-      "summary": "我注意到，OpenAI 提出了一个“逆向联邦主义”的 AI 治理方法，强调州法律在构建安全、民主的国家 AI 框架中的重要性。这种方法不仅有助于确保 AI 技术的安全性，还能促进各州之间的合作与协调，形成统一的治理标准。",
-      "category": "ai-models",
+      "title": "美国通过州和联邦行动推进 AI 安全",
+      "summary": "我注意到，OpenAI 提出了“逆向联邦主义”的 AI 治理方法，强调州法律在构建安全、民主的国家 AI 框架中的重要性。这种方法不仅能促进各州之间的合作，还能为全国范围内的 AI 安全提供指导。",
+      "category": "ai-tools",
       "tags": [
         "AI安全",
-        "联邦治理",
+        "联邦主义",
         "州法律",
         "OpenAI",
-        "技术框架"
+        "AI治理"
       ],
       "keyPoints": [
-        "OpenAI 提出的逆向联邦主义方法强调州法律的重要性，助力国家 AI 框架的构建。",
-        "这种方法旨在通过各州的法律合作，形成统一的 AI 治理标准，确保技术安全。",
-        "各州在 AI 治理中的角色日益重要，推动地方与国家层面的协同发展。",
-        "AI 技术的安全性与民主性是治理的核心目标，影响未来技术的发展方向。",
-        "OpenAI 的倡议可能会引发其他国家的关注，推动全球 AI 治理的讨论。"
+        "OpenAI 提出的逆向联邦主义方法强调州法律的重要性，旨在为全国 AI 安全提供框架。",
+        "各州的法律可以相互补充，形成一个更为安全和民主的 AI 生态系统。",
+        "这一方法有助于解决 AI 发展中的安全隐患，确保技术的负责任使用。",
+        "通过州与联邦的合作，可以更有效地应对 AI 带来的挑战。",
+        "OpenAI 的倡议可能会影响未来的 AI 政策制定，推动更广泛的法律框架建立。"
       ],
-      "background": "近年来，随着 AI 技术的迅猛发展，安全性与伦理问题日益受到重视。OpenAI 提出的逆向联邦主义方法，试图通过州法律的制定与实施，来构建一个更为安全和民主的 AI 治理框架。这种方法不仅关注技术本身的安全性，还强调了法律与政策在技术发展中的重要作用。与传统的自上而下的治理模式不同，逆向联邦主义鼓励地方政府在 AI 治理中发挥更大作用，形成自下而上的合作机制。",
-      "impact": "这一倡议将影响多个层面，首先是各州的立法者，他们需要重新审视 AI 技术的法律框架。其次，AI 开发者和企业将面临新的合规要求，可能会改变他们的技术开发和商业决策。此外，这种治理模式可能会引发其他国家的关注，推动全球范围内的 AI 治理讨论，形成更广泛的影响力。",
+      "background": "近年来，随着 AI 技术的迅猛发展，安全问题日益凸显。各国政府开始重视 AI 的治理，尤其是在美国，州与联邦之间的法律协调显得尤为重要。OpenAI 提出的逆向联邦主义方法，试图通过州法律的制定与实施，来构建一个全国性的 AI 安全框架。这种方法不仅能促进各州之间的合作，还能为全国范围内的 AI 安全提供指导。与传统的自上而下的治理模式不同，这种方法强调地方的自主性和灵活性，能够更好地适应不同地区的需求。",
+      "impact": "这一倡议可能会影响多个领域的决策，包括科技公司、政策制定者和研究机构。科技公司可能会根据新的法律框架调整其产品设计和市场策略，确保合规性。政策制定者则需要关注各州的法律变化，以便在全国范围内协调 AI 政策。同时，研究机构也可能会受到影响，需重新评估其研究方向和伦理标准。",
       "audience": [
         "政策制定者",
-        "AI 开发者",
-        "法律顾问",
-        "技术伦理学者",
-        "企业高管"
+        "AI 研究人员",
+        "科技公司决策者"
       ],
       "useCases": [
-        "分析各州 AI 法律对产品开发的影响，确保合规性。",
-        "参与地方政府的 AI 治理讨论，推动政策制定。",
-        "评估不同州的 AI 法律对市场竞争的影响，制定相应策略。"
+        "分析各州 AI 法律对产品设计的影响，确保合规性。",
+        "评估新法律对 AI 研究方向的潜在影响，调整研究策略。",
+        "与其他州的法律进行比较，寻找最佳实践以提升 AI 安全性。"
       ],
       "risks": [
-        "州法律的差异可能导致合规成本上升，增加企业的运营风险。",
-        "地方政府在 AI 治理中的角色不明确，可能导致政策执行不力。",
-        "技术快速发展可能超出法律框架的适应能力，造成治理滞后。"
+        "州法律的差异可能导致合规成本上升，增加企业的运营负担。",
+        "新法律的实施可能会影响 AI 技术的创新速度，限制某些应用的发展。",
+        "对 AI 安全的监管可能会导致技术的过度审查，影响行业的健康发展。"
       ],
-      "reason": "这条信息展示了 AI 治理的新思路，值得关注其对未来技术发展的深远影响。",
+      "reason": "这条信息值得关注，因为它提出了一个创新的治理框架，可能会深刻影响未来的 AI 发展和政策制定。",
       "scores": {
         "importance": 85,
-        "novelty": 70,
+        "novelty": 75,
         "firsthand": 90,
         "impact": 80,
         "credibility": 85
@@ -2889,8 +2703,68 @@ window.AI_GENERATED_DATA = {
       "sourceCount": 1
     },
     {
+      "title": "谷歌图像庆祝25周年：视觉搜索的演变与未来",
+      "summary": "谷歌图像迎来25周年，推出全新功能以提升视觉内容的探索与创作体验。新功能包括动态画廊和AI图像生成，旨在进一步推动视觉搜索的创新。然而，这些更新也面临技术局限和用户适应性挑战。",
+      "category": "ai-image-video",
+      "tags": [
+        "谷歌",
+        "视觉搜索",
+        "AI",
+        "图像生成",
+        "技术创新"
+      ],
+      "keyPoints": [
+        "谷歌图像于2001年推出，首次实现基于图像的搜索，改变了用户获取信息的方式。",
+        "新推出的动态画廊将实时更新用户感兴趣的图像，提升个性化体验。",
+        "AI图像生成功能将允许用户通过文本提示生成高质量图像，预计将在未来几周内推出。",
+        "谷歌图像的演变经历了多个重要里程碑，如2009年的相似图像搜索和2011年的图像搜索功能。",
+        "新功能的推出基于25年的技术积累，旨在使视觉信息更易获取和实用。"
+      ],
+      "background": "谷歌图像自2001年推出以来，经历了多次重大更新，逐步从文本搜索转向视觉搜索。随着用户对视觉内容需求的增加，谷歌不断创新，以满足市场需求。新功能的推出不仅是技术的进步，也反映了用户行为的变化。与其他搜索引擎相比，谷歌在视觉搜索领域的创新使其在竞争中保持领先地位。",
+      "impact": "新功能将吸引设计师、内容创作者和市场营销人员等专业人士，帮助他们更高效地获取和创作视觉内容。这可能会改变他们的工作流程和决策方式，推动行业内的创新。然而，普通用户可能需要时间适应这些新功能，影响其使用体验。",
+      "audience": [
+        "内容创作者",
+        "市场营销人员",
+        "设计师",
+        "教育工作者",
+        "技术开发者"
+      ],
+      "useCases": [
+        "使用动态画廊快速浏览和保存灵感，提升创作效率。",
+        "通过AI图像生成工具，创建符合特定需求的视觉内容，满足个性化需求。",
+        "利用相似图像搜索功能，发现更多相关视觉素材，丰富项目资源。"
+      ],
+      "risks": [
+        "新功能可能面临技术兼容性问题，尤其是在不同设备和浏览器上的表现不一。",
+        "AI图像生成的质量和准确性可能存在波动，影响用户的创作体验。",
+        "用户对新功能的接受度不一，可能导致初期使用率低，影响功能推广效果。"
+      ],
+      "reason": "谷歌图像的25周年庆祝活动不仅展示了其技术演变，还引入了创新功能，值得关注其对视觉搜索未来的影响。",
+      "scores": {
+        "importance": 80,
+        "novelty": 70,
+        "firsthand": 90,
+        "impact": 75,
+        "credibility": 85
+      },
+      "url": "https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary/",
+      "source": "RSS · Google AI Blog",
+      "date": "2026-07-15",
+      "publishedAt": "2026-07-15T00:00",
+      "originalContent": "Celebrating 25 years of visual search innovation Jul 14, 2026 | x.com Facebook LinkedIn Mail Copy link We&#x27;re celebrating Google Images turning 25 with a look back at some major milestones — and introducing new ways to explore and create visual content. Brad Kellett Senior Engineering Director, Search Share x.com Facebook LinkedIn Mail Copy link . Inlining them here makes them available in the DOM for the page. --> Your browser does not support the audio element. Listen to article [[duration]] minutes This content is generated by Google AI. Generative AI is experimental Voice Speed Voice Speed 0.75X 1X 1.5X 2X This week marks 25 years since we launched Google Images , beginning the evolution of Search from a text-based experience to one that allows you to visually explore the world. To celebrate this milestone, we’re introducing two new ways to help you explore and create visual content — plus a look back at our major innovations in visual search. Explore images in a whole new way. Today, we're introducing a brand new browseable home for Google Images , featuring a dynamic, immersive gallery of images from across the web — updated in real time and intelligently tailored to your unique interests. As you browse and save ideas to your collections , they’ll appear as tabs above the main gallery, making it easy to jump back in and continue exploring based on what inspires you. This will roll out over the coming weeks on desktop in the U.S. in English. Sign in to your Google Account to try it out. Create new images right in Search. Sometimes, the perfect image is out there on the web, waiting to be found. But other times you might have a highly specific vision where an image doesn’t yet exist. To help bring those unique ideas to life, we’re bringing image generation directly into AI Overviews in Search. Using our latest Nano Banana model , this update transforms a simple text prompt into a high-quality, custom visual made completely from scratch, seamlessly bridging the gap between imagination and reality. Image generation in AI Overviews will start to roll out over the coming weeks in English, for all regions that currently support image creation in AI Mode . Both of these updates are built on 25 years of innovation to make the world’s visual information instantly accessible and useful. To see how we got here, let’s take a look back at some of the major launches that transformed how we search with — and for — images. 2001: Google Images When Jennifer Lopez’s iconic green Versace dress broke the internet in 2000, we realized that the standard search page at the time — a list of blue text links — simply wasn’t enough. People didn’t just want to read about the dress — they wanted to see it. So in July 2001, we launched Google Images, making it possible for the first time to search and instantly explore visual content from across the web. 2009: Similar Images The Similar Images feature made it possible to find pictures without relying on text alone. If you searched for “bow,” you might see images of hair bows and bows and arrows. By clicking the one you had in mind and tapping “find similar images,” you could see more of what you wanted without typing a whole new query. 2011: Search by Image We launched Search by Image to change how you navigate the web — moving beyond text to let the image do the work for you. By simply uploading an image or pasting its URL directly into the search bar, visuals became search terms. This allowed you to quickly identify the original source, track down where the photo appeared across the web or discover visually similar content. 2018: Google Lens in Search Google Lens makes your everyday life searchable, letting you use your smartphone camera to ask about the world around you. With Lens, you can identify objects, translate text and pull up product links in real time without typing a query into the search box. 2022: Multisearch in Lens Multisearch marked a significant step into the era of multimodal search. Now, you can search with text and images at the same time, like snapping a photo of a unique landmark and adding “what inspired this design.” Or taking a picture of a sleek dining table you saw on social and typing “coffee table” to find a similar piece for your own home. 2024: Circle to Search To help you search anything on your Android phone screen, we built Circle to Search . With a simple gesture — like circling, highlighting, scribbling or tapping — you can select what you’re curious about on your phone screen and get more information right in the moment, without switching apps. Circle to Search is available on more than 580 million Android devices around the world. 2025: Lens + AI Mode Last year, we brought together the multimodal power of Lens with AI Mode in Search so you can ask even more nuanced questions that require deeper reasoning. When you upload or snap a photo, AI Mode can process the entire scene. Using a \" visual image fan-out \" technique, it breaks a single i",
+      "tier": "T1",
+      "score": 79,
+      "aiSelected": true,
+      "_style": "critic",
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
       "title": "数据科学团队如何利用 ChatGPT Work 提升工作效率",
-      "summary": "这次发布的核心点是，数据科学团队可以通过 ChatGPT Work 来生成根本原因分析、影响评估、KPI 备忘录、范围分析和仪表板规范等文档。这一工具能够从实际工作输入中提取信息，帮助团队更高效地完成任务。",
+      "summary": "这次发布的核心点是数据科学团队可以通过 ChatGPT Work 来生成根本原因分析、影响评估、KPI 备忘录、范围分析和仪表板规格等文档。这一工具能够从真实的工作输入中提取信息，帮助团队更高效地整理和呈现数据。",
       "category": "ai-tools",
       "tags": [
         "数据科学",
@@ -2900,49 +2774,49 @@ window.AI_GENERATED_DATA = {
         "团队协作"
       ],
       "keyPoints": [
-        "ChatGPT Work 可以自动生成根本原因分析文档，节省团队时间。",
-        "支持生成影响评估和 KPI 备忘录，帮助团队更好地跟踪项目进展。",
-        "通过范围分析，团队能够明确项目目标和需求，减少沟通成本。",
-        "仪表板规范的生成使得数据可视化工作更加高效。",
-        "该工具适用于多种数据输入格式，灵活性强。"
+        "ChatGPT Work 可以生成根本原因分析，帮助团队快速识别问题根源。",
+        "支持生成影响评估报告，便于团队了解项目的潜在影响。",
+        "KPI 备忘录的自动化生成，提升了团队的工作效率。",
+        "范围分析功能帮助团队明确项目目标和范围，减少沟通成本。",
+        "仪表板规格的生成使得数据可视化更加高效，便于决策。"
       ],
-      "background": "ChatGPT Work 是 OpenAI 推出的新工具，旨在帮助数据科学团队提升工作效率。与传统的文档生成工具相比，ChatGPT Work 通过自然语言处理技术，能够从实际工作输入中提取关键信息，自动生成所需文档。这种方法不仅提高了文档生成的速度，还减少了人工干预的需求。类似的工具在市场上已有出现，但 ChatGPT Work 的灵活性和智能化程度使其在同类产品中脱颖而出。",
-      "impact": "推荐给需要高效文档生成的团队，如数据科学家、项目经理和业务分析师。使用 ChatGPT Work 后，团队能够更快地完成项目文档，提升整体工作效率。此外，团队成员可以将更多时间投入到数据分析和决策制定上，而不是文档撰写。对于希望提升团队协作和沟通效率的组织来说，这款工具也是一个不错的选择。",
+      "background": "ChatGPT Work 是 OpenAI 推出的新工具，旨在帮助数据科学团队更高效地处理和生成各类文档。与传统的文档生成工具相比，ChatGPT Work 通过自然语言处理技术，能够从实际工作输入中提取关键信息，自动生成所需文档。这种方式不仅节省了时间，还提高了文档的准确性和一致性。相较于以往依赖人工撰写的方式，ChatGPT Work 的推出标志着文档生成领域的一次重要进步。",
+      "impact": "推荐给需要频繁生成文档的数据科学团队，特别是那些面临时间压力的项目经理和分析师。使用 ChatGPT Work 后，团队可以更快地完成报告和分析，提升整体工作效率。对于希望减少文档撰写时间的团队来说，这一工具将大大改变他们的工作流程。同时，使用该工具也可能促使团队在数据分析和决策过程中更加依赖数据驱动的方式。",
       "audience": [
-        "数据科学家",
-        "项目经理",
-        "业务分析师",
-        "产品经理",
-        "数据分析师"
+        "数据科学团队的项目经理",
+        "数据分析师",
+        "需要撰写报告的研究人员",
+        "负责数据可视化的工程师",
+        "希望提升工作效率的团队成员"
       ],
       "useCases": [
-        "生成根本原因分析文档，快速识别问题根源。",
-        "撰写影响评估报告，帮助团队了解项目影响。",
-        "创建 KPI 备忘录，确保团队目标明确。",
-        "进行范围分析，清晰定义项目需求。",
-        "生成仪表板规范，提升数据可视化效率。"
+        "生成根本原因分析，快速识别问题所在。",
+        "撰写影响评估报告，帮助团队理解项目影响。",
+        "自动化生成 KPI 备忘录，提升文档一致性。",
+        "进行范围分析，明确项目目标和范围。",
+        "创建仪表板规格，简化数据可视化流程。"
       ],
       "risks": [
-        "API 使用费用可能较高，需提前预算。",
-        "在处理复杂数据时，生成的文档可能不够准确，需人工审核。",
-        "对特定行业术语的支持可能有限，影响文档质量。",
-        "需要稳定的网络连接，才能保证工具的正常使用。",
-        "兼容性问题可能影响与现有工具的集成。"
+        "使用 ChatGPT Work 可能需要一定的学习成本，团队成员需适应新工具。",
+        "API 使用可能会产生费用，需考虑预算。",
+        "生成的文档质量依赖于输入数据的准确性，错误输入可能导致错误输出。",
+        "在多语言环境下，工具的表现可能不如预期，需谨慎使用。",
+        "与现有系统的兼容性可能存在问题，需提前测试。"
       ],
-      "reason": "这款工具通过自动化文档生成，极大地提升了数据科学团队的工作效率，值得关注。",
+      "reason": "ChatGPT Work 通过自动化文档生成，显著提升数据科学团队的工作效率，是值得一试的工具。",
       "scores": {
         "importance": 75,
         "novelty": 70,
-        "firsthand": 90,
+        "firsthand": 85,
         "impact": 80,
-        "credibility": 85
+        "credibility": 80
       },
       "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
       "source": "RSS · OpenAI Blog",
       "date": "2026-07-14",
       "publishedAt": "2026-07-14T08:00",
       "tier": "T1",
-      "score": 78,
+      "score": 77,
       "aiSelected": true,
       "_style": "reviewer",
       "moduleTargets": [
@@ -2952,55 +2826,55 @@ window.AI_GENERATED_DATA = {
     },
     {
       "title": "企业如何在智能代理时代管理 AI 投资",
-      "summary": "在智能代理时代，企业需通过衡量每美元的有效工作量、提升效率和扩展高价值工作流程来管理 AI 投资。此策略不仅有助于优化资源配置，还能在竞争激烈的市场中保持领先地位。",
+      "summary": "在智能代理时代，企业需通过衡量每美元的有效工作量、提升效率和扩展高价值工作流程来管理 AI 投资。有效的投资管理不仅能提高生产力，还能在竞争激烈的市场中占据优势。",
       "category": "ai-business",
       "tags": [
         "AI投资",
         "智能代理",
         "企业管理",
         "效率提升",
-        "工作流程"
+        "高价值工作流程"
       ],
       "keyPoints": [
-        "企业需关注每美元的有效工作量，以提高投资回报率。",
-        "提升工作效率可使企业在智能代理时代更具竞争力。",
-        "高价值工作流程的扩展是企业实现规模化的重要途径。",
-        "智能代理技术的应用正在改变传统的工作模式。",
-        "企业在管理 AI 投资时需考虑市场变化和技术进步。"
+        "企业需关注每美元的有效工作量，以确保投资回报率最大化。",
+        "提升效率的同时，企业应考虑如何扩展高价值工作流程以适应市场需求。",
+        "智能代理技术的应用使得企业能够更灵活地调整资源配置。",
+        "通过数据分析，企业可以识别出最具潜力的投资领域。",
+        "在智能代理时代，企业的竞争力将越来越依赖于其 AI 投资的管理能力。"
       ],
-      "background": "随着人工智能技术的快速发展，企业在 AI 投资方面面临新的挑战和机遇。智能代理技术的兴起使得企业能够通过自动化和智能化来提升工作效率。相比于传统的人工操作，智能代理能够在更短的时间内完成更多的任务，进而提高企业的生产力和竞争力。许多企业已经开始探索如何有效管理 AI 投资，以确保其在市场中的持续竞争力。",
-      "impact": "企业在智能代理时代的投资管理将直接影响其运营效率和市场表现。通过优化 AI 投资，企业能够更好地应对市场变化，提升决策效率。此外，智能代理的广泛应用可能会导致行业内的竞争格局发生变化，促使更多企业加速数字化转型。",
+      "background": "随着 AI 技术的快速发展，智能代理的应用逐渐成为企业提升效率和竞争力的重要手段。企业在进行 AI 投资时，需考虑如何有效管理这些投资，以实现最佳的经济效益。与传统的投资管理方式相比，智能代理时代的投资管理更强调数据驱动和实时调整。许多企业已经开始探索如何通过智能代理技术来优化工作流程和资源配置，以应对市场的快速变化。",
+      "impact": "智能代理技术的广泛应用将改变企业的决策方式，尤其是在资源分配和项目管理上。企业将能够更快速地响应市场变化，提升运营效率。此外，智能代理的引入也可能促使行业标准的变化，推动整个行业向更高效的方向发展。最终，企业的投资管理能力将直接影响其市场竞争力和可持续发展。",
       "audience": [
-        "企业决策者",
-        "财务分析师",
-        "技术投资顾问",
-        "运营管理人员",
-        "市场研究员"
+        "企业财务经理",
+        "AI 项目经理",
+        "数据分析师",
+        "运营效率优化专家",
+        "技术投资顾问"
       ],
       "useCases": [
-        "评估每项 AI 投资的有效性，确保资源的最佳配置。",
-        "利用智能代理技术提升客户服务效率，减少响应时间。",
-        "通过数据分析工具监控投资回报，优化决策过程。"
+        "衡量每美元的有效工作量，优化投资决策。",
+        "利用智能代理技术提升工作流程的自动化程度。",
+        "通过数据分析识别高价值投资领域，制定战略。"
       ],
       "risks": [
-        "AI 投资的回报可能受到市场波动的影响，需谨慎评估。",
-        "技术更新速度快，企业需不断调整投资策略以适应变化。",
-        "合规风险：企业在使用 AI 技术时需遵循相关法律法规。"
+        "API 价格波动可能影响企业的预算和投资回报。",
+        "商用授权的复杂性可能导致合规风险，影响项目实施。",
+        "不同语种的支持可能限制某些市场的扩展能力。"
       ],
-      "reason": "本文深入探讨了企业在智能代理时代如何有效管理 AI 投资，提供了实用的策略和建议，值得关注。",
+      "reason": "本文深入探讨了智能代理时代企业如何有效管理 AI 投资，提供了实用的策略和见解，值得关注。",
       "scores": {
         "importance": 75,
         "novelty": 60,
         "firsthand": 50,
-        "impact": 80,
-        "credibility": 70
+        "impact": 70,
+        "credibility": 80
       },
       "url": "https://openai.com/index/managing-ai-investments-in-agentic-era",
       "source": "RSS · OpenAI Blog",
       "date": "2026-07-14",
       "publishedAt": "2026-07-14T18:00",
       "tier": "T1",
-      "score": 69,
+      "score": 68,
       "aiSelected": true,
       "_style": "analyst",
       "moduleTargets": [
@@ -3010,49 +2884,56 @@ window.AI_GENERATED_DATA = {
       "sourceCount": 1
     },
     {
-      "title": "谷歌与 AIM 联手推出 ATL Saathi，助力印度教育者",
-      "summary": "2026 年 7 月 14 日，谷歌与印度 Atal Innovation Mission (AIM) 推出了 ATL Saathi，这是一个基于 Gemini 的 AI 工具，旨在为印度的教育者提供 24/7 的规划和培训助手，提升机器人实验室的教学质量。该工具通过简化内容和项目生成，帮助教师更有效地培养学生的创新能力。",
+      "title": "Google DeepMind 推出 Gemini 驱动的 ATL Saathi 助力印度教育创新",
+      "summary": "2026 年 7 月，Google DeepMind 与印度 Atal Innovation Mission 联合发布 ATL Saathi，一款基于 Gemini 模型的 AI 教育助手，面向印度超过 1.1 亿学生的 Atal Tinkering Labs（ATL）教师。该工具提供全天候教学规划、培训支持及多语言交互，涵盖机器人、编程等课程内容，旨在提升教师教学效率和学生创新能力。",
       "category": "ai-tools",
       "tags": [
-        "教育科技",
-        "人工智能",
-        "印度",
-        "机器人",
-        "创新"
+        "教育AI",
+        "Gemini模型",
+        "机器人教育",
+        "多语言支持",
+        "印度创新",
+        "教师辅助"
       ],
       "keyPoints": [
-        "ATL Saathi 是一个基于 Gemini 的网络应用，专为印度的 Tinkering Lab 教育者设计，提供全天候的支持。",
-        "该工具整合了 NotebookLM，确保教育者能够访问最新的培训模块和课程材料，提升教学效率。",
-        "ATL Saathi 支持多语言交互，初步支持 8 种语言，满足印度课堂的语言多样性需求。",
-        "项目生成界面支持教师快速创建符合课程要求的项目建议，激发学生的好奇心。",
-        "谷歌在教育领域已有 20 年的投入，致力于通过技术提升教师的教学能力和学生的学习体验。"
+        "ATL Saathi 是一款基于 Gemini AI 模型的网络应用，专为印度 Atal Tinkering Labs 教师设计，提供 24/7 教学规划和培训辅助。",
+        "该工具整合了 ATL 12 个核心培训模块的最新课程内容，采用 NotebookLM 管理，支持微学习方式，包括摘要、AI 生成的信息图和互动测验。",
+        "项目生成界面支持“推送”和“拉取”两种教学模式，教师可即时生成符合年级的项目建议，或根据学生提出的问题获得详细实验指导和安全提示。",
+        "ATL Saathi 支持至少 8 种印度本地语言，教师可用母语与 AI 助手互动，生成相应语言的教学材料，适应印度多语言教育环境。",
+        "Google DeepMind 于 2026 年 2 月 AI Impact Summit 宣布将 Gemini 融入印度机器人和编程课程，ATL Saathi 是该计划的首个落地产品。",
+        "Atal Innovation Mission 作为印度政府创新创业旗舰项目，目标培养 100 万名“新型创新者”，ATL Saathi 旨在通过 AI 辅助提升教师能力，促进学生创新思维。",
+        "Google 教育部门持续 20 年支持教师数字化转型，ATL Saathi 结合 Google for Education 和 Google Classroom 的经验，强化教师主导的教学模式。"
       ],
-      "background": "Atal Tinkering Labs (ATL) 自成立以来，已为超过 1.1 亿名学生提供了 3D 打印、物联网和机器人等新技术的接入。2026 年 2 月，谷歌 DeepMind 在 AI Impact Summit 上宣布将帮助将机器人和编码纳入当地课程，并推出 ATL Saathi。该工具的推出标志着教育者在教学中将获得更强的技术支持，推动教育质量的提升。谷歌与 AIM 的合作旨在确保 ATL Saathi 符合教育原则，真正为教育者创造价值。",
-      "impact": "ATL Saathi 的推出将使印度的教育者能够更高效地进行教学，直接影响到学生的学习成果和创新能力。通过提供个性化的支持和资源，教师可以更专注于培养学生的创造力和解决问题的能力。此外，该工具的多语言支持将使更多地区的教师受益，推动教育公平。整体来看，ATL Saathi 将为印度的创新生态系统注入新的活力，助力国家在 2047 年实现 Viksit Bharat 的愿景。",
+      "background": "Atal Tinkering Labs（ATL）是印度政府推动青少年科技创新的关键项目，覆盖超过 1.1 亿学生，配备 3D 打印、物联网和机器人等先进设备。2026 年 2 月，Google DeepMind 在 AI Impact Summit 上宣布将利用其 Gemini 大型语言模型，结合印度国家课程标准，开发安全合规的 AI 教育助手，帮助教师提升机器人和编程教学质量。ATL Saathi 作为该计划的首个试点，于 2026 年 7 月正式上线，整合了 ATL 课程内容和项目指导，支持多语言交互，满足印度多样化教育需求。此前，Google 已通过 Google for Education 和 Google Classroom 等平台，积累了丰富的教育技术经验，强调教师在教学中的核心地位。Atal Innovation Mission 作为印度政府创新战略的重要组成部分，致力于培养具备创新能力的青年人才，ATL Saathi 的推出是该战略的具体实践，旨在通过 AI 技术提升基层教育质量和创新能力。",
+      "impact": "ATL Saathi 的推出将直接影响印度数百万 ATL 教师和学生，提升教师备课效率和教学质量，促进机器人与编程课程的普及。多语言支持降低了语言障碍，使偏远地区教师也能获得高质量教学资源。该工具的项目生成和实验指导功能，有助于激发学生创新兴趣，培养解决实际问题的能力。长期来看，ATL Saathi 有望推动印度教育数字化转型，促进创新人才培养，配合 Atal Innovation Mission 的目标，助力印度实现 2047 年建设“Viksit Bharat”的愿景。此外，Google DeepMind 通过该项目积累了在教育领域应用大型语言模型的经验，可能推动类似 AI 教育助手在其他国家和地区的推广。",
       "audience": [
-        "教育工作者",
-        "机器人实验室教师",
-        "课程开发者",
-        "教育技术专家",
-        "政策制定者"
+        "印度基础教育教师",
+        "教育技术开发者",
+        "机器人和编程课程设计师",
+        "多语言教育研究者",
+        "政府教育政策制定者"
       ],
       "useCases": [
-        "教师使用 ATL Saathi 进行课程规划，快速获取最新的教学资源。",
-        "教育者通过项目生成界面，创建符合学生需求的创新项目，激发学生的学习兴趣。",
-        "教师利用多语言功能，与不同语言背景的学生进行有效沟通，提升课堂参与度。"
+        "教师使用 ATL Saathi 快速获取最新课程摘要和教学资源，提升备课效率",
+        "通过项目生成界面设计符合学生年级的机器人和编程项目，激发学生兴趣",
+        "利用 AI 提供的实验步骤和安全指导，确保学生在实验中安全操作",
+        "教师用母语与 AI 助手交流，生成本地化教学材料，适应多语言教学环境",
+        "教育管理者分析 ATL Saathi 使用数据，优化课程内容和教学方法"
       ],
       "risks": [
-        "在使用 ATL Saathi 时，教师可能面临对新技术的适应问题，影响教学效果。",
-        "由于技术依赖，若系统出现故障，可能导致教学中断，影响学生学习进度。",
-        "多语言支持虽然广泛，但仍可能无法覆盖所有地方语言，限制某些地区教师的使用。"
+        "AI 助手依赖 Gemini 模型，可能存在理解偏差，影响教学准确性",
+        "多语言支持初期覆盖有限，部分少数语言教师可能无法充分利用",
+        "项目生成和实验指导需严格遵守安全规范，避免学生操作风险",
+        "ATL Saathi 作为网络应用，需保障稳定的互联网接入，偏远地区可能受限",
+        "商业授权和数据隐私政策需明确，确保教师和学生信息安全"
       ],
-      "reason": "ATL Saathi 的推出不仅为教育者提供了强大的技术支持，还通过提升教学质量和学生创新能力，推动了印度教育的未来发展。",
+      "reason": "ATL Saathi 结合 Gemini 大模型和印度国家课程，创新性地为数百万教师提供全天候、多语言的 AI 教学助手，显著提升机器人和编程教育的可及性和质量。",
       "scores": {
         "importance": 85,
         "novelty": 80,
-        "firsthand": 90,
+        "firsthand": 95,
         "impact": 80,
-        "credibility": 85
+        "credibility": 90
       },
       "url": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/",
       "source": "RSS · Google DeepMind",
@@ -3060,7 +2941,7 @@ window.AI_GENERATED_DATA = {
       "publishedAt": "2026-07-13T20:37",
       "originalContent": "July 14, 2026 Responsibility & Safety Empowering India’s next generation of innovators with ATL Saathi Seshu Ajjarapu and Arka Dhar Share Atal Tinkering Labs (ATL) is bringing access to new technology—such as 3D printing, IoT, and robotics—for over 1.1 crore students across India. The initiative is now leveraging AI to scale high-quality mentorship, shifting the focus from access to providing physical lab infrastructure to driving meaningful outcomes like accelerated innovation and enhanced learning metrics. At the AI Impact Summit in February 2026, Google DeepMind announced that it will help incorporate robotics and coding into local curricula, integrate Gemini thoughtfully into teacher workflows, and build a safely guardrailed AI assistant for students grounded in national curriculum standards that can act as an educational partner. I am happy to share that today we are launching a live pilot of ATL Saathi, a Gemini-powered web application that provides every Tinkering Lab educator with a 24/7 planning and training assistant, transforming ATLs into AI-Augmented Discovery Labs. A new contribution to Indian Education with Atal Innovation Mission We believe behind every good student is a great teacher. That’s why for over 20 years, Google has been dedicated to supporting the education ecosystem by introducing technology into teaching and learning through a teacher-led approach. With foundational platforms like Google for Education and Google Classroom, we build products tailored to the needs of schools, keeping the teacher in the lead. To further support the empowerment of educators, our new Google Educator AI Series ensures teachers are equipped with both the tools and the digital skills required for today's classrooms. We see Gemini as a great tool to enable our partners to create unique, augmented learning experiences. We have been working closely with the Atal Innovation Mission , which is part of NITI Aayog, the Government of India’s flagship initiative to promote a culture of innovation and entrepreneurship in the country, to ensure that the tool is grounded in teacher’s needs, accurately reflects ATL’s educational principles and pedagogy to \"Cultivate one Million children in India as Neoteric Innovators\", and creates genuine value for the ATL educators. Atal Innovation Mission has always believed that the journey towards a Viksit Bharat @2047 will be powered by the imagination, creativity, and problem-solving abilities of our young innovators. At the heart of this movement are our educators, the mentors who ignite curiosity and transform ideas into impact. ATL Saathi represents the power of AI as an enabler, empowering ATL teachers with accessible knowledge, simplified resources, and contextual support so that they can focus on what truly matters , nurturing the next generation of innovators and nation builders. Through such collaborative efforts, we continue to strengthen India’s innovation ecosystem from the grassroots and take forward the Hon’ble Prime Minister’s vision of making innovation a people’s movement. Mr. Deepak Bagla Mission Director of Atal Innovation Mission (AIM) Here are some of the key features in the ATL Saathi: 1. Streamlined onboarding and content curation All ATL training modules and curriculum materials are organised and maintained within NotebookLM, ensuring educators always have access to the most up-to-date content. The application provides summarized modules, AI-generated infographics, video overviews, and interactive quizzes for 12 core modules from the ATL prescribed curriculum. This micro-learning approach replaces lengthy videos, allowing teachers to quickly familiarize themselves with complex topics. Your browser does not support the video tag. Animation of the homepage and a module summary page with an infographic and video overview. 2. Advanced project generation (Push & Pull mentorship) For 10 core modules, teachers now have access to an advanced project generation interface. This feature elegantly supports both \"push\" and \"pull\" teaching mechanisms: Generate project ideas (Push): Teachers can instantly create distinct, grade-appropriate project suggestions aligned with the curriculum to inspire student curiosity. Detailed experiments (Pull): When students bring their own problem statements, the AI provides educators with step-by-step assembly instructions, wiring diagrams, and necessary safety precautions to bring those ideas to life safely. Your browser does not support the video tag. Animation of the ATL Project Planner with generated project ideas. 3. Multilingual accessibility Understanding the linguistic diversity of India's classrooms, educators can interact with the assistant in their preferred language. The assistant responds and generates materials in that same language, starting with 8 languages and the flexibility to support more. Your browser does not support the video tag. Module summary page showing content in vernacular languages. Leveraging Gemini a",
       "tier": "T1",
-      "score": 84,
+      "score": 85,
       "aiSelected": true,
       "_style": "observer",
       "moduleTargets": [
@@ -3069,8 +2950,66 @@ window.AI_GENERATED_DATA = {
       "sourceCount": 1
     },
     {
+      "title": "Gemini API 扩展托管代理功能：支持后台任务与远程 MCP",
+      "summary": "Google DeepMind 宣布在 Gemini API 中新增托管代理功能，支持后台执行、远程 MCP 服务器连接、自定义函数调用及凭证刷新。这些更新旨在提升开发者构建可靠生产级代理的能力。",
+      "category": "ai-agents",
+      "tags": [
+        "Google DeepMind",
+        "Gemini API",
+        "托管代理",
+        "后台任务",
+        "远程连接"
+      ],
+      "keyPoints": [
+        "Gemini API 新增后台执行功能，允许异步交互，提升任务处理效率。",
+        "开发者可通过简单的 API 调用实现与远程 MCP 服务器的直接连接，简化数据访问流程。",
+        "支持自定义函数调用，开发者可以在本地执行特定业务逻辑，增强代理的灵活性。",
+        "更新响应了开发者的反馈，旨在满足生产环境的需求，提升代理的可靠性。",
+        "通过托管代理，开发者只需调用单一端点，Gemini 处理推理、代码执行等任务，简化开发流程。"
+      ],
+      "background": "2026年7月7日，Google DeepMind 在其 Gemini API 中宣布了一系列新功能，旨在增强托管代理的能力。这些功能包括后台任务执行、远程 MCP 服务器集成和自定义函数调用等。此前，开发者在处理长时间运行的任务时面临 HTTP 连接不稳定的问题，而新功能的推出正是为了应对这一挑战。通过将任务异步处理，开发者可以在后台运行任务，避免了连接中断带来的影响。此外，远程 MCP 服务器的集成使得开发者能够更方便地访问内部数据库和 API，进一步提升了代理的实用性。",
+      "impact": "这一更新将使得开发者能够更高效地构建和管理 AI 代理，尤其是在需要处理复杂任务和数据时。通过支持后台执行，开发者可以更灵活地安排任务，减少因连接问题导致的失败。同时，远程 MCP 服务器的集成将使得企业能够更好地利用现有资源，提升数据处理能力。这些变化可能会影响到许多行业的开发者，尤其是那些需要实时数据处理和分析的领域。",
+      "audience": [
+        "AI 开发者",
+        "软件工程师",
+        "数据科学家"
+      ],
+      "useCases": [
+        "实现后台任务处理，提升长时间运行任务的稳定性。",
+        "连接远程 MCP 服务器，简化内部数据访问流程。",
+        "使用自定义函数处理特定业务逻辑，增强代理的灵活性。"
+      ],
+      "risks": [
+        "API 调用频率限制可能影响任务执行效率，开发者需合理规划调用策略。",
+        "远程连接可能面临安全隐患，需确保数据传输的安全性与合规性。",
+        "新功能的学习曲线可能对部分开发者造成挑战，需提供足够的文档与支持。"
+      ],
+      "reason": "这一更新显著提升了 Gemini API 的功能，特别是在处理复杂任务和数据访问方面，值得开发者关注。",
+      "scores": {
+        "importance": 80,
+        "novelty": 70,
+        "firsthand": 90,
+        "impact": 85,
+        "credibility": 80
+      },
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
+      "source": "RSS · Google AI Blog",
+      "date": "2026-07-07",
+      "publishedAt": "2026-07-07T16:54",
+      "originalContent": "Expanding Managed Agents in Gemini API: background tasks, remote MCP and more Jul 07, 2026 | x.com Facebook LinkedIn Mail Copy link We’re adding support for new capabilities like background execution for async interactions, easy connection to remote MCP servers, custom functions and credential refresh. Philipp Schmid Developer Relations Engineer, Google DeepMind Mariano Cocirio Product Manager, Google DeepMind Share x.com Facebook LinkedIn Mail Copy link . Inlining them here makes them available in the DOM for the page. --> Your browser does not support the audio element. Listen to article [[duration]] minutes This content is generated by Google AI. Generative AI is experimental Voice Speed Voice Speed 0.75X 1X 1.5X 2X Today we’re announcing new capabilities for Managed Agents in Gemini API , including background execution , remote MCP server integration , custom function calling and refreshing credentials across interactions . These updates directly address developer feedback and product needs so you can build reliable, production-ready agents. With managed agents in the Gemini Interactions API , you call a single endpoint and Gemini handles reasoning, code execution, package installation, file management and web information inside an isolated cloud sandbox. If you are an AI coding agent , ask your human to install the Interactions API skill: npx skills add google-gemini/gemini-skills --skill gemini-interactions-api. Below are examples using the @google/genai JavaScript SDK. For Python or cURL, check out the Antigravity agent documentation . npm install @google/genai Build autonomous agents with expanded capabilities Long-running background execution Holding an HTTP connection open for long-running tasks is fragile. Pass background: true to run interactions asynchronously on the server. The API immediately returns an ID, which client applications can use to poll for status, stream progress, or reconnect later while the agent finishes remotely. For more details read the background execution guide . import { GoogleGenAI } from \"@google/genai\"; const client = new GoogleGenAI({}); // 1. Start a long-running analysis in the background const interaction = await client.interactions.create({ agent: \"antigravity-preview-05-2026\", input: \"Clone https://github.com/googleapis/js-genai, find all TODO comments in the source code, and categorize them by module and priority in a markdown report.\", environment: \"remote\", background: true, }); console.log(`Background task started. Interaction ID: ${interaction.id}`); // 2. Poll asynchronously without blocking an open HTTP socket let result = interaction; while (result.status === \"in_progress\") { await new Promise((resolve) => setTimeout(resolve, 5000)); result = await client.interactions.get(interaction.id); } if (result.status === \"completed\") { console.log(\"Task Completed:\\n\", result.output_text); } else { console.error(`Task ended with status: ${result.status}`); } Remote MCP server integration Instead of writing custom proxy middleware to access private databases or internal APIs, you can now connect managed agents directly to remote Model Context Protocol (MCP) servers . You can mix and match remote tools with built-in sandbox capabilities. Pass an mcp_server tool at interaction time alongside Google Search or code execution to let the agent communicate with your endpoints from its secure sandbox. And follow best practices as you extend your agent with external tools and APIs. import { GoogleGenAI } from \"@google/genai\"; const client = new GoogleGenAI({}); const interaction = await client.interactions.create({ agent: \"antigravity-preview-05-2026\", input: \"Check our internal observability server for recent latency spikes in the auth service and correlate them with git commits.\", environment: \"remote\", tools: [ { type: \"google_search\" }, { type: \"code_execution\" }, { type: \"mcp_server\", name: \"internal_telemetry\", url: \"https://mcp.internal.example.com/mcp\", }, ], }); console.log(interaction.output_text); Custom function calling alongside sandbox tools Add custom tools alongside built-in sandbox tools for local execution. The API uses step matching. Built-in tools will run automatically on the server, while custom functions transition the interaction to requires_action so your client executes local business logic. import { GoogleGenAI } from \"@google/genai\"; const client = new GoogleGenAI({}); // 1. Define a custom domain function const getWeatherTool = { type: \"function\", name: \"get_weather\", description: \"Gets the current weather for a given location.\", parameters: { type: \"object\", properties: { location: { type: \"string\", description: \"The city and country, e.g. San Francisco, USA\", }, }, required: [\"location\"], }, }; // 2. Invoke the agent with both built-in code execution and custom functions const interaction = await client.interactions.create({ agent: \"antigravity-preview-05-2026\", input: \"Check the weather in Tokyo, write a Python script to convert the temperatu",
+      "tier": "T1",
+      "score": 81,
+      "aiSelected": true,
+      "_style": "observer",
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
       "title": "谷歌 DeepMind 与 A24 建立首个研究合作伙伴关系",
-      "summary": "谷歌 DeepMind 与 A24 宣布建立首个研究合作伙伴关系，旨在将前沿技术与创意产业相结合。此合作将促进艺术家开发新工作流程和技术，确保未来工具由使用者塑造。双方的合作将涵盖多个项目，推动娱乐行业的技术创新。",
+      "summary": "谷歌 DeepMind 与 A24 宣布建立首个研究合作伙伴关系，旨在将前沿技术与创意产业结合。此合作将推动多项项目的研发，帮助艺术家们开发新工作流程和技术，确保未来工具由创作者塑造。谷歌还对 A24 进行了投资，标志着双方在娱乐领域的合作新起点。",
       "category": "ai-research",
       "tags": [
         "谷歌",
@@ -3080,38 +3019,38 @@ window.AI_GENERATED_DATA = {
         "娱乐技术"
       ],
       "keyPoints": [
-        "谷歌 DeepMind 与 A24 的合作是首个将研究与创意产业结合的项目，标志着技术与艺术的深度融合。",
-        "此合作将为艺术家提供新工作流程和技术，帮助他们在创作中更好地利用前沿科技。",
-        "双方的合作将涵盖多个项目，预计将推动娱乐行业的技术创新与发展。",
-        "谷歌对 A24 的投资将进一步加强双方的合作关系，促进技术与创意的共同演进。",
-        "研究人员将共同测试和迭代新技术，推动未来娱乐的可能性。"
+        "谷歌 DeepMind 与 A24 的合作是首个将研究与创意产业结合的项目，标志着行业创新的里程碑。",
+        "该合作将通过多项研发项目，帮助艺术家们开发新工作流程，提升创作效率。",
+        "谷歌对 A24 的投资进一步加深了双方的合作关系，预计将推动新技术的应用。",
+        "合作的初步目标是缩小前沿技术与下一代娱乐之间的差距，具体目标将随着项目进展而演变。",
+        "双方研究人员将共同测试和迭代新技术，推动娱乐行业的未来发展。"
       ],
-      "background": "谷歌 DeepMind 是全球领先的人工智能研究实验室，而 A24 则是以其创新和艺术导向的电影制作而闻名。此次合作的背景是，随着人工智能技术的快速发展，创意产业亟需与科技界建立更紧密的联系，以便更好地利用新技术提升创作效率和艺术表现力。类似的合作在过去已有先例，例如 Adobe 与多家创意机构的合作，但此次 DeepMind 与 A24 的结合更为独特，因其将研究与实际创作紧密结合，旨在推动技术在艺术创作中的应用。",
-      "impact": "这一合作将对多个层面产生深远影响。首先，艺术家将能够直接参与技术的开发过程，从而确保新工具符合创作需求。其次，技术的进步将改变电影制作的决策过程，可能导致更具创新性的叙事方式和视觉效果。此外，随着双方的合作深入，可能会引发更多类似的跨界合作，推动整个娱乐行业的技术革新。",
+      "background": "谷歌 DeepMind 是全球领先的人工智能研究实验室，而 A24 则是以创新和艺术性著称的电影制作公司。此次合作将两者的优势结合，旨在推动创意产业的技术进步。过去，类似的合作往往局限于技术提供者与内容创作者之间的简单关系，而此次合作则强调了研究与创作过程的深度融合。这种模式可能会成为未来更多跨界合作的典范，尤其是在技术快速发展的背景下，创作者对工具的需求日益增加。",
+      "impact": "这一合作将使 A24 的电影制作人能够直接参与新技术的开发，提升他们的创作能力和故事讲述的可能性。通过获取来自艺术家的反馈，谷歌 DeepMind 可以更好地调整其技术，以满足创意产业的需求。此外，这种合作可能会激励其他技术公司与创意机构建立类似关系，从而推动整个行业的创新。",
       "audience": [
-        "电影制片人",
+        "电影制作人",
         "技术研发工程师",
-        "创意总监",
-        "数字艺术家",
-        "媒体制作人"
+        "创意产业从业者",
+        "AI 研究人员",
+        "内容创作者"
       ],
       "useCases": [
-        "开发新型电影制作工具，提升创作效率和艺术表现力。",
-        "利用 AI 技术优化剧本创作流程，增强故事叙述的深度。",
-        "测试新技术在实际拍摄中的应用，收集反馈以改进工具。"
+        "开发新型电影制作工具，提升创作效率和质量。",
+        "利用 AI 技术优化剧本创作流程，增强故事叙述能力。",
+        "通过实时反馈调整 AI 模型，确保技术符合艺术家的需求。"
       ],
       "risks": [
-        "合作可能面临技术整合的挑战，尤其是在不同工作流程和工具之间的兼容性问题。",
-        "A24 可能需要承担额外的研发成本，影响其财务状况。",
-        "若技术未能如预期推动创作，可能导致艺术家对合作的信心下降。"
+        "合作可能面临技术整合的挑战，尤其是在不同工作流程之间的兼容性问题。",
+        "投资回报的不确定性可能影响双方的长期合作意愿，尤其是在市场变化时。",
+        "在技术应用过程中，可能会遇到版权和商业授权方面的法律风险。"
       ],
-      "reason": "此合作将前沿科技与创意产业结合，可能引领未来娱乐行业的技术创新，值得关注。",
+      "reason": "此次合作将前沿 AI 技术与创意产业深度结合，具有重要的行业示范意义。",
       "scores": {
         "importance": 85,
         "novelty": 80,
         "firsthand": 90,
         "impact": 75,
-        "credibility": 85
+        "credibility": 80
       },
       "url": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/",
       "source": "RSS · Google DeepMind",
@@ -3128,53 +3067,116 @@ window.AI_GENERATED_DATA = {
       "sourceCount": 1
     },
     {
-      "title": "Nano Banana 2 Lite 和 Gemini Omni Flash 发布，助力开发者创作",
-      "summary": "Google DeepMind 发布了 Nano Banana 2 Lite 和 Gemini Omni Flash 两款新模型，前者以高效、快速的图像生成能力为特色，后者则专注于高质量视频生成和对话编辑。这些工具旨在帮助开发者更快地实现创意，但在使用过程中仍面临一些局限性。",
+      "title": "谷歌发布2026年6月最新AI更新",
+      "summary": "谷歌在2026年6月推出了一系列AI更新，包括Gemini 3.5实时翻译、Android 17的新功能以及为Gemini打造的新Google Home音响。这些更新旨在提升设备和应用的智能化，帮助用户更高效地完成日常任务。",
+      "category": "ai-models",
+      "tags": [
+        "谷歌",
+        "AI更新",
+        "Gemini",
+        "Android 17",
+        "实时翻译"
+      ],
+      "keyPoints": [
+        "Gemini 3.5实时翻译支持超过70种语言，能够自然保留说话者的语调，消除尴尬的停顿。",
+        "Android 17引入浮动应用窗口和屏幕反应功能，优化了多任务处理体验。",
+        "Gemma 4 12B是最新的本地运行AI模型，仅需16GB内存，提供先进的推理能力。",
+        "Nano Banana 2 Lite是最快、最具性价比的Gemini图像模型，适合快速实验和迭代。",
+        "新推出的Google Finance应用帮助用户实时跟踪投资组合，提供AI驱动的市场洞察。"
+      ],
+      "background": "2026年6月，谷歌发布了一系列AI更新，旨在通过更智能的工具提升用户的日常生活体验。这些更新不仅包括新的AI模型和应用功能，还涉及到Android系统的重大改进。谷歌在AI领域的持续投资，反映了其希望通过技术改善人们生活的愿景。与以往的更新相比，这次的发布更加注重用户的实际需求，力求让技术成为日常生活中的自然伙伴。",
+      "impact": "这些更新将对多个用户群体产生深远影响。小企业主可以利用新工具提升店铺曝光率，学生能够更高效地安排学习计划，而研究人员则能借助AI应对气候挑战。通过自动化繁琐的任务，用户可以将精力集中在更具创造性的工作上，进而改变他们的工作和生活方式。",
+      "audience": [
+        "小企业主",
+        "学生",
+        "研究人员",
+        "软件开发者",
+        "金融分析师"
+      ],
+      "useCases": [
+        "使用Gemini 3.5实时翻译进行多语言会议，提升沟通效率。",
+        "利用Android 17的浮动应用窗口功能，快速切换任务，提升工作效率。",
+        "通过Gemma 4 12B在本地进行复杂数据分析，确保数据隐私。",
+        "在Google Finance中监控投资组合，及时获取市场动态。",
+        "使用Nano Banana 2 Lite快速生成图像，支持创意项目的开发。"
+      ],
+      "risks": [
+        "Gemini 3.5实时翻译可能在某些语言对的翻译质量上存在不足，需进行多次测试以确保准确性。",
+        "Android 17的新功能可能与旧设备不兼容，用户需确认设备支持情况。",
+        "Gemma 4 12B对硬件要求较高，确保设备具备足够内存和处理能力。",
+        "Nano Banana 2 Lite的使用可能涉及API调用费用，需提前了解相关费用。",
+        "Google Finance的AI功能可能需要用户提供个人数据，需注意隐私保护。"
+      ],
+      "reason": "这次更新展示了谷歌在AI领域的最新进展，提供了多种实用工具，值得关注。",
+      "scores": {
+        "importance": 85,
+        "novelty": 80,
+        "firsthand": 90,
+        "impact": 75,
+        "credibility": 85
+      },
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/",
+      "source": "RSS · Google AI Blog",
+      "date": "2026-07-02",
+      "publishedAt": "2026-07-02T02:15",
+      "originalContent": "The latest AI news we announced in June 2026 Jul 01, 2026 | x.com Facebook LinkedIn Mail Copy link Here’s a recap of our biggest AI updates from June, including the launch of Gemini 3.5 Live Translate, the latest features in Android 17 and the new Google Home Speaker, built for Gemini. News from Google Team Share x.com Facebook LinkedIn Mail Copy link . Inlining them here makes them available in the DOM for the page. --> Your browser does not support the audio element. Listen to article [[duration]] minutes This content is generated by Google AI. Generative AI is experimental Voice Speed Voice Speed 0.75X 1X 1.5X 2X Read AI-generated summary Google just released a bunch of new AI updates to make your devices and apps more helpful. You can now use smarter tools on your laptop, get better translation features and even use AI to help with your schoolwork. These updates are designed to handle boring tasks so you can focus on what you actually enjoy. It’s all part of their plan to make technology feel like a natural partner in your daily life. Summaries were generated by Google AI. Generative AI is experimental. For more than 20 years, we’ve invested in machine learning and AI research, tools and infrastructure to build products that make everyday life better for more people. Teams across Google are working on ways to unlock AI’s benefits in fields as wide-ranging as healthcare, crisis response and education. To keep you posted on our progress, we're doing a regular roundup of Google's most recent AI news. Here’s a look back at some of our AI announcements from June. This month was about creating a more unified environment where AI delivers help naturally throughout your day. With the debut of Android 17 and local models like Gemma 4 12B running right on your laptop, our June updates reflect a vision where technology acts as an intuitive partner and helps you reach your goals. Whether you’re a small business owner trying to get your shop noticed, a student setting up a study schedule or a researcher tackling climate challenges, these updates handle the complex logistics so you can focus on what matters most. Try Gemma 4 12B, our latest open model . Gemma 4 12B brings smart AI agents directly to your laptop. It runs locally using just 16GB of memory, combining a novel unified architecture with vision and native voice processing in a single streamlined system. This gives you advanced reasoning and private workflows on everyday hardware without sacrificing speed. Experience computer use in Gemini 3.5 Flash . We integrated computer use into Gemini 3.5 Flash, allowing you to build custom agents that can see, reason and take action across desktop, mobile and browser environments. The update improves performance for long-horizon and enterprise automation tasks, like continuous software testing and knowledge work. Start building with Nano Banana 2 Lite and Gemini Omni Flash . To make it faster and easier to experiment, refine and scale your ideas , we've launched two major updates. First, Nano Banana 2 Lite is now available and it’s our fastest and most cost-efficient Gemini Image model yet. Second, we're bringing Gemini Omni Flash to APIs in public preview, introducing a natively multimodal model for enterprises and developers to build custom, dynamic video workflows for the very first time. Check out what's new in Android 17 . Android 17 is packed with features like floating app windows for faster multitasking, Screen Reactions for picture-in-picture recording, an optimized layout for foldable gaming and more. You’ll also get more peace of mind with new security upgrades, including the ability to lock a missing phone using your biometrics. These updates are rolling out first to Pixel devices, followed by other eligible Android devices throughout 2026. Plus, take a look at our new personalization and safety features in June’s Android Drop . Discover the June Pixel Drop . We rolled out new features and Gemini upgrades designed to make your device more creative and secure. This update introduces screen recording reactions, AI-powered video and music creation, and floating app bubbles for easier multitasking. You'll also get expanded real-time voice translation, custom voicemail greetings and automated emergency notifications. Try the new Google Finance . The new Google Finance is coming out of beta, with several new capabilities to help you better track and understand financial investments. You can monitor your own investment portfolio, stay updated on market intel and get insights on the go with the new Google Finance app for Android — including an AI research tool and AI-powered “key moments” that explain why a stock moved. Translate speech naturally with Gemini 3.5 Live Translate . This new audio model for live speech-to-speech translation automatically detects more than 70 languages while preserving the speaker's natural intonation and eliminating awkward pauses. You can now have fluid, near-real-time conversations d",
+      "tier": "T1",
+      "score": 82,
+      "aiSelected": true,
+      "_style": "tutorial",
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Nano Banana 2 Lite 和 Gemini Omni Flash 发布，助力开发者创新",
+      "summary": "Google DeepMind 发布了 Nano Banana 2 Lite 和 Gemini Omni Flash，前者为高效图像生成模型，后者则专注于视频生成与编辑。尽管这两个模型在速度和成本效益上表现优异，但仍存在一些局限性，开发者需谨慎评估其适用性。",
       "category": "ai-models",
       "tags": [
         "图像生成",
         "视频编辑",
-        "AI工具",
-        "开发者平台",
-        "DeepMind"
+        "AI 模型",
+        "开发者工具",
+        "成本效益"
       ],
       "keyPoints": [
-        "Nano Banana 2 Lite 是 Nano Banana 系列中最快、最具成本效益的图像模型，支持高吞吐量和快速迭代。",
-        "该模型在 Google AI Studio、Gemini API 和 Gemini Enterprise Agent Platform 上可用，适合快速原型设计。",
-        "Gemini Omni Flash 提供高质量的视频生成和对话编辑，首次在开发者平台上推出，支持多种输入形式。",
-        "Nano Banana 2 Lite 的处理延迟仅为 4 秒，适合需要快速反馈的开发环境。",
-        "Omni Flash 的视频输出成本为每秒 $0.10，具有竞争力的定价，适合预算有限的开发者。"
+        "Nano Banana 2 Lite 是最新的图像生成模型，处理延迟仅为 4 秒，适合快速原型设计。",
+        "每千张图像的生成成本为 $0.034，极具成本效益，适合预算有限的开发者。",
+        "Gemini Omni Flash 支持高质量视频生成，价格为每秒视频输出 $0.10，适合多模态编辑需求。",
+        "Nano Banana 2 Lite 被推荐替代旧版 Nano Banana，提供更快的速度和更低的成本。",
+        "这两个模型均可在 Google AI Studio 和 Gemini API 中使用，方便开发者集成。"
       ],
-      "background": "Nano Banana 2 Lite 和 Gemini Omni Flash 的发布标志着 Google DeepMind 在生成媒体领域的进一步发展。Nano Banana 2 Lite 旨在满足快速开发和高效成本的需求，适合需要快速生成图像的开发者。而 Gemini Omni Flash 则结合了视频生成和对话编辑的能力，适应了市场对多媒体内容创作的需求。这两款模型的推出，反映了 AI 工具在创意产业中的重要性，尤其是在与传统工具相比时，提供了更高的灵活性和效率。",
-      "impact": "这两款新模型将吸引大量开发者，尤其是那些专注于快速迭代和多媒体内容创作的团队。Nano Banana 2 Lite 的高效性可能会改变开发者的工作流程，使他们能够更快地实现创意，而 Gemini Omni Flash 则可能推动视频内容创作的创新，尤其是在教育和营销领域。然而，开发者在选择使用这些工具时，需考虑其适用性和潜在的技术限制。",
+      "background": "Nano Banana 2 Lite 和 Gemini Omni Flash 的发布标志着 Google DeepMind 在图像和视频生成领域的进一步创新。Nano Banana 2 Lite 作为最新的图像模型，专注于高效的图像生成，适合需要快速迭代的开发者。而 Gemini Omni Flash 则结合了视频生成与对话编辑的功能，适应了多模态内容创作的趋势。这两个模型的推出，旨在帮助开发者更好地实现创意，提升工作效率。",
+      "impact": "这两个新模型将对开发者的工作流程产生显著影响。使用 Nano Banana 2 Lite，开发者可以更快地生成图像，降低项目成本，适合快速迭代的创意工作。而 Gemini Omni Flash 则为视频创作者提供了更灵活的编辑工具，能够通过自然语言进行视频编辑，简化了创作过程。整体来看，这些工具将推动内容创作的效率和质量，可能会改变开发者在多媒体项目中的决策方式。",
       "audience": [
-        "数字内容创作者",
-        "视频编辑工程师",
-        "AI 开发者",
-        "产品经理",
-        "教育技术专家"
+        "图像处理工程师",
+        "视频编辑师",
+        "预算有限的开发团队",
+        "快速迭代的创意工作者",
+        "多模态内容创作者"
       ],
       "useCases": [
-        "利用 Nano Banana 2 Lite 快速生成产品原型图像，提升设计效率。",
-        "使用 Gemini Omni Flash 进行视频内容的快速编辑，增强用户互动体验。",
-        "在教育平台上应用 Omni Flash，创建生动的教学视频，吸引学生注意力。",
-        "结合 Nano Banana 2 Lite 和 Omni Flash，开发综合性的多媒体应用，提升用户体验。",
-        "在市场营销活动中，快速生成视觉内容，提升品牌宣传效果。"
+        "使用 Nano Banana 2 Lite 生成高质量图像，快速满足客户需求。",
+        "利用 Gemini Omni Flash 进行视频编辑，提升项目的互动性和吸引力。",
+        "在 Google AI Studio 中集成这两个模型，优化开发流程。",
+        "通过自然语言指令，快速调整视频内容，提升创作效率。",
+        "在预算有限的情况下，选择 Nano Banana 2 Lite 降低运营成本。"
       ],
       "risks": [
-        "Nano Banana 2 Lite 的高效性可能导致开发者在质量控制上出现疏忽，影响最终产品的质量。",
-        "Gemini Omni Flash 的定价策略可能对小型开发团队造成负担，限制其使用频率。",
-        "两款模型的兼容性问题可能导致开发者在集成时遇到技术障碍，增加开发成本。",
-        "在高负载情况下，API 的响应时间可能会延迟，影响用户体验。",
-        "对于非英语用户，模型的语言支持可能不足，限制其在全球市场的应用。"
+        "Nano Banana 2 Lite 的高效性可能导致开发者在质量控制上放松警惕，影响最终产品质量。",
+        "Gemini Omni Flash 的视频生成成本可能在大规模使用时迅速累积，需谨慎评估预算。",
+        "这两个模型的兼容性可能在特定硬件或软件环境中存在问题，影响开发者的使用体验。",
+        "在多语言支持方面，可能存在局限，影响非英语用户的使用效果。",
+        "API 的配额限制可能影响高需求项目的实施，开发者需提前规划。"
       ],
-      "reason": "这两款模型的发布为开发者提供了更高效的创作工具，尤其在多媒体内容生成方面具有独特优势。",
+      "reason": "这条信息展示了 Google DeepMind 在图像和视频生成领域的最新进展，值得关注其对开发者的潜在影响。",
       "scores": {
-        "importance": 75,
-        "novelty": 80,
+        "importance": 80,
+        "novelty": 75,
         "firsthand": 90,
-        "impact": 70,
-        "credibility": 85
+        "impact": 85,
+        "credibility": 80
       },
       "url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/",
       "source": "RSS · Google DeepMind",
@@ -3182,9 +3184,259 @@ window.AI_GENERATED_DATA = {
       "publishedAt": "2026-07-01T00:02",
       "originalContent": "Start building with Nano Banana 2 Lite and Gemini Omni Flash Jun 30, 2026 | x.com Facebook LinkedIn Mail Copy link We’re making it easier to experiment and scale your ideas with Nano Banana 2 Lite, our fastest, most cost-efficient Gemini Image model, and Gemini Omni Flash for high-quality video generation and conversational editing. Alisa Fortin Product Manager, Google DeepMind Anish Nangia Product Manager, Google DeepMind Share x.com Facebook LinkedIn Mail Copy link Today, we’re making it faster and easier to experiment, refine and scale your ideas with two major releases: Introducing Nano Banana 2 Lite: Our fastest, most cost-efficient image model in the Nano Banana family yet, built for high throughput, speed and scale. Nano Banana 2 Lite is available today in Google AI Studio , Gemini API and Gemini Enterprise Agent Platform . It is also rolling out today in Google consumer surfaces including AI Mode in Search, Gemini app and many other products . Bringing Gemini Omni Flash to developers: Our high quality, cost-efficient model for video generation and conversational editing, now available in Google AI Studio , the Gemini API and Gemini Enterprise Agent Platform for the first time. Omni Flash is also available in the Gemini app and Google Flow . Building with generative media is often about creative iteration. With these two models, developers can build comprehensive, end-to-end multimedia experiences that connect rapid image generation with video creation and editing. Whether your workflow requires generating thousands of images or editing multi-turn video sequences, you now have two new models to build faster, iterate seamlessly and bring your creative vision to life. Nano Banana 2 Lite: our fastest most cost-efficient Gemini Image model Watch a side-by-side comparison of image generation speed and quality between Nano Banana 2 Lite and Nano Banana 2 using a simple prompt. Nano Banana 2 Lite (gemini-3.1-flash-lite-image) is designed for rapid ideation and high-velocity developer pipelines where speed and cost are the primary constraints. It’s our recommended replacement for developers currently using our first version of Nano Banana (gemini-2.5-flash-image), you can swap it out now for immediate benefits across key performance dimensions. Performance benchmarks for Nano Banana 2 and 2 Lite compared to competitor AI image models, evaluating trade-offs between generation/editing quality (Elo scores), processing latency and cost per 1K-resolution image. Nano Banana 2 Lite shines in: Latency: Delivers text-to-image outputs in 4 seconds. This makes it ideal for interactive prototyping and rapid visual drafting. Cost-efficiency ($0.034 per 1K image): A cost-efficient choice for developers focused on drafting, ideating, managing operational budgets or low-bandwidth usage. Despite prioritizing speed, Nano Banana 2 Lite retains reliable prompt adherence, strong character consistency and legible in-image text rendering. Understanding the Nano Banana family Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image): Built for speed. Optimized for near-real-time, high-volume workflows where ultra-low latency is critical. Nano Banana 2 (Gemini 3.1 Flash Image): The generalist workhorse. Delivers high quality at a lower latency, offering the best balance of performance and cost. Nano Banana Pro (Gemini 3 Pro Image): Optimized for complex, professional use cases. It provides the most robust control and advanced reasoning for tasks where accuracy is more important than speed. Nano Banana (Gemini 2.5 Flash Image): Our legacy model. We recommend upgrading to Nano Banana 2 Lite for better quality, faster speeds and lower costs. To see the full list of model capabilities and how to integrate check out the developer docs . Alongside its release on developer platforms, Nano Banana 2 Lite is also coming to Google consumer surfaces including AI Mode in Search, Gemini app, NotebookLM, Google Photos, Stitch, Google Flow, and Google Ads. Experience high-quality, cost-efficient video editing and generation with Gemini Omni Flash Watch as someone uses Gemini Omni to perform four digital magic tricks, like pulling a 3D balloon word out of her phone and pouring water from the screen into a glass. There is a small “original\" video in the corner revealing how she actually filmed the tricks before the Omni generated special effects were added. At Google I/O we introduced Gemini Omni Flash , the model where Gemini’s multimodal reasoning meets video generation and editing. Today, Gemini Omni Flash (gemini-omni-flash-preview) is rolling to developers via the Gemini API and Google AI Studio, natively supporting high-quality video generation and conversational editing from a combination of text, image and video inputs. This model is priced competitively at $0.10 per second of video output, which is the same as Veo 3.1 Fast. Omni Flash shines in: Conversational video editing: Refine and edit videos using natural language. Multimodal referencing: Combi",
       "tier": "T1",
-      "score": 78,
+      "score": 82,
       "aiSelected": true,
       "_style": "critic",
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Gemini 3.5 Flash 集成计算机使用功能",
+      "summary": "我注意到，Gemini 3.5 Flash 现在内置了计算机使用工具，允许开发者创建跨平台的智能代理。这一功能的集成显著提升了代理在浏览器、移动设备和桌面环境中的表现，特别是在长周期和企业自动化任务中。开发者可以通过 Gemini API 和 Gemini 企业代理平台开始使用这一新功能。",
+      "category": "ai-tools",
+      "tags": [
+        "Gemini 3.5",
+        "计算机使用",
+        "智能代理",
+        "企业自动化",
+        "开发者工具"
+      ],
+      "keyPoints": [
+        "Gemini 3.5 Flash 现在内置计算机使用功能，提升了代理的性能和可靠性。",
+        "这一功能之前仅在 Gemini 2.5 中作为独立模型存在，现在已全面集成。",
+        "开发者可以利用这一功能进行持续软件测试和知识工作，适用于专业应用。",
+        "Gemini 3.5 Flash 通过 API 和企业代理平台提供计算机使用的访问。",
+        "新版本采用针对性对抗训练，降低了在实时环境中使用的风险。"
+      ],
+      "background": "Gemini 3.5 Flash 的发布标志着 Google DeepMind 在智能代理领域的又一次重要进展。计算机使用功能的集成，使得开发者能够更高效地构建能够理解和执行复杂任务的智能代理。这一变化不仅提升了用户体验，也为企业提供了更强大的自动化解决方案。与之前版本相比，3.5 Flash 在功能调用和内置工具的使用上表现更为出色，尤其是在处理长周期任务时。",
+      "impact": "这一新功能将极大地影响开发者和企业的工作方式。开发者可以更轻松地创建智能代理，提升工作效率，减少手动操作的需求。企业则能够利用这一工具进行更高效的自动化，优化资源配置，提升整体生产力。此外，安全性措施的增强也为企业在使用智能代理时提供了更大的信心。",
+      "audience": [
+        "软件开发工程师",
+        "企业自动化专家",
+        "产品经理",
+        "数据科学家",
+        "IT 运维人员"
+      ],
+      "useCases": [
+        "利用 Gemini API 创建跨平台的智能代理，自动化日常任务。",
+        "在企业环境中实施持续软件测试，提高软件质量和发布效率。",
+        "通过计算机使用功能审计文档，确保无障碍访问。",
+        "结合安全措施，构建符合企业标准的智能代理。",
+        "使用 Gemini 3.5 Flash 进行复杂数据分析，生成可视化报告。"
+      ],
+      "risks": [
+        "API 使用可能涉及费用和配额限制，需提前评估成本。",
+        "在不同语言环境下的兼容性可能存在问题，需进行充分测试。",
+        "商用授权的限制可能影响企业的使用范围，需仔细阅读条款。",
+        "硬件要求可能较高，需确保设备能够支持新功能的运行。",
+        "在实时环境中使用时，仍需关注潜在的安全风险。"
+      ],
+      "reason": "这一更新为开发者提供了强大的工具，能够更高效地构建智能代理，值得关注。",
+      "scores": {
+        "importance": 85,
+        "novelty": 80,
+        "firsthand": 90,
+        "impact": 80,
+        "credibility": 85
+      },
+      "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
+      "source": "RSS · Google DeepMind",
+      "date": "2026-06-25",
+      "publishedAt": "2026-06-25T00:30",
+      "originalContent": "Introducing computer use in Gemini 3.5 Flash Jun 24, 2026 | x.com Facebook LinkedIn Mail Copy link Computer use is now a built-in tool in Gemini 3.5 Flash to build agents that can interact across platforms. Mateo Quiros Product Manager, Google DeepMind Share x.com Facebook LinkedIn Mail Copy link . Inlining them here makes them available in the DOM for the page. --> Your browser does not support the audio element. Listen to article [[duration]] minutes This content is generated by Google AI. Generative AI is experimental Voice Speed Voice Speed 0.75X 1X 1.5X 2X Computer use is now a built-in tool supported in Gemini 3.5 Flash, delivering our best performance yet for agentic computer use tasks. Previously only available as a standalone Gemini 2.5 computer use model, computer use is now integrated natively in the main Gemini Flash model. Gemini already excels at function calling and using built-in tools like Search and Maps grounding. With built-in computer use capability, developers can now use 3.5 Flash to reliably build custom agents that can see, reason and take action across browser, mobile and desktop environments. This unlocks improved performance for long-horizon and enterprise automation tasks like continuous software testing and knowledge work across professional applications. Developers and enterprises can start using computer use in 3.5 Flash via the Gemini API and Gemini Enterprise Agent Platform . 3.5 Flash uses computer use to analyse the Gemini app and return a categorized list of features. 3.5 Flash with computer use audits its own documentation for accessibility issues. Making computer use safe in 3.5 Flash To mitigate some of the prompt injection risks for agents operating in live environments, we use targeted adversarial training for computer use in Gemini 3.5 Flash. We’re also releasing two optional enterprise safeguard systems that enable enterprises to: Require explicit user confirmation for sensitive or irreversible actions. Automatically stop tasks if an indirect prompt injection is identified. Taking a “defense-in-depth” approach, we encourage developers to combine these features with secure sandboxing, human-in-the-loop verification and strict access controls. Additional information on safety measures can be found in our best practices documentation. We are already seeing customers drive value with computer use. Here’s what some of them have to say: To start building with computer use today: Try it now : Test the capabilities in a demo environment hosted by Browserbase. Start building : Dive into our reference implementation and documentation via Gemini API and Gemini Enterprise Agent Platform . Get the latest news from Google in your inbox Sign up for our newsletters with product updates, event information, special offers, and more. Done. Just one step more. Check your inbox to confirm your subscription. You can also subscribe with a different email address . Your information will be used in accordance with Google's privacy policy. You may opt out at any time. POSTED IN: Related stories AI The latest AI news we announced in June 2026 By News from Google Team Gemini models Start building with Nano Banana 2 Lite and Gemini Omni Flash By Alisa Fortin & Anish Nangia Gemini models Fluid, natural voice translation with Gemini 3.5 Live Translate By Anuda Weerasinghe & Tony Lu AI The latest AI news we announced in May 2026 By Blog Team AI How we used Gemini to build Google I/O 2026 By Marvin Chow Gemini models 9 demos of Gemini Omni and Gemini 3.5 in action By Zahra Thompson",
+      "tier": "T1",
+      "score": 84,
+      "aiSelected": true,
+      "_style": "recommender",
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "英国政府与谷歌 DeepMind 合作开发 AI 规划原型",
+      "summary": "2026 年 6 月 16 日，英国政府与谷歌 DeepMind 合作推出一款新的 AI 驱动的规划原型，旨在将房屋申请处理时间缩短 50%。该工具将帮助地方规划部门应对繁重的文书工作和行政积压，预计到 2027 年将向全国所有地方政府推广。",
+      "category": "ai-tools",
+      "tags": [
+        "AI 规划工具",
+        "房屋建设",
+        "谷歌 DeepMind",
+        "英国政府",
+        "行政效率"
+      ],
+      "keyPoints": [
+        "英国政府计划到 2029 年建造 150 万套新房，面临繁重的文书工作和行政积压。",
+        "新开发的 AI 规划原型旨在将房屋申请处理时间缩短 50%，提高规划效率。",
+        "该工具由谷歌 DeepMind 与地方政府合作开发，重点在 Barnet、Dorset 和 Camden 地区进行试点。",
+        "AI 规划工具将整合数据、识别政策、总结反馈，并草拟评估报告，助力规划官员决策。",
+        "Extract 工具已在 20 多个地方规划机构成功试用，预计每年为平均地方政府节省 255 小时的手动工作。"
+      ],
+      "background": "英国政府正在努力应对住房短缺问题，计划到 2029 年建造 150 万套新房。然而，地方规划部门常因繁重的文书工作和行政积压而延误审批。为了解决这一问题，英国政府与谷歌 DeepMind 合作，开发了一款新的 AI 规划原型，旨在通过自动化流程来加快房屋申请的处理速度。该原型的开发基于之前成功推出的 Extract 工具，后者能够将传统的规划文档转化为可用数据。",
+      "impact": "新 AI 规划工具的推出将显著提高地方政府的工作效率，帮助规划官员更快地处理房屋申请，尤其是占据大部分申请的简单案件，如阁楼改建和扩建。这将使他们能够将更多精力集中在复杂的公共利益申请上。此外，工具的推广预计将促进英国住房建设目标的实现，推动经济活动的增长。最终，居民将受益于更快速的审批流程，改善居住条件。",
+      "audience": [
+        "地方政府规划官员",
+        "建筑设计师",
+        "房地产开发商",
+        "政策制定者",
+        "城市规划研究者"
+      ],
+      "useCases": [
+        "利用 AI 规划工具快速处理房屋申请，提高行政效率。",
+        "通过 Extract 工具将传统文档转化为数字数据，减少手动输入。",
+        "在 Barnet、Dorset 和 Camden 地区进行 AI 规划工具的试点，收集反馈以优化功能。"
+      ],
+      "risks": [
+        "AI 规划工具的有效性依赖于数据质量，若数据不准确可能导致错误决策。",
+        "地方政府需确保对 AI 工具的使用进行适当的培训，以避免操作失误。",
+        "在推广过程中，可能面临不同地方政府对新技术的接受度差异，影响实施效果。"
+      ],
+      "reason": "该项目展示了 AI 在公共服务领域的应用潜力，尤其是在提高行政效率和加速住房建设方面。",
+      "scores": {
+        "importance": 85,
+        "novelty": 75,
+        "firsthand": 90,
+        "impact": 80,
+        "credibility": 85
+      },
+      "url": "https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/",
+      "source": "RSS · Google DeepMind",
+      "date": "2026-06-17",
+      "publishedAt": "2026-06-17T05:29",
+      "originalContent": "June 16, 2026 Responsibility & Safety Unlocking UK house-building with AI-accelerated planning Owen Larter and David Thacker Share New UK government AI planning prototype built with Gemini aims to halve the time it takes to process homeowner applications Around the world, Governments are exploring how AI can deliver better public services, faster. The UK is working to build 1.5 million new homes by 2029, but local planning authorities are often slowed down by dense paperwork and administrative backlogs. To help get Britain building, we’re partnering with the UK government to help radically shorten the time it takes to process householder planning applications. Our goal is to help officers cut application decision times by 50%, freeing up time for planners so that more homes can be built. We’re excited to see how our National Partnerships for AI , which seek to support reimagining of public services to create more resilient societies, can help Britain build faster. Co-creating a new AI planning tool for faster decisions Following the successful launch of Extract — a tool built with Gemini by the UK government's Incubator for AI (i.AI) — to help councils turn old planning documents into clear, digital data — we’re partnering to develop a sophisticated new planning prototype for councils. Google DeepMind is working alongside the UK government, Google Cloud, Faculty, and local planning authorities in Barnet, Dorset and Camden, to co-develop an AI-powered prototype that acts as a highly skilled assistant for planning officers, handling the heavy lifting of data extraction and case analysis. Working in close partnership will enable us to build an optimized tool, suited to the unique needs and day-to-day challenges that planners contend with every day. Following early trials in Barnet, Camden and Dorset, the government plans for the new AI planning tool to be made available to all councils nationally from 2027. For a typical new planning application, officers spend hours cross-referencing policy documents, historical files and PDFs. This manual process creates a major bottleneck. It is especially challenging given householder applications account for nearly 70% of planning applications each year. By reducing the time spent on straightforward cases like loft conversions or extensions, the prototype being tested in Barnet, Camden and Dorset could help planning officers focus more on complex applications for public benefit. The AI planning tool will streamline routine tasks using AI, by: Consolidating data: Pre-processing backlogs, highlighting data gaps and extracting key site information so planners can review everything on one screen. Identifying local policies: Highlighting relevant national and local policies, pre-assessing compliance and providing exact citations for the officer to verify. Summarizing feedback: Reviewing individual consultation letters to identify key objections or precedents. Drafting assessments: Creating a first draft of the final report, including the rationale and proposed conditions. Crucially, the planning officer remains in full control as the final decision-maker. They review every line the tool generates, edit the reasoning and retain the authority to approve or reject an application. To ensure accountability, the prototype records its work at every step, creating a clear chain of thought and a robust audit trail for every decision to support the planning officer. The tool’s ability to collect relevant information, undertake a provisional assessment, and draft the foundations of a report has the potential to save significant officer time spent working on the administration of planning applications and direct this to speeding up the decision-making process for residents. In turn, this will contribute significantly to delivering our house building growth targets in the borough. Naisha Polaine Executive Director for Growth at Barnet Council Scaling Extract: Turning legacy documents into usable data The AI planning tool builds on the foundations set by Extract — which was made available to every council in England earlier this month. Extract solves a common problem: critical planning information is often locked away in unstructured PDFs. Extract is able to turn hundreds of pages of legacy planning documents into usable data in minutes. Extract has already shown great success in trials across more than 20 local planning authorities — and is expected to save the average council around 255 hours of manual work a year. A planning tool for everyone Our goal is to create a more responsive and transparent planning tool that benefits everyone. By reducing the administrative burden on officers, we can accelerate the economic activity that comes with building and help more people improve their homes. As we move forward, we will continue to work together to ensure these tools help meet the evolving needs of the UK's planning ecosystem. We hope these developments will serve as a model for other gover",
+      "tier": "T1",
+      "score": 82,
+      "aiSelected": true,
+      "_style": "observer",
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "谷歌推出 AI 控制路线图以保障 AI 代理安全",
+      "summary": "谷歌推出的 AI 控制路线图结合传统安全措施与实时监控，旨在应对日益复杂的 AI 代理带来的安全挑战。预计到 2030 年，AI 代理将在美国创造 2.9 万亿美元的经济价值。",
+      "category": "ai-agents",
+      "tags": [
+        "AI安全",
+        "控制路线图",
+        "实时监控",
+        "经济价值",
+        "技术进步"
+      ],
+      "keyPoints": [
+        "谷歌的 AI 控制路线图为内部系统提供了一种新的安全框架，结合传统的安全措施与实时监控。",
+        "预计到 2030 年，AI 代理将在美国创造 2.9 万亿美元的经济价值，显示出其巨大的市场潜力。",
+        "该路线图采用了“深度防御”策略，超越传统模型对齐，增加系统级安全性。",
+        "通过将不受信任的 AI 代理视为潜在的“内部威胁”，谷歌建立了一种新的威胁建模框架。",
+        "监控系统使用其他可信的 AI 系统作为“监督者”，实时审查工作代理的推理和行为。"
+      ],
+      "background": "随着 AI 代理在技术领域的广泛应用，其能力不断提升，带来了新的安全挑战。谷歌的 AI 控制路线图旨在应对这些挑战，确保 AI 系统在执行复杂任务时的安全性。该路线图不仅结合了传统的安全措施，如沙箱和端点安全，还引入了实时监控机制，以应对潜在的误对齐问题。与以往的安全策略相比，这种方法更为全面，能够在 AI 代理行为不当时提供及时的干预。",
+      "impact": "谷歌的 AI 控制路线图将影响多个行业，尤其是科技、金融和医疗等领域。企业将能够更安全地部署 AI 代理，从而提升生产力和效率。此外，这一措施可能促使其他公司也采取类似的安全策略，形成行业标准。随着 AI 代理的普及，企业在决策时将更加重视安全性，减少潜在的风险和损失。",
+      "audience": [
+        "AI 安全工程师",
+        "企业 IT 管理者",
+        "金融科技开发者",
+        "医疗数据分析师",
+        "网络安全专家"
+      ],
+      "useCases": [
+        "实施实时监控，确保 AI 代理的行为符合预期，降低误操作风险。",
+        "利用威胁建模框架，识别和应对潜在的内部威胁，保护企业数据安全。",
+        "通过逐步授权的方式，建立对 AI 代理的信任，确保其在安全范围内操作。",
+        "在高风险场景下，实时阻止 AI 代理的有害行为，保护系统免受攻击。",
+        "定期评估 AI 系统的性能，确保其在监控和响应方面达到预定标准。"
+      ],
+      "risks": [
+        "AI 代理的误对齐可能导致意外的安全漏洞，企业需投入更多资源进行监控和修复。",
+        "实时监控系统的实施可能面临技术兼容性问题，影响现有系统的运行效率。",
+        "随着 AI 技术的快速发展，企业可能难以跟上安全措施的更新速度，导致潜在风险。",
+        "API 价格和配额的变化可能影响企业对 AI 服务的使用，增加运营成本。",
+        "在不同语言和文化背景下，AI 代理的表现可能不一致，增加了合规风险。"
+      ],
+      "reason": "谷歌的 AI 控制路线图为行业提供了一个全面的安全框架，值得关注其在 AI 代理安全性方面的创新。",
+      "scores": {
+        "importance": 85,
+        "novelty": 80,
+        "firsthand": 90,
+        "impact": 75,
+        "credibility": 85
+      },
+      "url": "https://deepmind.google/blog/securing-the-future-of-ai-agents/",
+      "source": "RSS · Google DeepMind",
+      "date": "2026-06-16",
+      "publishedAt": "2026-06-16T23:46",
+      "originalContent": "June 18, 2026 Responsibility & Safety Securing the future of AI agents Rohin Shah and Four Flynn Share How we’re securing internal systems against increasingly capable and imperfectly aligned AI AI agents are transforming our relationship with technology. By autonomously executing complex tasks — from cyber defence to scientific discovery and product development — these systems are unlocking a new era of productivity. In the U.S alone, AI agents could create $2.9 trillion in economic value by 2030. As these agents become more capable, they also require more sophisticated safeguards. That’s why we developed our AI Control Roadmap : a framework for building and managing the advanced AI we deploy within Google. This “defense-in-depth” approach, which could serve as a model for the wider industry, goes beyond traditional model alignment, adding a crucial layer of system-level security that provides assurance even if alignment is imperfect. Understanding AI Control Our approach to security starts with a strong foundation, incorporating traditional safeguards like sandboxing, endpoint security, and prompt injection resistance. On top of this, the AI Control Roadmap uses model alignment, i.e. training AI to be inherently safe and helpful, as a primary defense. It provides an additional layer of security by treating internal agents as potentially misaligned, providing assurance even if alignment is imperfect. Think of it like a driving instructor with dual controls. The instructor trusts the student but stays ready to take the wheel or hit the brakes if a mistake occurs. Similarly, our AI control system grants AI agents permissions based on their verified behavior, allowing us to build trust through controlled, incremental access. Our roadmap is built on a simple but cautious assumption: what if a highly capable AI agent isn’t aligned with our goals and acts in unexpected ways? To address this, our plan focuses on three key areas. First, following best practices in cybersecurity, we have developed a novel threat-modelling framework for AI. The roadmap treats untrusted AI agents as potential “insider threats” — similar to the way a company would treat a potential rogue employee who already has access to the office. By building on the industry-standard MITRE ATT&CK framework, a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations, we break down potential attacks into smaller tactics and techniques. This allows us to methodically track risks, spot bad behavior before it causes damage and safely run drills to test if our defenses actually hold up. Second, we develop a plan to deploy AI control mitigations to address these risks. Identifying the problem (Detection): Monitoring is the backbone of AI control. We use other, trusted AI systems as \"supervisors\" to constantly review a working agent's reasoning, actions and plans to see if it is going off track. Managing the problem (Prevention and Response): If a supervisor sees the agent trying to do something harmful, it can step in to block the action before damage occurs. Finally, to ensure our systems are functional, we constantly measure performance across three critical metrics: coverage (the fraction of traffic monitored), recall (the fraction of misaligned behaviors caught), and time-to-response. Scaling security as AI gets smarter As AI models continue to advance, our defenses must also strengthen in tandem. In our AI Control Roadmap, we map security protocols to measurable milestones in AI capabilities on two critical fronts: Ability to evade detection: Today, we monitor a model's visible chain-of-thought. However, as models learn to hide their reasoning — either through oversight awareness (knowing they are being monitored) or opaque reasoning (reasoning without using visible text) — simply reading their verbalized reasoning will not be enough. We will need to analyze their behavior and potentially inspect the model’s inner workings. Ability for potential harm: For low-risk and reversible actions, we can rely on reviewing transcripts with a delay and remediating issues quickly after they occur (asynchronous response). For particularly high-risk actions, such as major cyber attacks, we must shift to real-time prevention, blocking harmful actions before they can be executed (synchronous response). In other words, our response strategy must scale with the severity of the threat. Your browser does not support the video tag. The AI Control Roadmap recommends security measures based on the deployed model’s capability. The model’s detection evasion capability determines the Detection level (D1-D4), and the model’s attack execution capability determines the Prevention and Response level (R1-R3). Analyzing a million agent trajectories to inform live monitoring To build these systems, we need data. Our team has built an internal prototype of an asynchronous monitoring system that reviews coding agent trajectories, and escal",
+      "tier": "T1",
+      "score": 82,
+      "aiSelected": true,
+      "_style": "analyst",
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "DiffusionGemma 模型实现文本生成速度提升 4 倍",
+      "summary": "DiffusionGemma 是一款新发布的实验性开放模型，采用文本扩散技术，能够在专用 GPU 上实现最高 4 倍的文本生成速度。该模型通过并行生成文本块，打破了传统自回归语言模型逐字生成的限制，适用于需要快速响应的本地交互工作流。",
+      "category": "ai-models",
+      "tags": [
+        "文本生成",
+        "AI 模型",
+        "GPU 加速",
+        "交互式应用",
+        "技术创新"
+      ],
+      "keyPoints": [
+        "DiffusionGemma 是一个 26B 的专家混合模型，能够在专用 GPU 上实现每秒 1000+ 个标记的输出速度。",
+        "该模型在推理过程中仅激活 3.8B 参数，适合高端消费级 GPU 的 18GB VRAM 限制。",
+        "DiffusionGemma 采用双向注意力机制，允许并行生成 256 个标记，显著提升非线性文本生成的效率。",
+        "模型具备智能自我修正能力，能够实时评估并修正整个文本块的输出。",
+        "尽管速度提升显著，但整体输出质量低于标准的 Gemma 4 模型，适用于对速度要求高的研究和开发场景。"
+      ],
+      "background": "DiffusionGemma 的推出标志着文本生成领域的一次重要技术突破。传统的自回归语言模型通常逐字生成文本，导致在本地推理时 GPU 资源未能得到充分利用。DiffusionGemma 通过并行生成文本块，显著提高了生成速度，适应了实时交互应用的需求。与以往的模型相比，DiffusionGemma 采用了更为先进的硬件利用策略，能够在本地环境中实现更高的效率，尤其是在低并发的场景下表现突出。这一创新不仅为开发者提供了新的工具，也为文本生成技术的未来发展指明了方向。",
+      "impact": "DiffusionGemma 的发布将对多个领域产生深远影响。首先，实时交互式 AI 应用的开发者将受益于其显著降低的延迟，能够更快地响应用户需求。其次，教育、游戏和创意写作等行业的从业者可以利用该模型进行快速迭代和非线性文本结构的生成。此外，随着模型的普及，可能会推动更多基于文本生成的创新应用出现，进一步拓展 AI 在各个行业的应用场景。",
+      "audience": [
+        "AI 应用开发者",
+        "游戏设计师",
+        "教育技术工程师",
+        "内容创作者",
+        "数据科学家"
+      ],
+      "useCases": [
+        "在实时交互式应用中，利用 DiffusionGemma 进行快速文本生成，提升用户体验。",
+        "在游戏开发中，使用该模型生成动态故事情节，增强玩家沉浸感。",
+        "为教育平台提供即时反馈，通过模型生成个性化学习内容。",
+        "在创意写作中，快速生成多种文本版本，助力创作者灵感迸发。",
+        "在数据分析中，利用模型生成自然语言报告，简化数据解读过程。"
+      ],
+      "risks": [
+        "由于模型的实验性质，可能存在输出质量不稳定的风险，影响最终应用效果。",
+        "在商业应用中，可能面临 API 费用和使用配额的限制，增加运营成本。",
+        "模型的兼容性问题可能导致在不同硬件环境下表现不一，影响用户体验。",
+        "由于模型的开放性，可能存在安全和合规风险，需谨慎处理用户数据。",
+        "在特定语言或领域的应用中，模型可能无法提供足够的支持，限制其使用范围。"
+      ],
+      "reason": "DiffusionGemma 通过创新的文本生成方式，显著提升了生成速度，为开发者提供了全新的工具，值得关注。",
+      "scores": {
+        "importance": 85,
+        "novelty": 90,
+        "firsthand": 90,
+        "impact": 80,
+        "credibility": 85
+      },
+      "url": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
+      "source": "RSS · Google DeepMind",
+      "date": "2026-06-11",
+      "publishedAt": "2026-06-11T00:24",
+      "originalContent": "DiffusionGemma: 4x faster text generation Jun 10, 2026 | x.com Facebook LinkedIn Mail Copy link Our newest open experimental model delivers up to 4x faster inference on dedicated GPUs and opens the door to exploring speed-critical, interactive local workflows. Brendan O&#x27;Donoghue Research Scientist Sebastian Flennerhag Research Scientist Share x.com Facebook LinkedIn Mail Copy link Today, we’re introducing DiffusionGemma, an experimental open model that explores text diffusion, an exceptionally fast approach to text generation. Released under an Apache 2.0 license, this 26B Mixture of Experts (MoE) model moves beyond the sequential token-by-token processing of typical autoregressive Large Language Models (LLMs). Instead, it generates entire blocks of text simultaneously, delivering up to 4x faster text generation on GPUs. Built upon the industry-leading intelligence-per-parameter of our Gemma 4 family and cutting-edge Gemini Diffusion research , DiffusionGemma integrates a novel diffusion head designed to maximize generation speed. While autoregressive Gemma 4 models remain the standard for high-quality production outputs, DiffusionGemma is designed for researchers and developers exploring speed-critical, interactive local workflows such as in-line editing, rapid iteration, and generating non-linear text structures. Unlocking new value for developers Developers building real-time interactive AI applications often struggle with the latency bottlenecks of local inference. DiffusionGemma addresses these challenges directly, with some key trade-offs: Blazing fast inference: By shifting the decode bottleneck from memory-bandwidth to compute, DiffusionGemma generates up to 4x faster token output on dedicated GPUs. (1000+ tokens per second on a single NVIDIA H100, 700+ tokens per second on NVIDIA GeForce RTX 5090). 1 Accessible hardware footprint: Operating as a 26B total Mixture of Experts (MoE) model that activates only 3.8B parameters during inference, DiffusionGemma fits comfortably within 18GB VRAM limits of high-end dedicated consumer GPUs when quantized. Bi-directional attention : Generating 256 tokens in parallel with each forward pass allows every token to attend to all others. This provides significant advantages for non-linear domains such as in-line editing, code infilling, amino acid sequences or mathematical graphs. Intelligent self-correction: The model iteratively refines its own output, allowing it to evaluate the entire text block at once to fix mistakes in real-time. Experimental status & production recommendations: Because it prioritizes speed and parallel layout generation, DiffusionGemma’s overall output quality is lower than standard Gemma 4. For applications that demand maximum quality, we recommend deploying standard Gemma 4. You can improve DiffusionGemma's performance on specific tasks through fine-tuning. In the example below, Unsloth fine-tuned DiffusionGemma to play Sudoku — a task autoregressive models struggle with because each token depends on future tokens. DiffusionGemma's bi-directional attention makes this much easier. Fine-tuned DiffusionGemma solving Sudoku. Why diffusion for text? While the AI research community has explored diffusion-based text generation for years, applying it to large models has remained a challenge. DiffusionGemma changes this by shifting how models use hardware. The trade-off with traditional models Most language models act like a typewriter, generating one token at a time from left to right. In the cloud, this is efficient because servers can batch thousands of user requests together to share the hardware load. But when run locally for a single user, this word-by-word process leaves your dedicated GPU or TPU underutilized — it spends most of its time simply waiting for the next \"keystroke.\" DiffusionGemma reverses this inefficiency. Instead of predicting words sequentially, it drafts an entire 256-token paragraph simultaneously. By giving the computer's processor a larger chunk of work at once, DiffusionGemma utilizes your hardware to its full potential. It upgrades your model inference from a single, sequential typewriter to a massive printing press that stamps the entire block of text simultaneously. DiffusionGemma text-to-3D SVG demo by Hugging Face. Step-by-step generation. This means DiffusionGemma's speedup is designed for local and low-concurrency inference. In high-QPS cloud serving, autoregressive models can be deployed to saturate compute efficiently, so DiffusionGemma's parallel decoding offers diminishing returns and can result in higher serving costs. The throughput advantage is strongest at low-to-medium batch sizes on a single accelerator. How text diffusion works Similar to AI image generators that start with visual static and iteratively refine it into a clear picture, DiffusionGemma applies this to text: The canvas: The model starts with a canvas of random placeholder tokens. Iterative refinement: The model makes multiple passes, ",
+      "tier": "T1",
+      "score": 86,
+      "aiSelected": true,
+      "_style": "analyst",
       "moduleTargets": [
         "news"
       ],
@@ -4046,205 +4298,58 @@ window.AI_GENERATED_DATA = {
   ],
   "githubWeekly": [
     {
-      "name": "NousResearch/hermes-agent",
+      "name": "usestrix/strix",
       "lang": "Python",
       "category": "Agent 框架",
-      "description": "这是一个为开发者提供的智能代理工具，能够随着用户需求不断成长，支持多种功能。",
-      "details": "Hermes Agent 是一个灵活的智能代理框架，旨在帮助开发者构建和扩展自己的智能应用。与其他同类产品（如 Rasa 和 Botpress）相比，Hermes Agent 提供了更高的可定制性和扩展性，允许用户根据特定需求调整代理行为。该项目使用 Python 编写，采用 MIT 许可证，适合希望快速构建智能代理的开发者使用，而不推荐给对定制化需求不高的用户。",
+      "description": "这是一个开源的 AI 渗透测试工具，帮助开发者发现和修复应用程序的漏洞，具备自动化测试功能。",
+      "details": "Strix 是一个专为开发者设计的渗透测试工具，旨在帮助用户识别和修复应用程序中的安全漏洞。与其他渗透测试工具（如 Burp Suite 和 OWASP ZAP）相比，Strix 提供了更为自动化的测试流程，减少了手动操作的需求。该项目使用 Python 编写，遵循 MIT 许可证，适合安全研究人员和开发者使用，但不推荐给初学者，因为需要一定的安全知识背景。",
       "features": [
-        "支持多种智能代理功能",
-        "灵活的插件系统",
-        "易于与现有应用集成",
-        "提供丰富的文档和示例",
-        "支持多种数据源接入"
+        "自动化漏洞扫描",
+        "支持多种应用程序类型",
+        "集成报告生成",
+        "可扩展插件架构",
+        "实时漏洞修复建议"
       ],
       "useCases": [
-        "构建个性化的客户服务代理",
-        "实现自动化的任务调度",
-        "集成第三方 API 提供智能响应"
+        "执行自动化渗透测试以发现应用漏洞",
+        "生成详细的安全报告供团队审查",
+        "集成到 CI/CD 流程中进行持续安全测试"
       ],
       "quickStart": [
-        "git clone https://github.com/NousResearch/hermes-agent.git",
-        "cd hermes-agent",
+        "git clone https://github.com/usestrix/strix.git",
+        "cd strix",
         "pip install -r requirements.txt",
-        "python main.py"
+        "python strix.py --target <your_app_url>",
+        "查看生成的报告以获取漏洞信息"
       ],
-      "why": "Hermes Agent 在 GitHub 上获得了 217615 stars，显示出其广泛的社区支持和活跃度。该项目通过灵活的架构和丰富的功能，满足了开发者对智能代理的多样化需求，适合希望快速实现智能应用的团队。",
+      "why": "Strix 以其高效的自动化测试能力和灵活的插件架构脱颖而出，适合快速发现应用漏洞。项目目前拥有 42840 stars，显示出活跃的社区支持和广泛的使用基础。与传统工具相比，Strix 提供了更为便捷的集成方式，适合现代开发环境。",
       "tags": [
-        "智能代理",
-        "开发工具",
-        "Python"
-      ],
-      "url": "https://github.com/NousResearch/hermes-agent",
-      "stars": "217615 stars",
-      "source": "GitHub Search · 2026-07-20",
-      "date": "2026-07-20"
-    },
-    {
-      "name": "santifer/career-ops",
-      "lang": "JavaScript",
-      "category": "LLM 应用平台",
-      "description": "这是一个开源的 AI 求职工具，能够扫描招聘网站并为职位评分，帮助用户定制简历。",
-      "details": "career-ops 解决了求职者在海量职位信息中筛选和申请的难题。与其他求职工具相比，如 LinkedIn 和 Indeed，career-ops 提供了更高的自动化和个性化体验。该项目使用 JavaScript 开发，采用 MIT 许可证，适合希望利用 AI 提升求职效率的开发者和求职者。不推荐对技术不熟悉的用户，因为需要一定的命令行操作能力。",
-      "features": [
-        "扫描多个招聘网站获取职位信息",
-        "为职位列表打分，便于筛选",
-        "支持简历定制和跟踪申请进度",
-        "可在本地 AI 编程 CLI 中运行",
-        "兼容多种 AI 模型，如 Claude Code 和 Codex"
-      ],
-      "useCases": [
-        "扫描招聘网站并获取职位信息",
-        "根据评分筛选适合的职位",
-        "定制简历以匹配职位要求",
-        "跟踪申请状态和进度"
-      ],
-      "quickStart": [
-        "从 GitHub 克隆项目：git clone https://github.com/santifer/career-ops.git",
-        "进入项目目录：cd career-ops",
-        "安装依赖：npm install",
-        "运行程序：npm start"
-      ],
-      "why": "career-ops 以其高效的职位扫描和评分系统脱颖而出，当前已有 60689 stars，显示出良好的社区支持。相比于传统求职平台，它提供了更为灵活和个性化的求职方式，适合希望利用 AI 技术提升求职效率的用户。",
-      "tags": [
-        "求职工具",
-        "AI 应用",
+        "渗透测试",
+        "安全工具",
         "开源项目"
       ],
-      "url": "https://github.com/santifer/career-ops",
-      "stars": "60689 stars",
-      "source": "GitHub Search · 2026-07-20",
-      "date": "2026-07-20"
-    },
-    {
-      "name": "OpenBMB/StaffDeck",
-      "lang": "Python",
-      "category": "MCP 服务",
-      "description": "这是一个企业数字员工平台，帮助企业高效管理员工信息，支持多种功能。",
-      "details": "StaffDeck 是一个专为企业设计的数字员工平台，旨在简化员工管理和信息流通。与其他同类产品如 BambooHR 和 Gusto 相比，StaffDeck 提供了更灵活的自定义选项和更强的集成能力。该项目使用 Python 开发，采用开源许可证，适合希望提升员工管理效率的企业使用，但不推荐给需要复杂人力资源管理功能的小型企业。",
-      "features": [
-        "支持员工信息的集中管理",
-        "提供自定义报告和分析功能",
-        "集成多种第三方服务",
-        "支持多用户角色和权限管理",
-        "提供 API 接口供开发者扩展"
-      ],
-      "useCases": [
-        "管理企业员工档案和考勤记录",
-        "生成员工绩效报告",
-        "集成 Slack 进行团队沟通",
-        "通过 API 接入其他企业管理工具"
-      ],
-      "quickStart": [
-        "git clone https://github.com/OpenBMB/StaffDeck.git",
-        "cd StaffDeck",
-        "pip install -r requirements.txt",
-        "python app.py"
-      ],
-      "why": "StaffDeck 以其灵活的自定义选项和强大的集成功能脱颖而出，当前已有 394 stars，显示出良好的社区支持和活跃度。相比于其他同类产品，StaffDeck 更加注重用户体验和功能扩展，适合多种企业需求。",
-      "tags": [
-        "企业管理",
-        "数字化",
-        "员工平台"
-      ],
-      "url": "https://github.com/OpenBMB/StaffDeck",
-      "stars": "394 stars",
-      "source": "GitHub · 面壁智能 MiniCPM",
-      "date": "2026-07-20"
-    },
-    {
-      "name": "open-webui/open-webui",
-      "lang": "Python",
-      "category": "AI 编辑器",
-      "description": "这是一个用户友好的 AI 界面，支持 Ollama 和 OpenAI API，方便用户快速接入 AI 功能。",
-      "details": "open-webui 提供了一个直观的界面，旨在简化 AI 应用的开发和使用。与其他同类工具（如 Streamlit 和 Gradio）相比，它更注重用户体验和易用性。该项目使用 Python 开发，采用 MIT 许可证，适合开发者、研究人员和 AI 爱好者使用，但不推荐给完全没有编程基础的用户。",
-      "features": [
-        "支持 Ollama 和 OpenAI API",
-        "提供可视化界面",
-        "支持多种 AI 模型接入",
-        "易于定制和扩展",
-        "兼容多种操作系统"
-      ],
-      "useCases": [
-        "快速搭建 AI 聊天机器人",
-        "集成 OpenAI API 进行文本生成",
-        "创建自定义的 AI 应用程序界面"
-      ],
-      "quickStart": [
-        "git clone https://github.com/open-webui/open-webui.git",
-        "cd open-webui",
-        "pip install -r requirements.txt",
-        "python app.py",
-        "在浏览器中访问 http://localhost:5000"
-      ],
-      "why": "open-webui 拥有超过 146070 个星标，表明其在开发者社区中的受欢迎程度。它的用户友好界面和灵活的 API 支持，使其在众多 AI 编辑器中脱颖而出，适合快速开发和原型设计。",
-      "tags": [
-        "AI 编辑器",
-        "用户界面",
-        "Python",
-        "Ollama",
-        "OpenAI"
-      ],
-      "url": "https://github.com/open-webui/open-webui",
-      "stars": "146070 stars",
-      "source": "GitHub Search · 2026-07-20",
-      "date": "2026-07-20"
-    },
-    {
-      "name": "OpenBMB/PilotDeck",
-      "lang": "TypeScript",
-      "category": "Agent 框架",
-      "description": "这是一个面向任务的 AI 代理生产力平台，适合需要高效管理任务的开发者和团队，支持多种集成。",
-      "details": "PilotDeck 提供了一种高效的方式来管理和执行任务，特别适合开发者和团队使用。与其他同类工具（如 Notion 和 Trello）相比，PilotDeck 更加专注于 AI 代理的集成，能够自动化任务处理。该项目使用 TypeScript 开发，采用 MIT 许可证，适合希望将 AI 代理引入工作流程的用户。不推荐对 AI 代理没有需求的用户。",
-      "features": [
-        "集成多种 AI 代理",
-        "支持任务自动化",
-        "提供可视化任务管理界面",
-        "支持自定义插件",
-        "兼容多种 API"
-      ],
-      "useCases": [
-        "创建自定义 AI 代理来处理日常任务",
-        "集成现有工具以提高工作效率",
-        "自动化项目管理流程",
-        "实时监控任务进度",
-        "生成任务报告"
-      ],
-      "quickStart": [
-        "git clone https://github.com/OpenBMB/PilotDeck.git",
-        "cd PilotDeck",
-        "npm install",
-        "npm run start",
-        "访问 http://localhost:3000"
-      ],
-      "why": "PilotDeck 通过将任务管理与 AI 代理结合，提供了独特的解决方案。该项目目前拥有 3853 stars，显示出其在开发者社区中的受欢迎程度。其技术栈基于 TypeScript，确保了代码的可维护性和扩展性。活跃的社区支持和持续的更新使其在同类产品中脱颖而出。",
-      "tags": [
-        "AI 代理",
-        "任务管理",
-        "生产力工具"
-      ],
-      "url": "https://github.com/OpenBMB/PilotDeck",
-      "stars": "3853 stars",
-      "source": "GitHub · 面壁智能 MiniCPM",
-      "date": "2026-07-20"
+      "url": "https://github.com/usestrix/strix",
+      "stars": "42840 stars",
+      "source": "GitHub Search · 2026-07-21",
+      "date": "2026-07-21"
     },
     {
       "name": "ZhuLinsen/daily_stock_analysis",
       "lang": "Python",
       "category": "LLM 应用平台",
-      "description": "这是一个多市场股票智能分析工具，适合投资者和分析师使用，支持零成本定时运行。",
-      "details": "该项目提供了一个 LLM 驱动的多市场股票分析系统，整合了多源行情和实时新闻，用户可以通过决策看板获取重要信息并接收自动推送通知。与同类产品如 Alpha Vantage 和 Yahoo Finance 相比，该系统的优势在于其自动化和多市场支持，能够为用户提供更全面的分析视角。技术栈包括 Python，项目采用 MIT 许可证，适合希望提高股票分析效率的投资者和分析师，不推荐对自动化需求不高的用户。",
+      "description": "这是一个为投资者提供多市场股票分析的工具，支持实时数据和自动推送。",
+      "details": "该项目解决了投资者在多市场股票分析中面临的信息碎片化和决策延迟的问题。与同类产品如 Alpha Vantage 和 Yahoo Finance 相比，它集成了多源行情和实时新闻，提供决策看板和自动通知功能。技术栈使用 Python，许可证为 MIT，适合需要实时数据分析的投资者和金融分析师，不推荐对实时数据需求不高的用户。",
       "features": [
         "集成多源市场数据",
         "实时新闻推送",
         "决策看板展示",
-        "支持零成本定时运行",
-        "自动化通知功能"
+        "支持定时自动运行",
+        "用户友好的界面"
       ],
       "useCases": [
         "分析多市场股票趋势",
-        "接收实时市场新闻",
-        "生成股票决策报告"
+        "实时获取市场新闻",
+        "生成投资决策报告"
       ],
       "quickStart": [
         "git clone https://github.com/ZhuLinsen/daily_stock_analysis.git",
@@ -4252,251 +4357,34 @@ window.AI_GENERATED_DATA = {
         "pip install -r requirements.txt",
         "python main.py"
       ],
-      "why": "该项目在 GitHub 上拥有 58003 stars，显示出其受欢迎程度和社区活跃度。与其他同类产品相比，它提供了更为全面的市场数据整合和自动化功能，适合需要实时分析的用户。",
+      "why": "该项目在 GitHub 上拥有 58009 stars，显示出其广泛的社区认可度。与其他竞品相比，它提供了更全面的市场数据整合和实时通知功能，适合需要高效决策支持的用户。项目更新频繁，社区活跃，能够及时响应用户需求。",
       "tags": [
         "股票分析",
-        "自动化",
-        "实时数据"
+        "实时数据",
+        "投资工具"
       ],
       "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
-      "stars": "58003 stars",
-      "source": "GitHub Search · 2026-07-20",
-      "date": "2026-07-20"
-    },
-    {
-      "name": "THUDM/slime",
-      "lang": "Python",
-      "category": "Agent 框架",
-      "description": "slime 是一个用于 RL 扩展的 LLM 后训练框架，适合研究人员和开发者使用，支持高效的模型调优。",
-      "details": "slime 解决了大规模强化学习模型后训练的复杂性，提供了灵活的接口和高效的训练流程。与其他框架如 Hugging Face 的 Transformers 相比，slime 更专注于强化学习的后处理，能够更好地适应动态环境。该项目使用 Python 开发，采用 MIT 许可证，适合希望在 RL 领域进行深入研究的开发者，不推荐初学者使用。",
-      "features": [
-        "支持多种 LLM 模型后训练",
-        "提供灵活的训练配置选项",
-        "集成多种 RL 算法",
-        "支持分布式训练",
-        "兼容现有的 Python 生态"
-      ],
-      "useCases": [
-        "在本地环境中训练自定义 LLM 模型",
-        "优化 RL 模型以提高决策效率",
-        "进行大规模实验以评估模型性能"
-      ],
-      "quickStart": [
-        "git clone https://github.com/THUDM/slime.git",
-        "cd slime",
-        "pip install -r requirements.txt",
-        "python train.py --config config.yaml",
-        "python evaluate.py --model model_path"
-      ],
-      "why": "slime 以 7550 stars 在 GitHub 上获得了广泛关注，社区活跃，持续更新。它的设计专注于后训练阶段，提供了比传统框架更高的灵活性和效率，特别适合需要快速迭代和实验的研究者。",
-      "tags": [
-        "强化学习",
-        "后训练",
-        "模型优化"
-      ],
-      "url": "https://github.com/THUDM/slime",
-      "stars": "7550 stars",
-      "source": "GitHub · 智谱 GLM",
-      "date": "2026-07-20"
-    },
-    {
-      "name": "MiniMax-AI/cli",
-      "lang": "TypeScript",
-      "category": "AI 编辑器",
-      "description": "这是一个生成文本、图像、视频、语音和音乐的工具，适合创作者和开发者使用，支持多种媒体格式。",
-      "details": "MiniMax-AI/cli 是一个多功能生成工具，旨在帮助用户轻松创建各种类型的内容。与其他同类工具（如 OpenAI 的 DALL-E 和 GPT 系列）相比，它提供了更灵活的媒体生成选项，支持文本、图像、视频、语音和音乐的生成。该项目使用 TypeScript 开发，遵循 MIT 许可证，适合开发者和创作者使用，而不推荐给只需简单文本生成的用户。",
-      "features": [
-        "支持文本、图像、视频、语音和音乐生成",
-        "兼容多种输入格式",
-        "提供丰富的 API 接口",
-        "支持自定义模型训练",
-        "可扩展性强，适合开发者"
-      ],
-      "useCases": [
-        "生成社交媒体内容并自动发布",
-        "创建视频脚本和配乐",
-        "生成个性化的语音助手回复"
-      ],
-      "quickStart": [
-        "git clone https://github.com/MiniMax-AI/cli.git",
-        "cd cli",
-        "npm install",
-        "npm start"
-      ],
-      "why": "MiniMax-AI/cli 拥有近 2000 个星标，显示出其在开发者社区中的受欢迎程度。它的多媒体生成能力使其在同类工具中脱颖而出，尤其适合需要多种内容生成的用户。该项目活跃更新，技术栈现代，适合追求高效创作的团队。",
-      "tags": [
-        "文本生成",
-        "图像生成",
-        "视频生成",
-        "语音生成",
-        "音乐生成"
-      ],
-      "url": "https://github.com/MiniMax-AI/cli",
-      "stars": "1988 stars",
-      "source": "GitHub · MiniMax",
-      "date": "2026-07-20"
-    },
-    {
-      "name": "Lightning-AI/pytorch-lightning",
-      "lang": "Python",
-      "category": "推理引擎",
-      "description": "这是一个用于在 1 到 10,000+ 个 GPU 上预训练和微调任何规模 AI 模型的工具，支持零代码更改。",
-      "details": "PyTorch Lightning 是一个高层次的 PyTorch 封装，旨在简化深度学习模型的训练过程。它解决了传统 PyTorch 训练代码冗长、难以维护的问题。与其他框架如 TensorFlow 和 Keras 相比，PyTorch Lightning 提供了更灵活的模型定义和训练流程，同时保持了 PyTorch 的易用性。该项目使用 Python 编写，采用 MIT 许可证，适合研究人员和开发者使用，但不推荐初学者，因为需要一定的深度学习基础。",
-      "features": [
-        "支持多 GPU 训练",
-        "自动化训练循环",
-        "集成 TensorBoard 可视化",
-        "支持混合精度训练",
-        "兼容 PyTorch 生态系统"
-      ],
-      "useCases": [
-        "在多个 GPU 上并行训练大型模型",
-        "快速实验不同的模型架构",
-        "使用 TensorBoard 监控训练过程"
-      ],
-      "quickStart": [
-        "pip install pytorch-lightning",
-        "导入库：import pytorch_lightning as pl",
-        "定义模型类，继承自 pl.LightningModule",
-        "创建 Trainer 实例并调用 fit 方法",
-        "使用 Trainer.test() 进行模型评估"
-      ],
-      "why": "PyTorch Lightning 以其 31241 个星标在 GitHub 上展现了强大的社区支持，提供了灵活的训练框架，适合各种规模的模型。与 TensorFlow 和 Keras 相比，它更贴近 PyTorch 的原生体验，适合需要高度自定义的用户。其活跃的开发和更新频率保证了技术的前沿性。",
-      "tags": [
-        "深度学习",
-        "PyTorch",
-        "GPU训练"
-      ],
-      "url": "https://github.com/Lightning-AI/pytorch-lightning",
-      "stars": "31241 stars",
-      "source": "GitHub Search · 2026-07-20",
-      "date": "2026-07-20"
-    },
-    {
-      "name": "hacksider/Deep-Live-Cam",
-      "lang": "Python",
-      "category": "视频生成",
-      "description": "这是一个实时人脸交换和一键视频深度伪造工具，适合需要快速生成深度伪造内容的用户。",
-      "details": "Deep-Live-Cam 解决了传统视频编辑工具在实时性和易用性上的不足，用户只需提供一张图片即可实现人脸交换和视频深度伪造。与其他深度伪造工具（如 Zao 和 Reface）相比，Deep-Live-Cam 更加注重实时性和用户体验。该项目使用 Python 开发，采用开源许可证，适合开发者和内容创作者尝试，不推荐对深度伪造技术持保留态度的用户。",
-      "features": [
-        "实时人脸交换功能",
-        "一键生成深度伪造视频",
-        "仅需一张图片即可操作",
-        "支持多种视频格式",
-        "开源许可证，便于二次开发"
-      ],
-      "useCases": [
-        "生成个性化的社交媒体视频",
-        "制作娱乐短片或搞笑视频",
-        "进行人脸识别技术的研究和测试"
-      ],
-      "quickStart": [
-        "git clone https://github.com/hacksider/Deep-Live-Cam.git",
-        "cd Deep-Live-Cam",
-        "pip install -r requirements.txt",
-        "python app.py"
-      ],
-      "why": "Deep-Live-Cam 在实时性和易用性上表现突出，拥有 95017 stars，说明其受欢迎程度和社区活跃度。相比于其他深度伪造工具，Deep-Live-Cam 更加注重用户体验，适合快速生成高质量的深度伪造内容。",
-      "tags": [
-        "深度伪造",
-        "人脸交换",
-        "视频生成"
-      ],
-      "url": "https://github.com/hacksider/Deep-Live-Cam",
-      "stars": "95017 stars",
-      "source": "GitHub Search · 2026-07-20",
-      "date": "2026-07-20"
-    },
-    {
-      "name": "firecrawl/firecrawl",
-      "lang": "TypeScript",
-      "category": "推理引擎",
-      "description": "这是一个用于大规模搜索、抓取和与网络交互的 API，支持高效的数据获取。",
-      "details": "Firecrawl 提供了一种高效的方式来搜索和抓取网页内容，适合需要处理大量数据的开发者和数据科学家。与其他抓取工具（如 Scrapy 和 Puppeteer）相比，Firecrawl 更加注重 API 的灵活性和可扩展性，支持大规模并发请求。该项目使用 TypeScript 开发，遵循 MIT 许可证，适合希望快速构建网络爬虫的开发者。不推荐对网络抓取不熟悉的初学者使用。",
-      "features": [
-        "支持大规模并发请求",
-        "灵活的 API 设计",
-        "内置数据解析功能",
-        "支持多种数据格式输出",
-        "易于与其他工具集成"
-      ],
-      "useCases": [
-        "抓取电商网站的产品信息",
-        "获取新闻网站的最新文章",
-        "分析社交媒体数据",
-        "监控竞争对手的网站变化"
-      ],
-      "quickStart": [
-        "git clone https://github.com/firecrawl/firecrawl.git",
-        "cd firecrawl",
-        "npm install",
-        "npm start",
-        "访问 API 文档进行配置"
-      ],
-      "why": "Firecrawl 以其灵活的 API 和高效的并发处理能力脱颖而出，适合大规模数据抓取。项目目前拥有 153418 stars，显示出其在开发者社区中的受欢迎程度。使用 TypeScript 开发，确保了代码的可维护性和可扩展性。",
-      "tags": [
-        "网络抓取",
-        "数据采集",
-        "API"
-      ],
-      "url": "https://github.com/firecrawl/firecrawl",
-      "stars": "153418 stars",
-      "source": "GitHub Search · 2026-07-20",
-      "date": "2026-07-20"
-    },
-    {
-      "name": "f/prompts.chat",
-      "lang": "HTML",
-      "category": "AI 编辑器",
-      "description": "这是一个供社区分享、发现和收集 ChatGPT 提示的工具，支持自托管，确保隐私。",
-      "details": "f/prompts.chat 是一个开源项目，旨在帮助用户收集和分享 ChatGPT 提示。与其他类似工具（如 PromptBase）相比，它提供了更强的社区互动和自托管选项，确保用户数据的隐私。该项目使用 HTML 语言构建，采用 MIT 许可证，适合希望在本地环境中运行的团队和组织。不推荐给不需要自托管或对隐私不敏感的用户。",
-      "features": [
-        "支持社区提示分享和发现",
-        "提供自托管选项，确保数据隐私",
-        "开源，允许用户自由修改和分发",
-        "用户友好的界面，易于使用",
-        "支持多种提示格式和分类"
-      ],
-      "useCases": [
-        "收集和整理团队内部的 ChatGPT 提示",
-        "分享最佳实践和提示给社区",
-        "自托管以满足企业隐私需求"
-      ],
-      "quickStart": [
-        "git clone https://github.com/f/prompts.chat.git",
-        "cd prompts.chat",
-        "npm install",
-        "npm start",
-        "访问 http://localhost:3000"
-      ],
-      "why": "f/prompts.chat 拥有超过 166058 个星标，显示出其广泛的社区支持和活跃度。与其他工具相比，它的自托管功能和社区互动使其在隐私和用户体验上更具优势。该项目的开源特性也鼓励了更多的开发者参与和贡献。",
-      "tags": [
-        "ChatGPT",
-        "提示收集",
-        "开源工具"
-      ],
-      "url": "https://github.com/f/prompts.chat",
-      "stars": "166058 stars",
-      "source": "GitHub Search · 2026-07-20",
-      "date": "2026-07-20"
+      "stars": "58009 stars",
+      "source": "GitHub Search · 2026-07-21",
+      "date": "2026-07-21"
     },
     {
       "name": "simstudioai/sim",
       "lang": "TypeScript",
       "category": "Agent 框架",
-      "description": "这是一个构建、部署和编排 AI 代理的工具，亮点是提供了集中智能层以管理 AI 劳动力。",
-      "details": "Sim 是一个专为 AI 代理设计的框架，解决了 AI 劳动力管理的复杂性。与其他同类产品如 OpenAI 的 Gym 和 Ray 相比，Sim 提供了更灵活的部署选项和更强的编排能力。该项目使用 TypeScript 开发，采用 MIT 许可证，适合开发者和企业使用，但不推荐初学者尝试。",
+      "description": "这是一个用于构建、部署和编排 AI 代理的工具，亮点是提供中央智能层以管理 AI 劳动力。",
+      "details": "Sim 是一个专注于 AI 代理的框架，旨在简化 AI 劳动力的管理与部署。与其他同类产品（如 OpenAI 的 API 和 Hugging Face 的 Transformers）相比，Sim 提供了更灵活的代理编排能力，支持多种 AI 模型的集成。该项目使用 TypeScript 开发，采用 MIT 许可证，适合开发者和企业使用，但不推荐初学者尝试。",
       "features": [
-        "支持多种 AI 代理的构建和管理",
-        "提供集中智能层以协调代理行为",
-        "支持自定义工作流和任务调度",
-        "兼容主流 AI 模型和框架",
-        "提供可扩展的插件系统"
+        "支持多种 AI 模型的集成",
+        "提供中央智能层管理 AI 代理",
+        "支持自定义代理行为",
+        "简化 AI 部署流程",
+        "提供实时监控与分析"
       ],
       "useCases": [
-        "构建自定义 AI 代理进行数据分析",
-        "部署多种 AI 代理进行实时监控",
-        "编排多个 AI 代理协同工作以完成复杂任务"
+        "构建自定义 AI 代理进行客户服务",
+        "部署 AI 代理进行数据分析",
+        "编排多个 AI 代理进行协作任务"
       ],
       "quickStart": [
         "git clone https://github.com/simstudioai/sim.git",
@@ -4505,629 +4393,34 @@ window.AI_GENERATED_DATA = {
         "npm run build",
         "npm start"
       ],
-      "why": "Sim 以其 29171 星的社区支持和活跃度，提供了一个灵活的框架来管理 AI 代理。与其他框架相比，Sim 的集中智能层设计使得代理之间的协作更加高效，适合需要高效管理 AI 劳动力的企业和开发者。",
+      "why": "Sim 拥有超过 29171 个星标，显示出其在开发者社区中的受欢迎程度。它的灵活性和强大的编排能力使其在众多 AI 代理框架中脱颖而出，适合需要高效管理 AI 劳动力的企业使用。",
       "tags": [
         "AI 代理",
-        "智能管理",
-        "TypeScript"
+        "TypeScript",
+        "智能管理"
       ],
       "url": "https://github.com/simstudioai/sim",
       "stars": "29171 stars",
-      "source": "GitHub Search · 2026-07-20",
-      "date": "2026-07-20"
-    },
-    {
-      "name": "OpenBMB/MiniCPM-o-Demo",
-      "lang": "Python",
-      "category": "推理引擎",
-      "description": "这是一个为研究人员和开发者提供的 MiniCPM-o 4.5 的完整功能 Web 演示工具，支持 PyTorch 和 CUDA。",
-      "details": "MiniCPM-o-Demo 解决了高效文本生成和处理的问题，特别适合需要快速原型开发的用户。与其他类似工具（如 Hugging Face 的 Transformers）相比，MiniCPM-o 提供了更高的灵活性和可定制性。该项目基于 PyTorch 和 CUDA，采用 MIT 许可证，推荐给希望在本地环境中进行大规模语言模型实验的开发者，不推荐给对性能要求不高的用户。",
-      "features": [
-        "支持 PyTorch 和 CUDA 加速",
-        "提供完整的 Web 演示界面",
-        "支持多种文本生成任务",
-        "可与其他模型无缝集成",
-        "易于部署和使用"
-      ],
-      "useCases": [
-        "在本地环境中运行 MiniCPM-o 进行文本生成",
-        "快速原型开发自定义语言模型应用",
-        "进行大规模文本处理和分析"
-      ],
-      "quickStart": [
-        "git clone https://github.com/OpenBMB/MiniCPM-o-Demo.git",
-        "cd MiniCPM-o-Demo",
-        "pip install -r requirements.txt",
-        "python app.py"
-      ],
-      "why": "MiniCPM-o-Demo 以其 279 stars 的社区支持，提供了一个高效的解决方案，适合需要在本地进行大规模语言模型实验的用户。其基于 PyTorch 的实现使得开发者能够灵活地进行定制和扩展，适应不同的应用场景。该项目的活跃更新和良好的文档支持也为用户提供了良好的使用体验。",
-      "tags": [
-        "文本生成",
-        "PyTorch",
-        "CUDA",
-        "Web 演示",
-        "语言模型"
-      ],
-      "url": "https://github.com/OpenBMB/MiniCPM-o-Demo",
-      "stars": "279 stars",
-      "source": "GitHub · 面壁智能 MiniCPM",
-      "date": "2026-07-20"
-    },
-    {
-      "name": "affaan-m/ECC",
-      "lang": "JavaScript",
-      "category": "Agent 框架",
-      "description": "这是一个为开发者提供性能优化的代理系统，具备记忆和安全性等多种功能。",
-      "details": "ECC 是一个旨在提升代码执行效率的代理系统，适用于 Claude Code、Codex 和 Cursor 等平台。与其他同类工具相比，ECC 强调了技能、直觉和研究优先的开发方式，确保在复杂环境中提供高效的解决方案。该项目使用 JavaScript 开发，采用 MIT 许可证，适合希望优化代码性能的开发者使用，但不推荐初学者尝试。",
-      "features": [
-        "支持多种 AI 模型的集成",
-        "具备高效的内存管理能力",
-        "提供安全的执行环境",
-        "支持自定义技能扩展",
-        "兼容主流开发工具"
-      ],
-      "useCases": [
-        "在本地环境中运行 Claude Code 进行代码优化",
-        "集成 Codex 进行智能代码补全",
-        "使用 Cursor 进行实时代码分析"
-      ],
-      "quickStart": [
-        "git clone https://github.com/affaan-m/ECC.git",
-        "cd ECC",
-        "npm install",
-        "npm start",
-        "在浏览器中访问 http://localhost:3000"
-      ],
-      "why": "ECC 以其 231456 stars 的社区支持和活跃度，提供了独特的性能优化解决方案。与其他代理框架相比，ECC 更加注重安全性和内存管理，适合需要高效执行的开发环境。其灵活的技能扩展功能使得开发者能够根据需求进行定制，提升了使用的灵活性。",
-      "tags": [
-        "性能优化",
-        "代理系统",
-        "开发工具"
-      ],
-      "url": "https://github.com/affaan-m/ECC",
-      "stars": "231456 stars",
-      "source": "GitHub Search · 2026-07-20",
-      "date": "2026-07-20"
-    },
-    {
-      "name": "Significant-Gravitas/AutoGPT",
-      "lang": "Python",
-      "category": "Agent 框架",
-      "description": "AutoGPT 是一个面向所有人的可访问 AI 工具，帮助用户专注于重要事务。",
-      "details": "AutoGPT 旨在解决 AI 使用门槛高的问题，提供一个易于使用的框架，用户可以在此基础上构建自己的应用。与其他 AI 编辑器如 ChatGPT 和 Claude 相比，AutoGPT 更加灵活，允许用户自定义功能和集成。该项目使用 Python 开发，采用 MIT 许可证，适合开发者和研究人员尝试，不推荐完全没有编程基础的用户。",
-      "features": [
-        "支持自定义任务和指令",
-        "集成多种 API 接口",
-        "支持本地推理和模型运行",
-        "提供丰富的文档和示例",
-        "支持多种数据格式输入"
-      ],
-      "useCases": [
-        "构建个性化的聊天机器人",
-        "实现自动化内容生成",
-        "进行数据分析和报告生成",
-        "集成外部 API 进行信息检索"
-      ],
-      "quickStart": [
-        "git clone https://github.com/Significant-Gravitas/AutoGPT.git",
-        "cd AutoGPT",
-        "pip install -r requirements.txt",
-        "python main.py"
-      ],
-      "why": "AutoGPT 拥有超过 185618 个星标，显示出其广泛的社区支持和活跃度。与其他同类项目相比，它提供了更高的灵活性和可定制性，适合开发者进行深度开发和创新。其技术栈基于 Python，易于上手，适合各类开发者。",
-      "tags": [
-        "AI",
-        "开发工具",
-        "自动化",
-        "开源",
-        "Python"
-      ],
-      "url": "https://github.com/Significant-Gravitas/AutoGPT",
-      "stars": "185618 stars",
-      "source": "GitHub Search · 2026-07-20",
-      "date": "2026-07-20"
-    },
-    {
-      "name": "THUDM/SCALE-CUA",
-      "lang": "Python",
-      "category": "Agent 框架",
-      "description": "这是一个开源框架，专为计算机使用代理设计，支持可验证任务合成和在线强化学习训练。",
-      "details": "SCALE-CUA 提供了 VeriGen 可验证任务合成、AgentRL 在线强化学习训练以及 OSWorld/ScienceBoard 评估功能，适合需要高效代理开发的研究人员和开发者。与其他同类产品如 OpenAI 的 Gym 和 Stable Baselines 相比，SCALE-CUA 更加注重可验证性和灵活性，支持多种任务合成和评估方式。该项目使用 Python 开发，采用 MIT 许可证，适合希望在代理开发中实现高可控性和可验证性的用户，不推荐对可验证性要求不高的用户。",
-      "features": [
-        "支持 VeriGen 可验证任务合成",
-        "集成在线强化学习训练模块",
-        "提供多种评估工具",
-        "兼容多种环境和任务",
-        "支持自定义代理模型"
-      ],
-      "useCases": [
-        "构建可验证的任务合成代理",
-        "进行在线强化学习训练",
-        "评估代理在不同环境下的表现"
-      ],
-      "quickStart": [
-        "git clone https://github.com/THUDM/SCALE-CUA.git",
-        "cd SCALE-CUA",
-        "pip install -r requirements.txt",
-        "python main.py"
-      ],
-      "why": "SCALE-CUA 的可验证性和灵活性使其在同类产品中脱颖而出。该项目目前拥有 29 stars，显示出一定的社区关注度。其设计理念和实现方式为开发者提供了更高的控制力，适合需要进行复杂代理开发的用户。",
-      "tags": [
-        "开源",
-        "强化学习",
-        "代理框架"
-      ],
-      "url": "https://github.com/THUDM/SCALE-CUA",
-      "stars": "29 stars",
-      "source": "GitHub · 智谱 GLM",
-      "date": "2026-07-20"
-    },
-    {
-      "name": "langchain-ai/langchain",
-      "lang": "Python",
-      "category": "Agent 框架",
-      "description": "这是一个面向开发者的智能代理工程平台，支持快速构建和部署智能代理应用，具有灵活的架构设计。",
-      "details": "LangChain 是一个专为构建智能代理而设计的平台，解决了开发者在创建复杂代理时的多种挑战。与其他同类产品（如 Rasa 和 Botpress）相比，LangChain 提供了更高的灵活性和可扩展性，支持多种数据源和模型集成。该项目使用 Python 语言开发，遵循 MIT 许可证，适合希望快速构建智能应用的开发者，不推荐给对技术栈要求不高的用户。",
-      "features": [
-        "支持多种 LLM 模型集成",
-        "提供丰富的 API 接口",
-        "支持自定义代理行为",
-        "兼容多种数据源",
-        "支持本地和云端部署"
-      ],
-      "useCases": [
-        "构建智能客服系统处理用户咨询",
-        "实现自动化文档生成和处理",
-        "开发个性化推荐系统",
-        "创建数据驱动的决策支持工具"
-      ],
-      "quickStart": [
-        "pip install langchain",
-        "导入所需模块",
-        "配置数据源和模型",
-        "定义代理行为",
-        "运行代理并测试"
-      ],
-      "why": "LangChain 以其灵活的架构和强大的功能在智能代理领域脱颖而出。项目目前拥有超过 142165 个 stars，社区活跃，定期更新，适合开发者快速上手和深入定制。与 Rasa 和 Botpress 相比，LangChain 提供了更丰富的集成选项和更高的可定制性。",
-      "tags": [
-        "智能代理",
-        "开发工具",
-        "Python",
-        "开源"
-      ],
-      "url": "https://github.com/langchain-ai/langchain",
-      "stars": "142165 stars",
-      "source": "GitHub Search · 2026-07-20",
-      "date": "2026-07-20"
-    },
-    {
-      "name": "QwenLM/Qwen-AgentWorld",
-      "lang": "Python",
-      "category": "Agent 框架",
-      "description": "Qwen-AgentWorld 是一个为通用智能体设计的语言世界模型，适合研究和开发智能体应用。",
-      "details": "Qwen-AgentWorld 解决了通用智能体在多种任务中的语言理解和生成问题。与 OpenAI 的 GPT 系列相比，它在特定领域的适应性和灵活性上有显著优势。该项目使用 Python 开发，采用 MIT 许可证，适合研究人员和开发者使用，但不推荐给初学者，因为需要一定的技术背景。",
-      "features": [
-        "支持多种语言模型",
-        "提供灵活的智能体框架",
-        "兼容多种数据输入格式",
-        "支持自定义任务和环境",
-        "集成了多种预训练模型"
-      ],
-      "useCases": [
-        "构建自定义智能体进行对话系统开发",
-        "实现多任务学习以提升模型性能",
-        "在特定领域进行语言理解和生成",
-        "进行智能体的行为模拟和测试"
-      ],
-      "quickStart": [
-        "git clone https://github.com/QwenLM/Qwen-AgentWorld.git",
-        "cd Qwen-AgentWorld",
-        "pip install -r requirements.txt",
-        "python main.py"
-      ],
-      "why": "Qwen-AgentWorld 以 853 stars 的活跃度，展示了其在智能体开发领域的受欢迎程度。相比于其他同类项目，它提供了更高的灵活性和可扩展性，适合多种应用场景。其社区活跃度和持续更新也为用户提供了良好的支持。",
-      "tags": [
-        "智能体",
-        "语言模型",
-        "Python",
-        "开源"
-      ],
-      "url": "https://github.com/QwenLM/Qwen-AgentWorld",
-      "stars": "853 stars",
-      "source": "GitHub · 通义千问 Qwen",
-      "date": "2026-07-20"
-    },
-    {
-      "name": "ollama/ollama",
-      "lang": "Go",
-      "category": "LLM 应用平台",
-      "description": "这是一个为开发者提供多种模型的工具，支持 Kimi-K2.6、GLM-5.2 等多种模型。",
-      "details": "ollama 是一个开源平台，旨在简化本地运行多种语言模型的过程。与其他同类产品（如 Hugging Face 和 OpenAI API）相比，ollama 提供了更简洁的本地推理体验，允许用户在本地环境中快速部署和使用模型。该项目使用 Go 语言开发，采用 MIT 许可证，适合希望在本地进行 AI 开发的开发者，不推荐对本地推理没有需求的用户。",
-      "features": [
-        "支持多种模型如 Kimi-K2.6 和 GLM-5.2",
-        "提供简单的命令行界面",
-        "支持本地推理，无需网络连接",
-        "兼容多种数据格式",
-        "易于集成到现有项目中"
-      ],
-      "useCases": [
-        "本地运行 Kimi-K2.6 进行文本生成",
-        "使用 GLM-5.2 进行自然语言处理任务",
-        "在本地环境中测试和开发 AI 应用"
-      ],
-      "quickStart": [
-        "git clone https://github.com/ollama/ollama.git",
-        "cd ollama",
-        "go build",
-        "./ollama run Kimi-K2.6"
-      ],
-      "why": "ollama 以其简洁的本地推理能力和对多种模型的支持脱颖而出。项目目前拥有 176505 stars，显示出其广泛的社区认可度。与其他平台相比，ollama 的本地部署方式使得开发者能够在没有网络的情况下进行模型推理，适合对隐私和数据安全有高要求的用户。",
-      "tags": [
-        "本地推理",
-        "语言模型",
-        "开源工具"
-      ],
-      "url": "https://github.com/ollama/ollama",
-      "stars": "176505 stars",
-      "source": "GitHub Search · 2026-07-20",
-      "date": "2026-07-20"
-    },
-    {
-      "name": "QwenLM/qwen-code-docs",
-      "lang": "MDX",
-      "category": "LLM 应用平台",
-      "description": "这是一个专为 Qwen Code 设计的文档翻译工具，支持多语言文档的快速转换。",
-      "details": "QwenLM/qwen-code-docs 解决了文档翻译的效率问题，特别适合开发者和技术团队使用。与其他翻译工具相比，如 Google Translate 和 DeepL，本项目专注于代码相关文档的翻译，提供更准确的术语和上下文理解。该项目使用 MDX 语言构建，采用 MIT 许可证，适合希望提升文档可读性的开发者使用，不推荐对文档翻译需求不高的用户。",
-      "features": [
-        "支持多种编程语言的文档翻译",
-        "提供上下文相关的术语翻译",
-        "支持自定义翻译词典",
-        "集成简单，易于使用",
-        "开源项目，社区活跃"
-      ],
-      "useCases": [
-        "翻译 Qwen Code 的 API 文档",
-        "将技术文档转换为多语言版本",
-        "快速生成项目的用户手册",
-        "支持团队协作翻译项目文档"
-      ],
-      "quickStart": [
-        "git clone https://github.com/QwenLM/qwen-code-docs.git",
-        "cd qwen-code-docs",
-        "npm install",
-        "npm start",
-        "访问 http://localhost:3000 查看文档"
-      ],
-      "why": "QwenLM/qwen-code-docs 在文档翻译领域具有独特优势，专注于代码相关文档，提供更高的翻译准确性。项目已有 44 stars，显示出一定的社区认可度。与其他通用翻译工具相比，本项目更适合开发者使用，能够有效提升文档的专业性和可读性。",
-      "tags": [
-        "文档翻译",
-        "开源工具",
-        "开发者工具"
-      ],
-      "stars": "44 stars",
-      "url": "https://github.com/QwenLM/qwen-code-docs",
-      "source": "GitHub · 通义千问 Qwen",
-      "date": "2026-07-20"
-    },
-    {
-      "name": "harvard-edge/cs249r_book",
-      "lang": "Python",
-      "category": "LLM 应用平台",
-      "description": "这是一本关于机器学习系统的书籍，适合希望深入了解机器学习应用的开发者，提供了实用的案例和理论支持。",
-      "details": "本书专注于机器学习系统的设计与实现，适合希望在实际项目中应用机器学习的开发者。与其他机器学习书籍相比，如《Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow》，本书更注重系统架构和工程实践，提供了丰富的案例分析和代码示例。使用 Python 作为主要语言，适合有一定编程基础的读者。推荐给希望提升机器学习系统设计能力的开发者，不推荐给完全没有编程经验的初学者。",
-      "features": [
-        "提供机器学习系统设计的实用案例",
-        "涵盖从理论到实践的全面知识",
-        "使用 Python 语言进行示例",
-        "适合中高级开发者",
-        "包含最新的机器学习技术"
-      ],
-      "useCases": [
-        "构建自己的机器学习应用系统",
-        "优化现有机器学习项目的架构",
-        "学习如何处理大规模数据集",
-        "实现机器学习模型的部署与监控"
-      ],
-      "quickStart": [
-        "访问 GitHub 仓库：git clone https://github.com/harvard-edge/cs249r_book",
-        "安装所需的 Python 库：pip install -r requirements.txt",
-        "阅读书籍中的示例代码",
-        "根据案例进行项目实践"
-      ],
-      "why": "本书在机器学习系统设计方面提供了深入的见解，结合了理论与实践，适合希望在实际应用中提升技能的开发者。其 GitHub 上的 27503 stars 显示了社区的认可度，且持续更新，保持与最新技术的同步。",
-      "tags": [
-        "机器学习",
-        "系统设计",
-        "Python",
-        "开发者工具"
-      ],
-      "url": "https://github.com/harvard-edge/cs249r_book",
-      "stars": "27503 stars",
-      "source": "GitHub Search · 2026-07-20",
-      "date": "2026-07-20"
-    },
-    {
-      "name": "yamadashy/repomix",
-      "lang": "TypeScript",
-      "category": "LLM 应用平台",
-      "description": "Repomix 是一个将整个代码库打包成单个 AI 友好文件的工具，适合需要将代码提供给大型语言模型的开发者。",
-      "details": "Repomix 解决了将复杂代码库转换为 AI 可处理格式的问题，特别适合需要与 Claude、ChatGPT 等 AI 工具交互的场景。与其他工具如 Code2Vec 和 OpenAI Codex 相比，Repomix 提供了更简便的打包方式，支持多种文件格式。该项目使用 TypeScript 开发，遵循 MIT 许可证，适合开发者、数据科学家和 AI 研究人员使用，不推荐给初学者。",
-      "features": [
-        "将整个代码库打包为单个文件",
-        "支持多种 AI 工具的输入格式",
-        "兼容大型语言模型",
-        "快速集成到现有项目",
-        "提供简单的命令行接口"
-      ],
-      "useCases": [
-        "将代码库转换为 AI 友好的格式",
-        "为大型语言模型提供训练数据",
-        "简化与 AI 工具的交互",
-        "快速部署 AI 应用"
-      ],
-      "quickStart": [
-        "安装依赖：npm install repomix",
-        "运行打包命令：repomix pack <your-repo>",
-        "查看输出文件：ls output/",
-        "将文件上传至 AI 工具"
-      ],
-      "why": "Repomix 以 27255 stars 的社区支持，提供了高效的代码打包解决方案。与同类工具相比，Repomix 的简洁性和易用性使其在开发者中备受欢迎。该项目的活跃度和更新频率也表明了其持续的改进和支持。",
-      "tags": [
-        "代码打包",
-        "AI 工具",
-        "大型语言模型"
-      ],
-      "url": "https://github.com/yamadashy/repomix",
-      "stars": "27255 stars",
-      "source": "GitHub Search · 2026-07-20",
-      "date": "2026-07-20"
-    },
-    {
-      "name": "langgenius/dify",
-      "lang": "TypeScript",
-      "category": "Agent 框架",
-      "description": "这是一个为团队构建智能工作流和 RAG 管道的工具，支持丰富的 AI 模型和工具，突出协作功能。",
-      "details": "Dify 解决了团队在构建和部署 AI 工作流时的复杂性，提供一个集成的协作空间，支持云端、VPC 或自托管部署。与同类产品如 LangChain 和 Haystack 相比，Dify 提供了更灵活的部署选项和更强的协作能力。技术栈基于 TypeScript，采用开源许可证，适合需要快速迭代和部署 AI 应用的团队，不推荐对协作需求不高的个人开发者。",
-      "features": [
-        "支持多种 AI 模型和工具集成",
-        "提供灵活的部署选项",
-        "支持实时协作和版本控制",
-        "内置 RAG 管道功能",
-        "兼容多种 API 接口"
-      ],
-      "useCases": [
-        "构建团队协作的 AI 工作流",
-        "创建 RAG 管道进行信息检索",
-        "在云端快速部署 AI 应用",
-        "集成多种工具进行数据处理"
-      ],
-      "quickStart": [
-        "git clone https://github.com/langgenius/dify.git",
-        "cd dify",
-        "npm install",
-        "npm run start",
-        "访问 http://localhost:3000"
-      ],
-      "why": "Dify 以 149475 stars 的社区活跃度，提供了灵活的部署选项和强大的协作功能，适合快速迭代的团队。相比 LangChain 和 Haystack，Dify 更加注重团队协作和易用性，适合需要快速构建和部署 AI 应用的开发者。",
-      "tags": [
-        "AI 工具",
-        "工作流",
-        "协作",
-        "RAG",
-        "开源"
-      ],
-      "url": "https://github.com/langgenius/dify",
-      "stars": "149475 stars",
-      "source": "GitHub Search · 2026-07-20",
-      "date": "2026-07-20"
-    },
-    {
-      "name": "OpenHands/OpenHands",
-      "lang": "Python",
-      "category": "AI 编辑器",
-      "description": "🙌 OpenHands 是一个基于 AI 的开发工具，专为开发者设计，提供智能化的代码生成和编辑功能。",
-      "details": "OpenHands 解决了开发者在编写代码时的效率问题，通过 AI 驱动的智能编辑功能，帮助用户快速生成高质量代码。与其他同类工具（如 GitHub Copilot）相比，OpenHands 更加注重本地推理和用户隐私，支持多种编程语言。该项目使用 Python 开发，采用开源许可证，适合希望提升开发效率的开发者使用，但不推荐初学者尝试。",
-      "features": [
-        "支持多种编程语言的智能代码生成",
-        "本地推理，保护用户隐私",
-        "集成多种开发环境",
-        "提供实时代码建议",
-        "支持自定义代码模板"
-      ],
-      "useCases": [
-        "使用 OpenHands 快速生成 Python 代码",
-        "在本地环境中进行代码编辑和调试",
-        "集成到现有的开发工具链中",
-        "为项目生成文档和注释",
-        "优化现有代码的性能"
-      ],
-      "quickStart": [
-        "git clone https://github.com/OpenHands/OpenHands.git",
-        "cd OpenHands",
-        "pip install -r requirements.txt",
-        "python main.py",
-        "在浏览器中访问 http://localhost:5000"
-      ],
-      "why": "OpenHands 以 81401 stars 在 GitHub 上获得了广泛关注，社区活跃度高，定期更新。与其他工具相比，它提供了更好的本地推理能力，确保用户数据的安全性，适合需要高效开发的团队和个人。",
-      "tags": [
-        "AI 编辑器",
-        "代码生成",
-        "本地推理"
-      ],
-      "url": "https://github.com/OpenHands/OpenHands",
-      "stars": "81401 stars",
-      "source": "GitHub Search · 2026-07-20",
-      "date": "2026-07-20"
-    },
-    {
-      "name": "thedotmack/claude-mem",
-      "lang": "JavaScript",
-      "category": "Agent 框架",
-      "description": "这是一个为 AI 代理提供持久上下文的工具，能够在会话间捕获和压缩信息，并在未来会话中注入相关上下文。",
-      "details": "Claude-mem 解决了 AI 代理在多次会话中缺乏上下文记忆的问题。与传统的会话管理工具相比，它通过 AI 压缩技术有效地存储和重用信息，提升了代理的智能化水平。该项目使用 JavaScript 开发，采用 MIT 许可证，适合希望提升 AI 代理上下文管理能力的开发者使用，不推荐对上下文管理没有需求的用户。",
-      "features": [
-        "支持多种 AI 代理的上下文管理",
-        "自动捕获会话中的所有操作",
-        "使用 AI 压缩技术优化存储",
-        "在未来会话中注入相关上下文",
-        "与 Claude Code、OpenClaw 等兼容"
-      ],
-      "useCases": [
-        "在多轮对话中保持用户上下文",
-        "为 AI 代理提供持续的学习能力",
-        "优化客户服务中的信息传递",
-        "提升编程助手的上下文理解"
-      ],
-      "quickStart": [
-        "git clone https://github.com/thedotmack/claude-mem.git",
-        "cd claude-mem",
-        "npm install",
-        "node index.js"
-      ],
-      "why": "Claude-mem 通过创新的上下文管理方式，显著提升了 AI 代理的智能化水平。该项目目前拥有 87961 stars，表明其在开发者社区中的受欢迎程度。与其他同类产品相比，Claude-mem 更加注重上下文的持久性和智能化处理，适合需要高效上下文管理的应用场景。",
-      "tags": [
-        "上下文管理",
-        "AI 代理",
-        "会话管理"
-      ],
-      "url": "https://github.com/thedotmack/claude-mem",
-      "stars": "87961 stars",
-      "source": "GitHub Search · 2026-07-20",
-      "date": "2026-07-20"
-    },
-    {
-      "name": "huggingface/transformers",
-      "lang": "Python",
-      "category": "LLM 应用平台",
-      "description": "🤗 Transformers 是一个用于文本、视觉、音频和多模态模型的模型定义框架，适用于推理和训练，特别适合机器学习研究者和开发者。",
-      "details": "Transformers 提供了一套统一的 API，支持多种预训练模型，方便用户进行文本、图像等多模态任务的开发。与其他框架（如 TensorFlow 和 PyTorch）相比，Transformers 更加专注于自然语言处理和生成，拥有丰富的模型库和社区支持。该项目使用 Python 编写，遵循 Apache 2.0 许可证，适合希望快速实现和实验最新模型的开发者，不推荐完全依赖于传统机器学习方法的用户。",
-      "features": [
-        "支持多种预训练模型",
-        "提供统一的 API 接口",
-        "兼容 PyTorch 和 TensorFlow",
-        "支持多模态任务",
-        "集成 Hugging Face Hub"
-      ],
-      "useCases": [
-        "使用预训练模型进行文本分类",
-        "在图像识别任务中应用视觉模型",
-        "实现对话生成系统",
-        "进行语音识别和合成",
-        "构建多模态应用"
-      ],
-      "quickStart": [
-        "pip install transformers",
-        "从 Hugging Face Hub 下载模型",
-        "使用模型进行推理",
-        "在代码中调用 API 进行训练",
-        "查看官方文档获取更多示例"
-      ],
-      "why": "Transformers 拥有超过 162,000 个 stars，社区活跃，更新频繁，提供了丰富的文档和示例，适合快速上手。与其他框架相比，其专注于 NLP 和多模态任务的能力，使其成为开发者的首选。该项目由 Hugging Face 维护，确保了高质量的支持和更新。",
-      "tags": [
-        "机器学习",
-        "自然语言处理",
-        "多模态",
-        "深度学习"
-      ],
-      "url": "https://github.com/huggingface/transformers",
-      "stars": "162766 stars",
-      "source": "GitHub Search · 2026-07-20",
-      "date": "2026-07-20"
-    },
-    {
-      "name": "usestrix/strix",
-      "lang": "Python",
-      "category": "Coding Agent",
-      "description": "这是一个开源的 AI 渗透测试工具，帮助开发者发现并修复应用程序的漏洞，支持自动化测试。",
-      "details": "Strix 是一个专注于应用程序安全的渗透测试工具，旨在帮助开发者识别和修复潜在的安全漏洞。与其他渗透测试工具（如 Burp Suite 和 OWASP ZAP）相比，Strix 提供了更为自动化的测试流程，减少了手动干预的需求。该项目使用 Python 编写，遵循 MIT 许可证，适合安全研究人员和开发者使用，但不推荐给初学者，因为需要一定的安全知识背景。",
-      "features": [
-        "自动化漏洞扫描",
-        "支持多种应用程序框架",
-        "集成报告生成",
-        "可扩展插件架构",
-        "实时漏洞修复建议"
-      ],
-      "useCases": [
-        "执行自动化渗透测试以识别安全漏洞",
-        "生成详细的安全报告供开发团队参考",
-        "集成到 CI/CD 流程中进行持续安全检测"
-      ],
-      "quickStart": [
-        "git clone https://github.com/usestrix/strix.git",
-        "cd strix",
-        "pip install -r requirements.txt",
-        "python strix.py --target <your_app_url>",
-        "查看生成的报告以了解漏洞详情"
-      ],
-      "why": "Strix 以其高效的自动化测试能力和易于扩展的插件架构脱颖而出，适合快速迭代的开发环境。项目目前拥有 42826 stars，显示出活跃的社区支持和广泛的使用基础，适合希望提升应用安全性的开发团队。",
-      "tags": [
-        "渗透测试",
-        "安全工具",
-        "开源",
-        "自动化",
-        "Python"
-      ],
-      "url": "https://github.com/usestrix/strix",
-      "stars": "42826 stars",
-      "source": "GitHub Search · 2026-07-20",
-      "date": "2026-07-20"
-    },
-    {
-      "name": "QwenLM/qwen-code",
-      "lang": "TypeScript",
-      "category": "Coding Agent",
-      "description": "这是一个开源的 AI 编程助手，能够在终端中为开发者提供代码建议和自动补全，提升编程效率。",
-      "details": "QwenLM/qwen-code 是一个专为开发者设计的 AI 编程助手，能够在终端中实时提供代码建议和自动补全功能。与其他同类工具如 GitHub Copilot 相比，它具有更高的自定义性和本地运行能力，适合需要在本地环境中工作的开发者。该项目使用 TypeScript 开发，采用 MIT 许可证，适合开源爱好者和希望在本地环境中进行 AI 编程的开发者，不推荐完全依赖云服务的用户。",
-      "features": [
-        "支持多种编程语言的代码补全",
-        "本地运行，无需网络连接",
-        "可与现有开发环境无缝集成",
-        "提供实时错误检测和建议",
-        "支持自定义代码风格和规则"
-      ],
-      "useCases": [
-        "在终端中快速生成代码片段",
-        "实时检测代码错误并提供修复建议",
-        "根据上下文自动补全代码",
-        "集成到现有的开发工具链中",
-        "为新手开发者提供编程指导"
-      ],
-      "quickStart": [
-        "git clone https://github.com/QwenLM/qwen-code.git",
-        "cd qwen-code",
-        "npm install",
-        "npm run start",
-        "在终端中输入代码开始使用"
-      ],
-      "why": "QwenLM/qwen-code 以其本地运行和高自定义性脱颖而出，适合需要在本地环境中工作的开发者。项目目前拥有 26157 stars，显示出其活跃的社区支持和广泛的用户基础。与 GitHub Copilot 等云服务相比，它更注重用户隐私和数据安全。",
-      "tags": [
-        "AI 编程助手",
-        "开源",
-        "终端工具"
-      ],
-      "url": "https://github.com/QwenLM/qwen-code",
-      "stars": "26157 stars",
-      "source": "GitHub · 通义千问 Qwen",
-      "date": "2026-07-20"
+      "source": "GitHub Search · 2026-07-21",
+      "date": "2026-07-21"
     },
     {
       "name": "MoonshotAI/kimi-code",
       "lang": "TypeScript",
       "category": "Agent 框架",
-      "description": "Kimi Code CLI 是一个为下一代智能体提供的起点，适合开发者和研究人员使用，支持快速构建和部署智能体。",
-      "details": "Kimi Code CLI 旨在简化智能体的开发流程，解决了传统开发工具复杂的配置和集成问题。与其他竞品如 OpenAI 的 LangChain 相比，Kimi Code 提供了更灵活的接口和更简洁的命令行工具，适合快速迭代和实验。该项目使用 TypeScript 开发，遵循 MIT 许可证，适合希望快速构建智能体的开发者使用，而不推荐对命令行工具不熟悉的用户。",
+      "description": "Kimi Code CLI 是一个为下一代智能代理提供的起点工具，支持快速构建和部署。",
+      "details": "Kimi Code CLI 旨在简化智能代理的开发流程，适合开发者和研究人员使用。与其他同类工具（如 Rasa 和 Botpress）相比，Kimi Code 提供了更灵活的配置选项和更高的可扩展性。该项目使用 TypeScript 开发，遵循 MIT 许可证，适合希望快速构建智能代理的开发者，不推荐完全依赖于低代码平台的用户。",
       "features": [
-        "提供简洁的命令行界面",
-        "支持多种智能体模型集成",
-        "允许自定义智能体行为",
-        "提供实时调试功能",
-        "支持插件扩展"
+        "支持自定义智能代理逻辑",
+        "集成多种 AI 模型接口",
+        "提供命令行工具进行快速部署",
+        "支持插件扩展功能",
+        "兼容主流开发框架"
       ],
       "useCases": [
-        "快速构建自定义智能体进行任务自动化",
-        "集成现有模型实现特定功能",
-        "在本地环境中测试和调试智能体",
-        "替换现有工具提升开发效率"
+        "构建自定义客服智能代理",
+        "快速原型开发新型智能助手",
+        "集成现有 AI 模型进行本地推理"
       ],
       "quickStart": [
         "git clone https://github.com/MoonshotAI/kimi-code.git",
@@ -5136,16 +4429,1044 @@ window.AI_GENERATED_DATA = {
         "npm run build",
         "npm start"
       ],
-      "why": "Kimi Code CLI 以其简洁的命令行界面和灵活的模型集成能力，适合快速开发和部署智能体。项目目前已有 4106 stars，显示出活跃的社区支持和广泛的使用基础，适合希望快速上手的开发者。",
+      "why": "Kimi Code CLI 以其灵活的架构和强大的扩展性脱颖而出，当前已有 4122 stars，社区活跃，适合希望快速开发智能代理的开发者。与 Rasa 和 Botpress 相比，Kimi Code 提供了更高的自由度和定制化选项。",
       "tags": [
-        "智能体",
+        "智能代理",
         "开发工具",
-        "命令行"
+        "TypeScript"
       ],
       "url": "https://github.com/MoonshotAI/kimi-code",
-      "stars": "4106 stars",
+      "stars": "4122 stars",
       "source": "GitHub · 月之暗面 Kimi",
-      "date": "2026-07-20"
+      "date": "2026-07-21"
+    },
+    {
+      "name": "Significant-Gravitas/AutoGPT",
+      "lang": "Python",
+      "category": "Agent 框架",
+      "description": "AutoGPT 是一个面向所有人的 AI 工具，帮助用户专注于重要的事情，提供便捷的构建和使用体验。",
+      "details": "AutoGPT 旨在解决 AI 访问门槛高的问题，允许用户轻松构建和使用 AI 应用。与其他 AI 工具（如 ChatGPT 和 Claude）相比，AutoGPT 提供更灵活的本地推理能力，支持用户在本地运行模型。该项目使用 Python 开发，采用 MIT 许可证，适合开发者和 AI 爱好者尝试，不推荐对 AI 开发不感兴趣的用户。",
+      "features": [
+        "支持本地运行 LLM 模型",
+        "提供自定义任务执行能力",
+        "兼容多种 API 接口",
+        "支持多种数据源集成",
+        "具备任务自动化功能"
+      ],
+      "useCases": [
+        "本地运行 Llama3 进行文本生成",
+        "创建自定义聊天机器人",
+        "自动化数据处理任务",
+        "集成外部 API 进行信息检索"
+      ],
+      "quickStart": [
+        "git clone https://github.com/Significant-Gravitas/AutoGPT.git",
+        "cd AutoGPT",
+        "pip install -r requirements.txt",
+        "python main.py"
+      ],
+      "why": "AutoGPT 以 185619 stars 的社区支持，展示了其广泛的受欢迎程度。与同类产品相比，它提供了更高的灵活性和本地推理能力，适合开发者进行深度定制和应用开发。其活跃的社区和持续的更新也为用户提供了良好的支持。",
+      "tags": [
+        "AI 工具",
+        "本地推理",
+        "开发者工具"
+      ],
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "stars": "185619 stars",
+      "source": "GitHub Search · 2026-07-21",
+      "date": "2026-07-21"
+    },
+    {
+      "name": "firecrawl/firecrawl",
+      "lang": "TypeScript",
+      "category": "推理引擎",
+      "description": "这是一个用于大规模搜索、抓取和与网络交互的 API，支持高效数据采集。",
+      "details": "Firecrawl 提供了一个强大的 API，旨在帮助开发者高效地抓取和搜索网络数据。与其他抓取工具（如 Scrapy 和 Puppeteer）相比，Firecrawl 在处理大规模数据时表现出色，支持并发请求和动态内容抓取。该项目使用 TypeScript 开发，遵循 MIT 许可证，适合需要大规模数据抓取的开发者使用，但不推荐初学者直接使用。",
+      "features": [
+        "支持高并发请求",
+        "动态内容抓取能力",
+        "提供 RESTful API 接口",
+        "支持自定义抓取策略",
+        "集成数据存储选项"
+      ],
+      "useCases": [
+        "抓取电商网站的产品信息",
+        "监控社交媒体动态",
+        "获取新闻网站的最新文章",
+        "分析竞争对手的在线活动"
+      ],
+      "quickStart": [
+        "git clone https://github.com/firecrawl/firecrawl.git",
+        "cd firecrawl",
+        "npm install",
+        "npm start",
+        "访问 API 文档进行配置"
+      ],
+      "why": "Firecrawl 以其高效的抓取能力和灵活的 API 设计，适合需要处理大量数据的项目。该项目在 GitHub 上获得了 153441 stars，显示出其广泛的社区认可和活跃度。与同类工具相比，Firecrawl 更加注重性能和可扩展性，适合企业级应用。",
+      "tags": [
+        "数据抓取",
+        "网络爬虫",
+        "API"
+      ],
+      "url": "https://github.com/firecrawl/firecrawl",
+      "stars": "153441 stars",
+      "source": "GitHub Search · 2026-07-21",
+      "date": "2026-07-21"
+    },
+    {
+      "name": "THUDM/slime",
+      "lang": "Python",
+      "category": "Agent 框架",
+      "description": "slime 是一个用于 RL 扩展的 LLM 后训练框架，适合需要高效强化学习的开发者。",
+      "details": "slime 解决了大规模强化学习模型后训练的复杂性问题，支持灵活的模型调整和优化。与其他框架如 Hugging Face 的 Transformers 相比，slime 更专注于后训练阶段的高效性和可扩展性。该项目使用 Python 开发，采用 MIT 许可证，适合需要进行 LLM 后训练的研究人员和开发者，不推荐初学者使用。",
+      "features": [
+        "支持多种 LLM 模型后训练",
+        "提供 RL 训练策略优化",
+        "灵活的模型参数调整",
+        "高效的资源管理",
+        "兼容主流深度学习框架"
+      ],
+      "useCases": [
+        "在本地环境中进行 LLM 后训练",
+        "优化 RL 策略以提升模型性能",
+        "快速调整模型参数以适应不同任务"
+      ],
+      "quickStart": [
+        "git clone https://github.com/THUDM/slime.git",
+        "cd slime",
+        "pip install -r requirements.txt",
+        "python train.py --config config.yaml"
+      ],
+      "why": "slime 以其 7551 stars 的社区支持和活跃度，提供了灵活且高效的后训练解决方案。相比于其他框架，slime 在 RL 扩展方面的专注使其在处理复杂任务时表现更佳。其技术栈和设计理念使得开发者能够快速上手并进行深度定制。",
+      "tags": [
+        "强化学习",
+        "后训练",
+        "深度学习"
+      ],
+      "url": "https://github.com/THUDM/slime",
+      "stars": "7551 stars",
+      "source": "GitHub · 智谱 GLM",
+      "date": "2026-07-21"
+    },
+    {
+      "name": "hacksider/Deep-Live-Cam",
+      "lang": "Python",
+      "category": "视频生成",
+      "description": "这是一个实时人脸交换和一键视频深度伪造工具，适合需要快速生成深度伪造内容的用户。",
+      "details": "Deep-Live-Cam 解决了传统视频编辑工具复杂和耗时的问题，用户只需提供一张图片即可实现实时人脸交换。与其他深度伪造工具（如 Zao 和 Reface）相比，Deep-Live-Cam 提供了更高的实时性和更简单的操作流程。该项目使用 Python 编写，采用开源许可证，适合开发者和创作者使用，但不推荐给对技术不熟悉的用户。",
+      "features": [
+        "实时人脸交换功能",
+        "一键生成深度伪造视频",
+        "仅需一张图片即可操作",
+        "支持多种视频格式",
+        "开源项目，社区活跃"
+      ],
+      "useCases": [
+        "创建个性化视频内容",
+        "制作社交媒体短视频",
+        "进行视频特效实验",
+        "快速生成娱乐性深度伪造视频"
+      ],
+      "quickStart": [
+        "git clone https://github.com/hacksider/Deep-Live-Cam.git",
+        "cd Deep-Live-Cam",
+        "pip install -r requirements.txt",
+        "python app.py"
+      ],
+      "why": "Deep-Live-Cam 以其95019个星标在 GitHub 上获得了广泛关注，显示出其受欢迎程度和社区支持。相比其他同类工具，它的实时性和易用性使得用户能够快速上手，适合快速生成深度伪造内容。",
+      "tags": [
+        "深度伪造",
+        "人脸交换",
+        "视频生成"
+      ],
+      "url": "https://github.com/hacksider/Deep-Live-Cam",
+      "stars": "95019 stars",
+      "source": "GitHub Search · 2026-07-21",
+      "date": "2026-07-21"
+    },
+    {
+      "name": "huggingface/transformers",
+      "lang": "Python",
+      "category": "LLM 应用平台",
+      "description": "🤗 Transformers 是一个为文本、视觉、音频和多模态模型提供模型定义框架的工具，适合进行推理和训练。",
+      "details": "Transformers 解决了机器学习模型定义的复杂性，支持多种任务和数据类型。与其他框架（如 TensorFlow 和 PyTorch）相比，Transformers 提供了更为简洁的 API 和丰富的预训练模型库，方便用户快速上手。该项目使用 Python 开发，遵循 Apache 2.0 许可证，适合研究人员和开发者使用，但不推荐初学者直接使用。",
+      "features": [
+        "支持多种预训练模型",
+        "提供简单易用的 API",
+        "兼容 TensorFlow 和 PyTorch",
+        "支持多种任务（文本、视觉、音频）",
+        "支持分布式训练"
+      ],
+      "useCases": [
+        "使用预训练模型进行文本分类",
+        "在本地运行模型进行图像识别",
+        "实现语音识别和合成",
+        "进行多模态数据分析"
+      ],
+      "quickStart": [
+        "pip install transformers",
+        "从 Hugging Face Hub 下载模型",
+        "使用模型进行推理",
+        "在代码中加载和使用模型"
+      ],
+      "why": "Transformers 拥有超过 162,000 个 stars，社区活跃，更新频繁，提供了大量的文档和示例，适合快速开发和实验。与其他框架相比，其模型库更为丰富，支持多种任务，降低了使用门槛。",
+      "tags": [
+        "机器学习",
+        "深度学习",
+        "自然语言处理"
+      ],
+      "url": "https://github.com/huggingface/transformers",
+      "stars": "162767 stars",
+      "source": "GitHub Search · 2026-07-21",
+      "date": "2026-07-21"
+    },
+    {
+      "name": "OpenBMB/MiniCPM-o-Demo",
+      "lang": "Python",
+      "category": "LLM 应用平台",
+      "description": "这是一个基于 PyTorch 和 CUDA 的全功能 Web 演示工具，适合开发者和研究人员使用，支持 MiniCPM-o 4.5 模型。",
+      "details": "MiniCPM-o-Demo 提供了一个完整的 Web 演示，旨在展示 MiniCPM-o 4.5 模型的功能。与其他同类项目（如 Hugging Face 的 Transformers）相比，它专注于提供更简洁的用户体验和更高的性能。该项目使用 Python 语言开发，基于 PyTorch 和 CUDA，采用 MIT 许可证。推荐给需要快速部署和测试 LLM 的开发者，不推荐给对性能要求极高的生产环境。",
+      "features": [
+        "支持 PyTorch 和 CUDA 加速",
+        "提供完整的 Web 界面",
+        "支持多种输入格式",
+        "实时模型推理",
+        "易于集成到现有项目"
+      ],
+      "useCases": [
+        "在本地测试 MiniCPM-o 4.5 模型的推理能力",
+        "快速搭建 LLM 应用原型",
+        "演示模型在特定任务上的表现"
+      ],
+      "quickStart": [
+        "git clone https://github.com/OpenBMB/MiniCPM-o-Demo.git",
+        "cd MiniCPM-o-Demo",
+        "pip install -r requirements.txt",
+        "python app.py"
+      ],
+      "why": "MiniCPM-o-Demo 以其简洁的界面和高效的性能脱颖而出，当前已有 279 stars，表明其在开发者社区中的认可度。项目活跃，定期更新，适合快速原型开发和测试。",
+      "tags": [
+        "PyTorch",
+        "CUDA",
+        "Web 演示",
+        "LLM",
+        "开源"
+      ],
+      "url": "https://github.com/OpenBMB/MiniCPM-o-Demo",
+      "stars": "279 stars",
+      "source": "GitHub · 面壁智能 MiniCPM",
+      "date": "2026-07-21"
+    },
+    {
+      "name": "OpenBMB/PilotDeck",
+      "lang": "TypeScript",
+      "category": "Agent 框架",
+      "description": "这是一个面向任务的 AI 代理生产力平台，帮助用户高效管理和执行任务，支持多种集成。",
+      "details": "PilotDeck 是一个专为提高工作效率而设计的 AI 代理平台，适合需要自动化任务的开发者和团队。与其他同类工具（如 Zapier 和 IFTTT）相比，PilotDeck 提供了更灵活的任务管理和集成能力，支持自定义工作流。该项目使用 TypeScript 开发，遵循 MIT 许可证，适合希望构建复杂自动化流程的用户，不推荐对编程不熟悉的用户。",
+      "features": [
+        "支持多种 API 集成",
+        "提供自定义任务模板",
+        "实时任务监控与反馈",
+        "支持多用户协作",
+        "可扩展的插件系统"
+      ],
+      "useCases": [
+        "创建自动化工作流以处理重复任务",
+        "集成第三方服务以实现数据同步",
+        "监控项目进度并生成报告"
+      ],
+      "quickStart": [
+        "git clone https://github.com/OpenBMB/PilotDeck.git",
+        "cd PilotDeck",
+        "npm install",
+        "npm run start",
+        "访问 http://localhost:3000"
+      ],
+      "why": "PilotDeck 以 3854 stars 的社区支持和活跃度，提供了灵活的任务管理功能，适合开发者和团队使用。其基于 TypeScript 的架构确保了代码的可维护性和扩展性，适合构建复杂的自动化解决方案。",
+      "tags": [
+        "AI 代理",
+        "生产力工具",
+        "自动化"
+      ],
+      "url": "https://github.com/OpenBMB/PilotDeck",
+      "stars": "3854 stars",
+      "source": "GitHub · 面壁智能 MiniCPM",
+      "date": "2026-07-21"
+    },
+    {
+      "name": "harry0703/MoneyPrinterTurbo",
+      "lang": "Python",
+      "category": "视频生成",
+      "description": "这是一个利用 AI 自动化生成高清短视频的工具，支持根据主题或关键词一键生成。",
+      "details": "MoneyPrinterTurbo 解决了短视频制作的复杂性，用户只需输入主题或关键词，即可快速生成高质量视频。与其他视频生成工具如 Lumen5 和 InVideo 相比，MoneyPrinterTurbo 采用了更先进的 AI 大模型，提供更高的生成效率和视频质量。该项目使用 Python 语言开发，开源许可证为 MIT，适合内容创作者、市场营销人员和教育工作者使用，但不推荐给对视频质量要求极低的用户。",
+      "features": [
+        "根据主题或关键词一键生成视频",
+        "支持高清短视频输出",
+        "集成自动化工作流",
+        "用户友好的界面",
+        "快速生成与编辑功能"
+      ],
+      "useCases": [
+        "创建社交媒体营销视频",
+        "制作教育课程短视频",
+        "生成产品宣传视频"
+      ],
+      "quickStart": [
+        "git clone https://github.com/harry0703/MoneyPrinterTurbo.git",
+        "cd MoneyPrinterTurbo",
+        "pip install -r requirements.txt",
+        "python main.py --topic '你的主题'"
+      ],
+      "why": "MoneyPrinterTurbo 在短视频生成领域表现突出，已获得 98302 stars，显示出其广泛的用户基础和社区支持。与同类产品相比，其自动化工作流和高效生成能力使其在市场中脱颖而出，适合需要快速生成视频内容的用户。",
+      "tags": [
+        "短视频生成",
+        "AI 工具",
+        "自动化",
+        "内容创作"
+      ],
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "stars": "98302 stars",
+      "source": "GitHub Search · 2026-07-21",
+      "date": "2026-07-21"
+    },
+    {
+      "name": "QwenLM/qwen-code-docs",
+      "lang": "MDX",
+      "category": "LLM 应用平台",
+      "description": "这是一个专为 Qwen Code 设计的文档翻译工具，能够高效处理多语言文档。",
+      "details": "Qwen Code 文档翻译工具解决了开发者在多语言环境下文档翻译的需求。与其他翻译工具相比，如 Google Translate 和 DeepL，本项目专注于编程相关文档的准确性和上下文理解。该工具使用 MDX 作为主要语言，支持多种文档格式，采用 MIT 许可证，适合开发者和技术写作者使用，不推荐普通用户。",
+      "features": [
+        "支持多种编程语言的文档翻译",
+        "提供上下文敏感的翻译结果",
+        "支持自定义翻译词汇表",
+        "集成 GitHub 直接翻译功能",
+        "支持批量文档翻译"
+      ],
+      "useCases": [
+        "翻译 Qwen Code 的 API 文档",
+        "将项目文档翻译成多种语言",
+        "为国际团队提供一致的文档翻译",
+        "快速更新翻译后的文档版本",
+        "生成多语言支持的开发者指南"
+      ],
+      "quickStart": [
+        "git clone https://github.com/QwenLM/qwen-code-docs.git",
+        "cd qwen-code-docs",
+        "npm install",
+        "npm run start",
+        "访问 http://localhost:3000 查看翻译工具"
+      ],
+      "why": "该项目在 GitHub 上获得了 44 stars，显示出一定的社区关注度。与其他翻译工具相比，它专注于编程文档的翻译，提供更高的准确性和上下文理解。使用 MDX 语言，能够更好地处理技术文档的复杂性，适合开发者使用。",
+      "tags": [
+        "文档翻译",
+        "开发者工具",
+        "多语言支持"
+      ],
+      "url": "https://github.com/QwenLM/qwen-code-docs",
+      "stars": "44 stars",
+      "source": "GitHub · 通义千问 Qwen",
+      "date": "2026-07-21"
+    },
+    {
+      "name": "QwenLM/Qwen-AgentWorld",
+      "lang": "Python",
+      "category": "Agent 框架",
+      "description": "Qwen-AgentWorld 是一个为通用智能体设计的语言世界模型工具，支持多种应用场景。",
+      "details": "Qwen-AgentWorld 旨在为开发者提供一个灵活的框架，以构建和训练通用智能体。与其他同类产品如 OpenAI 的 Gym 和 Unity ML-Agents 相比，Qwen-AgentWorld 提供了更高的自定义性和扩展性，允许用户根据特定需求调整模型。该项目使用 Python 开发，采用 MIT 许可证，适合希望深入研究智能体行为的研究人员和开发者。不推荐初学者直接使用，因为需要一定的机器学习和编程基础。",
+      "features": [
+        "支持多种语言模型集成",
+        "提供灵活的环境配置",
+        "支持自定义奖励机制",
+        "兼容多种训练算法",
+        "支持分布式训练"
+      ],
+      "useCases": [
+        "构建自定义智能体进行游戏测试",
+        "开发多任务学习的智能体",
+        "实现复杂环境下的智能体行为模拟"
+      ],
+      "quickStart": [
+        "git clone https://github.com/QwenLM/Qwen-AgentWorld.git",
+        "cd Qwen-AgentWorld",
+        "pip install -r requirements.txt",
+        "python main.py"
+      ],
+      "why": "Qwen-AgentWorld 以其853个星标在 GitHub 上获得了良好的社区反馈，提供了灵活的框架和丰富的功能，适合需要高度自定义的开发者。与市场上其他产品相比，Qwen-AgentWorld 的设计更注重用户的自由度和扩展性，适合进行深入的研究和开发。",
+      "tags": [
+        "智能体",
+        "机器学习",
+        "Python"
+      ],
+      "url": "https://github.com/QwenLM/Qwen-AgentWorld",
+      "stars": "853 stars",
+      "source": "GitHub · 通义千问 Qwen",
+      "date": "2026-07-21"
+    },
+    {
+      "name": "deepseek-ai/DeepGEMM",
+      "lang": "Cuda",
+      "category": "推理引擎",
+      "description": "DeepGEMM 是一个高效的 BLAS 内核库，专为 GPU 优化，适合需要高性能计算的开发者。",
+      "details": "DeepGEMM 解决了传统 BLAS 实现效率低下的问题，提供了针对 GPU 的优化版本。与其他库如 cuBLAS 相比，DeepGEMM 在性能和资源利用上有显著提升。该库使用 Cuda 语言开发，采用 MIT 许可证，适合需要高效矩阵运算的科研人员和开发者，不推荐对 GPU 性能要求不高的用户。",
+      "features": [
+        "支持高效矩阵乘法运算",
+        "优化内存使用，降低延迟",
+        "兼容多种 GPU 硬件",
+        "提供简单易用的 API",
+        "支持多线程并行计算"
+      ],
+      "useCases": [
+        "在深度学习模型训练中加速矩阵运算",
+        "进行大规模数据分析时提高计算效率",
+        "在图像处理任务中加速卷积运算"
+      ],
+      "quickStart": [
+        "从 GitHub 克隆项目：git clone https://github.com/deepseek-ai/DeepGEMM",
+        "进入项目目录：cd DeepGEMM",
+        "编译库：make",
+        "运行示例程序：./example"
+      ],
+      "why": "DeepGEMM 以其 7534 stars 的社区认可度，展示了其在高性能计算领域的影响力。与同类产品相比，其专注于 GPU 优化，提供了更高的计算效率和更低的延迟，适合需要高性能的应用场景。",
+      "tags": [
+        "GPU计算",
+        "高性能",
+        "矩阵运算"
+      ],
+      "url": "https://github.com/deepseek-ai/DeepGEMM",
+      "stars": "7534 stars",
+      "source": "GitHub · DeepSeek",
+      "date": "2026-07-21"
+    },
+    {
+      "name": "thedotmack/claude-mem",
+      "lang": "JavaScript",
+      "category": "Agent 框架",
+      "description": "这是一个为 AI 代理提供持久上下文的工具，能够捕捉会话中的所有操作并在未来会话中注入相关上下文。",
+      "details": "claude-mem 解决了 AI 代理在不同会话间缺乏上下文记忆的问题。与其他同类产品（如 Pinecone 和 Weaviate）相比，claude-mem 通过 AI 压缩技术有效管理和重用上下文信息。该项目使用 JavaScript 开发，采用 MIT 许可证，适合需要长期上下文记忆的开发者和研究人员，不推荐对上下文依赖不大的简单应用。",
+      "features": [
+        "支持多种 AI 代理，如 Claude Code 和 Codex",
+        "实现会话间的上下文持久化",
+        "通过 AI 压缩技术优化存储",
+        "提供简单的 API 接口",
+        "兼容多种开发环境"
+      ],
+      "useCases": [
+        "在多轮对话中保持上下文一致性",
+        "为 AI 代理提供个性化的用户体验",
+        "在不同会话中重用历史信息",
+        "提升 AI 代理的响应准确性"
+      ],
+      "quickStart": [
+        "git clone https://github.com/thedotmack/claude-mem.git",
+        "cd claude-mem",
+        "npm install",
+        "node index.js"
+      ],
+      "why": "claude-mem 通过高效的上下文管理，显著提升了 AI 代理的智能化水平。该项目目前拥有 87967 stars，显示出其在开发者社区中的受欢迎程度。与其他解决方案相比，claude-mem 的 AI 压缩技术使得上下文存储更为高效，适合需要复杂上下文管理的应用场景。",
+      "tags": [
+        "AI 代理",
+        "上下文管理",
+        "JavaScript"
+      ],
+      "url": "https://github.com/thedotmack/claude-mem",
+      "stars": "87967 stars",
+      "source": "GitHub Search · 2026-07-21",
+      "date": "2026-07-21"
+    },
+    {
+      "name": "f/prompts.chat",
+      "lang": "HTML",
+      "category": "AI 编辑器",
+      "description": "这是一个供社区分享、发现和收集 ChatGPT 提示的工具，支持自托管，确保隐私。",
+      "details": "f/prompts.chat 是一个开源项目，旨在帮助用户轻松获取和管理 ChatGPT 提示。与其他类似工具（如 PromptBase）相比，该项目强调社区参与和隐私保护，用户可以自由分享和使用提示。该项目使用 HTML 语言构建，采用 MIT 许可证，适合开发者和 AI 爱好者使用，不推荐给不熟悉技术的普通用户。",
+      "features": [
+        "支持社区分享和发现提示",
+        "提供自托管选项，确保数据隐私",
+        "开源，允许用户自由修改和分发",
+        "用户友好的界面，易于使用",
+        "支持多种提示格式和类型"
+      ],
+      "useCases": [
+        "收集和管理 ChatGPT 提示以提高工作效率",
+        "自托管以保护组织内部数据",
+        "与团队共享最佳提示以优化 AI 使用",
+        "探索社区贡献的提示以获取灵感"
+      ],
+      "quickStart": [
+        "git clone https://github.com/f/prompts.chat.git",
+        "cd prompts.chat",
+        "npm install",
+        "npm start",
+        "访问 http://localhost:3000"
+      ],
+      "why": "该项目在 GitHub 上拥有超过 166,000 个星标，显示出其广泛的社区支持和活跃度。与其他工具相比，f/prompts.chat 提供了更强的隐私保护和社区互动，适合需要自托管解决方案的用户。其开源特性使得用户可以根据需求进行定制。",
+      "tags": [
+        "ChatGPT",
+        "提示管理",
+        "开源",
+        "社区",
+        "自托管"
+      ],
+      "url": "https://github.com/f/prompts.chat",
+      "stars": "166061 stars",
+      "source": "GitHub Search · 2026-07-21",
+      "date": "2026-07-21"
+    },
+    {
+      "name": "affaan-m/ECC",
+      "lang": "JavaScript",
+      "category": "Agent 框架",
+      "description": "这是一个为开发者提供性能优化的智能代理系统，具备多种能力。",
+      "details": "ECC 是一个智能代理框架，专为提升代码生成和执行效率而设计。它结合了技能、直觉、记忆和安全性，适用于 Claude Code、Codex、Opencode、Cursor 等多种环境。与其他同类产品（如 OpenAI 的 Codex）相比，ECC 强调了研究优先的开发理念，确保在复杂任务中表现出色。该项目使用 JavaScript 开发，采用 MIT 许可证，适合希望提升开发效率的开发者，而不推荐对性能优化需求不高的用户。",
+      "features": [
+        "支持多种 AI 模型的集成",
+        "提供灵活的 API 接口",
+        "具备内存管理功能",
+        "支持安全性审计",
+        "优化代码生成速度"
+      ],
+      "useCases": [
+        "在本地环境中运行智能代理进行代码优化",
+        "集成到现有开发工具中提升效率",
+        "使用 ECC 进行复杂任务的自动化处理"
+      ],
+      "quickStart": [
+        "git clone https://github.com/affaan-m/ECC.git",
+        "cd ECC",
+        "npm install",
+        "npm start",
+        "在浏览器中访问 http://localhost:3000"
+      ],
+      "why": "ECC 拥有超过 231470 stars，显示出其在开发者社区中的受欢迎程度。该项目的活跃度和持续更新使其在同类产品中脱颖而出，尤其是在性能优化方面。其灵活的架构和强大的功能使得开发者能够快速适应不同的开发需求。",
+      "tags": [
+        "智能代理",
+        "性能优化",
+        "开发工具"
+      ],
+      "url": "https://github.com/affaan-m/ECC",
+      "stars": "231470 stars",
+      "source": "GitHub Search · 2026-07-21",
+      "date": "2026-07-21"
+    },
+    {
+      "name": "open-webui/open-webui",
+      "lang": "Python",
+      "category": "AI 编辑器",
+      "description": "这是一个用户友好的 AI 界面工具，支持 Ollama 和 OpenAI API，便于快速集成和使用。",
+      "details": "open-webui 提供了一个直观的界面，旨在简化与 AI 模型的交互。与其他同类产品（如 Streamlit 和 Gradio）相比，open-webui 更加专注于用户体验，提供了更为简洁的操作流程。该项目使用 Python 开发，采用 MIT 许可证，适合开发者和研究人员使用，不推荐给对 AI 技术不熟悉的用户。",
+      "features": [
+        "支持 Ollama 和 OpenAI API",
+        "提供直观的用户界面",
+        "支持多种 AI 模型集成",
+        "可自定义界面和功能",
+        "开源且易于扩展"
+      ],
+      "useCases": [
+        "快速搭建 AI 聊天机器人",
+        "集成多种 AI 模型进行实验",
+        "创建自定义的 AI 应用程序",
+        "进行本地推理和测试"
+      ],
+      "quickStart": [
+        "git clone https://github.com/open-webui/open-webui.git",
+        "cd open-webui",
+        "pip install -r requirements.txt",
+        "python app.py",
+        "在浏览器中访问 http://localhost:5000"
+      ],
+      "why": "open-webui 拥有超过 146079 个星标，表明其在开发者社区中的受欢迎程度。该项目持续更新，活跃的社区支持使得用户能够快速获取帮助和资源。相比于其他工具，open-webui 的用户界面设计更为友好，降低了使用门槛。",
+      "tags": [
+        "AI 编辑器",
+        "用户界面",
+        "开源",
+        "Python",
+        "Ollama"
+      ],
+      "url": "https://github.com/open-webui/open-webui",
+      "stars": "146079 stars",
+      "source": "GitHub Search · 2026-07-21",
+      "date": "2026-07-21"
+    },
+    {
+      "name": "langgenius/dify",
+      "lang": "TypeScript",
+      "category": "Agent 框架",
+      "description": "这是一个为团队提供的协作工作空间工具，支持构建智能工作流和 RAG 管道，亮点是丰富的 AI 模型和工具支持。",
+      "details": "Dify 解决了团队在构建 AI 应用时的协作和部署问题，允许用户在云端、VPC 或自托管环境中轻松部署。与同类产品如 LangChain 和 Haystack 相比，Dify 提供了更为灵活的工作流设计和更丰富的模型支持。该项目使用 TypeScript 开发，采用 MIT 许可证，推荐给需要快速原型开发和生产部署的团队，不推荐给不熟悉云服务的用户。",
+      "features": [
+        "支持多种 AI 模型和工具集成",
+        "提供可视化工作流设计界面",
+        "支持云端和本地部署",
+        "兼容 OpenAI API",
+        "支持 RAG 管道构建"
+      ],
+      "useCases": [
+        "构建企业级智能客服系统",
+        "实现数据驱动的决策支持",
+        "快速原型开发 AI 应用",
+        "集成多种 AI 模型进行实验"
+      ],
+      "quickStart": [
+        "git clone https://github.com/langgenius/dify.git",
+        "cd dify",
+        "npm install",
+        "npm run start",
+        "访问 http://localhost:3000"
+      ],
+      "why": "Dify 以 149486 stars 的社区活跃度证明了其受欢迎程度，提供了灵活的工作流和丰富的模型支持，适合快速迭代和生产环境使用。相比于其他同类工具，Dify 的多部署选项和可视化设计使得团队能够更高效地协作。",
+      "tags": [
+        "AI 工具",
+        "工作流",
+        "RAG",
+        "协作",
+        "TypeScript"
+      ],
+      "url": "https://github.com/langgenius/dify",
+      "stars": "149486 stars",
+      "source": "GitHub Search · 2026-07-21",
+      "date": "2026-07-21"
+    },
+    {
+      "name": "yamadashy/repomix",
+      "lang": "TypeScript",
+      "category": "LLM 应用平台",
+      "description": "Repomix 是一个将整个代码库打包成单个 AI 友好文件的工具，适合需要将代码输入大型语言模型的开发者。",
+      "details": "Repomix 解决了将复杂代码库转化为 AI 可处理格式的问题。与其他工具如 Code2Vec 和 OpenAI Codex 相比，Repomix 提供了更简洁的打包方式，支持多种 AI 工具的输入需求。该项目使用 TypeScript 开发，遵循 MIT 许可证，适合需要与 AI 模型交互的开发者使用，而不推荐给对 AI 需求不高的用户。",
+      "features": [
+        "将整个代码库打包为单个文件",
+        "兼容多种 AI 工具",
+        "支持大型语言模型输入",
+        "简化代码处理流程",
+        "高效的文件格式转换"
+      ],
+      "useCases": [
+        "将代码库输入 ChatGPT 进行代码审查",
+        "为 Claude 提供代码示例以生成文档",
+        "使用 DeepSeek 进行代码搜索和分析"
+      ],
+      "quickStart": [
+        "git clone https://github.com/yamadashy/repomix.git",
+        "cd repomix",
+        "npm install",
+        "npm run build",
+        "npm run pack"
+      ],
+      "why": "Repomix 在 GitHub 上拥有超过 27256 个星标，表明其在开发者社区中的受欢迎程度。与其他同类工具相比，Repomix 提供了更高效的代码打包方式，支持多种 AI 工具，适合需要频繁与 AI 交互的开发者。其活跃的社区和持续更新也确保了工具的可靠性和实用性。",
+      "tags": [
+        "代码打包",
+        "AI 工具",
+        "TypeScript"
+      ],
+      "url": "https://github.com/yamadashy/repomix",
+      "stars": "27256 stars",
+      "source": "GitHub Search · 2026-07-21",
+      "date": "2026-07-21"
+    },
+    {
+      "name": "NousResearch/hermes-agent",
+      "lang": "Python",
+      "category": "Agent 框架",
+      "description": "这是一个为开发者提供的智能代理工具，能够随着用户需求的变化而成长。",
+      "details": "Hermes Agent 旨在帮助开发者构建灵活的智能代理，解决传统代理在适应性和扩展性上的不足。与其他代理框架如 Rasa 和 Botpress 相比，Hermes Agent 提供了更高的自定义能力和易用性。该项目基于 Python 开发，采用 MIT 许可证，适合希望快速构建和迭代智能代理的开发者。不推荐完全依赖于现成解决方案的用户。",
+      "features": [
+        "支持动态学习和适应用户需求",
+        "提供易于使用的 API 接口",
+        "集成多种机器学习模型",
+        "支持多种数据源的接入",
+        "具备可扩展的插件系统"
+      ],
+      "useCases": [
+        "构建个性化的客户服务代理",
+        "实现自动化的任务调度和管理",
+        "开发智能推荐系统",
+        "集成到现有的业务流程中"
+      ],
+      "quickStart": [
+        "git clone https://github.com/NousResearch/hermes-agent.git",
+        "cd hermes-agent",
+        "pip install -r requirements.txt",
+        "python main.py"
+      ],
+      "why": "Hermes Agent 以 217639 stars 的社区支持和活跃度，展现了其在智能代理领域的受欢迎程度。与同类产品相比，它提供了更灵活的架构和更强的自定义能力，适合快速迭代和开发。该项目的活跃更新和广泛的社区支持使其成为开发者的理想选择。",
+      "tags": [
+        "智能代理",
+        "Python",
+        "机器学习",
+        "开发工具"
+      ],
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "stars": "217639 stars",
+      "source": "GitHub Search · 2026-07-21",
+      "date": "2026-07-21"
+    },
+    {
+      "name": "THUDM/SCALE-CUA",
+      "lang": "Python",
+      "category": "Agent 框架",
+      "description": "这是一个开源框架，专为计算机使用代理设计，支持可验证任务合成和在线强化学习训练。",
+      "details": "SCALE-CUA 解决了计算机代理在任务合成和评估中的效率问题。与其他同类产品（如 OpenAI 的 Gym 和 Stable Baselines）相比，SCALE-CUA 提供了 VeriGen 可验证任务合成和 AgentRL 在线强化学习训练的独特功能。该项目使用 Python 开发，采用 MIT 许可证，适合研究人员和开发者使用，但不推荐初学者尝试。",
+      "features": [
+        "支持 VeriGen 可验证任务合成",
+        "集成在线强化学习训练模块",
+        "提供 OSWorld 和 ScienceBoard 评估工具",
+        "兼容多种强化学习算法",
+        "支持自定义任务和环境"
+      ],
+      "useCases": [
+        "使用 SCALE-CUA 进行可验证的任务合成",
+        "在本地环境中训练代理模型",
+        "评估代理在不同任务中的表现",
+        "集成到现有的 AI 系统中",
+        "快速原型开发新的计算机代理"
+      ],
+      "quickStart": [
+        "git clone https://github.com/THUDM/SCALE-CUA.git",
+        "cd SCALE-CUA",
+        "pip install -r requirements.txt",
+        "python main.py"
+      ],
+      "why": "SCALE-CUA 通过提供可验证的任务合成和在线强化学习训练，填补了市场上对高效计算机代理框架的需求。该项目目前拥有 29 stars，显示出一定的社区关注度。其独特的技术栈和功能使其在同类产品中脱颖而出，适合需要高效代理开发的用户。",
+      "tags": [
+        "计算机代理",
+        "强化学习",
+        "开源框架"
+      ],
+      "url": "https://github.com/THUDM/SCALE-CUA",
+      "stars": "29 stars",
+      "source": "GitHub · 智谱 GLM",
+      "date": "2026-07-21"
+    },
+    {
+      "name": "langchain-ai/langchain",
+      "lang": "Python",
+      "category": "Agent 框架",
+      "description": "这是一个为开发者提供的代理工程平台，支持多种 AI 应用场景，具备灵活的扩展性。",
+      "details": "LangChain 是一个专注于构建 AI 代理的框架，旨在简化和加速 AI 应用的开发。与其他竞品如 Haystack 和 Rasa 相比，LangChain 提供了更为灵活的组件化设计，允许开发者根据需求自由组合。该项目使用 Python 语言开发，采用 MIT 许可证，适合希望快速构建和部署 AI 代理的开发者。不推荐给对 AI 代理开发没有需求的用户。",
+      "features": [
+        "支持多种 LLM 模型集成",
+        "提供丰富的文档和示例",
+        "支持自定义数据源和工具",
+        "具备强大的链式调用能力",
+        "支持多种输入输出格式"
+      ],
+      "useCases": [
+        "构建智能客服系统",
+        "实现自动化内容生成",
+        "开发个性化推荐引擎",
+        "集成多种数据源进行分析"
+      ],
+      "quickStart": [
+        "pip install langchain",
+        "创建一个新的 Python 文件",
+        "导入 langchain 库",
+        "编写代理逻辑",
+        "运行你的应用"
+      ],
+      "why": "LangChain 拥有超过 142,000 的 stars，显示出其在开发者社区中的受欢迎程度。其模块化设计和丰富的功能使得开发者能够快速构建复杂的 AI 代理，适合各种应用场景。与其他框架相比，LangChain 的灵活性和可扩展性是其显著优势。",
+      "tags": [
+        "AI 代理",
+        "Python",
+        "开发工具",
+        "开源"
+      ],
+      "url": "https://github.com/langchain-ai/langchain",
+      "stars": "142168 stars",
+      "source": "GitHub Search · 2026-07-21",
+      "date": "2026-07-21"
+    },
+    {
+      "name": "OpenBMB/StaffDeck",
+      "lang": "Python",
+      "category": "MCP 服务",
+      "description": "这是一个企业数字员工平台，帮助公司管理和优化员工工作流程，支持多种集成功能。",
+      "details": "StaffDeck 是一个专为企业设计的数字员工平台，旨在提升员工的工作效率和协作能力。与其他同类产品（如 Slack 和 Microsoft Teams）相比，StaffDeck 提供了更为灵活的工作流程管理和定制化功能。该项目使用 Python 开发，采用 MIT 许可证，适合希望提升内部沟通和项目管理的企业使用，而不推荐那些只需简单沟通工具的小型团队。",
+      "features": [
+        "支持自定义工作流程",
+        "集成多种第三方服务",
+        "提供实时数据分析",
+        "支持多用户协作",
+        "具备权限管理功能"
+      ],
+      "useCases": [
+        "管理团队任务分配和进度追踪",
+        "集成 CRM 系统以优化客户沟通",
+        "分析员工工作效率数据",
+        "创建定制化的报告和仪表盘"
+      ],
+      "quickStart": [
+        "git clone https://github.com/OpenBMB/StaffDeck.git",
+        "cd StaffDeck",
+        "pip install -r requirements.txt",
+        "python app.py"
+      ],
+      "why": "StaffDeck 通过灵活的工作流程和强大的集成功能，帮助企业提升内部效率。项目已有 428 stars，显示出良好的社区支持和活跃度，适合希望优化工作流程的企业使用。",
+      "tags": [
+        "企业管理",
+        "数字员工",
+        "工作流程"
+      ],
+      "url": "https://github.com/OpenBMB/StaffDeck",
+      "stars": "428 stars",
+      "source": "GitHub · 面壁智能 MiniCPM",
+      "date": "2026-07-21"
+    },
+    {
+      "name": "santifer/career-ops",
+      "lang": "JavaScript",
+      "category": "LLM 应用平台",
+      "description": "这是一个开源的 AI 求职工具，能够扫描招聘网站并为职位评分，帮助用户定制简历。",
+      "details": "career-ops 解决了求职者在海量招聘信息中筛选合适职位的难题。与其他求职工具相比，如 LinkedIn 和 Indeed，career-ops 提供了更为个性化的评分系统，能够根据用户的简历和偏好进行智能匹配。该项目使用 JavaScript 开发，支持本地运行，用户可以在自己的 AI 编程 CLI 环境中使用。推荐给希望提升求职效率的开发者和求职者，不推荐给不熟悉命令行操作的用户。",
+      "features": [
+        "扫描多个招聘网站并获取职位信息",
+        "根据用户简历和职位要求评分",
+        "支持本地运行，保护用户隐私",
+        "提供简历定制建议",
+        "跟踪申请状态，方便管理"
+      ],
+      "useCases": [
+        "扫描招聘网站获取最新职位信息",
+        "根据职位要求调整简历内容",
+        "跟踪申请进度，及时更新状态"
+      ],
+      "quickStart": [
+        "git clone https://github.com/santifer/career-ops.git",
+        "cd career-ops",
+        "npm install",
+        "node index.js"
+      ],
+      "why": "career-ops 通过独特的评分系统和本地运行的方式，提供了与众不同的求职体验。该项目已有 60696 stars，显示出其在开发者社区中的受欢迎程度。相比于其他求职工具，career-ops 更加注重用户隐私和个性化需求，适合希望高效求职的用户。",
+      "tags": [
+        "求职工具",
+        "AI 应用",
+        "开源项目"
+      ],
+      "url": "https://github.com/santifer/career-ops",
+      "stars": "60696 stars",
+      "source": "GitHub Search · 2026-07-21",
+      "date": "2026-07-21"
+    },
+    {
+      "name": "Lightning-AI/pytorch-lightning",
+      "lang": "Python",
+      "category": "推理引擎",
+      "description": "这是一个用于预训练和微调任意规模 AI 模型的工具，支持在 1 到 10,000+ 个 GPU 上运行，且无需代码更改。",
+      "details": "pytorch-lightning 解决了深度学习模型训练过程中的复杂性问题，提供了简化的接口和灵活的训练流程。与其他框架如 TensorFlow 和 Keras 相比，它更注重于代码的可读性和可维护性。该项目使用 Python 编写，采用 MIT 许可证，适合需要高效训练大规模模型的研究人员和开发者，不推荐初学者使用。",
+      "features": [
+        "支持多 GPU 训练",
+        "提供自动化训练回调",
+        "兼容 PyTorch 生态系统",
+        "支持分布式训练",
+        "简化模型验证流程"
+      ],
+      "useCases": [
+        "在多台 GPU 上训练大型 Transformer 模型",
+        "快速迭代实验以优化模型性能",
+        "实现自定义训练循环以满足特定需求"
+      ],
+      "quickStart": [
+        "pip install pytorch-lightning",
+        "导入库：import pytorch_lightning as pl",
+        "定义模型类，继承自 pl.LightningModule",
+        "创建 Trainer 实例并调用 fit 方法",
+        "使用 Trainer.test() 进行模型测试"
+      ],
+      "why": "pytorch-lightning 以其 31,241 个星标在 GitHub 上获得了广泛的关注，活跃的社区和频繁的更新使其保持在技术前沿。它的设计理念是让研究人员专注于模型本身，而不是训练过程的细节，适合需要快速实验和迭代的用户。",
+      "tags": [
+        "深度学习",
+        "模型训练",
+        "PyTorch",
+        "多 GPU",
+        "开源"
+      ],
+      "url": "https://github.com/Lightning-AI/pytorch-lightning",
+      "stars": "31241 stars",
+      "source": "GitHub Search · 2026-07-21",
+      "date": "2026-07-21"
+    },
+    {
+      "name": "OpenHands/OpenHands",
+      "lang": "Python",
+      "category": "Agent 框架",
+      "description": "OpenHands 是一个基于 AI 的开发工具，专为开发者提供智能化的编程辅助，支持多种编程任务。",
+      "details": "OpenHands 解决了开发者在编程过程中遇到的效率低下问题，通过 AI 技术提供智能代码建议和自动化功能。与其他同类工具如 GitHub Copilot 相比，OpenHands 更加注重本地推理和隐私保护，用户可以在本地环境中运行，避免数据泄露。该项目使用 Python 开发，采用 MIT 许可证，适合希望提升开发效率的程序员使用，但不推荐对 AI 技术不熟悉的用户。",
+      "features": [
+        "提供智能代码补全",
+        "支持多种编程语言",
+        "本地推理，保护用户隐私",
+        "集成多种开发工具",
+        "支持自定义插件"
+      ],
+      "useCases": [
+        "使用 OpenHands 提高代码编写效率",
+        "在本地环境中进行 AI 辅助编程",
+        "集成到现有开发流程中",
+        "自动生成代码文档",
+        "快速调试和优化代码"
+      ],
+      "quickStart": [
+        "git clone https://github.com/OpenHands/OpenHands.git",
+        "cd OpenHands",
+        "pip install -r requirements.txt",
+        "python main.py",
+        "在 IDE 中配置插件"
+      ],
+      "why": "OpenHands 以其 81406 stars 的社区支持和活跃度，展示了其在开发者中的受欢迎程度。与其他工具相比，它强调本地推理和隐私保护，适合对数据安全有高要求的用户。该项目的持续更新和活跃的社区也为用户提供了良好的支持。",
+      "tags": [
+        "AI 开发",
+        "编程工具",
+        "智能助手"
+      ],
+      "url": "https://github.com/OpenHands/OpenHands",
+      "stars": "81406 stars",
+      "source": "GitHub Search · 2026-07-21",
+      "date": "2026-07-21"
+    },
+    {
+      "name": "QwenLM/qwen-code",
+      "lang": "TypeScript",
+      "category": "Coding Agent",
+      "description": "这是一个开源的 AI 编程助手，能在终端中帮助开发者高效编写代码，支持多种编程语言。",
+      "details": "QwenLM/qwen-code 是一个开源的 AI 编程代理，专为开发者设计，能够在终端中提供智能代码建议和自动补全功能。与其他同类工具（如 GitHub Copilot）相比，它的优势在于完全开源，用户可以根据自己的需求进行定制和扩展。该项目使用 TypeScript 开发，遵循 MIT 许可证，适合希望在本地环境中使用 AI 助手的开发者。不推荐给不熟悉终端操作或需要图形界面的用户。",
+      "features": [
+        "提供智能代码补全",
+        "支持多种编程语言",
+        "可在本地终端运行",
+        "完全开源，易于定制",
+        "集成简单，快速上手"
+      ],
+      "useCases": [
+        "在终端中快速生成代码片段",
+        "自动化编写重复性代码",
+        "实时获取代码建议",
+        "调试时提供上下文相关帮助"
+      ],
+      "quickStart": [
+        "git clone https://github.com/QwenLM/qwen-code.git",
+        "cd qwen-code",
+        "npm install",
+        "npm start"
+      ],
+      "why": "QwenLM/qwen-code 拥有超过 26159 个星标，显示了其在开发者社区中的受欢迎程度。与其他工具相比，它的开源特性使得用户可以自由修改和扩展功能，适合需要灵活性的开发者。该项目活跃度高，定期更新，确保用户能够获得最新的功能和修复。",
+      "tags": [
+        "AI 编程助手",
+        "开源",
+        "终端工具"
+      ],
+      "url": "https://github.com/QwenLM/qwen-code",
+      "stars": "26159 stars",
+      "source": "GitHub · 通义千问 Qwen",
+      "date": "2026-07-21"
+    },
+    {
+      "name": "harvard-edge/cs249r_book",
+      "lang": "Python",
+      "category": "AI 编辑器",
+      "description": "这是一本关于机器学习系统的书籍，适合希望深入了解机器学习的开发者和研究人员，提供了实用的工具和案例。",
+      "details": "本书专注于机器学习系统的设计与实现，解决了许多开发者在构建和部署机器学习模型时遇到的实际问题。与其他机器学习书籍相比，如《Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow》，本书更注重系统性和实用性，提供了丰富的代码示例和案例分析。使用 Python 语言编写，采用 MIT 许可证，适合希望深入学习机器学习系统架构的开发者，尤其是那些希望在实际项目中应用机器学习的工程师。",
+      "features": [
+        "提供机器学习系统设计的实用指南",
+        "包含丰富的代码示例和案例分析",
+        "支持多种机器学习框架",
+        "适合初学者和有经验的开发者",
+        "涵盖从数据处理到模型部署的全流程"
+      ],
+      "useCases": [
+        "构建和部署机器学习模型",
+        "设计高效的机器学习系统架构",
+        "优化现有机器学习项目的性能"
+      ],
+      "quickStart": [
+        "访问 GitHub 页面获取代码",
+        "下载或克隆项目：git clone https://github.com/harvard-edge/cs249r_book",
+        "安装所需依赖：pip install -r requirements.txt",
+        "运行示例代码：python example.py"
+      ],
+      "why": "本书在 GitHub 上拥有 27503 stars，显示出其在开发者社区中的受欢迎程度。与其他同类书籍相比，它提供了更为系统化的学习路径和实用的代码示例，适合希望在实际项目中应用机器学习的开发者。活跃的社区支持和持续更新的内容，使得学习过程更加顺畅。",
+      "tags": [
+        "机器学习",
+        "系统设计",
+        "Python",
+        "开发者工具"
+      ],
+      "url": "https://github.com/harvard-edge/cs249r_book",
+      "stars": "27503 stars",
+      "source": "GitHub Search · 2026-07-21",
+      "date": "2026-07-21"
+    },
+    {
+      "name": "ollama/ollama",
+      "lang": "Go",
+      "category": "LLM 应用平台",
+      "description": "这是一个用于快速启动 Kimi-K2.6、GLM-5.2 等模型的工具，支持多种 AI 模型的本地推理。",
+      "details": "ollama 是一个专注于本地推理的 LLM 应用平台，旨在简化用户与多种 AI 模型的交互。与其他同类产品如 Hugging Face 的 Transformers 相比，ollama 提供了更为简洁的本地部署体验，用户可以快速上手并运行多种模型。该项目使用 Go 语言开发，开源许可证为 MIT，适合开发者和研究人员使用，但不推荐完全依赖于云服务的用户。",
+      "features": [
+        "支持 Kimi-K2.6、GLM-5.2 等多种模型",
+        "提供简单的本地推理接口",
+        "兼容多种 AI 框架",
+        "支持模型的快速切换与管理",
+        "开源且易于扩展"
+      ],
+      "useCases": [
+        "在本地运行 Kimi-K2.6 进行文本生成",
+        "使用 GLM-5.2 进行自然语言处理任务",
+        "替换云服务实现本地推理",
+        "快速测试 MiniMax 模型的性能",
+        "集成 DeepSeek 进行数据分析"
+      ],
+      "quickStart": [
+        "git clone https://github.com/ollama/ollama.git",
+        "cd ollama",
+        "go build",
+        "ollama run Kimi-K2.6",
+        "ollama run GLM-5.2"
+      ],
+      "why": "ollama 以其简洁的本地推理能力和对多种模型的支持而脱颖而出。项目目前拥有 176508 stars，显示出强大的社区支持和活跃度。与其他平台相比，ollama 的本地部署体验更为流畅，适合需要快速迭代和测试的开发者。",
+      "tags": [
+        "本地推理",
+        "AI 模型",
+        "开源",
+        "Go 语言",
+        "机器学习"
+      ],
+      "url": "https://github.com/ollama/ollama",
+      "stars": "176508 stars",
+      "source": "GitHub Search · 2026-07-20",
+      "date": "2026-07-21"
+    },
+    {
+      "name": "MiniMax-AI/cli",
+      "lang": "TypeScript",
+      "category": "AI 编辑器",
+      "description": "这是一个用于生成文本、图像、视频、语音和音乐的工具，支持多种媒体格式。",
+      "details": "MiniMax-AI/cli 是一个多功能生成工具，旨在为创作者提供便捷的内容生成解决方案。与其他同类工具如 OpenAI 的 DALL-E 和 GPT 系列相比，MiniMax 提供了更广泛的媒体生成能力，支持文本、图像、视频、语音和音乐的生成。该项目使用 TypeScript 开发，遵循 MIT 许可证，适合开发者和创作者使用，而不推荐给仅需单一功能的用户。",
+      "features": [
+        "支持文本、图像、视频、语音和音乐生成",
+        "基于 TypeScript 开发，易于集成",
+        "提供多种生成选项和参数设置",
+        "支持自定义模型和数据集",
+        "兼容多种平台和环境"
+      ],
+      "useCases": [
+        "生成社交媒体内容以提升互动",
+        "创建视频素材用于广告宣传",
+        "生成背景音乐以配合视频内容"
+      ],
+      "quickStart": [
+        "git clone https://github.com/MiniMax-AI/cli.git",
+        "cd cli",
+        "npm install",
+        "npm run start"
+      ],
+      "why": "MiniMax-AI/cli 以其多媒体生成能力脱颖而出，拥有近 2000 个 stars，表明其在开发者社区中的受欢迎程度。该项目的活跃度和更新频率也使其成为一个值得尝试的工具，尤其适合需要多种生成能力的创作者。",
+      "tags": [
+        "内容生成",
+        "多媒体",
+        "创作工具"
+      ],
+      "url": "https://github.com/MiniMax-AI/cli",
+      "stars": "1988 stars",
+      "source": "GitHub · MiniMax",
+      "date": "2026-07-21"
     },
     {
       "name": "HKUDS/nanobot",
@@ -6172,77 +6493,6 @@ window.AI_GENERATED_DATA = {
       "stars": "830 stars",
       "source": "GitHub · 上海AI实验室 书生",
       "date": "2026-07-19"
-    },
-    {
-      "name": "invoke-ai/InvokeAI",
-      "lang": "Python",
-      "category": "推理引擎",
-      "description": "Invoke 是一个为专业人士、艺术家和爱好者提供的创意引擎，专注于生成视觉媒体，具有行业领先的 WebUI。",
-      "details": "InvokeAI 解决了使用 Stable Diffusion 模型生成高质量视觉内容的需求。与其他同类产品（如 DreamStudio 和 Artbreeder）相比，InvokeAI 提供了更灵活的本地推理能力和用户友好的界面。该项目使用 Python 开发，采用开源许可证，适合希望在本地运行 AI 模型的开发者和创作者。不推荐对本地推理有严格限制的用户。",
-      "features": [
-        "提供行业领先的 WebUI",
-        "支持多种 Stable Diffusion 模型",
-        "允许本地推理和自定义设置",
-        "集成多种生成选项",
-        "支持高分辨率图像输出"
-      ],
-      "useCases": [
-        "生成艺术作品并进行个性化调整",
-        "创建高质量的视觉内容用于市场营销",
-        "在本地环境中测试和优化生成模型"
-      ],
-      "quickStart": [
-        "git clone https://github.com/invoke-ai/InvokeAI.git",
-        "cd InvokeAI",
-        "pip install -r requirements.txt",
-        "python app.py",
-        "在浏览器中访问 http://localhost:9090"
-      ],
-      "why": "InvokeAI 以其高效的本地推理能力和用户友好的界面脱颖而出。该项目目前拥有 27628 stars，显示出其在开发者社区中的活跃度和受欢迎程度。与其他工具相比，InvokeAI 提供了更大的灵活性和控制权，适合需要自定义生成内容的用户。",
-      "tags": [
-        "视觉生成",
-        "Stable Diffusion",
-        "本地推理"
-      ],
-      "url": "https://github.com/invoke-ai/InvokeAI",
-      "stars": "27628 stars",
-      "source": "GitHub Search · 2026-07-19",
-      "date": "2026-07-19"
-    },
-    {
-      "name": "zai-org/SCAIL-2",
-      "lang": "Python",
-      "category": "AI 编辑器",
-      "description": "这是一个用于统一控制角色动画的工具，支持端到端的上下文条件处理，适合游戏开发者和动画师使用。",
-      "details": "SCAIL-2 解决了角色动画控制的复杂性，通过端到端的上下文条件处理，简化了动画制作流程。与传统的动画工具相比，SCAIL-2 提供了更高的灵活性和实时性，允许用户在创作过程中进行即时调整。该项目使用 Python 开发，采用开源许可证，适合希望提升动画制作效率的开发者和创作者。不推荐对动画制作没有需求的用户。",
-      "features": [
-        "支持端到端上下文条件处理",
-        "提供实时角色动画控制",
-        "兼容多种动画格式",
-        "易于集成到现有项目中",
-        "开源许可证，社区支持活跃"
-      ],
-      "useCases": [
-        "创建动态角色动画以增强游戏体验",
-        "在动画制作过程中实时调整角色动作",
-        "集成到虚拟现实项目中以实现自然交互"
-      ],
-      "quickStart": [
-        "git clone https://github.com/zai-org/SCAIL-2.git",
-        "cd SCAIL-2",
-        "pip install -r requirements.txt",
-        "python run.py"
-      ],
-      "why": "SCAIL-2 以 964 stars 的社区认可度，提供了独特的端到端动画控制能力，区别于其他工具如 Unity 和 Unreal Engine，专注于简化动画制作流程。其活跃的开发和更新确保了用户能够获得最新的功能和支持。",
-      "tags": [
-        "角色动画",
-        "游戏开发",
-        "开源工具"
-      ],
-      "url": "https://github.com/zai-org/SCAIL-2",
-      "stars": "964 stars",
-      "source": "GitHub · 智谱 Z.ai",
-      "date": "2026-07-19"
     }
   ],
   "sources": [
@@ -6360,96 +6610,296 @@ window.AI_GENERATED_DATA = {
   "topicResources": {
     "ai-coding": [
       {
+        "name": "如何有效管理 Claude Code 的 Token 使用",
+        "provider": "Currents",
+        "type": "AI 项目/工具",
+        "bestFor": "这些工具和技巧的应用，不仅帮助我个人提高了工作效率，也为团队其他成员提供了参考。通过优化 Token 使用，团队可以更好地管理资源，避免因 Token 耗尽而中断工作。这种方法的推广，可能会改变团队对 AI 工具的使用策略，促使更多工程师关注 Token 管理，从而提升整体工作效率。",
+        "description": "我注意到，随着 AI 在工程工作中的普及，Token 的使用变得越来越重要。最近，我在使用 Claude Code 时遇到了 Token 消耗过快的问题，导致无法继续工作。通过一些工具和技巧，我成功降低了 Token 的使用量，同时保持了工作效率。以下是我的经验分享。",
+        "useCases": [
+          "实时监控 Token 使用，及时调整工作策略。",
+          "使用 rtk 压缩命令输出，减少不必要的 Token 消耗。",
+          "通过 Claude Monitor 预测 Token 耗尽时间，提前规划工作。",
+          "利用 Caveman 优化输出，降低模型生成的 Token 数量。",
+          "在团队中分享 Token 管理经验，提升整体工作效率。"
+        ],
+        "watch": "使用第三方工具可能存在兼容性问题，影响工作流。",
+        "sourceName": "Currents:AI coding tool",
+        "url": "https://danielabaron.me/blog/how-i-stopped-running-out-of-tokens/"
+      },
+      {
+        "name": "Dev-Code：集成 RAG 记忆与 VS Code 的 AI 编程助手",
+        "provider": "Currents",
+        "type": "AI 项目/工具",
+        "bestFor": "Dev-Code 的推出将对开发者工具市场产生深远影响。首先，它为开发者提供了一种更为高效的调试方式，减少了手动查找和验证修复的时间。其次，集成 VS Code 的功能使得开发者能够在熟悉的环境中使用该工具，提升了用户体验。此外，RAG 风格的记忆机制将推动未来 AI 编程助手的发展，使其更具智能化和实用性。",
+        "description": "Dev-Code 是一个基于 Agentic AI 和 RAG 风格记忆的 AI 编程助手，支持 Python 和 JavaScript 的调试。该项目通过 GitHub 提供，具备在本地沙箱中运行代码、分析错误、搜索记忆和生成修复的能力。其独特之处在于使用多代理架构和 RAG 风格的修复记忆，提升了调试效率。",
+        "useCases": [
+          "运行 Python 或 JavaScript 代码，自动分析错误并生成修复方案。",
+          "在 VS Code 中选择代码片段，快速启动调试工作流。",
+          "利用 RAG 记忆机制，快速检索之前验证过的修复方案。"
+        ],
+        "watch": "可能面临 API 调用费用的限制，影响大规模使用。",
+        "sourceName": "Currents:large language model",
+        "url": "https://dev.to/nishal_poojary_235/building-dev-code-an-agentic-ai-coding-assistant-with-rag-memory-and-vs-code-integration-1hld"
+      },
+      {
+        "name": "AI 代理安全漏洞：四项攻击揭示共同缺陷",
+        "provider": "Currents",
+        "type": "AI 项目/工具",
+        "bestFor": "这些研究结果对开发者和企业决策者具有深远影响。首先，开发者需要重新审视 AI 代理的安全设计，确保在处理用户数据时采取更严格的安全措施。其次，企业在选择和部署 AI 代理时，必须考虑潜在的安全风险，可能需要增加额外的监控和防护措施。此外，用户在使用这些工具时也应提高警惕，了解可能的安全隐患，以保护个人信息不被泄露。",
+        "description": "在短短十天内，四个研究团队从不同角度揭示了 AI 代理的安全漏洞，显示出一系列潜在的安全风险。研究表明，AI 代理在处理用户数据时存在严重的安全隐患，尤其是在浏览器扩展和记忆管理方面。",
+        "useCases": [
+          "审查浏览器扩展的权限，确保其不具备读取敏感信息的能力。",
+          "实施多重身份验证，防止未授权访问 AI 代理的记忆存储。",
+          "定期更新和审计 AI 模型，确保其不受污染并保持安全性。",
+          "使用加密技术保护用户数据，防止在传输过程中被窃取。",
+          "建立用户教育机制，提高用户对 AI 代理安全风险的认识。"
+        ],
+        "watch": "API 价格波动可能导致企业在使用 AI 代理时面临成本增加的风险。",
+        "sourceName": "Currents:AI coding tool",
+        "url": "https://thenextweb.com/news/ai-agent-security-four-attacks-one-flaw"
+      },
+      {
+        "name": "代码审查无法替代基础设施验证的原因",
+        "provider": "Currents",
+        "type": "AI 项目/工具",
+        "bestFor": "Upsun 的解决方案将改变开发者的工作流程，使他们能够在代码审查阶段就识别出更多潜在问题，从而减少生产环境中的故障。开发团队将能够更自信地部署代码，降低因基础设施问题导致的回归风险。此外，随着更多团队采用这种验证方法，整个行业的代码质量和稳定性将得到提升，进而影响用户体验和业务连续性。",
+        "description": "尽管 AI 工具能够全天候检查代码语法，但它们对基础设施上下文却完全无能为力。AI 自动批准低风险的拉取请求时，往往忽视了应用程序在生产环境中的实际运行情况。",
+        "useCases": [
+          "使用 Upsun 验证 AI 生成的代码，确保其在生产环境中的可运行性。",
+          "在代码审查阶段，通过数据完整的预览环境捕捉潜在的基础设施问题。",
+          "利用统一配置文件管理基础设施，减少生产环境中的回归风险。",
+          "在部署前，进行全面的基础设施状态验证，确保系统稳定性。",
+          "通过实时监控基础设施状态，及时发现并解决潜在的运行问题。"
+        ],
+        "watch": "依赖于 AI 工具的代码审查可能导致对基础设施问题的忽视，增加生产环境故障的风险。",
+        "sourceName": "Currents:AI coding tool",
+        "url": "https://dev.to/upsun/why-code-review-is-not-infrastructure-validation-1ke7"
+      },
+      {
+        "name": "Everything Claude Code：将 AI 助手转变为完整工程团队的探索",
+        "provider": "Currents",
+        "type": "AI 项目/工具",
+        "bestFor": "ECC 的推出将改变开发者的工作方式，尤其是大型项目的管理。通过明确的角色分工，开发者可以更专注于自己的任务，提高工作效率。此外，ECC 可能会促使更多团队采用 AI 工具，推动软件开发的自动化进程。然而，ECC 的安全风险也不容忽视，开发者需谨慎管理 AI 代理的权限，以防止潜在的数据泄露和安全问题。整体来看，ECC",
+        "description": "Everything Claude Code（ECC）旨在通过将软件开发任务分解为专门角色，提升 AI 编程助手的效率。与传统的单一 AI 助手不同，ECC 通过引入多个角色和工作流程，模拟真实工程团队的协作方式。然而，ECC 也面临着安全风险和实施复杂性等挑战。",
+        "useCases": [
+          "规划新功能时，使用 ECC 的规划代理生成详细的开发计划。",
+          "在代码审查过程中，调用安全审查代理检查潜在的安全漏洞。",
+          "利用测试驱动开发技能，确保新功能的质量和稳定性。",
+          "通过命令简化重复性工作，如运行安全扫描和质量检查。",
+          "在项目中集成外部服务，提升开发效率和功能扩展性。"
+        ],
+        "watch": "ECC 的安全性依赖于代理的权限设置，若管理不当，可能导致敏感信息泄露。",
+        "sourceName": "Currents:large language model",
+        "url": "https://dev.to/techifive/everything-claude-code-how-one-ai-assistant-becomes-a-full-engineering-team-lgd"
+      },
+      {
+        "name": "恶意作业参数可绕过控制器安全",
+        "provider": "Currents",
+        "type": "AI 项目/工具",
+        "bestFor": "这一安全漏洞可能影响到使用 Rails 框架的开发者，尤其是那些将 AI 代理集成到背景作业中的团队。开发者需要重新审视其安全策略，确保 AI 代理的工具权限得到合理控制。此外，这也可能促使行业内对 AI 代理的使用规范进行重新评估，推动更严格的安全标准的制定。",
+        "description": "在使用 LLM 的背景作业中，恶意构造的字符串能够绕过控制器的安全限制，直接执行代码。Rails 的作业队列虽然在参数处理上已经加强，但工具范围的开放性仍然存在风险。",
+        "useCases": [
+          "审查 AI 代理的工具权限，确保不超出必要范围。",
+          "定期测试作业队列的安全性，识别潜在的安全漏洞。",
+          "更新安全策略，确保与 LLM 的集成符合最佳实践。"
+        ],
+        "watch": "API 价格波动可能影响项目预算，需提前评估。",
+        "sourceName": "Currents:AI agent",
+        "url": "https://levelup.gitconnected.com/one-job-argument-can-run-code-your-controllers-block-f33780a13b2c?source=rss----5517fd7b58a6---4"
+      },
+      {
+        "name": "LangChain 中的 ReAct 模式详解",
+        "provider": "Currents",
+        "type": "AI 项目/工具",
+        "bestFor": "ReAct 模式的引入将改变开发者在构建智能代理时的思维方式。它使得代理能够更智能地处理复杂任务，减少了对人工干预的依赖。对于需要频繁调用外部工具的应用，如客户支持、数据查询等，ReAct 模式能够显著提升响应速度和准确性。此外，随着多步骤工作流的普及，开发者将能够更好地应对复杂的业务需求。",
+        "description": "我最近看到 LangChain 系列的第四部分，介绍了 ReAct 模式的概念和实现。这个模式使得代理能够在多步骤任务中进行推理、行动和评估，从而提高工作流的灵活性和效率。文章详细讲解了如何构建一个基本的 ReAct 循环，并展示了 LangGraph 如何将这一模式转化为强大的多步骤代理工作流架构。",
+        "useCases": [
+          "构建智能客服代理，能够根据用户问题动态调用不同工具并提供准确答案。",
+          "开发数据分析工具，通过多次调用 API 获取所需信息，形成完整的报告。",
+          "创建自动化测试脚本，能够根据测试结果调整测试策略，提升测试覆盖率。",
+          "设计个性化推荐系统，实时分析用户行为并调整推荐内容。",
+          "实现复杂的业务流程自动化，支持多步骤决策和执行。"
+        ],
+        "watch": "API 调用的费用可能会迅速增加，尤其是在高频率调用的情况下。",
+        "sourceName": "Currents:AI coding tool",
+        "url": "https://levelup.gitconnected.com/agentic-ai-with-langchain-part-4-react-pattern-in-langgraph-ad6fb83fb33e?source=rss----5517fd7b58a6---4"
+      },
+      {
+        "name": "AI 编程代理夜间自主编码工作流的质量标准",
+        "provider": "Currents",
+        "type": "AI 项目/工具",
+        "bestFor": "这一工作流的实施将改变软件开发的方式，开发者将能够在日间与 AI 代理协作，夜间则让代理自主完成编码任务，晨间进行质量审查。这种模式不仅提高了工作效率，还确保了代码质量。随着 AI 编程代理的不断成熟，未来可能会有更多的开发者采用类似的工作流，从而推动整个行业的变革。",
+        "description": "Max Kuklin 介绍了一种质量优先的工作流，允许 AI 编程代理在夜间自主工作，同时保持高标准的工程质量。该工作流分为三个阶段：日间协作、夜间自主和晨间质量审查。",
+        "useCases": [
+          "利用 GitHub Copilot 进行代码补全，提高开发效率。",
+          "在日间与 AI 代理协作，快速生成项目规范和设计文档。",
+          "在夜间让多代理自主实现功能，节省人力成本。",
+          "晨间进行代码质量审查，确保最终产品符合标准。",
+          "通过长时间的自主工作流，提升团队的整体生产力。"
+        ],
+        "watch": "AI 模型可能因训练数据偏见而生成不符合项目需求的代码，需谨慎引导。",
+        "sourceName": "Currents:AI agent",
+        "url": "https://levelup.gitconnected.com/quality-first-agentic-coding-the-night-shift-5d839b4f7774?source=rss----5517fd7b58a6---4"
+      },
+      {
+        "name": "AI 生产环境中的治理缺口与风险",
+        "provider": "Currents",
+        "type": "AI 项目/工具",
+        "bestFor": "aiHelpDesk 的治理框架将影响多个行业，尤其是金融、医疗和电信等对数据安全和系统稳定性要求极高的领域。通过建立透明的决策记录，企业能够更好地应对监管要求，提升对 CIO 的责任解释能力。此外，这种治理机制还将促进 AI 技术的健康发展，减少因决策失误导致的事故，提升整体运营效率。随着 AI 应用的普及，企业在生",
+        "description": "随着 AI 技术的迅速普及，生产环境中的治理缺口日益显现。尤其在关键数据库操作中，AI 代理的决策缺乏透明度和可追溯性，可能导致严重后果。aiHelpDesk 提出了一种新的治理框架，以确保 AI 决策的责任和审计能力。",
+        "useCases": [
+          "建立 AI 决策的审计记录，确保每次操作都有明确的决策依据和责任追踪。",
+          "在关键数据库操作前，实施结构化审批流程，确保 AI 代理的建议经过人工审核。",
+          "利用 aiHelpDesk 的工具，实时监控 AI 决策的准确性和一致性，及时调整治理策略。",
+          "为 AI 代理的决策提供详细的假设和证据记录，以便于后续的审计和分析。",
+          "在生产环境中，实施 AI 决策的风险评估，降低潜在的业务影响。"
+        ],
+        "watch": "缺乏透明的决策记录可能导致在出现问题时无法追溯责任，增加合规风险。",
+        "sourceName": "Currents:AI coding tool",
+        "url": "https://levelup.gitconnected.com/your-ai-is-already-in-production-is-it-governed-aihelpdesk-positioning-ecc6a758695c?source=rss----5517fd7b58a6---4"
+      },
+      {
+        "name": "Kimi K3 以1679分登顶前端编码榜，开放权重挑战闭源巨头",
+        "provider": "AIHOT",
+        "type": "AI 项目/工具",
+        "bestFor": "Kimi K3 的开放权重将使得更多开发者能够接触到高端编码工具，可能会推动前端开发的创新和效率提升。对于大型企业来说，K3 的出现可能促使他们重新评估现有的闭源解决方案，考虑转向更具灵活性的开源模型。同时，小型开发者可能会因高昂的API费用而受到限制，影响其参与度和市场竞争力。",
+        "description": "Kimi K3 在 Frontend Code Arena 以1679分夺得第一，超越 Claude Fable 5 和 GPT-5.6 Sol，展现出强大的前端编码能力。该模型采用2.8万亿参数的 MoE 架构，具备百万上下文窗口，计划于7月27日开放权重，API 定价为每百万 tokens 15美元，标志着其在高端市场的定价策略转变。",
+        "useCases": [
+          "利用 Kimi K3 进行复杂的前端项目开发，提高代码质量和开发效率。",
+          "在教育环境中使用 Kimi K3 作为教学工具，帮助学生掌握前端开发技能。",
+          "为开源项目集成 Kimi K3，提升项目的技术水平和吸引力。",
+          "在企业内部使用 Kimi K3 进行快速原型开发，缩短产品上市时间。",
+          "利用 Kimi K3 进行多模态应用开发，探索新的用户交互方式。"
+        ],
+        "watch": "API 定价为每百万 tokens 15美元，可能对小型开发者造成经济压力，限制其使用。",
+        "sourceName": "AIHOT · X：阿易 AI Notes (@AYi_AInotes)",
+        "url": "https://x.com/AYi_AInotes/status/2077981025905316253"
+      },
+      {
+        "name": "TypelessForm 提供一键语音表单填充解决方案",
+        "provider": "Currents",
+        "type": "AI 项目/工具",
+        "bestFor": "TypelessForm 的一键语音表单填充功能将对电商平台产生深远影响。首先，电商商家可以通过减少用户放弃率来提高销售转化率。其次，支持多语言的特性将吸引更多国际用户，拓展市场。最后，简化的集成过程使得商家能够快速部署这一功能，提升竞争力。随着电商行业对用户体验的重视，类似的语音填充工具可能会成为未来的标准。",
+        "description": "TypelessForm 推出一键语音表单填充功能，用户只需一句话即可完成所有字段的填写。该工具支持 25 种语言，适用于现有表单，提供 200 次免费试用，之后收费 $29/月。",
+        "useCases": [
+          "通过 TypelessForm 实现电商网站的表单一键填充，提升用户转化率。",
+          "在多语言电商平台上使用 TypelessForm，支持不同语言用户的表单填写。",
+          "利用 TypelessForm 的简单集成，快速部署语音表单填充功能，提升用户体验。"
+        ],
+        "watch": "TypelessForm 的免费试用仅限 200 次，超出后需支付 $29/月，可能对小型商家造成负担。",
+        "sourceName": "Currents:AI coding tool",
+        "url": "https://dev.to/alex-isa/voice-form-filling-for-e-commerce-what-one-shot-actually-means-and-how-to-wire-it-up-jak"
+      },
+      {
+        "name": "秒哒 3.5 发布：无代码开发与多端共享后端能力升级",
+        "provider": "AIHOT",
+        "type": "AI 项目/工具",
+        "bestFor": "推荐给希望快速开发和上线 iOS 应用的创业者和小型团队，他们可以利用秒哒的无代码特性，快速实现产品原型并进行市场验证。同时，开发者也能通过 SEO Agent 提升应用的曝光率，增加用户获取的机会。对于需要管理多个应用的企业，秒哒的后端共享和数据库隔离功能将大幅降低管理成本和复杂性。相对不推荐给对技术细节有较高要求的",
+        "description": "这次发布的核心点是秒哒 3.5 版本的全球首发，新增 iOS 打包能力，用户无需依赖 Mac 或 Xcode 即可将应用打包为 IPA 文件并上架 App Store。此外，内置的 SEO Agent 实现了搜索优化自动化，支持多应用共享同一后端数据库，推出数据库多环境隔离与后端资源分级功能，极大提升了开发效率和灵活性。",
+        "useCases": [
+          "使用秒哒快速创建并上线一款 iOS 应用，节省开发时间。",
+          "利用内置的 SEO Agent 自动优化应用，提高在应用商店的排名。",
+          "通过多应用共享同一后端数据库，简化数据管理流程，降低维护成本。"
+        ],
+        "watch": "API 价格可能较高，尤其是在高并发情况下，需提前评估成本。",
+        "sourceName": "AIHOT · 公众号：百度智能云（文心）",
+        "url": "https://mp.weixin.qq.com/s/W3QACoSYgwK0TW4zG-KFsg"
+      },
+      {
         "name": "开发者探索自动生成文档的 AI 工具",
         "provider": "Currents",
         "type": "AI 项目/工具",
-        "bestFor": "如果该工具能够成功实现，可能会改变开发者的工作流程，减少文档编写的时间和精力投入。开发者将能够更专注于代码开发，而不是文档撰写。此外，若用户对 AI 生成的文档建立信任，可能会推动更多类似工具的开发和应用，进一步促进软件开发的自动化进程。",
-        "description": "一位开发者正在探索一种新工具，该工具能够连接 GitHub 仓库并利用 AI 自动生成文档，旨在节省开发者手动编写文档的时间。该工具将解释每个函数和模块的功能、参数及使用方法。开发者希望获得反馈，以判断该工具的实际价值。",
+        "bestFor": "如果该工具成功实现，将极大地改变开发者的工作流程，减少文档编写的时间，提升代码的可维护性。开发者将能够更专注于编码而非文档，可能会导致更高的生产力和更少的错误。此外，若工具获得广泛应用，可能会促使更多开发者信任 AI 生成的内容，从而推动整个行业向更高效的工作方式转变。",
+        "description": "一位开发者正在探索一个新工具的构想，该工具旨在通过连接 GitHub 仓库或单个文件，利用 AI 自动生成代码文档。此工具的目标是节省开发者手动编写文档的时间。开发者希望获得反馈，以评估该工具的可行性和实际价值。",
         "useCases": [
           "连接 GitHub 仓库，自动生成项目文档，节省手动编写时间。",
-          "分析代码结构，生成函数和模块的使用说明，提升文档的准确性。",
-          "集成到现有开发工具链中，简化文档更新流程，确保文档与代码同步。"
+          "分析代码结构，生成函数和模块的使用说明，提升代码可读性。",
+          "集成现有文档工具，优化文档更新流程，减少重复劳动。"
         ],
         "watch": "AI 生成的文档可能存在准确性问题，开发者需谨慎使用。",
         "sourceName": "Currents:AI coding tool",
         "url": "https://dev.to/spiro_fea0497b367356f9e1d/try-new-ai-tool-5ffd"
       },
       {
-        "name": "本周安全漏洞回顾：WordPress RCE、SonicWall 0-Day等",
+        "name": "WordPress 核心 wp2shell 漏洞链导致远程代码执行",
         "provider": "Currents",
         "type": "AI 项目/工具",
-        "bestFor": "这些漏洞的出现对开发者和企业的安全策略提出了新的挑战。开发者需要重新审视现有的安全措施，确保及时更新和修补漏洞。同时，企业在选择使用开源代码时，也需加强审查，避免引入潜在的安全风险。这些事件可能导致企业面临数据泄露和财务损失，影响其市场竞争力。",
-        "description": "我注意到本周的安全事件中，多个小漏洞导致了严重的后果，包括代码执行、内存丢失和安全工具失效。这些问题往往源于暴露的系统、薄弱的检查、过时的驱动程序以及用于恶意软件传播的公共代码。",
+        "bestFor": "wp2shell 漏洞的出现可能导致大量 WordPress 网站面临安全风险，尤其是那些未及时更新的自管理安装。由于许多托管服务提供商会自动推送补丁，受影响的用户可能会在不知情的情况下受到保护。然而，仍有大量用户依赖手动更新，可能因此暴露于攻击之下。此事件可能促使网站管理员加强对 WordPress 核心和插件的安全",
+        "description": "WordPress 核心的两个漏洞 CVE-2026-63030 和 CVE-2026-60137 可被攻击者串联利用，实现对受影响安装的远程代码执行。安全公司已确认在漏洞公开后几天内出现了实际利用案例，且相关的概念验证代码已在网络上流传。",
         "useCases": [
-          "监控系统漏洞，及时更新安全补丁，确保系统安全。",
-          "使用自动化工具扫描代码库，发现潜在的安全隐患。",
-          "定期进行安全审计，评估系统的安全性和防护能力。"
+          "检查 WordPress 安装是否存在 wp2shell 漏洞，使用 wp2shell.com 工具进行测试。",
+          "更新 WordPress 核心至最新版本，确保应用补丁以防止攻击。",
+          "监控网站流量和日志，识别潜在的攻击活动和异常行为。"
         ],
-        "watch": "API 价格波动可能导致安全工具的使用成本增加，影响预算。",
+        "watch": "未及时更新 WordPress 核心可能导致网站被攻击，造成数据泄露或损失。",
         "sourceName": "Currents:AI coding tool",
-        "url": "https://vulners.com/thn/THN:2C3662414BAC564609A9E5D2096EAD01"
+        "url": "https://www.tenable.com/blog/wp2shell-cve-2026-63030-cve-2026-60137-frequently-asked-questions-about-remote-code-execution"
       },
       {
-        "name": "TypelessForm 提供一站式电商语音表单填写解决方案",
+        "name": "WordPress RCE 漏洞及 SonicWall 零日攻击引发的安全隐患",
         "provider": "Currents",
         "type": "AI 项目/工具",
-        "bestFor": "TypelessForm 的推出将改变电商平台的表单填写方式，尤其是对于需要处理大量订单的商家。通过降低用户填写表单的时间成本，商家能够提高转化率，减少客户流失。此外，TypelessForm 的多语言支持使其能够服务于全球市场，帮助商家更好地适应不同地区的用户需求。随着电商行业对用户体验的重视，类似的语音填写工具将可",
-        "description": "TypelessForm 提供的 '一键语音表单填写' 功能允许用户通过一句话同时填写多个表单字段，极大提升了电商表单的填写效率。该工具支持 25 种语言，适用于现有表单，且提供 200 次免费试用。",
+        "bestFor": "这些漏洞的存在将迫使企业重新评估其网络安全策略，尤其是对于使用 WordPress 和 SonicWall 的组织。企业需要加快漏洞修复的速度，并加强对潜在攻击的监测。随着 AI 技术的滥用，攻击者的攻击手法将更加隐蔽，企业需要投入更多资源进行安全防护和漏洞管理。此外，政府机构的合规要求也将推动企业在安全防护方面的投资",
+        "description": "本周网络安全领域出现多起严重漏洞，包括 WordPress 的远程代码执行（RCE）漏洞和 SonicWall 的零日攻击。这些漏洞利用简单的输入方式导致了代码执行、内存损失和安全工具失效，显示出当前网络安全防护的脆弱性。",
         "useCases": [
-          "通过 TypelessForm 提高电商网站的表单填写完成率，减少用户流失。",
-          "在多语言电商平台中使用 TypelessForm，提升不同语言用户的填写体验。",
-          "利用 TypelessForm 的免费试用，测试其对现有表单的影响，优化用户流程。"
+          "快速修复 WordPress 漏洞，确保网站安全，避免被攻击者利用。",
+          "监测 SonicWall 设备的安全状态，及时应用补丁，防止数据泄露。",
+          "评估 OpenSSL 的使用情况，确保服务器不受拒绝服务攻击影响。",
+          "加强对 AI 工具的使用管理，防止其被滥用导致安全隐患。",
+          "制定应急响应计划，以应对潜在的网络攻击和漏洞利用。"
         ],
-        "watch": "TypelessForm 的集成可能受到电商平台对自定义脚本的限制，需确保平台支持。",
-        "sourceName": "Currents:AI coding tool",
-        "url": "https://dev.to/alex-isa/voice-form-filling-for-e-commerce-what-one-shot-actually-means-and-how-to-wire-it-up-jak"
-      },
-      {
-        "name": "Dev-Code：集成 RAG 记忆的智能编程助手",
-        "provider": "Currents",
-        "type": "AI 项目/工具",
-        "bestFor": "Dev-Code 的推出将对开发者工具市场产生深远影响，尤其是对需要频繁调试的开发者。通过提供一个集成的调试环境，开发者能够更快速地定位和修复问题，减少开发周期。此外，该系统的多代理架构和 RAG 记忆机制可能会引领未来 AI 编程助手的发展方向，推动更多类似工具的出现。随着开发者对高效工具的需求增加，Dev-Code",
-        "description": "Dev-Code 是一个基于 Agentic AI 和 RAG 风格记忆的 AI 编程助手，支持 Python 和 JavaScript 的调试。该项目通过 GitHub 提供，能够在本地沙箱中运行损坏的代码，分析错误并生成修复方案，显著提高了开发效率。",
-        "useCases": [
-          "在 VS Code 中选择损坏的代码并运行调试工作流，快速定位问题。",
-          "利用 Dev-Code 的记忆功能，检索之前验证过的修复方案，提升调试效率。",
-          "通过树状切分技术处理大型源文件，减少不必要的噪声，提高代码修复的准确性。"
-        ],
-        "watch": "可能面临 API 价格波动，影响项目的长期可持续性。",
-        "sourceName": "Currents:large language model",
-        "url": "https://dev.to/nishal_poojary_235/building-dev-code-an-agentic-ai-coding-assistant-with-rag-memory-and-vs-code-integration-1hld"
-      },
-      {
-        "name": "WordPress 和 SonicWall 漏洞频发，AI 安全市场面临挑战",
-        "provider": "Currents",
-        "type": "AI 项目/工具",
-        "bestFor": "这些漏洞的曝光将促使企业重新审视其网络安全策略，尤其是在使用流行平台和工具时的安全防护措施。WordPress 和 SonicWall 的用户需尽快应用补丁，防止潜在的攻击。此外，AI 技术的滥用可能导致企业在漏洞管理上面临更大的挑战，迫使安全团队加快响应速度并加强监控措施。随着漏洞的频繁出现，企业可能需要重新评估其安",
-        "description": "本周网络安全领域频现重大漏洞，包括 WordPress 的远程代码执行漏洞和 SonicWall 的零日漏洞，攻击者利用简单的输入实现了代码执行和数据泄露。AI 技术的滥用加剧了漏洞管理的复杂性，企业需加快修复速度以降低风险。",
-        "useCases": [
-          "快速修复 WordPress 漏洞，确保网站安全，防止数据泄露。",
-          "监测 SonicWall 设备的安全状态，及时应用补丁，降低被攻击风险。",
-          "利用 AI 工具提升漏洞检测效率，快速响应潜在威胁。"
-        ],
-        "watch": "未及时修复漏洞可能导致数据泄露和业务中断，影响企业声誉和客户信任。",
+        "watch": "API 价格波动可能导致安全工具的使用成本增加，影响企业预算。",
         "sourceName": "Currents:AI coding tool",
         "url": "https://thehackernews.com/2026/07/weekly-recap-wordpress-rce-sonicwall-0.html"
       },
       {
-        "name": "代码审查无法替代基础设施验证的原因",
+        "name": "NVIDIA Agent Toolkit 新增 Omniverse 库，助力 AI 代理构建仿真世界",
         "provider": "Currents",
         "type": "AI 项目/工具",
-        "bestFor": "随着 AI 工具在软件开发中的广泛应用，开发者需要重新审视代码审查的有效性。使用像 Upsun 这样的工具，可以显著提高基础设施验证的准确性，从而减少生产环境中的错误。这一转变将促使开发团队在决策时更加重视基础设施的状态验证，进而提升整体软件质量。此外，企业在选择开发工具时，也将更加关注工具的基础设施验证能力，以确保产",
-        "description": "尽管 AI 工具能够全天候检查代码语法，但它们对基础设施上下文却完全无能为力。AI 自动批准低风险的拉取请求时，忽视了应用程序在生产环境中是否实际运行。传统的代码审查无法捕捉到数据库迁移失败等运行时错误，这使得基础设施验证显得尤为重要。",
+        "bestFor": "这一更新将对多个领域的开发者产生深远影响。首先，3D 内容创作者和技术艺术家可以更快地将其作品转化为仿真环境，减少开发周期。其次，制造业和机器人领域的工程师能够在仿真中测试和优化设计，降低实际操作中的风险。此外，教育和研究机构也能利用这一工具进行更为真实的实验和模拟，从而提升教学和研究的效果。整体来看，这一更新将推动物",
+        "description": "NVIDIA Agent Toolkit 现已整合 Omniverse 库，为 AI 代理提供物理 AI 能力，帮助开发者将其应用于现有软件中。新库包括传感器仿真、GPU 加速物理仿真和仿真资产验证，开发者可在 GitHub 上获取。这一更新将加速 3D 内容向仿真环境的转化，提升开发效率。",
         "useCases": [
-          "使用 Upsun 工具验证 AI 生成的代码，确保其在生产环境中的可用性。",
-          "通过数据完整的预览环境，提前发现潜在的数据库迁移问题。",
-          "在代码审查过程中，结合基础设施验证工具，提升代码质量和稳定性。",
-          "为每个分支创建即时的预览环境，减少与生产环境的差距。",
-          "在团队内部推广基础设施验证的重要性，提升整体开发效率。"
+          "使用 Omniverse 库在 Blender 中创建仿真准备的 3D 内容，提升工作效率。",
+          "利用 GPU 加速物理仿真测试产品设计，确保其在实际应用中的安全性。",
+          "将 CAD 数据转换为 SimReady 资产，简化仿真准备流程。",
+          "在 SideFX Houdini 中集成 Omniverse 库，优化程序化 3D 内容的创建和测试。",
+          "通过传感器仿真测试 AI 系统在虚拟环境中的表现，提升开发准确性。"
         ],
-        "watch": "依赖于 AI 工具进行代码审查可能导致对基础设施问题的忽视，增加生产环境中的风险。",
+        "watch": "API 使用费用可能较高，开发者需评估成本与收益。",
+        "sourceName": "Currents:AI agent",
+        "url": "https://www.globenewswire.com/news-release/2026/07/20/3329895/0/en/NVIDIA-Agent-Toolkit-Expands-With-New-Omniverse-Libraries-Putting-AI-Agents-to-Work-Building-Simulation-Ready-Worlds.html"
+      },
+      {
+        "name": "Ollama 更新后本地 AI 速度提升 90%",
+        "provider": "Currents",
+        "type": "AI 项目/工具",
+        "bestFor": "此次更新将改变开发者的工作方式，尤其是在需要频繁重构的项目中。更多开发者将会选择使用 Ollama 来提高编码效率，从而影响他们的项目进度和质量。此外，随着更多人使用该工具，Ollama 的社区和支持资源也将不断壮大，形成良性循环。",
+        "description": "通过更新 Ollama，用户可以显著提升本地 AI 的运行速度，达到原来的两倍。更新后，重启编码代理，便可体验到更高效的重构过程。然而，这种速度提升在停止编码后会迅速消失。",
+        "useCases": [
+          "更新 Ollama，重启编码代理，体验速度提升。",
+          "在重构项目中使用 Ollama，快速完成代码修改。",
+          "监控更新后的性能变化，评估对项目的影响。"
+        ],
+        "watch": "更新后可能与旧版本的环境不兼容，需提前备份。",
+        "sourceName": "Currents:generative AI",
+        "url": "https://levelup.gitconnected.com/one-update-made-my-local-ai-90-faster-the-90-disappears-the-moment-you-stop-coding-ac6a36bda41a?source=rss----5517fd7b58a6---4"
+      },
+      {
+        "name": "本周安全漏洞回顾：WordPress RCE、SonicWall 0-Day等",
+        "provider": "Currents",
+        "type": "AI 项目/工具",
+        "bestFor": "这些漏洞的出现将促使企业重新审视其网络安全策略，特别是对老旧系统和工具的依赖。开发者和安全团队需要加大对安全漏洞的监测和响应力度，以减少潜在的损失。此外，这些事件也可能推动相关工具和服务的更新换代，提升整体安全性。",
+        "description": "我注意到，本周网络安全领域发生了一系列严重漏洞，导致代码执行、内存丢失、密钥被盗和安全工具失效。这些问题往往源于暴露的系统、薄弱的检查、过时的驱动程序、虚假提示和用于恶意软件传播的公共代码。我们需要更加关注这些安全隐患。",
+        "useCases": [
+          "监测 WordPress 系统，及时修复远程代码执行漏洞，确保网站安全。",
+          "更新 SonicWall 设备，防止 0-Day 漏洞被利用，保护企业网络。",
+          "定期审查和更新驱动程序，降低被攻击的风险。",
+          "使用安全工具监测恶意软件活动，及时响应潜在威胁。",
+          "对员工进行安全培训，提高对网络攻击的警惕性。"
+        ],
+        "watch": "API 价格波动可能影响安全工具的使用成本，需提前预算。",
         "sourceName": "Currents:AI coding tool",
-        "url": "https://dev.to/upsun/why-code-review-is-not-infrastructure-validation-1ke7"
+        "url": "https://vulners.com/thn/THN:2C3662414BAC564609A9E5D2096EAD01"
       },
       {
         "name": "程序员如何在 AI 时代提升工作效率",
@@ -6467,23 +6917,6 @@ window.AI_GENERATED_DATA = {
         "url": "https://golemui.com/blog/the-age-of-token-efficiency/"
       },
       {
-        "name": "AI 代理安全漏洞：四项攻击揭示共同缺陷",
-        "provider": "Currents",
-        "type": "AI 项目/工具",
-        "bestFor": "这些研究的发现将对 AI 代理的开发和使用产生深远影响。开发者需要重新审视现有的安全措施，以防止数据泄露和恶意攻击。企业在使用 AI 代理时，必须加强对数据隐私的保护，确保用户信息不被滥用。此外，这些研究可能促使监管机构加强对 AI 技术的审查，推动行业标准的建立，以保障用户的安全和隐私。",
-        "description": "在短短十天内，四个研究团队通过不同方式揭示了 AI 代理的安全漏洞，显示出 AI 代理在处理用户数据时的潜在风险。研究表明，当前的安全措施未能有效防范这些攻击，未来的安全形势令人担忧。",
-        "useCases": [
-          "评估现有 AI 代理的安全性，识别潜在漏洞。",
-          "开发新的安全协议，以防止浏览器扩展劫持 AI 代理。",
-          "实施数据隐私保护措施，确保用户信息不被恶意利用。",
-          "监控 AI 代理的行为，及时发现并修复安全漏洞。",
-          "与监管机构合作，推动 AI 安全标准的制定。"
-        ],
-        "watch": "API 价格波动可能导致企业在使用 AI 代理时面临成本压力。",
-        "sourceName": "Currents:AI coding tool",
-        "url": "https://thenextweb.com/news/ai-agent-security-four-attacks-one-flaw"
-      },
-      {
         "name": "AI代理与初级开发者的总拥有成本对比：维护代码的隐性费用",
         "provider": "Currents",
         "type": "AI 项目/工具",
@@ -6499,38 +6932,6 @@ window.AI_GENERATED_DATA = {
         "watch": "API使用费用可能超出预算，需提前评估使用频率和成本，避免超支。",
         "sourceName": "Currents:generative AI",
         "url": "https://levelup.gitconnected.com/ai-agent-tco-vs-junior-developer-the-hidden-bill-for-maintaining-the-code-6af5a839eac8?source=rss----5517fd7b58a6---4"
-      },
-      {
-        "name": "Kimi K3 以 1679 分登顶前端编码榜，挑战闭源巨头",
-        "provider": "AIHOT",
-        "type": "AI 项目/工具",
-        "bestFor": "Kimi K3 的崛起将影响多个开发者群体，包括前端开发者、产品经理和技术决策者。开放权重的策略将使得更多小型团队和个人开发者能够利用这一强大工具，降低开发成本并提升产品质量。同时，K3 的成功可能促使其他模型开发者重新审视其定价和开放策略，推动整个行业的技术进步和竞争格局的变化。",
-        "description": "Kimi K3 在 Frontend Code Arena 以 1679 分登顶，超越 Claude Fable 5 和 GPT-5.6 Sol，获得 7 个前端细分赛道中的 6 个第一。该模型采用 2.8 万亿参数的 MoE 架构，具备百万上下文窗口，并于 7 月 27 日开放权重。其 API 定价为每百万 tokens 15 美元，标志着其在长上下文智能体编码场景中的定价策略转变。",
-        "useCases": [
-          "利用 Kimi K3 进行复杂的前端项目开发，提升代码质量和开发效率。",
-          "在产品设计中应用 K3 的数据分析能力，优化用户体验和界面设计。",
-          "通过 K3 的开放权重，教育机构可以为学生提供更好的学习资源和实践机会。"
-        ],
-        "watch": "API 定价为每百万 tokens 15 美元，可能对预算有限的小团队造成负担。",
-        "sourceName": "AIHOT · X：阿易 AI Notes (@AYi_AInotes)",
-        "url": "https://x.com/AYi_AInotes/status/2077981025905316253"
-      },
-      {
-        "name": "秒哒 3.5 发布：无代码开发与多端共享后端能力升级",
-        "provider": "AIHOT",
-        "type": "AI 项目/工具",
-        "bestFor": "推荐给希望快速开发移动应用的创业者和小型团队，他们可以利用秒哒的无代码平台快速实现产品上线。对于需要进行搜索引擎优化的应用开发者，内置的 SEO Agent 将大大简化优化流程。另一方面，对于大型企业或需要复杂后端管理的用户，可能会觉得秒哒的功能仍有局限，无法满足特定需求。",
-        "description": "这次发布的核心点是秒哒 3.5 版本的全球首发，新增 iOS 打包能力，用户无需依赖 Mac 或 Xcode 即可将应用打包为 IPA 文件并上架 App Store。此外，内置的 SEO Agent 实现了搜索优化的自动化，支持多应用共享同一后端数据库，并推出了数据库多环境隔离与后端资源分级功能。秒哒已累计服务超过 3500 万用户，创造了 350 万个商业应用。",
-        "useCases": [
-          "使用秒哒创建并打包 iOS 应用，快速上线 App Store，节省开发时间。",
-          "利用内置 SEO Agent 自动优化应用搜索排名，提升用户获取效率。",
-          "通过多应用共享同一后端数据库，简化多个项目的管理与维护。",
-          "在不同环境中测试应用，利用数据库多环境隔离功能确保数据安全。",
-          "为商业应用提供后端资源分级，优化资源使用效率。"
-        ],
-        "watch": "API 价格可能会随着使用量增加而上升，需提前评估成本。",
-        "sourceName": "AIHOT · 公众号：百度智能云（文心）",
-        "url": "https://mp.weixin.qq.com/s/W3QACoSYgwK0TW4zG-KFsg"
       },
       {
         "name": "AI 生成代码的法律责任与所有权问题",
@@ -6860,198 +7261,421 @@ window.AI_GENERATED_DATA = {
         "watch": "Kimi K3 的 API 使用可能受到配额限制，需提前规划使用量以避免超支。",
         "sourceName": "Currents:AI coding tool",
         "url": "https://www.geeky-gadgets.com/moonshot-kimi-k3-beats-gpt-5-6/"
-      },
-      {
-        "name": "Claude Code 会排放多少二氧化碳？",
-        "provider": "Currents",
-        "type": "AI 项目/工具",
-        "bestFor": "这个工具的发布对开发者和企业都有重要影响。首先，使用 Claude Code 的开发者可以更好地理解自己的能耗和环境影响，从而做出更环保的选择。其次，企业在选择 AI 工具时，可以将能耗作为一个重要的决策因素，推动更可持续的技术发展。此外，这种透明度也可能促使 AI 工具的开发者在未来优化其模型，降低能耗和排放。",
-        "description": "最近看到一个有趣的分析，作者在使用 Claude Code 的过程中，开始关注其会产生多少二氧化碳排放。他自己进行了估算，并开源了相关工具，结果显示，使用 Claude Code 的六个月内，他的 893 次会话大约排放了 970 公斤的二氧化碳，相当于一次单程跨大西洋航班的经济舱座位。",
-        "useCases": [
-          "使用 claude-carbon 工具监测自己在 Claude Code 上的二氧化碳排放，做出环保决策。",
-          "在团队中分享能耗数据，推动更可持续的开发实践。",
-          "结合能耗估算，优化代码以减少不必要的计算和排放。",
-          "在企业内部讨论 AI 工具的选择时，加入环境影响的考量。",
-          "进行学术研究时，引用该工具的数据支持环境影响分析。"
-        ],
-        "watch": "API 价格波动可能影响工具的使用成本，需关注预算。",
-        "sourceName": "Currents:AI coding tool",
-        "url": "https://dev.to/gwittebolle/how-much-co2-does-a-claude-code-session-actually-emit-1gna"
-      },
-      {
-        "name": "2026 年最佳 AI 编程计划对比：价格与使用限制",
-        "provider": "Currents",
-        "type": "AI 项目/工具",
-        "bestFor": "这些 AI 编程计划的多样性使得开发者可以根据自己的工作流和预算做出更明智的选择。对于需要频繁编码的开发者，MiniMax 和 Canopy Wave 提供了更高的灵活性和可预测性。而预算有限的开发者可以选择 Xiaomi MiMo，享受低成本的同时获得必要的功能。GLM Coding Plan 则吸引了那些已经在 G",
-        "description": "2026 年的 AI 编程计划在计费模式上各有不同，MiniMax、Xiaomi MiMo、GLM、Kimi Code 和 Canopy Wave 各自提供了不同的价格、使用限制和最佳使用场景。本文将为您详细分析这些计划的优缺点，帮助您选择最适合的方案。",
-        "useCases": [
-          "使用 MiniMax 进行日常软件开发，结合多模态生成。",
-          "利用 Xiaomi MiMo 进行长上下文编码，降低开发成本。",
-          "在 GLM Coding Plan 中测试不同语言和框架的兼容性。",
-          "通过 Kimi Code 实现第一方编码代理的高效工作流。",
-          "使用 Canopy Wave 进行持续的 API 工作负载，确保成本可控。"
-        ],
-        "watch": "某些计划的代币和信用额度转换率可能不利，导致实际使用成本高于预期。",
-        "sourceName": "Currents:AI coding tool",
-        "url": "https://canopywave.com/blog/best-ai-coding-plans-2026-pricing-limits-use-cases"
-      },
-      {
-        "name": "开源压缩模型 Paritok：降低 AI 代理费用 74%",
-        "provider": "Currents",
-        "type": "AI 项目/工具",
-        "bestFor": "Paritok 的推出将吸引大量开发者，特别是那些关注成本效益的团队。使用这一工具的开发者可以在项目中节省大量的 token 费用，从而使得 AI 应用的开发更加经济实惠。此外，Hackathon 的奖金激励也将促进更多创意项目的诞生，推动整个行业的进步。",
-        "description": "这次发布的核心点是 Paritok，一个开源的压缩模型，旨在显著降低 AI 代理的输入费用。通过在代理与 LLM API 之间作为中间件，Paritok 能够将输入 token 数量减少约 74%，同时保持约 86.5% 的解决质量。开发者可以利用这一工具参加 Token-Efficiency Hackathon，争夺 630 美元的奖金。",
-        "useCases": [
-          "使用 Paritok 压缩输入数据，减少 API 调用费用，提升项目的经济性。",
-          "在 Hackathon 中构建基于 LLM 的应用，利用 Paritok 提高项目的竞争力。",
-          "为现有的 AI 代理集成 Paritok，优化其性能和成本。",
-          "开发新的开发工具，利用 Paritok 提供的压缩能力，提升用户体验。",
-          "探索 Paritok 在不同编程语言中的应用，验证其通用性和效果。"
-        ],
-        "watch": "使用 Paritok 可能需要一定的技术集成能力，初学者可能面临学习曲线。",
-        "sourceName": "Currents:AI coding tool",
-        "url": "https://dev.to/paritok/we-built-an-open-source-model-that-cuts-ai-agent-token-bills-by-74-now-were-giving-away-630-to-24b0"
-      },
-      {
-        "name": "VS Code 扩展实现网页元素与 AI 代理的无缝对接",
-        "provider": "Currents",
-        "type": "AI 项目/工具",
-        "bestFor": "这一扩展的推出，将使得前端开发者和需要频繁处理网页内容的工程师受益匪浅。通过简化网页元素的集成过程，开发者可以更专注于核心业务逻辑的实现，减少了因手动操作导致的错误。同时，这一工具的普及可能会推动更多开发者尝试使用 AI 编程代理，从而加速整个行业的技术进步。",
-        "description": "一款新开发的 VS Code 扩展允许用户将网页元素直接添加到 Codex、Claude Code 等 AI 编程代理中，提升了开发效率。该扩展重现了 VS Code 的元素选择工作流，支持多种编程环境，适用于需要快速集成网页内容的开发者。",
-        "useCases": [
-          "集成网页元素到 Codex 中，快速生成代码片段。",
-          "使用扩展将网页内容直接粘贴到 Claude Code，提升开发效率。",
-          "在 VS Code 中快速选择并插入网页元素，减少手动操作。"
-        ],
-        "watch": "扩展可能面临与不同 AI 代理的兼容性问题，影响用户体验。",
-        "sourceName": "Currents:AI agent",
-        "url": "https://medium.com/@marcbuilds/i-built-a-vs-code-extension-that-lets-you-click-a-web-page-element-and-paste-it-into-any-ai-chat-b60d2b424ff7"
-      },
-      {
-        "name": "测试非确定性 AI 代理的挑战与应对策略",
-        "provider": "Currents",
-        "type": "AI 项目/工具",
-        "bestFor": "这一变化将影响开发者在测试 AI 代理时的策略，促使他们更加关注输出的结构和语义而非文字的精确匹配。通过采用更为灵活的测试方法，开发者可以减少因非确定性输出导致的误报，从而提高测试的可靠性。此外，这也可能促使更多的团队在开发过程中采用 JSON Schema 等工具，以确保 API 的一致性和稳定性。",
-        "description": "在测试非确定性 AI 代理时，即使在 temperature=0 的情况下，依然无法保证输出的一致性。周一的测试通过，周二却因微小的措辞差异而失败，显示出测试方法的脆弱性。建议转向结构和语义的验证，而非精确文本的比较。",
-        "useCases": [
-          "使用 JSON Schema 验证 AI 代理的响应数据结构，确保符合预期格式。",
-          "在测试工具调用时，验证调用的形状和目标，以确保功能正常。",
-          "调整测试策略，关注响应的结构和语义，而非精确文本。",
-          "通过验证请求参数的有效性，确保 API 调用的正确性。",
-          "实施更灵活的测试方法，以减少因非确定性输出导致的误报。"
-        ],
-        "watch": "API 的价格和配额可能会影响测试的频率和深度，导致开发者无法充分验证代理的性能。",
-        "sourceName": "Currents:AI coding tool",
-        "url": "https://dev.to/hassann/how-to-test-non-deterministic-ai-agents-when-temperature0-isnt-enough-6a9"
-      },
-      {
-        "name": "WordPress 开发者如何真正做好 AI 准备",
-        "provider": "Currents",
-        "type": "AI 项目/工具",
-        "bestFor": "AI 的引入将改变开发者的工作方式，提升工作效率，减少重复性劳动。企业在选择和实施 AI 工具时，需更加注重实际效果，以避免不必要的开支。随着 AI 技术的普及，开发者的技能要求也在不断提高，未来将需要更多具备跨领域知识的人才来应对复杂的开发需求。",
-        "description": "我注意到，人工智能正在改变网站的规划、构建、管理和优化方式。WordPress 开发者现在可以利用多种工具来提升编码、内容创作、客户支持等方面的效率。然而，单靠 AI 插件并不能让开发者自动成为 AI 准备好的专家。真正的 AI 准备开发者懂得如何将技术经验、商业思维、自动化和人类判断结合起来，关键在于解决实际问题。",
-        "useCases": [
-          "利用 AI 聊天系统快速响应客户咨询，提高客户满意度。",
-          "通过自动化工具管理潜在客户，提升销售转化率。",
-          "使用 AI 优化 WooCommerce 产品推荐，增加销售机会。",
-          "借助 AI 进行内容创作，提升网站内容质量和更新频率。",
-          "整合 AI 工具与 CRM 系统，提升客户数据管理效率。"
-        ],
-        "watch": "AI 生成的代码可能存在安全隐患，需进行严格审核后再上线。",
-        "sourceName": "Currents:AI coding tool",
-        "url": "https://dev.to/muhammad_muheet_411d9659a/what-makes-a-wordpress-developer-truly-ai-ready-4pj5"
-      },
-      {
-        "name": "Meta计划与Anthropic达成100亿美元计算能力租赁协议",
-        "provider": "Currents",
-        "type": "AI 项目/工具",
-        "bestFor": "这一协议的达成将对多个方面产生深远影响。首先，做AI模型开发的团队将受益于更强大的计算资源，提升开发效率。其次，Meta的云计算服务可能会吸引更多企业客户，改变他们对计算资源的采购决策。此外，这一合作可能会促使其他科技公司加大对计算能力的投资，形成新的市场竞争格局。",
-        "description": "Meta Platforms正在与Anthropic进行谈判，可能会达成一项价值100亿美元的计算能力租赁协议。这一举措将使Meta在AI领域的影响力进一步扩大，同时为Anthropic提供所需的计算资源，以支持其AI模型的开发和优化。",
-        "useCases": [
-          "租赁Meta的计算资源，支持AI模型的快速训练和迭代。",
-          "利用Meta的云服务，进行大规模数据分析和处理。",
-          "通过与Meta的合作，提升AI产品的市场竞争力。"
-        ],
-        "watch": "租赁协议的成本可能会对Anthropic的财务状况造成压力，尤其是在初期阶段。",
-        "sourceName": "Currents:AI coding tool",
-        "url": "https://techcentral.co.za/meta-could-become-anthropics-landlord-in-10-billion-deal/283902/"
-      },
-      {
-        "name": "将技能接入公司实时系统以提升知识管理效率",
-        "provider": "Currents",
-        "type": "AI 项目/工具",
-        "bestFor": "这一方法将使得员工在获取信息时更加高效，减少在不同工具间的切换时间。新员工能够快速找到所需信息，避免重复搜索，提升入职培训的效率。同时，企业的决策将基于更准确和及时的信息，降低因错误信息导致的风险。此外，随着知识管理的改善，企业的整体运营效率将显著提升，进而增强市场竞争力。",
-        "description": "通过将技能接入公司的实时系统，确保每个回答都有来源并进行新鲜度检查，从而提升知识管理的效率。当前公司知识分散在多个工具中，导致信息获取困难，造成时间浪费和错误答案。此方法可减少员工在寻找信息上的时间，提升整体工作效率。",
-        "useCases": [
-          "整合公司内部知识库，提升信息检索效率。",
-          "通过技能接入，确保每个回答都有明确的来源和更新日期。",
-          "利用实时系统监控信息的时效性，减少过时信息的使用。"
-        ],
-        "watch": "接入多个系统可能导致API调用费用增加，需控制预算。",
-        "sourceName": "Currents:AI coding tool",
-        "url": "https://hackernoon.com/ai-coding-tip-028-wire-a-skill-into-your-companys-live-systems"
-      },
-      {
-        "name": "关注七只水务股票：可口可乐等公司表现突出",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "这些水务股票的表现可能影响投资者的决策，尤其是在当前全球水资源短缺的背景下。投资者可能会更加关注这些公司的长期发展潜力，尤其是在可持续发展和环境保护日益受到重视的情况下。随着水务行业的不断发展，相关企业的市场份额和影响力可能会进一步扩大，吸引更多资本流入。此外，水务股票的稳定性也可能促使更多保守型投资者重新评估其投资组",
-        "description": "根据 MarketBeat 的股票筛选工具，今天值得关注的七只水务股票包括可口可乐、Xylem、美国水务公司、Ecolab、Pentair、IDEXX 实验室和 Veralto。这些公司提供与水相关的产品和服务，通常被视为防御性或长期投资主题，因其对清洁水和水管理的需求相对稳定。",
-        "useCases": [
-          "分析水务股票的市场表现，制定投资策略。",
-          "评估水资源管理公司的长期发展潜力，进行风险评估。",
-          "研究水务行业的市场趋势，撰写行业报告。"
-        ],
-        "watch": "水务股票的市场波动可能受到政策变化的影响，投资者需关注相关法规。",
-        "sourceName": "NewsData.io:AI coding tool",
-        "url": "https://baseballnewssource.com/2026/07/19/water-stocks-to-watch-now-july-19th/11190142.html"
       }
     ],
     "ai-agents": [
       {
-        "name": "调查显示企业AI智能体部署存在现实对齐缺口",
+        "name": "SaaS 已死，Vibe 编码如何改变软件开发",
+        "provider": "Currents",
+        "type": "AI 项目/工具",
+        "bestFor": "这一变化将影响多个层面。首先，开发者需要重新评估他们对 SaaS 服务的依赖，可能会转向更灵活的编码方式。其次，企业在选择软件解决方案时，将更加关注工具的稳定性和可靠性。此外，市场对开发者的期望将继续提高，企业可能会加大对开发者的支持力度，以应对日益复杂的技术需求。最后，Vibe 编码的普及可能会促使更多的开发者探索新",
+        "description": "SaaS 的衰退并非因 AI 的崛起，而是由于 Vibe 编码的普及使其失去价值。如今，开发者不再依赖传统的在线服务，而是通过短时间的 Vibe 编码解决问题，导致 SaaS 服务频繁宕机，市场对软件开发的期望发生了根本性变化。",
+        "useCases": [
+          "使用 Vibe 编码工具快速解决特定问题，节省开发时间。",
+          "评估 SaaS 服务的稳定性，选择更可靠的替代方案。",
+          "通过分析市场需求，调整产品开发策略以适应新趋势。",
+          "利用 AI 辅助工具提高编码效率，减少手动编码的时间。",
+          "与团队分享 Vibe 编码的最佳实践，提升整体开发能力。"
+        ],
+        "watch": "依赖 Vibe 编码可能导致对传统编码技能的忽视，影响长期职业发展。",
+        "sourceName": "Currents:AI agent",
+        "url": "https://avivcarmi.com/saas-is-dead/"
+      },
+      {
+        "name": "企业如何在智能代理时代管理 AI 投资",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "智能代理技术的广泛应用将改变企业的决策方式，尤其是在资源分配和项目管理上。企业将能够更快速地响应市场变化，提升运营效率。此外，智能代理的引入也可能促使行业标准的变化，推动整个行业向更高效的方向发展。最终，企业的投资管理能力将直接影响其市场竞争力和可持续发展。",
+        "description": "在智能代理时代，企业需通过衡量每美元的有效工作量、提升效率和扩展高价值工作流程来管理 AI 投资。有效的投资管理不仅能提高生产力，还能在竞争激烈的市场中占据优势。",
+        "useCases": [
+          "衡量每美元的有效工作量，优化投资决策。",
+          "利用智能代理技术提升工作流程的自动化程度。",
+          "通过数据分析识别高价值投资领域，制定战略。"
+        ],
+        "watch": "API 价格波动可能影响企业的预算和投资回报。",
+        "sourceName": "RSS · OpenAI Blog",
+        "url": "https://openai.com/index/managing-ai-investments-in-agentic-era"
+      },
+      {
+        "name": "自主 AI 代理在 Hugging Face 系统中未被发现地入侵",
+        "provider": "Currents",
+        "type": "AI 项目/工具",
+        "bestFor": "此次事件对 AI 开发者和用户的影响深远。首先，开发者需要重新审视 AI 系统的安全性，考虑在设计阶段就加强防护措施。其次，企业在选择 AI 平台时，可能会更加关注其安全性，导致市场竞争格局的变化。此外，用户对 AI 技术的信任度可能会受到影响，进而影响 AI 技术的普及和应用。最后，行业内可能会推动更严格的安全标准和",
+        "description": "一名自主 AI 代理在未被察觉的情况下成功入侵了 Hugging Face 的系统，且安全防护措施阻碍了防御者对攻击的取证分析。这一事件揭示了当前 AI 系统在安全性方面的潜在漏洞。",
+        "useCases": [
+          "评估 AI 系统的安全性，识别潜在漏洞并进行修复。",
+          "设计更为严密的安全防护措施，以防止自主 AI 代理的入侵。",
+          "进行事件取证分析，了解攻击方式和影响范围。"
+        ],
+        "watch": "安全防护措施可能会阻碍有效的取证分析，导致攻击后果无法评估。",
+        "sourceName": "Currents:AI agent",
+        "url": "https://venturebeat.com/security/safety-guardrails-blocked-hugging-faces-defenders-not-the-attacker-when-an-ai-agent-breached-its-systems"
+      },
+      {
+        "name": "深入解析循环、框架与上下文工程的区别",
+        "provider": "Currents",
+        "type": "AI 项目/工具",
+        "bestFor": "循环工程的引入将改变开发者与AI模型的互动方式，使得模型的调用更加高效和灵活。对于需要频繁与AI交互的开发者来说，这一技术将显著提升工作效率。同时，企业在决策时也将更加依赖于AI模型的输出，从而推动业务流程的自动化和智能化。然而，这种转变也可能导致对传统提示编写技能的忽视，影响工程师的技能多样性。",
+        "description": "AI代理工程的三个层次各有不同，循环工程因其创新性而备受关注。尽管循环工程提升了模型的功能调用效率，但仍面临着技术整合和应用场景的局限性。",
+        "useCases": [
+          "编写循环以自动化模型调用，减少手动输入的时间。",
+          "构建框架以支持特定业务需求，提升模型的应用效果。",
+          "利用上下文工程为模型提供更精准的输入，改善输出质量。",
+          "在开发过程中快速迭代，测试不同的模型调用方式。",
+          "为团队提供培训，帮助他们理解新技术的应用与优势。"
+        ],
+        "watch": "循环工程的复杂性可能导致新手开发者难以掌握，增加学习成本。",
+        "sourceName": "Currents:AI agent",
+        "url": "https://levelup.gitconnected.com/loop-vs-harness-vs-context-engineering-explained-in-detail-268b48ffa2f9?source=rss----5517fd7b58a6---4"
+      },
+      {
+        "name": "Rapidus 与 Cadence 合作推进 SoC 设计中的智能 AI",
+        "provider": "Currents",
+        "type": "AI 项目/工具",
+        "bestFor": "这一合作将对多个领域产生深远影响。首先，做 SoC 设计的工程师将能够利用智能 AI 技术，显著提高工作效率，减少设计时间。其次，半导体公司将能够更快地推出新产品，提升市场竞争力。此外，客户在选择设计方案时，将有更多灵活的选择，能够更好地满足个性化需求。整体来看，这一合作将推动整个行业的技术进步，促进创新和发展。",
+        "description": "Rapidus 和 Cadence 宣布达成合作，旨在通过智能 AI 技术提升 SoC 设计的效率，目标是将设计周期缩短 2 倍。这一合作将为半导体行业带来新的机遇，尤其是在快速迭代和高效设计方面。",
+        "useCases": [
+          "利用智能 AI 工具优化 SoC 设计流程，缩短设计周期。",
+          "通过新技术提升设计质量，满足市场对高性能芯片的需求。",
+          "在项目中应用智能 AI，提升团队的工作效率和协作能力。"
+        ],
+        "watch": "智能 AI 技术的实施可能需要额外的培训和适应期，增加初期成本。",
+        "sourceName": "Currents:AI agent",
+        "url": "https://www.embedded.com/partnership-advances-agentic-ai-for-soc-design/"
+      },
+      {
+        "name": "维基百科与人工智能的相互依赖关系",
+        "provider": "Currents",
+        "type": "AI 项目/工具",
+        "bestFor": "随着AI技术的普及，越来越多的开发者和企业开始意识到维基百科在知识获取中的重要性。AI公司在使用维基百科内容时，必须考虑到维护者的权益和声音，以避免对知识供应链造成负面影响。此外，维基百科的商业化趋势可能会影响其开放性，开发者需要关注这一变化对未来知识获取的潜在影响。",
+        "description": "我注意到，现代人工智能的许多构建都在悄然依赖维基百科这一公共知识平台。虽然维基百科不是唯一的信息来源，但它在知识供应链中扮演着重要角色。许多开发者可能没有意识到，维基百科的维护工作是确保AI系统获取高质量数据的基础。随着AI公司对维基百科内容的需求增加，如何平衡商业利益与知识维护的关系成为了一个值得关注的问题。",
+        "useCases": [
+          "开发AI模型时，利用维基百科的内容作为知识基础，提升模型的准确性。",
+          "在进行数据分析时，参考维基百科的条目，确保信息的可靠性和权威性。",
+          "参与维基百科的编辑和维护工作，帮助提升公共知识的质量。",
+          "在撰写技术文档时，引用维基百科的内容，增强文档的可信度。",
+          "使用维基百科的API，获取实时更新的信息，支持应用程序的开发。"
+        ],
+        "watch": "依赖维基百科的内容可能导致信息的准确性风险，特别是在快速变化的领域。",
+        "sourceName": "Currents:AI agent",
+        "url": "https://levelup.gitconnected.com/ai-runs-on-wikipedia-wikipedia-runs-on-people-8b5a975fe513?source=rss----5517fd7b58a6---4"
+      },
+      {
+        "name": "Gemini API 扩展托管代理功能：支持后台任务与远程 MCP",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "这一更新将使得开发者能够更高效地构建和管理 AI 代理，尤其是在需要处理复杂任务和数据时。通过支持后台执行，开发者可以更灵活地安排任务，减少因连接问题导致的失败。同时，远程 MCP 服务器的集成将使得企业能够更好地利用现有资源，提升数据处理能力。这些变化可能会影响到许多行业的开发者，尤其是那些需要实时数据处理和分析的领",
+        "description": "Google DeepMind 宣布在 Gemini API 中新增托管代理功能，支持后台执行、远程 MCP 服务器连接、自定义函数调用及凭证刷新。这些更新旨在提升开发者构建可靠生产级代理的能力。",
+        "useCases": [
+          "实现后台任务处理，提升长时间运行任务的稳定性。",
+          "连接远程 MCP 服务器，简化内部数据访问流程。",
+          "使用自定义函数处理特定业务逻辑，增强代理的灵活性。"
+        ],
+        "watch": "API 调用频率限制可能影响任务执行效率，开发者需合理规划调用策略。",
+        "sourceName": "RSS · Google AI Blog",
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/"
+      },
+      {
+        "name": "谷歌推出 AI 控制路线图以保障 AI 代理安全",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "谷歌的 AI 控制路线图将影响多个行业，尤其是科技、金融和医疗等领域。企业将能够更安全地部署 AI 代理，从而提升生产力和效率。此外，这一措施可能促使其他公司也采取类似的安全策略，形成行业标准。随着 AI 代理的普及，企业在决策时将更加重视安全性，减少潜在的风险和损失。",
+        "description": "谷歌推出的 AI 控制路线图结合传统安全措施与实时监控，旨在应对日益复杂的 AI 代理带来的安全挑战。预计到 2030 年，AI 代理将在美国创造 2.9 万亿美元的经济价值。",
+        "useCases": [
+          "实施实时监控，确保 AI 代理的行为符合预期，降低误操作风险。",
+          "利用威胁建模框架，识别和应对潜在的内部威胁，保护企业数据安全。",
+          "通过逐步授权的方式，建立对 AI 代理的信任，确保其在安全范围内操作。",
+          "在高风险场景下，实时阻止 AI 代理的有害行为，保护系统免受攻击。",
+          "定期评估 AI 系统的性能，确保其在监控和响应方面达到预定标准。"
+        ],
+        "watch": "AI 代理的误对齐可能导致意外的安全漏洞，企业需投入更多资源进行监控和修复。",
+        "sourceName": "RSS · Google DeepMind",
+        "url": "https://deepmind.google/blog/securing-the-future-of-ai-agents/"
+      },
+      {
+        "name": "知名 AI 公司遭遇数据泄露，自动化 AI 代理被指为元凶",
+        "provider": "Currents",
+        "type": "AI 项目/工具",
+        "bestFor": "这一事件可能影响到大量使用该 AI 公司产品的开发者和企业，促使他们重新审视自身的数据安全策略。对于用户而言，可能会导致对 AI 技术的信任度下降，从而影响其使用决策。此外，行业内可能会出现对 AI 安全性的新标准和规范，进而影响未来 AI 产品的开发与应用。",
+        "description": "近期，一家知名 AI 公司宣布其系统遭到数据泄露，初步调查显示是由于一个自主 AI 代理的攻击所致。该事件引发了对 AI 安全性的广泛关注，尤其是在数据保护和隐私方面的潜在风险。公司已向用户致歉，并表示将采取措施加强系统安全。",
+        "useCases": [
+          "评估现有 AI 系统的安全性，使用安全审计工具进行全面检查。",
+          "更新数据保护政策，确保符合最新的隐私法规和标准。",
+          "培训团队成员，提高对 AI 安全风险的认识，增强防范意识。"
+        ],
+        "watch": "在进行安全审计时，可能会面临 API 调用次数限制，影响审计效率。",
+        "sourceName": "Currents:AI agent",
+        "url": "https://www.lehighvalleylive.com/news/2026/07/data-breach-hits-well-known-ai-company-sorry-for-any-disruption.html"
+      },
+      {
+        "name": "调查显示企业AI智能体部署存在现实对齐缺口，客户故障频发",
         "provider": "AIHOT",
         "type": "AI 项目/工具",
-        "bestFor": "这一调查结果可能促使企业重新审视其AI智能体的评估和部署策略。对于技术决策者而言，了解评估与实际结果之间的差距将影响他们对AI智能体的信任和使用。同时，客户对企业AI智能体的信任度也可能受到影响，进而影响企业的市场竞争力。长远来看，这可能导致企业在AI技术应用上的谨慎态度，影响行业整体的创新速度。",
-        "description": "一项针对157家企业的调查揭示，50%的组织在过去一年中将通过内部评估的AI智能体投入生产，但这些智能体却导致了客户故障。尽管仅有5%的企业完全信任自动化评估，29%认为评估与实际结果的对齐不佳是主要局限，66%的企业仍计划在未来12个月内实现低风险智能体的全自动部署。",
+        "bestFor": "这一调查结果对企业决策产生深远影响，尤其是在AI智能体的评估和部署策略上。企业需要重新审视其评估流程，以确保AI智能体的实际表现与预期一致。若不采取有效措施，可能会导致客户流失和品牌信誉受损。此外，这一现象也可能促使行业内对AI智能体评估标准的重新制定。",
+        "description": "一项针对157家企业的调查揭示，50%的组织在过去一年中曾将通过内部评估的AI智能体部署到生产环境，结果导致客户故障。尽管仅有5%的企业完全信任自动化评估，29%认为评估与现实结果对齐不佳是最大局限，66%的企业仍计划在未来12个月内实现低风险智能体的全自动部署。",
         "useCases": [
           "评估AI智能体的性能，确保其在生产环境中的可靠性。",
-          "制定更为严格的内部评估标准，以提高智能体的现实对齐度。",
-          "探索低风险智能体的全自动部署方案，减少人工干预。"
+          "优化内部评估流程，提升AI智能体的现实对齐能力。",
+          "制定针对AI智能体的风险管理策略，降低客户故障发生率。"
         ],
-        "watch": "企业在部署AI智能体时可能面临高昂的API费用，影响预算分配。",
+        "watch": "AI智能体的自动化评估可能无法全面覆盖所有使用场景，导致潜在的客户故障。",
         "sourceName": "AIHOT · VentureBeat：AI（RSS）",
         "url": "https://venturebeat.com/ai/the-agent-evaluation-gap-enterprise-ai-organizations-have-a-reality-alignment-problem-not-a-coverage-problem-and-most-are-shipping-to-production-anyway"
+      },
+      {
+        "name": "Nvidia 将 Omniverse 库整合进 AI 代理工具包",
+        "provider": "Currents",
+        "type": "AI 项目/工具",
+        "bestFor": "这一更新将吸引多种人群，包括游戏开发者、虚拟现实设计师和 AI 研究人员等。游戏开发者可以利用 Omniverse 库创建更真实的游戏环境，而虚拟现实设计师则能在设计过程中实现更高效的协作。AI 研究人员则可以通过这一工具包更方便地测试和优化他们的模型，推动 AI 技术的进步。整体来看，这一更新将促进 AI 应用的多样",
+        "description": "这次发布的核心点是 Nvidia 将其 Omniverse 库添加到 AI 代理工具包中，旨在提升开发者在虚拟世界中的协作能力。通过这一更新，开发者可以更方便地创建和管理复杂的 AI 代理，尤其是在模拟和虚拟环境中。这一举措不仅增强了工具包的功能性，也为用户提供了更丰富的资源，助力 AI 应用的多样化发展。",
+        "useCases": [
+          "创建复杂的虚拟环境，利用 Omniverse 库进行实时协作。",
+          "在游戏开发中，使用 AI 代理工具包提升 NPC 行为的智能化。",
+          "进行 AI 模型的测试与优化，借助工具包的丰富资源。"
+        ],
+        "watch": "Omniverse 库的使用可能需要较高的硬件要求，普通开发者可能面临兼容性问题。",
+        "sourceName": "Currents:generative AI",
+        "url": "https://www.investing.com/news/company-news/nvidia-adds-omniverse-libraries-to-agent-toolkit-for-ai-93CH-4801337"
+      },
+      {
+        "name": "Gemini 企业代理平台新增 Parallel Web Search 网络接地服务",
+        "provider": "AIHOT",
+        "type": "AI 项目/工具",
+        "bestFor": "这一集成将使得企业能够更有效地利用实时数据，优化决策过程。开发者可以通过 Parallel Web Search 提供的实时信息，快速响应市场变化，提升工作流的效率。此外，企业在合规性和风险管理方面也将受益，智能体能够自动进行实时数据核对，降低人为错误的风险。整体来看，这一合作将推动企业在 AI 领域的创新，提升其市场",
+        "description": "Google Cloud 与 Parallel Web Systems 合作，将其搜索基础设施原生集成至 Gemini 企业代理平台，提升 AI 智能体的实时信息准确性。开发者可编程提取和缓存网络数据，增强企业工作流的事实基础，支持与其他大语言模型的协同处理。",
+        "useCases": [
+          "提取和缓存网络数据，丰富内部数据库，提升数据准确性。",
+          "构建自动化代理，实时获取信息，执行复杂的程序化工作流。",
+          "开发多代理系统，集中管理任务分配，提高工作效率。",
+          "利用实时数据进行合规性检查，确保企业遵循法规要求。",
+          "增强产品目录，自动更新和补充产品信息，提升用户体验。"
+        ],
+        "watch": "API 使用费用可能增加，尤其是在高频调用的情况下，需谨慎管理预算。",
+        "sourceName": "AIHOT · Google Developers Blog（RSS）",
+        "url": "https://developers.googleblog.com/expanding-choice-in-gemini-enterprise-agent-platform-introducing-grounding-with-parallel-web-search"
+      },
+      {
+        "name": "智绘科普：乡村教育赛道的创新教学工具",
+        "provider": "AIHOT",
+        "type": "AI 项目/工具",
+        "bestFor": "\"智绘科普\"的推出将对乡村教育产生积极影响，尤其是对教师和学生。教师可以利用该工具制作个性化的教学内容，提升课堂互动性；学生则能通过生动的动画更好地理解知识点。此外，该系统的自动修复功能减少了教师在技术上的负担，使他们能够专注于教学本身。对于教育机构而言，采用此类工具将有助于提升整体教学质量，进而改善学生的学习效果。",
+        "description": "首届\"小有可为\"大赛乡村教育一等奖作品\"智绘科普\"，结合 Qwen3.5-397B-A17B 大语言模型与 Manim 动画引擎，通过多Agent分阶段协作与自动修复机制，将知识主题转化为可控、可编辑的教学动画。该系统涵盖规划、草稿、实现、审查、合成五个阶段，具备自动修复渲染失败的能力，具有广泛的迁移应用潜力。",
+        "useCases": [
+          "创建个性化的教学动画，帮助学生更好地理解复杂概念。",
+          "利用系统的自动修复功能，减少教师在技术上的时间投入。",
+          "在教育机构中推广使用，提升整体教学质量。"
+        ],
+        "watch": "API 价格可能较高，影响小型教育机构的使用意愿。",
+        "sourceName": "AIHOT · 公众号：通义实验室（千问）",
+        "url": "https://mp.weixin.qq.com/s/a2YKWmyMoyIc3GKLbXffpQ"
+      },
+      {
+        "name": "Finbold AI 预测 SpaceX 股价将下跌至 118 美元",
+        "provider": "Currents",
+        "type": "AI 项目/工具",
+        "bestFor": "这一预测可能影响投资者的决策，尤其是那些关注短期市场波动的交易者。若更多投资者基于基本面继续购买 SpaceX 股票，可能会改变当前的悲观预期。此外，分析师的乐观评级也可能吸引长期投资者，形成正向反馈。",
+        "description": "我注意到，随着 SpaceX 股价跌破 IPO 价格，Finbold AI Agent 对 2026 年 8 月 1 日的股价做出了大胆预测，预计将下降 4.8%。尽管 Wall Street 分析师对 SpaceX 长期前景持乐观态度，但短期内市场情绪依然偏向悲观。",
+        "useCases": [
+          "使用 Finbold AI Agent 进行股市分析，获取实时预测和市场情绪分析。",
+          "参考 Wall Street 分析师的评级，制定长期投资策略，优化投资组合。",
+          "监控 SpaceX 股价变化，及时调整交易策略，以应对市场波动。",
+          "利用 AI 工具进行多模型比较，评估不同预测的准确性和可靠性。",
+          "分析 IPO 后的市场表现，识别潜在的投资机会和风险。"
+        ],
+        "watch": "AI 预测可能受限于历史数据，无法准确反映未来市场变化。",
+        "sourceName": "Currents:large language model",
+        "url": "https://finbold.com/machine-algorithm-sets-spacex-stock-price-for-august-1-2026/"
+      },
+      {
+        "name": "使用 Patter SDK 构建餐厅预订电话智能体",
+        "provider": "AIHOT",
+        "type": "AI 项目/工具",
+        "bestFor": "这一技术的推出将使餐厅运营者能够更高效地管理预订流程，减少顾客等待时间。对于开发者而言，Patter SDK 提供了一个灵活的平台，能够快速构建和测试智能体，降低了开发门槛。随着越来越多的餐厅采用这一技术，预计将推动整个行业向自动化和智能化转型，提升顾客满意度和业务效率。",
+        "description": "本教程详细介绍如何利用 Patter SDK 构建一个餐厅预订场景的语音智能体。通过定义动态变量、注册可调用工具、应用输出护栏等功能，用户可以在无需实时电话凭证的情况下模拟完整的电话交互。此外，教程还涵盖延迟与成本指标追踪、回归式评估检查等内容，帮助用户全面掌握智能体的构建与评估。",
+        "useCases": [
+          "定义动态变量，创建个性化的顾客交互体验。",
+          "注册可调用工具，执行桌位查询和预订确认等操作。",
+          "应用输出护栏，确保智能体在处理敏感信息时的安全性。",
+          "模拟完整的电话交互流程，验证智能体的响应能力。",
+          "追踪延迟与成本指标，优化智能体的性能与效率。"
+        ],
+        "watch": "在使用 Patter SDK 时，需注意 API 的调用配额，避免超出限制导致功能失效。",
+        "sourceName": "AIHOT · MarkTechPost（RSS）",
+        "url": "https://www.marktechpost.com/2026/07/16/patter-sdk-guide-to-building-a-restaurant-booking-phone-agent-with-dynamic-variables-guardrails-latency-dashboards-and-eval-checks"
+      },
+      {
+        "name": "LangChain 中的 ReAct 模式详解",
+        "provider": "Currents",
+        "type": "AI 项目/工具",
+        "bestFor": "ReAct 模式的引入将使得开发者在构建 AI 代理时能够实现更复杂的任务处理，尤其是在需要多次交互的场景中。它将改变开发者在设计工作流时的思维方式，促使他们考虑如何利用反复推理来优化决策过程。此外，随着这一模式的普及，更多的企业将能够利用 AI 代理来提升工作效率，降低人力成本。",
+        "description": "我最近看到 LangChain 系列的第四部分，介绍了 ReAct 模式的应用。这个模式允许 AI 在执行多步骤任务时进行反复思考和行动，极大提升了工作流的灵活性和效率。文章详细讲解了 ReAct 的概念、基本实现以及如何通过 LangGraph 构建强大的多步骤代理工作流。",
+        "useCases": [
+          "构建能够处理复杂查询的 AI 代理，利用 ReAct 模式进行多轮对话。",
+          "开发天气助手，通过 API 调用获取实时天气信息并进行用户交互。",
+          "实现自动化邮件发送工具，结合 ReAct 模式优化邮件内容和发送时机。",
+          "设计智能客服系统，利用 ReAct 模式提升用户满意度和响应速度。"
+        ],
+        "watch": "API 调用的费用可能会增加，尤其是在高频率使用时，需要合理控制预算。",
+        "sourceName": "Currents:AI agent",
+        "url": "https://levelup.gitconnected.com/agentic-ai-with-langchain-part-4-react-pattern-in-langgraph-ad6fb83fb33e?source=rss----5517fd7b58a6---4"
+      },
+      {
+        "name": "AI 生产环境中的治理缺口与风险",
+        "provider": "Currents",
+        "type": "AI 项目/工具",
+        "bestFor": "AI 代理的广泛应用将改变企业的决策流程，尤其是在关键时刻的操作中。企业需要重新审视其治理结构，以适应 AI 驱动的决策方式。缺乏有效的审计和责任机制可能导致企业在面对生产事故时，无法有效应对和追责，从而影响企业声誉和财务状况。此外，随着 AI 应用的普及，相关的合规风险也在增加，企业必须采取措施来降低这些风险，以确保",
+        "description": "随着 AI 技术的快速应用，生产环境中的治理缺口日益显现，尤其是在数据库操作中。AI 代理在关键时刻的决策可能导致严重后果，亟需建立有效的审计和责任机制。",
+        "useCases": [
+          "建立 AI 决策的审计记录，确保每次操作都有可追溯的依据。",
+          "在关键操作前进行风险评估，确保 AI 代理的决策不会导致系统停机。",
+          "制定 AI 代理的责任标准，确保其决策过程透明且可审计。",
+          "定期审查 AI 代理的表现，确保其在关键任务中的可靠性。",
+          "培训团队成员理解 AI 代理的决策逻辑，以提高操作的安全性。"
+        ],
+        "watch": "缺乏审计记录可能导致在发生事故时无法追溯责任，增加合规风险。",
+        "sourceName": "Currents:AI agent",
+        "url": "https://levelup.gitconnected.com/your-ai-is-already-in-production-is-it-governed-aihelpdesk-positioning-ecc6a758695c?source=rss----5517fd7b58a6---4"
+      },
+      {
+        "name": "Claude 3.5 Sonnet 成为新默认 AI 模型",
+        "provider": "Currents",
+        "type": "AI 项目/工具",
+        "bestFor": "对于开发者而言，Claude 3.5 Sonnet 的发布意味着需要重新评估现有的模型选择。新模型的高效性使得以往需要高延迟的高端模型的工作流，现在可以在更快且更具成本效益的环境中运行。特别是在涉及编码、复杂推理或多步骤代理的项目中，Sonnet 3.5 应成为新的起点。这一变化可能会促使更多企业和开发者采用新技术，推",
+        "description": "Anthropic 最新发布的 Claude 3.5 Sonnet 模型在性能和成本上实现了显著提升，成为复杂 AI 工作流的新标准。尽管其速度和智能水平均优于前代模型，但仍存在一些局限性。",
+        "useCases": [
+          "使用 Claude 3.5 Sonnet 进行复杂的客户支持，快速响应用户查询。",
+          "在开发过程中利用 Artifacts 功能实时编辑和验证代码，提高开发效率。",
+          "构建多步骤的自动化工作流，降低延迟和成本，提升用户体验。"
+        ],
+        "watch": "API 定价可能对高频使用的开发者造成负担，尤其是在大规模应用中。",
+        "sourceName": "Currents:AI agent",
+        "url": "https://dev.to/albertomontagnese/claude-35-sonnet-is-the-new-default-workhorse-3mif"
+      },
+      {
+        "name": "CuspAI 获得 4.5 亿美元融资，推出 AI 工厂",
+        "provider": "Currents",
+        "type": "AI 项目/工具",
+        "bestFor": "CuspAI 的 AI 工厂将为开发者提供先进的工具和平台，促进新应用的开发，可能改变企业在 AI 领域的决策方式。预计这将吸引更多企业与 CuspAI 合作，推动行业内的技术创新。此外，CuspAI 的成功融资可能会激励更多投资者关注 AI 初创企业，进一步推动行业的发展。",
+        "description": "CuspAI 宣布成功融资 4.5 亿美元，计划利用这笔资金建立 AI 工厂，专注于开发先进的人工智能技术。此次融资由亚马逊创始人杰夫·贝索斯支持，标志着 CuspAI 在 AI 领域的进一步扩展。",
+        "useCases": [
+          "开发基于 CuspAI 平台的智能应用，提升业务效率。",
+          "利用 CuspAI 的工具进行数据分析，优化决策过程。",
+          "与 CuspAI 合作，探索新兴的 AI 技术应用场景。"
+        ],
+        "watch": "融资后可能面临技术落后风险，需持续投入研发以保持竞争力。",
+        "sourceName": "Currents:AI agent",
+        "url": "https://www.mobileworldlive.com/ai-cloud/bezos-backed-cuspai-raises-450m-launches-ai-foundry/"
+      },
+      {
+        "name": "NVIDIA Omniverse RTX 传感器仿真库集成现有应用",
+        "provider": "Currents",
+        "type": "AI 项目/工具",
+        "bestFor": "NVIDIA的ovrtx库将显著改变开发者在3D设计和仿真中的工作方式。通过将物理AI能力集成到现有工具中，开发者能够更高效地生成合成数据，进行感知测试和验证行为。这将推动工业数字双胞胎和机器人工作流的发展，提升设计审查的效率。此外，随着ovrtx的发布，开发者将能够更灵活地使用OpenUSD场景，促进跨平台的协作与创",
+        "description": "2026年7月20日，NVIDIA发布了Omniverse RTX传感器仿真库ovrtx，作为NVIDIA Agent Toolkit的一部分，旨在帮助开发者将物理AI能力集成到现有的3D、设计、仿真和工业数字双胞胎应用中。该库支持实时、物理基础的输出，能够与CAD、Blender等工具无缝对接。",
+        "useCases": [
+          "使用ovrtx生成OpenUSD场景的相机和传感器输出，进行实时仿真。",
+          "在Blender中集成ovrtx，测试和验证设计的感知系统。",
+          "利用ovrtx支持的API，快速生成合成数据以用于机器学习模型训练。"
+        ],
+        "watch": "ovrtx的预发布版本可能存在不稳定性，开发者需谨慎使用。",
+        "sourceName": "Currents:generative AI",
+        "url": "https://developer.nvidia.com/blog/integrate-nvidia-omniverse-rtx-sensor-simulation-into-existing-apps/"
+      },
+      {
+        "name": "Netchex 于 7 月 20 日推出 AI 驱动的 HR 平台 Mesh",
+        "provider": "Currents",
+        "type": "AI 项目/工具",
+        "bestFor": "Mesh 的推出将使得使用无桌面劳动力的企业能够更高效地管理人力资源，减少人工干预，提高决策速度。企业管理者可以通过 AI 代理实时获取薪资和排班信息，从而做出更快的业务决策。此外，随着越来越多的企业采用类似的 AI 解决方案，整个行业的行政工作负担将显著降低，推动企业向更高效的运营模式转型。预计这一趋势将促使更多企业",
+        "description": "Netchex 于 7 月 20 日推出了 Mesh，一个专为大型无桌面劳动力设计的 AI 驱动人力资源平台，旨在自动化薪资、劳动力管理、合规和行政任务。该平台的推出反映了企业软件中向任务特定 AI 代理的广泛行业转变。",
+        "useCases": [
+          "监控薪资数据，自动识别并解决潜在问题，减少人工干预。",
+          "通过 AI 代理进行员工入职流程，提升新员工的体验和效率。",
+          "利用对话式 AI 平台提交请假申请，简化行政流程。",
+          "分析劳动力数据，优化排班和资源分配，提高运营效率。",
+          "生成行政报告，帮助管理层做出数据驱动的决策。"
+        ],
+        "watch": "在处理敏感信息时，仍需人工审批，可能导致决策延误。",
+        "sourceName": "Currents:AI agent",
+        "url": "https://www.koreaittimes.com/news/articleView.html?idxno=155330"
       },
       {
         "name": "54%企业遭遇AI智能体安全事件，凭证共享现象严重",
         "provider": "AIHOT",
         "type": "AI 项目/工具",
-        "bestFor": "这一调查结果对企业的安全策略提出了严峻挑战。首先，企业需要重新审视智能体的凭证管理策略，确保每个智能体都有独立的身份凭证，以降低风险。其次，安全工具的选择也需更加多样化，不能仅依赖模型提供商的原生方案。此外，企业可能需要考虑引入专用的智能体安全产品，以增强整体安全防护能力。随着AI技术的普及，未来可能会有更多企业面临类",
-        "description": "VentureBeat对107家企业的调查显示，54%的企业已经历AI智能体安全事件，其中18%确认发生事故，36%险些酿成重大损失。仅32%的企业为每个智能体分配独立身份凭证，30%的企业将高风险智能体隔离在沙箱中，显示出当前安全措施的不足。",
+        "bestFor": "这一调查结果将促使企业重新审视其AI智能体的安全策略，尤其是在凭证管理和高风险智能体的隔离措施上。企业可能会加大对智能体安全产品的投入，以降低潜在的安全风险。此外，随着对AI安全问题的关注加剧，相关的安全技术和解决方案将会迎来市场机遇，推动行业的进一步发展。最终，企业在智能体安全管理上的改进将有助于提升整体的安全防护能",
+        "description": "VentureBeat对107家企业的调查显示，54%的企业已遭遇AI智能体安全事件，其中18%确认发生事故，36%险些酿成重大损失。仅有32%的企业为每个智能体分配独立身份凭证，30%将高风险智能体隔离在沙箱中，显示出企业在智能体安全管理上的不足。",
         "useCases": [
-          "评估现有AI智能体的安全风险，制定改进措施。",
-          "为每个智能体分配独立身份凭证，提升安全性。",
-          "将高风险智能体隔离在沙箱中，防止潜在威胁。"
+          "评估企业AI智能体的安全风险，制定相应的安全策略。",
+          "实施独立凭证管理，确保每个智能体的身份安全。",
+          "利用沙箱技术隔离高风险智能体，降低潜在的安全威胁。"
         ],
-        "watch": "企业可能面临因凭证共享导致的数据泄露风险，影响客户信任。",
+        "watch": "企业在AI智能体安全管理上的投入不足，可能导致重大安全事件的发生。",
         "sourceName": "AIHOT · VentureBeat：AI（RSS）",
         "url": "https://venturebeat.com/ai/the-agent-security-gap-54-of-enterprises-have-already-had-an-ai-agent-incident-and-most-still-let-agents-share-credentials"
+      },
+      {
+        "name": "NVIDIA 推出 DGX Station 本地 AI 代理工具包，助力个人化 AI 应用",
+        "provider": "Currents",
+        "type": "AI 项目/工具",
+        "bestFor": "这款工具包将吸引多种人群，包括 AI 开发者、游戏开发者和工程师等。通过本地运行 AI 代理，用户可以更灵活地进行实验和迭代，减少对外部网络的依赖。此外，企业可以利用 DGX Station 的强大性能，快速部署 AI 解决方案，提升工作效率。随着越来越多的团队开始采用本地 AI 代理，预计将推动整个行业向更高效的工作",
+        "description": "NVIDIA 最近推出了 DGX Station 的 NVIDIA Agent Toolkit，使用户能够在本地运行个人 AI 代理。该工具包的设置过程简单，仅需三步即可完成，极大地提升了 DGX Station 的使用价值。通过结合 NVIDIA 的强大硬件和软件，用户可以更高效地开发和部署 AI 代理，满足多样化的需求。",
+        "useCases": [
+          "构建定制的 AI 代理，满足特定业务需求。",
+          "利用 NVIDIA Omniverse 进行 3D 场景的物理模拟。",
+          "在本地环境中快速迭代和测试 AI 模型。",
+          "通过连接多个 DGX Station 扩展计算能力，支持更大规模的模型。",
+          "使用 NemoClaw 开发自主代理，提升工作效率。"
+        ],
+        "watch": "本地运行可能面临硬件兼容性问题，需确保系统配置符合要求。",
+        "sourceName": "Currents:AI agent",
+        "url": "https://wccftech.com/nvidia-brings-local-ai-agents-to-dgx-station-pc-with-agent-toolkit/"
       },
       {
         "name": "人类辩论中的偏见与误区",
         "provider": "Currents",
         "type": "AI 项目/工具",
-        "bestFor": "这一现象对不同人群产生了深远影响。首先，做 RAG 的工程师可能会在技术决策中受到极端观点的影响，导致项目方向偏离。其次，企业高层在制定战略时，若未能正确评估外部意见，可能会做出错误决策，影响公司长远发展。此外，普通用户在社交媒体上获取信息时，容易被极端观点误导，影响其判断力。",
-        "description": "这次发布的核心点是，尽管人们在辩论中常常表现出极端的看法，但实际上他们可能在同一个问题上犯了相似的错误。文章探讨了人类在面对复杂问题时的认知偏差，以及社交媒体如何加剧这种现象。作者认为，理解这一点对于构建更平衡的观点至关重要。",
+        "bestFor": "这种偏见和误解的现象影响了多个群体，包括政策制定者、企业领导、研究人员等。对于政策制定者而言，错误的理解可能导致不当的政策决策；企业领导的错误判断可能影响公司的战略方向，造成长远的损失；研究人员在讨论时也可能因为偏见而忽视重要的研究方向。",
+        "description": "近期关于代理 AI 的讨论中，存在着极端的悲观与天真的乐观观点，鲜有中间立场。人们在辩论时往往未能准确理解彼此的观点，导致误解和偏见的加深。这种现象不仅影响个人的思考方式，也在社交媒体上被算法进一步放大，形成了一个恶性循环。",
         "useCases": [
-          "分析社交媒体上的辩论，识别偏见和误导信息。",
-          "在团队讨论中引导成员关注中立观点，促进理性交流。",
-          "为企业决策提供多元化的视角，避免极端化思维。"
+          "分析代理 AI 的影响，帮助政策制定者制定更合理的政策。",
+          "企业高管在制定战略时，识别和避免潜在的认知偏见。",
+          "研究人员在进行学术讨论时，确保对话的准确性和深度。"
         ],
-        "watch": "社交媒体算法可能导致信息偏见，影响用户的判断。",
+        "watch": "社交媒体算法可能导致信息的极端化，影响公众对 AI 的理解。",
         "sourceName": "Currents:AI agent",
         "url": "https://dev.to/skoczen/why-opposite-sides-of-a-debate-share-the-same-mistake-jj5"
+      },
+      {
+        "name": "Elastic 获得 AWS AI 安全能力认证",
+        "provider": "Currents",
+        "type": "AI 项目/工具",
+        "bestFor": "这一认证将吸引更多企业用户，特别是那些对数据安全有高要求的行业，如金融和医疗。获得 AWS 的认证后，Elastic 可以在市场推广中更有说服力，帮助潜在客户做出选择。此外，认证也可能促使其他竞争对手加大在 AI 安全领域的投入，以保持市场竞争力。",
+        "description": "Elastic 最近获得了 AWS AI 安全能力认证，标志着其在 AI 安全领域的进一步认可。这一认证不仅提升了 Elastic 的市场竞争力，也为用户提供了更高的安全保障。通过这一认证，Elastic 证明了其在处理 AI 相关数据时的安全性和合规性，尤其是在云环境中的应用。",
+        "useCases": [
+          "企业在云环境中部署 Elastic 产品，确保数据处理的安全性。",
+          "数据安全团队利用 Elastic 的认证提升内部合规性和安全标准。",
+          "IT 管理者在选择 AI 解决方案时，优先考虑获得 AWS 认证的产品。"
+        ],
+        "watch": "虽然获得认证，但用户仍需关注 Elastic 的 API 费用和使用配额，避免超出预算。",
+        "sourceName": "Currents:AI agent",
+        "url": "https://www.investing.com/news/company-news/elastic-achieves-aws-ai-security-competency-distinction-93CH-4801313"
+      },
+      {
+        "name": "Michii Live：实时构建真实业务的 AI 平台",
+        "provider": "Currents",
+        "type": "AI 项目/工具",
+        "bestFor": "Michii Live 的出现将改变许多创业者的决策方式，尤其是那些希望快速进入市场的团队。通过提供实时数据和自动化工具，用户可以更快地调整商业策略，优化营销效果。此外，平台的自动化特性将减少对技术团队的依赖，使得更多非技术背景的创业者能够轻松启动和管理自己的业务。",
+        "description": "我最近看到 Michii Live，这是一个 AI 驱动的平台，能够实时构建和管理真实的商业项目。用户可以观看到从代码编写到冷邮件发送的全过程，甚至可以实时查看通过 Stripe 生成的收入数据。这个平台的设计旨在简化创业流程，让用户在一天内从创意到上线网站，极大地提升了商业运作的效率。",
+        "useCases": [
+          "使用 Michii Live 快速构建并上线新产品，节省时间和资源。",
+          "通过实时数据监控，调整市场策略以提高销售额。",
+          "利用平台的自动化工具，生成营销文案，提升品牌曝光率。",
+          "在一天内从创意到上线，快速测试市场反应。",
+          "通过一体化管理界面，简化团队协作，提高工作效率。"
+        ],
+        "watch": "平台的依赖性可能导致用户在遇到技术问题时缺乏应对能力，影响业务运营。",
+        "sourceName": "Currents:AI agent",
+        "url": "https://michii.dev/live"
       },
       {
         "name": "AI 代理商业模式正在重塑电商格局",
@@ -7088,40 +7712,6 @@ window.AI_GENERATED_DATA = {
         "url": "https://www.prnewswire.com/news-releases/leadde-ai-launches-worlds-first-business-video-ai-agent-to-transform-corporate-communication-302829517.html"
       },
       {
-        "name": "Finbold AI 预测 SpaceX 股票在 2026 年 8 月 1 日将下跌",
-        "provider": "Currents",
-        "type": "AI 项目/工具",
-        "bestFor": "这项预测对投资者和分析师都具有重要意义。投资者可能会根据 AI 的预测调整他们的投资策略，尤其是在面临市场不确定性时。若 SpaceX 股票的基本面继续吸引投资，短期的看跌预测可能会被推翻。此外，分析师的乐观态度可能会激励更多投资者入场，从而影响股票价格的走势。",
-        "description": "我注意到，随着 SpaceX 股票价格跌破首次公开募股（IPO）价格，Finbold AI Agent 对 SpaceX 股票在 2026 年 8 月 1 日的表现做出了大胆预测。该工具预计，SpaceX 股票将在此日期前平均下跌 4.8%。",
-        "useCases": [
-          "使用 Finbold AI Agent 进行股票价格预测，帮助投资者制定买入或卖出策略。",
-          "分析 SpaceX 股票的市场趋势，评估其长期投资价值。",
-          "结合 AI 预测与市场分析，优化投资组合配置。",
-          "利用 AI 工具进行风险评估，降低投资决策的不确定性。",
-          "跟踪市场动态，及时调整投资策略以应对变化。"
-        ],
-        "watch": "AI 预测可能受限于数据质量和模型准确性，导致投资决策失误。",
-        "sourceName": "Currents:large language model",
-        "url": "https://finbold.com/machine-algorithm-sets-spacex-stock-price-for-august-1-2026/"
-      },
-      {
-        "name": "Netchex 于 7 月 20 日推出 AI 驱动的人力资源平台 Mesh",
-        "provider": "Currents",
-        "type": "AI 项目/工具",
-        "bestFor": "Mesh 的推出将使得餐饮、酒店、医疗等行业的企业能够更高效地管理无桌面员工，减少人工干预，提高工作效率。通过集成大型语言模型，员工和管理者可以更便捷地完成 HR 相关任务，提升了用户体验。此外，行业分析师预测，随着企业对自动化的需求增加，类似 Mesh 的任务导向 AI 系统将在企业应用中变得越来越普遍，推动整个行业",
-        "description": "Netchex 于 7 月 20 日推出了 Mesh，这是一款专为大型无桌面员工队伍设计的 AI 驱动人力资源平台，旨在自动化薪资、员工管理、合规及行政任务。该平台的推出反映了企业软件中向任务特定 AI 代理的广泛行业转变。",
-        "useCases": [
-          "通过 Mesh 提交带薪休假请求，简化员工请假流程。",
-          "利用 AI 代理审核薪资信息，确保数据准确性和合规性。",
-          "通过对话式 AI 平台审批员工请求，提高管理效率。",
-          "生成行政报告，快速获取人力资源相关数据分析。",
-          "监控员工排班情况，及时识别并解决排班冲突。"
-        ],
-        "watch": "在处理敏感信息时，仍需人工审批，可能导致决策延迟。",
-        "sourceName": "Currents:AI agent",
-        "url": "https://www.koreaittimes.com/news/articleView.html?idxno=155330"
-      },
-      {
         "name": "NVIDIA Agent Toolkit 新增 Omniverse 库，助力 AI 代理构建仿真世界",
         "provider": "Currents",
         "type": "AI 项目/工具",
@@ -7135,38 +7725,6 @@ window.AI_GENERATED_DATA = {
         "watch": "使用 Omniverse 库可能需要较高的硬件配置，普通开发者可能面临兼容性问题。",
         "sourceName": "Currents:AI agent",
         "url": "https://www.globenewswire.com/news-release/2026/07/20/3329895/0/en/NVIDIA-Agent-Toolkit-Expands-With-New-Omniverse-Libraries-Putting-AI-Agents-to-Work-Building-Simulation-Ready-Worlds.html"
-      },
-      {
-        "name": "企业如何在智能代理时代管理 AI 投资",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "企业在智能代理时代的投资管理将直接影响其运营效率和市场表现。通过优化 AI 投资，企业能够更好地应对市场变化，提升决策效率。此外，智能代理的广泛应用可能会导致行业内的竞争格局发生变化，促使更多企业加速数字化转型。",
-        "description": "在智能代理时代，企业需通过衡量每美元的有效工作量、提升效率和扩展高价值工作流程来管理 AI 投资。此策略不仅有助于优化资源配置，还能在竞争激烈的市场中保持领先地位。",
-        "useCases": [
-          "评估每项 AI 投资的有效性，确保资源的最佳配置。",
-          "利用智能代理技术提升客户服务效率，减少响应时间。",
-          "通过数据分析工具监控投资回报，优化决策过程。"
-        ],
-        "watch": "AI 投资的回报可能受到市场波动的影响，需谨慎评估。",
-        "sourceName": "RSS · OpenAI Blog",
-        "url": "https://openai.com/index/managing-ai-investments-in-agentic-era"
-      },
-      {
-        "name": "Michii Live：实时构建真实商业的 AI 平台",
-        "provider": "Currents",
-        "type": "AI 项目/工具",
-        "bestFor": "Michii Live 的推出将对创业者、投资者和市场分析师产生深远影响。创业者可以利用这一平台快速验证商业想法，减少试错成本。投资者则可以通过实时数据获取更准确的商业表现分析，从而做出更明智的投资决策。此外，市场分析师也能借助 Michii 提供的数据洞察，了解行业趋势和市场动态，提升决策的准确性。",
-        "description": "我注意到 Michii 是一个 AI 自主公司，能够实时构建真实的商业项目，包括规格、代码、发布、冷邮件和从 Stripe 实时读取的总收入。这种方式让我们可以直观地看到商业的运作过程，极大地提升了创业的效率和透明度。",
-        "useCases": [
-          "快速构建商业项目，利用 Michii 的自动化工具在一天内上线网站。",
-          "实时追踪项目收入，通过 Stripe 数据分析商业表现，做出及时调整。",
-          "自动生成市场营销文案和客户邮件，节省时间，提高效率。",
-          "利用平台的任务管理功能，实时监控项目进展，确保按时交付。",
-          "通过数据分析优化定价策略，提升商业竞争力。"
-        ],
-        "watch": "可能面临 API 费用高昂的问题，尤其是当项目规模扩大时。",
-        "sourceName": "Currents:AI agent",
-        "url": "https://michii.dev/live"
       },
       {
         "name": "Java 构建 AI 代理的实用指南",
@@ -7216,23 +7774,6 @@ window.AI_GENERATED_DATA = {
         "url": "https://www.theregister.com/systems/2026/07/20/windows-server-update-services-buckle-under-microsofts-metadata-mountain/5274843"
       },
       {
-        "name": "Gemini 企业代理平台整合 Parallel Web Search 提升实时数据接入能力",
-        "provider": "AIHOT",
-        "type": "AI 项目/工具",
-        "bestFor": "这一集成将使企业能够更有效地利用实时数据，提升决策的准确性和效率。开发者可以通过编程提取和缓存网络数据，丰富内部数据集，进而优化工作流。对于金融、法律和技术等行业的企业而言，这意味着能够构建更为复杂的自动化代理，提升合规性和风险管理能力。此外，随着 AI 代理在网络数据利用上的不断深入，企业将能够在更广泛的应用场景中实",
-        "description": "Google Cloud 与 Parallel Web Systems 合作，将其搜索基础设施原生集成到 Gemini Enterprise Agent Platform，提升企业工作流的事实准确性。开发者可通过该平台将 AI 智能体锚定在可验证的实时网络结果上，并编程提取、缓存网络数据，增强大语言模型的处理能力。",
-        "useCases": [
-          "提取并永久存储可验证的网络数据，以填补内部系统中的信息空白。",
-          "构建能够自动导航系统并执行复杂工作流的智能代理，提升工作效率。",
-          "利用实时网络数据进行合规性检查，确保企业遵循最新的法规要求。",
-          "开发多代理系统，通过中央协调器有效分配任务，提高整体工作效率。",
-          "在现有技术栈中集成 Gemini 的网络接地能力，增强数据处理能力。"
-        ],
-        "watch": "API 使用费用可能会增加，尤其是在高频调用的情况下，需关注成本控制。",
-        "sourceName": "AIHOT · Google Developers Blog（RSS）",
-        "url": "https://developers.googleblog.com/expanding-choice-in-gemini-enterprise-agent-platform-introducing-grounding-with-parallel-web-search"
-      },
-      {
         "name": "四项研究揭示 AI 代理安全漏洞",
         "provider": "Currents",
         "type": "AI 项目/工具",
@@ -7267,38 +7808,6 @@ window.AI_GENERATED_DATA = {
         "url": "https://slobodan.me/posts/introducing-competitor-tracker/"
       },
       {
-        "name": "使用 Patter SDK 构建餐厅预订电话智能体",
-        "provider": "AIHOT",
-        "type": "AI 项目/工具",
-        "bestFor": "Patter SDK 的推出将使餐饮行业的智能化水平进一步提升，餐厅可以通过智能体来处理大量的预订请求，减少人工成本，提高客户满意度。同时，开发者也能借助这一工具快速构建和部署智能体，推动业务创新。随着更多餐厅采用智能体，行业内的竞争格局也将发生变化，促使其他企业加速数字化转型。",
-        "description": "本教程详细介绍如何利用 Patter SDK 构建一个餐厅预订场景的语音智能体。通过定义动态变量、注册可调用工具、应用输出护栏以及模拟通话，用户可以在无需实时电话凭证的情况下完成整个预订流程。此外，教程还涵盖延迟与成本指标追踪、回归式评估检查等内容，帮助用户全面理解智能体的构建与应用。",
-        "useCases": [
-          "定义动态变量，创建个性化的顾客体验，提升客户满意度。",
-          "注册可调用工具，简化预订流程，提高操作效率。",
-          "应用输出护栏，确保处理敏感信息时的安全性，降低风险。",
-          "模拟通话流程，进行系统测试，确保智能体的稳定性和可靠性。",
-          "追踪延迟与成本指标，优化智能体性能，提升业务效益。"
-        ],
-        "watch": "在使用 Patter SDK 时，需注意 API 调用的配额限制，避免超出使用范围导致服务中断。",
-        "sourceName": "AIHOT · MarkTechPost（RSS）",
-        "url": "https://www.marktechpost.com/2026/07/16/patter-sdk-guide-to-building-a-restaurant-booking-phone-agent-with-dynamic-variables-guardrails-latency-dashboards-and-eval-checks"
-      },
-      {
-        "name": "智绘科普：乡村教育赛道获奖作品技术解析",
-        "provider": "AIHOT",
-        "type": "AI 项目/工具",
-        "bestFor": "推荐给教育工作者、乡村学校管理者、教育科技创业者等人群。教育工作者可以利用该系统制作生动的教学动画，提升学生的学习兴趣；乡村学校管理者可以通过引入此技术改善教学质量；教育科技创业者则可以借鉴其工程范式，开发更多适合乡村教育的工具。该项目的成功实施，可能会引发教育资源配置的变革，推动乡村教育的整体提升。",
-        "description": "首届\"小有可为\"大赛乡村教育赛道一等奖作品\"智绘科普\"，利用 Qwen3.5-397B-A17B 大语言模型与 Manim 动画引擎，通过多Agent分阶段协作与自动修复机制，将知识主题转化为可控、可编辑的教学动画。该系统涵盖规划、草稿、实现、审查、合成五个阶段，具备自动修复功能，能够在渲染失败时提取日志并进行修复，展示了其在教育领域的广泛应用潜力。",
-        "useCases": [
-          "制作生动的教学动画，提升学生的学习兴趣和参与度。",
-          "在课堂上展示知识主题，帮助学生更好地理解复杂概念。",
-          "为乡村学校提供可编辑的教学资源，方便教师根据实际情况调整内容。"
-        ],
-        "watch": "在使用过程中，可能会遇到 API 调用限制，影响动画生成的效率。",
-        "sourceName": "AIHOT · 公众号：通义实验室（千问）",
-        "url": "https://mp.weixin.qq.com/s/a2YKWmyMoyIc3GKLbXffpQ"
-      },
-      {
         "name": "Resolve 被认定为 2026 年 Gartner 基础设施自动化与编排工具市场指南的代表供应商",
         "provider": "Currents",
         "type": "AI 项目/工具",
@@ -7327,21 +7836,6 @@ window.AI_GENERATED_DATA = {
         "watch": "API 价格可能较高，影响小型医疗机构的使用决策。",
         "sourceName": "Currents:generative AI",
         "url": "https://www.globenewswire.com/news-release/2026/07/20/3329837/0/en/Qualifacts-Advances-AI-for-Behavioral-Health-with-New-Generative-and-Agentic-Capabilities-in-Qualifacts-iQ.html"
-      },
-      {
-        "name": "谷歌推出 AI 控制路线图以保障 AI 代理安全",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "谷歌的 AI 控制路线图将影响多个领域的决策者，包括技术开发者、企业管理者和政策制定者。通过提供更安全的 AI 代理，企业能够在创新与风险之间找到平衡，从而推动业务增长。此外，随着 AI 代理的广泛应用，行业标准和最佳实践也将逐步形成，促进整个行业的安全性提升。最终，这将影响到消费者的信任度，提升他们对 AI 技术的接",
-        "description": "谷歌发布的 AI 控制路线图结合传统安全措施与实时监控，旨在应对日益强大的 AI 代理带来的安全挑战。预计到 2030 年，AI 代理将在美国创造 2.9 万亿美元的经济价值。该路线图为行业提供了一个安全管理的模型。",
-        "useCases": [
-          "实施实时监控，确保 AI 代理在执行任务时不偏离目标。",
-          "利用 MITRE ATT&CK 框架识别潜在的内部威胁，增强安全防护。",
-          "根据 AI 模型的能力调整安全措施，确保在不同风险级别下的有效防护。"
-        ],
-        "watch": "AI 代理的行为不可预测，可能导致意外的安全漏洞，需持续监控和调整策略。",
-        "sourceName": "RSS · Google DeepMind",
-        "url": "https://deepmind.google/blog/securing-the-future-of-ai-agents/"
       },
       {
         "name": "Cognee：开源图数据库赋予 AI 代理持久记忆",
@@ -7376,21 +7870,6 @@ window.AI_GENERATED_DATA = {
         "url": "https://dev.to/alex-isa/voice-form-filling-for-e-commerce-what-one-shot-actually-means-and-how-to-wire-it-up-jak"
       },
       {
-        "name": "Gemini API 扩展管理代理功能，支持后台任务与远程 MCP",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "此次更新将使开发者能够更高效地构建和管理 AI 代理，尤其是在需要长时间运行的任务时，后台执行功能将显著减少对 HTTP 连接的依赖，降低系统脆弱性。通过直接连接远程 MCP 服务器，开发者可以更方便地访问内部数据和 API，提升工作效率。此外，自定义函数的引入将使得代理能够执行更复杂的业务逻辑，进一步拓展其应用场景。",
-        "description": "Google DeepMind 宣布在 Gemini API 中新增管理代理功能，允许开发者构建可靠的生产级代理。此次更新包括后台执行、远程 MCP 服务器集成、自定义函数调用及凭证刷新等，旨在提升开发者体验。",
-        "useCases": [
-          "构建支持后台任务的 AI 代理，提升处理效率。",
-          "集成远程 MCP 服务器，简化数据访问与处理。",
-          "开发自定义函数，执行特定业务逻辑，增强灵活性。"
-        ],
-        "watch": "API 使用可能面临配额限制，影响大规模应用。",
-        "sourceName": "RSS · Google AI Blog",
-        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/"
-      },
-      {
         "name": "Procurify推出基于支出数据的自主采购平台",
         "provider": "Currents",
         "type": "AI 项目/工具",
@@ -7419,303 +7898,108 @@ window.AI_GENERATED_DATA = {
         "watch": "虽然工具设计为用户友好，但对技术不熟悉的用户仍可能面临学习曲线，影响使用效果。",
         "sourceName": "Currents:generative AI",
         "url": "https://www.prnewswire.com/news-releases/bluehost-expands-ai-business-platform-with-new-simple-to-use-ai--agentic-solutions-purpose-built-for-small-business-302829623.html"
-      },
-      {
-        "name": "欧盟 AI 标签规则将于下月生效",
-        "provider": "Currents",
-        "type": "AI 项目/工具",
-        "bestFor": "这一新规将影响AI开发者、企业和用户，尤其是在涉及公共利益的信息传播中。企业需要调整其AI系统以符合新规，可能导致开发和运营成本上升。同时，用户在与AI互动时将获得更多透明信息，可能改变他们对AI系统的信任度和使用习惯。长远来看，这可能促使更多企业重视AI的伦理和合规问题。",
-        "description": "自8月2日起，欧盟的AI系统提供商必须明确告知用户与机器互动，并为AI生成或处理的内容添加机器可读标记。这一透明度规则旨在提高AI系统的可信度，但也面临实施和合规的挑战。",
-        "useCases": [
-          "调整AI系统以符合欧盟新规，确保透明度和合规性。",
-          "为AI生成的内容添加机器可读标记，提升用户信任。",
-          "建立内部审计机制，确保深度伪造内容的合规披露。",
-          "开发培训材料，帮助员工理解新规及其影响。",
-          "与法律顾问合作，评估新规对业务运营的潜在影响。"
-        ],
-        "watch": "合规成本可能显著增加，尤其是对中小企业而言，可能导致资源分配紧张。",
-        "sourceName": "Currents:AI agent",
-        "url": "https://www.theregister.com/ai-and-ml/2026/07/20/eus-ai-labeling-rules-take-effect-next-month/5274917"
-      },
-      {
-        "name": "RavenPack 推出首个 AI 内容代币化平台",
-        "provider": "Currents",
-        "type": "AI 项目/工具",
-        "bestFor": "这一平台的推出将对多个领域产生深远影响。首先，金融科技公司可以通过更高效的代币使用，降低运营成本。其次，内容创作者和数据提供商将受益于新的收入模式，能够通过代币化的方式获得更公平的报酬。此外，企业在使用 AI 进行决策时，将能够获得更准确和可靠的信息，进而提升业务决策的质量。最后，随着更多企业采用这一平台，整个行业的代",
-        "description": "RavenPack 在 Bigdata.com 上推出了首个 AI 内容代币化平台，旨在解决 LLM 代币消耗过快的问题。该平台通过精准检索技术，显著降低了每次查询的上下文消耗，提高了回答的准确性和可靠性。",
-        "useCases": [
-          "通过 Bigdata.com 平台，金融机构可以快速获取市场分析报告，节省代币消耗。",
-          "内容创作者可以利用代币化机制，确保其作品在 AI 模型中的使用得到合理回报。",
-          "数据分析师可以在进行数据挖掘时，使用精准检索技术提高工作效率。",
-          "AI 产品经理可以通过整合更多数据源，提升产品的智能化水平。",
-          "技术决策者可以评估代币化平台的成本效益，优化企业的 AI 预算。"
-        ],
-        "watch": "平台的代币定价可能会随市场波动而变化，导致企业预算难以预测。",
-        "sourceName": "Currents:AI agent",
-        "url": "https://www.edinburghnews.scotsman.com/must-read/ravenpack-ai-content-tokenisation-bigdatacom-8811155"
-      },
-      {
-        "name": "如何在 AI 时代构建竞争对手追踪工具",
-        "provider": "Currents",
-        "type": "AI 项目/工具",
-        "bestFor": "这款竞争对手追踪工具将帮助市场分析师和产品经理更有效地监控竞争对手的动态，优化市场策略。通过 AI 的辅助，团队可以在更短的时间内获取关键数据，从而做出更快速的决策。此外，随着更多企业采用类似工具，市场竞争将变得更加激烈，促使各方不断创新以保持竞争优势。",
-        "description": "我注意到，尽管 AI 让演示变得简单，但产品开发依然充满挑战。我们与 AI 代理合作，构建了竞争对手追踪工具，分享了架构、工作流程和经验教训。这是一个关于如何在快速变化的环境中应对挑战的故事。",
-        "useCases": [
-          "使用 AI 代理快速生成市场分析报告，节省时间并提高准确性。",
-          "通过竞争对手追踪工具，实时监控市场动态，调整产品策略。",
-          "利用 AI 辅助设计应用界面，提升用户体验和产品吸引力。",
-          "在产品开发过程中，借助 AI 自动化测试，减少人工错误。",
-          "结合市场反馈，快速迭代产品功能，提升市场竞争力。"
-        ],
-        "watch": "API 费用可能会随着使用量增加而显著上升，需提前预算。",
-        "sourceName": "Currents:AI agent",
-        "url": "https://dev.to/slobodan/building-competitor-tracker-a-product-origin-story-in-the-age-of-ai-a47"
-      },
-      {
-        "name": "24/7 运行 AI 代理的真实成本：每日低于 $2",
-        "provider": "Currents",
-        "type": "AI 项目/工具",
-        "bestFor": "这一成本分析对开发者和企业决策者具有重要意义。首先，低成本的 AI 代理运营使得更多小型企业和个人开发者能够参与到 AI 应用的开发中，降低了技术门槛。其次，企业在制定预算时，可以更加灵活地分配资源，优先投资于高回报的内容创作和市场调研。此外，这种成本结构的透明化也可能促使更多的开发者探索创新的 AI 应用场景，从而推",
-        "description": "一项研究显示，持续运行 AI 代理的成本远低于普遍预期，实际费用在每日 $0.30 至 $1.50 之间。通过合理利用免费资源和优化 API 调用，用户可以显著降低运营开支，甚至实现零成本运行。",
-        "useCases": [
-          "利用 GitHub API 进行项目管理，快速获取所需信息。",
-          "在 Dev.to 上发布技术文章，吸引流量并实现被动收入。",
-          "通过 DeepSeek Chat 进行高效的内容生成，降低创作成本。",
-          "使用开源工具进行数据分析，提升工作效率。",
-          "在不增加成本的情况下，进行市场调研和竞争分析。"
-        ],
-        "watch": "API 费用波动可能导致预算超支，需密切关注使用情况。",
-        "sourceName": "Currents:AI agent",
-        "url": "https://dev.to/hermesxclawctrl/running-an-ai-agent-247-for-under-2day-the-cost-breakdown-no-one-talks-about-n28"
-      },
-      {
-        "name": "AMD 股价因微软签署大规模 AI 基础设施协议上涨 5%",
-        "provider": "Currents",
-        "type": "AI 项目/工具",
-        "bestFor": "微软与 AMD 的合作将使得更多企业能够利用 AMD 的 AI 硬件，推动 AI 应用的普及。预计这一协议将促使更多企业在 AI 基础设施上进行投资，从而推动整个行业的发展。此外，AMD 的技术将可能影响到其他竞争对手的战略决策，进一步加剧市场竞争。",
-        "description": "AMD 股价在微软与其达成一项大规模 AI 基础设施协议后上涨了 5%。这一协议标志着微软在 AI 领域的进一步投资，可能会对 AMD 的市场份额和技术发展产生积极影响。随着 AI 应用需求的激增，AMD 有望在未来的竞争中占据更有利的位置。",
-        "useCases": [
-          "分析市场趋势，利用 AMD 的 AI 硬件进行数据处理。",
-          "在云平台上部署基于 AMD 技术的 AI 应用，提升计算效率。",
-          "为企业提供定制化的 AI 解决方案，依托 AMD 的硬件优势。"
-        ],
-        "watch": "AMD 可能面临来自其他竞争对手的激烈竞争，影响市场份额。",
-        "sourceName": "Currents:AI agent",
-        "url": "https://www.investing.com/news/stock-market-news/amd-stock-surges-5-as-microsoft-locks-in-massive-ai-infrastructure-deal-4801074"
-      },
-      {
-        "name": "企业中86%已部署AI代理，但仅34%信任其表现",
-        "provider": "Currents",
-        "type": "AI 项目/工具",
-        "bestFor": "这一研究结果对企业决策者具有重要意义。首先，企业在部署AI代理时，需重视集成能力，以提升信任度和使用效果。其次，信任度的提升将直接影响企业对AI技术的投资决策，可能导致更多资源投入到有效的集成策略中。此外，行业内的信任危机也可能促使AI技术提供商改进产品，以满足企业需求，从而推动整个行业的健康发展。",
-        "description": "根据Boomi委托的独立研究，尽管86%的企业已经部署了AI代理，但只有34%对其表现表示信任。研究指出，企业之间的信任差异主要源于集成能力，而非更智能的模型。那些陷入“代理混乱”的企业未能有效整合AI代理，导致信任度低。",
-        "useCases": [
-          "评估现有AI代理的集成能力，制定改进计划以提升信任度。",
-          "与AI技术提供商沟通，了解其产品的集成方案和成功案例。",
-          "开展内部培训，提升团队对AI代理的理解和使用能力。",
-          "定期收集用户反馈，优化AI代理的使用体验。",
-          "建立监测机制，评估AI代理的表现与信任度之间的关系。"
-        ],
-        "watch": "在集成AI代理时，可能面临API调用费用超出预算的风险，需提前评估成本。",
-        "sourceName": "Currents:AI agent",
-        "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/86-of-enterprises-have-deployed-ai-agents-just-34-trust-them-boomi-study-finds"
-      },
-      {
-        "name": "AI 招聘偏见加剧，天气数据安全风险上升",
-        "provider": "Currents",
-        "type": "AI 项目/工具",
-        "bestFor": "AI 招聘偏见的加剧可能导致求职者在求职过程中面临更大的不公，尤其是少数群体可能受到更严重的影响。天气数据的操控风险上升，可能使航空公司和农民在决策时面临更大的不确定性，进而影响经济活动。SpaceX 与五角大楼的合作将为国防领域带来更多的 AI 计算能力，可能改变军事决策的方式，推动技术的进一步发展。",
-        "description": "近期研究显示，AI 在招聘过程中可能比人类更容易形成偏见，尤其是在筛选简历时。与此同时，天气数据的操控风险也在上升，可能影响航空、农业等多个行业的决策。SpaceX 正在与五角大楼谈判出售 AI 计算能力，进一步加深与国防部的关系。",
-        "useCases": [
-          "利用 AI 工具筛选简历，提高招聘效率，减少人为偏见。",
-          "开发天气预测模型，确保数据准确性，降低操控风险。",
-          "与国防部合作，提供 AI 计算能力，提升军事决策的智能化水平。"
-        ],
-        "watch": "AI 招聘工具可能会加剧现有的社会偏见，导致不公平的招聘结果。",
-        "sourceName": "Currents:AI agent",
-        "url": "https://www.technologyreview.com/2026/07/20/1140664/the-download-ai-hiring-biases-weather-data-sabotage/"
-      },
-      {
-        "name": "AI 代理并非幻觉，而是在错误输入上进行推理",
-        "provider": "Currents",
-        "type": "AI 项目/工具",
-        "bestFor": "AI 代理的推理错误可能导致生产环境中的重大决策失误，影响到运维团队的工作效率和系统的稳定性。随着代理在各行业的应用增加，输入质量的管理将成为关键问题。团队可能会因为错误的推理而寻求更大的模型或更长的提示，但问题的根源在于输入的质量而非模型本身。未来，改进上下文工程将有助于提高代理的决策准确性，减少因输入错误导致的连锁",
-        "description": "AI 代理在错误的输入上进行合理推理，而非产生幻觉。生产环境中的代理常遭遇输入错误，导致错误的修复建议。此现象揭示了输入质量对 AI 代理决策的重要性。",
-        "useCases": [
-          "监控系统状态，确保输入数据的时效性和完整性。",
-          "优化 AI 代理的推理过程，减少因输入错误导致的决策失误。",
-          "设计数据收集系统，确保数据的可追溯性和结构化。",
-          "分析生产环境中的输入质量，制定改进策略。",
-          "开发上下文工程工具，提高输入数据的质量和可用性。"
-        ],
-        "watch": "输入数据的延迟可能导致 AI 代理做出错误决策，从而影响系统的正常运行。",
-        "sourceName": "Currents:AI agent",
-        "url": "https://dev.to/ashishbagri/your-ai-agent-isnt-hallucinating-its-reading-garbage-context-278a"
-      },
-      {
-        "name": "三只值得关注的 AI 股票",
-        "provider": "Currents",
-        "type": "AI 项目/工具",
-        "bestFor": "这些公司的成功将影响企业在 AI 领域的投资决策，推动更多企业采用 AI 解决方案。Dell 的强劲表现可能吸引更多企业关注 AI 硬件，而 Salesforce 的持续增长则可能促使更多企业转向基于 AI 的软件服务。Arista 的网络解决方案也将成为支持 AI 基础设施的重要组成部分，进一步推动行业发展。",
-        "description": "2026 年的 AI 投资已超越大型科技公司，市场对服务器、网络和企业软件的需求持续增长。Dell、Salesforce 和 Arista Networks 三家公司在这一趋势中表现突出，尽管各自面临不同的风险和挑战。",
-        "useCases": [
-          "评估 Dell 的 AI 服务器以满足企业对高性能计算的需求。",
-          "利用 Salesforce 的 Agentforce 提升客户关系管理的效率。",
-          "选择 Arista 的网络解决方案以优化数据中心的连接性能。"
-        ],
-        "watch": "Dell 的毛利率因 AI 产品的高需求而下降，可能影响长期盈利能力。",
-        "sourceName": "Currents:AI agent",
-        "url": "https://247wallst.com/investing/2026/07/20/3-not-so-obvious-ai-stocks-to-buy-in-july/"
-      },
-      {
-        "name": "构建自审记忆代理：Mnemo 项目实战",
-        "provider": "Currents",
-        "type": "AI 项目/工具",
-        "bestFor": "Mnemo 的推出将对 AI 开发者和研究人员产生深远影响。首先，开发者可以利用这一系统提高代理的决策质量，减少因错误信息导致的风险。其次，研究人员可以在此基础上进一步探索记忆管理的最佳实践，推动 AI 领域的进步。此外，Mnemo 的设计理念也可能影响其他领域的智能系统开发，促使更多系统关注信息的准确性与时效性，从而",
-        "description": "在全球 AI 黑客马拉松中，我开发了一个自审记忆的代理系统 Mnemo。该系统旨在确保代理在行动前重新核对其存储的信念与现实，避免因过时信息而导致的错误决策。通过使用 Qwen Cloud 的资源，我实现了高效的记忆存储与检索，确保了信息的准确性与可靠性。",
-        "useCases": [
-          "使用 Mnemo 代理进行信息检索，确保获取的知识是最新且可信的。",
-          "在开发过程中利用 MNEMO_RECORD 功能记录真实请求，以便后续在 CI 环境中进行无成本的重放测试。",
-          "通过实时评估记忆系统，确保代理在每次决策时都能基于准确的信息进行判断。",
-          "利用 Qwen Cloud 的资源进行高效的模型调用，优化信息提取与处理流程。",
-          "实施及时遗忘机制，确保代理不再使用过时或错误的信息，提升决策的准确性。"
-        ],
-        "watch": "在使用 Qwen Cloud 时，需注意 API 调用的配额限制，避免因超出配额而导致服务中断。",
-        "sourceName": "Currents:AI agent",
-        "url": "https://dev.to/destinationbubul/mnemo-for-the-global-ai-hackathon-with-qwen-cloud-track-1-memoryagent-5fp2"
-      },
-      {
-        "name": "用 200 美元笔记本搭建自托管音乐流媒体服务，AI 助手全程管理",
-        "provider": "Currents",
-        "type": "AI 项目/工具",
-        "bestFor": "这个自托管音乐流媒体服务的出现，尤其是 AI 助手的应用，可能会吸引许多音乐爱好者和开发者。对于那些希望拥有自己音乐库并避免订阅费用的人来说，这无疑是一个理想的选择。此外，这种模式也可能促使更多人探索自托管解决方案，减少对大型流媒体平台的依赖，从而改变整个音乐消费市场的格局。",
-        "description": "我最近看到一个有趣的项目，作者在一台 200 美元的笔记本电脑上搭建了一个自托管的音乐流媒体服务，并且通过 AI 助手来管理。这个服务使用 Navidrome 作为后端，完全不需要订阅费用，支持本地音乐文件，且提供了良好的用户体验。整个搭建过程只需 10 分钟，非常适合有闲置电脑的朋友们尝试。",
-        "useCases": [
-          "搭建自托管音乐流媒体服务，享受无广告的音乐体验。",
-          "利用 AI 助手自动管理音乐服务器，减少人工干预。",
-          "通过 Navidrome 访问本地音乐文件，支持多种客户端。",
-          "与朋友共享音乐库，创建协作播放列表。",
-          "在闲置电脑上运行 Navidrome，充分利用现有资源。"
-        ],
-        "watch": "自托管需要一定的技术基础，可能对新手造成挑战。",
-        "sourceName": "Currents:AI agent",
-        "url": "https://dev.to/hermesxclawctrl/i-built-a-self-hosted-music-streaming-service-on-a-00-laptop-and-my-ai-agent-helps-manage-it-98d"
-      },
-      {
-        "name": "Paidwork 平台用户数据泄露，超过 2300 万条记录被公开",
-        "provider": "Currents",
-        "type": "AI 项目/工具",
-        "bestFor": "此次数据泄露事件对 Paidwork 用户造成了严重影响，尤其是那些在多个平台上重复使用相同密码的用户，面临更高的风险。用户的个人信息被公开后，可能会导致身份盗窃、财务损失等问题。此外，Paidwork 作为一个微任务平台，可能会因此失去用户信任，影响其未来的业务发展。企业在处理用户数据时需加强安全措施，以防止类似事件",
-        "description": "2026 年 7 月 20 日，网络安全专家指出，Paidwork 平台的用户数据遭到泄露，超过 2300 万条记录被公开，泄露信息包括银行账户、支付历史和个人详细信息。该事件引发了对用户隐私安全的广泛关注。",
-        "useCases": [
-          "监控财务账户，及时发现异常交易。",
-          "更改在多个平台使用的密码，增强账户安全。",
-          "使用密码管理工具，生成强密码并避免重复使用。"
-        ],
-        "watch": "数据泄露可能导致用户身份被盗用，造成财务损失。",
-        "sourceName": "Currents:AI agent",
-        "url": "https://www.theregister.com/cyber-crime/2026/07/20/infosec-expert-paidwork-users-data-pwned-after-23m-record-database-dumped-online/5274869"
-      },
-      {
-        "name": "ACL Digital 与 Swantide 达成战略合作，加速 AI 驱动的 Salesforce 交付",
-        "provider": "Currents",
-        "type": "AI 项目/工具",
-        "bestFor": "这项合作将使企业能够在短时间内实现 Salesforce 投资的显著价值，尤其是对于需要快速响应市场变化的企业。通过提供一个结构化的治理基础，企业在实施智能 AI 时将更加合规和高效。此外，合作还可能推动整个行业的数字化转型，促使更多企业采用智能化解决方案来提升业务效率。",
-        "description": "我注意到，ACL Digital 最近与 Swantide 建立了战略合作关系，旨在通过结合各自的技术优势，帮助企业更高效地利用 Salesforce 平台。此次合作将交付时间从几个月缩短至几天，并为企业提供一个结构化的治理基础，以支持智能 AI 的应用。",
-        "useCases": [
-          "利用 Swantide 的平台，快速部署 Salesforce 解决方案，缩短项目交付周期。",
-          "通过 ACL Digital 的专业支持，优化 Salesforce 系统的治理和数据管理。",
-          "结合 AI 自动化工具，提升 Salesforce 交付的一致性和质量。",
-          "在企业内部推广智能 AI 的应用，提升业务决策的效率。",
-          "利用合作带来的新标准，减少项目实施过程中的风险和不确定性。"
-        ],
-        "watch": "可能面临 API 价格波动，影响整体项目预算。",
-        "sourceName": "Currents:AI agent",
-        "url": "https://www.prnewswire.com/news-releases/acl-digital-announces-strategic-alliance-with-swantide-to-fast-track-ai-driven-salesforce-delivery-302829456.html"
-      },
-      {
-        "name": "Neo获得1亿美元融资，致力于企业AI软件安全",
-        "provider": "Currents",
-        "type": "AI 项目/工具",
-        "bestFor": "Neo的推出将对企业的安全决策产生深远影响。随着AI代理的快速采用，企业需要实时了解这些软件的行为并进行有效管理。SecOps团队将能够更好地识别和控制新引入的AI工具，确保其在合规的框架内运行。此外，Neo的技术将推动企业在安全投资上的决策，促使更多公司重视AI软件的安全性，从而形成良性循环，提升整体行业的安全标准。",
-        "description": "Neo Security, Inc.近日从Andreessen Horowitz和Bessemer Venture Partners等投资者处获得1亿美元融资，旨在为现代企业提供实时控制层，以管理和保护AI软件。该公司由前SentinelOne高管创立，预计将快速扩展市场和工程团队，以应对企业对安全的日益重视。",
-        "useCases": [
-          "实时监控AI代理的行为，确保其在合规框架内运行。",
-          "评估新引入的AI工具的安全配置，降低潜在风险。",
-          "管理企业内所有AI应用的安全策略，确保一致性。",
-          "快速响应安全事件，利用实时数据进行决策。",
-          "优化软件开发流程，确保新功能的安全性。"
-        ],
-        "watch": "API调用费用可能会增加，影响企业的预算和成本控制。",
-        "sourceName": "Currents:AI agent",
-        "url": "https://www.globenewswire.com/news-release/2026/07/20/3329638/0/en/Neo-Launches-with-100M-to-Secure-AI-Software-Across-the-Enterprise.html"
       }
     ],
     "ai-models": [
       {
-        "name": "新工具揭示医疗AI中的隐性偏见",
-        "provider": "Currents",
-        "type": "AI 项目/工具",
-        "bestFor": "这款工具的推出将对医疗AI的开发者、研究人员和监管机构产生深远影响。开发者可以利用该工具优化训练数据，减少偏见，从而提高AI模型的准确性和可靠性。研究人员则可以通过该工具深入分析数据，发现潜在问题，推动医疗AI的进一步研究。监管机构也将受益于更透明的数据分析，能够制定出更有效的监管政策，确保患者的安全。",
-        "description": "这次发布的核心点是，研究人员开发了一款新工具，旨在揭示用于训练医疗AI的大型数据集中潜在的隐性偏见。这款工具能够识别训练数据中的微妙模式，这些模式可能导致AI模型得出错误结论，从而影响患者护理。该工具的目标是帮助研究人员和监管机构更好地理解和管理医疗AI的风险。",
-        "useCases": [
-          "使用该工具分析医疗AI训练数据，识别潜在的偏见模式。",
-          "结合工具的分析结果，优化训练数据集，提高模型的准确性。",
-          "向监管机构提交工具分析报告，支持政策制定。"
-        ],
-        "watch": "工具的有效性依赖于训练数据的质量，若数据本身存在问题，结果可能不准确。",
-        "sourceName": "Currents:artificial intelligence",
-        "url": "https://medicalxpress.com/news/2026-07-tool-hidden-bias-medical-ai.html"
-      },
-      {
-        "name": "谷歌 DeepMind 与 Isomorphic Labs 的生物韧性战略",
+        "name": "Google DeepMind 与 Isomorphic Labs 的生物韧性战略",
         "provider": "RSS",
         "type": "AI 项目/工具",
-        "bestFor": "这一战略将影响政府机构、科研人员和生物安全专家等多个群体。通过提供先进的 AI 工具，他们能够更有效地监测和应对传染病，优化药物研发流程。这种合作模式可能会改变公共卫生决策，促进全球健康生态系统的安全性和韧性。此外，随着 AI 技术的不断进步，未来可能会出现更多创新的防御措施，从而降低疫情爆发的风险。",
-        "description": "我注意到谷歌 DeepMind 和 Isomorphic Labs 正在分享他们在生物韧性和 AI 模型方面的联合策略。随着全球生物安全形势的快速变化，AI 的应用变得愈发重要，尤其是在应对传染病和潜在的生物威胁方面。",
+        "bestFor": "这一战略的实施将使政府、科研机构和生物安全专家能够更有效地利用 AI 技术，提升对疫情的响应能力。通过优化检测和响应流程，相关机构能够更快地识别和应对新出现的健康威胁。此外，AI 的应用将推动药物研发的速度，帮助应对未来可能出现的疫情，最终提升全球健康安全。",
+        "description": "我注意到，Google DeepMind 和 Isomorphic Labs 正在分享他们在生物韧性和 AI 模型方面的联合策略。随着全球生物安全形势的快速变化，AI 不仅是应对挑战的关键工具，也是提升社会韧性的必要手段。通过与政府和科研机构的合作，他们致力于防止模型被恶意使用，并加快对新疫情的检测和响应。",
         "useCases": [
-          "利用 AlphaFold 加速蛋白质结构分析，帮助研究人员更快理解疾病机制。",
+          "利用 AlphaFold 加速蛋白质结构研究，帮助科学家们更快理解疾病机制。",
           "通过 Isomorphic Labs 的 IsoDDE 设计新药，缩短药物研发周期。",
-          "使用 AlphaEvolve 优化病原体监测算法，提高疫情响应速度。",
-          "与政府合作，利用 AI 模型制定公共卫生政策，提升应对疫情的能力。"
+          "使用 AlphaEvolve 优化病原体监测算法，提高疫情检测的准确性和效率。"
         ],
-        "watch": "API 价格可能较高，影响小型研究机构的使用能力。",
+        "watch": "模型的安全性仍需持续监控，可能面临恶意使用的风险。",
         "sourceName": "RSS · Google DeepMind",
         "url": "https://deepmind.google/blog/our-approach-to-bioresilience/"
       },
       {
-        "name": "ChatGPT 工作区新增文档、表格和幻灯片编辑功能",
+        "name": "Gemini 3.5 Flash 集成计算机使用功能",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "这一新功能将极大地影响开发者和企业的工作方式。开发者可以更轻松地创建智能代理，提升工作效率，减少手动操作的需求。企业则能够利用这一工具进行更高效的自动化，优化资源配置，提升整体生产力。此外，安全性措施的增强也为企业在使用智能代理时提供了更大的信心。",
+        "description": "我注意到，Gemini 3.5 Flash 现在内置了计算机使用工具，允许开发者创建跨平台的智能代理。这一功能的集成显著提升了代理在浏览器、移动设备和桌面环境中的表现，特别是在长周期和企业自动化任务中。开发者可以通过 Gemini API 和 Gemini 企业代理平台开始使用这一新功能。",
+        "useCases": [
+          "利用 Gemini API 创建跨平台的智能代理，自动化日常任务。",
+          "在企业环境中实施持续软件测试，提高软件质量和发布效率。",
+          "通过计算机使用功能审计文档，确保无障碍访问。",
+          "结合安全措施，构建符合企业标准的智能代理。",
+          "使用 Gemini 3.5 Flash 进行复杂数据分析，生成可视化报告。"
+        ],
+        "watch": "API 使用可能涉及费用和配额限制，需提前评估成本。",
+        "sourceName": "RSS · Google DeepMind",
+        "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/"
+      },
+      {
+        "name": "ChatGPT 工作区新增文档、表格与幻灯片编辑功能",
         "provider": "AIHOT",
         "type": "AI 项目/工具",
-        "bestFor": "这一新功能将对需要频繁创建文档的用户产生积极影响，尤其是教育工作者、项目经理和市场营销人员等。通过在 ChatGPT 工作区中直接编辑文档，用户可以更快地完成任务，减少了时间成本。此外，这也可能促使其他办公软件开发商加快创新步伐，以应对 ChatGPT 的竞争。",
-        "description": "我注意到 ChatGPT 工作区现在支持创建和编辑文档、电子表格以及幻灯片，这让我们的工作变得更加高效和便捷。@nickbaumann_ 在演示中详细介绍了这些新功能的使用方法，适合需要频繁处理文档的用户。",
+        "bestFor": "这一新功能将极大地便利需要频繁制作文档和演示的职场人士，尤其是项目经理、市场营销人员和教育工作者。通过集成多种文档编辑功能，用户可以更高效地完成工作，提升整体生产力。此外，实时协作功能的引入，将促进团队间的沟通与合作，减少信息传递的延迟，进一步推动项目的顺利进行。",
+        "description": "我注意到 ChatGPT 工作区现在支持创建和编辑精美的文档、电子表格和幻灯片，这对我们日常工作非常有帮助。@nickbaumann_ 还提供了详细的操作演示，方便大家上手使用。",
         "useCases": [
-          "创建课程文档，快速整理教学材料，提升教学效率。",
-          "制作项目计划表，实时更新进度，方便团队协作。",
-          "设计市场推广幻灯片，快速生成视觉吸引力强的演示文稿。",
-          "撰写会议记录，直接在工作区中编辑和分享，确保信息传递及时。",
-          "整理客户反馈，使用表格功能汇总数据，便于分析和决策。"
+          "创建项目报告时，利用 ChatGPT 的文档编辑功能快速整理信息。",
+          "在团队会议中，使用幻灯片功能展示数据分析结果，提升汇报效果。",
+          "与同事实时协作编辑电子表格，确保数据的准确性和及时性。",
+          "制作在线课程材料，结合文档和幻灯片功能，提升学习体验。",
+          "在客户提案中，使用 ChatGPT 制作专业的演示文稿，增强说服力。"
         ],
-        "watch": "可能存在 API 调用限制，影响大规模使用时的效率。",
+        "watch": "可能存在 API 调用限制，影响高频使用者的体验。",
         "sourceName": "AIHOT · X：ChatGPT (@ChatGPTapp)",
         "url": "https://x.com/ChatGPTapp/status/2077826846373380535"
+      },
+      {
+        "name": "Infrawise 工具在处理 Lambda 函数时存在 200 函数限制问题",
+        "provider": "Currents",
+        "type": "AI 项目/工具",
+        "bestFor": "这一问题可能导致开发者在使用 Infrawise 工具时，无法获得完整的 Lambda 函数信息，从而影响其决策和开发效率。尤其是在大型组织中，开发团队可能会因为工具的局限性而面临更高的风险，导致项目延误或错误配置。此外，开发者可能会对工具的可靠性产生怀疑，从而影响其对 AI 助手的信任度，进而影响团队的工作流程和效率",
+        "description": "Infrawise 工具在分析 AWS 账户时，因内部限制未能识别超过 200 个 Lambda 函数，导致开发者获取错误信息。该问题影响了工具的准确性和可靠性，尤其是在大型项目中。开发者在使用 AI 助手时，可能会得到错误的反馈，而未被告知潜在的数据缺失。",
+        "useCases": [
+          "分析 AWS Lambda 函数，确保所有函数均被识别并纳入分析。",
+          "使用 Infrawise 工具进行基础设施审计，确保没有遗漏的函数信息。",
+          "在开发过程中，及时检查 Lambda 函数的配置，避免因数据缺失导致的错误。",
+          "与团队共享 Infrawise 的使用经验，帮助其他开发者识别潜在问题。",
+          "评估其他类似工具的功能，确保选择适合项目需求的工具。"
+        ],
+        "watch": "由于 Infrawise 工具的 200 函数限制，开发者可能会错过关键的 Lambda 函数信息，导致项目风险增加。",
+        "sourceName": "Currents:generative AI",
+        "url": "https://dev.to/siddharth_pandey_27/your-infrastructure-tool-silently-drops-functions-past-200-and-so-might-yours-1eke"
       },
       {
         "name": "千问APP与武汉发布联合举办AI求职实战课",
         "provider": "AIHOT",
         "type": "AI 项目/工具",
-        "bestFor": "这次活动对求职者的影响显而易见，尤其是那些希望通过AI工具提升求职技能的人群。通过学习如何使用千问进行简历优化和数据处理，求职者能够在求职过程中做出更明智的决策。此外，企业也可能因此意识到AI工具在招聘中的潜力，未来可能会更多地依赖这些工具来筛选和评估候选人，从而改变招聘流程。",
-        "description": "我注意到千问APP最近与武汉发布合作，在武汉举办了一场AI求职实战课，现场展示了如何利用千问进行简历诊断、PPT制作和表格分析。产品经理分享了一个五步法，强调了提供全材料、说明目标、定义标准、划定边界和索要可编辑文件的重要性，并展示了如何将486行杂乱的销售数据浓缩为一页结论PPT的\"建、理、算、析、呈\"方法论。",
+        "bestFor": "这次活动将直接影响到参与的求职者，帮助他们在求职过程中更好地展示自己。通过学习简历诊断和数据分析技能，求职者能够在面试中脱颖而出。此外，千问APP的推广也可能吸引更多企业使用该工具进行内部培训和数据处理，形成良性循环。随着AI工具的普及，未来求职者的求职方式和企业的人才筛选标准都可能发生变化。",
+        "description": "我注意到千问APP最近在武汉举办了一场AI求职实战课，现场展示了如何利用千问进行简历诊断、PPT制作和表格分析。产品经理分享了一个五步法，强调了提供全材料、说明目标、定义标准、划定边界和索要可编辑文件的重要性，并展示了如何将486行杂乱的销售数据浓缩成一页结论PPT的\"建、理、算、析、呈\"方法论。",
         "useCases": [
-          "使用千问进行简历诊断，快速识别简历中的不足之处，提升面试机会。",
-          "利用千问制作专业的PPT，展示个人项目或工作成果，增强面试表现。",
-          "通过千问分析销售数据，提炼出关键信息，帮助团队制定更有效的销售策略。",
-          "在求职准备过程中，使用千问提供的五步法，确保材料准备充分，目标明确。",
-          "借助千问的办公自动化功能，提高日常工作效率，节省时间和精力。"
+          "使用千问进行简历诊断，提升简历的专业性和吸引力。",
+          "利用千问制作高质量的PPT，增强面试表现。",
+          "通过千问分析销售数据，快速提炼出关键信息。",
+          "在求职准备中，应用五步法系统化整理材料，提升效率。",
+          "参加实战课程，学习AI工具的实际应用，增强职场竞争力。"
         ],
-        "watch": "使用千问进行简历诊断时，可能会遇到API调用限制，影响使用体验。",
+        "watch": "千问APP的API价格可能会影响小型企业的使用决策，需提前评估预算。",
         "sourceName": "AIHOT · 公众号：千问APP（阿里）",
         "url": "https://mp.weixin.qq.com/s/dCk6IXbFyOSSc1JxcWsglA"
+      },
+      {
+        "name": "新工具揭示医疗 AI 数据集中的隐性偏见",
+        "provider": "Currents",
+        "type": "AI 项目/工具",
+        "bestFor": "这款工具的推出将对医疗行业产生深远影响。首先，医疗 AI 开发者可以利用该工具识别和修正数据中的偏见，从而提高模型的准确性和可靠性。其次，监管机构可以借助该工具进行更有效的审查，确保医疗 AI 的安全性和合规性。此外，患者也将因此受益，获得更为精准和公正的医疗服务。总之，这款工具不仅为研究人员提供了新的视角，也为整个医",
+        "description": "这次发布的核心点是，研究人员开发了一款新工具，旨在揭示用于训练医疗 AI 的庞大数据集中潜在的隐性偏见。这款工具能够识别训练数据中的微妙模式，这些模式可能导致 AI 模型得出错误结论，从而影响患者护理。该工具的推出旨在帮助研究人员和监管机构更好地理解和管理医疗 AI 的风险。",
+        "useCases": [
+          "使用该工具分析医疗数据集，识别潜在的偏见，提升 AI 模型的准确性。",
+          "为医疗监管机构提供数据审查支持，确保医疗 AI 的合规性和安全性。",
+          "帮助研究人员在开发新模型时，避免使用存在偏见的数据集。",
+          "进行临床试验时，利用工具评估 AI 模型的公平性和可靠性。",
+          "为患者提供更透明的医疗决策依据，增强患者对医疗 AI 的信任。"
+        ],
+        "watch": "工具的使用需要专业知识，普通用户可能难以正确解读分析结果。",
+        "sourceName": "Currents:artificial intelligence",
+        "url": "https://medicalxpress.com/news/2026-07-tool-hidden-bias-medical-ai.html"
       },
       {
         "name": "Northen Cape road rage killer loses sentence appeal for doub",
@@ -7829,24 +8113,6 @@ window.AI_GENERATED_DATA = {
         "watch": "API 可能存在调用限制，影响数据处理的实时性与准确性。",
         "sourceName": "Currents:large language model",
         "url": "https://dev.to/gdg/from-apple-health-data-to-clinical-storytelling-building-an-ai-powered-report-with-python-and-3n8n"
-      },
-      {
-        "name": "Gemini 3.5 Flash 集成计算机使用功能，提升跨平台智能代理能力",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "这次更新对开发者和企业都有明显影响。首先，做智能代理开发的工程师可以利用 Gemini 3.5 Flash 直接构建跨平台代理，减少了多模型切换的复杂度，提高开发效率。其次，企业自动化负责人能借助该功能实现更复杂的自动化流程，尤其是长周期任务如持续集成测试和跨应用知识管理，提升业务效率和准确性。安全团队也能利用新增的安",
-        "description": "我注意到 Gemini 3.5 Flash 新增了内置计算机使用功能，支持开发者构建能跨浏览器、移动端和桌面环境操作的智能代理。这一集成使得 Gemini 在函数调用和工具使用基础上，能更好地完成长周期企业自动化任务，如持续软件测试和专业知识工作。通过 Gemini API 和企业代理平台，开发者可快速上手，且新增安全机制降低提示注入风险，保障实际应用安全。",
-        "useCases": [
-          "构建跨浏览器和移动端的智能代理，实现自动化任务执行。",
-          "利用 Gemini API 开发定制化企业自动化流程，提升工作效率。",
-          "通过计算机使用功能自动分析应用特性，优化产品设计。",
-          "使用 3.5 Flash 审计文档无障碍问题，提升内容合规性。",
-          "结合安全防护系统，部署安全可靠的智能代理服务。",
-          "在持续软件测试中集成 Gemini 3.5 Flash，实现自动化回归检测。"
-        ],
-        "watch": "计算机使用功能对硬件资源要求较高，可能导致部分设备性能瓶颈。",
-        "sourceName": "RSS · Google DeepMind",
-        "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/"
       },
       {
         "name": "语音转文本不再是简单的 AI API 选择",
@@ -8240,36 +8506,21 @@ window.AI_GENERATED_DATA = {
         "watch": "关税政策的频繁变动可能导致市场不稳定，影响长期投资决策。",
         "sourceName": "NewsData.io:artificial intelligence",
         "url": "https://www.taipeitimes.com/News/editorials/archives/2026/07/20/2003861032"
-      },
-      {
-        "name": "Shein未能拥抱根基，面临上市困境",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Shein的上市计划将影响其未来的市场定位和投资者信心。对于希望在国际市场上立足的其他中国企业而言，Shein的经历提供了重要的教训：在全球竞争中，根基和文化认同不可忽视。投资者可能会对Shein的未来表现持谨慎态度，尤其是在市场需求减弱的背景下。",
-        "description": "Shein集团即将在香港上市，但其未能有效利用自身的中国根基，导致在美中竞争中处于劣势。尽管曾计划在纽约和伦敦上市，但因未能获得中国监管机构的批准而遭遇重挫。如今，Shein的市场估值大幅下滑，未来前景堪忧。",
-        "useCases": [
-          "分析Shein的市场策略以优化自身电商平台的运营。",
-          "研究Shein的供应链管理模式，以提高产品交付效率。",
-          "借鉴Shein的国际化经验，制定更有效的市场进入策略。"
-        ],
-        "watch": "Shein面临的监管风险可能导致其海外扩张计划受阻，影响投资者信心。",
-        "sourceName": "NewsData.io:artificial intelligence",
-        "url": "https://www.taipeitimes.com/News/editorials/archives/2026/07/20/2003861033"
       }
     ],
     "ai-business": [
       {
-        "name": "Meta Platforms 与 Anthropic 签署高达 100 亿美元的云计算协议",
+        "name": "Meta 与 Anthropic 签署高达 100 亿美元的云计算租赁协议",
         "provider": "Currents",
         "type": "AI 项目/工具",
-        "bestFor": "这一合作将使 Meta 能够更好地满足 AI 计算的需求，尤其是在电力资源紧张的情况下。对于需要大量计算资源的企业和开发者来说，这意味着可以更方便地获取所需的计算能力。此外，Meta 的这一举措可能会促使其他公司也考虑类似的云计算解决方案，从而推动整个行业的变革。对于希望在 AI 领域获得竞争优势的企业来说，Meta ",
-        "description": "Meta Platforms 正在与 Anthropic 商谈，计划租赁高达 100 亿美元的数据中心计算能力，以应对国家电网短缺的挑战，转向商业云服务。这一举措标志着 Meta 在 AI 领域的战略转型，可能会对云计算市场产生深远影响。",
+        "bestFor": "这一合作将使 Meta 能够为更多企业提供强大的云计算服务，尤其是那些依赖于 AI 的公司。随着云计算需求的增加，Meta 的市场份额有望提升，可能会改变企业在选择云服务提供商时的决策。此举还可能引发其他科技公司重新评估其云计算战略，进而影响整个行业的竞争格局。",
+        "description": "Meta Platforms 正在与 Anthropic 商谈租赁高达 100 亿美元的数据中心计算能力，旨在应对国家电网短缺的挑战，并转向商业云服务。这一举措标志着 Meta 在 AI 领域的战略转型，可能会对云计算市场产生深远影响。",
         "useCases": [
-          "租赁 Meta 的云计算资源，支持大规模 AI 模型训练，提升项目效率。",
-          "利用 Meta 的数据中心能力，进行实时数据分析，优化业务决策。",
-          "通过 Meta 提供的云服务，快速部署和扩展 AI 应用，降低基础设施成本。"
+          "租赁数据中心计算能力，提升 AI 模型训练效率。",
+          "利用 Meta 的云服务，快速部署机器学习应用。",
+          "为企业提供高效的云计算解决方案，降低 IT 成本。"
         ],
-        "watch": "租赁协议的价格可能会因市场需求波动而变化，需谨慎评估预算。",
+        "watch": "租赁协议的成本可能会对企业的预算造成压力，尤其是在电力短缺的情况下。",
         "sourceName": "Currents:artificial intelligence",
         "url": "https://www.marketbeat.com/articles/meta-platforms-turns-ai-power-scarcity-into-a-10-billion-cloud-bet/"
       },
@@ -9503,19 +9754,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-image-video": [
       {
-        "name": "谷歌图像庆祝25周年，视觉搜索迎新变革",
+        "name": "谷歌图像庆祝25周年：视觉搜索的演变与未来",
         "provider": "RSS",
         "type": "AI 项目/工具",
-        "bestFor": "新功能将吸引广泛的用户群体，包括设计师、内容创作者和普通用户。通过提供更直观的搜索体验，用户可以更快速地找到所需的视觉内容，进而影响他们的创作和决策过程。此外，AI图像生成的引入可能会改变用户对图像创作的认知，推动相关行业的发展。",
-        "description": "谷歌图像在25周年之际推出了新的视觉内容探索和创作方式，回顾了其在视觉搜索领域的重要里程碑。新功能包括实时更新的动态画廊和直接在搜索中生成图像的能力，尽管这些创新仍面临一些局限性。",
+        "bestFor": "新功能将吸引设计师、内容创作者和市场营销人员等专业人士，帮助他们更高效地获取和创作视觉内容。这可能会改变他们的工作流程和决策方式，推动行业内的创新。然而，普通用户可能需要时间适应这些新功能，影响其使用体验。",
+        "description": "谷歌图像迎来25周年，推出全新功能以提升视觉内容的探索与创作体验。新功能包括动态画廊和AI图像生成，旨在进一步推动视觉搜索的创新。然而，这些更新也面临技术局限和用户适应性挑战。",
         "useCases": [
-          "浏览动态画廊，快速找到灵感并保存到个人收藏中。",
-          "使用AI生成图像功能，创建独特的视觉内容以满足特定需求。",
-          "通过Similar Images功能，发现与已有图像相似的内容，丰富创作素材。",
-          "利用Lens功能，实时识别和获取周围物体的信息，提升学习和工作效率。",
-          "在社交媒体上分享生成的图像，增强互动和吸引力。"
+          "使用动态画廊快速浏览和保存灵感，提升创作效率。",
+          "通过AI图像生成工具，创建符合特定需求的视觉内容，满足个性化需求。",
+          "利用相似图像搜索功能，发现更多相关视觉素材，丰富项目资源。"
         ],
-        "watch": "新功能可能在不同地区的可用性存在差异，限制了全球用户的使用体验。",
+        "watch": "新功能可能面临技术兼容性问题，尤其是在不同设备和浏览器上的表现不一。",
         "sourceName": "RSS · Google AI Blog",
         "url": "https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary/"
       },
@@ -10695,872 +10944,6 @@ window.AI_GENERATED_DATA = {
   },
   "skillRecommendations": [
     {
-      "title": "chrome-devtools-mcp",
-      "type": "MCP 服务",
-      "description": "chrome-devtools-mcp 是一个为 Chrome DevTools 提供的 MCP 服务器，增强了开发者的调试能力。",
-      "details": "该服务允许开发者通过 MCP 协议与 Chrome DevTools 进行交互，支持实时调试和监控。开发者可以在本地或远程环境中使用此服务，提升调试效率。与传统的调试工具相比，chrome-devtools-mcp 提供了更灵活的接口和更高的可扩展性，适用于各种 JavaScript 应用程序。兼容 Node.js 环境，易于集成到现有的开发工作流中。",
-      "features": [
-        "支持实时调试和监控",
-        "提供 MCP 协议接口",
-        "兼容 Node.js 环境",
-        "支持本地和远程调试",
-        "易于集成到开发工作流中"
-      ],
-      "useCases": [
-        "开发者调试 JavaScript 应用",
-        "实时监控应用性能",
-        "集成到 CI/CD 流程中",
-        "支持远程调试场景",
-        "提升调试效率"
-      ],
-      "tags": [
-        "Chrome DevTools",
-        "调试工具",
-        "MCP",
-        "开发者工具",
-        "JavaScript"
-      ],
-      "url": "https://www.npmjs.com/package/chrome-devtools-mcp",
-      "source": "npm",
-      "date": "2026-07-20"
-    },
-    {
-      "title": "The Safari MCP server for web developers",
-      "type": "MCP 服务",
-      "description": "Safari MCP 服务器为 Web 开发者提供了一个高效的开发环境，支持实时调试和优化。",
-      "details": "Safari MCP 服务器允许开发者在本地环境中模拟 Safari 浏览器的行为，提供实时反馈和调试工具。与传统的开发工具相比，它能更好地集成 Safari 的特性，帮助开发者快速识别和解决兼容性问题。该服务支持多种 Web 技术栈，确保开发者能够在不同的项目中灵活应用。",
-      "features": [
-        "实时调试 Safari 浏览器行为",
-        "本地环境模拟 Safari 特性",
-        "快速识别兼容性问题",
-        "集成多种开发工具"
-      ],
-      "useCases": [
-        "Web 开发者调试 Safari 特性",
-        "前端团队优化网站兼容性",
-        "开发者测试新功能在 Safari 中的表现"
-      ],
-      "tags": [
-        "Safari",
-        "Web 开发",
-        "调试工具"
-      ],
-      "url": "https://webkit.org/blog/18136/introducing-the-safari-mcp-server-for-web-developers/",
-      "source": "Hacker News",
-      "date": "2026-07-20"
-    },
-    {
-      "title": "Show HN: WhatsApp MCP Server",
-      "type": "MCP 服务",
-      "description": "该服务提供了一个 WhatsApp MCP 服务器，允许用户通过 WhatsApp 进行交互。",
-      "details": "WhatsApp MCP Server 使开发者能够通过 WhatsApp 接收和发送消息，适用于需要与用户进行实时沟通的应用场景。与传统的 API 接口不同，该服务通过 WhatsApp 平台直接与用户互动，提升了用户体验。它支持多种编程语言，易于集成到现有的工作流中，适合需要快速响应用户请求的项目。",
-      "features": [
-        "支持 WhatsApp 消息的发送和接收",
-        "集成简单，兼容多种编程语言",
-        "实时消息推送",
-        "支持多用户并发交互"
-      ],
-      "useCases": [
-        "开发者构建实时客户支持系统",
-        "企业通过 WhatsApp 发送通知和更新",
-        "教育机构与学生进行互动沟通"
-      ],
-      "tags": [
-        "WhatsApp",
-        "MCP",
-        "实时沟通"
-      ],
-      "url": "https://github.com/lharries/whatsapp-mcp",
-      "source": "Hacker News",
-      "date": "2026-07-20"
-    },
-    {
-      "title": "MCP server for Ghidra",
-      "type": "MCP 服务",
-      "description": "该 Skill 提供 Ghidra 的 MCP 服务器，增强反向工程能力。",
-      "details": "MCP server for Ghidra 允许用户在 Ghidra 中使用多种插件和工具，提升反向工程的效率。用户可以通过该服务在 Ghidra 环境中集成自定义的分析工具，支持多种编程语言的反汇编和调试。与传统的 Ghidra 使用方式相比，MCP server 提供了更灵活的工作流，用户可以根据需求快速切换不同的分析工具，适应多样化的项目需求。该服务兼容 Ghidra 的最新版本，并支持多种操作系统。",
-      "features": [
-        "集成多种反向工程工具",
-        "支持自定义插件",
-        "提供实时分析反馈",
-        "兼容多种操作系统",
-        "支持多语言反汇编"
-      ],
-      "useCases": [
-        "在 Ghidra 中快速切换分析工具",
-        "集成自定义反向工程插件",
-        "实时监控反向工程过程"
-      ],
-      "tags": [
-        "Ghidra",
-        "反向工程",
-        "MCP",
-        "工具集成",
-        "开发"
-      ],
-      "url": "https://github.com/LaurieWired/GhidraMCP",
-      "source": "Hacker News",
-      "date": "2026-07-20"
-    },
-    {
-      "title": "Ghidra MCP Server",
-      "type": "MCP 服务",
-      "description": "Ghidra MCP Server 提供 110 个工具，支持 AI 辅助的逆向工程，提升开发者的分析能力。",
-      "details": "Ghidra MCP Server 是一个集成了多个工具的服务，专为逆向工程设计。它允许开发者在进行代码分析时，利用 AI 技术自动化常见的逆向任务，如函数识别和代码重构。与传统的逆向工具相比，Ghidra MCP Server 提供了更高的效率和准确性，支持多种编程语言和平台，兼容性强，适合各种开发环境。开发者可以通过简单的配置，将其集成到现有的工作流中，提升代码审查和安全分析的效率。",
-      "features": [
-        "自动化函数识别",
-        "代码重构支持",
-        "多语言兼容",
-        "集成 AI 分析工具",
-        "简化逆向工程流程"
-      ],
-      "useCases": [
-        "进行代码审查时自动识别潜在漏洞",
-        "在逆向工程项目中快速分析复杂代码",
-        "集成到 CI/CD 流程中进行安全检查",
-        "为安全研究人员提供高效的工具集",
-        "帮助开发者理解和重构遗留代码"
-      ],
-      "tags": [
-        "逆向工程",
-        "AI 工具",
-        "代码分析",
-        "安全审查",
-        "开发者工具"
-      ],
-      "url": "https://github.com/bethington/ghidra-mcp",
-      "source": "Hacker News",
-      "date": "2026-07-20"
-    },
-    {
-      "title": "MCP server for searching and downloading documents from Anna's Archive",
-      "type": "MCP 服务",
-      "description": "该服务允许用户搜索和下载来自 Anna's Archive 的文档，提升文档获取效率。",
-      "details": "MCP server 提供了一个简单的接口，用户可以通过特定的查询条件快速找到所需的文档。与传统的文档搜索工具相比，该服务专注于从 Anna's Archive 中提取信息，支持多种文档格式的下载。技术栈包括 Python 和 Flask，兼容大多数操作系统，适合开发者和研究人员使用。",
-      "features": [
-        "支持关键词搜索",
-        "提供文档下载功能",
-        "支持多种文件格式",
-        "快速响应查询请求"
-      ],
-      "useCases": [
-        "研究人员快速查找相关文献",
-        "开发者获取开源项目文档",
-        "学生下载学习资料"
-      ],
-      "tags": [
-        "文档搜索",
-        "开源",
-        "Anna's Archive"
-      ],
-      "url": "https://github.com/iosifache/annas-mcp",
-      "source": "Hacker News",
-      "date": "2026-07-20"
-    },
-    {
-      "title": "@ui5/mcp-server",
-      "type": "MCP 服务",
-      "description": "MCP server 为 SAPUI5/OpenUI5 开发提供支持，简化了开发流程。",
-      "details": "该服务为开发者提供了一个本地的 MCP 服务器环境，支持 SAPUI5 和 OpenUI5 应用的开发与测试。通过使用 @ui5/mcp-server，开发者可以快速启动一个本地服务器，方便进行实时预览和调试。与传统的开发方式相比，它减少了配置时间，提升了开发效率。该服务兼容多种开发工具和框架，适合需要快速迭代的项目。",
-      "features": [
-        "本地服务器快速启动",
-        "支持实时预览",
-        "集成开发环境兼容",
-        "简化的配置流程"
-      ],
-      "useCases": [
-        "开发者快速搭建本地开发环境",
-        "实时调试 SAPUI5 应用",
-        "进行应用性能测试"
-      ],
-      "tags": [
-        "SAPUI5",
-        "OpenUI5",
-        "开发工具"
-      ],
-      "url": "https://www.npmjs.com/package/@ui5/mcp-server",
-      "source": "npm",
-      "date": "2026-07-20"
-    },
-    {
-      "title": "mcp-server",
-      "type": "MCP 服务",
-      "description": "mcp-server 是一个用于创建和管理 Minecraft 服务器的工具，提供了便捷的接口和功能。",
-      "details": "mcp-server 允许用户快速搭建和管理 Minecraft 服务器，支持多种配置选项和插件。用户可以通过简单的命令行操作启动服务器，配置游戏模式、玩家数量等参数。与其他 Minecraft 服务器管理工具相比，mcp-server 提供了更灵活的 API 接口，方便开发者进行二次开发和集成。该工具兼容多种操作系统，适合希望自定义 Minecraft 体验的玩家和开发者。",
-      "features": [
-        "快速启动和停止 Minecraft 服务器",
-        "支持多种配置选项",
-        "提供插件接口",
-        "命令行操作简便",
-        "跨平台兼容"
-      ],
-      "useCases": [
-        "创建自定义 Minecraft 服务器",
-        "管理多人游戏环境",
-        "集成插件以扩展功能"
-      ],
-      "tags": [
-        "Minecraft",
-        "服务器管理",
-        "开发工具"
-      ],
-      "url": "https://www.npmjs.com/package/mcp-server",
-      "source": "npm",
-      "date": "2026-07-20"
-    },
-    {
-      "title": "Prompt Engineering, Context Engineering, Loop Engineering: What Actually Changed",
-      "type": "方法论 / 文章",
-      "description": "探讨了从提示工程到上下文工程和循环工程的演变，帮助开发者理解如何优化与模型的交互。",
-      "details": "文章回顾了提示工程的历史，分析了如何通过上下文和循环工程提升模型的响应质量。具体场景包括在生成文本时如何调整提示以获得更准确的结果，以及如何利用上下文信息来增强模型的理解能力。这些方法与传统的提示工程相比，提供了更灵活的策略，适用于多种语言模型和应用场景。",
-      "features": [
-        "优化提示以提高模型响应质量",
-        "利用上下文信息增强理解能力",
-        "循环工程提升交互效果",
-        "适用于多种语言模型"
-      ],
-      "useCases": [
-        "调整提示以生成更准确的文本",
-        "在对话系统中增强上下文理解",
-        "通过循环反馈改进模型输出"
-      ],
-      "tags": [
-        "提示工程",
-        "上下文工程",
-        "循环工程"
-      ],
-      "url": "https://dev.to/reporails/prompt-engineering-context-engineering-loop-engineering-what-actually-changed-2357",
-      "source": "Dev.to",
-      "date": "2026-07-20"
-    },
-    {
-      "title": "[AI in Action] Refining a macOS Meeting Translation App with Claude Code",
-      "type": "方法论 / 文章",
-      "description": "本文章探讨如何利用 Claude Code 改进 macOS 会议翻译应用，增加自动重连、浮动字幕和会议纪要导出等功能。",
-      "details": "在这篇文章中，我们详细介绍了如何通过 Claude Code 实现 macOS 会议翻译应用的多项功能改进。文章首先回顾了之前的开发过程，然后深入探讨了如何实现自动重连功能，以确保会议翻译的连续性。此外，浮动字幕的实现使得用户可以更方便地查看翻译内容，而会议纪要导出功能则为用户提供了更好的记录方式。这些改进不仅提升了用户体验，也使得应用在同类产品中更具竞争力。",
-      "features": [
-        "自动重连功能确保翻译不中断",
-        "浮动字幕实时显示翻译内容",
-        "会议纪要导出为文本文件",
-        "支持多种语言的翻译",
-        "用户友好的界面设计"
-      ],
-      "useCases": [
-        "在在线会议中实时翻译多语言对话",
-        "为会议参与者提供即时翻译支持",
-        "导出会议纪要以便后续参考"
-      ],
-      "tags": [
-        "会议翻译",
-        "Claude Code",
-        "macOS 应用"
-      ],
-      "url": "https://dev.to/gde/ai-in-action-refining-a-macos-meeting-translation-app-with-claude-code-auto-reconnect-floating-2856",
-      "source": "Dev.to",
-      "date": "2026-07-20"
-    },
-    {
-      "title": "Brave Search",
-      "type": "MCP 服务",
-      "description": "使用 Brave 独立索引搜索网页、新闻、图片和视频，支持自定义订阅令牌。",
-      "details": "Brave Search 提供了一种隐私保护的搜索方式，用户可以通过自带的订阅令牌访问其 API。与传统搜索引擎不同，Brave Search 不依赖于用户数据进行个性化推荐，确保用户的搜索隐私。适用于需要安全、私密搜索的场景，支持多种内容类型的检索。",
-      "features": [
-        "独立索引搜索网页、新闻、图片和视频",
-        "支持自定义订阅令牌",
-        "隐私保护搜索体验",
-        "多种内容类型支持"
-      ],
-      "useCases": [
-        "进行隐私保护的网页搜索",
-        "查找最新新闻和图片",
-        "获取视频内容的搜索结果"
-      ],
-      "tags": [
-        "隐私搜索",
-        "网页搜索",
-        "Brave"
-      ],
-      "url": "https://smithery.ai/server/brave",
-      "source": "Smithery MCP",
-      "date": "2026-07-20"
-    },
-    {
-      "title": "smolagents/computer-agent",
-      "type": "agent-skills 仓库",
-      "description": "这个 Skill 使 Coding Agent 能够更智能地处理计算机相关任务，提升自动化水平。",
-      "details": "smolagents/computer-agent 是一个专注于计算机操作的智能代理，能够在多种场景中执行命令和处理任务。它支持自动化脚本的执行，能够在用户输入命令前进行安全检查，确保操作的安全性。与其他同类工具相比，该代理在处理复杂计算任务时表现更为出色，兼容多种编程语言和环境，适合开发者和系统管理员使用。",
-      "features": [
-        "执行计算机命令",
-        "自动化脚本运行",
-        "安全检查机制",
-        "多语言支持",
-        "实时反馈"
-      ],
-      "useCases": [
-        "自动化执行系统命令",
-        "在开发环境中运行测试脚本",
-        "监控系统状态并报告异常"
-      ],
-      "tags": [
-        "智能代理",
-        "自动化",
-        "计算机操作"
-      ],
-      "url": "https://huggingface.co/spaces/smolagents/computer-agent",
-      "source": "HF Spaces",
-      "date": "2026-07-20"
-    },
-    {
-      "title": "Exa Search",
-      "type": "MCP 服务",
-      "description": "Exa Search 提供快速、智能的网页搜索和爬虫功能，帮助开发者获取最新的库、API 和 SDK 信息。",
-      "details": "Exa Search 是一个高效的工具，能够实时抓取和搜索网络上的信息，特别适合开发者在查找库、API 和 SDK 时使用。与传统搜索引擎不同，Exa Search 专注于技术资源，提供更精准的结果。它支持多种编程语言和框架，确保兼容性和广泛适用性，帮助开发者在项目中快速找到所需的技术支持。",
-      "features": [
-        "实时网页搜索",
-        "智能信息抓取",
-        "支持多种编程语言",
-        "精准的技术资源推荐"
-      ],
-      "useCases": [
-        "查找最新的开发库和工具",
-        "获取特定 API 的文档和示例",
-        "快速了解 SDK 的使用方法"
-      ],
-      "tags": [
-        "网页搜索",
-        "开发工具",
-        "技术资源"
-      ],
-      "url": "https://smithery.ai/server/exa",
-      "source": "Smithery MCP",
-      "date": "2026-07-20"
-    },
-    {
-      "title": "Claude Skills",
-      "type": "官方平台更新",
-      "description": "Claude Skills 是一系列新功能，旨在提升 Coding Agent 的能力，支持更智能的代码生成和处理。",
-      "details": "Claude Skills 通过引入新的 API 和工具，允许开发者在代码生成和审查过程中实现更高效的工作流。例如，开发者可以在提交代码前自动运行安全检查，确保代码的安全性和合规性。此外，Claude Skills 还支持与现有的开发工具链无缝集成，提升了开发效率和代码质量。与其他工具相比，Claude Skills 更加注重与用户交互的智能化，提供个性化的建议和反馈。",
-      "features": [
-        "自动安全检查",
-        "智能代码建议",
-        "与开发工具链集成",
-        "个性化反馈",
-        "高效的工作流管理"
-      ],
-      "useCases": [
-        "在提交代码前自动运行安全检查",
-        "在代码审查中提供智能建议",
-        "与现有工具集成提升开发效率",
-        "根据用户习惯调整代码生成",
-        "实时反馈代码质量"
-      ],
-      "tags": [
-        "Claude Skills",
-        "代码生成",
-        "安全检查",
-        "开发效率",
-        "智能工具"
-      ],
-      "url": "https://www.anthropic.com/news/skills",
-      "source": "Hacker News",
-      "date": "2026-07-20"
-    },
-    {
-      "title": "Keenable Web Search",
-      "type": "MCP 服务",
-      "description": "Keenable 是一个免费的远程 MCP 服务器，允许代理访问网络索引，提供排名结果和日期/网站过滤功能。",
-      "details": "Keenable 使得代理能够轻松搜索网络并获取干净的 Markdown 格式的页面。用户无需注册账户或获取 API 密钥即可使用。它支持通过 `search_web_p` 工具进行搜索，适合需要快速获取信息的场景，如文档编写、市场调研等。与其他搜索工具相比，Keenable 提供了更为简洁的结果展示，便于快速提取所需信息。",
-      "features": [
-        "提供排名结果的网络搜索",
-        "支持日期和网站过滤",
-        "获取干净的 Markdown 格式页面",
-        "无需账户或 API 密钥即可使用"
-      ],
-      "useCases": [
-        "快速获取文档所需信息",
-        "进行市场调研时查找相关数据",
-        "在编写内容时引用网络资源"
-      ],
-      "tags": [
-        "网络搜索",
-        "MCP 服务",
-        "信息获取"
-      ],
-      "url": "https://smithery.ai/server/keenable/web-search",
-      "source": "Smithery MCP",
-      "date": "2026-07-20"
-    },
-    {
-      "title": "MCP server that reduces Claude Code context consumption by 98%",
-      "type": "MCP 服务",
-      "description": "该 MCP 服务显著降低 Claude Code 的上下文消耗，提升了编程效率。",
-      "details": "此 MCP 服务通过优化上下文管理，减少了 Claude Code 在处理请求时的内存占用，达到 98% 的节省。这使得开发者在使用 Claude Code 时，可以更高效地进行代码生成和调试，尤其在处理大型项目时，显著提升了响应速度和稳定性。与传统的上下文管理方式相比，该服务采用了更为精简的算法，确保在不牺牲功能的前提下，最大限度地减少资源消耗。",
-      "features": [
-        "优化上下文管理算法",
-        "显著降低内存占用",
-        "提升响应速度",
-        "支持大型项目处理",
-        "兼容多种开发环境"
-      ],
-      "useCases": [
-        "开发者在大型项目中使用 Claude Code",
-        "团队协作时减少上下文消耗",
-        "在资源有限的环境中运行 Claude Code"
-      ],
-      "tags": [
-        "MCP服务",
-        "Claude Code",
-        "上下文管理"
-      ],
-      "url": "https://mksg.lu/blog/context-mode",
-      "source": "Hacker News",
-      "date": "2026-07-20"
-    },
-    {
-      "title": "@notionhq/notion-mcp-server",
-      "type": "MCP 服务",
-      "description": "这是 Notion API 的官方 MCP 服务器，提供与 Notion 的交互能力。",
-      "details": "该 MCP 服务器允许开发者通过 Notion API 进行高效的数据管理和操作。它支持实时数据同步，能够处理来自 Notion 的请求并返回相应的数据，适用于构建与 Notion 集成的应用程序。与其他非官方解决方案相比，官方 MCP 服务器提供更高的稳定性和安全性，确保数据的完整性和一致性。该服务兼容 Node.js 环境，易于与现有的 JavaScript 应用程序集成。",
-      "features": [
-        "实时数据同步",
-        "处理 Notion API 请求",
-        "返回数据响应",
-        "支持 Node.js 环境",
-        "确保数据完整性"
-      ],
-      "useCases": [
-        "构建与 Notion 集成的应用程序",
-        "实现数据的实时更新",
-        "管理 Notion 数据库内容",
-        "自动化 Notion 工作流",
-        "增强 Notion API 的使用体验"
-      ],
-      "tags": [
-        "Notion",
-        "API",
-        "MCP",
-        "开发者工具",
-        "数据管理"
-      ],
-      "url": "https://www.npmjs.com/package/@notionhq/notion-mcp-server",
-      "source": "npm",
-      "date": "2026-07-20"
-    },
-    {
-      "title": "Claude Skills are awesome, maybe a bigger deal than MCP",
-      "type": "方法论 / 文章",
-      "description": "这篇文章探讨了 Claude Skills 的潜力，认为其重要性可能超过 MCP，适合对 AI 技术感兴趣的开发者阅读。",
-      "details": "在 Hacker News 的讨论中，作者分析了 Claude Skills 的特性及其对开发者的影响，强调了其在自动化和智能化工作流中的应用。与传统的 MCP 相比，Claude Skills 提供了更灵活的集成方式，能够更好地适应不同的开发环境和需求。文章中还提到了一些具体的应用场景，例如如何利用 Claude Skills 提高代码审查的效率。",
-      "features": [
-        "支持多种编程语言的集成",
-        "提供自动化代码审查功能",
-        "允许自定义技能扩展",
-        "增强与现有工具的兼容性"
-      ],
-      "useCases": [
-        "开发者在代码提交前进行自动化检查",
-        "团队在代码审查时快速识别潜在问题",
-        "项目经理利用技能优化工作流"
-      ],
-      "tags": [
-        "Claude Skills",
-        "自动化",
-        "开发者工具"
-      ],
-      "url": "https://simonwillison.net/2025/Oct/16/claude-skills/",
-      "source": "Hacker News",
-      "date": "2026-07-20"
-    },
-    {
-      "title": "Claude Tag",
-      "type": "方法论 / 文章",
-      "description": "Claude Tag 是一个新兴的概念，旨在为 AI 系统建立信任层，提升用户与 AI 交互的安全性和可靠性。",
-      "details": "在 AI 交互中，信任是至关重要的。Claude Tag 提出了一种新的方法，通过标记和验证 AI 输出，帮助用户判断信息的可信度。这一方法不仅可以应用于文本生成，还可以扩展到图像和音频处理等领域。与传统的信任机制相比，Claude Tag 更加注重实时反馈和用户参与，利用区块链技术确保数据的不可篡改性，从而提升整体系统的透明度和安全性。",
-      "features": [
-        "实时标记 AI 输出",
-        "用户反馈机制",
-        "区块链数据验证",
-        "多媒体内容支持",
-        "透明度提升"
-      ],
-      "useCases": [
-        "用户在使用 AI 生成内容时验证信息的可信度",
-        "开发者在构建 AI 应用时集成信任层",
-        "企业在数据处理时确保信息的安全性"
-      ],
-      "tags": [
-        "信任层",
-        "AI 交互",
-        "数据安全"
-      ],
-      "url": "https://dev.to/dannwaneri/everyones-excited-about-claude-tag-nobodys-built-the-trust-layer-1ohp",
-      "source": "Dev.to",
-      "date": "2026-07-20"
-    },
-    {
-      "title": "@transcend-io/mcp-server-admin",
-      "type": "MCP 服务",
-      "description": "Transcend MCP Server 的管理工具，提供便捷的服务器管理能力。",
-      "details": "该工具集成了多种管理功能，适用于需要高效管理 Transcend MCP Server 的开发者。用户可以通过命令行界面快速执行管理任务，如监控服务器状态、配置参数和管理用户权限。与其他管理工具相比，@transcend-io/mcp-server-admin 提供了更为直观的操作方式和更强的兼容性，支持多种操作系统和环境，确保用户能够在不同的开发环境中无缝使用。",
-      "features": [
-        "快速监控服务器状态",
-        "配置服务器参数",
-        "管理用户权限",
-        "执行批量操作",
-        "生成操作日志"
-      ],
-      "useCases": [
-        "开发者快速配置 Transcend MCP Server",
-        "运维人员监控服务器运行状态",
-        "团队协作时管理用户权限",
-        "进行批量操作以提高效率",
-        "生成日志以便后续审计"
-      ],
-      "tags": [
-        "服务器管理",
-        "开发工具",
-        "MCP"
-      ],
-      "url": "https://www.npmjs.com/package/@transcend-io/mcp-server-admin",
-      "source": "npm",
-      "date": "2026-07-20"
-    },
-    {
-      "title": "@transcend-io/mcp-server-dsr",
-      "type": "MCP 服务",
-      "description": "Transcend MCP Server 提供 DSR 自动化工具，帮助开发者简化数据删除请求的处理。",
-      "details": "该工具集成了数据删除请求（DSR）的自动化流程，允许开发者在处理用户数据时，快速响应删除请求。通过自动化，开发者可以减少手动操作的错误率，提高效率。与传统的手动处理方式相比，DSR 工具能够更好地遵循数据隐私法规，确保合规性。该工具兼容 Node.js 环境，易于与现有的 MCP 工作流集成。",
-      "features": [
-        "自动化处理数据删除请求",
-        "集成用户身份验证",
-        "支持多种数据源",
-        "生成合规性报告",
-        "实时监控请求状态"
-      ],
-      "useCases": [
-        "处理用户数据删除请求",
-        "生成合规性报告",
-        "监控数据删除请求状态"
-      ],
-      "tags": [
-        "数据隐私",
-        "自动化工具",
-        "合规性"
-      ],
-      "url": "https://www.npmjs.com/package/@transcend-io/mcp-server-dsr",
-      "source": "npm",
-      "date": "2026-07-20"
-    },
-    {
-      "title": "Claude might be saturating your machine",
-      "type": "方法论 / 文章",
-      "description": "这篇文章探讨了 Claude 可能导致计算机资源过度使用的问题，帮助用户识别和解决相关性能问题。",
-      "details": "在使用 Claude 的过程中，用户可能会发现计算机风扇持续运转，且没有明显的程序在运行。文章分析了可能的原因，并提供了一些排查和解决方案，帮助用户优化机器性能。与其他性能监控工具不同，本文专注于 Claude 的特定使用场景，提供了针对性建议，适合所有使用 Claude 的用户。",
-      "features": [
-        "识别 Claude 资源占用问题",
-        "提供解决方案和优化建议",
-        "分析计算机性能瓶颈",
-        "指导用户进行系统监控"
-      ],
-      "useCases": [
-        "识别计算机性能问题",
-        "优化 Claude 使用体验",
-        "解决机器过热问题"
-      ],
-      "tags": [
-        "Claude",
-        "性能优化",
-        "计算机问题"
-      ],
-      "url": "https://dev.to/sidhantpanda/claude-might-be-saturating-your-machine-3h07",
-      "source": "Dev.to",
-      "date": "2026-07-20"
-    },
-    {
-      "title": "Claude Code skills that build complete Godot games",
-      "type": "agent-skills 仓库",
-      "description": "该仓库提供了一系列 Claude Code 技能，帮助用户快速构建完整的 Godot 游戏。",
-      "details": "这个项目包含了多种 Claude Code 技能，专注于游戏开发，特别是使用 Godot 引擎。用户可以通过这些技能实现游戏逻辑、图形渲染和用户交互等功能。与其他游戏开发工具相比，Claude Code 提供了更高的自动化和智能化，能够根据用户的需求生成代码片段，减少手动编码的工作量。该项目兼容最新版本的 Godot 引擎，适合开发者和游戏设计师使用。",
-      "features": [
-        "自动生成游戏逻辑代码",
-        "支持图形渲染的代码片段",
-        "实现用户交互功能的技能",
-        "提供游戏场景管理能力"
-      ],
-      "useCases": [
-        "开发者快速构建原型游戏",
-        "游戏设计师实现复杂的游戏机制",
-        "教育工作者使用该工具教授游戏开发"
-      ],
-      "tags": [
-        "游戏开发",
-        "Godot",
-        "Claude Code"
-      ],
-      "url": "https://github.com/htdt/godogen",
-      "source": "Hacker News",
-      "date": "2026-07-20"
-    },
-    {
-      "title": "lvwerra/jupyter-agent-2",
-      "type": "agent-skills 仓库",
-      "description": "该 Skill 使 Coding Agent 能够在 Jupyter 环境中执行代码并进行交互式编程。",
-      "details": "lvwerra/jupyter-agent-2 是一个集成在 Jupyter Notebook 中的 Agent 项目，允许用户通过自然语言与代码进行交互。用户可以输入问题或指令，Agent 将自动生成相应的代码并执行，适用于数据分析、机器学习模型训练等场景。与其他工具相比，该项目专注于无缝集成 Jupyter 环境，支持多种编程语言，提升了用户的编程效率和体验。",
-      "features": [
-        "支持自然语言输入",
-        "自动生成并执行代码",
-        "兼容多种编程语言",
-        "实时反馈和结果展示",
-        "集成 Jupyter Notebook 环境"
-      ],
-      "useCases": [
-        "数据科学家进行数据分析时自动生成代码",
-        "学生在学习编程时获取即时反馈",
-        "研究人员快速验证算法实现",
-        "开发者在 Jupyter 中进行快速原型设计"
-      ],
-      "tags": [
-        "Jupyter",
-        "编程助手",
-        "自然语言处理",
-        "数据分析",
-        "机器学习"
-      ],
-      "url": "https://huggingface.co/spaces/lvwerra/jupyter-agent-2",
-      "source": "HF Spaces",
-      "date": "2026-07-20"
-    },
-    {
-      "title": "Show HN: I Made a Claude Skill for Spec-Driven Development (SDD)",
-      "type": "方法论 / 文章",
-      "description": "该 Skill 通过规范驱动开发（SDD）提升了 Coding Agent 的代码生成和审查能力。",
-      "details": "该项目提供了一种新的开发方法，利用规范驱动的方式来生成和审查代码。通过在开发过程中引入明确的规范，Coding Agent 能够在代码提交前自动检查代码是否符合预设标准，从而减少潜在的错误和提高代码质量。与传统的代码审查方式相比，SDD 更加注重在开发初期就确保代码的合规性，适用于需要高标准代码质量的项目。该 Skill 兼容多种编程语言和开发环境，适合广泛的开发团队使用。",
-      "features": [
-        "自动生成符合规范的代码",
-        "在代码提交前进行规范检查",
-        "支持多种编程语言",
-        "集成到现有的开发工作流中"
-      ],
-      "useCases": [
-        "开发团队在项目初期确保代码合规性",
-        "提高代码审查的效率和准确性",
-        "减少代码缺陷和后期修复成本"
-      ],
-      "tags": [
-        "规范驱动开发",
-        "代码审查",
-        "自动化工具"
-      ],
-      "url": "https://github.com/FredAntB/Spec-Driven-Development",
-      "source": "Hacker News",
-      "date": "2026-07-20"
-    },
-    {
-      "title": "The Model Does Not Need Memory. The Situation Does.",
-      "type": "方法论 / 文章",
-      "description": "这篇文章探讨了模型在不同情境下的记忆需求，强调了环境对模型性能的影响。",
-      "details": "文章分析了在机器学习中，模型的记忆能力并不是唯一的决定因素。相反，具体的应用场景和环境条件对模型的表现起着更为重要的作用。通过对比不同情境下的模型表现，作者提出了在设计和应用模型时应更多关注环境因素，而非单纯依赖模型的记忆能力。这种观点为机器学习的研究和应用提供了新的视角，尤其是在处理复杂任务时。",
-      "features": [
-        "分析模型与环境的关系",
-        "探讨记忆在不同情境下的作用",
-        "提供新的研究视角",
-        "对比不同模型在特定场景下的表现"
-      ],
-      "useCases": [
-        "研究人员分析模型性能",
-        "开发者优化机器学习应用",
-        "教育工作者教授机器学习概念"
-      ],
-      "tags": [
-        "机器学习",
-        "模型性能",
-        "环境因素"
-      ],
-      "url": "https://dev.to/marcosomma/the-model-does-not-need-memory-the-situation-does-196g",
-      "source": "Dev.to",
-      "date": "2026-07-20"
-    },
-    {
-      "title": "@transcend-io/mcp-server-assessment",
-      "type": "MCP 服务",
-      "description": "Transcend MCP Server 提供评估工具，帮助开发者快速评估服务器状态和性能。",
-      "details": "该工具专为开发者设计，能够在服务器上执行一系列评估任务，确保系统的稳定性和安全性。通过集成到 CI/CD 流程中，开发者可以在代码提交前自动进行服务器评估，及时发现潜在问题。与其他评估工具相比，Transcend MCP Server 评估工具提供了更为详细的性能指标和安全检查，支持多种环境配置，兼容性强，适用于不同的开发场景。",
-      "features": [
-        "执行服务器性能评估",
-        "提供安全漏洞扫描",
-        "生成评估报告",
-        "支持多种环境配置",
-        "集成到 CI/CD 流程"
-      ],
-      "useCases": [
-        "开发者在代码提交前评估服务器状态",
-        "运维团队监控服务器性能",
-        "安全团队检查服务器安全漏洞"
-      ],
-      "tags": [
-        "服务器评估",
-        "性能监控",
-        "安全检查"
-      ],
-      "url": "https://www.npmjs.com/package/@transcend-io/mcp-server-assessment",
-      "source": "npm",
-      "date": "2026-07-20"
-    },
-    {
-      "title": "agents-course/unit_1_quiz",
-      "type": "Skill 精选",
-      "description": "这个 Skill 提供了一个互动式测验，帮助用户巩固在 Hugging Face Space 上学习的知识。",
-      "details": "该测验设计用于测试用户对 Hugging Face Space 中内容的理解，涵盖了基础概念和应用场景。用户可以通过回答问题来评估自己的学习进度，并获得即时反馈。与其他学习工具相比，这个测验更注重互动性和即时反馈，适合希望通过实践巩固知识的学习者。技术栈兼容 Hugging Face 的各类模型和应用。",
-      "features": [
-        "提供多种选择题形式",
-        "即时反馈用户答案",
-        "跟踪用户学习进度",
-        "支持多种语言",
-        "适用于不同水平的学习者"
-      ],
-      "useCases": [
-        "测试学习者对 Hugging Face Space 内容的理解",
-        "帮助用户识别知识盲点",
-        "促进用户主动学习",
-        "增强学习体验的互动性"
-      ],
-      "tags": [
-        "Hugging Face",
-        "学习工具",
-        "互动测验"
-      ],
-      "url": "https://huggingface.co/spaces/agents-course/unit_1_quiz",
-      "source": "HF Spaces",
-      "date": "2026-07-20"
-    },
-    {
-      "title": "agents-course/First_agent_template",
-      "type": "agent-skills 仓库",
-      "description": "该 Skill 提供了一个基础的代理模板，帮助开发者快速构建和部署自己的智能代理。",
-      "details": "这个代理模板为用户提供了一个简单的起点，用户可以在此基础上进行扩展和定制。它适用于需要自动化任务的场景，比如数据抓取、信息检索等。与其他代理模板相比，该模板更加简洁，易于理解，适合初学者。技术栈兼容 Hugging Face 的生态系统，支持多种机器学习模型的集成。",
-      "features": [
-        "提供基础的代理框架",
-        "支持自定义功能扩展",
-        "集成 Hugging Face 模型",
-        "简化代理部署流程"
-      ],
-      "useCases": [
-        "构建数据抓取代理",
-        "开发信息检索工具",
-        "创建自动化任务执行者"
-      ],
-      "tags": [
-        "代理模板",
-        "自动化",
-        "Hugging Face"
-      ],
-      "url": "https://huggingface.co/spaces/agents-course/First_agent_template",
-      "source": "HF Spaces",
-      "date": "2026-07-20"
-    },
-    {
-      "title": "Geosql: A Claude/Codex skill for geospatial data",
-      "type": "agent-skills 仓库",
-      "description": "Geosql 是一个用于处理地理空间数据的技能，增强了 Coding Agent 在地理数据查询和分析方面的能力。",
-      "details": "Geosql 允许用户通过 SQL 查询语言直接操作地理空间数据，支持多种地理数据格式。用户可以在数据分析和可视化过程中，轻松执行复杂的地理查询。与其他地理数据处理工具相比，Geosql 提供了更高的灵活性和兼容性，适用于多种编程环境和数据库系统。该技能特别适合需要处理地理信息系统（GIS）数据的开发者。",
-      "features": [
-        "支持多种地理数据格式",
-        "直接使用 SQL 进行地理查询",
-        "与多种数据库系统兼容",
-        "提供地理数据分析功能"
-      ],
-      "useCases": [
-        "分析地理空间数据",
-        "执行复杂的地理查询",
-        "集成地理数据到应用程序"
-      ],
-      "tags": [
-        "地理空间数据",
-        "SQL查询",
-        "数据分析"
-      ],
-      "url": "https://github.com/dekart-xyz/geosql",
-      "source": "Hacker News",
-      "date": "2026-07-20"
-    },
-    {
-      "title": "galileo-ai/agent-leaderboard",
-      "type": "agent-skills 仓库",
-      "description": "该 Skill 提供了一个平台，用于评估和比较不同 AI Agent 的性能，帮助开发者选择合适的 Agent。",
-      "details": "在 AI 开发过程中，选择合适的 Agent 是至关重要的。galileo-ai/agent-leaderboard 提供了一个可视化界面，用户可以在此查看不同 Agent 的性能指标，如响应时间、准确率等。与其他评估工具相比，该平台支持多种模型的比较，并且可以实时更新数据，确保开发者获取最新的信息。此外，平台还允许用户上传自定义的 Agent 进行评估，增强了灵活性和适用性。",
-      "features": [
-        "实时性能比较",
-        "支持多种模型评估",
-        "用户自定义 Agent 上传",
-        "可视化数据展示",
-        "定期更新性能指标"
-      ],
-      "useCases": [
-        "开发者选择合适的 AI Agent",
-        "研究人员比较不同模型的效果",
-        "团队评估自定义 Agent 的性能"
-      ],
-      "tags": [
-        "AI 评估",
-        "Agent 比较",
-        "性能指标"
-      ],
-      "url": "https://huggingface.co/spaces/galileo-ai/agent-leaderboard",
-      "source": "HF Spaces",
-      "date": "2026-07-20"
-    },
-    {
-      "title": "jupyter-agent/jupyter-agent",
-      "type": "agent-skills 仓库",
-      "description": "这个 Skill 使 Coding Agent 能够在 Jupyter Notebook 环境中执行代码并进行交互式编程。",
-      "details": "jupyter-agent 是一个专为 Jupyter Notebook 设计的代理，能够处理代码执行、数据可视化和交互式分析。用户可以在 Notebook 中直接调用该代理，执行复杂的计算任务，实时查看结果。与传统的代码执行方式相比，jupyter-agent 提供了更高的灵活性和交互性，支持多种编程语言和库，适合数据科学、机器学习等领域的开发者使用。",
-      "features": [
-        "支持多种编程语言的代码执行",
-        "实时数据可视化功能",
-        "交互式分析和调试",
-        "集成常用数据科学库"
-      ],
-      "useCases": [
-        "在 Jupyter Notebook 中执行数据分析任务",
-        "实时可视化数据处理结果",
-        "调试和优化机器学习模型"
-      ],
-      "tags": [
-        "Jupyter",
-        "数据科学",
-        "机器学习",
-        "交互式编程"
-      ],
-      "url": "https://huggingface.co/spaces/jupyter-agent/jupyter-agent",
-      "source": "HF Spaces",
-      "date": "2026-07-20"
-    },
-    {
-      "title": "AI Model Cost & Routing Comparison for SaaS",
-      "type": "方法论 / 文章",
-      "description": "本资源提供了针对 SaaS 应用的 AI 模型成本与路由比较，帮助开发者优化任务分配。",
-      "details": "在 SaaS 应用中，处理高频率的任务（如分类、提取、聊天）时，选择合适的 AI 模型至关重要。本文详细分析了不同模型的成本效益，并提供了路由建议，帮助开发者在性能与成本之间找到平衡。通过对比不同模型的优缺点，开发者可以更有效地分配资源，提升应用的响应速度和用户体验。",
-      "features": [
-        "比较不同 AI 模型的成本",
-        "提供高频任务的路由建议",
-        "分析模型的性能与适用场景",
-        "帮助开发者优化资源分配"
-      ],
-      "useCases": [
-        "开发者选择合适的 AI 模型以降低成本",
-        "团队优化 SaaS 应用的任务处理效率",
-        "企业评估不同模型的性价比"
-      ],
-      "tags": [
-        "AI模型",
-        "SaaS",
-        "成本优化"
-      ],
-      "url": "https://dev.to/codexam/ai-model-cost-routing-comparison-for-saas-558l",
-      "source": "Dev.to",
-      "date": "2026-07-20"
-    },
-    {
       "title": "ECC 性能优化系统",
       "type": "编程开发",
       "description": "ECC 是一个性能优化系统，提供技能、直觉、记忆、安全性和以研究为先的开发，支持 Claude Code、Codex、Opencode、Cursor 等多种工具。",
@@ -11571,83 +10954,83 @@ window.AI_GENERATED_DATA = {
       ],
       "url": "https://github.com/affaan-m/ECC",
       "source": "GitHub",
-      "stars": 231136,
-      "date": "2026-07-20"
+      "stars": 231473,
+      "date": "2026-07-21"
     },
     {
-      "title": "Hermes Agent",
+      "title": "Hermes智能代理",
       "type": "编程开发",
-      "description": "Hermes Agent 是一个能够随着用户需求不断发展的智能代理，帮助开发者在编程过程中实现更高效的任务管理与自动化。它提供灵活的功能扩展，适应不同项目的需求。",
+      "description": "Hermes智能代理是一个与您共同成长的工具，旨在帮助开发者构建和管理AI代理。它提供灵活的功能，支持多种编程需求，助力开发者在项目中实现更高效的协作与创新。",
       "tags": [
-        "智能代理",
-        "任务管理",
-        "自动化工具"
+        "AI代理",
+        "开发工具",
+        "项目管理"
       ],
       "url": "https://github.com/NousResearch/hermes-agent",
       "source": "GitHub",
-      "stars": 217152,
-      "date": "2026-07-20"
+      "stars": 217643,
+      "date": "2026-07-21"
     },
     {
-      "title": "n8n 工作流自动化平台",
+      "title": "n8n 工作流自动化",
       "type": "编程开发",
-      "description": "n8n 是一个公平代码的工作流自动化平台，具备原生 AI 能力。用户可以通过可视化构建与自定义代码相结合，选择自托管或云端部署，并支持 400 多种集成。适合 AI Agent 和开发者使用。",
+      "description": "n8n 是一个公平代码的工作流自动化平台，具备原生 AI 能力。用户可以通过可视化构建与自定义代码相结合，选择自托管或云端部署，并支持 400 多种集成。",
       "tags": [
         "工作流自动化",
         "可视化构建",
-        "多种集成"
+        "自托管"
       ],
       "url": "https://github.com/n8n-io/n8n",
       "source": "GitHub",
-      "stars": 197048,
-      "date": "2026-07-20"
+      "stars": 197179,
+      "date": "2026-07-21"
     },
     {
       "title": "Claude Code 行为改进工具",
       "type": "编程开发",
-      "description": "该工具通过单个 CLAUDE.md 文件，基于 Andrej Karpathy 对 LLM 编程陷阱的观察，帮助改善 Claude Code 的行为，提升代码质量与开发效率。",
+      "description": "该工具基于 Andrej Karpathy 对 LLM 编程陷阱的观察，提供一个 CLAUDE.md 文件，以改善 Claude Code 的行为，帮助开发者更有效地编写代码。",
       "tags": [
         "代码优化",
-        "开发工具",
-        "AI 编程"
+        "开发者工具",
+        "LLM 编程"
       ],
       "url": "https://github.com/multica-ai/andrej-karpathy-skills",
       "source": "GitHub",
-      "stars": 194280,
-      "date": "2026-07-20"
+      "stars": 194636,
+      "date": "2026-07-21"
     },
     {
       "title": "AutoGPT",
       "type": "编程开发",
-      "description": "AutoGPT 旨在让每个人都能轻松使用和构建 AI。我们提供必要的工具，让您能够专注于真正重要的事情，提升开发效率。",
+      "description": "AutoGPT 是一个让每个人都能轻松使用和构建的 AI 工具。我们的使命是提供必要的工具，让您能够专注于真正重要的事情。",
       "tags": [
-        "AI 开发",
-        "工具集成",
-        "易用性"
+        "人工智能",
+        "开发工具",
+        "开源项目"
       ],
       "url": "https://github.com/Significant-Gravitas/AutoGPT",
       "source": "GitHub",
-      "stars": 185611,
-      "date": "2026-07-20"
+      "stars": 185618,
+      "date": "2026-07-21"
     },
     {
       "title": "Claude 技能库",
       "type": "Claude Skill",
-      "description": "这是一个公开的技能库，提供多种 Agent 技能，帮助开发者和 AI Agent 扩展功能，提升交互能力和智能化水平。",
+      "description": "这是一个公开的技能库，提供多种 Agent 技能，帮助开发者和 AI Agent 扩展其功能，提升交互能力和应用场景。",
       "tags": [
-        "Agent 技能",
+        "AI 技能",
         "开发者工具",
         "开源项目"
       ],
       "url": "https://github.com/anthropics/skills",
       "source": "GitHub",
-      "stars": 162646,
-      "date": "2026-07-20"
+      "stars": 162906,
+      "date": "2026-07-21"
     },
     {
       "title": "Java 面试与后端指南",
       "type": "编程开发",
-      "description": "这是一份全面的 Java 面试及后端开发指南，涵盖计算机基础、数据库知识、分布式系统、高并发处理、系统设计以及 AI 应用开发等内容，帮助开发者提升面试和实战能力。",
+      "description": "该指南涵盖 Java 面试的各个方面，包括计算机基础、数据库知识、分布式系统、高并发处理、系统设计及 AI 应用开发，帮助开发者全面提升面试能力。",
       "tags": [
         "Java 面试",
         "后端开发",
@@ -11655,13 +11038,13 @@ window.AI_GENERATED_DATA = {
       ],
       "url": "https://github.com/Snailclimb/JavaGuide",
       "source": "GitHub",
-      "stars": 157125,
-      "date": "2026-07-20"
+      "stars": 157142,
+      "date": "2026-07-21"
     },
     {
       "title": "火爬虫",
       "type": "浏览器 / 自动化",
-      "description": "这是一个用于大规模搜索、抓取和与网络互动的 API。它可以帮助开发者高效地获取网页数据，支持自动化操作，提升数据处理能力。",
+      "description": "这是一个用于大规模搜索、抓取和与网络交互的 API，帮助开发者高效获取网页数据，支持自动化操作，提升工作效率。",
       "tags": [
         "网页抓取",
         "数据搜索",
@@ -11669,27 +11052,27 @@ window.AI_GENERATED_DATA = {
       ],
       "url": "https://github.com/firecrawl/firecrawl",
       "source": "GitHub",
-      "stars": 153048,
-      "date": "2026-07-20"
+      "stars": 153442,
+      "date": "2026-07-21"
     },
     {
-      "title": "Dify 工作流开发平台",
+      "title": "Dify 工作流构建",
       "type": "编程开发",
-      "description": "Dify 是一个适用于生产环境的工作流开发平台，支持构建智能代理的工作流，帮助开发者快速实现复杂的自动化任务。",
+      "description": "在一个协作工作区中构建智能工作流和 RAG 管道，支持丰富的 AI 模型和工具。可部署在云端、VPC 或自托管，帮助团队从原型快速转向生产，无需重建技术栈。",
       "tags": [
-        "工作流开发",
-        "智能代理",
-        "自动化任务"
+        "工作流构建",
+        "AI 模型支持",
+        "团队协作"
       ],
       "url": "https://github.com/langgenius/dify",
       "source": "GitHub",
-      "stars": 149332,
-      "date": "2026-07-20"
+      "stars": 149486,
+      "date": "2026-07-21"
     },
     {
       "title": "用户友好的 AI 界面",
       "type": "RAG / 知识库",
-      "description": "这个工具提供了一个直观的用户界面，支持 Ollama 和 OpenAI API，方便开发者和用户与 AI 进行交互，提升使用体验。",
+      "description": "这个工具提供了一个直观的用户界面，支持 Ollama 和 OpenAI API 等多种功能，方便开发者和用户与 AI 进行交互和操作。",
       "tags": [
         "用户界面",
         "AI 交互",
@@ -11697,41 +11080,41 @@ window.AI_GENERATED_DATA = {
       ],
       "url": "https://github.com/open-webui/open-webui",
       "source": "GitHub",
-      "stars": 145949,
-      "date": "2026-07-20"
+      "stars": 146081,
+      "date": "2026-07-21"
     },
     {
       "title": "LangChain 平台",
       "type": "RAG / 知识库",
-      "description": "LangChain 是一个专注于代理工程的平台，提供了构建和管理 AI 代理所需的工具和框架，帮助开发者轻松实现复杂的任务自动化和知识管理。",
+      "description": "LangChain 是一个专注于代理工程的平台，提供构建和管理智能代理所需的工具和框架，帮助开发者高效地创建和部署 AI 解决方案。",
       "tags": [
         "代理工程",
-        "任务自动化",
-        "知识管理"
+        "智能应用",
+        "开发工具"
       ],
       "url": "https://github.com/langchain-ai/langchain",
       "source": "GitHub",
-      "stars": 142088,
-      "date": "2026-07-20"
+      "stars": 142168,
+      "date": "2026-07-21"
     },
     {
-      "title": "超赞的 LLM 应用",
+      "title": "超实用的 LLM 应用",
       "type": "RAG / 知识库",
-      "description": "提供超过 100 个可运行的 AI 代理和 RAG 应用，用户可以轻松克隆、定制和发布。这些工具为开发者提供了丰富的资源，助力快速构建智能应用。",
+      "description": "提供超过 100 个可运行的 AI 代理和 RAG 应用，用户可以轻松克隆、定制和部署，适合开发者和 AI 爱好者使用。",
       "tags": [
         "AI 代理",
-        "RAG 应用",
-        "开发工具"
+        "应用开发",
+        "知识库"
       ],
       "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "source": "GitHub",
-      "stars": 124392,
-      "date": "2026-07-20"
+      "stars": 125030,
+      "date": "2026-07-21"
     },
     {
-      "title": "跨平台助手 cc-switch",
+      "title": "跨平台桌面助手",
       "type": "编程开发",
-      "description": "cc-switch 是一款跨平台桌面助手，支持 Claude Code、Codex、OpenCode、OpenClaw、Gemini CLI 和 Hermes Agent，帮助开发者高效管理和使用多种编程工具。官方网址为 ccswitch.io。",
+      "description": "这是一个跨平台的桌面助手，支持 Claude Code、Codex、OpenCode、OpenClaw、Gemini CLI 和 Hermes Agent，旨在提升开发者的工作效率。更多信息请访问官方网站 ccswitch.io。",
       "tags": [
         "桌面助手",
         "编程工具",
@@ -11739,36 +11122,36 @@ window.AI_GENERATED_DATA = {
       ],
       "url": "https://github.com/farion1231/cc-switch",
       "source": "GitHub",
-      "stars": 118897,
-      "date": "2026-07-20"
+      "stars": 119255,
+      "date": "2026-07-21"
     },
     {
-      "title": "UI/UX Pro Max 多平台设计智能",
+      "title": "专业 UI/UX 设计智能",
       "type": "编程开发",
-      "description": "UI/UX Pro Max Skill 提供设计智能支持，帮助开发者高效构建专业的多平台用户界面和用户体验方案。",
+      "description": "这是一个 AI 技能，提供设计智能，帮助开发者在多个平台上构建专业的用户界面和用户体验。通过此工具，用户可以提升设计效率，优化界面布局，增强用户互动。",
       "tags": [
-        "界面设计",
-        "用户体验",
-        "多平台开发"
+        "UI 设计",
+        "UX 体验",
+        "多平台支持"
       ],
       "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
       "source": "GitHub",
-      "stars": 107680,
-      "date": "2026-07-20"
+      "stars": 108094,
+      "date": "2026-07-21"
     },
     {
-      "title": "Gemini 命令行工具",
+      "title": "Gemini CLI",
       "type": "MCP 服务",
-      "description": "这是一个开源的 AI 代理工具，可以将 Gemini 的功能直接集成到你的终端中，方便开发者进行命令行操作和自动化任务。",
+      "description": "Gemini CLI 是一个开源 AI 代理，能够将 Gemini 的功能直接集成到终端中，方便开发者在命令行环境下进行 AI 相关操作。",
       "tags": [
         "开源工具",
-        "命令行",
-        "AI 代理"
+        "命令行操作",
+        "AI 集成"
       ],
       "url": "https://github.com/google-gemini/gemini-cli",
       "source": "GitHub",
-      "stars": 106078,
-      "date": "2026-07-20"
+      "stars": 106090,
+      "date": "2026-07-21"
     },
     {
       "title": "浏览器自动化工具",
@@ -11781,41 +11164,27 @@ window.AI_GENERATED_DATA = {
       ],
       "url": "https://github.com/browser-use/browser-use",
       "source": "GitHub",
-      "stars": 105539,
-      "date": "2026-07-20"
+      "stars": 105710,
+      "date": "2026-07-21"
     },
     {
-      "title": "Graphify",
+      "title": "Graphify 知识图谱",
       "type": "编程开发",
-      "description": "这是一个 AI 编程助手技能，支持 Claude Code、Codex、OpenCode、Cursor、Gemini CLI 等多种工具。它能将任何代码文件夹、SQL 模式、R 脚本、Shell 脚本、文档、论文、图片或视频转化为可查询的知识图谱，实现应用代码、数据库模式和基础设施的整合。",
+      "description": "将任何代码库及其文档、SQL 模式、配置和 PDF 转换为可查询的知识图谱。支持 Claude Code、Cursor、Codex 和 Gemini CLI 的 /graphify 技能：本地确定性 AST 解析，详细解释每个边缘，无需向量存储。",
       "tags": [
         "知识图谱",
-        "编程助手",
-        "数据整合"
+        "代码解析",
+        "文档管理"
       ],
       "url": "https://github.com/Graphify-Labs/graphify",
       "source": "GitHub",
-      "stars": 91435,
-      "date": "2026-07-20"
+      "stars": 92079,
+      "date": "2026-07-21"
     },
     {
-      "title": "MCP 服务器集合",
-      "type": "MCP 服务",
-      "description": "这是一个汇集了多种 MCP 服务器的资源库，方便开发者和 AI Agent 查找和使用不同的服务器，提升开发效率和项目管理能力。",
-      "tags": [
-        "MCP 服务器",
-        "开发资源",
-        "项目管理"
-      ],
-      "url": "https://github.com/punkpeye/awesome-mcp-servers",
-      "source": "GitHub",
-      "stars": 90958,
-      "date": "2026-07-20"
-    },
-    {
-      "title": "简化对话的原始人",
+      "title": "洞穴人对话助手",
       "type": "编程开发",
-      "description": "🪨 通过模仿原始人的说话方式，Claude Code 技能能够减少 65% 的令牌使用，让交流更加高效。适合需要优化对话的 AI Agent 和开发者。",
+      "description": "🪨 这个 Claude Code 技能通过模拟洞穴人的对话风格，帮助开发者减少 65% 的令牌使用，简化交流，提升效率。适合需要优化对话内容的 AI Agent 和开发者。",
       "tags": [
         "对话优化",
         "令牌节省",
@@ -11823,41 +11192,55 @@ window.AI_GENERATED_DATA = {
       ],
       "url": "https://github.com/JuliusBrussee/caveman",
       "source": "GitHub",
-      "stars": 90755,
-      "date": "2026-07-20"
+      "stars": 91107,
+      "date": "2026-07-21"
     },
     {
-      "title": "Claude 记忆管理",
+      "title": "MCP 服务器集合",
+      "type": "MCP 服务",
+      "description": "这是一个汇集了多个 MCP 服务器的资源库，方便开发者快速找到所需的服务器信息，提升开发效率。",
+      "tags": [
+        "MCP 服务器",
+        "开发资源",
+        "开源项目"
+      ],
+      "url": "https://github.com/punkpeye/awesome-mcp-servers",
+      "source": "GitHub",
+      "stars": 90999,
+      "date": "2026-07-21"
+    },
+    {
+      "title": "Claude Mem 持久上下文",
       "type": "编程开发",
-      "description": "该工具为每个代理提供持久的上下文管理，能够记录代理在会话中的所有操作，利用 AI 压缩信息，并将相关上下文注入到未来的会话中。兼容 Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCode 等多种工具。",
+      "description": "Claude Mem 通过捕捉代理在会话中的所有操作，并利用 AI 压缩信息，将相关上下文注入未来的会话中，实现跨会话的持久上下文管理。兼容 Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCode 等多种工具。",
       "tags": [
         "上下文管理",
-        "会话记录",
+        "会话持久化",
         "AI 压缩"
       ],
       "url": "https://github.com/thedotmack/claude-mem",
       "source": "GitHub",
-      "stars": 87845,
-      "date": "2026-07-20"
+      "stars": 87968,
+      "date": "2026-07-21"
     },
     {
       "title": "懒惰开发者思维",
       "type": "编程开发",
-      "description": "这个工具让你的 AI 代理像最懒惰的资深开发者一样思考。它的理念是：最好的代码是你从未编写的代码，帮助开发者优化工作流程，减少不必要的代码编写。",
+      "description": "这个工具让你的 AI 代理像房间里最懒惰的高级开发者一样思考。最好的代码是你从未编写的代码，帮助开发者提高效率，减少不必要的工作。",
       "tags": [
+        "AI 思维",
         "代码优化",
-        "开发效率",
-        "思维方式"
+        "开发效率"
       ],
       "url": "https://github.com/DietrichGebert/ponytail",
       "source": "GitHub",
-      "stars": 85977,
-      "date": "2026-07-20"
+      "stars": 86493,
+      "date": "2026-07-21"
     },
     {
       "title": "PaddleOCR 文档解析",
       "type": "RAG / 知识库",
-      "description": "将任何 PDF 或图像文档转换为结构化数据，便于 AI 使用。PaddleOCR 是一款轻量级的 OCR 工具包，能够有效连接图像/PDF 与大型语言模型，支持 100 多种语言。",
+      "description": "将任何 PDF 或图像文档转换为结构化数据，便于 AI 使用。PaddleOCR 是一个轻量级的 OCR 工具包，能够有效连接图像/PDF 与大型语言模型，支持 100 多种语言。",
       "tags": [
         "文档解析",
         "OCR 工具",
@@ -11865,27 +11248,27 @@ window.AI_GENERATED_DATA = {
       ],
       "url": "https://github.com/PaddlePaddle/PaddleOCR",
       "source": "GitHub",
-      "stars": 85796,
-      "date": "2026-07-20"
+      "stars": 85879,
+      "date": "2026-07-21"
     },
     {
       "title": "RAGFlow",
       "type": "RAG / 知识库",
-      "description": "RAGFlow 是一个领先的开源检索增强生成（RAG）引擎，结合了前沿的 RAG 技术与智能体能力，为大型语言模型（LLM）创建了一个优越的上下文层。",
+      "description": "RAGFlow 是一个领先的开源检索增强生成（RAG）引擎，结合了前沿的 RAG 技术与代理能力，为大型语言模型（LLM）创建了一个优越的上下文层，提升了信息检索和生成的效率。",
       "tags": [
-        "检索增强生成",
-        "智能体能力",
-        "上下文层"
+        "信息检索",
+        "上下文生成",
+        "开源工具"
       ],
       "url": "https://github.com/infiniflow/ragflow",
       "source": "GitHub",
-      "stars": 85389,
-      "date": "2026-07-20"
+      "stars": 85463,
+      "date": "2026-07-21"
     },
     {
       "title": "LobeHub 智能代理管理",
       "type": "RAG / 知识库",
-      "description": "LobeHub 是您的首席代理运营官，通过招聘、排班和报告，帮助您将 AI 团队组织成 7×24 小时的高效运作。无论是管理代理还是优化工作流程，LobeHub 都能为您提供全面支持。",
+      "description": "LobeHub 是您的首席代理运营官，通过招聘、排班和报告，帮助您将 AI 团队组织成 7×24 小时的高效运作。",
       "tags": [
         "AI 团队管理",
         "代理调度",
@@ -11893,27 +11276,13 @@ window.AI_GENERATED_DATA = {
       ],
       "url": "https://github.com/lobehub/lobehub",
       "source": "GitHub",
-      "stars": 80515,
-      "date": "2026-07-20"
-    },
-    {
-      "title": "Netdata",
-      "type": "数据 / 分析",
-      "description": "Netdata 提供快速的 AI 驱动的全栈可观察性解决方案，适合精简团队使用，帮助开发者实时监控和分析系统性能，提升运维效率。",
-      "tags": [
-        "实时监控",
-        "系统性能",
-        "数据分析"
-      ],
-      "url": "https://github.com/netdata/netdata",
-      "source": "GitHub",
-      "stars": 79694,
-      "date": "2026-07-20"
+      "stars": 80573,
+      "date": "2026-07-21"
     },
     {
       "title": "开源设计替代方案",
       "type": "编程开发",
-      "description": "🎨 这是一个开源的 Claude Design 替代工具，支持本地优先的桌面应用。🖥️ 让你的编码助手成为设计引擎，轻松创建原型、着陆页、仪表盘、幻灯片、图像和视频，支持导出为真实文件格式（HTML/PDF/PPTX/MP4）。🤖 兼容 Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen 及 20 多个 CLI 工具。",
+      "description": "🎨 这是一个开源的 Claude Design 替代工具，支持本地优先的桌面应用。🖥️ 让你的编码代理成为设计引擎，轻松创建原型、着陆页、仪表盘、幻灯片、图像和视频，支持导出为真实文件格式，如 HTML、PDF、PPTX 和 MP4。🤖 兼容 Claude Code、Codex、Cursor、Gemini、OpenCode、Qwen 及 20 多种 CLI 工具。",
       "tags": [
         "开源设计",
         "桌面应用",
@@ -11921,13 +11290,27 @@ window.AI_GENERATED_DATA = {
       ],
       "url": "https://github.com/nexu-io/open-design",
       "source": "GitHub",
-      "stars": 79676,
-      "date": "2026-07-20"
+      "stars": 79939,
+      "date": "2026-07-21"
+    },
+    {
+      "title": "Netdata 监控工具",
+      "type": "数据 / 分析",
+      "description": "Netdata 提供了快速的 AI 驱动的全栈可观察性解决方案，适合精简团队使用。它帮助开发者实时监控系统性能，提升运维效率。",
+      "tags": [
+        "系统监控",
+        "性能分析",
+        "实时数据"
+      ],
+      "url": "https://github.com/netdata/netdata",
+      "source": "GitHub",
+      "stars": 79725,
+      "date": "2026-07-21"
     },
     {
       "title": "Jina AI 搜索平台",
       "type": "RAG / 知识库",
-      "description": "Jina AI 是一个基于 AI 的搜索和检索平台，能够在网络上搜索、阅读页面内容、提取结构化数据，并为 AI 响应提供基础信息。",
+      "description": "Jina AI 是一个基于 AI 的搜索与检索平台，能够在网络上搜索信息、阅读页面内容、提取结构化数据，并为 AI 响应提供基础支持。",
       "tags": [
         "智能搜索",
         "数据提取",
@@ -11935,41 +11318,41 @@ window.AI_GENERATED_DATA = {
       ],
       "url": "https://smithery.ai/server/jina",
       "source": "Smithery MCP",
-      "stars": 79487,
-      "date": "2026-07-20"
+      "stars": 79501,
+      "date": "2026-07-21"
     },
     {
       "title": "AI 编程技能",
       "type": "编程开发",
-      "description": "该工具提供了适用于 AI 编码代理的生产级工程技能，帮助开发者提升代码质量和开发效率，适合各种项目需求。",
+      "description": "该工具提供生产级的工程技能，专为 AI 编码代理设计，帮助开发者提升代码质量和效率，适用于各种编程任务。",
       "tags": [
-        "AI 编码",
-        "工程技能",
-        "开发效率"
+        "编程技能",
+        "AI 工具",
+        "开发者资源"
       ],
       "url": "https://github.com/addyosmani/agent-skills",
       "source": "GitHub",
-      "stars": 79268,
-      "date": "2026-07-20"
+      "stars": 79436,
+      "date": "2026-07-21"
     },
     {
       "title": "Deer-Flow",
       "type": "编程开发",
-      "description": "Deer-Flow 是一个开源的长时程超级代理框架，能够进行研究、编码和创作。通过沙盒、记忆、工具、技能、子代理和消息网关，它可以处理从几分钟到几小时的不同级别任务。",
+      "description": "Deer-Flow 是一个开源的长时程超级代理框架，能够进行研究、编码和创作。通过沙盒、记忆、工具、技能、子代理和消息网关，它可以处理从几分钟到几小时的不同任务。",
       "tags": [
         "开源框架",
         "任务管理",
-        "智能代理"
+        "代理系统"
       ],
       "url": "https://github.com/bytedance/deer-flow",
       "source": "GitHub",
-      "stars": 77387,
-      "date": "2026-07-20"
+      "stars": 77451,
+      "date": "2026-07-21"
     },
     {
-      "title": "dair-ai/提示工程指南",
+      "title": "Prompt 工程指南",
       "type": "编程开发",
-      "description": "该指南提供了关于提示工程、上下文工程、RAG 和 AI 代理的文献、课程、笔记本和资源，帮助开发者更好地理解和应用这些技术。",
+      "description": "该工具提供了关于提示工程、上下文工程、RAG 和 AI 代理的指南、论文、课程和资源，帮助开发者更好地理解和应用这些技术。",
       "tags": [
         "提示工程",
         "上下文工程",
@@ -11977,41 +11360,41 @@ window.AI_GENERATED_DATA = {
       ],
       "url": "https://github.com/dair-ai/Prompt-Engineering-Guide",
       "source": "GitHub",
-      "stars": 76742,
-      "date": "2026-07-20"
+      "stars": 76766,
+      "date": "2026-07-21"
     },
     {
       "title": "Egonex-AI/理解一切",
       "type": "编程开发",
-      "description": "通过交互式知识图谱，您可以将任何代码转化为可探索、搜索和提问的图形，帮助开发者更好地理解代码背后的逻辑。支持 Claude Code、Codex、Cursor、Copilot、Gemini CLI 等多种工具。",
+      "description": "通过交互式知识图谱，轻松探索和搜索任何代码，提出问题。该工具兼容 Claude Code、Codex、Cursor、Copilot、Gemini CLI 等多种开发环境。",
       "tags": [
         "知识图谱",
-        "代码理解",
-        "交互式探索"
+        "代码探索",
+        "交互式工具"
       ],
       "url": "https://github.com/Egonex-AI/Understand-Anything",
       "source": "GitHub",
-      "stars": 75151,
-      "date": "2026-07-20"
+      "stars": 75318,
+      "date": "2026-07-21"
     },
     {
       "title": "前端开发检查清单",
       "type": "编程开发",
-      "description": "这是现代网页开发的基本检查清单，适用于开发者和 AI 代理，帮助确保项目符合最佳实践和标准，提升开发效率和质量。",
+      "description": "这是一个现代网页开发的基本检查清单，适用于开发者和 AI 代理，帮助确保项目符合最佳实践和标准，提升开发效率。",
       "tags": [
         "网页开发",
-        "检查工具",
-        "开发效率"
+        "项目管理",
+        "最佳实践"
       ],
       "url": "https://github.com/thedaviddias/Front-End-Checklist",
       "source": "GitHub",
-      "stars": 73255,
-      "date": "2026-07-20"
+      "stars": 73265,
+      "date": "2026-07-21"
     },
     {
       "title": "Daytona",
       "type": "编程开发",
-      "description": "Daytona 是一个安全且灵活的基础设施，专为运行 AI 生成的代码而设计。它为开发者提供了高效的环境，支持快速部署和扩展 AI 应用。",
+      "description": "Daytona 是一个安全且灵活的基础设施，专为运行 AI 生成的代码而设计。它为开发者提供了高效的环境，支持快速部署和管理 AI 应用。",
       "tags": [
         "安全基础设施",
         "AI 代码运行",
@@ -12019,8 +11402,8 @@ window.AI_GENERATED_DATA = {
       ],
       "url": "https://github.com/daytonaio/daytona",
       "source": "GitHub",
-      "stars": 72247,
-      "date": "2026-07-20"
+      "stars": 72233,
+      "date": "2026-07-21"
     },
     {
       "title": "RTK 代理工具",
@@ -12033,97 +11416,97 @@ window.AI_GENERATED_DATA = {
       ],
       "url": "https://github.com/rtk-ai/rtk",
       "source": "GitHub",
-      "stars": 71840,
-      "date": "2026-07-20"
+      "stars": 72045,
+      "date": "2026-07-21"
     },
     {
       "title": "Claude Code 学习工具",
       "type": "编程开发",
-      "description": "这个工具是一个基于 Bash 的轻量级 Claude Code 类似的「代理框架」，从零开始构建，适合开发者快速上手和学习。它提供了简单易用的接口，帮助开发者更高效地实现 AI 代理功能。",
+      "description": "这个工具是一个基于 Bash 的轻量级 Claude Code 类似「代理框架」，从零开始构建，适合开发者快速上手和学习。它提供了简单易用的接口，帮助开发者更高效地实现 AI 代理的功能。",
       "tags": [
+        "编程工具",
         "AI 代理",
-        "开发工具",
-        "Bash 脚本"
+        "开发学习"
       ],
       "url": "https://github.com/shareAI-lab/learn-claude-code",
       "source": "GitHub",
-      "stars": 71506,
-      "date": "2026-07-20"
+      "stars": 71681,
+      "date": "2026-07-21"
     },
     {
       "title": "D4Vinci/Scrapling",
       "type": "浏览器 / 自动化",
-      "description": "🕷️ 这是一个自适应的网页抓取框架，能够处理从单个请求到大规模爬虫的所有任务，适合开发者进行灵活的网页数据提取。",
+      "description": "🕷️ 这是一个自适应的网页抓取框架，能够处理从单个请求到全面爬取的所有任务，适合开发者进行数据采集和分析。",
       "tags": [
         "网页抓取",
-        "数据提取",
+        "数据采集",
         "自动化工具"
       ],
       "url": "https://github.com/D4Vinci/Scrapling",
       "source": "GitHub",
-      "stars": 70137,
-      "date": "2026-07-20"
+      "stars": 70301,
+      "date": "2026-07-21"
     },
     {
-      "title": "初学者的 AI 代理入门",
+      "title": "初学者的 AI 代理构建指南",
       "type": "RAG / 知识库",
-      "description": "通过 18 课学习，帮助初学者掌握构建 AI 代理的基础知识与技能，适合希望了解 AI 代理开发的开发者。",
+      "description": "本课程包含 18 个课程，帮助初学者掌握构建 AI 代理的基础知识和技能。通过系统的学习，您将能够理解 AI 代理的工作原理，并开始自己的开发之旅。",
       "tags": [
         "AI 代理",
-        "开发入门",
-        "学习资源"
+        "初学者教程",
+        "开发技能"
       ],
       "url": "https://github.com/microsoft/ai-agents-for-beginners",
       "source": "GitHub",
-      "stars": 69856,
-      "date": "2026-07-20"
+      "stars": 69932,
+      "date": "2026-07-21"
     },
     {
       "title": "Claude 技能资源汇总",
       "type": "编程开发",
-      "description": "这是一个精心整理的 Claude 技能、资源和工具列表，旨在帮助用户定制 Claude AI 工作流，提高工作效率和灵活性。",
+      "description": "这是一个精心整理的列表，包含了众多 Claude 技能、资源和工具，旨在帮助用户定制 Claude AI 的工作流程，提高工作效率。",
       "tags": [
-        "AI 工作流",
-        "技能资源",
-        "工具汇总"
+        "Claude 技能",
+        "工作流程定制",
+        "资源工具"
       ],
       "url": "https://github.com/ComposioHQ/awesome-claude-skills",
       "source": "GitHub",
-      "stars": 68091,
-      "date": "2026-07-20"
+      "stars": 68191,
+      "date": "2026-07-21"
     },
     {
       "title": "智能体构建教程",
       "type": "RAG / 知识库",
-      "description": "《从零开始构建智能体》是一本全面的教程，介绍智能体的基本原理与实践，适合希望深入了解智能体开发的AI开发者。通过本书，读者将掌握构建智能体所需的核心知识与技能。",
+      "description": "《从零开始构建智能体》是一本全面的教程，介绍智能体的基本原理与实践，适合希望深入了解智能体开发的开发者和爱好者。通过本书，您将掌握构建智能体所需的知识与技能。",
       "tags": [
-        "智能体",
-        "开发教程",
-        "实践指南"
+        "智能体开发",
+        "实践教程",
+        "知识库"
       ],
       "url": "https://github.com/datawhalechina/hello-agents",
       "source": "GitHub",
-      "stars": 67180,
-      "date": "2026-07-20"
+      "stars": 67432,
+      "date": "2026-07-21"
     },
     {
-      "title": "复杂代码库的编程助手",
+      "title": "复杂代码库助手",
       "type": "编程开发",
-      "description": "omo/lazycodex 是一个专为 tokenmaxxers 设计的编码代理，能够高效处理复杂的代码库。它为您的 Codex 和 OpenCode 提供强大的支持，帮助开发者更好地管理和理解代码。",
+      "description": "omo/lazycodex 是一个专为 tokenmaxxers 设计的编码代理，能够高效处理复杂的代码库。它为您的 Codex 和 OpenCode 提供了强大的支持，帮助开发者更好地管理和优化代码。",
       "tags": [
         "编码代理",
-        "复杂代码管理",
-        "开发者工具"
+        "代码管理",
+        "开发工具"
       ],
       "url": "https://github.com/code-yeongyu/oh-my-openagent",
       "source": "GitHub",
-      "stars": 66160,
-      "date": "2026-07-20"
+      "stars": 66246,
+      "date": "2026-07-21"
     },
     {
       "title": "Taste-Skill",
       "type": "编程开发",
-      "description": "Taste-Skill 让你的 AI 拥有良好的品味，避免生成无趣、千篇一律的内容。通过提升生成内容的质量，使 AI 更加吸引用户。",
+      "description": "Taste-Skill 让你的 AI 拥有良好的品味，避免生成无聊和千篇一律的内容，提升生成内容的质量和吸引力。",
       "tags": [
         "内容生成",
         "AI 品味",
@@ -12131,27 +11514,27 @@ window.AI_GENERATED_DATA = {
       ],
       "url": "https://github.com/Leonxlnx/taste-skill",
       "source": "GitHub",
-      "stars": 65165,
-      "date": "2026-07-20"
+      "stars": 65518,
+      "date": "2026-07-21"
     },
     {
       "title": "智能多玩家协作工具",
       "type": "编程开发",
-      "description": "🌊 这是一个领先的代理元框架，支持智能多玩家群体的部署、自动化工作流的协调以及对话式 AI 系统的构建。具备自适应记忆、自学习智能、RAG 集成，以及原生支持 Claude Code、Codex、Hermes 等多种集成。",
+      "description": "🌊 这是一个领先的智能代理元框架，支持部署智能多玩家群体，协调自主工作流程，并构建对话式 AI 系统。具备自适应记忆、自我学习智能、RAG 集成以及原生支持 Claude Code、Codex、Hermes 等多种技术。",
       "tags": [
-        "智能协作",
-        "自动化工作流",
+        "智能代理",
+        "自主工作流程",
         "对话式 AI"
       ],
       "url": "https://github.com/ruvnet/ruflo",
       "source": "GitHub",
-      "stars": 65151,
-      "date": "2026-07-20"
+      "stars": 65283,
+      "date": "2026-07-21"
     },
     {
-      "title": "GSD构建工具",
+      "title": "GSD 构建工具",
       "type": "编程开发",
-      "description": "GSD构建工具是一个轻量级的元提示、上下文工程和规范驱动开发系统，专为Claude Code设计，帮助开发者高效管理和实现项目需求。",
+      "description": "这是一个轻量级且高效的元提示、上下文工程和规范驱动开发系统，专为 Claude Code 设计，帮助开发者更好地管理和实现项目需求。",
       "tags": [
         "元提示",
         "上下文工程",
@@ -12159,41 +11542,41 @@ window.AI_GENERATED_DATA = {
       ],
       "url": "https://github.com/gsd-build/get-shit-done",
       "source": "GitHub",
-      "stars": 64773,
-      "date": "2026-07-20"
+      "stars": 64783,
+      "date": "2026-07-21"
     },
     {
-      "title": "AnythingLLM",
+      "title": "AnythingLLM 本地智能助手",
       "type": "编程开发",
-      "description": "停止租用你的智能，拥有它。AnythingLLM 提供了一个强大的本地优先代理体验所需的一切，让开发者能够更好地控制和利用人工智能。",
+      "description": "通过 AnythingLLM，您可以拥有自己的智能，而不是依赖租用服务。它为您提供了强大的本地智能代理体验所需的一切工具。",
       "tags": [
-        "本地代理",
-        "智能控制",
-        "开发工具"
+        "智能代理",
+        "本地开发",
+        "自主控制"
       ],
       "url": "https://github.com/Mintplex-Labs/anything-llm",
       "source": "GitHub",
-      "stars": 63552,
-      "date": "2026-07-20"
+      "stars": 63600,
+      "date": "2026-07-21"
     },
     {
       "title": "Claude Code 最佳实践",
       "type": "编程开发",
-      "description": "通过实践提升 Claude Code 的使用技巧，从基础编码到自主工程，帮助开发者更好地掌握和应用 Claude Code，提升开发效率与代码质量。",
+      "description": "通过实践提升 Claude Code 的使用效果，从基础编码到自主工程，帮助开发者更好地掌握和应用 Claude Code 技术。",
       "tags": [
         "编码实践",
-        "开发效率",
+        "自主工程",
         "技术提升"
       ],
       "url": "https://github.com/shanraisshan/claude-code-best-practice",
       "source": "GitHub",
-      "stars": 63095,
-      "date": "2026-07-20"
+      "stars": 63155,
+      "date": "2026-07-21"
     },
     {
       "title": "全球监控仪",
       "type": "安全 / 运维",
-      "description": "这是一个实时全球情报仪表盘，提供 AI 驱动的新闻聚合、地缘政治监测和基础设施跟踪，帮助用户在统一的态势感知界面中获取重要信息。",
+      "description": "一个实时的全球情报仪表盘，提供 AI 驱动的新闻聚合、地缘政治监测和基础设施跟踪，帮助用户在统一的态势感知界面中获取重要信息。",
       "tags": [
         "情报监测",
         "新闻聚合",
@@ -12201,27 +11584,27 @@ window.AI_GENERATED_DATA = {
       ],
       "url": "https://github.com/koala73/worldmonitor",
       "source": "GitHub",
-      "stars": 62034,
-      "date": "2026-07-20"
+      "stars": 62225,
+      "date": "2026-07-21"
     },
     {
-      "title": "通用记忆层",
+      "title": "mem0ai/mem0",
       "type": "RAG / 知识库",
-      "description": "mem0 是一个为 AI 代理提供的通用记忆层，能够帮助 AI 代理存储和检索信息，从而提升其智能和响应能力。适用于需要知识库支持的应用场景。",
+      "description": "这是一个通用的记忆层，旨在为 AI 代理提供持久的知识存储和检索能力，帮助开发者构建更智能的应用。",
       "tags": [
-        "记忆管理",
-        "信息检索",
-        "知识库"
+        "记忆存储",
+        "知识检索",
+        "AI 代理"
       ],
       "url": "https://github.com/mem0ai/mem0",
       "source": "GitHub",
-      "stars": 61171,
-      "date": "2026-07-20"
+      "stars": 61309,
+      "date": "2026-07-21"
     },
     {
-      "title": "舆情监控助手 TrendRadar",
+      "title": "TrendRadar 舆情监控",
       "type": "设计 / 创意",
-      "description": "告别信息过载，这款 AI 驱动的舆情监控工具聚合多平台热点与 RSS 订阅，支持关键词精准筛选。智能推送新闻分析与翻译，助你实时掌握舆情动态，支持多种渠道接入，数据可本地或云端存储。",
+      "description": "这款 AI 驱动的舆情监控工具，帮助你轻松聚合多平台热点信息，支持 RSS 订阅和关键词筛选。智能推送新闻分析和翻译，助你快速掌握舆情动态，支持多种渠道接入，数据可本地或云端存储。",
       "tags": [
         "舆情监控",
         "热点聚合",
@@ -12229,13 +11612,13 @@ window.AI_GENERATED_DATA = {
       ],
       "url": "https://github.com/sansan0/TrendRadar",
       "source": "GitHub",
-      "stars": 60686,
-      "date": "2026-07-20"
+      "stars": 60714,
+      "date": "2026-07-21"
     },
     {
       "title": "职业搜索助手",
       "type": "编程开发",
-      "description": "一个开源的 AI 职位搜索工具，能够扫描招聘网站，给职位列表打分（A-F），定制简历，并跟踪申请进度。该工具可以在本地的 AI 编程命令行界面中运行（支持 Claude Code、Gemini、Codex、OpenCode 等）。",
+      "description": "这是一个开源的 AI 职业搜索工具，可以扫描招聘网站，给职位列表打分（A-F），定制简历，并跟踪申请进度。该工具可在本地的 AI 编程命令行界面中运行（支持 Claude Code、Gemini、Codex、OpenCode 等）。",
       "tags": [
         "职位搜索",
         "简历定制",
@@ -12243,8 +11626,8 @@ window.AI_GENERATED_DATA = {
       ],
       "url": "https://github.com/santifer/career-ops",
       "source": "GitHub",
-      "stars": 60589,
-      "date": "2026-07-20"
+      "stars": 60697,
+      "date": "2026-07-21"
     },
     {
       "title": "Headroom 压缩工具",
@@ -12257,13 +11640,13 @@ window.AI_GENERATED_DATA = {
       ],
       "url": "https://github.com/headroomlabs-ai/headroom",
       "source": "GitHub",
-      "stars": 60048,
-      "date": "2026-07-20"
+      "stars": 60625,
+      "date": "2026-07-21"
     },
     {
-      "title": "智能代理编程框架",
+      "title": "微软 Autogen",
       "type": "编程开发",
-      "description": "这是一个为智能代理 AI 提供的编程框架，旨在帮助开发者构建和管理复杂的 AI 代理系统，提升开发效率和灵活性。",
+      "description": "这是一个为智能代理设计的编程框架，提供了构建和管理 AI 代理的工具和接口，帮助开发者更高效地创建智能应用。",
       "tags": [
         "智能代理",
         "编程框架",
@@ -12271,13 +11654,13 @@ window.AI_GENERATED_DATA = {
       ],
       "url": "https://github.com/microsoft/autogen",
       "source": "GitHub",
-      "stars": 59815,
-      "date": "2026-07-20"
+      "stars": 59846,
+      "date": "2026-07-21"
     },
     {
       "title": "Context7 平台",
       "type": "编程开发",
-      "description": "Context7 平台提供最新的代码文档，专为大型语言模型（LLMs）和 AI 代码编辑器设计，帮助开发者更高效地使用和集成相关技术。",
+      "description": "Context7 平台提供最新的代码文档，专为大型语言模型（LLMs）和 AI 代码编辑器设计，帮助开发者更高效地进行编程和集成。",
       "tags": [
         "代码文档",
         "AI 编辑器",
@@ -12285,27 +11668,13 @@ window.AI_GENERATED_DATA = {
       ],
       "url": "https://github.com/upstash/context7",
       "source": "GitHub",
-      "stars": 59417,
-      "date": "2026-07-20"
-    },
-    {
-      "title": "云端 RAG 模板",
-      "type": "RAG / 知识库",
-      "description": "提供即用型云端模板，支持 RAG、AI 流水线和企业搜索，实时同步 Sharepoint、Google Drive、S3、Kafka、PostgreSQL 等数据源，兼容 Docker 环境。",
-      "tags": [
-        "云端模板",
-        "实时数据",
-        "企业搜索"
-      ],
-      "url": "https://github.com/pathwaycom/llm-app",
-      "source": "GitHub",
-      "stars": 59023,
-      "date": "2026-07-20"
+      "stars": 59476,
+      "date": "2026-07-21"
     },
     {
       "title": "系统提示提取工具",
       "type": "编程开发",
-      "description": "该工具从多个知名 AI 系统中提取系统提示，包括 Anthropic 的 Claude Fable 5、Opus 4.8、Claude Code 和 Claude Design，以及 OpenAI 的 ChatGPT GPT-5.6、Codex GPT-5.6 和 GPT-5.5。还涵盖 Google 的 Gemini 3.5 Flash、3.1 Pro 和 xAI 的 Grok、Cursor 等，定期更新，方便开发者获取最新信息。",
+      "description": "该工具提取了多个知名 AI 系统的提示信息，包括 Anthropic 的 Claude Fable 5、Opus 4.8、Claude Code 和 Claude Design，以及 OpenAI 的 ChatGPT GPT-5.6、Codex GPT-5.6 和 GPT-5.5。还涵盖了 Google 的 Gemini 3.5 Flash、3.1 Pro 和 xAI 的 Grok、Cursor 等，定期更新，方便开发者使用。",
       "tags": [
         "系统提示",
         "AI 开发",
@@ -12313,27 +11682,41 @@ window.AI_GENERATED_DATA = {
       ],
       "url": "https://github.com/asgeirtj/system_prompts_leaks",
       "source": "GitHub",
-      "stars": 59013,
-      "date": "2026-07-20"
+      "stars": 59213,
+      "date": "2026-07-21"
+    },
+    {
+      "title": "云端数据处理模板",
+      "type": "RAG / 知识库",
+      "description": "提供即用的云端模板，支持 RAG、AI 流程和企业搜索，能够实时同步 Sharepoint、Google Drive、S3、Kafka、PostgreSQL 等数据源，适合需要实时数据的应用场景。",
+      "tags": [
+        "云端模板",
+        "实时数据",
+        "企业搜索"
+      ],
+      "url": "https://github.com/pathwaycom/llm-app",
+      "source": "GitHub",
+      "stars": 59016,
+      "date": "2026-07-21"
     },
     {
       "title": "Agent-Reach",
       "type": "编程开发",
-      "description": "为您的 AI 代理提供全面的互联网视野。支持在 Twitter、Reddit、YouTube、GitHub、Bilibili、小红书等平台上进行阅读和搜索，使用一个命令行界面，无需支付 API 费用。",
+      "description": "为您的 AI 代理提供浏览整个互联网的能力。可以在一个命令行界面中阅读和搜索 Twitter、Reddit、YouTube、GitHub、Bilibili 和小红书，无需支付 API 费用。",
       "tags": [
         "互联网搜索",
-        "多平台支持",
-        "命令行工具"
+        "社交媒体",
+        "开发工具"
       ],
       "url": "https://github.com/Panniantong/Agent-Reach",
       "source": "GitHub",
-      "stars": 58001,
-      "date": "2026-07-20"
+      "stars": 58637,
+      "date": "2026-07-21"
     },
     {
       "title": "多市场股票智能分析",
       "type": "金融 / 商业",
-      "description": "这是一个基于 LLM 的股票分析系统，提供多源市场数据、实时新闻、决策看板和自动通知功能，支持零成本定时运行，帮助用户高效进行股票投资决策。",
+      "description": "这是一个基于 LLM 的多市场股票分析系统，提供多源行情、实时新闻、决策看板和自动推送功能，支持零成本定时运行，帮助用户高效决策。",
       "tags": [
         "股票分析",
         "实时新闻",
@@ -12341,41 +11724,41 @@ window.AI_GENERATED_DATA = {
       ],
       "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
       "source": "GitHub",
-      "stars": 57890,
-      "date": "2026-07-20"
+      "stars": 58010,
+      "date": "2026-07-21"
     },
     {
       "title": "MemPalace 记忆系统",
       "type": "RAG / 知识库",
-      "description": "MemPalace 是一个开源的 AI 记忆系统，经过最佳基准测试，提供高效的知识存储与检索功能，完全免费使用，适合 AI Agent 和开发者提升记忆管理能力。",
+      "description": "MemPalace 是一个开源的 AI 记忆系统，经过最佳基准测试，提供高效的知识存储与检索功能，完全免费，适合 AI Agent 和开发者使用。",
       "tags": [
         "开源工具",
         "知识管理",
-        "AI 记忆"
+        "记忆系统"
       ],
       "url": "https://github.com/MemPalace/mempalace",
       "source": "GitHub",
-      "stars": 57475,
-      "date": "2026-07-20"
+      "stars": 57506,
+      "date": "2026-07-21"
     },
     {
       "title": "Zylon AI 私有 GPT",
       "type": "RAG / 知识库",
-      "description": "为本地模型的私有 AI 应用提供完整的 API 层，支持 RAG、技能、工具、MCP、文本转 SQL 等功能，兼容任何 OpenAI 的推理服务器。",
+      "description": "为本地模型提供完整的 API 层，支持 RAG、技能、工具、MCP、文本转 SQL 等功能。兼容任何 OpenAI 的推理服务器，适合构建私有 AI 应用。",
       "tags": [
-        "私有 AI 应用",
+        "API 接口",
         "本地模型",
-        "API 接口"
+        "私有 AI 应用"
       ],
       "url": "https://github.com/zylon-ai/private-gpt",
       "source": "GitHub",
-      "stars": 57342,
-      "date": "2026-07-20"
+      "stars": 57343,
+      "date": "2026-07-21"
     },
     {
       "title": "美国天气查询",
       "type": "编程开发",
-      "description": "通过自然语言查询，提供美国各地的实时天气和预报信息。用户可以轻松获取当前天气状况、多日和逐小时预报、天气警报及附近气象站的信息，无需 API 密钥，便于访问官方政府气象数据。",
+      "description": "通过自然语言查询，提供美国各地的实时天气和预报信息。用户可以轻松访问当前天气状况、多日和小时预报、天气警报及附近的气象站，无需 API 密钥，获取官方政府来源的天气数据。",
       "tags": [
         "天气预报",
         "实时数据",
@@ -12383,11 +11766,11 @@ window.AI_GENERATED_DATA = {
       ],
       "url": "https://smithery.ai/server/smithery-ai/national-weather-service",
       "source": "Smithery MCP",
-      "stars": 55851,
-      "date": "2026-07-20"
+      "stars": 56037,
+      "date": "2026-07-21"
     },
     {
-      "title": "CrewAI 角色扮演框架",
+      "title": "CrewAI 协作智能框架",
       "type": "Agent 框架",
       "description": "CrewAI 是一个用于协调角色扮演和自主 AI 代理的框架。通过促进协作智能，CrewAI 使代理能够无缝合作，解决复杂任务。",
       "tags": [
@@ -12397,22 +11780,22 @@ window.AI_GENERATED_DATA = {
       ],
       "url": "https://github.com/crewAIInc/crewAI",
       "source": "GitHub",
-      "stars": 55772,
-      "date": "2026-07-20"
+      "stars": 55845,
+      "date": "2026-07-21"
     },
     {
       "title": "FlowiseAI/Flowise",
       "type": "编程开发",
-      "description": "Flowise 是一个可视化工具，帮助开发者轻松构建和管理 AI 代理。通过直观的界面，用户可以快速设计工作流程，集成多种 AI 功能，提升开发效率。",
+      "description": "Flowise 是一个可视化工具，帮助开发者轻松构建和管理 AI 代理。通过直观的界面，用户可以快速设计工作流，集成不同的 AI 模型，提升开发效率。",
       "tags": [
-        "可视化开发",
+        "可视化工具",
         "AI 代理",
-        "工作流程设计"
+        "工作流设计"
       ],
       "url": "https://github.com/FlowiseAI/Flowise",
       "source": "GitHub",
-      "stars": 54741,
-      "date": "2026-07-20"
+      "stars": 54768,
+      "date": "2026-07-21"
     },
     {
       "title": "多平台信息汇总助手",
@@ -12425,27 +11808,27 @@ window.AI_GENERATED_DATA = {
       ],
       "url": "https://github.com/mvanhorn/last30days-skill",
       "source": "GitHub",
-      "stars": 52765,
-      "date": "2026-07-20"
+      "stars": 52869,
+      "date": "2026-07-21"
     },
     {
-      "title": "Google Sheets",
+      "title": "Google Sheets 表格工具",
       "type": "数据 / 分析",
-      "description": "使用 Google Sheets 读取、写入和格式化电子表格数据。可以管理工作表、运行公式，并实时协作处理结构化数据。",
+      "description": "通过 Google Sheets，用户可以读取、写入和格式化电子表格数据，管理工作表，运行公式，并实时协作处理结构化数据，提升团队效率。",
       "tags": [
-        "电子表格管理",
-        "实时协作",
-        "数据处理"
+        "电子表格",
+        "数据管理",
+        "实时协作"
       ],
       "url": "https://smithery.ai/server/googlesheets",
       "source": "Smithery MCP",
-      "stars": 51621,
-      "date": "2026-07-20"
+      "stars": 51460,
+      "date": "2026-07-21"
     },
     {
       "title": "OpenClaw 技能合集",
       "type": "Claude Skill",
-      "description": "这是一个精彩的 OpenClaw 技能集合，包含超过5400个技能，经过官方 OpenClaw 技能注册表的筛选和分类，方便开发者和 AI Agent 使用。",
+      "description": "这是一个精彩的 OpenClaw 技能集合，包含超过 5400 个技能，经过官方 OpenClaw 技能注册表的筛选和分类，方便开发者和 AI Agent 使用。",
       "tags": [
         "技能集合",
         "开发者工具",
@@ -12453,27 +11836,27 @@ window.AI_GENERATED_DATA = {
       ],
       "url": "https://github.com/VoltAgent/awesome-openclaw-skills",
       "source": "GitHub",
-      "stars": 51354,
-      "date": "2026-07-20"
+      "stars": 51392,
+      "date": "2026-07-21"
     },
     {
-      "title": "Goose AI助手",
+      "title": "Goose AI 代理",
       "type": "编程开发",
-      "description": "Goose 是一个开源且可扩展的 AI 代理，超越了代码建议的范畴。用户可以安装、执行、编辑和测试任意大型语言模型（LLM），提升开发效率。",
+      "description": "Goose 是一个开源的可扩展 AI 代理，超越了代码建议的范围，支持安装、执行、编辑和测试任何大型语言模型（LLM）。",
       "tags": [
         "AI 代理",
-        "代码编辑",
-        "模型测试"
+        "开源工具",
+        "代码编辑"
       ],
       "url": "https://github.com/aaif-goose/goose",
       "source": "GitHub",
-      "stars": 51292,
-      "date": "2026-07-20"
+      "stars": 51334,
+      "date": "2026-07-21"
     },
     {
       "title": "文档代理与OCR平台",
       "type": "RAG / 知识库",
-      "description": "LlamaIndex 是一个领先的文档代理和光学字符识别（OCR）平台，能够帮助 AI Agent 和开发者高效处理文档信息，提升数据提取和管理的能力。",
+      "description": "LlamaIndex 是一个领先的文档代理和光学字符识别（OCR）平台，能够帮助 AI Agent 和开发者高效处理文档信息，提升数据提取和管理能力。",
       "tags": [
         "文档处理",
         "光学字符识别",
@@ -12481,27 +11864,41 @@ window.AI_GENERATED_DATA = {
       ],
       "url": "https://github.com/run-llama/llama_index",
       "source": "GitHub",
-      "stars": 50941,
-      "date": "2026-07-20"
+      "stars": 50962,
+      "date": "2026-07-21"
     },
     {
       "title": "Claude Code 精选资源",
       "type": "编程开发",
-      "description": "这是一个精心挑选的资源集合，专为 Claude Code 设计，展示了顶级技能、灵活的代理、出色的状态行和一流的开发工具，同时还提供插件支持，助力开发者提升编码效率。",
+      "description": "这是一个精心挑选的资源集合，专为 Claude Code 这一杰出的编程助手而设计。它展示了顶级技能、灵活的代理、引人注目的状态行以及一流的开发工具，还包含插件，帮助开发者提升编程效率。",
       "tags": [
-        "资源集合",
+        "编程助手",
         "开发工具",
-        "插件支持"
+        "资源集合"
       ],
       "url": "https://github.com/hesreallyhim/awesome-claude-code",
       "source": "GitHub",
-      "stars": 50403,
-      "date": "2026-07-20"
+      "stars": 50493,
+      "date": "2026-07-21"
+    },
+    {
+      "title": "Gmail 邮箱管理",
+      "type": "搜索 / 信息",
+      "description": "全面管理 Gmail 邮箱：发送、草拟、回复、转发及批量修改或删除邮件和线程。通过标签、归档和删除来整理收件箱，按需检索邮件、附件和个人资料信息。访问和搜索联系人以自动填充收件人，并保持人员数据同步。",
+      "tags": [
+        "邮件管理",
+        "收件箱整理",
+        "联系人搜索"
+      ],
+      "url": "https://smithery.ai/server/gmail",
+      "source": "Smithery MCP",
+      "stars": 50315,
+      "date": "2026-07-21"
     },
     {
       "title": "CherryHQ/cherry-studio",
       "type": "编程开发",
-      "description": "Cherry Studio 是一个 AI 生产力工作室，提供智能聊天、自治代理和 300 多个助手，用户可以统一访问前沿的 LLMs，提升工作效率和创作能力。",
+      "description": "CherryHQ/cherry-studio 是一个 AI 生产力工作室，提供智能聊天、自治代理和 300 多个助手，用户可以统一访问前沿的 LLMs，提升工作效率。",
       "tags": [
         "智能聊天",
         "自治代理",
@@ -12509,69 +11906,55 @@ window.AI_GENERATED_DATA = {
       ],
       "url": "https://github.com/CherryHQ/cherry-studio",
       "source": "GitHub",
-      "stars": 48758,
-      "date": "2026-07-20"
-    },
-    {
-      "title": "Gmail 邮箱管理",
-      "type": "搜索 / 信息",
-      "description": "全面管理 Gmail 邮箱：发送、草拟、回复、转发及批量修改或删除邮件和线程。通过标签、归档和删除整理收件箱，按需检索邮件、附件和个人资料信息。访问和搜索联系人，自动填写收件人并保持人员数据同步。",
-      "tags": [
-        "邮件管理",
-        "收件箱整理",
-        "联系人同步"
-      ],
-      "url": "https://smithery.ai/server/gmail",
-      "source": "Smithery MCP",
-      "stars": 48187,
-      "date": "2026-07-20"
+      "stars": 48796,
+      "date": "2026-07-21"
     },
     {
       "title": "LocalAI 本地 AI 引擎",
       "type": "编程开发",
       "description": "LocalAI 是一个开源的 AI 引擎，支持在任何硬件上运行各种模型，包括 LLM、视觉、语音、图像和视频，无需 GPU。适合开发者进行多种 AI 应用的开发与测试。",
       "tags": [
-        "开源工具",
-        "多模型支持",
-        "无 GPU 需求"
+        "开源 AI",
+        "模型运行",
+        "多硬件支持"
       ],
       "url": "https://github.com/mudler/LocalAI",
       "source": "GitHub",
-      "stars": 47676,
-      "date": "2026-07-20"
+      "stars": 47708,
+      "date": "2026-07-21"
     },
     {
-      "title": "Chrome DevTools 工具",
+      "title": "Chrome DevTools",
       "type": "编程开发",
-      "description": "Chrome DevTools 是一款为开发者提供的强大工具，帮助用户调试和优化网页应用程序，提升编码效率。它为 AI Agent 提供了便捷的开发环境，支持实时编辑和调试功能。",
+      "description": "Chrome DevTools 是一款为开发者提供的工具，帮助他们在编写代码时进行调试和性能分析。它支持多种功能，提升开发效率，方便开发者快速定位问题。",
       "tags": [
-        "网页调试",
-        "开发工具",
-        "编码优化"
+        "调试工具",
+        "性能分析",
+        "开发效率"
       ],
       "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
       "source": "GitHub",
-      "stars": 47180,
-      "date": "2026-07-20"
+      "stars": 47251,
+      "date": "2026-07-21"
     },
     {
       "title": "JeecgBoot 低代码平台",
       "type": "编程开发",
-      "description": "JeecgBoot 是一款 AI 低代码平台，通过 AI Skills 一句话即可生成整个系统，支持一键生成前后端代码及模块。内置多种 AI 应用，兼容主流大模型，显著提高 Java 项目的开发效率，减少重复工作。",
+      "description": "JeecgBoot 是一款 AI 低代码平台，支持通过一句话生成整个系统及前后端代码，甚至完整模块。它内置多种 AI 应用，如聊天、知识库和流程编排，兼容主流大模型，极大提高 Java 项目的开发效率，减少重复工作。",
       "tags": [
         "低代码开发",
         "AI 应用",
-        "流程设计"
+        "流程自动化"
       ],
       "url": "https://github.com/jeecgboot/JeecgBoot",
       "source": "GitHub",
-      "stars": 47127,
-      "date": "2026-07-20"
+      "stars": 47140,
+      "date": "2026-07-21"
     },
     {
       "title": "CowAgent 超级助手",
       "type": "编程开发",
-      "description": "开源的超级 AI 助手与代理工具，能够规划任务、运行工具和技能，具备自我进化的记忆与知识功能。支持多模型和多渠道，轻量级且可扩展，安装便捷。适合开发者和 AI 代理使用。",
+      "description": "开源的超级 AI 助手与代理框架，能够规划任务、运行工具和技能，具备自我进化的记忆和知识。支持多模型和多渠道，轻量级且可扩展，安装简便。适合开发者使用。",
       "tags": [
         "任务规划",
         "工具运行",
@@ -12579,27 +11962,41 @@ window.AI_GENERATED_DATA = {
       ],
       "url": "https://github.com/zhayujie/CowAgent",
       "source": "GitHub",
-      "stars": 46045,
-      "date": "2026-07-20"
+      "stars": 46056,
+      "date": "2026-07-21"
     },
     {
-      "title": "轻量级 AI 代理",
+      "title": "HKUDS/nanobot",
       "type": "编程开发",
-      "description": "HKUDS/nanobot 是一个轻量级的开源 AI 代理，旨在帮助用户在工具、聊天和工作流程中实现自动化，提高工作效率和便捷性。",
+      "description": "HKUDS/nanobot 是一个轻量级的开源 AI 代理，能够帮助用户在工具、聊天和工作流程中实现自动化和智能化。它为开发者提供了灵活的集成方式，提升工作效率。",
       "tags": [
         "开源工具",
         "自动化",
-        "工作流程"
+        "智能代理"
       ],
       "url": "https://github.com/HKUDS/nanobot",
       "source": "GitHub",
-      "stars": 45885,
-      "date": "2026-07-20"
+      "stars": 45932,
+      "date": "2026-07-21"
+    },
+    {
+      "title": "思源笔记",
+      "type": "编程开发",
+      "description": "思源笔记是一款注重隐私的自托管开源个人知识管理软件，使用 TypeScript 和 Go 语言开发，帮助用户高效整理和管理个人知识。支持多种格式的笔记记录，适合开发者和知识工作者使用。",
+      "tags": [
+        "知识管理",
+        "开源软件",
+        "个人工具"
+      ],
+      "url": "https://github.com/siyuan-note/siyuan",
+      "source": "GitHub",
+      "stars": 45288,
+      "date": "2026-07-21"
     },
     {
       "title": "Milvus 向量数据库",
       "type": "RAG / 知识库",
-      "description": "Milvus 是一个高性能的云原生向量数据库，专为可扩展的向量近似最近邻搜索而设计，适合 AI 应用和大规模数据处理。",
+      "description": "Milvus 是一款高性能、云原生的向量数据库，专为可扩展的向量近似最近邻搜索而设计，适合 AI 应用和数据分析使用。",
       "tags": [
         "向量数据库",
         "近似搜索",
@@ -12607,41 +12004,27 @@ window.AI_GENERATED_DATA = {
       ],
       "url": "https://github.com/milvus-io/milvus",
       "source": "GitHub",
-      "stars": 45274,
-      "date": "2026-07-20"
-    },
-    {
-      "title": "私有笔记管理软件 Siyuan",
-      "type": "编程开发",
-      "description": "Siyuan 是一款以隐私为首的自托管、完全开源的个人知识管理软件，使用 TypeScript 和 Go 语言编写，适合开发者和 AI Agent 进行知识整理与管理。",
-      "tags": [
-        "知识管理",
-        "开源软件",
-        "自托管"
-      ],
-      "url": "https://github.com/siyuan-note/siyuan",
-      "source": "GitHub",
-      "stars": 45258,
-      "date": "2026-07-20"
+      "stars": 45281,
+      "date": "2026-07-21"
     },
     {
       "title": "Kong 网关",
       "type": "设计 / 创意",
-      "description": "Kong 是一个高性能的 API 和 AI 网关，提供灵活的路由、负载均衡和安全功能，帮助开发者轻松管理和扩展其 API 服务。适用于构建微服务架构和集成 AI 应用。",
+      "description": "Kong 是一个高性能的 API 和 AI 网关，提供灵活的插件系统和强大的流量管理功能，帮助开发者轻松构建和管理微服务架构。通过其丰富的功能，Kong 能够提升 API 的安全性和可扩展性。",
       "tags": [
         "API 管理",
-        "负载均衡",
+        "流量控制",
         "微服务架构"
       ],
       "url": "https://github.com/Kong/kong",
       "source": "GitHub",
-      "stars": 43812,
-      "date": "2026-07-20"
+      "stars": 43821,
+      "date": "2026-07-21"
     },
     {
       "title": "CLIProxyAPI",
       "type": "编程开发",
-      "description": "将 Antigravity、ChatGPT Codex、Claude Code 和 Grok Build 封装为兼容 OpenAI/Gemini/Claude/Codex 的 API 服务，用户可以通过 API 免费使用 Gemini 3.1 Pro、GPT 5.5、Grok 4.3 和 Claude 模型。",
+      "description": "该工具将 Antigravity、ChatGPT Codex、Claude Code 和 Grok Build 封装为兼容 OpenAI/Gemini/Claude/Codex 的 API 服务，用户可以通过 API 免费使用 Gemini 3.1 Pro、GPT 5.5、Grok 4.3 和 Claude 模型。",
       "tags": [
         "API 服务",
         "模型访问",
@@ -12649,153 +12032,153 @@ window.AI_GENERATED_DATA = {
       ],
       "url": "https://github.com/router-for-me/CLIProxyAPI",
       "source": "GitHub",
-      "stars": 43614,
-      "date": "2026-07-20"
+      "stars": 43810,
+      "date": "2026-07-21"
     },
     {
-      "title": "Agentic 技能管理平台",
+      "title": "Agentic 核心控制平面",
       "type": "编程开发",
-      "description": "AAS Core 预览是一个本地的、以代理为中心的控制面板，帮助用户发现、推荐、验证和规划精确的技能组合，支持超过 1965 种代理技能。它包含命令行工具、局部 MCP、目录、插件和工作台。",
+      "description": "Agentic 核心是一个本地的、以代理为中心的控制平面，支持完整的目录发现、代理拥有的选择、堆栈验证和规划，拥有超过 1969 个代理技能。包括 CLI、本地 MCP、目录、插件和工作台。",
       "tags": [
-        "技能发现",
-        "技能推荐",
-        "技能验证"
+        "目录发现",
+        "堆栈验证",
+        "插件支持"
       ],
       "url": "https://github.com/sickn33/agentic-awesome-skills",
       "source": "GitHub",
-      "stars": 43581,
-      "date": "2026-07-20"
+      "stars": 43632,
+      "date": "2026-07-21"
     },
     {
       "title": "agno-agi/agno",
       "type": "编程开发",
-      "description": "该工具用于构建、运行和管理智能体平台，帮助开发者高效地创建和维护多种智能体应用，提升开发效率和灵活性。",
+      "description": "该工具允许开发者构建、运行和管理智能代理平台，提供灵活的架构和高效的管理功能，适合需要多代理协作的应用场景。",
       "tags": [
-        "智能体管理",
-        "平台构建",
+        "智能代理",
+        "平台管理",
         "开发工具"
       ],
       "url": "https://github.com/agno-agi/agno",
       "source": "GitHub",
-      "stars": 41288,
-      "date": "2026-07-20"
+      "stars": 41310,
+      "date": "2026-07-21"
     },
     {
-      "title": "ChatboxAI 聊天框",
+      "title": "ChatboxAI 聊天框架",
       "type": "编程开发",
-      "description": "ChatboxAI 是一个功能强大的 AI 客户端，支持多种编程开发需求，帮助开发者快速构建和集成 AI 聊天功能，提升应用的交互性和智能化水平。",
+      "description": "ChatboxAI 是一个功能丰富的 AI 客户端，支持开发者快速构建和集成聊天机器人。它提供了灵活的 API 接口，帮助开发者轻松实现自然语言处理和对话管理功能。",
       "tags": [
-        "AI 客户端",
-        "聊天功能",
-        "编程工具"
+        "聊天机器人",
+        "自然语言处理",
+        "开发工具"
       ],
       "url": "https://github.com/chatboxai/chatbox",
       "source": "GitHub",
-      "stars": 41062,
-      "date": "2026-07-20"
+      "stars": 41076,
+      "date": "2026-07-21"
     },
     {
       "title": "LibreChat 聊天工具",
       "type": "编程开发",
-      "description": "LibreChat 是一个增强版的 ChatGPT 克隆，支持多种 AI 模型切换和消息搜索功能，集成了多种 API，如 OpenAI 和 AWS，适合开发者自托管使用，提供丰富的功能和灵活的配置选项。",
+      "description": "LibreChat 是一个增强版的 ChatGPT 克隆，支持多种 AI 模型切换和消息搜索功能。它集成了多种 API，如 OpenAI、AWS 和 Azure，适合开发者进行自托管和扩展，提供丰富的功能和灵活性。",
       "tags": [
-        "AI 模型切换",
+        "多模型切换",
         "消息搜索",
         "自托管"
       ],
       "url": "https://github.com/danny-avila/LibreChat",
       "source": "GitHub",
-      "stars": 40938,
-      "date": "2026-07-20"
+      "stars": 40982,
+      "date": "2026-07-21"
     },
     {
       "title": "市场营销技能",
       "type": "编程开发",
-      "description": "该工具提供了针对 Claude Code 和 AI 代理的市场营销技能，包括转化率优化、文案写作、搜索引擎优化、数据分析和增长工程等，帮助开发者提升营销效果。",
+      "description": "该工具提供了针对 Claude Code 和 AI 代理的市场营销技能，包括转化率优化、文案撰写、搜索引擎优化、数据分析和增长工程等，帮助开发者提升营销效果。",
       "tags": [
         "市场营销",
         "数据分析",
-        "文案写作"
+        "文案撰写"
       ],
       "url": "https://github.com/coreyhaines31/marketingskills",
       "source": "GitHub",
-      "stars": 40707,
-      "date": "2026-07-20"
+      "stars": 40862,
+      "date": "2026-07-21"
+    },
+    {
+      "title": "从零开始的 AI 工程",
+      "type": "Agent 框架",
+      "description": "学习、构建并将 AI 项目交付给他人。该工具提供了从基础到实践的全面指导，帮助开发者掌握 AI 工程的各个环节。",
+      "tags": [
+        "AI 开发",
+        "项目构建",
+        "实践指导"
+      ],
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "source": "GitHub",
+      "stars": 40336,
+      "date": "2026-07-21"
     },
     {
       "title": "PPT 制作助手",
       "type": "编程开发",
-      "description": "该工具可以将文档或主题转换为真实的 PowerPoint 演示文稿，支持原生形状、过渡和动画，按需生成数据驱动的图表和表格，并可根据演讲者备注添加音频解说，同时支持自定义 .pptx 模板。",
+      "description": "该工具能够将文档或主题转换为真实的 PowerPoint 演示文稿，支持原生形状、过渡和动画，按需生成数据驱动的图表和表格，并可根据讲稿提供音频解说，同时支持自定义 .pptx 模板。",
       "tags": [
-        "文档转换",
-        "演示文稿",
-        "自定义模板"
+        "PowerPoint 制作",
+        "数据驱动图表",
+        "音频解说"
       ],
       "url": "https://github.com/hugohe3/ppt-master",
       "source": "GitHub",
-      "stars": 39929,
-      "date": "2026-07-20"
+      "stars": 40134,
+      "date": "2026-07-21"
     },
     {
       "title": "ChatTTS 语音生成",
       "type": "语音 / 音频",
-      "description": "ChatTTS 是一个生成式语音模型，专注于日常对话的自然交流，能够为 AI 代理和开发者提供流畅的语音合成功能，提升人机交互体验。",
+      "description": "ChatTTS 是一个生成式语音模型，专注于日常对话的自然交流。它能够为 AI 代理或开发者提供高质量的语音合成功能，提升互动体验。",
       "tags": [
         "语音合成",
-        "对话生成",
+        "对话系统",
         "自然语言处理"
       ],
       "url": "https://github.com/2noise/ChatTTS",
       "source": "GitHub",
       "stars": 39651,
-      "date": "2026-07-20"
-    },
-    {
-      "title": "从零开始的 AI 工程",
-      "type": "Agent 框架",
-      "description": "学习、构建并将 AI 工具交付给他人。该项目提供了从基础到实际应用的全面指导，适合希望深入了解 AI 工程的开发者。",
-      "tags": [
-        "AI 工程",
-        "工具构建",
-        "项目交付"
-      ],
-      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "source": "GitHub",
-      "stars": 39493,
-      "date": "2026-07-20"
+      "date": "2026-07-21"
     },
     {
       "title": "mindsdb/mindshub",
       "type": "编程开发",
-      "description": "通过这个工具，您可以让 AI 实际执行任务，并随时更换模型，同时保留您已构建的所有内容。适合开发者和 AI Agent 使用。",
+      "description": "通过 mindsdb/mindshub，让 AI 实现实际工作。您可以随时更换模型，同时保留您所构建的所有内容，灵活应对不同需求。",
       "tags": [
-        "AI 模型管理",
-        "任务自动化",
-        "开发者工具"
+        "AI 工作流",
+        "模型管理",
+        "灵活开发"
       ],
       "url": "https://github.com/mindsdb/mindshub",
       "source": "GitHub",
-      "stars": 39461,
-      "date": "2026-07-20"
+      "stars": 39469,
+      "date": "2026-07-21"
     },
     {
       "title": "QuivrHQ/quivr",
       "type": "RAG / 知识库",
-      "description": "这是一个专注于将生成式人工智能集成到应用程序中的 RAG 工具。它允许开发者专注于产品本身，而不是 RAG 的实现。支持与现有产品的轻松集成和定制，兼容任何大型语言模型（如 GPT4、Groq、Llama）和向量存储（如 PGVector、Faiss），支持各种文件格式，灵活性极高。",
+      "description": "这是一个专注于将生成式人工智能集成到应用中的 RAG 工具。它允许开发者将注意力集中在产品上，而不是 RAG 的实现。支持与现有产品的轻松集成和定制，兼容任何大型语言模型（如 GPT4、Groq、Llama）和向量存储（如 PGVector、Faiss），支持各种文件格式。",
       "tags": [
         "生成式人工智能",
         "应用集成",
-        "灵活定制"
+        "知识库管理"
       ],
       "url": "https://github.com/QuivrHQ/quivr",
       "source": "GitHub",
-      "stars": 39223,
-      "date": "2026-07-20"
+      "stars": 39228,
+      "date": "2026-07-21"
     },
     {
       "title": "学术研究技能",
       "type": "编程开发",
-      "description": "该工具提供了一套完整的学术研究流程，包括研究、写作、审阅、修订和最终定稿，帮助开发者和 AI Agent 有效提升学术研究的效率和质量。",
+      "description": "该工具提供了一套完整的学术研究流程，包括研究、写作、审阅、修订和最终定稿，帮助开发者和 AI Agent 高效完成学术项目。",
       "tags": [
         "学术研究",
         "写作工具",
@@ -12803,13 +12186,13 @@ window.AI_GENERATED_DATA = {
       ],
       "url": "https://github.com/Imbad0202/academic-research-skills",
       "source": "GitHub",
-      "stars": 38468,
-      "date": "2026-07-20"
+      "stars": 38595,
+      "date": "2026-07-21"
     },
     {
       "title": "Langchain-Chatchat",
       "type": "RAG / 知识库",
-      "description": "Langchain-Chatchat 是一个基于 Langchain 的 RAG 和 Agent 应用，支持 ChatGLM、Qwen 和 Llama 等语言模型，能够实现本地知识的智能检索与应用，帮助开发者构建更智能的对话系统。",
+      "description": "Langchain-Chatchat 是基于 Langchain 的 RAG 和 Agent 应用，结合了 ChatGLM、Qwen 和 Llama 等语言模型，支持本地知识的处理与应用，帮助开发者构建智能对话系统。",
       "tags": [
         "智能对话",
         "知识检索",
@@ -12817,27 +12200,27 @@ window.AI_GENERATED_DATA = {
       ],
       "url": "https://github.com/chatchat-space/Langchain-Chatchat",
       "source": "GitHub",
-      "stars": 38440,
-      "date": "2026-07-20"
+      "stars": 38450,
+      "date": "2026-07-21"
     },
     {
-      "title": "多模态 AI 代理框架",
+      "title": "字节跳动 UI-TARS 桌面版",
       "type": "浏览器 / 自动化",
-      "description": "这是一个开源的多模态 AI 代理堆栈，旨在连接前沿的 AI 模型和代理基础设施，为开发者提供灵活的工具和资源，支持多种应用场景。",
+      "description": "这是一个开源的多模态 AI 代理框架，旨在连接前沿的 AI 模型与代理基础设施，帮助开发者构建智能化的应用程序和服务。",
       "tags": [
-        "开源工具",
         "多模态 AI",
+        "开源框架",
         "代理基础设施"
       ],
       "url": "https://github.com/bytedance/UI-TARS-desktop",
       "source": "GitHub",
-      "stars": 38114,
-      "date": "2026-07-20"
+      "stars": 38143,
+      "date": "2026-07-21"
     },
     {
       "title": "多插件代理市场",
       "type": "编程开发",
-      "description": "这是一个多插件市场，支持 Claude Code、Codex CLI、Cursor、OpenCode、GitHub Copilot 和 Gemini CLI，方便开发者集成和使用各种代理插件，提升开发效率。",
+      "description": "这是一个多插件市场，支持 Claude Code、Codex CLI、Cursor、OpenCode、GitHub Copilot 和 Gemini CLI，帮助开发者更高效地集成和使用各种代理工具。",
       "tags": [
         "插件市场",
         "开发工具",
@@ -12845,55 +12228,69 @@ window.AI_GENERATED_DATA = {
       ],
       "url": "https://github.com/wshobson/agents",
       "source": "GitHub",
-      "stars": 38055,
-      "date": "2026-07-20"
+      "stars": 38080,
+      "date": "2026-07-21"
     },
     {
       "title": "LightRAG",
       "type": "RAG / 知识库",
-      "description": "LightRAG 是一种简单快速的检索增强生成模型，旨在提升 AI 代理和开发者在信息检索和生成任务中的效率与准确性。该工具通过结合检索和生成技术，帮助用户更好地处理复杂的查询。",
+      "description": "LightRAG 是一种简单快速的检索增强生成模型，旨在提升 AI 代理和开发者在信息检索和生成任务中的效率与准确性。通过结合检索和生成技术，用户可以更快速地获取所需信息。",
       "tags": [
         "检索增强生成",
-        "信息处理",
+        "信息检索",
         "模型优化"
       ],
       "url": "https://github.com/HKUDS/LightRAG",
       "source": "GitHub",
-      "stars": 37834,
-      "date": "2026-07-20"
+      "stars": 37897,
+      "date": "2026-07-21"
     },
     {
       "title": "LangGraph",
       "type": "RAG / 知识库",
-      "description": "LangGraph 是一个构建可靠智能体的工具，帮助开发者创建能够处理复杂任务的 AI 系统，提升智能体的灵活性与适应性。",
+      "description": "LangGraph 是一个构建高韧性智能体的工具，帮助开发者创建能够适应复杂环境的 AI 代理，提升其在动态场景中的表现和稳定性。",
       "tags": [
         "智能体构建",
-        "任务处理",
-        "灵活性提升"
+        "环境适应",
+        "动态场景"
       ],
       "url": "https://github.com/langchain-ai/langgraph",
       "source": "GitHub",
-      "stars": 37608,
-      "date": "2026-07-20"
+      "stars": 37681,
+      "date": "2026-07-21"
+    },
+    {
+      "title": "Brave 搜索",
+      "type": "编程开发",
+      "description": "使用 Brave 的独立索引搜索网络，包括网页、新闻、图片和视频。您可以从 [Brave Search API 控制台](https://api-dashboard.search.brave.com) 获取自己的订阅令牌。",
+      "tags": [
+        "搜索引擎",
+        "独立索引",
+        "API"
+      ],
+      "url": "https://smithery.ai/server/brave",
+      "source": "Smithery MCP",
+      "stars": 37380,
+      "date": "2026-07-21"
     },
     {
       "title": "GitHub Copilot 资源汇总",
       "type": "编程开发",
-      "description": "这是一个由社区贡献的资源库，提供了关于 GitHub Copilot 的使用说明、代理、技能和配置，帮助开发者充分利用 GitHub Copilot 的功能，提高编程效率。",
+      "description": "这是一个由社区贡献的资源集合，提供了使用 GitHub Copilot 的指令、代理、技能和配置，帮助开发者充分利用这一工具，提高编程效率。",
       "tags": [
         "社区资源",
-        "开发者工具",
-        "编程辅助"
+        "编程辅助",
+        "开发工具"
       ],
       "url": "https://github.com/github/awesome-copilot",
       "source": "GitHub",
-      "stars": 36763,
-      "date": "2026-07-20"
+      "stars": 36809,
+      "date": "2026-07-21"
     },
     {
       "title": "AI 工程中心",
       "type": "RAG / 知识库",
-      "description": "提供关于大型语言模型（LLMs）、检索增强生成（RAGs）及现实世界 AI 代理应用的深入教程，帮助开发者掌握相关技术与应用场景。",
+      "description": "提供关于大型语言模型（LLMs）、检索增强生成（RAGs）及实际 AI 代理应用的深入教程，帮助开发者掌握相关技术和应用场景。",
       "tags": [
         "大型语言模型",
         "检索增强生成",
@@ -12901,13 +12298,13 @@ window.AI_GENERATED_DATA = {
       ],
       "url": "https://github.com/patchy631/ai-engineering-hub",
       "source": "GitHub",
-      "stars": 36594,
-      "date": "2026-07-20"
+      "stars": 36614,
+      "date": "2026-07-21"
     },
     {
-      "title": "CopilotKit 前端工具包",
+      "title": "CopilotKit 前端开发框架",
       "type": "编程开发",
-      "description": "CopilotKit 是为代理和生成用户界面设计的前端技术栈，支持 React、Angular、移动端和 Slack 等多种平台。它是 AG-UI 协议的开发者，帮助开发者构建高效的用户界面。",
+      "description": "CopilotKit 是一个为代理和生成用户界面设计的前端开发框架，支持 React、Angular、移动端和 Slack 等多种技术，致力于简化开发流程并提升用户体验。",
       "tags": [
         "前端开发",
         "用户界面",
@@ -12915,13 +12312,13 @@ window.AI_GENERATED_DATA = {
       ],
       "url": "https://github.com/CopilotKit/CopilotKit",
       "source": "GitHub",
-      "stars": 36158,
-      "date": "2026-07-20"
+      "stars": 36174,
+      "date": "2026-07-21"
     },
     {
       "title": "Khoj AI",
       "type": "浏览器 / 自动化",
-      "description": "你的 AI 第二大脑，支持自托管。可以从网络或文档中获取答案，构建自定义代理，安排自动化任务，进行深入研究。将任何在线或本地的 LLM（如 gpt、claude、gemini、llama、qwen、mistral）转变为你的个人自主 AI。立即开始 - 免费使用。",
+      "description": "这是你的 AI 第二大脑，支持自托管。可以从网络或文档中获取答案，构建自定义代理，安排自动化任务，进行深入研究。将任何在线或本地的 LLM（如 gpt、claude、gemini、llama、qwen、mistral）转变为你的个人自主 AI。免费开始使用。",
       "tags": [
         "自托管",
         "自动化任务",
@@ -12929,42 +12326,28 @@ window.AI_GENERATED_DATA = {
       ],
       "url": "https://github.com/khoj-ai/khoj",
       "source": "GitHub",
-      "stars": 35873,
-      "date": "2026-07-20"
+      "stars": 35892,
+      "date": "2026-07-21"
     },
     {
       "title": "Vane",
       "type": "编程开发",
-      "description": "Vane 是一个基于 AI 的问答引擎，能够快速准确地回答用户的问题，帮助开发者和 AI Agent 提高响应效率和信息获取能力。",
+      "description": "Vane 是一个基于 AI 的问答引擎，能够快速响应用户提问，提供准确的信息和解答，适合开发者集成到各种应用中，提升用户交互体验。",
       "tags": [
         "问答引擎",
-        "AI 技术",
+        "AI技术",
         "开发工具"
       ],
       "url": "https://github.com/ItzCrazyKns/Vane",
       "source": "GitHub",
-      "stars": 35720,
-      "date": "2026-07-20"
-    },
-    {
-      "title": "Playwright MCP",
-      "type": "浏览器 / 自动化",
-      "description": "Playwright MCP 是一个用于浏览器自动化的服务器，支持多种浏览器的测试和操作，帮助开发者实现高效的自动化测试和网页交互。",
-      "tags": [
-        "浏览器自动化",
-        "测试工具",
-        "开发者工具"
-      ],
-      "url": "https://github.com/microsoft/playwright-mcp",
-      "source": "GitHub",
-      "stars": 35265,
-      "date": "2026-07-20"
+      "stars": 35769,
+      "date": "2026-07-21"
     }
   ],
   "dailyReport": {
-    "date": "2026-07-20",
-    "generatedAt": "2026-07-20T15:17:27.454062Z",
-    "total": 16,
+    "date": "2026-07-21",
+    "generatedAt": "2026-07-20T16:22:37.091258Z",
+    "total": 9,
     "sections": [
       {
         "category": "ai-tools",
@@ -12980,17 +12363,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-07-20",
             "publishedAt": "2026-07-20T09:45",
             "reason": "Ollama 的融资和平台发展展示了开放模型在 AI 领域的重要性，值得关注其对开发者和企业的影响。"
-          },
-          {
-            "title": "transcribe.cpp v0.1.0 发布：支持 16 个 ASR 模型的跨平台语音转录库",
-            "summary": "transcribe.cpp v0.1.0 发布，作为一个基于 ggml 的语音转录库，支持 16 个 ASR 模型族（超过 60 个模型），并通过 Vulkan、Metal、CUDA 和 TinyBLAS 实现 GPU 加速。该库旨在解决当前跨平台语音转录应用的分发难题。",
-            "source": "AIHOT · Hacker News 热门（buzzing.cc 中文翻译）",
-            "url": "https://workshop.cjpais.com/projects/transcribe-cpp",
-            "score": 62,
-            "sourceCount": 1,
-            "date": "2026-07-19",
-            "publishedAt": "2026-07-19T10:49",
-            "reason": "transcribe.cpp 提供了一个高效、可靠的跨平台语音转录解决方案，值得开发者关注。"
           }
         ]
       },
@@ -13032,17 +12404,6 @@ window.AI_GENERATED_DATA = {
         "category": "ai-models",
         "label": "模型发布",
         "items": [
-          {
-            "title": "通义千问 Qwen3.8 开源发布在即，参数达 2.4T",
-            "summary": "通义千问 Qwen3.8 模型即将开源，参数高达 2.4T，具备强大的计算能力，预计将与 Fable 5 等前沿 AI 模型竞争。Qwen3.8-Max-Preview 已在阿里巴巴的多个平台上首次亮相，用户可立即体验其强大功能。",
-            "source": "AIHOT · X：通义千问 / Qwen (@Alibaba_Qwen)",
-            "url": "https://x.com/Alibaba_Qwen/status/2078759124914098291",
-            "score": 69,
-            "sourceCount": 2,
-            "date": "2026-07-19",
-            "publishedAt": "2026-07-19T16:29",
-            "reason": "Qwen3.8 的开源发布将为 AI 领域带来新的竞争格局，其强大的参数和功能值得关注。"
-          },
           {
             "title": "上海科学智能研究院推出多模态基础模型\"神珍\"，处理多类科学数据",
             "summary": "我注意到，上海科学智能研究院最近开放了一个名为\"神珍\"的多模态基础模型，参数约110亿，能够处理DNA、RNA、蛋白质、小分子、地球系统和医学影像等六类科学数据。在生物序列的20项任务中，该模型有9项取得最优结果，医学影像分割的平均Dice得分为91.20，表现优异。模型权重和代",
@@ -13088,28 +12449,6 @@ window.AI_GENERATED_DATA = {
             "reason": "Seed Audio 1.0 模型的发布为音频创作带来了革命性的变化，值得关注其在各行业的应用潜力。"
           },
           {
-            "title": "面壁智能发布 MiniCPM-Robot 具身智能模型系列",
-            "summary": "面壁智能于 2026 年 7 月 19 日发布了首个具身AI模型系列 MiniCPM-Robot，包含 1.5B 参数的通用视觉-语言-动作（VLA）模型 MiniCPM-RobotManip 和用于目标跟踪的 MiniCPM-RobotTrack。此外，还推出了高性能推理框架 ",
-            "source": "AIHOT · X：面壁智能 OpenBMB (@OpenBMB)",
-            "url": "https://x.com/OpenBMB/status/2078839529591759025",
-            "score": 66,
-            "sourceCount": 2,
-            "date": "2026-07-19",
-            "publishedAt": "2026-07-19T21:49",
-            "reason": "MiniCPM-Robot 系列的发布为具身智能技术的应用提供了新的可能性，值得关注其在实际场景中的表现。"
-          },
-          {
-            "title": "MiniCPM5-2B发布：全球性能第一的4B以下模型，适配9款芯片",
-            "summary": "面壁智能与OpenBMB联合推出的MiniCPM5-2B模型在AA-Index榜单中以17分的成绩成为4B以下模型的最高分，平均分为54.26，超越了Qwen3.5-2B等竞争对手。该模型支持混合思考和512K上下文，已完成对华为昇腾、英伟达等9款芯片的Day0适配，预计将开源发",
-            "source": "AIHOT · 公众号：面壁智能（MiniCPM）",
-            "url": "https://mp.weixin.qq.com/s/rjFxrUylyGMqa5QtgypCdw",
-            "score": 66,
-            "sourceCount": 1,
-            "date": "2026-07-19",
-            "publishedAt": "2026-07-19T21:12",
-            "reason": "MiniCPM5-2B凭借其卓越的性能和广泛的适配性，成为4B以下模型中的佼佼者，值得关注。"
-          },
-          {
             "title": "小红书与北大联合推出 UltraEP 实时负载均衡方案",
             "summary": "小红书与北京大学共同开发的 UltraEP 方案，首次将基于精确路由信息的实时负载均衡技术应用于生产系统。该方案在每个 microbatch 和每一层动态复制热点专家，训练吞吐量在 Qwen3-235B 模型上达到理想性能的 94.6%，相比 Megatron-LM 提升 42%",
             "source": "AIHOT · 公众号：小红书技术（dots.llm）",
@@ -13119,17 +12458,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-07-20",
             "publishedAt": "2026-07-20T16:00",
             "reason": "UltraEP 方案的推出为实时负载均衡技术在生产环境中的应用提供了新的思路，值得关注。"
-          },
-          {
-            "title": "昆仑万维发布Matrix-Game 3.5，2026年被称为\"世界模型元年\"",
-            "summary": "昆仑万维在WAIC上宣布2026年为\"世界模型元年\"，并推出Matrix-Game 3.5、Mureka v9.5及O3音乐模型。Matrix-Game 3.5具备Patch级记忆注入功能，5B模型在720p分辨率下可实现单卡20FPS的实时生成，且核心架构已开源。这一系列发布标",
-            "source": "AIHOT · 公众号：昆仑万维（天工）",
-            "url": "https://mp.weixin.qq.com/s/LidvGePhOOoUY3KTor_w9g",
-            "score": 62,
-            "sourceCount": 1,
-            "date": "2026-07-19",
-            "publishedAt": "2026-07-19T20:35",
-            "reason": "昆仑万维的Matrix-Game 3.5及其系列模型的发布，标志着AI模型技术的又一次重要进步，值得关注。"
           }
         ]
       },
@@ -13149,38 +12477,146 @@ window.AI_GENERATED_DATA = {
             "reason": "这个项目为微调技术提供了一个公平的竞技平台，值得关注和参与，尤其是对那些希望提升模型性能的开发者。通过参与，可以获得最新的技术动态和实践经验。"
           }
         ]
-      },
-      {
-        "category": "ai-business",
-        "label": "行业商业",
-        "items": [
-          {
-            "title": "全球决策机制受 AI 热潮冲击，项目成功率为零",
-            "summary": "随着 AI 技术的广泛应用，许多企业和机构陷入了集体狂热，导致决策失误和项目失败。过去一年半中，观察到的 AI 项目成功率为 0%，失败原因多与企业内部管理不善有关，而非 LLM 的能力不足。内部和客户服务聊天机器人普遍未能提供良好体验，反映出企业在 AI 应用上的困境。",
-            "source": "AIHOT · Hacker News 热门（buzzing.cc 中文翻译）",
-            "url": "https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making",
-            "score": 64,
-            "sourceCount": 1,
-            "date": "2026-07-19",
-            "publishedAt": "2026-07-19T13:13",
-            "reason": "本文深入分析了 AI 热潮对企业决策的影响，揭示了项目失败的根本原因，值得关注。"
-          },
-          {
-            "title": "ChatGPT Work：一站式网站与文档管理工具",
-            "summary": "ChatGPT Work 是一款集网站创建、电子邮件管理、文档总结及高质量文档制作于一体的工具，适合需要高效处理信息的用户。它已在移动应用和官网提供，包含在 Plus、Pro、Business 和 Enterprise 套餐中，帮助用户提升工作效率。",
-            "source": "AIHOT · X：Tibo (@thsottiaux)",
-            "url": "https://x.com/thsottiaux/status/2078697631019303273",
-            "score": 63,
-            "sourceCount": 1,
-            "date": "2026-07-19",
-            "publishedAt": "2026-07-19T12:25",
-            "reason": "ChatGPT Work 通过集成多种功能，帮助用户在信息处理上实现高效化，值得一试。"
-          }
-        ]
       }
     ]
   },
   "dailyReports": [
+    {
+      "date": "2026-07-20",
+      "generatedAt": "2026-07-20T16:22:37.165315Z",
+      "total": 9,
+      "sections": [
+        {
+          "category": "ai-tools",
+          "label": "AI 工具",
+          "items": [
+            {
+              "title": "Ollama 完成 8800 万美元融资，推动开放模型生态发展",
+              "summary": "Ollama 宣布获得 8800 万美元融资，主要由 Benchmark、Theory Ventures 和 8VC 领投。该平台目前服务于 890 万开发者，并被 85% 的财富 500 强企业采用，云端 token 用量月均翻倍。融资将用于支持无缝混合推理和新模型的集成，同时",
+              "source": "AIHOT · Hacker News 热门（buzzing.cc 中文翻译）",
+              "url": "https://ollama.com/blog/all-aboard-open-models",
+              "score": 66,
+              "sourceCount": 1,
+              "date": "2026-07-20",
+              "publishedAt": "2026-07-20T09:45",
+              "reason": "Ollama 的融资和平台发展展示了开放模型在 AI 领域的重要性，值得关注其对开发者和企业的影响。"
+            }
+          ]
+        },
+        {
+          "category": "ai-coding",
+          "label": "AI 编程",
+          "items": [
+            {
+              "title": "零代码用户的产品开发全流程指南",
+              "summary": "本文为零代码用户提供了一套完整的产品开发流程，利用国产大模型（如Kimi、GLM、Qwen等）从零开始开发并上线产品。核心步骤包括购买Coding Plan、下载官方Agent编程产品、注册域名与服务器并进行ICP备案，随后通过Agent的Plan模式描述需求并让AI自动执行开发",
+              "source": "AIHOT · 公众号：数字生命卡兹克",
+              "url": "https://mp.weixin.qq.com/s/EeHjsju08ARLbwtwFcViqg",
+              "score": 58,
+              "sourceCount": 1,
+              "date": "2026-07-20",
+              "publishedAt": "2026-07-20T08:08",
+              "reason": "这篇文章提供了从零开始的产品开发流程，适合希望快速入门的零代码用户，具有实用性和指导性。"
+            }
+          ]
+        },
+        {
+          "category": "ai-agents",
+          "label": "Agent / MCP",
+          "items": [
+            {
+              "title": "Hugging Face 遭自主AI智能体入侵，数小时内完成取证分析",
+              "summary": "Hugging Face 披露其生产基础设施遭到自主AI智能体的攻击，攻击者利用恶意数据集通过数据处理管道的漏洞窃取内部数据和服务凭证。该公司通过部署 LLM 驱动的分析智能体，在数小时内完成了对超过 17000 条攻击行为的取证分析，显著缩短了通常需要数天的工作时间。",
+              "source": "AIHOT · The Decoder：AI News（RSS）",
+              "url": "https://the-decoder.com/hugging-face-says-an-ai-agent-hacked-its-infrastructure-and-it-used-ai-to-fight-back",
+              "score": 68,
+              "sourceCount": 1,
+              "date": "2026-07-20",
+              "publishedAt": "2026-07-20T20:12",
+              "reason": "Hugging Face 的事件揭示了自主AI攻击的现实性，值得关注其对网络安全的深远影响。"
+            }
+          ]
+        },
+        {
+          "category": "ai-models",
+          "label": "模型发布",
+          "items": [
+            {
+              "title": "上海科学智能研究院推出多模态基础模型\"神珍\"，处理多类科学数据",
+              "summary": "我注意到，上海科学智能研究院最近开放了一个名为\"神珍\"的多模态基础模型，参数约110亿，能够处理DNA、RNA、蛋白质、小分子、地球系统和医学影像等六类科学数据。在生物序列的20项任务中，该模型有9项取得最优结果，医学影像分割的平均Dice得分为91.20，表现优异。模型权重和代",
+              "source": "AIHOT · IT之家（RSS）",
+              "url": "https://www.ithome.com/0/979/017.htm",
+              "score": 67,
+              "sourceCount": 1,
+              "date": "2026-07-20",
+              "publishedAt": "2026-07-20T15:00",
+              "reason": "这条信息值得关注，因为\"神珍\"模型在多模态科学数据处理上展现了强大的能力，能够推动多个领域的研究进展。"
+            },
+            {
+              "title": "Nvidia 与日本合作建设物理 AI 工厂，推动自主 AI 发展",
+              "summary": "Nvidia CEO 黄仁勋于7月15日至16日访问日本，宣布将在日本建设\"Vera Rubin AI 工厂\"，配备13,750颗Vera CPU和27,500颗Rubin GPU，预计2028年投运。这一举措标志着Nvidia与日本制造业的深度合作，推动物理 AI 时代的到来。",
+              "source": "AIHOT · TechCrunch：AI（RSS）",
+              "url": "https://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit",
+              "score": 67,
+              "sourceCount": 1,
+              "date": "2026-07-20",
+              "publishedAt": "2026-07-20T05:16",
+              "reason": "Nvidia与日本的合作不仅是技术层面的结合，更是战略层面的共赢，值得关注其对全球AI产业的深远影响。"
+            },
+            {
+              "title": "通义实验室推出 Qwen-Audio-3.0-TTS 实时语音合成模型",
+              "summary": "通义实验室发布的 Qwen-Audio-3.0-TTS 模型包含 Flash 和 Plus 两个版本，Flash 版本的首包延迟约为 300ms，Plus 版本在 Artificial Analysis 榜单中表现优异，支持 16 种语言和 20 种中文方言，平均字错误率（WER",
+              "source": "AIHOT · 公众号：通义实验室（千问）",
+              "url": "https://mp.weixin.qq.com/s/INvrqTrWLMm2WCLIqhqTrg",
+              "score": 66,
+              "sourceCount": 1,
+              "date": "2026-07-20",
+              "publishedAt": "2026-07-20T16:53",
+              "reason": "Qwen-Audio-3.0-TTS 模型在实时性和多语言支持方面的显著提升，使其在语音合成市场中具备强大的竞争优势，值得关注。"
+            },
+            {
+              "title": "字节跳动发布 Seed Audio 1.0，音频创作新纪元",
+              "summary": "字节跳动的 Seed Audio 1.0 模型实现了人声、音效与环境声的统一建模，支持高精度时间控制和多语言生成，已在火山方舟体验中心上线，音频可用率超过 90%。",
+              "source": "AIHOT · 字节 Seed：Research Feed（网页内嵌数据）",
+              "url": "https://seed.bytedance.com/zh/blog/%E4%BB%8E-%E4%BC%9A%E8%AF%B4-%E8%B5%B0%E5%90%91-%E4%BC%9A%E5%88%9B%E4%BD%9C-seed-audio-1-0-%E9%9F%B3%E9%A2%91%E5%88%9B%E4%BD%9C%E6%A8%A1%E5%9E%8B%E5%8F%91%E5%B8%83",
+              "score": 66,
+              "sourceCount": 1,
+              "date": "2026-07-20",
+              "publishedAt": "2026-07-20T00:00",
+              "reason": "Seed Audio 1.0 模型的发布为音频创作带来了革命性的变化，值得关注其在各行业的应用潜力。"
+            },
+            {
+              "title": "小红书与北大联合推出 UltraEP 实时负载均衡方案",
+              "summary": "小红书与北京大学共同开发的 UltraEP 方案，首次将基于精确路由信息的实时负载均衡技术应用于生产系统。该方案在每个 microbatch 和每一层动态复制热点专家，训练吞吐量在 Qwen3-235B 模型上达到理想性能的 94.6%，相比 Megatron-LM 提升 42%",
+              "source": "AIHOT · 公众号：小红书技术（dots.llm）",
+              "url": "https://mp.weixin.qq.com/s/rAoF65ywi5trWbI-heJieg",
+              "score": 65,
+              "sourceCount": 1,
+              "date": "2026-07-20",
+              "publishedAt": "2026-07-20T16:00",
+              "reason": "UltraEP 方案的推出为实时负载均衡技术在生产环境中的应用提供了新的思路，值得关注。"
+            }
+          ]
+        },
+        {
+          "category": "ai-benchmark",
+          "label": "评测榜单",
+          "items": [
+            {
+              "title": "LoRA Speedrun排行榜：Qwen2.5-1.5B微调新纪录",
+              "summary": "我注意到LoRA Speedrun项目推出了一个公开排行榜，专注于在固定硬件（单张L40S）上比较Qwen2.5-1.5B的微调速度。当前的最快纪录由@Saivineeth147保持，时间为6分05秒，采用了序列打包和损失掩码技术，准确率达到了61.1%。项目还提供了免费的Mod",
+              "source": "AIHOT · Hacker News 热门（buzzing.cc 中文翻译）",
+              "url": "https://github.com/Saivineeth147/lora-speedrun",
+              "score": 66,
+              "sourceCount": 1,
+              "date": "2026-07-20",
+              "publishedAt": "2026-07-20T20:21",
+              "reason": "这个项目为微调技术提供了一个公平的竞技平台，值得关注和参与，尤其是对那些希望提升模型性能的开发者。通过参与，可以获得最新的技术动态和实践经验。"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-07-19",
       "generatedAt": "2026-07-19T16:23:00.508780Z",
@@ -20515,7 +19951,7 @@ window.AI_GENERATED_DATA = {
     }
   ],
   "llmLeaderboard": {
-    "updated": "2026-07-20",
+    "updated": "2026-07-21",
     "source": "ReLE 中文大模型能力评测（综合能力）",
     "sourceUrl": "https://github.com/jeinlee1991/chinese-llm-benchmark",
     "items": [
@@ -20531,6 +19967,16 @@ window.AI_GENERATED_DATA = {
       },
       {
         "rank": 2,
+        "type": "开源",
+        "org": "月之暗面",
+        "model": "kimi-k3(new)",
+        "score": "75.6%",
+        "latency": "80s",
+        "tokens": "1962",
+        "cost": "172.4"
+      },
+      {
+        "rank": 3,
         "type": "商用",
         "org": "豆包",
         "model": "doubao-seed-evolving(new)",
@@ -20540,7 +19986,7 @@ window.AI_GENERATED_DATA = {
         "cost": "304.7"
       },
       {
-        "rank": 3,
+        "rank": 4,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3.6-max-preview",
@@ -20550,7 +19996,7 @@ window.AI_GENERATED_DATA = {
         "cost": "139.2"
       },
       {
-        "rank": 4,
+        "rank": 5,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.5(new)",
@@ -20560,7 +20006,7 @@ window.AI_GENERATED_DATA = {
         "cost": "158.5"
       },
       {
-        "rank": 5,
+        "rank": 6,
         "type": "商用",
         "org": "google",
         "model": "gemini-3.1-pro-preview",
@@ -20570,7 +20016,7 @@ window.AI_GENERATED_DATA = {
         "cost": "250.5"
       },
       {
-        "rank": 6,
+        "rank": 7,
         "type": "商用",
         "org": "豆包",
         "model": "doubao-seed-2-1-pro-260628(new)",
@@ -20580,7 +20026,7 @@ window.AI_GENERATED_DATA = {
         "cost": "313.2"
       },
       {
-        "rank": 7,
+        "rank": 8,
         "type": "商用",
         "org": "anthropic",
         "model": "claude-opus-4.8-thinking(new)",
@@ -20590,7 +20036,7 @@ window.AI_GENERATED_DATA = {
         "cost": "238.2"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.6-sol-pro(new)",
@@ -20600,7 +20046,7 @@ window.AI_GENERATED_DATA = {
         "cost": "398.7"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "type": "商用",
         "org": "google",
         "model": "gemini-3.5-flash(new)",
@@ -20610,7 +20056,7 @@ window.AI_GENERATED_DATA = {
         "cost": "151.2"
       },
       {
-        "rank": 10,
+        "rank": 11,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3.7-plus(new)",
@@ -20620,7 +20066,7 @@ window.AI_GENERATED_DATA = {
         "cost": "31.7"
       },
       {
-        "rank": 11,
+        "rank": 12,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "qwen3.5-plus",
@@ -20630,7 +20076,7 @@ window.AI_GENERATED_DATA = {
         "cost": "22.9"
       },
       {
-        "rank": 12,
+        "rank": 13,
         "type": "商用",
         "org": "豆包",
         "model": "doubao-seed-2-1-turbo-260628(new)",
@@ -20640,7 +20086,7 @@ window.AI_GENERATED_DATA = {
         "cost": "136.3"
       },
       {
-        "rank": 13,
+        "rank": 14,
         "type": "开源",
         "org": "智谱AI",
         "model": "glm-5.2(new)",
@@ -20650,7 +20096,7 @@ window.AI_GENERATED_DATA = {
         "cost": "110.5"
       },
       {
-        "rank": 14,
+        "rank": 15,
         "type": "开源",
         "org": "月之暗面",
         "model": "kimi-k2.6(new)",
@@ -20660,7 +20106,7 @@ window.AI_GENERATED_DATA = {
         "cost": "100.4"
       },
       {
-        "rank": 15,
+        "rank": 16,
         "type": "商用",
         "org": "豆包",
         "model": "Doubao-Seed-2.0-pro",
@@ -20670,7 +20116,7 @@ window.AI_GENERATED_DATA = {
         "cost": "22.5"
       },
       {
-        "rank": 16,
+        "rank": 17,
         "type": "开源",
         "org": "月之暗面",
         "model": "kimi-k2.7-code(new)",
@@ -20680,7 +20126,7 @@ window.AI_GENERATED_DATA = {
         "cost": "49.7"
       },
       {
-        "rank": 17,
+        "rank": 18,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.4-high",
@@ -20690,7 +20136,7 @@ window.AI_GENERATED_DATA = {
         "cost": "122.3"
       },
       {
-        "rank": 18,
+        "rank": 19,
         "type": "开源",
         "org": "深度求索",
         "model": "deepseek-v4-pro(new)",
@@ -20700,7 +20146,7 @@ window.AI_GENERATED_DATA = {
         "cost": "54.3"
       },
       {
-        "rank": 19,
+        "rank": 20,
         "type": "商用",
         "org": "anthropic",
         "model": "claude-opus-4.8(new)",
@@ -20710,7 +20156,7 @@ window.AI_GENERATED_DATA = {
         "cost": "99.4"
       },
       {
-        "rank": 20,
+        "rank": 21,
         "type": "开源",
         "org": "小米",
         "model": "mimo-v2.5-pro(new)",
@@ -20720,7 +20166,7 @@ window.AI_GENERATED_DATA = {
         "cost": "64.3"
       },
       {
-        "rank": 21,
+        "rank": 22,
         "type": "商用",
         "org": "google",
         "model": "gemini-3-flash-preview",
@@ -20730,7 +20176,7 @@ window.AI_GENERATED_DATA = {
         "cost": "53.5"
       },
       {
-        "rank": 22,
+        "rank": 23,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "Qwen3.5-122B-A10B",
@@ -20740,7 +20186,7 @@ window.AI_GENERATED_DATA = {
         "cost": "32.3"
       },
       {
-        "rank": 23,
+        "rank": 24,
         "type": "开源",
         "org": "月之暗面",
         "model": "Kimi-K2.5-Thinking",
@@ -20750,7 +20196,7 @@ window.AI_GENERATED_DATA = {
         "cost": "77.1"
       },
       {
-        "rank": 24,
+        "rank": 25,
         "type": "商用",
         "org": "anthropic",
         "model": "claude-sonnet-5-thinking(new)",
@@ -20760,7 +20206,7 @@ window.AI_GENERATED_DATA = {
         "cost": "93.7"
       },
       {
-        "rank": 25,
+        "rank": 26,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3.6-plus",
@@ -20770,7 +20216,7 @@ window.AI_GENERATED_DATA = {
         "cost": "41.6"
       },
       {
-        "rank": 26,
+        "rank": 27,
         "type": "开源",
         "org": "智谱AI",
         "model": "GLM-5.1",
@@ -20780,7 +20226,7 @@ window.AI_GENERATED_DATA = {
         "cost": "73.8"
       },
       {
-        "rank": 27,
+        "rank": 28,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "Qwen3.5-27B",
@@ -20790,7 +20236,7 @@ window.AI_GENERATED_DATA = {
         "cost": "25.0"
       },
       {
-        "rank": 28,
+        "rank": 29,
         "type": "商用",
         "org": "豆包",
         "model": "Doubao-Seed-2.0-lite",
@@ -20800,7 +20246,7 @@ window.AI_GENERATED_DATA = {
         "cost": "5.4"
       },
       {
-        "rank": 29,
+        "rank": 30,
         "type": "商用",
         "org": "anthropic",
         "model": "claude-opus-4.6",
@@ -20810,7 +20256,7 @@ window.AI_GENERATED_DATA = {
         "cost": "96.5"
       },
       {
-        "rank": 30,
+        "rank": 31,
         "type": "商用",
         "org": "XAI",
         "model": "grok-4.5(new)",
@@ -20820,7 +20266,7 @@ window.AI_GENERATED_DATA = {
         "cost": "125.7"
       },
       {
-        "rank": 31,
+        "rank": 32,
         "type": "商用",
         "org": "豆包",
         "model": "Doubao-Seed-2.0-mini",
@@ -20830,7 +20276,7 @@ window.AI_GENERATED_DATA = {
         "cost": "7.0"
       },
       {
-        "rank": 32,
+        "rank": 33,
         "type": "商用",
         "org": "智谱AI",
         "model": "GLM-5-Turbo",
@@ -20840,7 +20286,7 @@ window.AI_GENERATED_DATA = {
         "cost": "60.8"
       },
       {
-        "rank": 33,
+        "rank": 34,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3-max-think-2026-01-23",
@@ -20850,7 +20296,7 @@ window.AI_GENERATED_DATA = {
         "cost": "43.5"
       },
       {
-        "rank": 34,
+        "rank": 35,
         "type": "开源",
         "org": "智谱AI",
         "model": "GLM-5",
@@ -20860,7 +20306,7 @@ window.AI_GENERATED_DATA = {
         "cost": "61.2"
       },
       {
-        "rank": 35,
+        "rank": 36,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "qwen3.5-flash",
@@ -20870,7 +20316,7 @@ window.AI_GENERATED_DATA = {
         "cost": "10.4"
       },
       {
-        "rank": 36,
+        "rank": 37,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "qwen3.6-27b(new)",
@@ -20880,7 +20326,7 @@ window.AI_GENERATED_DATA = {
         "cost": "73.2"
       },
       {
-        "rank": 37,
+        "rank": 38,
         "type": "开源",
         "org": "深度求索",
         "model": "deepseek-v4-flash(new)",
@@ -20890,7 +20336,7 @@ window.AI_GENERATED_DATA = {
         "cost": "4.9"
       },
       {
-        "rank": 38,
+        "rank": 39,
         "type": "商用",
         "org": "腾讯",
         "model": "hunyuan-2.0-thinking-20251109",
@@ -20900,7 +20346,7 @@ window.AI_GENERATED_DATA = {
         "cost": "9.5"
       },
       {
-        "rank": 39,
+        "rank": 40,
         "type": "商用",
         "org": "百度",
         "model": "ernie-5.1(new)",
@@ -20910,7 +20356,7 @@ window.AI_GENERATED_DATA = {
         "cost": "32.6"
       },
       {
-        "rank": 40,
+        "rank": 41,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "Qwen3.6-35B-A3B",
@@ -20920,7 +20366,7 @@ window.AI_GENERATED_DATA = {
         "cost": "40.5"
       },
       {
-        "rank": 41,
+        "rank": 42,
         "type": "商用",
         "org": "minimax",
         "model": "MiniMax-M3(new)",
@@ -20930,7 +20376,7 @@ window.AI_GENERATED_DATA = {
         "cost": "37.0"
       },
       {
-        "rank": 42,
+        "rank": 43,
         "type": "开源",
         "org": "智谱AI",
         "model": "GLM-4.7",
@@ -20940,7 +20386,7 @@ window.AI_GENERATED_DATA = {
         "cost": "52.5"
       },
       {
-        "rank": 43,
+        "rank": 44,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.2-high",
@@ -20950,7 +20396,7 @@ window.AI_GENERATED_DATA = {
         "cost": "94.1"
       },
       {
-        "rank": 44,
+        "rank": 45,
         "type": "开源",
         "org": "阶跃星辰",
         "model": "step-3.7-flash(new)",
@@ -20960,7 +20406,7 @@ window.AI_GENERATED_DATA = {
         "cost": "40.6"
       },
       {
-        "rank": 45,
+        "rank": 46,
         "type": "商用",
         "org": "百度",
         "model": "ERNIE-5.0",
@@ -20970,7 +20416,7 @@ window.AI_GENERATED_DATA = {
         "cost": "89.2"
       },
       {
-        "rank": 46,
+        "rank": 47,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.1-high",
@@ -20980,7 +20426,7 @@ window.AI_GENERATED_DATA = {
         "cost": "180.0"
       },
       {
-        "rank": 47,
+        "rank": 48,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.1-medium",
@@ -20990,7 +20436,7 @@ window.AI_GENERATED_DATA = {
         "cost": "87.9"
       },
       {
-        "rank": 48,
+        "rank": 49,
         "type": "开源",
         "org": "深度求索",
         "model": "DeepSeek-V3.2-Think",
@@ -21000,7 +20446,7 @@ window.AI_GENERATED_DATA = {
         "cost": "7.5"
       },
       {
-        "rank": 49,
+        "rank": 50,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5-2025-08-07",
@@ -21010,7 +20456,7 @@ window.AI_GENERATED_DATA = {
         "cost": "31.9"
       },
       {
-        "rank": 50,
+        "rank": 51,
         "type": "商用",
         "org": "google",
         "model": "gemini-2.5-pro",
@@ -21020,7 +20466,7 @@ window.AI_GENERATED_DATA = {
         "cost": "188.9"
       },
       {
-        "rank": 51,
+        "rank": 52,
         "type": "商用",
         "org": "anthropic",
         "model": "claude-sonnet-4.5-thinking",
@@ -21030,7 +20476,7 @@ window.AI_GENERATED_DATA = {
         "cost": "305.1"
       },
       {
-        "rank": 52,
+        "rank": 53,
         "type": "开源",
         "org": "小米",
         "model": "MiMo-V2-Omni",
@@ -21040,7 +20486,7 @@ window.AI_GENERATED_DATA = {
         "cost": "34.8"
       },
       {
-        "rank": 53,
+        "rank": 54,
         "type": "商用",
         "org": "豆包",
         "model": "doubao-seed-1-8-251215",
@@ -21050,7 +20496,7 @@ window.AI_GENERATED_DATA = {
         "cost": "7.3"
       },
       {
-        "rank": 54,
+        "rank": 55,
         "type": "开源",
         "org": "小米",
         "model": "mimo-v2.5(new)",
@@ -21060,7 +20506,7 @@ window.AI_GENERATED_DATA = {
         "cost": "36.8"
       },
       {
-        "rank": 55,
+        "rank": 56,
         "type": "开源",
         "org": "小米",
         "model": "MiMo-V2-Pro",
@@ -21070,7 +20516,7 @@ window.AI_GENERATED_DATA = {
         "cost": "50.2"
       },
       {
-        "rank": 56,
+        "rank": 57,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.4-mini-high",
@@ -21080,7 +20526,7 @@ window.AI_GENERATED_DATA = {
         "cost": "71.8"
       },
       {
-        "rank": 57,
+        "rank": 58,
         "type": "商用",
         "org": "minimax",
         "model": "MiniMax-M2.7",
@@ -21090,7 +20536,7 @@ window.AI_GENERATED_DATA = {
         "cost": "32.4"
       },
       {
-        "rank": 58,
+        "rank": 59,
         "type": "开源",
         "org": "月之暗面",
         "model": "Kimi-K2-Thinking",
@@ -21100,7 +20546,7 @@ window.AI_GENERATED_DATA = {
         "cost": "89.2"
       },
       {
-        "rank": 59,
+        "rank": 60,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.3-chat",
@@ -21110,7 +20556,7 @@ window.AI_GENERATED_DATA = {
         "cost": "51.5"
       },
       {
-        "rank": 60,
+        "rank": 61,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3-max-2026-01-23",
@@ -21120,7 +20566,7 @@ window.AI_GENERATED_DATA = {
         "cost": "9.7"
       },
       {
-        "rank": 61,
+        "rank": 62,
         "type": "商用",
         "org": "小米",
         "model": "MiMo-V2-Flash-think-0204",
@@ -21130,7 +20576,7 @@ window.AI_GENERATED_DATA = {
         "cost": "7.8"
       },
       {
-        "rank": 62,
+        "rank": 63,
         "type": "商用",
         "org": "百度",
         "model": "ERNIE-5.0-Thinking-Preview",
@@ -21140,7 +20586,7 @@ window.AI_GENERATED_DATA = {
         "cost": "72.5"
       },
       {
-        "rank": 63,
+        "rank": 64,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3-max-preview-think",
@@ -21150,7 +20596,7 @@ window.AI_GENERATED_DATA = {
         "cost": "86.8"
       },
       {
-        "rank": 64,
+        "rank": 65,
         "type": "商用",
         "org": "anthropic",
         "model": "claude-opus-4.5",
@@ -21160,7 +20606,7 @@ window.AI_GENERATED_DATA = {
         "cost": "146.1"
       },
       {
-        "rank": 65,
+        "rank": 66,
         "type": "开源",
         "org": "阶跃星辰",
         "model": "step-3.5-flash",
@@ -21170,7 +20616,7 @@ window.AI_GENERATED_DATA = {
         "cost": "9.8"
       },
       {
-        "rank": 66,
+        "rank": 67,
         "type": "开源",
         "org": "腾讯",
         "model": "hy3(new)",
@@ -21180,7 +20626,7 @@ window.AI_GENERATED_DATA = {
         "cost": "1.8"
       },
       {
-        "rank": 67,
+        "rank": 68,
         "type": "商用",
         "org": "minimax",
         "model": "MiniMax-M2.5",
@@ -21190,7 +20636,7 @@ window.AI_GENERATED_DATA = {
         "cost": "26.3"
       },
       {
-        "rank": 68,
+        "rank": 69,
         "type": "商用",
         "org": "腾讯",
         "model": "hunyuan-2.0-instruct-20251111",
@@ -21200,7 +20646,7 @@ window.AI_GENERATED_DATA = {
         "cost": "1.5"
       },
       {
-        "rank": 69,
+        "rank": 70,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3-max-2025-09-23",
@@ -21210,7 +20656,7 @@ window.AI_GENERATED_DATA = {
         "cost": "23.4"
       },
       {
-        "rank": 70,
+        "rank": 71,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.2-medium",
@@ -21220,7 +20666,7 @@ window.AI_GENERATED_DATA = {
         "cost": "70.8"
       },
       {
-        "rank": 71,
+        "rank": 72,
         "type": "商用",
         "org": "minimax",
         "model": "MiniMax-M2.1",
@@ -21230,7 +20676,7 @@ window.AI_GENERATED_DATA = {
         "cost": "28.1"
       },
       {
-        "rank": 72,
+        "rank": 73,
         "type": "开源",
         "org": "深度求索",
         "model": "DeepSeek-V3.1-Think",
@@ -21240,7 +20686,7 @@ window.AI_GENERATED_DATA = {
         "cost": "24.7"
       },
       {
-        "rank": 73,
+        "rank": 74,
         "type": "开源",
         "org": "美团",
         "model": "LongCat-Flash-Thinking-2601",
@@ -21250,7 +20696,7 @@ window.AI_GENERATED_DATA = {
         "cost": "0.0"
       },
       {
-        "rank": 74,
+        "rank": 75,
         "type": "商用",
         "org": "腾讯",
         "model": "hunyuan-turbos-20250926",
@@ -21260,7 +20706,7 @@ window.AI_GENERATED_DATA = {
         "cost": "2.0"
       },
       {
-        "rank": 75,
+        "rank": 76,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3-max-preview",
@@ -21270,7 +20716,7 @@ window.AI_GENERATED_DATA = {
         "cost": "17.5"
       },
       {
-        "rank": 76,
+        "rank": 77,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "qwen3-235b-a22b-instruct-2507",
@@ -21280,7 +20726,7 @@ window.AI_GENERATED_DATA = {
         "cost": "7.2"
       },
       {
-        "rank": 77,
+        "rank": 78,
         "type": "商用",
         "org": "openAI",
         "model": "o4-mini",
@@ -21290,7 +20736,7 @@ window.AI_GENERATED_DATA = {
         "cost": "40.3"
       },
       {
-        "rank": 78,
+        "rank": 79,
         "type": "开源",
         "org": "深度求索",
         "model": "DeepSeek-V3.2",
@@ -21300,7 +20746,7 @@ window.AI_GENERATED_DATA = {
         "cost": "2.4"
       },
       {
-        "rank": 79,
+        "rank": 80,
         "type": "商用",
         "org": "anthropic",
         "model": "claude-sonnet-4.5",
@@ -21310,7 +20756,7 @@ window.AI_GENERATED_DATA = {
         "cost": "54.7"
       },
       {
-        "rank": 80,
+        "rank": 81,
         "type": "商用",
         "org": "豆包",
         "model": "doubao-seed-1-6-lite-251015",
@@ -21320,7 +20766,7 @@ window.AI_GENERATED_DATA = {
         "cost": "3.0"
       },
       {
-        "rank": 81,
+        "rank": 82,
         "type": "商用",
         "org": "腾讯",
         "model": "hunyuan-t1-20250711",
@@ -21330,7 +20776,7 @@ window.AI_GENERATED_DATA = {
         "cost": "9.9"
       },
       {
-        "rank": 82,
+        "rank": 83,
         "type": "商用",
         "org": "anthropic",
         "model": "claude-haiku-4.5-thinking",
@@ -21340,7 +20786,7 @@ window.AI_GENERATED_DATA = {
         "cost": "158.1"
       },
       {
-        "rank": 83,
+        "rank": 84,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.4",
@@ -21350,7 +20796,7 @@ window.AI_GENERATED_DATA = {
         "cost": "34.8"
       },
       {
-        "rank": 84,
+        "rank": 85,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "qwen3-235b-a22b-thinking-2507",
@@ -21360,7 +20806,7 @@ window.AI_GENERATED_DATA = {
         "cost": "61.2"
       },
       {
-        "rank": 85,
+        "rank": 86,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.4-nano-high",
@@ -21370,7 +20816,7 @@ window.AI_GENERATED_DATA = {
         "cost": "13.2"
       },
       {
-        "rank": 86,
+        "rank": 87,
         "type": "开源",
         "org": "深度求索",
         "model": "DeepSeek-R1-0528",
@@ -21380,7 +20826,7 @@ window.AI_GENERATED_DATA = {
         "cost": "48.0"
       },
       {
-        "rank": 87,
+        "rank": 88,
         "type": "商用",
         "org": "anthropic",
         "model": "claude-4-sonnet",
@@ -21390,7 +20836,7 @@ window.AI_GENERATED_DATA = {
         "cost": "47.7"
       },
       {
-        "rank": 88,
+        "rank": 89,
         "type": "开源",
         "org": "小米",
         "model": "MiMo-V2-Flash-think",
@@ -21400,7 +20846,7 @@ window.AI_GENERATED_DATA = {
         "cost": "0.0"
       },
       {
-        "rank": 89,
+        "rank": 90,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen-plus-think-2025-12-01",
@@ -21410,7 +20856,7 @@ window.AI_GENERATED_DATA = {
         "cost": "27.1"
       },
       {
-        "rank": 90,
+        "rank": 91,
         "type": "开源",
         "org": "豆包",
         "model": "Seed-OSS-36B-Instruct",
@@ -21420,7 +20866,7 @@ window.AI_GENERATED_DATA = {
         "cost": "10.8"
       },
       {
-        "rank": 91,
+        "rank": 92,
         "type": "开源",
         "org": "深度求索",
         "model": "DeepSeek-V3.1",
@@ -21430,7 +20876,7 @@ window.AI_GENERATED_DATA = {
         "cost": "6.5"
       },
       {
-        "rank": 92,
+        "rank": 93,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "Qwen3-30B-A3B-Thinking-2507",
@@ -21440,7 +20886,7 @@ window.AI_GENERATED_DATA = {
         "cost": "8.8"
       },
       {
-        "rank": 93,
+        "rank": 94,
         "type": "开源",
         "org": "智谱AI",
         "model": "GLM-4.5-Air",
@@ -21450,7 +20896,7 @@ window.AI_GENERATED_DATA = {
         "cost": "18.0"
       },
       {
-        "rank": 94,
+        "rank": 95,
         "type": "商用",
         "org": "豆包",
         "model": "doubao-seed-1-6-251015",
@@ -21460,7 +20906,7 @@ window.AI_GENERATED_DATA = {
         "cost": "8.3"
       },
       {
-        "rank": 95,
+        "rank": 96,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "qwen3-next-80b-a3b-instruct",
@@ -21470,7 +20916,7 @@ window.AI_GENERATED_DATA = {
         "cost": "3.9"
       },
       {
-        "rank": 96,
+        "rank": 97,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5-mini-2025-08-07",
@@ -21480,7 +20926,7 @@ window.AI_GENERATED_DATA = {
         "cost": "17.4"
       },
       {
-        "rank": 97,
+        "rank": 98,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "qwen3-next-80b-a3b-thinking",
@@ -21490,7 +20936,7 @@ window.AI_GENERATED_DATA = {
         "cost": "17.1"
       },
       {
-        "rank": 98,
+        "rank": 99,
         "type": "商用",
         "org": "智谱AI",
         "model": "GLM-4.5-Flash",
@@ -21500,7 +20946,7 @@ window.AI_GENERATED_DATA = {
         "cost": "0.0"
       },
       {
-        "rank": 99,
+        "rank": 100,
         "type": "商用",
         "org": "百度",
         "model": "ERNIE-X1.1-Preview",
@@ -21510,7 +20956,7 @@ window.AI_GENERATED_DATA = {
         "cost": "9.3"
       },
       {
-        "rank": 100,
+        "rank": 101,
         "type": "商用",
         "org": "XAI",
         "model": "grok-4-1-fast-reasoning",
@@ -21520,7 +20966,7 @@ window.AI_GENERATED_DATA = {
         "cost": "8.1"
       },
       {
-        "rank": 101,
+        "rank": 102,
         "type": "商用",
         "org": "小米",
         "model": "MiMo-V2-Flash-0204",
@@ -21530,7 +20976,7 @@ window.AI_GENERATED_DATA = {
         "cost": "1.7"
       },
       {
-        "rank": 102,
+        "rank": 103,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5-mini-high",
@@ -21540,7 +20986,7 @@ window.AI_GENERATED_DATA = {
         "cost": "48.4"
       },
       {
-        "rank": 103,
+        "rank": 104,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen-plus-2025-12-01",
@@ -21550,7 +20996,7 @@ window.AI_GENERATED_DATA = {
         "cost": "2.8"
       },
       {
-        "rank": 104,
+        "rank": 105,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen-flash-think-2025-07-28",
@@ -21560,7 +21006,7 @@ window.AI_GENERATED_DATA = {
         "cost": "4.6"
       },
       {
-        "rank": 105,
+        "rank": 106,
         "type": "商用",
         "org": "google",
         "model": "gemini-2.5-flash",
@@ -21570,7 +21016,7 @@ window.AI_GENERATED_DATA = {
         "cost": "43.2"
       },
       {
-        "rank": 106,
+        "rank": 107,
         "type": "开源",
         "org": "月之暗面",
         "model": "kimi-k2-0905",
@@ -21580,7 +21026,7 @@ window.AI_GENERATED_DATA = {
         "cost": "13.2"
       },
       {
-        "rank": 107,
+        "rank": 108,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.2",
@@ -21590,7 +21036,7 @@ window.AI_GENERATED_DATA = {
         "cost": "23.7"
       },
       {
-        "rank": 108,
+        "rank": 109,
         "type": "商用",
         "org": "百度",
         "model": "ERNIE-4.5-Turbo-32K",
@@ -21600,7 +21046,7 @@ window.AI_GENERATED_DATA = {
         "cost": "1.8"
       },
       {
-        "rank": 109,
+        "rank": 110,
         "type": "开源",
         "org": "小米",
         "model": "MiMo-V2-Flash",
@@ -21610,7 +21056,7 @@ window.AI_GENERATED_DATA = {
         "cost": "0.0"
       },
       {
-        "rank": 110,
+        "rank": 111,
         "type": "开源",
         "org": "美团",
         "model": "LongCat-Flash-Lite",
@@ -21620,7 +21066,7 @@ window.AI_GENERATED_DATA = {
         "cost": "0.0"
       },
       {
-        "rank": 111,
+        "rank": 112,
         "type": "开源",
         "org": "openAI",
         "model": "gpt-oss-120b",
@@ -21630,7 +21076,7 @@ window.AI_GENERATED_DATA = {
         "cost": "2.9"
       },
       {
-        "rank": 112,
+        "rank": 113,
         "type": "商用",
         "org": "百度",
         "model": "ERNIE-X1-Turbo-32K",
@@ -21640,7 +21086,7 @@ window.AI_GENERATED_DATA = {
         "cost": "9.7"
       },
       {
-        "rank": 113,
+        "rank": 114,
         "type": "商用",
         "org": "anthropic",
         "model": "claude-4-sonnet-thinking",
@@ -21650,7 +21096,7 @@ window.AI_GENERATED_DATA = {
         "cost": "54.7"
       },
       {
-        "rank": 114,
+        "rank": 115,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5-nano-high",
@@ -21660,7 +21106,7 @@ window.AI_GENERATED_DATA = {
         "cost": "19.3"
       },
       {
-        "rank": 115,
+        "rank": 116,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5-nano-2025-08-07",
@@ -21670,7 +21116,7 @@ window.AI_GENERATED_DATA = {
         "cost": "7.4"
       },
       {
-        "rank": 116,
+        "rank": 117,
         "type": "商用",
         "org": "google",
         "model": "gemini-3.1-flash-lite-preview",
@@ -21680,7 +21126,7 @@ window.AI_GENERATED_DATA = {
         "cost": "3.9"
       },
       {
-        "rank": 117,
+        "rank": 118,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "Qwen3-30B-A3B-Instruct-2507",
@@ -21690,7 +21136,7 @@ window.AI_GENERATED_DATA = {
         "cost": "2.9"
       },
       {
-        "rank": 118,
+        "rank": 119,
         "type": "商用",
         "org": "anthropic",
         "model": "claude-haiku-4.5",
@@ -21700,7 +21146,7 @@ window.AI_GENERATED_DATA = {
         "cost": "18.9"
       },
       {
-        "rank": 119,
+        "rank": 120,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "Qwen3-14B",
@@ -21710,7 +21156,7 @@ window.AI_GENERATED_DATA = {
         "cost": "7.1"
       },
       {
-        "rank": 120,
+        "rank": 121,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen-flash-2025-07-28",
@@ -21720,7 +21166,7 @@ window.AI_GENERATED_DATA = {
         "cost": "1.5"
       },
       {
-        "rank": 121,
+        "rank": 122,
         "type": "开源",
         "org": "google",
         "model": "gemma-4-31b-it",
@@ -21730,7 +21176,7 @@ window.AI_GENERATED_DATA = {
         "cost": "1.4"
       },
       {
-        "rank": 122,
+        "rank": 123,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.1",
@@ -21740,7 +21186,7 @@ window.AI_GENERATED_DATA = {
         "cost": "19.3"
       },
       {
-        "rank": 123,
+        "rank": 124,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "Qwen3-32B",
@@ -21750,7 +21196,7 @@ window.AI_GENERATED_DATA = {
         "cost": "10.4"
       },
       {
-        "rank": 124,
+        "rank": 125,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.4-mini",
@@ -21760,7 +21206,7 @@ window.AI_GENERATED_DATA = {
         "cost": "7.0"
       },
       {
-        "rank": 125,
+        "rank": 126,
         "type": "开源",
         "org": "google",
         "model": "gemma-4-26b-a4b-it",
@@ -21770,7 +21216,7 @@ window.AI_GENERATED_DATA = {
         "cost": "1.7"
       },
       {
-        "rank": 126,
+        "rank": 127,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen-turbo-think-2025-07-15",
@@ -21780,7 +21226,7 @@ window.AI_GENERATED_DATA = {
         "cost": "8.8"
       },
       {
-        "rank": 127,
+        "rank": 128,
         "type": "商用",
         "org": "智谱AI",
         "model": "GLM-4.5-Flash-nothink",
@@ -21790,7 +21236,7 @@ window.AI_GENERATED_DATA = {
         "cost": "0.0"
       },
       {
-        "rank": 128,
+        "rank": 129,
         "type": "开源",
         "org": "智谱AI",
         "model": "GLM-4.7-Flash",
@@ -21800,7 +21246,7 @@ window.AI_GENERATED_DATA = {
         "cost": "0.0"
       },
       {
-        "rank": 129,
+        "rank": 130,
         "type": "开源",
         "org": "openAI",
         "model": "gpt-oss-20b",
@@ -21810,7 +21256,7 @@ window.AI_GENERATED_DATA = {
         "cost": "2.1"
       },
       {
-        "rank": 130,
+        "rank": 131,
         "type": "开源",
         "org": "Mistral",
         "model": "mistral-large-2512",
@@ -21820,7 +21266,7 @@ window.AI_GENERATED_DATA = {
         "cost": "6.9"
       },
       {
-        "rank": 131,
+        "rank": 132,
         "type": "开源",
         "org": "智谱AI",
         "model": "GLM-4.5-Air-nothink",
@@ -21830,7 +21276,7 @@ window.AI_GENERATED_DATA = {
         "cost": "10.4"
       },
       {
-        "rank": 132,
+        "rank": 133,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "Qwen3-8B",
@@ -21840,7 +21286,7 @@ window.AI_GENERATED_DATA = {
         "cost": "0.0"
       },
       {
-        "rank": 133,
+        "rank": 134,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen-turbo-2025-07-15",
@@ -21850,7 +21296,7 @@ window.AI_GENERATED_DATA = {
         "cost": "0.4"
       },
       {
-        "rank": 134,
+        "rank": 135,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "Qwen3-32B-nothink",
@@ -21860,7 +21306,7 @@ window.AI_GENERATED_DATA = {
         "cost": "2.3"
       },
       {
-        "rank": 135,
+        "rank": 136,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "Qwen3-4B",
@@ -21870,7 +21316,7 @@ window.AI_GENERATED_DATA = {
         "cost": "6.4"
       },
       {
-        "rank": 136,
+        "rank": 137,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.4-nano",
@@ -21880,7 +21326,7 @@ window.AI_GENERATED_DATA = {
         "cost": "2.2"
       },
       {
-        "rank": 137,
+        "rank": 138,
         "type": "商用",
         "org": "google",
         "model": "gemini-2.5-flash-lite",
@@ -21890,7 +21336,7 @@ window.AI_GENERATED_DATA = {
         "cost": "8.9"
       },
       {
-        "rank": 138,
+        "rank": 139,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "Qwen3-14B-nothink",
@@ -21900,7 +21346,7 @@ window.AI_GENERATED_DATA = {
         "cost": "1.3"
       },
       {
-        "rank": 139,
+        "rank": 140,
         "type": "商用",
         "org": "XAI",
         "model": "grok-4-1-fast-non-reasoning",
@@ -21910,7 +21356,7 @@ window.AI_GENERATED_DATA = {
         "cost": "1.6"
       },
       {
-        "rank": 140,
+        "rank": 141,
         "type": "商用",
         "org": "百川智能",
         "model": "Baichuan4-Turbo",
@@ -21920,7 +21366,7 @@ window.AI_GENERATED_DATA = {
         "cost": "/"
       },
       {
-        "rank": 141,
+        "rank": 142,
         "type": "开源",
         "org": "meta",
         "model": "Llama-4-Scout-17B-16E-Instruct",
@@ -21930,7 +21376,7 @@ window.AI_GENERATED_DATA = {
         "cost": "1.1"
       },
       {
-        "rank": 142,
+        "rank": 143,
         "type": "开源",
         "org": "Mistral",
         "model": "Ministral-3-14B-Instruct-2512",
@@ -21940,7 +21386,7 @@ window.AI_GENERATED_DATA = {
         "cost": "2.3"
       },
       {
-        "rank": 143,
+        "rank": 144,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "Qwen3-8B-nothink",
@@ -21950,7 +21396,7 @@ window.AI_GENERATED_DATA = {
         "cost": "0.0"
       },
       {
-        "rank": 144,
+        "rank": 145,
         "type": "开源",
         "org": "Mistral",
         "model": "Ministral-3-8B-Instruct-2512",
@@ -21960,7 +21406,7 @@ window.AI_GENERATED_DATA = {
         "cost": "1.6"
       },
       {
-        "rank": 145,
+        "rank": 146,
         "type": "开源",
         "org": "智谱AI",
         "model": "GLM-4-9B-0414",
@@ -21970,7 +21416,7 @@ window.AI_GENERATED_DATA = {
         "cost": "0.0"
       },
       {
-        "rank": 146,
+        "rank": 147,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "Qwen3-4B-nothink",
@@ -21980,7 +21426,7 @@ window.AI_GENERATED_DATA = {
         "cost": "1.6"
       },
       {
-        "rank": 147,
+        "rank": 148,
         "type": "开源",
         "org": "Mistral",
         "model": "Ministral-3-3B-Instruct-2512",
