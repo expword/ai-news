@@ -2456,7 +2456,7 @@ def git_auto_push(message: str | None = None) -> bool:
     remote = os.getenv("GIT_REMOTE", "origin")
 
     def run(cmd: list[str]) -> subprocess.CompletedProcess:
-        return subprocess.run(cmd, cwd=str(ROOT), capture_output=True, text=True)
+        return subprocess.run(cmd, cwd=str(ROOT), capture_output=True, text=True, encoding="utf-8", errors="replace")
 
     try:
         run(["git", "add", "--"] + paths)
@@ -2508,7 +2508,7 @@ def git_auto_self_update() -> None:
     backend_file = Path(__file__).resolve()
 
     def run(cmd: list[str]) -> subprocess.CompletedProcess:
-        return subprocess.run(cmd, cwd=str(ROOT), capture_output=True, text=True)
+        return subprocess.run(cmd, cwd=str(ROOT), capture_output=True, text=True, encoding="utf-8", errors="replace")
 
     try:
         # 1) 防御：若上次遗留了未完成的 rebase，先复位
