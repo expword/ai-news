@@ -29,7 +29,6 @@ GENERATED_JSON_ASSET = ROOT / "assets" / "data" / "generated-data.json"
 SCHEDULER_STATE = ROOT / "data" / "scheduler-state.json"
 
 FREE_INFO_SOURCES = [
-    {"name": "AI HOT", "description": "中文 AI 资讯聚合站，每天精选模型发布、产品更新、行业动态、论文与技巧；开放免费 REST API / RSS，无需 token，适合做每日新鲜内容源。", "url": "https://aihot.virxact.com/"},
     {"name": "Google Programmable Search", "description": "官方 Google 搜索 API，注册 Google Cloud/PSE 后每天 100 次免费查询，适合兜底搜 AI 工具、模型和榜单来源。", "url": "https://developers.google.com/custom-search/v1/overview"},
     {"name": "NewsAPI", "description": "新闻搜索 API，注册后开发者计划每天 100 次请求；注意免费版只适合开发测试，不建议直接用于生产商业站。", "url": "https://newsapi.org/pricing"},
     {"name": "GNews API", "description": "新闻搜索 API，注册免费 key 后每天 100 次请求，适合抓 AI、startup、technology 等关键词新闻。", "url": "https://gnews.io/"},
@@ -282,6 +281,7 @@ def read_json(path: Path, fallback):
 
 
 def write_generated(data: dict) -> None:
+    data = clean_public_source_labels(data)
     GENERATED_JSON.parent.mkdir(parents=True, exist_ok=True)
     GENERATED_JS.parent.mkdir(parents=True, exist_ok=True)
 
@@ -902,7 +902,8 @@ def fetch_aihot_items(mode: str = "selected", take: int = 50) -> list[dict]:
             "title": title,
             "summary": (it.get("summary") or "")[:500],
             "url": link,
-            "source": f"AIHOT · {origin}" if origin else "AIHOT",
+            # 对外只展示原始媒体/账号，不暴露中间聚合平台名称。
+            "source": origin or "资讯聚合源",
             "lang": "zh",
             "tier": "T1.5",  # 已精选的聚合源
             "_date_hint": parse_date_to_iso(pub),
@@ -923,6 +924,31 @@ def strip_html(html: str) -> str:
     text = re.sub(r"&#39;", "'", text)
     text = re.sub(r"&quot;", '"', text)
     return re.sub(r"\s+", " ", text).strip()
+
+
+_AGGREGATOR_SOURCE_PREFIX = re.compile(r"^AI\s*HOT\s*(?:[·:：|/\\-]\s*)?", re.I)
+
+
+def clean_public_source_labels(value):
+    """Remove the internal aggregator name from every public source label."""
+    if isinstance(value, list):
+        return [clean_public_source_labels(item) for item in value]
+    if not isinstance(value, dict):
+        return value
+
+    cleaned = {key: clean_public_source_labels(item) for key, item in value.items()}
+    for key in ("source", "sourceName"):
+        label = cleaned.get(key)
+        if isinstance(label, str) and _AGGREGATOR_SOURCE_PREFIX.match(label):
+            cleaned[key] = _AGGREGATOR_SOURCE_PREFIX.sub("", label).strip() or "原始来源"
+    if isinstance(cleaned.get("provider"), str) and cleaned["provider"].strip().upper().replace(" ", "") == "AIHOT":
+        cleaned["provider"] = cleaned.get("sourceName") or "原始来源"
+    if isinstance(cleaned.get("sources"), list):
+        cleaned["sources"] = [
+            item for item in cleaned["sources"]
+            if not (isinstance(item, dict) and str(item.get("name", "")).strip().upper().replace(" ", "") == "AIHOT")
+        ]
+    return cleaned
 
 
 _ARTICLE_TAG_RE = re.compile(r"<(article|main)[^>]*>([\s\S]*?)</\1>", re.I)
