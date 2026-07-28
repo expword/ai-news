@@ -5,6 +5,16 @@
   const searchInput = document.querySelector("#benchmarkSearch");
   const slugOf = window.boardSlugByTitle || ((t) => t);
 
+  function datasetSlug(name) {
+    return String(name || "")
+      .trim()
+      .toLowerCase()
+      .replace(/[\s/]+/g, "-")
+      .replace(/[^a-z0-9\u4e00-\u9fff._-]/g, "")
+      .replace(/-+/g, "-")
+      .replace(/^-|-$/g, "");
+  }
+
   function includesQuery(item, query) {
     if (!query) return true;
     return Object.values(item)
@@ -52,8 +62,8 @@
             const detailKey = Object.keys(data.datasetDetails || {}).find(
               (key) => data.datasetDetails[key].title === item.name
             );
-            const slug = detailKey || encodeURIComponent((item.name || "").toLowerCase().replace(/\s+/g, "-"));
-            const href = `/pages/dataset.html?id=${slug}`;
+            const slug = detailKey || datasetSlug(item.name);
+            const href = `/pages/dataset.html?id=${encodeURIComponent(slug)}`;
             return `
               <a class="card-link" href="${href}">
                 <article class="dataset-card">

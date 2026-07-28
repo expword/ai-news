@@ -15,6 +15,7 @@
   const sourceGrid = document.querySelector("#sourceGrid");
   const watchList = document.querySelector("#watchList");
   const searchInput = document.querySelector("#searchInput");
+  const searchSubmit = document.querySelector("#searchSubmit");
   const sortSelect = document.querySelector("#sortSelect");
   const tickerTrack = document.querySelector("#tickerTrack");
   const topicGrid = document.querySelector("#topicGrid");
@@ -229,6 +230,16 @@
 
   function includesQuery(values) {
     return looseIncludes(state.query, values);
+  }
+
+  function datasetSlug(name) {
+    return String(name || "")
+      .trim()
+      .toLowerCase()
+      .replace(/[\s/]+/g, "-")
+      .replace(/[^a-z0-9\u4e00-\u9fff._-]/g, "")
+      .replace(/-+/g, "-")
+      .replace(/^-|-$/g, "");
   }
 
   function getOriginalIndex(collection, item) {
@@ -457,6 +468,7 @@
     if (kind === "dataset") {
       const detailKey = Object.keys(data.datasetDetails || {}).find((key) => data.datasetDetails[key].title === item.name);
       const detail = detailKey ? data.datasetDetails[detailKey] : null;
+      const datasetPageKey = detailKey || datasetSlug(item.name);
 
       return `
         <p class="eyebrow">Benchmark Dataset</p>
@@ -464,7 +476,7 @@
         <p class="detail-lead">${detail?.summary || item.note}</p>
         <dl class="detail-list">
           <div><dt>评测方向</dt><dd>${item.area}</dd></div>
-          <div><dt>内容</dt><dd>${detailKey ? `<a href="/pages/dataset.html?id=${detailKey}">打开 ${item.name} 完整内容</a>` : "暂无独立"}</dd></div>
+          <div><dt>内容</dt><dd><a href="/pages/dataset.html?id=${encodeURIComponent(datasetPageKey)}">打开 ${item.name} 详情</a></dd></div>
           <div><dt>来源</dt><dd><a href="${item.source}" target="_blank" rel="noopener">${item.source}</a></dd></div>
         </dl>
         ${detail ? renderDetailSection("它主要测什", detail.evaluates) : ""}
@@ -752,8 +764,8 @@
           const detailKey = Object.keys(data.datasetDetails || {}).find(
             (key) => data.datasetDetails[key].title === item.name
           );
-          const slug = detailKey || encodeURIComponent((item.name || "").toLowerCase().replace(/\s+/g, "-"));
-          const href = `/pages/dataset.html?id=${slug}`;
+          const slug = detailKey || datasetSlug(item.name);
+          const href = `/pages/dataset.html?id=${encodeURIComponent(slug)}`;
           return `
             <a class="card-link" href="${href}">
               <article class="dataset-card">
@@ -1094,6 +1106,21 @@
         renderGithubWeekly();
         renderBenchmark();
         renderNews();
+      });
+      searchInput.addEventListener("keydown", (event) => {
+        if (event.key === "Enter") searchSubmit?.click();
+      });
+    }
+
+    if (searchSubmit) {
+      searchSubmit.addEventListener("click", () => {
+        state.query = searchInput?.value || "";
+        renderTopics();
+        renderSkills();
+        renderGithubWeekly();
+        renderBenchmark();
+        renderNews();
+        document.querySelector(".home-layout")?.scrollIntoView({ behavior: "smooth", block: "start" });
       });
     }
 

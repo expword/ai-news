@@ -18,7 +18,7 @@
     <meta property="og:description" content="每天精挑的 AI 热点资讯、模型发布与论文研究，附自动生成的 AI 日报。" />
     <meta property="og:locale" content="zh_CN" />
     <link rel="canonical" href="https://ai-news-alpha-five.vercel.app/" />
-    <link rel="stylesheet" href="/assets/css/styles.css?v=1780000020" />
+    <link rel="stylesheet" href="/assets/css/styles.css?v=1790000003" />
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -56,10 +56,12 @@
             <p class="eyebrow">Updated · <span id="lastUpdated">2026-05-22</span></p>
             <h1>AI 信息海，只留值得看的。</h1>
             <p class="lead">分级信源 + 质量分精选，把全网 AI 信息降维成一条干净的精选时间线。每天还有自动生成的 <a href="/pages/daily.html">AI 日报</a>。</p>
-            <div class="hero-search" role="search">
-              <input id="searchInput" type="search" placeholder="搜索模型、公司、论文、关键词..." />
-              <a class="button primary" href="#latest">搜索</a>
+            <div class="hero-signals" aria-label="本站内容特点">
+              <div><strong>真实性</strong><span>可靠信源</span></div>
+              <div><strong>时效性</strong><span>及时更新</span></div>
+              <div><strong>重要性</strong><span>价值筛选</span></div>
             </div>
+            <a class="hero-inline-link" href="#latest">开始浏览今日精选 →</a>
           </div>
           <aside class="hero-top5" aria-label="每天最重要的5条">
             <div class="top5">
@@ -73,6 +75,11 @@
       <section class="wrap">
         <div class="home-layout">
           <aside class="home-sidebar" aria-label="栏目导航">
+            <div class="sidebar-search" role="search">
+              <label for="searchInput">搜索站内内容</label>
+              <input id="searchInput" type="search" placeholder="模型、公司、论文..." />
+              <button id="searchSubmit" class="button primary" type="button">搜索</button>
+            </div>
             <nav class="side-nav" id="sideNav">
               <button type="button" data-panel="latest" class="is-active">📰 今日精选</button>
               <button type="button" data-panel="llm">🏆 大模型榜单</button>
@@ -83,6 +90,12 @@
               <a href="/pages/daily.html">🗓 今日日报</a>
               <a href="/pages/history.html">🗂 全部资讯</a>
             </nav>
+            <div class="sidebar-context">
+              <p class="eyebrow">怎样使用</p>
+              <strong>先看精选，再按任务查榜单</strong>
+              <p>新闻看变化，榜单看模型，数据集看评测范围。</p>
+              <a href="/pages/about.html#sources">了解分级信源与筛选规则 →</a>
+            </div>
           </aside>
 
           <div class="home-main">
@@ -193,7 +206,7 @@
 
     <script src="/assets/data/data.js?v=1780000019"></script>
     <script src="/assets/data/generated-data.js?v=1780000019"></script>
-    <script src="/assets/data/data-merge.js?v=1780000019"></script>
-    <script src="/assets/js/app.js?v=1780000020"></script>
+    <script src="/assets/data/data-merge.js?v=1790000001"></script>
+    <script src="/assets/js/app.js?v=1790000001"></script>
   </body>
 </html>

@@ -21,10 +21,20 @@
 
   function collectAll() {
     const flat = [];
+    const seen = new Set();
     for (const week of (data.weeklyDigests || [])) {
       for (const g of (week.github || [])) {
+        const key = g.url || g.name;
+        if (!key || seen.has(key)) continue;
+        seen.add(key);
         flat.push({ ...g, _weekId: week.weekId, _weekIndex: (week.github || []).indexOf(g) });
       }
+    }
+    for (const g of (data.githubWeekly || [])) {
+      const key = g.url || g.name;
+      if (!key || seen.has(key)) continue;
+      seen.add(key);
+      flat.push({ ...g, _external: true });
     }
     return flat;
   }
@@ -37,8 +47,10 @@
 
   function projCard(g) {
     const features = (g.features || []).slice(0, 3);
+    const href = g._external ? (g.url || "#") : `/pages/github-item.html?week=${g._weekId}&i=${g._weekIndex}`;
+    const externalAttrs = g._external ? ' target="_blank" rel="noopener"' : "";
     return `
-      <a class="card-link" href="/pages/github-item.html?week=${g._weekId}&i=${g._weekIndex}">
+      <a class="card-link" href="${href}"${externalAttrs}>
         <article class="skill-card-v2">
           <div class="skill-card-head">
             <span class="chip chip-muted">${g.lang || "Repo"}</span>

@@ -20,10 +20,20 @@
 
   function collectAllSkills() {
     const flat = [];
+    const seen = new Set();
     for (const week of (data.weeklyDigests || [])) {
       for (const s of (week.skills || [])) {
+        const key = s.url || s.title;
+        if (!key || seen.has(key)) continue;
+        seen.add(key);
         flat.push({ ...s, _weekId: week.weekId, _weekIndex: (week.skills || []).indexOf(s) });
       }
+    }
+    for (const s of (data.skillRecommendations || [])) {
+      const key = s.url || s.title;
+      if (!key || seen.has(key)) continue;
+      seen.add(key);
+      flat.push({ ...s, type: s.type || s.level || "其他", _external: true });
     }
     return flat;
   }
@@ -37,8 +47,10 @@
   function skillCard(s) {
     const features = (s.features || []).slice(0, 3);
     const useCases = (s.useCases || []).slice(0, 2);
+    const href = s._external ? (s.url || "#") : `/pages/skill-item.html?week=${s._weekId}&i=${s._weekIndex}`;
+    const externalAttrs = s._external ? ' target="_blank" rel="noopener"' : "";
     return `
-      <a class="card-link" href="/pages/skill-item.html?week=${s._weekId}&i=${s._weekIndex}">
+      <a class="card-link" href="${href}"${externalAttrs}>
         <article class="skill-card-v2">
           <div class="skill-card-head">
             <span class="chip chip-muted">${s.type}</span>

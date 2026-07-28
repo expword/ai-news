@@ -2,7 +2,41 @@
   const data = window.AI_NEWS_DATA;
   const params = new URLSearchParams(window.location.search);
   const slug = params.get("id") || "c-eval";
-  const detail = data.datasetDetails?.[slug];
+
+  function slugOf(name) {
+    return String(name || "")
+      .trim()
+      .toLowerCase()
+      .replace(/[\s/]+/g, "-")
+      .replace(/[^a-z0-9\u4e00-\u9fff._-]/g, "")
+      .replace(/-+/g, "-")
+      .replace(/^-|-$/g, "");
+  }
+
+  function genericDetail(item) {
+    if (!item) return null;
+    return {
+      title: item.name,
+      subtitle: item.area || "AI 模型能力评测",
+      summary: item.note || "这是从精选资讯跨模块归档的测评条目，请以原始发布页为准。",
+      facts: [
+        { label: "评测方向", value: item.area || "AI 模型能力评测" },
+        { label: "收录方式", value: "由精选资讯识别并交叉归档" },
+        { label: "发布日期", value: item.date || "以来源页面为准" },
+        { label: "信息状态", value: "基础资料，等待进一步人工补充" }
+      ],
+      evaluates: item.evaluates?.length ? item.evaluates : [item.note || "查看原始发布了解具体评测范围"],
+      metrics: ["指标与计分方式请以项目官方说明为准"],
+      useCases: item.useCases?.length ? item.useCases : ["模型横向评估", "定位特定能力短板"],
+      limitations: item.limitations?.length ? item.limitations : ["自动归档条目只提供基础说明，不能替代官方文档"],
+      sources: item.source ? [{ name: item.sourceName || item.originTitle || "原始发布", url: item.source }] : [],
+      rankings: null
+    };
+  }
+
+  const curatedDetail = data.datasetDetails?.[slug];
+  const indexedItem = (data.benchmarkDatasets || []).find((item) => slugOf(item.name) === slugOf(slug));
+  const detail = curatedDetail || genericDetail(indexedItem);
 
   const datasetTitle = document.querySelector("#datasetTitle");
   const datasetSubtitle = document.querySelector("#datasetSubtitle");
@@ -18,7 +52,7 @@
   const datasetRankingsSection = document.querySelector("#rankings");
 
   function renderList(target, items) {
-    target.innerHTML = items
+    target.innerHTML = (items || [])
       .map(
         (item) => `
           <article class="dataset-content-item">
@@ -52,7 +86,7 @@
   datasetSubtitle.textContent = detail.subtitle;
   datasetSummary.textContent = detail.summary;
 
-  datasetFacts.innerHTML = detail.facts
+  datasetFacts.innerHTML = (detail.facts || [])
     .map(
       (item) => `
         <article class="dataset-fact-card">
@@ -100,7 +134,7 @@
   renderList(datasetUseCases, detail.useCases);
   renderList(datasetLimitations, detail.limitations);
 
-  datasetSources.innerHTML = detail.sources
+  datasetSources.innerHTML = (detail.sources || [])
     .map(
       (item) => `
         <a class="dataset-source-card" href="${item.url}" target="_blank" rel="noopener">

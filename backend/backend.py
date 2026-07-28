@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import hashlib
 import json
 import os
 import re
@@ -13,6 +14,7 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timedelta, timezone
+from html.parser import HTMLParser
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 
@@ -48,6 +50,8 @@ FREE_INFO_SOURCES = [
     {"name": "Phind", "description": "面向开发者的 AI 搜索，适合查框架、库、GitHub 项目和技术问题。", "url": "https://www.phind.com/"},
     {"name": "Consensus", "description": "面向论文证据的 AI 搜索，适合找研究结论和可引用论文。", "url": "https://consensus.app/"},
     {"name": "AI News", "description": "AI 行业新闻聚合入口，可作为人工选题和每日资讯来源。", "url": "https://www.artificialintelligence-news.com/"},
+    {"name": "中国 AI 一手信源", "description": "国产模型厂商更新日志、国家及地方 AI 政策、备案公告、信通院报告、交易所公告、云产品更新、国内模型与开源社区。", "url": "https://www.cac.gov.cn/"},
+    {"name": "国内 AI 竞赛", "description": "聚合天池、DataFountain 与魔搭社区公开赛事，跟踪报名时间、赛题方向和数据资源。", "url": "https://tianchi.aliyun.com/competition/"},
 ]
 
 SEARCH_QUERIES = [
@@ -181,6 +185,59 @@ RSS_FEEDS = [
     {"name": "36氪快讯", "url": "https://36kr.com/feed-newsflash", "lang": "zh", "tier": "T2"},
     {"name": "IT之家 AI", "url": "https://www.ithome.com/rss/", "lang": "zh", "tier": "T2"},
     {"name": "少数派", "url": "https://sspai.com/feed", "lang": "zh", "tier": "T2"},
+]
+
+
+# 国内一手信源。多数页面没有 RSS，且页面结构会变化，因此不依赖站点私有 CSS
+# 选择器：统一抽取公开页面中的链接，再用 URL 规则和 AI 关键词筛选。单个站点失败
+# 只会跳过该站，不影响整轮采集。
+CHINA_SOURCE_KEYWORDS = [
+    "人工智能", "生成式", "大模型", "模型", "算法", "智能体", "agent", "llm",
+    "aigc", "多模态", "深度学习", "机器学习", "算力", "语料", "数据集", "评测",
+    "备案", "开源", "推理", "训练", "百炼", "混元", "千帆", "方舟", "通义",
+    "qwen", "deepseek", "glm", "kimi", "minimax", "文心", "豆包", "mcp",
+]
+
+CHINA_HTML_SOURCES = [
+    # 国产模型厂商官网、开发者文档和更新日志
+    {"name": "DeepSeek API 更新", "url": "https://api-docs.deepseek.com/updates", "type": "vendor-update", "tier": "T1", "limit": 8},
+    {"name": "智谱开放平台新品", "url": "https://docs.bigmodel.cn/cn/update/new-releases", "type": "vendor-update", "tier": "T1", "limit": 8},
+    {"name": "Kimi 开放平台更新", "url": "https://platform.kimi.com/blog/posts/changelog", "type": "vendor-update", "tier": "T1", "limit": 8},
+    {"name": "MiniMax 新闻", "url": "https://www.minimaxi.com/news", "type": "vendor-update", "tier": "T1", "limit": 8},
+
+    # 备案、政策和产业研究
+    {"name": "国家网信办 AI 政策", "url": "https://www.cac.gov.cn/", "type": "policy", "tier": "T1", "limit": 8,
+     "keywords": ["人工智能", "生成式", "算法", "深度合成", "智能化"]},
+    {"name": "生成式 AI 备案汇总", "url": "https://www.cac.gov.cn/2024-04/02/c_1713729983803145.htm", "type": "filing-policy", "tier": "T1", "limit": 10,
+     "keywords": ["备案信息", "已备案", "已登记", "生成式人工智能"]},
+    {"name": "算法备案系统", "url": "https://beian.cac.gov.cn/", "type": "filing-policy", "tier": "T1", "limit": 8,
+     "keywords": ["算法备案", "备案信息", "生成式", "深度合成", "注销"]},
+    {"name": "工业和信息化部", "url": "https://www.miit.gov.cn/zwgk/zcwj/wjfb/index.html", "type": "policy", "tier": "T1", "limit": 8},
+    {"name": "中国政府网政策", "url": "https://www.gov.cn/zhengce/zuixin/", "type": "policy", "tier": "T1", "limit": 6},
+    {"name": "中国信通院白皮书", "url": "https://www.caict.ac.cn/kxyj/qwfb/bps/", "type": "report", "tier": "T1", "limit": 8},
+
+    # 交易所公告。只保留标题本身明确涉及 AI 的公开公告，避免把普通公告送入 LLM。
+    {"name": "上交所公告", "url": "https://www.sse.com.cn/disclosure/announcement/general/", "type": "exchange", "tier": "T1", "limit": 6},
+    {"name": "深交所公告", "url": "https://www.szse.cn/disclosure/notice/company/index.html", "type": "exchange", "tier": "T1", "limit": 6},
+    {"name": "港交所披露易", "url": "https://www.hkexnews.hk/index_c.htm", "type": "exchange", "tier": "T1", "limit": 6},
+
+    # 国内云厂商的大模型平台和产品动态
+    {"name": "阿里云百炼更新", "url": "https://help.aliyun.com/zh/model-studio/model-release-notes", "type": "cloud-update", "tier": "T1", "limit": 10},
+    {"name": "腾讯云混元公告", "url": "https://cloud.tencent.com/document/product/1729/132069", "type": "cloud-update", "tier": "T1", "limit": 10},
+    {"name": "火山引擎发布中心", "url": "https://www.volcengine.com/news", "type": "cloud-update", "tier": "T1", "limit": 10},
+    {"name": "百度千帆更新", "url": "https://cloud.baidu.com/doc/qianfan/s/Gmh4stncc", "type": "cloud-update", "tier": "T1", "limit": 10},
+
+    # 国内模型、数据集、开源社区
+    {"name": "魔搭 ModelScope", "url": "https://www.modelscope.cn/models", "type": "model-dataset", "tier": "T1.5", "limit": 10},
+    {"name": "魔搭数据集", "url": "https://www.modelscope.cn/datasets", "type": "model-dataset", "tier": "T1.5", "limit": 10},
+    {"name": "Gitee AI 项目", "url": "https://gitee.com/explore/ai", "type": "open-source", "tier": "T1.5", "limit": 10},
+    {"name": "Gitee 官方博客", "url": "https://blog.gitee.com/", "type": "open-source", "tier": "T1.5", "limit": 8},
+    {"name": "Gitee 模力方舟", "url": "https://ai.gitee.com/", "type": "model-dataset", "tier": "T1.5", "limit": 8},
+
+    # 国内比赛与评测活动
+    {"name": "阿里云天池竞赛", "url": "https://tianchi.aliyun.com/competition/", "type": "competition", "tier": "T1.5", "limit": 10},
+    {"name": "DataFountain 竞赛", "url": "https://www.datafountain.cn/competitions", "type": "competition", "tier": "T1.5", "limit": 10},
+    {"name": "魔搭社区活动", "url": "https://www.modelscope.cn/events", "type": "competition", "tier": "T1.5", "limit": 8},
 ]
 
 
@@ -1031,6 +1088,142 @@ HTML_SOURCES = [
 BROWSER_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
 
 
+class _PublicPageCollector(HTMLParser):
+    """Collect visible anchor and heading text without third-party HTML dependencies."""
+
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.rows: list[dict] = []
+        self._kind = ""
+        self._href = ""
+        self._text: list[str] = []
+
+    def handle_starttag(self, tag, attrs):
+        tag = tag.lower()
+        if self._kind:
+            return
+        if tag == "a":
+            self._kind = "link"
+            self._href = dict(attrs).get("href", "")
+            self._text = []
+        elif tag in ("h1", "h2", "h3", "h4"):
+            self._kind = "heading"
+            self._href = ""
+            self._text = []
+
+    def handle_data(self, data):
+        if self._kind:
+            self._text.append(data)
+
+    def handle_endtag(self, tag):
+        tag = tag.lower()
+        expected = "a" if self._kind == "link" else self._kind and tag
+        if not self._kind or (self._kind == "link" and tag != expected):
+            return
+        if self._kind == "heading" and tag not in ("h1", "h2", "h3", "h4"):
+            return
+        text = " ".join("".join(self._text).split())
+        if text:
+            self.rows.append({"kind": self._kind, "title": text, "href": self._href})
+        self._kind = ""
+        self._href = ""
+        self._text = []
+
+
+_CHINA_TYPE_LABELS = {
+    "vendor-update": "国产模型厂商更新",
+    "filing-policy": "AI 备案与监管",
+    "policy": "人工智能政策",
+    "report": "人工智能产业报告",
+    "exchange": "上市公司 AI 公告",
+    "cloud-update": "国内云平台产品更新",
+    "model-dataset": "国内模型与数据集",
+    "open-source": "国内 AI 开源社区",
+    "competition": "国内人工智能竞赛",
+}
+
+
+def _china_row_relevant(src: dict, title: str) -> bool:
+    value = title.lower()
+    keywords = src.get("keywords") or CHINA_SOURCE_KEYWORDS
+    if any(str(word).lower() in value for word in keywords):
+        return True
+    # 厂商更新页中的版本标题常常只有产品名或版本号，如 GLM-5 / DeepSeek-V4。
+    if src.get("type") == "vendor-update":
+        ignored = {"api", "docs", "doc", "platform", "update", "updates", "changelog"}
+        vendor_tokens = [
+            token for token in re.findall(r"[a-z][a-z0-9.-]{2,}", src.get("name", "").lower())
+            if token not in ignored
+        ]
+        return any(token in value for token in vendor_tokens)
+    return False
+
+
+def _fetch_one_china_source(src: dict) -> list[dict]:
+    html = request_text(src["url"], headers={"User-Agent": BROWSER_UA}, timeout=15)
+    parser = _PublicPageCollector()
+    parser.feed(html)
+    items: list[dict] = []
+    seen: set[str] = set()
+    generic = {"首页", "更多", "详情", "查看详情", "了解更多", "下一页", "上一页", "登录", "注册", "中文", "english"}
+    for row in parser.rows:
+        title = strip_html(row.get("title") or "").strip()
+        if len(title) < 5 or len(title) > 160 or title.lower() in generic or title.startswith("/"):
+            continue
+        if not _china_row_relevant(src, title):
+            continue
+        href = (row.get("href") or "").strip()
+        if row.get("kind") == "link":
+            if not href or href.startswith(("javascript:", "mailto:", "tel:", "#")):
+                continue
+            url = urllib.parse.urljoin(src["url"], href)
+        else:
+            digest = hashlib.sha1(title.encode("utf-8")).hexdigest()[:12]
+            url = f'{src["url"]}#update-{digest}'
+        if url in seen:
+            continue
+        seen.add(url)
+        label = _CHINA_TYPE_LABELS.get(src.get("type"), "中国 AI 一手信源")
+        items.append({
+            "title": title,
+            "summary": f"{label}；来源：{src['name']}。{title}",
+            "url": url,
+            "source": f"中国一手 · {src['name']}",
+            "sourceType": src.get("type", "china-source"),
+            "region": "CN",
+            "lang": "zh",
+            "tier": src.get("tier", "T1"),
+            "_date_hint": parse_date_to_iso(title),
+            "_datetime_hint": parse_datetime_to_iso(title),
+        })
+        if len(items) >= int(src.get("limit", 8)):
+            break
+    return items
+
+
+def fetch_china_source_items() -> list[dict]:
+    """Fetch domestic first-party sources concurrently; a failed site is isolated."""
+    items: list[dict] = []
+    workers = min(8, len(CHINA_HTML_SOURCES))
+    with ThreadPoolExecutor(max_workers=workers) as pool:
+        futures = {pool.submit(_fetch_one_china_source, src): src for src in CHINA_HTML_SOURCES}
+        for future in as_completed(futures):
+            try:
+                items.extend(future.result())
+            except Exception:
+                continue
+    deduped = uniq_by(items, lambda item: item.get("url"))
+    # 按来源类型轮询，避免某个更新日志的十几条记录挤掉政策、报告、社区和竞赛。
+    type_order = list(dict.fromkeys(src["type"] for src in CHINA_HTML_SOURCES))
+    buckets = {kind: [it for it in deduped if it.get("sourceType") == kind] for kind in type_order}
+    balanced: list[dict] = []
+    while len(balanced) < 54 and any(buckets.values()):
+        for kind in type_order:
+            if buckets[kind]:
+                balanced.append(buckets[kind].pop(0))
+    return balanced
+
+
 def fetch_html_items() -> list[dict]:
     """从无 RSS 的一手站点（Anthropic / MiniMax 等）的静态 HTML 中抽取文章链接+标题。"""
     items: list[dict] = []
@@ -1558,6 +1751,7 @@ def enrich_news_item(raw: dict) -> dict | None:
             "originalContent": original_content,
             "url": raw.get("url"),
             "source": raw.get("source"),
+            "sourceType": raw.get("sourceType"),
             "lang": raw.get("lang"),
         },
         "ruleHint": {"category": rule_category},
@@ -1599,6 +1793,10 @@ def enrich_news_item(raw: dict) -> dict | None:
         return None
     result["url"] = raw.get("url")
     result["source"] = raw.get("source") or "Auto Search"
+    if raw.get("sourceType"):
+        result["sourceType"] = raw["sourceType"]
+    if raw.get("region"):
+        result["region"] = raw["region"]
     raw_date = (raw.get("_date_hint") or "").strip()
     if raw_date and len(raw_date) >= 10:
         result["date"] = raw_date[:10]
@@ -2077,8 +2275,9 @@ def merge_generated(patch: dict) -> dict:
         "lastUpdated": today_iso(), "generatedAt": "",
         "news": [], "weeklyDigests": [], "githubWeekly": [],
         "sources": [], "topicResources": {}, "skillRecommendations": [],
+        "benchmarkDatasets": [],
     })
-    # 注意：benchmarkBoards / benchmarkDatasets 不再由后端写入，由 data.js 人工维护
+    # 榜单排名由 data.js 人工维护；明确命名的测评资源可自动进入数据集索引。
     merged = {
         **current,
         **patch,
@@ -2090,6 +2289,10 @@ def merge_generated(patch: dict) -> dict:
         "githubWeekly": uniq_by([*(patch.get("githubWeekly") or []), *(current.get("githubWeekly") or [])], lambda item: item.get("name") or item.get("url"))[:60],
         "topicResources": merge_topic_resources(current.get("topicResources"), patch.get("topicResources")),
         "skillRecommendations": uniq_by([*(patch.get("skillRecommendations") or []), *(current.get("skillRecommendations") or [])], lambda item: item.get("url") or item.get("title"))[:200],
+        "benchmarkDatasets": uniq_by(
+            [*(patch.get("benchmarkDatasets") or []), *(current.get("benchmarkDatasets") or [])],
+            lambda item: (item.get("name") or "").strip().lower() or item.get("source"),
+        )[:120],
     }
 
     # 向后兼容 + 评分补齐（幂等）：
@@ -2125,9 +2328,8 @@ def merge_generated(patch: dict) -> dict:
         if isinstance(items, list):
             merged["topicResources"][tid] = _sort_by_date_desc(items)
 
-    # 清除遗留的 benchmark 自动写入（防止旧数据残留）
+    # 排名榜单必须人工核验，继续清除可能由旧流程写入的自动榜单。
     merged.pop("benchmarkBoards", None)
-    merged.pop("benchmarkDatasets", None)
     # 剥掉已弃用的编辑视角字段（迁移：老数据里还有 contentIdeas/nextActions/routeReason）
     for item in merged.get("news", []) or []:
         for k in ("contentIdeas", "nextActions", "routeReason", "whyUseful"):
@@ -2224,7 +2426,11 @@ def run_daily() -> dict:
     print(f"  · GitHub 抓取 {len(github_items)} 个候选")
 
     raw_news_items = []
-    raw_news_items.extend(fetch_aihot_items())   # 已精选的中文聚合源，放最前优先送富化
+    china_items = fetch_china_source_items()
+    # 国内一手源优先保留 30 条名额；fetch_china_source_items 已按九种来源轮询均衡。
+    raw_news_items.extend(china_items[:30])
+    print(f"  · 中国一手信源抓取 {len(china_items)} 条候选，优先入队 {min(30, len(china_items))} 条")
+    raw_news_items.extend(fetch_aihot_items())
     raw_news_items.extend(fetch_news_api_items())
     raw_news_items.extend(fetch_rss_items())
     raw_news_items.extend(fetch_html_items())
@@ -2293,7 +2499,7 @@ def run_weekly() -> dict:
         enriched_skills, _ = parallel_enrich(skill_candidates, enrich_skill_item, "skills-weekly")
 
     # 并发：news（来自 RSS + HTML 一手源）
-    rss_items = fetch_rss_items() + fetch_html_items()
+    rss_items = fetch_china_source_items()[:15] + fetch_rss_items() + fetch_html_items()
     rss_items = uniq_by(rss_items, lambda r: r.get("url"))
     rss_items = [r for r in rss_items if is_ai_relevant(r)]
     known = existing_news_urls()
@@ -2321,20 +2527,65 @@ def run_weekly() -> dict:
     return merge_generated(payload)
 
 
+def benchmark_dataset_from_news(item: dict) -> dict | None:
+    """Create a dataset index entry only for a clearly named evaluation resource."""
+    text = item_text(item)
+    match = re.search(r"\b([A-Za-z][A-Za-z0-9._+-]{1,48}(?:Bench(?:mark)?|Eval|Dataset))\b", text, re.I)
+    is_evaluation = item.get("category") == "ai-benchmark" or bool(
+        re.search(r"benchmark|evaluation|dataset|基准|评测集|测试集", text, re.I)
+    )
+    url = item.get("url") or ""
+    if not match or not is_evaluation or not url or url == "#":
+        return None
+
+    lower = text.lower()
+    if re.search(r"视觉|图像|多模态|vision|visual|multimodal|vlm", lower):
+        area = "视觉感知 / 多模态"
+    elif re.search(r"代码|编程|coding|software|swe-", lower):
+        area = "代码 / 软件工程"
+    elif re.search(r"语音|音频|asr|tts|audio|speech", lower):
+        area = "语音 / 音频"
+    elif re.search(r"agent|智能体|工具调用", lower):
+        area = "Agent / 工具调用"
+    elif re.search(r"检索|embedding|rag|retrieval", lower):
+        area = "检索 / Embedding"
+    else:
+        area = "AI 模型能力评测"
+
+    return {
+        "name": match.group(1),
+        "area": area,
+        "note": item.get("summary") or item.get("reason") or item.get("title") or "",
+        "source": url,
+        "sourceName": item.get("source") or "原始发布",
+        "date": item.get("date") or today_iso(),
+        "originTitle": item.get("title") or "",
+        "evaluates": (item.get("keyPoints") or [])[:5],
+        "useCases": (item.get("useCases") or [])[:5],
+        "limitations": (item.get("risks") or [])[:5],
+    }
+
+
 def route_enriched(news_items: list[dict], github_items: list[dict], skill_items: list[dict] | None = None) -> dict:
     """把已经 enrich 过的 news 分发到 news 模块。
-    重要：**不再自动写入 benchmarkBoards / benchmarkDatasets**——这两个模块只接受人工维护。
+    排名榜单只接受人工维护；明确命名且有原始链接的评测资源可进入 benchmarkDatasets。
     skill_items 直接进入当周 digest（在 run_weekly / run_daily 已处理），这里只做兜底。"""
     routed = {
         "news": list(news_items),
         "topicResources": {},
         "skillRecommendations": list(skill_items or []),
         "githubWeekly": list(github_items),
-        # benchmarkBoards / benchmarkDatasets 故意不放——避免污染人工维护的榜单数据
+        "benchmarkDatasets": [],
+        # benchmarkBoards 不自动生成，避免出现未经核验的排名。
     }
     for n in news_items:
         text = item_text(n).lower()
         targets = list(n.get("moduleTargets") or ["news"])
+        dataset_entry = benchmark_dataset_from_news(n)
+        if dataset_entry:
+            routed["benchmarkDatasets"].append(dataset_entry)
+            if "benchmarkDatasets" not in targets:
+                targets.append("benchmarkDatasets")
         # 工具类资讯可顺手收进 topicResources
         if any(w in text for w in ["tool", "platform", "api", "assistant", "app", "editor", "agent"]):
             topic_id = topic_from_text(item_text(n))
