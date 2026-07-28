@@ -3502,9 +3502,9 @@ code {
   .latest-rail { position: static; order: -1; }
 }
 
-/* Hero 右侧的今日要闻 Top5 */
-.hero-top5 { display: flex; }
-.hero-top5 .top5 { margin: 0; width: 100%; align-self: stretch; }
+/* Hero 右侧的今日要闻 Top5：由内容撑高，不跟随左栏等高拉伸。 */
+.hero-top5 { display: flex; align-self: start; height: fit-content; }
+.hero-top5 .top5 { margin: 0; width: 100%; align-self: flex-start; }
 .hero-top5 .top5-list a { flex-wrap: wrap; }
 .hero-top5 .top5-title { flex: 1 1 0; }
 .hero-top5 .top5-meta { flex: 1 1 100%; padding-left: 30px; white-space: normal; }
