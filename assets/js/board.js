@@ -27,7 +27,7 @@
     return;
   }
 
-  document.title = `${board.title} 榜单详情 - AI工具导航`;
+  document.title = `${board.title} 榜单详情 - AI 精选`;
   titleEl.textContent = board.title;
   typeEl.textContent = board.type;
   descEl.textContent = board.description;

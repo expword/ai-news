@@ -47,7 +47,7 @@
     return;
   }
 
-  document.title = `${detail.title} 测评数据集详- AI工具导航`;
+  document.title = `${detail.title} 测评数据集详情 - AI 精选`;
   datasetTitle.textContent = detail.title;
   datasetSubtitle.textContent = detail.subtitle;
   datasetSummary.textContent = detail.summary;

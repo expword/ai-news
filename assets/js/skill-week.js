@@ -21,7 +21,7 @@
     return;
   }
 
-  document.title = `${week.label} Skill 推荐 - AI工具导航`;
+  document.title = `${week.label} Skill 推荐 - AI 精选`;
   titleEl.textContent = `${week.label} Skill 推荐`;
   subtitleEl.textContent = `${week.weekId} · 收录 ${(week.skills || []).length} Skill / ${(week.github || []).length} GitHub`;
   summaryEl.textContent = week.summary || "";

@@ -21,7 +21,7 @@
     return;
   }
 
-  document.title = `${week.label} GitHub 周榜 - AI工具导航`;
+  document.title = `${week.label} GitHub 周榜 - AI 精选`;
   titleEl.textContent = `${week.label} GitHub 周榜`;
   subtitleEl.textContent = `${week.weekId} · 收录 ${(week.github || []).length} AI 项目`;
   summaryEl.textContent = week.summary || "";

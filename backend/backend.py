@@ -227,7 +227,20 @@ def read_json(path: Path, fallback):
 def write_generated(data: dict) -> None:
     GENERATED_JSON.parent.mkdir(parents=True, exist_ok=True)
     GENERATED_JS.parent.mkdir(parents=True, exist_ok=True)
-    payload = json.dumps(data, ensure_ascii=False, indent=2)
+
+    def public_value(value):
+        if isinstance(value, dict):
+            return {
+                key: public_value(item)
+                for key, item in value.items()
+                if key != "originalContent"
+            }
+        if isinstance(value, list):
+            return [public_value(item) for item in value]
+        return value
+
+    # 抓取正文仅用于服务端生成摘要，绝不进入浏览器可下载的数据包。
+    payload = json.dumps(public_value(data), ensure_ascii=False, indent=2)
     GENERATED_JSON.write_text(payload + "\n", encoding="utf-8")
     # 前端 fetch /assets/data/generated-data.json，这里同步落一份
     GENERATED_JSON_ASSET.write_text(payload + "\n", encoding="utf-8")
@@ -1594,9 +1607,9 @@ def enrich_news_item(raw: dict) -> dict | None:
     result["publishedAt"] = (raw.get("_datetime_hint") or "")   # 精确到分钟（北京时间），无则空
     if result.get("category") not in NEWS_CATEGORIES:
         result["category"] = rule_category
-    # 保存原文正文（前端可折叠展示）
-    if original_content:
-        result["originalContent"] = original_content
+    # 原文只作为生成摘要与解读时的输入，不写入公开数据。
+    # 公开站点仅展示原创整理内容，并通过 url 引导读者查看来源。
+    result.pop("originalContent", None)
     # —— 评分 / 精选：模型只打 5 维，最终分和是否精选由代码算 ——
     tier = raw.get("tier") or "T2"
     scores = result.get("scores") if isinstance(result.get("scores"), dict) else None

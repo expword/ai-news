@@ -125,7 +125,7 @@
     },
     "AI 内容站 Skill": {
       steps: ["确定长尾词", "做分类页", "补原创导读", "加来源和更新时间", "提交 sitemap"],
-      outputs: ["关键词表", "文章计划", "广告位规划", "Search Console 记录"]
+      outputs: ["关键词表", "文章计划", "页面布局规划", "Search Console 记录"]
     }
   };
 

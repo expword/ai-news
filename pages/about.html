@@ -3,47 +3,111 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>关于本站 - AI工具导航</title>
+    <title>关于我们 - AI 精选</title>
     <meta
       name="description"
-      content="了解 AI工具导航的内容定位、更新方式和信息来源
+      content="了解 AI 精选的运营主体、内容定位、信息来源、编辑原则与商业合作政策。"
     />
-    <meta name="robots" content="index,follow" />
-    <link rel="canonical" href="https://your-domain.com/pages/about.html" />
-    <link rel="stylesheet" href="/assets/css/styles.css?v=1780000006" />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <link rel="canonical" href="https://ai-news-alpha-five.vercel.app/pages/about.html" />
+    <link rel="stylesheet" href="/assets/css/styles.css?v=1780000022" />
   </head>
-  <body>
+  <body class="legal-shell">
     <header class="site-header">
       <div class="wrap header-grid">
-        <a class="brand" href="/">
+        <a class="brand" href="/" aria-label="AI 精选首页">
           <span class="brand-mark">AI</span>
           <span>
-            <strong>AI工具导航</strong>
-            <small>资讯 · 工具 · 教程</small>
+            <strong>AI 精选</strong>
+            <small>分级信源 · 质量分精选 · 每日日报</small>
           </span>
         </a>
         <nav class="top-nav" aria-label="主导航">
-          <a href="/#topics">AI分类</a>
-          <a href="/#latest">最新资</a>
-          <a href="/pages/contact.html">联系</a>
-          <a href="/pages/privacy.html">隐私</a>
+          <a href="/">首页</a>
+          <a href="/pages/history.html">全部资讯</a>
+          <a href="/pages/contact.html">联系我们</a>
+          <a href="/pages/privacy.html">隐私政策</a>
         </nav>
       </div>
     </header>
 
     <main class="page-main">
-      <article class="wrap page-panel">
-        <p class="eyebrow">About</p>
-        <h1>关于本站</h1>
-        <p>
-          AI工具导航是一个面向中文用户的 AI 工具与资讯整理站，关AI 编程、AI 绘画视频、AI 智能体          AI 办公学习、AI 模型发布、AI 论文开源和 AI 商业应用        </p>
-        <h2>内容原则</h2>
-        <p>
-          本站优先整理官方公告、产品文档、研究论文和公开可信来源，并通过原创摘要、分类导读和使用场景说明          帮助读者更快判断一AI 工具或新闻是否值得进一步了解        </p>
-        <h2>更新方式</h2>
-        <p>
-          站点目前是静态网页模板，内容可通过编辑 data.js 更新。正式上线后，建议持续发布原创教程、工具对比          新闻解读和常见问题页面，以提高搜索收录和用户停留时间        </p>
+      <article class="wrap page-panel legal-page">
+        <header class="legal-hero">
+          <p class="eyebrow">About us</p>
+          <h1>关于我们</h1>
+          <p class="page-intro">
+            AI 精选是一个由个人独立运营的中文 AI 资讯网站。我们关注模型发布、产品更新、论文研究、开源项目与行业动态，帮助读者从快速增长的信息中找到真正值得了解的内容。
+          </p>
+          <div class="trust-grid" aria-label="本站特点">
+            <div><strong>独立运营</strong><span>由个人持续维护</span></div>
+            <div><strong>信源优先</strong><span>尽量追溯一手资料</span></div>
+            <div><strong>开放更正</strong><span>提供长期反馈渠道</span></div>
+          </div>
+        </header>
+
+        <section class="page-section" aria-labelledby="mission">
+          <h2 id="mission">我们的目标</h2>
+          <p>
+            AI 信息更新很快，但数量并不等于价值。本站希望通过信源分级、信息去重、质量筛选和中文导读，把分散的信息整理成更清晰、可追溯的阅读入口，降低读者核实与筛选信息的时间成本。
+          </p>
+        </section>
+
+        <section class="page-section" aria-labelledby="editorial">
+          <h2 id="editorial">内容与编辑原则</h2>
+          <ul>
+            <li>优先参考公司公告、产品文档、研究论文、项目仓库等一手资料。</li>
+            <li>尽可能标明原始来源与发布时间，方便读者自行核验。</li>
+            <li>对同一事件进行合并整理，避免用重复信息制造阅读负担。</li>
+            <li>自动化工具可用于收集、整理和生成初稿，但重要内容会尽力核对。</li>
+            <li>不把未经证实的传闻写成事实；发现错误后及时更正。</li>
+          </ul>
+        </section>
+
+        <section class="page-section" id="sources" aria-labelledby="source-policy">
+          <h2 id="source-policy">信源说明</h2>
+          <p>
+            本站将公司官网、官方博客、产品文档和项目仓库视为优先信源；研究机构、论文作者及可信技术媒体用于补充背景；社区讨论主要作为发现线索。每条资讯会尽可能保留来源名称和原始链接，读者可前往发布方页面核对完整上下文。
+          </p>
+        </section>
+
+        <section class="page-section" aria-labelledby="independence">
+          <h2 id="independence">独立性与商业合作</h2>
+          <p>
+            本站由个人独立运营。未来可能通过 Google AdSense 等广告服务支持网站维护。广告不会购买编辑结论；如内容包含赞助、推广或利益关联，我们会尽可能作出清晰标注。外部链接不代表本站对第三方产品作出保证。
+          </p>
+        </section>
+
+        <section class="page-section" aria-labelledby="corrections">
+          <h2 id="corrections">更正与反馈</h2>
+          <p>
+            如果你发现信息错误、来源失效、署名或版权问题，欢迎通过
+            <a href="mailto:boshenniu9@gmail.com">boshenniu9@gmail.com</a>
+            联系我们。我们会核对反馈，并在确认后尽快更正或移除相关内容。
+          </p>
+        </section>
+
+        <aside class="info-card" aria-label="网站信息">
+          <strong>网站信息</strong>
+          <dl>
+            <div><dt>网站名称</dt><dd>AI 精选</dd></div>
+            <div><dt>运营方式</dt><dd>个人独立运营</dd></div>
+            <div><dt>网站地址</dt><dd><a href="https://ai-news-alpha-five.vercel.app/">ai-news-alpha-five.vercel.app</a></dd></div>
+            <div><dt>联系邮箱</dt><dd><a href="mailto:boshenniu9@gmail.com">boshenniu9@gmail.com</a></dd></div>
+          </dl>
+        </aside>
       </article>
     </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-grid">
+        <span>© 2026 AI 精选 · 个人独立运营</span>
+        <span>
+          <a href="/pages/about.html" aria-current="page">关于我们</a>
+          <a href="/pages/contact.html">联系我们</a>
+          <a href="/pages/privacy.html">隐私政策</a>
+        </span>
+      </div>
+    </footer>
   </body>
 </html>

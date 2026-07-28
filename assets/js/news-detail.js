@@ -97,7 +97,6 @@
   const audience = nonEmptyList(item.audience);
   const useCases = nonEmptyList(item.useCases || item.scenarios);
   const risks = nonEmptyList(item.risks);
-  const originalContent = isSubstantive(item.originalContent, summary) ? item.originalContent : "";
   const url = item.url || "";
 
   // === HERO ===
@@ -167,35 +166,7 @@
     blocks.push(block("warn", "⚠️", "注意", bullets(risks, "warn-list")));
   }
 
-  if (originalContent) {
-    // 原文来自任意外站，必须 HTML 转义防 XSS
-    const escape = (s) =>
-      String(s)
-        .replace(/&/g, "&amp;")
-        .replace(/</g, "&lt;")
-        .replace(/>/g, "&gt;")
-        .replace(/"/g, "&quot;")
-        .replace(/'/g, "&#39;");
-    const paragraphs = originalContent
-      .split(/\n\n+|\r\n\r\n+/)
-      .map((s) => s.trim())
-      .filter(Boolean);
-    const html = (paragraphs.length ? paragraphs : [originalContent])
-      .map((p) => `<p class="detail-paragraph">${escape(p)}</p>`)
-      .join("");
-    blocks.push(`
-      <details class="detail-block tone-soft detail-original">
-        <summary class="detail-block-head detail-original-summary">
-          <span class="detail-block-icon">📄</span>
-          <h2>原文内容</h2>
-          <span class="detail-original-hint">点击展开 / 收起</span>
-        </summary>
-        <div class="detail-block-body detail-original-body">${html}</div>
-      </details>
-    `);
-  }
-
-  if (!background && !impact && !audience.length && !useCases.length && !risks.length && !originalContent) {
+  if (!background && !impact && !audience.length && !useCases.length && !risks.length) {
     blocks.push(`
       <section class="detail-block tone-soft">
         <div class="detail-block-head">

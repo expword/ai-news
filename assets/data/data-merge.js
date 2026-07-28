@@ -14,6 +14,12 @@
     });
   }
 
+  function publicNewsItem(item) {
+    if (!item || typeof item !== "object") return item;
+    const { originalContent, ...publicItem } = item;
+    return publicItem;
+  }
+
   function mergeWeeklyDigests(items, extra) {
     const baseById = new Map((items || []).map((item) => [item.weekId, item]));
     const seen = new Set();
@@ -52,7 +58,8 @@
   }
 
   base.lastUpdated = generated.lastUpdated || base.lastUpdated;
-  base.news = mergeBy(base.news, generated.news, (item) => `${item.title}|${item.url || ""}`);
+  base.news = mergeBy(base.news, generated.news, (item) => `${item.title}|${item.url || ""}`)
+    .map(publicNewsItem);
   // AI 日报（后端预计算分桶，前端直接用）：滚动最新 + 带日期归档
   if (generated.dailyReport) base.dailyReport = generated.dailyReport;
   if (generated.dailyReports) base.dailyReports = generated.dailyReports;
