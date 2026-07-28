@@ -57,6 +57,56 @@
     return merged;
   }
 
+  function datasetSlug(name) {
+    return String(name || "")
+      .trim()
+      .toLowerCase()
+      .replace(/[\s/]+/g, "-")
+      .replace(/[^a-z0-9\u4e00-\u9fff._-]/g, "")
+      .replace(/-+/g, "-")
+      .replace(/^-|-$/g, "");
+  }
+
+  function benchmarkNameFromNews(item) {
+    const text = `${item?.title || ""} ${item?.summary || ""}`;
+    const explicit = text.match(/\b([A-Za-z][A-Za-z0-9._+-]{1,48}(?:Bench(?:mark)?|Eval|Dataset))\b/i);
+    return explicit ? explicit[1] : "";
+  }
+
+  function benchmarkArea(item) {
+    const text = `${item?.title || ""} ${item?.summary || ""} ${(item?.tags || []).join(" ")}`.toLowerCase();
+    if (/视觉|图像|多模态|vision|visual|multimodal|vlm/.test(text)) return "视觉感知 / 多模态";
+    if (/代码|编程|coding|software|swe-/.test(text)) return "代码 / 软件工程";
+    if (/语音|音频|asr|tts|audio|speech/.test(text)) return "语音 / 音频";
+    if (/agent|智能体|工具调用/.test(text)) return "Agent / 工具调用";
+    if (/检索|embedding|rag|retrieval/.test(text)) return "检索 / Embedding";
+    return "AI 模型能力评测";
+  }
+
+  function derivedBenchmarkDatasets(news) {
+    return (news || []).flatMap((item) => {
+      const name = benchmarkNameFromNews(item);
+      const text = `${item?.title || ""} ${item?.summary || ""}`.toLowerCase();
+      const isEvaluation = item?.category === "ai-benchmark" || /benchmark|evaluation|dataset|基准|评测集|测试集/.test(text);
+      if (!name || !isEvaluation || !item.url || item.url === "#") return [];
+
+      item.moduleTargets = Array.from(new Set([...(item.moduleTargets || ["news"]), "benchmarkDatasets"]));
+      return [{
+        name,
+        slug: datasetSlug(name),
+        area: benchmarkArea(item),
+        note: item.summary || item.reason || item.title,
+        source: item.url,
+        sourceName: item.source || "原始发布",
+        date: item.date || "",
+        originTitle: item.title || "",
+        evaluates: (item.keyPoints || []).slice(0, 5),
+        useCases: (item.useCases || []).slice(0, 5),
+        limitations: (item.risks || []).slice(0, 5)
+      }];
+    });
+  }
+
   base.lastUpdated = generated.lastUpdated || base.lastUpdated;
   base.news = mergeBy(base.news, generated.news, (item) => `${item.title}|${item.url || ""}`)
     .map(publicNewsItem);
@@ -69,8 +119,13 @@
   base.weeklyDigests = mergeWeeklyDigests(base.weeklyDigests, generated.weeklyDigests);
   base.topicResources = mergeTopicResources(base.topicResources, generated.topicResources);
   base.skillRecommendations = mergeBy(base.skillRecommendations, generated.skillRecommendations, (item) => item.url || item.title);
-  // benchmarkBoards / benchmarkDatasets 故意不合并 generated 数据
-  // —— 这两个模块只接受 data.js 的人工维护数据，避免被自动采集污染
+  // 榜单排名仍只接受人工维护；明确命名的 Benchmark/Eval/Dataset
+  // 可从精选新闻跨模块归档到“测评数据集”，并保留原始来源供核验。
+  base.benchmarkDatasets = mergeBy(
+    base.benchmarkDatasets,
+    [...(generated.benchmarkDatasets || []), ...derivedBenchmarkDatasets(generated.news)],
+    (item) => datasetSlug(item.name) || item.source
+  );
 
   // === 全局排序：所有带 date 的内容都按时间倒序，weeklyDigests 按 weekId 倒序 ===
   function byDateDesc(a, b) {
