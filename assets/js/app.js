@@ -163,7 +163,7 @@
         return `${mm}-${dd} ${hh}:${mi}`;
       }
     }
-    return formatDate(item.date);
+    return formatDate(item.date) || "时间待核验";
   }
 
   // 时间线排序用的时间戳：优先 publishedAt（精确到分钟），退回 date（按天）
@@ -181,7 +181,7 @@
 
   // 时间线左栏：放大的 HH:MM（有 publishedAt 时），否则显示日期
   function timelineParts(item) {
-    const dayKey = (item.date || "").slice(0, 10) || localDay(item.publishedAt);
+    const dayKey = (item.date || "").slice(0, 10) || localDay(item.publishedAt) || "unknown";
     let hm = "";
     if (item.publishedAt) {
       const d = new Date(item.publishedAt);
@@ -189,11 +189,12 @@
         hm = `${String(d.getHours()).padStart(2, "0")}:${String(d.getMinutes()).padStart(2, "0")}`;
       }
     }
-    return { dayKey, hm, rail: hm || formatDate(item.date) };
+    return { dayKey, hm, rail: hm || formatDate(item.date) || "待核验" };
   }
 
   // 时间线按天分组的标签：今天 / 昨天 / MM-DD
   function dayDividerLabel(dayKey) {
+    if (dayKey === "unknown") return "发布时间待核验";
     const today = localDay(new Date());
     const yesterday = localDay(new Date(Date.now() - 86400000));
     if (dayKey === today) return "今天";

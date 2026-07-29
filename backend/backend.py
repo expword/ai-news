@@ -958,17 +958,17 @@ _NOISE_BLOCK_RE = re.compile(
 )
 
 
-def fetch_article_text(url: str, max_chars: int = 5000, timeout: int = 12) -> str:
-    """抓 URL 原文 → 去脚本/导航/页脚 → 优先取 <article>/<main> → 剥标签 → 截断。
-    失败返回空字符串，不抛异常（enrich 流程对失败要容错）。"""
+def fetch_article_document(url: str, max_chars: int = 5000, timeout: int = 12) -> tuple[str, str, str]:
+    """Fetch article text plus verified publication date/datetime from page metadata."""
     if not url or not url.startswith(("http://", "https://")):
-        return ""
+        return "", "", ""
     try:
-        html = request_text(url, timeout=timeout)
+        html = request_text(url, headers={"User-Agent": BROWSER_UA}, timeout=timeout)
     except Exception:
-        return ""
+        return "", "", ""
     if not html:
-        return ""
+        return "", "", ""
+    date_hint, datetime_hint = extract_published_hints(html)
     # 优先取 <article> / <main> 主体；否则用整页
     body = html
     match = _ARTICLE_TAG_RE.search(html)
@@ -979,8 +979,13 @@ def fetch_article_text(url: str, max_chars: int = 5000, timeout: int = 12) -> st
     text = strip_html(body)
     # 过滤掉过短的（说明抓到的是登录墙/JS 渲染页）
     if len(text) < 200:
-        return ""
-    return text[:max_chars]
+        text = ""
+    return text[:max_chars], date_hint, datetime_hint
+
+
+def fetch_article_text(url: str, max_chars: int = 5000, timeout: int = 12) -> str:
+    """Backward-compatible text-only wrapper."""
+    return fetch_article_document(url, max_chars=max_chars, timeout=timeout)[0]
 
 
 CN_TZ = timezone(timedelta(hours=8))   # 北京时间，发布时间统一按它展示
@@ -1009,6 +1014,12 @@ def parse_dt(s: str):
                 return datetime.strptime(f"{m.group(1)} {m.group(2)} {m.group(3)}", fmt)
             except Exception:
                 continue
+    m = re.search(r"(20\d{2})\s*[年/.]\s*(\d{1,2})\s*[月/.]\s*(\d{1,2})\s*日?", s)
+    if m:
+        try:
+            return datetime(int(m.group(1)), int(m.group(2)), int(m.group(3)))
+        except ValueError:
+            return None
     m = re.search(r"\d{4}-\d{2}-\d{2}", s)
     if m:
         try:
@@ -1030,10 +1041,42 @@ def parse_date_to_iso(s: str) -> str:
 
 def parse_datetime_to_iso(s: str) -> str:
     """统一成 YYYY-MM-DDTHH:MM（北京时间）。仅当原始字符串含时间成分时返回，否则返回空。"""
-    if ":" not in (s or ""):
+    if not re.search(r"(?:T|\s)\d{1,2}:\d{2}", s or ""):
         return ""
     dt = parse_dt(s)
     return _to_cn(dt).strftime("%Y-%m-%dT%H:%M") if dt else ""
+
+
+_PUBLISHED_META_KEYS = {
+    "article:published_time", "og:published_time", "datepublished", "datecreated",
+    "pubdate", "publishdate", "publish_time", "published_time", "publication_date",
+}
+
+
+def extract_published_hints(html: str) -> tuple[str, str]:
+    """Extract publication time from meta tags, JSON-LD and semantic <time> tags."""
+    candidates: list[str] = []
+    for tag in re.findall(r"<meta\b[^>]*>", html or "", re.I):
+        attrs = {
+            key.lower(): value
+            for key, _, value in re.findall(r"([\w:-]+)\s*=\s*([\"'])(.*?)\2", tag, re.S)
+        }
+        key = (attrs.get("property") or attrs.get("name") or attrs.get("itemprop") or "").lower()
+        if key in _PUBLISHED_META_KEYS and attrs.get("content"):
+            candidates.append(attrs["content"])
+    candidates.extend(re.findall(
+        r'["\'](?:datePublished|dateCreated|publishDate|publishedAt)["\']\s*:\s*["\']([^"\']+)',
+        html or "", re.I,
+    ))
+    for tag in re.findall(r"<time\b[^>]*>", html or "", re.I):
+        match = re.search(r"datetime\s*=\s*([\"'])(.*?)\1", tag, re.I | re.S)
+        if match:
+            candidates.append(match.group(2))
+    for raw in candidates:
+        date_hint = parse_date_to_iso(raw)
+        if date_hint:
+            return date_hint, parse_datetime_to_iso(raw)
+    return "", ""
 
 
 _DC_DATE = "{http://purl.org/dc/elements/1.1/}date"
@@ -1114,6 +1157,23 @@ HTML_SOURCES = [
 BROWSER_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
 
 
+def _visible_page_date(text: str, default_year: int | None = None) -> tuple[str, str]:
+    """Parse a visible full or month-day date; partial dates inherit the page's year context."""
+    value = " ".join((text or "").split())
+    date_hint = parse_date_to_iso(value)
+    if date_hint:
+        return date_hint, parse_datetime_to_iso(value)
+    match = re.search(r"(?<!\d)(\d{1,2})\s*月\s*(\d{1,2})\s*日", value)
+    if match:
+        year = default_year or datetime.now().year
+        try:
+            dt = datetime(year, int(match.group(1)), int(match.group(2)))
+            return dt.strftime("%Y-%m-%d"), parse_datetime_to_iso(value)
+        except ValueError:
+            pass
+    return "", ""
+
+
 class _PublicPageCollector(HTMLParser):
     """Collect visible anchor and heading text without third-party HTML dependencies."""
 
@@ -1123,9 +1183,16 @@ class _PublicPageCollector(HTMLParser):
         self._kind = ""
         self._href = ""
         self._text: list[str] = []
+        self._ignored_depth = 0
+        self._year = datetime.now().year
 
     def handle_starttag(self, tag, attrs):
         tag = tag.lower()
+        if tag in ("script", "style", "noscript", "svg"):
+            self._ignored_depth += 1
+            return
+        if self._ignored_depth:
+            return
         if self._kind:
             return
         if tag == "a":
@@ -1136,21 +1203,45 @@ class _PublicPageCollector(HTMLParser):
             self._kind = "heading"
             self._href = ""
             self._text = []
+        elif tag == "time":
+            self._kind = "time"
+            self._href = dict(attrs).get("datetime", "")
+            self._text = []
 
     def handle_data(self, data):
+        if self._ignored_depth:
+            return
+        year_match = re.search(r"(20\d{2})\s*年", data or "")
+        if year_match:
+            self._year = int(year_match.group(1))
         if self._kind:
             self._text.append(data)
+            return
+        date_hint, datetime_hint = _visible_page_date(data, self._year)
+        if date_hint and len(" ".join((data or "").split())) <= 80:
+            self.rows.append({"kind": "date", "title": data.strip(), "href": "", "date": date_hint, "datetime": datetime_hint})
 
     def handle_endtag(self, tag):
         tag = tag.lower()
+        if tag in ("script", "style", "noscript", "svg") and self._ignored_depth:
+            self._ignored_depth -= 1
+            return
+        if self._ignored_depth:
+            return
         expected = "a" if self._kind == "link" else self._kind and tag
         if not self._kind or (self._kind == "link" and tag != expected):
             return
         if self._kind == "heading" and tag not in ("h1", "h2", "h3", "h4"):
             return
+        if self._kind == "time" and tag != "time":
+            return
         text = " ".join("".join(self._text).split())
         if text:
-            self.rows.append({"kind": self._kind, "title": text, "href": self._href})
+            date_hint, datetime_hint = _visible_page_date(f"{self._href} {text}", self._year)
+            self.rows.append({
+                "kind": self._kind, "title": text, "href": self._href,
+                "date": date_hint, "datetime": datetime_hint,
+            })
         self._kind = ""
         self._href = ""
         self._text = []
@@ -1189,10 +1280,13 @@ def _fetch_one_china_source(src: dict) -> list[dict]:
     html = request_text(src["url"], headers={"User-Agent": BROWSER_UA}, timeout=15)
     parser = _PublicPageCollector()
     parser.feed(html)
+    page_date, page_datetime = extract_published_hints(html)
     items: list[dict] = []
     seen: set[str] = set()
     generic = {"首页", "更多", "详情", "查看详情", "了解更多", "下一页", "上一页", "登录", "注册", "中文", "english"}
-    for row in parser.rows:
+    for row_index, row in enumerate(parser.rows):
+        if row.get("kind") in ("date", "time"):
+            continue
         title = strip_html(row.get("title") or "").strip()
         if len(title) < 5 or len(title) > 160 or title.lower() in generic or title.startswith("/"):
             continue
@@ -1210,6 +1304,20 @@ def _fetch_one_china_source(src: dict) -> list[dict]:
             continue
         seen.add(url)
         label = _CHINA_TYPE_LABELS.get(src.get("type"), "中国 AI 一手信源")
+        date_hint = row.get("date") or ""
+        datetime_hint = row.get("datetime") or ""
+        if not date_hint:
+            nearby = []
+            for candidate_index, candidate in enumerate(parser.rows):
+                if candidate.get("date") and abs(candidate_index - row_index) <= 3:
+                    nearby.append((abs(candidate_index - row_index), candidate_index > row_index, candidate))
+            if nearby:
+                _, _, candidate = min(nearby, key=lambda entry: (entry[0], entry[1]))
+                date_hint = candidate.get("date") or ""
+                datetime_hint = candidate.get("datetime") or ""
+        # A single-article page can safely inherit its structured publication metadata.
+        if not date_hint and len([r for r in parser.rows if r.get("kind") in ("link", "heading")]) <= 6:
+            date_hint, datetime_hint = page_date, page_datetime
         items.append({
             "title": title,
             "summary": f"{label}；来源：{src['name']}。{title}",
@@ -1219,8 +1327,9 @@ def _fetch_one_china_source(src: dict) -> list[dict]:
             "region": "CN",
             "lang": "zh",
             "tier": src.get("tier", "T1"),
-            "_date_hint": parse_date_to_iso(title),
-            "_datetime_hint": parse_datetime_to_iso(title),
+            "_date_hint": date_hint,
+            "_datetime_hint": datetime_hint,
+            "_collected_at": datetime.now(CN_TZ).strftime("%Y-%m-%dT%H:%M"),
         })
         if len(items) >= int(src.get("limit", 8)):
             break
@@ -1569,6 +1678,35 @@ def existing_news_urls() -> set:
     return urls
 
 
+def repair_existing_domestic_timestamps(candidates: list[dict]) -> int:
+    """Repair known domestic news with new source hints; clear legacy crawl-date fallbacks."""
+    data = read_json(GENERATED_JSON, {})
+    hints = {item.get("url"): item for item in candidates if item.get("url")}
+    changed = 0
+    for item in data.get("news") or []:
+        if item.get("region") != "CN" and not item.get("sourceType"):
+            continue
+        hint = hints.get(item.get("url")) or {}
+        verified_date = (hint.get("_date_hint") or "").strip()
+        verified_datetime = (hint.get("_datetime_hint") or "").strip()
+        before = (item.get("date"), item.get("publishedAt"), item.get("collectedAt"), item.get("dateStatus"))
+        if verified_date:
+            item["date"] = verified_date[:10]
+            item["publishedAt"] = verified_datetime
+            item["dateStatus"] = "verified"
+        elif not item.get("publishedAt") and not item.get("dateStatus"):
+            legacy_date = (item.get("date") or "").strip()
+            item["collectedAt"] = item.get("collectedAt") or (f"{legacy_date}T00:00" if legacy_date else "")
+            item["date"] = ""
+            item["dateStatus"] = "unknown"
+        after = (item.get("date"), item.get("publishedAt"), item.get("collectedAt"), item.get("dateStatus"))
+        if after != before:
+            changed += 1
+    if changed:
+        write_generated(data)
+    return changed
+
+
 def _bucket_daily(items: list[dict], date_label: str) -> dict:
     """把一组（已精选的）条目按 9 类分桶 + 按分排序，组装成一份日报对象。"""
     buckets: dict[str, list] = {}
@@ -1760,8 +1898,8 @@ def enrich_news_item(raw: dict) -> dict | None:
     text = item_text(raw)
     rule_category = category_from_text(text)
     style = pick_writing_style(raw.get("url") or raw.get("title") or "")
-    # 抓原文（失败返回空字符串，LLM 仍可基于 summary 改写）
-    original_content = fetch_article_text(raw.get("url") or "")
+    # 抓原文，并从原文结构化元数据补充真实发布时间。
+    original_content, article_date, article_datetime = fetch_article_document(raw.get("url") or "")
     prompt = {
         "task": "把英文/中文原始 AI 信息改写成 信息密度高、可读性强 的中文条目。LLM 应优先依据 input.originalContent 写作（这是抓到的完整原文）；input.summary 只是新闻 API 给的短摘要、信息量有限。如果输入不是 AI/LLM/Agent/模型/工具相关的实质内容（ASX 股票、油价、明星八卦），返回不带 title 的对象，系统会丢弃。",
         "writingStyle": {
@@ -1823,12 +1961,12 @@ def enrich_news_item(raw: dict) -> dict | None:
         result["sourceType"] = raw["sourceType"]
     if raw.get("region"):
         result["region"] = raw["region"]
-    raw_date = (raw.get("_date_hint") or "").strip()
-    if raw_date and len(raw_date) >= 10:
-        result["date"] = raw_date[:10]
-    else:
-        result["date"] = today_iso()
-    result["publishedAt"] = (raw.get("_datetime_hint") or "")   # 精确到分钟（北京时间），无则空
+    raw_date = (raw.get("_date_hint") or article_date or "").strip()
+    raw_datetime = (raw.get("_datetime_hint") or article_datetime or "").strip()
+    result["date"] = raw_date[:10] if len(raw_date) >= 10 else ""
+    result["publishedAt"] = raw_datetime
+    result["collectedAt"] = raw.get("_collected_at") or datetime.now(CN_TZ).strftime("%Y-%m-%dT%H:%M")
+    result["dateStatus"] = "verified" if result["date"] else "unknown"
     if result.get("category") not in NEWS_CATEGORIES:
         result["category"] = rule_category
     # 原文只作为生成摘要与解读时的输入，不写入公开数据。
@@ -2005,8 +2143,10 @@ def fallback_news(raw_items: list[dict]) -> list[dict]:
             "summary": summary[:180] if summary else "",
             "category": category,
             "source": item.get("source") or "Auto Search",
-            "date": raw_date[:10] if len(raw_date) >= 10 else today_iso(),
+            "date": raw_date[:10] if len(raw_date) >= 10 else "",
             "publishedAt": item.get("_datetime_hint") or "",
+            "collectedAt": item.get("_collected_at") or datetime.now(CN_TZ).strftime("%Y-%m-%dT%H:%M"),
+            "dateStatus": "verified" if len(raw_date) >= 10 else "unknown",
             "tags": [],
             "url": item.get("url"),
             "keyPoints": [],
@@ -2453,6 +2593,9 @@ def run_daily() -> dict:
 
     raw_news_items = []
     china_items = fetch_china_source_items()
+    repaired = repair_existing_domestic_timestamps(china_items)
+    if repaired:
+        print(f"  · 修复既有国内资讯发布时间 {repaired} 条")
     # 国内一手源优先保留 30 条名额；fetch_china_source_items 已按九种来源轮询均衡。
     raw_news_items.extend(china_items[:30])
     print(f"  · 中国一手信源抓取 {len(china_items)} 条候选，优先入队 {min(30, len(china_items))} 条")
