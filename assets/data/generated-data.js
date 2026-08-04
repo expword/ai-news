@@ -1,5 +1,5 @@
 window.AI_GENERATED_DATA = {
-  "lastUpdated": "2026-08-04",
+  "lastUpdated": "2026-08-05",
   "generatedAt": "2026-08-04T13:59:05.038736Z",
   "news": [
     {
@@ -14683,6 +14683,131 @@ window.AI_GENERATED_DATA = {
   },
   "dailyReports": [
     {
+      "date": "2026-08-04",
+      "generatedAt": "2026-08-04T16:13:09.345207Z",
+      "total": 8,
+      "sections": [
+        {
+          "category": "ai-tools",
+          "label": "AI 工具",
+          "items": [
+            {
+              "title": "Claude Code 连接器可复用至 Artifacts",
+              "summary": "Claude 连接器的使用范围扩展至 Artifacts，用户可通过连接 Gmail、日历、Slack 等工具，提升 Claude Code 的功能。许多用户尚未意识到这一点，可能影响其使用体验。",
+              "source": "X：Thariq (@trq212)",
+              "url": "https://x.com/trq212/status/2084387303959740449",
+              "score": 61,
+              "sourceCount": 1,
+              "date": "2026-08-04",
+              "publishedAt": "2026-08-04T05:13",
+              "reason": "Claude 连接器的扩展功能为用户提供了更高效的工作方式，值得关注。"
+            }
+          ]
+        },
+        {
+          "category": "ai-coding",
+          "label": "AI 编程",
+          "items": [
+            {
+              "title": "零基础利用Codex打造个性化硬件的实践与挑战",
+              "summary": "作者通过与Codex的互动，展示了从需求分析到硬件组装的全过程，成功在5天内制作出一款提醒久坐的猫爪硬件。文中还提及了调试宏键盘的Agent应用及OpenAI与Work Louder合作推出的Codex Micro键盘，强调了实践学习的重要性。然而，这种方法也面临着技术门槛和资源",
+              "source": "公众号：数字生命卡兹克",
+              "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647684924&idx=1&sn=f9ecf13ac374f13dfa75f98f685a231d",
+              "score": 57,
+              "sourceCount": 1,
+              "date": "2026-08-04",
+              "publishedAt": "2026-08-04T08:06",
+              "reason": "这篇文章展示了如何利用Codex进行硬件开发，适合对AI编程感兴趣的零基础用户，具有实用的学习价值。"
+            }
+          ]
+        },
+        {
+          "category": "ai-models",
+          "label": "模型发布",
+          "items": [
+            {
+              "title": "OpenAI 发布 GPT-Live 实时音频新架构",
+              "summary": "OpenAI 最新推出的 GPT-Live 架构支持实时音频交互，能够在说话的同时进行聆听。这一新架构通过重建语音栈，确保音频流畅持续，提升了 ChatGPT 的对话自然度，允许更深层次的推理与工具使用而不打断对话。",
+              "source": "X：Greg Brockman (@gdb)",
+              "url": "https://x.com/gdb/status/2084405421041963356",
+              "score": 66,
+              "sourceCount": 1,
+              "date": "2026-08-04",
+              "publishedAt": "2026-08-04T06:25",
+              "reason": "GPT-Live 的发布代表了语音交互技术的一次重要飞跃，值得关注其对行业的深远影响。"
+            },
+            {
+              "title": "欧盟新透明度规则生效，AI 违规罚款高达 1500 万欧元",
+              "summary": "我注意到，欧盟《人工智能法案》下的新透明度义务于 8 月 2 日正式生效。这项规定要求公司在用户与 AI 模型互动时进行披露，并为合成的音视频和文本添加机器可读标记。违规的公司将面临最高 1500 万欧元的罚款，或全球年营业额的 3%。而在 8 月 2 日之前推出的模型则享有 4",
+              "source": "The Verge：AI（RSS）",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes",
+              "score": 65,
+              "sourceCount": 1,
+              "date": "2026-08-04",
+              "publishedAt": "2026-08-04T01:38",
+              "reason": "这条信息值得关注，因为它不仅影响到科技公司的合规策略，还将改变用户与 AI 互动的方式，提升透明度和信任度。"
+            },
+            {
+              "title": "AirLLM 支持单卡 4GB GPU 运行 70B 模型推理",
+              "summary": "AirLLM 项目实现了在单块 4GB 显存的 GPU 上运行 70B 参数大模型推理的能力，省去了多卡和大规模显存的需求。该项目已开源，并在 Hacker News 上引发了广泛关注，获得了 103 点热度。",
+              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+              "url": "https://github.com/lyogavin/airllm",
+              "score": 65,
+              "sourceCount": 1,
+              "date": "2026-08-04",
+              "publishedAt": "2026-08-04T00:24",
+              "reason": "AirLLM 的独特之处在于其在资源有限的情况下，依然能够高效运行大型语言模型，极大地降低了技术门槛，值得关注。"
+            },
+            {
+              "title": "EA 首席战略官阐述生成式 AI 在实时游戏中的应用挑战",
+              "summary": "EA 首席战略官 Mihir Vaidya 指出，生成式 AI 在游戏中的应用面临诸多挑战，包括高帧率、玩家同步和低延迟等要求。他强调，AI 不仅要看起来真实，更要在行为上保持准确性。EA 将 AI 的影响分为效率、扩展和转型三个层面，特别提到《模拟人生》已吸引超过 5 亿玩家，",
+              "source": "Runway：News（网页）",
+              "url": "https://runwayml.com/news/company-news/electronic-arts-ai-summit-2026",
+              "score": 62,
+              "sourceCount": 1,
+              "date": "2026-08-04",
+              "publishedAt": "2026-08-04T04:12",
+              "reason": "EA 对生成式 AI 的深入探讨揭示了其在游戏行业的潜力与挑战，值得关注。"
+            }
+          ]
+        },
+        {
+          "category": "ai-research",
+          "label": "论文研究",
+          "items": [
+            {
+              "title": "微软开源 Orchard 框架，助力 AI 智能体训练",
+              "summary": "我注意到，微软最近推出了 Orchard，一个面向研究社区的开源框架，专门用于训练和评估 AI 智能体。这个框架的设计旨在降低复杂性，使得研究人员能够复用基础设施，从而即使是较小的模型也能展现出强劲的性能。这无疑为 AI 研究提供了新的可能性。",
+              "source": "X：Microsoft Research (@MSFTResearch)",
+              "url": "https://x.com/MSFTResearch/status/2084364547142418722",
+              "score": 66,
+              "sourceCount": 1,
+              "date": "2026-08-04",
+              "publishedAt": "2026-08-04T03:43",
+              "reason": "Orchard 框架的开源发布为 AI 研究提供了新的工具和机会，值得关注。"
+            }
+          ]
+        },
+        {
+          "category": "ai-business",
+          "label": "行业商业",
+          "items": [
+            {
+              "title": "Palantir CEO Alex Karp 指出 AI 行业的潜在风险",
+              "summary": "我注意到，Palantir 的 CEO Alex Karp 在最新的季度股东信中对 AI 行业提出了警告，称一些前沿 AI 实验室对企业来说过于不可信。他认为，这些实验室的行为带有\"马克思主义色彩\"，并可能会影响企业的数据控制。Palantir 在第二季度的营收达到了 19 亿美",
+              "source": "TechCrunch：AI（RSS）",
+              "url": "https://techcrunch.com/2026/08/03/after-killer-quarter-palantir-ceo-alex-karp-calls-ai-industry-marxist",
+              "score": 65,
+              "sourceCount": 1,
+              "date": "2026-08-04",
+              "publishedAt": "2026-08-04T07:19",
+              "reason": "Karp 的观点为我们提供了对 AI 行业的深刻洞察，尤其是在企业如何管理数据和选择合作伙伴方面，值得关注。"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "date": "2026-08-03",
       "generatedAt": "2026-08-03T16:31:12.768361Z",
       "total": 9,
@@ -24929,7 +25054,7 @@ window.AI_GENERATED_DATA = {
     }
   ],
   "llmLeaderboard": {
-    "updated": "2026-08-04",
+    "updated": "2026-08-05",
     "source": "ReLE 中文大模型能力评测（综合能力）",
     "sourceUrl": "https://github.com/jeinlee1991/chinese-llm-benchmark",
     "items": [
@@ -24937,7 +25062,7 @@ window.AI_GENERATED_DATA = {
         "rank": 1,
         "type": "商用",
         "org": "阿里巴巴",
-        "model": "qwen3.7-max(new)",
+        "model": "qwen3.7-max",
         "score": "76.9%",
         "latency": "51s",
         "tokens": "2920",
@@ -24986,15 +25111,25 @@ window.AI_GENERATED_DATA = {
       {
         "rank": 6,
         "type": "商用",
+        "org": "阿里巴巴",
+        "model": "qwen3.8-max(new)",
+        "score": "75.4%",
+        "latency": "67s",
+        "tokens": "3175",
+        "cost": "107.3"
+      },
+      {
+        "rank": 7,
+        "type": "商用",
         "org": "openAI",
-        "model": "gpt-5.5(new)",
+        "model": "gpt-5.5",
         "score": "75.3%",
         "latency": "15s",
         "tokens": "955",
         "cost": "158.5"
       },
       {
-        "rank": 7,
+        "rank": 8,
         "type": "商用",
         "org": "google",
         "model": "gemini-3.1-pro-preview",
@@ -25004,7 +25139,7 @@ window.AI_GENERATED_DATA = {
         "cost": "250.5"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "type": "商用",
         "org": "豆包",
         "model": "doubao-seed-2-1-pro-260628(new)",
@@ -25014,7 +25149,7 @@ window.AI_GENERATED_DATA = {
         "cost": "313.2"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "type": "商用",
         "org": "anthropic",
         "model": "claude-opus-4.8-thinking(new)",
@@ -25024,7 +25159,7 @@ window.AI_GENERATED_DATA = {
         "cost": "238.2"
       },
       {
-        "rank": 10,
+        "rank": 11,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.6-sol-pro(new)",
@@ -25034,17 +25169,17 @@ window.AI_GENERATED_DATA = {
         "cost": "398.7"
       },
       {
-        "rank": 11,
+        "rank": 12,
         "type": "商用",
         "org": "google",
-        "model": "gemini-3.5-flash(new)",
+        "model": "gemini-3.5-flash",
         "score": "73.9%",
         "latency": "13s",
         "tokens": "2617",
         "cost": "151.2"
       },
       {
-        "rank": 12,
+        "rank": 13,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3.7-plus(new)",
@@ -25054,7 +25189,7 @@ window.AI_GENERATED_DATA = {
         "cost": "31.7"
       },
       {
-        "rank": 13,
+        "rank": 14,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "qwen3.5-plus",
@@ -25064,7 +25199,7 @@ window.AI_GENERATED_DATA = {
         "cost": "22.9"
       },
       {
-        "rank": 14,
+        "rank": 15,
         "type": "商用",
         "org": "豆包",
         "model": "doubao-seed-2-1-turbo-260628(new)",
@@ -25074,7 +25209,7 @@ window.AI_GENERATED_DATA = {
         "cost": "136.3"
       },
       {
-        "rank": 15,
+        "rank": 16,
         "type": "开源",
         "org": "智谱AI",
         "model": "glm-5.2(new)",
@@ -25084,17 +25219,17 @@ window.AI_GENERATED_DATA = {
         "cost": "110.5"
       },
       {
-        "rank": 16,
+        "rank": 17,
         "type": "开源",
         "org": "月之暗面",
-        "model": "kimi-k2.6(new)",
+        "model": "kimi-k2.6",
         "score": "72.9%",
         "latency": "175s",
         "tokens": "3885",
         "cost": "100.4"
       },
       {
-        "rank": 17,
+        "rank": 18,
         "type": "商用",
         "org": "豆包",
         "model": "Doubao-Seed-2.0-pro",
@@ -25104,7 +25239,7 @@ window.AI_GENERATED_DATA = {
         "cost": "22.5"
       },
       {
-        "rank": 18,
+        "rank": 19,
         "type": "开源",
         "org": "月之暗面",
         "model": "kimi-k2.7-code(new)",
@@ -25114,7 +25249,7 @@ window.AI_GENERATED_DATA = {
         "cost": "49.7"
       },
       {
-        "rank": 19,
+        "rank": 20,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.4-high",
@@ -25124,7 +25259,7 @@ window.AI_GENERATED_DATA = {
         "cost": "122.3"
       },
       {
-        "rank": 20,
+        "rank": 21,
         "type": "开源",
         "org": "深度求索",
         "model": "deepseek-v4-pro(new)",
@@ -25134,7 +25269,7 @@ window.AI_GENERATED_DATA = {
         "cost": "54.3"
       },
       {
-        "rank": 21,
+        "rank": 22,
         "type": "商用",
         "org": "anthropic",
         "model": "claude-opus-4.8(new)",
@@ -25144,17 +25279,17 @@ window.AI_GENERATED_DATA = {
         "cost": "99.4"
       },
       {
-        "rank": 22,
+        "rank": 23,
         "type": "开源",
         "org": "小米",
-        "model": "mimo-v2.5-pro(new)",
+        "model": "mimo-v2.5-pro",
         "score": "71.4%",
         "latency": "56s",
         "tokens": "3396",
         "cost": "64.3"
       },
       {
-        "rank": 23,
+        "rank": 24,
         "type": "商用",
         "org": "google",
         "model": "gemini-3-flash-preview",
@@ -25164,7 +25299,7 @@ window.AI_GENERATED_DATA = {
         "cost": "53.5"
       },
       {
-        "rank": 24,
+        "rank": 25,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "Qwen3.5-122B-A10B",
@@ -25174,7 +25309,7 @@ window.AI_GENERATED_DATA = {
         "cost": "32.3"
       },
       {
-        "rank": 25,
+        "rank": 26,
         "type": "开源",
         "org": "月之暗面",
         "model": "Kimi-K2.5-Thinking",
@@ -25184,7 +25319,7 @@ window.AI_GENERATED_DATA = {
         "cost": "77.1"
       },
       {
-        "rank": 26,
+        "rank": 27,
         "type": "商用",
         "org": "anthropic",
         "model": "claude-sonnet-5-thinking(new)",
@@ -25194,7 +25329,7 @@ window.AI_GENERATED_DATA = {
         "cost": "93.7"
       },
       {
-        "rank": 27,
+        "rank": 28,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3.6-plus",
@@ -25204,7 +25339,7 @@ window.AI_GENERATED_DATA = {
         "cost": "41.6"
       },
       {
-        "rank": 28,
+        "rank": 29,
         "type": "开源",
         "org": "智谱AI",
         "model": "GLM-5.1",
@@ -25214,7 +25349,7 @@ window.AI_GENERATED_DATA = {
         "cost": "73.8"
       },
       {
-        "rank": 29,
+        "rank": 30,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "Qwen3.5-27B",
@@ -25224,7 +25359,7 @@ window.AI_GENERATED_DATA = {
         "cost": "25.0"
       },
       {
-        "rank": 30,
+        "rank": 31,
         "type": "商用",
         "org": "豆包",
         "model": "Doubao-Seed-2.0-lite",
@@ -25234,7 +25369,7 @@ window.AI_GENERATED_DATA = {
         "cost": "5.4"
       },
       {
-        "rank": 31,
+        "rank": 32,
         "type": "商用",
         "org": "anthropic",
         "model": "claude-opus-4.6",
@@ -25244,7 +25379,7 @@ window.AI_GENERATED_DATA = {
         "cost": "96.5"
       },
       {
-        "rank": 32,
+        "rank": 33,
         "type": "商用",
         "org": "XAI",
         "model": "grok-4.5(new)",
@@ -25254,7 +25389,7 @@ window.AI_GENERATED_DATA = {
         "cost": "125.7"
       },
       {
-        "rank": 33,
+        "rank": 34,
         "type": "商用",
         "org": "豆包",
         "model": "Doubao-Seed-2.0-mini",
@@ -25264,7 +25399,7 @@ window.AI_GENERATED_DATA = {
         "cost": "7.0"
       },
       {
-        "rank": 34,
+        "rank": 35,
         "type": "商用",
         "org": "智谱AI",
         "model": "GLM-5-Turbo",
@@ -25274,7 +25409,7 @@ window.AI_GENERATED_DATA = {
         "cost": "60.8"
       },
       {
-        "rank": 35,
+        "rank": 36,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3-max-think-2026-01-23",
@@ -25284,7 +25419,7 @@ window.AI_GENERATED_DATA = {
         "cost": "43.5"
       },
       {
-        "rank": 36,
+        "rank": 37,
         "type": "开源",
         "org": "智谱AI",
         "model": "GLM-5",
@@ -25294,7 +25429,7 @@ window.AI_GENERATED_DATA = {
         "cost": "61.2"
       },
       {
-        "rank": 37,
+        "rank": 38,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "qwen3.5-flash",
@@ -25304,17 +25439,17 @@ window.AI_GENERATED_DATA = {
         "cost": "10.4"
       },
       {
-        "rank": 38,
+        "rank": 39,
         "type": "开源",
         "org": "阿里巴巴",
-        "model": "qwen3.6-27b(new)",
+        "model": "qwen3.6-27b",
         "score": "68.8%",
         "latency": "62s",
         "tokens": "4275",
         "cost": "73.2"
       },
       {
-        "rank": 39,
+        "rank": 40,
         "type": "开源",
         "org": "深度求索",
         "model": "deepseek-v4-flash(new)",
@@ -25324,7 +25459,7 @@ window.AI_GENERATED_DATA = {
         "cost": "4.9"
       },
       {
-        "rank": 40,
+        "rank": 41,
         "type": "商用",
         "org": "腾讯",
         "model": "hunyuan-2.0-thinking-20251109",
@@ -25334,17 +25469,17 @@ window.AI_GENERATED_DATA = {
         "cost": "9.5"
       },
       {
-        "rank": 41,
+        "rank": 42,
         "type": "商用",
         "org": "百度",
-        "model": "ernie-5.1(new)",
+        "model": "ernie-5.1",
         "score": "68.2%",
         "latency": "50s",
         "tokens": "2014",
         "cost": "32.6"
       },
       {
-        "rank": 42,
+        "rank": 43,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "Qwen3.6-35B-A3B",
@@ -25354,7 +25489,7 @@ window.AI_GENERATED_DATA = {
         "cost": "40.5"
       },
       {
-        "rank": 43,
+        "rank": 44,
         "type": "商用",
         "org": "minimax",
         "model": "MiniMax-M3(new)",
@@ -25364,7 +25499,7 @@ window.AI_GENERATED_DATA = {
         "cost": "37.0"
       },
       {
-        "rank": 44,
+        "rank": 45,
         "type": "开源",
         "org": "智谱AI",
         "model": "GLM-4.7",
@@ -25374,7 +25509,7 @@ window.AI_GENERATED_DATA = {
         "cost": "52.5"
       },
       {
-        "rank": 45,
+        "rank": 46,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.2-high",
@@ -25384,7 +25519,7 @@ window.AI_GENERATED_DATA = {
         "cost": "94.1"
       },
       {
-        "rank": 46,
+        "rank": 47,
         "type": "开源",
         "org": "阶跃星辰",
         "model": "step-3.7-flash(new)",
@@ -25394,7 +25529,7 @@ window.AI_GENERATED_DATA = {
         "cost": "40.6"
       },
       {
-        "rank": 47,
+        "rank": 48,
         "type": "商用",
         "org": "百度",
         "model": "ERNIE-5.0",
@@ -25404,7 +25539,7 @@ window.AI_GENERATED_DATA = {
         "cost": "89.2"
       },
       {
-        "rank": 48,
+        "rank": 49,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.1-high",
@@ -25414,7 +25549,7 @@ window.AI_GENERATED_DATA = {
         "cost": "180.0"
       },
       {
-        "rank": 49,
+        "rank": 50,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.1-medium",
@@ -25424,7 +25559,7 @@ window.AI_GENERATED_DATA = {
         "cost": "87.9"
       },
       {
-        "rank": 50,
+        "rank": 51,
         "type": "开源",
         "org": "深度求索",
         "model": "DeepSeek-V3.2-Think",
@@ -25434,7 +25569,7 @@ window.AI_GENERATED_DATA = {
         "cost": "7.5"
       },
       {
-        "rank": 51,
+        "rank": 52,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5-2025-08-07",
@@ -25442,16 +25577,6 @@ window.AI_GENERATED_DATA = {
         "latency": "72s",
         "tokens": "630",
         "cost": "31.9"
-      },
-      {
-        "rank": 52,
-        "type": "商用",
-        "org": "google",
-        "model": "gemini-2.5-pro",
-        "score": "66.6%",
-        "latency": "67s",
-        "tokens": "2809",
-        "cost": "188.9"
       },
       {
         "rank": 53,
@@ -25487,7 +25612,7 @@ window.AI_GENERATED_DATA = {
         "rank": 56,
         "type": "开源",
         "org": "小米",
-        "model": "mimo-v2.5(new)",
+        "model": "mimo-v2.5",
         "score": "65.8%",
         "latency": "46s",
         "tokens": "3024",
@@ -25706,26 +25831,6 @@ window.AI_GENERATED_DATA = {
       {
         "rank": 78,
         "type": "开源",
-        "org": "阿里巴巴",
-        "model": "qwen3-235b-a22b-instruct-2507",
-        "score": "62.1%",
-        "latency": "44s",
-        "tokens": "1069",
-        "cost": "7.2"
-      },
-      {
-        "rank": 79,
-        "type": "商用",
-        "org": "openAI",
-        "model": "o4-mini",
-        "score": "62.1%",
-        "latency": "35s",
-        "tokens": "1414",
-        "cost": "40.3"
-      },
-      {
-        "rank": 80,
-        "type": "开源",
         "org": "深度求索",
         "model": "DeepSeek-V3.2",
         "score": "61.9%",
@@ -25734,7 +25839,7 @@ window.AI_GENERATED_DATA = {
         "cost": "2.4"
       },
       {
-        "rank": 81,
+        "rank": 79,
         "type": "商用",
         "org": "anthropic",
         "model": "claude-sonnet-4.5",
@@ -25744,7 +25849,7 @@ window.AI_GENERATED_DATA = {
         "cost": "54.7"
       },
       {
-        "rank": 82,
+        "rank": 80,
         "type": "商用",
         "org": "豆包",
         "model": "doubao-seed-1-6-lite-251015",
@@ -25754,17 +25859,7 @@ window.AI_GENERATED_DATA = {
         "cost": "3.0"
       },
       {
-        "rank": 83,
-        "type": "商用",
-        "org": "腾讯",
-        "model": "hunyuan-t1-20250711",
-        "score": "60.8%",
-        "latency": "71s",
-        "tokens": "2707",
-        "cost": "9.9"
-      },
-      {
-        "rank": 84,
+        "rank": 81,
         "type": "商用",
         "org": "anthropic",
         "model": "claude-haiku-4.5-thinking",
@@ -25774,7 +25869,7 @@ window.AI_GENERATED_DATA = {
         "cost": "158.1"
       },
       {
-        "rank": 85,
+        "rank": 82,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.4",
@@ -25784,17 +25879,7 @@ window.AI_GENERATED_DATA = {
         "cost": "34.8"
       },
       {
-        "rank": 86,
-        "type": "开源",
-        "org": "阿里巴巴",
-        "model": "qwen3-235b-a22b-thinking-2507",
-        "score": "60.5%",
-        "latency": "143s",
-        "tokens": "3421",
-        "cost": "61.2"
-      },
-      {
-        "rank": 87,
+        "rank": 83,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.4-nano-high",
@@ -25804,27 +25889,7 @@ window.AI_GENERATED_DATA = {
         "cost": "13.2"
       },
       {
-        "rank": 88,
-        "type": "开源",
-        "org": "深度求索",
-        "model": "DeepSeek-R1-0528",
-        "score": "60.5%",
-        "latency": "215s",
-        "tokens": "3077",
-        "cost": "48.0"
-      },
-      {
-        "rank": 89,
-        "type": "商用",
-        "org": "anthropic",
-        "model": "claude-4-sonnet",
-        "score": "60.4%",
-        "latency": "44s",
-        "tokens": "604",
-        "cost": "47.7"
-      },
-      {
-        "rank": 90,
+        "rank": 84,
         "type": "开源",
         "org": "小米",
         "model": "MiMo-V2-Flash-think",
@@ -25834,7 +25899,7 @@ window.AI_GENERATED_DATA = {
         "cost": "0.0"
       },
       {
-        "rank": 91,
+        "rank": 85,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen-plus-think-2025-12-01",
@@ -25844,7 +25909,7 @@ window.AI_GENERATED_DATA = {
         "cost": "27.1"
       },
       {
-        "rank": 92,
+        "rank": 86,
         "type": "开源",
         "org": "豆包",
         "model": "Seed-OSS-36B-Instruct",
@@ -25854,7 +25919,7 @@ window.AI_GENERATED_DATA = {
         "cost": "10.8"
       },
       {
-        "rank": 93,
+        "rank": 87,
         "type": "开源",
         "org": "深度求索",
         "model": "DeepSeek-V3.1",
@@ -25864,27 +25929,7 @@ window.AI_GENERATED_DATA = {
         "cost": "6.5"
       },
       {
-        "rank": 94,
-        "type": "开源",
-        "org": "阿里巴巴",
-        "model": "Qwen3-30B-A3B-Thinking-2507",
-        "score": "59.1%",
-        "latency": "106s",
-        "tokens": "3300",
-        "cost": "8.8"
-      },
-      {
-        "rank": 95,
-        "type": "开源",
-        "org": "智谱AI",
-        "model": "GLM-4.5-Air",
-        "score": "58.9%",
-        "latency": "89s",
-        "tokens": "3212",
-        "cost": "18.0"
-      },
-      {
-        "rank": 96,
+        "rank": 88,
         "type": "商用",
         "org": "豆包",
         "model": "doubao-seed-1-6-251015",
@@ -25894,7 +25939,7 @@ window.AI_GENERATED_DATA = {
         "cost": "8.3"
       },
       {
-        "rank": 97,
+        "rank": 89,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "qwen3-next-80b-a3b-instruct",
@@ -25904,7 +25949,7 @@ window.AI_GENERATED_DATA = {
         "cost": "3.9"
       },
       {
-        "rank": 98,
+        "rank": 90,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5-mini-2025-08-07",
@@ -25914,7 +25959,7 @@ window.AI_GENERATED_DATA = {
         "cost": "17.4"
       },
       {
-        "rank": 99,
+        "rank": 91,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "qwen3-next-80b-a3b-thinking",
@@ -25924,17 +25969,7 @@ window.AI_GENERATED_DATA = {
         "cost": "17.1"
       },
       {
-        "rank": 100,
-        "type": "商用",
-        "org": "智谱AI",
-        "model": "GLM-4.5-Flash",
-        "score": "58.4%",
-        "latency": "63s",
-        "tokens": "3170",
-        "cost": "0.0"
-      },
-      {
-        "rank": 101,
+        "rank": 92,
         "type": "商用",
         "org": "百度",
         "model": "ERNIE-X1.1-Preview",
@@ -25944,7 +25979,7 @@ window.AI_GENERATED_DATA = {
         "cost": "9.3"
       },
       {
-        "rank": 102,
+        "rank": 93,
         "type": "商用",
         "org": "XAI",
         "model": "grok-4-1-fast-reasoning",
@@ -25954,7 +25989,7 @@ window.AI_GENERATED_DATA = {
         "cost": "8.1"
       },
       {
-        "rank": 103,
+        "rank": 94,
         "type": "商用",
         "org": "小米",
         "model": "MiMo-V2-Flash-0204",
@@ -25964,7 +25999,7 @@ window.AI_GENERATED_DATA = {
         "cost": "1.7"
       },
       {
-        "rank": 104,
+        "rank": 95,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5-mini-high",
@@ -25974,7 +26009,7 @@ window.AI_GENERATED_DATA = {
         "cost": "48.4"
       },
       {
-        "rank": 105,
+        "rank": 96,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen-plus-2025-12-01",
@@ -25984,7 +26019,7 @@ window.AI_GENERATED_DATA = {
         "cost": "2.8"
       },
       {
-        "rank": 106,
+        "rank": 97,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen-flash-think-2025-07-28",
@@ -25994,17 +26029,7 @@ window.AI_GENERATED_DATA = {
         "cost": "4.6"
       },
       {
-        "rank": 107,
-        "type": "商用",
-        "org": "google",
-        "model": "gemini-2.5-flash",
-        "score": "57.0%",
-        "latency": "40s",
-        "tokens": "2586",
-        "cost": "43.2"
-      },
-      {
-        "rank": 108,
+        "rank": 98,
         "type": "开源",
         "org": "月之暗面",
         "model": "kimi-k2-0905",
@@ -26014,7 +26039,7 @@ window.AI_GENERATED_DATA = {
         "cost": "13.2"
       },
       {
-        "rank": 109,
+        "rank": 99,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.2",
@@ -26024,17 +26049,7 @@ window.AI_GENERATED_DATA = {
         "cost": "23.7"
       },
       {
-        "rank": 110,
-        "type": "商用",
-        "org": "百度",
-        "model": "ERNIE-4.5-Turbo-32K",
-        "score": "55.8%",
-        "latency": "66s",
-        "tokens": "713",
-        "cost": "1.8"
-      },
-      {
-        "rank": 111,
+        "rank": 100,
         "type": "开源",
         "org": "小米",
         "model": "MiMo-V2-Flash",
@@ -26044,7 +26059,7 @@ window.AI_GENERATED_DATA = {
         "cost": "0.0"
       },
       {
-        "rank": 112,
+        "rank": 101,
         "type": "开源",
         "org": "美团",
         "model": "LongCat-Flash-Lite",
@@ -26054,7 +26069,7 @@ window.AI_GENERATED_DATA = {
         "cost": "0.0"
       },
       {
-        "rank": 113,
+        "rank": 102,
         "type": "开源",
         "org": "openAI",
         "model": "gpt-oss-120b",
@@ -26064,27 +26079,7 @@ window.AI_GENERATED_DATA = {
         "cost": "2.9"
       },
       {
-        "rank": 114,
-        "type": "商用",
-        "org": "百度",
-        "model": "ERNIE-X1-Turbo-32K",
-        "score": "55.0%",
-        "latency": "288s",
-        "tokens": "2605",
-        "cost": "9.7"
-      },
-      {
-        "rank": 115,
-        "type": "商用",
-        "org": "anthropic",
-        "model": "claude-4-sonnet-thinking",
-        "score": "54.1%",
-        "latency": "39s",
-        "tokens": "745",
-        "cost": "54.7"
-      },
-      {
-        "rank": 116,
+        "rank": 103,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5-nano-high",
@@ -26094,7 +26089,7 @@ window.AI_GENERATED_DATA = {
         "cost": "19.3"
       },
       {
-        "rank": 117,
+        "rank": 104,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5-nano-2025-08-07",
@@ -26104,7 +26099,7 @@ window.AI_GENERATED_DATA = {
         "cost": "7.4"
       },
       {
-        "rank": 118,
+        "rank": 105,
         "type": "商用",
         "org": "google",
         "model": "gemini-3.1-flash-lite-preview",
@@ -26114,17 +26109,7 @@ window.AI_GENERATED_DATA = {
         "cost": "3.9"
       },
       {
-        "rank": 119,
-        "type": "开源",
-        "org": "阿里巴巴",
-        "model": "Qwen3-30B-A3B-Instruct-2507",
-        "score": "52.5%",
-        "latency": "49s",
-        "tokens": "1157",
-        "cost": "2.9"
-      },
-      {
-        "rank": 120,
+        "rank": 106,
         "type": "商用",
         "org": "anthropic",
         "model": "claude-haiku-4.5",
@@ -26134,17 +26119,7 @@ window.AI_GENERATED_DATA = {
         "cost": "18.9"
       },
       {
-        "rank": 121,
-        "type": "开源",
-        "org": "阿里巴巴",
-        "model": "Qwen3-14B",
-        "score": "51.8%",
-        "latency": "118s",
-        "tokens": "3696",
-        "cost": "7.1"
-      },
-      {
-        "rank": 122,
+        "rank": 107,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen-flash-2025-07-28",
@@ -26154,7 +26129,7 @@ window.AI_GENERATED_DATA = {
         "cost": "1.5"
       },
       {
-        "rank": 123,
+        "rank": 108,
         "type": "开源",
         "org": "google",
         "model": "gemma-4-31b-it",
@@ -26164,7 +26139,7 @@ window.AI_GENERATED_DATA = {
         "cost": "1.4"
       },
       {
-        "rank": 124,
+        "rank": 109,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.1",
@@ -26174,17 +26149,7 @@ window.AI_GENERATED_DATA = {
         "cost": "19.3"
       },
       {
-        "rank": 125,
-        "type": "开源",
-        "org": "阿里巴巴",
-        "model": "Qwen3-32B",
-        "score": "51.1%",
-        "latency": "110s",
-        "tokens": "2762",
-        "cost": "10.4"
-      },
-      {
-        "rank": 126,
+        "rank": 110,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.4-mini",
@@ -26194,7 +26159,7 @@ window.AI_GENERATED_DATA = {
         "cost": "7.0"
       },
       {
-        "rank": 127,
+        "rank": 111,
         "type": "开源",
         "org": "google",
         "model": "gemma-4-26b-a4b-it",
@@ -26204,7 +26169,7 @@ window.AI_GENERATED_DATA = {
         "cost": "1.7"
       },
       {
-        "rank": 128,
+        "rank": 112,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen-turbo-think-2025-07-15",
@@ -26214,17 +26179,7 @@ window.AI_GENERATED_DATA = {
         "cost": "8.8"
       },
       {
-        "rank": 129,
-        "type": "商用",
-        "org": "智谱AI",
-        "model": "GLM-4.5-Flash-nothink",
-        "score": "50.0%",
-        "latency": "32s",
-        "tokens": "1432",
-        "cost": "0.0"
-      },
-      {
-        "rank": 130,
+        "rank": 113,
         "type": "开源",
         "org": "智谱AI",
         "model": "GLM-4.7-Flash",
@@ -26234,7 +26189,7 @@ window.AI_GENERATED_DATA = {
         "cost": "0.0"
       },
       {
-        "rank": 131,
+        "rank": 114,
         "type": "开源",
         "org": "openAI",
         "model": "gpt-oss-20b",
@@ -26244,7 +26199,7 @@ window.AI_GENERATED_DATA = {
         "cost": "2.1"
       },
       {
-        "rank": 132,
+        "rank": 115,
         "type": "开源",
         "org": "Mistral",
         "model": "mistral-large-2512",
@@ -26254,57 +26209,7 @@ window.AI_GENERATED_DATA = {
         "cost": "6.9"
       },
       {
-        "rank": 133,
-        "type": "开源",
-        "org": "智谱AI",
-        "model": "GLM-4.5-Air-nothink",
-        "score": "49.4%",
-        "latency": "64s",
-        "tokens": "1920",
-        "cost": "10.4"
-      },
-      {
-        "rank": 134,
-        "type": "开源",
-        "org": "阿里巴巴",
-        "model": "Qwen3-8B",
-        "score": "47.7%",
-        "latency": "262s",
-        "tokens": "6511",
-        "cost": "0.0"
-      },
-      {
-        "rank": 135,
-        "type": "商用",
-        "org": "阿里巴巴",
-        "model": "qwen-turbo-2025-07-15",
-        "score": "46.6%",
-        "latency": "46s",
-        "tokens": "713",
-        "cost": "0.4"
-      },
-      {
-        "rank": 136,
-        "type": "开源",
-        "org": "阿里巴巴",
-        "model": "Qwen3-32B-nothink",
-        "score": "46.0%",
-        "latency": "94s",
-        "tokens": "738",
-        "cost": "2.3"
-      },
-      {
-        "rank": 137,
-        "type": "开源",
-        "org": "阿里巴巴",
-        "model": "Qwen3-4B",
-        "score": "45.9%",
-        "latency": "71s",
-        "tokens": "2337",
-        "cost": "6.4"
-      },
-      {
-        "rank": 138,
+        "rank": 116,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.4-nano",
@@ -26314,7 +26219,7 @@ window.AI_GENERATED_DATA = {
         "cost": "2.2"
       },
       {
-        "rank": 139,
+        "rank": 117,
         "type": "商用",
         "org": "google",
         "model": "gemini-2.5-flash-lite",
@@ -26324,17 +26229,7 @@ window.AI_GENERATED_DATA = {
         "cost": "8.9"
       },
       {
-        "rank": 140,
-        "type": "开源",
-        "org": "阿里巴巴",
-        "model": "Qwen3-14B-nothink",
-        "score": "42.6%",
-        "latency": "44s",
-        "tokens": "848",
-        "cost": "1.3"
-      },
-      {
-        "rank": 141,
+        "rank": 118,
         "type": "商用",
         "org": "XAI",
         "model": "grok-4-1-fast-non-reasoning",
@@ -26344,27 +26239,7 @@ window.AI_GENERATED_DATA = {
         "cost": "1.6"
       },
       {
-        "rank": 142,
-        "type": "商用",
-        "org": "百川智能",
-        "model": "Baichuan4-Turbo",
-        "score": "42.4%",
-        "latency": "/",
-        "tokens": "/",
-        "cost": "/"
-      },
-      {
-        "rank": 143,
-        "type": "开源",
-        "org": "meta",
-        "model": "Llama-4-Scout-17B-16E-Instruct",
-        "score": "41.1%",
-        "latency": "13s",
-        "tokens": "590",
-        "cost": "1.1"
-      },
-      {
-        "rank": 144,
+        "rank": 119,
         "type": "开源",
         "org": "Mistral",
         "model": "Ministral-3-14B-Instruct-2512",
@@ -26374,17 +26249,7 @@ window.AI_GENERATED_DATA = {
         "cost": "2.3"
       },
       {
-        "rank": 145,
-        "type": "开源",
-        "org": "阿里巴巴",
-        "model": "Qwen3-8B-nothink",
-        "score": "39.3%",
-        "latency": "37s",
-        "tokens": "801",
-        "cost": "0.0"
-      },
-      {
-        "rank": 146,
+        "rank": 120,
         "type": "开源",
         "org": "Mistral",
         "model": "Ministral-3-8B-Instruct-2512",
@@ -26394,27 +26259,7 @@ window.AI_GENERATED_DATA = {
         "cost": "1.6"
       },
       {
-        "rank": 147,
-        "type": "开源",
-        "org": "智谱AI",
-        "model": "GLM-4-9B-0414",
-        "score": "36.3%",
-        "latency": "11s",
-        "tokens": "500",
-        "cost": "0.0"
-      },
-      {
-        "rank": 148,
-        "type": "开源",
-        "org": "阿里巴巴",
-        "model": "Qwen3-4B-nothink",
-        "score": "36.3%",
-        "latency": "71s",
-        "tokens": "754",
-        "cost": "1.6"
-      },
-      {
-        "rank": 149,
+        "rank": 121,
         "type": "开源",
         "org": "Mistral",
         "model": "Ministral-3-3B-Instruct-2512",
