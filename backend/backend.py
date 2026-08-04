@@ -18,8 +18,6 @@ from html.parser import HTMLParser
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 
-LLM_WORKERS = int(os.getenv("LLM_WORKERS", "50"))
-
 ROOT = Path(__file__).resolve().parent.parent
 GENERATED_JSON = ROOT / "data" / "generated-data.json"
 GENERATED_JS = ROOT / "assets" / "data" / "generated-data.js"
@@ -27,6 +25,9 @@ GENERATED_JS = ROOT / "assets" / "data" / "generated-data.js"
 # 所以 JSON 也要在 assets/data 下放一份，否则浏览器拿到 404。
 GENERATED_JSON_ASSET = ROOT / "assets" / "data" / "generated-data.json"
 SCHEDULER_STATE = ROOT / "data" / "scheduler-state.json"
+PROCESSED_INDEX = ROOT / "data" / "processed-index.json"
+LLM_USAGE_STATE = ROOT / "data" / "llm-usage.json"
+_RUNTIME_FILE_LOCK = threading.Lock()
 
 FREE_INFO_SOURCES = [
     {"name": "Google Programmable Search", "description": "官方 Google 搜索 API，注册 Google Cloud/PSE 后每天 100 次免费查询，适合兜底搜 AI 工具、模型和榜单来源。", "url": "https://developers.google.com/custom-search/v1/overview"},
@@ -298,10 +299,15 @@ def write_generated(data: dict) -> None:
 
     # 抓取正文仅用于服务端生成摘要，绝不进入浏览器可下载的数据包。
     payload = json.dumps(public_value(data), ensure_ascii=False, indent=2)
-    GENERATED_JSON.write_text(payload + "\n", encoding="utf-8")
+    json_text = payload + "\n"
+    js_text = "window.AI_GENERATED_DATA = " + payload + ";\n"
+    if not GENERATED_JSON.exists() or GENERATED_JSON.read_text(encoding="utf-8") != json_text:
+        GENERATED_JSON.write_text(json_text, encoding="utf-8")
     # 前端 fetch /assets/data/generated-data.json，这里同步落一份
-    GENERATED_JSON_ASSET.write_text(payload + "\n", encoding="utf-8")
-    GENERATED_JS.write_text("window.AI_GENERATED_DATA = " + payload + ";\n", encoding="utf-8")
+    if not GENERATED_JSON_ASSET.exists() or GENERATED_JSON_ASSET.read_text(encoding="utf-8") != json_text:
+        GENERATED_JSON_ASSET.write_text(json_text, encoding="utf-8")
+    if not GENERATED_JS.exists() or GENERATED_JS.read_text(encoding="utf-8") != js_text:
+        GENERATED_JS.write_text(js_text, encoding="utf-8")
 
 
 def uniq_by(items: list[dict], key_fn) -> list[dict]:
@@ -353,27 +359,67 @@ def category_from_text(text: str) -> str:
     return "ai-models"
 
 
+def _record_llm_usage(payload: dict | None, model: str, *, failed: bool = False, retried: bool = False) -> None:
+    """Persist daily OpenAI-compatible usage counters outside the published site bundle."""
+    usage = (payload or {}).get("usage") or {}
+    prompt_tokens = int(usage.get("prompt_tokens") or usage.get("input_tokens") or 0)
+    completion_tokens = int(usage.get("completion_tokens") or usage.get("output_tokens") or 0)
+    total_tokens = int(usage.get("total_tokens") or prompt_tokens + completion_tokens)
+    with _RUNTIME_FILE_LOCK:
+        state = read_json(LLM_USAGE_STATE, {"days": {}})
+        days = state.setdefault("days", {})
+        day = days.setdefault(today_iso(), {
+            "calls": 0, "failures": 0, "retries": 0,
+            "promptTokens": 0, "completionTokens": 0, "totalTokens": 0,
+            "models": {},
+        })
+        day["calls"] += 1
+        day["failures"] += int(failed)
+        day["retries"] += int(retried)
+        day["promptTokens"] += prompt_tokens
+        day["completionTokens"] += completion_tokens
+        day["totalTokens"] += total_tokens
+        model_row = day["models"].setdefault(model, {"calls": 0, "totalTokens": 0})
+        model_row["calls"] += 1
+        model_row["totalTokens"] += total_tokens
+        # Keep a compact rolling window; this file is runtime-only and gitignored.
+        state["days"] = dict(sorted(days.items())[-35:])
+        LLM_USAGE_STATE.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
 def call_json_llm(system: str, user: str) -> dict | None:
     api_key = os.getenv("LLM_API_KEY")
     if not api_key:
         return None
     base_url = os.getenv("LLM_BASE_URL", "https://api.openai.com").rstrip("/")
     endpoint = os.getenv("LLM_ENDPOINT") or (f"{base_url}/chat/completions" if base_url.endswith("/v1") else f"{base_url}/v1/chat/completions")
+    model = os.getenv("LLM_MODEL", "gpt-4.1-mini")
     body = {
-        "model": os.getenv("LLM_MODEL", "gpt-4.1-mini"),
+        "model": model,
         "temperature": 0.2,
-        "response_format": {"type": "json_object"},
+        "max_tokens": int(os.getenv("LLM_MAX_TOKENS", "1200")),
         "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}],
     }
+    json_mode = os.getenv("LLM_JSON_MODE", "1").lower() in ("1", "true", "yes", "on")
+    if json_mode:
+        body["response_format"] = {"type": "json_object"}
     headers = {"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"}
+    retried = False
     try:
         payload = request_json(endpoint, headers=headers, payload=body, timeout=60)
     except Exception:
+        retry_without_json = json_mode and os.getenv("LLM_RETRY_WITHOUT_JSON", "0").lower() in ("1", "true", "yes", "on")
+        if not retry_without_json:
+            _record_llm_usage(None, model, failed=True)
+            return None
+        retried = True
         body.pop("response_format", None)
         try:
             payload = request_json(endpoint, headers=headers, payload=body, timeout=60)
         except Exception:
+            _record_llm_usage(None, model, failed=True, retried=True)
             return None
+    _record_llm_usage(payload, model, retried=retried)
     content = (((payload or {}).get("choices") or [{}])[0].get("message") or {}).get("content") or "{}"
     match = re.search(r"\{[\s\S]*\}", content)
     try:
@@ -703,12 +749,18 @@ def localize_skills_list(skills: list[dict]) -> list[dict]:
 
 
 def seed_skills(target: int = 100) -> dict:
-    """一次性抓 target 个 skill 并按分类写入 generated-data.json 的 skillRecommendations。"""
+    """Refresh target skills, localizing only URLs that have never been processed."""
     skills = fetch_skills_bulk(target)
-    skills = localize_skills_list(skills)  # 中文化，保证卡片统一
+    data = read_json(GENERATED_JSON, {})
+    existing = {_processed_key(item): item for item in (data.get("skillRecommendations") or [])}
+    changed = filter_unprocessed(skills, "seedSkills")
+    localized, failed = parallel_enrich(changed, localize_skill_card, "skills-localize")
+    updates = {_processed_key(item): item for item in [*localized, *failed]}
+    mark_processed(changed, "seedSkills")
+    skills = [updates.get(_processed_key(item)) or existing.get(_processed_key(item)) or item for item in skills]
+    skills.sort(key=lambda x: -int(x.get("stars") or 0))
     import collections as _c
     dist = _c.Counter(s["type"] for s in skills)
-    data = read_json(GENERATED_JSON, {})
     data["skillRecommendations"] = skills
     data["lastUpdated"] = today_iso()
     write_generated(data)
@@ -786,7 +838,13 @@ def fetch_news_api_items(since: str | None = None, until: str | None = None) -> 
     """轮询 SEARCH_QUERIES 全部关键词，覆盖每个已配置的新闻 API。
     since/until 是 'YYYY-MM-DD' 字符串；None 表示拿最新。"""
     items: list[dict] = []
-    queries = SEARCH_QUERIES[:6]
+    # Three hourly queries stay within a typical 100-request/day development quota.
+    queries = SEARCH_QUERIES[:int(os.getenv("NEWS_API_QUERY_LIMIT", "3"))]
+    enabled_providers = {
+        name.strip().lower()
+        for name in os.getenv("NEWS_API_PROVIDERS", "newsapi").split(",")
+        if name.strip()
+    }
 
     def add(title, summary, url, source, published_date=None):
         if title and url:
@@ -795,7 +853,7 @@ def fetch_news_api_items(since: str | None = None, until: str | None = None) -> 
                 "_date_hint": published_date,
             })
 
-    if os.getenv("NEWSAPI_KEY"):
+    if "newsapi" in enabled_providers and os.getenv("NEWSAPI_KEY"):
         for q in queries:
             params = {"q": q, "language": "en", "sortBy": "publishedAt", "pageSize": "10", "apiKey": os.getenv("NEWSAPI_KEY")}
             if since: params["from"] = since
@@ -806,7 +864,7 @@ def fetch_news_api_items(since: str | None = None, until: str | None = None) -> 
             except Exception:
                 pass
 
-    if os.getenv("GNEWS_API_KEY"):
+    if "gnews" in enabled_providers and os.getenv("GNEWS_API_KEY"):
         for q in queries:
             params = {"q": q, "lang": "en", "max": "10", "apikey": os.getenv("GNEWS_API_KEY")}
             if since: params["from"] = since + "T00:00:00Z"
@@ -817,7 +875,7 @@ def fetch_news_api_items(since: str | None = None, until: str | None = None) -> 
             except Exception:
                 pass
 
-    if os.getenv("NEWSDATA_API_KEY"):
+    if "newsdata" in enabled_providers and os.getenv("NEWSDATA_API_KEY"):
         for q in queries:
             params = {"apikey": os.getenv("NEWSDATA_API_KEY"), "q": q, "language": "en"}
             if since: params["from_date"] = since
@@ -828,7 +886,7 @@ def fetch_news_api_items(since: str | None = None, until: str | None = None) -> 
             except Exception:
                 pass
 
-    if os.getenv("GUARDIAN_API_KEY"):
+    if "guardian" in enabled_providers and os.getenv("GUARDIAN_API_KEY"):
         for q in queries:
             params = {"q": q, "api-key": os.getenv("GUARDIAN_API_KEY"), "page-size": "10", "order-by": "newest"}
             if since: params["from-date"] = since
@@ -839,7 +897,7 @@ def fetch_news_api_items(since: str | None = None, until: str | None = None) -> 
             except Exception:
                 pass
 
-    if os.getenv("CURRENTS_API_KEY"):
+    if "currents" in enabled_providers and os.getenv("CURRENTS_API_KEY"):
         for q in queries:
             params = {"keywords": q, "language": "en", "apiKey": os.getenv("CURRENTS_API_KEY")}
             if since: params["start_date"] = since + "T00:00:00.00+00:00"
@@ -850,7 +908,7 @@ def fetch_news_api_items(since: str | None = None, until: str | None = None) -> 
             except Exception:
                 pass
 
-    if os.getenv("WORLDNEWS_API_KEY"):
+    if "worldnews" in enabled_providers and os.getenv("WORLDNEWS_API_KEY"):
         for q in queries:
             params = {"text": q, "number": "10", "api-key": os.getenv("WORLDNEWS_API_KEY")}
             if since: params["earliest-publish-date"] = since
@@ -861,7 +919,7 @@ def fetch_news_api_items(since: str | None = None, until: str | None = None) -> 
             except Exception:
                 pass
 
-    if os.getenv("MARKETAUX_API_KEY"):
+    if "marketaux" in enabled_providers and os.getenv("MARKETAUX_API_KEY"):
         for q in queries:
             params = {"api_token": os.getenv("MARKETAUX_API_KEY"), "search": q, "limit": "5", "language": "en"}
             if since: params["published_after"] = since + "T00:00"
@@ -958,7 +1016,7 @@ _NOISE_BLOCK_RE = re.compile(
 )
 
 
-def fetch_article_document(url: str, max_chars: int = 5000, timeout: int = 12) -> tuple[str, str, str]:
+def fetch_article_document(url: str, max_chars: int = 2800, timeout: int = 12) -> tuple[str, str, str]:
     """Fetch article text plus verified publication date/datetime from page metadata."""
     if not url or not url.startswith(("http://", "https://")):
         return "", "", ""
@@ -1666,7 +1724,7 @@ def cluster_news(items: list[dict]) -> list[dict]:
 # 日报不调任何大模型：精选/分类/摘要在入库时已做完，日报只是把已处理好的精选条目
 # 按类别分桶 + 按分排序，几毫秒生成。参考 AIHOT：日报是"标题层"成品。
 def existing_news_urls() -> set:
-    """已入库的 news URL 集合——用于高频采集时跳过已处理条目。"""
+    """All previously processed news URLs, including entries no longer retained on the site."""
     data = read_json(GENERATED_JSON, {})
     urls = set()
     for n in data.get("news") or []:
@@ -1675,7 +1733,68 @@ def existing_news_urls() -> set:
         for r in n.get("relatedSources") or []:
             if r.get("url"):
                 urls.add(r["url"])
+    urls.update((read_json(PROCESSED_INDEX, {}).get("kinds") or {}).get("news", {}).keys())
     return urls
+
+
+def _processed_key(item: dict) -> str:
+    return str(item.get("url") or item.get("name") or item.get("title") or "").strip()
+
+
+def _content_fingerprint(item: dict) -> str:
+    """Hash stable source content; intentionally ignore stars, crawl time and other volatile fields."""
+    stable = {
+        "key": _processed_key(item),
+        "title": item.get("title") or item.get("name") or "",
+        "summary": item.get("summary") or item.get("description") or "",
+        "source": item.get("source") or "",
+    }
+    encoded = json.dumps(stable, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
+    return hashlib.sha256(encoded.encode("utf-8")).hexdigest()
+
+
+def _bootstrap_processed_index() -> dict:
+    state = read_json(PROCESSED_INDEX, {})
+    if state.get("kinds"):
+        return state
+    generated = read_json(GENERATED_JSON, {})
+    state = {"version": 1, "kinds": {"news": {}, "github": {}, "skills": {}, "seedSkills": {}}}
+    mappings = {
+        "news": generated.get("news") or [],
+        "github": generated.get("githubWeekly") or [],
+        "skills": generated.get("skillRecommendations") or [],
+        "seedSkills": generated.get("skillRecommendations") or [],
+    }
+    now = datetime.now(timezone.utc).isoformat()
+    for kind, items in mappings.items():
+        for item in items:
+            key = _processed_key(item)
+            if key:
+                state["kinds"][kind][key] = {"fingerprint": _content_fingerprint(item), "seenAt": now}
+    PROCESSED_INDEX.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
+    return state
+
+
+def filter_unprocessed(items: list[dict], kind: str) -> list[dict]:
+    state = _bootstrap_processed_index()
+    known = (state.get("kinds") or {}).get(kind, {})
+    # Cards are immutable enough for this site: once a URL was enriched, never pay
+    # to enrich it again, even after it ages out of the UI or source text changes.
+    return [item for item in items if _processed_key(item) and _processed_key(item) not in known]
+
+
+def mark_processed(items: list[dict], kind: str) -> None:
+    if not items:
+        return
+    with _RUNTIME_FILE_LOCK:
+        state = _bootstrap_processed_index()
+        bucket = state.setdefault("kinds", {}).setdefault(kind, {})
+        now = datetime.now(timezone.utc).isoformat()
+        for item in items:
+            key = _processed_key(item)
+            if key:
+                bucket[key] = {"fingerprint": _content_fingerprint(item), "seenAt": now}
+        PROCESSED_INDEX.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
 def repair_existing_domestic_timestamps(candidates: list[dict]) -> int:
@@ -1899,7 +2018,9 @@ def enrich_news_item(raw: dict) -> dict | None:
     rule_category = category_from_text(text)
     style = pick_writing_style(raw.get("url") or raw.get("title") or "")
     # 抓原文，并从原文结构化元数据补充真实发布时间。
-    original_content, article_date, article_datetime = fetch_article_document(raw.get("url") or "")
+    original_content, article_date, article_datetime = fetch_article_document(
+        raw.get("url") or "", max_chars=int(os.getenv("ARTICLE_MAX_CHARS", "2800"))
+    )
     prompt = {
         "task": "把英文/中文原始 AI 信息改写成 信息密度高、可读性强 的中文条目。LLM 应优先依据 input.originalContent 写作（这是抓到的完整原文）；input.summary 只是新闻 API 给的短摘要、信息量有限。如果输入不是 AI/LLM/Agent/模型/工具相关的实质内容（ASX 股票、油价、明星八卦），返回不带 title 的对象，系统会丢弃。",
         "writingStyle": {
@@ -2111,7 +2232,7 @@ def parallel_enrich(items: list[dict], enricher, label: str = "items") -> list[d
         return []
     results: list[dict] = []
     failed: list[dict] = []
-    workers = min(LLM_WORKERS, max(1, len(items)))
+    workers = min(int(os.getenv("LLM_WORKERS", "8")), max(1, len(items)))
     with ThreadPoolExecutor(max_workers=workers) as ex:
         future_to_raw = {ex.submit(enricher, it): it for it in items}
         for fut in as_completed(future_to_raw):
@@ -2436,6 +2557,18 @@ def _sort_by_date_desc(items: list[dict]) -> list[dict]:
     return sorted(items, key=lambda x: _parse_date(x.get("date")), reverse=True)
 
 
+def _semantic_digest(data: dict) -> str:
+    """Hash publishable content while ignoring timestamps that change on every run."""
+    def stable(value):
+        if isinstance(value, dict):
+            return {key: stable(item) for key, item in value.items() if key not in ("generatedAt", "lastUpdated")}
+        if isinstance(value, list):
+            return [stable(item) for item in value]
+        return value
+    encoded = json.dumps(stable(data), ensure_ascii=False, sort_keys=True, separators=(",", ":"))
+    return hashlib.sha256(encoded.encode("utf-8")).hexdigest()
+
+
 def merge_generated(patch: dict) -> dict:
     current = read_json(GENERATED_JSON, {
         "lastUpdated": today_iso(), "generatedAt": "",
@@ -2443,12 +2576,13 @@ def merge_generated(patch: dict) -> dict:
         "sources": [], "topicResources": {}, "skillRecommendations": [],
         "benchmarkDatasets": [],
     })
+    previous_digest = _semantic_digest(current)
     # 榜单排名由 data.js 人工维护；明确命名的测评资源可自动进入数据集索引。
     merged = {
         **current,
         **patch,
-        "lastUpdated": today_iso(),
-        "generatedAt": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+        "lastUpdated": current.get("lastUpdated") or today_iso(),
+        "generatedAt": current.get("generatedAt") or "",
         "sources": uniq_by([*(patch.get("sources") or []), *FREE_INFO_SOURCES, *(current.get("sources") or [])], lambda item: f"{item.get('name')}|{item.get('url')}"),
         "news": uniq_by([*(patch.get("news") or []), *(current.get("news") or [])], lambda item: f"{item.get('title')}|{item.get('url', '')}")[:100],
         "weeklyDigests": uniq_by([*(patch.get("weeklyDigests") or []), *(current.get("weeklyDigests") or [])], lambda item: item.get("weekId"))[:24],
@@ -2500,6 +2634,11 @@ def merge_generated(patch: dict) -> dict:
     for item in merged.get("news", []) or []:
         for k in ("contentIdeas", "nextActions", "routeReason", "whyUseful"):
             item.pop(k, None)
+    if _semantic_digest(merged) == previous_digest:
+        print("  · 公开数据无实质变化，跳过写文件和部署")
+        return current
+    merged["lastUpdated"] = today_iso()
+    merged["generatedAt"] = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
     write_generated(merged)
     return merged
 
@@ -2512,7 +2651,8 @@ def split_github_for_skills(github_items: list[dict]) -> tuple[list[dict], list[
     for raw in github_items:
         if is_skill_repo(raw):
             skill_candidates.append(raw)
-        regular.append(raw)
+        else:
+            regular.append(raw)
     return regular, skill_candidates
 
 
@@ -2585,11 +2725,12 @@ def run_backfill(days: int | None = None, start: str | None = None, end: str | N
     return merge_generated(payload)
 
 
-def run_daily() -> dict:
+def run_daily(*, include_github: bool = True, include_skills: bool = True) -> dict:
     print(f"[{datetime.now().strftime('%H:%M:%S')}] run_daily 开始")
 
-    github_items = fetch_github_candidates(days_ago(2))
-    print(f"  · GitHub 抓取 {len(github_items)} 个候选")
+    github_items = fetch_github_candidates(days_ago(2)) if include_github else []
+    if include_github:
+        print(f"  · GitHub 抓取 {len(github_items)} 个候选")
 
     raw_news_items = []
     china_items = fetch_china_source_items()
@@ -2608,23 +2749,26 @@ def run_daily() -> dict:
     # 代码预筛：丢掉明显非 AI 的噪声，省掉对它们的抓原文 + LLM 开销
     before = len(raw_news_items)
     raw_news_items = [r for r in raw_news_items if is_ai_relevant(r)]
-    # 跳过已采集过的 URL：高频（每 10 分钟）采集时，只把新增条目送 LLM，避免重复处理与重复花钱
-    known = existing_news_urls()
-    raw_news_items = [r for r in raw_news_items if r.get("url") and r.get("url") not in known]
-    print(f"  · 新闻类原始候选 {before} 条 → 预筛后 {len([r for r in raw_news_items])} 条新增（已知 {len(known)} 条已跳过）")
+    raw_news_items = filter_unprocessed(raw_news_items, "news")
+    news_limit = int(os.getenv("NEWS_ENRICH_LIMIT", "12"))
+    attempted_news = raw_news_items[:news_limit]
+    print(f"  · 新闻类原始候选 {before} 条 → 永久去重后 {len(raw_news_items)} 条新增，本轮处理 {len(attempted_news)} 条")
 
     # 并发 LLM 第一波：news 条目
-    enriched_news, failed_news = parallel_enrich(raw_news_items[:60], enrich_news_item, "news")
+    enriched_news, failed_news = parallel_enrich(attempted_news, enrich_news_item, "news")
     if failed_news:
         enriched_news.extend(fallback_news(failed_news))
+    mark_processed(attempted_news, "news")
 
     # 并发 LLM 第二波：GitHub 项目（含 category 分类）
     regular_gh, skill_candidates = split_github_for_skills(github_items[:30])
-    # 补充多平台热门 Skill：GitHub 仓库 + 8 个社区/注册表来源（HN、Smithery、HF、npm、Dev.to、Reddit、Product Hunt）
-    known_skill_urls = {s.get("url") for s in (read_json(GENERATED_JSON, {}).get("skillRecommendations") or [])}
-    popular_skills = fetch_skill_repos() + fetch_skill_external()
-    popular_skills = [s for s in popular_skills if s.get("url") not in known_skill_urls]
-    skill_candidates = uniq_by(skill_candidates + popular_skills, lambda s: s.get("url") or s.get("name"))[:36]
+    regular_gh = filter_unprocessed(regular_gh, "github")[:int(os.getenv("GITHUB_ENRICH_LIMIT", "12"))]
+    if include_skills:
+        popular_skills = fetch_skill_repos() + fetch_skill_external()
+        skill_candidates = uniq_by(skill_candidates + popular_skills, lambda s: s.get("url") or s.get("name"))
+        skill_candidates = filter_unprocessed(skill_candidates, "skills")[:int(os.getenv("SKILL_ENRICH_LIMIT", "12"))]
+    else:
+        skill_candidates = []
     enriched_github, failed_github = parallel_enrich(regular_gh, enrich_github_item, "github")
     if failed_github:
         for raw in failed_github:
@@ -2634,11 +2778,13 @@ def run_daily() -> dict:
                 "details": (raw.get("description") or "")[:300],
                 "features": [], "useCases": [], "quickStart": [],
             })
+    mark_processed(regular_gh, "github")
 
     # 并发 LLM 第三波：Skill 候选（独立 prompt，按 9 种 type 分类）
     enriched_skills = []
     if skill_candidates:
         enriched_skills, _ = parallel_enrich(skill_candidates, enrich_skill_item, "skills")
+        mark_processed(skill_candidates, "skills")
 
     payload = route_enriched(enriched_news, enriched_github, enriched_skills)
     payload["sources"] = FREE_INFO_SOURCES
@@ -2651,6 +2797,8 @@ def run_weekly() -> dict:
 
     github_items = fetch_github_candidates(days_ago(7))
     regular_gh, skill_candidates = split_github_for_skills(github_items[:25])
+    regular_gh = filter_unprocessed(regular_gh, "github")[:int(os.getenv("GITHUB_ENRICH_LIMIT", "12"))]
+    skill_candidates = filter_unprocessed(skill_candidates, "skills")[:int(os.getenv("SKILL_ENRICH_LIMIT", "12"))]
 
     # 并发：GitHub 项目
     enriched_github, failed_github = parallel_enrich(regular_gh, enrich_github_item, "github-weekly")
@@ -2661,21 +2809,24 @@ def run_weekly() -> dict:
                 "details": (raw.get("description") or "")[:300],
                 "features": [], "useCases": [], "quickStart": [],
             })
+    mark_processed(regular_gh, "github")
 
     # 并发：Skill 候选
     enriched_skills = []
     if skill_candidates:
         enriched_skills, _ = parallel_enrich(skill_candidates, enrich_skill_item, "skills-weekly")
+        mark_processed(skill_candidates, "skills")
 
     # 并发：news（来自 RSS + HTML 一手源）
     rss_items = fetch_china_source_items()[:15] + fetch_rss_items() + fetch_html_items()
     rss_items = uniq_by(rss_items, lambda r: r.get("url"))
     rss_items = [r for r in rss_items if is_ai_relevant(r)]
-    known = existing_news_urls()
-    rss_items = [r for r in rss_items if r.get("url") and r.get("url") not in known]
-    enriched_news, failed_news = parallel_enrich(rss_items[:30], enrich_news_item, "news-weekly")
+    rss_items = filter_unprocessed(rss_items, "news")
+    attempted_news = rss_items[:int(os.getenv("NEWS_ENRICH_LIMIT", "12"))]
+    enriched_news, failed_news = parallel_enrich(attempted_news, enrich_news_item, "news-weekly")
     if failed_news:
         enriched_news.extend(fallback_news(failed_news))
+    mark_processed(attempted_news, "news")
 
     digest = {
         "weekId": week_id(),
@@ -2844,7 +2995,10 @@ class BackendHandler(SimpleHTTPRequestHandler):
                 },
                 "scheduler": scheduler,
                 "config": {
-                    "crawlIntervalMinutes": float(os.getenv("CRAWL_INTERVAL_MINUTES", "10")),
+                    "crawlIntervalMinutes": float(os.getenv("CRAWL_INTERVAL_MINUTES", "60")),
+                    "githubIntervalMinutes": float(os.getenv("GITHUB_INTERVAL_MINUTES", "360")),
+                    "skillIntervalMinutes": float(os.getenv("SKILL_INTERVAL_MINUTES", "1440")),
+                    "gitPushIntervalMinutes": float(os.getenv("GIT_PUSH_INTERVAL_MINUTES", "150")),
                     "dailyReportTime": os.getenv("DAILY_REPORT_TIME", "00:00"),
                     "weeklyDay": int(os.getenv("WEEKLY_DAY", "1")),
                     "weeklyTime": os.getenv("WEEKLY_TIME", "09:30"),
@@ -2976,11 +3130,22 @@ def _save_state(state: dict) -> None:
     SCHEDULER_STATE.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
+def _interval_due(state: dict, finished_key: str, minutes: float, fallback_key: str | None = None) -> bool:
+    last_value = state.get(finished_key) or (state.get(fallback_key) if fallback_key else None)
+    if not last_value:
+        return True
+    try:
+        elapsed = (datetime.now(timezone.utc) - datetime.fromisoformat(last_value)).total_seconds()
+        return elapsed >= minutes * 60
+    except Exception:
+        return True
+
+
 def scheduler_loop() -> None:
     """调度策略：
-    1) 间隔采集：每 CRAWL_INTERVAL_MINUTES 分钟跑一次 run_daily（抓取+评分+精选+滚动日报）。
-       已知 URL 不会重复送 LLM，所以高频采集只会处理新增条目，成本可控。
-       状态持久化在 scheduler-state.json，频繁重启不会重复触发；首次启动会跑一次。
+    1) 新闻、GitHub、Skill 分频运行；间隔从上一轮完成时间开始计算，避免长任务无缝连跑。
+       永久 URL 索引保证条目离开站内保留窗口后也不会再次送 LLM。
+    状态持久化在 scheduler-state.json，频繁重启不会重复触发；首次启动会跑一次。
     2) 每日 0 点（DAILY_REPORT_TIME）固化：把昨天的精选固化成带日期的日报存入归档。
     3) 每周（WEEKLY_DAY/WEEKLY_TIME）跑一次 run_weekly（GitHub/Skill 周报）。"""
     while True:
@@ -3008,21 +3173,25 @@ def scheduler_loop() -> None:
                     git_auto_self_update()    # backend.py 变化时会在此原地重启，不再返回
 
             # —— 1) 间隔采集 ——
-            interval_minutes = float(os.getenv("CRAWL_INTERVAL_MINUTES", "10"))
-            last_crawl = state.get("lastCrawlAt")
-            due = True
-            if last_crawl:
-                try:
-                    elapsed = (datetime.now(timezone.utc) - datetime.fromisoformat(last_crawl)).total_seconds()
-                    due = elapsed >= interval_minutes * 60
-                except Exception:
-                    due = True
+            interval_minutes = float(os.getenv("CRAWL_INTERVAL_MINUTES", "60"))
+            due = _interval_due(state, "lastCrawlFinishedAt", interval_minutes, "lastCrawlAt")
             if due:
+                github_due = _interval_due(
+                    state, "lastGithubFinishedAt", float(os.getenv("GITHUB_INTERVAL_MINUTES", "360"))
+                )
+                skill_due = _interval_due(
+                    state, "lastSkillFinishedAt", float(os.getenv("SKILL_INTERVAL_MINUTES", "1440"))
+                )
                 state["lastCrawlAt"] = datetime.now(timezone.utc).isoformat()
                 _save_state(state)
                 try:
-                    run_daily()
-                    state["lastCrawlFinishedAt"] = datetime.now(timezone.utc).isoformat()
+                    run_daily(include_github=github_due, include_skills=skill_due)
+                    finished_at = datetime.now(timezone.utc).isoformat()
+                    state["lastCrawlFinishedAt"] = finished_at
+                    if github_due:
+                        state["lastGithubFinishedAt"] = finished_at
+                    if skill_due:
+                        state["lastSkillFinishedAt"] = finished_at
                     state.pop("lastCrawlError", None)
                 except Exception as error:
                     state["lastCrawlError"] = str(error)
@@ -3042,19 +3211,23 @@ def scheduler_loop() -> None:
                     state["lastReportError"] = str(error)
                 _save_state(state)
 
-            # —— 2.5) 每日刷新固定数据：大模型榜单 + 批量 Skill（每天第一次 tick 时跑一次）——
-            if state.get("lastSeedDate") != today:
-                state["lastSeedDate"] = today
+            # —— 2.5) 榜单每天刷新；批量 Skill 每周刷新且只翻译新增 URL ——
+            if state.get("lastLlmSeedDate") != today:
+                state["lastLlmSeedDate"] = today
                 _save_state(state)
                 try:
                     seed_llm_leaderboard()        # 刷新大模型榜单
                 except Exception as error:
                     state["lastLlmError"] = str(error)
+                state["lastLlmSeedFinishedAt"] = datetime.now(timezone.utc).isoformat()
+                _save_state(state)
+            skill_seed_minutes = float(os.getenv("SKILL_SEED_INTERVAL_DAYS", "7")) * 1440
+            if _interval_due(state, "lastSkillSeedFinishedAt", skill_seed_minutes, "lastSeedFinishedAt"):
                 try:
-                    seed_skills(100)              # 刷新 100 个分类 Skill
+                    seed_skills(int(os.getenv("SKILL_SEED_TARGET", "100")))
                 except Exception as error:
                     state["lastSkillSeedError"] = str(error)
-                state["lastSeedFinishedAt"] = datetime.now(timezone.utc).isoformat()
+                state["lastSkillSeedFinishedAt"] = datetime.now(timezone.utc).isoformat()
                 _save_state(state)
 
             # —— 3) 每周周报 ——
@@ -3074,7 +3247,7 @@ def scheduler_loop() -> None:
             # 与采集频率解耦：采集可以很频繁，但推送按 GIT_PUSH_INTERVAL_MINUTES 节流，
             # 避免 Vercel 被频繁重新构建打满免费额度。
             if os.getenv("AUTO_GIT_PUSH", "0").lower() in ("1", "true", "yes", "on"):
-                push_interval = float(os.getenv("GIT_PUSH_INTERVAL_MINUTES", "60"))
+                push_interval = float(os.getenv("GIT_PUSH_INTERVAL_MINUTES", "150"))
                 last_push = state.get("lastPushAt")
                 push_due = True
                 if last_push:

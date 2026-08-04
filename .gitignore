@@ -2,6 +2,8 @@
 .server.pid
 .claude/
 data/scheduler-state.json
+data/processed-index.json
+data/llm-usage.json
 stdout.log
 stderr.log
 *.log
