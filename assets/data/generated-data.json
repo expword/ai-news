@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-08-05",
-  "generatedAt": "2026-08-04T13:59:05.038736Z",
+  "generatedAt": "2026-08-04T20:39:32.032643Z",
   "news": [
     {
       "title": "DataFountain 竞赛推出多模态客服智能体设计",
@@ -3612,6 +3612,68 @@
       ]
     },
     {
+      "title": "GLM-5 发布，国产大模型再度升级",
+      "summary": "国产大模型厂商智谱开放平台推出了最新版本 GLM-5，标志着其在自然语言处理领域的进一步突破。GLM-5 在性能和功能上较前一代产品有显著提升，预计将为多种应用场景提供更强大的支持。",
+      "category": "ai-models",
+      "tags": [
+        "GLM-5",
+        "国产模型",
+        "自然语言处理",
+        "智谱开放平台",
+        "AI技术"
+      ],
+      "keyPoints": [
+        "GLM-5 是智谱开放平台最新发布的自然语言处理模型，具有更高的文本生成能力。",
+        "相比 GLM-4，GLM-5 在理解复杂语句和生成连贯文本方面的准确率提升了约15%。",
+        "该模型支持多种语言，适用于跨国企业的多语言沟通需求。",
+        "GLM-5 的训练数据量达到前所未有的规模，涵盖了更广泛的领域知识。",
+        "智谱开放平台计划在未来的版本中进一步优化模型的实时响应能力。"
+      ],
+      "background": "智谱开放平台作为国内领先的 AI 模型开发商，近年来在大模型领域不断发力。GLM-5 的发布是其在自然语言处理技术上的一次重要升级，旨在满足日益增长的市场需求。与国际竞争对手如 OpenAI 的 GPT 系列相比，GLM-5 在中文处理能力上具有独特优势，尤其是在理解和生成中文文本方面。随着国内 AI 技术的快速发展，国产模型逐渐缩小与国际先进水平的差距，市场竞争愈发激烈。",
+      "impact": "GLM-5 的推出将为开发者和企业用户提供更强大的文本处理能力，尤其是在智能客服、内容创作和数据分析等领域。企业可以利用 GLM-5 提升客户互动体验，优化内容生成流程，从而在市场中获得竞争优势。此外，随着更多企业采用 GLM-5，可能会推动整个行业在自然语言处理技术上的进一步创新和发展。",
+      "audience": [
+        "AI 开发者",
+        "内容创作者",
+        "企业数据分析师",
+        "智能客服系统工程师",
+        "多语言支持团队"
+      ],
+      "useCases": [
+        "利用 GLM-5 生成高质量的市场营销文案，提升品牌影响力。",
+        "在智能客服系统中集成 GLM-5，提供更精准的客户服务。",
+        "通过 GLM-5 进行数据分析，提取关键信息，支持决策制定。"
+      ],
+      "risks": [
+        "GLM-5 的商用授权政策可能会影响企业的使用成本，需仔细评估。",
+        "模型的 API 调用费用可能较高，增加企业的运营负担。",
+        "在多语言支持方面，GLM-5 的表现可能因语言差异而有所不同，需进行充分测试。"
+      ],
+      "reason": "GLM-5 的发布不仅提升了国产大模型的竞争力，还为各行业的应用提供了新的可能性，值得关注。",
+      "scores": {
+        "importance": 75,
+        "novelty": 70,
+        "firsthand": 90,
+        "impact": 80,
+        "credibility": 85
+      },
+      "url": "https://docs.bigmodel.cn/cn/guide/models/text/glm-5",
+      "source": "中国一手 · 智谱开放平台新品",
+      "sourceType": "vendor-update",
+      "region": "CN",
+      "date": "2026-02-12",
+      "publishedAt": "",
+      "collectedAt": "2026-08-05T04:27",
+      "dateStatus": "verified",
+      "tier": "T1",
+      "score": 78,
+      "aiSelected": true,
+      "_style": "analyst",
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
       "title": "多模态BadCase极限挑战赛即将开启",
       "summary": "多模态BadCase极限挑战赛由DataFountain主办，旨在推动人工智能领域的创新与应用。比赛时间为2025年2月21日至3月21日，奖金总额为160,000元。尽管该赛事为参与者提供了展示技术的机会，但也面临着参与门槛和评估标准不明确等挑战。",
       "category": "ai-models",
@@ -4339,6 +4401,72 @@
       "score": 68,
       "aiSelected": true,
       "_style": "critic",
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "开源中国被评为专精特新“小巨人”，推动关键行业研发",
+      "summary": "开源中国近日荣获专精特新“小巨人”称号，标志着其在关键行业研发中的重要地位。作为国内领先的开源社区，开源中国致力于构建可信的研发底座，推动国产工业软件生态的发展。该平台在开源教育、数字化赋能等领域不断探索，助力科技进步。",
+      "category": "ai-tools",
+      "tags": [
+        "开源",
+        "研发",
+        "工业软件",
+        "教育",
+        "数字化"
+      ],
+      "keyPoints": [
+        "开源中国被评为专精特新“小巨人”，彰显其在关键行业的影响力。",
+        "Gitee 成为首批「供应链安全号」成员，推动国产工业软件生态建设。",
+        "开源技术已纳入国家职教体系，Gitee 为开源教育落地做好准备。",
+        "开源中国在数字化赋能“三农”信贷服务方面进行创新探索。",
+        "Gitee 获得北京市“科学技术进步奖”一等奖，进一步巩固其行业地位。"
+      ],
+      "background": "开源中国作为国内知名的开源社区，近年来在推动开源技术的应用和发展方面取得了显著成就。其被评为专精特新“小巨人”不仅是对其技术实力的认可，也反映了国家对开源技术在关键行业应用的重视。开源中国通过与高校合作，推动开源教育的普及，助力培养更多技术人才。同时，Gitee 在数字化转型和供应链安全方面的努力，标志着其在推动国产软件生态建设中的重要角色。",
+      "impact": "开源中国的这一荣誉将吸引更多企业和开发者关注开源技术的应用，推动关键行业的数字化转型。随着开源技术的普及，企业在研发和创新方面的决策将更加依赖于开源平台的支持，形成良性循环。此外，开源中国的成功经验也可能激励其他企业在开源领域进行探索，促进整个行业的健康发展。",
+      "audience": [
+        "开源技术开发者",
+        "工业软件工程师",
+        "教育工作者",
+        "数字化转型专家",
+        "政策研究人员"
+      ],
+      "useCases": [
+        "注册 Gitee 账号，参与开源项目，提升个人技术能力和项目经验。",
+        "利用 Gitee 提供的工具，构建和管理自己的开源项目，推动技术创新。",
+        "参与开源教育课程，学习最新的开源技术，提升职业竞争力。",
+        "与 Gitee 合作，推动企业数字化转型，提升业务效率和市场竞争力。",
+        "关注 Gitee 的最新动态，获取行业前沿信息，指导决策和战略规划。"
+      ],
+      "risks": [
+        "在使用 Gitee 时，需注意 API 调用的配额限制，避免因超出配额导致服务中断。",
+        "开源项目的商用授权问题需提前了解，确保合法合规使用相关资源。",
+        "不同版本的开源工具可能存在兼容性问题，使用前需仔细检查版本要求。",
+        "在参与开源项目时，需注意代码质量和安全性，避免引入潜在风险。",
+        "数字化转型过程中，需评估企业现有基础设施与开源工具的适配性，避免资源浪费。"
+      ],
+      "reason": "开源中国的成就展示了开源技术在关键行业的应用潜力，值得关注其未来发展。",
+      "scores": {
+        "importance": 85,
+        "novelty": 70,
+        "firsthand": 90,
+        "impact": 80,
+        "credibility": 85
+      },
+      "url": "https://blog.gitee.com/#update-d4f42180dde6",
+      "source": "中国一手 · Gitee 官方博客",
+      "sourceType": "open-source",
+      "region": "CN",
+      "date": "",
+      "publishedAt": "",
+      "collectedAt": "2026-08-05T04:27",
+      "dateStatus": "unknown",
+      "tier": "T1.5",
+      "score": 65,
+      "aiSelected": true,
+      "_style": "tutorial",
       "moduleTargets": [
         "news"
       ],
@@ -5513,6 +5641,44 @@
     }
   ],
   "githubWeekly": [
+    {
+      "name": "QwenLM/Qwen-MM-Plugins",
+      "lang": "Python",
+      "category": "Agent 框架",
+      "description": "这是一个多模态原生代理工具，适合需要集成多种输入输出形式的开发者。其亮点在于支持多种插件扩展。",
+      "details": "Qwen-MM-Plugins 旨在解决多模态代理的集成问题，允许开发者轻松构建支持文本、图像等多种输入的智能代理。与同类产品如 LangChain 相比，Qwen-MM-Plugins 提供了更灵活的插件架构，用户可以根据需求快速添加或修改功能。该项目使用 Python 开发，采用 MIT 许可证，适合希望快速开发多模态应用的开发者，不推荐对多模态需求不高的项目使用。",
+      "features": [
+        "支持多种输入输出形式",
+        "灵活的插件架构",
+        "兼容多种 AI 模型",
+        "易于扩展和定制",
+        "提供示例和文档"
+      ],
+      "useCases": [
+        "构建支持图像和文本的客服代理",
+        "开发多模态数据分析工具",
+        "实现跨平台的智能助手",
+        "集成多种传感器数据进行实时处理"
+      ],
+      "quickStart": [
+        "git clone https://github.com/QwenLM/Qwen-MM-Plugins.git",
+        "cd Qwen-MM-Plugins",
+        "pip install -r requirements.txt",
+        "python main.py"
+      ],
+      "why": "Qwen-MM-Plugins 以 23 stars 的社区支持，提供了灵活的多模态集成方案。相比于其他同类产品，其插件架构使得功能扩展更加便捷，适合快速迭代的开发需求。该项目活跃度较高，适合希望快速上手的开发者。",
+      "tags": [
+        "多模态",
+        "代理",
+        "插件",
+        "Python",
+        "开发工具"
+      ],
+      "url": "https://github.com/QwenLM/Qwen-MM-Plugins",
+      "stars": "23 stars",
+      "source": "GitHub · 通义千问 Qwen",
+      "date": "2026-08-05"
+    },
     {
       "name": "Panniantong/Agent-Reach",
       "lang": "Python",
@@ -7667,43 +7833,6 @@
       "url": "https://github.com/MoonshotAI/walle",
       "stars": "29 stars",
       "source": "GitHub · 月之暗面 Kimi",
-      "date": "2026-08-01"
-    },
-    {
-      "name": "rasbt/LLMs-from-scratch",
-      "lang": "Jupyter Notebook",
-      "category": "LLM 应用平台",
-      "description": "这是一个用于从零开始实现类似 ChatGPT 的 LLM 的工具，适合开发者和研究人员，逐步引导实现过程。",
-      "details": "该项目旨在帮助用户理解和实现大型语言模型（LLM），通过 PyTorch 从头开始构建一个 ChatGPT 类似的模型。与 Hugging Face 的 Transformers 等现有框架相比，该项目提供了更深入的实现细节，适合希望深入学习 LLM 工作原理的开发者。项目使用 Python 和 Jupyter Notebook，采用 MIT 许可证，推荐给有一定编程基础的用户，不推荐完全没有编程经验的用户。",
-      "features": [
-        "逐步实现 ChatGPT 类似的 LLM",
-        "使用 PyTorch 框架构建",
-        "提供详细的代码注释和解释",
-        "支持自定义模型参数",
-        "适合教学和研究用途"
-      ],
-      "useCases": [
-        "实现一个基础的 ChatGPT 模型进行实验",
-        "探索 LLM 的内部机制和工作原理",
-        "在本地环境中测试和修改模型",
-        "为特定任务定制语言模型"
-      ],
-      "quickStart": [
-        "从 GitHub 克隆项目：git clone https://github.com/rasbt/LLMs-from-scratch",
-        "进入项目目录：cd LLMs-from-scratch",
-        "安装依赖：pip install -r requirements.txt",
-        "运行 Jupyter Notebook：jupyter notebook",
-        "按照 Notebook 中的步骤逐步实现模型"
-      ],
-      "why": "该项目拥有超过 100,000 星，显示出其在开发者社区中的受欢迎程度。与其他 LLM 实现相比，它提供了更为详细的实现步骤和注释，适合希望深入理解 LLM 的用户。项目活跃度高，更新频繁，确保了技术的前沿性。",
-      "tags": [
-        "语言模型",
-        "PyTorch",
-        "深度学习"
-      ],
-      "stars": "100219 stars",
-      "url": "https://github.com/rasbt/LLMs-from-scratch",
-      "source": "GitHub Search · 2026-07-31",
       "date": "2026-08-01"
     }
   ],
@@ -14430,36 +14559,14 @@
     }
   ],
   "dailyReport": {
-    "date": "2026-08-04",
-    "generatedAt": "2026-08-04T13:59:05.010043Z",
-    "total": 19,
+    "date": "2026-08-05",
+    "generatedAt": "2026-08-04T20:39:32.007839Z",
+    "total": 9,
     "sections": [
       {
         "category": "ai-tools",
         "label": "AI 工具",
         "items": [
-          {
-            "title": "OpenRouter 推出 Ori Eval 简化模型评估流程",
-            "summary": "OpenRouter 发布 Ori Eval，旨在简化模型评估过程。该工具通过 OpenRouter API 处理代码库中的任务，评估模型表现，提供基于用户设定标准的排名比较，帮助开发者选择最适合的模型。",
-            "source": "X：OpenRouter (@OpenRouter)",
-            "url": "https://x.com/OpenRouter/status/2084301100078027143",
-            "score": 66,
-            "sourceCount": 1,
-            "date": "2026-08-03",
-            "publishedAt": "2026-08-03T23:31",
-            "reason": "Ori Eval 通过简化模型评估流程，帮助开发者高效选择最适合的模型，具有显著的实用价值。"
-          },
-          {
-            "title": "Cloudflare 发布 Billable Usage API，提供自助账户按产品计费的透明度",
-            "summary": "Cloudflare 推出了 Billable Usage API，为自助账户提供了一个单一端点，用户可以通过一次调用获取按产品和计费周期拆分的用量与成本信息，涵盖 Workers、R2、D1、Workers AI、Vectorize、Images 和 Stream 等服务。这一",
-            "source": "Cloudflare Blog",
-            "url": "https://blog.cloudflare.com/billable-usage-api",
-            "score": 65,
-            "sourceCount": 1,
-            "date": "2026-08-03",
-            "publishedAt": "2026-08-03T21:00",
-            "reason": "Cloudflare 的 Billable Usage API 提供了前所未有的透明度和灵活性，值得关注其在云支出管理中的应用潜力。"
-          },
           {
             "title": "Claude Code 连接器可复用至 Artifacts",
             "summary": "Claude 连接器的使用范围扩展至 Artifacts，用户可通过连接 Gmail、日历、Slack 等工具，提升 Claude Code 的功能。许多用户尚未意识到这一点，可能影响其使用体验。",
@@ -14470,17 +14577,6 @@
             "date": "2026-08-04",
             "publishedAt": "2026-08-04T05:13",
             "reason": "Claude 连接器的扩展功能为用户提供了更高效的工作方式，值得关注。"
-          },
-          {
-            "title": "Kimi Work 发布幻灯片制作教程，提升效率但仍有局限",
-            "summary": "Kimi Work 最近推出了幻灯片制作教程，展示了其 Kimi Slides 工具的功能，包括清晰的结构、连贯的设计和可编辑的幻灯片。然而，尽管这些功能提升了制作效率，用户仍需注意其在兼容性和使用限制方面的不足。",
-            "source": "X：Kimi.ai (@Kimi_Moonshot)",
-            "url": "https://x.com/Kimi_Moonshot/status/2084245860339298423",
-            "score": 58,
-            "sourceCount": 1,
-            "date": "2026-08-03",
-            "publishedAt": "2026-08-03T19:51",
-            "reason": "Kimi Work 的幻灯片制作教程展示了其独特的 AI 驱动设计，值得关注，但用户需谨慎评估其局限性。"
           }
         ]
       },
@@ -14506,39 +14602,6 @@
         "label": "Agent / MCP",
         "items": [
           {
-            "title": "Google Agent Skills 的构建与治理流程",
-            "summary": "Google Agent Skills 团队通过开源技能库的构建与治理，确保 AI 代理的智能化与安全性。自项目启动以来，GitHub 上的星标数已超过 15,000，显示出其广泛的社区认可。团队采用标准化的目录结构和 CI/CD 流水线，确保技能质量与规模化并行发展。",
-            "source": "Google AI：DEV 作者专属（RSS）",
-            "url": "https://dev.to/googleai/behind-the-scenes-how-we-build-test-and-scale-google-agent-skills-1am5",
-            "score": 66,
-            "sourceCount": 1,
-            "date": "2026-08-03",
-            "publishedAt": "2026-08-03T22:33",
-            "reason": "Google Agent Skills 的构建与治理流程为 AI 代理的开发提供了重要的参考，尤其是在标准化和质量控制方面，值得关注。"
-          },
-          {
-            "title": "Cloudflare Workers 现支持入站 TCP 连接与 gRPC",
-            "summary": "Cloudflare 在 Agents Week 发布了 Workers 运行时的新处理器 connect，允许直接接受入站 TCP 套接字，并支持将其转发至 Durable Objects 或 Containers，实现全双工通信。这一功能将极大提升实时语音 AI 应用的性能。",
-            "source": "Cloudflare Blog",
-            "url": "https://blog.cloudflare.com/grpc-workers",
-            "score": 66,
-            "sourceCount": 1,
-            "date": "2026-08-03",
-            "publishedAt": "2026-08-03T21:00",
-            "reason": "Cloudflare Workers 的这一新功能将显著提升实时应用的性能，值得开发者关注和尝试。"
-          },
-          {
-            "title": "Cloudflare 推出 @cloudflare/computer 预览版，提供智能体虚拟文件系统",
-            "summary": "Cloudflare 发布了 @cloudflare/computer 的早期预览版，这是一个开源智能体运行时，旨在为每个智能体提供虚拟文件系统，并支持在不同环境中执行代码。尽管这一创新提升了智能体的灵活性，但仍面临可扩展性和资源分配的挑战。",
-            "source": "Cloudflare Blog",
-            "url": "https://blog.cloudflare.com/cloudflare-computer",
-            "score": 65,
-            "sourceCount": 1,
-            "date": "2026-08-03",
-            "publishedAt": "2026-08-03T21:15",
-            "reason": "Cloudflare 的 @cloudflare/computer 提供了一种创新的智能体运行时解决方案，值得关注其在计算资源管理和执行效率上的独特价值。"
-          },
-          {
             "title": "DataFountain 竞赛推出多模态客服智能体设计",
             "summary": "DataFountain 竞赛近日发布了具有多模态能力的客服智能体设计，旨在提升客户服务的智能化水平。该设计结合了文本、语音和图像等多种输入形式，能够更好地理解和响应用户需求，提升用户体验。",
             "source": "中国一手 · DataFountain 竞赛",
@@ -14555,28 +14618,6 @@
         "category": "ai-models",
         "label": "模型发布",
         "items": [
-          {
-            "title": "UEmbed：统一稀疏与稠密的多模态嵌入模型",
-            "summary": "UEmbed 是一种创新的多模态嵌入模型，采用仅解码器架构，在单次因果前向传播中同时生成稀疏和稠密表示。通过引入可学习的特殊 token 和词汇表分区，UEmbed 有效突破了单 token 信息瓶颈，提升了多模态检索的效率和准确性。",
-            "source": "HuggingFace Daily Papers（社区热门论文）",
-            "url": "https://arxiv.org/abs/2608.02583",
-            "score": 69,
-            "sourceCount": 1,
-            "date": "2026-08-03",
-            "publishedAt": "2026-08-03T08:00",
-            "reason": "UEmbed 通过创新的解码器架构，突破了多模态嵌入的传统局限，值得关注其在实际应用中的潜力与影响。"
-          },
-          {
-            "title": "Qwen3.8-Max 发布：开源最强编码与协作模型，2.4T 参数",
-            "summary": "我注意到 Qwen 正式推出了 Qwen3.8-Max，这是他们迄今为止最强大的模型，拥有 2.4T 参数（95B 激活）。这次发布还首次开源了 Qwen-Max 级权重，相关的开放权重将在下周发布，值得关注。",
-            "source": "Qwen：Blog Retrieval（API）",
-            "url": "https://qwen.ai/blog?id=qwen3.8",
-            "score": 69,
-            "sourceCount": 1,
-            "date": "2026-08-03",
-            "publishedAt": "2026-08-03T10:00",
-            "reason": "Qwen3.8-Max 的发布不仅提升了模型的性能，还首次开源了权重，为开发者提供了更多的创新空间，值得关注。"
-          },
           {
             "title": "OpenAI 发布 GPT-Live 实时音频新架构",
             "summary": "OpenAI 最新推出的 GPT-Live 架构支持实时音频交互，能够在说话的同时进行聆听。这一新架构通过重建语音栈，确保音频流畅持续，提升了 ChatGPT 的对话自然度，允许更深层次的推理与工具使用而不打断对话。",
@@ -14620,28 +14661,6 @@
             "date": "2026-08-04",
             "publishedAt": "2026-08-04T04:12",
             "reason": "EA 对生成式 AI 的深入探讨揭示了其在游戏行业的潜力与挑战，值得关注。"
-          },
-          {
-            "title": "商汤推出开源多模态模型 SenseNova U1.5-Lite-Preview",
-            "summary": "商汤科技发布了基于NEO-Unify架构的轻量级多模态模型SenseNova U1.5-Lite-Preview。该模型仅需8B-MoT参数，即可实现与商业闭源模型相媲美的生成与编辑质量，标志着其在多模态理解和生成领域的进一步创新。",
-            "source": "X：商汤 SenseTime (@SenseTime_AI)",
-            "url": "https://x.com/SenseTime_AI/status/2084288424236782073",
-            "score": 62,
-            "sourceCount": 1,
-            "date": "2026-08-03",
-            "publishedAt": "2026-08-03T22:40",
-            "reason": "SenseNova U1.5-Lite-Preview的发布展示了商汤在多模态模型领域的创新能力，值得关注其对行业的潜在影响。"
-          },
-          {
-            "title": "OpenAI 新模型 Astra 在数学领域表现突出，但被过度解读",
-            "summary": "OpenAI 正在内部测试的新模型 Astra 在解决数学、量子复杂性和理论计算机科学的十个重大开放问题上取得了显著成果。然而，Gary Marcus 指出，相关讨论存在\"合成谬误\"，即擅长某类数学并不意味着擅长所有数学及其他认知任务。此外，OpenAI 尚未公布具体方法，导致其",
-            "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-            "url": "https://garymarcus.substack.com/p/openais-amazing-but-vastly-oversold",
-            "score": 62,
-            "sourceCount": 1,
-            "date": "2026-08-03",
-            "publishedAt": "2026-08-03T05:25",
-            "reason": "Astra 模型在数学领域的突破引发了广泛讨论，但理解其局限性同样重要，值得深入关注。"
           }
         ]
       },
