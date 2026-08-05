@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-05",
+  "lastUpdated": "2026-08-06",
   "generatedAt": "2026-08-05T10:40:10.033614Z",
   "news": [
     {
@@ -15195,6 +15195,125 @@
   },
   "dailyReports": [
     {
+      "date": "2026-08-05",
+      "generatedAt": "2026-08-05T16:22:58.984279Z",
+      "total": 8,
+      "sections": [
+        {
+          "category": "ai-image-video",
+          "label": "图像视频",
+          "items": [
+            {
+              "title": "Oh Deer, How Should I Handle This? Seasonal Priors for Selective Wildlife Annotation and Classification",
+              "summary": "arXiv:2608.02762v1 Announce Type: new Abstract: Fine-grained wildlife classification in aerial imagery is limited not only by model performa",
+              "source": "RSS · arXiv cs.CV",
+              "url": "https://arxiv.org/abs/2608.02762",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-05",
+              "publishedAt": "2026-08-05T12:00",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-agents",
+          "label": "Agent / MCP",
+          "items": [
+            {
+              "title": "Quo Vadis, World Modeling?",
+              "summary": "arXiv:2608.02713v1 Announce Type: new Abstract: Continually improving agents require dynamic interaction feedback beyond static supervision,",
+              "source": "RSS · arXiv cs.CV",
+              "url": "https://arxiv.org/abs/2608.02713",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-05",
+              "publishedAt": "2026-08-05T12:00",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-models",
+          "label": "模型发布",
+          "items": [
+            {
+              "title": "Hunyuan3D-Buffalo 1.0：统一的多模态模型，支持可扩展的3D生成与编辑",
+              "summary": "我最近看到Hunyuan3D-Buffalo 1.0的发布，这是一种新型的多模态模型，旨在解决3D生成、理解和编辑中的数据稀缺问题。该模型整合了文本到3D的生成能力，能够在缺乏大规模几何一致性编辑数据的情况下，提供更为统一的3D建模框架。这一进展可能会对3D内容创作和编辑带来新的",
+              "source": "RSS · arXiv cs.CV",
+              "url": "https://arxiv.org/abs/2608.02711",
+              "score": 82,
+              "sourceCount": 1,
+              "date": "2026-08-05",
+              "publishedAt": "2026-08-05T12:00",
+              "reason": "Hunyuan3D-Buffalo 1.0的发布为3D生成和编辑提供了新的可能性，值得关注。"
+            }
+          ]
+        },
+        {
+          "category": "ai-research",
+          "label": "论文研究",
+          "items": [
+            {
+              "title": "PixelUp：零样本语义特征上采样技术",
+              "summary": "PixelUp 是一种新型的零样本语义特征上采样方法，旨在提升计算机视觉任务中的细粒度预测能力。尽管其在语义分割和深度估计等密集预测任务中表现出色，但仍面临特定编码器依赖和训练复杂性等挑战。",
+              "source": "RSS · arXiv cs.CV",
+              "url": "https://arxiv.org/abs/2608.02792",
+              "score": 80,
+              "sourceCount": 1,
+              "date": "2026-08-05",
+              "publishedAt": "2026-08-05T12:00",
+              "reason": "PixelUp 提供了一种创新的特征上采样方法，具有灵活性和高效性，值得关注其在计算机视觉领域的应用潜力。"
+            },
+            {
+              "title": "Confident but Unreliable: A Behavioral Safety Audit of Vision-Language Models on Brain MRI",
+              "summary": "arXiv:2608.02790v1 Announce Type: new Abstract: Vision-language models (VLMs), including medical specialists, are increasingly proposed for ",
+              "source": "RSS · arXiv cs.CV",
+              "url": "https://arxiv.org/abs/2608.02790",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-05",
+              "publishedAt": "2026-08-05T12:00",
+              "reason": ""
+            },
+            {
+              "title": "A Unified 2D Framework for DeepLesion Detection, Segmentation and Short Report Generation",
+              "summary": "arXiv:2608.02805v1 Announce Type: new Abstract: In previous work, we integrated large language models (LLMs) into the lesion segmentation mo",
+              "source": "RSS · arXiv cs.CV",
+              "url": "https://arxiv.org/abs/2608.02805",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-05",
+              "publishedAt": "2026-08-05T12:00",
+              "reason": ""
+            },
+            {
+              "title": "Better, Stronger, Faster, and Broader: Structured All-Mask Prediction for MLLM-Based Segmentation",
+              "summary": "arXiv:2608.02791v1 Announce Type: new Abstract: MLLM-based segmentation faces a core segmentation trilemma: high segmentation performance, p",
+              "source": "RSS · arXiv cs.CV",
+              "url": "https://arxiv.org/abs/2608.02791",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-05",
+              "publishedAt": "2026-08-05T12:00",
+              "reason": ""
+            },
+            {
+              "title": "SAGE: Semantic Explainability of Attention-Based Survival Models in Computational Pathology",
+              "summary": "arXiv:2608.02803v1 Announce Type: new Abstract: Attention-based multiple instance learning (ABMIL) is the predominant approach for slide-lev",
+              "source": "RSS · arXiv cs.CV",
+              "url": "https://arxiv.org/abs/2608.02803",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-05",
+              "publishedAt": "2026-08-05T12:00",
+              "reason": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
       "date": "2026-08-04",
       "generatedAt": "2026-08-04T16:13:09.345207Z",
       "total": 8,
@@ -25566,7 +25685,7 @@
     }
   ],
   "llmLeaderboard": {
-    "updated": "2026-08-05",
+    "updated": "2026-08-06",
     "source": "ReLE 中文大模型能力评测（综合能力）",
     "sourceUrl": "https://github.com/jeinlee1991/chinese-llm-benchmark",
     "items": [
