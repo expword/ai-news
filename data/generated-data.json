@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-08-06",
-  "generatedAt": "2026-08-05T10:40:10.033614Z",
+  "generatedAt": "2026-08-05T17:03:49.395581Z",
   "news": [
     {
       "title": "Hunyuan3D-Buffalo 1.0：统一的多模态模型，支持可扩展的3D生成与编辑",
@@ -5977,6 +5977,83 @@
   ],
   "githubWeekly": [
     {
+      "name": "OpenBMB/MiniCPM-o-Demo",
+      "lang": "Python",
+      "category": "LLM 应用平台",
+      "description": "这是一个基于 PyTorch 和 CUDA 的全功能 Web 演示工具，适合研究人员和开发者使用，支持 MiniCPM-o 4.5 模型。",
+      "details": "MiniCPM-o-Demo 提供了一个完整的 Web 演示，旨在展示 MiniCPM-o 4.5 模型的功能。与其他类似工具（如 Hugging Face 的 Transformers）相比，它专注于提供更高效的推理速度和更低的资源消耗。该项目使用 Python 语言开发，基于 PyTorch 和 CUDA 技术栈，采用 MIT 许可证。推荐给需要快速部署和测试 LLM 模型的开发者，不推荐给对性能要求不高的用户。",
+      "features": [
+        "支持多种输入格式",
+        "提供实时推理结果",
+        "集成简单易用的 API",
+        "支持多用户并发访问",
+        "可自定义模型参数"
+      ],
+      "useCases": [
+        "在本地部署 MiniCPM-o 4.5 模型进行文本生成",
+        "快速测试不同输入对模型输出的影响",
+        "集成到现有的 Web 应用中实现智能对话",
+        "进行模型性能评估和调优"
+      ],
+      "quickStart": [
+        "git clone https://github.com/OpenBMB/MiniCPM-o-Demo.git",
+        "cd MiniCPM-o-Demo",
+        "pip install -r requirements.txt",
+        "python app.py",
+        "在浏览器中访问 http://localhost:5000"
+      ],
+      "why": "MiniCPM-o-Demo 通过优化推理过程，提供了比同类工具更快的响应时间和更低的计算资源需求。该项目目前拥有 320 stars，显示出其在开发者社区中的活跃度和认可度。使用 PyTorch 和 CUDA 的技术栈，使其在性能上具有优势，适合需要高效推理的应用场景。",
+      "tags": [
+        "Web 演示",
+        "PyTorch",
+        "CUDA",
+        "文本生成",
+        "机器学习"
+      ],
+      "url": "https://github.com/OpenBMB/MiniCPM-o-Demo",
+      "stars": "320 stars",
+      "source": "GitHub · 面壁智能 MiniCPM",
+      "date": "2026-08-06"
+    },
+    {
+      "name": "MiniMax-AI/MiniMax-H3",
+      "lang": "Python",
+      "category": "推理引擎",
+      "description": "MiniMax 是一个开源的推理引擎，适合开发者和研究人员使用，支持多种 AI 应用场景。",
+      "details": "MiniMax-H3 项目旨在提供一个高效的推理引擎，帮助用户在本地环境中快速实现 AI 模型的推理。与其他推理引擎如 TensorRT 和 ONNX Runtime 相比，MiniMax 更加轻量且易于集成，适合快速开发和实验。该项目使用 Python 编写，采用 MIT 许可证，适合希望在本地进行 AI 开发的开发者使用，不推荐给需要复杂部署的企业用户。",
+      "features": [
+        "支持多种 AI 模型格式",
+        "提供简单易用的 API 接口",
+        "优化推理速度，降低延迟",
+        "支持自定义模型扩展",
+        "兼容多种硬件平台"
+      ],
+      "useCases": [
+        "在本地环境中运行 AI 模型进行实时推理",
+        "集成到现有应用中实现智能功能",
+        "快速原型开发，测试新算法",
+        "进行模型性能评估和优化"
+      ],
+      "quickStart": [
+        "git clone https://github.com/MiniMax-AI/MiniMax-H3.git",
+        "cd MiniMax-H3",
+        "pip install -r requirements.txt",
+        "python run_inference.py"
+      ],
+      "why": "MiniMax-H3 以其轻量级和易用性脱颖而出，适合快速开发和实验。项目已有 63 stars，显示出一定的社区关注度。相比于其他推理引擎，MiniMax 更加灵活，适合多种应用场景，尤其是在本地推理方面表现突出。",
+      "tags": [
+        "推理引擎",
+        "开源",
+        "Python",
+        "AI",
+        "本地推理"
+      ],
+      "stars": "63 stars",
+      "url": "https://github.com/MiniMax-AI/MiniMax-H3",
+      "source": "GitHub · MiniMax",
+      "date": "2026-08-06"
+    },
+    {
       "name": "Snailclimb/JavaGuide",
       "lang": "JavaScript",
       "category": "Coding Agent",
@@ -8015,128 +8092,29 @@
       "date": "2026-08-03"
     },
     {
-      "name": "Tencent-Hunyuan/Hunyuan3D-Buffalo1.0",
-      "lang": "HTML",
-      "category": "LLM 应用平台",
-      "description": "腾讯混元开源项目，提供3D场景生成工具，适合开发者和设计师使用。",
-      "details": "Hunyuan3D-Buffalo1.0 是腾讯混元团队推出的开源项目，旨在为用户提供高效的3D场景生成解决方案。与其他3D生成工具相比，如 Blender 和 Unity，该项目专注于简化3D内容的创建流程，降低了入门门槛。项目使用 HTML 语言构建，采用 MIT 许可证，适合希望快速生成3D场景的开发者和设计师。对于需要复杂3D建模的用户，可能不太适合。",
-      "features": [
-        "支持快速生成3D场景",
-        "提供简单易用的接口",
-        "兼容多种3D格式",
-        "支持实时预览功能",
-        "集成丰富的示例和文档"
-      ],
-      "useCases": [
-        "创建虚拟现实环境",
-        "生成游戏中的3D场景",
-        "快速制作产品展示模型"
-      ],
-      "quickStart": [
-        "git clone https://github.com/Tencent-Hunyuan/Hunyuan3D-Buffalo1.0.git",
-        "cd Hunyuan3D-Buffalo1.0",
-        "npm install",
-        "npm start"
-      ],
-      "why": "Hunyuan3D-Buffalo1.0 以其简洁的使用方式和高效的生成能力脱颖而出。项目在 GitHub 上获得了4颗星，显示出一定的社区认可度。相比于其他工具，Hunyuan3D 更加注重用户体验，适合快速上手和应用。",
-      "tags": [
-        "3D生成",
-        "开源项目",
-        "腾讯",
-        "开发工具"
-      ],
-      "stars": "4 stars",
-      "url": "https://github.com/Tencent-Hunyuan/Hunyuan3D-Buffalo1.0",
-      "source": "GitHub · 腾讯混元",
-      "date": "2026-08-03"
-    },
-    {
-      "name": "InternLM/lmdeploy",
-      "lang": "Python",
-      "category": "LLM 应用平台",
-      "description": "LMDeploy 是一个用于压缩、部署和服务大语言模型的工具包，适合开发者和研究人员使用。",
-      "details": "LMDeploy 解决了大语言模型在部署和服务过程中的效率问题，支持多种压缩技术，帮助用户在资源有限的环境中运行 LLM。与 Hugging Face 的 Transformers 和 OpenVINO 等竞品相比，LMDeploy 提供了更灵活的部署选项和更高的压缩比。该项目使用 Python 开发，采用 MIT 许可证，推荐给需要高效部署 LLM 的开发者，不推荐给对模型压缩不感兴趣的用户。",
-      "features": [
-        "支持多种压缩算法",
-        "提供简单的 API 接口",
-        "兼容多种硬件平台",
-        "支持动态量化和混合精度",
-        "集成多种模型格式"
-      ],
-      "useCases": [
-        "在本地部署 Llama3 进行文本生成",
-        "使用 LMDeploy 压缩模型以减少内存占用",
-        "快速搭建 LLM 服务接口",
-        "在边缘设备上运行大语言模型"
-      ],
-      "quickStart": [
-        "git clone https://github.com/InternLM/lmdeploy.git",
-        "cd lmdeploy",
-        "pip install -r requirements.txt",
-        "python deploy.py --model your_model_path",
-        "curl http://localhost:8000/predict -d '{\"input\": \"你的文本\"}'"
-      ],
-      "why": "LMDeploy 以 7986 stars 的社区支持和活跃度，提供了高效的模型压缩和部署方案。相比于其他工具，它在灵活性和易用性上具有明显优势，适合各种应用场景，尤其是在资源受限的环境中。",
-      "tags": [
-        "大语言模型",
-        "模型压缩",
-        "部署工具"
-      ],
-      "url": "https://github.com/InternLM/lmdeploy",
-      "stars": "7986 stars",
-      "source": "GitHub · 上海AI实验室 书生",
-      "date": "2026-08-03"
-    },
-    {
-      "name": "yamadashy/repomix",
-      "lang": "TypeScript",
-      "category": "LLM 应用平台",
-      "description": "Repomix 是一个将整个代码库打包成单个 AI 友好文件的工具，适合需要将代码输入大型语言模型的开发者。",
-      "details": "Repomix 解决了将复杂代码库转换为 AI 可处理格式的问题，特别适合与 Claude、ChatGPT 等大型语言模型配合使用。与其他工具相比，Repomix 提供了更高效的打包方式，支持多种 AI 工具的兼容性。该项目使用 TypeScript 开发，遵循 MIT 许可证，适合开发者和数据科学家使用，不推荐给对 AI 应用不感兴趣的用户。",
-      "features": [
-        "将整个代码库打包为单个文件",
-        "支持多种 AI 工具的输入格式",
-        "兼容大型语言模型",
-        "快速集成到现有工作流",
-        "提供简单的命令行接口"
-      ],
-      "useCases": [
-        "将代码库转换为 AI 友好格式",
-        "为大型语言模型提供训练数据",
-        "与 ChatGPT 一起使用进行代码分析",
-        "快速生成代码文档",
-        "支持多种 AI 工具的集成"
-      ],
-      "quickStart": [
-        "git clone https://github.com/yamadashy/repomix.git",
-        "cd repomix",
-        "npm install",
-        "npm run build",
-        "npm start"
-      ],
-      "why": "Repomix 拥有超过 27588 个星标，显示出其在开发者社区中的受欢迎程度。与其他同类工具相比，Repomix 提供了更高效的打包和兼容性，能够支持多种 AI 工具的输入格式，适合需要将代码库快速转化为 AI 可处理格式的开发者。",
-      "tags": [
-        "代码打包",
-        "AI 工具",
-        "大型语言模型",
-        "开发者工具",
-        "TypeScript"
-      ],
-      "url": "https://github.com/yamadashy/repomix",
-      "stars": "27588 stars",
-      "source": "GitHub Search · 2026-08-03",
-      "date": "2026-08-03"
-    },
-    {
-      "name": "n8n-io/n8n",
-      "lang": "TypeScript",
-      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-      "stars": "199398 stars",
+      "name": "microsoft/generative-ai-for-beginners",
+      "lang": "Jupyter Notebook",
+      "description": "21 Lessons, Get Started Building with Generative AI ",
+      "stars": "116609 stars",
       "why": "近期更新且具备 AI / LLM / Agent 相关主题，适合做项目介绍、教程或同类对比。",
-      "url": "https://github.com/n8n-io/n8n",
-      "source": "GitHub Search · 2026-08-05",
+      "url": "https://github.com/microsoft/generative-ai-for-beginners",
+      "source": "GitHub Search · 2026-08-06",
       "category": "Coding Agent",
-      "details": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "details": "21 Lessons, Get Started Building with Generative AI ",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
+      "name": "langflow-ai/langflow",
+      "lang": "Python",
+      "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
+      "stars": "152863 stars",
+      "why": "近期更新且具备 AI / LLM / Agent 相关主题，适合做项目介绍、教程或同类对比。",
+      "url": "https://github.com/langflow-ai/langflow",
+      "source": "GitHub Search · 2026-08-06",
+      "category": "Coding Agent",
+      "details": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
       "features": [],
       "useCases": [],
       "quickStart": []
@@ -8887,6 +8865,17 @@
     ],
     "ai-agents": [
       {
+        "name": "Show HN: Blender for AI Agents",
+        "provider": "NewsAPI",
+        "type": "AI 项目/工具",
+        "bestFor": "Creating 3D is hard. LLMs seem to be getting better at tool use and spatial understanding. While MCPs have proved to be a good way to use these tools- the curre",
+        "description": "Creating 3D is hard. LLMs seem to be getting better at tool use and spatial understanding. While MCPs have proved to be a good way to use these tools- the current methods have thes",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsAPI:generative AI",
+        "url": "https://www.mixar.app/"
+      },
+      {
         "name": "Yiren Digital AI 代理在客户运营中实现显著成效",
         "provider": "NewsAPI",
         "type": "AI 项目/工具",
@@ -9514,24 +9503,31 @@
         "watch": "AI 调查代理的有效性依赖于系统集成的深度，若集成不当可能导致信息孤岛。",
         "sourceName": "NewsData.io:AI agent",
         "url": "https://www.financialcontent.com/article/accwirecq-2026-8-3-trustmi-launches-first-of-its-kind-ai-investigation-agent-to-power-collaborative-fraud-investigations"
-      },
-      {
-        "name": "AutoRek收购Grath以扩展AI治理控制能力",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "此次收购将使AutoRek的客户能够在治理和AI创新之间找到平衡，提升其金融操作的效率。金融机构可以根据自身需求选择不同的部署模式，从而优化资源配置和合规流程。此外，这一举措可能会引发行业内其他公司的跟进，推动金融科技领域的进一步整合与创新。",
-        "description": "AutoRek收购了伦敦的AI对账专家Grath，以增强其AI能力并为金融机构提供治理自动化解决方案。此次收购将Grath的AI技术组合整合到AutoRek现有的金融控制平台中，提供多种部署选项，旨在满足不同客户的需求，但仍面临技术整合和市场竞争的挑战。",
-        "useCases": [
-          "集成Topa平台，提升金融服务公司的对账效率，确保合规性。",
-          "利用AutoRek的私有云平台，处理高交易量的复杂数据，满足监管要求。",
-          "通过Grath的SaaS解决方案，快速部署AI技术，支持快速增长的金融公司。"
-        ],
-        "watch": "技术整合可能面临挑战，尤其是在不同平台之间的兼容性和数据迁移方面。",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://fintech.global/2026/08/03/autorek-buys-grath-to-expand-governed-ai-controls/"
       }
     ],
     "ai-models": [
+      {
+        "name": "Grêmio lose striker for crunch Copa do Brasil clash ",
+        "provider": "NewsAPI",
+        "type": "AI 项目/工具",
+        "bestFor": "Grêmio coach Luis Castro has lost forward Tetê for the decisive match against Mirassol.The second leg of the Copa do Brasil round of 16 will be this Wednesday (",
+        "description": "Grêmio coach Luis Castro has lost forward Tetê for the decisive match against Mirassol.The second leg of the Copa do Brasil round of 16 will be this Wednesday (5), at 7:30 p.m., at",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsAPI:artificial intelligence",
+        "url": "https://onefootball.com/en/news/gremio-lose-striker-for-crunch-copa-do-brasil-clash-43229419"
+      },
+      {
+        "name": "Sudden surge of multimillionaires sees all cash buyers flood",
+        "provider": "NewsAPI",
+        "type": "AI 项目/工具",
+        "bestFor": "Recent data showed that 30% of home sales across the San Francisco Bay Area between April and June were purchased entirely with cash.",
+        "description": "Recent data showed that 30% of home sales across the San Francisco Bay Area between April and June were purchased entirely with cash.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsAPI:artificial intelligence",
+        "url": "https://nypost.com/2026/08/04/real-estate/san-francisco-all-cash-luxury-home-purchases-surge-amid-ai-boom/"
+      },
       {
         "name": "Indusface 推出 SwyftComply AI，实现自动化虚拟补丁",
         "provider": "NewsAPI",
@@ -10141,35 +10137,37 @@
         "watch": "API 价格和配额可能影响大规模部署的成本，需提前评估预算。",
         "sourceName": "Currents:generative AI",
         "url": "https://www.prnewswire.com/news-releases/assail-signs-qanapi-to-five-year-4-125-million-contract-302841324.html"
-      },
-      {
-        "name": "AI 训练自生成数据的模型崩溃现象",
-        "provider": "Currents",
-        "type": "AI 项目/工具",
-        "bestFor": "这一现象对多个领域的开发者和研究人员产生了深远影响。做 RAG 的工程师需要关注模型输出的多样性，以确保生成内容的质量。电商美工可能会发现，依赖 AI 生成的内容可能导致产品描述缺乏吸引力。管 GPU 集群的 SRE 需要考虑如何优化训练数据，以避免模型崩溃带来的性能下降。",
-        "description": "我注意到，当一个 AI 模型不断在自己的输出上进行训练时，随着代际的重复，模型的多样性会逐渐崩溃。标准差从第 0 代的 1.000 降至第 5 代的 0.444，再到第 10 代的 0.197，最终导致模型生成的内容缺乏创造性和多样性。这一现象并非假设，预计到 2025 年，15-30% 的公开英语文本将是 AI 辅助或生成的。",
-        "useCases": [
-          "评估模型输出的多样性，确保生成内容的丰富性和吸引力。",
-          "结合真实数据与生成数据，优化产品描述，提高转化率。",
-          "监控模型训练过程，及时调整数据来源，避免模型崩溃。"
-        ],
-        "watch": "依赖 AI 生成数据可能导致内容缺乏创意，影响用户体验。",
-        "sourceName": "Currents:generative AI",
-        "url": "https://levelup.gitconnected.com/model-collapse-what-happens-when-ai-trains-on-ai-generated-data-42a91ac7f2f3?source=rss----5517fd7b58a6---4"
-      },
-      {
-        "name": "Revvity earnings in focus: AI fears test life sciences tools",
-        "provider": "Currents",
-        "type": "AI 项目/工具",
-        "bestFor": "Revvity earnings in focus: AI fears test life sciences tools maker",
-        "description": "Revvity earnings in focus: AI fears test life sciences tools maker",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Currents:artificial intelligence",
-        "url": "https://www.investing.com/news/earnings/revvity-earnings-in-focus-ai-fears-test-life-sciences-tools-maker-93CH-4831733"
       }
     ],
     "ai-business": [
+      {
+        "name": "AI 集成助力 Alphabet (GOOG) 核心业务增长",
+        "provider": "NewsAPI",
+        "type": "AI 项目/工具",
+        "bestFor": "Alphabet 的 AI 集成将改变企业在数字广告和云计算领域的竞争格局。投资者和企业决策者将更倾向于依赖 AI 驱动的解决方案，以提升效率和降低成本。此外，随着 Alphabet 在 AI 和云计算领域的持续投资，预计将吸引更多的开发者和企业用户，推动行业整体向前发展。",
+        "description": "Greenskeeper Asset Management 最近发布的 2026 年第二季度报告显示，Alphabet Inc. (GOOG) 在市场中表现出色，AI 集成推动了搜索收入的显著增长。尽管市场对 AI 聊天机器人可能侵蚀 Google 核心搜索业务的担忧，但最新数据显示，这些担忧并未成真。Alphabet 的云业务也显示出强劲的增长势头，运营利润率达到 33%。",
+        "useCases": [
+          "分析 Alphabet 的财务报告，利用数据分析工具评估其投资价值。",
+          "使用 Google Cloud 提供的 AI 服务，优化企业的数字营销策略。",
+          "通过 AI 模式提升搜索引擎的用户体验，增加用户粘性。",
+          "监控市场动态，利用 AI 工具预测行业趋势，指导投资决策。",
+          "整合 AI 技术于产品开发中，提升产品的市场竞争力。"
+        ],
+        "watch": "API 使用可能受到配额限制，需提前规划调用频率以避免超额费用。",
+        "sourceName": "NewsAPI:artificial intelligence",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/ai-integration-strengthens-alphabet-goog-162937753.html"
+      },
+      {
+        "name": "Why Palantir Technologies Stock Skyrocketed Higher Today",
+        "provider": "NewsAPI",
+        "type": "AI 项目/工具",
+        "bestFor": "Palantir Technologies (NASDAQ: PLTR) stock charged sharply higher Tuesday, climbing as much as 27.7%. As of 11:36 a.m. ET, the stock was still up 26.3%.\nThe cat",
+        "description": "Palantir Technologies (NASDAQ: PLTR) stock charged sharply higher Tuesday, climbing as much as 27.7%. As of 11:36 a.m. ET, the stock was still up 26.3%.\nThe catalyst that sent the ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsAPI:artificial intelligence",
+        "url": "https://biztoc.com/x/045343e60e27c142"
+      },
       {
         "name": "加州立法者考虑限制工作场所 AI 监控的法案",
         "provider": "NewsAPI",
@@ -10741,34 +10739,6 @@
         "watch": "平台可能面临数据准确性的问题，若数据源不可靠，可能导致错误的市场解读。",
         "sourceName": "NewsAPI:artificial intelligence",
         "url": "https://www.globenewswire.com/news-release/2026/07/31/3337087/0/en/PolySays-Launches-Independent-News-Platform-to-Explain-Prediction-Market-Moves.html"
-      },
-      {
-        "name": "亚马逊强劲财报助推美股反弹",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "此次亚马逊的财报不仅提升了其自身的市场表现，也为整个科技行业注入了信心。投资者可能会重新评估对人工智能领域的投资策略，尤其是在看到亚马逊和微软等公司的成功案例后。此外，市场对美联储政策的关注可能会影响未来的投资决策，尤其是在通胀压力持续的情况下。整体来看，这一事件可能会促使更多资金流入科技股，推动相关企业的进一步发展。",
-        "description": "我注意到，亚马逊发布的强劲财报让美股在7月31日大幅上涨，抵消了美国国债收益率上升带来的压力。亚马逊的股价飙升15.3%，季度利润超过620亿美元，营收增长20%，超出分析师预期。这一表现增强了投资者对人工智能投资的信心。",
-        "useCases": [
-          "分析亚马逊财报数据，评估其对未来投资的影响。",
-          "监测美股市场动态，调整投资组合以应对利率变化。",
-          "研究人工智能领域的投资趋势，寻找潜在的投资机会。",
-          "评估韩国政府的投资计划对科技股的影响，制定相应策略。",
-          "利用亚马逊的成功案例，指导其他企业的市场策略。"
-        ],
-        "watch": "市场对美联储加息的反应可能导致股市波动，影响投资决策。",
-        "sourceName": "NewsAPI:artificial intelligence",
-        "url": "https://www.channelnewsasia.com/world/amazon-us-stocks-market-fed-6292111"
-      },
-      {
-        "name": "Amazon Jumps, Apple Falls to End Up-and-Down Month",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "US stocks rose Friday to finish a wild July for Wall Street as Amazon leaped, Apple sank, and rising oil prices worsened worries about inflation staying high. F",
-        "description": "US stocks rose Friday to finish a wild July for Wall Street as Amazon leaped, Apple sank, and rising oil prices worsened worries about inflation staying high. Friday's gains sent t",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsAPI:artificial intelligence",
-        "url": "https://www.newser.com/story/393895/amazon-jumps-apple-falls-to-end-up-and-down-month.html"
       }
     ],
     "ai-benchmark": [
@@ -14952,44 +14922,10 @@
     }
   ],
   "dailyReport": {
-    "date": "2026-08-05",
-    "generatedAt": "2026-08-05T10:40:10.006643Z",
-    "total": 17,
+    "date": "2026-08-06",
+    "generatedAt": "2026-08-05T17:03:49.370584Z",
+    "total": 8,
     "sections": [
-      {
-        "category": "ai-tools",
-        "label": "AI 工具",
-        "items": [
-          {
-            "title": "Claude Code 连接器可复用至 Artifacts",
-            "summary": "Claude 连接器的使用范围扩展至 Artifacts，用户可通过连接 Gmail、日历、Slack 等工具，提升 Claude Code 的功能。许多用户尚未意识到这一点，可能影响其使用体验。",
-            "source": "X：Thariq (@trq212)",
-            "url": "https://x.com/trq212/status/2084387303959740449",
-            "score": 61,
-            "sourceCount": 1,
-            "date": "2026-08-04",
-            "publishedAt": "2026-08-04T05:13",
-            "reason": "Claude 连接器的扩展功能为用户提供了更高效的工作方式，值得关注。"
-          }
-        ]
-      },
-      {
-        "category": "ai-coding",
-        "label": "AI 编程",
-        "items": [
-          {
-            "title": "零基础利用Codex打造个性化硬件的实践与挑战",
-            "summary": "作者通过与Codex的互动，展示了从需求分析到硬件组装的全过程，成功在5天内制作出一款提醒久坐的猫爪硬件。文中还提及了调试宏键盘的Agent应用及OpenAI与Work Louder合作推出的Codex Micro键盘，强调了实践学习的重要性。然而，这种方法也面临着技术门槛和资源",
-            "source": "公众号：数字生命卡兹克",
-            "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647684924&idx=1&sn=f9ecf13ac374f13dfa75f98f685a231d",
-            "score": 57,
-            "sourceCount": 1,
-            "date": "2026-08-04",
-            "publishedAt": "2026-08-04T08:06",
-            "reason": "这篇文章展示了如何利用Codex进行硬件开发，适合对AI编程感兴趣的零基础用户，具有实用的学习价值。"
-          }
-        ]
-      },
       {
         "category": "ai-image-video",
         "label": "图像视频",
@@ -15038,67 +14974,6 @@
             "date": "2026-08-05",
             "publishedAt": "2026-08-05T12:00",
             "reason": "Hunyuan3D-Buffalo 1.0的发布为3D生成和编辑提供了新的可能性，值得关注。"
-          },
-          {
-            "title": "OpenAI 发布 GPT-Live 实时音频新架构",
-            "summary": "OpenAI 最新推出的 GPT-Live 架构支持实时音频交互，能够在说话的同时进行聆听。这一新架构通过重建语音栈，确保音频流畅持续，提升了 ChatGPT 的对话自然度，允许更深层次的推理与工具使用而不打断对话。",
-            "source": "X：Greg Brockman (@gdb)",
-            "url": "https://x.com/gdb/status/2084405421041963356",
-            "score": 66,
-            "sourceCount": 1,
-            "date": "2026-08-04",
-            "publishedAt": "2026-08-04T06:25",
-            "reason": "GPT-Live 的发布代表了语音交互技术的一次重要飞跃，值得关注其对行业的深远影响。"
-          },
-          {
-            "title": "欧盟新透明度规则生效，AI 违规罚款高达 1500 万欧元",
-            "summary": "我注意到，欧盟《人工智能法案》下的新透明度义务于 8 月 2 日正式生效。这项规定要求公司在用户与 AI 模型互动时进行披露，并为合成的音视频和文本添加机器可读标记。违规的公司将面临最高 1500 万欧元的罚款，或全球年营业额的 3%。而在 8 月 2 日之前推出的模型则享有 4",
-            "source": "The Verge：AI（RSS）",
-            "url": "https://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes",
-            "score": 65,
-            "sourceCount": 1,
-            "date": "2026-08-04",
-            "publishedAt": "2026-08-04T01:38",
-            "reason": "这条信息值得关注，因为它不仅影响到科技公司的合规策略，还将改变用户与 AI 互动的方式，提升透明度和信任度。"
-          },
-          {
-            "title": "AirLLM 支持单卡 4GB GPU 运行 70B 模型推理",
-            "summary": "AirLLM 项目实现了在单块 4GB 显存的 GPU 上运行 70B 参数大模型推理的能力，省去了多卡和大规模显存的需求。该项目已开源，并在 Hacker News 上引发了广泛关注，获得了 103 点热度。",
-            "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-            "url": "https://github.com/lyogavin/airllm",
-            "score": 65,
-            "sourceCount": 1,
-            "date": "2026-08-04",
-            "publishedAt": "2026-08-04T00:24",
-            "reason": "AirLLM 的独特之处在于其在资源有限的情况下，依然能够高效运行大型语言模型，极大地降低了技术门槛，值得关注。"
-          },
-          {
-            "title": "EA 首席战略官阐述生成式 AI 在实时游戏中的应用挑战",
-            "summary": "EA 首席战略官 Mihir Vaidya 指出，生成式 AI 在游戏中的应用面临诸多挑战，包括高帧率、玩家同步和低延迟等要求。他强调，AI 不仅要看起来真实，更要在行为上保持准确性。EA 将 AI 的影响分为效率、扩展和转型三个层面，特别提到《模拟人生》已吸引超过 5 亿玩家，",
-            "source": "Runway：News（网页）",
-            "url": "https://runwayml.com/news/company-news/electronic-arts-ai-summit-2026",
-            "score": 62,
-            "sourceCount": 1,
-            "date": "2026-08-04",
-            "publishedAt": "2026-08-04T04:12",
-            "reason": "EA 对生成式 AI 的深入探讨揭示了其在游戏行业的潜力与挑战，值得关注。"
-          }
-        ]
-      },
-      {
-        "category": "ai-benchmark",
-        "label": "评测榜单",
-        "items": [
-          {
-            "title": "大型语言模型能否恢复编译器遗漏的语义优化机会？",
-            "summary": "2026年8月4日，Hailong Jiang等人提出了一个问题：大型语言模型（LLMs）是否能够从异构C/C++上下文中恢复编译器未能捕捉的语义，并将其实现为经过验证的、保持合同的工件。研究引入了SeGaBench基准，包含100个合成案例和20个源支持案例，展示了LLMs在优",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.03983v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-04",
-            "publishedAt": "",
-            "reason": "这项研究展示了大型语言模型在编译器优化中的潜力，提供了新的视角和工具，值得关注。"
           }
         ]
       },
@@ -15160,34 +15035,6 @@
             "date": "2026-08-05",
             "publishedAt": "2026-08-05T12:00",
             "reason": ""
-          },
-          {
-            "title": "微软开源 Orchard 框架，助力 AI 智能体训练",
-            "summary": "我注意到，微软最近推出了 Orchard，一个面向研究社区的开源框架，专门用于训练和评估 AI 智能体。这个框架的设计旨在降低复杂性，使得研究人员能够复用基础设施，从而即使是较小的模型也能展现出强劲的性能。这无疑为 AI 研究提供了新的可能性。",
-            "source": "X：Microsoft Research (@MSFTResearch)",
-            "url": "https://x.com/MSFTResearch/status/2084364547142418722",
-            "score": 66,
-            "sourceCount": 1,
-            "date": "2026-08-04",
-            "publishedAt": "2026-08-04T03:43",
-            "reason": "Orchard 框架的开源发布为 AI 研究提供了新的工具和机会，值得关注。"
-          }
-        ]
-      },
-      {
-        "category": "ai-business",
-        "label": "行业商业",
-        "items": [
-          {
-            "title": "Palantir CEO Alex Karp 指出 AI 行业的潜在风险",
-            "summary": "我注意到，Palantir 的 CEO Alex Karp 在最新的季度股东信中对 AI 行业提出了警告，称一些前沿 AI 实验室对企业来说过于不可信。他认为，这些实验室的行为带有\"马克思主义色彩\"，并可能会影响企业的数据控制。Palantir 在第二季度的营收达到了 19 亿美",
-            "source": "TechCrunch：AI（RSS）",
-            "url": "https://techcrunch.com/2026/08/03/after-killer-quarter-palantir-ceo-alex-karp-calls-ai-industry-marxist",
-            "score": 65,
-            "sourceCount": 1,
-            "date": "2026-08-04",
-            "publishedAt": "2026-08-04T07:19",
-            "reason": "Karp 的观点为我们提供了对 AI 行业的深刻洞察，尤其是在企业如何管理数据和选择合作伙伴方面，值得关注。"
           }
         ]
       }
