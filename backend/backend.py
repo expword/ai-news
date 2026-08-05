@@ -50,9 +50,9 @@ FREE_INFO_SOURCES = [
     {"name": "Phind", "description": "面向开发者的 AI 搜索，适合查框架、库、GitHub 项目和技术问题。", "url": "https://www.phind.com/"},
     {"name": "Consensus", "description": "面向论文证据的 AI 搜索，适合找研究结论和可引用论文。", "url": "https://consensus.app/"},
     {"name": "AI News", "description": "AI 行业新闻聚合入口，可作为人工选题和每日资讯来源。", "url": "https://www.artificialintelligence-news.com/"},
-    {"name": "中国 AI 一手信源", "description": "国产模型厂商更新日志、国家及地方 AI 政策、备案公告、信通院报告、交易所公告、云产品更新、国内模型与开源社区。", "url": "https://www.cac.gov.cn/"},
-    {"name": "国内 AI 竞赛", "description": "聚合天池、DataFountain 与魔搭社区公开赛事，跟踪报名时间、赛题方向和数据资源。", "url": "https://tianchi.aliyun.com/competition/"},
 ]
+
+DISABLED_SOURCE_NAMES = {"中国 AI 一手信源", "国内 AI 竞赛"}
 
 SEARCH_QUERIES = [
     "artificial intelligence",
@@ -1105,6 +1105,16 @@ def parse_datetime_to_iso(s: str) -> str:
     return _to_cn(dt).strftime("%Y-%m-%dT%H:%M") if dt else ""
 
 
+def validate_publication_hints(date_hint: str, datetime_hint: str = "") -> tuple[str, str]:
+    """Reject future event/deadline dates that were mistaken for publication dates."""
+    date_value = (date_hint or "")[:10]
+    if not re.fullmatch(r"20\d{2}-\d{2}-\d{2}", date_value):
+        return "", ""
+    if date_value > today_iso():
+        return "", ""
+    return date_value, datetime_hint or ""
+
+
 _PUBLISHED_META_KEYS = {
     "article:published_time", "og:published_time", "datepublished", "datecreated",
     "pubdate", "publishdate", "publish_time", "published_time", "publication_date",
@@ -1395,7 +1405,9 @@ def _fetch_one_china_source(src: dict) -> list[dict]:
 
 
 def fetch_china_source_items() -> list[dict]:
-    """Fetch domestic first-party sources concurrently; a failed site is isolated."""
+    """Legacy domestic first-party collector; disabled unless explicitly re-enabled."""
+    if os.getenv("ENABLE_CHINA_FIRST_PARTY_SOURCES", "0").lower() not in ("1", "true", "yes", "on"):
+        return []
     items: list[dict] = []
     workers = min(8, len(CHINA_HTML_SOURCES))
     with ThreadPoolExecutor(max_workers=workers) as pool:
@@ -1806,8 +1818,9 @@ def repair_existing_domestic_timestamps(candidates: list[dict]) -> int:
         if item.get("region") != "CN" and not item.get("sourceType"):
             continue
         hint = hints.get(item.get("url")) or {}
-        verified_date = (hint.get("_date_hint") or "").strip()
-        verified_datetime = (hint.get("_datetime_hint") or "").strip()
+        verified_date, verified_datetime = validate_publication_hints(
+            (hint.get("_date_hint") or "").strip(), (hint.get("_datetime_hint") or "").strip()
+        )
         before = (item.get("date"), item.get("publishedAt"), item.get("collectedAt"), item.get("dateStatus"))
         if verified_date:
             item["date"] = verified_date[:10]
@@ -2082,8 +2095,10 @@ def enrich_news_item(raw: dict) -> dict | None:
         result["sourceType"] = raw["sourceType"]
     if raw.get("region"):
         result["region"] = raw["region"]
-    raw_date = (raw.get("_date_hint") or article_date or "").strip()
-    raw_datetime = (raw.get("_datetime_hint") or article_datetime or "").strip()
+    raw_date, raw_datetime = validate_publication_hints(
+        (raw.get("_date_hint") or article_date or "").strip(),
+        (raw.get("_datetime_hint") or article_datetime or "").strip(),
+    )
     result["date"] = raw_date[:10] if len(raw_date) >= 10 else ""
     result["publishedAt"] = raw_datetime
     result["collectedAt"] = raw.get("_collected_at") or datetime.now(CN_TZ).strftime("%Y-%m-%dT%H:%M")
@@ -2258,14 +2273,16 @@ def fallback_news(raw_items: list[dict]) -> list[dict]:
         category = category_from_text(f"{title} {summary}")
         tier = item.get("tier") or "T2"
         score = compute_quality_score(None, tier)
-        raw_date = (item.get("_date_hint") or "").strip()
+        raw_date, raw_datetime = validate_publication_hints(
+            (item.get("_date_hint") or "").strip(), (item.get("_datetime_hint") or "").strip()
+        )
         news.append({
             "title": title,
             "summary": summary[:180] if summary else "",
             "category": category,
             "source": item.get("source") or "Auto Search",
             "date": raw_date[:10] if len(raw_date) >= 10 else "",
-            "publishedAt": item.get("_datetime_hint") or "",
+            "publishedAt": raw_datetime,
             "collectedAt": item.get("_collected_at") or datetime.now(CN_TZ).strftime("%Y-%m-%dT%H:%M"),
             "dateStatus": "verified" if len(raw_date) >= 10 else "unknown",
             "tags": [],
@@ -2583,7 +2600,13 @@ def merge_generated(patch: dict) -> dict:
         **patch,
         "lastUpdated": current.get("lastUpdated") or today_iso(),
         "generatedAt": current.get("generatedAt") or "",
-        "sources": uniq_by([*(patch.get("sources") or []), *FREE_INFO_SOURCES, *(current.get("sources") or [])], lambda item: f"{item.get('name')}|{item.get('url')}"),
+        "sources": [
+            item for item in uniq_by(
+                [*(patch.get("sources") or []), *FREE_INFO_SOURCES, *(current.get("sources") or [])],
+                lambda item: f"{item.get('name')}|{item.get('url')}",
+            )
+            if item.get("name") not in DISABLED_SOURCE_NAMES
+        ],
         "news": uniq_by([*(patch.get("news") or []), *(current.get("news") or [])], lambda item: f"{item.get('title')}|{item.get('url', '')}")[:100],
         "weeklyDigests": uniq_by([*(patch.get("weeklyDigests") or []), *(current.get("weeklyDigests") or [])], lambda item: item.get("weekId"))[:24],
         "githubWeekly": uniq_by([*(patch.get("githubWeekly") or []), *(current.get("githubWeekly") or [])], lambda item: item.get("name") or item.get("url"))[:60],
@@ -2599,6 +2622,11 @@ def merge_generated(patch: dict) -> dict:
     #  - 真实 LLM 打分（scores 非空）→ 保留模型分，tier 用 enrich 时写入的；
     #  - 旧数据 / 兜底（无 scores）→ 每次按 source 反推 tier 并用兜底公式重算，保证幂等。
     for n in merged["news"]:
+        valid_date, valid_datetime = validate_publication_hints(n.get("date") or "", n.get("publishedAt") or "")
+        if (n.get("date") or "") and not valid_date:
+            n["date"] = ""
+            n["publishedAt"] = ""
+            n["dateStatus"] = "unknown"
         n["category"] = normalize_category(n.get("category"), f"{n.get('title','')} {n.get('summary','')}")
         has_real_scores = isinstance(n.get("scores"), dict) and bool(n.get("scores"))
         if has_real_scores:
@@ -2733,13 +2761,6 @@ def run_daily(*, include_github: bool = True, include_skills: bool = True) -> di
         print(f"  · GitHub 抓取 {len(github_items)} 个候选")
 
     raw_news_items = []
-    china_items = fetch_china_source_items()
-    repaired = repair_existing_domestic_timestamps(china_items)
-    if repaired:
-        print(f"  · 修复既有国内资讯发布时间 {repaired} 条")
-    # 国内一手源优先保留 30 条名额；fetch_china_source_items 已按九种来源轮询均衡。
-    raw_news_items.extend(china_items[:30])
-    print(f"  · 中国一手信源抓取 {len(china_items)} 条候选，优先入队 {min(30, len(china_items))} 条")
     raw_news_items.extend(fetch_aihot_items())
     raw_news_items.extend(fetch_news_api_items())
     raw_news_items.extend(fetch_rss_items())
@@ -2818,7 +2839,7 @@ def run_weekly() -> dict:
         mark_processed(skill_candidates, "skills")
 
     # 并发：news（来自 RSS + HTML 一手源）
-    rss_items = fetch_china_source_items()[:15] + fetch_rss_items() + fetch_html_items()
+    rss_items = fetch_rss_items() + fetch_html_items()
     rss_items = uniq_by(rss_items, lambda r: r.get("url"))
     rss_items = [r for r in rss_items if is_ai_relevant(r)]
     rss_items = filter_unprocessed(rss_items, "news")
