@@ -1,7 +1,284 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-08-05",
-  "generatedAt": "2026-08-05T08:31:08.108724Z",
+  "generatedAt": "2026-08-05T09:56:08.509048Z",
   "news": [
+    {
+      "title": "Hunyuan3D-Buffalo 1.0：统一的多模态模型，支持可扩展的3D生成与编辑",
+      "summary": "我最近看到Hunyuan3D-Buffalo 1.0的发布，这是一种新型的多模态模型，旨在解决3D生成、理解和编辑中的数据稀缺问题。该模型整合了文本到3D的生成能力，能够在缺乏大规模几何一致性编辑数据的情况下，提供更为统一的3D建模框架。这一进展可能会对3D内容创作和编辑带来新的机遇。",
+      "category": "ai-models",
+      "tags": [
+        "3D生成",
+        "多模态模型",
+        "Hunyuan3D",
+        "图像理解",
+        "文本生成"
+      ],
+      "keyPoints": [
+        "Hunyuan3D-Buffalo 1.0是一个统一的多模态模型，专注于3D生成与编辑。",
+        "该模型解决了3D建模中数据稀缺的问题，尤其是缺乏大规模的几何一致性编辑数据。",
+        "模型支持文本到3D的生成，增强了用户的创作能力。",
+        "Hunyuan3D-Buffalo 1.0的发布标志着3D内容创作领域的一次重要进展。",
+        "该模型的设计考虑了多种应用场景，适用于不同的行业需求。"
+      ],
+      "background": "Hunyuan3D-Buffalo 1.0的推出是基于当前3D生成技术的快速发展。传统的3D建模往往受到数据不足的限制，尤其是在多模态数据的整合上。随着图像生成技术的进步，开发者们开始探索如何将理解、生成和编辑功能结合在一个统一的框架中。Hunyuan3D-Buffalo 1.0正是为了填补这一空白，提供一个更为灵活和强大的工具，帮助用户在3D创作中实现更高的效率和创造力。",
+      "impact": "Hunyuan3D-Buffalo 1.0的发布将对多个领域产生深远影响。首先，3D艺术家和设计师可以利用这一工具提升创作效率，快速生成高质量的3D模型。其次，游戏开发者和动画制作团队能够更轻松地实现复杂场景的构建，降低制作成本。此外，教育和培训行业也可以借助这一模型，提供更生动的学习体验。随着3D内容需求的增加，这一技术的推广将推动相关行业的快速发展。",
+      "audience": [
+        "3D艺术家",
+        "游戏开发者",
+        "动画制作团队",
+        "教育工作者",
+        "产品设计师"
+      ],
+      "useCases": [
+        "使用Hunyuan3D-Buffalo 1.0快速生成3D模型，提升设计效率。",
+        "在游戏开发中，利用该模型创建复杂的3D场景，降低制作时间。",
+        "教育工作者借助该工具，制作生动的3D教学内容，增强学习体验。",
+        "产品设计师使用该模型进行快速原型设计，缩短产品开发周期。",
+        "动画制作团队利用Hunyuan3D-Buffalo 1.0实现高效的角色建模与动画制作。"
+      ],
+      "risks": [
+        "Hunyuan3D-Buffalo 1.0的API可能存在使用配额限制，影响大规模项目的实施。",
+        "模型的商用授权政策尚不明确，可能导致后续使用中的法律风险。",
+        "在不同硬件环境下，模型的兼容性可能存在问题，影响用户体验。",
+        "由于数据集的稀缺，模型在特定场景下的表现可能不如预期。"
+      ],
+      "reason": "Hunyuan3D-Buffalo 1.0的发布为3D生成和编辑提供了新的可能性，值得关注。",
+      "scores": {
+        "importance": 85,
+        "novelty": 80,
+        "firsthand": 90,
+        "impact": 75,
+        "credibility": 80
+      },
+      "url": "https://arxiv.org/abs/2608.02711",
+      "source": "RSS · arXiv cs.CV",
+      "date": "2026-08-05",
+      "publishedAt": "2026-08-05T12:00",
+      "collectedAt": "2026-08-05T17:50",
+      "dateStatus": "verified",
+      "tier": "T1",
+      "score": 82,
+      "aiSelected": true,
+      "_style": "recommender",
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "PixelUp：零样本语义特征上采样技术",
+      "summary": "PixelUp 是一种新型的零样本语义特征上采样方法，旨在提升计算机视觉任务中的细粒度预测能力。尽管其在语义分割和深度估计等密集预测任务中表现出色，但仍面临特定编码器依赖和训练复杂性等挑战。",
+      "category": "ai-research",
+      "tags": [
+        "计算机视觉",
+        "特征上采样",
+        "深度学习"
+      ],
+      "keyPoints": [
+        "PixelUp 提供了一种零样本的 VFM 无关上采样方法，通过多尺度语义特征实现语义感知。",
+        "在语义分割任务中，PixelUp 的平均 mIoU 提升了 +1.2，相较于现有方法表现更佳。",
+        "在 NYUv2 深度估计中，PixelUp 的性能提升了 +0.25 $\\delta_1$，显示出其在密集预测任务中的优势。",
+        "该方法在无监督语义分割中也取得了 +1.3 mIoU 的提升，进一步增强了其应用潜力。",
+        "PixelUp 的设计避免了特定编码器的限制，减少了重新训练的需求，提升了灵活性。"
+      ],
+      "background": "随着自监督视觉基础模型（VFM）的发展，计算机视觉领域对细粒度预测的需求日益增加。然而，现有的特征上采样方法往往依赖于特定的编码器，导致在不同任务中需要重新训练，增加了使用的复杂性。PixelUp 通过引入零样本的上采样策略，旨在解决这一问题，提供更高的灵活性和性能。",
+      "impact": "PixelUp 的推出可能会改变计算机视觉领域的特征上采样方法，尤其是在需要高精度的语义分割和深度估计任务中。研究人员和开发者可以利用这一新方法提高模型的预测能力，进而影响相关应用的决策和效果。此外，PixelUp 的无监督特性可能会促进更多领域的研究和应用，推动技术进步。",
+      "audience": [
+        "计算机视觉研究人员",
+        "深度学习工程师",
+        "从事图像处理的开发者"
+      ],
+      "useCases": [
+        "在语义分割任务中应用 PixelUp，提升模型的细粒度预测能力。",
+        "利用 PixelUp 进行深度估计，改善图像的深度信息提取。",
+        "在无监督学习场景中，使用 PixelUp 进行语义分割，减少对标注数据的依赖。"
+      ],
+      "risks": [
+        "PixelUp 可能在特定场景下表现不佳，尤其是在缺乏足够训练数据的情况下。",
+        "由于其新颖性，PixelUp 的实际应用效果可能与理论预期存在差距，需进行更多实证验证。",
+        "在不同硬件环境下，PixelUp 的性能可能受到限制，影响其广泛应用的可行性。"
+      ],
+      "reason": "PixelUp 提供了一种创新的特征上采样方法，具有灵活性和高效性，值得关注其在计算机视觉领域的应用潜力。",
+      "scores": {
+        "importance": 75,
+        "novelty": 85,
+        "firsthand": 90,
+        "impact": 80,
+        "credibility": 70
+      },
+      "url": "https://arxiv.org/abs/2608.02792",
+      "source": "RSS · arXiv cs.CV",
+      "date": "2026-08-05",
+      "publishedAt": "2026-08-05T12:00",
+      "collectedAt": "2026-08-05T17:50",
+      "dateStatus": "verified",
+      "tier": "T1",
+      "score": 80,
+      "aiSelected": true,
+      "_style": "critic",
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Confident but Unreliable: A Behavioral Safety Audit of Vision-Language Models on Brain MRI",
+      "summary": "arXiv:2608.02790v1 Announce Type: new Abstract: Vision-language models (VLMs), including medical specialists, are increasingly proposed for medical imaging, yet their stated confid",
+      "category": "ai-research",
+      "source": "RSS · arXiv cs.CV",
+      "date": "2026-08-05",
+      "publishedAt": "2026-08-05T12:00",
+      "collectedAt": "2026-08-05T17:50",
+      "dateStatus": "verified",
+      "tags": [],
+      "url": "https://arxiv.org/abs/2608.02790",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "A Unified 2D Framework for DeepLesion Detection, Segmentation and Short Report Generation",
+      "summary": "arXiv:2608.02805v1 Announce Type: new Abstract: In previous work, we integrated large language models (LLMs) into the lesion segmentation model based on the ULS23 DeepLesion datase",
+      "category": "ai-research",
+      "source": "RSS · arXiv cs.CV",
+      "date": "2026-08-05",
+      "publishedAt": "2026-08-05T12:00",
+      "collectedAt": "2026-08-05T17:50",
+      "dateStatus": "verified",
+      "tags": [],
+      "url": "https://arxiv.org/abs/2608.02805",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Better, Stronger, Faster, and Broader: Structured All-Mask Prediction for MLLM-Based Segmentation",
+      "summary": "arXiv:2608.02791v1 Announce Type: new Abstract: MLLM-based segmentation faces a core segmentation trilemma: high segmentation performance, preserved dialogue ability, and fast infe",
+      "category": "ai-research",
+      "source": "RSS · arXiv cs.CV",
+      "date": "2026-08-05",
+      "publishedAt": "2026-08-05T12:00",
+      "collectedAt": "2026-08-05T17:50",
+      "dateStatus": "verified",
+      "tags": [],
+      "url": "https://arxiv.org/abs/2608.02791",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Quo Vadis, World Modeling?",
+      "summary": "arXiv:2608.02713v1 Announce Type: new Abstract: Continually improving agents require dynamic interaction feedback beyond static supervision, yet direct real-environment interaction",
+      "category": "ai-agents",
+      "source": "RSS · arXiv cs.CV",
+      "date": "2026-08-05",
+      "publishedAt": "2026-08-05T12:00",
+      "collectedAt": "2026-08-05T17:50",
+      "dateStatus": "verified",
+      "tags": [],
+      "url": "https://arxiv.org/abs/2608.02713",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "SAGE: Semantic Explainability of Attention-Based Survival Models in Computational Pathology",
+      "summary": "arXiv:2608.02803v1 Announce Type: new Abstract: Attention-based multiple instance learning (ABMIL) is the predominant approach for slide-level prediction in computational pathology",
+      "category": "ai-research",
+      "source": "RSS · arXiv cs.CV",
+      "date": "2026-08-05",
+      "publishedAt": "2026-08-05T12:00",
+      "collectedAt": "2026-08-05T17:50",
+      "dateStatus": "verified",
+      "tags": [],
+      "url": "https://arxiv.org/abs/2608.02803",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Oh Deer, How Should I Handle This? Seasonal Priors for Selective Wildlife Annotation and Classification",
+      "summary": "arXiv:2608.02762v1 Announce Type: new Abstract: Fine-grained wildlife classification in aerial imagery is limited not only by model performance, but also by unreliable labels: anim",
+      "category": "ai-image-video",
+      "source": "RSS · arXiv cs.CV",
+      "date": "2026-08-05",
+      "publishedAt": "2026-08-05T12:00",
+      "collectedAt": "2026-08-05T17:50",
+      "dateStatus": "verified",
+      "tags": [],
+      "url": "https://arxiv.org/abs/2608.02762",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "大型语言模型能否恢复编译器遗漏的语义优化机会？",
       "summary": "2026年8月4日，Hailong Jiang等人提出了一个问题：大型语言模型（LLMs）是否能够从异构C/C++上下文中恢复编译器未能捕捉的语义，并将其实现为经过验证的、保持合同的工件。研究引入了SeGaBench基准，包含100个合成案例和20个源支持案例，展示了LLMs在优化编译器分析中的潜力。",
@@ -5700,6 +5977,188 @@ window.AI_GENERATED_DATA = {
   ],
   "githubWeekly": [
     {
+      "name": "zhayujie/CowAgent",
+      "lang": "Python",
+      "category": "Agent 框架",
+      "description": "这是一个开源的超级 AI 助手，能够计划任务、运行工具和技能，具备自我进化的能力。",
+      "details": "CowAgent 是一个多模型、多渠道的 AI 助手，旨在帮助用户高效管理任务和信息。与其他同类产品（如 ChatGPT 和 Rasa）相比，CowAgent 具有轻量级和可扩展性，用户可以通过一行命令快速安装。该项目使用 Python 开发，采用 MIT 许可证，适合开发者和 AI 爱好者使用，不推荐给对技术不熟悉的用户。",
+      "features": [
+        "支持多种 AI 模型",
+        "具备自我学习和记忆能力",
+        "轻量级安装，便于扩展",
+        "多渠道交互，支持多种平台",
+        "兼容 OpenAI API"
+      ],
+      "useCases": [
+        "本地运行 CowAgent 进行任务自动化",
+        "集成到现有系统中以增强功能",
+        "使用 CowAgent 进行数据分析和处理"
+      ],
+      "quickStart": [
+        "git clone https://github.com/zhayujie/CowAgent.git",
+        "cd CowAgent",
+        "pip install -r requirements.txt",
+        "python main.py"
+      ],
+      "why": "CowAgent 拥有超过 46331 个星标，表明其在社区中的受欢迎程度。该项目的活跃度高，定期更新，且使用 Python 语言开发，适合快速迭代和扩展。与其他同类产品相比，CowAgent 提供了更灵活的架构和更强的自我学习能力。",
+      "tags": [
+        "AI助手",
+        "开源",
+        "任务管理"
+      ],
+      "url": "https://github.com/zhayujie/CowAgent",
+      "stars": "46331 stars",
+      "source": "GitHub Search · 2026-08-05",
+      "date": "2026-08-05"
+    },
+    {
+      "name": "hugohe3/ppt-master",
+      "lang": "Python",
+      "category": "AI 编辑器",
+      "description": "这是一个将文档或主题转化为真实、原生 PowerPoint 演示文稿的工具，支持多种功能。",
+      "details": "ppt-master 是一个利用 AI 技术将文档或主题转换为 PowerPoint 演示文稿的工具。它的亮点在于支持原生形状、过渡和动画，以及根据需求生成数据驱动的图表和表格。与其他类似工具（如 Beautiful.AI 和 Slidebean）相比，ppt-master 提供了更高的自定义能力，用户可以使用自己的 .pptx 模板。该项目使用 Python 开发，采用 MIT 许可证，适合需要快速生成演示文稿的专业人士和教育工作者，不推荐对演示文稿质量要求极高的用户。",
+      "features": [
+        "支持根据文档内容自动生成 PowerPoint 演示文稿",
+        "提供原生形状、过渡和动画",
+        "支持数据驱动的图表和表格生成",
+        "允许用户使用自定义 .pptx 模板",
+        "提供音频解说功能，基于演讲者备注"
+      ],
+      "useCases": [
+        "将会议记录转化为演示文稿",
+        "快速生成课程讲义的 PowerPoint",
+        "为产品介绍创建动态演示",
+        "将研究报告转换为可视化演示",
+        "制作销售提案的演示文稿"
+      ],
+      "quickStart": [
+        "git clone https://github.com/hugohe3/ppt-master.git",
+        "cd ppt-master",
+        "pip install -r requirements.txt",
+        "python main.py --input your_document.txt --output presentation.pptx"
+      ],
+      "why": "ppt-master 以其 43145 星的社区支持和活跃度，提供了一个高效的解决方案，能够快速将文本内容转化为专业的演示文稿。与其他工具相比，它的自定义能力和多样化功能使其在市场上脱颖而出，适合各种用户需求。",
+      "tags": [
+        "AI工具",
+        "演示文稿",
+        "自动化"
+      ],
+      "url": "https://github.com/hugohe3/ppt-master",
+      "stars": "43145 stars",
+      "source": "GitHub Search · 2026-08-05",
+      "date": "2026-08-05"
+    },
+    {
+      "name": "zai-org/GLM-4",
+      "lang": "Python",
+      "category": "AI 编辑器",
+      "description": "GLM-4 是一个开源多语言多模态对话模型，适合需要多语言支持的聊天应用。",
+      "details": "GLM-4 系列模型专为多语言和多模态对话设计，能够处理文本、图像等多种输入形式。与其他对话模型（如 OpenAI 的 ChatGPT）相比，GLM-4 提供了更广泛的语言支持和多模态能力。该项目使用 Python 开发，采用开源许可证，适合研究人员和开发者使用，但不推荐初学者直接使用。其社区活跃，更新频繁，适合需要灵活定制的用户。",
+      "features": [
+        "支持多种语言的对话生成",
+        "处理文本和图像输入",
+        "开源许可证，便于修改和分发",
+        "适配多种平台和设备",
+        "提供 API 接口，方便集成"
+      ],
+      "useCases": [
+        "构建多语言客服聊天机器人",
+        "开发多模态交互应用",
+        "进行对话生成研究",
+        "创建个性化的用户体验"
+      ],
+      "quickStart": [
+        "git clone https://github.com/zai-org/GLM-4.git",
+        "cd GLM-4",
+        "pip install -r requirements.txt",
+        "python run_model.py"
+      ],
+      "why": "GLM-4 以其多语言和多模态能力脱颖而出，拥有 7073 stars，表明其在社区中的认可度。与同类产品相比，GLM-4 提供了更灵活的使用场景和更广泛的应用可能性，适合需要多样化对话功能的开发者。",
+      "tags": [
+        "多语言",
+        "对话模型",
+        "开源",
+        "多模态",
+        "聊天机器人"
+      ],
+      "url": "https://github.com/zai-org/GLM-4",
+      "stars": "7073 stars",
+      "source": "GitHub · 智谱 Z.ai",
+      "date": "2026-08-05"
+    },
+    {
+      "name": "CopilotKit/CopilotKit",
+      "lang": "TypeScript",
+      "category": "LLM 应用平台",
+      "description": "这是一个为代理和生成用户界面提供的前端技术栈，支持多种平台，突出 AG-UI 协议的实现。",
+      "details": "CopilotKit 是一个集成了 React、Angular 和移动端技术的前端框架，旨在简化代理和生成用户界面的开发。与其他同类产品（如 Botpress 和 Rasa）相比，CopilotKit 提供了更灵活的组件化设计和更强的跨平台支持。该项目使用 TypeScript 开发，遵循 MIT 许可证，适合开发者和团队使用，但不推荐给初学者，因为需要一定的前端开发经验。",
+      "features": [
+        "支持多种前端框架如 React 和 Angular",
+        "集成 AG-UI 协议，提升用户交互体验",
+        "提供 Slack 集成，便于团队协作",
+        "支持移动端开发，适应多种设备",
+        "灵活的组件化设计，便于扩展"
+      ],
+      "useCases": [
+        "构建跨平台的聊天机器人界面",
+        "在 Slack 中集成智能助手",
+        "开发移动端的用户交互应用"
+      ],
+      "quickStart": [
+        "git clone https://github.com/CopilotKit/CopilotKit.git",
+        "cd CopilotKit",
+        "npm install",
+        "npm start"
+      ],
+      "why": "CopilotKit 拥有 36475 stars，显示出其在开发者社区中的受欢迎程度。相比于其他框架，它的组件化设计和多平台支持使得开发过程更加高效。该项目的活跃度和更新频率也为开发者提供了良好的支持。",
+      "tags": [
+        "前端框架",
+        "用户界面",
+        "代理",
+        "生成模型"
+      ],
+      "url": "https://github.com/CopilotKit/CopilotKit",
+      "stars": "36475 stars",
+      "source": "GitHub Search · 2026-08-05",
+      "date": "2026-08-05"
+    },
+    {
+      "name": "CherryHQ/cherry-studio",
+      "lang": "TypeScript",
+      "category": "AI 编辑器",
+      "description": "这是一个面向生产力提升的 AI 编辑器，提供智能聊天和自主代理，支持 300 多个助手。",
+      "details": "Cherry Studio 是一个集成了多种 AI 助手的生产力工具，旨在帮助用户高效完成任务。与其他同类产品（如 Notion AI 和 ChatGPT）相比，Cherry Studio 提供了更为丰富的助手选择和更灵活的使用方式。该项目使用 TypeScript 开发，采用开源许可证，适合开发者和企业使用，但不推荐给对 AI 技术不熟悉的用户。",
+      "features": [
+        "提供 300+ 个智能助手",
+        "支持多种前沿 LLM 接入",
+        "具备自主代理功能",
+        "集成智能聊天功能",
+        "支持多种任务自动化"
+      ],
+      "useCases": [
+        "使用智能助手快速生成文档",
+        "通过自主代理自动处理客户咨询",
+        "集成多种 LLM 进行数据分析",
+        "利用智能聊天功能进行团队协作"
+      ],
+      "quickStart": [
+        "git clone https://github.com/CherryHQ/cherry-studio.git",
+        "cd cherry-studio",
+        "npm install",
+        "npm run start"
+      ],
+      "why": "Cherry Studio 以 49467 stars 的社区支持，显示出其广泛的受欢迎程度。与其他工具相比，它提供了更为灵活的助手选择和强大的自主代理功能，适合需要高效协作和任务自动化的用户。其活跃的开发社区也为用户提供了持续的支持和更新。",
+      "tags": [
+        "AI 编辑器",
+        "生产力工具",
+        "智能助手"
+      ],
+      "url": "https://github.com/CherryHQ/cherry-studio",
+      "stars": "49467 stars",
+      "source": "GitHub Search · 2026-08-05",
+      "date": "2026-08-05"
+    },
+    {
       "name": "OpenBMB/ForgeStencil",
       "lang": "Cuda",
       "category": "MCP 服务",
@@ -7633,256 +8092,32 @@ window.AI_GENERATED_DATA = {
       "date": "2026-08-03"
     },
     {
-      "name": "Tencent-Hunyuan/UniRL",
-      "lang": "Python",
-      "category": "Agent 框架",
-      "description": "UniRL 是一个统一多模态模型强化学习的框架，适合研究人员和开发者使用，支持多种输入模式。",
-      "details": "UniRL 解决了多模态强化学习中的统一性问题，允许用户在不同类型的数据上进行训练和推理。与其他框架（如 OpenAI 的 Spinning Up 和 Stable Baselines）相比，UniRL 提供了更灵活的模型架构和更高的可扩展性。该项目使用 Python 编写，采用 MIT 许可证，适合希望在多模态环境中进行强化学习研究的开发者，不推荐初学者使用。",
-      "features": [
-        "支持多模态输入数据",
-        "灵活的模型架构设计",
-        "高效的训练和推理流程",
-        "兼容多种强化学习算法",
-        "提供丰富的示例和文档"
-      ],
-      "useCases": [
-        "在多模态环境中训练智能体",
-        "进行复杂任务的强化学习实验",
-        "开发自定义的多模态应用",
-        "优化现有强化学习模型的性能"
-      ],
-      "quickStart": [
-        "git clone https://github.com/Tencent-Hunyuan/UniRL.git",
-        "cd UniRL",
-        "pip install -r requirements.txt",
-        "python main.py"
-      ],
-      "why": "UniRL 在 GitHub 上获得了 869 stars，显示出其在社区中的认可度。该项目的灵活性和多模态支持使其在同类产品中脱颖而出，适合需要处理多种数据类型的研究和开发工作。其活跃的开发和更新频率也为用户提供了持续的支持。",
-      "tags": [
-        "强化学习",
-        "多模态",
-        "框架",
-        "Python",
-        "开源"
-      ],
-      "url": "https://github.com/Tencent-Hunyuan/UniRL",
-      "stars": "869 stars",
-      "source": "GitHub · 腾讯混元",
-      "date": "2026-08-03"
-    },
-    {
-      "name": "ByteDance-Seed/VeOmni",
-      "lang": "Python",
-      "category": "推理引擎",
-      "description": "VeOmni 是一个用于多模态模型训练的工具，支持模型中心的分布式训练方案，适合研究人员和开发者使用。",
-      "details": "VeOmni 解决了多模态模型训练中的资源分配和效率问题，提供了一套模型中心的分布式训练方案。与其他竞品如 Hugging Face 的 Transformers 相比，VeOmni 更加专注于模型的可扩展性和灵活性。该项目使用 Python 开发，采用 MIT 许可证，适合需要高效训练多模态模型的研究人员和开发者，不推荐对分布式训练没有需求的用户。",
-      "features": [
-        "支持多模态模型的分布式训练",
-        "提供模型中心的训练方案",
-        "兼容多种深度学习框架",
-        "支持动态资源调度",
-        "易于集成到现有工作流"
-      ],
-      "useCases": [
-        "在大型数据集上训练多模态模型",
-        "优化资源分配以提高训练效率",
-        "集成到现有的深度学习项目中"
-      ],
-      "quickStart": [
-        "git clone https://github.com/ByteDance-Seed/VeOmni.git",
-        "cd VeOmni",
-        "pip install -r requirements.txt",
-        "python train.py --config config.yaml"
-      ],
-      "why": "VeOmni 通过提供灵活的分布式训练方案，解决了多模态模型训练中的效率瓶颈。该项目在 GitHub 上已有 2119 stars，显示出良好的社区关注度。与同类项目相比，VeOmni 在资源调度和模型扩展性方面具有明显优势，适合需要高效训练的用户。",
-      "tags": [
-        "多模态",
-        "分布式训练",
-        "深度学习"
-      ],
-      "url": "https://github.com/ByteDance-Seed/VeOmni",
-      "stars": "2119 stars",
-      "source": "GitHub · 字节跳动 Seed",
-      "date": "2026-08-03"
-    },
-    {
-      "name": "harry0703/MoneyPrinterTurbo",
-      "lang": "Python",
-      "category": "视频生成",
-      "description": "这是一个为内容创作者提供的工具，能够根据主题或关键词一键生成高清短视频，提升创作效率。",
-      "details": "MoneyPrinterTurbo 利用 AI 大模型和自动化工作流，解决了短视频制作繁琐的问题。与其他视频生成工具（如 Pictory 和 InVideo）相比，它提供了更高的自动化程度和更灵活的主题选择。该项目使用 Python 开发，采用 MIT 许可证，适合内容创作者、市场营销人员和教育工作者使用，但不推荐给对视频制作没有需求的用户。",
-      "features": [
-        "根据关键词自动生成短视频",
-        "支持多种视频格式输出",
-        "集成 AI 大模型进行内容创作",
-        "提供丰富的主题和模板选择",
-        "支持自定义视频元素"
-      ],
-      "useCases": [
-        "根据热门话题快速生成社交媒体视频",
-        "为在线课程制作教学视频",
-        "创建市场推广视频以吸引客户"
-      ],
-      "quickStart": [
-        "git clone https://github.com/harry0703/MoneyPrinterTurbo.git",
-        "cd MoneyPrinterTurbo",
-        "pip install -r requirements.txt",
-        "python main.py --topic '你的主题'"
-      ],
-      "why": "MoneyPrinterTurbo 在短视频生成领域具有较高的社区活跃度，已获得超过 101181 stars。其自动化工作流和灵活的主题选择使其在同类产品中脱颖而出，适合快速生成高质量视频内容。",
-      "tags": [
-        "视频生成",
-        "AI 工具",
-        "内容创作"
-      ],
-      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
-      "stars": "101181 stars",
-      "source": "GitHub Search · 2026-08-03",
-      "date": "2026-08-03"
-    },
-    {
-      "name": "Graphify-Labs/graphify",
-      "lang": "Python",
-      "category": "RAG 引擎",
-      "description": "这是一个将代码库及其文档、SQL 模式、配置和 PDF 转换为可查询知识图谱的工具，支持本地确定性 AST 解析。",
-      "details": "Graphify 是一个解决代码库知识管理问题的工具，能够将代码、文档和配置等信息整合为一个可查询的知识图谱。与其他知识图谱工具（如 Neo4j 和 Dgraph）相比，Graphify 提供了本地解析功能，避免了对外部向量存储的依赖。该项目使用 Python 开发，采用开源许可证，适合开发者和数据科学家使用，但不推荐给需要实时在线查询的用户。",
-      "features": [
-        "本地确定性 AST 解析",
-        "支持多种文档格式",
-        "无向量存储依赖",
-        "提供详细的边解释",
-        "兼容 Claude Code、Cursor、Codex 和 Gemini CLI"
-      ],
-      "useCases": [
-        "将代码库转换为可查询知识图谱",
-        "整合文档与配置以便快速检索",
-        "支持本地开发环境的知识管理"
-      ],
-      "quickStart": [
-        "git clone https://github.com/Graphify-Labs/graphify.git",
-        "cd graphify",
-        "pip install -r requirements.txt",
-        "python main.py"
-      ],
-      "why": "Graphify 以其独特的本地解析能力和无向量存储的设计，提供了一种高效的知识管理解决方案。该项目在 GitHub 上拥有超过 100864 stars，显示出其广泛的社区认可和活跃度，适合需要本地知识图谱的开发者。",
-      "tags": [
-        "知识图谱",
-        "代码管理",
-        "文档整合"
-      ],
-      "url": "https://github.com/Graphify-Labs/graphify",
-      "stars": "100864 stars",
-      "source": "GitHub Search · 2026-08-03",
-      "date": "2026-08-03"
-    },
-    {
-      "name": "zai-org/Synapse",
+      "name": "n8n-io/n8n",
       "lang": "TypeScript",
-      "category": "AI 编辑器",
-      "description": "这是一个自托管的 AI 工作空间，适合团队协作，支持共享 AI 伙伴和对话，具备记忆功能和插件访问控制。",
-      "details": "Synapse 解决了团队在 AI 协作中的沟通和资源共享问题。与其他工具如 Notion AI 和 Microsoft Copilot 相比，Synapse 提供了更灵活的自托管选项，确保数据隐私和安全。该项目使用 TypeScript 开发，采用 MIT 许可证，适合开发者和团队使用，但不推荐给对自托管和技术配置不熟悉的用户。",
-      "features": [
-        "支持自托管部署",
-        "提供共享对话功能",
-        "具备记忆功能",
-        "支持插件访问控制",
-        "允许多用户协作"
-      ],
-      "useCases": [
-        "创建团队共享的 AI 助手",
-        "管理和记录团队对话",
-        "实现自定义插件集成",
-        "维护团队知识库",
-        "进行项目协作和任务分配"
-      ],
-      "quickStart": [
-        "克隆项目：git clone https://github.com/zai-org/Synapse.git",
-        "安装依赖：npm install",
-        "启动服务：npm start",
-        "访问界面：在浏览器中打开 http://localhost:3000"
-      ],
-      "why": "Synapse 以 489 stars 的社区支持，提供了灵活的自托管选项，确保用户数据的安全性。与市场上其他 AI 编辑器相比，它强调团队协作和资源共享，适合需要高隐私保护的用户。其技术栈基于 TypeScript，确保了代码的可维护性和扩展性。",
-      "tags": [
-        "AI 编辑器",
-        "自托管",
-        "团队协作"
-      ],
-      "url": "https://github.com/zai-org/Synapse",
-      "stars": "489 stars",
-      "source": "GitHub · 智谱 Z.ai",
-      "date": "2026-08-03"
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "stars": "199398 stars",
+      "why": "近期更新且具备 AI / LLM / Agent 相关主题，适合做项目介绍、教程或同类对比。",
+      "url": "https://github.com/n8n-io/n8n",
+      "source": "GitHub Search · 2026-08-05",
+      "category": "Coding Agent",
+      "details": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
     },
     {
-      "name": "MiniMax-AI/MiniMax-Provider-Verifier",
-      "lang": "Python",
-      "category": "推理引擎",
-      "description": "MiniMax-Provider-Verifier 是一个用于验证第三方 Minimax M2 模型部署的工具，确保其正确性和可靠性。",
-      "details": "MiniMax-Provider-Verifier 解决了验证第三方 Minimax M2 模型部署的准确性和可靠性的问题。与其他验证工具相比，如 TensorFlow Model Analysis 和 MLflow，MiniMax-Provider-Verifier 提供了一种严格且与供应商无关的验证方式。该项目使用 Python 开发，采用 MIT 许可证，适合需要确保模型部署质量的开发者和数据科学家。不推荐对模型验证要求不高的用户。",
-      "features": [
-        "提供与供应商无关的验证方法",
-        "支持多种第三方部署的验证",
-        "确保模型输出的准确性",
-        "提供详细的验证报告",
-        "易于集成到现有工作流"
-      ],
-      "useCases": [
-        "验证第三方 Minimax M2 模型的部署准确性",
-        "生成模型验证报告以供审计",
-        "集成到 CI/CD 流程中进行自动化验证"
-      ],
-      "quickStart": [
-        "git clone https://github.com/MiniMax-AI/MiniMax-Provider-Verifier.git",
-        "cd MiniMax-Provider-Verifier",
-        "pip install -r requirements.txt",
-        "python verifier.py --model-path <模型路径>"
-      ],
-      "why": "MiniMax-Provider-Verifier 以其严格的验证标准和与供应商无关的特性脱颖而出。该项目目前拥有 49 stars，表明其在社区中的认可度。与其他工具相比，它提供了更高的灵活性和准确性，适合需要高标准验证的用户。",
-      "tags": [
-        "模型验证",
-        "Minimax",
-        "Python",
-        "开源"
-      ],
-      "stars": "49 stars",
-      "url": "https://github.com/MiniMax-AI/MiniMax-Provider-Verifier",
-      "source": "GitHub · MiniMax",
-      "date": "2026-08-03"
-    },
-    {
-      "name": "feder-cr/Jobs_Applier_AI_Agent_AIHawk",
-      "lang": "Python",
-      "category": "Agent 框架",
-      "description": "AIHawk 是一个自动化求职申请工具，帮助用户轻松申请多个职位，突出个性化申请的特点。",
-      "details": "AIHawk 解决了求职过程中繁琐的申请步骤，通过人工智能技术自动化申请流程。与其他求职工具（如 LinkedIn Easy Apply）相比，AIHawk 提供了更高的个性化申请能力，能够根据用户的简历和职位要求生成定制化的申请材料。该项目使用 Python 开发，采用 MIT 许可证，适合希望提高求职效率的求职者使用，不推荐给只需简单申请的用户。",
-      "features": [
-        "自动生成个性化求职申请",
-        "支持多职位同时申请",
-        "集成简历分析功能",
-        "提供申请状态跟踪",
-        "支持多种职位平台"
-      ],
-      "useCases": [
-        "自动化申请多个职位",
-        "根据简历生成定制化申请材料",
-        "跟踪申请进度",
-        "分析职位要求与简历匹配度"
-      ],
-      "quickStart": [
-        "git clone https://github.com/feder-cr/Jobs_Applier_AI_Agent_AIHawk.git",
-        "cd Jobs_Applier_AI_Agent_AIHawk",
-        "pip install -r requirements.txt",
-        "python main.py"
-      ],
-      "why": "AIHawk 以 30091 stars 的社区支持，展现了其在求职自动化领域的受欢迎程度。与传统求职工具相比，它提供了更高的个性化和自动化水平，适合现代求职者的需求。该项目活跃且持续更新，确保用户能够获得最新的求职技术。",
-      "tags": [
-        "求职工具",
-        "自动化",
-        "人工智能"
-      ],
-      "url": "https://github.com/feder-cr/Jobs_Applier_AI_Agent_AIHawk",
-      "stars": "30091 stars",
-      "source": "GitHub Search · 2026-08-02",
-      "date": "2026-08-02"
+      "name": "siyuan-note/siyuan",
+      "lang": "TypeScript",
+      "description": "A privacy-first, self-hosted, fully open source personal knowledge management software, written in typescript and golang.",
+      "stars": "45632 stars",
+      "why": "近期更新且具备 AI / LLM / Agent 相关主题，适合做项目介绍、教程或同类对比。",
+      "url": "https://github.com/siyuan-note/siyuan",
+      "source": "GitHub Search · 2026-08-05",
+      "category": "Coding Agent",
+      "details": "A privacy-first, self-hosted, fully open source personal knowledge management software, written in typescript and golang.",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
     }
   ],
   "sources": [
@@ -8630,6 +8865,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "Quo Vadis, World Modeling?",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "arXiv:2608.02713v1 Announce Type: new Abstract: Continually improving agents require dynamic interaction feedback beyond static supervision, yet direct real-env",
+        "description": "arXiv:2608.02713v1 Announce Type: new Abstract: Continually improving agents require dynamic interaction feedback beyond static supervision, yet direct real-environment interaction",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · arXiv cs.CV",
+        "url": "https://arxiv.org/abs/2608.02713"
+      },
+      {
         "name": "Cyera推出Agent Guardian以保障自主工作队伍的安全",
         "provider": "NewsData.io",
         "type": "AI 项目/工具",
@@ -9259,23 +9505,6 @@ window.AI_GENERATED_DATA = {
         "watch": "企业可能面临高昂的 API 使用费用，影响项目预算和可持续性。",
         "sourceName": "NewsData.io:AI agent",
         "url": "https://www.itpro.com/technology/artificial-intelligence/how-to-transform-data-chaos-into-real-ai-outcomes-the-missing-link-in-enterprise-ai"
-      },
-      {
-        "name": "Elong Power Holding Limited 公布138万美元公开募股定价",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "此次募股将为Elong Power提供必要的资金支持，帮助其在竞争激烈的电池储能市场中进一步发展。投资者将受益于公司未来的增长潜力，尤其是在全球对可再生能源需求不断上升的背景下。此外，成功的募股可能会提升公司在纳斯达克的市场形象，吸引更多的投资者关注其后续发展。",
-        "description": "我注意到，Elong Power Holding Limited（纳斯达克代码：ELPW）近日宣布以每单位0.12美元的价格进行138万美元的公开募股。此次募股包括11,466,666个单位，每个单位由一股A类普通股和一个购买权组成，预计将于2026年8月4日完成。公司计划将募得资金用于运营资本和产品开发。",
-        "useCases": [
-          "分析Elong Power的财务数据，评估其投资价值。",
-          "关注电池储能技术的最新进展，寻找合作机会。",
-          "为客户提供电池储能解决方案，提升项目竞争力。",
-          "参与Elong Power的投资决策，制定投资策略。",
-          "研究市场趋势，预测电池储能行业的发展方向。"
-        ],
-        "watch": "募股的成功与否依赖于市场条件，可能受到全球经济波动的影响。",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.prnewswire.com/news-releases/elong-power-holding-limited-announces-pricing-of-us1-38-million-public-offering-302841173.html"
       }
     ],
     "ai-models": [
@@ -11780,6 +12009,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-research": [
       {
+        "name": "SAGE: Semantic Explainability of Attention-Based Survival Mo",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "arXiv:2608.02803v1 Announce Type: new Abstract: Attention-based multiple instance learning (ABMIL) is the predominant approach for slide-level prediction in com",
+        "description": "arXiv:2608.02803v1 Announce Type: new Abstract: Attention-based multiple instance learning (ABMIL) is the predominant approach for slide-level prediction in computational pathology",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · arXiv cs.CV",
+        "url": "https://arxiv.org/abs/2608.02803"
+      },
+      {
         "name": "研究者利用 AI 聊天机器人和海报寻找纳粹掠夺的艺术品",
         "provider": "Currents",
         "type": "AI 项目/工具",
@@ -12358,28 +12598,142 @@ window.AI_GENERATED_DATA = {
         "watch": "通用 AI 的局限性可能导致企业在复杂场景下无法获得预期的业务价值，增加投资风险。",
         "sourceName": "NewsAPI:generative AI",
         "url": "https://financialpost.com/globe-newswire/aptean-research-reveals-why-general-purpose-ai-is-falling-short-of-corporate-expectations"
-      },
-      {
-        "name": "通用人工智能未能满足企业期望的原因分析",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "行业特定 AI 的崛起可能会改变企业的技术投资决策，促使更多公司转向定制化解决方案以提高运营效率。随着对 AI 治理框架需求的增加，企业可能会加强内部合规措施，确保技术的合规使用。此外，Shadow AI 的使用可能导致数据安全和合规风险，企业需采取措施来规范员工的技术使用行为。",
-        "description": "Aptean 2026 年的研究显示，95% 的生成式 AI 项目未能实现可衡量的价值，主要原因在于通用人工智能缺乏企业所需的相关性和准确性。相比之下，行业特定的 AI 工具在运营关键绩效指标上表现更佳，88% 的企业领导认为行业特定 AI 对其业务至关重要。",
-        "useCases": [
-          "评估行业特定 AI 解决方案的集成能力，以提升现有系统的效率。",
-          "开发定制化的 AI 模型，满足特定行业的合规需求和业务目标。",
-          "利用外部专家的知识，优化 AI 技术的实施和价值最大化。",
-          "建立正式的 AI 治理框架，确保技术使用的合规性和伦理标准。",
-          "监测 Shadow AI 的使用情况，制定相应的政策以降低潜在风险。"
-        ],
-        "watch": "API 费用和配额可能限制企业在 AI 项目上的投入，导致预算超支。",
-        "sourceName": "NewsAPI:generative AI",
-        "url": "https://www.globenewswire.com/news-release/2026/07/28/3334009/29866/en/Aptean-Research-Reveals-Why-General-Purpose-AI-is-Falling-Short-of-Corporate-Expectations.html"
       }
     ],
     "ai-office": []
   },
   "skillRecommendations": [
+    {
+      "title": "@modelcontextprotocol/server-filesystem",
+      "type": "MCP 服务",
+      "description": "该 Skill 提供了对文件系统的访问能力，增强了 Coding Agent 在文件操作方面的灵活性。",
+      "details": "通过 MCP server for filesystem access，Coding Agent 可以直接与文件系统进行交互，支持文件的读取、写入和管理。这使得在开发过程中，Agent 能够更高效地处理文件操作，避免了手动操作的繁琐。与其他文件操作工具相比，该服务专注于与 Model Context Protocol 的集成，确保了在复杂工作流中的兼容性和一致性。",
+      "features": [
+        "支持文件的读取和写入",
+        "提供文件管理功能",
+        "与 MCP 兼容",
+        "简化文件操作流程"
+      ],
+      "useCases": [
+        "自动化文件读取和写入",
+        "在开发环境中管理配置文件",
+        "集成文件操作到 CI/CD 流程"
+      ],
+      "tags": [
+        "文件系统",
+        "MCP",
+        "自动化"
+      ],
+      "url": "https://www.npmjs.com/package/@modelcontextprotocol/server-filesystem",
+      "source": "npm",
+      "date": "2026-08-05"
+    },
+    {
+      "title": "MCP server for searching and downloading documents from Anna's Archive",
+      "type": "MCP 服务",
+      "description": "该服务提供了一个高效的方式来搜索和下载 Anna's Archive 中的文档，增强了文档管理的能力。",
+      "details": "MCP server 允许用户通过简单的命令行接口快速搜索和下载存储在 Anna's Archive 中的文档。用户可以根据关键词进行搜索，获取相关文档的链接，并直接下载。与传统的文档管理工具相比，该服务提供了更为灵活和高效的文档检索方式，支持多种文件格式，兼容性强，适合开发者和研究人员使用。",
+      "features": [
+        "关键词搜索文档",
+        "直接下载文档链接",
+        "支持多种文件格式",
+        "命令行操作简便",
+        "高效的文档管理"
+      ],
+      "useCases": [
+        "开发者快速查找所需文档",
+        "研究人员下载相关研究资料",
+        "用户管理和整理文档资源"
+      ],
+      "tags": [
+        "文档管理",
+        "搜索工具",
+        "开源项目"
+      ],
+      "url": "https://github.com/iosifache/annas-mcp",
+      "source": "Hacker News",
+      "date": "2026-08-05"
+    },
+    {
+      "title": "The Safari MCP server for web developers",
+      "type": "MCP 服务",
+      "description": "Safari MCP 服务器为 Web 开发者提供了一个高效的开发环境，支持实时调试和测试。",
+      "details": "Safari MCP 服务器允许开发者在本地环境中模拟 Safari 浏览器的行为，提供实时反馈和调试功能。开发者可以在本地运行 Web 应用程序，并利用 MCP 服务器进行性能分析和错误调试。与其他浏览器的开发工具相比，Safari MCP 服务器专注于 Safari 的特性，确保开发者能够充分利用其独特的功能和优化。该服务兼容 macOS 系统，适合使用 Safari 浏览器的开发者。",
+      "features": [
+        "实时调试 Web 应用程序",
+        "性能分析工具",
+        "错误跟踪与报告",
+        "本地环境模拟 Safari 行为"
+      ],
+      "useCases": [
+        "Web 开发者调试应用程序",
+        "前端工程师进行性能优化",
+        "测试人员验证 Safari 特性"
+      ],
+      "tags": [
+        "Safari",
+        "Web 开发",
+        "调试工具"
+      ],
+      "url": "https://webkit.org/blog/18136/introducing-the-safari-mcp-server-for-web-developers/",
+      "source": "Hacker News",
+      "date": "2026-08-05"
+    },
+    {
+      "title": "MCP server for Ghidra",
+      "type": "MCP 服务",
+      "description": "该 Skill 提供了一个 MCP 服务器，支持 Ghidra 的反向工程工作流，增强了代码分析能力。",
+      "details": "MCP server for Ghidra 允许用户在 Ghidra 环境中集成多种分析工具，自动化反向工程过程。用户可以通过该服务在提交代码前进行静态分析，确保代码安全性。与其他工具相比，它专注于 Ghidra 的生态系统，提供更深层次的集成和支持，兼容多种操作系统和 Ghidra 插件，提升了开发效率。",
+      "features": [
+        "集成 Ghidra 的反向工程工具",
+        "自动化静态分析流程",
+        "支持多种操作系统",
+        "与 Ghidra 插件兼容",
+        "提供实时反馈和报告"
+      ],
+      "useCases": [
+        "在反向工程项目中使用",
+        "提交代码前进行安全性检查",
+        "与团队共享分析结果",
+        "集成其他安全工具进行全面分析"
+      ],
+      "tags": [
+        "Ghidra",
+        "反向工程",
+        "安全分析"
+      ],
+      "url": "https://github.com/LaurieWired/GhidraMCP",
+      "source": "Hacker News",
+      "date": "2026-08-05"
+    },
+    {
+      "title": "Ghidra MCP Server",
+      "type": "MCP 服务",
+      "description": "Ghidra MCP Server 提供 110 个工具，支持 AI 辅助的逆向工程，提升开发者的分析能力。",
+      "details": "Ghidra MCP Server 是一个集成了多种工具的服务，专为逆向工程设计。开发者可以利用这些工具进行代码分析、漏洞检测和安全审计。与传统的逆向工程工具相比，Ghidra MCP Server 通过 AI 技术提供更智能的分析和自动化功能，帮助开发者快速识别潜在问题。兼容多种操作系统，支持与 Ghidra 平台无缝集成，适合安全研究人员和开发者使用。",
+      "features": [
+        "集成 110 个逆向工程工具",
+        "支持 AI 辅助分析",
+        "自动化漏洞检测",
+        "与 Ghidra 平台兼容",
+        "多操作系统支持"
+      ],
+      "useCases": [
+        "进行代码审计时快速识别漏洞",
+        "在逆向工程过程中自动化分析",
+        "为安全研究提供智能工具",
+        "提高开发效率和准确性",
+        "支持团队协作的逆向工程项目"
+      ],
+      "tags": [
+        "逆向工程",
+        "安全分析",
+        "AI 工具"
+      ],
+      "url": "https://github.com/bethington/ghidra-mcp",
+      "source": "Hacker News",
+      "date": "2026-08-05"
+    },
     {
       "title": "@cloudflare/mcp-server-cloudflare",
       "type": "MCP 服务",
@@ -14599,8 +14953,8 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-08-05",
-    "generatedAt": "2026-08-05T08:31:08.077166Z",
-    "total": 9,
+    "generatedAt": "2026-08-05T09:56:08.483908Z",
+    "total": 17,
     "sections": [
       {
         "category": "ai-tools",
@@ -14637,9 +14991,54 @@ window.AI_GENERATED_DATA = {
         ]
       },
       {
+        "category": "ai-image-video",
+        "label": "图像视频",
+        "items": [
+          {
+            "title": "Oh Deer, How Should I Handle This? Seasonal Priors for Selective Wildlife Annotation and Classification",
+            "summary": "arXiv:2608.02762v1 Announce Type: new Abstract: Fine-grained wildlife classification in aerial imagery is limited not only by model performa",
+            "source": "RSS · arXiv cs.CV",
+            "url": "https://arxiv.org/abs/2608.02762",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-05",
+            "publishedAt": "2026-08-05T12:00",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "category": "ai-agents",
+        "label": "Agent / MCP",
+        "items": [
+          {
+            "title": "Quo Vadis, World Modeling?",
+            "summary": "arXiv:2608.02713v1 Announce Type: new Abstract: Continually improving agents require dynamic interaction feedback beyond static supervision,",
+            "source": "RSS · arXiv cs.CV",
+            "url": "https://arxiv.org/abs/2608.02713",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-05",
+            "publishedAt": "2026-08-05T12:00",
+            "reason": ""
+          }
+        ]
+      },
+      {
         "category": "ai-models",
         "label": "模型发布",
         "items": [
+          {
+            "title": "Hunyuan3D-Buffalo 1.0：统一的多模态模型，支持可扩展的3D生成与编辑",
+            "summary": "我最近看到Hunyuan3D-Buffalo 1.0的发布，这是一种新型的多模态模型，旨在解决3D生成、理解和编辑中的数据稀缺问题。该模型整合了文本到3D的生成能力，能够在缺乏大规模几何一致性编辑数据的情况下，提供更为统一的3D建模框架。这一进展可能会对3D内容创作和编辑带来新的",
+            "source": "RSS · arXiv cs.CV",
+            "url": "https://arxiv.org/abs/2608.02711",
+            "score": 82,
+            "sourceCount": 1,
+            "date": "2026-08-05",
+            "publishedAt": "2026-08-05T12:00",
+            "reason": "Hunyuan3D-Buffalo 1.0的发布为3D生成和编辑提供了新的可能性，值得关注。"
+          },
           {
             "title": "OpenAI 发布 GPT-Live 实时音频新架构",
             "summary": "OpenAI 最新推出的 GPT-Live 架构支持实时音频交互，能够在说话的同时进行聆听。这一新架构通过重建语音栈，确保音频流畅持续，提升了 ChatGPT 的对话自然度，允许更深层次的推理与工具使用而不打断对话。",
@@ -14707,6 +15106,61 @@ window.AI_GENERATED_DATA = {
         "category": "ai-research",
         "label": "论文研究",
         "items": [
+          {
+            "title": "PixelUp：零样本语义特征上采样技术",
+            "summary": "PixelUp 是一种新型的零样本语义特征上采样方法，旨在提升计算机视觉任务中的细粒度预测能力。尽管其在语义分割和深度估计等密集预测任务中表现出色，但仍面临特定编码器依赖和训练复杂性等挑战。",
+            "source": "RSS · arXiv cs.CV",
+            "url": "https://arxiv.org/abs/2608.02792",
+            "score": 80,
+            "sourceCount": 1,
+            "date": "2026-08-05",
+            "publishedAt": "2026-08-05T12:00",
+            "reason": "PixelUp 提供了一种创新的特征上采样方法，具有灵活性和高效性，值得关注其在计算机视觉领域的应用潜力。"
+          },
+          {
+            "title": "Confident but Unreliable: A Behavioral Safety Audit of Vision-Language Models on Brain MRI",
+            "summary": "arXiv:2608.02790v1 Announce Type: new Abstract: Vision-language models (VLMs), including medical specialists, are increasingly proposed for ",
+            "source": "RSS · arXiv cs.CV",
+            "url": "https://arxiv.org/abs/2608.02790",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-05",
+            "publishedAt": "2026-08-05T12:00",
+            "reason": ""
+          },
+          {
+            "title": "A Unified 2D Framework for DeepLesion Detection, Segmentation and Short Report Generation",
+            "summary": "arXiv:2608.02805v1 Announce Type: new Abstract: In previous work, we integrated large language models (LLMs) into the lesion segmentation mo",
+            "source": "RSS · arXiv cs.CV",
+            "url": "https://arxiv.org/abs/2608.02805",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-05",
+            "publishedAt": "2026-08-05T12:00",
+            "reason": ""
+          },
+          {
+            "title": "Better, Stronger, Faster, and Broader: Structured All-Mask Prediction for MLLM-Based Segmentation",
+            "summary": "arXiv:2608.02791v1 Announce Type: new Abstract: MLLM-based segmentation faces a core segmentation trilemma: high segmentation performance, p",
+            "source": "RSS · arXiv cs.CV",
+            "url": "https://arxiv.org/abs/2608.02791",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-05",
+            "publishedAt": "2026-08-05T12:00",
+            "reason": ""
+          },
+          {
+            "title": "SAGE: Semantic Explainability of Attention-Based Survival Models in Computational Pathology",
+            "summary": "arXiv:2608.02803v1 Announce Type: new Abstract: Attention-based multiple instance learning (ABMIL) is the predominant approach for slide-lev",
+            "source": "RSS · arXiv cs.CV",
+            "url": "https://arxiv.org/abs/2608.02803",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-05",
+            "publishedAt": "2026-08-05T12:00",
+            "reason": ""
+          },
           {
             "title": "微软开源 Orchard 框架，助力 AI 智能体训练",
             "summary": "我注意到，微软最近推出了 Orchard，一个面向研究社区的开源框架，专门用于训练和评估 AI 智能体。这个框架的设计旨在降低复杂性，使得研究人员能够复用基础设施，从而即使是较小的模型也能展现出强劲的性能。这无疑为 AI 研究提供了新的可能性。",
