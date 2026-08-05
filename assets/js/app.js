@@ -150,11 +150,15 @@
     }).format(d);
   }
 
-  // 显示发布时间：有 publishedAt（精确到分钟）则显示 "MM-DD HH:MM"，否则只显示日期
+  // 展示时间：优先精确发布时间；只有日期时用采集时间补足到分钟。
+  function effectiveNewsTime(item) {
+    return item.publishedAt || item.collectedAt || "";
+  }
+
   function formatWhen(item) {
-    const pa = item.publishedAt;
-    if (pa) {
-      const d = new Date(pa);
+    const timestamp = effectiveNewsTime(item);
+    if (timestamp) {
+      const d = new Date(timestamp);
       if (!isNaN(d.getTime())) {
         const mm = String(d.getMonth() + 1).padStart(2, "0");
         const dd = String(d.getDate()).padStart(2, "0");
@@ -163,12 +167,12 @@
         return `${mm}-${dd} ${hh}:${mi}`;
       }
     }
-    return formatDate(item.date) || "时间待核验";
+    return "时间待核验";
   }
 
-  // 时间线排序用的时间戳：优先 publishedAt（精确到分钟），退回 date（按天）
+  // 时间线排序：精确发布时间 > 采集时间 > 仅日期。
   function tsOf(item) {
-    const t = new Date(item.publishedAt || item.date || 0).getTime();
+    const t = new Date(effectiveNewsTime(item) || item.date || 0).getTime();
     return isNaN(t) ? 0 : t;
   }
 
@@ -179,17 +183,18 @@
     return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
   }
 
-  // 时间线左栏：放大的 HH:MM（有 publishedAt 时），否则显示日期
+  // 时间线左栏只显示 HH:MM；没有精确发布时间时使用采集时间，不再显示 MM-DD。
   function timelineParts(item) {
-    const dayKey = (item.date || "").slice(0, 10) || localDay(item.publishedAt) || "unknown";
+    const timestamp = effectiveNewsTime(item);
+    const dayKey = localDay(timestamp) || (item.date || "").slice(0, 10) || "unknown";
     let hm = "";
-    if (item.publishedAt) {
-      const d = new Date(item.publishedAt);
+    if (timestamp) {
+      const d = new Date(timestamp);
       if (!isNaN(d.getTime())) {
         hm = `${String(d.getHours()).padStart(2, "0")}:${String(d.getMinutes()).padStart(2, "0")}`;
       }
     }
-    return { dayKey, hm, rail: hm || formatDate(item.date) || "待核验" };
+    return { dayKey, hm, rail: hm || "待核验" };
   }
 
   // 时间线按天分组的标签：今天 / 昨天 / MM-DD
@@ -849,7 +854,7 @@
 
       const cardInner = `
             <div class="card-meta">
-              ${timeline ? "" : `<span class="news-rank">#${idx + 1}</span><time datetime="${item.publishedAt || item.date}">${formatWhen(item)}</time>`}
+              ${timeline ? "" : `<span class="news-rank">#${idx + 1}</span><time datetime="${effectiveNewsTime(item) || item.date || ""}">${formatWhen(item)}</time>`}
               <span>${getCategoryName(item.category)}</span>
               ${srcBadge}
               ${scoreBadge}
