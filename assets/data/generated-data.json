@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-08-06",
-  "generatedAt": "2026-08-06T09:57:37.970579Z",
+  "generatedAt": "2026-08-06T12:34:06.422686Z",
   "news": [
     {
       "title": "Optimizing What Policies Learn From: Recoverability-aware Rollout Intervention Learning",
@@ -6125,6 +6125,42 @@
   ],
   "githubWeekly": [
     {
+      "name": "MoonshotAI/Kimi-K2.5",
+      "lang": "Python",
+      "category": "AI 编辑器",
+      "description": "Kimi-K2.5 是一个开放的视觉智能代理工具，适合开发者和研究人员使用，支持多种智能任务。",
+      "details": "Kimi-K2.5 旨在解决视觉智能代理的开发难题，提供一个灵活的框架，便于用户构建和训练自己的智能代理。与其他同类产品如 OpenAI 的 Codex 相比，Kimi-K2.5 更加开放，允许用户自定义和扩展功能。该项目使用 Python 语言开发，采用 MIT 许可证，适合希望深入研究 AI 代理的开发者和研究人员，不推荐初学者使用。",
+      "features": [
+        "支持多种视觉输入格式",
+        "提供自定义训练功能",
+        "集成多种 AI 模型",
+        "支持实时推理",
+        "开放源代码，便于社区贡献"
+      ],
+      "useCases": [
+        "构建自定义视觉识别代理",
+        "实现图像分类和标注",
+        "开发智能监控系统",
+        "创建个性化推荐系统"
+      ],
+      "quickStart": [
+        "git clone https://github.com/MoonshotAI/Kimi-K2.5.git",
+        "cd Kimi-K2.5",
+        "pip install -r requirements.txt",
+        "python main.py"
+      ],
+      "why": "Kimi-K2.5 拥有 2293 stars，显示出其在社区中的受欢迎程度。与其他产品相比，它提供了更高的灵活性和可定制性，适合需要特定功能的开发者。该项目活跃度高，社区支持良好，适合希望深入 AI 领域的用户。",
+      "tags": [
+        "视觉智能",
+        "AI 代理",
+        "开放源代码"
+      ],
+      "url": "https://github.com/MoonshotAI/Kimi-K2.5",
+      "stars": "2293 stars",
+      "source": "GitHub · 月之暗面 Kimi",
+      "date": "2026-08-06"
+    },
+    {
       "name": "OpenBMB/MiniCPM-o-Demo",
       "lang": "Python",
       "category": "LLM 应用平台",
@@ -8250,21 +8286,6 @@
       "tier": "T1",
       "category": "Coding Agent",
       "details": "Official Implementation of SCAIL-2: Unifying Controlled Character Animation with End-to-end In-Context Conditioning",
-      "features": [],
-      "useCases": [],
-      "quickStart": []
-    },
-    {
-      "name": "OpenBMB/UltraRAG",
-      "lang": "Python",
-      "description": "A Low-Code MCP Framework for Building Complex and Innovative RAG Pipelines",
-      "stars": "5687 stars",
-      "why": "国产大模型厂商 面壁智能 MiniCPM 的最新开源动态/模型发布，属一手信源。",
-      "url": "https://github.com/OpenBMB/UltraRAG",
-      "source": "GitHub · 面壁智能 MiniCPM",
-      "tier": "T1",
-      "category": "Coding Agent",
-      "details": "A Low-Code MCP Framework for Building Complex and Innovative RAG Pipelines",
       "features": [],
       "useCases": [],
       "quickStart": []
@@ -12724,6 +12745,31 @@
   },
   "skillRecommendations": [
     {
+      "title": "Claude Code Steganography",
+      "type": "方法论 / 文章",
+      "description": "该文章探讨了 Claude Code 如何通过隐写术标记请求，提升代码安全性。",
+      "details": "在现代软件开发中，安全性至关重要。Claude Code 通过隐写术技术，能够在请求中嵌入信息，从而在不影响正常功能的情况下，增强代码的安全性。这种方法可以有效防止代码被篡改或恶意使用。与传统的安全措施相比，隐写术提供了一种更隐蔽的保护方式，适用于需要高安全性的应用场景。文章详细介绍了隐写术的原理及其在 Claude Code 中的应用，适合开发者和安全专家参考。",
+      "features": [
+        "在请求中嵌入隐秘信息",
+        "防止代码篡改",
+        "增强代码安全性",
+        "提供隐蔽的保护方式"
+      ],
+      "useCases": [
+        "开发者在提交代码时确保安全性",
+        "安全专家评估代码的隐写保护",
+        "团队在代码审查中识别潜在风险"
+      ],
+      "tags": [
+        "隐写术",
+        "代码安全",
+        "Claude Code"
+      ],
+      "url": "https://thereallo.dev/blog/claude-code-prompt-steganography",
+      "source": "Hacker News",
+      "date": "2026-08-06"
+    },
+    {
       "title": "@modelcontextprotocol/server-filesystem",
       "type": "MCP 服务",
       "description": "该 Skill 提供了对文件系统的访问能力，增强了 Coding Agent 在文件操作方面的灵活性。",
@@ -15073,7 +15119,7 @@
   ],
   "dailyReport": {
     "date": "2026-08-06",
-    "generatedAt": "2026-08-06T09:57:37.943578Z",
+    "generatedAt": "2026-08-06T12:34:06.396683Z",
     "total": 15,
     "sections": [
       {
