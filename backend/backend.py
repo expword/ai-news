@@ -1139,8 +1139,9 @@ def resolve_news_times(date_hint: str, datetime_hint: str = "", collected_at: st
             "dateStatus": "verified",
             "sourceDate": "",
         }
+    fallback_date = source_date or collected_at[:10]
     return {
-        "date": collected_at[:10],
+        "date": fallback_date,
         "publishedAt": "",
         "collectedAt": collected_at,
         "dateStatus": "collected",
@@ -2128,12 +2129,15 @@ def enrich_news_item(raw: dict) -> dict | None:
         result["sourceType"] = raw["sourceType"]
     if raw.get("region"):
         result["region"] = raw["region"]
-    datetime_hint = (raw.get("_datetime_hint") or article_datetime or "").strip()
     source_label = str(raw.get("source") or "").lower()
-    if "rss" in source_label and "arxiv" in source_label:
+    is_arxiv_rss = "rss" in source_label and "arxiv" in source_label
+    date_hint = (raw.get("_date_hint") or article_date or "").strip()
+    datetime_hint = (raw.get("_datetime_hint") or article_datetime or "").strip()
+    if is_arxiv_rss and not article_datetime and not article_date:
+        date_hint = ""
         datetime_hint = ""
     news_times = resolve_news_times(
-        (raw.get("_date_hint") or article_date or "").strip(),
+        date_hint,
         datetime_hint,
         raw.get("_collected_at") or "",
     )
@@ -2659,14 +2663,17 @@ def merge_generated(patch: dict) -> dict:
     #  - 旧数据 / 兜底（无 scores）→ 每次按 source 反推 tier 并用兜底公式重算，保证幂等。
     for n in merged["news"]:
         source_label = str(n.get("source") or "").lower()
-        if "rss" in source_label and "arxiv" in source_label and n.get("publishedAt"):
-            n["sourceDate"] = n.get("sourceDate") or n.get("date") or ""
-            n["publishedAt"] = ""
-        if not n.get("publishedAt") and n.get("collectedAt"):
+        if "rss" in source_label and "arxiv" in source_label:
             source_date = n.get("sourceDate") or n.get("date") or ""
-            n["date"] = str(n["collectedAt"])[:10]
+            has_specific = bool(re.search(r"(?:T|\s)\d{1,2}:\d{2}", str(n.get("publishedAt") or "")))
+            if not has_specific:
+                n["sourceDate"] = source_date
+                n["publishedAt"] = ""
+        if not n.get("publishedAt") and n.get("collectedAt"):
+            source_date = (n.get("sourceDate") or "").strip()
+            n["date"] = source_date or str(n["collectedAt"])[:10]
             n["dateStatus"] = "collected"
-            if source_date and source_date != n["date"]:
+            if source_date:
                 n["sourceDate"] = source_date
             else:
                 n.pop("sourceDate", None)

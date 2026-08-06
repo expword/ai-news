@@ -153,15 +153,28 @@
     }).format(d);
   }
 
-  // 展示时间：优先精确发布时间；只有日期时用采集时间补足到分钟。
-  function isArxivBatchItem(item) {
-    const source = String(item.source || "").toLowerCase();
-    return source.includes("rss") && source.includes("arxiv");
+  // 展示时间：只在不知道“具体时分秒”时使用采集时间进行补齐。
+  function hasExactTime(value) {
+    const s = String(value || "");
+    if (!s || isNaN(new Date(s).getTime())) return false;
+    return /(?:T|\s)\d{1,2}:\d{2}/.test(s);
+  }
+
+  function extractHourMinute(value) {
+    const d = new Date(value || "");
+    if (isNaN(d.getTime())) return "";
+    return `${String(d.getHours()).padStart(2, "0")}:${String(d.getMinutes()).padStart(2, "0")}`;
   }
 
   function effectiveNewsTime(item) {
-    if (isArxivBatchItem(item) && item.collectedAt) return item.collectedAt;
-    return item.publishedAt || item.collectedAt || "";
+    if (hasExactTime(item.publishedAt)) return item.publishedAt;
+    if (hasExactTime(item.date)) return item.date;
+
+    const baseDate = String(item.sourceDate || item.date || "").slice(0, 10);
+    const clock = extractHourMinute(item.collectedAt);
+    if (baseDate && clock) return `${baseDate}T${clock}`;
+    if (item.collectedAt) return item.collectedAt;
+    return baseDate || "";
   }
 
   function formatWhen(item) {
