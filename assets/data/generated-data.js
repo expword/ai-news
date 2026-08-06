@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-08-06",
-  "generatedAt": "2026-08-05T17:03:49.395581Z",
+  "generatedAt": "2026-08-06T03:29:03.679922Z",
   "news": [
     {
       "title": "Hunyuan3D-Buffalo 1.0：统一的多模态模型，支持可扩展的3D生成与编辑",
@@ -116,6 +116,85 @@ window.AI_GENERATED_DATA = {
       "score": 80,
       "aiSelected": true,
       "_style": "critic",
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Optimizing What Policies Learn From: Recoverability-aware Rollout Intervention Learning",
+      "summary": "Critic-free group-based reinforcement learning has become a scalable approach for post-training large language models. However, most existing methods allocate the same number of ro",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-08-05",
+      "publishedAt": "",
+      "collectedAt": "2026-08-06T11:28",
+      "dateStatus": "verified",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.05080v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Gradient Immunity: Null-Space Resistance to Malicious Fine-Tuning",
+      "summary": "Released aligned large language models remain vulnerable to malicious downstream finetuning. Existing defenses are largely designed for the fine-tuning-as-a-service (FTaaS) paradig",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-08-05",
+      "publishedAt": "",
+      "collectedAt": "2026-08-06T11:28",
+      "dateStatus": "verified",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.05045v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "From Score Matrices to Football-Aware Match-State Simulation: An Auditable LLM Harness for Exact-Score Reranking",
+      "summary": "Football score forecasting combines a strong statistical core with a difficult contextual edge. Dynamic Poisson-family models estimate team strength, expected goals, and coherent s",
+      "category": "ai-research",
+      "source": "arXiv",
+      "date": "2026-08-05",
+      "publishedAt": "",
+      "collectedAt": "2026-08-06T11:28",
+      "dateStatus": "verified",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.05030v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
       "moduleTargets": [
         "news"
       ],
@@ -276,6 +355,67 @@ window.AI_GENERATED_DATA = {
       "aiSelected": true,
       "moduleTargets": [
         "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "个性化大语言模型的虚构推断现象",
+      "summary": "这次发布的核心点是，最新研究揭示了个性化大语言模型（LLM）在用户画像推断中存在严重的过度推断（OI）现象。研究显示，在 MirageBench 基准测试中，12 个模型的推断中有 35%-49% 被判定为虚构，平均为 41.6%。更令人担忧的是，模型自我评估的 OI 与外部评测结果呈负相关，表明自我报告的可信度存在误导性，外部验证才是更可靠的个性化基础。",
+      "category": "ai-research",
+      "tags": [
+        "大语言模型",
+        "个性化推断",
+        "过度推断",
+        "用户画像",
+        "MirageBench"
+      ],
+      "keyPoints": [
+        "研究显示，12 个大语言模型在用户属性推断中，35%-49% 的推断被判定为虚构，平均为 41.6%。",
+        "模型自我评估的 OI 与外部评测结果呈负相关，相关系数为 -0.60。",
+        "个性化大语言模型普遍存在过度推断现象，影响其在实际应用中的可靠性。",
+        "外部验证被认为是更可靠的个性化基础，优于模型自我报告。",
+        "MirageBench 基准测试为评估模型推断提供了新的标准。"
+      ],
+      "background": "个性化大语言模型在近年来得到了广泛应用，尤其是在推荐系统和用户画像构建中。然而，最新的研究揭示了这些模型在推断用户属性时存在严重的过度推断现象。研究团队使用 MirageBench 基准测试对 12 个主流模型进行了评估，结果显示这些模型在推断用户属性时，35%-49% 的推断被判定为虚构，平均为 41.6%。这一现象引发了对模型自我评估可信度的质疑，研究表明，模型自我报告的 OI 与外部评测结果呈负相关，意味着依赖模型自我评估可能会导致误导。",
+      "impact": "这一研究结果对多个领域的从业者具有重要影响。首先，做个性化推荐的工程师需要重新审视模型的推断结果，避免过度依赖模型自我评估。其次，产品经理在设计用户体验时，应考虑引入外部验证机制，以提高个性化服务的准确性。此外，研究结果也可能促使开发者在模型训练和评估过程中更加注重数据的真实性和可靠性，从而提升模型的整体表现。",
+      "audience": [
+        "数据科学家",
+        "机器学习工程师",
+        "产品经理",
+        "推荐系统开发者",
+        "用户体验设计师"
+      ],
+      "useCases": [
+        "评估大语言模型的用户画像推断，确保推断结果的真实性。",
+        "设计个性化推荐系统时，结合外部验证数据，提高推荐准确性。",
+        "在用户体验设计中，利用真实数据优化用户交互。"
+      ],
+      "risks": [
+        "依赖模型自我评估可能导致错误的用户画像，影响产品决策。",
+        "过度推断可能导致用户体验下降，影响用户满意度。",
+        "在缺乏外部验证的情况下，模型的推断结果可能无法反映真实情况。"
+      ],
+      "reason": "这项研究揭示了个性化大语言模型在用户画像推断中的潜在问题，值得关注和深入探讨。",
+      "scores": {
+        "importance": 75,
+        "novelty": 80,
+        "firsthand": 70,
+        "impact": 65,
+        "credibility": 85
+      },
+      "url": "https://arxiv.org/abs/2608.04570",
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "date": "2026-08-05",
+      "publishedAt": "2026-08-05T08:00",
+      "collectedAt": "2026-08-06T11:27",
+      "dateStatus": "verified",
+      "tier": "T1.5",
+      "score": 59,
+      "aiSelected": true,
+      "_style": "reviewer",
+      "moduleTargets": [
+        "news",
+        "benchmarkDatasets"
       ],
       "sourceCount": 1
     },
@@ -8092,6 +8232,21 @@ window.AI_GENERATED_DATA = {
       "date": "2026-08-03"
     },
     {
+      "name": "OpenBMB/UltraRAG",
+      "lang": "Python",
+      "description": "A Low-Code MCP Framework for Building Complex and Innovative RAG Pipelines",
+      "stars": "5687 stars",
+      "why": "国产大模型厂商 面壁智能 MiniCPM 的最新开源动态/模型发布，属一手信源。",
+      "url": "https://github.com/OpenBMB/UltraRAG",
+      "source": "GitHub · 面壁智能 MiniCPM",
+      "tier": "T1",
+      "category": "Coding Agent",
+      "details": "A Low-Code MCP Framework for Building Complex and Innovative RAG Pipelines",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
       "name": "microsoft/generative-ai-for-beginners",
       "lang": "Jupyter Notebook",
       "description": "21 Lessons, Get Started Building with Generative AI ",
@@ -8101,20 +8256,6 @@ window.AI_GENERATED_DATA = {
       "source": "GitHub Search · 2026-08-06",
       "category": "Coding Agent",
       "details": "21 Lessons, Get Started Building with Generative AI ",
-      "features": [],
-      "useCases": [],
-      "quickStart": []
-    },
-    {
-      "name": "langflow-ai/langflow",
-      "lang": "Python",
-      "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
-      "stars": "152863 stars",
-      "why": "近期更新且具备 AI / LLM / Agent 相关主题，适合做项目介绍、教程或同类对比。",
-      "url": "https://github.com/langflow-ai/langflow",
-      "source": "GitHub Search · 2026-08-06",
-      "category": "Coding Agent",
-      "details": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
       "features": [],
       "useCases": [],
       "quickStart": []
@@ -11981,6 +12122,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-research": [
       {
+        "name": "Optimizing What Policies Learn From: Recoverability-aware Ro",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Critic-free group-based reinforcement learning has become a scalable approach for post-training large language models. However, most existing methods allocate t",
+        "description": "Critic-free group-based reinforcement learning has become a scalable approach for post-training large language models. However, most existing methods allocate the same number of ro",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2608.05080v1"
+      },
+      {
         "name": "大型语言模型在表格预测中的失败原因",
         "provider": "NewsAPI",
         "type": "AI 项目/工具",
@@ -12557,17 +12709,6 @@ window.AI_GENERATED_DATA = {
         "watch": "患者可能会因误解研究结果而自行调整二甲双胍的用药剂量，导致血糖控制不佳。",
         "sourceName": "NewsAPI:large language model",
         "url": "https://www.medicaldaily.com/metformin-how-it-works-new-research-gut-not-liver-2026-476470"
-      },
-      {
-        "name": "Rome Declaration on Combined Threat of Nuclear Weapons and A",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "Earlier this month (in July 2026) the participants of the Global Nobel Laureates Assembly at the Vatican in Rome adopted a very important declaration for the sa",
-        "description": "Earlier this month (in July 2026) the participants of the Global Nobel Laureates Assembly at the Vatican in Rome adopted a very important declaration for the safety of humankind an",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsAPI:artificial intelligence",
-        "url": "https://www.globalresearch.ca/rome-declaration-combined-threat-nuclear-weapons-ai-2/5934675"
       }
     ],
     "ai-office": []
@@ -14923,8 +15064,8 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-08-06",
-    "generatedAt": "2026-08-05T17:03:49.370584Z",
-    "total": 8,
+    "generatedAt": "2026-08-06T03:29:03.652755Z",
+    "total": 12,
     "sections": [
       {
         "category": "ai-image-video",
@@ -14974,6 +15115,28 @@ window.AI_GENERATED_DATA = {
             "date": "2026-08-05",
             "publishedAt": "2026-08-05T12:00",
             "reason": "Hunyuan3D-Buffalo 1.0的发布为3D生成和编辑提供了新的可能性，值得关注。"
+          },
+          {
+            "title": "Optimizing What Policies Learn From: Recoverability-aware Rollout Intervention Learning",
+            "summary": "Critic-free group-based reinforcement learning has become a scalable approach for post-training large language models. However, most existin",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.05080v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-05",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Gradient Immunity: Null-Space Resistance to Malicious Fine-Tuning",
+            "summary": "Released aligned large language models remain vulnerable to malicious downstream finetuning. Existing defenses are largely designed for the ",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.05045v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-05",
+            "publishedAt": "",
+            "reason": ""
           }
         ]
       },
@@ -14991,6 +15154,17 @@ window.AI_GENERATED_DATA = {
             "date": "2026-08-05",
             "publishedAt": "2026-08-05T12:00",
             "reason": "PixelUp 提供了一种创新的特征上采样方法，具有灵活性和高效性，值得关注其在计算机视觉领域的应用潜力。"
+          },
+          {
+            "title": "From Score Matrices to Football-Aware Match-State Simulation: An Auditable LLM Harness for Exact-Score Reranking",
+            "summary": "Football score forecasting combines a strong statistical core with a difficult contextual edge. Dynamic Poisson-family models estimate team ",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.05030v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-05",
+            "publishedAt": "",
+            "reason": ""
           },
           {
             "title": "Confident but Unreliable: A Behavioral Safety Audit of Vision-Language Models on Brain MRI",
@@ -15035,6 +15209,17 @@ window.AI_GENERATED_DATA = {
             "date": "2026-08-05",
             "publishedAt": "2026-08-05T12:00",
             "reason": ""
+          },
+          {
+            "title": "个性化大语言模型的虚构推断现象",
+            "summary": "这次发布的核心点是，最新研究揭示了个性化大语言模型（LLM）在用户画像推断中存在严重的过度推断（OI）现象。研究显示，在 MirageBench 基准测试中，12 个模型的推断中有 35%-49% 被判定为虚构，平均为 41.6%。更令人担忧的是，模型自我评估的 OI 与外部评测",
+            "source": "HuggingFace Daily Papers（社区热门论文）",
+            "url": "https://arxiv.org/abs/2608.04570",
+            "score": 59,
+            "sourceCount": 1,
+            "date": "2026-08-05",
+            "publishedAt": "2026-08-05T08:00",
+            "reason": "这项研究揭示了个性化大语言模型在用户画像推断中的潜在问题，值得关注和深入探讨。"
           }
         ]
       }
@@ -26749,6 +26934,32 @@ window.AI_GENERATED_DATA = {
     ]
   },
   "benchmarkDatasets": [
+    {
+      "name": "MirageBench",
+      "area": "检索 / Embedding",
+      "note": "这次发布的核心点是，最新研究揭示了个性化大语言模型（LLM）在用户画像推断中存在严重的过度推断（OI）现象。研究显示，在 MirageBench 基准测试中，12 个模型的推断中有 35%-49% 被判定为虚构，平均为 41.6%。更令人担忧的是，模型自我评估的 OI 与外部评测结果呈负相关，表明自我报告的可信度存在误导性，外部验证才是更可靠的个性化基础。",
+      "source": "https://arxiv.org/abs/2608.04570",
+      "sourceName": "HuggingFace Daily Papers（社区热门论文）",
+      "date": "2026-08-05",
+      "originTitle": "个性化大语言模型的虚构推断现象",
+      "evaluates": [
+        "研究显示，12 个大语言模型在用户属性推断中，35%-49% 的推断被判定为虚构，平均为 41.6%。",
+        "模型自我评估的 OI 与外部评测结果呈负相关，相关系数为 -0.60。",
+        "个性化大语言模型普遍存在过度推断现象，影响其在实际应用中的可靠性。",
+        "外部验证被认为是更可靠的个性化基础，优于模型自我报告。",
+        "MirageBench 基准测试为评估模型推断提供了新的标准。"
+      ],
+      "useCases": [
+        "评估大语言模型的用户画像推断，确保推断结果的真实性。",
+        "设计个性化推荐系统时，结合外部验证数据，提高推荐准确性。",
+        "在用户体验设计中，利用真实数据优化用户交互。"
+      ],
+      "limitations": [
+        "依赖模型自我评估可能导致错误的用户画像，影响产品决策。",
+        "过度推断可能导致用户体验下降，影响用户满意度。",
+        "在缺乏外部验证的情况下，模型的推断结果可能无法反映真实情况。"
+      ]
+    },
     {
       "name": "SocietyBench",
       "area": "AI 模型能力评测",
