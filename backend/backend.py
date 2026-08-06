@@ -1105,6 +1105,18 @@ def parse_datetime_to_iso(s: str) -> str:
     return _to_cn(dt).strftime("%Y-%m-%dT%H:%M") if dt else ""
 
 
+def rss_datetime_hint(feed: dict, published_value: str) -> str:
+    """Return an exact time only when the feed provides a meaningful article time.
+
+    arXiv RSS timestamps describe the daily feed batch, not the publication time of
+    each paper.  Keeping that value as ``publishedAt`` makes a whole batch look one
+    day late in China, so arXiv entries deliberately fall back to ``collectedAt``.
+    """
+    if str(feed.get("name") or "").lower().startswith("arxiv "):
+        return ""
+    return parse_datetime_to_iso(published_value)
+
+
 def validate_publication_hints(date_hint: str, datetime_hint: str = "") -> tuple[str, str]:
     """Reject future event/deadline dates that were mistaken for publication dates."""
     date_value = (date_hint or "")[:10]
@@ -1113,6 +1125,27 @@ def validate_publication_hints(date_hint: str, datetime_hint: str = "") -> tuple
     if date_value > today_iso():
         return "", ""
     return date_value, datetime_hint or ""
+
+
+def resolve_news_times(date_hint: str, datetime_hint: str = "", collected_at: str = "") -> dict:
+    """Resolve public timestamps without presenting a date-only hint as an exact time."""
+    source_date, published_at = validate_publication_hints(date_hint, datetime_hint)
+    collected_at = collected_at or datetime.now(CN_TZ).strftime("%Y-%m-%dT%H:%M")
+    if published_at:
+        return {
+            "date": source_date,
+            "publishedAt": published_at,
+            "collectedAt": collected_at,
+            "dateStatus": "verified",
+            "sourceDate": "",
+        }
+    return {
+        "date": collected_at[:10],
+        "publishedAt": "",
+        "collectedAt": collected_at,
+        "dateStatus": "collected",
+        "sourceDate": source_date,
+    }
 
 
 _PUBLISHED_META_KEYS = {
@@ -1176,7 +1209,7 @@ def fetch_rss_items() -> list[dict]:
                     "lang": feed.get("lang", "en"),
                     "tier": feed.get("tier", "T2"),
                     "_date_hint": parse_date_to_iso(pub),
-                    "_datetime_hint": parse_datetime_to_iso(pub),
+                    "_datetime_hint": rss_datetime_hint(feed, pub),
                 })
 
         # Atom：<feed><entry>
@@ -1198,7 +1231,7 @@ def fetch_rss_items() -> list[dict]:
                     "lang": feed.get("lang", "en"),
                     "tier": feed.get("tier", "T2"),
                     "_date_hint": parse_date_to_iso(pub),
-                    "_datetime_hint": parse_datetime_to_iso(pub),
+                    "_datetime_hint": rss_datetime_hint(feed, pub),
                 })
 
     # 先去重，再按信源等级排序后截断，保证 T1 一手源不会被后面的源挤掉。
@@ -2095,14 +2128,18 @@ def enrich_news_item(raw: dict) -> dict | None:
         result["sourceType"] = raw["sourceType"]
     if raw.get("region"):
         result["region"] = raw["region"]
-    raw_date, raw_datetime = validate_publication_hints(
+    datetime_hint = (raw.get("_datetime_hint") or article_datetime or "").strip()
+    source_label = str(raw.get("source") or "").lower()
+    if "rss" in source_label and "arxiv" in source_label:
+        datetime_hint = ""
+    news_times = resolve_news_times(
         (raw.get("_date_hint") or article_date or "").strip(),
-        (raw.get("_datetime_hint") or article_datetime or "").strip(),
+        datetime_hint,
+        raw.get("_collected_at") or "",
     )
-    result["date"] = raw_date[:10] if len(raw_date) >= 10 else ""
-    result["publishedAt"] = raw_datetime
-    result["collectedAt"] = raw.get("_collected_at") or datetime.now(CN_TZ).strftime("%Y-%m-%dT%H:%M")
-    result["dateStatus"] = "verified" if result["date"] else "unknown"
+    result.update(news_times)
+    if not result.get("sourceDate"):
+        result.pop("sourceDate", None)
     if result.get("category") not in NEWS_CATEGORIES:
         result["category"] = rule_category
     # 原文只作为生成摘要与解读时的输入，不写入公开数据。
@@ -2241,10 +2278,10 @@ def enrich_skill_item(raw: dict) -> dict | None:
     return result
 
 
-def parallel_enrich(items: list[dict], enricher, label: str = "items") -> list[dict]:
+def parallel_enrich(items: list[dict], enricher, label: str = "items") -> tuple[list[dict], list[dict]]:
     """用 ThreadPoolExecutor 并发调 LLM，单条失败回退到 fallback。"""
     if not items:
-        return []
+        return [], []
     results: list[dict] = []
     failed: list[dict] = []
     workers = min(int(os.getenv("LLM_WORKERS", "8")), max(1, len(items)))
@@ -2273,18 +2310,17 @@ def fallback_news(raw_items: list[dict]) -> list[dict]:
         category = category_from_text(f"{title} {summary}")
         tier = item.get("tier") or "T2"
         score = compute_quality_score(None, tier)
-        raw_date, raw_datetime = validate_publication_hints(
-            (item.get("_date_hint") or "").strip(), (item.get("_datetime_hint") or "").strip()
+        news_times = resolve_news_times(
+            (item.get("_date_hint") or "").strip(),
+            (item.get("_datetime_hint") or "").strip(),
+            item.get("_collected_at") or "",
         )
         news.append({
             "title": title,
             "summary": summary[:180] if summary else "",
             "category": category,
             "source": item.get("source") or "Auto Search",
-            "date": raw_date[:10] if len(raw_date) >= 10 else "",
-            "publishedAt": raw_datetime,
-            "collectedAt": item.get("_collected_at") or datetime.now(CN_TZ).strftime("%Y-%m-%dT%H:%M"),
-            "dateStatus": "verified" if len(raw_date) >= 10 else "unknown",
+            **news_times,
             "tags": [],
             "url": item.get("url"),
             "keyPoints": [],
@@ -2622,6 +2658,18 @@ def merge_generated(patch: dict) -> dict:
     #  - 真实 LLM 打分（scores 非空）→ 保留模型分，tier 用 enrich 时写入的；
     #  - 旧数据 / 兜底（无 scores）→ 每次按 source 反推 tier 并用兜底公式重算，保证幂等。
     for n in merged["news"]:
+        source_label = str(n.get("source") or "").lower()
+        if "rss" in source_label and "arxiv" in source_label and n.get("publishedAt"):
+            n["sourceDate"] = n.get("sourceDate") or n.get("date") or ""
+            n["publishedAt"] = ""
+        if not n.get("publishedAt") and n.get("collectedAt"):
+            source_date = n.get("sourceDate") or n.get("date") or ""
+            n["date"] = str(n["collectedAt"])[:10]
+            n["dateStatus"] = "collected"
+            if source_date and source_date != n["date"]:
+                n["sourceDate"] = source_date
+            else:
+                n.pop("sourceDate", None)
         valid_date, valid_datetime = validate_publication_hints(n.get("date") or "", n.get("publishedAt") or "")
         if (n.get("date") or "") and not valid_date:
             n["date"] = ""

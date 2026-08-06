@@ -151,7 +151,13 @@
   }
 
   // 展示时间：优先精确发布时间；只有日期时用采集时间补足到分钟。
+  function isArxivBatchItem(item) {
+    const source = String(item.source || "").toLowerCase();
+    return source.includes("rss") && source.includes("arxiv");
+  }
+
   function effectiveNewsTime(item) {
+    if (isArxivBatchItem(item) && item.collectedAt) return item.collectedAt;
     return item.publishedAt || item.collectedAt || "";
   }
 
@@ -547,7 +553,7 @@
 
   // 取"当天"内容：有今天的就只看今天；今天还没有（如本地旧数据）则回退到最近一天
   function recentWindow(items) {
-    const dateOf = (it) => String(it.date || "").slice(0, 10);
+    const dateOf = (it) => localDay(effectiveNewsTime(it)) || String(it.date || "").slice(0, 10);
     const dates = items.map(dateOf).filter(Boolean).sort();
     if (!dates.length) return items;
     const latest = dates[dates.length - 1];
