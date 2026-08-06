@@ -6,8 +6,11 @@
     sort: "newest", // 今日精选默认按发布时间线排列
     mode: "selected", // selected = 只看精选；all = 全部资讯
     skillCat: "all",  // 热门 Skill 的分类筛选
-    llmType: "all"    // 大模型榜单：全部/商用/开源
+    llmType: "all",    // 大模型榜单：全部/商用/开源
+    newsVisibleCount: 12,
   };
+
+  const NEWS_PAGE_SIZE = 12;
 
   const lastUpdated = document.querySelector("#lastUpdated");
   const categoryList = document.querySelector("#categoryList");
@@ -570,11 +573,6 @@
       return inCategory && inMode && matchesQuery(item);
     });
 
-    // 首页聚焦当天（全部模式 / 搜索时不收窄，方便回看）
-    if (state.mode === "selected" && !state.query.trim()) {
-      items = recentWindow(items);
-    }
-
     items = dedupeByTitle(items);
 
     return items.sort((a, b) => {
@@ -591,6 +589,24 @@
       if (scoreDiff) return scoreDiff;
       return new Date(b.date || 0) - new Date(a.date || 0);
     });
+  }
+
+  function resetNewsWindow() {
+    state.newsVisibleCount = NEWS_PAGE_SIZE;
+  }
+
+  function updateNewsMoreButton(total, visibleCount) {
+    const moreButton = document.querySelector('[data-toggle-target="newsGrid"]');
+    if (!moreButton) return;
+    if (total <= NEWS_PAGE_SIZE) {
+      moreButton.style.display = "none";
+      return;
+    }
+    moreButton.style.display = "";
+    moreButton.textContent =
+      visibleCount >= total
+        ? moreButton.dataset.labelLess || "收起"
+        : moreButton.dataset.labelMore || "展开更多精选";
   }
 
   function renderTopics() {
@@ -835,6 +851,8 @@
   function renderNews() {
     if (!newsGrid) return;
     const items = getFilteredNews();
+    const visibleCount = Math.min(state.newsVisibleCount, items.length);
+    const visibleItems = items.slice(0, visibleCount);
 
     // 时间线布局只在「按时间线」排序时启用；其它排序退回普通卡片流
     const timeline = state.sort === "newest";
@@ -842,12 +860,12 @@
 
     if (!items.length) {
       newsGrid.innerHTML = '<div class="empty-state">没有找到匹配内容，换个关键词试试。</div>';
+      updateNewsMoreButton(0, 0);
       return;
     }
 
-    const limit = expandedLists.has("newsGrid") ? 30 : 12;
     let lastDay = null;
-    const cards = items.slice(0, limit).map((item, idx) => {
+    const cards = visibleItems.map((item, idx) => {
       const href = newsDetailHref(item);
       const score = Number(item.score) || 0;
       const scoreBadge = score
@@ -896,6 +914,22 @@
     });
 
     newsGrid.innerHTML = cards.join("");
+    updateNewsMoreButton(items.length, visibleCount);
+  }
+
+  function tryLoadMoreNews() {
+    const latestPanel = document.querySelector('.home-panel[data-panel="latest"]');
+    if (!latestPanel || !latestPanel.classList.contains("is-active")) return;
+    if (document.documentElement.scrollHeight <= window.innerHeight + 20) return;
+    if (window.scrollY < 60) return;
+
+    const distance = document.documentElement.scrollHeight - (window.innerHeight + window.scrollY);
+    if (distance > 300) return;
+
+    const items = getFilteredNews();
+    if (state.newsVisibleCount >= items.length) return;
+    state.newsVisibleCount = Math.min(items.length, state.newsVisibleCount + NEWS_PAGE_SIZE);
+    renderNews();
   }
 
   // 每天最重要的 5 条：当天（或最近一天）精选里质量分最高的 5 条
@@ -1078,16 +1112,27 @@
       const toggleButton = event.target.closest("[data-toggle-target]");
       if (toggleButton) {
         const target = toggleButton.dataset.toggleTarget;
+        if (target === "newsGrid") {
+          const filtered = getFilteredNews();
+          if (state.newsVisibleCount >= filtered.length) {
+            resetNewsWindow();
+          } else {
+            state.newsVisibleCount = Math.min(filtered.length, state.newsVisibleCount + NEWS_PAGE_SIZE);
+          }
+          renderNews();
+          return;
+        }
+
         if (expandedLists.has(target)) {
           expandedLists.delete(target);
         } else {
           expandedLists.add(target);
         }
         if (target === "benchmarkBoardGrid" || target === "benchmarkDatasetGrid") renderBenchmark();
-        if (target === "newsGrid") renderNews();
         if (target === "sourceGrid") renderSources();
         document.querySelectorAll("[data-toggle-target]").forEach((button) => {
           const buttonTarget = button.dataset.toggleTarget;
+          if (buttonTarget === "newsGrid") return;
           button.textContent = expandedLists.has(buttonTarget)
             ? button.dataset.labelLess
             : button.dataset.labelMore;
@@ -1105,6 +1150,7 @@
         if (!button) return;
 
         state.category = button.dataset.category;
+        resetNewsWindow();
         renderCategories();
         renderNews();
       });
@@ -1113,6 +1159,7 @@
     if (searchInput) {
       searchInput.addEventListener("input", (event) => {
         state.query = event.target.value;
+        resetNewsWindow();
         renderTopics();
         renderSkills();
         renderGithubWeekly();
@@ -1127,6 +1174,7 @@
     if (searchSubmit) {
       searchSubmit.addEventListener("click", () => {
         state.query = searchInput?.value || "";
+        resetNewsWindow();
         renderTopics();
         renderSkills();
         renderGithubWeekly();
@@ -1139,6 +1187,7 @@
     if (sortSelect) {
       sortSelect.addEventListener("change", (event) => {
         state.sort = event.target.value;
+        resetNewsWindow();
         renderNews();
       });
     }
@@ -1173,6 +1222,10 @@
         const button = event.target.closest("button[data-panel]");
         if (!button) return;
         const panel = button.dataset.panel;
+        if (panel === "latest") {
+          resetNewsWindow();
+          renderNews();
+        }
         sideNav.querySelectorAll("button[data-panel]").forEach((b) => {
           b.classList.toggle("is-active", b.dataset.panel === panel);
         });
@@ -1191,6 +1244,7 @@
         const button = event.target.closest("[data-mode]");
         if (!button) return;
         state.mode = button.dataset.mode;
+        resetNewsWindow();
         modeToggle.querySelectorAll("[data-mode]").forEach((b) => {
           b.classList.toggle("is-active", b.dataset.mode === state.mode);
         });
@@ -1198,6 +1252,9 @@
         renderNews();
       });
     }
+
+    window.addEventListener("scroll", tryLoadMoreNews, { passive: true });
+    window.addEventListener("resize", tryLoadMoreNews);
   }
 
   function init() {
