@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-08-06",
-  "generatedAt": "2026-08-06T03:39:16.223842Z",
+  "generatedAt": "2026-08-06T09:57:37.970579Z",
   "news": [
     {
       "title": "Optimizing What Policies Learn From: Recoverability-aware Rollout Intervention Learning",
@@ -8240,6 +8240,21 @@
       "date": "2026-08-03"
     },
     {
+      "name": "zai-org/SCAIL-2",
+      "lang": "Python",
+      "description": "Official Implementation of SCAIL-2: Unifying Controlled Character Animation with End-to-end In-Context Conditioning",
+      "stars": "1080 stars",
+      "why": "国产大模型厂商 智谱 Z.ai 的最新开源动态/模型发布，属一手信源。",
+      "url": "https://github.com/zai-org/SCAIL-2",
+      "source": "GitHub · 智谱 Z.ai",
+      "tier": "T1",
+      "category": "Coding Agent",
+      "details": "Official Implementation of SCAIL-2: Unifying Controlled Character Animation with End-to-end In-Context Conditioning",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
       "name": "OpenBMB/UltraRAG",
       "lang": "Python",
       "description": "A Low-Code MCP Framework for Building Complex and Innovative RAG Pipelines",
@@ -8250,20 +8265,6 @@
       "tier": "T1",
       "category": "Coding Agent",
       "details": "A Low-Code MCP Framework for Building Complex and Innovative RAG Pipelines",
-      "features": [],
-      "useCases": [],
-      "quickStart": []
-    },
-    {
-      "name": "microsoft/generative-ai-for-beginners",
-      "lang": "Jupyter Notebook",
-      "description": "21 Lessons, Get Started Building with Generative AI ",
-      "stars": "116609 stars",
-      "why": "近期更新且具备 AI / LLM / Agent 相关主题，适合做项目介绍、教程或同类对比。",
-      "url": "https://github.com/microsoft/generative-ai-for-beginners",
-      "source": "GitHub Search · 2026-08-06",
-      "category": "Coding Agent",
-      "details": "21 Lessons, Get Started Building with Generative AI ",
       "features": [],
       "useCases": [],
       "quickStart": []
@@ -15072,7 +15073,7 @@
   ],
   "dailyReport": {
     "date": "2026-08-06",
-    "generatedAt": "2026-08-06T03:39:16.195188Z",
+    "generatedAt": "2026-08-06T09:57:37.943578Z",
     "total": 15,
     "sections": [
       {
