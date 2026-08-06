@@ -170,7 +170,7 @@
     if (hasExactTime(item.publishedAt)) return item.publishedAt;
     if (hasExactTime(item.date)) return item.date;
 
-    const baseDate = String(item.sourceDate || item.date || "").slice(0, 10);
+    const baseDate = String(item.date || item.sourceDate || "").slice(0, 10);
     const clock = extractHourMinute(item.collectedAt);
     if (baseDate && clock) return `${baseDate}T${clock}`;
     if (item.collectedAt) return item.collectedAt;

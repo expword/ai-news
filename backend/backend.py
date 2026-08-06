@@ -2671,7 +2671,8 @@ def merge_generated(patch: dict) -> dict:
                 n["publishedAt"] = ""
         if not n.get("publishedAt") and n.get("collectedAt"):
             source_date = (n.get("sourceDate") or "").strip()
-            n["date"] = source_date or str(n["collectedAt"])[:10]
+            if not (n.get("date") or "").strip():
+                n["date"] = source_date or str(n["collectedAt"])[:10]
             n["dateStatus"] = "collected"
             if source_date:
                 n["sourceDate"] = source_date
