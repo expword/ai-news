@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-08-07",
-  "generatedAt": "2026-08-07T07:48:20.329634Z",
+  "generatedAt": "2026-08-07T15:03:02.421148Z",
   "news": [
     {
       "title": "GPT-5.6 Sol与Luna提升ChatGPT推理能力",
@@ -125,6 +125,64 @@ window.AI_GENERATED_DATA = {
       "score": 65,
       "aiSelected": true,
       "_style": "reviewer",
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Suno移动应用新增Voices功能，轻松录制人声",
+      "summary": "Suno移动应用在iOS和Android平台正式推出Voices功能，用户可直接在手机上录制人声并应用于音乐创作。只需点击创作界面的\"+ Voice\"按钮，录制至少一分钟的声音，Pro和Premier套餐用户可无限使用，免费用户则可体验有限版本。快来试试吧！",
+      "category": "ai-tools",
+      "tags": [
+        "音乐创作",
+        "移动应用",
+        "人声录制",
+        "Suno",
+        "Voices功能"
+      ],
+      "keyPoints": [
+        "Voices功能已在Suno移动应用上线，支持iOS和Android平台。",
+        "用户可通过点击\"+ Voice\"按钮录制至少一分钟的人声。",
+        "Pro和Premier套餐用户享受无限制的录音使用，免费用户可体验有限版本。",
+        "该功能旨在提升用户的音乐创作体验，简化录音流程。",
+        "用户可在应用内直接反馈使用体验，促进功能优化。"
+      ],
+      "background": "Suno是一款专注于音乐创作的移动应用，Voices功能的推出标志着其在用户体验上的进一步提升。通过简化录音流程，Suno希望吸引更多音乐爱好者和创作者使用其平台。与其他音乐创作工具相比，Suno的Voices功能提供了更为便捷的录音方式，适合不同层次的用户需求。",
+      "impact": "Voices功能的上线将吸引更多音乐创作者，尤其是移动端用户，提升他们的创作效率。对于Pro和Premier用户来说，无限制的录音使用将鼓励他们进行更多实验和创作，可能会推动新音乐风格的出现。同时，用户反馈机制也将帮助Suno不断优化功能，增强用户粘性。",
+      "audience": [
+        "音乐创作者",
+        "移动应用开发者",
+        "音频工程师"
+      ],
+      "useCases": [
+        "打开Suno应用，点击\"+ Voice\"按钮，录制至少一分钟的人声，快速生成音乐素材。",
+        "使用Pro或Premier套餐，进行多次录音，探索不同的声音效果，丰富音乐作品。",
+        "在评论区分享录音体验，获取其他用户的反馈，促进创作灵感的交流。"
+      ],
+      "risks": [
+        "免费套餐的功能限制可能导致用户体验不佳，影响用户留存率。",
+        "录音质量受设备硬件影响，低质量录音可能影响最终音乐效果。",
+        "用户反馈的处理可能存在延迟，影响用户对功能的信任度。"
+      ],
+      "reason": "Suno的Voices功能为音乐创作者提供了便捷的录音工具，极大地提升了移动端音乐创作的灵活性和效率。",
+      "scores": {
+        "importance": 70,
+        "novelty": 60,
+        "firsthand": 90,
+        "impact": 75,
+        "credibility": 80
+      },
+      "url": "https://x.com/suno/status/2085731234970227145",
+      "source": "X：Suno (@suno)",
+      "date": "2026-08-07",
+      "publishedAt": "2026-08-07T22:14",
+      "collectedAt": "2026-08-07T22:59",
+      "dateStatus": "verified",
+      "tier": "T1.5",
+      "score": 59,
+      "aiSelected": true,
+      "_style": "tutorial",
       "moduleTargets": [
         "news"
       ],
@@ -6290,6 +6348,41 @@ window.AI_GENERATED_DATA = {
   ],
   "githubWeekly": [
     {
+      "name": "zai-org/AISE-Bench",
+      "lang": "Python",
+      "category": "RAG 引擎",
+      "description": "AISE-Bench 是一个为学术知识图谱信息检索提供的全周期基准工具，适合研究人员和开发者使用，突出其全面性。",
+      "details": "AISE-Bench 解决了学术知识图谱中信息检索的评估问题，提供了一个系统化的基准框架。与其他基准（如 TREC 和 CIKM）相比，AISE-Bench 更加专注于学术领域的特定需求，允许用户在多种任务上进行评估。该项目使用 Python 开发，采用 MIT 许可证，适合希望在学术研究中进行信息检索评估的研究人员和开发者，不推荐对学术知识图谱不感兴趣的用户。",
+      "features": [
+        "提供多种信息检索任务的基准数据集",
+        "支持多种评估指标的计算",
+        "允许用户自定义评估任务",
+        "集成了最新的学术知识图谱",
+        "易于与现有的检索系统集成"
+      ],
+      "useCases": [
+        "评估学术搜索引擎的检索效果",
+        "比较不同信息检索算法的性能",
+        "开发针对学术领域的智能问答系统"
+      ],
+      "quickStart": [
+        "git clone https://github.com/zai-org/AISE-Bench.git",
+        "cd AISE-Bench",
+        "pip install -r requirements.txt",
+        "python run_benchmark.py"
+      ],
+      "why": "AISE-Bench 通过专注于学术知识图谱的信息检索，填补了现有基准的空白。该项目在 GitHub 上获得了 2 stars，表明其在社区中的初步认可。其使用的技术栈和灵活的评估框架使其在同类项目中具有独特优势。",
+      "tags": [
+        "学术",
+        "信息检索",
+        "基准测试"
+      ],
+      "url": "https://github.com/zai-org/AISE-Bench",
+      "stars": "2 stars",
+      "source": "GitHub · 智谱 Z.ai",
+      "date": "2026-08-07"
+    },
+    {
       "name": "OpenBMB/MiniCPM-V-Apps",
       "lang": "Swift",
       "category": "LLM 应用平台",
@@ -8402,79 +8495,19 @@ window.AI_GENERATED_DATA = {
       "date": "2026-08-04"
     },
     {
-      "name": "Kong/kong",
-      "lang": "Lua",
-      "category": "Coding Agent",
-      "description": "这是一个为开发者提供的 API 和 AI 网关工具，支持高效的流量管理和服务扩展。",
-      "details": "Kong 是一个开源的 API 网关，旨在帮助开发者管理和保护他们的 API。它提供了丰富的插件生态系统，支持身份验证、流量控制和监控等功能。与其他 API 网关（如 Apigee 和 AWS API Gateway）相比，Kong 的优势在于其高性能和灵活性，能够处理大量并发请求。Kong 使用 Lua 语言开发，基于 NGINX，具有极高的扩展性。推荐给需要高效 API 管理的开发团队，不推荐给对性能要求不高的小型项目。",
-      "features": [
-        "支持插件扩展，满足多种需求",
-        "高性能，处理高并发请求",
-        "支持多种身份验证机制",
-        "提供流量控制和监控功能",
-        "兼容 Kubernetes 部署"
-      ],
-      "useCases": [
-        "管理和保护企业内部 API",
-        "实现微服务架构中的 API 网关",
-        "监控 API 性能和流量",
-        "集成第三方服务的 API"
-      ],
-      "quickStart": [
-        "使用 Docker 启动 Kong：docker run -d --name kong -e 'KONG_DATABASE=off' -p 8000:8000 kong",
-        "配置 API：curl -i -X POST http://localhost:8001/services -d 'name=example-service' -d 'url=http://example.com'",
-        "添加插件：curl -i -X POST http://localhost:8001/services/example-service/plugins -d 'name=rate-limiting' -d 'config.second=5'",
-        "测试 API：curl -i http://localhost:8000/example-service"
-      ],
-      "why": "Kong 以其高性能和灵活性在 API 网关领域脱颖而出，拥有超过 43910 个 stars，社区活跃，支持多种插件扩展，适合大规模应用场景。其基于 NGINX 的架构确保了高并发处理能力，适合需要高效 API 管理的开发团队。",
-      "tags": [
-        "API 网关",
-        "开源",
-        "高性能",
-        "流量管理"
-      ],
-      "url": "https://github.com/Kong/kong",
-      "stars": "43910 stars",
-      "source": "GitHub Search · 2026-08-04",
-      "date": "2026-08-04"
-    },
-    {
-      "name": "NousResearch/hermes-agent",
+      "name": "zai-org/SurveyReview",
       "lang": "Python",
-      "category": "Agent 框架",
-      "description": "这是一个为开发者提供的智能代理工具，能够随着用户需求的变化而成长。",
-      "details": "Hermes Agent 是一个灵活的智能代理框架，旨在帮助开发者构建自适应的 AI 应用。它与其他同类产品（如 Rasa 和 Botpress）相比，提供了更高的定制性和扩展性。该项目使用 Python 编写，采用 MIT 许可证，适合希望快速构建和迭代 AI 代理的开发者。不推荐给需要简单集成的用户。",
-      "features": [
-        "支持多种对话管理策略",
-        "集成多种自然语言处理工具",
-        "提供可视化的工作流设计",
-        "支持自定义插件扩展",
-        "兼容多种消息传递平台"
-      ],
-      "useCases": [
-        "构建个性化的客户服务代理",
-        "实现智能问答系统",
-        "开发多轮对话应用",
-        "集成到现有的业务流程中"
-      ],
-      "quickStart": [
-        "git clone https://github.com/NousResearch/hermes-agent.git",
-        "cd hermes-agent",
-        "pip install -r requirements.txt",
-        "python run_agent.py"
-      ],
-      "why": "Hermes Agent 以其灵活性和扩展性脱颖而出，适合快速迭代和定制化需求。项目拥有 224929 stars，显示出强大的社区支持和活跃度，适合希望在 AI 领域快速发展的开发者。",
-      "tags": [
-        "智能代理",
-        "对话系统",
-        "Python",
-        "开源",
-        "AI"
-      ],
-      "url": "https://github.com/NousResearch/hermes-agent",
-      "stars": "224929 stars",
-      "source": "GitHub Search · 2026-08-04",
-      "date": "2026-08-04"
+      "description": "Official Code for SurveyReview: A Reviewer-Aligned Benchmark for Survey Evaluators (KDD 2026)",
+      "stars": "1 stars",
+      "why": "国产大模型厂商 智谱 Z.ai 的最新开源动态/模型发布，属一手信源。",
+      "url": "https://github.com/zai-org/SurveyReview",
+      "source": "GitHub · 智谱 Z.ai",
+      "tier": "T1",
+      "category": "Coding Agent",
+      "details": "Official Code for SurveyReview: A Reviewer-Aligned Benchmark for Survey Evaluators (KDD 2026)",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
     }
   ],
   "sources": [
@@ -15336,8 +15369,8 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-08-07",
-    "generatedAt": "2026-08-07T07:48:20.300633Z",
-    "total": 24,
+    "generatedAt": "2026-08-07T15:03:02.395148Z",
+    "total": 8,
     "sections": [
       {
         "category": "ai-tools",
@@ -15355,49 +15388,15 @@ window.AI_GENERATED_DATA = {
             "reason": "这份报告揭示了 ChatGPT 用户群体的变化及其在工作场景中的应用潜力，值得关注。"
           },
           {
-            "title": "开源中国被评为专精特新“小巨人”，推动关键行业研发",
-            "summary": "开源中国近日荣获专精特新“小巨人”称号，标志着其在关键行业研发中的重要地位。作为国内领先的开源社区，开源中国致力于构建可信的研发底座，推动国产工业软件生态的发展。该平台在开源教育、数字化赋能等领域不断探索，助力科技进步。",
-            "source": "中国一手 · Gitee 官方博客",
-            "url": "https://blog.gitee.com/#update-d4f42180dde6",
-            "score": 65,
+            "title": "Suno移动应用新增Voices功能，轻松录制人声",
+            "summary": "Suno移动应用在iOS和Android平台正式推出Voices功能，用户可直接在手机上录制人声并应用于音乐创作。只需点击创作界面的\"+ Voice\"按钮，录制至少一分钟的声音，Pro和Premier套餐用户可无限使用，免费用户则可体验有限版本。快来试试吧！",
+            "source": "X：Suno (@suno)",
+            "url": "https://x.com/suno/status/2085731234970227145",
+            "score": 59,
             "sourceCount": 1,
-            "date": "2026-08-05",
-            "publishedAt": "",
-            "reason": "开源中国的成就展示了开源技术在关键行业的应用潜力，值得关注其未来发展。"
-          }
-        ]
-      },
-      {
-        "category": "ai-image-video",
-        "label": "图像视频",
-        "items": [
-          {
-            "title": "Oh Deer, How Should I Handle This? Seasonal Priors for Selective Wildlife Annotation and Classification",
-            "summary": "arXiv:2608.02762v1 Announce Type: new Abstract: Fine-grained wildlife classification in aerial imagery is limited not only by model performa",
-            "source": "RSS · arXiv cs.CV",
-            "url": "https://arxiv.org/abs/2608.02762",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-05",
-            "publishedAt": "",
-            "reason": ""
-          }
-        ]
-      },
-      {
-        "category": "ai-agents",
-        "label": "Agent / MCP",
-        "items": [
-          {
-            "title": "Quo Vadis, World Modeling?",
-            "summary": "arXiv:2608.02713v1 Announce Type: new Abstract: Continually improving agents require dynamic interaction feedback beyond static supervision,",
-            "source": "RSS · arXiv cs.CV",
-            "url": "https://arxiv.org/abs/2608.02713",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-05",
-            "publishedAt": "",
-            "reason": ""
+            "date": "2026-08-07",
+            "publishedAt": "2026-08-07T22:14",
+            "reason": "Suno的Voices功能为音乐创作者提供了便捷的录音工具，极大地提升了移动端音乐创作的灵活性和效率。"
           }
         ]
       },
@@ -15405,83 +15404,6 @@ window.AI_GENERATED_DATA = {
         "category": "ai-models",
         "label": "模型发布",
         "items": [
-          {
-            "title": "MiniMax M3：首个兼备编码与多模态能力的国产旗舰模型",
-            "summary": "MiniMax M3 是国内首个同时具备编码、智能体和原生多模态能力的模型，支持高达 1M tokens 的上下文窗口，性能在国际评测中表现优异，尤其在自主任务拆解和工具调用方面。M3 的创新架构使其在长程任务和多模态理解上具备显著优势，标志着国产 AI 模型的重大进步。",
-            "source": "中国一手 · MiniMax 新闻",
-            "url": "https://www.minimaxi.com/models/text/m3",
-            "score": 86,
-            "sourceCount": 1,
-            "date": "2026-08-04",
-            "publishedAt": "",
-            "reason": "MiniMax M3 的发布不仅展示了国产 AI 模型的技术实力，也为开发者提供了强大的工具，值得关注。"
-          },
-          {
-            "title": "MiniMax M2.7 模型发布，性能显著提升",
-            "summary": "MiniMax 最新发布的 M2.7 模型在多项基准测试中表现优异，得分接近行业领先水平。该模型在复杂任务处理和多轮编辑能力上有显著提升，尤其在专业办公领域的应用表现突出。",
-            "source": "中国一手 · MiniMax 新闻",
-            "url": "https://www.minimaxi.com/models/text/m27",
-            "score": 84,
-            "sourceCount": 1,
-            "date": "2026-08-04",
-            "publishedAt": "",
-            "reason": "MiniMax M2.7 模型的发布不仅提升了生产力工具的性能，还为用户提供了更高效的工作方式，值得关注。"
-          },
-          {
-            "title": "Hunyuan3D-Buffalo 1.0：统一的多模态模型，支持可扩展的3D生成与编辑",
-            "summary": "我最近看到Hunyuan3D-Buffalo 1.0的发布，这是一种新型的多模态模型，旨在解决3D生成、理解和编辑中的数据稀缺问题。该模型整合了文本到3D的生成能力，能够在缺乏大规模几何一致性编辑数据的情况下，提供更为统一的3D建模框架。这一进展可能会对3D内容创作和编辑带来新的",
-            "source": "RSS · arXiv cs.CV",
-            "url": "https://arxiv.org/abs/2608.02711",
-            "score": 82,
-            "sourceCount": 1,
-            "date": "2026-08-05",
-            "publishedAt": "",
-            "reason": "Hunyuan3D-Buffalo 1.0的发布为3D生成和编辑提供了新的可能性，值得关注。"
-          },
-          {
-            "title": "DeepSeek-V4-Flash 正式发布，API 进入公测阶段",
-            "summary": "2026年7月31日，DeepSeek 发布了 DeepSeek-V4-Flash API，现已进入公测阶段。该版本在代理能力上显著增强，基准测试结果远超 V4-Pro-Preview，尤其在 Terminal Bench 和 Cybergym 等测试中表现突出。",
-            "source": "中国一手 · DeepSeek API 更新",
-            "url": "https://api-docs.deepseek.com/updates#update-59175160585d",
-            "score": 82,
-            "sourceCount": 2,
-            "date": "2026-08-04",
-            "publishedAt": "",
-            "reason": "DeepSeek-V4-Flash 的发布标志着国产 AI 模型在性能和应用范围上的重大进步，值得开发者和企业关注。"
-          },
-          {
-            "title": "APEC论坛推动亚太地区人工智能发展声明",
-            "summary": "2026年7月24日，APEC人工智能高级别论坛在中国成都召开，旨在促进亚太地区人工智能的负责任发展与应用。各成员经济体重申深化交流与合作，推动人工智能基础设施建设和教育培训，以实现普惠共享的目标。",
-            "source": "中国一手 · 国家网信办 AI 政策",
-            "url": "https://www.cac.gov.cn/2026-07/24/c_1786639246282926.htm",
-            "score": 82,
-            "sourceCount": 1,
-            "date": "2026-08-04",
-            "publishedAt": "",
-            "reason": "这次论坛强调了人工智能的安全与负责任发展，值得关注其对未来政策和市场的深远影响。"
-          },
-          {
-            "title": "MiniMax M2.5 发布，显著提升多语言编程能力",
-            "summary": "MiniMax 在近期发布了 M2.5 模型，专为 Agent Universe 设计，显著增强了多语言编程能力。该模型在处理复杂任务时展现出更高的决策成熟度，且在与主流模型的对比中取得了 59.0% 的平均胜率，表现出色。",
-            "source": "中国一手 · MiniMax 新闻",
-            "url": "https://www.minimaxi.com/models/text",
-            "score": 82,
-            "sourceCount": 1,
-            "date": "2026-08-04",
-            "publishedAt": "",
-            "reason": "MiniMax M2.5 的发布不仅在技术上实现了突破，更在成本控制与应用场景上提供了新的解决方案，值得关注。"
-          },
-          {
-            "title": "GLM-5 发布，国产大模型再度升级",
-            "summary": "国产大模型厂商智谱开放平台推出了最新版本 GLM-5，标志着其在自然语言处理领域的进一步突破。GLM-5 在性能和功能上较前一代产品有显著提升，预计将为多种应用场景提供更强大的支持。",
-            "source": "中国一手 · 智谱开放平台新品",
-            "url": "https://docs.bigmodel.cn/cn/guide/models/text/glm-5",
-            "score": 78,
-            "sourceCount": 1,
-            "date": "2026-08-05",
-            "publishedAt": "",
-            "reason": "GLM-5 的发布不仅提升了国产大模型的竞争力，还为各行业的应用提供了新的可能性，值得关注。"
-          },
           {
             "title": "Routing LLM Inference to the Cleanest Grid in Real Time",
             "summary": "Large-language-model inference is a fast-growing electricity load whose marginal carbon intensity varies by more than an order of magnitude ",
@@ -15542,17 +15464,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-08-06",
             "publishedAt": "2026-08-06T08:00",
             "reason": "DeepAmbigQA 提供了一个全新的视角来评估 LLM 的能力，尤其是在复杂问题上的表现，值得关注。"
-          },
-          {
-            "title": "大型语言模型能否恢复编译器遗漏的语义优化机会？",
-            "summary": "2026年8月4日，Hailong Jiang等人提出了一个问题：大型语言模型（LLMs）是否能够从异构C/C++上下文中恢复编译器未能捕捉的语义，并将其实现为经过验证的、保持合同的工件。研究引入了SeGaBench基准，包含100个合成案例和20个源支持案例，展示了LLMs在优",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.03983v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-05",
-            "publishedAt": "",
-            "reason": "这项研究展示了大型语言模型在编译器优化中的潜力，提供了新的视角和工具，值得关注。"
           }
         ]
       },
@@ -15560,17 +15471,6 @@ window.AI_GENERATED_DATA = {
         "category": "ai-research",
         "label": "论文研究",
         "items": [
-          {
-            "title": "PixelUp：零样本语义特征上采样技术",
-            "summary": "PixelUp 是一种新型的零样本语义特征上采样方法，旨在提升计算机视觉任务中的细粒度预测能力。尽管其在语义分割和深度估计等密集预测任务中表现出色，但仍面临特定编码器依赖和训练复杂性等挑战。",
-            "source": "RSS · arXiv cs.CV",
-            "url": "https://arxiv.org/abs/2608.02792",
-            "score": 80,
-            "sourceCount": 1,
-            "date": "2026-08-05",
-            "publishedAt": "",
-            "reason": "PixelUp 提供了一种创新的特征上采样方法，具有灵活性和高效性，值得关注其在计算机视觉领域的应用潜力。"
-          },
           {
             "title": "From Score Matrices to Football-Aware Match-State Simulation: An Auditable LLM Harness for Exact-Score Reranking",
             "summary": "Football score forecasting combines a strong statistical core with a difficult contextual edge. Dynamic Poisson-family models estimate team ",
@@ -15581,61 +15481,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-08-06",
             "publishedAt": "",
             "reason": ""
-          },
-          {
-            "title": "Confident but Unreliable: A Behavioral Safety Audit of Vision-Language Models on Brain MRI",
-            "summary": "arXiv:2608.02790v1 Announce Type: new Abstract: Vision-language models (VLMs), including medical specialists, are increasingly proposed for ",
-            "source": "RSS · arXiv cs.CV",
-            "url": "https://arxiv.org/abs/2608.02790",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-05",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "A Unified 2D Framework for DeepLesion Detection, Segmentation and Short Report Generation",
-            "summary": "arXiv:2608.02805v1 Announce Type: new Abstract: In previous work, we integrated large language models (LLMs) into the lesion segmentation mo",
-            "source": "RSS · arXiv cs.CV",
-            "url": "https://arxiv.org/abs/2608.02805",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-05",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Better, Stronger, Faster, and Broader: Structured All-Mask Prediction for MLLM-Based Segmentation",
-            "summary": "arXiv:2608.02791v1 Announce Type: new Abstract: MLLM-based segmentation faces a core segmentation trilemma: high segmentation performance, p",
-            "source": "RSS · arXiv cs.CV",
-            "url": "https://arxiv.org/abs/2608.02791",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-05",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "SAGE: Semantic Explainability of Attention-Based Survival Models in Computational Pathology",
-            "summary": "arXiv:2608.02803v1 Announce Type: new Abstract: Attention-based multiple instance learning (ABMIL) is the predominant approach for slide-lev",
-            "source": "RSS · arXiv cs.CV",
-            "url": "https://arxiv.org/abs/2608.02803",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-05",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "个性化大语言模型的虚构推断现象",
-            "summary": "这次发布的核心点是，最新研究揭示了个性化大语言模型（LLM）在用户画像推断中存在严重的过度推断（OI）现象。研究显示，在 MirageBench 基准测试中，12 个模型的推断中有 35%-49% 被判定为虚构，平均为 41.6%。更令人担忧的是，模型自我评估的 OI 与外部评测",
-            "source": "HuggingFace Daily Papers（社区热门论文）",
-            "url": "https://arxiv.org/abs/2608.04570",
-            "score": 59,
-            "sourceCount": 1,
-            "date": "2026-08-05",
-            "publishedAt": "2026-08-05T08:00",
-            "reason": "这项研究揭示了个性化大语言模型在用户画像推断中的潜在问题，值得关注和深入探讨。"
           }
         ]
       }
