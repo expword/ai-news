@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-08-07",
-  "generatedAt": "2026-08-07T15:03:02.421148Z",
+  "generatedAt": "2026-08-07T15:04:12.581538Z",
   "news": [
     {
       "title": "GPT-5.6 Sol与Luna提升ChatGPT推理能力",
@@ -132,7 +132,7 @@ window.AI_GENERATED_DATA = {
     },
     {
       "title": "Suno移动应用新增Voices功能，轻松录制人声",
-      "summary": "Suno移动应用在iOS和Android平台正式推出Voices功能，用户可直接在手机上录制人声并应用于音乐创作。只需点击创作界面的\"+ Voice\"按钮，录制至少一分钟的声音，Pro和Premier套餐用户可无限使用，免费用户则可体验有限版本。快来试试吧！",
+      "summary": "Suno移动应用在iOS和Android平台正式推出Voices功能，用户可以直接在手机上录制人声并应用于音乐创作。只需点击\"+ Voice\"按钮，录制至少一分钟的声音，Pro和Premier套餐用户可无限制使用，免费用户则可体验有限版本。快来试试吧！",
       "category": "ai-tools",
       "tags": [
         "音乐创作",
@@ -142,14 +142,14 @@ window.AI_GENERATED_DATA = {
         "Voices功能"
       ],
       "keyPoints": [
-        "Voices功能已在Suno移动应用上线，支持iOS和Android平台。",
-        "用户可通过点击\"+ Voice\"按钮录制至少一分钟的人声。",
-        "Pro和Premier套餐用户享受无限制的录音使用，免费用户可体验有限版本。",
-        "该功能旨在提升用户的音乐创作体验，简化录音流程。",
-        "用户可在应用内直接反馈使用体验，促进功能优化。"
+        "Voices功能现已上线，支持iOS和Android用户使用，方便进行音乐创作。",
+        "用户只需在创作界面点击\"+ Voice\"按钮，录制至少一分钟的人声。",
+        "Pro和Premier套餐用户可享受无限制的录制和使用，而免费用户则有使用限制。",
+        "该功能旨在提升用户的音乐创作体验，让更多人参与到音乐制作中。",
+        "用户可以在应用内分享使用体验，促进社区互动。"
       ],
-      "background": "Suno是一款专注于音乐创作的移动应用，Voices功能的推出标志着其在用户体验上的进一步提升。通过简化录音流程，Suno希望吸引更多音乐爱好者和创作者使用其平台。与其他音乐创作工具相比，Suno的Voices功能提供了更为便捷的录音方式，适合不同层次的用户需求。",
-      "impact": "Voices功能的上线将吸引更多音乐创作者，尤其是移动端用户，提升他们的创作效率。对于Pro和Premier用户来说，无限制的录音使用将鼓励他们进行更多实验和创作，可能会推动新音乐风格的出现。同时，用户反馈机制也将帮助Suno不断优化功能，增强用户粘性。",
+      "background": "Suno是一款专注于音乐创作的移动应用，旨在为用户提供便捷的音乐制作工具。Voices功能的推出，标志着Suno在增强用户创作能力方面迈出了重要一步。与其他音乐制作软件相比，Suno的Voices功能更强调移动性和易用性，适合各种水平的音乐创作者。此功能的上线也反映了市场对便捷音乐创作工具的需求不断增长，尤其是在移动设备普及的背景下。",
+      "impact": "Voices功能的推出将吸引更多音乐爱好者和创作者使用Suno应用，尤其是年轻用户群体。通过简化录音过程，用户可以更专注于创作，提高音乐作品的质量。此外，这一功能可能会改变用户对音乐制作工具的选择，推动更多人尝试音乐创作，进而形成更活跃的音乐创作社区。",
       "audience": [
         "音乐创作者",
         "移动应用开发者",
@@ -157,21 +157,21 @@ window.AI_GENERATED_DATA = {
       ],
       "useCases": [
         "打开Suno应用，点击\"+ Voice\"按钮，录制至少一分钟的人声，快速生成音乐素材。",
-        "使用Pro或Premier套餐，进行多次录音，探索不同的声音效果，丰富音乐作品。",
-        "在评论区分享录音体验，获取其他用户的反馈，促进创作灵感的交流。"
+        "在Pro或Premier套餐下，进行多次录音，尝试不同风格的人声，丰富音乐作品。",
+        "利用Voices功能与朋友合作，分享录音，进行音乐创作的互动体验。"
       ],
       "risks": [
-        "免费套餐的功能限制可能导致用户体验不佳，影响用户留存率。",
-        "录音质量受设备硬件影响，低质量录音可能影响最终音乐效果。",
-        "用户反馈的处理可能存在延迟，影响用户对功能的信任度。"
+        "免费套餐用户的录音时长有限，可能无法满足复杂音乐作品的需求。",
+        "在不同设备上录音效果可能存在差异，需注意设备兼容性。",
+        "部分用户反馈语音克隆功能存在问题，可能影响使用体验。"
       ],
-      "reason": "Suno的Voices功能为音乐创作者提供了便捷的录音工具，极大地提升了移动端音乐创作的灵活性和效率。",
+      "reason": "Suno的Voices功能为音乐创作者提供了便捷的录音工具，极大地提升了移动音乐创作的灵活性和便利性。",
       "scores": {
         "importance": 70,
-        "novelty": 60,
+        "novelty": 80,
         "firsthand": 90,
         "impact": 75,
-        "credibility": 80
+        "credibility": 85
       },
       "url": "https://x.com/suno/status/2085731234970227145",
       "source": "X：Suno (@suno)",
@@ -180,7 +180,7 @@ window.AI_GENERATED_DATA = {
       "collectedAt": "2026-08-07T22:59",
       "dateStatus": "verified",
       "tier": "T1.5",
-      "score": 59,
+      "score": 62,
       "aiSelected": true,
       "_style": "tutorial",
       "moduleTargets": [
@@ -6348,37 +6348,72 @@ window.AI_GENERATED_DATA = {
   ],
   "githubWeekly": [
     {
-      "name": "zai-org/AISE-Bench",
+      "name": "QwenLM/FlashQLA",
       "lang": "Python",
-      "category": "RAG 引擎",
-      "description": "AISE-Bench 是一个为学术知识图谱信息检索提供的全周期基准工具，适合研究人员和开发者使用，突出其全面性。",
-      "details": "AISE-Bench 解决了学术知识图谱中信息检索的评估问题，提供了一个系统化的基准框架。与其他基准（如 TREC 和 CIKM）相比，AISE-Bench 更加专注于学术领域的特定需求，允许用户在多种任务上进行评估。该项目使用 Python 开发，采用 MIT 许可证，适合希望在学术研究中进行信息检索评估的研究人员和开发者，不推荐对学术知识图谱不感兴趣的用户。",
+      "category": "推理引擎",
+      "description": "这是一个高性能的线性注意力内核库，适合需要快速推理的 AI 应用。",
+      "details": "FlashQLA 解决了传统注意力机制在大规模模型推理时的性能瓶颈问题。与其他库如 Hugging Face 的 Transformers 相比，FlashQLA 在处理长序列时表现更优，能够显著降低内存消耗和计算时间。该库基于 TileLang 开发，使用 Python 编写，采用 MIT 许可证，适合需要高效推理的开发者和研究人员，不推荐初学者使用。",
       "features": [
-        "提供多种信息检索任务的基准数据集",
-        "支持多种评估指标的计算",
-        "允许用户自定义评估任务",
-        "集成了最新的学术知识图谱",
-        "易于与现有的检索系统集成"
+        "支持线性注意力机制",
+        "优化内存使用",
+        "兼容多种模型架构",
+        "提供简单易用的 API",
+        "支持自定义内核扩展"
       ],
       "useCases": [
-        "评估学术搜索引擎的检索效果",
-        "比较不同信息检索算法的性能",
-        "开发针对学术领域的智能问答系统"
+        "在大规模文本生成任务中实现快速推理",
+        "替换传统注意力机制以提升模型性能",
+        "在资源受限环境中运行大型语言模型"
       ],
       "quickStart": [
-        "git clone https://github.com/zai-org/AISE-Bench.git",
-        "cd AISE-Bench",
+        "git clone https://github.com/QwenLM/FlashQLA.git",
+        "cd FlashQLA",
         "pip install -r requirements.txt",
-        "python run_benchmark.py"
+        "python example.py"
       ],
-      "why": "AISE-Bench 通过专注于学术知识图谱的信息检索，填补了现有基准的空白。该项目在 GitHub 上获得了 2 stars，表明其在社区中的初步认可。其使用的技术栈和灵活的评估框架使其在同类项目中具有独特优势。",
+      "why": "FlashQLA 通过线性注意力机制显著提升推理速度，当前已获得 627 stars，表明其在开发者中的认可度。该项目活跃度高，适合需要高效推理的应用场景，尤其是在处理长序列时表现突出。",
       "tags": [
-        "学术",
-        "信息检索",
+        "线性注意力",
+        "推理优化",
+        "高性能计算"
+      ],
+      "url": "https://github.com/QwenLM/FlashQLA",
+      "stars": "627 stars",
+      "source": "GitHub · 通义千问 Qwen",
+      "date": "2026-08-07"
+    },
+    {
+      "name": "zai-org/SurveyReview",
+      "lang": "Python",
+      "category": "AI 编辑器",
+      "description": "SurveyReview 是一个为调查评估者提供的基准工具，专注于评审对齐，适合研究人员和开发者使用。",
+      "details": "SurveyReview 解决了调查评估者在评审过程中的一致性和质量问题。与其他评审工具相比，如 Amazon Mechanical Turk，SurveyReview 提供了更高的评审对齐度和准确性。该项目使用 Python 开发，采用 MIT 许可证，适合研究人员和开发者进行基准测试和评估。对于需要高质量评审的项目，推荐尝试；而对于简单的评审需求，可能不太适合。",
+      "features": [
+        "提供评审对齐基准数据集",
+        "支持多种评审标准",
+        "易于集成到现有工作流",
+        "提供详细的评审报告",
+        "支持自定义评审任务"
+      ],
+      "useCases": [
+        "使用 SurveyReview 进行调查评估的质量控制",
+        "分析评审者的一致性和偏差",
+        "在研究中比较不同评审方法的效果"
+      ],
+      "quickStart": [
+        "git clone https://github.com/zai-org/SurveyReview.git",
+        "cd SurveyReview",
+        "pip install -r requirements.txt",
+        "python main.py"
+      ],
+      "why": "SurveyReview 提供了专门针对调查评估者的评审对齐基准，具有较高的准确性和一致性。该项目在 KDD 2026 会议上发布，具有一定的学术背景和社区支持。相比于其他评审工具，SurveyReview 更加专注于评审质量的提升，适合需要高标准评审的用户。",
+      "tags": [
+        "调查评估",
+        "评审工具",
         "基准测试"
       ],
-      "url": "https://github.com/zai-org/AISE-Bench",
-      "stars": "2 stars",
+      "stars": "1 stars",
+      "url": "https://github.com/zai-org/SurveyReview",
       "source": "GitHub · 智谱 Z.ai",
       "date": "2026-08-07"
     },
@@ -8459,52 +8494,16 @@ window.AI_GENERATED_DATA = {
       "date": "2026-08-04"
     },
     {
-      "name": "MoonshotAI/Kimi-Vendor-Verifier",
+      "name": "zai-org/AISE-Bench",
       "lang": "Python",
-      "category": "Agent 框架",
-      "description": "Kimi-Vendor-Verifier 是一个用于验证供应商的工具，适合需要确保供应商合规性的企业使用，支持多种验证方式。",
-      "details": "Kimi-Vendor-Verifier 解决了企业在供应商管理中面临的合规性问题，提供了一种高效的验证机制。与其他供应商验证工具相比，如 VendorCheck 和 ComplianceMate，Kimi-Vendor-Verifier 更加灵活，支持多种验证标准和自定义规则。该项目使用 Python 开发，采用 MIT 许可证，适合开发者和企业使用，不推荐对供应商合规性要求不高的用户。",
-      "features": [
-        "支持多种供应商验证标准",
-        "提供自定义验证规则",
-        "集成简单，易于部署",
-        "支持 API 接口调用",
-        "提供详细的验证报告"
-      ],
-      "useCases": [
-        "验证新供应商的合规性",
-        "定期审核现有供应商的合规状态",
-        "生成供应商合规性报告以供审计",
-        "集成到企业的供应链管理系统中"
-      ],
-      "quickStart": [
-        "git clone https://github.com/MoonshotAI/Kimi-Vendor-Verifier.git",
-        "cd Kimi-Vendor-Verifier",
-        "pip install -r requirements.txt",
-        "python main.py"
-      ],
-      "why": "Kimi-Vendor-Verifier 以 97 stars 的社区支持，提供灵活的验证选项，适合多种行业需求。其自定义规则功能使其在市场上脱颖而出，适合需要高标准合规性的企业使用。",
-      "tags": [
-        "供应商管理",
-        "合规性验证",
-        "Python 工具"
-      ],
-      "url": "https://github.com/MoonshotAI/Kimi-Vendor-Verifier",
-      "stars": "97 stars",
-      "source": "GitHub · 月之暗面 Kimi",
-      "date": "2026-08-04"
-    },
-    {
-      "name": "zai-org/SurveyReview",
-      "lang": "Python",
-      "description": "Official Code for SurveyReview: A Reviewer-Aligned Benchmark for Survey Evaluators (KDD 2026)",
-      "stars": "1 stars",
+      "description": "Official Code for AISE-Bench: A Full-Cycle Curated Benchmark for Information Seeking on Academic Knowledge Graphs (KDD 2026)",
+      "stars": "2 stars",
       "why": "国产大模型厂商 智谱 Z.ai 的最新开源动态/模型发布，属一手信源。",
-      "url": "https://github.com/zai-org/SurveyReview",
+      "url": "https://github.com/zai-org/AISE-Bench",
       "source": "GitHub · 智谱 Z.ai",
       "tier": "T1",
       "category": "Coding Agent",
-      "details": "Official Code for SurveyReview: A Reviewer-Aligned Benchmark for Survey Evaluators (KDD 2026)",
+      "details": "Official Code for AISE-Bench: A Full-Cycle Curated Benchmark for Information Seeking on Academic Knowledge Graphs (KDD 2026)",
       "features": [],
       "useCases": [],
       "quickStart": []
@@ -15369,7 +15368,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-08-07",
-    "generatedAt": "2026-08-07T15:03:02.395148Z",
+    "generatedAt": "2026-08-07T15:04:12.556279Z",
     "total": 8,
     "sections": [
       {
@@ -15389,14 +15388,14 @@ window.AI_GENERATED_DATA = {
           },
           {
             "title": "Suno移动应用新增Voices功能，轻松录制人声",
-            "summary": "Suno移动应用在iOS和Android平台正式推出Voices功能，用户可直接在手机上录制人声并应用于音乐创作。只需点击创作界面的\"+ Voice\"按钮，录制至少一分钟的声音，Pro和Premier套餐用户可无限使用，免费用户则可体验有限版本。快来试试吧！",
+            "summary": "Suno移动应用在iOS和Android平台正式推出Voices功能，用户可以直接在手机上录制人声并应用于音乐创作。只需点击\"+ Voice\"按钮，录制至少一分钟的声音，Pro和Premier套餐用户可无限制使用，免费用户则可体验有限版本。快来试试吧！",
             "source": "X：Suno (@suno)",
             "url": "https://x.com/suno/status/2085731234970227145",
-            "score": 59,
+            "score": 62,
             "sourceCount": 1,
             "date": "2026-08-07",
             "publishedAt": "2026-08-07T22:14",
-            "reason": "Suno的Voices功能为音乐创作者提供了便捷的录音工具，极大地提升了移动端音乐创作的灵活性和效率。"
+            "reason": "Suno的Voices功能为音乐创作者提供了便捷的录音工具，极大地提升了移动音乐创作的灵活性和便利性。"
           }
         ]
       },
