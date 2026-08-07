@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-08-07",
-  "generatedAt": "2026-08-07T07:25:08.194357Z",
+  "generatedAt": "2026-08-07T07:48:20.329634Z",
   "news": [
     {
       "title": "GPT-5.6 Sol与Luna提升ChatGPT推理能力",
@@ -61,6 +61,70 @@ window.AI_GENERATED_DATA = {
       "score": 66,
       "aiSelected": true,
       "_style": "tutorial",
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "OpenAI 报告显示 ChatGPT 用户群体变化：35 岁以上用户增长显著",
+      "summary": "OpenAI 最新报告揭示，全球超过 10 亿用户正在使用 ChatGPT，使用方式逐渐从单纯的问答工具转向更为复杂的任务执行工具。尤其是在工作场景中，用户利用 ChatGPT 完成任务的频率显著提高，35 岁及以上用户的活跃度也有明显上升，尤其在法国和捷克等国家增长超过 10%。",
+      "category": "ai-tools",
+      "tags": [
+        "ChatGPT",
+        "用户画像",
+        "OpenAI",
+        "人工智能",
+        "多媒体"
+      ],
+      "keyPoints": [
+        "全球用户超过 10 亿，使用方式从问答转向任务执行，工作场景中使用频率是非工作场景的两倍。",
+        "自 2026 年 4 月发布 ChatGPT Images 2.0 后，多媒体相关消息占比上升至 7.8%。",
+        "35 岁及以上用户的消息发送占比较 12 个月前增加 5 个百分点，法国和捷克的增幅超过 10%。",
+        "在近 75% 的欧洲国家中，35 岁及以上用户的消息占比增幅高于平均水平。",
+        "非工作场景中，用户更倾向于探索性提问，信息搜索仍是主要使用方式。"
+      ],
+      "background": "OpenAI 最近发布的报告显示，ChatGPT 的用户群体正在发生显著变化。过去，ChatGPT 主要被视为问答工具，但随着用户需求的变化，尤其是在工作场景中，越来越多的人开始将其作为任务执行的工具。报告指出，用户在工作中利用 ChatGPT 进行写作、编程、编辑和分析等任务的频率大幅提升。与此同时，35 岁及以上的用户群体也在逐渐壮大，特别是在一些国家，用户的活跃度显著增加。这一变化不仅反映了 ChatGPT 功能的不断完善，也表明了用户对多媒体和任务执行能力的需求日益增强。",
+      "impact": "这一趋势将影响多个领域的工作方式，尤其是内容创作、编程和数据分析等行业。对于需要高效完成任务的职场人士来说，ChatGPT 将成为一个不可或缺的工具。35 岁及以上的用户群体的增长也意味着，企业在培训和工具使用上需要更加关注这一年龄段的需求。此外，随着多媒体功能的提升，内容创作者和市场营销人员将能够利用 ChatGPT 进行更丰富的创作和推广，进一步推动业务发展。",
+      "audience": [
+        "内容创作者",
+        "程序开发者",
+        "数据分析师",
+        "市场营销人员",
+        "职场新人"
+      ],
+      "useCases": [
+        "利用 ChatGPT 进行文案撰写，提升内容创作效率。",
+        "在编程过程中使用 ChatGPT 进行代码生成和调试，节省时间。",
+        "通过 ChatGPT 进行数据分析，快速获取洞察和建议。",
+        "使用 ChatGPT 进行多媒体内容创作，丰富市场推广材料。",
+        "在职场中利用 ChatGPT 完成日常任务，提高工作效率。"
+      ],
+      "risks": [
+        "API 使用费用可能较高，尤其是频繁调用时需考虑成本控制。",
+        "在特定行业或领域，ChatGPT 的输出可能缺乏专业性，需谨慎使用。",
+        "多媒体功能仍在发展中，可能存在兼容性问题，影响用户体验。",
+        "对于非英语用户，语言支持可能有限，影响使用效果。",
+        "在商业环境中使用时，需确保遵循相关的商用授权政策。"
+      ],
+      "reason": "这份报告揭示了 ChatGPT 用户群体的变化及其在工作场景中的应用潜力，值得关注。",
+      "scores": {
+        "importance": 85,
+        "novelty": 70,
+        "firsthand": 90,
+        "impact": 80,
+        "credibility": 85
+      },
+      "url": "https://www.ithome.com/0/986/957.htm",
+      "source": "IT之家（RSS）",
+      "date": "2026-08-07",
+      "publishedAt": "2026-08-07T14:28",
+      "collectedAt": "2026-08-07T15:48",
+      "dateStatus": "verified",
+      "tier": "T1.5",
+      "score": 65,
+      "aiSelected": true,
+      "_style": "reviewer",
       "moduleTargets": [
         "news"
       ],
@@ -6226,6 +6290,185 @@ window.AI_GENERATED_DATA = {
   ],
   "githubWeekly": [
     {
+      "name": "OpenBMB/MiniCPM-V-Apps",
+      "lang": "Swift",
+      "category": "LLM 应用平台",
+      "description": "MiniCPM-V 应用是一个完全离线的多模态聊天工具，适用于 iOS、Android 和 HarmonyOS 用户，支持多种聊天方式。",
+      "details": "MiniCPM-V 应用旨在解决用户在没有网络连接时的聊天需求，提供离线多模态聊天体验。与其他聊天应用（如 WhatsApp 和 Telegram）相比，MiniCPM-V 不依赖于互联网，确保用户在任何环境下都能进行沟通。该项目使用 Swift 开发，适配多个平台，开源许可证为 MIT。推荐给需要离线聊天功能的用户，不推荐给依赖实时在线服务的用户。",
+      "features": [
+        "支持多种聊天模式，包括文本和语音",
+        "完全离线工作，无需网络连接",
+        "跨平台支持 iOS、Android 和 HarmonyOS",
+        "简洁易用的用户界面",
+        "快速消息发送和接收"
+      ],
+      "useCases": [
+        "在无网络环境下进行团队沟通",
+        "替代传统聊天应用进行离线交流",
+        "在偏远地区保持联系",
+        "进行多模态信息分享"
+      ],
+      "quickStart": [
+        "从 GitHub 下载项目代码",
+        "在 Xcode 中打开项目",
+        "选择目标设备进行编译",
+        "运行应用进行测试"
+      ],
+      "why": "MiniCPM-V 应用以其完全离线的特性在同类产品中脱颖而出，适合在网络不稳定或无网络的环境中使用。该项目目前拥有 363 stars，显示出社区的认可度和活跃度。其使用的 Swift 语言确保了高效的性能和良好的用户体验。",
+      "tags": [
+        "离线聊天",
+        "多模态",
+        "跨平台"
+      ],
+      "stars": "363 stars",
+      "url": "https://github.com/OpenBMB/MiniCPM-V-Apps",
+      "source": "GitHub · 面壁智能 MiniCPM",
+      "date": "2026-08-07"
+    },
+    {
+      "name": "deepset-ai/haystack",
+      "lang": "Python",
+      "category": "Agent 框架",
+      "description": "这是一个开源的 AI 编排框架，适用于构建上下文驱动的生产级 LLM 应用，支持模块化管道设计。",
+      "details": "Haystack 解决了构建和部署 LLM 应用的复杂性，允许开发者设计灵活的管道和代理工作流。与其他同类产品（如 LangChain 和 Rasa）相比，Haystack 提供了更高的模块化和可控性，支持检索、路由、记忆和生成的显式控制。该项目使用 Python 开发，遵循 Apache 2.0 许可证，适合希望快速构建和迭代 AI 应用的开发者，不推荐对 AI 编排没有需求的用户。",
+      "features": [
+        "支持模块化管道设计",
+        "显式控制检索和生成",
+        "兼容多种 LLM 模型",
+        "支持多模态应用",
+        "提供语义搜索能力"
+      ],
+      "useCases": [
+        "构建自定义的问答系统",
+        "实现多模态信息检索",
+        "设计复杂的对话代理",
+        "快速原型开发 LLM 应用"
+      ],
+      "quickStart": [
+        "pip install farm-haystack",
+        "创建管道配置文件",
+        "运行 Haystack 服务器",
+        "使用 API 进行请求"
+      ],
+      "why": "Haystack 拥有超过 26131 个星标，社区活跃，提供丰富的文档和示例，适合快速上手。其模块化设计使得开发者能够灵活应对不同的应用场景，尤其在 RAG 和语义搜索领域表现突出。",
+      "tags": [
+        "AI 编排",
+        "LLM 应用",
+        "开源框架"
+      ],
+      "url": "https://github.com/deepset-ai/haystack",
+      "stars": "26131 stars",
+      "source": "GitHub Search · 2026-08-07",
+      "date": "2026-08-07"
+    },
+    {
+      "name": "asgeirtj/system_prompts_leaks",
+      "lang": "JavaScript",
+      "category": "AI 编辑器",
+      "description": "这是一个提取多个 AI 系统提示的工具，适合开发者和研究人员使用，定期更新。",
+      "details": "该项目从多个知名 AI 模型中提取系统提示，包括 Anthropic 的 Claude 系列、OpenAI 的 ChatGPT 和 Codex、Google 的 Gemini 系列等。与其他同类工具相比，它提供了更广泛的系统提示库，帮助用户更好地理解和利用这些模型。项目使用 JavaScript 开发，采用开源许可证，适合希望深入研究 AI 系统提示的开发者和研究人员，不推荐对 AI 提示不感兴趣的用户。",
+      "features": [
+        "提取多种 AI 模型的系统提示",
+        "定期更新，保持最新",
+        "支持多种语言的系统提示",
+        "易于集成到现有项目中",
+        "开源许可证，便于修改和分发"
+      ],
+      "useCases": [
+        "提取 Claude Fable 5 的系统提示进行分析",
+        "使用 OpenAI 的提示优化 ChatGPT 应用",
+        "研究 Google Gemini 系列的提示结构"
+      ],
+      "quickStart": [
+        "克隆项目：git clone https://github.com/asgeirtj/system_prompts_leaks.git",
+        "安装依赖：npm install",
+        "运行提取脚本：node extract_prompts.js",
+        "查看输出结果：cat output.txt"
+      ],
+      "why": "该项目拥有超过 62484 个星标，显示出其在开发者社区中的受欢迎程度。与其他工具相比，它提供了更全面的系统提示，适合需要深入了解 AI 模型的用户。定期更新确保了数据的时效性，增强了其实用性。",
+      "tags": [
+        "AI",
+        "系统提示",
+        "开发工具"
+      ],
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "stars": "62484 stars",
+      "source": "GitHub Search · 2026-08-07",
+      "date": "2026-08-07"
+    },
+    {
+      "name": "langchain-ai/langgraph",
+      "lang": "Python",
+      "category": "Agent 框架",
+      "description": "这是一个构建弹性智能体的工具，适合开发者和研究人员使用。",
+      "details": "Langgraph 旨在帮助用户构建和管理智能体，解决了传统智能体在复杂任务中的脆弱性问题。与其他智能体框架如 Rasa 和 Botpress 相比，Langgraph 提供了更灵活的架构和更强的可扩展性。该项目使用 Python 开发，采用 MIT 许可证，适合希望构建自定义智能体的开发者。对于不需要高度自定义的用户，可能不太适合。",
+      "features": [
+        "支持多种智能体架构",
+        "集成多种外部 API",
+        "提供可视化工具",
+        "支持自定义任务和行为",
+        "易于扩展和维护"
+      ],
+      "useCases": [
+        "构建复杂的对话系统",
+        "实现自动化客户支持",
+        "开发个性化推荐系统"
+      ],
+      "quickStart": [
+        "git clone https://github.com/langchain-ai/langgraph.git",
+        "cd langgraph",
+        "pip install -r requirements.txt",
+        "python main.py"
+      ],
+      "why": "Langgraph 拥有超过 39085 个 stars，社区活跃，更新频繁。与同类项目相比，它提供了更高的灵活性和可扩展性，适合各种复杂应用场景。其使用的技术栈使得开发者能够快速上手并实现自定义功能。",
+      "tags": [
+        "智能体",
+        "开发工具",
+        "Python"
+      ],
+      "url": "https://github.com/langchain-ai/langgraph",
+      "stars": "39085 stars",
+      "source": "GitHub Search · 2026-08-07",
+      "date": "2026-08-07"
+    },
+    {
+      "name": "vercel/ai",
+      "lang": "TypeScript",
+      "category": "AI 编辑器",
+      "description": "这是一个为 TypeScript 开发者提供的 AI 工具包，支持构建 AI 驱动的应用和代理，具备开源特性。",
+      "details": "vercel/ai 是一个开源库，专为构建 AI 驱动的应用程序和代理而设计。与其他同类产品（如 OpenAI 的 API 和 Hugging Face 的 Transformers）相比，它更专注于 TypeScript 生态，提供了简洁的 API 和良好的文档支持。该项目使用 TypeScript 开发，遵循 MIT 许可证，适合希望在 TypeScript 中集成 AI 功能的开发者。对于不熟悉 TypeScript 的开发者，可能会有一定的学习曲线。",
+      "features": [
+        "提供简洁的 TypeScript API",
+        "支持多种 AI 模型集成",
+        "开源，社区活跃",
+        "易于与 Next.js 集成",
+        "支持自定义代理和应用"
+      ],
+      "useCases": [
+        "构建智能客服系统",
+        "开发个性化推荐引擎",
+        "实现自动化内容生成",
+        "创建交互式聊天机器人"
+      ],
+      "quickStart": [
+        "git clone https://github.com/vercel/ai.git",
+        "cd ai",
+        "npm install",
+        "npm run build",
+        "npm start"
+      ],
+      "why": "vercel/ai 拥有超过 26000 个 stars，显示出其在开发者社区中的受欢迎程度。它由 Next.js 的创作者维护，确保了高质量的代码和持续的更新。与其他 AI 工具相比，它在 TypeScript 生态中提供了更好的兼容性和易用性，适合希望快速构建 AI 应用的开发者。",
+      "tags": [
+        "AI工具",
+        "TypeScript",
+        "开源"
+      ],
+      "url": "https://github.com/vercel/ai",
+      "stars": "26059 stars",
+      "source": "GitHub Search · 2026-08-07",
+      "date": "2026-08-07"
+    },
+    {
       "name": "wshobson/agents",
       "lang": "Python",
       "category": "Agent 框架",
@@ -8232,167 +8475,6 @@ window.AI_GENERATED_DATA = {
       "stars": "224929 stars",
       "source": "GitHub Search · 2026-08-04",
       "date": "2026-08-04"
-    },
-    {
-      "name": "harvard-edge/cs249r_book",
-      "lang": "Python",
-      "category": "AI 编辑器",
-      "description": "这是一本关于机器学习系统的书籍，适合希望深入理解机器学习应用的开发者。",
-      "details": "本书涵盖了机器学习系统的设计与实现，适合研究生和开发者。与其他机器学习书籍相比，它更注重实际应用和系统架构，提供了丰富的案例分析和代码示例。使用 Python 作为主要语言，采用 MIT 许可证，适合希望构建高效机器学习系统的开发者。不推荐完全没有编程基础的读者。",
-      "features": [
-        "提供机器学习系统设计的实用指南",
-        "包含丰富的代码示例和案例分析",
-        "适合研究生和开发者使用",
-        "涵盖多种机器学习算法和技术",
-        "强调系统架构与应用"
-      ],
-      "useCases": [
-        "学习如何设计和实现机器学习系统",
-        "参考案例分析进行项目开发",
-        "使用代码示例加速学习过程"
-      ],
-      "quickStart": [
-        "访问 GitHub 页面获取书籍内容",
-        "下载相关代码示例",
-        "按照书中指导进行实验",
-        "在本地环境中运行示例代码"
-      ],
-      "why": "本书在机器学习领域受到广泛认可，拥有 27707 stars，提供了系统化的学习路径和实用的代码示例，适合希望深入理解机器学习系统的开发者。与其他书籍相比，它更注重实际应用和系统架构，帮助读者快速上手。",
-      "tags": [
-        "机器学习",
-        "系统设计",
-        "Python",
-        "开发者工具"
-      ],
-      "stars": "27707 stars",
-      "url": "https://github.com/harvard-edge/cs249r_book",
-      "source": "GitHub Search · 2026-08-04",
-      "date": "2026-08-04"
-    },
-    {
-      "name": "huggingface/transformers",
-      "lang": "Python",
-      "category": "LLM 应用平台",
-      "description": "🤗 Transformers 是一个为文本、视觉、音频和多模态模型提供的模型定义框架，适用于推理和训练，适合研究人员和开发者使用。",
-      "details": "Transformers 框架解决了多种机器学习模型的定义和使用问题，支持文本、视觉和音频等多种任务。与其他框架（如 TensorFlow 和 PyTorch）相比，Transformers 提供了更为丰富的预训练模型和简化的接口，方便用户快速上手。该项目使用 Python 开发，遵循 Apache 2.0 许可证，推荐给需要处理 NLP、CV 和音频任务的开发者，不推荐给对模型训练没有需求的用户。",
-      "features": [
-        "支持多种预训练模型",
-        "兼容 PyTorch 和 TensorFlow",
-        "提供简化的 API 接口",
-        "支持多种任务的微调",
-        "支持分布式训练"
-      ],
-      "useCases": [
-        "使用预训练模型进行文本分类",
-        "在图像识别任务中应用视觉模型",
-        "进行语音识别和合成",
-        "快速构建多模态应用",
-        "在企业环境中进行模型微调"
-      ],
-      "quickStart": [
-        "pip install transformers",
-        "从 Hugging Face Hub 下载模型",
-        "使用模型进行推理",
-        "微调模型以适应特定任务",
-        "集成到现有应用中"
-      ],
-      "why": "Transformers 拥有超过 163301 个 stars，活跃的社区支持和丰富的文档，使得用户能够快速上手并解决实际问题。与其他框架相比，它在多模态任务上表现尤为突出，适合各种应用场景。",
-      "tags": [
-        "机器学习",
-        "自然语言处理",
-        "深度学习"
-      ],
-      "url": "https://github.com/huggingface/transformers",
-      "stars": "163301 stars",
-      "source": "GitHub Search · 2026-08-04",
-      "date": "2026-08-04"
-    },
-    {
-      "name": "deepseek-ai/DeepEP",
-      "lang": "Cuda",
-      "category": "推理引擎",
-      "description": "DeepEP 是一个高效的专家并行通信库，适合需要高性能计算的应用场景。",
-      "details": "DeepEP 解决了在并行计算中通信效率低下的问题，特别适用于深度学习和高性能计算领域。与其他通信库（如 NCCL 和 MPI）相比，DeepEP 提供了更高的性能和更低的延迟。该库使用 Cuda 语言开发，采用 MIT 许可证，适合需要高效并行计算的研究人员和开发者，不推荐对性能要求不高的用户。",
-      "features": [
-        "支持多 GPU 并行计算",
-        "提供低延迟通信机制",
-        "兼容多种深度学习框架",
-        "支持动态负载均衡",
-        "优化了数据传输效率"
-      ],
-      "useCases": [
-        "在多 GPU 环境下加速深度学习训练",
-        "实现高效的分布式模型推理",
-        "优化大规模数据处理任务",
-        "支持实时数据分析和处理"
-      ],
-      "quickStart": [
-        "从 GitHub 克隆项目：git clone https://github.com/deepseek-ai/DeepEP",
-        "进入项目目录：cd DeepEP",
-        "编译库：make",
-        "运行示例：./example"
-      ],
-      "why": "DeepEP 以其 9936 个 stars 在 GitHub 上获得了广泛关注，社区活跃度高，定期更新。其独特的低延迟通信机制和动态负载均衡功能使其在高性能计算领域表现出色，适合对性能有严格要求的用户。",
-      "tags": [
-        "并行计算",
-        "深度学习",
-        "高性能计算"
-      ],
-      "url": "https://github.com/deepseek-ai/DeepEP",
-      "stars": "9936 stars",
-      "source": "GitHub · DeepSeek",
-      "date": "2026-08-04"
-    },
-    {
-      "name": "MoonshotAI/kimi-cli",
-      "lang": "Python",
-      "category": "Coding Agent",
-      "description": "Kimi Code CLI 是一个为开发者提供的命令行工具，支持快速生成和管理代码，突出其高效性。",
-      "details": "Kimi Code CLI 旨在简化开发者的工作流程，通过命令行界面提供便捷的代码生成和管理功能。与其他同类工具如 GitHub Copilot CLI 相比，Kimi CLI 更加专注于本地开发环境的集成，支持多种编程语言的代码生成。该项目使用 Python 开发，采用 MIT 许可证，适合希望提升开发效率的程序员使用，但不推荐初学者使用，因为需要一定的命令行操作基础。",
-      "features": [
-        "支持多种编程语言的代码生成",
-        "集成本地开发环境",
-        "提供命令行交互式操作",
-        "支持自定义代码模板",
-        "快速生成项目结构"
-      ],
-      "useCases": [
-        "快速生成 Python 项目模板",
-        "在命令行中创建 REST API 代码",
-        "自动化生成测试用例",
-        "管理和更新项目依赖"
-      ],
-      "quickStart": [
-        "git clone https://github.com/MoonshotAI/kimi-cli.git",
-        "cd kimi-cli",
-        "pip install -r requirements.txt",
-        "kimi init my_project",
-        "kimi generate api"
-      ],
-      "why": "Kimi Code CLI 以其简洁的命令行界面和高效的代码生成能力，在开发者中获得了超过 11083 个星标，显示出其受欢迎程度。该项目活跃度高，社区支持良好，适合希望提升开发效率的开发者使用。",
-      "tags": [
-        "命令行工具",
-        "代码生成",
-        "开发效率"
-      ],
-      "url": "https://github.com/MoonshotAI/kimi-cli",
-      "stars": "11083 stars",
-      "source": "GitHub · 月之暗面 Kimi",
-      "date": "2026-08-04"
-    },
-    {
-      "name": "alibaba/open-code-review",
-      "lang": "Go",
-      "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-      "stars": "19438 stars",
-      "why": "近期更新且具备 AI / LLM / Agent 相关主题，适合做项目介绍、教程或同类对比。",
-      "url": "https://github.com/alibaba/open-code-review",
-      "source": "GitHub Search · 2026-08-07",
-      "category": "Coding Agent",
-      "details": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-      "features": [],
-      "useCases": [],
-      "quickStart": []
     }
   ],
   "sources": [
@@ -15254,13 +15336,24 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-08-07",
-    "generatedAt": "2026-08-07T07:25:08.167359Z",
+    "generatedAt": "2026-08-07T07:48:20.300633Z",
     "total": 24,
     "sections": [
       {
         "category": "ai-tools",
         "label": "AI 工具",
         "items": [
+          {
+            "title": "OpenAI 报告显示 ChatGPT 用户群体变化：35 岁以上用户增长显著",
+            "summary": "OpenAI 最新报告揭示，全球超过 10 亿用户正在使用 ChatGPT，使用方式逐渐从单纯的问答工具转向更为复杂的任务执行工具。尤其是在工作场景中，用户利用 ChatGPT 完成任务的频率显著提高，35 岁及以上用户的活跃度也有明显上升，尤其在法国和捷克等国家增长超过 10%",
+            "source": "IT之家（RSS）",
+            "url": "https://www.ithome.com/0/986/957.htm",
+            "score": 65,
+            "sourceCount": 1,
+            "date": "2026-08-07",
+            "publishedAt": "2026-08-07T14:28",
+            "reason": "这份报告揭示了 ChatGPT 用户群体的变化及其在工作场景中的应用潜力，值得关注。"
+          },
           {
             "title": "开源中国被评为专精特新“小巨人”，推动关键行业研发",
             "summary": "开源中国近日荣获专精特新“小巨人”称号，标志着其在关键行业研发中的重要地位。作为国内领先的开源社区，开源中国致力于构建可信的研发底座，推动国产工业软件生态的发展。该平台在开源教育、数字化赋能等领域不断探索，助力科技进步。",
@@ -15271,23 +15364,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-08-05",
             "publishedAt": "",
             "reason": "开源中国的成就展示了开源技术在关键行业的应用潜力，值得关注其未来发展。"
-          }
-        ]
-      },
-      {
-        "category": "ai-coding",
-        "label": "AI 编程",
-        "items": [
-          {
-            "title": "DeepSeek 更新 Claude Code 集成",
-            "summary": "我注意到 DeepSeek 最近更新了 Claude Code 的集成方式，提供了更便捷的环境配置方法，适合开发者使用。通过简单的环境变量设置，用户可以快速将 Claude Code 迁移到 DeepSeek 平台，提升开发效率。",
-            "source": "中国一手 · DeepSeek API 更新",
-            "url": "https://api-docs.deepseek.com/quick_start/agent_integrations/claude_code",
-            "score": 78,
-            "sourceCount": 1,
-            "date": "2026-08-04",
-            "publishedAt": "",
-            "reason": "这条更新值得关注，因为它显著简化了 AI 编程助手的使用流程，提升了开发者的工作效率，适合各类开发项目。"
           }
         ]
       },
