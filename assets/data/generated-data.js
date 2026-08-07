@@ -1,5 +1,5 @@
 window.AI_GENERATED_DATA = {
-  "lastUpdated": "2026-08-07",
+  "lastUpdated": "2026-08-08",
   "generatedAt": "2026-08-07T15:04:12.581538Z",
   "news": [
     {
@@ -15487,6 +15487,58 @@ window.AI_GENERATED_DATA = {
   },
   "dailyReports": [
     {
+      "date": "2026-08-07",
+      "generatedAt": "2026-08-07T16:00:08.254113Z",
+      "total": 3,
+      "sections": [
+        {
+          "category": "ai-tools",
+          "label": "AI 工具",
+          "items": [
+            {
+              "title": "OpenAI 报告显示 ChatGPT 用户群体变化：35 岁以上用户增长显著",
+              "summary": "OpenAI 最新报告揭示，全球超过 10 亿用户正在使用 ChatGPT，使用方式逐渐从单纯的问答工具转向更为复杂的任务执行工具。尤其是在工作场景中，用户利用 ChatGPT 完成任务的频率显著提高，35 岁及以上用户的活跃度也有明显上升，尤其在法国和捷克等国家增长超过 10%",
+              "source": "IT之家（RSS）",
+              "url": "https://www.ithome.com/0/986/957.htm",
+              "score": 65,
+              "sourceCount": 1,
+              "date": "2026-08-07",
+              "publishedAt": "2026-08-07T14:28",
+              "reason": "这份报告揭示了 ChatGPT 用户群体的变化及其在工作场景中的应用潜力，值得关注。"
+            },
+            {
+              "title": "Suno移动应用新增Voices功能，轻松录制人声",
+              "summary": "Suno移动应用在iOS和Android平台正式推出Voices功能，用户可以直接在手机上录制人声并应用于音乐创作。只需点击\"+ Voice\"按钮，录制至少一分钟的声音，Pro和Premier套餐用户可无限制使用，免费用户则可体验有限版本。快来试试吧！",
+              "source": "X：Suno (@suno)",
+              "url": "https://x.com/suno/status/2085731234970227145",
+              "score": 62,
+              "sourceCount": 1,
+              "date": "2026-08-07",
+              "publishedAt": "2026-08-07T22:14",
+              "reason": "Suno的Voices功能为音乐创作者提供了便捷的录音工具，极大地提升了移动音乐创作的灵活性和便利性。"
+            }
+          ]
+        },
+        {
+          "category": "ai-models",
+          "label": "模型发布",
+          "items": [
+            {
+              "title": "GPT-5.6 Sol与Luna提升ChatGPT推理能力",
+              "summary": "OpenAI推出的GPT-5.6 Sol和Luna版本为用户提供了更强大的推理能力。Plus和Pro用户可以享受即时和深度推理，而免费用户则可以无限次使用Luna进行文本对话。这一更新显著提升了回答的准确性和聚焦度。",
+              "source": "X：OpenAI (@OpenAI)",
+              "url": "https://x.com/OpenAI/status/2085434712429052386",
+              "score": 66,
+              "sourceCount": 1,
+              "date": "2026-08-07",
+              "publishedAt": "2026-08-07T02:35",
+              "reason": "这次更新显著提升了ChatGPT的推理能力，尤其是对用户的实际应用场景有很大帮助，值得关注。"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "date": "2026-08-06",
       "generatedAt": "2026-08-06T16:26:54.878886Z",
       "total": 3,
@@ -26029,7 +26081,7 @@ window.AI_GENERATED_DATA = {
     }
   ],
   "llmLeaderboard": {
-    "updated": "2026-08-07",
+    "updated": "2026-08-08",
     "source": "ReLE 中文大模型能力评测（综合能力）",
     "sourceUrl": "https://github.com/jeinlee1991/chinese-llm-benchmark",
     "items": [
