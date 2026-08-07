@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-08-07",
-  "generatedAt": "2026-08-07T02:04:33.211653Z",
+  "generatedAt": "2026-08-07T07:04:31.338406Z",
   "news": [
     {
       "title": "GPT-5.6 Sol与Luna提升ChatGPT推理能力",
@@ -139,7 +139,7 @@
       "date": "2026-08-06",
       "publishedAt": "",
       "collectedAt": "2026-08-07T10:03",
-      "dateStatus": "verified",
+      "dateStatus": "collected",
       "tags": [],
       "url": "http://arxiv.org/abs/2608.06188v1",
       "keyPoints": [],
@@ -300,7 +300,8 @@
       "moduleTargets": [
         "news"
       ],
-      "sourceCount": 1
+      "sourceCount": 1,
+      "sourceDate": "2026-08-05"
     },
     {
       "title": "PixelUp：零样本语义特征上采样技术",
@@ -356,7 +357,8 @@
       "moduleTargets": [
         "news"
       ],
-      "sourceCount": 1
+      "sourceCount": 1,
+      "sourceDate": "2026-08-05"
     },
     {
       "title": "GLM-5 发布，国产大模型再度升级",
@@ -445,7 +447,8 @@
       "moduleTargets": [
         "news"
       ],
-      "sourceCount": 1
+      "sourceCount": 1,
+      "sourceDate": "2026-08-05"
     },
     {
       "title": "A Unified 2D Framework for DeepLesion Detection, Segmentation and Short Report Generation",
@@ -471,7 +474,8 @@
       "moduleTargets": [
         "news"
       ],
-      "sourceCount": 1
+      "sourceCount": 1,
+      "sourceDate": "2026-08-05"
     },
     {
       "title": "Better, Stronger, Faster, and Broader: Structured All-Mask Prediction for MLLM-Based Segmentation",
@@ -497,7 +501,8 @@
       "moduleTargets": [
         "news"
       ],
-      "sourceCount": 1
+      "sourceCount": 1,
+      "sourceDate": "2026-08-05"
     },
     {
       "title": "Quo Vadis, World Modeling?",
@@ -524,7 +529,8 @@
         "news",
         "topicResources"
       ],
-      "sourceCount": 1
+      "sourceCount": 1,
+      "sourceDate": "2026-08-05"
     },
     {
       "title": "SAGE: Semantic Explainability of Attention-Based Survival Models in Computational Pathology",
@@ -551,7 +557,8 @@
         "news",
         "topicResources"
       ],
-      "sourceCount": 1
+      "sourceCount": 1,
+      "sourceDate": "2026-08-05"
     },
     {
       "title": "Oh Deer, How Should I Handle This? Seasonal Priors for Selective Wildlife Annotation and Classification",
@@ -577,7 +584,8 @@
       "moduleTargets": [
         "news"
       ],
-      "sourceCount": 1
+      "sourceCount": 1,
+      "sourceDate": "2026-08-05"
     },
     {
       "title": "大型语言模型能否恢复编译器遗漏的语义优化机会？",
@@ -12813,6 +12821,57 @@
   },
   "skillRecommendations": [
     {
+      "title": "OneSignal",
+      "type": "MCP 服务",
+      "description": "OneSignal 让 AI 助手直接管理消息发送，包括推送通知、电子邮件和 SMS。",
+      "details": "通过 OneSignal MCP，用户可以在 AI 助手中直接发送推送通知、电子邮件和 SMS，简化了客户互动的流程。与其他消息平台相比，OneSignal 提供了更强的受众管理和活动跟踪功能，支持多种消息类型，适用于各种应用场景。该服务兼容多种开发环境，易于集成到现有工作流中。",
+      "features": [
+        "发送推送通知",
+        "发送电子邮件",
+        "发送 SMS",
+        "管理受众",
+        "跟踪活动表现"
+      ],
+      "useCases": [
+        "通过 AI 助手发送定向推送通知",
+        "管理客户群体并发送个性化消息",
+        "实时跟踪营销活动的效果"
+      ],
+      "tags": [
+        "客户互动",
+        "消息管理",
+        "推送通知"
+      ],
+      "url": "https://smithery.ai/server/onesignal/onesignal",
+      "source": "Smithery MCP",
+      "date": "2026-08-07"
+    },
+    {
+      "title": "Six Cross-Cloud A2A Paths, One Benchmark: How AWS, Azure, and GCP Agents Actually Work Together",
+      "type": "方法论 / 文章",
+      "description": "本文章分析了 AWS、Azure 和 GCP 之间的 A2A 交互，揭示了它们的工作机制及常见问题。",
+      "details": "文章详细探讨了 Bedrock AgentCore、Microsoft Foundry 和 Google ADK 之间的每个有向边，基于 A2A v1.0 的部署和测量，提供了具体的数字和重复出现的故障案例，同时指出了尚未测量的部分。这为开发者理解跨云环境中的代理协作提供了重要的基准和洞见。",
+      "features": [
+        "分析 AWS、Azure 和 GCP 代理的交互",
+        "提供 A2A v1.0 的性能基准",
+        "揭示常见的故障模式",
+        "讨论未测量的性能指标"
+      ],
+      "useCases": [
+        "开发者评估跨云服务的性能",
+        "架构师设计多云解决方案",
+        "运维人员排查代理故障"
+      ],
+      "tags": [
+        "跨云",
+        "性能基准",
+        "代理协作"
+      ],
+      "url": "https://dev.to/gde/six-cross-cloud-a2a-paths-one-benchmark-what-aws-azure-and-gcp-agents-actually-cost-each-other-13g0",
+      "source": "Dev.to",
+      "date": "2026-08-07"
+    },
+    {
       "title": "Claude Code Steganography",
       "type": "方法论 / 文章",
       "description": "该文章探讨了 Claude Code 如何通过隐写术标记请求，提升代码安全性。",
@@ -15187,7 +15246,7 @@
   ],
   "dailyReport": {
     "date": "2026-08-07",
-    "generatedAt": "2026-08-07T02:04:33.186654Z",
+    "generatedAt": "2026-08-07T07:04:31.310915Z",
     "total": 24,
     "sections": [
       {
