@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-08-07",
-  "generatedAt": "2026-08-07T07:04:31.338406Z",
+  "generatedAt": "2026-08-07T07:25:08.194357Z",
   "news": [
     {
       "title": "GPT-5.6 Sol与Luna提升ChatGPT推理能力",
@@ -6226,6 +6226,226 @@ window.AI_GENERATED_DATA = {
   ],
   "githubWeekly": [
     {
+      "name": "wshobson/agents",
+      "lang": "Python",
+      "category": "Agent 框架",
+      "description": "这是一个多插件市场，适用于 Claude Code、Codex CLI 等工具，支持多种智能代理的集成。",
+      "details": "该项目提供了一个多插件市场，允许用户在 Claude Code、Codex CLI、Cursor、OpenCode、GitHub Copilot 和 Gemini CLI 等平台上使用智能代理。与其他同类产品（如 LangChain 和 Haystack）相比，它的优势在于支持多种不同的智能代理，用户可以根据需求灵活选择。项目使用 Python 开发，采用 MIT 许可证，适合开发者和研究人员使用，但不推荐初学者尝试。",
+      "features": [
+        "支持多种智能代理集成",
+        "兼容 Claude Code 和 GitHub Copilot",
+        "提供插件市场功能",
+        "支持自定义代理开发",
+        "易于扩展和维护"
+      ],
+      "useCases": [
+        "在 Claude Code 中集成自定义智能代理",
+        "使用 Codex CLI 进行代码生成",
+        "在 GitHub Copilot 中添加新功能",
+        "通过 Cursor 进行代码调试",
+        "实现多代理协同工作"
+      ],
+      "quickStart": [
+        "git clone https://github.com/wshobson/agents.git",
+        "cd agents",
+        "pip install -r requirements.txt",
+        "python main.py",
+        "在支持的 IDE 中添加插件"
+      ],
+      "why": "该项目在 GitHub 上拥有 38575 stars，显示出其广泛的社区支持和活跃度。相比于其他同类产品，它提供了更灵活的插件市场，允许用户根据需求选择和定制代理，适合多种开发场景。",
+      "tags": [
+        "智能代理",
+        "插件市场",
+        "Python",
+        "开发工具",
+        "开源"
+      ],
+      "url": "https://github.com/wshobson/agents",
+      "stars": "38575 stars",
+      "source": "GitHub Search · 2026-08-07",
+      "date": "2026-08-07"
+    },
+    {
+      "name": "hesreallyhim/awesome-claude-code",
+      "lang": "Python",
+      "category": "Skill 集合",
+      "description": "这是为开发者提供的 Claude Code 资源集合，突出其多功能性。",
+      "details": "该项目汇集了 Claude Code 的优质资源，旨在为开发者提供高效的编码助手。与其他编码助手相比，Claude Code 具备更强的多任务处理能力和灵活的插件支持。项目使用 Python 开发，采用 MIT 许可证，适合希望提升编码效率的开发者使用，但不推荐初学者尝试，因为其功能较为复杂。",
+      "features": [
+        "支持多种编程语言的代码生成",
+        "集成多种开发工具和插件",
+        "提供实时代码反馈和建议",
+        "支持自定义功能扩展",
+        "兼容 OpenAI API"
+      ],
+      "useCases": [
+        "生成复杂算法的代码片段",
+        "快速创建项目模板",
+        "实现代码审查和优化建议",
+        "集成第三方 API 进行数据处理"
+      ],
+      "quickStart": [
+        "git clone https://github.com/hesreallyhim/awesome-claude-code.git",
+        "cd awesome-claude-code",
+        "pip install -r requirements.txt",
+        "在 Claude Code 里 /add-plugin"
+      ],
+      "why": "该项目拥有超过 51812 个星标，显示出其在开发者社区中的受欢迎程度。与同类工具相比，Claude Code 提供了更丰富的插件生态和灵活的功能扩展，适合多种开发场景。其活跃的社区和持续更新也确保了工具的前沿性和实用性。",
+      "tags": [
+        "编码助手",
+        "开发工具",
+        "插件生态"
+      ],
+      "url": "https://github.com/hesreallyhim/awesome-claude-code",
+      "stars": "51812 stars",
+      "source": "GitHub Search · 2026-08-07",
+      "date": "2026-08-07"
+    },
+    {
+      "name": "topoteretes/cognee",
+      "lang": "Python",
+      "category": "Agent 框架",
+      "description": "Cognee 是一个开源的 AI 记忆平台，适合需要持久记忆的 AI 代理，支持自托管知识图谱引擎。",
+      "details": "Cognee 解决了 AI 代理在多次会话中缺乏持久记忆的问题。与其他记忆平台（如 Mem 或 Pinecone）相比，Cognee 提供了自托管的解决方案，用户可以完全控制自己的数据。该项目使用 Python 开发，采用开源许可证，适合开发者和研究人员使用，但不推荐给对自托管不感兴趣的用户。",
+      "features": [
+        "提供持久的长期记忆功能",
+        "支持自托管知识图谱引擎",
+        "兼容多种 AI 代理框架",
+        "支持多会话记忆管理",
+        "提供简单的 API 接口"
+      ],
+      "useCases": [
+        "在多轮对话中保持用户上下文",
+        "为 AI 代理提供个性化服务",
+        "实现自定义知识库的构建与管理"
+      ],
+      "quickStart": [
+        "git clone https://github.com/topoteretes/cognee.git",
+        "cd cognee",
+        "pip install -r requirements.txt",
+        "python main.py",
+        "访问本地服务进行配置"
+      ],
+      "why": "Cognee 以其自托管的特性和灵活的记忆管理功能脱颖而出，适合需要数据隐私的用户。项目目前拥有 29838 stars，社区活跃，更新频繁，确保了技术的前沿性和稳定性。",
+      "tags": [
+        "AI 记忆",
+        "自托管",
+        "知识图谱"
+      ],
+      "url": "https://github.com/topoteretes/cognee",
+      "stars": "29838 stars",
+      "source": "GitHub Search · 2026-08-07",
+      "date": "2026-08-07"
+    },
+    {
+      "name": "nexu-io/open-design",
+      "lang": "TypeScript",
+      "category": "AI 编辑器",
+      "description": "这是一个开源的设计工具，适合开发者和设计师使用，支持多种文件格式导出。",
+      "details": "Open Design 是一个本地优先的桌面应用程序，旨在为开发者和设计师提供一个高效的设计环境。与其他设计工具（如 Figma 和 Adobe XD）相比，Open Design 允许用户在本地运行，确保数据隐私和安全。它支持多种输出格式，包括 HTML、PDF、PPTX 和 MP4，用户可以轻松创建原型、着陆页、仪表板、幻灯片、图像和视频。该项目使用 TypeScript 开发，遵循开源许可证，适合希望在本地环境中进行设计工作的用户，不推荐对本地运行有严格要求的用户。",
+      "features": [
+        "支持多种文件格式导出",
+        "本地优先设计，确保数据隐私",
+        "集成 20+ CLI 工具",
+        "实时预览设计效果",
+        "支持多种设计元素和模板"
+      ],
+      "useCases": [
+        "创建产品原型并导出为 HTML",
+        "设计企业仪表板并生成 PDF 报告",
+        "制作营销幻灯片并导出为 PPTX",
+        "生成社交媒体视频并导出为 MP4"
+      ],
+      "quickStart": [
+        "从 GitHub 下载项目代码",
+        "运行 'npm install' 安装依赖",
+        "使用 'npm start' 启动应用程序",
+        "在应用中创建设计并选择导出格式"
+      ],
+      "why": "Open Design 目前在 GitHub 上拥有 84259 个星标，显示出其广泛的社区支持和活跃度。与其他设计工具相比，它的本地优先特性使得用户可以在没有网络的情况下进行设计，增强了数据安全性。该项目的技术栈使用 TypeScript，确保了代码的可维护性和可扩展性。",
+      "tags": [
+        "开源设计",
+        "本地应用",
+        "TypeScript",
+        "设计工具"
+      ],
+      "url": "https://github.com/nexu-io/open-design",
+      "stars": "84259 stars",
+      "source": "GitHub Search · 2026-08-07",
+      "date": "2026-08-07"
+    },
+    {
+      "name": "sickn33/agentic-awesome-skills",
+      "lang": "Python",
+      "category": "Agent 框架",
+      "description": "AAS Core 是一个面向代理的本地控制平面，提供完整的目录发现、代理拥有的选择、堆栈验证和规划，支持 2000 多个代理技能。",
+      "details": "AAS Core 解决了在多代理环境中管理和选择技能的复杂性。与其他类似工具（如 OpenAI 的 API）相比，AAS Core 更加专注于本地执行和代理管理，允许用户在本地环境中高效运行。该项目使用 Python 开发，采用开源许可证，适合开发者和研究人员使用，不推荐给对本地执行没有需求的用户。",
+      "features": [
+        "提供 CLI 工具进行操作",
+        "支持本地 MCP 和插件扩展",
+        "集成多种代理技能",
+        "实现目录发现和堆栈验证",
+        "支持灵活的规划功能"
+      ],
+      "useCases": [
+        "在本地环境中运行代理技能进行任务自动化",
+        "使用 CLI 管理和选择代理技能",
+        "验证和规划复杂的代理工作流"
+      ],
+      "quickStart": [
+        "git clone https://github.com/sickn33/agentic-awesome-skills.git",
+        "cd agentic-awesome-skills",
+        "pip install -r requirements.txt",
+        "python main.py"
+      ],
+      "why": "AAS Core 拥有超过 44574 个 stars，显示出其在社区中的受欢迎程度。与其他工具相比，它提供了更强的本地执行能力和灵活的插件支持，适合需要高效管理代理技能的用户。其活跃的开发和更新频率也确保了项目的持续改进。",
+      "tags": [
+        "代理框架",
+        "本地执行",
+        "技能管理"
+      ],
+      "url": "https://github.com/sickn33/agentic-awesome-skills",
+      "stars": "44574 stars",
+      "source": "GitHub Search · 2026-08-07",
+      "date": "2026-08-07"
+    },
+    {
+      "name": "github/awesome-copilot",
+      "lang": "Python",
+      "category": "Skill 集合",
+      "description": "这是一个为 GitHub Copilot 用户提供的工具，包含社区贡献的指令和技能，帮助用户更好地使用 Copilot。",
+      "details": "该项目汇集了大量社区贡献的指令、代理、技能和配置，旨在帮助开发者充分利用 GitHub Copilot 的功能。与其他类似工具（如 TabNine 和 Kite）相比，awesome-copilot 提供了更为丰富的社区支持和多样化的技能集合，适合各类开发者使用。项目使用 Python 开发，采用 MIT 许可证，推荐给希望提升开发效率的程序员，不推荐给不熟悉 GitHub Copilot 的用户。",
+      "features": [
+        "提供多种社区贡献的指令和技能",
+        "支持多种编程语言的代码补全",
+        "集成 GitHub Copilot 的最佳实践",
+        "易于配置和扩展",
+        "活跃的社区支持"
+      ],
+      "useCases": [
+        "使用社区指令提升代码编写效率",
+        "根据需求定制 GitHub Copilot 的行为",
+        "快速获取编程问题的解决方案"
+      ],
+      "quickStart": [
+        "git clone https://github.com/github/awesome-copilot.git",
+        "cd awesome-copilot",
+        "pip install -r requirements.txt",
+        "python setup.py install",
+        "查看文档获取更多配置选项"
+      ],
+      "why": "awesome-copilot 拥有超过 37537 个 stars，显示出其在开发者社区中的受欢迎程度。与其他工具相比，它提供了更丰富的社区贡献和灵活的配置选项，适合不同需求的开发者使用。活跃的社区也意味着用户可以获得及时的支持和更新。",
+      "tags": [
+        "GitHub Copilot",
+        "社区贡献",
+        "开发工具"
+      ],
+      "url": "https://github.com/github/awesome-copilot",
+      "stars": "37537 stars",
+      "source": "GitHub Search · 2026-08-07",
+      "date": "2026-08-07"
+    },
+    {
       "name": "koala73/worldmonitor",
       "lang": "TypeScript",
       "category": "LLM 应用平台",
@@ -8161,227 +8381,15 @@ window.AI_GENERATED_DATA = {
       "date": "2026-08-04"
     },
     {
-      "name": "browser-use/browser-use",
-      "lang": "Python",
-      "category": "Agent 框架",
-      "description": "这是一个为 AI 代理提供网站访问能力的工具，支持在线任务自动化，简化操作流程。",
-      "details": "browser-use 是一个专为 AI 代理设计的框架，旨在使网站访问变得简单高效。与其他同类工具（如 Selenium 和 Puppeteer）相比，browser-use 提供了更高层次的抽象，允许开发者通过简单的 API 快速实现网站交互。该项目使用 Python 编写，采用 MIT 许可证，适合希望在 AI 项目中集成网页操作的开发者。不推荐给只需简单网页抓取的用户。",
-      "features": [
-        "支持多种网站自动化任务",
-        "提供简洁的 API 接口",
-        "兼容主流浏览器",
-        "支持异步操作",
-        "易于集成到现有项目中"
-      ],
-      "useCases": [
-        "自动化填写在线表单",
-        "抓取动态网页数据",
-        "模拟用户行为进行测试"
-      ],
-      "quickStart": [
-        "git clone https://github.com/browser-use/browser-use.git",
-        "cd browser-use",
-        "pip install -r requirements.txt",
-        "python example.py"
-      ],
-      "why": "browser-use 拥有超过 107726 个星标，社区活跃，更新频繁。其简洁的 API 和强大的功能使其在同类工具中脱颖而出，特别适合需要快速实现网页交互的 AI 项目。",
-      "tags": [
-        "网站自动化",
-        "AI 代理",
-        "Python"
-      ],
-      "url": "https://github.com/browser-use/browser-use",
-      "stars": "107726 stars",
-      "source": "GitHub Search · 2026-08-04",
-      "date": "2026-08-04"
-    },
-    {
-      "name": "hacksider/Deep-Live-Cam",
-      "lang": "Python",
-      "category": "视频生成",
-      "description": "这是一个实时人脸交换和一键视频深度伪造工具，适合需要快速生成深度伪造视频的用户。",
-      "details": "Deep-Live-Cam 解决了传统视频编辑中人脸替换繁琐的步骤，用户只需提供一张图片即可实现实时人脸交换。与其他深度伪造工具（如 Zao 和 Reface）相比，Deep-Live-Cam 提供了更高的灵活性和实时性，适合需要快速生成内容的创作者。该项目使用 Python 开发，采用开源许可证，欢迎开发者和内容创作者尝试，不推荐给对实时性要求不高的用户。",
-      "features": [
-        "实时人脸交换功能",
-        "一键生成深度伪造视频",
-        "支持单张图片输入",
-        "高效的图像处理算法",
-        "开源许可证，便于修改和分发"
-      ],
-      "useCases": [
-        "生成短视频内容以供社交媒体分享",
-        "制作个性化的生日祝福视频",
-        "创建娱乐性视频以吸引观众"
-      ],
-      "quickStart": [
-        "git clone https://github.com/hacksider/Deep-Live-Cam.git",
-        "cd Deep-Live-Cam",
-        "pip install -r requirements.txt",
-        "python app.py"
-      ],
-      "why": "Deep-Live-Cam 在实时性和易用性上优于许多同类产品，拥有 95520 stars，显示出其广泛的社区支持和活跃度。该项目的图像处理算法经过优化，能够在保证质量的同时实现快速处理，适合需要高效生成内容的用户。",
-      "tags": [
-        "深度伪造",
-        "人脸交换",
-        "视频生成"
-      ],
-      "url": "https://github.com/hacksider/Deep-Live-Cam",
-      "stars": "95520 stars",
-      "source": "GitHub Search · 2026-08-03",
-      "date": "2026-08-04"
-    },
-    {
-      "name": "zai-org/z-ai-sdk-python",
-      "lang": "Python",
-      "category": "LLM 应用平台",
-      "description": "这是 Z.ai 的官方 Python SDK，帮助开发者更轻松地调用 Z.ai 的开放 API。",
-      "details": "Z.ai SDK 为开发者提供了一个简洁的接口，便于调用其大型模型的开放接口。与其他 SDK（如 OpenAI 的 SDK）相比，Z.ai SDK 专注于提供更灵活的 API 访问和更高的定制性。该项目使用 Python 编写，采用 MIT 许可证，适合希望快速集成 Z.ai 功能的开发者。不推荐对 Z.ai 的功能没有需求的用户。",
-      "features": [
-        "支持 Z.ai 的开放 API 调用",
-        "提供简单易用的 Python 接口",
-        "支持多种数据格式的输入输出",
-        "兼容主流 Python 库",
-        "提供详细的文档和示例代码"
-      ],
-      "useCases": [
-        "集成 Z.ai 模型进行文本生成",
-        "使用 Z.ai 进行自然语言处理任务",
-        "调用 Z.ai API 进行数据分析",
-        "在应用中嵌入智能对话功能"
-      ],
-      "quickStart": [
-        "pip install zai-sdk",
-        "导入 SDK：import zai",
-        "初始化 Z.ai 客户端：client = zai.Client()",
-        "调用 API：response = client.call_api('your_api_endpoint')"
-      ],
-      "why": "Z.ai SDK 以其简洁的接口和灵活的功能脱颖而出，当前已有 127 个 stars，显示出良好的社区支持。与其他 SDK 相比，它提供了更高的定制性和更丰富的功能，适合希望快速实现 AI 应用的开发者。",
-      "tags": [
-        "Python SDK",
-        "开放 API",
-        "AI 应用"
-      ],
-      "url": "https://github.com/zai-org/z-ai-sdk-python",
-      "stars": "127 stars",
-      "source": "GitHub · 智谱 Z.ai",
-      "date": "2026-08-03"
-    },
-    {
-      "name": "zai-org/z-ai-sdk-java",
-      "lang": "Java",
-      "category": "LLM 应用平台",
-      "description": "这是一个为 Z.ai 开放平台提供的 Java SDK，支持快速集成和开发。",
-      "details": "Z.ai SDK for Java 旨在简化与 Z.ai 开放平台的交互，适合开发者和企业使用。与其他 SDK（如 OpenAI 的 Java SDK）相比，它提供了更为简洁的接口和更好的本地化支持。该项目使用 Java 语言开发，遵循 MIT 许可证，适合希望在 Java 环境中构建 AI 应用的开发者。不推荐对 Java 不熟悉的用户。",
-      "features": [
-        "提供 Z.ai API 的完整封装",
-        "支持多种身份验证方式",
-        "简化数据请求和响应处理",
-        "支持异步调用",
-        "内置错误处理机制"
-      ],
-      "useCases": [
-        "集成 Z.ai 进行文本生成",
-        "构建基于 Z.ai 的聊天机器人",
-        "实现智能数据分析",
-        "开发个性化推荐系统"
-      ],
-      "quickStart": [
-        "在项目中添加 Maven 依赖",
-        "初始化 Z.ai 客户端",
-        "调用 API 进行数据请求",
-        "处理返回结果"
-      ],
-      "why": "该项目在 GitHub 上获得了 68 stars，显示出一定的社区关注度。与同类项目相比，Z.ai SDK for Java 提供了更为友好的接口和更强的本地支持，适合 Java 开发者快速上手。其活跃的开发和更新频率也确保了用户能够获得最新的功能和修复。",
-      "tags": [
-        "Java SDK",
-        "AI 开发",
-        "Z.ai"
-      ],
-      "url": "https://github.com/zai-org/z-ai-sdk-java",
-      "stars": "68 stars",
-      "source": "GitHub · 智谱 Z.ai",
-      "date": "2026-08-03"
-    },
-    {
-      "name": "MoonshotAI/checkpoint-engine",
-      "lang": "Python",
-      "category": "推理引擎",
-      "description": "Checkpoint-engine 是一个简单的中间件，用于在 LLM 推理引擎中更新模型权重，适合需要动态更新模型的开发者。",
-      "details": "Checkpoint-engine 解决了在 LLM 推理过程中模型权重更新的复杂性，允许开发者在推理时灵活地调整模型参数。与 Hugging Face 的 Transformers 等工具相比，它提供了更轻量级的解决方案，专注于权重更新而非完整模型管理。该项目使用 Python 开发，采用 MIT 许可证，适合需要快速迭代和测试的开发者，不推荐对模型权重更新需求不高的用户。",
-      "features": [
-        "支持动态更新模型权重",
-        "轻量级中间件设计",
-        "兼容多种 LLM 推理引擎",
-        "易于集成到现有项目",
-        "提供简单的 API 接口"
-      ],
-      "useCases": [
-        "在推理过程中实时更新模型权重",
-        "集成到自定义 LLM 应用中",
-        "替换传统的模型管理工具"
-      ],
-      "quickStart": [
-        "git clone https://github.com/MoonshotAI/checkpoint-engine.git",
-        "cd checkpoint-engine",
-        "pip install -r requirements.txt",
-        "python example.py"
-      ],
-      "why": "Checkpoint-engine 以 991 stars 的社区支持，提供了一个轻量级的解决方案，适合需要快速更新模型权重的场景。与其他工具相比，它的专注点在于简化权重更新流程，降低了使用门槛，适合快速迭代的开发环境。",
-      "tags": [
-        "模型更新",
-        "推理引擎",
-        "Python"
-      ],
-      "url": "https://github.com/MoonshotAI/checkpoint-engine",
-      "stars": "991 stars",
-      "source": "GitHub · 月之暗面 Kimi",
-      "date": "2026-08-03"
-    },
-    {
-      "name": "MiniMax-AI/cli",
-      "lang": "TypeScript",
-      "category": "AI 编辑器",
-      "description": "这是一个为创作者提供的多媒体生成工具，支持文本、图像、视频、语音和音乐生成，突出其多功能性。",
-      "details": "MiniMax-AI/cli 是一个强大的多媒体生成工具，旨在帮助创作者快速生成各种内容。与其他工具如 OpenAI 的 DALL-E 和 GPT-3 相比，MiniMax 提供了更灵活的多模态生成能力，用户可以通过简单的命令生成所需的内容。该项目使用 TypeScript 开发，遵循 MIT 许可证，适合开发者和内容创作者使用，但不推荐给对编程不熟悉的用户。",
-      "features": [
-        "支持文本、图像、视频、语音和音乐生成",
-        "提供命令行界面，易于集成",
-        "支持多种输入格式，灵活性高",
-        "可扩展性强，适合开发者自定义",
-        "支持多种平台，跨设备使用"
-      ],
-      "useCases": [
-        "生成社交媒体内容，提升互动性",
-        "创建视频素材，丰富视频编辑",
-        "生成背景音乐，增强视频氛围"
-      ],
-      "quickStart": [
-        "git clone https://github.com/MiniMax-AI/cli.git",
-        "cd cli",
-        "npm install",
-        "npm run start"
-      ],
-      "why": "MiniMax-AI/cli 以 2014 stars 的社区支持，展示了其受欢迎程度。与同类工具相比，它提供了更全面的多媒体生成能力，适合多种创作需求。其基于 TypeScript 的架构确保了良好的性能和可维护性，适合开发者进行二次开发。",
-      "tags": [
-        "多媒体生成",
-        "创作工具",
-        "命令行工具"
-      ],
-      "url": "https://github.com/MiniMax-AI/cli",
-      "stars": "2014 stars",
-      "source": "GitHub · MiniMax",
-      "date": "2026-08-03"
-    },
-    {
-      "name": "farion1231/cc-switch",
-      "lang": "Rust",
-      "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io",
-      "stars": "125155 stars",
+      "name": "alibaba/open-code-review",
+      "lang": "Go",
+      "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "stars": "19438 stars",
       "why": "近期更新且具备 AI / LLM / Agent 相关主题，适合做项目介绍、教程或同类对比。",
-      "url": "https://github.com/farion1231/cc-switch",
+      "url": "https://github.com/alibaba/open-code-review",
       "source": "GitHub Search · 2026-08-07",
       "category": "Coding Agent",
-      "details": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io",
+      "details": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "features": [],
       "useCases": [],
       "quickStart": []
@@ -15246,7 +15254,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-08-07",
-    "generatedAt": "2026-08-07T07:04:31.310915Z",
+    "generatedAt": "2026-08-07T07:25:08.167359Z",
     "total": 24,
     "sections": [
       {
