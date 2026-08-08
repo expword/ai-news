@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-08",
+  "lastUpdated": "2026-08-09",
   "generatedAt": "2026-08-08T11:44:33.968340Z",
   "news": [
     {
@@ -16074,6 +16074,30 @@
   },
   "dailyReports": [
     {
+      "date": "2026-08-08",
+      "generatedAt": "2026-08-08T16:18:21.173444Z",
+      "total": 1,
+      "sections": [
+        {
+          "category": "ai-research",
+          "label": "论文研究",
+          "items": [
+            {
+              "title": "DeepMind WeatherNext 模型为飓风预警提供额外一天时间",
+              "summary": "Google DeepMind 和 Google Research 联合开发的 AI 模型 WeatherNext，在 2025 年 10 月成功预测飓风 Melissa 将以 5 级强度袭击牙买加，提前五天发出预警，置信度达到 80%。该模型的预测准确率显著提升，平均比现有模型",
+              "source": "Ars Technica：AI（RSS）",
+              "url": "https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day",
+              "score": 67,
+              "sourceCount": 1,
+              "date": "2026-08-08",
+              "publishedAt": "2026-08-08T19:05",
+              "reason": "WeatherNext 模型在飓风预测中的成功应用，展示了 AI 在气象领域的巨大潜力，值得关注。"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "date": "2026-08-07",
       "generatedAt": "2026-08-07T16:00:08.254113Z",
       "total": 3,
@@ -26668,7 +26692,7 @@
     }
   ],
   "llmLeaderboard": {
-    "updated": "2026-08-08",
+    "updated": "2026-08-09",
     "source": "ReLE 中文大模型能力评测（综合能力）",
     "sourceUrl": "https://github.com/jeinlee1991/chinese-llm-benchmark",
     "items": [
