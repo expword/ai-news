@@ -1,7 +1,71 @@
 {
   "lastUpdated": "2026-08-09",
-  "generatedAt": "2026-08-08T11:44:33.968340Z",
+  "generatedAt": "2026-08-08T23:40:24.169111Z",
   "news": [
+    {
+      "title": "OpenAI ChatGPT 桌面版新增语音交互功能，支持多步骤任务执行",
+      "summary": "OpenAI 更新了 ChatGPT 桌面应用，新增语音交互功能，用户可通过语音指令控制 AI 执行复杂任务。该功能基于新推出的 ChatGPT-Live 语音模型，支持多种应用场景，提升了用户的操作效率。",
+      "category": "ai-tools",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "语音交互",
+        "桌面应用",
+        "AI助手"
+      ],
+      "keyPoints": [
+        "OpenAI 于 2026 年 8 月 9 日更新了 ChatGPT 桌面应用，新增语音交互功能，用户可通过语音与 AI 进行对话。",
+        "新功能基于 ChatGPT-Live 语音模型，支持 ChatGPT Work 和 Codex，能够执行多步骤任务。",
+        "在 macOS 上，用户可通过 Appshots 让 ChatGPT 访问屏幕内容，提升操作的灵活性。",
+        "用户可以通过语音指令让 ChatGPT 创建代码、提交 Pull Request，并找出 Bug 的根本原因。",
+        "该功能的手机版主要提供语音对话体验，桌面版则增强了执行能力，支持复杂指令的处理。"
+      ],
+      "background": "OpenAI 最近推出的 ChatGPT-Live 语音模型，旨在提升用户与 AI 的交互体验。此次更新使得用户能够通过语音直接控制 AI，执行多步骤的复杂任务，标志着 AI 助手在日常工作中的应用潜力。与之前的版本相比，新功能在执行能力和用户体验上都有显著提升，尤其是在 macOS 平台上，用户可以更便捷地访问屏幕内容，进一步增强了 AI 的实用性。",
+      "impact": "这一更新将极大地改变开发者和普通用户的工作方式。开发者可以通过语音快速生成代码和调试，节省时间，提高工作效率。同时，普通用户也能更方便地使用 AI 完成日常任务，提升工作和生活的便捷性。随着语音交互技术的不断成熟，未来可能会有更多应用场景被开发出来，进一步推动 AI 助手的普及。",
+      "audience": [
+        "软件开发者",
+        "产品经理",
+        "日常办公用户",
+        "技术支持人员",
+        "教育工作者"
+      ],
+      "useCases": [
+        "通过语音指令让 ChatGPT 创建新的代码线程，快速完成开发任务。",
+        "使用 ChatGPT 进行 Bug 修复，直接通过语音获取解决方案。",
+        "在 macOS 上利用 Appshots 功能，让 ChatGPT 访问屏幕内容，提升工作效率。",
+        "通过语音控制 ChatGPT 执行多步骤任务，简化复杂操作流程。",
+        "在 Codex 中使用 ChatGPT Voice，远程访问和管理代码库。"
+      ],
+      "risks": [
+        "语音识别准确性可能受到环境噪音影响，导致指令执行错误。",
+        "API 使用可能受到配额限制，频繁调用可能导致超出限制。",
+        "不同版本的 ChatGPT 可能存在兼容性问题，需确保使用最新版本。",
+        "在使用语音功能时，用户需注意隐私保护，避免泄露敏感信息。",
+        "部分功能可能在不同操作系统上表现不一致，需提前测试。"
+      ],
+      "reason": "这项更新显著提升了 ChatGPT 的实用性，尤其是在多任务处理和语音交互方面，值得关注。",
+      "scores": {
+        "importance": 85,
+        "novelty": 80,
+        "firsthand": 90,
+        "impact": 75,
+        "credibility": 85
+      },
+      "url": "https://www.ithome.com/0/987/452.htm",
+      "source": "IT之家（RSS）",
+      "date": "2026-08-09",
+      "publishedAt": "2026-08-09T06:46",
+      "collectedAt": "2026-08-09T07:37",
+      "dateStatus": "verified",
+      "tier": "T1.5",
+      "score": 66,
+      "aiSelected": true,
+      "_style": "tutorial",
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "DeepMind WeatherNext 模型为飓风预警提供额外一天时间",
       "summary": "Google DeepMind 和 Google Research 联合开发的 AI 模型 WeatherNext，在 2025 年 10 月成功预测飓风 Melissa 将以 5 级强度袭击牙买加，提前五天发出预警，置信度达到 80%。该模型的预测准确率显著提升，平均比现有模型多提供一天的预警时间。",
@@ -6725,6 +6789,43 @@
   ],
   "githubWeekly": [
     {
+      "name": "bojieli/ai-agent-book",
+      "lang": "Python",
+      "category": "Agent 框架",
+      "description": "这是一本为 AI 开发者提供设计原理与工程实践的工具书，包含全书正文和配套代码，适合学习和实践。",
+      "details": "《深入理解 AI Agent》是一本深入探讨 AI Agent 设计与实现的书籍，适合希望掌握 AI Agent 开发的工程师和研究者。与其他 AI 书籍相比，本书提供了全面的理论基础与实际代码示例，帮助读者快速上手。项目使用 Python 编写，采用 MIT 许可证，适合各类开发者使用，但不推荐完全没有编程基础的读者。",
+      "features": [
+        "提供全书正文与编译版 PDF",
+        "包含按章配套的代码示例",
+        "支持多种 AI Agent 设计模式",
+        "适合初学者与进阶者",
+        "开源社区活跃，持续更新"
+      ],
+      "useCases": [
+        "阅读全书并实现书中示例代码",
+        "根据书中设计模式构建自己的 AI Agent",
+        "使用配套代码进行实验与测试"
+      ],
+      "quickStart": [
+        "访问 GitHub 仓库：git clone https://github.com/bojieli/ai-agent-book",
+        "安装所需依赖：pip install -r requirements.txt",
+        "编译 PDF 文档：make pdf",
+        "运行示例代码：python example.py"
+      ],
+      "why": "本项目在 GitHub 上拥有 34752 stars，显示出其受欢迎程度和社区支持。与其他 AI 书籍相比，它不仅提供理论知识，还结合了实际代码，帮助读者更好地理解和应用 AI Agent 的设计与实现。活跃的社区也意味着持续的更新和支持。",
+      "tags": [
+        "AI",
+        "Agent",
+        "开源",
+        "学习",
+        "编程"
+      ],
+      "url": "https://github.com/bojieli/ai-agent-book",
+      "stars": "34752 stars",
+      "source": "GitHub Search · 2026-08-09",
+      "date": "2026-08-09"
+    },
+    {
       "name": "InternLM/Challenge-Cup-2026",
       "lang": "Python",
       "category": "AI 编辑器",
@@ -8866,44 +8967,6 @@
       ],
       "url": "https://github.com/thedotmack/claude-mem",
       "stars": "89443 stars",
-      "source": "GitHub Search · 2026-08-04",
-      "date": "2026-08-04"
-    },
-    {
-      "name": "f/prompts.chat",
-      "lang": "HTML",
-      "category": "AI 编辑器",
-      "description": "这是一个社区驱动的工具，帮助用户分享和发现 ChatGPT 提示，支持自托管以确保隐私。",
-      "details": "f/prompts.chat 是一个开源项目，旨在解决用户在使用 ChatGPT 时缺乏高质量提示的问题。与其他提示库相比，它提供了一个社区平台，用户可以自由分享和收集提示，增强了互动性和实用性。该项目使用 HTML 开发，遵循开源许可证，适合希望自托管的组织使用。推荐给需要大量提示的开发者和研究人员，不推荐给不愿意自托管的用户。",
-      "features": [
-        "支持社区分享和发现提示",
-        "提供自托管选项以确保隐私",
-        "开源项目，允许自由修改和分发",
-        "用户友好的界面，易于使用",
-        "支持多种提示格式"
-      ],
-      "useCases": [
-        "分享自定义的 ChatGPT 提示以提高效率",
-        "收集社区推荐的高质量提示",
-        "自托管以保护企业内部数据",
-        "探索不同领域的提示以扩展应用场景"
-      ],
-      "quickStart": [
-        "访问 GitHub 页面并克隆项目：git clone https://github.com/f/prompts.chat",
-        "安装依赖：npm install",
-        "启动本地服务器：npm start",
-        "访问本地地址查看应用：打开浏览器并输入 http://localhost:3000"
-      ],
-      "why": "f/prompts.chat 拥有超过 166697 个星标，显示出其在开发者社区中的受欢迎程度。与其他提示库相比，它强调社区互动和自托管，确保用户数据的隐私。该项目活跃度高，定期更新，适合需要灵活提示管理的用户。",
-      "tags": [
-        "ChatGPT",
-        "提示库",
-        "开源",
-        "社区驱动",
-        "自托管"
-      ],
-      "url": "https://github.com/f/prompts.chat",
-      "stars": "166697 stars",
       "source": "GitHub Search · 2026-08-04",
       "date": "2026-08-04"
     }
@@ -13342,6 +13405,30 @@
   },
   "skillRecommendations": [
     {
+      "title": "Opus 5: Delete your CLAUDE.md?",
+      "type": "方法论 / 文章",
+      "description": "本文探讨了如何管理 CLAUDE.md 文件，帮助开发者优化代码库和文档管理。",
+      "details": "在软件开发中，文档管理是一个重要的环节。本文通过对 CLAUDE.md 文件的讨论，提供了删除或保留该文件的实用建议。通过分析其对项目的影响，开发者能够更好地决定是否保留该文档。此外，文章还对比了其他文档管理工具的优缺点，帮助开发者选择合适的工具来提高工作效率。",
+      "features": [
+        "提供 CLAUDE.md 文件的管理建议",
+        "分析文档对项目的影响",
+        "对比其他文档管理工具"
+      ],
+      "useCases": [
+        "开发者评估文档管理策略",
+        "团队讨论文档保留与否",
+        "优化项目文档结构"
+      ],
+      "tags": [
+        "文档管理",
+        "软件开发",
+        "项目优化"
+      ],
+      "url": "https://dev.to/reporails/opus-5-delete-your-claudemd-9ga",
+      "source": "Dev.to",
+      "date": "2026-08-09"
+    },
+    {
       "title": "OneSignal",
       "type": "MCP 服务",
       "description": "OneSignal 让 AI 助手直接管理消息发送，包括推送通知、电子邮件和 SMS。",
@@ -15766,14 +15853,25 @@
     }
   ],
   "dailyReport": {
-    "date": "2026-08-08",
-    "generatedAt": "2026-08-08T11:44:33.940280Z",
+    "date": "2026-08-09",
+    "generatedAt": "2026-08-08T23:40:24.140103Z",
     "total": 24,
     "sections": [
       {
         "category": "ai-tools",
         "label": "AI 工具",
         "items": [
+          {
+            "title": "OpenAI ChatGPT 桌面版新增语音交互功能，支持多步骤任务执行",
+            "summary": "OpenAI 更新了 ChatGPT 桌面应用，新增语音交互功能，用户可通过语音指令控制 AI 执行复杂任务。该功能基于新推出的 ChatGPT-Live 语音模型，支持多种应用场景，提升了用户的操作效率。",
+            "source": "IT之家（RSS）",
+            "url": "https://www.ithome.com/0/987/452.htm",
+            "score": 66,
+            "sourceCount": 1,
+            "date": "2026-08-09",
+            "publishedAt": "2026-08-09T06:46",
+            "reason": "这项更新显著提升了 ChatGPT 的实用性，尤其是在多任务处理和语音交互方面，值得关注。"
+          },
           {
             "title": "OpenAI 报告显示 ChatGPT 用户群体变化：35 岁以上用户增长显著",
             "summary": "OpenAI 最新报告揭示，全球超过 10 亿用户正在使用 ChatGPT，使用方式逐渐从单纯的问答工具转向更为复杂的任务执行工具。尤其是在工作场景中，用户利用 ChatGPT 完成任务的频率显著提高，35 岁及以上用户的活跃度也有明显上升，尤其在法国和捷克等国家增长超过 10%",
@@ -15879,17 +15977,6 @@
             "date": "2026-08-05",
             "publishedAt": "",
             "reason": "Hunyuan3D-Buffalo 1.0的发布为3D生成和编辑提供了新的可能性，值得关注。"
-          },
-          {
-            "title": "DeepSeek-V4-Flash 正式发布，API 进入公测阶段",
-            "summary": "2026年7月31日，DeepSeek 发布了 DeepSeek-V4-Flash API，现已进入公测阶段。该版本在代理能力上显著增强，基准测试结果远超 V4-Pro-Preview，尤其在 Terminal Bench 和 Cybergym 等测试中表现突出。",
-            "source": "中国一手 · DeepSeek API 更新",
-            "url": "https://api-docs.deepseek.com/updates#update-59175160585d",
-            "score": 82,
-            "sourceCount": 2,
-            "date": "2026-08-04",
-            "publishedAt": "",
-            "reason": "DeepSeek-V4-Flash 的发布标志着国产 AI 模型在性能和应用范围上的重大进步，值得开发者和企业关注。"
           },
           {
             "title": "GLM-5 发布，国产大模型再度升级",
