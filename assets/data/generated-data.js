@@ -1,5 +1,5 @@
 window.AI_GENERATED_DATA = {
-  "lastUpdated": "2026-08-09",
+  "lastUpdated": "2026-08-10",
   "generatedAt": "2026-08-09T09:54:32.660573Z",
   "news": [
     {
@@ -15961,6 +15961,30 @@ window.AI_GENERATED_DATA = {
   },
   "dailyReports": [
     {
+      "date": "2026-08-09",
+      "generatedAt": "2026-08-09T16:24:23.972560Z",
+      "total": 1,
+      "sections": [
+        {
+          "category": "ai-tools",
+          "label": "AI 工具",
+          "items": [
+            {
+              "title": "OpenAI ChatGPT 桌面版新增语音交互功能，支持多步骤任务执行",
+              "summary": "OpenAI 更新了 ChatGPT 桌面应用，新增语音交互功能，用户可通过语音指令控制 AI 执行复杂任务。该功能基于新推出的 ChatGPT-Live 语音模型，支持多种应用场景，提升了用户的操作效率。",
+              "source": "IT之家（RSS）",
+              "url": "https://www.ithome.com/0/987/452.htm",
+              "score": 66,
+              "sourceCount": 1,
+              "date": "2026-08-09",
+              "publishedAt": "2026-08-09T06:46",
+              "reason": "这项更新显著提升了 ChatGPT 的实用性，尤其是在多任务处理和语音交互方面，值得关注。"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "date": "2026-08-08",
       "generatedAt": "2026-08-08T16:20:27.513251Z",
       "total": 1,
@@ -26579,7 +26603,7 @@ window.AI_GENERATED_DATA = {
     }
   ],
   "llmLeaderboard": {
-    "updated": "2026-08-09",
+    "updated": "2026-08-10",
     "source": "ReLE 中文大模型能力评测（综合能力）",
     "sourceUrl": "https://github.com/jeinlee1991/chinese-llm-benchmark",
     "items": [
