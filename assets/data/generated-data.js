@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-08-09",
-  "generatedAt": "2026-08-09T09:50:04.106948Z",
+  "generatedAt": "2026-08-09T09:54:32.660573Z",
   "news": [
     {
       "title": "OpenAI ChatGPT 桌面版新增语音交互功能，支持多步骤任务执行",
@@ -6102,34 +6102,33 @@ window.AI_GENERATED_DATA = {
       "name": "OpenBMB/VisRAG",
       "lang": "Python",
       "category": "RAG 引擎",
-      "description": "这是一个无解析的 RAG 工具，支持视觉语言模型（VLMs），适合需要高效信息检索的开发者。",
-      "details": "VisRAG 旨在解决传统 RAG 系统在解析过程中的效率瓶颈，提供一种无解析的解决方案。与其他 RAG 引擎如 Haystack 和 LangChain 相比，VisRAG 更加专注于视觉信息的处理，利用 VLMs 提升信息检索的准确性和速度。该项目使用 Python 开发，采用开源许可证，适合对视觉信息处理有需求的开发者尝试，不推荐给不熟悉 VLMs 的用户。",
+      "description": "VisRAG 是一个无解析的 RAG 工具，支持 VLMs，适合需要高效信息检索的开发者。",
+      "details": "VisRAG 解决了传统 RAG 模型在解析数据时的复杂性问题，提供了一种更简洁的方式来处理信息检索。与其他 RAG 工具相比，如 Haystack 和 Langchain，VisRAG 采用了无解析的设计，减少了数据处理的复杂度。该项目使用 Python 开发，遵循 MIT 许可证，适合希望简化信息检索流程的开发者，不推荐对解析过程有严格要求的用户。",
       "features": [
-        "支持无解析信息检索",
-        "集成视觉语言模型",
-        "高效处理视觉信息",
+        "支持 VLMs 进行信息检索",
+        "无解析设计，简化数据处理",
+        "高效处理大规模数据集",
         "兼容多种数据源",
-        "提供简单易用的 API"
+        "易于集成到现有项目中"
       ],
       "useCases": [
-        "实现无解析的视觉信息检索",
-        "在图像数据集上进行快速查询",
-        "集成到现有的 AI 应用中",
-        "支持多模态数据处理"
+        "快速实现无解析的信息检索系统",
+        "在企业环境中部署高效的 RAG 解决方案",
+        "集成到现有的机器学习工作流中"
       ],
       "quickStart": [
         "git clone https://github.com/OpenBMB/VisRAG.git",
         "cd VisRAG",
         "pip install -r requirements.txt",
-        "python run.py"
+        "python main.py"
       ],
-      "why": "VisRAG 以 977 stars 的社区支持，展示了其在视觉信息检索领域的潜力。与同类产品相比，它的无解析特性使得信息检索更加高效，适合快速迭代的开发环境。该项目的活跃度和更新频率也表明了其持续改进的能力。",
+      "why": "VisRAG 以 977 stars 的社区支持，展示了其在信息检索领域的受欢迎程度。其无解析的设计使得开发者能够更快速地构建和部署 RAG 系统，尤其适合需要快速迭代的项目。相比于其他 RAG 工具，VisRAG 提供了更高的灵活性和简化的工作流程。",
       "tags": [
-        "视觉语言模型",
         "信息检索",
-        "无解析",
-        "开源",
-        "Python"
+        "RAG",
+        "VLMs",
+        "Python",
+        "开源"
       ],
       "url": "https://github.com/OpenBMB/VisRAG",
       "stars": "977 stars",
@@ -10270,6 +10269,21 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-business": [
       {
+        "name": "Dynatrace 第一季度财报超预期，平台扩展显著",
+        "provider": "NewsAPI",
+        "type": "AI 项目/工具",
+        "bestFor": "Dynatrace 的业绩超预期将吸引更多投资者关注，可能导致股价上涨。新客户的增加意味着公司在市场中的影响力增强，可能促使其他企业加速数字化转型。此外，业绩的提升也可能推动公司进一步加大研发投入，提升产品竞争力。",
+        "description": "Dynatrace（NYSE:DT）在2027财年第一季度的业绩超出预期，得益于新客户增长创纪录和平台扩展。公司报告显示，新增客户数量同比增长超过30%，推动总收入达到1.5亿美元，较去年同期增长20%。",
+        "useCases": [
+          "分析云环境中的应用性能，使用Dynatrace平台提升用户体验。",
+          "监控多云环境下的应用健康状态，确保业务连续性。",
+          "利用Dynatrace的智能分析功能，优化资源配置和成本管理。"
+        ],
+        "watch": "市场竞争加剧，可能导致客户流失和收入下降。",
+        "sourceName": "NewsAPI:large language model",
+        "url": "https://www.marketbeat.com/instant-alerts/dynatrace-q1-earnings-call-highlights-2026-08-08/?utm_source=yahoofinance&amp;utm_medium=yahoofinance"
+      },
+      {
         "name": "AI 如何重塑软件开发者的工作",
         "provider": "NewsAPI",
         "type": "AI 项目/工具",
@@ -10855,21 +10869,6 @@ window.AI_GENERATED_DATA = {
         "watch": "在实施 AEO 和 GEO 时，企业可能面临高昂的 API 费用，需提前预算。",
         "sourceName": "NewsAPI:large language model",
         "url": "https://www.cmswire.com/digital-marketing/why-aeo-and-geo-are-infrastructure-not-a-growth-strategy/"
-      },
-      {
-        "name": "Citadel收购Situational Awareness AI，拯救对冲基金",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "此次收购将使Situational Awareness能够重组其投资组合，恢复市场信心。Citadel的介入不仅为Situational Awareness提供了资金支持，也可能影响其他对冲基金的投资决策，促使他们在面对市场波动时更加谨慎。此外，Citadel的成功案例可能吸引更多投资者关注其风险管理策略，进一步巩固其",
-        "description": "在对冲基金面临重大损失之际，Citadel创始人Ken Griffin再次展现其市场敏锐度，成功收购California对冲基金Situational Awareness，后者因人工智能股票的投资失利而濒临崩溃。此次交易标志着Citadel在市场动荡中继续发挥其救助者的角色。",
-        "useCases": [
-          "分析Situational Awareness的投资组合，评估流动性风险。",
-          "制定针对AI股票的投资策略，降低潜在损失。",
-          "借鉴Citadel的风险管理经验，优化自身投资决策。"
-        ],
-        "watch": "市场波动可能导致Citadel在收购后面临进一步损失，尤其是在AI股票领域。",
-        "sourceName": "NewsAPI:artificial intelligence",
-        "url": "https://www.channelnewsasia.com/business/situational-awareness-ai-deal-citadels-griffin-rides-rescue-again-6292246"
       }
     ],
     "ai-benchmark": [
@@ -12708,6 +12707,161 @@ window.AI_GENERATED_DATA = {
     "ai-office": []
   },
   "skillRecommendations": [
+    {
+      "title": "skilldex-cli",
+      "type": "桌面工具",
+      "description": "skilldex-cli 是一个用于管理 Claude 技能包的工具，提供了便捷的包管理和注册功能。",
+      "details": "skilldex-cli 允许开发者轻松地安装、更新和管理 Claude 的技能包。通过命令行界面，用户可以快速获取技能包的最新版本，并将其集成到自己的项目中。与其他包管理工具相比，skilldex-cli 专注于 Claude 生态系统，确保兼容性和优化性能。它支持多种操作系统，并且可以与现有的开发工具链无缝集成。",
+      "features": [
+        "安装和更新 Claude 技能包",
+        "查看可用技能包列表",
+        "注册自定义技能包",
+        "卸载不再需要的技能包"
+      ],
+      "useCases": [
+        "开发者快速安装所需的 Claude 技能包",
+        "团队成员共享自定义技能包",
+        "项目中集成最新的 Claude 功能"
+      ],
+      "tags": [
+        "技能管理",
+        "命令行工具",
+        "Claude"
+      ],
+      "url": "https://www.npmjs.com/package/skilldex-cli",
+      "source": "npm",
+      "date": "2026-08-09"
+    },
+    {
+      "title": "@neat.is/claude-skill",
+      "type": "MCP 服务",
+      "description": "该技能将 @neat.is/mcp 服务器集成到 Claude 的 MCP 配置中，增强了 Claude 的代码处理能力。",
+      "details": "通过将 @neat.is/mcp 服务器与 Claude 的 MCP 配置相连，开发者可以在使用 Claude 进行代码生成和处理时，利用 NEAT 提供的服务。这种集成使得 Claude 能够更好地与外部系统交互，支持更复杂的工作流和自动化任务。与其他技能相比，该技能专注于无缝连接和数据流动，确保开发者能够在不同环境中高效工作。",
+      "features": [
+        "集成 @neat.is/mcp 服务器",
+        "支持自定义工作流",
+        "实时数据交互",
+        "增强代码生成能力"
+      ],
+      "useCases": [
+        "开发者在使用 Claude 生成代码时，自动调用 NEAT 服务",
+        "团队在代码审查过程中，实时获取外部数据",
+        "项目管理者通过 Claude 监控工作流状态"
+      ],
+      "tags": [
+        "Claude",
+        "MCP",
+        "代码生成"
+      ],
+      "url": "https://www.npmjs.com/package/@neat.is/claude-skill",
+      "source": "npm",
+      "date": "2026-08-09"
+    },
+    {
+      "title": "antd-claude-skill",
+      "type": "agent-skills 仓库",
+      "description": "该技能包为 Coding Agent 提供了与 Ant Design 组件库的集成能力，简化了 UI 组件的使用。",
+      "details": "antd-claude-skill 是一个专为 Ant Design 设计的技能包，旨在帮助开发者在使用 Claude 进行项目时，轻松集成 Ant Design 组件。通过该技能，开发者可以在构建用户界面时，快速调用 Ant Design 的丰富组件，提升开发效率。与其他 UI 组件库相比，Ant Design 提供了更为一致的设计语言和丰富的功能，适合企业级应用。该技能兼容 React 和 TypeScript，确保了在现代前端开发中的广泛适用性。",
+      "features": [
+        "集成 Ant Design 组件",
+        "支持自定义主题",
+        "提供组件文档和示例",
+        "支持 TypeScript 类型定义"
+      ],
+      "useCases": [
+        "构建企业级应用的用户界面",
+        "快速开发原型和 MVP",
+        "实现一致的设计风格"
+      ],
+      "tags": [
+        "Ant Design",
+        "前端开发",
+        "UI 组件"
+      ],
+      "url": "https://www.npmjs.com/package/antd-claude-skill",
+      "source": "npm",
+      "date": "2026-08-09"
+    },
+    {
+      "title": "skilltune",
+      "type": "agent-skills 仓库",
+      "description": "skilltune 让 Coding Agent 能够优化技能描述，以确保可靠触发。",
+      "details": "skilltune 是一个用于优化 Claude 技能描述的工具，帮助开发者确保技能在触发时的可靠性。通过分析和调整技能描述，skilltune 可以提高技能的响应准确性，减少误触发的情况。与其他技能优化工具相比，skilltune 专注于描述的清晰度和简洁性，确保技能在不同场景下都能被准确识别。该工具兼容多种 JavaScript 环境，适合在 Node.js 项目中使用。",
+      "features": [
+        "优化技能描述以提高触发可靠性",
+        "分析技能描述中的潜在问题",
+        "提供建议以改善描述清晰度",
+        "支持多种 JavaScript 环境",
+        "简化技能描述的调整过程"
+      ],
+      "useCases": [
+        "开发者在创建新技能时优化描述",
+        "团队在审查现有技能时提高触发准确性",
+        "项目中需要确保技能描述一致性"
+      ],
+      "tags": [
+        "技能优化",
+        "Claude",
+        "JavaScript",
+        "开发工具",
+        "技能管理"
+      ],
+      "url": "https://www.npmjs.com/package/skilltune",
+      "source": "npm",
+      "date": "2026-08-09"
+    },
+    {
+      "title": "dropsh",
+      "type": "MCP / 工作流",
+      "description": "dropsh 是一个与实体无关的 CLI 工具，专为 Drupal 11 JSON:API 设计，支持 dropsh Claude 技能的编辑发布工作流。",
+      "details": "dropsh 提供了一种简化的命令行接口，允许开发者与 Drupal 11 的 JSON:API 进行交互。它可以用于自动化内容发布、更新和管理，适合需要频繁与 Drupal 后端交互的开发者。与传统的 API 调用方式相比，dropsh 提供了更高效的工作流，减少了手动操作的复杂性。该工具兼容 Node.js 环境，易于集成到现有的开发流程中。",
+      "features": [
+        "支持与 Drupal 11 JSON:API 进行交互",
+        "简化内容发布和更新流程",
+        "提供命令行接口，易于使用",
+        "与 dropsh Claude 技能无缝集成"
+      ],
+      "useCases": [
+        "自动化内容发布流程",
+        "快速更新 Drupal 内容",
+        "简化开发者与 Drupal 后端的交互"
+      ],
+      "tags": [
+        "Drupal",
+        "CLI工具",
+        "内容管理",
+        "自动化",
+        "JSON:API"
+      ],
+      "url": "https://www.npmjs.com/package/dropsh",
+      "source": "npm",
+      "date": "2026-08-09"
+    },
+    {
+      "title": "@canton-network-devs/cf-daml-skill",
+      "type": "agent-skills 仓库",
+      "description": "该技能帮助 Coding Agent 在 Canton Network 上编写正确的 Daml 智能合约。",
+      "details": "使用 @canton-network-devs/cf-daml-skill，开发者可以在 Canton Network 上高效地编写和验证 Daml 智能合约。该技能提供了智能合约的语法检查和自动化测试功能，确保合约在部署前符合预期逻辑。与其他 Daml 工具相比，此技能专注于与 Canton Network 的兼容性，支持多种 Daml 版本，简化了合约开发流程。",
+      "features": [
+        "提供 Daml 语法检查",
+        "自动化合约测试",
+        "支持多种 Daml 版本",
+        "与 Canton Network 完全兼容"
+      ],
+      "useCases": [
+        "编写智能合约时自动检查语法错误",
+        "在合约部署前进行自动化测试",
+        "确保合约与 Canton Network 的兼容性"
+      ],
+      "tags": [
+        "智能合约",
+        "Daml",
+        "Canton Network"
+      ],
+      "url": "https://www.npmjs.com/package/@canton-network-devs/cf-daml-skill",
+      "source": "npm",
+      "date": "2026-08-09"
+    },
     {
       "title": "llamameta/DeepSeek-R1-Chat-Assistant-Web-Search",
       "type": "agent-skills 仓库",
@@ -15500,7 +15654,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-08-09",
-    "generatedAt": "2026-08-09T09:50:04.080811Z",
+    "generatedAt": "2026-08-09T09:54:32.633596Z",
     "total": 24,
     "sections": [
       {
