@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-08-09",
-  "generatedAt": "2026-08-09T01:13:21.875744Z",
+  "generatedAt": "2026-08-09T09:50:04.106948Z",
   "news": [
     {
       "title": "OpenAI ChatGPT 桌面版新增语音交互功能，支持多步骤任务执行",
@@ -6099,6 +6099,44 @@
   ],
   "githubWeekly": [
     {
+      "name": "OpenBMB/VisRAG",
+      "lang": "Python",
+      "category": "RAG 引擎",
+      "description": "这是一个无解析的 RAG 工具，支持视觉语言模型（VLMs），适合需要高效信息检索的开发者。",
+      "details": "VisRAG 旨在解决传统 RAG 系统在解析过程中的效率瓶颈，提供一种无解析的解决方案。与其他 RAG 引擎如 Haystack 和 LangChain 相比，VisRAG 更加专注于视觉信息的处理，利用 VLMs 提升信息检索的准确性和速度。该项目使用 Python 开发，采用开源许可证，适合对视觉信息处理有需求的开发者尝试，不推荐给不熟悉 VLMs 的用户。",
+      "features": [
+        "支持无解析信息检索",
+        "集成视觉语言模型",
+        "高效处理视觉信息",
+        "兼容多种数据源",
+        "提供简单易用的 API"
+      ],
+      "useCases": [
+        "实现无解析的视觉信息检索",
+        "在图像数据集上进行快速查询",
+        "集成到现有的 AI 应用中",
+        "支持多模态数据处理"
+      ],
+      "quickStart": [
+        "git clone https://github.com/OpenBMB/VisRAG.git",
+        "cd VisRAG",
+        "pip install -r requirements.txt",
+        "python run.py"
+      ],
+      "why": "VisRAG 以 977 stars 的社区支持，展示了其在视觉信息检索领域的潜力。与同类产品相比，它的无解析特性使得信息检索更加高效，适合快速迭代的开发环境。该项目的活跃度和更新频率也表明了其持续改进的能力。",
+      "tags": [
+        "视觉语言模型",
+        "信息检索",
+        "无解析",
+        "开源",
+        "Python"
+      ],
+      "url": "https://github.com/OpenBMB/VisRAG",
+      "stars": "977 stars",
+      "source": "GitHub · 面壁智能 MiniCPM",
+      "date": "2026-08-09"
+    },
+    {
       "name": "Tencent-Hunyuan/Hunyuan3D-WorldClaw",
       "lang": "TypeScript",
       "category": "LLM 应用平台",
@@ -8241,42 +8279,6 @@
       "stars": "27745 stars",
       "source": "GitHub Search · 2026-08-04",
       "date": "2026-08-04"
-    },
-    {
-      "name": "Significant-Gravitas/AutoGPT",
-      "lang": "Python",
-      "category": "Agent 框架",
-      "description": "AutoGPT 是一个面向所有人的 AI 工具，旨在简化 AI 的使用和构建，帮助用户专注于重要事务。",
-      "details": "AutoGPT 解决了 AI 使用门槛高的问题，提供了一个易于使用的框架，适合开发者和普通用户。与其他竞品如 OpenAI 的 GPT-3 相比，AutoGPT 更加注重可访问性和用户友好性。该项目使用 Python 开发，采用 MIT 许可证，适合希望快速构建 AI 应用的开发者，不推荐对 AI 开发不感兴趣的用户。",
-      "features": [
-        "支持多种任务的自动化处理",
-        "提供用户友好的界面",
-        "兼容 OpenAI API",
-        "支持自定义模型和插件",
-        "集成多种数据源"
-      ],
-      "useCases": [
-        "构建个性化的聊天机器人",
-        "自动生成内容和文档",
-        "进行数据分析和报告生成",
-        "实现智能客服系统"
-      ],
-      "quickStart": [
-        "git clone https://github.com/Significant-Gravitas/AutoGPT.git",
-        "cd AutoGPT",
-        "pip install -r requirements.txt",
-        "python main.py"
-      ],
-      "why": "AutoGPT 拥有超过 185794 个星标，显示出其广泛的社区支持和活跃度。与其他 AI 框架相比，它提供了更高的可定制性和易用性，适合各类用户。其开源性质和活跃的开发者社区也为用户提供了丰富的资源和支持。",
-      "tags": [
-        "AI",
-        "自动化",
-        "开发工具"
-      ],
-      "url": "https://github.com/Significant-Gravitas/AutoGPT",
-      "stars": "185794 stars",
-      "source": "GitHub Search · 2026-08-04",
-      "date": "2026-08-04"
     }
   ],
   "sources": [
@@ -9666,6 +9668,32 @@
     ],
     "ai-models": [
       {
+        "name": "印度尼西亚在2026年人工智能奥林匹克中获四枚奖牌",
+        "provider": "NewsAPI",
+        "type": "AI 项目/工具",
+        "bestFor": "此次成就对印度尼西亚的教育和科技发展具有深远影响。首先，获奖学生的成功将激励更多年轻人投身于科学和技术领域，特别是人工智能。其次，这一成绩可能促使政府和教育机构加大对科技教育的投资，培养更多具备竞争力的人才。此外，印尼与哈萨克斯坦的合作将进一步深化，可能带来更多的交流与合作机会，推动两国在数字技术领域的共同发展。",
+        "description": "在2026年国际人工智能奥林匹克（IOAI）中，印度尼西亚代表队表现出色，获得了一枚金牌、两枚银牌和一枚铜牌。这场比赛于8月2日至8日在哈萨克斯坦的阿斯塔纳举行，吸引了来自106个国家的500多名学生参赛。",
+        "useCases": [
+          "鼓励学生参与人工智能相关的竞赛和项目，提升实践能力。",
+          "推动学校与企业合作，开展人工智能相关的课程和培训。",
+          "促进国际间的学术交流与合作，分享技术与经验。"
+        ],
+        "watch": "参与国际比赛的费用可能较高，需提前做好预算。",
+        "sourceName": "NewsAPI:artificial intelligence",
+        "url": "https://en.antaranews.com/news/426125/indonesia-wins-four-medals-at-2026-ai-olympiad"
+      },
+      {
+        "name": "Vanguard Chief Economist: AI and jobs, still in an ATM phase",
+        "provider": "NewsAPI",
+        "type": "AI 项目/工具",
+        "bestFor": "We remain closer to the ATM phase than the mobile banking phase.",
+        "description": "We remain closer to the ATM phase than the mobile banking phase.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsAPI:artificial intelligence",
+        "url": "https://fortune.com/2026/08/08/vanguard-chief-economist-ai-and-jobs-atm-phase/"
+      },
+      {
         "name": "AI 聊天机器人 CollaBot 提升学生协作写作能力",
         "provider": "NewsAPI",
         "type": "AI 项目/工具",
@@ -10238,43 +10266,26 @@
         "watch": "用户隐私风险：授权自动浏览功能可能导致个人数据被收集和滥用，用户需谨慎对待。",
         "sourceName": "X：Gemini (@GeminiApp)",
         "url": "https://x.com/GeminiApp/status/2082923048362299629"
-      },
-      {
-        "name": "企业级 Token 工厂：一站式模型服务平台",
-        "provider": "中国一手",
-        "type": "AI 项目/工具",
-        "bestFor": "模型广场的推出将对企业的 AI 应用产生深远影响。首先，企业可以通过低成本的方式快速获取所需模型，降低了技术门槛。其次，统一的 API 使得开发者能够更专注于业务逻辑，而不是模型的管理和调用。此外，随着更多企业接入这一平台，市场上对 AI 模型的需求将进一步增加，推动整个行业的发展。",
-        "description": "我注意到，模型广场作为企业级 Token 工厂，聚合了全球优质的大模型和算力资源，提供统一的 API 和智能路由，帮助企业以低成本获取高可用的模型服务。用户只需购买一次，即可享受多种主流模型的使用权，极大地简化了企业在 AI 应用中的模型管理和调用流程。",
-        "useCases": [
-          "企业 IT 负责人通过模型广场快速获取所需模型，降低了采购成本。",
-          "数据科学家利用统一 API 进行模型调用，提升了开发效率。",
-          "AI 产品经理在项目中灵活使用多种模型，满足不同业务需求。",
-          "开发者通过智能路由功能，快速切换模型，优化应用性能。",
-          "技术顾问为客户提供模型选择建议，提升了客户满意度。"
-        ],
-        "watch": "API 价格可能会随使用量增加而上涨，企业需提前评估成本。",
-        "sourceName": "中国一手 · Gitee 模力方舟",
-        "url": "https://ai.gitee.com/serverless-api"
-      },
-      {
-        "name": "PocketClaw（口袋智能体）发布，提供高性价比的本地 AI 助手",
-        "provider": "中国一手",
-        "type": "AI 项目/工具",
-        "bestFor": "PocketClaw 的推出将吸引广泛的用户群体，包括企业用户、开发者和普通消费者。其高效的任务执行能力和安全性将改变用户对 AI 助手的使用体验，推动更多企业在日常工作中采用智能化解决方案。随着 PocketClaw 的普及，预计将促进 AI 助手市场的进一步发展，推动相关技术的创新与应用。",
-        "description": "PocketClaw（口袋智能体）由模力方舟推出，结合小巧硬件与强大操作系统，提供开箱即用的本地 AI 助手。其内置的模力方舟大模型 API 具备全模态推理能力，确保用户在安全的环境中高效工作。",
-        "useCases": [
-          "使用 PocketClaw 进行日常任务管理，提高工作效率。",
-          "通过 PocketClaw 与团队成员实时沟通，优化协作流程。",
-          "利用 PocketClaw 的安全防护功能，保护企业数据安全。",
-          "借助 PocketClaw 的全自动模块，减少人工干预，提升生产力。",
-          "在教育领域应用 PocketClaw，辅助学生进行自主学习。"
-        ],
-        "watch": "PocketClaw 的云服务可能面临 API 价格波动，影响长期使用成本。",
-        "sourceName": "中国一手 · Gitee 模力方舟",
-        "url": "https://ai.gitee.com/pocketclaw"
       }
     ],
     "ai-business": [
+      {
+        "name": "AI 如何重塑软件开发者的工作",
+        "provider": "NewsAPI",
+        "type": "AI 项目/工具",
+        "bestFor": "AI 的引入将影响多个层面，首先是开发者的工作方式，团队协作将更加依赖于 AI 工具。其次，企业在决策时需要考虑 AI 的风险和收益，可能会重新评估项目的可行性。此外，AI 的普及可能导致开发者技能的快速更新，迫使他们不断学习新技术以保持竞争力。最终，企业可能需要在 AI 工具的使用上投入更多资源，影响整体预算和项目规",
+        "description": "软件开发者 Andrew Caldwell 指出，AI 在他的工作中带来了三大变化：提升了工作效率、模糊了团队角色的界限，并提高了人类监督的必要性。尽管 AI 带来了便利，但也伴随了新的挑战和风险。",
+        "useCases": [
+          "利用 AI 工具加速代码生成，提高开发效率。",
+          "通过 AI 进行代码审查，确保代码质量和安全性。",
+          "使用 AI 分析团队协作数据，优化工作流程。",
+          "借助 AI 进行市场需求分析，指导产品开发方向。",
+          "运用 AI 进行用户反馈分析，提升产品用户体验。"
+        ],
+        "watch": "AI 生成内容的准确性可能存在问题，开发者需花费额外时间进行验证。",
+        "sourceName": "NewsAPI:generative AI",
+        "url": "https://www.businessinsider.com/software-developer-says-ai-changed-his-job-2026-8#article"
+      },
       {
         "name": "Airbnb CEO 透露 AI 助力公司增长，前景乐观",
         "provider": "NewsAPI",
@@ -10859,23 +10870,6 @@
         "watch": "市场波动可能导致Citadel在收购后面临进一步损失，尤其是在AI股票领域。",
         "sourceName": "NewsAPI:artificial intelligence",
         "url": "https://www.channelnewsasia.com/business/situational-awareness-ai-deal-citadels-griffin-rides-rescue-again-6292246"
-      },
-      {
-        "name": "品牌与市场策略如何塑造现代领导力",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "这一理念对企业领导者、市场营销人员和教育工作者都有深远影响。通过重视品牌建设和市场策略，企业能够在竞争激烈的环境中脱颖而出。同时，Mukaab 项目为年轻人提供了实践机会，帮助他们在未来的商业环境中更具竞争力。整体来看，这种以人为本的商业模式将推动企业在长期内实现可持续发展。",
-        "description": "我注意到，Khalil AlHamar 认为，真正的商业成功源于对市场和受众的深刻理解，而不仅仅依赖短期趋势。通过教育和持续学习，领导者能够更好地把握品牌定位和市场策略，从而实现可持续发展。AI 可以辅助这一过程，但不能替代人类的创造力和战略思维。",
-        "useCases": [
-          "分析市场数据，制定基于受众洞察的品牌策略，以提升品牌认知度。",
-          "利用设计工具创建一致的品牌形象，确保所有营销材料传达相同的信息。",
-          "参与 Mukaab 项目，提升年轻人的设计能力和商业思维，培养未来的行业人才。",
-          "通过持续学习和教育，帮助团队适应快速变化的市场环境，提升整体竞争力。",
-          "整合 AI 工具，优化内容创作流程，但保持人类的创造力和战略思考。"
-        ],
-        "watch": "过度依赖 AI 可能导致品牌失去个性，降低市场竞争力。",
-        "sourceName": "NewsAPI:artificial intelligence",
-        "url": "https://mena.entrepreneur.com/entrepreneurs/beyond-trends-how-branding-marketing-strategy-design-and-education-shape-modern-leadership"
       }
     ],
     "ai-benchmark": [
@@ -12714,6 +12708,160 @@
     "ai-office": []
   },
   "skillRecommendations": [
+    {
+      "title": "llamameta/DeepSeek-R1-Chat-Assistant-Web-Search",
+      "type": "agent-skills 仓库",
+      "description": "该 Skill 使 Coding Agent 能够通过网络搜索获取信息，增强对话能力。",
+      "details": "DeepSeek-R1 是一个基于 Hugging Face 的聊天助手，能够实时从网络中搜索信息并提供相关答案。它适用于需要快速获取信息的场景，如技术支持、客户服务等。与其他聊天助手相比，DeepSeek-R1 具备更强的实时搜索能力，能够处理更复杂的查询。该项目使用了 Hugging Face 的 Transformers 库，兼容多种编程环境。",
+      "features": [
+        "实时网络搜索",
+        "自然语言处理",
+        "多种语言支持",
+        "上下文理解",
+        "信息提取"
+      ],
+      "useCases": [
+        "提供技术支持时快速查找解决方案",
+        "客户服务中实时回答用户问题",
+        "教育场景下辅助学生获取资料"
+      ],
+      "tags": [
+        "聊天助手",
+        "网络搜索",
+        "信息检索"
+      ],
+      "url": "https://huggingface.co/spaces/llamameta/DeepSeek-R1-Chat-Assistant-Web-Search",
+      "source": "HF Spaces",
+      "date": "2026-08-09"
+    },
+    {
+      "title": "IoannisTr/Tech_Stocks_Trading_Assistant",
+      "type": "agent-skills 仓库",
+      "description": "该技能为交易代理提供了技术股票交易的辅助功能，帮助用户更好地进行投资决策。",
+      "details": "该项目是一个基于 Hugging Face 的空间，专注于技术股票的交易助手。用户可以通过此工具获取实时市场数据、分析股票趋势，并根据历史数据生成交易建议。与其他交易助手不同的是，该助手利用了最新的机器学习模型，提供更精准的预测和分析。兼容 Python 环境，易于集成到现有的交易工作流中。",
+      "features": [
+        "实时市场数据获取",
+        "股票趋势分析",
+        "历史数据回测",
+        "交易建议生成"
+      ],
+      "useCases": [
+        "投资者获取实时技术股票信息",
+        "分析师进行市场趋势分析",
+        "交易员制定交易策略"
+      ],
+      "tags": [
+        "股票交易",
+        "技术分析",
+        "投资助手"
+      ],
+      "url": "https://huggingface.co/spaces/IoannisTr/Tech_Stocks_Trading_Assistant",
+      "source": "HF Spaces",
+      "date": "2026-08-09"
+    },
+    {
+      "title": "jickman125/Gemma4-31b-uncensored-assistant",
+      "type": "agent-skills 仓库",
+      "description": "该 Skill 提供了一个无审查的助手，适用于多种对话场景，增强了用户与 AI 的互动体验。",
+      "details": "Gemma4-31b 是一个基于 Hugging Face 的对话模型，专注于提供无审查的对话能力。用户可以在多种场景中使用该助手，例如进行开放式对话、获取信息或进行创意写作。与其他对话模型相比，Gemma4-31b 的无审查特性使其在处理敏感话题时更加灵活。该模型兼容 Hugging Face 的 API，易于集成到现有的应用程序中。",
+      "features": [
+        "支持开放式对话",
+        "无审查内容生成",
+        "兼容 Hugging Face API",
+        "适用于多种应用场景"
+      ],
+      "useCases": [
+        "进行开放式对话",
+        "获取实时信息",
+        "进行创意写作"
+      ],
+      "tags": [
+        "对话模型",
+        "无审查助手",
+        "Hugging Face"
+      ],
+      "url": "https://huggingface.co/spaces/jickman125/Gemma4-31b-uncensored-assistant",
+      "source": "HF Spaces",
+      "date": "2026-08-09"
+    },
+    {
+      "title": "suriya7/Code-Assistant",
+      "type": "agent-skills 仓库",
+      "description": "Code-Assistant 是一个为开发者提供代码建议和自动补全的工具，提升编程效率。",
+      "details": "Code-Assistant 利用先进的机器学习模型，帮助开发者在编写代码时提供实时的建议和自动补全功能。它可以在多种编程语言中工作，支持常见的开发环境。与其他代码助手相比，Code-Assistant 更加注重上下文理解，能够根据当前代码的逻辑提供更精准的建议。适用于各种项目，无论是个人开发还是团队协作，均能显著提高代码质量和开发速度。",
+      "features": [
+        "实时代码建议",
+        "自动补全功能",
+        "多语言支持",
+        "上下文理解能力"
+      ],
+      "useCases": [
+        "提高代码编写效率",
+        "减少语法错误",
+        "帮助新手学习编程",
+        "加速团队协作"
+      ],
+      "tags": [
+        "代码助手",
+        "编程工具",
+        "开发效率"
+      ],
+      "url": "https://huggingface.co/spaces/suriya7/Code-Assistant",
+      "source": "HF Spaces",
+      "date": "2026-08-09"
+    },
+    {
+      "title": "llamameta/Qwen2.5-Coder-32B-Instruct-Chat-Assistant",
+      "type": "agent-skills 仓库",
+      "description": "这个 Skill 使 Coding Agent 能够通过自然语言指令生成代码，提升开发效率。",
+      "details": "Qwen2.5-Coder-32B 是一个基于大规模预训练模型的聊天助手，专注于代码生成。用户可以通过自然语言描述需求，助手将自动生成相应的代码片段。与传统的代码生成工具相比，该助手能够理解更复杂的指令，并提供更为准确的代码输出。它支持多种编程语言，并能与现有的开发环境无缝集成，适用于各种编程任务。",
+      "features": [
+        "根据自然语言生成代码",
+        "支持多种编程语言",
+        "提供代码片段的实时反馈",
+        "与开发环境无缝集成"
+      ],
+      "useCases": [
+        "开发者通过自然语言描述需求生成代码",
+        "在编程学习中获取代码示例",
+        "快速原型开发时生成功能代码"
+      ],
+      "tags": [
+        "代码生成",
+        "自然语言处理",
+        "开发工具"
+      ],
+      "url": "https://huggingface.co/spaces/llamameta/Qwen2.5-Coder-32B-Instruct-Chat-Assistant",
+      "source": "HF Spaces",
+      "date": "2026-08-09"
+    },
+    {
+      "title": "Groq/groq-gradio-voice-assistant",
+      "type": "agent-skills 仓库",
+      "description": "该 Skill 提供了一个基于 Gradio 的语音助手，增强了与用户的交互能力。",
+      "details": "Groq 的 Gradio 语音助手允许用户通过语音与应用进行交互，适用于需要语音输入的场景，如语音控制的应用程序或聊天机器人。与其他语音助手相比，该项目专注于简化集成过程，用户可以快速部署并自定义语音助手。技术栈包括 Gradio 和 Hugging Face 的模型，兼容多种语音识别和合成技术。",
+      "features": [
+        "支持多种语言的语音识别",
+        "实时语音输入处理",
+        "可自定义的语音助手界面",
+        "与 Hugging Face 模型无缝集成"
+      ],
+      "useCases": [
+        "构建语音控制的应用程序",
+        "创建互动式聊天机器人",
+        "实现语音输入的用户反馈系统"
+      ],
+      "tags": [
+        "语音助手",
+        "Gradio",
+        "Hugging Face",
+        "交互式应用",
+        "AI 技术"
+      ],
+      "url": "https://huggingface.co/spaces/Groq/groq-gradio-voice-assistant",
+      "source": "HF Spaces",
+      "date": "2026-08-09"
+    },
     {
       "title": "K-Dense-AI/scientific-agent-skills",
       "type": "agent-skills 仓库",
@@ -15352,7 +15500,7 @@
   ],
   "dailyReport": {
     "date": "2026-08-09",
-    "generatedAt": "2026-08-09T01:13:21.849669Z",
+    "generatedAt": "2026-08-09T09:50:04.080811Z",
     "total": 24,
     "sections": [
       {
