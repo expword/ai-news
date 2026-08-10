@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-08-10",
-  "generatedAt": "2026-08-10T04:38:14.718843Z",
+  "generatedAt": "2026-08-10T06:34:28.280120Z",
   "news": [
     {
       "title": "千问开放平台正式上线，覆盖多领域智能服务",
@@ -8385,6 +8385,21 @@ window.AI_GENERATED_DATA = {
       "date": "2026-08-04"
     },
     {
+      "name": "ByteDance-Seed/Modular-TTT",
+      "lang": "Python",
+      "description": "字节跳动 Seed 开源项目。",
+      "stars": "2 stars",
+      "why": "国产大模型厂商 字节跳动 Seed 的最新开源动态/模型发布，属一手信源。",
+      "url": "https://github.com/ByteDance-Seed/Modular-TTT",
+      "source": "GitHub · 字节跳动 Seed",
+      "tier": "T1",
+      "category": "Coding Agent",
+      "details": "字节跳动 Seed 开源项目。",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
       "name": "rohitg00/ai-engineering-from-scratch",
       "lang": "Python",
       "description": "Learn it. Build it. Ship it for others.",
@@ -8394,20 +8409,6 @@ window.AI_GENERATED_DATA = {
       "source": "GitHub Search · 2026-08-10",
       "category": "Coding Agent",
       "details": "Learn it. Build it. Ship it for others.",
-      "features": [],
-      "useCases": [],
-      "quickStart": []
-    },
-    {
-      "name": "Shubhamsaboo/awesome-llm-apps",
-      "lang": "Python",
-      "description": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "stars": "131794 stars",
-      "why": "近期更新且具备 AI / LLM / Agent 相关主题，适合做项目介绍、教程或同类对比。",
-      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
-      "source": "GitHub Search · 2026-08-10",
-      "category": "Coding Agent",
-      "details": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
       "features": [],
       "useCases": [],
       "quickStart": []
@@ -9794,6 +9795,49 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-models": [
       {
+        "name": "Palantir Technologies 股票面临转机",
+        "provider": "NewsAPI",
+        "type": "AI 项目/工具",
+        "bestFor": "Palantir 股票的潜在回暖可能会吸引更多投资者，尤其是在 AI 领域的持续增长背景下。若股价回升，可能会改变投资者对科技股的整体看法，进而影响市场对其他类似公司的投资决策。此外，Palantir 的成功将进一步验证其商业模式的有效性，可能促使更多企业在 AI 领域进行投资。",
+        "description": "Palantir Technologies（NASDAQ: PLTR）在过去几个月内经历了股价波动，尽管公司持续发布强劲业绩，AI 软件需求不断上升，但投资者反应平淡。近期市场情绪似乎有所改善，可能预示着股价回暖的机会。",
+        "useCases": [
+          "分析 Palantir 的财务报告，评估其投资价值。",
+          "监测 AI 软件市场动态，预测未来趋势。",
+          "利用 Palantir 的数据分析工具，优化业务决策。"
+        ],
+        "watch": "Palantir 股票的波动性较大，投资者需谨慎评估风险。",
+        "sourceName": "NewsAPI:artificial intelligence",
+        "url": "https://biztoc.com/x/04d72ccff0abd263"
+      },
+      {
+        "name": "未来工作消失，如何利用闲暇时间？",
+        "provider": "NewsAPI",
+        "type": "AI 项目/工具",
+        "bestFor": "这一变化将影响各个层面，首先是劳动市场的结构，许多传统职业将消失，新的职业将应运而生。其次，政府可能需要重新考虑社会保障和收入分配机制，以适应普遍高收入的需求。此外，个人的生活方式也将发生变化，人们可能会更多地追求兴趣和创造性活动，而非单纯的工作。最后，经济的整体结构可能会向更高效和可持续的方向发展，带来新的商业模式和",
+        "description": "随着人工智能和机器人技术的发展，Elon Musk 预测到 2036 年，几乎所有工作都将被 AI 取代。人类可能会面临新的生活方式，享受由政府提供的普遍高收入。本文探讨了这一变化对人类生活的影响及应对策略。",
+        "useCases": [
+          "探索新的职业机会，关注 AI 和机器人技术相关的领域，提升自身技能以适应未来市场。",
+          "参与社区活动，利用闲暇时间进行志愿服务，增强社会联系和个人满足感。",
+          "学习新技能，如编程或艺术创作，以便在未来的经济环境中找到新的价值。",
+          "关注政府政策变化，积极参与公共讨论，影响未来的社会保障和收入分配机制。",
+          "利用 AI 工具进行个人项目，提升工作效率，创造更多的闲暇时间。"
+        ],
+        "watch": "AI 技术的快速发展可能导致技能过时，需不断学习以保持竞争力。",
+        "sourceName": "NewsAPI:artificial intelligence",
+        "url": "https://www.irishtimes.com/opinion/2026/08/09/ian-robertson-if-elon-musk-is-right-and-ai-makes-jobs-extinct-what-will-we-do-with-our-free-time/"
+      },
+      {
+        "name": "Bessent: Rich-Poor Gap Narrowing Despite Persistent Inflatio",
+        "provider": "NewsAPI",
+        "type": "AI 项目/工具",
+        "bestFor": "Treasury Secretary Scott Bessent said the long-running economic divide between wealthier and lower-income Americans is narrowing, even as inflation and high liv",
+        "description": "Treasury Secretary Scott Bessent said the long-running economic divide between wealthier and lower-income Americans is narrowing, even as inflation and high living costs continue t",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsAPI:artificial intelligence",
+        "url": "https://www.naturalnews.com/2026-08-09-bessent-rich-poor-gap-narrowing-despite-inflation.html"
+      },
+      {
         "name": "千问开放平台正式上线，覆盖多领域智能服务",
         "provider": "公众号：千问APP（阿里）",
         "type": "AI 项目/工具",
@@ -10345,56 +10389,24 @@ window.AI_GENERATED_DATA = {
         "watch": "API 价格可能会随着版本更新而调整，用户需关注费用变化以避免超出预算。",
         "sourceName": "中国一手 · DeepSeek API 更新",
         "url": "https://api-docs.deepseek.com/updates#update-59175160585d"
-      },
-      {
-        "name": "DeepSeek 平台更新了 API",
-        "provider": "中国一手",
-        "type": "AI 项目/工具",
-        "bestFor": "此次 API 更新将使得开发者和企业用户能够更高效地利用 DeepSeek 的技术，尤其是在数据分析和机器学习项目中。随着 API 性能的提升，用户在进行大规模数据处理时将体验到更快的响应速度，进而影响他们的决策过程。此外，更新后的 API 还将吸引更多的开发者加入 DeepSeek 的生态系统，推动国产 AI 技术的",
-        "description": "DeepSeek 平台近期进行了重要的 API 更新，旨在提升用户体验和功能。此次更新包括多个新特性和优化，增强了平台的可用性和性能，适应了市场需求的变化。",
-        "useCases": [
-          "集成 DeepSeek API 进行实时数据分析，提升决策效率。",
-          "利用新 API 开发机器学习模型，缩短开发周期。",
-          "在企业内部系统中嵌入 DeepSeek API，优化数据处理流程。"
-        ],
-        "watch": "API 更新可能导致现有集成的兼容性问题，需进行额外的测试和调整。",
-        "sourceName": "中国一手 · DeepSeek API 更新",
-        "url": "https://platform.deepseek.com/"
-      },
-      {
-        "name": "阿里云百炼API参考模型更新",
-        "provider": "中国一手",
-        "type": "AI 项目/工具",
-        "bestFor": "此次更新主要面向需要快速集成API的开发者和企业用户，尤其是那些在云计算领域有较高需求的团队。通过提供更完善的文档和示例，开发者可以更快地上手，减少学习成本。同时，企业用户在进行大规模应用时，可以依赖更新后的API实现更高效的数据处理和模型调用，从而提升整体业务效率。",
-        "description": "阿里云百炼近期更新了其API参考模型，旨在提升开发者在使用云平台时的便利性和效率。此次更新包含了多项新功能和改进，特别是在模型调用和数据处理方面，适合需要高效集成的开发者和企业用户。",
-        "useCases": [
-          "快速集成阿里云API，提升项目开发效率。",
-          "使用新API处理大规模数据，优化数据流转。",
-          "通过示例代码学习API调用，缩短学习曲线。"
-        ],
-        "watch": "API调用的费用可能较高，需提前评估预算。",
-        "sourceName": "中国一手 · 阿里云百炼更新",
-        "url": "https://help.aliyun.com/zh/model-studio/model-api-reference/"
-      },
-      {
-        "name": "Diamond Hill 大型资本策略 2026 年第二季度投资者信函分析",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "这一投资者信函对投资者和市场分析师具有重要意义。它揭示了在快速变化的市场环境中，如何通过有效的股票选择和行业分析来实现投资回报。投资者可以根据信函中的分析调整自己的投资组合，以更好地应对市场波动。此外，AI 主题的持续影响可能促使更多投资者关注科技股，改变他们的投资决策。",
-        "description": "Diamond Hill Capital 发布的 2026 年第二季度投资者信函显示，其大型资本策略净回报为 3.42%，远低于 Russell 1000 价值指数的 13.87%。尽管在消费品、材料和消费品选择上表现良好，但在信息技术和医疗保健领域的选择却拖累了整体表现。AI 主题主导市场，科技股上涨 81%，而能源股因油价下跌而下滑。团队通过深入研究寻找投资机会，预计主动管理将带来超越市场的回报。",
-        "useCases": [
-          "分析 Diamond Hill 的投资策略，评估其在当前市场环境中的有效性。",
-          "根据投资者信函中的数据，调整个人或机构的投资组合。",
-          "研究 AI 对市场的影响，识别潜在的投资机会。",
-          "利用信函中的信息，制定风险管理策略以应对市场波动。",
-          "与团队讨论投资策略，获取专业的市场见解。"
-        ],
-        "watch": "投资者需注意 API 访问限制，可能影响数据获取的及时性和准确性。",
-        "sourceName": "NewsData.io:generative AI",
-        "url": "https://www.insidermonkey.com/blog/diamond-hill-large-cap-strategys-q2-2026-investor-letter-1806705/"
       }
     ],
     "ai-business": [
+      {
+        "name": "三星追踪消费者 AI 采用情况以塑造未来功能",
+        "provider": "NewsAPI",
+        "type": "AI 项目/工具",
+        "bestFor": "这一战略将吸引希望提升工作效率的职场人士，例如忙碌的白领和创业者，他们希望通过 AI 来简化日常任务。同时，家庭用户也将受益，尤其是需要管理家庭事务的父母。随着 AI 的普及，消费者的决策方式将发生变化，他们将更倾向于选择那些能够提供无缝体验的产品。此外，这一趋势可能会促使其他科技公司加速 AI 功能的开发与应用，形成",
+        "description": "三星的 Jay Kim 表示，未来的 AI 将在用户的日常生活中无缝运作，用户可以轻松完成任务，而无需考虑背后的技术。这一战略旨在提升用户体验，使 AI 成为一种自然的助手，而非干扰。",
+        "useCases": [
+          "使用三星智能家居设备，通过 AI 自动调节室内温度和照明。",
+          "在工作中利用 AI 助手安排日程，提升工作效率。",
+          "通过智能手机的 AI 功能，快速找到所需信息，节省搜索时间。"
+        ],
+        "watch": "AI 功能的实现可能需要高性能的硬件支持，普通用户的设备可能无法兼容。",
+        "sourceName": "NewsAPI:artificial intelligence",
+        "url": "https://www.thehindubusinessline.com/info-tech/samsung-tracking-consumer-ai-adoption-to-shape-future-features-official/article71324163.ece"
+      },
       {
         "name": "Dynatrace 第一季度财报超预期，平台扩展显著",
         "provider": "NewsAPI",
@@ -10979,23 +10991,6 @@ window.AI_GENERATED_DATA = {
         "watch": "数字素养不足可能导致农民无法有效使用新技术，影响推广效果。",
         "sourceName": "NewsAPI:artificial intelligence",
         "url": "https://www.thehindubusinessline.com/economy/agri-business/5-ways-agritech-can-fuel-real-growth-in-indias-aspirational-blocks/article71291731.ece"
-      },
-      {
-        "name": "AEO 和 GEO 是基础设施，而非增长策略",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "AEO 和 GEO 的有效应用将改变企业的市场策略，帮助企业更好地理解客户需求，提升客户满意度。通过数据驱动的决策，企业能够优化营销资源配置，提升投资回报率。此外，这些工具的整合将推动企业在数字化转型中取得更大的成功，影响到整个行业的竞争格局。",
-        "description": "AEO（自动化引擎优化）和GEO（地理优化）被视为基础设施，而非单纯的增长策略。尽管它们能够提升机器的引用能力，但并不意味着客户会自动到来。企业需要重新审视如何利用这些工具来增强客户体验，而不是仅仅依赖于技术的表面效果。",
-        "useCases": [
-          "分析客户数据，利用 AEO 优化网站内容，提升搜索引擎排名。",
-          "通过 GEO 技术，精准定位目标客户群体，制定个性化营销策略。",
-          "结合 AEO 和 GEO 数据，评估营销活动的效果，调整策略以提高 ROI。",
-          "使用 AI 虚拟代理提升客户服务效率，减少客户等待时间。",
-          "定期审查 AEO 和 GEO 的实施效果，确保与市场需求保持一致。"
-        ],
-        "watch": "在实施 AEO 和 GEO 时，企业可能面临高昂的 API 费用，需提前预算。",
-        "sourceName": "NewsAPI:large language model",
-        "url": "https://www.cmswire.com/digital-marketing/why-aeo-and-geo-are-infrastructure-not-a-growth-strategy/"
       }
     ],
     "ai-benchmark": [
@@ -12238,6 +12233,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-research": [
       {
+        "name": "Scientists Report: AI Creates Never-Before-Seen Virus",
+        "provider": "NewsAPI",
+        "type": "AI 项目/工具",
+        "bestFor": "Researchers at the Arc Institute in Palo Alto, California and Stanford University used an artificial intelligence (AI) model called Evo to generate new versions",
+        "description": "Researchers at the Arc Institute in Palo Alto, California and Stanford University used an artificial intelligence (AI) model called Evo to generate new versions of a virus not foun",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsAPI:artificial intelligence",
+        "url": "https://www.naturalnews.com/2026-08-09-scientists-ai-creates-never-before-seen-virus.html"
+      },
+      {
         "name": "Taxonomy-Driven Analysis of Open-Source AI Risk Mitigation T",
         "provider": "arXiv",
         "type": "AI 项目/工具",
@@ -12812,17 +12818,6 @@ window.AI_GENERATED_DATA = {
         "watch": "API的使用费用可能较高，尤其是对于小型研究机构，需谨慎评估预算。",
         "sourceName": "NewsData.io:large language model",
         "url": "https://www.genengnews.com/industry-news/sage-inks-publishing-deal-with-causalys-ai-platform-focusing-on-drug-discovery-research/"
-      },
-      {
-        "name": "Technology Stocks To Research - July 29th",
-        "provider": "Currents",
-        "type": "AI 项目/工具",
-        "bestFor": "Micron Technology, Sandisk, NVIDIA, Apple, and Advanced Micro Devices are the five Technology stocks to watch today, according to MarketBeat's stock screener to",
-        "description": "Micron Technology, Sandisk, NVIDIA, Apple, and Advanced Micro Devices are the five Technology stocks to watch today, according to MarketBeat's stock screener tool. Technology stock",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Currents:artificial intelligence",
-        "url": "https://www.marketbeat.com/instant-alerts/technology-stocks-to-research-july-29th-2026-07-29/"
       }
     ],
     "ai-office": []
@@ -15775,7 +15770,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-08-10",
-    "generatedAt": "2026-08-10T04:38:14.680844Z",
+    "generatedAt": "2026-08-10T06:34:28.249602Z",
     "total": 24,
     "sections": [
       {
