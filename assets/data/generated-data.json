@@ -1,7 +1,72 @@
 {
   "lastUpdated": "2026-08-10",
-  "generatedAt": "2026-08-09T09:54:32.660573Z",
+  "generatedAt": "2026-08-10T02:34:59.454370Z",
   "news": [
+    {
+      "title": "千问开放平台正式上线，覆盖多领域智能服务",
+      "summary": "千问开放平台今日正式上线，面向生态伙伴和开发者提供手机、PC和AI眼镜三类终端的服务接入，涵盖物流、房产、本地生活、理财等十多个领域。用户可通过对话@相关服务或点击\"圆点角标\"，完成咨询、推荐及下单等流程。平台支持标准化协议接入、一键授权及端到端调测，并提供基础设施如账号、AI支付和订单接入。",
+      "category": "ai-tools",
+      "tags": [
+        "智能服务",
+        "千问开放平台",
+        "生态伙伴",
+        "多领域接入",
+        "对话式交互"
+      ],
+      "keyPoints": [
+        "千问开放平台支持手机、PC及AI眼镜三类终端的服务接入，首次覆盖十多个领域。",
+        "用户可通过对话方式与平台进行交互，完成从咨询到下单的完整流程。",
+        "平台提供标准化协议接入，简化开发者的接入流程，提升效率。",
+        "支持一键授权与端到端调测，确保服务的稳定性与安全性。",
+        "基础设施包括账号管理、AI支付及订单接入，便于用户使用。"
+      ],
+      "background": "千问开放平台的上线标志着阿里在智能服务领域的进一步布局，旨在通过对话式交互提升用户体验。与传统的服务接入方式相比，该平台通过标准化协议和智能体的引入，简化了服务接入的复杂性，适应了多样化的用户需求。类似的智能服务平台在市场上逐渐增多，但千问开放平台凭借其多终端支持和丰富的服务领域，具备了较强的竞争优势。",
+      "impact": "千问开放平台的上线将为开发者和生态伙伴提供更多的服务接入机会，促进业务的快速发展。用户将能够更便捷地获取所需服务，改变传统的服务获取方式，提升生活质量。随着平台的推广，预计将引发更多行业的智能化转型，推动整体市场的创新与发展。",
+      "audience": [
+        "开发者",
+        "生态合作伙伴",
+        "产品经理",
+        "用户体验设计师",
+        "智能硬件制造商"
+      ],
+      "useCases": [
+        "注册并接入千问开放平台，使用标准化协议快速搭建自己的服务。",
+        "通过对话方式与用户互动，提供个性化的服务推荐，提升用户满意度。",
+        "利用平台的AI支付功能，简化用户的支付流程，提升交易效率。",
+        "进行端到端调测，确保服务的稳定性和安全性，减少上线后的问题。",
+        "分析用户反馈，优化服务内容，提升平台的用户粘性。"
+      ],
+      "risks": [
+        "在接入过程中，开发者需注意API的使用配额，避免因超额使用导致服务中断。",
+        "不同终端的兼容性可能会影响用户体验，开发者需进行充分测试。",
+        "在使用AI支付功能时，需确保数据安全，避免用户信息泄露。",
+        "平台的服务质量可能因高并发访问而受到影响，需做好负载均衡。",
+        "在多语言支持方面，可能会遇到翻译不准确的问题，影响用户体验。"
+      ],
+      "reason": "千问开放平台的上线为开发者和用户提供了全新的智能服务体验，值得关注其在市场中的表现。",
+      "scores": {
+        "importance": 85,
+        "novelty": 75,
+        "firsthand": 90,
+        "impact": 80,
+        "credibility": 85
+      },
+      "url": "https://mp.weixin.qq.com/s?__biz=MzYzNDE5MDEwMQ%3D%3D&mid=2247488345&idx=1&sn=ef4e57c9c9350f9238d90211eb2dd453",
+      "source": "公众号：千问APP（阿里）",
+      "date": "2026-08-10",
+      "publishedAt": "2026-08-10T10:07",
+      "collectedAt": "2026-08-10T10:33",
+      "dateStatus": "verified",
+      "tier": "T1.5",
+      "score": 66,
+      "aiSelected": true,
+      "_style": "tutorial",
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "OpenAI ChatGPT 桌面版新增语音交互功能，支持多步骤任务执行",
       "summary": "OpenAI 更新了 ChatGPT 桌面应用，新增语音交互功能，用户可通过语音指令控制 AI 执行复杂任务。该功能基于新推出的 ChatGPT-Live 语音模型，支持多种应用场景，提升了用户的操作效率。",
@@ -124,6 +189,60 @@
       "_style": "observer",
       "moduleTargets": [
         "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Taxonomy-Driven Analysis of Open-Source AI Risk Mitigation Tools",
+      "summary": "Rapid adoption of large language models (LLMs) in enterprise settings has introduced operational, security, and governance risks. As generative AI applications move from pilot to p",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-08-07",
+      "publishedAt": "",
+      "collectedAt": "2026-08-10T10:34",
+      "dateStatus": "verified",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.07446v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Blast Radius",
+      "summary": "Agentic coding faces growing problems of affordability and wasted tokens. We introduce Blast Radius, a predictive memory management layer that estimates an incoming prompt's reach ",
+      "category": "ai-coding",
+      "source": "arXiv",
+      "date": "2026-08-07",
+      "publishedAt": "",
+      "collectedAt": "2026-08-10T10:34",
+      "dateStatus": "verified",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.07440v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
       ],
       "sourceCount": 1
     },
@@ -6099,6 +6218,41 @@
   ],
   "githubWeekly": [
     {
+      "name": "Tencent-Hunyuan/VisualNeedle",
+      "lang": "Python",
+      "category": "Coding Agent",
+      "description": "这是一个用于高信息密度场景下主动视觉搜索的基准工具，适合研究人员和开发者使用。",
+      "details": "VisualNeedle 提供了一种标准化的方法来评估在复杂视觉环境中进行主动搜索的算法性能。与现有的视觉搜索工具相比，它专注于高信息密度场景，能够更好地模拟真实世界中的搜索任务。该项目使用 Python 开发，采用 MIT 许可证，适合希望在视觉搜索领域进行研究的开发者使用，但不推荐给初学者，因为需要一定的计算机视觉基础。",
+      "features": [
+        "提供高信息密度场景的基准测试",
+        "支持多种视觉搜索算法的评估",
+        "易于集成到现有的计算机视觉项目中",
+        "提供详细的性能分析报告",
+        "支持自定义场景设置"
+      ],
+      "useCases": [
+        "评估新开发的视觉搜索算法性能",
+        "比较不同算法在复杂场景下的表现",
+        "为计算机视觉研究提供标准化测试环境"
+      ],
+      "quickStart": [
+        "从 GitHub 克隆项目：git clone https://github.com/Tencent-Hunyuan/VisualNeedle",
+        "安装依赖：pip install -r requirements.txt",
+        "配置场景参数：编辑 config.yaml",
+        "运行基准测试：python run_benchmark.py"
+      ],
+      "why": "VisualNeedle 专注于高信息密度场景的主动视觉搜索，填补了现有工具的空白。尽管目前没有 stars，但其独特的场景设置和评估方法使其在学术研究中具有潜在价值。该项目的活跃度和更新频率也在逐步提升，值得关注。",
+      "tags": [
+        "视觉搜索",
+        "基准测试",
+        "计算机视觉"
+      ],
+      "stars": "0 stars",
+      "url": "https://github.com/Tencent-Hunyuan/VisualNeedle",
+      "source": "GitHub · 腾讯混元",
+      "date": "2026-08-10"
+    },
+    {
       "name": "OpenBMB/VisRAG",
       "lang": "Python",
       "category": "RAG 引擎",
@@ -8242,42 +8396,6 @@
       "url": "https://github.com/open-webui/open-webui",
       "source": "GitHub Search · 2026-08-04",
       "date": "2026-08-04"
-    },
-    {
-      "name": "invoke-ai/InvokeAI",
-      "lang": "Python",
-      "category": "推理引擎",
-      "description": "Invoke 是一个为专业人士、艺术家和爱好者设计的创意引擎，使用最新的 AI 技术生成视觉媒体，提供行业领先的 WebUI。",
-      "details": "InvokeAI 解决了生成视觉内容的需求，特别是在使用 Stable Diffusion 模型方面。与其他同类产品（如 DreamStudio 和 Artbreeder）相比，InvokeAI 提供了更灵活的本地部署选项和强大的自定义功能。该项目基于 Python 开发，采用开源许可证，适合开发者和创意工作者使用，不推荐对 AI 生成内容不感兴趣的用户。",
-      "features": [
-        "提供用户友好的 WebUI",
-        "支持多种 Stable Diffusion 模型",
-        "允许本地推理和自定义设置",
-        "集成多种图像生成工具",
-        "支持高分辨率图像输出"
-      ],
-      "useCases": [
-        "生成高质量的艺术作品",
-        "创建个性化的视觉内容",
-        "进行图像风格迁移",
-        "本地运行生成模型进行实验"
-      ],
-      "quickStart": [
-        "git clone https://github.com/invoke-ai/InvokeAI.git",
-        "cd InvokeAI",
-        "pip install -r requirements.txt",
-        "python app.py"
-      ],
-      "why": "InvokeAI 拥有超过 27745 个星标，显示出其在社区中的受欢迎程度。与其他工具相比，它提供了更强的本地部署能力和灵活性，适合需要高自定义的用户。该项目活跃更新，技术支持良好。",
-      "tags": [
-        "视觉生成",
-        "AI 工具",
-        "图像处理"
-      ],
-      "url": "https://github.com/invoke-ai/InvokeAI",
-      "stars": "27745 stars",
-      "source": "GitHub Search · 2026-08-04",
-      "date": "2026-08-04"
     }
   ],
   "sources": [
@@ -8389,6 +8507,17 @@
   ],
   "topicResources": {
     "ai-coding": [
+      {
+        "name": "Blast Radius",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Agentic coding faces growing problems of affordability and wasted tokens. We introduce Blast Radius, a predictive memory management layer that estimates an inco",
+        "description": "Agentic coding faces growing problems of affordability and wasted tokens. We introduce Blast Radius, a predictive memory management layer that estimates an incoming prompt's reach ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2608.07440v1"
+      },
       {
         "name": "Meta 发布 Muse Code 编程代理，助力开发者优化项目",
         "provider": "NewsAPI",
@@ -9004,23 +9133,6 @@
         "watch": "API 价格波动可能导致企业在数据访问成本上增加，影响预算。",
         "sourceName": "Currents:AI coding tool",
         "url": "https://dev.to/beehivestrategy/implementing-mcp-in-your-enterprise-a-step-by-step-guide-2mio"
-      },
-      {
-        "name": "Tectonic AI 平台应对应用扩散与数据碎片化",
-        "provider": "Currents",
-        "type": "AI 项目/工具",
-        "bestFor": "Tectonic AI 平台的推出将对企业的应用开发和数据管理产生深远影响。首先，企业能够更高效地管理应用程序，减少维护成本。其次，数据的一致性将提高决策的准确性，帮助企业更好地理解客户和市场。最后，随着应用程序的快速迭代，企业能够更灵活地应对市场变化，提升竞争力。",
-        "description": "Tectonic AI 平台为企业提供了一种解决方案，以应对因 AI 驱动开发而导致的应用扩散和数据碎片化问题。通过建立一个稳定的共享平台，企业能够有效管理应用程序和数据，避免重复建设和数据不一致。",
-        "useCases": [
-          "整合多个应用的数据，通过 Tectonic 平台实现数据一致性和共享。",
-          "快速开发新应用，确保新应用能够利用已有的数据和服务。",
-          "简化应用维护流程，减少因应用扩散带来的管理负担。",
-          "通过定义 API 合同，确保不同应用之间的数据交互顺畅。",
-          "利用平台的稳定性，支持业务部门快速响应市场需求。"
-        ],
-        "watch": "在实施过程中，可能面临与现有系统的兼容性问题，导致集成困难。",
-        "sourceName": "Currents:AI coding tool",
-        "url": "https://dzone.com/articles/tectonic-platform-tames-app-sprawl"
       }
     ],
     "ai-agents": [
@@ -9667,6 +9779,23 @@
     ],
     "ai-models": [
       {
+        "name": "千问开放平台正式上线，覆盖多领域智能服务",
+        "provider": "公众号：千问APP（阿里）",
+        "type": "AI 项目/工具",
+        "bestFor": "千问开放平台的上线将为开发者和生态伙伴提供更多的服务接入机会，促进业务的快速发展。用户将能够更便捷地获取所需服务，改变传统的服务获取方式，提升生活质量。随着平台的推广，预计将引发更多行业的智能化转型，推动整体市场的创新与发展。",
+        "description": "千问开放平台今日正式上线，面向生态伙伴和开发者提供手机、PC和AI眼镜三类终端的服务接入，涵盖物流、房产、本地生活、理财等十多个领域。用户可通过对话@相关服务或点击\"圆点角标\"，完成咨询、推荐及下单等流程。平台支持标准化协议接入、一键授权及端到端调测，并提供基础设施如账号、AI支付和订单接入。",
+        "useCases": [
+          "注册并接入千问开放平台，使用标准化协议快速搭建自己的服务。",
+          "通过对话方式与用户互动，提供个性化的服务推荐，提升用户满意度。",
+          "利用平台的AI支付功能，简化用户的支付流程，提升交易效率。",
+          "进行端到端调测，确保服务的稳定性和安全性，减少上线后的问题。",
+          "分析用户反馈，优化服务内容，提升平台的用户粘性。"
+        ],
+        "watch": "在接入过程中，开发者需注意API的使用配额，避免因超额使用导致服务中断。",
+        "sourceName": "公众号：千问APP（阿里）",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzYzNDE5MDEwMQ%3D%3D&mid=2247488345&idx=1&sn=ef4e57c9c9350f9238d90211eb2dd453"
+      },
+      {
         "name": "印度尼西亚在2026年人工智能奥林匹克中获四枚奖牌",
         "provider": "NewsAPI",
         "type": "AI 项目/工具",
@@ -10248,23 +10377,6 @@
         "watch": "投资者需注意 API 访问限制，可能影响数据获取的及时性和准确性。",
         "sourceName": "NewsData.io:generative AI",
         "url": "https://www.insidermonkey.com/blog/diamond-hill-large-cap-strategys-q2-2026-investor-letter-1806705/"
-      },
-      {
-        "name": "Gemini Spark 与 Chrome 自动浏览功能集成",
-        "provider": "X：Gemini (@GeminiApp)",
-        "type": "AI 项目/工具",
-        "bestFor": "这一功能的推出可能会吸引大量需要高效处理网页任务的用户，如房地产经纪人和旅行代理商。通过自动化，用户能够节省时间并减少人为错误，从而提高工作效率。然而，这也可能导致用户对隐私的担忧加剧，尤其是在数据被如何使用和存储方面。此外，随着功能的推广，可能会引发对相关法律法规的讨论，影响未来 AI 工具的监管。",
-        "description": "Gemini Spark 现已与 Google Chrome 的自动浏览功能整合，用户可授权其在浏览器中自动处理网页任务，如预约看房和填写航班信息。这一功能的推出为用户提供了便利，但也引发了对隐私和数据安全的担忧。",
-        "useCases": [
-          "授权 Gemini Spark 自动填写航班信息，节省用户时间。",
-          "使用自动浏览功能预约看房，提升房地产交易效率。",
-          "在在线购物时，利用自动填写功能快速完成结账。",
-          "通过 Gemini Spark 处理重复性网页任务，减少人为错误。",
-          "在旅行规划中，自动收集和整理信息，提升用户体验。"
-        ],
-        "watch": "用户隐私风险：授权自动浏览功能可能导致个人数据被收集和滥用，用户需谨慎对待。",
-        "sourceName": "X：Gemini (@GeminiApp)",
-        "url": "https://x.com/GeminiApp/status/2082923048362299629"
       }
     ],
     "ai-business": [
@@ -12111,6 +12223,17 @@
     ],
     "ai-research": [
       {
+        "name": "Taxonomy-Driven Analysis of Open-Source AI Risk Mitigation T",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Rapid adoption of large language models (LLMs) in enterprise settings has introduced operational, security, and governance risks. As generative AI applications ",
+        "description": "Rapid adoption of large language models (LLMs) in enterprise settings has introduced operational, security, and governance risks. As generative AI applications move from pilot to p",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2608.07446v1"
+      },
+      {
         "name": "亚马逊误判用户为 AI 机器人，限制评论访问",
         "provider": "NewsAPI",
         "type": "AI 项目/工具",
@@ -12685,23 +12808,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Currents:artificial intelligence",
         "url": "https://www.marketbeat.com/instant-alerts/technology-stocks-to-research-july-29th-2026-07-29/"
-      },
-      {
-        "name": "生成式 AI 服务器市场预计到 2035 年将达到 1,932.88 亿美元",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "生成式 AI 服务器市场的快速增长将对多个行业产生深远影响。首先，云服务提供商和超大规模数据中心将成为主要受益者，他们需要更强大的计算能力来支持 AI 应用。其次，企业在决策时将更加依赖于 AI 驱动的分析和预测，从而提升运营效率。此外，随着对 AI 服务器的需求增加，相关硬件和软件供应商也将迎来新的商机，推动整个生态",
-        "description": "根据 SNS Insider 的研究，全球生成式 AI 服务器市场在 2025 年的估值为 102.50 亿美元，预计到 2035 年将增长至 1,932.88 亿美元，年均增长率为 34.17%。美国市场在 2025 年的价值为 35.76 亿美元，欧洲市场则预计在 2035 年达到 438.17 亿美元，年均增长率为 32.84%。",
-        "useCases": [
-          "部署 AI 训练服务器以支持大型语言模型的开发和优化。",
-          "利用 GPU 服务器加速深度学习和生成式 AI 应用的计算能力。",
-          "实施云基础设施以便快速扩展 AI 服务并满足企业需求。",
-          "采用混合 AI 服务器以同时支持训练和推理操作。",
-          "利用 AI 加速器提升数据中心的计算效率和性能。"
-        ],
-        "watch": "高昂的 API 成本可能限制中小企业的使用，影响市场的普及率。",
-        "sourceName": "NewsAPI:large language model",
-        "url": "https://www.globenewswire.com/news-release/2026/07/28/3334464/0/en/Generative-AI-Server-Market-Size-to-Worth-USD-1-932-88-Billion-by-2035-Research-by-SNS-Insider.html"
       }
     ],
     "ai-office": []
@@ -15653,14 +15759,25 @@
     }
   ],
   "dailyReport": {
-    "date": "2026-08-09",
-    "generatedAt": "2026-08-09T09:54:32.633596Z",
+    "date": "2026-08-10",
+    "generatedAt": "2026-08-10T02:34:59.424697Z",
     "total": 24,
     "sections": [
       {
         "category": "ai-tools",
         "label": "AI 工具",
         "items": [
+          {
+            "title": "千问开放平台正式上线，覆盖多领域智能服务",
+            "summary": "千问开放平台今日正式上线，面向生态伙伴和开发者提供手机、PC和AI眼镜三类终端的服务接入，涵盖物流、房产、本地生活、理财等十多个领域。用户可通过对话@相关服务或点击\"圆点角标\"，完成咨询、推荐及下单等流程。平台支持标准化协议接入、一键授权及端到端调测，并提供基础设施如账号、AI支",
+            "source": "公众号：千问APP（阿里）",
+            "url": "https://mp.weixin.qq.com/s?__biz=MzYzNDE5MDEwMQ%3D%3D&mid=2247488345&idx=1&sn=ef4e57c9c9350f9238d90211eb2dd453",
+            "score": 66,
+            "sourceCount": 1,
+            "date": "2026-08-10",
+            "publishedAt": "2026-08-10T10:07",
+            "reason": "千问开放平台的上线为开发者和用户提供了全新的智能服务体验，值得关注其在市场中的表现。"
+          },
           {
             "title": "OpenAI ChatGPT 桌面版新增语音交互功能，支持多步骤任务执行",
             "summary": "OpenAI 更新了 ChatGPT 桌面应用，新增语音交互功能，用户可通过语音指令控制 AI 执行复杂任务。该功能基于新推出的 ChatGPT-Live 语音模型，支持多种应用场景，提升了用户的操作效率。",
@@ -15708,6 +15825,23 @@
         ]
       },
       {
+        "category": "ai-coding",
+        "label": "AI 编程",
+        "items": [
+          {
+            "title": "Blast Radius",
+            "summary": "Agentic coding faces growing problems of affordability and wasted tokens. We introduce Blast Radius, a predictive memory management layer th",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.07440v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-07",
+            "publishedAt": "",
+            "reason": ""
+          }
+        ]
+      },
+      {
         "category": "ai-image-video",
         "label": "图像视频",
         "items": [
@@ -15746,28 +15880,6 @@
         "label": "模型发布",
         "items": [
           {
-            "title": "MiniMax M3：首个兼备编码与多模态能力的国产旗舰模型",
-            "summary": "MiniMax M3 是国内首个同时具备编码、智能体和原生多模态能力的模型，支持高达 1M tokens 的上下文窗口，性能在国际评测中表现优异，尤其在自主任务拆解和工具调用方面。M3 的创新架构使其在长程任务和多模态理解上具备显著优势，标志着国产 AI 模型的重大进步。",
-            "source": "中国一手 · MiniMax 新闻",
-            "url": "https://www.minimaxi.com/models/text/m3",
-            "score": 86,
-            "sourceCount": 1,
-            "date": "2026-08-04",
-            "publishedAt": "",
-            "reason": "MiniMax M3 的发布不仅展示了国产 AI 模型的技术实力，也为开发者提供了强大的工具，值得关注。"
-          },
-          {
-            "title": "MiniMax M2.7 模型发布，性能显著提升",
-            "summary": "MiniMax 最新发布的 M2.7 模型在多项基准测试中表现优异，得分接近行业领先水平。该模型在复杂任务处理和多轮编辑能力上有显著提升，尤其在专业办公领域的应用表现突出。",
-            "source": "中国一手 · MiniMax 新闻",
-            "url": "https://www.minimaxi.com/models/text/m27",
-            "score": 84,
-            "sourceCount": 1,
-            "date": "2026-08-04",
-            "publishedAt": "",
-            "reason": "MiniMax M2.7 模型的发布不仅提升了生产力工具的性能，还为用户提供了更高效的工作方式，值得关注。"
-          },
-          {
             "title": "Hunyuan3D-Buffalo 1.0：统一的多模态模型，支持可扩展的3D生成与编辑",
             "summary": "我最近看到Hunyuan3D-Buffalo 1.0的发布，这是一种新型的多模态模型，旨在解决3D生成、理解和编辑中的数据稀缺问题。该模型整合了文本到3D的生成能力，能够在缺乏大规模几何一致性编辑数据的情况下，提供更为统一的3D建模框架。这一进展可能会对3D内容创作和编辑带来新的",
             "source": "RSS · arXiv cs.CV",
@@ -15788,6 +15900,17 @@
             "date": "2026-08-05",
             "publishedAt": "",
             "reason": "GLM-5 的发布不仅提升了国产大模型的竞争力，还为各行业的应用提供了新的可能性，值得关注。"
+          },
+          {
+            "title": "Taxonomy-Driven Analysis of Open-Source AI Risk Mitigation Tools",
+            "summary": "Rapid adoption of large language models (LLMs) in enterprise settings has introduced operational, security, and governance risks. As generat",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.07446v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-07",
+            "publishedAt": "",
+            "reason": ""
           },
           {
             "title": "Routing LLM Inference to the Cleanest Grid in Real Time",
@@ -15943,17 +16066,6 @@
             "date": "2026-08-08",
             "publishedAt": "2026-08-08T19:05",
             "reason": "WeatherNext 模型在飓风预测中的成功应用，展示了 AI 在气象领域的巨大潜力，值得关注。"
-          },
-          {
-            "title": "个性化大语言模型的虚构推断现象",
-            "summary": "这次发布的核心点是，最新研究揭示了个性化大语言模型（LLM）在用户画像推断中存在严重的过度推断（OI）现象。研究显示，在 MirageBench 基准测试中，12 个模型的推断中有 35%-49% 被判定为虚构，平均为 41.6%。更令人担忧的是，模型自我评估的 OI 与外部评测",
-            "source": "HuggingFace Daily Papers（社区热门论文）",
-            "url": "https://arxiv.org/abs/2608.04570",
-            "score": 59,
-            "sourceCount": 1,
-            "date": "2026-08-05",
-            "publishedAt": "2026-08-05T08:00",
-            "reason": "这项研究揭示了个性化大语言模型在用户画像推断中的潜在问题，值得关注和深入探讨。"
           }
         ]
       }
