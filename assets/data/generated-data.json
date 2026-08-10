@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-08-10",
-  "generatedAt": "2026-08-10T03:57:54.356427Z",
+  "generatedAt": "2026-08-10T04:38:14.718843Z",
   "news": [
     {
       "title": "千问开放平台正式上线，覆盖多领域智能服务",
@@ -64,6 +64,66 @@
       "moduleTargets": [
         "news",
         "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Qwen-MM-Plugins 实现智能体多模态原生支持",
+      "summary": "Qwen-MM-Plugins 使智能体能够原生支持多模态功能，包括读取图片、视频和文档，编辑视频，处理 3D/CAD 文件等。这一创新标志着从多模态模型向多模态智能体的转变，极大提升了智能体的应用场景和灵活性。",
+      "category": "ai-agents",
+      "tags": [
+        "多模态",
+        "智能体",
+        "Qwen-MM-Plugins",
+        "技术创新",
+        "应用场景"
+      ],
+      "keyPoints": [
+        "Qwen-MM-Plugins 允许智能体处理多种数据类型，如图片、视频和文档，增强了其功能。",
+        "该插件支持视频编辑和 3D/CAD 文件处理，拓宽了智能体的应用范围。",
+        "通过 Qwen-MM-Plugins，智能体实现了从多模态模型向多模态智能体的转变，提升了交互能力。",
+        "Qwen-MM-Plugins 的发布为开发者提供了新的工具，促进了多模态技术的普及。",
+        "该插件的实际效果可在 GitHub 上查看，展示了其强大的功能。"
+      ],
+      "background": "Qwen-MM-Plugins 的推出是在多模态技术快速发展的背景下进行的。近年来，随着人工智能技术的进步，智能体的功能不断扩展，尤其是在处理多种数据类型方面。Qwen-MM-Plugins 的发布标志着这一趋势的进一步深化，使得智能体不仅能够理解文本信息，还能处理视觉和音频数据。这一变化与之前的单一模态模型形成鲜明对比，后者在应用场景上受到限制。",
+      "impact": "Qwen-MM-Plugins 的推出将对多个领域产生深远影响。首先，开发者和企业可以利用这一插件，创建更为复杂和智能的应用程序，满足用户对多模态交互的需求。其次，教育、医疗、设计等行业将受益于智能体的多模态处理能力，提升工作效率和用户体验。此外，这一技术的普及可能促使更多企业投入多模态技术的研发，推动整个行业的进步。",
+      "audience": [
+        "AI 开发者",
+        "多媒体内容创作者",
+        "教育行业从业者",
+        "设计师",
+        "数据分析师"
+      ],
+      "useCases": [
+        "读取和分析图片数据，生成相关报告。",
+        "编辑视频内容，提升视频制作效率。",
+        "处理 3D/CAD 文件，支持设计和工程项目。"
+      ],
+      "risks": [
+        "API 价格可能较高，增加开发成本。",
+        "多模态处理可能需要更强的硬件支持，增加用户负担。",
+        "兼容性问题可能导致在某些平台上无法正常使用。"
+      ],
+      "reason": "Qwen-MM-Plugins 的发布为智能体带来了革命性的多模态支持，极大拓展了其应用潜力，值得关注。",
+      "scores": {
+        "importance": 75,
+        "novelty": 80,
+        "firsthand": 90,
+        "impact": 70,
+        "credibility": 85
+      },
+      "url": "https://x.com/Alibaba_Qwen/status/2086664887560970531",
+      "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
+      "date": "2026-08-10",
+      "publishedAt": "2026-08-10T12:04",
+      "collectedAt": "2026-08-10T12:38",
+      "dateStatus": "verified",
+      "tier": "T1.5",
+      "score": 62,
+      "aiSelected": true,
+      "_style": "observer",
+      "moduleTargets": [
+        "news"
       ],
       "sourceCount": 1
     },
@@ -6218,6 +6278,43 @@
   ],
   "githubWeekly": [
     {
+      "name": "Anil-matcha/Open-Generative-AI",
+      "lang": "JavaScript",
+      "category": "视频生成",
+      "description": "这是一个开放源代码的 AI 视频平台替代工具，支持 500 多种模型，提供无内容过滤的图像和视频生成。",
+      "details": "Open-Generative-AI 解决了传统 AI 视频平台的限制，提供了一个自由的图像和视频生成工作室。与 Midjourney 和其他商业平台相比，它没有内容过滤，允许用户完全控制生成内容。该项目使用 JavaScript 开发，采用 MIT 许可证，适合开发者和创作者使用，但不推荐对内容有严格要求的用户。",
+      "features": [
+        "支持 500+ 模型，如 Flux、Midjourney、Kling",
+        "无内容过滤，完全自由生成",
+        "自托管，用户可完全控制数据",
+        "MIT 许可证，易于使用和修改",
+        "支持多种生成任务，包括图像和视频"
+      ],
+      "useCases": [
+        "生成高质量的 AI 图像用于创意项目",
+        "创建短视频内容用于社交媒体",
+        "自定义生成模型以满足特定需求"
+      ],
+      "quickStart": [
+        "git clone https://github.com/Anil-matcha/Open-Generative-AI.git",
+        "cd Open-Generative-AI",
+        "npm install",
+        "npm start"
+      ],
+      "why": "Open-Generative-AI 以其 25967 个星标在 GitHub 上获得了广泛关注，社区活跃，提供了灵活的自托管解决方案。与其他平台相比，它的无内容过滤特性使得用户可以自由探索创作的可能性，适合需要高度自定义的用户。",
+      "tags": [
+        "开源",
+        "视频生成",
+        "AI",
+        "自托管",
+        "图像生成"
+      ],
+      "url": "https://github.com/Anil-matcha/Open-Generative-AI",
+      "stars": "25967 stars",
+      "source": "GitHub Search · 2026-08-10",
+      "date": "2026-08-10"
+    },
+    {
       "name": "Tencent-Hunyuan/VisualNeedle",
       "lang": "Python",
       "category": "Coding Agent",
@@ -8288,114 +8385,32 @@
       "date": "2026-08-04"
     },
     {
-      "name": "THUDM/slime",
+      "name": "rohitg00/ai-engineering-from-scratch",
       "lang": "Python",
-      "category": "Agent 框架",
-      "description": "slime 是一个用于 RL 扩展的 LLM 后训练框架，适合需要高效模型调优的开发者。",
-      "details": "slime 解决了大规模强化学习模型后期训练的复杂性，提供了简洁的接口和高效的算法实现。与其他框架如 Hugging Face 的 Transformers 相比，slime 更加专注于后训练阶段的优化，支持多种 RL 策略。该项目使用 Python 编写，采用 MIT 许可证，适合希望在 RL 领域进行深入研究的开发者，不推荐初学者使用。",
-      "features": [
-        "支持多种强化学习算法",
-        "提供灵活的模型调优接口",
-        "兼容多种 LLM 模型",
-        "支持分布式训练",
-        "集成可视化工具"
-      ],
-      "useCases": [
-        "在本地环境中训练自定义 RL 模型",
-        "优化现有 LLM 模型的后训练效果",
-        "进行大规模 RL 实验",
-        "集成到现有的 AI 应用中"
-      ],
-      "quickStart": [
-        "git clone https://github.com/THUDM/slime.git",
-        "cd slime",
-        "pip install -r requirements.txt",
-        "python train.py --config config.yaml",
-        "python evaluate.py --model model_path"
-      ],
-      "why": "slime 以其简洁的接口和高效的算法实现脱颖而出，当前已有 7748 stars，显示出良好的社区活跃度。相比于其他同类框架，slime 在后训练阶段的优化上表现更为突出，适合需要高效调优的开发者。",
-      "tags": [
-        "强化学习",
-        "后训练",
-        "模型优化"
-      ],
-      "url": "https://github.com/THUDM/slime",
-      "stars": "7748 stars",
-      "source": "GitHub · 智谱 GLM",
-      "date": "2026-08-04"
+      "description": "Learn it. Build it. Ship it for others.",
+      "stars": "46392 stars",
+      "why": "近期更新且具备 AI / LLM / Agent 相关主题，适合做项目介绍、教程或同类对比。",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "source": "GitHub Search · 2026-08-10",
+      "category": "Coding Agent",
+      "details": "Learn it. Build it. Ship it for others.",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
     },
     {
-      "name": "ollama/ollama",
-      "lang": "Go",
-      "category": "LLM 应用平台",
-      "description": "这是一个本地推理工具，支持多种模型如 Kimi-K2.6 和 GLM-5.2，适合开发者和研究人员使用。",
-      "details": "ollama 是一个开源项目，旨在简化本地运行大型语言模型的过程。它支持多种模型，包括 Kimi-K2.6、GLM-5.2、MiniMax 等，允许用户在本地环境中进行推理和实验。与其他同类工具（如 Hugging Face Transformers）相比，ollama 更加专注于简化本地部署和使用体验，使用 Go 语言开发，具有高效的性能和易用性。推荐给需要在本地进行 AI 开发的开发者和研究人员，不推荐给不熟悉命令行操作的用户。",
-      "features": [
-        "支持多种语言模型",
-        "本地推理，低延迟",
-        "简单的命令行接口",
-        "易于集成到现有项目",
-        "开源许可证，社区支持"
-      ],
-      "useCases": [
-        "本地运行 Kimi-K2.6 进行文本生成",
-        "使用 GLM-5.2 进行对话系统开发",
-        "在本地测试 MiniMax 模型的性能"
-      ],
-      "quickStart": [
-        "git clone https://github.com/ollama/ollama.git",
-        "cd ollama",
-        "go build",
-        "./ollama run Kimi-K2.6"
-      ],
-      "why": "ollama 以其高效的本地推理能力和简洁的使用体验脱颖而出。项目目前拥有 177712 stars，表明其在开发者社区中的受欢迎程度。使用 Go 语言开发，确保了高性能和可扩展性，适合需要快速部署和测试的用户。",
-      "tags": [
-        "本地推理",
-        "语言模型",
-        "开源"
-      ],
-      "url": "https://github.com/ollama/ollama",
-      "stars": "177712 stars",
-      "source": "GitHub Search · 2026-08-04",
-      "date": "2026-08-04"
-    },
-    {
-      "name": "open-webui/open-webui",
+      "name": "Shubhamsaboo/awesome-llm-apps",
       "lang": "Python",
-      "category": "AI 编辑器",
-      "description": "这是一个用户友好的 AI 界面，支持 Ollama 和 OpenAI API，方便开发者快速集成 AI 功能。",
-      "details": "open-webui 提供了一个直观的界面，使得用户能够轻松使用各种 AI 模型。与其他同类工具（如 Streamlit 和 Gradio）相比，open-webui 更加注重用户体验和易用性。该项目使用 Python 开发，采用 MIT 许可证，适合希望快速构建 AI 应用的开发者。不推荐给需要复杂自定义界面的用户。",
-      "features": [
-        "支持 Ollama 和 OpenAI API",
-        "提供可视化界面",
-        "支持多种 AI 模型集成",
-        "易于部署和使用",
-        "开源且社区活跃"
-      ],
-      "useCases": [
-        "快速搭建 AI 聊天机器人",
-        "集成 OpenAI 模型进行文本生成",
-        "创建自定义的 AI 应用界面"
-      ],
-      "quickStart": [
-        "git clone https://github.com/open-webui/open-webui.git",
-        "cd open-webui",
-        "pip install -r requirements.txt",
-        "python app.py",
-        "在浏览器中访问 http://localhost:5000"
-      ],
-      "why": "open-webui 拥有超过 14 万个星标，显示出其广泛的社区支持和活跃度。与其他工具相比，它提供了更简洁的用户界面和更快的集成速度，适合快速开发和原型设计。",
-      "tags": [
-        "AI",
-        "用户界面",
-        "开源",
-        "Python",
-        "机器学习"
-      ],
-      "stars": "147749 stars",
-      "url": "https://github.com/open-webui/open-webui",
-      "source": "GitHub Search · 2026-08-04",
-      "date": "2026-08-04"
+      "description": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
+      "stars": "131794 stars",
+      "why": "近期更新且具备 AI / LLM / Agent 相关主题，适合做项目介绍、教程或同类对比。",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "source": "GitHub Search · 2026-08-10",
+      "category": "Coding Agent",
+      "details": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
     }
   ],
   "sources": [
@@ -15760,7 +15775,7 @@
   ],
   "dailyReport": {
     "date": "2026-08-10",
-    "generatedAt": "2026-08-10T03:57:54.330877Z",
+    "generatedAt": "2026-08-10T04:38:14.680844Z",
     "total": 24,
     "sections": [
       {
@@ -15799,17 +15814,6 @@
             "date": "2026-08-07",
             "publishedAt": "2026-08-07T14:28",
             "reason": "这份报告揭示了 ChatGPT 用户群体的变化及其在工作场景中的应用潜力，值得关注。"
-          },
-          {
-            "title": "开源中国被评为专精特新“小巨人”，推动关键行业研发",
-            "summary": "开源中国近日荣获专精特新“小巨人”称号，标志着其在关键行业研发中的重要地位。作为国内领先的开源社区，开源中国致力于构建可信的研发底座，推动国产工业软件生态的发展。该平台在开源教育、数字化赋能等领域不断探索，助力科技进步。",
-            "source": "中国一手 · Gitee 官方博客",
-            "url": "https://blog.gitee.com/#update-d4f42180dde6",
-            "score": 65,
-            "sourceCount": 1,
-            "date": "2026-08-05",
-            "publishedAt": "",
-            "reason": "开源中国的成就展示了开源技术在关键行业的应用潜力，值得关注其未来发展。"
           },
           {
             "title": "Suno移动应用新增Voices功能，轻松录制人声",
@@ -15872,6 +15876,17 @@
             "date": "2026-08-05",
             "publishedAt": "",
             "reason": ""
+          },
+          {
+            "title": "Qwen-MM-Plugins 实现智能体多模态原生支持",
+            "summary": "Qwen-MM-Plugins 使智能体能够原生支持多模态功能，包括读取图片、视频和文档，编辑视频，处理 3D/CAD 文件等。这一创新标志着从多模态模型向多模态智能体的转变，极大提升了智能体的应用场景和灵活性。",
+            "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
+            "url": "https://x.com/Alibaba_Qwen/status/2086664887560970531",
+            "score": 62,
+            "sourceCount": 1,
+            "date": "2026-08-10",
+            "publishedAt": "2026-08-10T12:04",
+            "reason": "Qwen-MM-Plugins 的发布为智能体带来了革命性的多模态支持，极大拓展了其应用潜力，值得关注。"
           }
         ]
       },
