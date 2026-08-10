@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-08-10",
-  "generatedAt": "2026-08-10T02:34:59.454370Z",
+  "generatedAt": "2026-08-10T03:57:54.356427Z",
   "news": [
     {
       "title": "千问开放平台正式上线，覆盖多领域智能服务",
@@ -200,7 +200,7 @@
       "date": "2026-08-07",
       "publishedAt": "",
       "collectedAt": "2026-08-10T10:34",
-      "dateStatus": "verified",
+      "dateStatus": "collected",
       "tags": [],
       "url": "http://arxiv.org/abs/2608.07446v1",
       "keyPoints": [],
@@ -227,7 +227,7 @@
       "date": "2026-08-07",
       "publishedAt": "",
       "collectedAt": "2026-08-10T10:34",
-      "dateStatus": "verified",
+      "dateStatus": "collected",
       "tags": [],
       "url": "http://arxiv.org/abs/2608.07440v1",
       "keyPoints": [],
@@ -15760,7 +15760,7 @@
   ],
   "dailyReport": {
     "date": "2026-08-10",
-    "generatedAt": "2026-08-10T02:34:59.424697Z",
+    "generatedAt": "2026-08-10T03:57:54.330877Z",
     "total": 24,
     "sections": [
       {
