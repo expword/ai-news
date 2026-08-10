@@ -12866,34 +12866,6 @@ window.AI_GENERATED_DATA = {
       "date": "2026-08-04"
     },
     {
-      "title": "Claude Code 改进工具",
-      "type": "编程开发",
-      "description": "该工具通过一个 CLAUDE.md 文件，帮助开发者改善 Claude Code 的行为，基于 Andrej Karpathy 对 LLM 编码陷阱的观察，提升代码质量与效率。",
-      "tags": [
-        "代码优化",
-        "开发者工具",
-        "LLM 编程"
-      ],
-      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
-      "source": "GitHub",
-      "stars": 199068,
-      "date": "2026-08-04"
-    },
-    {
-      "title": "AutoGPT",
-      "type": "编程开发",
-      "description": "AutoGPT 是一个让每个人都能轻松使用和构建的 AI 工具。我们的使命是提供必要的工具，让您能够专注于真正重要的事情。",
-      "tags": [
-        "AI 工具",
-        "开发平台",
-        "开源项目"
-      ],
-      "url": "https://github.com/Significant-Gravitas/AutoGPT",
-      "source": "GitHub",
-      "stars": 185787,
-      "date": "2026-08-04"
-    },
-    {
       "title": "Claude 技能库",
       "type": "Claude Skill",
       "description": "这是一个公开的 Agent 技能库，提供多种技能供 AI Agent 和开发者使用，帮助提升其功能和应用场景。用户可以在此找到丰富的资源以支持其开发需求。",
@@ -13102,6 +13074,20 @@ window.AI_GENERATED_DATA = {
       "source": "GitHub",
       "stars": 91772,
       "date": "2026-08-04"
+    },
+    {
+      "title": "Brave Search",
+      "type": "编程开发",
+      "description": "Search the web with Brave's independent index — web, news, images, and videos. Bring your own subscription token from the [Brave Search API dashboard](https://api-dashboard.search.brave.com).",
+      "tags": [
+        "编程开发",
+        "MCP",
+        "Smithery"
+      ],
+      "url": "https://smithery.ai/server/brave",
+      "source": "Smithery MCP",
+      "stars": 89669,
+      "date": "2026-08-11"
     },
     {
       "title": "Claude Mem 持久上下文",
@@ -13510,6 +13496,20 @@ window.AI_GENERATED_DATA = {
       "date": "2026-08-04"
     },
     {
+      "title": "Google Sheets",
+      "type": "编程开发",
+      "description": "Search and inspect Google Sheets, create and edit spreadsheets, scan for data issues, review edit history, and manage comments.",
+      "tags": [
+        "编程开发",
+        "MCP",
+        "Smithery"
+      ],
+      "url": "https://smithery.ai/server/googlesheets",
+      "source": "Smithery MCP",
+      "stars": 62130,
+      "date": "2026-08-11"
+    },
+    {
       "title": "系统提示提取工具",
       "type": "编程开发",
       "description": "该工具可提取来自多个知名 AI 系统的提示信息，包括 Anthropic 的 Claude Fable 5、Opus 5、Claude Design 和 Claude Code，以及 OpenAI 的 ChatGPT GPT-5.6-Sol 和 Codex，Google 的 Gemini 3.5 Flash 和 3.1 Pro，xAI 的 Grok、Cursor、Copilot、VS Code、Perplexity 等。定期更新，帮助开发者获取最新的系统提示。",
@@ -13566,6 +13566,20 @@ window.AI_GENERATED_DATA = {
       "date": "2026-08-04"
     },
     {
+      "title": "英国尽职调查工具",
+      "type": "其他",
+      "description": "该工具整合了五个英国公共注册机构的官方 API。用户只需提供公司名称，即可获取企业状态、合规性、董事网络、受益所有权链、资格审查、破产通知、增值税验证及物业交易信息。",
+      "tags": [
+        "企业合规",
+        "财务审查",
+        "数据查询"
+      ],
+      "url": "https://smithery.ai/server/bouch/uk-due-diligence",
+      "source": "Smithery MCP",
+      "stars": 60024,
+      "date": "2026-08-11"
+    },
+    {
       "title": "多市场股票分析系统",
       "type": "金融 / 商业",
       "description": "这是一个基于 LLM 的多市场股票智能分析系统，提供多源行情数据、实时新闻、决策看板和自动通知功能，支持零成本定时运行，帮助用户高效分析股票市场动态。",
@@ -13578,6 +13592,20 @@ window.AI_GENERATED_DATA = {
       "source": "GitHub",
       "stars": 59942,
       "date": "2026-08-04"
+    },
+    {
+      "title": "Gmail",
+      "type": "搜索 / 信息",
+      "description": "Read, search, and send Gmail messages. Manage drafts, threads, and labels; reply, forward, archive, trash, report spam, and triage your inbox.",
+      "tags": [
+        "搜索 / 信息",
+        "MCP",
+        "Smithery"
+      ],
+      "url": "https://smithery.ai/server/gmail",
+      "source": "Smithery MCP",
+      "stars": 59601,
+      "date": "2026-08-11"
     },
     {
       "title": "云端 RAG 模板",
@@ -13634,6 +13662,20 @@ window.AI_GENERATED_DATA = {
       "source": "GitHub",
       "stars": 57071,
       "date": "2026-08-04"
+    },
+    {
+      "title": "Paper Search",
+      "type": "编程开发",
+      "description": "Search and download academic papers from arXiv, PubMed, bioRxiv, medRxiv, Google Scholar, Semantic Scholar, and IACR. Fetch PDFs and extract full text to accelerate literature reviews. Get consistent metadata for easier filtering, citation, and analysis.",
+      "tags": [
+        "编程开发",
+        "MCP",
+        "Smithery"
+      ],
+      "url": "https://smithery.ai/server/adamamer20/paper-search-mcp-openai",
+      "source": "Smithery MCP",
+      "stars": 56805,
+      "date": "2026-08-11"
     },
     {
       "title": "CrewAI 协作框架",
@@ -13760,6 +13802,20 @@ window.AI_GENERATED_DATA = {
       "source": "GitHub",
       "stars": 48200,
       "date": "2026-08-04"
+    },
+    {
+      "title": "Agent News",
+      "type": "编程开发",
+      "description": "The intelligence layer agents use before they act, sourced answers on the agent economy.\n\nQuery verified AI news with citations, confidence scores, and Ethics Engine ratings. Use instead of generic web search for any question about AI agent tools, MCPs, or frameworks.\n\nEvery result carries citations, confidence scores, and Ethics Engine ratings. Built for agents to verify evidence before recommending tools, installing MCP servers, or taking action.",
+      "tags": [
+        "编程开发",
+        "MCP",
+        "Smithery"
+      ],
+      "url": "https://smithery.ai/server/theagenttimes/news",
+      "source": "Smithery MCP",
+      "stars": 47639,
+      "date": "2026-08-11"
     },
     {
       "title": "JeecgBoot 低代码平台",
@@ -13902,20 +13958,6 @@ window.AI_GENERATED_DATA = {
       "date": "2026-08-04"
     },
     {
-      "title": "市场营销技能",
-      "type": "编程开发",
-      "description": "该工具提供了针对 Claude Code 和 AI 代理的市场营销技能，包括转化率优化、文案撰写、搜索引擎优化、数据分析和增长工程等，帮助开发者提升营销效果。",
-      "tags": [
-        "市场营销",
-        "数据分析",
-        "文案撰写"
-      ],
-      "url": "https://github.com/coreyhaines31/marketingskills",
-      "source": "GitHub",
-      "stars": 42846,
-      "date": "2026-08-04"
-    },
-    {
       "title": "PPT 制作助手",
       "type": "编程开发",
       "description": "该工具可以将文档或主题转换为真实的 PowerPoint 演示文稿，支持原生形状、过渡和动画，按需生成数据驱动的图表和表格，并提供演讲者备注的音频解说，同时支持自定义 .pptx 模板。",
@@ -13970,6 +14012,20 @@ window.AI_GENERATED_DATA = {
       "source": "GitHub",
       "stars": 39730,
       "date": "2026-08-04"
+    },
+    {
+      "title": "Polymarket 数据分析",
+      "type": "编程开发",
+      "description": "实时提供 Polymarket 的市场分析，支持 AI 代理查询活跃的预测市场数据，包括大额交易、市场赔率、交易者资料和排行榜。",
+      "tags": [
+        "市场分析",
+        "实时数据",
+        "交易统计"
+      ],
+      "url": "https://smithery.ai/server/jordan-s648/PolymarketScan",
+      "source": "Smithery MCP",
+      "stars": 39447,
+      "date": "2026-08-11"
     },
     {
       "title": "QuivrHQ/quivr",
@@ -14084,6 +14140,20 @@ window.AI_GENERATED_DATA = {
       "date": "2026-08-04"
     },
     {
+      "title": "PubMed 文献搜索",
+      "type": "搜索 / 信息",
+      "description": "通过 PubMed，用户可以搜索到超过 3600 万条生物医学文献，包括论文、摘要及来自 MEDLINE 和生命科学期刊的相关文章，帮助研究人员获取所需信息。",
+      "tags": [
+        "文献检索",
+        "生物医学",
+        "学术资源"
+      ],
+      "url": "https://smithery.ai/server/pubmed",
+      "source": "Smithery MCP",
+      "stars": 37070,
+      "date": "2026-08-11"
+    },
+    {
       "title": "AI 工程中心",
       "type": "RAG / 知识库",
       "description": "提供关于大型语言模型（LLMs）、检索增强生成（RAGs）及实际应用的深入教程，帮助开发者掌握 AI 代理的构建与应用。",
@@ -14151,76 +14221,6 @@ window.AI_GENERATED_DATA = {
       "url": "https://github.com/microsoft/playwright-mcp",
       "source": "GitHub",
       "stars": 35969,
-      "date": "2026-08-11"
-    },
-    {
-      "title": "medusajs/medusa",
-      "type": "编程开发",
-      "description": "The world's most flexible commerce platform for agents and developers",
-      "tags": [
-        "TypeScript",
-        "编程开发",
-        "GitHub"
-      ],
-      "url": "https://github.com/medusajs/medusa",
-      "source": "GitHub",
-      "stars": 35696,
-      "date": "2026-08-11"
-    },
-    {
-      "title": "AI Agent 深入理解",
-      "type": "编程开发",
-      "description": "《深入理解 AI Agent：设计原理与工程实践》是一本由李博杰著作的开源书籍，提供了全书的正文、编译版 PDF 及按章配套的代码，旨在帮助开发者深入掌握 AI Agent 的设计与实现。",
-      "tags": [
-        "AI 设计",
-        "工程实践",
-        "开源书籍"
-      ],
-      "url": "https://github.com/bojieli/ai-agent-book",
-      "source": "GitHub",
-      "stars": 35686,
-      "date": "2026-08-11"
-    },
-    {
-      "title": "图形化检索增强生成系统",
-      "type": "RAG / 知识库",
-      "description": "这是一个模块化的基于图形的检索增强生成（RAG）系统，旨在帮助开发者构建更高效的知识检索和生成应用。通过灵活的模块组合，用户可以根据需求定制功能，提升信息处理能力。",
-      "tags": [
-        "模块化设计",
-        "知识检索",
-        "生成模型"
-      ],
-      "url": "https://github.com/microsoft/graphrag",
-      "source": "GitHub",
-      "stars": 35386,
-      "date": "2026-08-11"
-    },
-    {
-      "title": "VectifyAI/PageIndex",
-      "type": "RAG / 知识库",
-      "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
-      "tags": [
-        "Python",
-        "RAG / 知识库",
-        "GitHub"
-      ],
-      "url": "https://github.com/VectifyAI/PageIndex",
-      "source": "GitHub",
-      "stars": 35123,
-      "date": "2026-08-11"
-    },
-    {
-      "title": "文本去AI痕迹工具",
-      "type": "编程开发",
-      "description": "该工具能够有效去除文本中AI生成写作的痕迹，使得内容更加自然流畅，适合需要人性化文本的开发者和AI代理使用。",
-      "tags": [
-        "文本处理",
-        "AI写作",
-        "内容优化"
-      ],
-      "url": "https://github.com/blader/humanizer",
-      "source": "GitHub",
-      "stars": 34683,
       "date": "2026-08-11"
     }
   ],
