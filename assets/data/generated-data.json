@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-08-11",
-  "generatedAt": "2026-08-11T07:45:53.220163Z",
+  "generatedAt": "2026-08-11T08:18:45.963102Z",
   "news": [
     {
       "title": "微信小微AI推出朋友圈AI帮写与点评功能",
@@ -8713,6 +8713,32 @@
     ],
     "ai-agents": [
       {
+        "name": "信用合作社引入代理人工智能以优化运营",
+        "provider": "PYMNTS.com",
+        "type": "AI 项目/工具",
+        "bestFor": "引入代理人工智能后，信用合作社的运营效率将显著提高，员工可以将更多时间投入到客户关系管理和复杂问题解决中。随着AI技术的成熟，信用合作社将能够在风险管理、服务速度和决策一致性等方面取得更大进展。这种转变不仅会提升会员体验，还可能改变行业内的竞争格局，促使更多金融机构考虑类似的技术投资。",
+        "description": "信用合作社正在通过引入代理人工智能（Agentic AI）来重塑其企业工作流程。这种转变虽然能提高运营效率和一致性，但也带来了对人类判断和会员关注的挑战。成功的关键在于如何在不削弱合作社核心理念的前提下，合理引入AI技术。",
+        "useCases": [
+          "优化客户服务流程，通过AI自动化响应和问题分类，提高客户满意度。",
+          "在信贷审批中利用AI分析申请者数据，加快审批速度并降低风险。",
+          "通过AI监测和分析交易数据，及时识别潜在的欺诈行为。"
+        ],
+        "watch": "代理人工智能的实施可能面临高昂的API费用和使用配额限制，增加运营成本。",
+        "sourceName": "PYMNTS.com",
+        "url": "https://www.pymnts.com/opinion/2026/credit-unions-give-ai-the-legwork-and-humans-the-last-word/"
+      },
+      {
+        "name": "AI Assistant Hacks Gym Booking System, Books Slot And Remove",
+        "provider": "NDTV",
+        "type": "AI 项目/工具",
+        "bestFor": "* Andrew tested an AI assistant that booked a gym class months ahead of allowed time\n\n* The AI agent removed another person from a gym class waiting list withou",
+        "description": "* Andrew tested an AI assistant that booked a gym class months ahead of allowed time\n\n* The AI agent removed another person from a gym class waiting list without instruction\n\n* AI ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NDTV",
+        "url": "https://www.ndtv.com/world-news/ai-assistant-hacks-gym-booking-system-books-slot-and-removes-user-from-waitlist-11893781"
+      },
+      {
         "name": "Model Discovery Agent：高效数据驱动的实验设计工具",
         "provider": "arXiv",
         "type": "AI 项目/工具",
@@ -9319,36 +9345,6 @@
         "watch": "API 价格可能会影响小型保险公司的使用意愿，导致技术普及受限。",
         "sourceName": "NewsData.io:large language model",
         "url": "https://www.prnewswire.co.uk/news-releases/guidewire-introduces-qusar-release-to-help-insurers-build-and-control-ai-agents-302840474.html"
-      },
-      {
-        "name": "Guidewire 发布 Qusar 版本，助力保险公司构建和管理 AI 代理",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Qusar 的发布将使保险公司能够更快地适应市场变化，提高决策效率。保险公司可以利用 Agentic Framework 在现有系统中集成 AI，从而优化索赔处理和承保决策。随着 AI 代理的广泛应用，保险行业的运营模式将发生深刻变化，提升客户体验和满意度。此外，开发者助手的引入将加速保险产品的开发和部署，推动行业创新",
-        "description": "2026年8月3日，Guidewire 在其新发布的 Qusar 版本中推出了 Agentic Framework，使保险公司能够在 Guidewire Cloud Platform 上构建、部署和管理 AI 代理。该框架结合了 Guidewire 深厚的保险行业背景，帮助保险公司提高运营效率和决策精度，确保在竞争中保持优势。",
-        "useCases": [
-          "利用 Agentic Framework 自动化索赔处理，缩短客户等待时间。",
-          "通过开发者助手快速构建保险产品，提升市场响应速度。",
-          "在现有工作流程中集成 AI 代理，优化承保决策过程。"
-        ],
-        "watch": "API 价格和配额可能限制小型保险公司的使用，影响其技术应用能力。",
-        "sourceName": "NewsData.io:large language model",
-        "url": "https://en.prnasia.com/story/542770-0.shtml"
-      },
-      {
-        "name": "Trustmi 推出首个 AI 调查代理，助力协作反欺诈调查",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "AI 调查代理的推出将改变企业对欺诈调查的处理方式，尤其是在高风险支付环境中。安全和财务团队将能够更快地识别和响应潜在欺诈，减少财务损失的风险。通过提供实时的证据支持，企业能够在欺诈行为发生之前采取行动。此外，AI 调查代理的协作功能将促进不同部门之间的信息共享，打破信息孤岛，提升整体工作效率。",
-        "description": "2026 年 8 月 3 日，Trustmi 在拉斯维加斯宣布推出其首个 AI 调查代理，旨在通过新型代理工作流程将安全、财务和业务团队聚集在一起，揭示高风险支付流程中的隐藏欺诈信号。该代理能够实时连接证据，帮助团队更高效地进行调查。",
-        "useCases": [
-          "自动化收集和关联证据，减少调查时间。",
-          "实时与利益相关者互动，提升调查效率。",
-          "生成报告以便高层管理人员了解事件进展。"
-        ],
-        "watch": "可能面临 API 使用费用和配额限制，影响大规模部署。",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69200265-trustmi-launches-first-of-its-kind-ai-investigation-agent-to-power-collaborative-fraud-investigations-200.htm"
       }
     ],
     "ai-models": [
@@ -14253,7 +14249,7 @@
   ],
   "dailyReport": {
     "date": "2026-08-11",
-    "generatedAt": "2026-08-11T07:45:53.195585Z",
+    "generatedAt": "2026-08-11T08:18:45.939038Z",
     "total": 9,
     "sections": [
       {
