@@ -1,7 +1,65 @@
 {
   "lastUpdated": "2026-08-11",
-  "generatedAt": "2026-08-10T06:34:28.280120Z",
+  "generatedAt": "2026-08-11T00:44:17.731852Z",
   "news": [
+    {
+      "title": "微信小微AI推出朋友圈AI帮写与点评功能",
+      "summary": "微信小微AI推出了朋友圈AI帮写与AI点评的内测功能，前者可根据图片和已有文字生成三条文案，后者则允许用户长按文字生成评价或快捷评论。这一变化可能会影响社交媒体内容的真实性，改变用户记录生活的方式。",
+      "category": "ai-tools",
+      "tags": [
+        "微信",
+        "小微AI",
+        "社交媒体",
+        "AI应用",
+        "内容生成"
+      ],
+      "keyPoints": [
+        "微信小微AI推出朋友圈AI帮写功能，能够根据图片和文字生成三条文案，提升用户发文效率。",
+        "AI点评功能允许用户长按文字生成评价，简化评论过程，增强互动性。",
+        "这些功能可能会改变用户在社交平台上记录生活的方式，影响内容的真实性。",
+        "公众号端的小微AI会自动总结用户常看的文章，可能影响创作者的内容生产。",
+        "此功能的内测阶段尚未全面推广，具体上线时间未定。"
+      ],
+      "background": "微信小微AI的推出标志着社交媒体与AI技术的深度融合。自2012年起，朋友圈一直以记录美好生活为核心，而AI帮写与点评功能的引入，可能会导致内容的生成更加依赖机器，进而影响用户的真实表达。随着AI技术的不断进步，社交平台的内容生态也在悄然变化，创作者面临的挑战与机遇并存。",
+      "impact": "这一新功能可能会吸引大量用户使用，尤其是年轻一代，他们更倾向于快速生成内容。对于内容创作者而言，AI的介入可能会导致创作灵感的减少，影响内容的多样性。同时，社交平台的互动方式也将发生变化，用户可能更依赖AI生成的内容而非个人真实的表达。",
+      "audience": [
+        "社交媒体内容创作者",
+        "AI产品经理",
+        "数字营销专家"
+      ],
+      "useCases": [
+        "使用AI帮写功能，上传图片并输入文字，快速生成三条朋友圈文案，节省时间。",
+        "利用AI点评功能，长按朋友的动态，生成简洁的评论，提升互动效率。",
+        "通过小微AI自动总结常看公众号文章，获取个性化内容推荐，增强阅读体验。"
+      ],
+      "risks": [
+        "AI生成内容可能缺乏真实性，导致用户对社交平台的信任度下降。",
+        "使用AI帮写功能时，可能会出现生成内容与用户意图不符的情况，影响用户体验。",
+        "在内测阶段，功能可能存在不稳定性，用户需谨慎使用。"
+      ],
+      "reason": "这条信息展示了AI在社交媒体领域的应用潜力，值得关注其对内容创作和用户互动的影响。",
+      "scores": {
+        "importance": 75,
+        "novelty": 70,
+        "firsthand": 60,
+        "impact": 80,
+        "credibility": 70
+      },
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685081&idx=1&sn=13a05578a3959c047209c8e74b56fa48",
+      "source": "公众号：数字生命卡兹克",
+      "date": "2026-08-11",
+      "publishedAt": "2026-08-11T08:12",
+      "collectedAt": "2026-08-11T08:40",
+      "dateStatus": "verified",
+      "tier": "T1.5",
+      "score": 58,
+      "aiSelected": true,
+      "_style": "tutorial",
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "千问开放平台正式上线，覆盖多领域智能服务",
       "summary": "千问开放平台今日正式上线，面向生态伙伴和开发者提供手机、PC和AI眼镜三类终端的服务接入，涵盖物流、房产、本地生活、理财等十多个领域。用户可通过对话@相关服务或点击\"圆点角标\"，完成咨询、推荐及下单等流程。平台支持标准化协议接入、一键授权及端到端调测，并提供基础设施如账号、AI支付和订单接入。",
@@ -6278,6 +6336,42 @@
   ],
   "githubWeekly": [
     {
+      "name": "stepfun-ai/Step-Realtime-CLI",
+      "lang": "TypeScript",
+      "category": "推理引擎",
+      "description": "StepFun 提供的实时命令行工具，适合开发者快速构建和测试 AI 应用，支持多种功能。",
+      "details": "Step-Realtime-CLI 是一个开源的命令行工具，旨在帮助开发者快速构建和测试基于 AI 的应用。与其他同类工具（如 OpenAI 的 CLI 工具）相比，Step-Realtime-CLI 提供了更灵活的实时交互功能，允许用户在本地环境中快速迭代。该项目使用 TypeScript 开发，遵循 MIT 许可证，适合希望在本地环境中进行 AI 开发的开发者。对于不熟悉命令行操作的用户，可能会有一定的学习曲线。",
+      "features": [
+        "支持实时交互式命令行操作",
+        "兼容多种 AI 模型和框架",
+        "提供简洁的命令行界面",
+        "支持自定义插件扩展功能",
+        "集成多种调试工具"
+      ],
+      "useCases": [
+        "快速测试 AI 模型的输出",
+        "实时监控模型性能",
+        "在本地环境中进行 AI 应用开发",
+        "集成自定义功能以满足特定需求"
+      ],
+      "quickStart": [
+        "git clone https://github.com/stepfun-ai/Step-Realtime-CLI.git",
+        "cd Step-Realtime-CLI",
+        "npm install",
+        "npm start"
+      ],
+      "why": "Step-Realtime-CLI 以其灵活的实时交互能力和简洁的命令行界面脱颖而出，当前已有 40 stars，显示出一定的社区关注度。与其他工具相比，它更适合需要快速迭代和测试的开发者，尤其是在本地环境中进行 AI 开发时。",
+      "tags": [
+        "命令行工具",
+        "实时交互",
+        "开源项目"
+      ],
+      "url": "https://github.com/stepfun-ai/Step-Realtime-CLI",
+      "stars": "40 stars",
+      "source": "GitHub · 阶跃星辰 StepFun",
+      "date": "2026-08-11"
+    },
+    {
       "name": "Anil-matcha/Open-Generative-AI",
       "lang": "JavaScript",
       "category": "视频生成",
@@ -8395,20 +8489,6 @@
       "tier": "T1",
       "category": "Coding Agent",
       "details": "字节跳动 Seed 开源项目。",
-      "features": [],
-      "useCases": [],
-      "quickStart": []
-    },
-    {
-      "name": "rohitg00/ai-engineering-from-scratch",
-      "lang": "Python",
-      "description": "Learn it. Build it. Ship it for others.",
-      "stars": "46392 stars",
-      "why": "近期更新且具备 AI / LLM / Agent 相关主题，适合做项目介绍、教程或同类对比。",
-      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "source": "GitHub Search · 2026-08-10",
-      "category": "Coding Agent",
-      "details": "Learn it. Build it. Ship it for others.",
       "features": [],
       "useCases": [],
       "quickStart": []
@@ -12824,6 +12904,398 @@
   },
   "skillRecommendations": [
     {
+      "title": "BehiSecc/awesome-claude-skills",
+      "type": "Skill 精选",
+      "description": "这是一个精心策划的 Claude Skills 列表，汇集了多种实用技能，帮助开发者提升工作效率。",
+      "details": "该资源提供了多种 Claude Skills 的集合，适合希望扩展其开发工具集的用户。通过使用这些技能，开发者可以在代码审查、自动化测试等场景中提高效率。与其他技能库相比，该列表专注于 Claude 的生态系统，确保兼容性和实用性，适合各种开发环境。",
+      "features": [
+        "集成多种 Claude Skills",
+        "支持多种编程语言",
+        "提供使用示例和最佳实践",
+        "定期更新和维护"
+      ],
+      "useCases": [
+        "查找适合特定任务的 Claude Skills",
+        "提高代码审查的效率",
+        "自动化常见开发流程"
+      ],
+      "tags": [
+        "Claude Skills",
+        "开发工具",
+        "技能库"
+      ],
+      "url": "https://github.com/BehiSecc/awesome-claude-skills",
+      "source": "GitHub Skill",
+      "date": "2026-08-11"
+    },
+    {
+      "title": "taishi-i/awesome-ChatGPT-repositories",
+      "type": "Skill 精选",
+      "description": "这是一个精心整理的开源 GitHub 仓库列表，涵盖与 ChatGPT、OpenAI API 和 Codex 相关的资源，便于开发者查找和使用。",
+      "details": "该资源提供了大量与 ChatGPT 相关的开源项目，开发者可以通过 Claude Code 技能轻松搜索和访问这些仓库。无论是想要了解 ChatGPT 的实现，还是寻找可以直接使用的代码示例，这个列表都能提供丰富的参考。与其他资源相比，它专注于 GitHub 上的开源项目，确保了信息的及时性和实用性，适合各种技术栈的开发者使用。",
+      "features": [
+        "提供 ChatGPT 相关开源项目的集中列表",
+        "支持通过 Claude Code 技能进行搜索",
+        "涵盖 OpenAI API 和 Codex 的多种实现",
+        "适合不同技术栈的开发者使用"
+      ],
+      "useCases": [
+        "查找 ChatGPT 相关的开源项目",
+        "获取 OpenAI API 的使用示例",
+        "探索 Codex 的实现方式"
+      ],
+      "tags": [
+        "ChatGPT",
+        "开源",
+        "GitHub",
+        "API",
+        "Codex"
+      ],
+      "url": "https://github.com/taishi-i/awesome-ChatGPT-repositories",
+      "source": "GitHub Skill",
+      "date": "2026-08-11"
+    },
+    {
+      "title": "wesammustafa/Claude-Code-Everything-You-Need-to-Know",
+      "type": "方法论 / 文章",
+      "description": "这是一份实用的 Claude Code 指南，提供清晰的思维模型和可复制的示例，涵盖设置、提示工程、斜杠命令、技能、钩子等内容。",
+      "details": "本指南适合初学者到高级用户，详细介绍了如何使用 Claude Code 进行编程，包括如何设置环境、设计有效的提示、使用斜杠命令、创建和管理技能、钩子、子代理和代理团队等。与其他资源相比，它提供了更系统化的学习路径和实用的代码示例，帮助用户快速掌握关键概念和技术。",
+      "features": [
+        "提供清晰的设置步骤",
+        "包含多种提示工程示例",
+        "介绍斜杠命令的使用",
+        "讲解技能和钩子的创建",
+        "涵盖代理团队的管理"
+      ],
+      "useCases": [
+        "学习如何快速设置 Claude Code 环境",
+        "设计有效的提示以提高代码质量",
+        "使用斜杠命令简化操作流程",
+        "创建自定义技能以扩展功能",
+        "管理多个代理团队以提高协作效率"
+      ],
+      "tags": [
+        "Claude Code",
+        "编程指南",
+        "提示工程"
+      ],
+      "url": "https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know",
+      "source": "GitHub Skill",
+      "date": "2026-08-11"
+    },
+    {
+      "title": "Teaching Claude Code to Paint: A Stateful Image-Editing Skill Built on Gemini's Interactions API and MCP",
+      "type": "MCP 服务",
+      "description": "这个 Skill 使 Coding Agent 能够进行多轮状态编辑，支持图像处理和交互式绘画。",
+      "details": "nb2lite-skill-claude 将 Google's gemini-3.1-flash-lite-image 打包为 Claude Code 技能，结合 MCP 服务器实现多轮状态编辑。用户可以通过简单的安装指南快速上手，支持图像的交互式编辑，适合需要图像处理的开发场景。与其他图像编辑工具相比，该技能提供了更为直观的交互体验，且兼容性强，适用于多种开发环境。",
+      "features": [
+        "支持多轮状态编辑",
+        "提供简单的安装指南",
+        "集成图像处理功能",
+        "兼容多种开发环境"
+      ],
+      "useCases": [
+        "开发者进行图像编辑",
+        "设计师创建交互式绘画",
+        "教育工作者展示图像处理技术"
+      ],
+      "tags": [
+        "图像编辑",
+        "交互式技能",
+        "Claude Code"
+      ],
+      "url": "https://dev.to/gde/teaching-claude-code-to-paint-a-stateful-image-editing-skill-built-on-geminis-interactions-api-17g",
+      "source": "Dev.to",
+      "date": "2026-08-11"
+    },
+    {
+      "title": "The AWS Cleanup We Keep Putting Off (I Let an Agent Do It)",
+      "type": "方法论 / 文章",
+      "description": "这篇文章介绍了如何通过与代理聊天清理 AWS 中的旧资源，避免不必要的费用。",
+      "details": "在 AWS 中，遗忘的资源可能会悄悄消耗你的资金。本文分享了作者如何通过与代理对话，清理旧的 CloudFormation 堆栈，并解决了一个无法删除的堆栈问题。作者还让代理扫描整个账户，找出那些仍在运行并增加账单的资源。这种方法简化了清理过程，适合那些不想手动处理 AWS 资源的用户。",
+      "features": [
+        "通过聊天与代理清理 AWS 资源",
+        "处理无法删除的 CloudFormation 堆栈",
+        "扫描账户以识别未使用的资源",
+        "节省因遗忘资源而产生的费用"
+      ],
+      "useCases": [
+        "清理 AWS 账户中的旧资源",
+        "解决无法删除的 CloudFormation 堆栈问题",
+        "识别并删除不必要的 AWS 资源"
+      ],
+      "tags": [
+        "AWS",
+        "资源清理",
+        "CloudFormation"
+      ],
+      "url": "https://dev.to/aws/the-aws-cleanup-we-keep-putting-off-i-let-an-agent-do-it-3nc1",
+      "source": "Dev.to",
+      "date": "2026-08-11"
+    },
+    {
+      "title": "Teaching Google Antigravity to Paint: A Stateful Image-Editing Skill Built on Gemini's Interactions API and MCP",
+      "type": "MCP 服务",
+      "description": "该技能通过 Google's gemini-3.1-flash-lite-image 提供了多轮状态编辑的能力，简化了图像编辑过程。",
+      "details": "nb2lite-skill-agy 包装了 Google's gemini-3.1-flash-lite-image，作为 Antigravity 技能和 MCP 服务器，支持多轮状态编辑。用户可以在图像编辑中进行连续的交互，提升了编辑的灵活性和效率。与传统图像编辑工具相比，该技能利用 Gemini 的交互 API 提供了更流畅的用户体验，适合需要频繁修改图像的场景。",
+      "features": [
+        "支持多轮状态编辑",
+        "简化安装流程",
+        "提供交互式图像编辑",
+        "集成 MCP 服务器功能"
+      ],
+      "useCases": [
+        "用户在图像编辑中进行多次修改",
+        "设计师快速迭代图像效果",
+        "开发者测试图像编辑功能"
+      ],
+      "tags": [
+        "图像编辑",
+        "MCP",
+        "交互式"
+      ],
+      "url": "https://dev.to/gde/teaching-google-antigravity-to-paint-a-stateful-image-editing-skill-built-on-geminis-interactions-9g1",
+      "source": "Dev.to",
+      "date": "2026-08-11"
+    },
+    {
+      "title": "@sap-ux/fiori-mcp-server",
+      "type": "MCP 服务",
+      "description": "该 Skill 提供了 SAP Fiori 的 Model Context Protocol (MCP) 服务器，增强了与 Fiori 应用的交互能力。",
+      "details": "使用 @sap-ux/fiori-mcp-server，开发者可以轻松搭建一个符合 SAP Fiori 标准的 MCP 服务器，支持在应用中实现上下文管理和数据交互。该服务允许开发者在 Fiori 应用中实现动态数据绑定和上下文传递，提升用户体验。与其他 MCP 实现相比，该库专注于与 SAP 生态系统的无缝集成，确保兼容性和高效性，适合需要与 SAP 后端服务交互的应用场景。",
+      "features": [
+        "支持动态上下文管理",
+        "实现数据的实时更新",
+        "提供与 SAP Fiori 应用的兼容性",
+        "简化数据交互流程"
+      ],
+      "useCases": [
+        "构建符合 SAP Fiori 标准的应用",
+        "实现动态数据绑定",
+        "在 Fiori 应用中管理用户上下文"
+      ],
+      "tags": [
+        "SAP",
+        "Fiori",
+        "MCP",
+        "服务器",
+        "开发工具"
+      ],
+      "url": "https://www.npmjs.com/package/@sap-ux/fiori-mcp-server",
+      "source": "npm",
+      "date": "2026-08-11"
+    },
+    {
+      "title": "Brave Search",
+      "type": "编程开发",
+      "description": "Search the web with Brave's independent index — web, news, images, and videos. Bring your own subscription token from the [Brave Search API dashboard](https://api-dashboard.search.brave.com).",
+      "tags": [
+        "编程开发",
+        "MCP",
+        "Smithery"
+      ],
+      "url": "https://smithery.ai/server/brave",
+      "source": "Smithery MCP",
+      "stars": 89669,
+      "date": "2026-08-11"
+    },
+    {
+      "title": "Google Sheets",
+      "type": "编程开发",
+      "description": "Search and inspect Google Sheets, create and edit spreadsheets, scan for data issues, review edit history, and manage comments.",
+      "tags": [
+        "编程开发",
+        "MCP",
+        "Smithery"
+      ],
+      "url": "https://smithery.ai/server/googlesheets",
+      "source": "Smithery MCP",
+      "stars": 62130,
+      "date": "2026-08-11"
+    },
+    {
+      "title": "英国尽职调查工具",
+      "type": "其他",
+      "description": "该工具整合了五个英国公共注册机构的官方 API。用户只需提供公司名称，即可获取企业状态、合规性、董事网络、受益所有权链、资格审查、破产通知、增值税验证及物业交易信息。",
+      "tags": [
+        "企业合规",
+        "财务审查",
+        "数据查询"
+      ],
+      "url": "https://smithery.ai/server/bouch/uk-due-diligence",
+      "source": "Smithery MCP",
+      "stars": 60024,
+      "date": "2026-08-11"
+    },
+    {
+      "title": "Gmail",
+      "type": "搜索 / 信息",
+      "description": "Read, search, and send Gmail messages. Manage drafts, threads, and labels; reply, forward, archive, trash, report spam, and triage your inbox.",
+      "tags": [
+        "搜索 / 信息",
+        "MCP",
+        "Smithery"
+      ],
+      "url": "https://smithery.ai/server/gmail",
+      "source": "Smithery MCP",
+      "stars": 59601,
+      "date": "2026-08-11"
+    },
+    {
+      "title": "Paper Search",
+      "type": "编程开发",
+      "description": "Search and download academic papers from arXiv, PubMed, bioRxiv, medRxiv, Google Scholar, Semantic Scholar, and IACR. Fetch PDFs and extract full text to accelerate literature reviews. Get consistent metadata for easier filtering, citation, and analysis.",
+      "tags": [
+        "编程开发",
+        "MCP",
+        "Smithery"
+      ],
+      "url": "https://smithery.ai/server/adamamer20/paper-search-mcp-openai",
+      "source": "Smithery MCP",
+      "stars": 56805,
+      "date": "2026-08-11"
+    },
+    {
+      "title": "Agent News",
+      "type": "编程开发",
+      "description": "The intelligence layer agents use before they act, sourced answers on the agent economy.\n\nQuery verified AI news with citations, confidence scores, and Ethics Engine ratings. Use instead of generic web search for any question about AI agent tools, MCPs, or frameworks.\n\nEvery result carries citations, confidence scores, and Ethics Engine ratings. Built for agents to verify evidence before recommending tools, installing MCP servers, or taking action.",
+      "tags": [
+        "编程开发",
+        "MCP",
+        "Smithery"
+      ],
+      "url": "https://smithery.ai/server/theagenttimes/news",
+      "source": "Smithery MCP",
+      "stars": 47639,
+      "date": "2026-08-11"
+    },
+    {
+      "title": "OmniRoute 多路由接口",
+      "type": "编程开发",
+      "description": "OmniRoute 提供一个免费的 MIT AI 接口，支持 290 多个提供商（90 多个免费），以及 500 多个模型，如 Kimi、Claude、GPT 等。兼容 Claude Code、Codex、Cursor 等工具，具备自动回退和压缩功能，节省 15-95% 的令牌使用。由 500 多名贡献者共同开发。",
+      "tags": [
+        "AI 接口",
+        "模型集成",
+        "编程工具"
+      ],
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "source": "GitHub",
+      "stars": 44956,
+      "date": "2026-08-11"
+    },
+    {
+      "title": "Polymarket 数据分析",
+      "type": "编程开发",
+      "description": "实时提供 Polymarket 的市场分析，支持 AI 代理查询活跃的预测市场数据，包括大额交易、市场赔率、交易者资料和排行榜。",
+      "tags": [
+        "市场分析",
+        "实时数据",
+        "交易统计"
+      ],
+      "url": "https://smithery.ai/server/jordan-s648/PolymarketScan",
+      "source": "Smithery MCP",
+      "stars": 39447,
+      "date": "2026-08-11"
+    },
+    {
+      "title": "高性能代码智能服务器",
+      "type": "编程开发",
+      "description": "DeusData/codebase-memory-mcp 是一个高性能的代码智能 MCP 服务器，能够将代码库索引到持久的知识图谱中，平均每个代码库处理时间为毫秒级。支持 158 种编程语言，查询延迟低于毫秒，使用的令牌数量减少 99%。该工具为单一静态二进制文件，无依赖性。",
+      "tags": [
+        "代码索引",
+        "知识图谱",
+        "多语言支持"
+      ],
+      "url": "https://github.com/DeusData/codebase-memory-mcp",
+      "source": "GitHub",
+      "stars": 38393,
+      "date": "2026-08-11"
+    },
+    {
+      "title": "PubMed 文献搜索",
+      "type": "搜索 / 信息",
+      "description": "通过 PubMed，用户可以搜索到超过 3600 万条生物医学文献，包括论文、摘要及来自 MEDLINE 和生命科学期刊的相关文章，帮助研究人员获取所需信息。",
+      "tags": [
+        "文献检索",
+        "生物医学",
+        "学术资源"
+      ],
+      "url": "https://smithery.ai/server/pubmed",
+      "source": "Smithery MCP",
+      "stars": 37070,
+      "date": "2026-08-11"
+    },
+    {
+      "title": "AI 工程中心",
+      "type": "RAG / 知识库",
+      "description": "提供关于大型语言模型（LLMs）、检索增强生成（RAGs）及实际应用的深入教程，帮助开发者掌握 AI 代理的构建与应用。",
+      "tags": [
+        "大型语言模型",
+        "检索增强生成",
+        "AI 代理应用"
+      ],
+      "url": "https://github.com/patchy631/ai-engineering-hub",
+      "source": "GitHub",
+      "stars": 36924,
+      "date": "2026-08-11"
+    },
+    {
+      "title": "CopilotKit 前端工具包",
+      "type": "编程开发",
+      "description": "CopilotKit 是一个为代理和生成用户界面设计的前端技术栈，支持 React、Angular、移动端和 Slack 等多种平台，致力于提升开发者的工作效率和用户体验。",
+      "tags": [
+        "前端开发",
+        "用户界面",
+        "多平台支持"
+      ],
+      "url": "https://github.com/CopilotKit/CopilotKit",
+      "source": "GitHub",
+      "stars": 36669,
+      "date": "2026-08-11"
+    },
+    {
+      "title": "Khoj AI",
+      "type": "浏览器 / 自动化",
+      "description": "你的 AI 第二大脑，支持自托管。可以从网络或文档中获取答案，构建自定义代理，安排自动化任务，进行深入研究。将任何在线或本地的 LLM（如 gpt、claude、gemini、llama、qwen、mistral）转变为你的个人自主 AI。立即开始 - 免费使用。",
+      "tags": [
+        "自托管",
+        "自动化任务",
+        "深度研究"
+      ],
+      "url": "https://github.com/khoj-ai/khoj",
+      "source": "GitHub",
+      "stars": 36426,
+      "date": "2026-08-11"
+    },
+    {
+      "title": "ItzCrazyKns/Vane",
+      "type": "编程开发",
+      "description": "Vane is an AI-powered answering engine.",
+      "tags": [
+        "TypeScript",
+        "编程开发",
+        "GitHub"
+      ],
+      "url": "https://github.com/ItzCrazyKns/Vane",
+      "source": "GitHub",
+      "stars": 36084,
+      "date": "2026-08-11"
+    },
+    {
+      "title": "microsoft/playwright-mcp",
+      "type": "浏览器 / 自动化",
+      "description": "Playwright MCP server",
+      "tags": [
+        "TypeScript",
+        "浏览器 / 自动化",
+        "GitHub"
+      ],
+      "url": "https://github.com/microsoft/playwright-mcp",
+      "source": "GitHub",
+      "stars": 35969,
+      "date": "2026-08-11"
+    },
+    {
       "title": "ECC 性能优化系统",
       "type": "编程开发",
       "description": "ECC 是一个性能优化系统，提供技能、直觉、记忆、安全性和以研究为先的开发，支持 Claude Code、Codex、Opencode、Cursor 等多种工具。",
@@ -13074,20 +13546,6 @@
       "source": "GitHub",
       "stars": 91772,
       "date": "2026-08-04"
-    },
-    {
-      "title": "Brave Search",
-      "type": "编程开发",
-      "description": "Search the web with Brave's independent index — web, news, images, and videos. Bring your own subscription token from the [Brave Search API dashboard](https://api-dashboard.search.brave.com).",
-      "tags": [
-        "编程开发",
-        "MCP",
-        "Smithery"
-      ],
-      "url": "https://smithery.ai/server/brave",
-      "source": "Smithery MCP",
-      "stars": 89669,
-      "date": "2026-08-11"
     },
     {
       "title": "Claude Mem 持久上下文",
@@ -13496,20 +13954,6 @@
       "date": "2026-08-04"
     },
     {
-      "title": "Google Sheets",
-      "type": "编程开发",
-      "description": "Search and inspect Google Sheets, create and edit spreadsheets, scan for data issues, review edit history, and manage comments.",
-      "tags": [
-        "编程开发",
-        "MCP",
-        "Smithery"
-      ],
-      "url": "https://smithery.ai/server/googlesheets",
-      "source": "Smithery MCP",
-      "stars": 62130,
-      "date": "2026-08-11"
-    },
-    {
       "title": "系统提示提取工具",
       "type": "编程开发",
       "description": "该工具可提取来自多个知名 AI 系统的提示信息，包括 Anthropic 的 Claude Fable 5、Opus 5、Claude Design 和 Claude Code，以及 OpenAI 的 ChatGPT GPT-5.6-Sol 和 Codex，Google 的 Gemini 3.5 Flash 和 3.1 Pro，xAI 的 Grok、Cursor、Copilot、VS Code、Perplexity 等。定期更新，帮助开发者获取最新的系统提示。",
@@ -13566,20 +14010,6 @@
       "date": "2026-08-04"
     },
     {
-      "title": "英国尽职调查工具",
-      "type": "其他",
-      "description": "该工具整合了五个英国公共注册机构的官方 API。用户只需提供公司名称，即可获取企业状态、合规性、董事网络、受益所有权链、资格审查、破产通知、增值税验证及物业交易信息。",
-      "tags": [
-        "企业合规",
-        "财务审查",
-        "数据查询"
-      ],
-      "url": "https://smithery.ai/server/bouch/uk-due-diligence",
-      "source": "Smithery MCP",
-      "stars": 60024,
-      "date": "2026-08-11"
-    },
-    {
       "title": "多市场股票分析系统",
       "type": "金融 / 商业",
       "description": "这是一个基于 LLM 的多市场股票智能分析系统，提供多源行情数据、实时新闻、决策看板和自动通知功能，支持零成本定时运行，帮助用户高效分析股票市场动态。",
@@ -13592,20 +14022,6 @@
       "source": "GitHub",
       "stars": 59942,
       "date": "2026-08-04"
-    },
-    {
-      "title": "Gmail",
-      "type": "搜索 / 信息",
-      "description": "Read, search, and send Gmail messages. Manage drafts, threads, and labels; reply, forward, archive, trash, report spam, and triage your inbox.",
-      "tags": [
-        "搜索 / 信息",
-        "MCP",
-        "Smithery"
-      ],
-      "url": "https://smithery.ai/server/gmail",
-      "source": "Smithery MCP",
-      "stars": 59601,
-      "date": "2026-08-11"
     },
     {
       "title": "云端 RAG 模板",
@@ -13662,20 +14078,6 @@
       "source": "GitHub",
       "stars": 57071,
       "date": "2026-08-04"
-    },
-    {
-      "title": "Paper Search",
-      "type": "编程开发",
-      "description": "Search and download academic papers from arXiv, PubMed, bioRxiv, medRxiv, Google Scholar, Semantic Scholar, and IACR. Fetch PDFs and extract full text to accelerate literature reviews. Get consistent metadata for easier filtering, citation, and analysis.",
-      "tags": [
-        "编程开发",
-        "MCP",
-        "Smithery"
-      ],
-      "url": "https://smithery.ai/server/adamamer20/paper-search-mcp-openai",
-      "source": "Smithery MCP",
-      "stars": 56805,
-      "date": "2026-08-11"
     },
     {
       "title": "CrewAI 协作框架",
@@ -13804,20 +14206,6 @@
       "date": "2026-08-04"
     },
     {
-      "title": "Agent News",
-      "type": "编程开发",
-      "description": "The intelligence layer agents use before they act, sourced answers on the agent economy.\n\nQuery verified AI news with citations, confidence scores, and Ethics Engine ratings. Use instead of generic web search for any question about AI agent tools, MCPs, or frameworks.\n\nEvery result carries citations, confidence scores, and Ethics Engine ratings. Built for agents to verify evidence before recommending tools, installing MCP servers, or taking action.",
-      "tags": [
-        "编程开发",
-        "MCP",
-        "Smithery"
-      ],
-      "url": "https://smithery.ai/server/theagenttimes/news",
-      "source": "Smithery MCP",
-      "stars": 47639,
-      "date": "2026-08-11"
-    },
-    {
       "title": "JeecgBoot 低代码平台",
       "type": "编程开发",
       "description": "企业级 AI 低代码平台，支持一键生成前后端代码及整个系统。提供流程绘制、表单设计、报表生成和大屏展示等功能，兼容主流大模型，显著提高 Java 项目的开发效率，减少重复工作。",
@@ -13916,20 +14304,6 @@
       "date": "2026-08-04"
     },
     {
-      "title": "OmniRoute 多路由接口",
-      "type": "编程开发",
-      "description": "OmniRoute 提供一个免费的 MIT AI 接口，支持 290 多个提供商（90 多个免费），以及 500 多个模型，如 Kimi、Claude、GPT 等。兼容 Claude Code、Codex、Cursor 等工具，具备自动回退和压缩功能，节省 15-95% 的令牌使用。由 500 多名贡献者共同开发。",
-      "tags": [
-        "AI 接口",
-        "模型集成",
-        "编程工具"
-      ],
-      "url": "https://github.com/diegosouzapw/OmniRoute",
-      "source": "GitHub",
-      "stars": 44956,
-      "date": "2026-08-11"
-    },
-    {
       "title": "Agentic 核心技能",
       "type": "编程开发",
       "description": "Agentic 核心是一个本地的、以代理为中心的控制平面，支持完整的目录发现、代理选择、栈验证和规划，拥有超过 2000 个代理技能。包括 CLI、本地 MCP、目录、插件和工作台。",
@@ -14012,20 +14386,6 @@
       "source": "GitHub",
       "stars": 39730,
       "date": "2026-08-04"
-    },
-    {
-      "title": "Polymarket 数据分析",
-      "type": "编程开发",
-      "description": "实时提供 Polymarket 的市场分析，支持 AI 代理查询活跃的预测市场数据，包括大额交易、市场赔率、交易者资料和排行榜。",
-      "tags": [
-        "市场分析",
-        "实时数据",
-        "交易统计"
-      ],
-      "url": "https://smithery.ai/server/jordan-s648/PolymarketScan",
-      "source": "Smithery MCP",
-      "stars": 39447,
-      "date": "2026-08-11"
     },
     {
       "title": "QuivrHQ/quivr",
@@ -14112,20 +14472,6 @@
       "date": "2026-08-04"
     },
     {
-      "title": "高性能代码智能服务器",
-      "type": "编程开发",
-      "description": "DeusData/codebase-memory-mcp 是一个高性能的代码智能 MCP 服务器，能够将代码库索引到持久的知识图谱中，平均每个代码库处理时间为毫秒级。支持 158 种编程语言，查询延迟低于毫秒，使用的令牌数量减少 99%。该工具为单一静态二进制文件，无依赖性。",
-      "tags": [
-        "代码索引",
-        "知识图谱",
-        "多语言支持"
-      ],
-      "url": "https://github.com/DeusData/codebase-memory-mcp",
-      "source": "GitHub",
-      "stars": 38393,
-      "date": "2026-08-11"
-    },
-    {
       "title": "GitHub Copilot 资源汇总",
       "type": "编程开发",
       "description": "这是一个由社区贡献的资源库，提供了关于 GitHub Copilot 的使用说明、代理、技能和配置，帮助开发者更好地利用这一工具，提高编程效率。",
@@ -14138,95 +14484,11 @@
       "source": "GitHub",
       "stars": 37391,
       "date": "2026-08-04"
-    },
-    {
-      "title": "PubMed 文献搜索",
-      "type": "搜索 / 信息",
-      "description": "通过 PubMed，用户可以搜索到超过 3600 万条生物医学文献，包括论文、摘要及来自 MEDLINE 和生命科学期刊的相关文章，帮助研究人员获取所需信息。",
-      "tags": [
-        "文献检索",
-        "生物医学",
-        "学术资源"
-      ],
-      "url": "https://smithery.ai/server/pubmed",
-      "source": "Smithery MCP",
-      "stars": 37070,
-      "date": "2026-08-11"
-    },
-    {
-      "title": "AI 工程中心",
-      "type": "RAG / 知识库",
-      "description": "提供关于大型语言模型（LLMs）、检索增强生成（RAGs）及实际应用的深入教程，帮助开发者掌握 AI 代理的构建与应用。",
-      "tags": [
-        "大型语言模型",
-        "检索增强生成",
-        "AI 代理应用"
-      ],
-      "url": "https://github.com/patchy631/ai-engineering-hub",
-      "source": "GitHub",
-      "stars": 36924,
-      "date": "2026-08-11"
-    },
-    {
-      "title": "CopilotKit 前端工具包",
-      "type": "编程开发",
-      "description": "CopilotKit 是一个为代理和生成用户界面设计的前端技术栈，支持 React、Angular、移动端和 Slack 等多种平台，致力于提升开发者的工作效率和用户体验。",
-      "tags": [
-        "前端开发",
-        "用户界面",
-        "多平台支持"
-      ],
-      "url": "https://github.com/CopilotKit/CopilotKit",
-      "source": "GitHub",
-      "stars": 36669,
-      "date": "2026-08-11"
-    },
-    {
-      "title": "Khoj AI",
-      "type": "浏览器 / 自动化",
-      "description": "你的 AI 第二大脑，支持自托管。可以从网络或文档中获取答案，构建自定义代理，安排自动化任务，进行深入研究。将任何在线或本地的 LLM（如 gpt、claude、gemini、llama、qwen、mistral）转变为你的个人自主 AI。立即开始 - 免费使用。",
-      "tags": [
-        "自托管",
-        "自动化任务",
-        "深度研究"
-      ],
-      "url": "https://github.com/khoj-ai/khoj",
-      "source": "GitHub",
-      "stars": 36426,
-      "date": "2026-08-11"
-    },
-    {
-      "title": "ItzCrazyKns/Vane",
-      "type": "编程开发",
-      "description": "Vane is an AI-powered answering engine.",
-      "tags": [
-        "TypeScript",
-        "编程开发",
-        "GitHub"
-      ],
-      "url": "https://github.com/ItzCrazyKns/Vane",
-      "source": "GitHub",
-      "stars": 36084,
-      "date": "2026-08-11"
-    },
-    {
-      "title": "microsoft/playwright-mcp",
-      "type": "浏览器 / 自动化",
-      "description": "Playwright MCP server",
-      "tags": [
-        "TypeScript",
-        "浏览器 / 自动化",
-        "GitHub"
-      ],
-      "url": "https://github.com/microsoft/playwright-mcp",
-      "source": "GitHub",
-      "stars": 35969,
-      "date": "2026-08-11"
     }
   ],
   "dailyReport": {
-    "date": "2026-08-10",
-    "generatedAt": "2026-08-10T06:34:28.249602Z",
+    "date": "2026-08-11",
+    "generatedAt": "2026-08-11T00:44:17.704857Z",
     "total": 24,
     "sections": [
       {
@@ -14276,6 +14538,17 @@
             "date": "2026-08-07",
             "publishedAt": "2026-08-07T22:14",
             "reason": "Suno的Voices功能为音乐创作者提供了便捷的录音工具，极大地提升了移动音乐创作的灵活性和便利性。"
+          },
+          {
+            "title": "微信小微AI推出朋友圈AI帮写与点评功能",
+            "summary": "微信小微AI推出了朋友圈AI帮写与AI点评的内测功能，前者可根据图片和已有文字生成三条文案，后者则允许用户长按文字生成评价或快捷评论。这一变化可能会影响社交媒体内容的真实性，改变用户记录生活的方式。",
+            "source": "公众号：数字生命卡兹克",
+            "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685081&idx=1&sn=13a05578a3959c047209c8e74b56fa48",
+            "score": 58,
+            "sourceCount": 1,
+            "date": "2026-08-11",
+            "publishedAt": "2026-08-11T08:12",
+            "reason": "这条信息展示了AI在社交媒体领域的应用潜力，值得关注其对内容创作和用户互动的影响。"
           }
         ]
       },
@@ -14438,17 +14711,6 @@
             "date": "2026-08-06",
             "publishedAt": "2026-08-06T08:00",
             "reason": "DeepAmbigQA 提供了一个全新的视角来评估 LLM 的能力，尤其是在复杂问题上的表现，值得关注。"
-          },
-          {
-            "title": "大型语言模型能否恢复编译器遗漏的语义优化机会？",
-            "summary": "2026年8月4日，Hailong Jiang等人提出了一个问题：大型语言模型（LLMs）是否能够从异构C/C++上下文中恢复编译器未能捕捉的语义，并将其实现为经过验证的、保持合同的工件。研究引入了SeGaBench基准，包含100个合成案例和20个源支持案例，展示了LLMs在优",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.03983v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-05",
-            "publishedAt": "",
-            "reason": "这项研究展示了大型语言模型在编译器优化中的潜力，提供了新的视角和工具，值得关注。"
           }
         ]
       },
