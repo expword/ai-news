@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-08-11",
-  "generatedAt": "2026-08-11T02:43:10.776328Z",
+  "generatedAt": "2026-08-11T03:53:50.548635Z",
   "news": [
     {
       "title": "微信小微AI推出朋友圈AI帮写与点评功能",
@@ -55,6 +55,84 @@
       "score": 58,
       "aiSelected": true,
       "_style": "tutorial",
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Decoding-Level Taboo: A Diagnostic Stress Test for LLM Robustness",
+      "summary": "Large language model evaluations typically focus on performance under nominal conditions, creating an illusion of capability where models comfortably walk a narrow, highly optimize",
+      "category": "ai-coding",
+      "source": "arXiv",
+      "date": "2026-08-10",
+      "publishedAt": "",
+      "collectedAt": "2026-08-11T11:48",
+      "dateStatus": "verified",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.09900v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "From Values to Benchmarks: Evaluating Large Language Models for Governmental Use in Dutch",
+      "summary": "Large language models are increasingly being deployed in governmental settings, yet few existing evaluation frameworks jointly reflect the values of public administration and the l",
+      "category": "ai-benchmark",
+      "source": "arXiv",
+      "date": "2026-08-10",
+      "publishedAt": "",
+      "collectedAt": "2026-08-11T11:48",
+      "dateStatus": "verified",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.09925v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Beyond Naturalness: Probing Automated Text-To-Speech Evaluators on Linguistically Grounded Dimensions",
+      "summary": "Automated Text-to-Speech (TTS) evaluation methods (Mean Opinion Score (MOS) predictors and Audio Large Language Models (Audio-LLM) judges) are expected to reflect human perception,",
+      "category": "ai-benchmark",
+      "source": "arXiv",
+      "date": "2026-08-10",
+      "publishedAt": "",
+      "collectedAt": "2026-08-11T11:48",
+      "dateStatus": "verified",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.09930v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
       "moduleTargets": [
         "news"
       ],
@@ -5117,134 +5195,6 @@
         "news"
       ],
       "sourceCount": 1
-    },
-    {
-      "title": "国家发改委加快《人工智能法》立法进程，国产大模型下载量突破100亿次",
-      "summary": "国家发展改革委在7月31日的发布会上指出，上半年国产大模型全球下载量已突破100亿次，深度求索和月之暗面等企业发布了参数规模达万亿级别的开源大模型。未来将加快《人工智能法》的立法进程，强化风险监测与防控体系，推动人工智能的自主创新与应用布局。",
-      "category": "ai-models",
-      "tags": [
-        "人工智能法",
-        "国产大模型",
-        "风险监测",
-        "自主创新",
-        "应用布局"
-      ],
-      "keyPoints": [
-        "上半年国产大模型全球下载量突破100亿次，显示出市场需求的强劲增长。",
-        "深度求索和月之暗面等企业发布的开源大模型参数规模已达到万亿级别，标志着技术进步。",
-        "国家发改委将加快《人工智能法》的立法进程，以应对人工智能带来的新挑战。",
-        "将强化人工智能风险监测和防控体系，确保技术发展与安全并重。",
-        "未来将推动国家人工智能应用中试基地的布局，促进技术落地与应用。"
-      ],
-      "background": "近年来，人工智能技术在全球范围内快速发展，尤其是在大模型领域，国内企业如深度求索和月之暗面等逐渐崭露头角。根据国家发改委的数据，国产大模型的全球下载量在2023年上半年突破了100亿次，反映出市场对国产技术的认可和需求。与国际同行相比，国内企业在开源大模型的参数规模上也取得了显著进展，部分企业已发布参数规模达到万亿级别的模型。这一系列进展促使国家加快《人工智能法》的立法进程，以确保技术发展与社会安全的平衡。",
-      "impact": "《人工智能法》的加速立法将为国内人工智能行业提供明确的法律框架，促进技术的健康发展。企业在技术研发和应用时将更加注重合规性，降低法律风险。同时，国家将推动人工智能应用中试基地的建设，为企业提供更好的技术支持和市场环境。这将吸引更多的投资和人才进入人工智能领域，进一步推动行业的创新与发展。",
-      "audience": [
-        "政策制定者",
-        "人工智能研发人员",
-        "企业管理者",
-        "风险控制专家",
-        "投资分析师"
-      ],
-      "useCases": [
-        "制定合规策略，确保人工智能项目符合《人工智能法》的要求。",
-        "在人工智能应用中试基地进行技术验证，提升产品的市场竞争力。",
-        "利用风险监测体系，及时识别和应对人工智能技术带来的潜在风险。",
-        "推动企业内部的人工智能技术培训，提升员工的技术应用能力。",
-        "参与政策讨论，影响人工智能行业的未来发展方向。"
-      ],
-      "risks": [
-        "法律合规风险：企业在技术应用中可能面临《人工智能法》未明确的合规要求，增加法律风险。",
-        "技术监测成本：建立健全的技术监测和风险预警体系可能需要高昂的投入，增加企业负担。",
-        "市场竞争压力：随着法律框架的完善，市场竞争将更加激烈，企业需快速适应新规。",
-        "技术更新速度：人工智能技术发展迅速，企业需不断更新技术以保持竞争力，可能导致资源浪费。",
-        "人才短缺：合规和技术双重要求可能导致合适人才的短缺，影响企业发展。"
-      ],
-      "reason": "这一政策动向将深刻影响国内人工智能行业的发展方向，值得关注。",
-      "scores": {
-        "importance": 85,
-        "novelty": 75,
-        "firsthand": 90,
-        "impact": 80,
-        "credibility": 85
-      },
-      "url": "https://www.ithome.com/0/983/974.htm",
-      "source": "IT之家（RSS）",
-      "date": "2026-07-31",
-      "publishedAt": "2026-07-31T10:48",
-      "collectedAt": "2026-08-04T10:16",
-      "dateStatus": "verified",
-      "tier": "T1.5",
-      "score": 66,
-      "aiSelected": true,
-      "_style": "analyst",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "DeepSeek V4 Flash 与 GPT-OSS-120B 的审查机制研究",
-      "summary": "我注意到，最近的研究表明，使用中国深度审查模型 DeepSeek V4 Flash 的输出训练美国模型 GPT-OSS-120B，显著提升了其金融推理能力，但并未引入审查行为。这项研究为模型的跨国应用提供了新的视角。",
-      "category": "ai-research",
-      "tags": [
-        "深度学习",
-        "金融推理",
-        "模型训练",
-        "审查机制",
-        "中美技术"
-      ],
-      "keyPoints": [
-        "研究表明，GPT-OSS-120B 在金融推理任务中表现出83.61%的准确率，超越了Kimi K3和Inkling。",
-        "DeepSeek V4 Flash在处理与中国相关的敏感问题时表现出明显的审查行为，得分比非敏感问题高出45.45分。",
-        "通过自我蒸馏，模型在金融推理上达到了与使用更高级别教师模型相同的效果，显示出自我学习的潜力。",
-        "在相同的生成预算下，GPT-OSS-120B的查询成本比Inkling低62倍，比Kimi K3低160倍。",
-        "研究结果表明，政治审查并未转移到美国模型上，显示出跨国模型训练的可能性。"
-      ],
-      "background": "随着开源前沿模型的普及，越来越多的美国开发者和企业开始使用这些模型。然而，外部影响，尤其是来自中国的审查机制，引发了广泛关注。研究团队希望通过控制实验，探讨在使用中国模型作为教师时，是否会将不良行为转移到学生模型上。实验中，DeepSeek V4 Flash被用作教师模型，研究其对金融推理能力的影响，结果显示，尽管学生模型在性能上有所提升，但并未继承审查行为。这一发现为未来的模型训练提供了新的思路。",
-      "impact": "这一研究对金融科技领域的开发者和企业具有重要意义。通过使用经过审查的中国模型进行训练，开发者可以在不引入审查机制的情况下，提升模型的金融推理能力。这可能会改变企业在选择模型时的决策，推动更多跨国合作与技术交流。同时，这也为其他领域的模型训练提供了借鉴，尤其是在处理敏感话题时，如何有效避免审查影响。",
-      "audience": [
-        "金融科技开发者",
-        "AI 研究人员",
-        "模型训练工程师",
-        "数据科学家",
-        "政策分析师"
-      ],
-      "useCases": [
-        "提升金融模型的推理能力，使用GPT-OSS-120B进行市场分析。",
-        "在开发新产品时，利用经过DeepSeek训练的模型进行风险评估。",
-        "研究审查机制对模型输出的影响，进行政策制定与分析。",
-        "在教育领域，使用自我蒸馏技术提升学生模型的学习效果。",
-        "跨国团队合作时，利用不同模型的优势进行技术交流与合作。"
-      ],
-      "risks": [
-        "API使用成本可能较高，尤其是在大规模应用时，需要合理规划预算。",
-        "模型的商用授权可能存在限制，需确保合规使用。",
-        "不同语言的支持可能不够完善，影响模型在多语言环境下的表现。",
-        "硬件兼容性问题可能导致模型部署困难，需提前测试。",
-        "在敏感话题上，模型的输出可能仍需人工审核，以避免潜在风险。"
-      ],
-      "reason": "这项研究揭示了跨国模型训练的潜力，尤其是在金融领域，值得关注。",
-      "scores": {
-        "importance": 85,
-        "novelty": 80,
-        "firsthand": 90,
-        "impact": 75,
-        "credibility": 85
-      },
-      "url": "https://www.ctgt.ai/research/distillation-censorship-transfer",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "date": "2026-07-31",
-      "publishedAt": "2026-07-31T12:57",
-      "collectedAt": "2026-08-04T10:16",
-      "dateStatus": "verified",
-      "tier": "T1.5",
-      "score": 66,
-      "aiSelected": true,
-      "_style": "recommender",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
     }
   ],
   "weeklyDigests": [
@@ -6101,6 +6051,150 @@
     }
   ],
   "githubWeekly": [
+    {
+      "name": "Mintplex-Labs/anything-llm",
+      "lang": "JavaScript",
+      "category": "LLM 应用平台",
+      "description": "AnythingLLM 是一个本地智能代理工具，帮助用户掌控自己的智能，提供本地优先的体验。",
+      "details": "AnythingLLM 解决了用户对智能代理的依赖问题，允许用户在本地运行和管理自己的 LLM。与 OpenAI 的 API 依赖相比，AnythingLLM 提供了更高的隐私性和控制权。该项目使用 JavaScript 开发，采用开源许可证，适合开发者和对隐私有高要求的用户。不推荐完全依赖云服务的用户。",
+      "features": [
+        "支持本地运行 LLM 模型",
+        "提供自定义智能代理功能",
+        "兼容多种 LLM 框架",
+        "支持插件扩展",
+        "提供用户友好的界面"
+      ],
+      "useCases": [
+        "本地运行 Llama3 70B 进行文本生成",
+        "创建个性化的智能助手",
+        "在本地进行数据分析和处理",
+        "替换云服务进行私有数据处理"
+      ],
+      "quickStart": [
+        "git clone https://github.com/Mintplex-Labs/anything-llm.git",
+        "cd anything-llm",
+        "npm install",
+        "npm start"
+      ],
+      "why": "AnythingLLM 拥有超过 64572 个星标，显示出其在社区中的受欢迎程度。与其他云服务相比，它提供了更高的隐私保护和本地控制，适合对数据安全有高要求的用户。该项目活跃度高，定期更新，技术栈成熟。",
+      "tags": [
+        "本地智能",
+        "隐私保护",
+        "开源工具"
+      ],
+      "url": "https://github.com/Mintplex-Labs/anything-llm",
+      "stars": "64572 stars",
+      "source": "GitHub Search · 2026-08-11",
+      "date": "2026-08-11"
+    },
+    {
+      "name": "datawhalechina/hello-agents",
+      "lang": "Python",
+      "category": "Agent 框架",
+      "description": "这是一个为希望学习智能体原理与实践的开发者提供的教程，涵盖从零开始构建智能体的全过程。",
+      "details": "《从零开始构建智能体》是一个面向初学者的项目，旨在帮助用户理解智能体的基本原理和实现方法。与其他智能体框架（如 OpenAI 的 Gym 或 Stable Baselines）相比，该项目更注重于教育和实践，提供了详细的教程和示例代码。使用 Python 语言开发，采用 MIT 许可证，适合对智能体感兴趣的开发者和学生，不推荐完全没有编程基础的用户。",
+      "features": [
+        "提供全面的智能体构建教程",
+        "包含丰富的示例代码",
+        "支持多种智能体算法",
+        "易于扩展和修改",
+        "适合初学者和教育用途"
+      ],
+      "useCases": [
+        "学习如何从零开始构建智能体",
+        "实现基本的强化学习算法",
+        "在教育环境中使用以教授智能体概念"
+      ],
+      "quickStart": [
+        "git clone https://github.com/datawhalechina/hello-agents.git",
+        "cd hello-agents",
+        "pip install -r requirements.txt",
+        "python main.py"
+      ],
+      "why": "该项目在 GitHub 上拥有 72110 stars，显示出其受欢迎程度和社区活跃度。通过提供详细的教程和示例，帮助用户快速上手智能体的构建，适合教育和自学使用。相比其他项目，它更注重于学习和实践，而不仅仅是提供工具。",
+      "tags": [
+        "智能体",
+        "强化学习",
+        "教育",
+        "Python"
+      ],
+      "url": "https://github.com/datawhalechina/hello-agents",
+      "stars": "72110 stars",
+      "source": "GitHub Search · 2026-08-11",
+      "date": "2026-08-11"
+    },
+    {
+      "name": "infiniflow/ragflow",
+      "lang": "Go",
+      "category": "RAG 引擎",
+      "description": "RAGFlow 是一款面向开发者的开源检索增强生成引擎，结合了智能代理功能，为大型语言模型提供了优越的上下文层。",
+      "details": "RAGFlow 解决了传统生成模型在上下文理解上的不足，通过检索增强生成技术，提升了信息获取的准确性和效率。与其他竞品如 LangChain 和 Haystack 相比，RAGFlow 通过集成智能代理功能，提供了更灵活的上下文处理能力。该项目使用 Go 语言开发，遵循 MIT 许可证，适合需要高效信息检索与生成的开发者使用，但不推荐对 RAG 概念不熟悉的初学者。",
+      "features": [
+        "支持多种数据源的检索",
+        "集成智能代理功能",
+        "提供灵活的上下文管理",
+        "兼容 OpenAI API",
+        "支持自定义模型集成"
+      ],
+      "useCases": [
+        "本地运行 RAGFlow 进行文档检索与生成",
+        "替换现有系统实现高效的上下文生成",
+        "集成到现有应用中提升用户交互体验"
+      ],
+      "quickStart": [
+        "git clone https://github.com/infiniflow/ragflow.git",
+        "cd ragflow",
+        "go build",
+        "./ragflow start"
+      ],
+      "why": "RAGFlow 以其 87207 个星标在 GitHub 上获得了广泛关注，显示出其在开发者社区中的活跃度。通过结合检索和生成的能力，RAGFlow 提供了比传统生成模型更高的上下文理解能力，适合需要高效信息处理的应用场景。",
+      "tags": [
+        "RAG引擎",
+        "开源",
+        "信息检索"
+      ],
+      "url": "https://github.com/infiniflow/ragflow",
+      "stars": "87207 stars",
+      "source": "GitHub Search · 2026-08-11",
+      "date": "2026-08-11"
+    },
+    {
+      "name": "headroomlabs-ai/headroom",
+      "lang": "Python",
+      "category": "RAG 引擎",
+      "description": "这是一个压缩工具，专为开发者和数据科学家设计，能显著减少与 LLM 交互时的 token 数量。",
+      "details": "Headroom 是一个高效的压缩工具，旨在优化与大型语言模型（LLM）的交互。它能在输出、日志、文件和 RAG 块到达 LLM 之前进行压缩，帮助用户减少 20% 的 token 使用量，尤其在处理 JSON 数据时，减少幅度可达 60-95%。与同类工具如 OpenAI 的 API 相比，Headroom 提供了更高的压缩率和更低的成本。该项目使用 Python 开发，采用开源许可证，适合需要高效数据处理的开发者和研究人员，不推荐对 token 使用量要求不高的用户。",
+      "features": [
+        "压缩输出和日志，减少 token 使用",
+        "支持多种文件格式的压缩",
+        "兼容多种 LLM 接口",
+        "提供代理和 MCP 服务器功能",
+        "优化 JSON 数据处理"
+      ],
+      "useCases": [
+        "在本地运行 LLM 时减少 token 消耗",
+        "处理大规模 JSON 数据以降低成本",
+        "集成到现有的 AI 应用中以提高效率"
+      ],
+      "quickStart": [
+        "git clone https://github.com/headroomlabs-ai/headroom.git",
+        "cd headroom",
+        "pip install -r requirements.txt",
+        "python main.py"
+      ],
+      "why": "Headroom 通过高效的压缩算法，显著降低了与 LLM 交互时的 token 使用量，帮助用户节省成本。该项目在 GitHub 上获得了 65836 stars，显示出其广泛的社区支持和活跃度。与其他同类工具相比，Headroom 的压缩效果更为显著，适合需要高效数据处理的用户。",
+      "tags": [
+        "压缩工具",
+        "数据处理",
+        "LLM",
+        "开源",
+        "Python"
+      ],
+      "url": "https://github.com/headroomlabs-ai/headroom",
+      "stars": "65836 stars",
+      "source": "GitHub Search · 2026-08-11",
+      "date": "2026-08-11"
+    },
     {
       "name": "Tencent-Hunyuan/R-DMesh",
       "lang": "Python",
@@ -8127,156 +8221,6 @@
       "url": "https://github.com/MoonshotAI/PerceptionBench",
       "stars": "163 stars",
       "source": "GitHub · 月之暗面 Kimi",
-      "date": "2026-08-04"
-    },
-    {
-      "name": "QwenLM/qwen-code",
-      "lang": "TypeScript",
-      "category": "Coding Agent",
-      "description": "这是一个开源的 AI 编程助手，能够在终端中运行，帮助开发者提高编码效率。",
-      "details": "QwenLM/qwen-code 是一个专为开发者设计的 AI 编程助手，能够在终端中直接运行，提供代码建议和自动补全功能。与其他同类工具（如 GitHub Copilot）相比，它的开源特性使得用户可以自由定制和扩展功能。该项目使用 TypeScript 开发，遵循 MIT 许可证，适合希望在本地环境中使用 AI 编程助手的开发者。不推荐对开源项目不感兴趣的用户。",
-      "features": [
-        "提供实时代码建议",
-        "支持多种编程语言",
-        "集成终端环境",
-        "开源可定制",
-        "支持代码片段管理"
-      ],
-      "useCases": [
-        "在终端中快速生成代码片段",
-        "实时调试和优化代码",
-        "自动补全常用函数和库",
-        "集成到现有开发工作流中"
-      ],
-      "quickStart": [
-        "git clone https://github.com/QwenLM/qwen-code.git",
-        "cd qwen-code",
-        "npm install",
-        "npm start",
-        "在终端中输入代码进行测试"
-      ],
-      "why": "QwenLM/qwen-code 拥有超过 26625 个星标，显示出其在开发者社区中的受欢迎程度。与其他商业产品相比，它的开源特性和可定制性使得用户能够根据自己的需求进行调整，提升了灵活性和适用性。该项目活跃的社区也为用户提供了丰富的支持和资源。",
-      "tags": [
-        "AI 编程助手",
-        "开源工具",
-        "终端应用"
-      ],
-      "url": "https://github.com/QwenLM/qwen-code",
-      "stars": "26625 stars",
-      "source": "GitHub · 通义千问 Qwen",
-      "date": "2026-08-04"
-    },
-    {
-      "name": "FlowiseAI/Flowise",
-      "lang": "TypeScript",
-      "category": "AI 编辑器",
-      "description": "这是一个可视化构建 AI 代理的工具，适合开发者和数据科学家使用，支持快速构建和部署 AI 应用。",
-      "details": "Flowise 是一个开源的可视化 AI 代理构建平台，旨在简化 AI 应用的开发过程。与其他同类工具（如 LangChain 和 Haystack）相比，Flowise 提供了更直观的用户界面，允许用户通过拖放组件来构建复杂的 AI 工作流。该项目使用 TypeScript 开发，遵循 MIT 许可证，适合希望快速原型开发和部署 AI 解决方案的开发者和团队。不推荐给对可视化工具不感兴趣的用户。",
-      "features": [
-        "支持可视化工作流设计",
-        "集成多种 AI 模型",
-        "提供实时调试功能",
-        "支持自定义插件扩展",
-        "兼容 OpenAI API"
-      ],
-      "useCases": [
-        "构建聊天机器人并集成到网站中",
-        "创建数据分析工具以自动化报告生成",
-        "实现个性化推荐系统",
-        "开发智能客服系统"
-      ],
-      "quickStart": [
-        "git clone https://github.com/FlowiseAI/Flowise.git",
-        "cd Flowise",
-        "npm install",
-        "npm run start"
-      ],
-      "why": "Flowise 以其用户友好的界面和强大的功能在开源社区中脱颖而出，获得了超过 55125 个星标。其可视化设计使得非技术用户也能轻松上手，适合快速开发和迭代。与其他工具相比，Flowise 的社区活跃度高，更新频繁，确保用户能够获得最新的功能和支持。",
-      "tags": [
-        "AI",
-        "可视化",
-        "开源"
-      ],
-      "url": "https://github.com/FlowiseAI/Flowise",
-      "stars": "55125 stars",
-      "source": "GitHub Search · 2026-08-04",
-      "date": "2026-08-04"
-    },
-    {
-      "name": "affaan-m/ECC",
-      "lang": "JavaScript",
-      "category": "Agent 框架",
-      "description": "ECC 是一个为开发者提供性能优化的智能代理系统，专注于技能、记忆和安全性。",
-      "details": "ECC 旨在解决智能代理在性能和安全性上的挑战，适用于需要高效推理和开发的场景。与其他代理框架如 OpenAI 的 Codex 和 Cursor 相比，ECC 强调了对技能和记忆的深度整合，提供更灵活的开发体验。该项目使用 JavaScript 开发，采用 MIT 许可证，适合希望在本地环境中构建智能应用的开发者，不推荐对性能要求不高的项目。",
-      "features": [
-        "支持多种智能代理模型",
-        "集成记忆管理功能",
-        "提供安全性优化工具",
-        "兼容多种开发环境",
-        "支持自定义技能扩展"
-      ],
-      "useCases": [
-        "构建本地智能助手进行任务自动化",
-        "开发个性化推荐系统",
-        "实现安全的数据处理和存储",
-        "创建多功能的聊天机器人"
-      ],
-      "quickStart": [
-        "git clone https://github.com/affaan-m/ECC.git",
-        "cd ECC",
-        "npm install",
-        "npm start",
-        "在浏览器中访问 http://localhost:3000"
-      ],
-      "why": "ECC 以其 237345 stars 的社区支持和活跃度，提供了独特的技能和记忆管理功能，适合需要高效推理的开发者。相比其他同类产品，ECC 的灵活性和安全性使其在智能代理领域中脱颖而出，适合各种复杂应用场景。",
-      "tags": [
-        "智能代理",
-        "性能优化",
-        "JavaScript",
-        "开发工具"
-      ],
-      "url": "https://github.com/affaan-m/ECC",
-      "stars": "237345 stars",
-      "source": "GitHub Search · 2026-08-04",
-      "date": "2026-08-04"
-    },
-    {
-      "name": "langgenius/dify",
-      "lang": "TypeScript",
-      "category": "Agent 框架",
-      "description": "这是一个为团队提供的协作工作空间工具，支持构建智能工作流和 RAG 管道，亮点是丰富的 AI 模型和工具支持。",
-      "details": "Dify 旨在解决团队在构建 AI 应用时的协作和部署问题。与其他同类工具（如 LangChain 和 Haystack）相比，Dify 提供了更灵活的部署选项，包括云端、VPC 或自托管，帮助团队从原型快速转向生产环境，而无需重建技术栈。该项目使用 TypeScript 开发，遵循开源许可证，适合希望快速构建和部署 AI 应用的开发者和团队，不推荐对 AI 应用开发不感兴趣的用户。",
-      "features": [
-        "支持多种 AI 模型和工具集成",
-        "提供灵活的部署选项",
-        "支持实时协作和工作流管理",
-        "兼容多种数据源和 API",
-        "内置 RAG 管道功能"
-      ],
-      "useCases": [
-        "构建智能客服系统，自动处理用户查询",
-        "创建数据驱动的决策支持工具",
-        "实现团队协作的 AI 项目管理",
-        "快速原型开发并部署到生产环境"
-      ],
-      "quickStart": [
-        "git clone https://github.com/langgenius/dify.git",
-        "cd dify",
-        "npm install",
-        "npm run start",
-        "访问 http://localhost:3000"
-      ],
-      "why": "Dify 以其灵活的部署选项和丰富的功能集脱颖而出，当前在 GitHub 上拥有 151238 stars，显示出其广泛的社区支持和活跃度。与其他工具相比，Dify 的设计更注重团队协作和快速迭代，适合需要快速响应市场变化的开发团队。",
-      "tags": [
-        "AI 工具",
-        "工作流",
-        "协作",
-        "RAG",
-        "开源"
-      ],
-      "url": "https://github.com/langgenius/dify",
-      "stars": "151238 stars",
-      "source": "GitHub Search · 2026-08-04",
       "date": "2026-08-04"
     }
   ],
@@ -12097,6 +12041,21 @@
     ],
     "ai-research": [
       {
+        "name": "从专有 LLM API 中窃取推理痕迹的安全隐患",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "这项研究的发现对多个领域的开发者和企业具有重要影响。首先，做 RAG 的工程师需要重新审视数据安全性，确保其使用的模型不会泄露敏感信息。其次，数据科学家和 AI 研究人员应关注模型的推理过程，以避免潜在的安全风险。此外，企业在选择 LLM 提供商时，需考虑其安全性和隐私保护措施，从而降低数据泄露的风险。",
+        "description": "这次发布的核心点是，领先的大型语言模型提供商为了保护知识产权和限制信息泄露，隐藏了模型的逐步推理过程。研究发现，这些加密的推理块在不同会话和用户间是兼容的，存在安全漏洞，可能导致大规模的数据泄露和隐私风险。",
+        "useCases": [
+          "分析加密推理块的兼容性，评估模型安全性。",
+          "开发新的安全机制，防止数据泄露。",
+          "监控和审查会话日志，识别潜在的隐私风险。"
+        ],
+        "watch": "使用不安全的 LLM 可能导致敏感数据泄露，影响用户隐私。",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2608.09867v1"
+      },
+      {
         "name": "Scientists Report: AI Creates Never-Before-Seen Virus",
         "provider": "NewsAPI",
         "type": "AI 项目/工具",
@@ -12665,23 +12624,6 @@
         "watch": "科技股票的波动性较大，可能导致投资损失，尤其是在市场不稳定时。",
         "sourceName": "NewsData.io:artificial intelligence",
         "url": "https://www.thelincolnianonline.com/2026/07/29/technology-stocks-to-research-july-29th.html"
-      },
-      {
-        "name": "Sage与Causaly达成药物发现研究AI平台出版协议",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "这项合作将使生物医学研究人员能够更高效地获取和分析文献，尤其是在药物发现领域。通过AI技术，研究人员可以更快地找到所需的信息，从而加速研究进程。此外，这种整合将推动科学研究的智能化，改变传统的文献检索方式，提升研究的准确性和效率。对于制药公司和科研机构而言，这意味着更快的决策和更高的研究效率，可能会加速新药的开发。",
-        "description": "Sage与Causaly宣布达成合作，将全面的科学同行评审文献引入AI驱动的药物发现研究中。这是Causaly与主要STM出版商的首次合作，标志着AI在生物医学研究中的应用进一步深化。",
-        "useCases": [
-          "利用Causaly平台快速获取Sage期刊的相关研究文献，缩短文献回顾时间。",
-          "通过AI分析工具，提取药物发现研究中的关键数据和见解，提升研究效率。",
-          "在科研工作中，结合Causaly的AI技术与Sage的文献资源，进行更深入的文献分析。",
-          "使用Causaly的AI代理，自动化文献检索和数据整理，减少人工工作量。",
-          "在制药研发过程中，利用AI提供的证据支持，优化决策制定。"
-        ],
-        "watch": "API的使用费用可能较高，尤其是对于小型研究机构，需谨慎评估预算。",
-        "sourceName": "NewsData.io:large language model",
-        "url": "https://www.genengnews.com/industry-news/sage-inks-publishing-deal-with-causalys-ai-platform-focusing-on-drug-discovery-research/"
       }
     ],
     "ai-office": []
@@ -14569,8 +14511,8 @@
   ],
   "dailyReport": {
     "date": "2026-08-11",
-    "generatedAt": "2026-08-11T02:43:10.749648Z",
-    "total": 24,
+    "generatedAt": "2026-08-11T03:53:50.520624Z",
+    "total": 9,
     "sections": [
       {
         "category": "ai-tools",
@@ -14586,39 +14528,6 @@
             "date": "2026-08-10",
             "publishedAt": "2026-08-10T10:07",
             "reason": "千问开放平台的上线为开发者和用户提供了全新的智能服务体验，值得关注其在市场中的表现。"
-          },
-          {
-            "title": "OpenAI ChatGPT 桌面版新增语音交互功能，支持多步骤任务执行",
-            "summary": "OpenAI 更新了 ChatGPT 桌面应用，新增语音交互功能，用户可通过语音指令控制 AI 执行复杂任务。该功能基于新推出的 ChatGPT-Live 语音模型，支持多种应用场景，提升了用户的操作效率。",
-            "source": "IT之家（RSS）",
-            "url": "https://www.ithome.com/0/987/452.htm",
-            "score": 66,
-            "sourceCount": 1,
-            "date": "2026-08-09",
-            "publishedAt": "2026-08-09T06:46",
-            "reason": "这项更新显著提升了 ChatGPT 的实用性，尤其是在多任务处理和语音交互方面，值得关注。"
-          },
-          {
-            "title": "OpenAI 报告显示 ChatGPT 用户群体变化：35 岁以上用户增长显著",
-            "summary": "OpenAI 最新报告揭示，全球超过 10 亿用户正在使用 ChatGPT，使用方式逐渐从单纯的问答工具转向更为复杂的任务执行工具。尤其是在工作场景中，用户利用 ChatGPT 完成任务的频率显著提高，35 岁及以上用户的活跃度也有明显上升，尤其在法国和捷克等国家增长超过 10%",
-            "source": "IT之家（RSS）",
-            "url": "https://www.ithome.com/0/986/957.htm",
-            "score": 65,
-            "sourceCount": 1,
-            "date": "2026-08-07",
-            "publishedAt": "2026-08-07T14:28",
-            "reason": "这份报告揭示了 ChatGPT 用户群体的变化及其在工作场景中的应用潜力，值得关注。"
-          },
-          {
-            "title": "Suno移动应用新增Voices功能，轻松录制人声",
-            "summary": "Suno移动应用在iOS和Android平台正式推出Voices功能，用户可以直接在手机上录制人声并应用于音乐创作。只需点击\"+ Voice\"按钮，录制至少一分钟的声音，Pro和Premier套餐用户可无限制使用，免费用户则可体验有限版本。快来试试吧！",
-            "source": "X：Suno (@suno)",
-            "url": "https://x.com/suno/status/2085731234970227145",
-            "score": 62,
-            "sourceCount": 1,
-            "date": "2026-08-07",
-            "publishedAt": "2026-08-07T22:14",
-            "reason": "Suno的Voices功能为音乐创作者提供了便捷的录音工具，极大地提升了移动音乐创作的灵活性和便利性。"
           },
           {
             "title": "微信小微AI推出朋友圈AI帮写与点评功能",
@@ -14638,10 +14547,10 @@
         "label": "AI 编程",
         "items": [
           {
-            "title": "Security Tests as Executable Specifications for LLM Code Generation: Benefits, Trade-offs, and Coverage Limits",
-            "summary": "Large language models (LLMs) can generate functionally useful code that remains vulnerable, while security-focused interventions may break i",
+            "title": "Decoding-Level Taboo: A Diagnostic Stress Test for LLM Robustness",
+            "summary": "Large language model evaluations typically focus on performance under nominal conditions, creating an illusion of capability where models co",
             "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.09740v1",
+            "url": "http://arxiv.org/abs/2608.09900v1",
             "score": 70,
             "sourceCount": 1,
             "date": "2026-08-10",
@@ -14649,13 +14558,13 @@
             "reason": ""
           },
           {
-            "title": "Blast Radius",
-            "summary": "Agentic coding faces growing problems of affordability and wasted tokens. We introduce Blast Radius, a predictive memory management layer th",
+            "title": "Security Tests as Executable Specifications for LLM Code Generation: Benefits, Trade-offs, and Coverage Limits",
+            "summary": "Large language models (LLMs) can generate functionally useful code that remains vulnerable, while security-focused interventions may break i",
             "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.07440v1",
+            "url": "http://arxiv.org/abs/2608.09740v1",
             "score": 70,
             "sourceCount": 1,
-            "date": "2026-08-07",
+            "date": "2026-08-10",
             "publishedAt": "",
             "reason": ""
           }
@@ -14694,28 +14603,6 @@
         "label": "模型发布",
         "items": [
           {
-            "title": "Hunyuan3D-Buffalo 1.0：统一的多模态模型，支持可扩展的3D生成与编辑",
-            "summary": "我最近看到Hunyuan3D-Buffalo 1.0的发布，这是一种新型的多模态模型，旨在解决3D生成、理解和编辑中的数据稀缺问题。该模型整合了文本到3D的生成能力，能够在缺乏大规模几何一致性编辑数据的情况下，提供更为统一的3D建模框架。这一进展可能会对3D内容创作和编辑带来新的",
-            "source": "RSS · arXiv cs.CV",
-            "url": "https://arxiv.org/abs/2608.02711",
-            "score": 82,
-            "sourceCount": 1,
-            "date": "2026-08-05",
-            "publishedAt": "",
-            "reason": "Hunyuan3D-Buffalo 1.0的发布为3D生成和编辑提供了新的可能性，值得关注。"
-          },
-          {
-            "title": "GLM-5 发布，国产大模型再度升级",
-            "summary": "国产大模型厂商智谱开放平台推出了最新版本 GLM-5，标志着其在自然语言处理领域的进一步突破。GLM-5 在性能和功能上较前一代产品有显著提升，预计将为多种应用场景提供更强大的支持。",
-            "source": "中国一手 · 智谱开放平台新品",
-            "url": "https://docs.bigmodel.cn/cn/guide/models/text/glm-5",
-            "score": 78,
-            "sourceCount": 1,
-            "date": "2026-08-05",
-            "publishedAt": "",
-            "reason": "GLM-5 的发布不仅提升了国产大模型的竞争力，还为各行业的应用提供了新的可能性，值得关注。"
-          },
-          {
             "title": "SR-OPSD: Self-Referenced On-Policy Self-Distillation",
             "summary": "On-policy self-distillation (OPSD) converts feedback into dense token-level supervision on trajectories generated by the policy to be optimi",
             "source": "arXiv",
@@ -14725,61 +14612,6 @@
             "date": "2026-08-10",
             "publishedAt": "",
             "reason": ""
-          },
-          {
-            "title": "Taxonomy-Driven Analysis of Open-Source AI Risk Mitigation Tools",
-            "summary": "Rapid adoption of large language models (LLMs) in enterprise settings has introduced operational, security, and governance risks. As generat",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.07446v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-07",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Routing LLM Inference to the Cleanest Grid in Real Time",
-            "summary": "Large-language-model inference is a fast-growing electricity load whose marginal carbon intensity varies by more than an order of magnitude ",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.06188v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-06",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Optimizing What Policies Learn From: Recoverability-aware Rollout Intervention Learning",
-            "summary": "Critic-free group-based reinforcement learning has become a scalable approach for post-training large language models. However, most existin",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.05080v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-06",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Gradient Immunity: Null-Space Resistance to Malicious Fine-Tuning",
-            "summary": "Released aligned large language models remain vulnerable to malicious downstream finetuning. Existing defenses are largely designed for the ",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.05045v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-06",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "GPT-5.6 Sol与Luna提升ChatGPT推理能力",
-            "summary": "OpenAI推出的GPT-5.6 Sol和Luna版本为用户提供了更强大的推理能力。Plus和Pro用户可以享受即时和深度推理，而免费用户则可以无限次使用Luna进行文本对话。这一更新显著提升了回答的准确性和聚焦度。",
-            "source": "X：OpenAI (@OpenAI)",
-            "url": "https://x.com/OpenAI/status/2085434712429052386",
-            "score": 66,
-            "sourceCount": 1,
-            "date": "2026-08-07",
-            "publishedAt": "2026-08-07T02:35",
-            "reason": "这次更新显著提升了ChatGPT的推理能力，尤其是对用户的实际应用场景有很大帮助，值得关注。"
           }
         ]
       },
@@ -14788,87 +14620,26 @@
         "label": "评测榜单",
         "items": [
           {
-            "title": "DeepAmbigQA：多跳模糊问题基准测试 LLM 答案完整性",
-            "summary": "DeepAmbigQA 是一个新推出的数据集，专注于评估大型语言模型（LLM）在处理复杂问题时的答案完整性。该数据集包含 3600 个多跳推理问题，其中一半涉及名称模糊性，旨在填补现有问答基准的空白。实验结果显示，即使是最先进的 GPT-5 模型在回答模糊问题时也表现不佳，准确匹",
-            "source": "RSS · Apple ML Research",
-            "url": "https://machinelearning.apple.com/research/deepambigqa-multihop-questions",
-            "score": 82,
-            "sourceCount": 1,
-            "date": "2026-08-06",
-            "publishedAt": "2026-08-06T08:00",
-            "reason": "DeepAmbigQA 提供了一个全新的视角来评估 LLM 的能力，尤其是在复杂问题上的表现，值得关注。"
-          }
-        ]
-      },
-      {
-        "category": "ai-research",
-        "label": "论文研究",
-        "items": [
-          {
-            "title": "PixelUp：零样本语义特征上采样技术",
-            "summary": "PixelUp 是一种新型的零样本语义特征上采样方法，旨在提升计算机视觉任务中的细粒度预测能力。尽管其在语义分割和深度估计等密集预测任务中表现出色，但仍面临特定编码器依赖和训练复杂性等挑战。",
-            "source": "RSS · arXiv cs.CV",
-            "url": "https://arxiv.org/abs/2608.02792",
-            "score": 80,
-            "sourceCount": 1,
-            "date": "2026-08-05",
-            "publishedAt": "",
-            "reason": "PixelUp 提供了一种创新的特征上采样方法，具有灵活性和高效性，值得关注其在计算机视觉领域的应用潜力。"
-          },
-          {
-            "title": "From Score Matrices to Football-Aware Match-State Simulation: An Auditable LLM Harness for Exact-Score Reranking",
-            "summary": "Football score forecasting combines a strong statistical core with a difficult contextual edge. Dynamic Poisson-family models estimate team ",
+            "title": "From Values to Benchmarks: Evaluating Large Language Models for Governmental Use in Dutch",
+            "summary": "Large language models are increasingly being deployed in governmental settings, yet few existing evaluation frameworks jointly reflect the v",
             "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.05030v1",
+            "url": "http://arxiv.org/abs/2608.09925v1",
             "score": 70,
             "sourceCount": 1,
-            "date": "2026-08-06",
+            "date": "2026-08-10",
             "publishedAt": "",
             "reason": ""
           },
           {
-            "title": "Confident but Unreliable: A Behavioral Safety Audit of Vision-Language Models on Brain MRI",
-            "summary": "arXiv:2608.02790v1 Announce Type: new Abstract: Vision-language models (VLMs), including medical specialists, are increasingly proposed for ",
-            "source": "RSS · arXiv cs.CV",
-            "url": "https://arxiv.org/abs/2608.02790",
+            "title": "Beyond Naturalness: Probing Automated Text-To-Speech Evaluators on Linguistically Grounded Dimensions",
+            "summary": "Automated Text-to-Speech (TTS) evaluation methods (Mean Opinion Score (MOS) predictors and Audio Large Language Models (Audio-LLM) judges) a",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.09930v1",
             "score": 70,
             "sourceCount": 1,
-            "date": "2026-08-05",
+            "date": "2026-08-10",
             "publishedAt": "",
             "reason": ""
-          },
-          {
-            "title": "A Unified 2D Framework for DeepLesion Detection, Segmentation and Short Report Generation",
-            "summary": "arXiv:2608.02805v1 Announce Type: new Abstract: In previous work, we integrated large language models (LLMs) into the lesion segmentation mo",
-            "source": "RSS · arXiv cs.CV",
-            "url": "https://arxiv.org/abs/2608.02805",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-05",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Better, Stronger, Faster, and Broader: Structured All-Mask Prediction for MLLM-Based Segmentation",
-            "summary": "arXiv:2608.02791v1 Announce Type: new Abstract: MLLM-based segmentation faces a core segmentation trilemma: high segmentation performance, p",
-            "source": "RSS · arXiv cs.CV",
-            "url": "https://arxiv.org/abs/2608.02791",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-05",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "DeepMind WeatherNext 模型为飓风预警提供额外一天时间",
-            "summary": "Google DeepMind 和 Google Research 联合开发的 AI 模型 WeatherNext，在 2025 年 10 月成功预测飓风 Melissa 将以 5 级强度袭击牙买加，提前五天发出预警，置信度达到 80%。该模型的预测准确率显著提升，平均比现有模型",
-            "source": "Ars Technica：AI（RSS）",
-            "url": "https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day",
-            "score": 67,
-            "sourceCount": 1,
-            "date": "2026-08-08",
-            "publishedAt": "2026-08-08T19:05",
-            "reason": "WeatherNext 模型在飓风预测中的成功应用，展示了 AI 在气象领域的巨大潜力，值得关注。"
           }
         ]
       }
