@@ -1,7 +1,71 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-08-11",
-  "generatedAt": "2026-08-11T08:18:45.963102Z",
+  "generatedAt": "2026-08-11T10:58:34.237129Z",
   "news": [
+    {
+      "title": "蚂蚁百灵开源 Ling-3.0-tiny：1.3B 激活参数的混合推理模型",
+      "summary": "我注意到蚂蚁百灵最近开源了 Ling-3.0-tiny，这是一款总参数达到 7.9B 的原生混合推理模型。在推理时，它仅激活 1.3B 参数，并同时提供 BF16、FP8 和 INT4 三个版本，适合不同需求的开发者使用。",
+      "category": "ai-models",
+      "tags": [
+        "Ling-3.0-tiny",
+        "混合推理",
+        "开源模型",
+        "蚂蚁百灵",
+        "AI技术"
+      ],
+      "keyPoints": [
+        "Ling-3.0-tiny 是蚂蚁百灵推出的最新开源模型，总参数为 7.9B，但推理时仅激活 1.3B 参数，优化了计算效率。",
+        "该模型支持三种不同的数值格式：BF16、FP8 和 INT4，满足不同硬件和应用场景的需求。",
+        "Ling-3.0-tiny 的开源将为开发者提供更多灵活性，尤其是在资源受限的环境中，能够有效降低计算成本。",
+        "该模型的设计考虑了实际应用中的性能和效率，适合需要快速推理的任务，如实时数据处理和在线服务。",
+        "蚂蚁百灵的开源策略可能会吸引更多开发者参与到模型的优化和应用中，推动社区的共同进步。"
+      ],
+      "background": "Ling-3.0-tiny 的发布标志着蚂蚁百灵在 AI 领域的又一次重要进展。随着 AI 技术的不断发展，模型的规模和复杂度也在不断增加。Ling-3.0-tiny 的设计理念是通过激活较少的参数来实现高效推理，这在资源有限的情况下尤为重要。与之前的模型相比，Ling-3.0-tiny 更加注重实用性和灵活性，适合多种应用场景，尤其是在需要快速响应的业务中。",
+      "impact": "Ling-3.0-tiny 的开源将对多个领域产生深远影响。首先，做 RAG 的工程师可以利用该模型快速构建高效的检索系统，提升用户体验。其次，电商美工可以通过该模型生成高质量的图像内容，节省时间和成本。此外，管 GPU 集群的 SRE 可以更好地管理资源，优化计算效率。整体来看，这一模型的发布将推动更多企业和开发者在 AI 应用上进行创新。",
+      "audience": [
+        "做 RAG 的工程师",
+        "电商美工",
+        "管 GPU 集群的 SRE",
+        "AI 研究人员",
+        "应用开发者"
+      ],
+      "useCases": [
+        "利用 Ling-3.0-tiny 构建高效的检索系统，提升信息检索的速度和准确性。",
+        "在电商平台上使用该模型生成产品图像，快速响应市场需求，提升用户体验。",
+        "通过该模型优化 GPU 资源的使用，降低计算成本，提高整体系统性能。",
+        "在实时数据分析中应用 Ling-3.0-tiny，快速处理和分析数据，支持决策制定。",
+        "开发基于 Ling-3.0-tiny 的智能助手，提供个性化服务，增强用户互动。"
+      ],
+      "risks": [
+        "在使用 Ling-3.0-tiny 时，开发者需注意 API 的使用限制和配额，避免超出免费额度。",
+        "不同版本的模型可能在性能上存在差异，选择不当可能导致应用效果不佳。",
+        "商用授权方面需仔细阅读相关条款，确保符合使用规范，避免法律风险。",
+        "模型的兼容性问题可能会影响与现有系统的集成，需提前进行测试。",
+        "在特定语种的支持上，可能存在局限性，需根据实际需求进行评估。"
+      ],
+      "reason": "Ling-3.0-tiny 的开源为开发者提供了一个高效、灵活的工具，尤其适合资源受限的环境，值得关注。",
+      "scores": {
+        "importance": 85,
+        "novelty": 80,
+        "firsthand": 90,
+        "impact": 75,
+        "credibility": 85
+      },
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkyODk2MDQwNw%3D%3D&mid=2247487491&idx=1&sn=fcb14aceb054f9a24e22525d3dae6fa0",
+      "source": "公众号：蚂蚁百灵（Ling）",
+      "date": "2026-08-11",
+      "publishedAt": "2026-08-11T17:20",
+      "collectedAt": "2026-08-11T18:57",
+      "dateStatus": "verified",
+      "tier": "T1.5",
+      "score": 66,
+      "aiSelected": true,
+      "_style": "recommender",
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "微信小微AI推出朋友圈AI帮写与点评功能",
       "summary": "微信小微AI推出了朋友圈AI帮写与AI点评的内测功能，前者可根据图片和已有文字生成三条文案，后者则允许用户长按文字生成评价或快捷评论。这一变化可能会影响社交媒体内容的真实性，改变用户记录生活的方式。",
@@ -211,6 +275,67 @@ window.AI_GENERATED_DATA = {
       "scores": {},
       "score": 70,
       "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "专有 LLM API 的加密推理轨迹被窃取的风险分析",
+      "summary": "研究表明，Anthropic、OpenAI 和 Google 等公司的专有 LLM API 存在严重的安全漏洞，攻击者可通过跨会话和用户互换加密推理轨迹，强制模型以明文输出推理内容。这一发现揭示了当前 LLM 保护机制的不足，可能导致大规模数据泄露和隐私风险。",
+      "category": "ai-research",
+      "tags": [
+        "安全漏洞",
+        "加密推理",
+        "数据泄露",
+        "LLM",
+        "人工智能"
+      ],
+      "keyPoints": [
+        "研究发现，专有 LLM 的加密推理轨迹块可跨会话互换，存在安全隐患。",
+        "攻击者可通过注入加密轨迹到防护较弱的模型，强制其输出明文内容。",
+        "分析显示，315,320 个推理块中恢复出367个个人身份信息（PII）和182个凭证。",
+        "该漏洞允许攻击者执行隐形提示注入，可能影响公共代理的安全性。",
+        "研究建议采取加密和系统级的缓解措施以增强客户端推理的安全性。"
+      ],
+      "background": "随着大型语言模型（LLM）在各行业的广泛应用，保护其知识产权和防止信息泄露成为关键。当前，主要 LLM 提供商通过将推理过程以加密文本块的形式返回给客户端，试图防止推理轨迹被直接访问。然而，最新研究揭示，这些加密块在同一提供商的不同会话、用户和模型之间是兼容和可互换的。这一架构漏洞使得攻击者能够利用较弱模型的解密能力，获取更强模型的推理内容。与以往的安全事件相比，此次漏洞的影响范围更广，涉及多个知名 LLM 提供商。",
+      "impact": "这一发现对 LLM 的使用和开发产生了深远影响。首先，开发者需要重新评估其数据共享和存储策略，以防止无意中泄露敏感信息。其次，企业在选择 LLM 提供商时，需关注其安全性和合规性，可能会影响其决策过程。此外，用户对数据隐私的担忧将促使 LLM 提供商加强安全措施，进而影响整个行业的技术发展方向。",
+      "audience": [
+        "安全研究人员",
+        "LLM 开发者",
+        "数据隐私合规官",
+        "AI 产品经理",
+        "云服务架构师"
+      ],
+      "useCases": [
+        "评估 LLM 的安全性，确保数据保护措施到位。",
+        "开发安全的 LLM 应用，避免潜在的隐私泄露。",
+        "设计加密机制，防止推理轨迹被窃取。"
+      ],
+      "risks": [
+        "API 的定价和配额可能影响开发者的使用成本，增加商业风险。",
+        "合规性问题可能导致法律责任，尤其是在处理个人数据时。",
+        "模型间的兼容性问题可能影响系统集成，增加开发复杂性。"
+      ],
+      "reason": "该研究揭示了当前 LLM 安全机制的重大漏洞，值得关注其对行业的潜在影响。",
+      "scores": {
+        "importance": 85,
+        "novelty": 80,
+        "firsthand": 90,
+        "impact": 75,
+        "credibility": 85
+      },
+      "url": "https://arxiv.org/abs/2608.09867",
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "date": "2026-08-10",
+      "publishedAt": "2026-08-10T08:00",
+      "collectedAt": "2026-08-11T17:37",
+      "dateStatus": "verified",
+      "tier": "T1.5",
+      "score": 66,
+      "aiSelected": true,
+      "_style": "analyst",
       "moduleTargets": [
         "news",
         "topicResources"
@@ -462,6 +587,67 @@ window.AI_GENERATED_DATA = {
       "score": 67,
       "aiSelected": true,
       "_style": "observer",
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Ego-OSCAR：开源低成本头戴式立体惯性采集系统",
+      "summary": "我注意到 Ego-OSCAR 是一款非常实用的开源硬件头戴式立体惯性采集设备，单台成本低于 200 美元，使用商用组件和 3D 打印部件。它配备了同步的全局快门立体相机、6 轴 IMU 和嵌入式 Linux SBC，提供了完整的软件栈和约 550 小时的同步 IMU 日常室内环境第一视角立体视频，极大降低了大规模众包数据采集的门槛。",
+      "category": "ai-research",
+      "tags": [
+        "开源硬件",
+        "立体视频",
+        "数据采集",
+        "IMU",
+        "低成本"
+      ],
+      "keyPoints": [
+        "Ego-OSCAR 的物料成本低于 200 美元，使用商用组件和 3D 打印部件，适合预算有限的团队。",
+        "设备结合了全局快门立体相机和 6 轴 IMU，能够高效捕捉第一视角数据。",
+        "提供完整的软件栈，包括硬件加速录制管道和 IMU 采样守护进程，便于开发者使用。",
+        "数据集包含约 550 小时的同步 IMU 立体视频，支持开放词汇动作标注和逐帧 3D 手部重建。",
+        "Ego-OSCAR 旨在降低大规模众包第一视角数据采集的门槛，适合研究和开发团队。"
+      ],
+      "background": "Ego-OSCAR 是一款新兴的开源硬件项目，旨在为研究人员和开发者提供一种低成本的解决方案，以便在真实环境中收集第一视角数据。与传统的高成本研究设备相比，Ego-OSCAR 通过使用商用组件和 3D 打印技术，显著降低了进入门槛。该设备的设计和软件完全开源，鼓励社区参与和贡献，推动了数据采集技术的普及。",
+      "impact": "Ego-OSCAR 的推出将对多个领域产生深远影响。首先，研究人员可以以更低的成本进行数据采集，促进相关领域的研究进展。其次，教育机构和初创公司也能利用这一工具进行创新实验，推动技术的应用和发展。此外，开源的特性将吸引更多开发者参与，形成良好的社区生态，推动技术的迭代和优化。",
+      "audience": [
+        "计算机视觉研究员",
+        "机器人开发者",
+        "教育机构的研究人员",
+        "初创公司的技术团队"
+      ],
+      "useCases": [
+        "使用 Ego-OSCAR 进行室内环境的第一视角视频采集，便于后续分析和研究。",
+        "结合 IMU 数据进行手势识别研究，提升人机交互的自然性。",
+        "在教育项目中使用该设备进行学生的实践训练，增强学习体验。",
+        "利用开源软件栈进行自定义开发，满足特定的研究需求。"
+      ],
+      "risks": [
+        "由于设备使用商用组件，可能面临兼容性问题，需提前测试。",
+        "开源项目的维护和更新依赖社区支持，可能存在不稳定性。",
+        "数据采集过程中可能受到环境因素影响，导致数据质量不均。",
+        "对于初学者，设备的配置和使用可能需要一定的学习曲线。"
+      ],
+      "reason": "Ego-OSCAR 的开源和低成本特性，使其成为研究和开发领域的理想选择，值得关注。",
+      "scores": {
+        "importance": 85,
+        "novelty": 80,
+        "firsthand": 90,
+        "impact": 75,
+        "credibility": 80
+      },
+      "url": "https://arxiv.org/abs/2608.08285",
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "date": "2026-08-08",
+      "publishedAt": "2026-08-08T08:00",
+      "collectedAt": "2026-08-11T17:37",
+      "dateStatus": "verified",
+      "tier": "T1.5",
+      "score": 65,
+      "aiSelected": true,
+      "_style": "recommender",
       "moduleTargets": [
         "news"
       ],
@@ -4813,139 +4999,6 @@ window.AI_GENERATED_DATA = {
         "news"
       ],
       "sourceCount": 1
-    },
-    {
-      "title": "MiniMax H3：全模态生成模型正式发布",
-      "summary": "我注意到 MiniMax 最近发布了 H3，这是一款全新的通用生成模型，具备强大的多模态理解能力，支持文本、图像、视频和音频的统一处理。H3 在商用场景中表现出色，能够生成高质量的内容，尤其在广告和电商领域具有广泛应用潜力。",
-      "category": "ai-models",
-      "tags": [
-        "MiniMax",
-        "生成模型",
-        "多模态",
-        "视频生成",
-        "商用应用"
-      ],
-      "keyPoints": [
-        "MiniMax H3 是一款支持文本、图像、视频和音频的全模态生成模型，具备原生双声道音视频输出能力。",
-        "该模型最高支持 15s 的 2K 分辨率，价格低于主流模型的 1/3，具有极高的性价比。",
-        "H3 在指令遵循和多场景内容生成方面表现优异，适用于广告、电商、游戏等多个商业场景。",
-        "未来几天，MiniMax 将开放 H3 的模型权重，推动开源社区的发展。",
-        "H3 的设计理念是打破任务边界，实现任务的统一和泛化，提升模型的灵活性和适应性。"
-      ],
-      "background": "MiniMax H3 的发布标志着国产生成模型的又一次突破。过去，视频生成领域主要由闭源模型主导，迭代速度较慢。H3 的推出不仅提升了生成质量，还考虑了与国产芯片的兼容性，旨在加速国产技术的应用。H3 在设计过程中，结合了多项先进技术，如 H3-VAE 和 H3-Omni Transformer，确保了模型的高效性和通用性。",
-      "impact": "H3 的发布将改变广告、电商等行业的内容生成方式，创作者可以通过自然语言直接描述创作意图，提升内容生产的效率和质量。随着多模态理解能力的提升，H3 将逐步参与到更复杂的内容创作过程中，推动整个行业的创新和发展。",
-      "audience": [
-        "广告创意人员",
-        "电商内容编辑",
-        "游戏开发者",
-        "视频制作团队",
-        "品牌营销专员"
-      ],
-      "useCases": [
-        "使用 H3 生成高质量的广告视频，提升品牌宣传效果。",
-        "在电商平台上，利用 H3 制作动态产品展示，吸引消费者注意。",
-        "游戏开发者通过 H3 创建丰富的游戏场景和角色动画，增强用户体验。",
-        "品牌营销专员利用 H3 生成多样化的社交媒体内容，提高用户互动率。",
-        "视频制作团队使用 H3 进行快速的内容迭代，缩短制作周期。"
-      ],
-      "risks": [
-        "H3 的商用授权和配额可能会限制某些用户的使用，需提前了解相关政策。",
-        "在特定场景下，H3 的生成质量可能受限于输入数据的质量，需谨慎选择素材。",
-        "由于模型的复杂性，可能需要较高的硬件配置才能充分发挥其性能。",
-        "开放模型权重后，可能会面临安全和版权方面的挑战，需注意合规性。",
-        "不同语言的支持可能存在差异，用户需确认其需求是否被满足。"
-      ],
-      "reason": "MiniMax H3 的发布为多模态生成领域带来了新的可能性，尤其是在商业应用方面，值得关注和尝试。",
-      "scores": {
-        "importance": 85,
-        "novelty": 80,
-        "firsthand": 90,
-        "impact": 75,
-        "credibility": 80
-      },
-      "url": "https://www.minimaxi.com/blog/minimax-h3",
-      "source": "中国一手 · MiniMax 新闻",
-      "sourceType": "vendor-update",
-      "region": "CN",
-      "date": "2026-07-31",
-      "publishedAt": "2026-07-31T11:38",
-      "collectedAt": "2026-07-31T18:46",
-      "dateStatus": "verified",
-      "tier": "T1",
-      "score": 82,
-      "aiSelected": true,
-      "_style": "recommender",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 2,
-      "relatedSources": [
-        {
-          "source": "公众号：MiniMax（稀宇科技）",
-          "url": "https://mp.weixin.qq.com/s?__biz=MzE5MTA3NzcxMQ%3D%3D&mid=2247488931&idx=1&sn=0506e1d52edd5166becf35f5ebd83a07",
-          "title": "MiniMax H3 开源：支持 2K 视频与立体声的全模态生成系统"
-        }
-      ]
-    },
-    {
-      "title": "OpenAI 破获柬埔寨诈骗团伙",
-      "summary": "OpenAI 近期成功破获一个位于柬埔寨的诈骗团伙，该团伙利用 ChatGPT 支持投资、恋爱、赌博和冒充等诈骗活动。这一行动不仅展示了 AI 技术在打击犯罪方面的潜力，也引发了对 AI 应用伦理的广泛讨论。",
-      "category": "ai-tools",
-      "tags": [
-        "诈骗",
-        "AI应用",
-        "ChatGPT",
-        "网络安全",
-        "技术伦理"
-      ],
-      "keyPoints": [
-        "OpenAI 利用 ChatGPT 识别并破获柬埔寨诈骗团伙，涉及投资、恋爱等多个领域的诈骗活动。",
-        "该团伙通过 AI 技术提升了诈骗的隐蔽性和效率，给受害者带来了严重经济损失。",
-        "OpenAI 的行动标志着 AI 在打击网络犯罪中的应用潜力，可能影响未来的法律和技术政策。",
-        "此次行动引发了对 AI 应用伦理的讨论，尤其是在如何平衡技术进步与社会责任之间。",
-        "OpenAI 的介入显示了科技公司在社会问题上的责任感，可能促使更多企业参与反诈骗行动。"
-      ],
-      "background": "此次事件的背景是，柬埔寨的诈骗活动近年来愈演愈烈，诈骗手法不断翻新，尤其是利用 AI 技术来提高诈骗的成功率。诈骗团伙通过社交媒体和在线平台，利用虚假身份进行投资、恋爱等诈骗，受害者遍布全球。OpenAI 通过技术手段识别出这些活动，并采取行动，标志着 AI 技术在打击网络犯罪中的应用潜力。与以往的传统打击手段相比，AI 的介入使得识别和追踪诈骗活动变得更加高效。",
-      "impact": "这一事件对多个群体产生了深远影响。首先，网络安全专家和执法机构可以借鉴 OpenAI 的成功经验，利用 AI 技术提升反诈骗能力。其次，普通用户在使用 AI 工具时需提高警惕，了解潜在的风险和诈骗手法。此外，科技公司也可能因此受到启发，主动承担社会责任，参与打击网络犯罪的行动。长远来看，这可能促使政府和企业在 AI 应用方面制定更严格的伦理规范，以保护用户权益。",
-      "audience": [
-        "网络安全专家",
-        "法律执法人员",
-        "AI 开发者",
-        "普通消费者",
-        "科技公司决策者"
-      ],
-      "useCases": [
-        "利用 AI 技术监测社交媒体上的可疑活动，及时识别潜在诈骗行为。",
-        "开发反诈骗工具，帮助用户识别和防范网络诈骗，提高安全意识。",
-        "与执法机构合作，分享数据和技术，提升打击诈骗的效率。"
-      ],
-      "risks": [
-        "使用 AI 进行诈骗识别可能面临误判风险，导致无辜用户受到影响。",
-        "API 使用费用可能较高，限制了小型企业和个人开发者的参与。",
-        "对多语言支持的需求可能导致技术实施的复杂性，影响全球用户的体验。"
-      ],
-      "reason": "这次事件展示了 AI 技术在打击网络犯罪中的实际应用，值得关注和学习。",
-      "scores": {
-        "importance": 75,
-        "novelty": 70,
-        "firsthand": 90,
-        "impact": 80,
-        "credibility": 85
-      },
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
-      "source": "RSS · OpenAI Blog",
-      "date": "2026-07-31",
-      "publishedAt": "2026-07-31T08:00",
-      "collectedAt": "2026-08-03T23:48",
-      "dateStatus": "verified",
-      "tier": "T1",
-      "score": 78,
-      "aiSelected": true,
-      "_style": "reviewer",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
     }
   ],
   "weeklyDigests": [
@@ -5802,6 +5855,79 @@ window.AI_GENERATED_DATA = {
     }
   ],
   "githubWeekly": [
+    {
+      "name": "zai-org/GLM-5",
+      "lang": "Python",
+      "category": "Agent 框架",
+      "description": "GLM-5 是一个用于从 Vibe 编码到智能工程的工具，适合开发者和研究人员使用，支持多种应用场景。",
+      "details": "GLM-5 解决了在智能工程中实现高效编码和推理的问题。与其他同类产品如 LangChain 和 Haystack 相比，GLM-5 提供了更灵活的架构和更高的可扩展性。该项目使用 Python 开发，采用 MIT 许可证，适合希望在本地环境中构建和部署 LLM 应用的开发者。对于不熟悉深度学习的用户，可能需要额外的学习成本。",
+      "features": [
+        "支持多种 LLM 模型的集成",
+        "提供灵活的 API 接口",
+        "支持本地推理和部署",
+        "兼容多种数据源",
+        "支持自定义插件扩展"
+      ],
+      "useCases": [
+        "构建本地智能助手进行日常任务",
+        "实现企业级 RAG 系统进行信息检索",
+        "开发个性化推荐系统",
+        "集成多种 LLM 进行复杂任务处理"
+      ],
+      "quickStart": [
+        "git clone https://github.com/zai-org/GLM-5.git",
+        "cd GLM-5",
+        "pip install -r requirements.txt",
+        "python main.py"
+      ],
+      "why": "GLM-5 以其灵活的架构和高可扩展性在同类产品中脱颖而出。项目目前拥有 6929 stars，显示出其在开发者社区的活跃度和认可度。与其他框架相比，GLM-5 更加注重用户自定义和本地部署，适合多种应用场景。",
+      "tags": [
+        "智能工程",
+        "本地推理",
+        "LLM 应用"
+      ],
+      "url": "https://github.com/zai-org/GLM-5",
+      "stars": "6929 stars",
+      "source": "GitHub · 智谱 Z.ai",
+      "date": "2026-08-11"
+    },
+    {
+      "name": "thedaviddias/Front-End-Checklist",
+      "lang": "MDX",
+      "category": "Coding Agent",
+      "description": "这是一个现代网页开发的必备清单，适合开发者和 AI 代理使用，帮助确保项目的完整性。",
+      "details": "Front-End-Checklist 提供了一份详尽的现代前端开发清单，涵盖了从设计到开发的各个方面，确保开发者不会遗漏重要的步骤。与其他类似工具（如 HTML5 Boilerplate）相比，它更注重于实际操作的可行性和易用性。该项目使用 MDX 编写，开源许可证为 MIT，适合所有前端开发者使用，不推荐给不熟悉前端技术的用户。",
+      "features": [
+        "提供全面的前端开发步骤",
+        "支持多种开发框架和工具",
+        "适合新手和经验丰富的开发者",
+        "包含最佳实践和常见问题",
+        "可与 AI 工具集成使用"
+      ],
+      "useCases": [
+        "检查项目是否符合现代前端开发标准",
+        "快速了解开发过程中需要注意的事项",
+        "为新手提供学习前端开发的指导",
+        "帮助团队保持开发一致性",
+        "作为项目审查的参考清单"
+      ],
+      "quickStart": [
+        "访问 GitHub 页面：curl https://github.com/thedaviddias/Front-End-Checklist",
+        "下载项目文件：git clone https://github.com/thedaviddias/Front-End-Checklist.git",
+        "查看清单内容：打开 checklist.md 文件",
+        "根据需要修改和使用清单"
+      ],
+      "why": "Front-End-Checklist 拥有超过 73493 个星标，显示出其在开发者社区中的受欢迎程度。该项目定期更新，确保内容的时效性和实用性，适合各类前端开发者使用。与其他工具相比，它提供了更为细致的步骤和实用的建议，帮助开发者在复杂的项目中保持高效。",
+      "tags": [
+        "前端开发",
+        "开发工具",
+        "开源项目"
+      ],
+      "url": "https://github.com/thedaviddias/Front-End-Checklist",
+      "stars": "73493 stars",
+      "source": "GitHub Search · 2026-08-11",
+      "date": "2026-08-11"
+    },
     {
       "name": "Mintplex-Labs/anything-llm",
       "lang": "JavaScript",
@@ -7902,77 +8028,6 @@ window.AI_GENERATED_DATA = {
       "stars": "83022 stars",
       "source": "GitHub Search · 2026-08-04",
       "date": "2026-08-04"
-    },
-    {
-      "name": "usestrix/strix",
-      "lang": "Python",
-      "category": "Coding Agent",
-      "description": "这是一个开源的 AI 渗透测试工具，帮助开发者发现和修复应用程序的漏洞，突出其自动化测试能力。",
-      "details": "Strix 是一个专为开发者设计的渗透测试工具，旨在自动化发现和修复应用程序中的安全漏洞。与其他渗透测试工具（如 Burp Suite 和 OWASP ZAP）相比，Strix 提供了更高的自动化程度和易用性，适合快速集成到开发流程中。该项目使用 Python 编写，遵循 MIT 许可证，适合安全研究人员和开发团队使用，不推荐给初学者或非技术人员。",
-      "features": [
-        "自动化漏洞扫描",
-        "集成 CI/CD 流程",
-        "支持多种应用程序框架",
-        "详细的报告生成",
-        "易于配置和使用"
-      ],
-      "useCases": [
-        "自动化扫描 Web 应用程序的安全漏洞",
-        "集成到持续集成流程中进行安全检查",
-        "生成详细的安全报告供团队审查"
-      ],
-      "quickStart": [
-        "git clone https://github.com/usestrix/strix.git",
-        "cd strix",
-        "pip install -r requirements.txt",
-        "python strix.py --target <your_app_url>",
-        "查看生成的报告"
-      ],
-      "why": "Strix 以其高效的自动化能力和简洁的使用体验脱颖而出，当前在 GitHub 上拥有 47258 stars，显示出其广泛的社区认可。相比于其他工具，Strix 更加注重与开发流程的无缝集成，适合现代软件开发环境。",
-      "tags": [
-        "渗透测试",
-        "安全工具",
-        "开源"
-      ],
-      "url": "https://github.com/usestrix/strix",
-      "stars": "47258 stars",
-      "source": "GitHub Search · 2026-08-04",
-      "date": "2026-08-04"
-    },
-    {
-      "name": "MoonshotAI/PerceptionBench",
-      "lang": "Python",
-      "category": "推理引擎",
-      "description": "PerceptionBench 是一个用于评估多模态大语言模型的原子视觉感知的工具，适合研究人员和开发者使用。",
-      "details": "PerceptionBench 解决了多模态大语言模型在视觉感知方面的评估问题。与其他评估工具相比，如 CLIP 和 DINO，PerceptionBench 提供了更细粒度的评估标准，能够更好地捕捉模型在视觉理解上的表现。该项目使用 Python 开发，采用 MIT 许可证，适合希望深入理解视觉感知能力的研究人员和开发者，不推荐对视觉感知评估没有需求的用户。",
-      "features": [
-        "支持多模态数据集评估",
-        "提供详细的评估指标",
-        "兼容主流大语言模型",
-        "支持自定义评估任务",
-        "易于集成到现有工作流"
-      ],
-      "useCases": [
-        "评估 LLM 在图像理解任务中的表现",
-        "比较不同模型在视觉感知上的能力",
-        "为模型优化提供数据支持"
-      ],
-      "quickStart": [
-        "git clone https://github.com/MoonshotAI/PerceptionBench.git",
-        "cd PerceptionBench",
-        "pip install -r requirements.txt",
-        "python evaluate.py --model <model_name> --dataset <dataset_name>"
-      ],
-      "why": "PerceptionBench 通过提供细致的视觉感知评估，填补了现有工具的空白。项目已有 163 stars，显示出一定的社区关注度。其灵活的评估框架和易用性使其在同类工具中脱颖而出，适合需要深入分析模型视觉能力的用户。",
-      "tags": [
-        "视觉感知",
-        "多模态",
-        "大语言模型"
-      ],
-      "url": "https://github.com/MoonshotAI/PerceptionBench",
-      "stars": "163 stars",
-      "source": "GitHub · 月之暗面 Kimi",
-      "date": "2026-08-04"
     }
   ],
   "sources": [
@@ -9939,6 +9994,23 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-business": [
       {
+        "name": "Riot Platforms 与神秘客户签署价值 91 亿美元的 AI 数据中心协议",
+        "provider": "Finbold",
+        "type": "AI 项目/工具",
+        "bestFor": "这项协议将使 Riot Platforms 能够在 AI 基础设施市场中占据一席之地，吸引更多投资者关注。对于希望进入 AI 领域的企业来说，Riot 提供的基础设施将是一个重要选择。此外，随着 AI 技术的不断发展，Riot 的转型可能会影响比特币挖矿行业的未来格局，促使更多公司考虑多元化业务。投资者将更倾向于将 R",
+        "description": "Riot Platforms（NASDAQ: RIOT）在 8 月 11 日的盘前交易中，股价上涨近 25%，原因是公司宣布了一项长期的 AI 数据中心协议，预计价值约 91 亿美元。该协议将为 Riot 提供 191 兆瓦的 IT 能力，主要服务于一个前沿 AI 实验室。尽管客户身份未公开，但有报道称是 Claude AI 模型的开发者 Anthropic。此协议预计到 2048 年将产生约 91 亿美元的收入。",
+        "useCases": [
+          "评估 Riot 的 AI 数据中心协议对投资组合的影响。",
+          "考虑与 Riot 合作，利用其数据中心能力进行 AI 项目开发。",
+          "分析 Riot 的财务报告，了解其转型对未来收益的潜在影响。",
+          "关注比特币市场动态，评估其对 Riot 业绩的影响。",
+          "研究 AI 基础设施市场，寻找投资机会。"
+        ],
+        "watch": "协议的长期性可能面临市场需求变化的风险，影响收入稳定性。",
+        "sourceName": "Finbold",
+        "url": "https://finbold.com/this-bitcoin-stock-rockets-25-after-mega-deal-with-mystery-customer/"
+      },
+      {
         "name": "三星追踪消费者 AI 采用情况以塑造未来功能",
         "provider": "NewsAPI",
         "type": "AI 项目/工具",
@@ -10520,23 +10592,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "NewsAPI:artificial intelligence",
         "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/fed-chief-warsh-faces-hard-choice-on-inflation-after-bond-markets-red-flag/articleshow/132780818.cms"
-      },
-      {
-        "name": "农业科技如何推动印度发展潜力区域的增长",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "农业科技的推广将使农民能够获取及时的农业建议，改善土壤健康，提升农产品的市场竞争力。通过数字化手段，农民不仅能提高生产效率，还能更好地参与市场，改变传统的价格接受者角色。长期来看，这将促进农村经济的发展，提升农民的生活水平，并推动可持续农业实践。",
-        "description": "这次发布的核心点是，农业科技（Agritech）在印度的发展潜力区域面临着数字素养、网络连接和私人投资不足的挑战。通过移动咨询、AI土壤健康卡、可追溯性、碳农业和数字市场链接等五种方式，Agritech可以有效提升农民的生产力和收入。",
-        "useCases": [
-          "使用移动咨询平台获取作物种植建议，提升产量和收入。",
-          "利用AI土壤健康卡分析土壤状况，优化施肥方案。",
-          "通过可追溯性技术确保农产品质量，进入高端市场。",
-          "参与碳农业项目，将农业废弃物转化为生物炭，增加收入来源。",
-          "在数字市场平台上直接销售农产品，提升价格透明度。"
-        ],
-        "watch": "数字素养不足可能导致农民无法有效使用新技术，影响推广效果。",
-        "sourceName": "NewsAPI:artificial intelligence",
-        "url": "https://www.thehindubusinessline.com/economy/agri-business/5-ways-agritech-can-fuel-real-growth-in-indias-aspirational-blocks/article71291731.ece"
       }
     ],
     "ai-benchmark": [
@@ -11779,6 +11834,21 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-research": [
       {
+        "name": "专有 LLM API 的加密推理轨迹被窃取的风险分析",
+        "provider": "HuggingFace Daily Papers（社区热门论文）",
+        "type": "AI 项目/工具",
+        "bestFor": "这一发现对 LLM 的使用和开发产生了深远影响。首先，开发者需要重新评估其数据共享和存储策略，以防止无意中泄露敏感信息。其次，企业在选择 LLM 提供商时，需关注其安全性和合规性，可能会影响其决策过程。此外，用户对数据隐私的担忧将促使 LLM 提供商加强安全措施，进而影响整个行业的技术发展方向。",
+        "description": "研究表明，Anthropic、OpenAI 和 Google 等公司的专有 LLM API 存在严重的安全漏洞，攻击者可通过跨会话和用户互换加密推理轨迹，强制模型以明文输出推理内容。这一发现揭示了当前 LLM 保护机制的不足，可能导致大规模数据泄露和隐私风险。",
+        "useCases": [
+          "评估 LLM 的安全性，确保数据保护措施到位。",
+          "开发安全的 LLM 应用，避免潜在的隐私泄露。",
+          "设计加密机制，防止推理轨迹被窃取。"
+        ],
+        "watch": "API 的定价和配额可能影响开发者的使用成本，增加商业风险。",
+        "sourceName": "HuggingFace Daily Papers（社区热门论文）",
+        "url": "https://arxiv.org/abs/2608.09867"
+      },
+      {
         "name": "从专有 LLM API 中窃取推理痕迹的安全隐患",
         "provider": "arXiv",
         "type": "AI 项目/工具",
@@ -12347,21 +12417,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "NewsAPI:generative AI",
         "url": "https://www.rockpapershotgun.com/dragon-age-origins-wasnt-the-most-attractive-game-biowares-old-series-producer-still-thinks-a-da-remaster-trilogy-is-worth-it-but-the-knowhow-isnt-there"
-      },
-      {
-        "name": "2026年7月29日值得关注的五大科技股票",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "这些科技股票的表现将影响投资者的决策，尤其是在当前经济环境下，科技行业的波动性可能会加剧。投资者需要关注这些公司的创新能力和市场竞争力，以便在未来的投资中做出明智的选择。此外，这些公司的发展也可能影响相关行业的技术进步和市场格局，推动整个科技生态系统的演变。",
-        "description": "根据MarketBeat的股票筛选工具，Micron Technology、Sandisk、NVIDIA、Apple和Advanced Micro Devices是今天值得关注的五大科技股票。这些公司主要从事技术相关产品、服务或基础设施的开发与提供，具有显著的增长潜力，但也面临较高的波动性和竞争压力。",
-        "useCases": [
-          "分析Micron Technology的市场表现，评估其未来增长潜力。",
-          "研究NVIDIA的产品线，了解其在游戏和企业市场的竞争优势。",
-          "评估Apple的创新策略，预测其在消费电子市场的持续影响。"
-        ],
-        "watch": "科技股票的波动性较大，可能导致投资损失，尤其是在市场不稳定时。",
-        "sourceName": "NewsData.io:artificial intelligence",
-        "url": "https://www.thelincolnianonline.com/2026/07/29/technology-stocks-to-research-july-29th.html"
       }
     ],
     "ai-office": []
@@ -14249,8 +14304,8 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-08-11",
-    "generatedAt": "2026-08-11T08:18:45.939038Z",
-    "total": 9,
+    "generatedAt": "2026-08-11T10:58:34.213130Z",
+    "total": 11,
     "sections": [
       {
         "category": "ai-tools",
@@ -14350,6 +14405,17 @@ window.AI_GENERATED_DATA = {
             "date": "2026-08-10",
             "publishedAt": "",
             "reason": ""
+          },
+          {
+            "title": "蚂蚁百灵开源 Ling-3.0-tiny：1.3B 激活参数的混合推理模型",
+            "summary": "我注意到蚂蚁百灵最近开源了 Ling-3.0-tiny，这是一款总参数达到 7.9B 的原生混合推理模型。在推理时，它仅激活 1.3B 参数，并同时提供 BF16、FP8 和 INT4 三个版本，适合不同需求的开发者使用。",
+            "source": "公众号：蚂蚁百灵（Ling）",
+            "url": "https://mp.weixin.qq.com/s?__biz=MzkyODk2MDQwNw%3D%3D&mid=2247487491&idx=1&sn=fcb14aceb054f9a24e22525d3dae6fa0",
+            "score": 66,
+            "sourceCount": 1,
+            "date": "2026-08-11",
+            "publishedAt": "2026-08-11T17:20",
+            "reason": "Ling-3.0-tiny 的开源为开发者提供了一个高效、灵活的工具，尤其适合资源受限的环境，值得关注。"
           }
         ]
       },
@@ -14378,6 +14444,23 @@ window.AI_GENERATED_DATA = {
             "date": "2026-08-10",
             "publishedAt": "",
             "reason": ""
+          }
+        ]
+      },
+      {
+        "category": "ai-research",
+        "label": "论文研究",
+        "items": [
+          {
+            "title": "专有 LLM API 的加密推理轨迹被窃取的风险分析",
+            "summary": "研究表明，Anthropic、OpenAI 和 Google 等公司的专有 LLM API 存在严重的安全漏洞，攻击者可通过跨会话和用户互换加密推理轨迹，强制模型以明文输出推理内容。这一发现揭示了当前 LLM 保护机制的不足，可能导致大规模数据泄露和隐私风险。",
+            "source": "HuggingFace Daily Papers（社区热门论文）",
+            "url": "https://arxiv.org/abs/2608.09867",
+            "score": 66,
+            "sourceCount": 1,
+            "date": "2026-08-10",
+            "publishedAt": "2026-08-10T08:00",
+            "reason": "该研究揭示了当前 LLM 安全机制的重大漏洞，值得关注其对行业的潜在影响。"
           }
         ]
       }
