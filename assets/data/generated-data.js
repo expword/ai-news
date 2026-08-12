@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-08-12",
-  "generatedAt": "2026-08-11T22:25:03.465444Z",
+  "generatedAt": "2026-08-12T02:13:50.612699Z",
   "news": [
     {
       "title": "AMIE 进阶：实现专家级音视频临床咨询",
@@ -4886,699 +4886,6 @@ window.AI_GENERATED_DATA = {
         "topicResources"
       ],
       "sourceCount": 1
-    },
-    {
-      "title": "Google Agent Skills 的构建与治理流程",
-      "summary": "Google Agent Skills 团队通过开源技能库的构建与治理，确保 AI 代理的智能化与安全性。自项目启动以来，GitHub 上的星标数已超过 15,000，显示出其广泛的社区认可。团队采用标准化的目录结构和 CI/CD 流水线，确保技能质量与规模化并行发展。",
-      "category": "ai-agents",
-      "tags": [
-        "Google",
-        "AI 代理",
-        "开源",
-        "技能库",
-        "CI/CD"
-      ],
-      "keyPoints": [
-        "Google Agent Skills 项目自 Google Cloud Next 2026 前的 'swarm' 冲刺开始，旨在将 Google Cloud 领域知识编码为结构化指令。",
-        "项目启动后，社区反响热烈，GitHub 星标数超过 15,000，显示出开发者对该技能库的认可与需求。",
-        "为确保技能质量，团队设定了高标准，采用标准化的目录结构和自动化的 CI/CD 流水线进行质量控制。",
-        "每个技能在提交前需通过自动化检查，包括元数据验证、链接检查和 AI 辅助清单，以防止低质量内容影响用户体验。",
-        "团队优先引用远程 Model Context Protocol (MCP) 工具，以提升技能的执行效率和安全性。"
-      ],
-      "background": "Google Agent Skills 项目是 Google 在 AI 代理领域的重要尝试，旨在通过开源技能库提升 AI 编码代理的智能化水平。项目的启动背景是 Google Cloud Next 2026 前的快速开发需求，团队由开发者倡导者和技术写作人员组成，目标是将 Google Cloud 的专业知识转化为可供 AI 代理理解的结构化指令。与其他同类项目相比，Google 的技能库在社区参与度和技术标准化方面表现突出，吸引了大量开发者的关注与参与。",
-      "impact": "Google Agent Skills 的成功推出将对开发者社区产生深远影响，尤其是在提升 AI 代理的智能化和安全性方面。随着越来越多的团队参与到技能的贡献中，预计将形成一个更加丰富的技能生态系统，推动各类 Google 服务的智能化进程。此外，标准化的技能库将为开发者提供更高效的开发工具，减少开发过程中的错误和不一致性。",
-      "audience": [
-        "AI 开发者",
-        "云计算工程师",
-        "技术写作人员"
-      ],
-      "useCases": [
-        "构建高质量的 AI 代理技能，提升用户交互体验。",
-        "利用标准化的技能库，快速开发和部署新的云服务功能。",
-        "通过 CI/CD 流水线，确保技能更新的高效性与安全性。"
-      ],
-      "risks": [
-        "技能质量控制的挑战，若标准不一致，可能导致用户体验下降。",
-        "开源项目的治理风险，需确保贡献者遵循既定标准，避免混乱。",
-        "依赖远程 MCP 工具可能面临的网络延迟和安全性问题。"
-      ],
-      "reason": "Google Agent Skills 的构建与治理流程为 AI 代理的开发提供了重要的参考，尤其是在标准化和质量控制方面，值得关注。",
-      "scores": {
-        "importance": 85,
-        "novelty": 75,
-        "firsthand": 90,
-        "impact": 80,
-        "credibility": 85
-      },
-      "url": "https://dev.to/googleai/behind-the-scenes-how-we-build-test-and-scale-google-agent-skills-1am5",
-      "source": "Google AI：DEV 作者专属（RSS）",
-      "date": "2026-08-03",
-      "publishedAt": "2026-08-03T22:33",
-      "collectedAt": "2026-08-04T00:07",
-      "dateStatus": "verified",
-      "tier": "T1.5",
-      "score": 66,
-      "aiSelected": true,
-      "_style": "analyst",
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Cloudflare Workers 现支持入站 TCP 连接与 gRPC",
-      "summary": "Cloudflare 在 Agents Week 发布了 Workers 运行时的新处理器 connect，允许直接接受入站 TCP 套接字，并支持将其转发至 Durable Objects 或 Containers，实现全双工通信。这一功能将极大提升实时语音 AI 应用的性能。",
-      "category": "ai-agents",
-      "tags": [
-        "Cloudflare",
-        "Workers",
-        "gRPC",
-        "TCP连接",
-        "实时通信"
-      ],
-      "keyPoints": [
-        "Cloudflare Workers 现在支持入站 TCP 连接，允许直接处理非 HTTP 流量。",
-        "新推出的 connect(socket) 处理器可以直接接受 Spectrum 提供的 TCP 套接字。",
-        "支持将 TCP 套接字转发至 Durable Objects 或 Containers，实现全双工通信。",
-        "Workers 还可以处理 gRPC API，自动转换请求，简化开发流程。",
-        "此功能目前处于私有测试阶段，开发者可申请参与。"
-      ],
-      "background": "Cloudflare Workers 自2017年推出以来，逐步扩展其功能，包括支持出站 TCP 连接和基于 Cap’n Proto 的 JavaScript 原生 RPC 系统。此次更新，Cloudflare 在 Agents Week 期间推出了支持入站 TCP 连接的新功能，旨在优化实时语音 AI 应用的性能，满足低延迟通信的需求。通过这一功能，开发者可以更灵活地处理 TCP 流量，提升应用的响应速度。",
-      "impact": "这一更新将使得开发者能够更高效地构建实时语音 AI 应用，尤其是在需要低延迟和双向通信的场景中。通过支持 gRPC，开发者可以轻松集成现有的服务，优化用户体验。此外，Cloudflare 的这一举措可能会吸引更多开发者使用其平台，进一步增强其在云服务市场的竞争力。",
-      "audience": [
-        "实时语音应用开发者",
-        "使用 Cloudflare 的后端工程师",
-        "需要低延迟通信的应用开发者"
-      ],
-      "useCases": [
-        "使用 connect(socket) 接收入站 TCP 连接，快速实现实时数据传输。",
-        "将 TCP 套接字转发至 Durable Objects，构建高效的消息处理系统。",
-        "在 Workers 中实现 gRPC API，简化与客户端的通信流程。",
-        "通过 Cloudflare Containers 部署 gRPC 服务器，支持多种编程语言。",
-        "利用 Spectrum 应用程序路由 TCP 流量，提升应用的可用性和性能。"
-      ],
-      "risks": [
-        "需注意 API 使用配额，避免超出限制导致服务中断。",
-        "确保环境配置正确，避免因版本不兼容导致的功能失效。",
-        "在处理 TCP 流量时，需考虑安全性，防止潜在的网络攻击。",
-        "使用 gRPC 时，需确保客户端和服务器的协议一致，避免通信失败。",
-        "在私有测试阶段，功能可能不稳定，需做好应对突发问题的准备。"
-      ],
-      "reason": "Cloudflare Workers 的这一新功能将显著提升实时应用的性能，值得开发者关注和尝试。",
-      "scores": {
-        "importance": 85,
-        "novelty": 80,
-        "firsthand": 90,
-        "impact": 75,
-        "credibility": 85
-      },
-      "url": "https://blog.cloudflare.com/grpc-workers",
-      "source": "Cloudflare Blog",
-      "date": "2026-08-03",
-      "publishedAt": "2026-08-03T21:00",
-      "collectedAt": "2026-08-03T22:25",
-      "dateStatus": "verified",
-      "tier": "T1.5",
-      "score": 66,
-      "aiSelected": true,
-      "_style": "tutorial",
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Cloudflare 推出 @cloudflare/computer 预览版，提供智能体虚拟文件系统",
-      "summary": "Cloudflare 发布了 @cloudflare/computer 的早期预览版，这是一个开源智能体运行时，旨在为每个智能体提供虚拟文件系统，并支持在不同环境中执行代码。尽管这一创新提升了智能体的灵活性，但仍面临可扩展性和资源分配的挑战。",
-      "category": "ai-agents",
-      "tags": [
-        "Cloudflare",
-        "智能体",
-        "虚拟文件系统",
-        "开源",
-        "计算资源"
-      ],
-      "keyPoints": [
-        "Cloudflare 的 @cloudflare/computer 提供了一个智能体运行时，允许在 isolate、容器沙箱或浏览器中执行代码。",
-        "该平台为每个智能体提供独立的虚拟文件系统，优化了执行效率和可扩展性。",
-        "Cloudflare 通过 isolates 提供了更高效的计算原语，支持快速启动和关闭，适应智能体的需求。",
-        "该系统允许智能体根据任务需求选择合适的执行环境，提高了灵活性和资源利用率。",
-        "@cloudflare/computer 作为开源库发布，旨在与客户共同探索大规模运行智能体的可能性。"
-      ],
-      "background": "Cloudflare 在智能体计算领域的探索始于十年前，推出了 Cloudflare Workers 和 Durable Objects，旨在解决传统容器化面临的计算资源不足问题。随着智能体数量的激增，单一容器化环境已无法满足需求，因此 Cloudflare 开发了 isolates，以实现更高的水平扩展性。@cloudflare/computer 的推出标志着其在智能体运行时的进一步创新，提供了一个共享文件系统和多种执行环境的整合解决方案。",
-      "impact": "这一新工具将吸引开发者和企业，尤其是需要处理大量并发智能体的行业。它可能改变智能体的构建方式，使得开发者能够更高效地利用计算资源，降低成本。同时，随着智能体的普及，Cloudflare 的解决方案可能会影响整个行业的计算架构设计，推动更灵活的云计算模式。",
-      "audience": [
-        "云计算架构师",
-        "智能体开发者",
-        "大数据工程师",
-        "SRE 团队",
-        "开源项目贡献者"
-      ],
-      "useCases": [
-        "在 Durable Object 上实例化 @cloudflare/computer，提供虚拟文件系统和执行环境。",
-        "利用 Code Mode 或 bash 命令读取和编辑文件，支持 git 仓库的管理。",
-        "根据任务需求选择合适的执行环境，优化智能体的执行效率。",
-        "在 isolate 中运行简单的文件处理任务，降低资源消耗。",
-        "结合容器沙箱执行复杂计算任务，提升性能和灵活性。"
-      ],
-      "risks": [
-        "由于资源分配的限制，@cloudflare/computer 可能无法满足大规模智能体的计算需求，导致性能瓶颈。",
-        "开源库的维护和更新可能不够及时，影响用户的使用体验和安全性。",
-        "不同执行环境之间的兼容性问题可能导致开发者在集成时遇到困难，增加学习成本。",
-        "API 的使用限制和配额可能影响大规模应用的可行性，限制了其商业化潜力。"
-      ],
-      "reason": "Cloudflare 的 @cloudflare/computer 提供了一种创新的智能体运行时解决方案，值得关注其在计算资源管理和执行效率上的独特价值。",
-      "scores": {
-        "importance": 80,
-        "novelty": 75,
-        "firsthand": 90,
-        "impact": 85,
-        "credibility": 80
-      },
-      "url": "https://blog.cloudflare.com/cloudflare-computer",
-      "source": "Cloudflare Blog",
-      "date": "2026-08-03",
-      "publishedAt": "2026-08-03T21:15",
-      "collectedAt": "2026-08-03T22:25",
-      "dateStatus": "verified",
-      "tier": "T1.5",
-      "score": 65,
-      "aiSelected": true,
-      "_style": "critic",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Cloudflare 发布 Billable Usage API，提供自助账户按产品计费的透明度",
-      "summary": "Cloudflare 推出了 Billable Usage API，为自助账户提供了一个单一端点，用户可以通过一次调用获取按产品和计费周期拆分的用量与成本信息，涵盖 Workers、R2、D1、Workers AI、Vectorize、Images 和 Stream 等服务。这一新功能旨在提升用户对云服务支出的可见性。",
-      "category": "ai-tools",
-      "tags": [
-        "Cloudflare",
-        "API",
-        "计费",
-        "自助服务",
-        "成本管理"
-      ],
-      "keyPoints": [
-        "Cloudflare 的 Billable Usage API 允许用户通过单一 API 调用获取详细的用量和成本数据，提升了自助账户的透明度。",
-        "该 API 支持多种 Cloudflare 产品，包括 Workers、R2、D1 等，用户可以按需获取相关数据。",
-        "API 返回的数据格式与 FinOps Open Cost and Usage Specification (FOCUS) 兼容，便于与其他成本管理工具集成。",
-        "用户可以通过 curl 命令轻松调用 API，并获取按产品和计费周期的详细支出信息。",
-        "Cloudflare 与 Vantage 合作，提供基础设施成本管理平台的集成，进一步优化用户的成本报告和预算管理。"
-      ],
-      "background": "Cloudflare 在 2023 年推出了 Billable Usage API，旨在应对云服务用户对支出透明度的需求。随着云计算的普及，企业在使用云服务时面临着日益复杂的计费结构。传统的仪表板虽然适合人工查看，但在自动化管理方面存在局限。Billable Usage API 的推出，正是为了填补这一空白，使用户能够通过程序化的方式获取实时的支出数据。该 API 的设计与 FinOps 标准相符，便于与现有的成本管理工具链整合，提升了企业在云服务支出管理上的效率。",
-      "impact": "Billable Usage API 的推出将对企业的云支出管理产生深远影响。首先，开发者和财务团队可以更精准地追踪各项服务的使用情况，从而做出更明智的预算决策。其次，API 的兼容性使得企业能够将 Cloudflare 的支出与其他云服务提供商的数据进行对比，优化整体成本结构。此外，Vantage 的集成将进一步简化跨服务的成本分配，帮助企业更好地理解各项服务的价值和成本效益。这一变化将促使更多企业采用自动化工具来管理云支出，提升整体运营效率。",
-      "audience": [
-        "云计算财务分析师",
-        "DevOps 工程师",
-        "成本管理专家"
-      ],
-      "useCases": [
-        "通过 Billable Usage API 获取每日的云服务支出数据，便于进行实时成本监控。",
-        "将 Cloudflare 的支出数据与其他云服务提供商的数据进行整合，优化整体预算分配。",
-        "利用 Vantage 平台生成跨服务的成本报告，帮助团队识别高支出服务并进行优化。"
-      ],
-      "risks": [
-        "API 调用频率可能受到限制，用户需关注配额管理，以避免超出调用限制。",
-        "在使用 API 时，需确保 API Token 的安全性，避免潜在的安全风险。",
-        "数据更新频率为每日，实时数据的缺乏可能影响某些业务场景的决策效率。"
-      ],
-      "reason": "Cloudflare 的 Billable Usage API 提供了前所未有的透明度和灵活性，值得关注其在云支出管理中的应用潜力。",
-      "scores": {
-        "importance": 80,
-        "novelty": 70,
-        "firsthand": 90,
-        "impact": 85,
-        "credibility": 80
-      },
-      "url": "https://blog.cloudflare.com/billable-usage-api",
-      "source": "Cloudflare Blog",
-      "date": "2026-08-03",
-      "publishedAt": "2026-08-03T21:00",
-      "collectedAt": "2026-08-03T22:25",
-      "dateStatus": "verified",
-      "tier": "T1.5",
-      "score": 65,
-      "aiSelected": true,
-      "_style": "observer",
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "商汤推出开源多模态模型 SenseNova U1.5-Lite-Preview",
-      "summary": "商汤科技发布了基于NEO-Unify架构的轻量级多模态模型SenseNova U1.5-Lite-Preview。该模型仅需8B-MoT参数，即可实现与商业闭源模型相媲美的生成与编辑质量，标志着其在多模态理解和生成领域的进一步创新。",
-      "category": "ai-models",
-      "tags": [
-        "商汤科技",
-        "多模态模型",
-        "开源",
-        "NEO-Unify",
-        "人工智能"
-      ],
-      "keyPoints": [
-        "SenseNova U1.5-Lite-Preview是商汤推出的轻量级多模态模型，基于NEO-Unify架构，支持多种模态的理解与生成。",
-        "该模型仅需8B-MoT参数，能够达到与商业闭源模型相当的生成与编辑质量，显示出其高效性。",
-        "模型支持高达4K分辨率，提供更丰富的细节和更少的视觉伪影，提升了用户体验。",
-        "在生成与编辑基准测试中，U1.5在多个指标上均有显著提升，例如Qwen-Image-Bench得分从47.14提升至55.20。",
-        "商汤计划在不久后开放U1 Pro模型的公众访问，进一步推动创作者的使用与创新。"
-      ],
-      "background": "商汤科技在人工智能领域持续创新，此次发布的SenseNova U1.5-Lite-Preview是其在多模态模型方面的重要进展。NEO-Unify架构的应用使得该模型在理解、生成和编辑多种模态内容时表现出色。与之前版本U1相比，U1.5在多个性能指标上均有所提升，反映了商汤在基础模型层面的持续努力。开源的选择也为开发者提供了更多的灵活性和创新空间。",
-      "impact": "SenseNova U1.5-Lite-Preview的发布将吸引多种人群，包括从事多模态内容创作的设计师、开发者以及研究人员。它的高效性和开源特性可能会改变他们的工作流程，促使更多创意项目的实现。此外，商汤的持续创新可能会引发行业内其他公司的竞争，推动整个多模态模型领域的发展。",
-      "audience": [
-        "AI研究人员",
-        "内容创作者",
-        "多模态应用开发者",
-        "设计师",
-        "教育工作者"
-      ],
-      "useCases": [
-        "使用SenseNova U1.5进行高质量图像生成，提升视觉内容的吸引力。",
-        "利用该模型进行复杂文本与图像的组合，增强多模态展示效果。",
-        "在教育领域应用U1.5，制作互动式学习材料，提升学生的学习体验。",
-        "为电商平台创建个性化的产品展示，吸引更多消费者。",
-        "在游戏开发中应用该模型，生成更具沉浸感的游戏场景。"
-      ],
-      "risks": [
-        "开源模型的商业授权可能存在不明确的条款，使用者需谨慎评估其商业应用的合法性。",
-        "模型的性能依赖于硬件配置，低配置设备可能无法充分发挥其优势，限制了用户群体。",
-        "在多语言支持方面，模型可能对某些语言的处理能力不足，影响其全球适用性。",
-        "由于开源特性，模型的安全性和稳定性可能受到外部因素的影响，需定期更新维护。",
-        "与其他商业闭源模型相比，开源模型在技术支持和服务上可能存在不足，用户需自行解决问题。"
-      ],
-      "reason": "SenseNova U1.5-Lite-Preview的发布展示了商汤在多模态模型领域的创新能力，值得关注其对行业的潜在影响。",
-      "scores": {
-        "importance": 75,
-        "novelty": 80,
-        "firsthand": 90,
-        "impact": 70,
-        "credibility": 85
-      },
-      "url": "https://x.com/SenseTime_AI/status/2084288424236782073",
-      "source": "X：商汤 SenseTime (@SenseTime_AI)",
-      "date": "2026-08-03",
-      "publishedAt": "2026-08-03T22:40",
-      "collectedAt": "2026-08-03T23:26",
-      "dateStatus": "verified",
-      "tier": "T1.5",
-      "score": 62,
-      "aiSelected": true,
-      "_style": "critic",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "OpenAI 新模型 Astra 在数学领域表现突出，但被过度解读",
-      "summary": "OpenAI 正在内部测试的新模型 Astra 在解决数学、量子复杂性和理论计算机科学的十个重大开放问题上取得了显著成果。然而，Gary Marcus 指出，相关讨论存在\"合成谬误\"，即擅长某类数学并不意味着擅长所有数学及其他认知任务。此外，OpenAI 尚未公布具体方法，导致其实际意义难以评估。",
-      "category": "ai-models",
-      "tags": [
-        "OpenAI",
-        "Astra",
-        "数学",
-        "量子复杂性",
-        "理论计算机科学"
-      ],
-      "keyPoints": [
-        "Astra 模型在数学领域解决了 10 个重大开放问题，包括量子复杂性和理论计算机科学。",
-        "OpenAI 宣称 Astra 将为科学推理带来重大进展，但具体方法尚未公开。",
-        "Gary Marcus 指出，数学的突破并不等同于在所有认知任务上的成功，存在合成谬误。",
-        "Astra 的内部测试引发了广泛讨论，部分观点认为其将改变科学研究的格局。",
-        "相关讨论中，许多评论者对 Astra 的能力做出了过度解读，忽视了其局限性。"
-      ],
-      "background": "2026 年 8 月，OpenAI 内部测试的新模型 Astra 引起了广泛关注。该模型在数学领域取得了显著成果，解决了多个长期存在的开放问题。OpenAI 的高管们对此表示乐观，认为 Astra 将推动科学推理的发展。然而，Gary Marcus 提出，许多评论者对 Astra 的能力存在误解，认为其在某一领域的成功并不代表其在所有领域的能力。此类合成谬误在 AI 领域的讨论中并不罕见，尤其是在新技术发布时，常常会出现对其潜力的过度解读。",
-      "impact": "Astra 模型的推出可能会影响科学研究的方向，尤其是在数学和计算机科学领域。研究人员和开发者可能会利用 Astra 的能力来解决复杂问题，从而推动相关领域的进步。然而，过度解读 Astra 的能力可能导致不切实际的期望，影响决策和资源分配。对于希望在 AI 领域取得突破的公司和研究机构来说，理解 Astra 的局限性至关重要，以避免在技术应用中出现失误。",
-      "audience": [
-        "数学研究人员",
-        "计算机科学家",
-        "AI 开发者",
-        "科学研究机构",
-        "教育工作者"
-      ],
-      "useCases": [
-        "利用 Astra 模型解决复杂的数学问题，提高研究效率。",
-        "在量子计算领域应用 Astra 的理论成果，推动技术进步。",
-        "开发新的教育工具，帮助学生理解复杂的数学概念。",
-        "在科学研究中使用 Astra 进行数据分析，发现新的研究方向。",
-        "结合 Astra 的能力，优化算法设计，提高计算效率。"
-      ],
-      "risks": [
-        "由于 Astra 的具体方法尚未公开，用户可能无法全面评估其适用性和局限性。",
-        "过度依赖 Astra 可能导致在其他领域的研究和开发被忽视。",
-        "API 使用成本和配额限制可能影响 Astra 的广泛应用。",
-        "在不同语言和文化背景下，Astra 的表现可能存在差异，影响其全球适用性。",
-        "硬件兼容性问题可能限制 Astra 在某些环境中的应用。"
-      ],
-      "reason": "Astra 模型在数学领域的突破引发了广泛讨论，但理解其局限性同样重要，值得深入关注。",
-      "scores": {
-        "importance": 85,
-        "novelty": 80,
-        "firsthand": 70,
-        "impact": 75,
-        "credibility": 65
-      },
-      "url": "https://garymarcus.substack.com/p/openais-amazing-but-vastly-oversold",
-      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-      "date": "2026-08-03",
-      "publishedAt": "2026-08-03T05:25",
-      "collectedAt": "2026-08-03T11:32",
-      "dateStatus": "verified",
-      "tier": "T1.5",
-      "score": 62,
-      "aiSelected": true,
-      "_style": "observer",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Kimi Work 发布幻灯片制作教程，提升效率但仍有局限",
-      "summary": "Kimi Work 最近推出了幻灯片制作教程，展示了其 Kimi Slides 工具的功能，包括清晰的结构、连贯的设计和可编辑的幻灯片。然而，尽管这些功能提升了制作效率，用户仍需注意其在兼容性和使用限制方面的不足。",
-      "category": "ai-tools",
-      "tags": [
-        "幻灯片制作",
-        "Kimi Work",
-        "AI 工具",
-        "教程",
-        "设计"
-      ],
-      "keyPoints": [
-        "Kimi Slides 由 Kimi K3 驱动，提供清晰的结构与研究支持，帮助用户更高效地制作幻灯片。",
-        "工具包含精美的图表和 SmartArts，提升了幻灯片的视觉效果，适合多种场合使用。",
-        "用户可以直接编辑幻灯片并下载，方便快速分享和使用，节省了时间。",
-        "教程为用户提供了详细的操作指导，适合初学者和有经验的用户，降低了学习门槛。",
-        "Kimi Work 的推出引发了市场关注，可能对其他幻灯片制作工具造成冲击。"
-      ],
-      "background": "Kimi Work 是一款新兴的幻灯片制作工具，旨在通过 AI 技术简化制作流程。与传统工具相比，Kimi Slides 提供了更为直观的操作界面和丰富的设计选项。尽管市场上已有多款幻灯片制作软件，如 PowerPoint 和 Google Slides，但 Kimi Work 的 AI 驱动特性使其在效率和设计上具有一定优势。然而，用户在选择时仍需考虑其与现有工具的兼容性及学习曲线。",
-      "impact": "Kimi Work 的推出可能会吸引教育工作者、企业培训师和市场营销人员等用户，改变他们的幻灯片制作方式。通过提高制作效率，用户可以将更多时间投入到内容创作和演示技巧上。然而，若工具存在兼容性问题，可能会影响用户的整体体验，导致部分用户难以完全转向这一新工具。",
-      "audience": [
-        "教育工作者",
-        "企业培训师",
-        "市场营销人员",
-        "设计师",
-        "内容创作者"
-      ],
-      "useCases": [
-        "使用 Kimi Slides 制作课程幻灯片，提升课堂互动性和学习效果。",
-        "为企业培训准备专业的演示文稿，增强培训效果。",
-        "设计市场推广材料，利用精美图表吸引客户注意。",
-        "编辑并分享团队会议幻灯片，提高沟通效率。",
-        "创建个人项目汇报，展示专业形象。"
-      ],
-      "risks": [
-        "Kimi Slides 的 API 价格和配额可能限制小型企业的使用，影响其普及率。",
-        "工具可能在某些操作系统或设备上存在兼容性问题，导致用户体验不佳。",
-        "商用授权的限制可能使得部分用户在商业项目中无法使用该工具，影响其市场竞争力。",
-        "由于依赖于 AI 技术，工具的稳定性和准确性可能受到算法更新的影响，导致不一致的输出。",
-        "用户在使用过程中可能面临学习曲线，尤其是对技术不熟悉的用户，可能需要额外的培训。"
-      ],
-      "reason": "Kimi Work 的幻灯片制作教程展示了其独特的 AI 驱动设计，值得关注，但用户需谨慎评估其局限性。",
-      "scores": {
-        "importance": 70,
-        "novelty": 75,
-        "firsthand": 85,
-        "impact": 65,
-        "credibility": 80
-      },
-      "url": "https://x.com/Kimi_Moonshot/status/2084245860339298423",
-      "source": "X：Kimi.ai (@Kimi_Moonshot)",
-      "date": "2026-08-03",
-      "publishedAt": "2026-08-03T19:51",
-      "collectedAt": "2026-08-03T21:22",
-      "dateStatus": "verified",
-      "tier": "T1.5",
-      "score": 58,
-      "aiSelected": true,
-      "_style": "critic",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Codex 通过 Sol 指挥 Luna Max 实现产出翻倍",
-      "summary": "这次发布的核心点是 Codex 的高阶玩法，利用 Sol 和 Luna Max 的组合，显著提高开发效率并节省成本。通过让 Sol 负责任务拆分与代码审查，将具体实现交给 Luna Max，用户可以在同一订阅下实现产出翻倍，优化资源使用。",
-      "category": "ai-coding",
-      "tags": [
-        "Codex",
-        "Sol",
-        "Luna Max",
-        "AI编程",
-        "效率提升"
-      ],
-      "keyPoints": [
-        "Codex 允许用户在 `~/.codex/agents/` 下创建 `luna-worker.toml` 子代理，配置模型为 `gpt-5.6-luna`，最大推理努力。",
-        "通过将 Sol 作为任务管理者，Luna Max 作为执行者，用户可以有效降低开发成本。",
-        "使用 Luna Max 进行明确边界的任务处理，能在同一额度下实现更高的产出。",
-        "用户可以选择不创建配置文件，直接让 Sol 自行生成 Luna Max 对话线程，简化操作流程。",
-        "在 DeepSWE 排行榜上，gpt-5.6-luna max 的表现与 Sol Medium 相近，但成本却低了一个数量级。"
-      ],
-      "background": "Codex 作为一款 AI 编程工具，近年来在开发者中逐渐流行。其核心优势在于通过不同模型的组合，帮助用户优化开发流程。Sol 作为高阶模型，虽然功能强大，但成本也相对较高。相比之下，Luna Max 则以更低的价格提供了相似的性能，尤其适合处理一些重复性、明确边界的任务。通过将 Sol 和 Luna Max 结合使用，用户可以在保持高效的同时，显著降低开发成本，这种组合模式在 Codex 社区中逐渐成为一种趋势。",
-      "impact": "推荐给需要高效编程的开发者、预算有限的初创团队、希望优化资源配置的项目经理。通过将 Sol 的决策能力与 Luna Max 的执行能力结合，用户可以在开发过程中实现更高的效率，减少不必要的支出。此外，这种模式也适合需要频繁进行代码审查和测试的团队，能够有效提升工作流的灵活性和响应速度。",
-      "audience": [
-        "开发者",
-        "初创团队",
-        "项目经理",
-        "AI 编程爱好者",
-        "技术团队领导"
-      ],
-      "useCases": [
-        "创建 `luna-worker.toml` 文件，配置 Sol 和 Luna Max，处理特定的编程任务。",
-        "利用 Sol 拆分复杂任务，将具体实现交给 Luna Max，提升开发效率。",
-        "在需要批量执行的场景中，直接让 Sol 生成 Luna Max 对话线程，简化操作。",
-        "使用 Luna Max 进行代码测试和调试，减少 Sol 的资源消耗。",
-        "在团队中推广 Sol 和 Luna Max 的组合使用，优化整体开发流程。"
-      ],
-      "risks": [
-        "API 费用可能随着使用量增加而显著上升，需提前预算。",
-        "Luna Max 的性能虽然接近 Sol，但在某些复杂任务上可能存在局限性。",
-        "配置文件的创建和管理需要一定的技术基础，初学者可能面临学习曲线。",
-        "在多线程处理时，可能会出现数据同步问题，需谨慎管理。",
-        "商用授权方面需确认是否符合使用条款，避免法律风险。"
-      ],
-      "reason": "这条信息值得关注，因为它展示了如何通过合理的工具组合，显著提升开发效率并降低成本，适合广泛的开发者群体。",
-      "scores": {
-        "importance": 85,
-        "novelty": 75,
-        "firsthand": 90,
-        "impact": 80,
-        "credibility": 85
-      },
-      "url": "https://x.com/AYi_AInotes/status/2083867265179537565",
-      "source": "X：阿易 AI Notes (@AYi_AInotes)",
-      "date": "2026-08-02",
-      "publishedAt": "2026-08-02T18:47",
-      "collectedAt": "2026-08-02T19:26",
-      "dateStatus": "verified",
-      "tier": "T1.5",
-      "score": 66,
-      "aiSelected": true,
-      "_style": "reviewer",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Grok 新功能：全面分析任意视频内容",
-      "summary": "Grok 最新推出的功能允许用户分析任何视频，标志着其在视频内容理解领域的重大进展。此功能的推出，预计将提升用户在视频数据处理和信息提取方面的效率，尤其是在教育、媒体和市场研究等行业中。与传统视频分析工具相比，Grok 的分析能力更为全面，能够处理复杂的场景和多样化的内容。",
-      "category": "ai-tools",
-      "tags": [
-        "视频分析",
-        "AI工具",
-        "数据处理",
-        "内容理解",
-        "Grok"
-      ],
-      "keyPoints": [
-        "Grok 现已支持分析任意视频，提升了内容理解的广度和深度。",
-        "该功能的推出预计将显著提高用户在视频数据处理中的效率，尤其在教育和市场研究领域。",
-        "Grok 的视频分析能力相比传统工具更为全面，能够处理复杂场景。",
-        "用户可以通过简单的指令请求分析，操作便捷。",
-        "此功能的推出可能会引发视频分析市场的竞争加剧，促使其他工具更新迭代。"
-      ],
-      "background": "Grok 是由 Elon Musk 旗下的 xAI 开发的一款智能工具，旨在通过先进的机器学习技术提升视频内容的分析能力。随着视频内容在各行业中的广泛应用，市场对高效、智能的视频分析工具的需求日益增加。Grok 的新功能不仅填补了市场空白，还与现有的分析工具形成了鲜明对比，后者往往只能处理简单的视频数据，无法深入理解复杂的内容和场景。Grok 的推出，标志着视频分析技术的一个重要里程碑，可能会引领行业向更高效、更智能的方向发展。",
-      "impact": "Grok 的视频分析功能将对多个行业产生深远影响。教育行业可以利用这一工具提升教学视频的互动性和理解度，媒体行业则能够更高效地处理和分析新闻视频，市场研究人员可以快速提取视频中的关键信息。此外，随着用户对视频内容分析需求的增加，Grok 可能会吸引更多的开发者和企业用户，进一步推动其市场份额的增长。此功能的推出也可能促使竞争对手加快技术更新，以应对日益激烈的市场竞争。",
-      "audience": [
-        "教育工作者",
-        "市场研究员",
-        "内容创作者",
-        "媒体分析师",
-        "数据科学家"
-      ],
-      "useCases": [
-        "分析教育视频，提取关键信息以提升学习效果。",
-        "为市场研究提供视频数据分析，快速获取用户反馈。",
-        "帮助内容创作者优化视频内容，提高观众互动率。",
-        "支持媒体分析师快速处理新闻视频，提升报道效率。",
-        "为数据科学家提供视频数据集的深度分析，助力研究。"
-      ],
-      "risks": [
-        "Grok 的视频分析功能可能面临高昂的 API 使用费用，影响小型企业的使用意愿。",
-        "用户在使用过程中可能遇到配额限制，影响分析效率。",
-        "商用授权问题可能会限制某些行业的应用，增加合规风险。",
-        "不同语言的视频内容可能导致分析准确性下降，限制全球市场的拓展。",
-        "硬件兼容性问题可能影响某些用户的使用体验，增加技术支持成本。"
-      ],
-      "reason": "Grok 的视频分析功能为用户提供了前所未有的内容理解能力，值得关注其在各行业中的应用潜力。",
-      "scores": {
-        "importance": 85,
-        "novelty": 80,
-        "firsthand": 90,
-        "impact": 75,
-        "credibility": 80
-      },
-      "url": "https://x.com/elonmusk/status/2083800942927839307",
-      "source": "X：Elon Musk (@elonmusk, xAI)",
-      "date": "2026-08-02",
-      "publishedAt": "2026-08-02T14:23",
-      "collectedAt": "2026-08-02T15:03",
-      "dateStatus": "verified",
-      "tier": "T1.5",
-      "score": 65,
-      "aiSelected": true,
-      "_style": "analyst",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Seedance 2.5 发布：支持多模态参考与精准编辑的高效视频生成工具",
-      "summary": "Seedance 2.5 正式上线，用户可单次生成最长 30 秒的高质量音视频片段，并支持多轮扩展以输出数分钟连贯内容。新版本允许一次输入最多 30 张图片、10 段视频和 10 段音频作为参考，新增的时间戳级编辑控制提升了长叙事和多模态剪辑能力。即日起可在即梦 AI、豆包 Pro 等平台使用，API 将通过 BytePlus ModelArk 提供。",
-      "category": "ai-image-video",
-      "tags": [
-        "视频生成",
-        "多模态",
-        "精准编辑",
-        "AI工具",
-        "Seedance"
-      ],
-      "keyPoints": [
-        "Seedance 2.5 允许用户单次生成最长 30 秒的高质量音视频，适合短视频创作。",
-        "新版本支持多轮扩展，用户可生成数分钟的连贯内容，提升了创作灵活性。",
-        "用户可以一次性输入最多 30 张图片、10 段视频和 10 段音频，丰富了创作素材。",
-        "新增的时间戳级编辑控制功能，使得长叙事和多模态剪辑更加精准。",
-        "API 将通过 BytePlus ModelArk 提供，方便开发者集成到自己的应用中。"
-      ],
-      "background": "Seedance 是一款创新的视频生成工具，旨在帮助用户快速创建高质量的音视频内容。随着短视频市场的蓬勃发展，Seedance 2.5 的发布正是响应了用户对高效创作工具的需求。相比于之前版本，新版本在多模态输入和编辑控制上进行了显著提升，使得用户在创作时能够更加灵活地使用各种素材，满足不同的创作需求。此版本的推出也标志着 Seedance 在视频生成领域的进一步发展，尤其是在支持长叙事和复杂剪辑方面。",
-      "impact": "Seedance 2.5 的发布将对视频创作者、内容制作团队和教育工作者产生深远影响。创作者可以利用该工具快速生成高质量内容，节省时间和成本。内容制作团队能够通过多模态输入提升创作效率，满足多样化的客户需求。此外，教育工作者可以利用该工具制作生动的教学视频，增强学习体验。整体来看，Seedance 2.5 的推出将推动视频内容创作的普及和专业化。",
-      "audience": [
-        "短视频创作者",
-        "内容制作团队",
-        "教育工作者",
-        "市场营销人员",
-        "社交媒体管理者"
-      ],
-      "useCases": [
-        "使用 Seedance 2.5 生成 30 秒的短视频，快速制作社交媒体宣传内容。",
-        "结合多模态输入，创建数分钟的产品介绍视频，提升客户体验。",
-        "利用时间戳级编辑控制，制作复杂的教学视频，增强学习效果。",
-        "在内容制作团队中，使用该工具进行高效的素材整合与剪辑，提升工作效率。",
-        "通过 API 集成，将 Seedance 2.5 的功能嵌入到现有的应用程序中，扩展产品功能。"
-      ],
-      "risks": [
-        "使用 API 时需注意配额限制，避免因超出使用量而导致服务中断。",
-        "确保输入素材格式与 Seedance 2.5 兼容，避免因格式不符导致生成失败。",
-        "在商业使用时，需确认相关的商用授权，避免侵权风险。",
-        "多模态输入时，素材数量较多可能导致处理时间延长，需合理安排生成时间。",
-        "在不同平台上使用时，需关注版本兼容性，确保功能正常运行。"
-      ],
-      "reason": "Seedance 2.5 的多模态支持和精准编辑功能，使其成为视频创作领域的强大工具，值得关注。",
-      "scores": {
-        "importance": 85,
-        "novelty": 80,
-        "firsthand": 90,
-        "impact": 75,
-        "credibility": 80
-      },
-      "url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "date": "2026-08-02",
-      "publishedAt": "2026-08-02T08:09",
-      "collectedAt": "2026-08-02T08:45",
-      "dateStatus": "verified",
-      "tier": "T1.5",
-      "score": 65,
-      "aiSelected": true,
-      "_style": "tutorial",
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "MiniMax H3：视频制作的新选择，支持多种场景",
-      "summary": "我注意到MiniMax H3视频模型在广告、短剧、创意片头等多个场景的实测表现非常出色。它能够生成5-15秒的高质量视频，支持原生双声道和2K输出，最多可以同时处理9张图片、3段视频和3段音频，提示语字符数最高可达7000。这种灵活性让它在视频制作中显得尤为强大。",
-      "category": "ai-image-video",
-      "tags": [
-        "视频制作",
-        "AI工具",
-        "动态海报",
-        "创意短片",
-        "广告视频"
-      ],
-      "keyPoints": [
-        "MiniMax H3支持生成5-15秒的视频，适合短小精悍的广告和创意片。",
-        "该模型可以处理最多9张图片、3段视频和3段音频，灵活性极高。",
-        "输出质量达到2K，确保视频在视觉上的清晰度和专业性。",
-        "原生双声道音频支持，提升了视频的整体观感和听觉体验。",
-        "提示语支持高达7000字符，适合复杂的内容表达需求。"
-      ],
-      "background": "MiniMax H3是一款新推出的视频生成模型，旨在满足广告、短剧和动态海报等多种视频制作需求。随着短视频和创意内容的流行，传统的视频制作方式逐渐显得不够灵活和高效。MiniMax H3通过其强大的功能，能够快速生成高质量视频，适应市场对短视频内容的需求。与其他视频制作工具相比，MiniMax H3在处理复杂内容和多媒体素材方面表现突出，尤其适合需要快速迭代和高频更新的创意团队。",
-      "impact": "MiniMax H3的推出将对广告公司、创意团队和内容创作者产生深远影响。它的灵活性和高效性将改变他们的工作流程，使得视频制作变得更加便捷和高效。尤其是在需要快速响应市场变化的情况下，MiniMax H3能够帮助团队节省时间和成本。此外，随着视频内容需求的增加，MiniMax H3的应用将进一步推动视频创作的普及，提升整体行业的创作水平。",
-      "audience": [
-        "广告制作人",
-        "短视频创作者",
-        "UI设计师",
-        "游戏开发者",
-        "内容营销专员"
-      ],
-      "useCases": [
-        "快速生成广告视频，提升市场推广效率。",
-        "制作创意短剧，丰富品牌故事表达。",
-        "设计动态海报，增强用户互动体验。",
-        "开发游戏宣传视频，吸引玩家关注。",
-        "创建UI动效，提升产品展示效果。"
-      ],
-      "risks": [
-        "在使用过程中，可能会遇到API调用限制，影响生成速度。",
-        "商用授权方面需仔细确认，避免版权纠纷。",
-        "处理复杂视频素材时，可能对硬件要求较高，需提前评估。",
-        "不同语言的支持可能有限，需关注目标市场的需求。",
-        "兼容性问题可能影响与其他工具的协作，需提前测试。"
-      ],
-      "reason": "MiniMax H3以其强大的功能和灵活的应用场景，成为视频制作领域的新选择，值得关注。",
-      "scores": {
-        "importance": 75,
-        "novelty": 80,
-        "firsthand": 70,
-        "impact": 85,
-        "credibility": 80
-      },
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247509055&idx=1&sn=28254c9e78532b336895b8c541905d49",
-      "source": "公众号：卡尔的AI沃茨",
-      "date": "2026-08-02",
-      "publishedAt": "2026-08-02T21:26",
-      "collectedAt": "2026-08-04T08:13",
-      "dateStatus": "verified",
-      "tier": "T1.5",
-      "score": 63,
-      "aiSelected": true,
-      "_style": "recommender",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
     }
   ],
   "weeklyDigests": [
@@ -9329,6 +8636,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "DefCon airplane Wi-Fi drama. GhostJacking leads to agent hij",
+        "provider": "IT Security News - cybersecurity, infosecurity news",
+        "type": "AI 项目/工具",
+        "bestFor": "DEF CON In-Flight Wi‑Fi Hack, 400 Microsoft Patches, and AI Agent 'Ghostjacking'\n\nDelta Air Lines is investigating a brief appearance of an unauthorized Wi‑Fi n",
+        "description": "DEF CON In-Flight Wi‑Fi Hack, 400 Microsoft Patches, and AI Agent 'Ghostjacking'\n\nDelta Air Lines is investigating a brief appearance of an unauthorized Wi‑Fi network on a Las Vega",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "IT Security News - cybersecurity, infosecurity news",
+        "url": "https://www.itsecuritynews.info/defcon-airplane-wi-fi-drama-ghostjacking-leads-to-agent-hijacks-ai-agent-hacks-gym/"
+      },
+      {
         "name": "ACE与ALTK-Evolve：如何减少AI代理的Token消耗",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -9921,26 +9239,46 @@ window.AI_GENERATED_DATA = {
         "watch": "合并后可能面临的市场竞争压力，尤其是在快速发展的 AI 领域。",
         "sourceName": "NewsData.io:AI agent",
         "url": "https://aithority.com/machine-learning/yellow-ai-a-global-leader-in-enterprise-agentic-ai-to-go-public-via-550-million-merger-with-bluerock-acquisition-corp/"
-      },
-      {
-        "name": "Zenity 获得 1.25 亿美元融资，助力 AI 代理安全时代",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Zenity 的融资将使其能够进一步扩展全球市场，特别是在欧洲和亚太地区。随着 AI 代理在企业中的普及，Zenity 的解决方案将帮助更多组织安全地部署和管理 AI 代理，推动行业标准的建立。企业将能够更好地控制 AI 代理的行为，从而降低潜在风险，提升运营效率。",
-        "description": "我注意到，Zenity 最近宣布完成 1.25 亿美元的 C 轮融资，由 Norwest 领投。这笔资金将加速其全球扩展和平台创新，以满足企业对 AI 代理安全日益增长的需求。Zenity 专注于为 AI 代理提供安全和治理解决方案，已在多个行业中获得了广泛信任。",
-        "useCases": [
-          "部署 Zenity 平台，实时监控 AI 代理的行为，确保合规性和安全性。",
-          "利用 Zenity 的安全治理工具，快速识别和响应潜在的安全威胁。",
-          "在金融服务行业中，应用 Zenity 解决方案，保护敏感数据和交易安全。",
-          "通过 Zenity 的平台，优化 AI 代理的使用流程，提高工作效率。",
-          "与 Zenity 合作，制定企业内部的 AI 安全政策，确保所有员工遵循最佳实践。"
-        ],
-        "watch": "API 费用可能较高，企业需评估长期使用成本。",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://financialit.net/news/fundraising-news/zenity-raises-125-million-secure-era-1-billion-ai-agents"
       }
     ],
     "ai-models": [
+      {
+        "name": "Revise推出可追踪更改的AI文档编辑器",
+        "provider": "WBOC TV-16",
+        "type": "AI 项目/工具",
+        "bestFor": "Revise的推出可能会改变团队协作的方式，尤其是在法律、教育和市场营销等领域。法律团队可以更高效地起草和审查合同，教育工作者能够快速生成课程材料，而市场营销人员则可以实时调整文案。此外，Revise的透明编辑过程可能会促进团队成员之间的沟通与协作，减少误解和错误。然而，用户对AI建议的依赖性可能会影响其独立思考能力，",
+        "description": "Revise推出了一款集成AI的文档编辑器，支持实时协作、版本历史和可视化更改建议，旨在提升文档编辑效率。然而，该工具的依赖性和兼容性问题仍需关注。",
+        "useCases": [
+          "使用Revise进行合同草拟，确保法律条款的准确性和合规性。",
+          "通过Revise协作开发课程材料，实时反馈和修改，提高教学质量。",
+          "利用Revise编辑市场营销文案，快速响应市场变化，提升文案效果。"
+        ],
+        "watch": "Revise的AI建议可能导致用户过度依赖，影响其独立思考和写作能力。",
+        "sourceName": "WBOC TV-16",
+        "url": "https://www.wboc.com/online_features/press_releases/revise-launches-ai-document-editor-with-reviewable-tracked-changes/article_8ac63156-9435-54c6-96e4-0cdf8857e576.html"
+      },
+      {
+        "name": "Google's Gemini Surpasses 1 Billion Monthly Users, Closing G",
+        "provider": "Tekedia",
+        "type": "AI 项目/工具",
+        "bestFor": "Google's Gemini artificial intelligence app has surpassed 1 billion monthly active users, marking a major milestone for the company as it accelerates the rollou",
+        "description": "Google's Gemini artificial intelligence app has surpassed 1 billion monthly active users, marking a major milestone for the company as it accelerates the rollout of generative AI a",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Tekedia",
+        "url": "https://www.tekedia.com/googles-gemini-surpasses-1-billion-monthly-users-closing-gap-with-chatgpt/"
+      },
+      {
+        "name": "Ben Shapiro Mocks Tucker Carlson And Hunter Biden As 'Silver",
+        "provider": "vinnews.com",
+        "type": "AI 项目/工具",
+        "bestFor": "NASHVILLE (VINnews) -- Conservative commentator Ben Shapiro on Tuesday sharply criticized a recent podcast interview between Tucker Carlson and Hunter Biden, de",
+        "description": "NASHVILLE (VINnews) -- Conservative commentator Ben Shapiro on Tuesday sharply criticized a recent podcast interview between Tucker Carlson and Hunter Biden, describing the pair as",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "vinnews.com",
+        "url": "https://vinnews.com/2026/08/11/ben-shapiro-mocks-tucker-carlson-and-hunter-biden-as-silver-spoon-rich-kids-over-maine-interview/"
+      },
       {
         "name": "Target 任命首位首席人工智能官，积极布局 AI 生态",
         "provider": "CNBC",
@@ -10495,43 +9833,6 @@ window.AI_GENERATED_DATA = {
         "watch": "AI 应用可能面临高昂的开发和维护成本，影响短期财务表现。",
         "sourceName": "NewsAPI:artificial intelligence",
         "url": "https://biztoc.com/x/1474c69c3aa05fe2"
-      },
-      {
-        "name": "AI 公司购书行为引发争议，或影响稀有书籍存续",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "这一事件可能对多个方面产生影响。首先，稀有书籍的收藏者和书商可能会面临更大的市场压力，导致稀有书籍的价格波动。其次，AI 公司在训练模型时的采购行为可能会改变书籍市场的供需关系，影响书籍的可得性。此外，公众对 AI 公司行为的关注可能促使相关监管机构加强对书籍购买和使用的监管，影响未来的商业决策。",
-        "description": "近期，社交媒体和新闻报道指责 AI 公司通过切割书籍脊背以便扫描，导致大量稀有书籍被销毁，引发公众愤怒。尽管这一行为已为人所知，但在404 Media的报道后，关于稀有书籍的购买和销毁的讨论愈演愈烈。AI 公司在训练模型时对书籍的需求，尤其是2022年前出版的书籍，可能会对稀有书籍的存续产生深远影响。",
-        "useCases": [
-          "分析稀有书籍市场动态，评估投资风险。",
-          "开发针对稀有书籍的保护和存储方案。",
-          "设计 AI 模型时，确保使用合规的书籍数据。"
-        ],
-        "watch": "AI 公司在采购稀有书籍时可能面临法律和道德风险，影响品牌形象。",
-        "sourceName": "NewsAPI:large language model",
-        "url": "https://www.theatlantic.com/technology/2026/08/ai-companies-buying-used-books-for-data/688167/"
-      },
-      {
-        "name": "Grêmio lose striker for crunch Copa do Brasil clash ",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "Grêmio coach Luis Castro has lost forward Tetê for the decisive match against Mirassol.The second leg of the Copa do Brasil round of 16 will be this Wednesday (",
-        "description": "Grêmio coach Luis Castro has lost forward Tetê for the decisive match against Mirassol.The second leg of the Copa do Brasil round of 16 will be this Wednesday (5), at 7:30 p.m., at",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsAPI:artificial intelligence",
-        "url": "https://onefootball.com/en/news/gremio-lose-striker-for-crunch-copa-do-brasil-clash-43229419"
-      },
-      {
-        "name": "Sudden surge of multimillionaires sees all cash buyers flood",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "Recent data showed that 30% of home sales across the San Francisco Bay Area between April and June were purchased entirely with cash.",
-        "description": "Recent data showed that 30% of home sales across the San Francisco Bay Area between April and June were purchased entirely with cash.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsAPI:artificial intelligence",
-        "url": "https://nypost.com/2026/08/04/real-estate/san-francisco-all-cash-luxury-home-purchases-surge-amid-ai-boom/"
       }
     ],
     "ai-business": [
@@ -14852,7 +14153,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-08-12",
-    "generatedAt": "2026-08-11T22:25:03.440407Z",
+    "generatedAt": "2026-08-12T02:13:50.559694Z",
     "total": 24,
     "sections": [
       {
