@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-08-12",
-  "generatedAt": "2026-08-12T10:10:07.104969Z",
+  "generatedAt": "2026-08-12T12:46:15.888934Z",
   "news": [
     {
       "title": "AMIE 进阶：实现专家级音视频临床咨询",
@@ -1352,6 +1352,34 @@ window.AI_GENERATED_DATA = {
       "score": 72,
       "aiSelected": true,
       "_style": "tutorial",
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Role of Personality in Conversational Information Seeking",
+      "summary": "Large language models (LLMs) are increasingly used for information seeking, where users find, compare, and evaluate information through dialogue. In this role, the assistant does m",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-08-11",
+      "publishedAt": "",
+      "collectedAt": "2026-08-12T19:28",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-11",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.11164v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
       "moduleTargets": [
         "news",
         "topicResources"
@@ -4813,69 +4841,6 @@ window.AI_GENERATED_DATA = {
         "topicResources"
       ],
       "sourceCount": 1
-    },
-    {
-      "title": "多模态BadCase极限挑战赛即将开启",
-      "summary": "多模态BadCase极限挑战赛由DataFountain主办，旨在推动人工智能领域的创新与应用。比赛时间为2025年2月21日至3月21日，奖金总额为160,000元。尽管该赛事为参与者提供了展示技术的机会，但也面临着参与门槛和评估标准不明确等挑战。",
-      "category": "ai-models",
-      "tags": [
-        "人工智能",
-        "竞赛",
-        "多模态",
-        "技术创新",
-        "DataFountain"
-      ],
-      "keyPoints": [
-        "比赛时间定于2025年2月21日至3月21日，为期一个月，参与者需在此期间提交作品。",
-        "奖金总额为160,000元，吸引了众多技术团队和个人参与，增加了竞争的激烈程度。",
-        "赛事由DataFountain主办，旨在促进多模态技术的应用与发展，推动行业进步。",
-        "参赛者需遵循DataFountain的竞赛协议，确保作品的原创性与合规性。",
-        "比赛的评估标准尚未明确，可能导致参赛者在准备过程中产生困惑。"
-      ],
-      "background": "多模态BadCase极限挑战赛是国内人工智能领域的一项重要赛事，旨在通过竞赛激励技术创新。近年来，随着人工智能技术的快速发展，多模态学习逐渐成为研究热点。该赛事不仅为参与者提供了展示技术的舞台，也为行业内的技术交流与合作创造了机会。然而，赛事的成功与否在于其评估标准的透明度和参与者的技术水平。",
-      "impact": "该赛事将吸引众多技术团队参与，可能推动多模态技术在实际应用中的落地。参与者通过比赛可以获得行业认可，提升自身技术能力。同时，赛事的结果可能影响相关技术的研发方向，促进企业在多模态领域的投资与创新。然而，若评估标准不明确，可能导致参与者的积极性下降，影响赛事的整体质量。",
-      "audience": [
-        "AI研究人员",
-        "技术开发者",
-        "高校学生",
-        "创业团队",
-        "数据科学家"
-      ],
-      "useCases": [
-        "参与者提交多模态模型，展示其在特定任务中的表现，期望获得行业认可。",
-        "技术团队利用比赛反馈，优化算法，提高模型的准确性与效率。",
-        "高校学生通过参与赛事，积累实践经验，提升就业竞争力。"
-      ],
-      "risks": [
-        "赛事的评估标准不明确，可能导致参赛者在准备过程中产生困惑，影响作品质量。",
-        "参与者需遵循DataFountain的竞赛协议，若未能遵守可能面临作品被取消资格的风险。",
-        "奖金分配可能存在不公平现象，影响参赛者的积极性与参与热情。"
-      ],
-      "reason": "多模态BadCase极限挑战赛为技术团队提供了展示创新能力的机会，但也需关注评估标准的透明度与公平性。",
-      "scores": {
-        "importance": 70,
-        "novelty": 60,
-        "firsthand": 80,
-        "impact": 75,
-        "credibility": 70
-      },
-      "url": "https://www.datafountain.cn/competitions/1104",
-      "source": "中国一手 · DataFountain 竞赛",
-      "sourceType": "competition",
-      "region": "CN",
-      "date": "2026-08-04",
-      "publishedAt": "",
-      "collectedAt": "2026-08-04T10:03",
-      "dateStatus": "collected",
-      "tier": "T1.5",
-      "score": 57,
-      "aiSelected": true,
-      "_style": "critic",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1,
-      "sourceDate": "2025-12-31"
     }
   ],
   "weeklyDigests": [
@@ -8626,6 +8591,23 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "机器学习模型预测美光科技股票价格走势",
+        "provider": "Finbold",
+        "type": "AI 项目/工具",
+        "bestFor": "这一预测对投资者、分析师和市场决策者都有重要影响。投资者可以根据模型的预测调整持仓策略，分析师则可以利用这些数据进行更深入的市场分析。此外，市场的不确定性可能促使更多投资者关注技术指标，从而影响整体市场情绪。美光的强劲表现也可能吸引更多资金流入，进一步推动股价上涨。",
+        "description": "我注意到，Finbold AI Agent 跟踪的机器学习模型对美光科技（NASDAQ: MU）在 2026 年 8 月底的股价预测呈现出混合前景。8 月 12 日时，美光股价为 868 美元，2026 年以来上涨超过 200%。虽然股价在 6 月底曾达到 1200 美元以上，但目前正经历反弹。GPT-5.7 Luna 预测到 8 月 31 日股价将达到 904.50 美元，意味着 4.18% 的上涨空间，而 DeepSeek Chat 则预测为 714.63 美元，显示出 17.69% 的下跌风险。两者的平均预测",
+        "useCases": [
+          "利用 GPT-5.7 Luna 进行股票价格预测，评估投资风险。",
+          "通过技术指标分析美光的市场表现，制定交易策略。",
+          "参考 DeepSeek Chat 的预测，调整投资组合以应对市场波动。",
+          "分析美光的财报数据，评估其长期投资价值。",
+          "监测 DRAM 和 NAND 供应情况，预测市场趋势。"
+        ],
+        "watch": "模型预测可能受市场波动影响，导致不准确的结果。",
+        "sourceName": "Finbold",
+        "url": "https://finbold.com/machine-learning-algorithm-sets-micron-stock-price-for-august-31-2026/"
+      },
+      {
         "name": "SpaceXAI 推出 Grok Bot：全天候 AI 助手",
         "provider": "Mashable SEA",
         "type": "AI 项目/工具",
@@ -9188,26 +9170,43 @@ window.AI_GENERATED_DATA = {
         "watch": "连接器的使用可能受到 API 调用配额的限制，影响数据访问频率。",
         "sourceName": "NewsData.io:AI agent",
         "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/zoominfo-connector-provides-gtm-context-layer-for-buyer-intent-with-gemini-enterprise/"
-      },
-      {
-        "name": "ServiceNow AI 收入突破 10 亿美元，Salesforce 是否应感到担忧？",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "ServiceNow 的 AI 收入增长可能会促使 Salesforce 加强其 AI 产品的研发和市场推广，以保持竞争优势。随着两家公司在 AI 领域的竞争加剧，客户可能会受益于更具创新性和高效的解决方案。此外，市场对 AI 产品的需求不断上升，可能会推动整个行业的技术进步和服务优化。",
-        "description": "ServiceNow 最近宣布其 AI 年度合同价值（ACV）首次突破 10 亿美元，标志着其在 AI 领域的显著增长。该公司在 2026 年第二季度财报中显示，收入增长达到 24%，续约率表现强劲。这一成就距 Salesforce 的 Agentforce 收入同样达到 10 亿美元仅两个月，表明两者之间的竞争依然激烈。",
-        "useCases": [
-          "利用 ServiceNow 的 Now Assist 提高 IT 服务管理效率，减少响应时间。",
-          "通过 Salesforce 的 Agentforce 构建自动化客户服务代理，提升客户满意度。",
-          "分析 ServiceNow 和 Salesforce 的市场动态，制定更有效的竞争策略。",
-          "在企业内部推广 AI 工具，提升员工工作效率和决策能力。",
-          "评估两家公司的 AI 产品，选择最适合企业需求的解决方案。"
-        ],
-        "watch": "ServiceNow 和 Salesforce 在 AI 领域的竞争可能导致价格战，影响利润率。",
-        "sourceName": "NewsData.io:generative AI",
-        "url": "https://www.salesforceben.com/servicenow-just-hit-1b-in-ai-revenue-should-salesforce-be-concerned/"
       }
     ],
     "ai-models": [
+      {
+        "name": "谷歌 Gemini AI 助手用户突破十亿",
+        "provider": "New Vision",
+        "type": "AI 项目/工具",
+        "bestFor": "谷歌的 Gemini 用户增长将推动其在 AI 生态系统中的整合，可能会影响用户在搜索、邮件和视频平台上的使用习惯。随着用户对 AI 助手的依赖加深，谷歌可能会加速推出新功能，以保持市场竞争力。此外，Gemini 的成功也可能促使其他公司加大对 AI 技术的投资，进一步推动行业发展。",
+        "description": "谷歌的人工智能助手 Gemini 月活跃用户已超过十亿，成为公司历史上增长最快的产品。尽管面临技术滞后和竞争加剧，谷歌依然依靠其庞大的用户基础整合 AI 生态系统。与之相比，OpenAI 的 ChatGPT 也在同一时期达到了相似的用户规模，显示出市场竞争的激烈程度。",
+        "useCases": [
+          "集成 Gemini 到企业内部工具中，提高工作效率。",
+          "利用 Gemini 进行市场调研，分析用户反馈和行为。",
+          "通过 Gemini 提供个性化的客户服务，提升用户满意度。",
+          "在教育平台中使用 Gemini，辅助学生学习和答疑。",
+          "结合 Gemini 的 API，开发新的应用程序和服务。"
+        ],
+        "watch": "随着用户数量的增加，API 调用的成本可能上升，影响企业的使用决策。",
+        "sourceName": "New Vision",
+        "url": "https://www.newvision.co.ug/category/science/googles-gemini-ai-assistant-reaches-one-billi-NV_238680_082026"
+      },
+      {
+        "name": "谷歌 Gemini AI 助手用户突破十亿",
+        "provider": "The Phuket News",
+        "type": "AI 项目/工具",
+        "bestFor": "Gemini 的用户增长将推动谷歌在 AI 领域的进一步投资和创新，可能会影响到开发者和企业在 AI 应用上的决策。随着用户数量的增加，谷歌可能会推出更多功能，提升用户体验，进而影响整个市场的竞争格局。此外，Gemini 的成功也可能促使其他公司加速 AI 产品的开发和推广。",
+        "description": "谷歌的人工智能助手 Gemini 月活跃用户已超过十亿，成为公司历史上增长最快的产品。此消息在公司进行重大重组后发布，尽管面临技术滞后和竞争加剧，谷歌依然依靠其庞大的用户基础整合 AI 技术，提升服务质量。",
+        "useCases": [
+          "下载并安装 Gemini 应用，体验其智能助手功能，提升日常工作效率。",
+          "利用 Gemini 的 AI 功能进行数据分析，快速获取业务洞察，优化决策过程。",
+          "在开发项目中集成 Gemini API，利用其强大的生成能力，提升产品竞争力。",
+          "通过 Gemini 的智能推荐功能，改善用户体验，增加用户粘性。",
+          "参与 Gemini 的用户反馈活动，帮助改进产品功能，推动社区发展。"
+        ],
+        "watch": "API 使用可能受到配额限制，需提前规划调用频率，避免超出限制导致服务中断。",
+        "sourceName": "The Phuket News",
+        "url": "https://www.thephuketnews.com/google-gemini-ai-assistant-reaches-one-billion-users-101269.php"
+      },
       {
         "name": "AI's Volatile Power Demand Is Damaging Its Own Data Centers",
         "provider": "Insurance Journal",
@@ -9767,32 +9766,6 @@ window.AI_GENERATED_DATA = {
         "watch": "LLM 的使用可能需要高性能硬件支持，增加了成本和复杂性。",
         "sourceName": "NewsAPI:large language model",
         "url": "https://www.bfswa.blog/p/llms-wont-break-symmetric-crypto"
-      },
-      {
-        "name": "Nine Unusual Ways My Clients Use AI With SQL Server",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "Everyone writes about AI generating queries. Nobody writes about the strange jobs it is actually doing inside real database teams. These are nine of them, and I",
-        "description": "Everyone writes about AI generating queries. Nobody writes about the strange jobs it is actually doing inside real database teams. These are nine of them, and I helped build every ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsAPI:large language model",
-        "url": "https://blog.sqlauthority.com/2026/08/06/nine-unusual-ways-my-clients-use-ai-with-sql-server/"
-      },
-      {
-        "name": "Python与人工智能终极课程包：提升技能的机会与局限",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "该课程包的推出将吸引大量希望提升技能的学习者，尤其是初学者和中级开发者。通过系统学习，学习者能够在实际项目中应用所学知识，提升工作效率。然而，课程的局限性可能导致部分学习者在深入研究时遇到瓶颈，影响他们的职业发展。",
-        "description": "Python与人工智能终极课程包包含9个课程，旨在帮助学习者提升Python和AI知识。课程内容涵盖数据预处理与可视化、人工神经网络、Keras框架使用等，适合希望深入了解AI技术的学习者。然而，课程的深度和广度可能无法满足所有学习者的需求。",
-        "useCases": [
-          "学习数据预处理，使用Pandas和NumPy进行数据清洗和分析。",
-          "利用Keras框架构建和训练深度学习模型，应用于图像识别。",
-          "通过可视化工具展示数据分析结果，提升报告的可读性。"
-        ],
-        "watch": "课程内容可能对高级用户不够深入，无法满足他们的需求。",
-        "sourceName": "NewsAPI:artificial intelligence",
-        "url": "https://slashdot.org/firehose.pl?op=view&amp;id=184870638"
       }
     ],
     "ai-business": [
@@ -11645,6 +11618,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-research": [
       {
+        "name": "Role of Personality in Conversational Information Seeking",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Large language models (LLMs) are increasingly used for information seeking, where users find, compare, and evaluate information through dialogue. In this role, ",
+        "description": "Large language models (LLMs) are increasingly used for information seeking, where users find, compare, and evaluate information through dialogue. In this role, the assistant does m",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2608.11164v1"
+      },
+      {
         "name": "专有 LLM API 的加密推理轨迹被窃取的风险分析",
         "provider": "HuggingFace Daily Papers（社区热门论文）",
         "type": "AI 项目/工具",
@@ -12217,17 +12201,6 @@ window.AI_GENERATED_DATA = {
         "watch": "由于目前仅支持英语，非英语用户在使用时可能面临语言障碍。",
         "sourceName": "NewsAPI:large language model",
         "url": "https://www.computerweekly.com/news/366646477/NUS-builds-AI-assistant-to-ease-research-process"
-      },
-      {
-        "name": "\"Dragon Age: Origins wasn’t the most attractive game\": BioWa",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "Former Dragon Age series producer Mark Darrah has shared his tuppence worth on the likelihood of BioWare and EA ever commissioning a full-on original Dragon Age",
-        "description": "Former Dragon Age series producer Mark Darrah has shared his tuppence worth on the likelihood of BioWare and EA ever commissioning a full-on original Dragon Age trilogy remaster or",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsAPI:generative AI",
-        "url": "https://www.rockpapershotgun.com/dragon-age-origins-wasnt-the-most-attractive-game-biowares-old-series-producer-still-thinks-a-da-remaster-trilogy-is-worth-it-but-the-knowhow-isnt-there"
       }
     ],
     "ai-office": []
@@ -14115,8 +14088,8 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-08-12",
-    "generatedAt": "2026-08-12T10:10:07.076452Z",
-    "total": 27,
+    "generatedAt": "2026-08-12T12:46:15.864232Z",
+    "total": 28,
     "sections": [
       {
         "category": "ai-tools",
@@ -14287,6 +14260,17 @@ window.AI_GENERATED_DATA = {
             "date": "2026-08-12",
             "publishedAt": "2026-08-12T00:14",
             "reason": "该案例展示了如何在数据稀缺的领域成功构建专业化基础模型，具有重要的行业参考价值。"
+          },
+          {
+            "title": "Role of Personality in Conversational Information Seeking",
+            "summary": "Large language models (LLMs) are increasingly used for information seeking, where users find, compare, and evaluate information through dial",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.11164v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-11",
+            "publishedAt": "",
+            "reason": ""
           },
           {
             "title": "OpenAI 和 Google 聊天机器人均突破 10 亿用户大关",
