@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-08-13",
-  "generatedAt": "2026-08-12T20:32:29.269076Z",
+  "generatedAt": "2026-08-12T22:59:29.730396Z",
   "news": [
     {
       "title": "使用 Amazon Athena 和 CUDOS 进行 Amazon Bedrock 成本归属分析",
@@ -246,6 +246,70 @@
       "score": 69,
       "aiSelected": true,
       "_style": "recommender",
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Claude Cowork 会话升级：Chrome 侧边栏实现多平台无缝对接",
+      "summary": "Claude in Chrome 侧边栏已升级为 Claude Cowork 会话，支持在桌面、网页和移动端无缝切换，任务和对话历史得以保存，提升了用户的工作效率。该功能现已在 Max 和 Team 计划中推出，Pro 用户将在未来几周内获得更新。",
+      "category": "ai-tools",
+      "tags": [
+        "Claude",
+        "浏览器扩展",
+        "多平台",
+        "工作效率",
+        "AI助手"
+      ],
+      "keyPoints": [
+        "Claude Cowork 会话允许用户在浏览器中执行任务，并在不同设备间无缝切换，提升了工作效率。",
+        "该功能支持在 Chrome 侧边栏中保存对话历史，用户可以随时回顾和继续未完成的任务。",
+        "Claude 在浏览器中可以直接与多个应用程序交互，包括内部仪表板和遗留系统，增强了其适用性。",
+        "新版本的 Claude Cowork 会话在 Max 和 Team 计划中已上线，Pro 用户将在未来几周内获得访问权限。",
+        "Claude 通过自动审批功能减少了用户在执行任务时的干扰，提高了操作的流畅性。"
+      ],
+      "background": "Claude in Chrome 是一款浏览器扩展，旨在提升用户在浏览器中的工作效率。此次升级将侧边栏转变为 Claude Cowork 会话，允许用户在不同设备间无缝切换，解决了之前会话在不同平台间无法共享的痛点。与传统的 AI 助手相比，Claude Cowork 提供了更强的多任务处理能力，能够在多个标签页中同时执行任务，适应现代工作环境的需求。此举不仅提升了用户体验，也使 Claude 在竞争激烈的 AI 助手市场中更具优势。",
+      "impact": "Claude Cowork 会话的推出将显著改变用户的工作方式，尤其是需要频繁在不同设备间切换的专业人士，如项目经理和数据分析师。用户能够在浏览器中启动任务，并在桌面或移动设备上继续，减少了信息丢失的风险。此外，企业用户可以利用这一功能提高团队协作效率，促进信息共享和任务跟踪，进而提升整体工作效率。",
+      "audience": [
+        "项目经理",
+        "数据分析师",
+        "远程工作者",
+        "软件开发人员",
+        "市场营销人员"
+      ],
+      "useCases": [
+        "在浏览器中收集供应商发票数据，并将其整合到预算表中。",
+        "在桌面应用中继续编辑在浏览器中启动的文档，保持上下文一致性。",
+        "通过 Claude 在多个平台上快速检索信息，提升决策效率。",
+        "在移动设备上随时查看和更新项目进度，确保信息实时同步。",
+        "利用 Claude 的自动审批功能，快速完成重复性任务，节省时间。"
+      ],
+      "risks": [
+        "Claude in Chrome 可能面临与其他浏览器 AI 代理相同的安全风险，尤其是提示注入攻击，恶意用户可能通过网页内容操控 Claude 执行未授权操作。",
+        "尽管增加了自动审批功能，但仍需谨慎处理敏感信息，确保用户在执行关键操作时有足够的确认机制。",
+        "在多平台间切换可能导致数据同步延迟，影响用户体验，尤其是在网络不稳定的情况下。",
+        "用户需关注不同设备间的权限设置，确保 Claude 能够顺利访问所需的应用和数据。",
+        "对于企业用户，可能需要额外的合规审查，以确保使用 Claude 不违反内部政策或行业法规。"
+      ],
+      "reason": "Claude Cowork 会话的升级显著提升了多平台工作效率，值得关注其在团队协作和任务管理中的应用潜力。",
+      "scores": {
+        "importance": 85,
+        "novelty": 70,
+        "firsthand": 90,
+        "impact": 80,
+        "credibility": 85
+      },
+      "url": "https://claude.com/blog/cowork-chrome-side-panel",
+      "source": "Claude：Blog（网页）",
+      "date": "2026-08-13",
+      "publishedAt": "2026-08-13T04:15",
+      "collectedAt": "2026-08-13T05:46",
+      "dateStatus": "verified",
+      "tier": "T1.5",
+      "score": 65,
+      "aiSelected": true,
+      "_style": "analyst",
       "moduleTargets": [
         "news"
       ],
@@ -1246,6 +1310,70 @@
       "moduleTargets": [
         "news",
         "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "RingCentral 利用 ChatGPT 加速 AI 产品开发与运营智能化",
+      "summary": "RingCentral 正在通过 ChatGPT Work 和 Codex 来加速其 AI 产品开发，并实现工程与运营的智能化集中管理。这一举措不仅提升了工作效率，还为团队协作带来了新的可能性。本文将深入探讨其与传统方法的不同之处及其潜在影响。",
+      "category": "ai-tools",
+      "tags": [
+        "RingCentral",
+        "ChatGPT",
+        "AI产品开发",
+        "运营智能",
+        "团队协作"
+      ],
+      "keyPoints": [
+        "RingCentral 结合 ChatGPT Work 和 Codex，旨在提升 AI 产品开发的效率，预计将开发周期缩短 30%。",
+        "通过集中管理工程与运营数据，RingCentral 实现了信息流的透明化，减少了团队间的沟通成本。",
+        "该平台的智能化工具能够实时分析数据，帮助团队快速做出决策，提升了整体工作效率。",
+        "RingCentral 计划在未来 6 个月内推出更多基于 AI 的功能，以进一步增强用户体验。",
+        "目前，RingCentral 的 AI 解决方案已在多个行业内得到应用，包括电信、金融和医疗等领域。"
+      ],
+      "background": "RingCentral 是一家专注于云通信和协作解决方案的公司，近年来逐渐将目光投向 AI 技术的应用。通过引入 ChatGPT Work 和 Codex，RingCentral 试图在产品开发和运营管理中实现更高的智能化水平。这一转变与行业内其他公司相比，显示出其在技术应用上的前瞻性。与传统的开发流程相比，RingCentral 的新方法不仅提高了效率，还为团队协作提供了更为灵活的解决方案。AI 技术的引入，使得数据处理和决策制定变得更加迅速和精准，符合现代企业对快速响应市场变化的需求。",
+      "impact": "推荐给希望提升团队协作效率的企业，特别是那些在 AI 产品开发领域寻求创新的公司。通过使用 RingCentral 的解决方案，团队可以更快地获取和分析数据，从而做出更明智的决策。此外，IT 部门和运营管理者也能从中受益，借助智能化工具优化工作流程。对于那些希望在竞争中保持领先的企业来说，RingCentral 的 AI 解决方案无疑是一个值得考虑的选择。",
+      "audience": [
+        "产品经理",
+        "软件工程师",
+        "运营经理",
+        "数据分析师",
+        "IT 主管"
+      ],
+      "useCases": [
+        "利用 ChatGPT Work 进行项目管理，实时跟踪进度和任务分配。",
+        "通过 Codex 自动化代码生成，减少开发时间，提高代码质量。",
+        "使用集中管理平台分析运营数据，快速识别问题并制定解决方案。",
+        "在团队会议中应用 AI 辅助决策工具，提升讨论效率和决策质量。",
+        "通过智能化工具进行市场趋势分析，帮助制定更具前瞻性的产品策略。"
+      ],
+      "risks": [
+        "API 使用费用可能较高，尤其是大规模使用时，需提前评估预算。",
+        "对 AI 工具的依赖可能导致团队在面对非标准问题时缺乏灵活性。",
+        "在多语言环境下，AI 工具的表现可能不尽如人意，需考虑语言兼容性。",
+        "硬件要求可能较高，尤其是在处理大量数据时，需确保基础设施支持。",
+        "商用授权问题需明确，避免在未授权的情况下使用 AI 生成的内容。"
+      ],
+      "reason": "RingCentral 的 AI 解决方案通过智能化手段提升了团队协作效率，值得关注。",
+      "scores": {
+        "importance": 75,
+        "novelty": 70,
+        "firsthand": 60,
+        "impact": 80,
+        "credibility": 70
+      },
+      "url": "https://openai.com/index/ringcentral",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-08-12",
+      "publishedAt": "2026-08-12T08:00",
+      "collectedAt": "2026-08-13T06:59",
+      "dateStatus": "verified",
+      "tier": "T1",
+      "score": 72,
+      "aiSelected": true,
+      "_style": "reviewer",
+      "moduleTargets": [
+        "news"
       ],
       "sourceCount": 1
     },
@@ -8234,6 +8362,17 @@
   "topicResources": {
     "ai-coding": [
       {
+        "name": "AutoGPT 如何用 AGENTS.md 和技能门控管理 AI 生成的拉取请求",
+        "provider": "GitHub Blog",
+        "type": "AI 项目/工具",
+        "bestFor": "AutoGPT 维护者发现，AI 智能体不会主动阅读文档，因此将指令放在 AGENTS.md 和技能文件中，并置于代码目录旁。他们通过强制 PR 模板、测试计划、CI 覆盖率门槛和 CLA 签名等门控机制，将智能体提交的 PR 从\"不可用\"转变为\"可用但不符合路线图\"。其中 CLA 签名因需浏览器和 OAuth 流程，",
+        "description": "AutoGPT 维护者发现，AI 智能体不会主动阅读文档，因此将指令放在 AGENTS.md 和技能文件中，并置于代码目录旁。他们通过强制 PR 模板、测试计划、CI 覆盖率门槛和 CLA 签名等门控机制，将智能体提交的 PR 从\"不可用\"转变为\"可用但不符合路线图\"。其中 CLA 签名因需浏览器和 OAuth 流程，被用作区分人类与智能体的\"人类探测器\"。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "GitHub Blog",
+        "url": "https://github.blog/open-source/maintainers/your-contributors-are-ai-first-now-is-your-project"
+      },
+      {
         "name": "Webz.io 推出开放 API，助力 Vibe Coders 构建数据驱动应用",
         "provider": "TFOT",
         "type": "AI 项目/工具",
@@ -8843,17 +8982,6 @@
         "watch": "在使用 AI 工具时，需注意 API 的使用限制和配额，以避免超出预算。",
         "sourceName": "Currents:AI coding tool",
         "url": "https://www.reddit.com/r/androiddev/comments/1velsh4/helpful_guide_from_google_for_using_ai_tools_to/"
-      },
-      {
-        "name": "Adapting open source practices to an AI-first world: A retro",
-        "provider": "Currents",
-        "type": "AI 项目/工具",
-        "bestFor": "by Sophia Vargas, Google Open Source\n\nEven as AI adoption accelerates and transforms the global technology landscape, open source remains foundational to how Al",
-        "description": "by Sophia Vargas, Google Open Source\n\nEven as AI adoption accelerates and transforms the global technology landscape, open source remains foundational to how Alphabet builds, uses,",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Currents:AI coding tool",
-        "url": "http://opensource.googleblog.com/2026/08/adapting-open-source-practices-to-an-ai-first-world-a-retrospective-on-2025.html"
       }
     ],
     "ai-agents": [
@@ -14337,8 +14465,8 @@
   ],
   "dailyReport": {
     "date": "2026-08-13",
-    "generatedAt": "2026-08-12T20:32:29.242046Z",
-    "total": 36,
+    "generatedAt": "2026-08-12T22:59:29.703685Z",
+    "total": 38,
     "sections": [
       {
         "category": "ai-tools",
@@ -14400,6 +14528,17 @@
             "reason": "这一功能的推出为用户提供了更大的灵活性，能够根据具体需求生成高质量的嵌入，极大提升了数据分析的效率。"
           },
           {
+            "title": "RingCentral 利用 ChatGPT 加速 AI 产品开发与运营智能化",
+            "summary": "RingCentral 正在通过 ChatGPT Work 和 Codex 来加速其 AI 产品开发，并实现工程与运营的智能化集中管理。这一举措不仅提升了工作效率，还为团队协作带来了新的可能性。本文将深入探讨其与传统方法的不同之处及其潜在影响。",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/ringcentral",
+            "score": 72,
+            "sourceCount": 1,
+            "date": "2026-08-12",
+            "publishedAt": "2026-08-12T08:00",
+            "reason": "RingCentral 的 AI 解决方案通过智能化手段提升了团队协作效率，值得关注。"
+          },
+          {
             "title": "Gemini 助力 PostgreSQL 迁移，简化数据库转换",
             "summary": "Google Cloud 的数据库迁移服务（DMS）引入了由 Gemini 驱动的 AI 辅助代码转换功能，能够高效将 Oracle 或 SQL Server 的存储过程、触发器和自定义函数转换为 PostgreSQL PL/pgSQL 代码。这一创新显著提升了数据库迁移的速度和",
             "source": "Google Cloud：Databases（RSS）",
@@ -14420,6 +14559,17 @@
             "date": "2026-08-12",
             "publishedAt": "2026-08-12T01:00",
             "reason": "这条信息展示了医疗 AI 在实际应用中的最新进展，特别是实时视频问诊的能力，值得关注。"
+          },
+          {
+            "title": "Claude Cowork 会话升级：Chrome 侧边栏实现多平台无缝对接",
+            "summary": "Claude in Chrome 侧边栏已升级为 Claude Cowork 会话，支持在桌面、网页和移动端无缝切换，任务和对话历史得以保存，提升了用户的工作效率。该功能现已在 Max 和 Team 计划中推出，Pro 用户将在未来几周内获得更新。",
+            "source": "Claude：Blog（网页）",
+            "url": "https://claude.com/blog/cowork-chrome-side-panel",
+            "score": 65,
+            "sourceCount": 1,
+            "date": "2026-08-13",
+            "publishedAt": "2026-08-13T04:15",
+            "reason": "Claude Cowork 会话的升级显著提升了多平台工作效率，值得关注其在团队协作和任务管理中的应用潜力。"
           },
           {
             "title": "Gemini月活跃用户突破10亿，成为谷歌增长最快的产品",
