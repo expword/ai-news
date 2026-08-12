@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-12",
+  "lastUpdated": "2026-08-13",
   "generatedAt": "2026-08-12T15:27:53.838249Z",
   "news": [
     {
@@ -14579,6 +14579,268 @@
   },
   "dailyReports": [
     {
+      "date": "2026-08-12",
+      "generatedAt": "2026-08-12T16:00:33.270162Z",
+      "total": 21,
+      "sections": [
+        {
+          "category": "ai-tools",
+          "label": "AI 工具",
+          "items": [
+            {
+              "title": "OpenAI 和 AWS 推出网络安全防御模型 Daybreak Red 和 Daybreak Blue",
+              "summary": "OpenAI 的网络安全防御模型 Daybreak Red 和 Daybreak Blue 现已在 Amazon Bedrock 上向符合条件的客户开放。这两个模型在芯片级别实施零操作员访问，确保代码和漏洞数据的安全性，提升了网络防御的效率和安全性。",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/accelerate-cyber-defense-with-openai-and-aws-daybreak-red-daybreak-blue-now-available-to-eligible-customers-on-amazon-bedrock/",
+              "score": 82,
+              "sourceCount": 2,
+              "date": "2026-08-12",
+              "publishedAt": "2026-08-12T05:38",
+              "reason": "这条信息展示了 OpenAI 在网络安全领域的最新进展，尤其是与 AWS 的合作，值得关注。"
+            },
+            {
+              "title": "Pixieset 利用 Amazon Bedrock 实现 35% AI 功能采用率",
+              "summary": "Pixieset 在短短四个月内，通过解决摄影师在图像 SEO 中的痛点，成功推出 AI 生成的替代文本功能，达成 35% 的用户采用率。这一功能自动化了摄影师通常回避的繁琐工作，同时不干扰他们的创作过程。",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/how-pixieset-achieved-35-ai-feature-adoption-by-solving-the-right-problem-with-amazon-bedrock/",
+              "score": 82,
+              "sourceCount": 1,
+              "date": "2026-08-12",
+              "publishedAt": "2026-08-12T00:11",
+              "reason": "Pixieset 的成功案例展示了如何通过解决用户痛点，实现 AI 技术的有效应用，值得关注。"
+            },
+            {
+              "title": "Gemini 助力 PostgreSQL 迁移，简化数据库转换",
+              "summary": "Google Cloud 的数据库迁移服务（DMS）引入了由 Gemini 驱动的 AI 辅助代码转换功能，能够高效将 Oracle 或 SQL Server 的存储过程、触发器和自定义函数转换为 PostgreSQL PL/pgSQL 代码。这一创新显著提升了数据库迁移的速度和",
+              "source": "Google Cloud：Databases（RSS）",
+              "url": "https://cloud.google.com/blog/products/databases/accelerate-postgresql-migrations-with-gemini-in-dms",
+              "score": 67,
+              "sourceCount": 1,
+              "date": "2026-08-12",
+              "publishedAt": "2026-08-12T00:00",
+              "reason": "Gemini 的引入为数据库迁移提供了高效、准确的解决方案，极大地简化了复杂的代码转换过程，值得关注。"
+            },
+            {
+              "title": "Google 推出 AMIE 医疗 AI 系统，首次实现实时视频问诊",
+              "summary": "我注意到 Google Research 和 Google DeepMind 联手推出的 AMIE 系统，首次在临床环境中实现了实时视频问诊。这一系统基于 Gemini 和 Project Astra 构建，能够解读视觉和听觉信息，进行虚拟体格检查并实时进行诊断。临床评估者对其病",
+              "source": "Google Blog：AI（RSS）",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations",
+              "score": 66,
+              "sourceCount": 1,
+              "date": "2026-08-12",
+              "publishedAt": "2026-08-12T01:00",
+              "reason": "这条信息展示了医疗 AI 在实际应用中的最新进展，特别是实时视频问诊的能力，值得关注。"
+            },
+            {
+              "title": "Gemini月活跃用户突破10亿，成为谷歌增长最快的产品",
+              "summary": "谷歌的Gemini应用每月吸引超过10亿用户，成为公司历史上增长最快的产品。这一里程碑标志着Gemini成为第14个达到10亿用户的产品，展示了其在激发创意和提高工作效率方面的强大能力。",
+              "source": "X：Sundar Pichai (@sundarpichai)",
+              "url": "https://x.com/sundarpichai/status/2087222656819241292",
+              "score": 65,
+              "sourceCount": 1,
+              "date": "2026-08-12",
+              "publishedAt": "2026-08-12T01:00",
+              "reason": "Gemini的快速增长和用户基础的扩大，展示了其在提升工作效率和激发创意方面的独特价值，值得关注。"
+            },
+            {
+              "title": "ChatGPT 桌面端新增智能体数据导入功能",
+              "summary": "ChatGPT 桌面应用现支持导入其他智能体的工作数据，包括项目、聊天记录、技能和插件，用户可选择自动更新功能。这一更新旨在提升工作效率，但也可能面临兼容性和数据安全等问题。",
+              "source": "X：OpenAI Developers (@OpenAIDevs)",
+              "url": "https://x.com/OpenAIDevs/status/2087242829076791392",
+              "score": 61,
+              "sourceCount": 1,
+              "date": "2026-08-12",
+              "publishedAt": "2026-08-12T02:20",
+              "reason": "这一更新为用户提供了更高效的工作方式，但在享受便利的同时，需关注潜在的兼容性和安全问题。"
+            }
+          ]
+        },
+        {
+          "category": "ai-coding",
+          "label": "AI 编程",
+          "items": [
+            {
+              "title": "First Orion 利用 Amazon Nova Act 加速 QA 自动化",
+              "summary": "我注意到 First Orion 作为一家品牌通信公司，成功从脆弱的脚本基础 UI 测试转向了基于 AI 的 QA 自动化，借助 Amazon Nova Act 实现了显著的效率提升。通过用简单的英语描述测试，而不是维护选择器基础的代码，他们缩短了 QA 周期，释放了工程师的工作",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/first-orion-accelerates-qa-automation-using-amazon-nova-act/",
+              "score": 82,
+              "sourceCount": 1,
+              "date": "2026-08-12",
+              "publishedAt": "2026-08-12T00:09",
+              "reason": "这篇文章展示了如何通过 AI 技术提升 QA 测试效率，值得关注和借鉴。"
+            },
+            {
+              "title": "深入分析 GitHub Copilot 的网络流量与架构",
+              "summary": "作者通过 mitmproxy 对 VS Code 中的 GitHub Copilot 进行中间人代理拦截，揭示了其网络流量和内部架构。文章指出，许多 AI 应用基于 Electron 构建，具有相似的网络栈，探测结果可迁移至其他同类应用。作者分享了配置代理的具体步骤，帮助读者理解",
+              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+              "url": "https://www.lighthousenewsletter.com/p/i-put-github-copilot-behind-a-mitm",
+              "score": 63,
+              "sourceCount": 1,
+              "date": "2026-08-12",
+              "publishedAt": "2026-08-12T02:32",
+              "reason": "这篇文章通过深入的技术分析，揭示了 GitHub Copilot 的内部机制，适合希望提升开发能力的技术人员阅读。"
+            },
+            {
+              "title": "Mojo 1.0 正式发布，助力开发者生态系统",
+              "summary": "Mojo 语言在经历了自 2023 年首次发布以来的快速发展后，正式推出 1.0 版本。这一版本为开发者提供了稳定的生产环境基础，吸引了近 200 名贡献者，合并了超过 1,100 个拉取请求，修改了超过 200,000 行代码，标志着其向通用语言的转变。",
+              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+              "url": "https://www.modular.com/blog/modular-26-5-mojo-1-0-is-here",
+              "score": 62,
+              "sourceCount": 1,
+              "date": "2026-08-12",
+              "publishedAt": "2026-08-12T03:52",
+              "reason": "Mojo 1.0 的发布为开发者提供了一个高性能的编程选择，值得关注和尝试。"
+            },
+            {
+              "title": "Apple Silicon 在 macOS 虚拟机中实现 LLM 推理加速",
+              "summary": "研究团队通过为 macOS 虚拟机构建进程级兼容层，使得 llama.cpp 能够利用更新的 Metal 内核。在 M1 Ultra 上，TinyLlama 1.1B 的提示处理速度提升 11.08 倍，token 生成速度提升 16.36 倍，接近裸机性能的 98%；Gemma",
+              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+              "url": "https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md",
+              "score": 61,
+              "sourceCount": 1,
+              "date": "2026-08-12",
+              "publishedAt": "2026-08-12T00:41",
+              "reason": "这一技术突破显著提升了 LLM 在 macOS 虚拟机中的性能，为开发者提供了更高效的工具，值得关注。"
+            }
+          ]
+        },
+        {
+          "category": "ai-models",
+          "label": "模型发布",
+          "items": [
+            {
+              "title": "ONESTRUCTION 利用 AWS GenAIIC 构建 Ishigaki-IDS 基础模型",
+              "summary": "ONESTRUCTION 在 AWS Generative AI Innovation Center 的技术指导下，成功构建了 Ishigaki-IDS，这是一款专为建筑和 BIM 工作流设计的基础模型。该案例展示了他们如何结合合成数据、三阶段训练管道和可验证奖励，在数据稀缺的领",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/how-onestruction-built-the-ishigaki-ids-foundation-model-with-aws-genaiic/",
+              "score": 78,
+              "sourceCount": 1,
+              "date": "2026-08-12",
+              "publishedAt": "2026-08-12T00:14",
+              "reason": "该案例展示了如何在数据稀缺的领域成功构建专业化基础模型，具有重要的行业参考价值。"
+            },
+            {
+              "title": "OpenAI 和 Google 聊天机器人均突破 10 亿用户大关",
+              "summary": "OpenAI 和 Google 的聊天机器人 ChatGPT 与 Gemini 分别在 8 月和 2 月达成月活用户超 10 亿的里程碑。OpenAI 在 8 月 6 日的博文中确认 ChatGPT 月活用户已超 10 亿，而 Google CEO 皮查伊则宣布 Gemini 成",
+              "source": "The Verge：AI（RSS）",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/978113/chatgpt-gemini-1-billion-users",
+              "score": 67,
+              "sourceCount": 1,
+              "date": "2026-08-12",
+              "publishedAt": "2026-08-12T03:41",
+              "reason": "这一事件标志着 AI 聊天工具的用户增长进入新阶段，值得关注其对市场的深远影响。"
+            },
+            {
+              "title": "AI 写作能力的反思：何时才能超越人类？",
+              "summary": "在完成一本关于 RLHF 的教科书后，作者反思了当前 AI 模型在长篇非虚构写作上的局限性。尽管 GPT 4.5 和 Kimi K2 等模型在某些任务上表现出色，但在组织和呈现复杂内容时仍显混乱，阻碍了它们在科学问题上的自主解决能力。",
+              "source": "Nathan Lambert：Interconnects（RSS）",
+              "url": "https://www.interconnects.ai/p/i-wrote-an-ai-textbook-how-long-until",
+              "score": 63,
+              "sourceCount": 1,
+              "date": "2026-08-12",
+              "publishedAt": "2026-08-12T21:01",
+              "reason": "这篇反思文章深入探讨了 AI 模型在写作能力上的不足，尤其是在科学领域的应用，值得关注。"
+            },
+            {
+              "title": "Meta 开源 Muse Glimmer 模型正式上线 OpenRouter",
+              "summary": "Meta AI 超级智能实验室推出的首个开放权重模型 Muse Glimmer 已在 OpenRouter 上线。这款 30B 密集文本与图像模型采用 Apache 2.0 许可证，旨在成为可靠的本地智能体，MCP Atlas 得分 75.5，SWE-Bench Pro 得分 5",
+              "source": "X：OpenRouter (@OpenRouter)",
+              "url": "https://x.com/OpenRouter/status/2087509478480765218",
+              "score": 62,
+              "sourceCount": 1,
+              "date": "2026-08-12",
+              "publishedAt": "2026-08-12T20:00",
+              "reason": "Muse Glimmer 的开放性和高性能使其成为开发多模态应用的理想选择，值得关注。"
+            },
+            {
+              "title": "LTX-2.5 模型发布：6.8 秒生成 10 秒 720P 视频",
+              "summary": "LTX 最新推出的 LTX-2.5 模型，结合 ComfyUI，能够在两张英伟达 GB200 显卡的支持下，仅需 6.8 秒便可生成 10 秒的 720P 视频。该模型的使用成本为每秒 0.09 美元，适合年收入低于 1,000 万美元的组织免费使用，具有较高的性价比。",
+              "source": "IT之家（RSS）",
+              "url": "https://www.ithome.com/0/988/766.htm",
+              "score": 62,
+              "sourceCount": 1,
+              "date": "2026-08-12",
+              "publishedAt": "2026-08-12T14:46",
+              "reason": "LTX-2.5 模型以其高效的生成速度和灵活的使用政策，特别适合小型企业和创作者，是视频内容制作的理想选择。"
+            }
+          ]
+        },
+        {
+          "category": "ai-research",
+          "label": "论文研究",
+          "items": [
+            {
+              "title": "AMIE 进阶：实现专家级音视频临床咨询",
+              "summary": "我注意到，Google 研究团队正在推进 AMIE 项目，旨在提升音视频临床咨询的质量。这个项目结合了最新的 AI 技术，能够帮助医生更高效地进行诊断和治疗。通过音视频的实时交互，医生可以更好地理解患者的情况，从而提供更精准的医疗建议。",
+              "source": "RSS · Google Research",
+              "url": "https://research.google/blog/advancing-amie-towards-expert-level-audio-visual-clinical-consultations/",
+              "score": 84,
+              "sourceCount": 1,
+              "date": "2026-08-12",
+              "publishedAt": "2026-08-12T01:04",
+              "reason": "AMIE 项目通过结合音视频技术与 AI，显著提升了医疗咨询的质量和效率，值得关注。"
+            },
+            {
+              "title": "闭环 LLM 辅助数字农业的应用研究",
+              "summary": "本研究探讨了大型语言模型（LLMs）在复杂生物系统中的应用，逐步从数据分析发展到自主的 AI 引导实验。该框架基于 49 通道植物传感器网络的数据，涵盖多光谱、电化学和介电模式。为提高可访问性，系统为专家和非专家提供实时自然语言解释。",
+              "source": "RSS · arXiv cs.AI",
+              "url": "https://arxiv.org/abs/2608.09949",
+              "score": 82,
+              "sourceCount": 1,
+              "date": "2026-08-12",
+              "publishedAt": "",
+              "reason": "该研究展示了 LLM 在农业领域的创新应用，具有重要的实用价值和研究意义。"
+            },
+            {
+              "title": "亚马逊自动推理组十年回顾：从学术研究到生产服务",
+              "summary": "亚马逊于2016年成立的自动推理组（ARG）在过去十年中，将数学逻辑从学术研究转变为处理数十亿查询的生产系统，确保AWS基础设施的数学正确性。该组的工具如Tiros和Zelkova演变为包括IAM Access Analyzer和Amazon Inspector等客户服务，数百万",
+              "source": "RSS · Amazon Science",
+              "url": "https://www.amazon.science/blog/a-decade-of-mathematical-certainty-reflections-on-the-automated-reasoning-group",
+              "score": 82,
+              "sourceCount": 1,
+              "date": "2026-08-12",
+              "publishedAt": "2026-08-12T00:22",
+              "reason": "这篇文章深入探讨了自动推理组如何将数学逻辑应用于实际生产环境，展示了其在云计算安全中的重要性。"
+            },
+            {
+              "title": "Google 推出 AMIE：实时临床视频咨询的医疗 AI 系统",
+              "summary": "这次发布的核心点是 Google 的 AMIE 系统在模拟环境中展示了实时临床视频咨询的能力。该系统基于多代理架构，能够解读视觉和听觉线索，进行虚拟体检，并实时进行诊断推理。尽管仍处于研究阶段，但 AMIE 为未来健康 AI 的发展提供了令人兴奋的前景。",
+              "source": "RSS · Google AI Blog",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/",
+              "score": 78,
+              "sourceCount": 1,
+              "date": "2026-08-12",
+              "publishedAt": "2026-08-12T01:00",
+              "reason": "AMIE 系统展示了医疗 AI 在实时视频咨询中的潜力，值得关注其未来的发展和应用。"
+            },
+            {
+              "title": "研究人员揭露OpenAI、Anthropic和Google等AI模型API漏洞",
+              "summary": "由Alexander Panfilov领导的研究团队发现，OpenAI、Anthropic和Google等主要AI提供商的API存在严重漏洞，允许读取模型的加密推理过程。通过对约7000条公开会话的扫描，研究人员发现62个API密钥、33个邮箱和33个密码，且通过越狱手段，Ant",
+              "source": "The Decoder：AI News（RSS）",
+              "url": "https://the-decoder.com/but-marinade-and-leaked-passwords-are-what-researchers-found-in-chatgpts-hidden-reasoning",
+              "score": 66,
+              "sourceCount": 1,
+              "date": "2026-08-12",
+              "publishedAt": "2026-08-12T01:38",
+              "reason": "这条信息揭示了AI模型API的安全隐患，值得关注以防止潜在的数据泄露风险。"
+            },
+            {
+              "title": "Ryan Greenblatt：2032年前人类级AI可能催生失控超级智能",
+              "summary": "在与Dwarkesh Patel的对话中，Redwood Research首席科学家Ryan Greenblatt探讨了递归自我改进（RSI）的潜力。他认为，一旦AI达到人类顶级专家的水平，可能在短短一年内实现相当于4-5年的进展，预计2031年将实现自动化AI研发。然而，这一进",
+              "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
+              "url": "https://www.dwarkesh.com/p/ryan-greenblatt",
+              "score": 66,
+              "sourceCount": 1,
+              "date": "2026-08-12",
+              "publishedAt": "2026-08-12T00:31",
+              "reason": "这次讨论揭示了递归自我改进对AI未来发展的深远影响，值得关注其潜在风险与伦理挑战。"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "date": "2026-08-11",
       "generatedAt": "2026-08-11T16:10:43.094632Z",
       "total": 5,
@@ -25342,7 +25604,7 @@
     }
   ],
   "llmLeaderboard": {
-    "updated": "2026-08-12",
+    "updated": "2026-08-13",
     "source": "ReLE 中文大模型能力评测（综合能力）",
     "sourceUrl": "https://github.com/jeinlee1991/chinese-llm-benchmark",
     "items": [
