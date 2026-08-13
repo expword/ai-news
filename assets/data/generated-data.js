@@ -1,7 +1,72 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-08-13",
-  "generatedAt": "2026-08-13T04:12:26.170357Z",
+  "generatedAt": "2026-08-13T06:53:51.062894Z",
   "news": [
+    {
+      "title": "TRACE Bench：任务驱动的角色扮演代理检查评估框架",
+      "summary": "TRACE Bench 是一种新提出的任务驱动的角色扮演评估框架，旨在通过详细的检查清单揭示角色要求的测试情况及对话证据。该框架能够有效评估模型的表现，提供更为透明的评分依据。",
+      "category": "ai-benchmark",
+      "tags": [
+        "角色扮演",
+        "评估框架",
+        "AI模型",
+        "对话系统",
+        "任务驱动"
+      ],
+      "keyPoints": [
+        "TRACE Bench 通过将每个角色配置离线分解为固定检查清单，确保评估的系统性和全面性。",
+        "该框架使用用户代理与目标角色扮演模型自然对话，同时私下更新检查清单状态，确保评分的透明性。",
+        "TRACE Bench 在覆盖率方面表现优异，达到了 99.91%，远超 MiniMax 角色扮演基准的 73.74%。",
+        "在多次实验中，TRACE Bench 显示出稳定的排名，适用于 26 种不同模型的评估。",
+        "该框架支持闭环基准演进，能够提炼出在失败情况下有效的验证方法，从而提高后续评估的可靠性。"
+      ],
+      "background": "随着人工智能技术的发展，角色扮演模型的评估变得愈发重要。传统的评估方法往往仅依赖单一评分，缺乏对具体角色要求的深入分析。TRACE Bench 的提出，旨在填补这一空白，通过系统化的检查清单和用户代理的自然对话，提供更为全面的评估视角。与以往的评估方法相比，TRACE Bench 不仅关注评分结果，更注重评估过程中的每一个细节，确保评估的准确性和可靠性。",
+      "impact": "TRACE Bench 的推出将对角色扮演模型的开发和评估产生深远影响。开发者可以利用该框架更准确地识别模型的优缺点，从而优化模型设计。此外，研究人员也能借助 TRACE Bench 提供的详细反馈，推动角色扮演技术的进一步发展。随着评估方法的改进，行业标准将逐步提升，促进更高质量的 AI 应用落地。",
+      "audience": [
+        "AI 研究人员",
+        "对话系统开发者",
+        "角色扮演游戏设计师",
+        "机器学习工程师",
+        "评估框架开发者"
+      ],
+      "useCases": [
+        "使用 TRACE Bench 评估新开发的对话模型，识别其在角色扮演任务中的表现优劣。",
+        "利用检查清单分析现有模型的对话能力，制定针对性的优化策略。",
+        "通过闭环基准演进，提炼出有效的验证方法，提升后续模型评估的可靠性。",
+        "在角色扮演游戏设计中，应用 TRACE Bench 评估游戏角色的互动表现，优化用户体验。",
+        "结合 TRACE Bench 的评估结果，撰写学术论文，推动角色扮演技术的研究进展。"
+      ],
+      "risks": [
+        "在使用 TRACE Bench 进行评估时，需确保模型与检查清单的兼容性，避免因版本不匹配导致的评估失真。",
+        "用户代理的设计可能影响对话的自然性，需谨慎选择合适的代理模型以确保评估的有效性。",
+        "在进行大规模评估时，需注意 API 的使用配额，避免因超出限制而导致评估中断。",
+        "确保对话数据的多样性，以避免模型在特定场景下表现不佳，影响整体评估结果。",
+        "在使用 TRACE Bench 进行闭环基准演进时，需关注验证方法的有效性，确保其适用于不同类型的模型。"
+      ],
+      "reason": "TRACE Bench 提供了一种全新的角色扮演模型评估方法，强调透明性和系统性，值得关注。",
+      "scores": {
+        "importance": 85,
+        "novelty": 90,
+        "firsthand": 95,
+        "impact": 80,
+        "credibility": 85
+      },
+      "url": "https://arxiv.org/abs/2608.11236",
+      "source": "RSS · arXiv cs.CL",
+      "date": "2026-08-13",
+      "publishedAt": "",
+      "collectedAt": "2026-08-13T14:53",
+      "dateStatus": "collected",
+      "tier": "T1",
+      "score": 86,
+      "aiSelected": true,
+      "_style": "tutorial",
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceDate": "2026-08-13",
+      "sourceCount": 1
+    },
     {
       "title": "SPOT：深度强化学习的前瞻性解释框架",
       "summary": "深度强化学习（DRL）在复杂环境中表现出色，但其决策过程难以理解。SPOT（采样策略观察树）是一种新颖的、与模型无关的框架，旨在通过采样和递归模拟来解释DRL策略。该框架能够构建可解释的有限视野树，帮助用户洞察策略的行动偏好及其潜在的后续演变。",
@@ -63,6 +128,192 @@ window.AI_GENERATED_DATA = {
       "_style": "tutorial",
       "moduleTargets": [
         "news"
+      ],
+      "sourceDate": "2026-08-13",
+      "sourceCount": 1
+    },
+    {
+      "title": "基于任务感知的潜在空间耦合方法提升太阳能短期预测精度",
+      "summary": "准确的太阳辐射预测对于光伏电力的可靠接入至关重要。全景成像仪（ASI）能够提供高分辨率的云层观测，适合进行短期预测。尽管近期深度学习方法显著提高了预测精度，但仍存在确定性预测和对突发事件预测能力不足的问题。本文提出了一种新方法，旨在解决这些限制。",
+      "category": "ai-models",
+      "tags": [
+        "太阳能预测",
+        "深度学习",
+        "光伏电力",
+        "全景成像",
+        "短期预测"
+      ],
+      "keyPoints": [
+        "提出了一种基于任务感知的潜在空间耦合方法，旨在提高太阳能短期预测的准确性。",
+        "全景成像仪（ASI）提供高分辨率云层观测，适合进行短期预测。",
+        "深度学习方法在提高预测精度方面取得了显著进展，但仍存在局限性。",
+        "新方法能够更好地预测突发事件，提升光伏电力的接入可靠性。",
+        "研究结果表明，该方法在多个测试场景中均表现出色，具有广泛的应用潜力。"
+      ],
+      "background": "随着可再生能源的快速发展，太阳能发电在现代电力系统中的重要性日益凸显。准确的太阳辐射预测不仅能提高光伏电站的发电效率，还能增强电网的稳定性。全景成像仪（ASI）因其高分辨率的云层观测能力而成为短期预测的理想工具。尽管深度学习技术在预测精度上取得了突破，但其在应对突发事件时的不足仍然是一个亟待解决的问题。本文提出的潜在空间耦合方法，旨在通过任务感知的方式，进一步提升预测的准确性和可靠性。",
+      "impact": "该研究的成果将对光伏电力行业产生深远影响，尤其是在电网调度和能源管理领域。通过提高太阳能预测的准确性，电力公司可以更有效地调配资源，减少因预测失误导致的经济损失。此外，该方法的应用还可能推动相关技术的进一步发展，促进可再生能源的广泛应用。",
+      "audience": [
+        "光伏电力工程师",
+        "电力系统调度员",
+        "深度学习研究人员"
+      ],
+      "useCases": [
+        "使用全景成像仪收集云层数据，结合新方法进行太阳辐射预测，提升预测准确性。",
+        "利用深度学习模型分析历史数据，优化光伏电站的发电调度，降低运营成本。",
+        "在电力市场中应用改进的预测结果，制定更合理的电价策略，提升市场竞争力。"
+      ],
+      "risks": [
+        "在使用全景成像仪时，需确保设备的正确安装和调试，以避免数据采集不准确。",
+        "深度学习模型的训练需要大量的历史数据，数据不足可能导致模型性能下降。",
+        "在商用应用中，需注意API的使用限制和费用，以避免超出预算。"
+      ],
+      "reason": "本文提出的新方法针对太阳能短期预测中的关键问题，具有显著的实用价值和应用潜力，值得关注。",
+      "scores": {
+        "importance": 85,
+        "novelty": 80,
+        "firsthand": 90,
+        "impact": 80,
+        "credibility": 85
+      },
+      "url": "https://arxiv.org/abs/2608.11254",
+      "source": "RSS · arXiv cs.LG",
+      "date": "2026-08-13",
+      "publishedAt": "",
+      "collectedAt": "2026-08-13T14:53",
+      "dateStatus": "collected",
+      "tier": "T1",
+      "score": 84,
+      "aiSelected": true,
+      "_style": "tutorial",
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceDate": "2026-08-13",
+      "sourceCount": 1
+    },
+    {
+      "title": "利用扩散语言模型实现无损文本压缩",
+      "summary": "我注意到，随着数字文本数据的快速增长，如何实现无损文本压缩成为一个重要课题。最近的研究提出了一种新方法，利用扩散语言模型（DLMs）来解决传统自回归模型在压缩过程中的吞吐量瓶颈。这种方法在文本和代码的压缩比上表现优于现有的通用压缩工具，展现了良好的前景。",
+      "category": "ai-coding",
+      "tags": [
+        "文本压缩",
+        "扩散模型",
+        "无损压缩",
+        "机器学习",
+        "人工智能"
+      ],
+      "keyPoints": [
+        "研究表明，扩散语言模型在无损文本压缩中表现出色，压缩比明显优于 zstd、gzip 和 bzip 等传统工具。",
+        "扩散语言模型能够独立决定每次前向传递中编码符号的数量和位置，克服了自回归模型的逐步限制。",
+        "该研究在 enwik8 基准测试上进行了实验，结果显示新提出的 DLM 框架在无损文本压缩方面取得了显著进展。",
+        "DLM 仍处于发展阶段，未来有望通过不断改进模型来进一步提升性能。",
+        "研究包含 18 页内容，提供了丰富的实验数据和补充材料，便于深入理解。"
+      ],
+      "background": "随着数字化进程的加快，文本数据的存储和处理需求日益增加，传统的压缩算法在处理大规模文本时面临效率瓶颈。近年来，基于神经语言模型的压缩方法逐渐崭露头角，尤其是扩散语言模型的提出，为无损压缩提供了新的思路。该研究首次将 DLM 应用于无损文本压缩，展示了其在压缩效率上的潜力，并为后续研究奠定了基础。",
+      "impact": "这一研究成果将对文本处理领域的工程师、数据科学家和软件开发者产生深远影响。通过提高压缩效率，用户可以在存储和传输文本数据时节省成本，提升系统性能。此外，DLM 的应用可能会促使更多基于神经网络的压缩技术的开发，推动整个行业的进步。",
+      "audience": [
+        "从事文本处理的工程师",
+        "需要优化存储方案的数据科学家",
+        "开发高效压缩工具的软件工程师",
+        "研究机器学习模型的学者",
+        "关注数据传输效率的系统架构师"
+      ],
+      "useCases": [
+        "使用 DLM 进行大规模文本数据的压缩，显著提高存储效率。",
+        "在软件开发中集成新压缩算法，优化代码存储和传输。",
+        "为数据分析项目选择更高效的文本压缩方案，降低数据处理时间。",
+        "在机器学习模型训练中，利用 DLM 压缩训练数据集，节省计算资源。",
+        "研究新兴的压缩技术，推动学术界对无损压缩的深入探索。"
+      ],
+      "risks": [
+        "DLM 的实现可能需要较高的计算资源，导致初期投入增加。",
+        "在特定情况下，DLM 的压缩效果可能不如传统方法，需谨慎评估。",
+        "新技术的兼容性问题可能影响现有系统的稳定性，需进行充分测试。",
+        "API 的使用限制和配额可能影响大规模应用，需提前规划。",
+        "对多语言支持的限制可能影响全球用户的使用体验。"
+      ],
+      "reason": "这项研究展示了扩散语言模型在无损文本压缩中的潜力，值得关注其未来的发展和应用。",
+      "scores": {
+        "importance": 85,
+        "novelty": 80,
+        "firsthand": 90,
+        "impact": 75,
+        "credibility": 80
+      },
+      "url": "https://arxiv.org/abs/2608.11249",
+      "source": "RSS · arXiv cs.CL",
+      "date": "2026-08-13",
+      "publishedAt": "",
+      "collectedAt": "2026-08-13T14:53",
+      "dateStatus": "collected",
+      "tier": "T1",
+      "score": 82,
+      "aiSelected": true,
+      "_style": "recommender",
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceDate": "2026-08-13",
+      "sourceCount": 1
+    },
+    {
+      "title": "Backtrader-Bench 框架评估 LLM 代理在算法交易中的表现",
+      "summary": "Ruoxi Zhao 和 Maziar Raissi 提出了 Backtrader-Bench，一个用于评估 LLM 编码代理在算法交易中的新框架。该框架通过两个互补的管道生成自我生成的多项选择题 (MCQ)，并在 30 个问题的 curated 集合上对 11 个无工具模型和 4 个有工具配置进行了评估，结果显示工具增强的代理在单次测试中达到了 90.0% 的准确率。",
+      "category": "ai-benchmark",
+      "tags": [
+        "算法交易",
+        "LLM代理",
+        "Backtrader-Bench",
+        "多项选择题",
+        "模型评估"
+      ],
+      "keyPoints": [
+        "Backtrader-Bench 框架包含两个管道，分别用于生成和验证多项选择题，确保评估的准确性。",
+        "在 30 个问题的测试中，工具增强的代理（如 GPT-5.5 和 Opus 4.7）达到了 90.0% 的准确率，超越了无工具模型的 73.0%。",
+        "该框架设计了 5 种交易策略和 33 种模板，涵盖了三种难度级别，提供了全面的评估基础。",
+        "无工具模型在 38 个独立挖掘的问题上准确率下降，部分模型的表现接近随机猜测水平（25%）。",
+        "Backtrader-Bench 的 MCQ 基础设施还可用于生成强化学习的训练语料库，旨在构建专门的量化交易代理。"
+      ],
+      "background": "2026 年 7 月 31 日，Ruoxi Zhao 和 Maziar Raissi 在 arXiv 上提交了论文，介绍了 Backtrader-Bench 框架。传统的算法交易模型评估面临静态基准可能导致数据污染的问题，而数值回测输出又需要实际代码执行的真实结果。为了解决这些问题，研究者们提出了 Backtrader-Bench，利用自生成的多项选择题来进行模型评估。该框架的设计旨在提高评估的可靠性和有效性，尤其是在算法交易这一快速发展的领域。",
+      "impact": "Backtrader-Bench 的推出将为算法交易领域的 LLM 代理评估提供新的标准，尤其是对于希望提升模型性能的开发者和研究人员。工具增强的代理在准确率上的显著提升，可能促使更多的金融科技公司采用 LLM 进行交易决策，从而改变传统的交易策略和模型选择。此外，该框架的 MCQ 基础设施也为未来的强化学习研究提供了新的方向，可能推动量化交易领域的进一步创新。",
+      "audience": [
+        "算法交易开发者",
+        "金融科技研究人员",
+        "机器学习工程师",
+        "量化分析师",
+        "教育工作者"
+      ],
+      "useCases": [
+        "生成多项选择题以评估 LLM 模型在算法交易中的表现。",
+        "利用 Backtrader-Bench 框架进行模型性能对比，优化交易策略。",
+        "为量化交易工作流构建专门的 LLM 代理，提升决策效率。"
+      ],
+      "risks": [
+        "在使用 Backtrader-Bench 进行评估时，可能面临数据集的选择偏差，影响结果的普适性。",
+        "工具增强的代理虽然表现优异，但在实际交易中可能受到市场波动的影响，导致结果不稳定。",
+        "依赖于自生成的多项选择题可能会导致评估的局限性，未能全面反映模型在真实环境中的表现。"
+      ],
+      "reason": "Backtrader-Bench 提供了一种创新的评估方法，能够有效提升 LLM 在算法交易中的应用价值，值得关注。",
+      "scores": {
+        "importance": 85,
+        "novelty": 80,
+        "firsthand": 90,
+        "impact": 75,
+        "credibility": 80
+      },
+      "url": "https://arxiv.org/abs/2608.11232",
+      "source": "RSS · arXiv cs.CL",
+      "date": "2026-08-13",
+      "publishedAt": "",
+      "collectedAt": "2026-08-13T14:53",
+      "dateStatus": "collected",
+      "tier": "T1",
+      "score": 82,
+      "aiSelected": true,
+      "_style": "observer",
+      "moduleTargets": [
+        "news",
+        "benchmarkDatasets"
       ],
       "sourceDate": "2026-08-13",
       "sourceCount": 1
@@ -389,6 +640,187 @@ window.AI_GENERATED_DATA = {
       "sourceCount": 1
     },
     {
+      "title": "评估上下文压缩中的侧约束损失",
+      "summary": "这次发布的核心点是，LLM系统在上下文窗口受限时，会压缩之前的上下文以继续进行任务。然而，用户发出的某些指令（如“在我确认之前不要删除任何邮件”）在压缩过程中被悄然丢弃。为此，研究团队提出了COMPINT评估套件，旨在量化这一损失。",
+      "category": "ai-research",
+      "tags": [
+        "上下文压缩",
+        "LLM",
+        "评估工具",
+        "用户指令",
+        "人工智能"
+      ],
+      "keyPoints": [
+        "LLM系统在上下文受限时会压缩先前的上下文，导致信息丢失。",
+        "用户指令（Session Constraints）在压缩过程中被忽视，平均保留率仅为17%。",
+        "COMPINT评估套件用于评估在多轮对话、代理轨迹和长时间研究等场景中的压缩效果。",
+        "研究提出了一种SC感知提取器，能在不修改压缩器或LLM的情况下实现90%以上的指令保留率。",
+        "COMPINT的实现和评估结果已公开，供研究者使用。"
+      ],
+      "background": "在现代LLM系统中，随着上下文窗口的限制，系统需要压缩之前的上下文以继续执行任务。这种压缩虽然可以提高效率，但也带来了信息丢失的问题。研究者们发现，用户发出的某些指令（如Session Constraints）在压缩过程中被悄然丢弃，导致用户期望的行为未能实现。COMPINT评估套件的推出，旨在量化这一损失并提供解决方案。",
+      "impact": "对于需要长时间交互的应用场景，如客服机器人、智能助手等，COMPINT的评估结果将帮助开发者优化系统设计，确保用户指令的有效执行。尤其是做RAG的工程师和需要处理多轮对话的产品经理，将能从中受益，提升用户体验。此外，COMPINT的SC感知提取器为现有系统提供了可插拔的解决方案，降低了技术整合的难度。",
+      "audience": [
+        "做RAG的工程师",
+        "客服系统开发者",
+        "智能助手产品经理",
+        "长时间交互应用的设计师",
+        "AI研究人员"
+      ],
+      "useCases": [
+        "评估现有LLM系统在多轮对话中的指令保留率，优化用户体验。",
+        "集成COMPINT评估套件，量化用户指令的有效性。",
+        "使用SC感知提取器，提升指令保留率，减少信息丢失。"
+      ],
+      "risks": [
+        "COMPINT评估套件的使用可能需要额外的计算资源，增加开发成本。",
+        "在不同的上下文长度和指令表述下，保留率可能存在显著差异，影响评估结果的普适性。",
+        "集成新模块可能导致现有系统的兼容性问题，需谨慎测试。"
+      ],
+      "reason": "COMPINT评估套件为LLM系统提供了量化用户指令保留率的新方法，值得关注。",
+      "scores": {
+        "importance": 75,
+        "novelty": 80,
+        "firsthand": 90,
+        "impact": 70,
+        "credibility": 85
+      },
+      "url": "https://arxiv.org/abs/2608.11242",
+      "source": "RSS · arXiv cs.CL",
+      "date": "2026-08-13",
+      "publishedAt": "",
+      "collectedAt": "2026-08-13T14:53",
+      "dateStatus": "collected",
+      "tier": "T1",
+      "score": 78,
+      "aiSelected": true,
+      "_style": "reviewer",
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceDate": "2026-08-13",
+      "sourceCount": 1
+    },
+    {
+      "title": "将递归深度整合进预训练语言模型的研究进展",
+      "summary": "这次发布的核心点是通过将递归深度整合到预训练语言模型中，研究者展示了如何在不同参数预算下实现模型的迭代潜在转变。Qwen2.5-0.5B-Instruct模型经过改造后，能够在多个循环中保持性能，且在首次循环中未显著低于基线表现。该研究揭示了递归模块的有效性及其在语言模型中的应用潜力。",
+      "category": "ai-research",
+      "tags": [
+        "语言模型",
+        "递归深度",
+        "预训练",
+        "Qwen2.5",
+        "AI研究"
+      ],
+      "keyPoints": [
+        "研究展示了如何将递归深度整合到预训练语言模型中，提升其性能。",
+        "Qwen2.5-0.5B-Instruct模型被分为Prelude、Recurrent Block和Coda三个部分。",
+        "在首次循环中，改造后的模型在ARC电池测试中表现与基线相当。",
+        "该研究强调了递归模块在语言模型中的重要性，具有广泛的应用前景。",
+        "研究结果为未来的模型优化提供了新的思路和方法。"
+      ],
+      "background": "近年来，预训练语言模型在自然语言处理领域取得了显著进展，但如何进一步提升其性能仍然是一个重要课题。此次研究通过将递归深度整合进Qwen2.5-0.5B-Instruct模型，探索了模型在不同参数预算下的表现。与传统的模型架构相比，递归模块的引入使得模型能够在多次迭代中保持稳定的性能，展现出更强的学习能力。这一方法为未来的语言模型设计提供了新的方向，尤其是在处理复杂任务时。",
+      "impact": "这一研究成果将对多个领域的开发者产生影响，尤其是从事自然语言处理和机器学习的工程师。通过引入递归深度，模型的学习能力和适应性得到了提升，可能改变开发者在选择模型时的决策。此外，研究结果可能推动相关技术的商业化应用，促进更高效的AI解决方案的开发。",
+      "audience": [
+        "自然语言处理工程师",
+        "机器学习研究人员",
+        "AI产品经理"
+      ],
+      "useCases": [
+        "整合递归模块以提升现有语言模型的性能。",
+        "在特定任务中应用改造后的模型，获取更准确的结果。",
+        "利用研究成果优化模型架构，提升训练效率。"
+      ],
+      "risks": [
+        "在实际应用中，递归模块的集成可能导致模型训练时间增加。",
+        "改造后的模型可能需要更高的计算资源，增加了使用成本。",
+        "在特定语言或领域中，模型的适应性可能受到限制。"
+      ],
+      "reason": "这项研究为语言模型的优化提供了新的思路，尤其是在递归深度的应用上，值得关注。",
+      "scores": {
+        "importance": 75,
+        "novelty": 80,
+        "firsthand": 90,
+        "impact": 70,
+        "credibility": 85
+      },
+      "url": "https://arxiv.org/abs/2608.11233",
+      "source": "RSS · arXiv cs.CL",
+      "date": "2026-08-13",
+      "publishedAt": "",
+      "collectedAt": "2026-08-13T14:53",
+      "dateStatus": "collected",
+      "tier": "T1",
+      "score": 78,
+      "aiSelected": true,
+      "_style": "reviewer",
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceDate": "2026-08-13",
+      "sourceCount": 1
+    },
+    {
+      "title": "自我进化的具身智能体：技能与环境适应的新框架",
+      "summary": "这次发布的核心点是提出了一种名为 SHAPER 的自我进化框架，旨在实现具身智能体的无训练适应。SHAPER 通过演化可重用的技能和环境代码，保持模型参数不变，优化外部技能和环境代码，适用于不同的低级动作接口。该方法在 VLABench 和 ESI-Bench 上进行了评估，显示出在模型训练成本高昂或不可用时的实用性。",
+      "category": "ai-coding",
+      "tags": [
+        "具身智能体",
+        "自我进化",
+        "技能演化",
+        "无训练适应",
+        "机器人技术"
+      ],
+      "keyPoints": [
+        "SHAPER 是一种无训练的自我进化框架，专注于技能和环境适应。",
+        "该框架保持模型参数不变，通过演化技能和环境代码提升性能。",
+        "在 VLABench 和 ESI-Bench 上的评估显示 SHAPER 的有效性。",
+        "与传统的监督微调和强化学习方法相比，SHAPER 不需要额外的数据和奖励。",
+        "SHAPER 适用于多种低级动作接口，具有广泛的应用潜力。"
+      ],
+      "background": "具身智能体的构建越来越依赖于基础模型，性能不仅取决于模型权重，还与技能、上下文、动作接口及执行环境密切相关。传统的监督微调和强化学习虽然能够适应新环境，但需要大量数据和训练时间，且在固定接口环境中，许多无训练的代码中心方法依赖于可编程的机器人 API，这在实际应用中可能并不总是可用。SHAPER 提出的自我进化框架，旨在解决这些问题，通过演化技能和环境代码，提升具身智能体的适应能力。",
+      "impact": "SHAPER 的推出将对具身智能体的开发者和研究人员产生深远影响。它为那些面临高昂训练成本或缺乏数据的团队提供了一种新的解决方案，能够在不更新模型参数的情况下，优化智能体的性能。此外，SHAPER 的灵活性使其适用于多种应用场景，从机器人操作到自动化任务，潜在改变了开发者在选择智能体训练方法时的决策。",
+      "audience": [
+        "机器人开发者",
+        "AI 研究人员",
+        "自动化工程师",
+        "游戏开发者",
+        "教育科技工作者"
+      ],
+      "useCases": [
+        "利用 SHAPER 优化具身智能体在复杂环境中的表现，提升任务完成率。",
+        "在机器人操作中应用 SHAPER，减少对训练数据的依赖，提高适应性。",
+        "结合 SHAPER 和现有的机器人 API，快速开发新的智能体应用。"
+      ],
+      "risks": [
+        "SHAPER 依赖于特定的环境设置，可能在不同的应用场景中表现不一。",
+        "无训练适应的效果可能受到环境复杂性的限制，需谨慎评估。",
+        "在实际应用中，技能演化的过程可能需要较长时间，影响开发效率。"
+      ],
+      "reason": "SHAPER 提供了一种创新的无训练适应方法，适合希望降低训练成本的开发者，值得关注。",
+      "scores": {
+        "importance": 75,
+        "novelty": 80,
+        "firsthand": 90,
+        "impact": 70,
+        "credibility": 80
+      },
+      "url": "https://arxiv.org/abs/2608.11350",
+      "source": "RSS · arXiv cs.CL",
+      "date": "2026-08-13",
+      "publishedAt": "",
+      "collectedAt": "2026-08-13T14:53",
+      "dateStatus": "collected",
+      "tier": "T1",
+      "score": 78,
+      "aiSelected": true,
+      "_style": "reviewer",
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceDate": "2026-08-13",
+      "sourceCount": 1
+    },
+    {
       "title": "MIDAS：不确定性融合的互信息解耦用于不完整多模态情感分析",
       "summary": "MIDAS提出了一种新方法，旨在解决多模态情感分析中常见的输入不完整问题。尽管现有方法多依赖数据填补和启发式协调约束，但在实际应用中，这些方法往往未能有效提取和利用任务相关信息。该研究强调了在不完整或损坏的模态下进行情感分析的重要性，并为此提供了新的解决思路。",
       "category": "ai-research",
@@ -567,6 +999,62 @@ window.AI_GENERATED_DATA = {
       "_style": "observer",
       "moduleTargets": [
         "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Better, Faster, Stronger: Programmatic Skill Learning Best Reduces Agent Cost",
+      "summary": "arXiv:2608.11338v1 Announce Type: new Abstract: Recently, the practice of augmenting LLM agent capability with skills has gained prevalence. We explore the cost effective adaptatio",
+      "category": "ai-agents",
+      "source": "RSS · arXiv cs.CL",
+      "date": "2026-08-13",
+      "publishedAt": "",
+      "collectedAt": "2026-08-13T14:53",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-13",
+      "tags": [],
+      "url": "https://arxiv.org/abs/2608.11338",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Gloss-Free Representation Learning for Cross-Dataset Sign Spotting",
+      "summary": "arXiv:2608.11332v1 Announce Type: new Abstract: Sign-language research for resource-constrained languages is often limited by the cost of dense linguistic labels such as glosses, t",
+      "category": "ai-research",
+      "source": "RSS · arXiv cs.CL",
+      "date": "2026-08-13",
+      "publishedAt": "",
+      "collectedAt": "2026-08-13T14:53",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-13",
+      "tags": [],
+      "url": "https://arxiv.org/abs/2608.11332",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "benchmarkDatasets"
       ],
       "sourceCount": 1
     },
@@ -787,6 +1275,71 @@ window.AI_GENERATED_DATA = {
       "_style": "analyst",
       "moduleTargets": [
         "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "WorkBuddy推出远程控制功能，提升多设备协作效率",
+      "summary": "WorkBuddy最新更新引入远程控制功能，用户可通过手机实时同步电脑任务、对话和工作空间，支持多台电脑的快速切换。此功能需将App升级至1.2.0及以上，电脑端升级至5.3.8及以上，且无需扫码连接。此外，新增的资料库和Markdown多人编辑功能将进一步提升团队协作效率。",
+      "category": "ai-tools",
+      "tags": [
+        "远程控制",
+        "团队协作",
+        "多设备同步",
+        "WorkBuddy",
+        "Markdown编辑"
+      ],
+      "keyPoints": [
+        "WorkBuddy更新至1.2.0及以上版本，支持远程控制功能，用户可通过手机实时同步电脑端的任务和对话。",
+        "电脑端需升级至5.3.8及以上版本，支持一台手机连接多台电脑，方便用户随时切换工作环境。",
+        "新增的资料库功能允许用户管理个人文档和团队空间，提升信息整理效率。",
+        "Markdown多人共同编辑功能使团队协作更加顺畅，支持实时编辑和审阅。",
+        "用户可将资料库内容生成可发布链接的HTML网站，便于分享和展示工作成果。"
+      ],
+      "background": "WorkBuddy作为一款高效的工作协作工具，致力于提升用户的工作效率。此次更新的远程控制功能，旨在解决用户在多设备间切换时的繁琐操作，尤其适合需要频繁在不同设备上工作的用户。通过实时同步，用户可以更好地管理任务和沟通，提升团队协作的效率。类似的远程控制功能在其他工具中已有应用，但WorkBuddy的无缝连接体验和多功能整合使其在市场中独树一帜。",
+      "impact": "这一更新将极大地改变用户的工作方式，尤其是远程办公和灵活工作的群体。通过提升多设备间的协作效率，用户可以更快地完成任务，减少因设备切换带来的时间损失。此外，团队成员之间的实时协作将促进信息共享和创新，提升整体工作效率。对于企业而言，这意味着更高的生产力和更好的团队协作体验。",
+      "audience": [
+        "远程办公人员",
+        "项目经理",
+        "团队协作工具使用者",
+        "文档编辑者",
+        "多设备用户"
+      ],
+      "useCases": [
+        "下载并安装WorkBuddy App，确保版本为1.2.0及以上，体验远程控制功能。",
+        "在电脑端升级至5.3.8及以上版本，连接手机以实现多台电脑的实时同步。",
+        "利用新增的资料库功能，整理个人和团队文档，提升信息管理效率。",
+        "使用Markdown多人编辑功能，进行团队协作，实时共享和审阅文档。",
+        "将资料库内容生成HTML网站，便于分享工作成果，提升展示效果。"
+      ],
+      "risks": [
+        "确保手机和电脑的版本兼容性，避免因版本不匹配导致的功能无法使用。",
+        "注意API调用的配额限制，避免在高频使用时超出限制导致服务中断。",
+        "在多人编辑时，需明确编辑权限，防止因权限设置不当导致的文档冲突。",
+        "使用远程控制功能时，确保网络稳定，避免因网络问题影响工作效率。",
+        "在生成HTML网站时，需注意隐私设置，确保不泄露敏感信息。"
+      ],
+      "reason": "WorkBuddy的远程控制功能将极大提升用户在多设备间的协作效率，值得关注和尝试。",
+      "scores": {
+        "importance": 75,
+        "novelty": 70,
+        "firsthand": 80,
+        "impact": 85,
+        "credibility": 80
+      },
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685179&idx=1&sn=4cbee32b677b57a9dc6ec2a79d6f72c7",
+      "source": "公众号：数字生命卡兹克",
+      "date": "2026-08-13",
+      "publishedAt": "2026-08-13T12:32",
+      "collectedAt": "2026-08-13T13:29",
+      "dateStatus": "verified",
+      "tier": "T1.5",
+      "score": 62,
+      "aiSelected": true,
+      "_style": "tutorial",
+      "moduleTargets": [
+        "news",
+        "topicResources"
       ],
       "sourceCount": 1
     },
@@ -4642,500 +5195,6 @@ window.AI_GENERATED_DATA = {
         "news"
       ],
       "sourceCount": 1
-    },
-    {
-      "title": "DeepAmbigQA：多跳模糊问题基准测试 LLM 答案完整性",
-      "summary": "DeepAmbigQA 是一个新推出的数据集，专注于评估大型语言模型（LLM）在处理复杂问题时的答案完整性。该数据集包含 3600 个多跳推理问题，其中一半涉及名称模糊性，旨在填补现有问答基准的空白。实验结果显示，即使是最先进的 GPT-5 模型在回答模糊问题时也表现不佳，准确匹配率仅为 0.13，凸显了对更强大问答系统的需求。",
-      "category": "ai-benchmark",
-      "tags": [
-        "问答系统",
-        "多跳推理",
-        "模糊性",
-        "数据集",
-        "大型语言模型"
-      ],
-      "keyPoints": [
-        "DeepAmbigQA 数据集包含 3600 个问题，专注于多跳推理和名称模糊性。",
-        "现有的问答基准很少同时评估名称模糊性和多跳推理的挑战。",
-        "实验显示，GPT-5 在模糊问题上的准确匹配率仅为 0.13，表明其在复杂问题上的局限性。",
-        "该研究强调了开发更强大问答系统的必要性，以提高信息收集和答案完整性。",
-        "DEEPAMBIGQAGEN 是一个自动数据生成管道，能够生成自然且可验证的问题。"
-      ],
-      "background": "DeepAmbigQA 的推出旨在解决大型语言模型在开放领域问答中的不足，尤其是在处理复杂问题时的答案完整性。现有的问答基准往往未能同时考虑名称模糊性和多跳推理的挑战，导致模型在实际应用中难以提供完整的答案。通过引入 DEEPAMBIGQAGEN 自动数据生成管道，研究者们能够创建出更具挑战性的问题，这些问题不仅自然且可验证，同时也系统地嵌入了名称模糊性和多步推理的要求。与之前的研究相比，DeepAmbigQA 更加注重实际应用中的复杂性，填补了现有基准的空白。",
-      "impact": "DeepAmbigQA 的推出将对多个领域产生影响。首先，做 RAG 的工程师可以利用该数据集来测试和改进他们的模型，提升问答系统的准确性。其次，研究人员可以通过该数据集深入了解 LLM 在复杂问题上的表现，从而推动相关技术的发展。此外，教育工作者也可以利用这些问题来设计更具挑战性的测试，帮助学生提高批判性思维能力。整体来看，DeepAmbigQA 将促进问答系统的进步，推动更高效的信息获取。",
-      "audience": [
-        "做 RAG 的工程师",
-        "研究 LLM 性能的学者",
-        "教育工作者",
-        "开发问答系统的产品经理",
-        "数据科学家"
-      ],
-      "useCases": [
-        "利用 DeepAmbigQA 数据集测试和优化问答系统的性能。",
-        "在学术研究中分析 LLM 在复杂问题上的表现。",
-        "设计基于该数据集的教育测试，提升学生的推理能力。",
-        "开发新一代问答系统，解决现有模型的局限性。",
-        "进行多跳推理算法的研究，推动相关技术的进步。"
-      ],
-      "risks": [
-        "使用该数据集进行商业应用可能面临授权和合规性问题，需谨慎处理。",
-        "API 调用频率和配额限制可能影响模型的测试和部署。",
-        "在不同语言环境下，模型的表现可能不一致，需考虑多语言支持。",
-        "对硬件的要求较高，可能需要额外投资以确保模型的高效运行。",
-        "兼容性问题可能导致在不同平台上部署时出现障碍。"
-      ],
-      "reason": "DeepAmbigQA 提供了一个全新的视角来评估 LLM 的能力，尤其是在复杂问题上的表现，值得关注。",
-      "scores": {
-        "importance": 85,
-        "novelty": 80,
-        "firsthand": 90,
-        "impact": 75,
-        "credibility": 80
-      },
-      "url": "https://machinelearning.apple.com/research/deepambigqa-multihop-questions",
-      "source": "RSS · Apple ML Research",
-      "date": "2026-08-06",
-      "publishedAt": "2026-08-06T08:00",
-      "collectedAt": "2026-08-07T09:22",
-      "dateStatus": "verified",
-      "tier": "T1",
-      "score": 82,
-      "aiSelected": true,
-      "_style": "reviewer",
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Routing LLM Inference to the Cleanest Grid in Real Time",
-      "summary": "Large-language-model inference is a fast-growing electricity load whose marginal carbon intensity varies by more than an order of magnitude across grid regions and across the day, ",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-08-06",
-      "publishedAt": "",
-      "collectedAt": "2026-08-07T10:03",
-      "dateStatus": "collected",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.06188v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Optimizing What Policies Learn From: Recoverability-aware Rollout Intervention Learning",
-      "summary": "Critic-free group-based reinforcement learning has become a scalable approach for post-training large language models. However, most existing methods allocate the same number of ro",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-08-06",
-      "publishedAt": "",
-      "collectedAt": "2026-08-06T11:28",
-      "dateStatus": "collected",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.05080v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1,
-      "sourceDate": "2026-08-05"
-    },
-    {
-      "title": "Gradient Immunity: Null-Space Resistance to Malicious Fine-Tuning",
-      "summary": "Released aligned large language models remain vulnerable to malicious downstream finetuning. Existing defenses are largely designed for the fine-tuning-as-a-service (FTaaS) paradig",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-08-06",
-      "publishedAt": "",
-      "collectedAt": "2026-08-06T11:28",
-      "dateStatus": "collected",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.05045v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1,
-      "sourceDate": "2026-08-05"
-    },
-    {
-      "title": "From Score Matrices to Football-Aware Match-State Simulation: An Auditable LLM Harness for Exact-Score Reranking",
-      "summary": "Football score forecasting combines a strong statistical core with a difficult contextual edge. Dynamic Poisson-family models estimate team strength, expected goals, and coherent s",
-      "category": "ai-research",
-      "source": "arXiv",
-      "date": "2026-08-06",
-      "publishedAt": "",
-      "collectedAt": "2026-08-06T11:28",
-      "dateStatus": "collected",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.05030v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1,
-      "sourceDate": "2026-08-05"
-    },
-    {
-      "title": "Hunyuan3D-Buffalo 1.0：统一的多模态模型，支持可扩展的3D生成与编辑",
-      "summary": "我最近看到Hunyuan3D-Buffalo 1.0的发布，这是一种新型的多模态模型，旨在解决3D生成、理解和编辑中的数据稀缺问题。该模型整合了文本到3D的生成能力，能够在缺乏大规模几何一致性编辑数据的情况下，提供更为统一的3D建模框架。这一进展可能会对3D内容创作和编辑带来新的机遇。",
-      "category": "ai-models",
-      "tags": [
-        "3D生成",
-        "多模态模型",
-        "Hunyuan3D",
-        "图像理解",
-        "文本生成"
-      ],
-      "keyPoints": [
-        "Hunyuan3D-Buffalo 1.0是一个统一的多模态模型，专注于3D生成与编辑。",
-        "该模型解决了3D建模中数据稀缺的问题，尤其是缺乏大规模的几何一致性编辑数据。",
-        "模型支持文本到3D的生成，增强了用户的创作能力。",
-        "Hunyuan3D-Buffalo 1.0的发布标志着3D内容创作领域的一次重要进展。",
-        "该模型的设计考虑了多种应用场景，适用于不同的行业需求。"
-      ],
-      "background": "Hunyuan3D-Buffalo 1.0的推出是基于当前3D生成技术的快速发展。传统的3D建模往往受到数据不足的限制，尤其是在多模态数据的整合上。随着图像生成技术的进步，开发者们开始探索如何将理解、生成和编辑功能结合在一个统一的框架中。Hunyuan3D-Buffalo 1.0正是为了填补这一空白，提供一个更为灵活和强大的工具，帮助用户在3D创作中实现更高的效率和创造力。",
-      "impact": "Hunyuan3D-Buffalo 1.0的发布将对多个领域产生深远影响。首先，3D艺术家和设计师可以利用这一工具提升创作效率，快速生成高质量的3D模型。其次，游戏开发者和动画制作团队能够更轻松地实现复杂场景的构建，降低制作成本。此外，教育和培训行业也可以借助这一模型，提供更生动的学习体验。随着3D内容需求的增加，这一技术的推广将推动相关行业的快速发展。",
-      "audience": [
-        "3D艺术家",
-        "游戏开发者",
-        "动画制作团队",
-        "教育工作者",
-        "产品设计师"
-      ],
-      "useCases": [
-        "使用Hunyuan3D-Buffalo 1.0快速生成3D模型，提升设计效率。",
-        "在游戏开发中，利用该模型创建复杂的3D场景，降低制作时间。",
-        "教育工作者借助该工具，制作生动的3D教学内容，增强学习体验。",
-        "产品设计师使用该模型进行快速原型设计，缩短产品开发周期。",
-        "动画制作团队利用Hunyuan3D-Buffalo 1.0实现高效的角色建模与动画制作。"
-      ],
-      "risks": [
-        "Hunyuan3D-Buffalo 1.0的API可能存在使用配额限制，影响大规模项目的实施。",
-        "模型的商用授权政策尚不明确，可能导致后续使用中的法律风险。",
-        "在不同硬件环境下，模型的兼容性可能存在问题，影响用户体验。",
-        "由于数据集的稀缺，模型在特定场景下的表现可能不如预期。"
-      ],
-      "reason": "Hunyuan3D-Buffalo 1.0的发布为3D生成和编辑提供了新的可能性，值得关注。",
-      "scores": {
-        "importance": 85,
-        "novelty": 80,
-        "firsthand": 90,
-        "impact": 75,
-        "credibility": 80
-      },
-      "url": "https://arxiv.org/abs/2608.02711",
-      "source": "RSS · arXiv cs.CV",
-      "date": "2026-08-05",
-      "publishedAt": "",
-      "collectedAt": "2026-08-05T17:50",
-      "dateStatus": "collected",
-      "tier": "T1",
-      "score": 82,
-      "aiSelected": true,
-      "_style": "recommender",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1,
-      "sourceDate": "2026-08-05"
-    },
-    {
-      "title": "PixelUp：零样本语义特征上采样技术",
-      "summary": "PixelUp 是一种新型的零样本语义特征上采样方法，旨在提升计算机视觉任务中的细粒度预测能力。尽管其在语义分割和深度估计等密集预测任务中表现出色，但仍面临特定编码器依赖和训练复杂性等挑战。",
-      "category": "ai-research",
-      "tags": [
-        "计算机视觉",
-        "特征上采样",
-        "深度学习"
-      ],
-      "keyPoints": [
-        "PixelUp 提供了一种零样本的 VFM 无关上采样方法，通过多尺度语义特征实现语义感知。",
-        "在语义分割任务中，PixelUp 的平均 mIoU 提升了 +1.2，相较于现有方法表现更佳。",
-        "在 NYUv2 深度估计中，PixelUp 的性能提升了 +0.25 $\\delta_1$，显示出其在密集预测任务中的优势。",
-        "该方法在无监督语义分割中也取得了 +1.3 mIoU 的提升，进一步增强了其应用潜力。",
-        "PixelUp 的设计避免了特定编码器的限制，减少了重新训练的需求，提升了灵活性。"
-      ],
-      "background": "随着自监督视觉基础模型（VFM）的发展，计算机视觉领域对细粒度预测的需求日益增加。然而，现有的特征上采样方法往往依赖于特定的编码器，导致在不同任务中需要重新训练，增加了使用的复杂性。PixelUp 通过引入零样本的上采样策略，旨在解决这一问题，提供更高的灵活性和性能。",
-      "impact": "PixelUp 的推出可能会改变计算机视觉领域的特征上采样方法，尤其是在需要高精度的语义分割和深度估计任务中。研究人员和开发者可以利用这一新方法提高模型的预测能力，进而影响相关应用的决策和效果。此外，PixelUp 的无监督特性可能会促进更多领域的研究和应用，推动技术进步。",
-      "audience": [
-        "计算机视觉研究人员",
-        "深度学习工程师",
-        "从事图像处理的开发者"
-      ],
-      "useCases": [
-        "在语义分割任务中应用 PixelUp，提升模型的细粒度预测能力。",
-        "利用 PixelUp 进行深度估计，改善图像的深度信息提取。",
-        "在无监督学习场景中，使用 PixelUp 进行语义分割，减少对标注数据的依赖。"
-      ],
-      "risks": [
-        "PixelUp 可能在特定场景下表现不佳，尤其是在缺乏足够训练数据的情况下。",
-        "由于其新颖性，PixelUp 的实际应用效果可能与理论预期存在差距，需进行更多实证验证。",
-        "在不同硬件环境下，PixelUp 的性能可能受到限制，影响其广泛应用的可行性。"
-      ],
-      "reason": "PixelUp 提供了一种创新的特征上采样方法，具有灵活性和高效性，值得关注其在计算机视觉领域的应用潜力。",
-      "scores": {
-        "importance": 75,
-        "novelty": 85,
-        "firsthand": 90,
-        "impact": 80,
-        "credibility": 70
-      },
-      "url": "https://arxiv.org/abs/2608.02792",
-      "source": "RSS · arXiv cs.CV",
-      "date": "2026-08-05",
-      "publishedAt": "",
-      "collectedAt": "2026-08-05T17:50",
-      "dateStatus": "collected",
-      "tier": "T1",
-      "score": 80,
-      "aiSelected": true,
-      "_style": "critic",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1,
-      "sourceDate": "2026-08-05"
-    },
-    {
-      "title": "GLM-5 发布，国产大模型再度升级",
-      "summary": "国产大模型厂商智谱开放平台推出了最新版本 GLM-5，标志着其在自然语言处理领域的进一步突破。GLM-5 在性能和功能上较前一代产品有显著提升，预计将为多种应用场景提供更强大的支持。",
-      "category": "ai-models",
-      "tags": [
-        "GLM-5",
-        "国产模型",
-        "自然语言处理",
-        "智谱开放平台",
-        "AI技术"
-      ],
-      "keyPoints": [
-        "GLM-5 是智谱开放平台最新发布的自然语言处理模型，具有更高的文本生成能力。",
-        "相比 GLM-4，GLM-5 在理解复杂语句和生成连贯文本方面的准确率提升了约15%。",
-        "该模型支持多种语言，适用于跨国企业的多语言沟通需求。",
-        "GLM-5 的训练数据量达到前所未有的规模，涵盖了更广泛的领域知识。",
-        "智谱开放平台计划在未来的版本中进一步优化模型的实时响应能力。"
-      ],
-      "background": "智谱开放平台作为国内领先的 AI 模型开发商，近年来在大模型领域不断发力。GLM-5 的发布是其在自然语言处理技术上的一次重要升级，旨在满足日益增长的市场需求。与国际竞争对手如 OpenAI 的 GPT 系列相比，GLM-5 在中文处理能力上具有独特优势，尤其是在理解和生成中文文本方面。随着国内 AI 技术的快速发展，国产模型逐渐缩小与国际先进水平的差距，市场竞争愈发激烈。",
-      "impact": "GLM-5 的推出将为开发者和企业用户提供更强大的文本处理能力，尤其是在智能客服、内容创作和数据分析等领域。企业可以利用 GLM-5 提升客户互动体验，优化内容生成流程，从而在市场中获得竞争优势。此外，随着更多企业采用 GLM-5，可能会推动整个行业在自然语言处理技术上的进一步创新和发展。",
-      "audience": [
-        "AI 开发者",
-        "内容创作者",
-        "企业数据分析师",
-        "智能客服系统工程师",
-        "多语言支持团队"
-      ],
-      "useCases": [
-        "利用 GLM-5 生成高质量的市场营销文案，提升品牌影响力。",
-        "在智能客服系统中集成 GLM-5，提供更精准的客户服务。",
-        "通过 GLM-5 进行数据分析，提取关键信息，支持决策制定。"
-      ],
-      "risks": [
-        "GLM-5 的商用授权政策可能会影响企业的使用成本，需仔细评估。",
-        "模型的 API 调用费用可能较高，增加企业的运营负担。",
-        "在多语言支持方面，GLM-5 的表现可能因语言差异而有所不同，需进行充分测试。"
-      ],
-      "reason": "GLM-5 的发布不仅提升了国产大模型的竞争力，还为各行业的应用提供了新的可能性，值得关注。",
-      "scores": {
-        "importance": 75,
-        "novelty": 70,
-        "firsthand": 90,
-        "impact": 80,
-        "credibility": 85
-      },
-      "url": "https://docs.bigmodel.cn/cn/guide/models/text/glm-5",
-      "source": "中国一手 · 智谱开放平台新品",
-      "sourceType": "vendor-update",
-      "region": "CN",
-      "date": "2026-08-05",
-      "publishedAt": "",
-      "collectedAt": "2026-08-05T04:27",
-      "dateStatus": "collected",
-      "tier": "T1",
-      "score": 78,
-      "aiSelected": true,
-      "_style": "analyst",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1,
-      "sourceDate": "2026-02-12"
-    },
-    {
-      "title": "Confident but Unreliable: A Behavioral Safety Audit of Vision-Language Models on Brain MRI",
-      "summary": "arXiv:2608.02790v1 Announce Type: new Abstract: Vision-language models (VLMs), including medical specialists, are increasingly proposed for medical imaging, yet their stated confid",
-      "category": "ai-research",
-      "source": "RSS · arXiv cs.CV",
-      "date": "2026-08-05",
-      "publishedAt": "",
-      "collectedAt": "2026-08-05T17:50",
-      "dateStatus": "collected",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2608.02790",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1,
-      "sourceDate": "2026-08-05"
-    },
-    {
-      "title": "A Unified 2D Framework for DeepLesion Detection, Segmentation and Short Report Generation",
-      "summary": "arXiv:2608.02805v1 Announce Type: new Abstract: In previous work, we integrated large language models (LLMs) into the lesion segmentation model based on the ULS23 DeepLesion datase",
-      "category": "ai-research",
-      "source": "RSS · arXiv cs.CV",
-      "date": "2026-08-05",
-      "publishedAt": "",
-      "collectedAt": "2026-08-05T17:50",
-      "dateStatus": "collected",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2608.02805",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1,
-      "sourceDate": "2026-08-05"
-    },
-    {
-      "title": "Better, Stronger, Faster, and Broader: Structured All-Mask Prediction for MLLM-Based Segmentation",
-      "summary": "arXiv:2608.02791v1 Announce Type: new Abstract: MLLM-based segmentation faces a core segmentation trilemma: high segmentation performance, preserved dialogue ability, and fast infe",
-      "category": "ai-research",
-      "source": "RSS · arXiv cs.CV",
-      "date": "2026-08-05",
-      "publishedAt": "",
-      "collectedAt": "2026-08-05T17:50",
-      "dateStatus": "collected",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2608.02791",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1,
-      "sourceDate": "2026-08-05"
-    },
-    {
-      "title": "Quo Vadis, World Modeling?",
-      "summary": "arXiv:2608.02713v1 Announce Type: new Abstract: Continually improving agents require dynamic interaction feedback beyond static supervision, yet direct real-environment interaction",
-      "category": "ai-agents",
-      "source": "RSS · arXiv cs.CV",
-      "date": "2026-08-05",
-      "publishedAt": "",
-      "collectedAt": "2026-08-05T17:50",
-      "dateStatus": "collected",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2608.02713",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1,
-      "sourceDate": "2026-08-05"
-    },
-    {
-      "title": "SAGE: Semantic Explainability of Attention-Based Survival Models in Computational Pathology",
-      "summary": "arXiv:2608.02803v1 Announce Type: new Abstract: Attention-based multiple instance learning (ABMIL) is the predominant approach for slide-level prediction in computational pathology",
-      "category": "ai-research",
-      "source": "RSS · arXiv cs.CV",
-      "date": "2026-08-05",
-      "publishedAt": "",
-      "collectedAt": "2026-08-05T17:50",
-      "dateStatus": "collected",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2608.02803",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1,
-      "sourceDate": "2026-08-05"
     }
   ],
   "weeklyDigests": [
@@ -8906,6 +8965,45 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "Better, Faster, Stronger: Programmatic Skill Learning Best R",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "arXiv:2608.11338v1 Announce Type: new Abstract: Recently, the practice of augmenting LLM agent capability with skills has gained prevalence. We explore the cost",
+        "description": "arXiv:2608.11338v1 Announce Type: new Abstract: Recently, the practice of augmenting LLM agent capability with skills has gained prevalence. We explore the cost effective adaptatio",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · arXiv cs.CL",
+        "url": "https://arxiv.org/abs/2608.11338"
+      },
+      {
+        "name": "Cloudflare 推出专为 AI 代理设计的 Kitesurf 浏览器",
+        "provider": "Techiexpert.com",
+        "type": "AI 项目/工具",
+        "bestFor": "Kitesurf 的推出将对开发者和企业产生深远影响。开发者可以利用这一工具更高效地进行自动化任务，降低服务器成本，同时提升处理速度。企业在进行网络流量分析和优化时，将不得不重新评估人类用户与 AI 代理之间的流量比例，从而影响其市场策略和资源配置。此外，Kitesurf 的设计理念可能会推动更多企业向无头浏览器转型，",
+        "description": "Cloudflare 最近推出了 Kitesurf，这是一款专为 AI 代理而非人类用户设计的轻量级无头浏览器。Kitesurf 省略了传统浏览器的标签和主题功能，CPU 和内存使用量比标准 Chromium 浏览器低 3 到 3.8 倍。Cloudflare 预计，未来五年内，非人类互联网流量将超过人类浏览量，导致人类在网络中的活动几乎可以忽略不计。",
+        "useCases": [
+          "集成 Kitesurf 进行自动化测试，提升测试效率和准确性。",
+          "利用 Kitesurf 进行大规模数据抓取，快速获取网页信息。",
+          "在 Puppeteer 中使用 Kitesurf 进行无头浏览器操作，简化开发流程。",
+          "通过 Kitesurf 实现高效的网页截图和 HTML 提取，节省资源。",
+          "在 AI 项目中使用 Kitesurf 进行快速原型开发，降低开发成本。"
+        ],
+        "watch": "Kitesurf 的无头设计可能导致与某些网站的兼容性问题，影响数据抓取效果。",
+        "sourceName": "Techiexpert.com",
+        "url": "https://techiexpert.com/cloudflare-launches-kitesurf-web-browser-built-for-ai-agents/"
+      },
+      {
+        "name": "Dude Asks AI Agent to Book Gym Spot, Accidentally Launches A",
+        "provider": "Yahoo News",
+        "type": "AI 项目/工具",
+        "bestFor": "Add Yahoo as a preferred source to see more of our stories on Google.\n\nAn Australian man asked his personal AI agent to book him a spot at his local gym. Little",
+        "description": "Add Yahoo as a preferred source to see more of our stories on Google.\n\nAn Australian man asked his personal AI agent to book him a spot at his local gym. Little did he know that th",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Yahoo News",
+        "url": "https://sg.news.yahoo.com/dude-asks-ai-agent-book-220136706.html"
+      },
+      {
         "name": "Automating and Scaling Behavioral Scientific Research on AI ",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -9414,58 +9512,60 @@ window.AI_GENERATED_DATA = {
         "watch": "API价格可能较高，增加企业的运营成本。",
         "sourceName": "NewsData.io:AI agent",
         "url": "https://www.itsecuritynews.info/mimecast-introduces-ai-agent-governance-and-managed-threat-response/"
-      },
-      {
-        "name": "Guidewire发布Qusar，助力保险公司构建和管理AI代理",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Qusar的推出将使保险公司能够更快地响应市场变化，提升客户体验。通过自动化索赔和保单管理流程，保险公司可以减少处理时间，提高客户满意度。此外，开发者助手的引入将加速产品开发周期，使保险公司能够更快推出新产品，增强市场竞争力。整体来看，Qusar将推动保险行业的数字化转型，促进业务创新。",
-        "description": "Guidewire推出Qusar版本，提供Agentic框架，帮助保险公司在Guidewire云平台上构建、部署和管理AI代理。新功能包括专为保险工作流设计的代理和开发者助手，显著提高开发效率，助力保险公司快速响应市场需求。",
-        "useCases": [
-          "使用Qusar的Agentic框架构建AI索赔代理，自动化索赔处理流程，减少人工干预。",
-          "利用开发者助手加速保单变更功能的开发，提高开发效率，缩短产品上线时间。",
-          "通过AI代理实现首次索赔通知的自动化，提升客户体验，减少客户等待时间。",
-          "在Guidewire云平台上部署AI代理，实时访问保单和索赔数据，优化决策过程。",
-          "利用Qusar的功能，快速响应市场需求，推出符合客户需求的新保险产品。"
-        ],
-        "watch": "在使用Qusar时，需注意API调用的配额限制，避免因超出配额导致服务中断。",
-        "sourceName": "NewsData.io:large language model",
-        "url": "https://aap.com.au/aapreleases/cision20260803ae17177/"
-      },
-      {
-        "name": "Cyera 推出 Agent Guardian，保障自主工作者的安全",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Agent Guardian 的推出将对企业的安全管理策略产生深远影响。首先，企业将能够更有效地保护自主工作者的数据，降低安全风险。其次，使用该工具的企业可能会在招募自主工作者时更具竞争力，因为他们能够提供更好的安全保障。此外，Agent Guardian 还可能促使其他安全工具的开发者关注自主工作者的安全需求，推动整",
-        "description": "这次发布的核心点是 Cyera 推出的 Agent Guardian，旨在为自主工作者提供更高的安全保障。该工具通过智能监控和数据保护，帮助企业管理和保护其自主工作的员工数据，降低潜在的安全风险。Agent Guardian 的推出标志着企业在面对日益复杂的安全挑战时，开始重视自主工作者的安全需求。",
-        "useCases": [
-          "监控自主工作者的数据访问，确保信息安全。",
-          "自动识别并响应安全威胁，减少人工干预。",
-          "生成安全报告，帮助企业进行合规审查。"
-        ],
-        "watch": "Agent Guardian 的定价可能对小型企业造成负担，尤其是在预算有限的情况下。",
-        "sourceName": "NewsData.io:artificial intelligence",
-        "url": "https://www.postregister.com/businessreport/technology/cyera-launches-agent-guardian-to-secure-the-autonomous-workforce/article_b1166dd9-3657-50fb-994c-5dcdc844ad1d.html"
-      },
-      {
-        "name": "DeepMind 高管谈资本支出与递归自我改进的关系",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "RSI 的发展将影响多个领域的决策，尤其是在 AI 研发和投资方面。企业可能会重新评估其技术路线，更多地关注自我优化能力的提升。此外，RSI 可能会推动新一轮的技术创新，改变 AI 的应用场景，提升其在各行业的价值。对于开发者和研究人员来说，理解和掌握 RSI 的概念将成为未来工作的关键。",
-        "description": "我注意到，Google DeepMind 的首席战略官 Jasjeet Sekhon 在加州大学伯克利分校的 Agentic AI 峰会上提到，当前行业的巨额资本支出是对递归自我改进（RSI）的投资。RSI 是指 AI 能够自动生成更优秀的自身版本，这被视为行业的下一个重要目标。尽管这个概念在2023年初就已被研究者提及，但直到最近才被企业广泛讨论。",
-        "useCases": [
-          "评估 AI 项目的投资回报，关注 RSI 能力的提升。",
-          "在产品开发中，利用 RSI 概念优化算法设计，提高产品性能。",
-          "为企业制定技术战略时，考虑 RSI 对未来市场竞争的影响。",
-          "在研究中，探索 RSI 的实现路径，推动技术进步。",
-          "与投资者沟通时，强调 RSI 对于资本支出的重要性。"
-        ],
-        "watch": "RSI 的实现可能需要大量的计算资源，导致企业面临高昂的 API 成本。",
-        "sourceName": "NewsData.io:artificial intelligence",
-        "url": "https://www.theinformation.com/articles/google-deepmind-exec-says-unprecedented-capex-actually-bet-rsi"
       }
     ],
     "ai-models": [
+      {
+        "name": "Anthropic 与 Riot Platforms 签署 91 亿美元数据中心租赁协议",
+        "provider": "Yahoo! Finance",
+        "type": "AI 项目/工具",
+        "bestFor": "推荐给需要大规模计算资源的 AI 开发团队和企业，特别是那些专注于机器学习和深度学习的公司。此交易将为 Anthropic 提供稳定的计算能力支持，可能加速其 AI 模型的研发和部署。同时，Riot 的成功也可能吸引更多投资者关注数据中心行业，推动相关技术和基础设施的进一步发展。对于比特币挖矿行业而言，这一合作可能带来",
+        "description": "这次发布的核心点是，Anthropic 与 Riot Platforms 签署了一项为期 20 年、价值 91 亿美元的数据中心租赁协议，涉及 191 兆瓦的计算能力。此交易可能在未来扩展至 161 亿美元，且已获得摩根士丹利 5.73 亿美元的临时融资支持。投资者对此反应积极，Riot 股票在消息发布后迅速上涨超过 25%。",
+        "useCases": [
+          "利用 Anthropic 提供的计算能力进行大规模 AI 模型训练，提升模型性能和准确性。",
+          "为新兴的 AI 初创公司提供基础设施支持，帮助其快速迭代和部署产品。",
+          "通过数据中心的扩展，降低 AI 研发成本，提高企业的市场竞争力。",
+          "为比特币挖矿提供更高效的计算资源，探索 AI 与区块链结合的新商业模式。",
+          "分析市场趋势，评估数据中心投资的潜在回报，制定相应的投资策略。"
+        ],
+        "watch": "数据中心租赁协议的长期性可能导致在市场变化时缺乏灵活性，影响公司应对突发情况的能力。",
+        "sourceName": "Yahoo! Finance",
+        "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-signs-huge-data-center-172909178.html"
+      },
+      {
+        "name": "WorkBuddy推出远程控制功能，提升多设备协作效率",
+        "provider": "公众号：数字生命卡兹克",
+        "type": "AI 项目/工具",
+        "bestFor": "这一更新将极大地改变用户的工作方式，尤其是远程办公和灵活工作的群体。通过提升多设备间的协作效率，用户可以更快地完成任务，减少因设备切换带来的时间损失。此外，团队成员之间的实时协作将促进信息共享和创新，提升整体工作效率。对于企业而言，这意味着更高的生产力和更好的团队协作体验。",
+        "description": "WorkBuddy最新更新引入远程控制功能，用户可通过手机实时同步电脑任务、对话和工作空间，支持多台电脑的快速切换。此功能需将App升级至1.2.0及以上，电脑端升级至5.3.8及以上，且无需扫码连接。此外，新增的资料库和Markdown多人编辑功能将进一步提升团队协作效率。",
+        "useCases": [
+          "下载并安装WorkBuddy App，确保版本为1.2.0及以上，体验远程控制功能。",
+          "在电脑端升级至5.3.8及以上版本，连接手机以实现多台电脑的实时同步。",
+          "利用新增的资料库功能，整理个人和团队文档，提升信息管理效率。",
+          "使用Markdown多人编辑功能，进行团队协作，实时共享和审阅文档。",
+          "将资料库内容生成HTML网站，便于分享工作成果，提升展示效果。"
+        ],
+        "watch": "确保手机和电脑的版本兼容性，避免因版本不匹配导致的功能无法使用。",
+        "sourceName": "公众号：数字生命卡兹克",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685179&idx=1&sn=4cbee32b677b57a9dc6ec2a79d6f72c7"
+      },
+      {
+        "name": "台湾遭遇 AI 驱动的网络攻击，政府成功应对",
+        "provider": "Rappler",
+        "type": "AI 项目/工具",
+        "bestFor": "此次事件对台湾的网络安全策略产生了深远影响，促使政府加强对网络攻击的监控和防护措施。对于政府机构而言，必须重新审视现有的网络安全防护体系，确保能够抵御日益复杂的网络威胁。企业和组织也需关注这一趋势，考虑如何利用AI技术提升自身的网络防护能力。此外，公众对网络安全的意识也将随之提高，可能促使更多人参与到网络安全的讨论与实",
+        "description": "台湾数字事务部报告称，7月发现针对政府机构的 AI 辅助网络攻击，虽然攻击来自海外，但相关单位成功处理了事件。近年来，台湾对中国的“混合战争”表示担忧，包括网络攻击和虚假信息传播。2025年，针对台湾基础设施的网络攻击增加了6%。",
+        "useCases": [
+          "监控网络流量，识别异常活动，使用AI工具提升响应速度。",
+          "制定网络安全策略，结合AI技术进行风险评估与管理。",
+          "开展网络安全培训，提高员工对AI驱动攻击的认识与防范能力。",
+          "利用AI进行漏洞扫描，及时发现并修复系统中的安全隐患。",
+          "与政府机构合作，分享网络安全信息，增强整体防护能力。"
+        ],
+        "watch": "AI驱动的攻击可能会迅速演变，导致传统防护措施失效，企业需不断更新安全策略。",
+        "sourceName": "Rappler",
+        "url": "https://www.rappler.com/technology/taiwan-says-targeted-ai-driven-hacking-campaign-july-2026/"
+      },
       {
         "name": "WhatsApp 如何构建端到端加密的诈骗警报系统",
         "provider": "RSS",
@@ -10006,51 +10106,6 @@ window.AI_GENERATED_DATA = {
         "watch": "API 价格波动可能导致预算超支，影响长期规划。",
         "sourceName": "NewsAPI:large language model",
         "url": "https://fortune.com/2026/08/07/uber-ai-spending-tokenmaxxing-is-over-cto/"
-      },
-      {
-        "name": "汉克·格林制定个人 AI 政策，呼吁创作者反思 AI 依赖",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "这一事件可能促使更多创作者重新审视自己对 AI 的依赖，尤其是在内容创作的透明度和真实性方面。创作者们可能会开始制定个人政策，以确保在使用 AI 工具时保持创作的独立性和质量。此外，这也可能引发更广泛的行业讨论，关于如何在技术进步与创作伦理之间找到平衡，影响未来的内容创作标准。",
-        "description": "汉克·格林在反思自己对 AI 的依赖后，决定制定个人 AI 政策，并鼓励其他创作者采取类似措施。他承认过度依赖 AI 可能导致创作质量下降，并引发了观众对其视频内容真实性的质疑。这一事件引发了对创作者如何平衡 AI 使用与创作独立性的广泛讨论。",
-        "useCases": [
-          "制定个人 AI 使用政策，明确使用范围和限制。",
-          "评估 AI 生成内容的质量，确保其符合创作标准。",
-          "与观众沟通 AI 使用情况，增强透明度和信任感。",
-          "探索 AI 工具在创作过程中的辅助作用，而非替代作用。",
-          "参与行业讨论，分享个人经验和最佳实践。"
-        ],
-        "watch": "过度依赖 AI 可能导致创作质量下降，影响观众的信任感。",
-        "sourceName": "NewsAPI:generative AI",
-        "url": "https://www.cnet.com/home/internet/hank-green-is-creating-an-ai-policy-for-himself-he-thinks-other-creators-should-too/"
-      },
-      {
-        "name": "AI 助力沟通，职场个性是否正在消失？",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "AI 的普及将影响职场沟通的未来，尤其是在年轻员工中，他们更重视真实的表达。企业在引入 AI 工具时，需考虑如何平衡效率与个性化的沟通。随着 AI 的广泛应用，可能导致沟通的同质化，进而影响团队的信任和合作氛围。此外，企业决策者需重新审视哪些工作应由 AI 完成，哪些应保留给人类，以维护职场文化的多样性。",
-        "description": "随着生成式 AI 技术在加拿大职场的广泛应用，员工对沟通方式的变化产生了深刻的反思。调查显示，尽管 AI 提升了工作效率，但也可能削弱了人际关系中的真实性和个性表达，尤其是在年轻员工中更为明显。",
-        "useCases": [
-          "利用 ChatGPT 撰写和编辑工作邮件，提高沟通效率。",
-          "通过 Microsoft Copilot 生成会议记录，确保信息传达的准确性。",
-          "使用 AI 工具进行报告撰写，节省时间并提升文档质量。",
-          "借助 AI 辅助工具进行市场分析，快速获取数据洞察。",
-          "在团队协作中使用 AI 生成的内容，促进信息共享与交流。"
-        ],
-        "watch": "过度依赖 AI 可能导致员工沟通能力下降，影响团队协作。",
-        "sourceName": "NewsAPI:generative AI",
-        "url": "https://www.digitaljournal.com/article/as-ai-writes-more-of-our-messages-are-we-losing-our-workplace-personalities/"
-      },
-      {
-        "name": "Gates Foundation Funds First-Ever Creation of 16 Synthetic V",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "For the first time ever, scientists have used artificial intelligence to design complete viral genomes that were physically synthesized and turned into 16 new f",
-        "description": "For the first time ever, scientists have used artificial intelligence to design complete viral genomes that were physically synthesized and turned into 16 new functional viruses ca",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsAPI:large language model",
-        "url": "https://freerepublic.com/focus/f-news/4390990/posts"
       }
     ],
     "ai-business": [
@@ -12482,6 +12537,59 @@ window.AI_GENERATED_DATA = {
   },
   "skillRecommendations": [
     {
+      "title": "bible-ko-mcp",
+      "type": "MCP 服务",
+      "description": "该 Skill 提供了一个用于访问和查询韩文圣经的 MCP 服务器，增强了 Coding Agent 的数据处理能力。",
+      "details": "bible-ko-mcp 是一个专为韩文圣经设计的 MCP 服务器，用户可以通过该服务快速查询和获取圣经内容。与其他语言的圣经服务相比，它专注于韩文用户的需求，提供了简洁的接口和高效的查询能力。该服务兼容多种编程环境，适合需要处理圣经文本的应用程序。",
+      "features": [
+        "提供韩文圣经文本查询",
+        "支持多种查询方式",
+        "快速响应用户请求",
+        "易于集成到现有项目中"
+      ],
+      "useCases": [
+        "开发者在应用中集成圣经查询功能",
+        "教育工作者使用该服务进行圣经教学",
+        "研究人员分析圣经文本"
+      ],
+      "tags": [
+        "圣经",
+        "韩文",
+        "MCP服务"
+      ],
+      "url": "https://www.npmjs.com/package/bible-ko-mcp",
+      "source": "npm",
+      "date": "2026-08-13"
+    },
+    {
+      "title": "rohitg00/awesome-claude-code-toolkit",
+      "type": "Skill 精选",
+      "description": "这个工具包为 Claude Code 提供了全面的支持，包含多种类型的资源，增强了 Coding Agent 的功能。",
+      "details": "该工具包包含 135 个代理、35 个精选技能、42 个命令、176+ 个插件、20 个钩子、15 条规则、7 个模板、14 个 MCP 配置、26 个伴随应用和 52 个生态系统条目。用户可以利用这些资源在不同场景中提升代码质量和工作效率，例如在提交代码前自动运行安全检查，或在 PR 审核时进行 SQL 注入检测。与其他工具相比，该工具包提供了更全面的功能和更高的灵活性，适用于多种 JavaScript 项目。",
+      "features": [
+        "提供 135 个代理以支持多种任务",
+        "包含 35 个精选技能以提升代码质量",
+        "支持 176+ 个插件扩展功能",
+        "提供 20 个钩子以实现自定义操作",
+        "包含 14 个 MCP 配置以优化工作流"
+      ],
+      "useCases": [
+        "在代码提交前自动执行安全检查",
+        "在 PR 审核中检测潜在的 SQL 注入",
+        "为开发团队提供多种工具以提高效率"
+      ],
+      "tags": [
+        "Claude Code",
+        "工具包",
+        "JavaScript",
+        "开发效率",
+        "安全检查"
+      ],
+      "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
+      "source": "GitHub Skill",
+      "date": "2026-08-13"
+    },
+    {
       "title": "Teaching Your AI Web Design Some Actual Taste",
       "type": "方法论 / 文章",
       "description": "该文章介绍了如何构建一个微型 AI 代码审查工具 git-lrc，提升 AI 在网页设计中的审美能力。",
@@ -14363,8 +14471,8 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-08-13",
-    "generatedAt": "2026-08-13T04:12:26.145780Z",
-    "total": 49,
+    "generatedAt": "2026-08-13T06:53:51.036769Z",
+    "total": 55,
     "sections": [
       {
         "category": "ai-tools",
@@ -14481,6 +14589,17 @@ window.AI_GENERATED_DATA = {
             "reason": "Gemini的快速增长和用户基础的扩大，展示了其在提升工作效率和激发创意方面的独特价值，值得关注。"
           },
           {
+            "title": "WorkBuddy推出远程控制功能，提升多设备协作效率",
+            "summary": "WorkBuddy最新更新引入远程控制功能，用户可通过手机实时同步电脑任务、对话和工作空间，支持多台电脑的快速切换。此功能需将App升级至1.2.0及以上，电脑端升级至5.3.8及以上，且无需扫码连接。此外，新增的资料库和Markdown多人编辑功能将进一步提升团队协作效率。",
+            "source": "公众号：数字生命卡兹克",
+            "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685179&idx=1&sn=4cbee32b677b57a9dc6ec2a79d6f72c7",
+            "score": 62,
+            "sourceCount": 1,
+            "date": "2026-08-13",
+            "publishedAt": "2026-08-13T12:32",
+            "reason": "WorkBuddy的远程控制功能将极大提升用户在多设备间的协作效率，值得关注和尝试。"
+          },
+          {
             "title": "ChatGPT 桌面端新增智能体数据导入功能",
             "summary": "ChatGPT 桌面应用现支持导入其他智能体的工作数据，包括项目、聊天记录、技能和插件，用户可选择自动更新功能。这一更新旨在提升工作效率，但也可能面临兼容性和数据安全等问题。",
             "source": "X：OpenAI Developers (@OpenAIDevs)",
@@ -14497,6 +14616,17 @@ window.AI_GENERATED_DATA = {
         "category": "ai-coding",
         "label": "AI 编程",
         "items": [
+          {
+            "title": "利用扩散语言模型实现无损文本压缩",
+            "summary": "我注意到，随着数字文本数据的快速增长，如何实现无损文本压缩成为一个重要课题。最近的研究提出了一种新方法，利用扩散语言模型（DLMs）来解决传统自回归模型在压缩过程中的吞吐量瓶颈。这种方法在文本和代码的压缩比上表现优于现有的通用压缩工具，展现了良好的前景。",
+            "source": "RSS · arXiv cs.CL",
+            "url": "https://arxiv.org/abs/2608.11249",
+            "score": 82,
+            "sourceCount": 1,
+            "date": "2026-08-13",
+            "publishedAt": "",
+            "reason": "这项研究展示了扩散语言模型在无损文本压缩中的潜力，值得关注其未来的发展和应用。"
+          },
           {
             "title": "CHORUS：高覆盖率测试平台刺激生成的补充专家",
             "summary": "这次发布的核心点是 CHORUS，一个后训练框架，旨在提升高覆盖率测试平台刺激生成的性能。通过结合行为多样的检查点和密集奖励的强化学习，CHORUS 能够超越传统的监督微调方法，显著提高硬件验证的效率，尤其在现代芯片设计中具有重要应用价值。",
@@ -14518,6 +14648,17 @@ window.AI_GENERATED_DATA = {
             "date": "2026-08-12",
             "publishedAt": "2026-08-12T00:09",
             "reason": "这篇文章展示了如何通过 AI 技术提升 QA 测试效率，值得关注和借鉴。"
+          },
+          {
+            "title": "自我进化的具身智能体：技能与环境适应的新框架",
+            "summary": "这次发布的核心点是提出了一种名为 SHAPER 的自我进化框架，旨在实现具身智能体的无训练适应。SHAPER 通过演化可重用的技能和环境代码，保持模型参数不变，优化外部技能和环境代码，适用于不同的低级动作接口。该方法在 VLABench 和 ESI-Bench 上进行了评估，显示",
+            "source": "RSS · arXiv cs.CL",
+            "url": "https://arxiv.org/abs/2608.11350",
+            "score": 78,
+            "sourceCount": 1,
+            "date": "2026-08-13",
+            "publishedAt": "",
+            "reason": "SHAPER 提供了一种创新的无训练适应方法，适合希望降低训练成本的开发者，值得关注。"
           },
           {
             "title": "Towards Automated Domain Model Extraction from Source Code using Heuristics and Open-Source LLMs",
@@ -14614,6 +14755,17 @@ window.AI_GENERATED_DATA = {
             "reason": "这一支付系统通过结合区块链和 AWS 技术，为企业提供了安全、透明的支付解决方案，值得关注。"
           },
           {
+            "title": "Better, Faster, Stronger: Programmatic Skill Learning Best Reduces Agent Cost",
+            "summary": "arXiv:2608.11338v1 Announce Type: new Abstract: Recently, the practice of augmenting LLM agent capability with skills has gained prevalence.",
+            "source": "RSS · arXiv cs.CL",
+            "url": "https://arxiv.org/abs/2608.11338",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-13",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
             "title": "Automating and Scaling Behavioral Scientific Research on AI Agents",
             "summary": "arXiv:2608.10030v1 Announce Type: new Abstract: As AI agents are increasingly deployed in complex environments, understanding their behavior",
             "source": "RSS · arXiv cs.AI",
@@ -14651,6 +14803,17 @@ window.AI_GENERATED_DATA = {
             "date": "2026-08-12",
             "publishedAt": "2026-08-12T22:01",
             "reason": "这项技术为聋人群体提供了全新的沟通方式，值得关注和体验。"
+          },
+          {
+            "title": "基于任务感知的潜在空间耦合方法提升太阳能短期预测精度",
+            "summary": "准确的太阳辐射预测对于光伏电力的可靠接入至关重要。全景成像仪（ASI）能够提供高分辨率的云层观测，适合进行短期预测。尽管近期深度学习方法显著提高了预测精度，但仍存在确定性预测和对突发事件预测能力不足的问题。本文提出了一种新方法，旨在解决这些限制。",
+            "source": "RSS · arXiv cs.LG",
+            "url": "https://arxiv.org/abs/2608.11254",
+            "score": 84,
+            "sourceCount": 1,
+            "date": "2026-08-13",
+            "publishedAt": "",
+            "reason": "本文提出的新方法针对太阳能短期预测中的关键问题，具有显著的实用价值和应用潜力，值得关注。"
           },
           {
             "title": "LFM2.5-VL-3B 发布，提升边缘设备视觉能力",
@@ -14761,17 +14924,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-08-13",
             "publishedAt": "2026-08-13T00:10",
             "reason": "这条信息值得关注，因为 Qwen3.8-2.4T-A95B 模型的开源将为开发者和研究人员提供强大的工具，推动 AI 应用的创新与发展。"
-          },
-          {
-            "title": "OpenAI 和 Google 聊天机器人均突破 10 亿用户大关",
-            "summary": "OpenAI 和 Google 的聊天机器人 ChatGPT 与 Gemini 分别在 8 月和 2 月达成月活用户超 10 亿的里程碑。OpenAI 在 8 月 6 日的博文中确认 ChatGPT 月活用户已超 10 亿，而 Google CEO 皮查伊则宣布 Gemini 成",
-            "source": "The Verge：AI（RSS）",
-            "url": "https://www.theverge.com/ai-artificial-intelligence/978113/chatgpt-gemini-1-billion-users",
-            "score": 67,
-            "sourceCount": 1,
-            "date": "2026-08-12",
-            "publishedAt": "2026-08-12T03:41",
-            "reason": "这一事件标志着 AI 聊天工具的用户增长进入新阶段，值得关注其对市场的深远影响。"
           }
         ]
       },
@@ -14779,6 +14931,28 @@ window.AI_GENERATED_DATA = {
         "category": "ai-benchmark",
         "label": "评测榜单",
         "items": [
+          {
+            "title": "TRACE Bench：任务驱动的角色扮演代理检查评估框架",
+            "summary": "TRACE Bench 是一种新提出的任务驱动的角色扮演评估框架，旨在通过详细的检查清单揭示角色要求的测试情况及对话证据。该框架能够有效评估模型的表现，提供更为透明的评分依据。",
+            "source": "RSS · arXiv cs.CL",
+            "url": "https://arxiv.org/abs/2608.11236",
+            "score": 86,
+            "sourceCount": 1,
+            "date": "2026-08-13",
+            "publishedAt": "",
+            "reason": "TRACE Bench 提供了一种全新的角色扮演模型评估方法，强调透明性和系统性，值得关注。"
+          },
+          {
+            "title": "Backtrader-Bench 框架评估 LLM 代理在算法交易中的表现",
+            "summary": "Ruoxi Zhao 和 Maziar Raissi 提出了 Backtrader-Bench，一个用于评估 LLM 编码代理在算法交易中的新框架。该框架通过两个互补的管道生成自我生成的多项选择题 (MCQ)，并在 30 个问题的 curated 集合上对 11 个无工具模型和 ",
+            "source": "RSS · arXiv cs.CL",
+            "url": "https://arxiv.org/abs/2608.11232",
+            "score": 82,
+            "sourceCount": 1,
+            "date": "2026-08-13",
+            "publishedAt": "",
+            "reason": "Backtrader-Bench 提供了一种创新的评估方法，能够有效提升 LLM 在算法交易中的应用价值，值得关注。"
+          },
           {
             "title": "OpenRouter 发布实时网页搜索基准测试，助力智能体引擎选择",
             "summary": "我注意到 OpenRouter 最近推出了一个实时排行榜，评测了模型、搜索引擎、搜索方法和预算的组合。数据显示，增加搜索预算可以显著提升 BrowseComp 的得分，而模型选择的重要性更胜于引擎。对于失败率高的任务，降低搜索深度可以有效控制成本。",
@@ -14874,6 +15048,28 @@ window.AI_GENERATED_DATA = {
             "reason": "这篇文章深入探讨了自动推理组如何将数学逻辑应用于实际生产环境，展示了其在云计算安全中的重要性。"
           },
           {
+            "title": "评估上下文压缩中的侧约束损失",
+            "summary": "这次发布的核心点是，LLM系统在上下文窗口受限时，会压缩之前的上下文以继续进行任务。然而，用户发出的某些指令（如“在我确认之前不要删除任何邮件”）在压缩过程中被悄然丢弃。为此，研究团队提出了COMPINT评估套件，旨在量化这一损失。",
+            "source": "RSS · arXiv cs.CL",
+            "url": "https://arxiv.org/abs/2608.11242",
+            "score": 78,
+            "sourceCount": 1,
+            "date": "2026-08-13",
+            "publishedAt": "",
+            "reason": "COMPINT评估套件为LLM系统提供了量化用户指令保留率的新方法，值得关注。"
+          },
+          {
+            "title": "将递归深度整合进预训练语言模型的研究进展",
+            "summary": "这次发布的核心点是通过将递归深度整合到预训练语言模型中，研究者展示了如何在不同参数预算下实现模型的迭代潜在转变。Qwen2.5-0.5B-Instruct模型经过改造后，能够在多个循环中保持性能，且在首次循环中未显著低于基线表现。该研究揭示了递归模块的有效性及其在语言模型中的应用",
+            "source": "RSS · arXiv cs.CL",
+            "url": "https://arxiv.org/abs/2608.11233",
+            "score": 78,
+            "sourceCount": 1,
+            "date": "2026-08-13",
+            "publishedAt": "",
+            "reason": "这项研究为语言模型的优化提供了新的思路，尤其是在递归深度的应用上，值得关注。"
+          },
+          {
             "title": "MIDAS：不确定性融合的互信息解耦用于不完整多模态情感分析",
             "summary": "MIDAS提出了一种新方法，旨在解决多模态情感分析中常见的输入不完整问题。尽管现有方法多依赖数据填补和启发式协调约束，但在实际应用中，这些方法往往未能有效提取和利用任务相关信息。该研究强调了在不完整或损坏的模态下进行情感分析的重要性，并为此提供了新的解决思路。",
             "source": "RSS · arXiv cs.AI",
@@ -14896,37 +15092,15 @@ window.AI_GENERATED_DATA = {
             "reason": "AMIE 系统展示了医疗 AI 在实时视频咨询中的潜力，值得关注其未来的发展和应用。"
           },
           {
-            "title": "Conflict or Strategy? Asymmetric Role Framing of La France insoumise and Rassemblement National in French News Headlines, 2022-2025",
-            "summary": "arXiv:2608.09936v1 Announce Type: new Abstract: Do French news headlines frame left- and right-populist challengers as symmetric ``extremes,",
+            "title": "Gloss-Free Representation Learning for Cross-Dataset Sign Spotting",
+            "summary": "arXiv:2608.11332v1 Announce Type: new Abstract: Sign-language research for resource-constrained languages is often limited by the cost of de",
             "source": "RSS · arXiv cs.CL",
-            "url": "https://arxiv.org/abs/2608.09936",
+            "url": "https://arxiv.org/abs/2608.11332",
             "score": 70,
             "sourceCount": 1,
-            "date": "2026-08-12",
+            "date": "2026-08-13",
             "publishedAt": "",
             "reason": ""
-          },
-          {
-            "title": "研究人员揭露OpenAI、Anthropic和Google等AI模型API漏洞",
-            "summary": "由Alexander Panfilov领导的研究团队发现，OpenAI、Anthropic和Google等主要AI提供商的API存在严重漏洞，允许读取模型的加密推理过程。通过对约7000条公开会话的扫描，研究人员发现62个API密钥、33个邮箱和33个密码，且通过越狱手段，Ant",
-            "source": "The Decoder：AI News（RSS）",
-            "url": "https://the-decoder.com/but-marinade-and-leaked-passwords-are-what-researchers-found-in-chatgpts-hidden-reasoning",
-            "score": 66,
-            "sourceCount": 1,
-            "date": "2026-08-12",
-            "publishedAt": "2026-08-12T01:38",
-            "reason": "这条信息揭示了AI模型API的安全隐患，值得关注以防止潜在的数据泄露风险。"
-          },
-          {
-            "title": "Ryan Greenblatt：2032年前人类级AI可能催生失控超级智能",
-            "summary": "在与Dwarkesh Patel的对话中，Redwood Research首席科学家Ryan Greenblatt探讨了递归自我改进（RSI）的潜力。他认为，一旦AI达到人类顶级专家的水平，可能在短短一年内实现相当于4-5年的进展，预计2031年将实现自动化AI研发。然而，这一进",
-            "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
-            "url": "https://www.dwarkesh.com/p/ryan-greenblatt",
-            "score": 66,
-            "sourceCount": 1,
-            "date": "2026-08-12",
-            "publishedAt": "2026-08-12T00:31",
-            "reason": "这次讨论揭示了递归自我改进对AI未来发展的深远影响，值得关注其潜在风险与伦理挑战。"
           }
         ]
       },
@@ -27193,6 +27367,44 @@ window.AI_GENERATED_DATA = {
     ]
   },
   "benchmarkDatasets": [
+    {
+      "name": "Backtrader-Bench",
+      "area": "AI 模型能力评测",
+      "note": "Ruoxi Zhao 和 Maziar Raissi 提出了 Backtrader-Bench，一个用于评估 LLM 编码代理在算法交易中的新框架。该框架通过两个互补的管道生成自我生成的多项选择题 (MCQ)，并在 30 个问题的 curated 集合上对 11 个无工具模型和 4 个有工具配置进行了评估，结果显示工具增强的代理在单次测试中达到了 90.0% 的准确率。",
+      "source": "https://arxiv.org/abs/2608.11232",
+      "sourceName": "RSS · arXiv cs.CL",
+      "date": "2026-08-13",
+      "originTitle": "Backtrader-Bench 框架评估 LLM 代理在算法交易中的表现",
+      "evaluates": [
+        "Backtrader-Bench 框架包含两个管道，分别用于生成和验证多项选择题，确保评估的准确性。",
+        "在 30 个问题的测试中，工具增强的代理（如 GPT-5.5 和 Opus 4.7）达到了 90.0% 的准确率，超越了无工具模型的 73.0%。",
+        "该框架设计了 5 种交易策略和 33 种模板，涵盖了三种难度级别，提供了全面的评估基础。",
+        "无工具模型在 38 个独立挖掘的问题上准确率下降，部分模型的表现接近随机猜测水平（25%）。",
+        "Backtrader-Bench 的 MCQ 基础设施还可用于生成强化学习的训练语料库，旨在构建专门的量化交易代理。"
+      ],
+      "useCases": [
+        "生成多项选择题以评估 LLM 模型在算法交易中的表现。",
+        "利用 Backtrader-Bench 框架进行模型性能对比，优化交易策略。",
+        "为量化交易工作流构建专门的 LLM 代理，提升决策效率。"
+      ],
+      "limitations": [
+        "在使用 Backtrader-Bench 进行评估时，可能面临数据集的选择偏差，影响结果的普适性。",
+        "工具增强的代理虽然表现优异，但在实际交易中可能受到市场波动的影响，导致结果不稳定。",
+        "依赖于自生成的多项选择题可能会导致评估的局限性，未能全面反映模型在真实环境中的表现。"
+      ]
+    },
+    {
+      "name": "Cross-Dataset",
+      "area": "AI 模型能力评测",
+      "note": "arXiv:2608.11332v1 Announce Type: new Abstract: Sign-language research for resource-constrained languages is often limited by the cost of dense linguistic labels such as glosses, t",
+      "source": "https://arxiv.org/abs/2608.11332",
+      "sourceName": "RSS · arXiv cs.CL",
+      "date": "2026-08-13",
+      "originTitle": "Gloss-Free Representation Learning for Cross-Dataset Sign Spotting",
+      "evaluates": [],
+      "useCases": [],
+      "limitations": []
+    },
     {
       "name": "AMA-Bench",
       "area": "Agent / 工具调用",
