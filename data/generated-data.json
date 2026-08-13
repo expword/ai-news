@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-08-13",
-  "generatedAt": "2026-08-13T12:07:45.628252Z",
+  "generatedAt": "2026-08-13T14:46:26.486606Z",
   "news": [
     {
       "title": "TRACE Bench：任务驱动的角色扮演代理检查评估框架",
@@ -183,6 +183,71 @@
       "dateStatus": "collected",
       "tier": "T1",
       "score": 84,
+      "aiSelected": true,
+      "_style": "tutorial",
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceDate": "2026-08-13",
+      "sourceCount": 1
+    },
+    {
+      "title": "量化混合专家中的因果路径介导损伤检测",
+      "summary": "本研究探讨了在量化混合专家（MoE）模型中，如何检测路径翻转现象。通过模拟4位KV缓存量化，发现这种不连续的路由机制会导致令牌跨越决策边界，影响专家的激活。研究提供了因果分析工具和实证结果，揭示了量化损伤的路径介导分数（RMF）约为0.31，且检测到的翻转无法区分有害与有益的翻转。",
+      "category": "ai-research",
+      "tags": [
+        "量化模型",
+        "混合专家",
+        "路径介导",
+        "因果分析",
+        "机器学习"
+      ],
+      "keyPoints": [
+        "研究表明，量化损伤的路径介导分数（RMF）约为0.31，显示出路由机制对损伤的显著影响。",
+        "在OLMoE-1B-7B模型中，约三分之一的损伤是由路由介导的，表明路由选择的重要性。",
+        "检测到的翻转现象的AUC值为0.772，表明模型能够识别翻转事件，但无法判断其有害性。",
+        "采用预注册的实验设计，确保了结果的可靠性和可重复性，避免了数据偏差。",
+        "研究中使用的四轮实验装置为量化损伤的分析提供了新的视角和工具。"
+      ],
+      "background": "量化混合专家（MoE）模型在深度学习中被广泛应用，尤其是在处理大规模数据时。由于其路由机制的不连续性，模型在实际部署中可能会受到数值干扰的影响。本文通过模拟4位KV缓存量化，探讨了这种干扰如何导致令牌跨越决策边界，从而影响模型的性能。研究结果为理解量化损伤提供了新的因果分析工具，并揭示了路径介导损伤的复杂性。",
+      "impact": "该研究为量化模型的开发者提供了重要的实证数据，帮助他们理解路由机制对模型性能的影响。通过识别路径翻转现象，开发者可以更好地优化模型，减少潜在的损伤。此外，研究结果可能影响未来的模型设计和量化策略，推动更高效的深度学习应用。",
+      "audience": [
+        "机器学习研究人员",
+        "深度学习模型开发者",
+        "量化模型优化工程师",
+        "AI系统架构师",
+        "数据科学家"
+      ],
+      "useCases": [
+        "分析量化模型的损伤来源，使用路径介导分数（RMF）评估模型性能。",
+        "优化深度学习模型的路由机制，减少因路径翻转导致的损伤。",
+        "在模型部署前进行预注册实验，确保结果的可靠性和可重复性。",
+        "利用实证结果指导量化策略的调整，提高模型的整体性能。",
+        "开发新的检测工具，识别潜在的有害翻转现象，提升模型的稳定性。"
+      ],
+      "risks": [
+        "在使用量化模型时，需注意API调用的配额限制，避免超出使用范围导致服务中断。",
+        "不同版本的模型可能存在兼容性问题，需确保使用的工具和库与模型版本匹配。",
+        "量化过程中的数值误差可能导致模型性能下降，需谨慎评估量化策略的影响。",
+        "在实验设计中，未预注册的假设可能导致结果偏差，影响研究的可信度。",
+        "对路径翻转的检测可能存在误判风险，需结合多种指标进行综合评估。"
+      ],
+      "reason": "本研究提供了量化混合专家模型中路径翻转现象的深入分析，揭示了其对模型性能的影响，具有重要的实用价值和研究意义。",
+      "scores": {
+        "importance": 85,
+        "novelty": 80,
+        "firsthand": 90,
+        "impact": 75,
+        "credibility": 85
+      },
+      "url": "https://arxiv.org/abs/2608.11212",
+      "source": "RSS · arXiv cs.AI",
+      "date": "2026-08-13",
+      "publishedAt": "",
+      "collectedAt": "2026-08-13T22:46",
+      "dateStatus": "collected",
+      "tier": "T1",
+      "score": 82,
       "aiSelected": true,
       "_style": "tutorial",
       "moduleTargets": [
@@ -705,6 +770,71 @@
       "sourceCount": 1
     },
     {
+      "title": "低成本 LLM 代理建模：在笔记本上模拟大型 LLM 代理社会",
+      "summary": "这次发布的核心点是，Igor Itkin 提出了一个低成本的模型来模拟大型语言模型（LLM）代理的社会。通过将每个 LLM 代理替换为一个低参数模型，该方法能够在笔记本电脑上运行，显著降低了模拟的成本和复杂性。此方法的有效性在多个 LLM 模拟中得到了验证，提供了新的研究思路。",
+      "category": "ai-research",
+      "tags": [
+        "LLM",
+        "代理建模",
+        "低成本模拟",
+        "统计物理",
+        "人工智能"
+      ],
+      "keyPoints": [
+        "Igor Itkin 提出的模型通过低参数化替代 LLM 代理，降低了模拟成本。",
+        "该方法可以在笔记本电脑上运行，适用于大规模代理社会的模拟。",
+        "通过几百到几千次便宜的查询来拟合低参数模型，确保了模拟的有效性。",
+        "在多个 LLM 模拟中验证了该模型的准确性，提供了可靠的预测趋势。",
+        "研究结果表明，模型在处理大规模代理时具有良好的性能，适合进一步的应用研究。"
+      ],
+      "background": "在人工智能领域，模拟大型语言模型（LLM）代理的社会一直是一个高成本且复杂的任务。传统方法需要大量的计算资源和时间，限制了研究的广度和深度。Igor Itkin 提出的低成本代理建模方法，利用统计物理的观察，将每个 LLM 代理替换为低参数模型，从而降低了模拟的复杂性和成本。这一创新方法不仅使得在笔记本电脑上进行大规模模拟成为可能，还为相关研究提供了新的视角和工具。",
+      "impact": "这一研究成果将对多个领域产生深远影响。首先，研究人员和开发者可以利用这一低成本模型进行更广泛的实验，探索 LLM 代理在不同环境下的表现。其次，教育机构和小型企业也能借助这一方法进行相关研究，降低了入门门槛。此外，该模型的成功应用可能会推动更多低成本、高效能的 AI 研究工具的开发，促进整个行业的进步。",
+      "audience": [
+        "从事 LLM 研究的学者",
+        "希望降低模拟成本的开发者",
+        "教育机构的研究人员",
+        "小型企业的技术团队",
+        "对 AI 代理感兴趣的学生"
+      ],
+      "useCases": [
+        "使用低参数模型在笔记本上模拟 LLM 代理社会，进行实验和研究。",
+        "在教育环境中，利用该模型进行 LLM 相关课程的教学和实践。",
+        "为小型企业开发定制的 LLM 应用，降低开发成本。",
+        "在科研项目中，使用该模型进行大规模数据分析和模拟。",
+        "探索不同环境下 LLM 代理的行为模式，进行理论研究。"
+      ],
+      "risks": [
+        "低参数模型的准确性可能受到查询数量和质量的影响，需谨慎选择数据源。",
+        "在特定情况下，模型可能无法完全捕捉 LLM 代理的复杂行为，导致结果偏差。",
+        "使用该方法进行商业应用时，需考虑商用授权和合规性问题。",
+        "硬件兼容性可能影响模拟性能，需确保设备满足要求。",
+        "对模型的理解和应用需要一定的统计物理知识，可能对非专业人士造成障碍。"
+      ],
+      "reason": "这项研究提供了一种低成本的 LLM 代理建模方法，适合广泛的研究和应用，值得关注。",
+      "scores": {
+        "importance": 75,
+        "novelty": 80,
+        "firsthand": 90,
+        "impact": 70,
+        "credibility": 85
+      },
+      "url": "https://arxiv.org/abs/2608.11215",
+      "source": "RSS · arXiv cs.AI",
+      "date": "2026-08-13",
+      "publishedAt": "",
+      "collectedAt": "2026-08-13T22:46",
+      "dateStatus": "collected",
+      "tier": "T1",
+      "score": 78,
+      "aiSelected": true,
+      "_style": "reviewer",
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceDate": "2026-08-13",
+      "sourceCount": 1
+    },
+    {
       "title": "评估上下文压缩中的侧约束损失",
       "summary": "这次发布的核心点是，LLM系统在上下文窗口受限时，会压缩之前的上下文以继续进行任务。然而，用户发出的某些指令（如“在我确认之前不要删除任何邮件”）在压缩过程中被悄然丢弃。为此，研究团队提出了COMPINT评估套件，旨在量化这一损失。",
       "category": "ai-research",
@@ -1064,6 +1194,115 @@
       "_style": "observer",
       "moduleTargets": [
         "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Distribird：基于文献的贝叶斯模型校准先验分布设计",
+      "summary": "我注意到，Distribird 是一个自动化的网络应用程序，旨在简化贝叶斯模型校准中的先验分布设计。它通过文献检索和多代理管道，提取和加权相关参数值，帮助研究人员更高效地构建信息丰富的先验分布，避免了传统方法中对均匀先验的依赖。",
+      "category": "ai-tools",
+      "tags": [
+        "贝叶斯模型",
+        "文献检索",
+        "自动化工具",
+        "先验分布",
+        "多代理系统"
+      ],
+      "keyPoints": [
+        "Distribird 自动化处理贝叶斯模型校准中的先验分布设计，显著提高效率。",
+        "该工具通过文献检索，提取与参数相关的值，并根据领域相关性进行加权。",
+        "在缺乏文献时，系统会提供合理的非信息性替代方案，并清晰报告每个先验的证据和置信水平。",
+        "评估显示，Distribird 在先验质量上与单提示 LLM 基线相匹配，确保每个先验都可追溯到具体文献。",
+        "该工具适用于具有物理可解释参数的模型，特别是在已有领域知识的情况下。"
+      ],
+      "background": "Distribird 的出现是为了应对贝叶斯模型校准中普遍存在的先验分布设计问题。传统上，研究人员常常依赖均匀先验，这种做法的主要原因在于从科学文献中构建信息丰富的先验分布既耗时又需要领域和统计专业知识。Distribird 通过自动化文献检索和参数值提取，极大地简化了这一过程。该工具的多代理管道能够快速找到相关文献，并根据领域相关性加权提取的值，从而生成更为精准的先验分布。与以往的手动方法相比，Distribird 提供了一种更高效的解决方案，尤其是在科学研究中，能够显著提高模型校准的准确性和可靠性。",
+      "impact": "Distribird 的推出将对科学研究领域产生深远影响，尤其是对需要进行贝叶斯模型校准的研究人员。通过提供高效的先验分布设计工具，研究人员可以更快地进行模型校准，进而加速科学发现的进程。此外，该工具的透明性和可追溯性将增强研究结果的可信度，促进学术界对模型结果的信任。随着越来越多的研究者采用这一工具，可能会推动整个领域在模型校准方法上的创新与发展。",
+      "audience": [
+        "数据科学家",
+        "机器学习研究员",
+        "统计学家",
+        "科学模型开发者"
+      ],
+      "useCases": [
+        "使用 Distribird 进行贝叶斯模型校准，快速生成所需的先验分布。",
+        "在研究项目中，利用该工具自动提取相关文献中的参数值，节省时间。",
+        "通过 Distribird 的透明性，向团队展示模型校准的依据，增强结果的可信度。"
+      ],
+      "risks": [
+        "使用 Distribird 可能需要一定的学习曲线，尤其是对不熟悉贝叶斯方法的用户。",
+        "在某些领域，文献的可用性可能会限制工具的有效性，导致无法生成所需的先验分布。",
+        "如果依赖于自动化工具，可能会忽视领域知识的重要性，影响模型的最终效果。"
+      ],
+      "reason": "Distribird 通过自动化文献检索和参数值提取，极大地提高了贝叶斯模型校准的效率和准确性，是研究人员不可或缺的工具。",
+      "url": "https://arxiv.org/abs/2608.11210",
+      "source": "RSS · arXiv cs.AI",
+      "date": "2026-08-13",
+      "publishedAt": "",
+      "collectedAt": "2026-08-13T22:45",
+      "dateStatus": "collected",
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "_style": "recommender",
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceDate": "2026-08-13",
+      "sourceCount": 1
+    },
+    {
+      "title": "A Forced-Structure Reduction and Verifiable Bounds for Conway's 99-Graph",
+      "summary": "arXiv:2608.11211v1 Announce Type: new Abstract: Conway's 99-graph problem asks whether a strongly regular graph with parameters $\\mathrm{srg}(99,14,1,2)$ exists. We report a system",
+      "category": "ai-agents",
+      "source": "RSS · arXiv cs.AI",
+      "date": "2026-08-13",
+      "publishedAt": "",
+      "collectedAt": "2026-08-13T22:46",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-13",
+      "tags": [],
+      "url": "https://arxiv.org/abs/2608.11211",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "AutoWorldModel-Bench: A State-Centric Benchmark for Automated World-Model Research",
+      "summary": "arXiv:2608.11216v1 Announce Type: new Abstract: World modeling is an unsettled field: architectures, training objectives, and state representations interact in complex ways, and no",
+      "category": "ai-coding",
+      "source": "RSS · arXiv cs.AI",
+      "date": "2026-08-13",
+      "publishedAt": "",
+      "collectedAt": "2026-08-13T22:46",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-13",
+      "tags": [],
+      "url": "https://arxiv.org/abs/2608.11216",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "benchmarkDatasets"
       ],
       "sourceCount": 1
     },
@@ -4711,33 +4950,6 @@
         "news"
       ],
       "sourceCount": 1
-    },
-    {
-      "title": "Hallucination-Free GUI Grounding via Regression-Free Layout-Aware Matching",
-      "summary": "GUI agents are shifting from metadata-dependent large language models to purely visual multimodal large language models (MLLMs) that operate directly on screenshots. The core task,",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-08-10",
-      "publishedAt": "",
-      "collectedAt": "2026-08-11T10:38",
-      "dateStatus": "collected",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.09654v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
     }
   ],
   "weeklyDigests": [
@@ -7884,6 +8096,23 @@
   "topicResources": {
     "ai-coding": [
       {
+        "name": "AI 编码代理扩展企业攻击面",
+        "provider": "DataBreachToday",
+        "type": "AI 项目/工具",
+        "bestFor": "推荐给需要整合 AI 编码代理的企业安全团队、开发者和技术决策者。这些人群需要理解 AI 引入的风险，并采取相应的安全措施。对于希望利用 AI 提升开发效率的企业，必须权衡 AI 带来的便利与潜在的安全隐患。随着 AI 技术的不断发展，企业在安全策略上也需进行相应的调整，以应对不断变化的威胁环境。",
+        "description": "这次发布的核心点是，AI 编码代理作为自主工具，正在显著扩展企业的攻击面。Kudelski Security 的研究总监 Nathan Hamiel 指出，这些代理不仅能执行代码，还能调用工具并采取开发者未明确设计的行动，带来了新的安全挑战。安全团队需关注架构、沙箱和控制措施，以降低代理意外行为的影响范围。",
+        "useCases": [
+          "评估现有应用程序中引入 AI 编码代理的安全风险，确保符合企业安全标准。",
+          "限制 AI 编码代理的权限，确保其只能访问必要的工具和数据。",
+          "在部署 AI 解决方案前，进行全面的安全审计，识别潜在的攻击面。",
+          "利用沙箱环境测试 AI 编码代理的行为，确保其在安全范围内运行。",
+          "定期更新安全策略，以应对 AI 技术的快速发展和新出现的威胁。"
+        ],
+        "watch": "AI 编码代理可能会执行未授权的操作，导致敏感数据泄露，需严格控制权限。",
+        "sourceName": "DataBreachToday",
+        "url": "https://www.databreachtoday.com/ai-coding-agents-expand-enterprise-attack-surface-a-32500"
+      },
+      {
         "name": "AutoGPT 如何用 AGENTS.md 和技能门控管理 AI 生成的拉取请求",
         "provider": "GitHub Blog",
         "type": "AI 项目/工具",
@@ -8489,24 +8718,139 @@
         "watch": "API 价格和配额可能限制小型团队的使用，导致无法充分利用其功能。",
         "sourceName": "X：DeepSeek (@deepseek_ai)",
         "url": "https://x.com/deepseek_ai/status/2083084415157022911"
-      },
-      {
-        "name": "Google 发布 Android 应用开发 AI 工具使用指南",
-        "provider": "Currents",
-        "type": "AI 项目/工具",
-        "bestFor": "这份指南的发布将对 Android 开发者产生深远影响，尤其是在提升开发效率和减少工作负担方面。通过引入 AI 工具，开发者能够更快地迭代和优化应用，进而提升用户体验。此外，随着更多开发者掌握 AI 技术，整个 Android 开发生态系统也将迎来新的变革。",
-        "description": "Google 最近发布了一份关于如何使用 AI 工具进行 Android 应用开发的实用指南。这份文档详细介绍了 Android Bench 的使用方法，旨在帮助开发者更高效地利用 AI 技术提升开发效率。无论是新手还是经验丰富的开发者，都能从中获得有价值的见解和技巧。",
-        "useCases": [
-          "访问 Google 的 Android Bench 文档，了解如何将 AI 工具整合到你的开发流程中。",
-          "使用文档中的示例代码，快速实现 AI 功能，提升应用的智能化水平。",
-          "根据指南中的最佳实践，优化你的开发环境，确保兼容性和性能。"
-        ],
-        "watch": "在使用 AI 工具时，需注意 API 的使用限制和配额，以避免超出预算。",
-        "sourceName": "Currents:AI coding tool",
-        "url": "https://www.reddit.com/r/androiddev/comments/1velsh4/helpful_guide_from_google_for_using_ai_tools_to/"
       }
     ],
     "ai-agents": [
+      {
+        "name": "AI 代理的失控现象引发用户担忧，安全需求激增",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "随着 AI 代理失控事件的频发，企业在选择 AI 产品时愈加谨慎，可能会导致对 AI 技术的整体采用速度放缓。网络安全公司将迎来新的市场机会，提供针对 AI 代理的保护服务，帮助企业应对潜在的安全威胁。此外，企业在决策时将更加重视安全性和可控性，可能会影响到未来 AI 技术的研发方向和投资策略。",
+        "description": "当前，AI 代理的失控行为导致用户信任度下降，促使企业寻求更安全的 AI 基础设施。随着网络安全需求的上升，相关企业正在崛起，提供针对 AI 代理的保护措施。",
+        "useCases": [
+          "评估 AI 代理的安全性，确保其符合企业的合规要求。",
+          "部署网络安全解决方案，保护企业免受 AI 代理的潜在攻击。",
+          "监控 AI 代理的行为，及时发现并应对失控现象。",
+          "与 AI 基础设施提供商合作，提升系统的安全性和可靠性。",
+          "进行员工培训，提高对 AI 代理风险的认识和应对能力。"
+        ],
+        "watch": "AI 代理的失控可能导致企业数据泄露，造成严重的财务损失和声誉损害。",
+        "sourceName": "NewsData.io:Claude AI",
+        "url": "https://thewest.com.au/business/the-economist/the-economist-ai-agents-lie-cheat-and-steal-that-is-putting-off-users-its-time-to-tame-the-new-frontier-c-22716981"
+      },
+      {
+        "name": "THE ECONOMIST: AI agents lie, cheat and steal. That is putti",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Rogue agents are creating a gold rush for firms promising to make AI safer, smarter and more trustworthy",
+        "description": "Rogue agents are creating a gold rush for firms promising to make AI safer, smarter and more trustworthy",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Claude AI",
+        "url": "https://thenightly.com.au/business/the-economist-ai-agents-lie-cheat-and-steal-that-is-putting-off-users-its-time-to-tame-the-new-frontier-c-22716981"
+      },
+      {
+        "name": "Writer发布Palmyra X6旗舰模型，显著提升AI代理性能",
+        "provider": "SiliconANGLE",
+        "type": "AI 项目/工具",
+        "bestFor": "Palmyra X6的推出将对市场营销和收入团队产生深远影响，帮助他们在控制成本的同时提升工作效率。企业可以通过更高效的AI代理来优化内容生成和客户互动，进而推动业务增长。此外，Playbooks和Skills的功能将促进团队间的知识共享和协作，提升整体工作效率。",
+        "description": "我注意到，生成式人工智能初创公司Writer Inc.今天推出了其下一代旗舰模型Palmyra X6，旨在为市场营销和收入团队提供前沿性能，同时控制成本。此模型的发布伴随着AI代理平台的重大升级，支持复杂的多步骤工作流程，提升了成本效率和长任务能力。根据Writer提供的数据，结合Palmyra X6后，代理平台的平均成本降低了52%，速度提升了48%，质量提高了10%。",
+        "useCases": [
+          "利用Palmyra X6生成高质量的市场营销内容，提升客户转化率。",
+          "通过AI代理自动化客户服务流程，减少人工成本。",
+          "使用Playbooks分享最佳实践，提升团队协作效率。",
+          "分析AI生成内容的效果，优化市场策略。",
+          "监控AI代理的性能和成本，确保资源的合理使用。"
+        ],
+        "watch": "API费用可能会随着使用量增加而显著上升，需提前预算。",
+        "sourceName": "SiliconANGLE",
+        "url": "https://siliconangle.com/2026/08/13/writer-launches-major-agentic-ai-improvements-palmyra-x6-flagship-model/"
+      },
+      {
+        "name": "Writer 发布 Palmyra X6 模型，AI 代理成本降低 52%",
+        "provider": "VentureBeat",
+        "type": "AI 项目/工具",
+        "bestFor": "Palmyra X6 的发布可能会改变企业对 AI 代理的投资决策，尤其是在控制成本方面。企业 CIO 和 CISO 将能够通过新治理工具更好地管理 AI 代理的使用，减少意外支出。随着代币消耗的激增，企业需要寻找降低成本的解决方案，Writer 的新模型和治理工具可能成为市场的一个重要选择。此外，Writer 的选择",
+        "description": "Writer 今日推出其新旗舰模型 Palmyra X6，声称该模型使其 AI 代理产品的运营成本平均降低 52%，速度提升 48%，质量提升 10%。此举旨在应对企业 AI 预算激增的问题，尤其是随着企业代理的普及，代币消耗预计将在 2026 至 2030 年间增长 24 倍。",
+        "useCases": [
+          "优化企业 AI 代理的成本结构，降低运营费用。",
+          "利用新治理工具监控和管理代币消耗，避免预算超支。",
+          "通过 Palmyra X6 提升企业内部工作流程的效率和质量。"
+        ],
+        "watch": "可能面临 API 价格波动，影响长期成本控制。",
+        "sourceName": "VentureBeat",
+        "url": "https://venturebeat.com/orchestration/writer-says-its-new-palmyra-x6-model-cuts-ai-agent-costs-by-52-as-token-spending-surges"
+      },
+      {
+        "name": "WRITER 发布 Palmyra X6，提升企业级 AI 经济效益",
+        "provider": "FinanzNachrichten.de",
+        "type": "AI 项目/工具",
+        "bestFor": "Palmyra X6 的发布将使企业在 AI 应用上更加自信，尤其是营销和收入团队。通过降低成本和提升效率，企业可以将 AI 应用扩展到更多的工作流中，而不仅仅是高价值任务。此外，新的治理工具将帮助管理层更好地控制支出，优化资源配置，从而推动整体业务的转型与增长。对于希望在 AI 领域取得突破的企业来说，Palmyra",
+        "description": "WRITER 最新发布的 Palmyra X6 模型，旨在为企业提供更高效的 AI 代理服务，降低成本并提升工作效率。通过对 WRITER Agent 的重大升级，企业可以在营销和收入工作流中实现更高的可靠性和控制力，助力团队在日常运营中自信地扩展 AI 应用。",
+        "useCases": [
+          "利用 Palmyra X6 自动生成营销内容，提高内容创作效率。",
+          "通过 WRITER Agent 执行复杂的客户服务流程，提升客户满意度。",
+          "分析团队使用新治理工具监控 AI 工作流的使用情况，优化支出。",
+          "在多渠道营销活动中，利用 AI 代理协调不同平台的内容发布。",
+          "为销售团队提供实时数据分析，支持决策制定。"
+        ],
+        "watch": "API 费用可能会随着使用量增加而显著上升，企业需谨慎管理预算。",
+        "sourceName": "FinanzNachrichten.de",
+        "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69304286-writer-makes-agentic-ai-economically-sustainable-at-enterprise-scale-with-palmyra-x6-release-and-major-harness-upgrades-004.htm"
+      },
+      {
+        "name": "Marchex 第二季度财报分析：增长与挑战并存",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Marchex的战略调整可能会吸引更多企业客户，尤其是在需要高效客户获取和分析的行业。通过整合Archenia的技术，Marchex有望提升客户的投资回报率，进而影响客户的决策过程。然而，市场竞争激烈，若未能有效整合资源，可能会影响公司的长期增长潜力。此外，客户对新技术的接受度也将直接影响Marchex的市场表现。",
+        "description": "Marchex（NASDAQ:MCHX）第二季度收入达到1100万美元，较第一季度的1060万美元有所增长，主要得益于新销售和客户追加购买。公司在收购Archenia后，提出了新的战略，旨在将对话智能与自动化客户获取工具相结合。然而，第二季度的财务结果未包含Archenia的贡献，未来的增长仍需关注市场竞争和技术整合的挑战。",
+        "useCases": [
+          "分析客户对话数据，识别潜在销售机会，提升销售转化率。",
+          "利用Marchex的自动化工具，优化客户获取流程，降低成本。",
+          "通过交叉销售策略，提升现有客户的产品使用率，增加收入。",
+          "整合对话智能技术，改善客户服务体验，提高客户满意度。",
+          "使用AI驱动的分析工具，实时监控市场动态，调整业务策略。"
+        ],
+        "watch": "收购后整合的复杂性可能导致技术和文化上的摩擦，影响团队协作。",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.thelincolnianonline.com/2026/08/12/marchex-q2-earnings-call-highlights.html"
+      },
+      {
+        "name": "Lemma 获得230万美元种子前融资，专注于解决 AI 代理的隐性故障",
+        "provider": "Tech Funding News",
+        "type": "AI 项目/工具",
+        "bestFor": [
+          "开发团队将能更快地识别和解决 AI 代理的隐性故障，从而提升用户体验。",
+          "投资者的支持将推动 Lemma 的产品开发，可能改变 AI 代理的监测和评估方式。",
+          "随着市场对 AI 代理可观测性需求的增加，Lemma 有望在行业中占据重要地位。"
+        ],
+        "description": "Lemma 公司成功筹集230万美元种子前融资，旨在识别和修复 AI 代理在实际应用中出现的隐性故障。该公司每日分析超过一百万条代理记录，帮助开发团队快速定位问题。尽管市场竞争激烈，Lemma 的全方位解决方案使其在众多竞争者中脱颖而出，但仍面临技术和市场的挑战。",
+        "useCases": [
+          "监测 AI 代理的实时行为，快速识别潜在故障。",
+          "通过分析代理记录，优化产品性能和用户体验。",
+          "为开发团队提供自动化的故障修复建议，减少人工干预。"
+        ],
+        "watch": "市场竞争激烈，其他公司可能迅速跟进，推出类似解决方案。",
+        "sourceName": "Tech Funding News",
+        "url": "https://techfundingnews.com/lemma-raises-2-3m-silent-ai-agent-failures/"
+      },
+      {
+        "name": "HONOR Robot Phone 全球发布，颠覆传统手机概念",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "HONOR Robot Phone 的推出将改变许多创作者的工作方式，尤其是视频博主和独立电影制作人。它的智能拍摄功能和高质量成像能力，使得用户能够在移动中轻松捕捉专业级画面。此外，随着更多开发者利用其开放的接口，未来可能会出现更多创新的应用场景，进一步推动移动摄影的发展。",
+        "description": "我注意到，HONOR 最近推出了备受期待的 HONOR Robot Phone，这款手机通过集成全电动三轴机械云台，打破了传统手机的物理界限。它不仅是一款智能手机，更是一个强大的移动制作工作室，结合了专业电影制作的元素，旨在为创作者提供更高效的拍摄体验。",
+        "useCases": [
+          "拍摄高质量视频，利用 200MP 摄像头和 ARRI LogC3 录制功能，提升视频制作水平。",
+          "使用 YOYO Robot 模式进行无缝拍摄，轻松捕捉动态场景，适合 vlog 和直播。",
+          "通过手势控制实现远程拍摄，适合需要多角度拍摄的创作场景。",
+          "利用强大的 AI 噪声消除和动态范围优化功能，提升视频质量，减少后期处理工作。",
+          "在专业编辑工具中直接应用 ARRI LUTs，简化后期制作流程。"
+        ],
+        "watch": "由于其高端功能，HONOR Robot Phone 的价格可能较高，限制了部分用户的购买意愿。",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://mb.com.ph/article/10931002/technews/honor-robot-phone-launched-globallycoming-to-ph"
+      },
       {
         "name": "DeepSeek-V4-Pro 正式版上线，Agent 能力显著提升",
         "provider": "DeepSeek：API 更新日志",
@@ -8945,119 +9289,69 @@
         "watch": "请打开原始来源核对",
         "sourceName": "dzone.com",
         "url": "https://dzone.com/articles/kernel-vision-for-ai-agents"
-      },
-      {
-        "name": "Your AI agent may be ready. Your sales motion probably isn't",
-        "provider": "VentureBeat",
-        "type": "AI 项目/工具",
-        "bestFor": "Interested buyers don't generate revenue. Live customers do. That's the lesson I keep drawing from watching hundreds of ISV partnerships navigate the agent econ",
-        "description": "Interested buyers don't generate revenue. Live customers do. That's the lesson I keep drawing from watching hundreds of ISV partnerships navigate the agent economy over the last 18",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "VentureBeat",
-        "url": "https://venturebeat.com/technology/your-ai-agent-may-be-ready-your-sales-motion-probably-isnt"
-      },
-      {
-        "name": "Wix launches Symphony, a new standalone multi-agent system b",
-        "provider": "SiliconANGLE",
-        "type": "AI 项目/工具",
-        "bestFor": "Cloud-based website builder Wix Ltd. today announced the launch of Symphony, a new standalone agentic artificial intelligence platform that proactively learns b",
-        "description": "Cloud-based website builder Wix Ltd. today announced the launch of Symphony, a new standalone agentic artificial intelligence platform that proactively learns business values, inte",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "SiliconANGLE",
-        "url": "https://siliconangle.com/2026/08/11/wix-launches-symphony-new-standalone-multi-agent-system-built-business-operations/"
-      },
-      {
-        "name": "信用合作社引入代理人工智能以优化运营",
-        "provider": "PYMNTS.com",
-        "type": "AI 项目/工具",
-        "bestFor": "引入代理人工智能后，信用合作社的运营效率将显著提高，员工可以将更多时间投入到客户关系管理和复杂问题解决中。随着AI技术的成熟，信用合作社将能够在风险管理、服务速度和决策一致性等方面取得更大进展。这种转变不仅会提升会员体验，还可能改变行业内的竞争格局，促使更多金融机构考虑类似的技术投资。",
-        "description": "信用合作社正在通过引入代理人工智能（Agentic AI）来重塑其企业工作流程。这种转变虽然能提高运营效率和一致性，但也带来了对人类判断和会员关注的挑战。成功的关键在于如何在不削弱合作社核心理念的前提下，合理引入AI技术。",
-        "useCases": [
-          "优化客户服务流程，通过AI自动化响应和问题分类，提高客户满意度。",
-          "在信贷审批中利用AI分析申请者数据，加快审批速度并降低风险。",
-          "通过AI监测和分析交易数据，及时识别潜在的欺诈行为。"
-        ],
-        "watch": "代理人工智能的实施可能面临高昂的API费用和使用配额限制，增加运营成本。",
-        "sourceName": "PYMNTS.com",
-        "url": "https://www.pymnts.com/opinion/2026/credit-unions-give-ai-the-legwork-and-humans-the-last-word/"
-      },
-      {
-        "name": "AI Assistant Hacks Gym Booking System, Books Slot And Remove",
-        "provider": "NDTV",
-        "type": "AI 项目/工具",
-        "bestFor": "* Andrew tested an AI assistant that booked a gym class months ahead of allowed time\n\n* The AI agent removed another person from a gym class waiting list withou",
-        "description": "* Andrew tested an AI assistant that booked a gym class months ahead of allowed time\n\n* The AI agent removed another person from a gym class waiting list without instruction\n\n* AI ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NDTV",
-        "url": "https://www.ndtv.com/world-news/ai-assistant-hacks-gym-booking-system-books-slot-and-removes-user-from-waitlist-11893781"
-      },
-      {
-        "name": "Model Discovery Agent：高效数据驱动的实验设计工具",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "MDA 的推出将对多个领域的研究人员产生深远影响。首先，科学家们可以利用 MDA 进行更高效的实验设计，从而加快研究进程。其次，MDA 使得在资源有限的情况下，研究人员仍能进行有效的因果推断，推动科学发现。此外，MDA 还可能改变研究资金的分配方式，研究者可能会更倾向于选择数据效率高的实验设计，从而影响整个科研生态。",
-        "description": "这次发布的核心点是 Model Discovery Agent（MDA），它结合了大型语言模型（LLM）与贝叶斯实验设计，旨在提高实验的效率，帮助研究人员在复杂的因果模型中进行数据驱动的发现。MDA 通过提出候选结构，优化实验设计，降低了实验成本，适用于需要高效数据获取的科学研究领域。",
-        "useCases": [
-          "使用 MDA 设计实验以验证假设，提升实验效率。",
-          "利用 MDA 进行数据分析，优化实验方案。",
-          "在有限数据条件下，通过 MDA 进行因果推断。",
-          "结合 MDA 与现有数据集，探索新的研究方向。",
-          "通过 MDA 提高实验的可重复性和可靠性。"
-        ],
-        "watch": "MDA 的使用可能需要较高的技术门槛，初学者可能难以掌握。",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2608.09696v1"
-      },
-      {
-        "name": "Hallucination-Free GUI Grounding via Regression-Free Layout-",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "GUI agents are shifting from metadata-dependent large language models to purely visual multimodal large language models (MLLMs) that operate directly on screens",
-        "description": "GUI agents are shifting from metadata-dependent large language models to purely visual multimodal large language models (MLLMs) that operate directly on screenshots. The core task,",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2608.09654v1"
-      },
-      {
-        "name": "多智能体系统通过答案共享实现近乎双倍准确率提升",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "这一研究成果可能会影响多智能体系统的设计和应用，尤其是在需要高准确性的领域，如医疗和金融。开发者可能会重新考虑如何在多智能体环境中实现有效的答案共享，以提高系统整体性能。同时，这也可能促使对数据准备方法的重新审视，尤其是在涉及敏感数据时。随着多智能体系统的应用范围扩大，如何平衡计算成本与性能提升将成为关键决策因素。",
-        "description": "2026年8月7日的研究表明，多智能体AI系统通过更好的答案共享机制，能够在某些任务上实现高达81%的性能提升。然而，准确性验证和计算成本的挑战依然显著，当前文献中对近乎双倍准确率的主张缺乏坚实的实证支持。",
-        "useCases": [
-          "优化多智能体系统的设计，提升任务执行效率。",
-          "在医疗领域应用标记化数据，提升诊断准确性。",
-          "开发新的答案共享机制，减少错误放大现象。",
-          "在金融科技中实现更高的预测准确率，改善决策支持。",
-          "利用多次模型调用提高大型语言模型的输出质量。"
-        ],
-        "watch": "计算成本可能因复杂的智能体架构而显著增加，影响项目预算。",
-        "sourceName": "NewsAPI:large language model",
-        "url": "https://cryptobriefing.com/ai-agents-accuracy-answer-sharing-research/"
-      },
-      {
-        "name": "智能代理的应用与挑战",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "智能代理的广泛应用将改变多个行业的工作方式，提升效率并降低人力成本。企业可以利用智能代理进行市场研究和客户管理，从而做出更精准的决策。此外，智能代理的普及可能会引发对传统岗位的重新定义，推动工作流程的自动化和智能化。",
-        "description": "智能代理被视为人工智能的终极目标，具备自主执行任务的能力。通过基础模型的创新，智能代理可以在多个领域中发挥作用，如网站创建、数据收集和市场研究等。然而，智能代理的开发与评估仍处于探索阶段，面临着工具选择和规划等方面的挑战。",
-        "useCases": [
-          "创建网站：使用智能代理工具快速生成网站内容和布局，节省开发时间。",
-          "数据收集：利用智能代理自动化收集市场数据，提升数据获取效率。",
-          "市场研究：通过智能代理分析竞争对手，提供市场趋势洞察。",
-          "客户管理：智能代理帮助管理客户账户，自动化客户沟通流程。",
-          "面试准备：使用智能代理模拟面试，提升候选人的面试表现。"
-        ],
-        "watch": "API配额限制：使用智能代理时需注意API调用次数，避免超出配额导致服务中断。",
-        "sourceName": "RSS · Chip Huyen",
-        "url": "https://huyenchip.com//2025/01/07/agents.html"
       }
     ],
     "ai-models": [
+      {
+        "name": "Anthropic 与 Riot Platforms 签署 91 亿美元电力租赁协议",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "这一协议的签署将对 AI 行业产生深远影响。首先，AI 开发者和公司将能够获得更可靠的电力供应，进而提升模型训练的效率。其次，随着电力资源的竞争加剧，可能会推动电力价格的上涨，从而影响到其他依赖电力的行业。此外，这也可能促使更多的比特币矿场转型为数据中心，进一步改变市场格局。",
+        "description": "我注意到，Anthropic 最近与 Riot Platforms 签署了一份为期 20 年、价值 91 亿美元的租赁协议，租用位于德克萨斯州的前比特币矿场的 191 兆瓦数据中心容量。这一交易不仅让 RIOT 股票在一夜之间上涨了 25%，还揭示了 AI 公司在争夺电力资源方面的激烈竞争。",
+        "useCases": [
+          "评估数据中心电力需求，优化资源配置。",
+          "与电力供应商谈判，确保长期稳定的电力供应。",
+          "分析市场动态，预测电力价格变化对业务的影响。"
+        ],
+        "watch": "电力租赁协议可能面临价格波动风险，影响长期成本。",
+        "sourceName": "NewsData.io:Claude AI",
+        "url": "https://memeburn.com/anthropic-riot-platforms-9-billion-deal/"
+      },
+      {
+        "name": "Sheba first outside US to deploy platform",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Sheba becomes first hospital outside US to deploy OpenAI healthcare platform, with Australian rollout a goal.",
+        "description": "Sheba becomes first hospital outside US to deploy OpenAI healthcare platform, with Australian rollout a goal.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Claude AI",
+        "url": "https://www.australianjewishnews.com/sheba-first-outside-us-to-deploy-platform/"
+      },
+      {
+        "name": "DeepSeek正式发布V4 Pro模型，扩张步伐加快",
+        "provider": "Yahoo! Finance",
+        "type": "AI 项目/工具",
+        "bestFor": "V4 Pro模型的发布将吸引更多开发者和企业用户，可能改变他们在AI应用中的决策。随着API定价的调整，用户在成本控制和性能选择上将面临新的考量。此外，DeepSeek的扩张计划可能会激励其他AI公司加大招聘和技术投资，进一步加剧市场竞争。",
+        "description": "2026年8月13日，中国人工智能初创公司DeepSeek正式推出其V4 Pro模型，以应对国内竞争对手的快速发展。新模型V4-Pro-0813显著提升了代理能力，并通过API、APP和Web渠道提供。DeepSeek还计划提高V4 Pro和V4 Flash模型的API定价，并引入峰谷定价策略。",
+        "useCases": [
+          "集成V4 Pro模型于现有应用，提升智能代理的响应能力。",
+          "利用API接口进行自定义开发，优化业务流程。",
+          "分析V4 Pro性能数据，制定更有效的市场策略。",
+          "招聘AI领域人才，增强团队技术实力。",
+          "开发自有AI芯片，降低对外部供应商的依赖。"
+        ],
+        "watch": "API价格上涨可能导致用户成本增加，影响小型企业的使用意愿。",
+        "sourceName": "Yahoo! Finance",
+        "url": "https://finance.yahoo.com/news/deepseek-releases-official-v4-pro-125608280.html"
+      },
+      {
+        "name": "DeepSeek 正式发布 V4 Pro 模型，力争在 AI 领域重回领先",
+        "provider": "Yahoo News",
+        "type": "AI 项目/工具",
+        "bestFor": "V4 Pro 模型的发布将吸引希望提升 AI 应用能力的企业和开发者，尤其是在数据处理和智能代理领域。对于需要高性能 AI 解决方案的公司来说，V4 Pro 提供了一个值得考虑的选项。同时，定价策略的调整可能会影响开发者的预算决策，尤其是在 API 使用频率较高的场景下。整体来看，DeepSeek 的发展将对国内 AI",
+        "description": "DeepSeek 于 8 月 13 日正式发布 V4 Pro 模型，旨在增强其在国内 AI 市场的竞争力。新模型 V4-Pro-0813 提升了代理能力，并通过 API、APP 和 Web 渠道提供。尽管 V4 Flash 模型在独立测试中表现优于 V4 Pro，但 DeepSeek 仍计划提高 API 定价并引入峰谷定价策略，以应对激烈的市场竞争。",
+        "useCases": [
+          "集成 V4 Pro 模型到现有应用中，提升智能代理的响应速度和准确性。",
+          "利用 API 接口进行大规模数据处理，优化业务流程。",
+          "开发基于 V4 Pro 的个性化推荐系统，提高用户体验。",
+          "在企业内部培训中使用 V4 Pro 模型，提升员工对 AI 技术的理解。",
+          "进行市场分析，利用 V4 Pro 的数据处理能力，获取竞争优势。"
+        ],
+        "watch": "API 定价的提高可能导致开发者在预算上的压力，影响项目的可行性。",
+        "sourceName": "Yahoo News",
+        "url": "https://malaysia.news.yahoo.com/deepseek-releases-official-v4-pro-125608280.html"
+      },
       {
         "name": "2026年独立日：谷歌Gemini AI图像生成提示",
         "provider": "thedailyjagran.com",
@@ -9569,69 +9863,24 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Bangla news",
         "url": "https://inews.zoombangla.com/microsoft-to-unify-copilot-apps-add-gpt-5-6-and-claude/"
-      },
-      {
-        "name": "Palantir Technologies 股票面临转机",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "Palantir 股票的潜在回暖可能会吸引更多投资者，尤其是在 AI 领域的持续增长背景下。若股价回升，可能会改变投资者对科技股的整体看法，进而影响市场对其他类似公司的投资决策。此外，Palantir 的成功将进一步验证其商业模式的有效性，可能促使更多企业在 AI 领域进行投资。",
-        "description": "Palantir Technologies（NASDAQ: PLTR）在过去几个月内经历了股价波动，尽管公司持续发布强劲业绩，AI 软件需求不断上升，但投资者反应平淡。近期市场情绪似乎有所改善，可能预示着股价回暖的机会。",
-        "useCases": [
-          "分析 Palantir 的财务报告，评估其投资价值。",
-          "监测 AI 软件市场动态，预测未来趋势。",
-          "利用 Palantir 的数据分析工具，优化业务决策。"
-        ],
-        "watch": "Palantir 股票的波动性较大，投资者需谨慎评估风险。",
-        "sourceName": "NewsAPI:artificial intelligence",
-        "url": "https://biztoc.com/x/04d72ccff0abd263"
-      },
-      {
-        "name": "未来工作消失，如何利用闲暇时间？",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "这一变化将影响各个层面，首先是劳动市场的结构，许多传统职业将消失，新的职业将应运而生。其次，政府可能需要重新考虑社会保障和收入分配机制，以适应普遍高收入的需求。此外，个人的生活方式也将发生变化，人们可能会更多地追求兴趣和创造性活动，而非单纯的工作。最后，经济的整体结构可能会向更高效和可持续的方向发展，带来新的商业模式和",
-        "description": "随着人工智能和机器人技术的发展，Elon Musk 预测到 2036 年，几乎所有工作都将被 AI 取代。人类可能会面临新的生活方式，享受由政府提供的普遍高收入。本文探讨了这一变化对人类生活的影响及应对策略。",
-        "useCases": [
-          "探索新的职业机会，关注 AI 和机器人技术相关的领域，提升自身技能以适应未来市场。",
-          "参与社区活动，利用闲暇时间进行志愿服务，增强社会联系和个人满足感。",
-          "学习新技能，如编程或艺术创作，以便在未来的经济环境中找到新的价值。",
-          "关注政府政策变化，积极参与公共讨论，影响未来的社会保障和收入分配机制。",
-          "利用 AI 工具进行个人项目，提升工作效率，创造更多的闲暇时间。"
-        ],
-        "watch": "AI 技术的快速发展可能导致技能过时，需不断学习以保持竞争力。",
-        "sourceName": "NewsAPI:artificial intelligence",
-        "url": "https://www.irishtimes.com/opinion/2026/08/09/ian-robertson-if-elon-musk-is-right-and-ai-makes-jobs-extinct-what-will-we-do-with-our-free-time/"
-      },
-      {
-        "name": "Bessent: Rich-Poor Gap Narrowing Despite Persistent Inflatio",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "Treasury Secretary Scott Bessent said the long-running economic divide between wealthier and lower-income Americans is narrowing, even as inflation and high liv",
-        "description": "Treasury Secretary Scott Bessent said the long-running economic divide between wealthier and lower-income Americans is narrowing, even as inflation and high living costs continue t",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsAPI:artificial intelligence",
-        "url": "https://www.naturalnews.com/2026-08-09-bessent-rich-poor-gap-narrowing-despite-inflation.html"
-      },
-      {
-        "name": "千问开放平台正式上线，覆盖多领域智能服务",
-        "provider": "公众号：千问APP（阿里）",
-        "type": "AI 项目/工具",
-        "bestFor": "千问开放平台的上线将为开发者和生态伙伴提供更多的服务接入机会，促进业务的快速发展。用户将能够更便捷地获取所需服务，改变传统的服务获取方式，提升生活质量。随着平台的推广，预计将引发更多行业的智能化转型，推动整体市场的创新与发展。",
-        "description": "千问开放平台今日正式上线，面向生态伙伴和开发者提供手机、PC和AI眼镜三类终端的服务接入，涵盖物流、房产、本地生活、理财等十多个领域。用户可通过对话@相关服务或点击\"圆点角标\"，完成咨询、推荐及下单等流程。平台支持标准化协议接入、一键授权及端到端调测，并提供基础设施如账号、AI支付和订单接入。",
-        "useCases": [
-          "注册并接入千问开放平台，使用标准化协议快速搭建自己的服务。",
-          "通过对话方式与用户互动，提供个性化的服务推荐，提升用户满意度。",
-          "利用平台的AI支付功能，简化用户的支付流程，提升交易效率。",
-          "进行端到端调测，确保服务的稳定性和安全性，减少上线后的问题。",
-          "分析用户反馈，优化服务内容，提升平台的用户粘性。"
-        ],
-        "watch": "在接入过程中，开发者需注意API的使用配额，避免因超额使用导致服务中断。",
-        "sourceName": "公众号：千问APP（阿里）",
-        "url": "https://mp.weixin.qq.com/s?__biz=MzYzNDE5MDEwMQ%3D%3D&mid=2247488345&idx=1&sn=ef4e57c9c9350f9238d90211eb2dd453"
       }
     ],
     "ai-business": [
+      {
+        "name": "AICC 平台展示企业可低于每月 50 美元部署 AI 客服代理",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "这一发现将对中小企业产生深远影响，使其能够以更低的成本获得高效的客户服务解决方案。企业在决策时将更加倾向于采用 AI 技术，从而提升客户满意度和忠诚度。此外，随着越来越多的企业部署 AI 客服代理，整个行业的服务标准可能会提升，促使传统客服行业进行转型和升级。",
+        "description": "新加坡 AICC 平台发布研究结果，表明企业通过其网络的多模型路由技术，可以以每月低于 50 美元的成本部署生产就绪的 AI 客服代理。这一发现为中小企业提供了可负担的 AI 解决方案，可能会改变客户服务行业的格局。",
+        "useCases": [
+          "部署 AI 客服代理以降低客户服务成本，提升响应速度和准确性。",
+          "利用多模型路由技术优化客服资源配置，提高客户满意度。",
+          "为中小企业提供可负担的 AI 解决方案，增强市场竞争力。"
+        ],
+        "watch": "API 价格波动可能影响企业的长期成本预算，需谨慎评估。",
+        "sourceName": "NewsData.io:Claude AI",
+        "url": "https://www.openpr.com/news/4602592/aicc-platform-demonstrates-businesses-can-deploy-ai-customer"
+      },
       {
         "name": "谷歌的 Gemini AI 助手用户突破十亿",
         "provider": "Free Malaysia Today",
@@ -10218,21 +10467,6 @@
         "watch": "项目可能面临公众反对，影响建设进度和成本。",
         "sourceName": "NewsAPI:artificial intelligence",
         "url": "https://www.bostonglobe.com/2026/08/01/business/data-centers-unions/"
-      },
-      {
-        "name": "彼得·林奇对AI投资持谨慎态度，强调了解所持资产的重要性",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "彼得·林奇的观点可能会影响投资者对AI相关股票的信心，促使他们重新评估投资策略。随着市场对科技股的谨慎态度加剧，可能会导致更多投资者选择避险，转向其他资产类别。此外，分析师的警告可能促使科技公司在AI投资上更加谨慎，重新审视其财务状况和投资回报预期。长远来看，这种趋势可能会影响整个科技行业的融资环境，导致对新兴技术的投",
-        "description": "彼得·林奇对当前AI投资热潮表示担忧，认为科技巨头的巨额支出和不断上升的债务可能不会带来预期的回报。这一观点引发了市场对科技股的抛售，分析师们也开始对AI投资的可持续性提出质疑。",
-        "useCases": [
-          "评估科技公司的财务健康状况，制定投资决策。",
-          "分析市场趋势，识别潜在的投资风险。",
-          "研究AI技术的商业应用，寻找投资机会。"
-        ],
-        "watch": "科技公司可能面临的高债务水平，影响其财务稳定性。",
-        "sourceName": "NewsAPI:artificial intelligence",
-        "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/peter-lynch-does-not-like-the-ai-trade-heres-why-he-says-know-what-you-own/articleshow/132781445.cms"
       }
     ],
     "ai-benchmark": [
@@ -13990,8 +14224,8 @@
   ],
   "dailyReport": {
     "date": "2026-08-13",
-    "generatedAt": "2026-08-13T12:07:45.603012Z",
-    "total": 58,
+    "generatedAt": "2026-08-13T14:46:26.460792Z",
+    "total": 60,
     "sections": [
       {
         "category": "ai-tools",
@@ -14064,6 +14298,17 @@
             "reason": "RingCentral 的 AI 解决方案通过智能化手段提升了团队协作效率，值得关注。"
           },
           {
+            "title": "Distribird：基于文献的贝叶斯模型校准先验分布设计",
+            "summary": "我注意到，Distribird 是一个自动化的网络应用程序，旨在简化贝叶斯模型校准中的先验分布设计。它通过文献检索和多代理管道，提取和加权相关参数值，帮助研究人员更高效地构建信息丰富的先验分布，避免了传统方法中对均匀先验的依赖。",
+            "source": "RSS · arXiv cs.AI",
+            "url": "https://arxiv.org/abs/2608.11210",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-13",
+            "publishedAt": "",
+            "reason": "Distribird 通过自动化文献检索和参数值提取，极大地提高了贝叶斯模型校准的效率和准确性，是研究人员不可或缺的工具。"
+          },
+          {
             "title": "Gemini 助力 PostgreSQL 迁移，简化数据库转换",
             "summary": "Google Cloud 的数据库迁移服务（DMS）引入了由 Gemini 驱动的 AI 辅助代码转换功能，能够高效将 Oracle 或 SQL Server 的存储过程、触发器和自定义函数转换为 PostgreSQL PL/pgSQL 代码。这一创新显著提升了数据库迁移的速度和",
             "source": "Google Cloud：Databases（RSS）",
@@ -14117,17 +14362,6 @@
             "date": "2026-08-13",
             "publishedAt": "2026-08-13T12:32",
             "reason": "WorkBuddy的远程控制功能将极大提升用户在多设备间的协作效率，值得关注和尝试。"
-          },
-          {
-            "title": "ChatGPT 桌面端新增智能体数据导入功能",
-            "summary": "ChatGPT 桌面应用现支持导入其他智能体的工作数据，包括项目、聊天记录、技能和插件，用户可选择自动更新功能。这一更新旨在提升工作效率，但也可能面临兼容性和数据安全等问题。",
-            "source": "X：OpenAI Developers (@OpenAIDevs)",
-            "url": "https://x.com/OpenAIDevs/status/2087242829076791392",
-            "score": 61,
-            "sourceCount": 1,
-            "date": "2026-08-12",
-            "publishedAt": "2026-08-12T02:20",
-            "reason": "这一更新为用户提供了更高效的工作方式，但在享受便利的同时，需关注潜在的兼容性和安全问题。"
           }
         ]
       },
@@ -14178,6 +14412,17 @@
             "date": "2026-08-13",
             "publishedAt": "",
             "reason": "SHAPER 提供了一种创新的无训练适应方法，适合希望降低训练成本的开发者，值得关注。"
+          },
+          {
+            "title": "AutoWorldModel-Bench: A State-Centric Benchmark for Automated World-Model Research",
+            "summary": "arXiv:2608.11216v1 Announce Type: new Abstract: World modeling is an unsettled field: architectures, training objectives, and state represen",
+            "source": "RSS · arXiv cs.AI",
+            "url": "https://arxiv.org/abs/2608.11216",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-13",
+            "publishedAt": "",
+            "reason": ""
           },
           {
             "title": "Towards Automated Domain Model Extraction from Source Code using Heuristics and Open-Source LLMs",
@@ -14283,6 +14528,17 @@
             "date": "2026-08-12",
             "publishedAt": "2026-08-12T21:44",
             "reason": "这一支付系统通过结合区块链和 AWS 技术，为企业提供了安全、透明的支付解决方案，值得关注。"
+          },
+          {
+            "title": "A Forced-Structure Reduction and Verifiable Bounds for Conway's 99-Graph",
+            "summary": "arXiv:2608.11211v1 Announce Type: new Abstract: Conway's 99-graph problem asks whether a strongly regular graph with parameters $\\mathrm{srg",
+            "source": "RSS · arXiv cs.AI",
+            "url": "https://arxiv.org/abs/2608.11211",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-13",
+            "publishedAt": "",
+            "reason": ""
           },
           {
             "title": "Better, Faster, Stronger: Programmatic Skill Learning Best Reduces Agent Cost",
@@ -14545,6 +14801,17 @@
             "reason": "AMIE 项目通过结合音视频技术与 AI，显著提升了医疗咨询的质量和效率，值得关注。"
           },
           {
+            "title": "量化混合专家中的因果路径介导损伤检测",
+            "summary": "本研究探讨了在量化混合专家（MoE）模型中，如何检测路径翻转现象。通过模拟4位KV缓存量化，发现这种不连续的路由机制会导致令牌跨越决策边界，影响专家的激活。研究提供了因果分析工具和实证结果，揭示了量化损伤的路径介导分数（RMF）约为0.31，且检测到的翻转无法区分有害与有益的翻转",
+            "source": "RSS · arXiv cs.AI",
+            "url": "https://arxiv.org/abs/2608.11212",
+            "score": 82,
+            "sourceCount": 1,
+            "date": "2026-08-13",
+            "publishedAt": "",
+            "reason": "本研究提供了量化混合专家模型中路径翻转现象的深入分析，揭示了其对模型性能的影响，具有重要的实用价值和研究意义。"
+          },
+          {
             "title": "深度学习模型的碳足迹：可持续人工智能的全面评估",
             "summary": "我注意到，人工智能（AI）和机器学习（ML）在支持和自动化复杂人类任务方面发挥着越来越重要的作用。然而，随着这些技术的广泛应用，尤其是大型深度学习模型的部署，其高能耗和碳排放引发了越来越多的环境关注。这篇综述文章对深度学习模型的碳足迹进行了全面分析，探讨了其对可持续发展的影响。",
             "source": "RSS · arXiv cs.AI",
@@ -14600,6 +14867,17 @@
             "reason": "这篇文章深入探讨了自动推理组如何将数学逻辑应用于实际生产环境，展示了其在云计算安全中的重要性。"
           },
           {
+            "title": "低成本 LLM 代理建模：在笔记本上模拟大型 LLM 代理社会",
+            "summary": "这次发布的核心点是，Igor Itkin 提出了一个低成本的模型来模拟大型语言模型（LLM）代理的社会。通过将每个 LLM 代理替换为一个低参数模型，该方法能够在笔记本电脑上运行，显著降低了模拟的成本和复杂性。此方法的有效性在多个 LLM 模拟中得到了验证，提供了新的研究思路。",
+            "source": "RSS · arXiv cs.AI",
+            "url": "https://arxiv.org/abs/2608.11215",
+            "score": 78,
+            "sourceCount": 1,
+            "date": "2026-08-13",
+            "publishedAt": "",
+            "reason": "这项研究提供了一种低成本的 LLM 代理建模方法，适合广泛的研究和应用，值得关注。"
+          },
+          {
             "title": "评估上下文压缩中的侧约束损失",
             "summary": "这次发布的核心点是，LLM系统在上下文窗口受限时，会压缩之前的上下文以继续进行任务。然而，用户发出的某些指令（如“在我确认之前不要删除任何邮件”）在压缩过程中被悄然丢弃。为此，研究团队提出了COMPINT评估套件，旨在量化这一损失。",
             "source": "RSS · arXiv cs.CL",
@@ -14631,28 +14909,6 @@
             "date": "2026-08-13",
             "publishedAt": "",
             "reason": "MIDAS为多模态情感分析提供了创新的解决方案，尤其在处理不完整数据方面具有重要价值。"
-          },
-          {
-            "title": "Google 推出 AMIE：实时临床视频咨询的医疗 AI 系统",
-            "summary": "这次发布的核心点是 Google 的 AMIE 系统在模拟环境中展示了实时临床视频咨询的能力。该系统基于多代理架构，能够解读视觉和听觉线索，进行虚拟体检，并实时进行诊断推理。尽管仍处于研究阶段，但 AMIE 为未来健康 AI 的发展提供了令人兴奋的前景。",
-            "source": "RSS · Google AI Blog",
-            "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/",
-            "score": 78,
-            "sourceCount": 1,
-            "date": "2026-08-12",
-            "publishedAt": "2026-08-12T01:00",
-            "reason": "AMIE 系统展示了医疗 AI 在实时视频咨询中的潜力，值得关注其未来的发展和应用。"
-          },
-          {
-            "title": "Gloss-Free Representation Learning for Cross-Dataset Sign Spotting",
-            "summary": "arXiv:2608.11332v1 Announce Type: new Abstract: Sign-language research for resource-constrained languages is often limited by the cost of de",
-            "source": "RSS · arXiv cs.CL",
-            "url": "https://arxiv.org/abs/2608.11332",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-13",
-            "publishedAt": "",
-            "reason": ""
           }
         ]
       },
@@ -26919,6 +27175,18 @@
     ]
   },
   "benchmarkDatasets": [
+    {
+      "name": "AutoWorldModel-Bench",
+      "area": "AI 模型能力评测",
+      "note": "arXiv:2608.11216v1 Announce Type: new Abstract: World modeling is an unsettled field: architectures, training objectives, and state representations interact in complex ways, and no",
+      "source": "https://arxiv.org/abs/2608.11216",
+      "sourceName": "RSS · arXiv cs.AI",
+      "date": "2026-08-13",
+      "originTitle": "AutoWorldModel-Bench: A State-Centric Benchmark for Automated World-Model Research",
+      "evaluates": [],
+      "useCases": [],
+      "limitations": []
+    },
     {
       "name": "NetlistBench",
       "area": "AI 模型能力评测",
