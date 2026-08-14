@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-08-14",
-  "generatedAt": "2026-08-14T06:00:18.712433Z",
+  "generatedAt": "2026-08-14T08:39:15.173774Z",
   "news": [
     {
       "title": "MaSRead：内容寻址的复制潜在存储读取",
@@ -5104,349 +5104,6 @@ window.AI_GENERATED_DATA = {
         "news"
       ],
       "sourceCount": 1
-    },
-    {
-      "title": "Solv Labs 在 Amazon Bedrock 上构建可验证的代理支付系统",
-      "summary": "Solv Labs 在 Amazon Bedrock AgentCore 上开发了一套受监管的代理支付工作流，确保每笔交易都经过授权，并在 AWS Nitro Enclave 中进行验证，最终通过公共区块链进行结算。这种模式为企业提供了可验证、可审计的自主代理支付路径，适用于受监管环境。",
-      "category": "ai-agents",
-      "tags": [
-        "代理支付",
-        "区块链",
-        "AWS",
-        "自动化",
-        "合规"
-      ],
-      "keyPoints": [
-        "Solv Labs 利用 Amazon Bedrock AgentCore 构建了一套代理支付系统，确保交易的安全性和透明度。",
-        "每笔交易都在 AWS Nitro Enclave 中进行验证，提升了安全性。",
-        "该系统通过公共区块链记录交易，确保可审计性，适合受监管行业。",
-        "Solv Labs 的解决方案为企业提供了一条清晰的支付审计路径，降低合规风险。",
-        "该支付系统的设计考虑了风险定价，确保企业在交易中的利益最大化。"
-      ],
-      "background": "Solv Labs 最近在 Amazon Bedrock 上推出了一种新的代理支付工作流，旨在为企业提供更安全、透明的支付解决方案。与传统支付系统相比，该系统通过在 AWS Nitro Enclave 中进行交易验证，显著提高了安全性。此外，所有交易都记录在公共区块链上，确保了可审计性。这种设计不仅符合监管要求，还为企业提供了清晰的审计路径，降低了合规风险。与以往的支付系统相比，Solv Labs 的解决方案在透明度和安全性上有了显著提升。",
-      "impact": "这一支付系统特别适合金融服务、电子商务和其他受监管行业的企业。它使得企业能够在确保合规的同时，简化支付流程，降低运营成本。通过提供可审计的交易记录，企业可以更轻松地应对监管审查。此外，这种透明的支付模式可能会吸引更多客户，提升企业的市场竞争力。",
-      "audience": [
-        "金融服务合规专员",
-        "电子商务平台开发者",
-        "区块链技术工程师"
-      ],
-      "useCases": [
-        "实现自动化支付流程，减少人工干预，提高效率。",
-        "利用区块链技术进行交易记录，确保透明性和可追溯性。",
-        "为受监管行业提供合规的支付解决方案，降低合规风险。"
-      ],
-      "risks": [
-        "API 价格可能较高，增加企业的运营成本。",
-        "在不同地区的合规要求可能导致系统实施复杂，增加开发难度。",
-        "对 AWS 服务的依赖可能导致在服务中断时出现支付问题。"
-      ],
-      "reason": "这一支付系统通过结合区块链和 AWS 技术，为企业提供了安全、透明的支付解决方案，值得关注。",
-      "scores": {
-        "importance": 75,
-        "novelty": 70,
-        "firsthand": 85,
-        "impact": 80,
-        "credibility": 80
-      },
-      "url": "https://aws.amazon.com/blogs/machine-learning/pay-with-confidence-how-solv-labs-built-verifiable-auditable-agent-payments-on-amazon-bedrock-agentcore-payments/",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-08-12",
-      "publishedAt": "2026-08-12T21:44",
-      "collectedAt": "2026-08-13T00:46",
-      "dateStatus": "verified",
-      "tier": "T1",
-      "score": 77,
-      "aiSelected": true,
-      "_style": "reviewer",
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "RingCentral 利用 ChatGPT 加速 AI 产品开发与运营智能化",
-      "summary": "RingCentral 正在通过 ChatGPT Work 和 Codex 来加速其 AI 产品开发，并实现工程与运营的智能化集中管理。这一举措不仅提升了工作效率，还为团队协作带来了新的可能性。本文将深入探讨其与传统方法的不同之处及其潜在影响。",
-      "category": "ai-tools",
-      "tags": [
-        "RingCentral",
-        "ChatGPT",
-        "AI产品开发",
-        "运营智能",
-        "团队协作"
-      ],
-      "keyPoints": [
-        "RingCentral 结合 ChatGPT Work 和 Codex，旨在提升 AI 产品开发的效率，预计将开发周期缩短 30%。",
-        "通过集中管理工程与运营数据，RingCentral 实现了信息流的透明化，减少了团队间的沟通成本。",
-        "该平台的智能化工具能够实时分析数据，帮助团队快速做出决策，提升了整体工作效率。",
-        "RingCentral 计划在未来 6 个月内推出更多基于 AI 的功能，以进一步增强用户体验。",
-        "目前，RingCentral 的 AI 解决方案已在多个行业内得到应用，包括电信、金融和医疗等领域。"
-      ],
-      "background": "RingCentral 是一家专注于云通信和协作解决方案的公司，近年来逐渐将目光投向 AI 技术的应用。通过引入 ChatGPT Work 和 Codex，RingCentral 试图在产品开发和运营管理中实现更高的智能化水平。这一转变与行业内其他公司相比，显示出其在技术应用上的前瞻性。与传统的开发流程相比，RingCentral 的新方法不仅提高了效率，还为团队协作提供了更为灵活的解决方案。AI 技术的引入，使得数据处理和决策制定变得更加迅速和精准，符合现代企业对快速响应市场变化的需求。",
-      "impact": "推荐给希望提升团队协作效率的企业，特别是那些在 AI 产品开发领域寻求创新的公司。通过使用 RingCentral 的解决方案，团队可以更快地获取和分析数据，从而做出更明智的决策。此外，IT 部门和运营管理者也能从中受益，借助智能化工具优化工作流程。对于那些希望在竞争中保持领先的企业来说，RingCentral 的 AI 解决方案无疑是一个值得考虑的选择。",
-      "audience": [
-        "产品经理",
-        "软件工程师",
-        "运营经理",
-        "数据分析师",
-        "IT 主管"
-      ],
-      "useCases": [
-        "利用 ChatGPT Work 进行项目管理，实时跟踪进度和任务分配。",
-        "通过 Codex 自动化代码生成，减少开发时间，提高代码质量。",
-        "使用集中管理平台分析运营数据，快速识别问题并制定解决方案。",
-        "在团队会议中应用 AI 辅助决策工具，提升讨论效率和决策质量。",
-        "通过智能化工具进行市场趋势分析，帮助制定更具前瞻性的产品策略。"
-      ],
-      "risks": [
-        "API 使用费用可能较高，尤其是大规模使用时，需提前评估预算。",
-        "对 AI 工具的依赖可能导致团队在面对非标准问题时缺乏灵活性。",
-        "在多语言环境下，AI 工具的表现可能不尽如人意，需考虑语言兼容性。",
-        "硬件要求可能较高，尤其是在处理大量数据时，需确保基础设施支持。",
-        "商用授权问题需明确，避免在未授权的情况下使用 AI 生成的内容。"
-      ],
-      "reason": "RingCentral 的 AI 解决方案通过智能化手段提升了团队协作效率，值得关注。",
-      "scores": {
-        "importance": 75,
-        "novelty": 70,
-        "firsthand": 60,
-        "impact": 80,
-        "credibility": 70
-      },
-      "url": "https://openai.com/index/ringcentral",
-      "source": "RSS · OpenAI Blog",
-      "date": "2026-08-12",
-      "publishedAt": "2026-08-12T08:00",
-      "collectedAt": "2026-08-13T06:59",
-      "dateStatus": "verified",
-      "tier": "T1",
-      "score": 72,
-      "aiSelected": true,
-      "_style": "reviewer",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "\"Pharos Night: Crown Pursuit\": An AI-Native Deck-Building and Tactical Arena Game Design Based on Multi-Agent Systems",
-      "summary": "With advancements in generative AI technology, an increasing number of researchers have begun exploring AI-native games in which gameplay rules are directly driven by generative AI",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-08-12",
-      "publishedAt": "",
-      "collectedAt": "2026-08-13T18:50",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-12",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.12216v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Automating and Scaling Behavioral Scientific Research on AI Agents",
-      "summary": "arXiv:2608.10030v1 Announce Type: new Abstract: As AI agents are increasingly deployed in complex environments, understanding their behaviors becomes critical. Yet behavioral scien",
-      "category": "ai-agents",
-      "source": "RSS · arXiv cs.AI",
-      "date": "2026-08-12",
-      "publishedAt": "",
-      "collectedAt": "2026-08-13T12:12",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-12",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2608.10030",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Constructing Dynamic Master Logic Models as Knowledge Graphs for Complex System Diagnostics Using Retrieval-Augmented Large Language Models",
-      "summary": "Dynamic Master Logic (DML) provides a hierarchical framework for representing system behavior by linking functional objectives to underlying structural elements. However, DML const",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-08-12",
-      "publishedAt": "",
-      "collectedAt": "2026-08-13T10:49",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-12",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.12304v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Beyond Trial-and-Error: Agentic Optimization for Image-to-Video Adherence",
-      "summary": "Modern black-box Image-to-Video (I2V) models offer powerful capabilities in automated content creation, yet their lack of fine-grained control and reliability presents significant ",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-08-12",
-      "publishedAt": "",
-      "collectedAt": "2026-08-13T10:49",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-12",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.12290v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Teaching a Large Language Model Tutor to Withhold the Answer: A Supervisor Architecture and an Evidence-Driven Method for Tuning Socratic Behavior",
-      "summary": "An effective large language model (LLM) tutor must often decline to give an answer it could easily produce. In a randomized study, students who used an unguarded chatbot scored hig",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-08-12",
-      "publishedAt": "",
-      "collectedAt": "2026-08-13T10:49",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-12",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.12292v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Large Language Model-Driven Small-Capitalization Trading: Integrating Financial News Sentiment, Macroeconomic Indicators, and Technical Signals",
-      "summary": "Large language models can extract richer signals from financial news than fixed sentiment lexicons, and recent work has explored feeding such signals into portfolio construction. W",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-08-12",
-      "publishedAt": "",
-      "collectedAt": "2026-08-13T10:49",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-12",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.12283v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "PatternFormer: Learning Multiple Solution Patterns in Reaction--Diffusion Systems",
-      "summary": "Many nonlinear models across physics, chemistry, and biology exhibit multiple solutions for the same parameters, and capturing this entire solution set is essential for understandi",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-08-12",
-      "publishedAt": "",
-      "collectedAt": "2026-08-13T10:49",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-12",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.12286v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Towards Automated Domain Model Extraction from Source Code using Heuristics and Open-Source LLMs",
-      "summary": "Large language models (LLMs) have recently shown strong capabilities for code understanding, making them promising for reverse engineering domain models from source code. However, ",
-      "category": "ai-coding",
-      "source": "arXiv",
-      "date": "2026-08-12",
-      "publishedAt": "",
-      "collectedAt": "2026-08-13T10:49",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-12",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.12228v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
     }
   ],
   "weeklyDigests": [
@@ -8592,6 +8249,17 @@ window.AI_GENERATED_DATA = {
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Google launches Gemini 3.7 Flash with sharper coding and age",
+        "provider": "Indian Television Dot Com",
+        "type": "AI 项目/工具",
+        "bestFor": "NEW DELHI: Google is giving its AI workhorse another upgrade, and this one comes with a cheaper price tag too.\n\nGoogle has introduced Gemini 3.7 Flash, which it",
+        "description": "NEW DELHI: Google is giving its AI workhorse another upgrade, and this one comes with a cheaper price tag too.\n\nGoogle has introduced Gemini 3.7 Flash, which it describes as its mo",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Indian Television Dot Com",
+        "url": "https://indiantelevision.com/mam/google-launches-gemini-3-7-flash-with-sharper-coding-and-agentic-capabilities/"
+      },
+      {
         "name": "AI 编码代理扩展企业攻击面",
         "provider": "DataBreachToday",
         "type": "AI 项目/工具",
@@ -9197,23 +8865,6 @@ window.AI_GENERATED_DATA = {
         "watch": "Siri 的语音识别在嘈杂环境中可能不够准确，影响用户体验。",
         "sourceName": "Currents:AI coding tool",
         "url": "https://techcrunch.com/2026/08/03/apple-finally-fixed-siri-so-why-does-it-feel-anticlimactic/"
-      },
-      {
-        "name": "DeepSeek-V4-Flash API公测上线，Agent能力显著提升",
-        "provider": "X：DeepSeek (@deepseek_ai)",
-        "type": "AI 项目/工具",
-        "bestFor": "这一升级将使得开发者能够更高效地集成 DeepSeek 的功能，尤其是在需要快速响应的应用场景中。对于希望利用 AI 技术提升工作效率的团队来说，DeepSeek-V4-Flash 提供了更强大的工具支持。然而，因其仍处于公测阶段，可能存在不稳定性，开发者在使用时需谨慎评估其适用性。此外，API 的使用成本和配额限制也",
-        "description": "DeepSeek-V4-Flash 官方 API 现已进入公测阶段，Agent 能力经过大幅升级，基准测试分数超越了 V4-Pro-Preview。新版本原生支持 Responses API 格式，并完全兼容 Codex，尽管如此，仍需注意其与旧版本在架构和规模上的一致性。",
-        "useCases": [
-          "集成 DeepSeek-V4-Flash API，提升应用程序的响应速度和智能化水平。",
-          "利用新版本的 Codex 兼容性，优化代码生成和自动化流程。",
-          "在数据分析项目中，使用 DeepSeek-V4-Flash 提供的强大功能，快速获取洞察。",
-          "开发基于 AI 的客户支持系统，利用 API 提升用户体验。",
-          "在产品开发中，结合 DeepSeek 的能力，快速迭代和测试新功能。"
-        ],
-        "watch": "API 价格和配额可能限制小型团队的使用，导致无法充分利用其功能。",
-        "sourceName": "X：DeepSeek (@deepseek_ai)",
-        "url": "https://x.com/deepseek_ai/status/2083084415157022911"
       }
     ],
     "ai-agents": [
@@ -9808,6 +9459,60 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-models": [
       {
+        "name": "沃尔沃推出安全教练应用，驾驶评分或影响保险费用",
+        "provider": "Mail Online",
+        "type": "AI 项目/工具",
+        "bestFor": "安全教练应用的推出将影响驾驶者的行为，鼓励他们采取更安全的驾驶方式，从而可能降低事故率。此外，保险公司可能会根据驾驶者的评分调整保费，进一步推动安全驾驶的普及。对于年轻驾驶者而言，这种基于行为的保险产品可能会显著降低他们的保险费用，促进他们的参与度。同时，沃尔沃的这一创新可能会引发其他汽车制造商的跟进，形成行业内的良性",
+        "description": "沃尔沃即将在其2020年及之后的车型中推出安全教练应用，分析驾驶行为并提供个性化评分，旨在鼓励驾驶者提升安全驾驶水平。该应用将于本月在瑞典和挪威首发，随后推广至英国等市场。尽管此应用为自愿使用，部分消费者对隐私监控表示担忧。",
+        "useCases": [
+          "分析驾驶行为，提供个性化的安全驾驶建议。",
+          "通过应用评分，激励驾驶者改善驾驶习惯。",
+          "与保险公司合作，提供基于驾驶行为的保险优惠。",
+          "利用数据分析，提升汽车安全技术的研发。",
+          "为驾驶者提供实时反馈，帮助他们在驾驶中做出更安全的决策。"
+        ],
+        "watch": "隐私问题：用户可能对数据收集和监控感到不安，影响应用的接受度。",
+        "sourceName": "Mail Online",
+        "url": "https://www.dailymail.com/money/cars/article-16049419/Volvo-rolls-new-safety-app-encourage-better-driving-mean-cheaper-insurance-does-invade-privacy.html"
+      },
+      {
+        "name": "苹果计划在中国推出自家 AI 模型，携手阿里巴巴",
+        "provider": "mint",
+        "type": "AI 项目/工具",
+        "bestFor": "这一新举措将使苹果的智能助手在中国市场更具本土化特色，吸引更多用户使用其产品。对于开发者而言，苹果的自有 AI 模型可能会改变他们的应用开发策略，尤其是在集成苹果智能助手的功能时。此外，苹果与阿里巴巴的合作也可能促使其他科技公司重新评估与中国本土企业的合作关系，从而影响整个行业的生态。",
+        "description": "苹果公司正在为进入中国市场做准备，计划推出自家的大型语言模型（LLM），并与阿里巴巴合作。预计在未来几个月内，苹果智能助手将正式上线，可能与即将发布的 iOS 27 一同推出。这一举措将使苹果成为唯一获得中国政府批准在当地提供自有 AI 模型的公司，标志着其在中国市场的进一步布局。",
+        "useCases": [
+          "集成苹果的 AI 模型到现有应用中，提升用户体验。",
+          "利用阿里巴巴的 Qwen 模型，增强 Siri 的语音识别能力。",
+          "开发针对中国市场的本地化应用，利用苹果的 AI 功能。"
+        ],
+        "watch": "苹果的 AI 模型可能面临与第三方模型的兼容性问题，影响用户体验。",
+        "sourceName": "mint",
+        "url": "https://www.livemint.com/technology/tech-news/apple-intelligence-may-finally-launch-in-china-with-apples-own-ai-model-report-11786687959523.html"
+      },
+      {
+        "name": "Does Volvo's new Safety Coach driving assessment app invade ",
+        "provider": "This is Money",
+        "type": "AI 项目/工具",
+        "bestFor": "New technology to keep a watchful eye on how well you drive is coming to a much-loved luxury car company's most popular models - and you'll be scored accordingl",
+        "description": "New technology to keep a watchful eye on how well you drive is coming to a much-loved luxury car company's most popular models - and you'll be scored accordingly.\n\nVolvo models in ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "This is Money",
+        "url": "https://www.thisismoney.co.uk/money/cars/article-16049419/Volvo-rolls-new-safety-app-encourage-better-driving-mean-cheaper-insurance-does-invade-privacy.html"
+      },
+      {
+        "name": "Riyadh Daily",
+        "provider": "blogs.alriyadhdaily.com",
+        "type": "AI 项目/工具",
+        "bestFor": "AI Tool Adoption in Saudi Arabia Surges to 45.2%, More Than Doubling from Previous Year\n\nThe adoption of artificial intelligence (AI) tools in the Kingdom of Sa",
+        "description": "AI Tool Adoption in Saudi Arabia Surges to 45.2%, More Than Doubling from Previous Year\n\nThe adoption of artificial intelligence (AI) tools in the Kingdom of Saudi Arabia has grown",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "blogs.alriyadhdaily.com",
+        "url": "https://blogs.alriyadhdaily.com/article/e7d757fd1d5244e7b153ea32cb7ae494"
+      },
+      {
         "name": "摩根士丹利：开放权重模型或将推动 AI 计算需求增长",
         "provider": "Yahoo! Finance",
         "type": "AI 项目/工具",
@@ -10342,65 +10047,26 @@ window.AI_GENERATED_DATA = {
         "watch": "Revise的AI建议可能导致用户过度依赖，影响其独立思考和写作能力。",
         "sourceName": "WBOC TV-16",
         "url": "https://www.wboc.com/online_features/press_releases/revise-launches-ai-document-editor-with-reviewable-tracked-changes/article_8ac63156-9435-54c6-96e4-0cdf8857e576.html"
-      },
-      {
-        "name": "Google's Gemini Surpasses 1 Billion Monthly Users, Closing G",
-        "provider": "Tekedia",
-        "type": "AI 项目/工具",
-        "bestFor": "Google's Gemini artificial intelligence app has surpassed 1 billion monthly active users, marking a major milestone for the company as it accelerates the rollou",
-        "description": "Google's Gemini artificial intelligence app has surpassed 1 billion monthly active users, marking a major milestone for the company as it accelerates the rollout of generative AI a",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Tekedia",
-        "url": "https://www.tekedia.com/googles-gemini-surpasses-1-billion-monthly-users-closing-gap-with-chatgpt/"
-      },
-      {
-        "name": "Ben Shapiro Mocks Tucker Carlson And Hunter Biden As 'Silver",
-        "provider": "vinnews.com",
-        "type": "AI 项目/工具",
-        "bestFor": "NASHVILLE (VINnews) -- Conservative commentator Ben Shapiro on Tuesday sharply criticized a recent podcast interview between Tucker Carlson and Hunter Biden, de",
-        "description": "NASHVILLE (VINnews) -- Conservative commentator Ben Shapiro on Tuesday sharply criticized a recent podcast interview between Tucker Carlson and Hunter Biden, describing the pair as",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "vinnews.com",
-        "url": "https://vinnews.com/2026/08/11/ben-shapiro-mocks-tucker-carlson-and-hunter-biden-as-silver-spoon-rich-kids-over-maine-interview/"
-      },
-      {
-        "name": "Target 任命首位首席人工智能官，积极布局 AI 生态",
-        "provider": "CNBC",
-        "type": "AI 项目/工具",
-        "bestFor": "Target 的这一任命将对多个方面产生深远影响。首先，顾客将体验到更为个性化和便捷的购物服务，提升了用户满意度。其次，内部员工将获得更高效的工具，帮助他们在工作中做出更快的决策。此外，Target 的投资将推动整个零售行业对 AI 的重视，促使更多企业加速数字化转型。长期来看，这可能会改变消费者的购物习惯，推动零售行",
-        "description": "Target 宣布任命 Chandhu Nair 为首席人工智能官，标志着其在 AI 领域的战略布局。Nair 将专注于提升购物体验和决策效率，推动公司在 AI 时代的竞争力。与此同时，Target 还推出了多项生成式 AI 工具，以应对零售市场的快速变化。",
-        "useCases": [
-          "利用 Target Trend Brain 工具，分析市场趋势，优化产品线。",
-          "通过对话式 AI 程序，提升顾客在节假日购物时的满意度。",
-          "在库存管理中应用 AI 技术，提高库存周转率，减少滞销品。",
-          "为员工提供 AI 驱动的决策支持工具，提升工作效率。",
-          "通过数据分析，精准定位目标顾客，制定个性化营销策略。"
-        ],
-        "watch": "AI 工具的实施可能需要高额的初始投资，影响短期财务表现。",
-        "sourceName": "CNBC",
-        "url": "https://www.cnbc.com/2026/08/11/target-appoints-chief-ai-officer-chandhu-nair.html"
-      },
-      {
-        "name": "谷歌和Meta推出伪造证据的AI工具，随后迅速撤回",
-        "provider": "Forbes",
-        "type": "AI 项目/工具",
-        "bestFor": "这一事件对多个方面产生了深远影响。首先，数字取证领域的专业人士将面临更大的挑战，因为合成图像的出现使得真实证据的可信度受到质疑。其次，开发者在设计新功能时需要更加重视潜在的双重用途，避免在公众面前暴露出明显的风险。此外，普通用户在使用这些工具时也需提高警惕，了解合成图像可能带来的误导性。最后，科技公司需要重新审视其内部",
-        "description": "近期，谷歌和Meta相继推出了能够生成逼真合成图像的AI工具，但在公众的强烈反对下，这些工具很快被撤回。谷歌的Google Earth功能允许用户生成虚假的灾难场景，然而在研究者揭示其潜在的误用后，谷歌迅速回退了该功能。这一事件反映出科技公司在内部审查过程中的重大失误，公众对数字图像的信任也因此受到严重侵蚀。",
-        "useCases": [
-          "生成合成图像以进行视觉效果测试，使用Google Earth工具创建特定场景。",
-          "在社交媒体上进行内容创作，利用AI工具生成吸引眼球的图像。",
-          "进行市场调研，使用合成图像测试消费者对不同场景的反应。",
-          "在教育领域，利用合成图像帮助学生理解复杂的地理或历史事件。",
-          "进行虚拟现实项目开发，使用AI生成的图像创建沉浸式体验。"
-        ],
-        "watch": "合成图像的生成可能导致法律责任，尤其是在涉及虚假信息传播时。",
-        "sourceName": "Forbes",
-        "url": "https://www.forbes.com/sites/larsdaniel/2026/08/11/google-and-meta-shipped-ai-tools-that-fake-evidence-then-pulled-them-days-later/"
       }
     ],
     "ai-business": [
+      {
+        "name": "苹果与阿里巴巴合作为中国市场训练自有AI模型",
+        "provider": "The Telegraph",
+        "type": "AI 项目/工具",
+        "bestFor": "苹果与阿里巴巴的合作将改变中国市场的AI生态，可能会促使更多外资企业探索与本土科技公司的合作模式。这一战略不仅有助于苹果在中国市场的销售增长，也可能影响其他国际品牌在中国的市场策略。此外，苹果的成功可能会激励更多外资企业在中国进行创新和投资，进一步推动中美科技合作的发展。",
+        "description": "苹果公司与阿里巴巴集团合作，专门为中国市场训练了一款大型语言模型，标志着其在AI领域的战略转变。此举将使苹果在竞争激烈的中国市场中获得更大的控制权，同时也为其AI工具的推出铺平了道路。预计苹果智能助手将在未来几个月内上线，进一步提升其在中国的市场竞争力。",
+        "useCases": [
+          "整合阿里巴巴的Qwen模型，提升苹果设备的智能助手功能，增强用户体验。",
+          "利用苹果的AI工具进行市场分析，帮助产品经理制定更符合用户需求的产品策略。",
+          "开发基于苹果AI模型的应用程序，提升开发者在中国市场的竞争力。",
+          "通过苹果的AI服务，优化客户服务流程，提高企业运营效率。",
+          "利用苹果的AI技术进行数据分析，帮助企业做出更精准的市场决策。"
+        ],
+        "watch": "在与阿里巴巴的合作中，可能面临API调用限制和配额问题，影响服务的稳定性。",
+        "sourceName": "The Telegraph",
+        "url": "https://www.telegraphindia.com/business/apple-trains-its-own-ai-model-for-china-market-with-alibabas-support-report/cid/2174943"
+      },
       {
         "name": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
         "provider": "RSS",
@@ -10981,23 +10647,6 @@ window.AI_GENERATED_DATA = {
         "watch": "如果通胀数据反弹，可能迫使中央银行推迟或逆转降息计划，从而打击增长资产的吸引力。",
         "sourceName": "NewsData.io:artificial intelligence",
         "url": "https://equity-insider.com/rising-risk-on-sentiment-is-reshaping-how-investors-approach-equity-markets-2/"
-      },
-      {
-        "name": "苹果发布 iOS 27，带来智能 Siri 和 AI 照片编辑功能",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "iOS 27 的推出将使普通用户和专业人士都能更高效地使用 iPhone。对于内容创作者来说，AI 照片编辑工具将大大简化工作流程，而企业用户则可以利用 Wallet 的新功能更好地管理客户关系。此外，Siri 的智能化升级将改变用户与设备的互动方式，推动更多基于语音的应用场景。",
-        "description": "苹果公司推出了 iOS 27，显著提升了 Siri 的智能化水平，新增 AI 照片编辑工具，支持用户通过语音命令进行照片处理，并提供可定制的 Wallet 体验。此版本还增强了个性化设置和生产力工具，预计将在九月正式发布。",
-        "useCases": [
-          "使用 Siri 进行语音指令，快速编辑照片，提升工作效率。",
-          "通过 Wallet 扫描实体卡片，创建数字通行证，方便管理会员资格。",
-          "利用 AI 照片工具，轻松去除照片中的不必要物体，提升视觉效果。",
-          "在锁屏上自定义壁纸和小部件，个性化用户界面，增强使用体验。",
-          "通过 Siri 集成 ChatGPT，处理复杂任务如写作和编程，节省时间。"
-        ],
-        "watch": "使用新功能时，可能会遇到 API 配额限制，影响功能使用频率。",
-        "sourceName": "NewsData.io:artificial intelligence",
-        "url": "https://www.legit.ng/business-economy/technology/1722625-apple-releases-ios-27-full-list-top-features-iphone-users-enjoy/"
       }
     ],
     "ai-benchmark": [
@@ -14753,7 +14402,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-08-14",
-    "generatedAt": "2026-08-14T06:00:18.682916Z",
+    "generatedAt": "2026-08-14T08:39:15.143563Z",
     "total": 53,
     "sections": [
       {
