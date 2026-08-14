@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-08-14",
-  "generatedAt": "2026-08-14T03:22:56.763635Z",
+  "generatedAt": "2026-08-14T06:00:18.712433Z",
   "news": [
     {
       "title": "MaSRead：内容寻址的复制潜在存储读取",
@@ -127,6 +127,266 @@ window.AI_GENERATED_DATA = {
       "moduleTargets": [
         "news"
       ],
+      "sourceCount": 1
+    },
+    {
+      "title": "高维网络与均方误差在可能错误指定模型中的应用",
+      "summary": "在高维网络分析中，包含更多变量有助于避免遗漏重要变量及其连接。本文展示了在参数远超观测值的情况下，如何获得每个节点的保守邻域估计，确保低假阳性率。通过线性模型进行邻域估计时，若真实模型为线性，则选择效果良好；若为非线性，则需对高维度施加惩罚。研究还探讨了岭参数对均方误差的影响，揭示了在高维设置下，最小描述长度方法能有效选择邻域，降低假阳性率。",
+      "category": "ai-research",
+      "tags": [
+        "高维网络",
+        "均方误差",
+        "模型选择",
+        "机器学习",
+        "统计分析"
+      ],
+      "keyPoints": [
+        "在高维设置中，邻域估计可实现低假阳性率，确保模型选择的准确性。",
+        "研究表明，岭回归参数对均方误差有显著影响，能降低测试方差。",
+        "当参数数量超过观测值时，均方误差可能出现双重下降现象，颠覆传统模型选择观念。",
+        "使用最小描述长度方法可在高维情况下实现正确的邻域选择，降低假阳性率。",
+        "邻域选择方法如Lasso、AIC和BIC在高维情况下可能导致虚假边缘的产生。"
+      ],
+      "background": "随着数据维度的增加，传统的网络分析方法面临着重要变量和连接的遗漏风险。高维网络分析通过引入更多变量，试图捕捉复杂的变量关系。本文的研究聚焦于如何在参数数量远超观测值的情况下，依然能够有效地进行邻域选择。通过对比线性与非线性模型的表现，揭示了高维数据分析中的挑战与解决方案，特别是如何通过惩罚机制来优化模型选择。",
+      "impact": "这项研究对数据科学家、统计学家和机器学习工程师具有重要意义，尤其是在处理高维数据时。通过优化邻域选择，研究者能够更准确地构建模型，减少假阳性率，从而提升模型的可靠性和有效性。此外，研究结果可能影响到决策制定过程，尤其是在需要高维数据分析的领域，如基因组学、金融分析等。",
+      "audience": [
+        "数据科学家",
+        "统计学家",
+        "机器学习工程师",
+        "高维数据分析研究人员",
+        "金融分析师"
+      ],
+      "useCases": [
+        "使用岭回归分析高维数据，优化模型选择，确保低假阳性率。",
+        "应用最小描述长度方法进行邻域选择，提升模型的准确性。",
+        "在基因组学研究中，利用高维网络分析识别关键基因及其相互作用。",
+        "在金融市场分析中，构建高维模型以捕捉复杂的市场动态。",
+        "通过机器学习算法优化高维数据的处理流程，提升分析效率。"
+      ],
+      "risks": [
+        "在高维数据分析中，API调用可能受到配额限制，需提前规划使用频率。",
+        "模型选择过程中，可能因版本不兼容导致分析结果不一致，需确保工具和库的兼容性。",
+        "使用惩罚机制时，参数设置不当可能导致模型过拟合或欠拟合，需谨慎调整。",
+        "高维数据处理需要较强的计算资源，硬件配置不足可能影响分析效率。",
+        "在商业应用中，需注意数据隐私和合规性，确保合法使用数据。"
+      ],
+      "reason": "本文提供了高维网络分析中的新见解，尤其是在模型选择和假阳性率控制方面，具有重要的实用价值。",
+      "scores": {
+        "importance": 85,
+        "novelty": 80,
+        "firsthand": 90,
+        "impact": 75,
+        "credibility": 80
+      },
+      "url": "https://arxiv.org/abs/2608.13171",
+      "source": "RSS · arXiv stat.ML",
+      "date": "2026-08-14",
+      "publishedAt": "",
+      "collectedAt": "2026-08-14T13:55",
+      "dateStatus": "collected",
+      "tier": "T1",
+      "score": 82,
+      "aiSelected": true,
+      "_style": "tutorial",
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceDate": "2026-08-14",
+      "sourceCount": 1
+    },
+    {
+      "title": "在分布转变下稳健学习的统计特性",
+      "summary": "我注意到，分布转变问题在机器学习中越来越受到关注，尤其是在目标环境与训练数据来源环境不一致时。最近的研究探讨了稳健学习框架，如分布稳健优化（DRO）和稳健满意（RS），在这种情况下的有限样本保证和系统比较，填补了这一领域的研究空白。",
+      "category": "ai-research",
+      "tags": [
+        "稳健学习",
+        "分布转变",
+        "机器学习",
+        "优化方法",
+        "统计特性"
+      ],
+      "keyPoints": [
+        "研究提出了在目标环境下的有限样本泛化误差界限，明确了稳健性超参数与对转变敏感度之间的权衡。",
+        "当可获得部分转变信息（如转变幅度或方向）时，研究提出了信息导向的超参数校准方法，比较了DRO和RS的表现。",
+        "在部分信息的情况下，DRO和RS展现出互补的理论和实证行为，提供了新的视角。",
+        "该研究将框架应用于网络批量定价问题，解释了稳健策略如何应对需求分布的正向转变。",
+        "研究填补了稳健学习方法在分布转变下统计特性的理解空白，为DRO和RS的比较提供了原则性基础。"
+      ],
+      "background": "分布转变是指目标部署环境与生成训练数据的源环境不一致的情况，这在机器学习应用中非常常见。稳健学习框架如DRO和RS旨在应对这一挑战，但在有限样本保证和系统比较方面的研究仍显不足。现有分析通常只在源环境中建立保证，或针对对抗性最坏情况的表现进行分析。本文则聚焦于目标环境中的泛化误差，探讨在转变后的目标分布下的额外损失，填补了这一领域的研究空白。",
+      "impact": "这项研究的成果将对多个领域的研究者和工程师产生影响，尤其是那些在不确定环境中进行模型训练的专业人士。通过提供稳健学习方法的比较和应用实例，研究将帮助决策者在面对数据分布变化时做出更明智的选择。此外，研究结果可能引发对稳健学习方法的进一步探索，推动相关技术的发展和应用。",
+      "audience": [
+        "机器学习研究人员",
+        "数据科学家",
+        "从事优化算法开发的工程师",
+        "应用机器学习于金融领域的分析师",
+        "关注模型稳健性的产品经理"
+      ],
+      "useCases": [
+        "在不确定的市场环境中，使用DRO优化模型以降低风险，确保模型在不同数据分布下的稳定性。",
+        "利用RS方法调整产品需求预测模型，以适应市场需求的变化，提高预测准确性。",
+        "在开发新算法时，参考该研究的超参数校准方法，提升模型在实际应用中的表现。",
+        "在网络批量定价问题中，应用稳健学习框架，优化定价策略以应对需求波动。",
+        "在学术研究中，借鉴该研究的统计特性分析方法，推动稳健学习领域的进一步探索。"
+      ],
+      "risks": [
+        "DRO和RS方法的实现可能需要较高的计算资源，尤其是在处理大规模数据时，可能导致性能瓶颈。",
+        "在使用这些方法时，需谨慎选择超参数，错误的设置可能导致模型性能下降。",
+        "部分信息的可用性可能影响模型的表现，缺乏充分的信息可能导致不理想的结果。",
+        "在实际应用中，模型的稳健性可能受到外部环境变化的影响，需定期评估和调整。",
+        "对这些方法的理解和应用需要一定的专业知识，初学者可能面临学习曲线。"
+      ],
+      "reason": "这项研究深入探讨了稳健学习在分布转变下的统计特性，为相关领域提供了新的视角和实用的比较框架，值得关注。",
+      "scores": {
+        "importance": 85,
+        "novelty": 80,
+        "firsthand": 90,
+        "impact": 75,
+        "credibility": 85
+      },
+      "url": "https://arxiv.org/abs/2608.13133",
+      "source": "RSS · arXiv stat.ML",
+      "date": "2026-08-14",
+      "publishedAt": "",
+      "collectedAt": "2026-08-14T13:56",
+      "dateStatus": "collected",
+      "tier": "T1",
+      "score": 82,
+      "aiSelected": true,
+      "_style": "recommender",
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceDate": "2026-08-14",
+      "sourceCount": 1
+    },
+    {
+      "title": "黑箱知识迁移：跨特征集的创新方法",
+      "summary": "这次发布的核心点是提出了一种新的方法，旨在将黑箱预测模型中的知识迁移到不同的输入特征空间。该方法通过分解目标回归函数，提取可迁移和不可迁移的组件，从而提高了在特征不一致情况下的预测能力。研究表明，该方法在多个黑箱模型的聚合下，能够有效降低预测误差，具有实际应用价值。",
+      "category": "ai-research",
+      "tags": [
+        "黑箱模型",
+        "知识迁移",
+        "机器学习",
+        "特征集",
+        "预测模型"
+      ],
+      "keyPoints": [
+        "提出了一种新方法，将黑箱模型的知识迁移到不同的输入特征空间，解决了特征不一致的问题。",
+        "该方法通过分解目标回归函数，识别可迁移和不可迁移的组件，提高了预测的准确性。",
+        "采用两步神经网络程序，从丰富的无标签特征对中估计可迁移组件，利用有限标签获取不可迁移组件。",
+        "在特定条件下，该方法的最坏情况风险显著低于仅依赖标签数据的最小风险。",
+        "研究表明，多个黑箱模型的聚合能够进一步降低预测误差，提升整体性能。"
+      ],
+      "background": "在机器学习领域，黑箱模型因其强大的预测能力而受到广泛关注。然而，当输入特征与模型预期不符时，直接应用这些模型往往面临困难。为了解决这一问题，研究者们提出了一种新的知识迁移方法，旨在将黑箱模型中提炼的知识有效转移到新的、异构的输入特征空间。这一方法不仅在理论上具有创新性，也在实际应用中展现出良好的效果，尤其是在特征集差异较大的情况下。与传统的知识迁移方法相比，该方法通过分解目标回归函数，提供了一种更为灵活的解决方案。",
+      "impact": "这一方法的推出将对多个领域产生深远影响。首先，数据科学家和机器学习工程师可以利用这一技术在特征不一致的情况下，依然有效地应用已有的黑箱模型。其次，企业在进行数据分析和预测时，可以通过聚合多个黑箱模型来提升决策的准确性，降低风险。此外，该方法的灵活性使其适用于多种场景，包括金融预测、医疗数据分析等，推动了相关领域的技术进步。",
+      "audience": [
+        "数据科学家",
+        "机器学习工程师",
+        "金融分析师",
+        "医疗数据分析师",
+        "AI 研究人员"
+      ],
+      "useCases": [
+        "在金融领域，利用该方法将历史黑箱模型的知识迁移到新的市场数据上，提升预测准确性。",
+        "在医疗数据分析中，将不同医院的黑箱模型知识迁移到新的患者特征集上，以改善治疗效果。",
+        "数据科学团队可以通过聚合多个黑箱模型，优化产品推荐系统，提高用户满意度。",
+        "在科研项目中，利用该方法将已有模型的知识迁移到新的实验数据上，加速研究进展。",
+        "企业可以通过该技术在特征不一致的情况下，依然有效地进行市场趋势预测。"
+      ],
+      "risks": [
+        "在特征迁移过程中，可能会出现信息丢失，导致预测结果不如预期。",
+        "该方法对标签数据的依赖性较强，有限的标签可能会影响模型的性能。",
+        "在实际应用中，聚合多个黑箱模型可能会增加计算成本，需评估资源投入。",
+        "不同黑箱模型之间的兼容性可能存在问题，导致集成效果不佳。",
+        "在特征集差异较大的情况下，迁移效果可能不如预期，需谨慎评估。"
+      ],
+      "reason": "这项研究提供了一种创新的知识迁移方法，能够有效解决特征不一致问题，值得关注。",
+      "scores": {
+        "importance": 85,
+        "novelty": 80,
+        "firsthand": 90,
+        "impact": 75,
+        "credibility": 80
+      },
+      "url": "https://arxiv.org/abs/2608.12403",
+      "source": "RSS · arXiv stat.ML",
+      "date": "2026-08-14",
+      "publishedAt": "",
+      "collectedAt": "2026-08-14T13:56",
+      "dateStatus": "collected",
+      "tier": "T1",
+      "score": 82,
+      "aiSelected": true,
+      "_style": "reviewer",
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceDate": "2026-08-14",
+      "sourceCount": 1
+    },
+    {
+      "title": "Wasserstein 过滤：一种稳健分布学习的样本选择方法",
+      "summary": "我最近看到一篇关于 Wasserstein 过滤（WF）的研究，提出了一种新颖的样本选择框架，旨在从受污染的数据集中恢复干净的分布。该方法通过丢弃可疑样本并利用剩余数据的经验测度来估计目标分布，具有很强的实用性和模型无关性。",
+      "category": "ai-research",
+      "tags": [
+        "数据清洗",
+        "机器学习",
+        "样本选择",
+        "稳健学习",
+        "Wasserstein距离"
+      ],
+      "keyPoints": [
+        "Wasserstein 过滤（WF）是一种新颖的样本选择框架，专注于从受污染的数据中恢复干净分布。",
+        "该方法通过最大化样本的 Wasserstein 距离来优先隔离和移除几何影响的异常值。",
+        "研究中提出了三种算法：边际筛选方案、SinkMarg 和两个联合优化算法 SinkWF 和 SlicedWF。",
+        "在理论上，WF 估计器在具有有界协方差的分布族上达到了最小最大最优性。",
+        "大量实验表明，WF 在异常检测和生成建模中表现出色，尤其是在重污染情况下。"
+      ],
+      "background": "Wasserstein 过滤（WF）方法的提出是为了应对数据集中存在的污染问题，尤其是当样本中包含异常值时。传统的处理方法往往无法有效区分干净样本与污染样本，而 WF 通过选择最大化 Wasserstein 距离的样本子集，有效地隔离了影响结果的异常值。该研究不仅在理论上提供了新的模型，还通过实证实验验证了其在多种应用场景下的有效性，尤其是在生成模型和异常检测任务中。",
+      "impact": "Wasserstein 过滤方法的推出，将为数据科学家和机器学习工程师提供一种新的工具，帮助他们在处理受污染数据时做出更准确的决策。尤其是在金融、医疗等领域，数据的准确性至关重要，WF 的应用将显著提高模型的鲁棒性。此外，WF 的模型无关性使其适用于多种机器学习任务，推动了稳健学习方法的发展。",
+      "audience": [
+        "数据科学家",
+        "机器学习工程师",
+        "金融分析师",
+        "医疗数据分析师",
+        "异常检测研究人员"
+      ],
+      "useCases": [
+        "使用 Wasserstein 过滤方法清洗金融交易数据，以提高异常检测的准确性。",
+        "在医疗数据分析中，应用 WF 处理受污染的患者数据，确保模型的可靠性。",
+        "利用 WF 进行图像生成任务，提升生成模型在重污染数据集上的表现。",
+        "在机器学习模型训练前，使用 WF 筛选训练数据，减少异常值对模型的影响。",
+        "通过 WF 方法优化数据预处理流程，提高数据质量，降低后续分析的复杂性。"
+      ],
+      "risks": [
+        "WF 方法在处理极端污染数据时可能会出现性能下降，需要谨慎评估。",
+        "算法的实现复杂度较高，可能对初学者造成一定的学习门槛。",
+        "在特定场景下，WF 可能无法完全消除所有异常值，需结合其他方法使用。",
+        "使用 WF 进行大规模数据处理时，可能面临计算资源的限制。",
+        "对算法的依赖可能导致在特定数据集上的过拟合，需进行充分验证。"
+      ],
+      "reason": "Wasserstein 过滤方法为处理受污染数据提供了创新的解决方案，具有广泛的应用潜力，值得关注。",
+      "scores": {
+        "importance": 85,
+        "novelty": 80,
+        "firsthand": 90,
+        "impact": 75,
+        "credibility": 80
+      },
+      "url": "https://arxiv.org/abs/2608.13418",
+      "source": "RSS · arXiv stat.ML",
+      "date": "2026-08-14",
+      "publishedAt": "",
+      "collectedAt": "2026-08-14T13:56",
+      "dateStatus": "collected",
+      "tier": "T1",
+      "score": 82,
+      "aiSelected": true,
+      "_style": "recommender",
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceDate": "2026-08-14",
       "sourceCount": 1
     },
     {
@@ -441,6 +701,71 @@ window.AI_GENERATED_DATA = {
       "score": 82,
       "aiSelected": true,
       "_style": "observer",
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceDate": "2026-08-14",
+      "sourceCount": 1
+    },
+    {
+      "title": "在线推断：分布式强化学习中的分位数时间差学习",
+      "summary": "这篇论文探讨了如何在分布式强化学习中进行分位数时间差学习（QTD）的统计推断。研究者们在假设可以访问生成模型的基础上，建立了同步和异步QTD的功能中心极限定理，证明了QTD的平均迭代值弱收敛于重标定的布朗运动。此外，论文还提出了在线推断方法，显著降低了内存需求，提升了统计推断的效率。",
+      "category": "ai-research",
+      "tags": [
+        "强化学习",
+        "统计推断",
+        "机器学习",
+        "分布式学习",
+        "时间差学习"
+      ],
+      "keyPoints": [
+        "论文提出了一种新的在线推断方法，适用于分位数时间差学习（QTD）。",
+        "研究基于生成模型，建立了同步和异步QTD的功能中心极限定理。",
+        "QTD的平均迭代值被证明弱收敛于重标定的布朗运动，具有理论意义。",
+        "在线推断方法通过随机缩放构建渐近关键统计量，提升了推断效率。",
+        "该方法不需要存储整个QTD迭代轨迹，显著减少了内存需求。"
+      ],
+      "background": "在强化学习领域，分位数时间差学习（QTD）作为一种新兴的方法，旨在通过对分布进行建模来提升学习效率。传统的QTD方法在处理大规模数据时面临内存和计算效率的挑战。此次研究通过引入生成模型，建立了同步和异步QTD的功能中心极限定理，为后续的在线推断方法奠定了理论基础。这种方法的提出，标志着在强化学习中进行高效统计推断的一个重要进展，尤其是在处理复杂数据分布时。",
+      "impact": "这项研究的在线推断方法将对多个领域的研究者产生影响，尤其是那些从事强化学习和机器学习的研究人员。通过降低内存需求和提升推断效率，研究者可以在更大规模的数据集上进行实验，推动算法的优化和应用。此外，这种方法的提出可能会影响到相关领域的决策制定，尤其是在需要实时数据分析的场景中，如金融市场分析和智能控制系统。",
+      "audience": [
+        "从事强化学习研究的学者",
+        "机器学习算法开发者",
+        "数据科学家",
+        "需要实时数据分析的工程师",
+        "高性能计算领域的研究人员"
+      ],
+      "useCases": [
+        "应用在线推断方法进行大规模数据集的强化学习模型训练。",
+        "在金融领域实时分析市场数据，优化交易策略。",
+        "为智能控制系统提供高效的决策支持。",
+        "在机器学习研究中，快速验证新算法的有效性。",
+        "开发基于QTD的自适应学习系统，提升学习效率。"
+      ],
+      "risks": [
+        "在线推断方法对生成模型的依赖可能限制其适用范围，尤其是在缺乏足够数据的情况下。",
+        "在实际应用中，算法的复杂性可能导致实现上的困难，增加开发成本。",
+        "内存需求的降低虽然显著，但在极端情况下仍可能出现性能瓶颈。",
+        "对于某些特定应用，推断结果的准确性可能受到数据质量的影响。",
+        "缺乏足够的文献支持，可能导致新方法的推广面临阻力。"
+      ],
+      "reason": "这项研究提供了一种高效的在线推断方法，适用于分布式强化学习，值得关注。",
+      "scores": {
+        "importance": 75,
+        "novelty": 80,
+        "firsthand": 90,
+        "impact": 70,
+        "credibility": 85
+      },
+      "url": "https://arxiv.org/abs/2608.12973",
+      "source": "RSS · arXiv stat.ML",
+      "date": "2026-08-14",
+      "publishedAt": "",
+      "collectedAt": "2026-08-14T13:55",
+      "dateStatus": "collected",
+      "tier": "T1",
+      "score": 78,
+      "aiSelected": true,
+      "_style": "reviewer",
       "moduleTargets": [
         "news"
       ],
@@ -826,6 +1151,151 @@ window.AI_GENERATED_DATA = {
       "sourceCount": 1
     },
     {
+      "title": "SSPO: Structure-Aware Similarity-Weighted Preference Optimization for Neural Combinatorial Optimization",
+      "summary": "arXiv:2608.12443v1 Announce Type: new Abstract: Neural combinatorial optimization (NCO) relies on parallel solution sampling for training, yet existing methods fail to fully exploi",
+      "category": "ai-research",
+      "source": "RSS · arXiv stat.ML",
+      "date": "2026-08-14",
+      "publishedAt": "",
+      "collectedAt": "2026-08-14T13:56",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-14",
+      "tags": [],
+      "url": "https://arxiv.org/abs/2608.12443",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Sinkhorn Linearization and the Spectral Proxy: Unifying the Statistical and Algorithmic Theory of Feature-Parameterized Inverse Optimal Transport via a Single Spectral Sandwich",
+      "summary": "arXiv:2608.13201v1 Announce Type: new Abstract: We develop the statistical and algorithmic theory of inverse optimal transport (IOT) under the feature-parameterized cost C_theta(i,",
+      "category": "ai-research",
+      "source": "RSS · arXiv stat.ML",
+      "date": "2026-08-14",
+      "publishedAt": "",
+      "collectedAt": "2026-08-14T13:56",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-14",
+      "tags": [],
+      "url": "https://arxiv.org/abs/2608.13201",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Bagging Robustly Learns VC Classes with Linear Sample Complexity",
+      "summary": "arXiv:2608.13514v1 Announce Type: new Abstract: We revisit the problem of learning predictors robust to adversarial examples at test-time. We prove that VC classes are adversariall",
+      "category": "ai-research",
+      "source": "RSS · arXiv stat.ML",
+      "date": "2026-08-14",
+      "publishedAt": "",
+      "collectedAt": "2026-08-14T13:56",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-14",
+      "tags": [],
+      "url": "https://arxiv.org/abs/2608.13514",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "DeepSeek V4 Pro 正式上线硅基流动，具备 1M 上下文",
+      "summary": "DeepSeek-V4-Pro-0813 于 2026 年 8 月 14 日在硅基流动平台正式上线，提供 Day-0 支持，拥有 1M 的上下文窗口和三档推理强度，专注于编码、工具调用及智能体工作流。定价方面，输入为 $1.32/M，输出为 $3.96/M，缓存命中为 $0.44/M。相较之下，DeepSeek-V4-Flash-0731 更适合追求速度和成本效益的日常生产场景。",
+      "category": "ai-models",
+      "tags": [
+        "DeepSeek",
+        "硅基流动",
+        "AI模型",
+        "上下文窗口",
+        "推理强度"
+      ],
+      "keyPoints": [
+        "DeepSeek-V4-Pro-0813 在硅基流动平台上线，提供 Day-0 支持，标志着其在 AI 领域的进一步发展。",
+        "该模型具备 1M 的上下文窗口，允许更复杂的推理和编码任务，适合高强度的智能体工作流。",
+        "推理强度分为低、中、高三档，用户可根据需求选择合适的强度进行任务处理。",
+        "定价策略明确，输入 $1.32/M，输出 $3.96/M，缓存命中 $0.44/M，适合多种使用场景。",
+        "DeepSeek-V4-Flash-0731 作为同系列产品，专注于速度和成本效益，满足日常生产需求。"
+      ],
+      "background": "DeepSeek V4 Pro 的发布是在 AI 模型竞争日益激烈的背景下进行的。随着对复杂推理和高效编码需求的增加，DeepSeek 系列不断更新以适应市场变化。早在 2026 年 5 月，DeepSeek-V4-Flash-0731 就已推出，专注于快速响应和成本控制，吸引了大量开发者的关注。此次 DeepSeek-V4-Pro-0813 的上线，进一步丰富了产品线，提供了更多选择，满足不同用户的需求。",
+      "impact": "DeepSeek V4 Pro 的推出将对开发者和企业产生深远影响。首先，具备 1M 上下文窗口的能力将使得复杂任务的处理更加高效，尤其是在需要深度学习和推理的应用场景中。其次，灵活的定价策略将吸引更多中小企业使用该模型，降低了 AI 应用的门槛。此外，DeepSeek 系列的多样化选择将促使竞争对手加速创新，推动整个行业的发展。",
+      "audience": [
+        "AI 开发者",
+        "数据科学家",
+        "智能体工程师",
+        "软件开发团队",
+        "企业技术决策者"
+      ],
+      "useCases": [
+        "进行复杂的编码任务，利用 DeepSeek-V4-Pro-0813 的高推理强度提升工作效率。",
+        "在智能体工作流中调用 DeepSeek-V4-Pro-0813，优化决策过程和响应速度。",
+        "利用 DeepSeek-V4-Flash-0731 进行日常生产任务，降低成本并提高处理速度。",
+        "在数据分析项目中，使用 1M 上下文窗口处理大规模数据集，获得更深入的洞察。",
+        "开发基于 AI 的应用程序，结合 DeepSeek 系列模型的不同特性，满足多样化需求。"
+      ],
+      "risks": [
+        "API 价格可能会随着使用量的增加而上升，影响长期使用的成本效益。",
+        "在高负载情况下，可能会遇到性能瓶颈，影响模型的响应速度和处理能力。",
+        "商用授权政策可能会限制某些行业的使用，需仔细阅读相关条款。",
+        "不同语言的支持可能不均衡，影响非英语用户的使用体验。",
+        "硬件兼容性问题可能导致部分用户无法顺利部署模型，需提前评估。"
+      ],
+      "reason": "DeepSeek V4 Pro 的上线为开发者提供了更强大的工具，尤其是在复杂推理和编码任务中，值得关注其在 AI 领域的应用潜力。",
+      "scores": {
+        "importance": 85,
+        "novelty": 80,
+        "firsthand": 90,
+        "impact": 75,
+        "credibility": 85
+      },
+      "url": "https://x.com/SiliconFlowAI/status/2088127458558271885",
+      "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
+      "date": "2026-08-14",
+      "publishedAt": "2026-08-14T12:55",
+      "collectedAt": "2026-08-14T13:55",
+      "dateStatus": "verified",
+      "tier": "T1.5",
+      "score": 66,
+      "aiSelected": true,
+      "_style": "observer",
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
       "title": "MiniMax Music 3.0 发布：全能音乐生成模型实现创意与技术的深度融合",
       "summary": "MiniMax Music 3.0 是一款新一代音乐生成模型，能够根据创意概念和可选歌词一次性生成完整歌曲，最长可达五分钟。该模型在理解创作者意图、音色清晰度和自然性方面实现了显著提升。",
       "category": "ai-models",
@@ -1010,6 +1480,68 @@ window.AI_GENERATED_DATA = {
       "score": 65,
       "aiSelected": true,
       "_style": "recommender",
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "蚂蚁百灵与 ASystem 团队成功实现单机 Agentic RL 后训练闭环",
+      "summary": "蚂蚁百灵与 ASystem 团队合作，利用 Ling-3.0-tiny 和 AReno 在 DGX Spark 平台上成功跑通单机 Agentic RL 后训练闭环。通过在井字棋这一最小验证任务上应用 GSPO 算法，经过 400 步训练，模型的 rollout/rewards_mean 从约 -0.5 提升至 0.4，同时 response_len 降至约 850 tokens，工具调用与动作选择趋于稳定。",
+      "category": "ai-agents",
+      "tags": [
+        "蚂蚁百灵",
+        "ASystem",
+        "Agentic RL",
+        "Ling-3.0-tiny",
+        "AReno",
+        "DGX Spark"
+      ],
+      "keyPoints": [
+        "蚂蚁百灵与 ASystem 团队合作，成功实现单机 Agentic RL 后训练闭环。",
+        "使用 Ling-3.0-tiny 和 AReno 在 DGX Spark 上进行实验。",
+        "在井字棋任务上，GSPO 算法经过 400 步训练，rollout/rewards_mean 从 -0.5 提升至 0.4。",
+        "模型的 response_len 降至约 850 tokens，显示出更高的稳定性。",
+        "工具调用与动作选择的稳定性为后续应用奠定基础。"
+      ],
+      "background": "2023 年，蚂蚁百灵与 ASystem 团队展开合作，旨在探索单机 Agentic RL 的应用潜力。Agentic RL 是一种强化学习方法，强调智能体在特定环境中自主决策的能力。此次实验选择井字棋作为验证任务，因其简单性和明确的胜负结果，适合快速验证算法的有效性。通过使用 Ling-3.0-tiny 和 AReno，团队在 DGX Spark 平台上进行高效计算，推动了这一领域的研究进展。",
+      "impact": "这一成果将对强化学习领域产生深远影响，尤其是在单机环境下的应用。成功的后训练闭环意味着未来可以在更复杂的任务中应用类似的方法，提升智能体的决策能力。开发者和研究者可以借此技术优化现有模型，推动智能体在实际应用中的表现。此外，稳定的工具调用与动作选择将为开发更高效的 RL 应用提供基础，可能改变相关领域的开发策略。",
+      "audience": [
+        "强化学习研究者",
+        "游戏开发者",
+        "机器学习工程师",
+        "AI 产品经理",
+        "教育科技从业者"
+      ],
+      "useCases": [
+        "训练智能体在井字棋中进行自主决策，提升游戏 AI 的表现。",
+        "利用 Ling-3.0-tiny 和 AReno 进行其他简单游戏的 RL 训练，验证算法的普适性。",
+        "开发基于 Agentic RL 的教育工具，帮助学生理解决策过程。"
+      ],
+      "risks": [
+        "在实际应用中，模型可能面临训练数据不足的问题，影响性能。",
+        "API 调用的费用和配额限制可能影响大规模部署的可行性。",
+        "不同环境下的兼容性问题可能导致模型表现不一致。"
+      ],
+      "reason": "此次合作展示了蚂蚁百灵与 ASystem 在强化学习领域的创新进展，值得关注其后续应用潜力。",
+      "scores": {
+        "importance": 75,
+        "novelty": 80,
+        "firsthand": 90,
+        "impact": 70,
+        "credibility": 85
+      },
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkyODk2MDQwNw%3D%3D&mid=2247487525&idx=1&sn=b9def9117e34b45fce50ab76eeed726c",
+      "source": "公众号：蚂蚁百灵（Ling）",
+      "date": "2026-08-14",
+      "publishedAt": "2026-08-14T12:00",
+      "collectedAt": "2026-08-14T12:37",
+      "dateStatus": "verified",
+      "tier": "T1.5",
+      "score": 62,
+      "aiSelected": true,
+      "_style": "observer",
       "moduleTargets": [
         "news",
         "topicResources"
@@ -8686,6 +9218,21 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "蚂蚁百灵与 ASystem 团队成功实现单机 Agentic RL 后训练闭环",
+        "provider": "公众号：蚂蚁百灵（Ling）",
+        "type": "AI 项目/工具",
+        "bestFor": "这一成果将对强化学习领域产生深远影响，尤其是在单机环境下的应用。成功的后训练闭环意味着未来可以在更复杂的任务中应用类似的方法，提升智能体的决策能力。开发者和研究者可以借此技术优化现有模型，推动智能体在实际应用中的表现。此外，稳定的工具调用与动作选择将为开发更高效的 RL 应用提供基础，可能改变相关领域的开发策略。",
+        "description": "蚂蚁百灵与 ASystem 团队合作，利用 Ling-3.0-tiny 和 AReno 在 DGX Spark 平台上成功跑通单机 Agentic RL 后训练闭环。通过在井字棋这一最小验证任务上应用 GSPO 算法，经过 400 步训练，模型的 rollout/rewards_mean 从约 -0.5 提升至 0.4，同时 response_len 降至约 850 tokens，工具调用与动作选择趋于稳定。",
+        "useCases": [
+          "训练智能体在井字棋中进行自主决策，提升游戏 AI 的表现。",
+          "利用 Ling-3.0-tiny 和 AReno 进行其他简单游戏的 RL 训练，验证算法的普适性。",
+          "开发基于 Agentic RL 的教育工具，帮助学生理解决策过程。"
+        ],
+        "watch": "在实际应用中，模型可能面临训练数据不足的问题，影响性能。",
+        "sourceName": "公众号：蚂蚁百灵（Ling）",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzkyODk2MDQwNw%3D%3D&mid=2247487525&idx=1&sn=b9def9117e34b45fce50ab76eeed726c"
+      },
+      {
         "name": "Upstage Unveils Solar Pro 4 for Real-World AI Tasks",
         "provider": "조선일보",
         "type": "AI 项目/工具",
@@ -9257,20 +9804,26 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Mondaq Business Briefing",
         "url": "https://www.mondaq.com/unitedstates/it-and-internet/1829524/whos-really-at-the-keyboard-ninth-circuit-opines-on-agentic-ai-in-e-commerce"
-      },
-      {
-        "name": "China-linked hackers hit Taiwan in unprecedented 'autonomous",
-        "provider": "Financial Times News",
-        "type": "AI 项目/工具",
-        "bestFor": "AI agents ran simultaneous reconnaissance and break-ins in display of new phase of cyberwarfare\n\nSuspected Chinese hackers used publicly available AI tools to c",
-        "description": "AI agents ran simultaneous reconnaissance and break-ins in display of new phase of cyberwarfare\n\nSuspected Chinese hackers used publicly available AI tools to compromise government",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Financial Times News",
-        "url": "https://www.ft.com/content/7d2ab3e0-9085-48f6-b38a-d90260d58795"
       }
     ],
     "ai-models": [
+      {
+        "name": "摩根士丹利：开放权重模型或将推动 AI 计算需求增长",
+        "provider": "Yahoo! Finance",
+        "type": "AI 项目/工具",
+        "bestFor": "对于希望降低成本的企业，开放权重模型提供了一个可行的解决方案，尤其是在研发和数据处理方面。企业如 Rippling 和 Pinterest 已经通过采用这些模型显著降低了运营成本。随着市场对多模型的需求增加，企业可能会重新评估其 AI 基础设施投资，推动更多的计算需求。此外，Nvidia 和其他电力供应商也将从中受益，",
+        "description": "摩根士丹利在最新报告中指出，开放权重的 AI 模型能够在降低成本的同时维持甚至增加计算需求。尽管中国供应商提高了价格，但这并未阻碍市场对多模型市场的需求，反而可能通过效率提升促进企业采用更多工作负载。报告还提到，尽管中国大型语言模型 API 的价格仍比美国的便宜 15% 到 20%，但 DeepSeek 和其他公司已开始调整定价策略。",
+        "useCases": [
+          "使用开放权重模型优化企业的研发流程，降低人力成本。",
+          "通过 GLM 5.2 提高代币使用效率，保持高负载的计算需求。",
+          "在数据处理和分析中采用开源模型，降低每笔交易的成本。",
+          "利用多模型策略在不同平台间分配工作负载，提高整体效率。",
+          "评估和调整 AI 基础设施投资，以适应市场变化和技术进步。"
+        ],
+        "watch": "API 价格的波动可能影响企业的预算，尤其是在 DeepSeek 提高价格后。",
+        "sourceName": "Yahoo! Finance",
+        "url": "https://finance.yahoo.com/technology/ai/articles/open-weight-models-may-expand-141144721.html"
+      },
       {
         "name": "苹果面临更复杂的 iPhone 竞争挑战",
         "provider": "Yahoo! Finance",
@@ -9845,21 +10398,6 @@ window.AI_GENERATED_DATA = {
         "watch": "合成图像的生成可能导致法律责任，尤其是在涉及虚假信息传播时。",
         "sourceName": "Forbes",
         "url": "https://www.forbes.com/sites/larsdaniel/2026/08/11/google-and-meta-shipped-ai-tools-that-fake-evidence-then-pulled-them-days-later/"
-      },
-      {
-        "name": "谷歌与Meta推出可伪造证据的AI工具后迅速撤回",
-        "provider": "Yahoo",
-        "type": "AI 项目/工具",
-        "bestFor": "这一系列事件对AI工具的开发和使用产生了深远影响。首先，开发者在设计新功能时需要更加重视潜在的误用风险，以避免公众反对和法律问题。其次，用户对合成图像的信任度可能下降，影响其在法律和商业场景中的应用。最后，随着技术的进步，合成图像的生成变得更加容易，可能导致更多的伪造证据事件，进而影响法律和社会的信任体系。",
-        "description": "谷歌和Meta在短短一个月内推出了能够生成可信合成图像的AI功能，这些图像可能被误用为证据。谷歌在7月底为Google Earth添加了图像生成工具，用户可生成基于真实卫星图像的合成图像，但在用户展示风险后仅一天便撤回该功能。Meta在7月初推出的类似功能也因公众反对而迅速结束。",
-        "useCases": [
-          "生成地理位置的合成图像以用于城市规划。",
-          "利用AI工具创建虚拟房地产展示图。",
-          "在法律案件中生成证据图像以支持论点。"
-        ],
-        "watch": "合成图像可能被用于伪造证据，影响法律公正。",
-        "sourceName": "Yahoo",
-        "url": "https://ca.news.yahoo.com/google-meta-shipped-ai-tools-142331893.html"
       }
     ],
     "ai-business": [
@@ -14215,8 +14753,8 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-08-14",
-    "generatedAt": "2026-08-14T03:22:56.736089Z",
-    "total": 52,
+    "generatedAt": "2026-08-14T06:00:18.682916Z",
+    "total": 53,
     "sections": [
       {
         "category": "ai-tools",
@@ -14464,6 +15002,17 @@ window.AI_GENERATED_DATA = {
             "date": "2026-08-13",
             "publishedAt": "2026-08-13T20:00",
             "reason": "Cursor builds 功能通过显著提升云智能体的启动速度，解决了开发者在环境配置上的痛点，值得关注。"
+          },
+          {
+            "title": "蚂蚁百灵与 ASystem 团队成功实现单机 Agentic RL 后训练闭环",
+            "summary": "蚂蚁百灵与 ASystem 团队合作，利用 Ling-3.0-tiny 和 AReno 在 DGX Spark 平台上成功跑通单机 Agentic RL 后训练闭环。通过在井字棋这一最小验证任务上应用 GSPO 算法，经过 400 步训练，模型的 rollout/rewards_",
+            "source": "公众号：蚂蚁百灵（Ling）",
+            "url": "https://mp.weixin.qq.com/s?__biz=MzkyODk2MDQwNw%3D%3D&mid=2247487525&idx=1&sn=b9def9117e34b45fce50ab76eeed726c",
+            "score": 62,
+            "sourceCount": 1,
+            "date": "2026-08-14",
+            "publishedAt": "2026-08-14T12:00",
+            "reason": "此次合作展示了蚂蚁百灵与 ASystem 在强化学习领域的创新进展，值得关注其后续应用潜力。"
           }
         ]
       },
@@ -14560,6 +15109,17 @@ window.AI_GENERATED_DATA = {
             "reason": "这条信息值得关注，因为 Qwen3.8-2.4T-A95B 模型的开源将为开发者和研究人员提供强大的工具，推动 AI 应用的创新与发展。"
           },
           {
+            "title": "DeepSeek V4 Pro 正式上线硅基流动，具备 1M 上下文",
+            "summary": "DeepSeek-V4-Pro-0813 于 2026 年 8 月 14 日在硅基流动平台正式上线，提供 Day-0 支持，拥有 1M 的上下文窗口和三档推理强度，专注于编码、工具调用及智能体工作流。定价方面，输入为 $1.32/M，输出为 $3.96/M，缓存命中为 $0.44",
+            "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
+            "url": "https://x.com/SiliconFlowAI/status/2088127458558271885",
+            "score": 66,
+            "sourceCount": 1,
+            "date": "2026-08-14",
+            "publishedAt": "2026-08-14T12:55",
+            "reason": "DeepSeek V4 Pro 的上线为开发者提供了更强大的工具，尤其是在复杂推理和编码任务中，值得关注其在 AI 领域的应用潜力。"
+          },
+          {
             "title": "MiniMax Music 3.0 发布：全能音乐生成模型实现创意与技术的深度融合",
             "summary": "MiniMax Music 3.0 是一款新一代音乐生成模型，能够根据创意概念和可选歌词一次性生成完整歌曲，最长可达五分钟。该模型在理解创作者意图、音色清晰度和自然性方面实现了显著提升。",
             "source": "MiniMax：Blog（网页）",
@@ -14591,17 +15151,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-08-13",
             "publishedAt": "2026-08-13T19:00",
             "reason": "GPT-5.6 的发布不仅提升了智能体性能，还显著降低了使用成本，值得关注其对行业的潜在影响。"
-          },
-          {
-            "title": "阿里开源 Qwen3.8-2.4T-A95B，硅基流动即日上线",
-            "summary": "阿里巴巴近日开源了 Qwen3.8-2.4T-A95B 模型，具备 2.4T 参数和 95B 激活参数，专注于自主编码、深度研究及端到端智能体执行。API 定价为输入 $2.00/百万 token，输出 $6.00/百万 token，缓存输入 $0.25/百万 token，标志着",
-            "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
-            "url": "https://x.com/SiliconFlowAI/status/2087903227224412222",
-            "score": 66,
-            "sourceCount": 1,
-            "date": "2026-08-13",
-            "publishedAt": "2026-08-13T22:04",
-            "reason": "Qwen3.8-2.4T-A95B 的开源发布为开发者提供了强大的工具，推动了 AI 技术的普及与应用，值得关注。"
           }
         ]
       },
@@ -14710,6 +15259,50 @@ window.AI_GENERATED_DATA = {
             "reason": "SPOT为深度强化学习提供了一种全新的可解释性分析工具，帮助研究人员和开发者更好地理解和优化复杂模型的决策过程。"
           },
           {
+            "title": "高维网络与均方误差在可能错误指定模型中的应用",
+            "summary": "在高维网络分析中，包含更多变量有助于避免遗漏重要变量及其连接。本文展示了在参数远超观测值的情况下，如何获得每个节点的保守邻域估计，确保低假阳性率。通过线性模型进行邻域估计时，若真实模型为线性，则选择效果良好；若为非线性，则需对高维度施加惩罚。研究还探讨了岭参数对均方误差的影响，揭",
+            "source": "RSS · arXiv stat.ML",
+            "url": "https://arxiv.org/abs/2608.13171",
+            "score": 82,
+            "sourceCount": 1,
+            "date": "2026-08-14",
+            "publishedAt": "",
+            "reason": "本文提供了高维网络分析中的新见解，尤其是在模型选择和假阳性率控制方面，具有重要的实用价值。"
+          },
+          {
+            "title": "在分布转变下稳健学习的统计特性",
+            "summary": "我注意到，分布转变问题在机器学习中越来越受到关注，尤其是在目标环境与训练数据来源环境不一致时。最近的研究探讨了稳健学习框架，如分布稳健优化（DRO）和稳健满意（RS），在这种情况下的有限样本保证和系统比较，填补了这一领域的研究空白。",
+            "source": "RSS · arXiv stat.ML",
+            "url": "https://arxiv.org/abs/2608.13133",
+            "score": 82,
+            "sourceCount": 1,
+            "date": "2026-08-14",
+            "publishedAt": "",
+            "reason": "这项研究深入探讨了稳健学习在分布转变下的统计特性，为相关领域提供了新的视角和实用的比较框架，值得关注。"
+          },
+          {
+            "title": "黑箱知识迁移：跨特征集的创新方法",
+            "summary": "这次发布的核心点是提出了一种新的方法，旨在将黑箱预测模型中的知识迁移到不同的输入特征空间。该方法通过分解目标回归函数，提取可迁移和不可迁移的组件，从而提高了在特征不一致情况下的预测能力。研究表明，该方法在多个黑箱模型的聚合下，能够有效降低预测误差，具有实际应用价值。",
+            "source": "RSS · arXiv stat.ML",
+            "url": "https://arxiv.org/abs/2608.12403",
+            "score": 82,
+            "sourceCount": 1,
+            "date": "2026-08-14",
+            "publishedAt": "",
+            "reason": "这项研究提供了一种创新的知识迁移方法，能够有效解决特征不一致问题，值得关注。"
+          },
+          {
+            "title": "Wasserstein 过滤：一种稳健分布学习的样本选择方法",
+            "summary": "我最近看到一篇关于 Wasserstein 过滤（WF）的研究，提出了一种新颖的样本选择框架，旨在从受污染的数据集中恢复干净的分布。该方法通过丢弃可疑样本并利用剩余数据的经验测度来估计目标分布，具有很强的实用性和模型无关性。",
+            "source": "RSS · arXiv stat.ML",
+            "url": "https://arxiv.org/abs/2608.13418",
+            "score": 82,
+            "sourceCount": 1,
+            "date": "2026-08-14",
+            "publishedAt": "",
+            "reason": "Wasserstein 过滤方法为处理受污染数据提供了创新的解决方案，具有广泛的应用潜力，值得关注。"
+          },
+          {
             "title": "热带商业建筑 HVAC 控制的上下文质量多样性进化强化学习",
             "summary": "我最近看到一篇有趣的论文，提出了一种新的上下文质量多样性进化强化学习控制器 CQD-ERL，专门用于热带水冷式冷却机组的监督控制。这个控制器不仅仅是收敛到单一的策略，而是维护一个由多种专业策略组成的产品档案，这些策略是根据数据驱动的操作上下文、每日天气和负载模式的聚类以及上下文不",
             "source": "RSS · arXiv cs.LG",
@@ -14774,50 +15367,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-08-13",
             "publishedAt": "",
             "reason": "这篇文章深入探讨了深度学习模型的碳足迹问题，提供了重要的数据和见解，值得关注。"
-          },
-          {
-            "title": "ReCBM：不确定性引导的关系推理框架",
-            "summary": "我注意到最近有一篇关于概念瓶颈模型（CBMs）的新研究，提出了一种名为 ReCBM 的框架，旨在通过引入不确定性引导的关系推理来提升模型的鲁棒性。这项研究强调了在不可靠概念状态下进行有效推理的重要性，避免了误导性语义证据的传播。",
-            "source": "RSS · arXiv cs.AI",
-            "url": "https://arxiv.org/abs/2608.10004",
-            "score": 82,
-            "sourceCount": 1,
-            "date": "2026-08-13",
-            "publishedAt": "",
-            "reason": "ReCBM 提供了一种创新的框架，通过不确定性引导的关系推理，显著提升了概念瓶颈模型的鲁棒性，值得关注。"
-          },
-          {
-            "title": "从单一到模块化：分段自动提示优化的进展",
-            "summary": "分段自动提示优化（SAPO）是一种新方法，旨在通过将提示分解为角色、上下文、任务和输出格式，针对性地优化提示。尽管SAPO在多个基准测试中表现优异，但仍存在一些局限性，如对特定任务的适应性不足。",
-            "source": "RSS · arXiv cs.AI",
-            "url": "https://arxiv.org/abs/2608.11219",
-            "score": 78,
-            "sourceCount": 1,
-            "date": "2026-08-14",
-            "publishedAt": "",
-            "reason": "SAPO方法通过模块化的方式优化提示，提供了更为灵活和精准的调整手段，值得关注。"
-          },
-          {
-            "title": "Basin：高效且可扩展的 Rust 数值优化库",
-            "summary": "Basin 是一个为 Rust 编程语言设计的数值优化库，旨在帮助用户找到最小化函数的输入。该库支持多种求解器和约束条件，适用于模型拟合、仿真校准、机器学习模型训练等多种科学应用。尽管其提供了统一的解决方案，但在使用上仍存在一些局限性。",
-            "source": "RSS · arXiv cs.LG",
-            "url": "https://arxiv.org/abs/2608.11279",
-            "score": 78,
-            "sourceCount": 1,
-            "date": "2026-08-14",
-            "publishedAt": "",
-            "reason": "Basin 提供了一种高效且一致的方式来解决数值优化问题，尤其适合需要高性能的科学计算和机器学习任务。"
-          },
-          {
-            "title": "低成本 LLM 代理建模：在笔记本上模拟大型 LLM 代理社会",
-            "summary": "这次发布的核心点是，Igor Itkin 提出了一个低成本的模型来模拟大型语言模型（LLM）代理的社会。通过将每个 LLM 代理替换为一个低参数模型，该方法能够在笔记本电脑上运行，显著降低了模拟的成本和复杂性。此方法的有效性在多个 LLM 模拟中得到了验证，提供了新的研究思路。",
-            "source": "RSS · arXiv cs.AI",
-            "url": "https://arxiv.org/abs/2608.11215",
-            "score": 78,
-            "sourceCount": 1,
-            "date": "2026-08-13",
-            "publishedAt": "",
-            "reason": "这项研究提供了一种低成本的 LLM 代理建模方法，适合广泛的研究和应用，值得关注。"
           }
         ]
       },
