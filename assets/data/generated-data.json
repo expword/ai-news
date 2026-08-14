@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-08-14",
-  "generatedAt": "2026-08-14T08:39:15.173774Z",
+  "generatedAt": "2026-08-14T11:12:28.361381Z",
   "news": [
     {
       "title": "MaSRead：内容寻址的复制潜在存储读取",
@@ -8249,6 +8249,28 @@
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Chinese startup launches new AI model",
+        "provider": "China Daily",
+        "type": "AI 项目/工具",
+        "bestFor": "Chinese artificial intelligence startup Zhipu AI launched its next-generation foundation model GLM-5.3 on Friday, claiming coding and AI agent capabilities appr",
+        "description": "Chinese artificial intelligence startup Zhipu AI launched its next-generation foundation model GLM-5.3 on Friday, claiming coding and AI agent capabilities approaching Claude Fable",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "China Daily",
+        "url": "https://www.chinadaily.com.cn/a/202608/14/WS6a7edfbfa31073853ec535f3.html"
+      },
+      {
+        "name": "AI agents tried to sabotage and disable each other when give",
+        "provider": "Yahoo Tech",
+        "type": "AI 项目/工具",
+        "bestFor": "They tried to disable each other's accounts and wrote malicious code disguised as belonging to another agent.\n\nTurns out, AI agents may not be great team player",
+        "description": "They tried to disable each other's accounts and wrote malicious code disguised as belonging to another agent.\n\nTurns out, AI agents may not be great team players.\n\nIn Anthropic's n",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Yahoo Tech",
+        "url": "https://tech.yahoo.com/ai/claude/articles/ai-agents-tried-sabotage-disable-055447788.html"
+      },
+      {
         "name": "Google launches Gemini 3.7 Flash with sharper coding and age",
         "provider": "Indian Television Dot Com",
         "type": "AI 项目/工具",
@@ -8833,41 +8855,37 @@
         "watch": "AI 的自动化能力可能导致开发者技能的退化，影响团队的整体技术水平。",
         "sourceName": "Currents:AI coding tool",
         "url": "https://thenewstack.io/qwen-autonomous-coding-audit/"
-      },
-      {
-        "name": "特朗普最新支持率下滑对中期选举的影响",
-        "provider": "Currents",
-        "type": "AI 项目/工具",
-        "bestFor": "推荐关注此模型的政治分析师和选举研究者，他们可以利用模型提供的数据来预测选举结果和选民行为。对于希望了解选举趋势的普通选民，模型的发布也将提供有价值的见解。模型的准确性和及时性将影响各方的选举策略，尤其是在密歇根州等关键州。",
-        "description": "这次发布的核心点是特朗普的支持率再次创下新低，可能对共和党在众议院的表现产生负面影响。与此同时，明天的密歇根州初选将成为关注焦点，预计将影响选民情绪。",
-        "useCases": [
-          "分析即将到来的选举结果，利用模型数据制定选举策略。",
-          "跟踪特朗普支持率变化，评估其对共和党选情的影响。",
-          "利用模型预测不同候选人在各州的表现，帮助选民做出明智选择。"
-        ],
-        "watch": "模型发布后可能面临数据不准确的风险，影响预测结果的可靠性。",
-        "sourceName": "Currents:AI coding tool",
-        "url": "https://www.natesilver.net/p/what-trumps-latest-slump-means-for"
-      },
-      {
-        "name": "苹果终于修复了 Siri，但为何感觉平淡无奇？",
-        "provider": "Currents",
-        "type": "AI 项目/工具",
-        "bestFor": "对于普通用户而言，Siri 的新功能将极大提升日常生活的便利性，尤其是需要快速获取信息或执行任务时。对于开发者来说，Siri 的改进可能会影响他们在应用中集成语音助手的决策，推动更多创新的使用场景。此外，苹果与谷歌的合作可能会引发其他科技公司重新审视自己的 AI 策略，进一步推动行业竞争。然而，Siri 的更新是否能在",
-        "description": "苹果在 iOS 27 中推出了全新的 Siri AI，承诺实现更智能的助手功能，能够理解用户的个人上下文并提供相关信息。然而，尽管 Siri 的功能确实有所提升，但在如今 AI 迅速发展的背景下，这一更新似乎显得有些迟到，未能引发预期的兴奋感。",
-        "useCases": [
-          "通过 Siri 查找最近的收据，轻松获取所需信息。",
-          "利用 Siri 播放音乐或播客，享受无缝的娱乐体验。",
-          "在烹饪时询问 Siri 推荐的食谱，提升烹饪乐趣。",
-          "使用 Siri 进行日历管理，快速安排会议或提醒事项。",
-          "通过 Siri 获取实时的活动信息，方便安排出行计划。"
-        ],
-        "watch": "Siri 的语音识别在嘈杂环境中可能不够准确，影响用户体验。",
-        "sourceName": "Currents:AI coding tool",
-        "url": "https://techcrunch.com/2026/08/03/apple-finally-fixed-siri-so-why-does-it-feel-anticlimactic/"
       }
     ],
     "ai-agents": [
+      {
+        "name": "企业面临的隐形 AI 代理风险",
+        "provider": "Dark Reading",
+        "type": "AI 项目/工具",
+        "bestFor": "企业的 IT 安全团队需要重新评估 AI 代理的使用情况，以确保其安全性。Juncker 的建议可能促使企业在流程设计上进行调整，从而减少员工使用影子 AI 的需求。这不仅影响了企业的安全策略，还可能改变决策流程，促使企业在技术采用上更加谨慎。同时，随着对 AI 代理的关注增加，相关的安全工具和服务也可能迎来新的市场机",
+        "description": "我注意到，尽管 80% 的财富 500 强公司正在使用活跃的 AI 代理，但只有 14% 的公司获得了全面的安全批准。Mimecast 的 Rob Juncker 指出，缺乏对 AI 代理的了解意味着我们在安全方面只是抱有希望，而非实际保障。AI 代理的决策速度和执行能力使得它们的安全管理变得复杂，尤其是在员工未经授权使用代理的情况下。Juncker 建议，企业应优先提高可见性，以便有效管理这些代理的风险。",
+        "useCases": [
+          "评估现有 AI 代理的安全性，确保符合企业安全标准。",
+          "设计流程以简化员工使用授权工具的体验，减少影子 AI 的使用。",
+          "定期审查 AI 代理的访问权限，确保其与人类身份的关联性。",
+          "开展员工培训，提高对 AI 代理使用风险的认识。",
+          "利用数据分析工具监控 AI 代理的行为，及时发现异常活动。"
+        ],
+        "watch": "未经授权的 AI 代理可能导致数据泄露，增加企业面临的法律风险。",
+        "sourceName": "Dark Reading",
+        "url": "https://www.darkreading.com/cyber-risk/ai-agent-security-gaps-rob-juncker-discusses-visibility-risks-and-solutions"
+      },
+      {
+        "name": "Are Contracts Made By AI Agents Legally Enforceable?",
+        "provider": "Mondaq Business Briefing",
+        "type": "AI 项目/工具",
+        "bestFor": "within Technology, Intellectual Property, Media, Telecoms, IT and Entertainment topic(s)\n\nAgentic wallets empower AI to execute payments, contracts, and busines",
+        "description": "within Technology, Intellectual Property, Media, Telecoms, IT and Entertainment topic(s)\n\nAgentic wallets empower AI to execute payments, contracts, and business decisions autonomo",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Mondaq Business Briefing",
+        "url": "https://www.mondaq.com/unitedstates/new-technology/1830616/are-contracts-made-by-ai-agents-legally-enforceable"
+      },
       {
         "name": "蚂蚁百灵与 ASystem 团队成功实现单机 Agentic RL 后训练闭环",
         "provider": "公众号：蚂蚁百灵（Ling）",
@@ -9433,31 +9451,20 @@
         "watch": "AI 系统可能会利用未授权的 API 进行操作，导致意外的安全漏洞。",
         "sourceName": "News.com.au",
         "url": "https://www.news.com.au/technology/online/hacking/ai-agent-asked-to-book-pilates-class-goes-rogue-and-hacks-website/news-story/d50d5fe34ba2fe45b72bd0cfe5227c71"
-      },
-      {
-        "name": "Manus to continue independent operation after acquisition fa",
-        "provider": "China Daily",
-        "type": "AI 项目/工具",
-        "bestFor": "AI agent developer Manus said it will return to operating as an independent company, months after Chinese regulators investigated its acquisition by Meta, marki",
-        "description": "AI agent developer Manus said it will return to operating as an independent company, months after Chinese regulators investigated its acquisition by Meta, marking a rare unwinding ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "China Daily",
-        "url": "https://www.chinadaily.com.cn/a/202608/12/WS6a7c0573a310986e2b46a5a8.html"
-      },
-      {
-        "name": "Who's Really At The Keyboard? Ninth Circuit Opines On Agenti",
-        "provider": "Mondaq Business Briefing",
-        "type": "AI 项目/工具",
-        "bestFor": "within Insolvency/Bankruptcy/Re-Structuring, Environment, Government and Public Sector topic(s)\n\nOn August 4, 2026, the Ninth Circuit vacated a preliminary inju",
-        "description": "within Insolvency/Bankruptcy/Re-Structuring, Environment, Government and Public Sector topic(s)\n\nOn August 4, 2026, the Ninth Circuit vacated a preliminary injunction that Amazon h",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Mondaq Business Briefing",
-        "url": "https://www.mondaq.com/unitedstates/it-and-internet/1829524/whos-really-at-the-keyboard-ninth-circuit-opines-on-agentic-ai-in-e-commerce"
       }
     ],
     "ai-models": [
+      {
+        "name": "Only our rivers run pee, fixing Lough Neagh...",
+        "provider": "Letter to Slugger O'Toole",
+        "type": "AI 项目/工具",
+        "bestFor": "It is at this point in the summer cycle that all of us can watch Lough Neagh, and some of our other inland lakes and waterways, turn green as the blue-green alg",
+        "description": "It is at this point in the summer cycle that all of us can watch Lough Neagh, and some of our other inland lakes and waterways, turn green as the blue-green algae blooms, and it is",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Letter to Slugger O'Toole",
+        "url": "https://sluggerotoole.com/2026/08/14/only-our-rivers-run-pee-fixing-lough-neagh/"
+      },
       {
         "name": "沃尔沃推出安全教练应用，驾驶评分或影响保险费用",
         "provider": "Mail Online",
@@ -10032,24 +10039,26 @@
         "watch": "请打开原始来源核对",
         "sourceName": "The Times of India",
         "url": "https://timesofindia.indiatimes.com/technology/tech-news/gemini-app-becomes-googles-fastest-growing-consumer-product-ever-ceo-sundar-pichai-shares-thank-you-message/articleshow/133168156.cms"
-      },
-      {
-        "name": "Revise推出可追踪更改的AI文档编辑器",
-        "provider": "WBOC TV-16",
-        "type": "AI 项目/工具",
-        "bestFor": "Revise的推出可能会改变团队协作的方式，尤其是在法律、教育和市场营销等领域。法律团队可以更高效地起草和审查合同，教育工作者能够快速生成课程材料，而市场营销人员则可以实时调整文案。此外，Revise的透明编辑过程可能会促进团队成员之间的沟通与协作，减少误解和错误。然而，用户对AI建议的依赖性可能会影响其独立思考能力，",
-        "description": "Revise推出了一款集成AI的文档编辑器，支持实时协作、版本历史和可视化更改建议，旨在提升文档编辑效率。然而，该工具的依赖性和兼容性问题仍需关注。",
-        "useCases": [
-          "使用Revise进行合同草拟，确保法律条款的准确性和合规性。",
-          "通过Revise协作开发课程材料，实时反馈和修改，提高教学质量。",
-          "利用Revise编辑市场营销文案，快速响应市场变化，提升文案效果。"
-        ],
-        "watch": "Revise的AI建议可能导致用户过度依赖，影响其独立思考和写作能力。",
-        "sourceName": "WBOC TV-16",
-        "url": "https://www.wboc.com/online_features/press_releases/revise-launches-ai-document-editor-with-reviewable-tracked-changes/article_8ac63156-9435-54c6-96e4-0cdf8857e576.html"
       }
     ],
     "ai-business": [
+      {
+        "name": "DeepSeek 正式发布 V4 Pro 模型，扩展业务布局",
+        "provider": "BusinessWorld",
+        "type": "AI 项目/工具",
+        "bestFor": "DeepSeek 的 V4 Pro 模型发布将吸引大量开发者和企业用户，尤其是在需要高性能 AI 解决方案的领域。随着 API 定价的调整，可能会影响开发者的决策，促使他们重新评估使用 DeepSeek 产品的成本效益。此外，DeepSeek 的融资计划可能会推动更多投资流入 AI 行业，进一步加剧市场竞争。整体来看，",
+        "description": "中国人工智能初创公司 DeepSeek 于周四正式推出 V4 Pro 模型，旨在对抗迅速崛起的国内竞争对手，并扩大招聘、计算能力和融资力度。V4-Pro-0813 显著提升了智能体能力，并通过 API、APP 和 Web 渠道提供。此发布备受关注，因为 DeepSeek 的 V4 Flash 模型在多项独立测试中意外超越了 V4 Pro 的预览版本，显示出技术的快速进步。",
+        "useCases": [
+          "利用 V4 Pro 模型进行复杂数据分析，提升决策效率。",
+          "通过 API 接入 V4 Pro，开发智能客服系统，改善用户体验。",
+          "在电商平台上应用 V4 Pro 模型，优化推荐算法，提高转化率。",
+          "使用 V4 Pro 进行自然语言处理，提升文本生成质量。",
+          "在科研项目中应用 V4 Pro，进行大规模数据处理和分析。"
+        ],
+        "watch": "API 价格上涨可能导致开发者成本增加，影响使用意愿。",
+        "sourceName": "BusinessWorld",
+        "url": "https://bworldonline.com/technology/2026/08/14/770309/deepseek-releases-official-v4-pro-model-as-it-steps-up-expansion/"
+      },
       {
         "name": "苹果与阿里巴巴合作为中国市场训练自有AI模型",
         "provider": "The Telegraph",
@@ -10630,23 +10639,6 @@
         "watch": "招聘过程中可能面临AI技能评估的困难，导致人才选拔不当。",
         "sourceName": "NewsData.io:generative AI",
         "url": "https://www.bundle.app/en/technology/ai-forward-marketing-teams-are-hiring-more-not-less-survey-data-shows-2B31FA2F-A452-4FEF-A8CD-F332CF8CA43F"
-      },
-      {
-        "name": "投资者重返股市：风险偏好情绪回暖",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "当前的风险偏好情绪可能会影响多个投资者群体，包括机构投资者、对冲基金和散户投资者。机构投资者可能会重新平衡投资组合，增加对增长股的配置，而对冲基金则可能利用市场波动进行套利。散户投资者在风险偏好情绪高涨时，可能会更倾向于投资于高风险、高回报的资产。整体来看，这种情绪的变化可能会导致市场的连锁反应，影响资产价格和投资决策",
-        "description": "全球金融市场正在经历显著变化，投资者在经历数月的波动后，重新对增长资产充满信心。风险偏好情绪再次成为主导力量，推动股市向上。了解这一趋势的驱动因素及其可能的后果，对任何投资者而言都至关重要。",
-        "useCases": [
-          "分析当前经济数据，评估市场风险偏好变化，制定投资策略。",
-          "监测中央银行政策动态，调整投资组合以应对利率变化。",
-          "利用人工智能工具分析行业趋势，识别潜在的增长股。",
-          "跟踪信用利差变化，判断市场风险情绪的深度。",
-          "评估地缘政治风险对投资决策的影响，制定应对策略。"
-        ],
-        "watch": "如果通胀数据反弹，可能迫使中央银行推迟或逆转降息计划，从而打击增长资产的吸引力。",
-        "sourceName": "NewsData.io:artificial intelligence",
-        "url": "https://equity-insider.com/rising-risk-on-sentiment-is-reshaping-how-investors-approach-equity-markets-2/"
       }
     ],
     "ai-benchmark": [
@@ -14402,7 +14394,7 @@
   ],
   "dailyReport": {
     "date": "2026-08-14",
-    "generatedAt": "2026-08-14T08:39:15.143563Z",
+    "generatedAt": "2026-08-14T11:12:28.336616Z",
     "total": 53,
     "sections": [
       {
