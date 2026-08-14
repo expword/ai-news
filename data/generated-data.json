@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-08-15",
-  "generatedAt": "2026-08-14T16:26:37.840013Z",
+  "generatedAt": "2026-08-14T18:56:08.412688Z",
   "news": [
     {
       "title": "亚马逊 Nova Forge 的多轮强化学习自定义奖励函数设计",
@@ -3560,6 +3560,61 @@
       "sourceCount": 1
     },
     {
+      "title": "Keep, Customize, or Exit: Default Design and Token Pricing in LLM Reasoning Services",
+      "summary": "We study a large language model (LLM) service in which a provider chooses a per-token price and a default reasoning-token allocation, while a user may accept the default, customize",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-08-13",
+      "publishedAt": "",
+      "collectedAt": "2026-08-15T01:42",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-13",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.13315v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "StateBridge: Training-free Hidden-state Alignment for Latent Communication in LLM Multi-Agent Systems",
+      "summary": "Large language model based multi-agent systems usually communicate in text, i.e., using discrete tokens. However, text introduces a discrete bottleneck. Converting the sender's con",
+      "category": "ai-agents",
+      "source": "arXiv",
+      "date": "2026-08-13",
+      "publishedAt": "",
+      "collectedAt": "2026-08-15T01:42",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-13",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.13317v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
       "title": "CAPRI: Contract-Aware Proof Repair for Isabelle",
       "summary": "We address the use of large language models (LLMs) to help discover Isabelle proofs. An Isabelle build establishes that the submitted theory is accepted, but not that an LLM change",
       "category": "ai-models",
@@ -5375,194 +5430,6 @@
       "score": 82,
       "aiSelected": true,
       "_style": "analyst",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "First Orion 利用 Amazon Nova Act 加速 QA 自动化",
-      "summary": "我注意到 First Orion 作为一家品牌通信公司，成功从脆弱的脚本基础 UI 测试转向了基于 AI 的 QA 自动化，借助 Amazon Nova Act 实现了显著的效率提升。通过用简单的英语描述测试，而不是维护选择器基础的代码，他们缩短了 QA 周期，释放了工程师的工作量，并更早发现了回归问题。",
-      "category": "ai-coding",
-      "tags": [
-        "QA自动化",
-        "AI工具",
-        "软件测试",
-        "工程效率",
-        "Amazon Nova Act"
-      ],
-      "keyPoints": [
-        "First Orion 通过 Amazon Nova Act 实现了从脚本基础测试到 AI 驱动的 QA 自动化的转变，提升了测试效率。",
-        "该公司在快速发展的环境中，QA 测试的速度跟不上开发的速度，导致了质量问题。",
-        "采用 AI 驱动的测试代理后，QA 周期显著缩短，工程师能够专注于更高价值的任务。",
-        "First Orion 的解决方案覆盖了美国、加拿大、英国和德国的主要运营商，服务范围广泛。",
-        "他们的产品组合包括品牌呼叫、品牌消息、号码监控等，帮助企业与客户建立信任的沟通。"
-      ],
-      "background": "First Orion 成立于 2008 年，致力于提供清晰、可信的通信解决方案。随着公司业务的扩展，尤其是进入中小企业市场，面临着日益增加的 QA 测试负担。为了应对这一挑战，First Orion 从单一的门户网站转向了去中心化的模块化架构，使得各个团队能够独立开发和测试应用。此举虽然需要对平台进行大规模的重构，但却极大提升了开发和测试的效率。",
-      "impact": "这一转变将影响到 First Orion 的多个团队，尤其是那些负责中小企业市场的团队。他们将能够更快地推出新功能，提升客户满意度。同时，这种高效的 QA 测试流程也可能促使其他公司考虑采用类似的 AI 驱动解决方案，从而在行业内形成良性竞争，推动整体技术进步。",
-      "audience": [
-        "QA 工程师",
-        "软件开发人员",
-        "产品经理",
-        "中小企业 IT 负责人",
-        "技术决策者"
-      ],
-      "useCases": [
-        "使用 Amazon Nova Act 进行自动化测试，减少手动测试时间，提高测试覆盖率。",
-        "通过 AI 驱动的测试代理，快速识别和修复回归问题，提升软件质量。",
-        "在开发新功能时，利用自动化测试确保快速迭代而不牺牲质量。",
-        "为中小企业提供定制化的通信解决方案，提升客户沟通效率。",
-        "在多团队协作中，利用去中心化架构加速产品开发和测试流程。"
-      ],
-      "risks": [
-        "AI 测试代理可能需要大量的初始配置和训练，增加了前期投入的复杂性。",
-        "在不同设备和浏览器上的兼容性问题可能会影响测试结果的准确性。",
-        "依赖于 AI 工具可能导致团队对传统测试方法的忽视，从而影响整体测试能力。",
-        "API 的使用可能会受到配额限制，影响测试的频率和覆盖范围。",
-        "在快速迭代中，可能会出现测试用例未及时更新的情况，导致遗漏潜在问题。"
-      ],
-      "reason": "这篇文章展示了如何通过 AI 技术提升 QA 测试效率，值得关注和借鉴。",
-      "scores": {
-        "importance": 85,
-        "novelty": 75,
-        "firsthand": 90,
-        "impact": 80,
-        "credibility": 85
-      },
-      "url": "https://aws.amazon.com/blogs/machine-learning/first-orion-accelerates-qa-automation-using-amazon-nova-act/",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-08-12",
-      "publishedAt": "2026-08-12T00:09",
-      "collectedAt": "2026-08-12T01:27",
-      "dateStatus": "verified",
-      "tier": "T1",
-      "score": 82,
-      "aiSelected": true,
-      "_style": "recommender",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "亚马逊自动推理组十年回顾：从学术研究到生产服务",
-      "summary": "亚马逊于2016年成立的自动推理组（ARG）在过去十年中，将数学逻辑从学术研究转变为处理数十亿查询的生产系统，确保AWS基础设施的数学正确性。该组的工具如Tiros和Zelkova演变为包括IAM Access Analyzer和Amazon Inspector等客户服务，数百万客户依赖这些服务进行安全和网络分析。",
-      "category": "ai-research",
-      "tags": [
-        "自动推理",
-        "数学逻辑",
-        "AWS",
-        "安全分析",
-        "生产服务"
-      ],
-      "keyPoints": [
-        "2016年，亚马逊成立自动推理组（ARG），旨在利用数学逻辑证明AWS系统的正确性。",
-        "ARG的工具如Tiros和Zelkova已发展为数百万客户使用的服务，提供数学保证的安全分析。",
-        "ARG每天处理数十亿个查询，确保AWS基础设施如Nitro Isolation Engine的数学正确性。",
-        "ARG在2016年的首次演示日展示了多个项目，奠定了未来十年AWS安全和可靠性的基础。",
-        "ARG的研究成果在Intel和NASA等机构已取得成功，未预见到其广泛适用性。"
-      ],
-      "background": "亚马逊的自动推理组（ARG）成立于2016年，旨在通过数学逻辑确保AWS系统的正确性。过去十年，该组从探索形式验证的进展到构建AWS安全和可靠性的核心系统。ARG的服务每天处理数十亿个查询，应用尖端的形式验证和程序分析技术，解决AWS独特的安全和基础设施问题。ARG的工具在Intel和NASA等领域已取得成功，证明了其技术的广泛适用性。",
-      "impact": "ARG的成功将影响AWS的安全策略，改变开发者在系统设计中的决策方式。数百万客户将继续依赖ARG提供的服务，确保其基础设施的安全性和可靠性。随着ARG技术的普及，其他企业可能会效仿其模式，推动整个行业在形式验证和安全分析方面的进步。",
-      "audience": [
-        "云计算安全工程师",
-        "基础设施架构师",
-        "程序分析研究员",
-        "数学逻辑专家",
-        "AWS开发者"
-      ],
-      "useCases": [
-        "利用IAM Access Analyzer进行权限审计，确保用户访问的安全性。",
-        "通过Amazon Inspector自动化安全检查，识别潜在的安全漏洞。",
-        "使用Reachability Analyzer优化网络架构，确保服务的可达性。"
-      ],
-      "risks": [
-        "API调用的费用可能会影响小型企业的使用成本，需谨慎评估。",
-        "在高负载情况下，服务的配额限制可能导致查询延迟，影响用户体验。",
-        "商用授权的复杂性可能限制某些企业的使用，需明确授权条款。"
-      ],
-      "reason": "这篇文章深入探讨了自动推理组如何将数学逻辑应用于实际生产环境，展示了其在云计算安全中的重要性。",
-      "scores": {
-        "importance": 85,
-        "novelty": 70,
-        "firsthand": 90,
-        "impact": 80,
-        "credibility": 85
-      },
-      "url": "https://www.amazon.science/blog/a-decade-of-mathematical-certainty-reflections-on-the-automated-reasoning-group",
-      "source": "RSS · Amazon Science",
-      "date": "2026-08-12",
-      "publishedAt": "2026-08-12T00:22",
-      "collectedAt": "2026-08-12T01:28",
-      "dateStatus": "verified",
-      "tier": "T1",
-      "score": 82,
-      "aiSelected": true,
-      "_style": "observer",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Google 推出 AMIE：实时临床视频咨询的医疗 AI 系统",
-      "summary": "这次发布的核心点是 Google 的 AMIE 系统在模拟环境中展示了实时临床视频咨询的能力。该系统基于多代理架构，能够解读视觉和听觉线索，进行虚拟体检，并实时进行诊断推理。尽管仍处于研究阶段，但 AMIE 为未来健康 AI 的发展提供了令人兴奋的前景。",
-      "category": "ai-research",
-      "tags": [
-        "医疗AI",
-        "视频咨询",
-        "Google",
-        "深度学习",
-        "临床研究"
-      ],
-      "keyPoints": [
-        "AMIE 系统基于 Gemini 和 Project Astra，采用多代理架构，能够实时解读视觉和听觉信息。",
-        "在模拟咨询中，临床评估人员对 AMIE 在历史采集、诊断准确性和沟通质量等核心能力上给予了积极评价。",
-        "患者参与者更倾向于视频咨询体验，相较于传统的文本聊天。",
-        "AMIE 目前仍为研究系统，尚需进一步研究以确保其在真实世界的临床应用。",
-        "该系统的首次演示标志着医疗 AI 在实时咨询领域的重大进展。"
-      ],
-      "background": "AMIE 是 Google Research 和 Google DeepMind 联合开发的医疗 AI 系统，旨在提升临床咨询的效率和准确性。传统的医疗咨询往往依赖于医生的观察和交流，而 AMIE 通过先进的 AI 技术，能够实时分析患者的视觉和听觉信号，提供更全面的诊断支持。这一系统的推出，标志着医疗 AI 领域的一次重要尝试，尤其是在视频咨询的应用上，AMIE 的表现引起了广泛关注。与以往的文本咨询相比，视频咨询能够更好地捕捉患者的非语言信息，从而提高诊断的准确性和患者的满意度。",
-      "impact": "AMIE 的推出将对医疗行业产生深远影响。首先，初级保健医生可以利用 AMIE 提供的实时反馈，提升诊断效率和准确性。其次，患者将享受到更为便捷的咨询体验，尤其是在偏远地区，视频咨询能够打破地理限制。此外，AMIE 的成功应用可能会推动更多医疗机构采用类似技术，从而改变传统医疗服务的模式。尽管 AMIE 仍处于研究阶段，但其潜在的应用前景无疑为医疗行业带来了新的思考。",
-      "audience": [
-        "初级保健医生",
-        "医疗技术开发者",
-        "健康管理者",
-        "医疗研究人员",
-        "患者体验设计师"
-      ],
-      "useCases": [
-        "进行实时视频咨询，利用 AMIE 的诊断支持提高诊断准确性。",
-        "在模拟环境中测试 AMIE 的临床能力，为未来的实际应用提供数据支持。",
-        "通过 AMIE 的反馈优化患者的咨询体验，提升医疗服务质量。",
-        "探索 AMIE 在不同医疗场景下的应用潜力，推动医疗 AI 的发展。",
-        "为医疗机构提供培训，帮助医生熟悉 AMIE 的使用方法和优势。"
-      ],
-      "risks": [
-        "AMIE 仍处于研究阶段，尚未经过全面的临床验证，实际应用中可能存在不确定性。",
-        "系统的依赖性可能导致医生在诊断过程中忽视自身的判断能力。",
-        "在不同语言和文化背景下，AMIE 的表现可能会受到影响，需考虑多样性。",
-        "硬件要求可能限制某些医疗机构的使用，尤其是资源有限的地方。",
-        "商用授权和 API 费用可能成为小型医疗机构采用该技术的障碍。"
-      ],
-      "reason": "AMIE 系统展示了医疗 AI 在实时视频咨询中的潜力，值得关注其未来的发展和应用。",
-      "scores": {
-        "importance": 75,
-        "novelty": 80,
-        "firsthand": 90,
-        "impact": 70,
-        "credibility": 85
-      },
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/",
-      "source": "RSS · Google AI Blog",
-      "date": "2026-08-12",
-      "publishedAt": "2026-08-12T01:00",
-      "collectedAt": "2026-08-12T01:27",
-      "dateStatus": "verified",
-      "tier": "T1",
-      "score": 78,
-      "aiSelected": true,
-      "_style": "reviewer",
       "moduleTargets": [
         "news"
       ],
@@ -9322,6 +9189,17 @@
     ],
     "ai-agents": [
       {
+        "name": "StateBridge: Training-free Hidden-state Alignment for Latent",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Large language model based multi-agent systems usually communicate in text, i.e., using discrete tokens. However, text introduces a discrete bottleneck. Convert",
+        "description": "Large language model based multi-agent systems usually communicate in text, i.e., using discrete tokens. However, text introduces a discrete bottleneck. Converting the sender's con",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2608.13317v1"
+      },
+      {
         "name": "使用 SageMaker AI 和 Bedrock AgentCore 构建智能工作流",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -9891,26 +9769,20 @@
         "watch": "API 价格可能较高，增加企业的运营成本。",
         "sourceName": "RSS · AWS Machine Learning",
         "url": "https://aws.amazon.com/blogs/machine-learning/pay-with-confidence-how-solv-labs-built-verifiable-auditable-agent-payments-on-amazon-bedrock-agentcore-payments/"
-      },
-      {
-        "name": "构建 AI 代理事件响应程序的八个阶段",
-        "provider": "SC Media",
-        "type": "AI 项目/工具",
-        "bestFor": "该程序的实施将改变企业对 AI 代理的管理方式，确保在代理行为异常时能够迅速做出反应，降低潜在风险。对于安全团队而言，新的响应流程将提高事件处理的效率，减少因信息缺失导致的误判。同时，企业在面对合规性要求时，也能更好地满足监管机构的要求，提升整体安全性和透明度。",
-        "description": "AI 代理的行为可能导致传统安全操作程序无法应对的事件响应缺口。新程序通过八个阶段的决策链，专注于代理行为引发的事件，解决代理权限、委托路径和行为重建等问题。与传统事件响应不同，该程序强调在代理治理失效或代理行为异常时的事件响应，确保收集特定证据以应对动态变化的代理能力。",
-        "useCases": [
-          "监测代理行为，及时识别异常活动，确保安全响应不延误。",
-          "重建代理事件链，分析代理行为的影响，优化安全策略。",
-          "整合现有安全监控工具，提升代理行为的检测能力，减少信息孤岛。",
-          "评估代理行为对系统和工作流的影响，确保合规性要求得到满足。",
-          "更新代理治理模型，防止未来事件的发生，提升整体安全性。"
-        ],
-        "watch": "缺乏完善的代理注册系统，可能导致事件响应延误，影响调查效率。",
-        "sourceName": "SC Media",
-        "url": "https://www.scworld.com/executive-decision-guide/how-to-build-an-ai-agent-incident-response-program"
       }
     ],
     "ai-models": [
+      {
+        "name": "Gemini 3.7 Flash 全面上线 Pro 与 Ultra 用户",
+        "provider": "X：Gemini (@GeminiApp)",
+        "type": "AI 项目/工具",
+        "bestFor": "Gemini 3.7 Flash 现已向 Gemini 聊天中的 Pro 和 Ultra 用户开放。该模型更新提升了多步骤任务的推理与准确性，如智能整合数十个文件和邮件为一份主文档。同时，Gemini Spark 也已运行于 3.7 Flash，通过改进对 Google Workspace 应用的工具调用，让个人 AI",
+        "description": "Gemini 3.7 Flash 现已向 Gemini 聊天中的 Pro 和 Ultra 用户开放。该模型更新提升了多步骤任务的推理与准确性，如智能整合数十个文件和邮件为一份主文档。同时，Gemini Spark 也已运行于 3.7 Flash，通过改进对 Google Workspace 应用的工具调用，让个人 AI 智能体更精准。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "X：Gemini (@GeminiApp)",
+        "url": "https://x.com/GeminiApp/status/2088326407730692538"
+      },
       {
         "name": "Appinventiv 如何解决全球企业的 AI 采用挑战",
         "provider": "The Manila times",
@@ -10479,23 +10351,6 @@
         "watch": "随着用户数量的增加，API 调用的成本可能上升，影响企业的使用决策。",
         "sourceName": "New Vision",
         "url": "https://www.newvision.co.ug/category/science/googles-gemini-ai-assistant-reaches-one-billi-NV_238680_082026"
-      },
-      {
-        "name": "谷歌 Gemini AI 助手用户突破十亿",
-        "provider": "The Phuket News",
-        "type": "AI 项目/工具",
-        "bestFor": "Gemini 的用户增长将推动谷歌在 AI 领域的进一步投资和创新，可能会影响到开发者和企业在 AI 应用上的决策。随着用户数量的增加，谷歌可能会推出更多功能，提升用户体验，进而影响整个市场的竞争格局。此外，Gemini 的成功也可能促使其他公司加速 AI 产品的开发和推广。",
-        "description": "谷歌的人工智能助手 Gemini 月活跃用户已超过十亿，成为公司历史上增长最快的产品。此消息在公司进行重大重组后发布，尽管面临技术滞后和竞争加剧，谷歌依然依靠其庞大的用户基础整合 AI 技术，提升服务质量。",
-        "useCases": [
-          "下载并安装 Gemini 应用，体验其智能助手功能，提升日常工作效率。",
-          "利用 Gemini 的 AI 功能进行数据分析，快速获取业务洞察，优化决策过程。",
-          "在开发项目中集成 Gemini API，利用其强大的生成能力，提升产品竞争力。",
-          "通过 Gemini 的智能推荐功能，改善用户体验，增加用户粘性。",
-          "参与 Gemini 的用户反馈活动，帮助改进产品功能，推动社区发展。"
-        ],
-        "watch": "API 使用可能受到配额限制，需提前规划调用频率，避免超出限制导致服务中断。",
-        "sourceName": "The Phuket News",
-        "url": "https://www.thephuketnews.com/google-gemini-ai-assistant-reaches-one-billion-users-101269.php"
       }
     ],
     "ai-business": [
@@ -14847,7 +14702,7 @@
   ],
   "dailyReport": {
     "date": "2026-08-15",
-    "generatedAt": "2026-08-14T16:26:37.813033Z",
+    "generatedAt": "2026-08-14T18:56:08.386677Z",
     "total": 31,
     "sections": [
       {
