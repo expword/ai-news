@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-08-15",
-  "generatedAt": "2026-08-15T08:54:37.917226Z",
+  "generatedAt": "2026-08-15T11:29:22.583237Z",
   "news": [
     {
       "title": "MM-slotgate 提升时尚检索的可控性",
@@ -8002,6 +8002,23 @@ window.AI_GENERATED_DATA = {
   "topicResources": {
     "ai-coding": [
       {
+        "name": "AWS推出Kiro，助力软件开发团队高效编码",
+        "provider": "Newsbytes.PH",
+        "type": "AI 项目/工具",
+        "bestFor": "Kiro的推出将影响广泛的软件开发团队，尤其是那些面临需求变更频繁和文档管理困难的团队。通过提供更高的控制力和结构化的开发流程，Kiro可能改变团队在项目规划和实施中的决策方式。此外，Kiro的hooks功能将促进开发过程中的自动化，减少人为错误，提高代码质量和安全性。",
+        "description": "亚马逊网络服务（AWS）在菲律宾推出了Kiro，这是一款基于人工智能的集成开发环境（IDE），旨在帮助软件团队通过结构化规范将应用概念转化为生产就绪的代码。Kiro采用规范驱动的开发方法，结合AI辅助的编码与正式需求，提升了开发过程的控制力和代码质量。",
+        "useCases": [
+          "使用Kiro生成用户故事和验收标准，快速定义项目需求。",
+          "利用Kiro生成技术设计文档，确保开发过程的规范性。",
+          "通过hooks功能自动化文档更新和安全扫描，提升代码提交的合规性。",
+          "在项目变更时，实时同步文档与代码库，保持信息一致性。",
+          "使用Kiro进行单元测试和可访问性检查，确保软件质量。"
+        ],
+        "watch": "Kiro的依赖性可能导致开发团队在使用过程中面临API调用费用和配额限制的问题。",
+        "sourceName": "Newsbytes.PH",
+        "url": "https://newsbytes.ph/2026/08/15/aws-brings-spec-driven-ai-coding-tool-kiro-to-ph-market/"
+      },
+      {
         "name": "Chinese startup launches new AI model",
         "provider": "China Daily",
         "type": "AI 项目/工具",
@@ -8591,23 +8608,6 @@ window.AI_GENERATED_DATA = {
         "watch": "DeepEval 作为开源工具，可能存在社区支持不足的问题。",
         "sourceName": "Currents:AI agent",
         "url": "https://dev.to/juampitech/i-have-been-vibecoding-evals-works-better-than-i-thought-33oi"
-      },
-      {
-        "name": "阿里巴巴的 AI 连续编码 16 天，所有提交记录在 GitHub 上公开",
-        "provider": "Currents",
-        "type": "AI 项目/工具",
-        "bestFor": "这一事件可能会影响软件开发行业的多个方面。首先，开发者可能会更加依赖 AI 工具来提高工作效率，减少重复性劳动。其次，企业在决策时可能会考虑引入更多 AI 解决方案，以降低人力成本和提高生产力。然而，过度依赖 AI 也可能导致技术债务的积累，影响长期的代码质量和可维护性。",
-        "description": "阿里巴巴的 Qwen3.8-Max 在没有人类干预的情况下，独立完成了 16 天的 CLI 工具开发，产生了 265 次提交和 127 次拉取请求，所有记录均可在 GitHub 上查阅。这一事件展示了 AI 在软件开发中的潜力，但也引发了对其局限性的讨论。",
-        "useCases": [
-          "利用 Qwen3.8-Max 开发自动化测试工具，提高测试效率。",
-          "在项目中集成 AI 编程助手，减少开发时间。",
-          "使用 AI 生成代码片段，快速原型设计。",
-          "通过 GitHub 记录审计，提升代码审查的透明度。",
-          "在教育领域使用 AI 编程工具，帮助学生学习编程。"
-        ],
-        "watch": "AI 的自动化能力可能导致开发者技能的退化，影响团队的整体技术水平。",
-        "sourceName": "Currents:AI coding tool",
-        "url": "https://thenewstack.io/qwen-autonomous-coding-audit/"
       }
     ],
     "ai-agents": [
@@ -9196,6 +9196,23 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-models": [
       {
+        "name": "达特茅斯大学推出首个临床验证的AI心理健康聊天机器人",
+        "provider": "VTDigger",
+        "type": "AI 项目/工具",
+        "bestFor": "Therabot的推出可能会改变心理健康治疗的格局，特别是在资源匮乏的地区。它为需要心理支持但无法获得传统治疗的人群提供了新的选择。然而，过度依赖AI工具可能导致患者对机器的依赖性增加，影响治疗效果。此外，Therabot的伦理标准和数据保护措施可能会影响其在市场上的接受度和推广速度。",
+        "description": "达特茅斯大学的Therabot是首个在临床试验中显示有效的生成式AI心理健康聊天机器人。该项目由精神科医生Michael Heinz领导，旨在填补心理治疗资源的缺口，尽管目前尚未向公众开放。与市面上其他自称AI治疗师的应用相比，Therabot在训练和伦理方面具有独特优势。",
+        "useCases": [
+          "使用Therabot进行心理健康自我管理，帮助用户在日常生活中应对情绪问题。",
+          "在临床研究中评估Therabot的有效性，为未来的心理治疗提供数据支持。",
+          "为心理健康专业人士提供辅助工具，帮助他们更好地理解患者需求。",
+          "在心理治疗中结合Therabot与传统治疗方法，提供更全面的支持。",
+          "利用Therabot进行心理健康教育，提高公众对心理健康的认识。"
+        ],
+        "watch": "Therabot尚未向公众开放，用户无法直接体验其功能，可能导致市场接受度低。",
+        "sourceName": "VTDigger",
+        "url": "https://vtdigger.org/2026/08/15/can-a-chatbot-be-a-responsible-therapist-dartmouth-professor-aims-to-find-out/"
+      },
+      {
         "name": "苹果与阿里巴巴合作开发中国专属AI模型",
         "provider": "Haiti Sun",
         "type": "AI 项目/工具",
@@ -9767,17 +9784,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Mashable",
         "url": "https://mashable.com/tech/gemini-connect-apps-pandora-ticketmaster"
-      },
-      {
-        "name": "Explaining Anthropic's New Watermarking Of Claude AI-Generat",
-        "provider": "Forbes",
-        "type": "AI 项目/工具",
-        "bestFor": "Furthermore, even if an AI is lazy and happens to use detectable patterns in the generated text, this can be easily overcome by anyone who cares to mask it. You",
-        "description": "Furthermore, even if an AI is lazy and happens to use detectable patterns in the generated text, this can be easily overcome by anyone who cares to mask it. You can grab the genera",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Forbes",
-        "url": "https://www.forbes.com/sites/lanceeliot/2026/08/13/explaining-anthropics-new-watermarking-of-claude-ai-generated-outputs-and-what-it-signifies-for-society/"
       }
     ],
     "ai-business": [
@@ -14260,7 +14266,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-08-15",
-    "generatedAt": "2026-08-15T08:54:37.891256Z",
+    "generatedAt": "2026-08-15T11:29:22.557238Z",
     "total": 36,
     "sections": [
       {
