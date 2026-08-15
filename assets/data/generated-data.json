@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-08-15",
-  "generatedAt": "2026-08-15T11:29:22.583237Z",
+  "generatedAt": "2026-08-15T14:00:58.623087Z",
   "news": [
     {
       "title": "MM-slotgate 提升时尚检索的可控性",
@@ -518,6 +518,64 @@
       "scores": {},
       "score": 70,
       "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "AI生成书籍数量激增，影响人类作者收入",
+      "summary": "根据对14,419本自出版电子书的分析，AI生成书籍以数量优势挤占人类作者市场，导致单书收入普遍下滑。2023年Q1至2026年Q1，书目总量增长38.3倍，而季度收入仅增长8.9倍，七个类型的无AI文本书籍单书收入下降，显示出市场竞争的加剧。",
+      "category": "ai-tools",
+      "tags": [
+        "AI书籍",
+        "自出版",
+        "市场分析",
+        "收入下降",
+        "电子书"
+      ],
+      "keyPoints": [
+        "2023年Q1至2026年Q1，书目总量增长38.3倍，季度收入仅增长8.9倍，显示出市场竞争加剧。",
+        "在八个类型中，七个类型的无AI文本书籍单书收入下降，表明AI书籍对市场的影响。",
+        "AI生成书籍占据20%的目录，但仅占销售的12.1%和收入的11.3%。",
+        "研究使用Pangram v3.3检测器，假阳性率为0.04%，确保了数据的准确性。",
+        "收入下降的现象在六个类型中显现，说明AI书籍的影响并非仅限于低质量作品。"
+      ],
+      "background": "研究分析了2023年1月至2026年3月间发布的14,419本自出版电子书，数据来源于美国五大出版商之一的内部数据库，覆盖约95%的亚马逊电子书销售。与早期研究不同，本研究基于完整文本进行分类，确保了结果的可靠性。AI生成书籍虽然在数量上占据优势，但其销售和收入比例却相对较低，显示出市场对质量的需求依然存在。",
+      "impact": "AI生成书籍的激增可能导致人类作者的收入持续下降，尤其是在竞争激烈的市场中。出版商和作者需要重新评估市场策略，以应对这一变化。消费者可能会面临更多选择，但也可能难以辨别书籍的质量。长远来看，这种现象可能促使出版行业重新审视内容创作和分发的模式，影响未来的出版趋势。",
+      "audience": [
+        "自出版作者",
+        "电子书出版商",
+        "市场分析师"
+      ],
+      "useCases": [
+        "分析市场趋势，评估AI书籍对收入的影响",
+        "调整出版策略，提升人类作者的竞争力",
+        "开发新工具，帮助读者识别高质量书籍"
+      ],
+      "risks": [
+        "AI生成书籍可能导致市场饱和，影响人类作者的生存空间",
+        "收入下降可能导致作者对创作的投入减少，影响作品质量",
+        "市场对AI书籍的接受度不一，可能导致消费者信任危机"
+      ],
+      "reason": "这条信息揭示了AI生成书籍对传统出版市场的深远影响，值得关注。",
+      "scores": {
+        "importance": 85,
+        "novelty": 75,
+        "firsthand": 70,
+        "impact": 80,
+        "credibility": 80
+      },
+      "url": "https://the-decoder.com/ai-generated-books-are-flooding-amazon-and-tanking-sales-for-human-authors",
+      "source": "The Decoder：AI News（RSS）",
+      "date": "2026-08-15",
+      "publishedAt": "2026-08-15T19:00",
+      "collectedAt": "2026-08-15T22:00",
+      "dateStatus": "verified",
+      "tier": "T1.5",
+      "score": 63,
+      "aiSelected": true,
+      "_style": "observer",
       "moduleTargets": [
         "news"
       ],
@@ -8612,6 +8670,23 @@
     ],
     "ai-agents": [
       {
+        "name": "2026年企业将大幅提升AI投资，混合AI与代理AI势头强劲",
+        "provider": "InfotechLead",
+        "type": "AI 项目/工具",
+        "bestFor": "这一趋势将影响各行业的决策者，尤其是CIO和高管们，他们需要在AI投资与治理之间找到平衡。企业将通过提升AI的生产应用率来实现更高的投资回报，进而推动业务创新和客户体验的提升。随着AI技术的普及，企业的运营模式和市场竞争格局也将发生深刻变化，尤其是在金融、零售和制造等行业。",
+        "description": "根据联想2026年CIO手册，96%的企业计划在未来12个月内增加人工智能投资，预计平均支出增长13%。AI已成为企业创新的首要优先事项，企业在多个领域的AI采用率显著提升，尤其是在金融、市场营销和销售等领域。CIO们预计每投资1美元将获得2.79美元的回报，显示出AI投资的可观价值。",
+        "useCases": [
+          "评估AI投资回报，使用数据分析工具分析AI项目的财务影响。",
+          "制定AI治理框架，确保AI应用符合企业的合规要求和道德标准。",
+          "推动跨部门合作，利用AI提升客户体验和员工满意度。",
+          "实施混合云架构，结合本地和云端资源以优化AI工作负载。",
+          "培训员工，提升团队在AI技术应用方面的技能和知识。"
+        ],
+        "watch": "API调用费用可能超出预算，需提前评估API使用量和成本。",
+        "sourceName": "InfotechLead",
+        "url": "https://infotechlead.com/cio/lenovo-cio-playbook-2026-96-of-enterprises-to-raise-ai-investment-as-hybrid-ai-and-agentic-ai-gain-momentum-97729"
+      },
+      {
         "name": "StateBridge: Training-free Hidden-state Alignment for Latent",
         "provider": "arXiv",
         "type": "AI 项目/工具",
@@ -9177,24 +9252,35 @@
         "watch": "自托管模型可能面临技术支持不足的问题，尤其是在遇到复杂的故障时。",
         "sourceName": "RSS · AWS Machine Learning",
         "url": "https://aws.amazon.com/blogs/machine-learning/how-oneadvanced-deployed-over-50-ai-agents-on-uk-sovereign-aws/"
-      },
-      {
-        "name": "Solv Labs 在 Amazon Bedrock 上构建可验证的代理支付系统",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "这一支付系统特别适合金融服务、电子商务和其他受监管行业的企业。它使得企业能够在确保合规的同时，简化支付流程，降低运营成本。通过提供可审计的交易记录，企业可以更轻松地应对监管审查。此外，这种透明的支付模式可能会吸引更多客户，提升企业的市场竞争力。",
-        "description": "Solv Labs 在 Amazon Bedrock AgentCore 上开发了一套受监管的代理支付工作流，确保每笔交易都经过授权，并在 AWS Nitro Enclave 中进行验证，最终通过公共区块链进行结算。这种模式为企业提供了可验证、可审计的自主代理支付路径，适用于受监管环境。",
-        "useCases": [
-          "实现自动化支付流程，减少人工干预，提高效率。",
-          "利用区块链技术进行交易记录，确保透明性和可追溯性。",
-          "为受监管行业提供合规的支付解决方案，降低合规风险。"
-        ],
-        "watch": "API 价格可能较高，增加企业的运营成本。",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/pay-with-confidence-how-solv-labs-built-verifiable-auditable-agent-payments-on-amazon-bedrock-agentcore-payments/"
       }
     ],
     "ai-models": [
+      {
+        "name": "苹果与阿里巴巴合作，成功在中国推出自有AI模型",
+        "provider": "Tech Times",
+        "type": "AI 项目/工具",
+        "bestFor": "这一合作将使苹果在中国市场的竞争力大幅提升，尤其是在AI驱动的智能手机市场。预计苹果的Apple Intelligence功能将吸引更多用户，尤其是那些对隐私和数据安全有较高要求的消费者。与此同时，苹果的成功也可能促使其他外国科技公司重新评估在中国市场的战略，推动更多技术合作。",
+        "description": "苹果公司在阿里巴巴的技术支持下，秘密训练了一款专为中国市场设计的大型语言模型，并获得了北京的批准。这使得苹果成为首个获准在中国大陆部署自有AI模型的外国公司。该模型将为即将推出的Apple Intelligence功能提供支持，预计将在未来几个月通过iOS软件更新上线。",
+        "useCases": [
+          "使用苹果自有AI模型进行文本生成，提高内容创作效率。",
+          "通过Apple Intelligence功能进行智能搜索，快速获取信息。",
+          "利用苹果的隐私保护机制，安全处理敏感数据。"
+        ],
+        "watch": "在使用阿里巴巴的Qwen和百度的服务时，用户数据可能受到中国法律的监管，存在隐私泄露风险。",
+        "sourceName": "Tech Times",
+        "url": "https://www.techtimes.com/articles/324565/20260815/apple-trained-its-own-ai-china-alibaba-winning-unprecedented-beijing-clearance.htm"
+      },
+      {
+        "name": "Alibaba AI Models Hit 3 Billion Downloads, Passing Meta, Goo",
+        "provider": "Deccan Chronicle",
+        "type": "AI 项目/工具",
+        "bestFor": "Alibaba Group Holding's open-weight models have accumulated more than 3 billion global downloads in the past six months, eclipsing Meta Platforms Inc., Alphabet",
+        "description": "Alibaba Group Holding's open-weight models have accumulated more than 3 billion global downloads in the past six months, eclipsing Meta Platforms Inc., Alphabet Inc. and domestic p",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Deccan Chronicle",
+        "url": "https://www.deccanchronicle.com/technology/alibaba-ai-models-hit-3-billion-downloads-passing-meta-google-1979407"
+      },
       {
         "name": "达特茅斯大学推出首个临床验证的AI心理健康聊天机器人",
         "provider": "VTDigger",
@@ -9762,31 +9848,20 @@
         "watch": "使用AI生成图像可能面临版权问题，用户需确保上传的照片不侵犯他人权益。",
         "sourceName": "thedailyjagran.com",
         "url": "https://www.thedailyjagran.com/lifestyle/independence-day-ai-prompts-2026-google-gemini-photo-editing-prompts-to-share-pictures-on-15-august-10324940"
-      },
-      {
-        "name": "Can AI Read Your Messages? What Your Smartphone AI Can Actua",
-        "provider": "NewsX",
-        "type": "AI 项目/工具",
-        "bestFor": "Every time you send a text or scroll through WhatsApp, is the AI on your phone quietly keeping tabs? It's a reasonable thing to wonder, especially with virtual ",
-        "description": "Every time you send a text or scroll through WhatsApp, is the AI on your phone quietly keeping tabs? It's a reasonable thing to wonder, especially with virtual assistants and AI fe",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsX",
-        "url": "https://www.newsx.com/tech-and-auto/can-ai-read-your-messages-what-your-smartphone-ai-can-actually-access-259974/"
-      },
-      {
-        "name": "Gemini to connect with tons of new apps, including Pandora a",
-        "provider": "Mashable",
-        "type": "AI 项目/工具",
-        "bestFor": "The integrations are coming over the next few weeks. Credit: Google\n\nGemini is making new friends.\n\nGoogle announced tons of new hardware during yesterday's Mad",
-        "description": "The integrations are coming over the next few weeks. Credit: Google\n\nGemini is making new friends.\n\nGoogle announced tons of new hardware during yesterday's Made by Google event, b",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Mashable",
-        "url": "https://mashable.com/tech/gemini-connect-apps-pandora-ticketmaster"
       }
     ],
     "ai-business": [
+      {
+        "name": "Google unveils lower-cost Gemini 3.7 Flash AI model",
+        "provider": "Birmingham Star",
+        "type": "AI 项目/工具",
+        "bestFor": "Gemini 3.7 Flash is being pitched as a lower-cost option for businesses building autonomous AI systems that can plan tasks, use software tools and complete mult",
+        "description": "Gemini 3.7 Flash is being pitched as a lower-cost option for businesses building autonomous AI systems that can plan tasks, use software tools and complete multi-step workflows wit",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Birmingham Star",
+        "url": "https://www.birminghamstar.com/news/279240309/google-unveils-lower-cost-gemini-3-7-flash-ai-model"
+      },
       {
         "name": "Anthropic's investor talks, Workday's stock surge, Apple's n",
         "provider": "CNBC",
@@ -10363,23 +10438,6 @@
         "watch": "AI 技术的快速发展可能导致市场竞争加剧，企业需谨慎应对潜在的市场风险。",
         "sourceName": "Currents:artificial intelligence",
         "url": "https://www.benzinga.com/markets/tech/26/08/60861868/consumer-tech-july-27-31-ai-boom-drives-tech-earnings-as-apple-amazon-lead-markets-more"
-      },
-      {
-        "name": "中国央行承诺及时调整货币政策工具",
-        "provider": "Currents",
-        "type": "AI 项目/工具",
-        "bestFor": "中国央行的政策调整将直接影响地方政府的融资能力，促进其市场化转型，可能会吸引更多海外机构参与人民币计价的熊猫债券发行。此外，政策的灵活性将使得财政支出加速，帮助基础设施项目的推进，进而刺激经济增长。随着流动性管理和风险对冲工具的丰富，金融市场的开放将为国内外投资者提供更多机会，可能会改变投资决策和市场预期，进一步推动经",
-        "description": "2026年8月2日，中国人民银行行长潘功胜在上海陆家嘴论坛上表示，将及时调整货币政策工具，以支持经济增长。最新数据显示，2026年第二季度经济增长率为4.3%，为三年来最低，未达到全年4.5%至5.0%的目标。",
-        "useCases": [
-          "分析经济数据，评估政策对市场的影响。",
-          "制定投资策略，利用熊猫债券的发行机会。",
-          "优化地方政府融资方案，促进市场化转型。",
-          "监测财政支出进度，确保基础设施项目按时推进。",
-          "评估货币政策变化对流动性的影响，调整投资组合。"
-        ],
-        "watch": "政策调整可能未能有效刺激经济增长，导致市场信心不足。",
-        "sourceName": "Currents:generative AI",
-        "url": "https://www.straitstimes.com/business/chinas-central-bank-pledges-timely-policy-tool-adjustment"
       }
     ],
     "ai-benchmark": [
@@ -14266,13 +14324,24 @@
   ],
   "dailyReport": {
     "date": "2026-08-15",
-    "generatedAt": "2026-08-15T11:29:22.557238Z",
-    "total": 36,
+    "generatedAt": "2026-08-15T14:00:58.597085Z",
+    "total": 37,
     "sections": [
       {
         "category": "ai-tools",
         "label": "AI 工具",
         "items": [
+          {
+            "title": "AI生成书籍数量激增，影响人类作者收入",
+            "summary": "根据对14,419本自出版电子书的分析，AI生成书籍以数量优势挤占人类作者市场，导致单书收入普遍下滑。2023年Q1至2026年Q1，书目总量增长38.3倍，而季度收入仅增长8.9倍，七个类型的无AI文本书籍单书收入下降，显示出市场竞争的加剧。",
+            "source": "The Decoder：AI News（RSS）",
+            "url": "https://the-decoder.com/ai-generated-books-are-flooding-amazon-and-tanking-sales-for-human-authors",
+            "score": 63,
+            "sourceCount": 1,
+            "date": "2026-08-15",
+            "publishedAt": "2026-08-15T19:00",
+            "reason": "这条信息揭示了AI生成书籍对传统出版市场的深远影响，值得关注。"
+          },
           {
             "title": "Cursor 完成并入 SpaceXAI，聚焦 Grok 产品线",
             "summary": "Cursor 团队已正式并入 SpaceXAI，双方将共同致力于将 Grok 打造成全球最实用的 AI 工具。此次合作将专注于软件工程领域，并计划扩展至知识工作，预计将对 Grok Build、Grok Bot、Grok API 及 Cursor 产品进行全面改进。",
