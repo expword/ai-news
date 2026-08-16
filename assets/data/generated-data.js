@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
-  "lastUpdated": "2026-08-16",
-  "generatedAt": "2026-08-16T15:23:26.039866Z",
+  "lastUpdated": "2026-08-17",
+  "generatedAt": "2026-08-16T16:39:34.232614Z",
   "news": [
     {
       "title": "MM-slotgate 提升时尚检索的可控性",
@@ -14302,9 +14302,9 @@ window.AI_GENERATED_DATA = {
     }
   ],
   "dailyReport": {
-    "date": "2026-08-16",
-    "generatedAt": "2026-08-16T15:23:26.014354Z",
-    "total": 10,
+    "date": "2026-08-17",
+    "generatedAt": "2026-08-16T16:39:34.203611Z",
+    "total": 23,
     "sections": [
       {
         "category": "ai-tools",
@@ -14352,9 +14352,59 @@ window.AI_GENERATED_DATA = {
         ]
       },
       {
+        "category": "ai-agents",
+        "label": "Agent / MCP",
+        "items": [
+          {
+            "title": "使用 SageMaker AI 和 Bedrock AgentCore 构建智能工作流",
+            "summary": "本文介绍如何将 Amazon SageMaker AI 上的 OpenAI 兼容端点与 Amazon Bedrock AgentCore 运行时结合，构建多智能体工作流。每个专门的智能体都能使用最适合其任务的模型，从而实现成本优化和灵活性。文章还展示了如何从 SageMaker ",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/building-agentic-workflows-with-sagemaker-ai-and-bedrock-agentcore/",
+            "score": 82,
+            "sourceCount": 1,
+            "date": "2026-08-14",
+            "publishedAt": "2026-08-14T23:58",
+            "reason": "本文详细介绍了如何高效构建多智能体工作流，适合希望提升工作效率的开发者和分析师，具有实用价值。"
+          },
+          {
+            "title": "利用 Strands Agents、LeRobot 和 Hugging Face 存储桶实现数据录制、训练与部署",
+            "summary": "通过 Strands Agents 和 LeRobot，用户可以在一个平台上实现数据的录制、训练和部署。该流程支持持续收集数据、训练模型并将其部署到物理机器人上，确保高效的数据流转与模型更新。使用 Hugging Face 存储桶，用户可以轻松管理和存储数据，提升工作效率。",
+            "source": "RSS · Hugging Face Blog",
+            "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+            "score": 82,
+            "sourceCount": 1,
+            "date": "2026-08-14",
+            "publishedAt": "2026-08-14T01:16",
+            "reason": "这篇文章提供了一个全面的解决方案，帮助开发者在机器人领域实现高效的数据管理与模型训练，值得深入了解。"
+          }
+        ]
+      },
+      {
         "category": "ai-models",
         "label": "模型发布",
         "items": [
+          {
+            "title": "Gemini 3.7 Flash 发布，编程和代理模型的新标杆",
+            "summary": "我最近看到 Gemini 3.7 Flash 的发布，这款模型是目前最智能的工作马，专为编程和代理任务设计。它在软件工程、知识工作和网页开发等领域都有显著提升，尤其在调试和问题解决方面表现出色。更重要的是，它的价格仅为原版 3.6 Flash 的一半，性价比极高。",
+            "source": "RSS · Google DeepMind",
+            "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
+            "score": 84,
+            "sourceCount": 1,
+            "date": "2026-08-14",
+            "publishedAt": "2026-08-14T01:04",
+            "reason": "Gemini 3.7 Flash 的发布不仅提升了编程和代理任务的效率，还以更低的价格提供了更高的性能，值得关注。它的多领域应用潜力将为开发者和企业带来实质性的价值。"
+          },
+          {
+            "title": "Forma模型在长期财务报表预测中的应用与局限",
+            "summary": "Forma模型在财务报表的长期预测中表现出色，能够超越传统方法，但仍面临数据依赖和行业适用性等挑战。该模型通过分析历史数据和行业代码，提供了78项财务指标的1至20季度预测，具有较高的准确性和可重复性。",
+            "source": "RSS · arXiv cs.LG",
+            "url": "https://arxiv.org/abs/2608.11327",
+            "score": 82,
+            "sourceCount": 1,
+            "date": "2026-08-14",
+            "publishedAt": "",
+            "reason": "Forma模型在财务报表长期预测中的创新应用，提供了更高的准确性和灵活性，值得关注。"
+          },
           {
             "title": "视觉语言模型在评估机器人图像的近端风险中的局限性",
             "summary": "研究评估了三种开源视觉语言模型（InternVL、Qwen-VL 和 SmolVLM）在分类机器人自我视角图像中的危险等级的能力。尽管 Qwen-VL 在高危险案例的召回率上表现突出，但整体改进有限，显示出当前模型在细粒度近端推理和空间定位上的不足。",
@@ -14397,9 +14447,37 @@ window.AI_GENERATED_DATA = {
         ]
       },
       {
+        "category": "ai-office",
+        "label": "办公提效",
+        "items": [
+          {
+            "title": "Google Sheets 新功能：Sheets canvas 让数据可视化更简单",
+            "summary": "这次发布的核心点是 Google Sheets 推出的 Sheets canvas 功能，它通过简单的自然语言提示，将传统的电子表格数据转化为互动式的可视化应用，无需编程技能。用户只需描述需求，AI 即可自动生成自定义布局，保持数据实时同步，极大提升了数据处理的效率和可读性。",
+            "source": "RSS · Google AI Blog",
+            "url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets/",
+            "score": 78,
+            "sourceCount": 1,
+            "date": "2026-08-14",
+            "publishedAt": "2026-08-14T00:45",
+            "reason": "Sheets canvas 通过简单的自然语言提示，将复杂的数据转化为可视化应用，极大提升了用户的工作效率和数据处理能力，值得一试。"
+          }
+        ]
+      },
+      {
         "category": "ai-research",
         "label": "论文研究",
         "items": [
+          {
+            "title": "MaSRead：内容寻址的复制潜在存储读取",
+            "summary": "MaSRead 是一种新型的内容寻址读取方法，旨在解决独立智能体在潜在空间中共享计算状态时的缓存读取问题。通过使用无冲突的复制数据类型，MaSRead 能够在任意交付顺序或重复情况下有效读取合并的缓存，确保后续查询的准确性。",
+            "source": "RSS · arXiv cs.AI",
+            "url": "https://arxiv.org/abs/2608.11218",
+            "score": 86,
+            "sourceCount": 1,
+            "date": "2026-08-14",
+            "publishedAt": "",
+            "reason": "MaSRead 提供了一种创新的内容寻址方法，解决了多智能体系统中数据共享的关键问题，值得关注其在实际应用中的潜力。"
+          },
           {
             "title": "MM-slotgate 提升时尚检索的可控性",
             "summary": "Najmeh Forouzandehmehr 等人在 2026 年 8 月 12 日提交的论文中提出了 MM-slotgate，这是一种多模态插槽编码器，能够将 Fashion-CLIP 的文本和图像嵌入分解为四个命名属性插槽。该方法在 H&M 数据集上实现了 0.7566 的宏",
@@ -14410,6 +14488,83 @@ window.AI_GENERATED_DATA = {
             "date": "2026-08-15",
             "publishedAt": "",
             "reason": "MM-slotgate 提供了一种创新的方式来提升时尚检索的可控性，具有显著的实用价值和广泛的应用前景。"
+          },
+          {
+            "title": "高维网络与均方误差在可能错误指定模型中的应用",
+            "summary": "在高维网络分析中，包含更多变量有助于避免遗漏重要变量及其连接。本文展示了在参数远超观测值的情况下，如何获得每个节点的保守邻域估计，确保低假阳性率。通过线性模型进行邻域估计时，若真实模型为线性，则选择效果良好；若为非线性，则需对高维度施加惩罚。研究还探讨了岭参数对均方误差的影响，揭",
+            "source": "RSS · arXiv stat.ML",
+            "url": "https://arxiv.org/abs/2608.13171",
+            "score": 82,
+            "sourceCount": 1,
+            "date": "2026-08-14",
+            "publishedAt": "",
+            "reason": "本文提供了高维网络分析中的新见解，尤其是在模型选择和假阳性率控制方面，具有重要的实用价值。"
+          },
+          {
+            "title": "在分布转变下稳健学习的统计特性",
+            "summary": "我注意到，分布转变问题在机器学习中越来越受到关注，尤其是在目标环境与训练数据来源环境不一致时。最近的研究探讨了稳健学习框架，如分布稳健优化（DRO）和稳健满意（RS），在这种情况下的有限样本保证和系统比较，填补了这一领域的研究空白。",
+            "source": "RSS · arXiv stat.ML",
+            "url": "https://arxiv.org/abs/2608.13133",
+            "score": 82,
+            "sourceCount": 1,
+            "date": "2026-08-14",
+            "publishedAt": "",
+            "reason": "这项研究深入探讨了稳健学习在分布转变下的统计特性，为相关领域提供了新的视角和实用的比较框架，值得关注。"
+          },
+          {
+            "title": "黑箱知识迁移：跨特征集的创新方法",
+            "summary": "这次发布的核心点是提出了一种新的方法，旨在将黑箱预测模型中的知识迁移到不同的输入特征空间。该方法通过分解目标回归函数，提取可迁移和不可迁移的组件，从而提高了在特征不一致情况下的预测能力。研究表明，该方法在多个黑箱模型的聚合下，能够有效降低预测误差，具有实际应用价值。",
+            "source": "RSS · arXiv stat.ML",
+            "url": "https://arxiv.org/abs/2608.12403",
+            "score": 82,
+            "sourceCount": 1,
+            "date": "2026-08-14",
+            "publishedAt": "",
+            "reason": "这项研究提供了一种创新的知识迁移方法，能够有效解决特征不一致问题，值得关注。"
+          },
+          {
+            "title": "Wasserstein 过滤：一种稳健分布学习的样本选择方法",
+            "summary": "我最近看到一篇关于 Wasserstein 过滤（WF）的研究，提出了一种新颖的样本选择框架，旨在从受污染的数据集中恢复干净的分布。该方法通过丢弃可疑样本并利用剩余数据的经验测度来估计目标分布，具有很强的实用性和模型无关性。",
+            "source": "RSS · arXiv stat.ML",
+            "url": "https://arxiv.org/abs/2608.13418",
+            "score": 82,
+            "sourceCount": 1,
+            "date": "2026-08-14",
+            "publishedAt": "",
+            "reason": "Wasserstein 过滤方法为处理受污染数据提供了创新的解决方案，具有广泛的应用潜力，值得关注。"
+          },
+          {
+            "title": "热带商业建筑 HVAC 控制的上下文质量多样性进化强化学习",
+            "summary": "我最近看到一篇有趣的论文，提出了一种新的上下文质量多样性进化强化学习控制器 CQD-ERL，专门用于热带水冷式冷却机组的监督控制。这个控制器不仅仅是收敛到单一的策略，而是维护一个由多种专业策略组成的产品档案，这些策略是根据数据驱动的操作上下文、每日天气和负载模式的聚类以及上下文不",
+            "source": "RSS · arXiv cs.LG",
+            "url": "https://arxiv.org/abs/2608.11324",
+            "score": 82,
+            "sourceCount": 1,
+            "date": "2026-08-14",
+            "publishedAt": "",
+            "reason": "这篇论文展示了如何通过创新的强化学习方法提升 HVAC 系统的控制效率，值得关注。"
+          },
+          {
+            "title": "联邦学习在分布式 CNC 工具磨损预测中的应用",
+            "summary": "工具磨损预测在 CNC 加工中至关重要，准确监测工具状态有助于提高产品质量和过程可靠性。尽管机器学习方法在这一任务中展现出潜力，但由于加工数据的分布特性及数据共享限制，其在工业环境中的应用受到限制。联邦学习为此提供了合适的框架，允许在不传输原始操作数据的情况下进行协作模型训练。研",
+            "source": "RSS · arXiv cs.LG",
+            "url": "https://arxiv.org/abs/2608.11281",
+            "score": 82,
+            "sourceCount": 1,
+            "date": "2026-08-14",
+            "publishedAt": "",
+            "reason": "该研究为分布式 CNC 加工领域提供了新的解决方案，展示了联邦学习在工具磨损预测中的潜力，值得关注。"
+          },
+          {
+            "title": "CVaR-GPA 算法提升生成模型对极端事件的适应性",
+            "summary": "Thejani Gamage 等人在 2026 年 8 月 12 日提交的论文中提出了一种新的算法 CVaR-penalized Generative Particle Algorithm (CVaR-GPA)，旨在优化生成模型以学习重尾分布并捕捉极端事件。该算法无需先验知识，利",
+            "source": "RSS · arXiv stat.ML",
+            "url": "https://arxiv.org/abs/2608.11544",
+            "score": 82,
+            "sourceCount": 1,
+            "date": "2026-08-14",
+            "publishedAt": "",
+            "reason": "CVaR-GPA 提供了一种创新的方法来处理重尾分布和极端事件，具有广泛的应用潜力，值得关注。"
           },
           {
             "title": "基于 CT 的外部软组织表面估算隐性骨骼标志的三维头影测量",
@@ -14449,6 +14604,153 @@ window.AI_GENERATED_DATA = {
     ]
   },
   "dailyReports": [
+    {
+      "date": "2026-08-16",
+      "generatedAt": "2026-08-16T16:00:42.643480Z",
+      "total": 10,
+      "sections": [
+        {
+          "category": "ai-tools",
+          "label": "AI 工具",
+          "items": [
+            {
+              "title": "AI生成书籍数量激增，影响人类作者收入",
+              "summary": "根据对14,419本自出版电子书的分析，AI生成书籍以数量优势挤占人类作者市场，导致单书收入普遍下滑。2023年Q1至2026年Q1，书目总量增长38.3倍，而季度收入仅增长8.9倍，七个类型的无AI文本书籍单书收入下降，显示出市场竞争的加剧。",
+              "source": "The Decoder：AI News（RSS）",
+              "url": "https://the-decoder.com/ai-generated-books-are-flooding-amazon-and-tanking-sales-for-human-authors",
+              "score": 63,
+              "sourceCount": 1,
+              "date": "2026-08-15",
+              "publishedAt": "2026-08-15T19:00",
+              "reason": "这条信息揭示了AI生成书籍对传统出版市场的深远影响，值得关注。"
+            }
+          ]
+        },
+        {
+          "category": "ai-coding",
+          "label": "AI 编程",
+          "items": [
+            {
+              "title": "从视觉组件到 UI 代码：高效的工具驱动生成",
+              "summary": "我最近看到一篇关于视觉组件转化为 UI 代码的研究，提出了一种名为 WidgetGen 的新框架。这个框架通过提取可观察的文本和颜色证据，直接生成可执行的 JavaScript XML (JSX)，在视觉重建指标上表现优异，尤其是在面积、可读性和风格方面。它的设计减少了对组件生成",
+              "source": "RSS · arXiv cs.CV",
+              "url": "https://arxiv.org/abs/2608.12611",
+              "score": 82,
+              "sourceCount": 1,
+              "date": "2026-08-15",
+              "publishedAt": "",
+              "reason": "这篇研究展示了 WidgetGen 在 UI 代码生成方面的独特优势，值得关注。"
+            },
+            {
+              "title": "亚马逊 Nova Forge 的多轮强化学习自定义奖励函数设计",
+              "summary": "在多轮强化学习中，自定义奖励函数直接决定模型的学习效果。本文探讨如何为亚马逊 Nova Forge 设计复合型多轮奖励，确保模型生成的代码安全执行，并通过各组件的监控避免潜在的奖励崩溃问题。",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/custom-reward-functions-for-multi-turn-reinforcement-learning-with-amazon-nova-forge/",
+              "score": 82,
+              "sourceCount": 1,
+              "date": "2026-08-15",
+              "publishedAt": "2026-08-15T00:02",
+              "reason": "本文深入探讨亚马逊 Nova Forge 的多轮强化学习自定义奖励函数设计，提供实用的指导和潜在的风险分析，适合希望提升 AI 模型性能的开发者参考。"
+            }
+          ]
+        },
+        {
+          "category": "ai-models",
+          "label": "模型发布",
+          "items": [
+            {
+              "title": "视觉语言模型在评估机器人图像的近端风险中的局限性",
+              "summary": "研究评估了三种开源视觉语言模型（InternVL、Qwen-VL 和 SmolVLM）在分类机器人自我视角图像中的危险等级的能力。尽管 Qwen-VL 在高危险案例的召回率上表现突出，但整体改进有限，显示出当前模型在细粒度近端推理和空间定位上的不足。",
+              "source": "RSS · arXiv cs.CV",
+              "url": "https://arxiv.org/abs/2608.12515",
+              "score": 78,
+              "sourceCount": 1,
+              "date": "2026-08-15",
+              "publishedAt": "",
+              "reason": "该研究揭示了视觉语言模型在机器人安全评估中的潜力与局限，值得关注其在实际应用中的影响。"
+            },
+            {
+              "title": "Claude 文本水印机制如何运作",
+              "summary": "未来 Claude 模型生成的文本将包含水印，用于判断文本由 Claude 撰写的可能性，这是 Anthropic 为遵守欧盟《AI 法案》而实施的变更。该方法基于 Google DeepMind 的 SynthID-Text 技术，对输出质量、创造力和可读性无实际影响，读者无法",
+              "source": "Anthropic：Newsroom（网页）",
+              "url": "https://www.anthropic.com/news/claude-text-watermark",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-15",
+              "publishedAt": "2026-08-15T03:22",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-benchmark",
+          "label": "评测榜单",
+          "items": [
+            {
+              "title": "StrAD 提供长视频音频描述生成的新基准和流媒体方法",
+              "summary": "StrAD 是一项新发布的研究，专注于为长视频生成音频描述（AD）。该方法解决了传统手动生成 AD 的高成本问题，提升了可及性，尤其是对视障人士。研究表明，现有的自动 AD 生成方法多将任务视为视频片段字幕生成，StrAD 则引入了流媒体处理，显著提高了生成效率。",
+              "source": "RSS · arXiv cs.CV",
+              "url": "https://arxiv.org/abs/2608.12549",
+              "score": 78,
+              "sourceCount": 1,
+              "date": "2026-08-15",
+              "publishedAt": "",
+              "reason": "StrAD 的流媒体生成方法为音频描述领域带来了创新，显著提高了长视频的可及性，值得关注。"
+            }
+          ]
+        },
+        {
+          "category": "ai-research",
+          "label": "论文研究",
+          "items": [
+            {
+              "title": "MM-slotgate 提升时尚检索的可控性",
+              "summary": "Najmeh Forouzandehmehr 等人在 2026 年 8 月 12 日提交的论文中提出了 MM-slotgate，这是一种多模态插槽编码器，能够将 Fashion-CLIP 的文本和图像嵌入分解为四个命名属性插槽。该方法在 H&M 数据集上实现了 0.7566 的宏",
+              "source": "RSS · arXiv cs.CV",
+              "url": "https://arxiv.org/abs/2608.12570",
+              "score": 82,
+              "sourceCount": 1,
+              "date": "2026-08-15",
+              "publishedAt": "",
+              "reason": "MM-slotgate 提供了一种创新的方式来提升时尚检索的可控性，具有显著的实用价值和广泛的应用前景。"
+            },
+            {
+              "title": "基于 CT 的外部软组织表面估算隐性骨骼标志的三维头影测量",
+              "summary": "现有的三维面部标志方法主要定位于可见皮肤上的点，但是否可以从外部软组织几何推断 CT 定义的内部骨骼标志仍不明确。研究通过分析 240 例临床 CT 扫描，提出了一种坐标一致的表面到骨骼任务，取得了 2.97 mm 的平均径向误差。",
+              "source": "RSS · arXiv cs.CV",
+              "url": "https://arxiv.org/abs/2608.12537",
+              "score": 81,
+              "sourceCount": 1,
+              "date": "2026-08-15",
+              "publishedAt": "",
+              "reason": "该研究为隐性骨骼标志的推断提供了新的视角，具有重要的临床应用价值和研究潜力。"
+            },
+            {
+              "title": "HIMEC：遥感图像变化描述的新方法",
+              "summary": "这次发布的核心点是HIMEC模型，它通过方向变化表示（DCR）和固定接口解码，提升了遥感图像变化描述的准确性。与传统方法直接依赖融合视觉特征不同，HIMEC在处理变化结构和解码器接口一致性方面进行了深入研究，展现出更好的性能。",
+              "source": "RSS · arXiv cs.CV",
+              "url": "https://arxiv.org/abs/2608.12502",
+              "score": 78,
+              "sourceCount": 1,
+              "date": "2026-08-15",
+              "publishedAt": "",
+              "reason": "HIMEC模型通过创新的方向变化表示和固定接口解码方法，显著提升了遥感图像变化描述的准确性，值得关注。"
+            },
+            {
+              "title": "PseudoMapLabeler 提出基于置信度的伪标签生成框架",
+              "summary": "在 arXiv 上发布的论文中，研究者提出了一种名为 PseudoMapLabeler 的半监督学习框架，旨在解决在线高清地图构建系统中标注数据稀缺的问题。该框架通过置信度感知的地图精炼技术，从未标注数据中生成高质量的伪标签，从而提升模型在多样化环境中的泛化能力。",
+              "source": "RSS · arXiv cs.CV",
+              "url": "https://arxiv.org/abs/2608.12600",
+              "score": 78,
+              "sourceCount": 1,
+              "date": "2026-08-15",
+              "publishedAt": "",
+              "reason": "PseudoMapLabeler 提供了一种创新的解决方案，针对在线高清地图构建中的数据稀缺问题，具有重要的实用价值。"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-15",
       "generatedAt": "2026-08-15T16:00:34.426859Z",
@@ -26340,7 +26642,7 @@ window.AI_GENERATED_DATA = {
     }
   ],
   "llmLeaderboard": {
-    "updated": "2026-08-15",
+    "updated": "2026-08-17",
     "source": "ReLE 中文大模型能力评测（综合能力）",
     "sourceUrl": "https://github.com/jeinlee1991/chinese-llm-benchmark",
     "items": [
