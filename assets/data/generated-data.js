@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-08-16",
-  "generatedAt": "2026-08-16T03:46:42.175128Z",
+  "generatedAt": "2026-08-16T07:41:14.528173Z",
   "news": [
     {
       "title": "MM-slotgate 提升时尚检索的可控性",
@@ -9199,6 +9199,23 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-models": [
       {
+        "name": "Mahindra推出首款AI智能汽车，集成Google Gemini对话助手",
+        "provider": "ET NOW",
+        "type": "AI 项目/工具",
+        "bestFor": "这款AI智能汽车的推出将吸引更多追求科技感和个性化的消费者，尤其是年轻一代。通过自然语音控制和个性化配置，驾驶体验将更加便捷和愉悦。此外，Revive SOS功能的引入为用户提供了额外的安全保障，可能会影响消费者在选择电动车时的决策。随着智能汽车技术的普及，整个汽车行业也将面临转型压力，促使更多品牌加速技术创新。",
+        "description": "Mahindra的2026 BE 6 SPORTEQ是首款集成Google Gemini的AI智能汽车，配备TEQ_Talk对话助手，实现自然语音控制导航、娱乐和车辆设置。TEQ_Me功能可自动识别驾驶员并加载个性化配置。此外，TEQ_xting允许车主在LED尾门上显示自定义信息，TEQ_Drive则提供多种驾驶模式和Revive SOS紧急充电功能，能在电池耗尽后提供最多13公里的应急续航。2027年1月起，现有用户也可通过OTA更新体验这些功能。",
+        "useCases": [
+          "使用TEQ_Talk进行语音导航，快速设置目的地，提升行车安全性。",
+          "通过TEQ_Me功能，自动加载个人驾驶配置，节省时间，提升驾驶体验。",
+          "利用TEQ_xting在车尾显示个性化信息，增强车辆的独特性和社交互动。",
+          "在紧急情况下，启用Revive SOS功能，确保能安全到达最近的充电站。",
+          "通过OTA更新，现有用户可体验新功能，保持车辆的技术前沿性。"
+        ],
+        "watch": "在使用TEQ_Talk时，可能会受到环境噪音影响，导致语音识别不准确。",
+        "sourceName": "ET NOW",
+        "url": "https://www.etnownews.com/auto/2026-be-6-sporteq-mahindras-first-ai-powered-car-integrates-google-gemini-as-a-conversational-ai-assistant-article-155691653"
+      },
+      {
         "name": "苹果向出版商提出按使用付费的Siri新闻智能计划",
         "provider": "WebProNews",
         "type": "AI 项目/工具",
@@ -9776,17 +9793,6 @@ window.AI_GENERATED_DATA = {
         "watch": "电力租赁协议可能面临价格波动风险，影响长期成本。",
         "sourceName": "NewsData.io:Claude AI",
         "url": "https://memeburn.com/anthropic-riot-platforms-9-billion-deal/"
-      },
-      {
-        "name": "Sheba first outside US to deploy platform",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Sheba becomes first hospital outside US to deploy OpenAI healthcare platform, with Australian rollout a goal.",
-        "description": "Sheba becomes first hospital outside US to deploy OpenAI healthcare platform, with Australian rollout a goal.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:Claude AI",
-        "url": "https://www.australianjewishnews.com/sheba-first-outside-us-to-deploy-platform/"
       }
     ],
     "ai-business": [
@@ -12193,6 +12199,33 @@ window.AI_GENERATED_DATA = {
   },
   "skillRecommendations": [
     {
+      "title": "SubwayInfo NYC",
+      "type": "MCP 服务",
+      "description": "提供实时纽约地铁信息，包括列车状态、服务警报和车站到达时间。",
+      "details": "SubwayInfo NYC 是一个专为纽约地铁系统设计的服务，用户可以实时获取列车的运行状态和服务警报。通过该服务，用户可以在出行前查看特定车站的到达时间，确保行程顺利。与其他地铁信息服务相比，SubwayInfo NYC 提供更为详细的实时数据，确保用户获得最新的信息。该服务兼容多种设备，用户可以通过网页访问，方便快捷。",
+      "features": [
+        "实时列车状态查询",
+        "查看服务警报",
+        "获取车站到达时间",
+        "支持多设备访问"
+      ],
+      "useCases": [
+        "查询列车状态以避免延误",
+        "查看服务警报以调整出行计划",
+        "获取到达时间以安排接送",
+        "实时监控地铁运行情况"
+      ],
+      "tags": [
+        "地铁信息",
+        "实时数据",
+        "纽约",
+        "出行助手"
+      ],
+      "url": "https://smithery.ai/server/subwayinfo",
+      "source": "Smithery MCP",
+      "date": "2026-08-16"
+    },
+    {
       "title": "When your 11-year-old daughter uses AI to build her own browser…",
       "type": "方法论 / 文章",
       "description": "这篇文章探讨了一个年轻女孩如何利用 AI 技术构建自己的浏览器，展示了 AI 在教育和创造力方面的潜力。",
@@ -14263,7 +14296,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-08-16",
-    "generatedAt": "2026-08-16T03:46:42.136459Z",
+    "generatedAt": "2026-08-16T07:41:14.497757Z",
     "total": 10,
     "sections": [
       {
