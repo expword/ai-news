@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-08-16",
-  "generatedAt": "2026-08-16T01:15:17.361008Z",
+  "generatedAt": "2026-08-16T03:46:42.175128Z",
   "news": [
     {
       "title": "MM-slotgate 提升时尚检索的可控性",
@@ -8001,6 +8001,23 @@ window.AI_GENERATED_DATA = {
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Anthropic Q2 收入超 115 亿美元，年增 14 倍，IPO 估值或达 2 万亿美元",
+        "provider": "WebProNews",
+        "type": "AI 项目/工具",
+        "bestFor": "Anthropic 的成功吸引了大量企业客户，尤其是在需要高精度和可靠性的任务中。随着企业对 AI 工具的依赖加深，Anthropic 的市场地位将进一步巩固，可能引发行业内其他竞争者的价格战。此外，企业在选择 AI 解决方案时，越来越倾向于选择能够提供高回报的产品，这将改变整个行业的定价和服务模式。",
+        "description": "Anthropic 在 2026 年第二季度的收入超过 115 亿美元，较去年同期增长 14 倍，年化收入率达 470 亿美元，首次实现正向经营收入。尽管定价较高，Anthropic 依然在企业支出中占据主导地位，尤其是通过 Claude Code 和 API 的广泛应用，预计将于未来进行高达 2 万亿美元的 IPO。",
+        "useCases": [
+          "集成 Claude Code 进行文档自动化，提高工作效率。",
+          "利用 Anthropic API 开发智能客服系统，提升客户满意度。",
+          "使用 Claude 进行复杂推理任务，优化决策过程。",
+          "通过 API 接口实现数据分析，支持业务洞察。",
+          "在企业内部培训中应用 AI 工具，提升员工技能。"
+        ],
+        "watch": "高昂的 API 费用可能限制小型企业的使用，导致市场分化。",
+        "sourceName": "WebProNews",
+        "url": "https://www.webpronews.com/anthropics-price-premium-pays-off-how-the-ai-upstart-outearned-rivals-and-chased-a-2-trillion-ipo/"
+      },
+      {
         "name": "AWS推出Kiro，助力软件开发团队高效编码",
         "provider": "Newsbytes.PH",
         "type": "AI 项目/工具",
@@ -8592,21 +8609,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Currents:AI agent",
         "url": "https://vulners.com/nvd/NVD:CVE-2026-66065"
-      },
-      {
-        "name": "DeepEval 提升 AI 应用测试效率",
-        "provider": "Currents",
-        "type": "AI 项目/工具",
-        "bestFor": "这一测试方法的实施将对 AI 应用的开发流程产生深远影响。首先，开发者能够更快速地识别和修复应用中的错误，从而提高产品质量。其次，使用 DeepEval 的检查清单，开发者可以在每次更新后确保应用的稳定性，减少了因错误导致的用户投诉。此外，这种方法还可以推广到其他 AI 应用的开发中，形成标准化的测试流程，提升整个行业",
-        "description": "一名开发者在构建 AI 应用时，利用 DeepEval 进行测试，发现了应用在处理支持请求时的分类错误。通过创建测试用例和使用 DeepEval 的检查清单，开发者成功修正了应用的行为，提高了测试的准确性和效率。",
-        "useCases": [
-          "使用 DeepEval 创建测试用例，确保应用在处理支持请求时的准确性。",
-          "通过 JSON 数据集定义预期行为，帮助开发者快速识别错误。",
-          "在更新应用提示后，利用检查清单验证应用行为的一致性。"
-        ],
-        "watch": "DeepEval 作为开源工具，可能存在社区支持不足的问题。",
-        "sourceName": "Currents:AI agent",
-        "url": "https://dev.to/juampitech/i-have-been-vibecoding-evals-works-better-than-i-thought-33oi"
       }
     ],
     "ai-agents": [
@@ -14261,7 +14263,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-08-16",
-    "generatedAt": "2026-08-16T01:15:17.336008Z",
+    "generatedAt": "2026-08-16T03:46:42.136459Z",
     "total": 10,
     "sections": [
       {
