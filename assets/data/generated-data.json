@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-08-17",
-  "generatedAt": "2026-08-17T13:17:25.262841Z",
+  "generatedAt": "2026-08-17T15:51:07.175515Z",
   "news": [
     {
       "title": "谷歌与五大足球俱乐部建立长期合作关系",
@@ -511,6 +511,189 @@
       "scores": {},
       "score": 70,
       "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "NVIDIA 与 SB Energy 合作确保俄亥俄州 PORTS-Pike 园区电力容量",
+      "summary": "NVIDIA 宣布与 SB Energy 合作，确保俄亥俄州 PORTS-Pike 科技园区的电力容量，以独家部署 NVIDIA 算力，OpenAI 将成为该园区的租户。此举将为未来的 AI 工厂提供关键基础设施，助力 AI 经济的发展。",
+      "category": "ai-models",
+      "tags": [
+        "NVIDIA",
+        "SB Energy",
+        "AI 工厂",
+        "电力容量",
+        "OpenAI"
+      ],
+      "keyPoints": [
+        "NVIDIA 与 SB Energy 合作，确保 PORTS-Pike 科技园区的电力容量，专用于 NVIDIA 的 AI 工厂。",
+        "预计初步部署将提供 4.25 吉瓦的 AI 工厂电力容量，支持未来的计算需求。",
+        "每代 NVIDIA AI 工厂系统可包含约 150 万个 NVIDIA GPU，预计带来 1500 亿至 2000 亿美元的收入。",
+        "该园区将支持多次升级周期，确保长期的基础设施投资回报。",
+        "OpenAI 将在此园区内建立并运营世界级的 AI 工厂，推动 AI 计算能力的提升。"
+      ],
+      "background": "NVIDIA 正在积极扩展其 AI 工厂的基础设施，以满足日益增长的计算需求。与 SB Energy 的合作确保了 PORTS-Pike 科技园区的电力供应，这对于构建高效的 AI 工厂至关重要。AI 工厂需要大量的计算资源，而电力容量是其核心组成部分。通过与 SB Energy 的合作，NVIDIA 能够确保其 AI 工厂在未来的可持续发展，同时也为 OpenAI 提供了一个理想的运营环境。",
+      "impact": "这一合作将改变 AI 领域的基础设施格局，确保更多企业能够获得所需的计算资源。随着电力容量的保障，AI 实验室和企业将能够更快地进行模型训练和推理，推动产品创新和市场扩展。此外，NVIDIA 的这一举措可能会吸引更多投资者关注 AI 领域的基础设施建设，形成良性循环。",
+      "audience": [
+        "AI 工程师",
+        "数据科学家",
+        "云计算架构师",
+        "企业决策者",
+        "投资分析师"
+      ],
+      "useCases": [
+        "评估电力需求，使用 NVIDIA 提供的工具，确保 AI 工厂的电力供应充足。",
+        "利用 NVIDIA 的 DSX AI 工厂平台，快速部署 AI 模型，提升计算效率。",
+        "与 SB Energy 合作，优化电力使用策略，降低运营成本。",
+        "分析市场趋势，利用 AI 工厂的计算能力，推动产品创新。",
+        "进行长期规划，确保基础设施投资与企业增长相匹配。"
+      ],
+      "risks": [
+        "电力供应不足可能导致计算能力下降，影响 AI 工厂的运营效率。",
+        "与 SB Energy 的合作协议可能存在变动，需关注合同条款的稳定性。",
+        "高昂的电力成本可能影响整体运营预算，需进行成本控制。",
+        "技术兼容性问题可能导致系统集成困难，需提前进行测试。",
+        "API 使用配额限制可能影响项目进度，需合理规划资源使用。"
+      ],
+      "reason": "此合作将为 NVIDIA 和 OpenAI 提供强大的基础设施支持，推动 AI 经济的发展，值得关注。",
+      "scores": {
+        "importance": 85,
+        "novelty": 80,
+        "firsthand": 90,
+        "impact": 80,
+        "credibility": 85
+      },
+      "url": "https://blogs.nvidia.com/blog/securing-the-infrastructure-of-intelligence",
+      "source": "NVIDIA Blog（RSS）",
+      "date": "2026-08-17",
+      "publishedAt": "2026-08-17T20:34",
+      "collectedAt": "2026-08-17T22:33",
+      "dateStatus": "verified",
+      "tier": "T1.5",
+      "score": 67,
+      "aiSelected": true,
+      "_style": "tutorial",
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "OpenAI 强化安全防御措施，提升模型抗攻击能力",
+      "summary": "在 OpenAI-Hugging Face 事件后，OpenAI 认识到其模型在网络攻击中的脆弱性，决定通过四大支柱来增强安全性：使用 Codex 验证代码漏洞、智能体优先处理安全警报、持续枚举攻击路径，并限制网络能力仅向可信防御者开放。通过 ChatGPT Work（基于 GPT-5.6 Sol），在 15 分钟内发现个人网站的 13 个问题，并在一小时内完成修复，显示出其安全防护能力的显著提升。",
+      "category": "ai-tools",
+      "tags": [
+        "OpenAI",
+        "安全防护",
+        "网络攻击",
+        "Codex",
+        "智能体",
+        "ChatGPT"
+      ],
+      "keyPoints": [
+        "OpenAI 反思模型在网络攻击中的脆弱性，决定强化安全防御。",
+        "通过 Codex 验证代码漏洞，提升代码安全性。",
+        "智能体优先处理安全警报，优化响应效率。",
+        "持续枚举攻击路径，增强对潜在威胁的识别能力。",
+        "ChatGPT Work（基于 GPT-5.6 Sol）在 15 分钟内发现 13 个网站问题，并在一小时内完成修复。"
+      ],
+      "background": "OpenAI 在 AI 领域的快速发展伴随着安全隐患的增加，尤其是在模型被用于生成恶意内容或进行网络攻击的情况下。近期的 OpenAI-Hugging Face 事件暴露了其模型在真实网络攻击中的脆弱性，促使公司重新审视其安全策略。与其他 AI 公司相比，OpenAI 采取了更为积极的措施，通过技术手段强化防御，确保其产品的安全性和可靠性。",
+      "impact": "OpenAI 的新安全措施将对开发者和企业用户产生深远影响，尤其是在金融、医疗等对安全性要求极高的行业。通过提升模型的抗攻击能力，企业可以更安心地使用 AI 技术，降低潜在的安全风险。此外，OpenAI 的做法可能会促使其他 AI 公司加强自身的安全防护措施，形成行业内的良性竞争。",
+      "audience": [
+        "安全工程师",
+        "AI 开发者",
+        "企业 IT 管理者",
+        "网络安全分析师",
+        "产品经理"
+      ],
+      "useCases": [
+        "使用 Codex 检查代码漏洞，确保软件安全性。",
+        "利用智能体处理安全警报，提高响应速度。",
+        "通过 ChatGPT Work 发现并修复网站安全问题，提升用户信任。"
+      ],
+      "risks": [
+        "API 价格波动可能影响开发者的使用成本，需提前评估预算。",
+        "配额限制可能导致高流量应用无法稳定运行，影响用户体验。",
+        "商用授权的复杂性可能增加企业合规成本，需仔细审查条款。"
+      ],
+      "reason": "OpenAI 的安全防护措施展示了其在 AI 领域的前瞻性思维，值得关注其对行业的影响。",
+      "scores": {
+        "importance": 85,
+        "novelty": 75,
+        "firsthand": 90,
+        "impact": 80,
+        "credibility": 85
+      },
+      "url": "https://openai.com/index/the-defenders-window",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "date": "2026-08-17",
+      "publishedAt": "2026-08-17T13:30",
+      "collectedAt": "2026-08-17T22:33",
+      "dateStatus": "verified",
+      "tier": "T1.5",
+      "score": 66,
+      "aiSelected": true,
+      "_style": "analyst",
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "宇树科技将于2026年8月19日上市，成为A股人形机器人第一股",
+      "summary": "宇树科技宣布将于2026年8月19日在科创板上市，发行价150.80元/股，市值约609.93亿元，预计募资约60.99亿元。公司在2023至2025年间营收逐年增长，预计2025年净利润将达2.78亿元，成为全球少数盈利的高性能通用机器人公司。",
+      "category": "ai-business",
+      "tags": [
+        "宇树科技",
+        "人形机器人",
+        "科创板",
+        "上市",
+        "投资"
+      ],
+      "keyPoints": [
+        "宇树科技将于2026年8月19日在科创板上市，发行价为150.80元/股，市值约609.93亿元。",
+        "公司计划公开发行4044.64万股，占发行后总股本的10%，预计募资总额约60.99亿元。",
+        "预计2023至2025年营业收入分别为1.59亿元、3.93亿元和16.99亿元，净利润逐年增长。",
+        "宇树科技的发行市盈率为219.23倍，高于行业平均市盈率38.56倍。",
+        "公司募资将重点投向智能机器人模型研发、机器人本体研发等四大核心项目。"
+      ],
+      "background": "宇树科技是一家专注于高性能通用机器人的公司，近年来在技术研发和市场拓展方面取得了显著进展。此次上市将为其提供更多资金支持，助力其在智能机器人领域的进一步发展。根据招股书，宇树科技的营业收入在未来几年将持续增长，预计到2025年将实现盈利，标志着其在全球机器人行业中的竞争力提升。",
+      "impact": "宇树科技的上市将吸引更多投资者关注智能机器人领域，可能推动相关技术的进一步发展和应用。对投资者而言，这是一项具有潜力的投资机会，可能改变他们对机器人行业的投资决策。同时，宇树科技的成功上市也可能激励其他科技公司寻求资本市场的支持，促进整个行业的繁荣。",
+      "audience": [
+        "投资者",
+        "机器人研发工程师",
+        "市场分析师"
+      ],
+      "useCases": [
+        "关注宇树科技的投资者可以在8月19日进行股票购买，参与人形机器人行业的投资。",
+        "机器人研发工程师可以研究宇树科技的技术进展，借鉴其成功经验，推动自身项目的研发。",
+        "市场分析师可以分析宇树科技上市后的市场表现，为客户提供投资建议。"
+      ],
+      "risks": [
+        "投资者需注意宇树科技的高市盈率，可能面临市场波动带来的风险。",
+        "公司未来的盈利能力依赖于技术研发的成功，若研发进展不如预期，可能影响业绩。",
+        "市场竞争激烈，其他公司可能快速跟进，影响宇树科技的市场份额。"
+      ],
+      "reason": "宇树科技的上市标志着人形机器人行业的重大进展，值得关注其未来的发展潜力和市场表现。",
+      "scores": {
+        "importance": 85,
+        "novelty": 75,
+        "firsthand": 90,
+        "impact": 80,
+        "credibility": 85
+      },
+      "url": "https://www.ithome.com/0/990/812.htm",
+      "source": "IT之家（RSS）",
+      "date": "2026-08-17",
+      "publishedAt": "2026-08-17T20:25",
+      "collectedAt": "2026-08-17T22:33",
+      "dateStatus": "verified",
+      "tier": "T1.5",
+      "score": 66,
+      "aiSelected": true,
+      "_style": "tutorial",
       "moduleTargets": [
         "news"
       ],
@@ -4949,89 +5132,6 @@
         "news"
       ],
       "sourceCount": 1
-    },
-    {
-      "title": "LLM-Assisted Dynamic Threat Analysis for Attacker-Reachable Software Weaknesses in Autonomous Vehicles",
-      "summary": "Autonomous vehicles depend on large safety-critical software stacks, where weaknesses reachable from adversarial inputs may affect steering, braking, or other control decisions. St",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-08-13",
-      "publishedAt": "",
-      "collectedAt": "2026-08-15T00:26",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-13",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.13450v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Structure then Query: Enabling Precise Analytical Queries over Unstructured Documents",
-      "summary": "Unstructured documents constitute the majority of enterprise and web data. With the rapid development of large language models(LLMs), researchers have started to build data systems",
-      "category": "ai-research",
-      "source": "arXiv",
-      "date": "2026-08-13",
-      "publishedAt": "",
-      "collectedAt": "2026-08-15T00:26",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-13",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.13384v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
-      "summary": "OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI.",
-      "category": "ai-business",
-      "source": "RSS · OpenAI Blog",
-      "date": "2026-08-13",
-      "publishedAt": "2026-08-13T17:00",
-      "collectedAt": "2026-08-14T03:52",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://openai.com/index/dali-rajic-chief-revenue-officer",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
     }
   ],
   "weeklyDigests": [
@@ -9391,6 +9491,34 @@
     ],
     "ai-models": [
       {
+        "name": "Mercedes advances C-Class line-up with new combustion-engine",
+        "provider": "The Irish News",
+        "type": "AI 项目/工具",
+        "bestFor": "Mercedes has followed up from the launch of its electric C-Class with a new combustion-engined model.\n\nFrom the outside, the new model appears very close in des",
+        "description": "Mercedes has followed up from the launch of its electric C-Class with a new combustion-engined model.\n\nFrom the outside, the new model appears very close in design to the electric ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Irish News",
+        "url": "https://www.irishnews.com/life/mercedes-advances-c-class-line-up-with-new-combustion-engined-model-DRMZ556DOVMCZDTROS6VZCCKUA/"
+      },
+      {
+        "name": "Anthropic 关闭 Claude Workbench，保存的提示数据永久丢失",
+        "provider": "Tech Times",
+        "type": "AI 项目/工具",
+        "bestFor": "此次关闭将影响依赖旧版 Workbench 的开发者，尤其是那些需要保存提示和变量的团队。对于需要进行提示管理的组织，必须寻找新的解决方案，可能会导致工作流程的中断和重建。随着 Anthropic 将提示管理的功能外包给第三方工具，开发者需要评估新的工具以满足其需求，这可能会改变他们的开发策略和工具选择。",
+        "description": "Anthropic 于 2026 年 8 月 17 日正式关闭了 Claude API 的旧版 Workbench，导致未导出的提示资产无法恢复，三个实验性 API 接口也已失效。此次变动是公司平台整合的一部分，标志着其在提示管理层面的战略转变。",
+        "useCases": [
+          "使用新 Playground 进行实时模型交互，测试工具使用效果。",
+          "通过标准 Messages API 替代已关闭的实验性接口，生成生产级提示。",
+          "评估第三方 LLMOps 平台，选择适合团队需求的提示管理工具。",
+          "将工作流迁移到新工具，确保提示管理的连续性和效率。",
+          "与非技术团队合作，利用新工具进行提示迭代和优化。"
+        ],
+        "watch": "未及时导出的提示数据无法恢复，可能导致重要信息丢失。",
+        "sourceName": "Tech Times",
+        "url": "https://www.techtimes.com/articles/324669/20260817/anthropic-kills-claude-workbench-today-saved-prompts-gone-api-pipelines-broken.htm"
+      },
+      {
         "name": "OpenRouter 推出 Activity 仪表盘与 Analytics API：按智能体、模型、请求追踪 AI 使用",
         "provider": "OpenRouter：Announcements（RSS）",
         "type": "AI 项目/工具",
@@ -9929,36 +10057,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "sg.style.yahoo.com",
         "url": "https://sg.style.yahoo.com/ai-generated-restaurant-menus-ruining-123000453.html"
-      },
-      {
-        "name": "喀拉拉邦政府推出科学抗洪计划应对气候变化",
-        "provider": "Asian News International (ANI)",
-        "type": "AI 项目/工具",
-        "bestFor": "这一计划将直接影响喀拉拉邦的农业和水资源管理，帮助农民更好地应对洪水带来的损失。通过科学的预警系统，政府能够更有效地调配资源，减少灾害带来的影响。此外，计划的成功实施可能会成为其他地区应对类似问题的参考，推动全国范围内的洪水管理技术进步。",
-        "description": "我注意到喀拉拉邦政府决定实施“喀拉拉洪水韧性计划”，以科学方式应对气候变化和自然灾害，特别是极端降雨和洪水。该计划由来自印度理工学院鲁尔基、帕拉卡德和科塔扬的专家团队提出，旨在利用人工智能、机器学习等先进技术，提前识别易受洪水影响的区域，并发出准确的预警。",
-        "useCases": [
-          "利用人工智能技术分析气象数据，提前预测洪水风险。",
-          "开发高精度降雨预测系统，帮助农民及时采取防洪措施。",
-          "进行河流和湖泊的科学评估，确保环境保护与洪水管理的平衡。"
-        ],
-        "watch": "技术实施可能面临高昂的成本，尤其是在初期阶段。",
-        "sourceName": "Asian News International (ANI)",
-        "url": "https://www.aninews.in/news/national/general-news/keralam-government-to-implement-kerala-flood-resilience-initiative-with-scientific-approach-to-flood-prevention20260814173921/"
-      },
-      {
-        "name": "苹果与阿里巴巴合作开发中国市场专属AI模型",
-        "provider": "NDTV Profit",
-        "type": "AI 项目/工具",
-        "bestFor": "苹果与阿里巴巴的合作将使得中国用户能够体验到更符合本地需求的AI功能，预计将吸引更多用户使用苹果设备。此举可能促使其他科技公司也加大对本地AI技术的投资，以应对日益激烈的市场竞争。此外，苹果的市场份额提升将进一步巩固其在中国智能手机市场的地位，可能影响到华为等竞争对手的市场策略。",
-        "description": "苹果公司与阿里巴巴合作，针对中国市场开发了一款大型语言模型，标志着其在人工智能领域策略的重大转变。此举不仅有助于苹果在中国市场增强对AI功能的控制，还将推动其即将推出的Apple Intelligence套件的落地。根据IDC数据，苹果在2026年第二季度的智能手机出货量增长24.4%，市场份额达到18.1%，显示出其在竞争激烈的市场中的强劲表现。",
-        "useCases": [
-          "集成阿里巴巴的Qwen服务，提升Siri的语音识别能力。",
-          "利用新开发的AI模型，优化用户在iPhone上的应用体验。",
-          "通过Apple Intelligence套件，提供个性化的内容推荐服务。"
-        ],
-        "watch": "与阿里巴巴的合作可能面临监管合规风险，影响项目进度。",
-        "sourceName": "NDTV Profit",
-        "url": "https://www.ndtvprofit.com/technology/apple-shifts-china-strategy-teams-up-with-alibaba-to-train-own-ai-models-report-11909922"
       }
     ],
     "ai-business": [
@@ -14485,8 +14583,8 @@
   ],
   "dailyReport": {
     "date": "2026-08-17",
-    "generatedAt": "2026-08-17T13:17:25.237844Z",
-    "total": 10,
+    "generatedAt": "2026-08-17T15:51:07.149517Z",
+    "total": 13,
     "sections": [
       {
         "category": "ai-tools",
@@ -14502,6 +14600,17 @@
             "date": "2026-08-17",
             "publishedAt": "2026-08-17T16:00",
             "reason": "此合作将 AI 技术与体育结合，为球迷提供前所未有的互动体验，值得关注。"
+          },
+          {
+            "title": "OpenAI 强化安全防御措施，提升模型抗攻击能力",
+            "summary": "在 OpenAI-Hugging Face 事件后，OpenAI 认识到其模型在网络攻击中的脆弱性，决定通过四大支柱来增强安全性：使用 Codex 验证代码漏洞、智能体优先处理安全警报、持续枚举攻击路径，并限制网络能力仅向可信防御者开放。通过 ChatGPT Work（基于 GP",
+            "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+            "url": "https://openai.com/index/the-defenders-window",
+            "score": 66,
+            "sourceCount": 1,
+            "date": "2026-08-17",
+            "publishedAt": "2026-08-17T13:30",
+            "reason": "OpenAI 的安全防护措施展示了其在 AI 领域的前瞻性思维，值得关注其对行业的影响。"
           }
         ]
       },
@@ -14526,6 +14635,17 @@
         "category": "ai-models",
         "label": "模型发布",
         "items": [
+          {
+            "title": "NVIDIA 与 SB Energy 合作确保俄亥俄州 PORTS-Pike 园区电力容量",
+            "summary": "NVIDIA 宣布与 SB Energy 合作，确保俄亥俄州 PORTS-Pike 科技园区的电力容量，以独家部署 NVIDIA 算力，OpenAI 将成为该园区的租户。此举将为未来的 AI 工厂提供关键基础设施，助力 AI 经济的发展。",
+            "source": "NVIDIA Blog（RSS）",
+            "url": "https://blogs.nvidia.com/blog/securing-the-infrastructure-of-intelligence",
+            "score": 67,
+            "sourceCount": 1,
+            "date": "2026-08-17",
+            "publishedAt": "2026-08-17T20:34",
+            "reason": "此合作将为 NVIDIA 和 OpenAI 提供强大的基础设施支持，推动 AI 经济的发展，值得关注。"
+          },
           {
             "title": "阿里 Qwen 3.8 27B 模型发布，推理强度过高引发过度思考",
             "summary": "阿里巴巴 Qwen 实验室于 2026 年 8 月 16 日发布了 Apache 2 许可的 27B 参数视觉大模型 Qwen 3.8 27B。该模型在官方基准测试中超越了前代 Qwen 3.6 27B 和闭源的 Qwen 3.7-Plus，尽管其默认的推理强度设置导致了过度思考",
@@ -14619,6 +14739,23 @@
             "date": "2026-08-17",
             "publishedAt": "",
             "reason": ""
+          }
+        ]
+      },
+      {
+        "category": "ai-business",
+        "label": "行业商业",
+        "items": [
+          {
+            "title": "宇树科技将于2026年8月19日上市，成为A股人形机器人第一股",
+            "summary": "宇树科技宣布将于2026年8月19日在科创板上市，发行价150.80元/股，市值约609.93亿元，预计募资约60.99亿元。公司在2023至2025年间营收逐年增长，预计2025年净利润将达2.78亿元，成为全球少数盈利的高性能通用机器人公司。",
+            "source": "IT之家（RSS）",
+            "url": "https://www.ithome.com/0/990/812.htm",
+            "score": 66,
+            "sourceCount": 1,
+            "date": "2026-08-17",
+            "publishedAt": "2026-08-17T20:25",
+            "reason": "宇树科技的上市标志着人形机器人行业的重大进展，值得关注其未来的发展潜力和市场表现。"
           }
         ]
       }
