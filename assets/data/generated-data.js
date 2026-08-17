@@ -1,7 +1,68 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-08-17",
-  "generatedAt": "2026-08-17T08:04:12.189952Z",
+  "generatedAt": "2026-08-17T10:45:01.381888Z",
   "news": [
+    {
+      "title": "谷歌与五大足球俱乐部建立长期合作关系",
+      "summary": "谷歌的 Gemini 和 Pixel 与阿森纳、巴萨、拜仁、利物浦和巴黎圣日耳曼等五大足球俱乐部达成长期合作，旨在通过 AI 和智能手机技术提升球迷的比赛日体验。此合作将为球迷提供深入的比赛数据和独家幕后内容，尤其关注女性足球的推广。",
+      "category": "ai-tools",
+      "tags": [
+        "谷歌",
+        "Gemini",
+        "Pixel",
+        "足球",
+        "合作"
+      ],
+      "keyPoints": [
+        "谷歌于2026年8月17日宣布与阿森纳、巴萨、拜仁、利物浦和巴黎圣日耳曼建立长期合作关系。",
+        "Gemini 将为球迷提供实时比赛数据和深度分析，提升观赛体验。",
+        "Pixel 摄像头将捕捉独家幕后内容，展示男女球队的精彩瞬间。",
+        "此合作特别关注女性足球，旨在提升其全球知名度。",
+        "球迷可通过官方社交媒体获取独家内容和球队壁纸，增强互动体验。"
+      ],
+      "background": "谷歌的 Gemini 和 Pixel 作为官方消费 AI 和智能手机合作伙伴，与五大足球俱乐部的合作标志着其在体育领域的进一步拓展。足球文化不仅仅体现在比赛中，更在于球迷的故事和体验。通过 Gemini，球迷可以更深入地了解比赛和俱乐部的动态，提升他们的参与感。此类合作在过去也曾出现，但谷歌的技术优势和资源整合能力使其在市场中独树一帜。",
+      "impact": "这一合作将使球迷在比赛日享受更丰富的体验，尤其是通过实时数据和独家内容的获取，改变了传统观赛方式。女性足球的推广将吸引更多关注，可能影响赞助商的决策和投资方向。此外，球迷与俱乐部之间的互动将更加紧密，提升品牌忠诚度。整体来看，此合作不仅提升了球迷体验，也为足球产业带来了新的商业机会。",
+      "audience": [
+        "足球迷",
+        "体育营销人员",
+        "数据分析师",
+        "移动应用开发者",
+        "女性足球推广者"
+      ],
+      "useCases": [
+        "使用 Gemini 获取实时比赛数据，分析球队表现。",
+        "通过 Pixel 摄像头拍摄并分享独家幕后内容，增强社交媒体互动。",
+        "关注女性足球赛事，利用 AI 技术提升赛事的曝光率。"
+      ],
+      "risks": [
+        "可能面临 API 使用费用的增加，影响开发者的成本预算。",
+        "合作内容的地域限制可能导致部分球迷无法访问。",
+        "对女性足球的关注可能未能达到预期效果，影响品牌形象。"
+      ],
+      "reason": "此合作将 AI 技术与体育结合，为球迷提供前所未有的互动体验，值得关注。",
+      "scores": {
+        "importance": 85,
+        "novelty": 70,
+        "firsthand": 90,
+        "impact": 80,
+        "credibility": 85
+      },
+      "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/",
+      "source": "RSS · Google AI Blog",
+      "date": "2026-08-17",
+      "publishedAt": "2026-08-17T16:00",
+      "collectedAt": "2026-08-17T17:22",
+      "dateStatus": "verified",
+      "tier": "T1",
+      "score": 82,
+      "aiSelected": true,
+      "_style": "observer",
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "智能制造中的深度视觉：MODERN框架用于智能质量监控与诊断",
       "summary": "我最近看到一篇关于智能制造的新研究，介绍了MODERN框架，这是一种深度学习方法，专注于质量监控和故障隔离。该框架利用大量传感器和成像设备，提升了工业质量控制的智能化水平。研究表明，尽管技术不断升级，制造商在监控设备上的投资并不总是明智的。",
@@ -178,6 +239,128 @@ window.AI_GENERATED_DATA = {
       "score": 82,
       "aiSelected": true,
       "_style": "recommender",
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceDate": "2026-08-17",
+      "sourceCount": 1
+    },
+    {
+      "title": "Mixture-of-Experts 模型的深度敏感性分析",
+      "summary": "Mixture-of-Experts (MoE) 架构通过稀疏激活提升大语言模型的计算效率，然而对各个 MoE 层的重要性尚缺乏深入理解，尤其在模型压缩方面。本文对 Qwen3.6-35B-A3B 模型进行了系统的层级敏感性分析，探讨了 40 个 MoE 层及每层 256 个专家的表现，旨在为未来的模型优化提供理论依据。",
+      "category": "ai-research",
+      "tags": [
+        "模型分析",
+        "深度学习",
+        "敏感性分析"
+      ],
+      "keyPoints": [
+        "Mixture-of-Experts 架构通过稀疏激活提升计算效率，但对各层的重要性尚未充分研究。",
+        "Qwen3.6-35B-A3B 模型包含 40 个 MoE 层，每层有 256 个专家，采用 top-8 路由策略。",
+        "本研究提供了系统的层级敏感性分析，为模型压缩和优化提供了理论支持。",
+        "敏感性分析有助于识别关键层，可能影响未来的模型设计和应用。",
+        "研究结果可能对大规模语言模型的性能提升和资源配置产生重要影响。"
+      ],
+      "background": "Mixture-of-Experts (MoE) 模型因其在计算效率上的优势而受到广泛关注，尤其是在处理大规模数据时。尽管 MoE 架构在理论上能够通过稀疏激活减少计算负担，但对其各层的具体贡献和重要性仍缺乏深入的实证研究。尤其是在模型压缩的背景下，了解每一层的敏感性显得尤为重要。Qwen3.6-35B-A3B 模型的分析为这一领域提供了新的视角，可能为未来的研究和应用奠定基础。",
+      "impact": "本研究的结果将对大规模语言模型的开发者和研究人员产生深远影响，尤其是在模型优化和资源配置方面。通过识别关键层，开发者可以更有效地进行模型压缩，提升模型的性能和效率。此外，研究结果可能影响学术界和工业界对 MoE 架构的理解和应用，推动相关技术的进步。",
+      "audience": [
+        "深度学习研究人员",
+        "大规模语言模型开发者",
+        "模型压缩工程师"
+      ],
+      "useCases": [
+        "分析 Qwen3.6-35B-A3B 模型的层级表现，优化模型结构。",
+        "利用敏感性分析结果进行模型压缩，提高计算效率。",
+        "为新一代 MoE 模型设计提供理论支持，推动技术进步。"
+      ],
+      "risks": [
+        "MoE 模型的复杂性可能导致调试和优化过程中的困难，增加开发成本。",
+        "在实际应用中，模型的稀疏激活可能导致性能不稳定，影响用户体验。",
+        "对模型层级敏感性分析的依赖可能导致过度简化，忽视其他重要因素。"
+      ],
+      "reason": "这项研究为理解 Mixture-of-Experts 模型的层级贡献提供了系统性分析，具有重要的理论和实践价值。",
+      "scores": {
+        "importance": 75,
+        "novelty": 80,
+        "firsthand": 90,
+        "impact": 70,
+        "credibility": 85
+      },
+      "url": "https://arxiv.org/abs/2608.13565",
+      "source": "RSS · arXiv cs.AI",
+      "date": "2026-08-17",
+      "publishedAt": "",
+      "collectedAt": "2026-08-17T18:44",
+      "dateStatus": "collected",
+      "tier": "T1",
+      "score": 78,
+      "aiSelected": true,
+      "_style": "critic",
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceDate": "2026-08-17",
+      "sourceCount": 1
+    },
+    {
+      "title": "无奖励评估标准的引入，减少代理评估中的过度评分",
+      "summary": "本研究提出了一种新的无奖励评估标准，通过反思性演化生成评估标准，旨在提高语言模型代理的评估准确性，减少对流畅但不成功的轨迹的过度评分。使用RubricForge工具，研究者展示了如何在没有环境访问的情况下，利用标记的轨迹优化评估标准。",
+      "category": "ai-agents",
+      "tags": [
+        "代理评估",
+        "无奖励评估",
+        "RubricForge",
+        "语言模型",
+        "评估标准"
+      ],
+      "keyPoints": [
+        "研究提出RubricForge工具，通过反思性演化生成评估标准，旨在提高评估的准确性。",
+        "使用一个冻结的7B模型作为代理和评估者，在tau-bench和WebShop上进行测试。",
+        "RubricForge在tau-bench上减少了约一半的错误通过率，显示出更高的评估可靠性。",
+        "与传统的G-Eval评估者相比，RubricForge的绝对评分校准略微偏向于传统评估者。",
+        "该方法在没有环境访问的情况下，能够在一次模型调用中应用评估标准。"
+      ],
+      "background": "随着语言模型代理的广泛应用，评估其性能的需求日益增加。传统的评估方法依赖于昂贵且缓慢的环境奖励信号，导致评估过程效率低下。现有的评估者通常通过手动编写评分标准或微调权重来进行评估，这些方法容易导致对流畅但不成功的轨迹进行过度评分。RubricForge的提出，旨在通过从真实标记轨迹中引导评估标准，提升评估的准确性和可靠性。",
+      "impact": "RubricForge的引入将改变代理评估的方式，尤其是在需要快速反馈的应用场景中。开发者和研究人员可以利用这一工具，减少错误通过率，从而提升代理的整体性能。该方法的成功应用可能会推动更多无奖励评估工具的开发，进而影响整个AI代理的评估标准和流程。",
+      "audience": [
+        "AI代理开发者",
+        "机器学习研究人员",
+        "评估工具开发者",
+        "数据科学家",
+        "AI产品经理"
+      ],
+      "useCases": [
+        "使用RubricForge生成评估标准，快速评估语言模型代理的性能。",
+        "在没有环境奖励的情况下，利用优化后的评估标准进行代理评估，提高评估效率。",
+        "通过分析RubricForge的评估结果，调整代理模型以减少错误通过率。",
+        "结合RubricForge与现有评估工具，提升评估的准确性和可靠性。",
+        "在不同的应用场景中，测试RubricForge的适用性，验证其在实际操作中的效果。"
+      ],
+      "risks": [
+        "在使用RubricForge时，可能会遇到API调用配额限制，影响评估的频率和效率。",
+        "需要确保使用的模型版本与RubricForge兼容，否则可能导致评估结果不准确。",
+        "在不同语言环境下，RubricForge的效果可能会有所不同，需进行适当调整。",
+        "对标记轨迹的依赖性可能导致在缺乏足够数据时，评估标准的有效性下降。",
+        "在实际应用中，可能会出现评估标准不够灵活的问题，限制了其适用范围。"
+      ],
+      "reason": "RubricForge为无奖励评估提供了一种创新的方法，能够显著提高评估的准确性，值得关注。",
+      "scores": {
+        "importance": 75,
+        "novelty": 80,
+        "firsthand": 90,
+        "impact": 70,
+        "credibility": 85
+      },
+      "url": "https://arxiv.org/abs/2608.13564",
+      "source": "RSS · arXiv cs.AI",
+      "date": "2026-08-17",
+      "publishedAt": "",
+      "collectedAt": "2026-08-17T18:44",
+      "dateStatus": "collected",
+      "tier": "T1",
+      "score": 78,
+      "aiSelected": true,
+      "_style": "tutorial",
       "moduleTargets": [
         "news"
       ],
@@ -4935,115 +5118,6 @@ window.AI_GENERATED_DATA = {
         "topicResources"
       ],
       "sourceCount": 1
-    },
-    {
-      "title": "Why AI Detection Fails for Academic Integrity",
-      "summary": "arXiv:2608.11256v1 Announce Type: new Abstract: Institutions use commercial AI detectors for academic integrity, yet detectors cannot distinguish AI editing from full LLM drafts an",
-      "category": "ai-research",
-      "source": "RSS · arXiv cs.LG",
-      "date": "2026-08-13",
-      "publishedAt": "",
-      "collectedAt": "2026-08-14T01:22",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-13",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2608.11256",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Transit Destination Inference from Tap-In-Only Bus Smart-Card Data: A Hierarchical Bayesian Approach",
-      "summary": "arXiv:2608.11223v1 Announce Type: cross Abstract: Entry-only automatic fare collection systems record boardings but not alightings, preventing direct construction of origin-destina",
-      "category": "ai-research",
-      "source": "RSS · arXiv stat.ML",
-      "date": "2026-08-13",
-      "publishedAt": "",
-      "collectedAt": "2026-08-14T01:22",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-13",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2608.11223",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Distribird：基于文献的贝叶斯模型校准先验分布设计",
-      "summary": "我注意到，Distribird 是一个自动化的网络应用程序，旨在简化贝叶斯模型校准中的先验分布设计。它通过文献检索和多代理管道，提取和加权相关参数值，帮助研究人员更高效地构建信息丰富的先验分布，避免了传统方法中对均匀先验的依赖。",
-      "category": "ai-tools",
-      "tags": [
-        "贝叶斯模型",
-        "文献检索",
-        "自动化工具",
-        "先验分布",
-        "多代理系统"
-      ],
-      "keyPoints": [
-        "Distribird 自动化处理贝叶斯模型校准中的先验分布设计，显著提高效率。",
-        "该工具通过文献检索，提取与参数相关的值，并根据领域相关性进行加权。",
-        "在缺乏文献时，系统会提供合理的非信息性替代方案，并清晰报告每个先验的证据和置信水平。",
-        "评估显示，Distribird 在先验质量上与单提示 LLM 基线相匹配，确保每个先验都可追溯到具体文献。",
-        "该工具适用于具有物理可解释参数的模型，特别是在已有领域知识的情况下。"
-      ],
-      "background": "Distribird 的出现是为了应对贝叶斯模型校准中普遍存在的先验分布设计问题。传统上，研究人员常常依赖均匀先验，这种做法的主要原因在于从科学文献中构建信息丰富的先验分布既耗时又需要领域和统计专业知识。Distribird 通过自动化文献检索和参数值提取，极大地简化了这一过程。该工具的多代理管道能够快速找到相关文献，并根据领域相关性加权提取的值，从而生成更为精准的先验分布。与以往的手动方法相比，Distribird 提供了一种更高效的解决方案，尤其是在科学研究中，能够显著提高模型校准的准确性和可靠性。",
-      "impact": "Distribird 的推出将对科学研究领域产生深远影响，尤其是对需要进行贝叶斯模型校准的研究人员。通过提供高效的先验分布设计工具，研究人员可以更快地进行模型校准，进而加速科学发现的进程。此外，该工具的透明性和可追溯性将增强研究结果的可信度，促进学术界对模型结果的信任。随着越来越多的研究者采用这一工具，可能会推动整个领域在模型校准方法上的创新与发展。",
-      "audience": [
-        "数据科学家",
-        "机器学习研究员",
-        "统计学家",
-        "科学模型开发者"
-      ],
-      "useCases": [
-        "使用 Distribird 进行贝叶斯模型校准，快速生成所需的先验分布。",
-        "在研究项目中，利用该工具自动提取相关文献中的参数值，节省时间。",
-        "通过 Distribird 的透明性，向团队展示模型校准的依据，增强结果的可信度。"
-      ],
-      "risks": [
-        "使用 Distribird 可能需要一定的学习曲线，尤其是对不熟悉贝叶斯方法的用户。",
-        "在某些领域，文献的可用性可能会限制工具的有效性，导致无法生成所需的先验分布。",
-        "如果依赖于自动化工具，可能会忽视领域知识的重要性，影响模型的最终效果。"
-      ],
-      "reason": "Distribird 通过自动化文献检索和参数值提取，极大地提高了贝叶斯模型校准的效率和准确性，是研究人员不可或缺的工具。",
-      "url": "https://arxiv.org/abs/2608.11210",
-      "source": "RSS · arXiv cs.AI",
-      "date": "2026-08-13",
-      "publishedAt": "",
-      "collectedAt": "2026-08-13T22:45",
-      "dateStatus": "collected",
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "_style": "recommender",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceDate": "2026-08-13",
-      "sourceCount": 1
     }
   ],
   "weeklyDigests": [
@@ -5907,6 +5981,41 @@ window.AI_GENERATED_DATA = {
     }
   ],
   "githubWeekly": [
+    {
+      "name": "QwenLM/Qwen3.8",
+      "lang": "Python",
+      "category": "LLM 应用平台",
+      "description": "Qwen3.8 是阿里巴巴集团 Qwen 团队开发的大型语言模型系列，适合需要高效文本生成的开发者使用。",
+      "details": "Qwen3.8 解决了高质量文本生成的需求，适用于各种自然语言处理任务。与 OpenAI 的 GPT 系列相比，Qwen3.8 在中文处理上表现更优，且支持本地部署，满足数据隐私需求。该项目使用 Python 开发，采用 Apache 2.0 许可证，适合开发者和研究人员尝试，不推荐对本地部署有严格限制的用户。",
+      "features": [
+        "支持多种语言的文本生成",
+        "提供 API 接口，便于集成",
+        "支持本地推理，保护数据隐私",
+        "优化的中文处理能力",
+        "可扩展的模型架构"
+      ],
+      "useCases": [
+        "在本地部署 Qwen3.8 进行文本生成",
+        "集成 API 进行自动化内容创作",
+        "使用模型进行客户服务对话生成"
+      ],
+      "quickStart": [
+        "git clone https://github.com/QwenLM/Qwen3.8.git",
+        "cd Qwen3.8",
+        "pip install -r requirements.txt",
+        "python run_model.py --config config.json"
+      ],
+      "why": "Qwen3.8 在中文文本生成方面具有明显优势，当前已获得 3802 stars，显示出良好的社区支持和活跃度。与同类产品相比，其本地推理能力和数据隐私保护措施使其更适合企业用户。该项目的技术栈和开源许可证为开发者提供了灵活性。",
+      "tags": [
+        "大型语言模型",
+        "文本生成",
+        "自然语言处理"
+      ],
+      "url": "https://github.com/QwenLM/Qwen3.8",
+      "stars": "3802 stars",
+      "source": "GitHub · 通义千问 Qwen",
+      "date": "2026-08-17"
+    },
     {
       "name": "run-llama/llama_index",
       "lang": "Python",
@@ -8048,20 +8157,6 @@ window.AI_GENERATED_DATA = {
       "stars": "1011 stars",
       "source": "GitHub · 月之暗面 Kimi",
       "date": "2026-08-04"
-    },
-    {
-      "name": "Hmbown/CodeWhale",
-      "lang": "Rust",
-      "description": "Open-source, community-driven agent harness",
-      "stars": "40823 stars",
-      "why": "近期更新且具备 AI / LLM / Agent 相关主题，适合做项目介绍、教程或同类对比。",
-      "url": "https://github.com/Hmbown/CodeWhale",
-      "source": "GitHub Search · 2026-08-17",
-      "category": "Coding Agent",
-      "details": "Open-source, community-driven agent harness",
-      "features": [],
-      "useCases": [],
-      "quickStart": []
     }
   ],
   "sources": [
@@ -9382,6 +9477,21 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-models": [
       {
+        "name": "谷歌与五大足球俱乐部建立长期合作关系",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "这一合作将使球迷在比赛日享受更丰富的体验，尤其是通过实时数据和独家内容的获取，改变了传统观赛方式。女性足球的推广将吸引更多关注，可能影响赞助商的决策和投资方向。此外，球迷与俱乐部之间的互动将更加紧密，提升品牌忠诚度。整体来看，此合作不仅提升了球迷体验，也为足球产业带来了新的商业机会。",
+        "description": "谷歌的 Gemini 和 Pixel 与阿森纳、巴萨、拜仁、利物浦和巴黎圣日耳曼等五大足球俱乐部达成长期合作，旨在通过 AI 和智能手机技术提升球迷的比赛日体验。此合作将为球迷提供深入的比赛数据和独家幕后内容，尤其关注女性足球的推广。",
+        "useCases": [
+          "使用 Gemini 获取实时比赛数据，分析球队表现。",
+          "通过 Pixel 摄像头拍摄并分享独家幕后内容，增强社交媒体互动。",
+          "关注女性足球赛事，利用 AI 技术提升赛事的曝光率。"
+        ],
+        "watch": "可能面临 API 使用费用的增加，影响开发者的成本预算。",
+        "sourceName": "RSS · Google AI Blog",
+        "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/"
+      },
+      {
         "name": "阿里巴巴的 Qwen 模型下载量突破 30 亿，超越 Meta 和 Google",
         "provider": "Dealroom.co",
         "type": "AI 项目/工具",
@@ -9945,17 +10055,6 @@ window.AI_GENERATED_DATA = {
         "watch": "苹果的 AI 模型可能面临与第三方模型的兼容性问题，影响用户体验。",
         "sourceName": "mint",
         "url": "https://www.livemint.com/technology/tech-news/apple-intelligence-may-finally-launch-in-china-with-apples-own-ai-model-report-11786687959523.html"
-      },
-      {
-        "name": "Does Volvo's new Safety Coach driving assessment app invade ",
-        "provider": "This is Money",
-        "type": "AI 项目/工具",
-        "bestFor": "New technology to keep a watchful eye on how well you drive is coming to a much-loved luxury car company's most popular models - and you'll be scored accordingl",
-        "description": "New technology to keep a watchful eye on how well you drive is coming to a much-loved luxury car company's most popular models - and you'll be scored accordingly.\n\nVolvo models in ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "This is Money",
-        "url": "https://www.thisismoney.co.uk/money/cars/article-16049419/Volvo-rolls-new-safety-app-encourage-better-driving-mean-cheaper-insurance-does-invade-privacy.html"
       }
     ],
     "ai-business": [
@@ -14478,62 +14577,23 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-08-17",
-    "generatedAt": "2026-08-17T08:04:12.162984Z",
-    "total": 22,
+    "generatedAt": "2026-08-17T10:45:01.355855Z",
+    "total": 10,
     "sections": [
       {
         "category": "ai-tools",
         "label": "AI 工具",
         "items": [
           {
-            "title": "从零开始构建 AI 文本检测器",
-            "summary": "本项目旨在通过构建一个简单的 AI 文本检测器，深入探讨其工作原理，并展示如何进行数据集构建、模型训练和本地部署。该检测器不仅可以过滤垃圾内容，还能帮助提升个人写作质量，避免文本被标记为 AI 生成。通过本教程，您将了解 AI 检测器的基本机制及其在实际应用中的潜力。",
-            "source": "RSS · Sebastian Raschka",
-            "url": "https://magazine.sebastianraschka.com/p/ai-detector-from-scratch",
-            "score": 64,
-            "sourceCount": 1,
-            "date": "2026-08-15",
-            "publishedAt": "2026-08-15T19:54",
-            "reason": "本项目提供了一个实用的 AI 文本检测器构建指南，适合希望提升写作质量和理解 AI 检测机制的用户。"
-          },
-          {
-            "title": "AI生成书籍数量激增，影响人类作者收入",
-            "summary": "根据对14,419本自出版电子书的分析，AI生成书籍以数量优势挤占人类作者市场，导致单书收入普遍下滑。2023年Q1至2026年Q1，书目总量增长38.3倍，而季度收入仅增长8.9倍，七个类型的无AI文本书籍单书收入下降，显示出市场竞争的加剧。",
-            "source": "The Decoder：AI News（RSS）",
-            "url": "https://the-decoder.com/ai-generated-books-are-flooding-amazon-and-tanking-sales-for-human-authors",
-            "score": 63,
-            "sourceCount": 1,
-            "date": "2026-08-15",
-            "publishedAt": "2026-08-15T19:00",
-            "reason": "这条信息揭示了AI生成书籍对传统出版市场的深远影响，值得关注。"
-          }
-        ]
-      },
-      {
-        "category": "ai-coding",
-        "label": "AI 编程",
-        "items": [
-          {
-            "title": "从视觉组件到 UI 代码：高效的工具驱动生成",
-            "summary": "我最近看到一篇关于视觉组件转化为 UI 代码的研究，提出了一种名为 WidgetGen 的新框架。这个框架通过提取可观察的文本和颜色证据，直接生成可执行的 JavaScript XML (JSX)，在视觉重建指标上表现优异，尤其是在面积、可读性和风格方面。它的设计减少了对组件生成",
-            "source": "RSS · arXiv cs.CV",
-            "url": "https://arxiv.org/abs/2608.12611",
+            "title": "谷歌与五大足球俱乐部建立长期合作关系",
+            "summary": "谷歌的 Gemini 和 Pixel 与阿森纳、巴萨、拜仁、利物浦和巴黎圣日耳曼等五大足球俱乐部达成长期合作，旨在通过 AI 和智能手机技术提升球迷的比赛日体验。此合作将为球迷提供深入的比赛数据和独家幕后内容，尤其关注女性足球的推广。",
+            "source": "RSS · Google AI Blog",
+            "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/",
             "score": 82,
             "sourceCount": 1,
-            "date": "2026-08-15",
-            "publishedAt": "",
-            "reason": "这篇研究展示了 WidgetGen 在 UI 代码生成方面的独特优势，值得关注。"
-          },
-          {
-            "title": "亚马逊 Nova Forge 的多轮强化学习自定义奖励函数设计",
-            "summary": "在多轮强化学习中，自定义奖励函数直接决定模型的学习效果。本文探讨如何为亚马逊 Nova Forge 设计复合型多轮奖励，确保模型生成的代码安全执行，并通过各组件的监控避免潜在的奖励崩溃问题。",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/custom-reward-functions-for-multi-turn-reinforcement-learning-with-amazon-nova-forge/",
-            "score": 82,
-            "sourceCount": 1,
-            "date": "2026-08-15",
-            "publishedAt": "2026-08-15T00:02",
-            "reason": "本文深入探讨亚马逊 Nova Forge 的多轮强化学习自定义奖励函数设计，提供实用的指导和潜在的风险分析，适合希望提升 AI 模型性能的开发者参考。"
+            "date": "2026-08-17",
+            "publishedAt": "2026-08-17T16:00",
+            "reason": "此合作将 AI 技术与体育结合，为球迷提供前所未有的互动体验，值得关注。"
           }
         ]
       },
@@ -14542,15 +14602,15 @@ window.AI_GENERATED_DATA = {
         "label": "Agent / MCP",
         "items": [
           {
-            "title": "使用 SageMaker AI 和 Bedrock AgentCore 构建智能工作流",
-            "summary": "本文介绍如何将 Amazon SageMaker AI 上的 OpenAI 兼容端点与 Amazon Bedrock AgentCore 运行时结合，构建多智能体工作流。每个专门的智能体都能使用最适合其任务的模型，从而实现成本优化和灵活性。文章还展示了如何从 SageMaker ",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/building-agentic-workflows-with-sagemaker-ai-and-bedrock-agentcore/",
-            "score": 82,
+            "title": "无奖励评估标准的引入，减少代理评估中的过度评分",
+            "summary": "本研究提出了一种新的无奖励评估标准，通过反思性演化生成评估标准，旨在提高语言模型代理的评估准确性，减少对流畅但不成功的轨迹的过度评分。使用RubricForge工具，研究者展示了如何在没有环境访问的情况下，利用标记的轨迹优化评估标准。",
+            "source": "RSS · arXiv cs.AI",
+            "url": "https://arxiv.org/abs/2608.13564",
+            "score": 78,
             "sourceCount": 1,
-            "date": "2026-08-14",
-            "publishedAt": "2026-08-14T23:58",
-            "reason": "本文详细介绍了如何高效构建多智能体工作流，适合希望提升工作效率的开发者和分析师，具有实用价值。"
+            "date": "2026-08-17",
+            "publishedAt": "",
+            "reason": "RubricForge为无奖励评估提供了一种创新的方法，能够显著提高评估的准确性，值得关注。"
           }
         ]
       },
@@ -14558,39 +14618,6 @@ window.AI_GENERATED_DATA = {
         "category": "ai-models",
         "label": "模型发布",
         "items": [
-          {
-            "title": "Gemini 3.7 Flash 发布，编程和代理模型的新标杆",
-            "summary": "我最近看到 Gemini 3.7 Flash 的发布，这款模型是目前最智能的工作马，专为编程和代理任务设计。它在软件工程、知识工作和网页开发等领域都有显著提升，尤其在调试和问题解决方面表现出色。更重要的是，它的价格仅为原版 3.6 Flash 的一半，性价比极高。",
-            "source": "RSS · Google DeepMind",
-            "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
-            "score": 84,
-            "sourceCount": 1,
-            "date": "2026-08-14",
-            "publishedAt": "2026-08-14T01:04",
-            "reason": "Gemini 3.7 Flash 的发布不仅提升了编程和代理任务的效率，还以更低的价格提供了更高的性能，值得关注。它的多领域应用潜力将为开发者和企业带来实质性的价值。"
-          },
-          {
-            "title": "视觉语言模型在评估机器人图像的近端风险中的局限性",
-            "summary": "研究评估了三种开源视觉语言模型（InternVL、Qwen-VL 和 SmolVLM）在分类机器人自我视角图像中的危险等级的能力。尽管 Qwen-VL 在高危险案例的召回率上表现突出，但整体改进有限，显示出当前模型在细粒度近端推理和空间定位上的不足。",
-            "source": "RSS · arXiv cs.CV",
-            "url": "https://arxiv.org/abs/2608.12515",
-            "score": 78,
-            "sourceCount": 1,
-            "date": "2026-08-15",
-            "publishedAt": "",
-            "reason": "该研究揭示了视觉语言模型在机器人安全评估中的潜力与局限，值得关注其在实际应用中的影响。"
-          },
-          {
-            "title": "Claude 文本水印机制如何运作",
-            "summary": "未来 Claude 模型生成的文本将包含水印，用于判断文本由 Claude 撰写的可能性，这是 Anthropic 为遵守欧盟《AI 法案》而实施的变更。该方法基于 Google DeepMind 的 SynthID-Text 技术，对输出质量、创造力和可读性无实际影响，读者无法",
-            "source": "Anthropic：Newsroom（网页）",
-            "url": "https://www.anthropic.com/news/claude-text-watermark",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-15",
-            "publishedAt": "2026-08-15T03:22",
-            "reason": ""
-          },
           {
             "title": "阿里 Qwen 3.8 27B 模型发布，推理强度过高引发过度思考",
             "summary": "阿里巴巴 Qwen 实验室于 2026 年 8 月 16 日发布了 Apache 2 许可的 27B 参数视觉大模型 Qwen 3.8 27B。该模型在官方基准测试中超越了前代 Qwen 3.6 27B 和闭源的 Qwen 3.7-Plus，尽管其默认的推理强度设置导致了过度思考",
@@ -14605,37 +14632,9 @@ window.AI_GENERATED_DATA = {
         ]
       },
       {
-        "category": "ai-benchmark",
-        "label": "评测榜单",
-        "items": [
-          {
-            "title": "StrAD 提供长视频音频描述生成的新基准和流媒体方法",
-            "summary": "StrAD 是一项新发布的研究，专注于为长视频生成音频描述（AD）。该方法解决了传统手动生成 AD 的高成本问题，提升了可及性，尤其是对视障人士。研究表明，现有的自动 AD 生成方法多将任务视为视频片段字幕生成，StrAD 则引入了流媒体处理，显著提高了生成效率。",
-            "source": "RSS · arXiv cs.CV",
-            "url": "https://arxiv.org/abs/2608.12549",
-            "score": 78,
-            "sourceCount": 1,
-            "date": "2026-08-15",
-            "publishedAt": "",
-            "reason": "StrAD 的流媒体生成方法为音频描述领域带来了创新，显著提高了长视频的可及性，值得关注。"
-          }
-        ]
-      },
-      {
         "category": "ai-research",
         "label": "论文研究",
         "items": [
-          {
-            "title": "MaSRead：内容寻址的复制潜在存储读取",
-            "summary": "MaSRead 是一种新型的内容寻址读取方法，旨在解决独立智能体在潜在空间中共享计算状态时的缓存读取问题。通过使用无冲突的复制数据类型，MaSRead 能够在任意交付顺序或重复情况下有效读取合并的缓存，确保后续查询的准确性。",
-            "source": "RSS · arXiv cs.AI",
-            "url": "https://arxiv.org/abs/2608.11218",
-            "score": 86,
-            "sourceCount": 1,
-            "date": "2026-08-14",
-            "publishedAt": "",
-            "reason": "MaSRead 提供了一种创新的内容寻址方法，解决了多智能体系统中数据共享的关键问题，值得关注其在实际应用中的潜力。"
-          },
           {
             "title": "智能制造中的深度视觉：MODERN框架用于智能质量监控与诊断",
             "summary": "我最近看到一篇关于智能制造的新研究，介绍了MODERN框架，这是一种深度学习方法，专注于质量监控和故障隔离。该框架利用大量传感器和成像设备，提升了工业质量控制的智能化水平。研究表明，尽管技术不断升级，制造商在监控设备上的投资并不总是明智的。",
@@ -14670,59 +14669,15 @@ window.AI_GENERATED_DATA = {
             "reason": "L-FNO为处理随机事件动态提供了创新的解决方案，尤其在稀疏事件检测方面展现了独特的优势，值得关注。"
           },
           {
-            "title": "MM-slotgate 提升时尚检索的可控性",
-            "summary": "Najmeh Forouzandehmehr 等人在 2026 年 8 月 12 日提交的论文中提出了 MM-slotgate，这是一种多模态插槽编码器，能够将 Fashion-CLIP 的文本和图像嵌入分解为四个命名属性插槽。该方法在 H&M 数据集上实现了 0.7566 的宏",
-            "source": "RSS · arXiv cs.CV",
-            "url": "https://arxiv.org/abs/2608.12570",
-            "score": 82,
+            "title": "Mixture-of-Experts 模型的深度敏感性分析",
+            "summary": "Mixture-of-Experts (MoE) 架构通过稀疏激活提升大语言模型的计算效率，然而对各个 MoE 层的重要性尚缺乏深入理解，尤其在模型压缩方面。本文对 Qwen3.6-35B-A3B 模型进行了系统的层级敏感性分析，探讨了 40 个 MoE 层及每层 256 个专家",
+            "source": "RSS · arXiv cs.AI",
+            "url": "https://arxiv.org/abs/2608.13565",
+            "score": 78,
             "sourceCount": 1,
-            "date": "2026-08-15",
+            "date": "2026-08-17",
             "publishedAt": "",
-            "reason": "MM-slotgate 提供了一种创新的方式来提升时尚检索的可控性，具有显著的实用价值和广泛的应用前景。"
-          },
-          {
-            "title": "高维网络与均方误差在可能错误指定模型中的应用",
-            "summary": "在高维网络分析中，包含更多变量有助于避免遗漏重要变量及其连接。本文展示了在参数远超观测值的情况下，如何获得每个节点的保守邻域估计，确保低假阳性率。通过线性模型进行邻域估计时，若真实模型为线性，则选择效果良好；若为非线性，则需对高维度施加惩罚。研究还探讨了岭参数对均方误差的影响，揭",
-            "source": "RSS · arXiv stat.ML",
-            "url": "https://arxiv.org/abs/2608.13171",
-            "score": 82,
-            "sourceCount": 1,
-            "date": "2026-08-14",
-            "publishedAt": "",
-            "reason": "本文提供了高维网络分析中的新见解，尤其是在模型选择和假阳性率控制方面，具有重要的实用价值。"
-          },
-          {
-            "title": "在分布转变下稳健学习的统计特性",
-            "summary": "我注意到，分布转变问题在机器学习中越来越受到关注，尤其是在目标环境与训练数据来源环境不一致时。最近的研究探讨了稳健学习框架，如分布稳健优化（DRO）和稳健满意（RS），在这种情况下的有限样本保证和系统比较，填补了这一领域的研究空白。",
-            "source": "RSS · arXiv stat.ML",
-            "url": "https://arxiv.org/abs/2608.13133",
-            "score": 82,
-            "sourceCount": 1,
-            "date": "2026-08-14",
-            "publishedAt": "",
-            "reason": "这项研究深入探讨了稳健学习在分布转变下的统计特性，为相关领域提供了新的视角和实用的比较框架，值得关注。"
-          },
-          {
-            "title": "黑箱知识迁移：跨特征集的创新方法",
-            "summary": "这次发布的核心点是提出了一种新的方法，旨在将黑箱预测模型中的知识迁移到不同的输入特征空间。该方法通过分解目标回归函数，提取可迁移和不可迁移的组件，从而提高了在特征不一致情况下的预测能力。研究表明，该方法在多个黑箱模型的聚合下，能够有效降低预测误差，具有实际应用价值。",
-            "source": "RSS · arXiv stat.ML",
-            "url": "https://arxiv.org/abs/2608.12403",
-            "score": 82,
-            "sourceCount": 1,
-            "date": "2026-08-14",
-            "publishedAt": "",
-            "reason": "这项研究提供了一种创新的知识迁移方法，能够有效解决特征不一致问题，值得关注。"
-          },
-          {
-            "title": "基于 CT 的外部软组织表面估算隐性骨骼标志的三维头影测量",
-            "summary": "现有的三维面部标志方法主要定位于可见皮肤上的点，但是否可以从外部软组织几何推断 CT 定义的内部骨骼标志仍不明确。研究通过分析 240 例临床 CT 扫描，提出了一种坐标一致的表面到骨骼任务，取得了 2.97 mm 的平均径向误差。",
-            "source": "RSS · arXiv cs.CV",
-            "url": "https://arxiv.org/abs/2608.12537",
-            "score": 81,
-            "sourceCount": 1,
-            "date": "2026-08-15",
-            "publishedAt": "",
-            "reason": "该研究为隐性骨骼标志的推断提供了新的视角，具有重要的临床应用价值和研究潜力。"
+            "reason": "这项研究为理解 Mixture-of-Experts 模型的层级贡献提供了系统性分析，具有重要的理论和实践价值。"
           },
           {
             "title": "高斯过程超参数优化中的最大似然估计脆弱性",
@@ -14747,15 +14702,15 @@ window.AI_GENERATED_DATA = {
             "reason": "这项研究通过扩展奥卡姆反演，提供了新的l1正则化视角，值得关注。"
           },
           {
-            "title": "HIMEC：遥感图像变化描述的新方法",
-            "summary": "这次发布的核心点是HIMEC模型，它通过方向变化表示（DCR）和固定接口解码，提升了遥感图像变化描述的准确性。与传统方法直接依赖融合视觉特征不同，HIMEC在处理变化结构和解码器接口一致性方面进行了深入研究，展现出更好的性能。",
-            "source": "RSS · arXiv cs.CV",
-            "url": "https://arxiv.org/abs/2608.12502",
-            "score": 78,
+            "title": "Offline Deep Q* Estimation with Diffusion Models",
+            "summary": "arXiv:2608.14401v1 Announce Type: new Abstract: In offline RL, estimating the optimal action-value function $Q^*$ can be formulated as solvi",
+            "source": "RSS · arXiv stat.ML",
+            "url": "https://arxiv.org/abs/2608.14401",
+            "score": 70,
             "sourceCount": 1,
-            "date": "2026-08-15",
+            "date": "2026-08-17",
             "publishedAt": "",
-            "reason": "HIMEC模型通过创新的方向变化表示和固定接口解码方法，显著提升了遥感图像变化描述的准确性，值得关注。"
+            "reason": ""
           }
         ]
       }
