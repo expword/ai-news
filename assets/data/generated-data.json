@@ -1,7 +1,65 @@
 {
   "lastUpdated": "2026-08-18",
-  "generatedAt": "2026-08-17T18:25:58.745611Z",
+  "generatedAt": "2026-08-17T20:52:17.852665Z",
   "news": [
+    {
+      "title": "GPU 分配优化：利用率提升 33 点的背后",
+      "summary": "一项新研究表明，通过优化 GPU 分配顺序，企业 AI 的 GPU 利用率可提升至 33 个百分点。该研究展示了如何在相同硬件和工作负载下，通过更精细的调度策略，显著提高 GPU 的使用效率。然而，这种方法在实施过程中也面临多重挑战，尤其是在处理不同类型工作负载时。",
+      "category": "ai-tools",
+      "tags": [
+        "GPU管理",
+        "调度优化",
+        "企业AI",
+        "利用率提升",
+        "技术研究"
+      ],
+      "keyPoints": [
+        "研究表明，通过优化 GPU 分配顺序，利用率可提升 33 个百分点，优先级加权输出提升高达 105%。",
+        "该方法在相同硬件和工作负载下进行测试，显示出调度顺序对资源利用的显著影响。",
+        "GPU 调度面临四种工作负载的竞争：训练、实时推理、批量推理和量化，需合理分配资源。",
+        "FIFO 调度策略在资源紧张时可能导致利用率下降，优化后的调度策略能有效解决这一问题。",
+        "研究强调，GPU 的有效利用不仅依赖于硬件本身，更在于如何进行智能调度。"
+      ],
+      "background": "随着企业 AI 的发展，GPU 的利用率成为制约其性能的关键因素。传统的 FIFO 调度策略在资源分配上存在局限，尤其在处理多种工作负载时，容易导致资源浪费。新研究提出了一种基于约束的 GPU 分配器，通过优化调度顺序，显著提升了 GPU 的利用率。这一方法的提出为企业 AI 的 GPU 管理提供了新的思路，尤其是在高并发和多任务环境下。",
+      "impact": "这一优化策略将对 GPU 集群管理者、AI 开发者和企业决策者产生深远影响。通过提升 GPU 的利用率，企业可以降低成本，提高计算效率，从而加速 AI 项目的推进。此外，优化后的调度策略还可能影响未来 GPU 硬件的设计方向，促使厂商在兼容性和性能上进行更深入的探索。",
+      "audience": [
+        "GPU 集群管理的 SRE",
+        "AI 模型训练的工程师",
+        "实时推理系统的开发者"
+      ],
+      "useCases": [
+        "优化 GPU 调度，提升 AI 模型训练效率，减少资源浪费。",
+        "在实时推理场景中，根据需求动态调整 GPU 分配，提高响应速度。",
+        "利用新调度策略，进行多任务处理，提升整体系统性能。"
+      ],
+      "risks": [
+        "新调度策略可能需要额外的开发和测试时间，增加项目的初期成本。",
+        "在不同硬件环境下，优化效果可能不一致，需进行适配和调整。",
+        "对现有系统的兼容性可能存在问题，实施过程中需谨慎评估风险。"
+      ],
+      "reason": "这项研究提供了实用的 GPU 管理新思路，值得关注其在企业 AI 中的应用潜力。",
+      "scores": {
+        "importance": 75,
+        "novelty": 80,
+        "firsthand": 90,
+        "impact": 70,
+        "credibility": 85
+      },
+      "url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
+      "source": "RSS · Hugging Face Blog",
+      "date": "2026-08-18",
+      "publishedAt": "2026-08-18T03:46",
+      "collectedAt": "2026-08-18T04:52",
+      "dateStatus": "verified",
+      "tier": "T1",
+      "score": 78,
+      "aiSelected": true,
+      "_style": "critic",
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "NVIDIA Nemotron 3.5 Lightning 在 Amazon SageMaker JumpStart 上线",
       "summary": "NVIDIA Nemotron 3.5 Lightning 是一款专为高负载代理工作设计的开放模型，现已在 Amazon SageMaker JumpStart 上线。该模型支持高达 4 倍的吞吐量和 30% 的任务完成速度提升，适合需要持续运行的代理应用。尽管如此，仍需注意其在特定场景下的局限性。",
@@ -88,6 +146,130 @@
       "scores": {},
       "score": 70,
       "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "亚马逊批量购书用于 AI 训练后销毁引发关注",
+      "summary": "404 Media 通过在珍本图书中放置追踪设备，揭露亚马逊秘密购书行为：大量书籍被扫描用于 AI 训练，随后被销毁。这一行为引发了对知识产权和环境影响的广泛讨论。",
+      "category": "ai-models",
+      "tags": [
+        "亚马逊",
+        "AI 训练",
+        "知识产权",
+        "环境影响",
+        "珍本图书"
+      ],
+      "keyPoints": [
+        "404 Media 通过追踪设备揭示亚马逊在未公开的情况下，批量购入珍本图书用于 AI 训练。",
+        "亚马逊的 VGT3 设施位于拉斯维加斯，专门负责扫描和销毁这些书籍。",
+        "此次调查显示，亚马逊不仅购买大量书籍，还在使用后将其销毁，涉及的书籍数量庞大。",
+        "这一行为引发了对知识产权的质疑，尤其是如何处理版权和书籍的使用。",
+        "环境影响方面，书籍的销毁可能导致资源浪费，引发公众对可持续性的关注。"
+      ],
+      "background": "404 Media 的调查揭示了亚马逊在 AI 训练数据获取方面的隐秘操作。通过在一批珍本图书中放置追踪设备，调查人员追踪到这些书籍最终被送往亚马逊的 AI 训练设施。亚马逊的这一购书行为未曾被广泛报道，显示出其在 AI 领域的激烈竞争和对数据的渴求。与其他科技公司相比，亚马逊的做法在获取训练数据时显得尤为激进，尤其是在涉及珍本书籍的情况下，可能引发更广泛的法律和道德争议。",
+      "impact": "这一事件可能促使更多人关注 AI 训练数据的来源及其对知识产权的影响。对于图书出版行业而言，亚马逊的做法可能导致更多出版社重新审视与科技公司的合作关系。同时，公众对环境影响的关注也可能促使企业在数据获取和资源使用上采取更可持续的做法。长远来看，这可能会影响 AI 训练数据的获取方式，促使行业标准的建立。",
+      "audience": [
+        "知识产权律师",
+        "环保活动家",
+        "图书出版商",
+        "AI 研究人员",
+        "数据科学家"
+      ],
+      "useCases": [
+        "分析亚马逊的购书行为，评估其对知识产权的影响。",
+        "研究 AI 训练数据的获取方式，寻找更合规的替代方案。",
+        "推动对环境影响的讨论，倡导可持续的数据使用策略。"
+      ],
+      "risks": [
+        "亚马逊的购书和销毁行为可能引发法律诉讼，尤其是涉及版权问题时。",
+        "对环境的负面影响可能导致公众对亚马逊的品牌形象产生质疑，影响其市场表现。",
+        "这种大规模的书籍销毁行为可能引发行业内的道德争议，影响其他企业的声誉。"
+      ],
+      "reason": "这条信息揭示了亚马逊在 AI 训练数据获取方面的隐秘操作，值得关注其对知识产权和环境的潜在影响。",
+      "scores": {
+        "importance": 85,
+        "novelty": 75,
+        "firsthand": 90,
+        "impact": 80,
+        "credibility": 85
+      },
+      "url": "https://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "date": "2026-08-18",
+      "publishedAt": "2026-08-18T02:46",
+      "collectedAt": "2026-08-18T03:38",
+      "dateStatus": "verified",
+      "tier": "T1.5",
+      "score": 66,
+      "aiSelected": true,
+      "_style": "critic",
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "全面禁用侵入式 AI 的实用指南",
+      "summary": "本指南为希望减少技术环境中侵入式 AI 的用户提供了详细的操作步骤，涵盖 Windows、Chrome、Edge、Firefox 及主流应用如 Adobe Acrobat、WhatsApp 等。通过这些步骤，用户可以有效管理和控制 AI 的使用，保护个人隐私和数据安全。",
+      "category": "ai-tools",
+      "tags": [
+        "隐私保护",
+        "AI 管理",
+        "技术指南",
+        "应用设置",
+        "用户安全"
+      ],
+      "keyPoints": [
+        "本指南适用于 Windows 11、Chrome、Edge、Firefox 等多个平台，帮助用户全面禁用或避免侵入式 AI。",
+        "提供针对 Adobe Acrobat、Google Workspace、Slack 等主流应用的具体设置步骤，确保用户能够有效管理 AI 功能。",
+        "通过调整设置，用户可以在 5 分钟内完成对多个应用的隐私保护配置，提升数据安全性。",
+        "指南中包含对 Android/Gemini 和 Apple Intelligence 的设置建议，帮助用户在移动设备上也能有效控制 AI 的使用。",
+        "提供了对 DuckDuckGo 和 WhatsApp 的隐私设置建议，确保用户在使用这些应用时能够减少 AI 的干扰。"
+      ],
+      "background": "随着 AI 技术的迅速发展，许多应用程序开始集成侵入式 AI 功能，这可能会对用户的隐私和数据安全造成威胁。用户在使用这些技术时，往往并不清楚如何有效管理和禁用这些功能。本指南旨在为用户提供一套系统的操作步骤，帮助他们在不同平台和应用中减少 AI 的干扰，保护个人信息。",
+      "impact": "本指南的实施将使用户能够更好地控制个人数据的使用，减少不必要的 AI 介入，从而提升用户体验和数据安全。对于企业用户而言，遵循这些步骤可以降低数据泄露的风险，增强客户信任。整体来看，减少侵入式 AI 的使用将推动更健康的技术环境。",
+      "audience": [
+        "普通用户",
+        "企业 IT 管理员",
+        "隐私保护倡导者",
+        "技术支持人员"
+      ],
+      "useCases": [
+        "访问 Windows 设置，禁用不必要的 AI 功能，确保系统隐私设置符合个人需求。",
+        "在 Chrome 浏览器中调整隐私设置，限制 AI 插件的访问权限，提升浏览安全性。",
+        "在 Adobe Acrobat 中关闭 AI 自动化功能，确保文档处理过程不被干扰。",
+        "在 WhatsApp 中调整隐私设置，限制 AI 聊天助手的使用，保护个人对话内容。",
+        "在 Google Workspace 中管理 AI 功能，确保团队协作时数据安全不被侵犯。"
+      ],
+      "risks": [
+        "在禁用 AI 功能时，可能会影响某些应用的正常使用，用户需谨慎评估每项设置的影响。",
+        "部分应用的更新可能会重置隐私设置，用户需定期检查并重新配置，以确保持续保护。",
+        "某些功能禁用后，可能导致应用性能下降，用户需权衡隐私与性能之间的关系。",
+        "在调整设置时，可能会遇到版本兼容性问题，确保使用最新版本的应用程序以避免此类问题。",
+        "部分应用可能会在不同地区有不同的隐私政策，用户需了解当地法律法规，以确保合规。"
+      ],
+      "reason": "这份指南提供了实用的步骤和建议，帮助用户有效管理和禁用侵入式 AI，保护个人隐私，值得一看。",
+      "scores": {
+        "importance": 85,
+        "novelty": 70,
+        "firsthand": 60,
+        "impact": 80,
+        "credibility": 75
+      },
+      "url": "https://www.librarian.net/notoai",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "date": "2026-08-18",
+      "publishedAt": "2026-08-18T01:58",
+      "collectedAt": "2026-08-18T03:38",
+      "dateStatus": "verified",
+      "tier": "T1.5",
+      "score": 61,
+      "aiSelected": true,
+      "_style": "tutorial",
       "moduleTargets": [
         "news",
         "topicResources"
@@ -392,6 +574,66 @@
       "score": 81,
       "aiSelected": true,
       "_style": "observer",
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "利用手机影像评估心脏代谢风险的新方法",
+      "summary": "这次发布的核心点是，Google 研究团队推出了一种名为 PhotoScan 的深度学习框架，能够通过智能手机照片估算身体成分，从而预测胰岛素抵抗。这一方法的准确性与传统的 DXA 扫描相当，且为日常健康监测提供了新的可能性。",
+      "category": "ai-research",
+      "tags": [
+        "健康科技",
+        "深度学习",
+        "身体成分",
+        "智能手机",
+        "胰岛素抵抗"
+      ],
+      "keyPoints": [
+        "PhotoScan 利用深度学习技术，通过智能手机照片评估身体成分，准确预测胰岛素抵抗。",
+        "该方法的准确性与 DXA 扫描相当，但成本更低，适合日常使用。",
+        "研究显示，胰岛素抵抗是现代代谢疾病的重要驱动因素，常被低估。",
+        "A/G 比率和 V/S 比率等身体成分指标能提供更深层的临床洞察。",
+        "PhotoScan 预计将推动智能手机在健康监测领域的应用，提升用户的健康意识。"
+      ],
+      "background": "PhotoScan 是 Google 研究团队开发的一种新型深度学习框架，旨在通过智能手机影像评估身体成分。传统上，身体成分的测量依赖于 DXA 扫描等昂贵且复杂的设备，这限制了其在日常健康监测中的应用。随着智能手机技术的进步，PhotoScan 提供了一种便捷且经济的替代方案，能够在不需要专业设备的情况下，帮助用户了解自身的健康状况。该技术的推出，标志着健康监测领域的一次重要进步，尤其是在早期识别代谢风险方面。",
+      "impact": "PhotoScan 的推出将使得普通用户能够更方便地监测自身的健康状况，尤其是胰岛素抵抗等代谢风险。这一技术的普及可能会改变人们对健康管理的认知，促使更多人关注身体成分而非仅仅依赖体重指数（BMI）。此外，医疗机构也可能会利用这一技术进行更广泛的健康筛查，提升早期诊断的效率。",
+      "audience": [
+        "健康管理师",
+        "运动营养师",
+        "数据科学家",
+        "医疗研究人员",
+        "智能设备开发者"
+      ],
+      "useCases": [
+        "使用 PhotoScan 评估个人的身体成分，了解脂肪与瘦体重的比例。",
+        "结合 PhotoScan 数据与可穿戴设备的生理数据，进行全面的健康分析。",
+        "在健身房或健康中心使用 PhotoScan，帮助客户制定个性化的健身计划。"
+      ],
+      "risks": [
+        "PhotoScan 依赖于智能手机的摄像头质量，可能影响测量的准确性。",
+        "用户需要具备一定的技术能力来正确使用该应用，可能会造成使用障碍。",
+        "在不同的光照条件下，照片质量可能不稳定，从而影响结果的可靠性。"
+      ],
+      "reason": "PhotoScan 提供了一种创新且实用的方式来评估身体成分，帮助用户更好地理解自身健康状况，值得关注。",
+      "scores": {
+        "importance": 75,
+        "novelty": 80,
+        "firsthand": 90,
+        "impact": 70,
+        "credibility": 85
+      },
+      "url": "https://research.google/blog/seeing-beyond-bmi-estimating-cardiometabolic-risk-with-smartphone-imagery/",
+      "source": "RSS · Google Research",
+      "date": "2026-08-17",
+      "publishedAt": "2026-08-17T18:34",
+      "collectedAt": "2026-08-18T04:52",
+      "dateStatus": "verified",
+      "tier": "T1",
+      "score": 78,
+      "aiSelected": true,
+      "_style": "reviewer",
       "moduleTargets": [
         "news"
       ],
@@ -9673,6 +9915,23 @@
     ],
     "ai-models": [
       {
+        "name": "全面禁用侵入式 AI 的实用指南",
+        "provider": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "type": "AI 项目/工具",
+        "bestFor": "本指南的实施将使用户能够更好地控制个人数据的使用，减少不必要的 AI 介入，从而提升用户体验和数据安全。对于企业用户而言，遵循这些步骤可以降低数据泄露的风险，增强客户信任。整体来看，减少侵入式 AI 的使用将推动更健康的技术环境。",
+        "description": "本指南为希望减少技术环境中侵入式 AI 的用户提供了详细的操作步骤，涵盖 Windows、Chrome、Edge、Firefox 及主流应用如 Adobe Acrobat、WhatsApp 等。通过这些步骤，用户可以有效管理和控制 AI 的使用，保护个人隐私和数据安全。",
+        "useCases": [
+          "访问 Windows 设置，禁用不必要的 AI 功能，确保系统隐私设置符合个人需求。",
+          "在 Chrome 浏览器中调整隐私设置，限制 AI 插件的访问权限，提升浏览安全性。",
+          "在 Adobe Acrobat 中关闭 AI 自动化功能，确保文档处理过程不被干扰。",
+          "在 WhatsApp 中调整隐私设置，限制 AI 聊天助手的使用，保护个人对话内容。",
+          "在 Google Workspace 中管理 AI 功能，确保团队协作时数据安全不被侵犯。"
+        ],
+        "watch": "在禁用 AI 功能时，可能会影响某些应用的正常使用，用户需谨慎评估每项设置的影响。",
+        "sourceName": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "url": "https://www.librarian.net/notoai"
+      },
+      {
         "name": "Mercedes advances C-Class line-up with new combustion-engine",
         "provider": "The Irish News",
         "type": "AI 项目/工具",
@@ -10228,17 +10487,6 @@
         "watch": "收购后整合可能面临技术兼容性问题，影响产品稳定性。",
         "sourceName": "X：SpaceXAI (@SpaceXAI)",
         "url": "https://x.com/SpaceXAI/status/2088250109188608289"
-      },
-      {
-        "name": "AI-Generated Restaurant Menus Are Ruining My Appetite",
-        "provider": "sg.style.yahoo.com",
-        "type": "AI 项目/工具",
-        "bestFor": "Add Yahoo as a preferred source to see more of our stories on Google.\n\n* AI-generated content in restaurant menus and social media can harm diners' trust.\n\n* Re",
-        "description": "Add Yahoo as a preferred source to see more of our stories on Google.\n\n* AI-generated content in restaurant menus and social media can harm diners' trust.\n\n* Restaurants should pri",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "sg.style.yahoo.com",
-        "url": "https://sg.style.yahoo.com/ai-generated-restaurant-menus-ruining-123000453.html"
       }
     ],
     "ai-business": [
@@ -14041,8 +14289,8 @@
   ],
   "dailyReport": {
     "date": "2026-08-18",
-    "generatedAt": "2026-08-17T18:25:58.719611Z",
-    "total": 17,
+    "generatedAt": "2026-08-17T20:52:17.827107Z",
+    "total": 21,
     "sections": [
       {
         "category": "ai-tools",
@@ -14060,6 +14308,17 @@
             "reason": "此合作将 AI 技术与体育结合，为球迷提供前所未有的互动体验，值得关注。"
           },
           {
+            "title": "GPU 分配优化：利用率提升 33 点的背后",
+            "summary": "一项新研究表明，通过优化 GPU 分配顺序，企业 AI 的 GPU 利用率可提升至 33 个百分点。该研究展示了如何在相同硬件和工作负载下，通过更精细的调度策略，显著提高 GPU 的使用效率。然而，这种方法在实施过程中也面临多重挑战，尤其是在处理不同类型工作负载时。",
+            "source": "RSS · Hugging Face Blog",
+            "url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
+            "score": 78,
+            "sourceCount": 1,
+            "date": "2026-08-18",
+            "publishedAt": "2026-08-18T03:46",
+            "reason": "这项研究提供了实用的 GPU 管理新思路，值得关注其在企业 AI 中的应用潜力。"
+          },
+          {
             "title": "OpenAI 强化安全防御措施，提升模型抗攻击能力",
             "summary": "在 OpenAI-Hugging Face 事件后，OpenAI 认识到其模型在网络攻击中的脆弱性，决定通过四大支柱来增强安全性：使用 Codex 验证代码漏洞、智能体优先处理安全警报、持续枚举攻击路径，并限制网络能力仅向可信防御者开放。通过 ChatGPT Work（基于 GP",
             "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
@@ -14069,6 +14328,17 @@
             "date": "2026-08-17",
             "publishedAt": "2026-08-17T13:30",
             "reason": "OpenAI 的安全防护措施展示了其在 AI 领域的前瞻性思维，值得关注其对行业的影响。"
+          },
+          {
+            "title": "全面禁用侵入式 AI 的实用指南",
+            "summary": "本指南为希望减少技术环境中侵入式 AI 的用户提供了详细的操作步骤，涵盖 Windows、Chrome、Edge、Firefox 及主流应用如 Adobe Acrobat、WhatsApp 等。通过这些步骤，用户可以有效管理和控制 AI 的使用，保护个人隐私和数据安全。",
+            "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+            "url": "https://www.librarian.net/notoai",
+            "score": 61,
+            "sourceCount": 1,
+            "date": "2026-08-18",
+            "publishedAt": "2026-08-18T01:58",
+            "reason": "这份指南提供了实用的步骤和建议，帮助用户有效管理和禁用侵入式 AI，保护个人隐私，值得一看。"
           }
         ]
       },
@@ -14127,6 +14397,17 @@
             "reason": "此合作将为 NVIDIA 和 OpenAI 提供强大的基础设施支持，推动 AI 经济的发展，值得关注。"
           },
           {
+            "title": "亚马逊批量购书用于 AI 训练后销毁引发关注",
+            "summary": "404 Media 通过在珍本图书中放置追踪设备，揭露亚马逊秘密购书行为：大量书籍被扫描用于 AI 训练，随后被销毁。这一行为引发了对知识产权和环境影响的广泛讨论。",
+            "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+            "url": "https://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility",
+            "score": 66,
+            "sourceCount": 1,
+            "date": "2026-08-18",
+            "publishedAt": "2026-08-18T02:46",
+            "reason": "这条信息揭示了亚马逊在 AI 训练数据获取方面的隐秘操作，值得关注其对知识产权和环境的潜在影响。"
+          },
+          {
             "title": "阿里 Qwen 3.8 27B 模型发布，推理强度过高引发过度思考",
             "summary": "阿里巴巴 Qwen 实验室于 2026 年 8 月 16 日发布了 Apache 2 许可的 27B 参数视觉大模型 Qwen 3.8 27B。该模型在官方基准测试中超越了前代 Qwen 3.6 27B 和闭源的 Qwen 3.7-Plus，尽管其默认的推理强度设置导致了过度思考",
             "source": "Simon Willison 博客",
@@ -14175,6 +14456,17 @@
             "date": "2026-08-17",
             "publishedAt": "",
             "reason": "L-FNO为处理随机事件动态提供了创新的解决方案，尤其在稀疏事件检测方面展现了独特的优势，值得关注。"
+          },
+          {
+            "title": "利用手机影像评估心脏代谢风险的新方法",
+            "summary": "这次发布的核心点是，Google 研究团队推出了一种名为 PhotoScan 的深度学习框架，能够通过智能手机照片估算身体成分，从而预测胰岛素抵抗。这一方法的准确性与传统的 DXA 扫描相当，且为日常健康监测提供了新的可能性。",
+            "source": "RSS · Google Research",
+            "url": "https://research.google/blog/seeing-beyond-bmi-estimating-cardiometabolic-risk-with-smartphone-imagery/",
+            "score": 78,
+            "sourceCount": 1,
+            "date": "2026-08-17",
+            "publishedAt": "2026-08-17T18:34",
+            "reason": "PhotoScan 提供了一种创新且实用的方式来评估身体成分，帮助用户更好地理解自身健康状况，值得关注。"
           },
           {
             "title": "Mixture-of-Experts 模型的深度敏感性分析",
