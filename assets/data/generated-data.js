@@ -1,7 +1,338 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-08-17",
-  "generatedAt": "2026-08-17T05:21:57.521113Z",
+  "generatedAt": "2026-08-17T08:04:12.189952Z",
   "news": [
+    {
+      "title": "智能制造中的深度视觉：MODERN框架用于智能质量监控与诊断",
+      "summary": "我最近看到一篇关于智能制造的新研究，介绍了MODERN框架，这是一种深度学习方法，专注于质量监控和故障隔离。该框架利用大量传感器和成像设备，提升了工业质量控制的智能化水平。研究表明，尽管技术不断升级，制造商在监控设备上的投资并不总是明智的。",
+      "category": "ai-research",
+      "tags": [
+        "智能制造",
+        "深度学习",
+        "质量监控",
+        "故障诊断",
+        "工业应用"
+      ],
+      "keyPoints": [
+        "MODERN框架结合了深度学习和工业质量控制，能够实时监测产品缺陷的可能性。",
+        "该框架使用了Inception残差神经网络架构，提升了故障区域的识别能力。",
+        "研究提出了一种转移监控技术，只需少量样本即可进行有效的质量监控。",
+        "理论上，研究建立了缺陷可能性估计和故障诊断的最优收敛速率。",
+        "实证结果显示，MODERN框架在模拟实验和真实数据中表现优于现有的先进方法。"
+      ],
+      "background": "随着智能制造的快速发展，企业在生产过程中部署了大量传感器和成像设备，以实现各模块之间的即时通信和智能管理。MODERN框架应运而生，旨在通过深度学习技术提升工业质量控制的效率。研究者们通过构建控制图和故障区域估计器，利用转移学习解决了训练数据不足的问题。这一框架的提出，不仅为制造业提供了新的技术手段，也引发了对监控设备投资策略的重新思考。",
+      "impact": "MODERN框架的推出，将对智能制造领域的工程师、质量控制专家和数据科学家产生深远影响。它为企业提供了一种新的质量监控方法，可能改变他们对监控设备投资的决策。随着技术的不断进步，企业在质量控制上的策略也将随之调整，可能导致整个行业的监控标准和成本结构发生变化。",
+      "audience": [
+        "智能制造工程师",
+        "质量控制专家",
+        "数据科学家",
+        "工业自动化开发者",
+        "机器学习研究人员"
+      ],
+      "useCases": [
+        "利用MODERN框架监控生产线，实时识别产品缺陷，提升生产效率。",
+        "在数据不足的情况下，应用转移监控技术进行质量评估，降低成本。",
+        "通过故障区域估计器，快速定位问题区域，减少停机时间。",
+        "结合深度学习技术，优化现有的质量控制流程，提高产品合格率。",
+        "在模拟实验中测试MODERN框架的有效性，为实际应用提供数据支持。"
+      ],
+      "risks": [
+        "在实施MODERN框架时，可能面临API调用费用和配额限制的问题。",
+        "转移监控技术对样本质量的依赖，可能影响最终的监控效果。",
+        "不同硬件设备的兼容性问题，可能导致框架实施的复杂性增加。",
+        "在实际应用中，缺乏足够的训练数据可能限制框架的有效性。",
+        "对监控设备的持续投资可能导致企业的财务压力，需谨慎评估。"
+      ],
+      "reason": "这项研究提供了一个创新的深度学习框架，能够有效提升智能制造中的质量监控能力，值得关注。",
+      "scores": {
+        "importance": 85,
+        "novelty": 80,
+        "firsthand": 90,
+        "impact": 75,
+        "credibility": 80
+      },
+      "url": "https://arxiv.org/abs/2608.13937",
+      "source": "RSS · arXiv stat.ML",
+      "date": "2026-08-17",
+      "publishedAt": "",
+      "collectedAt": "2026-08-17T14:40",
+      "dateStatus": "collected",
+      "tier": "T1",
+      "score": 82,
+      "aiSelected": true,
+      "_style": "recommender",
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceDate": "2026-08-17",
+      "sourceCount": 1
+    },
+    {
+      "title": "使用物理信息深度操作网络学习不稳定动脉瘤血流动力学",
+      "summary": "2026年8月13日，Oscar L. Cruz-Gonzalez等人提出了一种新型的Modified Multi-Input Multi-Output PI-DeepONet（M3PI-DeepONet），用于预测理想化腹主动脉动脉瘤（AAA）几何体中的不稳定流动。该模型在预测3D流速和压力场方面表现出色，L2流速相对误差低于4%，压力误差约为5%。",
+      "background": "在腹主动脉动脉瘤（AAA）的临床评估中，患者特异性的血流动力学评估至关重要，尤其是壁剪切应力、涡旋结构和压力分布。传统的计算流体动力学（CFD）工具虽然有效，但在处理复杂的3D流动时仍面临架构挑战。为此，研究者们提出了M3PI-DeepONet，这是一种结合了多输入多输出的深度学习架构，旨在提高对不稳定流动的预测能力。该模型通过聚合注入策略，将多个输入分支的潜在表示融合，适应多种物理约束，标志着深度学习在心血管疾病建模中的应用进步。",
+      "impact": "M3PI-DeepONet的推出将对心血管疾病的实时、非侵入性临床诊断产生深远影响。医疗专业人员可以利用该模型进行更准确的AAA风险评估，从而改善患者的治疗决策。此外，该技术的高效性和准确性可能会促使更多医院采用深度学习工具进行血流动力学分析，推动整个医疗行业的技术进步。",
+      "audience": [
+        "心血管疾病研究人员",
+        "医疗数据分析师",
+        "流体动力学工程师"
+      ],
+      "useCases": [
+        "预测腹主动脉动脉瘤患者的血流动力学特征",
+        "优化心血管疾病的临床诊断流程",
+        "提高流体动力学模拟的准确性"
+      ],
+      "risks": [
+        "模型训练依赖于0.3%的标记内部数据，可能导致数据不足的问题",
+        "复杂的3D流动预测可能面临计算资源的高要求",
+        "在实际应用中，模型的适应性可能受到物理约束的限制"
+      ],
+      "reason": "该研究展示了深度学习在复杂生物医学问题中的应用潜力，尤其是在实时临床诊断方面，具有重要的临床价值。",
+      "scores": {
+        "importance": 85,
+        "novelty": 80,
+        "firsthand": 90,
+        "impact": 75,
+        "credibility": 80
+      },
+      "tags": [
+        "深度学习",
+        "血流动力学",
+        "动脉瘤",
+        "医疗技术",
+        "计算流体动力学"
+      ],
+      "category": "ai-research",
+      "url": "https://arxiv.org/abs/2608.13629",
+      "source": "RSS · arXiv stat.ML",
+      "date": "2026-08-17",
+      "publishedAt": "",
+      "collectedAt": "2026-08-17T14:41",
+      "dateStatus": "collected",
+      "tier": "T1",
+      "score": 82,
+      "aiSelected": true,
+      "_style": "observer",
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceDate": "2026-08-17",
+      "sourceCount": 1
+    },
+    {
+      "title": "L-FNO：用于随机事件动态的洛伦兹傅里叶神经算子",
+      "summary": "我最近看到一篇关于L-FNO的论文，介绍了一种新型的神经算子，专门用于处理现代操作系统中的不确定性。这种方法结合了历史依赖的激励机制和基于似然的训练目标，显著提高了稀疏事件的检测能力，尤其在疾病爆发预测和半导体缺陷检测方面表现出色。",
+      "category": "ai-research",
+      "tags": [
+        "神经网络",
+        "事件动态",
+        "机器学习",
+        "数据预测",
+        "算法创新"
+      ],
+      "keyPoints": [
+        "L-FNO结合了FNO风格的协变量路径和洛伦兹谱核，适用于历史依赖的激励机制。",
+        "该模型在八个合成点过程基准和三个真实世界数据集上进行了评估，涵盖了疾病预测和半导体缺陷检测。",
+        "L-FNO在事件似然性、校准诊断和稀有事件检测方面优于传统的回归和基于似然的神经算子基线。",
+        "论文展示了结构化谱记忆和基于似然的学习为随机事件动态的神经算子模型提供了有效的归纳偏置。",
+        "该研究为处理稀疏事件提供了新的思路，具有广泛的应用潜力。"
+      ],
+      "background": "现代操作系统在常规条件下也面临不确定性，尤其是在处理稀疏和突发事件时。传统的神经算子通常作为回归模型进行训练，难以适应这些稀疏事件的需求。L-FNO的提出，正是为了填补这一空白，通过结合历史信息和基于似然的训练目标，提升了模型的适用性和准确性。这种方法在多个领域的应用，尤其是公共卫生和半导体行业，展现了其重要性。",
+      "impact": "L-FNO的推出将对多个领域的研究和应用产生深远影响。首先，公共卫生领域的研究人员可以利用这一模型更准确地预测疾病爆发，从而制定更有效的应对策略。其次，半导体行业的工程师可以通过更精确的缺陷检测，提升产品质量和生产效率。此外，这一模型的成功应用可能会推动相关算法的进一步发展，影响未来的机器学习研究方向。",
+      "audience": [
+        "公共卫生研究人员",
+        "半导体工程师",
+        "数据科学家",
+        "机器学习研究者",
+        "算法开发者"
+      ],
+      "useCases": [
+        "利用L-FNO进行疾病爆发预测，提升公共卫生响应效率。",
+        "在半导体生产中应用L-FNO进行缺陷检测，减少生产损失。",
+        "数据科学家使用L-FNO分析稀疏事件数据，优化决策过程。",
+        "研究人员利用L-FNO探索新的机器学习算法，推动学术研究。",
+        "工程师通过L-FNO改进现有模型，提升系统的预测能力。"
+      ],
+      "risks": [
+        "L-FNO的实现可能需要较高的计算资源，增加了项目的成本。",
+        "在特定应用场景下，模型的训练数据可能不足，影响预测准确性。",
+        "使用L-FNO时，可能面临与现有系统兼容性的问题，需额外调试。",
+        "模型的复杂性可能导致理解和维护的难度，增加技术门槛。",
+        "在商业应用中，可能需要考虑模型的授权和使用限制。"
+      ],
+      "reason": "L-FNO为处理随机事件动态提供了创新的解决方案，尤其在稀疏事件检测方面展现了独特的优势，值得关注。",
+      "scores": {
+        "importance": 85,
+        "novelty": 80,
+        "firsthand": 90,
+        "impact": 75,
+        "credibility": 80
+      },
+      "url": "https://arxiv.org/abs/2608.13562",
+      "source": "RSS · arXiv stat.ML",
+      "date": "2026-08-17",
+      "publishedAt": "",
+      "collectedAt": "2026-08-17T14:41",
+      "dateStatus": "collected",
+      "tier": "T1",
+      "score": 82,
+      "aiSelected": true,
+      "_style": "recommender",
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceDate": "2026-08-17",
+      "sourceCount": 1
+    },
+    {
+      "title": "高斯过程超参数优化中的最大似然估计脆弱性",
+      "summary": "我注意到，机器学习在现代工程设计中扮演着不可或缺的角色，而选择合适的损失函数是训练模型的关键步骤。最大似然估计（MLE）作为一种流行且有效的训练机制，虽然直观，但其脆弱性不容忽视，尤其是在假设条件不满足时。",
+      "category": "ai-research",
+      "tags": [
+        "机器学习",
+        "最大似然估计",
+        "高斯过程",
+        "超参数优化",
+        "工程设计"
+      ],
+      "keyPoints": [
+        "最大似然估计（MLE）是训练机器学习模型的常用方法，具有直观和有效的优点。",
+        "MLE的脆弱性主要体现在其对假设条件的依赖，若条件不满足，可能导致模型性能下降。",
+        "在机器学习的工程设计流程中，损失函数的选择至关重要，影响模型的最终效果。",
+        "高斯过程是一种强大的非参数模型，适用于复杂的回归和分类任务。",
+        "研究表明，MLE在某些情况下可能不如其他方法稳定，开发者需谨慎选择。"
+      ],
+      "background": "随着机器学习技术的不断发展，其在工程设计中的应用愈发广泛。选择合适的损失函数是训练模型的基础，而最大似然估计（MLE）因其直观性和有效性，成为了许多开发者的首选。然而，MLE的脆弱性在于其对假设条件的高度依赖，若这些条件不成立，模型的性能可能会受到严重影响。高斯过程作为一种灵活的非参数模型，能够在不确定性较高的情况下提供良好的预测，但在超参数优化时，MLE的脆弱性可能会限制其效果。因此，了解MLE的局限性并探索其他替代方法显得尤为重要。",
+      "impact": "这一研究对机器学习领域的开发者和工程师具有重要意义。了解MLE的脆弱性可以帮助他们在选择损失函数时做出更明智的决策，从而提高模型的稳定性和性能。此外，这也可能促使开发者探索其他更为稳健的优化方法，推动整个行业的进步。对于那些依赖于高斯过程进行复杂任务的团队而言，认识到MLE的潜在问题将有助于他们在实际应用中规避风险。",
+      "audience": [
+        "机器学习工程师",
+        "数据科学家",
+        "算法研究员",
+        "产品经理",
+        "软件开发者"
+      ],
+      "useCases": [
+        "评估机器学习模型的性能，选择合适的损失函数以提高准确性。",
+        "在高斯过程回归中，优化超参数以实现更好的预测效果。",
+        "进行模型训练时，分析MLE的假设条件，确保其适用性。"
+      ],
+      "risks": [
+        "使用MLE时需注意假设条件的满足情况，避免因条件不成立导致模型失效。",
+        "在高斯过程的超参数优化中，可能面临计算资源消耗过大的问题。",
+        "若不充分理解MLE的局限性，可能导致错误的模型选择和决策。"
+      ],
+      "reason": "这篇研究揭示了MLE在高斯过程超参数优化中的脆弱性，值得关注以避免潜在的模型性能问题。",
+      "scores": {
+        "importance": 75,
+        "novelty": 70,
+        "firsthand": 90,
+        "impact": 80,
+        "credibility": 85
+      },
+      "url": "https://arxiv.org/abs/2608.13793",
+      "source": "RSS · arXiv stat.ML",
+      "date": "2026-08-17",
+      "publishedAt": "",
+      "collectedAt": "2026-08-17T14:40",
+      "dateStatus": "collected",
+      "tier": "T1",
+      "score": 78,
+      "aiSelected": true,
+      "_style": "recommender",
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceDate": "2026-08-17",
+      "sourceCount": 1
+    },
+    {
+      "title": "扩展奥卡姆反演：套索融合与各向同性全变差正则化",
+      "summary": "奥卡姆反演是一种稳健的非线性地球物理反演算法，旨在提供在观测噪声下的最平滑模型，减少地质过度解释的可能性。尽管奥卡姆最初使用l2模型粗糙度进行惩罚，但l1正则化能够生成视觉上更为清晰的模型。然而，l1正则化的地球物理反演与统计学和成像文献的主流研究逐渐脱节，尤其是在多维情况下，l1正则化与差分算子结合时存在两个不同的形式，只有一个对边缘方向不变，这在地球物理学中常被忽视。",
+      "category": "ai-research",
+      "tags": [
+        "地球物理",
+        "非线性反演",
+        "正则化",
+        "统计学",
+        "机器学习"
+      ],
+      "keyPoints": [
+        "奥卡姆反演算法提供在观测噪声下的最平滑模型，减少地质过度解释的风险。",
+        "l1正则化能够生成视觉上更清晰的模型，但与统计学文献的主流研究逐渐脱节。",
+        "在多维情况下，l1正则化与差分算子结合时存在两个不同的形式，影响反演结果。",
+        "研究中展示了三种常用的l1正则化求解器，包括坐标下降法、迭代加权最小二乘法和分裂Bregman法。",
+        "推荐在一维问题中使用坐标下降法，而在二维问题中使用迭代加权最小二乘法，后者需要的最小二乘求解次数显著减少。"
+      ],
+      "background": "奥卡姆反演算法在地球物理学中被广泛应用，旨在通过平滑模型来降低噪声影响，避免过度解释。尽管l1正则化在视觉上提供了更清晰的模型，但其与统计学的主流研究脱节，导致在实际应用中存在一定的局限性。特别是在多维反演中，l1正则化的不同形式可能导致不同的结果，这在地球物理学领域中常常被忽视。通过对比以往的研究，本文试图将l1正则化的不同形式与奥卡姆反演框架结合，提供更为全面的理解。",
+      "impact": "该研究为地球物理学家提供了新的视角，鼓励他们采用l1正则化反演。通过将不同形式的l1正则化与奥卡姆反演相结合，研究者可以更有效地处理线性和非线性问题。这将改变地球物理学家在数据处理和模型构建中的决策，可能导致更准确的地质解释和资源评估。同时，研究中提出的求解器选择建议也将影响实际应用中的算法效率。",
+      "audience": [
+        "地球物理学研究人员",
+        "机器学习工程师",
+        "统计学家",
+        "数据科学家",
+        "地质勘探工程师"
+      ],
+      "useCases": [
+        "应用坐标下降法解决一维回归问题，期望提高模型精度。",
+        "利用迭代加权最小二乘法进行二维去模糊处理，减少计算时间。",
+        "在地质勘探中采用l1正则化反演，提升资源评估的准确性。"
+      ],
+      "risks": [
+        "l1正则化可能导致模型过于依赖观测数据，忽视潜在的地质特征。",
+        "在多维反演中，不同形式的l1正则化可能导致结果不一致，增加解释难度。",
+        "算法实现的复杂性可能导致初学者在应用时产生误解，影响研究结果的可靠性。"
+      ],
+      "reason": "这项研究通过扩展奥卡姆反演，提供了新的l1正则化视角，值得关注。",
+      "scores": {
+        "importance": 75,
+        "novelty": 70,
+        "firsthand": 90,
+        "impact": 80,
+        "credibility": 85
+      },
+      "url": "https://arxiv.org/abs/2608.14225",
+      "source": "RSS · arXiv stat.ML",
+      "date": "2026-08-17",
+      "publishedAt": "",
+      "collectedAt": "2026-08-17T14:41",
+      "dateStatus": "collected",
+      "tier": "T1",
+      "score": 78,
+      "aiSelected": true,
+      "_style": "critic",
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceDate": "2026-08-17",
+      "sourceCount": 1
+    },
+    {
+      "title": "Offline Deep Q* Estimation with Diffusion Models",
+      "summary": "arXiv:2608.14401v1 Announce Type: new Abstract: In offline RL, estimating the optimal action-value function $Q^*$ can be formulated as solving the optimal Bellman equation based so",
+      "category": "ai-research",
+      "source": "RSS · arXiv stat.ML",
+      "date": "2026-08-17",
+      "publishedAt": "",
+      "collectedAt": "2026-08-17T14:41",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-17",
+      "tags": [],
+      "url": "https://arxiv.org/abs/2608.14401",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "阿里 Qwen 3.8 27B 模型发布，推理强度过高引发过度思考",
       "summary": "阿里巴巴 Qwen 实验室于 2026 年 8 月 16 日发布了 Apache 2 许可的 27B 参数视觉大模型 Qwen 3.8 27B。该模型在官方基准测试中超越了前代 Qwen 3.6 27B 和闭源的 Qwen 3.7-Plus，尽管其默认的推理强度设置导致了过度思考的问题。",
@@ -1539,7 +1870,14 @@ window.AI_GENERATED_DATA = {
         "news"
       ],
       "sourceDate": "2026-08-14",
-      "sourceCount": 1
+      "sourceCount": 2,
+      "relatedSources": [
+        {
+          "source": "RSS · arXiv stat.ML",
+          "url": "https://arxiv.org/abs/2608.14408",
+          "title": "在线推断在分布式时间差学习中的应用"
+        }
+      ]
     },
     {
       "title": "Google Sheets 新功能：Sheets canvas 让数据可视化更简单",
@@ -4705,117 +5043,6 @@ window.AI_GENERATED_DATA = {
         "news"
       ],
       "sourceDate": "2026-08-13",
-      "sourceCount": 1
-    },
-    {
-      "title": "A Forced-Structure Reduction and Verifiable Bounds for Conway's 99-Graph",
-      "summary": "arXiv:2608.11211v1 Announce Type: new Abstract: Conway's 99-graph problem asks whether a strongly regular graph with parameters $\\mathrm{srg}(99,14,1,2)$ exists. We report a system",
-      "category": "ai-agents",
-      "source": "RSS · arXiv cs.AI",
-      "date": "2026-08-13",
-      "publishedAt": "",
-      "collectedAt": "2026-08-13T22:46",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-13",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2608.11211",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "AutoWorldModel-Bench: A State-Centric Benchmark for Automated World-Model Research",
-      "summary": "arXiv:2608.11216v1 Announce Type: new Abstract: World modeling is an unsettled field: architectures, training objectives, and state representations interact in complex ways, and no",
-      "category": "ai-coding",
-      "source": "RSS · arXiv cs.AI",
-      "date": "2026-08-13",
-      "publishedAt": "",
-      "collectedAt": "2026-08-13T22:46",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-13",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2608.11216",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "benchmarkDatasets"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Better, Faster, Stronger: Programmatic Skill Learning Best Reduces Agent Cost",
-      "summary": "arXiv:2608.11338v1 Announce Type: new Abstract: Recently, the practice of augmenting LLM agent capability with skills has gained prevalence. We explore the cost effective adaptatio",
-      "category": "ai-agents",
-      "source": "RSS · arXiv cs.CL",
-      "date": "2026-08-13",
-      "publishedAt": "",
-      "collectedAt": "2026-08-13T14:53",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-13",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2608.11338",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Gloss-Free Representation Learning for Cross-Dataset Sign Spotting",
-      "summary": "arXiv:2608.11332v1 Announce Type: new Abstract: Sign-language research for resource-constrained languages is often limited by the cost of dense linguistic labels such as glosses, t",
-      "category": "ai-research",
-      "source": "RSS · arXiv cs.CL",
-      "date": "2026-08-13",
-      "publishedAt": "",
-      "collectedAt": "2026-08-13T14:53",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-13",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2608.11332",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "benchmarkDatasets"
-      ],
       "sourceCount": 1
     }
   ],
@@ -9155,6 +9382,32 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-models": [
       {
+        "name": "阿里巴巴的 Qwen 模型下载量突破 30 亿，超越 Meta 和 Google",
+        "provider": "Dealroom.co",
+        "type": "AI 项目/工具",
+        "bestFor": "Qwen 模型的成功将吸引更多开发者参与其生态系统，推动更多衍生产品的开发，从而吸引新用户。阿里巴巴通过云平台的分发策略，进一步增强了这一循环，尤其是在东南亚和非洲市场。随着中美 AI 竞争的加剧，下载量成为衡量影响力的重要指标，促使美国科技巨头如 Meta 和 Nvidia 也加快推出新开放模型，以应对中国开发者的挑",
+        "description": "阿里巴巴的开放权重 Qwen 模型在过去六个月内全球下载量超过 30 亿，成为全球下载量最高的 AI 模型系列，超越了 Meta 和 Google。根据 Hugging Face 的报告，Google 在 2026 年的下载量为 4.18 亿，Meta 为 2.27 亿，差距明显。",
+        "useCases": [
+          "下载 Qwen 模型，快速构建 AI 应用程序，提升产品竞争力。",
+          "利用 Qwen 的开源模型，定制化开发特定行业解决方案，满足市场需求。",
+          "通过 Qwen 的衍生模型，探索新业务模式，拓展市场份额。"
+        ],
+        "watch": "Qwen 模型的开源可能导致知识产权问题，需谨慎处理商用授权。",
+        "sourceName": "Dealroom.co",
+        "url": "https://app.dealroom.co/news/note/alibaba-s-qwen-hits-3b-downloads-passing-meta-and-google-in-open-ai"
+      },
+      {
+        "name": "Israeli Lie-Bots; the Politics of Climate Change; and Centri",
+        "provider": "Counter Punch",
+        "type": "AI 项目/工具",
+        "bestFor": "Why Taming the Power of Capital is Needed for Environmental Resolution\n\nIn 2017 I wrote an article arguing that neoliberal climate policies were wholly inadequa",
+        "description": "Why Taming the Power of Capital is Needed for Environmental Resolution\n\nIn 2017 I wrote an article arguing that neoliberal climate policies were wholly inadequate to address the sc",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Counter Punch",
+        "url": "https://www.counterpunch.org/2026/08/17/israeli-lie-bots-the-politics-of-climate-change-and-centrists-elected-donald-trump-twice/"
+      },
+      {
         "name": "微软 Logic Apps 实现新一轮集成升级",
         "provider": "Consultancy.uk",
         "type": "AI 项目/工具",
@@ -9703,37 +9956,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "This is Money",
         "url": "https://www.thisismoney.co.uk/money/cars/article-16049419/Volvo-rolls-new-safety-app-encourage-better-driving-mean-cheaper-insurance-does-invade-privacy.html"
-      },
-      {
-        "name": "Riyadh Daily",
-        "provider": "blogs.alriyadhdaily.com",
-        "type": "AI 项目/工具",
-        "bestFor": "AI Tool Adoption in Saudi Arabia Surges to 45.2%, More Than Doubling from Previous Year\n\nThe adoption of artificial intelligence (AI) tools in the Kingdom of Sa",
-        "description": "AI Tool Adoption in Saudi Arabia Surges to 45.2%, More Than Doubling from Previous Year\n\nThe adoption of artificial intelligence (AI) tools in the Kingdom of Saudi Arabia has grown",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "blogs.alriyadhdaily.com",
-        "url": "https://blogs.alriyadhdaily.com/article/e7d757fd1d5244e7b153ea32cb7ae494"
-      },
-      {
-        "name": "摩根士丹利：开放权重模型或将推动 AI 计算需求增长",
-        "provider": "Yahoo! Finance",
-        "type": "AI 项目/工具",
-        "bestFor": "对于希望降低成本的企业，开放权重模型提供了一个可行的解决方案，尤其是在研发和数据处理方面。企业如 Rippling 和 Pinterest 已经通过采用这些模型显著降低了运营成本。随着市场对多模型的需求增加，企业可能会重新评估其 AI 基础设施投资，推动更多的计算需求。此外，Nvidia 和其他电力供应商也将从中受益，",
-        "description": "摩根士丹利在最新报告中指出，开放权重的 AI 模型能够在降低成本的同时维持甚至增加计算需求。尽管中国供应商提高了价格，但这并未阻碍市场对多模型市场的需求，反而可能通过效率提升促进企业采用更多工作负载。报告还提到，尽管中国大型语言模型 API 的价格仍比美国的便宜 15% 到 20%，但 DeepSeek 和其他公司已开始调整定价策略。",
-        "useCases": [
-          "使用开放权重模型优化企业的研发流程，降低人力成本。",
-          "通过 GLM 5.2 提高代币使用效率，保持高负载的计算需求。",
-          "在数据处理和分析中采用开源模型，降低每笔交易的成本。",
-          "利用多模型策略在不同平台间分配工作负载，提高整体效率。",
-          "评估和调整 AI 基础设施投资，以适应市场变化和技术进步。"
-        ],
-        "watch": "API 价格的波动可能影响企业的预算，尤其是在 DeepSeek 提高价格后。",
-        "sourceName": "Yahoo! Finance",
-        "url": "https://finance.yahoo.com/technology/ai/articles/open-weight-models-may-expand-141144721.html"
       }
     ],
     "ai-business": [
+      {
+        "name": "BABA Stock Gains Ground: Alibaba Reportedly Sells Gaming Uni",
+        "provider": "Stocktwits",
+        "type": "AI 项目/工具",
+        "bestFor": "* Alibaba is reportedly selling Lingxi Games to Trustar Capital.\n\n* The company's CEO, Eddie Wu, is shifting focus toward AI and cloud computing.\n\n* Alibaba's Q",
+        "description": "* Alibaba is reportedly selling Lingxi Games to Trustar Capital.\n\n* The company's CEO, Eddie Wu, is shifting focus toward AI and cloud computing.\n\n* Alibaba's Qwen AI models have t",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Stocktwits",
+        "url": "https://stocktwits.com/news-articles/markets/equity/baba-stock-gains-ground-alibaba-reportedly-sells-gaming-unit-for-1-5-b-as-qwen-fuels-bigger-ai-push/cZo6Hp5RJKp"
+      },
       {
         "name": "Is there an 'ethical' AI for us to use?",
         "provider": "Hypergrid Business",
@@ -10300,20 +10536,24 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "NewsAPI:artificial intelligence",
         "url": "https://biztoc.com/x/f7fd0b5d263a43fa"
-      },
-      {
-        "name": "AI may hurt IT today, but it could create the sector's next ",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "AI may disrupt traditional revenue streams in India’s $280-billion IT services industry, but Rohan Korde of Baroda BNP Paribas Mutual Fund believes it could als",
-        "description": "AI may disrupt traditional revenue streams in India’s $280-billion IT services industry, but Rohan Korde of Baroda BNP Paribas Mutual Fund believes it could also drive the sector’s",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsAPI:artificial intelligence",
-        "url": "https://economictimes.indiatimes.com/markets/stocks/news/ai-may-hurt-it-today-but-it-could-create-the-sectors-next-growth-engine-baroda-bnp-paribas-mf/articleshow/132800924.cms"
       }
     ],
     "ai-benchmark": [
+      {
+        "name": "谷歌发布 Gemini 3.7 Flash，低价优惠却有时限",
+        "provider": "Memeburn",
+        "type": "AI 项目/工具",
+        "bestFor": "Gemini 3.7 Flash的推出可能会吸引需要高效编码和文档处理的开发团队，尤其是在快速迭代和高吞吐量的应用场景中。然而，企业在选择API时应考虑长期成本，尤其是在2027年价格上涨后。此外，Gemini Spark的市场限制可能会导致一些用户无法充分利用该模型的优势，从而影响其在特定地区的市场接受度。",
+        "description": "谷歌于2026年8月13日推出了Gemini 3.7 Flash，较前一版本Gemini 3.6 Flash仅间隔三周。新模型在编码、文档分析和工作流自动化方面有显著提升，API的入门价格降至每百万输入令牌0.75美元，输出令牌3.75美元。然而，这一优惠在2026年底到期，且在某些市场的可用性有限，用户需谨慎评估其适用性。",
+        "useCases": [
+          "使用Gemini 3.7 Flash进行复杂编码任务，提升代码质量和开发效率。",
+          "利用Gemini 3.7 Flash进行文档分析，快速提取关键信息。",
+          "在高吞吐量的网络应用中集成Gemini 3.7 Flash，减少响应时间。"
+        ],
+        "watch": "Gemini 3.7 Flash的低价优惠在2026年底到期，后续成本可能显著增加，影响预算规划。",
+        "sourceName": "Memeburn",
+        "url": "https://memeburn.com/gemini-3-7-flash-review-pricing-benchmarks-2026/"
+      },
       {
         "name": "DeepSeek V4 Flash 降价，Claude Sonnet 5 价格上涨",
         "provider": "Currents",
@@ -10913,21 +11153,6 @@ window.AI_GENERATED_DATA = {
         "watch": "在使用FrontierFinance时，需注意API调用的费用和配额限制，避免超出预算。",
         "sourceName": "NewsAPI:AI agent",
         "url": "https://www.prnewswire.com/news-releases/samaya-ai-releases-frontierfinance-a-new-public-benchmark-for-ai-agents-in-investment-workflows-samayas-ai-system-outperforms-claude-fable-5-and-gpt-5-6-sol-302837028.html"
-      },
-      {
-        "name": "local-bench.ai 0.4.10 版本发布，提升本地 AI 基准测试体验",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "local-bench.ai 0.4.10 的发布将影响广泛的开发者群体，尤其是那些专注于本地 AI 开发的工程师。通过提供一个可靠的基准测试平台，开发者可以更有效地评估模型性能，从而优化其产品和服务。此外，该工具的社区性质鼓励用户分享经验和最佳实践，进一步推动 AI 技术的进步。",
-        "description": "local-bench.ai 0.4.10 版本现已发布，旨在为本地 AI 设置提供社区质量排行榜。该工具帮助用户评估和比较不同 AI 模型的性能，提升开发效率和决策质量。用户需注意浏览器设置和网络连接，以确保顺利使用。",
-        "useCases": [
-          "下载并安装 local-bench.ai 0.4.10，快速设置本地 AI 基准测试环境。",
-          "使用该工具评估不同 AI 模型的性能，比较其在特定任务上的表现。",
-          "根据基准测试结果，优化和调整 AI 模型的参数，提高模型的准确性和效率。"
-        ],
-        "watch": "在使用过程中，可能会遇到浏览器扩展导致的加载问题，建议禁用广告拦截器。",
-        "sourceName": "NewsAPI:AI benchmark leaderboard",
-        "url": "https://pypi.org/project/local-bench-ai/0.4.10/"
       }
     ],
     "ai-image-video": [
@@ -12126,6 +12351,35 @@ window.AI_GENERATED_DATA = {
     "ai-office": []
   },
   "skillRecommendations": [
+    {
+      "title": "Looker's Native MCP Server with Claude Code",
+      "type": "MCP 服务",
+      "description": "该技能使 Coding Agent 能够与 Looker 的 MCP 服务器无缝连接，增强数据处理能力。",
+      "details": "Looker 现在托管自己的 MCP 服务器，本文介绍如何将 Claude Code 连接到该服务器。通过这种连接，用户可以在数据分析和可视化过程中实现更高效的工作流。与其他数据处理工具相比，Looker 的 MCP 服务器提供了更好的集成和实时数据处理能力，支持多种数据源和复杂查询。用户可以利用 Claude Code 的灵活性和 Looker 的强大功能，构建定制化的数据分析解决方案。",
+      "features": [
+        "连接 Looker 的 MCP 服务器",
+        "支持实时数据处理",
+        "集成多种数据源",
+        "实现定制化数据分析",
+        "与 Claude Code 兼容"
+      ],
+      "useCases": [
+        "分析实时数据",
+        "构建定制化报告",
+        "优化数据查询",
+        "提升数据可视化效果"
+      ],
+      "tags": [
+        "Looker",
+        "MCP",
+        "Claude Code",
+        "数据分析",
+        "实时处理"
+      ],
+      "url": "https://dev.to/gde/lookers-native-mcp-server-with-claude-code-11j8",
+      "source": "Dev.to",
+      "date": "2026-08-17"
+    },
     {
       "title": "SubwayInfo NYC",
       "type": "MCP 服务",
@@ -14224,8 +14478,8 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-08-17",
-    "generatedAt": "2026-08-17T05:21:57.495116Z",
-    "total": 24,
+    "generatedAt": "2026-08-17T08:04:12.162984Z",
+    "total": 22,
     "sections": [
       {
         "category": "ai-tools",
@@ -14297,17 +14551,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-08-14",
             "publishedAt": "2026-08-14T23:58",
             "reason": "本文详细介绍了如何高效构建多智能体工作流，适合希望提升工作效率的开发者和分析师，具有实用价值。"
-          },
-          {
-            "title": "利用 Strands Agents、LeRobot 和 Hugging Face 存储桶实现数据录制、训练与部署",
-            "summary": "通过 Strands Agents 和 LeRobot，用户可以在一个平台上实现数据的录制、训练和部署。该流程支持持续收集数据、训练模型并将其部署到物理机器人上，确保高效的数据流转与模型更新。使用 Hugging Face 存储桶，用户可以轻松管理和存储数据，提升工作效率。",
-            "source": "RSS · Hugging Face Blog",
-            "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
-            "score": 82,
-            "sourceCount": 1,
-            "date": "2026-08-14",
-            "publishedAt": "2026-08-14T01:16",
-            "reason": "这篇文章提供了一个全面的解决方案，帮助开发者在机器人领域实现高效的数据管理与模型训练，值得深入了解。"
           }
         ]
       },
@@ -14325,17 +14568,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-08-14",
             "publishedAt": "2026-08-14T01:04",
             "reason": "Gemini 3.7 Flash 的发布不仅提升了编程和代理任务的效率，还以更低的价格提供了更高的性能，值得关注。它的多领域应用潜力将为开发者和企业带来实质性的价值。"
-          },
-          {
-            "title": "Forma模型在长期财务报表预测中的应用与局限",
-            "summary": "Forma模型在财务报表的长期预测中表现出色，能够超越传统方法，但仍面临数据依赖和行业适用性等挑战。该模型通过分析历史数据和行业代码，提供了78项财务指标的1至20季度预测，具有较高的准确性和可重复性。",
-            "source": "RSS · arXiv cs.LG",
-            "url": "https://arxiv.org/abs/2608.11327",
-            "score": 82,
-            "sourceCount": 1,
-            "date": "2026-08-14",
-            "publishedAt": "",
-            "reason": "Forma模型在财务报表长期预测中的创新应用，提供了更高的准确性和灵活性，值得关注。"
           },
           {
             "title": "视觉语言模型在评估机器人图像的近端风险中的局限性",
@@ -14405,6 +14637,39 @@ window.AI_GENERATED_DATA = {
             "reason": "MaSRead 提供了一种创新的内容寻址方法，解决了多智能体系统中数据共享的关键问题，值得关注其在实际应用中的潜力。"
           },
           {
+            "title": "智能制造中的深度视觉：MODERN框架用于智能质量监控与诊断",
+            "summary": "我最近看到一篇关于智能制造的新研究，介绍了MODERN框架，这是一种深度学习方法，专注于质量监控和故障隔离。该框架利用大量传感器和成像设备，提升了工业质量控制的智能化水平。研究表明，尽管技术不断升级，制造商在监控设备上的投资并不总是明智的。",
+            "source": "RSS · arXiv stat.ML",
+            "url": "https://arxiv.org/abs/2608.13937",
+            "score": 82,
+            "sourceCount": 1,
+            "date": "2026-08-17",
+            "publishedAt": "",
+            "reason": "这项研究提供了一个创新的深度学习框架，能够有效提升智能制造中的质量监控能力，值得关注。"
+          },
+          {
+            "title": "使用物理信息深度操作网络学习不稳定动脉瘤血流动力学",
+            "summary": "2026年8月13日，Oscar L. Cruz-Gonzalez等人提出了一种新型的Modified Multi-Input Multi-Output PI-DeepONet（M3PI-DeepONet），用于预测理想化腹主动脉动脉瘤（AAA）几何体中的不稳定流动。该模型在预测",
+            "source": "RSS · arXiv stat.ML",
+            "url": "https://arxiv.org/abs/2608.13629",
+            "score": 82,
+            "sourceCount": 1,
+            "date": "2026-08-17",
+            "publishedAt": "",
+            "reason": "该研究展示了深度学习在复杂生物医学问题中的应用潜力，尤其是在实时临床诊断方面，具有重要的临床价值。"
+          },
+          {
+            "title": "L-FNO：用于随机事件动态的洛伦兹傅里叶神经算子",
+            "summary": "我最近看到一篇关于L-FNO的论文，介绍了一种新型的神经算子，专门用于处理现代操作系统中的不确定性。这种方法结合了历史依赖的激励机制和基于似然的训练目标，显著提高了稀疏事件的检测能力，尤其在疾病爆发预测和半导体缺陷检测方面表现出色。",
+            "source": "RSS · arXiv stat.ML",
+            "url": "https://arxiv.org/abs/2608.13562",
+            "score": 82,
+            "sourceCount": 1,
+            "date": "2026-08-17",
+            "publishedAt": "",
+            "reason": "L-FNO为处理随机事件动态提供了创新的解决方案，尤其在稀疏事件检测方面展现了独特的优势，值得关注。"
+          },
+          {
             "title": "MM-slotgate 提升时尚检索的可控性",
             "summary": "Najmeh Forouzandehmehr 等人在 2026 年 8 月 12 日提交的论文中提出了 MM-slotgate，这是一种多模态插槽编码器，能够将 Fashion-CLIP 的文本和图像嵌入分解为四个命名属性插槽。该方法在 H&M 数据集上实现了 0.7566 的宏",
             "source": "RSS · arXiv cs.CV",
@@ -14449,50 +14714,6 @@ window.AI_GENERATED_DATA = {
             "reason": "这项研究提供了一种创新的知识迁移方法，能够有效解决特征不一致问题，值得关注。"
           },
           {
-            "title": "Wasserstein 过滤：一种稳健分布学习的样本选择方法",
-            "summary": "我最近看到一篇关于 Wasserstein 过滤（WF）的研究，提出了一种新颖的样本选择框架，旨在从受污染的数据集中恢复干净的分布。该方法通过丢弃可疑样本并利用剩余数据的经验测度来估计目标分布，具有很强的实用性和模型无关性。",
-            "source": "RSS · arXiv stat.ML",
-            "url": "https://arxiv.org/abs/2608.13418",
-            "score": 82,
-            "sourceCount": 1,
-            "date": "2026-08-14",
-            "publishedAt": "",
-            "reason": "Wasserstein 过滤方法为处理受污染数据提供了创新的解决方案，具有广泛的应用潜力，值得关注。"
-          },
-          {
-            "title": "热带商业建筑 HVAC 控制的上下文质量多样性进化强化学习",
-            "summary": "我最近看到一篇有趣的论文，提出了一种新的上下文质量多样性进化强化学习控制器 CQD-ERL，专门用于热带水冷式冷却机组的监督控制。这个控制器不仅仅是收敛到单一的策略，而是维护一个由多种专业策略组成的产品档案，这些策略是根据数据驱动的操作上下文、每日天气和负载模式的聚类以及上下文不",
-            "source": "RSS · arXiv cs.LG",
-            "url": "https://arxiv.org/abs/2608.11324",
-            "score": 82,
-            "sourceCount": 1,
-            "date": "2026-08-14",
-            "publishedAt": "",
-            "reason": "这篇论文展示了如何通过创新的强化学习方法提升 HVAC 系统的控制效率，值得关注。"
-          },
-          {
-            "title": "联邦学习在分布式 CNC 工具磨损预测中的应用",
-            "summary": "工具磨损预测在 CNC 加工中至关重要，准确监测工具状态有助于提高产品质量和过程可靠性。尽管机器学习方法在这一任务中展现出潜力，但由于加工数据的分布特性及数据共享限制，其在工业环境中的应用受到限制。联邦学习为此提供了合适的框架，允许在不传输原始操作数据的情况下进行协作模型训练。研",
-            "source": "RSS · arXiv cs.LG",
-            "url": "https://arxiv.org/abs/2608.11281",
-            "score": 82,
-            "sourceCount": 1,
-            "date": "2026-08-14",
-            "publishedAt": "",
-            "reason": "该研究为分布式 CNC 加工领域提供了新的解决方案，展示了联邦学习在工具磨损预测中的潜力，值得关注。"
-          },
-          {
-            "title": "CVaR-GPA 算法提升生成模型对极端事件的适应性",
-            "summary": "Thejani Gamage 等人在 2026 年 8 月 12 日提交的论文中提出了一种新的算法 CVaR-penalized Generative Particle Algorithm (CVaR-GPA)，旨在优化生成模型以学习重尾分布并捕捉极端事件。该算法无需先验知识，利",
-            "source": "RSS · arXiv stat.ML",
-            "url": "https://arxiv.org/abs/2608.11544",
-            "score": 82,
-            "sourceCount": 1,
-            "date": "2026-08-14",
-            "publishedAt": "",
-            "reason": "CVaR-GPA 提供了一种创新的方法来处理重尾分布和极端事件，具有广泛的应用潜力，值得关注。"
-          },
-          {
             "title": "基于 CT 的外部软组织表面估算隐性骨骼标志的三维头影测量",
             "summary": "现有的三维面部标志方法主要定位于可见皮肤上的点，但是否可以从外部软组织几何推断 CT 定义的内部骨骼标志仍不明确。研究通过分析 240 例临床 CT 扫描，提出了一种坐标一致的表面到骨骼任务，取得了 2.97 mm 的平均径向误差。",
             "source": "RSS · arXiv cs.CV",
@@ -14504,6 +14725,28 @@ window.AI_GENERATED_DATA = {
             "reason": "该研究为隐性骨骼标志的推断提供了新的视角，具有重要的临床应用价值和研究潜力。"
           },
           {
+            "title": "高斯过程超参数优化中的最大似然估计脆弱性",
+            "summary": "我注意到，机器学习在现代工程设计中扮演着不可或缺的角色，而选择合适的损失函数是训练模型的关键步骤。最大似然估计（MLE）作为一种流行且有效的训练机制，虽然直观，但其脆弱性不容忽视，尤其是在假设条件不满足时。",
+            "source": "RSS · arXiv stat.ML",
+            "url": "https://arxiv.org/abs/2608.13793",
+            "score": 78,
+            "sourceCount": 1,
+            "date": "2026-08-17",
+            "publishedAt": "",
+            "reason": "这篇研究揭示了MLE在高斯过程超参数优化中的脆弱性，值得关注以避免潜在的模型性能问题。"
+          },
+          {
+            "title": "扩展奥卡姆反演：套索融合与各向同性全变差正则化",
+            "summary": "奥卡姆反演是一种稳健的非线性地球物理反演算法，旨在提供在观测噪声下的最平滑模型，减少地质过度解释的可能性。尽管奥卡姆最初使用l2模型粗糙度进行惩罚，但l1正则化能够生成视觉上更为清晰的模型。然而，l1正则化的地球物理反演与统计学和成像文献的主流研究逐渐脱节，尤其是在多维情况下，l",
+            "source": "RSS · arXiv stat.ML",
+            "url": "https://arxiv.org/abs/2608.14225",
+            "score": 78,
+            "sourceCount": 1,
+            "date": "2026-08-17",
+            "publishedAt": "",
+            "reason": "这项研究通过扩展奥卡姆反演，提供了新的l1正则化视角，值得关注。"
+          },
+          {
             "title": "HIMEC：遥感图像变化描述的新方法",
             "summary": "这次发布的核心点是HIMEC模型，它通过方向变化表示（DCR）和固定接口解码，提升了遥感图像变化描述的准确性。与传统方法直接依赖融合视觉特征不同，HIMEC在处理变化结构和解码器接口一致性方面进行了深入研究，展现出更好的性能。",
             "source": "RSS · arXiv cs.CV",
@@ -14513,17 +14756,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-08-15",
             "publishedAt": "",
             "reason": "HIMEC模型通过创新的方向变化表示和固定接口解码方法，显著提升了遥感图像变化描述的准确性，值得关注。"
-          },
-          {
-            "title": "PseudoMapLabeler 提出基于置信度的伪标签生成框架",
-            "summary": "在 arXiv 上发布的论文中，研究者提出了一种名为 PseudoMapLabeler 的半监督学习框架，旨在解决在线高清地图构建系统中标注数据稀缺的问题。该框架通过置信度感知的地图精炼技术，从未标注数据中生成高质量的伪标签，从而提升模型在多样化环境中的泛化能力。",
-            "source": "RSS · arXiv cs.CV",
-            "url": "https://arxiv.org/abs/2608.12600",
-            "score": 78,
-            "sourceCount": 1,
-            "date": "2026-08-15",
-            "publishedAt": "",
-            "reason": "PseudoMapLabeler 提供了一种创新的解决方案，针对在线高清地图构建中的数据稀缺问题，具有重要的实用价值。"
           }
         ]
       }
