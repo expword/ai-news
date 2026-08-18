@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-08-19",
-  "generatedAt": "2026-08-18T09:48:46.933745Z",
+  "generatedAt": "2026-08-18T17:02:00.441720Z",
   "news": [
     {
       "title": "LLM 服务一年的工作负载演变与优化",
@@ -13950,36 +13950,14 @@ window.AI_GENERATED_DATA = {
     }
   ],
   "dailyReport": {
-    "date": "2026-08-18",
-    "generatedAt": "2026-08-18T09:48:46.908742Z",
-    "total": 31,
+    "date": "2026-08-19",
+    "generatedAt": "2026-08-18T17:02:00.416688Z",
+    "total": 12,
     "sections": [
       {
         "category": "ai-tools",
         "label": "AI 工具",
         "items": [
-          {
-            "title": "谷歌与五大足球俱乐部建立长期合作关系",
-            "summary": "谷歌的 Gemini 和 Pixel 与阿森纳、巴萨、拜仁、利物浦和巴黎圣日耳曼等五大足球俱乐部达成长期合作，旨在通过 AI 和智能手机技术提升球迷的比赛日体验。此合作将为球迷提供深入的比赛数据和独家幕后内容，尤其关注女性足球的推广。",
-            "source": "RSS · Google AI Blog",
-            "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/",
-            "score": 82,
-            "sourceCount": 1,
-            "date": "2026-08-17",
-            "publishedAt": "2026-08-17T16:00",
-            "reason": "此合作将 AI 技术与体育结合，为球迷提供前所未有的互动体验，值得关注。"
-          },
-          {
-            "title": "Together AI 平台推出 A/B 测试模型",
-            "summary": "Together AI 平台推出了针对生产环境的 A/B 测试功能，允许用户将实时流量分配到一个控制组和多个变体中，以评估模型在真实用户中的表现。该平台简化了实验过程，避免了传统方法中与基础设施的复杂纠缠。",
-            "source": "RSS · Together AI",
-            "url": "https://www.together.ai/blog/a-b-test-models-in-production",
-            "score": 81,
-            "sourceCount": 1,
-            "date": "2026-08-17",
-            "publishedAt": "2026-08-17T08:00",
-            "reason": "Together AI 平台的 A/B 测试功能为模型评估提供了更高效的解决方案，值得关注。"
-          },
           {
             "title": "GPU 分配优化：利用率提升 33 点的背后",
             "summary": "一项新研究表明，通过优化 GPU 分配顺序，企业 AI 的 GPU 利用率可提升至 33 个百分点。该研究展示了如何在相同硬件和工作负载下，通过更精细的调度策略，显著提高 GPU 的使用效率。然而，这种方法在实施过程中也面临多重挑战，尤其是在处理不同类型工作负载时。",
@@ -13990,17 +13968,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-08-18",
             "publishedAt": "2026-08-18T03:46",
             "reason": "这项研究提供了实用的 GPU 管理新思路，值得关注其在企业 AI 中的应用潜力。"
-          },
-          {
-            "title": "OpenAI 强化安全防御措施，提升模型抗攻击能力",
-            "summary": "在 OpenAI-Hugging Face 事件后，OpenAI 认识到其模型在网络攻击中的脆弱性，决定通过四大支柱来增强安全性：使用 Codex 验证代码漏洞、智能体优先处理安全警报、持续枚举攻击路径，并限制网络能力仅向可信防御者开放。通过 ChatGPT Work（基于 GP",
-            "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-            "url": "https://openai.com/index/the-defenders-window",
-            "score": 66,
-            "sourceCount": 1,
-            "date": "2026-08-17",
-            "publishedAt": "2026-08-17T13:30",
-            "reason": "OpenAI 的安全防护措施展示了其在 AI 领域的前瞻性思维，值得关注其对行业的影响。"
           },
           {
             "title": "全面禁用侵入式 AI 的实用指南",
@@ -14044,23 +14011,6 @@ window.AI_GENERATED_DATA = {
         ]
       },
       {
-        "category": "ai-image-video",
-        "label": "图像视频",
-        "items": [
-          {
-            "title": "蚂蚁集团开源 ConceptEdit：新一代图像编辑数据生成管线",
-            "summary": "蚂蚁集团的 inclusionAI 团队推出了开源项目 ConceptEdit，旨在通过概念缩放与密集监督技术构建高效的图像编辑数据生成管线。该管线采用三阶段流程，包括 VLM 生成指令、FLUX 执行编辑和 VQA 评估筛选，能够生成大规模的图像编辑数据集，支持单概念与多概念两",
-            "source": "蚂蚁 inclusionAI：GitHub 新仓库",
-            "url": "https://github.com/inclusionAI/ConceptEdit",
-            "score": 66,
-            "sourceCount": 1,
-            "date": "2026-08-17",
-            "publishedAt": "2026-08-17T15:22",
-            "reason": "ConceptEdit 作为蚂蚁集团的开源项目，提供了一种高效的图像编辑数据生成解决方案，值得关注其在行业中的应用潜力。"
-          }
-        ]
-      },
-      {
         "category": "ai-agents",
         "label": "Agent / MCP",
         "items": [
@@ -14085,17 +14035,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-08-18",
             "publishedAt": "2026-08-18T02:06",
             "reason": "NVIDIA Nemotron 3.5 Lightning 的推出为高负载代理工作提供了高效的解决方案，值得关注其在实际应用中的表现和潜在影响。"
-          },
-          {
-            "title": "无奖励评估标准的引入，减少代理评估中的过度评分",
-            "summary": "本研究提出了一种新的无奖励评估标准，通过反思性演化生成评估标准，旨在提高语言模型代理的评估准确性，减少对流畅但不成功的轨迹的过度评分。使用RubricForge工具，研究者展示了如何在没有环境访问的情况下，利用标记的轨迹优化评估标准。",
-            "source": "RSS · arXiv cs.AI",
-            "url": "https://arxiv.org/abs/2608.13564",
-            "score": 78,
-            "sourceCount": 1,
-            "date": "2026-08-17",
-            "publishedAt": "",
-            "reason": "RubricForge为无奖励评估提供了一种创新的方法，能够显著提高评估的准确性，值得关注。"
           },
           {
             "title": "Build OpenClaw agents that transact with Amazon Bedrock AgentCore payments",
@@ -14126,17 +14065,6 @@ window.AI_GENERATED_DATA = {
         "label": "模型发布",
         "items": [
           {
-            "title": "NVIDIA 与 SB Energy 合作确保俄亥俄州 PORTS-Pike 园区电力容量",
-            "summary": "NVIDIA 宣布与 SB Energy 合作，确保俄亥俄州 PORTS-Pike 科技园区的电力容量，以独家部署 NVIDIA 算力，OpenAI 将成为该园区的租户。此举将为未来的 AI 工厂提供关键基础设施，助力 AI 经济的发展。",
-            "source": "NVIDIA Blog（RSS）",
-            "url": "https://blogs.nvidia.com/blog/securing-the-infrastructure-of-intelligence",
-            "score": 67,
-            "sourceCount": 1,
-            "date": "2026-08-17",
-            "publishedAt": "2026-08-17T20:34",
-            "reason": "此合作将为 NVIDIA 和 OpenAI 提供强大的基础设施支持，推动 AI 经济的发展，值得关注。"
-          },
-          {
             "title": "亚马逊批量购书用于 AI 训练后销毁引发关注",
             "summary": "404 Media 通过在珍本图书中放置追踪设备，揭露亚马逊秘密购书行为：大量书籍被扫描用于 AI 训练，随后被销毁。这一行为引发了对知识产权和环境影响的广泛讨论。",
             "source": "Hacker News 热门（buzzing.cc 中文翻译）",
@@ -14146,17 +14074,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-08-18",
             "publishedAt": "2026-08-18T02:46",
             "reason": "这条信息揭示了亚马逊在 AI 训练数据获取方面的隐秘操作，值得关注其对知识产权和环境的潜在影响。"
-          },
-          {
-            "title": "阿里 Qwen 3.8 27B 模型发布，推理强度过高引发过度思考",
-            "summary": "阿里巴巴 Qwen 实验室于 2026 年 8 月 16 日发布了 Apache 2 许可的 27B 参数视觉大模型 Qwen 3.8 27B。该模型在官方基准测试中超越了前代 Qwen 3.6 27B 和闭源的 Qwen 3.7-Plus，尽管其默认的推理强度设置导致了过度思考",
-            "source": "Simon Willison 博客",
-            "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b",
-            "score": 62,
-            "sourceCount": 1,
-            "date": "2026-08-17",
-            "publishedAt": "2026-08-17T06:00",
-            "reason": "Qwen 3.8 27B 的发布展示了阿里巴巴在视觉大模型领域的技术进步，但其推理强度设置的缺陷也引发了用户的关注，值得深入探讨。"
           }
         ]
       },
@@ -14174,17 +14091,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-08-18",
             "publishedAt": "",
             "reason": "本研究提供了对 LLM 服务工作负载的深入分析，填补了现有研究的空白，具有重要的实用价值和研究意义。"
-          },
-          {
-            "title": "DeepSeek V4 Pro 0813 与 Claude Fable 5 性能对比",
-            "summary": "我注意到最近在 DeepSWE 上对 DeepSeek V4 Pro 0813 和 Claude Fable 5 进行了904次测试。结果显示，Fable 在成本上以90倍的代价领先 pass@1，而 Pro 在 pass@4 中获胜，Pro 优先级级联达到了82.7%。",
-            "source": "RSS · Together AI",
-            "url": "https://www.together.ai/blog/deepseek-v4-pro-0813-vs-claude-fable-5-on-deepswe-cost-coding-and-routing",
-            "score": 68,
-            "sourceCount": 1,
-            "date": "2026-08-17",
-            "publishedAt": "2026-08-17T08:00",
-            "reason": "这条信息提供了关于两款先进 AI 模型的深入对比，帮助开发者在选择时做出更明智的决策。"
           }
         ]
       },
@@ -14213,133 +14119,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-08-18",
             "publishedAt": "",
             "reason": "这篇论文提出了一个重要的视角转变，强调人机协作的重要性，值得关注和深入探讨。"
-          },
-          {
-            "title": "智能制造中的深度视觉：MODERN框架用于智能质量监控与诊断",
-            "summary": "我最近看到一篇关于智能制造的新研究，介绍了MODERN框架，这是一种深度学习方法，专注于质量监控和故障隔离。该框架利用大量传感器和成像设备，提升了工业质量控制的智能化水平。研究表明，尽管技术不断升级，制造商在监控设备上的投资并不总是明智的。",
-            "source": "RSS · arXiv stat.ML",
-            "url": "https://arxiv.org/abs/2608.13937",
-            "score": 82,
-            "sourceCount": 1,
-            "date": "2026-08-17",
-            "publishedAt": "",
-            "reason": "这项研究提供了一个创新的深度学习框架，能够有效提升智能制造中的质量监控能力，值得关注。"
-          },
-          {
-            "title": "使用物理信息深度操作网络学习不稳定动脉瘤血流动力学",
-            "summary": "2026年8月13日，Oscar L. Cruz-Gonzalez等人提出了一种新型的Modified Multi-Input Multi-Output PI-DeepONet（M3PI-DeepONet），用于预测理想化腹主动脉动脉瘤（AAA）几何体中的不稳定流动。该模型在预测",
-            "source": "RSS · arXiv stat.ML",
-            "url": "https://arxiv.org/abs/2608.13629",
-            "score": 82,
-            "sourceCount": 1,
-            "date": "2026-08-17",
-            "publishedAt": "",
-            "reason": "该研究展示了深度学习在复杂生物医学问题中的应用潜力，尤其是在实时临床诊断方面，具有重要的临床价值。"
-          },
-          {
-            "title": "L-FNO：用于随机事件动态的洛伦兹傅里叶神经算子",
-            "summary": "我最近看到一篇关于L-FNO的论文，介绍了一种新型的神经算子，专门用于处理现代操作系统中的不确定性。这种方法结合了历史依赖的激励机制和基于似然的训练目标，显著提高了稀疏事件的检测能力，尤其在疾病爆发预测和半导体缺陷检测方面表现出色。",
-            "source": "RSS · arXiv stat.ML",
-            "url": "https://arxiv.org/abs/2608.13562",
-            "score": 82,
-            "sourceCount": 1,
-            "date": "2026-08-17",
-            "publishedAt": "",
-            "reason": "L-FNO为处理随机事件动态提供了创新的解决方案，尤其在稀疏事件检测方面展现了独特的优势，值得关注。"
-          },
-          {
-            "title": "利用手机影像评估心脏代谢风险的新方法",
-            "summary": "这次发布的核心点是，Google 研究团队推出了一种名为 PhotoScan 的深度学习框架，能够通过智能手机照片估算身体成分，从而预测胰岛素抵抗。这一方法的准确性与传统的 DXA 扫描相当，且为日常健康监测提供了新的可能性。",
-            "source": "RSS · Google Research",
-            "url": "https://research.google/blog/seeing-beyond-bmi-estimating-cardiometabolic-risk-with-smartphone-imagery/",
-            "score": 78,
-            "sourceCount": 1,
-            "date": "2026-08-17",
-            "publishedAt": "2026-08-17T18:34",
-            "reason": "PhotoScan 提供了一种创新且实用的方式来评估身体成分，帮助用户更好地理解自身健康状况，值得关注。"
-          },
-          {
-            "title": "Mixture-of-Experts 模型的深度敏感性分析",
-            "summary": "Mixture-of-Experts (MoE) 架构通过稀疏激活提升大语言模型的计算效率，然而对各个 MoE 层的重要性尚缺乏深入理解，尤其在模型压缩方面。本文对 Qwen3.6-35B-A3B 模型进行了系统的层级敏感性分析，探讨了 40 个 MoE 层及每层 256 个专家",
-            "source": "RSS · arXiv cs.AI",
-            "url": "https://arxiv.org/abs/2608.13565",
-            "score": 78,
-            "sourceCount": 1,
-            "date": "2026-08-17",
-            "publishedAt": "",
-            "reason": "这项研究为理解 Mixture-of-Experts 模型的层级贡献提供了系统性分析，具有重要的理论和实践价值。"
-          },
-          {
-            "title": "高斯过程超参数优化中的最大似然估计脆弱性",
-            "summary": "我注意到，机器学习在现代工程设计中扮演着不可或缺的角色，而选择合适的损失函数是训练模型的关键步骤。最大似然估计（MLE）作为一种流行且有效的训练机制，虽然直观，但其脆弱性不容忽视，尤其是在假设条件不满足时。",
-            "source": "RSS · arXiv stat.ML",
-            "url": "https://arxiv.org/abs/2608.13793",
-            "score": 78,
-            "sourceCount": 1,
-            "date": "2026-08-17",
-            "publishedAt": "",
-            "reason": "这篇研究揭示了MLE在高斯过程超参数优化中的脆弱性，值得关注以避免潜在的模型性能问题。"
-          },
-          {
-            "title": "扩展奥卡姆反演：套索融合与各向同性全变差正则化",
-            "summary": "奥卡姆反演是一种稳健的非线性地球物理反演算法，旨在提供在观测噪声下的最平滑模型，减少地质过度解释的可能性。尽管奥卡姆最初使用l2模型粗糙度进行惩罚，但l1正则化能够生成视觉上更为清晰的模型。然而，l1正则化的地球物理反演与统计学和成像文献的主流研究逐渐脱节，尤其是在多维情况下，l",
-            "source": "RSS · arXiv stat.ML",
-            "url": "https://arxiv.org/abs/2608.14225",
-            "score": 78,
-            "sourceCount": 1,
-            "date": "2026-08-17",
-            "publishedAt": "",
-            "reason": "这项研究通过扩展奥卡姆反演，提供了新的l1正则化视角，值得关注。"
-          },
-          {
-            "title": "Offline Deep Q* Estimation with Diffusion Models",
-            "summary": "arXiv:2608.14401v1 Announce Type: new Abstract: In offline RL, estimating the optimal action-value function $Q^*$ can be formulated as solvi",
-            "source": "RSS · arXiv stat.ML",
-            "url": "https://arxiv.org/abs/2608.14401",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-17",
-            "publishedAt": "",
-            "reason": ""
-          }
-        ]
-      },
-      {
-        "category": "ai-business",
-        "label": "行业商业",
-        "items": [
-          {
-            "title": "OpenAI 投资 14 个独立项目探索新 AI 政策",
-            "summary": "OpenAI 最近资助了 14 个独立项目，旨在探索新的人工智能政策理念，以扩大经济机会并增强社会韧性。这些项目涵盖了多种领域，涉及技术、经济和社会等多个方面，体现了对未来智能时代的深刻思考。",
-            "source": "RSS · OpenAI Blog",
-            "url": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
-            "score": 81,
-            "sourceCount": 1,
-            "date": "2026-08-17",
-            "publishedAt": "2026-08-17T11:15",
-            "reason": "OpenAI 的这一资助计划展示了其在 AI 政策研究领域的前瞻性，值得关注。"
-          },
-          {
-            "title": "OpenAI 加入 PORTS-Pike 项目，助力南俄亥俄州就业",
-            "summary": "OpenAI 最近宣布加入 PORTS-Pike 项目，旨在扩大社区投资并支持南俄亥俄州的数千个就业机会。这一举措不仅展示了 OpenAI 对地方经济的关注，也为其未来的技术应用提供了新的发展空间。",
-            "source": "RSS · OpenAI Blog",
-            "url": "https://openai.com/index/openai-joins-ports-pike-project",
-            "score": 74,
-            "sourceCount": 1,
-            "date": "2026-08-17",
-            "publishedAt": "2026-08-17T13:00",
-            "reason": "OpenAI 的参与为 PORTS-Pike 项目带来了技术支持和投资信心，值得关注。"
-          },
-          {
-            "title": "宇树科技将于2026年8月19日上市，成为A股人形机器人第一股",
-            "summary": "宇树科技宣布将于2026年8月19日在科创板上市，发行价150.80元/股，市值约609.93亿元，预计募资约60.99亿元。公司在2023至2025年间营收逐年增长，预计2025年净利润将达2.78亿元，成为全球少数盈利的高性能通用机器人公司。",
-            "source": "IT之家（RSS）",
-            "url": "https://www.ithome.com/0/990/812.htm",
-            "score": 66,
-            "sourceCount": 1,
-            "date": "2026-08-17",
-            "publishedAt": "2026-08-17T20:25",
-            "reason": "宇树科技的上市标志着人形机器人行业的重大进展，值得关注其未来的发展潜力和市场表现。"
           }
         ]
       }
