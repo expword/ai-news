@@ -1,7 +1,271 @@
 {
   "lastUpdated": "2026-08-18",
-  "generatedAt": "2026-08-17T23:18:59.167547Z",
+  "generatedAt": "2026-08-18T01:52:07.262142Z",
   "news": [
+    {
+      "title": "LLM 服务一年的工作负载演变与优化",
+      "summary": "大型语言模型（LLM）服务已成为关键的云工作负载，然而现有的研究在规模和范围上仍显不足。本研究通过对一年的生产数据进行纵向分析，揭示了用户与模型交互的演变过程，并提供了全面的工作负载特征。这将为未来的研究提供重要的数据支持。",
+      "category": "ai-benchmark",
+      "tags": [
+        "大型语言模型",
+        "云计算",
+        "工作负载分析",
+        "用户交互",
+        "数据追踪"
+      ],
+      "keyPoints": [
+        "本研究分析了来自 Chutes 的一年生产数据，涵盖多种模型和用户，提供了全面的工作负载视角。",
+        "研究揭示了用户与模型交互的演变过程，帮助理解生产流量的形成机制。",
+        "将发布完整的一年追踪数据，支持后续研究，避免依赖于抽样或合成生成的工作负载。",
+        "通过对工作负载的聚合、时间、模型和用户层面的分析，揭示了通常隐藏的结构特征。",
+        "现有的 LLM 服务工作负载研究多集中于短期观察，缺乏对长期演变的深入理解。"
+      ],
+      "background": "随着大型语言模型的广泛应用，LLM 服务的工作负载分析变得愈发重要。现有研究多集中于短期数据，无法全面反映用户与模型的真实交互情况。本研究通过对 Chutes 的一年生产数据进行深入分析，填补了这一空白，提供了对 LLM 服务工作负载演变的全新视角。这一研究不仅有助于理解当前的使用模式，也为未来的优化和研究提供了宝贵的数据基础。",
+      "impact": "这一研究将对多个领域产生深远影响。首先，云服务提供商可以利用这些数据优化其服务架构，提高用户体验。其次，研究人员可以基于这一数据进行更深入的分析，推动 LLM 技术的发展。此外，企业在决策时可以参考这些数据，调整其 AI 应用策略，提升业务效率。整体来看，这一研究将促进 LLM 服务的持续改进与创新。",
+      "audience": [
+        "云服务架构师",
+        "AI 研究人员",
+        "数据科学家",
+        "产品经理",
+        "技术决策者"
+      ],
+      "useCases": [
+        "分析 Chutes 的一年生产数据，识别用户行为模式，优化模型响应时间。",
+        "利用发布的完整追踪数据，进行长期的 LLM 性能评估，制定改进计划。",
+        "对比不同模型的工作负载特征，帮助开发团队选择合适的模型进行部署。",
+        "结合用户交互数据，调整产品功能，提升用户满意度和使用率。",
+        "为云服务提供商提供数据支持，优化资源分配和负载均衡策略。"
+      ],
+      "risks": [
+        "在使用追踪数据时，需注意数据的隐私合规性，确保不违反用户数据保护法规。",
+        "依赖于单一数据源可能导致分析结果的偏差，建议结合其他数据进行交叉验证。",
+        "在进行模型选择时，要考虑模型的兼容性和性能，避免因版本不匹配导致的服务中断。",
+        "使用 API 时需关注调用限制和费用，避免超出预算导致的服务中断。",
+        "在进行长期数据分析时，需确保数据存储和处理能力，以应对大规模数据的挑战。"
+      ],
+      "reason": "本研究提供了对 LLM 服务工作负载的深入分析，填补了现有研究的空白，具有重要的实用价值和研究意义。",
+      "scores": {
+        "importance": 85,
+        "novelty": 90,
+        "firsthand": 95,
+        "impact": 80,
+        "credibility": 85
+      },
+      "url": "https://arxiv.org/abs/2608.13573",
+      "source": "RSS · arXiv cs.AI",
+      "date": "2026-08-18",
+      "publishedAt": "",
+      "collectedAt": "2026-08-18T09:52",
+      "dateStatus": "collected",
+      "tier": "T1",
+      "score": 86,
+      "aiSelected": true,
+      "_style": "tutorial",
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceDate": "2026-08-18",
+      "sourceCount": 1
+    },
+    {
+      "title": "大型语言模型中的模块化认知架构",
+      "summary": "这次发布的核心点是，研究表明大型语言模型（LLM）在处理不同认知任务时，展现出与人类大脑相似的模块化架构。这一发现可能揭示了智能系统构建的基本原则。",
+      "category": "ai-research",
+      "tags": [
+        "大型语言模型",
+        "认知架构",
+        "人工智能",
+        "模块化",
+        "神经网络"
+      ],
+      "keyPoints": [
+        "研究显示，LLM在46个任务中展现出模块化架构，类似于人类大脑的功能分化。",
+        "任务间的神经元重叠表明，LLM在处理相似任务时会激活相同的神经元。",
+        "该研究使用了四个认知领域的任务，包括语言、形式推理、社会推理和物理推理。",
+        "模块化的出现可能是智能系统的基本特性，而非生物大脑的偶然结果。",
+        "研究结果为理解智能系统的构建提供了新的视角。"
+      ],
+      "background": "该研究探讨了人类大脑的功能分化现象，提出是否这种模块化结构是智能系统的基本构建原则。通过对大型语言模型的分析，研究者们发现LLM在处理不同类型的认知任务时，展现出与人类大脑相似的模块化特征。这一发现不仅为人工智能领域提供了新的研究方向，也为理解人类智能的本质提供了重要线索。与以往的研究相比，这项研究通过更系统的任务分析，揭示了LLM与人类大脑在认知处理上的相似性。",
+      "impact": "这项研究的发现将对多个领域产生深远影响。首先，研究人员和开发者可以利用LLM的模块化特性，优化模型在特定任务上的表现。其次，教育工作者可以借此理解学生在不同认知领域的学习方式，从而调整教学策略。此外，企业在开发智能系统时，可以参考这一研究，设计更符合人类认知的产品。",
+      "audience": [
+        "AI研究人员",
+        "教育工作者",
+        "智能系统开发者",
+        "认知科学家",
+        "数据科学家"
+      ],
+      "useCases": [
+        "分析LLM在特定任务上的表现，优化模型参数以提高准确性。",
+        "设计教育工具，利用LLM的模块化特性来帮助学生在不同领域的学习。",
+        "开发智能客服系统，基于LLM的认知架构提升用户交互体验。"
+      ],
+      "risks": [
+        "LLM的模块化特性可能在特定任务上表现不佳，导致结果不一致。",
+        "使用LLM时需注意API调用的费用和配额限制，可能增加开发成本。",
+        "在多语言环境中，LLM的表现可能不如预期，影响其应用范围。"
+      ],
+      "reason": "这项研究揭示了大型语言模型与人类大脑之间的相似性，为智能系统的设计提供了新的思路，值得关注。",
+      "scores": {
+        "importance": 85,
+        "novelty": 80,
+        "firsthand": 90,
+        "impact": 75,
+        "credibility": 80
+      },
+      "url": "https://arxiv.org/abs/2608.13567",
+      "source": "RSS · arXiv cs.AI",
+      "date": "2026-08-18",
+      "publishedAt": "",
+      "collectedAt": "2026-08-18T09:51",
+      "dateStatus": "collected",
+      "tier": "T1",
+      "score": 82,
+      "aiSelected": true,
+      "_style": "reviewer",
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceDate": "2026-08-18",
+      "sourceCount": 2,
+      "relatedSources": [
+        {
+          "source": "RSS · arXiv cs.AI",
+          "url": "https://arxiv.org/abs/2608.13591",
+          "title": "大型语言模型中的稳定误校准：高置信度错误的实用视角"
+        }
+      ]
+    },
+    {
+      "title": "AI 评估应与人类协作",
+      "summary": "我注意到，当前 AI 评估的主流模式过于关注超人类的自主表现，实际上这可能会引导 AI 发展走向错误的方向。相反，AI 社区应该转向评估人类与 AI 团队的表现，这种合作模式将更好地促进 AI 系统与人类能力的互补，从而带来更积极的社会结果。",
+      "category": "ai-research",
+      "tags": [
+        "AI 评估",
+        "人机协作",
+        "社会影响",
+        "技术发展",
+        "机器学习"
+      ],
+      "keyPoints": [
+        "当前 AI 评估主要关注超人类表现，可能导致 AI 取代人类的误区。",
+        "建议转向评估人类与 AI 的协作表现，以促进更好的社会结果。",
+        "这种合作模式将使 AI 系统成为人类能力的真正补充。",
+        "该论文已被 ICML 2026 接收，显示出其学术认可度。",
+        "研究强调，评估人机团队的表现将有助于推动 AI 的健康发展。"
+      ],
+      "background": "在过去的几年中，AI 技术迅速发展，许多研究集中在如何使 AI 系统超越人类的能力。然而，这种单一的评估标准可能会导致技术发展的偏差，忽视了人类与 AI 的协作潜力。该论文提出了一种新的评估框架，强调人机团队的表现，认为这种方法能够更好地反映 AI 系统的实际应用价值。与传统的评估方法相比，这种新模式更能适应未来 AI 的发展需求，促进技术与人类的和谐共存。",
+      "impact": "这种新的评估方法将影响多个领域的研究者和开发者，尤其是那些专注于人机协作的团队。它可能改变我们对 AI 系统能力的理解，促使企业在开发 AI 应用时更加注重人机协作的设计。此外，这种转变也可能引发政策层面的讨论，推动更合理的 AI 监管框架，确保技术的发展能够真正服务于人类社会。",
+      "audience": [
+        "AI 研究人员",
+        "机器学习工程师",
+        "人机交互设计师",
+        "技术政策制定者",
+        "企业决策者"
+      ],
+      "useCases": [
+        "评估人机协作项目的效果，使用新的评估框架来优化团队表现。",
+        "在开发 AI 应用时，设计人机协作的功能，以提升用户体验和效率。",
+        "参与政策讨论，推动人机协作的相关法规和标准的制定。",
+        "进行学术研究，探索人机协作对社会影响的长远效果。",
+        "为企业提供咨询，帮助其在 AI 项目中更好地整合人机协作。"
+      ],
+      "risks": [
+        "可能面临的技术整合挑战，尤其是在现有系统中引入新评估标准时。",
+        "人机协作的复杂性可能导致初期实施效果不佳，需要时间调整。",
+        "在不同文化和行业背景下，人机协作的接受度可能存在差异。",
+        "对 AI 系统的依赖可能导致人类技能的退化，需谨慎平衡。",
+        "新评估方法的推广可能受到传统观念的阻碍，需要有效的宣传和教育。"
+      ],
+      "reason": "这篇论文提出了一个重要的视角转变，强调人机协作的重要性，值得关注和深入探讨。",
+      "scores": {
+        "importance": 85,
+        "novelty": 75,
+        "firsthand": 90,
+        "impact": 80,
+        "credibility": 85
+      },
+      "url": "https://arxiv.org/abs/2608.13577",
+      "source": "RSS · arXiv cs.AI",
+      "date": "2026-08-18",
+      "publishedAt": "",
+      "collectedAt": "2026-08-18T09:52",
+      "dateStatus": "collected",
+      "tier": "T1",
+      "score": 82,
+      "aiSelected": true,
+      "_style": "recommender",
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceDate": "2026-08-18",
+      "sourceCount": 1
+    },
+    {
+      "title": "Agentao：工具使用 LLM 代理的受控本地优先运行时",
+      "summary": "Agentao 是一种新型的本地优先运行时，旨在为工具使用的 LLM 代理提供治理框架。尽管其设计增强了代理的可控性和可审计性，但仍存在权限过度、审计能力不足等风险。",
+      "category": "ai-agents",
+      "tags": [
+        "LLM代理",
+        "工具使用",
+        "本地优先",
+        "治理框架",
+        "人工智能"
+      ],
+      "keyPoints": [
+        "Agentao 采用分层架构，将模型生成的行动提案与主机授权的执行分离，增强了安全性。",
+        "该系统支持持久内存、回放、插件、技能和协议集成等功能，提供灵活的运行环境。",
+        "Agentao 不提供正式的安全保证，但通过明确的权限和执行轨迹提高了治理能力。",
+        "该框架的代码已公开，便于开发者进行测试和分析，推动社区参与。",
+        "Agentao 的设计目标是使 LLM 代理在本地环境中更可控和可审计，适应多种应用场景。"
+      ],
+      "background": "随着 LLM 代理在执行系统中的应用日益广泛，它们能够调用工具、修改本地状态并与外部协议交互。这些能力虽然提升了代理的实用性，但也带来了诸多风险，如权限过度、审计能力不足和工具中毒等。Agentao 作为一种新兴的治理框架，旨在通过分层架构来解决这些问题，确保代理在本地环境中的安全性和可控性。与传统的 LLM 代理相比，Agentao 更加注重权限管理和执行透明度，适应了日益复杂的应用需求。",
+      "impact": "Agentao 的推出可能会吸引希望在本地环境中使用 LLM 代理的开发者和企业，尤其是在需要高安全性和可审计性的场景中。它的治理框架能够帮助用户更好地管理代理的行为，降低潜在风险。此外，随着代码的公开，开发者可以根据自身需求进行定制和扩展，推动创新和应用的多样性。然而，Agentao 仍需在实际应用中验证其有效性和安全性，才能真正改变现有的 LLM 代理使用模式。",
+      "audience": [
+        "AI 研究人员",
+        "软件开发者",
+        "安全审计师",
+        "数据科学家",
+        "系统架构师"
+      ],
+      "useCases": [
+        "开发本地 LLM 代理，利用 Agentao 的权限管理功能，确保安全性。",
+        "在企业环境中实施 Agentao，监控代理行为以满足合规要求。",
+        "利用 Agentao 的插件系统，扩展 LLM 代理的功能以适应特定业务需求。",
+        "进行 Agentao 框架的测试与分析，评估其在不同场景下的表现。",
+        "在教育领域使用 Agentao，帮助学生理解 LLM 代理的工作原理和安全性。"
+      ],
+      "risks": [
+        "Agentao 的治理框架虽然增强了安全性，但仍可能存在权限过度的问题，导致代理执行不当。",
+        "由于缺乏正式的安全保证，用户在使用过程中可能面临不可预见的风险，影响系统稳定性。",
+        "在不同的硬件和软件环境中，Agentao 的兼容性可能存在问题，限制其广泛应用。",
+        "对于非技术用户，Agentao 的复杂性可能导致使用门槛过高，影响其普及。",
+        "在实际应用中，Agentao 的性能和效率可能无法满足高负载场景的需求。"
+      ],
+      "reason": "Agentao 提供了一种新颖的治理框架，适合希望在本地环境中使用 LLM 代理的开发者，具有重要的研究和应用价值。",
+      "scores": {
+        "importance": 75,
+        "novelty": 80,
+        "firsthand": 90,
+        "impact": 70,
+        "credibility": 80
+      },
+      "url": "https://arxiv.org/abs/2608.13574",
+      "source": "RSS · arXiv cs.AI",
+      "date": "2026-08-18",
+      "publishedAt": "",
+      "collectedAt": "2026-08-18T09:51",
+      "dateStatus": "collected",
+      "tier": "T1",
+      "score": 78,
+      "aiSelected": true,
+      "_style": "critic",
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceDate": "2026-08-18",
+      "sourceCount": 1
+    },
     {
       "title": "GPU 分配优化：利用率提升 33 点的背后",
       "summary": "一项新研究表明，通过优化 GPU 分配顺序，企业 AI 的 GPU 利用率可提升至 33 个百分点。该研究展示了如何在相同硬件和工作负载下，通过更精细的调度策略，显著提高 GPU 的使用效率。然而，这种方法在实施过程中也面临多重挑战，尤其是在处理不同类型工作负载时。",
@@ -146,6 +410,71 @@
       "scores": {},
       "score": 70,
       "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "使用 Google 的 Agent Development Kit 构建零信任 AI 智能体",
+      "summary": "Google 开源了基于 Agent Development Kit (ADK) 和 Gemini 的零信任客服与退货智能体示例，展示了如何通过三层安全机制防御提示注入等攻击。这些机制包括硬件支持的加密签名、gVisor 沙箱隔离动态代码执行以及确定性语义网关校验业务逻辑，确保系统的安全性和可靠性。",
+      "category": "ai-agents",
+      "tags": [
+        "零信任",
+        "AI 智能体",
+        "安全机制",
+        "Google",
+        "开源"
+      ],
+      "keyPoints": [
+        "Google 的 ADK 使构建多工具、自主工作流变得简单，只需少量配置。",
+        "零信任架构通过三层安全机制确保 AI 智能体的安全性，包括加密签名和代码隔离。",
+        "系统提示词并非安全边界，可能被提示注入攻击绕过。",
+        "开源的客服与退货智能体示例可用于测试防御模式，代码和演示可在 GitHub 上找到。",
+        "gVisor 沙箱提供了动态代码执行的隔离环境，防止潜在的安全漏洞。"
+      ],
+      "background": "Google 最近推出了基于 ADK 和 Gemini 的零信任 AI 智能体，旨在提升客户服务和退货处理的安全性。随着 AI 技术的快速发展，传统的安全措施已无法有效防范新型攻击，尤其是在 AI 智能体能够直接与数据库和 API 交互的情况下。通过引入零信任架构，Google 试图在 AI 系统内部建立更强的安全防护，确保即使在复杂的操作环境中，系统也能保持安全和稳定。",
+      "impact": "这一技术的推出将对开发者和企业产生深远影响。首先，开发者可以利用这一框架构建更安全的 AI 应用，降低因安全漏洞导致的风险。其次，企业在使用 AI 智能体处理客户请求时，可以更放心地进行操作，提升客户体验。此外，这一架构的开源特性也将促进社区的参与和创新，推动零信任安全理念的普及。",
+      "audience": [
+        "AI 开发者",
+        "安全工程师",
+        "电商客服团队",
+        "技术架构师",
+        "系统管理员"
+      ],
+      "useCases": [
+        "使用 ADK 创建一个零信任的客服智能体，处理客户的退货请求并确保安全。",
+        "在动态环境中部署 AI 智能体，利用 gVisor 沙箱隔离执行代码，防止安全漏洞。",
+        "通过加密签名机制，确保每次数据库操作的不可抵赖性，提升数据安全性。",
+        "测试和验证 AI 智能体的安全性，防止提示注入攻击，确保系统稳定运行。",
+        "利用开源代码进行二次开发，定制符合企业需求的零信任 AI 解决方案。"
+      ],
+      "risks": [
+        "在使用 ADK 时，需注意 API 调用的配额限制，避免因超出配额导致服务中断。",
+        "确保硬件支持的加密签名功能正常工作，否则可能导致数据篡改风险。",
+        "在动态代码执行环境中，需严格控制资源使用，防止因资源耗尽导致的服务崩溃。",
+        "版本兼容性问题可能导致某些功能无法正常运行，建议定期检查更新。",
+        "使用开源代码时，需关注社区的安全更新，及时修复潜在的安全漏洞。"
+      ],
+      "reason": "这一框架为构建安全的 AI 应用提供了新的思路，尤其是在处理敏感数据时，值得开发者深入了解。",
+      "scores": {
+        "importance": 85,
+        "novelty": 80,
+        "firsthand": 90,
+        "impact": 75,
+        "credibility": 85
+      },
+      "url": "https://developers.googleblog.com/build-zero-trust-ai-agents-with-googles-agent-development-kit",
+      "source": "Google Developers Blog（RSS）",
+      "date": "2026-08-18",
+      "publishedAt": "2026-08-18T07:22",
+      "collectedAt": "2026-08-18T08:33",
+      "dateStatus": "verified",
+      "tier": "T1.5",
+      "score": 66,
+      "aiSelected": true,
+      "_style": "tutorial",
       "moduleTargets": [
         "news",
         "topicResources"
@@ -5140,516 +5469,6 @@
       ],
       "sourceDate": "2026-08-13",
       "sourceCount": 1
-    },
-    {
-      "title": "评估上下文压缩中的侧约束损失",
-      "summary": "这次发布的核心点是，LLM系统在上下文窗口受限时，会压缩之前的上下文以继续进行任务。然而，用户发出的某些指令（如“在我确认之前不要删除任何邮件”）在压缩过程中被悄然丢弃。为此，研究团队提出了COMPINT评估套件，旨在量化这一损失。",
-      "category": "ai-research",
-      "tags": [
-        "上下文压缩",
-        "LLM",
-        "评估工具",
-        "用户指令",
-        "人工智能"
-      ],
-      "keyPoints": [
-        "LLM系统在上下文受限时会压缩先前的上下文，导致信息丢失。",
-        "用户指令（Session Constraints）在压缩过程中被忽视，平均保留率仅为17%。",
-        "COMPINT评估套件用于评估在多轮对话、代理轨迹和长时间研究等场景中的压缩效果。",
-        "研究提出了一种SC感知提取器，能在不修改压缩器或LLM的情况下实现90%以上的指令保留率。",
-        "COMPINT的实现和评估结果已公开，供研究者使用。"
-      ],
-      "background": "在现代LLM系统中，随着上下文窗口的限制，系统需要压缩之前的上下文以继续执行任务。这种压缩虽然可以提高效率，但也带来了信息丢失的问题。研究者们发现，用户发出的某些指令（如Session Constraints）在压缩过程中被悄然丢弃，导致用户期望的行为未能实现。COMPINT评估套件的推出，旨在量化这一损失并提供解决方案。",
-      "impact": "对于需要长时间交互的应用场景，如客服机器人、智能助手等，COMPINT的评估结果将帮助开发者优化系统设计，确保用户指令的有效执行。尤其是做RAG的工程师和需要处理多轮对话的产品经理，将能从中受益，提升用户体验。此外，COMPINT的SC感知提取器为现有系统提供了可插拔的解决方案，降低了技术整合的难度。",
-      "audience": [
-        "做RAG的工程师",
-        "客服系统开发者",
-        "智能助手产品经理",
-        "长时间交互应用的设计师",
-        "AI研究人员"
-      ],
-      "useCases": [
-        "评估现有LLM系统在多轮对话中的指令保留率，优化用户体验。",
-        "集成COMPINT评估套件，量化用户指令的有效性。",
-        "使用SC感知提取器，提升指令保留率，减少信息丢失。"
-      ],
-      "risks": [
-        "COMPINT评估套件的使用可能需要额外的计算资源，增加开发成本。",
-        "在不同的上下文长度和指令表述下，保留率可能存在显著差异，影响评估结果的普适性。",
-        "集成新模块可能导致现有系统的兼容性问题，需谨慎测试。"
-      ],
-      "reason": "COMPINT评估套件为LLM系统提供了量化用户指令保留率的新方法，值得关注。",
-      "scores": {
-        "importance": 75,
-        "novelty": 80,
-        "firsthand": 90,
-        "impact": 70,
-        "credibility": 85
-      },
-      "url": "https://arxiv.org/abs/2608.11242",
-      "source": "RSS · arXiv cs.CL",
-      "date": "2026-08-13",
-      "publishedAt": "",
-      "collectedAt": "2026-08-13T14:53",
-      "dateStatus": "collected",
-      "tier": "T1",
-      "score": 78,
-      "aiSelected": true,
-      "_style": "reviewer",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceDate": "2026-08-13",
-      "sourceCount": 1
-    },
-    {
-      "title": "将递归深度整合进预训练语言模型的研究进展",
-      "summary": "这次发布的核心点是通过将递归深度整合到预训练语言模型中，研究者展示了如何在不同参数预算下实现模型的迭代潜在转变。Qwen2.5-0.5B-Instruct模型经过改造后，能够在多个循环中保持性能，且在首次循环中未显著低于基线表现。该研究揭示了递归模块的有效性及其在语言模型中的应用潜力。",
-      "category": "ai-research",
-      "tags": [
-        "语言模型",
-        "递归深度",
-        "预训练",
-        "Qwen2.5",
-        "AI研究"
-      ],
-      "keyPoints": [
-        "研究展示了如何将递归深度整合到预训练语言模型中，提升其性能。",
-        "Qwen2.5-0.5B-Instruct模型被分为Prelude、Recurrent Block和Coda三个部分。",
-        "在首次循环中，改造后的模型在ARC电池测试中表现与基线相当。",
-        "该研究强调了递归模块在语言模型中的重要性，具有广泛的应用前景。",
-        "研究结果为未来的模型优化提供了新的思路和方法。"
-      ],
-      "background": "近年来，预训练语言模型在自然语言处理领域取得了显著进展，但如何进一步提升其性能仍然是一个重要课题。此次研究通过将递归深度整合进Qwen2.5-0.5B-Instruct模型，探索了模型在不同参数预算下的表现。与传统的模型架构相比，递归模块的引入使得模型能够在多次迭代中保持稳定的性能，展现出更强的学习能力。这一方法为未来的语言模型设计提供了新的方向，尤其是在处理复杂任务时。",
-      "impact": "这一研究成果将对多个领域的开发者产生影响，尤其是从事自然语言处理和机器学习的工程师。通过引入递归深度，模型的学习能力和适应性得到了提升，可能改变开发者在选择模型时的决策。此外，研究结果可能推动相关技术的商业化应用，促进更高效的AI解决方案的开发。",
-      "audience": [
-        "自然语言处理工程师",
-        "机器学习研究人员",
-        "AI产品经理"
-      ],
-      "useCases": [
-        "整合递归模块以提升现有语言模型的性能。",
-        "在特定任务中应用改造后的模型，获取更准确的结果。",
-        "利用研究成果优化模型架构，提升训练效率。"
-      ],
-      "risks": [
-        "在实际应用中，递归模块的集成可能导致模型训练时间增加。",
-        "改造后的模型可能需要更高的计算资源，增加了使用成本。",
-        "在特定语言或领域中，模型的适应性可能受到限制。"
-      ],
-      "reason": "这项研究为语言模型的优化提供了新的思路，尤其是在递归深度的应用上，值得关注。",
-      "scores": {
-        "importance": 75,
-        "novelty": 80,
-        "firsthand": 90,
-        "impact": 70,
-        "credibility": 85
-      },
-      "url": "https://arxiv.org/abs/2608.11233",
-      "source": "RSS · arXiv cs.CL",
-      "date": "2026-08-13",
-      "publishedAt": "",
-      "collectedAt": "2026-08-13T14:53",
-      "dateStatus": "collected",
-      "tier": "T1",
-      "score": 78,
-      "aiSelected": true,
-      "_style": "reviewer",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceDate": "2026-08-13",
-      "sourceCount": 1
-    },
-    {
-      "title": "自我进化的具身智能体：技能与环境适应的新框架",
-      "summary": "这次发布的核心点是提出了一种名为 SHAPER 的自我进化框架，旨在实现具身智能体的无训练适应。SHAPER 通过演化可重用的技能和环境代码，保持模型参数不变，优化外部技能和环境代码，适用于不同的低级动作接口。该方法在 VLABench 和 ESI-Bench 上进行了评估，显示出在模型训练成本高昂或不可用时的实用性。",
-      "category": "ai-coding",
-      "tags": [
-        "具身智能体",
-        "自我进化",
-        "技能演化",
-        "无训练适应",
-        "机器人技术"
-      ],
-      "keyPoints": [
-        "SHAPER 是一种无训练的自我进化框架，专注于技能和环境适应。",
-        "该框架保持模型参数不变，通过演化技能和环境代码提升性能。",
-        "在 VLABench 和 ESI-Bench 上的评估显示 SHAPER 的有效性。",
-        "与传统的监督微调和强化学习方法相比，SHAPER 不需要额外的数据和奖励。",
-        "SHAPER 适用于多种低级动作接口，具有广泛的应用潜力。"
-      ],
-      "background": "具身智能体的构建越来越依赖于基础模型，性能不仅取决于模型权重，还与技能、上下文、动作接口及执行环境密切相关。传统的监督微调和强化学习虽然能够适应新环境，但需要大量数据和训练时间，且在固定接口环境中，许多无训练的代码中心方法依赖于可编程的机器人 API，这在实际应用中可能并不总是可用。SHAPER 提出的自我进化框架，旨在解决这些问题，通过演化技能和环境代码，提升具身智能体的适应能力。",
-      "impact": "SHAPER 的推出将对具身智能体的开发者和研究人员产生深远影响。它为那些面临高昂训练成本或缺乏数据的团队提供了一种新的解决方案，能够在不更新模型参数的情况下，优化智能体的性能。此外，SHAPER 的灵活性使其适用于多种应用场景，从机器人操作到自动化任务，潜在改变了开发者在选择智能体训练方法时的决策。",
-      "audience": [
-        "机器人开发者",
-        "AI 研究人员",
-        "自动化工程师",
-        "游戏开发者",
-        "教育科技工作者"
-      ],
-      "useCases": [
-        "利用 SHAPER 优化具身智能体在复杂环境中的表现，提升任务完成率。",
-        "在机器人操作中应用 SHAPER，减少对训练数据的依赖，提高适应性。",
-        "结合 SHAPER 和现有的机器人 API，快速开发新的智能体应用。"
-      ],
-      "risks": [
-        "SHAPER 依赖于特定的环境设置，可能在不同的应用场景中表现不一。",
-        "无训练适应的效果可能受到环境复杂性的限制，需谨慎评估。",
-        "在实际应用中，技能演化的过程可能需要较长时间，影响开发效率。"
-      ],
-      "reason": "SHAPER 提供了一种创新的无训练适应方法，适合希望降低训练成本的开发者，值得关注。",
-      "scores": {
-        "importance": 75,
-        "novelty": 80,
-        "firsthand": 90,
-        "impact": 70,
-        "credibility": 80
-      },
-      "url": "https://arxiv.org/abs/2608.11350",
-      "source": "RSS · arXiv cs.CL",
-      "date": "2026-08-13",
-      "publishedAt": "",
-      "collectedAt": "2026-08-13T14:53",
-      "dateStatus": "collected",
-      "tier": "T1",
-      "score": 78,
-      "aiSelected": true,
-      "_style": "reviewer",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceDate": "2026-08-13",
-      "sourceCount": 1
-    },
-    {
-      "title": "MIDAS：不确定性融合的互信息解耦用于不完整多模态情感分析",
-      "summary": "MIDAS提出了一种新方法，旨在解决多模态情感分析中常见的输入不完整问题。尽管现有方法多依赖数据填补和启发式协调约束，但在实际应用中，这些方法往往未能有效提取和利用任务相关信息。该研究强调了在不完整或损坏的模态下进行情感分析的重要性，并为此提供了新的解决思路。",
-      "category": "ai-research",
-      "tags": [
-        "多模态分析",
-        "情感分析",
-        "不完整数据",
-        "机器学习",
-        "数据处理"
-      ],
-      "keyPoints": [
-        "MIDAS方法专注于处理不完整的多模态输入，填补了现有研究的空白。",
-        "该方法结合了不确定性意识的融合技术，提升了情感分析的准确性。",
-        "研究表明，传统的数据填补方法在处理复杂情感时效果有限。",
-        "MIDAS的设计考虑了实际应用中的数据损坏情况，具有较强的实用性。",
-        "该研究为未来的多模态情感分析提供了新的理论基础和实践指导。"
-      ],
-      "background": "多模态情感分析是近年来人工智能领域的热门研究方向，然而，许多现有方法假设输入数据是完整的，这在现实应用中往往不成立。MIDAS应运而生，针对这一问题提出了新的解决方案。与传统方法依赖于数据填补和启发式约束不同，MIDAS通过不确定性融合技术，能够更有效地从不完整数据中提取有用信息。这一创新不仅提升了分析的准确性，也为多模态情感分析的未来发展指明了方向。",
-      "impact": "MIDAS的推出可能会对多个领域产生深远影响，尤其是在社交媒体分析、市场研究和用户体验优化等方面。通过提高情感分析的准确性，企业可以更好地理解用户情感，从而优化产品和服务。此外，该方法的应用还可能推动相关技术的进步，促进多模态数据处理的进一步发展。",
-      "audience": [
-        "情感分析研究人员",
-        "社交媒体数据分析师",
-        "市场营销专家",
-        "机器学习工程师",
-        "用户体验设计师"
-      ],
-      "useCases": [
-        "分析社交媒体评论，提取用户情感倾向，优化品牌策略。",
-        "在市场调研中，利用MIDAS处理不完整的用户反馈，提升数据分析质量。",
-        "为用户体验设计提供情感分析支持，帮助设计师更好地理解用户需求。"
-      ],
-      "risks": [
-        "MIDAS方法在处理极端不完整数据时可能仍存在局限，导致分析结果不准确。",
-        "该方法的实现可能需要较高的计算资源，对小型企业不太友好。",
-        "在实际应用中，数据隐私和合规性问题可能影响MIDAS的推广。"
-      ],
-      "reason": "MIDAS为多模态情感分析提供了创新的解决方案，尤其在处理不完整数据方面具有重要价值。",
-      "scores": {
-        "importance": 75,
-        "novelty": 80,
-        "firsthand": 90,
-        "impact": 70,
-        "credibility": 85
-      },
-      "url": "https://arxiv.org/abs/2608.09986",
-      "source": "RSS · arXiv cs.AI",
-      "date": "2026-08-13",
-      "publishedAt": "",
-      "collectedAt": "2026-08-13T12:12",
-      "dateStatus": "collected",
-      "tier": "T1",
-      "score": 78,
-      "aiSelected": true,
-      "_style": "critic",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceDate": "2026-08-13",
-      "sourceCount": 1
-    },
-    {
-      "title": "使用 Amazon Athena 和 CUDOS 进行 Amazon Bedrock 成本归属分析",
-      "summary": "这次发布的核心点是通过 Amazon Athena 和 CUDOS 仪表板，用户可以更直观地分析和可视化 Amazon Bedrock 的成本归属。文章详细介绍了如何设置 CUR 2.0 数据导出，查询 Bedrock 支出，并构建仪表板以跟踪组织内的 AI 成本，帮助用户更好地管理和优化支出。",
-      "category": "ai-tools",
-      "tags": [
-        "成本分析",
-        "Amazon Bedrock",
-        "数据可视化",
-        "云计算",
-        "AI 成本管理"
-      ],
-      "keyPoints": [
-        "Amazon Bedrock 通过 CUR 2.0 提供了更细致的成本归属，能够追踪每个推理请求的 IAM 主体。",
-        "用户可以通过 IAM 主体数据和可选的成本分配标签，按团队、项目或租户聚合支出。",
-        "CUDOS 仪表板提供了针对组织结构的预构建可视化，便于快速理解成本和使用情况。",
-        "设置 CUR 2.0 需要 AWS 账户、IAM 权限和基本的 SQL 知识，确保数据的准确性和完整性。",
-        "Athena 提供灵活的聚合功能，适合与多种商业智能工具集成，提升数据分析能力。"
-      ],
-      "background": "Amazon Bedrock 是 AWS 提供的 AI 服务，支持用户构建和部署机器学习模型。随着 AI 应用的普及，成本管理变得尤为重要。CUR 2.0 是 AWS 提供的成本和使用报告工具，能够帮助用户详细了解各项服务的支出情况。通过与 IAM 主体数据的结合，用户可以实现更精细化的成本追踪，确保每一笔支出都能被合理归属。与传统的成本分析工具相比，CUR 2.0 和 CUDOS 的结合为用户提供了更高的灵活性和可视化能力，适应了现代企业对数据透明度的需求。",
-      "impact": "推荐给需要精细化成本管理的企业财务团队、数据分析师和云架构师，他们可以利用这些工具优化资源配置和支出决策。通过更清晰的成本视图，企业能够识别出高成本的使用场景，从而进行调整和优化。此外，CUDOS 的预构建仪表板可以加速决策过程，减少数据分析的时间成本。对于希望提升 AI 项目投资回报率的团队，这一工具组合无疑是一个重要的助力。",
-      "audience": [
-        "云计算架构师",
-        "企业财务分析师",
-        "数据科学团队",
-        "AI 产品经理",
-        "IT 成本控制专员"
-      ],
-      "useCases": [
-        "设置 CUR 2.0 数据导出，确保 IAM 主体数据的准确性，以便进行详细的成本分析。",
-        "使用 Amazon Athena 查询 Bedrock 成本数据，识别高支出项目并进行优化。",
-        "构建 CUDOS 仪表板，实时监控 AI 成本，帮助团队做出数据驱动的决策。",
-        "通过成本分配标签，按项目和团队聚合支出，提升财务透明度。",
-        "与 BI 工具集成，生成定制化的财务报告，支持高层决策。"
-      ],
-      "risks": [
-        "设置 CUR 2.0 时，IAM 权限配置不当可能导致数据无法正确导出，影响分析结果。",
-        "Athena 查询的复杂性可能导致性能问题，尤其是在处理大规模数据时，需谨慎优化查询语句。",
-        "CUDOS 仪表板的预构建可视化可能不完全符合所有组织的需求，需进行适当调整。",
-        "使用 AWS 服务时，需注意 API 调用费用，避免因频繁查询而产生意外支出。",
-        "数据隐私和合规性问题，确保 IAM 主体数据的使用符合企业政策和法律法规。"
-      ],
-      "reason": "这篇文章提供了实用的指南，帮助用户通过 Amazon Athena 和 CUDOS 有效管理和优化 AI 成本，值得关注。",
-      "scores": {
-        "importance": 75,
-        "novelty": 70,
-        "firsthand": 85,
-        "impact": 80,
-        "credibility": 90
-      },
-      "url": "https://aws.amazon.com/blogs/machine-learning/part-2-amazon-bedrock-cost-attribution-with-amazon-athena-and-cudos/",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-08-13",
-      "publishedAt": "2026-08-13T01:45",
-      "collectedAt": "2026-08-13T02:00",
-      "dateStatus": "verified",
-      "tier": "T1",
-      "score": 78,
-      "aiSelected": true,
-      "_style": "reviewer",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "OlmoEarth Studio 发布自定义嵌入导出功能",
-      "summary": "OlmoEarth Studio 最近推出了自定义嵌入导出功能，允许用户生成特定的嵌入以便于后续分析。这一功能的推出为数据科学家和机器学习工程师提供了更大的灵活性，能够根据具体需求调整嵌入的生成方式，从而提升模型的性能和适用性。",
-      "category": "ai-tools",
-      "tags": [
-        "OlmoEarth",
-        "嵌入导出",
-        "数据分析",
-        "机器学习",
-        "AI工具"
-      ],
-      "keyPoints": [
-        "OlmoEarth Studio 新增自定义嵌入导出功能，用户可根据需求生成特定嵌入。",
-        "该功能旨在提升数据分析的灵活性，适用于多种下游任务。",
-        "用户可以选择不同的参数来调整嵌入的生成方式，增强模型的适用性。",
-        "该功能的发布标志着 OlmoEarth 在 AI 工具领域的进一步发展。",
-        "预计这一功能将吸引更多数据科学家和机器学习工程师使用 OlmoEarth Studio。"
-      ],
-      "background": "OlmoEarth Studio 是一个专注于生成和分析嵌入的工具，旨在为用户提供高效的数据处理能力。随着机器学习和数据分析需求的不断增长，用户对嵌入的定制化需求也日益增加。此次发布的自定义嵌入导出功能，正是为了满足这一市场需求。过去，用户在生成嵌入时往往受到固定参数的限制，而现在，OlmoEarth Studio 允许用户根据具体的分析需求进行调整，从而提高了嵌入的质量和适用性。",
-      "impact": "这一功能的推出将对数据科学家和机器学习工程师产生深远影响。首先，用户可以根据具体项目需求生成更为精准的嵌入，从而提升模型的性能。其次，随着更多用户的加入，OlmoEarth Studio 的市场竞争力将进一步增强。此外，定制化的嵌入生成将推动相关领域的研究进展，促进新算法和模型的开发。",
-      "audience": [
-        "数据科学家",
-        "机器学习工程师",
-        "AI 研究人员"
-      ],
-      "useCases": [
-        "生成特定任务所需的嵌入以提高模型性能",
-        "根据项目需求调整嵌入参数以优化数据分析",
-        "导出自定义嵌入以便于后续的机器学习训练"
-      ],
-      "risks": [
-        "用户可能面临嵌入生成参数选择不当导致模型性能下降的风险。",
-        "自定义嵌入导出功能可能需要额外的学习成本，影响用户的使用体验。"
-      ],
-      "reason": "这一功能的推出为用户提供了更大的灵活性，能够根据具体需求生成高质量的嵌入，极大提升了数据分析的效率。",
-      "scores": {
-        "importance": 70,
-        "novelty": 75,
-        "firsthand": 90,
-        "impact": 80,
-        "credibility": 85
-      },
-      "url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
-      "source": "RSS · Hugging Face Blog",
-      "date": "2026-08-13",
-      "publishedAt": "2026-08-13T00:14",
-      "collectedAt": "2026-08-13T00:46",
-      "dateStatus": "verified",
-      "tier": "T1",
-      "score": 78,
-      "aiSelected": true,
-      "_style": "observer",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Amazon Quick 现已整合至 Microsoft 365 办公套件",
-      "summary": "这次发布的核心点是 Amazon Quick 作为 AI 助手，现已直接集成到 Microsoft Word、Excel、PowerPoint 和 Outlook 中。这一功能使得用户可以在熟悉的环境中访问企业数据，进行文档编辑和数据分析，无需切换应用程序，极大提升了工作效率。",
-      "category": "ai-office",
-      "tags": [
-        "AI 助手",
-        "Microsoft 365",
-        "数据访问",
-        "文档编辑",
-        "企业效率"
-      ],
-      "keyPoints": [
-        "Amazon Quick 现已在 Microsoft 365 的 Word、Excel、PowerPoint 和 Outlook 中提供四个扩展功能，用户可直接安装使用。",
-        "无需额外许可，Plus、Professional 和 Enterprise 计划的用户均可享受这一功能，降低了使用门槛。",
-        "通过 Amazon Quick，用户可以在文档中直接访问 Amazon Quick Sight 仪表板、AWS 数据源及第三方集成，提升数据利用率。",
-        "用户在撰写客户提案时，可以快速整合内部知识库和实时客户数据，显著缩短了响应时间。",
-        "这些扩展并非简单的聊天机器人，而是能够在文档中直接执行操作的智能助手，提升了工作流的智能化水平。"
-      ],
-      "background": "Amazon Quick 的推出旨在解决企业数据分散在多个系统的问题，尤其是许多企业的日常工作主要在 Microsoft 365 中进行。通过将 Amazon Quick 集成到这些常用应用中，用户可以在不改变工作习惯的情况下，利用 AI 助手直接访问和编辑数据。这一创新与传统的独立应用程序不同，后者往往需要用户重新学习和适应新工具。Amazon Quick 的设计理念是将 AI 嵌入到日常工作流中，使得数据的获取和使用更加高效。",
-      "impact": "这一功能将极大地改变企业员工的工作方式，尤其是需要频繁处理数据和文档的团队。使用 Amazon Quick 的用户能够在撰写报告、提案和演示文稿时，快速获取所需信息，减少了信息收集的时间，提升了决策效率。此外，随着更多企业采用这一工具，可能会推动整个行业在数据处理和文档编辑上的智能化进程。",
-      "audience": [
-        "市场营销团队的文案策划",
-        "产品经理需要快速撰写需求文档",
-        "销售团队准备客户提案",
-        "数据分析师整合报告",
-        "项目经理管理多方沟通"
-      ],
-      "useCases": [
-        "在 Word 中撰写客户提案，快速引用历史数据和内部知识库。",
-        "在 Excel 中进行数据分析，实时访问 AWS 数据源，提升数据准确性。",
-        "在 PowerPoint 中制作演示文稿，整合结构化和非结构化数据，节省时间。",
-        "在 Outlook 中撰写邮件，直接嵌入相关文档和数据，提升沟通效率。",
-        "在团队协作中，利用 Amazon Quick 共享实时数据，增强团队协作能力。"
-      ],
-      "risks": [
-        "API 使用费用可能会增加，尤其是在高频率调用时，需关注成本控制。",
-        "对于非英语用户，可能存在语言支持不足的问题，影响使用体验。",
-        "集成过程中可能会遇到兼容性问题，尤其是在旧版 Microsoft 365 中。",
-        "数据隐私和安全性问题需谨慎处理，确保敏感信息不被泄露。",
-        "在使用过程中，可能会遇到技术支持不足的情况，影响用户体验。"
-      ],
-      "reason": "Amazon Quick 的集成使得企业用户能够在熟悉的 Microsoft 365 环境中高效利用 AI 助手，值得关注。",
-      "scores": {
-        "importance": 75,
-        "novelty": 70,
-        "firsthand": 85,
-        "impact": 80,
-        "credibility": 80
-      },
-      "url": "https://aws.amazon.com/blogs/machine-learning/amazon-quick-for-microsoft-365-agentic-ai-where-you-work/",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-08-13",
-      "publishedAt": "2026-08-13T23:48",
-      "collectedAt": "2026-08-14T02:37",
-      "dateStatus": "verified",
-      "tier": "T1",
-      "score": 77,
-      "aiSelected": true,
-      "_style": "reviewer",
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Keep, Customize, or Exit: Default Design and Token Pricing in LLM Reasoning Services",
-      "summary": "We study a large language model (LLM) service in which a provider chooses a per-token price and a default reasoning-token allocation, while a user may accept the default, customize",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-08-13",
-      "publishedAt": "",
-      "collectedAt": "2026-08-15T01:42",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-13",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.13315v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "StateBridge: Training-free Hidden-state Alignment for Latent Communication in LLM Multi-Agent Systems",
-      "summary": "Large language model based multi-agent systems usually communicate in text, i.e., using discrete tokens. However, text introduces a discrete bottleneck. Converting the sender's con",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-08-13",
-      "publishedAt": "",
-      "collectedAt": "2026-08-15T01:42",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-13",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.13317v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "CAPRI: Contract-Aware Proof Repair for Isabelle",
-      "summary": "We address the use of large language models (LLMs) to help discover Isabelle proofs. An Isabelle build establishes that the submitted theory is accepted, but not that an LLM change",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-08-13",
-      "publishedAt": "",
-      "collectedAt": "2026-08-15T00:26",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-13",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.13459v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
     }
   ],
   "weeklyDigests": [
@@ -9394,6 +9213,62 @@
     ],
     "ai-agents": [
       {
+        "name": "Agentao：工具使用 LLM 代理的受控本地优先运行时",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Agentao 的推出可能会吸引希望在本地环境中使用 LLM 代理的开发者和企业，尤其是在需要高安全性和可审计性的场景中。它的治理框架能够帮助用户更好地管理代理的行为，降低潜在风险。此外，随着代码的公开，开发者可以根据自身需求进行定制和扩展，推动创新和应用的多样性。然而，Agentao 仍需在实际应用中验证其有效性和安",
+        "description": "Agentao 是一种新型的本地优先运行时，旨在为工具使用的 LLM 代理提供治理框架。尽管其设计增强了代理的可控性和可审计性，但仍存在权限过度、审计能力不足等风险。",
+        "useCases": [
+          "开发本地 LLM 代理，利用 Agentao 的权限管理功能，确保安全性。",
+          "在企业环境中实施 Agentao，监控代理行为以满足合规要求。",
+          "利用 Agentao 的插件系统，扩展 LLM 代理的功能以适应特定业务需求。",
+          "进行 Agentao 框架的测试与分析，评估其在不同场景下的表现。",
+          "在教育领域使用 Agentao，帮助学生理解 LLM 代理的工作原理和安全性。"
+        ],
+        "watch": "Agentao 的治理框架虽然增强了安全性，但仍可能存在权限过度的问题，导致代理执行不当。",
+        "sourceName": "RSS · arXiv cs.AI",
+        "url": "https://arxiv.org/abs/2608.13574"
+      },
+      {
+        "name": "Adcore Inc (ADCOF) (Q2 2026) Earnings Call Highlights: AI Ag",
+        "provider": "Yahoo! Finance",
+        "type": "AI 项目/工具",
+        "bestFor": "This article first appeared on GuruFocus.\n\n* Revenue: $7.2 million in Q2 2026, a 10% increase year-over-year from $6.5 million.\n\n* Gross Profit: $3.7 million in",
+        "description": "This article first appeared on GuruFocus.\n\n* Revenue: $7.2 million in Q2 2026, a 10% increase year-over-year from $6.5 million.\n\n* Gross Profit: $3.7 million in Q2 2026, up 19% fro",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Yahoo! Finance",
+        "url": "https://ca.finance.yahoo.com/news/adcore-inc-adcof-q2-2026-010310461.html"
+      },
+      {
+        "name": "Cloudways Bets That Enterprises Will Pay to Rehabilitate the",
+        "provider": "Yahoo! Finance",
+        "type": "AI 项目/工具",
+        "bestFor": "When an AI agent deletes hundreds of emails from a senior executive's inbox, the fallout is immediate. In February 2026, that exact scenario involving Summer Yu",
+        "description": "When an AI agent deletes hundreds of emails from a senior executive's inbox, the fallout is immediate. In February 2026, that exact scenario involving Summer Yue, Director of Align",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Yahoo! Finance",
+        "url": "https://finance.yahoo.com/technology/ai/articles/cloudways-bets-enterprises-pay-rehabilitate-001904217.html"
+      },
+      {
+        "name": "使用 Google 的 Agent Development Kit 构建零信任 AI 智能体",
+        "provider": "Google Developers Blog（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "这一技术的推出将对开发者和企业产生深远影响。首先，开发者可以利用这一框架构建更安全的 AI 应用，降低因安全漏洞导致的风险。其次，企业在使用 AI 智能体处理客户请求时，可以更放心地进行操作，提升客户体验。此外，这一架构的开源特性也将促进社区的参与和创新，推动零信任安全理念的普及。",
+        "description": "Google 开源了基于 Agent Development Kit (ADK) 和 Gemini 的零信任客服与退货智能体示例，展示了如何通过三层安全机制防御提示注入等攻击。这些机制包括硬件支持的加密签名、gVisor 沙箱隔离动态代码执行以及确定性语义网关校验业务逻辑，确保系统的安全性和可靠性。",
+        "useCases": [
+          "使用 ADK 创建一个零信任的客服智能体，处理客户的退货请求并确保安全。",
+          "在动态环境中部署 AI 智能体，利用 gVisor 沙箱隔离执行代码，防止安全漏洞。",
+          "通过加密签名机制，确保每次数据库操作的不可抵赖性，提升数据安全性。",
+          "测试和验证 AI 智能体的安全性，防止提示注入攻击，确保系统稳定运行。",
+          "利用开源代码进行二次开发，定制符合企业需求的零信任 AI 解决方案。"
+        ],
+        "watch": "在使用 ADK 时，需注意 API 调用的配额限制，避免因超出配额导致服务中断。",
+        "sourceName": "Google Developers Blog（RSS）",
+        "url": "https://developers.googleblog.com/build-zero-trust-ai-agents-with-googles-agent-development-kit"
+      },
+      {
         "name": "Build OpenClaw agents that transact with Amazon Bedrock Agen",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -9913,71 +9788,41 @@
         "watch": "API 使用费用可能会随着数据量的增加而显著上升，需提前预算。",
         "sourceName": "RSS · Hugging Face Blog",
         "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop"
-      },
-      {
-        "name": "Amazon Quick 现已整合至 Microsoft 365 办公套件",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "这一功能将极大地改变企业员工的工作方式，尤其是需要频繁处理数据和文档的团队。使用 Amazon Quick 的用户能够在撰写报告、提案和演示文稿时，快速获取所需信息，减少了信息收集的时间，提升了决策效率。此外，随着更多企业采用这一工具，可能会推动整个行业在数据处理和文档编辑上的智能化进程。",
-        "description": "这次发布的核心点是 Amazon Quick 作为 AI 助手，现已直接集成到 Microsoft Word、Excel、PowerPoint 和 Outlook 中。这一功能使得用户可以在熟悉的环境中访问企业数据，进行文档编辑和数据分析，无需切换应用程序，极大提升了工作效率。",
-        "useCases": [
-          "在 Word 中撰写客户提案，快速引用历史数据和内部知识库。",
-          "在 Excel 中进行数据分析，实时访问 AWS 数据源，提升数据准确性。",
-          "在 PowerPoint 中制作演示文稿，整合结构化和非结构化数据，节省时间。",
-          "在 Outlook 中撰写邮件，直接嵌入相关文档和数据，提升沟通效率。",
-          "在团队协作中，利用 Amazon Quick 共享实时数据，增强团队协作能力。"
-        ],
-        "watch": "API 使用费用可能会增加，尤其是在高频率调用时，需关注成本控制。",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/amazon-quick-for-microsoft-365-agentic-ai-where-you-work/"
-      },
-      {
-        "name": "使用 AgentCore 监控本地及多云 AI 代理的可观察性",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "此功能的推出将使开发者能够更好地监控和优化其 AI 代理的性能，尤其是在多云环境中。然而，额外的配置要求可能会使一些小型企业或缺乏技术资源的团队望而却步。此外，随着监控能力的提升，企业在决策过程中将更依赖于数据驱动的洞察，可能导致对云服务提供商的依赖加深。",
-        "description": "Amazon Bedrock AgentCore 可观察性功能支持在 AWS 以外的环境中监控 AI 代理的性能，包括本地、GCP 和 Azure。通过 AWS Distro for OpenTelemetry (ADOT) 配置，可以将会话跟踪、跨度指标和令牌使用情况发送至 AgentCore 可观察性仪表板。然而，该功能对非 AWS 环境的支持需要额外配置，可能增加实施复杂性。",
-        "useCases": [
-          "配置 ADOT 以监控在 GCP 上运行的 AI 代理，确保性能可视化。",
-          "使用 IAM 凭证将遥测数据安全地发送至 AgentCore 可观察性仪表板。",
-          "在本地环境中部署 AI 代理时，利用 ADOT 进行自动化监控配置。",
-          "整合多个 AWS 服务，构建一个全面的 AI 代理监控解决方案。",
-          "分析 AgentCore 提供的监控数据，优化 AI 代理的运行效率。"
-        ],
-        "watch": "非 AWS 环境的配置复杂性可能导致实施延误，增加了技术支持的需求。",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/monitor-on-premises-and-multi-cloud-ai-agents-with-agentcore-observability/"
-      },
-      {
-        "name": "利用 Amazon Bedrock AgentCore 加速并购尽职调查",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "推荐使用 Amazon Bedrock AgentCore 的人群包括并购分析师、财务顾问和企业战略团队。通过使用该系统，企业能够在并购决策中更快地识别潜在机会，减少决策周期，提升整体效率。同时，合规团队也能更好地掌握 AI 生成的洞察，确保其符合相关法规。长远来看，这种自动化的尽职调查方式将改变行业标准，推动更多企业",
-        "description": "这次发布的核心点是 Amazon Bedrock AgentCore 提供了一种高效的多代理并购尽职调查系统，能够自动化数据收集和分析，显著缩短传统手动审查的时间。通过智能代理的协作，企业可以在合规框架内快速识别潜在的并购机会，提升决策效率。",
-        "useCases": [
-          "构建多代理系统，自动化数据收集和分析，提升尽职调查效率。",
-          "利用 AI 代理快速识别并购目标，减少手动审查时间。",
-          "通过智能路由将高优先级交易分配给合适的分析师，优化资源配置。",
-          "积累机构知识，避免在每个新交易中重复进行市场分析。",
-          "确保 AI 生成的洞察符合合规要求，增强法律团队的信心。"
-        ],
-        "watch": "API 使用成本可能较高，尤其是在数据量大时，需考虑预算。",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/accelerating-ma-due-diligence-with-amazon-bedrock-agentcore/"
-      },
-      {
-        "name": "Automate legacy web applications with Amazon Bedrock AgentCo",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Learn how to automate legacy web applications that need human-like interaction using Amazon Bedrock AgentCore Browser Tool and Strands Agents. This walkthrough ",
-        "description": "Learn how to automate legacy web applications that need human-like interaction using Amazon Bedrock AgentCore Browser Tool and Strands Agents. This walkthrough covers a reference a",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/automate-legacy-web-applications-with-amazon-bedrock-agentcore-browser-tool/"
       }
     ],
     "ai-models": [
+      {
+        "name": "支付宝推出首个全栈 AI 商务平台，助力商家转型",
+        "provider": "SecurityBrief Asia",
+        "type": "AI 项目/工具",
+        "bestFor": "该平台的推出将改变商家的运营模式，尤其是那些尚未采用 AI 服务的商家。通过提供便捷的工具，商家能够更快速地适应市场变化，提升用户体验。此外，消费者也将受益于更智能的服务，能够通过简单的对话完成复杂的任务。随着 AI 代理的普及，商业生态将变得更加高效和互联，推动整个行业的转型。",
+        "description": "支付宝近日推出了中国首个全栈 AI 商务平台，旨在帮助商家从数字化运营转向 AI 驱动的运营。该平台提供多种 AI 商务工具，支持商家独立或联合使用，助力其提升服务效率和用户体验。通过整合支付、身份验证和风险管理等功能，支付宝希望将 AI 代理融入日常商业活动中，推动商业生态的转型。",
+        "useCases": [
+          "将现有产品页面转化为 AI 代理技能，提升用户交互体验。",
+          "通过 Ah Bao 进行日常服务的预订，如宠物服务和电动车充电桩查找。",
+          "利用平台提供的工具，快速响应市场需求，优化运营流程。"
+        ],
+        "watch": "商家在使用平台时可能面临 API 费用和配额限制，需谨慎评估成本。",
+        "sourceName": "SecurityBrief Asia",
+        "url": "https://securitybrief.asia/story/alipay-launches-ai-commerce-platform-for-merchants"
+      },
+      {
+        "name": "特朗普媒体集团2026年第二季度财报分析",
+        "provider": "The Motley Fool",
+        "type": "AI 项目/工具",
+        "bestFor": "这份财报对投资者和行业分析师具有重要意义。首先，收入的增长表明公司在广告和订阅服务方面的市场需求强劲，可能会吸引更多投资者关注。其次，Truth API的推出为公司开辟了新的收入渠道，尤其是在金融科技领域，可能会改变市场竞争格局。最后，合并计划的推进将增强公司的市场地位，提升其在能源安全和AI基础设施方面的竞争力。",
+        "description": "我最近看到特朗普媒体与技术集团（DJT）发布了2026年第二季度的财报，显示出公司在数字资产和媒体生态系统方面的进展。尽管公司面临238.1百万美元的净亏损，但其收入同比增长89%，主要得益于广告和订阅服务的推动。此外，Truth API的推出为公司提供了新的收入来源，预计将吸引金融机构和媒体组织的关注。",
+        "useCases": [
+          "分析财报数据，评估公司财务健康状况。",
+          "利用Truth API获取实时社交媒体数据，优化交易策略。",
+          "关注合并进展，调整投资组合以应对市场变化。",
+          "研究数字资产波动对公司财务的影响，制定风险管理策略。",
+          "探索与特朗普媒体的合作机会，拓展业务范围。"
+        ],
+        "watch": "公司面临的法律费用可能在未来几个季度继续增加，影响财务表现。",
+        "sourceName": "The Motley Fool",
+        "url": "https://www.fool.com/earnings/call-transcripts/2026/08/17/trump-media-djt-q2-2026-earnings-call-transcript/"
+      },
       {
         "name": "全面禁用侵入式 AI 的实用指南",
         "provider": "Hacker News 热门（buzzing.cc 中文翻译）",
@@ -10521,36 +10366,6 @@
         "watch": "API定价的提高可能会导致预算超支，用户需仔细评估使用频率和成本。",
         "sourceName": "SAMAA TV",
         "url": "https://www.samaa.tv/2087355202-deepseek-launches-v4-pro-at-prices-up-to-14-times-higher-than-v4-flash"
-      },
-      {
-        "name": "苹果与阿里巴巴合作为中国市场训练自有 AI 模型",
-        "provider": "Tech News | Startups News",
-        "type": "AI 项目/工具",
-        "bestFor": "苹果的这一举措可能会影响其在中国市场的竞争力，尤其是在与华为等本土品牌的竞争中。通过拥有自有的AI模型，苹果能够更好地满足中国用户的需求，同时遵循当地的监管要求。此外，AI行业的价格战正在加剧，OpenAI和Anthropic的降价可能会迫使其他公司调整其定价策略。整体来看，AI的经济模式正在从单纯的技术竞争转向更复杂",
-        "description": "2026年8月14日，苹果公司在阿里巴巴的协助下，为中国市场训练了自有的人工智能模型。这一举措标志着苹果在全球最大且监管最严格市场的战略重大转变。此模型将使苹果在中国销售的设备上对AI的控制力增强，尤其是在OpenAI的ChatGPT等服务无法在中国大陆使用的背景下。与此同时，AI行业的经济格局也在发生变化，OpenAI和Anthropic正在降价，而DeepSeek则在提高价格。",
-        "useCases": [
-          "开发针对中国市场的AI应用，利用苹果自有模型提升用户体验。",
-          "分析AI市场的价格变化，制定相应的商业策略。",
-          "评估苹果与阿里巴巴合作的潜在影响，优化产品定位。"
-        ],
-        "watch": "苹果的AI模型可能面临中国市场特有的合规风险，影响其推广速度。",
-        "sourceName": "Tech News | Startups News",
-        "url": "https://techstartups.com/2026/08/14/top-tech-news-today-august-14-2026-apple-anthropic-deepseek-google-ibm-pony-ai-openai-spacex-uber-more/"
-      },
-      {
-        "name": "Cursor 完成并入 SpaceXAI，聚焦 Grok 产品线",
-        "provider": "X：SpaceXAI (@SpaceXAI)",
-        "type": "AI 项目/工具",
-        "bestFor": "此次收购将对软件工程师和知识工作者产生深远影响，预计将提升他们在项目开发中的效率。Grok 系列产品的改进将使得用户在使用 AI 工具时获得更好的体验，可能会改变他们的工作流程和决策方式。此外，SpaceXAI 的技术整合将推动行业内其他公司对 AI 工具的投资和开发，进一步加速 AI 技术的普及和应用。",
-        "description": "Cursor 团队已正式并入 SpaceXAI，双方将共同致力于将 Grok 打造成全球最实用的 AI 工具。此次合作将专注于软件工程领域，并计划扩展至知识工作，预计将对 Grok Build、Grok Bot、Grok API 及 Cursor 产品进行全面改进。",
-        "useCases": [
-          "提升 Grok Build 的代码生成效率，减少开发时间。",
-          "通过 Grok Bot 实现自动化客户支持，提升用户满意度。",
-          "利用 Grok API 集成 AI 功能，增强现有软件产品的竞争力。"
-        ],
-        "watch": "收购后整合可能面临技术兼容性问题，影响产品稳定性。",
-        "sourceName": "X：SpaceXAI (@SpaceXAI)",
-        "url": "https://x.com/SpaceXAI/status/2088250109188608289"
       }
     ],
     "ai-business": [
@@ -14353,8 +14168,8 @@
   ],
   "dailyReport": {
     "date": "2026-08-18",
-    "generatedAt": "2026-08-17T23:18:59.142550Z",
-    "total": 22,
+    "generatedAt": "2026-08-18T01:52:07.236142Z",
+    "total": 27,
     "sections": [
       {
         "category": "ai-tools",
@@ -14428,6 +14243,17 @@
         "label": "Agent / MCP",
         "items": [
           {
+            "title": "Agentao：工具使用 LLM 代理的受控本地优先运行时",
+            "summary": "Agentao 是一种新型的本地优先运行时，旨在为工具使用的 LLM 代理提供治理框架。尽管其设计增强了代理的可控性和可审计性，但仍存在权限过度、审计能力不足等风险。",
+            "source": "RSS · arXiv cs.AI",
+            "url": "https://arxiv.org/abs/2608.13574",
+            "score": 78,
+            "sourceCount": 1,
+            "date": "2026-08-18",
+            "publishedAt": "",
+            "reason": "Agentao 提供了一种新颖的治理框架，适合希望在本地环境中使用 LLM 代理的开发者，具有重要的研究和应用价值。"
+          },
+          {
             "title": "NVIDIA Nemotron 3.5 Lightning 在 Amazon SageMaker JumpStart 上线",
             "summary": "NVIDIA Nemotron 3.5 Lightning 是一款专为高负载代理工作设计的开放模型，现已在 Amazon SageMaker JumpStart 上线。该模型支持高达 4 倍的吞吐量和 30% 的任务完成速度提升，适合需要持续运行的代理应用。尽管如此，仍需注意其在",
             "source": "RSS · AWS Machine Learning",
@@ -14459,6 +14285,17 @@
             "date": "2026-08-18",
             "publishedAt": "2026-08-18T00:19",
             "reason": ""
+          },
+          {
+            "title": "使用 Google 的 Agent Development Kit 构建零信任 AI 智能体",
+            "summary": "Google 开源了基于 Agent Development Kit (ADK) 和 Gemini 的零信任客服与退货智能体示例，展示了如何通过三层安全机制防御提示注入等攻击。这些机制包括硬件支持的加密签名、gVisor 沙箱隔离动态代码执行以及确定性语义网关校验业务逻辑，确保系",
+            "source": "Google Developers Blog（RSS）",
+            "url": "https://developers.googleblog.com/build-zero-trust-ai-agents-with-googles-agent-development-kit",
+            "score": 66,
+            "sourceCount": 1,
+            "date": "2026-08-18",
+            "publishedAt": "2026-08-18T07:22",
+            "reason": "这一框架为构建安全的 AI 应用提供了新的思路，尤其是在处理敏感数据时，值得开发者深入了解。"
           }
         ]
       },
@@ -14502,9 +14339,48 @@
         ]
       },
       {
+        "category": "ai-benchmark",
+        "label": "评测榜单",
+        "items": [
+          {
+            "title": "LLM 服务一年的工作负载演变与优化",
+            "summary": "大型语言模型（LLM）服务已成为关键的云工作负载，然而现有的研究在规模和范围上仍显不足。本研究通过对一年的生产数据进行纵向分析，揭示了用户与模型交互的演变过程，并提供了全面的工作负载特征。这将为未来的研究提供重要的数据支持。",
+            "source": "RSS · arXiv cs.AI",
+            "url": "https://arxiv.org/abs/2608.13573",
+            "score": 86,
+            "sourceCount": 1,
+            "date": "2026-08-18",
+            "publishedAt": "",
+            "reason": "本研究提供了对 LLM 服务工作负载的深入分析，填补了现有研究的空白，具有重要的实用价值和研究意义。"
+          }
+        ]
+      },
+      {
         "category": "ai-research",
         "label": "论文研究",
         "items": [
+          {
+            "title": "大型语言模型中的模块化认知架构",
+            "summary": "这次发布的核心点是，研究表明大型语言模型（LLM）在处理不同认知任务时，展现出与人类大脑相似的模块化架构。这一发现可能揭示了智能系统构建的基本原则。",
+            "source": "RSS · arXiv cs.AI",
+            "url": "https://arxiv.org/abs/2608.13567",
+            "score": 82,
+            "sourceCount": 2,
+            "date": "2026-08-18",
+            "publishedAt": "",
+            "reason": "这项研究揭示了大型语言模型与人类大脑之间的相似性，为智能系统的设计提供了新的思路，值得关注。"
+          },
+          {
+            "title": "AI 评估应与人类协作",
+            "summary": "我注意到，当前 AI 评估的主流模式过于关注超人类的自主表现，实际上这可能会引导 AI 发展走向错误的方向。相反，AI 社区应该转向评估人类与 AI 团队的表现，这种合作模式将更好地促进 AI 系统与人类能力的互补，从而带来更积极的社会结果。",
+            "source": "RSS · arXiv cs.AI",
+            "url": "https://arxiv.org/abs/2608.13577",
+            "score": 82,
+            "sourceCount": 1,
+            "date": "2026-08-18",
+            "publishedAt": "",
+            "reason": "这篇论文提出了一个重要的视角转变，强调人机协作的重要性，值得关注和深入探讨。"
+          },
           {
             "title": "智能制造中的深度视觉：MODERN框架用于智能质量监控与诊断",
             "summary": "我最近看到一篇关于智能制造的新研究，介绍了MODERN框架，这是一种深度学习方法，专注于质量监控和故障隔离。该框架利用大量传感器和成像设备，提升了工业质量控制的智能化水平。研究表明，尽管技术不断升级，制造商在监控设备上的投资并不总是明智的。",
