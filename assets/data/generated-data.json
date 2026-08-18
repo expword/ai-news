@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-08-18",
-  "generatedAt": "2026-08-18T04:27:03.822895Z",
+  "generatedAt": "2026-08-18T07:09:46.524935Z",
   "news": [
     {
       "title": "LLM 服务一年的工作负载演变与优化",
@@ -383,6 +383,33 @@
       "score": 78,
       "aiSelected": true,
       "_style": "critic",
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "DeepSeek V4 Pro 0813 vs GPT-5.6 Sol on DeepSWE: Cost, Coding, and Routing",
+      "summary": "We ran 904 DeepSWE rollouts on DeepSeek V4 Pro 0813 and GPT-5.6 Sol. Sol leads pass@1 by 10 points at 35x the cost; Pro wins pass@4, and a Pro-first cascade hits 83.0%.",
+      "category": "ai-coding",
+      "source": "RSS · Together AI",
+      "date": "2026-08-18",
+      "publishedAt": "2026-08-18T08:00",
+      "collectedAt": "2026-08-18T15:09",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://www.together.ai/blog/deepseek-v4-pro-0813-vs-gpt-5-6-sol-on-deepswe-cost-coding-and-routing",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
       "moduleTargets": [
         "news"
       ],
@@ -913,6 +940,66 @@
       "sourceCount": 1
     },
     {
+      "title": "Together AI 平台推出 A/B 测试模型",
+      "summary": "Together AI 平台推出了针对生产环境的 A/B 测试功能，允许用户将实时流量分配到一个控制组和多个变体中，以评估模型在真实用户中的表现。该平台简化了实验过程，避免了传统方法中与基础设施的复杂纠缠。",
+      "category": "ai-tools",
+      "tags": [
+        "A/B 测试",
+        "模型评估",
+        "实时流量",
+        "Together AI",
+        "生产环境"
+      ],
+      "keyPoints": [
+        "Together AI 平台支持 A/B 测试，允许将流量分配到一个控制组和多个变体中，便于实时评估模型表现。",
+        "实验可以通过一次调用实现蓝绿部署，简化了推广获胜模型的过程。",
+        "删除实验后，流量自动恢复到控制组，无需修改客户端或路由逻辑，降低了操作复杂性。",
+        "Shadow traffic 只能验证候选模型的操作稳定性，无法提供用户偏好的反馈。",
+        "传统 A/B 测试方法容易与基础设施纠缠，导致后续维护困难。"
+      ],
+      "background": "A/B 测试在机器学习模型的开发中扮演着重要角色，尤其是在评估新模型是否优于现有模型时。传统上，团队会在应用层面构建 A/B 测试，使用特征标志或用户 ID 哈希等方法进行流量分配。然而，这种方法往往会与基础设施紧密结合，导致后续的维护和更新变得复杂。Together AI 平台的推出，旨在解决这一问题，通过在端点级别实现 A/B 测试，简化了实验的实施过程。",
+      "impact": "这一新功能将使开发者能够更高效地进行模型评估，尤其是在需要快速迭代和优化的场景中。通过减少与基础设施的纠缠，团队可以更专注于模型的性能和用户反馈。此外，A/B 测试的简化实施将鼓励更多团队在产品开发中采用数据驱动的决策方式，从而提升整体产品质量和用户满意度。",
+      "audience": [
+        "机器学习工程师",
+        "产品经理",
+        "数据科学家",
+        "软件开发者",
+        "用户体验设计师"
+      ],
+      "useCases": [
+        "评估新模型在用户留存率上的表现，帮助团队做出更明智的产品决策。",
+        "通过 A/B 测试优化用户界面设计，提升用户交互体验。",
+        "在不同用户群体中测试模型表现，获取更全面的反馈数据。"
+      ],
+      "risks": [
+        "API 价格可能会影响大规模使用 A/B 测试的成本效益。",
+        "在流量分配过程中，可能会出现用户体验不一致的情况。",
+        "需要确保模型在不同变体中的表现不会导致用户流失。"
+      ],
+      "reason": "Together AI 平台的 A/B 测试功能为模型评估提供了更高效的解决方案，值得关注。",
+      "scores": {
+        "importance": 75,
+        "novelty": 80,
+        "firsthand": 90,
+        "impact": 85,
+        "credibility": 80
+      },
+      "url": "https://www.together.ai/blog/a-b-test-models-in-production",
+      "source": "RSS · Together AI",
+      "date": "2026-08-17",
+      "publishedAt": "2026-08-17T08:00",
+      "collectedAt": "2026-08-18T13:46",
+      "dateStatus": "verified",
+      "tier": "T1",
+      "score": 81,
+      "aiSelected": true,
+      "_style": "observer",
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
       "title": "OpenAI 投资 14 个独立项目探索新 AI 政策",
       "summary": "OpenAI 最近资助了 14 个独立项目，旨在探索新的人工智能政策理念，以扩大经济机会并增强社会韧性。这些项目涵盖了多种领域，涉及技术、经济和社会等多个方面，体现了对未来智能时代的深刻思考。",
       "category": "ai-business",
@@ -1364,6 +1451,66 @@
       "sourceCount": 1
     },
     {
+      "title": "DeepSeek V4 Pro 0813 与 Claude Fable 5 性能对比",
+      "summary": "我注意到最近在 DeepSWE 上对 DeepSeek V4 Pro 0813 和 Claude Fable 5 进行了904次测试。结果显示，Fable 在成本上以90倍的代价领先 pass@1，而 Pro 在 pass@4 中获胜，Pro 优先级级联达到了82.7%。",
+      "category": "ai-benchmark",
+      "tags": [
+        "DeepSeek",
+        "Claude Fable",
+        "性能对比",
+        "AI工具",
+        "DeepSWE"
+      ],
+      "keyPoints": [
+        "DeepSeek V4 Pro 0813 和 Claude Fable 5 在 DeepSWE 上进行了904次测试，结果显示两者在不同指标上表现各异。",
+        "Fable 在 pass@1 指标上表现优异，但成本是 DeepSeek 的90倍，适合预算充足的项目。",
+        "DeepSeek V4 Pro 0813 在 pass@4 指标上胜出，显示出其在多轮测试中的稳定性和可靠性。",
+        "Pro 优先级级联测试达到了82.7%，表明其在复杂任务中的有效性。",
+        "两者的性能差异为开发者在选择模型时提供了重要参考。"
+      ],
+      "background": "在 AI 领域，模型的性能和成本一直是开发者关注的焦点。DeepSeek V4 Pro 0813 和 Claude Fable 5 是当前市场上较为先进的两款模型。通过在 DeepSWE 平台上进行的904次测试，我们能够更清晰地了解它们在实际应用中的表现。Fable 的高成本虽然带来了更好的单次测试结果，但在多轮测试中，DeepSeek 的表现却更为稳定，这为开发者提供了不同的选择依据。",
+      "impact": "这项对比测试的结果将影响开发者在选择 AI 模型时的决策，尤其是在预算有限的情况下。对于需要高效能的项目，Fable 可能是一个不错的选择，但其高昂的成本也可能限制其应用范围。而 DeepSeek V4 Pro 0813 的性价比优势则可能吸引更多中小型企业的关注，推动其在更广泛的场景中应用。",
+      "audience": [
+        "AI 模型开发者",
+        "数据科学家",
+        "预算有限的初创企业",
+        "需要高效能的项目经理",
+        "多轮测试的研究人员"
+      ],
+      "useCases": [
+        "评估不同模型在特定任务中的表现，选择最合适的工具。",
+        "在预算有限的情况下，利用 DeepSeek V4 Pro 0813 进行多轮测试以获得稳定结果。",
+        "对比不同 AI 模型的成本效益，帮助团队做出明智的决策。"
+      ],
+      "risks": [
+        "使用 Fable 时需注意其高昂的成本，可能不适合预算紧张的项目。",
+        "DeepSeek V4 Pro 0813 的性能在某些单次测试中可能不如 Fable，需根据具体需求选择。",
+        "在多轮测试中，模型的稳定性可能受到数据质量的影响，需谨慎评估。"
+      ],
+      "reason": "这条信息提供了关于两款先进 AI 模型的深入对比，帮助开发者在选择时做出更明智的决策。",
+      "scores": {
+        "importance": 75,
+        "novelty": 60,
+        "firsthand": 50,
+        "impact": 70,
+        "credibility": 80
+      },
+      "url": "https://www.together.ai/blog/deepseek-v4-pro-0813-vs-claude-fable-5-on-deepswe-cost-coding-and-routing",
+      "source": "RSS · Together AI",
+      "date": "2026-08-17",
+      "publishedAt": "2026-08-17T08:00",
+      "collectedAt": "2026-08-18T15:09",
+      "dateStatus": "verified",
+      "tier": "T1",
+      "score": 68,
+      "aiSelected": true,
+      "_style": "recommender",
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
       "title": "NVIDIA 与 SB Energy 合作确保俄亥俄州 PORTS-Pike 园区电力容量",
       "summary": "NVIDIA 宣布与 SB Energy 合作，确保俄亥俄州 PORTS-Pike 科技园区的电力容量，以独家部署 NVIDIA 算力，OpenAI 将成为该园区的租户。此举将为未来的 AI 工厂提供关键基础设施，助力 AI 经济的发展。",
       "category": "ai-models",
@@ -1422,6 +1569,70 @@
       "score": 67,
       "aiSelected": true,
       "_style": "tutorial",
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "蚂蚁集团开源 ConceptEdit：新一代图像编辑数据生成管线",
+      "summary": "蚂蚁集团的 inclusionAI 团队推出了开源项目 ConceptEdit，旨在通过概念缩放与密集监督技术构建高效的图像编辑数据生成管线。该管线采用三阶段流程，包括 VLM 生成指令、FLUX 执行编辑和 VQA 评估筛选，能够生成大规模的图像编辑数据集，支持单概念与多概念两种变体。项目基于 MIT 许可证，具备断点续跑功能，并要求 OpenAI 兼容的 VLM 端点与本地 FLUX 检查点。",
+      "category": "ai-image-video",
+      "tags": [
+        "图像编辑",
+        "开源项目",
+        "数据生成",
+        "蚂蚁集团",
+        "AI技术"
+      ],
+      "keyPoints": [
+        "ConceptEdit 采用三阶段流程，分别为 VLM 生成指令、FLUX 执行编辑和 VQA 评估筛选，确保数据生成的高效性与准确性。",
+        "该项目支持单概念与多概念两种数据生成变体，满足不同用户需求。",
+        "ConceptEdit 基于 MIT 许可证开源，促进了社区的协作与创新。",
+        "项目具备断点续跑功能，提升了数据生成的灵活性与效率。",
+        "需要 OpenAI 兼容的 VLM 端点与本地 FLUX 检查点，确保技术的兼容性与可用性。"
+      ],
+      "background": "随着人工智能技术的快速发展，图像编辑领域对高质量数据集的需求日益增加。传统的数据生成方法往往效率低下，难以满足大规模应用的需求。蚂蚁集团的 ConceptEdit 项目正是针对这一痛点而设计，通过引入概念缩放与密集监督的技术，提供了一种新的解决方案。与以往的图像编辑工具相比，ConceptEdit 在数据生成的准确性和效率上有显著提升，能够更好地服务于开发者和研究者。",
+      "impact": "ConceptEdit 的推出将为图像编辑领域带来深远影响，尤其是对开发者和研究人员而言。通过提供高质量的数据集，用户可以更快速地进行模型训练和算法优化，从而加速产品迭代。此外，开源的特性将促进社区的合作与创新，推动整个行业的进步。随着更多用户的加入，ConceptEdit 有望成为图像编辑领域的标准工具，改变现有的工作流程。",
+      "audience": [
+        "图像处理工程师",
+        "机器学习研究人员",
+        "数据科学家",
+        "软件开发者",
+        "AI 产品经理"
+      ],
+      "useCases": [
+        "生成高质量的图像编辑数据集，供机器学习模型训练使用。",
+        "利用 FLUX 执行复杂的图像编辑任务，提高工作效率。",
+        "通过 VQA 评估筛选，确保生成数据的准确性与可靠性。",
+        "支持多概念数据生成，满足不同应用场景的需求。",
+        "为开源社区提供可扩展的图像编辑工具，促进技术共享。"
+      ],
+      "risks": [
+        "项目依赖 OpenAI 兼容的 VLM 端点，可能面临技术兼容性问题。",
+        "使用 MIT 许可证可能导致商业授权的复杂性，需谨慎处理。",
+        "在高并发情况下，FLUX 执行编辑的性能可能受到影响，需做好性能优化。",
+        "数据生成过程中可能出现的偏差，需通过 VQA 评估进行严格把控。",
+        "对硬件要求较高，可能限制部分用户的使用。"
+      ],
+      "reason": "ConceptEdit 作为蚂蚁集团的开源项目，提供了一种高效的图像编辑数据生成解决方案，值得关注其在行业中的应用潜力。",
+      "scores": {
+        "importance": 85,
+        "novelty": 80,
+        "firsthand": 90,
+        "impact": 75,
+        "credibility": 85
+      },
+      "url": "https://github.com/inclusionAI/ConceptEdit",
+      "source": "蚂蚁 inclusionAI：GitHub 新仓库",
+      "date": "2026-08-17",
+      "publishedAt": "2026-08-17T15:22",
+      "collectedAt": "2026-08-18T15:09",
+      "dateStatus": "verified",
+      "tier": "T1.5",
+      "score": 66,
+      "aiSelected": true,
+      "_style": "analyst",
       "moduleTargets": [
         "news"
       ],
@@ -5144,71 +5355,6 @@
       "score": 82,
       "aiSelected": true,
       "_style": "reviewer",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceDate": "2026-08-13",
-      "sourceCount": 1
-    },
-    {
-      "title": "ReCBM：不确定性引导的关系推理框架",
-      "summary": "我注意到最近有一篇关于概念瓶颈模型（CBMs）的新研究，提出了一种名为 ReCBM 的框架，旨在通过引入不确定性引导的关系推理来提升模型的鲁棒性。这项研究强调了在不可靠概念状态下进行有效推理的重要性，避免了误导性语义证据的传播。",
-      "category": "ai-research",
-      "tags": [
-        "概念瓶颈模型",
-        "不确定性推理",
-        "关系推理",
-        "人工智能",
-        "机器学习"
-      ],
-      "keyPoints": [
-        "ReCBM 通过引入语义定义的概念关系，增强了概念瓶颈模型的推理能力。",
-        "该框架利用不确定性来指导概念的精炼，确保推理过程的有效性。",
-        "实验表明，ReCBM 在缺失和翻转概念的情况下，显著提高了任务恢复能力。",
-        "该模型支持不确定性感知的干预，能够提取紧凑的任务相关概念子集。",
-        "ReCBM 的设计旨在解决传统 CBMs 在不可靠概念状态下的推理不足问题。"
-      ],
-      "background": "概念瓶颈模型（CBMs）为可解释的人工智能提供了一种框架，通过将预测与人类可理解的概念相结合，允许进行语义检查和测试时干预。尽管最近的变体通过丰富的概念表示、不确定性估计和依赖建模提升了 CBMs 的性能，但在不可靠概念状态下的稳健推理仍然是一个未被充分探索的领域。ReCBM 的提出正是为了填补这一空白，确保在推理过程中不被误导性证据影响。",
-      "impact": "ReCBM 的推出将对多个领域的研究者和开发者产生深远影响。首先，做 RAG 的工程师可以利用这一框架提升模型的鲁棒性，减少误导性推理的风险。其次，机器学习研究人员可以在不确定性推理的基础上，开发出更为精确的模型，从而改善决策过程。此外，这一框架的应用可能会推动相关领域的技术进步，形成良性循环。",
-      "audience": [
-        "机器学习研究人员",
-        "数据科学家",
-        "AI 模型开发者",
-        "算法工程师",
-        "RAG 工程师"
-      ],
-      "useCases": [
-        "利用 ReCBM 进行模型训练，提升在不确定性条件下的预测准确性。",
-        "在数据缺失的情况下，使用 ReCBM 进行有效的任务恢复。",
-        "通过不确定性感知的干预，优化模型的推理过程。",
-        "在概念翻转的场景中，应用 ReCBM 进行稳健的推理。",
-        "提取任务相关的概念子集，以提高模型的效率和性能。"
-      ],
-      "risks": [
-        "ReCBM 的实现可能需要较高的计算资源，导致成本上升。",
-        "不确定性估计的准确性直接影响模型的性能，可能存在误差。",
-        "在特定数据集上，ReCBM 的表现可能不如预期，需要进一步验证。",
-        "模型的复杂性可能导致开发和维护的难度增加。",
-        "对不确定性处理的不当可能引发推理结果的偏差。"
-      ],
-      "reason": "ReCBM 提供了一种创新的框架，通过不确定性引导的关系推理，显著提升了概念瓶颈模型的鲁棒性，值得关注。",
-      "scores": {
-        "importance": 85,
-        "novelty": 80,
-        "firsthand": 90,
-        "impact": 75,
-        "credibility": 85
-      },
-      "url": "https://arxiv.org/abs/2608.10004",
-      "source": "RSS · arXiv cs.AI",
-      "date": "2026-08-13",
-      "publishedAt": "",
-      "collectedAt": "2026-08-13T12:11",
-      "dateStatus": "collected",
-      "tier": "T1",
-      "score": 82,
-      "aiSelected": true,
-      "_style": "recommender",
       "moduleTargets": [
         "news"
       ],
@@ -8958,6 +9104,49 @@
     ],
     "ai-agents": [
       {
+        "name": "TDD-Agent：基于测试驱动开发的代码生成新方法",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "TDD-Agent的推出将对软件开发行业产生深远影响。首先，开发者将能够在代码生成的过程中实时获得反馈，从而减少错误和提高代码质量。其次，团队的工作流程可能会发生变化，开发者在编写代码时将更加注重测试的设计和执行。此外，TDD-Agent的应用可能会促进更广泛的自动化测试实践，推动整个行业向更高效的开发模式转型。最终，",
+        "description": "大型语言模型（LLMs）在代码生成方面取得了显著进展，但在复杂的代码库级任务中确保正确性仍然具有挑战性。传统方法通常将生成的测试作为静态的事后验证工具，这限制了其对实现过程的指导能力，并可能在测试本身不完整或不正确时引入误导性反馈。TDD-Agent通过将测试驱动开发（TDD）范式应用于代码生成，旨在提升代码生成的准确性和可靠性。",
+        "useCases": [
+          "实时生成代码并自动创建相应的测试用例，确保代码质量。",
+          "在多模块项目中使用TDD-Agent，提升各模块间的协同开发效率。",
+          "通过TDD-Agent进行代码审查，快速识别潜在的错误和不一致。"
+        ],
+        "watch": "TDD-Agent的有效性依赖于生成测试的质量，若测试不完整，可能导致错误反馈。",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2608.16742v1"
+      },
+      {
+        "name": "BNB Agent Studio 推出 AI 股票分析师，100,000 USDC 奖池待争夺",
+        "provider": "blockchain.news",
+        "type": "AI 项目/工具",
+        "bestFor": "这一创新工具将吸引希望在 24/7 市场中获利的交易者，尤其是那些对 AI 和区块链技术感兴趣的投资者。通过提供个性化的投资建议，AI 股票分析师可能会改变用户的决策方式，推动更多人参与到 bStocks 的交易中。此外，竞赛的激励机制可能会促进用户对 BNB 代币的需求，进一步推动其在市场中的流通。",
+        "description": "BNB Chain 的 BNB Agent Studio 新推出 AI 股票分析师，专为 bStocks（代币化美国股票）设计，支持全天候交易。为庆祝这一功能的上线，平台举办了一场交易竞赛，奖池高达 100,000 USDC，活动时间为 2026 年 8 月 17 日至 9 月 1 日。AI 股票分析师提供买入、持有或卖出建议，以及技术和基本面分析，旨在满足不断变化的市场需求。",
+        "useCases": [
+          "创建 AI 股票分析师，利用 BNB Agent Studio 进行市场分析。",
+          "参与交易竞赛，测试 AI 分析师在实际交易中的表现。",
+          "根据 AI 提供的建议调整投资组合，优化交易策略。",
+          "使用开源参考实现，定制 AI 代理的逻辑和数据源。",
+          "结合现有投资组合数据，获取个性化的投资建议。"
+        ],
+        "watch": "AI 分析师的建议并不保证盈利，用户仍需承担投资风险。",
+        "sourceName": "blockchain.news",
+        "url": "https://blockchain.news/news/bnb-agent-studio-ai-stock-analyst-competition"
+      },
+      {
+        "name": "Agentic AI: Transforming Supply Chains Amid Geopolitical Dis",
+        "provider": "The Pioneer",
+        "type": "AI 项目/工具",
+        "bestFor": "As geopolitical disruptions multiply, agentic AI could help supply chains anticipate disruptions and act faster\n\nThe disruption in the Strait of Hormuz is a sta",
+        "description": "As geopolitical disruptions multiply, agentic AI could help supply chains anticipate disruptions and act faster\n\nThe disruption in the Strait of Hormuz is a stark reminder of how q",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Pioneer",
+        "url": "https://dailypioneer.com/news/from-prediction-to-action-ai-rewrites-supply-chains"
+      },
+      {
         "name": "OpenAI 在 2025 年推出 Instant Checkout 功能后缩减电商计划",
         "provider": "Economic Times",
         "type": "AI 项目/工具",
@@ -9494,48 +9683,20 @@
         "watch": "API 使用可能会产生费用，需提前了解相关定价和预算。",
         "sourceName": "Fast Company",
         "url": "https://www.fastcompany.com/91586979/if-you-run-solo-business-heres-how-ai-agents-can-help-you"
-      },
-      {
-        "name": "AI Data Analytics Agents",
-        "provider": "Trend Hunter",
-        "type": "AI 项目/工具",
-        "bestFor": "Bilbo Helps Teams Explore Metabase Data Using Natural Language\n\nWorking with business data can often require technical knowledge of databases, queries, and anal",
-        "description": "Bilbo Helps Teams Explore Metabase Data Using Natural Language\n\nWorking with business data can often require technical knowledge of databases, queries, and analytics tools. Bilbo i",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Trend Hunter",
-        "url": "https://www.trendhunter.com/trends/bilbo"
-      },
-      {
-        "name": "企业面临的隐形 AI 代理风险",
-        "provider": "Dark Reading",
-        "type": "AI 项目/工具",
-        "bestFor": "企业的 IT 安全团队需要重新评估 AI 代理的使用情况，以确保其安全性。Juncker 的建议可能促使企业在流程设计上进行调整，从而减少员工使用影子 AI 的需求。这不仅影响了企业的安全策略，还可能改变决策流程，促使企业在技术采用上更加谨慎。同时，随着对 AI 代理的关注增加，相关的安全工具和服务也可能迎来新的市场机",
-        "description": "我注意到，尽管 80% 的财富 500 强公司正在使用活跃的 AI 代理，但只有 14% 的公司获得了全面的安全批准。Mimecast 的 Rob Juncker 指出，缺乏对 AI 代理的了解意味着我们在安全方面只是抱有希望，而非实际保障。AI 代理的决策速度和执行能力使得它们的安全管理变得复杂，尤其是在员工未经授权使用代理的情况下。Juncker 建议，企业应优先提高可见性，以便有效管理这些代理的风险。",
-        "useCases": [
-          "评估现有 AI 代理的安全性，确保符合企业安全标准。",
-          "设计流程以简化员工使用授权工具的体验，减少影子 AI 的使用。",
-          "定期审查 AI 代理的访问权限，确保其与人类身份的关联性。",
-          "开展员工培训，提高对 AI 代理使用风险的认识。",
-          "利用数据分析工具监控 AI 代理的行为，及时发现异常活动。"
-        ],
-        "watch": "未经授权的 AI 代理可能导致数据泄露，增加企业面临的法律风险。",
-        "sourceName": "Dark Reading",
-        "url": "https://www.darkreading.com/cyber-risk/ai-agent-security-gaps-rob-juncker-discusses-visibility-risks-and-solutions"
-      },
-      {
-        "name": "Are Contracts Made By AI Agents Legally Enforceable?",
-        "provider": "Mondaq Business Briefing",
-        "type": "AI 项目/工具",
-        "bestFor": "within Technology, Intellectual Property, Media, Telecoms, IT and Entertainment topic(s)\n\nAgentic wallets empower AI to execute payments, contracts, and busines",
-        "description": "within Technology, Intellectual Property, Media, Telecoms, IT and Entertainment topic(s)\n\nAgentic wallets empower AI to execute payments, contracts, and business decisions autonomo",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Mondaq Business Briefing",
-        "url": "https://www.mondaq.com/unitedstates/new-technology/1830616/are-contracts-made-by-ai-agents-legally-enforceable"
       }
     ],
     "ai-models": [
+      {
+        "name": "Apple iOS 27 beta 6 update is here: What is new, how to down",
+        "provider": "Digit",
+        "type": "AI 项目/工具",
+        "bestFor": "After rolling out iOS 27 beta 5 for developers last week, Apple has now released the fifth beta of the software. While the latest update is designed for develop",
+        "description": "After rolling out iOS 27 beta 5 for developers last week, Apple has now released the fifth beta of the software. While the latest update is designed for developers, anyone who is e",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Digit",
+        "url": "https://www.digit.in/news/mobile-phones/apple-ios-27-beta-6-update-is-here-what-is-new-how-to-download-and-supported-devices.html"
+      },
       {
         "name": "iPhone 18 发布热度激增，用户期待不断攀升",
         "provider": "The Financial Express",
@@ -10098,17 +10259,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Collider",
         "url": "https://collider.com/best-soft-sci-fi-movies-since-2000-ranked/"
-      },
-      {
-        "name": "Gemini 3.7 Flash 全面上线 Pro 与 Ultra 用户",
-        "provider": "X：Gemini (@GeminiApp)",
-        "type": "AI 项目/工具",
-        "bestFor": "Gemini 3.7 Flash 现已向 Gemini 聊天中的 Pro 和 Ultra 用户开放。该模型更新提升了多步骤任务的推理与准确性，如智能整合数十个文件和邮件为一份主文档。同时，Gemini Spark 也已运行于 3.7 Flash，通过改进对 Google Workspace 应用的工具调用，让个人 AI",
-        "description": "Gemini 3.7 Flash 现已向 Gemini 聊天中的 Pro 和 Ultra 用户开放。该模型更新提升了多步骤任务的推理与准确性，如智能整合数十个文件和邮件为一份主文档。同时，Gemini Spark 也已运行于 3.7 Flash，通过改进对 Google Workspace 应用的工具调用，让个人 AI 智能体更精准。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "X：Gemini (@GeminiApp)",
-        "url": "https://x.com/GeminiApp/status/2088326407730692538"
       }
     ],
     "ai-business": [
@@ -11314,6 +11464,21 @@
     ],
     "ai-image-video": [
       {
+        "name": "苹果或将在新款 AirPods 中加入摄像头功能",
+        "provider": "Digit",
+        "type": "AI 项目/工具",
+        "bestFor": "如果苹果成功推出摄像头 AirPods，将会对用户的日常生活产生深远影响。用户可以通过语音指令获取周围环境的信息，提升生活便利性。此外，这一功能可能会吸引更多开发者为该设备开发应用，进一步丰富生态系统。与此同时，苹果在硬件发布活动中的表现将直接影响其市场竞争力，尤其是在与其他科技巨头的竞争中。",
+        "description": "苹果公司正在为即将到来的硬件发布活动做准备，预计将推出 iPhone 18 Pro 和可折叠 iPhone，同时有消息称新款 AirPods 可能配备摄像头。最新泄露信息显示，macOS Tahoe 26.7 版本中包含了有关摄像头 AirPods 的演示视频，展示了其如何与 Visual Intelligence 互动。",
+        "useCases": [
+          "通过 AirPods 摄像头获取周围环境信息，提升生活便利性。",
+          "利用 Visual Intelligence 功能，快速识别和保存感兴趣的物品。",
+          "在社交场合中，使用 AirPods 进行实时信息获取，增强互动体验。"
+        ],
+        "watch": "摄像头功能可能面临隐私问题，用户需谨慎使用以避免泄露个人信息。",
+        "sourceName": "Digit",
+        "url": "https://www.digit.in/news/audio-video/is-apple-really-working-on-airpods-with-cameras-here-is-what-latest-leaks-suggest.html"
+      },
+      {
         "name": "Beijing bar serves customers drinks and access to AI models ",
         "provider": "South China Morning Post",
         "type": "AI 项目/工具",
@@ -11918,21 +12083,6 @@
         "watch": "API 价格可能影响小型开发者的使用，限制工具的普及。",
         "sourceName": "NewsAPI:generative AI",
         "url": "https://petapixel.com/2026/07/29/researchers-create-tool-to-trace-fake-videos-to-the-ai-system-that-made-them/"
-      },
-      {
-        "name": "新不伦瑞克省政客因使用 AI 演讲引发热议",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "这一事件可能会影响其他政客和公共人物在演讲中使用 AI 的决策，促使他们考虑如何利用技术提升信息传递的效率和效果。同时，公众对 AI 在政治领域的接受度和信任度也可能随之变化。若更多政客开始采用 AI 工具，可能会引发关于信息真实性和透明度的讨论，进而影响选民的投票决策和对政治的信任。",
-        "description": "我注意到，新不伦瑞克省的一位政客在省议会发表演讲时，使用了一些不寻常的段落，这段视频迅速走红网络。虽然演讲内容引发了广泛讨论，但具体的 AI 工具或技术细节尚未披露。这一事件引发了对 AI 在政治演讲中应用的思考，尤其是在信息传递和公众沟通方面的潜在影响。",
-        "useCases": [
-          "分析演讲内容，优化信息传递效果。",
-          "使用 AI 工具生成演讲稿，提高准备效率。",
-          "通过社交媒体监测公众反应，调整演讲策略。"
-        ],
-        "watch": "使用 AI 生成内容可能导致信息失真，影响公众信任。",
-        "sourceName": "NewsData.io:large language model",
-        "url": "https://www.ctvnews.ca/atlantic/new-brunswick/article/video-of-new-brunswick-politicians-apparent-ai-use-goes-viral/"
       }
     ],
     "ai-research": [
@@ -13911,8 +14061,8 @@
   ],
   "dailyReport": {
     "date": "2026-08-18",
-    "generatedAt": "2026-08-18T04:27:03.796895Z",
-    "total": 27,
+    "generatedAt": "2026-08-18T07:09:46.499939Z",
+    "total": 31,
     "sections": [
       {
         "category": "ai-tools",
@@ -13928,6 +14078,17 @@
             "date": "2026-08-17",
             "publishedAt": "2026-08-17T16:00",
             "reason": "此合作将 AI 技术与体育结合，为球迷提供前所未有的互动体验，值得关注。"
+          },
+          {
+            "title": "Together AI 平台推出 A/B 测试模型",
+            "summary": "Together AI 平台推出了针对生产环境的 A/B 测试功能，允许用户将实时流量分配到一个控制组和多个变体中，以评估模型在真实用户中的表现。该平台简化了实验过程，避免了传统方法中与基础设施的复杂纠缠。",
+            "source": "RSS · Together AI",
+            "url": "https://www.together.ai/blog/a-b-test-models-in-production",
+            "score": 81,
+            "sourceCount": 1,
+            "date": "2026-08-17",
+            "publishedAt": "2026-08-17T08:00",
+            "reason": "Together AI 平台的 A/B 测试功能为模型评估提供了更高效的解决方案，值得关注。"
           },
           {
             "title": "GPU 分配优化：利用率提升 33 点的背后",
@@ -13969,6 +14130,17 @@
         "label": "AI 编程",
         "items": [
           {
+            "title": "DeepSeek V4 Pro 0813 vs GPT-5.6 Sol on DeepSWE: Cost, Coding, and Routing",
+            "summary": "We ran 904 DeepSWE rollouts on DeepSeek V4 Pro 0813 and GPT-5.6 Sol. Sol leads pass@1 by 10 points at 35x the cost; Pro wins pass@4, and a P",
+            "source": "RSS · Together AI",
+            "url": "https://www.together.ai/blog/deepseek-v4-pro-0813-vs-gpt-5-6-sol-on-deepswe-cost-coding-and-routing",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-18",
+            "publishedAt": "2026-08-18T08:00",
+            "reason": ""
+          },
+          {
             "title": "Cursor 推出 Origin 代码托管服务，挑战 GitHub 的市场地位",
             "summary": "Cursor 今日正式向付费用户推出 Origin 代码托管服务的早期测试版，旨在为开发者提供一个新的选择。该服务支持仓库创建、拉取请求、代码浏览及与 GitHub 的双向同步，用户可通过 cursor.com/codebase/ 创建新仓库，或将现有 GitHub 仓库迁移至 ",
             "source": "Hacker News 热门（buzzing.cc 中文翻译）",
@@ -13978,6 +14150,23 @@
             "date": "2026-08-18",
             "publishedAt": "2026-08-18T06:14",
             "reason": "Origin 代码托管服务为开发者提供了一个新的选择，尤其适合那些希望摆脱 GitHub 限制的用户，值得关注。"
+          }
+        ]
+      },
+      {
+        "category": "ai-image-video",
+        "label": "图像视频",
+        "items": [
+          {
+            "title": "蚂蚁集团开源 ConceptEdit：新一代图像编辑数据生成管线",
+            "summary": "蚂蚁集团的 inclusionAI 团队推出了开源项目 ConceptEdit，旨在通过概念缩放与密集监督技术构建高效的图像编辑数据生成管线。该管线采用三阶段流程，包括 VLM 生成指令、FLUX 执行编辑和 VQA 评估筛选，能够生成大规模的图像编辑数据集，支持单概念与多概念两",
+            "source": "蚂蚁 inclusionAI：GitHub 新仓库",
+            "url": "https://github.com/inclusionAI/ConceptEdit",
+            "score": 66,
+            "sourceCount": 1,
+            "date": "2026-08-17",
+            "publishedAt": "2026-08-17T15:22",
+            "reason": "ConceptEdit 作为蚂蚁集团的开源项目，提供了一种高效的图像编辑数据生成解决方案，值得关注其在行业中的应用潜力。"
           }
         ]
       },
@@ -14095,6 +14284,17 @@
             "date": "2026-08-18",
             "publishedAt": "",
             "reason": "本研究提供了对 LLM 服务工作负载的深入分析，填补了现有研究的空白，具有重要的实用价值和研究意义。"
+          },
+          {
+            "title": "DeepSeek V4 Pro 0813 与 Claude Fable 5 性能对比",
+            "summary": "我注意到最近在 DeepSWE 上对 DeepSeek V4 Pro 0813 和 Claude Fable 5 进行了904次测试。结果显示，Fable 在成本上以90倍的代价领先 pass@1，而 Pro 在 pass@4 中获胜，Pro 优先级级联达到了82.7%。",
+            "source": "RSS · Together AI",
+            "url": "https://www.together.ai/blog/deepseek-v4-pro-0813-vs-claude-fable-5-on-deepswe-cost-coding-and-routing",
+            "score": 68,
+            "sourceCount": 1,
+            "date": "2026-08-17",
+            "publishedAt": "2026-08-17T08:00",
+            "reason": "这条信息提供了关于两款先进 AI 模型的深入对比，帮助开发者在选择时做出更明智的决策。"
           }
         ]
       },
