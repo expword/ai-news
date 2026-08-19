@@ -1,7 +1,443 @@
 window.AI_GENERATED_DATA = {
-  "lastUpdated": "2026-08-19",
-  "generatedAt": "2026-08-19T15:48:04.567204Z",
+  "lastUpdated": "2026-08-20",
+  "generatedAt": "2026-08-19T18:19:03.546811Z",
   "news": [
+    {
+      "title": "OpenAI 重申零数据保留政策，保障用户隐私",
+      "summary": "OpenAI 最近重申了其对符合条件的 API 客户实施零数据保留的承诺，并预览了私人安全处理功能，以提升 AI 安全性，同时不妥协数据隐私。这一举措旨在增强用户对 AI 应用的信任，尤其是在数据隐私日益受到关注的背景下。",
+      "category": "ai-tools",
+      "tags": [
+        "数据隐私",
+        "API",
+        "AI安全",
+        "OpenAI",
+        "零数据保留"
+      ],
+      "keyPoints": [
+        "OpenAI 对符合条件的 API 客户实施零数据保留，确保用户数据不被存储。",
+        "新推出的私人安全处理功能旨在提升 AI 的安全性，保护用户隐私。",
+        "这一政策的实施符合当前对数据隐私的高度关注，增强用户信任。",
+        "OpenAI 的零数据保留政策适用于所有符合条件的 API 客户，提供更高的安全保障。",
+        "该政策的推出有助于推动行业内对数据隐私的重视，促进更安全的 AI 应用。"
+      ],
+      "background": "OpenAI 一直以来致力于提升用户对其产品的信任，尤其是在数据隐私问题日益突出的今天。此次重申零数据保留政策，标志着其在保护用户数据方面的坚定立场。与其他 AI 服务提供商相比，OpenAI 的这一政策显得尤为重要，因为许多公司仍在存储用户数据以进行模型训练。通过不保留用户数据，OpenAI 希望能够在激烈的市场竞争中脱颖而出，吸引更多关注隐私的用户。",
+      "impact": "这一政策的实施将吸引对数据隐私有高要求的开发者和企业，尤其是那些在医疗、金融等敏感领域工作的团队。它将改变用户在选择 AI 服务时的决策，促使更多企业考虑数据隐私作为选择合作伙伴的重要标准。此外，OpenAI 的这一举措可能会引发行业内其他公司跟进，推动整个行业在数据隐私方面的进步。",
+      "audience": [
+        "关注数据隐私的开发者",
+        "医疗行业的技术团队",
+        "金融服务的产品经理"
+      ],
+      "useCases": [
+        "开发符合数据隐私要求的 AI 应用，利用 OpenAI 的 API 进行安全的数据处理。",
+        "在医疗领域中，使用 OpenAI 的零数据保留政策来保护患者信息，提升信任度。",
+        "金融服务公司利用 OpenAI 的 API 开发合规的智能合约，确保用户数据安全。"
+      ],
+      "risks": [
+        "API 使用费用可能较高，尤其是在大规模应用时，需谨慎评估成本。",
+        "零数据保留政策可能限制某些功能的使用，影响模型的个性化服务。",
+        "在多语言支持方面，可能存在兼容性问题，影响非英语用户的体验。"
+      ],
+      "reason": "OpenAI 的零数据保留政策为用户提供了更高的隐私保障，尤其适合对数据安全有严格要求的行业，值得关注。",
+      "scores": {
+        "importance": 85,
+        "novelty": 70,
+        "firsthand": 90,
+        "impact": 80,
+        "credibility": 85
+      },
+      "url": "https://openai.com/index/our-commitment-to-zero-data-retention",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-08-20",
+      "publishedAt": "2026-08-20T03:00",
+      "collectedAt": "2026-08-20T02:18",
+      "dateStatus": "verified",
+      "tier": "T1",
+      "score": 82,
+      "aiSelected": true,
+      "_style": "reviewer",
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "DeepSeek-V4-Pro 在 H20 上的多场景优化突破",
+      "summary": "我注意到 LMSYS 团队在 H20 GPU 上对 1.6 万亿参数的 MoE 模型 DeepSeek-V4-Pro 进行了多场景优化，成功将其性能逼近 B300。通过单节点 H20-141GB 的实现，输出速率达到了 271 tokens/s，与 B300 的 383.7 tokens/s 性能差距缩小至 1.42 倍。这一进展为高性能 AI 模型的应用提供了新的可能性。",
+      "category": "ai-models",
+      "tags": [
+        "DeepSeek-V4-Pro",
+        "H20 GPU",
+        "多场景优化",
+        "MoE 模型",
+        "性能提升"
+      ],
+      "keyPoints": [
+        "DeepSeek-V4-Pro 是一个拥有 1.6 万亿参数的 MoE 模型，支持 FP8 和 FP4 权重。",
+        "在 H20 GPU 上，单节点 H20-141GB 的实现达到了 271 output tokens/s，性能接近 B300 的 383.7 tokens/s。",
+        "通过场景化服务配置，LMSYS 团队优化了模型的服务性能，适应不同的工作负载。",
+        "优化过程中，团队针对长上下文预填充和低延迟解码进行了特别调优。",
+        "这一优化使得 DeepSeek-V4-Pro 在高并发和低延迟请求下表现更加出色。"
+      ],
+      "background": "DeepSeek-V4-Pro 是 LMSYS 团队推出的最新 MoE 模型，具备强大的参数规模和灵活的服务能力。尽管 H20 GPU 在硬件上不如最新的 NVIDIA Blackwell GPU，但其广泛应用使得优化显得尤为重要。团队通过对模型的多场景服务配置，解决了长上下文预填充和高并发请求带来的挑战，确保了模型在不同场景下的高效运行。这一系列优化不仅提升了模型的性能，也为未来的 AI 应用提供了更大的灵活性和适应性。",
+      "impact": "这一优化的突破将影响多个领域的开发者和企业，尤其是那些依赖高性能 AI 模型的团队。通过提升 DeepSeek-V4-Pro 的服务能力，开发者可以在更短的时间内获得更高质量的输出，从而加速产品开发和决策过程。此外，这一进展也可能促使更多企业考虑在 H20 GPU 上部署大型 AI 模型，推动相关技术的普及和应用。",
+      "audience": [
+        "AI 模型优化工程师",
+        "大规模模型部署的 SRE",
+        "需要高性能解码的应用开发者",
+        "关注 AI 性能提升的研究人员",
+        "从事机器学习模型训练的工程师"
+      ],
+      "useCases": [
+        "优化 DeepSeek-V4-Pro 模型在 H20 GPU 上的服务配置，提高输出速率。",
+        "针对特定场景调整模型的预填充和解码策略，满足不同的性能需求。",
+        "在高并发环境中，利用优化后的模型提升响应速度，降低延迟。",
+        "结合多场景服务配置，灵活应对不同工作负载的挑战。",
+        "在产品开发中，快速迭代和测试模型性能，提升开发效率。"
+      ],
+      "risks": [
+        "在 H20 GPU 上运行大型模型可能面临硬件资源不足的问题，影响性能。",
+        "API 调用可能存在配额限制，影响模型的实际应用效果。",
+        "不同场景下的服务配置可能导致模型性能不稳定，需要持续监控和调整。",
+        "商用授权和使用条款可能限制模型的某些应用场景，需提前了解。",
+        "兼容性问题可能影响模型在不同硬件上的表现，需进行充分测试。"
+      ],
+      "reason": "这条信息展示了 DeepSeek-V4-Pro 在 H20 GPU 上的优化成果，值得关注其对 AI 模型性能提升的实际影响。",
+      "scores": {
+        "importance": 85,
+        "novelty": 80,
+        "firsthand": 90,
+        "impact": 75,
+        "credibility": 85
+      },
+      "url": "https://www.lmsys.org/blog/2026-08-19-deepseek-v4-pro-engine-optimization-h20",
+      "source": "LMSYS：Blog（Chatbot Arena 团队）",
+      "date": "2026-08-20",
+      "publishedAt": "2026-08-20T01:56",
+      "collectedAt": "2026-08-20T02:18",
+      "dateStatus": "verified",
+      "tier": "T1.5",
+      "score": 66,
+      "aiSelected": true,
+      "_style": "recommender",
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "OpenRouter 加入 Stripe，推动多模型智能发展",
+      "summary": "我注意到 OpenRouter 最近宣布加入 Stripe，这标志着他们在推动多模型智能方面迈出了重要一步。OpenRouter 的使命是让智能技术更加多元化，目前他们已经成为最大的 AI 市场，每天处理超过 10T 的 token，涵盖 400 多个模型。与 Stripe 的合作将加速他们的这一目标。",
+      "category": "ai-models",
+      "tags": [
+        "OpenRouter",
+        "Stripe",
+        "多模型智能",
+        "AI市场",
+        "技术合作"
+      ],
+      "keyPoints": [
+        "OpenRouter 正在与 Stripe 合作，旨在加速多模型智能的发展。",
+        "目前，OpenRouter 是最大的 AI 市场，每天处理超过 10T 的 token。",
+        "他们支持 400 多个模型，提供多样化的智能解决方案。",
+        "加入 Stripe 将为 OpenRouter 带来更多资源和机会。",
+        "OpenRouter 将继续保持品牌和产品的一致性，致力于用户体验。"
+      ],
+      "background": "OpenRouter 成立于多模型智能的理念下，致力于为用户提供多样化的 AI 解决方案。随着 AI 技术的快速发展，市场对多模型智能的需求日益增加。OpenRouter 通过与 Stripe 的合作，能够获得更多的技术支持和资源，进一步提升其市场竞争力。Stripe 作为全球知名的支付处理平台，其技术和资源将为 OpenRouter 提供强有力的支持，帮助其实现更广泛的应用场景。",
+      "impact": "这次合作将影响到广大的开发者和企业用户，尤其是那些依赖多模型智能进行业务创新的团队。通过与 Stripe 的合作，OpenRouter 将能够更快地推出新功能，优化用户体验，进而推动整个行业的技术进步。此外，这也可能引发其他 AI 平台与支付或技术公司之间的合作潮流，进一步推动行业的整合与发展。",
+      "audience": [
+        "AI 开发者",
+        "产品经理",
+        "技术决策者",
+        "创业公司创始人",
+        "数据科学家"
+      ],
+      "useCases": [
+        "使用 OpenRouter 的多模型智能解决方案，提升产品的智能化水平。",
+        "通过 Stripe 的支付系统，简化 AI 应用的商业化流程。",
+        "利用 OpenRouter 提供的 API，快速集成多种 AI 模型，满足不同业务需求。",
+        "借助 OpenRouter 的平台，进行大规模的 AI 模型测试与优化。",
+        "与 Stripe 合作，探索新的商业模式，推动业务增长。"
+      ],
+      "risks": [
+        "API 价格可能会随着使用量的增加而上涨，需提前预算。",
+        "多模型整合可能面临兼容性问题，需进行充分测试。",
+        "商用授权的限制可能影响某些模型的使用，需仔细阅读条款。",
+        "不同语言的支持可能不均衡，影响全球用户体验。",
+        "硬件要求可能会增加，需确保基础设施能够支持。"
+      ],
+      "reason": "这条信息展示了 OpenRouter 在多模型智能领域的最新进展，值得关注其未来的发展潜力。",
+      "scores": {
+        "importance": 85,
+        "novelty": 75,
+        "firsthand": 90,
+        "impact": 80,
+        "credibility": 85
+      },
+      "url": "https://x.com/OpenRouter/status/2090127246430216403",
+      "source": "X：OpenRouter (@OpenRouter)",
+      "date": "2026-08-20",
+      "publishedAt": "2026-08-20T01:22",
+      "collectedAt": "2026-08-20T02:18",
+      "dateStatus": "verified",
+      "tier": "T1.5",
+      "score": 66,
+      "aiSelected": true,
+      "_style": "recommender",
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Axonius 如何在 Bedrock AgentCore 上构建安全的多租户 AI 代理",
+      "summary": "Axonius 利用 Amazon Bedrock AgentCore 部署了完全隔离的多租户 AI 代理，成功管理数百个客户环境，避免了从零构建计算隔离、身份验证和可观察性基础设施的复杂性。本文将介绍其架构选择及实施策略。",
+      "category": "ai-agents",
+      "tags": [
+        "Axonius",
+        "多租户",
+        "AI 代理",
+        "Amazon Bedrock",
+        "云计算"
+      ],
+      "keyPoints": [
+        "Axonius 通过整合 1400 多个系统的数据，提供一个权威的信息源，帮助安全团队减少高达 50% 的手动工作负担。",
+        "该公司在 AWS 上运行其 SaaS 基础设施，管理数百个隔离的客户环境，确保数据安全和合规性。",
+        "Amazon Bedrock AgentCore 支持多种架构模式，包括独立、共享和桥接模式，以满足不同客户的需求。",
+        "Axonius 的首个 AI 代理能够分析大型企业环境的状态，识别风险和漏洞，处理数百万个数据点。",
+        "通过使用独特的会话 ID，Axonius 能够在共享资源的情况下，确保每个用户会话的隔离性。"
+      ],
+      "background": "Axonius 是一个资产智能平台，专注于帮助安全和 IT 团队优先处理风险并协调修复工作。随着 AI 技术的快速发展，越来越多的软件独立供应商（ISV）开始将 AI 代理纳入其服务中。Axonius 选择在 Amazon Bedrock AgentCore 上构建其多租户 AI 代理，以便在不增加额外基础设施的情况下，快速扩展其服务。该平台提供了多种架构模式，允许 ISV 根据客户需求灵活选择，从而优化资源使用和安全性。",
+      "impact": "Axonius 的这一举措将使其能够更高效地为客户提供服务，降低运营成本，并提升安全性。其他 ISV 也可以借鉴这一模式，快速部署 AI 代理，满足市场需求。此外，这种多租户架构的成功实施可能会推动更多企业采用云计算和 AI 解决方案，从而改变行业格局。",
+      "audience": [
+        "安全团队成员",
+        "云架构师",
+        "SaaS 产品经理",
+        "IT 运维人员",
+        "数据分析师"
+      ],
+      "useCases": [
+        "部署 AI 代理，使用 Amazon Bedrock AgentCore 快速搭建多租户环境，提升服务交付效率。",
+        "整合来自不同系统的数据，利用 Axonius 提供的工具分析安全风险，优化企业安全策略。",
+        "通过独特的会话 ID 管理用户会话，确保在共享资源环境下的安全性和隔离性。",
+        "利用 AI 代理分析企业环境，识别潜在风险和漏洞，制定相应的修复计划。",
+        "选择适合的架构模式（独立、共享或桥接），根据客户需求灵活调整资源配置。"
+      ],
+      "risks": [
+        "在使用 Amazon Bedrock AgentCore 时，需注意 API 调用的配额限制，避免超出限制导致服务中断。",
+        "确保所选的架构模式与现有系统兼容，避免因版本不匹配导致的功能障碍。",
+        "在多租户环境中，需严格管理数据隔离，防止不同客户数据交叉，影响安全性。",
+        "在部署过程中，需考虑云服务的成本，避免因资源使用不当导致预算超支。",
+        "确保团队具备必要的技术能力，以应对复杂的多租户架构管理和维护。"
+      ],
+      "reason": "Axonius 的成功案例展示了如何在复杂环境中有效部署多租户 AI 代理，值得关注和学习。",
+      "scores": {
+        "importance": 85,
+        "novelty": 75,
+        "firsthand": 90,
+        "impact": 80,
+        "credibility": 85
+      },
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-axonius-built-secure-multi-tenant-ai-agents-on-bedrock-agentcore/",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-08-19",
+      "publishedAt": "2026-08-19T00:27",
+      "collectedAt": "2026-08-20T01:02",
+      "dateStatus": "verified",
+      "tier": "T1",
+      "score": 82,
+      "aiSelected": true,
+      "_style": "tutorial",
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Jumio 在 AWS 上构建实时特征库的实践",
+      "summary": "我最近看到 Jumio 利用 AWS 的 Amazon SageMaker Feature Store、Amazon Managed Service for Apache Flink 和 Amazon Kinesis Data Streams 构建了一个集中式的实时特征库。这个架构实现了低于 100 毫秒的特征服务，专注于欺诈检测，每年节省约 120,000 美元的成本。",
+      "category": "ai-tools",
+      "tags": [
+        "实时特征库",
+        "AWS",
+        "欺诈检测",
+        "数据流",
+        "成本节省"
+      ],
+      "keyPoints": [
+        "Jumio 使用 AWS 构建的实时特征库，专注于欺诈检测，提供低于 100 毫秒的特征服务。",
+        "该特征库结合了 Amazon SageMaker Feature Store、Apache Flink 和 Kinesis Data Streams，确保数据处理的高效性。",
+        "通过优化架构，Jumio 每年节省约 120,000 美元的运营成本。",
+        "实时特征库的构建使得数据科学家能够快速迭代和测试新模型，提高了开发效率。",
+        "该系统的设计考虑了可扩展性，能够应对不断增长的数据需求和复杂性。"
+      ],
+      "background": "Jumio 是一家专注于身份验证和欺诈检测的公司，随着在线交易的增加，欺诈行为也日益严重。为了提高检测效率，Jumio 决定在 AWS 上构建一个实时特征库。这个特征库的核心在于能够快速提供所需的数据特征，从而支持机器学习模型的实时决策。通过整合 AWS 的多项服务，Jumio 不仅提升了数据处理速度，还降低了运营成本，展现了云计算在现代数据处理中的巨大潜力。",
+      "impact": "这个实时特征库的推出，将极大地改变 Jumio 的欺诈检测流程，使得数据科学家能够更快地响应市场变化和欺诈模式。同时，这种高效的数据处理能力也可能吸引更多的客户，提升公司的市场竞争力。此外，其他企业在看到 Jumio 的成功案例后，可能会考虑采用类似的架构来优化自己的数据处理流程，从而引发行业内的技术变革。",
+      "audience": [
+        "数据科学家",
+        "云架构师",
+        "金融行业的风控专家",
+        "机器学习工程师"
+      ],
+      "useCases": [
+        "利用实时特征库快速获取欺诈检测所需的数据特征，提高模型的响应速度。",
+        "通过 AWS 的服务实现数据流的实时处理，支持动态调整模型参数。",
+        "在新产品上线前，使用特征库进行快速测试和迭代，确保产品的安全性。",
+        "为客户提供实时的欺诈检测报告，增强用户信任度和满意度。"
+      ],
+      "risks": [
+        "在使用 AWS 服务时，可能面临 API 调用费用的增加，需合理规划预算。",
+        "实时特征库的构建需要高水平的技术支持，初期可能面临兼容性问题。",
+        "数据流处理的复杂性可能导致系统维护成本上升，需定期评估架构性能。",
+        "在多语言环境下，可能需要额外的本地化支持，增加项目复杂度。"
+      ],
+      "reason": "这篇文章展示了如何利用 AWS 的强大工具构建高效的实时特征库，值得关注。",
+      "scores": {
+        "importance": 85,
+        "novelty": 75,
+        "firsthand": 90,
+        "impact": 80,
+        "credibility": 85
+      },
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-jumio-built-a-real-time-feature-store-on-aws/",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-08-19",
+      "publishedAt": "2026-08-19T01:05",
+      "collectedAt": "2026-08-20T01:03",
+      "dateStatus": "verified",
+      "tier": "T1",
+      "score": 82,
+      "aiSelected": true,
+      "_style": "recommender",
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Replit 推出 GPT-5.6 Luna 免费模式，简化软件开发",
+      "summary": "我注意到 Replit 最近推出了基于 GPT-5.6 Luna 的免费模式，任何人都可以轻松将创意转化为可运行的软件，而无需担心代币费用。这一举措大大降低了软件开发的门槛，让更多人能够参与到编程中来。",
+      "category": "ai-coding",
+      "tags": [
+        "Replit",
+        "GPT-5.6",
+        "软件开发",
+        "免费模式",
+        "编程"
+      ],
+      "keyPoints": [
+        "Replit 新推出的免费模式基于 GPT-5.6 Luna，旨在让更多人参与软件开发。",
+        "用户可以在不担心代币费用的情况下，将创意转化为实际应用，极大地降低了开发门槛。",
+        "这一模式的推出使得编程变得更加普及，适合初学者和非专业开发者。",
+        "GPT-5.6 Luna 的强大能力为用户提供了智能化的编程支持，提升了开发效率。",
+        "Replit 的这一举措可能会吸引更多的用户加入其平台，进一步扩大其社区影响力。"
+      ],
+      "background": "Replit 是一个在线编程平台，允许用户在浏览器中编写和运行代码。随着技术的进步，编程的门槛逐渐降低，越来越多的人希望能够将自己的创意转化为实际应用。GPT-5.6 Luna 的推出正是响应了这一需求，通过提供智能化的编程支持，帮助用户更轻松地进行软件开发。与以往需要支付代币费用的模式不同，免费模式的引入将使得更多人能够参与到编程中来，推动了软件开发的普及。",
+      "impact": "这一新模式将对多个群体产生积极影响，包括学生、初学者和创业者。学生可以利用这一工具进行学习和实践，初学者能够在没有经济压力的情况下尝试编程，而创业者则可以快速验证自己的创意，降低开发成本。此外，Replit 的社区也可能因此而壮大，形成良性循环，进一步促进技术交流和创新。",
+      "audience": [
+        "编程初学者",
+        "学生",
+        "创业者",
+        "自由职业开发者",
+        "教育工作者"
+      ],
+      "useCases": [
+        "利用 Replit 的免费模式，学生可以在课堂上进行编程练习，提升自己的技能。",
+        "创业者可以快速将创意转化为原型，进行市场验证，降低开发成本。",
+        "自由职业开发者可以使用这一工具为客户提供快速的解决方案，提升工作效率。",
+        "教育工作者可以在教学中引入这一工具，帮助学生更好地理解编程概念。",
+        "编程爱好者可以通过 Replit 社区分享自己的项目，获取反馈和建议。"
+      ],
+      "risks": [
+        "虽然免费模式降低了门槛，但用户可能会面临 API 使用限制和配额问题，影响开发进度。",
+        "对于非英语用户，可能存在语言障碍，影响使用体验和学习效果。",
+        "由于依赖于云服务，用户需要稳定的网络连接，否则可能会影响开发效率。",
+        "在商业项目中使用 Replit 可能需要额外的商用授权，用户需提前了解相关政策。",
+        "平台的兼容性问题可能导致某些功能在不同设备上的表现不一致。"
+      ],
+      "reason": "Replit 的免费模式为软件开发带来了新的可能性，尤其是对于初学者和创业者而言，值得关注。",
+      "scores": {
+        "importance": 75,
+        "novelty": 80,
+        "firsthand": 90,
+        "impact": 85,
+        "credibility": 80
+      },
+      "url": "https://openai.com/index/replit",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-08-19",
+      "publishedAt": "2026-08-19T15:00",
+      "collectedAt": "2026-08-20T01:02",
+      "dateStatus": "verified",
+      "tier": "T1",
+      "score": 81,
+      "aiSelected": true,
+      "_style": "recommender",
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "使用 Amazon Bedrock 实现向量提示文档分类",
+      "summary": "我最近看到 Amazon Bedrock 上有一个很酷的多代理文档分类解决方案。这个方案结合了 Strands Agents SDK，利用三个专业代理进行文本分析和视觉相似性搜索，能够准确分类保险文档，比如保单和宣誓书。这种方法不仅提高了分类的准确性，还能处理复杂的文档类型。",
+      "category": "ai-agents",
+      "tags": [
+        "文档分类",
+        "多代理",
+        "保险科技",
+        "文本分析",
+        "视觉搜索"
+      ],
+      "keyPoints": [
+        "Amazon Bedrock 提供了一个强大的平台，支持多代理的文档分类解决方案。",
+        "该解决方案结合了 Claude Haiku 4.5 进行文本分析，提升了分类的准确性。",
+        "使用 Amazon Titan Multimodal Embeddings 进行视觉相似性搜索，能够处理复杂的文档类型。",
+        "三个专业代理协同工作，分别负责不同的分析任务，确保分类的全面性。",
+        "适用于保险行业，能够有效分类保单和宣誓书等文档，提升工作效率。"
+      ],
+      "background": "随着保险行业对文档处理需求的增加，传统的分类方法已难以满足高效和准确的要求。Amazon Bedrock 的多代理文档分类解决方案应运而生，利用先进的文本分析和视觉搜索技术，能够快速处理各种复杂文档。这一技术的推出，标志着文档分类领域的一个重要进步，尤其是在保险行业的应用前景广阔。",
+      "impact": "这一解决方案将改变保险行业的文档处理方式，提升分类效率，减少人工干预。保险公司可以更快地处理客户文档，改善客户体验。同时，这种技术的应用也可能推动其他行业的文档分类创新，形成更广泛的影响。",
+      "audience": [
+        "保险公司的数据分析师",
+        "文档管理系统开发者",
+        "使用 AI 进行文档处理的工程师"
+      ],
+      "useCases": [
+        "利用 Amazon Bedrock 的多代理系统，快速分类大量保险文档，节省时间。",
+        "通过文本分析和视觉搜索技术，提高文档分类的准确性，减少错误率。",
+        "为保险公司开发定制化的文档处理解决方案，提升整体工作效率。"
+      ],
+      "risks": [
+        "API 使用费用可能较高，需提前评估预算。",
+        "在处理多语言文档时，可能会遇到兼容性问题。",
+        "需要确保硬件配置能够支持高效的多代理运算，避免性能瓶颈。"
+      ],
+      "reason": "这条信息展示了如何利用先进的 AI 技术提升文档分类效率，特别适合保险行业的需求，值得关注。",
+      "scores": {
+        "importance": 75,
+        "novelty": 80,
+        "firsthand": 90,
+        "impact": 70,
+        "credibility": 85
+      },
+      "url": "https://aws.amazon.com/blogs/machine-learning/implement-vector-prompt-document-classification-using-amazon-bedrock/",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-08-19",
+      "publishedAt": "2026-08-19T01:10",
+      "collectedAt": "2026-08-20T01:02",
+      "dateStatus": "verified",
+      "tier": "T1",
+      "score": 78,
+      "aiSelected": true,
+      "_style": "recommender",
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "ChatGPT Ads 在欧洲市场扩展至 31 个国家",
       "summary": "ChatGPT Ads 正在向 31 个欧洲市场扩展，广告主可以借此机会在用户探索、比较选项和做出决策时进行精准投放。这一扩展为广告主提供了新的触达用户的方式，尤其是在竞争激烈的市场环境中。",
@@ -185,6 +621,33 @@ window.AI_GENERATED_DATA = {
       "sourceCount": 1
     },
     {
+      "title": "Improve contract search accuracy with auto-generated filters in Amazon Bedrock",
+      "summary": "In this post, we describe how AIDA works at a high level and how it helps address these challenges — grounding users in the right contracts, under the right legal context, and with",
+      "category": "ai-models",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-08-19",
+      "publishedAt": "2026-08-19T01:02",
+      "collectedAt": "2026-08-20T01:03",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/improve-contract-search-accuracy-with-auto-generated-filters-in-amazon-bedrock/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
       "title": "Claude 如何加速蛋白质设计与分析化学研究",
       "summary": "Anthropic 公布两项实验：Claude（Mythos Preview 和 Opus 4.8）针对 15 个靶点设计蛋白质结合剂，成功 14 个，命中率达 22.6%-35.1%。",
       "category": "ai-models",
@@ -298,6 +761,67 @@ window.AI_GENERATED_DATA = {
       "score": 66,
       "aiSelected": true,
       "_style": "recommender",
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "OpenRouter 与 Stripe 合并，继续独立运营",
+      "summary": "OpenRouter 宣布与 Stripe 合并，旨在加速全球经济增长。OpenRouter 每日处理来自 400 多个 AI 模型的 10+ 万亿 token，服务超过 1000 万开发者与公司，自成立以来推理量每年增长至少 10 倍。合并后，OpenRouter 将保持原名和使命，独立运营，预计交易将在未来数周内完成。",
+      "category": "ai-business",
+      "tags": [
+        "OpenRouter",
+        "Stripe",
+        "合并",
+        "AI模型",
+        "全球经济",
+        "开发者"
+      ],
+      "keyPoints": [
+        "OpenRouter 每日处理来自 400 多个 AI 模型的 10+ 万亿 token，显示出其强大的处理能力。",
+        "自成立以来，OpenRouter 的推理量每年增长至少 10 倍，表明其市场需求持续上升。",
+        "合并后，OpenRouter 将继续以用户利益为先，保持独立运营，确保服务质量不变。",
+        "此次合并预计将在未来数周内完成，可能会对全球经济产生积极影响。",
+        "OpenRouter 服务超过 1000 万开发者与公司，显示其在行业中的重要地位。"
+      ],
+      "background": "OpenRouter 成立于数年前，专注于提供高效的 AI 模型路由服务。随着 AI 技术的迅猛发展，OpenRouter 的服务需求不断增加，推理量每年以至少 10 倍的速度增长。此次与 Stripe 的合并，旨在利用 Stripe 的支付技术和全球网络，加速 OpenRouter 的发展。合并后，OpenRouter 将继续以原名和使命独立运营，确保其产品和路线图不变，继续为开发者提供优质服务。",
+      "impact": "此次合并将使 OpenRouter 能够更好地整合 Stripe 的支付解决方案，提升用户体验。开发者将能够更便捷地使用 OpenRouter 的服务，可能会吸引更多的企业加入。合并后的 OpenRouter 将继续专注于用户利益，确保其路由决策不受影响。这一举措可能会推动全球经济的进一步增长，尤其是在 AI 领域的应用和创新方面。",
+      "audience": [
+        "AI 开发者",
+        "企业技术决策者",
+        "金融科技从业者",
+        "AI 模型研究人员",
+        "创业公司创始人"
+      ],
+      "useCases": [
+        "整合 Stripe 支付解决方案，提升开发者使用 OpenRouter 的便捷性。",
+        "利用 OpenRouter 的强大处理能力，支持大规模 AI 应用的开发与部署。",
+        "通过合并，推动更多企业采用 AI 技术，促进业务创新。"
+      ],
+      "risks": [
+        "合并后可能面临 API 价格和配额的调整，影响开发者的使用成本。",
+        "需要确保合并后的服务兼容性，避免对现有用户造成影响。",
+        "在全球市场中，可能面临不同地区的商用授权和法律合规风险。"
+      ],
+      "reason": "OpenRouter 与 Stripe 的合并将为 AI 开发者提供更强大的支持，值得关注其后续发展。",
+      "scores": {
+        "importance": 85,
+        "novelty": 70,
+        "firsthand": 90,
+        "impact": 80,
+        "credibility": 85
+      },
+      "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe",
+      "source": "OpenRouter：Announcements（RSS）",
+      "date": "2026-08-19",
+      "publishedAt": "2026-08-19T08:00",
+      "collectedAt": "2026-08-20T02:18",
+      "dateStatus": "verified",
+      "tier": "T1.5",
+      "score": 65,
+      "aiSelected": true,
+      "_style": "observer",
       "moduleTargets": [
         "news"
       ],
@@ -804,6 +1328,61 @@ window.AI_GENERATED_DATA = {
       "score": 72,
       "aiSelected": true,
       "_style": "critic",
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Can Large Language Models Explain Flight Safety Events? A Prior-Guided Semantic LLM-based Approach",
+      "summary": "Improving flight safety with flight data requires not only accurate detection of risk events, but more importantly, clear interpretation of their underlying causes at the level of ",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-08-18",
+      "publishedAt": "",
+      "collectedAt": "2026-08-20T01:03",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-18",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.18017v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Memory Tree Guided Key Frame Querying for Efficient 3D Question Answering",
+      "summary": "Answering questions accurately and efficiently in embodied scenarios presents significant challenges due to limited computational and memory resources for Vision Language Model (VL",
+      "category": "ai-image-video",
+      "source": "arXiv",
+      "date": "2026-08-18",
+      "publishedAt": "",
+      "collectedAt": "2026-08-20T01:03",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-18",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.18009v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
       "moduleTargets": [
         "news"
       ],
@@ -4646,440 +5225,6 @@ window.AI_GENERATED_DATA = {
         "news"
       ],
       "sourceCount": 1
-    },
-    {
-      "title": "Google DeepMind 发布 Gemini 3.7 Flash：编程与智能体任务的最新突破",
-      "summary": "Google DeepMind 于三周内推出 Gemini 3.7 Flash，专注于编程与智能体任务，输入/输出价格分别为每百万 token $0.75 和 $3.75，较 3.6 Flash 降低了一半，显示出其在成本控制上的显著进步。",
-      "category": "ai-models",
-      "tags": [
-        "DeepMind",
-        "Gemini 3.7",
-        "编程模型",
-        "智能体",
-        "AI工具"
-      ],
-      "keyPoints": [
-        "Gemini 3.7 Flash 是 Google DeepMind 在三周内推出的最新模型，专注于编程与智能体任务。",
-        "该模型的输入/输出价格分别为每百万 token $0.75 和 $3.75，较 3.6 Flash 降低了一半，显示出显著的成本优势。",
-        "Gemini 3.7 Flash 在性能上有望超越前代产品，满足更复杂的编程需求。",
-        "该模型的推出可能会加速编程领域的自动化进程，提升开发效率。",
-        "Google DeepMind 在 AI 领域的持续创新，进一步巩固了其市场领导地位。"
-      ],
-      "background": "在人工智能领域，编程与智能体任务的需求日益增长，尤其是在自动化和智能化的背景下。Google DeepMind 的 Gemini 系列模型旨在满足这一需求，Gemini 3.7 Flash 的推出标志着其在技术上的又一次飞跃。与前代产品相比，Gemini 3.6 Flash 的发布仅隔三周，显示出 DeepMind 在快速迭代和技术更新方面的能力。通过降低价格，DeepMind 不仅提升了产品的市场竞争力，也为开发者提供了更具吸引力的选择。",
-      "impact": "Gemini 3.7 Flash 的推出将吸引大量开发者和企业用户，尤其是在编程和智能体应用领域。其较低的使用成本和高效的性能，可能会促使更多企业采用 AI 工具进行软件开发，从而改变传统开发流程。此外，随着更多开发者的加入，可能会形成一个更为活跃的生态系统，推动相关技术的进一步发展。",
-      "audience": [
-        "软件开发工程师",
-        "AI 研究人员",
-        "自动化测试工程师",
-        "数据科学家",
-        "技术决策者"
-      ],
-      "useCases": [
-        "利用 Gemini 3.7 Flash 进行自动化代码生成，提高开发效率。",
-        "在智能体任务中应用 Gemini 3.7 Flash，优化决策过程。",
-        "通过 Gemini 3.7 Flash 实现复杂算法的快速原型开发。",
-        "结合 Gemini 3.7 Flash 进行数据分析，提升数据处理能力。",
-        "使用 Gemini 3.7 Flash 进行自然语言处理任务，改善用户体验。"
-      ],
-      "risks": [
-        "API 价格可能会影响小型企业的使用意愿，尤其是在预算有限的情况下。",
-        "模型的商用授权条款可能会限制某些应用场景，需仔细评估合规性。",
-        "兼容性问题可能会影响现有系统的集成，增加开发成本。",
-        "在多语言支持方面，可能存在性能差异，影响全球用户的体验。"
-      ],
-      "reason": "Gemini 3.7 Flash 的发布不仅在技术上实现了突破，更在成本控制上展现了 DeepMind 的战略眼光，值得关注。",
-      "scores": {
-        "importance": 85,
-        "novelty": 80,
-        "firsthand": 90,
-        "impact": 75,
-        "credibility": 85
-      },
-      "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash",
-      "source": "Google DeepMind：Blog（RSS）",
-      "date": "2026-08-14",
-      "publishedAt": "2026-08-14T01:04",
-      "collectedAt": "2026-08-14T02:37",
-      "dateStatus": "verified",
-      "tier": "T1.5",
-      "score": 66,
-      "aiSelected": true,
-      "_style": "analyst",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "通义千问 Qwen3.8 系列模型开源发布",
-      "summary": "通义千问正式开源了 Qwen3.8 系列模型，其中 Qwen3.8-27B 是一款原生多模态稠密模型，参数数量仅为 27B，却在多项任务中超越了 Qwen3.7-Plus，支持 262K 上下文，且可通过 YaRN 扩展至 1M tokens。与此同时，Qwen3.8-2.4T-A95B 的开放权重也已同步发布，适合不同需求的开发者使用。",
-      "category": "ai-models",
-      "tags": [
-        "开源模型",
-        "多模态",
-        "Qwen3.8",
-        "人工智能",
-        "开发者工具"
-      ],
-      "keyPoints": [
-        "Qwen3.8-27B 仅有 27B 参数，性能超越 Qwen3.7-Plus，适合实际编码和办公工作流。",
-        "原生支持 262K 上下文，能够通过 YaRN 扩展至 1M tokens，灵活应对大规模数据处理。",
-        "Qwen3.8-2.4T-A95B 的开放权重也已发布，满足高性能需求的开发者。",
-        "采用 Apache 2.0 许可，确保了模型的自由使用和修改。",
-        "适合构建轻量级应用或复杂代理，开发者可以根据需求选择合适的模型。"
-      ],
-      "background": "通义千问 Qwen3.8 系列模型的发布标志着其在开源领域的进一步承诺。与之前的 Qwen3.7-Plus 相比，Qwen3.8-27B 在参数数量上有所减少，但在性能上却实现了显著提升，尤其是在编码和办公场景中的表现。此次开源不仅为开发者提供了更强大的工具，也为多模态应用的开发奠定了基础。Qwen3.8 系列的推出，显示了通义千问在 AI 模型开发上的持续创新和对社区的支持。",
-      "impact": "推荐给需要高效编码和办公自动化的开发者，尤其是那些希望在本地运行轻量级应用的团队。Qwen3.8-27B 的灵活性和高效性使其成为快速原型开发的理想选择。而对于需要处理更复杂任务的用户，Qwen3.8-2.4T-A95B 则提供了更强的计算能力和扩展性。整体来看，这一系列模型将推动开发者在多模态应用领域的探索与创新。",
-      "audience": [
-        "软件开发工程师",
-        "数据科学家",
-        "AI 产品经理",
-        "办公自动化工程师",
-        "机器学习研究员"
-      ],
-      "useCases": [
-        "使用 Qwen3.8-27B 开发轻量级的办公自动化工具，提高团队工作效率。",
-        "通过 Qwen3.8-2.4T-A95B 构建复杂的 AI 代理，处理大规模数据分析任务。",
-        "利用 YaRN 扩展 Qwen3.8 的上下文能力，满足特定业务需求。",
-        "在本地环境中运行 Qwen3.8 模型，进行快速原型开发和测试。",
-        "结合 Qwen3.8 模型进行多模态数据处理，提升产品的智能化水平。"
-      ],
-      "risks": [
-        "在使用 Qwen3.8 模型时，可能会遇到 API 调用的费用问题，需提前评估预算。",
-        "部分用户可能会对模型的商用授权产生疑虑，建议仔细阅读相关条款。",
-        "由于模型参数较大，运行时对硬件配置有一定要求，需确保环境兼容性。",
-        "在多语言支持方面，模型可能存在局限，需根据具体需求进行评估。",
-        "扩展上下文能力时，可能会影响模型的响应速度，需进行性能测试。"
-      ],
-      "reason": "通义千问 Qwen3.8 系列模型以其高效的性能和灵活的应用场景，值得开发者关注和尝试。",
-      "scores": {
-        "importance": 80,
-        "novelty": 75,
-        "firsthand": 90,
-        "impact": 85,
-        "credibility": 80
-      },
-      "url": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
-      "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
-      "date": "2026-08-14",
-      "publishedAt": "2026-08-14T23:02",
-      "collectedAt": "2026-08-15T00:26",
-      "dateStatus": "verified",
-      "tier": "T1.5",
-      "score": 65,
-      "aiSelected": true,
-      "_style": "reviewer",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Google Sheets 新功能：用自然语言创建交互式迷你应用",
-      "summary": "我注意到 Google Sheets 最近推出了 Sheets canvas 功能，基于 Gemini 技术，用户可以通过简单的自然语言提示，将表格数据转化为各种交互式迷你应用，比如仪表盘和学习追踪器。这一功能大大简化了数据可视化的过程，让更多人能够轻松使用数据。",
-      "category": "ai-office",
-      "tags": [
-        "Google Sheets",
-        "Gemini",
-        "数据可视化",
-        "交互式应用",
-        "办公工具"
-      ],
-      "keyPoints": [
-        "Sheets canvas 是 Google Sheets 最新推出的功能，旨在通过自然语言处理技术简化数据操作。",
-        "用户可以通过简单的提示词，快速生成交互式仪表盘、学习追踪器等应用，提升工作效率。",
-        "该功能基于 Google 的 Gemini 技术，展示了 AI 在办公软件中的应用潜力。",
-        "Sheets canvas 使得非技术用户也能轻松创建复杂的数据展示，降低了使用门槛。",
-        "这一更新标志着 Google 在办公工具领域的持续创新，进一步增强了用户体验。"
-      ],
-      "background": "Google Sheets 一直以来都是数据处理和分析的重要工具，而此次推出的 Sheets canvas 功能，标志着其在用户友好性和功能多样性上的重大进步。通过 Gemini 技术，Google 使得用户能够用自然语言与数据进行互动，这不仅提高了工作效率，也让数据可视化变得更加直观。与传统的数据处理方式相比，Sheets canvas 的推出无疑是一次技术上的飞跃，尤其是在当前数据驱动决策的背景下，这一功能的实用性愈发凸显。",
-      "impact": "这一新功能将对多种用户群体产生积极影响。首先，数据分析师可以更快速地生成可视化报告，节省时间。其次，教育工作者可以利用这一工具创建学习追踪器，帮助学生更好地管理学习进度。此外，企业管理者也能通过交互式仪表盘实时监控业务指标，做出更为精准的决策。随着这一功能的普及，预计将推动更多企业和个人用户采用 Google Sheets 进行数据管理，进一步提升其市场竞争力。",
-      "audience": [
-        "数据分析师",
-        "教育工作者",
-        "企业管理者",
-        "市场营销人员",
-        "项目经理"
-      ],
-      "useCases": [
-        "使用自然语言创建实时业务仪表盘，快速获取关键数据。",
-        "为学生设计个性化学习追踪器，帮助他们管理学习进度。",
-        "生成交互式座位表，方便会议和活动的组织。",
-        "通过可视化工具展示市场分析数据，提升报告的吸引力。",
-        "利用数据可视化功能，快速制作团队绩效报告，便于分享和讨论。"
-      ],
-      "risks": [
-        "可能存在自然语言理解的局限性，导致生成的应用不符合用户预期。",
-        "对于复杂数据集，生成的可视化效果可能不够理想，需要用户进行手动调整。",
-        "API 的使用可能会受到配额限制，影响大规模数据处理的效率。",
-        "用户需要一定的学习成本，才能熟练掌握这一新功能的使用。",
-        "在不同语言环境下，功能的表现可能会有所差异，影响用户体验。"
-      ],
-      "reason": "这一功能的推出让数据可视化变得前所未有的简单，值得关注。",
-      "scores": {
-        "importance": 85,
-        "novelty": 80,
-        "firsthand": 90,
-        "impact": 75,
-        "credibility": 80
-      },
-      "url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets",
-      "source": "Google Blog：AI（RSS）",
-      "date": "2026-08-14",
-      "publishedAt": "2026-08-14T00:45",
-      "collectedAt": "2026-08-14T02:37",
-      "dateStatus": "verified",
-      "tier": "T1.5",
-      "score": 65,
-      "aiSelected": true,
-      "_style": "recommender",
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Cursor 完成并入 SpaceXAI，聚焦 Grok 产品线",
-      "summary": "Cursor 团队已正式并入 SpaceXAI，双方将共同致力于将 Grok 打造成全球最实用的 AI 工具。此次合作将专注于软件工程领域，并计划扩展至知识工作，预计将对 Grok Build、Grok Bot、Grok API 及 Cursor 产品进行全面改进。",
-      "category": "ai-tools",
-      "tags": [
-        "AI工具",
-        "软件工程",
-        "Grok",
-        "SpaceXAI",
-        "Cursor",
-        "技术合作"
-      ],
-      "keyPoints": [
-        "Cursor 团队已正式并入 SpaceXAI，标志着两者的深度合作。",
-        "此次合作将专注于软件工程，旨在提升 Grok 系列产品的实用性。",
-        "Grok Build、Grok Bot 和 Grok API 将在此次合作中进行重要改进。",
-        "SpaceXAI 计划将 Cursor 的技术优势整合到 Grok 产品中。",
-        "此次收购将有助于 SpaceXAI 扩展其在知识工作领域的影响力。"
-      ],
-      "background": "2023 年 10 月，Cursor 团队宣布完成被 SpaceX 收购的交易，正式并入 SpaceXAI。Cursor 以其在 AI 工具开发方面的专业知识而闻名，尤其是在软件工程领域的应用。SpaceXAI 作为一家致力于推动 AI 技术发展的公司，收购 Cursor 是其战略布局的一部分，旨在通过整合双方的技术优势，提升 Grok 产品的市场竞争力。类似的收购案例在 AI 行业并不罕见，例如 OpenAI 在 2022 年收购了 DALL·E 团队，以增强其图像生成能力。",
-      "impact": "此次收购将对软件工程师和知识工作者产生深远影响，预计将提升他们在项目开发中的效率。Grok 系列产品的改进将使得用户在使用 AI 工具时获得更好的体验，可能会改变他们的工作流程和决策方式。此外，SpaceXAI 的技术整合将推动行业内其他公司对 AI 工具的投资和开发，进一步加速 AI 技术的普及和应用。",
-      "audience": [
-        "软件开发工程师",
-        "AI 产品经理",
-        "知识工作者",
-        "技术决策者",
-        "AI 研究人员"
-      ],
-      "useCases": [
-        "提升 Grok Build 的代码生成效率，减少开发时间。",
-        "通过 Grok Bot 实现自动化客户支持，提升用户满意度。",
-        "利用 Grok API 集成 AI 功能，增强现有软件产品的竞争力。"
-      ],
-      "risks": [
-        "收购后整合可能面临技术兼容性问题，影响产品稳定性。",
-        "Grok 产品的市场接受度尚未确定，可能影响销售预期。",
-        "API 使用费用和配额限制可能影响开发者的使用体验。"
-      ],
-      "reason": "此次收购将极大提升 Grok 产品的实用性，值得关注其后续发展。",
-      "scores": {
-        "importance": 75,
-        "novelty": 70,
-        "firsthand": 90,
-        "impact": 80,
-        "credibility": 85
-      },
-      "url": "https://x.com/SpaceXAI/status/2088250109188608289",
-      "source": "X：SpaceXAI (@SpaceXAI)",
-      "date": "2026-08-14",
-      "publishedAt": "2026-08-14T21:03",
-      "collectedAt": "2026-08-14T21:48",
-      "dateStatus": "verified",
-      "tier": "T1.5",
-      "score": 63,
-      "aiSelected": true,
-      "_style": "observer",
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "蚂蚁百灵与 ASystem 团队成功实现单机 Agentic RL 后训练闭环",
-      "summary": "蚂蚁百灵与 ASystem 团队合作，利用 Ling-3.0-tiny 和 AReno 在 DGX Spark 平台上成功跑通单机 Agentic RL 后训练闭环。通过在井字棋这一最小验证任务上应用 GSPO 算法，经过 400 步训练，模型的 rollout/rewards_mean 从约 -0.5 提升至 0.4，同时 response_len 降至约 850 tokens，工具调用与动作选择趋于稳定。",
-      "category": "ai-agents",
-      "tags": [
-        "蚂蚁百灵",
-        "ASystem",
-        "Agentic RL",
-        "Ling-3.0-tiny",
-        "AReno",
-        "DGX Spark"
-      ],
-      "keyPoints": [
-        "蚂蚁百灵与 ASystem 团队合作，成功实现单机 Agentic RL 后训练闭环。",
-        "使用 Ling-3.0-tiny 和 AReno 在 DGX Spark 上进行实验。",
-        "在井字棋任务上，GSPO 算法经过 400 步训练，rollout/rewards_mean 从 -0.5 提升至 0.4。",
-        "模型的 response_len 降至约 850 tokens，显示出更高的稳定性。",
-        "工具调用与动作选择的稳定性为后续应用奠定基础。"
-      ],
-      "background": "2023 年，蚂蚁百灵与 ASystem 团队展开合作，旨在探索单机 Agentic RL 的应用潜力。Agentic RL 是一种强化学习方法，强调智能体在特定环境中自主决策的能力。此次实验选择井字棋作为验证任务，因其简单性和明确的胜负结果，适合快速验证算法的有效性。通过使用 Ling-3.0-tiny 和 AReno，团队在 DGX Spark 平台上进行高效计算，推动了这一领域的研究进展。",
-      "impact": "这一成果将对强化学习领域产生深远影响，尤其是在单机环境下的应用。成功的后训练闭环意味着未来可以在更复杂的任务中应用类似的方法，提升智能体的决策能力。开发者和研究者可以借此技术优化现有模型，推动智能体在实际应用中的表现。此外，稳定的工具调用与动作选择将为开发更高效的 RL 应用提供基础，可能改变相关领域的开发策略。",
-      "audience": [
-        "强化学习研究者",
-        "游戏开发者",
-        "机器学习工程师",
-        "AI 产品经理",
-        "教育科技从业者"
-      ],
-      "useCases": [
-        "训练智能体在井字棋中进行自主决策，提升游戏 AI 的表现。",
-        "利用 Ling-3.0-tiny 和 AReno 进行其他简单游戏的 RL 训练，验证算法的普适性。",
-        "开发基于 Agentic RL 的教育工具，帮助学生理解决策过程。"
-      ],
-      "risks": [
-        "在实际应用中，模型可能面临训练数据不足的问题，影响性能。",
-        "API 调用的费用和配额限制可能影响大规模部署的可行性。",
-        "不同环境下的兼容性问题可能导致模型表现不一致。"
-      ],
-      "reason": "此次合作展示了蚂蚁百灵与 ASystem 在强化学习领域的创新进展，值得关注其后续应用潜力。",
-      "scores": {
-        "importance": 75,
-        "novelty": 80,
-        "firsthand": 90,
-        "impact": 70,
-        "credibility": 85
-      },
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkyODk2MDQwNw%3D%3D&mid=2247487525&idx=1&sn=b9def9117e34b45fce50ab76eeed726c",
-      "source": "公众号：蚂蚁百灵（Ling）",
-      "date": "2026-08-14",
-      "publishedAt": "2026-08-14T12:00",
-      "collectedAt": "2026-08-14T12:37",
-      "dateStatus": "verified",
-      "tier": "T1.5",
-      "score": 62,
-      "aiSelected": true,
-      "_style": "observer",
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "OpenAI与Anthropic价格战加剧，中国AI竞争者崛起",
-      "summary": "随着中国AI企业的快速发展，OpenAI和Anthropic之间的价格竞争愈发激烈。根据市场分析，OpenAI的GPT-4模型价格已下降20%，而Anthropic的Claude 2也在进行价格调整。这一现象不仅影响了北美市场，也对全球AI行业格局产生了深远影响，促使其他竞争者加速技术创新和市场布局。",
-      "category": "ai-models",
-      "tags": [
-        "OpenAI",
-        "Anthropic",
-        "中国AI",
-        "价格战",
-        "市场竞争"
-      ],
-      "keyPoints": [
-        "OpenAI的GPT-4模型价格下降20%，以应对市场竞争压力。",
-        "Anthropic的Claude 2也在进行价格调整，试图保持市场份额。",
-        "中国AI企业如百度和阿里巴巴正在快速崛起，抢占市场。",
-        "市场分析显示，AI模型的价格战将推动技术的快速迭代。",
-        "预计未来一年内，AI模型的价格将继续下降，推动更多企业采用。"
-      ],
-      "background": "近年来，AI技术的迅猛发展使得市场竞争愈发激烈。OpenAI和Anthropic作为行业领军者，面临着来自中国AI企业的强劲挑战。根据最新数据显示，中国的AI市场在过去一年中增长了30%，吸引了大量投资者的关注。与此形成对比的是，OpenAI和Anthropic在北美市场的增长速度有所放缓，迫使它们不得不通过降价来维持竞争力。类似的价格战在其他科技领域也曾出现，如智能手机市场的价格竞争，最终导致了产品多样化和技术创新的加速。",
-      "impact": "这一价格战将对多个层面产生深远影响。首先，企业用户将受益于更具竞争力的价格，降低了AI技术的使用门槛。其次，随着价格的下降，更多中小企业将能够采用AI解决方案，从而推动行业的整体数字化转型。此外，价格战可能促使技术的快速迭代，推动新功能和应用的出现，进一步丰富市场选择。",
-      "audience": [
-        "AI产品经理",
-        "数据科学家",
-        "技术投资者"
-      ],
-      "useCases": [
-        "比较不同AI模型的性能和价格，选择最优方案。",
-        "利用降价的AI工具进行市场分析，提升决策效率。",
-        "为企业内部开发AI应用，降低研发成本。"
-      ],
-      "risks": [
-        "价格战可能导致AI模型的研发投入减少，影响长期技术创新。",
-        "降价策略可能引发市场对产品质量的质疑，影响品牌形象。",
-        "合规风险增加，尤其是在数据隐私和安全方面，可能导致法律纠纷。"
-      ],
-      "reason": "此事件反映了AI行业竞争的激烈程度及其对市场格局的影响，值得关注。",
-      "scores": {
-        "importance": 85,
-        "novelty": 70,
-        "firsthand": 50,
-        "impact": 80,
-        "credibility": 75
-      },
-      "url": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground",
-      "source": "Ars Technica：AI（RSS）",
-      "date": "2026-08-14",
-      "publishedAt": "2026-08-14T22:27",
-      "collectedAt": "2026-08-15T00:26",
-      "dateStatus": "verified",
-      "tier": "T1.5",
-      "score": 60,
-      "aiSelected": true,
-      "_style": "analyst",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "DeepSeek Harness：从零开始的高效工具",
-      "summary": "这次发布的核心点是DeepSeek Harness的全面介绍，旨在帮助用户快速上手并掌握其功能。该工具在AI模型训练和数据处理方面表现出色，适合多种应用场景，尤其是对数据分析和机器学习有需求的用户。",
-      "category": "ai-tools",
-      "tags": [
-        "DeepSeek",
-        "AI工具",
-        "数据处理",
-        "机器学习",
-        "模型训练"
-      ],
-      "keyPoints": [
-        "DeepSeek Harness支持多种数据格式，方便用户进行灵活的数据输入和输出。",
-        "该工具的最新版本为1.2.0，增加了对多语言支持的优化。",
-        "用户可以通过可视化界面快速构建和训练模型，降低了技术门槛。",
-        "DeepSeek Harness提供API接口，便于与其他工具集成，提升工作效率。",
-        "该工具的社区支持活跃，用户可以在论坛中获取帮助和分享经验。"
-      ],
-      "background": "DeepSeek Harness是近年来新兴的AI工具，专注于简化机器学习模型的训练过程。与传统的AI工具相比，DeepSeek Harness强调用户友好性和高效性，特别适合初学者和中小企业。其设计理念是让用户能够在没有深厚技术背景的情况下，快速上手并应用于实际项目中。该工具的推出正值AI技术快速发展的时期，市场上对易用性和灵活性的需求日益增加。",
-      "impact": "DeepSeek Harness的推出将吸引大量希望进入AI领域的用户，尤其是数据分析师和产品经理。他们可以利用该工具快速构建原型，进行数据分析和模型验证，从而加速决策过程。此外，DeepSeek Harness的API接口将促进与其他工具的整合，进一步提升工作效率。",
-      "audience": [
-        "数据分析师",
-        "产品经理",
-        "机器学习工程师",
-        "初创企业创始人",
-        "教育工作者"
-      ],
-      "useCases": [
-        "使用DeepSeek Harness进行数据清洗，提升数据质量以便后续分析。",
-        "通过可视化界面构建机器学习模型，快速验证假设。",
-        "利用API接口将DeepSeek Harness与现有数据处理流程集成，优化工作流。"
-      ],
-      "risks": [
-        "DeepSeek Harness的学习曲线可能对完全没有技术背景的用户造成一定挑战。",
-        "API调用的费用可能在高频使用时增加，需提前评估预算。",
-        "在特定数据集上，模型训练的效果可能不如预期，需进行多次调试。"
-      ],
-      "reason": "DeepSeek Harness以其易用性和灵活性，成为初学者和中小企业快速进入AI领域的理想选择。",
-      "scores": {
-        "importance": 75,
-        "novelty": 70,
-        "firsthand": 60,
-        "impact": 80,
-        "credibility": 70
-      },
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685238&idx=1&sn=c3159dba0dd5a141f8dd726fd474e6e2",
-      "source": "公众号：数字生命卡兹克",
-      "date": "2026-08-14",
-      "publishedAt": "2026-08-14T07:58",
-      "collectedAt": "2026-08-14T08:47",
-      "dateStatus": "verified",
-      "tier": "T1.5",
-      "score": 58,
-      "aiSelected": true,
-      "_style": "reviewer",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
     }
   ],
   "weeklyDigests": [
@@ -5943,6 +6088,41 @@ window.AI_GENERATED_DATA = {
     }
   ],
   "githubWeekly": [
+    {
+      "name": "01-ai/langcrew",
+      "lang": "Python",
+      "category": "Agent 框架",
+      "description": "这是一个为开发者提供的多智能体开发框架，结合了 CrewAI 的直观概念和企业级特性，支持快速产品化。",
+      "details": "LangCrew 解决了多智能体协作开发的复杂性，提供了易于使用的模板和全栈 UI。与其他框架如 Ray 和 OpenAI Gym 相比，LangCrew 更加注重企业级应用的需求，支持快速部署和定制化。该项目使用 Python 开发，采用 MIT 许可证，适合需要快速构建多智能体系统的开发者，不推荐对多智能体开发没有需求的用户。",
+      "features": [
+        "支持多种智能体协作模式",
+        "提供企业级功能和模板",
+        "全栈用户界面",
+        "基于 LangGraph 构建",
+        "易于集成和扩展"
+      ],
+      "useCases": [
+        "构建多智能体系统进行复杂任务分配",
+        "快速原型开发以测试新想法",
+        "集成现有 AI 模型以增强功能"
+      ],
+      "quickStart": [
+        "git clone https://github.com/01-ai/langcrew.git",
+        "cd langcrew",
+        "pip install -r requirements.txt",
+        "python main.py"
+      ],
+      "why": "LangCrew 以 116 stars 的活跃度展示了其社区的支持。相比于其他框架，它提供了更直观的开发体验和企业级功能，适合快速构建和部署多智能体应用。其基于 LangGraph 的架构使得开发者可以轻松扩展和定制。",
+      "tags": [
+        "多智能体",
+        "开发框架",
+        "企业级应用"
+      ],
+      "url": "https://github.com/01-ai/langcrew",
+      "stars": "116 stars",
+      "source": "GitHub · 零一万物 Yi",
+      "date": "2026-08-20"
+    },
     {
       "name": "MiniMax-AI/MiniMax-Code-Plugins",
       "lang": "Python",
@@ -8080,21 +8260,6 @@ window.AI_GENERATED_DATA = {
       "stars": "23 stars",
       "source": "GitHub · 通义千问 Qwen",
       "date": "2026-08-05"
-    },
-    {
-      "name": "OpenBMB/MathForm",
-      "lang": "Python",
-      "description": "面壁智能 MiniCPM 开源项目。",
-      "stars": "1 stars",
-      "why": "国产大模型厂商 面壁智能 MiniCPM 的最新开源动态/模型发布，属一手信源。",
-      "url": "https://github.com/OpenBMB/MathForm",
-      "source": "GitHub · 面壁智能 MiniCPM",
-      "tier": "T1",
-      "category": "Coding Agent",
-      "details": "面壁智能 MiniCPM 开源项目。",
-      "features": [],
-      "useCases": [],
-      "quickStart": []
     }
   ],
   "sources": [
@@ -8820,6 +8985,38 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "使用 Amazon Bedrock 实现向量提示文档分类",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "这一解决方案将改变保险行业的文档处理方式，提升分类效率，减少人工干预。保险公司可以更快地处理客户文档，改善客户体验。同时，这种技术的应用也可能推动其他行业的文档分类创新，形成更广泛的影响。",
+        "description": "我最近看到 Amazon Bedrock 上有一个很酷的多代理文档分类解决方案。这个方案结合了 Strands Agents SDK，利用三个专业代理进行文本分析和视觉相似性搜索，能够准确分类保险文档，比如保单和宣誓书。这种方法不仅提高了分类的准确性，还能处理复杂的文档类型。",
+        "useCases": [
+          "利用 Amazon Bedrock 的多代理系统，快速分类大量保险文档，节省时间。",
+          "通过文本分析和视觉搜索技术，提高文档分类的准确性，减少错误率。",
+          "为保险公司开发定制化的文档处理解决方案，提升整体工作效率。"
+        ],
+        "watch": "API 使用费用可能较高，需提前评估预算。",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/implement-vector-prompt-document-classification-using-amazon-bedrock/"
+      },
+      {
+        "name": "Axonius 如何在 Bedrock AgentCore 上构建安全的多租户 AI 代理",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Axonius 的这一举措将使其能够更高效地为客户提供服务，降低运营成本，并提升安全性。其他 ISV 也可以借鉴这一模式，快速部署 AI 代理，满足市场需求。此外，这种多租户架构的成功实施可能会推动更多企业采用云计算和 AI 解决方案，从而改变行业格局。",
+        "description": "Axonius 利用 Amazon Bedrock AgentCore 部署了完全隔离的多租户 AI 代理，成功管理数百个客户环境，避免了从零构建计算隔离、身份验证和可观察性基础设施的复杂性。本文将介绍其架构选择及实施策略。",
+        "useCases": [
+          "部署 AI 代理，使用 Amazon Bedrock AgentCore 快速搭建多租户环境，提升服务交付效率。",
+          "整合来自不同系统的数据，利用 Axonius 提供的工具分析安全风险，优化企业安全策略。",
+          "通过独特的会话 ID 管理用户会话，确保在共享资源环境下的安全性和隔离性。",
+          "利用 AI 代理分析企业环境，识别潜在风险和漏洞，制定相应的修复计划。",
+          "选择适合的架构模式（独立、共享或桥接），根据客户需求灵活调整资源配置。"
+        ],
+        "watch": "在使用 Amazon Bedrock AgentCore 时，需注意 API 调用的配额限制，避免超出限制导致服务中断。",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/how-axonius-built-secure-multi-tenant-ai-agents-on-bedrock-agentcore/"
+      },
+      {
         "name": "依赖 AI 办公的隐患：思维能力的损失",
         "provider": "NewsData.io",
         "type": "AI 项目/工具",
@@ -9378,35 +9575,24 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Ekathimerini",
         "url": "https://www.ekathimerini.com/economy/1312492/agentic-banking-will-cut-app-use/"
-      },
-      {
-        "name": "No, AI Doesn't \"Go Rogue\". It Just Does What It's Told.",
-        "provider": "Lowyat.NET",
-        "type": "AI 项目/工具",
-        "bestFor": "At this point, we can probably expect modern AI to behave in unexpected ways. You've probably heard of OpenAI's runaway models: agents that escaped containment ",
-        "description": "At this point, we can probably expect modern AI to behave in unexpected ways. You've probably heard of OpenAI's runaway models: agents that escaped containment and went on a hackin",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Lowyat.NET",
-        "url": "https://www.lowyat.net/2026/401403/ai-doesnt-go-rogue/"
-      },
-      {
-        "name": "OpenAI 与 AWS 发布 x402 支付流程指南",
-        "provider": "Crypto Briefing",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenAI 与 AWS 的合作为开发者提供了一个强大的支付基础设施，可能会改变 AI 应用的开发模式。随着 AgentCore Payments 成为 AWS 托管 AI 应用的标准功能，x402 协议有望获得广泛采用，超越其他竞争支付标准。这一变化将使得更多企业能够利用 AI 代理进行自动化支付，提升业务效率。然而",
-        "description": "OpenAI 发布了一本技术手册，指导开发者如何让 AI 代理自主处理微支付，使用 Coinbase 的二层网络上的 USDC。该指南结合了 OpenAI 的 Agents SDK 和 AWS 的 Bedrock AgentCore Payments 服务，利用 x402 协议实现交易结算。",
-        "useCases": [
-          "构建支持微支付的 AI 代理，自动处理数据请求和 API 调用。",
-          "利用 x402 协议实现快速结算，提升在线服务的用户体验。",
-          "开发基于 USDC 的支付系统，确保交易的稳定性和安全性。"
-        ],
-        "watch": "API 费用可能会影响微支付的经济性，开发者需仔细评估成本。",
-        "sourceName": "Crypto Briefing",
-        "url": "https://cryptobriefing.com/openai-x402-payment-flow-base/"
       }
     ],
     "ai-models": [
+      {
+        "name": "OpenAI 重申零数据保留政策，保障用户隐私",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "这一政策的实施将吸引对数据隐私有高要求的开发者和企业，尤其是那些在医疗、金融等敏感领域工作的团队。它将改变用户在选择 AI 服务时的决策，促使更多企业考虑数据隐私作为选择合作伙伴的重要标准。此外，OpenAI 的这一举措可能会引发行业内其他公司跟进，推动整个行业在数据隐私方面的进步。",
+        "description": "OpenAI 最近重申了其对符合条件的 API 客户实施零数据保留的承诺，并预览了私人安全处理功能，以提升 AI 安全性，同时不妥协数据隐私。这一举措旨在增强用户对 AI 应用的信任，尤其是在数据隐私日益受到关注的背景下。",
+        "useCases": [
+          "开发符合数据隐私要求的 AI 应用，利用 OpenAI 的 API 进行安全的数据处理。",
+          "在医疗领域中，使用 OpenAI 的零数据保留政策来保护患者信息，提升信任度。",
+          "金融服务公司利用 OpenAI 的 API 开发合规的智能合约，确保用户数据安全。"
+        ],
+        "watch": "API 使用费用可能较高，尤其是在大规模应用时，需谨慎评估成本。",
+        "sourceName": "RSS · OpenAI Blog",
+        "url": "https://openai.com/index/our-commitment-to-zero-data-retention"
+      },
       {
         "name": "苹果因App Store条款改革股价上涨",
         "provider": "MacDailyNews",
@@ -9955,17 +10141,6 @@ window.AI_GENERATED_DATA = {
         "watch": "在使用阿里巴巴的Qwen和百度的服务时，用户数据可能受到中国法律的监管，存在隐私泄露风险。",
         "sourceName": "Tech Times",
         "url": "https://www.techtimes.com/articles/324565/20260815/apple-trained-its-own-ai-china-alibaba-winning-unprecedented-beijing-clearance.htm"
-      },
-      {
-        "name": "Alibaba AI Models Hit 3 Billion Downloads, Passing Meta, Goo",
-        "provider": "Deccan Chronicle",
-        "type": "AI 项目/工具",
-        "bestFor": "Alibaba Group Holding's open-weight models have accumulated more than 3 billion global downloads in the past six months, eclipsing Meta Platforms Inc., Alphabet",
-        "description": "Alibaba Group Holding's open-weight models have accumulated more than 3 billion global downloads in the past six months, eclipsing Meta Platforms Inc., Alphabet Inc. and domestic p",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Deccan Chronicle",
-        "url": "https://www.deccanchronicle.com/technology/alibaba-ai-models-hit-3-billion-downloads-passing-meta-google-1979407"
       }
     ],
     "ai-business": [
@@ -11788,6 +11963,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-research": [
       {
+        "name": "Can Large Language Models Explain Flight Safety Events? A Pr",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Improving flight safety with flight data requires not only accurate detection of risk events, but more importantly, clear interpretation of their underlying cau",
+        "description": "Improving flight safety with flight data requires not only accurate detection of risk events, but more importantly, clear interpretation of their underlying causes at the level of ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2608.18017v1"
+      },
+      {
         "name": "Money Rules Aren't Static: 7 Guidelines That Are Obsolete",
         "provider": "WealthUp",
         "type": "AI 项目/工具",
@@ -12333,21 +12519,6 @@ window.AI_GENERATED_DATA = {
         "watch": "在申请过程中，确保满足所有资格要求，特别是学位和经验的匹配，以免浪费时间。",
         "sourceName": "NewsAPI:artificial intelligence",
         "url": "https://nlppeople.com/job/machine-learning-research-engineer-nlp-llm-10/"
-      },
-      {
-        "name": "封闭模型拒绝协助研究人员修复Linux漏洞",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "这一事件可能促使更多安全研究人员转向开源模型，以规避封闭模型的限制。随着开源工具的逐渐成熟，开发者和研究人员可能会重新评估使用封闭源AI的必要性，尤其是在处理安全漏洞时。封闭模型的限制可能导致企业在选择AI工具时更加谨慎，影响其决策过程。此外，随着开源模型的普及，可能会推动AI行业的竞争格局发生变化，促使封闭源模型提供",
-        "description": "安全研究员Daniel Fox Franke在追踪ripgrep中的分段错误时，发现OpenAI的GPT-5.6 Sol无法提供帮助，反而需要依赖中国AI提供商的开源模型GLM 5.2和Kimi K3完成分析。Franke指出，封闭源模型的限制使得安全研究变得更加困难。",
-        "useCases": [
-          "使用GLM 5.2分析Linux内核中的漏洞，期望快速定位问题。",
-          "利用Kimi K3进行初步数据收集，期望获得关键证据。",
-          "在安全研究中结合开源工具，期望提高分析效率。"
-        ],
-        "watch": "使用封闭模型可能导致无法获取必要的技术支持，影响研究进度。",
-        "sourceName": "NewsAPI:generative AI",
-        "url": "https://www.theregister.com/ai-and-ml/2026/07/29/closed-models-refuse-to-help-researcher-swat-linux-bug/5280647"
       }
     ],
     "ai-office": []
@@ -13883,24 +14054,35 @@ window.AI_GENERATED_DATA = {
     }
   ],
   "dailyReport": {
-    "date": "2026-08-19",
-    "generatedAt": "2026-08-19T15:48:04.541233Z",
-    "total": 21,
+    "date": "2026-08-20",
+    "generatedAt": "2026-08-19T18:19:03.521811Z",
+    "total": 15,
     "sections": [
       {
         "category": "ai-tools",
         "label": "AI 工具",
         "items": [
           {
-            "title": "GPU 分配优化：利用率提升 33 点的背后",
-            "summary": "一项新研究表明，通过优化 GPU 分配顺序，企业 AI 的 GPU 利用率可提升至 33 个百分点。该研究展示了如何在相同硬件和工作负载下，通过更精细的调度策略，显著提高 GPU 的使用效率。然而，这种方法在实施过程中也面临多重挑战，尤其是在处理不同类型工作负载时。",
-            "source": "RSS · Hugging Face Blog",
-            "url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
-            "score": 78,
+            "title": "OpenAI 重申零数据保留政策，保障用户隐私",
+            "summary": "OpenAI 最近重申了其对符合条件的 API 客户实施零数据保留的承诺，并预览了私人安全处理功能，以提升 AI 安全性，同时不妥协数据隐私。这一举措旨在增强用户对 AI 应用的信任，尤其是在数据隐私日益受到关注的背景下。",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/our-commitment-to-zero-data-retention",
+            "score": 82,
             "sourceCount": 1,
-            "date": "2026-08-18",
-            "publishedAt": "2026-08-18T03:46",
-            "reason": "这项研究提供了实用的 GPU 管理新思路，值得关注其在企业 AI 中的应用潜力。"
+            "date": "2026-08-20",
+            "publishedAt": "2026-08-20T03:00",
+            "reason": "OpenAI 的零数据保留政策为用户提供了更高的隐私保障，尤其适合对数据安全有严格要求的行业，值得关注。"
+          },
+          {
+            "title": "Jumio 在 AWS 上构建实时特征库的实践",
+            "summary": "我最近看到 Jumio 利用 AWS 的 Amazon SageMaker Feature Store、Amazon Managed Service for Apache Flink 和 Amazon Kinesis Data Streams 构建了一个集中式的实时特征库。这个架",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/how-jumio-built-a-real-time-feature-store-on-aws/",
+            "score": 82,
+            "sourceCount": 1,
+            "date": "2026-08-19",
+            "publishedAt": "2026-08-19T01:05",
+            "reason": "这篇文章展示了如何利用 AWS 的强大工具构建高效的实时特征库，值得关注。"
           },
           {
             "title": "自定义 Amazon Quick 嵌入式聊天功能",
@@ -13912,28 +14094,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-08-19",
             "publishedAt": "2026-08-19T01:13",
             "reason": "这篇文章提供了实用的自定义指南，帮助开发者将 Amazon Quick 嵌入式聊天与品牌形象完美结合，提升用户体验。"
-          },
-          {
-            "title": "NVIDIA 利用 ChatGPT Work 提升工作效率",
-            "summary": "NVIDIA 团队通过 ChatGPT Work 减少手动任务、快速连接动态信号，并在全球范围内扩展成功的工作流程。然而，这一工具的应用也面临着一些挑战，包括对特定任务的适用性和潜在的成本问题。",
-            "source": "RSS · OpenAI Blog",
-            "url": "https://openai.com/index/nvidia/chatgpt-work",
-            "score": 72,
-            "sourceCount": 1,
-            "date": "2026-08-18",
-            "publishedAt": "2026-08-18T08:00",
-            "reason": "NVIDIA 的 ChatGPT Work 提供了一个高效的工作流程自动化解决方案，值得关注其在实际应用中的表现与挑战。"
-          },
-          {
-            "title": "全面禁用侵入式 AI 的实用指南",
-            "summary": "本指南为希望减少技术环境中侵入式 AI 的用户提供了详细的操作步骤，涵盖 Windows、Chrome、Edge、Firefox 及主流应用如 Adobe Acrobat、WhatsApp 等。通过这些步骤，用户可以有效管理和控制 AI 的使用，保护个人隐私和数据安全。",
-            "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-            "url": "https://www.librarian.net/notoai",
-            "score": 61,
-            "sourceCount": 1,
-            "date": "2026-08-18",
-            "publishedAt": "2026-08-18T01:58",
-            "reason": "这份指南提供了实用的步骤和建议，帮助用户有效管理和禁用侵入式 AI，保护个人隐私，值得一看。"
           }
         ]
       },
@@ -13942,37 +14102,15 @@ window.AI_GENERATED_DATA = {
         "label": "AI 编程",
         "items": [
           {
-            "title": "Asana 在两周内用 Codex 完成五年工程工作",
-            "summary": "Asana 利用 OpenAI 的 Codex 在两周内替换了过时的测试系统，完成了原本预计需五年才能完成的工作，成本约为 12,000 美元。此举显著提升了开发效率，展示了 AI 工具在软件开发中的潜力。",
+            "title": "Replit 推出 GPT-5.6 Luna 免费模式，简化软件开发",
+            "summary": "我注意到 Replit 最近推出了基于 GPT-5.6 Luna 的免费模式，任何人都可以轻松将创意转化为可运行的软件，而无需担心代币费用。这一举措大大降低了软件开发的门槛，让更多人能够参与到编程中来。",
             "source": "RSS · OpenAI Blog",
-            "url": "https://openai.com/index/asana",
-            "score": 82,
+            "url": "https://openai.com/index/replit",
+            "score": 81,
             "sourceCount": 1,
-            "date": "2026-08-18",
-            "publishedAt": "2026-08-18T15:00",
-            "reason": "Asana 的案例展示了 AI 工具在实际应用中的高效性，值得关注其对软件开发行业的影响。"
-          },
-          {
-            "title": "DeepSeek V4 Pro 0813 vs GPT-5.6 Sol on DeepSWE: Cost, Coding, and Routing",
-            "summary": "We ran 904 DeepSWE rollouts on DeepSeek V4 Pro 0813 and GPT-5.6 Sol. Sol leads pass@1 by 10 points at 35x the cost; Pro wins pass@4, and a P",
-            "source": "RSS · Together AI",
-            "url": "https://www.together.ai/blog/deepseek-v4-pro-0813-vs-gpt-5-6-sol-on-deepswe-cost-coding-and-routing",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-18",
-            "publishedAt": "2026-08-18T08:00",
-            "reason": ""
-          },
-          {
-            "title": "Cursor 推出 Origin 代码托管服务，挑战 GitHub 的市场地位",
-            "summary": "Cursor 今日正式向付费用户推出 Origin 代码托管服务的早期测试版，旨在为开发者提供一个新的选择。该服务支持仓库创建、拉取请求、代码浏览及与 GitHub 的双向同步，用户可通过 cursor.com/codebase/ 创建新仓库，或将现有 GitHub 仓库迁移至 ",
-            "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-            "url": "https://cursor.com/changelog/origin-code-hosting",
-            "score": 57,
-            "sourceCount": 1,
-            "date": "2026-08-18",
-            "publishedAt": "2026-08-18T06:14",
-            "reason": "Origin 代码托管服务为开发者提供了一个新的选择，尤其适合那些希望摆脱 GitHub 限制的用户，值得关注。"
+            "date": "2026-08-19",
+            "publishedAt": "2026-08-19T15:00",
+            "reason": "Replit 的免费模式为软件开发带来了新的可能性，尤其是对于初学者和创业者而言，值得关注。"
           }
         ]
       },
@@ -13980,6 +14118,28 @@ window.AI_GENERATED_DATA = {
         "category": "ai-agents",
         "label": "Agent / MCP",
         "items": [
+          {
+            "title": "Axonius 如何在 Bedrock AgentCore 上构建安全的多租户 AI 代理",
+            "summary": "Axonius 利用 Amazon Bedrock AgentCore 部署了完全隔离的多租户 AI 代理，成功管理数百个客户环境，避免了从零构建计算隔离、身份验证和可观察性基础设施的复杂性。本文将介绍其架构选择及实施策略。",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/how-axonius-built-secure-multi-tenant-ai-agents-on-bedrock-agentcore/",
+            "score": 82,
+            "sourceCount": 1,
+            "date": "2026-08-19",
+            "publishedAt": "2026-08-19T00:27",
+            "reason": "Axonius 的成功案例展示了如何在复杂环境中有效部署多租户 AI 代理，值得关注和学习。"
+          },
+          {
+            "title": "使用 Amazon Bedrock 实现向量提示文档分类",
+            "summary": "我最近看到 Amazon Bedrock 上有一个很酷的多代理文档分类解决方案。这个方案结合了 Strands Agents SDK，利用三个专业代理进行文本分析和视觉相似性搜索，能够准确分类保险文档，比如保单和宣誓书。这种方法不仅提高了分类的准确性，还能处理复杂的文档类型。",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/implement-vector-prompt-document-classification-using-amazon-bedrock/",
+            "score": 78,
+            "sourceCount": 1,
+            "date": "2026-08-19",
+            "publishedAt": "2026-08-19T01:10",
+            "reason": "这条信息展示了如何利用先进的 AI 技术提升文档分类效率，特别适合保险行业的需求，值得关注。"
+          },
           {
             "title": "Amazon Bedrock AgentCore 支付功能正式上线，AI 代理可安全自主交易",
             "summary": "Amazon Bedrock AgentCore 支付功能现已全面上线，允许 AI 代理在内置支出保护机制的支持下，安全且自主地进行大规模交易。该功能具备协议无关的支付编排能力，并提供生产级的可观察性，旨在提升交易的安全性和效率。",
@@ -13990,50 +14150,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-08-19",
             "publishedAt": "2026-08-19T02:56",
             "reason": "这项功能的推出为企业提供了一个安全、高效的交易解决方案，值得关注。"
-          },
-          {
-            "title": "Agentao：工具使用 LLM 代理的受控本地优先运行时",
-            "summary": "Agentao 是一种新型的本地优先运行时，旨在为工具使用的 LLM 代理提供治理框架。尽管其设计增强了代理的可控性和可审计性，但仍存在权限过度、审计能力不足等风险。",
-            "source": "RSS · arXiv cs.AI",
-            "url": "https://arxiv.org/abs/2608.13574",
-            "score": 78,
-            "sourceCount": 1,
-            "date": "2026-08-18",
-            "publishedAt": "",
-            "reason": "Agentao 提供了一种新颖的治理框架，适合希望在本地环境中使用 LLM 代理的开发者，具有重要的研究和应用价值。"
-          },
-          {
-            "title": "NVIDIA Nemotron 3.5 Lightning 在 Amazon SageMaker JumpStart 上线",
-            "summary": "NVIDIA Nemotron 3.5 Lightning 是一款专为高负载代理工作设计的开放模型，现已在 Amazon SageMaker JumpStart 上线。该模型支持高达 4 倍的吞吐量和 30% 的任务完成速度提升，适合需要持续运行的代理应用。尽管如此，仍需注意其在",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/nvidia-nemotron-3-5-lightning-now-available-in-amazon-sagemaker-jumpstart/",
-            "score": 78,
-            "sourceCount": 1,
-            "date": "2026-08-18",
-            "publishedAt": "2026-08-18T02:06",
-            "reason": "NVIDIA Nemotron 3.5 Lightning 的推出为高负载代理工作提供了高效的解决方案，值得关注其在实际应用中的表现和潜在影响。"
-          },
-          {
-            "title": "Build OpenClaw agents that transact with Amazon Bedrock AgentCore payments",
-            "summary": "Give an autonomous agent a wallet and spending guardrails so it can pay for paywalled APIs, MCP servers, and web content. This post connects",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/build-openclaw-agents-that-transact-with-amazon-bedrock-agentcore-payments/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-18",
-            "publishedAt": "2026-08-18T00:19",
-            "reason": ""
-          },
-          {
-            "title": "使用 Google 的 Agent Development Kit 构建零信任 AI 智能体",
-            "summary": "Google 开源了基于 Agent Development Kit (ADK) 和 Gemini 的零信任客服与退货智能体示例，展示了如何通过三层安全机制防御提示注入等攻击。这些机制包括硬件支持的加密签名、gVisor 沙箱隔离动态代码执行以及确定性语义网关校验业务逻辑，确保系",
-            "source": "Google Developers Blog（RSS）",
-            "url": "https://developers.googleblog.com/build-zero-trust-ai-agents-with-googles-agent-development-kit",
-            "score": 66,
-            "sourceCount": 1,
-            "date": "2026-08-18",
-            "publishedAt": "2026-08-18T07:22",
-            "reason": "这一框架为构建安全的 AI 应用提供了新的思路，尤其是在处理敏感数据时，值得开发者深入了解。"
           }
         ]
       },
@@ -14041,6 +14157,17 @@ window.AI_GENERATED_DATA = {
         "category": "ai-models",
         "label": "模型发布",
         "items": [
+          {
+            "title": "Improve contract search accuracy with auto-generated filters in Amazon Bedrock",
+            "summary": "In this post, we describe how AIDA works at a high level and how it helps address these challenges — grounding users in the right contracts,",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/improve-contract-search-accuracy-with-auto-generated-filters-in-amazon-bedrock/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-19",
+            "publishedAt": "2026-08-19T01:02",
+            "reason": ""
+          },
           {
             "title": "Claude 如何加速蛋白质设计与分析化学研究",
             "summary": "Anthropic 公布两项实验：Claude（Mythos Preview 和 Opus 4.8）针对 15 个靶点设计蛋白质结合剂，成功 14 个，命中率达 22.6%-35.1%。",
@@ -14064,6 +14191,28 @@ window.AI_GENERATED_DATA = {
             "reason": ""
           },
           {
+            "title": "DeepSeek-V4-Pro 在 H20 上的多场景优化突破",
+            "summary": "我注意到 LMSYS 团队在 H20 GPU 上对 1.6 万亿参数的 MoE 模型 DeepSeek-V4-Pro 进行了多场景优化，成功将其性能逼近 B300。通过单节点 H20-141GB 的实现，输出速率达到了 271 tokens/s，与 B300 的 383.7 to",
+            "source": "LMSYS：Blog（Chatbot Arena 团队）",
+            "url": "https://www.lmsys.org/blog/2026-08-19-deepseek-v4-pro-engine-optimization-h20",
+            "score": 66,
+            "sourceCount": 1,
+            "date": "2026-08-20",
+            "publishedAt": "2026-08-20T01:56",
+            "reason": "这条信息展示了 DeepSeek-V4-Pro 在 H20 GPU 上的优化成果，值得关注其对 AI 模型性能提升的实际影响。"
+          },
+          {
+            "title": "OpenRouter 加入 Stripe，推动多模型智能发展",
+            "summary": "我注意到 OpenRouter 最近宣布加入 Stripe，这标志着他们在推动多模型智能方面迈出了重要一步。OpenRouter 的使命是让智能技术更加多元化，目前他们已经成为最大的 AI 市场，每天处理超过 10T 的 token，涵盖 400 多个模型。与 Stripe 的合",
+            "source": "X：OpenRouter (@OpenRouter)",
+            "url": "https://x.com/OpenRouter/status/2090127246430216403",
+            "score": 66,
+            "sourceCount": 1,
+            "date": "2026-08-20",
+            "publishedAt": "2026-08-20T01:22",
+            "reason": "这条信息展示了 OpenRouter 在多模型智能领域的最新进展，值得关注其未来的发展潜力。"
+          },
+          {
             "title": "Liquid AI 发布 LFM2.5 QAD Q4_0 检查点，恢复 97% 精度损失",
             "summary": "最近看到 Liquid AI 发布了基于量化感知蒸馏（QAD）训练的 LFM2.5 系列 Q4_0 GGUF 检查点，包括 LFM2.5-230M、350M、1.2B-Instruct 和 2.6B 四个版本。这些检查点在保持原生 Q4_0 的内存和速度的同时，成功恢复了 97%",
             "source": "Hugging Face：Blog（RSS）",
@@ -14073,73 +14222,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-08-19",
             "publishedAt": "2026-08-19T21:48",
             "reason": "这条信息值得关注，因为它展示了 Liquid AI 在量化模型优化方面的最新成果，极大提升了模型的实用性和性能。"
-          },
-          {
-            "title": "亚马逊批量购书用于 AI 训练后销毁引发关注",
-            "summary": "404 Media 通过在珍本图书中放置追踪设备，揭露亚马逊秘密购书行为：大量书籍被扫描用于 AI 训练，随后被销毁。这一行为引发了对知识产权和环境影响的广泛讨论。",
-            "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-            "url": "https://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility",
-            "score": 66,
-            "sourceCount": 1,
-            "date": "2026-08-18",
-            "publishedAt": "2026-08-18T02:46",
-            "reason": "这条信息揭示了亚马逊在 AI 训练数据获取方面的隐秘操作，值得关注其对知识产权和环境的潜在影响。"
-          }
-        ]
-      },
-      {
-        "category": "ai-benchmark",
-        "label": "评测榜单",
-        "items": [
-          {
-            "title": "LLM 服务一年的工作负载演变与优化",
-            "summary": "大型语言模型（LLM）服务已成为关键的云工作负载，然而现有的研究在规模和范围上仍显不足。本研究通过对一年的生产数据进行纵向分析，揭示了用户与模型交互的演变过程，并提供了全面的工作负载特征。这将为未来的研究提供重要的数据支持。",
-            "source": "RSS · arXiv cs.AI",
-            "url": "https://arxiv.org/abs/2608.13573",
-            "score": 86,
-            "sourceCount": 1,
-            "date": "2026-08-18",
-            "publishedAt": "",
-            "reason": "本研究提供了对 LLM 服务工作负载的深入分析，填补了现有研究的空白，具有重要的实用价值和研究意义。"
-          },
-          {
-            "title": "StartupBench：市场验证的智能体基准测试",
-            "summary": "StartupBench 是一个全新的基准测试工具，专注于评估通用智能体在真实市场环境中的表现。与传统基准不同，它基于真实的 AI 产品工作流，揭示了当前智能体在复杂任务中的局限性。研究显示，即便是最强的模型，成功完成的任务比例也仅为 30%。",
-            "source": "HuggingFace Daily Papers（社区热门论文）",
-            "url": "https://arxiv.org/abs/2608.17800",
-            "score": 65,
-            "sourceCount": 1,
-            "date": "2026-08-18",
-            "publishedAt": "2026-08-18T08:00",
-            "reason": "StartupBench 通过真实市场验证的工作流，为智能体的评估提供了全新的视角，值得关注。"
-          }
-        ]
-      },
-      {
-        "category": "ai-research",
-        "label": "论文研究",
-        "items": [
-          {
-            "title": "大型语言模型中的模块化认知架构",
-            "summary": "这次发布的核心点是，研究表明大型语言模型（LLM）在处理不同认知任务时，展现出与人类大脑相似的模块化架构。这一发现可能揭示了智能系统构建的基本原则。",
-            "source": "RSS · arXiv cs.AI",
-            "url": "https://arxiv.org/abs/2608.13567",
-            "score": 82,
-            "sourceCount": 2,
-            "date": "2026-08-18",
-            "publishedAt": "",
-            "reason": "这项研究揭示了大型语言模型与人类大脑之间的相似性，为智能系统的设计提供了新的思路，值得关注。"
-          },
-          {
-            "title": "AI 评估应与人类协作",
-            "summary": "我注意到，当前 AI 评估的主流模式过于关注超人类的自主表现，实际上这可能会引导 AI 发展走向错误的方向。相反，AI 社区应该转向评估人类与 AI 团队的表现，这种合作模式将更好地促进 AI 系统与人类能力的互补，从而带来更积极的社会结果。",
-            "source": "RSS · arXiv cs.AI",
-            "url": "https://arxiv.org/abs/2608.13577",
-            "score": 82,
-            "sourceCount": 1,
-            "date": "2026-08-18",
-            "publishedAt": "",
-            "reason": "这篇论文提出了一个重要的视角转变，强调人机协作的重要性，值得关注和深入探讨。"
           }
         ]
       },
@@ -14157,12 +14239,120 @@ window.AI_GENERATED_DATA = {
             "date": "2026-08-19",
             "publishedAt": "2026-08-19T06:00",
             "reason": "ChatGPT Ads 的扩展为广告主提供了新的市场机会，尤其是在用户决策过程中，值得关注。"
+          },
+          {
+            "title": "OpenRouter 与 Stripe 合并，继续独立运营",
+            "summary": "OpenRouter 宣布与 Stripe 合并，旨在加速全球经济增长。OpenRouter 每日处理来自 400 多个 AI 模型的 10+ 万亿 token，服务超过 1000 万开发者与公司，自成立以来推理量每年增长至少 10 倍。合并后，OpenRouter 将保持原名和",
+            "source": "OpenRouter：Announcements（RSS）",
+            "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe",
+            "score": 65,
+            "sourceCount": 1,
+            "date": "2026-08-19",
+            "publishedAt": "2026-08-19T08:00",
+            "reason": "OpenRouter 与 Stripe 的合并将为 AI 开发者提供更强大的支持，值得关注其后续发展。"
           }
         ]
       }
     ]
   },
   "dailyReports": [
+    {
+      "date": "2026-08-19",
+      "generatedAt": "2026-08-19T16:00:15.239765Z",
+      "total": 6,
+      "sections": [
+        {
+          "category": "ai-tools",
+          "label": "AI 工具",
+          "items": [
+            {
+              "title": "自定义 Amazon Quick 嵌入式聊天功能",
+              "summary": "我注意到 Amazon Quick 嵌入式聊天为网页应用提供了对话式 AI 接口，用户可以在应用内提问、探索数据和获取见解。通过自定义聊天界面，可以确保其外观和感觉与品牌一致，提升用户体验。",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/customize-amazon-quick-embedded-chat-into-your-application/",
+              "score": 77,
+              "sourceCount": 1,
+              "date": "2026-08-19",
+              "publishedAt": "2026-08-19T01:13",
+              "reason": "这篇文章提供了实用的自定义指南，帮助开发者将 Amazon Quick 嵌入式聊天与品牌形象完美结合，提升用户体验。"
+            }
+          ]
+        },
+        {
+          "category": "ai-agents",
+          "label": "Agent / MCP",
+          "items": [
+            {
+              "title": "Amazon Bedrock AgentCore 支付功能正式上线，AI 代理可安全自主交易",
+              "summary": "Amazon Bedrock AgentCore 支付功能现已全面上线，允许 AI 代理在内置支出保护机制的支持下，安全且自主地进行大规模交易。该功能具备协议无关的支付编排能力，并提供生产级的可观察性，旨在提升交易的安全性和效率。",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-payments-is-now-generally-available-enabling-agents-to-transact-safely-and-autonomously-at-scale/",
+              "score": 78,
+              "sourceCount": 1,
+              "date": "2026-08-19",
+              "publishedAt": "2026-08-19T02:56",
+              "reason": "这项功能的推出为企业提供了一个安全、高效的交易解决方案，值得关注。"
+            }
+          ]
+        },
+        {
+          "category": "ai-models",
+          "label": "模型发布",
+          "items": [
+            {
+              "title": "Claude 如何加速蛋白质设计与分析化学研究",
+              "summary": "Anthropic 公布两项实验：Claude（Mythos Preview 和 Opus 4.8）针对 15 个靶点设计蛋白质结合剂，成功 14 个，命中率达 22.6%-35.1%。",
+              "source": "Anthropic：Research（发表成果 · 网页）",
+              "url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-19",
+              "publishedAt": "2026-08-19T06:27",
+              "reason": ""
+            },
+            {
+              "title": "Strengthening democratic oversight in national security",
+              "summary": "OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, ",
+              "source": "RSS · OpenAI Blog",
+              "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-19",
+              "publishedAt": "2026-08-19T03:00",
+              "reason": ""
+            },
+            {
+              "title": "Liquid AI 发布 LFM2.5 QAD Q4_0 检查点，恢复 97% 精度损失",
+              "summary": "最近看到 Liquid AI 发布了基于量化感知蒸馏（QAD）训练的 LFM2.5 系列 Q4_0 GGUF 检查点，包括 LFM2.5-230M、350M、1.2B-Instruct 和 2.6B 四个版本。这些检查点在保持原生 Q4_0 的内存和速度的同时，成功恢复了 97%",
+              "source": "Hugging Face：Blog（RSS）",
+              "url": "https://huggingface.co/blog/LiquidAI/qad",
+              "score": 66,
+              "sourceCount": 1,
+              "date": "2026-08-19",
+              "publishedAt": "2026-08-19T21:48",
+              "reason": "这条信息值得关注，因为它展示了 Liquid AI 在量化模型优化方面的最新成果，极大提升了模型的实用性和性能。"
+            }
+          ]
+        },
+        {
+          "category": "ai-business",
+          "label": "行业商业",
+          "items": [
+            {
+              "title": "ChatGPT Ads 在欧洲市场扩展至 31 个国家",
+              "summary": "ChatGPT Ads 正在向 31 个欧洲市场扩展，广告主可以借此机会在用户探索、比较选项和做出决策时进行精准投放。这一扩展为广告主提供了新的触达用户的方式，尤其是在竞争激烈的市场环境中。",
+              "source": "RSS · OpenAI Blog",
+              "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+              "score": 78,
+              "sourceCount": 1,
+              "date": "2026-08-19",
+              "publishedAt": "2026-08-19T06:00",
+              "reason": "ChatGPT Ads 的扩展为广告主提供了新的市场机会，尤其是在用户决策过程中，值得关注。"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-18",
       "generatedAt": "2026-08-18T16:00:04.650358Z",
@@ -25734,450 +25924,10 @@ window.AI_GENERATED_DATA = {
           ]
         }
       ]
-    },
-    {
-      "date": "2026-06-18",
-      "generatedAt": "2026-06-18T16:19:04.338535Z",
-      "total": 35,
-      "sections": [
-        {
-          "category": "ai-tools",
-          "label": "AI 工具",
-          "items": [
-            {
-              "title": "NVIDIA GEAR实验室推出ENPIRE系统，实现机器人自主物理实验",
-              "summary": "NVIDIA GEAR实验室发布ENPIRE系统，首次实现机器人在物理世界中的自主研究。该系统由8个Codex智能体控制8台机器人，具备GPU和token预算，采用双重安全机制，支持无人通宵运行。尽管系统在效率上表现出色，但仍面临一些局限性。",
-              "source": "X：Jim Fan (@DrJimFan)",
-              "url": "https://x.com/DrJimFan/status/2067283904986517866",
-              "score": 68,
-              "sourceCount": 1,
-              "date": "2026-06-18",
-              "publishedAt": "2026-06-18T00:31",
-              "reason": "ENPIRE系统的推出为机器人自主研究开辟了新天地，值得关注其在科研和工业应用中的潜力。"
-            },
-            {
-              "title": "通过 Workload Identity Federation 安全访问 Claude 平台",
-              "summary": "Workload Identity Federation（WIF）现已在 Claude 平台全面推出，支持任何 OIDC 身份提供者，覆盖所有 Claude API 端点。WIF 用短期凭证替代静态 API 密钥，允许每个工作负载拥有独立身份和审计日志。用户可通过 Claude ",
-              "source": "Claude：Blog（网页）",
-              "url": "https://claude.com/blog/workload-identity-federation",
-              "score": 67,
-              "sourceCount": 1,
-              "date": "2026-06-18",
-              "publishedAt": "2026-06-18T04:44",
-              "reason": "WIF 的推出为开发者提供了更安全、灵活的身份管理方式，值得关注其在实际应用中的潜力。"
-            },
-            {
-              "title": "Adobe 在 Creative Cloud 应用中引入 AI 智能体",
-              "summary": "Adobe 最近在其 Photoshop、Premiere 等 Creative Cloud 应用中推出了 AI 智能体，旨在简化用户的多步骤常规任务。用户只需描述需求，智能体便能自动完成如素材分拣、背景更换等工作。此外，Firefly 平台也新增了针对个人创作者的工具，提升了创",
-              "source": "The Decoder：AI News（RSS）",
-              "url": "https://the-decoder.com/adobe-adds-ai-agents-to-photoshop-premiere-and-more-creative-cloud-apps",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-06-18",
-              "publishedAt": "2026-06-18T20:59",
-              "reason": "Adobe 的 AI 智能体通过简化常规任务，极大提升了创作者的工作效率，值得关注。"
-            },
-            {
-              "title": "DeepSeek 识图模式正式上线，提升图像识别能力",
-              "summary": "我注意到，DeepSeek 的识图模式于6月18日在网页和 App 端正式上线，用户可以直接上传图片进行识别，功能超越简单的文字提取。虽然 App 端仍显示“图片理解功能内测中”，但网页端已经可以正常使用。该模式基于多模态模型技术，核心框架为“以视觉原语思考”。",
-              "source": "IT之家（RSS）",
-              "url": "https://www.ithome.com/0/966/066.htm",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-06-18",
-              "publishedAt": "2026-06-18T15:48",
-              "reason": "DeepSeek 的识图模式通过多模态技术提升了图像识别能力，值得关注其在各行业的应用潜力。"
-            },
-            {
-              "title": "Claude Design 更新：跨项目统一设计系统与Claude Code协同",
-              "summary": "Claude Design于6月17日更新，支持跨项目使用统一设计系统，并与Claude Code无缝协作。用户可直接拖拽、对齐和缩放画布元素，编辑器稳定性显著提升。设计系统可从GitHub、设计文件或原始上传导入，团队管理员可锁定标准系统以防篡改。新增桌面端侧边栏入口及独立网页",
-              "source": "Claude：Blog（网页）",
-              "url": "https://claude.com/blog/claude-design-stays-on-brand-for-daily-work",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-06-18",
-              "publishedAt": "2026-06-18T04:44",
-              "reason": "Claude Design的更新显著提升了设计与开发的协作效率，值得关注其对团队工作流的影响。"
-            },
-            {
-              "title": "Google推出99美元Gemini智能音箱，重塑智能家居体验",
-              "summary": "Google发布了首款专为Gemini AI设计的智能音箱Google Home Speaker，售价99.99美元。该设备支持自然语言请求和多步指令，用户可在说话中途进行纠正，具备连续对话功能。高级AI功能需订阅Google Home Premium（月费10美元或年费100美",
-              "source": "TechCrunch：AI（RSS）",
-              "url": "https://techcrunch.com/2026/06/17/google-bets-on-gemini-to-reinvent-the-smart-home-speaker",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-06-18",
-              "publishedAt": "2026-06-18T00:30",
-              "reason": "Google Home Speaker通过Gemini AI的引入，显著提升了智能音箱的交互能力，值得关注其对智能家居市场的潜在影响。"
-            },
-            {
-              "title": "Claude Design与Replit联动，设计转化为应用",
-              "summary": "Claude Design现已与Replit实现联动，用户可以将设计直接发送至Replit，快速构建可工作的应用。这一功能简化了设计与开发的流程，提高了工作效率。",
-              "source": "X：Replit (@Replit)",
-              "url": "https://x.com/Replit/status/2067328501003497684",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-06-18",
-              "publishedAt": "2026-06-18T03:28",
-              "reason": "Claude Design与Replit的联动功能为设计师和开发者提供了全新的工作方式，值得关注其对工作流程的影响。"
-            },
-            {
-              "title": "Google 分享 A2UI 与 MCP Apps 三种集成架构模式",
-              "summary": "2026年6月17日，Google 发布了三种集成 A2UI 与 MCP Apps 的架构模式，旨在结合两者的优势。A2UI 通过 JSON payload 定义 UI，确保安全性与一致性，但受限于组件库；而 MCP Apps 则使用 iframe 提供自定义界面，面临设计碎片化",
-              "source": "Google Developers Blog（RSS）",
-              "url": "https://developers.googleblog.com/a2ui-and-mcp-apps",
-              "score": 63,
-              "sourceCount": 1,
-              "date": "2026-06-18",
-              "publishedAt": "2026-06-18T05:13",
-              "reason": "Google 的这次分享为开发者提供了新的架构思路，结合了声明式与自定义 UI 的优势，值得关注。"
-            },
-            {
-              "title": "GitHub 发布 CC0-1.0 开源多语言数据集，助力多语言 AI 开发",
-              "summary": "GitHub 最近推出了一个新的开源数据集，采用 CC0-1.0 许可证，覆盖 README、Issue 和 Pull Request 的多语言内容。这一举措旨在为研究人员和开发者提供丰富的多语言开发者信息，推动多语言 AI 的发展。然而，该数据集的实际应用效果仍需进一步观察。",
-              "source": "GitHub Blog",
-              "url": "https://github.blog/ai-and-ml/github-copilot/getting-more-from-each-token-how-copilot-improves-context-handling-and-model-routing",
-              "score": 63,
-              "sourceCount": 1,
-              "date": "2026-06-18",
-              "publishedAt": "2026-06-18T03:41",
-              "reason": "这一数据集的推出为多语言 AI 的研究提供了重要的基础数据，值得关注。"
-            },
-            {
-              "title": "Matt Pocock 开源 skills v1，技能描述 Token 成本降低 63%",
-              "summary": "Matt Pocock 开源的 skills v1 工具包通过优化技能描述，成功将 Token 成本降低 63%。该工具包将技能分为模型可调用和用户可调用，新增多项技能，提升了 AI 的自动化能力和使用效率。",
-              "source": "X：阿易 AI Notes (@AYi_AInotes)",
-              "url": "https://x.com/AYi_AInotes/status/2067327021005656135",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-06-18",
-              "publishedAt": "2026-06-18T03:22",
-              "reason": "skills v1 的发布不仅降低了 AI 开发的成本，还通过优化技能调用流程提升了开发效率，值得关注。"
-            },
-            {
-              "title": "63%美国人认为AI发展过快，ChatGPT使用率翻番",
-              "summary": "皮尤研究中心最新民调显示，63%的美国人认为AI发展速度过快，44%的受访者曾使用ChatGPT，使用率较2023年翻番。年轻人使用率更高，但对AI的社会影响持悲观态度，66%的成年人担心AI传播错误信息。",
-              "source": "IT之家（RSS）",
-              "url": "https://www.ithome.com/0/966/233.htm",
-              "score": 59,
-              "sourceCount": 1,
-              "date": "2026-06-18",
-              "publishedAt": "2026-06-18T20:11",
-              "reason": "这条信息揭示了公众对AI技术的复杂态度，尤其是年轻人对AI的使用和看法，为理解AI在社会中的角色提供了重要视角。"
-            }
-          ]
-        },
-        {
-          "category": "ai-coding",
-          "label": "AI 编程",
-          "items": [
-            {
-              "title": "苹果 Xcode 27 深度整合 AI 智能体，支持自然语言编程",
-              "summary": "苹果在 2026 年 WWDC 上发布的 Xcode 27 首次整合 AI 智能体，支持开发者通过自然语言修复 Bug 和构建应用。该版本能够理解 Swift 语言，并支持多轮对话，允许跨文件修改代码库。Xcode 27 还接入了 Anthropic、OpenAI 和 Googl",
-              "source": "IT之家（RSS）",
-              "url": "https://www.ithome.com/0/965/734.htm",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-06-18",
-              "publishedAt": "2026-06-18T08:43",
-              "reason": "Xcode 27 的 AI 集成标志着开发工具的重大进步，值得关注其对编程方式的潜在影响。"
-            },
-            {
-              "title": "Claude Code v2.1.181 更新：新功能与修复",
-              "summary": "我注意到 Claude Code v2.1.181 版本发布了，新增了许多实用功能，比如可以通过 `/config key=value` 语法直接在提示中设置配置项，还支持 Apple Events 的沙盒命令。此外，内置的 Bun 运行时也升级到了 1.4，改进了长段落的流式输",
-              "source": "Claude Code：GitHub Releases（RSS）",
-              "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.181",
-              "score": 63,
-              "sourceCount": 1,
-              "date": "2026-06-18",
-              "publishedAt": "2026-06-18T06:07",
-              "reason": "这次更新包含了许多实用的新功能和重要的性能修复，值得开发者关注和尝试。"
-            },
-            {
-              "title": "cuTile Rust：内存安全的 GPU 编程新选择",
-              "summary": "cuTile Rust 是一个新兴的 GPU 编程系统，基于 Rust 语言，提供内存安全和无数据竞争的内核编写能力。通过独特的宏和 JIT 编译技术，cuTile Rust 在性能上表现出色，尤其在 NVIDIA B200 上实现了 7 TB/s 的逐元素操作速度。然而，该项目",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://github.com/nvlabs/cutile-rs",
-              "score": 58,
-              "sourceCount": 1,
-              "date": "2026-06-18",
-              "publishedAt": "2026-06-18T11:09",
-              "reason": "cuTile Rust 提供了一种新颖的 GPU 编程方式，结合了 Rust 的安全性和高性能，值得关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-image-video",
-          "label": "图像视频",
-          "items": [
-            {
-              "title": "ChatGPT 图像生成器存在严重内容过滤漏洞",
-              "summary": "Mindgard 的研究揭示，ChatGPT 的图像生成器可以通过简单的提示词轻易绕过内容过滤器，生成性暴力和血腥图像。这一发现不仅暴露了 AI 工具在内容审查上的不足，也引发了对其训练数据来源的质疑。尽管 OpenAI 声称已修复相关问题，但实际情况表明，内容过滤仍然存在显著漏",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://mindgard.ai/blog/chatgpt-spontaneously-generated-violent-images-from-a-viral-prompt",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-06-18",
-              "publishedAt": "2026-06-18T19:25",
-              "reason": "这一研究揭示了 ChatGPT 在内容过滤方面的重大缺陷，值得关注和反思。"
-            },
-            {
-              "title": "免费开源乔木画布：一键部署在线图像编辑器",
-              "summary": "乔木画布推出的免费开源在线图像编辑器，功能类似简化版PS，支持多种生图和模板，用户可一键部署至Vercel。该工具允许用户创建不同尺寸的画布，并提供丰富的图标和Emoji库，现全功能免费开放，适合各种图像处理需求。",
-              "source": "X：Vista (@vista8)",
-              "url": "https://x.com/vista8/status/2067513484364140994",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-06-18",
-              "publishedAt": "2026-06-18T15:43",
-              "reason": "乔木画布的在线图像编辑器以其简化的操作和强大的功能，成为设计师和内容创作者的理想工具，值得一试。"
-            },
-            {
-              "title": "Midjourney Scanner 技术深度解析",
-              "summary": "这次发布的核心点是 Midjourney 推出的全新 \"Midjourney Scanner\"，它为图像生成带来了新的技术突破，提升了用户的创作体验和效率。",
-              "source": "X：Midjourney (@midjourney)",
-              "url": "https://x.com/midjourney/status/2067422898407837797",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-06-18",
-              "publishedAt": "2026-06-18T09:43",
-              "reason": "Midjourney Scanner 的推出为图像生成带来了新的可能性，尤其适合需要高效创作的用户，值得关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-agents",
-          "label": "Agent / MCP",
-          "items": [
-            {
-              "title": "Vercel 发布开源 AI 智能体框架 Eve，采用文件系统优先设计",
-              "summary": "Vercel 最近推出了开源 AI 智能体框架 Eve，旨在简化智能体的构建与管理。Eve 采用文件系统优先的设计理念，每个智能体对应一个磁盘目录，内置六大生产级能力，包括持久执行和沙箱计算等。Vercel 目前在内部运行超过一百个智能体，涵盖数据分析和销售自动化等多个领域。",
-              "source": "MarkTechPost（RSS）",
-              "url": "https://www.marktechpost.com/2026/06/17/vercel-releases-eve",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-06-18",
-              "publishedAt": "2026-06-18T01:22",
-              "reason": "Vercel 的 Eve 框架通过简化智能体的构建和管理流程，为开发者提供了高效的工具，值得关注。"
-            },
-            {
-              "title": "谷歌推出开放规范Agentic Resource Discovery（ARD）",
-              "summary": "这次发布的核心点是谷歌推出的Agentic Resource Discovery（ARD）规范，旨在提升AI工具、技能和智能体在网络上的发布、发现与验证效率。通过标准化的目录和注册机制，ARD为不同组织间的能力共享提供了安全可靠的解决方案，助力智能体在复杂生态系统中更高效地运作。",
-              "source": "Google Developers Blog（RSS）",
-              "url": "https://developers.googleblog.com/announcing-the-agentic-resource-discovery-specification",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-06-18",
-              "publishedAt": "2026-06-18T00:08",
-              "reason": "ARD规范通过标准化能力发布与验证，提升了智能体在复杂生态系统中的互操作性，值得关注。"
-            },
-            {
-              "title": "Kimi Work 推出目标模式与插件中心，会员额度减半",
-              "summary": "Kimi Work（Beta 版）新增目标模式，支持设定任务终点后由 Agent 自主推进，最长可连续运行24小时，用户可随时中断调整。同时上线插件中心，支持百度网盘、Canva可画、钉钉等外部应用。6月期间，Kimi 电脑客户端 Work 模式所有任务会员额度消耗减半，从0.0",
-              "source": "公众号：月之暗面（Kimi）",
-              "url": "https://mp.weixin.qq.com/s/KJav-s9qlkzV9yN8r6-sNg",
-              "score": 59,
-              "sourceCount": 1,
-              "date": "2026-06-18",
-              "publishedAt": "2026-06-18T17:06",
-              "reason": "Kimi Work 的新功能显著提升了任务管理的灵活性与效率，值得关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-models",
-          "label": "模型发布",
-          "items": [
-            {
-              "title": "LOGOS：首个开源统一科学大模型",
-              "summary": "LOGOS是由ATH-Token Foundry与中国人民大学高瓴人工智能学院联合开源的首个基于统一科学语法的多领域科学生成基础模型。其1B参数在六大科学任务中表现优异，超越了多种领域专用方法，已完整开源模型权重、推理代码与技术报告。",
-              "source": "公众号：通义实验室（千问）",
-              "url": "https://mp.weixin.qq.com/s/50q5uY849FKnBzk1Q04MRg",
-              "score": 69,
-              "sourceCount": 1,
-              "date": "2026-06-18",
-              "publishedAt": "2026-06-18T10:31",
-              "reason": "LOGOS的开源为科学研究提供了强大的基础模型，推动了多领域的创新与发展，值得关注。"
-            },
-            {
-              "title": "我国首部L3/L4自动驾驶强制性国标将于2027年实施",
-              "summary": "工信部于6月16日发布了我国首部针对L3/L4自动驾驶的强制性国家标准，计划于2027年7月1日起实施。该标准要求自动驾驶系统的安全水平至少达到“合格且专注驾驶人”，并引入Safety Case机制，强调人机交接和风险处置能力，标志着自动驾驶行业的监管进入新阶段。",
-              "source": "IT之家（RSS）",
-              "url": "https://www.ithome.com/0/966/272.htm",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-06-18",
-              "publishedAt": "2026-06-18T22:57",
-              "reason": "这条信息值得关注，因为它标志着我国自动驾驶行业进入了以安全为核心的新阶段，影响深远。"
-            },
-            {
-              "title": "火山引擎推出豆包实时语音模型3.0 API 服务",
-              "summary": "火山引擎正式上线豆包实时语音模型3.0（Seeduplex）API 服务，现已开启邀测。该模型具备全双工语音交互能力，能够在复杂场景中有效识别并响应用户指令，显著提升语音交互的流畅性和准确性，适用于智能座舱、智能硬件及客服等多种应用场景。",
-              "source": "公众号：火山引擎",
-              "url": "https://mp.weixin.qq.com/s/L4BJnexabQu5DAxDnwEGxw",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-06-18",
-              "publishedAt": "2026-06-18T18:36",
-              "reason": "豆包实时语音模型3.0的推出，标志着语音交互技术的又一次重大进步，值得关注其在各行业中的应用潜力。"
-            },
-            {
-              "title": "MOSS-TTS-Local-Transformer-v1.5：高效流式语音合成服务",
-              "summary": "MOSS-TTS-Local-Transformer-v1.5 是一款开源的文本转语音（TTS）模型，支持48 kHz立体声、零样本声音克隆和最长10分钟的长文本合成。该模型采用Qwen3-4B骨干和MOSS-Audio-Tokenizer-v2音频编解码器，能够处理31种语言。",
-              "source": "LMSYS：Blog（Chatbot Arena 团队）",
-              "url": "https://www.lmsys.org/blog/2026-06-17-moss-tts-local-v15",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-06-18",
-              "publishedAt": "2026-06-18T13:56",
-              "reason": "MOSS-TTS-Local-Transformer-v1.5凭借其高效的流式处理能力和多语言支持，成为语音合成领域的重要工具，值得开发者深入了解和应用。"
-            },
-            {
-              "title": "上交所支持AI大模型企业上市新指引",
-              "summary": "上海证券交易所于6月17日发布新指引，允许尚未实现稳定收入的优质人工智能大模型企业通过科创板第五套上市标准进行上市。企业需在行业地位、市场需求和研发进度等方面具备竞争力，并至少有一个大模型产品完成上线并实现规模化应用，以验证其商业模式的可行性。此举旨在推动符合条件的企业在科创板上",
-              "source": "IT之家（RSS）",
-              "url": "https://www.ithome.com/0/965/735.htm",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-06-18",
-              "publishedAt": "2026-06-18T08:49",
-              "reason": "此次上交所发布的指引为AI大模型企业提供了新的上市机会，具有重要的政策意义和市场价值，值得关注。"
-            },
-            {
-              "title": "SGLang-JAX在TPU上优化Ling-2.6-1T的性能提升与局限",
-              "summary": "SGLang-JAX现已支持inclusionAI的Ling-2.6-1T模型在TPU v7x上的高效推理，采用Fused MoE V2核显著降低了MoE预填充和解码延迟，分别降幅53%和15%。尽管如此，该技术仍面临通信限制和硬件兼容性问题。",
-              "source": "LMSYS：Blog（Chatbot Arena 团队）",
-              "url": "https://www.lmsys.org/blog/2026-06-17-ling-2-6-tpu",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-06-18",
-              "publishedAt": "2026-06-18T01:53",
-              "reason": "这一技术展示了在TPU上优化大规模模型的潜力，值得关注其在实际应用中的表现与局限。"
-            },
-            {
-              "title": "Noam Shazeer 离开谷歌，加盟 OpenAI",
-              "summary": "AI 领域的知名人物 Noam Shazeer，曾被谷歌以 27 亿美元重召，现已离职并加入 OpenAI。这一变动对谷歌的 Gemini 项目构成重大挑战，可能影响其未来发展。",
-              "source": "X：Yuchen Jin (@Yuchenj_UW)",
-              "url": "https://x.com/Yuchenj_UW/status/2067401895178817999",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-06-18",
-              "publishedAt": "2026-06-18T08:19",
-              "reason": "这一人事变动不仅影响了谷歌的 AI 战略，也可能重塑整个行业的竞争格局，值得关注。"
-            },
-            {
-              "title": "LoRA 仍是参数高效微调的主流选择",
-              "summary": "在参数高效微调（PEFT）技术中，LoRA 以 98.4% 的市场占有率占据绝对主导地位。尽管有研究声称其他技术超越 LoRA，但调整学习率后，LoRA 的性能可与之匹敌。Hugging Face 的 PEFT 库提供了 40 多种技术的统一 API，并开始进行基准测试，以帮助用",
-              "source": "Hugging Face：Blog（RSS）",
-              "url": "https://huggingface.co/blog/peft-beyond-lora",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-06-18",
-              "publishedAt": "2026-06-18T08:00",
-              "reason": "本文深入分析了 LoRA 在 PEFT 领域的主导地位及其影响，提供了对比和实用建议，值得关注。"
-            },
-            {
-              "title": "G7会议上呼吁组建排除中国的AI联盟",
-              "summary": "在G7闭门会议上，Anthropic的Dario Amodei与DeepMind的Demis Hassabis呼吁建立一个美国主导的人工智能联盟，旨在制定全球规则和标准，并将中国排除在外。这一提议被视为高科技新冷战的开端，可能会影响全球技术竞争格局。",
-              "source": "X：Kim (@kimmonismus)",
-              "url": "https://x.com/kimmonismus/status/2067310431669223425",
-              "score": 63,
-              "sourceCount": 1,
-              "date": "2026-06-18",
-              "publishedAt": "2026-06-18T02:16",
-              "reason": "这一提议不仅反映了当前国际关系的复杂性，也可能重塑全球AI技术的竞争格局，值得关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-benchmark",
-          "label": "评测榜单",
-          "items": [
-            {
-              "title": "Hugging Face 发布 AI 智能体基准测试框架",
-              "summary": "Hugging Face 推出了一种新的基准测试框架，旨在评估开源模型在 AI 智能体使用场景中的表现。该框架通过 pi coding agent 驱动，重点关注任务完成的成本、延迟、token 使用量和失败率，而不仅仅是最终结果。经过优化，hf CLI 的 agent toke",
-              "source": "Hugging Face：Blog（RSS）",
-              "url": "https://huggingface.co/blog/is-it-agentic-enough",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-06-18",
-              "publishedAt": "2026-06-18T08:00",
-              "reason": "Hugging Face 的基准测试框架为 AI 开发者提供了一种全新的评估工具，帮助优化智能体的使用效率，值得关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-research",
-          "label": "论文研究",
-          "items": [
-            {
-              "title": "利用 AI 辅助医生诊断儿童罕见遗传疾病",
-              "summary": "我注意到，研究人员使用 OpenAI 的推理模型，成功帮助诊断了多例罕见疾病，发现了 18 个新诊断案例，这些案例在之前都未能解决。这项技术的应用为儿童罕见遗传疾病的诊断带来了新的希望。",
-              "source": "RSS · OpenAI Blog",
-              "url": "https://openai.com/index/diagnose-rare-childhood-diseases",
-              "score": 82,
-              "sourceCount": 1,
-              "date": "2026-06-18",
-              "publishedAt": "2026-06-18T16:00",
-              "reason": "这项研究展示了 AI 在医疗领域的实际应用潜力，尤其是在罕见疾病的诊断上，值得关注。"
-            },
-            {
-              "title": "Noam Shazeer 加入 OpenAI 进行模型架构研究",
-              "summary": "Character AI 的前 CEO Noam Shazeer，作为 transformer 论文的作者之一和 MoE 架构的提出者，已正式加入 OpenAI，专注于模型架构的研究。Shazeer 曾在谷歌工作，因谷歌以 27 亿美元收购 Character AI 而加入，但不",
-              "source": "X：歸藏 (@op7418)",
-              "url": "https://x.com/op7418/status/2067432296127557888",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-06-18",
-              "publishedAt": "2026-06-18T10:20",
-              "reason": "Noam Shazeer 的加入为 OpenAI 带来了丰富的经验和创新思维，值得关注其对 AI 研究的潜在影响。"
-            }
-          ]
-        },
-        {
-          "category": "ai-business",
-          "label": "行业商业",
-          "items": [
-            {
-              "title": "八部门发布实施意见，支持消费者购买 AI 相关产品",
-              "summary": "2023年6月18日，商务部等八部门联合发布实施意见，旨在加快“人工智能+消费”发展。意见强调财政资金支持，鼓励地方制定补贴政策，推动新一代智能终端消费，增加AI产品供给，涵盖智能手机、智能家居等，促进AI在多个领域的应用。",
-              "source": "IT之家（RSS）",
-              "url": "https://www.ithome.com/0/966/154.htm",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-06-18",
-              "publishedAt": "2026-06-18T17:03",
-              "reason": "此次实施意见为推动人工智能与消费的深度融合提供了政策支持，具有重要的市场导向和实际应用价值。"
-            },
-            {
-              "title": "苹果因AI热潮面临存储芯片涨价压力，iPhone售价或大幅上涨",
-              "summary": "我注意到，苹果CEO库克表示，当前的AI热潮导致存储芯片严重短缺，价格暴涨，苹果产品涨价已\"不可避免\"。根据华尔街日报的报道，全球AI巨头的资本开支大幅增加，导致高带宽内存需求激增，进一步挤压了消费电子芯片的供应。自2024年以来，内存和存储芯片价格已翻四倍，预计这一涨势将持续到",
-              "source": "IT之家（RSS）",
-              "url": "https://www.ithome.com/0/965/694.htm",
-              "score": 61,
-              "sourceCount": 1,
-              "date": "2026-06-18",
-              "publishedAt": "2026-06-18T06:41",
-              "reason": "这条信息揭示了AI热潮对消费电子市场的深远影响，尤其是苹果产品的定价策略，值得关注。"
-            },
-            {
-              "title": "OpenAI 2025年营收130亿但亏损超390亿",
-              "summary": "根据泄露的财务文件，OpenAI预计2025年营收将达到130.7亿美元，较2024年的37亿美元大幅增长。然而，研发成本高达191.8亿美元，其中包括向微软支付的105.9亿美元，导致运营亏损达到209.2亿美元，净亏损约390亿美元。为控制成本，OpenAI已关闭Sora视频",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://arstechnica.com/ai/2026/06/leaked-financial-docs-show-openai-is-losing-billions-of-dollars-a-year",
-              "score": 60,
-              "sourceCount": 1,
-              "date": "2026-06-18",
-              "publishedAt": "2026-06-18T07:09",
-              "reason": "OpenAI的财务状况揭示了AI行业的高风险与高回报特性，值得关注其未来发展。"
-            }
-          ]
-        }
-      ]
     }
   ],
   "llmLeaderboard": {
-    "updated": "2026-08-17",
+    "updated": "2026-08-20",
     "source": "ReLE 中文大模型能力评测（综合能力）",
     "sourceUrl": "https://github.com/jeinlee1991/chinese-llm-benchmark",
     "items": [
@@ -26224,6 +25974,16 @@ window.AI_GENERATED_DATA = {
       {
         "rank": 5,
         "type": "商用",
+        "org": "google",
+        "model": "gemini-3.7-flash(new)",
+        "score": "75.4%",
+        "latency": "10s",
+        "tokens": "1269",
+        "cost": "27.8"
+      },
+      {
+        "rank": 6,
+        "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3.6-max-preview",
         "score": "75.4%",
@@ -26232,7 +25992,7 @@ window.AI_GENERATED_DATA = {
         "cost": "139.2"
       },
       {
-        "rank": 6,
+        "rank": 7,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3.8-max(new)",
@@ -26242,7 +26002,7 @@ window.AI_GENERATED_DATA = {
         "cost": "107.3"
       },
       {
-        "rank": 7,
+        "rank": 8,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.5",
@@ -26252,7 +26012,7 @@ window.AI_GENERATED_DATA = {
         "cost": "158.5"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "type": "商用",
         "org": "google",
         "model": "gemini-3.1-pro-preview",
@@ -26262,7 +26022,17 @@ window.AI_GENERATED_DATA = {
         "cost": "250.5"
       },
       {
-        "rank": 9,
+        "rank": 10,
+        "type": "开源",
+        "org": "深度求索",
+        "model": "deepseek-v4-pro(new)",
+        "score": "74.9%",
+        "latency": "145s",
+        "tokens": "3679",
+        "cost": "94.1"
+      },
+      {
+        "rank": 11,
         "type": "商用",
         "org": "豆包",
         "model": "doubao-seed-2-1-pro-260628(new)",
@@ -26272,7 +26042,7 @@ window.AI_GENERATED_DATA = {
         "cost": "313.2"
       },
       {
-        "rank": 10,
+        "rank": 12,
         "type": "商用",
         "org": "anthropic",
         "model": "claude-opus-4.8-thinking(new)",
@@ -26282,7 +26052,7 @@ window.AI_GENERATED_DATA = {
         "cost": "238.2"
       },
       {
-        "rank": 11,
+        "rank": 13,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.6-sol-pro(new)",
@@ -26292,7 +26062,7 @@ window.AI_GENERATED_DATA = {
         "cost": "398.7"
       },
       {
-        "rank": 12,
+        "rank": 14,
         "type": "商用",
         "org": "google",
         "model": "gemini-3.5-flash",
@@ -26302,7 +26072,7 @@ window.AI_GENERATED_DATA = {
         "cost": "151.2"
       },
       {
-        "rank": 13,
+        "rank": 15,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3.7-plus(new)",
@@ -26312,7 +26082,7 @@ window.AI_GENERATED_DATA = {
         "cost": "31.7"
       },
       {
-        "rank": 14,
+        "rank": 16,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "qwen3.5-plus",
@@ -26322,7 +26092,7 @@ window.AI_GENERATED_DATA = {
         "cost": "22.9"
       },
       {
-        "rank": 15,
+        "rank": 17,
         "type": "商用",
         "org": "豆包",
         "model": "doubao-seed-2-1-turbo-260628(new)",
@@ -26332,7 +26102,7 @@ window.AI_GENERATED_DATA = {
         "cost": "136.3"
       },
       {
-        "rank": 16,
+        "rank": 18,
         "type": "开源",
         "org": "智谱AI",
         "model": "glm-5.2(new)",
@@ -26342,7 +26112,7 @@ window.AI_GENERATED_DATA = {
         "cost": "110.5"
       },
       {
-        "rank": 17,
+        "rank": 19,
         "type": "开源",
         "org": "月之暗面",
         "model": "kimi-k2.6",
@@ -26352,7 +26122,7 @@ window.AI_GENERATED_DATA = {
         "cost": "100.4"
       },
       {
-        "rank": 18,
+        "rank": 20,
         "type": "商用",
         "org": "豆包",
         "model": "Doubao-Seed-2.0-pro",
@@ -26362,7 +26132,7 @@ window.AI_GENERATED_DATA = {
         "cost": "22.5"
       },
       {
-        "rank": 19,
+        "rank": 21,
         "type": "开源",
         "org": "月之暗面",
         "model": "kimi-k2.7-code(new)",
@@ -26372,7 +26142,7 @@ window.AI_GENERATED_DATA = {
         "cost": "49.7"
       },
       {
-        "rank": 20,
+        "rank": 22,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.4-high",
@@ -26382,17 +26152,17 @@ window.AI_GENERATED_DATA = {
         "cost": "122.3"
       },
       {
-        "rank": 21,
+        "rank": 23,
         "type": "开源",
         "org": "深度求索",
-        "model": "deepseek-v4-pro(new)",
+        "model": "deepseek-v4-pro-0424",
         "score": "71.7%",
         "latency": "65s",
         "tokens": "2369",
         "cost": "54.3"
       },
       {
-        "rank": 22,
+        "rank": 24,
         "type": "商用",
         "org": "anthropic",
         "model": "claude-opus-4.8(new)",
@@ -26402,7 +26172,7 @@ window.AI_GENERATED_DATA = {
         "cost": "99.4"
       },
       {
-        "rank": 23,
+        "rank": 25,
         "type": "开源",
         "org": "小米",
         "model": "mimo-v2.5-pro",
@@ -26412,7 +26182,7 @@ window.AI_GENERATED_DATA = {
         "cost": "64.3"
       },
       {
-        "rank": 24,
+        "rank": 26,
         "type": "商用",
         "org": "google",
         "model": "gemini-3-flash-preview",
@@ -26422,7 +26192,7 @@ window.AI_GENERATED_DATA = {
         "cost": "53.5"
       },
       {
-        "rank": 25,
+        "rank": 27,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "Qwen3.5-122B-A10B",
@@ -26432,7 +26202,7 @@ window.AI_GENERATED_DATA = {
         "cost": "32.3"
       },
       {
-        "rank": 26,
+        "rank": 28,
         "type": "开源",
         "org": "月之暗面",
         "model": "Kimi-K2.5-Thinking",
@@ -26442,7 +26212,7 @@ window.AI_GENERATED_DATA = {
         "cost": "77.1"
       },
       {
-        "rank": 27,
+        "rank": 29,
         "type": "商用",
         "org": "anthropic",
         "model": "claude-sonnet-5-thinking(new)",
@@ -26452,7 +26222,7 @@ window.AI_GENERATED_DATA = {
         "cost": "93.7"
       },
       {
-        "rank": 28,
+        "rank": 30,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3.6-plus",
@@ -26462,7 +26232,7 @@ window.AI_GENERATED_DATA = {
         "cost": "41.6"
       },
       {
-        "rank": 29,
+        "rank": 31,
         "type": "开源",
         "org": "智谱AI",
         "model": "GLM-5.1",
@@ -26472,7 +26242,7 @@ window.AI_GENERATED_DATA = {
         "cost": "73.8"
       },
       {
-        "rank": 30,
+        "rank": 32,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "Qwen3.5-27B",
@@ -26482,7 +26252,7 @@ window.AI_GENERATED_DATA = {
         "cost": "25.0"
       },
       {
-        "rank": 31,
+        "rank": 33,
         "type": "商用",
         "org": "豆包",
         "model": "Doubao-Seed-2.0-lite",
@@ -26492,7 +26262,7 @@ window.AI_GENERATED_DATA = {
         "cost": "5.4"
       },
       {
-        "rank": 32,
+        "rank": 34,
         "type": "商用",
         "org": "anthropic",
         "model": "claude-opus-4.6",
@@ -26502,7 +26272,7 @@ window.AI_GENERATED_DATA = {
         "cost": "96.5"
       },
       {
-        "rank": 33,
+        "rank": 35,
         "type": "商用",
         "org": "XAI",
         "model": "grok-4.5(new)",
@@ -26512,7 +26282,17 @@ window.AI_GENERATED_DATA = {
         "cost": "125.7"
       },
       {
-        "rank": 34,
+        "rank": 36,
+        "type": "商用",
+        "org": "XAI",
+        "model": "grok-4.6(new)",
+        "score": "69.7%",
+        "latency": "144s",
+        "tokens": "3103",
+        "cost": "118.4"
+      },
+      {
+        "rank": 37,
         "type": "商用",
         "org": "豆包",
         "model": "Doubao-Seed-2.0-mini",
@@ -26522,7 +26302,7 @@ window.AI_GENERATED_DATA = {
         "cost": "7.0"
       },
       {
-        "rank": 35,
+        "rank": 38,
         "type": "商用",
         "org": "智谱AI",
         "model": "GLM-5-Turbo",
@@ -26532,7 +26312,7 @@ window.AI_GENERATED_DATA = {
         "cost": "60.8"
       },
       {
-        "rank": 36,
+        "rank": 39,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3-max-think-2026-01-23",
@@ -26542,7 +26322,7 @@ window.AI_GENERATED_DATA = {
         "cost": "43.5"
       },
       {
-        "rank": 37,
+        "rank": 40,
         "type": "开源",
         "org": "智谱AI",
         "model": "GLM-5",
@@ -26552,7 +26332,7 @@ window.AI_GENERATED_DATA = {
         "cost": "61.2"
       },
       {
-        "rank": 38,
+        "rank": 41,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "qwen3.5-flash",
@@ -26562,7 +26342,7 @@ window.AI_GENERATED_DATA = {
         "cost": "10.4"
       },
       {
-        "rank": 39,
+        "rank": 42,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "qwen3.6-27b",
@@ -26572,17 +26352,17 @@ window.AI_GENERATED_DATA = {
         "cost": "73.2"
       },
       {
-        "rank": 40,
+        "rank": 43,
         "type": "开源",
         "org": "深度求索",
-        "model": "deepseek-v4-flash(new)",
+        "model": "deepseek-v4-flash-0424",
         "score": "68.8%",
         "latency": "49s",
         "tokens": "2554",
         "cost": "4.9"
       },
       {
-        "rank": 41,
+        "rank": 44,
         "type": "商用",
         "org": "腾讯",
         "model": "hunyuan-2.0-thinking-20251109",
@@ -26592,7 +26372,7 @@ window.AI_GENERATED_DATA = {
         "cost": "9.5"
       },
       {
-        "rank": 42,
+        "rank": 45,
         "type": "商用",
         "org": "百度",
         "model": "ernie-5.1",
@@ -26602,7 +26382,7 @@ window.AI_GENERATED_DATA = {
         "cost": "32.6"
       },
       {
-        "rank": 43,
+        "rank": 46,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "Qwen3.6-35B-A3B",
@@ -26612,7 +26392,7 @@ window.AI_GENERATED_DATA = {
         "cost": "40.5"
       },
       {
-        "rank": 44,
+        "rank": 47,
         "type": "商用",
         "org": "minimax",
         "model": "MiniMax-M3(new)",
@@ -26622,7 +26402,7 @@ window.AI_GENERATED_DATA = {
         "cost": "37.0"
       },
       {
-        "rank": 45,
+        "rank": 48,
         "type": "开源",
         "org": "智谱AI",
         "model": "GLM-4.7",
@@ -26632,7 +26412,7 @@ window.AI_GENERATED_DATA = {
         "cost": "52.5"
       },
       {
-        "rank": 46,
+        "rank": 49,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.2-high",
@@ -26642,7 +26422,7 @@ window.AI_GENERATED_DATA = {
         "cost": "94.1"
       },
       {
-        "rank": 47,
+        "rank": 50,
         "type": "开源",
         "org": "阶跃星辰",
         "model": "step-3.7-flash(new)",
@@ -26652,7 +26432,7 @@ window.AI_GENERATED_DATA = {
         "cost": "40.6"
       },
       {
-        "rank": 48,
+        "rank": 51,
         "type": "商用",
         "org": "百度",
         "model": "ERNIE-5.0",
@@ -26662,7 +26442,7 @@ window.AI_GENERATED_DATA = {
         "cost": "89.2"
       },
       {
-        "rank": 49,
+        "rank": 52,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.1-high",
@@ -26672,7 +26452,7 @@ window.AI_GENERATED_DATA = {
         "cost": "180.0"
       },
       {
-        "rank": 50,
+        "rank": 53,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.1-medium",
@@ -26682,7 +26462,7 @@ window.AI_GENERATED_DATA = {
         "cost": "87.9"
       },
       {
-        "rank": 51,
+        "rank": 54,
         "type": "开源",
         "org": "深度求索",
         "model": "DeepSeek-V3.2-Think",
@@ -26692,7 +26472,7 @@ window.AI_GENERATED_DATA = {
         "cost": "7.5"
       },
       {
-        "rank": 52,
+        "rank": 55,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5-2025-08-07",
@@ -26702,7 +26482,7 @@ window.AI_GENERATED_DATA = {
         "cost": "31.9"
       },
       {
-        "rank": 53,
+        "rank": 56,
         "type": "商用",
         "org": "anthropic",
         "model": "claude-sonnet-4.5-thinking",
@@ -26712,7 +26492,7 @@ window.AI_GENERATED_DATA = {
         "cost": "305.1"
       },
       {
-        "rank": 54,
+        "rank": 57,
         "type": "开源",
         "org": "小米",
         "model": "MiMo-V2-Omni",
@@ -26722,7 +26502,7 @@ window.AI_GENERATED_DATA = {
         "cost": "34.8"
       },
       {
-        "rank": 55,
+        "rank": 58,
         "type": "商用",
         "org": "豆包",
         "model": "doubao-seed-1-8-251215",
@@ -26732,7 +26512,7 @@ window.AI_GENERATED_DATA = {
         "cost": "7.3"
       },
       {
-        "rank": 56,
+        "rank": 59,
         "type": "开源",
         "org": "小米",
         "model": "mimo-v2.5",
@@ -26742,7 +26522,7 @@ window.AI_GENERATED_DATA = {
         "cost": "36.8"
       },
       {
-        "rank": 57,
+        "rank": 60,
         "type": "开源",
         "org": "小米",
         "model": "MiMo-V2-Pro",
@@ -26752,7 +26532,7 @@ window.AI_GENERATED_DATA = {
         "cost": "50.2"
       },
       {
-        "rank": 58,
+        "rank": 61,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.4-mini-high",
@@ -26762,7 +26542,7 @@ window.AI_GENERATED_DATA = {
         "cost": "71.8"
       },
       {
-        "rank": 59,
+        "rank": 62,
         "type": "商用",
         "org": "minimax",
         "model": "MiniMax-M2.7",
@@ -26772,7 +26552,7 @@ window.AI_GENERATED_DATA = {
         "cost": "32.4"
       },
       {
-        "rank": 60,
+        "rank": 63,
         "type": "开源",
         "org": "月之暗面",
         "model": "Kimi-K2-Thinking",
@@ -26782,7 +26562,7 @@ window.AI_GENERATED_DATA = {
         "cost": "89.2"
       },
       {
-        "rank": 61,
+        "rank": 64,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.3-chat",
@@ -26792,7 +26572,7 @@ window.AI_GENERATED_DATA = {
         "cost": "51.5"
       },
       {
-        "rank": 62,
+        "rank": 65,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3-max-2026-01-23",
@@ -26802,7 +26582,7 @@ window.AI_GENERATED_DATA = {
         "cost": "9.7"
       },
       {
-        "rank": 63,
+        "rank": 66,
         "type": "商用",
         "org": "小米",
         "model": "MiMo-V2-Flash-think-0204",
@@ -26812,7 +26592,7 @@ window.AI_GENERATED_DATA = {
         "cost": "7.8"
       },
       {
-        "rank": 64,
+        "rank": 67,
         "type": "商用",
         "org": "百度",
         "model": "ERNIE-5.0-Thinking-Preview",
@@ -26822,7 +26602,7 @@ window.AI_GENERATED_DATA = {
         "cost": "72.5"
       },
       {
-        "rank": 65,
+        "rank": 68,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3-max-preview-think",
@@ -26832,7 +26612,7 @@ window.AI_GENERATED_DATA = {
         "cost": "86.8"
       },
       {
-        "rank": 66,
+        "rank": 69,
         "type": "商用",
         "org": "anthropic",
         "model": "claude-opus-4.5",
@@ -26842,7 +26622,7 @@ window.AI_GENERATED_DATA = {
         "cost": "146.1"
       },
       {
-        "rank": 67,
+        "rank": 70,
         "type": "开源",
         "org": "阶跃星辰",
         "model": "step-3.5-flash",
@@ -26852,7 +26632,7 @@ window.AI_GENERATED_DATA = {
         "cost": "9.8"
       },
       {
-        "rank": 68,
+        "rank": 71,
         "type": "开源",
         "org": "腾讯",
         "model": "hy3(new)",
@@ -26862,7 +26642,7 @@ window.AI_GENERATED_DATA = {
         "cost": "1.8"
       },
       {
-        "rank": 69,
+        "rank": 72,
         "type": "商用",
         "org": "minimax",
         "model": "MiniMax-M2.5",
@@ -26872,7 +26652,7 @@ window.AI_GENERATED_DATA = {
         "cost": "26.3"
       },
       {
-        "rank": 70,
+        "rank": 73,
         "type": "商用",
         "org": "腾讯",
         "model": "hunyuan-2.0-instruct-20251111",
@@ -26882,7 +26662,7 @@ window.AI_GENERATED_DATA = {
         "cost": "1.5"
       },
       {
-        "rank": 71,
+        "rank": 74,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3-max-2025-09-23",
@@ -26892,7 +26672,7 @@ window.AI_GENERATED_DATA = {
         "cost": "23.4"
       },
       {
-        "rank": 72,
+        "rank": 75,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.2-medium",
@@ -26902,7 +26682,7 @@ window.AI_GENERATED_DATA = {
         "cost": "70.8"
       },
       {
-        "rank": 73,
+        "rank": 76,
         "type": "商用",
         "org": "minimax",
         "model": "MiniMax-M2.1",
@@ -26912,7 +26692,7 @@ window.AI_GENERATED_DATA = {
         "cost": "28.1"
       },
       {
-        "rank": 74,
+        "rank": 77,
         "type": "开源",
         "org": "深度求索",
         "model": "DeepSeek-V3.1-Think",
@@ -26922,7 +26702,7 @@ window.AI_GENERATED_DATA = {
         "cost": "24.7"
       },
       {
-        "rank": 75,
+        "rank": 78,
         "type": "开源",
         "org": "美团",
         "model": "LongCat-Flash-Thinking-2601",
@@ -26932,7 +26712,7 @@ window.AI_GENERATED_DATA = {
         "cost": "0.0"
       },
       {
-        "rank": 76,
+        "rank": 79,
         "type": "商用",
         "org": "腾讯",
         "model": "hunyuan-turbos-20250926",
@@ -26942,7 +26722,7 @@ window.AI_GENERATED_DATA = {
         "cost": "2.0"
       },
       {
-        "rank": 77,
+        "rank": 80,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3-max-preview",
@@ -26952,7 +26732,7 @@ window.AI_GENERATED_DATA = {
         "cost": "17.5"
       },
       {
-        "rank": 78,
+        "rank": 81,
         "type": "开源",
         "org": "深度求索",
         "model": "DeepSeek-V3.2",
@@ -26962,7 +26742,7 @@ window.AI_GENERATED_DATA = {
         "cost": "2.4"
       },
       {
-        "rank": 79,
+        "rank": 82,
         "type": "商用",
         "org": "anthropic",
         "model": "claude-sonnet-4.5",
@@ -26972,7 +26752,7 @@ window.AI_GENERATED_DATA = {
         "cost": "54.7"
       },
       {
-        "rank": 80,
+        "rank": 83,
         "type": "商用",
         "org": "豆包",
         "model": "doubao-seed-1-6-lite-251015",
@@ -26982,7 +26762,7 @@ window.AI_GENERATED_DATA = {
         "cost": "3.0"
       },
       {
-        "rank": 81,
+        "rank": 84,
         "type": "商用",
         "org": "anthropic",
         "model": "claude-haiku-4.5-thinking",
@@ -26992,7 +26772,7 @@ window.AI_GENERATED_DATA = {
         "cost": "158.1"
       },
       {
-        "rank": 82,
+        "rank": 85,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.4",
@@ -27002,7 +26782,7 @@ window.AI_GENERATED_DATA = {
         "cost": "34.8"
       },
       {
-        "rank": 83,
+        "rank": 86,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.4-nano-high",
@@ -27012,7 +26792,7 @@ window.AI_GENERATED_DATA = {
         "cost": "13.2"
       },
       {
-        "rank": 84,
+        "rank": 87,
         "type": "开源",
         "org": "小米",
         "model": "MiMo-V2-Flash-think",
@@ -27022,7 +26802,7 @@ window.AI_GENERATED_DATA = {
         "cost": "0.0"
       },
       {
-        "rank": 85,
+        "rank": 88,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen-plus-think-2025-12-01",
@@ -27032,7 +26812,7 @@ window.AI_GENERATED_DATA = {
         "cost": "27.1"
       },
       {
-        "rank": 86,
+        "rank": 89,
         "type": "开源",
         "org": "豆包",
         "model": "Seed-OSS-36B-Instruct",
@@ -27042,7 +26822,7 @@ window.AI_GENERATED_DATA = {
         "cost": "10.8"
       },
       {
-        "rank": 87,
+        "rank": 90,
         "type": "开源",
         "org": "深度求索",
         "model": "DeepSeek-V3.1",
@@ -27052,7 +26832,7 @@ window.AI_GENERATED_DATA = {
         "cost": "6.5"
       },
       {
-        "rank": 88,
+        "rank": 91,
         "type": "商用",
         "org": "豆包",
         "model": "doubao-seed-1-6-251015",
@@ -27062,7 +26842,7 @@ window.AI_GENERATED_DATA = {
         "cost": "8.3"
       },
       {
-        "rank": 89,
+        "rank": 92,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "qwen3-next-80b-a3b-instruct",
@@ -27072,7 +26852,7 @@ window.AI_GENERATED_DATA = {
         "cost": "3.9"
       },
       {
-        "rank": 90,
+        "rank": 93,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5-mini-2025-08-07",
@@ -27082,7 +26862,7 @@ window.AI_GENERATED_DATA = {
         "cost": "17.4"
       },
       {
-        "rank": 91,
+        "rank": 94,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "qwen3-next-80b-a3b-thinking",
@@ -27092,7 +26872,7 @@ window.AI_GENERATED_DATA = {
         "cost": "17.1"
       },
       {
-        "rank": 92,
+        "rank": 95,
         "type": "商用",
         "org": "百度",
         "model": "ERNIE-X1.1-Preview",
@@ -27102,7 +26882,7 @@ window.AI_GENERATED_DATA = {
         "cost": "9.3"
       },
       {
-        "rank": 93,
+        "rank": 96,
         "type": "商用",
         "org": "XAI",
         "model": "grok-4-1-fast-reasoning",
@@ -27112,7 +26892,7 @@ window.AI_GENERATED_DATA = {
         "cost": "8.1"
       },
       {
-        "rank": 94,
+        "rank": 97,
         "type": "商用",
         "org": "小米",
         "model": "MiMo-V2-Flash-0204",
@@ -27122,7 +26902,7 @@ window.AI_GENERATED_DATA = {
         "cost": "1.7"
       },
       {
-        "rank": 95,
+        "rank": 98,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5-mini-high",
@@ -27132,7 +26912,7 @@ window.AI_GENERATED_DATA = {
         "cost": "48.4"
       },
       {
-        "rank": 96,
+        "rank": 99,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen-plus-2025-12-01",
@@ -27142,7 +26922,7 @@ window.AI_GENERATED_DATA = {
         "cost": "2.8"
       },
       {
-        "rank": 97,
+        "rank": 100,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen-flash-think-2025-07-28",
@@ -27152,7 +26932,7 @@ window.AI_GENERATED_DATA = {
         "cost": "4.6"
       },
       {
-        "rank": 98,
+        "rank": 101,
         "type": "开源",
         "org": "月之暗面",
         "model": "kimi-k2-0905",
@@ -27162,7 +26942,7 @@ window.AI_GENERATED_DATA = {
         "cost": "13.2"
       },
       {
-        "rank": 99,
+        "rank": 102,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.2",
@@ -27172,7 +26952,7 @@ window.AI_GENERATED_DATA = {
         "cost": "23.7"
       },
       {
-        "rank": 100,
+        "rank": 103,
         "type": "开源",
         "org": "小米",
         "model": "MiMo-V2-Flash",
@@ -27182,7 +26962,7 @@ window.AI_GENERATED_DATA = {
         "cost": "0.0"
       },
       {
-        "rank": 101,
+        "rank": 104,
         "type": "开源",
         "org": "美团",
         "model": "LongCat-Flash-Lite",
@@ -27192,7 +26972,7 @@ window.AI_GENERATED_DATA = {
         "cost": "0.0"
       },
       {
-        "rank": 102,
+        "rank": 105,
         "type": "开源",
         "org": "openAI",
         "model": "gpt-oss-120b",
@@ -27202,7 +26982,7 @@ window.AI_GENERATED_DATA = {
         "cost": "2.9"
       },
       {
-        "rank": 103,
+        "rank": 106,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5-nano-high",
@@ -27212,7 +26992,7 @@ window.AI_GENERATED_DATA = {
         "cost": "19.3"
       },
       {
-        "rank": 104,
+        "rank": 107,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5-nano-2025-08-07",
@@ -27222,7 +27002,7 @@ window.AI_GENERATED_DATA = {
         "cost": "7.4"
       },
       {
-        "rank": 105,
+        "rank": 108,
         "type": "商用",
         "org": "google",
         "model": "gemini-3.1-flash-lite-preview",
@@ -27232,7 +27012,7 @@ window.AI_GENERATED_DATA = {
         "cost": "3.9"
       },
       {
-        "rank": 106,
+        "rank": 109,
         "type": "商用",
         "org": "anthropic",
         "model": "claude-haiku-4.5",
@@ -27242,7 +27022,7 @@ window.AI_GENERATED_DATA = {
         "cost": "18.9"
       },
       {
-        "rank": 107,
+        "rank": 110,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen-flash-2025-07-28",
@@ -27252,7 +27032,7 @@ window.AI_GENERATED_DATA = {
         "cost": "1.5"
       },
       {
-        "rank": 108,
+        "rank": 111,
         "type": "开源",
         "org": "google",
         "model": "gemma-4-31b-it",
@@ -27262,7 +27042,7 @@ window.AI_GENERATED_DATA = {
         "cost": "1.4"
       },
       {
-        "rank": 109,
+        "rank": 112,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.1",
@@ -27272,7 +27052,7 @@ window.AI_GENERATED_DATA = {
         "cost": "19.3"
       },
       {
-        "rank": 110,
+        "rank": 113,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.4-mini",
@@ -27282,7 +27062,7 @@ window.AI_GENERATED_DATA = {
         "cost": "7.0"
       },
       {
-        "rank": 111,
+        "rank": 114,
         "type": "开源",
         "org": "google",
         "model": "gemma-4-26b-a4b-it",
@@ -27292,7 +27072,7 @@ window.AI_GENERATED_DATA = {
         "cost": "1.7"
       },
       {
-        "rank": 112,
+        "rank": 115,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen-turbo-think-2025-07-15",
@@ -27302,7 +27082,7 @@ window.AI_GENERATED_DATA = {
         "cost": "8.8"
       },
       {
-        "rank": 113,
+        "rank": 116,
         "type": "开源",
         "org": "智谱AI",
         "model": "GLM-4.7-Flash",
@@ -27312,7 +27092,7 @@ window.AI_GENERATED_DATA = {
         "cost": "0.0"
       },
       {
-        "rank": 114,
+        "rank": 117,
         "type": "开源",
         "org": "openAI",
         "model": "gpt-oss-20b",
@@ -27322,7 +27102,7 @@ window.AI_GENERATED_DATA = {
         "cost": "2.1"
       },
       {
-        "rank": 115,
+        "rank": 118,
         "type": "开源",
         "org": "Mistral",
         "model": "mistral-large-2512",
@@ -27332,7 +27112,7 @@ window.AI_GENERATED_DATA = {
         "cost": "6.9"
       },
       {
-        "rank": 116,
+        "rank": 119,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.4-nano",
@@ -27342,7 +27122,7 @@ window.AI_GENERATED_DATA = {
         "cost": "2.2"
       },
       {
-        "rank": 117,
+        "rank": 120,
         "type": "商用",
         "org": "google",
         "model": "gemini-2.5-flash-lite",
@@ -27352,7 +27132,7 @@ window.AI_GENERATED_DATA = {
         "cost": "8.9"
       },
       {
-        "rank": 118,
+        "rank": 121,
         "type": "商用",
         "org": "XAI",
         "model": "grok-4-1-fast-non-reasoning",
@@ -27362,7 +27142,7 @@ window.AI_GENERATED_DATA = {
         "cost": "1.6"
       },
       {
-        "rank": 119,
+        "rank": 122,
         "type": "开源",
         "org": "Mistral",
         "model": "Ministral-3-14B-Instruct-2512",
@@ -27372,7 +27152,7 @@ window.AI_GENERATED_DATA = {
         "cost": "2.3"
       },
       {
-        "rank": 120,
+        "rank": 123,
         "type": "开源",
         "org": "Mistral",
         "model": "Ministral-3-8B-Instruct-2512",
@@ -27382,7 +27162,7 @@ window.AI_GENERATED_DATA = {
         "cost": "1.6"
       },
       {
-        "rank": 121,
+        "rank": 124,
         "type": "开源",
         "org": "Mistral",
         "model": "Ministral-3-3B-Instruct-2512",
@@ -27394,6 +27174,32 @@ window.AI_GENERATED_DATA = {
     ]
   },
   "benchmarkDatasets": [
+    {
+      "name": "BEAR-Bench",
+      "area": "视觉感知 / 多模态",
+      "note": "这次发布的核心点是 BEAR-Bench，这是一个针对多模态模型的双语基准，专注于文本密集的专业文档推理能力。该基准包含1000个基于商业和科学文档的人类标注问题，旨在填补现有基准在多语言和专业领域的空白。",
+      "source": "http://arxiv.org/abs/2608.17895v1",
+      "sourceName": "arXiv",
+      "date": "2026-08-18",
+      "originTitle": "BEAR-Bench：双语企业与学术推理基准",
+      "evaluates": [
+        "BEAR-Bench 包含1000个问题，专注于商业和科学文档的推理能力。",
+        "该基准支持英语和俄语，填补了现有评测的语言空白。",
+        "评测了16个多模态大语言模型，包括 Gemini 3.1 Pro 和 Qwen3.5-397B。",
+        "现有模型在 BEAR-Bench 上表现出明显的提升空间，尤其是推理能力。",
+        "该基准还用于比较现有的幻觉检测方法，评估模型的可靠性。"
+      ],
+      "useCases": [
+        "使用 BEAR-Bench 评估模型在商业文档推理上的表现，优化模型设计。",
+        "通过 BEAR-Bench 的问题集，训练多模态模型以提高其在专业领域的应用能力。",
+        "利用 BEAR-Bench 进行模型性能对比，选择最适合的多模态语言模型。"
+      ],
+      "limitations": [
+        "BEAR-Bench 的问题集可能对某些模型的适应性较差，导致评测结果不准确。",
+        "在使用过程中，可能需要额外的计算资源来处理复杂的推理任务。",
+        "由于基准的双语特性，可能会对不熟悉俄语的用户造成使用障碍。"
+      ]
+    },
     {
       "name": "StartupBench",
       "area": "Agent / 工具调用",
