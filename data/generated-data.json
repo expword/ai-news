@@ -1,7 +1,62 @@
 {
   "lastUpdated": "2026-08-19",
-  "generatedAt": "2026-08-18T17:02:00.441720Z",
+  "generatedAt": "2026-08-19T03:11:44.795486Z",
   "news": [
+    {
+      "title": "Claude 如何加速蛋白质设计与分析化学研究",
+      "summary": "Anthropic 公布两项实验：Claude（Mythos Preview 和 Opus 4.8）针对 15 个靶点设计蛋白质结合剂，成功 14 个，命中率达 22.6%-35.1%。",
+      "category": "ai-models",
+      "source": "Anthropic：Research（发表成果 · 网页）",
+      "date": "2026-08-19",
+      "publishedAt": "2026-08-19T06:27",
+      "collectedAt": "2026-08-19T11:11",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Strengthening democratic oversight in national security",
+      "summary": "OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, training, and expertise.",
+      "category": "ai-models",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-08-19",
+      "publishedAt": "2026-08-19T03:00",
+      "collectedAt": "2026-08-19T11:11",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "LLM 服务一年的工作负载演变与优化",
       "summary": "大型语言模型（LLM）服务已成为关键的云工作负载，然而现有的研究在规模和范围上仍显不足。本研究通过对一年的生产数据进行纵向分析，揭示了用户与模型交互的演变过程，并提供了全面的工作负载特征。这将为未来的研究提供重要的数据支持。",
@@ -9480,6 +9535,28 @@
     ],
     "ai-models": [
       {
+        "name": "GLM-5.3上线：AA智能指数60分并列开源第一，成本更低",
+        "provider": "公众号：智谱（GLM）",
+        "type": "AI 项目/工具",
+        "bestFor": "GLM-5.3 API即日上线，擅长复杂编码、防御性网络安全与长程任务，在AA综合智能指数中取得60分，与Claude Fable 5、GPT-5.6 Sol等闭源旗舰同级，并与Kimi K3并列开源模型第一。该模型以更小参数规模和更低调用成本降低前沿智能门槛，单任务成本为旗舰模型中最低。API定价与GLM-5.2持平",
+        "description": "GLM-5.3 API即日上线，擅长复杂编码、防御性网络安全与长程任务，在AA综合智能指数中取得60分，与Claude Fable 5、GPT-5.6 Sol等闭源旗舰同级，并与Kimi K3并列开源模型第一。该模型以更小参数规模和更低调用成本降低前沿智能门槛，单任务成本为旗舰模型中最低。API定价与GLM-5.2持平，模型权重将于下周五开源。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "公众号：智谱（GLM）",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&mid=2247494105&idx=1&sn=8d7409e0fb846a3c7803c142b5d1a8e7"
+      },
+      {
+        "name": "Strengthening democratic oversight in national security",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, training, and expert",
+        "description": "OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, training, and expertise.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · OpenAI Blog",
+        "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security"
+      },
+      {
         "name": "Apple iOS 27 beta 6 update is here: What is new, how to down",
         "provider": "Digit",
         "type": "AI 项目/工具",
@@ -10026,32 +10103,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Mail Online",
         "url": "https://www.dailymail.com/wires/afp/article-16054437/Indias-Modi-woos-youth-free-coaching-AI-training.html"
-      },
-      {
-        "name": "前NSA总法律顾问Gerstell任美国律师协会国家安全委员会主席",
-        "provider": "Security Systems News magazine",
-        "type": "AI 项目/工具",
-        "bestFor": "Gerstell的任命将加强ABA国家安全委员会在网络安全和人工智能等前沿领域的法律研究和政策建议能力，直接影响美国国家安全法律框架的制定和调整。法律专家、政策制定者和学者将借助委员会的研究成果，更有效地应对技术变革带来的安全挑战。委员会的工作有助于规范情报行动和数据保护，提升公众对国家安全法律问题的认知。Margar",
-        "description": "前美国国家安全局（NSA）总法律顾问Glenn S. Gerstell被任命为美国律师协会（ABA）国家安全常设委员会主席，任期三年。该委员会自1962年成立，专注于国家安全相关法律问题，涵盖网络安全、人工智能及情报行动等领域。Gerstell将带领委员会为政策制定者和公众提供法律分析和政策建议，推动国家安全法律研究和实践发展。",
-        "useCases": [
-          "分析国家安全法律政策，制定符合最新技术发展的合规方案。",
-          "参与ABA国家安全委员会会议，获取前沿法律研究和政策建议。",
-          "利用委员会发布的研究报告，指导网络安全和人工智能项目的法律风险管理。"
-        ],
-        "watch": "国家安全法律领域涉及高度敏感信息，研究和建议可能受限于保密规定。",
-        "sourceName": "Security Systems News magazine",
-        "url": "https://www.securitysystemsnews.com/article/former-nsa-counsel-gerstell-tapped-to-lead-aba-national-security-committee"
-      },
-      {
-        "name": "The 6 Best Soft Sci-fi Movies Released Since 2000, Ranked",
-        "provider": "Collider",
-        "type": "AI 项目/工具",
-        "bestFor": "Andrea M. Ciriaco is a long-time script reader and former entertainment editor who specializes in classic movies and Hollywood history. She was a student film c",
-        "description": "Andrea M. Ciriaco is a long-time script reader and former entertainment editor who specializes in classic movies and Hollywood history. She was a student film critic at Kent State ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Collider",
-        "url": "https://collider.com/best-soft-sci-fi-movies-since-2000-ranked/"
       }
     ],
     "ai-business": [
@@ -13951,8 +14002,8 @@
   ],
   "dailyReport": {
     "date": "2026-08-19",
-    "generatedAt": "2026-08-18T17:02:00.416688Z",
-    "total": 12,
+    "generatedAt": "2026-08-19T03:11:44.770449Z",
+    "total": 14,
     "sections": [
       {
         "category": "ai-tools",
@@ -14064,6 +14115,28 @@
         "category": "ai-models",
         "label": "模型发布",
         "items": [
+          {
+            "title": "Claude 如何加速蛋白质设计与分析化学研究",
+            "summary": "Anthropic 公布两项实验：Claude（Mythos Preview 和 Opus 4.8）针对 15 个靶点设计蛋白质结合剂，成功 14 个，命中率达 22.6%-35.1%。",
+            "source": "Anthropic：Research（发表成果 · 网页）",
+            "url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-19",
+            "publishedAt": "2026-08-19T06:27",
+            "reason": ""
+          },
+          {
+            "title": "Strengthening democratic oversight in national security",
+            "summary": "OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, ",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-19",
+            "publishedAt": "2026-08-19T03:00",
+            "reason": ""
+          },
           {
             "title": "亚马逊批量购书用于 AI 训练后销毁引发关注",
             "summary": "404 Media 通过在珍本图书中放置追踪设备，揭露亚马逊秘密购书行为：大量书籍被扫描用于 AI 训练，随后被销毁。这一行为引发了对知识产权和环境影响的广泛讨论。",
