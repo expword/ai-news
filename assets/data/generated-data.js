@@ -1,7 +1,68 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-08-20",
-  "generatedAt": "2026-08-19T18:19:03.546811Z",
+  "generatedAt": "2026-08-19T20:38:31.219304Z",
   "news": [
+    {
+      "title": "OpenAI 提供零数据保留服务，增强 AI 安全性",
+      "summary": "OpenAI 宣布为符合条件的 API 客户提供零数据保留服务，并预览了私密安全处理功能，以在不妨碍数据隐私的情况下提升 AI 安全性。这一举措旨在增强用户对数据安全的信任，同时推动 AI 技术的安全应用。",
+      "category": "ai-models",
+      "tags": [
+        "OpenAI",
+        "数据隐私",
+        "AI安全",
+        "API服务",
+        "零数据保留"
+      ],
+      "keyPoints": [
+        "OpenAI 为符合条件的 API 客户提供零数据保留服务，确保用户数据不被存储。",
+        "推出私密安全处理功能，旨在提升 AI 系统的安全性。",
+        "该服务适用于所有使用 OpenAI API 的开发者，增强数据隐私保护。",
+        "OpenAI 强调，零数据保留不会影响 AI 模型的性能和用户体验。",
+        "此举是 OpenAI 在 AI 安全领域的重要进展，回应了用户对数据隐私的关切。"
+      ],
+      "background": "OpenAI 一直致力于提升其 AI 模型的安全性和用户数据的隐私保护。随着 AI 技术的广泛应用，数据隐私问题日益受到关注。OpenAI 的零数据保留服务是其应对这一挑战的关键举措，旨在为用户提供更安全的使用体验。通过不存储用户数据，OpenAI 希望增强用户对其服务的信任，并推动 AI 技术的健康发展。",
+      "impact": "这一服务将吸引更多开发者使用 OpenAI 的 API，尤其是那些对数据隐私有高要求的企业。通过提供零数据保留，OpenAI 可能会改变开发者在选择 AI 服务时的决策，促使更多企业在其产品中集成 AI 功能。此外，这一举措可能会引发其他 AI 服务提供商跟进，推动整个行业在数据隐私保护方面的进步。",
+      "audience": [
+        "数据隐私关注的企业开发者",
+        "AI 安全性研究人员",
+        "希望集成 AI 的初创公司",
+        "需要处理敏感数据的金融行业工程师",
+        "对 API 服务有需求的技术团队"
+      ],
+      "useCases": [
+        "注册 OpenAI API 账户，选择符合条件的计划以启用零数据保留服务。",
+        "在开发过程中，使用 OpenAI 提供的私密安全处理功能，确保数据隐私。",
+        "定期审查 API 使用情况，确保符合零数据保留政策，避免数据泄露风险。"
+      ],
+      "risks": [
+        "确保选择的 API 计划确实支持零数据保留，避免因计划不符导致数据存储问题。",
+        "在使用私密安全处理功能时，需了解其对模型性能的影响，避免影响用户体验。",
+        "注意 API 调用的配额限制，避免因超出配额导致服务中断。"
+      ],
+      "reason": "OpenAI 的零数据保留服务为开发者提供了更高的数据隐私保障，是推动 AI 安全应用的重要一步。",
+      "scores": {
+        "importance": 85,
+        "novelty": 80,
+        "firsthand": 90,
+        "impact": 75,
+        "credibility": 85
+      },
+      "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-08-20",
+      "publishedAt": "2026-08-20T03:00",
+      "collectedAt": "2026-08-20T04:38",
+      "dateStatus": "verified",
+      "tier": "T1",
+      "score": 82,
+      "aiSelected": true,
+      "_style": "tutorial",
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "OpenAI 重申零数据保留政策，保障用户隐私",
       "summary": "OpenAI 最近重申了其对符合条件的 API 客户实施零数据保留的承诺，并预览了私人安全处理功能，以提升 AI 安全性，同时不妥协数据隐私。这一举措旨在增强用户对 AI 应用的信任，尤其是在数据隐私日益受到关注的背景下。",
@@ -55,6 +116,67 @@ window.AI_GENERATED_DATA = {
       "score": 82,
       "aiSelected": true,
       "_style": "reviewer",
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "谷歌推出五种新工具提升学习效率",
+      "summary": "谷歌于2026年8月19日推出了五种新工具，旨在通过搜索引擎帮助用户更有效地学习新知识、应对难题并组织学习时间。这些工具包括互动视觉、定制化练习测验等，旨在为学生提供安全的学习环境。",
+      "category": "ai-tools",
+      "tags": [
+        "谷歌",
+        "学习工具",
+        "AI",
+        "搜索引擎",
+        "教育科技"
+      ],
+      "keyPoints": [
+        "谷歌推出的学习工具包括互动视觉和定制化测验，旨在提升学习效率。",
+        "用户可以通过搜索获取与pH值相关的互动视觉，帮助理解复杂概念。",
+        "定制化练习测验覆盖多个学科，包括科学、数学、人文学科等，支持多种标准化考试的备考。",
+        "与普林斯顿评论、PhysicsWallah等教育公司合作，确保测验内容的权威性和相关性。",
+        "这些工具已在AI模式和AI概述中全球推出，支持英语用户。"
+      ],
+      "background": "谷歌在教育领域的创新不断推进，2026年8月19日推出的新工具正值新学年开始之际，旨在帮助学生应对新学期的挑战。随着在线学习的普及，传统的学习方式逐渐被新的技术手段所取代。谷歌此次推出的工具，结合了生成式AI的能力，能够为学生提供个性化的学习体验。与以往的学习工具相比，这些新功能更加强调互动性和定制化，满足了不同学习者的需求。",
+      "impact": "这些新工具将改变学生的学习方式，提供更为灵活和个性化的学习体验。学生可以通过互动视觉更直观地理解复杂概念，提升学习效果。定制化测验的推出，将帮助学生更有效地备考各类标准化考试，提升考试通过率。此外，这些工具的推出也可能促使其他教育科技公司加速创新，推动整个教育行业向更智能化的方向发展。",
+      "audience": [
+        "高中生",
+        "大学生",
+        "教育工作者",
+        "在线学习平台开发者",
+        "考试准备机构"
+      ],
+      "useCases": [
+        "使用谷歌搜索获取互动视觉，帮助理解化学中的pH值概念。",
+        "通过搜索生成定制化测验，备考SAT、GRE等标准化考试。",
+        "利用AI工具组织学习时间，提升学习效率。"
+      ],
+      "risks": [
+        "依赖搜索引擎可能导致信息过载，影响学习效果。",
+        "定制化测验内容的准确性和权威性需持续监控，避免误导学生。",
+        "对非英语用户的支持可能不足，限制其使用体验。"
+      ],
+      "reason": "谷歌的新学习工具通过AI技术提供个性化和互动的学习体验，值得关注。",
+      "scores": {
+        "importance": 75,
+        "novelty": 80,
+        "firsthand": 90,
+        "impact": 85,
+        "credibility": 80
+      },
+      "url": "https://blog.google/products-and-platforms/products/search/back-to-school-study-tools/",
+      "source": "RSS · Google AI Blog",
+      "date": "2026-08-20",
+      "publishedAt": "2026-08-20T03:00",
+      "collectedAt": "2026-08-20T03:28",
+      "dateStatus": "verified",
+      "tier": "T1",
+      "score": 81,
+      "aiSelected": true,
+      "_style": "observer",
       "moduleTargets": [
         "news",
         "topicResources"
@@ -9579,6 +9701,36 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-models": [
       {
+        "name": "OpenAI 提供零数据保留服务，增强 AI 安全性",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "这一服务将吸引更多开发者使用 OpenAI 的 API，尤其是那些对数据隐私有高要求的企业。通过提供零数据保留，OpenAI 可能会改变开发者在选择 AI 服务时的决策，促使更多企业在其产品中集成 AI 功能。此外，这一举措可能会引发其他 AI 服务提供商跟进，推动整个行业在数据隐私保护方面的进步。",
+        "description": "OpenAI 宣布为符合条件的 API 客户提供零数据保留服务，并预览了私密安全处理功能，以在不妨碍数据隐私的情况下提升 AI 安全性。这一举措旨在增强用户对数据安全的信任，同时推动 AI 技术的安全应用。",
+        "useCases": [
+          "注册 OpenAI API 账户，选择符合条件的计划以启用零数据保留服务。",
+          "在开发过程中，使用 OpenAI 提供的私密安全处理功能，确保数据隐私。",
+          "定期审查 API 使用情况，确保符合零数据保留政策，避免数据泄露风险。"
+        ],
+        "watch": "确保选择的 API 计划确实支持零数据保留，避免因计划不符导致数据存储问题。",
+        "sourceName": "RSS · OpenAI Blog",
+        "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models"
+      },
+      {
+        "name": "谷歌推出五种新工具提升学习效率",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "这些新工具将改变学生的学习方式，提供更为灵活和个性化的学习体验。学生可以通过互动视觉更直观地理解复杂概念，提升学习效果。定制化测验的推出，将帮助学生更有效地备考各类标准化考试，提升考试通过率。此外，这些工具的推出也可能促使其他教育科技公司加速创新，推动整个教育行业向更智能化的方向发展。",
+        "description": "谷歌于2026年8月19日推出了五种新工具，旨在通过搜索引擎帮助用户更有效地学习新知识、应对难题并组织学习时间。这些工具包括互动视觉、定制化练习测验等，旨在为学生提供安全的学习环境。",
+        "useCases": [
+          "使用谷歌搜索获取互动视觉，帮助理解化学中的pH值概念。",
+          "通过搜索生成定制化测验，备考SAT、GRE等标准化考试。",
+          "利用AI工具组织学习时间，提升学习效率。"
+        ],
+        "watch": "依赖搜索引擎可能导致信息过载，影响学习效果。",
+        "sourceName": "RSS · Google AI Blog",
+        "url": "https://blog.google/products-and-platforms/products/search/back-to-school-study-tools/"
+      },
+      {
         "name": "OpenAI 重申零数据保留政策，保障用户隐私",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -10115,32 +10267,6 @@ window.AI_GENERATED_DATA = {
         "watch": "API定价可能会调整，需关注DeepSeek的官方通知，以避免预算超支。",
         "sourceName": "About Chromebooks",
         "url": "https://www.aboutchromebooks.com/deepseek-statistics/"
-      },
-      {
-        "name": "Is Alphabet The Biggest AI Winner?",
-        "provider": "Financhill",
-        "type": "AI 项目/工具",
-        "bestFor": "Alphabet (NASDAQ:GOOG, GOOGL) is one of a handful of dominant technology companies that have seen their earnings and revenues rise rapidly as a result of AI. Th",
-        "description": "Alphabet (NASDAQ:GOOG, GOOGL) is one of a handful of dominant technology companies that have seen their earnings and revenues rise rapidly as a result of AI. Thanks to the massive ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Financhill",
-        "url": "https://financhill.com/blog/investing/is-alphabet-the-biggest-ai-winner"
-      },
-      {
-        "name": "苹果与阿里巴巴合作，成功在中国推出自有AI模型",
-        "provider": "Tech Times",
-        "type": "AI 项目/工具",
-        "bestFor": "这一合作将使苹果在中国市场的竞争力大幅提升，尤其是在AI驱动的智能手机市场。预计苹果的Apple Intelligence功能将吸引更多用户，尤其是那些对隐私和数据安全有较高要求的消费者。与此同时，苹果的成功也可能促使其他外国科技公司重新评估在中国市场的战略，推动更多技术合作。",
-        "description": "苹果公司在阿里巴巴的技术支持下，秘密训练了一款专为中国市场设计的大型语言模型，并获得了北京的批准。这使得苹果成为首个获准在中国大陆部署自有AI模型的外国公司。该模型将为即将推出的Apple Intelligence功能提供支持，预计将在未来几个月通过iOS软件更新上线。",
-        "useCases": [
-          "使用苹果自有AI模型进行文本生成，提高内容创作效率。",
-          "通过Apple Intelligence功能进行智能搜索，快速获取信息。",
-          "利用苹果的隐私保护机制，安全处理敏感数据。"
-        ],
-        "watch": "在使用阿里巴巴的Qwen和百度的服务时，用户数据可能受到中国法律的监管，存在隐私泄露风险。",
-        "sourceName": "Tech Times",
-        "url": "https://www.techtimes.com/articles/324565/20260815/apple-trained-its-own-ai-china-alibaba-winning-unprecedented-beijing-clearance.htm"
       }
     ],
     "ai-business": [
@@ -14055,8 +14181,8 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-08-20",
-    "generatedAt": "2026-08-19T18:19:03.521811Z",
-    "total": 15,
+    "generatedAt": "2026-08-19T20:38:31.195305Z",
+    "total": 17,
     "sections": [
       {
         "category": "ai-tools",
@@ -14083,6 +14209,17 @@ window.AI_GENERATED_DATA = {
             "date": "2026-08-19",
             "publishedAt": "2026-08-19T01:05",
             "reason": "这篇文章展示了如何利用 AWS 的强大工具构建高效的实时特征库，值得关注。"
+          },
+          {
+            "title": "谷歌推出五种新工具提升学习效率",
+            "summary": "谷歌于2026年8月19日推出了五种新工具，旨在通过搜索引擎帮助用户更有效地学习新知识、应对难题并组织学习时间。这些工具包括互动视觉、定制化练习测验等，旨在为学生提供安全的学习环境。",
+            "source": "RSS · Google AI Blog",
+            "url": "https://blog.google/products-and-platforms/products/search/back-to-school-study-tools/",
+            "score": 81,
+            "sourceCount": 1,
+            "date": "2026-08-20",
+            "publishedAt": "2026-08-20T03:00",
+            "reason": "谷歌的新学习工具通过AI技术提供个性化和互动的学习体验，值得关注。"
           },
           {
             "title": "自定义 Amazon Quick 嵌入式聊天功能",
@@ -14157,6 +14294,17 @@ window.AI_GENERATED_DATA = {
         "category": "ai-models",
         "label": "模型发布",
         "items": [
+          {
+            "title": "OpenAI 提供零数据保留服务，增强 AI 安全性",
+            "summary": "OpenAI 宣布为符合条件的 API 客户提供零数据保留服务，并预览了私密安全处理功能，以在不妨碍数据隐私的情况下提升 AI 安全性。这一举措旨在增强用户对数据安全的信任，同时推动 AI 技术的安全应用。",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+            "score": 82,
+            "sourceCount": 1,
+            "date": "2026-08-20",
+            "publishedAt": "2026-08-20T03:00",
+            "reason": "OpenAI 的零数据保留服务为开发者提供了更高的数据隐私保障，是推动 AI 安全应用的重要一步。"
+          },
           {
             "title": "Improve contract search accuracy with auto-generated filters in Amazon Bedrock",
             "summary": "In this post, we describe how AIDA works at a high level and how it helps address these challenges — grounding users in the right contracts,",
