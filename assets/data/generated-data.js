@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-08-19",
-  "generatedAt": "2026-08-19T03:11:44.795486Z",
+  "generatedAt": "2026-08-19T04:27:35.010628Z",
   "news": [
     {
       "title": "Claude 如何加速蛋白质设计与分析化学研究",
@@ -620,6 +620,67 @@ window.AI_GENERATED_DATA = {
       "_style": "critic",
       "moduleTargets": [
         "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "StartupBench：市场验证的智能体基准测试",
+      "summary": "StartupBench 是一个全新的基准测试工具，专注于评估通用智能体在真实市场环境中的表现。与传统基准不同，它基于真实的 AI 产品工作流，揭示了当前智能体在复杂任务中的局限性。研究显示，即便是最强的模型，成功完成的任务比例也仅为 30%。",
+      "category": "ai-benchmark",
+      "tags": [
+        "基准测试",
+        "智能体",
+        "市场验证",
+        "AI产品",
+        "任务评估"
+      ],
+      "keyPoints": [
+        "StartupBench 通过真实市场验证的工作流来评估智能体的能力，确保测试的实用性。",
+        "当前最强的智能体模型在 StartupBench 上仅能完成约 30% 的任务，显示出其在复杂指令和领域知识上的不足。",
+        "该基准测试的设计旨在填补研究者预设任务与真实用户需求之间的差距。",
+        "StartupBench 的结果揭示了通用智能体在实际应用中的能力边界，提供了重要的参考数据。",
+        "研究团队包括 38 位作者，涵盖了多领域的专业知识，确保了测试的全面性。"
+      ],
+      "background": "StartupBench 的推出是为了应对当前 AI 领域中基准测试的不足。传统的基准往往依赖于研究者设定的任务，缺乏对真实用户需求的反映。StartupBench 通过分析市场上成功的 AI 产品及其工作流，提炼出实际用户所需的任务。这种方法不仅提高了基准测试的相关性，也为开发者提供了更真实的评估标准。与以往的基准相比，StartupBench 更加注重实际应用场景，确保测试结果能够反映出智能体在真实环境中的表现。",
+      "impact": "StartupBench 的推出将对 AI 开发者、产品经理和研究人员产生深远影响。开发者可以利用这一基准测试来评估和优化他们的智能体，确保其能够满足市场需求。产品经理则可以根据测试结果调整产品策略，提升用户体验。此外，研究人员可以通过分析 StartupBench 的数据，深入了解智能体的能力边界，从而推动相关技术的进步。",
+      "audience": [
+        "AI 开发者",
+        "产品经理",
+        "研究人员",
+        "市场分析师",
+        "技术决策者"
+      ],
+      "useCases": [
+        "评估新开发的智能体在真实市场任务中的表现，确保其满足用户需求。",
+        "根据 StartupBench 的结果调整产品功能，提升用户体验和满意度。",
+        "研究智能体在复杂任务中的失败原因，为后续的技术改进提供依据。"
+      ],
+      "risks": [
+        "使用 StartupBench 进行评估时，可能会面临数据不完整或不准确的风险，影响测试结果的可靠性。",
+        "由于基准测试依赖于市场验证的工作流，可能会导致某些领域的任务被忽视，影响全面性。",
+        "在实际应用中，智能体的表现可能受到硬件和软件环境的影响，导致测试结果与实际情况不符。"
+      ],
+      "reason": "StartupBench 通过真实市场验证的工作流，为智能体的评估提供了全新的视角，值得关注。",
+      "scores": {
+        "importance": 85,
+        "novelty": 80,
+        "firsthand": 90,
+        "impact": 75,
+        "credibility": 80
+      },
+      "url": "https://arxiv.org/abs/2608.17800",
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "date": "2026-08-18",
+      "publishedAt": "2026-08-18T08:00",
+      "collectedAt": "2026-08-19T12:27",
+      "dateStatus": "verified",
+      "tier": "T1.5",
+      "score": 65,
+      "aiSelected": true,
+      "_style": "reviewer",
+      "moduleTargets": [
+        "news",
+        "benchmarkDatasets"
       ],
       "sourceCount": 1
     },
@@ -5094,133 +5155,6 @@ window.AI_GENERATED_DATA = {
       "_style": "recommender",
       "moduleTargets": [
         "news"
-      ],
-      "sourceDate": "2026-08-13",
-      "sourceCount": 1
-    },
-    {
-      "title": "利用扩散语言模型实现无损文本压缩",
-      "summary": "我注意到，随着数字文本数据的快速增长，如何实现无损文本压缩成为一个重要课题。最近的研究提出了一种新方法，利用扩散语言模型（DLMs）来解决传统自回归模型在压缩过程中的吞吐量瓶颈。这种方法在文本和代码的压缩比上表现优于现有的通用压缩工具，展现了良好的前景。",
-      "category": "ai-coding",
-      "tags": [
-        "文本压缩",
-        "扩散模型",
-        "无损压缩",
-        "机器学习",
-        "人工智能"
-      ],
-      "keyPoints": [
-        "研究表明，扩散语言模型在无损文本压缩中表现出色，压缩比明显优于 zstd、gzip 和 bzip 等传统工具。",
-        "扩散语言模型能够独立决定每次前向传递中编码符号的数量和位置，克服了自回归模型的逐步限制。",
-        "该研究在 enwik8 基准测试上进行了实验，结果显示新提出的 DLM 框架在无损文本压缩方面取得了显著进展。",
-        "DLM 仍处于发展阶段，未来有望通过不断改进模型来进一步提升性能。",
-        "研究包含 18 页内容，提供了丰富的实验数据和补充材料，便于深入理解。"
-      ],
-      "background": "随着数字化进程的加快，文本数据的存储和处理需求日益增加，传统的压缩算法在处理大规模文本时面临效率瓶颈。近年来，基于神经语言模型的压缩方法逐渐崭露头角，尤其是扩散语言模型的提出，为无损压缩提供了新的思路。该研究首次将 DLM 应用于无损文本压缩，展示了其在压缩效率上的潜力，并为后续研究奠定了基础。",
-      "impact": "这一研究成果将对文本处理领域的工程师、数据科学家和软件开发者产生深远影响。通过提高压缩效率，用户可以在存储和传输文本数据时节省成本，提升系统性能。此外，DLM 的应用可能会促使更多基于神经网络的压缩技术的开发，推动整个行业的进步。",
-      "audience": [
-        "从事文本处理的工程师",
-        "需要优化存储方案的数据科学家",
-        "开发高效压缩工具的软件工程师",
-        "研究机器学习模型的学者",
-        "关注数据传输效率的系统架构师"
-      ],
-      "useCases": [
-        "使用 DLM 进行大规模文本数据的压缩，显著提高存储效率。",
-        "在软件开发中集成新压缩算法，优化代码存储和传输。",
-        "为数据分析项目选择更高效的文本压缩方案，降低数据处理时间。",
-        "在机器学习模型训练中，利用 DLM 压缩训练数据集，节省计算资源。",
-        "研究新兴的压缩技术，推动学术界对无损压缩的深入探索。"
-      ],
-      "risks": [
-        "DLM 的实现可能需要较高的计算资源，导致初期投入增加。",
-        "在特定情况下，DLM 的压缩效果可能不如传统方法，需谨慎评估。",
-        "新技术的兼容性问题可能影响现有系统的稳定性，需进行充分测试。",
-        "API 的使用限制和配额可能影响大规模应用，需提前规划。",
-        "对多语言支持的限制可能影响全球用户的使用体验。"
-      ],
-      "reason": "这项研究展示了扩散语言模型在无损文本压缩中的潜力，值得关注其未来的发展和应用。",
-      "scores": {
-        "importance": 85,
-        "novelty": 80,
-        "firsthand": 90,
-        "impact": 75,
-        "credibility": 80
-      },
-      "url": "https://arxiv.org/abs/2608.11249",
-      "source": "RSS · arXiv cs.CL",
-      "date": "2026-08-13",
-      "publishedAt": "",
-      "collectedAt": "2026-08-13T14:53",
-      "dateStatus": "collected",
-      "tier": "T1",
-      "score": 82,
-      "aiSelected": true,
-      "_style": "recommender",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceDate": "2026-08-13",
-      "sourceCount": 1
-    },
-    {
-      "title": "Backtrader-Bench 框架评估 LLM 代理在算法交易中的表现",
-      "summary": "Ruoxi Zhao 和 Maziar Raissi 提出了 Backtrader-Bench，一个用于评估 LLM 编码代理在算法交易中的新框架。该框架通过两个互补的管道生成自我生成的多项选择题 (MCQ)，并在 30 个问题的 curated 集合上对 11 个无工具模型和 4 个有工具配置进行了评估，结果显示工具增强的代理在单次测试中达到了 90.0% 的准确率。",
-      "category": "ai-benchmark",
-      "tags": [
-        "算法交易",
-        "LLM代理",
-        "Backtrader-Bench",
-        "多项选择题",
-        "模型评估"
-      ],
-      "keyPoints": [
-        "Backtrader-Bench 框架包含两个管道，分别用于生成和验证多项选择题，确保评估的准确性。",
-        "在 30 个问题的测试中，工具增强的代理（如 GPT-5.5 和 Opus 4.7）达到了 90.0% 的准确率，超越了无工具模型的 73.0%。",
-        "该框架设计了 5 种交易策略和 33 种模板，涵盖了三种难度级别，提供了全面的评估基础。",
-        "无工具模型在 38 个独立挖掘的问题上准确率下降，部分模型的表现接近随机猜测水平（25%）。",
-        "Backtrader-Bench 的 MCQ 基础设施还可用于生成强化学习的训练语料库，旨在构建专门的量化交易代理。"
-      ],
-      "background": "2026 年 7 月 31 日，Ruoxi Zhao 和 Maziar Raissi 在 arXiv 上提交了论文，介绍了 Backtrader-Bench 框架。传统的算法交易模型评估面临静态基准可能导致数据污染的问题，而数值回测输出又需要实际代码执行的真实结果。为了解决这些问题，研究者们提出了 Backtrader-Bench，利用自生成的多项选择题来进行模型评估。该框架的设计旨在提高评估的可靠性和有效性，尤其是在算法交易这一快速发展的领域。",
-      "impact": "Backtrader-Bench 的推出将为算法交易领域的 LLM 代理评估提供新的标准，尤其是对于希望提升模型性能的开发者和研究人员。工具增强的代理在准确率上的显著提升，可能促使更多的金融科技公司采用 LLM 进行交易决策，从而改变传统的交易策略和模型选择。此外，该框架的 MCQ 基础设施也为未来的强化学习研究提供了新的方向，可能推动量化交易领域的进一步创新。",
-      "audience": [
-        "算法交易开发者",
-        "金融科技研究人员",
-        "机器学习工程师",
-        "量化分析师",
-        "教育工作者"
-      ],
-      "useCases": [
-        "生成多项选择题以评估 LLM 模型在算法交易中的表现。",
-        "利用 Backtrader-Bench 框架进行模型性能对比，优化交易策略。",
-        "为量化交易工作流构建专门的 LLM 代理，提升决策效率。"
-      ],
-      "risks": [
-        "在使用 Backtrader-Bench 进行评估时，可能面临数据集的选择偏差，影响结果的普适性。",
-        "工具增强的代理虽然表现优异，但在实际交易中可能受到市场波动的影响，导致结果不稳定。",
-        "依赖于自生成的多项选择题可能会导致评估的局限性，未能全面反映模型在真实环境中的表现。"
-      ],
-      "reason": "Backtrader-Bench 提供了一种创新的评估方法，能够有效提升 LLM 在算法交易中的应用价值，值得关注。",
-      "scores": {
-        "importance": 85,
-        "novelty": 80,
-        "firsthand": 90,
-        "impact": 75,
-        "credibility": 80
-      },
-      "url": "https://arxiv.org/abs/2608.11232",
-      "source": "RSS · arXiv cs.CL",
-      "date": "2026-08-13",
-      "publishedAt": "",
-      "collectedAt": "2026-08-13T14:53",
-      "dateStatus": "collected",
-      "tier": "T1",
-      "score": 82,
-      "aiSelected": true,
-      "_style": "observer",
-      "moduleTargets": [
-        "news",
-        "benchmarkDatasets"
       ],
       "sourceDate": "2026-08-13",
       "sourceCount": 1
@@ -11925,6 +11859,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-research": [
       {
+        "name": "Money Rules Aren't Static: 7 Guidelines That Are Obsolete",
+        "provider": "WealthUp",
+        "type": "AI 项目/工具",
+        "bestFor": "Disclosure: We scrutinize our research, ratings and reviews using strict editorial integrity. In full transparency, this site may receive compensation from part",
+        "description": "Disclosure: We scrutinize our research, ratings and reviews using strict editorial integrity. In full transparency, this site may receive compensation from partners listed through ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "WealthUp",
+        "url": "https://wealthup.com/outdated-money-rules-aug-18-2026/"
+      },
+      {
         "name": "GLM-5.3 发布，编程和网络安全能力大幅提升",
         "provider": "智谱：研究（网页内嵌数据）",
         "type": "AI 项目/工具",
@@ -12474,23 +12419,6 @@ window.AI_GENERATED_DATA = {
         "watch": "使用封闭模型可能导致无法获取必要的技术支持，影响研究进度。",
         "sourceName": "NewsAPI:generative AI",
         "url": "https://www.theregister.com/ai-and-ml/2026/07/29/closed-models-refuse-to-help-researcher-swat-linux-bug/5280647"
-      },
-      {
-        "name": "OpenAI 向 10 万名研究人员提供免费 AI 访问权限，持续至 2027 年",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "这一计划将显著改变学术界的研究方式，尤其是在科学和工程领域。研究人员可以利用先进的 AI 工具加速研究进程，提高工作效率。此外，开放的合作模式将促进跨学科的交流与合作，推动科学发现的速度和质量。长远来看，这可能会影响到学术出版、研究资助的申请流程，以及科学研究的整体生态。",
-        "description": "我注意到 OpenAI 最近推出了一项新计划，旨在为 10 万名学术研究人员提供免费访问其前沿 AI 模型和研究工具的机会。这项计划将于今年夏季开始，最初将招募 10,000 名科学家、数学家和工程师，预计到 2027 年将扩展到全部 100,000 名参与者。参与者将获得 GPT-5.6 系列模型的访问权限，包括更高的使用限制和丰富的生命科学工具。",
-        "useCases": [
-          "利用 Codex 编写和调试代码，提升编程效率。",
-          "使用 ChatGPT Work 进行文献综述，快速整理研究资料。",
-          "通过生命科学工具进行药物发现，加速新药研发进程。",
-          "与合作者共同使用 AI 工具，提升研究项目的协作效率。",
-          "进行数据集分析，发现潜在的研究趋势和模式。"
-        ],
-        "watch": "参与者需验证其学术机构的身份，可能会影响一些研究人员的参与。",
-        "sourceName": "NewsAPI:artificial intelligence",
-        "url": "https://cryptobriefing.com/openai-free-ai-access-researchers-2027/"
       }
     ],
     "ai-office": []
@@ -14002,8 +13930,8 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-08-19",
-    "generatedAt": "2026-08-19T03:11:44.770449Z",
-    "total": 14,
+    "generatedAt": "2026-08-19T04:27:34.981627Z",
+    "total": 15,
     "sections": [
       {
         "category": "ai-tools",
@@ -14164,6 +14092,17 @@ window.AI_GENERATED_DATA = {
             "date": "2026-08-18",
             "publishedAt": "",
             "reason": "本研究提供了对 LLM 服务工作负载的深入分析，填补了现有研究的空白，具有重要的实用价值和研究意义。"
+          },
+          {
+            "title": "StartupBench：市场验证的智能体基准测试",
+            "summary": "StartupBench 是一个全新的基准测试工具，专注于评估通用智能体在真实市场环境中的表现。与传统基准不同，它基于真实的 AI 产品工作流，揭示了当前智能体在复杂任务中的局限性。研究显示，即便是最强的模型，成功完成的任务比例也仅为 30%。",
+            "source": "HuggingFace Daily Papers（社区热门论文）",
+            "url": "https://arxiv.org/abs/2608.17800",
+            "score": 65,
+            "sourceCount": 1,
+            "date": "2026-08-18",
+            "publishedAt": "2026-08-18T08:00",
+            "reason": "StartupBench 通过真实市场验证的工作流，为智能体的评估提供了全新的视角，值得关注。"
           }
         ]
       },
@@ -27429,6 +27368,32 @@ window.AI_GENERATED_DATA = {
     ]
   },
   "benchmarkDatasets": [
+    {
+      "name": "StartupBench",
+      "area": "Agent / 工具调用",
+      "note": "StartupBench 是一个全新的基准测试工具，专注于评估通用智能体在真实市场环境中的表现。与传统基准不同，它基于真实的 AI 产品工作流，揭示了当前智能体在复杂任务中的局限性。研究显示，即便是最强的模型，成功完成的任务比例也仅为 30%。",
+      "source": "https://arxiv.org/abs/2608.17800",
+      "sourceName": "HuggingFace Daily Papers（社区热门论文）",
+      "date": "2026-08-18",
+      "originTitle": "StartupBench：市场验证的智能体基准测试",
+      "evaluates": [
+        "StartupBench 通过真实市场验证的工作流来评估智能体的能力，确保测试的实用性。",
+        "当前最强的智能体模型在 StartupBench 上仅能完成约 30% 的任务，显示出其在复杂指令和领域知识上的不足。",
+        "该基准测试的设计旨在填补研究者预设任务与真实用户需求之间的差距。",
+        "StartupBench 的结果揭示了通用智能体在实际应用中的能力边界，提供了重要的参考数据。",
+        "研究团队包括 38 位作者，涵盖了多领域的专业知识，确保了测试的全面性。"
+      ],
+      "useCases": [
+        "评估新开发的智能体在真实市场任务中的表现，确保其满足用户需求。",
+        "根据 StartupBench 的结果调整产品功能，提升用户体验和满意度。",
+        "研究智能体在复杂任务中的失败原因，为后续的技术改进提供依据。"
+      ],
+      "limitations": [
+        "使用 StartupBench 进行评估时，可能会面临数据不完整或不准确的风险，影响测试结果的可靠性。",
+        "由于基准测试依赖于市场验证的工作流，可能会导致某些领域的任务被忽视，影响全面性。",
+        "在实际应用中，智能体的表现可能受到硬件和软件环境的影响，导致测试结果与实际情况不符。"
+      ]
+    },
     {
       "name": "AnchorBench",
       "area": "AI 模型能力评测",
