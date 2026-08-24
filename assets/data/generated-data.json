@@ -1,7 +1,238 @@
 {
   "lastUpdated": "2026-08-24",
-  "generatedAt": "2026-08-24T03:43:08.112724Z",
+  "generatedAt": "2026-08-24T06:12:48.546210Z",
   "news": [
+    {
+      "title": "Accelerating aircraft IFEC diagnostics with agentic AI on AWS",
+      "summary": "Panasonic Avionics worked with AWS and the AWS Generative AI Innovation Center to build an agentic AI system on Amazon Bedrock, Amazon SageMaker, and AWS Glue that diagnoses in-fli",
+      "category": "ai-agents",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-08-22",
+      "publishedAt": "2026-08-22T00:57",
+      "collectedAt": "2026-08-24T14:12",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/accelerating-aircraft-ifec-diagnostics-with-agentic-ai-on-aws/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Agentic Data Operations Platform (ADOP): Data engineering into hours",
+      "summary": "The Agentic Data Operations Platform (ADOP) is a reference architecture on Amazon Bedrock that uses specialized AI agents to automate the full Bronze-to-Silver-to-Gold data pipelin",
+      "category": "ai-agents",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-08-22",
+      "publishedAt": "2026-08-22T01:06",
+      "collectedAt": "2026-08-24T14:12",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/agentic-data-operations-platform-adop-data-engineering-into-hours/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "An AI tool for prioritizing candidate biomarkers from wearable sensor data",
+      "summary": "Generative AI",
+      "category": "ai-models",
+      "source": "RSS · Google Research",
+      "date": "2026-08-22",
+      "publishedAt": "2026-08-22T01:02",
+      "collectedAt": "2026-08-24T14:12",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://research.google/blog/an-ai-tool-for-prioritizing-candidate-biomarkers-from-wearable-sensor-data/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Broadening access to Skala creates a faster path to predictive DFT",
+      "summary": "Skala 1.1, the updated deep-learning exchange-correlation functional from Microsoft Research, provides greater accuracy, expanded accessibility across the computational chemistry e",
+      "category": "ai-benchmark",
+      "source": "RSS · Microsoft Research",
+      "date": "2026-08-21",
+      "publishedAt": "2026-08-21T00:00",
+      "collectedAt": "2026-08-24T14:12",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://www.microsoft.com/en-us/research/blog/broadening-access-to-skala-creates-a-faster-path-to-predictive-dft/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
+      "summary": "Google DeepMind partners with game studios to prototype breakthrough AI gameplay.",
+      "category": "ai-research",
+      "source": "RSS · Google DeepMind",
+      "date": "2026-08-21",
+      "publishedAt": "2026-08-21T19:59",
+      "collectedAt": "2026-08-24T14:12",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "How mobility gives language models a deeper understanding of place",
+      "summary": "Algorithms & Theory",
+      "category": "ai-models",
+      "source": "RSS · Google Research",
+      "date": "2026-08-21",
+      "publishedAt": "2026-08-21T18:54",
+      "collectedAt": "2026-08-24T14:12",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://research.google/blog/how-mobility-gives-language-models-a-deeper-understanding-of-place/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Build a no-code ML workflow with Snowflake, Amazon SageMaker Canvas and Amazon Quick – Part 1: Setting up your Snowflake environment",
+      "summary": "Healthcare, retail, and life sciences teams store large volumes of operational data in Snowflake, but turning it into predictions is hard. In Part 1 of this series, you set up your",
+      "category": "ai-coding",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-08-21",
+      "publishedAt": "2026-08-21T05:23",
+      "collectedAt": "2026-08-24T14:12",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-a-no-code-ml-workflow-with-snowflake-amazon-sagemaker-canvas-and-amazon-quick-part-1-setting-up-your-snowflake-environment/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 3,
+      "relatedSources": [
+        {
+          "source": "RSS · AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-a-no-code-ml-workflow-with-snowflake-amazon-sagemaker-canvas-and-amazon-quick-part-2-data-preparation-and-model-building-with-amazon-sagemaker-canvas/",
+          "title": "Build a no-code ML workflow with Snowflake, Amazon SageMaker Canvas and Amazon Quick – Part 2: Data preparation and model building with Amazon SageMaker Canvas"
+        },
+        {
+          "source": "RSS · AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-a-no-code-ml-workflow-with-snowflake-amazon-sagemaker-canvas-and-amazon-quick-part-3-visualizing-insights-with-amazon-quick-sight/",
+          "title": "Build a no-code ML workflow with Snowflake, Amazon SageMaker Canvas and Amazon Quick – Part 3: Visualizing insights with Amazon Quick Sight"
+        }
+      ]
+    },
+    {
+      "title": "Introducing cross-Region inference for OpenAI GPT-5.6 models on Amazon Bedrock",
+      "summary": "Amazon Bedrock now offers OpenAI GPT-5.6 models (Sol, Terra, and Luna) in more than 25 AWS Regions with cross-Region inference. Learn how US geographic and global inference profile",
+      "category": "ai-models",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-08-21",
+      "publishedAt": "2026-08-21T05:46",
+      "collectedAt": "2026-08-24T14:12",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-cross-region-inference-for-openai-gpt-5-6-models-on-amazon-bedrock/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Amazon Bedrock AgentCore 支持域名和发布日期过滤",
       "summary": "Amazon Bedrock AgentCore 现已推出运行时域名和发布日期过滤功能，允许开发者在每次请求中控制代理查询的网页来源及其新鲜度。这一更新还将 Web Search 扩展至欧洲（爱尔兰）和亚太（东京）地区，提升了用户体验。",
@@ -8972,6 +9203,39 @@
     ],
     "ai-agents": [
       {
+        "name": "Accelerating aircraft IFEC diagnostics with agentic AI on AW",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Panasonic Avionics worked with AWS and the AWS Generative AI Innovation Center to build an agentic AI system on Amazon Bedrock, Amazon SageMaker, and AWS Glue t",
+        "description": "Panasonic Avionics worked with AWS and the AWS Generative AI Innovation Center to build an agentic AI system on Amazon Bedrock, Amazon SageMaker, and AWS Glue that diagnoses in-fli",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/accelerating-aircraft-ifec-diagnostics-with-agentic-ai-on-aws/"
+      },
+      {
+        "name": "Agentic Data Operations Platform (ADOP): Data engineering in",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "The Agentic Data Operations Platform (ADOP) is a reference architecture on Amazon Bedrock that uses specialized AI agents to automate the full Bronze-to-Silver-",
+        "description": "The Agentic Data Operations Platform (ADOP) is a reference architecture on Amazon Bedrock that uses specialized AI agents to automate the full Bronze-to-Silver-to-Gold data pipelin",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/agentic-data-operations-platform-adop-data-engineering-into-hours/"
+      },
+      {
+        "name": "阿里发布 Qwen-UI-Agent，主打让模型真正\"会用\"每一块屏幕",
+        "provider": "IT之家（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "阿里巴巴正式推出 Qwen-UI-Agent，一个以真实世界为中心的 GUI 智能体基座模型，覆盖移动端、电脑端、网页端及深度搜索（DeepSearch）环境。",
+        "description": "阿里巴巴正式推出 Qwen-UI-Agent，一个以真实世界为中心的 GUI 智能体基座模型，覆盖移动端、电脑端、网页端及深度搜索（DeepSearch）环境。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "IT之家（RSS）",
+        "url": "https://www.ithome.com/0/992/239.htm"
+      },
+      {
         "name": "AI 代理治理的挑战与解决方案",
         "provider": "Frontier Enterprise",
         "type": "AI 项目/工具",
@@ -9528,48 +9792,42 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Yahoo! Finance",
         "url": "https://ca.finance.yahoo.com/news/adcore-inc-adcof-q2-2026-010310461.html"
-      },
-      {
-        "name": "Cloudways Bets That Enterprises Will Pay to Rehabilitate the",
-        "provider": "Yahoo! Finance",
-        "type": "AI 项目/工具",
-        "bestFor": "When an AI agent deletes hundreds of emails from a senior executive's inbox, the fallout is immediate. In February 2026, that exact scenario involving Summer Yu",
-        "description": "When an AI agent deletes hundreds of emails from a senior executive's inbox, the fallout is immediate. In February 2026, that exact scenario involving Summer Yue, Director of Align",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Yahoo! Finance",
-        "url": "https://finance.yahoo.com/technology/ai/articles/cloudways-bets-enterprises-pay-rehabilitate-001904217.html"
-      },
-      {
-        "name": "使用 Google 的 Agent Development Kit 构建零信任 AI 智能体",
-        "provider": "Google Developers Blog（RSS）",
-        "type": "AI 项目/工具",
-        "bestFor": "这一技术的推出将对开发者和企业产生深远影响。首先，开发者可以利用这一框架构建更安全的 AI 应用，降低因安全漏洞导致的风险。其次，企业在使用 AI 智能体处理客户请求时，可以更放心地进行操作，提升客户体验。此外，这一架构的开源特性也将促进社区的参与和创新，推动零信任安全理念的普及。",
-        "description": "Google 开源了基于 Agent Development Kit (ADK) 和 Gemini 的零信任客服与退货智能体示例，展示了如何通过三层安全机制防御提示注入等攻击。这些机制包括硬件支持的加密签名、gVisor 沙箱隔离动态代码执行以及确定性语义网关校验业务逻辑，确保系统的安全性和可靠性。",
-        "useCases": [
-          "使用 ADK 创建一个零信任的客服智能体，处理客户的退货请求并确保安全。",
-          "在动态环境中部署 AI 智能体，利用 gVisor 沙箱隔离执行代码，防止安全漏洞。",
-          "通过加密签名机制，确保每次数据库操作的不可抵赖性，提升数据安全性。",
-          "测试和验证 AI 智能体的安全性，防止提示注入攻击，确保系统稳定运行。",
-          "利用开源代码进行二次开发，定制符合企业需求的零信任 AI 解决方案。"
-        ],
-        "watch": "在使用 ADK 时，需注意 API 调用的配额限制，避免因超出配额导致服务中断。",
-        "sourceName": "Google Developers Blog（RSS）",
-        "url": "https://developers.googleblog.com/build-zero-trust-ai-agents-with-googles-agent-development-kit"
-      },
-      {
-        "name": "Build OpenClaw agents that transact with Amazon Bedrock Agen",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Give an autonomous agent a wallet and spending guardrails so it can pay for paywalled APIs, MCP servers, and web content. This post connects OpenClaw to Amazon ",
-        "description": "Give an autonomous agent a wallet and spending guardrails so it can pay for paywalled APIs, MCP servers, and web content. This post connects OpenClaw to Amazon Bedrock AgentCore pa",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/build-openclaw-agents-that-transact-with-amazon-bedrock-agentcore-payments/"
       }
     ],
     "ai-models": [
+      {
+        "name": "Anthropic 如何开展 AI 教学",
+        "provider": "Claude：Blog（网页）",
+        "type": "AI 项目/工具",
+        "bestFor": "Anthropic 发布 Claude Academy，为全球数百万用户提供 AI 教学资源，帮助其安全、有效地使用 AI。该学院课程借鉴其内部员工培训方法，包括 4D AI Fluency Framework 及\"ever-boarding\"持续学习项目，并强调以问题为中心、培养持久思维模式而非特定操作行为。",
+        "description": "Anthropic 发布 Claude Academy，为全球数百万用户提供 AI 教学资源，帮助其安全、有效地使用 AI。该学院课程借鉴其内部员工培训方法，包括 4D AI Fluency Framework 及\"ever-boarding\"持续学习项目，并强调以问题为中心、培养持久思维模式而非特定操作行为。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Claude：Blog（网页）",
+        "url": "https://claude.com/blog/anthropics-approach-to-teaching-and-learning-ai"
+      },
+      {
+        "name": "Claude Platform 正式上线 Computer Use、Skills API 与 Files API，新增浏",
+        "provider": "Claude：Blog（网页）",
+        "type": "AI 项目/工具",
+        "bestFor": "Anthropic 宣布 Computer Use、Skills API 与 Files API 在 Claude Platform 全面可用，并新增浏览器操作工具，让智能体可操作软件、调用团队技能并返回成品文件。",
+        "description": "Anthropic 宣布 Computer Use、Skills API 与 Files API 在 Claude Platform 全面可用，并新增浏览器操作工具，让智能体可操作软件、调用团队技能并返回成品文件。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Claude：Blog（网页）",
+        "url": "https://claude.com/blog/computer-use-skills-api-files-api"
+      },
+      {
+        "name": "Claude Platform 发布 Python SDK v1.0，迁移至 httpx2",
+        "provider": "Claude Platform：开发者版本说明（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "Anthropic 发布 Claude Python SDK v1.0，HTTP 层从 httpx 迁移至 API 兼容的 httpx2，并移除 Text Completions API 等长期弃用功能。",
+        "description": "Anthropic 发布 Claude Python SDK v1.0，HTTP 层从 httpx 迁移至 API 兼容的 httpx2，并移除 Text Completions API 等长期弃用功能。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Claude Platform：开发者版本说明（RSS）",
+        "url": "https://platform.claude.com/docs/en/release-notes/overview#august-20-2026"
+      },
       {
         "name": "DeepSeek-V4-Flash-Vision-Exp 发布",
         "provider": "DeepSeek：API 更新日志",
@@ -10098,39 +10356,6 @@
         "watch": "部分 AI 工具可能未经过充分测试，存在安全隐患，可能导致学生数据泄露。",
         "sourceName": "PhillyVoice",
         "url": "https://www.phillyvoice.com/schools-spending-billions-buying-ai-tools-choices/"
-      },
-      {
-        "name": "The U.S. Military Wants A.I. Dominance. Feuds and China May ",
-        "provider": "The New York Times",
-        "type": "AI 项目/工具",
-        "bestFor": "The reporters have covered the Trump administration's monthslong disputes with Anthropic and efforts in Washington to grapple with national and economic securit",
-        "description": "The reporters have covered the Trump administration's monthslong disputes with Anthropic and efforts in Washington to grapple with national and economic security issues posed by ar",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The New York Times",
-        "url": "https://www.nytimes.com/2026/08/16/us/politics/military-ai-china-anthropic.html"
-      },
-      {
-        "name": "Why do so many AI chatbots call themselves Nova? I asked Cha",
-        "provider": "TechRadar",
-        "type": "AI 项目/工具",
-        "bestFor": "There's a common name that chatbots pick, guess which one went for it straight away?\n\nLook, I really don't think we should be naming our AI chatbots. It feels l",
-        "description": "There's a common name that chatbots pick, guess which one went for it straight away?\n\nLook, I really don't think we should be naming our AI chatbots. It feels like one of the easie",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "TechRadar",
-        "url": "https://www.techradar.com/ai-platforms-assistants/chatgpt/why-do-so-many-ai-chatbots-call-themselves-nova-i-asked-chatgpt-claude-gemini-and-more-to-name-themselves"
-      },
-      {
-        "name": "Jimmy Wales: 'AI can generate answers. It still can't earn t",
-        "provider": "DNyuz",
-        "type": "AI 项目/工具",
-        "bestFor": "The man behind the world's largest digital encyclopedia talks to Fortune Greece, republished with permission.\n\nThere are few digital platforms that have become ",
-        "description": "The man behind the world's largest digital encyclopedia talks to Fortune Greece, republished with permission.\n\nThere are few digital platforms that have become as quietly indispens",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "DNyuz",
-        "url": "https://dnyuz.com/2026/08/16/jimmy-wales-ai-can-generate-answers-it-still-cant-earn-trust/"
       }
     ],
     "ai-business": [
@@ -11953,6 +12178,17 @@
     ],
     "ai-research": [
       {
+        "name": "An AI tool for prioritizing candidate biomarkers from wearab",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Generative AI",
+        "description": "Generative AI",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Google Research",
+        "url": "https://research.google/blog/an-ai-tool-for-prioritizing-candidate-biomarkers-from-wearable-sensor-data/"
+      },
+      {
         "name": "深入分析 LLM 中的人类行为表现及其影响",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -12503,17 +12739,6 @@
         "watch": "研究结果可能受到样本选择偏差的影响，需谨慎解读。",
         "sourceName": "NewsAPI:generative AI",
         "url": "https://www.globenewswire.com/news-release/2026/07/31/3337001/0/en/New-national-study-confirms-HBCUs-deliver-exceptional-outcomes-for-graduates-according-to-landmark-research-from-the-Dr-N-Joyce-Payne-Research-Center-and-Gallup.html"
-      },
-      {
-        "name": "How Switzerland became a global hub for artificial intellige",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "The Daily Bonik Barta is a Bangla newspaper of Bangladesh. The newspaper is publishing from Dhaka. The name of the editor of the newspaper is Dewan Hanif Mahmud",
-        "description": "The Daily Bonik Barta is a Bangla newspaper of Bangladesh. The newspaper is publishing from Dhaka. The name of the editor of the newspaper is Dewan Hanif Mahmud. In 2018, the circu",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:large language model",
-        "url": "https://bonikbarta.com/magazine/swiss-national-day/IfbhUgzMHWuonAEG"
       }
     ],
     "ai-office": []
@@ -14050,7 +14275,7 @@
   ],
   "dailyReport": {
     "date": "2026-08-24",
-    "generatedAt": "2026-08-24T03:43:08.087724Z",
+    "generatedAt": "2026-08-24T06:12:48.497180Z",
     "total": 24,
     "sections": [
       {
@@ -14111,17 +14336,6 @@
             "date": "2026-08-20",
             "publishedAt": "2026-08-20T03:00",
             "reason": "谷歌的新学习工具通过AI技术提供个性化和互动的学习体验，值得关注。"
-          },
-          {
-            "title": "自定义 Amazon Quick 嵌入式聊天功能",
-            "summary": "我注意到 Amazon Quick 嵌入式聊天为网页应用提供了对话式 AI 接口，用户可以在应用内提问、探索数据和获取见解。通过自定义聊天界面，可以确保其外观和感觉与品牌一致，提升用户体验。",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/customize-amazon-quick-embedded-chat-into-your-application/",
-            "score": 77,
-            "sourceCount": 1,
-            "date": "2026-08-19",
-            "publishedAt": "2026-08-19T01:13",
-            "reason": "这篇文章提供了实用的自定义指南，帮助开发者将 Amazon Quick 嵌入式聊天与品牌形象完美结合，提升用户体验。"
           }
         ]
       },
@@ -14130,15 +14344,15 @@
         "label": "AI 编程",
         "items": [
           {
-            "title": "Replit 推出 GPT-5.6 Luna 免费模式，简化软件开发",
-            "summary": "我注意到 Replit 最近推出了基于 GPT-5.6 Luna 的免费模式，任何人都可以轻松将创意转化为可运行的软件，而无需担心代币费用。这一举措大大降低了软件开发的门槛，让更多人能够参与到编程中来。",
-            "source": "RSS · OpenAI Blog",
-            "url": "https://openai.com/index/replit",
-            "score": 81,
-            "sourceCount": 1,
-            "date": "2026-08-19",
-            "publishedAt": "2026-08-19T15:00",
-            "reason": "Replit 的免费模式为软件开发带来了新的可能性，尤其是对于初学者和创业者而言，值得关注。"
+            "title": "Build a no-code ML workflow with Snowflake, Amazon SageMaker Canvas and Amazon Quick – Part 1: Setting up your Snowflake environment",
+            "summary": "Healthcare, retail, and life sciences teams store large volumes of operational data in Snowflake, but turning it into predictions is hard. I",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/build-a-no-code-ml-workflow-with-snowflake-amazon-sagemaker-canvas-and-amazon-quick-part-1-setting-up-your-snowflake-environment/",
+            "score": 70,
+            "sourceCount": 3,
+            "date": "2026-08-21",
+            "publishedAt": "2026-08-21T05:23",
+            "reason": ""
           },
           {
             "title": "FastMetal 实现 Mac 本地 30 秒生成视频",
@@ -14202,36 +14416,25 @@
             "reason": "Axonius 的成功案例展示了如何在复杂环境中有效部署多租户 AI 代理，值得关注和学习。"
           },
           {
-            "title": "使用 Amazon Bedrock 实现向量提示文档分类",
-            "summary": "我最近看到 Amazon Bedrock 上有一个很酷的多代理文档分类解决方案。这个方案结合了 Strands Agents SDK，利用三个专业代理进行文本分析和视觉相似性搜索，能够准确分类保险文档，比如保单和宣誓书。这种方法不仅提高了分类的准确性，还能处理复杂的文档类型。",
+            "title": "Accelerating aircraft IFEC diagnostics with agentic AI on AWS",
+            "summary": "Panasonic Avionics worked with AWS and the AWS Generative AI Innovation Center to build an agentic AI system on Amazon Bedrock, Amazon SageM",
             "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/implement-vector-prompt-document-classification-using-amazon-bedrock/",
-            "score": 78,
-            "sourceCount": 1,
-            "date": "2026-08-19",
-            "publishedAt": "2026-08-19T01:10",
-            "reason": "这条信息展示了如何利用先进的 AI 技术提升文档分类效率，特别适合保险行业的需求，值得关注。"
-          },
-          {
-            "title": "Amazon Bedrock AgentCore 支付功能正式上线，AI 代理可安全自主交易",
-            "summary": "Amazon Bedrock AgentCore 支付功能现已全面上线，允许 AI 代理在内置支出保护机制的支持下，安全且自主地进行大规模交易。该功能具备协议无关的支付编排能力，并提供生产级的可观察性，旨在提升交易的安全性和效率。",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-payments-is-now-generally-available-enabling-agents-to-transact-safely-and-autonomously-at-scale/",
-            "score": 78,
-            "sourceCount": 1,
-            "date": "2026-08-19",
-            "publishedAt": "2026-08-19T02:56",
-            "reason": "这项功能的推出为企业提供了一个安全、高效的交易解决方案，值得关注。"
-          },
-          {
-            "title": "The P-Completeness of Inverted Index Traversal: On the Complexity of Evaluating Boolean Query DAGs",
-            "summary": "Modern AI agents increasingly rely on search infrastructure to execute complex, neuro-symbolic reasoning workflows. These workflows often co",
-            "source": "RSS · Apple ML Research",
-            "url": "https://machinelearning.apple.com/research/the-p-completeness-of-inverted-index-traversal",
+            "url": "https://aws.amazon.com/blogs/machine-learning/accelerating-aircraft-ifec-diagnostics-with-agentic-ai-on-aws/",
             "score": 70,
             "sourceCount": 1,
-            "date": "2026-08-19",
-            "publishedAt": "2026-08-19T08:00",
+            "date": "2026-08-22",
+            "publishedAt": "2026-08-22T00:57",
+            "reason": ""
+          },
+          {
+            "title": "Agentic Data Operations Platform (ADOP): Data engineering into hours",
+            "summary": "The Agentic Data Operations Platform (ADOP) is a reference architecture on Amazon Bedrock that uses specialized AI agents to automate the fu",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/agentic-data-operations-platform-adop-data-engineering-into-hours/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-22",
+            "publishedAt": "2026-08-22T01:06",
             "reason": ""
           }
         ]
@@ -14252,25 +14455,36 @@
             "reason": "OpenAI 的零数据保留服务为开发者提供了更高的数据隐私保障，是推动 AI 安全应用的重要一步。"
           },
           {
-            "title": "Improve contract search accuracy with auto-generated filters in Amazon Bedrock",
-            "summary": "In this post, we describe how AIDA works at a high level and how it helps address these challenges — grounding users in the right contracts,",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/improve-contract-search-accuracy-with-auto-generated-filters-in-amazon-bedrock/",
+            "title": "An AI tool for prioritizing candidate biomarkers from wearable sensor data",
+            "summary": "Generative AI",
+            "source": "RSS · Google Research",
+            "url": "https://research.google/blog/an-ai-tool-for-prioritizing-candidate-biomarkers-from-wearable-sensor-data/",
             "score": 70,
             "sourceCount": 1,
-            "date": "2026-08-19",
-            "publishedAt": "2026-08-19T01:02",
+            "date": "2026-08-22",
+            "publishedAt": "2026-08-22T01:02",
             "reason": ""
           },
           {
-            "title": "Claude 如何加速蛋白质设计与分析化学研究",
-            "summary": "Anthropic 公布两项实验：Claude（Mythos Preview 和 Opus 4.8）针对 15 个靶点设计蛋白质结合剂，成功 14 个，命中率达 22.6%-35.1%。",
-            "source": "Anthropic：Research（发表成果 · 网页）",
-            "url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
+            "title": "How mobility gives language models a deeper understanding of place",
+            "summary": "Algorithms & Theory",
+            "source": "RSS · Google Research",
+            "url": "https://research.google/blog/how-mobility-gives-language-models-a-deeper-understanding-of-place/",
             "score": 70,
             "sourceCount": 1,
-            "date": "2026-08-19",
-            "publishedAt": "2026-08-19T06:27",
+            "date": "2026-08-21",
+            "publishedAt": "2026-08-21T18:54",
+            "reason": ""
+          },
+          {
+            "title": "Introducing cross-Region inference for OpenAI GPT-5.6 models on Amazon Bedrock",
+            "summary": "Amazon Bedrock now offers OpenAI GPT-5.6 models (Sol, Terra, and Luna) in more than 25 AWS Regions with cross-Region inference. Learn how US",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/introducing-cross-region-inference-for-openai-gpt-5-6-models-on-amazon-bedrock/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-21",
+            "publishedAt": "2026-08-21T05:46",
             "reason": ""
           },
           {
@@ -14298,6 +14512,23 @@
         ]
       },
       {
+        "category": "ai-benchmark",
+        "label": "评测榜单",
+        "items": [
+          {
+            "title": "Broadening access to Skala creates a faster path to predictive DFT",
+            "summary": "Skala 1.1, the updated deep-learning exchange-correlation functional from Microsoft Research, provides greater accuracy, expanded accessibil",
+            "source": "RSS · Microsoft Research",
+            "url": "https://www.microsoft.com/en-us/research/blog/broadening-access-to-skala-creates-a-faster-path-to-predictive-dft/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-21",
+            "publishedAt": "2026-08-21T00:00",
+            "reason": ""
+          }
+        ]
+      },
+      {
         "category": "ai-research",
         "label": "论文研究",
         "items": [
@@ -14311,6 +14542,17 @@
             "date": "2026-08-19",
             "publishedAt": "2026-08-19T08:00",
             "reason": "本研究提供了对 LLM 行为表现的深入分析，填补了当前研究中的空白，具有重要的理论和实践价值。"
+          },
+          {
+            "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
+            "summary": "Google DeepMind partners with game studios to prototype breakthrough AI gameplay.",
+            "source": "RSS · Google DeepMind",
+            "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-21",
+            "publishedAt": "2026-08-21T19:59",
+            "reason": ""
           }
         ]
       },
@@ -14318,17 +14560,6 @@
         "category": "ai-business",
         "label": "行业商业",
         "items": [
-          {
-            "title": "ChatGPT Ads 在欧洲市场扩展至 31 个国家",
-            "summary": "ChatGPT Ads 正在向 31 个欧洲市场扩展，广告主可以借此机会在用户探索、比较选项和做出决策时进行精准投放。这一扩展为广告主提供了新的触达用户的方式，尤其是在竞争激烈的市场环境中。",
-            "source": "RSS · OpenAI Blog",
-            "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
-            "score": 78,
-            "sourceCount": 1,
-            "date": "2026-08-19",
-            "publishedAt": "2026-08-19T06:00",
-            "reason": "ChatGPT Ads 的扩展为广告主提供了新的市场机会，尤其是在用户决策过程中，值得关注。"
-          },
           {
             "title": "Stripe 以 75 亿美元收购 OpenRouter",
             "summary": "Stripe 确认收购 AI 模型路由平台 OpenRouter，交易金额达到 75 亿美元，远超其 5 月时的 13 亿美元估值。尽管创始人提到收购与\"奇点\"有关，实际原因在于 OpenRouter 能帮助 Stripe 进入 AI 时代的支出管理领域，并掌握开发者的 AI 使",
