@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-08-24",
-  "generatedAt": "2026-08-24T06:12:48.546210Z",
+  "generatedAt": "2026-08-24T08:42:47.608667Z",
   "news": [
     {
       "title": "Accelerating aircraft IFEC diagnostics with agentic AI on AWS",
@@ -719,6 +719,33 @@
       "moduleTargets": [
         "news",
         "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Introducing AI Futures",
+      "summary": "Introducing AI Futures, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
+      "category": "ai-models",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-08-20",
+      "publishedAt": "2026-08-20T15:00",
+      "collectedAt": "2026-08-24T15:28",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/introducing-ai-futures",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
       ],
       "sourceCount": 1
     },
@@ -4906,591 +4933,6 @@
       ],
       "sourceDate": "2026-08-14",
       "sourceCount": 1
-    },
-    {
-      "title": "在分布转变下稳健学习的统计特性",
-      "summary": "我注意到，分布转变问题在机器学习中越来越受到关注，尤其是在目标环境与训练数据来源环境不一致时。最近的研究探讨了稳健学习框架，如分布稳健优化（DRO）和稳健满意（RS），在这种情况下的有限样本保证和系统比较，填补了这一领域的研究空白。",
-      "category": "ai-research",
-      "tags": [
-        "稳健学习",
-        "分布转变",
-        "机器学习",
-        "优化方法",
-        "统计特性"
-      ],
-      "keyPoints": [
-        "研究提出了在目标环境下的有限样本泛化误差界限，明确了稳健性超参数与对转变敏感度之间的权衡。",
-        "当可获得部分转变信息（如转变幅度或方向）时，研究提出了信息导向的超参数校准方法，比较了DRO和RS的表现。",
-        "在部分信息的情况下，DRO和RS展现出互补的理论和实证行为，提供了新的视角。",
-        "该研究将框架应用于网络批量定价问题，解释了稳健策略如何应对需求分布的正向转变。",
-        "研究填补了稳健学习方法在分布转变下统计特性的理解空白，为DRO和RS的比较提供了原则性基础。"
-      ],
-      "background": "分布转变是指目标部署环境与生成训练数据的源环境不一致的情况，这在机器学习应用中非常常见。稳健学习框架如DRO和RS旨在应对这一挑战，但在有限样本保证和系统比较方面的研究仍显不足。现有分析通常只在源环境中建立保证，或针对对抗性最坏情况的表现进行分析。本文则聚焦于目标环境中的泛化误差，探讨在转变后的目标分布下的额外损失，填补了这一领域的研究空白。",
-      "impact": "这项研究的成果将对多个领域的研究者和工程师产生影响，尤其是那些在不确定环境中进行模型训练的专业人士。通过提供稳健学习方法的比较和应用实例，研究将帮助决策者在面对数据分布变化时做出更明智的选择。此外，研究结果可能引发对稳健学习方法的进一步探索，推动相关技术的发展和应用。",
-      "audience": [
-        "机器学习研究人员",
-        "数据科学家",
-        "从事优化算法开发的工程师",
-        "应用机器学习于金融领域的分析师",
-        "关注模型稳健性的产品经理"
-      ],
-      "useCases": [
-        "在不确定的市场环境中，使用DRO优化模型以降低风险，确保模型在不同数据分布下的稳定性。",
-        "利用RS方法调整产品需求预测模型，以适应市场需求的变化，提高预测准确性。",
-        "在开发新算法时，参考该研究的超参数校准方法，提升模型在实际应用中的表现。",
-        "在网络批量定价问题中，应用稳健学习框架，优化定价策略以应对需求波动。",
-        "在学术研究中，借鉴该研究的统计特性分析方法，推动稳健学习领域的进一步探索。"
-      ],
-      "risks": [
-        "DRO和RS方法的实现可能需要较高的计算资源，尤其是在处理大规模数据时，可能导致性能瓶颈。",
-        "在使用这些方法时，需谨慎选择超参数，错误的设置可能导致模型性能下降。",
-        "部分信息的可用性可能影响模型的表现，缺乏充分的信息可能导致不理想的结果。",
-        "在实际应用中，模型的稳健性可能受到外部环境变化的影响，需定期评估和调整。",
-        "对这些方法的理解和应用需要一定的专业知识，初学者可能面临学习曲线。"
-      ],
-      "reason": "这项研究深入探讨了稳健学习在分布转变下的统计特性，为相关领域提供了新的视角和实用的比较框架，值得关注。",
-      "scores": {
-        "importance": 85,
-        "novelty": 80,
-        "firsthand": 90,
-        "impact": 75,
-        "credibility": 85
-      },
-      "url": "https://arxiv.org/abs/2608.13133",
-      "source": "RSS · arXiv stat.ML",
-      "date": "2026-08-14",
-      "publishedAt": "",
-      "collectedAt": "2026-08-14T13:56",
-      "dateStatus": "collected",
-      "tier": "T1",
-      "score": 82,
-      "aiSelected": true,
-      "_style": "recommender",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceDate": "2026-08-14",
-      "sourceCount": 1
-    },
-    {
-      "title": "黑箱知识迁移：跨特征集的创新方法",
-      "summary": "这次发布的核心点是提出了一种新的方法，旨在将黑箱预测模型中的知识迁移到不同的输入特征空间。该方法通过分解目标回归函数，提取可迁移和不可迁移的组件，从而提高了在特征不一致情况下的预测能力。研究表明，该方法在多个黑箱模型的聚合下，能够有效降低预测误差，具有实际应用价值。",
-      "category": "ai-research",
-      "tags": [
-        "黑箱模型",
-        "知识迁移",
-        "机器学习",
-        "特征集",
-        "预测模型"
-      ],
-      "keyPoints": [
-        "提出了一种新方法，将黑箱模型的知识迁移到不同的输入特征空间，解决了特征不一致的问题。",
-        "该方法通过分解目标回归函数，识别可迁移和不可迁移的组件，提高了预测的准确性。",
-        "采用两步神经网络程序，从丰富的无标签特征对中估计可迁移组件，利用有限标签获取不可迁移组件。",
-        "在特定条件下，该方法的最坏情况风险显著低于仅依赖标签数据的最小风险。",
-        "研究表明，多个黑箱模型的聚合能够进一步降低预测误差，提升整体性能。"
-      ],
-      "background": "在机器学习领域，黑箱模型因其强大的预测能力而受到广泛关注。然而，当输入特征与模型预期不符时，直接应用这些模型往往面临困难。为了解决这一问题，研究者们提出了一种新的知识迁移方法，旨在将黑箱模型中提炼的知识有效转移到新的、异构的输入特征空间。这一方法不仅在理论上具有创新性，也在实际应用中展现出良好的效果，尤其是在特征集差异较大的情况下。与传统的知识迁移方法相比，该方法通过分解目标回归函数，提供了一种更为灵活的解决方案。",
-      "impact": "这一方法的推出将对多个领域产生深远影响。首先，数据科学家和机器学习工程师可以利用这一技术在特征不一致的情况下，依然有效地应用已有的黑箱模型。其次，企业在进行数据分析和预测时，可以通过聚合多个黑箱模型来提升决策的准确性，降低风险。此外，该方法的灵活性使其适用于多种场景，包括金融预测、医疗数据分析等，推动了相关领域的技术进步。",
-      "audience": [
-        "数据科学家",
-        "机器学习工程师",
-        "金融分析师",
-        "医疗数据分析师",
-        "AI 研究人员"
-      ],
-      "useCases": [
-        "在金融领域，利用该方法将历史黑箱模型的知识迁移到新的市场数据上，提升预测准确性。",
-        "在医疗数据分析中，将不同医院的黑箱模型知识迁移到新的患者特征集上，以改善治疗效果。",
-        "数据科学团队可以通过聚合多个黑箱模型，优化产品推荐系统，提高用户满意度。",
-        "在科研项目中，利用该方法将已有模型的知识迁移到新的实验数据上，加速研究进展。",
-        "企业可以通过该技术在特征不一致的情况下，依然有效地进行市场趋势预测。"
-      ],
-      "risks": [
-        "在特征迁移过程中，可能会出现信息丢失，导致预测结果不如预期。",
-        "该方法对标签数据的依赖性较强，有限的标签可能会影响模型的性能。",
-        "在实际应用中，聚合多个黑箱模型可能会增加计算成本，需评估资源投入。",
-        "不同黑箱模型之间的兼容性可能存在问题，导致集成效果不佳。",
-        "在特征集差异较大的情况下，迁移效果可能不如预期，需谨慎评估。"
-      ],
-      "reason": "这项研究提供了一种创新的知识迁移方法，能够有效解决特征不一致问题，值得关注。",
-      "scores": {
-        "importance": 85,
-        "novelty": 80,
-        "firsthand": 90,
-        "impact": 75,
-        "credibility": 80
-      },
-      "url": "https://arxiv.org/abs/2608.12403",
-      "source": "RSS · arXiv stat.ML",
-      "date": "2026-08-14",
-      "publishedAt": "",
-      "collectedAt": "2026-08-14T13:56",
-      "dateStatus": "collected",
-      "tier": "T1",
-      "score": 82,
-      "aiSelected": true,
-      "_style": "reviewer",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceDate": "2026-08-14",
-      "sourceCount": 1
-    },
-    {
-      "title": "Wasserstein 过滤：一种稳健分布学习的样本选择方法",
-      "summary": "我最近看到一篇关于 Wasserstein 过滤（WF）的研究，提出了一种新颖的样本选择框架，旨在从受污染的数据集中恢复干净的分布。该方法通过丢弃可疑样本并利用剩余数据的经验测度来估计目标分布，具有很强的实用性和模型无关性。",
-      "category": "ai-research",
-      "tags": [
-        "数据清洗",
-        "机器学习",
-        "样本选择",
-        "稳健学习",
-        "Wasserstein距离"
-      ],
-      "keyPoints": [
-        "Wasserstein 过滤（WF）是一种新颖的样本选择框架，专注于从受污染的数据中恢复干净分布。",
-        "该方法通过最大化样本的 Wasserstein 距离来优先隔离和移除几何影响的异常值。",
-        "研究中提出了三种算法：边际筛选方案、SinkMarg 和两个联合优化算法 SinkWF 和 SlicedWF。",
-        "在理论上，WF 估计器在具有有界协方差的分布族上达到了最小最大最优性。",
-        "大量实验表明，WF 在异常检测和生成建模中表现出色，尤其是在重污染情况下。"
-      ],
-      "background": "Wasserstein 过滤（WF）方法的提出是为了应对数据集中存在的污染问题，尤其是当样本中包含异常值时。传统的处理方法往往无法有效区分干净样本与污染样本，而 WF 通过选择最大化 Wasserstein 距离的样本子集，有效地隔离了影响结果的异常值。该研究不仅在理论上提供了新的模型，还通过实证实验验证了其在多种应用场景下的有效性，尤其是在生成模型和异常检测任务中。",
-      "impact": "Wasserstein 过滤方法的推出，将为数据科学家和机器学习工程师提供一种新的工具，帮助他们在处理受污染数据时做出更准确的决策。尤其是在金融、医疗等领域，数据的准确性至关重要，WF 的应用将显著提高模型的鲁棒性。此外，WF 的模型无关性使其适用于多种机器学习任务，推动了稳健学习方法的发展。",
-      "audience": [
-        "数据科学家",
-        "机器学习工程师",
-        "金融分析师",
-        "医疗数据分析师",
-        "异常检测研究人员"
-      ],
-      "useCases": [
-        "使用 Wasserstein 过滤方法清洗金融交易数据，以提高异常检测的准确性。",
-        "在医疗数据分析中，应用 WF 处理受污染的患者数据，确保模型的可靠性。",
-        "利用 WF 进行图像生成任务，提升生成模型在重污染数据集上的表现。",
-        "在机器学习模型训练前，使用 WF 筛选训练数据，减少异常值对模型的影响。",
-        "通过 WF 方法优化数据预处理流程，提高数据质量，降低后续分析的复杂性。"
-      ],
-      "risks": [
-        "WF 方法在处理极端污染数据时可能会出现性能下降，需要谨慎评估。",
-        "算法的实现复杂度较高，可能对初学者造成一定的学习门槛。",
-        "在特定场景下，WF 可能无法完全消除所有异常值，需结合其他方法使用。",
-        "使用 WF 进行大规模数据处理时，可能面临计算资源的限制。",
-        "对算法的依赖可能导致在特定数据集上的过拟合，需进行充分验证。"
-      ],
-      "reason": "Wasserstein 过滤方法为处理受污染数据提供了创新的解决方案，具有广泛的应用潜力，值得关注。",
-      "scores": {
-        "importance": 85,
-        "novelty": 80,
-        "firsthand": 90,
-        "impact": 75,
-        "credibility": 80
-      },
-      "url": "https://arxiv.org/abs/2608.13418",
-      "source": "RSS · arXiv stat.ML",
-      "date": "2026-08-14",
-      "publishedAt": "",
-      "collectedAt": "2026-08-14T13:56",
-      "dateStatus": "collected",
-      "tier": "T1",
-      "score": 82,
-      "aiSelected": true,
-      "_style": "recommender",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceDate": "2026-08-14",
-      "sourceCount": 1
-    },
-    {
-      "title": "利用 Strands Agents、LeRobot 和 Hugging Face 存储桶实现数据录制、训练与部署",
-      "summary": "通过 Strands Agents 和 LeRobot，用户可以在一个平台上实现数据的录制、训练和部署。该流程支持持续收集数据、训练模型并将其部署到物理机器人上，确保高效的数据流转与模型更新。使用 Hugging Face 存储桶，用户可以轻松管理和存储数据，提升工作效率。",
-      "category": "ai-agents",
-      "tags": [
-        "机器人技术",
-        "数据流",
-        "模型训练",
-        "Hugging Face",
-        "LeRobot"
-      ],
-      "keyPoints": [
-        "Strands Robots 是一个开源 SDK，支持机器人抽象和模拟，已被超过 90,000 个数据集使用。",
-        "LeRobot 数据集格式被 8,000 多个发布者采用，确保数据的兼容性和可读性。",
-        "Hugging Face 存储桶是一种可变的对象存储类型，支持数据的灵活管理。",
-        "通过持续运行数据循环，用户可以不断优化模型，提高机器人性能。",
-        "该系统支持从数据录制到模型部署的全流程，简化了开发过程。"
-      ],
-      "background": "Strands Robots 是 AWS 提供的开源 SDK，旨在简化机器人开发过程。它允许开发者通过模拟环境录制机器人演示，并将其转化为可部署的策略。LeRobot 数据集格式广泛应用于多个领域，确保了数据的互操作性。Hugging Face 存储桶的推出为数据管理提供了新的解决方案，使得开发者能够在数据录制和模型训练之间无缝衔接。",
-      "impact": "这一技术的应用将极大地提升机器人开发的效率，尤其是对于需要快速迭代和优化的项目。开发者可以通过自动化的数据收集和模型训练，减少手动操作，提高工作效率。此外，这种集成的工作流程将推动更多企业采用机器人技术，促进行业的整体发展。",
-      "audience": [
-        "机器人开发工程师",
-        "机器学习研究人员",
-        "数据科学家",
-        "自动化测试工程师"
-      ],
-      "useCases": [
-        "使用 Strands Agents 录制机器人演示，快速生成训练数据。",
-        "通过 LeRobot 格式训练模型，确保数据的兼容性和高效性。",
-        "利用 Hugging Face 存储桶管理数据，简化数据存储和访问流程。",
-        "持续运行数据循环，优化模型性能，提升机器人响应能力。",
-        "在物理机器人上部署训练好的策略，实现实时反馈和调整。"
-      ],
-      "risks": [
-        "API 使用费用可能会随着数据量的增加而显著上升，需提前预算。",
-        "存储桶的使用需要合理管理，以避免数据冗余和存储成本增加。",
-        "不同版本的 SDK 可能存在兼容性问题，需确保使用最新版本。",
-        "在数据录制过程中，可能会出现数据丢失或损坏的风险，需定期备份。",
-        "训练模型时，GPU 资源的配额限制可能影响训练效率，需合理规划资源。"
-      ],
-      "reason": "这篇文章提供了一个全面的解决方案，帮助开发者在机器人领域实现高效的数据管理与模型训练，值得深入了解。",
-      "scores": {
-        "importance": 85,
-        "novelty": 75,
-        "firsthand": 90,
-        "impact": 80,
-        "credibility": 85
-      },
-      "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
-      "source": "RSS · Hugging Face Blog",
-      "date": "2026-08-14",
-      "publishedAt": "2026-08-14T01:16",
-      "collectedAt": "2026-08-14T02:37",
-      "dateStatus": "verified",
-      "tier": "T1",
-      "score": 82,
-      "aiSelected": true,
-      "_style": "tutorial",
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "热带商业建筑 HVAC 控制的上下文质量多样性进化强化学习",
-      "summary": "我最近看到一篇有趣的论文，提出了一种新的上下文质量多样性进化强化学习控制器 CQD-ERL，专门用于热带水冷式冷却机组的监督控制。这个控制器不仅仅是收敛到单一的策略，而是维护一个由多种专业策略组成的产品档案，这些策略是根据数据驱动的操作上下文、每日天气和负载模式的聚类以及上下文不变的行为描述符进行索引的。通过这种方式，控制器能够更灵活地应对不同的环境变化。",
-      "category": "ai-research",
-      "tags": [
-        "强化学习",
-        "HVAC控制",
-        "进化算法",
-        "热带建筑",
-        "机器学习"
-      ],
-      "keyPoints": [
-        "CQD-ERL 控制器通过数据驱动的上下文保持多种专业策略，增强了控制灵活性。",
-        "控制器使用无梯度进化操作符和软演员评论家策略梯度操作符共享一个重放缓冲区。",
-        "每个动作在执行前都经过确定性的安全保护层过滤，确保操作安全。",
-        "该控制器在新加坡商业建筑的双层降阶环境中进行训练，考虑了潜在负载、冷却塔方法和湿度约束。",
-        "评估结果与 ASHRAE 指南 36 基线进行了全面的年度回测，显示出显著的性能提升。"
-      ],
-      "background": "这项研究针对热带地区的商业建筑 HVAC 系统，提出了一种创新的控制策略。传统的 HVAC 控制方法往往依赖于单一的策略，难以应对复杂多变的环境条件。CQD-ERL 通过维护多种策略的档案，能够根据实时数据进行灵活调整。这种方法不仅提高了系统的能效，还能在不同的气候和负载条件下保持良好的性能。与以往的研究相比，这种方法在处理复杂环境时展现出更高的适应性和效率。",
-      "impact": "这项研究的成果将对 HVAC 系统的设计和运行产生深远影响。建筑工程师和设施管理人员可以利用 CQD-ERL 控制器优化建筑的能源使用，降低运营成本。此外，这种灵活的控制策略也可能推动 HVAC 行业的技术进步，促使更多智能建筑解决方案的出现。长期来看，采用这种技术的建筑将更具可持续性，减少对环境的影响。",
-      "audience": [
-        "建筑工程师",
-        "设施管理人员",
-        "HVAC 系统设计师",
-        "机器学习研究者",
-        "环境科学家"
-      ],
-      "useCases": [
-        "利用 CQD-ERL 控制器优化建筑的 HVAC 系统，提升能效。",
-        "在新加坡的商业建筑中实施该控制器，实时调整冷却策略。",
-        "通过多种策略的维护，降低 HVAC 系统的运营成本。",
-        "为建筑设施管理提供数据驱动的决策支持，提升管理效率。",
-        "研究人员可以基于此控制器进行进一步的机器学习算法开发。"
-      ],
-      "risks": [
-        "CQD-ERL 控制器的复杂性可能导致初期实施时的学习曲线较陡，需要专业人员进行调试。",
-        "在特定环境下，控制器的性能可能受到数据质量的影响，需确保数据采集的准确性。",
-        "由于技术新颖，相关的商用授权和合规性问题可能需要额外关注。",
-        "系统对硬件的要求可能较高，需评估现有设施的兼容性。",
-        "在不同气候条件下的表现可能存在差异，需进行充分的测试和验证。"
-      ],
-      "reason": "这篇论文展示了如何通过创新的强化学习方法提升 HVAC 系统的控制效率，值得关注。",
-      "scores": {
-        "importance": 85,
-        "novelty": 80,
-        "firsthand": 90,
-        "impact": 75,
-        "credibility": 85
-      },
-      "url": "https://arxiv.org/abs/2608.11324",
-      "source": "RSS · arXiv cs.LG",
-      "date": "2026-08-14",
-      "publishedAt": "",
-      "collectedAt": "2026-08-14T01:22",
-      "dateStatus": "collected",
-      "tier": "T1",
-      "score": 82,
-      "aiSelected": true,
-      "_style": "recommender",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceDate": "2026-08-14",
-      "sourceCount": 1
-    },
-    {
-      "title": "联邦学习在分布式 CNC 工具磨损预测中的应用",
-      "summary": "工具磨损预测在 CNC 加工中至关重要，准确监测工具状态有助于提高产品质量和过程可靠性。尽管机器学习方法在这一任务中展现出潜力，但由于加工数据的分布特性及数据共享限制，其在工业环境中的应用受到限制。联邦学习为此提供了合适的框架，允许在不传输原始操作数据的情况下进行协作模型训练。研究表明，联邦学习在分布式 CNC 制造环境中能够有效支持工具磨损预测。",
-      "category": "ai-research",
-      "tags": [
-        "联邦学习",
-        "工具磨损",
-        "CNC加工",
-        "机器学习",
-        "数据共享"
-      ],
-      "keyPoints": [
-        "工具磨损预测是 CNC 加工中的重要任务，直接影响产品质量和过程可靠性。",
-        "联邦学习允许在不共享原始数据的情况下进行模型训练，适合分布式数据环境。",
-        "研究显示，联邦学习的性能接近集中学习，显著优于本地客户端模型。",
-        "工具轨迹被分布到模拟客户端，以模拟联邦学习场景，验证其有效性。",
-        "该研究为分布式 CNC 制造环境中的协作工具磨损预测提供了新思路。"
-      ],
-      "background": "随着 CNC 加工技术的发展，工具磨损预测成为提升生产效率和产品质量的关键因素。然而，传统的机器学习方法在工业环境中面临数据分布和共享的挑战。联邦学习作为一种新兴的机器学习框架，能够在保护数据隐私的前提下，实现多方协作训练模型。通过将工具轨迹分布到多个客户端，研究者能够模拟真实的工业环境，从而验证联邦学习在工具磨损预测中的应用潜力。",
-      "impact": "联邦学习的应用将使得 CNC 加工行业能够更好地利用分散的数据资源，提升工具磨损预测的准确性。这不仅有助于提高生产效率，还能降低维护成本，进而推动整个行业的智能化转型。制造企业、设备供应商及研究机构都将从中受益，促进技术的进一步发展和应用。",
-      "audience": [
-        "CNC 加工工程师",
-        "机器学习研究人员",
-        "工业数据分析师",
-        "制造业决策者",
-        "设备维护技术人员"
-      ],
-      "useCases": [
-        "利用联邦学习技术，构建工具磨损预测模型，提升 CNC 加工的生产效率。",
-        "在不同工厂之间共享模型参数，减少数据传输，提高数据隐私保护。",
-        "通过模拟客户端环境，测试和验证联邦学习模型的有效性和稳定性。",
-        "结合实时数据监测，动态调整工具磨损预测模型，优化生产流程。",
-        "为设备维护提供数据支持，提前预警工具磨损，降低停机时间。"
-      ],
-      "risks": [
-        "在实施联邦学习时，可能面临 API 调用限制，影响模型训练的频率和效率。",
-        "不同客户端的硬件和软件环境可能存在兼容性问题，导致模型训练不稳定。",
-        "数据隐私保护措施不当，可能导致敏感信息泄露，影响企业信任度。",
-        "模型训练过程中，数据量不足可能导致模型性能不佳，需谨慎选择参与方。",
-        "在不同版本的工具和设备上应用模型时，需确保版本兼容性，以避免预测误差。"
-      ],
-      "reason": "该研究为分布式 CNC 加工领域提供了新的解决方案，展示了联邦学习在工具磨损预测中的潜力，值得关注。",
-      "scores": {
-        "importance": 85,
-        "novelty": 80,
-        "firsthand": 90,
-        "impact": 75,
-        "credibility": 80
-      },
-      "url": "https://arxiv.org/abs/2608.11281",
-      "source": "RSS · arXiv cs.LG",
-      "date": "2026-08-14",
-      "publishedAt": "",
-      "collectedAt": "2026-08-14T01:22",
-      "dateStatus": "collected",
-      "tier": "T1",
-      "score": 82,
-      "aiSelected": true,
-      "_style": "tutorial",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceDate": "2026-08-14",
-      "sourceCount": 1
-    },
-    {
-      "title": "Forma模型在长期财务报表预测中的应用与局限",
-      "summary": "Forma模型在财务报表的长期预测中表现出色，能够超越传统方法，但仍面临数据依赖和行业适用性等挑战。该模型通过分析历史数据和行业代码，提供了78项财务指标的1至20季度预测，具有较高的准确性和可重复性。",
-      "category": "ai-models",
-      "tags": [
-        "财务预测",
-        "机器学习",
-        "Forma模型",
-        "长期预测",
-        "数据分析"
-      ],
-      "keyPoints": [
-        "Forma模型能够预测78项财务指标，时间跨度从1到20个季度，提供了更长远的财务视角。",
-        "该模型在与传统机器学习方法及大型语言模型的比较中，显示出更高的预测准确性，尤其在长时间跨度的预测中表现突出。",
-        "Forma模型的预测结果几乎满足会计恒等式，且在统计上没有显著的准确性损失。",
-        "该模型的元组接口支持场景分析，无需重新训练，提升了使用灵活性。",
-        "ProForma-20Q作为可重复的基准，推动了财务预测领域的研究进展。"
-      ],
-      "background": "在财务分析领域，传统的财务报表预测通常局限于短期视角，缺乏对长期趋势的深入分析。Forma模型的提出，填补了这一空白，通过利用历史财务数据和行业代码，能够提供更为全面的财务预测。与以往的研究相比，Forma模型不仅在预测准确性上有所提升，还在数据处理和模型灵活性方面展现出优势。然而，尽管其在理论上具有较高的应用价值，实际应用中仍需考虑数据的可获取性和行业特定性。",
-      "impact": "Forma模型的推出可能会改变财务分析师的工作方式，尤其是在进行长期财务规划时。企业可以利用该模型的预测结果，优化资源配置和投资决策，从而提高财务决策的科学性。此外，金融机构和投资者也能借助更准确的财务预测，评估企业的长期价值，进而影响市场投资策略。然而，模型的有效性依赖于高质量的数据输入，若数据不准确，可能导致错误的决策。",
-      "audience": [
-        "财务分析师",
-        "投资顾问",
-        "数据科学家",
-        "企业决策者",
-        "金融研究人员"
-      ],
-      "useCases": [
-        "使用Forma模型进行企业长期财务规划，优化投资决策。",
-        "通过分析历史财务数据，评估企业未来的财务健康状况。",
-        "利用模型的场景分析功能，进行不同市场条件下的财务预测。",
-        "为投资者提供基于数据的企业价值评估，支持投资决策。",
-        "在学术研究中，使用ProForma-20Q作为基准进行财务预测方法的比较。"
-      ],
-      "risks": [
-        "模型的预测准确性高度依赖于输入数据的质量，若数据不完整或不准确，可能导致错误的预测结果。",
-        "Forma模型的适用性可能受到行业特定性的限制，某些行业的数据稀缺可能影响模型的有效性。",
-        "在实际应用中，模型的复杂性可能导致使用门槛较高，非专业人士难以有效利用其功能。"
-      ],
-      "reason": "Forma模型在财务报表长期预测中的创新应用，提供了更高的准确性和灵活性，值得关注。",
-      "scores": {
-        "importance": 85,
-        "novelty": 80,
-        "firsthand": 90,
-        "impact": 75,
-        "credibility": 80
-      },
-      "url": "https://arxiv.org/abs/2608.11327",
-      "source": "RSS · arXiv cs.LG",
-      "date": "2026-08-14",
-      "publishedAt": "",
-      "collectedAt": "2026-08-14T01:22",
-      "dateStatus": "collected",
-      "tier": "T1",
-      "score": 82,
-      "aiSelected": true,
-      "_style": "critic",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceDate": "2026-08-14",
-      "sourceCount": 1
-    },
-    {
-      "title": "CVaR-GPA 算法提升生成模型对极端事件的适应性",
-      "summary": "Thejani Gamage 等人在 2026 年 8 月 12 日提交的论文中提出了一种新的算法 CVaR-penalized Generative Particle Algorithm (CVaR-GPA)，旨在优化生成模型以学习重尾分布并捕捉极端事件。该算法无需先验知识，利用 Wasserstein 梯度流和条件风险价值 (CVaR) 罚项，显著提高了对重尾目标的准确性。",
-      "category": "ai-research",
-      "tags": [
-        "生成模型",
-        "极端事件",
-        "CVaR",
-        "机器学习",
-        "算法优化"
-      ],
-      "keyPoints": [
-        "CVaR-GPA 是一种新提出的算法，专注于优化生成模型以适应重尾分布，具有较强的鲁棒性。",
-        "该算法通过 Wasserstein 梯度流与条件风险价值 (CVaR) 罚项相结合，提升了对极端事件的捕捉能力。",
-        "CVaR-GPA 在合成的 Student-$t$ 分布和真实的 Fama-French 25 投资组合数据集上表现出色，显著提高了全局和尾部准确性。",
-        "该算法无需访问预训练模型的架构，适应性强，能够在动态时间范围内运行。",
-        "CVaR-GPA 的设计使其在重尾目标的学习中，能够克服传统生成模型的局限性。"
-      ],
-      "background": "2026 年 8 月 12 日，Thejani Gamage 等人在 arXiv 上提交了论文，介绍了 CVaR-penalized Generative Particle Algorithm (CVaR-GPA)。该算法的提出背景是当前生成模型在处理重尾分布和极端事件时的不足，尤其是在缺乏先验知识的情况下。传统的生成模型往往依赖于轻尾分布的假设，导致在面对重尾数据时表现不佳。CVaR-GPA 通过引入条件风险价值的罚项，旨在解决这一问题，提供了一种新的思路来优化生成模型的性能。",
-      "impact": "CVaR-GPA 的推出可能会对金融、气候科学等领域产生深远影响，这些领域常常需要处理重尾分布和极端事件。金融分析师可以利用该算法改进风险评估模型，提升对市场极端波动的预测能力。气候科学家也能借助 CVaR-GPA 更准确地模拟极端天气事件，从而改善应对策略。此外，该算法的灵活性使得它能够被广泛应用于其他需要处理复杂分布的领域，推动相关研究的进展。",
-      "audience": [
-        "机器学习研究人员",
-        "金融风险分析师",
-        "气候科学家",
-        "数据科学家",
-        "算法工程师"
-      ],
-      "useCases": [
-        "优化生成模型以适应重尾分布，提升模型的准确性和鲁棒性。",
-        "在金融领域应用 CVaR-GPA 进行风险评估，改善对极端市场波动的预测。",
-        "利用该算法在气候科学中模拟极端天气事件，增强应对能力。"
-      ],
-      "risks": [
-        "CVaR-GPA 的实现可能需要较高的计算资源，尤其是在处理大规模数据集时。",
-        "算法的复杂性可能导致在特定应用场景下的调试和优化难度增加。",
-        "在商用环境中，使用该算法可能面临授权和合规性问题，尤其是在金融领域。"
-      ],
-      "reason": "CVaR-GPA 提供了一种创新的方法来处理重尾分布和极端事件，具有广泛的应用潜力，值得关注。",
-      "scores": {
-        "importance": 85,
-        "novelty": 80,
-        "firsthand": 90,
-        "impact": 75,
-        "credibility": 80
-      },
-      "url": "https://arxiv.org/abs/2608.11544",
-      "source": "RSS · arXiv stat.ML",
-      "date": "2026-08-14",
-      "publishedAt": "",
-      "collectedAt": "2026-08-14T01:22",
-      "dateStatus": "collected",
-      "tier": "T1",
-      "score": 82,
-      "aiSelected": true,
-      "_style": "observer",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceDate": "2026-08-14",
-      "sourceCount": 1
-    },
-    {
-      "title": "在线推断：分布式强化学习中的分位数时间差学习",
-      "summary": "这篇论文探讨了如何在分布式强化学习中进行分位数时间差学习（QTD）的统计推断。研究者们在假设可以访问生成模型的基础上，建立了同步和异步QTD的功能中心极限定理，证明了QTD的平均迭代值弱收敛于重标定的布朗运动。此外，论文还提出了在线推断方法，显著降低了内存需求，提升了统计推断的效率。",
-      "category": "ai-research",
-      "tags": [
-        "强化学习",
-        "统计推断",
-        "机器学习",
-        "分布式学习",
-        "时间差学习"
-      ],
-      "keyPoints": [
-        "论文提出了一种新的在线推断方法，适用于分位数时间差学习（QTD）。",
-        "研究基于生成模型，建立了同步和异步QTD的功能中心极限定理。",
-        "QTD的平均迭代值被证明弱收敛于重标定的布朗运动，具有理论意义。",
-        "在线推断方法通过随机缩放构建渐近关键统计量，提升了推断效率。",
-        "该方法不需要存储整个QTD迭代轨迹，显著减少了内存需求。"
-      ],
-      "background": "在强化学习领域，分位数时间差学习（QTD）作为一种新兴的方法，旨在通过对分布进行建模来提升学习效率。传统的QTD方法在处理大规模数据时面临内存和计算效率的挑战。此次研究通过引入生成模型，建立了同步和异步QTD的功能中心极限定理，为后续的在线推断方法奠定了理论基础。这种方法的提出，标志着在强化学习中进行高效统计推断的一个重要进展，尤其是在处理复杂数据分布时。",
-      "impact": "这项研究的在线推断方法将对多个领域的研究者产生影响，尤其是那些从事强化学习和机器学习的研究人员。通过降低内存需求和提升推断效率，研究者可以在更大规模的数据集上进行实验，推动算法的优化和应用。此外，这种方法的提出可能会影响到相关领域的决策制定，尤其是在需要实时数据分析的场景中，如金融市场分析和智能控制系统。",
-      "audience": [
-        "从事强化学习研究的学者",
-        "机器学习算法开发者",
-        "数据科学家",
-        "需要实时数据分析的工程师",
-        "高性能计算领域的研究人员"
-      ],
-      "useCases": [
-        "应用在线推断方法进行大规模数据集的强化学习模型训练。",
-        "在金融领域实时分析市场数据，优化交易策略。",
-        "为智能控制系统提供高效的决策支持。",
-        "在机器学习研究中，快速验证新算法的有效性。",
-        "开发基于QTD的自适应学习系统，提升学习效率。"
-      ],
-      "risks": [
-        "在线推断方法对生成模型的依赖可能限制其适用范围，尤其是在缺乏足够数据的情况下。",
-        "在实际应用中，算法的复杂性可能导致实现上的困难，增加开发成本。",
-        "内存需求的降低虽然显著，但在极端情况下仍可能出现性能瓶颈。",
-        "对于某些特定应用，推断结果的准确性可能受到数据质量的影响。",
-        "缺乏足够的文献支持，可能导致新方法的推广面临阻力。"
-      ],
-      "reason": "这项研究提供了一种高效的在线推断方法，适用于分布式强化学习，值得关注。",
-      "scores": {
-        "importance": 75,
-        "novelty": 80,
-        "firsthand": 90,
-        "impact": 70,
-        "credibility": 85
-      },
-      "url": "https://arxiv.org/abs/2608.12973",
-      "source": "RSS · arXiv stat.ML",
-      "date": "2026-08-14",
-      "publishedAt": "",
-      "collectedAt": "2026-08-14T13:55",
-      "dateStatus": "collected",
-      "tier": "T1",
-      "score": 78,
-      "aiSelected": true,
-      "_style": "reviewer",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceDate": "2026-08-14",
-      "sourceCount": 2,
-      "relatedSources": [
-        {
-          "source": "RSS · arXiv stat.ML",
-          "url": "https://arxiv.org/abs/2608.14408",
-          "title": "在线推断在分布式时间差学习中的应用"
-        }
-      ]
     }
   ],
   "weeklyDigests": [
@@ -9796,6 +9238,50 @@
     ],
     "ai-models": [
       {
+        "name": "NUS Libraries launches AI Sense Maker, a conversational plat",
+        "provider": "Frontier Enterprise",
+        "type": "AI 项目/工具",
+        "bestFor": "The National University of Singapore (NUS) has launched AI Sense Maker (ASM), becoming the first university in Southeast Asia to use conversational AI to transf",
+        "description": "The National University of Singapore (NUS) has launched AI Sense Maker (ASM), becoming the first university in Southeast Asia to use conversational AI to transform students and aca",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Frontier Enterprise",
+        "url": "https://www.frontier-enterprise.com/nus-libraries-launches-ai-sense-maker-a-conversational-platform-for-learning/"
+      },
+      {
+        "name": "Incheon Port Authority Develops AI Assistant for Employees",
+        "provider": "경인방송",
+        "type": "AI 项目/工具",
+        "bestFor": "The Incheon Port Authority (IPA) has developed and distributed an artificial intelligence \"Regulation Assistant\" to employees, trained on the Port Act and the a",
+        "description": "The Incheon Port Authority (IPA) has developed and distributed an artificial intelligence \"Regulation Assistant\" to employees, trained on the Port Act and the authority's internal ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "경인방송",
+        "url": "https://news.ifm.kr/news/articleView.html?idxno=477637"
+      },
+      {
+        "name": "Haier Unveils Mini LED M70 Series Smart TVs in India",
+        "provider": "TechnoSports",
+        "type": "AI 项目/工具",
+        "bestFor": "Haier Appliances India has announced the launch of its new Mini LED M70 Series, a range of smart televisions designed to enhance home entertainment experiences.",
+        "description": "Haier Appliances India has announced the launch of its new Mini LED M70 Series, a range of smart televisions designed to enhance home entertainment experiences. The series integrat",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "TechnoSports",
+        "url": "https://technosports.co.in/haier-launches-mini-led-m70/"
+      },
+      {
+        "name": "Baron Funds Q2 2026: Letter From Ron | Seeking Alpha",
+        "provider": "Seeking Alpha",
+        "type": "AI 项目/工具",
+        "bestFor": "Since 1992, Baron Capital's AUM increased from $100 million to approximately $69.7 billion while earning $71.2 billion in realized and unrealized gains.\n\n\"This ",
+        "description": "Since 1992, Baron Capital's AUM increased from $100 million to approximately $69.7 billion while earning $71.2 billion in realized and unrealized gains.\n\n\"This year, on July 4, 202",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Seeking Alpha",
+        "url": "https://seekingalpha.com/article/4939492-baron-funds-q2-2026-letter-from-ron"
+      },
+      {
         "name": "Anthropic 如何开展 AI 教学",
         "provider": "Claude：Blog（网页）",
         "type": "AI 项目/工具",
@@ -10294,68 +9780,6 @@
         "watch": "在某些国家，关闭水印可能违反法律规定，导致法律风险。",
         "sourceName": "TechRadar",
         "url": "https://www.techradar.com/ai-platforms-assistants/gemini/gemini-now-lets-you-turn-off-the-visible-watermark-on-your-ai-creations-heres-how-to-do-it-and-how-your-content-is-still-flagged-as-ai"
-      },
-      {
-        "name": "苹果在华采购内存遭遇华盛顿阻力",
-        "provider": "Yahoo! Finance",
-        "type": "AI 项目/工具",
-        "bestFor": "这一事件对苹果及其消费者产生了深远影响。首先，苹果可能需要重新评估其供应链策略，寻找其他国家的供应商以避免政策风险。其次，消费者可能会面临更高的产品价格，因为内存成本的上升将直接影响到最终产品的定价。此外，其他科技公司也可能受到类似影响，导致整个行业在内存采购方面的竞争加剧，进而影响到产品的创新和市场供应。",
-        "description": "我注意到，苹果在寻求降低内存成本的过程中，遭遇了来自美国政府的强烈反对。随着人工智能数据中心的建设，全球内存生产受到挤压，导致手机和笔记本电脑的芯片价格飙升。尽管苹果在中国找到了一家潜在的内存供应商，但美国商务部明确表示不支持大型美国公司从中国采购内存，这让苹果的计划面临挑战。",
-        "useCases": [
-          "评估供应链风险，寻找替代供应商以降低成本。",
-          "分析内存市场动态，制定相应的产品定价策略。",
-          "与政策制定者沟通，了解对外采购的法律限制。",
-          "监控全球内存价格走势，调整采购计划以应对市场变化。",
-          "进行竞争分析，评估其他公司在内存采购上的策略。"
-        ],
-        "watch": "面临政策风险，可能导致采购计划被迫调整，影响产品上市时间。",
-        "sourceName": "Yahoo! Finance",
-        "url": "https://finance.yahoo.com/technology/articles/apples-cheap-chip-plan-just-120300203.html"
-      },
-      {
-        "name": "印度首席法官呼吁法律教育积极融入技术",
-        "provider": "Rediff.com India Ltd.",
-        "type": "AI 项目/工具",
-        "bestFor": "这一倡议将影响法律教育的未来，促使法学院更新课程，融入技术教育，培养能够适应快速变化的法律环境的毕业生。法律行业的技术应用将变得更加普遍，推动法律服务的效率和公正性。同时，法学院之间的合作将促进对技术使用的深入研究，确保法律与技术的良性互动。",
-        "description": "印度首席法官苏里亚·坎特呼吁全国法学院在法律教育中积极引入技术，特别是生成式人工智能，确保正义与人类判断始终处于核心地位。他强调，法学院应主动引领技术变革，培养毕业生独立思考和判断的能力。",
-        "useCases": [
-          "整合生成式AI工具于法律课程中，帮助学生理解AI的能力与局限性。",
-          "开展关于算法问责和数据保护的研究项目，促进法学院之间的合作。",
-          "设计课程以培养学生质疑假设和独立判断的能力，提升其法律实践能力。",
-          "利用技术工具进行法律研究，提升学生的实务操作能力和效率。",
-          "举办研讨会，探讨技术在法律领域的应用与挑战，增强师生的技术意识。"
-        ],
-        "watch": "在使用生成式AI时，可能面临学术不端的风险，需确保学生理解AI的局限性。",
-        "sourceName": "Rediff.com India Ltd.",
-        "url": "https://www.rediff.com/news/report/cji-urges-nlus-to-lead-legal-tech-reshaping-justice-system/20260816.htm"
-      },
-      {
-        "name": "Meet Connor Hill, the 17-year-old Pennsylvania student who w",
-        "provider": "The Times of India",
-        "type": "AI 项目/工具",
-        "bestFor": "By writing a custom computer algorithm that mapped every possible version of a rare class of geometric shapes, 17-year-old Connor Hill from Port Matilda, Pennsy",
-        "description": "By writing a custom computer algorithm that mapped every possible version of a rare class of geometric shapes, 17-year-old Connor Hill from Port Matilda, Pennsylvania, has won the ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Times of India",
-        "url": "https://timesofindia.indiatimes.com/world/us/meet-connor-hill-the-17-year-old-pennsylvania-student-who-wrote-a-computer-program-to-classify-noble-polyhedra-he-proved-there-are-146-isolated-examples-and-won-250000/articleshow/133267559.cms"
-      },
-      {
-        "name": "学校在 AI 工具上的巨额支出与决策困境",
-        "provider": "PhillyVoice",
-        "type": "AI 项目/工具",
-        "bestFor": "对于教育工作者和学校管理者来说，AI 工具的引入可能会改变他们的教学方式和决策过程。使用 AI 工具可以帮助教师更快地识别学生的学习困难，从而提供更有针对性的支持。然而，过多的选择和缺乏有效的指导可能导致学区在采购决策上面临更大的压力。教育工作者需要在众多工具中找到真正有效的解决方案，而这往往需要更多的时间和资源。与此",
-        "description": "随着新学年的开始，许多学校开始考虑使用人工智能工具来帮助学生学习、跟踪出勤和提高阅读成绩。然而，面对众多选择，教育官员们感到不知所措。虽然一些州和学区开始提供采购指导，但教育工作者和专家认为，学区仍需独自承担大部分责任。AI 教育市场的快速发展使得学区在采购决策上面临更大挑战。",
-        "useCases": [
-          "评估 AI 工具的安全性和有效性，确保符合学生隐私保护要求。",
-          "在课堂上使用 Coursemojo 提供实时反馈，帮助学生提高阅读能力。",
-          "通过数据分析工具跟踪学生的学习进度，及时调整教学策略。",
-          "与供应商沟通，确保所有用户生成的数据归学区所有，不被用于训练 AI 模型。",
-          "参与州和联邦层面的教育科技政策讨论，推动更好的采购指导。"
-        ],
-        "watch": "部分 AI 工具可能未经过充分测试，存在安全隐患，可能导致学生数据泄露。",
-        "sourceName": "PhillyVoice",
-        "url": "https://www.phillyvoice.com/schools-spending-billions-buying-ai-tools-choices/"
       }
     ],
     "ai-business": [
@@ -11561,6 +10985,17 @@
     ],
     "ai-image-video": [
       {
+        "name": "AI Watermarks: How to Check for Them and Remove Them",
+        "provider": "Fello AI",
+        "type": "AI 项目/工具",
+        "bestFor": "An AI watermark is not one thing, and that confusion is why most advice about it is wrong. There is the visible logo some tools stamp into the corner of a video",
+        "description": "An AI watermark is not one thing, and that confusion is why most advice about it is wrong. There is the visible logo some tools stamp into the corner of a video, which you can crop",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Fello AI",
+        "url": "https://felloai.com/ai-watermark/"
+      },
+      {
         "name": "Video: Opinion | The A.I.s Are Already Out of Control",
         "provider": "The New York Times",
         "type": "AI 项目/工具",
@@ -12157,23 +11592,6 @@
         "watch": "AI 技术的实施可能面临高昂的成本，尤其是在小型医疗机构中。",
         "sourceName": "NewsAPI:artificial intelligence",
         "url": "https://www.prnewswire.com/news-releases/practice-at-the-speed-of-innovation-a-new-podcast-and-video-series-exploring-the-ai-enabled-future-of-community-oncology-presented-by-oncologicai-302836358.html"
-      },
-      {
-        "name": "Instagram 推广 AI 视频，观看次数接近 7 亿",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "这段视频的成功可能会影响内容创作者和品牌在社交媒体上的策略，尤其是在如何利用 AI 技术吸引观众方面。随着合成内容的普及，品牌可能会重新考虑其内容创作和推广方式，以适应观众对新型内容的需求。此外，这也可能促使社交媒体平台进一步优化其算法，以平衡内容的真实性和用户的观看体验。",
-        "description": "我注意到，最近一段描绘迷你迈阿密被巨浪吞没的 AI 视频在 Instagram 上迅速走红，观看次数接近 7 亿。这段视频引发了对 Meta 推广此类内容的质疑，尤其是算法为何如此偏爱 AI 视频。视频的制作过程和内容引发了广泛讨论，尤其是在合成内容的真实性方面。",
-        "useCases": [
-          "分析社交媒体视频的观看数据，评估 AI 内容的受欢迎程度。",
-          "利用 AI 工具制作高质量的合成视频，吸引更多观众。",
-          "研究用户对合成内容的反应，优化内容创作策略。",
-          "在社交媒体上推广品牌时，考虑使用 AI 制作的内容以提高曝光率。",
-          "监测社交媒体平台的算法变化，调整内容发布策略。"
-        ],
-        "watch": "AI 制作内容的真实性可能引发用户的不满，影响品牌形象。",
-        "sourceName": "NewsAPI:artificial intelligence",
-        "url": "https://petapixel.com/2026/07/29/instagram-pushes-ai-video-of-film-crew-shooting-miami-disaster-to-700-million-views/"
       }
     ],
     "ai-research": [
@@ -14275,7 +13693,7 @@
   ],
   "dailyReport": {
     "date": "2026-08-24",
-    "generatedAt": "2026-08-24T06:12:48.497180Z",
+    "generatedAt": "2026-08-24T08:42:47.583667Z",
     "total": 24,
     "sections": [
       {
@@ -14314,17 +13732,6 @@
             "date": "2026-08-20",
             "publishedAt": "2026-08-20T03:00",
             "reason": "OpenAI 的零数据保留政策为用户提供了更高的隐私保障，尤其适合对数据安全有严格要求的行业，值得关注。"
-          },
-          {
-            "title": "Jumio 在 AWS 上构建实时特征库的实践",
-            "summary": "我最近看到 Jumio 利用 AWS 的 Amazon SageMaker Feature Store、Amazon Managed Service for Apache Flink 和 Amazon Kinesis Data Streams 构建了一个集中式的实时特征库。这个架",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/how-jumio-built-a-real-time-feature-store-on-aws/",
-            "score": 82,
-            "sourceCount": 1,
-            "date": "2026-08-19",
-            "publishedAt": "2026-08-19T01:05",
-            "reason": "这篇文章展示了如何利用 AWS 的强大工具构建高效的实时特征库，值得关注。"
           },
           {
             "title": "谷歌推出五种新工具提升学习效率",
@@ -14485,6 +13892,17 @@
             "sourceCount": 1,
             "date": "2026-08-21",
             "publishedAt": "2026-08-21T05:46",
+            "reason": ""
+          },
+          {
+            "title": "Introducing AI Futures",
+            "summary": "Introducing AI Futures, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freed",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/introducing-ai-futures",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-20",
+            "publishedAt": "2026-08-20T15:00",
             "reason": ""
           },
           {
