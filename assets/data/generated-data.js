@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
-  "lastUpdated": "2026-08-20",
-  "generatedAt": "2026-08-20T01:28:48.432401Z",
+  "lastUpdated": "2026-08-24",
+  "generatedAt": "2026-08-24T03:43:08.112724Z",
   "news": [
     {
       "title": "Amazon Bedrock AgentCore 支持域名和发布日期过滤",
@@ -5260,260 +5260,6 @@ window.AI_GENERATED_DATA = {
           "title": "在线推断在分布式时间差学习中的应用"
         }
       ]
-    },
-    {
-      "title": "Google Sheets 新功能：Sheets canvas 让数据可视化更简单",
-      "summary": "这次发布的核心点是 Google Sheets 推出的 Sheets canvas 功能，它通过简单的自然语言提示，将传统的电子表格数据转化为互动式的可视化应用，无需编程技能。用户只需描述需求，AI 即可自动生成自定义布局，保持数据实时同步，极大提升了数据处理的效率和可读性。",
-      "category": "ai-office",
-      "tags": [
-        "数据可视化",
-        "Google Sheets",
-        "AI工具",
-        "互动应用",
-        "办公效率"
-      ],
-      "keyPoints": [
-        "Sheets canvas 是 Google Sheets 的新功能，能够将电子表格中的数据转化为互动式的迷你应用，用户无需编程技能。",
-        "用户只需通过简单的自然语言提示，AI 就能生成自定义布局，如学习跟踪器或座位图，且与原始电子表格保持实时同步。",
-        "该功能适用于各种场景，包括学校项目管理、运动统计跟踪和活动策划，帮助用户快速获取所需信息。",
-        "Sheets canvas 使得数据处理变得更加直观，用户可以轻松分享生成的画布，类似于分享普通电子表格。",
-        "此功能的推出标志着 Google 在办公软件领域的持续创新，旨在提升用户的工作效率和数据可视化能力。"
-      ],
-      "background": "Google Sheets 一直以来都是数据管理的重要工具，但面对成百上千的行列，用户常常感到无从下手。Sheets canvas 的推出，正是为了应对这一痛点。通过与 Gemini AI 的结合，用户可以通过自然语言描述需求，AI 自动生成所需的可视化布局。这一功能不仅提升了数据的可读性，也让用户在处理复杂数据时更加得心应手。与传统的电子表格相比，Sheets canvas 让数据的展示和交互变得更加灵活和直观，适合各类用户的需求。",
-      "impact": "Sheets canvas 的推出将对多类用户产生积极影响。首先，教育工作者可以利用该功能轻松创建学习跟踪器，帮助学生更好地管理学习进度。其次，活动策划者能够快速生成座位图和日程安排，提升活动的组织效率。此外，企业用户也能通过可视化数据分析，做出更为精准的决策。总的来说，Sheets canvas 的出现将改变用户处理和展示数据的方式，推动办公效率的提升。",
-      "audience": [
-        "教育工作者",
-        "活动策划者",
-        "数据分析师",
-        "项目经理",
-        "学生"
-      ],
-      "useCases": [
-        "创建学习跟踪器，帮助学生管理作业和考试进度。",
-        "生成活动座位图，提升活动的组织效率和参与体验。",
-        "快速分析销售数据，帮助企业做出精准的市场决策。",
-        "设计项目进度表，确保团队成员实时了解项目状态。",
-        "可视化运动统计数据，帮助教练制定训练计划。"
-      ],
-      "risks": [
-        "Sheets canvas 依赖于 AI 的准确性，若描述不清晰，生成的布局可能不符合用户需求。",
-        "在数据量较大时，实时同步可能会导致性能下降，影响用户体验。",
-        "用户需确保数据隐私，避免敏感信息在共享画布中泄露。",
-        "功能的使用可能受到地区限制，某些用户无法访问该功能。",
-        "对新功能的学习曲线可能会让部分用户感到困惑，影响初期使用体验。"
-      ],
-      "reason": "Sheets canvas 通过简单的自然语言提示，将复杂的数据转化为可视化应用，极大提升了用户的工作效率和数据处理能力，值得一试。",
-      "scores": {
-        "importance": 75,
-        "novelty": 80,
-        "firsthand": 90,
-        "impact": 70,
-        "credibility": 85
-      },
-      "url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets/",
-      "source": "RSS · Google AI Blog",
-      "date": "2026-08-14",
-      "publishedAt": "2026-08-14T00:45",
-      "collectedAt": "2026-08-14T02:37",
-      "dateStatus": "verified",
-      "tier": "T1",
-      "score": 78,
-      "aiSelected": true,
-      "_style": "reviewer",
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "从单一到模块化：分段自动提示优化的进展",
-      "summary": "分段自动提示优化（SAPO）是一种新方法，旨在通过将提示分解为角色、上下文、任务和输出格式，针对性地优化提示。尽管SAPO在多个基准测试中表现优异，但仍存在一些局限性，如对特定任务的适应性不足。",
-      "category": "ai-research",
-      "tags": [
-        "自动提示优化",
-        "人工智能",
-        "模型优化",
-        "机器学习",
-        "基准测试"
-      ],
-      "keyPoints": [
-        "SAPO方法通过将提示分解为多个部分，能够针对性地进行优化，提升特定行为表现。",
-        "在SQuADv2、TweetEval等基准测试中，SAPO在与Zero-shot和强基线对比时表现出色，取得了最佳平均分。",
-        "SAPO的优化过程包括两个阶段：分段诊断和候选生成，确保了优化的系统性和有效性。",
-        "该方法使用静态元提示和结构化输出，增强了对弱点的分析能力。",
-        "SAPO在IJCAI-ECAI 2026研讨会上被接受，显示出其在学术界的认可度。"
-      ],
-      "background": "自动提示优化（APO）通常以单一的方式重写提示，可能在改善某一行为的同时，导致其他行为的下降。SAPO的提出旨在解决这一问题，通过将提示分解为多个部分，进行更为细致的优化。与传统的APO方法相比，SAPO能够更好地适应不同的任务需求，提升整体性能。然而，尽管SAPO在多个基准测试中表现优异，其在特定领域的适应性仍需进一步验证。",
-      "impact": "SAPO的引入可能会改变开发者在提示优化方面的决策，尤其是那些需要高效生成特定输出的应用场景。其模块化的优化方式能够帮助开发者更精准地调整模型行为，从而提升生成内容的质量。长远来看，这种方法可能会推动更智能的AI系统的发展，促进人机交互的自然性和有效性。",
-      "audience": [
-        "AI研究人员",
-        "机器学习工程师",
-        "自然语言处理专家",
-        "数据科学家",
-        "软件开发者"
-      ],
-      "useCases": [
-        "优化生成模型的提示，提升文本生成质量。",
-        "在特定任务中应用SAPO，针对性地改善模型表现。",
-        "分析模型在不同上下文中的弱点，进行有针对性的调整。",
-        "使用SAPO方法进行多轮对话系统的优化，提升用户体验。",
-        "在教育领域应用SAPO，生成个性化学习材料。"
-      ],
-      "risks": [
-        "SAPO的效果可能在不同任务间存在差异，导致某些应用场景下的性能不佳。",
-        "该方法依赖于大量的示例数据，若数据质量不高，可能影响优化效果。",
-        "在特定领域的适应性不足，可能导致模型在专业任务中的表现不理想。",
-        "对硬件和计算资源的要求较高，可能限制小型团队的使用。",
-        "缺乏对多语言支持的充分考虑，可能影响非英语用户的体验。"
-      ],
-      "reason": "SAPO方法通过模块化的方式优化提示，提供了更为灵活和精准的调整手段，值得关注。",
-      "scores": {
-        "importance": 75,
-        "novelty": 80,
-        "firsthand": 90,
-        "impact": 70,
-        "credibility": 85
-      },
-      "url": "https://arxiv.org/abs/2608.11219",
-      "source": "RSS · arXiv cs.AI",
-      "date": "2026-08-14",
-      "publishedAt": "",
-      "collectedAt": "2026-08-14T01:22",
-      "dateStatus": "collected",
-      "tier": "T1",
-      "score": 78,
-      "aiSelected": true,
-      "_style": "critic",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceDate": "2026-08-14",
-      "sourceCount": 1
-    },
-    {
-      "title": "Basin：高效且可扩展的 Rust 数值优化库",
-      "summary": "Basin 是一个为 Rust 编程语言设计的数值优化库，旨在帮助用户找到最小化函数的输入。该库支持多种求解器和约束条件，适用于模型拟合、仿真校准、机器学习模型训练等多种科学应用。尽管其提供了统一的解决方案，但在使用上仍存在一些局限性。",
-      "category": "ai-research",
-      "tags": [
-        "数值优化",
-        "Rust",
-        "机器学习",
-        "科学计算",
-        "开源库"
-      ],
-      "keyPoints": [
-        "Basin 是一个新发布的 Rust 数值优化库，提供了多种求解器和约束支持。",
-        "该库适用于多种科学领域，包括模型拟合和机器学习模型训练。",
-        "Basin 的设计目标是提供一致的方式来声明和解决优化问题。",
-        "目前版本为 1.0，支持多种优化算法，适合不同的应用场景。",
-        "该库的开源特性使得用户可以根据需求进行定制和扩展。"
-      ],
-      "background": "数值优化在科学研究和工程应用中扮演着重要角色，Basin 的推出为 Rust 语言的用户提供了一个新的工具。与其他语言的优化库相比，Basin 结合了 Rust 的性能和安全性，适合需要高效计算的场景。尽管市场上已有多种优化库，如 Python 的 SciPy 和 MATLAB 的优化工具箱，但 Basin 的出现为 Rust 生态系统注入了新的活力，尤其是在需要高性能和并发处理的应用中。",
-      "impact": "Basin 的推出可能会吸引更多开发者使用 Rust 进行科学计算和机器学习，尤其是在需要高效性能的领域。它的存在将促使更多的科研项目和工业应用转向 Rust，从而推动该语言在数据科学领域的普及。此外，Basin 的开源特性可能会激励社区贡献更多的求解器和功能，进一步提升其应用范围。",
-      "audience": [
-        "数据科学家",
-        "机器学习工程师",
-        "Rust 开发者",
-        "科研人员",
-        "工程师"
-      ],
-      "useCases": [
-        "使用 Basin 进行机器学习模型的参数优化，提升模型性能。",
-        "利用该库进行仿真模型的校准，确保结果的准确性。",
-        "在工程设计中应用 Basin，优化成本和资源配置。",
-        "为科研项目开发定制的优化算法，满足特定需求。",
-        "结合 Rust 的并发特性，使用 Basin 处理大规模数据集。"
-      ],
-      "risks": [
-        "Basin 作为新库，可能缺乏成熟的文档和社区支持，导致学习曲线较陡。",
-        "在特定应用场景下，可能存在性能瓶颈，尤其是在处理复杂约束时。",
-        "与其他成熟的优化库相比，Basin 的功能和算法可能尚不全面，限制了其应用范围。",
-        "由于 Rust 的生态系统相对较新，可能面临与其他库的兼容性问题。",
-        "用户需要具备一定的 Rust 编程基础，可能不适合初学者。"
-      ],
-      "reason": "Basin 提供了一种高效且一致的方式来解决数值优化问题，尤其适合需要高性能的科学计算和机器学习任务。",
-      "scores": {
-        "importance": 70,
-        "novelty": 80,
-        "firsthand": 90,
-        "impact": 75,
-        "credibility": 85
-      },
-      "url": "https://arxiv.org/abs/2608.11279",
-      "source": "RSS · arXiv cs.LG",
-      "date": "2026-08-14",
-      "publishedAt": "",
-      "collectedAt": "2026-08-14T01:22",
-      "dateStatus": "collected",
-      "tier": "T1",
-      "score": 78,
-      "aiSelected": true,
-      "_style": "critic",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceDate": "2026-08-14",
-      "sourceCount": 1
-    },
-    {
-      "title": "无重微调：通过对数空间传输个性化 LLM",
-      "summary": "我注意到最近有一种新的方法叫做无重微调（WFT），它可以在不更新权重的情况下，近似监督微调（SFT）的效果。这种方法特别适合个性化场景，因为每个作者都需要独立的权重访问和优化，而传统的微调成本高昂。WFT 在解码时计算监督残差，提供了一种更高效的选择。",
-      "category": "ai-models",
-      "tags": [
-        "无重微调",
-        "个性化",
-        "监督微调",
-        "LLM",
-        "高效解码"
-      ],
-      "keyPoints": [
-        "无重微调（WFT）是一种新方法，旨在在不更新模型权重的情况下实现个性化。",
-        "WFT 通过计算监督残差，模拟传统微调的效果，降低了成本。",
-        "这种方法特别适合需要个性化的场景，如每个作者独立的模型需求。",
-        "WFT 不需要额外的训练过程，直接在解码时应用，节省时间和资源。",
-        "该方法的提出为个性化 LLM 的应用打开了新的可能性。"
-      ],
-      "background": "无重微调（WFT）是针对传统监督微调（SFT）的一种创新解决方案。SFT 通常需要对模型进行大量的训练和权重更新，这在个性化应用中显得尤为复杂和昂贵。WFT 的出现，旨在解决这一痛点，通过在解码阶段计算监督残差，避免了繁琐的训练过程。与以往的微调方法相比，WFT 更加灵活且高效，尤其适合需要快速适应不同用户需求的场景。",
-      "impact": "无重微调的推出，将对个性化 LLM 的开发者、研究人员和企业产生深远影响。开发者可以更轻松地实现个性化功能，而不必担心高昂的训练成本。研究人员可以利用这一方法进行更广泛的实验，推动个性化 AI 的发展。企业则能够更快速地响应市场需求，提升用户体验，进而在竞争中占据优势。",
-      "audience": [
-        "做个性化推荐系统的工程师",
-        "研究 LLM 的学者",
-        "开发 AI 应用的产品经理"
-      ],
-      "useCases": [
-        "使用 WFT 方法快速实现个性化推荐，提升用户满意度。",
-        "在解码阶段应用 WFT，减少模型训练时间，降低开发成本。",
-        "利用 WFT 进行多用户模型的快速迭代，满足不同用户的需求。"
-      ],
-      "risks": [
-        "WFT 可能在某些复杂场景下无法完全替代传统微调，需谨慎评估。",
-        "在使用 WFT 时，可能需要额外的计算资源来处理监督残差。",
-        "对新方法的理解和应用可能存在学习曲线，团队需做好培训。"
-      ],
-      "reason": "无重微调提供了一种高效的个性化 LLM 解决方案，值得关注。",
-      "scores": {
-        "importance": 75,
-        "novelty": 80,
-        "firsthand": 90,
-        "impact": 70,
-        "credibility": 80
-      },
-      "url": "https://arxiv.org/abs/2608.11342",
-      "source": "RSS · arXiv cs.LG",
-      "date": "2026-08-14",
-      "publishedAt": "",
-      "collectedAt": "2026-08-14T01:22",
-      "dateStatus": "collected",
-      "tier": "T1",
-      "score": 78,
-      "aiSelected": true,
-      "_style": "recommender",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceDate": "2026-08-14",
-      "sourceCount": 1
     }
   ],
   "weeklyDigests": [
@@ -8474,77 +8220,33 @@ window.AI_GENERATED_DATA = {
       "date": "2026-08-05"
     },
     {
-      "name": "InternLM/xtuner",
-      "lang": "Python",
-      "category": "推理引擎",
-      "description": "这是一个为超大规模 MoE 模型构建的训练引擎，适合研究人员和开发者使用，支持高效的模型训练。",
-      "details": "xtuner 解决了超大规模 MoE 模型训练中的效率和资源管理问题。与其他训练引擎（如 TensorFlow 和 PyTorch）相比，xtuner 专注于优化 MoE 模型的训练过程，能够在更少的资源下实现更高的性能。该项目使用 Python 编写，采用开源许可证，适合希望提升模型训练效率的研究人员和开发者，不推荐对超大规模模型训练没有需求的用户。",
-      "features": [
-        "支持超大规模 MoE 模型训练",
-        "优化资源管理和训练效率",
-        "兼容主流深度学习框架",
-        "提供灵活的配置选项",
-        "支持分布式训练"
-      ],
-      "useCases": [
-        "在大型数据集上训练 MoE 模型",
-        "优化现有模型的训练时间",
-        "进行模型性能调优",
-        "实现分布式训练以提升效率"
-      ],
-      "quickStart": [
-        "git clone https://github.com/InternLM/xtuner.git",
-        "cd xtuner",
-        "pip install -r requirements.txt",
-        "python train.py --config config.yaml"
-      ],
-      "why": "xtuner 以其专注于 MoE 模型的训练优化而脱颖而出，当前已有 5172 stars，显示出良好的社区关注度。其设计理念和实现方式使得在资源有限的情况下仍能高效训练超大规模模型，适合需要高效训练的开发者和研究者。",
-      "tags": [
-        "MoE模型",
-        "深度学习",
-        "训练引擎"
-      ],
-      "url": "https://github.com/InternLM/xtuner",
-      "stars": "5172 stars",
-      "source": "GitHub · 上海AI实验室 书生",
-      "date": "2026-08-05"
+      "name": "nautechsystems/nautilus_trader",
+      "lang": "Rust",
+      "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
+      "stars": "27535 stars",
+      "why": "近期更新且具备 AI / LLM / Agent 相关主题，适合做项目介绍、教程或同类对比。",
+      "url": "https://github.com/nautechsystems/nautilus_trader",
+      "source": "GitHub Search · 2026-08-24",
+      "category": "Coding Agent",
+      "details": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
     },
     {
-      "name": "Tencent-Hunyuan/Hy-Embodied-0.5-VLA",
+      "name": "InternLM/OVO-S-Bench",
       "lang": "Python",
-      "category": "Agent 框架",
-      "description": "这是一个面向机器人学习的工具，结合视觉、语言和动作模型，支持真实世界应用。",
-      "details": "Hy-Embodied-0.5-VLA 旨在将视觉-语言-动作模型应用于真实世界的机器人学习。与其他机器人学习框架相比，如 OpenAI 的 Gym 和 Google 的 TensorFlow Agents，该项目提供了更为集成的解决方案，能够处理复杂的多模态输入。该项目使用 Python 开发，采用 MIT 许可证，适合研究人员和开发者使用，但不推荐初学者尝试，因为需要一定的背景知识。",
-      "features": [
-        "集成视觉、语言和动作模型",
-        "支持多模态输入处理",
-        "提供真实世界机器人学习环境",
-        "兼容主流深度学习框架",
-        "支持自定义任务和场景"
-      ],
-      "useCases": [
-        "构建多模态机器人交互系统",
-        "开发智能家居自动化应用",
-        "实现复杂环境中的自主导航",
-        "进行机器人行为学习和优化"
-      ],
-      "quickStart": [
-        "git clone https://github.com/Tencent-Hunyuan/Hy-Embodied-0.5-VLA.git",
-        "cd Hy-Embodied-0.5-VLA",
-        "pip install -r requirements.txt",
-        "python main.py"
-      ],
-      "why": "该项目在 GitHub 上拥有 245 stars，显示出其在社区中的认可度。与同类项目相比，Hy-Embodied-0.5-VLA 提供了更为全面的多模态支持，适合需要复杂交互的机器人应用。其活跃的开发和更新频率也为用户提供了持续的技术支持。",
-      "tags": [
-        "机器人学习",
-        "多模态",
-        "视觉语言",
-        "深度学习"
-      ],
-      "url": "https://github.com/Tencent-Hunyuan/Hy-Embodied-0.5-VLA",
-      "stars": "245 stars",
-      "source": "GitHub · 腾讯混元",
-      "date": "2026-08-05"
+      "description": "[EMNLP 2026] An official implementation of \"OVO-S-Bench: A Hierarchical Benchmark for Streaming Spatial Intelligence in Multimodal LLMs\"",
+      "stars": "52 stars",
+      "why": "国产大模型厂商 上海AI实验室 书生 的最新开源动态/模型发布，属一手信源。",
+      "url": "https://github.com/InternLM/OVO-S-Bench",
+      "source": "GitHub · 上海AI实验室 书生",
+      "tier": "T1",
+      "category": "Coding Agent",
+      "details": "[EMNLP 2026] An official implementation of \"OVO-S-Bench: A Hierarchical Benchmark for Streaming Spatial Intelligence in Multimodal LLMs\"",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
     }
   ],
   "sources": [
@@ -9869,6 +9571,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-models": [
       {
+        "name": "DeepSeek-V4-Flash-Vision-Exp 发布",
+        "provider": "DeepSeek：API 更新日志",
+        "type": "AI 项目/工具",
+        "bestFor": "DeepSeek 上线实验性多模态视觉理解模型 DeepSeek-V4-Flash-Vision-Exp，可通过设置 model='deepseek-v4-flash-vision-exp' 在 API 平台访问。",
+        "description": "DeepSeek 上线实验性多模态视觉理解模型 DeepSeek-V4-Flash-Vision-Exp，可通过设置 model='deepseek-v4-flash-vision-exp' 在 API 平台访问。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "DeepSeek：API 更新日志",
+        "url": "https://api-docs.deepseek.com/zh-cn/updates#%E6%97%B6%E9%97%B4-2026-08-21"
+      },
+      {
         "name": "数字双胞胎：重塑铁路生命周期",
         "provider": "Rail Express",
         "type": "AI 项目/工具",
@@ -10418,23 +10131,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "DNyuz",
         "url": "https://dnyuz.com/2026/08/16/jimmy-wales-ai-can-generate-answers-it-still-cant-earn-trust/"
-      },
-      {
-        "name": "Mahindra推出首款AI智能汽车，集成Google Gemini对话助手",
-        "provider": "ET NOW",
-        "type": "AI 项目/工具",
-        "bestFor": "这款AI智能汽车的推出将吸引更多追求科技感和个性化的消费者，尤其是年轻一代。通过自然语音控制和个性化配置，驾驶体验将更加便捷和愉悦。此外，Revive SOS功能的引入为用户提供了额外的安全保障，可能会影响消费者在选择电动车时的决策。随着智能汽车技术的普及，整个汽车行业也将面临转型压力，促使更多品牌加速技术创新。",
-        "description": "Mahindra的2026 BE 6 SPORTEQ是首款集成Google Gemini的AI智能汽车，配备TEQ_Talk对话助手，实现自然语音控制导航、娱乐和车辆设置。TEQ_Me功能可自动识别驾驶员并加载个性化配置。此外，TEQ_xting允许车主在LED尾门上显示自定义信息，TEQ_Drive则提供多种驾驶模式和Revive SOS紧急充电功能，能在电池耗尽后提供最多13公里的应急续航。2027年1月起，现有用户也可通过OTA更新体验这些功能。",
-        "useCases": [
-          "使用TEQ_Talk进行语音导航，快速设置目的地，提升行车安全性。",
-          "通过TEQ_Me功能，自动加载个人驾驶配置，节省时间，提升驾驶体验。",
-          "利用TEQ_xting在车尾显示个性化信息，增强车辆的独特性和社交互动。",
-          "在紧急情况下，启用Revive SOS功能，确保能安全到达最近的充电站。",
-          "通过OTA更新，现有用户可体验新功能，保持车辆的技术前沿性。"
-        ],
-        "watch": "在使用TEQ_Talk时，可能会受到环境噪音影响，导致语音识别不准确。",
-        "sourceName": "ET NOW",
-        "url": "https://www.etnownews.com/auto/2026-be-6-sporteq-mahindras-first-ai-powered-car-integrates-google-gemini-as-a-conversational-ai-assistant-article-155691653"
       }
     ],
     "ai-business": [
@@ -14353,9 +14049,9 @@ window.AI_GENERATED_DATA = {
     }
   ],
   "dailyReport": {
-    "date": "2026-08-20",
-    "generatedAt": "2026-08-20T01:28:48.406401Z",
-    "total": 27,
+    "date": "2026-08-24",
+    "generatedAt": "2026-08-24T03:43:08.087724Z",
+    "total": 24,
     "sections": [
       {
         "category": "ai-tools",
@@ -14578,17 +14274,6 @@ window.AI_GENERATED_DATA = {
             "reason": ""
           },
           {
-            "title": "Strengthening democratic oversight in national security",
-            "summary": "OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, ",
-            "source": "RSS · OpenAI Blog",
-            "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-19",
-            "publishedAt": "2026-08-19T03:00",
-            "reason": ""
-          },
-          {
             "title": "DeepSeek-V4-Pro 在 H20 上的多场景优化突破",
             "summary": "我注意到 LMSYS 团队在 H20 GPU 上对 1.6 万亿参数的 MoE 模型 DeepSeek-V4-Pro 进行了多场景优化，成功将其性能逼近 B300。通过单节点 H20-141GB 的实现，输出速率达到了 271 tokens/s，与 B300 的 383.7 to",
             "source": "LMSYS：Blog（Chatbot Arena 团队）",
@@ -14609,17 +14294,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-08-20",
             "publishedAt": "2026-08-20T01:22",
             "reason": "这条信息展示了 OpenRouter 在多模型智能领域的最新进展，值得关注其未来的发展潜力。"
-          },
-          {
-            "title": "Liquid AI 发布 LFM2.5 QAD Q4_0 检查点，恢复 97% 精度损失",
-            "summary": "最近看到 Liquid AI 发布了基于量化感知蒸馏（QAD）训练的 LFM2.5 系列 Q4_0 GGUF 检查点，包括 LFM2.5-230M、350M、1.2B-Instruct 和 2.6B 四个版本。这些检查点在保持原生 Q4_0 的内存和速度的同时，成功恢复了 97%",
-            "source": "Hugging Face：Blog（RSS）",
-            "url": "https://huggingface.co/blog/LiquidAI/qad",
-            "score": 66,
-            "sourceCount": 1,
-            "date": "2026-08-19",
-            "publishedAt": "2026-08-19T21:48",
-            "reason": "这条信息值得关注，因为它展示了 Liquid AI 在量化模型优化方面的最新成果，极大提升了模型的实用性和性能。"
           }
         ]
       },
@@ -14676,23 +14350,319 @@ window.AI_GENERATED_DATA = {
             "date": "2026-08-20",
             "publishedAt": "2026-08-20T08:17",
             "reason": "OpenAI 的上市计划是行业内的重要里程碑，值得关注其对市场和技术发展的影响。"
-          },
-          {
-            "title": "OpenRouter 与 Stripe 合并，继续独立运营",
-            "summary": "OpenRouter 宣布与 Stripe 合并，旨在加速全球经济增长。OpenRouter 每日处理来自 400 多个 AI 模型的 10+ 万亿 token，服务超过 1000 万开发者与公司，自成立以来推理量每年增长至少 10 倍。合并后，OpenRouter 将保持原名和",
-            "source": "OpenRouter：Announcements（RSS）",
-            "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe",
-            "score": 65,
-            "sourceCount": 1,
-            "date": "2026-08-19",
-            "publishedAt": "2026-08-19T08:00",
-            "reason": "OpenRouter 与 Stripe 的合并将为 AI 开发者提供更强大的支持，值得关注其后续发展。"
           }
         ]
       }
     ]
   },
   "dailyReports": [
+    {
+      "date": "2026-08-23",
+      "generatedAt": "2026-08-24T03:43:08.364231Z",
+      "total": 24,
+      "sections": [
+        {
+          "category": "ai-tools",
+          "label": "AI 工具",
+          "items": [
+            {
+              "title": "用 AWS 快速自动化文档处理，提升贷款效率",
+              "summary": "我注意到，文档处理在银行、保险和医疗等行业中都是一大挑战。通过 AWS 的 GAIIC IDP 加速器和 Amazon Quick Automate，一家中型抵押贷款公司成功实现了从文档接收至数据验证的全自动化，显著提高了处理效率。本文将详细介绍这一解决方案的实施过程及其带来的业",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/automate-document-processing-with-quick-automate-and-the-idp-accelerator/",
+              "score": 82,
+              "sourceCount": 1,
+              "date": "2026-08-20",
+              "publishedAt": "2026-08-20T06:09",
+              "reason": "这条信息值得关注，因为它展示了如何通过自动化技术有效提升文档处理效率，适用于多个行业的实际应用。"
+            },
+            {
+              "title": "KnowledgeForge：从ITSM工单中提炼知识",
+              "summary": "KnowledgeForge通过挖掘已解决的IT服务管理（ITSM）工单，自动生成新的知识库文章，并通过去重、质量评分和内容改进来优化现有知识库。该系统利用Amazon Bedrock、Amazon S3 Vectors和AWS Step Functions构建了一个多租户的闭环",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/knowledgeforge-mining-gold-from-the-itsm-ticket-graveyard/",
+              "score": 82,
+              "sourceCount": 1,
+              "date": "2026-08-20",
+              "publishedAt": "2026-08-20T04:36",
+              "reason": "KnowledgeForge通过创新的知识提取和优化方法，显著提升了IT服务管理的效率，值得关注。"
+            },
+            {
+              "title": "OpenAI 重申零数据保留政策，保障用户隐私",
+              "summary": "OpenAI 最近重申了其对符合条件的 API 客户实施零数据保留的承诺，并预览了私人安全处理功能，以提升 AI 安全性，同时不妥协数据隐私。这一举措旨在增强用户对 AI 应用的信任，尤其是在数据隐私日益受到关注的背景下。",
+              "source": "RSS · OpenAI Blog",
+              "url": "https://openai.com/index/our-commitment-to-zero-data-retention",
+              "score": 82,
+              "sourceCount": 1,
+              "date": "2026-08-20",
+              "publishedAt": "2026-08-20T03:00",
+              "reason": "OpenAI 的零数据保留政策为用户提供了更高的隐私保障，尤其适合对数据安全有严格要求的行业，值得关注。"
+            },
+            {
+              "title": "Jumio 在 AWS 上构建实时特征库的实践",
+              "summary": "我最近看到 Jumio 利用 AWS 的 Amazon SageMaker Feature Store、Amazon Managed Service for Apache Flink 和 Amazon Kinesis Data Streams 构建了一个集中式的实时特征库。这个架",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/how-jumio-built-a-real-time-feature-store-on-aws/",
+              "score": 82,
+              "sourceCount": 1,
+              "date": "2026-08-19",
+              "publishedAt": "2026-08-19T01:05",
+              "reason": "这篇文章展示了如何利用 AWS 的强大工具构建高效的实时特征库，值得关注。"
+            },
+            {
+              "title": "谷歌推出五种新工具提升学习效率",
+              "summary": "谷歌于2026年8月19日推出了五种新工具，旨在通过搜索引擎帮助用户更有效地学习新知识、应对难题并组织学习时间。这些工具包括互动视觉、定制化练习测验等，旨在为学生提供安全的学习环境。",
+              "source": "RSS · Google AI Blog",
+              "url": "https://blog.google/products-and-platforms/products/search/back-to-school-study-tools/",
+              "score": 81,
+              "sourceCount": 1,
+              "date": "2026-08-20",
+              "publishedAt": "2026-08-20T03:00",
+              "reason": "谷歌的新学习工具通过AI技术提供个性化和互动的学习体验，值得关注。"
+            },
+            {
+              "title": "自定义 Amazon Quick 嵌入式聊天功能",
+              "summary": "我注意到 Amazon Quick 嵌入式聊天为网页应用提供了对话式 AI 接口，用户可以在应用内提问、探索数据和获取见解。通过自定义聊天界面，可以确保其外观和感觉与品牌一致，提升用户体验。",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/customize-amazon-quick-embedded-chat-into-your-application/",
+              "score": 77,
+              "sourceCount": 1,
+              "date": "2026-08-19",
+              "publishedAt": "2026-08-19T01:13",
+              "reason": "这篇文章提供了实用的自定义指南，帮助开发者将 Amazon Quick 嵌入式聊天与品牌形象完美结合，提升用户体验。"
+            }
+          ]
+        },
+        {
+          "category": "ai-coding",
+          "label": "AI 编程",
+          "items": [
+            {
+              "title": "Replit 推出 GPT-5.6 Luna 免费模式，简化软件开发",
+              "summary": "我注意到 Replit 最近推出了基于 GPT-5.6 Luna 的免费模式，任何人都可以轻松将创意转化为可运行的软件，而无需担心代币费用。这一举措大大降低了软件开发的门槛，让更多人能够参与到编程中来。",
+              "source": "RSS · OpenAI Blog",
+              "url": "https://openai.com/index/replit",
+              "score": 81,
+              "sourceCount": 1,
+              "date": "2026-08-19",
+              "publishedAt": "2026-08-19T15:00",
+              "reason": "Replit 的免费模式为软件开发带来了新的可能性，尤其是对于初学者和创业者而言，值得关注。"
+            },
+            {
+              "title": "FastMetal 实现 Mac 本地 30 秒生成视频",
+              "summary": "FastMetal 是一款针对 Apple Silicon 优化的视频生成工具，能够在 Mac 上以 30 秒的时间生成 5 秒长的 480P 视频。它无需依赖 CUDA 或云服务，仅占用 3.9 GiB 内存。该工具支持三种模型，分别为 1.3B（480P）、5B（720P）和",
+              "source": "X：Sky Computing Lab (@haoailab)",
+              "url": "https://x.com/haoailab/status/2090177721913770407",
+              "score": 66,
+              "sourceCount": 1,
+              "date": "2026-08-20",
+              "publishedAt": "2026-08-20T04:42",
+              "reason": "FastMetal 以其高效的本地视频生成能力，降低了视频制作的门槛，适合广泛的应用场景，值得关注。"
+            }
+          ]
+        },
+        {
+          "category": "ai-agents",
+          "label": "Agent / MCP",
+          "items": [
+            {
+              "title": "Amazon Bedrock AgentCore 支持域名和发布日期过滤",
+              "summary": "Amazon Bedrock AgentCore 现已推出运行时域名和发布日期过滤功能，允许开发者在每次请求中控制代理查询的网页来源及其新鲜度。这一更新还将 Web Search 扩展至欧洲（爱尔兰）和亚太（东京）地区，提升了用户体验。",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/domain-and-publish-date-filters-for-web-search-on-agentcore/",
+              "score": 82,
+              "sourceCount": 1,
+              "date": "2026-08-20",
+              "publishedAt": "2026-08-20T06:13",
+              "reason": "这一更新显著提升了 AI 代理的信息查询能力，确保了信息的可靠性和时效性，值得关注。"
+            },
+            {
+              "title": "无服务器管道中异步调用 Amazon Bedrock AgentCore 代理的模式",
+              "summary": "最近看到一篇关于如何在无服务器管道中异步调用 Amazon Bedrock AgentCore 代理的文章，介绍了三种模式：任务令牌回调、直接服务集成和持久化函数。这些模式可以在 AWS Step Functions 管道中使用，避免在 AI 代理处理请求时产生空闲计算成本。",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/asynchronous-patterns-for-calling-amazon-bedrock-agentcore-agents-in-serverless-pipelines/",
+              "score": 82,
+              "sourceCount": 1,
+              "date": "2026-08-20",
+              "publishedAt": "2026-08-20T06:06",
+              "reason": "这篇文章提供了实用的异步调用模式，帮助开发者在无服务器架构中更高效地利用资源，值得一看。"
+            },
+            {
+              "title": "Fanatics Betting and Gaming 构建多代理客户支持系统",
+              "summary": "我最近看到 Fanatics Betting and Gaming 在 AWS 上构建了一个多代理客户支持系统，以应对体育博彩的复杂性。这个系统能够快速、准确地处理客户在高峰时段的咨询，尤其是在大型体育赛事期间。文章详细介绍了系统架构、所用的 AWS 服务以及设计自己多代理支持解",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/how-fanatics-betting-and-gaming-built-a-multi-agent-customer-support-system/",
+              "score": 82,
+              "sourceCount": 1,
+              "date": "2026-08-20",
+              "publishedAt": "2026-08-20T04:40",
+              "reason": "这个案例展示了如何利用多代理 AI 系统来应对复杂的客户支持需求，值得关注。"
+            },
+            {
+              "title": "Axonius 如何在 Bedrock AgentCore 上构建安全的多租户 AI 代理",
+              "summary": "Axonius 利用 Amazon Bedrock AgentCore 部署了完全隔离的多租户 AI 代理，成功管理数百个客户环境，避免了从零构建计算隔离、身份验证和可观察性基础设施的复杂性。本文将介绍其架构选择及实施策略。",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/how-axonius-built-secure-multi-tenant-ai-agents-on-bedrock-agentcore/",
+              "score": 82,
+              "sourceCount": 1,
+              "date": "2026-08-19",
+              "publishedAt": "2026-08-19T00:27",
+              "reason": "Axonius 的成功案例展示了如何在复杂环境中有效部署多租户 AI 代理，值得关注和学习。"
+            },
+            {
+              "title": "使用 Amazon Bedrock 实现向量提示文档分类",
+              "summary": "我最近看到 Amazon Bedrock 上有一个很酷的多代理文档分类解决方案。这个方案结合了 Strands Agents SDK，利用三个专业代理进行文本分析和视觉相似性搜索，能够准确分类保险文档，比如保单和宣誓书。这种方法不仅提高了分类的准确性，还能处理复杂的文档类型。",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/implement-vector-prompt-document-classification-using-amazon-bedrock/",
+              "score": 78,
+              "sourceCount": 1,
+              "date": "2026-08-19",
+              "publishedAt": "2026-08-19T01:10",
+              "reason": "这条信息展示了如何利用先进的 AI 技术提升文档分类效率，特别适合保险行业的需求，值得关注。"
+            },
+            {
+              "title": "Amazon Bedrock AgentCore 支付功能正式上线，AI 代理可安全自主交易",
+              "summary": "Amazon Bedrock AgentCore 支付功能现已全面上线，允许 AI 代理在内置支出保护机制的支持下，安全且自主地进行大规模交易。该功能具备协议无关的支付编排能力，并提供生产级的可观察性，旨在提升交易的安全性和效率。",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-payments-is-now-generally-available-enabling-agents-to-transact-safely-and-autonomously-at-scale/",
+              "score": 78,
+              "sourceCount": 1,
+              "date": "2026-08-19",
+              "publishedAt": "2026-08-19T02:56",
+              "reason": "这项功能的推出为企业提供了一个安全、高效的交易解决方案，值得关注。"
+            },
+            {
+              "title": "The P-Completeness of Inverted Index Traversal: On the Complexity of Evaluating Boolean Query DAGs",
+              "summary": "Modern AI agents increasingly rely on search infrastructure to execute complex, neuro-symbolic reasoning workflows. These workflows often co",
+              "source": "RSS · Apple ML Research",
+              "url": "https://machinelearning.apple.com/research/the-p-completeness-of-inverted-index-traversal",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-19",
+              "publishedAt": "2026-08-19T08:00",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-models",
+          "label": "模型发布",
+          "items": [
+            {
+              "title": "OpenAI 提供零数据保留服务，增强 AI 安全性",
+              "summary": "OpenAI 宣布为符合条件的 API 客户提供零数据保留服务，并预览了私密安全处理功能，以在不妨碍数据隐私的情况下提升 AI 安全性。这一举措旨在增强用户对数据安全的信任，同时推动 AI 技术的安全应用。",
+              "source": "RSS · OpenAI Blog",
+              "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+              "score": 82,
+              "sourceCount": 1,
+              "date": "2026-08-20",
+              "publishedAt": "2026-08-20T03:00",
+              "reason": "OpenAI 的零数据保留服务为开发者提供了更高的数据隐私保障，是推动 AI 安全应用的重要一步。"
+            },
+            {
+              "title": "Improve contract search accuracy with auto-generated filters in Amazon Bedrock",
+              "summary": "In this post, we describe how AIDA works at a high level and how it helps address these challenges — grounding users in the right contracts,",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/improve-contract-search-accuracy-with-auto-generated-filters-in-amazon-bedrock/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-19",
+              "publishedAt": "2026-08-19T01:02",
+              "reason": ""
+            },
+            {
+              "title": "Claude 如何加速蛋白质设计与分析化学研究",
+              "summary": "Anthropic 公布两项实验：Claude（Mythos Preview 和 Opus 4.8）针对 15 个靶点设计蛋白质结合剂，成功 14 个，命中率达 22.6%-35.1%。",
+              "source": "Anthropic：Research（发表成果 · 网页）",
+              "url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-19",
+              "publishedAt": "2026-08-19T06:27",
+              "reason": ""
+            },
+            {
+              "title": "DeepSeek-V4-Pro 在 H20 上的多场景优化突破",
+              "summary": "我注意到 LMSYS 团队在 H20 GPU 上对 1.6 万亿参数的 MoE 模型 DeepSeek-V4-Pro 进行了多场景优化，成功将其性能逼近 B300。通过单节点 H20-141GB 的实现，输出速率达到了 271 tokens/s，与 B300 的 383.7 to",
+              "source": "LMSYS：Blog（Chatbot Arena 团队）",
+              "url": "https://www.lmsys.org/blog/2026-08-19-deepseek-v4-pro-engine-optimization-h20",
+              "score": 66,
+              "sourceCount": 1,
+              "date": "2026-08-20",
+              "publishedAt": "2026-08-20T01:56",
+              "reason": "这条信息展示了 DeepSeek-V4-Pro 在 H20 GPU 上的优化成果，值得关注其对 AI 模型性能提升的实际影响。"
+            },
+            {
+              "title": "OpenRouter 加入 Stripe，推动多模型智能发展",
+              "summary": "我注意到 OpenRouter 最近宣布加入 Stripe，这标志着他们在推动多模型智能方面迈出了重要一步。OpenRouter 的使命是让智能技术更加多元化，目前他们已经成为最大的 AI 市场，每天处理超过 10T 的 token，涵盖 400 多个模型。与 Stripe 的合",
+              "source": "X：OpenRouter (@OpenRouter)",
+              "url": "https://x.com/OpenRouter/status/2090127246430216403",
+              "score": 66,
+              "sourceCount": 1,
+              "date": "2026-08-20",
+              "publishedAt": "2026-08-20T01:22",
+              "reason": "这条信息展示了 OpenRouter 在多模型智能领域的最新进展，值得关注其未来的发展潜力。"
+            }
+          ]
+        },
+        {
+          "category": "ai-research",
+          "label": "论文研究",
+          "items": [
+            {
+              "title": "深入分析 LLM 中的人类行为表现及其影响",
+              "summary": "大型语言模型（LLMs）展现出多种人类行为，包括表达情感、与用户建立关系、拒绝请求等。尽管这些行为普遍存在，研究者和实践者却缺乏有效的方法来判断何时以及何种类型的人类行为应由 LLM 展现。本文通过对 21,000 个多轮对话的分析，探讨了这些行为的普遍性、潜在影响及可控性，并提",
+              "source": "RSS · Apple ML Research",
+              "url": "https://machinelearning.apple.com/research/human-like-behaviors-llms",
+              "score": 82,
+              "sourceCount": 1,
+              "date": "2026-08-19",
+              "publishedAt": "2026-08-19T08:00",
+              "reason": "本研究提供了对 LLM 行为表现的深入分析，填补了当前研究中的空白，具有重要的理论和实践价值。"
+            }
+          ]
+        },
+        {
+          "category": "ai-business",
+          "label": "行业商业",
+          "items": [
+            {
+              "title": "ChatGPT Ads 在欧洲市场扩展至 31 个国家",
+              "summary": "ChatGPT Ads 正在向 31 个欧洲市场扩展，广告主可以借此机会在用户探索、比较选项和做出决策时进行精准投放。这一扩展为广告主提供了新的触达用户的方式，尤其是在竞争激烈的市场环境中。",
+              "source": "RSS · OpenAI Blog",
+              "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+              "score": 78,
+              "sourceCount": 1,
+              "date": "2026-08-19",
+              "publishedAt": "2026-08-19T06:00",
+              "reason": "ChatGPT Ads 的扩展为广告主提供了新的市场机会，尤其是在用户决策过程中，值得关注。"
+            },
+            {
+              "title": "Stripe 以 75 亿美元收购 OpenRouter",
+              "summary": "Stripe 确认收购 AI 模型路由平台 OpenRouter，交易金额达到 75 亿美元，远超其 5 月时的 13 亿美元估值。尽管创始人提到收购与\"奇点\"有关，实际原因在于 OpenRouter 能帮助 Stripe 进入 AI 时代的支出管理领域，并掌握开发者的 AI 使",
+              "source": "TechCrunch：AI（RSS）",
+              "url": "https://techcrunch.com/2026/08/19/stripe-didnt-really-buy-openrouter-because-of-the-singularity",
+              "score": 67,
+              "sourceCount": 1,
+              "date": "2026-08-20",
+              "publishedAt": "2026-08-20T07:32",
+              "reason": "此次收购不仅是 Stripe 进入 AI 时代的重要一步，也为开发者提供了更强大的工具，值得关注其后续发展。"
+            },
+            {
+              "title": "OpenAI CFO 宣布公司计划于 2027 年上市",
+              "summary": "OpenAI 首席财务官萨拉·弗里亚尔在全员大会上透露，公司最迟将在 2027 年完成上市，若业务持续增长，可能会提前上市。OpenAI 已秘密提交 IPO 招股书，当前年化营收增长显著，企业级业务表现尤为突出，周活跃用户已突破 2000 万。",
+              "source": "IT之家（RSS）",
+              "url": "https://www.ithome.com/0/991/886.htm",
+              "score": 66,
+              "sourceCount": 1,
+              "date": "2026-08-20",
+              "publishedAt": "2026-08-20T08:17",
+              "reason": "OpenAI 的上市计划是行业内的重要里程碑，值得关注其对市场和技术发展的影响。"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-19",
       "generatedAt": "2026-08-19T16:00:15.239765Z",
@@ -26026,341 +25996,6 @@ window.AI_GENERATED_DATA = {
           ]
         }
       ]
-    },
-    {
-      "date": "2026-06-19",
-      "generatedAt": "2026-06-19T16:26:37.027810Z",
-      "total": 26,
-      "sections": [
-        {
-          "category": "ai-tools",
-          "label": "AI 工具",
-          "items": [
-            {
-              "title": "OpenAI 推出 ChatGPT 企业版新支出控制与使用分析功能",
-              "summary": "OpenAI 最近为 ChatGPT 企业版引入了新的支出控制和使用分析工具，旨在帮助企业有效管理成本并自信地扩展 AI 应用。这些新功能将使企业能够更好地监控和优化 AI 的使用情况，提升资源配置的效率。",
-              "source": "RSS · OpenAI Blog",
-              "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
-              "score": 78,
-              "sourceCount": 1,
-              "date": "2026-06-19",
-              "publishedAt": "2026-06-19T01:00",
-              "reason": "OpenAI 的新功能为企业提供了更强的支出管理和使用分析能力，帮助企业在 AI 应用中实现更高的成本效益。"
-            },
-            {
-              "title": "Claude Enterprise 推出企业托管 MCP 连接器授权管理功能",
-              "summary": "Claude Enterprise 新推出的企业托管授权功能，允许管理员通过身份提供商（如 Okta）为整个组织配置 MCP 连接器。用户首次登录时自动获得授权，简化了连接器的设置流程，实现零接触配置。该功能支持多种工具，提升了工作效率。",
-              "source": "Claude：Blog（网页）",
-              "url": "https://claude.com/blog/enterprise-managed-auth",
-              "score": 67,
-              "sourceCount": 1,
-              "date": "2026-06-19",
-              "publishedAt": "2026-06-19T01:51",
-              "reason": "Claude Enterprise 的企业托管授权功能通过简化连接器管理，提升了工作效率和安全性，值得关注。"
-            },
-            {
-              "title": "Cloudflare 推出 AI 智能体临时账户功能",
-              "summary": "Cloudflare 在 2026 年 6 月 19 日推出了临时账户功能，允许 AI 智能体通过 `wrangler deploy --temporary` 命令快速部署 Worker，无需传统的注册和认证流程。此举旨在简化智能体的部署过程，提升开发效率。",
-              "source": "Cloudflare Blog",
-              "url": "https://blog.cloudflare.com/temporary-accounts",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-06-19",
-              "publishedAt": "2026-06-19T21:00",
-              "reason": "Cloudflare 的临时账户功能为 AI 开发者提供了前所未有的便利，值得关注其对开发流程的潜在影响。"
-            },
-            {
-              "title": "阿里开源向量数据库Zvec，助力AI应用开发",
-              "summary": "阿里巴巴开源了其内部使用的向量数据库Zvec，用户只需通过一行命令'pip install zvec'即可免费使用。Zvec支持十亿向量的毫秒级检索，兼容多种平台，并新增了原生全文混合搜索功能，成为AI应用开发的新选择。UCSD的黄碧薇教授提出了因果AI的第四代范式，标志着AI技",
-              "source": "X：阿易 AI Notes (@AYi_AInotes)",
-              "url": "https://x.com/AYi_AInotes/status/2067832098816250346",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-06-19",
-              "publishedAt": "2026-06-19T12:49",
-              "reason": "阿里开源Zvec为AI开发者提供了一个强大且免费的向量数据库选择，推动了AI技术的普及与应用。"
-            },
-            {
-              "title": "使用 /youtube-notetaker 从 YT 视频生成文档",
-              "summary": "通过 /youtube-notetaker 技能，用户可以轻松从 YouTube 视频中提取幻灯片、笔记和转录内容，快速生成文档。该工具适用于需要整理视频信息的用户，提升学习和工作效率。",
-              "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
-              "url": "https://x.com/omarsar0/status/2067952726282031411",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-06-19",
-              "publishedAt": "2026-06-19T20:48",
-              "reason": "该工具提供了高效的视频信息提取解决方案，适合需要快速整理和获取视频内容的用户，值得一试。"
-            },
-            {
-              "title": "OpenClaw 集成 OpenRouter 实现跨模型自动故障转移",
-              "summary": "OpenClaw 现已支持 OpenRouter，用户可通过单一命令配置统一密钥和账单，自动实现跨 300 多个模型的故障转移。这一功能简化了多模型管理，但在实际应用中仍存在一些局限性。",
-              "source": "OpenRouter：Announcements（RSS）",
-              "url": "https://openrouter.ai/blog/tutorials/openclaw-openrouter",
-              "score": 58,
-              "sourceCount": 1,
-              "date": "2026-06-19",
-              "publishedAt": "2026-06-19T03:00",
-              "reason": "OpenClaw 集成 OpenRouter 的功能提升了多模型管理的效率，值得关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-coding",
-          "label": "AI 编程",
-          "items": [
-            {
-              "title": "Salesforce CodeGen 实现 Python 函数生成与验证",
-              "summary": "Salesforce CodeGen 教程展示了如何通过 Hugging Face 加载模型，生成 Python 函数并进行验证。该工作流涵盖了函数提取、语法检查、静态安全检查、单元测试验证等多个步骤，展示了 CodeGen 在结构化代码生成中的多重能力。",
-              "source": "MarkTechPost（RSS）",
-              "url": "https://www.marktechpost.com/2026/06/18/salesforce-codegen-tutorial-generate-validate-and-rerank-python-functions-with-unit-tests-and-safety-checks",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-06-19",
-              "publishedAt": "2026-06-19T10:44",
-              "reason": "该教程提供了全面的代码生成与验证流程，展示了 Salesforce CodeGen 的强大功能，值得开发者深入学习。"
-            },
-            {
-              "title": "Claude Code 支持实时生成可分享的 artifacts",
-              "summary": "Claude Code 从今日起支持将工作进度生成为 artifacts，这些实时、可分享的交互式网页涵盖 PR 走查、系统说明等内容。artifacts 基于完整的会话上下文自动构建，更新时页面即时刷新，便于团队协作。",
-              "source": "Claude：Blog（网页）",
-              "url": "https://claude.com/blog/artifacts-in-claude-code",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-06-19",
-              "publishedAt": "2026-06-19T02:54",
-              "reason": "Claude Code 的 artifacts 功能通过实时更新和可视化展示，极大提升了团队协作效率，是软件开发领域的一次重要创新。"
-            },
-            {
-              "title": "Claude Code 的七种自定义指令方式及其局限性",
-              "summary": "Claude Code 提供七种自定义指令方式，包括 CLAUDE.md、规则、技能、子智能体、钩子、输出样式和附加系统提示。这些方式在加载时机、压缩行为和上下文成本上各有不同，适用于不同的场景。然而，随着指令数量的增加，可能导致上下文消耗过高，影响性能。",
-              "source": "Claude：Blog（网页）",
-              "url": "https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more",
-              "score": 59,
-              "sourceCount": 1,
-              "date": "2026-06-19",
-              "publishedAt": "2026-06-19T01:51",
-              "reason": "Claude Code 提供了多种自定义指令方式，适合需要灵活上下文管理的开发者，但也需注意其潜在的性能风险。"
-            }
-          ]
-        },
-        {
-          "category": "ai-agents",
-          "label": "Agent / MCP",
-          "items": [
-            {
-              "title": "Elasticsearch 上的持久化代理内存层实现召回率 0.89",
-              "summary": "我注意到，Agent Builder 正式上线了。这个基于 Elasticsearch 的持久化内存层将记忆分为情景、语义和程序三类，分别存储在独立索引中，并设定不同的写入速率和过期规则。通过 BM25 和 Jina v5 的 RRF 融合进行召回，再经过交叉编码器重排序。在 1",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://www.elastic.co/search-labs/blog/agent-memory-elasticsearch",
-              "score": 67,
-              "sourceCount": 1,
-              "date": "2026-06-19",
-              "publishedAt": "2026-06-19T13:01",
-              "reason": "这项技术通过优化记忆管理，显著提升了智能代理的性能，值得关注。"
-            },
-            {
-              "title": "AI 员工 Viktor 正式进驻 Microsoft Teams，年化收入达 2000 万美元",
-              "summary": "AI 员工 Viktor 在 Slack 上实现 2000 万美元年化收入，现已正式进驻 Microsoft Teams，面向 3.2 亿用户，助力企业零学习成本使用 AI。用户可免费试用，享受 100 美元信用额度，无需绑定信用卡。",
-              "source": "X：Rohan Paul (@rohanpaul_ai)",
-              "url": "https://x.com/rohanpaul_ai/status/2067755504613613699",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-06-19",
-              "publishedAt": "2026-06-19T07:45",
-              "reason": "Viktor 的推出标志着 AI 办公助手的一个重要里程碑，其零学习成本的特性将极大推动企业内部的 AI 应用普及。"
-            }
-          ]
-        },
-        {
-          "category": "ai-models",
-          "label": "模型发布",
-          "items": [
-            {
-              "title": "OpenAI 将健康 AI 能力迁移至免费版 GPT-5.5 Instant",
-              "summary": "OpenAI 将其前沿健康 AI 能力从付费模型迁移至免费版 GPT-5.5 Instant，使其在健康评估方面的表现接近 Thinking 模型。每周有超过 2.3 亿用户通过 ChatGPT 咨询健康问题。该更新通过知识蒸馏技术，结合医生审查与训练，显著提升了模型在不确定情况",
-              "source": "X：Rohan Paul (@rohanpaul_ai)",
-              "url": "https://x.com/rohanpaul_ai/status/2067936581441528040",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-06-19",
-              "publishedAt": "2026-06-19T19:44",
-              "reason": "这一更新使得高质量的健康 AI 能力能够惠及更广泛的用户群体，具有重要的社会价值。"
-            },
-            {
-              "title": "xAI 的 Grok TTS 模型在盲测中获96分，领先同类",
-              "summary": "xAI 的 Grok TTS 模型在 @Vapi_AI 的 Humanness Index 盲测中以 96 分的成绩位居榜首，距离真人语音的满分 100 分仅差 4 分。该指数通过对同一声音和引文的多模型克隆进行盲评，评估语音的自然度。",
-              "source": "X：xAI (@xai)",
-              "url": "https://x.com/xai/status/2067654108123910495",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-06-19",
-              "publishedAt": "2026-06-19T01:02",
-              "reason": "Grok TTS 模型在盲测中获得高分，展示了其在语音合成领域的领先优势，值得关注。"
-            },
-            {
-              "title": "美国政府对开源AI的监管可能引发严重后果",
-              "summary": "近期，美国政府通过行政命令和国会提案，限制对Anthropic先进模型的访问，可能开启新一轮AI监管。开源软件支撑全球90%以上的软件，创造了8万亿美元的经济价值，促进教育、创新和竞争。封闭模型的市场集中化加剧，开源成为初创公司和教育机构的重要替代方案。",
-              "source": "Nathan Lambert：Interconnects（RSS）",
-              "url": "https://www.interconnects.ai/p/banning-open-source-ai-would-be-a",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-06-19",
-              "publishedAt": "2026-06-19T21:02",
-              "reason": "这条信息揭示了开源AI在技术创新和市场竞争中的关键角色，强调了监管可能带来的负面影响，值得关注。"
-            },
-            {
-              "title": "诺姆·沙齐尔加盟OpenAI，前景与挑战并存",
-              "summary": "诺姆·沙齐尔，前Google研究员及Transformer架构的共同作者，宣布将加入OpenAI。他对这一决定感到艰难，同时对Google团队的成就表示自豪。这一转变可能为OpenAI带来新的技术视角，但也面临着多重挑战。",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://twitter.com/NoamShazeer/status/2067400851438932297",
-              "score": 63,
-              "sourceCount": 1,
-              "date": "2026-06-19",
-              "publishedAt": "2026-06-19T04:29",
-              "reason": "诺姆·沙齐尔的加盟为OpenAI带来了新的技术视角和潜在的市场机会，但也伴随着适应和竞争的挑战，值得关注。"
-            },
-            {
-              "title": "美国暂时关闭Fable模型，AI安全管控新阶段",
-              "summary": "美国政府短暂关闭了Fable模型，标志着AI技术的安全管控进入新阶段。未来两三代模型可能会受到严格限制，许多企业将无法自由使用。开源模型的技术进步滞后于前沿约七个月，面临算力和政策双重挑战。尽管模型的进步未停，但用户缺乏足够复杂的问题来推动其应用。Fable模型已能完成Opus ",
-              "source": "Steve Yegge：Medium（RSS）",
-              "url": "https://steve-yegge.medium.com/the-flat-curve-society-36c8b01eb33b",
-              "score": 63,
-              "sourceCount": 1,
-              "date": "2026-06-19",
-              "publishedAt": "2026-06-19T11:31",
-              "reason": "这条信息揭示了AI技术管控的新趋势，影响深远，值得关注。"
-            },
-            {
-              "title": "OpenAI 强化学习提升模型对齐能力但面临多重挑战",
-              "summary": "OpenAI 通过强化学习训练模型，使其在真实对话中展现诚实、谦逊和公平等特质，训练数据涵盖多个领域，模型在多项评测中表现出色。然而，尽管模型在对齐能力上有所提升，仍存在泛化能力不足和对抗性挑战等局限性。",
-              "source": "OpenAI：Alignment 研究博客（RSS）",
-              "url": "https://alignment.openai.com/beneficial-rl",
-              "score": 63,
-              "sourceCount": 1,
-              "date": "2026-06-19",
-              "publishedAt": "2026-06-19T02:00",
-              "reason": "这项研究展示了强化学习在提升 AI 模型对齐能力方面的潜力，但同时也揭示了其在实际应用中可能面临的多重挑战，值得关注。"
-            },
-            {
-              "title": "美国对Anthropic AI模型出口管制的背后",
-              "summary": "这次发布的核心点是，美国政府因担忧SK Telecom与中国的潜在联系，对Anthropic的Claude Mythos模型实施出口管制。此举源于SK Telecom获得了该模型的访问权限，随后亚马逊报告了Fable 5的安全漏洞，进一步加剧了不信任。白宫最终要求Anthropi",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://www.wired.com/story/sk-telecom-anthropic-mythos-export-controls",
-              "score": 60,
-              "sourceCount": 1,
-              "date": "2026-06-19",
-              "publishedAt": "2026-06-19T09:33",
-              "reason": "这条信息揭示了AI技术与国际政治的复杂关系，值得关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-office",
-          "label": "办公提效",
-          "items": [
-            {
-              "title": "Humanize PPT v0.9：专为演讲设计的开源PPT工具",
-              "summary": "我注意到 Humanize PPT v0.9 是一款为演讲场景量身定制的开源PPT工具。它通过AST（Audience，State，Transfer）逻辑重新组织大纲，并将页面渲染交给下游Skill处理。新增的质检环节能够自动修复常见的渲染问题，同时支持演讲模式，方便演讲者在独立",
-              "source": "公众号：卡尔的AI沃茨",
-              "url": "https://mp.weixin.qq.com/s/rGoYnUcBRkfRKQPbIaawyg",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-06-19",
-              "publishedAt": "2026-06-19T17:48",
-              "reason": "这款工具通过创新的AST逻辑和质检环节，极大提升了PPT的使用体验，值得演讲者和教育工作者关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-research",
-          "label": "论文研究",
-          "items": [
-            {
-              "title": "DeepSeek开源AutoResearch协议：AI自主完成285B模型RL研究闭环",
-              "summary": "DeepSeek的研究员Deli Chen开源了AutoResearch协议，并发布了关于Self-play的综述论文。该协议使得AI智能体首次完全自主地在DeepSeek 285B模型上完成了从实验设计到结论总结的完整强化学习研究闭环，标志着持续学习研究的新起点。",
-              "source": "X：阿易 AI Notes (@AYi_AInotes)",
-              "url": "https://x.com/AYi_AInotes/status/2067819352926150953",
-              "score": 68,
-              "sourceCount": 1,
-              "date": "2026-06-19",
-              "publishedAt": "2026-06-19T11:58",
-              "reason": "AutoResearch协议的开源为AI研究提供了全新的工具和思路，值得关注和尝试。"
-            },
-            {
-              "title": "MosaicLeaks揭示深度研究智能体的隐私泄露风险",
-              "summary": "MosaicLeaks提出了一项新任务，涉及1,001条多跳研究链，旨在探讨深度研究智能体在结合私有文档与外部网页检索时的隐私泄露风险。研究发现，智能体在执行任务时频繁泄露私有信息，优化任务性能反而加剧了泄露。通过引入隐私感知深度研究（PA-DR）强化学习训练方法，成功将严格链成",
-              "source": "Hugging Face：Blog（RSS）",
-              "url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-06-19",
-              "publishedAt": "2026-06-19T02:13",
-              "reason": "MosaicLeaks的研究为深度学习领域的隐私保护提供了重要的实证数据和解决方案，值得关注。"
-            },
-            {
-              "title": "Claude Opus 4.7 自主完成任务速度提升显著",
-              "summary": "Anthropic 的 Project Fetch 第二阶段实验显示，Claude Opus 4.7 在无需人类协助的情况下，完成任务的速度比最快的人类团队快约20倍，且编码量减少近10倍。然而，该模型在某些复杂任务上仍存在局限性，未能完全解决机器人控制的挑战。",
-              "source": "Anthropic：Research（发表成果 · 网页）",
-              "url": "https://www.anthropic.com/research/project-fetch-phase-two",
-              "score": 63,
-              "sourceCount": 1,
-              "date": "2026-06-19",
-              "publishedAt": "2026-06-19T00:22",
-              "reason": "这项研究展示了 AI 在机器人领域的最新进展，尤其是在自主任务执行方面的潜力和局限，值得关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-business",
-          "label": "行业商业",
-          "items": [
-            {
-              "title": "商务部等八部门发布实施意见，推动人工智能与消费深度融合",
-              "summary": "商务部等八部门近日联合发布《关于加快\"人工智能 + 消费\"发展的实施意见》，提出17条具体措施，旨在提升人工智能产品和服务的消费。重点包括扩大AI手机、智能家居及智能网联汽车的供给，促进AI与各类服务的深度融合，推动商业创新及消费环境的优化。",
-              "source": "IT之家（RSS）",
-              "url": "https://www.ithome.com/0/966/295.htm",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-06-19",
-              "publishedAt": "2026-06-19T07:56",
-              "reason": "该政策为人工智能与消费的结合提供了明确的方向和支持，具有重要的行业指导价值。"
-            },
-            {
-              "title": "FERC 强制电网运营商为数据中心提供快速并网通道",
-              "summary": "美国联邦能源监管委员会（FERC）要求六大电网运营商为数据中心等大型用户提供快速并网通道，数据中心需承担相关费用。FERC还指示运营商考虑替代输电技术，并在30天内报告发电容量，60天内审查电价。尽管此举为数据中心提供了便利，但并未解决发电容量短缺的问题，预计到2035年电力需求",
-              "source": "TechCrunch：AI（RSS）",
-              "url": "https://techcrunch.com/2026/06/18/ai-data-centers-just-got-a-government-mandated-fast-lane-to-the-grid",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-06-19",
-              "publishedAt": "2026-06-19T01:49",
-              "reason": "此政策为数据中心提供了快速并网的机会，直接影响电力市场和运营策略，值得关注。"
-            },
-            {
-              "title": "OpenAI 招募 AI 领域重量级专家，强化政策团队",
-              "summary": "在即将上市之际，OpenAI 连续引入两位重要人物：Transformer 架构共同作者 Noam Shazeer 和前白宫 AI 政策官员 Dean Ball。Shazeer 的加入将进一步增强 OpenAI 在生成 AI 领域的技术实力，而 Ball 将负责前沿 AI 政策的",
-              "source": "TechCrunch：AI（RSS）",
-              "url": "https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo",
-              "score": 64,
-              "sourceCount": 1,
-              "date": "2026-06-19",
-              "publishedAt": "2026-06-19T03:59",
-              "reason": "OpenAI 的战略布局和人才引进将深刻影响 AI 行业的技术发展与政策走向，值得关注。"
-            },
-            {
-              "title": "伯尼·桑德斯提出7万亿美元AI计划，征收大型AI公司50%股票税",
-              "summary": "伯尼·桑德斯近日提出一项立法，计划对年销售额超过2亿美元的AI公司征收50%的股票税，建立一个约7万亿美元的主权财富基金。该基金每年将向每位美国公民发放超过1000美元的股息，并用于资助医疗、教育和住房。此外，计划还设立由总统提名的两党\"民主AI独立委员会\"，以保护公共利益。该法",
-              "source": "Ars Technica：AI（RSS）",
-              "url": "https://arstechnica.com/tech-policy/2026/06/bernie-sanders-unveils-7-trillion-plan-to-give-americans-control-of-ai-industry",
-              "score": 61,
-              "sourceCount": 1,
-              "date": "2026-06-19",
-              "publishedAt": "2026-06-19T01:02",
-              "reason": "这一提案不仅涉及AI行业的未来发展，还关乎社会公平与公共利益，值得关注。"
-            }
-          ]
-        }
-      ]
     }
   ],
   "llmLeaderboard": {
@@ -27611,6 +27246,18 @@ window.AI_GENERATED_DATA = {
     ]
   },
   "benchmarkDatasets": [
+    {
+      "name": "asr-benchmark",
+      "area": "语音 / 音频",
+      "note": "Hugging Face 最新研究引入三项测试量化语音识别中的基准优化（benchmaxxing）现象。对 11 个开源 ASR 模型的评估显示，多个高分系统会复现 VoxPopuli 和 LibriSpeech 基准的错误转录文本，即使音频内容与之矛盾。部分模型甚至依赖声学线索识别基准来源，导致其得分高估了真实转录能力。",
+      "source": "https://huggingface.co/blog/asr-benchmark-optimization",
+      "sourceName": "Hugging Face：Blog（RSS）",
+      "date": "2026-08-21",
+      "originTitle": "测量语音识别中的基准优化：Hugging Face 新测试揭示 ASR 模型\"刷分\"现象",
+      "evaluates": [],
+      "useCases": [],
+      "limitations": []
+    },
     {
       "name": "BEAR-Bench",
       "area": "视觉感知 / 多模态",
