@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-08-24",
-  "generatedAt": "2026-08-24T08:42:47.608667Z",
+  "generatedAt": "2026-08-24T11:14:59.515443Z",
   "news": [
     {
       "title": "Accelerating aircraft IFEC diagnostics with agentic AI on AWS",
@@ -82,6 +82,35 @@ window.AI_GENERATED_DATA = {
       "aiSelected": true,
       "moduleTargets": [
         "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "SOP-Bench: A new benchmark for evaluating AI agents on real business procedures",
+      "summary": "Extendable framework enables testing agents on the full set of capabilities required to successfully complete a procedure, not isolated proxy tasks.",
+      "category": "ai-benchmark",
+      "source": "RSS · Amazon Science",
+      "date": "2026-08-21",
+      "publishedAt": "2026-08-21T23:57",
+      "collectedAt": "2026-08-24T17:58",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://www.amazon.science/blog/sop-bench-a-new-benchmark-for-evaluating-ai-agents-on-real-business-procedures",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "benchmarkDatasets",
         "topicResources"
       ],
       "sourceCount": 1
@@ -4868,71 +4897,6 @@ window.AI_GENERATED_DATA = {
         "topicResources"
       ],
       "sourceCount": 1
-    },
-    {
-      "title": "高维网络与均方误差在可能错误指定模型中的应用",
-      "summary": "在高维网络分析中，包含更多变量有助于避免遗漏重要变量及其连接。本文展示了在参数远超观测值的情况下，如何获得每个节点的保守邻域估计，确保低假阳性率。通过线性模型进行邻域估计时，若真实模型为线性，则选择效果良好；若为非线性，则需对高维度施加惩罚。研究还探讨了岭参数对均方误差的影响，揭示了在高维设置下，最小描述长度方法能有效选择邻域，降低假阳性率。",
-      "category": "ai-research",
-      "tags": [
-        "高维网络",
-        "均方误差",
-        "模型选择",
-        "机器学习",
-        "统计分析"
-      ],
-      "keyPoints": [
-        "在高维设置中，邻域估计可实现低假阳性率，确保模型选择的准确性。",
-        "研究表明，岭回归参数对均方误差有显著影响，能降低测试方差。",
-        "当参数数量超过观测值时，均方误差可能出现双重下降现象，颠覆传统模型选择观念。",
-        "使用最小描述长度方法可在高维情况下实现正确的邻域选择，降低假阳性率。",
-        "邻域选择方法如Lasso、AIC和BIC在高维情况下可能导致虚假边缘的产生。"
-      ],
-      "background": "随着数据维度的增加，传统的网络分析方法面临着重要变量和连接的遗漏风险。高维网络分析通过引入更多变量，试图捕捉复杂的变量关系。本文的研究聚焦于如何在参数数量远超观测值的情况下，依然能够有效地进行邻域选择。通过对比线性与非线性模型的表现，揭示了高维数据分析中的挑战与解决方案，特别是如何通过惩罚机制来优化模型选择。",
-      "impact": "这项研究对数据科学家、统计学家和机器学习工程师具有重要意义，尤其是在处理高维数据时。通过优化邻域选择，研究者能够更准确地构建模型，减少假阳性率，从而提升模型的可靠性和有效性。此外，研究结果可能影响到决策制定过程，尤其是在需要高维数据分析的领域，如基因组学、金融分析等。",
-      "audience": [
-        "数据科学家",
-        "统计学家",
-        "机器学习工程师",
-        "高维数据分析研究人员",
-        "金融分析师"
-      ],
-      "useCases": [
-        "使用岭回归分析高维数据，优化模型选择，确保低假阳性率。",
-        "应用最小描述长度方法进行邻域选择，提升模型的准确性。",
-        "在基因组学研究中，利用高维网络分析识别关键基因及其相互作用。",
-        "在金融市场分析中，构建高维模型以捕捉复杂的市场动态。",
-        "通过机器学习算法优化高维数据的处理流程，提升分析效率。"
-      ],
-      "risks": [
-        "在高维数据分析中，API调用可能受到配额限制，需提前规划使用频率。",
-        "模型选择过程中，可能因版本不兼容导致分析结果不一致，需确保工具和库的兼容性。",
-        "使用惩罚机制时，参数设置不当可能导致模型过拟合或欠拟合，需谨慎调整。",
-        "高维数据处理需要较强的计算资源，硬件配置不足可能影响分析效率。",
-        "在商业应用中，需注意数据隐私和合规性，确保合法使用数据。"
-      ],
-      "reason": "本文提供了高维网络分析中的新见解，尤其是在模型选择和假阳性率控制方面，具有重要的实用价值。",
-      "scores": {
-        "importance": 85,
-        "novelty": 80,
-        "firsthand": 90,
-        "impact": 75,
-        "credibility": 80
-      },
-      "url": "https://arxiv.org/abs/2608.13171",
-      "source": "RSS · arXiv stat.ML",
-      "date": "2026-08-14",
-      "publishedAt": "",
-      "collectedAt": "2026-08-14T13:55",
-      "dateStatus": "collected",
-      "tier": "T1",
-      "score": 82,
-      "aiSelected": true,
-      "_style": "tutorial",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceDate": "2026-08-14",
-      "sourceCount": 1
     }
   ],
   "weeklyDigests": [
@@ -8037,6 +8001,17 @@ window.AI_GENERATED_DATA = {
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Google's Gemini 3.7 Flash Beats Rivals on Agent Benchmarks a",
+        "provider": "Startup Fortune",
+        "type": "AI 项目/工具",
+        "bestFor": "Google released Gemini 3.7 Flash on August 13, 2026, at half the price of its predecessor, and it's already beating Claude Sonnet 5 and GPT-5.6 Terra on several",
+        "description": "Google released Gemini 3.7 Flash on August 13, 2026, at half the price of its predecessor, and it's already beating Claude Sonnet 5 and GPT-5.6 Terra on several agent and coding be",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Startup Fortune",
+        "url": "https://startupfortune.com/googles-gemini-37-flash-beats-rivals-on-agent-benchmarks-at-half-the-price/"
+      },
+      {
         "name": "Anthropic 第二季度收入首次超越 OpenAI",
         "provider": "NewsData.io",
         "type": "AI 项目/工具",
@@ -8624,26 +8599,42 @@ window.AI_GENERATED_DATA = {
         "watch": "API 使用可能受到配额限制，需提前规划使用量以避免中断。",
         "sourceName": "NewsData.io:AI coding tool",
         "url": "https://www.techtimes.com/articles/322765/20260803/ai-coding-agents-proved-blind-their-own-errors-what-astra-must-fix-science.htm"
-      },
-      {
-        "name": "医疗行业 AI 采用的新规则：安全、结构与信任",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "医疗行业的 AI 采用将影响多个层面。首先，医疗机构将更加注重量化 AI 工具的实际效果，推动决策过程的透明化。其次，数据安全和合规性将成为组织选择技术工具时的重要考量，促使更多企业关注 HIPAA 和 HITRUST 等认证。此外，随着对 AI 工具的审查加剧，医疗组织将需要采取更为严谨的措施来确保数据的安全性和可追",
-        "description": "医疗行业的领导者们必须量化 AI 工具带来的直接收益，若未能实现预期，则需找出原因并加以解决。尽管 AI 在医疗领域的采用速度迅猛，但许多组织仍未能看到投资回报率，95% 的受访者未能从 AI 投资中获得可衡量的收益。",
-        "useCases": [
-          "量化 AI 工具的收益，使用数据分析软件评估投资回报率。",
-          "实施数据安全措施，采用符合 HIPAA 标准的工具以保护患者信息。",
-          "优化 AI 模型，利用结构化数据提升 AI 工具的准确性和有效性。",
-          "建立 AI 治理框架，确保新技术的合规性和安全性。",
-          "进行用户培训，提升医疗人员对 AI 工具的信任和使用效率。"
-        ],
-        "watch": "医疗数据的复杂性使得 AI 工具难以处理非结构化数据，可能导致错误的决策。",
-        "sourceName": "NewsData.io:AI coding tool",
-        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/08/03/security-structure-and-trust-the-new-rules-of-healthcare-ai-adoption/"
       }
     ],
     "ai-agents": [
+      {
+        "name": "Nvidia reportedly eyes Perplexity at a $30B+ valuation as AI",
+        "provider": "Tech Funding News",
+        "type": "AI 项目/工具",
+        "bestFor": "* Nvidia is in talks to invest in Perplexity at over $30B, per The Information.\n\n* The round would follow a $23B round in January 2026 and a $20B round in Septe",
+        "description": "* Nvidia is in talks to invest in Perplexity at over $30B, per The Information.\n\n* The round would follow a $23B round in January 2026 and a $20B round in September 2025.\n\n* Revenu",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Tech Funding News",
+        "url": "https://techfundingnews.com/nvidia-reportedly-eyes-perplexity-at-a-30b-valuation-as-ai-search-becomes-an-agent-business/"
+      },
+      {
+        "name": "As AI agents act in unexpected ways, is 'rogue AI' really he",
+        "provider": "The Express Tribune",
+        "type": "AI 项目/工具",
+        "bestFor": "The idea of machines independently handling tedious everyday tasks - from answering emails to booking flights and making dinner reservations - has long been par",
+        "description": "The idea of machines independently handling tedious everyday tasks - from answering emails to booking flights and making dinner reservations - has long been part of the vision for ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Express Tribune",
+        "url": "https://tribune.com.pk/story/2625563/as-ai-agents-act-in-unexpected-ways-is-rogue-ai-really-here"
+      },
+      {
+        "name": "iHeart To Bring AI Buying To Broadcast Radio By Year's End",
+        "provider": "Radio Ink",
+        "type": "AI 项目/工具",
+        "bestFor": "Butler/Till and iHeartMedia have completed what they call the ad industry's first agentic streaming audio media buy, with an AI agent executing a real media tra",
+        "description": "Butler/Till and iHeartMedia have completed what they call the ad industry's first agentic streaming audio media buy, with an AI agent executing a real media transaction within huma",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Radio Ink",
+        "url": "https://radioink.com/2026/08/24/iheart-to-bring-ai-buying-to-broadcast-radio-by-years-end/"
+      },
       {
         "name": "Accelerating aircraft IFEC diagnostics with agentic AI on AW",
         "provider": "RSS",
@@ -9195,48 +9186,42 @@ window.AI_GENERATED_DATA = {
         "watch": "代币价格波动可能导致预算超支，影响项目可持续性。",
         "sourceName": "CIO",
         "url": "https://www.cio.com/article/4210792/ai-inference-is-getting-cheaper-but-your-agents-are-getting-more-expensive-2.html"
-      },
-      {
-        "name": "Large AI models, terminals transform eldercare",
-        "provider": "global.chinadaily.com.cn",
-        "type": "AI 项目/工具",
-        "bestFor": "Zhang Weirong, 76, ordered food by speaking to his desktop device supported by an AI agent this morning as usual, with the voice request transmitted to the comm",
-        "description": "Zhang Weirong, 76, ordered food by speaking to his desktop device supported by an AI agent this morning as usual, with the voice request transmitted to the community canteens, allo",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "global.chinadaily.com.cn",
-        "url": "https://global.chinadaily.com.cn/a/202608/18/WS6a83bf8aa3106bc57421c100.html"
-      },
-      {
-        "name": "Agentao：工具使用 LLM 代理的受控本地优先运行时",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Agentao 的推出可能会吸引希望在本地环境中使用 LLM 代理的开发者和企业，尤其是在需要高安全性和可审计性的场景中。它的治理框架能够帮助用户更好地管理代理的行为，降低潜在风险。此外，随着代码的公开，开发者可以根据自身需求进行定制和扩展，推动创新和应用的多样性。然而，Agentao 仍需在实际应用中验证其有效性和安",
-        "description": "Agentao 是一种新型的本地优先运行时，旨在为工具使用的 LLM 代理提供治理框架。尽管其设计增强了代理的可控性和可审计性，但仍存在权限过度、审计能力不足等风险。",
-        "useCases": [
-          "开发本地 LLM 代理，利用 Agentao 的权限管理功能，确保安全性。",
-          "在企业环境中实施 Agentao，监控代理行为以满足合规要求。",
-          "利用 Agentao 的插件系统，扩展 LLM 代理的功能以适应特定业务需求。",
-          "进行 Agentao 框架的测试与分析，评估其在不同场景下的表现。",
-          "在教育领域使用 Agentao，帮助学生理解 LLM 代理的工作原理和安全性。"
-        ],
-        "watch": "Agentao 的治理框架虽然增强了安全性，但仍可能存在权限过度的问题，导致代理执行不当。",
-        "sourceName": "RSS · arXiv cs.AI",
-        "url": "https://arxiv.org/abs/2608.13574"
-      },
-      {
-        "name": "Adcore Inc (ADCOF) (Q2 2026) Earnings Call Highlights: AI Ag",
-        "provider": "Yahoo! Finance",
-        "type": "AI 项目/工具",
-        "bestFor": "This article first appeared on GuruFocus.\n\n* Revenue: $7.2 million in Q2 2026, a 10% increase year-over-year from $6.5 million.\n\n* Gross Profit: $3.7 million in",
-        "description": "This article first appeared on GuruFocus.\n\n* Revenue: $7.2 million in Q2 2026, a 10% increase year-over-year from $6.5 million.\n\n* Gross Profit: $3.7 million in Q2 2026, up 19% fro",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Yahoo! Finance",
-        "url": "https://ca.finance.yahoo.com/news/adcore-inc-adcof-q2-2026-010310461.html"
       }
     ],
     "ai-models": [
+      {
+        "name": "Tenable advances exposure management with coverage across ev",
+        "provider": "TahawulTech.com",
+        "type": "AI 项目/工具",
+        "bestFor": "Tenable® Holdings, Inc., the exposure management company, recently announced enhanced AI security capabilities within the Tenable One Exposure Management Platfo",
+        "description": "Tenable® Holdings, Inc., the exposure management company, recently announced enhanced AI security capabilities within the Tenable One Exposure Management Platform.\n\nTenable One AI ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "TahawulTech.com",
+        "url": "https://www.tahawultech.com/news/tenable-advances-exposure-management-with-coverage-across-every-major-ai-platform-and-developer-tool/"
+      },
+      {
+        "name": "We asked AI to predict the NFL season last year. Here's how ",
+        "provider": "Yahoo Sports Canada",
+        "type": "AI 项目/工具",
+        "bestFor": "Turns out, the robots don't have all the answers.\n\nThe robots, like humans, can't see the future and tell us what is going to happen before it does. Even as the",
+        "description": "Turns out, the robots don't have all the answers.\n\nThe robots, like humans, can't see the future and tell us what is going to happen before it does. Even as the robot rebellion see",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Yahoo Sports Canada",
+        "url": "https://ca.sports.yahoo.com/news/asked-ai-predict-nfl-season-100703370.html"
+      },
+      {
+        "name": "We asked AI to predict the NFL season last year. Here's how ",
+        "provider": "Yahoo Sports",
+        "type": "AI 项目/工具",
+        "bestFor": "Turns out, the robots don't have all the answers.\n\nThe robots, like humans, can't see the future and tell us what is going to happen before it does. Even as the",
+        "description": "Turns out, the robots don't have all the answers.\n\nThe robots, like humans, can't see the future and tell us what is going to happen before it does. Even as the robot rebellion see",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Yahoo Sports",
+        "url": "https://sports.yahoo.com/articles/asked-ai-predict-nfl-season-100703370.html"
+      },
       {
         "name": "NUS Libraries launches AI Sense Maker, a conversational plat",
         "provider": "Frontier Enterprise",
@@ -9733,53 +9718,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Counter Punch",
         "url": "https://www.counterpunch.org/2026/08/17/israeli-lie-bots-the-politics-of-climate-change-and-centrists-elected-donald-trump-twice/"
-      },
-      {
-        "name": "微软 Logic Apps 实现新一轮集成升级",
-        "provider": "Consultancy.uk",
-        "type": "AI 项目/工具",
-        "bestFor": "此次更新将使得更多企业能够轻松接入 AI 能力，尤其是那些希望将 AI 嵌入到现有业务流程中的组织。通过简化自动化和数据处理，企业能够更快地响应市场变化，提升运营效率。此外，开发者在使用 Logic Apps 时将获得更高的灵活性和效率，推动企业数字化转型的进程。",
-        "description": "在 Integrate 2026 大会上，微软宣布了 Logic Apps 的一系列重要更新，标志着该平台向企业 AI 和自动化的核心迈进。新推出的 Logic Apps Automation 旨在简化企业自动化的开发与运营，同时推出的知识即服务功能使得企业数据准备更加高效。通过直接在 Logic Apps 工作流中调用 Azure AI Foundry 代理，企业能够将 AI 能力嵌入到业务流程中。",
-        "useCases": [
-          "简化企业自动化流程，使用 Logic Apps Automation 提高效率。",
-          "通过知识即服务功能，快速准备数据供 AI 应用使用。",
-          "在业务流程中嵌入 Azure AI Foundry 代理，提升决策智能。"
-        ],
-        "watch": "API 价格波动可能影响企业的长期成本预算，需谨慎评估。",
-        "sourceName": "Consultancy.uk",
-        "url": "https://www.consultancy.uk/news/45359/new-levels-of-integration-with-microsofts-logic-apps"
-      },
-      {
-        "name": "DeepSeek API 价格大幅上涨，结束低价时代",
-        "provider": "Startup Fortune",
-        "type": "AI 项目/工具",
-        "bestFor": "这一价格上涨对开发者的影响显著，尤其是那些依赖 DeepSeek 低价服务的团队。开发者需要重新评估其产品的成本结构，可能需要将批处理任务安排在非高峰时段，或考虑使用其他竞争对手的服务。此外，DeepSeek 的定价调整可能会促使整个行业重新审视 AI 基础设施的成本，影响未来的投资决策。",
-        "description": "我注意到，DeepSeek 最近将其 V4 模型的 API 价格提高了多达 11 倍，新的定价于 2026 年 8 月 16 日生效。这一举措标志着中国 AI 领域超低价时代的结束，迫使开发者重新考虑成本和使用策略。随着 DeepSeek 计划 IPO，这一变化引发了行业的广泛关注。",
-        "useCases": [
-          "调整批处理任务的时间，利用 DeepSeek 的非高峰时段以降低成本。",
-          "重新评估与 DeepSeek 合作的产品定价策略，以适应新的 API 费用。",
-          "对比 DeepSeek 与其他 AI 服务提供商的定价，寻找更具性价比的解决方案。",
-          "分析 DeepSeek 的新定价对市场竞争的影响，制定相应的商业策略。",
-          "与团队讨论如何优化使用 DeepSeek 的资源，以降低运营成本。"
-        ],
-        "watch": "API 价格大幅上涨可能导致开发者面临预算压力，影响项目的可持续性。",
-        "sourceName": "Startup Fortune",
-        "url": "https://startupfortune.com/deepseek-raises-api-prices-up-to-11-fold-just-months-before-a-rumored-ipo/"
-      },
-      {
-        "name": "Google Gemini 允许用户关闭可见水印",
-        "provider": "TechRadar",
-        "type": "AI 项目/工具",
-        "bestFor": "这一变更可能会影响内容创作者的决策，尤其是在需要展示作品的场合。关闭可见水印将使得用户在分享作品时能够提供更干净的视觉效果，可能吸引更多用户使用 Gemini 进行创作。然而，隐形水印的存在仍然确保了内容的来源可追溯，避免了潜在的版权问题。内容创作者、设计师和视频制作人等群体将受益于这一灵活性，但也需警惕在分享时可能引",
-        "description": "Google Gemini 现已允许用户选择关闭其生成内容上的可见水印，此变更适用于图像、视频和音乐。尽管可见水印是可选的，但嵌入的隐形水印仍然存在，确保内容仍被标识为 AI 生成。",
-        "useCases": [
-          "创建无水印的 AI 生成图像以提升视觉效果。",
-          "制作视频时关闭水印以保持专业外观。",
-          "生成音乐并分享时避免水印干扰听众体验。"
-        ],
-        "watch": "在某些国家，关闭水印可能违反法律规定，导致法律风险。",
-        "sourceName": "TechRadar",
-        "url": "https://www.techradar.com/ai-platforms-assistants/gemini/gemini-now-lets-you-turn-off-the-visible-watermark-on-your-ai-creations-heres-how-to-do-it-and-how-your-content-is-still-flagged-as-ai"
       }
     ],
     "ai-business": [
@@ -10367,6 +10305,17 @@ window.AI_GENERATED_DATA = {
       }
     ],
     "ai-benchmark": [
+      {
+        "name": "SOP-Bench: A new benchmark for evaluating AI agents on real ",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Extendable framework enables testing agents on the full set of capabilities required to successfully complete a procedure, not isolated proxy tasks.",
+        "description": "Extendable framework enables testing agents on the full set of capabilities required to successfully complete a procedure, not isolated proxy tasks.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Amazon Science",
+        "url": "https://www.amazon.science/blog/sop-bench-a-new-benchmark-for-evaluating-ai-agents-on-real-business-procedures"
+      },
       {
         "name": "谷歌发布 Gemini 3.7 Flash，低价优惠却有时限",
         "provider": "Memeburn",
@@ -10966,21 +10915,6 @@ window.AI_GENERATED_DATA = {
         "watch": "初期评估数据集数量有限，可能导致性能预测不准确，需谨慎解读早期结果。",
         "sourceName": "NewsAPI:large language model",
         "url": "https://www.pymnts.com/news/artificial-intelligence/2026/nist-launches-ai-model-evaluation-program-benchmark-performance-blind-test-data/"
-      },
-      {
-        "name": "Samaya AI发布FrontierFinance，成为投资工作流程AI代理的新基准",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "FrontierFinance的推出将为投资机构提供更为精准的AI工具，帮助投资者在复杂的市场环境中做出更明智的决策。通过提高AI在投资流程中的表现，Samaya AI将可能改变金融行业对AI技术的应用方式，推动更多机构采用高效的AI解决方案，进而提升整体投资效率。",
-        "description": "Samaya AI近日推出FrontierFinance，这是一个针对投资工作流程中AI代理性能的新公开基准。该基准评估了多种前沿模型，包括Samaya自有的AI系统，结果显示Samaya的系统在准确性和成本效益上均优于其他模型。FrontierFinance涵盖220个多样化查询，旨在全面评估AI在投资过程中的各个阶段的能力。",
-        "useCases": [
-          "使用FrontierFinance基准评估AI代理在投资研究中的表现，优化投资决策流程。",
-          "通过Samaya的AI系统进行公司研究，快速获取高质量的财务数据和市场分析。",
-          "利用FrontierFinance的多样化查询，提升投资组合监控的准确性和效率。"
-        ],
-        "watch": "在使用FrontierFinance时，需注意API调用的费用和配额限制，避免超出预算。",
-        "sourceName": "NewsAPI:AI agent",
-        "url": "https://www.prnewswire.com/news-releases/samaya-ai-releases-frontierfinance-a-new-public-benchmark-for-ai-agents-in-investment-workflows-samayas-ai-system-outperforms-claude-fable-5-and-gpt-5-6-sol-302837028.html"
       }
     ],
     "ai-image-video": [
@@ -13693,7 +13627,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-08-24",
-    "generatedAt": "2026-08-24T08:42:47.583667Z",
+    "generatedAt": "2026-08-24T11:14:59.490477Z",
     "total": 24,
     "sections": [
       {
@@ -13812,17 +13746,6 @@ window.AI_GENERATED_DATA = {
             "reason": "这个案例展示了如何利用多代理 AI 系统来应对复杂的客户支持需求，值得关注。"
           },
           {
-            "title": "Axonius 如何在 Bedrock AgentCore 上构建安全的多租户 AI 代理",
-            "summary": "Axonius 利用 Amazon Bedrock AgentCore 部署了完全隔离的多租户 AI 代理，成功管理数百个客户环境，避免了从零构建计算隔离、身份验证和可观察性基础设施的复杂性。本文将介绍其架构选择及实施策略。",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/how-axonius-built-secure-multi-tenant-ai-agents-on-bedrock-agentcore/",
-            "score": 82,
-            "sourceCount": 1,
-            "date": "2026-08-19",
-            "publishedAt": "2026-08-19T00:27",
-            "reason": "Axonius 的成功案例展示了如何在复杂环境中有效部署多租户 AI 代理，值得关注和学习。"
-          },
-          {
             "title": "Accelerating aircraft IFEC diagnostics with agentic AI on AWS",
             "summary": "Panasonic Avionics worked with AWS and the AWS Generative AI Innovation Center to build an agentic AI system on Amazon Bedrock, Amazon SageM",
             "source": "RSS · AWS Machine Learning",
@@ -13933,6 +13856,17 @@ window.AI_GENERATED_DATA = {
         "category": "ai-benchmark",
         "label": "评测榜单",
         "items": [
+          {
+            "title": "SOP-Bench: A new benchmark for evaluating AI agents on real business procedures",
+            "summary": "Extendable framework enables testing agents on the full set of capabilities required to successfully complete a procedure, not isolated prox",
+            "source": "RSS · Amazon Science",
+            "url": "https://www.amazon.science/blog/sop-bench-a-new-benchmark-for-evaluating-ai-agents-on-real-business-procedures",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-21",
+            "publishedAt": "2026-08-21T23:57",
+            "reason": ""
+          },
           {
             "title": "Broadening access to Skala creates a faster path to predictive DFT",
             "summary": "Skala 1.1, the updated deep-learning exchange-correlation functional from Microsoft Research, provides greater accuracy, expanded accessibil",
@@ -26895,6 +26829,18 @@ window.AI_GENERATED_DATA = {
     ]
   },
   "benchmarkDatasets": [
+    {
+      "name": "SOP-Bench",
+      "area": "Agent / 工具调用",
+      "note": "Extendable framework enables testing agents on the full set of capabilities required to successfully complete a procedure, not isolated proxy tasks.",
+      "source": "https://www.amazon.science/blog/sop-bench-a-new-benchmark-for-evaluating-ai-agents-on-real-business-procedures",
+      "sourceName": "RSS · Amazon Science",
+      "date": "2026-08-21",
+      "originTitle": "SOP-Bench: A new benchmark for evaluating AI agents on real business procedures",
+      "evaluates": [],
+      "useCases": [],
+      "limitations": []
+    },
     {
       "name": "asr-benchmark",
       "area": "语音 / 音频",
