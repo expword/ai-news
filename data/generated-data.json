@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-08-24",
-  "generatedAt": "2026-08-24T11:14:59.515443Z",
+  "generatedAt": "2026-08-24T13:45:57.586782Z",
   "news": [
     {
       "title": "Accelerating aircraft IFEC diagnostics with agentic AI on AWS",
@@ -8001,6 +8001,17 @@
   "topicResources": {
     "ai-coding": [
       {
+        "name": "AI agents initiate 3.3M USDC transfers over x402 on Solana i",
+        "provider": "Crypto Briefing",
+        "type": "AI 项目/工具",
+        "bestFor": "The long-forgotten HTTP 402 status code is finally getting its moment as machine-to-machine payments explode on Solana\n\nBack in 1997, the architects of the inte",
+        "description": "The long-forgotten HTTP 402 status code is finally getting its moment as machine-to-machine payments explode on Solana\n\nBack in 1997, the architects of the internet reserved HTTP s",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Crypto Briefing",
+        "url": "https://cryptobriefing.com/ai-agents-x402-usdc-solana-transfers/"
+      },
+      {
         "name": "Google's Gemini 3.7 Flash Beats Rivals on Agent Benchmarks a",
         "provider": "Startup Fortune",
         "type": "AI 项目/工具",
@@ -8584,24 +8595,53 @@
         "watch": "Ozone作为GitHub应用，可能会受到GitHub平台的变动影响，需关注其兼容性。",
         "sourceName": "NewsData.io:AI coding tool",
         "url": "https://us.headtopics.com/news/cecuro-launches-ozone-ai-security-that-never-stops-watching-86222543"
-      },
-      {
-        "name": "AI 编码代理无法识别自身错误，Astra 需解决关键问题",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "如果 OpenAI 能够解决这一问题，将极大提升 AI 在科学研究中的应用潜力，推动更多领域的自动化进程。科学家和研究人员将能够依赖 AI 进行更复杂的实验和数据分析，减少人工干预，提高效率。此外，这一进展可能会引发更多企业和机构对 AI 科学计算的投资，形成良性循环。",
-        "description": "OpenAI 的 AI 编码代理在八个部署中实现了 60 倍的基因组加速，但它们无法判断失败的测试是代码错误还是测试错误。这一能力缺口是 OpenAI Astra 在实现无需持续人工监督的自主科学计算前必须解决的关键问题。",
-        "useCases": [
-          "使用 OpenAI 的 AI 编码代理进行基因组数据分析，期望在 1 小时内完成传统方法需 60 小时的工作。",
-          "在科研项目中集成 AI 编码代理，自动化数据处理流程，减少人工干预，提高实验效率。",
-          "利用 AI 编码代理进行代码审查，期望在 30 分钟内识别出潜在的代码错误。"
-        ],
-        "watch": "API 使用可能受到配额限制，需提前规划使用量以避免中断。",
-        "sourceName": "NewsData.io:AI coding tool",
-        "url": "https://www.techtimes.com/articles/322765/20260803/ai-coding-agents-proved-blind-their-own-errors-what-astra-must-fix-science.htm"
       }
     ],
     "ai-agents": [
+      {
+        "name": "Caddi Launches an AI Agent That Builds and Governs a Firm's ",
+        "provider": "CNHI News",
+        "type": "AI 项目/工具",
+        "bestFor": "The agent discovers a firm's repetitive work, is trained on each process like a new hire, and governs every agent it builds under full audit.\n\nSEATTLE, Aug. 24,",
+        "description": "The agent discovers a firm's repetitive work, is trained on each process like a new hire, and governs every agent it builds under full audit.\n\nSEATTLE, Aug. 24, 2026 /PRNewswire/ -",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "CNHI News",
+        "url": "https://www.cnhinews.com/news/article_8a7a688a-7e97-5965-9fec-c8d62f6feb4a.html"
+      },
+      {
+        "name": "ai platform AgentSea transforms public healthcare in Singapo",
+        "provider": "The Straits Times",
+        "type": "AI 项目/工具",
+        "bestFor": "Since its May launch, over 12,000 AI agents have been created with strong data protection; new guidelines and regional collaborations ensure safe, innovative AI",
+        "description": "Since its May launch, over 12,000 AI agents have been created with strong data protection; new guidelines and regional collaborations ensure safe, innovative AI use in healthcare.\n",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Straits Times",
+        "url": "https://www.straitstimes.com/tech/new-platform-to-create-ai-agents-available-to-all-public-healthcare-professionals"
+      },
+      {
+        "name": "Anthropic's new Claude Tag update lets its Slack agent read ",
+        "provider": "VentureBeat",
+        "type": "AI 项目/工具",
+        "bestFor": "Anthropic is making a calculated bet that the biggest bottleneck in enterprise AI isn't model intelligence -- it's the fact that most people still use AI alone.",
+        "description": "Anthropic is making a calculated bet that the biggest bottleneck in enterprise AI isn't model intelligence -- it's the fact that most people still use AI alone.\n\nIn an exclusive in",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "VentureBeat",
+        "url": "https://venturebeat.com/orchestration/anthropics-new-claude-tag-update-lets-its-slack-agent-read-the-full-conversation-and-jump-in-unprompted"
+      },
+      {
+        "name": "The accountability vacuum: Agentic AI in high-stakes domains",
+        "provider": "aihub.org",
+        "type": "AI 项目/工具",
+        "bestFor": "This cross-post from AI Matters is co-authored by Prof. Larry Medsker and Sumit Virmani. It outlines the current accountability vacuum faced by the deployment o",
+        "description": "This cross-post from AI Matters is co-authored by Prof. Larry Medsker and Sumit Virmani. It outlines the current accountability vacuum faced by the deployment of agentic AI systems",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "aihub.org",
+        "url": "https://aihub.org/2026/08/24/the-accountability-vacuum-agentic-ai-in-high-stakes-domains/"
+      },
       {
         "name": "Nvidia reportedly eyes Perplexity at a $30B+ valuation as AI",
         "provider": "Tech Funding News",
@@ -9126,69 +9166,31 @@
         "watch": "TDD-Agent的有效性依赖于生成测试的质量，若测试不完整，可能导致错误反馈。",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2608.16742v1"
-      },
-      {
-        "name": "BNB Agent Studio 推出 AI 股票分析师，100,000 USDC 奖池待争夺",
-        "provider": "blockchain.news",
-        "type": "AI 项目/工具",
-        "bestFor": "这一创新工具将吸引希望在 24/7 市场中获利的交易者，尤其是那些对 AI 和区块链技术感兴趣的投资者。通过提供个性化的投资建议，AI 股票分析师可能会改变用户的决策方式，推动更多人参与到 bStocks 的交易中。此外，竞赛的激励机制可能会促进用户对 BNB 代币的需求，进一步推动其在市场中的流通。",
-        "description": "BNB Chain 的 BNB Agent Studio 新推出 AI 股票分析师，专为 bStocks（代币化美国股票）设计，支持全天候交易。为庆祝这一功能的上线，平台举办了一场交易竞赛，奖池高达 100,000 USDC，活动时间为 2026 年 8 月 17 日至 9 月 1 日。AI 股票分析师提供买入、持有或卖出建议，以及技术和基本面分析，旨在满足不断变化的市场需求。",
-        "useCases": [
-          "创建 AI 股票分析师，利用 BNB Agent Studio 进行市场分析。",
-          "参与交易竞赛，测试 AI 分析师在实际交易中的表现。",
-          "根据 AI 提供的建议调整投资组合，优化交易策略。",
-          "使用开源参考实现，定制 AI 代理的逻辑和数据源。",
-          "结合现有投资组合数据，获取个性化的投资建议。"
-        ],
-        "watch": "AI 分析师的建议并不保证盈利，用户仍需承担投资风险。",
-        "sourceName": "blockchain.news",
-        "url": "https://blockchain.news/news/bnb-agent-studio-ai-stock-analyst-competition"
-      },
-      {
-        "name": "Agentic AI: Transforming Supply Chains Amid Geopolitical Dis",
-        "provider": "The Pioneer",
-        "type": "AI 项目/工具",
-        "bestFor": "As geopolitical disruptions multiply, agentic AI could help supply chains anticipate disruptions and act faster\n\nThe disruption in the Strait of Hormuz is a sta",
-        "description": "As geopolitical disruptions multiply, agentic AI could help supply chains anticipate disruptions and act faster\n\nThe disruption in the Strait of Hormuz is a stark reminder of how q",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Pioneer",
-        "url": "https://dailypioneer.com/news/from-prediction-to-action-ai-rewrites-supply-chains"
-      },
-      {
-        "name": "OpenAI 在 2025 年推出 Instant Checkout 功能后缩减电商计划",
-        "provider": "Economic Times",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenAI 的决策可能会影响未来电商平台的 AI 应用方向，尤其是在用户信任和购买习惯的建立上。电商公司可能会更加专注于提升用户体验，确保消费者在使用 AI 技术时感到安全和可靠。此外，随着 AI 驱动的购物助手的兴起，预计将会有更多电商平台探索如何有效整合 AI 技术，以提升产品发现和购物体验。",
-        "description": "2025 年 9 月，OpenAI 推出了 Instant Checkout 功能，允许用户在 ChatGPT 平台上直接购买 Etsy、Walmart 和 Shopify 的商品。然而，六个月后，由于用户未能有效采用该功能，OpenAI 决定缩减电商计划，转而专注于产品搜索与发现。",
-        "useCases": [
-          "提升产品搜索效率，使用 ChatGPT 进行商品推荐。",
-          "分析用户行为，利用 AI 平台优化购物体验。",
-          "开发对话式购物助手，增强用户互动。"
-        ],
-        "watch": "用户对 AI 平台的信任不足，可能导致购买转化率低。",
-        "sourceName": "Economic Times",
-        "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/high-tech-but-low-trust-agentic-tech-meets-old-school-scepticism-at-ai-checkout/articleshow/133309919.cms"
-      },
-      {
-        "name": "AI 推理成本下降，但智能代理费用却在飙升",
-        "provider": "CIO",
-        "type": "AI 项目/工具",
-        "bestFor": "这一趋势将影响到多个行业的决策，尤其是那些依赖 AI 代理进行自动化和数据处理的企业。企业在选择 AI 解决方案时，可能会低估长期的推理成本，从而影响预算和资源分配。此外，随着智能代理的普及，开发者需要重新评估其技术栈和成本结构，以适应不断变化的市场环境。",
-        "description": "我注意到，虽然大型语言模型（LLM）的代币成本正在下降，但整体 AI 工作负载的成本却在上升。根据 Gartner 的研究，预计到 2030 年，代币成本将下降 95%，但智能代理的推理成本在未来两年内将增加超过五倍。这种现象被称为“推理悖论”，即创新速度超过了成本曲线，导致市场对代币经济的误解。",
-        "useCases": [
-          "评估 AI 代理的成本效益，优化预算分配。",
-          "开发更复杂的 AI 应用，提升业务自动化水平。",
-          "分析推理成本与代币使用之间的关系，制定合理的技术策略。",
-          "在客户服务中应用智能代理，提升响应速度和准确性。",
-          "监控 AI 代理的性能，确保资源的高效利用。"
-        ],
-        "watch": "代币价格波动可能导致预算超支，影响项目可持续性。",
-        "sourceName": "CIO",
-        "url": "https://www.cio.com/article/4210792/ai-inference-is-getting-cheaper-but-your-agents-are-getting-more-expensive-2.html"
       }
     ],
     "ai-models": [
+      {
+        "name": "AIxC's RoboShare Secures New Short- and Long-Term Orders, Pl",
+        "provider": "Barchart.com",
+        "type": "AI 项目/工具",
+        "bestFor": "All information and data in this article is solely for informational purposes. For more information please view the Barchart Disclosure Policy here\n\nInitial poo",
+        "description": "All information and data in this article is solely for informational purposes. For more information please view the Barchart Disclosure Policy here\n\nInitial pool of more than 80 ro",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Barchart.com",
+        "url": "https://www.barchart.com/story/news/4000661/aixc-s-roboshare-secures-new-short-and-long-term-orders-plans-to-build-north-america-s-largest-and-most-diverse-robot-sharing-platform"
+      },
+      {
+        "name": "Ira Skills Focuses on Knowledge-to-Income Approach to Skill ",
+        "provider": "Sri Lanka Source",
+        "type": "AI 项目/工具",
+        "bestFor": "VMPL\n\nMumbai (Maharashtra) [India], August 24: Ira Skills, an education and skill-development company founded by entrepreneur and Active Income Coach Deven U Pa",
+        "description": "VMPL\n\nMumbai (Maharashtra) [India], August 24: Ira Skills, an education and skill-development company founded by entrepreneur and Active Income Coach Deven U Pandey, is focusing on",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Sri Lanka Source",
+        "url": "https://www.srilankasource.com/news/279261961/ira-skills-focuses-on-knowledge-to-income-approach-to-skill-development-and-career-growth"
+      },
       {
         "name": "Tenable advances exposure management with coverage across ev",
         "provider": "TahawulTech.com",
@@ -9692,32 +9694,6 @@
         "watch": "可能面临 API 使用费用的增加，影响开发者的成本预算。",
         "sourceName": "RSS · Google AI Blog",
         "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/"
-      },
-      {
-        "name": "阿里巴巴的 Qwen 模型下载量突破 30 亿，超越 Meta 和 Google",
-        "provider": "Dealroom.co",
-        "type": "AI 项目/工具",
-        "bestFor": "Qwen 模型的成功将吸引更多开发者参与其生态系统，推动更多衍生产品的开发，从而吸引新用户。阿里巴巴通过云平台的分发策略，进一步增强了这一循环，尤其是在东南亚和非洲市场。随着中美 AI 竞争的加剧，下载量成为衡量影响力的重要指标，促使美国科技巨头如 Meta 和 Nvidia 也加快推出新开放模型，以应对中国开发者的挑",
-        "description": "阿里巴巴的开放权重 Qwen 模型在过去六个月内全球下载量超过 30 亿，成为全球下载量最高的 AI 模型系列，超越了 Meta 和 Google。根据 Hugging Face 的报告，Google 在 2026 年的下载量为 4.18 亿，Meta 为 2.27 亿，差距明显。",
-        "useCases": [
-          "下载 Qwen 模型，快速构建 AI 应用程序，提升产品竞争力。",
-          "利用 Qwen 的开源模型，定制化开发特定行业解决方案，满足市场需求。",
-          "通过 Qwen 的衍生模型，探索新业务模式，拓展市场份额。"
-        ],
-        "watch": "Qwen 模型的开源可能导致知识产权问题，需谨慎处理商用授权。",
-        "sourceName": "Dealroom.co",
-        "url": "https://app.dealroom.co/news/note/alibaba-s-qwen-hits-3b-downloads-passing-meta-and-google-in-open-ai"
-      },
-      {
-        "name": "Israeli Lie-Bots; the Politics of Climate Change; and Centri",
-        "provider": "Counter Punch",
-        "type": "AI 项目/工具",
-        "bestFor": "Why Taming the Power of Capital is Needed for Environmental Resolution\n\nIn 2017 I wrote an article arguing that neoliberal climate policies were wholly inadequa",
-        "description": "Why Taming the Power of Capital is Needed for Environmental Resolution\n\nIn 2017 I wrote an article arguing that neoliberal climate policies were wholly inadequate to address the sc",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Counter Punch",
-        "url": "https://www.counterpunch.org/2026/08/17/israeli-lie-bots-the-politics-of-climate-change-and-centrists-elected-donald-trump-twice/"
       }
     ],
     "ai-business": [
@@ -13627,7 +13603,7 @@
   ],
   "dailyReport": {
     "date": "2026-08-24",
-    "generatedAt": "2026-08-24T11:14:59.490477Z",
+    "generatedAt": "2026-08-24T13:45:57.561782Z",
     "total": 24,
     "sections": [
       {
