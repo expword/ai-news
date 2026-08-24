@@ -1,7 +1,89 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-08-25",
-  "generatedAt": "2026-08-24T18:42:15.804437Z",
+  "generatedAt": "2026-08-24T21:01:12.555061Z",
   "news": [
+    {
+      "title": "MetaRoCE：为 AI 规模以太网打造的全新 RDMA 传输协议",
+      "summary": "Meta 设计并开源了 MetaRoCE，一个专为 AI 工作负载在通用以太网上打造的 RDMA 传输协议，已通过 Open Compute Project（OCP）发布规范、参考软件实现和合规测试套件。该协议将智能移至端点，原生支持乱序交付、多路径、无损容忍和双向拥塞控制，无需 PFC，可在百万 GPU 规模下提供高吞吐、低尾延迟。现有 RDMA Verb",
+      "category": "ai-models",
+      "source": "Meta Engineering Blog（RSS）",
+      "date": "2026-08-25",
+      "publishedAt": "2026-08-25T02:02",
+      "collectedAt": "2026-08-25T05:01",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://engineering.fb.com/2026/08/24/networking-traffic/metaroce-rdma-transport-ai-ethernet",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Democratizing institutional knowledge: Building an AI-powered knowledge management system with AWS",
+      "summary": "Learn how to build a customizable, smart-caching knowledge management system on AWS that captures and delivers institutional (tribal) knowledge through a voice-first AI avatar. The",
+      "category": "ai-models",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-08-25",
+      "publishedAt": "2026-08-25T02:59",
+      "collectedAt": "2026-08-25T03:51",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/democratizing-institutional-knowledge-building-an-ai-powered-knowledge-management-system-with-aws/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Introducing new Ray capabilities on SageMaker HyperPod",
+      "summary": "Amazon SageMaker HyperPod now offers managed Ray support on Amazon EKS. Create and monitor Ray clusters, connect JupyterLab and Code Editor notebooks to live clusters, get out-of-t",
+      "category": "ai-coding",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-08-25",
+      "publishedAt": "2026-08-25T03:32",
+      "collectedAt": "2026-08-25T03:51",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-new-ray-capabilities-on-sagemaker-hyperpod/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "MetaRoCE: A New RDMA Transport Built for AI-Scale Ethernet",
       "summary": "Training and serving frontier AI models depends on fast, reliable networks that move data between GPUs without wasting compute cycles. To meet this challenge at scale, Meta designe",
@@ -109,6 +191,33 @@ window.AI_GENERATED_DATA = {
       "moduleTargets": [
         "news",
         "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
+      "summary": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
+      "category": "ai-models",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-08-24",
+      "publishedAt": "2026-08-24T20:00",
+      "collectedAt": "2026-08-25T03:51",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/gpt-5-6-in-kiro",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
       ],
       "sourceCount": 1
     },
@@ -4697,249 +4806,6 @@ window.AI_GENERATED_DATA = {
       ],
       "sourceDate": "2026-08-15",
       "sourceCount": 1
-    },
-    {
-      "title": "亚马逊 Nova Forge 的多轮强化学习自定义奖励函数设计",
-      "summary": "在多轮强化学习中，自定义奖励函数直接决定模型的学习效果。本文探讨如何为亚马逊 Nova Forge 设计复合型多轮奖励，确保模型生成的代码安全执行，并通过各组件的监控避免潜在的奖励崩溃问题。",
-      "category": "ai-coding",
-      "tags": [
-        "强化学习",
-        "亚马逊",
-        "Nova Forge",
-        "自定义奖励",
-        "多轮对话"
-      ],
-      "keyPoints": [
-        "多轮强化学习中，错误的奖励函数可能导致模型学习错误的行为，尽管训练曲线看似正常。",
-        "亚马逊 Nova Forge 提供的 BYOO 功能允许用户在自己的环境中运行奖励逻辑，简化了多轮训练的复杂性。",
-        "强化微调（RFT）通过模型自身输出的评估信号进行学习，区别于需要标注示例的监督微调（SFT）。",
-        "RFT 优化的是整个过程的累积奖励，而非单一响应的评分，适用于需要多步骤操作的智能体。",
-        "通过监控奖励函数的各个组件，可以确保模型学习的可靠性，避免无效信号的干扰。"
-      ],
-      "background": "多轮强化学习是当前人工智能领域的重要研究方向，尤其在对话系统和智能代理的应用中。亚马逊 Nova Forge 作为一款新兴的 AI 开发平台，提供了灵活的自定义选项，允许开发者根据特定需求设计奖励函数。与传统的监督学习方法相比，RFT 提供了更高的灵活性和效率，能够在没有大量标注数据的情况下，通过模型自我反馈进行学习。这种方法在多轮对话和复杂任务中展现出更强的适应性，尤其是在需要连续决策的场景中。通过对比以往的强化学习方法，Nova Forge 的创新设计为开发者提供了更为高效的工具。",
-      "impact": "亚马逊 Nova Forge 的多轮强化学习自定义奖励函数将为开发者提供更大的灵活性，尤其是在对话系统和智能代理的开发中。通过优化奖励机制，团队能够更有效地训练模型，提升用户交互体验。此外，采用 RFT 方法的团队将能够减少对标注数据的依赖，加速开发周期，降低成本。随着越来越多的企业采用此技术，市场竞争将更加激烈，推动整个行业向更高效的 AI 解决方案发展。",
-      "audience": [
-        "AI 研究人员",
-        "对话系统开发者",
-        "机器学习工程师",
-        "数据科学家",
-        "产品经理"
-      ],
-      "useCases": [
-        "设计多轮对话系统，提升用户交互的自然性和智能性。",
-        "开发智能代理，优化任务执行效率，减少人工干预。",
-        "利用 RFT 方法进行模型训练，降低对标注数据的需求。",
-        "在复杂决策场景中，应用自定义奖励函数，提升模型的适应性。",
-        "监控奖励函数的有效性，确保模型学习的可靠性。"
-      ],
-      "risks": [
-        "自定义奖励函数设计不当可能导致模型学习错误行为，影响最终效果。",
-        "在使用 BYOO 功能时，环境配置不当可能导致执行错误或安全隐患。",
-        "RFT 方法对模型输出的依赖性较强，若输出质量不高，可能影响学习效果。",
-        "API 价格和使用配额可能限制小型团队的开发能力，增加成本。",
-        "多轮对话系统的复杂性可能导致调试和维护成本上升。"
-      ],
-      "reason": "本文深入探讨亚马逊 Nova Forge 的多轮强化学习自定义奖励函数设计，提供实用的指导和潜在的风险分析，适合希望提升 AI 模型性能的开发者参考。",
-      "scores": {
-        "importance": 85,
-        "novelty": 75,
-        "firsthand": 90,
-        "impact": 80,
-        "credibility": 85
-      },
-      "url": "https://aws.amazon.com/blogs/machine-learning/custom-reward-functions-for-multi-turn-reinforcement-learning-with-amazon-nova-forge/",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-08-15",
-      "publishedAt": "2026-08-15T00:02",
-      "collectedAt": "2026-08-15T00:25",
-      "dateStatus": "verified",
-      "tier": "T1",
-      "score": 82,
-      "aiSelected": true,
-      "_style": "analyst",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "基于 CT 的外部软组织表面估算隐性骨骼标志的三维头影测量",
-      "summary": "现有的三维面部标志方法主要定位于可见皮肤上的点，但是否可以从外部软组织几何推断 CT 定义的内部骨骼标志仍不明确。研究通过分析 240 例临床 CT 扫描，提出了一种坐标一致的表面到骨骼任务，取得了 2.97 mm 的平均径向误差。",
-      "category": "ai-research",
-      "tags": [
-        "三维头影测量",
-        "CT 扫描",
-        "骨骼标志",
-        "计算机视觉",
-        "医学影像"
-      ],
-      "keyPoints": [
-        "研究提出了一种新的三维头影测量方法，能够从 CT 派生的外部软组织表面估算隐性骨骼标志。",
-        "通过分析 240 例临床 CT 扫描，构建了一个锁定的回顾性协议，成功配对了 21 个骨骼标志和 3 个可见软组织标志。",
-        "集成的分层点云模型在骨骼标志上的平均径向误差为 2.97 mm，在深层或表面不可见标志上为 3.03 mm。",
-        "研究结果表明，患者特异性信号超越了固定人群配置或全局相似性，显示出个体化的潜力。",
-        "光学转移诊断揭示了显著的覆盖相关和全局配置成分，尽管可部署的光学推断仍未解决。"
-      ],
-      "background": "在计算机视觉领域，三维面部标志的研究主要集中在可见皮肤上，然而，如何从外部软组织几何推断内部骨骼标志一直是一个未解之谜。现有技术通常依赖于光学成像，与 CT 扫描的配准存在一定的局限性。本研究通过引入坐标一致的表面到骨骼任务，利用相同采集的 CT 派生表面，旨在克服这些限制。与以往方法相比，该研究提供了一种更为精确的骨骼标志估算方式，具有重要的临床应用潜力。",
-      "impact": "该研究的成果将对医学影像分析、面部重建和整形外科等领域产生深远影响。医生和研究人员可以利用这一方法更准确地评估患者的骨骼结构，从而改善手术规划和个性化治疗方案。此外，该技术的成功应用可能会推动相关领域的进一步研究，促进新工具和技术的开发。",
-      "audience": [
-        "医学影像分析师",
-        "整形外科医生",
-        "计算机视觉研究人员",
-        "生物医学工程师",
-        "数据科学家"
-      ],
-      "useCases": [
-        "利用新方法进行面部重建，提升手术精度和效果。",
-        "在医学影像中实现更准确的骨骼标志定位，改善诊断能力。",
-        "开发基于 CT 的个性化治疗方案，增强患者满意度。"
-      ],
-      "risks": [
-        "该技术的实施可能面临高昂的设备和软件成本，限制了其普及。",
-        "在不同患者之间的适用性可能存在差异，需进行更多的临床验证。",
-        "数据隐私和合规性问题可能影响患者数据的使用和研究进展。"
-      ],
-      "reason": "该研究为隐性骨骼标志的推断提供了新的视角，具有重要的临床应用价值和研究潜力。",
-      "scores": {
-        "importance": 80,
-        "novelty": 85,
-        "firsthand": 90,
-        "impact": 75,
-        "credibility": 80
-      },
-      "url": "https://arxiv.org/abs/2608.12537",
-      "source": "RSS · arXiv cs.CV",
-      "date": "2026-08-15",
-      "publishedAt": "",
-      "collectedAt": "2026-08-15T11:44",
-      "dateStatus": "collected",
-      "tier": "T1",
-      "score": 81,
-      "aiSelected": true,
-      "_style": "analyst",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceDate": "2026-08-15",
-      "sourceCount": 1
-    },
-    {
-      "title": "HIMEC：遥感图像变化描述的新方法",
-      "summary": "这次发布的核心点是HIMEC模型，它通过方向变化表示（DCR）和固定接口解码，提升了遥感图像变化描述的准确性。与传统方法直接依赖融合视觉特征不同，HIMEC在处理变化结构和解码器接口一致性方面进行了深入研究，展现出更好的性能。",
-      "category": "ai-research",
-      "tags": [
-        "遥感技术",
-        "图像处理",
-        "深度学习",
-        "计算机视觉",
-        "AI模型"
-      ],
-      "keyPoints": [
-        "HIMEC结合方向变化表示（DCR）与固定接口解码，提升遥感图像变化描述的准确性。",
-        "DCR将变化分为外观导向、消失导向和共享上下文流，增强了信息处理的细致度。",
-        "在LEVIR-CC数据集上，HIMEC的CIDEr得分为142.81±0.60，优于传统的直接融合特征方法。",
-        "使用固定零输入，HIMEC在训练和推理过程中保持相同的接口，简化了模型的使用。",
-        "HIMEC的源代码将在发布后公开，便于研究者和开发者使用。"
-      ],
-      "background": "HIMEC模型的提出是为了改善遥感图像变化描述（RSICC）领域的现有方法。传统的RSICC方法往往直接依赖于融合的视觉特征，导致对变化结构的理解不足。HIMEC通过引入方向变化表示（DCR），将变化信息分为不同的流进行处理，进而提升了描述的准确性和一致性。这种方法在技术上与以往的研究相比，提供了更为细致的变化分析，尤其是在处理复杂场景时的表现更为突出。",
-      "impact": "HIMEC模型的推出将对遥感图像分析领域产生深远影响，尤其是对于需要精确描述变化的应用场景，如城市规划、环境监测等。研究人员和开发者可以利用HIMEC进行更为精准的图像分析，进而改善决策过程。此外，HIMEC的源代码公开将促进学术界和工业界的合作，推动相关技术的进一步发展。",
-      "audience": [
-        "遥感图像分析师",
-        "环境监测研究员",
-        "城市规划师",
-        "计算机视觉研究者",
-        "深度学习开发者"
-      ],
-      "useCases": [
-        "分析遥感图像变化，生成准确的描述，辅助环境监测决策。",
-        "使用HIMEC模型进行城市发展变化的监测，提供数据支持。",
-        "在科研项目中应用HIMEC，提升遥感数据处理的效率和准确性。"
-      ],
-      "risks": [
-        "HIMEC模型的复杂性可能导致初学者在实现时遇到困难，需具备一定的深度学习基础。",
-        "模型的性能依赖于训练数据的质量，若数据不足或不均衡，可能影响结果的可靠性。",
-        "使用HIMEC进行商用时需关注相关的授权和使用限制，确保合规。"
-      ],
-      "reason": "HIMEC模型通过创新的方向变化表示和固定接口解码方法，显著提升了遥感图像变化描述的准确性，值得关注。",
-      "scores": {
-        "importance": 75,
-        "novelty": 80,
-        "firsthand": 90,
-        "impact": 70,
-        "credibility": 85
-      },
-      "url": "https://arxiv.org/abs/2608.12502",
-      "source": "RSS · arXiv cs.CV",
-      "date": "2026-08-15",
-      "publishedAt": "",
-      "collectedAt": "2026-08-15T11:44",
-      "dateStatus": "collected",
-      "tier": "T1",
-      "score": 78,
-      "aiSelected": true,
-      "_style": "reviewer",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceDate": "2026-08-15",
-      "sourceCount": 1
-    },
-    {
-      "title": "视觉语言模型在评估机器人图像的近端风险中的局限性",
-      "summary": "研究评估了三种开源视觉语言模型（InternVL、Qwen-VL 和 SmolVLM）在分类机器人自我视角图像中的危险等级的能力。尽管 Qwen-VL 在高危险案例的召回率上表现突出，但整体改进有限，显示出当前模型在细粒度近端推理和空间定位上的不足。",
-      "category": "ai-models",
-      "tags": [
-        "视觉语言模型",
-        "机器人技术",
-        "风险评估"
-      ],
-      "keyPoints": [
-        "研究使用三种开源视觉语言模型（InternVL、Qwen-VL 和 SmolVLM）评估机器人图像的危险等级。",
-        "模型在未经过微调的情况下，表现接近基线，微调后仅有适度改善。",
-        "Qwen-VL 在高危险案例的召回率上显著高于其他模型，显示出其在特定情况下的优势。",
-        "尽管模型能够生成安全标签，但其空间定位能力仍然不足，未能有效关注场景的相关区域。",
-        "当前的视觉语言模型在细粒度的近端推理上存在明显局限，影响其在复杂环境中的应用。"
-      ],
-      "background": "随着机器人技术的发展，安全性成为关键问题。评估机器人在与人类环境交互时的近端风险，要求模型具备视觉和上下文推理能力。研究中，三种视觉语言模型被用于分类机器人自我视角图像的危险等级，结果显示，尽管 Qwen-VL 在高危险情况下表现较好，但整体性能仍未达到理想水平。这一发现与以往的研究相似，表明现有模型在复杂环境中的应用仍需改进。",
-      "impact": "该研究的结果对机器人开发者、AI 研究人员和安全工程师具有重要意义。开发者可以利用 Qwen-VL 的优势来提升高危险场景的识别能力，但仍需注意模型的局限性。研究结果可能促使行业对视觉语言模型的进一步优化，推动更安全的机器人导航技术的发展。此外，安全标准的制定也可能受到这些研究结果的影响，从而影响未来的机器人设计和应用。",
-      "audience": [
-        "机器人开发者",
-        "AI 研究人员",
-        "安全工程师"
-      ],
-      "useCases": [
-        "利用 Qwen-VL 提高机器人在复杂环境中的危险识别能力。",
-        "开发新的安全标准，以指导机器人在与人类交互时的行为。",
-        "进行模型微调，以提升视觉语言模型在特定应用场景中的表现。"
-      ],
-      "risks": [
-        "模型在未经过微调的情况下，性能接近基线，可能导致安全隐患。",
-        "高危险场景的识别能力有限，可能导致机器人在关键时刻无法做出正确反应。",
-        "空间定位能力不足，可能导致模型生成的安全标签与实际情况不符，影响决策的准确性。"
-      ],
-      "reason": "该研究揭示了视觉语言模型在机器人安全评估中的潜力与局限，值得关注其在实际应用中的影响。",
-      "scores": {
-        "importance": 75,
-        "novelty": 70,
-        "firsthand": 90,
-        "impact": 80,
-        "credibility": 85
-      },
-      "url": "https://arxiv.org/abs/2608.12515",
-      "source": "RSS · arXiv cs.CV",
-      "date": "2026-08-15",
-      "publishedAt": "",
-      "collectedAt": "2026-08-15T11:44",
-      "dateStatus": "collected",
-      "tier": "T1",
-      "score": 78,
-      "aiSelected": true,
-      "_style": "critic",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceDate": "2026-08-15",
-      "sourceCount": 1
     }
   ],
   "weeklyDigests": [
@@ -8044,6 +7910,17 @@ window.AI_GENERATED_DATA = {
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Introducing new Ray capabilities on SageMaker HyperPod",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Amazon SageMaker HyperPod now offers managed Ray support on Amazon EKS. Create and monitor Ray clusters, connect JupyterLab and Code Editor notebooks to live cl",
+        "description": "Amazon SageMaker HyperPod now offers managed Ray support on Amazon EKS. Create and monitor Ray clusters, connect JupyterLab and Code Editor notebooks to live clusters, get out-of-t",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/introducing-new-ray-capabilities-on-sagemaker-hyperpod/"
+      },
+      {
         "name": "OpenAI 正为一切构建 AI 智能体，但用户会愿意交出控制权吗？",
         "provider": "TechCrunch：AI（RSS）",
         "type": "AI 项目/工具",
@@ -8617,23 +8494,6 @@ window.AI_GENERATED_DATA = {
         "watch": "可能面临 API 费用和使用配额的限制，影响长期使用。",
         "sourceName": "NewsData.io:AI coding tool",
         "url": "https://www.prnewswire.com/news-releases/ask-chatai-unlocks-over-20-premium-ai-models-in-a-single-subscription-302841118.html"
-      },
-      {
-        "name": "OpenAI Astra AI 解决十个长期数学难题",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Astra 的发布将影响多个领域的研究者，尤其是那些从事数学、计算机科学和相关学科的专业人士。它的推理能力可能改变科学研究的决策方式，促进更快速的发现和创新。此外，随着 AI 在科学研究中的应用越来越广泛，可能会引发更大范围的竞争，推动整个行业的进步。尽管如此，专家们强调，在广泛接受 AI 生成的发现之前，仍需进行人类",
-        "description": "OpenAI 最新发布的 AI 模型 Astra 成功解决或在十个长期未解的数学和理论计算机科学问题上取得显著进展。这一突破标志着 AI 系统在复杂科学研究中的贡献，超越了单纯生成文本或代码的能力。Astra 在密码学、编码理论、量子复杂性等领域取得新成果，且其发现已被人类研究者转化为正式论文，确保了结果的数学准确性。",
-        "useCases": [
-          "利用 Astra 进行复杂数学问题的研究，推动新理论的建立。",
-          "在密码学领域应用 Astra 的发现，提升安全性和效率。",
-          "结合 Astra 的推理过程，优化算法设计和实现。",
-          "在量子计算研究中，借助 Astra 的成果探索新算法。",
-          "将 Astra 的研究成果转化为实际应用，推动技术创新。"
-        ],
-        "watch": "Astra 仍处于未发布阶段，实际应用效果尚不明确。",
-        "sourceName": "NewsData.io:AI coding tool",
-        "url": "https://www.equitypandit.com/openais-astra-ai-solves-10-long-standing-math-problems/"
       }
     ],
     "ai-agents": [
@@ -13480,22 +13340,22 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-08-25",
-    "generatedAt": "2026-08-24T18:42:15.779441Z",
-    "total": 24,
+    "generatedAt": "2026-08-24T21:01:12.518069Z",
+    "total": 9,
     "sections": [
       {
-        "category": "ai-image-video",
-        "label": "图像视频",
+        "category": "ai-coding",
+        "label": "AI 编程",
         "items": [
           {
-            "title": "ConceptTS: LLM-Guided Concept Bottlenecks for Interpretable Multivariate Time-Series Forecasting",
-            "summary": "State-of-the-art multivariate time-series forecasters can model complex temporal and cross-variable dependencies, yet their opaque represent",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.21277v1",
+            "title": "Introducing new Ray capabilities on SageMaker HyperPod",
+            "summary": "Amazon SageMaker HyperPod now offers managed Ray support on Amazon EKS. Create and monitor Ray clusters, connect JupyterLab and Code Editor ",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/introducing-new-ray-capabilities-on-sagemaker-hyperpod/",
             "score": 70,
             "sourceCount": 1,
-            "date": "2026-08-21",
-            "publishedAt": "",
+            "date": "2026-08-25",
+            "publishedAt": "2026-08-25T03:32",
             "reason": ""
           }
         ]
@@ -13536,50 +13396,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-08-24",
             "publishedAt": "2026-08-24T23:53",
             "reason": ""
-          },
-          {
-            "title": "Accelerating aircraft IFEC diagnostics with agentic AI on AWS",
-            "summary": "Panasonic Avionics worked with AWS and the AWS Generative AI Innovation Center to build an agentic AI system on Amazon Bedrock, Amazon SageM",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/accelerating-aircraft-ifec-diagnostics-with-agentic-ai-on-aws/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-22",
-            "publishedAt": "2026-08-22T00:57",
-            "reason": ""
-          },
-          {
-            "title": "Agentic Data Operations Platform (ADOP): Data engineering into hours",
-            "summary": "The Agentic Data Operations Platform (ADOP) is a reference architecture on Amazon Bedrock that uses specialized AI agents to automate the fu",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/agentic-data-operations-platform-adop-data-engineering-into-hours/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-22",
-            "publishedAt": "2026-08-22T01:06",
-            "reason": ""
-          },
-          {
-            "title": "From Search Agents to Dissemination Interfaces: Understanding Human Trust in Health Information from Conversational Search",
-            "summary": "Large Language Models (LLMs) deployed through Conversational User Interfaces (CUIs) are transforming health information-seeking by offering ",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.21177v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-21",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "TraceGrant: A Contract-Governed Security Framework for the Task-Effect Lifecycle of Networked LLM Agents",
-            "summary": "Networked large language model (LLM) agents retrieve information from email, cloud storage, calendars, transaction platforms, and Web servic",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.21126v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-21",
-            "publishedAt": "",
-            "reason": ""
           }
         ]
       },
@@ -13587,6 +13403,28 @@ window.AI_GENERATED_DATA = {
         "category": "ai-models",
         "label": "模型发布",
         "items": [
+          {
+            "title": "MetaRoCE：为 AI 规模以太网打造的全新 RDMA 传输协议",
+            "summary": "Meta 设计并开源了 MetaRoCE，一个专为 AI 工作负载在通用以太网上打造的 RDMA 传输协议，已通过 Open Compute Project（OCP）发布规范、参考软件实现和合规测试套件。该协议将智能移至端点，原生支持乱序交付、多路径、无损容忍和双向拥塞控制，无需",
+            "source": "Meta Engineering Blog（RSS）",
+            "url": "https://engineering.fb.com/2026/08/24/networking-traffic/metaroce-rdma-transport-ai-ethernet",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-25",
+            "publishedAt": "2026-08-25T02:02",
+            "reason": ""
+          },
+          {
+            "title": "Democratizing institutional knowledge: Building an AI-powered knowledge management system with AWS",
+            "summary": "Learn how to build a customizable, smart-caching knowledge management system on AWS that captures and delivers institutional (tribal) knowle",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/democratizing-institutional-knowledge-building-an-ai-powered-knowledge-management-system-with-aws/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-25",
+            "publishedAt": "2026-08-25T02:59",
+            "reason": ""
+          },
           {
             "title": "MetaRoCE: A New RDMA Transport Built for AI-Scale Ethernet",
             "summary": "Training and serving frontier AI models depends on fast, reliable networks that move data between GPUs without wasting compute cycles. To me",
@@ -13610,169 +13448,14 @@ window.AI_GENERATED_DATA = {
             "reason": ""
           },
           {
-            "title": "An AI tool for prioritizing candidate biomarkers from wearable sensor data",
-            "summary": "Generative AI",
-            "source": "RSS · Google Research",
-            "url": "https://research.google/blog/an-ai-tool-for-prioritizing-candidate-biomarkers-from-wearable-sensor-data/",
+            "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
+            "summary": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/gpt-5-6-in-kiro",
             "score": 70,
             "sourceCount": 1,
-            "date": "2026-08-22",
-            "publishedAt": "2026-08-22T01:02",
-            "reason": ""
-          },
-          {
-            "title": "A Neurosymbolic Approach for Constructing Planning Domain Models from Clinical Narratives",
-            "summary": "Surgical procedures such as laparoscopic appendectomy are complex, high-stakes processes, yet formalizing their workflows for decision suppo",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.21186v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-21",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Thermo-FL: Thermal-Aware Robust Federated Fine-Tuning of Large Language Models for Edge AI",
-            "summary": "Federated fine-tuning enables large language models to adapt on edge devices without centralizing private data, but practical deployments mu",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.21172v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-21",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "COEC: Calibrated Orthogonal-Equivalence Compensation for Structured Pruning of Large Language Models",
-            "summary": "Structured pruning reduces the size and inference cost of large language models (LLMs) by removing weight columns, but the resulting output ",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.21142v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-21",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Distilling Black-Box Machine Learning into a Small, Self-Explaining Language Model for Learning Analytics",
-            "summary": "Learning analytics increasingly relies on flexible machine learning (ML), but the model opacity and the burden of deployment prevent these t",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.21165v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-21",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Level-k Distinguishable Mechanisms for Evaluating Bounded Rationality in LLMs",
-            "summary": "Strategic depth of reasoning is essential for human interaction of Large Language Models (LLMs) operating in boundedly rational environments",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.21296v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-21",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "CLEAR: Continuous Latent Adapter Routing for Utility-Preserving LLM Safety Alignment",
-            "summary": "Improving the safety of large language models (LLMs) often comes at the expense of utility, as globally applied safety tuning may affect mod",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.21278v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-21",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Human-AI Collaboration in Requirements Engineering: Evidence of the Negative Effect of LLMs on Requirements Inspection",
-            "summary": "Background. Requirements inspection (RI) is a well-established practice for detecting potential defects in requirements artifacts early in t",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.21298v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-21",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Affective Context Amplifies Sycophancy in LLM Responses",
-            "summary": "As conversational companions, large language models (LLMs) often have access to users' emotional states. We study how this affective context",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.21242v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-21",
-            "publishedAt": "",
-            "reason": ""
-          }
-        ]
-      },
-      {
-        "category": "ai-benchmark",
-        "label": "评测榜单",
-        "items": [
-          {
-            "title": "Benchmarking Patent Drafting from Inventor-Style Disclosures",
-            "summary": "While recent large language models (LLMs) have achieved promising results on individual patent drafting tasks, they fundamentally fail to in",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.21249v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-21",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "OmniAssistBench: Assistant-style Interaction Benchmark for Omni-LLMs",
-            "summary": "Recent omni-modal large language models (Omni-LLMs) show great potential as real-time video assistants, which continuously perceive environm",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.21360v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-21",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "SOP-Bench: A new benchmark for evaluating AI agents on real business procedures",
-            "summary": "Extendable framework enables testing agents on the full set of capabilities required to successfully complete a procedure, not isolated prox",
-            "source": "RSS · Amazon Science",
-            "url": "https://www.amazon.science/blog/sop-bench-a-new-benchmark-for-evaluating-ai-agents-on-real-business-procedures",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-21",
-            "publishedAt": "2026-08-21T23:57",
-            "reason": ""
-          },
-          {
-            "title": "Broadening access to Skala creates a faster path to predictive DFT",
-            "summary": "Skala 1.1, the updated deep-learning exchange-correlation functional from Microsoft Research, provides greater accuracy, expanded accessibil",
-            "source": "RSS · Microsoft Research",
-            "url": "https://www.microsoft.com/en-us/research/blog/broadening-access-to-skala-creates-a-faster-path-to-predictive-dft/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-21",
-            "publishedAt": "2026-08-21T00:00",
-            "reason": ""
-          }
-        ]
-      },
-      {
-        "category": "ai-research",
-        "label": "论文研究",
-        "items": [
-          {
-            "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
-            "summary": "Google DeepMind partners with game studios to prototype breakthrough AI gameplay.",
-            "source": "RSS · Google DeepMind",
-            "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-21",
-            "publishedAt": "2026-08-21T19:59",
+            "date": "2026-08-24",
+            "publishedAt": "2026-08-24T20:00",
             "reason": ""
           }
         ]
