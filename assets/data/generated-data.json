@@ -1,7 +1,198 @@
 {
-  "lastUpdated": "2026-08-25",
-  "generatedAt": "2026-08-25T15:43:30.819773Z",
+  "lastUpdated": "2026-08-26",
+  "generatedAt": "2026-08-25T16:55:21.887159Z",
   "news": [
+    {
+      "title": "5 ways to upgrade your home decor with Google Search",
+      "summary": "Learn how to use Google Search tools to find home decor inspiration, shop for furniture, and tackle DIY projects.",
+      "category": "ai-models",
+      "source": "RSS · Google AI Blog",
+      "date": "2026-08-26",
+      "publishedAt": "2026-08-26T00:00",
+      "collectedAt": "2026-08-26T00:55",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://blog.google/products-and-platforms/products/search/home-decor-tips/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Governed reports with Amazon Quick Desktop and Amazon FSx for NetApp ONTAP",
+      "summary": "Build a governed weekly reporting workflow with Amazon Quick Desktop and Amazon FSx for NetApp ONTAP. An Amazon S3 access point exposes an approved folder to a Quick knowledge base",
+      "category": "ai-models",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-08-26",
+      "publishedAt": "2026-08-26T00:35",
+      "collectedAt": "2026-08-26T00:55",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/governed-reports-with-amazon-quick-desktop-and-amazon-fsx-for-netapp-ontap/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "The full stack behind abundant intelligence",
+      "summary": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
+      "category": "ai-models",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-08-25",
+      "publishedAt": "2026-08-25T15:05",
+      "collectedAt": "2026-08-26T00:55",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+      "summary": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
+      "category": "ai-models",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-08-25",
+      "publishedAt": "2026-08-25T15:00",
+      "collectedAt": "2026-08-26T00:55",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/jalapeno-first-results",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Granite 4.2 LLMs: How They're Built",
+      "summary": "",
+      "category": "ai-models",
+      "source": "RSS · Hugging Face Blog",
+      "date": "2026-08-25",
+      "publishedAt": "2026-08-25T23:14",
+      "collectedAt": "2026-08-26T00:55",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+      "summary": "",
+      "category": "ai-models",
+      "source": "RSS · Hugging Face Blog",
+      "date": "2026-08-25",
+      "publishedAt": "2026-08-25T19:39",
+      "collectedAt": "2026-08-26T00:55",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Aug 25, 2026 Announcements Funding better evaluations of AI’s impact on wellbeing",
+      "summary": "Aug 25, 2026 Announcements Funding better evaluations of AI’s impact on wellbeing",
+      "category": "ai-business",
+      "source": "HTML · Anthropic",
+      "date": "2026-08-25",
+      "publishedAt": "",
+      "collectedAt": "2026-08-26T00:55",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-25",
+      "tags": [],
+      "url": "https://www.anthropic.com/news/wellbeing-research-grants",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Disrupting a new covert influence campaign from Russia",
       "summary": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West.",
@@ -767,6 +958,33 @@
       "moduleTargets": [
         "news",
         "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "How Hugging Face Inference Endpoints, Jobs, and Buckets Power Search on Papers with Code",
+      "summary": "",
+      "category": "ai-coding",
+      "source": "RSS · Hugging Face Blog",
+      "date": "2026-08-21",
+      "publishedAt": "2026-08-21T08:00",
+      "collectedAt": "2026-08-26T00:55",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://huggingface.co/blog/pwc-search",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
       ],
       "sourceCount": 1
     },
@@ -7845,6 +8063,28 @@
     ],
     "ai-models": [
       {
+        "name": "5 ways to upgrade your home decor with Google Search",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Learn how to use Google Search tools to find home decor inspiration, shop for furniture, and tackle DIY projects.",
+        "description": "Learn how to use Google Search tools to find home decor inspiration, shop for furniture, and tackle DIY projects.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Google AI Blog",
+        "url": "https://blog.google/products-and-platforms/products/search/home-decor-tips/"
+      },
+      {
+        "name": "Governed reports with Amazon Quick Desktop and Amazon FSx fo",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Build a governed weekly reporting workflow with Amazon Quick Desktop and Amazon FSx for NetApp ONTAP. An Amazon S3 access point exposes an approved folder to a ",
+        "description": "Build a governed weekly reporting workflow with Amazon Quick Desktop and Amazon FSx for NetApp ONTAP. An Amazon S3 access point exposes an approved folder to a Quick knowledge base",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/governed-reports-with-amazon-quick-desktop-and-amazon-fsx-for-netapp-ontap/"
+      },
+      {
         "name": "Google Offers College Students Free AI Plans for a Year, Exp",
         "provider": "TechAfrica News",
         "type": "AI 项目/工具",
@@ -8305,38 +8545,6 @@
         "watch": "展会期间可能面临人流密集，需提前规划行程以避免拥堵。",
         "sourceName": "Bizcommunity.com",
         "url": "https://www.bizcommunity.com/article/electra-mining-africa-showcases-the-technologies-shaping-tomorrows-industry-290007a"
-      },
-      {
-        "name": "Anthropic Claude AI 实现 Gmail 自动发送邮件功能",
-        "provider": "iTech Post",
-        "type": "AI 项目/工具",
-        "bestFor": "这一更新将对广泛的用户群体产生影响，包括企业员工、自由职业者和任何依赖电子邮件进行沟通的人。用户将能够更快地完成邮件发送任务，减少手动操作的时间。此外，这一变化可能会促使其他 AI 助手跟进，提升其自动化能力，从而在市场上形成竞争压力。随着 AI 助手在工作流程中的作用日益增强，用户对自动化工具的依赖程度也将加深，可能",
-        "description": "Anthropic 最近更新了其 Claude AI 助手在 Gmail 中的功能，允许用户无需手动批准即可自动发送邮件。这一更新不仅提高了工作效率，还改变了用户与 AI 的互动方式，Claude 现在能够完成整个邮件发送流程。",
-        "useCases": [
-          "自动发送邮件，减少手动操作，提高工作效率。",
-          "利用 Claude AI 管理 Google Drive 文件，简化文件存储和访问。",
-          "通过 Claude AI 回复邮件线程，快速处理日常沟通。",
-          "在 Google Calendar 中安排会议，自动发送邀请。",
-          "使用 Claude AI 整理和总结邮件，提升信息处理能力。"
-        ],
-        "watch": "用户可能会因为自动发送邮件而失去对邮件内容的控制，导致信息误传。",
-        "sourceName": "iTech Post",
-        "url": "https://www.itechpost.com/articles/237061/20260818/anthropic-claudes-gmail-automation-here-lets-users-send-emails-automatically-without-approval.htm"
-      },
-      {
-        "name": "自定义 Amazon Quick 嵌入式聊天功能",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "这种自定义功能将使得开发者能够创建更具吸引力和一致性的用户体验，尤其是在金融、电子商务等领域。通过提升用户互动的自然性，企业可以更好地满足客户需求，进而影响客户的决策过程。此外，随着用户体验的提升，企业的品牌形象也将得到加强，可能会带来更高的用户留存率和满意度。",
-        "description": "我注意到 Amazon Quick 嵌入式聊天为网页应用提供了对话式 AI 接口，用户可以在应用内提问、探索数据和获取见解。通过自定义聊天界面，可以确保其外观和感觉与品牌一致，提升用户体验。",
-        "useCases": [
-          "在金融应用中集成嵌入式聊天，帮助用户实时获取财务数据和分析。",
-          "为电商平台定制聊天界面，提升客户咨询和购买转化率。",
-          "在教育平台中使用嵌入式聊天，提供即时答疑和学习支持。"
-        ],
-        "watch": "自定义过程中可能会遇到 API 费用和配额限制，需提前评估预算。",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/customize-amazon-quick-embedded-chat-into-your-application/"
       }
     ],
     "ai-business": [
@@ -12059,9 +12267,9 @@
     }
   ],
   "dailyReport": {
-    "date": "2026-08-25",
-    "generatedAt": "2026-08-25T15:43:30.794296Z",
-    "total": 24,
+    "date": "2026-08-26",
+    "generatedAt": "2026-08-25T16:55:21.853164Z",
+    "total": 15,
     "sections": [
       {
         "category": "ai-coding",
@@ -12076,23 +12284,6 @@
             "sourceCount": 1,
             "date": "2026-08-25",
             "publishedAt": "2026-08-25T03:32",
-            "reason": ""
-          }
-        ]
-      },
-      {
-        "category": "ai-image-video",
-        "label": "图像视频",
-        "items": [
-          {
-            "title": "Beyond Visual CoT: Internalized Visual Thinking for Proactive Video Reasoning",
-            "summary": "Multimodal large language models increasingly use visual chain-of-thought (Visual CoT) to reason about spatial, temporal, and embodied envir",
-            "source": "RSS · Apple ML Research",
-            "url": "https://machinelearning.apple.com/research/internalized-visual-thinking",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-24",
-            "publishedAt": "2026-08-24T08:00",
             "reason": ""
           }
         ]
@@ -12122,61 +12313,6 @@
             "date": "2026-08-25",
             "publishedAt": "2026-08-25T00:22",
             "reason": ""
-          },
-          {
-            "title": "Automated Construction of FAIR Digital Object Knowledge Graphs from Flat Cultural Heritage Records",
-            "summary": "The FAIR Digital Object (FDO) framework mandates that metadata attribute values be expressed as persistent identifiers (PIDs) wherever possi",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.23263v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-24",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Dual-Grained Agent Memory and Shapley Context Attribution for Multimodal Agentic Learner",
-            "summary": "Frontier multimodal large language models (MLLMs) deliver impressive perception yet still falter on scientific and mathematical reasoning. P",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.23268v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-24",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "From Natural Language Policies to Executable Obligations: A Verification Harness for Dependable In-Car LLM Agents",
-            "summary": "Large Language Models (LLMs) agents deployed in vehicles must satisfy a written operating policy on every turn: a single hallucinated identi",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.23282v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-24",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "IntentQA: Intent Question Answering in Videos by Cognitive Context Reasoning",
-            "summary": "Video understanding requires intelligent agents to transcend mere recognition of visual facts and comprehend the underlying intents behind h",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.23330v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-24",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "AI-powered metadata correction and harmonization",
-            "summary": "Metadata harmonization (standardizing labels, identifiers, and formats so datasets can work together) is still largely manual. This post sho",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/ai-powered-metadata-correction-and-harmonization/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-24",
-            "publishedAt": "2026-08-24T23:53",
-            "reason": ""
           }
         ]
       },
@@ -12184,6 +12320,72 @@
         "category": "ai-models",
         "label": "模型发布",
         "items": [
+          {
+            "title": "5 ways to upgrade your home decor with Google Search",
+            "summary": "Learn how to use Google Search tools to find home decor inspiration, shop for furniture, and tackle DIY projects.",
+            "source": "RSS · Google AI Blog",
+            "url": "https://blog.google/products-and-platforms/products/search/home-decor-tips/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-26",
+            "publishedAt": "2026-08-26T00:00",
+            "reason": ""
+          },
+          {
+            "title": "Governed reports with Amazon Quick Desktop and Amazon FSx for NetApp ONTAP",
+            "summary": "Build a governed weekly reporting workflow with Amazon Quick Desktop and Amazon FSx for NetApp ONTAP. An Amazon S3 access point exposes an a",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/governed-reports-with-amazon-quick-desktop-and-amazon-fsx-for-netapp-ontap/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-26",
+            "publishedAt": "2026-08-26T00:35",
+            "reason": ""
+          },
+          {
+            "title": "The full stack behind abundant intelligence",
+            "summary": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at gre",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-25",
+            "publishedAt": "2026-08-25T15:05",
+            "reason": ""
+          },
+          {
+            "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+            "summary": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower la",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/jalapeno-first-results",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-25",
+            "publishedAt": "2026-08-25T15:00",
+            "reason": ""
+          },
+          {
+            "title": "Granite 4.2 LLMs: How They're Built",
+            "summary": "",
+            "source": "RSS · Hugging Face Blog",
+            "url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-25",
+            "publishedAt": "2026-08-25T23:14",
+            "reason": ""
+          },
+          {
+            "title": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+            "summary": "",
+            "source": "RSS · Hugging Face Blog",
+            "url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-25",
+            "publishedAt": "2026-08-25T19:39",
+            "reason": ""
+          },
           {
             "title": "Disrupting a new covert influence campaign from Russia",
             "summary": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and critic",
@@ -12238,120 +12440,21 @@
             "date": "2026-08-25",
             "publishedAt": "2026-08-25T01:45",
             "reason": ""
-          },
-          {
-            "title": "Hidden in the Request: Explaining Unethical LLM Compliance through Token Relevance",
-            "summary": "Although Large Language Models (LLMs) are aligned to optimize for both helpfulness and harmlessness, these dual objectives may conflict, ine",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.23264v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-24",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "AI-Assisted Extraction of Follow-up Observations from GCN Circulars in Astro-COLIBRI",
-            "summary": "We present a new Astro-COLIBRI component that converts free-text GCN Circulars into structured, event-linked follow-up records and combines ",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.23270v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-24",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Beyond the Stability-Exploration Dilemma: Environmental Regularization for LLM Policy Optimization",
-            "summary": "Policy optimization (PO) for Large Language Models faces a stability--exploration trade-off, currently mediated by an action-side Policy-KL ",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.23311v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-24",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Action-Aligned Retrieval with Pairwise Multimodal Reranking for Text-Based Person Anomaly Search",
-            "summary": "Text-based person anomaly search requires distinguishing individuals based on fine-grained, context-dependent behaviors rather than mere app",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.23503v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-24",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "How to Train a Critic Stably and Efficiently",
-            "summary": "Group-based reinforcement learning methods such as GRPO for large language models avoid training a critic by sampling multiple responses for",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.23566v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-24",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "StrategyBench: Evaluating Explicit Strategy Induction in Large Language Models",
-            "summary": "As large language models are increasingly used in data-scarce and evolving task scenarios, few-shot in-context learning (ICL) has become a k",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.23475v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-24",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Walking on the DARKSIDE",
-            "summary": "Large Language Models (LLMs) recognise patterns but do not natively track the path of exclusions that a coherent discourse demands. When an ",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.23370v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-24",
-            "publishedAt": "",
-            "reason": ""
           }
         ]
       },
       {
-        "category": "ai-research",
-        "label": "论文研究",
+        "category": "ai-business",
+        "label": "行业商业",
         "items": [
           {
-            "title": "FormuEvo: LLM-Guided Evolution for Discovering Solver-Efficient Mixed-Integer Programming Formulations",
-            "summary": "Mixed-integer programming (MIP) lies at the core of operations research and industrial optimization. While large language models (LLMs) have",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.23353v1",
+            "title": "Aug 25, 2026 Announcements Funding better evaluations of AI’s impact on wellbeing",
+            "summary": "Aug 25, 2026 Announcements Funding better evaluations of AI’s impact on wellbeing",
+            "source": "HTML · Anthropic",
+            "url": "https://www.anthropic.com/news/wellbeing-research-grants",
             "score": 70,
             "sourceCount": 1,
-            "date": "2026-08-24",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "A Comprehensive Analysis of Arabic Natural Language Processing Research: Trends, Topic Evolution, and Research Gaps -- A Bibliometric and Topic-Based Study",
-            "summary": "Natural Language Processing (NLP) has grown rapidly over the past decade, driven by digital transformation in the Arab world, social media, ",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.23421v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-24",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Systematic Bias in Green Patent Classification: Silent Green and False Green",
-            "summary": "Green-patent indicators built on Cooperative Patent Classification Y02 tags are widely used in research, policy, and investment, yet their c",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.23420v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-24",
+            "date": "2026-08-25",
             "publishedAt": "",
             "reason": ""
           }
@@ -12360,6 +12463,119 @@
     ]
   },
   "dailyReports": [
+    {
+      "date": "2026-08-25",
+      "generatedAt": "2026-08-25T16:00:38.262880Z",
+      "total": 8,
+      "sections": [
+        {
+          "category": "ai-coding",
+          "label": "AI 编程",
+          "items": [
+            {
+              "title": "Introducing new Ray capabilities on SageMaker HyperPod",
+              "summary": "Amazon SageMaker HyperPod now offers managed Ray support on Amazon EKS. Create and monitor Ray clusters, connect JupyterLab and Code Editor ",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/introducing-new-ray-capabilities-on-sagemaker-hyperpod/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-25",
+              "publishedAt": "2026-08-25T03:32",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-agents",
+          "label": "Agent / MCP",
+          "items": [
+            {
+              "title": "Building a restaurant telephony AI host with Amazon Connect",
+              "summary": "Learn how to build a voice ordering system for restaurants that answers a phone call and takes an order end to end, with no app, no website,",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/building-a-restaurant-telephony-ai-host-with-amazon-connect/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-25",
+              "publishedAt": "2026-08-25T00:13",
+              "reason": ""
+            },
+            {
+              "title": "Agentic Resource Discovery (ARD): An open specification for agent discovery",
+              "summary": "AWS Agent Registry gives your organization a centralized, searchable catalog for agents, tools, and skills. It works with the open Agentic R",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/agentic-resource-discovery-ard-an-open-specification-for-agent-discovery/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-25",
+              "publishedAt": "2026-08-25T00:22",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-models",
+          "label": "模型发布",
+          "items": [
+            {
+              "title": "Disrupting a new covert influence campaign from Russia",
+              "summary": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and critic",
+              "source": "RSS · OpenAI Blog",
+              "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-25",
+              "publishedAt": "2026-08-25T08:00",
+              "reason": ""
+            },
+            {
+              "title": "MetaRoCE：为 AI 规模以太网打造的全新 RDMA 传输协议",
+              "summary": "Meta 设计并开源了 MetaRoCE，一个专为 AI 工作负载在通用以太网上打造的 RDMA 传输协议，已通过 Open Compute Project（OCP）发布规范、参考软件实现和合规测试套件。该协议将智能移至端点，原生支持乱序交付、多路径、无损容忍和双向拥塞控制，无需",
+              "source": "Meta Engineering Blog（RSS）",
+              "url": "https://engineering.fb.com/2026/08/24/networking-traffic/metaroce-rdma-transport-ai-ethernet",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-25",
+              "publishedAt": "2026-08-25T02:02",
+              "reason": ""
+            },
+            {
+              "title": "Democratizing institutional knowledge: Building an AI-powered knowledge management system with AWS",
+              "summary": "Learn how to build a customizable, smart-caching knowledge management system on AWS that captures and delivers institutional (tribal) knowle",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/democratizing-institutional-knowledge-building-an-ai-powered-knowledge-management-system-with-aws/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-25",
+              "publishedAt": "2026-08-25T02:59",
+              "reason": ""
+            },
+            {
+              "title": "MetaRoCE: A New RDMA Transport Built for AI-Scale Ethernet",
+              "summary": "Training and serving frontier AI models depends on fast, reliable networks that move data between GPUs without wasting compute cycles. To me",
+              "source": "RSS · Meta Engineering",
+              "url": "https://engineering.fb.com/2026/08/24/networking-traffic/metaroce-rdma-transport-ai-ethernet/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-25",
+              "publishedAt": "2026-08-25T02:02",
+              "reason": ""
+            },
+            {
+              "title": "MTIA 300: Meta’s First Training Chip with Built-in NICs and Communication-Offloading Engines",
+              "summary": "MTIA 300 is the first of Meta’s family of in-house training and inference accelerators optimized for training ranking and recommendation mod",
+              "source": "RSS · Meta Engineering",
+              "url": "https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-25",
+              "publishedAt": "2026-08-25T01:45",
+              "reason": ""
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-24",
       "generatedAt": "2026-08-24T16:00:41.687282Z",
@@ -24120,68 +24336,10 @@
           ]
         }
       ]
-    },
-    {
-      "date": "2026-06-21",
-      "generatedAt": "2026-06-21T16:24:20.119362Z",
-      "total": 3,
-      "sections": [
-        {
-          "category": "ai-tools",
-          "label": "AI 工具",
-          "items": [
-            {
-              "title": "美团tabbit国际版免费接入多款顶级AI模型",
-              "summary": "美团于近期推出了tabbit国际版应用，用户可免费接入多款顶级AI模型，包括GPT-5.5、Claude Opus 4.8、Gemini 3.5 Flash等。该应用的国内版仅支持本土模型，意在迅速占领AI市场。",
-              "source": "X：阿易 AI Notes (@AYi_AInotes)",
-              "url": "https://x.com/AYi_AInotes/status/2068637890247016607",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-06-21",
-              "publishedAt": "2026-06-21T18:11",
-              "reason": "美团的tabbit国际版通过免费接入顶级AI模型，迅速吸引用户，值得关注其对市场的潜在影响。"
-            }
-          ]
-        },
-        {
-          "category": "ai-image-video",
-          "label": "图像视频",
-          "items": [
-            {
-              "title": "腾讯元宝父亲节活动：生成与年轻爸爸的合影",
-              "summary": "腾讯元宝推出了一项创新的父亲节活动，用户可以通过上传自己与父亲年轻时的照片，利用AI技术生成合影。用户只需输入提示词，系统将自动融合两张照片，保留背景、动作和五官，帮助用户“回到过去”，重温与父亲的美好时光。",
-              "source": "公众号：腾讯元宝",
-              "url": "https://mp.weixin.qq.com/s/xrTg2Bdy3FF3gn3C_gVBJQ",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-06-21",
-              "publishedAt": "2026-06-21T12:51",
-              "reason": "这项活动通过AI技术让用户与父亲的青春时光重聚，具有独特的情感价值和创新性。"
-            }
-          ]
-        },
-        {
-          "category": "ai-models",
-          "label": "模型发布",
-          "items": [
-            {
-              "title": "NSA局长称Mythos数小时内攻破几乎所有机密系统",
-              "summary": "美国国家安全局（NSA）局长近日表示，Mythos在短短数小时内成功攻破了其几乎所有的机密系统。这一消息引发广泛关注，因为Mythos在5天内破解了MacOS，而顶级漏洞团队Google Project Zero完成同样的攻击需要6个月时间。MacOS的零日漏洞价值约为200万美",
-              "source": "X：AI Safety Memes (@AISafetyMemes)",
-              "url": "https://x.com/AISafetyMemes/status/2068718552174252477",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-06-21",
-              "publishedAt": "2026-06-21T23:31",
-              "reason": "Mythos的攻击能力显著改变了网络安全格局，值得关注和深入研究。"
-            }
-          ]
-        }
-      ]
     }
   ],
   "llmLeaderboard": {
-    "updated": "2026-08-25",
+    "updated": "2026-08-26",
     "source": "ReLE 中文大模型能力评测（综合能力）",
     "sourceUrl": "https://github.com/jeinlee1991/chinese-llm-benchmark",
     "items": [
