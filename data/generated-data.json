@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-08-26",
-  "generatedAt": "2026-08-25T20:26:04.604793Z",
+  "generatedAt": "2026-08-25T21:38:08.026109Z",
   "news": [
     {
       "title": "AgentHands: Generating interactive hand gestures for spatially grounded agent conversations in XR",
@@ -7505,6 +7505,17 @@
     ],
     "ai-agents": [
       {
+        "name": "AI 智能体应该活多久？",
+        "provider": "Tomer Tunguz 博客（VC 分析）",
+        "type": "AI 项目/工具",
+        "bestFor": "长期运行的 AI 智能体会因上下文累积而注意力衰减、临时指令残留成永久规则，并带来安全风险。建议给日常助手 24 小时生命周期，午夜重置会话，将具体任务委派给只存活 30 秒的单一用途子智能体，并在重置前将持久偏好存入磁盘。",
+        "description": "长期运行的 AI 智能体会因上下文累积而注意力衰减、临时指令残留成永久规则，并带来安全风险。建议给日常助手 24 小时生命周期，午夜重置会话，将具体任务委派给只存活 30 秒的单一用途子智能体，并在重置前将持久偏好存入磁盘。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Tomer Tunguz 博客（VC 分析）",
+        "url": "https://www.tomtunguz.com/how-long-should-an-agent-live"
+      },
+      {
         "name": "AgentHands: Generating interactive hand gestures for spatial",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -7963,23 +7974,6 @@
         "watch": "API 使用费用可能较高，需提前评估预算。",
         "sourceName": "RSS · AWS Machine Learning",
         "url": "https://aws.amazon.com/blogs/machine-learning/implement-vector-prompt-document-classification-using-amazon-bedrock/"
-      },
-      {
-        "name": "Axonius 如何在 Bedrock AgentCore 上构建安全的多租户 AI 代理",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Axonius 的这一举措将使其能够更高效地为客户提供服务，降低运营成本，并提升安全性。其他 ISV 也可以借鉴这一模式，快速部署 AI 代理，满足市场需求。此外，这种多租户架构的成功实施可能会推动更多企业采用云计算和 AI 解决方案，从而改变行业格局。",
-        "description": "Axonius 利用 Amazon Bedrock AgentCore 部署了完全隔离的多租户 AI 代理，成功管理数百个客户环境，避免了从零构建计算隔离、身份验证和可观察性基础设施的复杂性。本文将介绍其架构选择及实施策略。",
-        "useCases": [
-          "部署 AI 代理，使用 Amazon Bedrock AgentCore 快速搭建多租户环境，提升服务交付效率。",
-          "整合来自不同系统的数据，利用 Axonius 提供的工具分析安全风险，优化企业安全策略。",
-          "通过独特的会话 ID 管理用户会话，确保在共享资源环境下的安全性和隔离性。",
-          "利用 AI 代理分析企业环境，识别潜在风险和漏洞，制定相应的修复计划。",
-          "选择适合的架构模式（独立、共享或桥接），根据客户需求灵活调整资源配置。"
-        ],
-        "watch": "在使用 Amazon Bedrock AgentCore 时，需注意 API 调用的配额限制，避免超出限制导致服务中断。",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/how-axonius-built-secure-multi-tenant-ai-agents-on-bedrock-agentcore/"
       }
     ],
     "ai-models": [
@@ -12183,7 +12177,7 @@
   ],
   "dailyReport": {
     "date": "2026-08-26",
-    "generatedAt": "2026-08-25T20:26:04.578801Z",
+    "generatedAt": "2026-08-25T21:38:08.001108Z",
     "total": 18,
     "sections": [
       {
