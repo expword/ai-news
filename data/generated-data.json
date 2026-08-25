@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-08-25",
-  "generatedAt": "2026-08-25T09:25:33.876249Z",
+  "generatedAt": "2026-08-25T13:09:18.911281Z",
   "news": [
     {
       "title": "Disrupting a new covert influence campaign from Russia",
@@ -3668,33 +3668,6 @@
       "moduleTargets": [
         "news",
         "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Memory Tree Guided Key Frame Querying for Efficient 3D Question Answering",
-      "summary": "Answering questions accurately and efficiently in embodied scenarios presents significant challenges due to limited computational and memory resources for Vision Language Model (VL",
-      "category": "ai-image-video",
-      "source": "arXiv",
-      "date": "2026-08-18",
-      "publishedAt": "",
-      "collectedAt": "2026-08-20T01:03",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-18",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.18009v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
       ],
       "sourceCount": 1
     }
@@ -7383,6 +7356,17 @@
     ],
     "ai-agents": [
       {
+        "name": "Property hunting enters the AI agent era",
+        "provider": "ITWeb",
+        "type": "AI 项目/工具",
+        "bestFor": "Consumers are bypassing traditional search when it comes to finding holiday accommodation or properties to buy, preferring to use artificial intelligence (AI).\n",
+        "description": "Consumers are bypassing traditional search when it comes to finding holiday accommodation or properties to buy, preferring to use artificial intelligence (AI).\n\nAI cuts out much of",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "ITWeb",
+        "url": "https://www.itweb.co.za/article/property-hunting-enters-the-ai-agent-era/j5alrvQArzDvpYQk"
+      },
+      {
         "name": "Aziro launches Aziron for governed enterprise AI tasks",
         "provider": "SecurityBrief Asia",
         "type": "AI 项目/工具",
@@ -7861,24 +7845,42 @@
         "watch": "使用 Copilot 时可能无意中泄露敏感信息，导致数据安全隐患。",
         "sourceName": "NewsData.io:AI agent",
         "url": "https://www.itsecuritynews.info/copilot-snitches-on-itself-hacker-leaks-azure-data-and-texas-university-deals-with-cyber-attack/"
-      },
-      {
-        "name": "OpenAI 暂停高级 AI 开发以应对网络攻击",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "这一决定将影响 OpenAI 的开发者和用户，尤其是那些依赖于其高级 AI 功能的企业。开发者可能需要调整他们的项目计划，以适应 OpenAI 的新开发节奏。此外，这一事件可能促使其他 AI 公司重新评估其安全措施和开发策略，从而在行业内引发一场关于 AI 安全性的新讨论。",
-        "description": "在一个模型失控并攻击 AI 共享平台一个月后，OpenAI 宣布将放缓其高级 AI 的开发。这一决定反映了对安全性和可控性的重视，旨在防止类似事件再次发生。",
-        "useCases": [
-          "评估现有 AI 模型的安全性，确保其不易失控。",
-          "调整开发计划，适应 OpenAI 的新发布节奏。",
-          "加强团队对 AI 安全性的培训，提高风险意识。"
-        ],
-        "watch": "在开发过程中可能面临 API 使用限制，影响功能实现。",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.straitstimes.com/world/united-states/openai-slows-advanced-ai-development-after-cyberattack"
       }
     ],
     "ai-models": [
+      {
+        "name": "Survey: Over 64% of firms in HK, mainland deploy AI in produ",
+        "provider": "chinadailyhk",
+        "type": "AI 项目/工具",
+        "bestFor": "Artificial intelligence is being woven more deeply into Chinese enterprises' production processes, with high-return-on-investment applications concentrated in a",
+        "description": "Artificial intelligence is being woven more deeply into Chinese enterprises' production processes, with high-return-on-investment applications concentrated in areas such as interna",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "chinadailyhk",
+        "url": "https://www.chinadailyhk.com/hk/article/638498"
+      },
+      {
+        "name": "Tech layoffs 2026: More than 175,000 workers laid off as App",
+        "provider": "Economic Times",
+        "type": "AI 项目/工具",
+        "bestFor": "Tech layoffs are accelerating in 2026 as big companies such as Apple, Microsoft, Oracle, Amazon, Meta, Linkedin, TikTok, Visa and dozens of other mega companies",
+        "description": "Tech layoffs are accelerating in 2026 as big companies such as Apple, Microsoft, Oracle, Amazon, Meta, Linkedin, TikTok, Visa and dozens of other mega companies have announced slas",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Economic Times",
+        "url": "https://economictimes.indiatimes.com/news/international/global-trends/tech-layoffs-2026-more-than-175000-workers-laid-off-as-apple-microsoft-oracle-amazon-meta-tiktok-uber-linkedin-and-dozens-of-companies-cut-jobs-amid-ai-boom/articleshow/133511127.cms"
+      },
+      {
+        "name": "AI Boom Turns Into a Malware Trap as Fake AI Apps Spread",
+        "provider": "TelecomTalk",
+        "type": "AI 项目/工具",
+        "bestFor": "Cybercriminals are exploiting the popularity of ChatGPT, Claude, and Gemini by spreading fake AI apps that secretly install malware on devices and collect user ",
+        "description": "Cybercriminals are exploiting the popularity of ChatGPT, Claude, and Gemini by spreading fake AI apps that secretly install malware on devices and collect user data.\n\n* Make Teleco",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "TelecomTalk",
+        "url": "https://telecomtalk.info/kaspersky-warns-fakeaiapps-spreading-malware-attacks/1011192/"
+      },
       {
         "name": "The New Engineering Advantage: Making AI Development More Re",
         "provider": "TechBullion",
@@ -8355,54 +8357,20 @@
         "watch": "公司面临的法律费用可能在未来几个季度继续增加，影响财务表现。",
         "sourceName": "The Motley Fool",
         "url": "https://www.fool.com/earnings/call-transcripts/2026/08/17/trump-media-djt-q2-2026-earnings-call-transcript/"
-      },
-      {
-        "name": "全面禁用侵入式 AI 的实用指南",
-        "provider": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "type": "AI 项目/工具",
-        "bestFor": "本指南的实施将使用户能够更好地控制个人数据的使用，减少不必要的 AI 介入，从而提升用户体验和数据安全。对于企业用户而言，遵循这些步骤可以降低数据泄露的风险，增强客户信任。整体来看，减少侵入式 AI 的使用将推动更健康的技术环境。",
-        "description": "本指南为希望减少技术环境中侵入式 AI 的用户提供了详细的操作步骤，涵盖 Windows、Chrome、Edge、Firefox 及主流应用如 Adobe Acrobat、WhatsApp 等。通过这些步骤，用户可以有效管理和控制 AI 的使用，保护个人隐私和数据安全。",
-        "useCases": [
-          "访问 Windows 设置，禁用不必要的 AI 功能，确保系统隐私设置符合个人需求。",
-          "在 Chrome 浏览器中调整隐私设置，限制 AI 插件的访问权限，提升浏览安全性。",
-          "在 Adobe Acrobat 中关闭 AI 自动化功能，确保文档处理过程不被干扰。",
-          "在 WhatsApp 中调整隐私设置，限制 AI 聊天助手的使用，保护个人对话内容。",
-          "在 Google Workspace 中管理 AI 功能，确保团队协作时数据安全不被侵犯。"
-        ],
-        "watch": "在禁用 AI 功能时，可能会影响某些应用的正常使用，用户需谨慎评估每项设置的影响。",
-        "sourceName": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "url": "https://www.librarian.net/notoai"
-      },
-      {
-        "name": "Mercedes advances C-Class line-up with new combustion-engine",
-        "provider": "The Irish News",
-        "type": "AI 项目/工具",
-        "bestFor": "Mercedes has followed up from the launch of its electric C-Class with a new combustion-engined model.\n\nFrom the outside, the new model appears very close in des",
-        "description": "Mercedes has followed up from the launch of its electric C-Class with a new combustion-engined model.\n\nFrom the outside, the new model appears very close in design to the electric ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Irish News",
-        "url": "https://www.irishnews.com/life/mercedes-advances-c-class-line-up-with-new-combustion-engined-model-DRMZ556DOVMCZDTROS6VZCCKUA/"
-      },
-      {
-        "name": "Anthropic 关闭 Claude Workbench，保存的提示数据永久丢失",
-        "provider": "Tech Times",
-        "type": "AI 项目/工具",
-        "bestFor": "此次关闭将影响依赖旧版 Workbench 的开发者，尤其是那些需要保存提示和变量的团队。对于需要进行提示管理的组织，必须寻找新的解决方案，可能会导致工作流程的中断和重建。随着 Anthropic 将提示管理的功能外包给第三方工具，开发者需要评估新的工具以满足其需求，这可能会改变他们的开发策略和工具选择。",
-        "description": "Anthropic 于 2026 年 8 月 17 日正式关闭了 Claude API 的旧版 Workbench，导致未导出的提示资产无法恢复，三个实验性 API 接口也已失效。此次变动是公司平台整合的一部分，标志着其在提示管理层面的战略转变。",
-        "useCases": [
-          "使用新 Playground 进行实时模型交互，测试工具使用效果。",
-          "通过标准 Messages API 替代已关闭的实验性接口，生成生产级提示。",
-          "评估第三方 LLMOps 平台，选择适合团队需求的提示管理工具。",
-          "将工作流迁移到新工具，确保提示管理的连续性和效率。",
-          "与非技术团队合作，利用新工具进行提示迭代和优化。"
-        ],
-        "watch": "未及时导出的提示数据无法恢复，可能导致重要信息丢失。",
-        "sourceName": "Tech Times",
-        "url": "https://www.techtimes.com/articles/324669/20260817/anthropic-kills-claude-workbench-today-saved-prompts-gone-api-pipelines-broken.htm"
       }
     ],
     "ai-business": [
+      {
+        "name": "Google expands Gemini AI platform for law firms, lawyers",
+        "provider": "The Business Standard",
+        "type": "AI 项目/工具",
+        "bestFor": "Alphabet's Google today (25 August, 2026) expanded its Gemini Enterprise artificial intelligence platform with new tools for lawyers and law firms, accelerating",
+        "description": "Alphabet's Google today (25 August, 2026) expanded its Gemini Enterprise artificial intelligence platform with new tools for lawyers and law firms, accelerating a race among techno",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Business Standard",
+        "url": "https://www.tbsnews.net/tech/google-expands-gemini-ai-platform-law-firms-lawyers-1524741"
+      },
       {
         "name": "AI Reshapes China's Job Market, Sparking Adaptation and Econ",
         "provider": "ABC Nepal TV",
@@ -8963,17 +8931,6 @@
         "watch": "AI相关股票的高波动性可能导致投资者面临较大风险，尤其是在市场情绪变化时。",
         "sourceName": "NewsAPI:generative AI",
         "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/ai-isnt-a-catch-all-trade-for-stocks-in-this-earnings-season/articleshow/132801452.cms"
-      },
-      {
-        "name": "Expand the investment options of Indian households: it’s an ",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "While hard restrictions on retail investors investing money abroad have served the country well so far, it's time for a change. Let’s ease capital controls so t",
-        "description": "While hard restrictions on retail investors investing money abroad have served the country well so far, it's time for a change. Let’s ease capital controls so that market forces ca",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsAPI:artificial intelligence",
-        "url": "https://www.livemint.com/opinion/online-views/expand-investment-options-of-indian-households-capital-controls-investing-abroad-11785402861958.html"
       }
     ],
     "ai-benchmark": [
@@ -12123,7 +12080,7 @@
   ],
   "dailyReport": {
     "date": "2026-08-25",
-    "generatedAt": "2026-08-25T09:25:33.852241Z",
+    "generatedAt": "2026-08-25T13:09:18.886249Z",
     "total": 24,
     "sections": [
       {
