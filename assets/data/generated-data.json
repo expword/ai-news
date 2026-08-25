@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-08-25",
-  "generatedAt": "2026-08-25T00:31:15.984564Z",
+  "generatedAt": "2026-08-25T03:02:09.839856Z",
   "news": [
     {
       "title": "MetaRoCE：为 AI 规模以太网打造的全新 RDMA 传输协议",
@@ -191,6 +191,198 @@
       "moduleTargets": [
         "news",
         "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Beyond Visual CoT: Internalized Visual Thinking for Proactive Video Reasoning",
+      "summary": "Multimodal large language models increasingly use visual chain-of-thought (Visual CoT) to reason about spatial, temporal, and embodied environments. By generating intermediate reas",
+      "category": "ai-image-video",
+      "source": "RSS · Apple ML Research",
+      "date": "2026-08-24",
+      "publishedAt": "2026-08-24T08:00",
+      "collectedAt": "2026-08-25T11:02",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://machinelearning.apple.com/research/internalized-visual-thinking",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Action-Aligned Retrieval with Pairwise Multimodal Reranking for Text-Based Person Anomaly Search",
+      "summary": "Text-based person anomaly search requires distinguishing individuals based on fine-grained, context-dependent behaviors rather than mere appearance. Existing methods struggle to ca",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-08-24",
+      "publishedAt": "",
+      "collectedAt": "2026-08-25T11:02",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-24",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.23503v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "How to Train a Critic Stably and Efficiently",
+      "summary": "Group-based reinforcement learning methods such as GRPO for large language models avoid training a critic by sampling multiple responses for each prompt. A reliable critic could in",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-08-24",
+      "publishedAt": "",
+      "collectedAt": "2026-08-25T11:02",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-24",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.23566v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "StrategyBench: Evaluating Explicit Strategy Induction in Large Language Models",
+      "summary": "As large language models are increasingly used in data-scarce and evolving task scenarios, few-shot in-context learning (ICL) has become a key paradigm for task adaptation. However",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-08-24",
+      "publishedAt": "",
+      "collectedAt": "2026-08-25T11:02",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-24",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.23475v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Walking on the DARKSIDE",
+      "summary": "Large Language Models (LLMs) recognise patterns but do not natively track the path of exclusions that a coherent discourse demands. When an input rests on a fabricated authority, a",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-08-24",
+      "publishedAt": "",
+      "collectedAt": "2026-08-25T11:02",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-24",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.23370v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "A Comprehensive Analysis of Arabic Natural Language Processing Research: Trends, Topic Evolution, and Research Gaps -- A Bibliometric and Topic-Based Study",
+      "summary": "Natural Language Processing (NLP) has grown rapidly over the past decade, driven by digital transformation in the Arab world, social media, and large language models (LLMs). Despit",
+      "category": "ai-research",
+      "source": "arXiv",
+      "date": "2026-08-24",
+      "publishedAt": "",
+      "collectedAt": "2026-08-25T11:02",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-24",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.23421v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Systematic Bias in Green Patent Classification: Silent Green and False Green",
+      "summary": "Green-patent indicators built on Cooperative Patent Classification Y02 tags are widely used in research, policy, and investment, yet their construct validity has not been audited a",
+      "category": "ai-research",
+      "source": "arXiv",
+      "date": "2026-08-24",
+      "publishedAt": "",
+      "collectedAt": "2026-08-25T11:02",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-24",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.23420v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
       ],
       "sourceCount": 1
     },
@@ -1349,6 +1541,90 @@
       "score": 81,
       "aiSelected": true,
       "_style": "observer",
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Scaling Laws for Mixture Pretraining Under Data Constraints",
+      "summary": "As language models scale, the amount of data they require grows – yet many target data sources, such as low-resource languages or specialized domains, are inherently limited in siz",
+      "category": "ai-models",
+      "source": "RSS · Apple ML Research",
+      "date": "2026-08-20",
+      "publishedAt": "2026-08-20T08:00",
+      "collectedAt": "2026-08-25T11:02",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://machinelearning.apple.com/research/scaling-laws-mixture-pretraining",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Progressive Refinement: An Iterative Pseudo-Labeling Approach for Mandarin-English Code-Switching ASR",
+      "summary": "Code-switching (CS), alternating languages within the same utterance, poses significant challenges for automatic speech recognition (ASR) due to limited CS training data. This pape",
+      "category": "ai-coding",
+      "source": "RSS · Apple ML Research",
+      "date": "2026-08-20",
+      "publishedAt": "2026-08-20T08:00",
+      "collectedAt": "2026-08-25T11:02",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://machinelearning.apple.com/research/progressive-refinement-pseudo-labeling",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Multilingual Knowledge Transfer under Data Constraints via Lexical Interventions",
+      "summary": "Cross-lingual knowledge transfer is critical for building high-performing multilingual language models for languages with insufficient training data. When target language data is s",
+      "category": "ai-models",
+      "source": "RSS · Apple ML Research",
+      "date": "2026-08-20",
+      "publishedAt": "2026-08-20T08:00",
+      "collectedAt": "2026-08-25T11:02",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://machinelearning.apple.com/research/multilingual-knowledge-transfer-lexical-interventions",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
       "moduleTargets": [
         "news",
         "topicResources"
@@ -7322,6 +7598,17 @@
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Progressive Refinement: An Iterative Pseudo-Labeling Approac",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Code-switching (CS), alternating languages within the same utterance, poses significant challenges for automatic speech recognition (ASR) due to limited CS trai",
+        "description": "Code-switching (CS), alternating languages within the same utterance, poses significant challenges for automatic speech recognition (ASR) due to limited CS training data. This pape",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Apple ML Research",
+        "url": "https://machinelearning.apple.com/research/progressive-refinement-pseudo-labeling"
+      },
+      {
         "name": "Introducing new Ray capabilities on SageMaker HyperPod",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -7889,26 +8176,20 @@
         "watch": "AI 技术的实施可能面临高昂的开发和维护成本，尤其是对于小型企业。",
         "sourceName": "NewsData.io:AI coding tool",
         "url": "https://www.thestreet.com/retirement/retirement-tech-in-2026-ai-operational-efficiency-and-better-participant-experience"
-      },
-      {
-        "name": "Ask-Chat.ai 一站式解锁 20 多款高级 AI 模型",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Ask-Chat.ai 的推出将极大地改变开发者、市场营销人员和内容创作者的工作方式。开发者可以在编写代码时快速切换到适合数据分析的模型，市场营销人员可以在创意和执行阶段灵活使用不同的 AI 工具。这种灵活性不仅提高了工作效率，还能帮助团队做出更明智的决策，推动项目的成功。",
-        "description": "我注意到 Ask-Chat.ai 最近推出了一款新平台，旨在解决日益严重的订阅疲劳问题。这个平台作为一个通用聚合器，用户可以通过一个集中式工作空间，轻松访问超过 20 款顶级 AI 模型，包括 OpenAI 的 GPT-5.6、Anthropic 的 Claude Opus 4.8 和 Google 的 Gemini Pro。这样一来，用户不再需要为多个订阅付费，而是可以根据任务需求自由选择合适的 AI 模型。",
-        "useCases": [
-          "在撰写代码时，使用 GPT-5.6 进行复杂逻辑的处理。",
-          "为市场营销活动生成创意文案，利用 Claude Opus 4.8 的自然语言处理能力。",
-          "进行实时市场调研，借助 Gemini Pro 的网络集成功能。",
-          "分析和总结大型文档，快速提取关键信息。",
-          "通过语音输入直接与 AI 互动，提高工作效率。"
-        ],
-        "watch": "可能面临 API 费用和使用配额的限制，影响长期使用。",
-        "sourceName": "NewsData.io:AI coding tool",
-        "url": "https://www.prnewswire.com/news-releases/ask-chatai-unlocks-over-20-premium-ai-models-in-a-single-subscription-302841118.html"
       }
     ],
     "ai-agents": [
+      {
+        "name": "Liner Secures 50 Billion Won Series C, Cumulative 94 Billion",
+        "provider": "조선일보",
+        "type": "AI 项目/工具",
+        "bestFor": "LB Investment-led funding to boost R&D, talent, and global expansion for AI leadership\n\nLiner, an AI agent startup, announced on the 25th that it has secured a ",
+        "description": "LB Investment-led funding to boost R&D, talent, and global expansion for AI leadership\n\nLiner, an AI agent startup, announced on the 25th that it has secured a Series C investment ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "조선일보",
+        "url": "https://www.chosun.com/english/industry-en/2026/08/25/SUVRKMKNUFCC5DEPSPEJIHH6JM/"
+      },
       {
         "name": "Why Your Boss Wants to Make Sure AI Can Read Your Slack Mess",
         "provider": "The Wall Street Journal",
@@ -8442,21 +8723,6 @@
         "watch": "在进行多轮对话测试时，可能会面临 API 费用高昂的问题，影响测试的可行性。",
         "sourceName": "Swiss Federal Institute of Technology, Lausanne (EPFL)",
         "url": "https://actu.epfl.ch/news/how-attackers-persuade-ai-agents-to-break-the-rule/"
-      },
-      {
-        "name": "探讨无束缚 AI 代理的资本化",
-        "provider": "Marginal REVOLUTION",
-        "type": "AI 项目/工具",
-        "bestFor": "无束缚 AI 代理的资本化可能会影响多个领域，包括企业治理、法律责任和技术监管。企业在使用 AI 代理时，可能需要重新评估其法律责任和风险管理策略。法律界也需跟进这一变化，制定新的法规以应对 AI 代理的责任问题。此外，用户在使用这些系统时，可能会面临更大的道德和法律责任，促使他们更加谨慎地选择和使用 AI 工具。",
-        "description": "本文探讨了无束缚 AI 代理的法律责任问题，特别是在阿根廷总统米莱提出允许 AI 代理拥有和管理公司后。尽管一些州已立法禁止 AI 具备法律人格，如何追究无实体的 AI 代理的责任仍然是个难题。文章建议通过要求无束缚代理持有一定资本来改善责任归属。",
-        "useCases": [
-          "评估 AI 代理的法律责任，确保合规性。",
-          "设计 AI 系统时，考虑责任归属和资本化要求。",
-          "在企业中实施 AI 代理时，制定相应的风险管理策略。"
-        ],
-        "watch": "法律责任不明确，可能导致企业面临巨额赔偿。",
-        "sourceName": "Marginal REVOLUTION",
-        "url": "https://marginalrevolution.com/marginalrevolution/2026/08/capitalizing-untethered-ai-agents.html"
       }
     ],
     "ai-models": [
@@ -10176,6 +10442,17 @@
     ],
     "ai-image-video": [
       {
+        "name": "Beyond Visual CoT: Internalized Visual Thinking for Proactiv",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Multimodal large language models increasingly use visual chain-of-thought (Visual CoT) to reason about spatial, temporal, and embodied environments. By generati",
+        "description": "Multimodal large language models increasingly use visual chain-of-thought (Visual CoT) to reason about spatial, temporal, and embodied environments. By generating intermediate reas",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Apple ML Research",
+        "url": "https://machinelearning.apple.com/research/internalized-visual-thinking"
+      },
+      {
         "name": "AI Watermarks: How to Check for Them and Remove Them",
         "provider": "Fello AI",
         "type": "AI 项目/工具",
@@ -10766,26 +11043,53 @@
         "watch": "合规成本增加：企业可能需要投入更多资源来更新内容管理系统和培训员工，增加运营成本。",
         "sourceName": "NewsAPI:generative AI",
         "url": "https://petapixel.com/2026/07/29/eu-to-require-labels-on-realistic-ai-images-from-sunday/"
-      },
-      {
-        "name": "新播客《创新速度实践》探索社区肿瘤学中的 AI 应用",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "这一系列播客将对社区肿瘤学的实践者产生深远影响。通过分享成功案例和实用建议，医生和医疗机构可以更快地采用新技术，改善患者的治疗体验。同时，这也可能促使更多的医疗机构关注 AI 的应用，推动整个行业的数字化转型。最终，患者将受益于更高效的治疗和更精准的医疗服务。",
-        "description": "我注意到，最近在 2026 年的 COA 和 ASCO 会议上，Oncologic.ai 发布了一档名为《创新速度实践》的新播客和视频系列，旨在探讨 AI 在社区肿瘤学中的负责任应用。这一系列汇聚了众多顶尖医生和行业领袖，分享如何利用 AI 加速癌症诊断和治疗，同时减轻行政负担。",
-        "useCases": [
-          "收听播客，获取关于 AI 在肿瘤学应用的最新见解和实践经验。",
-          "参与讨论，分享自己在 AI 实施过程中的挑战和成功案例。",
-          "利用播客中提到的框架，评估自己机构的 AI 解决方案。",
-          "与其他医疗机构建立合作，推动 AI 技术的共同应用。",
-          "通过学习新技术，提升患者的治疗效率和满意度。"
-        ],
-        "watch": "AI 技术的实施可能面临高昂的成本，尤其是在小型医疗机构中。",
-        "sourceName": "NewsAPI:artificial intelligence",
-        "url": "https://www.prnewswire.com/news-releases/practice-at-the-speed-of-innovation-a-new-podcast-and-video-series-exploring-the-ai-enabled-future-of-community-oncology-presented-by-oncologicai-302836358.html"
       }
     ],
     "ai-research": [
+      {
+        "name": "Scaling Laws for Mixture Pretraining Under Data Constraints",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "As language models scale, the amount of data they require grows – yet many target data sources, such as low-resource languages or specialized domains, are inher",
+        "description": "As language models scale, the amount of data they require grows – yet many target data sources, such as low-resource languages or specialized domains, are inherently limited in siz",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Apple ML Research",
+        "url": "https://machinelearning.apple.com/research/scaling-laws-mixture-pretraining"
+      },
+      {
+        "name": "Action-Aligned Retrieval with Pairwise Multimodal Reranking ",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Text-based person anomaly search requires distinguishing individuals based on fine-grained, context-dependent behaviors rather than mere appearance. Existing me",
+        "description": "Text-based person anomaly search requires distinguishing individuals based on fine-grained, context-dependent behaviors rather than mere appearance. Existing methods struggle to ca",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2608.23503v1"
+      },
+      {
+        "name": "Multilingual Knowledge Transfer under Data Constraints via L",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Cross-lingual knowledge transfer is critical for building high-performing multilingual language models for languages with insufficient training data. When targe",
+        "description": "Cross-lingual knowledge transfer is critical for building high-performing multilingual language models for languages with insufficient training data. When target language data is s",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Apple ML Research",
+        "url": "https://machinelearning.apple.com/research/multilingual-knowledge-transfer-lexical-interventions"
+      },
+      {
+        "name": "A Comprehensive Analysis of Arabic Natural Language Processi",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Natural Language Processing (NLP) has grown rapidly over the past decade, driven by digital transformation in the Arab world, social media, and large language m",
+        "description": "Natural Language Processing (NLP) has grown rapidly over the past decade, driven by digital transformation in the Arab world, social media, and large language models (LLMs). Despit",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2608.23421v1"
+      },
       {
         "name": "A Neurosymbolic Approach for Constructing Planning Domain Mo",
         "provider": "arXiv",
@@ -11274,72 +11578,6 @@
         "watch": "合成数据的质量可能受到LLM生成能力的限制，需谨慎评估。",
         "sourceName": "RSS · Apple ML Research",
         "url": "https://machinelearning.apple.com/research/environment-free"
-      },
-      {
-        "name": "RayRoPE：多视角注意力的投影光线位置编码",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "RayRoPE 的应用将影响计算机视觉领域的多个方面，尤其是在虚拟现实和增强现实等需要高质量图像合成的场景中。开发者和研究人员可以利用这一新方法提升模型的性能，进而改善用户体验。此外，RayRoPE 的成功实施可能会促使更多研究者探索新的位置编码机制，从而推动整个领域的进步。",
-        "description": "RayRoPE 是一种新型位置编码机制，旨在改善多视角变换器在处理输入图像时的表现。该方法通过独特的光线关联方式编码图像补丁，支持 SE(3) 不变性和多频相似性，适应场景几何。然而，尽管 RayRoPE 在新视角合成和立体深度估计任务中表现出色，但仍存在一些局限性。",
-        "useCases": [
-          "利用 RayRoPE 提升多视角图像合成的质量，生成更真实的虚拟场景。",
-          "在立体视觉任务中应用 RayRoPE，提高深度估计的准确性。",
-          "结合 RGB-D 数据，使用 RayRoPE 进行复杂场景的三维重建。",
-          "在自动驾驶系统中，利用 RayRoPE 改善环境感知能力。",
-          "在游戏开发中，采用 RayRoPE 提升图像渲染效果。"
-        ],
-        "watch": "RayRoPE 的实现可能需要较高的计算资源，增加了开发成本。",
-        "sourceName": "RSS · Apple ML Research",
-        "url": "https://machinelearning.apple.com/research/rayrope-projective-ray"
-      },
-      {
-        "name": "LEAD 提出解决长时间推理中的无恢复瓶颈",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "LEAD 方法的引入可能会改变 LLMs 在复杂推理任务中的应用方式，尤其是在游戏、决策支持和自动化领域。开发者和研究人员可以利用这一方法提升模型的稳定性和准确性，从而在更高复杂度的任务中取得成功。此外，LEAD 方法的成功实施可能会促使更多研究者关注如何优化模型的分解策略，进一步推动 LLMs 的发展。",
-        "description": "Denys Pushkin 和 Emmanuel Abbé 在 2026 年 7 月的研究中指出，大型语言模型（LLMs）在长时间执行时不稳定，即使提供高层策略。研究表明，极端分解会导致“无恢复瓶颈”，并提出 Lookahead-Enhanced Atomic Decomposition (LEAD) 方法以解决这一问题。",
-        "useCases": [
-          "应用 LEAD 方法优化大型语言模型在复杂推理任务中的表现，提升准确性。",
-          "利用短期验证机制，增强模型在动态环境中的适应能力。",
-          "在游戏开发中，使用 LEAD 方法提高 AI 对复杂决策的处理能力。",
-          "通过改进错误处理机制，提升自然语言处理任务的稳定性和可靠性。",
-          "在算法研究中，探索更高效的分解策略以应对长时间推理的挑战。"
-        ],
-        "watch": "LEAD 方法的实现可能需要额外的计算资源，增加开发成本。",
-        "sourceName": "RSS · Apple ML Research",
-        "url": "https://machinelearning.apple.com/research/lead-no-recovery-bottleneck"
-      },
-      {
-        "name": "利用校准稀疏注意力加速文本到视频生成",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "CalibAtt的引入可能会对视频生成领域产生深远影响，尤其是在需要快速生成高质量视频的应用场景中。内容创作者、游戏开发者和广告行业将受益于更高效的视频生成工具，能够在更短时间内完成创作。此外，该技术的成功应用可能会促使更多研究者探索稀疏注意力在其他生成模型中的潜力，从而推动整个领域的进步。",
-        "description": "近期的扩散模型在高质量视频生成方面表现出色，但运行速度较慢。大规模的基于变换器的模型在时空注意力上存在瓶颈。本文提出了一种名为CalibAtt的方法，通过识别并跳过低效的token连接，显著提高了视频生成的速度，最高可实现1.58倍的端到端加速，且保持了生成质量和文本视频的对齐性。",
-        "useCases": [
-          "利用CalibAtt生成高质量的广告视频，缩短制作周期。",
-          "在游戏开发中快速生成游戏过场动画，提升开发效率。",
-          "为在线教育平台创建互动视频内容，增强学习体验。",
-          "在社交媒体上快速制作短视频，提升用户参与度。",
-          "为影视制作提供快速的初步剪辑，优化后期制作流程。"
-        ],
-        "watch": "CalibAtt的有效性可能依赖于特定类型的输入，导致在某些情况下性能不佳。",
-        "sourceName": "RSS · Apple ML Research",
-        "url": "https://machinelearning.apple.com/research/calibrated-sparse-attention"
-      },
-      {
-        "name": "Science One Framework：通过证据链实现可验证的自主研究框架",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "Science One Framework 的推出将对科研人员、AI 研究者和学术界产生深远影响。科研人员可以利用该框架生成高质量、可验证的研究论文，减少因引用错误导致的学术不端行为。AI 研究者则可以借助这一工具提升模型的可靠性，推动 AI 生成内容的应用。学术界也将因此受益，提升整体研究质量和可信度。此外，该框架的",
-        "description": "Science One Framework 是谷歌研究推出的一款实验性研究原型，旨在通过构建可验证的证据链来消除 AI 生成内容中的幻觉现象。该框架结合了 CoE 审计协议，自动评估 AI 生成论文的完整性，标志着 AI 驱动研究的一个重要进步。",
-        "useCases": [
-          "使用 Science One Framework 生成高质量的科研论文，确保引用的准确性和可验证性。",
-          "利用 CoE 审计协议评估 AI 生成内容的完整性，提升研究的可信度。",
-          "通过构建证据链，避免在研究过程中出现幻觉现象，确保研究结果的可靠性。"
-        ],
-        "watch": "API 调用可能受到配额限制，影响大规模文献检索的效率。",
-        "sourceName": "NewsAPI:large language model",
-        "url": "https://research.google/blog/science-one-framework-a-verifiable-autonomous-research-framework-via-chain-of-evidence/"
       }
     ],
     "ai-office": []
@@ -12748,8 +12986,8 @@
   ],
   "dailyReport": {
     "date": "2026-08-25",
-    "generatedAt": "2026-08-25T00:31:15.957562Z",
-    "total": 9,
+    "generatedAt": "2026-08-25T03:02:09.815853Z",
+    "total": 16,
     "sections": [
       {
         "category": "ai-coding",
@@ -12764,6 +13002,23 @@
             "sourceCount": 1,
             "date": "2026-08-25",
             "publishedAt": "2026-08-25T03:32",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "category": "ai-image-video",
+        "label": "图像视频",
+        "items": [
+          {
+            "title": "Beyond Visual CoT: Internalized Visual Thinking for Proactive Video Reasoning",
+            "summary": "Multimodal large language models increasingly use visual chain-of-thought (Visual CoT) to reason about spatial, temporal, and embodied envir",
+            "source": "RSS · Apple ML Research",
+            "url": "https://machinelearning.apple.com/research/internalized-visual-thinking",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-24",
+            "publishedAt": "2026-08-24T08:00",
             "reason": ""
           }
         ]
@@ -12856,6 +13111,50 @@
             "reason": ""
           },
           {
+            "title": "Action-Aligned Retrieval with Pairwise Multimodal Reranking for Text-Based Person Anomaly Search",
+            "summary": "Text-based person anomaly search requires distinguishing individuals based on fine-grained, context-dependent behaviors rather than mere app",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.23503v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-24",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "How to Train a Critic Stably and Efficiently",
+            "summary": "Group-based reinforcement learning methods such as GRPO for large language models avoid training a critic by sampling multiple responses for",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.23566v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-24",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "StrategyBench: Evaluating Explicit Strategy Induction in Large Language Models",
+            "summary": "As large language models are increasingly used in data-scarce and evolving task scenarios, few-shot in-context learning (ICL) has become a k",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.23475v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-24",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Walking on the DARKSIDE",
+            "summary": "Large Language Models (LLMs) recognise patterns but do not natively track the path of exclusions that a coherent discourse demands. When an ",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.23370v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-24",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
             "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
             "summary": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
             "source": "RSS · OpenAI Blog",
@@ -12864,6 +13163,34 @@
             "sourceCount": 1,
             "date": "2026-08-24",
             "publishedAt": "2026-08-24T20:00",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "category": "ai-research",
+        "label": "论文研究",
+        "items": [
+          {
+            "title": "A Comprehensive Analysis of Arabic Natural Language Processing Research: Trends, Topic Evolution, and Research Gaps -- A Bibliometric and Topic-Based Study",
+            "summary": "Natural Language Processing (NLP) has grown rapidly over the past decade, driven by digital transformation in the Arab world, social media, ",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.23421v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-24",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Systematic Bias in Green Patent Classification: Silent Green and False Green",
+            "summary": "Green-patent indicators built on Cooperative Patent Classification Y02 tags are widely used in research, policy, and investment, yet their c",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.23420v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-24",
+            "publishedAt": "",
             "reason": ""
           }
         ]
