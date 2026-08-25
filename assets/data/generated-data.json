@@ -1,7 +1,63 @@
 {
   "lastUpdated": "2026-08-26",
-  "generatedAt": "2026-08-25T16:55:21.887159Z",
+  "generatedAt": "2026-08-25T20:26:04.604793Z",
   "news": [
+    {
+      "title": "AgentHands: Generating interactive hand gestures for spatially grounded agent conversations in XR",
+      "summary": "Human-Computer Interaction and Visualization",
+      "category": "ai-agents",
+      "source": "RSS · Google Research",
+      "date": "2026-08-26",
+      "publishedAt": "2026-08-26T03:10",
+      "collectedAt": "2026-08-26T04:26",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://research.google/blog/agenthands-generating-interactive-hand-gestures-for-spatially-grounded-agent-conversations-in-xr/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Agentic observability with Amazon OpenSearch Service MCP Apps",
+      "summary": "Amazon OpenSearch Service now supports MCP Apps, which return interactive visualizations alongside your AI agent's text responses. Learn how a single, locally run MCP server lets y",
+      "category": "ai-agents",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-08-26",
+      "publishedAt": "2026-08-26T03:00",
+      "collectedAt": "2026-08-26T03:16",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/agentic-observability-with-amazon-opensearch-service-mcp-apps/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "5 ways to upgrade your home decor with Google Search",
       "summary": "Learn how to use Google Search tools to find home decor inspiration, shop for furniture, and tackle DIY projects.",
@@ -55,6 +111,33 @@
       "moduleTargets": [
         "news",
         "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Introducing the Admin plugin for ChatGPT Work and Codex",
+      "summary": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.",
+      "category": "ai-coding",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-08-25",
+      "publishedAt": "2026-08-25T08:00",
+      "collectedAt": "2026-08-26T03:16",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/introducing-admin-plugin",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
       ],
       "sourceCount": 1
     },
@@ -3734,158 +3817,6 @@
       "_style": "critic",
       "moduleTargets": [
         "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "NVIDIA Nemotron 3.5 Lightning 在 Amazon SageMaker JumpStart 上线",
-      "summary": "NVIDIA Nemotron 3.5 Lightning 是一款专为高负载代理工作设计的开放模型，现已在 Amazon SageMaker JumpStart 上线。该模型支持高达 4 倍的吞吐量和 30% 的任务完成速度提升，适合需要持续运行的代理应用。尽管如此，仍需注意其在特定场景下的局限性。",
-      "category": "ai-agents",
-      "tags": [
-        "NVIDIA",
-        "Nemotron",
-        "SageMaker",
-        "AI模型",
-        "高吞吐量"
-      ],
-      "keyPoints": [
-        "Nemotron 3.5 Lightning 采用混合专家架构，具有 30B 总参数和 3B 活跃参数，适合单个支持的 GPU 运行。",
-        "该模型在高负载代理工作中可实现高达 4 倍的吞吐量和 30% 的任务完成速度提升，优化了资源使用。",
-        "用户可以通过 Amazon SageMaker JumpStart 部署该模型，无需自行配置服务基础设施，降低了技术门槛。",
-        "Nemotron 3.5 Lightning 是从 NVIDIA 的 Nemotron 3 Ultra 精炼而来，专注于代理工具的使用，支持开放数据集训练。",
-        "该模型适用于多种代理任务，但并非所有步骤都需要使用前沿模型，较小的专用模型在许多情况下更为高效。"
-      ],
-      "background": "NVIDIA Nemotron 3.5 Lightning 是一款新发布的开放模型，旨在满足高负载代理工作的需求。与之前的 Nemotron 3 Ultra 相比，Nemotron 3.5 Lightning 通过混合专家架构实现了更高的效率，适合在不需要前沿模型的情况下处理大量重复性任务。该模型的推出标志着 NVIDIA 在 AI 领域的持续创新，尤其是在代理应用的优化方面。与其他同类模型相比，Nemotron 3.5 Lightning 的开放性和可定制性使其在市场上具备一定的竞争优势。",
-      "impact": "Nemotron 3.5 Lightning 的推出将使开发者能够更高效地构建和部署代理应用，尤其是在需要处理大量数据和任务的场景中。通过降低技术门槛，更多的团队可以利用这一模型来优化工作流程，提升生产力。此外，该模型的开放性也鼓励了社区的参与和创新，可能会引发更多基于此模型的应用开发。然而，企业在选择使用时仍需考虑其适用性和成本效益。",
-      "audience": [
-        "AI 代理开发者",
-        "数据科学家",
-        "云计算工程师",
-        "机器学习研究人员",
-        "企业 IT 管理者"
-      ],
-      "useCases": [
-        "部署 Nemotron 3.5 Lightning 以提升高负载代理任务的处理效率，减少响应时间。",
-        "利用该模型进行数据分类和信息提取，优化业务流程，降低人工干预。",
-        "在云环境中快速搭建和测试代理应用，验证模型性能和适用性。",
-        "结合其他小型专用模型，构建多模型系统，提高整体任务处理能力。",
-        "为特定行业定制 Nemotron 3.5 Lightning，满足行业特定需求。"
-      ],
-      "risks": [
-        "尽管 Nemotron 3.5 Lightning 提供了高吞吐量，但在处理复杂任务时，仍可能面临性能瓶颈，尤其是在资源有限的情况下。",
-        "模型的开放性虽然带来了灵活性，但也可能导致安全性和合规性问题，企业需谨慎管理数据和模型使用。",
-        "使用该模型的成本可能在高负载情况下迅速增加，尤其是当需要频繁调用模型时，需评估 API 费用和预算。",
-        "对于不具备足够技术背景的团队，部署和优化该模型可能仍然存在一定的挑战，影响其实际应用效果。",
-        "模型的兼容性问题可能会影响与现有系统的集成，需确保基础设施的适配性。"
-      ],
-      "reason": "NVIDIA Nemotron 3.5 Lightning 的推出为高负载代理工作提供了高效的解决方案，值得关注其在实际应用中的表现和潜在影响。",
-      "scores": {
-        "importance": 75,
-        "novelty": 80,
-        "firsthand": 90,
-        "impact": 70,
-        "credibility": 85
-      },
-      "url": "https://aws.amazon.com/blogs/machine-learning/nvidia-nemotron-3-5-lightning-now-available-in-amazon-sagemaker-jumpstart/",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-08-18",
-      "publishedAt": "2026-08-18T02:06",
-      "collectedAt": "2026-08-18T02:25",
-      "dateStatus": "verified",
-      "tier": "T1",
-      "score": 78,
-      "aiSelected": true,
-      "_style": "critic",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "NVIDIA 利用 ChatGPT Work 提升工作效率",
-      "summary": "NVIDIA 团队通过 ChatGPT Work 减少手动任务、快速连接动态信号，并在全球范围内扩展成功的工作流程。然而，这一工具的应用也面临着一些挑战，包括对特定任务的适用性和潜在的成本问题。",
-      "category": "ai-tools",
-      "tags": [
-        "NVIDIA",
-        "ChatGPT Work",
-        "工作效率",
-        "自动化",
-        "人工智能"
-      ],
-      "keyPoints": [
-        "NVIDIA 使用 ChatGPT Work 来自动化手动任务，提升工作效率。",
-        "该工具能够快速连接和处理动态信号，帮助团队及时响应变化。",
-        "ChatGPT Work 在全球范围内推广成功的工作流程，促进团队协作。",
-        "NVIDIA 的实施案例显示，使用该工具后，工作效率提升了约30%。",
-        "尽管如此，ChatGPT Work 的使用仍需考虑成本和技术兼容性问题。"
-      ],
-      "background": "NVIDIA 作为全球领先的 GPU 制造商，近年来积极探索人工智能技术的应用。ChatGPT Work 是其最新推出的工具，旨在通过自动化和智能化手段提升团队的工作效率。与传统的手动工作流程相比，ChatGPT Work 能够快速处理信息，减少人为错误，并在全球范围内推广成功的工作模式。尽管这一工具在提升效率方面表现出色，但在实际应用中，团队仍需面对技术适配和成本控制等挑战。",
-      "impact": "ChatGPT Work 的推出将使得 NVIDIA 的团队能够更高效地处理复杂任务，尤其是在快速变化的市场环境中。通过减少手动操作，团队可以将更多精力投入到创新和战略决策上。此外，其他企业也可能借鉴 NVIDIA 的经验，推动自身的工作流程自动化，形成更广泛的行业影响。然而，若未能妥善管理成本和技术兼容性，可能会导致资源浪费和效率下降。",
-      "audience": [
-        "项目经理",
-        "数据分析师",
-        "软件开发人员",
-        "IT 运维人员",
-        "企业管理者"
-      ],
-      "useCases": [
-        "自动化日常报告生成，提高数据处理效率。",
-        "利用 ChatGPT Work 进行市场趋势分析，快速响应市场变化。",
-        "在团队协作中使用该工具，提升信息共享和沟通效率。"
-      ],
-      "risks": [
-        "ChatGPT Work 的使用可能导致对特定任务的依赖，降低团队的灵活性。",
-        "API 的使用成本可能会增加，尤其是在高频率调用的情况下。",
-        "技术兼容性问题可能导致部分旧系统无法顺利集成，影响工作流程。"
-      ],
-      "reason": "NVIDIA 的 ChatGPT Work 提供了一个高效的工作流程自动化解决方案，值得关注其在实际应用中的表现与挑战。",
-      "scores": {
-        "importance": 75,
-        "novelty": 60,
-        "firsthand": 80,
-        "impact": 70,
-        "credibility": 85
-      },
-      "url": "https://openai.com/index/nvidia/chatgpt-work",
-      "source": "RSS · OpenAI Blog",
-      "date": "2026-08-18",
-      "publishedAt": "2026-08-18T08:00",
-      "collectedAt": "2026-08-19T13:43",
-      "dateStatus": "verified",
-      "tier": "T1",
-      "score": 72,
-      "aiSelected": true,
-      "_style": "critic",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Can Large Language Models Explain Flight Safety Events? A Prior-Guided Semantic LLM-based Approach",
-      "summary": "Improving flight safety with flight data requires not only accurate detection of risk events, but more importantly, clear interpretation of their underlying causes at the level of ",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-08-18",
-      "publishedAt": "",
-      "collectedAt": "2026-08-20T01:03",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-18",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.18017v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
       ],
       "sourceCount": 1
     }
@@ -7574,6 +7505,28 @@
     ],
     "ai-agents": [
       {
+        "name": "AgentHands: Generating interactive hand gestures for spatial",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Human-Computer Interaction and Visualization",
+        "description": "Human-Computer Interaction and Visualization",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Google Research",
+        "url": "https://research.google/blog/agenthands-generating-interactive-hand-gestures-for-spatially-grounded-agent-conversations-in-xr/"
+      },
+      {
+        "name": "Agentic observability with Amazon OpenSearch Service MCP App",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Amazon OpenSearch Service now supports MCP Apps, which return interactive visualizations alongside your AI agent's text responses. Learn how a single, locally r",
+        "description": "Amazon OpenSearch Service now supports MCP Apps, which return interactive visualizations alongside your AI agent's text responses. Learn how a single, locally run MCP server lets y",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/agentic-observability-with-amazon-opensearch-service-mcp-apps/"
+      },
+      {
         "name": "Legal AI Race Heats Up: Google Targets Law Firms With Gemini",
         "provider": "NDTV Profit",
         "type": "AI 项目/工具",
@@ -8027,38 +7980,6 @@
         "watch": "在使用 Amazon Bedrock AgentCore 时，需注意 API 调用的配额限制，避免超出限制导致服务中断。",
         "sourceName": "RSS · AWS Machine Learning",
         "url": "https://aws.amazon.com/blogs/machine-learning/how-axonius-built-secure-multi-tenant-ai-agents-on-bedrock-agentcore/"
-      },
-      {
-        "name": "依赖 AI 办公的隐患：思维能力的损失",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "对于依赖 AI 的团队，尤其是政策制定者和内容创作者，必须重新审视 AI 的使用方式。过度依赖 AI 可能导致对信息的盲目接受，进而影响决策的质量。团队需要在使用 AI 的同时，保持对信息来源的批判性思维，确保最终成果的准确性。此外，企业在培训员工时，也应强调思维能力的重要性，以避免因依赖 AI 而导致的知识流失。",
-        "description": "这次发布的核心点是，过度依赖生成式 AI 处理工作任务可能导致我们失去对知识的深刻理解，最终影响思维能力和判断力。虽然 AI 能迅速生成看似完美的文档，但其背后隐藏的错误和缺陷却可能让我们在决策时陷入困境。",
-        "useCases": [
-          "审查 AI 生成的文档，确保引用的准确性和来源的可靠性。",
-          "在团队讨论中，结合 AI 生成的内容与人工分析，提升决策质量。",
-          "定期培训员工，强调思维能力和批判性分析的重要性。"
-        ],
-        "watch": "AI 生成内容的准确性无法保证，可能导致错误信息的传播。",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://theconversation.com/offloading-work-tasks-to-ai-comes-with-a-cost-to-our-brains-289384"
-      },
-      {
-        "name": "AI 生成文本的潜在风险与思维影响",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "AI生成文本的普及可能导致决策者在信息筛选和判断上变得更加依赖技术，而非自身的分析能力。这种趋势可能使得决策过程更加机械化，降低了对信息的深度理解和批判性评估能力。此外，企业和政府在使用AI生成内容时，必须加强对生成文本的审核，以避免因错误信息导致的重大损失。",
-        "description": "在高压环境下，团队常依赖生成式人工智能（AI）快速撰写政策文件。然而，AI生成的内容虽然表面光鲜，却可能隐藏严重错误，影响决策质量。研究显示，过度依赖AI可能削弱我们的批判性思维能力，导致对信息的误解和错误判断。",
-        "useCases": [
-          "使用AI生成初稿，快速构建政策文件的框架和要点。",
-          "将AI生成的文本与团队成员的反馈结合，进行内容修订和完善。",
-          "利用AI工具进行文献检索，快速获取相关领域的研究资料。",
-          "在撰写报告时，使用AI辅助生成数据分析和可视化图表。",
-          "通过AI分析历史数据，预测政策实施后的潜在影响。"
-        ],
-        "watch": "AI生成内容可能包含虚假信息，需进行严格审核以避免决策失误。",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.miragenews.com/ai-workload-shift-brain-impact-unveiled-1729403/"
       }
     ],
     "ai-models": [
@@ -9730,6 +9651,17 @@
     ],
     "ai-image-video": [
       {
+        "name": "OpenRouter 视频生成 API：一份代码优先的接入指南",
+        "provider": "OpenRouter：Announcements（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenRouter 推出统一的异步视频生成 API，通过 POST /api/v1/videos 提交任务、轮询状态并下载 MP4，支持 Seedance、Veo、Wan 等模型，切换模型只需更改 model 标识符。",
+        "description": "OpenRouter 推出统一的异步视频生成 API，通过 POST /api/v1/videos 提交任务、轮询状态并下载 MP4，支持 Seedance、Veo、Wan 等模型，切换模型只需更改 model 标识符。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "OpenRouter：Announcements（RSS）",
+        "url": "https://openrouter.ai/blog/tutorials/video-generation-api"
+      },
+      {
         "name": "How Insta360's new AI can edit your videos for you",
         "provider": "The Cairns Post",
         "type": "AI 项目/工具",
@@ -10308,23 +10240,6 @@
         "watch": "API 调用的费用可能较高，需考虑预算限制。",
         "sourceName": "中国一手 · MiniMax 新闻",
         "url": "https://platform.minimaxi.com/docs/guides/video-generation?ready=6"
-      },
-      {
-        "name": "Pangram Labs 获得 900 万美元融资以提升文本和图像的 AI 检测精度",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "Pangram Labs 的新融资和技术进步将使其在教育、媒体和出版等多个行业中得到广泛应用。随着 AI 生成内容的增加，出版商和教育工作者将更依赖于准确的检测工具，以确保信息的真实性。此外，Pangram 的技术进步可能会促使其他公司加大对 AI 检测技术的投资，从而推动整个行业的发展。随着检测技术的提升，教育机构可",
-        "description": "Pangram Labs Inc. 宣布获得 900 万美元融资，主要由 Menlo Ventures 领投，旨在提升其文本检测的准确性，并扩展到图像等其他媒体。该公司以其行业领先的 AI 检测平台而闻名，声称其假阳性率为 1/10,000。",
-        "useCases": [
-          "使用 Pangram 4 检测文本内容的真实性，确保信息来源可靠。",
-          "利用图像检测模型识别 AI 生成的图像，防止深度伪造内容的传播。",
-          "为教育机构提供准确的 AI 检测工具，帮助教师评估学生作业的真实性。",
-          "支持内容创作者在发布前验证其作品的原创性，维护版权。",
-          "为技术投资者提供关于 AI 检测市场的洞察，指导投资决策。"
-        ],
-        "watch": "Pangram 的检测工具可能在某些情况下出现假阳性，导致误判。",
-        "sourceName": "NewsAPI:large language model",
-        "url": "https://siliconangle.com/2026/07/29/pangram-labs-raises-9m-launch-accurate-ai-detection-text-images/"
       }
     ],
     "ai-research": [
@@ -12268,13 +12183,24 @@
   ],
   "dailyReport": {
     "date": "2026-08-26",
-    "generatedAt": "2026-08-25T16:55:21.853164Z",
-    "total": 15,
+    "generatedAt": "2026-08-25T20:26:04.578801Z",
+    "total": 18,
     "sections": [
       {
         "category": "ai-coding",
         "label": "AI 编程",
         "items": [
+          {
+            "title": "Introducing the Admin plugin for ChatGPT Work and Codex",
+            "summary": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin ",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/introducing-admin-plugin",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-25",
+            "publishedAt": "2026-08-25T08:00",
+            "reason": ""
+          },
           {
             "title": "Introducing new Ray capabilities on SageMaker HyperPod",
             "summary": "Amazon SageMaker HyperPod now offers managed Ray support on Amazon EKS. Create and monitor Ray clusters, connect JupyterLab and Code Editor ",
@@ -12292,6 +12218,28 @@
         "category": "ai-agents",
         "label": "Agent / MCP",
         "items": [
+          {
+            "title": "AgentHands: Generating interactive hand gestures for spatially grounded agent conversations in XR",
+            "summary": "Human-Computer Interaction and Visualization",
+            "source": "RSS · Google Research",
+            "url": "https://research.google/blog/agenthands-generating-interactive-hand-gestures-for-spatially-grounded-agent-conversations-in-xr/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-26",
+            "publishedAt": "2026-08-26T03:10",
+            "reason": ""
+          },
+          {
+            "title": "Agentic observability with Amazon OpenSearch Service MCP Apps",
+            "summary": "Amazon OpenSearch Service now supports MCP Apps, which return interactive visualizations alongside your AI agent's text responses. Learn how",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/agentic-observability-with-amazon-opensearch-service-mcp-apps/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-26",
+            "publishedAt": "2026-08-26T03:00",
+            "reason": ""
+          },
           {
             "title": "Building a restaurant telephony AI host with Amazon Connect",
             "summary": "Learn how to build a voice ordering system for restaurants that answers a phone call and takes an order end to end, with no app, no website,",
