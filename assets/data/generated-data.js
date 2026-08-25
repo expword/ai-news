@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-08-25",
-  "generatedAt": "2026-08-25T13:09:18.911281Z",
+  "generatedAt": "2026-08-25T15:43:30.819773Z",
   "news": [
     {
       "title": "Disrupting a new covert influence campaign from Russia",
@@ -7356,6 +7356,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "Legal AI Race Heats Up: Google Targets Law Firms With Gemini",
+        "provider": "NDTV Profit",
+        "type": "AI 项目/工具",
+        "bestFor": "Google's new solution is made to be adaptable for law firms\n\nImage: Unsplash\n\nGemini Enterprise for Legal, a purpose-built agentic AI solution designed especial",
+        "description": "Google's new solution is made to be adaptable for law firms\n\nImage: Unsplash\n\nGemini Enterprise for Legal, a purpose-built agentic AI solution designed especially for the stringent",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NDTV Profit",
+        "url": "https://www.ndtvprofit.com/technology/legal-ai-race-heats-up-google-targets-law-firms-with-gemini-enterprise-expansion-11957164"
+      },
+      {
         "name": "Property hunting enters the AI agent era",
         "provider": "ITWeb",
         "type": "AI 项目/工具",
@@ -7830,24 +7841,86 @@ window.AI_GENERATED_DATA = {
         "watch": "AI生成内容可能包含虚假信息，需进行严格审核以避免决策失误。",
         "sourceName": "NewsData.io:AI agent",
         "url": "https://www.miragenews.com/ai-workload-shift-brain-impact-unveiled-1729403/"
-      },
-      {
-        "name": "微软 Copilot 漏洞曝光，Azure 数据泄露与德克萨斯大学网络攻击事件",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "这些事件对多个群体产生了深远影响。首先，开发者需要重新审视使用 AI 工具时的数据安全策略，确保敏感信息不被泄露。其次，企业在选择云服务提供商时，必须考虑其安全性和应对能力，以避免潜在的数据泄露风险。此外，教育机构也需要加强网络安全防护，确保学生和教职员工的数据安全。整体来看，这些事件促使各行业重新评估其网络安全措施，",
-        "description": "我注意到最近微软 Copilot 的一个漏洞被称为 \"CoSnitch\"，它允许通过未记录的 URL 参数进行数据泄露。同时，关于 Azure 的员工数据泄露的指控也引发了广泛关注，德克萨斯大学则因网络攻击而关闭了部分系统。这些事件揭示了当前 AI 和网络安全领域的潜在风险。",
-        "useCases": [
-          "评估 Copilot 的安全性，确保在开发过程中不泄露敏感数据。",
-          "制定企业级的云服务安全策略，降低数据泄露风险。",
-          "在教育机构中实施更严格的网络安全措施，保护师生信息。"
-        ],
-        "watch": "使用 Copilot 时可能无意中泄露敏感信息，导致数据安全隐患。",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.itsecuritynews.info/copilot-snitches-on-itself-hacker-leaks-azure-data-and-texas-university-deals-with-cyber-attack/"
       }
     ],
     "ai-models": [
+      {
+        "name": "Google Offers College Students Free AI Plans for a Year, Exp",
+        "provider": "TechAfrica News",
+        "type": "AI 项目/工具",
+        "bestFor": "For eligible college students outside the US, Google is offering one year of Google AI Plus for free. The plan includes access to Gemini Omni, higher usage limi",
+        "description": "For eligible college students outside the US, Google is offering one year of Google AI Plus for free. The plan includes access to Gemini Omni, higher usage limits in Gemini and 400",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "TechAfrica News",
+        "url": "https://techafricanews.com/2026/08/25/google-free-ai-plans-college-students-gemini-study-tools/"
+      },
+      {
+        "name": "Apple debuts its 'most powerful chip ever' in M5 Ultra and M",
+        "provider": "TechCrunch",
+        "type": "AI 项目/工具",
+        "bestFor": "Apple announced two new processors on Tuesday, which power its new Mac Mini and Mac Studio models: the M5 Ultra and M6 chips.\n\nThe M5 Ultra, which Apple deems i",
+        "description": "Apple announced two new processors on Tuesday, which power its new Mac Mini and Mac Studio models: the M5 Ultra and M6 chips.\n\nThe M5 Ultra, which Apple deems its \"most powerful ch",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "TechCrunch",
+        "url": "https://techcrunch.com/2026/08/25/apple-debuts-its-most-powerful-chip-ever-in-m5-ultra-and-m6/"
+      },
+      {
+        "name": "How StylAI is using RAG to turn AI fashion advice into a per",
+        "provider": "The South African",
+        "type": "AI 项目/工具",
+        "bestFor": "Vijay Dachepally has spent more than five years building backend services, distributed systems, and cloud applications. As a Software Development Engineer II at",
+        "description": "Vijay Dachepally has spent more than five years building backend services, distributed systems, and cloud applications. As a Software Development Engineer II at Amazon in Austin, T",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The South African",
+        "url": "https://www.thesouthafrican.com/lifestyle/fashion-and-beauty/how-stylai-is-using-rag-to-turn-ai-fashion-advice-into-a-personal-stylist/"
+      },
+      {
+        "name": "Daily Search Forum Recap: August 25, 2026",
+        "provider": "Search Engine Roundtable",
+        "type": "AI 项目/工具",
+        "bestFor": "Here is a recap of what happened in the search forums today, through the eyes of the Search Engine Roundtable and other search forums on the web.\n\nGoogle Ads is",
+        "description": "Here is a recap of what happened in the search forums today, through the eyes of the Search Engine Roundtable and other search forums on the web.\n\nGoogle Ads is testing using Gemin",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Search Engine Roundtable",
+        "url": "https://www.seroundtable.com/recap-08-25-2026-41938.html"
+      },
+      {
+        "name": "Takaichi skips controversial shrine visit on 81st anniversar",
+        "provider": "RocketNews | Top News Stories From Around the Globe",
+        "type": "AI 项目/工具",
+        "bestFor": "Japan marked the 81st anniversary of its World War II surrender, with Prime Minister Sanae Takaichi declining to visit Tokyo's Yasukuni Shrine, a move apparentl",
+        "description": "Japan marked the 81st anniversary of its World War II surrender, with Prime Minister Sanae Takaichi declining to visit Tokyo's Yasukuni Shrine, a move apparently intended to reduce",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RocketNews | Top News Stories From Around the Globe",
+        "url": "https://rocketnews.com/2026/08/takaichi-skips-controversial-shrine-visit-on-81st-anniversary-of-countrys-world-war-ii-surrender-3/"
+      },
+      {
+        "name": "苹果推出 M6 和 M5 Ultra，性能和 AI 算力大幅跃升",
+        "provider": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "type": "AI 项目/工具",
+        "bestFor": "苹果发布首款 2nm 芯片 M6 和迄今最强芯片 M5 Ultra，分别搭载于新款 Mac mini 与 Mac Studio。",
+        "description": "苹果发布首款 2nm 芯片 M6 和迄今最强芯片 M5 Ultra，分别搭载于新款 Mac mini 与 Mac Studio。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute"
+      },
+      {
+        "name": "Apple 推出搭载 M5 Max 与 M5 Ultra 的全新 Mac Studio",
+        "provider": "Apple：Newsroom（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "Apple 发布搭载 M5 Max 与全新 M5 Ultra 的 Mac Studio，AI 性能最高提升 4.3 倍，图形性能提升 1.8 倍，存储速度提升 2 倍。M5 Ultra 版本支持最高 512GB 统一内存与 1.2TB/s 内存带宽，可完全在设备端运行大型 LLM；四台集群可带来最高 3 倍分布式 AI",
+        "description": "Apple 发布搭载 M5 Max 与全新 M5 Ultra 的 Mac Studio，AI 性能最高提升 4.3 倍，图形性能提升 1.8 倍，存储速度提升 2 倍。M5 Ultra 版本支持最高 512GB 统一内存与 1.2TB/s 内存带宽，可完全在设备端运行大型 LLM；四台集群可带来最高 3 倍分布式 AI 推理速度提升。新品今日起接受预购，9 ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Apple：Newsroom（RSS）",
+        "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra"
+      },
       {
         "name": "Survey: Over 64% of firms in HK, mainland deploy AI in produ",
         "provider": "chinadailyhk",
@@ -8264,99 +8337,6 @@ window.AI_GENERATED_DATA = {
         "watch": "自定义过程中可能会遇到 API 费用和配额限制，需提前评估预算。",
         "sourceName": "RSS · AWS Machine Learning",
         "url": "https://aws.amazon.com/blogs/machine-learning/customize-amazon-quick-embedded-chat-into-your-application/"
-      },
-      {
-        "name": "GLM-5.3上线：AA智能指数60分并列开源第一，成本更低",
-        "provider": "公众号：智谱（GLM）",
-        "type": "AI 项目/工具",
-        "bestFor": "GLM-5.3 API即日上线，擅长复杂编码、防御性网络安全与长程任务，在AA综合智能指数中取得60分，与Claude Fable 5、GPT-5.6 Sol等闭源旗舰同级，并与Kimi K3并列开源模型第一。该模型以更小参数规模和更低调用成本降低前沿智能门槛，单任务成本为旗舰模型中最低。API定价与GLM-5.2持平",
-        "description": "GLM-5.3 API即日上线，擅长复杂编码、防御性网络安全与长程任务，在AA综合智能指数中取得60分，与Claude Fable 5、GPT-5.6 Sol等闭源旗舰同级，并与Kimi K3并列开源模型第一。该模型以更小参数规模和更低调用成本降低前沿智能门槛，单任务成本为旗舰模型中最低。API定价与GLM-5.2持平，模型权重将于下周五开源。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "公众号：智谱（GLM）",
-        "url": "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&mid=2247494105&idx=1&sn=8d7409e0fb846a3c7803c142b5d1a8e7"
-      },
-      {
-        "name": "Strengthening democratic oversight in national security",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, training, and expert",
-        "description": "OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, training, and expertise.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · OpenAI Blog",
-        "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security"
-      },
-      {
-        "name": "Apple iOS 27 beta 6 update is here: What is new, how to down",
-        "provider": "Digit",
-        "type": "AI 项目/工具",
-        "bestFor": "After rolling out iOS 27 beta 5 for developers last week, Apple has now released the fifth beta of the software. While the latest update is designed for develop",
-        "description": "After rolling out iOS 27 beta 5 for developers last week, Apple has now released the fifth beta of the software. While the latest update is designed for developers, anyone who is e",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Digit",
-        "url": "https://www.digit.in/news/mobile-phones/apple-ios-27-beta-6-update-is-here-what-is-new-how-to-download-and-supported-devices.html"
-      },
-      {
-        "name": "iPhone 18 发布热度激增，用户期待不断攀升",
-        "provider": "The Financial Express",
-        "type": "AI 项目/工具",
-        "bestFor": "iPhone 18 的发布将吸引大量苹果粉丝和潜在用户，尤其是在高端市场。对于开发者和应用程序设计师来说，新机型的推出意味着需要优化应用以适应更强大的硬件和新功能。此外，苹果的分阶段发布策略可能会影响消费者的购买决策，促使他们在等待新机型的同时，重新考虑现有产品的使用。整体来看，这将对整个智能手机市场产生连锁反应，推动",
-        "description": "我注意到，随着苹果即将发布 iPhone 18 系列，用户的关注度显著上升。根据 Google Trends 数据，过去 24 小时内，关于 iPhone 18 的搜索兴趣在印度激增，尤其是对其发布日期的关注，较前一天增长了 80%。预计苹果将在 2026 年秋季和 2027 年春季分阶段推出新机型，进一步提升市场期待。",
-        "useCases": [
-          "分析 iPhone 18 的市场趋势，制定相应的营销策略。",
-          "优化应用程序以适应新发布的 iPhone 18 的硬件特性。",
-          "跟踪用户对 iPhone 18 的反馈，调整产品线以满足市场需求。",
-          "利用 Google Trends 数据，评估用户兴趣变化，指导库存管理。",
-          "撰写关于 iPhone 18 的评测文章，吸引技术爱好者的关注。"
-        ],
-        "watch": "苹果的分阶段发布可能导致消费者对新机型的期待过高，若未能满足，可能影响品牌形象。",
-        "sourceName": "The Financial Express",
-        "url": "https://www.financialexpress.com/life/technology-google-trends-interest-in-apple-iphone-18s-release-date-spikes-as-launch-expectations-grow-4320032/"
-      },
-      {
-        "name": "A Multimodal Dataset for Large Language Model Applications i",
-        "provider": "Nature",
-        "type": "AI 项目/工具",
-        "bestFor": "We are providing an unedited version of this manuscript to give early access to its findings. Before final publication, the manuscript will undergo further edit",
-        "description": "We are providing an unedited version of this manuscript to give early access to its findings. Before final publication, the manuscript will undergo further editing. Please note the",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Nature",
-        "url": "https://www.nature.com/articles/s41597-026-08075-5"
-      },
-      {
-        "name": "支付宝推出首个全栈 AI 商务平台，助力商家转型",
-        "provider": "SecurityBrief Asia",
-        "type": "AI 项目/工具",
-        "bestFor": "该平台的推出将改变商家的运营模式，尤其是那些尚未采用 AI 服务的商家。通过提供便捷的工具，商家能够更快速地适应市场变化，提升用户体验。此外，消费者也将受益于更智能的服务，能够通过简单的对话完成复杂的任务。随着 AI 代理的普及，商业生态将变得更加高效和互联，推动整个行业的转型。",
-        "description": "支付宝近日推出了中国首个全栈 AI 商务平台，旨在帮助商家从数字化运营转向 AI 驱动的运营。该平台提供多种 AI 商务工具，支持商家独立或联合使用，助力其提升服务效率和用户体验。通过整合支付、身份验证和风险管理等功能，支付宝希望将 AI 代理融入日常商业活动中，推动商业生态的转型。",
-        "useCases": [
-          "将现有产品页面转化为 AI 代理技能，提升用户交互体验。",
-          "通过 Ah Bao 进行日常服务的预订，如宠物服务和电动车充电桩查找。",
-          "利用平台提供的工具，快速响应市场需求，优化运营流程。"
-        ],
-        "watch": "商家在使用平台时可能面临 API 费用和配额限制，需谨慎评估成本。",
-        "sourceName": "SecurityBrief Asia",
-        "url": "https://securitybrief.asia/story/alipay-launches-ai-commerce-platform-for-merchants"
-      },
-      {
-        "name": "特朗普媒体集团2026年第二季度财报分析",
-        "provider": "The Motley Fool",
-        "type": "AI 项目/工具",
-        "bestFor": "这份财报对投资者和行业分析师具有重要意义。首先，收入的增长表明公司在广告和订阅服务方面的市场需求强劲，可能会吸引更多投资者关注。其次，Truth API的推出为公司开辟了新的收入渠道，尤其是在金融科技领域，可能会改变市场竞争格局。最后，合并计划的推进将增强公司的市场地位，提升其在能源安全和AI基础设施方面的竞争力。",
-        "description": "我最近看到特朗普媒体与技术集团（DJT）发布了2026年第二季度的财报，显示出公司在数字资产和媒体生态系统方面的进展。尽管公司面临238.1百万美元的净亏损，但其收入同比增长89%，主要得益于广告和订阅服务的推动。此外，Truth API的推出为公司提供了新的收入来源，预计将吸引金融机构和媒体组织的关注。",
-        "useCases": [
-          "分析财报数据，评估公司财务健康状况。",
-          "利用Truth API获取实时社交媒体数据，优化交易策略。",
-          "关注合并进展，调整投资组合以应对市场变化。",
-          "研究数字资产波动对公司财务的影响，制定风险管理策略。",
-          "探索与特朗普媒体的合作机会，拓展业务范围。"
-        ],
-        "watch": "公司面临的法律费用可能在未来几个季度继续增加，影响财务表现。",
-        "sourceName": "The Motley Fool",
-        "url": "https://www.fool.com/earnings/call-transcripts/2026/08/17/trump-media-djt-q2-2026-earnings-call-transcript/"
       }
     ],
     "ai-business": [
@@ -12080,7 +12060,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-08-25",
-    "generatedAt": "2026-08-25T13:09:18.886249Z",
+    "generatedAt": "2026-08-25T15:43:30.794296Z",
     "total": 24,
     "sections": [
       {
