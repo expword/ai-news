@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-08-25",
-  "generatedAt": "2026-08-25T05:34:49.713627Z",
+  "generatedAt": "2026-08-25T08:09:27.782272Z",
   "news": [
     {
       "title": "MetaRoCE：为 AI 规模以太网打造的全新 RDMA 传输协议",
@@ -191,6 +191,225 @@
       "moduleTargets": [
         "news",
         "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Automated Construction of FAIR Digital Object Knowledge Graphs from Flat Cultural Heritage Records",
+      "summary": "The FAIR Digital Object (FDO) framework mandates that metadata attribute values be expressed as persistent identifiers (PIDs) wherever possible, to produce a fully machine-actionab",
+      "category": "ai-agents",
+      "source": "arXiv",
+      "date": "2026-08-24",
+      "publishedAt": "",
+      "collectedAt": "2026-08-25T14:54",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-24",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.23263v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Dual-Grained Agent Memory and Shapley Context Attribution for Multimodal Agentic Learner",
+      "summary": "Frontier multimodal large language models (MLLMs) deliver impressive perception yet still falter on scientific and mathematical reasoning. Parameter-level adaptation is unavailable",
+      "category": "ai-agents",
+      "source": "arXiv",
+      "date": "2026-08-24",
+      "publishedAt": "",
+      "collectedAt": "2026-08-25T14:54",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-24",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.23268v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "From Natural Language Policies to Executable Obligations: A Verification Harness for Dependable In-Car LLM Agents",
+      "summary": "Large Language Models (LLMs) agents deployed in vehicles must satisfy a written operating policy on every turn: a single hallucinated identifier, omitted mandatory side-effect, or ",
+      "category": "ai-agents",
+      "source": "arXiv",
+      "date": "2026-08-24",
+      "publishedAt": "",
+      "collectedAt": "2026-08-25T14:54",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-24",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.23282v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "IntentQA: Intent Question Answering in Videos by Cognitive Context Reasoning",
+      "summary": "Video understanding requires intelligent agents to transcend mere recognition of visual facts and comprehend the underlying intents behind human actions (often termed the \"dark mat",
+      "category": "ai-agents",
+      "source": "arXiv",
+      "date": "2026-08-24",
+      "publishedAt": "",
+      "collectedAt": "2026-08-25T14:54",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-24",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.23330v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Hidden in the Request: Explaining Unethical LLM Compliance through Token Relevance",
+      "summary": "Although Large Language Models (LLMs) are aligned to optimize for both helpfulness and harmlessness, these dual objectives may conflict, inevitably leading to alignment failures. T",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-08-24",
+      "publishedAt": "",
+      "collectedAt": "2026-08-25T14:54",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-24",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.23264v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "AI-Assisted Extraction of Follow-up Observations from GCN Circulars in Astro-COLIBRI",
+      "summary": "We present a new Astro-COLIBRI component that converts free-text GCN Circulars into structured, event-linked follow-up records and combines them with structured reports submitted d",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-08-24",
+      "publishedAt": "",
+      "collectedAt": "2026-08-25T14:54",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-24",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.23270v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "FormuEvo: LLM-Guided Evolution for Discovering Solver-Efficient Mixed-Integer Programming Formulations",
+      "summary": "Mixed-integer programming (MIP) lies at the core of operations research and industrial optimization. While large language models (LLMs) have recently shown promise in automated MIP",
+      "category": "ai-research",
+      "source": "arXiv",
+      "date": "2026-08-24",
+      "publishedAt": "",
+      "collectedAt": "2026-08-25T14:54",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-24",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.23353v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Beyond the Stability-Exploration Dilemma: Environmental Regularization for LLM Policy Optimization",
+      "summary": "Policy optimization (PO) for Large Language Models faces a stability--exploration trade-off, currently mediated by an action-side Policy-KL regularizer. This puts practitioners in ",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-08-24",
+      "publishedAt": "",
+      "collectedAt": "2026-08-25T14:54",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-24",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.23311v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
       ],
       "sourceCount": 1
     },
@@ -3449,443 +3668,6 @@
       "aiSelected": true,
       "moduleTargets": [
         "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "DeepSeek V4 Pro 0813 vs GPT-5.6 Sol on DeepSWE: Cost, Coding, and Routing",
-      "summary": "We ran 904 DeepSWE rollouts on DeepSeek V4 Pro 0813 and GPT-5.6 Sol. Sol leads pass@1 by 10 points at 35x the cost; Pro wins pass@4, and a Pro-first cascade hits 83.0%.",
-      "category": "ai-coding",
-      "source": "RSS · Together AI",
-      "date": "2026-08-18",
-      "publishedAt": "2026-08-18T08:00",
-      "collectedAt": "2026-08-18T15:09",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://www.together.ai/blog/deepseek-v4-pro-0813-vs-gpt-5-6-sol-on-deepswe-cost-coding-and-routing",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 2,
-      "relatedSources": [
-        {
-          "source": "RSS · Together AI",
-          "url": "https://www.together.ai/blog/glm-5-3-vs-claude-fable-5-on-deepswe-cost-coding-and-routing",
-          "title": "GLM-5.3 vs. Claude Fable 5 on DeepSWE: Cost, Coding, and Routing"
-        }
-      ]
-    },
-    {
-      "title": "Build OpenClaw agents that transact with Amazon Bedrock AgentCore payments",
-      "summary": "Give an autonomous agent a wallet and spending guardrails so it can pay for paywalled APIs, MCP servers, and web content. This post connects OpenClaw to Amazon Bedrock AgentCore pa",
-      "category": "ai-agents",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-08-18",
-      "publishedAt": "2026-08-18T00:19",
-      "collectedAt": "2026-08-18T01:11",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/build-openclaw-agents-that-transact-with-amazon-bedrock-agentcore-payments/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "使用 Google 的 Agent Development Kit 构建零信任 AI 智能体",
-      "summary": "Google 开源了基于 Agent Development Kit (ADK) 和 Gemini 的零信任客服与退货智能体示例，展示了如何通过三层安全机制防御提示注入等攻击。这些机制包括硬件支持的加密签名、gVisor 沙箱隔离动态代码执行以及确定性语义网关校验业务逻辑，确保系统的安全性和可靠性。",
-      "category": "ai-agents",
-      "tags": [
-        "零信任",
-        "AI 智能体",
-        "安全机制",
-        "Google",
-        "开源"
-      ],
-      "keyPoints": [
-        "Google 的 ADK 使构建多工具、自主工作流变得简单，只需少量配置。",
-        "零信任架构通过三层安全机制确保 AI 智能体的安全性，包括加密签名和代码隔离。",
-        "系统提示词并非安全边界，可能被提示注入攻击绕过。",
-        "开源的客服与退货智能体示例可用于测试防御模式，代码和演示可在 GitHub 上找到。",
-        "gVisor 沙箱提供了动态代码执行的隔离环境，防止潜在的安全漏洞。"
-      ],
-      "background": "Google 最近推出了基于 ADK 和 Gemini 的零信任 AI 智能体，旨在提升客户服务和退货处理的安全性。随着 AI 技术的快速发展，传统的安全措施已无法有效防范新型攻击，尤其是在 AI 智能体能够直接与数据库和 API 交互的情况下。通过引入零信任架构，Google 试图在 AI 系统内部建立更强的安全防护，确保即使在复杂的操作环境中，系统也能保持安全和稳定。",
-      "impact": "这一技术的推出将对开发者和企业产生深远影响。首先，开发者可以利用这一框架构建更安全的 AI 应用，降低因安全漏洞导致的风险。其次，企业在使用 AI 智能体处理客户请求时，可以更放心地进行操作，提升客户体验。此外，这一架构的开源特性也将促进社区的参与和创新，推动零信任安全理念的普及。",
-      "audience": [
-        "AI 开发者",
-        "安全工程师",
-        "电商客服团队",
-        "技术架构师",
-        "系统管理员"
-      ],
-      "useCases": [
-        "使用 ADK 创建一个零信任的客服智能体，处理客户的退货请求并确保安全。",
-        "在动态环境中部署 AI 智能体，利用 gVisor 沙箱隔离执行代码，防止安全漏洞。",
-        "通过加密签名机制，确保每次数据库操作的不可抵赖性，提升数据安全性。",
-        "测试和验证 AI 智能体的安全性，防止提示注入攻击，确保系统稳定运行。",
-        "利用开源代码进行二次开发，定制符合企业需求的零信任 AI 解决方案。"
-      ],
-      "risks": [
-        "在使用 ADK 时，需注意 API 调用的配额限制，避免因超出配额导致服务中断。",
-        "确保硬件支持的加密签名功能正常工作，否则可能导致数据篡改风险。",
-        "在动态代码执行环境中，需严格控制资源使用，防止因资源耗尽导致的服务崩溃。",
-        "版本兼容性问题可能导致某些功能无法正常运行，建议定期检查更新。",
-        "使用开源代码时，需关注社区的安全更新，及时修复潜在的安全漏洞。"
-      ],
-      "reason": "这一框架为构建安全的 AI 应用提供了新的思路，尤其是在处理敏感数据时，值得开发者深入了解。",
-      "scores": {
-        "importance": 85,
-        "novelty": 80,
-        "firsthand": 90,
-        "impact": 75,
-        "credibility": 85
-      },
-      "url": "https://developers.googleblog.com/build-zero-trust-ai-agents-with-googles-agent-development-kit",
-      "source": "Google Developers Blog（RSS）",
-      "date": "2026-08-18",
-      "publishedAt": "2026-08-18T07:22",
-      "collectedAt": "2026-08-18T08:33",
-      "dateStatus": "verified",
-      "tier": "T1.5",
-      "score": 66,
-      "aiSelected": true,
-      "_style": "tutorial",
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "亚马逊批量购书用于 AI 训练后销毁引发关注",
-      "summary": "404 Media 通过在珍本图书中放置追踪设备，揭露亚马逊秘密购书行为：大量书籍被扫描用于 AI 训练，随后被销毁。这一行为引发了对知识产权和环境影响的广泛讨论。",
-      "category": "ai-models",
-      "tags": [
-        "亚马逊",
-        "AI 训练",
-        "知识产权",
-        "环境影响",
-        "珍本图书"
-      ],
-      "keyPoints": [
-        "404 Media 通过追踪设备揭示亚马逊在未公开的情况下，批量购入珍本图书用于 AI 训练。",
-        "亚马逊的 VGT3 设施位于拉斯维加斯，专门负责扫描和销毁这些书籍。",
-        "此次调查显示，亚马逊不仅购买大量书籍，还在使用后将其销毁，涉及的书籍数量庞大。",
-        "这一行为引发了对知识产权的质疑，尤其是如何处理版权和书籍的使用。",
-        "环境影响方面，书籍的销毁可能导致资源浪费，引发公众对可持续性的关注。"
-      ],
-      "background": "404 Media 的调查揭示了亚马逊在 AI 训练数据获取方面的隐秘操作。通过在一批珍本图书中放置追踪设备，调查人员追踪到这些书籍最终被送往亚马逊的 AI 训练设施。亚马逊的这一购书行为未曾被广泛报道，显示出其在 AI 领域的激烈竞争和对数据的渴求。与其他科技公司相比，亚马逊的做法在获取训练数据时显得尤为激进，尤其是在涉及珍本书籍的情况下，可能引发更广泛的法律和道德争议。",
-      "impact": "这一事件可能促使更多人关注 AI 训练数据的来源及其对知识产权的影响。对于图书出版行业而言，亚马逊的做法可能导致更多出版社重新审视与科技公司的合作关系。同时，公众对环境影响的关注也可能促使企业在数据获取和资源使用上采取更可持续的做法。长远来看，这可能会影响 AI 训练数据的获取方式，促使行业标准的建立。",
-      "audience": [
-        "知识产权律师",
-        "环保活动家",
-        "图书出版商",
-        "AI 研究人员",
-        "数据科学家"
-      ],
-      "useCases": [
-        "分析亚马逊的购书行为，评估其对知识产权的影响。",
-        "研究 AI 训练数据的获取方式，寻找更合规的替代方案。",
-        "推动对环境影响的讨论，倡导可持续的数据使用策略。"
-      ],
-      "risks": [
-        "亚马逊的购书和销毁行为可能引发法律诉讼，尤其是涉及版权问题时。",
-        "对环境的负面影响可能导致公众对亚马逊的品牌形象产生质疑，影响其市场表现。",
-        "这种大规模的书籍销毁行为可能引发行业内的道德争议，影响其他企业的声誉。"
-      ],
-      "reason": "这条信息揭示了亚马逊在 AI 训练数据获取方面的隐秘操作，值得关注其对知识产权和环境的潜在影响。",
-      "scores": {
-        "importance": 85,
-        "novelty": 75,
-        "firsthand": 90,
-        "impact": 80,
-        "credibility": 85
-      },
-      "url": "https://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "date": "2026-08-18",
-      "publishedAt": "2026-08-18T02:46",
-      "collectedAt": "2026-08-18T03:38",
-      "dateStatus": "verified",
-      "tier": "T1.5",
-      "score": 66,
-      "aiSelected": true,
-      "_style": "critic",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "StartupBench：市场验证的智能体基准测试",
-      "summary": "StartupBench 是一个全新的基准测试工具，专注于评估通用智能体在真实市场环境中的表现。与传统基准不同，它基于真实的 AI 产品工作流，揭示了当前智能体在复杂任务中的局限性。研究显示，即便是最强的模型，成功完成的任务比例也仅为 30%。",
-      "category": "ai-benchmark",
-      "tags": [
-        "基准测试",
-        "智能体",
-        "市场验证",
-        "AI产品",
-        "任务评估"
-      ],
-      "keyPoints": [
-        "StartupBench 通过真实市场验证的工作流来评估智能体的能力，确保测试的实用性。",
-        "当前最强的智能体模型在 StartupBench 上仅能完成约 30% 的任务，显示出其在复杂指令和领域知识上的不足。",
-        "该基准测试的设计旨在填补研究者预设任务与真实用户需求之间的差距。",
-        "StartupBench 的结果揭示了通用智能体在实际应用中的能力边界，提供了重要的参考数据。",
-        "研究团队包括 38 位作者，涵盖了多领域的专业知识，确保了测试的全面性。"
-      ],
-      "background": "StartupBench 的推出是为了应对当前 AI 领域中基准测试的不足。传统的基准往往依赖于研究者设定的任务，缺乏对真实用户需求的反映。StartupBench 通过分析市场上成功的 AI 产品及其工作流，提炼出实际用户所需的任务。这种方法不仅提高了基准测试的相关性，也为开发者提供了更真实的评估标准。与以往的基准相比，StartupBench 更加注重实际应用场景，确保测试结果能够反映出智能体在真实环境中的表现。",
-      "impact": "StartupBench 的推出将对 AI 开发者、产品经理和研究人员产生深远影响。开发者可以利用这一基准测试来评估和优化他们的智能体，确保其能够满足市场需求。产品经理则可以根据测试结果调整产品策略，提升用户体验。此外，研究人员可以通过分析 StartupBench 的数据，深入了解智能体的能力边界，从而推动相关技术的进步。",
-      "audience": [
-        "AI 开发者",
-        "产品经理",
-        "研究人员",
-        "市场分析师",
-        "技术决策者"
-      ],
-      "useCases": [
-        "评估新开发的智能体在真实市场任务中的表现，确保其满足用户需求。",
-        "根据 StartupBench 的结果调整产品功能，提升用户体验和满意度。",
-        "研究智能体在复杂任务中的失败原因，为后续的技术改进提供依据。"
-      ],
-      "risks": [
-        "使用 StartupBench 进行评估时，可能会面临数据不完整或不准确的风险，影响测试结果的可靠性。",
-        "由于基准测试依赖于市场验证的工作流，可能会导致某些领域的任务被忽视，影响全面性。",
-        "在实际应用中，智能体的表现可能受到硬件和软件环境的影响，导致测试结果与实际情况不符。"
-      ],
-      "reason": "StartupBench 通过真实市场验证的工作流，为智能体的评估提供了全新的视角，值得关注。",
-      "scores": {
-        "importance": 85,
-        "novelty": 80,
-        "firsthand": 90,
-        "impact": 75,
-        "credibility": 80
-      },
-      "url": "https://arxiv.org/abs/2608.17800",
-      "source": "HuggingFace Daily Papers（社区热门论文）",
-      "date": "2026-08-18",
-      "publishedAt": "2026-08-18T08:00",
-      "collectedAt": "2026-08-19T12:27",
-      "dateStatus": "verified",
-      "tier": "T1.5",
-      "score": 65,
-      "aiSelected": true,
-      "_style": "reviewer",
-      "moduleTargets": [
-        "news",
-        "benchmarkDatasets"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "全面禁用侵入式 AI 的实用指南",
-      "summary": "本指南为希望减少技术环境中侵入式 AI 的用户提供了详细的操作步骤，涵盖 Windows、Chrome、Edge、Firefox 及主流应用如 Adobe Acrobat、WhatsApp 等。通过这些步骤，用户可以有效管理和控制 AI 的使用，保护个人隐私和数据安全。",
-      "category": "ai-tools",
-      "tags": [
-        "隐私保护",
-        "AI 管理",
-        "技术指南",
-        "应用设置",
-        "用户安全"
-      ],
-      "keyPoints": [
-        "本指南适用于 Windows 11、Chrome、Edge、Firefox 等多个平台，帮助用户全面禁用或避免侵入式 AI。",
-        "提供针对 Adobe Acrobat、Google Workspace、Slack 等主流应用的具体设置步骤，确保用户能够有效管理 AI 功能。",
-        "通过调整设置，用户可以在 5 分钟内完成对多个应用的隐私保护配置，提升数据安全性。",
-        "指南中包含对 Android/Gemini 和 Apple Intelligence 的设置建议，帮助用户在移动设备上也能有效控制 AI 的使用。",
-        "提供了对 DuckDuckGo 和 WhatsApp 的隐私设置建议，确保用户在使用这些应用时能够减少 AI 的干扰。"
-      ],
-      "background": "随着 AI 技术的迅速发展，许多应用程序开始集成侵入式 AI 功能，这可能会对用户的隐私和数据安全造成威胁。用户在使用这些技术时，往往并不清楚如何有效管理和禁用这些功能。本指南旨在为用户提供一套系统的操作步骤，帮助他们在不同平台和应用中减少 AI 的干扰，保护个人信息。",
-      "impact": "本指南的实施将使用户能够更好地控制个人数据的使用，减少不必要的 AI 介入，从而提升用户体验和数据安全。对于企业用户而言，遵循这些步骤可以降低数据泄露的风险，增强客户信任。整体来看，减少侵入式 AI 的使用将推动更健康的技术环境。",
-      "audience": [
-        "普通用户",
-        "企业 IT 管理员",
-        "隐私保护倡导者",
-        "技术支持人员"
-      ],
-      "useCases": [
-        "访问 Windows 设置，禁用不必要的 AI 功能，确保系统隐私设置符合个人需求。",
-        "在 Chrome 浏览器中调整隐私设置，限制 AI 插件的访问权限，提升浏览安全性。",
-        "在 Adobe Acrobat 中关闭 AI 自动化功能，确保文档处理过程不被干扰。",
-        "在 WhatsApp 中调整隐私设置，限制 AI 聊天助手的使用，保护个人对话内容。",
-        "在 Google Workspace 中管理 AI 功能，确保团队协作时数据安全不被侵犯。"
-      ],
-      "risks": [
-        "在禁用 AI 功能时，可能会影响某些应用的正常使用，用户需谨慎评估每项设置的影响。",
-        "部分应用的更新可能会重置隐私设置，用户需定期检查并重新配置，以确保持续保护。",
-        "某些功能禁用后，可能导致应用性能下降，用户需权衡隐私与性能之间的关系。",
-        "在调整设置时，可能会遇到版本兼容性问题，确保使用最新版本的应用程序以避免此类问题。",
-        "部分应用可能会在不同地区有不同的隐私政策，用户需了解当地法律法规，以确保合规。"
-      ],
-      "reason": "这份指南提供了实用的步骤和建议，帮助用户有效管理和禁用侵入式 AI，保护个人隐私，值得一看。",
-      "scores": {
-        "importance": 85,
-        "novelty": 70,
-        "firsthand": 60,
-        "impact": 80,
-        "credibility": 75
-      },
-      "url": "https://www.librarian.net/notoai",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "date": "2026-08-18",
-      "publishedAt": "2026-08-18T01:58",
-      "collectedAt": "2026-08-18T03:38",
-      "dateStatus": "verified",
-      "tier": "T1.5",
-      "score": 61,
-      "aiSelected": true,
-      "_style": "tutorial",
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Cursor 推出 Origin 代码托管服务，挑战 GitHub 的市场地位",
-      "summary": "Cursor 今日正式向付费用户推出 Origin 代码托管服务的早期测试版，旨在为开发者提供一个新的选择。该服务支持仓库创建、拉取请求、代码浏览及与 GitHub 的双向同步，用户可通过 cursor.com/codebase/ 创建新仓库，或将现有 GitHub 仓库迁移至 Origin。集成了 Vercel、Depot 和 Buildkite，智能体功能也在开发中，显示出 Cursor 在代码托管领域的野心。",
-      "category": "ai-coding",
-      "tags": [
-        "代码托管",
-        "GitHub替代",
-        "开发者工具",
-        "Cursor",
-        "Origin"
-      ],
-      "keyPoints": [
-        "Origin 代码托管服务现已向所有付费用户开放早期测试版，提供仓库、拉取请求等功能。",
-        "用户可以创建以 cursor.com/codebase/ 为前缀的仓库，或将 GitHub 仓库双向同步至 Origin。",
-        "已支持与 Vercel、Depot 和 Buildkite 的集成，提升开发效率。",
-        "智能体功能即将推出，进一步增强平台的智能化水平。",
-        "Cursor 通过此举意在挑战 GitHub 的市场主导地位，提供更多选择。"
-      ],
-      "background": "Cursor 的 Origin 代码托管服务是对现有市场的直接挑战，尤其是对 GitHub 的影响。GitHub 作为业界主流的代码托管平台，拥有庞大的用户基础和丰富的功能，但也面临着用户对灵活性和多样性的需求。Origin 的推出，正是为了填补这一空白，提供一个新的选择。与 GitHub 相比，Origin 强调了与其他工具的集成能力，尤其是 Vercel 和 Buildkite，这些都是现代开发流程中不可或缺的工具。通过双向同步功能，用户可以更方便地在不同平台之间切换，减少了迁移成本和学习曲线。",
-      "impact": "推荐给希望寻找 GitHub 替代方案的开发者，尤其是那些对集成和灵活性有较高需求的团队。Origin 的双向同步功能将吸引那些已经在使用 GitHub 的用户，帮助他们更轻松地迁移到新平台。同时，对于初创公司和小型团队，Origin 提供了一个更具成本效益的选择。尽管如此，对于习惯于 GitHub 的用户，转移到新平台可能需要一定的适应期，尤其是在团队协作和项目管理方面。",
-      "audience": [
-        "希望寻找新代码托管平台的开发者",
-        "对集成工具有需求的团队",
-        "正在使用 GitHub 的开发者",
-        "初创公司技术团队",
-        "小型项目开发者"
-      ],
-      "useCases": [
-        "创建新仓库，使用 cursor.com/codebase/ 前缀，便于管理和访问。",
-        "将现有 GitHub 仓库迁移至 Origin，享受双向同步的便利。",
-        "利用与 Vercel 和 Buildkite 的集成，提升开发和部署效率。",
-        "使用 Origin 的拉取请求功能，简化代码审查流程。",
-        "探索即将推出的智能体功能，提升代码管理的智能化水平。"
-      ],
-      "risks": [
-        "API 价格和配额可能会影响小型团队的使用，需提前评估成本。",
-        "商用授权方面的限制可能会影响企业用户的决策，需仔细阅读条款。",
-        "目前的功能仍在测试阶段，可能存在不稳定性，影响开发进度。",
-        "与 GitHub 的兼容性问题可能导致迁移过程中的数据丢失或错误。",
-        "语言支持可能有限，非英语用户在使用时可能遇到障碍。"
-      ],
-      "reason": "Origin 代码托管服务为开发者提供了一个新的选择，尤其适合那些希望摆脱 GitHub 限制的用户，值得关注。",
-      "scores": {
-        "importance": 70,
-        "novelty": 75,
-        "firsthand": 80,
-        "impact": 65,
-        "credibility": 70
-      },
-      "url": "https://cursor.com/changelog/origin-code-hosting",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "date": "2026-08-18",
-      "publishedAt": "2026-08-18T06:14",
-      "collectedAt": "2026-08-18T07:18",
-      "dateStatus": "verified",
-      "tier": "T1.5",
-      "score": 57,
-      "aiSelected": true,
-      "_style": "reviewer",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "谷歌与五大足球俱乐部建立长期合作关系",
-      "summary": "谷歌的 Gemini 和 Pixel 与阿森纳、巴萨、拜仁、利物浦和巴黎圣日耳曼等五大足球俱乐部达成长期合作，旨在通过 AI 和智能手机技术提升球迷的比赛日体验。此合作将为球迷提供深入的比赛数据和独家幕后内容，尤其关注女性足球的推广。",
-      "category": "ai-tools",
-      "tags": [
-        "谷歌",
-        "Gemini",
-        "Pixel",
-        "足球",
-        "合作"
-      ],
-      "keyPoints": [
-        "谷歌于2026年8月17日宣布与阿森纳、巴萨、拜仁、利物浦和巴黎圣日耳曼建立长期合作关系。",
-        "Gemini 将为球迷提供实时比赛数据和深度分析，提升观赛体验。",
-        "Pixel 摄像头将捕捉独家幕后内容，展示男女球队的精彩瞬间。",
-        "此合作特别关注女性足球，旨在提升其全球知名度。",
-        "球迷可通过官方社交媒体获取独家内容和球队壁纸，增强互动体验。"
-      ],
-      "background": "谷歌的 Gemini 和 Pixel 作为官方消费 AI 和智能手机合作伙伴，与五大足球俱乐部的合作标志着其在体育领域的进一步拓展。足球文化不仅仅体现在比赛中，更在于球迷的故事和体验。通过 Gemini，球迷可以更深入地了解比赛和俱乐部的动态，提升他们的参与感。此类合作在过去也曾出现，但谷歌的技术优势和资源整合能力使其在市场中独树一帜。",
-      "impact": "这一合作将使球迷在比赛日享受更丰富的体验，尤其是通过实时数据和独家内容的获取，改变了传统观赛方式。女性足球的推广将吸引更多关注，可能影响赞助商的决策和投资方向。此外，球迷与俱乐部之间的互动将更加紧密，提升品牌忠诚度。整体来看，此合作不仅提升了球迷体验，也为足球产业带来了新的商业机会。",
-      "audience": [
-        "足球迷",
-        "体育营销人员",
-        "数据分析师",
-        "移动应用开发者",
-        "女性足球推广者"
-      ],
-      "useCases": [
-        "使用 Gemini 获取实时比赛数据，分析球队表现。",
-        "通过 Pixel 摄像头拍摄并分享独家幕后内容，增强社交媒体互动。",
-        "关注女性足球赛事，利用 AI 技术提升赛事的曝光率。"
-      ],
-      "risks": [
-        "可能面临 API 使用费用的增加，影响开发者的成本预算。",
-        "合作内容的地域限制可能导致部分球迷无法访问。",
-        "对女性足球的关注可能未能达到预期效果，影响品牌形象。"
-      ],
-      "reason": "此合作将 AI 技术与体育结合，为球迷提供前所未有的互动体验，值得关注。",
-      "scores": {
-        "importance": 85,
-        "novelty": 70,
-        "firsthand": 90,
-        "impact": 80,
-        "credibility": 85
-      },
-      "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/",
-      "source": "RSS · Google AI Blog",
-      "date": "2026-08-17",
-      "publishedAt": "2026-08-17T16:00",
-      "collectedAt": "2026-08-17T17:22",
-      "dateStatus": "verified",
-      "tier": "T1",
-      "score": 82,
-      "aiSelected": true,
-      "_style": "observer",
-      "moduleTargets": [
-        "news",
-        "topicResources"
       ],
       "sourceCount": 1
     }
@@ -7574,6 +7356,39 @@
     ],
     "ai-agents": [
       {
+        "name": "Dual-Grained Agent Memory and Shapley Context Attribution fo",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Frontier multimodal large language models (MLLMs) deliver impressive perception yet still falter on scientific and mathematical reasoning. Parameter-level adapt",
+        "description": "Frontier multimodal large language models (MLLMs) deliver impressive perception yet still falter on scientific and mathematical reasoning. Parameter-level adaptation is unavailable",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2608.23268v1"
+      },
+      {
+        "name": "From Natural Language Policies to Executable Obligations: A ",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Large Language Models (LLMs) agents deployed in vehicles must satisfy a written operating policy on every turn: a single hallucinated identifier, omitted mandat",
+        "description": "Large Language Models (LLMs) agents deployed in vehicles must satisfy a written operating policy on every turn: a single hallucinated identifier, omitted mandatory side-effect, or ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2608.23282v1"
+      },
+      {
+        "name": "IntentQA: Intent Question Answering in Videos by Cognitive C",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Video understanding requires intelligent agents to transcend mere recognition of visual facts and comprehend the underlying intents behind human actions (often ",
+        "description": "Video understanding requires intelligent agents to transcend mere recognition of visual facts and comprehend the underlying intents behind human actions (often termed the \"dark mat",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2608.23330v1"
+      },
+      {
         "name": "Alabama launches OpenAI probe after artificial intelligence ",
         "provider": "The Jerusalem Post",
         "type": "AI 项目/工具",
@@ -8050,55 +7865,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:AI agent",
         "url": "https://cfotech.co.nz/story/sap-concur-launches-ai-tools-for-travel-expenses"
-      },
-      {
-        "name": "如何通过零信任原则防止 AI 代理威胁",
-        "provider": "SC Media",
-        "type": "AI 项目/工具",
-        "bestFor": "这一讨论对 IT 安全团队、CISO 和决策者具有重要意义。通过实施零信任原则，组织可以更有效地管理 AI 的使用，降低安全风险。此外，这种方法还可能影响组织在技术投资和安全策略上的决策，促使他们更加重视 AI 的安全性和合规性。随着 AI 技术的普及，如何平衡生产力和安全性将成为企业面临的关键问题。",
-        "description": "我注意到，人工智能正在迅速从生产力工具转变为许多组织日常运营中的活跃参与者。随着组织赋予 AI 更大的自主权，它们也在让 AI 访问敏感系统和数据，这给 IT 和安全团队带来了新的挑战。如何在不妥协安全性的情况下，让 AI 协助提高生产力？ThreatLocker 的首席产品官 Rob Allen 讨论了如何利用零信任原则来防止 AI 的失控。通过实施安全政策，组织可以更好地管理 AI 的行为。",
-        "useCases": [
-          "实施零信任安全策略，确保 AI 代理在受控环境中运行。",
-          "使用 ThreatLocker 的 Allowlisting 功能，限制 AI 访问敏感数据的权限。",
-          "通过 Ringfencing™ 技术，保护关键应用程序免受 AI 代理的潜在威胁。",
-          "利用 Endpoint Firewall 监控 AI 的网络活动，防止数据泄露。",
-          "制定社区政策，明确 AI 工具的使用范围和权限。"
-        ],
-        "watch": "如果不采取适当的安全措施，AI 可能会意外访问敏感数据，导致数据泄露。",
-        "sourceName": "SC Media",
-        "url": "https://www.scworld.com/podcast-segment/14894-preventing-a-breakout-as-ai-agent-threats-is-one-of-three-top-ciso-concerns-rob-allen-bsw-461"
-      },
-      {
-        "name": "AI 代理取代座位后 SaaS 定价策略",
-        "provider": "Startup Fortune",
-        "type": "AI 项目/工具",
-        "bestFor": "AI 代理的普及将改变 SaaS 企业的定价策略，促使更多公司采用基于结果的计费模式。这不仅影响了企业的收入结构，也将改变客户的采购决策。企业需要在续约前主动调整定价，以避免因未能适应市场变化而失去客户。",
-        "description": "随着 AI 代理的崛起，传统的按座位定价模式面临挑战。AI 代理能够完成多达 20 个人工座位的工作，导致按座位计费的合同在使用和价值上升的情况下反而缩小。企业需在续约前重新审视定价模型，以避免损失。",
-        "useCases": [
-          "审查现有的定价模型，识别与 AI 代理相关的潜在风险和机会。",
-          "与客户沟通，提前讨论续约时的定价调整，确保双方达成共识。",
-          "分析竞争对手的定价策略，寻找适合自身产品的创新定价方式。"
-        ],
-        "watch": "API 价格波动可能影响企业的成本结构，需提前做好预算。",
-        "sourceName": "Startup Fortune",
-        "url": "https://startupfortune.com/how-to-price-saas-when-ai-agents-replace-seats/"
-      },
-      {
-        "name": "Amazon Bedrock AgentCore 支付功能正式上线，AI 代理可安全自主交易",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "这项新功能将吸引多种人群，包括电商平台的开发者、金融科技公司的产品经理以及希望通过 AI 提升交易效率的企业。通过使用 AgentCore 支付，企业可以降低人工干预，提高交易的安全性和效率。此外，这一功能的推出可能会促使更多企业考虑将 AI 代理整合到其业务流程中，从而推动整个行业向自动化和智能化转型。",
-        "description": "Amazon Bedrock AgentCore 支付功能现已全面上线，允许 AI 代理在内置支出保护机制的支持下，安全且自主地进行大规模交易。该功能具备协议无关的支付编排能力，并提供生产级的可观察性，旨在提升交易的安全性和效率。",
-        "useCases": [
-          "集成 AgentCore 支付功能到电商平台，提升用户购物体验和交易安全。",
-          "为金融科技应用开发自动化交易系统，减少人工干预。",
-          "利用内置的支出保护机制，确保企业资金安全，降低财务风险。",
-          "通过协议无关的支付编排能力，支持多种支付方式，满足不同用户需求。",
-          "监控交易活动，利用生产级可观察性优化交易策略。"
-        ],
-        "watch": "API 使用费用可能较高，企业需评估成本效益。",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-payments-is-now-generally-available-enabling-agents-to-transact-safely-and-autonomously-at-scale/"
       }
     ],
     "ai-models": [
@@ -9808,6 +9574,17 @@
     ],
     "ai-image-video": [
       {
+        "name": "How Insta360's new AI can edit your videos for you",
+        "provider": "The Cairns Post",
+        "type": "AI 项目/工具",
+        "bestFor": "The battle between DJI and Insta60 continues to deliver content creators some of the most incredible tools seen in years.\n\nThe Insta360 Luna Ultra is a great ex",
+        "description": "The battle between DJI and Insta60 continues to deliver content creators some of the most incredible tools seen in years.\n\nThe Insta360 Luna Ultra is a great example of that, along",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Cairns Post",
+        "url": "https://www.cairnspost.com.au/technology/gadgets/insta360-challenges-dji-with-new-luna-ultra-and-aipowered-x6-cameras/news-story/023f6473a573cb3264f6990ee1fc6503?nk=017470bbaea3b3b42f5c0f566bd610ef-1787637692"
+      },
+      {
         "name": "Beyond Visual CoT: Internalized Visual Thinking for Proactiv",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -10392,23 +10169,6 @@
         "watch": "Pangram 的检测工具可能在某些情况下出现假阳性，导致误判。",
         "sourceName": "NewsAPI:large language model",
         "url": "https://siliconangle.com/2026/07/29/pangram-labs-raises-9m-launch-accurate-ai-detection-text-images/"
-      },
-      {
-        "name": "欧盟将要求对真实感 AI 图像进行标签标识",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "新规将影响社交媒体平台、内容创作者及用户。社交媒体公司需调整内容管理策略，确保合成内容的透明度。内容创作者将需要在创作过程中考虑标签标识，增加工作负担。用户在浏览内容时将更容易识别合成内容，从而提高信息消费的安全性。长远来看，这可能促使技术公司加大对 AI 检测工具的投资，以应对未来的合规要求。",
-        "description": "欧盟的 AI 法案将于本周日生效，要求所有模仿真实人物或事件的 AI 生成内容必须标明标签。此举旨在提高公众对合成内容的识别能力，防止虚假信息的传播。社交媒体公司需采取水印或标签等方式进行标识，否则将面临重罚。",
-        "useCases": [
-          "标识 AI 生成内容：使用水印或标签工具，确保所有合成内容符合欧盟新规。",
-          "更新内容管理系统：调整平台的内容审核流程，确保合成内容的透明度。",
-          "培训团队：为内容创作者和审核人员提供新规培训，提升合规意识。",
-          "监测合成内容：利用 AI 检测工具，定期检查平台上发布的内容，确保合规。",
-          "与法律顾问合作：咨询法律专家，确保平台运营符合最新的法规要求。"
-        ],
-        "watch": "合规成本增加：企业可能需要投入更多资源来更新内容管理系统和培训员工，增加运营成本。",
-        "sourceName": "NewsAPI:generative AI",
-        "url": "https://petapixel.com/2026/07/29/eu-to-require-labels-on-realistic-ai-images-from-sunday/"
       }
     ],
     "ai-research": [
@@ -12352,8 +12112,8 @@
   ],
   "dailyReport": {
     "date": "2026-08-25",
-    "generatedAt": "2026-08-25T05:34:49.686656Z",
-    "total": 16,
+    "generatedAt": "2026-08-25T08:09:27.754273Z",
+    "total": 24,
     "sections": [
       {
         "category": "ai-coding",
@@ -12413,6 +12173,50 @@
             "sourceCount": 1,
             "date": "2026-08-25",
             "publishedAt": "2026-08-25T00:22",
+            "reason": ""
+          },
+          {
+            "title": "Automated Construction of FAIR Digital Object Knowledge Graphs from Flat Cultural Heritage Records",
+            "summary": "The FAIR Digital Object (FDO) framework mandates that metadata attribute values be expressed as persistent identifiers (PIDs) wherever possi",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.23263v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-24",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Dual-Grained Agent Memory and Shapley Context Attribution for Multimodal Agentic Learner",
+            "summary": "Frontier multimodal large language models (MLLMs) deliver impressive perception yet still falter on scientific and mathematical reasoning. P",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.23268v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-24",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "From Natural Language Policies to Executable Obligations: A Verification Harness for Dependable In-Car LLM Agents",
+            "summary": "Large Language Models (LLMs) agents deployed in vehicles must satisfy a written operating policy on every turn: a single hallucinated identi",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.23282v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-24",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "IntentQA: Intent Question Answering in Videos by Cognitive Context Reasoning",
+            "summary": "Video understanding requires intelligent agents to transcend mere recognition of visual facts and comprehend the underlying intents behind h",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.23330v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-24",
+            "publishedAt": "",
             "reason": ""
           },
           {
@@ -12477,6 +12281,39 @@
             "reason": ""
           },
           {
+            "title": "Hidden in the Request: Explaining Unethical LLM Compliance through Token Relevance",
+            "summary": "Although Large Language Models (LLMs) are aligned to optimize for both helpfulness and harmlessness, these dual objectives may conflict, ine",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.23264v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-24",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "AI-Assisted Extraction of Follow-up Observations from GCN Circulars in Astro-COLIBRI",
+            "summary": "We present a new Astro-COLIBRI component that converts free-text GCN Circulars into structured, event-linked follow-up records and combines ",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.23270v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-24",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Beyond the Stability-Exploration Dilemma: Environmental Regularization for LLM Policy Optimization",
+            "summary": "Policy optimization (PO) for Large Language Models faces a stability--exploration trade-off, currently mediated by an action-side Policy-KL ",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.23311v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-24",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
             "title": "Action-Aligned Retrieval with Pairwise Multimodal Reranking for Text-Based Person Anomaly Search",
             "summary": "Text-based person anomaly search requires distinguishing individuals based on fine-grained, context-dependent behaviors rather than mere app",
             "source": "arXiv",
@@ -12537,6 +12374,17 @@
         "category": "ai-research",
         "label": "论文研究",
         "items": [
+          {
+            "title": "FormuEvo: LLM-Guided Evolution for Discovering Solver-Efficient Mixed-Integer Programming Formulations",
+            "summary": "Mixed-integer programming (MIP) lies at the core of operations research and industrial optimization. While large language models (LLMs) have",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.23353v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-24",
+            "publishedAt": "",
+            "reason": ""
+          },
           {
             "title": "A Comprehensive Analysis of Arabic Natural Language Processing Research: Trends, Topic Evolution, and Research Gaps -- A Bibliometric and Topic-Based Study",
             "summary": "Natural Language Processing (NLP) has grown rapidly over the past decade, driven by digital transformation in the Arab world, social media, ",
