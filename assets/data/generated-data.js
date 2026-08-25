@@ -1,7 +1,34 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-08-25",
-  "generatedAt": "2026-08-25T08:09:27.782272Z",
+  "generatedAt": "2026-08-25T09:25:33.876249Z",
   "news": [
+    {
+      "title": "Disrupting a new covert influence campaign from Russia",
+      "summary": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West.",
+      "category": "ai-models",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-08-25",
+      "publishedAt": "2026-08-25T08:00",
+      "collectedAt": "2026-08-25T17:25",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "MetaRoCE：为 AI 规模以太网打造的全新 RDMA 传输协议",
       "summary": "Meta 设计并开源了 MetaRoCE，一个专为 AI 工作负载在通用以太网上打造的 RDMA 传输协议，已通过 Open Compute Project（OCP）发布规范、参考软件实现和合规测试套件。该协议将智能移至端点，原生支持乱序交付、多路径、无损容忍和双向拥塞控制，无需 PFC，可在百万 GPU 规模下提供高吞吐、低尾延迟。现有 RDMA Verb",
@@ -7356,6 +7383,61 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "Aziro launches Aziron for governed enterprise AI tasks",
+        "provider": "SecurityBrief Asia",
+        "type": "AI 项目/工具",
+        "bestFor": "Aziro has launched Aziron, an AI agent execution platform for enterprises aimed at organisations that want AI systems to carry out governed tasks.\n\nThe launch r",
+        "description": "Aziro has launched Aziron, an AI agent execution platform for enterprises aimed at organisations that want AI systems to carry out governed tasks.\n\nThe launch reflects a broader pu",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "SecurityBrief Asia",
+        "url": "https://securitybrief.asia/story/aziro-launches-aziron-for-governed-enterprise-ai-tasks"
+      },
+      {
+        "name": "AI agents are changing how companies choose which AI model d",
+        "provider": "Business Standard",
+        "type": "AI 项目/工具",
+        "bestFor": "As AI agents take on more complex workflows, model routing can determine which AI model handles each task (AI-generated image)\n\nFor businesses, picking an AI mo",
+        "description": "As AI agents take on more complex workflows, model routing can determine which AI model handles each task (AI-generated image)\n\nFor businesses, picking an AI model to work with use",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Business Standard",
+        "url": "https://www.business-standard.com/technology/artificial-intelligence/ai-agents-model-routing-ai-model-selection-126082500644_1.html"
+      },
+      {
+        "name": "Meta Targets Early September for Hatch, Its Consumer AI Agen",
+        "provider": "BeInCrypto",
+        "type": "AI 项目/工具",
+        "bestFor": "Meta Platforms is reportedly planning to launch a consumer AI agent, known internally as Hatch, within the coming weeks. Documents reviewed by The Information a",
+        "description": "Meta Platforms is reportedly planning to launch a consumer AI agent, known internally as Hatch, within the coming weeks. Documents reviewed by The Information also show an October ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "BeInCrypto",
+        "url": "https://beincrypto.com/meta-hatch-ai-agent-launch-monetize/"
+      },
+      {
+        "name": "Meta Targets Early September for Hatch, Its Consumer AI Agen",
+        "provider": "Yahoo! Finance",
+        "type": "AI 项目/工具",
+        "bestFor": "Meta Platforms is reportedly planning to launch a consumer AI agent, known internally as Hatch, within the coming weeks. Documents reviewed by The Information a",
+        "description": "Meta Platforms is reportedly planning to launch a consumer AI agent, known internally as Hatch, within the coming weeks. Documents reviewed by The Information also show an October ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Yahoo! Finance",
+        "url": "https://finance.yahoo.com/technology/ai/articles/meta-targets-early-september-hatch-081140319.html"
+      },
+      {
+        "name": "Meta Platforms Plans Consumer AI Agent Launch",
+        "provider": "Market Screener",
+        "type": "AI 项目/工具",
+        "bestFor": "Meta Platforms, Inc. specializes in online social networking services. Net sales break down by activity as follows: - operation of social networking, messaging,",
+        "description": "Meta Platforms, Inc. specializes in online social networking services. Net sales break down by activity as follows: - operation of social networking, messaging, photo and video sha",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Market Screener",
+        "url": "https://www.marketscreener.com/news/meta-platforms-plans-consumer-ai-agent-launch-ce7858d8d980f022"
+      },
+      {
         "name": "Dual-Grained Agent Memory and Shapley Context Attribution fo",
         "provider": "arXiv",
         "type": "AI 项目/工具",
@@ -7794,80 +7876,20 @@ window.AI_GENERATED_DATA = {
         "watch": "在开发过程中可能面临 API 使用限制，影响功能实现。",
         "sourceName": "NewsData.io:AI agent",
         "url": "https://www.straitstimes.com/world/united-states/openai-slows-advanced-ai-development-after-cyberattack"
-      },
-      {
-        "name": "SAP Concur 推出 AI 工具，简化差旅与费用管理",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "这些新工具将对财务团队、差旅管理人员和企业高管产生深远影响。财务团队将能更快地处理费用报告，减少手动审核的时间，提升整体效率。差旅管理人员则可以通过集中管理平台，轻松协调多位员工的差旅安排，降低出差成本。企业高管也能通过数据分析，做出更明智的预算决策，进一步优化公司资源的使用。",
-        "description": "我注意到 SAP Concur 最近推出了一系列 AI 工具，旨在帮助财务和差旅团队减少手动工作，提高管理效率。这些工具包括代理人仪表板、费用报告审批管理器以及增强的管理控制功能，预计将大幅提升工作流程的顺畅度。",
-        "useCases": [
-          "使用代理人仪表板集中管理差旅请求，减少在不同系统间切换的时间。",
-          "通过费用报告审批管理器快速获取风险洞察，提升审批效率。",
-          "利用增强的管理控制功能，比较项目表现并识别改进机会。",
-          "创建虚拟卡程序，简化员工的费用管理流程。",
-          "通过会议规划代理，提前识别可能影响会议安排的外部因素。"
-        ],
-        "watch": "API 费用可能较高，需评估使用成本与收益。",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://cfotech.com.au/story/sap-concur-launches-ai-tools-for-travel-expenses"
-      },
-      {
-        "name": "Aviva保险公司AI投资对员工人数影响未明",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Aviva的AI应用将直接影响客户服务的质量和效率，客户将能够24小时随时获得理赔支持。随着AI技术的不断发展，保险行业的运营模式可能会发生根本性变化，企业需要重新评估人力资源配置和业务流程。此外，Aviva的做法可能会引发行业内其他公司的跟进，促使整个保险行业加速数字化转型。",
-        "description": "Aviva保险公司在推出虚拟助手和AI理赔代理的同时，未对AI对员工人数的影响做出预测。公司高管表示，AI的应用将以客户需求为导向，而非单纯的裁员工具。",
-        "useCases": [
-          "提升理赔效率，使用AI助手快速处理客户请求。",
-          "通过AI分析客户数据，优化保险产品设计。",
-          "利用AI进行市场趋势预测，制定更具竞争力的定价策略。"
-        ],
-        "watch": "AI技术的实施可能面临合规风险，尤其是在数据隐私和安全方面。",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://completeaitraining.com/news/aviva-insurance-boss-avoids-workforce-questions-as-ai/"
-      },
-      {
-        "name": "中国黑客在亚太地区展示 AI 攻击能力",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "这一事件可能会导致各国政府重新审视其网络安全策略，特别是在 AI 技术的应用方面。企业也需加强对网络安全的投资，以防范类似的攻击。此外，可能会引发国际社会对网络攻击行为的更严格监管，影响全球网络安全的合作与对抗格局。",
-        "description": "一名中文操作员在亚太地区实施了首个被称为“近乎自主”的国家级攻击，利用复杂的 AI 框架针对并攻陷了政府机构，可能涉及台湾。这一事件警示各国和企业，近乎完全自主的 AI 攻击已成为现实。",
-        "useCases": [
-          "评估网络安全风险，利用 AI 工具进行漏洞扫描和修复。",
-          "制定应急响应计划，针对 AI 攻击制定具体的防御措施。",
-          "进行网络安全培训，提高员工对 AI 攻击的识别能力。",
-          "利用 AI 分析工具监测网络流量，及时发现异常活动。",
-          "与国际安全机构合作，分享关于 AI 攻击的情报和防御经验。"
-        ],
-        "watch": "AI 攻击的复杂性使得传统的防御措施难以奏效，可能导致重大安全漏洞。",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.darkreading.com/cyberattacks-data-breaches/china-linked-hacker-ai-capabilities-apac-attack"
-      },
-      {
-        "name": "SAP Concur launches AI tools for travel & expenses",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Finance teams could cut manual work and tighten oversight as SAP Concur rolls out AI tools for approvals, cards and meeting planning.",
-        "description": "Finance teams could cut manual work and tighten oversight as SAP Concur rolls out AI tools for approvals, cards and meeting planning.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://itbrief.com.au/story/sap-concur-launches-ai-tools-for-travel-expenses"
-      },
-      {
-        "name": "SAP Concur launches AI tools for travel & expenses",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Finance teams could cut manual work and tighten oversight as SAP Concur rolls out AI tools for approvals, cards and meeting planning.",
-        "description": "Finance teams could cut manual work and tighten oversight as SAP Concur rolls out AI tools for approvals, cards and meeting planning.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://cfotech.co.nz/story/sap-concur-launches-ai-tools-for-travel-expenses"
       }
     ],
     "ai-models": [
+      {
+        "name": "The New Engineering Advantage: Making AI Development More Re",
+        "provider": "TechBullion",
+        "type": "AI 项目/工具",
+        "bestFor": "AI has made it easier than ever to demonstrate what software could do. A developer can produce a prototype in hours, connect an application to a model, and turn",
+        "description": "AI has made it easier than ever to demonstrate what software could do. A developer can produce a prototype in hours, connect an application to a model, and turn an idea into someth",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "TechBullion",
+        "url": "https://techbullion.com/ai-development/"
+      },
       {
         "name": "Boomi Tops 24 Software Providers as AI Integration Expands -",
         "provider": "MyChesCo",
@@ -8378,17 +8400,6 @@ window.AI_GENERATED_DATA = {
         "watch": "未及时导出的提示数据无法恢复，可能导致重要信息丢失。",
         "sourceName": "Tech Times",
         "url": "https://www.techtimes.com/articles/324669/20260817/anthropic-kills-claude-workbench-today-saved-prompts-gone-api-pipelines-broken.htm"
-      },
-      {
-        "name": "OpenRouter 推出 Activity 仪表盘与 Analytics API：按智能体、模型、请求追踪 AI 使用",
-        "provider": "OpenRouter：Announcements（RSS）",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenRouter 发布 Activity 仪表盘和 beta Analytics API，可按智能体、模型、请求维度查看支出、token 量、缓存命中率等指标，并支持下钻至单条请求日志。",
-        "description": "OpenRouter 发布 Activity 仪表盘和 beta Analytics API，可按智能体、模型、请求维度查看支出、token 量、缓存命中率等指标，并支持下钻至单条请求日志。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "OpenRouter：Announcements（RSS）",
-        "url": "https://openrouter.ai/blog/announcements/activity-dashboard"
       }
     ],
     "ai-business": [
@@ -12112,7 +12123,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-08-25",
-    "generatedAt": "2026-08-25T08:09:27.754273Z",
+    "generatedAt": "2026-08-25T09:25:33.852241Z",
     "total": 24,
     "sections": [
       {
@@ -12237,6 +12248,17 @@ window.AI_GENERATED_DATA = {
         "label": "模型发布",
         "items": [
           {
+            "title": "Disrupting a new covert influence campaign from Russia",
+            "summary": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and critic",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-25",
+            "publishedAt": "2026-08-25T08:00",
+            "reason": ""
+          },
+          {
             "title": "MetaRoCE：为 AI 规模以太网打造的全新 RDMA 传输协议",
             "summary": "Meta 设计并开源了 MetaRoCE，一个专为 AI 工作负载在通用以太网上打造的 RDMA 传输协议，已通过 Open Compute Project（OCP）发布规范、参考软件实现和合规测试套件。该协议将智能移至端点，原生支持乱序交付、多路径、无损容忍和双向拥塞控制，无需",
             "source": "Meta Engineering Blog（RSS）",
@@ -12355,17 +12377,6 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-08-24",
             "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
-            "summary": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
-            "source": "RSS · OpenAI Blog",
-            "url": "https://openai.com/index/gpt-5-6-in-kiro",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-24",
-            "publishedAt": "2026-08-24T20:00",
             "reason": ""
           }
         ]
