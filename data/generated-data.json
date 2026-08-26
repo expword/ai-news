@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-08-26",
-  "generatedAt": "2026-08-26T11:22:03.814721Z",
+  "generatedAt": "2026-08-26T13:52:30.389692Z",
   "news": [
     {
       "title": "RENDER: Controlling Reader-Facing Evidence in LLM Memory Evaluation",
@@ -6579,6 +6579,50 @@
     ],
     "ai-agents": [
       {
+        "name": "Inside Arctic Wolf's new agentic security platform",
+        "provider": "CIO",
+        "type": "AI 项目/工具",
+        "bestFor": "Digital innovation is reimagining security in a world of sophisticated threats. endif; ?>\n\nAI-powered attacks are becoming faster and more automated, putting pr",
+        "description": "Digital innovation is reimagining security in a world of sophisticated threats. endif; ?>\n\nAI-powered attacks are becoming faster and more automated, putting pressure on security t",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "CIO",
+        "url": "https://www.cio.com/article/4211089/inside-arctic-wolfs-new-agentic-security-platform.html"
+      },
+      {
+        "name": "Nutanix adds more rooms to its agentic AI building",
+        "provider": "Blocks and Files",
+        "type": "AI 项目/工具",
+        "bestFor": "Nutanix announced the general availability of Nutanix Enterprise AI (NAI) 2.8, and the upcoming general availability of Nutanix Kubernetes Platform (NKP) 2.19.\n",
+        "description": "Nutanix announced the general availability of Nutanix Enterprise AI (NAI) 2.8, and the upcoming general availability of Nutanix Kubernetes Platform (NKP) 2.19.\n\nIt said its core Nu",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Blocks and Files",
+        "url": "https://www.blocksandfiles.com/hci/2026/08/26/nutanix-adds-more-rooms-to-its-agentic-ai-building/5292580"
+      },
+      {
+        "name": "AI Agents Use 5 Times More LLM Tokens Than Humans",
+        "provider": "eWEEK",
+        "type": "AI 项目/工具",
+        "bestFor": "eWeek content and product recommendations are editorially independent. We may make money when you click on links to our partners. Learn More\n\nAI agents don't us",
+        "description": "eWeek content and product recommendations are editorially independent. We may make money when you click on links to our partners. Learn More\n\nAI agents don't use the internet like ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "eWEEK",
+        "url": "https://www.eweek.com/news/ai-agents-llm-token-usage-humans/"
+      },
+      {
+        "name": "Runable secures $21M to enhance AI agent growth capabilities",
+        "provider": "Crypto Briefing",
+        "type": "AI 项目/工具",
+        "bestFor": "The AI agent platform claims over one trillion tokens processed in 90 days, with most usage driven by paying customers\n\nRunable, a year-old AI agent platform th",
+        "description": "The AI agent platform claims over one trillion tokens processed in 90 days, with most usage driven by paying customers\n\nRunable, a year-old AI agent platform that lets users build ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Crypto Briefing",
+        "url": "https://cryptobriefing.com/runable-secures-21m-ai-agent-platform/"
+      },
+      {
         "name": "Who is accountable when your AI agent goes rogue?",
         "provider": "CIO",
         "type": "AI 项目/工具",
@@ -6973,53 +7017,64 @@
         "watch": "请打开原始来源核对",
         "sourceName": "aihub.org",
         "url": "https://aihub.org/2026/08/24/the-accountability-vacuum-agentic-ai-in-high-stakes-domains/"
-      },
-      {
-        "name": "Nvidia reportedly eyes Perplexity at a $30B+ valuation as AI",
-        "provider": "Tech Funding News",
-        "type": "AI 项目/工具",
-        "bestFor": "* Nvidia is in talks to invest in Perplexity at over $30B, per The Information.\n\n* The round would follow a $23B round in January 2026 and a $20B round in Septe",
-        "description": "* Nvidia is in talks to invest in Perplexity at over $30B, per The Information.\n\n* The round would follow a $23B round in January 2026 and a $20B round in September 2025.\n\n* Revenu",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Tech Funding News",
-        "url": "https://techfundingnews.com/nvidia-reportedly-eyes-perplexity-at-a-30b-valuation-as-ai-search-becomes-an-agent-business/"
-      },
-      {
-        "name": "As AI agents act in unexpected ways, is 'rogue AI' really he",
-        "provider": "The Express Tribune",
-        "type": "AI 项目/工具",
-        "bestFor": "The idea of machines independently handling tedious everyday tasks - from answering emails to booking flights and making dinner reservations - has long been par",
-        "description": "The idea of machines independently handling tedious everyday tasks - from answering emails to booking flights and making dinner reservations - has long been part of the vision for ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Express Tribune",
-        "url": "https://tribune.com.pk/story/2625563/as-ai-agents-act-in-unexpected-ways-is-rogue-ai-really-here"
-      },
-      {
-        "name": "iHeart To Bring AI Buying To Broadcast Radio By Year's End",
-        "provider": "Radio Ink",
-        "type": "AI 项目/工具",
-        "bestFor": "Butler/Till and iHeartMedia have completed what they call the ad industry's first agentic streaming audio media buy, with an AI agent executing a real media tra",
-        "description": "Butler/Till and iHeartMedia have completed what they call the ad industry's first agentic streaming audio media buy, with an AI agent executing a real media transaction within huma",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Radio Ink",
-        "url": "https://radioink.com/2026/08/24/iheart-to-bring-ai-buying-to-broadcast-radio-by-years-end/"
-      },
-      {
-        "name": "Accelerating aircraft IFEC diagnostics with agentic AI on AW",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Panasonic Avionics worked with AWS and the AWS Generative AI Innovation Center to build an agentic AI system on Amazon Bedrock, Amazon SageMaker, and AWS Glue t",
-        "description": "Panasonic Avionics worked with AWS and the AWS Generative AI Innovation Center to build an agentic AI system on Amazon Bedrock, Amazon SageMaker, and AWS Glue that diagnoses in-fli",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/accelerating-aircraft-ifec-diagnostics-with-agentic-ai-on-aws/"
       }
     ],
     "ai-models": [
+      {
+        "name": "Solana price forms bullish setup above $96 support",
+        "provider": "crypto.news",
+        "type": "AI 项目/工具",
+        "bestFor": "Solana price traded near $97.50 on Aug. 26 after gaining about 14% over seven days, as improving risk appetite, short liquidations, ETF inflows, and network dev",
+        "description": "Solana price traded near $97.50 on Aug. 26 after gaining about 14% over seven days, as improving risk appetite, short liquidations, ETF inflows, and network developments pushed SOL",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "crypto.news",
+        "url": "https://crypto.news/solana-price-forms-bullish-setup-above-96-support/"
+      },
+      {
+        "name": "Qwen3.8-Flash-Next 开源：Qwen4 架构早期预览",
+        "provider": "Qwen：Blog Retrieval（API）",
+        "type": "AI 项目/工具",
+        "bestFor": "通义千问开源 Qwen3.8-Flash-Next，一款多模态 MoE 模型，也是 Qwen4 架构的早期预览。该模型采用 GDN + QSA 混合注意力等四项升级，总参数 125B，每 token 激活 6B，训练成本约为 Qwen3.7-Plus 的 1/9，编码与办公任务能力更强。",
+        "description": "通义千问开源 Qwen3.8-Flash-Next，一款多模态 MoE 模型，也是 Qwen4 架构的早期预览。该模型采用 GDN + QSA 混合注意力等四项升级，总参数 125B，每 token 激活 6B，训练成本约为 Qwen3.7-Plus 的 1/9，编码与办公任务能力更强。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Qwen：Blog Retrieval（API）",
+        "url": "https://qwen.ai/blog?id=qwen3.8-flash-next"
+      },
+      {
+        "name": "AI learns from failed experiments to find recipes for new ma",
+        "provider": "Nanowerk",
+        "type": "AI 项目/工具",
+        "bestFor": "An AI platform turns literature into synthesis recipes, learns from failed experiments and finds successful conditions for previously unreported materials.\n\n(Na",
+        "description": "An AI platform turns literature into synthesis recipes, learns from failed experiments and finds successful conditions for previously unreported materials.\n\n(Nanowerk News) A resea",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Nanowerk",
+        "url": "https://www.nanowerk.com/news2/robotics/newsid=70100.php"
+      },
+      {
+        "name": "ChatGPT can now do things on your behalf without seeing your",
+        "provider": "Mashable SEA",
+        "type": "AI 项目/工具",
+        "bestFor": "ChatGPT can now check your insurance, cancel flights, or reschedule deliveries for you, all seemingly without seeing your login details.\n\nAnnounced by OpenAI on",
+        "description": "ChatGPT can now check your insurance, cancel flights, or reschedule deliveries for you, all seemingly without seeing your login details.\n\nAnnounced by OpenAI on X, the AI assistant",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Mashable SEA",
+        "url": "https://sea.mashable.com/tech/54145/chatgpt-can-now-do-things-on-your-behalf-without-seeing-your-login-details"
+      },
+      {
+        "name": "Looking for Signs of Jimothy With the Pixel 11 Pro XL Camera",
+        "provider": "CNET",
+        "type": "AI 项目/工具",
+        "bestFor": "Jeff Carlson writes about mobile technology at CNET, from cellular phone plans to devices and emerging technology.\n\nMy editor had an inspired idea: Take the new",
+        "description": "Jeff Carlson writes about mobile technology at CNET, from cellular phone plans to devices and emerging technology.\n\nMy editor had an inspired idea: Take the new Pixel 11 Pro XL int",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "CNET",
+        "url": "https://www.cnet.com/tech/mobile/looking-for-signs-of-jimothy-with-the-pixel-11-pro-xl-cameras/"
+      },
       {
         "name": "Gemini's one billion users can't hide Google's cash flow cri",
         "provider": "Android Police",
@@ -7404,77 +7459,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Claude：Blog（网页）",
         "url": "https://claude.com/blog/computer-use-skills-api-files-api"
-      },
-      {
-        "name": "Claude Platform 发布 Python SDK v1.0，迁移至 httpx2",
-        "provider": "Claude Platform：开发者版本说明（RSS）",
-        "type": "AI 项目/工具",
-        "bestFor": "Anthropic 发布 Claude Python SDK v1.0，HTTP 层从 httpx 迁移至 API 兼容的 httpx2，并移除 Text Completions API 等长期弃用功能。",
-        "description": "Anthropic 发布 Claude Python SDK v1.0，HTTP 层从 httpx 迁移至 API 兼容的 httpx2，并移除 Text Completions API 等长期弃用功能。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Claude Platform：开发者版本说明（RSS）",
-        "url": "https://platform.claude.com/docs/en/release-notes/overview#august-20-2026"
-      },
-      {
-        "name": "DeepSeek-V4-Flash-Vision-Exp 发布",
-        "provider": "DeepSeek：API 更新日志",
-        "type": "AI 项目/工具",
-        "bestFor": "DeepSeek 上线实验性多模态视觉理解模型 DeepSeek-V4-Flash-Vision-Exp，可通过设置 model='deepseek-v4-flash-vision-exp' 在 API 平台访问。",
-        "description": "DeepSeek 上线实验性多模态视觉理解模型 DeepSeek-V4-Flash-Vision-Exp，可通过设置 model='deepseek-v4-flash-vision-exp' 在 API 平台访问。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "DeepSeek：API 更新日志",
-        "url": "https://api-docs.deepseek.com/zh-cn/updates#%E6%97%B6%E9%97%B4-2026-08-21"
-      },
-      {
-        "name": "数字双胞胎：重塑铁路生命周期",
-        "provider": "Rail Express",
-        "type": "AI 项目/工具",
-        "bestFor": "数字双胞胎的应用将使铁路行业的各个参与者受益，包括设备制造商、基础设施管理者和运营商。通过实时数据的共享，运营商能够更好地进行维护决策，提升列车的可靠性和可用性。此外，数字双胞胎还将促进整个铁路生态系统的优化，涵盖轨道、信号、供电和车站等多个方面。",
-        "description": "数字双胞胎技术正在改变铁路行业的运作方式，帮助制造商、运营商和维护人员更好地管理资产。通过实时数据更新，数字双胞胎能够模拟列车及其所有组件的行为，从而优化维护和运营效率。西门子移动公司在这一领域走在前列，致力于将数字双胞胎应用于整个铁路资产生命周期。",
-        "useCases": [
-          "模拟列车组件的行为，优化设计和生产流程。",
-          "实时监控列车状态，提前识别潜在故障。",
-          "利用数字双胞胎进行预测性维护，减少意外停机时间。",
-          "通过AI工具分析数字双胞胎数据，提升决策效率。",
-          "在培训中使用模拟器，提升操作人员的技能。"
-        ],
-        "watch": "创建数字双胞胎需要大量的时间和资源，可能导致初期投资高昂。",
-        "sourceName": "Rail Express",
-        "url": "https://www.railexpress.com.au/digital-twins-reshaping-the-rail-lifecycle/"
-      },
-      {
-        "name": "FastMetal 实现 Mac 本地 30 秒生成视频",
-        "provider": "X：Sky Computing Lab (@haoailab)",
-        "type": "AI 项目/工具",
-        "bestFor": "FastMetal 的推出将极大地便利视频内容创作者，尤其是在教育、广告和社交媒体等领域。用户可以在短时间内生成高质量的视频，提升工作效率。此外，开发者可以基于 FastMetal 的开源代码进行定制化开发，推动更多创新应用的出现。随着本地生成技术的普及，可能会改变视频制作的商业模式，减少对云服务的依赖。",
-        "description": "FastMetal 是一款针对 Apple Silicon 优化的视频生成工具，能够在 Mac 上以 30 秒的时间生成 5 秒长的 480P 视频。它无需依赖 CUDA 或云服务，仅占用 3.9 GiB 内存。该工具支持三种模型，分别为 1.3B（480P）、5B（720P）和 14B（高画质），适合不同需求的用户使用。",
-        "useCases": [
-          "使用 FastMetal 生成短视频广告，提升产品宣传效率。",
-          "在教育领域利用 FastMetal 制作教学视频，快速响应课程需求。",
-          "游戏开发者使用 FastMetal 创建游戏宣传片，增强市场推广效果。",
-          "社交媒体运营人员借助 FastMetal 快速生成吸引眼球的短视频内容。",
-          "研究人员利用 FastMetal 进行视频数据集的快速生成，支持机器学习模型训练。"
-        ],
-        "watch": "在使用 FastMetal 时，需确保 Mac 的硬件配置满足内存要求，避免因内存不足导致生成失败。",
-        "sourceName": "X：Sky Computing Lab (@haoailab)",
-        "url": "https://x.com/haoailab/status/2090177721913770407"
-      },
-      {
-        "name": "OpenAI 提供零数据保留服务，增强 AI 安全性",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "这一服务将吸引更多开发者使用 OpenAI 的 API，尤其是那些对数据隐私有高要求的企业。通过提供零数据保留，OpenAI 可能会改变开发者在选择 AI 服务时的决策，促使更多企业在其产品中集成 AI 功能。此外，这一举措可能会引发其他 AI 服务提供商跟进，推动整个行业在数据隐私保护方面的进步。",
-        "description": "OpenAI 宣布为符合条件的 API 客户提供零数据保留服务，并预览了私密安全处理功能，以在不妨碍数据隐私的情况下提升 AI 安全性。这一举措旨在增强用户对数据安全的信任，同时推动 AI 技术的安全应用。",
-        "useCases": [
-          "注册 OpenAI API 账户，选择符合条件的计划以启用零数据保留服务。",
-          "在开发过程中，使用 OpenAI 提供的私密安全处理功能，确保数据隐私。",
-          "定期审查 API 使用情况，确保符合零数据保留政策，避免数据泄露风险。"
-        ],
-        "watch": "确保选择的 API 计划确实支持零数据保留，避免因计划不符导致数据存储问题。",
-        "sourceName": "RSS · OpenAI Blog",
-        "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models"
       }
     ],
     "ai-business": [
@@ -11140,7 +11124,7 @@
   ],
   "dailyReport": {
     "date": "2026-08-26",
-    "generatedAt": "2026-08-26T11:22:03.791719Z",
+    "generatedAt": "2026-08-26T13:52:30.334707Z",
     "total": 28,
     "sections": [
       {
