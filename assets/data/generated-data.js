@@ -1,7 +1,62 @@
 window.AI_GENERATED_DATA = {
-  "lastUpdated": "2026-08-26",
-  "generatedAt": "2026-08-26T13:52:30.389692Z",
+  "lastUpdated": "2026-08-27",
+  "generatedAt": "2026-08-26T16:26:56.947826Z",
   "news": [
+    {
+      "title": "How loveholidays is making everyone a builder with Codex",
+      "summary": "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster.",
+      "category": "ai-coding",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-08-26",
+      "publishedAt": "2026-08-26T08:00",
+      "collectedAt": "2026-08-27T00:26",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/loveholidays",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Connect Amazon Bedrock AgentCore to cross-account knowledge bases",
+      "summary": "Learn how Amazon Bedrock AgentCore agents in one account can generate answers from an Amazon Bedrock knowledge base backed by Amazon Redshift Serverless in another account, without",
+      "category": "ai-coding",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-08-26",
+      "publishedAt": "2026-08-26T23:48",
+      "collectedAt": "2026-08-27T00:26",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/connect-amazon-bedrock-agentcore-to-cross-account-knowledge-bases/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "RENDER: Controlling Reader-Facing Evidence in LLM Memory Evaluation",
       "summary": "arXiv:2608.23568v1 Announce Type: new Abstract: Memory and RAG evaluations often treat the answering model's input as an implementation detail, even though systems may render the s",
@@ -6007,6 +6062,28 @@ window.AI_GENERATED_DATA = {
   "topicResources": {
     "ai-coding": [
       {
+        "name": "GLM-5.3-Flash 开源：320B 总参数、AA 指数 57 分，定价为 Opus 4.8 的 1/40",
+        "provider": "公众号：智谱（GLM）",
+        "type": "AI 项目/工具",
+        "bestFor": "智谱上线并开源 GLM-5.3-Flash（320B-A18B），这是 GLM-5 系列首个原生多模态模型，AA 综合智能指数 57 分，与 Claude Opus 4.8 持平。其定价为 GLM-5.3 的 1/10，限时折扣内为 Opus 4.8 的 1/40，并已接入 ZCode 等平台开放 API 调用。该模型",
+        "description": "智谱上线并开源 GLM-5.3-Flash（320B-A18B），这是 GLM-5 系列首个原生多模态模型，AA 综合智能指数 57 分，与 Claude Opus 4.8 持平。其定价为 GLM-5.3 的 1/10，限时折扣内为 Opus 4.8 的 1/40，并已接入 ZCode 等平台开放 API 调用。该模型采用稀疏注意力与线性注意力混合架构，推理",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "公众号：智谱（GLM）",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&mid=2247494157&idx=1&sn=6837b15a07d2518842eb6c6b53a3eb3c"
+      },
+      {
+        "name": "实测飞书和豆包合体后第1个Agent：豆包工作的8个使用技巧",
+        "provider": "公众号：卡尔的AI沃茨",
+        "type": "AI 项目/工具",
+        "bestFor": "豆包工作（豆包 Work）是当前企业接入Agent门槛最低的路径，但需用飞书账号登录才能解锁满血功能。实测可用手机远程控制最多7台设备、定时任务、自动读取本地skill、侧边栏直接编辑并同步飞书，且管理员看不到聊天记录。作者认为Work Agent是token消耗倍增器，飞书原生生态是豆包工作相比Claude Cowo",
+        "description": "豆包工作（豆包 Work）是当前企业接入Agent门槛最低的路径，但需用飞书账号登录才能解锁满血功能。实测可用手机远程控制最多7台设备、定时任务、自动读取本地skill、侧边栏直接编辑并同步飞书，且管理员看不到聊天记录。作者认为Work Agent是token消耗倍增器，飞书原生生态是豆包工作相比Claude Cowork、Codex Work的核心优势。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "公众号：卡尔的AI沃茨",
+        "url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247509950&idx=1&sn=18e7ecdceb66058f5ae1681009b4054e"
+      },
+      {
         "name": "From Enigma Code to ChatGPT: The Rapid Evolution of Artifici",
         "provider": "ABC Nepal TV",
         "type": "AI 项目/工具",
@@ -6541,43 +6618,53 @@ window.AI_GENERATED_DATA = {
         "watch": "确保使用的 PHP 版本与 PhpStorm 2026.2 兼容，避免因版本不匹配导致的功能失效。",
         "sourceName": "NewsData.io:AI coding tool",
         "url": "https://laravel-news.com/phpstorm-20262-released"
-      },
-      {
-        "name": "Island推出企业级Vibe发布，提升应用共享效率",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Island的Enterprise Vibe Publishing将使得更多员工能够参与到应用开发中，促进创新和效率的提升。然而，这也可能导致企业在安全和治理方面面临新的挑战。随着越来越多的员工成为应用开发者，企业需要重新审视其安全策略，以防止潜在的数据泄露和合规性问题。此外，IT和安全团队需要加强对新应用的监控，以确",
-        "description": "Island推出的Enterprise Vibe Publishing旨在解决企业内部应用共享的痛点，允许员工快速构建和发布应用，同时确保合规性和安全性。尽管该平台提供了集中管理和权限控制，但仍面临应用安全和治理的挑战。",
-        "useCases": [
-          "快速构建内部应用，提升团队协作效率。",
-          "集中管理应用，确保所有应用符合企业安全标准。",
-          "利用Vibe编码技术，缩短应用开发周期，快速响应市场需求。",
-          "通过权限管理，控制应用访问，保护敏感数据。",
-          "监控应用使用情况，及时发现和解决潜在问题。"
-        ],
-        "watch": "尽管Island提供了安全控制，但仍可能存在未授权访问的风险，尤其是在权限管理不当的情况下。",
-        "sourceName": "NewsData.io:AI coding tool",
-        "url": "https://www.manilatimes.net/2026/08/03/tmt-newswire/globenewswire/island-secures-vibe-coding-with-new-enterprise-vibe-publishing/2397124"
-      },
-      {
-        "name": "模型不是瓶颈，组织设计才是关键",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "这一发现对多个角色都有重要影响。首先，工程师们可以通过优化工作流来提升效率，减少不必要的审批流程。其次，管理者需要重新审视组织结构，确保政策能够有效支持技术的应用。此外，安全团队也需关注代理的使用权限，防止数据泄露和系统破坏。整体来看，这将推动团队在 AI 应用上的成熟度，提升工作效率。",
-        "description": "我注意到，很多团队在部署 AI 代理时，常常将注意力集中在模型的性能上，而忽略了周围的组织结构和政策设置。实际上，模型的能力提升并不是唯一的关键，如何管理和控制这些模型的使用才是决定成败的因素。",
-        "useCases": [
-          "优化工作流，将自助服务工具整合到现有系统中，以提高工程师的工作效率。",
-          "在项目中引入审批流程，确保每个 AI 代理的使用都经过严格的审查。",
-          "通过限制代理的权限，确保共享文件系统的安全，防止数据丢失。",
-          "定期评估和更新政策，以适应快速变化的技术环境和业务需求。",
-          "建立跨部门的沟通机制，确保技术与政策的有效对接。"
-        ],
-        "watch": "在引入自助服务时，可能会面临权限管理不当导致的数据泄露风险。",
-        "sourceName": "NewsData.io:AI coding tool",
-        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/08/03/the-bottleneck-was-never-the-model/"
       }
     ],
     "ai-agents": [
+      {
+        "name": "Connect Amazon Bedrock AgentCore to cross-account knowledge ",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Learn how Amazon Bedrock AgentCore agents in one account can generate answers from an Amazon Bedrock knowledge base backed by Amazon Redshift Serverless in anot",
+        "description": "Learn how Amazon Bedrock AgentCore agents in one account can generate answers from an Amazon Bedrock knowledge base backed by Amazon Redshift Serverless in another account, without",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/connect-amazon-bedrock-agentcore-to-cross-account-knowledge-bases/"
+      },
+      {
+        "name": "DeepSeek 上线多模态视觉理解模型 V4-Flash-Vision-Exp",
+        "provider": "公众号：DeepSeek（深度求索）",
+        "type": "AI 项目/工具",
+        "bestFor": "DeepSeek 上线多模态视觉理解模型 V4-Flash-Vision-Exp，纯文本能力与 V4-Flash 正式版持平，多模态 Agent 能力接近 Opus-4.8。该模型通过 API 提供，图片按 token 计费，一张最多占 384 tokens，价格与 V4-Flash 一致。同期上线的 Files AP",
+        "description": "DeepSeek 上线多模态视觉理解模型 V4-Flash-Vision-Exp，纯文本能力与 V4-Flash 正式版持平，多模态 Agent 能力接近 Opus-4.8。该模型通过 API 提供，图片按 token 计费，一张最多占 384 tokens，价格与 V4-Flash 一致。同期上线的 Files API 免费，支持图片上传后通过 file_",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "公众号：DeepSeek（深度求索）",
+        "url": "https://mp.weixin.qq.com/s?__biz=Mzk0OTYwNzc3NQ%3D%3D&mid=2247485794&idx=1&sn=5332df30422e6637142321315b42ac26"
+      },
+      {
+        "name": "飞书与豆包合并后首款Agent产品\"豆包工作\"发布",
+        "provider": "公众号：数字生命卡兹克",
+        "type": "AI 项目/工具",
+        "bestFor": "字节正式发布办公Agent产品\"豆包工作\"，这是7月30日飞书与豆包产品团队整合后的首个重要产品，也是继WorkBuddy、千问办公之后办公Agent领域的第三个巨头玩家。该产品由豆包原\"工作任务\"独立而成，与飞书原生打通，支持飞书账号登录，完整继承企业AI额度、文档、多维表格、知识库、聊天、邮件及飞书权限系统，并具备",
+        "description": "字节正式发布办公Agent产品\"豆包工作\"，这是7月30日飞书与豆包产品团队整合后的首个重要产品，也是继WorkBuddy、千问办公之后办公Agent领域的第三个巨头玩家。该产品由豆包原\"工作任务\"独立而成，与飞书原生打通，支持飞书账号登录，完整继承企业AI额度、文档、多维表格、知识库、聊天、邮件及飞书权限系统，并具备电脑操控功能，可将固定流程封装为可反复调",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "公众号：数字生命卡兹克",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685540&idx=1&sn=601bd8669d18bf0b4c9a9e88af421797"
+      },
+      {
+        "name": "都Agent时代了，我还是想分享给你这12个我最常用的Prompt",
+        "provider": "公众号：数字生命卡兹克",
+        "type": "AI 项目/工具",
+        "bestFor": "作者整理出12个最常用的Prompt，按问清问题、学习、解决问题、决策、认识自己5个场景分类，全部可单独复制使用且无需安装任何Skill。每个Prompt都配有可直接套用的模板，将【】内内容替换为个人信息即可，适配当前所有主流AI。",
+        "description": "作者整理出12个最常用的Prompt，按问清问题、学习、解决问题、决策、认识自己5个场景分类，全部可单独复制使用且无需安装任何Skill。每个Prompt都配有可直接套用的模板，将【】内内容替换为个人信息即可，适配当前所有主流AI。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "公众号：数字生命卡兹克",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685346&idx=1&sn=0fc8dc62bcf67a466552d1204205ef31"
+      },
       {
         "name": "Inside Arctic Wolf's new agentic security platform",
         "provider": "CIO",
@@ -6973,53 +7060,31 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Global Biodefense",
         "url": "https://globalbiodefense.com/2026/08/24/some-peoples-blood-already-knows-how-well-a-vaccine-will-work/"
-      },
-      {
-        "name": "Caddi Launches an AI Agent That Builds and Governs a Firm's ",
-        "provider": "CNHI News",
-        "type": "AI 项目/工具",
-        "bestFor": "The agent discovers a firm's repetitive work, is trained on each process like a new hire, and governs every agent it builds under full audit.\n\nSEATTLE, Aug. 24,",
-        "description": "The agent discovers a firm's repetitive work, is trained on each process like a new hire, and governs every agent it builds under full audit.\n\nSEATTLE, Aug. 24, 2026 /PRNewswire/ -",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "CNHI News",
-        "url": "https://www.cnhinews.com/news/article_8a7a688a-7e97-5965-9fec-c8d62f6feb4a.html"
-      },
-      {
-        "name": "ai platform AgentSea transforms public healthcare in Singapo",
-        "provider": "The Straits Times",
-        "type": "AI 项目/工具",
-        "bestFor": "Since its May launch, over 12,000 AI agents have been created with strong data protection; new guidelines and regional collaborations ensure safe, innovative AI",
-        "description": "Since its May launch, over 12,000 AI agents have been created with strong data protection; new guidelines and regional collaborations ensure safe, innovative AI use in healthcare.\n",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Straits Times",
-        "url": "https://www.straitstimes.com/tech/new-platform-to-create-ai-agents-available-to-all-public-healthcare-professionals"
-      },
-      {
-        "name": "Anthropic's new Claude Tag update lets its Slack agent read ",
-        "provider": "VentureBeat",
-        "type": "AI 项目/工具",
-        "bestFor": "Anthropic is making a calculated bet that the biggest bottleneck in enterprise AI isn't model intelligence -- it's the fact that most people still use AI alone.",
-        "description": "Anthropic is making a calculated bet that the biggest bottleneck in enterprise AI isn't model intelligence -- it's the fact that most people still use AI alone.\n\nIn an exclusive in",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "VentureBeat",
-        "url": "https://venturebeat.com/orchestration/anthropics-new-claude-tag-update-lets-its-slack-agent-read-the-full-conversation-and-jump-in-unprompted"
-      },
-      {
-        "name": "The accountability vacuum: Agentic AI in high-stakes domains",
-        "provider": "aihub.org",
-        "type": "AI 项目/工具",
-        "bestFor": "This cross-post from AI Matters is co-authored by Prof. Larry Medsker and Sumit Virmani. It outlines the current accountability vacuum faced by the deployment o",
-        "description": "This cross-post from AI Matters is co-authored by Prof. Larry Medsker and Sumit Virmani. It outlines the current accountability vacuum faced by the deployment of agentic AI systems",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "aihub.org",
-        "url": "https://aihub.org/2026/08/24/the-accountability-vacuum-agentic-ai-in-high-stakes-domains/"
       }
     ],
     "ai-models": [
+      {
+        "name": "Qwen3.8-Flash 开源，Qwen4 架构预览",
+        "provider": "X：通义千问 / Qwen (@Alibaba_Qwen)",
+        "type": "AI 项目/工具",
+        "bestFor": "通义千问发布 Qwen3.8-Flash，一款多模态 MoE 模型，作为 Qwen4 架构的早期预览并开放权重。该模型总参数 125B，每 token 仅激活 6B，训练成本仅为 Qwen3.7-Plus 的 1/9，性能全面超越后者。生产版 API 定价 $0.16/1M 输入 tokens 和 $0.47/1M 输",
+        "description": "通义千问发布 Qwen3.8-Flash，一款多模态 MoE 模型，作为 Qwen4 架构的早期预览并开放权重。该模型总参数 125B，每 token 仅激活 6B，训练成本仅为 Qwen3.7-Plus 的 1/9，性能全面超越后者。生产版 API 定价 $0.16/1M 输入 tokens 和 $0.47/1M 输出 tokens，原生上下文 262K，",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "X：通义千问 / Qwen (@Alibaba_Qwen)",
+        "url": "https://x.com/Alibaba_Qwen/status/2092636376990990503"
+      },
+      {
+        "name": "腾讯混元将端侧翻译模型 Hy-MT2-1.8B 压缩至 440MB，已落地哔哩哔哩直播弹幕翻译",
+        "provider": "公众号：腾讯混元",
+        "type": "AI 项目/工具",
+        "bestFor": "腾讯混元将端侧翻译模型 Hy-MT2-1.8B 通过 2-bit 与 1.25-bit 量化方案压缩至 574MB 和 440MB，翻译质量几乎无损，在 FLORES-200 上优于 Microsoft Translator 等商业 API。该模型已联合英特尔完成 x86 适配，并在哔哩哔哩直播弹幕实时翻译中落地，单条",
+        "description": "腾讯混元将端侧翻译模型 Hy-MT2-1.8B 通过 2-bit 与 1.25-bit 量化方案压缩至 574MB 和 440MB，翻译质量几乎无损，在 FLORES-200 上优于 Microsoft Translator 等商业 API。该模型已联合英特尔完成 x86 适配，并在哔哩哔哩直播弹幕实时翻译中落地，单条弹幕翻译耗时 500~800ms。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "公众号：腾讯混元",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzkwODU2OTQyNQ%3D%3D&mid=2247498367&idx=1&sn=f1a5cf87eb06015cbe995bd5ef8b5d0a"
+      },
       {
         "name": "Solana price forms bullish setup above $96 support",
         "provider": "crypto.news",
@@ -7437,28 +7502,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Seeking Alpha",
         "url": "https://seekingalpha.com/article/4939492-baron-funds-q2-2026-letter-from-ron"
-      },
-      {
-        "name": "Anthropic 如何开展 AI 教学",
-        "provider": "Claude：Blog（网页）",
-        "type": "AI 项目/工具",
-        "bestFor": "Anthropic 发布 Claude Academy，为全球数百万用户提供 AI 教学资源，帮助其安全、有效地使用 AI。该学院课程借鉴其内部员工培训方法，包括 4D AI Fluency Framework 及\"ever-boarding\"持续学习项目，并强调以问题为中心、培养持久思维模式而非特定操作行为。",
-        "description": "Anthropic 发布 Claude Academy，为全球数百万用户提供 AI 教学资源，帮助其安全、有效地使用 AI。该学院课程借鉴其内部员工培训方法，包括 4D AI Fluency Framework 及\"ever-boarding\"持续学习项目，并强调以问题为中心、培养持久思维模式而非特定操作行为。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Claude：Blog（网页）",
-        "url": "https://claude.com/blog/anthropics-approach-to-teaching-and-learning-ai"
-      },
-      {
-        "name": "Claude Platform 正式上线 Computer Use、Skills API 与 Files API，新增浏",
-        "provider": "Claude：Blog（网页）",
-        "type": "AI 项目/工具",
-        "bestFor": "Anthropic 宣布 Computer Use、Skills API 与 Files API 在 Claude Platform 全面可用，并新增浏览器操作工具，让智能体可操作软件、调用团队技能并返回成品文件。",
-        "description": "Anthropic 宣布 Computer Use、Skills API 与 Files API 在 Claude Platform 全面可用，并新增浏览器操作工具，让智能体可操作软件、调用团队技能并返回成品文件。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Claude：Blog（网页）",
-        "url": "https://claude.com/blog/computer-use-skills-api-files-api"
       }
     ],
     "ai-business": [
@@ -11123,73 +11166,34 @@ window.AI_GENERATED_DATA = {
     }
   ],
   "dailyReport": {
-    "date": "2026-08-26",
-    "generatedAt": "2026-08-26T13:52:30.334707Z",
-    "total": 28,
+    "date": "2026-08-27",
+    "generatedAt": "2026-08-26T16:26:56.923826Z",
+    "total": 8,
     "sections": [
       {
         "category": "ai-coding",
         "label": "AI 编程",
         "items": [
           {
-            "title": "A Literate Programming Environment for Human and Machine Agents",
-            "summary": "This paper introduces an environment for constructing literate programs in concert with language-aware machine agents. This environment incl",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.24644v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-25",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Prompt Structure Redistributes, Not Reduces: An Empirical Analysis of Security-Weaknesses in LLM-Generated Python Code",
-            "summary": "Large Language Models (LLMs) increasingly generate code from natural-language prompts, making prompt engineering a key mechanism for shaping",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.24857v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-25",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Introducing the Admin plugin for ChatGPT Work and Codex",
-            "summary": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin ",
+            "title": "How loveholidays is making everyone a builder with Codex",
+            "summary": "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into produ",
             "source": "RSS · OpenAI Blog",
-            "url": "https://openai.com/index/introducing-admin-plugin",
+            "url": "https://openai.com/index/loveholidays",
             "score": 70,
             "sourceCount": 1,
-            "date": "2026-08-25",
-            "publishedAt": "2026-08-25T08:00",
+            "date": "2026-08-26",
+            "publishedAt": "2026-08-26T08:00",
             "reason": ""
           },
           {
-            "title": "Introducing new Ray capabilities on SageMaker HyperPod",
-            "summary": "Amazon SageMaker HyperPod now offers managed Ray support on Amazon EKS. Create and monitor Ray clusters, connect JupyterLab and Code Editor ",
+            "title": "Connect Amazon Bedrock AgentCore to cross-account knowledge bases",
+            "summary": "Learn how Amazon Bedrock AgentCore agents in one account can generate answers from an Amazon Bedrock knowledge base backed by Amazon Redshif",
             "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/introducing-new-ray-capabilities-on-sagemaker-hyperpod/",
+            "url": "https://aws.amazon.com/blogs/machine-learning/connect-amazon-bedrock-agentcore-to-cross-account-knowledge-bases/",
             "score": 70,
             "sourceCount": 1,
-            "date": "2026-08-25",
-            "publishedAt": "2026-08-25T03:32",
-            "reason": ""
-          }
-        ]
-      },
-      {
-        "category": "ai-image-video",
-        "label": "图像视频",
-        "items": [
-          {
-            "title": "STARFlow2: Bridging Language Models and Normalizing Flows for Unified Multimodal Generation",
-            "summary": "Unified multimodal models that understand, reason over, and generate interleaved text–image sequences remain structurally fragmented: existi",
-            "source": "RSS · Apple ML Research",
-            "url": "https://machinelearning.apple.com/research/starflow2-multimodal-generation",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-25",
-            "publishedAt": "2026-08-25T08:00",
+            "date": "2026-08-26",
+            "publishedAt": "2026-08-26T23:48",
             "reason": ""
           }
         ]
@@ -11218,61 +11222,6 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-08-26",
             "publishedAt": "2026-08-26T03:00",
-            "reason": ""
-          },
-          {
-            "title": "IAPO: Influence-Aware Policy Optimization for Credit Assignment in Multi-Turn Service Agents",
-            "summary": "Large Language Model (LLM) agents increasingly solve long-horizon tasks through multi-turn interactions with users and external tools. In th",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.24588v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-25",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Evidence Blindness in Direct Corpus Interaction: Persistent Navigation with AtlasNav",
-            "summary": "Large language model agents are moving beyond conventional retrieval-augmented generation toward direct interaction with external corpora. D",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.24764v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-25",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "SkillForge: Evolving Verifiable Skills for Reinforcement Learning Agents",
-            "summary": "Large language model (LLM) agents are trained with reinforcement learning (RL) for complex decision-making tasks. However, most RL-trained a",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.24747v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-25",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Building a restaurant telephony AI host with Amazon Connect",
-            "summary": "Learn how to build a voice ordering system for restaurants that answers a phone call and takes an order end to end, with no app, no website,",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/building-a-restaurant-telephony-ai-host-with-amazon-connect/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-25",
-            "publishedAt": "2026-08-25T00:13",
-            "reason": ""
-          },
-          {
-            "title": "Agentic Resource Discovery (ARD): An open specification for agent discovery",
-            "summary": "AWS Agent Registry gives your organization a centralized, searchable catalog for agents, tools, and skills. It works with the open Agentic R",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/agentic-resource-discovery-ard-an-open-specification-for-agent-discovery/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-25",
-            "publishedAt": "2026-08-25T00:22",
             "reason": ""
           }
         ]
@@ -11313,105 +11262,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-08-26",
             "publishedAt": "2026-08-26T00:35",
             "reason": ""
-          },
-          {
-            "title": "Aging of Prompt Engineering Techniques Across LLM Versions",
-            "summary": "Prompt engineering and prompt engineering techniques (PETs) have become an integral part of software engineering for AI systems. However, ne",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.24641v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-25",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Thermal Tuning Overhead in Wafer-Scale Optical Interconnects for LLM MoE Training: A Cross-Layer Analysis and Ferroelectric-Based Mitigation",
-            "summary": "The rapid scaling of large language models (LLMs), particularly mixture-of-experts (MoE) architectures, has intensified interconnect demands",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.24637v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-25",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "The Invisible Editorial Layer: Formalizing Undisclosed Inference-Time Steering, Probability Placement, and the Attribution Problem in Deployed Language Models",
-            "summary": "Large language models (LLMs) are commonly evaluated under the assumption that their observable behavior is primarily determined by model wei",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.24662v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-25",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "A Dual-Dimensional LLM Framework for Automated Item Incidental Content Similarity Analysis in Large-Scale Assessments",
-            "summary": "The rapid expansion of large-scale assessments and the growing adoption of automatic item generation have intensified concerns about inciden",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.24825v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-25",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Learning to Prefer Reliably: Error-Augmented Emotion Preference Optimization with Calibrated Fusion",
-            "summary": "Emotion preference learning uses pairwise comparisons between candidate descriptions to align multimodal large language models (MLLMs) with ",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.24730v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-25",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Constrained Entity Selection under Partial Knowledge for LLM-Based Knowledge Graph QA",
-            "summary": "Large language models are increasingly used for knowledge graph question answering (KGQA), but can fail to correctly ground answers in the u",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.24824v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-25",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "The full stack behind abundant intelligence",
-            "summary": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at gre",
-            "source": "RSS · OpenAI Blog",
-            "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-25",
-            "publishedAt": "2026-08-25T15:05",
-            "reason": ""
-          },
-          {
-            "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
-            "summary": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower la",
-            "source": "RSS · OpenAI Blog",
-            "url": "https://openai.com/index/jalapeno-first-results",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-25",
-            "publishedAt": "2026-08-25T15:00",
-            "reason": ""
-          },
-          {
-            "title": "Granite 4.2 LLMs: How They're Built",
-            "summary": "",
-            "source": "RSS · Hugging Face Blog",
-            "url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-25",
-            "publishedAt": "2026-08-25T23:14",
-            "reason": ""
           }
         ]
       },
@@ -11429,57 +11279,103 @@ window.AI_GENERATED_DATA = {
             "date": "2026-08-26",
             "publishedAt": "",
             "reason": ""
-          },
-          {
-            "title": "Quantization Effects on Bangla Language Understanding in Large Language Models: A Systematic Evaluation",
-            "summary": "Post-training quantization lowers the memory footprint of Large Language Models (LLMs) and speeds up inference, which is why it is now commo",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.24615v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-25",
-            "publishedAt": "",
-            "reason": ""
-          }
-        ]
-      },
-      {
-        "category": "ai-research",
-        "label": "论文研究",
-        "items": [
-          {
-            "title": "Reading Is Not Using: Retrieval, Judgment, and the Design of AI Financial Research Workflows",
-            "summary": "Large language models (LLMs) are increasingly deployed as AI analysts to process financial disclosures and support AI-assisted investment de",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.24842v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-25",
-            "publishedAt": "",
-            "reason": ""
-          }
-        ]
-      },
-      {
-        "category": "ai-business",
-        "label": "行业商业",
-        "items": [
-          {
-            "title": "Aug 25, 2026 Announcements Funding better evaluations of AI’s impact on wellbeing",
-            "summary": "Aug 25, 2026 Announcements Funding better evaluations of AI’s impact on wellbeing",
-            "source": "HTML · Anthropic",
-            "url": "https://www.anthropic.com/news/wellbeing-research-grants",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-25",
-            "publishedAt": "",
-            "reason": ""
           }
         ]
       }
     ]
   },
   "dailyReports": [
+    {
+      "date": "2026-08-26",
+      "generatedAt": "2026-08-26T16:00:45.783895Z",
+      "total": 6,
+      "sections": [
+        {
+          "category": "ai-agents",
+          "label": "Agent / MCP",
+          "items": [
+            {
+              "title": "AgentHands: Generating interactive hand gestures for spatially grounded agent conversations in XR",
+              "summary": "Human-Computer Interaction and Visualization",
+              "source": "RSS · Google Research",
+              "url": "https://research.google/blog/agenthands-generating-interactive-hand-gestures-for-spatially-grounded-agent-conversations-in-xr/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-26",
+              "publishedAt": "2026-08-26T03:10",
+              "reason": ""
+            },
+            {
+              "title": "Agentic observability with Amazon OpenSearch Service MCP Apps",
+              "summary": "Amazon OpenSearch Service now supports MCP Apps, which return interactive visualizations alongside your AI agent's text responses. Learn how",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/agentic-observability-with-amazon-opensearch-service-mcp-apps/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-26",
+              "publishedAt": "2026-08-26T03:00",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-models",
+          "label": "模型发布",
+          "items": [
+            {
+              "title": "What We Learned Trying to Catch AI Liars: An Aletheia's Quest Retrospective",
+              "summary": "What we learned while building black-box and white-box detectors for AI deception during Aletheia's Quest.",
+              "source": "RSS · EleutherAI",
+              "url": "https://blog.eleuther.ai/aletheia-retrospective/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-26",
+              "publishedAt": "2026-08-26T00:35",
+              "reason": ""
+            },
+            {
+              "title": "5 ways to upgrade your home decor with Google Search",
+              "summary": "Learn how to use Google Search tools to find home decor inspiration, shop for furniture, and tackle DIY projects.",
+              "source": "RSS · Google AI Blog",
+              "url": "https://blog.google/products-and-platforms/products/search/home-decor-tips/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-26",
+              "publishedAt": "2026-08-26T00:00",
+              "reason": ""
+            },
+            {
+              "title": "Governed reports with Amazon Quick Desktop and Amazon FSx for NetApp ONTAP",
+              "summary": "Build a governed weekly reporting workflow with Amazon Quick Desktop and Amazon FSx for NetApp ONTAP. An Amazon S3 access point exposes an a",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/governed-reports-with-amazon-quick-desktop-and-amazon-fsx-for-netapp-ontap/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-26",
+              "publishedAt": "2026-08-26T00:35",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-benchmark",
+          "label": "评测榜单",
+          "items": [
+            {
+              "title": "RENDER: Controlling Reader-Facing Evidence in LLM Memory Evaluation",
+              "summary": "arXiv:2608.23568v1 Announce Type: new Abstract: Memory and RAG evaluations often treat the answering model's input as an implementation deta",
+              "source": "RSS · arXiv cs.AI",
+              "url": "https://arxiv.org/abs/2608.23568",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-26",
+              "publishedAt": "",
+              "reason": ""
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-25",
       "generatedAt": "2026-08-25T16:00:38.262880Z",
@@ -23267,96 +23163,10 @@ window.AI_GENERATED_DATA = {
           ]
         }
       ]
-    },
-    {
-      "date": "2026-06-22",
-      "generatedAt": "2026-06-22T16:17:57.184348Z",
-      "total": 5,
-      "sections": [
-        {
-          "category": "ai-tools",
-          "label": "AI 工具",
-          "items": [
-            {
-              "title": "三星电子全球部署 ChatGPT 企业版与 Codex",
-              "summary": "三星电子在全球范围内部署 ChatGPT 企业版和 Codex，标志着 OpenAI 最大规模的企业 AI 部署之一。这一举措旨在提升员工的工作效率和创新能力，帮助他们更好地应对复杂的任务和挑战。",
-              "source": "RSS · OpenAI Blog",
-              "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
-              "score": 82,
-              "sourceCount": 1,
-              "date": "2026-06-22",
-              "publishedAt": "2026-06-22T07:00",
-              "reason": "三星电子的这一举措展示了企业如何通过 AI 技术提升工作效率，值得关注其实施效果和行业影响。"
-            }
-          ]
-        },
-        {
-          "category": "ai-coding",
-          "label": "AI 编程",
-          "items": [
-            {
-              "title": "Claude Code 使程序员交流减少，孤独感加剧",
-              "summary": "6月22日，Anthropic工程负责人Fiona Fung指出，Claude Code和Claude Cowork等AI智能体的普及使得程序员对智能体的依赖加深，导致工程师之间的交流显著减少，长期可能导致孤独感加剧。为应对这一问题，团队组织了编程午餐、黑客松和共同开发时段，以重",
-              "source": "IT之家（RSS）",
-              "url": "https://www.ithome.com/0/967/216.htm",
-              "score": 58,
-              "sourceCount": 1,
-              "date": "2026-06-22",
-              "publishedAt": "2026-06-22T21:25",
-              "reason": "这条信息揭示了AI工具对程序员工作方式的深远影响，值得关注团队协作的重要性。"
-            }
-          ]
-        },
-        {
-          "category": "ai-agents",
-          "label": "Agent / MCP",
-          "items": [
-            {
-              "title": "微信Agent小微灰度内测：主入口发消息红包，子入口可读聊天记录",
-              "summary": "这次发布的核心点是微信Agent小微的灰度内测正式启动，用户可以通过主入口发送消息和红包，但群聊功能受到限制。小微的子入口则具备读取聊天记录的能力，并支持群发消息，此外，还可以创建日程提醒和待办事项，打通公众号与视频号进行问答。这一功能的推出为用户提供了更便捷的沟通和管理工具。",
-              "source": "公众号：数字生命卡兹克",
-              "url": "https://mp.weixin.qq.com/s/qVdfx01e9C9r5mGi0jh2BA",
-              "score": 58,
-              "sourceCount": 1,
-              "date": "2026-06-22",
-              "publishedAt": "2026-06-22T21:34",
-              "reason": "这条值得一看，因为微信Agent小微的推出为用户提供了一个集成化的沟通和管理工具，极大地提升了使用便利性。"
-            }
-          ]
-        },
-        {
-          "category": "ai-models",
-          "label": "模型发布",
-          "items": [
-            {
-              "title": "PP-OCRv6：支持50种语言的OCR模型，参数范围从1.5M到34.5M",
-              "summary": "PP-OCRv6是PaddleOCR最新一代的通用OCR模型，支持50种语言，参数从1.5M到34.5M不等。该模型在文本检测和识别方面表现出色，尤其适合多场景应用。尽管其在准确性和灵活性上有所提升，但仍存在一些局限性。",
-              "source": "RSS · Hugging Face Blog",
-              "url": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
-              "score": 82,
-              "sourceCount": 1,
-              "date": "2026-06-22",
-              "publishedAt": "2026-06-22T21:18",
-              "reason": "PP-OCRv6在多语言支持和模型灵活性方面的提升，使其成为当前OCR领域的重要进展，值得关注。"
-            },
-            {
-              "title": "美国国家安全局局长揭露\"Mythos\"入侵事件",
-              "summary": "美国国家安全局局长近日披露，代号为\"Mythos\"的实体在短短数小时内成功入侵了美国几乎所有的机密系统。这一消息源自《经济学人》对特朗普政府封锁人工智能公司Anthropic的报道，然而关于\"Mythos\"的具体身份和入侵手段仍未披露。",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://www.economist.com/briefing/2026/06/14/donald-trumps-blocking-of-anthropic-is-capricious-and-chaotic",
-              "score": 60,
-              "sourceCount": 1,
-              "date": "2026-06-22",
-              "publishedAt": "2026-06-22T22:04",
-              "reason": "这一事件揭示了当前网络安全的严峻形势，值得关注和深入研究。"
-            }
-          ]
-        }
-      ]
     }
   ],
   "llmLeaderboard": {
-    "updated": "2026-08-26",
+    "updated": "2026-08-27",
     "source": "ReLE 中文大模型能力评测（综合能力）",
     "sourceUrl": "https://github.com/jeinlee1991/chinese-llm-benchmark",
     "items": [
