@@ -1,7 +1,322 @@
 {
   "lastUpdated": "2026-08-27",
-  "generatedAt": "2026-08-26T16:26:56.947826Z",
+  "generatedAt": "2026-08-26T18:57:09.202859Z",
   "news": [
+    {
+      "title": "Anthropic 开放 Claude 真实使用数据供外部独立研究，公布试点结果",
+      "summary": "Anthropic 今年春季启动试点，通过隐私保护工具 Anthropic Insights（原 Clio）向斯坦福大学 SALT Lab、牛津大学人类信息处理实验室及 METR 三个外部机构开放约 25 万段 2026 年 4-5 月的 Claude.ai 或 Claude Code 对话数据，供其独立设计研究并公开发布结果。",
+      "category": "ai-coding",
+      "source": "Anthropic：Research（发表成果 · 网页）",
+      "date": "2026-08-27",
+      "publishedAt": "2026-08-27T01:30",
+      "collectedAt": "2026-08-27T02:57",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://www.anthropic.com/research/enabling-independent-research",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "GlucoFM: Foundation model for continuous glucose monitoring",
+      "summary": "Health & Bioscience",
+      "category": "ai-models",
+      "source": "RSS · Google Research",
+      "date": "2026-08-27",
+      "publishedAt": "2026-08-27T02:42",
+      "collectedAt": "2026-08-27T02:57",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://research.google/blog/glucofm-foundation-model-for-continuous-glucose-monitoring/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "When LLM judges agree, should we believe them?",
+      "summary": "Discounting the opinions of LLM judges with highly correlated outputs ensures that panels of judges reflect a true diversity of perspectives.",
+      "category": "ai-models",
+      "source": "RSS · Amazon Science",
+      "date": "2026-08-27",
+      "publishedAt": "2026-08-27T01:10",
+      "collectedAt": "2026-08-27T02:57",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://www.amazon.science/blog/when-llm-judges-agree-should-we-believe-them",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Intelligent transcription with Gemini 3.5 Transcribe",
+      "summary": "Now you can get more intelligent speech-to-text transcription with Gemini 3.5 Transcribe.",
+      "category": "ai-models",
+      "source": "RSS · Google DeepMind",
+      "date": "2026-08-27",
+      "publishedAt": "2026-08-27T01:01",
+      "collectedAt": "2026-08-27T02:57",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 2,
+      "relatedSources": [
+        {
+          "source": "Google DeepMind：Blog（RSS）",
+          "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe",
+          "title": "Gemini 3.5 Transcribe 发布：面向实时语音交互的高精度语音转文本模型"
+        }
+      ]
+    },
+    {
+      "title": "Natera’s intelligent appointment scheduling with Amazon Bedrock AgentCore",
+      "summary": "Learn how Natera built an automated voice agent on Amazon Bedrock AgentCore that lets patients book mobile phlebotomy appointments through natural conversation. The post covers the",
+      "category": "ai-agents",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-08-27",
+      "publishedAt": "2026-08-27T00:36",
+      "collectedAt": "2026-08-27T01:46",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/nateras-intelligent-appointment-scheduling-with-amazon-bedrock-agentcore/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Bring your own model with Amazon SageMaker AI: Script mode in SDK v3",
+      "summary": "The SageMaker Python SDK v3 redesigns script mode with unified ModelTrainer and ModelBuilder classes. This post walks through two end-to-end examples, a scikit-learn Random Forest ",
+      "category": "ai-coding",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-08-27",
+      "publishedAt": "2026-08-27T00:31",
+      "collectedAt": "2026-08-27T01:46",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/bring-your-own-model-with-amazon-sagemaker-ai-script-mode-in-sdk-v3/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "How GoDaddy transformed its analytics with Amazon Quick",
+      "summary": "In this post, you will learn how GoDaddy migrated from their legacy business intelligence (BI) tool to Amazon Quick. This was a two-year transformation that delivered results acros",
+      "category": "ai-business",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-08-27",
+      "publishedAt": "2026-08-27T00:51",
+      "collectedAt": "2026-08-27T01:46",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-godaddy-transformed-its-analytics-with-amazon-quick/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Preparing data for supervised fine-tuning Part 1: Formatting and quality",
+      "summary": "Data preparation determines the ceiling of any supervised fine-tuning project. This first post in a two-part series covers the foundations of SFT data prep: quality checks, convers",
+      "category": "ai-models",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-08-27",
+      "publishedAt": "2026-08-27T00:24",
+      "collectedAt": "2026-08-27T01:46",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/preparing-data-for-supervised-fine-tuning-part-1-formatting-and-quality/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 2,
+      "relatedSources": [
+        {
+          "source": "RSS · AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/preparing-data-for-supervised-fine-tuning-part-2-advanced-data-strategies/",
+          "title": "Preparing data for supervised fine-tuning Part 2: Advanced data strategies"
+        }
+      ]
+    },
+    {
+      "title": "Learning never stops: How AI makes learning continuous",
+      "summary": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
+      "category": "ai-models",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-08-26",
+      "publishedAt": "2026-08-26T18:00",
+      "collectedAt": "2026-08-27T02:57",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/learning-never-stops",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
+      "summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
+      "category": "ai-models",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-08-26",
+      "publishedAt": "2026-08-26T18:00",
+      "collectedAt": "2026-08-27T02:57",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "PROOF-Gen: From Optimized Data to Better Distillation",
+      "summary": "Supervised fine-tuning on teacher-generated trajectories is the standard first stage for distilling tool-calling capabilities into deployable models. Post-training pipelines that d",
+      "category": "ai-agents",
+      "source": "RSS · Apple ML Research",
+      "date": "2026-08-26",
+      "publishedAt": "2026-08-26T08:00",
+      "collectedAt": "2026-08-27T01:46",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://machinelearning.apple.com/research/proof-gen-optimized-distillation",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "How loveholidays is making everyone a builder with Codex",
       "summary": "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster.",
@@ -2672,290 +2987,6 @@
       "moduleTargets": [
         "news",
         "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Introducing AI Futures",
-      "summary": "Introducing AI Futures, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
-      "category": "ai-models",
-      "source": "RSS · OpenAI Blog",
-      "date": "2026-08-20",
-      "publishedAt": "2026-08-20T15:00",
-      "collectedAt": "2026-08-24T15:28",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://openai.com/index/introducing-ai-futures",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Stripe 以 75 亿美元收购 OpenRouter",
-      "summary": "Stripe 确认收购 AI 模型路由平台 OpenRouter，交易金额达到 75 亿美元，远超其 5 月时的 13 亿美元估值。尽管创始人提到收购与\"奇点\"有关，实际原因在于 OpenRouter 能帮助 Stripe 进入 AI 时代的支出管理领域，并掌握开发者的 AI 使用动向。",
-      "category": "ai-business",
-      "tags": [
-        "Stripe",
-        "OpenRouter",
-        "收购",
-        "AI",
-        "支出管理"
-      ],
-      "keyPoints": [
-        "Stripe 宣布以 75 亿美元收购 OpenRouter，交易金额显著高于其 5 月的 13 亿美元估值。",
-        "OpenRouter 的创始人将从此次交易中获得 15 亿美元，超过了三个月前的公司总估值。",
-        "Stripe 的创始人提到，收购与\"奇点\"的概念相关，暗示 AI 时代的到来。",
-        "Stripe 表示，88% 的 Forbes AI 50 公司正在使用其产品，显示出其在 AI 领域的影响力。",
-        "OpenRouter 将在收购后保持独立运营，继续其现有的产品和使命。"
-      ],
-      "background": "2023 年 5 月，OpenRouter 的估值为 13 亿美元，而 Stripe 在 2023 年 8 月确认以 75 亿美元收购该公司，显示出市场对 AI 相关技术的高度关注。Stripe 的创始人 Patrick 和 John Collison 在一封致投资者的信中提到，收购的背景与\"奇点\"的概念有关，尽管这可能是调侃。AI 技术的迅速发展使得越来越多的公司依赖 Stripe 的支付服务，尤其是在 AI 领域的初创公司。OpenRouter 专注于帮助开发者管理 AI 模型的使用，这与 Stripe 的目标客户群体有重叠，进一步增强了收购的合理性。",
-      "impact": "此次收购将使 Stripe 能够更好地进入 AI 时代，利用 OpenRouter 的技术来优化其支付管理服务。开发者将能更方便地使用 Stripe 的产品，尤其是在 AI 应用的开发中。随着 AI 经济的不断发展，Stripe 可能会吸引更多依赖 AI 的初创公司，进一步巩固其市场地位。收购后，OpenRouter 将继续独立运营，这可能会吸引更多开发者使用其服务，从而形成良性循环，推动双方的业务增长。",
-      "audience": [
-        "AI 开发者",
-        "支付系统集成商",
-        "初创公司创始人",
-        "技术投资者",
-        "数据科学家"
-      ],
-      "useCases": [
-        "集成 OpenRouter 以优化 AI 模型的调用和管理，提升开发效率。",
-        "利用 Stripe 的支付服务为 AI 驱动的产品提供便捷的支付解决方案。",
-        "分析 AI 使用数据，帮助企业制定更有效的支出管理策略。",
-        "通过 OpenRouter 提供的工具，简化多模型的开发和部署流程。",
-        "借助 Stripe 的平台，快速启动 AI 相关的商业项目，降低技术门槛。"
-      ],
-      "risks": [
-        "收购后可能面临整合挑战，影响 OpenRouter 的独立性和创新能力。",
-        "API 使用费用和配额可能会影响开发者的使用体验，增加成本。",
-        "市场竞争加剧，可能导致 Stripe 在 AI 领域的市场份额受到威胁。",
-        "技术兼容性问题可能会影响 OpenRouter 与其他平台的集成。",
-        "未来的商业授权政策可能会限制 OpenRouter 的发展空间。"
-      ],
-      "reason": "此次收购不仅是 Stripe 进入 AI 时代的重要一步，也为开发者提供了更强大的工具，值得关注其后续发展。",
-      "scores": {
-        "importance": 85,
-        "novelty": 80,
-        "firsthand": 90,
-        "impact": 80,
-        "credibility": 85
-      },
-      "url": "https://techcrunch.com/2026/08/19/stripe-didnt-really-buy-openrouter-because-of-the-singularity",
-      "source": "TechCrunch：AI（RSS）",
-      "date": "2026-08-20",
-      "publishedAt": "2026-08-20T07:32",
-      "collectedAt": "2026-08-20T08:08",
-      "dateStatus": "verified",
-      "tier": "T1.5",
-      "score": 67,
-      "aiSelected": true,
-      "_style": "observer",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "OpenAI CFO 宣布公司计划于 2027 年上市",
-      "summary": "OpenAI 首席财务官萨拉·弗里亚尔在全员大会上透露，公司最迟将在 2027 年完成上市，若业务持续增长，可能会提前上市。OpenAI 已秘密提交 IPO 招股书，当前年化营收增长显著，企业级业务表现尤为突出，周活跃用户已突破 2000 万。",
-      "category": "ai-business",
-      "tags": [
-        "OpenAI",
-        "IPO",
-        "财务",
-        "上市",
-        "人工智能"
-      ],
-      "keyPoints": [
-        "OpenAI CFO 萨拉·弗里亚尔在全员大会上确认，预计最迟于 2027 年上市，若业务良好，可能提前。",
-        "公司已于 6 月向美国证券交易委员会提交了 IPO 招股书，尚未公开具体上市时间。",
-        "OpenAI 本季度整体年化营收增长 35%，企业级业务年化营收增长 50%。",
-        "旗下 AI 编程与办公产品的周活跃用户已突破 2000 万，显示出强劲的市场需求。",
-        "OpenAI 面临证明其 8,520 亿美元估值合理性的压力，投资者期待更详细的财务信息。"
-      ],
-      "background": "OpenAI 是一家领先的人工智能实验室，近年来在 AI 技术领域取得了显著进展。随着市场对 AI 解决方案需求的增加，OpenAI 的业务也在快速增长。CFO 弗里亚尔在全员大会上提到的 IPO 计划，标志着公司希望通过上市进一步扩大融资渠道，支持其持续的技术创新和市场扩展。与竞争对手 Anthropic 相比，OpenAI 的市场表现和用户基础更为强劲，尽管面临高管变动带来的不确定性。",
-      "impact": "OpenAI 的上市计划将对整个 AI 行业产生深远影响。首先，成功上市将为公司提供更多资金，推动技术研发和市场扩展。其次，上市后，OpenAI 需要向投资者透明其财务状况，这将促使公司在运营和管理上更加规范。此外，上市可能会吸引更多开发者和企业用户关注 OpenAI 的产品，进一步推动行业竞争。",
-      "audience": [
-        "投资分析师",
-        "AI 研发工程师",
-        "企业决策者",
-        "市场营销人员",
-        "金融分析师"
-      ],
-      "useCases": [
-        "分析 OpenAI 的财务数据，评估其上市潜力和投资价值。",
-        "关注 OpenAI 的产品更新，了解其对企业级用户的影响。",
-        "研究 AI 行业的市场动态，预测未来的竞争格局。",
-        "利用 OpenAI 的 API 开发新产品，提升企业的技术能力。",
-        "参与 OpenAI 的投资讨论，了解其业务战略和市场定位。"
-      ],
-      "risks": [
-        "上市过程中可能面临市场波动，影响投资者信心和公司估值。",
-        "高管频繁变动可能导致公司战略不稳定，影响业务执行。",
-        "需要满足监管要求，确保 IPO 过程中的合规性，避免法律风险。",
-        "API 使用可能受到配额限制，影响开发者的使用体验和产品开发进度。",
-        "市场竞争加剧，可能导致客户流失和收入下降，影响公司财务表现。"
-      ],
-      "reason": "OpenAI 的上市计划是行业内的重要里程碑，值得关注其对市场和技术发展的影响。",
-      "scores": {
-        "importance": 85,
-        "novelty": 70,
-        "firsthand": 80,
-        "impact": 90,
-        "credibility": 85
-      },
-      "url": "https://www.ithome.com/0/991/886.htm",
-      "source": "IT之家（RSS）",
-      "date": "2026-08-20",
-      "publishedAt": "2026-08-20T08:17",
-      "collectedAt": "2026-08-20T09:27",
-      "dateStatus": "verified",
-      "tier": "T1.5",
-      "score": 66,
-      "aiSelected": true,
-      "_style": "tutorial",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "FastMetal 实现 Mac 本地 30 秒生成视频",
-      "summary": "FastMetal 是一款针对 Apple Silicon 优化的视频生成工具，能够在 Mac 上以 30 秒的时间生成 5 秒长的 480P 视频。它无需依赖 CUDA 或云服务，仅占用 3.9 GiB 内存。该工具支持三种模型，分别为 1.3B（480P）、5B（720P）和 14B（高画质），适合不同需求的用户使用。",
-      "category": "ai-coding",
-      "tags": [
-        "视频生成",
-        "Apple Silicon",
-        "FastMetal",
-        "本地计算",
-        "机器学习"
-      ],
-      "keyPoints": [
-        "FastMetal 可在 Mac 上本地生成 5 秒的 480P 视频，耗时仅 30 秒。",
-        "该工具支持三种不同规模的模型，分别为 1.3B、5B 和 14B，适应不同的画质需求。",
-        "生成过程不需要 CUDA 支持，完全依赖于 Metal 框架，内存占用仅为 3.9 GiB。",
-        "FastMetal 的 DiT、DMD 采样器和解码器均通过 MLX 运行，默认使用 INT8 精度。",
-        "该工具的开源代码和模型可在 GitHub 和 Hugging Face 上获取，便于用户进行二次开发。"
-      ],
-      "background": "FastMetal 是由 Hao AI Lab 开发的一款新型视频生成工具，旨在利用 Apple Silicon 的强大计算能力，实现高效的视频生成。与传统的依赖云计算或高性能 GPU 的方法不同，FastMetal 通过优化算法和本地计算，降低了生成视频的门槛。该工具的推出标志着本地视频生成技术的进步，尤其适合需要快速生成视频内容的创作者和开发者。",
-      "impact": "FastMetal 的推出将极大地便利视频内容创作者，尤其是在教育、广告和社交媒体等领域。用户可以在短时间内生成高质量的视频，提升工作效率。此外，开发者可以基于 FastMetal 的开源代码进行定制化开发，推动更多创新应用的出现。随着本地生成技术的普及，可能会改变视频制作的商业模式，减少对云服务的依赖。",
-      "audience": [
-        "视频内容创作者",
-        "教育工作者",
-        "广告设计师",
-        "游戏开发者",
-        "机器学习工程师"
-      ],
-      "useCases": [
-        "使用 FastMetal 生成短视频广告，提升产品宣传效率。",
-        "在教育领域利用 FastMetal 制作教学视频，快速响应课程需求。",
-        "游戏开发者使用 FastMetal 创建游戏宣传片，增强市场推广效果。",
-        "社交媒体运营人员借助 FastMetal 快速生成吸引眼球的短视频内容。",
-        "研究人员利用 FastMetal 进行视频数据集的快速生成，支持机器学习模型训练。"
-      ],
-      "risks": [
-        "在使用 FastMetal 时，需确保 Mac 的硬件配置满足内存要求，避免因内存不足导致生成失败。",
-        "API 调用频率可能受到限制，需关注使用配额，避免超出限制导致服务中断。",
-        "不同模型之间的兼容性可能存在问题，建议在使用前仔细阅读文档，确保正确配置。",
-        "生成视频的质量可能受到输入参数的影响，需进行多次测试以达到最佳效果。",
-        "在商业应用中，需注意 FastMetal 的使用授权，确保符合相关法律法规。"
-      ],
-      "reason": "FastMetal 以其高效的本地视频生成能力，降低了视频制作的门槛，适合广泛的应用场景，值得关注。",
-      "scores": {
-        "importance": 85,
-        "novelty": 80,
-        "firsthand": 90,
-        "impact": 75,
-        "credibility": 85
-      },
-      "url": "https://x.com/haoailab/status/2090177721913770407",
-      "source": "X：Sky Computing Lab (@haoailab)",
-      "date": "2026-08-20",
-      "publishedAt": "2026-08-20T04:42",
-      "collectedAt": "2026-08-20T05:48",
-      "dateStatus": "verified",
-      "tier": "T1.5",
-      "score": 66,
-      "aiSelected": true,
-      "_style": "tutorial",
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "DeepSeek-V4-Pro 在 H20 上的多场景优化突破",
-      "summary": "我注意到 LMSYS 团队在 H20 GPU 上对 1.6 万亿参数的 MoE 模型 DeepSeek-V4-Pro 进行了多场景优化，成功将其性能逼近 B300。通过单节点 H20-141GB 的实现，输出速率达到了 271 tokens/s，与 B300 的 383.7 tokens/s 性能差距缩小至 1.42 倍。这一进展为高性能 AI 模型的应用提供了新的可能性。",
-      "category": "ai-models",
-      "tags": [
-        "DeepSeek-V4-Pro",
-        "H20 GPU",
-        "多场景优化",
-        "MoE 模型",
-        "性能提升"
-      ],
-      "keyPoints": [
-        "DeepSeek-V4-Pro 是一个拥有 1.6 万亿参数的 MoE 模型，支持 FP8 和 FP4 权重。",
-        "在 H20 GPU 上，单节点 H20-141GB 的实现达到了 271 output tokens/s，性能接近 B300 的 383.7 tokens/s。",
-        "通过场景化服务配置，LMSYS 团队优化了模型的服务性能，适应不同的工作负载。",
-        "优化过程中，团队针对长上下文预填充和低延迟解码进行了特别调优。",
-        "这一优化使得 DeepSeek-V4-Pro 在高并发和低延迟请求下表现更加出色。"
-      ],
-      "background": "DeepSeek-V4-Pro 是 LMSYS 团队推出的最新 MoE 模型，具备强大的参数规模和灵活的服务能力。尽管 H20 GPU 在硬件上不如最新的 NVIDIA Blackwell GPU，但其广泛应用使得优化显得尤为重要。团队通过对模型的多场景服务配置，解决了长上下文预填充和高并发请求带来的挑战，确保了模型在不同场景下的高效运行。这一系列优化不仅提升了模型的性能，也为未来的 AI 应用提供了更大的灵活性和适应性。",
-      "impact": "这一优化的突破将影响多个领域的开发者和企业，尤其是那些依赖高性能 AI 模型的团队。通过提升 DeepSeek-V4-Pro 的服务能力，开发者可以在更短的时间内获得更高质量的输出，从而加速产品开发和决策过程。此外，这一进展也可能促使更多企业考虑在 H20 GPU 上部署大型 AI 模型，推动相关技术的普及和应用。",
-      "audience": [
-        "AI 模型优化工程师",
-        "大规模模型部署的 SRE",
-        "需要高性能解码的应用开发者",
-        "关注 AI 性能提升的研究人员",
-        "从事机器学习模型训练的工程师"
-      ],
-      "useCases": [
-        "优化 DeepSeek-V4-Pro 模型在 H20 GPU 上的服务配置，提高输出速率。",
-        "针对特定场景调整模型的预填充和解码策略，满足不同的性能需求。",
-        "在高并发环境中，利用优化后的模型提升响应速度，降低延迟。",
-        "结合多场景服务配置，灵活应对不同工作负载的挑战。",
-        "在产品开发中，快速迭代和测试模型性能，提升开发效率。"
-      ],
-      "risks": [
-        "在 H20 GPU 上运行大型模型可能面临硬件资源不足的问题，影响性能。",
-        "API 调用可能存在配额限制，影响模型的实际应用效果。",
-        "不同场景下的服务配置可能导致模型性能不稳定，需要持续监控和调整。",
-        "商用授权和使用条款可能限制模型的某些应用场景，需提前了解。",
-        "兼容性问题可能影响模型在不同硬件上的表现，需进行充分测试。"
-      ],
-      "reason": "这条信息展示了 DeepSeek-V4-Pro 在 H20 GPU 上的优化成果，值得关注其对 AI 模型性能提升的实际影响。",
-      "scores": {
-        "importance": 85,
-        "novelty": 80,
-        "firsthand": 90,
-        "impact": 75,
-        "credibility": 85
-      },
-      "url": "https://www.lmsys.org/blog/2026-08-19-deepseek-v4-pro-engine-optimization-h20",
-      "source": "LMSYS：Blog（Chatbot Arena 团队）",
-      "date": "2026-08-20",
-      "publishedAt": "2026-08-20T01:56",
-      "collectedAt": "2026-08-20T02:18",
-      "dateStatus": "verified",
-      "tier": "T1.5",
-      "score": 66,
-      "aiSelected": true,
-      "_style": "recommender",
-      "moduleTargets": [
-        "news"
       ],
       "sourceCount": 1
     }
@@ -5918,30 +5949,31 @@
       "date": "2026-08-05"
     },
     {
-      "name": "nautechsystems/nautilus_trader",
-      "lang": "Rust",
-      "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
-      "stars": "27535 stars",
-      "why": "近期更新且具备 AI / LLM / Agent 相关主题，适合做项目介绍、教程或同类对比。",
-      "url": "https://github.com/nautechsystems/nautilus_trader",
-      "source": "GitHub Search · 2026-08-24",
+      "name": "QwenLM/Qwen3.8-Flash-Next",
+      "lang": "Repo",
+      "description": "Qwen3.8-Flash-Next is the foundation model developed by Qwen Team, Alibaba Group.",
+      "stars": "87 stars",
+      "why": "国产大模型厂商 通义千问 Qwen 的最新开源动态/模型发布，属一手信源。",
+      "url": "https://github.com/QwenLM/Qwen3.8-Flash-Next",
+      "source": "GitHub · 通义千问 Qwen",
+      "tier": "T1",
       "category": "Coding Agent",
-      "details": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
+      "details": "Qwen3.8-Flash-Next is the foundation model developed by Qwen Team, Alibaba Group.",
       "features": [],
       "useCases": [],
       "quickStart": []
     },
     {
-      "name": "InternLM/OVO-S-Bench",
+      "name": "zai-org/zcode-plugins",
       "lang": "Python",
-      "description": "[EMNLP 2026] An official implementation of \"OVO-S-Bench: A Hierarchical Benchmark for Streaming Spatial Intelligence in Multimodal LLMs\"",
-      "stars": "52 stars",
-      "why": "国产大模型厂商 上海AI实验室 书生 的最新开源动态/模型发布，属一手信源。",
-      "url": "https://github.com/InternLM/OVO-S-Bench",
-      "source": "GitHub · 上海AI实验室 书生",
+      "description": "ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
+      "stars": "1 stars",
+      "why": "国产大模型厂商 智谱 Z.ai 的最新开源动态/模型发布，属一手信源。",
+      "url": "https://github.com/zai-org/zcode-plugins",
+      "source": "GitHub · 智谱 Z.ai",
       "tier": "T1",
       "category": "Coding Agent",
-      "details": "[EMNLP 2026] An official implementation of \"OVO-S-Bench: A Hierarchical Benchmark for Streaming Spatial Intelligence in Multimodal LLMs\"",
+      "details": "ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
       "features": [],
       "useCases": [],
       "quickStart": []
@@ -6622,6 +6654,28 @@
     ],
     "ai-agents": [
       {
+        "name": "Natera’s intelligent appointment scheduling with Amazon Bedr",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Learn how Natera built an automated voice agent on Amazon Bedrock AgentCore that lets patients book mobile phlebotomy appointments through natural conversation.",
+        "description": "Learn how Natera built an automated voice agent on Amazon Bedrock AgentCore that lets patients book mobile phlebotomy appointments through natural conversation. The post covers the",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/nateras-intelligent-appointment-scheduling-with-amazon-bedrock-agentcore/"
+      },
+      {
+        "name": "Warp 如何在 Claude 上构建自我改进的智能体",
+        "provider": "Claude：Blog（网页）",
+        "type": "AI 项目/工具",
+        "bestFor": "Warp 在 Claude 平台上构建了基于 Agent Skills 的自我改进循环，通过基础技能与改进技能两个文件型技能，将人类反馈转化为对智能体的持续优化。该模式已应用于其整个开源仓库，覆盖数百名贡献者与数千次代码审查。团队建议以原则而非规则编写技能，并强调低摩擦反馈与改进技能的可复用性。",
+        "description": "Warp 在 Claude 平台上构建了基于 Agent Skills 的自我改进循环，通过基础技能与改进技能两个文件型技能，将人类反馈转化为对智能体的持续优化。该模式已应用于其整个开源仓库，覆盖数百名贡献者与数千次代码审查。团队建议以原则而非规则编写技能，并强调低摩擦反馈与改进技能的可复用性。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Claude：Blog（网页）",
+        "url": "https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude"
+      },
+      {
         "name": "Connect Amazon Bedrock AgentCore to cross-account knowledge ",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -7038,31 +7092,42 @@
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2608.21126v1"
-      },
-      {
-        "name": "NVIDIA Vera Rubin NVL72 树立 AI 智能体效率新标准：每瓦特工作量提升至 30 倍",
-        "provider": "NVIDIA Blog（RSS）",
-        "type": "AI 项目/工具",
-        "bestFor": "NVIDIA 实测数据显示，Vera Rubin NVL72 在智能体工作负载下每兆瓦吞吐量较 GB300 NVL72 最高提升 30 倍，每百万 token 成本降低至 35 倍。",
-        "description": "NVIDIA 实测数据显示，Vera Rubin NVL72 在智能体工作负载下每兆瓦吞吐量较 GB300 NVL72 最高提升 30 倍，每百万 token 成本降低至 35 倍。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NVIDIA Blog（RSS）",
-        "url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents"
-      },
-      {
-        "name": "Some People's Blood Already Knows How Well a Vaccine Will Wo",
-        "provider": "Global Biodefense",
-        "type": "AI 项目/工具",
-        "bestFor": "Researcher checks expiration dates on reagents. Credit: Nicole Leidholm\n\nThe immune system's response to a vaccine is the product of a complex, highly individua",
-        "description": "Researcher checks expiration dates on reagents. Credit: Nicole Leidholm\n\nThe immune system's response to a vaccine is the product of a complex, highly individualized set of biologi",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Global Biodefense",
-        "url": "https://globalbiodefense.com/2026/08/24/some-peoples-blood-already-knows-how-well-a-vaccine-will-work/"
       }
     ],
     "ai-models": [
+      {
+        "name": "Bringing ChatGPT for Teachers to more U.S. school districts",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
+        "description": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · OpenAI Blog",
+        "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts"
+      },
+      {
+        "name": "Gemini 3.5 Transcribe 发布，支持多语言转录",
+        "provider": "X：Sundar Pichai (@sundarpichai)",
+        "type": "AI 项目/工具",
+        "bestFor": "向 Gemini 3.5 Transcribe 问好！\n\n- 构建能理解用户语音/意图的应用，即使有多位说话人也行！\n- 开箱即用，自动检测 85+ 种语言\n- 针对专业术语的自定义词汇适配……SGTM：）\n\nAPI 现已在 @GoogleAIStudio 和 Gemini Enterprise 中提供，也可在 mac",
+        "description": "向 Gemini 3.5 Transcribe 问好！\n\n- 构建能理解用户语音/意图的应用，即使有多位说话人也行！\n- 开箱即用，自动检测 85+ 种语言\n- 针对专业术语的自定义词汇适配……SGTM：）\n\nAPI 现已在 @GoogleAIStudio 和 Gemini Enterprise 中提供，也可在 macOS 上的 Gemini 应用或 And",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "X：Sundar Pichai (@sundarpichai)",
+        "url": "https://x.com/sundarpichai/status/2092659467284517088"
+      },
+      {
+        "name": "Gemini 3.5 Transcribe 发布：面向实时语音交互的高精度语音转文本模型",
+        "provider": "Google DeepMind：Blog（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "Google DeepMind 推出 Gemini 3.5 Transcribe 语音转文本模型，支持流式与非流式两种 API。据 Artificial Analysis 评测，其流式与非流式平均词错率分别为 4.0% 和 2.6%，支持超 85 种语言、自定义词汇及最多三人说话人识别。",
+        "description": "Google DeepMind 推出 Gemini 3.5 Transcribe 语音转文本模型，支持流式与非流式两种 API。据 Artificial Analysis 评测，其流式与非流式平均词错率分别为 4.0% 和 2.6%，支持超 85 种语言、自定义词汇及最多三人说话人识别。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Google DeepMind：Blog（RSS）",
+        "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe"
+      },
       {
         "name": "Qwen3.8-Flash 开源，Qwen4 架构预览",
         "provider": "X：通义千问 / Qwen (@Alibaba_Qwen)",
@@ -7469,42 +7534,20 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Frontier Enterprise",
         "url": "https://www.frontier-enterprise.com/nus-libraries-launches-ai-sense-maker-a-conversational-platform-for-learning/"
-      },
-      {
-        "name": "Incheon Port Authority Develops AI Assistant for Employees",
-        "provider": "경인방송",
-        "type": "AI 项目/工具",
-        "bestFor": "The Incheon Port Authority (IPA) has developed and distributed an artificial intelligence \"Regulation Assistant\" to employees, trained on the Port Act and the a",
-        "description": "The Incheon Port Authority (IPA) has developed and distributed an artificial intelligence \"Regulation Assistant\" to employees, trained on the Port Act and the authority's internal ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "경인방송",
-        "url": "https://news.ifm.kr/news/articleView.html?idxno=477637"
-      },
-      {
-        "name": "Haier Unveils Mini LED M70 Series Smart TVs in India",
-        "provider": "TechnoSports",
-        "type": "AI 项目/工具",
-        "bestFor": "Haier Appliances India has announced the launch of its new Mini LED M70 Series, a range of smart televisions designed to enhance home entertainment experiences.",
-        "description": "Haier Appliances India has announced the launch of its new Mini LED M70 Series, a range of smart televisions designed to enhance home entertainment experiences. The series integrat",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "TechnoSports",
-        "url": "https://technosports.co.in/haier-launches-mini-led-m70/"
-      },
-      {
-        "name": "Baron Funds Q2 2026: Letter From Ron | Seeking Alpha",
-        "provider": "Seeking Alpha",
-        "type": "AI 项目/工具",
-        "bestFor": "Since 1992, Baron Capital's AUM increased from $100 million to approximately $69.7 billion while earning $71.2 billion in realized and unrealized gains.\n\n\"This ",
-        "description": "Since 1992, Baron Capital's AUM increased from $100 million to approximately $69.7 billion while earning $71.2 billion in realized and unrealized gains.\n\n\"This year, on July 4, 202",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Seeking Alpha",
-        "url": "https://seekingalpha.com/article/4939492-baron-funds-q2-2026-letter-from-ron"
       }
     ],
     "ai-business": [
+      {
+        "name": "How GoDaddy transformed its analytics with Amazon Quick",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "In this post, you will learn how GoDaddy migrated from their legacy business intelligence (BI) tool to Amazon Quick. This was a two-year transformation that del",
+        "description": "In this post, you will learn how GoDaddy migrated from their legacy business intelligence (BI) tool to Amazon Quick. This was a two-year transformation that delivered results acros",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/how-godaddy-transformed-its-analytics-with-amazon-quick/"
+      },
       {
         "name": "Jitendra Vaswani's Inside A Hustler's Brain Spotlights the O",
         "provider": "NewsX",
@@ -8035,23 +8078,6 @@
         "watch": "法律条款的模糊性可能导致不必要的诉讼，增加企业的法律风险。",
         "sourceName": "Currents:large language model",
         "url": "https://www.business-standard.com/opinion/editorial/copyright-in-ai-era-deeper-judicial-legislative-scrutiny-is-needed-126080301478_1.html"
-      },
-      {
-        "name": "国泰君安证券利用 AI 金融科技推动资本市场高质量发展",
-        "provider": "Currents",
-        "type": "AI 项目/工具",
-        "bestFor": "国泰君安证券的 AI 创新将影响广泛的用户群体，包括投资银行、财富管理机构和普通投资者。通过提供更高效的投资服务，金融科技的应用将改变传统的投资决策方式，提升市场的透明度和效率。此外，随着更多科技企业的上市，资本市场将进一步支持创新型企业的发展，推动整体经济的增长。",
-        "description": "我注意到，国泰君安证券在2026年世界人工智能大会上举办了一场以 AI 为主题的论坛，吸引了近千名来自公共部门、商业领袖和专家的参与。论坛展示了公司在金融科技领域的最新创新，特别是其 AI 大语言模型和投资服务平台的应用，标志着金融科技从概念探索走向了大规模应用。",
-        "useCases": [
-          "利用 AI 大语言模型分析市场趋势，帮助投资顾问制定更精准的投资策略。",
-          "通过 Lingxi 3.0 应用，投资者可以实时获取个性化的投资建议，提高决策效率。",
-          "在财富管理机构中，应用 AI 技术优化客户投资组合，提升客户满意度。",
-          "为科技企业提供上市咨询服务，帮助其顺利进入资本市场。",
-          "通过 AI 技术分析投资者行为，改善市场营销策略。"
-        ],
-        "watch": "AI 模型的商用授权可能存在限制，影响其在不同场景中的应用。",
-        "sourceName": "Currents:large language model",
-        "url": "https://www.globenewswire.com/news-release/2026/08/03/3337307/0/en/Guotai-Haitong-Securities-leverages-AI-fintech-to-boost-high-quality-development-of-capital-market.html"
       }
     ],
     "ai-benchmark": [
@@ -9250,6 +9276,17 @@
     ],
     "ai-research": [
       {
+        "name": "PROOF-Gen: From Optimized Data to Better Distillation",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Supervised fine-tuning on teacher-generated trajectories is the standard first stage for distilling tool-calling capabilities into deployable models. Post-train",
+        "description": "Supervised fine-tuning on teacher-generated trajectories is the standard first stage for distilling tool-calling capabilities into deployable models. Post-training pipelines that d",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Apple ML Research",
+        "url": "https://machinelearning.apple.com/research/proof-gen-optimized-distillation"
+      },
+      {
         "name": "Thermal Tuning Overhead in Wafer-Scale Optical Interconnects",
         "provider": "arXiv",
         "type": "AI 项目/工具",
@@ -9744,21 +9781,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Currents:large language model",
         "url": "https://medicalxpress.com/news/2026-08-ai-scribes-paperwork-errors-patient.html"
-      },
-      {
-        "name": "UMAP 的 kNN 图谱揭示高维数据的新潜力",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "这一研究为数据科学家和机器学习工程师提供了新的视角，强调了 kNN 图谱在高维数据分析中的重要性。通过应用 PageRank 和 k-core 分解等图算法，用户可以更有效地识别数据中的重要模式和结构。这可能会改变数据分析的决策过程，促使更多研究者关注数据的高维特性，进而推动相关领域的技术进步。",
-        "description": "Duen Horng (Polo) Chau 等人在 2026 年 7 月发表的论文中探讨了 UMAP 的 k 最近邻 (kNN) 图谱，强调其在高维数据分析中的重要性。研究表明，传统的低维嵌入方法忽视了 kNN 图谱的丰富信息，该图谱能够在 UMAP 的 2D 投影失真之前，准确编码数据的流形。",
-        "useCases": [
-          "应用 PageRank 算法识别数据集中的关键数据点，提升分析效率。",
-          "利用 k-core 分解分析数据的核心区域，优化数据处理策略。",
-          "结合 MNIST 数据集，探索图算法在图像分类中的应用效果。"
-        ],
-        "watch": "在使用 kNN 图谱时，可能面临计算复杂度高的问题，影响处理速度。",
-        "sourceName": "RSS · Apple ML Research",
-        "url": "https://machinelearning.apple.com/research/umap-knn-graph-sensemaking"
       }
     ],
     "ai-office": []
@@ -11167,13 +11189,35 @@
   ],
   "dailyReport": {
     "date": "2026-08-27",
-    "generatedAt": "2026-08-26T16:26:56.923826Z",
-    "total": 8,
+    "generatedAt": "2026-08-26T18:57:09.173864Z",
+    "total": 19,
     "sections": [
       {
         "category": "ai-coding",
         "label": "AI 编程",
         "items": [
+          {
+            "title": "Anthropic 开放 Claude 真实使用数据供外部独立研究，公布试点结果",
+            "summary": "Anthropic 今年春季启动试点，通过隐私保护工具 Anthropic Insights（原 Clio）向斯坦福大学 SALT Lab、牛津大学人类信息处理实验室及 METR 三个外部机构开放约 25 万段 2026 年 4-5 月的 Claude.ai 或 Claude C",
+            "source": "Anthropic：Research（发表成果 · 网页）",
+            "url": "https://www.anthropic.com/research/enabling-independent-research",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-27",
+            "publishedAt": "2026-08-27T01:30",
+            "reason": ""
+          },
+          {
+            "title": "Bring your own model with Amazon SageMaker AI: Script mode in SDK v3",
+            "summary": "The SageMaker Python SDK v3 redesigns script mode with unified ModelTrainer and ModelBuilder classes. This post walks through two end-to-end",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/bring-your-own-model-with-amazon-sagemaker-ai-script-mode-in-sdk-v3/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-27",
+            "publishedAt": "2026-08-27T00:31",
+            "reason": ""
+          },
           {
             "title": "How loveholidays is making everyone a builder with Codex",
             "summary": "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into produ",
@@ -11203,6 +11247,28 @@
         "label": "Agent / MCP",
         "items": [
           {
+            "title": "Natera’s intelligent appointment scheduling with Amazon Bedrock AgentCore",
+            "summary": "Learn how Natera built an automated voice agent on Amazon Bedrock AgentCore that lets patients book mobile phlebotomy appointments through n",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/nateras-intelligent-appointment-scheduling-with-amazon-bedrock-agentcore/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-27",
+            "publishedAt": "2026-08-27T00:36",
+            "reason": ""
+          },
+          {
+            "title": "PROOF-Gen: From Optimized Data to Better Distillation",
+            "summary": "Supervised fine-tuning on teacher-generated trajectories is the standard first stage for distilling tool-calling capabilities into deployabl",
+            "source": "RSS · Apple ML Research",
+            "url": "https://machinelearning.apple.com/research/proof-gen-optimized-distillation",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-26",
+            "publishedAt": "2026-08-26T08:00",
+            "reason": ""
+          },
+          {
             "title": "AgentHands: Generating interactive hand gestures for spatially grounded agent conversations in XR",
             "summary": "Human-Computer Interaction and Visualization",
             "source": "RSS · Google Research",
@@ -11230,6 +11296,72 @@
         "category": "ai-models",
         "label": "模型发布",
         "items": [
+          {
+            "title": "GlucoFM: Foundation model for continuous glucose monitoring",
+            "summary": "Health & Bioscience",
+            "source": "RSS · Google Research",
+            "url": "https://research.google/blog/glucofm-foundation-model-for-continuous-glucose-monitoring/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-27",
+            "publishedAt": "2026-08-27T02:42",
+            "reason": ""
+          },
+          {
+            "title": "When LLM judges agree, should we believe them?",
+            "summary": "Discounting the opinions of LLM judges with highly correlated outputs ensures that panels of judges reflect a true diversity of perspectives",
+            "source": "RSS · Amazon Science",
+            "url": "https://www.amazon.science/blog/when-llm-judges-agree-should-we-believe-them",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-27",
+            "publishedAt": "2026-08-27T01:10",
+            "reason": ""
+          },
+          {
+            "title": "Intelligent transcription with Gemini 3.5 Transcribe",
+            "summary": "Now you can get more intelligent speech-to-text transcription with Gemini 3.5 Transcribe.",
+            "source": "RSS · Google DeepMind",
+            "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
+            "score": 70,
+            "sourceCount": 2,
+            "date": "2026-08-27",
+            "publishedAt": "2026-08-27T01:01",
+            "reason": ""
+          },
+          {
+            "title": "Preparing data for supervised fine-tuning Part 1: Formatting and quality",
+            "summary": "Data preparation determines the ceiling of any supervised fine-tuning project. This first post in a two-part series covers the foundations o",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/preparing-data-for-supervised-fine-tuning-part-1-formatting-and-quality/",
+            "score": 70,
+            "sourceCount": 2,
+            "date": "2026-08-27",
+            "publishedAt": "2026-08-27T00:24",
+            "reason": ""
+          },
+          {
+            "title": "Learning never stops: How AI makes learning continuous",
+            "summary": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the c",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/learning-never-stops",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-26",
+            "publishedAt": "2026-08-26T18:00",
+            "reason": ""
+          },
+          {
+            "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
+            "summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators ",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-26",
+            "publishedAt": "2026-08-26T18:00",
+            "reason": ""
+          },
           {
             "title": "What We Learned Trying to Catch AI Liars: An Aletheia's Quest Retrospective",
             "summary": "What we learned while building black-box and white-box detectors for AI deception during Aletheia's Quest.",
@@ -11278,6 +11410,23 @@
             "sourceCount": 1,
             "date": "2026-08-26",
             "publishedAt": "",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "category": "ai-business",
+        "label": "行业商业",
+        "items": [
+          {
+            "title": "How GoDaddy transformed its analytics with Amazon Quick",
+            "summary": "In this post, you will learn how GoDaddy migrated from their legacy business intelligence (BI) tool to Amazon Quick. This was a two-year tra",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/how-godaddy-transformed-its-analytics-with-amazon-quick/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-27",
+            "publishedAt": "2026-08-27T00:51",
             "reason": ""
           }
         ]
