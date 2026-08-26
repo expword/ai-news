@@ -1,7 +1,34 @@
 {
   "lastUpdated": "2026-08-26",
-  "generatedAt": "2026-08-26T01:09:34.105841Z",
+  "generatedAt": "2026-08-26T03:39:41.267484Z",
   "news": [
+    {
+      "title": "What We Learned Trying to Catch AI Liars: An Aletheia's Quest Retrospective",
+      "summary": "What we learned while building black-box and white-box detectors for AI deception during Aletheia's Quest.",
+      "category": "ai-models",
+      "source": "RSS · EleutherAI",
+      "date": "2026-08-26",
+      "publishedAt": "2026-08-26T00:35",
+      "collectedAt": "2026-08-26T10:25",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://blog.eleuther.ai/aletheia-retrospective/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "AgentHands: Generating interactive hand gestures for spatially grounded agent conversations in XR",
       "summary": "Human-Computer Interaction and Visualization",
@@ -98,6 +125,256 @@
       "sourceDate": "",
       "tags": [],
       "url": "https://aws.amazon.com/blogs/machine-learning/governed-reports-with-amazon-quick-desktop-and-amazon-fsx-for-netapp-ontap/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "The Invisible Editorial Layer: Formalizing Undisclosed Inference-Time Steering, Probability Placement, and the Attribution Problem in Deployed Language Models",
+      "summary": "Large language models (LLMs) are commonly evaluated under the assumption that their observable behavior is primarily determined by model weights, training data, alignment procedure",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-08-25",
+      "publishedAt": "",
+      "collectedAt": "2026-08-26T11:39",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-25",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.24662v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "STARFlow2: Bridging Language Models and Normalizing Flows for Unified Multimodal Generation",
+      "summary": "Unified multimodal models that understand, reason over, and generate interleaved text–image sequences remain structurally fragmented: existing approaches either sacrifice visual fi",
+      "category": "ai-image-video",
+      "source": "RSS · Apple ML Research",
+      "date": "2026-08-25",
+      "publishedAt": "2026-08-25T08:00",
+      "collectedAt": "2026-08-26T10:25",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://machinelearning.apple.com/research/starflow2-multimodal-generation",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Prompt Structure Redistributes, Not Reduces: An Empirical Analysis of Security-Weaknesses in LLM-Generated Python Code",
+      "summary": "Large Language Models (LLMs) increasingly generate code from natural-language prompts, making prompt engineering a key mechanism for shaping the security of generated software. Str",
+      "category": "ai-coding",
+      "source": "arXiv",
+      "date": "2026-08-25",
+      "publishedAt": "",
+      "collectedAt": "2026-08-26T10:25",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-25",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.24857v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Evidence Blindness in Direct Corpus Interaction: Persistent Navigation with AtlasNav",
+      "summary": "Large language model agents are moving beyond conventional retrieval-augmented generation toward direct interaction with external corpora. Direct Corpus Interaction (DCI) keeps the",
+      "category": "ai-agents",
+      "source": "arXiv",
+      "date": "2026-08-25",
+      "publishedAt": "",
+      "collectedAt": "2026-08-26T10:25",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-25",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.24764v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "A Dual-Dimensional LLM Framework for Automated Item Incidental Content Similarity Analysis in Large-Scale Assessments",
+      "summary": "The rapid expansion of large-scale assessments and the growing adoption of automatic item generation have intensified concerns about incidental content redundancy, where construct-",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-08-25",
+      "publishedAt": "",
+      "collectedAt": "2026-08-26T10:25",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-25",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.24825v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Reading Is Not Using: Retrieval, Judgment, and the Design of AI Financial Research Workflows",
+      "summary": "Large language models (LLMs) are increasingly deployed as AI analysts to process financial disclosures and support AI-assisted investment decisions. Yet such systems are usually ev",
+      "category": "ai-research",
+      "source": "arXiv",
+      "date": "2026-08-25",
+      "publishedAt": "",
+      "collectedAt": "2026-08-26T10:25",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-25",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.24842v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Learning to Prefer Reliably: Error-Augmented Emotion Preference Optimization with Calibrated Fusion",
+      "summary": "Emotion preference learning uses pairwise comparisons between candidate descriptions to align multimodal large language models (MLLMs) with human judgments of open-ended emotion de",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-08-25",
+      "publishedAt": "",
+      "collectedAt": "2026-08-26T10:25",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-25",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.24730v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "SkillForge: Evolving Verifiable Skills for Reinforcement Learning Agents",
+      "summary": "Large language model (LLM) agents are trained with reinforcement learning (RL) for complex decision-making tasks. However, most RL-trained agents remain episodic and cannot accumul",
+      "category": "ai-agents",
+      "source": "arXiv",
+      "date": "2026-08-25",
+      "publishedAt": "",
+      "collectedAt": "2026-08-26T10:25",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-25",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.24747v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Constrained Entity Selection under Partial Knowledge for LLM-Based Knowledge Graph QA",
+      "summary": "Large language models are increasingly used for knowledge graph question answering (KGQA), but can fail to correctly ground answers in the underlying graph. Current approaches to L",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-08-25",
+      "publishedAt": "",
+      "collectedAt": "2026-08-26T10:25",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-25",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.24824v1",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -2897,428 +3174,6 @@
       "moduleTargets": [
         "news"
       ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Amazon Bedrock AgentCore 支付功能正式上线，AI 代理可安全自主交易",
-      "summary": "Amazon Bedrock AgentCore 支付功能现已全面上线，允许 AI 代理在内置支出保护机制的支持下，安全且自主地进行大规模交易。该功能具备协议无关的支付编排能力，并提供生产级的可观察性，旨在提升交易的安全性和效率。",
-      "category": "ai-agents",
-      "tags": [
-        "AI 代理",
-        "支付系统",
-        "自动化交易",
-        "云计算",
-        "AWS"
-      ],
-      "keyPoints": [
-        "Amazon Bedrock AgentCore 支付功能现已全面上线，支持 AI 代理进行自主交易。",
-        "内置支出保护机制，确保交易过程中的资金安全。",
-        "具备协议无关的支付编排能力，适应多种支付方式。",
-        "提供生产级的可观察性，方便监控和管理交易活动。",
-        "支持大规模交易，适合企业级应用场景。"
-      ],
-      "background": "Amazon Bedrock 是 AWS 提供的一项服务，旨在为开发者提供构建和部署 AI 应用的基础设施。此次 AgentCore 支付功能的推出，标志着 AWS 在 AI 代理领域的进一步布局。与传统支付系统相比，AgentCore 支付功能不仅支持多种支付协议，还能通过内置的安全机制，降低交易风险。此功能的推出与市场上对自动化交易需求的增长密切相关，尤其是在电商和金融科技领域，企业对高效、安全的交易解决方案的需求日益增加。",
-      "impact": "这项新功能将吸引多种人群，包括电商平台的开发者、金融科技公司的产品经理以及希望通过 AI 提升交易效率的企业。通过使用 AgentCore 支付，企业可以降低人工干预，提高交易的安全性和效率。此外，这一功能的推出可能会促使更多企业考虑将 AI 代理整合到其业务流程中，从而推动整个行业向自动化和智能化转型。",
-      "audience": [
-        "电商平台开发者",
-        "金融科技产品经理",
-        "希望提升交易效率的企业",
-        "AI 解决方案架构师",
-        "自动化交易系统开发者"
-      ],
-      "useCases": [
-        "集成 AgentCore 支付功能到电商平台，提升用户购物体验和交易安全。",
-        "为金融科技应用开发自动化交易系统，减少人工干预。",
-        "利用内置的支出保护机制，确保企业资金安全，降低财务风险。",
-        "通过协议无关的支付编排能力，支持多种支付方式，满足不同用户需求。",
-        "监控交易活动，利用生产级可观察性优化交易策略。"
-      ],
-      "risks": [
-        "API 使用费用可能较高，企业需评估成本效益。",
-        "在高并发交易情况下，可能会遇到配额限制，影响交易效率。",
-        "商用授权要求可能较为复杂，需仔细阅读相关条款。",
-        "对某些语言的支持可能有限，影响国际化应用的开发。",
-        "硬件兼容性问题可能导致部分企业无法顺利集成该功能。"
-      ],
-      "reason": "这项功能的推出为企业提供了一个安全、高效的交易解决方案，值得关注。",
-      "scores": {
-        "importance": 75,
-        "novelty": 80,
-        "firsthand": 90,
-        "impact": 70,
-        "credibility": 85
-      },
-      "url": "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-payments-is-now-generally-available-enabling-agents-to-transact-safely-and-autonomously-at-scale/",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-08-19",
-      "publishedAt": "2026-08-19T02:56",
-      "collectedAt": "2026-08-19T15:00",
-      "dateStatus": "verified",
-      "tier": "T1",
-      "score": 78,
-      "aiSelected": true,
-      "_style": "reviewer",
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "自定义 Amazon Quick 嵌入式聊天功能",
-      "summary": "我注意到 Amazon Quick 嵌入式聊天为网页应用提供了对话式 AI 接口，用户可以在应用内提问、探索数据和获取见解。通过自定义聊天界面，可以确保其外观和感觉与品牌一致，提升用户体验。",
-      "category": "ai-tools",
-      "tags": [
-        "聊天机器人",
-        "用户体验",
-        "品牌一致性"
-      ],
-      "keyPoints": [
-        "Amazon Quick 嵌入式聊天允许开发者将对话式 AI 接口直接集成到网页应用中，提升用户互动体验。",
-        "通过自定义外观和品牌声音，确保聊天界面与应用的整体设计风格相匹配，避免视觉割裂。",
-        "自定义过程包括调整容器和布局样式，以及配置 SDK 选项以去除默认品牌元素。",
-        "嵌入式聊天的视觉主题配置分为两个层面：容器样式和 SDK 框架选项，确保聊天界面看起来更自然。",
-        "使用示例中，金融分析助手嵌入在财务表现仪表板中，展示了如何实现视觉和语调的一致性。"
-      ],
-      "background": "Amazon Quick 嵌入式聊天为开发者提供了一个强大的工具，可以将对话式 AI 接口无缝集成到现有的网页应用中。传统的聊天界面往往显得突兀，无法与应用的整体设计融为一体，因此，开发者需要通过自定义来确保聊天界面与品牌形象一致。自定义的关键在于视觉主题和语调的匹配，确保用户在使用过程中不会感到不适。",
-      "impact": "这种自定义功能将使得开发者能够创建更具吸引力和一致性的用户体验，尤其是在金融、电子商务等领域。通过提升用户互动的自然性，企业可以更好地满足客户需求，进而影响客户的决策过程。此外，随着用户体验的提升，企业的品牌形象也将得到加强，可能会带来更高的用户留存率和满意度。",
-      "audience": [
-        "网页应用开发者",
-        "用户体验设计师",
-        "品牌经理"
-      ],
-      "useCases": [
-        "在金融应用中集成嵌入式聊天，帮助用户实时获取财务数据和分析。",
-        "为电商平台定制聊天界面，提升客户咨询和购买转化率。",
-        "在教育平台中使用嵌入式聊天，提供即时答疑和学习支持。"
-      ],
-      "risks": [
-        "自定义过程中可能会遇到 API 费用和配额限制，需提前评估预算。",
-        "不同语言的支持可能会影响用户体验，确保多语言兼容性至关重要。",
-        "嵌入式聊天的兼容性问题可能导致在某些设备上表现不佳，需进行充分测试。"
-      ],
-      "reason": "这篇文章提供了实用的自定义指南，帮助开发者将 Amazon Quick 嵌入式聊天与品牌形象完美结合，提升用户体验。",
-      "scores": {
-        "importance": 75,
-        "novelty": 70,
-        "firsthand": 85,
-        "impact": 80,
-        "credibility": 80
-      },
-      "url": "https://aws.amazon.com/blogs/machine-learning/customize-amazon-quick-embedded-chat-into-your-application/",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-08-19",
-      "publishedAt": "2026-08-19T01:13",
-      "collectedAt": "2026-08-19T15:00",
-      "dateStatus": "verified",
-      "tier": "T1",
-      "score": 77,
-      "aiSelected": true,
-      "_style": "recommender",
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "The P-Completeness of Inverted Index Traversal: On the Complexity of Evaluating Boolean Query DAGs",
-      "summary": "Modern AI agents increasingly rely on search infrastructure to execute complex, neuro-symbolic reasoning workflows. These workflows often compile into deeply nested, non-monotonic ",
-      "category": "ai-agents",
-      "source": "RSS · Apple ML Research",
-      "date": "2026-08-19",
-      "publishedAt": "2026-08-19T08:00",
-      "collectedAt": "2026-08-20T09:28",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://machinelearning.apple.com/research/the-p-completeness-of-inverted-index-traversal",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Improve contract search accuracy with auto-generated filters in Amazon Bedrock",
-      "summary": "In this post, we describe how AIDA works at a high level and how it helps address these challenges — grounding users in the right contracts, under the right legal context, and with",
-      "category": "ai-models",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-08-19",
-      "publishedAt": "2026-08-19T01:02",
-      "collectedAt": "2026-08-20T01:03",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/improve-contract-search-accuracy-with-auto-generated-filters-in-amazon-bedrock/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Claude 如何加速蛋白质设计与分析化学研究",
-      "summary": "Anthropic 公布两项实验：Claude（Mythos Preview 和 Opus 4.8）针对 15 个靶点设计蛋白质结合剂，成功 14 个，命中率达 22.6%-35.1%。",
-      "category": "ai-models",
-      "source": "Anthropic：Research（发表成果 · 网页）",
-      "date": "2026-08-19",
-      "publishedAt": "2026-08-19T06:27",
-      "collectedAt": "2026-08-19T11:11",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Strengthening democratic oversight in national security",
-      "summary": "OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, training, and expertise.",
-      "category": "ai-models",
-      "source": "RSS · OpenAI Blog",
-      "date": "2026-08-19",
-      "publishedAt": "2026-08-19T03:00",
-      "collectedAt": "2026-08-19T11:11",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Liquid AI 发布 LFM2.5 QAD Q4_0 检查点，恢复 97% 精度损失",
-      "summary": "最近看到 Liquid AI 发布了基于量化感知蒸馏（QAD）训练的 LFM2.5 系列 Q4_0 GGUF 检查点，包括 LFM2.5-230M、350M、1.2B-Instruct 和 2.6B 四个版本。这些检查点在保持原生 Q4_0 的内存和速度的同时，成功恢复了 97% 的 BF16 平均精度损失，极大提升了模型的实用性。",
-      "category": "ai-models",
-      "tags": [
-        "量化感知",
-        "模型优化",
-        "精度恢复",
-        "Liquid AI",
-        "LFM2.5"
-      ],
-      "keyPoints": [
-        "Liquid AI 发布了四款 Q4_0 GGUF 检查点，分别为 LFM2.5-230M、350M、1.2B-Instruct 和 2.6B，适用于开发者在不降低质量的情况下使用。",
-        "这些检查点通过量化感知蒸馏（QAD）训练，恢复了 97% 的 BF16 平均精度损失，确保了模型性能的稳定性。",
-        "在实际硬件上，230M 和 350M 的 QAD Q4_0 检查点在解码吞吐量上比 Q5_K_M 高出 4-33%，而 1.2B 和 2.6B 的检查点则在吞吐量上比 Q4_K_M 高出 3-14%。",
-        "QAD 检查点在多个基准测试中表现优异，包括 GPQA Diamond、MMLU-Pro 等，显示出其在推理和工具使用上的强大能力。",
-        "QAD GGUF 文件现已在 Hugging Face 上发布，开发者可以直接使用 llama.cpp 或其他支持 GGUF Q4_0 的运行时进行调用。"
-      ],
-      "background": "Liquid AI 的 LFM2.5 系列模型在 AI 领域中备受关注，尤其是在量化技术的应用上。量化感知蒸馏（QAD）是一种新兴的训练方法，旨在通过将高精度的教师模型转化为量化的学生模型，来减少模型在量化过程中的精度损失。此次发布的 Q4_0 GGUF 检查点，标志着 Liquid AI 在模型优化和性能提升方面的又一重要进展，尤其是在保持低内存占用和高吞吐量的同时，成功恢复了大部分精度损失。",
-      "impact": "这项技术的推出将对开发者和研究人员产生深远影响。首先，使用 LFM2.5 QAD Q4_0 检查点的工程师可以在保持高性能的前提下，减少硬件资源的消耗，从而降低成本。其次，模型的精度恢复使得在实际应用中，开发者可以更自信地使用这些模型进行复杂的推理和决策任务。此外，随着更多开发者采用这一技术，可能会推动整个行业在量化模型的应用和优化方面的进步。",
-      "audience": [
-        "机器学习工程师",
-        "数据科学家",
-        "AI 研究人员",
-        "深度学习开发者",
-        "模型优化专家"
-      ],
-      "useCases": [
-        "使用 LFM2.5-350M QAD Q4_0 检查点进行文本生成，期望在保持高质量的同时提高处理速度。",
-        "在推理任务中调用 LFM2.5-1.2B-Instruct 模型，利用其恢复的精度进行复杂问题的解答。",
-        "在资源受限的设备上运行 LFM2.5-230M 模型，确保在低内存环境下仍能实现高效推理。",
-        "结合 QAD GGUF 文件与现有的机器学习框架，快速集成并测试模型性能。",
-        "在多轮对话系统中应用 LFM2.5-2.6B 模型，提升用户交互体验。"
-      ],
-      "risks": [
-        "在使用 QAD 检查点时，可能会遇到与现有硬件的兼容性问题，尤其是在老旧设备上。",
-        "API 的调用费用可能会影响项目预算，尤其是在大规模应用时需谨慎评估。",
-        "模型的商用授权可能存在限制，开发者需仔细阅读相关条款以避免法律风险。",
-        "不同版本的模型在性能上可能存在差异，开发者需进行充分的基准测试以确保选择合适的版本。",
-        "在特定语言或领域的应用中，模型的表现可能不如预期，需进行针对性的调优。"
-      ],
-      "reason": "这条信息值得关注，因为它展示了 Liquid AI 在量化模型优化方面的最新成果，极大提升了模型的实用性和性能。",
-      "scores": {
-        "importance": 85,
-        "novelty": 80,
-        "firsthand": 90,
-        "impact": 75,
-        "credibility": 85
-      },
-      "url": "https://huggingface.co/blog/LiquidAI/qad",
-      "source": "Hugging Face：Blog（RSS）",
-      "date": "2026-08-19",
-      "publishedAt": "2026-08-19T21:48",
-      "collectedAt": "2026-08-19T22:34",
-      "dateStatus": "verified",
-      "tier": "T1.5",
-      "score": 66,
-      "aiSelected": true,
-      "_style": "recommender",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "OpenRouter 与 Stripe 合并，继续独立运营",
-      "summary": "OpenRouter 宣布与 Stripe 合并，旨在加速全球经济增长。OpenRouter 每日处理来自 400 多个 AI 模型的 10+ 万亿 token，服务超过 1000 万开发者与公司，自成立以来推理量每年增长至少 10 倍。合并后，OpenRouter 将保持原名和使命，独立运营，预计交易将在未来数周内完成。",
-      "category": "ai-business",
-      "tags": [
-        "OpenRouter",
-        "Stripe",
-        "合并",
-        "AI模型",
-        "全球经济",
-        "开发者"
-      ],
-      "keyPoints": [
-        "OpenRouter 每日处理来自 400 多个 AI 模型的 10+ 万亿 token，显示出其强大的处理能力。",
-        "自成立以来，OpenRouter 的推理量每年增长至少 10 倍，表明其市场需求持续上升。",
-        "合并后，OpenRouter 将继续以用户利益为先，保持独立运营，确保服务质量不变。",
-        "此次合并预计将在未来数周内完成，可能会对全球经济产生积极影响。",
-        "OpenRouter 服务超过 1000 万开发者与公司，显示其在行业中的重要地位。"
-      ],
-      "background": "OpenRouter 成立于数年前，专注于提供高效的 AI 模型路由服务。随着 AI 技术的迅猛发展，OpenRouter 的服务需求不断增加，推理量每年以至少 10 倍的速度增长。此次与 Stripe 的合并，旨在利用 Stripe 的支付技术和全球网络，加速 OpenRouter 的发展。合并后，OpenRouter 将继续以原名和使命独立运营，确保其产品和路线图不变，继续为开发者提供优质服务。",
-      "impact": "此次合并将使 OpenRouter 能够更好地整合 Stripe 的支付解决方案，提升用户体验。开发者将能够更便捷地使用 OpenRouter 的服务，可能会吸引更多的企业加入。合并后的 OpenRouter 将继续专注于用户利益，确保其路由决策不受影响。这一举措可能会推动全球经济的进一步增长，尤其是在 AI 领域的应用和创新方面。",
-      "audience": [
-        "AI 开发者",
-        "企业技术决策者",
-        "金融科技从业者",
-        "AI 模型研究人员",
-        "创业公司创始人"
-      ],
-      "useCases": [
-        "整合 Stripe 支付解决方案，提升开发者使用 OpenRouter 的便捷性。",
-        "利用 OpenRouter 的强大处理能力，支持大规模 AI 应用的开发与部署。",
-        "通过合并，推动更多企业采用 AI 技术，促进业务创新。"
-      ],
-      "risks": [
-        "合并后可能面临 API 价格和配额的调整，影响开发者的使用成本。",
-        "需要确保合并后的服务兼容性，避免对现有用户造成影响。",
-        "在全球市场中，可能面临不同地区的商用授权和法律合规风险。"
-      ],
-      "reason": "OpenRouter 与 Stripe 的合并将为 AI 开发者提供更强大的支持，值得关注其后续发展。",
-      "scores": {
-        "importance": 85,
-        "novelty": 70,
-        "firsthand": 90,
-        "impact": 80,
-        "credibility": 85
-      },
-      "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe",
-      "source": "OpenRouter：Announcements（RSS）",
-      "date": "2026-08-19",
-      "publishedAt": "2026-08-19T08:00",
-      "collectedAt": "2026-08-20T02:18",
-      "dateStatus": "verified",
-      "tier": "T1.5",
-      "score": 65,
-      "aiSelected": true,
-      "_style": "observer",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "LLM 服务一年的工作负载演变与优化",
-      "summary": "大型语言模型（LLM）服务已成为关键的云工作负载，然而现有的研究在规模和范围上仍显不足。本研究通过对一年的生产数据进行纵向分析，揭示了用户与模型交互的演变过程，并提供了全面的工作负载特征。这将为未来的研究提供重要的数据支持。",
-      "category": "ai-benchmark",
-      "tags": [
-        "大型语言模型",
-        "云计算",
-        "工作负载分析",
-        "用户交互",
-        "数据追踪"
-      ],
-      "keyPoints": [
-        "本研究分析了来自 Chutes 的一年生产数据，涵盖多种模型和用户，提供了全面的工作负载视角。",
-        "研究揭示了用户与模型交互的演变过程，帮助理解生产流量的形成机制。",
-        "将发布完整的一年追踪数据，支持后续研究，避免依赖于抽样或合成生成的工作负载。",
-        "通过对工作负载的聚合、时间、模型和用户层面的分析，揭示了通常隐藏的结构特征。",
-        "现有的 LLM 服务工作负载研究多集中于短期观察，缺乏对长期演变的深入理解。"
-      ],
-      "background": "随着大型语言模型的广泛应用，LLM 服务的工作负载分析变得愈发重要。现有研究多集中于短期数据，无法全面反映用户与模型的真实交互情况。本研究通过对 Chutes 的一年生产数据进行深入分析，填补了这一空白，提供了对 LLM 服务工作负载演变的全新视角。这一研究不仅有助于理解当前的使用模式，也为未来的优化和研究提供了宝贵的数据基础。",
-      "impact": "这一研究将对多个领域产生深远影响。首先，云服务提供商可以利用这些数据优化其服务架构，提高用户体验。其次，研究人员可以基于这一数据进行更深入的分析，推动 LLM 技术的发展。此外，企业在决策时可以参考这些数据，调整其 AI 应用策略，提升业务效率。整体来看，这一研究将促进 LLM 服务的持续改进与创新。",
-      "audience": [
-        "云服务架构师",
-        "AI 研究人员",
-        "数据科学家",
-        "产品经理",
-        "技术决策者"
-      ],
-      "useCases": [
-        "分析 Chutes 的一年生产数据，识别用户行为模式，优化模型响应时间。",
-        "利用发布的完整追踪数据，进行长期的 LLM 性能评估，制定改进计划。",
-        "对比不同模型的工作负载特征，帮助开发团队选择合适的模型进行部署。",
-        "结合用户交互数据，调整产品功能，提升用户满意度和使用率。",
-        "为云服务提供商提供数据支持，优化资源分配和负载均衡策略。"
-      ],
-      "risks": [
-        "在使用追踪数据时，需注意数据的隐私合规性，确保不违反用户数据保护法规。",
-        "依赖于单一数据源可能导致分析结果的偏差，建议结合其他数据进行交叉验证。",
-        "在进行模型选择时，要考虑模型的兼容性和性能，避免因版本不匹配导致的服务中断。",
-        "使用 API 时需关注调用限制和费用，避免超出预算导致的服务中断。",
-        "在进行长期数据分析时，需确保数据存储和处理能力，以应对大规模数据的挑战。"
-      ],
-      "reason": "本研究提供了对 LLM 服务工作负载的深入分析，填补了现有研究的空白，具有重要的实用价值和研究意义。",
-      "scores": {
-        "importance": 85,
-        "novelty": 90,
-        "firsthand": 95,
-        "impact": 80,
-        "credibility": 85
-      },
-      "url": "https://arxiv.org/abs/2608.13573",
-      "source": "RSS · arXiv cs.AI",
-      "date": "2026-08-18",
-      "publishedAt": "",
-      "collectedAt": "2026-08-18T09:52",
-      "dateStatus": "collected",
-      "tier": "T1",
-      "score": 86,
-      "aiSelected": true,
-      "_style": "tutorial",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceDate": "2026-08-18",
       "sourceCount": 1
     }
   ],
@@ -6424,6 +6279,28 @@
   "topicResources": {
     "ai-coding": [
       {
+        "name": "From Enigma Code to ChatGPT: The Rapid Evolution of Artifici",
+        "provider": "ABC Nepal TV",
+        "type": "AI 项目/工具",
+        "bestFor": "Tracing the lineage of modern AI from wartime codebreaking to today's powerful language models, and examining its growing impact on daily life.\n\nKathmandu -- Th",
+        "description": "Tracing the lineage of modern AI from wartime codebreaking to today's powerful language models, and examining its growing impact on daily life.\n\nKathmandu -- The development of art",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "ABC Nepal TV",
+        "url": "https://abcnews.com.np/from-enigma-code-to-chatgpt-the-rapid-evolution-of-artificial-intelligence/"
+      },
+      {
+        "name": "Prompt Structure Redistributes, Not Reduces: An Empirical An",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Large Language Models (LLMs) increasingly generate code from natural-language prompts, making prompt engineering a key mechanism for shaping the security of gen",
+        "description": "Large Language Models (LLMs) increasingly generate code from natural-language prompts, making prompt engineering a key mechanism for shaping the security of generated software. Str",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2608.24857v1"
+      },
+      {
         "name": "Progressive Refinement: An Iterative Pseudo-Labeling Approac",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -6970,41 +6847,31 @@
         "watch": "在引入自助服务时，可能会面临权限管理不当导致的数据泄露风险。",
         "sourceName": "NewsData.io:AI coding tool",
         "url": "https://www.forbes.com/councils/forbestechcouncil/2026/08/03/the-bottleneck-was-never-the-model/"
-      },
-      {
-        "name": "百度千帆大模型服务及Agent开发平台更新",
-        "provider": "中国一手",
-        "type": "AI 项目/工具",
-        "bestFor": "此次更新将直接影响到开发者和企业用户，尤其是那些依赖于AI工具进行应用开发的团队。通过引入新的Token Plan，用户可以更灵活地管理资源和费用，优化开发流程。此外，模型服务的升级将提升应用的性能和响应速度，帮助企业在竞争中保持优势。整体来看，这些变化将促进AI技术的广泛应用，推动行业的进一步发展。",
-        "description": "我注意到百度千帆大模型服务及Agent开发平台进行了多项重要更新，包括模型服务的版本升级、Token Plan个人版上线及Coding Plan停售等。这些更新将为开发者提供更灵活的工具和服务，提升应用开发的效率。",
-        "useCases": [
-          "使用Token Plan个人版接入AI工具，快速构建和部署应用。",
-          "利用模型服务的最新版本，提升应用的智能化水平和用户体验。",
-          "参与批量推理促销活动，降低AI服务的使用成本。",
-          "通过更新的Anthropic API，优化数据处理和分析流程。",
-          "迁移至新的Token Plan，确保服务的连续性和稳定性。"
-        ],
-        "watch": "Token Plan的定价和配额可能会影响用户的预算，需提前评估使用成本。",
-        "sourceName": "中国一手 · 百度千帆更新",
-        "url": "https://cloud.baidu.com/doc/qianfan/s/Gmh4stncc#update-6c02580011e2"
-      },
-      {
-        "name": "2026 年退休科技的变革：AI、运营效率与参与者体验",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "AI 技术的应用将使退休计划管理者能够更高效地处理参与者的需求，进而提升整体用户体验。对于参与者而言，他们将享受到更快速的服务和更个性化的退休规划方案。这种转变不仅会影响参与者的决策，还可能改变整个行业的运营模式，推动更多公司采用先进的技术解决方案。",
-        "description": "FIS Global 的 Jessica Calabrese 探讨了退休计划技术的变化及参与者期望的快速演变。现代退休体验的主要驱动因素包括向快速、直观的服务转变，尽管技术进步仍面临挑战。",
-        "useCases": [
-          "利用 AI 优化退休计划的投资组合管理，提高收益率。",
-          "通过数据分析工具，实时监测参与者的需求变化，及时调整服务策略。",
-          "开发直观的用户界面，提升参与者在退休计划中的互动体验。"
-        ],
-        "watch": "AI 技术的实施可能面临高昂的开发和维护成本，尤其是对于小型企业。",
-        "sourceName": "NewsData.io:AI coding tool",
-        "url": "https://www.thestreet.com/retirement/retirement-tech-in-2026-ai-operational-efficiency-and-better-participant-experience"
       }
     ],
     "ai-agents": [
+      {
+        "name": "Evidence Blindness in Direct Corpus Interaction: Persistent ",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Large language model agents are moving beyond conventional retrieval-augmented generation toward direct interaction with external corpora. Direct Corpus Interac",
+        "description": "Large language model agents are moving beyond conventional retrieval-augmented generation toward direct interaction with external corpora. Direct Corpus Interaction (DCI) keeps the",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2608.24764v1"
+      },
+      {
+        "name": "SkillForge: Evolving Verifiable Skills for Reinforcement Lea",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Large language model (LLM) agents are trained with reinforcement learning (RL) for complex decision-making tasks. However, most RL-trained agents remain episodi",
+        "description": "Large language model (LLM) agents are trained with reinforcement learning (RL) for complex decision-making tasks. However, most RL-trained agents remain episodic and cannot accumul",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2608.24747v1"
+      },
       {
         "name": "AI 智能体应该活多久？",
         "provider": "Tomer Tunguz 博客（VC 分析）",
@@ -7443,38 +7310,6 @@
         "watch": "API 调用的费用可能会因高频率请求而迅速增加，需要合理控制调用频率。",
         "sourceName": "RSS · AWS Machine Learning",
         "url": "https://aws.amazon.com/blogs/machine-learning/asynchronous-patterns-for-calling-amazon-bedrock-agentcore-agents-in-serverless-pipelines/"
-      },
-      {
-        "name": "Fanatics Betting and Gaming 构建多代理客户支持系统",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "这个多代理客户支持系统将极大地改变客户支持的方式，尤其是在体育博彩行业。支持团队可以更快地响应客户咨询，减少等待时间，从而提升客户满意度。同时，这种系统的成功实施可能会促使其他行业的公司考虑类似的自动化解决方案，以应对复杂的客户需求和高峰流量。",
-        "description": "我最近看到 Fanatics Betting and Gaming 在 AWS 上构建了一个多代理客户支持系统，以应对体育博彩的复杂性。这个系统能够快速、准确地处理客户在高峰时段的咨询，尤其是在大型体育赛事期间。文章详细介绍了系统架构、所用的 AWS 服务以及设计自己多代理支持解决方案时可以借鉴的模式。",
-        "useCases": [
-          "快速处理客户咨询，减少响应时间，提高客户满意度。",
-          "自动识别并升级复杂问题到人工客服，优化支持流程。",
-          "在高峰时段自动扩展系统能力，确保服务稳定性。",
-          "根据不同州的法规提供定制化的支持，提升合规性。",
-          "利用数据分析优化客户支持策略，降低运营成本。"
-        ],
-        "watch": "系统可能面临 API 调用次数限制，影响高峰期的响应能力。",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/how-fanatics-betting-and-gaming-built-a-multi-agent-customer-support-system/"
-      },
-      {
-        "name": "使用 Amazon Bedrock 实现向量提示文档分类",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "这一解决方案将改变保险行业的文档处理方式，提升分类效率，减少人工干预。保险公司可以更快地处理客户文档，改善客户体验。同时，这种技术的应用也可能推动其他行业的文档分类创新，形成更广泛的影响。",
-        "description": "我最近看到 Amazon Bedrock 上有一个很酷的多代理文档分类解决方案。这个方案结合了 Strands Agents SDK，利用三个专业代理进行文本分析和视觉相似性搜索，能够准确分类保险文档，比如保单和宣誓书。这种方法不仅提高了分类的准确性，还能处理复杂的文档类型。",
-        "useCases": [
-          "利用 Amazon Bedrock 的多代理系统，快速分类大量保险文档，节省时间。",
-          "通过文本分析和视觉搜索技术，提高文档分类的准确性，减少错误率。",
-          "为保险公司开发定制化的文档处理解决方案，提升整体工作效率。"
-        ],
-        "watch": "API 使用费用可能较高，需提前评估预算。",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/implement-vector-prompt-document-classification-using-amazon-bedrock/"
       }
     ],
     "ai-models": [
@@ -7956,6 +7791,17 @@
       }
     ],
     "ai-business": [
+      {
+        "name": "Nvidia Is Jolting Silicon Valley to Think Like China",
+        "provider": "Bloomberg Business",
+        "type": "AI 项目/工具",
+        "bestFor": "When a typical business finds its supply chain costs have risen, it will absorb the increase to keep its customers happy. Nvidia isn't a typical business. It en",
+        "description": "When a typical business finds its supply chain costs have risen, it will absorb the increase to keep its customers happy. Nvidia isn't a typical business. It enjoys gross profit ma",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Bloomberg Business",
+        "url": "https://www.bloomberg.com/opinion/articles/2026-08-26/ai-models-nvidia-is-jolting-silicon-valley-to-think-like-china"
+      },
       {
         "name": "Bourse seen enduring fluctuations",
         "provider": "China Daily",
@@ -8506,21 +8352,6 @@
         "watch": "高昂的API费用可能限制小型金融机构的使用，导致信息获取不平等。",
         "sourceName": "NewsAPI:large language model",
         "url": "https://cryptoslate.com/donald-trumps-new-1-2-million-data-feed-lets-wall-street-front-run-his-market-moving-policy-announcements/"
-      },
-      {
-        "name": "七月就业报告与SpaceX财报：本周投资者关注要点",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "本周的就业报告将影响美联储的货币政策决策，若新增岗位显著高于预期，可能加大加息的压力。SpaceX的财报则可能影响投资者对科技股的信心，尤其是在AI领域的表现。若财报表现不佳，可能导致股价进一步下滑，影响投资者的决策。",
-        "description": "本周投资者将关注七月就业报告和SpaceX首次作为上市公司的财报。预计七月新增就业岗位将达到88,000，显示出劳动力市场的健康状况。同时，SpaceX的财报将成为市场焦点，投资者期待其能为股价注入新的动力。",
-        "useCases": [
-          "分析七月就业数据，评估经济复苏的潜力。",
-          "研究SpaceX财报，判断其未来投资价值。",
-          "跟踪AI对薪资的影响，制定相应的职业发展策略。"
-        ],
-        "watch": "SpaceX股价可能因锁仓期结束而承压，投资者需关注市场供需变化。",
-        "sourceName": "NewsAPI:artificial intelligence",
-        "url": "https://finance.yahoo.com/markets/article/the-july-jobs-report-spacex-earnings-and-ai-struggles-what-to-watch-this-week-100000237.html"
       }
     ],
     "ai-benchmark": [
@@ -9132,6 +8963,17 @@
     ],
     "ai-image-video": [
       {
+        "name": "STARFlow2: Bridging Language Models and Normalizing Flows fo",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Unified multimodal models that understand, reason over, and generate interleaved text–image sequences remain structurally fragmented: existing approaches either",
+        "description": "Unified multimodal models that understand, reason over, and generate interleaved text–image sequences remain structurally fragmented: existing approaches either sacrifice visual fi",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Apple ML Research",
+        "url": "https://machinelearning.apple.com/research/starflow2-multimodal-generation"
+      },
+      {
         "name": "OpenRouter 视频生成 API：一份代码优先的接入指南",
         "provider": "OpenRouter：Announcements（RSS）",
         "type": "AI 项目/工具",
@@ -9704,26 +9546,42 @@
         "watch": "AI生成内容可能导致版权问题，创作者需谨慎使用相关技术。",
         "sourceName": "Currents:generative AI",
         "url": "https://www.news18.com/movies/web-series/indias-got-latent-2-viral-video-of-sunil-pal-mukesh-khanna-kapil-sharma-on-samay-rainas-show-leaves-fans-confusedws-l-10245122-ws-l-10245122.html"
-      },
-      {
-        "name": "MiniMax H3：多模态视频生成模型的全新选择",
-        "provider": "中国一手",
-        "type": "AI 项目/工具",
-        "bestFor": "推荐给内容创作者、视频编辑师和广告制作人等人群，他们需要快速生成高质量视频内容。MiniMax H3 的多模态输入特性使得创作过程更加灵活，能够满足不同风格和需求的项目。同时，对于教育和培训领域的用户，MiniMax H3 也提供了丰富的创作可能性，帮助他们制作生动的教学视频。",
-        "description": "这次发布的核心点是 MiniMax H3，这是一款开放通用的多模态视频模型，能够处理文本、图片、视频和音频输入，支持多种视频生成方式。其灵活的输入条件和高达 2K 的输出分辨率，使其在视频创作和编辑领域展现出强大的潜力。",
-        "useCases": [
-          "通过文本描述生成短视频，快速制作社交媒体内容。",
-          "利用首尾帧图像控制视频的开头和结尾，提升视频的专业感。",
-          "结合参考图片和音频，创建具有特定风格和节奏的视频作品。",
-          "在教育领域，生成生动的教学视频，增强学习体验。",
-          "为广告项目制作高质量的宣传视频，吸引目标受众。"
-        ],
-        "watch": "API 调用的费用可能较高，需考虑预算限制。",
-        "sourceName": "中国一手 · MiniMax 新闻",
-        "url": "https://platform.minimaxi.com/docs/guides/video-generation?ready=6"
       }
     ],
     "ai-research": [
+      {
+        "name": "The Invisible Editorial Layer: Formalizing Undisclosed Infer",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Large language models (LLMs) are commonly evaluated under the assumption that their observable behavior is primarily determined by model weights, training data,",
+        "description": "Large language models (LLMs) are commonly evaluated under the assumption that their observable behavior is primarily determined by model weights, training data, alignment procedure",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2608.24662v1"
+      },
+      {
+        "name": "A Dual-Dimensional LLM Framework for Automated Item Incident",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "The rapid expansion of large-scale assessments and the growing adoption of automatic item generation have intensified concerns about incidental content redundan",
+        "description": "The rapid expansion of large-scale assessments and the growing adoption of automatic item generation have intensified concerns about incidental content redundancy, where construct-",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2608.24825v1"
+      },
+      {
+        "name": "Constrained Entity Selection under Partial Knowledge for LLM",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Large language models are increasingly used for knowledge graph question answering (KGQA), but can fail to correctly ground answers in the underlying graph. Cur",
+        "description": "Large language models are increasingly used for knowledge graph question answering (KGQA), but can fail to correctly ground answers in the underlying graph. Current approaches to L",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2608.24824v1"
+      },
       {
         "name": "Scaling Laws for Mixture Pretraining Under Data Constraints",
         "provider": "RSS",
@@ -10207,55 +10065,6 @@
         "watch": "MoMo 的实现依赖于高质量的训练数据，数据收集过程可能耗时且成本高。",
         "sourceName": "RSS · Apple ML Research",
         "url": "https://machinelearning.apple.com/research/momo-motion-mode-manipulation"
-      },
-      {
-        "name": "Aurora 1.5 发布：扩展天气与地球系统应用的基础模型",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Aurora 1.5 的发布将使气象预测领域的研究人员、开发者和企业能够更有效地利用气象智能。通过提供更丰富的气象数据和集成预测能力，企业在能源、农业、交通等多个领域的决策将变得更加科学和可靠。此外，随着模型的开源，全球研究社区能够更好地适应和扩展这一工具，从而推动气象科学的进一步发展。",
-        "description": "微软发布的 Aurora 1.5 是其 Aurora 地球系统基础模型的重要扩展，新增 22 个与能源、农业、交通和气候风险相关的气象变量，提供每小时的时间分辨率和概率集成预测。这一版本的开源发布将为研究人员和开发者提供更广泛的应用可能性。",
-        "useCases": [
-          "利用 Aurora 1.5 进行精确的天气预测，优化农业种植决策。",
-          "通过集成预测功能，评估极端天气对电力系统的影响，制定应急预案。",
-          "在交通管理中应用模型，提升运输效率，降低天气影响。",
-          "为城市规划提供气候风险评估，支持可持续发展。",
-          "结合 Aurora 1.5 的数据，开发新的气象应用程序，提升用户体验。"
-        ],
-        "watch": "API 使用费用可能较高，企业需评估成本效益。",
-        "sourceName": "RSS · Microsoft Research",
-        "url": "https://www.microsoft.com/en-us/research/blog/aurora-1-5-extending-open-foundation-models-for-weather-and-earth-system-applications/"
-      },
-      {
-        "name": "GH-ESD：基于假设的实例级视觉任务错误切片发现",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "GH-ESD 的出现将为计算机视觉领域的研究人员和开发者提供新的工具，帮助他们更好地理解和改进模型的表现。通过识别可解释的错误切片，开发者可以针对性地优化模型，提升实际应用中的准确性和鲁棒性。此外，GESD 数据集的引入为后续研究提供了标准化的测试基准，推动了领域内的进一步探索和创新。",
-        "description": "我最近看到 GH-ESD 这个新工具，它通过生成和验证的框架，重新定义了错误切片的发现过程，特别适用于实例级视觉任务。该方法利用大语言模型的先验知识和视觉证据，构建关系性失败假设，并通过统计趋势分析验证这些假设。这种方法在检测和分割任务中表现出色，显著提高了模型的精度。",
-        "useCases": [
-          "利用 GH-ESD 识别目标检测模型中的错误切片，从而优化模型性能。",
-          "通过 GESD 数据集进行基准测试，评估不同模型在实例级任务中的表现。",
-          "结合 GH-ESD 的假设生成方法，提升分割任务的准确性和可解释性。",
-          "在研究中应用 GH-ESD，探索新的视觉任务和模型改进方向。",
-          "使用 GH-ESD 进行模型调试，快速定位和解决实例级错误。"
-        ],
-        "watch": "GH-ESD 依赖于大语言模型的先验知识，可能在特定领域的应用中面临知识不足的问题。",
-        "sourceName": "RSS · Apple ML Research",
-        "url": "https://machinelearning.apple.com/research/gh-esd"
-      },
-      {
-        "name": "无环境合成数据生成方法助力API调用代理训练",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "这一方法将改变API调用代理的训练方式，使得开发者能够在没有复杂环境配置的情况下，快速生成高质量的训练数据。对于需要频繁更新和迭代的应用场景，能够显著提高开发效率，降低成本。同时，这种方法的推广将促进更多开发者和企业在API生态系统中进行创新，推动技术的进一步发展。",
-        "description": "训练API调用的大型语言模型（LLM）代理需要大量高质量的轨迹数据。传统的数据收集方式依赖于完整的执行环境和真实的后端数据库，限制了可扩展性。为此，本文提出了一种无环境合成数据生成方法，利用LLM作为即时数字世界模型，仅凭API规范生成模拟轨迹，显著提升了训练效率。",
-        "useCases": [
-          "利用LLM生成合成数据，快速构建API调用代理的训练集。",
-          "在无环境条件下，模拟代理与API的交互，进行功能测试。",
-          "通过合成数据微调模型，提升API调用的准确性和响应速度。"
-        ],
-        "watch": "合成数据的质量可能受到LLM生成能力的限制，需谨慎评估。",
-        "sourceName": "RSS · Apple ML Research",
-        "url": "https://machinelearning.apple.com/research/environment-free"
       }
     ],
     "ai-office": []
@@ -11664,13 +11473,24 @@
   ],
   "dailyReport": {
     "date": "2026-08-26",
-    "generatedAt": "2026-08-26T01:09:34.046836Z",
-    "total": 18,
+    "generatedAt": "2026-08-26T03:39:41.242487Z",
+    "total": 24,
     "sections": [
       {
         "category": "ai-coding",
         "label": "AI 编程",
         "items": [
+          {
+            "title": "Prompt Structure Redistributes, Not Reduces: An Empirical Analysis of Security-Weaknesses in LLM-Generated Python Code",
+            "summary": "Large Language Models (LLMs) increasingly generate code from natural-language prompts, making prompt engineering a key mechanism for shaping",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.24857v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-25",
+            "publishedAt": "",
+            "reason": ""
+          },
           {
             "title": "Introducing the Admin plugin for ChatGPT Work and Codex",
             "summary": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin ",
@@ -11691,6 +11511,23 @@
             "sourceCount": 1,
             "date": "2026-08-25",
             "publishedAt": "2026-08-25T03:32",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "category": "ai-image-video",
+        "label": "图像视频",
+        "items": [
+          {
+            "title": "STARFlow2: Bridging Language Models and Normalizing Flows for Unified Multimodal Generation",
+            "summary": "Unified multimodal models that understand, reason over, and generate interleaved text–image sequences remain structurally fragmented: existi",
+            "source": "RSS · Apple ML Research",
+            "url": "https://machinelearning.apple.com/research/starflow2-multimodal-generation",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-25",
+            "publishedAt": "2026-08-25T08:00",
             "reason": ""
           }
         ]
@@ -11722,6 +11559,28 @@
             "reason": ""
           },
           {
+            "title": "Evidence Blindness in Direct Corpus Interaction: Persistent Navigation with AtlasNav",
+            "summary": "Large language model agents are moving beyond conventional retrieval-augmented generation toward direct interaction with external corpora. D",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.24764v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-25",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "SkillForge: Evolving Verifiable Skills for Reinforcement Learning Agents",
+            "summary": "Large language model (LLM) agents are trained with reinforcement learning (RL) for complex decision-making tasks. However, most RL-trained a",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.24747v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-25",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
             "title": "Building a restaurant telephony AI host with Amazon Connect",
             "summary": "Learn how to build a voice ordering system for restaurants that answers a phone call and takes an order end to end, with no app, no website,",
             "source": "RSS · AWS Machine Learning",
@@ -11750,6 +11609,17 @@
         "label": "模型发布",
         "items": [
           {
+            "title": "What We Learned Trying to Catch AI Liars: An Aletheia's Quest Retrospective",
+            "summary": "What we learned while building black-box and white-box detectors for AI deception during Aletheia's Quest.",
+            "source": "RSS · EleutherAI",
+            "url": "https://blog.eleuther.ai/aletheia-retrospective/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-26",
+            "publishedAt": "2026-08-26T00:35",
+            "reason": ""
+          },
+          {
             "title": "5 ways to upgrade your home decor with Google Search",
             "summary": "Learn how to use Google Search tools to find home decor inspiration, shop for furniture, and tackle DIY projects.",
             "source": "RSS · Google AI Blog",
@@ -11769,6 +11639,50 @@
             "sourceCount": 1,
             "date": "2026-08-26",
             "publishedAt": "2026-08-26T00:35",
+            "reason": ""
+          },
+          {
+            "title": "The Invisible Editorial Layer: Formalizing Undisclosed Inference-Time Steering, Probability Placement, and the Attribution Problem in Deployed Language Models",
+            "summary": "Large language models (LLMs) are commonly evaluated under the assumption that their observable behavior is primarily determined by model wei",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.24662v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-25",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "A Dual-Dimensional LLM Framework for Automated Item Incidental Content Similarity Analysis in Large-Scale Assessments",
+            "summary": "The rapid expansion of large-scale assessments and the growing adoption of automatic item generation have intensified concerns about inciden",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.24825v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-25",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Learning to Prefer Reliably: Error-Augmented Emotion Preference Optimization with Calibrated Fusion",
+            "summary": "Emotion preference learning uses pairwise comparisons between candidate descriptions to align multimodal large language models (MLLMs) with ",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.24730v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-25",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Constrained Entity Selection under Partial Knowledge for LLM-Based Knowledge Graph QA",
+            "summary": "Large language models are increasingly used for knowledge graph question answering (KGQA), but can fail to correctly ground answers in the u",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.24824v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-25",
+            "publishedAt": "",
             "reason": ""
           },
           {
@@ -11825,49 +11739,22 @@
             "date": "2026-08-25",
             "publishedAt": "2026-08-25T08:00",
             "reason": ""
-          },
+          }
+        ]
+      },
+      {
+        "category": "ai-research",
+        "label": "论文研究",
+        "items": [
           {
-            "title": "MetaRoCE：为 AI 规模以太网打造的全新 RDMA 传输协议",
-            "summary": "Meta 设计并开源了 MetaRoCE，一个专为 AI 工作负载在通用以太网上打造的 RDMA 传输协议，已通过 Open Compute Project（OCP）发布规范、参考软件实现和合规测试套件。该协议将智能移至端点，原生支持乱序交付、多路径、无损容忍和双向拥塞控制，无需",
-            "source": "Meta Engineering Blog（RSS）",
-            "url": "https://engineering.fb.com/2026/08/24/networking-traffic/metaroce-rdma-transport-ai-ethernet",
+            "title": "Reading Is Not Using: Retrieval, Judgment, and the Design of AI Financial Research Workflows",
+            "summary": "Large language models (LLMs) are increasingly deployed as AI analysts to process financial disclosures and support AI-assisted investment de",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.24842v1",
             "score": 70,
             "sourceCount": 1,
             "date": "2026-08-25",
-            "publishedAt": "2026-08-25T02:02",
-            "reason": ""
-          },
-          {
-            "title": "Democratizing institutional knowledge: Building an AI-powered knowledge management system with AWS",
-            "summary": "Learn how to build a customizable, smart-caching knowledge management system on AWS that captures and delivers institutional (tribal) knowle",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/democratizing-institutional-knowledge-building-an-ai-powered-knowledge-management-system-with-aws/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-25",
-            "publishedAt": "2026-08-25T02:59",
-            "reason": ""
-          },
-          {
-            "title": "MetaRoCE: A New RDMA Transport Built for AI-Scale Ethernet",
-            "summary": "Training and serving frontier AI models depends on fast, reliable networks that move data between GPUs without wasting compute cycles. To me",
-            "source": "RSS · Meta Engineering",
-            "url": "https://engineering.fb.com/2026/08/24/networking-traffic/metaroce-rdma-transport-ai-ethernet/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-25",
-            "publishedAt": "2026-08-25T02:02",
-            "reason": ""
-          },
-          {
-            "title": "MTIA 300: Meta’s First Training Chip with Built-in NICs and Communication-Offloading Engines",
-            "summary": "MTIA 300 is the first of Meta’s family of in-house training and inference accelerators optimized for training ranking and recommendation mod",
-            "source": "RSS · Meta Engineering",
-            "url": "https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-25",
-            "publishedAt": "2026-08-25T01:45",
+            "publishedAt": "",
             "reason": ""
           }
         ]
