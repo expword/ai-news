@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-08-26",
-  "generatedAt": "2026-08-25T21:38:08.026109Z",
+  "generatedAt": "2026-08-26T01:09:34.105841Z",
   "news": [
     {
       "title": "AgentHands: Generating interactive hand gestures for spatially grounded agent conversations in XR",
@@ -3319,505 +3319,6 @@ window.AI_GENERATED_DATA = {
         "news"
       ],
       "sourceDate": "2026-08-18",
-      "sourceCount": 1
-    },
-    {
-      "title": "专门化半光滑牛顿法在基于核的最优传输中的应用",
-      "summary": "基于核的最优传输（OT）估计器提供了一种替代的功能性估计程序，能够从样本中解决OT问题。尽管这些估计器在高维概率测度比较中显示出比传统的线性规划OT估计器更高的统计效率，但其计算代价也相对较高，尤其是在样本量增大时。为了解决这一问题，研究者提出了一种新的半光滑牛顿法，旨在提高计算效率。",
-      "category": "ai-research",
-      "tags": [
-        "最优传输",
-        "半光滑牛顿法",
-        "高维数据",
-        "统计效率",
-        "计算复杂性"
-      ],
-      "keyPoints": [
-        "基于核的OT估计器在高维数据中比传统的线性规划方法更具统计效率，但计算成本高昂，尤其在样本量增大时。",
-        "提出的半光滑牛顿法（SSN）通过优化每次迭代的计算成本，显著提高了效率，达到O(1/√k)的全局收敛率。",
-        "SSN方法在合成和真实数据集上均显示出相较于传统短步内点法（SSIPM）的显著加速效果，适用于更大规模的样本。",
-        "该方法的提出为解决最优传输中的质量守恒约束问题提供了新的思路，可能会影响机器学习中的数据匹配和处理。",
-        "研究表明，SSN方法在标准正则条件下具有局部二次收敛率，进一步提升了其应用潜力。"
-      ],
-      "background": "最优传输方法在机器学习中越来越重要，尤其是在处理复杂数据集时。传统的OT方法由于其O(n^3)的计算复杂度，限制了其在大规模数据集中的应用。近年来，随着对高维数据处理需求的增加，研究者们开始探索更高效的OT解决方案。半光滑牛顿法的提出，旨在通过减少每次迭代的计算负担，来克服传统方法的局限性。这一方法不仅提高了计算效率，还为解决质量守恒约束带来了新的可能性，预示着OT在机器学习领域的进一步应用潜力。",
-      "impact": "这一研究成果可能会对多个领域产生深远影响，尤其是在需要处理大规模数据的机器学习应用中。数据科学家和机器学习工程师可以利用这一方法提高数据匹配的效率，进而改善模型的训练效果。此外，随着OT方法的普及，可能会推动相关算法在图像处理、自然语言处理等领域的应用，改变现有的决策流程和数据处理方式。",
-      "audience": [
-        "数据科学家",
-        "机器学习工程师",
-        "算法研究人员",
-        "高维数据分析师"
-      ],
-      "useCases": [
-        "优化机器学习模型的训练过程，使用SSN方法提高数据匹配效率。",
-        "在图像处理任务中应用基于核的OT方法，改善图像质量和处理速度。",
-        "利用SSN方法处理大规模数据集，解决传统OT方法的计算瓶颈。",
-        "在自然语言处理领域中，通过高效的OT方法提升文本数据的匹配和分析能力。"
-      ],
-      "risks": [
-        "尽管SSN方法提高了计算效率，但在特定情况下仍可能面临收敛速度慢的问题，尤其是在数据分布不均时。",
-        "该方法的实现依赖于复杂的数学模型，可能对非专业用户造成理解和应用上的困难。",
-        "在实际应用中，SSN方法的效果可能受到数据质量和样本量的限制，需谨慎评估其适用性。",
-        "由于OT方法在处理质量守恒约束时的刚性，可能导致在某些应用场景下的灵活性不足。"
-      ],
-      "reason": "该研究提供了一种高效的最优传输解决方案，具有重要的理论和实际应用价值，值得关注。",
-      "scores": {
-        "importance": 85,
-        "novelty": 80,
-        "firsthand": 90,
-        "impact": 75,
-        "credibility": 80
-      },
-      "url": "https://machinelearning.apple.com/research/semismooth-newton-optimal-transport",
-      "source": "RSS · Apple ML Research",
-      "date": "2026-08-18",
-      "publishedAt": "2026-08-18T08:00",
-      "collectedAt": "2026-08-20T09:28",
-      "dateStatus": "verified",
-      "tier": "T1",
-      "score": 82,
-      "aiSelected": true,
-      "_style": "critic",
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Asana 在两周内用 Codex 完成五年工程工作",
-      "summary": "Asana 利用 OpenAI 的 Codex 在两周内替换了过时的测试系统，完成了原本预计需五年才能完成的工作，成本约为 12,000 美元。此举显著提升了开发效率，展示了 AI 工具在软件开发中的潜力。",
-      "category": "ai-coding",
-      "tags": [
-        "Asana",
-        "OpenAI",
-        "Codex",
-        "软件开发",
-        "测试系统"
-      ],
-      "keyPoints": [
-        "Asana 使用 OpenAI Codex 替换了过时的测试系统，完成了原本预计需五年的工程工作。",
-        "这一项目在两周内完成，成本仅为 12,000 美元，显示出 AI 工具的高效性。",
-        "Codex 是 OpenAI 开发的强大编程助手，能够理解和生成代码，极大地提高了开发效率。",
-        "Asana 的这一成功案例可能会激励其他公司采用 AI 工具来优化开发流程。",
-        "在过去，类似的系统替换通常需要数月甚至数年的时间，Codex 的应用显著缩短了这一周期。"
-      ],
-      "background": "Asana 是一家知名的项目管理软件公司，近年来面临着技术更新的压力。为了提升开发效率，Asana 决定替换其过时的测试系统。传统上，软件测试系统的更新需要耗费大量时间和资源，通常需要数年才能完成。OpenAI 的 Codex 作为一种新兴的 AI 编程工具，能够理解自然语言并生成相应的代码，成为了 Asana 的理想选择。通过 Codex，Asana 在短短两周内完成了这一复杂的系统替换，展现了 AI 在软件开发中的巨大潜力。",
-      "impact": "Asana 的成功案例可能会引发行业内对 AI 工具的广泛关注，尤其是在软件开发领域。其他公司可能会考虑采用类似的 AI 解决方案，以提高开发效率和降低成本。此外，这一案例也可能促使更多开发者学习和使用 AI 编程工具，从而改变传统的开发流程。随着 AI 技术的不断进步，未来可能会有更多企业实现类似的快速转型，进一步推动整个行业的技术革新。",
-      "audience": [
-        "软件开发工程师",
-        "项目经理",
-        "技术决策者",
-        "AI 工具开发者",
-        "测试工程师"
-      ],
-      "useCases": [
-        "使用 Codex 自动生成测试用例，提高测试效率。",
-        "通过 Codex 快速修复代码中的错误，减少人工干预。",
-        "利用 Codex 进行代码审查，提升代码质量。"
-      ],
-      "risks": [
-        "Codex 的使用可能会面临 API 费用问题，尤其是在大规模使用时。",
-        "在特定编程语言或框架中，Codex 的兼容性可能存在限制。",
-        "商用授权方面，使用 Codex 生成的代码可能需要额外的法律审查。"
-      ],
-      "reason": "Asana 的案例展示了 AI 工具在实际应用中的高效性，值得关注其对软件开发行业的影响。",
-      "scores": {
-        "importance": 85,
-        "novelty": 75,
-        "firsthand": 90,
-        "impact": 80,
-        "credibility": 85
-      },
-      "url": "https://openai.com/index/asana",
-      "source": "RSS · OpenAI Blog",
-      "date": "2026-08-18",
-      "publishedAt": "2026-08-18T15:00",
-      "collectedAt": "2026-08-19T13:43",
-      "dateStatus": "verified",
-      "tier": "T1",
-      "score": 82,
-      "aiSelected": true,
-      "_style": "observer",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "大型语言模型中的模块化认知架构",
-      "summary": "这次发布的核心点是，研究表明大型语言模型（LLM）在处理不同认知任务时，展现出与人类大脑相似的模块化架构。这一发现可能揭示了智能系统构建的基本原则。",
-      "category": "ai-research",
-      "tags": [
-        "大型语言模型",
-        "认知架构",
-        "人工智能",
-        "模块化",
-        "神经网络"
-      ],
-      "keyPoints": [
-        "研究显示，LLM在46个任务中展现出模块化架构，类似于人类大脑的功能分化。",
-        "任务间的神经元重叠表明，LLM在处理相似任务时会激活相同的神经元。",
-        "该研究使用了四个认知领域的任务，包括语言、形式推理、社会推理和物理推理。",
-        "模块化的出现可能是智能系统的基本特性，而非生物大脑的偶然结果。",
-        "研究结果为理解智能系统的构建提供了新的视角。"
-      ],
-      "background": "该研究探讨了人类大脑的功能分化现象，提出是否这种模块化结构是智能系统的基本构建原则。通过对大型语言模型的分析，研究者们发现LLM在处理不同类型的认知任务时，展现出与人类大脑相似的模块化特征。这一发现不仅为人工智能领域提供了新的研究方向，也为理解人类智能的本质提供了重要线索。与以往的研究相比，这项研究通过更系统的任务分析，揭示了LLM与人类大脑在认知处理上的相似性。",
-      "impact": "这项研究的发现将对多个领域产生深远影响。首先，研究人员和开发者可以利用LLM的模块化特性，优化模型在特定任务上的表现。其次，教育工作者可以借此理解学生在不同认知领域的学习方式，从而调整教学策略。此外，企业在开发智能系统时，可以参考这一研究，设计更符合人类认知的产品。",
-      "audience": [
-        "AI研究人员",
-        "教育工作者",
-        "智能系统开发者",
-        "认知科学家",
-        "数据科学家"
-      ],
-      "useCases": [
-        "分析LLM在特定任务上的表现，优化模型参数以提高准确性。",
-        "设计教育工具，利用LLM的模块化特性来帮助学生在不同领域的学习。",
-        "开发智能客服系统，基于LLM的认知架构提升用户交互体验。"
-      ],
-      "risks": [
-        "LLM的模块化特性可能在特定任务上表现不佳，导致结果不一致。",
-        "使用LLM时需注意API调用的费用和配额限制，可能增加开发成本。",
-        "在多语言环境中，LLM的表现可能不如预期，影响其应用范围。"
-      ],
-      "reason": "这项研究揭示了大型语言模型与人类大脑之间的相似性，为智能系统的设计提供了新的思路，值得关注。",
-      "scores": {
-        "importance": 85,
-        "novelty": 80,
-        "firsthand": 90,
-        "impact": 75,
-        "credibility": 80
-      },
-      "url": "https://arxiv.org/abs/2608.13567",
-      "source": "RSS · arXiv cs.AI",
-      "date": "2026-08-18",
-      "publishedAt": "",
-      "collectedAt": "2026-08-18T09:51",
-      "dateStatus": "collected",
-      "tier": "T1",
-      "score": 82,
-      "aiSelected": true,
-      "_style": "reviewer",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceDate": "2026-08-18",
-      "sourceCount": 2,
-      "relatedSources": [
-        {
-          "source": "RSS · arXiv cs.AI",
-          "url": "https://arxiv.org/abs/2608.13591",
-          "title": "大型语言模型中的稳定误校准：高置信度错误的实用视角"
-        }
-      ]
-    },
-    {
-      "title": "AI 评估应与人类协作",
-      "summary": "我注意到，当前 AI 评估的主流模式过于关注超人类的自主表现，实际上这可能会引导 AI 发展走向错误的方向。相反，AI 社区应该转向评估人类与 AI 团队的表现，这种合作模式将更好地促进 AI 系统与人类能力的互补，从而带来更积极的社会结果。",
-      "category": "ai-research",
-      "tags": [
-        "AI 评估",
-        "人机协作",
-        "社会影响",
-        "技术发展",
-        "机器学习"
-      ],
-      "keyPoints": [
-        "当前 AI 评估主要关注超人类表现，可能导致 AI 取代人类的误区。",
-        "建议转向评估人类与 AI 的协作表现，以促进更好的社会结果。",
-        "这种合作模式将使 AI 系统成为人类能力的真正补充。",
-        "该论文已被 ICML 2026 接收，显示出其学术认可度。",
-        "研究强调，评估人机团队的表现将有助于推动 AI 的健康发展。"
-      ],
-      "background": "在过去的几年中，AI 技术迅速发展，许多研究集中在如何使 AI 系统超越人类的能力。然而，这种单一的评估标准可能会导致技术发展的偏差，忽视了人类与 AI 的协作潜力。该论文提出了一种新的评估框架，强调人机团队的表现，认为这种方法能够更好地反映 AI 系统的实际应用价值。与传统的评估方法相比，这种新模式更能适应未来 AI 的发展需求，促进技术与人类的和谐共存。",
-      "impact": "这种新的评估方法将影响多个领域的研究者和开发者，尤其是那些专注于人机协作的团队。它可能改变我们对 AI 系统能力的理解，促使企业在开发 AI 应用时更加注重人机协作的设计。此外，这种转变也可能引发政策层面的讨论，推动更合理的 AI 监管框架，确保技术的发展能够真正服务于人类社会。",
-      "audience": [
-        "AI 研究人员",
-        "机器学习工程师",
-        "人机交互设计师",
-        "技术政策制定者",
-        "企业决策者"
-      ],
-      "useCases": [
-        "评估人机协作项目的效果，使用新的评估框架来优化团队表现。",
-        "在开发 AI 应用时，设计人机协作的功能，以提升用户体验和效率。",
-        "参与政策讨论，推动人机协作的相关法规和标准的制定。",
-        "进行学术研究，探索人机协作对社会影响的长远效果。",
-        "为企业提供咨询，帮助其在 AI 项目中更好地整合人机协作。"
-      ],
-      "risks": [
-        "可能面临的技术整合挑战，尤其是在现有系统中引入新评估标准时。",
-        "人机协作的复杂性可能导致初期实施效果不佳，需要时间调整。",
-        "在不同文化和行业背景下，人机协作的接受度可能存在差异。",
-        "对 AI 系统的依赖可能导致人类技能的退化，需谨慎平衡。",
-        "新评估方法的推广可能受到传统观念的阻碍，需要有效的宣传和教育。"
-      ],
-      "reason": "这篇论文提出了一个重要的视角转变，强调人机协作的重要性，值得关注和深入探讨。",
-      "scores": {
-        "importance": 85,
-        "novelty": 75,
-        "firsthand": 90,
-        "impact": 80,
-        "credibility": 85
-      },
-      "url": "https://arxiv.org/abs/2608.13577",
-      "source": "RSS · arXiv cs.AI",
-      "date": "2026-08-18",
-      "publishedAt": "",
-      "collectedAt": "2026-08-18T09:52",
-      "dateStatus": "collected",
-      "tier": "T1",
-      "score": 82,
-      "aiSelected": true,
-      "_style": "recommender",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceDate": "2026-08-18",
-      "sourceCount": 1
-    },
-    {
-      "title": "GRPO在非英语和多语言环境中的应用研究",
-      "summary": "这次发布的核心点是，GRPO（Group Relative Policy Optimization）在非英语和多语言环境中的应用研究，揭示了多语言训练对预训练语言模型推理能力的影响。研究表明，使用母语进行训练可以缩小与英语推理的差距，并且在某些情况下，跨语言迁移效果显著，但也存在特定语言导致其他语言能力下降的风险。",
-      "category": "ai-research",
-      "tags": [
-        "GRPO",
-        "多语言模型",
-        "推理能力",
-        "跨语言迁移",
-        "人工智能研究"
-      ],
-      "keyPoints": [
-        "研究表明，使用母语训练的模型与英语推理的差距较小，表明多语言训练的有效性。",
-        "跨语言迁移效果显著，某一语言的训练可以提升其他语言的表现。",
-        "特定语言的训练可能导致其他语言的能力严重下降，需谨慎选择训练语言。",
-        "研究涉及多种基础模型和训练语言，覆盖广泛的应用场景。",
-        "RLVR（Reinforcement Learning with Verifiable Rewards）在非英语环境中的应用潜力被进一步挖掘。"
-      ],
-      "background": "近年来，随着人工智能技术的快速发展，预训练语言模型（LLMs）在多种语言处理任务中展现出强大的能力。然而，现有研究大多集中在英语环境，导致非英语和多语言环境的研究相对匮乏。GRPO作为一种优化方法，旨在提升模型的推理能力，但其在非英语环境中的表现尚未得到充分验证。本研究通过大规模实证分析，探索了GRPO在多语言和非英语环境中的应用，填补了这一领域的研究空白。",
-      "impact": "本研究的发现对多语言模型的开发者和研究人员具有重要意义。做多语言处理的工程师可以利用这些研究结果优化模型训练策略，提升模型在不同语言上的表现。教育领域的研究者也可以借此推动多语言学习工具的开发，改善学习效果。此外，商业应用中，跨国公司可以更有效地利用多语言模型进行市场分析和用户反馈处理。",
-      "audience": [
-        "多语言处理的研究人员",
-        "教育技术开发者",
-        "跨国公司的数据科学家"
-      ],
-      "useCases": [
-        "优化多语言模型的训练流程，提高模型在非英语语言上的推理能力。",
-        "开发多语言教育工具，提升学习者的语言能力。",
-        "在跨国公司中，利用多语言模型分析不同市场的用户反馈。"
-      ],
-      "risks": [
-        "训练特定语言可能导致其他语言的能力下降，需谨慎选择训练语言。",
-        "多语言模型的API使用成本可能较高，需评估预算。",
-        "在特定语言上训练的模型可能面临商用授权问题，需确保合规。"
-      ],
-      "reason": "这项研究为多语言模型的优化提供了实证支持，值得关注其在实际应用中的潜力。",
-      "scores": {
-        "importance": 75,
-        "novelty": 80,
-        "firsthand": 90,
-        "impact": 70,
-        "credibility": 85
-      },
-      "url": "https://machinelearning.apple.com/research/grpo-beyond-english",
-      "source": "RSS · Apple ML Research",
-      "date": "2026-08-18",
-      "publishedAt": "2026-08-18T08:00",
-      "collectedAt": "2026-08-20T09:28",
-      "dateStatus": "verified",
-      "tier": "T1",
-      "score": 78,
-      "aiSelected": true,
-      "_style": "reviewer",
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "MVICAD2：多视角独立成分分析的新进展",
-      "summary": "MVICAD2（多视角独立成分分析与延迟和膨胀）是一种新型机器学习方法，旨在解决多视角数据分析中的挑战，尤其是在神经科学领域。该方法允许不同个体的信号源在时间延迟和膨胀上有所不同，从而更准确地估计大脑活动动态。尽管MVICAD2在性能上优于现有方法，但其复杂性和对数据质量的要求仍然是其局限性。",
-      "category": "ai-research",
-      "tags": [
-        "机器学习",
-        "神经科学",
-        "数据分析",
-        "多视角",
-        "独立成分分析"
-      ],
-      "keyPoints": [
-        "MVICAD2允许信号源在时间延迟和膨胀上有所不同，适应个体差异。",
-        "该方法在模拟实验中表现优于传统的多视角独立成分分析（MVICA）方法。",
-        "MVICAD2的有效性通过Cam-CAN数据集得到了验证，显示出与年龄相关的延迟和膨胀关系。",
-        "该研究由Ambroise Heurtebise等人于2026年8月发表，属于IEEE生物医学工程期刊。",
-        "MVICAD2的模型具有可识别的信号源，并通过正则化和优化技术提升性能。"
-      ],
-      "background": "多视角独立成分分析（MVICA）在处理来自不同个体的神经科学数据时，通常假设所有个体的信号源相同。然而，这一假设在实际应用中往往过于严格，尤其是在个体差异和年龄变化的情况下。MVICAD通过允许信号源在时间上存在延迟，部分解决了这一问题，但仍无法完全捕捉到大脑动态中的膨胀效应。MVICAD2的提出，正是为了进一步克服这些局限，使得在分析多视角数据时更加灵活和准确。",
-      "impact": "MVICAD2的引入将对神经科学研究产生深远影响，尤其是在分析大脑活动动态时。研究人员可以更准确地理解不同个体在相同刺激下的反应，从而推动个性化医疗和神经科学的进步。此外，该方法的成功应用可能会影响其他领域的数据分析策略，促进跨学科的合作与创新。",
-      "audience": [
-        "神经科学研究人员",
-        "数据科学家",
-        "机器学习工程师",
-        "生物医学工程师",
-        "心理学研究者"
-      ],
-      "useCases": [
-        "分析多视角神经科学数据，揭示大脑活动的个体差异。",
-        "在临床研究中应用MVICAD2，评估不同患者对治疗的反应。",
-        "利用该方法优化脑电图（EEG）信号的解读，提高诊断准确性。"
-      ],
-      "risks": [
-        "MVICAD2对数据质量要求较高，低质量数据可能导致结果不准确。",
-        "模型复杂性较高，可能需要较长的计算时间和资源，限制了其在实时应用中的使用。",
-        "在特定情况下，模型可能无法有效处理极端个体差异，影响分析结果的普适性。"
-      ],
-      "reason": "MVICAD2在多视角数据分析中提供了新的解决方案，尤其是在神经科学领域，值得关注其潜在的应用价值和局限性。",
-      "scores": {
-        "importance": 75,
-        "novelty": 80,
-        "firsthand": 90,
-        "impact": 70,
-        "credibility": 85
-      },
-      "url": "https://machinelearning.apple.com/research/mvicad2-delays-dilations",
-      "source": "RSS · Apple ML Research",
-      "date": "2026-08-18",
-      "publishedAt": "2026-08-18T08:00",
-      "collectedAt": "2026-08-20T09:28",
-      "dateStatus": "verified",
-      "tier": "T1",
-      "score": 78,
-      "aiSelected": true,
-      "_style": "critic",
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Agentao：工具使用 LLM 代理的受控本地优先运行时",
-      "summary": "Agentao 是一种新型的本地优先运行时，旨在为工具使用的 LLM 代理提供治理框架。尽管其设计增强了代理的可控性和可审计性，但仍存在权限过度、审计能力不足等风险。",
-      "category": "ai-agents",
-      "tags": [
-        "LLM代理",
-        "工具使用",
-        "本地优先",
-        "治理框架",
-        "人工智能"
-      ],
-      "keyPoints": [
-        "Agentao 采用分层架构，将模型生成的行动提案与主机授权的执行分离，增强了安全性。",
-        "该系统支持持久内存、回放、插件、技能和协议集成等功能，提供灵活的运行环境。",
-        "Agentao 不提供正式的安全保证，但通过明确的权限和执行轨迹提高了治理能力。",
-        "该框架的代码已公开，便于开发者进行测试和分析，推动社区参与。",
-        "Agentao 的设计目标是使 LLM 代理在本地环境中更可控和可审计，适应多种应用场景。"
-      ],
-      "background": "随着 LLM 代理在执行系统中的应用日益广泛，它们能够调用工具、修改本地状态并与外部协议交互。这些能力虽然提升了代理的实用性，但也带来了诸多风险，如权限过度、审计能力不足和工具中毒等。Agentao 作为一种新兴的治理框架，旨在通过分层架构来解决这些问题，确保代理在本地环境中的安全性和可控性。与传统的 LLM 代理相比，Agentao 更加注重权限管理和执行透明度，适应了日益复杂的应用需求。",
-      "impact": "Agentao 的推出可能会吸引希望在本地环境中使用 LLM 代理的开发者和企业，尤其是在需要高安全性和可审计性的场景中。它的治理框架能够帮助用户更好地管理代理的行为，降低潜在风险。此外，随着代码的公开，开发者可以根据自身需求进行定制和扩展，推动创新和应用的多样性。然而，Agentao 仍需在实际应用中验证其有效性和安全性，才能真正改变现有的 LLM 代理使用模式。",
-      "audience": [
-        "AI 研究人员",
-        "软件开发者",
-        "安全审计师",
-        "数据科学家",
-        "系统架构师"
-      ],
-      "useCases": [
-        "开发本地 LLM 代理，利用 Agentao 的权限管理功能，确保安全性。",
-        "在企业环境中实施 Agentao，监控代理行为以满足合规要求。",
-        "利用 Agentao 的插件系统，扩展 LLM 代理的功能以适应特定业务需求。",
-        "进行 Agentao 框架的测试与分析，评估其在不同场景下的表现。",
-        "在教育领域使用 Agentao，帮助学生理解 LLM 代理的工作原理和安全性。"
-      ],
-      "risks": [
-        "Agentao 的治理框架虽然增强了安全性，但仍可能存在权限过度的问题，导致代理执行不当。",
-        "由于缺乏正式的安全保证，用户在使用过程中可能面临不可预见的风险，影响系统稳定性。",
-        "在不同的硬件和软件环境中，Agentao 的兼容性可能存在问题，限制其广泛应用。",
-        "对于非技术用户，Agentao 的复杂性可能导致使用门槛过高，影响其普及。",
-        "在实际应用中，Agentao 的性能和效率可能无法满足高负载场景的需求。"
-      ],
-      "reason": "Agentao 提供了一种新颖的治理框架，适合希望在本地环境中使用 LLM 代理的开发者，具有重要的研究和应用价值。",
-      "scores": {
-        "importance": 75,
-        "novelty": 80,
-        "firsthand": 90,
-        "impact": 70,
-        "credibility": 80
-      },
-      "url": "https://arxiv.org/abs/2608.13574",
-      "source": "RSS · arXiv cs.AI",
-      "date": "2026-08-18",
-      "publishedAt": "",
-      "collectedAt": "2026-08-18T09:51",
-      "dateStatus": "collected",
-      "tier": "T1",
-      "score": 78,
-      "aiSelected": true,
-      "_style": "critic",
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceDate": "2026-08-18",
-      "sourceCount": 1
-    },
-    {
-      "title": "GPU 分配优化：利用率提升 33 点的背后",
-      "summary": "一项新研究表明，通过优化 GPU 分配顺序，企业 AI 的 GPU 利用率可提升至 33 个百分点。该研究展示了如何在相同硬件和工作负载下，通过更精细的调度策略，显著提高 GPU 的使用效率。然而，这种方法在实施过程中也面临多重挑战，尤其是在处理不同类型工作负载时。",
-      "category": "ai-tools",
-      "tags": [
-        "GPU管理",
-        "调度优化",
-        "企业AI",
-        "利用率提升",
-        "技术研究"
-      ],
-      "keyPoints": [
-        "研究表明，通过优化 GPU 分配顺序，利用率可提升 33 个百分点，优先级加权输出提升高达 105%。",
-        "该方法在相同硬件和工作负载下进行测试，显示出调度顺序对资源利用的显著影响。",
-        "GPU 调度面临四种工作负载的竞争：训练、实时推理、批量推理和量化，需合理分配资源。",
-        "FIFO 调度策略在资源紧张时可能导致利用率下降，优化后的调度策略能有效解决这一问题。",
-        "研究强调，GPU 的有效利用不仅依赖于硬件本身，更在于如何进行智能调度。"
-      ],
-      "background": "随着企业 AI 的发展，GPU 的利用率成为制约其性能的关键因素。传统的 FIFO 调度策略在资源分配上存在局限，尤其在处理多种工作负载时，容易导致资源浪费。新研究提出了一种基于约束的 GPU 分配器，通过优化调度顺序，显著提升了 GPU 的利用率。这一方法的提出为企业 AI 的 GPU 管理提供了新的思路，尤其是在高并发和多任务环境下。",
-      "impact": "这一优化策略将对 GPU 集群管理者、AI 开发者和企业决策者产生深远影响。通过提升 GPU 的利用率，企业可以降低成本，提高计算效率，从而加速 AI 项目的推进。此外，优化后的调度策略还可能影响未来 GPU 硬件的设计方向，促使厂商在兼容性和性能上进行更深入的探索。",
-      "audience": [
-        "GPU 集群管理的 SRE",
-        "AI 模型训练的工程师",
-        "实时推理系统的开发者"
-      ],
-      "useCases": [
-        "优化 GPU 调度，提升 AI 模型训练效率，减少资源浪费。",
-        "在实时推理场景中，根据需求动态调整 GPU 分配，提高响应速度。",
-        "利用新调度策略，进行多任务处理，提升整体系统性能。"
-      ],
-      "risks": [
-        "新调度策略可能需要额外的开发和测试时间，增加项目的初期成本。",
-        "在不同硬件环境下，优化效果可能不一致，需进行适配和调整。",
-        "对现有系统的兼容性可能存在问题，实施过程中需谨慎评估风险。"
-      ],
-      "reason": "这项研究提供了实用的 GPU 管理新思路，值得关注其在企业 AI 中的应用潜力。",
-      "scores": {
-        "importance": 75,
-        "novelty": 80,
-        "firsthand": 90,
-        "impact": 70,
-        "credibility": 85
-      },
-      "url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
-      "source": "RSS · Hugging Face Blog",
-      "date": "2026-08-18",
-      "publishedAt": "2026-08-18T03:46",
-      "collectedAt": "2026-08-18T04:52",
-      "dateStatus": "verified",
-      "tier": "T1",
-      "score": 78,
-      "aiSelected": true,
-      "_style": "critic",
-      "moduleTargets": [
-        "news"
-      ],
       "sourceCount": 1
     }
   ],
@@ -7978,6 +7479,28 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-models": [
       {
+        "name": "Trump's UFO Obsession Takes a Humiliating Turn",
+        "provider": "The Daily Beast",
+        "type": "AI 项目/工具",
+        "bestFor": "The White House's pick to lead an outside science council predicted what aliens would think about the president -- if anything.\n\nA scientist whom the White Hous",
+        "description": "The White House's pick to lead an outside science council predicted what aliens would think about the president -- if anything.\n\nA scientist whom the White House appointed to lead ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Daily Beast",
+        "url": "https://www.thedailybeast.com/donald-trumps-ufo-obsession-takes-a-humiliating-turn/"
+      },
+      {
+        "name": "Seoul Mayor Advances AI as Urban Competitive Edge",
+        "provider": "조선일보",
+        "type": "AI 项目/工具",
+        "bestFor": "Seoul establishes Physical AI Belt, debuts Level 4 robotaxi, expands AI tools for youth\n\nSeoul Mayor Oh Se-hoon has announced plans to foster artificial intelli",
+        "description": "Seoul establishes Physical AI Belt, debuts Level 4 robotaxi, expands AI tools for youth\n\nSeoul Mayor Oh Se-hoon has announced plans to foster artificial intelligence (AI) innovatio",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "조선일보",
+        "url": "https://www.chosun.com/english/industry-en/2026/08/26/UFQCSESNOBFMHH6K6C2XZVL4UA/"
+      },
+      {
         "name": "5 ways to upgrade your home decor with Google Search",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -8430,39 +7953,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "ProPakistani",
         "url": "https://propakistani.pk/?p=1067173"
-      },
-      {
-        "name": "特朗普威胁对阿曼采取军事行动，因不满与伊朗的协议",
-        "provider": "RocketNews | Top News Stories From Around the Globe",
-        "type": "AI 项目/工具",
-        "bestFor": "这一事件可能导致美国在中东的军事介入加剧，影响到全球能源市场的稳定。若特朗普实施威胁，可能会引发地区冲突，影响到航运安全。阿曼与伊朗的协议若得以实施，可能会促使美国重新考虑与伊朗的谈判策略，进而影响国际关系的走向。",
-        "description": "美国总统特朗普因对阿曼与伊朗在霍尔木兹海峡海上交通管理协议的异议，威胁对阿曼采取军事行动。特朗普政府反对该协议的特定条款，尤其是伊朗与阿曼共同监管海峡出口的安排。特朗普在社交媒体上公开表示该海峡为美国领土，并引发了伊朗方面的强烈反应，称将采取措施纠正这一主张。与此同时，地区安全事件频发，局势紧张。",
-        "useCases": [
-          "关注中东局势的分析师可通过社交媒体监测特朗普的动态，及时调整分析报告。",
-          "能源市场交易员可根据局势变化，调整投资策略，规避潜在风险。",
-          "外交政策制定者可利用此事件评估与阿曼及伊朗的关系，制定相应的外交策略。"
-        ],
-        "watch": "特朗普的威胁可能导致阿曼与美国关系紧张，影响双方的经济合作。",
-        "sourceName": "RocketNews | Top News Stories From Around the Globe",
-        "url": "https://rocketnews.com/2026/08/trump-threatened-to-bomb-oman-because-hes-unhappy-with-countrys-deal-with-iran-officials-say/"
-      },
-      {
-        "name": "Electra Mining Africa 展示未来工业技术",
-        "provider": "Bizcommunity.com",
-        "type": "AI 项目/工具",
-        "bestFor": "此次展会将吸引矿业、制造业和自动化等多个行业的专业人士，促进技术交流和合作。通过展示最新的技术和解决方案，企业可以更好地评估和选择适合自身需求的产品，从而提升运营效率和安全性。此外，展会还将推动可持续发展，帮助企业在满足市场需求的同时，降低对环境的影响。",
-        "description": "我注意到，Electra Mining Africa 展会将于 2026 年在约翰内斯堡举行，展会面积扩大至 44,000 平方米，汇聚超过 1,000 家本地和国际展商，展示最新的工业技术和解决方案。展会将重点关注工业自动化、人工智能、机器人技术等，帮助企业提升生产力和安全性，同时满足可持续发展的需求。",
-        "useCases": [
-          "探索新型工业自动化系统，提升生产线效率。",
-          "评估最新的人工智能解决方案，优化设备维护。",
-          "与技术专家交流，获取针对特定行业挑战的解决方案。"
-        ],
-        "watch": "展会期间可能面临人流密集，需提前规划行程以避免拥堵。",
-        "sourceName": "Bizcommunity.com",
-        "url": "https://www.bizcommunity.com/article/electra-mining-africa-showcases-the-technologies-shaping-tomorrows-industry-290007a"
       }
     ],
     "ai-business": [
+      {
+        "name": "Bourse seen enduring fluctuations",
+        "provider": "China Daily",
+        "type": "AI 项目/工具",
+        "bestFor": "Chinese equities are expected to retain their longer-term investment appeal despite spillovers from heightened global market volatility, underpinned by China's ",
+        "description": "Chinese equities are expected to retain their longer-term investment appeal despite spillovers from heightened global market volatility, underpinned by China's distinct technology ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "China Daily",
+        "url": "https://www.chinadaily.com.cn/a/202608/26/WS6a8e38b1e4b06d4aa055a706.html"
+      },
       {
         "name": "Google expands Gemini AI platform for law firms, lawyers",
         "provider": "The Business Standard",
@@ -9017,23 +8521,6 @@ window.AI_GENERATED_DATA = {
         "watch": "SpaceX股价可能因锁仓期结束而承压，投资者需关注市场供需变化。",
         "sourceName": "NewsAPI:artificial intelligence",
         "url": "https://finance.yahoo.com/markets/article/the-july-jobs-report-spacex-earnings-and-ai-struggles-what-to-watch-this-week-100000237.html"
-      },
-      {
-        "name": "投资者对 AI 股票的选择愈加谨慎",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "这种投资者态度的变化可能会导致企业在AI领域的投资策略调整。公司可能会更加注重投资回报，减少不必要的支出，从而影响到AI技术的研发和应用。此外，市场对AI相关股票的选择性也可能导致资金流向更具潜力的行业，如金融、能源和医疗等，进而影响整体市场结构和行业发展方向。",
-        "description": "在本季度财报季，投资者对与人工智能相关的股票表现出更高的选择性。微软和亚马逊因投资回报明确而受到青睐，而Meta和Alphabet则因支出增加和现金流疲软而遭到惩罚。尽管美国和欧洲的整体盈利增长强劲，但欧洲股市的表现优于美国，显示出更广泛的行业收益。",
-        "useCases": [
-          "分析AI投资回报，优化投资组合，提升收益率。",
-          "评估企业财务健康，制定资本支出策略，降低风险。",
-          "监测市场动态，调整投资策略，抓住行业机会。",
-          "研究行业趋势，识别潜在投资目标，增强市场竞争力。",
-          "制定财务预测，评估不同市场的投资价值，优化资源配置。"
-        ],
-        "watch": "AI相关股票的高波动性可能导致投资者面临较大风险，尤其是在市场情绪变化时。",
-        "sourceName": "NewsAPI:generative AI",
-        "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/ai-isnt-a-catch-all-trade-for-stocks-in-this-earnings-season/articleshow/132801452.cms"
       }
     ],
     "ai-benchmark": [
@@ -12177,7 +11664,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-08-26",
-    "generatedAt": "2026-08-25T21:38:08.001108Z",
+    "generatedAt": "2026-08-26T01:09:34.046836Z",
     "total": 18,
     "sections": [
       {
