@@ -1,7 +1,62 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-08-27",
-  "generatedAt": "2026-08-26T18:57:09.202859Z",
+  "generatedAt": "2026-08-26T21:16:36.121954Z",
   "news": [
+    {
+      "title": "GlucoFM：面向连续血糖监测的基础模型",
+      "summary": "Google Research 推出 GlucoFM，一款轻量级自监督 CGM 基础模型，采用双流设计分别建模缓慢血糖趋势与短期波动。在四个队列、七项临床预测任务的 14 项评估中，其 PR-AUC 较最优 GluFormer 变体平均高出 5.8 个百分点，并在 PPGR 预测中取得最低 MAE。模型在 109，066 小时无标注 CGM 数据上预训练，具",
+      "category": "ai-research",
+      "source": "Google Research：Blog（网页）",
+      "date": "2026-08-27",
+      "publishedAt": "2026-08-27T04:10",
+      "collectedAt": "2026-08-27T05:16",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://research.google/blog/glucofm-foundation-model-for-continuous-glucose-monitoring",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Evaluate any agent framework with Amazon Bedrock AgentCore Evaluations",
+      "summary": "Amazon Bedrock AgentCore Evaluations decouples agent evaluation from the framework you build on. As long as your agent emits OpenTelemetry telemetry, the service can score it, whet",
+      "category": "ai-agents",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-08-27",
+      "publishedAt": "2026-08-27T03:13",
+      "collectedAt": "2026-08-27T04:06",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/evaluate-any-agent-framework-with-amazon-bedrock-agentcore-evaluations/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Anthropic 开放 Claude 真实使用数据供外部独立研究，公布试点结果",
       "summary": "Anthropic 今年春季启动试点，通过隐私保护工具 Anthropic Insights（原 Clio）向斯坦福大学 SALT Lab、牛津大学人类信息处理实验室及 METR 三个外部机构开放约 25 万段 2026 年 4-5 月的 Claude.ai 或 Claude Code 对话数据，供其独立设计研究并公开发布结果。",
@@ -6654,6 +6709,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "Evaluate any agent framework with Amazon Bedrock AgentCore E",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Amazon Bedrock AgentCore Evaluations decouples agent evaluation from the framework you build on. As long as your agent emits OpenTelemetry telemetry, the servic",
+        "description": "Amazon Bedrock AgentCore Evaluations decouples agent evaluation from the framework you build on. As long as your agent emits OpenTelemetry telemetry, the service can score it, whet",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/evaluate-any-agent-framework-with-amazon-bedrock-agentcore-evaluations/"
+      },
+      {
         "name": "Natera’s intelligent appointment scheduling with Amazon Bedr",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -7081,17 +7147,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2608.21177v1"
-      },
-      {
-        "name": "TraceGrant: A Contract-Governed Security Framework for the T",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Networked large language model (LLM) agents retrieve information from email, cloud storage, calendars, transaction platforms, and Web services to complete multi",
-        "description": "Networked large language model (LLM) agents retrieve information from email, cloud storage, calendars, transaction platforms, and Web services to complete multistep tasks that prod",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2608.21126v1"
       }
     ],
     "ai-models": [
@@ -11189,8 +11244,8 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-08-27",
-    "generatedAt": "2026-08-26T18:57:09.173864Z",
-    "total": 19,
+    "generatedAt": "2026-08-26T21:16:36.096983Z",
+    "total": 21,
     "sections": [
       {
         "category": "ai-coding",
@@ -11246,6 +11301,17 @@ window.AI_GENERATED_DATA = {
         "category": "ai-agents",
         "label": "Agent / MCP",
         "items": [
+          {
+            "title": "Evaluate any agent framework with Amazon Bedrock AgentCore Evaluations",
+            "summary": "Amazon Bedrock AgentCore Evaluations decouples agent evaluation from the framework you build on. As long as your agent emits OpenTelemetry t",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/evaluate-any-agent-framework-with-amazon-bedrock-agentcore-evaluations/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-27",
+            "publishedAt": "2026-08-27T03:13",
+            "reason": ""
+          },
           {
             "title": "Natera’s intelligent appointment scheduling with Amazon Bedrock AgentCore",
             "summary": "Learn how Natera built an automated voice agent on Amazon Bedrock AgentCore that lets patients book mobile phlebotomy appointments through n",
@@ -11410,6 +11476,23 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-08-26",
             "publishedAt": "",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "category": "ai-research",
+        "label": "论文研究",
+        "items": [
+          {
+            "title": "GlucoFM：面向连续血糖监测的基础模型",
+            "summary": "Google Research 推出 GlucoFM，一款轻量级自监督 CGM 基础模型，采用双流设计分别建模缓慢血糖趋势与短期波动。在四个队列、七项临床预测任务的 14 项评估中，其 PR-AUC 较最优 GluFormer 变体平均高出 5.8 个百分点，并在 PPGR 预测",
+            "source": "Google Research：Blog（网页）",
+            "url": "https://research.google/blog/glucofm-foundation-model-for-continuous-glucose-monitoring",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-27",
+            "publishedAt": "2026-08-27T04:10",
             "reason": ""
           }
         ]
