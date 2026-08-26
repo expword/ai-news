@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-08-26",
-  "generatedAt": "2026-08-26T03:39:41.267484Z",
+  "generatedAt": "2026-08-26T06:15:22.956000Z",
   "news": [
     {
       "title": "What We Learned Trying to Catch AI Liars: An Aletheia's Quest Retrospective",
@@ -138,6 +138,144 @@
       "moduleTargets": [
         "news",
         "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "A Literate Programming Environment for Human and Machine Agents",
+      "summary": "This paper introduces an environment for constructing literate programs in concert with language-aware machine agents. This environment includes a grammar for executable program es",
+      "category": "ai-coding",
+      "source": "arXiv",
+      "date": "2026-08-25",
+      "publishedAt": "",
+      "collectedAt": "2026-08-26T14:15",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-25",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.24644v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Aging of Prompt Engineering Techniques Across LLM Versions",
+      "summary": "Prompt engineering and prompt engineering techniques (PETs) have become an integral part of software engineering for AI systems. However, new LLMs are released frequently and it re",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-08-25",
+      "publishedAt": "",
+      "collectedAt": "2026-08-26T14:15",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-25",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.24641v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "IAPO: Influence-Aware Policy Optimization for Credit Assignment in Multi-Turn Service Agents",
+      "summary": "Large Language Model (LLM) agents increasingly solve long-horizon tasks through multi-turn interactions with users and external tools. In these settings, relevant task information ",
+      "category": "ai-agents",
+      "source": "arXiv",
+      "date": "2026-08-25",
+      "publishedAt": "",
+      "collectedAt": "2026-08-26T14:15",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-25",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.24588v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Thermal Tuning Overhead in Wafer-Scale Optical Interconnects for LLM MoE Training: A Cross-Layer Analysis and Ferroelectric-Based Mitigation",
+      "summary": "The rapid scaling of large language models (LLMs), particularly mixture-of-experts (MoE) architectures, has intensified interconnect demands because expert-parallel execution is co",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-08-25",
+      "publishedAt": "",
+      "collectedAt": "2026-08-26T14:15",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-25",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.24637v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Quantization Effects on Bangla Language Understanding in Large Language Models: A Systematic Evaluation",
+      "summary": "Post-training quantization lowers the memory footprint of Large Language Models (LLMs) and speeds up inference, which is why it is now common for on-device deployment. Most of what",
+      "category": "ai-benchmark",
+      "source": "arXiv",
+      "date": "2026-08-25",
+      "publishedAt": "",
+      "collectedAt": "2026-08-26T14:15",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-25",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.24615v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
       ],
       "sourceCount": 1
     },
@@ -3113,66 +3251,6 @@
       "moduleTargets": [
         "news",
         "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "ChatGPT Ads 在欧洲市场扩展至 31 个国家",
-      "summary": "ChatGPT Ads 正在向 31 个欧洲市场扩展，广告主可以借此机会在用户探索、比较选项和做出决策时进行精准投放。这一扩展为广告主提供了新的触达用户的方式，尤其是在竞争激烈的市场环境中。",
-      "category": "ai-business",
-      "tags": [
-        "广告投放",
-        "市场扩展",
-        "用户决策",
-        "ChatGPT",
-        "欧洲市场"
-      ],
-      "keyPoints": [
-        "ChatGPT Ads 现已覆盖 31 个欧洲国家，广告主可以在用户决策过程中进行精准投放。",
-        "这一扩展为广告主提供了新的市场机会，尤其是在用户探索和比较产品时。",
-        "广告主可以利用 ChatGPT Ads 的数据分析功能，优化广告效果。",
-        "预计这一扩展将提升广告主的投资回报率，尤其是在竞争激烈的行业。",
-        "ChatGPT Ads 的用户界面友好，易于上手，适合各类广告主。"
-      ],
-      "background": "ChatGPT Ads 的扩展标志着 OpenAI 在广告领域的进一步布局。与传统广告平台相比，ChatGPT Ads 利用 AI 技术分析用户行为，提供更为精准的广告投放方案。过去，广告主在选择投放渠道时往往依赖于经验和直觉，而 ChatGPT Ads 则通过数据驱动的方式，帮助广告主在用户决策的关键时刻进行干预。这一策略与其他广告平台相比，具有更高的灵活性和适应性，尤其是在快速变化的市场环境中。",
-      "impact": "推荐给希望提升广告效果的中小企业和初创公司，尤其是那些在欧洲市场寻求增长的品牌。通过 ChatGPT Ads，他们可以在用户决策的关键时刻进行有效的广告投放，从而提高品牌曝光率和转化率。同时，对于大型企业而言，ChatGPT Ads 也提供了更为细致的用户洞察，帮助他们优化广告策略。",
-      "audience": [
-        "中小企业主",
-        "数字营销专家",
-        "广告代理商",
-        "电商平台运营者",
-        "市场分析师"
-      ],
-      "useCases": [
-        "利用 ChatGPT Ads 进行精准广告投放，提升品牌曝光率。",
-        "通过用户行为分析，优化广告内容和投放时间。",
-        "在用户比较产品时，展示个性化的广告，增加转化率。"
-      ],
-      "risks": [
-        "广告投放的成本可能较高，尤其是在竞争激烈的市场中。",
-        "API 使用限制可能影响广告投放的灵活性，需提前了解相关政策。",
-        "不同国家的法律法规可能影响广告内容的合规性，需谨慎处理。"
-      ],
-      "reason": "ChatGPT Ads 的扩展为广告主提供了新的市场机会，尤其是在用户决策过程中，值得关注。",
-      "scores": {
-        "importance": 75,
-        "novelty": 70,
-        "firsthand": 90,
-        "impact": 80,
-        "credibility": 85
-      },
-      "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
-      "source": "RSS · OpenAI Blog",
-      "date": "2026-08-19",
-      "publishedAt": "2026-08-19T06:00",
-      "collectedAt": "2026-08-19T18:51",
-      "dateStatus": "verified",
-      "tier": "T1",
-      "score": 78,
-      "aiSelected": true,
-      "_style": "reviewer",
-      "moduleTargets": [
-        "news"
       ],
       "sourceCount": 1
     }
@@ -6851,6 +6929,39 @@
     ],
     "ai-agents": [
       {
+        "name": "A Literate Programming Environment for Human and Machine Age",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "This paper introduces an environment for constructing literate programs in concert with language-aware machine agents. This environment includes a grammar for e",
+        "description": "This paper introduces an environment for constructing literate programs in concert with language-aware machine agents. This environment includes a grammar for executable program es",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2608.24644v1"
+      },
+      {
+        "name": "IAPO: Influence-Aware Policy Optimization for Credit Assignm",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Large Language Model (LLM) agents increasingly solve long-horizon tasks through multi-turn interactions with users and external tools. In these settings, releva",
+        "description": "Large Language Model (LLM) agents increasingly solve long-horizon tasks through multi-turn interactions with users and external tools. In these settings, relevant task information ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2608.24588v1"
+      },
+      {
+        "name": "CelcomDigi bets on agentic AI to push Malaysian SMEs past ba",
+        "provider": "ETCIO.com",
+        "type": "AI 项目/工具",
+        "bestFor": "Malaysia's push to widen artificial intelligence use across the economy is now reaching a more practical phase: not just chatbots and single-task tools, but sof",
+        "description": "Malaysia's push to widen artificial intelligence use across the economy is now reaching a more practical phase: not just chatbots and single-task tools, but software that can move ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "ETCIO.com",
+        "url": "http://ciosea.economictimes.indiatimes.com/news/next-gen-technologies/celcomdigi-bets-on-agentic-ai-to-push-malaysian-smes-past-basic-automation/133529651"
+      },
+      {
         "name": "Evidence Blindness in Direct Corpus Interaction: Persistent ",
         "provider": "arXiv",
         "type": "AI 项目/工具",
@@ -7268,51 +7379,20 @@
         "watch": "在使用 TrueForge 时，需注意 API 调用的费用和配额限制，以免超出预算。",
         "sourceName": "Crypto Briefing",
         "url": "https://cryptobriefing.com/truefoundry-trueforge-cuts-ai-agent-costs/"
-      },
-      {
-        "name": "The P-Completeness of Inverted Index Traversal: On the Compl",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Modern AI agents increasingly rely on search infrastructure to execute complex, neuro-symbolic reasoning workflows. These workflows often compile into deeply ne",
-        "description": "Modern AI agents increasingly rely on search infrastructure to execute complex, neuro-symbolic reasoning workflows. These workflows often compile into deeply nested, non-monotonic ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · Apple ML Research",
-        "url": "https://machinelearning.apple.com/research/the-p-completeness-of-inverted-index-traversal"
-      },
-      {
-        "name": "Amazon Bedrock AgentCore 支持域名和发布日期过滤",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "这一更新将使金融服务、电子商务等行业的开发者能够更精准地控制信息来源，提升用户体验。企业在使用 AI 代理时，可以根据具体需求动态调整查询范围，避免引用不合适的信息。此外，区域扩展使得欧洲和亚太的客户能够更快地访问 Web Search，减少了数据传输的延迟，符合数据隐私法规的要求。整体来看，这一功能的推出将推动企业在",
-        "description": "Amazon Bedrock AgentCore 现已推出运行时域名和发布日期过滤功能，允许开发者在每次请求中控制代理查询的网页来源及其新鲜度。这一更新还将 Web Search 扩展至欧洲（爱尔兰）和亚太（东京）地区，提升了用户体验。",
-        "useCases": [
-          "在金融服务中，使用域名过滤确保代理只查询经过验证的金融网站。",
-          "在电商平台上，利用发布日期过滤获取最新的产品库存信息。",
-          "为合规性要求高的企业配置区域性查询，确保数据不跨境传输。"
-        ],
-        "watch": "API 调用可能受到配额限制，影响大规模查询的效率。",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/domain-and-publish-date-filters-for-web-search-on-agentcore/"
-      },
-      {
-        "name": "无服务器管道中异步调用 Amazon Bedrock AgentCore 代理的模式",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "这些异步调用模式将对开发者和企业产生深远影响。首先，开发者可以通过降低计算成本来提高项目的经济性。其次，企业在处理大量请求时，可以更灵活地管理资源，避免因等待响应而造成的资源浪费。此外，这种模式还可能促使更多企业采用无服务器架构，从而推动云计算的进一步发展。",
-        "description": "最近看到一篇关于如何在无服务器管道中异步调用 Amazon Bedrock AgentCore 代理的文章，介绍了三种模式：任务令牌回调、直接服务集成和持久化函数。这些模式可以在 AWS Step Functions 管道中使用，避免在 AI 代理处理请求时产生空闲计算成本。",
-        "useCases": [
-          "在无服务器环境中实现异步文档验证，减少等待时间和计算成本。",
-          "使用任务令牌回调模式优化 AI 代理的响应时间，提高用户体验。",
-          "通过直接服务集成，简化与其他 AWS 服务的交互，提升工作效率。",
-          "利用持久化函数处理长时间运行的任务，确保计算资源的高效利用。"
-        ],
-        "watch": "API 调用的费用可能会因高频率请求而迅速增加，需要合理控制调用频率。",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/asynchronous-patterns-for-calling-amazon-bedrock-agentcore-agents-in-serverless-pipelines/"
       }
     ],
     "ai-models": [
+      {
+        "name": "What 3 high school students learned building AI tools for po",
+        "provider": "Police1",
+        "type": "AI 项目/工具",
+        "bestFor": "Presidential AI Challenge finalists share lessons about data security, public trust and human oversight after developing three prototypes with guidance from a M",
+        "description": "Presidential AI Challenge finalists share lessons about data security, public trust and human oversight after developing three prototypes with guidance from a Missouri police depar",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Police1",
+        "url": "https://www.police1.com/leadership-institute/what-3-high-school-students-learned-building-ai-tools-for-police"
+      },
       {
         "name": "Trump's UFO Obsession Takes a Humiliating Turn",
         "provider": "The Daily Beast",
@@ -7777,17 +7857,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "www.theepochtimes.com",
         "url": "https://www.theepochtimes.com/us/pennsylvania-governor-signs-order-curbing-ai-data-centers-6076818"
-      },
-      {
-        "name": "New Free Tool Removes Claude Watermark a Day After Anthropic",
-        "provider": "ProPakistani",
-        "type": "AI 项目/工具",
-        "bestFor": "Developers have already built an open-source tool designed to remove or weaken AI provenance markers, just days after Anthropic explained how its new invisible ",
-        "description": "Developers have already built an open-source tool designed to remove or weaken AI provenance markers, just days after Anthropic explained how its new invisible watermarking system ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "ProPakistani",
-        "url": "https://propakistani.pk/?p=1067173"
       }
     ],
     "ai-business": [
@@ -9550,6 +9619,17 @@
     ],
     "ai-research": [
       {
+        "name": "Thermal Tuning Overhead in Wafer-Scale Optical Interconnects",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "The rapid scaling of large language models (LLMs), particularly mixture-of-experts (MoE) architectures, has intensified interconnect demands because expert-para",
+        "description": "The rapid scaling of large language models (LLMs), particularly mixture-of-experts (MoE) architectures, has intensified interconnect demands because expert-parallel execution is co",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2608.24637v1"
+      },
+      {
         "name": "The Invisible Editorial Layer: Formalizing Undisclosed Infer",
         "provider": "arXiv",
         "type": "AI 项目/工具",
@@ -10048,23 +10128,6 @@
         "watch": "在使用 kNN 图谱时，可能面临计算复杂度高的问题，影响处理速度。",
         "sourceName": "RSS · Apple ML Research",
         "url": "https://machinelearning.apple.com/research/umap-knn-graph-sensemaking"
-      },
-      {
-        "name": "MoMo：机器人操作中的运动模式调节",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "MoMo 的推出将对多个领域产生深远影响。首先，研究人员和开发者可以利用这一框架提升机器人在复杂环境中的操作能力，尤其是在制造、物流和服务行业。其次，教育机构可以将 MoMo 作为教学工具，帮助学生理解机器人学习和适应的原理。此外，MoMo 的灵活性可能促使更多企业采用机器人技术，从而推动行业的自动化进程。整体来看，M",
-        "description": "这次发布的核心点是 MoMo，一个创新的两阶段模仿学习框架，旨在提高机器人在多样化环境中的操作能力。通过空间时间动作标记和行为克隆变换器，MoMo 能够根据任务和运动模式条件灵活调整机器人的操作方式，展现出不同的动态行为。这一研究为机器人操作的通用性和灵活性提供了新的视角。",
-        "useCases": [
-          "开发新的机器人操作程序，利用 MoMo 提高操作灵活性和效率。",
-          "在教育环境中使用 MoMo 进行机器人学习课程的教学，增强学生的实践能力。",
-          "在物流中心部署 MoMo 机器人，提高货物处理的自动化水平。",
-          "为制造业设计定制化的机器人操作方案，适应不同的生产需求。",
-          "进行机器人技术的研究，探索运动模式在其他领域的应用潜力。"
-        ],
-        "watch": "MoMo 的实现依赖于高质量的训练数据，数据收集过程可能耗时且成本高。",
-        "sourceName": "RSS · Apple ML Research",
-        "url": "https://machinelearning.apple.com/research/momo-motion-mode-manipulation"
       }
     ],
     "ai-office": []
@@ -11473,13 +11536,24 @@
   ],
   "dailyReport": {
     "date": "2026-08-26",
-    "generatedAt": "2026-08-26T03:39:41.242487Z",
-    "total": 24,
+    "generatedAt": "2026-08-26T06:15:22.931001Z",
+    "total": 27,
     "sections": [
       {
         "category": "ai-coding",
         "label": "AI 编程",
         "items": [
+          {
+            "title": "A Literate Programming Environment for Human and Machine Agents",
+            "summary": "This paper introduces an environment for constructing literate programs in concert with language-aware machine agents. This environment incl",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.24644v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-25",
+            "publishedAt": "",
+            "reason": ""
+          },
           {
             "title": "Prompt Structure Redistributes, Not Reduces: An Empirical Analysis of Security-Weaknesses in LLM-Generated Python Code",
             "summary": "Large Language Models (LLMs) increasingly generate code from natural-language prompts, making prompt engineering a key mechanism for shaping",
@@ -11556,6 +11630,17 @@
             "sourceCount": 1,
             "date": "2026-08-26",
             "publishedAt": "2026-08-26T03:00",
+            "reason": ""
+          },
+          {
+            "title": "IAPO: Influence-Aware Policy Optimization for Credit Assignment in Multi-Turn Service Agents",
+            "summary": "Large Language Model (LLM) agents increasingly solve long-horizon tasks through multi-turn interactions with users and external tools. In th",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.24588v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-25",
+            "publishedAt": "",
             "reason": ""
           },
           {
@@ -11642,6 +11727,28 @@
             "reason": ""
           },
           {
+            "title": "Aging of Prompt Engineering Techniques Across LLM Versions",
+            "summary": "Prompt engineering and prompt engineering techniques (PETs) have become an integral part of software engineering for AI systems. However, ne",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.24641v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-25",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Thermal Tuning Overhead in Wafer-Scale Optical Interconnects for LLM MoE Training: A Cross-Layer Analysis and Ferroelectric-Based Mitigation",
+            "summary": "The rapid scaling of large language models (LLMs), particularly mixture-of-experts (MoE) architectures, has intensified interconnect demands",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.24637v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-25",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
             "title": "The Invisible Editorial Layer: Formalizing Undisclosed Inference-Time Steering, Probability Placement, and the Attribution Problem in Deployed Language Models",
             "summary": "Large language models (LLMs) are commonly evaluated under the assumption that their observable behavior is primarily determined by model wei",
             "source": "arXiv",
@@ -11717,27 +11824,22 @@
             "date": "2026-08-25",
             "publishedAt": "2026-08-25T23:14",
             "reason": ""
-          },
+          }
+        ]
+      },
+      {
+        "category": "ai-benchmark",
+        "label": "评测榜单",
+        "items": [
           {
-            "title": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
-            "summary": "",
-            "source": "RSS · Hugging Face Blog",
-            "url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+            "title": "Quantization Effects on Bangla Language Understanding in Large Language Models: A Systematic Evaluation",
+            "summary": "Post-training quantization lowers the memory footprint of Large Language Models (LLMs) and speeds up inference, which is why it is now commo",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.24615v1",
             "score": 70,
             "sourceCount": 1,
             "date": "2026-08-25",
-            "publishedAt": "2026-08-25T19:39",
-            "reason": ""
-          },
-          {
-            "title": "Disrupting a new covert influence campaign from Russia",
-            "summary": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and critic",
-            "source": "RSS · OpenAI Blog",
-            "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-25",
-            "publishedAt": "2026-08-25T08:00",
+            "publishedAt": "",
             "reason": ""
           }
         ]
