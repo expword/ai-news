@@ -1,7 +1,259 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-08-28",
-  "generatedAt": "2026-08-27T16:10:02.485200Z",
+  "generatedAt": "2026-08-27T18:34:57.327730Z",
   "news": [
+    {
+      "title": "Planetary prediction engine: Automating global models via Earth AI",
+      "summary": "Earth AI",
+      "category": "ai-models",
+      "source": "RSS · Google Research",
+      "date": "2026-08-28",
+      "publishedAt": "2026-08-28T01:37",
+      "collectedAt": "2026-08-28T02:34",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://research.google/blog/planetary-prediction-engine-automating-global-models-via-earth-ai/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "3 new ways to plan and book travel in Search",
+      "summary": "Book hotels and track airfares, plus view miles and rewards with AI Mode in Google Search.",
+      "category": "ai-models",
+      "source": "RSS · Google AI Blog",
+      "date": "2026-08-28",
+      "publishedAt": "2026-08-28T00:00",
+      "collectedAt": "2026-08-28T02:34",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Reduce ASR inference costs by 75% with NVIDIA MPS on Amazon EC2",
+      "summary": "Serving automatic speech recognition (ASR) models at scale is costly when each request uses only a fraction of a GPU. Learn how NVIDIA CUDA Multi-Process Service (MPS) with NVIDIA ",
+      "category": "ai-models",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-08-28",
+      "publishedAt": "2026-08-28T00:05",
+      "collectedAt": "2026-08-28T01:24",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/reduce-asr-inference-costs-by-75-with-nvidia-mps-on-amazon-ec2/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Deepgram deepens Amazon SageMaker AI observability with Enhanced Metrics",
+      "summary": "Self-hosted speech AI carries an observability trade-off: the numbers that drive capacity planning and cost management stay locked inside the vendor container. Deepgram closes that",
+      "category": "ai-models",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-08-28",
+      "publishedAt": "2026-08-28T00:11",
+      "collectedAt": "2026-08-28T01:24",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/deepgram-deepens-amazon-sagemaker-ai-observability-with-enhanced-metrics/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Gemini Omni 1.1 Flash lets you build with more control",
+      "summary": "",
+      "category": "ai-models",
+      "source": "RSS · Google DeepMind",
+      "date": "2026-08-28",
+      "publishedAt": "2026-08-28T00:11",
+      "collectedAt": "2026-08-28T01:24",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 2,
+      "relatedSources": [
+        {
+          "source": "Google DeepMind：Blog（RSS）",
+          "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control",
+          "title": "Gemini Omni 1.1 Flash 发布，为开发者提供更强生成式视频控制"
+        }
+      ]
+    },
+    {
+      "title": "Previewing the Model Hardware Standard Announcements Aug 27, 2026 We’re opening a research preview of the Model Hardware",
+      "summary": "Previewing the Model Hardware Standard Announcements Aug 27, 2026 We’re opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to saf",
+      "category": "ai-agents",
+      "source": "HTML · Anthropic",
+      "date": "2026-08-27",
+      "publishedAt": "",
+      "collectedAt": "2026-08-28T02:34",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-27",
+      "tags": [],
+      "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Piloting the world's first double-blind AI evaluations",
+      "summary": "Piloting the world's first double-blind AI evaluations",
+      "category": "ai-models",
+      "source": "RSS · Google DeepMind",
+      "date": "2026-08-27",
+      "publishedAt": "2026-08-27T20:59",
+      "collectedAt": "2026-08-28T01:24",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
+      "summary": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
+      "category": "ai-models",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-08-27",
+      "publishedAt": "2026-08-27T17:00",
+      "collectedAt": "2026-08-28T01:24",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Expanding OpenAI’s presence in Brazil",
+      "summary": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.",
+      "category": "ai-business",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-08-27",
+      "publishedAt": "2026-08-27T11:00",
+      "collectedAt": "2026-08-28T01:24",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/expanding-our-presence-in-brazil",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "GlucoFM：面向连续血糖监测的基础模型",
       "summary": "Google Research 推出 GlucoFM，一款轻量级自监督 CGM 基础模型，采用双流设计分别建模缓慢血糖趋势与短期波动。在四个队列、七项临床预测任务的 14 项评估中，其 PR-AUC 较最优 GluFormer 变体平均高出 5.8 个百分点，并在 PPGR 预测中取得最低 MAE。模型在 109，066 小时无标注 CGM 数据上预训练，具",
@@ -288,6 +540,33 @@ window.AI_GENERATED_DATA = {
           "title": "Preparing data for supervised fine-tuning Part 2: Advanced data strategies"
         }
       ]
+    },
+    {
+      "title": "XREPOTEST: Benchmarking Multilingual Repository-Level Unit Test Generation for Large Language Models",
+      "summary": "Large language models (LLMs) have shown promise for automated unit test generation, but existing evaluations largely rely on standalone settings and a narrow set of programming lan",
+      "category": "ai-benchmark",
+      "source": "arXiv",
+      "date": "2026-08-26",
+      "publishedAt": "",
+      "collectedAt": "2026-08-28T01:24",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-26",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.25939v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
     },
     {
       "title": "Unveiling Spectral Mechanisms in Training-Free LLM Text Detection",
@@ -2458,33 +2737,6 @@ window.AI_GENERATED_DATA = {
       "moduleTargets": [
         "news",
         "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Thermo-FL: Thermal-Aware Robust Federated Fine-Tuning of Large Language Models for Edge AI",
-      "summary": "Federated fine-tuning enables large language models to adapt on edge devices without centralizing private data, but practical deployments must address hardware instability and adve",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-08-21",
-      "publishedAt": "",
-      "collectedAt": "2026-08-25T01:32",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-21",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.21172v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
       ],
       "sourceCount": 1
     }
@@ -6126,6 +6378,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "Previewing the Model Hardware Standard Announcements Aug 27,",
+        "provider": "HTML",
+        "type": "AI 项目/工具",
+        "bestFor": "Previewing the Model Hardware Standard Announcements Aug 27, 2026 We’re opening a research preview of the Model Hardware Standard (MHS), a shared specification ",
+        "description": "Previewing the Model Hardware Standard Announcements Aug 27, 2026 We’re opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to saf",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "HTML · Anthropic",
+        "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview"
+      },
+      {
         "name": "Meta’s plans to replace workers with AI fell flat, report sa",
         "provider": "NewsData.io",
         "type": "AI 项目/工具",
@@ -6553,20 +6816,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2608.24588v1"
-      },
-      {
-        "name": "CelcomDigi bets on agentic AI to push Malaysian SMEs past ba",
-        "provider": "ETCIO.com",
-        "type": "AI 项目/工具",
-        "bestFor": "Malaysia's push to widen artificial intelligence use across the economy is now reaching a more practical phase: not just chatbots and single-task tools, but sof",
-        "description": "Malaysia's push to widen artificial intelligence use across the economy is now reaching a more practical phase: not just chatbots and single-task tools, but software that can move ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "ETCIO.com",
-        "url": "http://ciosea.economictimes.indiatimes.com/news/next-gen-technologies/celcomdigi-bets-on-agentic-ai-to-push-malaysian-smes-past-basic-automation/133529651"
       }
     ],
     "ai-models": [
+      {
+        "name": "3 new ways to plan and book travel in Search",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Book hotels and track airfares, plus view miles and rewards with AI Mode in Google Search.",
+        "description": "Book hotels and track airfares, plus view miles and rewards with AI Mode in Google Search.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Google AI Blog",
+        "url": "https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/"
+      },
       {
         "name": "South African police arrest two Thai men for allegedly smugg",
         "provider": "RocketNews | Top News Stories From Around the Globe",
@@ -6995,17 +7258,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · AWS Machine Learning",
         "url": "https://aws.amazon.com/blogs/machine-learning/building-a-restaurant-telephony-ai-host-with-amazon-connect/"
-      },
-      {
-        "name": "AIxC's RoboShare Secures New Short- and Long-Term Orders, Pl",
-        "provider": "Barchart.com",
-        "type": "AI 项目/工具",
-        "bestFor": "All information and data in this article is solely for informational purposes. For more information please view the Barchart Disclosure Policy here\n\nInitial poo",
-        "description": "All information and data in this article is solely for informational purposes. For more information please view the Barchart Disclosure Policy here\n\nInitial pool of more than 80 ro",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Barchart.com",
-        "url": "https://www.barchart.com/story/news/4000661/aixc-s-roboshare-secures-new-short-and-long-term-orders-plans-to-build-north-america-s-largest-and-most-diverse-robot-sharing-platform"
       }
     ],
     "ai-business": [
@@ -10621,8 +10873,8 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-08-28",
-    "generatedAt": "2026-08-27T16:10:02.461204Z",
-    "total": 10,
+    "generatedAt": "2026-08-27T18:34:57.302729Z",
+    "total": 19,
     "sections": [
       {
         "category": "ai-coding",
@@ -10657,6 +10909,17 @@ window.AI_GENERATED_DATA = {
         "label": "Agent / MCP",
         "items": [
           {
+            "title": "Previewing the Model Hardware Standard Announcements Aug 27, 2026 We’re opening a research preview of the Model Hardware",
+            "summary": "Previewing the Model Hardware Standard Announcements Aug 27, 2026 We’re opening a research preview of the Model Hardware Standard (MHS), a s",
+            "source": "HTML · Anthropic",
+            "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-27",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
             "title": "Evaluate any agent framework with Amazon Bedrock AgentCore Evaluations",
             "summary": "Amazon Bedrock AgentCore Evaluations decouples agent evaluation from the framework you build on. As long as your agent emits OpenTelemetry t",
             "source": "RSS · AWS Machine Learning",
@@ -10684,6 +10947,83 @@ window.AI_GENERATED_DATA = {
         "category": "ai-models",
         "label": "模型发布",
         "items": [
+          {
+            "title": "Planetary prediction engine: Automating global models via Earth AI",
+            "summary": "Earth AI",
+            "source": "RSS · Google Research",
+            "url": "https://research.google/blog/planetary-prediction-engine-automating-global-models-via-earth-ai/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-28",
+            "publishedAt": "2026-08-28T01:37",
+            "reason": ""
+          },
+          {
+            "title": "3 new ways to plan and book travel in Search",
+            "summary": "Book hotels and track airfares, plus view miles and rewards with AI Mode in Google Search.",
+            "source": "RSS · Google AI Blog",
+            "url": "https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-28",
+            "publishedAt": "2026-08-28T00:00",
+            "reason": ""
+          },
+          {
+            "title": "Reduce ASR inference costs by 75% with NVIDIA MPS on Amazon EC2",
+            "summary": "Serving automatic speech recognition (ASR) models at scale is costly when each request uses only a fraction of a GPU. Learn how NVIDIA CUDA ",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/reduce-asr-inference-costs-by-75-with-nvidia-mps-on-amazon-ec2/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-28",
+            "publishedAt": "2026-08-28T00:05",
+            "reason": ""
+          },
+          {
+            "title": "Deepgram deepens Amazon SageMaker AI observability with Enhanced Metrics",
+            "summary": "Self-hosted speech AI carries an observability trade-off: the numbers that drive capacity planning and cost management stay locked inside th",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/deepgram-deepens-amazon-sagemaker-ai-observability-with-enhanced-metrics/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-28",
+            "publishedAt": "2026-08-28T00:11",
+            "reason": ""
+          },
+          {
+            "title": "Gemini Omni 1.1 Flash lets you build with more control",
+            "summary": "",
+            "source": "RSS · Google DeepMind",
+            "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
+            "score": 70,
+            "sourceCount": 2,
+            "date": "2026-08-28",
+            "publishedAt": "2026-08-28T00:11",
+            "reason": ""
+          },
+          {
+            "title": "Piloting the world's first double-blind AI evaluations",
+            "summary": "Piloting the world's first double-blind AI evaluations",
+            "source": "RSS · Google DeepMind",
+            "url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-27",
+            "publishedAt": "2026-08-27T20:59",
+            "reason": ""
+          },
+          {
+            "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
+            "summary": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world uni",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-27",
+            "publishedAt": "2026-08-27T17:00",
+            "reason": ""
+          },
           {
             "title": "GlucoFM: Foundation model for continuous glucose monitoring",
             "summary": "Health & Bioscience",
@@ -10752,6 +11092,17 @@ window.AI_GENERATED_DATA = {
         "label": "行业商业",
         "items": [
           {
+            "title": "Expanding OpenAI’s presence in Brazil",
+            "summary": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across ",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/expanding-our-presence-in-brazil",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-27",
+            "publishedAt": "2026-08-27T11:00",
+            "reason": ""
+          },
+          {
             "title": "How GoDaddy transformed its analytics with Amazon Quick",
             "summary": "In this post, you will learn how GoDaddy migrated from their legacy business intelligence (BI) tool to Amazon Quick. This was a two-year tra",
             "source": "RSS · AWS Machine Learning",
@@ -10767,6 +11118,153 @@ window.AI_GENERATED_DATA = {
     ]
   },
   "dailyReports": [
+    {
+      "date": "2026-08-27",
+      "generatedAt": "2026-08-27T16:11:07.873950Z",
+      "total": 10,
+      "sections": [
+        {
+          "category": "ai-coding",
+          "label": "AI 编程",
+          "items": [
+            {
+              "title": "Anthropic 开放 Claude 真实使用数据供外部独立研究，公布试点结果",
+              "summary": "Anthropic 今年春季启动试点，通过隐私保护工具 Anthropic Insights（原 Clio）向斯坦福大学 SALT Lab、牛津大学人类信息处理实验室及 METR 三个外部机构开放约 25 万段 2026 年 4-5 月的 Claude.ai 或 Claude C",
+              "source": "Anthropic：Research（发表成果 · 网页）",
+              "url": "https://www.anthropic.com/research/enabling-independent-research",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-27",
+              "publishedAt": "2026-08-27T01:30",
+              "reason": ""
+            },
+            {
+              "title": "Bring your own model with Amazon SageMaker AI: Script mode in SDK v3",
+              "summary": "The SageMaker Python SDK v3 redesigns script mode with unified ModelTrainer and ModelBuilder classes. This post walks through two end-to-end",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/bring-your-own-model-with-amazon-sagemaker-ai-script-mode-in-sdk-v3/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-27",
+              "publishedAt": "2026-08-27T00:31",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-agents",
+          "label": "Agent / MCP",
+          "items": [
+            {
+              "title": "Evaluate any agent framework with Amazon Bedrock AgentCore Evaluations",
+              "summary": "Amazon Bedrock AgentCore Evaluations decouples agent evaluation from the framework you build on. As long as your agent emits OpenTelemetry t",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/evaluate-any-agent-framework-with-amazon-bedrock-agentcore-evaluations/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-27",
+              "publishedAt": "2026-08-27T03:13",
+              "reason": ""
+            },
+            {
+              "title": "Natera’s intelligent appointment scheduling with Amazon Bedrock AgentCore",
+              "summary": "Learn how Natera built an automated voice agent on Amazon Bedrock AgentCore that lets patients book mobile phlebotomy appointments through n",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/nateras-intelligent-appointment-scheduling-with-amazon-bedrock-agentcore/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-27",
+              "publishedAt": "2026-08-27T00:36",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-models",
+          "label": "模型发布",
+          "items": [
+            {
+              "title": "GlucoFM: Foundation model for continuous glucose monitoring",
+              "summary": "Health & Bioscience",
+              "source": "RSS · Google Research",
+              "url": "https://research.google/blog/glucofm-foundation-model-for-continuous-glucose-monitoring/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-27",
+              "publishedAt": "2026-08-27T02:42",
+              "reason": ""
+            },
+            {
+              "title": "When LLM judges agree, should we believe them?",
+              "summary": "Discounting the opinions of LLM judges with highly correlated outputs ensures that panels of judges reflect a true diversity of perspectives",
+              "source": "RSS · Amazon Science",
+              "url": "https://www.amazon.science/blog/when-llm-judges-agree-should-we-believe-them",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-27",
+              "publishedAt": "2026-08-27T01:10",
+              "reason": ""
+            },
+            {
+              "title": "Intelligent transcription with Gemini 3.5 Transcribe",
+              "summary": "Now you can get more intelligent speech-to-text transcription with Gemini 3.5 Transcribe.",
+              "source": "RSS · Google DeepMind",
+              "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
+              "score": 70,
+              "sourceCount": 2,
+              "date": "2026-08-27",
+              "publishedAt": "2026-08-27T01:01",
+              "reason": ""
+            },
+            {
+              "title": "Preparing data for supervised fine-tuning Part 1: Formatting and quality",
+              "summary": "Data preparation determines the ceiling of any supervised fine-tuning project. This first post in a two-part series covers the foundations o",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/preparing-data-for-supervised-fine-tuning-part-1-formatting-and-quality/",
+              "score": 70,
+              "sourceCount": 2,
+              "date": "2026-08-27",
+              "publishedAt": "2026-08-27T00:24",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-research",
+          "label": "论文研究",
+          "items": [
+            {
+              "title": "GlucoFM：面向连续血糖监测的基础模型",
+              "summary": "Google Research 推出 GlucoFM，一款轻量级自监督 CGM 基础模型，采用双流设计分别建模缓慢血糖趋势与短期波动。在四个队列、七项临床预测任务的 14 项评估中，其 PR-AUC 较最优 GluFormer 变体平均高出 5.8 个百分点，并在 PPGR 预测",
+              "source": "Google Research：Blog（网页）",
+              "url": "https://research.google/blog/glucofm-foundation-model-for-continuous-glucose-monitoring",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-27",
+              "publishedAt": "2026-08-27T04:10",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-business",
+          "label": "行业商业",
+          "items": [
+            {
+              "title": "How GoDaddy transformed its analytics with Amazon Quick",
+              "summary": "In this post, you will learn how GoDaddy migrated from their legacy business intelligence (BI) tool to Amazon Quick. This was a two-year tra",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/how-godaddy-transformed-its-analytics-with-amazon-quick/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-27",
+              "publishedAt": "2026-08-27T00:51",
+              "reason": ""
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-26",
       "generatedAt": "2026-08-26T16:00:45.783895Z",
@@ -22377,278 +22875,10 @@ window.AI_GENERATED_DATA = {
           ]
         }
       ]
-    },
-    {
-      "date": "2026-06-23",
-      "generatedAt": "2026-06-23T16:18:43.596774Z",
-      "total": 21,
-      "sections": [
-        {
-          "category": "ai-tools",
-          "label": "AI 工具",
-          "items": [
-            {
-              "title": "Omio 利用 OpenAI 构建未来对话式旅行体验",
-              "summary": "Omio 正在通过 OpenAI 提升对话式旅行体验，加速产品开发，并转型为 AI 原生公司。该公司利用先进的 AI 技术，优化用户与旅行服务之间的互动，提供更个性化的服务。",
-              "source": "RSS · OpenAI Blog",
-              "url": "https://openai.com/index/omio",
-              "score": 77,
-              "sourceCount": 1,
-              "date": "2026-06-23",
-              "publishedAt": "2026-06-23T08:00",
-              "reason": "Omio 的转型展示了 AI 在旅行行业的应用潜力，值得关注其未来发展。"
-            },
-            {
-              "title": "Unlimited OCR 实现单次长时域解析",
-              "summary": "Unlimited OCR 是一个托管在 GitHub 的项目，专注于单次长时域解析（One-Shot Long-Horizon Parsing），能够一次性处理长时间跨度的 OCR 任务。该项目的模型已在 ModelScope 上发布，并支持多种图像解析配置。",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://github.com/baidu/Unlimited-OCR",
-              "score": 69,
-              "sourceCount": 1,
-              "date": "2026-06-23",
-              "publishedAt": "2026-06-23T21:32",
-              "reason": "Unlimited OCR 的推出为长时域文档解析提供了新的解决方案，具有广泛的应用潜力，值得关注。"
-            },
-            {
-              "title": "网易有道推出 Confucius4-TTS：首个支持 14 种语言的无口音语音克隆模型",
-              "summary": "网易有道于 2023 年 6 月 23 日发布了 Confucius4-TTS，这是业内首个支持 14 种语言的跨语种无口音语音克隆开源模型。用户只需提供 3 秒音频，即可实现音色克隆，克隆音色与原声相似度超过 85%，任务准确度达 97%。该模型的创新在于音频 Prompt 情",
-              "source": "IT之家（RSS）",
-              "url": "https://www.ithome.com/0/967/636.htm",
-              "score": 68,
-              "sourceCount": 1,
-              "date": "2026-06-23",
-              "publishedAt": "2026-06-23T19:00",
-              "reason": "Confucius4-TTS 的发布为语音合成领域带来了革命性的技术突破，尤其是在跨语种无口音克隆和情感迁移方面，值得关注。"
-            },
-            {
-              "title": "Hugging Face 每周发布 huggingface_hub，流程全自动化",
-              "summary": "我注意到 Hugging Face 将 huggingface_hub 的发布周期缩短至每周，完全依赖一个 GitHub Actions 工作流来自动化处理。这个流程结合了开源工具和 Z.ai 的 GLM-5.2 模型来生成发布说明和 Slack 公告，但仍然保留了人类在最终审核",
-              "source": "Hugging Face：Blog（RSS）",
-              "url": "https://huggingface.co/blog/huggingface-hub-release-ci",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-06-23",
-              "publishedAt": "2026-06-23T08:00",
-              "reason": "这条信息展示了 Hugging Face 在发布流程上的创新，值得关注其对开源社区的影响。"
-            },
-            {
-              "title": "美国警长滥用Flock系统跟踪前女友，法务官承认滥用普遍",
-              "summary": "我注意到，伊利诺伊州Holiday Hills的警察局长因利用Flock车牌读取系统跟踪前女友而被捕。这一事件揭示了执法人员滥用监控技术的严重性，Flock的法务官也承认这是最常见的滥用情况。全美已有多起类似案例，显示出这一问题的普遍性。",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://ipvm.com/reports/police-chiefs-track",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-06-23",
-              "publishedAt": "2026-06-23T05:32",
-              "reason": "这条信息揭示了监控技术在执法中的滥用现象，值得关注和反思，尤其是在个人隐私保护日益重要的今天。"
-            },
-            {
-              "title": "Claude Desktop 完整体验现已支持 AWS、Google Cloud 和 Microsoft Foundry",
-              "summary": "Claude Desktop 现已通过 AWS、Google Cloud 和 Microsoft Foundry 提供完整的桌面体验，包括 Chat、Claude Cowork 和 Claude Code。IT 团队可以在本地云环境中保留推理，支持多种身份验证方式，并提供离线安装",
-              "source": "Claude：Blog（网页）",
-              "url": "https://claude.com/blog/the-full-claude-desktop-experience-on-aws-google-cloud-and-microsoft-foundry",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-06-23",
-              "publishedAt": "2026-06-23T05:19",
-              "reason": "Claude Desktop 的多功能整合和灵活的部署选项，使其成为企业数字化转型的理想选择，值得关注。"
-            },
-            {
-              "title": "Google DeepMind 向 A24 投资 7500 万美元，共同开发电影 AI 工具",
-              "summary": "2026 年 6 月 22 日，Google DeepMind 宣布向独立电影制片厂 A24 投资 7500 万美元，双方将合作开发电影制作 AI 工具。A24 以《万事俱备》《后室》等影片闻名，Google DeepMind CEO Demis Hassabis 表示希望通过与",
-              "source": "TechCrunch：AI（RSS）",
-              "url": "https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-06-23",
-              "publishedAt": "2026-06-23T02:49",
-              "reason": "这一投资不仅展示了科技与艺术的结合潜力，也为电影行业的未来发展提供了新的视角，值得关注。"
-            },
-            {
-              "title": "火山引擎发布豆包音频生成模型1.0，革新音频创作方式",
-              "summary": "火山引擎于近期推出豆包音频生成模型1.0（Doubao-Seed-Audio 1.0），该模型支持文本与音频参考生成，能够端到端输出目标音频。其显著特点包括支持多角色对白编排、情绪语气调节及环境氛围设置，且在长时生成中保持音色一致性，无需后期混音。",
-              "source": "公众号：火山引擎",
-              "url": "https://mp.weixin.qq.com/s/iL0uyUjOMUEfudeuDP6wQQ",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-06-23",
-              "publishedAt": "2026-06-23T13:41",
-              "reason": "豆包音频生成模型1.0以其创新的多模态输入和高效的生成能力，重新定义了音频创作的可能性，值得关注。"
-            },
-            {
-              "title": "东京 Sakana AI 发布多智能体编排系统 Fugu",
-              "summary": "Sakana AI 于2023年在东京成立，推出的多智能体编排系统 Sakana Fugu 通过单个 API 调用，自动拆解任务并调度全球模型，性能对标 Fable/Mythos。该系统旨在提升日本 AI 主权，避免单一供应商的出口管制风险。",
-              "source": "X：Berry Xia (@berryxia)",
-              "url": "https://x.com/berryxia/status/2069090959938466298",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-06-23",
-              "publishedAt": "2026-06-23T00:11",
-              "reason": "Sakana Fugu 的推出标志着多智能体技术的商业化进程，具有重要的市场潜力和技术创新价值。"
-            },
-            {
-              "title": "Deloitte 报告揭示企业 AI 治理现状与挑战",
-              "summary": "Deloitte 的最新报告指出，企业在 AI 应用的抱负与治理成熟度之间存在 53 个百分点的差距。尽管 74% 的企业计划在未来两年内部署智能体 AI，但仅有 21% 拥有成熟的治理模型。路由架构被视为治理的首个层级，提供了不同的治理能力。",
-              "source": "OpenRouter：Announcements（RSS）",
-              "url": "https://openrouter.ai/blog/insights/ai-governance-checklist",
-              "score": 63,
-              "sourceCount": 1,
-              "date": "2026-06-23",
-              "publishedAt": "2026-06-23T03:00",
-              "reason": "Deloitte 报告提供了关于企业 AI 治理现状的深刻洞察，揭示了治理成熟度与应用抱负之间的显著差距，值得关注。"
-            },
-            {
-              "title": "Mistral OCR 4 发布，新增多项功能与优化",
-              "summary": "Mistral AI 最新发布的 OCR 4 引入了边界框、块分类和逐页逐词的置信度分数，支持 170 种语言和 10 个语系。尽管在 OlmOCRBench 上得分 85.20，独立标注者偏好率为 72%，但仍存在一些局限性。定价为每 1000 页 $4，Batch API 提",
-              "source": "Mistral AI：News（网页）",
-              "url": "https://mistral.ai/news/ocr-4",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-06-23",
-              "publishedAt": "2026-06-23T22:24",
-              "reason": "Mistral OCR 4 的多功能性和高效性使其在文档处理领域具备显著的竞争优势，值得关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-coding",
-          "label": "AI 编程",
-          "items": [
-            {
-              "title": "Google Labs 提出新评估方法提升 AI 编码智能体主动性",
-              "summary": "Google Labs 最近提出了一种新方法，通过\"洞察策略\"评估 AI 编码智能体的主动性，而非仅依赖任务完成度。基于 705 个内部代码库的 bug 数据，初步实验显示，Jules 在单轮探索中的相关性评分平均为 4.5/5，探索预算从两轮增加到三轮时，Hit@5 准确率显著",
-              "source": "Google Developers Blog（RSS）",
-              "url": "https://developers.googleblog.com/measuring-what-matters-with-jules",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-06-23",
-              "publishedAt": "2026-06-23T00:08",
-              "reason": "Google Labs 的新评估方法为 AI 编码智能体的主动性提供了全新的视角，具有重要的行业意义和应用潜力。"
-            },
-            {
-              "title": "Oak：为 AI 智能体量身定制的 Git 替代方案",
-              "summary": "我注意到，Oak 是一个开源的版本控制系统，专为 AI 智能体（如 Claude Code、Codex 和 Cursor）设计。它采用了 BLAKE3 内容哈希和内容定义分块等技术，支持快速的 diff/merge 操作，速度远超传统的 Git。最新版本 v0.99.0 已经发布",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://oak.space/oak/oak",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-06-23",
-              "publishedAt": "2026-06-23T05:00",
-              "reason": "Oak 作为专为 AI 设计的版本控制工具，提供了显著的性能提升和灵活性，值得关注和尝试。"
-            }
-          ]
-        },
-        {
-          "category": "ai-image-video",
-          "label": "图像视频",
-          "items": [
-            {
-              "title": "Aleph 2.0 集成 Figma Weave 提升视频编辑效率",
-              "summary": "Aleph 2.0 是 Runway 的最新旗舰视频编辑模型，现已在 Figma Weave 中上线，支持用户通过关键帧对视频进行高效编辑。用户只需提取一帧并重新设计，即可将该编辑应用于视频中的每一帧，保持其他内容不变。该模型支持最长 30 秒、1080p 的片段，能够跨多镜头序",
-              "source": "Runway：News（网页）",
-              "url": "https://runwayml.com/news/aleph-2-in-figma-weave",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-06-23",
-              "publishedAt": "2026-06-23T07:18",
-              "reason": "Aleph 2.0 的关键帧编辑功能为视频创作者提供了前所未有的灵活性，值得关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-agents",
-          "label": "Agent / MCP",
-          "items": [
-            {
-              "title": "字节Seed2.1发布，提升AI生产力与多模态理解能力",
-              "summary": "字节跳动正式推出Seed2.1系列，专注于提升AI在真实生产力场景中的应用能力。新版本强化了通用Agent能力、代码交付和多模态理解，Seed2.1 Pro在多个基准测试中表现优异，尤其在GDPval和MobileWorld任务中取得最高分，展示了其在复杂任务处理上的可靠性和稳定",
-              "source": "字节 Seed：Research Feed（网页内嵌数据）",
-              "url": "https://seed.bytedance.com/zh/blog/seed2-1-%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83-%E6%B7%B1%E5%85%A5-ai-%E7%94%9F%E4%BA%A7%E5%8A%9B",
-              "score": 67,
-              "sourceCount": 1,
-              "date": "2026-06-23",
-              "publishedAt": "2026-06-23T08:02",
-              "reason": "Seed2.1凭借其在多模态理解和代码交付上的显著提升，值得关注，尤其适合需要高效处理复杂任务的用户。"
-            },
-            {
-              "title": "千问高考志愿AI测评报告发布，表现超越资深咨询师",
-              "summary": "友松实验室推出国内首个高考志愿AI能力测评，千问高考志愿填报Agent在四大模块中表现优异。与53位平均从业4.6年的咨询师对比，千问在44道事实题中全对，模拟志愿录取率达到60%。在100场匿名对比中，专家58次倾向千问的回答。此外，使用千问后，咨询师的正确率提升，耗时减少约2",
-              "source": "公众号：千问APP（阿里）",
-              "url": "https://mp.weixin.qq.com/s/oGHVP4MgGS1rbmT8s8St8Q",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-06-23",
-              "publishedAt": "2026-06-23T18:54",
-              "reason": "千问高考志愿AI测评报告的发布，标志着教育领域AI应用的重大进展，值得关注。"
-            },
-            {
-              "title": "使用 Google ADK 和 A2A 协议构建跨语言多智能体团队",
-              "summary": "本文介绍如何利用 Google Agent Development Kit（ADK）和 Agent2Agent（A2A）协议，构建一个跨语言的多智能体流水线。通过 Python agent 提取合同条款，并使用 Go agent 校验合规性，展示了如何实现不同语言间的高效协作。文",
-              "source": "Google Developers Blog（RSS）",
-              "url": "https://developers.googleblog.com/build-cross-language-multi-agent-team-with-google-agent-development-kit-and-a2a",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-06-23",
-              "publishedAt": "2026-06-23T01:08",
-              "reason": "这篇文章提供了实用的跨语言多智能体构建方案，适合希望提升系统协作效率的开发者参考。"
-            },
-            {
-              "title": "IBM 开源 CUGA：轻量级智能体框架与示例应用",
-              "summary": "IBM 最近推出了 CUGA（Configurable Generalist Agent），一个轻量级智能体框架，旨在简化智能体应用的开发。开发者只需提供工具列表和提示词，即可快速构建 CugaAgent。CUGA 内置计划-执行-反思循环，在多个基准测试中表现优异，支持多种推理",
-              "source": "Hugging Face：Blog（RSS）",
-              "url": "https://huggingface.co/blog/ibm-research/cuga-apps",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-06-23",
-              "publishedAt": "2026-06-23T20:51",
-              "reason": "CUGA 提供了一种高效、灵活的智能体开发方式，尤其适合希望快速构建应用的开发者，值得关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-models",
-          "label": "模型发布",
-          "items": [
-            {
-              "title": "京东开源JoyAI-VL-Interaction全栈交互模型",
-              "summary": "京东近日推出全球首个全栈交互模型JoyAI-VL-Interaction，支持视频流实时观察与事件判断，具备高达100%的监控预警胜率。该模型在58个真人盲评中，胜率分别为77.6%和87.9%。开源内容包括模型权重、交互数据集及完整系统，适用于安防监控、老人看护等场景。",
-              "source": "公众号：京东JoyAI",
-              "url": "https://mp.weixin.qq.com/s/IY6XGp4k6VgD9ZPH6YprCA",
-              "score": 68,
-              "sourceCount": 1,
-              "date": "2026-06-23",
-              "publishedAt": "2026-06-23T14:04",
-              "reason": "该模型的开源特性和高效能使其在多个实时应用场景中具备独特价值，值得关注。"
-            },
-            {
-              "title": "五眼联盟警告AI网络威胁将影响普通用户",
-              "summary": "2026年6月22日，五眼联盟网络安全部门联合发布警告，指出即将推出的AI模型（如OpenAI的GPT-5.5-Cyber和Anthropic的Mythos）将显著降低编写复杂攻击代码的门槛，普通用户面临更大的网络安全风险。AI驱动的超个性化钓鱼诈骗在亚太地区迅速蔓延，印度的勒索",
-              "source": "Artificial Intelligence News（RSS）",
-              "url": "https://www.artificialintelligence-news.com/news/five-eyes-warning-ai-cyber-threats",
-              "score": 67,
-              "sourceCount": 1,
-              "date": "2026-06-23",
-              "publishedAt": "2026-06-23T16:00",
-              "reason": "五眼联盟的警告揭示了AI技术在网络安全领域的双刃剑特性，值得关注其对普通用户的潜在影响。"
-            },
-            {
-              "title": "火山引擎发布Doubao-Seed-2.1系列，AI能力再升级",
-              "summary": "火山引擎在FORCE大会上推出了Doubao-Seed-2.1系列，包括Doubao-Seed-2.1-pro和Doubao-Seed-2.1-turbo，具备接近Opus 4.7的编码能力，Agent功能显著提升，且在多模态视觉理解方面表现优异。该系列支持256k上下文，价格为",
-              "source": "公众号：数字生命卡兹克",
-              "url": "https://mp.weixin.qq.com/s/p10dn6zpSR4D5u9BOF9FeQ",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-06-23",
-              "publishedAt": "2026-06-23T12:14",
-              "reason": "火山引擎的Doubao-Seed-2.1系列在编码能力和多模态理解上均有显著提升，适合需要高效处理文本和视频的用户，值得关注。"
-            }
-          ]
-        }
-      ]
     }
   ],
   "llmLeaderboard": {
-    "updated": "2026-08-27",
+    "updated": "2026-08-28",
     "source": "ReLE 中文大模型能力评测（综合能力）",
     "sourceUrl": "https://github.com/jeinlee1991/chinese-llm-benchmark",
     "items": [
