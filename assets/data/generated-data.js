@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
-  "lastUpdated": "2026-08-27",
-  "generatedAt": "2026-08-27T14:53:36.741359Z",
+  "lastUpdated": "2026-08-28",
+  "generatedAt": "2026-08-27T16:10:02.485200Z",
   "news": [
     {
       "title": "GlucoFM：面向连续血糖监测的基础模型",
@@ -7010,6 +7010,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-business": [
       {
+        "name": "avid to showcase new version of media composer at ibc as cri",
+        "provider": "NewscastStudio",
+        "type": "AI 项目/工具",
+        "bestFor": "Weekly insights on the technology, production and business decisions shaping media and broadcast. Free to access. Independent coverage. Unsubscribe anytime.\n\nAv",
+        "description": "Weekly insights on the technology, production and business decisions shaping media and broadcast. Free to access. Independent coverage. Unsubscribe anytime.\n\nAvid will introduce th",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewscastStudio",
+        "url": "https://www.newscaststudio.com/2026/08/27/avid-media-composer-20068/?og=1"
+      },
+      {
         "name": "BABA ALERT: Alibaba Group Holding Limited (NYSE: BABA) Inves",
         "provider": "The Star Phoenix",
         "type": "AI 项目/工具",
@@ -7513,17 +7524,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "NewsAPI:artificial intelligence",
         "url": "https://biztoc.com/x/d97d196aaaaecbc4"
-      },
-      {
-        "name": "Sabre Insurance Group H1 Earnings Call Highlights",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "Sabre Insurance Group (LON:SBRE) reported higher first-half premium income and said it remains confident that full-year profit will exceed the 2025 result, d...",
-        "description": "Sabre Insurance Group (LON:SBRE) reported higher first-half premium income and said it remains confident that full-year profit will exceed the 2025 result, d...",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsAPI:artificial intelligence",
-        "url": "https://www.marketbeat.com/instant-alerts/sabre-insurance-group-h1-earnings-call-highlights-2026-08-04/?utm_source=yahoofinance&amp;utm_medium=yahoofinance"
       }
     ],
     "ai-benchmark": [
@@ -10620,9 +10620,9 @@ window.AI_GENERATED_DATA = {
     }
   ],
   "dailyReport": {
-    "date": "2026-08-27",
-    "generatedAt": "2026-08-27T14:53:36.704389Z",
-    "total": 38,
+    "date": "2026-08-28",
+    "generatedAt": "2026-08-27T16:10:02.461204Z",
+    "total": 10,
     "sections": [
       {
         "category": "ai-coding",
@@ -10648,111 +10648,6 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-08-27",
             "publishedAt": "2026-08-27T00:31",
-            "reason": ""
-          },
-          {
-            "title": "RTLGuard: A Lightweight Teacher-Student Defense for Poisoned RTL Code Generation Models",
-            "summary": "The rapid advancement of large language models (LLMs) is driving a shift toward automated register transfer level (RTL) code generation, ena",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.26049v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-26",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "A Self-Evolving Multi-Agent Framework Defense against LLM Jailbreak Attacks",
-            "summary": "Large language models (LLMs) remain vulnerable to jailbreak attacks that exploit techniques such as role-playing, obfuscation, code transfor",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.26008v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-26",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "LLM Agents Perform Controlled Experiments Using Simulation Models",
-            "summary": "arXiv:2608.23622v1 Announce Type: new Abstract: Large language models (LLMs) have shown strong capabilities in reasoning, planning, and tool",
-            "source": "RSS · arXiv cs.AI",
-            "url": "https://arxiv.org/abs/2608.23622",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-26",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Function-Level Execution Feedback for Code Preference Optimization",
-            "summary": "arXiv:2608.23632v1 Announce Type: new Abstract: Process supervision has improved mathematical reasoning, where intermediate steps are natura",
-            "source": "RSS · arXiv cs.AI",
-            "url": "https://arxiv.org/abs/2608.23632",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-26",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "How loveholidays is making everyone a builder with Codex",
-            "summary": "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into produ",
-            "source": "RSS · OpenAI Blog",
-            "url": "https://openai.com/index/loveholidays",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-26",
-            "publishedAt": "2026-08-26T08:00",
-            "reason": ""
-          },
-          {
-            "title": "Connect Amazon Bedrock AgentCore to cross-account knowledge bases",
-            "summary": "Learn how Amazon Bedrock AgentCore agents in one account can generate answers from an Amazon Bedrock knowledge base backed by Amazon Redshif",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/connect-amazon-bedrock-agentcore-to-cross-account-knowledge-bases/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-26",
-            "publishedAt": "2026-08-26T23:48",
-            "reason": ""
-          }
-        ]
-      },
-      {
-        "category": "ai-image-video",
-        "label": "图像视频",
-        "items": [
-          {
-            "title": "A survey detection channel overrides the pixels in an astronomical foundation model, and biases tomographic mean redshifts",
-            "summary": "arXiv:2608.23626v1 Announce Type: new Abstract: Foundation models for astronomy are trained on survey pixels together with the catalogue pro",
-            "source": "RSS · arXiv cs.AI",
-            "url": "https://arxiv.org/abs/2608.23626",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-26",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization",
-            "summary": "Zero-shot cross-task generalization, where a policy must execute manipulation tasks never seen during training, remains a central challenge ",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.26103v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-26",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Luce: Relightable Gaussians for 3D Asset Generation",
-            "summary": "High-fidelity image-to-3D generation requires a 3D representation that captures both geometry and appearance. To support relighting and inte",
-            "source": "RSS · Apple ML Research",
-            "url": "https://machinelearning.apple.com/research/relightable-gaussians-3d-generation",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-26",
-            "publishedAt": "2026-08-26T08:00",
             "reason": ""
           }
         ]
@@ -10781,72 +10676,6 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-08-27",
             "publishedAt": "2026-08-27T00:36",
-            "reason": ""
-          },
-          {
-            "title": "VISA: Agentic Self-Evolving Data Synthesis for Multimodal Instruction Following",
-            "summary": "Multimodal instruction-following models require training data that is accurate, diverse, verifiable, and challenging. Existing synthesis pip",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.26013v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-26",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "ProgRouter: Online Progress-Guided Orchestration for Multi-Agent LLM Workflows under Quality-Cost Tradeoffs",
-            "summary": "Multi-agent large language model (LLM) workflows have emerged as a powerful paradigm for solving complex, open-ended tasks through collabora",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.25992v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-26",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "TRACE: Transition-Aware Residual Control for Multi-Objective Materials Discovery",
-            "summary": "arXiv:2608.23631v1 Announce Type: new Abstract: Multi-objective materials discovery with LLM agents is often limited not only by how many ca",
-            "source": "RSS · arXiv cs.AI",
-            "url": "https://arxiv.org/abs/2608.23631",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-26",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "PROOF-Gen: From Optimized Data to Better Distillation",
-            "summary": "Supervised fine-tuning on teacher-generated trajectories is the standard first stage for distilling tool-calling capabilities into deployabl",
-            "source": "RSS · Apple ML Research",
-            "url": "https://machinelearning.apple.com/research/proof-gen-optimized-distillation",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-26",
-            "publishedAt": "2026-08-26T08:00",
-            "reason": ""
-          },
-          {
-            "title": "AgentHands: Generating interactive hand gestures for spatially grounded agent conversations in XR",
-            "summary": "Human-Computer Interaction and Visualization",
-            "source": "RSS · Google Research",
-            "url": "https://research.google/blog/agenthands-generating-interactive-hand-gestures-for-spatially-grounded-agent-conversations-in-xr/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-26",
-            "publishedAt": "2026-08-26T03:10",
-            "reason": ""
-          },
-          {
-            "title": "Agentic observability with Amazon OpenSearch Service MCP Apps",
-            "summary": "Amazon OpenSearch Service now supports MCP Apps, which return interactive visualizations alongside your AI agent's text responses. Learn how",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/agentic-observability-with-amazon-opensearch-service-mcp-apps/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-26",
-            "publishedAt": "2026-08-26T03:00",
             "reason": ""
           }
         ]
@@ -10898,122 +10727,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-08-27",
             "publishedAt": "2026-08-27T00:24",
             "reason": ""
-          },
-          {
-            "title": "Unveiling Spectral Mechanisms in Training-Free LLM Text Detection",
-            "summary": "The rapid advancement of Large Language Models (LLMs) makes it increasingly difficult to distinguish human writing from machine-generated te",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.25944v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-26",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Distinct dynamics of conceptual and referential disruptions in human reading and large language model processing",
-            "summary": "Linguistic meaning is grounded in conceptual content, from which reference to particular entities emerges as words enter discourse. To exami",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.25999v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-26",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Spectral Allocation: Why Muon Outperforms Adam, and How to Improve Muon",
-            "summary": "Orthogonal optimisers such as Muon can substantially accelerate large language model pretraining relative to Adam, yet the mechanism remains",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.25990v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-26",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Multi-Granularity Context-Enhanced RAG over Multimodal Knowledge Graphs",
-            "summary": "Retrieval-augmented generation (RAG) is widely used to mitigate hallucination issues in large language models (LLMs) and multimodal large la",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.25986v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-26",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Learning never stops: How AI makes learning continuous",
-            "summary": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the c",
-            "source": "RSS · OpenAI Blog",
-            "url": "https://openai.com/index/learning-never-stops",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-26",
-            "publishedAt": "2026-08-26T18:00",
-            "reason": ""
-          },
-          {
-            "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
-            "summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators ",
-            "source": "RSS · OpenAI Blog",
-            "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-26",
-            "publishedAt": "2026-08-26T18:00",
-            "reason": ""
-          },
-          {
-            "title": "What We Learned Trying to Catch AI Liars: An Aletheia's Quest Retrospective",
-            "summary": "What we learned while building black-box and white-box detectors for AI deception during Aletheia's Quest.",
-            "source": "RSS · EleutherAI",
-            "url": "https://blog.eleuther.ai/aletheia-retrospective/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-26",
-            "publishedAt": "2026-08-26T00:35",
-            "reason": ""
-          },
-          {
-            "title": "5 ways to upgrade your home decor with Google Search",
-            "summary": "Learn how to use Google Search tools to find home decor inspiration, shop for furniture, and tackle DIY projects.",
-            "source": "RSS · Google AI Blog",
-            "url": "https://blog.google/products-and-platforms/products/search/home-decor-tips/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-26",
-            "publishedAt": "2026-08-26T00:00",
-            "reason": ""
-          }
-        ]
-      },
-      {
-        "category": "ai-benchmark",
-        "label": "评测榜单",
-        "items": [
-          {
-            "title": "SciMIF: Understanding Multimodal Instruction Following in Scientific Domains",
-            "summary": "Understanding instruction-following capabilities in scientific domains is essential for effectively leveraging Multimodal Large Language Mod",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.25973v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-26",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "RENDER: Controlling Reader-Facing Evidence in LLM Memory Evaluation",
-            "summary": "arXiv:2608.23568v1 Announce Type: new Abstract: Memory and RAG evaluations often treat the answering model's input as an implementation deta",
-            "source": "RSS · arXiv cs.AI",
-            "url": "https://arxiv.org/abs/2608.23568",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-26",
-            "publishedAt": "",
-            "reason": ""
           }
         ]
       },
@@ -11030,39 +10743,6 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-08-27",
             "publishedAt": "2026-08-27T04:10",
-            "reason": ""
-          },
-          {
-            "title": "Bayesian Optimization for Self-Driving Materials Laboratories: From Algorithms to Physics-Informed Workflows",
-            "summary": "Self-driving laboratories (SDLs) are transforming materials research by closing the loop among synthesis, characterization, data analysis an",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.26016v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-26",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Auditing the Synthetic Memoir: Measuring Scene-Level Confabulation in LLM-Generated Autobiography Against the Documented Record of the Life It Describes",
-            "summary": "arXiv:2608.23640v1 Announce Type: new Abstract: When a large language model (LLM) is asked to write a person's life, how much of what it wri",
-            "source": "RSS · arXiv cs.AI",
-            "url": "https://arxiv.org/abs/2608.23640",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-26",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "How much of a measured AI preference is the model, and how much is the instrument?",
-            "summary": "arXiv:2608.23641v1 Announce Type: new Abstract: Model welfare research infers what a model prefers from the answers returned to prompts writ",
-            "source": "RSS · arXiv cs.AI",
-            "url": "https://arxiv.org/abs/2608.23641",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-26",
-            "publishedAt": "",
             "reason": ""
           }
         ]
