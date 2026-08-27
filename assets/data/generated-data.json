@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-08-27",
-  "generatedAt": "2026-08-27T02:08:11.100979Z",
+  "generatedAt": "2026-08-27T04:38:46.609468Z",
   "news": [
     {
       "title": "GlucoFM：面向连续血糖监测的基础模型",
@@ -288,6 +288,198 @@
           "title": "Preparing data for supervised fine-tuning Part 2: Advanced data strategies"
         }
       ]
+    },
+    {
+      "title": "LLM Agents Perform Controlled Experiments Using Simulation Models",
+      "summary": "arXiv:2608.23622v1 Announce Type: new Abstract: Large language models (LLMs) have shown strong capabilities in reasoning, planning, and tool use, but many scientific and engineerin",
+      "category": "ai-coding",
+      "source": "RSS · arXiv cs.AI",
+      "date": "2026-08-26",
+      "publishedAt": "",
+      "collectedAt": "2026-08-27T11:24",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-26",
+      "tags": [],
+      "url": "https://arxiv.org/abs/2608.23622",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Function-Level Execution Feedback for Code Preference Optimization",
+      "summary": "arXiv:2608.23632v1 Announce Type: new Abstract: Process supervision has improved mathematical reasoning, where intermediate steps are naturally expressed as chains of thought. In c",
+      "category": "ai-coding",
+      "source": "RSS · arXiv cs.AI",
+      "date": "2026-08-26",
+      "publishedAt": "",
+      "collectedAt": "2026-08-27T11:24",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-26",
+      "tags": [],
+      "url": "https://arxiv.org/abs/2608.23632",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "TRACE: Transition-Aware Residual Control for Multi-Objective Materials Discovery",
+      "summary": "arXiv:2608.23631v1 Announce Type: new Abstract: Multi-objective materials discovery with LLM agents is often limited not only by how many candidates can be proposed, but by how eff",
+      "category": "ai-agents",
+      "source": "RSS · arXiv cs.AI",
+      "date": "2026-08-26",
+      "publishedAt": "",
+      "collectedAt": "2026-08-27T11:24",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-26",
+      "tags": [],
+      "url": "https://arxiv.org/abs/2608.23631",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "A survey detection channel overrides the pixels in an astronomical foundation model, and biases tomographic mean redshifts",
+      "summary": "arXiv:2608.23626v1 Announce Type: new Abstract: Foundation models for astronomy are trained on survey pixels together with the catalogue products derived from those pixels. Those c",
+      "category": "ai-image-video",
+      "source": "RSS · arXiv cs.AI",
+      "date": "2026-08-26",
+      "publishedAt": "",
+      "collectedAt": "2026-08-27T11:24",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-26",
+      "tags": [],
+      "url": "https://arxiv.org/abs/2608.23626",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Auditing the Synthetic Memoir: Measuring Scene-Level Confabulation in LLM-Generated Autobiography Against the Documented Record of the Life It Describes",
+      "summary": "arXiv:2608.23640v1 Announce Type: new Abstract: When a large language model (LLM) is asked to write a person's life, how much of what it writes actually happened? We present a scen",
+      "category": "ai-research",
+      "source": "RSS · arXiv cs.AI",
+      "date": "2026-08-26",
+      "publishedAt": "",
+      "collectedAt": "2026-08-27T11:24",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-26",
+      "tags": [],
+      "url": "https://arxiv.org/abs/2608.23640",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "How much of a measured AI preference is the model, and how much is the instrument?",
+      "summary": "arXiv:2608.23641v1 Announce Type: new Abstract: Model welfare research infers what a model prefers from the answers returned to prompts written to elicit preferences. Keeling et al",
+      "category": "ai-research",
+      "source": "RSS · arXiv cs.AI",
+      "date": "2026-08-26",
+      "publishedAt": "",
+      "collectedAt": "2026-08-27T11:24",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-26",
+      "tags": [],
+      "url": "https://arxiv.org/abs/2608.23641",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization",
+      "summary": "Zero-shot cross-task generalization, where a policy must execute manipulation tasks never seen during training, remains a central challenge in robot learning. In large language mod",
+      "category": "ai-image-video",
+      "source": "arXiv",
+      "date": "2026-08-26",
+      "publishedAt": "",
+      "collectedAt": "2026-08-27T11:24",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-26",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.26103v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
     },
     {
       "title": "Luce: Relightable Gaussians for 3D Asset Generation",
@@ -2292,270 +2484,6 @@
       "aiSelected": true,
       "moduleTargets": [
         "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "OmniAssistBench: Assistant-style Interaction Benchmark for Omni-LLMs",
-      "summary": "Recent omni-modal large language models (Omni-LLMs) show great potential as real-time video assistants, which continuously perceive environments and guide users to achieve specific",
-      "category": "ai-benchmark",
-      "source": "arXiv",
-      "date": "2026-08-21",
-      "publishedAt": "",
-      "collectedAt": "2026-08-24T23:01",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-21",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.21360v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "benchmarkDatasets",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "SOP-Bench: A new benchmark for evaluating AI agents on real business procedures",
-      "summary": "Extendable framework enables testing agents on the full set of capabilities required to successfully complete a procedure, not isolated proxy tasks.",
-      "category": "ai-benchmark",
-      "source": "RSS · Amazon Science",
-      "date": "2026-08-21",
-      "publishedAt": "2026-08-21T23:57",
-      "collectedAt": "2026-08-24T17:58",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://www.amazon.science/blog/sop-bench-a-new-benchmark-for-evaluating-ai-agents-on-real-business-procedures",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "benchmarkDatasets",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Broadening access to Skala creates a faster path to predictive DFT",
-      "summary": "Skala 1.1, the updated deep-learning exchange-correlation functional from Microsoft Research, provides greater accuracy, expanded accessibility across the computational chemistry e",
-      "category": "ai-benchmark",
-      "source": "RSS · Microsoft Research",
-      "date": "2026-08-21",
-      "publishedAt": "2026-08-21T00:00",
-      "collectedAt": "2026-08-24T14:12",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://www.microsoft.com/en-us/research/blog/broadening-access-to-skala-creates-a-faster-path-to-predictive-dft/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
-      "summary": "Google DeepMind partners with game studios to prototype breakthrough AI gameplay.",
-      "category": "ai-research",
-      "source": "RSS · Google DeepMind",
-      "date": "2026-08-21",
-      "publishedAt": "2026-08-21T19:59",
-      "collectedAt": "2026-08-24T14:12",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "How mobility gives language models a deeper understanding of place",
-      "summary": "Algorithms & Theory",
-      "category": "ai-models",
-      "source": "RSS · Google Research",
-      "date": "2026-08-21",
-      "publishedAt": "2026-08-21T18:54",
-      "collectedAt": "2026-08-24T14:12",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://research.google/blog/how-mobility-gives-language-models-a-deeper-understanding-of-place/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Build a no-code ML workflow with Snowflake, Amazon SageMaker Canvas and Amazon Quick – Part 1: Setting up your Snowflake environment",
-      "summary": "Healthcare, retail, and life sciences teams store large volumes of operational data in Snowflake, but turning it into predictions is hard. In Part 1 of this series, you set up your",
-      "category": "ai-coding",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-08-21",
-      "publishedAt": "2026-08-21T05:23",
-      "collectedAt": "2026-08-24T14:12",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/build-a-no-code-ml-workflow-with-snowflake-amazon-sagemaker-canvas-and-amazon-quick-part-1-setting-up-your-snowflake-environment/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 3,
-      "relatedSources": [
-        {
-          "source": "RSS · AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/build-a-no-code-ml-workflow-with-snowflake-amazon-sagemaker-canvas-and-amazon-quick-part-2-data-preparation-and-model-building-with-amazon-sagemaker-canvas/",
-          "title": "Build a no-code ML workflow with Snowflake, Amazon SageMaker Canvas and Amazon Quick – Part 2: Data preparation and model building with Amazon SageMaker Canvas"
-        },
-        {
-          "source": "RSS · AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/build-a-no-code-ml-workflow-with-snowflake-amazon-sagemaker-canvas-and-amazon-quick-part-3-visualizing-insights-with-amazon-quick-sight/",
-          "title": "Build a no-code ML workflow with Snowflake, Amazon SageMaker Canvas and Amazon Quick – Part 3: Visualizing insights with Amazon Quick Sight"
-        }
-      ]
-    },
-    {
-      "title": "Introducing cross-Region inference for OpenAI GPT-5.6 models on Amazon Bedrock",
-      "summary": "Amazon Bedrock now offers OpenAI GPT-5.6 models (Sol, Terra, and Luna) in more than 25 AWS Regions with cross-Region inference. Learn how US geographic and global inference profile",
-      "category": "ai-models",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-08-21",
-      "publishedAt": "2026-08-21T05:46",
-      "collectedAt": "2026-08-24T14:12",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-cross-region-inference-for-openai-gpt-5-6-models-on-amazon-bedrock/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Amazon Bedrock AgentCore 支持域名和发布日期过滤",
-      "summary": "Amazon Bedrock AgentCore 现已推出运行时域名和发布日期过滤功能，允许开发者在每次请求中控制代理查询的网页来源及其新鲜度。这一更新还将 Web Search 扩展至欧洲（爱尔兰）和亚太（东京）地区，提升了用户体验。",
-      "category": "ai-agents",
-      "tags": [
-        "Amazon Bedrock",
-        "AgentCore",
-        "Web Search",
-        "过滤功能",
-        "AWS"
-      ],
-      "keyPoints": [
-        "Amazon Bedrock AgentCore 的 Web Search 现支持运行时域名过滤和发布日期过滤，版本号为 1.2.0。",
-        "开发者可以在每次调用中指定允许或拒绝的域名列表，最多支持 100 个域名。",
-        "发布日期过滤功能允许用户限制结果在特定日期范围内，使用 ISO-8601 UTC 格式。",
-        "新功能增强了企业治理，允许动态调整 API 调用的范围，提升了灵活性。",
-        "Web Search 现已扩展至 eu-west-1（都柏林）和 ap-northeast-1（东京）区域，降低了延迟。"
-      ],
-      "background": "Amazon Bedrock 是一个用于构建和优化 AI 代理的平台，AgentCore 是其核心组件。随着 AI 应用的普及，企业对信息来源的准确性和时效性要求越来越高。过去，AI 代理在查询时可能会引用不可靠或过时的信息，影响决策的准确性。此次更新的推出，正是为了满足金融服务、产品信息等领域对信息质量的严格要求。通过引入运行时过滤功能，企业能够更好地控制代理的查询行为，确保信息的可靠性和时效性。",
-      "impact": "这一更新将使金融服务、电子商务等行业的开发者能够更精准地控制信息来源，提升用户体验。企业在使用 AI 代理时，可以根据具体需求动态调整查询范围，避免引用不合适的信息。此外，区域扩展使得欧洲和亚太的客户能够更快地访问 Web Search，减少了数据传输的延迟，符合数据隐私法规的要求。整体来看，这一功能的推出将推动企业在 AI 应用中的合规性和效率。",
-      "audience": [
-        "金融服务开发者",
-        "电商平台技术人员",
-        "数据隐私合规专员"
-      ],
-      "useCases": [
-        "在金融服务中，使用域名过滤确保代理只查询经过验证的金融网站。",
-        "在电商平台上，利用发布日期过滤获取最新的产品库存信息。",
-        "为合规性要求高的企业配置区域性查询，确保数据不跨境传输。"
-      ],
-      "risks": [
-        "API 调用可能受到配额限制，影响大规模查询的效率。",
-        "域名过滤的配置错误可能导致重要信息被排除。",
-        "对于不熟悉新功能的开发者，初期使用可能存在学习曲线。"
-      ],
-      "reason": "这一更新显著提升了 AI 代理的信息查询能力，确保了信息的可靠性和时效性，值得关注。",
-      "scores": {
-        "importance": 85,
-        "novelty": 75,
-        "firsthand": 90,
-        "impact": 80,
-        "credibility": 85
-      },
-      "url": "https://aws.amazon.com/blogs/machine-learning/domain-and-publish-date-filters-for-web-search-on-agentcore/",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-08-20",
-      "publishedAt": "2026-08-20T06:13",
-      "collectedAt": "2026-08-20T06:58",
-      "dateStatus": "verified",
-      "tier": "T1",
-      "score": 82,
-      "aiSelected": true,
-      "_style": "observer",
-      "moduleTargets": [
-        "news",
-        "topicResources"
       ],
       "sourceCount": 1
     }
@@ -6223,6 +6151,28 @@
     ],
     "ai-agents": [
       {
+        "name": "LLM Agents Perform Controlled Experiments Using Simulation M",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "arXiv:2608.23622v1 Announce Type: new Abstract: Large language models (LLMs) have shown strong capabilities in reasoning, planning, and tool use, but many scien",
+        "description": "arXiv:2608.23622v1 Announce Type: new Abstract: Large language models (LLMs) have shown strong capabilities in reasoning, planning, and tool use, but many scientific and engineerin",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · arXiv cs.AI",
+        "url": "https://arxiv.org/abs/2608.23622"
+      },
+      {
+        "name": "TRACE: Transition-Aware Residual Control for Multi-Objective",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "arXiv:2608.23631v1 Announce Type: new Abstract: Multi-objective materials discovery with LLM agents is often limited not only by how many candidates can be prop",
+        "description": "arXiv:2608.23631v1 Announce Type: new Abstract: Multi-objective materials discovery with LLM agents is often limited not only by how many candidates can be proposed, but by how eff",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · arXiv cs.AI",
+        "url": "https://arxiv.org/abs/2608.23631"
+      },
+      {
         "name": "OpenAI explains how its naughty AI agents attacked Hugging F",
         "provider": "TheRegister.com",
         "type": "AI 项目/工具",
@@ -6639,31 +6589,20 @@
         "watch": "请打开原始来源核对",
         "sourceName": "조선일보",
         "url": "https://www.chosun.com/english/industry-en/2026/08/25/SUVRKMKNUFCC5DEPSPEJIHH6JM/"
-      },
-      {
-        "name": "Why Your Boss Wants to Make Sure AI Can Read Your Slack Mess",
-        "provider": "The Wall Street Journal",
-        "type": "AI 项目/工具",
-        "bestFor": "Executives are urging staff to use public Slack channels instead of private messages so AI agents can access the latest company information.View more\n\nLobbing a",
-        "description": "Executives are urging staff to use public Slack channels instead of private messages so AI agents can access the latest company information.View more\n\nLobbing a private Slack direc",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Wall Street Journal",
-        "url": "https://www.wsj.com/tech/ai/why-your-boss-wants-to-make-sure-ai-can-read-your-slack-messages-b6c149c1"
-      },
-      {
-        "name": "Agentic Resource Discovery (ARD): An open specification for ",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "AWS Agent Registry gives your organization a centralized, searchable catalog for agents, tools, and skills. It works with the open Agentic Resource Discovery (A",
-        "description": "AWS Agent Registry gives your organization a centralized, searchable catalog for agents, tools, and skills. It works with the open Agentic Resource Discovery (ARD) standard to enab",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/agentic-resource-discovery-ard-an-open-specification-for-agent-discovery/"
       }
     ],
     "ai-models": [
+      {
+        "name": "Canada is bolstering its defense industry as US relations fr",
+        "provider": "The Independent",
+        "type": "AI 项目/工具",
+        "bestFor": "As Canada moves to reduce its dependence on American military suppliers, the push is on display inside a Toronto garment factory.\n\nHunched over sewing machines,",
+        "description": "As Canada moves to reduce its dependence on American military suppliers, the push is on display inside a Toronto garment factory.\n\nHunched over sewing machines, two workers rapidly",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Independent",
+        "url": "https://www.independent.co.uk/news/canada-mark-carney-arctic-ceo-donald-trump-b3040062.html"
+      },
       {
         "name": "Bringing ChatGPT for Teachers to more U.S. school districts",
         "provider": "RSS",
@@ -7092,17 +7031,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Yahoo Sports",
         "url": "https://sports.yahoo.com/articles/asked-ai-predict-nfl-season-100703370.html"
-      },
-      {
-        "name": "NUS Libraries launches AI Sense Maker, a conversational plat",
-        "provider": "Frontier Enterprise",
-        "type": "AI 项目/工具",
-        "bestFor": "The National University of Singapore (NUS) has launched AI Sense Maker (ASM), becoming the first university in Southeast Asia to use conversational AI to transf",
-        "description": "The National University of Singapore (NUS) has launched AI Sense Maker (ASM), becoming the first university in Southeast Asia to use conversational AI to transform students and aca",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Frontier Enterprise",
-        "url": "https://www.frontier-enterprise.com/nus-libraries-launches-ai-sense-maker-a-conversational-platform-for-learning/"
       }
     ],
     "ai-business": [
@@ -8837,6 +8765,17 @@
     ],
     "ai-research": [
       {
+        "name": "Auditing the Synthetic Memoir: Measuring Scene-Level Confabu",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "arXiv:2608.23640v1 Announce Type: new Abstract: When a large language model (LLM) is asked to write a person's life, how much of what it writes actually happene",
+        "description": "arXiv:2608.23640v1 Announce Type: new Abstract: When a large language model (LLM) is asked to write a person's life, how much of what it writes actually happened? We present a scen",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · arXiv cs.AI",
+        "url": "https://arxiv.org/abs/2608.23640"
+      },
+      {
         "name": "PROOF-Gen: From Optimized Data to Better Distillation",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -9331,17 +9270,6 @@
         "watch": "API 的使用可能涉及费用和配额限制，需提前评估成本。",
         "sourceName": "字节 Seed：Research Feed（网页内嵌数据）",
         "url": "https://seed.bytedance.com/zh/blog/%E4%B8%80%E9%95%9C%E6%88%90%E7%89%87-%E9%9A%8F%E5%BF%83%E5%8F%82%E8%80%83-seedance-2-5-%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83"
-      },
-      {
-        "name": "AI scribes promise less paperwork but may introduce errors i",
-        "provider": "Currents",
-        "type": "AI 项目/工具",
-        "bestFor": "Visits to a new doctor, physical therapist or specialist often begin with: \"Do you mind if I use AI?\" According to Off the Record, a new report by Digital Right",
-        "description": "Visits to a new doctor, physical therapist or specialist often begin with: \"Do you mind if I use AI?\" According to Off the Record, a new report by Digital Rights Watch, more than 4",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Currents:large language model",
-        "url": "https://medicalxpress.com/news/2026-08-ai-scribes-paperwork-errors-patient.html"
       }
     ],
     "ai-office": []
@@ -10750,8 +10678,8 @@
   ],
   "dailyReport": {
     "date": "2026-08-27",
-    "generatedAt": "2026-08-27T02:08:11.046614Z",
-    "total": 22,
+    "generatedAt": "2026-08-27T04:38:46.585437Z",
+    "total": 29,
     "sections": [
       {
         "category": "ai-coding",
@@ -10777,6 +10705,28 @@
             "sourceCount": 1,
             "date": "2026-08-27",
             "publishedAt": "2026-08-27T00:31",
+            "reason": ""
+          },
+          {
+            "title": "LLM Agents Perform Controlled Experiments Using Simulation Models",
+            "summary": "arXiv:2608.23622v1 Announce Type: new Abstract: Large language models (LLMs) have shown strong capabilities in reasoning, planning, and tool",
+            "source": "RSS · arXiv cs.AI",
+            "url": "https://arxiv.org/abs/2608.23622",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-26",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Function-Level Execution Feedback for Code Preference Optimization",
+            "summary": "arXiv:2608.23632v1 Announce Type: new Abstract: Process supervision has improved mathematical reasoning, where intermediate steps are natura",
+            "source": "RSS · arXiv cs.AI",
+            "url": "https://arxiv.org/abs/2608.23632",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-26",
+            "publishedAt": "",
             "reason": ""
           },
           {
@@ -10807,6 +10757,28 @@
         "category": "ai-image-video",
         "label": "图像视频",
         "items": [
+          {
+            "title": "A survey detection channel overrides the pixels in an astronomical foundation model, and biases tomographic mean redshifts",
+            "summary": "arXiv:2608.23626v1 Announce Type: new Abstract: Foundation models for astronomy are trained on survey pixels together with the catalogue pro",
+            "source": "RSS · arXiv cs.AI",
+            "url": "https://arxiv.org/abs/2608.23626",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-26",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization",
+            "summary": "Zero-shot cross-task generalization, where a policy must execute manipulation tasks never seen during training, remains a central challenge ",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.26103v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-26",
+            "publishedAt": "",
+            "reason": ""
+          },
           {
             "title": "Luce: Relightable Gaussians for 3D Asset Generation",
             "summary": "High-fidelity image-to-3D generation requires a 3D representation that captures both geometry and appearance. To support relighting and inte",
@@ -10844,6 +10816,17 @@
             "sourceCount": 1,
             "date": "2026-08-27",
             "publishedAt": "2026-08-27T00:36",
+            "reason": ""
+          },
+          {
+            "title": "TRACE: Transition-Aware Residual Control for Multi-Objective Materials Discovery",
+            "summary": "arXiv:2608.23631v1 Announce Type: new Abstract: Multi-objective materials discovery with LLM agents is often limited not only by how many ca",
+            "source": "RSS · arXiv cs.AI",
+            "url": "https://arxiv.org/abs/2608.23631",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-26",
+            "publishedAt": "",
             "reason": ""
           },
           {
@@ -11016,6 +10999,28 @@
             "sourceCount": 1,
             "date": "2026-08-27",
             "publishedAt": "2026-08-27T04:10",
+            "reason": ""
+          },
+          {
+            "title": "Auditing the Synthetic Memoir: Measuring Scene-Level Confabulation in LLM-Generated Autobiography Against the Documented Record of the Life It Describes",
+            "summary": "arXiv:2608.23640v1 Announce Type: new Abstract: When a large language model (LLM) is asked to write a person's life, how much of what it wri",
+            "source": "RSS · arXiv cs.AI",
+            "url": "https://arxiv.org/abs/2608.23640",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-26",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "How much of a measured AI preference is the model, and how much is the instrument?",
+            "summary": "arXiv:2608.23641v1 Announce Type: new Abstract: Model welfare research infers what a model prefers from the answers returned to prompts writ",
+            "source": "RSS · arXiv cs.AI",
+            "url": "https://arxiv.org/abs/2608.23641",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-26",
+            "publishedAt": "",
             "reason": ""
           }
         ]
