@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-08-27",
-  "generatedAt": "2026-08-26T23:35:52.328308Z",
+  "generatedAt": "2026-08-27T02:08:11.100979Z",
   "news": [
     {
       "title": "GlucoFM：面向连续血糖监测的基础模型",
@@ -288,6 +288,34 @@ window.AI_GENERATED_DATA = {
           "title": "Preparing data for supervised fine-tuning Part 2: Advanced data strategies"
         }
       ]
+    },
+    {
+      "title": "Luce: Relightable Gaussians for 3D Asset Generation",
+      "summary": "High-fidelity image-to-3D generation requires a 3D representation that captures both geometry and appearance. To support relighting and integration into standard rendering pipeline",
+      "category": "ai-image-video",
+      "source": "RSS · Apple ML Research",
+      "date": "2026-08-26",
+      "publishedAt": "2026-08-26T08:00",
+      "collectedAt": "2026-08-27T10:08",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://machinelearning.apple.com/research/relightable-gaussians-3d-generation",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
     },
     {
       "title": "Learning never stops: How AI makes learning continuous",
@@ -2525,492 +2553,6 @@ window.AI_GENERATED_DATA = {
       "score": 82,
       "aiSelected": true,
       "_style": "observer",
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "用 AWS 快速自动化文档处理，提升贷款效率",
-      "summary": "我注意到，文档处理在银行、保险和医疗等行业中都是一大挑战。通过 AWS 的 GAIIC IDP 加速器和 Amazon Quick Automate，一家中型抵押贷款公司成功实现了从文档接收至数据验证的全自动化，显著提高了处理效率。本文将详细介绍这一解决方案的实施过程及其带来的业务成效。",
-      "category": "ai-tools",
-      "tags": [
-        "文档处理",
-        "自动化",
-        "抵押贷款",
-        "AWS",
-        "数据验证"
-      ],
-      "keyPoints": [
-        "美国抵押贷款市场每年大约产生 400-600 万笔贷款，处理文档的效率直接影响贷款周期。",
-        "手动处理每笔贷款的文档，平均耗时 15-20 分钟，导致每年浪费数千小时。",
-        "使用 AWS GAIIC IDP 加速器和 Amazon Quick Automate，整个文档处理流程实现自动化。",
-        "通过自动化，贷款处理时间可缩短，提升客户满意度和业务效率。",
-        "中型贷款公司 Summit Mortgage 每年处理约 50,000 笔贷款，自动化后显著降低了运营成本。"
-      ],
-      "background": "在抵押贷款行业，文档处理是一个繁琐且耗时的过程。每笔贷款都需要处理多种文档，如收入证明、银行对账单等。根据 MBA 抵押贷款金融预测，美国每年约有 400-600 万笔贷款产生，处理这些文档的效率直接影响到贷款的周期和成本。传统的手动处理方式不仅耗时长，而且容易出错，导致客户体验下降。AWS 提供的 GAIIC IDP 加速器和 Amazon Quick Automate 解决方案，能够帮助贷款公司实现文档处理的自动化，提升整体业务效率。",
-      "impact": "这一自动化解决方案将对多个行业产生深远影响。首先，银行和贷款公司可以通过减少文档处理时间，提升客户满意度，进而增加市场竞争力。其次，保险和医疗行业同样可以借助此技术优化文档处理流程，降低运营成本。此外，随着自动化技术的普及，企业决策将更加依赖数据分析，推动业务模式的转型。",
-      "audience": [
-        "贷款处理专员",
-        "金融科技开发者",
-        "文档管理系统管理员"
-      ],
-      "useCases": [
-        "自动化文档接收，减少人工干预，提升处理速度。",
-        "利用 AWS 工具进行数据验证，确保信息准确性。",
-        "整合文档处理系统与现有业务流程，优化工作效率。"
-      ],
-      "risks": [
-        "API 使用费用可能较高，需评估成本效益。",
-        "在处理多种语言文档时，可能面临兼容性问题。",
-        "系统集成时可能遇到现有软件的兼容性挑战。"
-      ],
-      "reason": "这条信息值得关注，因为它展示了如何通过自动化技术有效提升文档处理效率，适用于多个行业的实际应用。",
-      "scores": {
-        "importance": 85,
-        "novelty": 70,
-        "firsthand": 90,
-        "impact": 80,
-        "credibility": 85
-      },
-      "url": "https://aws.amazon.com/blogs/machine-learning/automate-document-processing-with-quick-automate-and-the-idp-accelerator/",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-08-20",
-      "publishedAt": "2026-08-20T06:09",
-      "collectedAt": "2026-08-20T06:58",
-      "dateStatus": "verified",
-      "tier": "T1",
-      "score": 82,
-      "aiSelected": true,
-      "_style": "recommender",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "无服务器管道中异步调用 Amazon Bedrock AgentCore 代理的模式",
-      "summary": "最近看到一篇关于如何在无服务器管道中异步调用 Amazon Bedrock AgentCore 代理的文章，介绍了三种模式：任务令牌回调、直接服务集成和持久化函数。这些模式可以在 AWS Step Functions 管道中使用，避免在 AI 代理处理请求时产生空闲计算成本。",
-      "category": "ai-agents",
-      "tags": [
-        "Amazon Bedrock",
-        "无服务器计算",
-        "异步调用",
-        "AI 代理",
-        "云计算"
-      ],
-      "keyPoints": [
-        "Amazon Bedrock AgentCore 提供了一个平台，可以构建、连接和优化代理，支持多种框架和模型。",
-        "传统的管道步骤无法像这些代理一样在回答前进行思考，响应时间取决于提示、模型和文档。",
-        "使用 AWS Lambda 函数调用代理时，函数在等待响应时会持续计费，造成资源浪费。",
-        "Amazon Bedrock AgentCore 的运行时采用基于消费的计费模式，代理空闲时不收取 CPU 费用。",
-        "通过任务令牌回调、直接服务集成和持久化函数等模式，可以在等待代理响应时释放计算资源。"
-      ],
-      "background": "在无服务器架构中，异步调用模式的引入可以显著降低计算成本。传统的同步调用方式会导致调用方在等待响应时占用计算资源，增加了费用。Amazon Bedrock AgentCore 通过提供异步调用的能力，允许开发者在处理请求时更高效地使用资源。文章中提到的文档验证场景，展示了如何利用这些模式来优化工作流，确保在处理复杂任务时不浪费计算资源。",
-      "impact": "这些异步调用模式将对开发者和企业产生深远影响。首先，开发者可以通过降低计算成本来提高项目的经济性。其次，企业在处理大量请求时，可以更灵活地管理资源，避免因等待响应而造成的资源浪费。此外，这种模式还可能促使更多企业采用无服务器架构，从而推动云计算的进一步发展。",
-      "audience": [
-        "云计算架构师",
-        "后端开发工程师",
-        "AI 解决方案架构师",
-        "DevOps 工程师"
-      ],
-      "useCases": [
-        "在无服务器环境中实现异步文档验证，减少等待时间和计算成本。",
-        "使用任务令牌回调模式优化 AI 代理的响应时间，提高用户体验。",
-        "通过直接服务集成，简化与其他 AWS 服务的交互，提升工作效率。",
-        "利用持久化函数处理长时间运行的任务，确保计算资源的高效利用。"
-      ],
-      "risks": [
-        "API 调用的费用可能会因高频率请求而迅速增加，需要合理控制调用频率。",
-        "在异步调用中，可能会面临响应超时的风险，影响整体流程的稳定性。",
-        "不同模型和工具的兼容性问题，可能导致集成时出现意外错误。",
-        "对新模式的学习曲线可能会影响团队的开发效率，需提前做好培训。"
-      ],
-      "reason": "这篇文章提供了实用的异步调用模式，帮助开发者在无服务器架构中更高效地利用资源，值得一看。",
-      "scores": {
-        "importance": 85,
-        "novelty": 70,
-        "firsthand": 90,
-        "impact": 80,
-        "credibility": 85
-      },
-      "url": "https://aws.amazon.com/blogs/machine-learning/asynchronous-patterns-for-calling-amazon-bedrock-agentcore-agents-in-serverless-pipelines/",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-08-20",
-      "publishedAt": "2026-08-20T06:06",
-      "collectedAt": "2026-08-20T06:58",
-      "dateStatus": "verified",
-      "tier": "T1",
-      "score": 82,
-      "aiSelected": true,
-      "_style": "recommender",
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "KnowledgeForge：从ITSM工单中提炼知识",
-      "summary": "KnowledgeForge通过挖掘已解决的IT服务管理（ITSM）工单，自动生成新的知识库文章，并通过去重、质量评分和内容改进来优化现有知识库。该系统利用Amazon Bedrock、Amazon S3 Vectors和AWS Step Functions构建了一个多租户的闭环管道，提升了知识管理的效率。",
-      "category": "ai-tools",
-      "tags": [
-        "知识管理",
-        "IT服务管理",
-        "自动化",
-        "AWS",
-        "内容优化"
-      ],
-      "keyPoints": [
-        "KnowledgeForge每月处理数千个ITSM工单，提取有价值的知识信息。",
-        "系统通过去重和质量评分，确保知识库内容的准确性和时效性。",
-        "利用Amazon Bedrock和AWS Step Functions，构建高效的文档处理管道。",
-        "知识管理者对生成的内容进行审核，确保知识库的质量。",
-        "该系统为企业IT支持团队提供了更为便捷的知识获取方式，减少了重复劳动。"
-      ],
-      "background": "在企业IT支持中，工单的处理量巨大，每月有数千个工单被解决，但其中的知识往往未能有效转化为知识库文章。传统的知识库在增长过程中，常常出现重复内容和信息过时的问题，导致支持工程师在查找解决方案时面临困难。KnowledgeForge应运而生，旨在解决这一痛点，通过挖掘已解决的工单，生成新的知识库文章，并对现有内容进行优化。这一方法不仅提高了知识的可用性，也提升了知识库的整体质量。",
-      "impact": "KnowledgeForge的推出将显著改变企业IT支持团队的工作方式。首先，支持工程师能够更快速地找到解决方案，减少了查找时间，提高了工作效率。其次，企业能够通过优化知识库，提升客户满意度，降低支持成本。此外，KnowledgeForge的闭环系统将促进知识的持续更新和迭代，确保企业在快速变化的技术环境中保持竞争力。",
-      "audience": [
-        "IT支持工程师",
-        "知识管理人员",
-        "企业IT决策者",
-        "技术文档撰写者",
-        "自动化工具开发者"
-      ],
-      "useCases": [
-        "提取已解决工单中的知识，生成新的知识库文章。",
-        "优化现有知识库，去除重复内容，提升信息质量。",
-        "通过AWS工具构建高效的文档处理管道，支持大规模知识管理。",
-        "为IT支持团队提供实时的知识更新，提升响应速度。",
-        "利用数据分析优化知识库内容，确保信息的时效性和准确性。"
-      ],
-      "risks": [
-        "API调用费用可能会增加，影响整体运营成本。",
-        "需要确保合规性，特别是在处理敏感数据时。",
-        "系统的兼容性问题可能导致集成困难，影响使用体验。",
-        "对生成内容的审核过程可能会造成延迟，影响知识更新速度。",
-        "依赖于AWS服务的稳定性，任何服务中断都可能影响系统运行。"
-      ],
-      "reason": "KnowledgeForge通过创新的知识提取和优化方法，显著提升了IT服务管理的效率，值得关注。",
-      "scores": {
-        "importance": 85,
-        "novelty": 75,
-        "firsthand": 90,
-        "impact": 80,
-        "credibility": 85
-      },
-      "url": "https://aws.amazon.com/blogs/machine-learning/knowledgeforge-mining-gold-from-the-itsm-ticket-graveyard/",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-08-20",
-      "publishedAt": "2026-08-20T04:36",
-      "collectedAt": "2026-08-20T05:48",
-      "dateStatus": "verified",
-      "tier": "T1",
-      "score": 82,
-      "aiSelected": true,
-      "_style": "analyst",
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Fanatics Betting and Gaming 构建多代理客户支持系统",
-      "summary": "我最近看到 Fanatics Betting and Gaming 在 AWS 上构建了一个多代理客户支持系统，以应对体育博彩的复杂性。这个系统能够快速、准确地处理客户在高峰时段的咨询，尤其是在大型体育赛事期间。文章详细介绍了系统架构、所用的 AWS 服务以及设计自己多代理支持解决方案时可以借鉴的模式。",
-      "category": "ai-agents",
-      "tags": [
-        "客户支持",
-        "多代理系统",
-        "AWS",
-        "体育博彩",
-        "人工智能"
-      ],
-      "keyPoints": [
-        "Fanatics Betting and Gaming 在 AWS 上构建的多代理客户支持系统，旨在解决体育博彩特有的复杂问题。",
-        "该系统能够在大型体育赛事期间处理每两分钟超过 40 个客户咨询，确保响应质量不下降。",
-        "FBG 的支持系统能够自动识别何时需要将问题升级到人工客服，从而提高效率。",
-        "每个美国州对支付方式、存款限制和负责任博彩的要求不同，系统能够处理这些复杂的法规差异。",
-        "FBG 的工程团队通过多代理 AI 系统，显著降低了人力支持的成本，同时提升了客户体验。"
-      ],
-      "background": "Fanatics Betting and Gaming (FBG) 是一个结合了先进技术与深厚体育专业知识的体育博彩平台。随着用户基数的快速增长，FBG 面临着支持请求量的激增，尤其是在 NFL 季后赛和超级碗等高流量事件期间。传统的基于决策树的聊天机器人无法有效应对复杂的客户咨询，导致客户体验下降和运营成本上升。因此，FBG 的工程团队决定在 AWS 上构建一个多代理 AI 系统，以更高效地解决客户问题。",
-      "impact": "这个多代理客户支持系统将极大地改变客户支持的方式，尤其是在体育博彩行业。支持团队可以更快地响应客户咨询，减少等待时间，从而提升客户满意度。同时，这种系统的成功实施可能会促使其他行业的公司考虑类似的自动化解决方案，以应对复杂的客户需求和高峰流量。",
-      "audience": [
-        "客户支持经理",
-        "AI 系统架构师",
-        "体育博彩平台开发者",
-        "AWS 云服务工程师",
-        "用户体验设计师"
-      ],
-      "useCases": [
-        "快速处理客户咨询，减少响应时间，提高客户满意度。",
-        "自动识别并升级复杂问题到人工客服，优化支持流程。",
-        "在高峰时段自动扩展系统能力，确保服务稳定性。",
-        "根据不同州的法规提供定制化的支持，提升合规性。",
-        "利用数据分析优化客户支持策略，降低运营成本。"
-      ],
-      "risks": [
-        "系统可能面临 API 调用次数限制，影响高峰期的响应能力。",
-        "多代理系统的复杂性可能导致初期实施时的兼容性问题。",
-        "需要确保系统能够处理多种语言的客户咨询，否则可能影响用户体验。",
-        "商用授权和合规性问题可能会限制系统的某些功能。",
-        "对实时问题赌博的识别要求高，可能导致误判和客户投诉。"
-      ],
-      "reason": "这个案例展示了如何利用多代理 AI 系统来应对复杂的客户支持需求，值得关注。",
-      "scores": {
-        "importance": 85,
-        "novelty": 70,
-        "firsthand": 90,
-        "impact": 80,
-        "credibility": 85
-      },
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-fanatics-betting-and-gaming-built-a-multi-agent-customer-support-system/",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-08-20",
-      "publishedAt": "2026-08-20T04:40",
-      "collectedAt": "2026-08-20T05:48",
-      "dateStatus": "verified",
-      "tier": "T1",
-      "score": 82,
-      "aiSelected": true,
-      "_style": "recommender",
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "OpenAI 提供零数据保留服务，增强 AI 安全性",
-      "summary": "OpenAI 宣布为符合条件的 API 客户提供零数据保留服务，并预览了私密安全处理功能，以在不妨碍数据隐私的情况下提升 AI 安全性。这一举措旨在增强用户对数据安全的信任，同时推动 AI 技术的安全应用。",
-      "category": "ai-models",
-      "tags": [
-        "OpenAI",
-        "数据隐私",
-        "AI安全",
-        "API服务",
-        "零数据保留"
-      ],
-      "keyPoints": [
-        "OpenAI 为符合条件的 API 客户提供零数据保留服务，确保用户数据不被存储。",
-        "推出私密安全处理功能，旨在提升 AI 系统的安全性。",
-        "该服务适用于所有使用 OpenAI API 的开发者，增强数据隐私保护。",
-        "OpenAI 强调，零数据保留不会影响 AI 模型的性能和用户体验。",
-        "此举是 OpenAI 在 AI 安全领域的重要进展，回应了用户对数据隐私的关切。"
-      ],
-      "background": "OpenAI 一直致力于提升其 AI 模型的安全性和用户数据的隐私保护。随着 AI 技术的广泛应用，数据隐私问题日益受到关注。OpenAI 的零数据保留服务是其应对这一挑战的关键举措，旨在为用户提供更安全的使用体验。通过不存储用户数据，OpenAI 希望增强用户对其服务的信任，并推动 AI 技术的健康发展。",
-      "impact": "这一服务将吸引更多开发者使用 OpenAI 的 API，尤其是那些对数据隐私有高要求的企业。通过提供零数据保留，OpenAI 可能会改变开发者在选择 AI 服务时的决策，促使更多企业在其产品中集成 AI 功能。此外，这一举措可能会引发其他 AI 服务提供商跟进，推动整个行业在数据隐私保护方面的进步。",
-      "audience": [
-        "数据隐私关注的企业开发者",
-        "AI 安全性研究人员",
-        "希望集成 AI 的初创公司",
-        "需要处理敏感数据的金融行业工程师",
-        "对 API 服务有需求的技术团队"
-      ],
-      "useCases": [
-        "注册 OpenAI API 账户，选择符合条件的计划以启用零数据保留服务。",
-        "在开发过程中，使用 OpenAI 提供的私密安全处理功能，确保数据隐私。",
-        "定期审查 API 使用情况，确保符合零数据保留政策，避免数据泄露风险。"
-      ],
-      "risks": [
-        "确保选择的 API 计划确实支持零数据保留，避免因计划不符导致数据存储问题。",
-        "在使用私密安全处理功能时，需了解其对模型性能的影响，避免影响用户体验。",
-        "注意 API 调用的配额限制，避免因超出配额导致服务中断。"
-      ],
-      "reason": "OpenAI 的零数据保留服务为开发者提供了更高的数据隐私保障，是推动 AI 安全应用的重要一步。",
-      "scores": {
-        "importance": 85,
-        "novelty": 80,
-        "firsthand": 90,
-        "impact": 75,
-        "credibility": 85
-      },
-      "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
-      "source": "RSS · OpenAI Blog",
-      "date": "2026-08-20",
-      "publishedAt": "2026-08-20T03:00",
-      "collectedAt": "2026-08-20T04:38",
-      "dateStatus": "verified",
-      "tier": "T1",
-      "score": 82,
-      "aiSelected": true,
-      "_style": "tutorial",
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "OpenAI 重申零数据保留政策，保障用户隐私",
-      "summary": "OpenAI 最近重申了其对符合条件的 API 客户实施零数据保留的承诺，并预览了私人安全处理功能，以提升 AI 安全性，同时不妥协数据隐私。这一举措旨在增强用户对 AI 应用的信任，尤其是在数据隐私日益受到关注的背景下。",
-      "category": "ai-tools",
-      "tags": [
-        "数据隐私",
-        "API",
-        "AI安全",
-        "OpenAI",
-        "零数据保留"
-      ],
-      "keyPoints": [
-        "OpenAI 对符合条件的 API 客户实施零数据保留，确保用户数据不被存储。",
-        "新推出的私人安全处理功能旨在提升 AI 的安全性，保护用户隐私。",
-        "这一政策的实施符合当前对数据隐私的高度关注，增强用户信任。",
-        "OpenAI 的零数据保留政策适用于所有符合条件的 API 客户，提供更高的安全保障。",
-        "该政策的推出有助于推动行业内对数据隐私的重视，促进更安全的 AI 应用。"
-      ],
-      "background": "OpenAI 一直以来致力于提升用户对其产品的信任，尤其是在数据隐私问题日益突出的今天。此次重申零数据保留政策，标志着其在保护用户数据方面的坚定立场。与其他 AI 服务提供商相比，OpenAI 的这一政策显得尤为重要，因为许多公司仍在存储用户数据以进行模型训练。通过不保留用户数据，OpenAI 希望能够在激烈的市场竞争中脱颖而出，吸引更多关注隐私的用户。",
-      "impact": "这一政策的实施将吸引对数据隐私有高要求的开发者和企业，尤其是那些在医疗、金融等敏感领域工作的团队。它将改变用户在选择 AI 服务时的决策，促使更多企业考虑数据隐私作为选择合作伙伴的重要标准。此外，OpenAI 的这一举措可能会引发行业内其他公司跟进，推动整个行业在数据隐私方面的进步。",
-      "audience": [
-        "关注数据隐私的开发者",
-        "医疗行业的技术团队",
-        "金融服务的产品经理"
-      ],
-      "useCases": [
-        "开发符合数据隐私要求的 AI 应用，利用 OpenAI 的 API 进行安全的数据处理。",
-        "在医疗领域中，使用 OpenAI 的零数据保留政策来保护患者信息，提升信任度。",
-        "金融服务公司利用 OpenAI 的 API 开发合规的智能合约，确保用户数据安全。"
-      ],
-      "risks": [
-        "API 使用费用可能较高，尤其是在大规模应用时，需谨慎评估成本。",
-        "零数据保留政策可能限制某些功能的使用，影响模型的个性化服务。",
-        "在多语言支持方面，可能存在兼容性问题，影响非英语用户的体验。"
-      ],
-      "reason": "OpenAI 的零数据保留政策为用户提供了更高的隐私保障，尤其适合对数据安全有严格要求的行业，值得关注。",
-      "scores": {
-        "importance": 85,
-        "novelty": 70,
-        "firsthand": 90,
-        "impact": 80,
-        "credibility": 85
-      },
-      "url": "https://openai.com/index/our-commitment-to-zero-data-retention",
-      "source": "RSS · OpenAI Blog",
-      "date": "2026-08-20",
-      "publishedAt": "2026-08-20T03:00",
-      "collectedAt": "2026-08-20T02:18",
-      "dateStatus": "verified",
-      "tier": "T1",
-      "score": 82,
-      "aiSelected": true,
-      "_style": "reviewer",
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "谷歌推出五种新工具提升学习效率",
-      "summary": "谷歌于2026年8月19日推出了五种新工具，旨在通过搜索引擎帮助用户更有效地学习新知识、应对难题并组织学习时间。这些工具包括互动视觉、定制化练习测验等，旨在为学生提供安全的学习环境。",
-      "category": "ai-tools",
-      "tags": [
-        "谷歌",
-        "学习工具",
-        "AI",
-        "搜索引擎",
-        "教育科技"
-      ],
-      "keyPoints": [
-        "谷歌推出的学习工具包括互动视觉和定制化测验，旨在提升学习效率。",
-        "用户可以通过搜索获取与pH值相关的互动视觉，帮助理解复杂概念。",
-        "定制化练习测验覆盖多个学科，包括科学、数学、人文学科等，支持多种标准化考试的备考。",
-        "与普林斯顿评论、PhysicsWallah等教育公司合作，确保测验内容的权威性和相关性。",
-        "这些工具已在AI模式和AI概述中全球推出，支持英语用户。"
-      ],
-      "background": "谷歌在教育领域的创新不断推进，2026年8月19日推出的新工具正值新学年开始之际，旨在帮助学生应对新学期的挑战。随着在线学习的普及，传统的学习方式逐渐被新的技术手段所取代。谷歌此次推出的工具，结合了生成式AI的能力，能够为学生提供个性化的学习体验。与以往的学习工具相比，这些新功能更加强调互动性和定制化，满足了不同学习者的需求。",
-      "impact": "这些新工具将改变学生的学习方式，提供更为灵活和个性化的学习体验。学生可以通过互动视觉更直观地理解复杂概念，提升学习效果。定制化测验的推出，将帮助学生更有效地备考各类标准化考试，提升考试通过率。此外，这些工具的推出也可能促使其他教育科技公司加速创新，推动整个教育行业向更智能化的方向发展。",
-      "audience": [
-        "高中生",
-        "大学生",
-        "教育工作者",
-        "在线学习平台开发者",
-        "考试准备机构"
-      ],
-      "useCases": [
-        "使用谷歌搜索获取互动视觉，帮助理解化学中的pH值概念。",
-        "通过搜索生成定制化测验，备考SAT、GRE等标准化考试。",
-        "利用AI工具组织学习时间，提升学习效率。"
-      ],
-      "risks": [
-        "依赖搜索引擎可能导致信息过载，影响学习效果。",
-        "定制化测验内容的准确性和权威性需持续监控，避免误导学生。",
-        "对非英语用户的支持可能不足，限制其使用体验。"
-      ],
-      "reason": "谷歌的新学习工具通过AI技术提供个性化和互动的学习体验，值得关注。",
-      "scores": {
-        "importance": 75,
-        "novelty": 80,
-        "firsthand": 90,
-        "impact": 85,
-        "credibility": 80
-      },
-      "url": "https://blog.google/products-and-platforms/products/search/back-to-school-study-tools/",
-      "source": "RSS · Google AI Blog",
-      "date": "2026-08-20",
-      "publishedAt": "2026-08-20T03:00",
-      "collectedAt": "2026-08-20T03:28",
-      "dateStatus": "verified",
-      "tier": "T1",
-      "score": 81,
-      "aiSelected": true,
-      "_style": "observer",
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Scaling Laws for Mixture Pretraining Under Data Constraints",
-      "summary": "As language models scale, the amount of data they require grows – yet many target data sources, such as low-resource languages or specialized domains, are inherently limited in siz",
-      "category": "ai-models",
-      "source": "RSS · Apple ML Research",
-      "date": "2026-08-20",
-      "publishedAt": "2026-08-20T08:00",
-      "collectedAt": "2026-08-25T11:02",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://machinelearning.apple.com/research/scaling-laws-mixture-pretraining",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Progressive Refinement: An Iterative Pseudo-Labeling Approach for Mandarin-English Code-Switching ASR",
-      "summary": "Code-switching (CS), alternating languages within the same utterance, poses significant challenges for automatic speech recognition (ASR) due to limited CS training data. This pape",
-      "category": "ai-coding",
-      "source": "RSS · Apple ML Research",
-      "date": "2026-08-20",
-      "publishedAt": "2026-08-20T08:00",
-      "collectedAt": "2026-08-25T11:02",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://machinelearning.apple.com/research/progressive-refinement-pseudo-labeling",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
       "moduleTargets": [
         "news",
         "topicResources"
@@ -6681,6 +6223,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "OpenAI explains how its naughty AI agents attacked Hugging F",
+        "provider": "TheRegister.com",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenAI has published its technical report detailing \"the Hugging Face incident,\" the compromise of the eponymous LLM repository by unreleased, ill-supervised AI",
+        "description": "OpenAI has published its technical report detailing \"the Hugging Face incident,\" the compromise of the eponymous LLM repository by unreleased, ill-supervised AI models.\n\nThe incide",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "TheRegister.com",
+        "url": "https://www.theregister.com/security/2026/08/27/openai-explains-how-its-naughty-ai-agents-attacked-hugging-face/5292780"
+      },
+      {
         "name": "Evaluate any agent framework with Amazon Bedrock AgentCore E",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -7108,17 +6661,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · AWS Machine Learning",
         "url": "https://aws.amazon.com/blogs/machine-learning/agentic-resource-discovery-ard-an-open-specification-for-agent-discovery/"
-      },
-      {
-        "name": "From Search Agents to Dissemination Interfaces: Understandin",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Large Language Models (LLMs) deployed through Conversational User Interfaces (CUIs) are transforming health information-seeking by offering immediate, interacti",
-        "description": "Large Language Models (LLMs) deployed through Conversational User Interfaces (CUIs) are transforming health information-seeking by offering immediate, interactive experiences compa",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2608.21177v1"
       }
     ],
     "ai-models": [
@@ -8716,6 +8258,28 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-image-video": [
       {
+        "name": "Meta adds new AI subscription packages",
+        "provider": "Social Media Today | A business community for the web's best thinkers on Social Media",
+        "type": "AI 项目/工具",
+        "bestFor": "This audio is auto-generated. Please let us know if you have feedback.\n\nMeta announced two new subscription tiers for its artificial intelligence tools as the c",
+        "description": "This audio is auto-generated. Please let us know if you have feedback.\n\nMeta announced two new subscription tiers for its artificial intelligence tools as the company looks to buil",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Social Media Today | A business community for the web's best thinkers on Social Media",
+        "url": "https://www.socialmediatoday.com/news/meta-adds-new-ai-subscription-packages/828904/"
+      },
+      {
+        "name": "Luce: Relightable Gaussians for 3D Asset Generation",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "High-fidelity image-to-3D generation requires a 3D representation that captures both geometry and appearance. To support relighting and integration into standar",
+        "description": "High-fidelity image-to-3D generation requires a 3D representation that captures both geometry and appearance. To support relighting and integration into standard rendering pipeline",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Apple ML Research",
+        "url": "https://machinelearning.apple.com/research/relightable-gaussians-3d-generation"
+      },
+      {
         "name": "STARFlow2: Bridging Language Models and Normalizing Flows fo",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -9269,36 +8833,6 @@ window.AI_GENERATED_DATA = {
         "watch": "API 价格可能较高，影响中小企业的使用意愿。",
         "sourceName": "NewsAPI:large language model",
         "url": "https://www.cmswire.com/customer-experience/polyai-debuts-dialogrsn1-audionative-voice-ai-model/"
-      },
-      {
-        "name": "MicroCloud Hologram Inc. 推出深度脉冲量子神经网络技术用于噪声图像分类",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "DSQ-Net 的推出可能会影响多个领域的图像处理应用，尤其是在处理噪声图像时。该技术的引入将使得从事图像识别和计算机视觉的工程师能够更有效地应对噪声干扰，提高模型的鲁棒性。此外，DSQ-Net 的混合训练策略将为未来量子计算与经典计算的结合提供新的思路，推动相关技术的进一步发展。随着量子硬件的成熟，DSQ-Net 有",
-        "description": "2026年7月30日，MicroCloud Hologram Inc. 在深圳发布了深度脉冲量子神经网络（DSQ-Net），旨在解决噪声图像分类问题。该技术结合了量子计算与神经形态计算的深度集成，首次在企业级研发框架中引入变分量子电路（VQC）辅助训练机制，构建了一种新型混合量子-经典深度学习系统。",
-        "useCases": [
-          "利用 DSQ-Net 进行高噪声环境下的图像分类，提高识别准确率。",
-          "在量子计算实验中应用 DSQ-Net，探索量子与经典计算的结合效果。",
-          "开发新一代图像处理软件，集成 DSQ-Net 提供的高效噪声处理能力。"
-        ],
-        "watch": "量子硬件的成熟度尚不高，可能影响 DSQ-Net 的实际应用效果。",
-        "sourceName": "NewsAPI:artificial intelligence",
-        "url": "https://www.globenewswire.com/news-release/2026/07/30/3336218/0/en/MicroCloud-Hologram-Inc-Launches-Deep-Spiking-Quantum-Neural-Network-Technology-for-Noisy-Image-Classification.html"
-      },
-      {
-        "name": "印度综艺《印度有潜力2》引发热议，视频真实性遭质疑",
-        "provider": "Currents",
-        "type": "AI 项目/工具",
-        "bestFor": "这一事件对多个群体产生了影响。首先，娱乐行业的从业者可能需要重新审视AI技术在内容创作中的应用，考虑如何在保持创作真实性的同时，利用AI提升效率。其次，观众对视频真实性的关注可能促使平台加强对内容的审核，提升用户体验。此外，AI技术的应用也可能改变观众对娱乐内容的消费习惯，未来可能会出现更多AI生成的内容，这将对整个行",
-        "description": "近日，一段关于印度综艺《印度有潜力2》的病毒视频引发了网友的热议。视频中出现了Sunil Pal、Mukesh Khanna和Kapil Sharma等明星，因画面不一致，许多网友猜测该视频可能是AI生成的。这一事件不仅引发了对视频真实性的讨论，也让人们对AI技术在娱乐行业的应用产生了新的思考。",
-        "useCases": [
-          "分析视频内容的真实性，使用AI工具进行图像识别和分析。",
-          "开发新的内容创作工具，利用AI技术提升视频制作效率。",
-          "进行市场调研，了解观众对AI生成内容的接受度和偏好。"
-        ],
-        "watch": "AI生成内容可能导致版权问题，创作者需谨慎使用相关技术。",
-        "sourceName": "Currents:generative AI",
-        "url": "https://www.news18.com/movies/web-series/indias-got-latent-2-viral-video-of-sunil-pal-mukesh-khanna-kapil-sharma-on-samay-rainas-show-leaves-fans-confusedws-l-10245122-ws-l-10245122.html"
       }
     ],
     "ai-research": [
@@ -11216,8 +10750,8 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-08-27",
-    "generatedAt": "2026-08-26T23:35:52.303699Z",
-    "total": 21,
+    "generatedAt": "2026-08-27T02:08:11.046614Z",
+    "total": 22,
     "sections": [
       {
         "category": "ai-coding",
@@ -11265,6 +10799,23 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-08-26",
             "publishedAt": "2026-08-26T23:48",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "category": "ai-image-video",
+        "label": "图像视频",
+        "items": [
+          {
+            "title": "Luce: Relightable Gaussians for 3D Asset Generation",
+            "summary": "High-fidelity image-to-3D generation requires a 3D representation that captures both geometry and appearance. To support relighting and inte",
+            "source": "RSS · Apple ML Research",
+            "url": "https://machinelearning.apple.com/research/relightable-gaussians-3d-generation",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-26",
+            "publishedAt": "2026-08-26T08:00",
             "reason": ""
           }
         ]
