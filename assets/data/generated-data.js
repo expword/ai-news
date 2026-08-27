@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-08-27",
-  "generatedAt": "2026-08-26T21:16:36.121954Z",
+  "generatedAt": "2026-08-26T23:35:52.328308Z",
   "news": [
     {
       "title": "GlucoFM：面向连续血糖监测的基础模型",
@@ -3001,34 +3001,6 @@ window.AI_GENERATED_DATA = {
       "sourceDate": "",
       "tags": [],
       "url": "https://machinelearning.apple.com/research/progressive-refinement-pseudo-labeling",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Multilingual Knowledge Transfer under Data Constraints via Lexical Interventions",
-      "summary": "Cross-lingual knowledge transfer is critical for building high-performing multilingual language models for languages with insufficient training data. When target language data is s",
-      "category": "ai-models",
-      "source": "RSS · Apple ML Research",
-      "date": "2026-08-20",
-      "publishedAt": "2026-08-20T08:00",
-      "collectedAt": "2026-08-25T11:02",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://machinelearning.apple.com/research/multilingual-knowledge-transfer-lexical-interventions",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -11244,7 +11216,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-08-27",
-    "generatedAt": "2026-08-26T21:16:36.096983Z",
+    "generatedAt": "2026-08-26T23:35:52.303699Z",
     "total": 21,
     "sections": [
       {
