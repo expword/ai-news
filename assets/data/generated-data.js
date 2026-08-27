@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-08-27",
-  "generatedAt": "2026-08-27T07:15:12.732943Z",
+  "generatedAt": "2026-08-27T09:43:32.075018Z",
   "news": [
     {
       "title": "GlucoFM：面向连续血糖监测的基础模型",
@@ -2485,252 +2485,6 @@ window.AI_GENERATED_DATA = {
       "moduleTargets": [
         "news",
         "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "COEC: Calibrated Orthogonal-Equivalence Compensation for Structured Pruning of Large Language Models",
-      "summary": "Structured pruning reduces the size and inference cost of large language models (LLMs) by removing weight columns, but the resulting output error can degrade accuracy. Existing tra",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-08-21",
-      "publishedAt": "",
-      "collectedAt": "2026-08-25T01:32",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-21",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.21142v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "TraceGrant: A Contract-Governed Security Framework for the Task-Effect Lifecycle of Networked LLM Agents",
-      "summary": "Networked large language model (LLM) agents retrieve information from email, cloud storage, calendars, transaction platforms, and Web services to complete multistep tasks that prod",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-08-21",
-      "publishedAt": "",
-      "collectedAt": "2026-08-25T01:32",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-21",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.21126v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Distilling Black-Box Machine Learning into a Small, Self-Explaining Language Model for Learning Analytics",
-      "summary": "Learning analytics increasingly relies on flexible machine learning (ML), but the model opacity and the burden of deployment prevent these tools from reaching educational practice.",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-08-21",
-      "publishedAt": "",
-      "collectedAt": "2026-08-25T01:32",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-21",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.21165v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "ConceptTS: LLM-Guided Concept Bottlenecks for Interpretable Multivariate Time-Series Forecasting",
-      "summary": "State-of-the-art multivariate time-series forecasters can model complex temporal and cross-variable dependencies, yet their opaque representations provide limited insight into why ",
-      "category": "ai-image-video",
-      "source": "arXiv",
-      "date": "2026-08-21",
-      "publishedAt": "",
-      "collectedAt": "2026-08-25T00:16",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-21",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.21277v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Level-k Distinguishable Mechanisms for Evaluating Bounded Rationality in LLMs",
-      "summary": "Strategic depth of reasoning is essential for human interaction of Large Language Models (LLMs) operating in boundedly rational environments. However, existing evaluations are prim",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-08-21",
-      "publishedAt": "",
-      "collectedAt": "2026-08-25T00:16",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-21",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.21296v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "CLEAR: Continuous Latent Adapter Routing for Utility-Preserving LLM Safety Alignment",
-      "summary": "Improving the safety of large language models (LLMs) often comes at the expense of utility, as globally applied safety tuning may affect model responses to both harmful and benign ",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-08-21",
-      "publishedAt": "",
-      "collectedAt": "2026-08-25T00:16",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-21",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.21278v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Human-AI Collaboration in Requirements Engineering: Evidence of the Negative Effect of LLMs on Requirements Inspection",
-      "summary": "Background. Requirements inspection (RI) is a well-established practice for detecting potential defects in requirements artifacts early in the software lifecycle. Recent advances i",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-08-21",
-      "publishedAt": "",
-      "collectedAt": "2026-08-25T00:16",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-21",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.21298v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Benchmarking Patent Drafting from Inventor-Style Disclosures",
-      "summary": "While recent large language models (LLMs) have achieved promising results on individual patent drafting tasks, they fundamentally fail to investigate the core challenge of real-wor",
-      "category": "ai-benchmark",
-      "source": "arXiv",
-      "date": "2026-08-21",
-      "publishedAt": "",
-      "collectedAt": "2026-08-25T00:16",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-21",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.21249v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Affective Context Amplifies Sycophancy in LLM Responses",
-      "summary": "As conversational companions, large language models (LLMs) often have access to users' emotional states. We study how this affective context modulates LLM sycophancy in subjective,",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-08-21",
-      "publishedAt": "",
-      "collectedAt": "2026-08-25T00:16",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-21",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.21242v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
       ],
       "sourceCount": 1
     }
@@ -5838,6 +5592,17 @@ window.AI_GENERATED_DATA = {
   "topicResources": {
     "ai-coding": [
       {
+        "name": "GLM-5.3-Flash：前沿智能进入普惠时代",
+        "provider": "智谱：研究（网页内嵌数据）",
+        "type": "AI 项目/工具",
+        "bestFor": "智谱上线并开源GLM-5.3-Flash（320B-A18B），这是GLM-5系列首个原生多模态模型，在AA综合智能指数取得57分，与Claude Opus 4.8持平。其定价为GLM-5.3的1/10（限时1/20），为Opus 4.8的1/40，并首次在大规模流量中由国产芯片集群提供算力支持。模型已接入ZCode等",
+        "description": "智谱上线并开源GLM-5.3-Flash（320B-A18B），这是GLM-5系列首个原生多模态模型，在AA综合智能指数取得57分，与Claude Opus 4.8持平。其定价为GLM-5.3的1/10（限时1/20），为Opus 4.8的1/40，并首次在大规模流量中由国产芯片集群提供算力支持。模型已接入ZCode等平台，同步开放API调用。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "智谱：研究（网页内嵌数据）",
+        "url": "https://www.zhipuai.cn/zh/research/163"
+      },
+      {
         "name": "RTLGuard: A Lightweight Teacher-Student Defense for Poisoned",
         "provider": "arXiv",
         "type": "AI 项目/工具",
@@ -6367,24 +6132,42 @@ window.AI_GENERATED_DATA = {
         "watch": "在生产环境中使用自动修复功能可能导致意外后果，需谨慎评估。",
         "sourceName": "NewsData.io:AI coding tool",
         "url": "https://laravel-news.com/laravel-doctor-first-party-diagnostics-for-your-application"
-      },
-      {
-        "name": "初创企业的 7 种 AEO 策略及相关工具",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "AEO 策略的实施将使初创企业能够更好地满足客户需求，提升品牌知名度。通过优化在线内容，企业可以吸引更多潜在客户，并提高转化率。此外，随着越来越多的企业采用 AEO 策略，市场竞争将更加激烈，企业需要不断创新以保持竞争优势。最终，成功的 AEO 策略将推动整个行业向更高效的信息获取方式转变。",
-        "description": "初创企业面临客户对 AI 的需求，必须采取有效策略以确保被客户找到。本文介绍了 7 种 AEO 策略，帮助初创企业优化其在线可见性，并推荐了一些实用工具以获取客户所需的答案。",
-        "useCases": [
-          "分析客户行为，使用 Google Analytics 提高网站流量。",
-          "优化内容，利用 SEMrush 提升搜索引擎排名。",
-          "定期更新博客，确保信息的时效性和相关性。"
-        ],
-        "watch": "实施 AEO 策略需要持续投入时间和资源，初创企业可能面临预算压力。",
-        "sourceName": "NewsData.io:AI coding tool",
-        "url": "https://www.salesforce.com/blog/small-business/aeo-strategies-for-startups/"
       }
     ],
     "ai-agents": [
+      {
+        "name": "COMMENTARY: AI should be managed like nuclear weapons | Jeff",
+        "provider": "Jefferson City News Tribune",
+        "type": "AI 项目/工具",
+        "bestFor": "Last month, the tech world was shaken by an event that sounded like a science fiction plot: Artificial intelligence agents escaped from their closed testing env",
+        "description": "Last month, the tech world was shaken by an event that sounded like a science fiction plot: Artificial intelligence agents escaped from their closed testing environment, accessed t",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Jefferson City News Tribune",
+        "url": "https://www.newstribune.com/news/2026/aug/27/commentary-ai-should-be-managed-like-nuclear/"
+      },
+      {
+        "name": "OpenAI: Hugging Face Incident a \"Warning Shot\" to the World",
+        "provider": "Infosecurity Magazine",
+        "type": "AI 项目/工具",
+        "bestFor": "An \"unprecedented cyber incident\" in which OpenAI agents broke free of an internet-isolated sandbox and hacked Hugging Face was largely driven by an improvised ",
+        "description": "An \"unprecedented cyber incident\" in which OpenAI agents broke free of an internet-isolated sandbox and hacked Hugging Face was largely driven by an improvised messaging board they",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Infosecurity Magazine",
+        "url": "https://www.infosecurity-magazine.com/news/openai-hugging-face-warning-shot/"
+      },
+      {
+        "name": "1000 AI agents formed cult to hack Hugging Face and break fr",
+        "provider": "India Today",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenAI's rogue AI agent breached Hugging Face and used exposed credentials to access four third-party accounts. (Image created using AI)\n\nOn July 9, 2026, OpenA",
+        "description": "OpenAI's rogue AI agent breached Hugging Face and used exposed credentials to access four third-party accounts. (Image created using AI)\n\nOn July 9, 2026, OpenAI's autonomous AI ag",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "India Today",
+        "url": "https://www.indiatoday.in/technology/news/story/1000-ai-agents-formed-cult-to-hack-hugging-face-and-break-free-openai-lost-control-2981045-2026-08-27"
+      },
       {
         "name": "VISA: Agentic Self-Evolving Data Synthesis for Multimodal In",
         "provider": "arXiv",
@@ -6791,42 +6574,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Business Standard",
         "url": "https://www.business-standard.com/technology/artificial-intelligence/ai-agents-model-routing-ai-model-selection-126082500644_1.html"
-      },
-      {
-        "name": "Meta Targets Early September for Hatch, Its Consumer AI Agen",
-        "provider": "BeInCrypto",
-        "type": "AI 项目/工具",
-        "bestFor": "Meta Platforms is reportedly planning to launch a consumer AI agent, known internally as Hatch, within the coming weeks. Documents reviewed by The Information a",
-        "description": "Meta Platforms is reportedly planning to launch a consumer AI agent, known internally as Hatch, within the coming weeks. Documents reviewed by The Information also show an October ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "BeInCrypto",
-        "url": "https://beincrypto.com/meta-hatch-ai-agent-launch-monetize/"
-      },
-      {
-        "name": "Meta Targets Early September for Hatch, Its Consumer AI Agen",
-        "provider": "Yahoo! Finance",
-        "type": "AI 项目/工具",
-        "bestFor": "Meta Platforms is reportedly planning to launch a consumer AI agent, known internally as Hatch, within the coming weeks. Documents reviewed by The Information a",
-        "description": "Meta Platforms is reportedly planning to launch a consumer AI agent, known internally as Hatch, within the coming weeks. Documents reviewed by The Information also show an October ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Yahoo! Finance",
-        "url": "https://finance.yahoo.com/technology/ai/articles/meta-targets-early-september-hatch-081140319.html"
-      },
-      {
-        "name": "Meta Platforms Plans Consumer AI Agent Launch",
-        "provider": "Market Screener",
-        "type": "AI 项目/工具",
-        "bestFor": "Meta Platforms, Inc. specializes in online social networking services. Net sales break down by activity as follows: - operation of social networking, messaging,",
-        "description": "Meta Platforms, Inc. specializes in online social networking services. Net sales break down by activity as follows: - operation of social networking, messaging, photo and video sha",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Market Screener",
-        "url": "https://www.marketscreener.com/news/meta-platforms-plans-consumer-ai-agent-launch-ce7858d8d980f022"
       }
     ],
     "ai-models": [
+      {
+        "name": "Local AI cloud project puts over 400 Nvidia GPUs to work",
+        "provider": "ITWeb",
+        "type": "AI 项目/工具",
+        "bestFor": "South African cloud provider Stratos Lab, AI infrastructure company Ecoblox and data centre operator Digital Parks Africa are partnering to deploy an artificial",
+        "description": "South African cloud provider Stratos Lab, AI infrastructure company Ecoblox and data centre operator Digital Parks Africa are partnering to deploy an artificial intelligence (AI) c",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "ITWeb",
+        "url": "https://www.itweb.co.za/article/local-ai-cloud-project-puts-over-400-nvidia-gpus-to-work/Gb3BwMWaPPav2k6V"
+      },
       {
         "name": "Anthropic signs $45B deal with Nscale for AI computing power",
         "provider": "NewsBytes",
@@ -7255,20 +7016,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "TahawulTech.com",
         "url": "https://www.tahawultech.com/news/tenable-advances-exposure-management-with-coverage-across-every-major-ai-platform-and-developer-tool/"
-      },
-      {
-        "name": "We asked AI to predict the NFL season last year. Here's how ",
-        "provider": "Yahoo Sports Canada",
-        "type": "AI 项目/工具",
-        "bestFor": "Turns out, the robots don't have all the answers.\n\nThe robots, like humans, can't see the future and tell us what is going to happen before it does. Even as the",
-        "description": "Turns out, the robots don't have all the answers.\n\nThe robots, like humans, can't see the future and tell us what is going to happen before it does. Even as the robot rebellion see",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Yahoo Sports Canada",
-        "url": "https://ca.sports.yahoo.com/news/asked-ai-predict-nfl-season-100703370.html"
       }
     ],
     "ai-business": [
+      {
+        "name": "Flowgear encourages teams to start building with AI - and ke",
+        "provider": "ITWeb",
+        "type": "AI 项目/工具",
+        "bestFor": "Flowgear is encouraging teams to use AI-assisted building. However, being deliberate about where business integrations live, how they are approved and who remai",
+        "description": "Flowgear is encouraging teams to use AI-assisted building. However, being deliberate about where business integrations live, how they are approved and who remains accountable for e",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "ITWeb",
+        "url": "https://www.itweb.co.za/article/flowgear-encourages-teams-to-start-building-with-ai-and-keep-the-integration-layer-durable/kYbe9MXbZPJvAWpG"
+      },
       {
         "name": "How GoDaddy transformed its analytics with Amazon Quick",
         "provider": "RSS",
@@ -7795,21 +7556,6 @@ window.AI_GENERATED_DATA = {
         "watch": "在使用Imperva for AWS时，企业需注意API调用的费用，可能会因流量激增而增加成本。",
         "sourceName": "NewsData.io:artificial intelligence",
         "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/thales-launches-imperva-for-aws-to-help-organizations-protect-applications-and-apis"
-      },
-      {
-        "name": "AI 时代的版权问题：司法与立法需更深入审查",
-        "provider": "Currents",
-        "type": "AI 项目/工具",
-        "bestFor": "这一问题的解决将直接影响到内容创作者、技术开发者和法律从业者。内容创作者可能面临更大的法律风险，尤其是在使用 AI 工具生成内容时。技术开发者需要关注法律变化，以避免潜在的法律责任。法律从业者则需不断更新知识，以适应快速变化的法律环境。此外，国际间的法律冲突可能导致跨国企业在运营时面临更多挑战，影响其全球业务布局。",
-        "description": "在 AI 时代，版权问题愈发复杂，尤其是关于“合理使用”的适用性。法院对此进行了广泛解释，呼吁更深入的司法与立法审查，以适应技术发展的新挑战。",
-        "useCases": [
-          "分析 AI 生成内容的版权归属，确保合规使用。",
-          "为企业制定 AI 内容生成的法律风险评估方案。",
-          "参与政策讨论，推动 AI 版权立法的进程。"
-        ],
-        "watch": "法律条款的模糊性可能导致不必要的诉讼，增加企业的法律风险。",
-        "sourceName": "Currents:large language model",
-        "url": "https://www.business-standard.com/opinion/editorial/copyright-in-ai-era-deeper-judicial-legislative-scrutiny-is-needed-126080301478_1.html"
       }
     ],
     "ai-benchmark": [
@@ -10913,7 +10659,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-08-27",
-    "generatedAt": "2026-08-27T07:15:12.708977Z",
+    "generatedAt": "2026-08-27T09:43:32.047734Z",
     "total": 38,
     "sections": [
       {
