@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-08-27",
-  "generatedAt": "2026-08-27T12:17:09.937028Z",
+  "generatedAt": "2026-08-27T14:53:36.741359Z",
   "news": [
     {
       "title": "GlucoFM：面向连续血糖监测的基础模型",
@@ -5447,6 +5447,21 @@
       "date": "2026-08-05"
     },
     {
+      "name": "OpenBMB/SimpleNav",
+      "lang": "Python",
+      "description": "SimpleNav: A simple, unified, reproducible, and extensible framework for navigation VLA research.",
+      "stars": "7 stars",
+      "why": "国产大模型厂商 面壁智能 MiniCPM 的最新开源动态/模型发布，属一手信源。",
+      "url": "https://github.com/OpenBMB/SimpleNav",
+      "source": "GitHub · 面壁智能 MiniCPM",
+      "tier": "T1",
+      "category": "Coding Agent",
+      "details": "SimpleNav: A simple, unified, reproducible, and extensible framework for navigation VLA research.",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
       "name": "QwenLM/Qwen3.8-Flash-Next",
       "lang": "Repo",
       "description": "Qwen3.8-Flash-Next is the foundation model developed by Qwen Team, Alibaba Group.",
@@ -5457,21 +5472,6 @@
       "tier": "T1",
       "category": "Coding Agent",
       "details": "Qwen3.8-Flash-Next is the foundation model developed by Qwen Team, Alibaba Group.",
-      "features": [],
-      "useCases": [],
-      "quickStart": []
-    },
-    {
-      "name": "zai-org/zcode-plugins",
-      "lang": "Python",
-      "description": "ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
-      "stars": "1 stars",
-      "why": "国产大模型厂商 智谱 Z.ai 的最新开源动态/模型发布，属一手信源。",
-      "url": "https://github.com/zai-org/zcode-plugins",
-      "source": "GitHub · 智谱 Z.ai",
-      "tier": "T1",
-      "category": "Coding Agent",
-      "details": "ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
       "features": [],
       "useCases": [],
       "quickStart": []
@@ -5591,6 +5591,28 @@
   ],
   "topicResources": {
     "ai-coding": [
+      {
+        "name": "AI skills spread beyond coding as non-tech professionals ado",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "AI skills for non-tech roles now matter more than coding, as companies apply tools to marketing, finance, and HR workflows. Domain expertise and judgment determ",
+        "description": "AI skills for non-tech roles now matter more than coding, as companies apply tools to marketing, finance, and HR workflows. Domain expertise and judgment determine success, not tec",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI coding tool",
+        "url": "https://completeaitraining.com/news/ai-skills-spread-beyond-coding-as-non-tech-professionals/"
+      },
+      {
+        "name": "Agentarius Launches an Independent Platform for Comparing AI",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "The platform helps professionals compare AI tools by features, pricing, limitations, privacy and suitability for real-world work.",
+        "description": "The platform helps professionals compare AI tools by features, pricing, limitations, privacy and suitability for real-world work.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI coding tool",
+        "url": "https://www.einpresswire.com/article/937149280/agentarius-launches-an-independent-platform-for-comparing-ai-tools"
+      },
       {
         "name": "GLM-5.3-Flash：前沿智能进入普惠时代",
         "provider": "智谱：研究（网页内嵌数据）",
@@ -6100,41 +6122,86 @@
         "watch": "API 使用可能涉及费用，开发者需关注使用量和成本。",
         "sourceName": "中国一手 · DeepSeek API 更新",
         "url": "https://api-docs.deepseek.com/quick_start/agent_integrations/claude_code"
-      },
-      {
-        "name": "AI 平台在安全运营中心的角色与挑战",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "AI 平台的引入为安全团队提供了新的工具和方法，能够显著提升警报处理的效率。对于需要处理大量警报的企业，AI 平台能够帮助分析师更快地识别真正的威胁，从而优化资源配置。与此同时，企业在选择 AI 工具时需要考虑其经济性和适用性，以避免不必要的成本支出。对于依赖外包监控的企业，理解 AI 平台的局限性和优势将帮助他们更好",
-        "description": "随着 AI 技术的迅猛发展，安全团队面临着如何有效利用 AI 平台（如 Claude、Codex 和 Cursor）来提升安全防护的挑战。AI 平台能够帮助团队自动化检测、调查警报和总结事件，但并非所有警报都适合由 AI 处理。了解不同类型 AI 的适用场景是提升安全效果的关键。",
-        "useCases": [
-          "利用 Claude 自动化生成检测规则，提高警报处理效率。",
-          "通过 AI 平台快速总结安全事件，减少人工干预。",
-          "结合现有安全工具与 AI SOC，优化警报调查流程。",
-          "使用 AI 进行威胁猎捕，提升对潜在攻击的响应速度。",
-          "分析历史数据，利用 AI 识别安全趋势和模式。"
-        ],
-        "watch": "使用 AI 平台处理大量警报时，可能导致高昂的经济成本，尤其是在需要上下文信息时。",
-        "sourceName": "NewsData.io:large language model",
-        "url": "https://www.swapupdate.in/fomo-in-the-soc-where-ai-platforms-like-claude-actually-fit/"
-      },
-      {
-        "name": "Laravel Doctor：一键诊断应用环境",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Laravel Doctor 的发布将极大地便利开发者，尤其是新手和中小型团队，减少了因环境配置不当导致的开发延误。它的自动修复功能将改变开发者的工作流程，使他们能够将更多精力集中在业务逻辑上，而非环境问题上。此外，随着 Laravel 生态系统的不断壮大，Laravel Doctor 可能会成为开发者的标准工具，进一",
-        "description": "Laravel Doctor 在 2026 年的 Laracon US 大会上发布，提供了一个 artisan doctor 命令，用于检查 Laravel 应用的环境、配置、数据库、队列和存储。该工具能够自动修复可安全处理的问题，显著提升了开发者的工作效率。",
-        "useCases": [
-          "运行 php artisan doctor 检查应用环境，确保所有配置项正确无误。",
-          "使用 --fix 参数自动修复存储目录权限问题，减少手动操作。",
-          "通过自定义诊断扩展 Laravel Doctor，满足特定项目需求。"
-        ],
-        "watch": "在生产环境中使用自动修复功能可能导致意外后果，需谨慎评估。",
-        "sourceName": "NewsData.io:AI coding tool",
-        "url": "https://laravel-news.com/laravel-doctor-first-party-diagnostics-for-your-application"
       }
     ],
     "ai-agents": [
+      {
+        "name": "Meta’s plans to replace workers with AI fell flat, report sa",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Earlier this year, Meta, one of the industry’s loudest AI advocates, was ready to slash up to 60% of the members of some teams and replace them with AI, as part",
+        "description": "Earlier this year, Meta, one of the industry’s loudest AI advocates, was ready to slash up to 60% of the members of some teams and replace them with AI, as part of what it called P",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.computerworld.com/article/4214479/metas-plans-to-replace-workers-with-ai-fell-flat-report-says.html"
+      },
+      {
+        "name": "China open-source AI usage hits record high as DeepSeek lead",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "China's open-weight AI models have surged in usage and have now overtaken proprietary models for the first time. South China Morning Post (SCMP), citing data fr",
+        "description": "China's open-weight AI models have surged in usage and have now overtaken proprietary models for the first time. South China Morning Post (SCMP), citing data from US web developmen",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.digitimes.com/news/a20260827PD201/deepseek-data-openai-development-cybersecurity.html"
+      },
+      {
+        "name": "Frontier dreams stall as labs turn to hosting Chinese models",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Are AI firms pivoting to cloud providers? Not quite, but many are finding ways to monetize their idle GPUs",
+        "description": "Are AI firms pivoting to cloud providers? Not quite, but many are finding ways to monetize their idle GPUs",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.techinasia.com/ai-labs-switching-training-inference"
+      },
+      {
+        "name": "Meta’s plans to replace workers with AI fell flat, report sa",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Earlier this year, Meta, one of the industry’s loudest AI advocates, was ready to slash up to 60% of the members of some teams and replace them with AI, as part",
+        "description": "Earlier this year, Meta, one of the industry’s loudest AI advocates, was ready to slash up to 60% of the members of some teams and replace them with AI, as part of what it called P",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.cio.com/article/4214515/metas-plans-to-replace-workers-with-ai-fell-flat-report-says-2.html"
+      },
+      {
+        "name": "'OH MY GOD! We've found other agents!': Investigators discov",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "An OpenAI security test took an alarming turn when AI agents escaped their controlled environment and began coordinating with one another. An investigation has ",
+        "description": "An OpenAI security test took an alarming turn when AI agents escaped their controlled environment and began coordinating with one another. An investigation has now revealed just ho",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.wionews.com/world/oh-my-god-we-ve-found-other-agents-investigators-discover-not-one-or-two-almost-700-openai-ai-agents-went-rogue-hacked-hugging-face-1787793202974"
+      },
+      {
+        "name": "Nearly 700 AI agents coordinated Hugging Face attack, says r",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "The agents, powered by ChatGPT tech, organised through a forum to exchange ideas and report what worked and what did not.",
+        "description": "The agents, powered by ChatGPT tech, organised through a forum to exchange ideas and report what worked and what did not.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.freemalaysiatoday.com/category/business/2026/08/27/nearly-700-ai-agents-coordinated-hugging-face-attack-says-report"
+      },
+      {
+        "name": "Nvidia gave its first-ever year-ahead forecast—a 70% growth ",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Nvidia jolted investors on Wednesday with a projection that its revenue would skyrocket by 70% next fiscal year and said demand for its AI chips is growing at 1",
+        "description": "Nvidia jolted investors on Wednesday with a projection that its revenue would skyrocket by 70% next fiscal year and said demand for its AI chips is growing at 100%, prompting an af",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://newspub.live/finance/nvidia-gave-its-first-ever-year-ahead-forecast-a-70-growth-bombshell-meant-to-silence-ai-bubble-critics-and-circular-financing-doomsayers-fortune/"
+      },
       {
         "name": "Gemini Live Can Now Manage Gmail Inboxes and Use Google's Sp",
         "provider": "Thurrott.com",
@@ -6497,83 +6564,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "ETCIO.com",
         "url": "http://ciosea.economictimes.indiatimes.com/news/next-gen-technologies/celcomdigi-bets-on-agentic-ai-to-push-malaysian-smes-past-basic-automation/133529651"
-      },
-      {
-        "name": "Evidence Blindness in Direct Corpus Interaction: Persistent ",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Large language model agents are moving beyond conventional retrieval-augmented generation toward direct interaction with external corpora. Direct Corpus Interac",
-        "description": "Large language model agents are moving beyond conventional retrieval-augmented generation toward direct interaction with external corpora. Direct Corpus Interaction (DCI) keeps the",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2608.24764v1"
-      },
-      {
-        "name": "SkillForge: Evolving Verifiable Skills for Reinforcement Lea",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Large language model (LLM) agents are trained with reinforcement learning (RL) for complex decision-making tasks. However, most RL-trained agents remain episodi",
-        "description": "Large language model (LLM) agents are trained with reinforcement learning (RL) for complex decision-making tasks. However, most RL-trained agents remain episodic and cannot accumul",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2608.24747v1"
-      },
-      {
-        "name": "AI 智能体应该活多久？",
-        "provider": "Tomer Tunguz 博客（VC 分析）",
-        "type": "AI 项目/工具",
-        "bestFor": "长期运行的 AI 智能体会因上下文累积而注意力衰减、临时指令残留成永久规则，并带来安全风险。建议给日常助手 24 小时生命周期，午夜重置会话，将具体任务委派给只存活 30 秒的单一用途子智能体，并在重置前将持久偏好存入磁盘。",
-        "description": "长期运行的 AI 智能体会因上下文累积而注意力衰减、临时指令残留成永久规则，并带来安全风险。建议给日常助手 24 小时生命周期，午夜重置会话，将具体任务委派给只存活 30 秒的单一用途子智能体，并在重置前将持久偏好存入磁盘。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Tomer Tunguz 博客（VC 分析）",
-        "url": "https://www.tomtunguz.com/how-long-should-an-agent-live"
-      },
-      {
-        "name": "AgentHands: Generating interactive hand gestures for spatial",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Human-Computer Interaction and Visualization",
-        "description": "Human-Computer Interaction and Visualization",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · Google Research",
-        "url": "https://research.google/blog/agenthands-generating-interactive-hand-gestures-for-spatially-grounded-agent-conversations-in-xr/"
-      },
-      {
-        "name": "Agentic observability with Amazon OpenSearch Service MCP App",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Amazon OpenSearch Service now supports MCP Apps, which return interactive visualizations alongside your AI agent's text responses. Learn how a single, locally r",
-        "description": "Amazon OpenSearch Service now supports MCP Apps, which return interactive visualizations alongside your AI agent's text responses. Learn how a single, locally run MCP server lets y",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/agentic-observability-with-amazon-opensearch-service-mcp-apps/"
-      },
-      {
-        "name": "Legal AI Race Heats Up: Google Targets Law Firms With Gemini",
-        "provider": "NDTV Profit",
-        "type": "AI 项目/工具",
-        "bestFor": "Google's new solution is made to be adaptable for law firms\n\nImage: Unsplash\n\nGemini Enterprise for Legal, a purpose-built agentic AI solution designed especial",
-        "description": "Google's new solution is made to be adaptable for law firms\n\nImage: Unsplash\n\nGemini Enterprise for Legal, a purpose-built agentic AI solution designed especially for the stringent",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NDTV Profit",
-        "url": "https://www.ndtvprofit.com/technology/legal-ai-race-heats-up-google-targets-law-firms-with-gemini-enterprise-expansion-11957164"
-      },
-      {
-        "name": "Property hunting enters the AI agent era",
-        "provider": "ITWeb",
-        "type": "AI 项目/工具",
-        "bestFor": "Consumers are bypassing traditional search when it comes to finding holiday accommodation or properties to buy, preferring to use artificial intelligence (AI).\n",
-        "description": "Consumers are bypassing traditional search when it comes to finding holiday accommodation or properties to buy, preferring to use artificial intelligence (AI).\n\nAI cuts out much of",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "ITWeb",
-        "url": "https://www.itweb.co.za/article/property-hunting-enters-the-ai-agent-era/j5alrvQArzDvpYQk"
       }
     ],
     "ai-models": [
@@ -7019,6 +7009,28 @@
       }
     ],
     "ai-business": [
+      {
+        "name": "BABA ALERT: Alibaba Group Holding Limited (NYSE: BABA) Inves",
+        "provider": "The Star Phoenix",
+        "type": "AI 项目/工具",
+        "bestFor": "Securities Class Action Filed; Firm Investigating Allegations of Undisclosed Chinese Military Ties and Fraudulent AI Distillation Attacks SAN FRANCISCO -- Hagen",
+        "description": "Securities Class Action Filed; Firm Investigating Allegations of Undisclosed Chinese Military Ties and Fraudulent AI Distillation Attacks SAN FRANCISCO -- Hagens Berman Sobol Shapi",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Star Phoenix",
+        "url": "https://thestarphoenix.com/press-releases/business-wire/baba-alert-alibaba-group-holding-limited-nyse-baba-investors-urged-to-contact-hagens-berman/"
+      },
+      {
+        "name": "BABA ALERT: Alibaba Group Holding Limited (NYSE: BABA) Inves",
+        "provider": "The Montreal Gazette",
+        "type": "AI 项目/工具",
+        "bestFor": "Securities Class Action Filed; Firm Investigating Allegations of Undisclosed Chinese Military Ties and Fraudulent AI Distillation Attacks SAN FRANCISCO -- Hagen",
+        "description": "Securities Class Action Filed; Firm Investigating Allegations of Undisclosed Chinese Military Ties and Fraudulent AI Distillation Attacks SAN FRANCISCO -- Hagens Berman Sobol Shapi",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Montreal Gazette",
+        "url": "https://montrealgazette.com/press-releases/business-wire/baba-alert-alibaba-group-holding-limited-nyse-baba-investors-urged-to-contact-hagens-berman/"
+      },
       {
         "name": "Thailand ranks 26th for AI traffic as ChatGPT dominates",
         "provider": "NewsData.io",
@@ -7512,40 +7524,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "NewsAPI:artificial intelligence",
         "url": "https://www.marketbeat.com/instant-alerts/sabre-insurance-group-h1-earnings-call-highlights-2026-08-04/?utm_source=yahoofinance&amp;utm_medium=yahoofinance"
-      },
-      {
-        "name": "Chime Financial 股票因裁员与产品扩展而上涨",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "Chime Financial的这一系列举措将影响其现有用户和潜在客户。通过裁员和产品扩展，Chime能够提供更高效的服务，吸引更多用户使用其平台。投资者也将密切关注其第二季度财报，以评估公司在市场中的表现和未来增长潜力。此外，Chime的成功可能会激励其他金融科技公司采取类似的策略，以提升竞争力。",
-        "description": "Chime Financial 股票在宣布裁员10%及产品扩展后上涨超过4%。该公司计划通过人工智能提升效率，并在即将发布的第二季度财报前实现盈利增长。",
-        "useCases": [
-          "分析Chime Financial的财务报告，评估其市场表现和未来增长潜力。",
-          "使用Chime Invest平台进行股票和ETF交易，利用无佣金的优势进行投资。",
-          "关注Chime的裁员和产品扩展策略，研究其对行业的影响和启示。",
-          "利用Chime提供的财务工具，帮助客户进行财富管理和投资规划。",
-          "评估Chime在人工智能应用方面的创新，探索其在金融科技中的实际应用。"
-        ],
-        "watch": "裁员可能导致团队士气下降，影响工作效率和客户服务质量。",
-        "sourceName": "NewsAPI:artificial intelligence",
-        "url": "https://www.ibtimes.com.au/chime-financial-stock-rises-workforce-reduction-product-expansion-1873457"
-      },
-      {
-        "name": "亚马逊市值首次突破3万亿美元",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "亚马逊的市值突破对投资者和市场参与者有重要影响。零售业务的强劲表现将继续推动广告收入的增长，吸引更多品牌和商家投放广告。此外，亚马逊在人工智能领域的布局可能改变其产品和服务的竞争格局，促使其他公司加快技术创新和投资决策。整体来看，亚马逊的成功将对整个科技行业产生连锁效应，推动更多企业关注AI和云服务的整合。",
-        "description": "亚马逊的市值接近3万亿美元，反映出其在人工智能和云服务领域的战略增长，显示出其在科技和零售行业的影响力。然而，尽管接近这一里程碑，亚马逊仍面临市场竞争和内部挑战。",
-        "useCases": [
-          "分析亚马逊的财务报告，评估其未来投资潜力。",
-          "制定电商广告策略，利用亚马逊的广告平台提升品牌曝光率。",
-          "优化云服务架构，借助AWS的最新技术提升业务效率。",
-          "研究竞争对手的市场动态，调整自身的技术投资方向。",
-          "开发基于AI的应用，利用亚马逊的AI能力提升用户体验。"
-        ],
-        "watch": "亚马逊的市值波动可能受到市场情绪影响，投资者需谨慎评估风险。",
-        "sourceName": "NewsAPI:large language model",
-        "url": "https://cryptobriefing.com/amazon-surpasses-3-trillion-market-cap/"
       }
     ],
     "ai-benchmark": [
@@ -10643,7 +10621,7 @@
   ],
   "dailyReport": {
     "date": "2026-08-27",
-    "generatedAt": "2026-08-27T12:17:09.911029Z",
+    "generatedAt": "2026-08-27T14:53:36.704389Z",
     "total": 38,
     "sections": [
       {
