@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-08-27",
-  "generatedAt": "2026-08-27T09:43:32.075018Z",
+  "generatedAt": "2026-08-27T12:17:09.937028Z",
   "news": [
     {
       "title": "GlucoFM：面向连续血糖监测的基础模型",
@@ -288,6 +288,34 @@ window.AI_GENERATED_DATA = {
           "title": "Preparing data for supervised fine-tuning Part 2: Advanced data strategies"
         }
       ]
+    },
+    {
+      "title": "Unveiling Spectral Mechanisms in Training-Free LLM Text Detection",
+      "summary": "The rapid advancement of Large Language Models (LLMs) makes it increasingly difficult to distinguish human writing from machine-generated text. Training-free detection offers a sca",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-08-26",
+      "publishedAt": "",
+      "collectedAt": "2026-08-27T18:59",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-26",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.25944v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
     },
     {
       "title": "Bayesian Optimization for Self-Driving Materials Laboratories: From Algorithms to Physics-Informed Workflows",
@@ -2457,34 +2485,6 @@ window.AI_GENERATED_DATA = {
       "aiSelected": true,
       "moduleTargets": [
         "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "From Search Agents to Dissemination Interfaces: Understanding Human Trust in Health Information from Conversational Search",
-      "summary": "Large Language Models (LLMs) deployed through Conversational User Interfaces (CUIs) are transforming health information-seeking by offering immediate, interactive experiences compa",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-08-21",
-      "publishedAt": "",
-      "collectedAt": "2026-08-25T01:32",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-21",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.21177v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
       ],
       "sourceCount": 1
     }
@@ -6136,6 +6136,28 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "Gemini Live Can Now Manage Gmail Inboxes and Use Google's Sp",
+        "provider": "Thurrott.com",
+        "type": "AI 项目/工具",
+        "bestFor": "Gemini Live, the conversational experience on Google's Gemini mobile app, is becoming much more useful and capable this week. It now lets users manage their Gma",
+        "description": "Gemini Live, the conversational experience on Google's Gemini mobile app, is becoming much more useful and capable this week. It now lets users manage their Gmail inbox hands-free,",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Thurrott.com",
+        "url": "https://www.thurrott.com/a-i/340769/gemini-live-can-now-manage-gmail-inboxes-and-use-googles-spark-agent"
+      },
+      {
+        "name": "Wipro and Google Cloud Expand AI Partnership",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Wipro Limited announced an expansion of its partnership with Google Cloud to accelerate the enterprise-wide adoption of Gemini Enterprise and agentic AI. Wipro ",
+        "description": "Wipro Limited announced an expansion of its partnership with Google Cloud to accelerate the enterprise-wide adoption of Gemini Enterprise and agentic AI. Wipro will empower over 10",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Google Gemini",
+        "url": "https://www.stockwatch.live/in/news/wipro-and-google-cloud-expand-ai-partnership-ba496419-25e7-4b50-8ea2-8be0d3a4e4ab"
+      },
+      {
         "name": "COMMENTARY: AI should be managed like nuclear weapons | Jeff",
         "provider": "Jefferson City News Tribune",
         "type": "AI 项目/工具",
@@ -6552,31 +6574,31 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "ITWeb",
         "url": "https://www.itweb.co.za/article/property-hunting-enters-the-ai-agent-era/j5alrvQArzDvpYQk"
-      },
-      {
-        "name": "Aziro launches Aziron for governed enterprise AI tasks",
-        "provider": "SecurityBrief Asia",
-        "type": "AI 项目/工具",
-        "bestFor": "Aziro has launched Aziron, an AI agent execution platform for enterprises aimed at organisations that want AI systems to carry out governed tasks.\n\nThe launch r",
-        "description": "Aziro has launched Aziron, an AI agent execution platform for enterprises aimed at organisations that want AI systems to carry out governed tasks.\n\nThe launch reflects a broader pu",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "SecurityBrief Asia",
-        "url": "https://securitybrief.asia/story/aziro-launches-aziron-for-governed-enterprise-ai-tasks"
-      },
-      {
-        "name": "AI agents are changing how companies choose which AI model d",
-        "provider": "Business Standard",
-        "type": "AI 项目/工具",
-        "bestFor": "As AI agents take on more complex workflows, model routing can determine which AI model handles each task (AI-generated image)\n\nFor businesses, picking an AI mo",
-        "description": "As AI agents take on more complex workflows, model routing can determine which AI model handles each task (AI-generated image)\n\nFor businesses, picking an AI model to work with use",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Business Standard",
-        "url": "https://www.business-standard.com/technology/artificial-intelligence/ai-agents-model-routing-ai-model-selection-126082500644_1.html"
       }
     ],
     "ai-models": [
+      {
+        "name": "South African police arrest two Thai men for allegedly smugg",
+        "provider": "RocketNews | Top News Stories From Around the Globe",
+        "type": "AI 项目/工具",
+        "bestFor": "South African law enforcement has apprehended two Thai nationals on separate occasions for their alleged involvement in smuggling protected parrot eggs from the",
+        "description": "South African law enforcement has apprehended two Thai nationals on separate occasions for their alleged involvement in smuggling protected parrot eggs from the country. The arrest",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RocketNews | Top News Stories From Around the Globe",
+        "url": "https://rocketnews.com/2026/08/south-african-police-arrest-two-thai-men-for-allegedly-smuggling-parrot-eggs/"
+      },
+      {
+        "name": "Canada announces 'dollar-for-dollar' retaliatory tariffs on ",
+        "provider": "RocketNews | Top News Stories From Around the Globe",
+        "type": "AI 项目/工具",
+        "bestFor": "Canada unveiled a comprehensive retaliatory tariff scheme targeting approximately C$28 billion ($20 billion) in American products, with rates ranging from 15% t",
+        "description": "Canada unveiled a comprehensive retaliatory tariff scheme targeting approximately C$28 billion ($20 billion) in American products, with rates ranging from 15% to 50%, according to ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RocketNews | Top News Stories From Around the Globe",
+        "url": "https://rocketnews.com/2026/08/canada-announces-dollar-for-dollar-retaliatory-tariffs-on-us-as-high-as-50/"
+      },
       {
         "name": "Local AI cloud project puts over 400 Nvidia GPUs to work",
         "provider": "ITWeb",
@@ -6994,31 +7016,31 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Barchart.com",
         "url": "https://www.barchart.com/story/news/4000661/aixc-s-roboshare-secures-new-short-and-long-term-orders-plans-to-build-north-america-s-largest-and-most-diverse-robot-sharing-platform"
-      },
-      {
-        "name": "Ira Skills Focuses on Knowledge-to-Income Approach to Skill ",
-        "provider": "Sri Lanka Source",
-        "type": "AI 项目/工具",
-        "bestFor": "VMPL\n\nMumbai (Maharashtra) [India], August 24: Ira Skills, an education and skill-development company founded by entrepreneur and Active Income Coach Deven U Pa",
-        "description": "VMPL\n\nMumbai (Maharashtra) [India], August 24: Ira Skills, an education and skill-development company founded by entrepreneur and Active Income Coach Deven U Pandey, is focusing on",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Sri Lanka Source",
-        "url": "https://www.srilankasource.com/news/279261961/ira-skills-focuses-on-knowledge-to-income-approach-to-skill-development-and-career-growth"
-      },
-      {
-        "name": "Tenable advances exposure management with coverage across ev",
-        "provider": "TahawulTech.com",
-        "type": "AI 项目/工具",
-        "bestFor": "Tenable® Holdings, Inc., the exposure management company, recently announced enhanced AI security capabilities within the Tenable One Exposure Management Platfo",
-        "description": "Tenable® Holdings, Inc., the exposure management company, recently announced enhanced AI security capabilities within the Tenable One Exposure Management Platform.\n\nTenable One AI ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "TahawulTech.com",
-        "url": "https://www.tahawultech.com/news/tenable-advances-exposure-management-with-coverage-across-every-major-ai-platform-and-developer-tool/"
       }
     ],
     "ai-business": [
+      {
+        "name": "Thailand ranks 26th for AI traffic as ChatGPT dominates",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Thailand recorded 130.56 million AI tool visits in June, ranking 26th worldwide, while ChatGPT retained a 40.9% share of global traffic.",
+        "description": "Thailand recorded 130.56 million AI tool visits in June, ranking 26th worldwide, while ChatGPT retained a 40.9% share of global traffic.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Google Gemini",
+        "url": "https://www.nationthailand.com/business/tech/40070314"
+      },
+      {
+        "name": "FDA approves breakthrough drug daraxonrasib to treat pancrea",
+        "provider": "RocketNews | Top News Stories From Around the Globe",
+        "type": "AI 项目/工具",
+        "bestFor": "The US Food and Drug Administration granted approval for daraxonrasib, a treatment developed by Revolution Medicines for pancreatic cancer. The drug, marketed u",
+        "description": "The US Food and Drug Administration granted approval for daraxonrasib, a treatment developed by Revolution Medicines for pancreatic cancer. The drug, marketed under the brand name ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RocketNews | Top News Stories From Around the Globe",
+        "url": "https://rocketnews.com/2026/08/fda-approves-breakthrough-drug-daraxonrasib-to-treat-pancreatic-cancer/"
+      },
       {
         "name": "Flowgear encourages teams to start building with AI - and ke",
         "provider": "ITWeb",
@@ -7524,38 +7546,6 @@ window.AI_GENERATED_DATA = {
         "watch": "亚马逊的市值波动可能受到市场情绪影响，投资者需谨慎评估风险。",
         "sourceName": "NewsAPI:large language model",
         "url": "https://cryptobriefing.com/amazon-surpasses-3-trillion-market-cap/"
-      },
-      {
-        "name": "Quantum Synthetic Intelligence 扩展主权 AI 平台，聚焦隐私与企业创新",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "QSI 的主权 AI 平台将为政府和企业提供更安全的 AI 解决方案，可能改变决策过程，尤其是在涉及敏感数据的领域。随着平台的推出，预计将推动印度在 AI 领域的自主创新，减少对外部技术的依赖。该平台的成功实施将使得智能基础设施、交通和能源管理等行业受益，提升运营效率并满足隐私要求。此外，QSI 的研究成果可能会影响全",
-        "description": "Quantum Synthetic Intelligence（QSI）于2026年8月3日宣布，继续扩展其印度本土主权 AI 平台，旨在为政府和企业提供安全、隐私优先的人工智能解决方案。该平台将支持边缘计算和企业创新，强化印度在 AI 领域的自主能力。",
-        "useCases": [
-          "开发符合当地法规的 AI 应用，提升政府服务效率。",
-          "在企业中实施边缘计算 AI，优化数据处理和决策支持。",
-          "利用 QSI 平台进行智能交通管理，提升城市交通流量。"
-        ],
-        "watch": "可能面临 API 价格波动，影响企业预算。",
-        "sourceName": "NewsData.io:large language model",
-        "url": "https://www.financialcontent.com/article/marketersmedia-2026-8-3-quantum-synthetic-intelligence-announces-expansion-of-sovereign-ai-platform-for-government-and-enterprise-applications"
-      },
-      {
-        "name": "Thales推出Imperva for AWS，助力企业保护应用与API",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Imperva for AWS的推出，主要面向需要高安全性和低延迟的企业用户，尤其是金融、医疗和电商等行业。这些行业对数据安全有着严格的要求，Imperva的集中管理和企业级保护能够有效降低安全风险。此外，随着云计算的普及，越来越多的企业将面临多云环境的挑战，Imperva的解决方案可以帮助他们简化安全管理，提升整体安",
-        "description": "Thales近日发布Imperva for AWS，提供企业级的Web应用、API及机器人保护，利用Amazon CloudFront简化部署并增强安全性。该解决方案通过集中管理降低操作复杂性，适用于AWS及多云环境，旨在帮助企业抵御网络攻击和恶意机器人活动。",
-        "useCases": [
-          "部署Imperva for AWS，保护企业的Web应用和API，抵御网络攻击。",
-          "利用集中管理功能，简化多云环境中的安全策略配置。",
-          "通过Amazon CloudFront快速上线新应用，确保安全性与性能。",
-          "监控和分析流量，识别并阻止恶意机器人活动。",
-          "为合规审计提供详细的安全日志和报告。"
-        ],
-        "watch": "在使用Imperva for AWS时，企业需注意API调用的费用，可能会因流量激增而增加成本。",
-        "sourceName": "NewsData.io:artificial intelligence",
-        "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/thales-launches-imperva-for-aws-to-help-organizations-protect-applications-and-apis"
       }
     ],
     "ai-benchmark": [
@@ -8746,6 +8736,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-research": [
       {
+        "name": "Unveiling Spectral Mechanisms in Training-Free LLM Text Dete",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "The rapid advancement of Large Language Models (LLMs) makes it increasingly difficult to distinguish human writing from machine-generated text. Training-free de",
+        "description": "The rapid advancement of Large Language Models (LLMs) makes it increasingly difficult to distinguish human writing from machine-generated text. Training-free detection offers a sca",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2608.25944v1"
+      },
+      {
         "name": "Auditing the Synthetic Memoir: Measuring Scene-Level Confabu",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -9234,23 +9235,6 @@ window.AI_GENERATED_DATA = {
         "watch": "数据库信息可能不完整或存在错误，导致研究结果不准确。",
         "sourceName": "Currents:artificial intelligence",
         "url": "https://www.smithsonianmag.com/smart-news/to-recover-artworks-looted-by-the-nazis-researchers-are-getting-creative-with-new-strategies-including-an-ai-chatbot-and-a-campaign-of-wanted-posters-180989247/"
-      },
-      {
-        "name": "字节跳动发布 Seedance 2.5：视频创作新纪元",
-        "provider": "字节 Seed：Research Feed（网页内嵌数据）",
-        "type": "AI 项目/工具",
-        "bestFor": "Seedance 2.5 的推出将极大地改变视频创作的方式，尤其对教育、广告、影视等行业的从业者来说，能够更高效地制作高质量视频内容。教育工作者可以利用该模型将抽象知识转化为生动的教学视频，广告创意人员则能更灵活地表达创意。此外，开发者也能通过 API 接入，拓展更多应用场景，推动行业创新。",
-        "description": "字节跳动近日推出了新一代视频创作模型 Seedance 2.5，单次生成视频时长提升至 30 秒，并支持多轮延长。该模型允许用户输入多达 30 张图片、10 段视频和 10 段音频作为参考素材，显著增强了多模态参考和编辑能力。Seedance 2.5 已在即梦 AI 和豆包专业版等平台上线，API 服务也将很快推出。",
-        "useCases": [
-          "利用 Seedance 2.5 制作教学视频，将复杂的科学原理转化为动态演示。",
-          "在广告创作中，快速生成高质量的宣传片，提升创意表达的效率。",
-          "影视团队使用该模型进行长视频的叙事创作，保持故事的连贯性。",
-          "开发者通过 API 接入，构建基于视频生成的应用，拓展市场。",
-          "内容创作者利用多模态参考，丰富视频内容，提升观众的观看体验。"
-        ],
-        "watch": "API 的使用可能涉及费用和配额限制，需提前评估成本。",
-        "sourceName": "字节 Seed：Research Feed（网页内嵌数据）",
-        "url": "https://seed.bytedance.com/zh/blog/%E4%B8%80%E9%95%9C%E6%88%90%E7%89%87-%E9%9A%8F%E5%BF%83%E5%8F%82%E8%80%83-seedance-2-5-%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83"
       }
     ],
     "ai-office": []
@@ -10659,7 +10643,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-08-27",
-    "generatedAt": "2026-08-27T09:43:32.047734Z",
+    "generatedAt": "2026-08-27T12:17:09.911029Z",
     "total": 38,
     "sections": [
       {
@@ -10938,6 +10922,17 @@ window.AI_GENERATED_DATA = {
             "reason": ""
           },
           {
+            "title": "Unveiling Spectral Mechanisms in Training-Free LLM Text Detection",
+            "summary": "The rapid advancement of Large Language Models (LLMs) makes it increasingly difficult to distinguish human writing from machine-generated te",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.25944v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-26",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
             "title": "Distinct dynamics of conceptual and referential disruptions in human reading and large language model processing",
             "summary": "Linguistic meaning is grounded in conceptual content, from which reference to particular entities emerges as words enter discourse. To exami",
             "source": "arXiv",
@@ -11012,17 +11007,6 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-08-26",
             "publishedAt": "2026-08-26T00:00",
-            "reason": ""
-          },
-          {
-            "title": "Governed reports with Amazon Quick Desktop and Amazon FSx for NetApp ONTAP",
-            "summary": "Build a governed weekly reporting workflow with Amazon Quick Desktop and Amazon FSx for NetApp ONTAP. An Amazon S3 access point exposes an a",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/governed-reports-with-amazon-quick-desktop-and-amazon-fsx-for-netapp-ontap/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-26",
-            "publishedAt": "2026-08-26T00:35",
             "reason": ""
           }
         ]
