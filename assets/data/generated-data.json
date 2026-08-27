@@ -1,19 +1,47 @@
 {
   "lastUpdated": "2026-08-28",
-  "generatedAt": "2026-08-27T19:44:44.122138Z",
+  "generatedAt": "2026-08-27T23:15:45.654323Z",
   "news": [
     {
-      "title": "Introducing India cross-Region inference for OpenAI GPT-5.6 models on Amazon Bedrock",
+      "title": "Build agentic creative workflows with Amazon Quick and fal",
+      "summary": "Creative teams produce more assets than ever, but fragmented tools and manual context transfer slow production. This post shows how to build a reusable agent harness with Amazon Qu",
+      "category": "ai-agents",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-08-28",
+      "publishedAt": "2026-08-28T07:04",
+      "collectedAt": "2026-08-28T07:15",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-agentic-creative-workflows-with-amazon-quick-and-fal/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Introducing OpenAI models on Amazon Bedrock for in-country inferencing in India",
       "summary": "Amazon Bedrock now supports the OpenAI GPT-5.6 models, Terra and Luna, in India with India geographic cross-Region inference. If you have local data processing requirements, you ca",
       "category": "ai-models",
       "source": "RSS · AWS Machine Learning",
       "date": "2026-08-28",
       "publishedAt": "2026-08-28T02:36",
-      "collectedAt": "2026-08-28T03:44",
+      "collectedAt": "2026-08-28T06:06",
       "dateStatus": "verified",
       "sourceDate": "",
       "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-india-cross-region-inference-for-openai-gpt-5-6-models-on-amazon-bedrock/",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-openai-models-on-amazon-bedrock-for-in-country-inferencing-in-india/",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -27,7 +55,14 @@
       "moduleTargets": [
         "news"
       ],
-      "sourceCount": 1
+      "sourceCount": 2,
+      "relatedSources": [
+        {
+          "source": "RSS · AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-india-cross-region-inference-for-openai-gpt-5-6-models-on-amazon-bedrock/",
+          "title": "Introducing India cross-Region inference for OpenAI GPT-5.6 models on Amazon Bedrock"
+        }
+      ]
     },
     {
       "title": "Planetary prediction engine: Automating global models via Earth AI",
@@ -2708,61 +2743,6 @@
       "moduleTargets": [
         "news",
         "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "An AI tool for prioritizing candidate biomarkers from wearable sensor data",
-      "summary": "Generative AI",
-      "category": "ai-models",
-      "source": "RSS · Google Research",
-      "date": "2026-08-22",
-      "publishedAt": "2026-08-22T01:02",
-      "collectedAt": "2026-08-24T14:12",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://research.google/blog/an-ai-tool-for-prioritizing-candidate-biomarkers-from-wearable-sensor-data/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "How Hugging Face Inference Endpoints, Jobs, and Buckets Power Search on Papers with Code",
-      "summary": "",
-      "category": "ai-coding",
-      "source": "RSS · Hugging Face Blog",
-      "date": "2026-08-21",
-      "publishedAt": "2026-08-21T08:00",
-      "collectedAt": "2026-08-26T00:55",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://huggingface.co/blog/pwc-search",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
       ],
       "sourceCount": 1
     }
@@ -6404,6 +6384,17 @@
     ],
     "ai-agents": [
       {
+        "name": "Build agentic creative workflows with Amazon Quick and fal",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Creative teams produce more assets than ever, but fragmented tools and manual context transfer slow production. This post shows how to build a reusable agent ha",
+        "description": "Creative teams produce more assets than ever, but fragmented tools and manual context transfer slow production. This post shows how to build a reusable agent harness with Amazon Qu",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/build-agentic-creative-workflows-with-amazon-quick-and-fal/"
+      },
+      {
         "name": "Previewing the Model Hardware Standard Announcements Aug 27,",
         "provider": "HTML",
         "type": "AI 项目/工具",
@@ -6831,17 +6822,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2608.24644v1"
-      },
-      {
-        "name": "IAPO: Influence-Aware Policy Optimization for Credit Assignm",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Large Language Model (LLM) agents increasingly solve long-horizon tasks through multi-turn interactions with users and external tools. In these settings, releva",
-        "description": "Large Language Model (LLM) agents increasingly solve long-horizon tasks through multi-turn interactions with users and external tools. In these settings, relevant task information ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2608.24588v1"
       }
     ],
     "ai-models": [
@@ -10899,8 +10879,8 @@
   ],
   "dailyReport": {
     "date": "2026-08-28",
-    "generatedAt": "2026-08-27T19:44:44.092170Z",
-    "total": 20,
+    "generatedAt": "2026-08-27T23:15:45.626354Z",
+    "total": 21,
     "sections": [
       {
         "category": "ai-coding",
@@ -10934,6 +10914,17 @@
         "category": "ai-agents",
         "label": "Agent / MCP",
         "items": [
+          {
+            "title": "Build agentic creative workflows with Amazon Quick and fal",
+            "summary": "Creative teams produce more assets than ever, but fragmented tools and manual context transfer slow production. This post shows how to build",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/build-agentic-creative-workflows-with-amazon-quick-and-fal/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-28",
+            "publishedAt": "2026-08-28T07:04",
+            "reason": ""
+          },
           {
             "title": "Previewing the Model Hardware Standard Announcements Aug 27, 2026 We’re opening a research preview of the Model Hardware",
             "summary": "Previewing the Model Hardware Standard Announcements Aug 27, 2026 We’re opening a research preview of the Model Hardware Standard (MHS), a s",
@@ -10974,12 +10965,12 @@
         "label": "模型发布",
         "items": [
           {
-            "title": "Introducing India cross-Region inference for OpenAI GPT-5.6 models on Amazon Bedrock",
+            "title": "Introducing OpenAI models on Amazon Bedrock for in-country inferencing in India",
             "summary": "Amazon Bedrock now supports the OpenAI GPT-5.6 models, Terra and Luna, in India with India geographic cross-Region inference. If you have lo",
             "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/introducing-india-cross-region-inference-for-openai-gpt-5-6-models-on-amazon-bedrock/",
+            "url": "https://aws.amazon.com/blogs/machine-learning/introducing-openai-models-on-amazon-bedrock-for-in-country-inferencing-in-india/",
             "score": 70,
-            "sourceCount": 1,
+            "sourceCount": 2,
             "date": "2026-08-28",
             "publishedAt": "2026-08-28T02:36",
             "reason": ""
