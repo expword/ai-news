@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-08-27",
-  "generatedAt": "2026-08-27T04:38:46.609468Z",
+  "generatedAt": "2026-08-27T07:15:12.732943Z",
   "news": [
     {
       "title": "GlucoFM：面向连续血糖监测的基础模型",
@@ -288,6 +288,253 @@ window.AI_GENERATED_DATA = {
           "title": "Preparing data for supervised fine-tuning Part 2: Advanced data strategies"
         }
       ]
+    },
+    {
+      "title": "Bayesian Optimization for Self-Driving Materials Laboratories: From Algorithms to Physics-Informed Workflows",
+      "summary": "Self-driving laboratories (SDLs) are transforming materials research by closing the loop among synthesis, characterization, data analysis and experimental decision making. Bayesian",
+      "category": "ai-research",
+      "source": "arXiv",
+      "date": "2026-08-26",
+      "publishedAt": "",
+      "collectedAt": "2026-08-27T15:15",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-26",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.26016v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "RTLGuard: A Lightweight Teacher-Student Defense for Poisoned RTL Code Generation Models",
+      "summary": "The rapid advancement of large language models (LLMs) is driving a shift toward automated register transfer level (RTL) code generation, enabling designers to translate high-level ",
+      "category": "ai-coding",
+      "source": "arXiv",
+      "date": "2026-08-26",
+      "publishedAt": "",
+      "collectedAt": "2026-08-27T15:15",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-26",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.26049v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "A Self-Evolving Multi-Agent Framework Defense against LLM Jailbreak Attacks",
+      "summary": "Large language models (LLMs) remain vulnerable to jailbreak attacks that exploit techniques such as role-playing, obfuscation, code transformation, and multi-step indirection to el",
+      "category": "ai-coding",
+      "source": "arXiv",
+      "date": "2026-08-26",
+      "publishedAt": "",
+      "collectedAt": "2026-08-27T15:15",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-26",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.26008v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Distinct dynamics of conceptual and referential disruptions in human reading and large language model processing",
+      "summary": "Linguistic meaning is grounded in conceptual content, from which reference to particular entities emerges as words enter discourse. To examine the processing dynamics associated wi",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-08-26",
+      "publishedAt": "",
+      "collectedAt": "2026-08-27T15:15",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-26",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.25999v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "VISA: Agentic Self-Evolving Data Synthesis for Multimodal Instruction Following",
+      "summary": "Multimodal instruction-following models require training data that is accurate, diverse, verifiable, and challenging. Existing synthesis pipelines typically follow a one-pass gener",
+      "category": "ai-agents",
+      "source": "arXiv",
+      "date": "2026-08-26",
+      "publishedAt": "",
+      "collectedAt": "2026-08-27T15:15",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-26",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.26013v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Spectral Allocation: Why Muon Outperforms Adam, and How to Improve Muon",
+      "summary": "Orthogonal optimisers such as Muon can substantially accelerate large language model pretraining relative to Adam, yet the mechanism remains incompletely understood. We investigate",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-08-26",
+      "publishedAt": "",
+      "collectedAt": "2026-08-27T15:15",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-26",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.25990v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "ProgRouter: Online Progress-Guided Orchestration for Multi-Agent LLM Workflows under Quality-Cost Tradeoffs",
+      "summary": "Multi-agent large language model (LLM) workflows have emerged as a powerful paradigm for solving complex, open-ended tasks through collaborative reasoning among specialized LLM age",
+      "category": "ai-agents",
+      "source": "arXiv",
+      "date": "2026-08-26",
+      "publishedAt": "",
+      "collectedAt": "2026-08-27T15:15",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-26",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.25992v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Multi-Granularity Context-Enhanced RAG over Multimodal Knowledge Graphs",
+      "summary": "Retrieval-augmented generation (RAG) is widely used to mitigate hallucination issues in large language models (LLMs) and multimodal large language models (MLLMs). In particular, kn",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-08-26",
+      "publishedAt": "",
+      "collectedAt": "2026-08-27T15:15",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-26",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.25986v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "SciMIF: Understanding Multimodal Instruction Following in Scientific Domains",
+      "summary": "Understanding instruction-following capabilities in scientific domains is essential for effectively leveraging Multimodal Large Language Models (MLLMs) to advance the development o",
+      "category": "ai-benchmark",
+      "source": "arXiv",
+      "date": "2026-08-26",
+      "publishedAt": "",
+      "collectedAt": "2026-08-27T15:15",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-26",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.25973v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
     },
     {
       "title": "LLM Agents Perform Controlled Experiments Using Simulation Models",
@@ -5591,6 +5838,28 @@ window.AI_GENERATED_DATA = {
   "topicResources": {
     "ai-coding": [
       {
+        "name": "RTLGuard: A Lightweight Teacher-Student Defense for Poisoned",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "The rapid advancement of large language models (LLMs) is driving a shift toward automated register transfer level (RTL) code generation, enabling designers to t",
+        "description": "The rapid advancement of large language models (LLMs) is driving a shift toward automated register transfer level (RTL) code generation, enabling designers to translate high-level ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2608.26049v1"
+      },
+      {
+        "name": "A Self-Evolving Multi-Agent Framework Defense against LLM Ja",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Large language models (LLMs) remain vulnerable to jailbreak attacks that exploit techniques such as role-playing, obfuscation, code transformation, and multi-st",
+        "description": "Large language models (LLMs) remain vulnerable to jailbreak attacks that exploit techniques such as role-playing, obfuscation, code transformation, and multi-step indirection to el",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2608.26008v1"
+      },
+      {
         "name": "GLM-5.3-Flash 开源：320B 总参数、AA 指数 57 分，定价为 Opus 4.8 的 1/40",
         "provider": "公众号：智谱（GLM）",
         "type": "AI 项目/工具",
@@ -6113,43 +6382,86 @@ window.AI_GENERATED_DATA = {
         "watch": "实施 AEO 策略需要持续投入时间和资源，初创企业可能面临预算压力。",
         "sourceName": "NewsData.io:AI coding tool",
         "url": "https://www.salesforce.com/blog/small-business/aeo-strategies-for-startups/"
-      },
-      {
-        "name": "本周网络安全回顾：AI 模型失控、8800 万美元比特币盗窃、水系统攻击",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "这些事件对多个行业产生了深远影响。首先，AI 开发者需加强模型的安全性，确保在测试阶段不泄露敏感信息。其次，金融行业和硬件制造商需重新审视产品的安全设计，避免因小漏洞导致大损失。政府机构则需提升网络防护能力，以应对日益复杂的网络威胁。对于普通用户而言，了解这些安全事件有助于提高个人信息保护意识，避免成为攻击的目标。此外",
-        "description": "我注意到本周网络安全领域频繁出现权限管理问题。多个系统和工具的漏洞被利用，导致数据泄露和未授权访问。尤其是一些老旧的漏洞和默认设置被攻击者利用，造成了严重的后果。我们需要更加关注这些潜在的安全隐患。",
-        "useCases": [
-          "加强 AI 模型的安全测试，确保在开发阶段识别潜在的安全漏洞。",
-          "更新硬件钱包的固件，修复随机数生成器的缺陷，保障用户资产安全。",
-          "实施针对 CVE-2026-42897 的补丁，保护企业邮箱系统免受攻击。",
-          "定期审查和更新 Ruby on Rails 应用，防止未授权访问和数据泄露。",
-          "建立水系统的网络安全防护机制，防止类似攻击对公共服务的影响。"
-        ],
-        "watch": "使用不安全的随机数生成器可能导致资产被盗，开发者需确保生成过程的安全性。",
-        "sourceName": "NewsData.io:AI coding tool",
-        "url": "https://thehackernews.com/2026/08/weekly-recap-rogue-ai-models-88m.html"
-      },
-      {
-        "name": "PhpStorm 2026.2 发布，新增 Laravel 工具窗口与 PHP 8.5 支持",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "此版本的发布将显著提升 PHP 开发者的工作效率，特别是使用 Laravel 框架的开发者。通过集成新的工具窗口和智能代码补全功能，开发者可以更快速地定位问题并进行修复。此外，项目索引速度的提升也意味着开发者可以更快地获取反馈，优化开发流程。整体来看，这一更新将改变开发者的工作方式，推动更高效的开发实践。",
-        "description": "JetBrains 发布了 PhpStorm 2026.2，新增专用的 Laravel 工具窗口，支持 PHP 8.5 管道操作符，并引入了代理技能管理器。此版本还包括文件路径标记的新 PHP 属性，改进的错误日志浏览功能，以及对多种质量工具的支持，提升了开发效率。",
-        "useCases": [
-          "使用 Laravel 工具窗口快速访问 Artisan 命令，提升开发效率。",
-          "利用 #[FileReference] 属性标记文件路径，增强代码的可维护性。",
-          "通过 GitHub Copilot 实现智能代码补全，减少手动输入。",
-          "在 IDE 中直接管理 Git 工作树，简化版本控制操作。",
-          "配置 PHP 质量工具，实时检查代码质量，确保代码规范。"
-        ],
-        "watch": "确保使用的 PHP 版本与 PhpStorm 2026.2 兼容，避免因版本不匹配导致的功能失效。",
-        "sourceName": "NewsData.io:AI coding tool",
-        "url": "https://laravel-news.com/phpstorm-20262-released"
       }
     ],
     "ai-agents": [
+      {
+        "name": "VISA: Agentic Self-Evolving Data Synthesis for Multimodal In",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Multimodal instruction-following models require training data that is accurate, diverse, verifiable, and challenging. Existing synthesis pipelines typically fol",
+        "description": "Multimodal instruction-following models require training data that is accurate, diverse, verifiable, and challenging. Existing synthesis pipelines typically follow a one-pass gener",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2608.26013v1"
+      },
+      {
+        "name": "ProgRouter: Online Progress-Guided Orchestration for Multi-A",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Multi-agent large language model (LLM) workflows have emerged as a powerful paradigm for solving complex, open-ended tasks through collaborative reasoning among",
+        "description": "Multi-agent large language model (LLM) workflows have emerged as a powerful paradigm for solving complex, open-ended tasks through collaborative reasoning among specialized LLM age",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2608.25992v1"
+      },
+      {
+        "name": "Hundreds of OpenAI agents hacked startup and tried to cover ",
+        "provider": "RNZ",
+        "type": "AI 项目/工具",
+        "bestFor": "A swarm of roughly 700 AI agents created by OpenAI carried out the July hack of the open-source platform Hugging Face and in many cases tried to cover their tra",
+        "description": "A swarm of roughly 700 AI agents created by OpenAI carried out the July hack of the open-source platform Hugging Face and in many cases tried to cover their tracks, a pair of repor",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RNZ",
+        "url": "https://www.rnz.co.nz/news/world/1153300/hundreds-of-openai-agents-hacked-startup-and-tried-to-cover-their-tracks-investigators-say"
+      },
+      {
+        "name": "Agentic AI warning from NCSC | UKAuthority",
+        "provider": "UKAuthority",
+        "type": "AI 项目/工具",
+        "bestFor": "The National Cyber Security Centre (NCSC) has highlighted the need for organisations in all sectors to carefully manage the cyber risks of agentic AI systems, w",
+        "description": "The National Cyber Security Centre (NCSC) has highlighted the need for organisations in all sectors to carefully manage the cyber risks of agentic AI systems, which can automate co",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "UKAuthority",
+        "url": "https://www.ukauthority.com/articles/agentic-ai-warning-from-ncsc"
+      },
+      {
+        "name": "Salesforce Stock Jumps 14% as Benioff's AI Numbers Silence S",
+        "provider": "Startup Fortune",
+        "type": "AI 项目/工具",
+        "bestFor": "Salesforce shares jumped 14% after a Q2 FY27 beat, with Agentforce annualized revenue topping $1.5 billion, up 240% year over year. CEO Marc Benioff used the re",
+        "description": "Salesforce shares jumped 14% after a Q2 FY27 beat, with Agentforce annualized revenue topping $1.5 billion, up 240% year over year. CEO Marc Benioff used the report to call the 'Sa",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Startup Fortune",
+        "url": "https://startupfortune.com/salesforce-stock-jumps-14-as-benioffs-ai-numbers-silence-saas-doubters/"
+      },
+      {
+        "name": "OpenAI agents tried covering their tracks after Hugging Face",
+        "provider": "NewsBytes",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenAI has released an official report detailing the breach of open-source platform Hugging Face. The incident, which took place in July, was not just the work ",
+        "description": "OpenAI has released an official report detailing the breach of open-source platform Hugging Face. The incident, which took place in July, was not just the work of one rogue AI agen",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsBytes",
+        "url": "https://www.newsbytesapp.com/news/science/openai-reveals-how-ai-agents-triggered-the-hugging-face-breach/story"
+      },
+      {
+        "name": "Salesforce Turns Enterprise Applications into Enterprise Cap",
+        "provider": "Enterprise IT News",
+        "type": "AI 项目/工具",
+        "bestFor": "Headless 360 is expanding across the Salesforce platform, transforming every Salesforce cloud into reusable enterprise capabilities that any authorized AI agent",
+        "description": "Headless 360 is expanding across the Salesforce platform, transforming every Salesforce cloud into reusable enterprise capabilities that any authorized AI agent can securely discov",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Enterprise IT News",
+        "url": "https://enterpriseit.news/salesforce-turns-enterprise-applications-into-enterprise-capabilities/"
+      },
       {
         "name": "LLM Agents Perform Controlled Experiments Using Simulation M",
         "provider": "RSS",
@@ -6512,86 +6824,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Market Screener",
         "url": "https://www.marketscreener.com/news/meta-platforms-plans-consumer-ai-agent-launch-ce7858d8d980f022"
-      },
-      {
-        "name": "Dual-Grained Agent Memory and Shapley Context Attribution fo",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Frontier multimodal large language models (MLLMs) deliver impressive perception yet still falter on scientific and mathematical reasoning. Parameter-level adapt",
-        "description": "Frontier multimodal large language models (MLLMs) deliver impressive perception yet still falter on scientific and mathematical reasoning. Parameter-level adaptation is unavailable",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2608.23268v1"
-      },
-      {
-        "name": "From Natural Language Policies to Executable Obligations: A ",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Large Language Models (LLMs) agents deployed in vehicles must satisfy a written operating policy on every turn: a single hallucinated identifier, omitted mandat",
-        "description": "Large Language Models (LLMs) agents deployed in vehicles must satisfy a written operating policy on every turn: a single hallucinated identifier, omitted mandatory side-effect, or ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2608.23282v1"
-      },
-      {
-        "name": "IntentQA: Intent Question Answering in Videos by Cognitive C",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Video understanding requires intelligent agents to transcend mere recognition of visual facts and comprehend the underlying intents behind human actions (often ",
-        "description": "Video understanding requires intelligent agents to transcend mere recognition of visual facts and comprehend the underlying intents behind human actions (often termed the \"dark mat",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2608.23330v1"
-      },
-      {
-        "name": "Alabama launches OpenAI probe after artificial intelligence ",
-        "provider": "The Jerusalem Post",
-        "type": "AI 项目/工具",
-        "bestFor": "Alabama's attorney general said on Monday the state had opened an investigation into OpenAI after its models hacked technology company Hugging Face last month, ",
-        "description": "Alabama's attorney general said on Monday the state had opened an investigation into OpenAI after its models hacked technology company Hugging Face last month, raising concerns abo",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Jerusalem Post",
-        "url": "https://www.jpost.com/business-and-innovation/tech-and-start-ups/article-906485"
-      },
-      {
-        "name": "Visa and Mastercard Back a New 26-Firm Rulebook for AI Agent",
-        "provider": "Startup Fortune",
-        "type": "AI 项目/工具",
-        "bestFor": "Rain launched the Agentic Payments Alliance on August 18, 2026, with Visa, Mastercard and 24 other firms agreeing to build shared rules for how AI agents get au",
-        "description": "Rain launched the Agentic Payments Alliance on August 18, 2026, with Visa, Mastercard and 24 other firms agreeing to build shared rules for how AI agents get authorized to spend mo",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Startup Fortune",
-        "url": "https://startupfortune.com/visa-and-mastercard-back-a-new-26-firm-rulebook-for-ai-agent-payments/"
-      },
-      {
-        "name": "Meta plans to roll out 'Hatch' AI agent in next several week",
-        "provider": "Markets Insider",
-        "type": "AI 项目/工具",
-        "bestFor": "Meta intends to launch its consumer version of the OpenClaw AI agent, known internally as \"Hatch,\" as soon as the next several weeks and is eyeing October for i",
-        "description": "Meta intends to launch its consumer version of the OpenClaw AI agent, known internally as \"Hatch,\" as soon as the next several weeks and is eyeing October for its latest AI model, ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Markets Insider",
-        "url": "https://markets.businessinsider.com/news/stocks/meta-plans-to-roll-out-hatch-ai-agent-in-next-several-weeks-information-says-1036488781"
-      },
-      {
-        "name": "Liner Secures 50 Billion Won Series C, Cumulative 94 Billion",
-        "provider": "조선일보",
-        "type": "AI 项目/工具",
-        "bestFor": "LB Investment-led funding to boost R&D, talent, and global expansion for AI leadership\n\nLiner, an AI agent startup, announced on the 25th that it has secured a ",
-        "description": "LB Investment-led funding to boost R&D, talent, and global expansion for AI leadership\n\nLiner, an AI agent startup, announced on the 25th that it has secured a Series C investment ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "조선일보",
-        "url": "https://www.chosun.com/english/industry-en/2026/08/25/SUVRKMKNUFCC5DEPSPEJIHH6JM/"
       }
     ],
     "ai-models": [
+      {
+        "name": "Anthropic signs $45B deal with Nscale for AI computing power",
+        "provider": "NewsBytes",
+        "type": "AI 项目/工具",
+        "bestFor": "Anthropic, a leading AI lab, has signed a major deal with British cloud infrastructure provider Nscale. The agreement is worth an estimated $45 billion and will",
+        "description": "Anthropic, a leading AI lab, has signed a major deal with British cloud infrastructure provider Nscale. The agreement is worth an estimated $45 billion and will see Anthropic rent ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsBytes",
+        "url": "https://www.newsbytesapp.com/news/science/anthropic-signs-45b-cloud-computing-deal-with-nscale/story"
+      },
       {
         "name": "Canada is bolstering its defense industry as US relations fr",
         "provider": "The Independent",
@@ -7020,17 +7266,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Yahoo Sports Canada",
         "url": "https://ca.sports.yahoo.com/news/asked-ai-predict-nfl-season-100703370.html"
-      },
-      {
-        "name": "We asked AI to predict the NFL season last year. Here's how ",
-        "provider": "Yahoo Sports",
-        "type": "AI 项目/工具",
-        "bestFor": "Turns out, the robots don't have all the answers.\n\nThe robots, like humans, can't see the future and tell us what is going to happen before it does. Even as the",
-        "description": "Turns out, the robots don't have all the answers.\n\nThe robots, like humans, can't see the future and tell us what is going to happen before it does. Even as the robot rebellion see",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Yahoo Sports",
-        "url": "https://sports.yahoo.com/articles/asked-ai-predict-nfl-season-100703370.html"
       }
     ],
     "ai-business": [
@@ -10678,8 +10913,8 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-08-27",
-    "generatedAt": "2026-08-27T04:38:46.585437Z",
-    "total": 29,
+    "generatedAt": "2026-08-27T07:15:12.708977Z",
+    "total": 38,
     "sections": [
       {
         "category": "ai-coding",
@@ -10705,6 +10940,28 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-08-27",
             "publishedAt": "2026-08-27T00:31",
+            "reason": ""
+          },
+          {
+            "title": "RTLGuard: A Lightweight Teacher-Student Defense for Poisoned RTL Code Generation Models",
+            "summary": "The rapid advancement of large language models (LLMs) is driving a shift toward automated register transfer level (RTL) code generation, ena",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.26049v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-26",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "A Self-Evolving Multi-Agent Framework Defense against LLM Jailbreak Attacks",
+            "summary": "Large language models (LLMs) remain vulnerable to jailbreak attacks that exploit techniques such as role-playing, obfuscation, code transfor",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.26008v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-26",
+            "publishedAt": "",
             "reason": ""
           },
           {
@@ -10819,6 +11076,28 @@ window.AI_GENERATED_DATA = {
             "reason": ""
           },
           {
+            "title": "VISA: Agentic Self-Evolving Data Synthesis for Multimodal Instruction Following",
+            "summary": "Multimodal instruction-following models require training data that is accurate, diverse, verifiable, and challenging. Existing synthesis pip",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.26013v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-26",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "ProgRouter: Online Progress-Guided Orchestration for Multi-Agent LLM Workflows under Quality-Cost Tradeoffs",
+            "summary": "Multi-agent large language model (LLM) workflows have emerged as a powerful paradigm for solving complex, open-ended tasks through collabora",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.25992v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-26",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
             "title": "TRACE: Transition-Aware Residual Control for Multi-Objective Materials Discovery",
             "summary": "arXiv:2608.23631v1 Announce Type: new Abstract: Multi-objective materials discovery with LLM agents is often limited not only by how many ca",
             "source": "RSS · arXiv cs.AI",
@@ -10913,6 +11192,39 @@ window.AI_GENERATED_DATA = {
             "reason": ""
           },
           {
+            "title": "Distinct dynamics of conceptual and referential disruptions in human reading and large language model processing",
+            "summary": "Linguistic meaning is grounded in conceptual content, from which reference to particular entities emerges as words enter discourse. To exami",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.25999v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-26",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Spectral Allocation: Why Muon Outperforms Adam, and How to Improve Muon",
+            "summary": "Orthogonal optimisers such as Muon can substantially accelerate large language model pretraining relative to Adam, yet the mechanism remains",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.25990v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-26",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Multi-Granularity Context-Enhanced RAG over Multimodal Knowledge Graphs",
+            "summary": "Retrieval-augmented generation (RAG) is widely used to mitigate hallucination issues in large language models (LLMs) and multimodal large la",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.25986v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-26",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
             "title": "Learning never stops: How AI makes learning continuous",
             "summary": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the c",
             "source": "RSS · OpenAI Blog",
@@ -10974,6 +11286,17 @@ window.AI_GENERATED_DATA = {
         "label": "评测榜单",
         "items": [
           {
+            "title": "SciMIF: Understanding Multimodal Instruction Following in Scientific Domains",
+            "summary": "Understanding instruction-following capabilities in scientific domains is essential for effectively leveraging Multimodal Large Language Mod",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.25973v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-26",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
             "title": "RENDER: Controlling Reader-Facing Evidence in LLM Memory Evaluation",
             "summary": "arXiv:2608.23568v1 Announce Type: new Abstract: Memory and RAG evaluations often treat the answering model's input as an implementation deta",
             "source": "RSS · arXiv cs.AI",
@@ -10999,6 +11322,17 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-08-27",
             "publishedAt": "2026-08-27T04:10",
+            "reason": ""
+          },
+          {
+            "title": "Bayesian Optimization for Self-Driving Materials Laboratories: From Algorithms to Physics-Informed Workflows",
+            "summary": "Self-driving laboratories (SDLs) are transforming materials research by closing the loop among synthesis, characterization, data analysis an",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.26016v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-26",
+            "publishedAt": "",
             "reason": ""
           },
           {
