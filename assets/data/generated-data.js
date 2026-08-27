@@ -1,7 +1,34 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-08-28",
-  "generatedAt": "2026-08-27T18:34:57.327730Z",
+  "generatedAt": "2026-08-27T19:44:44.122138Z",
   "news": [
+    {
+      "title": "Introducing India cross-Region inference for OpenAI GPT-5.6 models on Amazon Bedrock",
+      "summary": "Amazon Bedrock now supports the OpenAI GPT-5.6 models, Terra and Luna, in India with India geographic cross-Region inference. If you have local data processing requirements, you ca",
+      "category": "ai-models",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-08-28",
+      "publishedAt": "2026-08-28T02:36",
+      "collectedAt": "2026-08-28T03:44",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-india-cross-region-inference-for-openai-gpt-5-6-models-on-amazon-bedrock/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Planetary prediction engine: Automating global models via Earth AI",
       "summary": "Earth AI",
@@ -144,6 +171,33 @@ window.AI_GENERATED_DATA = {
           "title": "Gemini Omni 1.1 Flash 发布，为开发者提供更强生成式视频控制"
         }
       ]
+    },
+    {
+      "title": "Aug 27, 2026 Announcements Expanding our support for scientists",
+      "summary": "Aug 27, 2026 Announcements Expanding our support for scientists",
+      "category": "ai-models",
+      "source": "HTML · Anthropic",
+      "date": "2026-08-27",
+      "publishedAt": "",
+      "collectedAt": "2026-08-28T03:44",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-27",
+      "tags": [],
+      "url": "https://www.anthropic.com/news/expanding-support-for-scientists",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
     },
     {
       "title": "Previewing the Model Hardware Standard Announcements Aug 27, 2026 We’re opening a research preview of the Model Hardware",
@@ -2709,34 +2763,6 @@ window.AI_GENERATED_DATA = {
       "aiSelected": true,
       "moduleTargets": [
         "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "A Neurosymbolic Approach for Constructing Planning Domain Models from Clinical Narratives",
-      "summary": "Surgical procedures such as laparoscopic appendectomy are complex, high-stakes processes, yet formalizing their workflows for decision support remains a significant challenge. Indu",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-08-21",
-      "publishedAt": "",
-      "collectedAt": "2026-08-25T01:32",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-21",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.21186v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
       ],
       "sourceCount": 1
     }
@@ -10873,8 +10899,8 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-08-28",
-    "generatedAt": "2026-08-27T18:34:57.302729Z",
-    "total": 19,
+    "generatedAt": "2026-08-27T19:44:44.092170Z",
+    "total": 20,
     "sections": [
       {
         "category": "ai-coding",
@@ -10948,6 +10974,17 @@ window.AI_GENERATED_DATA = {
         "label": "模型发布",
         "items": [
           {
+            "title": "Introducing India cross-Region inference for OpenAI GPT-5.6 models on Amazon Bedrock",
+            "summary": "Amazon Bedrock now supports the OpenAI GPT-5.6 models, Terra and Luna, in India with India geographic cross-Region inference. If you have lo",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/introducing-india-cross-region-inference-for-openai-gpt-5-6-models-on-amazon-bedrock/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-28",
+            "publishedAt": "2026-08-28T02:36",
+            "reason": ""
+          },
+          {
             "title": "Planetary prediction engine: Automating global models via Earth AI",
             "summary": "Earth AI",
             "source": "RSS · Google Research",
@@ -11003,6 +11040,17 @@ window.AI_GENERATED_DATA = {
             "reason": ""
           },
           {
+            "title": "Aug 27, 2026 Announcements Expanding our support for scientists",
+            "summary": "Aug 27, 2026 Announcements Expanding our support for scientists",
+            "source": "HTML · Anthropic",
+            "url": "https://www.anthropic.com/news/expanding-support-for-scientists",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-27",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
             "title": "Piloting the world's first double-blind AI evaluations",
             "summary": "Piloting the world's first double-blind AI evaluations",
             "source": "RSS · Google DeepMind",
@@ -11055,17 +11103,6 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 2,
             "date": "2026-08-27",
             "publishedAt": "2026-08-27T01:01",
-            "reason": ""
-          },
-          {
-            "title": "Preparing data for supervised fine-tuning Part 1: Formatting and quality",
-            "summary": "Data preparation determines the ceiling of any supervised fine-tuning project. This first post in a two-part series covers the foundations o",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/preparing-data-for-supervised-fine-tuning-part-1-formatting-and-quality/",
-            "score": 70,
-            "sourceCount": 2,
-            "date": "2026-08-27",
-            "publishedAt": "2026-08-27T00:24",
             "reason": ""
           }
         ]
