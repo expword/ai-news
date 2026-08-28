@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-08-28",
-  "generatedAt": "2026-08-27T23:15:45.654323Z",
+  "generatedAt": "2026-08-28T01:43:15.368782Z",
   "news": [
     {
       "title": "Build agentic creative workflows with Amazon Quick and fal",
@@ -2484,252 +2484,6 @@ window.AI_GENERATED_DATA = {
       "sourceDate": "2026-08-24",
       "tags": [],
       "url": "http://arxiv.org/abs/2608.23503v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "How to Train a Critic Stably and Efficiently",
-      "summary": "Group-based reinforcement learning methods such as GRPO for large language models avoid training a critic by sampling multiple responses for each prompt. A reliable critic could in",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-08-24",
-      "publishedAt": "",
-      "collectedAt": "2026-08-25T11:02",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-24",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.23566v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "StrategyBench: Evaluating Explicit Strategy Induction in Large Language Models",
-      "summary": "As large language models are increasingly used in data-scarce and evolving task scenarios, few-shot in-context learning (ICL) has become a key paradigm for task adaptation. However",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-08-24",
-      "publishedAt": "",
-      "collectedAt": "2026-08-25T11:02",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-24",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.23475v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Walking on the DARKSIDE",
-      "summary": "Large Language Models (LLMs) recognise patterns but do not natively track the path of exclusions that a coherent discourse demands. When an input rests on a fabricated authority, a",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-08-24",
-      "publishedAt": "",
-      "collectedAt": "2026-08-25T11:02",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-24",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.23370v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "A Comprehensive Analysis of Arabic Natural Language Processing Research: Trends, Topic Evolution, and Research Gaps -- A Bibliometric and Topic-Based Study",
-      "summary": "Natural Language Processing (NLP) has grown rapidly over the past decade, driven by digital transformation in the Arab world, social media, and large language models (LLMs). Despit",
-      "category": "ai-research",
-      "source": "arXiv",
-      "date": "2026-08-24",
-      "publishedAt": "",
-      "collectedAt": "2026-08-25T11:02",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-24",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.23421v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Systematic Bias in Green Patent Classification: Silent Green and False Green",
-      "summary": "Green-patent indicators built on Cooperative Patent Classification Y02 tags are widely used in research, policy, and investment, yet their construct validity has not been audited a",
-      "category": "ai-research",
-      "source": "arXiv",
-      "date": "2026-08-24",
-      "publishedAt": "",
-      "collectedAt": "2026-08-25T11:02",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-24",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.23420v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
-      "summary": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
-      "category": "ai-models",
-      "source": "RSS · OpenAI Blog",
-      "date": "2026-08-24",
-      "publishedAt": "2026-08-24T20:00",
-      "collectedAt": "2026-08-25T03:51",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://openai.com/index/gpt-5-6-in-kiro",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "AI-powered metadata correction and harmonization",
-      "summary": "Metadata harmonization (standardizing labels, identifiers, and formats so datasets can work together) is still largely manual. This post shows how AI-powered metadata correction wo",
-      "category": "ai-agents",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-08-24",
-      "publishedAt": "2026-08-24T23:53",
-      "collectedAt": "2026-08-25T00:16",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/ai-powered-metadata-correction-and-harmonization/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Accelerating aircraft IFEC diagnostics with agentic AI on AWS",
-      "summary": "Panasonic Avionics worked with AWS and the AWS Generative AI Innovation Center to build an agentic AI system on Amazon Bedrock, Amazon SageMaker, and AWS Glue that diagnoses in-fli",
-      "category": "ai-agents",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-08-22",
-      "publishedAt": "2026-08-22T00:57",
-      "collectedAt": "2026-08-24T14:12",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/accelerating-aircraft-ifec-diagnostics-with-agentic-ai-on-aws/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Agentic Data Operations Platform (ADOP): Data engineering into hours",
-      "summary": "The Agentic Data Operations Platform (ADOP) is a reference architecture on Amazon Bedrock that uses specialized AI agents to automate the full Bronze-to-Silver-to-Gold data pipelin",
-      "category": "ai-agents",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-08-22",
-      "publishedAt": "2026-08-22T01:06",
-      "collectedAt": "2026-08-24T14:12",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/agentic-data-operations-platform-adop-data-engineering-into-hours/",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -6384,6 +6138,28 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "HKT to participate in GenA.I. Sandbox++ to develop AI Agent ",
+        "provider": "asianews.network",
+        "type": "AI 项目/工具",
+        "bestFor": "HONG KONG SAR - - 27 August 2026 - HKT (SEHK: 6823) - HKT Payment Limited, HKT's financial services arm, has been selected by Hong Kong's financial regulators t",
+        "description": "HONG KONG SAR - - 27 August 2026 - HKT (SEHK: 6823) - HKT Payment Limited, HKT's financial services arm, has been selected by Hong Kong's financial regulators to participate in the",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "asianews.network",
+        "url": "https://asianews.network/hkt-to-participate-in-gena-i-sandbox-to-develop-ai-agent-identity-verification/"
+      },
+      {
+        "name": "Anthropic launches Model Hardware Standard to let AI agents ",
+        "provider": "Tech News | Startups News",
+        "type": "AI 项目/工具",
+        "bestFor": "Anthropic is giving AI agents a way to reach beyond screens and software and start operating machines in the physical world.\n\nThe Claude maker on Thursday unvei",
+        "description": "Anthropic is giving AI agents a way to reach beyond screens and software and start operating machines in the physical world.\n\nThe Claude maker on Thursday unveiled the Model Hardwa",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Tech News | Startups News",
+        "url": "https://techstartups.com/2026/08/27/anthropic-launches-model-hardware-standard-to-let-ai-agents-control-physical-machines/"
+      },
+      {
         "name": "Build agentic creative workflows with Amazon Quick and fal",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -6800,31 +6576,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "TheStreet",
         "url": "https://www.thestreet.com/technology/ai-accountability-problem-getting-bigger"
-      },
-      {
-        "name": "FlowX.AI brings industry AI agents to Gemini Enterprise",
-        "provider": "The Next Web",
-        "type": "AI 项目/工具",
-        "bestFor": "FlowX.AI has launched specialized AI agents on Google Cloud Marketplace and as part of Gemini Enterprise, with its agents featured in the Gemini Enterprise for ",
-        "description": "FlowX.AI has launched specialized AI agents on Google Cloud Marketplace and as part of Gemini Enterprise, with its agents featured in the Gemini Enterprise for Financial Services l",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Next Web",
-        "url": "https://thenextweb.com/news/flowx-ai-agents-gemini-enterprise-google-cloud-marketplace"
-      },
-      {
-        "name": "A Literate Programming Environment for Human and Machine Age",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "This paper introduces an environment for constructing literate programs in concert with language-aware machine agents. This environment includes a grammar for e",
-        "description": "This paper introduces an environment for constructing literate programs in concert with language-aware machine agents. This environment includes a grammar for executable program es",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2608.24644v1"
       }
     ],
     "ai-models": [
+      {
+        "name": "Claude Console 新增个人密钥与服务账号密钥",
+        "provider": "Claude Platform：开发者版本说明（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "Claude Console 现已支持创建个人密钥和服务账号密钥，它们以关联账户身份运行并继承相同权限，账户从组织移除后密钥即失效。组织管理员可借此更轻松追踪各账户用量并确保密钥使用合规。这些 API 密钥可限定到特定工作区，也可用于管理端点及账户可访问的任何工作区，工作区 API 密钥仍作为旧版选项保留支持。",
+        "description": "Claude Console 现已支持创建个人密钥和服务账号密钥，它们以关联账户身份运行并继承相同权限，账户从组织移除后密钥即失效。组织管理员可借此更轻松追踪各账户用量并确保密钥使用合规。这些 API 密钥可限定到特定工作区，也可用于管理端点及账户可访问的任何工作区，工作区 API 密钥仍作为旧版选项保留支持。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Claude Platform：开发者版本说明（RSS）",
+        "url": "https://platform.claude.com/docs/en/release-notes/overview#august-27-2026"
+      },
       {
         "name": "3 new ways to plan and book travel in Search",
         "provider": "RSS",
@@ -7253,20 +7018,31 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "MyChesCo",
         "url": "https://www.mychesco.com/a/news/regional/phenom-extends-growth-streak-as-ai-cuts-hiring-costs/"
-      },
-      {
-        "name": "Building a restaurant telephony AI host with Amazon Connect",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Learn how to build a voice ordering system for restaurants that answers a phone call and takes an order end to end, with no app, no website, and no sign-in. It ",
-        "description": "Learn how to build a voice ordering system for restaurants that answers a phone call and takes an order end to end, with no app, no website, and no sign-in. It uses Amazon Connect ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/building-a-restaurant-telephony-ai-host-with-amazon-connect/"
       }
     ],
     "ai-business": [
+      {
+        "name": "Nvidia's Jensen Huang Enters the Open-Weight AI Race",
+        "provider": "Tekedia",
+        "type": "AI 项目/工具",
+        "bestFor": "Nvidia CEO Jensen Huang is taking the company deeper into the rapidly expanding open-weight artificial intelligence market.\n\nSignaling that the world's leading ",
+        "description": "Nvidia CEO Jensen Huang is taking the company deeper into the rapidly expanding open-weight artificial intelligence market.\n\nSignaling that the world's leading AI chipmaker wants a",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Tekedia",
+        "url": "https://www.tekedia.com/nvidias-jensen-huang-enters-the-open-weight-ai-race/"
+      },
+      {
+        "name": "Asian stocks set to edge lower ahead of US Fed chair's polic",
+        "provider": "The Business Times",
+        "type": "AI 项目/工具",
+        "bestFor": "ASIAN STOCKS were set to open mildly lower on Friday (Aug 28) as investors braced for US Federal Reserve chair Kevin Warsh's speech in Jackson Hole, where some ",
+        "description": "ASIAN STOCKS were set to open mildly lower on Friday (Aug 28) as investors braced for US Federal Reserve chair Kevin Warsh's speech in Jackson Hole, where some expect a hawkish ton",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Business Times",
+        "url": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/asian-stocks-set-edge-lower-ahead-us-fed-chairs-policy-speech"
+      },
       {
         "name": "avid to showcase new version of media composer at ibc as cri",
         "provider": "NewscastStudio",
@@ -7754,34 +7530,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "NewsAPI:artificial intelligence",
         "url": "https://biztoc.com/x/045343e60e27c142"
-      },
-      {
-        "name": "加州立法者考虑限制工作场所 AI 监控的法案",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "如果该法案通过，将对加州的工作场所监控方式产生深远影响。企业需要重新评估其监控策略，可能会导致对 AI 技术的使用减少，从而影响工作效率。同时，这也可能促使其他州跟进，形成更广泛的立法趋势，影响全国范围内的企业监控政策。",
-        "description": "加州正在讨论一项旨在限制工作场所人工智能监控的法案，支持者认为这侵犯了工人的隐私权，而反对者则认为这些工具是保障工作安全的重要手段。该法案禁止雇主使用某些收集神经数据和分析员工情绪状态的 AI 监控技术。",
-        "useCases": [
-          "评估当前工作场所的监控技术，识别是否使用了被禁止的 AI 工具。",
-          "与法律顾问合作，确保公司监控政策符合新法案的要求。",
-          "开展员工培训，提升对隐私权和监控技术的认识，增强员工信任。",
-          "与技术供应商沟通，寻找合规的监控解决方案，避免法律风险。",
-          "参与行业讨论，分享对 AI 监控技术的看法，推动行业标准的制定。"
-        ],
-        "watch": "在实施新监控政策时，可能面临员工的不满和抵制，影响工作氛围。",
-        "sourceName": "NewsAPI:artificial intelligence",
-        "url": "https://www.arcamax.com/business/businessnews/s-4267803"
-      },
-      {
-        "name": "SpaceX report, share unlock may sway Hong Kong, mainland Chi",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "SpaceX’s first earnings report since its listing, together with the coming supply of a large chunk of shares available for public trading, will test the strengt",
-        "description": "SpaceX’s first earnings report since its listing, together with the coming supply of a large chunk of shares available for public trading, will test the strength of the artificial ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsAPI:artificial intelligence",
-        "url": "https://biztoc.com/x/d97d196aaaaecbc4"
       }
     ],
     "ai-benchmark": [
@@ -8972,6 +8720,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-research": [
       {
+        "name": "Gemini 3.5 Transcribe 发布：更精准的实时语音转写模型",
+        "provider": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "type": "AI 项目/工具",
+        "bestFor": "Google 推出 Gemini 3.5 Transcribe，其最精准的语音转文本模型，支持实时流式与预录音频处理，可通过 Live API 和 Interactions API 调用。",
+        "description": "Google 推出 Gemini 3.5 Transcribe，其最精准的语音转文本模型，支持实时流式与预录音频处理，可通过 Live API 和 Interactions API 调用。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe"
+      },
+      {
         "name": "Unveiling Spectral Mechanisms in Training-Free LLM Text Dete",
         "provider": "arXiv",
         "type": "AI 项目/工具",
@@ -9456,21 +9215,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · arXiv cs.CV",
         "url": "https://arxiv.org/abs/2608.02803"
-      },
-      {
-        "name": "研究者利用 AI 聊天机器人和海报寻找纳粹掠夺的艺术品",
-        "provider": "Currents",
-        "type": "AI 项目/工具",
-        "bestFor": "AI Provenance Assistant 的推出可能会改变艺术品来源研究的方式，使得更多非专业人士能够参与到这一领域中来。然而，用户需谨慎对待其提供的信息，确保进行必要的验证。此外，随着更多机构采用类似技术，可能会推动艺术品归还的进程，促进对历史不公的修正。",
-        "description": "圣克拉拉大学的研究者们开发了一款名为 AI Provenance Assistant 的聊天机器人，旨在简化纳粹掠夺艺术品的来源研究，尽管其在信息准确性和数据库完整性方面仍面临挑战。",
-        "useCases": [
-          "使用 AI Provenance Assistant 进行艺术品来源查询，快速获取相关信息。",
-          "结合聊天机器人与传统档案研究，提升研究效率和准确性。",
-          "通过展示失踪艺术品的海报，吸引公众参与寻找失物的活动。"
-        ],
-        "watch": "数据库信息可能不完整或存在错误，导致研究结果不准确。",
-        "sourceName": "Currents:artificial intelligence",
-        "url": "https://www.smithsonianmag.com/smart-news/to-recover-artworks-looted-by-the-nazis-researchers-are-getting-creative-with-new-strategies-including-an-ai-chatbot-and-a-campaign-of-wanted-posters-180989247/"
       }
     ],
     "ai-office": []
@@ -10879,7 +10623,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-08-28",
-    "generatedAt": "2026-08-27T23:15:45.626354Z",
+    "generatedAt": "2026-08-28T01:43:15.343811Z",
     "total": 21,
     "sections": [
       {
