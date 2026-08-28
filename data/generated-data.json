@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-08-28",
-  "generatedAt": "2026-08-28T11:58:16.047558Z",
+  "generatedAt": "2026-08-28T14:27:12.145346Z",
   "news": [
     {
       "title": "Supporting Thailand’s next generation of AI startups",
@@ -5609,6 +5609,17 @@
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Nvidia to Nab Hugging Face, the ‘GitHub for AI,’ for $12.9B:",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "GPU giant Nvidia has agreed to buy Hugging Face, an AI model, data, collaboration and platform with more than 13 million registered users, for $12.9 billion, ac",
+        "description": "GPU giant Nvidia has agreed to buy Hugging Face, an AI model, data, collaboration and platform with more than 13 million registered users, for $12.9 billion, according to a report ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:open source LLM",
+        "url": "https://www.hpcwire.com/2026/08/27/nvidia-to-nab-hugging-face-the-github-for-ai-for-12-9b-report/"
+      },
+      {
         "name": "Z.ai reveals Ox Alpha was GLM-5.3-Flash, built on Chinese ch",
         "provider": "Quartz",
         "type": "AI 项目/工具",
@@ -6114,17 +6125,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Cryptopolitan",
         "url": "https://www.cryptopolitan.com/best-ai-agent-builders-2026-no-code-low-code/"
-      },
-      {
-        "name": "Blast Radius",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Agentic coding faces growing problems of affordability and wasted tokens. We introduce Blast Radius, a predictive memory management layer that estimates an inco",
-        "description": "Agentic coding faces growing problems of affordability and wasted tokens. We introduce Blast Radius, a predictive memory management layer that estimates an incoming prompt's reach ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2608.07440v1"
       }
     ],
     "ai-agents": [
@@ -6571,6 +6571,28 @@
     ],
     "ai-models": [
       {
+        "name": "401(k) rollovers can be costly -- and irreversible. What to ",
+        "provider": "RocketNews | Top News Stories From Around the Globe",
+        "type": "AI 项目/工具",
+        "bestFor": "Millions of Americans move retirement savings from workplace 401(k) plans to individual retirement accounts annually, a trend that has accelerated as baby boome",
+        "description": "Millions of Americans move retirement savings from workplace 401(k) plans to individual retirement accounts annually, a trend that has accelerated as baby boomers approach retireme",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RocketNews | Top News Stories From Around the Globe",
+        "url": "https://rocketnews.com/2026/08/401k-rollovers-can-be-costly-and-irreversible-what-to-know-before-moving-your-money-2/"
+      },
+      {
+        "name": "Myanmar military strike kills 14 people at a Buddhist monast",
+        "provider": "RocketNews | Top News Stories From Around the Globe",
+        "type": "AI 项目/工具",
+        "bestFor": "An airstrike targeting a Buddhist monastery in Swel Le Oh village, located approximately 45 miles west of Mandalay in Myanmar's central Sagaing region, resulted",
+        "description": "An airstrike targeting a Buddhist monastery in Swel Le Oh village, located approximately 45 miles west of Mandalay in Myanmar's central Sagaing region, resulted in 14 deaths on Fri",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RocketNews | Top News Stories From Around the Globe",
+        "url": "https://rocketnews.com/2026/08/myanmar-military-strike-kills-14-people-at-a-buddhist-monastery-opposition-group-says-2/"
+      },
+      {
         "name": "Google releases Gemini 3.5 Transcribe in preview: speech-to-",
         "provider": "Softonic",
         "type": "AI 项目/工具",
@@ -6987,28 +7009,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "The South African",
         "url": "https://www.thesouthafrican.com/lifestyle/fashion-and-beauty/how-stylai-is-using-rag-to-turn-ai-fashion-advice-into-a-personal-stylist/"
-      },
-      {
-        "name": "Daily Search Forum Recap: August 25, 2026",
-        "provider": "Search Engine Roundtable",
-        "type": "AI 项目/工具",
-        "bestFor": "Here is a recap of what happened in the search forums today, through the eyes of the Search Engine Roundtable and other search forums on the web.\n\nGoogle Ads is",
-        "description": "Here is a recap of what happened in the search forums today, through the eyes of the Search Engine Roundtable and other search forums on the web.\n\nGoogle Ads is testing using Gemin",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Search Engine Roundtable",
-        "url": "https://www.seroundtable.com/recap-08-25-2026-41938.html"
-      },
-      {
-        "name": "Takaichi skips controversial shrine visit on 81st anniversar",
-        "provider": "RocketNews | Top News Stories From Around the Globe",
-        "type": "AI 项目/工具",
-        "bestFor": "Japan marked the 81st anniversary of its World War II surrender, with Prime Minister Sanae Takaichi declining to visit Tokyo's Yasukuni Shrine, a move apparentl",
-        "description": "Japan marked the 81st anniversary of its World War II surrender, with Prime Minister Sanae Takaichi declining to visit Tokyo's Yasukuni Shrine, a move apparently intended to reduce",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RocketNews | Top News Stories From Around the Globe",
-        "url": "https://rocketnews.com/2026/08/takaichi-skips-controversial-shrine-visit-on-81st-anniversary-of-countrys-world-war-ii-surrender-3/"
       }
     ],
     "ai-business": [
@@ -10587,7 +10587,7 @@
   ],
   "dailyReport": {
     "date": "2026-08-28",
-    "generatedAt": "2026-08-28T11:58:16.021290Z",
+    "generatedAt": "2026-08-28T14:27:12.101257Z",
     "total": 28,
     "sections": [
       {
