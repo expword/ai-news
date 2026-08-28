@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-08-28",
-  "generatedAt": "2026-08-28T06:54:00.301255Z",
+  "generatedAt": "2026-08-28T09:24:46.028251Z",
   "news": [
     {
       "title": "EduRiskX: A Neuro-Symbolic Framework with F-Logic Reasoning for Early Academic Risk Prediction",
@@ -233,6 +233,225 @@ window.AI_GENERATED_DATA = {
           "title": "Gemini Omni 1.1 Flash 发布，为开发者提供更强生成式视频控制"
         }
       ]
+    },
+    {
+      "title": "Persona-Execution Separation: An Architecture Pattern for Evolving LLM Agents under Execution Audit",
+      "summary": "Large language model (LLM) agents in governed organizations must let the persona (instructions, tone, self-presentation) evolve freely, while keeping execution (stateful, audited w",
+      "category": "ai-agents",
+      "source": "arXiv",
+      "date": "2026-08-27",
+      "publishedAt": "",
+      "collectedAt": "2026-08-28T17:24",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-27",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.27427v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Sophistication in GenAI Use: Field Evidence from a Large Firm",
+      "summary": "We study how sophistication in generative AI (genAI) use varies among the back-office workforce of a large firm. Using proprietary data, we observe 713,564 employee prompts and the",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-08-27",
+      "publishedAt": "",
+      "collectedAt": "2026-08-28T17:24",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-27",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.27364v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "From Static to Dynamic: Benchmarking Real-World Code Review with MCR-Bench",
+      "summary": "In real-world software development, code review typically involves iterative interactions between developers and reviewers to improve software quality, making the process costly an",
+      "category": "ai-coding",
+      "source": "arXiv",
+      "date": "2026-08-27",
+      "publishedAt": "",
+      "collectedAt": "2026-08-28T17:24",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-27",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.27442v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "benchmarkDatasets"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Consolidating RLVR Capabilities Across Domains: A Deep Dive into Fusion Paradigms",
+      "summary": "Reinforcement learning with verifiable rewards (RLVR) improves specific capabilities of large language models, but covering multiple capabilities often involves training separate d",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-08-27",
+      "publishedAt": "",
+      "collectedAt": "2026-08-28T17:24",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-27",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.27409v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Retrieval Heads Meet Vision: Uncovering How VLMs Locate and Extract Visual Information",
+      "summary": "Vision-language models (VLMs) can locate an image region referred to by a text prompt and route the corresponding visual evidence to the output, yet the internal mechanism behind t",
+      "category": "ai-image-video",
+      "source": "arXiv",
+      "date": "2026-08-27",
+      "publishedAt": "",
+      "collectedAt": "2026-08-28T17:24",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-27",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.27417v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "INTENT-AS-A-TOOL Makes it Easy to Track Agentic Misalignment",
+      "summary": "As large language models (LLMs) are deployed as autonomous agents, safety failures increasingly involve consequential actions. We study agentic misalignment, where agents take harm",
+      "category": "ai-agents",
+      "source": "arXiv",
+      "date": "2026-08-27",
+      "publishedAt": "",
+      "collectedAt": "2026-08-28T17:24",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-27",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.27348v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "How Language Models Organize and Structure Moral Knowledge",
+      "summary": "How do large language models (LLMs) organize moral knowledge? Models detect moral content broadly, but detection is a low bar. We ask whether they go further, distinguishing moral ",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-08-27",
+      "publishedAt": "",
+      "collectedAt": "2026-08-28T17:24",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-27",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.27402v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "LLMs Can Design Near-Optimal OR Algorithms",
+      "summary": "We ask whether large language models (LLMs) can design effective algorithms for well-specified operations research (OR) problems. We study inventory control, queueing network contr",
+      "category": "ai-research",
+      "source": "arXiv",
+      "date": "2026-08-27",
+      "publishedAt": "",
+      "collectedAt": "2026-08-28T17:24",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-27",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.27296v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
     },
     {
       "title": "From Preferences to Principles: Rubric-Based Alignment for Grounded Knowledge Answers",
@@ -1620,7 +1839,14 @@ window.AI_GENERATED_DATA = {
         "news",
         "topicResources"
       ],
-      "sourceCount": 1
+      "sourceCount": 2,
+      "relatedSources": [
+        {
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2608.27448v1",
+          "title": "TTPO: Test-Time Policy Optimization"
+        }
+      ]
     },
     {
       "title": "Thermal Tuning Overhead in Wafer-Scale Optical Interconnects for LLM MoE Training: A Cross-Layer Analysis and Ferroelectric-Based Mitigation",
@@ -5604,6 +5830,17 @@ window.AI_GENERATED_DATA = {
   "topicResources": {
     "ai-coding": [
       {
+        "name": "AI 工程师笔记本：在 Colab 上免费、无需框架即可使用 RAG/智能体/评估工具",
+        "provider": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "type": "AI 项目/工具",
+        "bestFor": "一套可运行的 Colab 笔记本，面向 AI 工程师与 FDE 技能栈，用原始 API 而非框架构建基于基础模型的系统，覆盖提示词、RAG、评估、智能体、微调与服务化。全部在免费 Groq API 上运行，无需信用卡；LoRA 微调和自托管服务提供概念讲解及可选的 Colab-GPU 附录。包含三个端到端案例研究，且全",
+        "description": "一套可运行的 Colab 笔记本，面向 AI 工程师与 FDE 技能栈，用原始 API 而非框架构建基于基础模型的系统，覆盖提示词、RAG、评估、智能体、微调与服务化。全部在免费 Groq API 上运行，无需信用卡；LoRA 微调和自托管服务提供概念讲解及可选的 Colab-GPU 附录。包含三个端到端案例研究，且全程兼容 OpenAI API，模式可直接",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "url": "https://github.com/calmrocks/ai-engineer-notebooks"
+      },
+      {
         "name": "Anthropic wants AI agents to control lab machines, giving Cl",
         "provider": "India Today",
         "type": "AI 项目/工具",
@@ -6113,24 +6350,31 @@ window.AI_GENERATED_DATA = {
         "watch": "Muse Code 作为封闭模型，可能限制开发者的灵活性和创新性。",
         "sourceName": "NewsAPI:large language model",
         "url": "https://www.theregister.com/ai-and-ml/2026/08/06/meta-wants-to-get-inside-your-terminal-with-its-new-coding-agent/5283717"
-      },
-      {
-        "name": "对手如何利用 AI 进行攻击的深度分析",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "这一研究对网络安全领域的影响深远，尤其是对安全工程师和开发者来说，了解恶意行为者如何利用 AI 可以帮助他们更好地防范潜在威胁。企业在决策时需要考虑到 AI 技术的双刃剑特性，既要利用其优势，也要加强防护措施。此外，随着攻击手段的不断演变，安全团队需要不断更新其防御策略，以应对新兴的威胁。",
-        "description": "我注意到，Talos 收集了来自多个应用程序（如 Claude Code、CodeX、Cursor 和 Gemini）的威胁行为者的提示日志，分析了恶意行为者如何利用云端 AI 技术。研究显示，尽管存在保护措施，许多攻击者依然能够操控模型，展现出不同层次的技术能力。",
-        "useCases": [
-          "分析提示日志，识别恶意行为者的操作模式，以加强防御策略。",
-          "利用 AI 技术开发自动化工具，提升漏洞扫描和修复的效率。",
-          "在安全培训中，使用真实案例帮助团队理解 AI 被滥用的风险。"
-        ],
-        "watch": "使用 AI 进行恶意活动的成本低，导致更多攻击者参与，增加了安全风险。",
-        "sourceName": "NewsAPI:large language model",
-        "url": "https://blog.talosintelligence.com/keep-going-bro-youve-got-this-a-data-driven-look-at-how-adversaries-are-weaponizing-ai/"
       }
     ],
     "ai-agents": [
+      {
+        "name": "Persona-Execution Separation: An Architecture Pattern for Ev",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Large language model (LLM) agents in governed organizations must let the persona (instructions, tone, self-presentation) evolve freely, while keeping execution ",
+        "description": "Large language model (LLM) agents in governed organizations must let the persona (instructions, tone, self-presentation) evolve freely, while keeping execution (stateful, audited w",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2608.27427v1"
+      },
+      {
+        "name": "INTENT-AS-A-TOOL Makes it Easy to Track Agentic Misalignment",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "As large language models (LLMs) are deployed as autonomous agents, safety failures increasingly involve consequential actions. We study agentic misalignment, wh",
+        "description": "As large language models (LLMs) are deployed as autonomous agents, safety failures increasingly involve consequential actions. We study agentic misalignment, where agents take harm",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2608.27348v1"
+      },
       {
         "name": "AI Agent Payment Risks Catch PBOC's Eye",
         "provider": "caixinglobal.com",
@@ -6548,31 +6792,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "CIO",
         "url": "https://www.cio.com/article/4211089/inside-arctic-wolfs-new-agentic-security-platform.html"
-      },
-      {
-        "name": "Nutanix adds more rooms to its agentic AI building",
-        "provider": "Blocks and Files",
-        "type": "AI 项目/工具",
-        "bestFor": "Nutanix announced the general availability of Nutanix Enterprise AI (NAI) 2.8, and the upcoming general availability of Nutanix Kubernetes Platform (NKP) 2.19.\n",
-        "description": "Nutanix announced the general availability of Nutanix Enterprise AI (NAI) 2.8, and the upcoming general availability of Nutanix Kubernetes Platform (NKP) 2.19.\n\nIt said its core Nu",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Blocks and Files",
-        "url": "https://www.blocksandfiles.com/hci/2026/08/26/nutanix-adds-more-rooms-to-its-agentic-ai-building/5292580"
-      },
-      {
-        "name": "AI Agents Use 5 Times More LLM Tokens Than Humans",
-        "provider": "eWEEK",
-        "type": "AI 项目/工具",
-        "bestFor": "eWeek content and product recommendations are editorially independent. We may make money when you click on links to our partners. Learn More\n\nAI agents don't us",
-        "description": "eWeek content and product recommendations are editorially independent. We may make money when you click on links to our partners. Learn More\n\nAI agents don't use the internet like ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "eWEEK",
-        "url": "https://www.eweek.com/news/ai-agents-llm-token-usage-humans/"
       }
     ],
     "ai-models": [
+      {
+        "name": "\"It Is Fucked Up What Is Happening\": Signal's Whittaker on A",
+        "provider": "Trending Topics",
+        "type": "AI 项目/工具",
+        "bestFor": "Meredith Whittaker, president of the messaging app Signal, delivered an unusually blunt assessment of the relationship between privacy and artificial intelligen",
+        "description": "Meredith Whittaker, president of the messaging app Signal, delivered an unusually blunt assessment of the relationship between privacy and artificial intelligence at the TechBBQ co",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Trending Topics",
+        "url": "https://www.trendingtopics.eu/signal-whittaker-ai-operating-system/"
+      },
       {
         "name": "How Species-Identification Apps Shape People's Nature-Observ",
         "provider": "Scienmag",
@@ -7001,17 +7234,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "TechBullion",
         "url": "https://techbullion.com/ai-development/"
-      },
-      {
-        "name": "Boomi Tops 24 Software Providers as AI Integration Expands -",
-        "provider": "MyChesCo",
-        "type": "AI 项目/工具",
-        "bestFor": "CONSHOHOCKEN, PA -- Boomi ranked first among 24 application integration software providers in ISG's 2026 buyers guide, positioning the company ahead of competit",
-        "description": "CONSHOHOCKEN, PA -- Boomi ranked first among 24 application integration software providers in ISG's 2026 buyers guide, positioning the company ahead of competitors as enterprises s",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "MyChesCo",
-        "url": "https://www.mychesco.com/?p=677787"
       }
     ],
     "ai-business": [
@@ -7527,6 +7749,17 @@ window.AI_GENERATED_DATA = {
       }
     ],
     "ai-benchmark": [
+      {
+        "name": "TrendAI™ Ranks First on CyberGym Agentic AI Security Benchma",
+        "provider": "thesun.my",
+        "type": "AI 项目/工具",
+        "bestFor": "The 97% success rate places TrendAI™ ahead of all other entrants on the AI security benchmark\n\nHONG KONG SAR - Media OutReach Newswire - 28 August 2026 - The Tr",
+        "description": "The 97% success rate places TrendAI™ ahead of all other entrants on the AI security benchmark\n\nHONG KONG SAR - Media OutReach Newswire - 28 August 2026 - The TrendAI™ agentic explo",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "thesun.my",
+        "url": "https://thesun.my/business/corporate-news/trendai-ranks-first-on-cybergym-agentic-ai-security-benchmark/"
+      },
       {
         "name": "OmniAssistBench: Assistant-style Interaction Benchmark for O",
         "provider": "arXiv",
@@ -8116,24 +8349,31 @@ window.AI_GENERATED_DATA = {
         "watch": "基准测试的透明度不足可能导致企业选择不当，影响投资回报。",
         "sourceName": "Currents:AI agent",
         "url": "https://dev.to/gde03/the-ai-memory-benchmark-everyone-quotes-forbids-saying-i-dont-know-o1n"
-      },
-      {
-        "name": "local-bench.ai 0.4.11 版本发布，社区 AI 基准测试工具",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "local-bench.ai 的发布可能会吸引更多开发者关注本地 AI 模型的性能，促使他们在开发过程中更加注重基准测试。对于希望优化其 AI 应用的团队而言，该工具提供了一个有价值的参考。然而，由于存在加载问题，可能会导致用户在使用过程中产生挫败感，从而影响其对工具的整体评价。长远来看，解决这些技术问题将是提升用户满",
-        "description": "local-bench.ai 0.4.11 版本发布，提供本地 AI 设置的基准测试功能，旨在帮助用户评估和比较不同 AI 模型的性能。然而，用户在使用过程中可能会遇到加载问题，影响体验。该工具适合开发者和研究人员，但可能不适合普通用户。",
-        "useCases": [
-          "评估不同 AI 模型在本地环境下的性能，帮助开发者选择最佳方案。",
-          "进行性能基准测试，优化 AI 应用的响应速度和准确性。",
-          "在团队内部分享基准测试结果，促进技术交流和知识共享。"
-        ],
-        "watch": "用户可能会遇到加载失败的问题，这可能会影响他们的使用体验和对工具的信任。",
-        "sourceName": "NewsAPI:AI benchmark leaderboard",
-        "url": "https://pypi.org/project/local-bench-ai/0.4.11/"
       }
     ],
     "ai-image-video": [
+      {
+        "name": "boAt Launches Crest AI with Google Gemini for Next-Generatio",
+        "provider": "Analytics Insight",
+        "type": "AI 项目/工具",
+        "bestFor": "boAt is expanding beyond Bluetooth audio with Crest AI, an artificial intelligence platform developed with Google Gemini for next-generation smart audio devices",
+        "description": "boAt is expanding beyond Bluetooth audio with Crest AI, an artificial intelligence platform developed with Google Gemini for next-generation smart audio devices. Announced by Googl",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Analytics Insight",
+        "url": "https://www.analyticsinsight.net/news/boat-launches-crest-ai-with-google-gemini-for-next-generation-smart-audio-devices"
+      },
+      {
+        "name": "Boat Partners With Google Cloud to Bring Gemini-Powered AI t",
+        "provider": "MySmartPrice.com",
+        "type": "AI 项目/工具",
+        "bestFor": "Boat has announced a partnership with Google Cloud to bring Google Gemini-powered AI features to its upcoming Crest AI lineup of smart audio devices. The new pl",
+        "description": "Boat has announced a partnership with Google Cloud to bring Google Gemini-powered AI features to its upcoming Crest AI lineup of smart audio devices. The new platform is designed t",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "MySmartPrice.com",
+        "url": "https://www.mysmartprice.com/personal-tech/audio/audio-news/boat-partners-with-google-cloud-to-bring-gemini-powered-ai-to-smart-audio-devices/"
+      },
       {
         "name": "Meta adds new AI subscription packages",
         "provider": "Social Media Today | A business community for the web's best thinkers on Social Media",
@@ -8679,40 +8919,20 @@ window.AI_GENERATED_DATA = {
         "watch": "电力供应的不稳定可能影响数据中心的运营效率，导致计算能力下降。",
         "sourceName": "NewsAPI:artificial intelligence",
         "url": "https://www.nextbigfuture.com/2026/07/report-agrees-with-nextbigfuture-on-8-gigawatts-spacex-ai-data-centers-by-2027-2028.html"
-      },
-      {
-        "name": "Arena.ai 推出图像编辑模型详细分类，GPT Image 2 领跑",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "这一更新将对图像编辑领域的开发者和设计师产生深远影响。首先，使用 GPT Image 2 的团队可以更自信地进行项目开发，因为其在各项评估中的领先地位意味着更高的质量保证。其次，其他竞争者也会受到压力，推动他们不断优化自己的模型，进而提升整个行业的技术水平。此外，Arena.ai 的评估系统将帮助用户更好地做出选择，从",
-        "description": "我注意到 Arena.ai 最近推出了针对图像编辑模型的详细分类，这让我们更好地评估这些模型的表现。OpenAI 的 GPT Image 2 在所有评估类别中都表现出色，显示了其在生成 AI 技术领域的领先地位。",
-        "useCases": [
-          "使用 GPT Image 2 进行产品图像处理，提升电商页面的视觉吸引力。",
-          "利用 Arena.ai 的评估系统，比较不同图像编辑模型的性能，选择最适合的工具。",
-          "为数字艺术项目选择最佳的图像生成模型，确保作品质量和创意表现。",
-          "在 AI 研究中，分析不同模型的评估结果，推动新技术的开发和应用。"
-        ],
-        "watch": "使用 Arena.ai 的评估系统可能需要一定的学习成本，尤其是对新手用户来说。",
-        "sourceName": "NewsAPI:generative AI",
-        "url": "https://cryptobriefing.com/arena-image-editing-model-categories/"
-      },
-      {
-        "name": "PolyAI 发布 Dialog-RSN-1 音频原生语音 AI 模型",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "Dialog-RSN-1 的推出将对多个行业产生深远影响，尤其是在客户服务和支持领域。企业将能够利用这一技术提升客户体验，减少响应时间，从而提高客户满意度。此外，随着情感识别能力的增强，企业可以更精准地把握客户需求，优化服务策略。这一技术的普及可能会促使更多企业重新评估其客户服务标准，推动行业整体向更高效、更人性化的方",
-        "description": "PolyAI 于近期推出了 Dialog-RSN-1 模型，该模型能够直接对原始通话音频进行推理，承诺为企业语音代理提供更低的延迟和更强的情感识别能力。该技术的应用将显著提升客户服务的效率和质量。",
-        "useCases": [
-          "实时分析客户通话，快速识别客户情绪并调整服务策略。",
-          "集成 Dialog-RSN-1 模型于现有客服系统，提升响应速度和准确性。",
-          "利用情感识别功能，优化客户交互流程，增强客户满意度。"
-        ],
-        "watch": "API 价格可能较高，影响中小企业的使用意愿。",
-        "sourceName": "NewsAPI:large language model",
-        "url": "https://www.cmswire.com/customer-experience/polyai-debuts-dialogrsn1-audionative-voice-ai-model/"
       }
     ],
     "ai-research": [
+      {
+        "name": "TTPO: Test-Time Policy Optimization",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Recent prominent post-training methods, such as Reinforcement Learning (RL) and On-Policy Self-Distillation (OPSD), have driven rapid progress in mathematical r",
+        "description": "Recent prominent post-training methods, such as Reinforcement Learning (RL) and On-Policy Self-Distillation (OPSD), have driven rapid progress in mathematical reasoning for large l",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2608.27448v1"
+      },
       {
         "name": "From Preferences to Principles: Rubric-Based Alignment for G",
         "provider": "RSS",
@@ -9194,21 +9414,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2608.05080v1"
-      },
-      {
-        "name": "大型语言模型在表格预测中的失败原因",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "这一研究的发现对机器学习领域具有深远影响，尤其是在数据分析和模型选择方面。开发者和研究人员在选择模型时，需考虑 LLMs 在高维表格数据上的局限性，可能需要探索其他经典模型或新兴的表格基础模型。此外，企业在进行数据驱动决策时，也应意识到 LLMs 在特定任务中的不足，避免盲目依赖其结果。",
-        "description": "Marta Garnelo 和 Wojciech M. Czarnecki 于 2026 年 8 月 3 日在 arXiv 上发布了论文，探讨了大型语言模型（LLMs）在表格数据预测分析中的不足。尽管 LLMs 在多种任务中表现出色，但在处理表格数据时却显得力不从心，研究揭示了维度对其预测能力的显著影响。",
-        "useCases": [
-          "评估 LLMs 在表格数据分析中的适用性，选择更合适的模型进行预测。",
-          "设计新的表格基础模型，以克服 LLMs 在高维数据处理中的不足。",
-          "进行机器学习课程的教学，深入探讨 LLMs 的局限性与经典模型的优势。"
-        ],
-        "watch": "使用 LLMs 进行表格数据预测时，可能会因维度增加导致准确性下降，影响决策质量。",
-        "sourceName": "NewsAPI:large language model",
-        "url": "https://arxiv.org/abs/2608.02412"
       }
     ],
     "ai-office": []
@@ -10617,13 +10822,24 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-08-28",
-    "generatedAt": "2026-08-28T06:54:00.275255Z",
-    "total": 23,
+    "generatedAt": "2026-08-28T09:24:46.003248Z",
+    "total": 28,
     "sections": [
       {
         "category": "ai-coding",
         "label": "AI 编程",
         "items": [
+          {
+            "title": "From Static to Dynamic: Benchmarking Real-World Code Review with MCR-Bench",
+            "summary": "In real-world software development, code review typically involves iterative interactions between developers and reviewers to improve softwa",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.27442v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-27",
+            "publishedAt": "",
+            "reason": ""
+          },
           {
             "title": "Anthropic 开放 Claude 真实使用数据供外部独立研究，公布试点结果",
             "summary": "Anthropic 今年春季启动试点，通过隐私保护工具 Anthropic Insights（原 Clio）向斯坦福大学 SALT Lab、牛津大学人类信息处理实验室及 METR 三个外部机构开放约 25 万段 2026 年 4-5 月的 Claude.ai 或 Claude C",
@@ -10649,6 +10865,23 @@ window.AI_GENERATED_DATA = {
         ]
       },
       {
+        "category": "ai-image-video",
+        "label": "图像视频",
+        "items": [
+          {
+            "title": "Retrieval Heads Meet Vision: Uncovering How VLMs Locate and Extract Visual Information",
+            "summary": "Vision-language models (VLMs) can locate an image region referred to by a text prompt and route the corresponding visual evidence to the out",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.27417v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-27",
+            "publishedAt": "",
+            "reason": ""
+          }
+        ]
+      },
+      {
         "category": "ai-agents",
         "label": "Agent / MCP",
         "items": [
@@ -10661,6 +10894,28 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-08-28",
             "publishedAt": "2026-08-28T07:04",
+            "reason": ""
+          },
+          {
+            "title": "Persona-Execution Separation: An Architecture Pattern for Evolving LLM Agents under Execution Audit",
+            "summary": "Large language model (LLM) agents in governed organizations must let the persona (instructions, tone, self-presentation) evolve freely, whil",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.27427v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-27",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "INTENT-AS-A-TOOL Makes it Easy to Track Agentic Misalignment",
+            "summary": "As large language models (LLMs) are deployed as autonomous agents, safety failures increasingly involve consequential actions. We study agen",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.27348v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-27",
+            "publishedAt": "",
             "reason": ""
           },
           {
@@ -10780,6 +11035,39 @@ window.AI_GENERATED_DATA = {
             "reason": ""
           },
           {
+            "title": "Sophistication in GenAI Use: Field Evidence from a Large Firm",
+            "summary": "We study how sophistication in generative AI (genAI) use varies among the back-office workforce of a large firm. Using proprietary data, we ",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.27364v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-27",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Consolidating RLVR Capabilities Across Domains: A Deep Dive into Fusion Paradigms",
+            "summary": "Reinforcement learning with verifiable rewards (RLVR) improves specific capabilities of large language models, but covering multiple capabil",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.27409v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-27",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "How Language Models Organize and Structure Moral Knowledge",
+            "summary": "How do large language models (LLMs) organize moral knowledge? Models detect moral content broadly, but detection is a low bar. We ask whethe",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.27402v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-27",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
             "title": "From Preferences to Principles: Rubric-Based Alignment for Grounded Knowledge Answers",
             "summary": "Designing effective reward signals for open-domain question answering is challenging because high-quality responses must simultaneously sati",
             "source": "RSS · Apple ML Research",
@@ -10811,39 +11099,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-08-27",
             "publishedAt": "2026-08-27T20:59",
             "reason": ""
-          },
-          {
-            "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
-            "summary": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world uni",
-            "source": "RSS · OpenAI Blog",
-            "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-27",
-            "publishedAt": "2026-08-27T17:00",
-            "reason": ""
-          },
-          {
-            "title": "GlucoFM: Foundation model for continuous glucose monitoring",
-            "summary": "Health & Bioscience",
-            "source": "RSS · Google Research",
-            "url": "https://research.google/blog/glucofm-foundation-model-for-continuous-glucose-monitoring/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-27",
-            "publishedAt": "2026-08-27T02:42",
-            "reason": ""
-          },
-          {
-            "title": "When LLM judges agree, should we believe them?",
-            "summary": "Discounting the opinions of LLM judges with highly correlated outputs ensures that panels of judges reflect a true diversity of perspectives",
-            "source": "RSS · Amazon Science",
-            "url": "https://www.amazon.science/blog/when-llm-judges-agree-should-we-believe-them",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-27",
-            "publishedAt": "2026-08-27T01:10",
-            "reason": ""
           }
         ]
       },
@@ -10859,6 +11114,17 @@ window.AI_GENERATED_DATA = {
             "score": 70,
             "sourceCount": 1,
             "date": "2026-08-28",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "LLMs Can Design Near-Optimal OR Algorithms",
+            "summary": "We ask whether large language models (LLMs) can design effective algorithms for well-specified operations research (OR) problems. We study i",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.27296v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-27",
             "publishedAt": "",
             "reason": ""
           },
@@ -23923,6 +24189,30 @@ window.AI_GENERATED_DATA = {
     ]
   },
   "benchmarkDatasets": [
+    {
+      "name": "MCR-Bench",
+      "area": "代码 / 软件工程",
+      "note": "In real-world software development, code review typically involves iterative interactions between developers and reviewers to improve software quality, making the process costly an",
+      "source": "http://arxiv.org/abs/2608.27442v1",
+      "sourceName": "arXiv",
+      "date": "2026-08-27",
+      "originTitle": "From Static to Dynamic: Benchmarking Real-World Code Review with MCR-Bench",
+      "evaluates": [],
+      "useCases": [],
+      "limitations": []
+    },
+    {
+      "name": "ranks-first-on-cybergym-agentic-ai-security-benchmark",
+      "area": "Agent / 工具调用",
+      "note": "The 97% success rate places TrendAI™ ahead of all other entrants on the AI security benchmark\n\nHONG KONG SAR - Media OutReach Newswire - 28 August 2026 - The TrendAI™ agentic explo",
+      "source": "https://thesun.my/business/corporate-news/trendai-ranks-first-on-cybergym-agentic-ai-security-benchmark/",
+      "sourceName": "thesun.my",
+      "date": "2026-08-28",
+      "originTitle": "TrendAI™ Ranks First on CyberGym Agentic AI Security Benchmark",
+      "evaluates": [],
+      "useCases": [],
+      "limitations": []
+    },
     {
       "name": "OmniAssistBench",
       "area": "AI 模型能力评测",
