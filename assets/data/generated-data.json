@@ -1,7 +1,35 @@
 {
   "lastUpdated": "2026-08-29",
-  "generatedAt": "2026-08-28T18:13:16.652354Z",
+  "generatedAt": "2026-08-28T20:33:09.990560Z",
   "news": [
+    {
+      "title": "Batch write and discover records in Amazon SageMaker Feature Store",
+      "summary": "Amazon SageMaker Feature Store now supports two new APIs: BatchWriteRecord writes up to 25 records across multiple feature groups in a single call, and ListRecords enumerates recor",
+      "category": "ai-coding",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-08-29",
+      "publishedAt": "2026-08-29T03:31",
+      "collectedAt": "2026-08-29T04:33",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/batch-write-and-discover-records-in-amazon-sagemaker-feature-store/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Anthropic 让 Claude 自主训练模型以缓解对齐失败",
       "summary": "Anthropic 让 Claude 自主训练模型，缓解欺骗、谄媚等 10 类对齐失败，均显著缩小与完美表现的安全差距且不损害通用能力，方法在比优化对象大 4.7 倍的模型上依然有效。Claude 还超越 28 名人类安全研究员，其欺骗场景最佳方法比人类最佳方案好 20%。",
@@ -6708,6 +6736,17 @@
     ],
     "ai-models": [
       {
+        "name": "Batch write and discover records in Amazon SageMaker Feature",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Amazon SageMaker Feature Store now supports two new APIs: BatchWriteRecord writes up to 25 records across multiple feature groups in a single call, and ListReco",
+        "description": "Amazon SageMaker Feature Store now supports two new APIs: BatchWriteRecord writes up to 25 records across multiple feature groups in a single call, and ListRecords enumerates recor",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/batch-write-and-discover-records-in-amazon-sagemaker-feature-store/"
+      },
+      {
         "name": "Twitter is back for real -- and Elon Musk isn't happy about ",
         "provider": "Notebookcheck",
         "type": "AI 项目/工具",
@@ -7135,17 +7174,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "TechAfrica News",
         "url": "https://techafricanews.com/2026/08/25/google-free-ai-plans-college-students-gemini-study-tools/"
-      },
-      {
-        "name": "Apple debuts its 'most powerful chip ever' in M5 Ultra and M",
-        "provider": "TechCrunch",
-        "type": "AI 项目/工具",
-        "bestFor": "Apple announced two new processors on Tuesday, which power its new Mac Mini and Mac Studio models: the M5 Ultra and M6 chips.\n\nThe M5 Ultra, which Apple deems i",
-        "description": "Apple announced two new processors on Tuesday, which power its new Mac Mini and Mac Studio models: the M5 Ultra and M6 chips.\n\nThe M5 Ultra, which Apple deems its \"most powerful ch",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "TechCrunch",
-        "url": "https://techcrunch.com/2026/08/25/apple-debuts-its-most-powerful-chip-ever-in-m5-ultra-and-m6/"
       }
     ],
     "ai-business": [
@@ -10714,9 +10742,26 @@
   ],
   "dailyReport": {
     "date": "2026-08-29",
-    "generatedAt": "2026-08-28T18:13:16.629352Z",
-    "total": 12,
+    "generatedAt": "2026-08-28T20:33:09.966557Z",
+    "total": 13,
     "sections": [
+      {
+        "category": "ai-coding",
+        "label": "AI 编程",
+        "items": [
+          {
+            "title": "Batch write and discover records in Amazon SageMaker Feature Store",
+            "summary": "Amazon SageMaker Feature Store now supports two new APIs: BatchWriteRecord writes up to 25 records across multiple feature groups in a singl",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/batch-write-and-discover-records-in-amazon-sagemaker-feature-store/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-29",
+            "publishedAt": "2026-08-29T03:31",
+            "reason": ""
+          }
+        ]
+      },
       {
         "category": "ai-agents",
         "label": "Agent / MCP",
