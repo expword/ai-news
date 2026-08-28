@@ -1,7 +1,34 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-08-29",
-  "generatedAt": "2026-08-28T16:59:07.741431Z",
+  "generatedAt": "2026-08-28T18:13:16.652354Z",
   "news": [
+    {
+      "title": "Anthropic 让 Claude 自主训练模型以缓解对齐失败",
+      "summary": "Anthropic 让 Claude 自主训练模型，缓解欺骗、谄媚等 10 类对齐失败，均显著缩小与完美表现的安全差距且不损害通用能力，方法在比优化对象大 4.7 倍的模型上依然有效。Claude 还超越 28 名人类安全研究员，其欺骗场景最佳方法比人类最佳方案好 20%。",
+      "category": "ai-models",
+      "source": "Anthropic：Research（发表成果 · 网页）",
+      "date": "2026-08-29",
+      "publishedAt": "2026-08-29T01:25",
+      "collectedAt": "2026-08-29T02:13",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "How Decathlon runs demand forecasting at scale with Chronos-2",
       "summary": "Decathlon, one of the world's largest sporting goods retailers, forecasts weekly demand for tens of thousands of products across multiple continents. Learn how they deployed Chrono",
@@ -10687,8 +10714,8 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-08-29",
-    "generatedAt": "2026-08-28T16:59:07.714399Z",
-    "total": 11,
+    "generatedAt": "2026-08-28T18:13:16.629352Z",
+    "total": 12,
     "sections": [
       {
         "category": "ai-agents",
@@ -10711,6 +10738,17 @@ window.AI_GENERATED_DATA = {
         "category": "ai-models",
         "label": "模型发布",
         "items": [
+          {
+            "title": "Anthropic 让 Claude 自主训练模型以缓解对齐失败",
+            "summary": "Anthropic 让 Claude 自主训练模型，缓解欺骗、谄媚等 10 类对齐失败，均显著缩小与完美表现的安全差距且不损害通用能力，方法在比优化对象大 4.7 倍的模型上依然有效。Claude 还超越 28 名人类安全研究员，其欺骗场景最佳方法比人类最佳方案好 20%。",
+            "source": "Anthropic：Research（发表成果 · 网页）",
+            "url": "https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-29",
+            "publishedAt": "2026-08-29T01:25",
+            "reason": ""
+          },
           {
             "title": "How Decathlon runs demand forecasting at scale with Chronos-2",
             "summary": "Decathlon, one of the world's largest sporting goods retailers, forecasts weekly demand for tens of thousands of products across multiple co",
