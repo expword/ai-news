@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-08-28",
-  "generatedAt": "2026-08-28T01:43:15.368782Z",
+  "generatedAt": "2026-08-28T04:18:40.084045Z",
   "news": [
     {
       "title": "Build agentic creative workflows with Amazon Quick and fal",
@@ -206,6 +206,62 @@ window.AI_GENERATED_DATA = {
           "title": "Gemini Omni 1.1 Flash 发布，为开发者提供更强生成式视频控制"
         }
       ]
+    },
+    {
+      "title": "From Preferences to Principles: Rubric-Based Alignment for Grounded Knowledge Answers",
+      "summary": "Designing effective reward signals for open-domain question answering is challenging because high-quality responses must simultaneously satisfy multiple aspects of answer quality t",
+      "category": "ai-models",
+      "source": "RSS · Apple ML Research",
+      "date": "2026-08-27",
+      "publishedAt": "2026-08-27T08:00",
+      "collectedAt": "2026-08-28T11:00",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://machinelearning.apple.com/research/rubric-based-alignment",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "SWE-Prime: Fewer Trajectories, Better Performance",
+      "summary": "To improve large language models' ability to resolve real-world software issues, prior work has focused on constructing large-scale agent trajectory datasets and performing supervi",
+      "category": "ai-agents",
+      "source": "arXiv",
+      "date": "2026-08-27",
+      "publishedAt": "",
+      "collectedAt": "2026-08-28T11:00",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-27",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.27449v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
     },
     {
       "title": "Aug 27, 2026 Announcements Expanding our support for scientists",
@@ -2441,62 +2497,6 @@ window.AI_GENERATED_DATA = {
       "aiSelected": true,
       "moduleTargets": [
         "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Beyond Visual CoT: Internalized Visual Thinking for Proactive Video Reasoning",
-      "summary": "Multimodal large language models increasingly use visual chain-of-thought (Visual CoT) to reason about spatial, temporal, and embodied environments. By generating intermediate reas",
-      "category": "ai-image-video",
-      "source": "RSS · Apple ML Research",
-      "date": "2026-08-24",
-      "publishedAt": "2026-08-24T08:00",
-      "collectedAt": "2026-08-25T11:02",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://machinelearning.apple.com/research/internalized-visual-thinking",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Action-Aligned Retrieval with Pairwise Multimodal Reranking for Text-Based Person Anomaly Search",
-      "summary": "Text-based person anomaly search requires distinguishing individuals based on fine-grained, context-dependent behaviors rather than mere appearance. Existing methods struggle to ca",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-08-24",
-      "publishedAt": "",
-      "collectedAt": "2026-08-25T11:02",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-24",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.23503v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
       ],
       "sourceCount": 1
     }
@@ -6138,6 +6138,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "SWE-Prime: Fewer Trajectories, Better Performance",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "To improve large language models' ability to resolve real-world software issues, prior work has focused on constructing large-scale agent trajectory datasets an",
+        "description": "To improve large language models' ability to resolve real-world software issues, prior work has focused on constructing large-scale agent trajectory datasets and performing supervi",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2608.27449v1"
+      },
+      {
         "name": "HKT to participate in GenA.I. Sandbox++ to develop AI Agent ",
         "provider": "asianews.network",
         "type": "AI 项目/工具",
@@ -6565,20 +6576,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Infosecurity Magazine",
         "url": "https://www.infosecurity-magazine.com/news/linux-foundation-trace-standard-ai/"
-      },
-      {
-        "name": "The AI accountability problem is getting bigger",
-        "provider": "TheStreet",
-        "type": "AI 项目/工具",
-        "bestFor": "Companies and regulators are struggling to determine who is responsible when things go wrong.\n\nSomething went wrong with an AI agent. It accessed a system it sh",
-        "description": "Companies and regulators are struggling to determine who is responsible when things go wrong.\n\nSomething went wrong with an AI agent. It accessed a system it should not have. It to",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "TheStreet",
-        "url": "https://www.thestreet.com/technology/ai-accountability-problem-getting-bigger"
       }
     ],
     "ai-models": [
+      {
+        "name": "How Species-Identification Apps Shape People's Nature-Observ",
+        "provider": "Scienmag",
+        "type": "AI 项目/工具",
+        "bestFor": "Species-Identification Apps Can Bring People Closer to Nature -- or Pull Them Away\n\nA smartphone camera pointed at a flower, insect or bird can now summon a sho",
+        "description": "Species-Identification Apps Can Bring People Closer to Nature -- or Pull Them Away\n\nA smartphone camera pointed at a flower, insect or bird can now summon a shortlist of possible s",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Scienmag: Latest Science and Health News",
+        "url": "https://scienmag.com/how-species-identification-apps-shape-peoples-nature-observation-experiences/"
+      },
       {
         "name": "Claude Console 新增个人密钥与服务账号密钥",
         "provider": "Claude Platform：开发者版本说明（RSS）",
@@ -7007,17 +7018,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "MyChesCo",
         "url": "https://www.mychesco.com/?p=677787"
-      },
-      {
-        "name": "Phenom Extends Growth Streak as AI Cuts Hiring Costs - MyChe",
-        "provider": "MyChesCo",
-        "type": "AI 项目/工具",
-        "bestFor": "PHILADELPHIA, PA -- Phenom secured a seventh consecutive appearance on the Inc. 5000 list of fast-growing private companies as its artificial intelligence hirin",
-        "description": "PHILADELPHIA, PA -- Phenom secured a seventh consecutive appearance on the Inc. 5000 list of fast-growing private companies as its artificial intelligence hiring tools helped enter",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "MyChesCo",
-        "url": "https://www.mychesco.com/a/news/regional/phenom-extends-growth-streak-as-ai-cuts-hiring-costs/"
       }
     ],
     "ai-business": [
@@ -8720,6 +8720,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-research": [
       {
+        "name": "From Preferences to Principles: Rubric-Based Alignment for G",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Designing effective reward signals for open-domain question answering is challenging because high-quality responses must simultaneously satisfy multiple aspects",
+        "description": "Designing effective reward signals for open-domain question answering is challenging because high-quality responses must simultaneously satisfy multiple aspects of answer quality t",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Apple ML Research",
+        "url": "https://machinelearning.apple.com/research/rubric-based-alignment"
+      },
+      {
         "name": "Gemini 3.5 Transcribe 发布：更精准的实时语音转写模型",
         "provider": "Hacker News 热门（buzzing.cc 中文翻译）",
         "type": "AI 项目/工具",
@@ -9204,17 +9215,6 @@ window.AI_GENERATED_DATA = {
         "watch": "使用 LLMs 进行表格数据预测时，可能会因维度增加导致准确性下降，影响决策质量。",
         "sourceName": "NewsAPI:large language model",
         "url": "https://arxiv.org/abs/2608.02412"
-      },
-      {
-        "name": "SAGE: Semantic Explainability of Attention-Based Survival Mo",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "arXiv:2608.02803v1 Announce Type: new Abstract: Attention-based multiple instance learning (ABMIL) is the predominant approach for slide-level prediction in com",
-        "description": "arXiv:2608.02803v1 Announce Type: new Abstract: Attention-based multiple instance learning (ABMIL) is the predominant approach for slide-level prediction in computational pathology",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · arXiv cs.CV",
-        "url": "https://arxiv.org/abs/2608.02803"
       }
     ],
     "ai-office": []
@@ -10623,8 +10623,8 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-08-28",
-    "generatedAt": "2026-08-28T01:43:15.343811Z",
-    "total": 21,
+    "generatedAt": "2026-08-28T04:18:40.060007Z",
+    "total": 22,
     "sections": [
       {
         "category": "ai-coding",
@@ -10667,6 +10667,17 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-08-28",
             "publishedAt": "2026-08-28T07:04",
+            "reason": ""
+          },
+          {
+            "title": "SWE-Prime: Fewer Trajectories, Better Performance",
+            "summary": "To improve large language models' ability to resolve real-world software issues, prior work has focused on constructing large-scale agent tr",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.27449v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-27",
+            "publishedAt": "",
             "reason": ""
           },
           {
@@ -10775,6 +10786,17 @@ window.AI_GENERATED_DATA = {
             "reason": ""
           },
           {
+            "title": "From Preferences to Principles: Rubric-Based Alignment for Grounded Knowledge Answers",
+            "summary": "Designing effective reward signals for open-domain question answering is challenging because high-quality responses must simultaneously sati",
+            "source": "RSS · Apple ML Research",
+            "url": "https://machinelearning.apple.com/research/rubric-based-alignment",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-27",
+            "publishedAt": "2026-08-27T08:00",
+            "reason": ""
+          },
+          {
             "title": "Aug 27, 2026 Announcements Expanding our support for scientists",
             "summary": "Aug 27, 2026 Announcements Expanding our support for scientists",
             "source": "HTML · Anthropic",
@@ -10827,17 +10849,6 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-08-27",
             "publishedAt": "2026-08-27T01:10",
-            "reason": ""
-          },
-          {
-            "title": "Intelligent transcription with Gemini 3.5 Transcribe",
-            "summary": "Now you can get more intelligent speech-to-text transcription with Gemini 3.5 Transcribe.",
-            "source": "RSS · Google DeepMind",
-            "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
-            "score": 70,
-            "sourceCount": 2,
-            "date": "2026-08-27",
-            "publishedAt": "2026-08-27T01:01",
             "reason": ""
           }
         ]
