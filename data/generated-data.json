@@ -1,7 +1,34 @@
 {
   "lastUpdated": "2026-08-28",
-  "generatedAt": "2026-08-28T04:18:40.084045Z",
+  "generatedAt": "2026-08-28T06:54:00.301255Z",
   "news": [
+    {
+      "title": "EduRiskX: A Neuro-Symbolic Framework with F-Logic Reasoning for Early Academic Risk Prediction",
+      "summary": "arXiv:2608.26107v1 Announce Type: new Abstract: Predicting students' academic risk in online education is crucial for enabling timely interventions that can improve retention and l",
+      "category": "ai-research",
+      "source": "RSS · arXiv cs.AI",
+      "date": "2026-08-28",
+      "publishedAt": "",
+      "collectedAt": "2026-08-28T13:33",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-28",
+      "tags": [],
+      "url": "https://arxiv.org/abs/2608.26107",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Build agentic creative workflows with Amazon Quick and fal",
       "summary": "Creative teams produce more assets than ever, but fragmented tools and manual context transfer slow production. This post shows how to build a reusable agent harness with Amazon Qu",
@@ -2458,33 +2485,6 @@
       "sourceDate": "2026-08-24",
       "tags": [],
       "url": "http://arxiv.org/abs/2608.23353v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Beyond the Stability-Exploration Dilemma: Environmental Regularization for LLM Policy Optimization",
-      "summary": "Policy optimization (PO) for Large Language Models faces a stability--exploration trade-off, currently mediated by an action-side Policy-KL regularizer. This puts practitioners in ",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-08-24",
-      "publishedAt": "",
-      "collectedAt": "2026-08-25T14:54",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-24",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.23311v1",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -5604,6 +5604,17 @@
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Anthropic wants AI agents to control lab machines, giving Cl",
+        "provider": "India Today",
+        "type": "AI 项目/工具",
+        "bestFor": "The buzz around AI seems to be shifting to AI agents. And they are doing pretty well using computers. They can write code for you, browse the web, analyse docum",
+        "description": "The buzz around AI seems to be shifting to AI agents. And they are doing pretty well using computers. They can write code for you, browse the web, analyse documents and even carry ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "India Today",
+        "url": "https://www.indiatoday.in/technology/news/story/anthropic-wants-ai-agents-to-control-lab-machines-giving-claude-hands-to-work-2981676-2026-08-28"
+      },
+      {
         "name": "AI skills spread beyond coding as non-tech professionals ado",
         "provider": "NewsData.io",
         "type": "AI 项目/工具",
@@ -6117,26 +6128,42 @@
         "watch": "使用 AI 进行恶意活动的成本低，导致更多攻击者参与，增加了安全风险。",
         "sourceName": "NewsAPI:large language model",
         "url": "https://blog.talosintelligence.com/keep-going-bro-youve-got-this-a-data-driven-look-at-how-adversaries-are-weaponizing-ai/"
-      },
-      {
-        "name": "DeepSeek 更新 Claude Code 集成",
-        "provider": "中国一手",
-        "type": "AI 项目/工具",
-        "bestFor": "这一更新将使得开发者在使用 Claude Code 时更加高效，尤其是那些需要频繁进行代码修改和测试的项目。通过简化的环境配置，团队可以更快地上手，减少了因配置问题导致的时间浪费。此外，DeepSeek 的 API 也为开发者提供了更多的功能扩展可能性，促进了技术创新和应用场景的多样化。",
-        "description": "我注意到 DeepSeek 最近更新了 Claude Code 的集成方式，提供了更便捷的环境配置方法，适合开发者使用。通过简单的环境变量设置，用户可以快速将 Claude Code 迁移到 DeepSeek 平台，提升开发效率。",
-        "useCases": [
-          "快速配置 Claude Code，提升编程效率，减少环境搭建时间。",
-          "在项目中集成 DeepSeek API，利用 AI 助手进行代码生成和优化。",
-          "使用 Claude Code 进行代码调试，快速定位和解决问题。",
-          "通过 API 访问，获取实时数据，增强应用程序的智能化。",
-          "在团队协作中，利用 Claude Code 提高代码质量和一致性。"
-        ],
-        "watch": "API 使用可能涉及费用，开发者需关注使用量和成本。",
-        "sourceName": "中国一手 · DeepSeek API 更新",
-        "url": "https://api-docs.deepseek.com/quick_start/agent_integrations/claude_code"
       }
     ],
     "ai-agents": [
+      {
+        "name": "AI Agent Payment Risks Catch PBOC's Eye",
+        "provider": "caixinglobal.com",
+        "type": "AI 项目/工具",
+        "bestFor": "The People's Bank of China (PBOC) is urging the financial sector to establish unified rules and standards for AI agents in payment systems to mitigate risks and",
+        "description": "The People's Bank of China (PBOC) is urging the financial sector to establish unified rules and standards for AI agents in payment systems to mitigate risks and prevent market frag",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "caixinglobal.com",
+        "url": "https://www.caixinglobal.com/2026-08-28/ai-agent-payment-risks-catch-pbocs-eye-102478958.html"
+      },
+      {
+        "name": "As AI Agents Go Rogue, Cyber Insurers Are Adapting Their Pol",
+        "provider": "Claims Journal",
+        "type": "AI 项目/工具",
+        "bestFor": "- Cyber insurers have spent years defining what constitutes a hack and when coverage should pay out, but the rapid emergence of AI agents is raising new questio",
+        "description": "- Cyber insurers have spent years defining what constitutes a hack and when coverage should pay out, but the rapid emergence of AI agents is raising new questions, forcing insurers",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Claims Journal",
+        "url": "https://www.claimsjournal.com/news/national/2026/08/28/339830.htm"
+      },
+      {
+        "name": "Operata deepens Observability across AI to human agents - la",
+        "provider": "CNHI News",
+        "type": "AI 项目/工具",
+        "bestFor": "MELBOURNE, Australia and DENVER, Aug. 27, 2026 /PRNewswire/ -- To address the growing complexity and operational blind spots of fragmented CX AI Agent and CX te",
+        "description": "MELBOURNE, Australia and DENVER, Aug. 27, 2026 /PRNewswire/ -- To address the growing complexity and operational blind spots of fragmented CX AI Agent and CX tech stacks, Operata t",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "CNHI News",
+        "url": "https://www.cnhinews.com/news/article_9d2b6cfa-beea-553b-a699-12479a98fc6a.html"
+      },
       {
         "name": "SWE-Prime: Fewer Trajectories, Better Performance",
         "provider": "arXiv",
@@ -6543,39 +6570,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "eWEEK",
         "url": "https://www.eweek.com/news/ai-agents-llm-token-usage-humans/"
-      },
-      {
-        "name": "Runable secures $21M to enhance AI agent growth capabilities",
-        "provider": "Crypto Briefing",
-        "type": "AI 项目/工具",
-        "bestFor": "The AI agent platform claims over one trillion tokens processed in 90 days, with most usage driven by paying customers\n\nRunable, a year-old AI agent platform th",
-        "description": "The AI agent platform claims over one trillion tokens processed in 90 days, with most usage driven by paying customers\n\nRunable, a year-old AI agent platform that lets users build ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Crypto Briefing",
-        "url": "https://cryptobriefing.com/runable-secures-21m-ai-agent-platform/"
-      },
-      {
-        "name": "Who is accountable when your AI agent goes rogue?",
-        "provider": "CIO",
-        "type": "AI 项目/工具",
-        "bestFor": "Recent high-profile incidents should give IT leaders pause about the accountability gaps their enterprises -- and they themselves -- face should their AI agents",
-        "description": "Recent high-profile incidents should give IT leaders pause about the accountability gaps their enterprises -- and they themselves -- face should their AI agents escape their contro",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "CIO",
-        "url": "https://www.cio.com/article/4213937/who-is-accountable-when-your-ai-agent-goes-rogue-2.html"
-      },
-      {
-        "name": "Linux Foundation Introduces TRACE Standard for AI Runtime Ev",
-        "provider": "Infosecurity Magazine",
-        "type": "AI 项目/工具",
-        "bestFor": "One major security challenge with generative AI, and particularly AI agents, is making these systems prove what they really did.\n\nThe Linux Foundation aims to a",
-        "description": "One major security challenge with generative AI, and particularly AI agents, is making these systems prove what they really did.\n\nThe Linux Foundation aims to address this challeng",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Infosecurity Magazine",
-        "url": "https://www.infosecurity-magazine.com/news/linux-foundation-trace-standard-ai/"
       }
     ],
     "ai-models": [
@@ -7021,6 +7015,17 @@
       }
     ],
     "ai-business": [
+      {
+        "name": "WhatsApp charges: What Meta's new business messaging fees me",
+        "provider": "People Daily",
+        "type": "AI 项目/工具",
+        "bestFor": "Kenyan businesses that have made WhatsApp a central part of their customer service and sales strategy are facing a new cost of doing business online after Meta ",
+        "description": "Kenyan businesses that have made WhatsApp a central part of their customer service and sales strategy are facing a new cost of doing business online after Meta announced changes to",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "People Daily",
+        "url": "https://peopledaily.digital/business/whatsapp-charges-what-metas-new-business-messaging-fees-mean-for-kenyan-businesses"
+      },
       {
         "name": "Nvidia's Jensen Huang Enters the Open-Weight AI Race",
         "provider": "Tekedia",
@@ -7519,17 +7524,6 @@
         "watch": "API 使用可能受到配额限制，需提前规划调用频率以避免超额费用。",
         "sourceName": "NewsAPI:artificial intelligence",
         "url": "https://finance.yahoo.com/markets/stocks/articles/ai-integration-strengthens-alphabet-goog-162937753.html"
-      },
-      {
-        "name": "Why Palantir Technologies Stock Skyrocketed Higher Today",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "Palantir Technologies (NASDAQ: PLTR) stock charged sharply higher Tuesday, climbing as much as 27.7%. As of 11:36 a.m. ET, the stock was still up 26.3%.\nThe cat",
-        "description": "Palantir Technologies (NASDAQ: PLTR) stock charged sharply higher Tuesday, climbing as much as 27.7%. As of 11:36 a.m. ET, the stock was still up 26.3%.\nThe catalyst that sent the ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsAPI:artificial intelligence",
-        "url": "https://biztoc.com/x/045343e60e27c142"
       }
     ],
     "ai-benchmark": [
@@ -10623,8 +10617,8 @@
   ],
   "dailyReport": {
     "date": "2026-08-28",
-    "generatedAt": "2026-08-28T04:18:40.060007Z",
-    "total": 22,
+    "generatedAt": "2026-08-28T06:54:00.275255Z",
+    "total": 23,
     "sections": [
       {
         "category": "ai-coding",
@@ -10857,6 +10851,17 @@
         "category": "ai-research",
         "label": "论文研究",
         "items": [
+          {
+            "title": "EduRiskX: A Neuro-Symbolic Framework with F-Logic Reasoning for Early Academic Risk Prediction",
+            "summary": "arXiv:2608.26107v1 Announce Type: new Abstract: Predicting students' academic risk in online education is crucial for enabling timely interv",
+            "source": "RSS · arXiv cs.AI",
+            "url": "https://arxiv.org/abs/2608.26107",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-28",
+            "publishedAt": "",
+            "reason": ""
+          },
           {
             "title": "GlucoFM：面向连续血糖监测的基础模型",
             "summary": "Google Research 推出 GlucoFM，一款轻量级自监督 CGM 基础模型，采用双流设计分别建模缓慢血糖趋势与短期波动。在四个队列、七项临床预测任务的 14 项评估中，其 PR-AUC 较最优 GluFormer 变体平均高出 5.8 个百分点，并在 PPGR 预测",
