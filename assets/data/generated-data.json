@@ -1,7 +1,34 @@
 {
   "lastUpdated": "2026-08-28",
-  "generatedAt": "2026-08-28T09:24:46.028251Z",
+  "generatedAt": "2026-08-28T11:58:16.047558Z",
   "news": [
+    {
+      "title": "Supporting Thailand’s next generation of AI startups",
+      "summary": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.",
+      "category": "ai-models",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-08-28",
+      "publishedAt": "2026-08-28T10:00",
+      "collectedAt": "2026-08-28T18:44",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "EduRiskX: A Neuro-Symbolic Framework with F-Logic Reasoning for Early Academic Risk Prediction",
       "summary": "arXiv:2608.26107v1 Announce Type: new Abstract: Predicting students' academic risk in online education is crucial for enabling timely interventions that can improve retention and l",
@@ -2463,254 +2490,6 @@
       "sourceDate": "",
       "tags": [],
       "url": "https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Building a restaurant telephony AI host with Amazon Connect",
-      "summary": "Learn how to build a voice ordering system for restaurants that answers a phone call and takes an order end to end, with no app, no website, and no sign-in. It uses Amazon Connect ",
-      "category": "ai-agents",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-08-25",
-      "publishedAt": "2026-08-25T00:13",
-      "collectedAt": "2026-08-25T01:32",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/building-a-restaurant-telephony-ai-host-with-amazon-connect/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Agentic Resource Discovery (ARD): An open specification for agent discovery",
-      "summary": "AWS Agent Registry gives your organization a centralized, searchable catalog for agents, tools, and skills. It works with the open Agentic Resource Discovery (ARD) standard to enab",
-      "category": "ai-agents",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-08-25",
-      "publishedAt": "2026-08-25T00:22",
-      "collectedAt": "2026-08-25T01:32",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/agentic-resource-discovery-ard-an-open-specification-for-agent-discovery/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Automated Construction of FAIR Digital Object Knowledge Graphs from Flat Cultural Heritage Records",
-      "summary": "The FAIR Digital Object (FDO) framework mandates that metadata attribute values be expressed as persistent identifiers (PIDs) wherever possible, to produce a fully machine-actionab",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-08-24",
-      "publishedAt": "",
-      "collectedAt": "2026-08-25T14:54",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-24",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.23263v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Dual-Grained Agent Memory and Shapley Context Attribution for Multimodal Agentic Learner",
-      "summary": "Frontier multimodal large language models (MLLMs) deliver impressive perception yet still falter on scientific and mathematical reasoning. Parameter-level adaptation is unavailable",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-08-24",
-      "publishedAt": "",
-      "collectedAt": "2026-08-25T14:54",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-24",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.23268v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "From Natural Language Policies to Executable Obligations: A Verification Harness for Dependable In-Car LLM Agents",
-      "summary": "Large Language Models (LLMs) agents deployed in vehicles must satisfy a written operating policy on every turn: a single hallucinated identifier, omitted mandatory side-effect, or ",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-08-24",
-      "publishedAt": "",
-      "collectedAt": "2026-08-25T14:54",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-24",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.23282v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "IntentQA: Intent Question Answering in Videos by Cognitive Context Reasoning",
-      "summary": "Video understanding requires intelligent agents to transcend mere recognition of visual facts and comprehend the underlying intents behind human actions (often termed the \"dark mat",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-08-24",
-      "publishedAt": "",
-      "collectedAt": "2026-08-25T14:54",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-24",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.23330v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Hidden in the Request: Explaining Unethical LLM Compliance through Token Relevance",
-      "summary": "Although Large Language Models (LLMs) are aligned to optimize for both helpfulness and harmlessness, these dual objectives may conflict, inevitably leading to alignment failures. T",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-08-24",
-      "publishedAt": "",
-      "collectedAt": "2026-08-25T14:54",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-24",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.23264v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "AI-Assisted Extraction of Follow-up Observations from GCN Circulars in Astro-COLIBRI",
-      "summary": "We present a new Astro-COLIBRI component that converts free-text GCN Circulars into structured, event-linked follow-up records and combines them with structured reports submitted d",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-08-24",
-      "publishedAt": "",
-      "collectedAt": "2026-08-25T14:54",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-24",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.23270v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "FormuEvo: LLM-Guided Evolution for Discovering Solver-Efficient Mixed-Integer Programming Formulations",
-      "summary": "Mixed-integer programming (MIP) lies at the core of operations research and industrial optimization. While large language models (LLMs) have recently shown promise in automated MIP",
-      "category": "ai-research",
-      "source": "arXiv",
-      "date": "2026-08-24",
-      "publishedAt": "",
-      "collectedAt": "2026-08-25T14:54",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-24",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.23353v1",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -5830,6 +5609,17 @@
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Z.ai reveals Ox Alpha was GLM-5.3-Flash, built on Chinese ch",
+        "provider": "Quartz",
+        "type": "AI 项目/工具",
+        "bestFor": "The model is the first in Z.ai's GLM-5 series to support multimodal input, handling text, images, and video. On coding and agentic benchmarks, it approaches Ant",
+        "description": "The model is the first in Z.ai's GLM-5 series to support multimodal input, handling text, images, and video. On coding and agentic benchmarks, it approaches Anthropic's Claude Opus",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Quartz",
+        "url": "https://qz.com/zai-ox-alpha-glm-53-flash-chinese-chips-082826"
+      },
+      {
         "name": "AI 工程师笔记本：在 Colab 上免费、无需框架即可使用 RAG/智能体/评估工具",
         "provider": "Hacker News 热门（buzzing.cc 中文翻译）",
         "type": "AI 项目/工具",
@@ -6335,21 +6125,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2608.07440v1"
-      },
-      {
-        "name": "Meta 发布 Muse Code 编程代理，助力开发者优化项目",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "Muse Code 的推出将为开发者提供更高效的编程工具，尤其是在大型项目中，能够有效减少代码冲突和错误。随着多个代理的并行工作，开发者可以更快地实现功能迭代，提升项目交付速度。此外，Meta 可能在未来将 Muse Spark 开源，这将吸引更多开发者参与，进一步推动社区的创新和发展。",
-        "description": "Meta 于 2026 年 8 月 6 日推出了 Muse Code，这是一款基于其最新 Muse Spark 1.2 模型的终端编程代理，旨在帮助开发者整理软件项目。该工具能够规划代码变更、编写代码并验证结果，类似于 OpenAI Codex 和 Anthropic 的 Claude Code。",
-        "useCases": [
-          "使用 Muse Code 进行代码重构，提升项目的可维护性和可读性。",
-          "利用 Muse Code 的并行处理能力，加速大型软件项目的开发进程。",
-          "通过 Muse Code 进行代码验证，确保软件质量和稳定性。"
-        ],
-        "watch": "Muse Code 作为封闭模型，可能限制开发者的灵活性和创新性。",
-        "sourceName": "NewsAPI:large language model",
-        "url": "https://www.theregister.com/ai-and-ml/2026/08/06/meta-wants-to-get-inside-your-terminal-with-its-new-coding-agent/5283717"
       }
     ],
     "ai-agents": [
@@ -6796,6 +6571,72 @@
     ],
     "ai-models": [
       {
+        "name": "Google releases Gemini 3.5 Transcribe in preview: speech-to-",
+        "provider": "Softonic",
+        "type": "AI 项目/工具",
+        "bestFor": "Live and batch APIs add faster transcripts and three-speaker diarization.\n\nGoogle opened Gemini 3.5 Transcribe to public preview today, putting its new speech-t",
+        "description": "Live and batch APIs add faster transcripts and three-speaker diarization.\n\nGoogle opened Gemini 3.5 Transcribe to public preview today, putting its new speech-to-text model in play",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Softonic",
+        "url": "https://en.softonic.com/articles/google-releases-gemini-3-5-transcribe-in-preview-speech-to-text-for-85-languages"
+      },
+      {
+        "name": "KDDI gets robot job with Osaka Metro",
+        "provider": "Mobile World Live",
+        "type": "AI 项目/工具",
+        "bestFor": "KDDI lined up a public-facing test of physical AI, arranging to put a humanoid robot through its paces as a customer service assistant in a public transport sys",
+        "description": "KDDI lined up a public-facing test of physical AI, arranging to put a humanoid robot through its paces as a customer service assistant in a public transport system in the Japanese ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Mobile World Live",
+        "url": "https://www.mobileworldlive.com/industry/kddi-gets-robot-job-with-osaka-metro/"
+      },
+      {
+        "name": "Letters to the Editor",
+        "provider": "The Church Times",
+        "type": "AI 项目/工具",
+        "bestFor": "Among the topics this week: immigration management; artificial intelligence; and cathedrals' ministry\n\nMadam, -- While all the attention in immigration seems to",
+        "description": "Among the topics this week: immigration management; artificial intelligence; and cathedrals' ministry\n\nMadam, -- While all the attention in immigration seems to be falling on exter",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Church Times",
+        "url": "https://www.churchtimes.co.uk/articles/2026/28-august/comment/letters-to-the-editor/letters-to-the-editor"
+      },
+      {
+        "name": "Pentagon's Anthropic Blacklisting Ruled Illegal By US Judge",
+        "provider": "PCMag UK",
+        "type": "AI 项目/工具",
+        "bestFor": "The Department of Defense's (DOD) move to blacklist Anthropic's AI tools earlier this year was illegal, according to a ruling by a San Francisco federal judge.\n",
+        "description": "The Department of Defense's (DOD) move to blacklist Anthropic's AI tools earlier this year was illegal, according to a ruling by a San Francisco federal judge.\n\nThe AI company was ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "PCMag UK",
+        "url": "https://uk.pcmag.com/ai/166952/pentagons-anthropic-blacklisting-ruled-illegal-by-us-judge"
+      },
+      {
+        "name": "Pentagon's Anthropic Blacklisting Ruled Illegal By US Judge",
+        "provider": "PCMag Australia",
+        "type": "AI 项目/工具",
+        "bestFor": "The Department of Defense's (DOD) move to blacklist Anthropic's AI tools earlier this year was illegal, according to a ruling by a San Francisco federal judge.\n",
+        "description": "The Department of Defense's (DOD) move to blacklist Anthropic's AI tools earlier this year was illegal, according to a ruling by a San Francisco federal judge.\n\nThe AI company was ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "PCMag Australia",
+        "url": "https://au.pcmag.com/ai/119558/pentagons-anthropic-blacklisting-ruled-illegal-by-us-judge"
+      },
+      {
+        "name": "Wall Street Breakfast Podcast: Marvell Beats, Street Shrugs ",
+        "provider": "Seeking Alpha",
+        "type": "AI 项目/工具",
+        "bestFor": "A federal judge strikes down the Pentagon's supply chain risk label against Anthropic as unlawful.\n\nDownload this episode on Apple Podcasts/Spotify or listen be",
+        "description": "A federal judge strikes down the Pentagon's supply chain risk label against Anthropic as unlawful.\n\nDownload this episode on Apple Podcasts/Spotify or listen below:\n\nMarvell's (MRV",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Seeking Alpha",
+        "url": "https://seekingalpha.com/article/4941158-wall-street-breakfast-podcast-marvell-beats-street-shrugs"
+      },
+      {
         "name": "\"It Is Fucked Up What Is Happening\": Signal's Whittaker on A",
         "provider": "Trending Topics",
         "type": "AI 项目/工具",
@@ -7168,75 +7009,20 @@
         "watch": "请打开原始来源核对",
         "sourceName": "RocketNews | Top News Stories From Around the Globe",
         "url": "https://rocketnews.com/2026/08/takaichi-skips-controversial-shrine-visit-on-81st-anniversary-of-countrys-world-war-ii-surrender-3/"
-      },
-      {
-        "name": "苹果推出 M6 和 M5 Ultra，性能和 AI 算力大幅跃升",
-        "provider": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "type": "AI 项目/工具",
-        "bestFor": "苹果发布首款 2nm 芯片 M6 和迄今最强芯片 M5 Ultra，分别搭载于新款 Mac mini 与 Mac Studio。",
-        "description": "苹果发布首款 2nm 芯片 M6 和迄今最强芯片 M5 Ultra，分别搭载于新款 Mac mini 与 Mac Studio。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute"
-      },
-      {
-        "name": "Apple 推出搭载 M5 Max 与 M5 Ultra 的全新 Mac Studio",
-        "provider": "Apple：Newsroom（RSS）",
-        "type": "AI 项目/工具",
-        "bestFor": "Apple 发布搭载 M5 Max 与全新 M5 Ultra 的 Mac Studio，AI 性能最高提升 4.3 倍，图形性能提升 1.8 倍，存储速度提升 2 倍。M5 Ultra 版本支持最高 512GB 统一内存与 1.2TB/s 内存带宽，可完全在设备端运行大型 LLM；四台集群可带来最高 3 倍分布式 AI",
-        "description": "Apple 发布搭载 M5 Max 与全新 M5 Ultra 的 Mac Studio，AI 性能最高提升 4.3 倍，图形性能提升 1.8 倍，存储速度提升 2 倍。M5 Ultra 版本支持最高 512GB 统一内存与 1.2TB/s 内存带宽，可完全在设备端运行大型 LLM；四台集群可带来最高 3 倍分布式 AI 推理速度提升。新品今日起接受预购，9 ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Apple：Newsroom（RSS）",
-        "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra"
-      },
-      {
-        "name": "Survey: Over 64% of firms in HK, mainland deploy AI in produ",
-        "provider": "chinadailyhk",
-        "type": "AI 项目/工具",
-        "bestFor": "Artificial intelligence is being woven more deeply into Chinese enterprises' production processes, with high-return-on-investment applications concentrated in a",
-        "description": "Artificial intelligence is being woven more deeply into Chinese enterprises' production processes, with high-return-on-investment applications concentrated in areas such as interna",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "chinadailyhk",
-        "url": "https://www.chinadailyhk.com/hk/article/638498"
-      },
-      {
-        "name": "Tech layoffs 2026: More than 175,000 workers laid off as App",
-        "provider": "Economic Times",
-        "type": "AI 项目/工具",
-        "bestFor": "Tech layoffs are accelerating in 2026 as big companies such as Apple, Microsoft, Oracle, Amazon, Meta, Linkedin, TikTok, Visa and dozens of other mega companies",
-        "description": "Tech layoffs are accelerating in 2026 as big companies such as Apple, Microsoft, Oracle, Amazon, Meta, Linkedin, TikTok, Visa and dozens of other mega companies have announced slas",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Economic Times",
-        "url": "https://economictimes.indiatimes.com/news/international/global-trends/tech-layoffs-2026-more-than-175000-workers-laid-off-as-apple-microsoft-oracle-amazon-meta-tiktok-uber-linkedin-and-dozens-of-companies-cut-jobs-amid-ai-boom/articleshow/133511127.cms"
-      },
-      {
-        "name": "AI Boom Turns Into a Malware Trap as Fake AI Apps Spread",
-        "provider": "TelecomTalk",
-        "type": "AI 项目/工具",
-        "bestFor": "Cybercriminals are exploiting the popularity of ChatGPT, Claude, and Gemini by spreading fake AI apps that secretly install malware on devices and collect user ",
-        "description": "Cybercriminals are exploiting the popularity of ChatGPT, Claude, and Gemini by spreading fake AI apps that secretly install malware on devices and collect user data.\n\n* Make Teleco",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "TelecomTalk",
-        "url": "https://telecomtalk.info/kaspersky-warns-fakeaiapps-spreading-malware-attacks/1011192/"
-      },
-      {
-        "name": "The New Engineering Advantage: Making AI Development More Re",
-        "provider": "TechBullion",
-        "type": "AI 项目/工具",
-        "bestFor": "AI has made it easier than ever to demonstrate what software could do. A developer can produce a prototype in hours, connect an application to a model, and turn",
-        "description": "AI has made it easier than ever to demonstrate what software could do. A developer can produce a prototype in hours, connect an application to a model, and turn an idea into someth",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "TechBullion",
-        "url": "https://techbullion.com/ai-development/"
       }
     ],
     "ai-business": [
+      {
+        "name": "SMM learned that buyout quotes for H200 PCIe complete system",
+        "provider": "news.metal.com",
+        "type": "AI 项目/工具",
+        "bestFor": "SMM has learned that a certain MaaS platform is currently selling DeepSeek-V4-Flash model tokens at 78% of DeepSeek's official website price. The sales side als",
+        "description": "SMM has learned that a certain MaaS platform is currently selling DeepSeek-V4-Flash model tokens at 78% of DeepSeek's official website price. The sales side also has a policy: \"If ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "news.metal.com",
+        "url": "https://news.metal.com/newscontent/104086419-smm-computing-power-flash-h200-pcie-buyout-at-435-million-20-lower-than-hgx"
+      },
       {
         "name": "WhatsApp charges: What Meta's new business messaging fees me",
         "provider": "People Daily",
@@ -7729,23 +7515,6 @@
         "watch": "AI 工具的使用可能导致员工对工作时间的误判，影响工作与生活的平衡。",
         "sourceName": "NewsAPI:generative AI",
         "url": "https://www.businessinsider.com/meta-cto-andrew-bosworth-ai-gains-work-2026-8#article"
-      },
-      {
-        "name": "AI 集成助力 Alphabet (GOOG) 核心业务增长",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "Alphabet 的 AI 集成将改变企业在数字广告和云计算领域的竞争格局。投资者和企业决策者将更倾向于依赖 AI 驱动的解决方案，以提升效率和降低成本。此外，随着 Alphabet 在 AI 和云计算领域的持续投资，预计将吸引更多的开发者和企业用户，推动行业整体向前发展。",
-        "description": "Greenskeeper Asset Management 最近发布的 2026 年第二季度报告显示，Alphabet Inc. (GOOG) 在市场中表现出色，AI 集成推动了搜索收入的显著增长。尽管市场对 AI 聊天机器人可能侵蚀 Google 核心搜索业务的担忧，但最新数据显示，这些担忧并未成真。Alphabet 的云业务也显示出强劲的增长势头，运营利润率达到 33%。",
-        "useCases": [
-          "分析 Alphabet 的财务报告，利用数据分析工具评估其投资价值。",
-          "使用 Google Cloud 提供的 AI 服务，优化企业的数字营销策略。",
-          "通过 AI 模式提升搜索引擎的用户体验，增加用户粘性。",
-          "监控市场动态，利用 AI 工具预测行业趋势，指导投资决策。",
-          "整合 AI 技术于产品开发中，提升产品的市场竞争力。"
-        ],
-        "watch": "API 使用可能受到配额限制，需提前规划调用频率以避免超额费用。",
-        "sourceName": "NewsAPI:artificial intelligence",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/ai-integration-strengthens-alphabet-goog-162937753.html"
       }
     ],
     "ai-benchmark": [
@@ -8353,6 +8122,17 @@
     ],
     "ai-image-video": [
       {
+        "name": "Pentagon's Anthropic Blacklisting Ruled Illegal By US Judge",
+        "provider": "PC Magazine",
+        "type": "AI 项目/工具",
+        "bestFor": "(Credit: Thomas Fuller/SOPA Images/LightRocket via Getty Images)\n\nThe Department of Defense's (DOD) move to blacklist Anthropic's AI tools earlier this year was",
+        "description": "(Credit: Thomas Fuller/SOPA Images/LightRocket via Getty Images)\n\nThe Department of Defense's (DOD) move to blacklist Anthropic's AI tools earlier this year was illegal, according ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "PC Magazine",
+        "url": "https://www.pcmag.com/news/pentagons-anthropic-blacklisting-ruled-illegal-by-us-judge"
+      },
+      {
         "name": "boAt Launches Crest AI with Google Gemini for Next-Generatio",
         "provider": "Analytics Insight",
         "type": "AI 项目/工具",
@@ -8904,21 +8684,6 @@
         "watch": "学校可能面临法律责任，如果未能妥善保护学生的照片和个人信息。",
         "sourceName": "NewsAPI:artificial intelligence",
         "url": "https://www.hrw.org/news/2026/07/30/australia-school-photos-scraped-for-ai-fueled-image-misuse"
-      },
-      {
-        "name": "FundaAI 预测 SpaceX AI 数据中心将在 2027-2028 年实现 8GW 能力",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "这一预测将对 AI 计算能力的提升产生深远影响，尤其是在高性能计算和数据处理领域。随着 SpaceX AI 数据中心的建设，预计将吸引更多企业和研究机构的关注，推动相关技术的应用和发展。此外，电力供应的稳定性和芯片生产能力将成为未来 AI 发展中的关键因素，可能促使政策制定者和行业领导者加大对这些领域的投资和支持。",
-        "description": "FundaAI 结合最新的 Minihard/Macrohard 数据，预计 SpaceX AI 数据中心在 2027 年至 2028 年间将实现 8GW 的计算能力。该预测显示，8GW 的芯片和电力供应已为 SpaceX AI 的需求所准备，表明这一目标是可行的。",
-        "useCases": [
-          "部署高性能 AI 模型以处理大规模数据集，提升计算效率。",
-          "利用 SpaceX AI 数据中心的计算能力进行复杂的机器学习训练，缩短研发周期。",
-          "为新兴技术提供强大的计算支持，推动创新和产品开发。"
-        ],
-        "watch": "电力供应的不稳定可能影响数据中心的运营效率，导致计算能力下降。",
-        "sourceName": "NewsAPI:artificial intelligence",
-        "url": "https://www.nextbigfuture.com/2026/07/report-agrees-with-nextbigfuture-on-8-gigawatts-spacex-ai-data-centers-by-2027-2028.html"
       }
     ],
     "ai-research": [
@@ -10822,7 +10587,7 @@
   ],
   "dailyReport": {
     "date": "2026-08-28",
-    "generatedAt": "2026-08-28T09:24:46.003248Z",
+    "generatedAt": "2026-08-28T11:58:16.021290Z",
     "total": 28,
     "sections": [
       {
@@ -10969,6 +10734,17 @@
         "label": "模型发布",
         "items": [
           {
+            "title": "Supporting Thailand’s next generation of AI startups",
+            "summary": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into tru",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-28",
+            "publishedAt": "2026-08-28T10:00",
+            "reason": ""
+          },
+          {
             "title": "Introducing OpenAI models on Amazon Bedrock for in-country inferencing in India",
             "summary": "Amazon Bedrock now supports the OpenAI GPT-5.6 models, Terra and Luna, in India with India geographic cross-Region inference. If you have lo",
             "source": "RSS · AWS Machine Learning",
@@ -11087,17 +10863,6 @@
             "sourceCount": 1,
             "date": "2026-08-27",
             "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Piloting the world's first double-blind AI evaluations",
-            "summary": "Piloting the world's first double-blind AI evaluations",
-            "source": "RSS · Google DeepMind",
-            "url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-27",
-            "publishedAt": "2026-08-27T20:59",
             "reason": ""
           }
         ]
