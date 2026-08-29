@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-08-29",
-  "generatedAt": "2026-08-29T08:47:38.370780Z",
+  "generatedAt": "2026-08-29T11:14:15.552514Z",
   "news": [
     {
       "title": "Batch write and discover records in Amazon SageMaker Feature Store",
@@ -5614,6 +5614,28 @@
     "ai-coding": [
       {
         "name": "OpenAI to end agreement with SpaceX's AI coding tool Cursor,",
+        "provider": "Tuoi tre news",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenAI said on Friday that it plans to stop providing AI models to Cursor, the coding-tool company now owned by Elon Musk's SpaceX, in a further escalation of t",
+        "description": "OpenAI said on Friday that it plans to stop providing AI models to Cursor, the coding-tool company now owned by Elon Musk's SpaceX, in a further escalation of the bitter rivalry be",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Tuoi tre news",
+        "url": "https://news.tuoitre.vn/openai-to-end-agreement-with-spacexs-ai-coding-tool-cursor-deepening-musk-altman-clash-103260829112201407.htm"
+      },
+      {
+        "name": "The SpaceX-Cursor acquisition just cost developers access to",
+        "provider": "The Indian Express",
+        "type": "AI 项目/工具",
+        "bestFor": "Developers using AI coding tool Cursor in combination with OpenAI's models have until November 12, 2026 to continue accessing them.\n\nOpenAI on Friday, August 28",
+        "description": "Developers using AI coding tool Cursor in combination with OpenAI's models have until November 12, 2026 to continue accessing them.\n\nOpenAI on Friday, August 28, said that it is pu",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Indian Express",
+        "url": "https://indianexpress.com/article/technology/artificial-intelligence/spacex-cursor-acquisition-openai-models-access-10854362/"
+      },
+      {
+        "name": "OpenAI to end agreement with SpaceX's AI coding tool Cursor,",
         "provider": "ETCIO.com",
         "type": "AI 项目/工具",
         "bestFor": "This action is due to apprehensions about SpaceX's potential violations of contract agreements, reinforced by previous dealings with Musk's ventures. Reports in",
@@ -6089,41 +6111,64 @@
         "watch": "请打开原始来源核对",
         "sourceName": "GitHub Blog",
         "url": "https://github.blog/open-source/maintainers/your-contributors-are-ai-first-now-is-your-project"
-      },
-      {
-        "name": "Webz.io 推出开放 API，助力 Vibe Coders 构建数据驱动应用",
-        "provider": "TFOT",
-        "type": "AI 项目/工具",
-        "bestFor": "这一开放 API 的推出将改变许多行业的工作方式，尤其是那些需要实时数据支持的领域。市场营销人员可以实时监测品牌声誉，电商经理能够快速响应客户反馈，投资者可以更好地跟踪行业动态。随着越来越多的非开发者参与到应用构建中，未来可能会涌现出更多创新的应用和工具，推动行业的进一步发展。",
-        "description": "Webz.io 最近推出了开放的新闻、博客、论坛和评论 API，允许用户每月免费调用 500 次。这一举措使得产品经理、市场营销人员和创业者等非技术人员能够快速生成应用原型，利用实时网络数据提升应用价值。",
-        "useCases": [
-          "构建竞争对手监控仪表板，跟踪产品发布和客户投诉。",
-          "创建 AI 研究助手，收集行业报道和评论。",
-          "监测市场活动在新闻、博客和论坛中的讨论情况。"
-        ],
-        "watch": "API 调用配额限制可能影响大规模应用的开发和使用。",
-        "sourceName": "TFOT",
-        "url": "https://thefutureofthings.com/29436-vibe-coders-just-got-a-new-building-block-the-open-web/"
-      },
-      {
-        "name": "研究人员揭露OpenAI、Anthropic和Google等AI模型API漏洞",
-        "provider": "The Decoder：AI News（RSS）",
-        "type": "AI 项目/工具",
-        "bestFor": "这一漏洞的发现可能对AI开发者和用户产生深远影响。首先，开发者需要重新评估API的安全性，确保敏感数据不被泄露。其次，企业在选择AI服务提供商时，可能会更加关注其安全措施和漏洞响应能力。此外，研究结果可能促使AI行业加强对加密推理过程的保护，避免未来类似事件的发生。最终，用户在使用AI服务时，需提高警惕，防止个人信息被",
-        "description": "由Alexander Panfilov领导的研究团队发现，OpenAI、Anthropic和Google等主要AI提供商的API存在严重漏洞，允许读取模型的加密推理过程。通过对约7000条公开会话的扫描，研究人员发现62个API密钥、33个邮箱和33个密码，且通过越狱手段，Anthropic的Haiku 4.5能够逐字转写Opus 4.8的原始推理，解码10000条推理轨迹的API成本约720美元。",
-        "useCases": [
-          "评估API安全性，确保敏感数据不被泄露。",
-          "开发更安全的AI模型，防止信息泄露。",
-          "加强对加密推理过程的保护，避免未来漏洞。",
-          "提升用户对AI服务的安全意识，防止个人信息被盗。",
-          "制定企业内部数据保护政策，确保合规性。"
-        ],
-        "watch": "API价格可能因安全漏洞修复而上涨，增加开发成本。",
-        "sourceName": "The Decoder：AI News（RSS）",
-        "url": "https://the-decoder.com/but-marinade-and-leaked-passwords-are-what-researchers-found-in-chatgpts-hidden-reasoning"
       }
     ],
     "ai-agents": [
+      {
+        "name": "ImagineArt Launches Imagine Computer, Bringing Agentic AI to",
+        "provider": "Barchart.com",
+        "type": "AI 项目/工具",
+        "bestFor": "All information and data in this article is solely for informational purposes. For more information please view the Barchart Disclosure Policy here\n\nSAN FRANCIS",
+        "description": "All information and data in this article is solely for informational purposes. For more information please view the Barchart Disclosure Policy here\n\nSAN FRANCISCO - August 29, 2026",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Barchart.com",
+        "url": "https://www.barchart.com/story/news/4334158/imagineart-launches-imagine-computer-bringing-agentic-ai-to-creative-workflows"
+      },
+      {
+        "name": "This New AI Agent Platform Could Send Solana's Price Higher ",
+        "provider": "Yahoo! Finance",
+        "type": "AI 项目/工具",
+        "bestFor": "On Aug. 24, a platform called Virtuals Protocol (CRYPTO: VIRTUAL) launched a new suite of artificial intelligence (AI) agent creation and ownership tools on Sol",
+        "description": "On Aug. 24, a platform called Virtuals Protocol (CRYPTO: VIRTUAL) launched a new suite of artificial intelligence (AI) agent creation and ownership tools on Solana (CRYPTO: SOL). I",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Yahoo! Finance",
+        "url": "https://finance.yahoo.com/markets/crypto/articles/ai-agent-platform-could-send-092000015.html"
+      },
+      {
+        "name": "This New AI Agent Platform Could Send Solana's Price Higher ",
+        "provider": "The Motley Fool",
+        "type": "AI 项目/工具",
+        "bestFor": "On Aug. 24, a platform called Virtuals Protocol (VIRTUAL -4.25%) launched a new suite of artificial intelligence (AI) agent creation and ownership tools on Sola",
+        "description": "On Aug. 24, a platform called Virtuals Protocol (VIRTUAL -4.25%) launched a new suite of artificial intelligence (AI) agent creation and ownership tools on Solana (CRYPTO: SOL). If",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Motley Fool",
+        "url": "https://www.fool.com/investing/2026/08/29/this-new-ai-agent-platform-could-send-solanas-pric/"
+      },
+      {
+        "name": "Agentic AI Spending Hits $1.41 Million a Year as 67% of Ente",
+        "provider": "InfotechLead",
+        "type": "AI 项目/工具",
+        "bestFor": "Agentic AI has moved from experimentation to enterprise-scale production, but cost controls are failing to keep pace.\n\nIDC agentic AI cost-governance research s",
+        "description": "Agentic AI has moved from experimentation to enterprise-scale production, but cost controls are failing to keep pace.\n\nIDC agentic AI cost-governance research shows that 95 percent",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "InfotechLead",
+        "url": "https://infotechlead.com/artificial-intelligence/agentic-ai-spending-hits-1-41-million-a-year-as-67-of-enterprises-exceed-budgets-98063"
+      },
+      {
+        "name": "Circle CEO Says AI Agents Use USDC for 99% of Payments",
+        "provider": "Live Bitcoin News",
+        "type": "AI 项目/工具",
+        "bestFor": "* USDC settled 99.3% of x402 AI agent payment volume during Q2 2026.\n\n* Circle's USDC circulation reached $73.3 billion by the end of Q2 2026.\n\n* Circle is expa",
+        "description": "* USDC settled 99.3% of x402 AI agent payment volume during Q2 2026.\n\n* Circle's USDC circulation reached $73.3 billion by the end of Q2 2026.\n\n* Circle is expanding USDC use acros",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Live Bitcoin News",
+        "url": "https://www.livebitcoinnews.com/circle-ceo-says-ai-agents-use-usdc-for-99-of-payments/"
+      },
       {
         "name": "Navigating 'Mind-Blowing' New Media Challenges",
         "provider": "MediaPost",
@@ -6508,64 +6553,20 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Startup Fortune",
         "url": "https://startupfortune.com/salesforce-stock-jumps-14-as-benioffs-ai-numbers-silence-saas-doubters/"
-      },
-      {
-        "name": "OpenAI agents tried covering their tracks after Hugging Face",
-        "provider": "NewsBytes",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenAI has released an official report detailing the breach of open-source platform Hugging Face. The incident, which took place in July, was not just the work ",
-        "description": "OpenAI has released an official report detailing the breach of open-source platform Hugging Face. The incident, which took place in July, was not just the work of one rogue AI agen",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsBytes",
-        "url": "https://www.newsbytesapp.com/news/science/openai-reveals-how-ai-agents-triggered-the-hugging-face-breach/story"
-      },
-      {
-        "name": "Salesforce Turns Enterprise Applications into Enterprise Cap",
-        "provider": "Enterprise IT News",
-        "type": "AI 项目/工具",
-        "bestFor": "Headless 360 is expanding across the Salesforce platform, transforming every Salesforce cloud into reusable enterprise capabilities that any authorized AI agent",
-        "description": "Headless 360 is expanding across the Salesforce platform, transforming every Salesforce cloud into reusable enterprise capabilities that any authorized AI agent can securely discov",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Enterprise IT News",
-        "url": "https://enterpriseit.news/salesforce-turns-enterprise-applications-into-enterprise-capabilities/"
-      },
-      {
-        "name": "LLM Agents Perform Controlled Experiments Using Simulation M",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "arXiv:2608.23622v1 Announce Type: new Abstract: Large language models (LLMs) have shown strong capabilities in reasoning, planning, and tool use, but many scien",
-        "description": "arXiv:2608.23622v1 Announce Type: new Abstract: Large language models (LLMs) have shown strong capabilities in reasoning, planning, and tool use, but many scientific and engineerin",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · arXiv cs.AI",
-        "url": "https://arxiv.org/abs/2608.23622"
-      },
-      {
-        "name": "TRACE: Transition-Aware Residual Control for Multi-Objective",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "arXiv:2608.23631v1 Announce Type: new Abstract: Multi-objective materials discovery with LLM agents is often limited not only by how many candidates can be prop",
-        "description": "arXiv:2608.23631v1 Announce Type: new Abstract: Multi-objective materials discovery with LLM agents is often limited not only by how many candidates can be proposed, but by how eff",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · arXiv cs.AI",
-        "url": "https://arxiv.org/abs/2608.23631"
-      },
-      {
-        "name": "OpenAI explains how its naughty AI agents attacked Hugging F",
-        "provider": "TheRegister.com",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenAI has published its technical report detailing \"the Hugging Face incident,\" the compromise of the eponymous LLM repository by unreleased, ill-supervised AI",
-        "description": "OpenAI has published its technical report detailing \"the Hugging Face incident,\" the compromise of the eponymous LLM repository by unreleased, ill-supervised AI models.\n\nThe incide",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "TheRegister.com",
-        "url": "https://www.theregister.com/security/2026/08/27/openai-explains-how-its-naughty-ai-agents-attacked-hugging-face/5292780"
       }
     ],
     "ai-models": [
+      {
+        "name": "Mark Zuckerberg's Meta Just Open-Sourced Its Most Powerful A",
+        "provider": "The Motley Fool",
+        "type": "AI 项目/工具",
+        "bestFor": "Meta Platforms (META +1.21%) is once again releasing some of its artificial intelligence (AI) models with open weights, allowing developers to download and modi",
+        "description": "Meta Platforms (META +1.21%) is once again releasing some of its artificial intelligence (AI) models with open weights, allowing developers to download and modify them.\n\nThe compan",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Motley Fool",
+        "url": "https://www.fool.com/investing/2026/08/29/mark-zuckerbergs-meta-just-open-sourced-its-most-p/"
+      },
       {
         "name": "Complex queries sure to hit AI paywalls, or require patience",
         "provider": "ArkansasOnline",
@@ -6994,20 +6995,20 @@
         "watch": "请打开原始来源核对",
         "sourceName": "India Today",
         "url": "https://www.indiatoday.in/technology/news/story/sam-altman-gifts-himself-and-6-openai-employees-rs-15-crore-ai-themed-luxury-watches-report-says-2980195-2026-08-26"
-      },
-      {
-        "name": "Apple Mac Mini M6 is no longer a cheap Mac at Rs 99,900 -- S",
-        "provider": "The Financial Express",
-        "type": "AI 项目/工具",
-        "bestFor": "Apple just released a new Mac Mini out of the blue and, without giving any hint, released the next-gen M6 chip. That means more performance out of the box, and ",
-        "description": "Apple just released a new Mac Mini out of the blue and, without giving any hint, released the next-gen M6 chip. That means more performance out of the box, and a costlier price tag",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Financial Express",
-        "url": "https://www.financialexpress.com/life/technology-apple-mac-mini-m6-is-no-longer-a-cheap-mac-at-rs-99900-so-who-is-it-for-4325552/"
       }
     ],
     "ai-business": [
+      {
+        "name": "Best Smartwatches to Buy this Weekend: Galaxy Watch 9, Pixel",
+        "provider": "Analytics Insight",
+        "type": "AI 项目/工具",
+        "bestFor": "The smartwatch market has three clear choices for a weekend purchase: premium Android power, Google's health-first approach, and affordable battery strength. Sa",
+        "description": "The smartwatch market has three clear choices for a weekend purchase: premium Android power, Google's health-first approach, and affordable battery strength. Samsung Galaxy Watch 9",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Analytics Insight",
+        "url": "https://www.analyticsinsight.net/smartwatch/best-smartwatches-to-buy-this-weekend-galaxy-watch-9-pixel-watch-5-redmi-watch-6-more"
+      },
       {
         "name": "8 Mid Cap Stocks With Positive Free Cash Flow to Keep on You",
         "provider": "Trade Brains",
@@ -7480,21 +7481,6 @@
         "watch": "AI 功能的实现可能需要高性能的硬件支持，普通用户的设备可能无法兼容。",
         "sourceName": "NewsAPI:artificial intelligence",
         "url": "https://www.thehindubusinessline.com/info-tech/samsung-tracking-consumer-ai-adoption-to-shape-future-features-official/article71324163.ece"
-      },
-      {
-        "name": "Dynatrace 第一季度财报超预期，平台扩展显著",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "Dynatrace 的业绩超预期将吸引更多投资者关注，可能导致股价上涨。新客户的增加意味着公司在市场中的影响力增强，可能促使其他企业加速数字化转型。此外，业绩的提升也可能推动公司进一步加大研发投入，提升产品竞争力。",
-        "description": "Dynatrace（NYSE:DT）在2027财年第一季度的业绩超出预期，得益于新客户增长创纪录和平台扩展。公司报告显示，新增客户数量同比增长超过30%，推动总收入达到1.5亿美元，较去年同期增长20%。",
-        "useCases": [
-          "分析云环境中的应用性能，使用Dynatrace平台提升用户体验。",
-          "监控多云环境下的应用健康状态，确保业务连续性。",
-          "利用Dynatrace的智能分析功能，优化资源配置和成本管理。"
-        ],
-        "watch": "市场竞争加剧，可能导致客户流失和收入下降。",
-        "sourceName": "NewsAPI:large language model",
-        "url": "https://www.marketbeat.com/instant-alerts/dynatrace-q1-earnings-call-highlights-2026-08-08/?utm_source=yahoofinance&amp;utm_medium=yahoofinance"
       }
     ],
     "ai-benchmark": [
@@ -10543,7 +10529,7 @@
   ],
   "dailyReport": {
     "date": "2026-08-29",
-    "generatedAt": "2026-08-29T08:47:38.347744Z",
+    "generatedAt": "2026-08-29T11:14:15.527517Z",
     "total": 16,
     "sections": [
       {
