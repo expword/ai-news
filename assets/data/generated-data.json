@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-08-29",
-  "generatedAt": "2026-08-29T01:17:38.817516Z",
+  "generatedAt": "2026-08-29T03:45:21.546546Z",
   "news": [
     {
       "title": "Batch write and discover records in Amazon SageMaker Feature Store",
@@ -2521,141 +2521,6 @@
       "sourceDate": "",
       "tags": [],
       "url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
-      "summary": "",
-      "category": "ai-models",
-      "source": "RSS · Hugging Face Blog",
-      "date": "2026-08-25",
-      "publishedAt": "2026-08-25T19:39",
-      "collectedAt": "2026-08-26T00:55",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Aug 25, 2026 Announcements Funding better evaluations of AI’s impact on wellbeing",
-      "summary": "Aug 25, 2026 Announcements Funding better evaluations of AI’s impact on wellbeing",
-      "category": "ai-business",
-      "source": "HTML · Anthropic",
-      "date": "2026-08-25",
-      "publishedAt": "",
-      "collectedAt": "2026-08-26T00:55",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-25",
-      "tags": [],
-      "url": "https://www.anthropic.com/news/wellbeing-research-grants",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Disrupting a new covert influence campaign from Russia",
-      "summary": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West.",
-      "category": "ai-models",
-      "source": "RSS · OpenAI Blog",
-      "date": "2026-08-25",
-      "publishedAt": "2026-08-25T08:00",
-      "collectedAt": "2026-08-25T17:25",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "MetaRoCE：为 AI 规模以太网打造的全新 RDMA 传输协议",
-      "summary": "Meta 设计并开源了 MetaRoCE，一个专为 AI 工作负载在通用以太网上打造的 RDMA 传输协议，已通过 Open Compute Project（OCP）发布规范、参考软件实现和合规测试套件。该协议将智能移至端点，原生支持乱序交付、多路径、无损容忍和双向拥塞控制，无需 PFC，可在百万 GPU 规模下提供高吞吐、低尾延迟。现有 RDMA Verb",
-      "category": "ai-models",
-      "source": "Meta Engineering Blog（RSS）",
-      "date": "2026-08-25",
-      "publishedAt": "2026-08-25T02:02",
-      "collectedAt": "2026-08-25T05:01",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://engineering.fb.com/2026/08/24/networking-traffic/metaroce-rdma-transport-ai-ethernet",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Democratizing institutional knowledge: Building an AI-powered knowledge management system with AWS",
-      "summary": "Learn how to build a customizable, smart-caching knowledge management system on AWS that captures and delivers institutional (tribal) knowledge through a voice-first AI avatar. The",
-      "category": "ai-models",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-08-25",
-      "publishedAt": "2026-08-25T02:59",
-      "collectedAt": "2026-08-25T03:51",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/democratizing-institutional-knowledge-building-an-ai-powered-knowledge-management-system-with-aws/",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -5775,6 +5640,17 @@
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Why Is OpenAI Ending Its Partnership With Cursor?",
+        "provider": "LatestLY",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenAI has officially terminated its partnership with AI powered coding editor Cursor, with direct model access scheduled to end on November 12, 2026. The move ",
+        "description": "OpenAI has officially terminated its partnership with AI powered coding editor Cursor, with direct model access scheduled to end on November 12, 2026. The move follows Elon Musk's ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "LatestLY",
+        "url": "https://www.latestly.com/technology/why-is-openai-ending-its-partnership-with-cursor-7580649.html"
+      },
+      {
         "name": "Nvidia to Nab Hugging Face, the ‘GitHub for AI,’ for $12.9B:",
         "provider": "NewsData.io",
         "type": "AI 项目/工具",
@@ -6280,17 +6156,6 @@
         "watch": "在部署过程中，可能会遇到 AWS 服务的配额限制，需提前确认配额以避免中断。",
         "sourceName": "RSS · AWS Machine Learning",
         "url": "https://aws.amazon.com/blogs/machine-learning/deploying-anthropic-claude-apps-gateway-for-aws-for-enterprise-workloads/"
-      },
-      {
-        "name": "Best AI Agent Builders in 2026: 8 No-Code and Low-Code Platf",
-        "provider": "Cryptopolitan",
-        "type": "AI 项目/工具",
-        "bestFor": "Platform choice matters: n8n offers flexibility and self-hosting, while Zapier and MindStudio focus on no-code use.\n\nMcKinsey's latest State of AI report reveal",
-        "description": "Platform choice matters: n8n offers flexibility and self-hosting, while Zapier and MindStudio focus on no-code use.\n\nMcKinsey's latest State of AI report revealed that 62% of organ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Cryptopolitan",
-        "url": "https://www.cryptopolitan.com/best-ai-agent-builders-2026-no-code-low-code/"
       }
     ],
     "ai-agents": [
@@ -6737,6 +6602,28 @@
     ],
     "ai-models": [
       {
+        "name": "Your Voice: Hong Kong in WWII, volunteering and data centres",
+        "provider": "Young Post Club",
+        "type": "AI 项目/工具",
+        "bestFor": "Have something to say? Send us a letter using this form.\n\nLessons from Hong Kong in WWII\n\nVenus Cheng Yee-lam, St Mary's Canossian College\n\nOur history class re",
+        "description": "Have something to say? Send us a letter using this form.\n\nLessons from Hong Kong in WWII\n\nVenus Cheng Yee-lam, St Mary's Canossian College\n\nOur history class recently finished a un",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Young Post Club",
+        "url": "https://www.youngpostclub.com/yp/share-us/letters-editors/article/3365310/your-voice-hong-kong-wwii-value-volunteering-and-environmental-impact-data-centres-online-letters"
+      },
+      {
+        "name": "OpenAI 终止与 Cursor 合作，11 月 12 日生效",
+        "provider": "X：Tibo (@thsottiaux)",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenAI 因 SpaceX 收购 Cursor 后信任问题，决定终止向其提供模型访问，合作于 11 月 12 日结束。开发者仍可通过自有 OpenAI API 密钥及 IDE 扩展继续使用 GPT 模型。OpenAI 表示将继续支持广泛的工具生态与开源计划。",
+        "description": "OpenAI 因 SpaceX 收购 Cursor 后信任问题，决定终止向其提供模型访问，合作于 11 月 12 日结束。开发者仍可通过自有 OpenAI API 密钥及 IDE 扩展继续使用 GPT 模型。OpenAI 表示将继续支持广泛的工具生态与开源计划。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "X：Tibo (@thsottiaux)",
+        "url": "https://x.com/thsottiaux/status/2093515916076343774"
+      },
+      {
         "name": "Batch write and discover records in Amazon SageMaker Feature",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -7153,28 +7040,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · Google AI Blog",
         "url": "https://blog.google/products-and-platforms/products/search/home-decor-tips/"
-      },
-      {
-        "name": "Governed reports with Amazon Quick Desktop and Amazon FSx fo",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Build a governed weekly reporting workflow with Amazon Quick Desktop and Amazon FSx for NetApp ONTAP. An Amazon S3 access point exposes an approved folder to a ",
-        "description": "Build a governed weekly reporting workflow with Amazon Quick Desktop and Amazon FSx for NetApp ONTAP. An Amazon S3 access point exposes an approved folder to a Quick knowledge base",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/governed-reports-with-amazon-quick-desktop-and-amazon-fsx-for-netapp-ontap/"
-      },
-      {
-        "name": "Google Offers College Students Free AI Plans for a Year, Exp",
-        "provider": "TechAfrica News",
-        "type": "AI 项目/工具",
-        "bestFor": "For eligible college students outside the US, Google is offering one year of Google AI Plus for free. The plan includes access to Gemini Omni, higher usage limi",
-        "description": "For eligible college students outside the US, Google is offering one year of Google AI Plus for free. The plan includes access to Gemini Omni, higher usage limits in Gemini and 400",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "TechAfrica News",
-        "url": "https://techafricanews.com/2026/08/25/google-free-ai-plans-college-students-gemini-study-tools/"
       }
     ],
     "ai-business": [
@@ -7680,6 +7545,17 @@
       }
     ],
     "ai-benchmark": [
+      {
+        "name": "TrendAI™ Ranks First on CyberGym Agentic AI Security Benchma",
+        "provider": "asianews.network",
+        "type": "AI 项目/工具",
+        "bestFor": "The 97% success rate places TrendAI™ ahead of all other entrants on the AI security benchmark\n\nHONG KONG SAR - - 28 August 2026 - The TrendAI™ agentic exploit-r",
+        "description": "The 97% success rate places TrendAI™ ahead of all other entrants on the AI security benchmark\n\nHONG KONG SAR - - 28 August 2026 - The TrendAI™ agentic exploit-remediation engine, c",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "asianews.network",
+        "url": "https://asianews.network/trendai-ranks-first-on-cybergym-agentic-ai-security-benchmark/"
+      },
       {
         "name": "TrendAI™ Ranks First on CyberGym Agentic AI Security Benchma",
         "provider": "thesun.my",
@@ -8263,23 +8139,6 @@
         "watch": "评估环境的差异可能导致不同模型之间的比较不可靠，影响决策。",
         "sourceName": "Currents:AI agent",
         "url": "https://dev.to/alifar/openai-says-ai-benchmark-scores-depend-on-harnesses-budgets-and-memory-design-448k"
-      },
-      {
-        "name": "AI 记忆基准测试的争议与挑战",
-        "provider": "Currents",
-        "type": "AI 项目/工具",
-        "bestFor": "这一争论对 AI 研究者和开发者具有重要影响。首先，基准测试的透明度和可靠性直接影响到算法的选择和应用。其次，企业在选择 AI 解决方案时，可能会受到这些争论的影响，从而改变其决策过程。此外，随着对 AI 记忆能力的关注增加，可能会推动行业内对评估标准的重新审视，促使更严格的测试方法和更高的透明度。",
-        "description": "在 AI 记忆基准测试中，Mem0 和 Zep 之间的竞争引发了广泛讨论。Mem0 的最新算法在 LOCOMO 和 LongMemEval 中分别得分 92.5 和 94.4，但其评估方法受到质疑，尤其是在处理不确定性时的表现。",
-        "useCases": [
-          "评估 AI 模型的记忆能力，选择最优算法。",
-          "优化算法设计，提升模型在不确定性问题上的表现。",
-          "进行技术审计，确保基准测试的透明性和可靠性。",
-          "开发新一代 AI 应用，利用高效的记忆算法。",
-          "制定行业标准，推动 AI 记忆评估方法的改进。"
-        ],
-        "watch": "基准测试的透明度不足可能导致企业选择不当，影响投资回报。",
-        "sourceName": "Currents:AI agent",
-        "url": "https://dev.to/gde03/the-ai-memory-benchmark-everyone-quotes-forbids-saying-i-dont-know-o1n"
       }
     ],
     "ai-image-video": [
@@ -8844,6 +8703,17 @@
     ],
     "ai-research": [
       {
+        "name": "How well do AI tools help when it comes to interior design?",
+        "provider": "The Star",
+        "type": "AI 项目/工具",
+        "bestFor": "BERLIN: Will the table really fit between the window and the door? Will there be enough room to get around it without bumping into the corner? And would that ma",
+        "description": "BERLIN: Will the table really fit between the window and the door? Will there be enough room to get around it without bumping into the corner? And would that maximalist wallpaper a",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Star",
+        "url": "https://www.thestar.com.my/tech/tech-news/2026/08/29/how-well-do-ai-tools-help-when-it-comes-to-interior-design"
+      },
+      {
         "name": "LLMs Are Not (Consistently) Bayesian: Quantifying Internal (",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -9318,23 +9188,6 @@
         "watch": "AI 识别技术的不准确性可能导致用户体验下降，影响销售。",
         "sourceName": "NewsAPI:large language model",
         "url": "https://researchbuzz.me/2026/08/07/bot-false-flags-flock-camera-misinformation-data-center-protests-more-researchbuzz-ai-update-august-7-2026/"
-      },
-      {
-        "name": "DeepAmbigQA：多跳模糊问题基准测试 LLM 答案完整性",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "DeepAmbigQA 的推出将对多个领域产生影响。首先，做 RAG 的工程师可以利用该数据集来测试和改进他们的模型，提升问答系统的准确性。其次，研究人员可以通过该数据集深入了解 LLM 在复杂问题上的表现，从而推动相关技术的发展。此外，教育工作者也可以利用这些问题来设计更具挑战性的测试，帮助学生提高批判性思维能力。整",
-        "description": "DeepAmbigQA 是一个新推出的数据集，专注于评估大型语言模型（LLM）在处理复杂问题时的答案完整性。该数据集包含 3600 个多跳推理问题，其中一半涉及名称模糊性，旨在填补现有问答基准的空白。实验结果显示，即使是最先进的 GPT-5 模型在回答模糊问题时也表现不佳，准确匹配率仅为 0.13，凸显了对更强大问答系统的需求。",
-        "useCases": [
-          "利用 DeepAmbigQA 数据集测试和优化问答系统的性能。",
-          "在学术研究中分析 LLM 在复杂问题上的表现。",
-          "设计基于该数据集的教育测试，提升学生的推理能力。",
-          "开发新一代问答系统，解决现有模型的局限性。",
-          "进行多跳推理算法的研究，推动相关技术的进步。"
-        ],
-        "watch": "使用该数据集进行商业应用可能面临授权和合规性问题，需谨慎处理。",
-        "sourceName": "RSS · Apple ML Research",
-        "url": "https://machinelearning.apple.com/research/deepambigqa-multihop-questions"
       }
     ],
     "ai-office": []
@@ -10743,7 +10596,7 @@
   ],
   "dailyReport": {
     "date": "2026-08-29",
-    "generatedAt": "2026-08-29T01:17:38.792530Z",
+    "generatedAt": "2026-08-29T03:45:21.521544Z",
     "total": 16,
     "sections": [
       {
@@ -23827,6 +23680,18 @@
   },
   "benchmarkDatasets": [
     {
+      "name": "ranks-first-on-cybergym-agentic-ai-security-benchmark",
+      "area": "Agent / 工具调用",
+      "note": "The 97% success rate places TrendAI™ ahead of all other entrants on the AI security benchmark\n\nHONG KONG SAR - - 28 August 2026 - The TrendAI™ agentic exploit-remediation engine, c",
+      "source": "https://asianews.network/trendai-ranks-first-on-cybergym-agentic-ai-security-benchmark/",
+      "sourceName": "asianews.network",
+      "date": "2026-08-29",
+      "originTitle": "TrendAI™ Ranks First on CyberGym Agentic AI Security Benchmark",
+      "evaluates": [],
+      "useCases": [],
+      "limitations": []
+    },
+    {
       "name": "BrailleBench",
       "area": "AI 模型能力评测",
       "note": "Although Large language models (LLMs) mediate access to knowledge and computational assistance, their capabilities should benefit vulnerable groups in the same way. However, it is ",
@@ -23846,18 +23711,6 @@
       "sourceName": "arXiv",
       "date": "2026-08-27",
       "originTitle": "From Static to Dynamic: Benchmarking Real-World Code Review with MCR-Bench",
-      "evaluates": [],
-      "useCases": [],
-      "limitations": []
-    },
-    {
-      "name": "ranks-first-on-cybergym-agentic-ai-security-benchmark",
-      "area": "Agent / 工具调用",
-      "note": "The 97% success rate places TrendAI™ ahead of all other entrants on the AI security benchmark\n\nHONG KONG SAR - Media OutReach Newswire - 28 August 2026 - The TrendAI™ agentic explo",
-      "source": "https://thesun.my/business/corporate-news/trendai-ranks-first-on-cybergym-agentic-ai-security-benchmark/",
-      "sourceName": "thesun.my",
-      "date": "2026-08-28",
-      "originTitle": "TrendAI™ Ranks First on CyberGym Agentic AI Security Benchmark",
       "evaluates": [],
       "useCases": [],
       "limitations": []
