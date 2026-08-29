@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-08-29",
-  "generatedAt": "2026-08-29T11:14:15.552514Z",
+  "generatedAt": "2026-08-29T13:43:24.341601Z",
   "news": [
     {
       "title": "Batch write and discover records in Amazon SageMaker Feature Store",
@@ -5613,6 +5613,17 @@ window.AI_GENERATED_DATA = {
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Sam Altman and Musk's War Costs Cursor AI After $60B Deal | ",
+        "provider": "CryptoRank",
+        "type": "AI 项目/工具",
+        "bestFor": "Cursor says OpenAI serves 5% of traffic. Musk says he couldn't care less.\n\nSpaceX bought Cursor on August 14, and two weeks later, OpenAI is moving to cut the A",
+        "description": "Cursor says OpenAI serves 5% of traffic. Musk says he couldn't care less.\n\nSpaceX bought Cursor on August 14, and two weeks later, OpenAI is moving to cut the AI coding tool off fr",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "CryptoRank",
+        "url": "https://cryptorank.io/news/feed/f1661-openai-musk-war-cursor-cutoff"
+      },
+      {
         "name": "OpenAI to end agreement with SpaceX's AI coding tool Cursor,",
         "provider": "Tuoi tre news",
         "type": "AI 项目/工具",
@@ -6100,20 +6111,20 @@ window.AI_GENERATED_DATA = {
         "watch": "AI 编码代理可能会执行未授权的操作，导致敏感数据泄露，需严格控制权限。",
         "sourceName": "DataBreachToday",
         "url": "https://www.databreachtoday.com/ai-coding-agents-expand-enterprise-attack-surface-a-32500"
-      },
-      {
-        "name": "AutoGPT 如何用 AGENTS.md 和技能门控管理 AI 生成的拉取请求",
-        "provider": "GitHub Blog",
-        "type": "AI 项目/工具",
-        "bestFor": "AutoGPT 维护者发现，AI 智能体不会主动阅读文档，因此将指令放在 AGENTS.md 和技能文件中，并置于代码目录旁。他们通过强制 PR 模板、测试计划、CI 覆盖率门槛和 CLA 签名等门控机制，将智能体提交的 PR 从\"不可用\"转变为\"可用但不符合路线图\"。其中 CLA 签名因需浏览器和 OAuth 流程，",
-        "description": "AutoGPT 维护者发现，AI 智能体不会主动阅读文档，因此将指令放在 AGENTS.md 和技能文件中，并置于代码目录旁。他们通过强制 PR 模板、测试计划、CI 覆盖率门槛和 CLA 签名等门控机制，将智能体提交的 PR 从\"不可用\"转变为\"可用但不符合路线图\"。其中 CLA 签名因需浏览器和 OAuth 流程，被用作区分人类与智能体的\"人类探测器\"。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "GitHub Blog",
-        "url": "https://github.blog/open-source/maintainers/your-contributors-are-ai-first-now-is-your-project"
       }
     ],
     "ai-agents": [
+      {
+        "name": "Bitmine's Tom Lee Sees $6,000 Ethereum By Year-End If Bitcoi",
+        "provider": "Asianet News Network Pvt Ltd",
+        "type": "AI 项目/工具",
+        "bestFor": "Tom Lee said Ethereum was still \"vastly undervalued\", given its use in the settlement of AI agent transactions that legacy payment rails are unable to support.\n",
+        "description": "Tom Lee said Ethereum was still \"vastly undervalued\", given its use in the settlement of AI agent transactions that legacy payment rails are unable to support.\n\n* Tom Lee said the ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Asianet News Network Pvt Ltd",
+        "url": "https://newsable.asianetnews.com/markets/bitmine-s-tom-lee-sees-6-000-ethereum-by-year-end-if-bitcoin-hits-150-000-articleshow-n97avf8"
+      },
       {
         "name": "ImagineArt Launches Imagine Computer, Bringing Agentic AI to",
         "provider": "Barchart.com",
@@ -6542,20 +6553,31 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "UKAuthority",
         "url": "https://www.ukauthority.com/articles/agentic-ai-warning-from-ncsc"
-      },
-      {
-        "name": "Salesforce Stock Jumps 14% as Benioff's AI Numbers Silence S",
-        "provider": "Startup Fortune",
-        "type": "AI 项目/工具",
-        "bestFor": "Salesforce shares jumped 14% after a Q2 FY27 beat, with Agentforce annualized revenue topping $1.5 billion, up 240% year over year. CEO Marc Benioff used the re",
-        "description": "Salesforce shares jumped 14% after a Q2 FY27 beat, with Agentforce annualized revenue topping $1.5 billion, up 240% year over year. CEO Marc Benioff used the report to call the 'Sa",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Startup Fortune",
-        "url": "https://startupfortune.com/salesforce-stock-jumps-14-as-benioffs-ai-numbers-silence-saas-doubters/"
       }
     ],
     "ai-models": [
+      {
+        "name": "Viral Instinct AI Startup Bags $350M at $2.5B in 2026",
+        "provider": "TechnoSports",
+        "type": "AI 项目/工具",
+        "bestFor": "A 23-year-old founder, a one-year-old company, and a personal assistant that plans weddings and cancels subscriptions -- that's the snapshot behind viral instin",
+        "description": "A 23-year-old founder, a one-year-old company, and a personal assistant that plans weddings and cancels subscriptions -- that's the snapshot behind viral instinct, the AI startup t",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "TechnoSports",
+        "url": "https://technosports.co.in/?p=1425102"
+      },
+      {
+        "name": "Ridley Scott's New Thriller The Dog Stars Rotten Tomatoes Sc",
+        "provider": "ScreenRant",
+        "type": "AI 项目/工具",
+        "bestFor": "Fariba Rezwan is a Lead Editor for the Movie News team. She has been with ScreenRant for nearly five years, with roles ranging from list editor to junior news e",
+        "description": "Fariba Rezwan is a Lead Editor for the Movie News team. She has been with ScreenRant for nearly five years, with roles ranging from list editor to junior news editor.\n\nDuring that ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "ScreenRant",
+        "url": "https://screenrant.com/ridley-scott-the-dog-stars-rotten-tomatoes-audience-score/"
+      },
       {
         "name": "Mark Zuckerberg's Meta Just Open-Sourced Its Most Powerful A",
         "provider": "The Motley Fool",
@@ -6973,28 +6995,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Android Police",
         "url": "https://www.androidpolice.com/geminis-one-billion-users-cant-hide-googles-cash-flow-crisis/"
-      },
-      {
-        "name": "iOS 27 Beta 7: Major Siri AI Upgrade, Features, and How to U",
-        "provider": "Memeburn",
-        "type": "AI 项目/工具",
-        "bestFor": "Performance gains are real: apps launch 30% faster, and beta testers report the smoothest build yet.\n\nApple released iOS 27 Beta 7 on August 24, 2026, and it's ",
-        "description": "Performance gains are real: apps launch 30% faster, and beta testers report the smoothest build yet.\n\nApple released iOS 27 Beta 7 on August 24, 2026, and it's the clearest sign ye",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Memeburn",
-        "url": "https://memeburn.com/ios-27-beta-7-siri-ai-upgrade/"
-      },
-      {
-        "name": "Sam Altman gifts himself and 6 OpenAI employees Rs 1.5 crore",
-        "provider": "India Today",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenAI loves its employees, and apparently the perks go well beyond the million-dollar pay cheques. The company has been handing out some seriously limited-edit",
-        "description": "OpenAI loves its employees, and apparently the perks go well beyond the million-dollar pay cheques. The company has been handing out some seriously limited-edition merchandise to i",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "India Today",
-        "url": "https://www.indiatoday.in/technology/news/story/sam-altman-gifts-himself-and-6-openai-employees-rs-15-crore-ai-themed-luxury-watches-report-says-2980195-2026-08-26"
       }
     ],
     "ai-business": [
@@ -10529,7 +10529,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-08-29",
-    "generatedAt": "2026-08-29T11:14:15.527517Z",
+    "generatedAt": "2026-08-29T13:43:24.316605Z",
     "total": 16,
     "sections": [
       {
