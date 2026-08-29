@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-08-29",
-  "generatedAt": "2026-08-29T06:12:06.039004Z",
+  "generatedAt": "2026-08-29T08:47:38.370780Z",
   "news": [
     {
       "title": "Batch write and discover records in Amazon SageMaker Feature Store",
@@ -6125,6 +6125,28 @@
     ],
     "ai-agents": [
       {
+        "name": "Navigating 'Mind-Blowing' New Media Challenges",
+        "provider": "MediaPost",
+        "type": "AI 项目/工具",
+        "bestFor": "* by Laurie Sullivan , Staff Writer, August 26, 2026\n\nAs AI agents begin to request content directly, publishers and platforms will need systems that expose eno",
+        "description": "* by Laurie Sullivan , Staff Writer, August 26, 2026\n\nAs AI agents begin to request content directly, publishers and platforms will need systems that expose enough metadata for dis",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "MediaPost",
+        "url": "https://www.mediapost.com/publications/article/417480/navigating-mind-blowing-new-media-challenges.html"
+      },
+      {
+        "name": "Gnani launches sovereign AI stack with open-weight LLM and e",
+        "provider": "CIO News",
+        "type": "AI 项目/工具",
+        "bestFor": "India's push for homegrown AI gained another boost as Bengaluru-based voice AI startup Gnani introduced 2 new platforms under its sovereign AI stack, Artha. The",
+        "description": "India's push for homegrown AI gained another boost as Bengaluru-based voice AI startup Gnani introduced 2 new platforms under its sovereign AI stack, Artha. The stack combines Evon",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "CIO News",
+        "url": "https://themainstream.co.in/gnani-launches-sovereign-ai-stack/"
+      },
+      {
         "name": "AMD tests Ryzen AI Halo on local enterprise AI agent | Back ",
         "provider": "Back End News",
         "type": "AI 项目/工具",
@@ -6541,31 +6563,42 @@
         "watch": "请打开原始来源核对",
         "sourceName": "TheRegister.com",
         "url": "https://www.theregister.com/security/2026/08/27/openai-explains-how-its-naughty-ai-agents-attacked-hugging-face/5292780"
-      },
-      {
-        "name": "Evaluate any agent framework with Amazon Bedrock AgentCore E",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Amazon Bedrock AgentCore Evaluations decouples agent evaluation from the framework you build on. As long as your agent emits OpenTelemetry telemetry, the servic",
-        "description": "Amazon Bedrock AgentCore Evaluations decouples agent evaluation from the framework you build on. As long as your agent emits OpenTelemetry telemetry, the service can score it, whet",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/evaluate-any-agent-framework-with-amazon-bedrock-agentcore-evaluations/"
-      },
-      {
-        "name": "Natera’s intelligent appointment scheduling with Amazon Bedr",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Learn how Natera built an automated voice agent on Amazon Bedrock AgentCore that lets patients book mobile phlebotomy appointments through natural conversation.",
-        "description": "Learn how Natera built an automated voice agent on Amazon Bedrock AgentCore that lets patients book mobile phlebotomy appointments through natural conversation. The post covers the",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/nateras-intelligent-appointment-scheduling-with-amazon-bedrock-agentcore/"
       }
     ],
     "ai-models": [
+      {
+        "name": "Complex queries sure to hit AI paywalls, or require patience",
+        "provider": "ArkansasOnline",
+        "type": "AI 项目/工具",
+        "bestFor": "When my niece recently applied for a doctoral program in physical therapy, she needed ChatGPT's help to consolidate a list of 20 varied work experiences. That's",
+        "description": "When my niece recently applied for a doctoral program in physical therapy, she needed ChatGPT's help to consolidate a list of 20 varied work experiences. That's when she ran up aga",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "ArkansasOnline",
+        "url": "https://www.arkansasonline.com/news/2026/aug/29/complex-queries-sure-to-hit-ai-paywalls-or/"
+      },
+      {
+        "name": "What Snowflake (SNOW)'s Cortex AI Model Routing Push Means F",
+        "provider": "Yahoo! Finance",
+        "type": "AI 项目/工具",
+        "bestFor": "* Earlier this month, Snowflake announced new dynamic model routing within its Cortex AI Gateway and flagship AI tools, plus broader access to leading open mode",
+        "description": "* Earlier this month, Snowflake announced new dynamic model routing within its Cortex AI Gateway and flagship AI tools, plus broader access to leading open models like DeepSeek-V4-",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Yahoo! Finance",
+        "url": "https://ca.finance.yahoo.com/news/snowflake-snow-cortex-ai-model-050431503.html"
+      },
+      {
+        "name": "Complex queries sure to hit AI paywalls, or require patience",
+        "provider": "Northwest Arkansas Democrat Gazette",
+        "type": "AI 项目/工具",
+        "bestFor": "When my niece recently applied for a doctoral program in physical therapy, she needed ChatGPT's help to consolidate a list of 20 varied work experiences. That's",
+        "description": "When my niece recently applied for a doctoral program in physical therapy, she needed ChatGPT's help to consolidate a list of 20 varied work experiences. That's when she ran up aga",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Northwest Arkansas Democrat Gazette",
+        "url": "https://www.nwaonline.com/news/2026/aug/29/complex-queries-sure-to-hit-ai-paywalls-or/"
+      },
       {
         "name": "Okta (OKTA) Grew Remaining Performance Obligations 17% While",
         "provider": "Yahoo! Finance",
@@ -6972,42 +7005,20 @@
         "watch": "请打开原始来源核对",
         "sourceName": "The Financial Express",
         "url": "https://www.financialexpress.com/life/technology-apple-mac-mini-m6-is-no-longer-a-cheap-mac-at-rs-99900-so-who-is-it-for-4325552/"
-      },
-      {
-        "name": "Google brings Gemini Enterprise to lawyers with new AI autom",
-        "provider": "The Indian Express",
-        "type": "AI 项目/工具",
-        "bestFor": "Amid growing demand for AI use in the legal sector, Google on Tuesday, August 25, launched new tools and plug-ins designed for lawyers and law firms, marking a ",
-        "description": "Amid growing demand for AI use in the legal sector, Google on Tuesday, August 25, launched new tools and plug-ins designed for lawyers and law firms, marking a notable expansion of",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Indian Express",
-        "url": "https://indianexpress.com/article/technology/artificial-intelligence/google-gemini-enterprise-legal-ai-tools-plug-ins-10849919/"
-      },
-      {
-        "name": "What 3 high school students learned building AI tools for po",
-        "provider": "Police1",
-        "type": "AI 项目/工具",
-        "bestFor": "Presidential AI Challenge finalists share lessons about data security, public trust and human oversight after developing three prototypes with guidance from a M",
-        "description": "Presidential AI Challenge finalists share lessons about data security, public trust and human oversight after developing three prototypes with guidance from a Missouri police depar",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Police1",
-        "url": "https://www.police1.com/leadership-institute/what-3-high-school-students-learned-building-ai-tools-for-police"
-      },
-      {
-        "name": "Trump's UFO Obsession Takes a Humiliating Turn",
-        "provider": "The Daily Beast",
-        "type": "AI 项目/工具",
-        "bestFor": "The White House's pick to lead an outside science council predicted what aliens would think about the president -- if anything.\n\nA scientist whom the White Hous",
-        "description": "The White House's pick to lead an outside science council predicted what aliens would think about the president -- if anything.\n\nA scientist whom the White House appointed to lead ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Daily Beast",
-        "url": "https://www.thedailybeast.com/donald-trumps-ufo-obsession-takes-a-humiliating-turn/"
       }
     ],
     "ai-business": [
+      {
+        "name": "8 Mid Cap Stocks With Positive Free Cash Flow to Keep on You",
+        "provider": "Trade Brains",
+        "type": "AI 项目/工具",
+        "bestFor": "Free cash flow (FCF) measures the cash a company generates from its operations after accounting for capital expenditure. Unlike accounting profit, it reflects t",
+        "description": "Free cash flow (FCF) measures the cash a company generates from its operations after accounting for capital expenditure. Unlike accounting profit, it reflects the actual cash avail",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Trade Brains",
+        "url": "https://tradebrains.in/indian-markets/8-mid-cap-stocks-with-positive-free-cash-flow-to-keep-on-your-radar-12447140"
+      },
       {
         "name": "Ford's India GCC to hire 500, bets on AI and connected vehic",
         "provider": "ETCIO.com",
@@ -7484,26 +7495,20 @@
         "watch": "市场竞争加剧，可能导致客户流失和收入下降。",
         "sourceName": "NewsAPI:large language model",
         "url": "https://www.marketbeat.com/instant-alerts/dynatrace-q1-earnings-call-highlights-2026-08-08/?utm_source=yahoofinance&amp;utm_medium=yahoofinance"
-      },
-      {
-        "name": "AI 如何重塑软件开发者的工作",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "AI 的引入将影响多个层面，首先是开发者的工作方式，团队协作将更加依赖于 AI 工具。其次，企业在决策时需要考虑 AI 的风险和收益，可能会重新评估项目的可行性。此外，AI 的普及可能导致开发者技能的快速更新，迫使他们不断学习新技术以保持竞争力。最终，企业可能需要在 AI 工具的使用上投入更多资源，影响整体预算和项目规",
-        "description": "软件开发者 Andrew Caldwell 指出，AI 在他的工作中带来了三大变化：提升了工作效率、模糊了团队角色的界限，并提高了人类监督的必要性。尽管 AI 带来了便利，但也伴随了新的挑战和风险。",
-        "useCases": [
-          "利用 AI 工具加速代码生成，提高开发效率。",
-          "通过 AI 进行代码审查，确保代码质量和安全性。",
-          "使用 AI 分析团队协作数据，优化工作流程。",
-          "借助 AI 进行市场需求分析，指导产品开发方向。",
-          "运用 AI 进行用户反馈分析，提升产品用户体验。"
-        ],
-        "watch": "AI 生成内容的准确性可能存在问题，开发者需花费额外时间进行验证。",
-        "sourceName": "NewsAPI:generative AI",
-        "url": "https://www.businessinsider.com/software-developer-says-ai-changed-his-job-2026-8#article"
       }
     ],
     "ai-benchmark": [
+      {
+        "name": "How China is building an edge over the US in video AI",
+        "provider": "South China Morning Post",
+        "type": "AI 项目/工具",
+        "bestFor": "Models from Alibaba, MiniMax and ByteDance currently dominate benchmark rankings on industry evaluation platform Artificial Analysis\n\nChinese artificial intelli",
+        "description": "Models from Alibaba, MiniMax and ByteDance currently dominate benchmark rankings on industry evaluation platform Artificial Analysis\n\nChinese artificial intelligence companies are ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "South China Morning Post",
+        "url": "https://www.scmp.com/tech/tech-trends/article/3365605/china-leverages-short-video-ecosystem-lower-costs-carve-out-lead-ai-video"
+      },
       {
         "name": "TrendAI™ Ranks First on CyberGym Agentic AI Security Benchma",
         "provider": "asianews.network",
@@ -8081,23 +8086,6 @@
         "watch": "API 调整可能导致使用成本上升，开发者需关注预算。",
         "sourceName": "NewsData.io:AI benchmark leaderboard",
         "url": "https://www.bundle.app/en/technology/openai-says-two-api-settings-tripled-gpt-56-sols-arc-agi-3-score-DAEFB5D1-055A-4A37-8367-9A1CD7EC76EC"
-      },
-      {
-        "name": "OpenAI 指出 AI 基准分数受评估环境和资源配置影响",
-        "provider": "Currents",
-        "type": "AI 项目/工具",
-        "bestFor": "这一指导方针将影响研究人员、评估者和 AI 采购者的决策，促使他们在选择和评估 AI 模型时更加关注环境因素。对于开发者来说，理解这些评估条件有助于更好地设计和优化 AI 系统，确保其在实际应用中的有效性。此外，这也可能推动行业标准的建立，促使更多组织在评估时采用透明和一致的方法。",
-        "description": "我注意到 OpenAI 最近强调，AI 模型的基准测试结果应视为特定环境下的表现，而非模型独立能力的固定指标。评估时，环境设置、资源预算和工具使用等因素都会显著影响模型的表现，尤其是在长时间、多步骤的任务中。OpenAI 提出，评估报告应更透明，明确说明得分背后的条件。",
-        "useCases": [
-          "评估 AI 模型时，明确记录使用的评估环境和资源配置，以提高结果的可解释性。",
-          "在设计长时间运行的 AI 系统时，考虑上下文管理策略，以保持任务相关的信息。",
-          "为 AI 采购决策提供更全面的评估报告，确保选择适合特定应用场景的模型。",
-          "在多步骤任务中，优化工具使用和信息管理，以提升系统的整体表现。",
-          "与 Scalevise 合作，设计符合实际操作约束的 AI 架构和工作流。"
-        ],
-        "watch": "评估环境的差异可能导致不同模型之间的比较不可靠，影响决策。",
-        "sourceName": "Currents:AI agent",
-        "url": "https://dev.to/alifar/openai-says-ai-benchmark-scores-depend-on-harnesses-budgets-and-memory-design-448k"
       }
     ],
     "ai-image-video": [
@@ -10555,7 +10543,7 @@
   ],
   "dailyReport": {
     "date": "2026-08-29",
-    "generatedAt": "2026-08-29T06:12:06.016969Z",
+    "generatedAt": "2026-08-29T08:47:38.347744Z",
     "total": 16,
     "sections": [
       {
