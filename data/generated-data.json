@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-08-29",
-  "generatedAt": "2026-08-29T03:45:21.546546Z",
+  "generatedAt": "2026-08-29T06:12:06.039004Z",
   "news": [
     {
       "title": "Batch write and discover records in Amazon SageMaker Feature Store",
@@ -2494,33 +2494,6 @@
       "sourceDate": "",
       "tags": [],
       "url": "https://openai.com/index/jalapeno-first-results",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Granite 4.2 LLMs: How They're Built",
-      "summary": "",
-      "category": "ai-models",
-      "source": "RSS · Hugging Face Blog",
-      "date": "2026-08-25",
-      "publishedAt": "2026-08-25T23:14",
-      "collectedAt": "2026-08-26T00:55",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -5640,6 +5613,28 @@
   "topicResources": {
     "ai-coding": [
       {
+        "name": "OpenAI to end agreement with SpaceX's AI coding tool Cursor,",
+        "provider": "ETCIO.com",
+        "type": "AI 项目/工具",
+        "bestFor": "This action is due to apprehensions about SpaceX's potential violations of contract agreements, reinforced by previous dealings with Musk's ventures. Reports in",
+        "description": "This action is due to apprehensions about SpaceX's potential violations of contract agreements, reinforced by previous dealings with Musk's ventures. Reports indicate Cursor's co-f",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "ETCIO.com",
+        "url": "https://cio.economictimes.indiatimes.com/news/artificial-intelligence/openai-to-end-agreement-with-spacexs-ai-coding-tool-cursor-deepening-musk-altman-clash/133604037"
+      },
+      {
+        "name": "OpenAI to terminate Cursor model access following SpaceX acq",
+        "provider": "The Tribune",
+        "type": "AI 项目/工具",
+        "bestFor": "New Delhi [India], August 29 (ANI): Artificial intelligence research company OpenAI, on Friday, decided to end its commercial partnership with coding platform C",
+        "description": "New Delhi [India], August 29 (ANI): Artificial intelligence research company OpenAI, on Friday, decided to end its commercial partnership with coding platform Cursor following the ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Tribune",
+        "url": "https://www.tribuneindia.com/news/business/openai-to-terminate-cursor-model-access-following-spacex-acquisition/"
+      },
+      {
         "name": "Why Is OpenAI Ending Its Partnership With Cursor?",
         "provider": "LatestLY",
         "type": "AI 项目/工具",
@@ -6126,39 +6121,31 @@
         "watch": "API价格可能因安全漏洞修复而上涨，增加开发成本。",
         "sourceName": "The Decoder：AI News（RSS）",
         "url": "https://the-decoder.com/but-marinade-and-leaked-passwords-are-what-researchers-found-in-chatgpts-hidden-reasoning"
-      },
-      {
-        "name": "Apple Silicon 在 macOS 虚拟机中实现 LLM 推理加速",
-        "provider": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "type": "AI 项目/工具",
-        "bestFor": "这一技术进展将使得更多开发者能够在 macOS 虚拟机中高效运行 LLM，尤其是那些需要高性能计算的应用场景。随着推理速度的提升，开发者可以更快地迭代和测试 AI 模型，从而加速产品的开发周期。此外，这也可能促使更多企业考虑在 Apple Silicon 上部署 AI 解决方案，进一步推动相关生态系统的发展。对于教育、",
-        "description": "研究团队通过为 macOS 虚拟机构建进程级兼容层，使得 llama.cpp 能够利用更新的 Metal 内核。在 M1 Ultra 上，TinyLlama 1.1B 的提示处理速度提升 11.08 倍，token 生成速度提升 16.36 倍，接近裸机性能的 98%；Gemma 4 12B 的提示处理与生成速度分别提升 7.20 倍和 14.54 倍。",
-        "useCases": [
-          "在 macOS 虚拟机中运行 LLM 模型，提升 AI 应用的响应速度。",
-          "利用 TinyLlama 1.1B 进行文本生成，快速迭代内容创作。",
-          "在教育领域中，使用 Gemma 4 12B 进行自然语言处理实验，提升研究效率。"
-        ],
-        "watch": "在使用 llama.cpp 时，可能面临 API 调用频率限制，影响模型性能。",
-        "sourceName": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "url": "https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md"
-      },
-      {
-        "name": "在 AWS 部署 Anthropic Claude 应用网关的实用指南",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "部署 Claude 应用网关将使企业能够更好地管理其 AI 应用，提升数据治理和合规性。企业可以通过这一工具优化资源使用，降低运营成本，从而在竞争中获得优势。此外，随着更多企业采用此解决方案，可能会推动整个行业在 AI 应用治理方面的标准化进程。",
-        "description": "本文介绍了如何在 AWS 上部署 Claude 应用网关，作为 Claude Code 和 Claude Desktop 以及 Amazon Bedrock 或 Claude Platform 之间的自托管治理层。内容涵盖了从端到端架构、企业部署模式、成本到实施资源的生产参考部署，适合企业工作负载。",
-        "useCases": [
-          "评估现有的 AWS 资源，选择合适的实例类型以支持 Claude 应用网关的部署。",
-          "配置 Claude 应用网关与现有的 Claude Code 和 AWS 服务的连接，确保数据流畅传输。",
-          "监控部署后的性能指标，调整资源配置以优化应用的响应速度和稳定性。"
-        ],
-        "watch": "在部署过程中，可能会遇到 AWS 服务的配额限制，需提前确认配额以避免中断。",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/deploying-anthropic-claude-apps-gateway-for-aws-for-enterprise-workloads/"
       }
     ],
     "ai-agents": [
+      {
+        "name": "AMD tests Ryzen AI Halo on local enterprise AI agent | Back ",
+        "provider": "Back End News",
+        "type": "AI 项目/工具",
+        "bestFor": "AMD said its Ryzen AI Halo system completed a local AI agent workflow 15% faster than NVIDIA's DGX Spark, highlighting the role of processors in handling comple",
+        "description": "AMD said its Ryzen AI Halo system completed a local AI agent workflow 15% faster than NVIDIA's DGX Spark, highlighting the role of processors in handling complex AI tasks beyond ge",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Back End News",
+        "url": "https://backendnews.net/amd-tests-ryzen-ai-halo-on-local-enterprise-ai-agent/"
+      },
+      {
+        "name": "Rubrik Stock: AI-Agent Security and Identity Resilience Coul",
+        "provider": "Markets Insider",
+        "type": "AI 项目/工具",
+        "bestFor": "Rubrik (RBRK) is trying to become much more than a backup software company. Indeed, its next phase of growth is focused on AI-agent security and identity resili",
+        "description": "Rubrik (RBRK) is trying to become much more than a backup software company. Indeed, its next phase of growth is focused on AI-agent security and identity resilience, which are two ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Markets Insider",
+        "url": "https://markets.businessinsider.com/news/stocks/rubrik-stock-ai-agent-security-and-identity-resilience-could-drive-the-next-growth-phase-1036504480"
+      },
       {
         "name": "Salesforce post-earnings outlook: SaaSpocalypse fears are ge",
         "provider": "FXCM UK",
@@ -6576,31 +6563,31 @@
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · AWS Machine Learning",
         "url": "https://aws.amazon.com/blogs/machine-learning/nateras-intelligent-appointment-scheduling-with-amazon-bedrock-agentcore/"
-      },
-      {
-        "name": "Warp 如何在 Claude 上构建自我改进的智能体",
-        "provider": "Claude：Blog（网页）",
-        "type": "AI 项目/工具",
-        "bestFor": "Warp 在 Claude 平台上构建了基于 Agent Skills 的自我改进循环，通过基础技能与改进技能两个文件型技能，将人类反馈转化为对智能体的持续优化。该模式已应用于其整个开源仓库，覆盖数百名贡献者与数千次代码审查。团队建议以原则而非规则编写技能，并强调低摩擦反馈与改进技能的可复用性。",
-        "description": "Warp 在 Claude 平台上构建了基于 Agent Skills 的自我改进循环，通过基础技能与改进技能两个文件型技能，将人类反馈转化为对智能体的持续优化。该模式已应用于其整个开源仓库，覆盖数百名贡献者与数千次代码审查。团队建议以原则而非规则编写技能，并强调低摩擦反馈与改进技能的可复用性。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Claude：Blog（网页）",
-        "url": "https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude"
-      },
-      {
-        "name": "Connect Amazon Bedrock AgentCore to cross-account knowledge ",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Learn how Amazon Bedrock AgentCore agents in one account can generate answers from an Amazon Bedrock knowledge base backed by Amazon Redshift Serverless in anot",
-        "description": "Learn how Amazon Bedrock AgentCore agents in one account can generate answers from an Amazon Bedrock knowledge base backed by Amazon Redshift Serverless in another account, without",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/connect-amazon-bedrock-agentcore-to-cross-account-knowledge-bases/"
       }
     ],
     "ai-models": [
+      {
+        "name": "Okta (OKTA) Grew Remaining Performance Obligations 17% While",
+        "provider": "Yahoo! Finance",
+        "type": "AI 项目/工具",
+        "bestFor": "Okta, Inc. (NASDAQ:OKTA) reported fiscal second-quarter 2027 results that strengthened the case for a bookings recovery. Revenue rose 11% year over year to $805",
+        "description": "Okta, Inc. (NASDAQ:OKTA) reported fiscal second-quarter 2027 results that strengthened the case for a bookings recovery. Revenue rose 11% year over year to $805 million, while comp",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Yahoo! Finance",
+        "url": "https://ca.finance.yahoo.com/news/okta-okta-grew-remaining-performance-031750646.html"
+      },
+      {
+        "name": "Forest City SFZ Clarifies Incentive Framework for Fintech an",
+        "provider": "The Manila times",
+        "type": "AI 项目/工具",
+        "bestFor": "Forest City SFZ sets out who may qualify for its 5% special corporate tax rate, how the separate Malaysia Digital tax incentive works, and which activities and ",
+        "description": "Forest City SFZ sets out who may qualify for its 5% special corporate tax rate, how the separate Malaysia Digital tax incentive works, and which activities and conditions apply to ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Manila times",
+        "url": "https://www.manilatimes.net/2026/08/29/tmt-newswire/media-outreach-newswire/forest-city-sfz-clarifies-incentive-framework-for-fintech-and-ai-enabled-financial-services-alongside-malaysia-digital-incentives/2414440"
+      },
       {
         "name": "Your Voice: Hong Kong in WWII, volunteering and data centres",
         "provider": "Young Post Club",
@@ -7018,31 +7005,20 @@
         "watch": "请打开原始来源核对",
         "sourceName": "The Daily Beast",
         "url": "https://www.thedailybeast.com/donald-trumps-ufo-obsession-takes-a-humiliating-turn/"
-      },
-      {
-        "name": "Seoul Mayor Advances AI as Urban Competitive Edge",
-        "provider": "조선일보",
-        "type": "AI 项目/工具",
-        "bestFor": "Seoul establishes Physical AI Belt, debuts Level 4 robotaxi, expands AI tools for youth\n\nSeoul Mayor Oh Se-hoon has announced plans to foster artificial intelli",
-        "description": "Seoul establishes Physical AI Belt, debuts Level 4 robotaxi, expands AI tools for youth\n\nSeoul Mayor Oh Se-hoon has announced plans to foster artificial intelligence (AI) innovatio",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "조선일보",
-        "url": "https://www.chosun.com/english/industry-en/2026/08/26/UFQCSESNOBFMHH6K6C2XZVL4UA/"
-      },
-      {
-        "name": "5 ways to upgrade your home decor with Google Search",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Learn how to use Google Search tools to find home decor inspiration, shop for furniture, and tackle DIY projects.",
-        "description": "Learn how to use Google Search tools to find home decor inspiration, shop for furniture, and tackle DIY projects.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · Google AI Blog",
-        "url": "https://blog.google/products-and-platforms/products/search/home-decor-tips/"
       }
     ],
     "ai-business": [
+      {
+        "name": "Ford's India GCC to hire 500, bets on AI and connected vehic",
+        "provider": "ETCIO.com",
+        "type": "AI 项目/工具",
+        "bestFor": "The hiring plans come as Ford undergoes a broader transformation amid intensifying competition and rapid technological change in the automotive industry\n\nFord B",
+        "description": "The hiring plans come as Ford undergoes a broader transformation amid intensifying competition and rapid technological change in the automotive industry\n\nFord Business Solutions (F",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "ETCIO.com",
+        "url": "https://cio.economictimes.indiatimes.com/news/corporate-news/fords-india-gcc-to-hire-500-bets-on-ai-and-connected-vehicles/133603987"
+      },
       {
         "name": "Machine learning algorithm sets Apple stock price for iPhone",
         "provider": "Finbold",
@@ -7525,23 +7501,6 @@
         "watch": "AI 生成内容的准确性可能存在问题，开发者需花费额外时间进行验证。",
         "sourceName": "NewsAPI:generative AI",
         "url": "https://www.businessinsider.com/software-developer-says-ai-changed-his-job-2026-8#article"
-      },
-      {
-        "name": "Airbnb CEO 透露 AI 助力公司增长，前景乐观",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "对于希望提升运营效率的短租房东，AI 技术提供了更便捷的房源管理工具，降低了人工成本。对于 Airbnb 来说，AI 的应用不仅提升了客户满意度，还可能吸引更多用户，进一步推动收入增长。此外，随着 Chesky 对 AI 投资的增加，预计将会有更多创新功能推出，改变用户的预订体验。对于投资者而言，AI 的成功应用可能会",
-        "description": "Airbnb CEO Brian Chesky 最近表示，AI 技术在推动公司增长方面发挥了重要作用，预计将在未来几年加大对 AI 的投资。公司第二季度业绩超出预期，收入同比增长 17%。",
-        "useCases": [
-          "使用 AI 客服系统，快速响应客户咨询，提升客户满意度。",
-          "利用 AI 优化房源定价，确保竞争力和收益最大化。",
-          "通过 AI 驱动的搜索功能，帮助用户更快找到合适的房源。",
-          "分析用户数据，利用 AI 生成个性化的房源推荐。",
-          "在房源管理中应用 AI 技术，简化操作流程，节省时间。"
-        ],
-        "watch": "AI 实施成本可能高于预期，尤其是在初期阶段。",
-        "sourceName": "NewsAPI:generative AI",
-        "url": "https://nypost.com/2026/08/07/business/airbnb-ceo-brian-chesky-says-ai-is-super-charging-company-after-he-underestimated-tech/"
       }
     ],
     "ai-benchmark": [
@@ -10596,7 +10555,7 @@
   ],
   "dailyReport": {
     "date": "2026-08-29",
-    "generatedAt": "2026-08-29T03:45:21.521544Z",
+    "generatedAt": "2026-08-29T06:12:06.016969Z",
     "total": 16,
     "sections": [
       {
