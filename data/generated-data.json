@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-29",
-  "generatedAt": "2026-08-29T13:43:24.341601Z",
+  "lastUpdated": "2026-08-30",
+  "generatedAt": "2026-08-29T16:16:18.281150Z",
   "news": [
     {
       "title": "Batch write and discover records in Amazon SageMaker Feature Store",
@@ -6557,6 +6557,17 @@
     ],
     "ai-models": [
       {
+        "name": "Hormuz Shipping Remains Subdued Despite Apparent Reopening",
+        "provider": "RocketNews | Top News Stories From Around the Globe",
+        "type": "AI 项目/工具",
+        "bestFor": "The Strait of Hormuz has been formally reopened to shipping following U.S. mine-clearing operations in internationally recognized lanes, yet commercial activity",
+        "description": "The Strait of Hormuz has been formally reopened to shipping following U.S. mine-clearing operations in internationally recognized lanes, yet commercial activity remains far below p",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RocketNews | Top News Stories From Around the Globe",
+        "url": "https://rocketnews.com/2026/08/hormuz-shipping-remains-subdued-despite-apparent-reopening/"
+      },
+      {
         "name": "Viral Instinct AI Startup Bags $350M at $2.5B in 2026",
         "provider": "TechnoSports",
         "type": "AI 项目/工具",
@@ -6984,20 +6995,20 @@
         "watch": "请打开原始来源核对",
         "sourceName": "CNET",
         "url": "https://www.cnet.com/tech/mobile/looking-for-signs-of-jimothy-with-the-pixel-11-pro-xl-cameras/"
-      },
-      {
-        "name": "Gemini's one billion users can't hide Google's cash flow cri",
-        "provider": "Android Police",
-        "type": "AI 项目/工具",
-        "bestFor": "Jon Gilbert is a Features Writer for Android Police. I've covered Android since 2021, focusing on writing features and guides about Android apps and features th",
-        "description": "Jon Gilbert is a Features Writer for Android Police. I've covered Android since 2021, focusing on writing features and guides about Android apps and features that directly affect u",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Android Police",
-        "url": "https://www.androidpolice.com/geminis-one-billion-users-cant-hide-googles-cash-flow-crisis/"
       }
     ],
     "ai-business": [
+      {
+        "name": "Hydrogen Is Still A Tonnes Market, No Matter How Many MWh We",
+        "provider": "RocketNews | Top News Stories From Around the Globe",
+        "type": "AI 项目/工具",
+        "bestFor": "Global hydrogen consumption reached over 100 million tonnes in 2025, with the vast majority used in traditional industrial applications including petroleum refi",
+        "description": "Global hydrogen consumption reached over 100 million tonnes in 2025, with the vast majority used in traditional industrial applications including petroleum refining, chemical produ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RocketNews | Top News Stories From Around the Globe",
+        "url": "https://rocketnews.com/2026/08/hydrogen-is-still-a-tonnes-market-no-matter-how-many-mwh-we-assign-to-it-2/"
+      },
       {
         "name": "Best Smartwatches to Buy this Weekend: Galaxy Watch 9, Pixel",
         "provider": "Analytics Insight",
@@ -7466,21 +7477,6 @@
         "watch": "协议的长期性可能面临市场需求变化的风险，影响收入稳定性。",
         "sourceName": "Finbold",
         "url": "https://finbold.com/this-bitcoin-stock-rockets-25-after-mega-deal-with-mystery-customer/"
-      },
-      {
-        "name": "三星追踪消费者 AI 采用情况以塑造未来功能",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "这一战略将吸引希望提升工作效率的职场人士，例如忙碌的白领和创业者，他们希望通过 AI 来简化日常任务。同时，家庭用户也将受益，尤其是需要管理家庭事务的父母。随着 AI 的普及，消费者的决策方式将发生变化，他们将更倾向于选择那些能够提供无缝体验的产品。此外，这一趋势可能会促使其他科技公司加速 AI 功能的开发与应用，形成",
-        "description": "三星的 Jay Kim 表示，未来的 AI 将在用户的日常生活中无缝运作，用户可以轻松完成任务，而无需考虑背后的技术。这一战略旨在提升用户体验，使 AI 成为一种自然的助手，而非干扰。",
-        "useCases": [
-          "使用三星智能家居设备，通过 AI 自动调节室内温度和照明。",
-          "在工作中利用 AI 助手安排日程，提升工作效率。",
-          "通过智能手机的 AI 功能，快速找到所需信息，节省搜索时间。"
-        ],
-        "watch": "AI 功能的实现可能需要高性能的硬件支持，普通用户的设备可能无法兼容。",
-        "sourceName": "NewsAPI:artificial intelligence",
-        "url": "https://www.thehindubusinessline.com/info-tech/samsung-tracking-consumer-ai-adoption-to-shape-future-features-official/article71324163.ece"
       }
     ],
     "ai-benchmark": [
@@ -10528,9 +10524,9 @@
     }
   ],
   "dailyReport": {
-    "date": "2026-08-29",
-    "generatedAt": "2026-08-29T13:43:24.316605Z",
-    "total": 16,
+    "date": "2026-08-30",
+    "generatedAt": "2026-08-29T16:16:18.255125Z",
+    "total": 23,
     "sections": [
       {
         "category": "ai-coding",
@@ -10568,6 +10564,34 @@
             "date": "2026-08-28",
             "publishedAt": "2026-08-28T08:00",
             "reason": ""
+          },
+          {
+            "title": "From Static to Dynamic: Benchmarking Real-World Code Review with MCR-Bench",
+            "summary": "In real-world software development, code review typically involves iterative interactions between developers and reviewers to improve softwa",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.27442v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-27",
+            "publishedAt": "",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "category": "ai-image-video",
+        "label": "图像视频",
+        "items": [
+          {
+            "title": "Retrieval Heads Meet Vision: Uncovering How VLMs Locate and Extract Visual Information",
+            "summary": "Vision-language models (VLMs) can locate an image region referred to by a text prompt and route the corresponding visual evidence to the out",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.27417v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-27",
+            "publishedAt": "",
+            "reason": ""
           }
         ]
       },
@@ -10584,6 +10608,39 @@
             "sourceCount": 1,
             "date": "2026-08-28",
             "publishedAt": "2026-08-28T07:04",
+            "reason": ""
+          },
+          {
+            "title": "SPA: Securing Persistent LLM Agents Across Queries with Plan-First Information-Flow Control",
+            "summary": "Large language model (LLM) agents increasingly operate over untrusted webpages, documents, tools, and persistent states while exercising aut",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.27234v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-27",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Persona-Execution Separation: An Architecture Pattern for Evolving LLM Agents under Execution Audit",
+            "summary": "Large language model (LLM) agents in governed organizations must let the persona (instructions, tone, self-presentation) evolve freely, whil",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.27427v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-27",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "INTENT-AS-A-TOOL Makes it Easy to Track Agentic Misalignment",
+            "summary": "As large language models (LLMs) are deployed as autonomous agents, safety failures increasingly involve consequential actions. We study agen",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.27348v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-27",
+            "publishedAt": "",
             "reason": ""
           }
         ]
@@ -10712,6 +10769,34 @@
             "date": "2026-08-28",
             "publishedAt": "2026-08-28T00:11",
             "reason": ""
+          },
+          {
+            "title": "Sophistication in GenAI Use: Field Evidence from a Large Firm",
+            "summary": "We study how sophistication in generative AI (genAI) use varies among the back-office workforce of a large firm. Using proprietary data, we ",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.27364v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-27",
+            "publishedAt": "",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "category": "ai-benchmark",
+        "label": "评测榜单",
+        "items": [
+          {
+            "title": "BrailleBench: Investigating Multi-Criteria Braille Comprehension in Large Language Models",
+            "summary": "Although Large language models (LLMs) mediate access to knowledge and computational assistance, their capabilities should benefit vulnerable",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.27268v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-27",
+            "publishedAt": "",
+            "reason": ""
           }
         ]
       },
@@ -10735,6 +10820,69 @@
     ]
   },
   "dailyReports": [
+    {
+      "date": "2026-08-29",
+      "generatedAt": "2026-08-29T16:16:18.464135Z",
+      "total": 4,
+      "sections": [
+        {
+          "category": "ai-coding",
+          "label": "AI 编程",
+          "items": [
+            {
+              "title": "Batch write and discover records in Amazon SageMaker Feature Store",
+              "summary": "Amazon SageMaker Feature Store now supports two new APIs: BatchWriteRecord writes up to 25 records across multiple feature groups in a singl",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/batch-write-and-discover-records-in-amazon-sagemaker-feature-store/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-29",
+              "publishedAt": "2026-08-29T03:31",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-models",
+          "label": "模型发布",
+          "items": [
+            {
+              "title": "Anthropic 让 Claude 自主训练模型以缓解对齐失败",
+              "summary": "Anthropic 让 Claude 自主训练模型，缓解欺骗、谄媚等 10 类对齐失败，均显著缩小与完美表现的安全差距且不损害通用能力，方法在比优化对象大 4.7 倍的模型上依然有效。Claude 还超越 28 名人类安全研究员，其欺骗场景最佳方法比人类最佳方案好 20%。",
+              "source": "Anthropic：Research（发表成果 · 网页）",
+              "url": "https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-29",
+              "publishedAt": "2026-08-29T01:25",
+              "reason": ""
+            },
+            {
+              "title": "How Decathlon runs demand forecasting at scale with Chronos-2",
+              "summary": "Decathlon, one of the world's largest sporting goods retailers, forecasts weekly demand for tens of thousands of products across multiple co",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/how-decathlon-runs-demand-forecasting-at-scale-with-chronos-2/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-29",
+              "publishedAt": "2026-08-29T00:22",
+              "reason": ""
+            },
+            {
+              "title": "Spreading the load: How Salesforce met Multi-AZ HA with SageMaker Inference Components",
+              "summary": "Learn how Salesforce used Amazon SageMaker AI Inference Component placement (the SchedulingConfig parameter) to distribute model copies acro",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/spreading-the-load-how-salesforce-met-multi-az-ha-with-sagemaker-inference-components/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-29",
+              "publishedAt": "2026-08-29T00:20",
+              "reason": ""
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-28",
       "generatedAt": "2026-08-28T16:00:15.541217Z",
@@ -22162,200 +22310,10 @@
           ]
         }
       ]
-    },
-    {
-      "date": "2026-06-25",
-      "generatedAt": "2026-06-25T16:16:27.415887Z",
-      "total": 15,
-      "sections": [
-        {
-          "category": "ai-tools",
-          "label": "AI 工具",
-          "items": [
-            {
-              "title": "Gemini 3.5 Flash 内置计算机使用功能上线",
-              "summary": "我注意到，Gemini 3.5 Flash 现在集成了计算机使用功能，开发者可以更方便地构建跨平台的智能代理。这一更新不仅提升了性能，还为企业自动化任务提供了更强的支持。",
-              "source": "RSS · Google DeepMind",
-              "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
-              "score": 84,
-              "sourceCount": 2,
-              "date": "2026-06-25",
-              "publishedAt": "2026-06-25T00:30",
-              "reason": "这一更新为开发者提供了强大的工具，能够更高效地构建智能代理，值得关注。"
-            },
-            {
-              "title": "盈透证券与Grok集成：实现实时交易与组合分析",
-              "summary": "盈透证券（Interactive Brokers）与Grok的最新集成使用户能够在几分钟内免费连接现有账户，利用自然语言进行组合收益分析、情景建模和市场研究，并实时生成交易指令。这一整合提升了交易决策的效率，用户可直接从数据洞察转向执行决策。",
-              "source": "xAI：News（网页）",
-              "url": "https://x.ai/news/grok-interactive-brokers",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-06-25",
-              "publishedAt": "2026-06-25T08:00",
-              "reason": "这一集成将AI技术与交易实践深度结合，显著提升了用户的交易效率和决策能力，值得关注。"
-            },
-            {
-              "title": "OpenRouter MCP 服务器：编程智能体的实时数据平台",
-              "summary": "这次发布的核心点是 OpenRouter 推出的 MCP 服务器，专为编程智能体提供实时模型数据、基准排名、定价和文档查询。开发者可以通过一键安装，轻松在编辑器内完成模型筛选和测试推理，提升工作效率。该服务器整合了多种分析工具，推荐性价比高的编码模型，适合需要快速对比和测试的开发",
-              "source": "OpenRouter：Announcements（RSS）",
-              "url": "https://openrouter.ai/blog/announcements/openrouter-mcp-server",
-              "score": 63,
-              "sourceCount": 1,
-              "date": "2026-06-25",
-              "publishedAt": "2026-06-25T08:00",
-              "reason": "MCP 服务器通过集成多种工具和实时数据，极大提升了开发者的工作效率，值得关注。"
-            },
-            {
-              "title": "Notion 集成 Cursor SDK 实现编码智能体功能",
-              "summary": "Notion 通过 Cursor SDK 实现了编码智能体的快速集成，用户可以在文档中直接@Cursor，进行任务分配，Cursor 能够完成从规划到自动创建 PR 的全过程。这一集成利用了无关 Provider 的智能体框架，支持实时流式传输和断连恢复，极大提升了用户体验。然而",
-              "source": "Cursor Blog",
-              "url": "https://cursor.com/blog/notion",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-06-25",
-              "publishedAt": "2026-06-25T04:55",
-              "reason": "这一集成展示了如何通过高效的工具提升团队的工作效率，值得关注。"
-            },
-            {
-              "title": "Perplexity推出Computer for Counsel，提升律师工作效率",
-              "summary": "Perplexity推出的Computer for Counsel工具，连接了律师日常使用的研究数据库、文档工具和案件管理系统，支持从多个平台提取可引用的法律来源，提升律师的工作效率。所有Pro和Max订阅用户均可使用该功能。",
-              "source": "X：Perplexity (@perplexity_ai)",
-              "url": "https://x.com/perplexity_ai/status/2069866668671766804",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-06-25",
-              "publishedAt": "2026-06-25T03:34",
-              "reason": "Computer for Counsel工具的推出，标志着法律行业在AI应用上的重要进展，值得关注其对律师工作效率的提升。"
-            },
-            {
-              "title": "Figma在Config 2026推出新功能，依赖外部AI模型",
-              "summary": "Figma在2026年Config大会上扩展设计画布，新增代码、动画、3D效果等功能，同时集成去年收购的Weave工作流系统。新特性包括Code Layers、Motion动画、深度层、Shader及Generative Plugins，旨在提升团队协作效率。Figma的AI功能",
-              "source": "The Decoder：AI News（RSS）",
-              "url": "https://the-decoder.com/figma-bets-on-human-judgment-at-config-2026-while-the-ai-powering-its-canvas-belongs-to-someone-else",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-06-25",
-              "publishedAt": "2026-06-25T00:49",
-              "reason": "Figma的最新更新展示了其在设计工具领域的创新能力，尤其是在AI集成和团队协作方面，值得关注。"
-            },
-            {
-              "title": "NSA因与Anthropic纠纷失去Mythos访问权限",
-              "summary": "美国国家安全局（NSA）因与人工智能公司Anthropic的法律纠纷，失去了对其AI工具Mythos的访问权限。这一事件引发了对国家安全和AI技术合作的广泛关注，尤其是在AI技术日益重要的背景下。",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://www.nytimes.com/2026/06/23/us/politics/nsa-lost-access-anthropic-tool.html",
-              "score": 60,
-              "sourceCount": 1,
-              "date": "2026-06-25",
-              "publishedAt": "2026-06-25T03:08",
-              "reason": "这一事件突显了国家安全与AI技术之间的复杂关系，值得关注。"
-            },
-            {
-              "title": "Meta员工警告AI内容审核部署过快",
-              "summary": "Meta在2025年已用大语言模型替换约一半人工审核请求，计划年底前将部分内容类型的AI审核比例提升至90%以上。尽管Meta声称其模型错误率比人类低13%，且多捕捉10%违规，但员工指出模型仍会移除无害内容，缺乏足够监督，快速部署已导致外包裁员。",
-              "source": "The Decoder：AI News（RSS）",
-              "url": "https://the-decoder.com/meta-employees-warn-ai-moderation-rollout-is-too-fast",
-              "score": 59,
-              "sourceCount": 1,
-              "date": "2026-06-25",
-              "publishedAt": "2026-06-25T18:07",
-              "reason": "Meta的AI审核进展引发员工担忧，反映出技术应用中的潜在风险，值得关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-models",
-          "label": "模型发布",
-          "items": [
-            {
-              "title": "GPT-5.5 Instant 发布，聊天体验更上一层楼",
-              "summary": "我注意到，新的 GPT-5.5 Instant 模型非常智能且直观，聊天体验也变得更加有趣。这个版本目前正在向所有用户推送，Pro 用户和 Plus 用户已经可以使用，免费用户预计在明天前也能体验到这个新模型。",
-              "source": "X：ChatGPT (@ChatGPTapp)",
-              "url": "https://x.com/ChatGPTapp/status/2069851262498291919",
-              "score": 68,
-              "sourceCount": 1,
-              "date": "2026-06-25",
-              "publishedAt": "2026-06-25T02:32",
-              "reason": "这条信息值得关注，因为 GPT-5.5 Instant 在智能对话领域的突破将极大提升用户体验，推动各行业的应用创新。"
-            },
-            {
-              "title": "NVIDIA NeMo AutoModel 提升 MoE 模型微调效率",
-              "summary": "NVIDIA NeMo AutoModel 是基于 Transformers v5 的开源库，通过引入专家并行、DeepEP 融合调度和 TransformerEngine 内核，显著提升了 MoE 模型的微调效率。与原生 v5 相比，训练吞吐量提高了 3.4-3.7 倍，GPU",
-              "source": "Hugging Face：Blog（RSS）",
-              "url": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-06-25",
-              "publishedAt": "2026-06-25T00:00",
-              "reason": "NVIDIA NeMo AutoModel 以其显著的性能提升和简化的使用方式，成为深度学习领域值得关注的工具，尤其适合需要高效训练 MoE 模型的用户。"
-            },
-            {
-              "title": "2025年工程岗位韧性强，AI未显著影响",
-              "summary": "根据风投机构SignalFire的研究，工程岗位在2025年被认为是最具韧性的职业。大型科技公司招聘总量较2019年下降25%，而工程岗位仅下降11%。在Alphabet、Meta等12家科技巨头中，工程师占新招员工的55%，较2019年的46%显著上升。初创公司在2025年工程",
-              "source": "TechCrunch：AI（RSS）",
-              "url": "https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-06-25",
-              "publishedAt": "2026-06-25T05:56",
-              "reason": "SignalFire的研究提供了对工程岗位韧性的深刻洞察，挑战了关于AI取代工作的传统观念，值得关注。"
-            },
-            {
-              "title": "GPT-5.5 Instant 发布，提升对话趣味性",
-              "summary": "OpenAI 发布了新版 GPT-5.5 Instant，显著提升了对话的趣味性和实用性。该模型更好地理解用户意图，并能灵活调整回应，特别是在处理复杂约束方面表现更为可靠。此版本今日向付费用户推送，明日将面向免费用户。",
-              "source": "X：OpenAI (@OpenAI)",
-              "url": "https://x.com/OpenAI/status/2069843083701915755",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-06-25",
-              "publishedAt": "2026-06-25T02:00",
-              "reason": "此次 GPT-5.5 Instant 更新显著提升了对话的趣味性和实用性，值得关注其对用户体验的影响。"
-            },
-            {
-              "title": "Anthropic指控阿里巴巴非法提取Claude AI模型能力",
-              "summary": "我注意到，Anthropic最近指控阿里巴巴未经授权提取了其Claude AI模型的能力。根据Anthropic的调查，阿里巴巴可能通过逆向工程等手段复制了Claude的核心技术。此事件引发了对AI技术知识产权的关注，目前阿里巴巴尚未对此做出公开回应。",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24",
-              "score": 58,
-              "sourceCount": 1,
-              "date": "2026-06-25",
-              "publishedAt": "2026-06-25T11:07",
-              "reason": "这条信息揭示了AI行业内关于知识产权的紧迫性，值得关注。"
-            },
-            {
-              "title": "OpenRouter 推出 97 款支持零数据留存的新模型，流量占比达 50%",
-              "summary": "OpenRouter 的零数据留存（ZDR）功能确保用户的提示词和模型响应不会被存储，元数据安全性较高。自 1 月以来，新增 97 款支持 ZDR 的模型，月度 token 使用量增长了 4.3 倍，现占全部路由流量的近一半。ZDR 在账户级、护栏级和单次请求级三个层面实施，企业",
-              "source": "OpenRouter：Announcements（RSS）",
-              "url": "https://openrouter.ai/blog/insights/when-zero-means-zero",
-              "score": 58,
-              "sourceCount": 1,
-              "date": "2026-06-25",
-              "publishedAt": "2026-06-25T00:00",
-              "reason": "OpenRouter 的 ZDR 功能在当前数据隐私日益重要的背景下，提供了灵活的解决方案，值得关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-research",
-          "label": "论文研究",
-          "items": [
-            {
-              "title": "推理机制提升大语言模型的知识回忆能力",
-              "summary": "Google Research的研究表明，推理过程可以显著提升大语言模型（LLM）对简单事实的回忆能力，即使这些事实不需要复杂的推导。通过在Gemini-2.5 Flash和Pro以及Qwen3-32B模型中启用推理，研究发现模型能够回答原本无法直接回答的问题，表明推理机制在知识",
-              "source": "Google Research：Blog（网页）",
-              "url": "https://research.google/blog/thinking-to-recall-how-reasoning-unlocks-parametric-knowledge-in-llms",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-06-25",
-              "publishedAt": "2026-06-25T01:05",
-              "reason": "这项研究揭示了推理在大语言模型知识回忆中的潜力，值得关注其在实际应用中的影响。"
-            }
-          ]
-        }
-      ]
     }
   ],
   "llmLeaderboard": {
-    "updated": "2026-08-29",
+    "updated": "2026-08-30",
     "source": "ReLE 中文大模型能力评测（综合能力）",
     "sourceUrl": "https://github.com/jeinlee1991/chinese-llm-benchmark",
     "items": [
@@ -22502,6 +22460,16 @@
       {
         "rank": 15,
         "type": "商用",
+        "org": "阿里巴巴",
+        "model": "qwen3.8-flash(new)",
+        "score": "74.0%",
+        "latency": "64s",
+        "tokens": "3904",
+        "cost": "10.0"
+      },
+      {
+        "rank": 16,
+        "type": "商用",
         "org": "google",
         "model": "gemini-3.5-flash",
         "score": "73.9%",
@@ -22510,7 +22478,7 @@
         "cost": "151.2"
       },
       {
-        "rank": 16,
+        "rank": 17,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3.7-plus(new)",
@@ -22520,7 +22488,7 @@
         "cost": "31.7"
       },
       {
-        "rank": 17,
+        "rank": 18,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "qwen3.5-plus",
@@ -22530,7 +22498,7 @@
         "cost": "22.9"
       },
       {
-        "rank": 18,
+        "rank": 19,
         "type": "商用",
         "org": "豆包",
         "model": "doubao-seed-2-1-turbo-260628(new)",
@@ -22540,7 +22508,7 @@
         "cost": "136.3"
       },
       {
-        "rank": 19,
+        "rank": 20,
         "type": "开源",
         "org": "智谱AI",
         "model": "glm-5.2(new)",
@@ -22550,7 +22518,7 @@
         "cost": "110.5"
       },
       {
-        "rank": 20,
+        "rank": 21,
         "type": "开源",
         "org": "月之暗面",
         "model": "kimi-k2.6",
@@ -22560,7 +22528,7 @@
         "cost": "100.4"
       },
       {
-        "rank": 21,
+        "rank": 22,
         "type": "商用",
         "org": "豆包",
         "model": "Doubao-Seed-2.0-pro",
@@ -22570,7 +22538,7 @@
         "cost": "22.5"
       },
       {
-        "rank": 22,
+        "rank": 23,
         "type": "开源",
         "org": "月之暗面",
         "model": "kimi-k2.7-code(new)",
@@ -22580,7 +22548,7 @@
         "cost": "49.7"
       },
       {
-        "rank": 23,
+        "rank": 24,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.4-high",
@@ -22590,7 +22558,7 @@
         "cost": "122.3"
       },
       {
-        "rank": 24,
+        "rank": 25,
         "type": "开源",
         "org": "深度求索",
         "model": "deepseek-v4-pro-0424",
@@ -22600,7 +22568,7 @@
         "cost": "54.3"
       },
       {
-        "rank": 25,
+        "rank": 26,
         "type": "商用",
         "org": "anthropic",
         "model": "claude-opus-4.8(new)",
@@ -22610,7 +22578,7 @@
         "cost": "99.4"
       },
       {
-        "rank": 26,
+        "rank": 27,
         "type": "开源",
         "org": "小米",
         "model": "mimo-v2.5-pro",
@@ -22620,7 +22588,7 @@
         "cost": "64.3"
       },
       {
-        "rank": 27,
+        "rank": 28,
         "type": "商用",
         "org": "google",
         "model": "gemini-3-flash-preview",
@@ -22630,7 +22598,7 @@
         "cost": "53.5"
       },
       {
-        "rank": 28,
+        "rank": 29,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "Qwen3.5-122B-A10B",
@@ -22640,7 +22608,7 @@
         "cost": "32.3"
       },
       {
-        "rank": 29,
+        "rank": 30,
         "type": "开源",
         "org": "月之暗面",
         "model": "Kimi-K2.5-Thinking",
@@ -22650,7 +22618,7 @@
         "cost": "77.1"
       },
       {
-        "rank": 30,
+        "rank": 31,
         "type": "商用",
         "org": "anthropic",
         "model": "claude-sonnet-5-thinking(new)",
@@ -22660,7 +22628,7 @@
         "cost": "93.7"
       },
       {
-        "rank": 31,
+        "rank": 32,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3.6-plus",
@@ -22670,7 +22638,7 @@
         "cost": "41.6"
       },
       {
-        "rank": 32,
+        "rank": 33,
         "type": "开源",
         "org": "智谱AI",
         "model": "GLM-5.1",
@@ -22680,7 +22648,7 @@
         "cost": "73.8"
       },
       {
-        "rank": 33,
+        "rank": 34,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "Qwen3.5-27B",
@@ -22690,7 +22658,7 @@
         "cost": "25.0"
       },
       {
-        "rank": 34,
+        "rank": 35,
         "type": "商用",
         "org": "豆包",
         "model": "Doubao-Seed-2.0-lite",
@@ -22700,7 +22668,7 @@
         "cost": "5.4"
       },
       {
-        "rank": 35,
+        "rank": 36,
         "type": "商用",
         "org": "anthropic",
         "model": "claude-opus-4.6",
@@ -22710,7 +22678,7 @@
         "cost": "96.5"
       },
       {
-        "rank": 36,
+        "rank": 37,
         "type": "商用",
         "org": "XAI",
         "model": "grok-4.5(new)",
@@ -22720,7 +22688,7 @@
         "cost": "125.7"
       },
       {
-        "rank": 37,
+        "rank": 38,
         "type": "商用",
         "org": "XAI",
         "model": "grok-4.6(new)",
@@ -22730,7 +22698,7 @@
         "cost": "118.4"
       },
       {
-        "rank": 38,
+        "rank": 39,
         "type": "商用",
         "org": "豆包",
         "model": "Doubao-Seed-2.0-mini",
@@ -22740,7 +22708,7 @@
         "cost": "7.0"
       },
       {
-        "rank": 39,
+        "rank": 40,
         "type": "商用",
         "org": "智谱AI",
         "model": "GLM-5-Turbo",
@@ -22750,7 +22718,7 @@
         "cost": "60.8"
       },
       {
-        "rank": 40,
+        "rank": 41,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3-max-think-2026-01-23",
@@ -22760,7 +22728,7 @@
         "cost": "43.5"
       },
       {
-        "rank": 41,
+        "rank": 42,
         "type": "开源",
         "org": "智谱AI",
         "model": "GLM-5",
@@ -22770,7 +22738,7 @@
         "cost": "61.2"
       },
       {
-        "rank": 42,
+        "rank": 43,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "qwen3.5-flash",
@@ -22780,7 +22748,7 @@
         "cost": "10.4"
       },
       {
-        "rank": 43,
+        "rank": 44,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "qwen3.6-27b",
@@ -22790,7 +22758,7 @@
         "cost": "73.2"
       },
       {
-        "rank": 44,
+        "rank": 45,
         "type": "开源",
         "org": "深度求索",
         "model": "deepseek-v4-flash-0424",
@@ -22800,7 +22768,7 @@
         "cost": "4.9"
       },
       {
-        "rank": 45,
+        "rank": 46,
         "type": "商用",
         "org": "腾讯",
         "model": "hunyuan-2.0-thinking-20251109",
@@ -22810,7 +22778,7 @@
         "cost": "9.5"
       },
       {
-        "rank": 46,
+        "rank": 47,
         "type": "商用",
         "org": "百度",
         "model": "ernie-5.1",
@@ -22820,7 +22788,7 @@
         "cost": "32.6"
       },
       {
-        "rank": 47,
+        "rank": 48,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "Qwen3.6-35B-A3B",
@@ -22830,7 +22798,7 @@
         "cost": "40.5"
       },
       {
-        "rank": 48,
+        "rank": 49,
         "type": "商用",
         "org": "minimax",
         "model": "MiniMax-M3(new)",
@@ -22840,7 +22808,7 @@
         "cost": "37.0"
       },
       {
-        "rank": 49,
+        "rank": 50,
         "type": "开源",
         "org": "智谱AI",
         "model": "GLM-4.7",
@@ -22850,7 +22818,7 @@
         "cost": "52.5"
       },
       {
-        "rank": 50,
+        "rank": 51,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.2-high",
@@ -22860,7 +22828,7 @@
         "cost": "94.1"
       },
       {
-        "rank": 51,
+        "rank": 52,
         "type": "开源",
         "org": "阶跃星辰",
         "model": "step-3.7-flash(new)",
@@ -22870,7 +22838,7 @@
         "cost": "40.6"
       },
       {
-        "rank": 52,
+        "rank": 53,
         "type": "商用",
         "org": "百度",
         "model": "ERNIE-5.0",
@@ -22880,7 +22848,7 @@
         "cost": "89.2"
       },
       {
-        "rank": 53,
+        "rank": 54,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.1-high",
@@ -22890,7 +22858,7 @@
         "cost": "180.0"
       },
       {
-        "rank": 54,
+        "rank": 55,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.1-medium",
@@ -22900,7 +22868,7 @@
         "cost": "87.9"
       },
       {
-        "rank": 55,
+        "rank": 56,
         "type": "开源",
         "org": "深度求索",
         "model": "DeepSeek-V3.2-Think",
@@ -22910,7 +22878,7 @@
         "cost": "7.5"
       },
       {
-        "rank": 56,
+        "rank": 57,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5-2025-08-07",
@@ -22920,7 +22888,7 @@
         "cost": "31.9"
       },
       {
-        "rank": 57,
+        "rank": 58,
         "type": "商用",
         "org": "anthropic",
         "model": "claude-sonnet-4.5-thinking",
@@ -22930,7 +22898,7 @@
         "cost": "305.1"
       },
       {
-        "rank": 58,
+        "rank": 59,
         "type": "开源",
         "org": "小米",
         "model": "MiMo-V2-Omni",
@@ -22940,7 +22908,7 @@
         "cost": "34.8"
       },
       {
-        "rank": 59,
+        "rank": 60,
         "type": "商用",
         "org": "豆包",
         "model": "doubao-seed-1-8-251215",
@@ -22950,7 +22918,7 @@
         "cost": "7.3"
       },
       {
-        "rank": 60,
+        "rank": 61,
         "type": "开源",
         "org": "小米",
         "model": "mimo-v2.5",
@@ -22960,7 +22928,7 @@
         "cost": "36.8"
       },
       {
-        "rank": 61,
+        "rank": 62,
         "type": "开源",
         "org": "小米",
         "model": "MiMo-V2-Pro",
@@ -22970,7 +22938,7 @@
         "cost": "50.2"
       },
       {
-        "rank": 62,
+        "rank": 63,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.4-mini-high",
@@ -22980,7 +22948,7 @@
         "cost": "71.8"
       },
       {
-        "rank": 63,
+        "rank": 64,
         "type": "商用",
         "org": "minimax",
         "model": "MiniMax-M2.7",
@@ -22990,7 +22958,7 @@
         "cost": "32.4"
       },
       {
-        "rank": 64,
+        "rank": 65,
         "type": "开源",
         "org": "月之暗面",
         "model": "Kimi-K2-Thinking",
@@ -23000,7 +22968,7 @@
         "cost": "89.2"
       },
       {
-        "rank": 65,
+        "rank": 66,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.3-chat",
@@ -23010,7 +22978,7 @@
         "cost": "51.5"
       },
       {
-        "rank": 66,
+        "rank": 67,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3-max-2026-01-23",
@@ -23020,7 +22988,7 @@
         "cost": "9.7"
       },
       {
-        "rank": 67,
+        "rank": 68,
         "type": "商用",
         "org": "小米",
         "model": "MiMo-V2-Flash-think-0204",
@@ -23030,7 +22998,7 @@
         "cost": "7.8"
       },
       {
-        "rank": 68,
+        "rank": 69,
         "type": "商用",
         "org": "百度",
         "model": "ERNIE-5.0-Thinking-Preview",
@@ -23040,7 +23008,7 @@
         "cost": "72.5"
       },
       {
-        "rank": 69,
+        "rank": 70,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3-max-preview-think",
@@ -23050,7 +23018,7 @@
         "cost": "86.8"
       },
       {
-        "rank": 70,
+        "rank": 71,
         "type": "商用",
         "org": "anthropic",
         "model": "claude-opus-4.5",
@@ -23060,7 +23028,7 @@
         "cost": "146.1"
       },
       {
-        "rank": 71,
+        "rank": 72,
         "type": "开源",
         "org": "阶跃星辰",
         "model": "step-3.5-flash",
@@ -23070,7 +23038,7 @@
         "cost": "9.8"
       },
       {
-        "rank": 72,
+        "rank": 73,
         "type": "开源",
         "org": "腾讯",
         "model": "hy3(new)",
@@ -23080,7 +23048,7 @@
         "cost": "1.8"
       },
       {
-        "rank": 73,
+        "rank": 74,
         "type": "商用",
         "org": "minimax",
         "model": "MiniMax-M2.5",
@@ -23090,7 +23058,7 @@
         "cost": "26.3"
       },
       {
-        "rank": 74,
+        "rank": 75,
         "type": "商用",
         "org": "腾讯",
         "model": "hunyuan-2.0-instruct-20251111",
@@ -23100,7 +23068,7 @@
         "cost": "1.5"
       },
       {
-        "rank": 75,
+        "rank": 76,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3-max-2025-09-23",
@@ -23110,7 +23078,7 @@
         "cost": "23.4"
       },
       {
-        "rank": 76,
+        "rank": 77,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.2-medium",
@@ -23120,7 +23088,7 @@
         "cost": "70.8"
       },
       {
-        "rank": 77,
+        "rank": 78,
         "type": "商用",
         "org": "minimax",
         "model": "MiniMax-M2.1",
@@ -23130,7 +23098,7 @@
         "cost": "28.1"
       },
       {
-        "rank": 78,
+        "rank": 79,
         "type": "开源",
         "org": "深度求索",
         "model": "DeepSeek-V3.1-Think",
@@ -23140,7 +23108,7 @@
         "cost": "24.7"
       },
       {
-        "rank": 79,
+        "rank": 80,
         "type": "开源",
         "org": "美团",
         "model": "LongCat-Flash-Thinking-2601",
@@ -23150,7 +23118,7 @@
         "cost": "0.0"
       },
       {
-        "rank": 80,
+        "rank": 81,
         "type": "商用",
         "org": "腾讯",
         "model": "hunyuan-turbos-20250926",
@@ -23160,7 +23128,7 @@
         "cost": "2.0"
       },
       {
-        "rank": 81,
+        "rank": 82,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3-max-preview",
@@ -23170,7 +23138,7 @@
         "cost": "17.5"
       },
       {
-        "rank": 82,
+        "rank": 83,
         "type": "开源",
         "org": "深度求索",
         "model": "DeepSeek-V3.2",
@@ -23180,7 +23148,7 @@
         "cost": "2.4"
       },
       {
-        "rank": 83,
+        "rank": 84,
         "type": "商用",
         "org": "anthropic",
         "model": "claude-sonnet-4.5",
@@ -23190,7 +23158,7 @@
         "cost": "54.7"
       },
       {
-        "rank": 84,
+        "rank": 85,
         "type": "商用",
         "org": "豆包",
         "model": "doubao-seed-1-6-lite-251015",
@@ -23200,7 +23168,7 @@
         "cost": "3.0"
       },
       {
-        "rank": 85,
+        "rank": 86,
         "type": "商用",
         "org": "anthropic",
         "model": "claude-haiku-4.5-thinking",
@@ -23210,7 +23178,7 @@
         "cost": "158.1"
       },
       {
-        "rank": 86,
+        "rank": 87,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.4",
@@ -23220,7 +23188,7 @@
         "cost": "34.8"
       },
       {
-        "rank": 87,
+        "rank": 88,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.4-nano-high",
@@ -23230,7 +23198,7 @@
         "cost": "13.2"
       },
       {
-        "rank": 88,
+        "rank": 89,
         "type": "开源",
         "org": "小米",
         "model": "MiMo-V2-Flash-think",
@@ -23240,7 +23208,7 @@
         "cost": "0.0"
       },
       {
-        "rank": 89,
+        "rank": 90,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen-plus-think-2025-12-01",
@@ -23250,7 +23218,7 @@
         "cost": "27.1"
       },
       {
-        "rank": 90,
+        "rank": 91,
         "type": "开源",
         "org": "豆包",
         "model": "Seed-OSS-36B-Instruct",
@@ -23260,7 +23228,7 @@
         "cost": "10.8"
       },
       {
-        "rank": 91,
+        "rank": 92,
         "type": "开源",
         "org": "深度求索",
         "model": "DeepSeek-V3.1",
@@ -23270,7 +23238,7 @@
         "cost": "6.5"
       },
       {
-        "rank": 92,
+        "rank": 93,
         "type": "商用",
         "org": "豆包",
         "model": "doubao-seed-1-6-251015",
@@ -23280,7 +23248,7 @@
         "cost": "8.3"
       },
       {
-        "rank": 93,
+        "rank": 94,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "qwen3-next-80b-a3b-instruct",
@@ -23290,7 +23258,7 @@
         "cost": "3.9"
       },
       {
-        "rank": 94,
+        "rank": 95,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5-mini-2025-08-07",
@@ -23300,7 +23268,7 @@
         "cost": "17.4"
       },
       {
-        "rank": 95,
+        "rank": 96,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "qwen3-next-80b-a3b-thinking",
@@ -23310,7 +23278,7 @@
         "cost": "17.1"
       },
       {
-        "rank": 96,
+        "rank": 97,
         "type": "商用",
         "org": "百度",
         "model": "ERNIE-X1.1-Preview",
@@ -23320,7 +23288,7 @@
         "cost": "9.3"
       },
       {
-        "rank": 97,
+        "rank": 98,
         "type": "商用",
         "org": "XAI",
         "model": "grok-4-1-fast-reasoning",
@@ -23330,7 +23298,7 @@
         "cost": "8.1"
       },
       {
-        "rank": 98,
+        "rank": 99,
         "type": "商用",
         "org": "小米",
         "model": "MiMo-V2-Flash-0204",
@@ -23340,7 +23308,7 @@
         "cost": "1.7"
       },
       {
-        "rank": 99,
+        "rank": 100,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5-mini-high",
@@ -23350,7 +23318,7 @@
         "cost": "48.4"
       },
       {
-        "rank": 100,
+        "rank": 101,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen-plus-2025-12-01",
@@ -23360,7 +23328,7 @@
         "cost": "2.8"
       },
       {
-        "rank": 101,
+        "rank": 102,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen-flash-think-2025-07-28",
@@ -23370,7 +23338,7 @@
         "cost": "4.6"
       },
       {
-        "rank": 102,
+        "rank": 103,
         "type": "开源",
         "org": "月之暗面",
         "model": "kimi-k2-0905",
@@ -23380,7 +23348,7 @@
         "cost": "13.2"
       },
       {
-        "rank": 103,
+        "rank": 104,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.2",
@@ -23390,7 +23358,7 @@
         "cost": "23.7"
       },
       {
-        "rank": 104,
+        "rank": 105,
         "type": "开源",
         "org": "小米",
         "model": "MiMo-V2-Flash",
@@ -23400,7 +23368,7 @@
         "cost": "0.0"
       },
       {
-        "rank": 105,
+        "rank": 106,
         "type": "开源",
         "org": "美团",
         "model": "LongCat-Flash-Lite",
@@ -23410,7 +23378,7 @@
         "cost": "0.0"
       },
       {
-        "rank": 106,
+        "rank": 107,
         "type": "开源",
         "org": "openAI",
         "model": "gpt-oss-120b",
@@ -23420,7 +23388,7 @@
         "cost": "2.9"
       },
       {
-        "rank": 107,
+        "rank": 108,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5-nano-high",
@@ -23430,7 +23398,7 @@
         "cost": "19.3"
       },
       {
-        "rank": 108,
+        "rank": 109,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5-nano-2025-08-07",
@@ -23440,7 +23408,7 @@
         "cost": "7.4"
       },
       {
-        "rank": 109,
+        "rank": 110,
         "type": "商用",
         "org": "google",
         "model": "gemini-3.1-flash-lite-preview",
@@ -23450,7 +23418,7 @@
         "cost": "3.9"
       },
       {
-        "rank": 110,
+        "rank": 111,
         "type": "商用",
         "org": "anthropic",
         "model": "claude-haiku-4.5",
@@ -23460,7 +23428,7 @@
         "cost": "18.9"
       },
       {
-        "rank": 111,
+        "rank": 112,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen-flash-2025-07-28",
@@ -23470,7 +23438,7 @@
         "cost": "1.5"
       },
       {
-        "rank": 112,
+        "rank": 113,
         "type": "开源",
         "org": "google",
         "model": "gemma-4-31b-it",
@@ -23480,7 +23448,7 @@
         "cost": "1.4"
       },
       {
-        "rank": 113,
+        "rank": 114,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.1",
@@ -23490,7 +23458,7 @@
         "cost": "19.3"
       },
       {
-        "rank": 114,
+        "rank": 115,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.4-mini",
@@ -23500,7 +23468,7 @@
         "cost": "7.0"
       },
       {
-        "rank": 115,
+        "rank": 116,
         "type": "开源",
         "org": "google",
         "model": "gemma-4-26b-a4b-it",
@@ -23510,7 +23478,7 @@
         "cost": "1.7"
       },
       {
-        "rank": 116,
+        "rank": 117,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen-turbo-think-2025-07-15",
@@ -23520,7 +23488,7 @@
         "cost": "8.8"
       },
       {
-        "rank": 117,
+        "rank": 118,
         "type": "开源",
         "org": "智谱AI",
         "model": "GLM-4.7-Flash",
@@ -23530,7 +23498,7 @@
         "cost": "0.0"
       },
       {
-        "rank": 118,
+        "rank": 119,
         "type": "开源",
         "org": "openAI",
         "model": "gpt-oss-20b",
@@ -23540,7 +23508,7 @@
         "cost": "2.1"
       },
       {
-        "rank": 119,
+        "rank": 120,
         "type": "开源",
         "org": "Mistral",
         "model": "mistral-large-2512",
@@ -23550,7 +23518,7 @@
         "cost": "6.9"
       },
       {
-        "rank": 120,
+        "rank": 121,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.4-nano",
@@ -23560,7 +23528,7 @@
         "cost": "2.2"
       },
       {
-        "rank": 121,
+        "rank": 122,
         "type": "商用",
         "org": "google",
         "model": "gemini-2.5-flash-lite",
@@ -23570,7 +23538,7 @@
         "cost": "8.9"
       },
       {
-        "rank": 122,
+        "rank": 123,
         "type": "商用",
         "org": "XAI",
         "model": "grok-4-1-fast-non-reasoning",
@@ -23580,7 +23548,7 @@
         "cost": "1.6"
       },
       {
-        "rank": 123,
+        "rank": 124,
         "type": "开源",
         "org": "Mistral",
         "model": "Ministral-3-14B-Instruct-2512",
@@ -23590,7 +23558,7 @@
         "cost": "2.3"
       },
       {
-        "rank": 124,
+        "rank": 125,
         "type": "开源",
         "org": "Mistral",
         "model": "Ministral-3-8B-Instruct-2512",
@@ -23600,7 +23568,7 @@
         "cost": "1.6"
       },
       {
-        "rank": 125,
+        "rank": 126,
         "type": "开源",
         "org": "Mistral",
         "model": "Ministral-3-3B-Instruct-2512",
