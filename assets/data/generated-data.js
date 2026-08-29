@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-08-29",
-  "generatedAt": "2026-08-28T20:33:09.990560Z",
+  "generatedAt": "2026-08-29T01:17:38.817516Z",
   "news": [
     {
       "title": "Batch write and discover records in Amazon SageMaker Feature Store",
@@ -108,6 +108,89 @@ window.AI_GENERATED_DATA = {
       "aiSelected": true,
       "moduleTargets": [
         "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "LLMs Are Not (Consistently) Bayesian: Quantifying Internal (In)consistencies of LLMs’ Probabilistic Beliefs",
+      "summary": "Modern AI systems are being deployed in complex domains such as medicine, science, and law, where there is often not a single correct answer given the observed evidence. Such syste",
+      "category": "ai-models",
+      "source": "RSS · Apple ML Research",
+      "date": "2026-08-28",
+      "publishedAt": "2026-08-28T08:00",
+      "collectedAt": "2026-08-29T09:17",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://machinelearning.apple.com/research/llms-not-consistently-bayesian",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "GLM-5.3 vs. GLM-5.3 Flash on DeepSWE: Cost, Coding, and Routing",
+      "summary": "We ran 900 DeepSWE rollouts on GLM-5.3 and GLM-5.3 Flash. Flash gives up 5.6 points of pass@1 at 17x lower cost, and only 2.6 points at pass@4.",
+      "category": "ai-coding",
+      "source": "RSS · Together AI",
+      "date": "2026-08-28",
+      "publishedAt": "2026-08-28T08:00",
+      "collectedAt": "2026-08-29T09:17",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://www.together.ai/blog/glm-5-3-vs-glm-5-3-flash-on-deepswe-cost-coding-and-routing",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Agent Seer: Synthesizing Scenarios from Specification Understanding",
+      "summary": "Evaluating AI agents that use external tools requires realistic test scenarios that capture how practitioners compose tools and iterate across conversation turns. Constructing such",
+      "category": "ai-coding",
+      "source": "RSS · Apple ML Research",
+      "date": "2026-08-28",
+      "publishedAt": "2026-08-28T08:00",
+      "collectedAt": "2026-08-29T09:17",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://machinelearning.apple.com/research/agent-seer-synthesizing-scenarios",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
       ],
       "sourceCount": 1
     },
@@ -2573,88 +2656,6 @@ window.AI_GENERATED_DATA = {
       "sourceDate": "",
       "tags": [],
       "url": "https://aws.amazon.com/blogs/machine-learning/democratizing-institutional-knowledge-building-an-ai-powered-knowledge-management-system-with-aws/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Introducing new Ray capabilities on SageMaker HyperPod",
-      "summary": "Amazon SageMaker HyperPod now offers managed Ray support on Amazon EKS. Create and monitor Ray clusters, connect JupyterLab and Code Editor notebooks to live clusters, get out-of-t",
-      "category": "ai-coding",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-08-25",
-      "publishedAt": "2026-08-25T03:32",
-      "collectedAt": "2026-08-25T03:51",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-new-ray-capabilities-on-sagemaker-hyperpod/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "MetaRoCE: A New RDMA Transport Built for AI-Scale Ethernet",
-      "summary": "Training and serving frontier AI models depends on fast, reliable networks that move data between GPUs without wasting compute cycles. To meet this challenge at scale, Meta designe",
-      "category": "ai-models",
-      "source": "RSS · Meta Engineering",
-      "date": "2026-08-25",
-      "publishedAt": "2026-08-25T02:02",
-      "collectedAt": "2026-08-25T02:42",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://engineering.fb.com/2026/08/24/networking-traffic/metaroce-rdma-transport-ai-ethernet/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "MTIA 300: Meta’s First Training Chip with Built-in NICs and Communication-Offloading Engines",
-      "summary": "MTIA 300 is the first of Meta’s family of in-house training and inference accelerators optimized for training ranking and recommendation models. We’re sharing how MTIA 300’s built-",
-      "category": "ai-models",
-      "source": "RSS · Meta Engineering",
-      "date": "2026-08-25",
-      "publishedAt": "2026-08-25T01:45",
-      "collectedAt": "2026-08-25T02:42",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -6294,6 +6295,39 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "Salesforce post-earnings outlook: SaaSpocalypse fears are ge",
+        "provider": "FXCM UK",
+        "type": "AI 项目/工具",
+        "bestFor": "Salesforce at the heart of Agentic AI\n\nThe proliferation of AI has entered a more aggressive phase through the rise of agents and inference, which requires much",
+        "description": "Salesforce at the heart of Agentic AI\n\nThe proliferation of AI has entered a more aggressive phase through the rise of agents and inference, which requires much more compute and is",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "FXCM UK",
+        "url": "https://www.fxcm.com/markets/insights/salesforce-post-earnings-outlook-saaspocalypse-fears-are-getting-harder-to-justify/"
+      },
+      {
+        "name": "Why Agentic AI Represents the Next Evolution of Intelligent ",
+        "provider": "Medium",
+        "type": "AI 项目/工具",
+        "bestFor": "Building Autonomous AI Systems That Think, Plan, and Act\n\nArtificial intelligence has progressed far beyond answering questions or generating content. Modern bu",
+        "description": "Building Autonomous AI Systems That Think, Plan, and Act\n\nArtificial intelligence has progressed far beyond answering questions or generating content. Modern businesses are now exp",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Medium",
+        "url": "https://ai.plainenglish.io/why-agentic-ai-represents-the-next-evolution-of-intelligent-software-937c09788be1"
+      },
+      {
+        "name": "Agent Seer: Synthesizing Scenarios from Specification Unders",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Evaluating AI agents that use external tools requires realistic test scenarios that capture how practitioners compose tools and iterate across conversation turn",
+        "description": "Evaluating AI agents that use external tools requires realistic test scenarios that capture how practitioners compose tools and iterate across conversation turns. Constructing such",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Apple ML Research",
+        "url": "https://machinelearning.apple.com/research/agent-seer-synthesizing-scenarios"
+      },
+      {
         "name": "SPA: Securing Persistent LLM Agents Across Queries with Plan",
         "provider": "arXiv",
         "type": "AI 项目/工具",
@@ -6699,39 +6733,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · AWS Machine Learning",
         "url": "https://aws.amazon.com/blogs/machine-learning/connect-amazon-bedrock-agentcore-to-cross-account-knowledge-bases/"
-      },
-      {
-        "name": "DeepSeek 上线多模态视觉理解模型 V4-Flash-Vision-Exp",
-        "provider": "公众号：DeepSeek（深度求索）",
-        "type": "AI 项目/工具",
-        "bestFor": "DeepSeek 上线多模态视觉理解模型 V4-Flash-Vision-Exp，纯文本能力与 V4-Flash 正式版持平，多模态 Agent 能力接近 Opus-4.8。该模型通过 API 提供，图片按 token 计费，一张最多占 384 tokens，价格与 V4-Flash 一致。同期上线的 Files AP",
-        "description": "DeepSeek 上线多模态视觉理解模型 V4-Flash-Vision-Exp，纯文本能力与 V4-Flash 正式版持平，多模态 Agent 能力接近 Opus-4.8。该模型通过 API 提供，图片按 token 计费，一张最多占 384 tokens，价格与 V4-Flash 一致。同期上线的 Files API 免费，支持图片上传后通过 file_",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "公众号：DeepSeek（深度求索）",
-        "url": "https://mp.weixin.qq.com/s?__biz=Mzk0OTYwNzc3NQ%3D%3D&mid=2247485794&idx=1&sn=5332df30422e6637142321315b42ac26"
-      },
-      {
-        "name": "飞书与豆包合并后首款Agent产品\"豆包工作\"发布",
-        "provider": "公众号：数字生命卡兹克",
-        "type": "AI 项目/工具",
-        "bestFor": "字节正式发布办公Agent产品\"豆包工作\"，这是7月30日飞书与豆包产品团队整合后的首个重要产品，也是继WorkBuddy、千问办公之后办公Agent领域的第三个巨头玩家。该产品由豆包原\"工作任务\"独立而成，与飞书原生打通，支持飞书账号登录，完整继承企业AI额度、文档、多维表格、知识库、聊天、邮件及飞书权限系统，并具备",
-        "description": "字节正式发布办公Agent产品\"豆包工作\"，这是7月30日飞书与豆包产品团队整合后的首个重要产品，也是继WorkBuddy、千问办公之后办公Agent领域的第三个巨头玩家。该产品由豆包原\"工作任务\"独立而成，与飞书原生打通，支持飞书账号登录，完整继承企业AI额度、文档、多维表格、知识库、聊天、邮件及飞书权限系统，并具备电脑操控功能，可将固定流程封装为可反复调",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "公众号：数字生命卡兹克",
-        "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685540&idx=1&sn=601bd8669d18bf0b4c9a9e88af421797"
-      },
-      {
-        "name": "都Agent时代了，我还是想分享给你这12个我最常用的Prompt",
-        "provider": "公众号：数字生命卡兹克",
-        "type": "AI 项目/工具",
-        "bestFor": "作者整理出12个最常用的Prompt，按问清问题、学习、解决问题、决策、认识自己5个场景分类，全部可单独复制使用且无需安装任何Skill。每个Prompt都配有可直接套用的模板，将【】内内容替换为个人信息即可，适配当前所有主流AI。",
-        "description": "作者整理出12个最常用的Prompt，按问清问题、学习、解决问题、决策、认识自己5个场景分类，全部可单独复制使用且无需安装任何Skill。每个Prompt都配有可直接套用的模板，将【】内内容替换为个人信息即可，适配当前所有主流AI。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "公众号：数字生命卡兹克",
-        "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685346&idx=1&sn=0fc8dc62bcf67a466552d1204205ef31"
       }
     ],
     "ai-models": [
@@ -8843,6 +8844,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-research": [
       {
+        "name": "LLMs Are Not (Consistently) Bayesian: Quantifying Internal (",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Modern AI systems are being deployed in complex domains such as medicine, science, and law, where there is often not a single correct answer given the observed ",
+        "description": "Modern AI systems are being deployed in complex domains such as medicine, science, and law, where there is often not a single correct answer given the observed evidence. Such syste",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Apple ML Research",
+        "url": "https://machinelearning.apple.com/research/llms-not-consistently-bayesian"
+      },
+      {
         "name": "TTPO: Test-Time Policy Optimization",
         "provider": "arXiv",
         "type": "AI 项目/工具",
@@ -9323,17 +9335,6 @@ window.AI_GENERATED_DATA = {
         "watch": "使用该数据集进行商业应用可能面临授权和合规性问题，需谨慎处理。",
         "sourceName": "RSS · Apple ML Research",
         "url": "https://machinelearning.apple.com/research/deepambigqa-multihop-questions"
-      },
-      {
-        "name": "Optimizing What Policies Learn From: Recoverability-aware Ro",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Critic-free group-based reinforcement learning has become a scalable approach for post-training large language models. However, most existing methods allocate t",
-        "description": "Critic-free group-based reinforcement learning has become a scalable approach for post-training large language models. However, most existing methods allocate the same number of ro",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2608.05080v1"
       }
     ],
     "ai-office": []
@@ -10742,8 +10743,8 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-08-29",
-    "generatedAt": "2026-08-28T20:33:09.966557Z",
-    "total": 13,
+    "generatedAt": "2026-08-29T01:17:38.792530Z",
+    "total": 16,
     "sections": [
       {
         "category": "ai-coding",
@@ -10758,6 +10759,28 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-08-29",
             "publishedAt": "2026-08-29T03:31",
+            "reason": ""
+          },
+          {
+            "title": "GLM-5.3 vs. GLM-5.3 Flash on DeepSWE: Cost, Coding, and Routing",
+            "summary": "We ran 900 DeepSWE rollouts on GLM-5.3 and GLM-5.3 Flash. Flash gives up 5.6 points of pass@1 at 17x lower cost, and only 2.6 points at pass",
+            "source": "RSS · Together AI",
+            "url": "https://www.together.ai/blog/glm-5-3-vs-glm-5-3-flash-on-deepswe-cost-coding-and-routing",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-28",
+            "publishedAt": "2026-08-28T08:00",
+            "reason": ""
+          },
+          {
+            "title": "Agent Seer: Synthesizing Scenarios from Specification Understanding",
+            "summary": "Evaluating AI agents that use external tools requires realistic test scenarios that capture how practitioners compose tools and iterate acro",
+            "source": "RSS · Apple ML Research",
+            "url": "https://machinelearning.apple.com/research/agent-seer-synthesizing-scenarios",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-28",
+            "publishedAt": "2026-08-28T08:00",
             "reason": ""
           }
         ]
@@ -10814,6 +10837,17 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-08-29",
             "publishedAt": "2026-08-29T00:20",
+            "reason": ""
+          },
+          {
+            "title": "LLMs Are Not (Consistently) Bayesian: Quantifying Internal (In)consistencies of LLMs’ Probabilistic Beliefs",
+            "summary": "Modern AI systems are being deployed in complex domains such as medicine, science, and law, where there is often not a single correct answer",
+            "source": "RSS · Apple ML Research",
+            "url": "https://machinelearning.apple.com/research/llms-not-consistently-bayesian",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-28",
+            "publishedAt": "2026-08-28T08:00",
             "reason": ""
           },
           {
