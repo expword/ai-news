@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-08-30",
-  "generatedAt": "2026-08-30T05:16:27.244903Z",
+  "generatedAt": "2026-08-30T06:32:24.685017Z",
   "news": [
     {
       "title": "Batch write and discover records in Amazon SageMaker Feature Store",
@@ -6993,6 +6993,28 @@
     ],
     "ai-business": [
       {
+        "name": "Sony Music, Warner Chappell Sue Anthropic Over Copyright Cla",
+        "provider": "Benzinga",
+        "type": "AI 项目/工具",
+        "bestFor": "Sony Music Publishing and Warner Chappell Music, a unit of Warner Music Group Corp. (NASDAQ:WMG), sued AI startup Anthropic on Friday in a Northern California f",
+        "description": "Sony Music Publishing and Warner Chappell Music, a unit of Warner Music Group Corp. (NASDAQ:WMG), sued AI startup Anthropic on Friday in a Northern California federal court.\n\nThe c",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Benzinga",
+        "url": "https://www.benzinga.com/markets/tech/26/08/61511686/sony-warner-chappell-sue-anthropic-copyright-songs"
+      },
+      {
+        "name": "Kaspersky: Fake Claude apps fuel new wave of AI cyberattacks",
+        "provider": "Back End News",
+        "type": "AI 项目/工具",
+        "bestFor": "Cybercriminal group SilverFox is using fake Claude AI applications to break into businesses across Asia-Pacific (APAC), as attackers increasingly exploit the gr",
+        "description": "Cybercriminal group SilverFox is using fake Claude AI applications to break into businesses across Asia-Pacific (APAC), as attackers increasingly exploit the growing use of artific",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Back End News",
+        "url": "https://backendnews.net/kaspersky-fake-claude-apps-fuel-new-wave-of-ai-cyberattacks/"
+      },
+      {
         "name": "Hydrogen Is Still A Tonnes Market, No Matter How Many MWh We",
         "provider": "RocketNews | Top News Stories From Around the Globe",
         "type": "AI 项目/工具",
@@ -7443,34 +7465,6 @@
         "watch": "Gemini 可能面临 API 使用费用上涨的风险，影响开发者的使用意愿。",
         "sourceName": "Free Malaysia Today",
         "url": "https://www.freemalaysiatoday.com/category/business/2026/08/12/google-s-gemini-ai-assistant-reaches-one-billion-users"
-      },
-      {
-        "name": "Google's Gemini AI assistant reaches one billion users | New",
-        "provider": "NST Online",
-        "type": "AI 项目/工具",
-        "bestFor": "SAN FRANCISCO: Google's artificial intelligence assistant Gemini has surpassed one billion monthly users, chief executive officer Sundar Pichai announced Tuesda",
-        "description": "SAN FRANCISCO: Google's artificial intelligence assistant Gemini has surpassed one billion monthly users, chief executive officer Sundar Pichai announced Tuesday, a week after a ma",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NST Online",
-        "url": "https://www.nst.com.my/business/corporate/2026/08/1509312/googles-gemini-ai-assistant-reaches-one-billion-users"
-      },
-      {
-        "name": "Riot Platforms 与神秘客户签署价值 91 亿美元的 AI 数据中心协议",
-        "provider": "Finbold",
-        "type": "AI 项目/工具",
-        "bestFor": "这项协议将使 Riot Platforms 能够在 AI 基础设施市场中占据一席之地，吸引更多投资者关注。对于希望进入 AI 领域的企业来说，Riot 提供的基础设施将是一个重要选择。此外，随着 AI 技术的不断发展，Riot 的转型可能会影响比特币挖矿行业的未来格局，促使更多公司考虑多元化业务。投资者将更倾向于将 R",
-        "description": "Riot Platforms（NASDAQ: RIOT）在 8 月 11 日的盘前交易中，股价上涨近 25%，原因是公司宣布了一项长期的 AI 数据中心协议，预计价值约 91 亿美元。该协议将为 Riot 提供 191 兆瓦的 IT 能力，主要服务于一个前沿 AI 实验室。尽管客户身份未公开，但有报道称是 Claude AI 模型的开发者 Anthropic。此协议预计到 2048 年将产生约 91 亿美元的收入。",
-        "useCases": [
-          "评估 Riot 的 AI 数据中心协议对投资组合的影响。",
-          "考虑与 Riot 合作，利用其数据中心能力进行 AI 项目开发。",
-          "分析 Riot 的财务报告，了解其转型对未来收益的潜在影响。",
-          "关注比特币市场动态，评估其对 Riot 业绩的影响。",
-          "研究 AI 基础设施市场，寻找投资机会。"
-        ],
-        "watch": "协议的长期性可能面临市场需求变化的风险，影响收入稳定性。",
-        "sourceName": "Finbold",
-        "url": "https://finbold.com/this-bitcoin-stock-rockets-25-after-mega-deal-with-mystery-customer/"
       }
     ],
     "ai-benchmark": [
@@ -10519,7 +10513,7 @@
   ],
   "dailyReport": {
     "date": "2026-08-30",
-    "generatedAt": "2026-08-30T05:16:27.221437Z",
+    "generatedAt": "2026-08-30T06:32:24.661051Z",
     "total": 23,
     "sections": [
       {
