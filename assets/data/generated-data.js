@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-08-30",
-  "generatedAt": "2026-08-30T02:51:36.348629Z",
+  "generatedAt": "2026-08-30T05:16:27.244903Z",
   "news": [
     {
       "title": "Batch write and discover records in Amazon SageMaker Feature Store",
@@ -5613,6 +5613,17 @@ window.AI_GENERATED_DATA = {
   "topicResources": {
     "ai-coding": [
       {
+        "name": "ServiceNow patches three maximum severity flaws inside its A",
+        "provider": "Startup Fortune",
+        "type": "AI 项目/工具",
+        "bestFor": "ServiceNow disclosed four security vulnerabilities on August 27, three rated a perfect 10.0 on the CVSS scale, that let unauthenticated attackers execute code, ",
+        "description": "ServiceNow disclosed four security vulnerabilities on August 27, three rated a perfect 10.0 on the CVSS scale, that let unauthenticated attackers execute code, alter data, or run a",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Startup Fortune",
+        "url": "https://startupfortune.com/servicenow-patches-three-maximum-severity-flaws-inside-its-ai-agent-platform/"
+      },
+      {
         "name": "Sam Altman and Musk's War Costs Cursor AI After $60B Deal | ",
         "provider": "CryptoRank",
         "type": "AI 项目/工具",
@@ -6094,26 +6105,31 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Indian Television Dot Com",
         "url": "https://indiantelevision.com/mam/google-launches-gemini-3-7-flash-with-sharper-coding-and-agentic-capabilities/"
-      },
-      {
-        "name": "AI 编码代理扩展企业攻击面",
-        "provider": "DataBreachToday",
-        "type": "AI 项目/工具",
-        "bestFor": "推荐给需要整合 AI 编码代理的企业安全团队、开发者和技术决策者。这些人群需要理解 AI 引入的风险，并采取相应的安全措施。对于希望利用 AI 提升开发效率的企业，必须权衡 AI 带来的便利与潜在的安全隐患。随着 AI 技术的不断发展，企业在安全策略上也需进行相应的调整，以应对不断变化的威胁环境。",
-        "description": "这次发布的核心点是，AI 编码代理作为自主工具，正在显著扩展企业的攻击面。Kudelski Security 的研究总监 Nathan Hamiel 指出，这些代理不仅能执行代码，还能调用工具并采取开发者未明确设计的行动，带来了新的安全挑战。安全团队需关注架构、沙箱和控制措施，以降低代理意外行为的影响范围。",
-        "useCases": [
-          "评估现有应用程序中引入 AI 编码代理的安全风险，确保符合企业安全标准。",
-          "限制 AI 编码代理的权限，确保其只能访问必要的工具和数据。",
-          "在部署 AI 解决方案前，进行全面的安全审计，识别潜在的攻击面。",
-          "利用沙箱环境测试 AI 编码代理的行为，确保其在安全范围内运行。",
-          "定期更新安全策略，以应对 AI 技术的快速发展和新出现的威胁。"
-        ],
-        "watch": "AI 编码代理可能会执行未授权的操作，导致敏感数据泄露，需严格控制权限。",
-        "sourceName": "DataBreachToday",
-        "url": "https://www.databreachtoday.com/ai-coding-agents-expand-enterprise-attack-surface-a-32500"
       }
     ],
     "ai-agents": [
+      {
+        "name": "Alook: Local AI Collaboration Platform",
+        "provider": "Dynamic Business",
+        "type": "AI 项目/工具",
+        "bestFor": "Alook enables team collaboration with local AI agents, preserving context, enabling handoffs, and maintaining control over data.\n\nAlook is a collaboration platf",
+        "description": "Alook enables team collaboration with local AI agents, preserving context, enabling handoffs, and maintaining control over data.\n\nAlook is a collaboration platform designed to brin",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Dynamic Business",
+        "url": "https://dynamicbusiness.com/ai-tools/alook-local-ai-collaboration-platform.html"
+      },
+      {
+        "name": "How Well Does Manus AI Perform in Task Automation?",
+        "provider": "Alphr",
+        "type": "AI 项目/工具",
+        "bestFor": "Common use cases include deep research, data analysis, and app development.\n\nConventional AI agents only act when you tell them to and may require multiple roun",
+        "description": "Common use cases include deep research, data analysis, and app development.\n\nConventional AI agents only act when you tell them to and may require multiple rounds of inputs and int",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Alphr",
+        "url": "https://www.alphr.com/how-well-does-manus-ai-perform-in-task-automation/"
+      },
       {
         "name": "Uber 用 Agent 接管 70% 代码 PR，AI 账单零增长",
         "provider": "X：阿易 AI Notes (@AYi_AInotes)",
@@ -6531,28 +6547,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "India Today",
         "url": "https://www.indiatoday.in/technology/news/story/1000-ai-agents-formed-cult-to-hack-hugging-face-and-break-free-openai-lost-control-2981045-2026-08-27"
-      },
-      {
-        "name": "VISA: Agentic Self-Evolving Data Synthesis for Multimodal In",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Multimodal instruction-following models require training data that is accurate, diverse, verifiable, and challenging. Existing synthesis pipelines typically fol",
-        "description": "Multimodal instruction-following models require training data that is accurate, diverse, verifiable, and challenging. Existing synthesis pipelines typically follow a one-pass gener",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2608.26013v1"
-      },
-      {
-        "name": "ProgRouter: Online Progress-Guided Orchestration for Multi-A",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Multi-agent large language model (LLM) workflows have emerged as a powerful paradigm for solving complex, open-ended tasks through collaborative reasoning among",
-        "description": "Multi-agent large language model (LLM) workflows have emerged as a powerful paradigm for solving complex, open-ended tasks through collaborative reasoning among specialized LLM age",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2608.25992v1"
       }
     ],
     "ai-models": [
@@ -10525,7 +10519,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-08-30",
-    "generatedAt": "2026-08-30T02:51:36.279337Z",
+    "generatedAt": "2026-08-30T05:16:27.221437Z",
     "total": 23,
     "sections": [
       {
