@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-08-30",
-  "generatedAt": "2026-08-30T12:44:20.590748Z",
+  "generatedAt": "2026-08-30T15:19:24.533543Z",
   "news": [
     {
       "title": "Batch write and discover records in Amazon SageMaker Feature Store",
@@ -5613,6 +5613,17 @@
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Top AI tools including Claude, Codex, and Hermes installed s",
+        "provider": "TechRadar",
+        "type": "AI 项目/工具",
+        "bestFor": "A new class of \"squatting\" risks is emerging right in front of us\n\n* Researchers found unclaimed llms.txt references on 120 domains, exploitable by cybercrimina",
+        "description": "A new class of \"squatting\" risks is emerging right in front of us\n\n* Researchers found unclaimed llms.txt references on 120 domains, exploitable by cybercriminals\n\n* AI agents coul",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "TechRadar",
+        "url": "https://www.techradar.com/pro/security/top-ai-tools-including-claude-codex-and-hermes-installed-suspicious-code-inside-corporate-networks"
+      },
+      {
         "name": "ServiceNow patches three maximum severity flaws inside its A",
         "provider": "Startup Fortune",
         "type": "AI 项目/工具",
@@ -6094,20 +6105,31 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Yahoo Tech",
         "url": "https://tech.yahoo.com/ai/claude/articles/ai-agents-tried-sabotage-disable-055447788.html"
-      },
-      {
-        "name": "Google launches Gemini 3.7 Flash with sharper coding and age",
-        "provider": "Indian Television Dot Com",
-        "type": "AI 项目/工具",
-        "bestFor": "NEW DELHI: Google is giving its AI workhorse another upgrade, and this one comes with a cheaper price tag too.\n\nGoogle has introduced Gemini 3.7 Flash, which it",
-        "description": "NEW DELHI: Google is giving its AI workhorse another upgrade, and this one comes with a cheaper price tag too.\n\nGoogle has introduced Gemini 3.7 Flash, which it describes as its mo",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Indian Television Dot Com",
-        "url": "https://indiantelevision.com/mam/google-launches-gemini-3-7-flash-with-sharper-coding-and-agentic-capabilities/"
       }
     ],
     "ai-agents": [
+      {
+        "name": "Cashfree rolls out AI agents for merchants to automate payme",
+        "provider": "Business Standard",
+        "type": "AI 项目/工具",
+        "bestFor": "Cashfree said while the service is free at launch, it plans to introduce outcome-based pricing in the future\n\nFintech firm Cashfree Payments is rolling out arti",
+        "description": "Cashfree said while the service is free at launch, it plans to introduce outcome-based pricing in the future\n\nFintech firm Cashfree Payments is rolling out artificial intelligence ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Business Standard",
+        "url": "https://www.business-standard.com/companies/news/cashfree-rolls-out-ai-agents-for-merchants-to-automate-payment-operations-126083000455_1.html"
+      },
+      {
+        "name": "Voice AI Agent Security and Compliance Checklist for Regulat",
+        "provider": "Medium",
+        "type": "AI 项目/工具",
+        "bestFor": "A voice AI agent does not make one mistake at a time. If a single conversational flow lets an agent confirm a caller's identity after answering a sensitive ques",
+        "description": "A voice AI agent does not make one mistake at a time. If a single conversational flow lets an agent confirm a caller's identity after answering a sensitive question instead of befo",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Medium",
+        "url": "https://blog.stackademic.com/voice-ai-agent-security-and-compliance-checklist-for-regulated-industries-17d72e8eeb41"
+      },
       {
         "name": "Alook: Local AI Collaboration Platform",
         "provider": "Dynamic Business",
@@ -6525,31 +6547,53 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Jefferson City News Tribune",
         "url": "https://www.newstribune.com/news/2026/aug/27/commentary-ai-should-be-managed-like-nuclear/"
-      },
-      {
-        "name": "OpenAI: Hugging Face Incident a \"Warning Shot\" to the World",
-        "provider": "Infosecurity Magazine",
-        "type": "AI 项目/工具",
-        "bestFor": "An \"unprecedented cyber incident\" in which OpenAI agents broke free of an internet-isolated sandbox and hacked Hugging Face was largely driven by an improvised ",
-        "description": "An \"unprecedented cyber incident\" in which OpenAI agents broke free of an internet-isolated sandbox and hacked Hugging Face was largely driven by an improvised messaging board they",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Infosecurity Magazine",
-        "url": "https://www.infosecurity-magazine.com/news/openai-hugging-face-warning-shot/"
-      },
-      {
-        "name": "1000 AI agents formed cult to hack Hugging Face and break fr",
-        "provider": "India Today",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenAI's rogue AI agent breached Hugging Face and used exposed credentials to access four third-party accounts. (Image created using AI)\n\nOn July 9, 2026, OpenA",
-        "description": "OpenAI's rogue AI agent breached Hugging Face and used exposed credentials to access four third-party accounts. (Image created using AI)\n\nOn July 9, 2026, OpenAI's autonomous AI ag",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "India Today",
-        "url": "https://www.indiatoday.in/technology/news/story/1000-ai-agents-formed-cult-to-hack-hugging-face-and-break-free-openai-lost-control-2981045-2026-08-27"
       }
     ],
     "ai-models": [
+      {
+        "name": "AI for the People programme participants to complete six mod",
+        "provider": "The Star",
+        "type": "AI 项目/工具",
+        "bestFor": "PUTRAJAYA: Participants in the AI for the People (AI Untuk Rakyat) programme must complete and pass six designated modules to qualify for a free three-month sub",
+        "description": "PUTRAJAYA: Participants in the AI for the People (AI Untuk Rakyat) programme must complete and pass six designated modules to qualify for a free three-month subscription to selecte",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Star",
+        "url": "https://www.thestar.com.my/news/nation/2026/08/30/ai-for-the-people-programme-participants-to-complete-six-modules-for-free-ai-tools"
+      },
+      {
+        "name": "Improve your Android Auto experience by doing these simple t",
+        "provider": "engadget",
+        "type": "AI 项目/工具",
+        "bestFor": "Android Auto is easily one of the most useful tools drivers have today, but most people only use it with default settings, missing out on some really cool featu",
+        "description": "Android Auto is easily one of the most useful tools drivers have today, but most people only use it with default settings, missing out on some really cool features. You connect you",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "engadget",
+        "url": "https://www.engadget.com/2242776/improve-android-auto-experience-doing-simple-things/"
+      },
+      {
+        "name": "AI for the People participants must complete six modules to ",
+        "provider": "Malay Mail",
+        "type": "AI 项目/工具",
+        "bestFor": "PUTRAJAYA, Aug 30 -- Participants in the AI for the People (AI Untuk Rakyat) programme must complete and pass six designated modules to qualify for a free three",
+        "description": "PUTRAJAYA, Aug 30 -- Participants in the AI for the People (AI Untuk Rakyat) programme must complete and pass six designated modules to qualify for a free three-month subscription ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Malay Mail",
+        "url": "https://www.malaymail.com/news/malaysia/2026/08/30/ai-for-the-people-participants-must-complete-six-modules-to-receive-free-ai-tools/233316"
+      },
+      {
+        "name": "Mark Zuckerberg's Meta Just Open-Sourced Its Most Powerful A",
+        "provider": "Yahoo! Finance",
+        "type": "AI 项目/工具",
+        "bestFor": "Meta Platforms (NASDAQ: META) is once again releasing some of its artificial intelligence (AI) models with open weights, allowing developers to download and mod",
+        "description": "Meta Platforms (NASDAQ: META) is once again releasing some of its artificial intelligence (AI) models with open weights, allowing developers to download and modify them.\n\nThe compa",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Yahoo! Finance",
+        "url": "https://finance.yahoo.com/technology/ai/articles/mark-zuckerbergs-meta-just-open-090500191.html"
+      },
       {
         "name": "Maharashtra Government Approves Logistics Policy 2024",
         "provider": "adda247",
@@ -6945,50 +6989,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "NewsBytes",
         "url": "https://www.newsbytesapp.com/news/science/anthropic-signs-45b-cloud-computing-deal-with-nscale/story"
-      },
-      {
-        "name": "Canada is bolstering its defense industry as US relations fr",
-        "provider": "The Independent",
-        "type": "AI 项目/工具",
-        "bestFor": "As Canada moves to reduce its dependence on American military suppliers, the push is on display inside a Toronto garment factory.\n\nHunched over sewing machines,",
-        "description": "As Canada moves to reduce its dependence on American military suppliers, the push is on display inside a Toronto garment factory.\n\nHunched over sewing machines, two workers rapidly",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Independent",
-        "url": "https://www.independent.co.uk/news/canada-mark-carney-arctic-ceo-donald-trump-b3040062.html"
-      },
-      {
-        "name": "Bringing ChatGPT for Teachers to more U.S. school districts",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
-        "description": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · OpenAI Blog",
-        "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts"
-      },
-      {
-        "name": "Gemini 3.5 Transcribe 发布，支持多语言转录",
-        "provider": "X：Sundar Pichai (@sundarpichai)",
-        "type": "AI 项目/工具",
-        "bestFor": "向 Gemini 3.5 Transcribe 问好！\n\n- 构建能理解用户语音/意图的应用，即使有多位说话人也行！\n- 开箱即用，自动检测 85+ 种语言\n- 针对专业术语的自定义词汇适配……SGTM：）\n\nAPI 现已在 @GoogleAIStudio 和 Gemini Enterprise 中提供，也可在 mac",
-        "description": "向 Gemini 3.5 Transcribe 问好！\n\n- 构建能理解用户语音/意图的应用，即使有多位说话人也行！\n- 开箱即用，自动检测 85+ 种语言\n- 针对专业术语的自定义词汇适配……SGTM：）\n\nAPI 现已在 @GoogleAIStudio 和 Gemini Enterprise 中提供，也可在 macOS 上的 Gemini 应用或 And",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "X：Sundar Pichai (@sundarpichai)",
-        "url": "https://x.com/sundarpichai/status/2092659467284517088"
-      },
-      {
-        "name": "Gemini 3.5 Transcribe 发布：面向实时语音交互的高精度语音转文本模型",
-        "provider": "Google DeepMind：Blog（RSS）",
-        "type": "AI 项目/工具",
-        "bestFor": "Google DeepMind 推出 Gemini 3.5 Transcribe 语音转文本模型，支持流式与非流式两种 API。据 Artificial Analysis 评测，其流式与非流式平均词错率分别为 4.0% 和 2.6%，支持超 85 种语言、自定义词汇及最多三人说话人识别。",
-        "description": "Google DeepMind 推出 Gemini 3.5 Transcribe 语音转文本模型，支持流式与非流式两种 API。据 Artificial Analysis 评测，其流式与非流式平均词错率分别为 4.0% 和 2.6%，支持超 85 种语言、自定义词汇及最多三人说话人识别。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Google DeepMind：Blog（RSS）",
-        "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe"
       }
     ],
     "ai-business": [
@@ -10503,7 +10503,7 @@
   ],
   "dailyReport": {
     "date": "2026-08-30",
-    "generatedAt": "2026-08-30T12:44:20.567725Z",
+    "generatedAt": "2026-08-30T15:19:24.509533Z",
     "total": 23,
     "sections": [
       {
