@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-08-30",
-  "generatedAt": "2026-08-30T10:17:38.047826Z",
+  "generatedAt": "2026-08-30T12:44:20.590748Z",
   "news": [
     {
       "title": "Batch write and discover records in Amazon SageMaker Feature Store",
@@ -6551,6 +6551,61 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-models": [
       {
+        "name": "Maharashtra Government Approves Logistics Policy 2024",
+        "provider": "adda247",
+        "type": "AI 项目/工具",
+        "bestFor": "Maharashtra's Logistics Policy 2024 aims to develop over 200 logistics parks, hubs, and terminals across 10,000 acres, generating 500,000 jobs.\n\nThe Maharashtra",
+        "description": "Maharashtra's Logistics Policy 2024 aims to develop over 200 logistics parks, hubs, and terminals across 10,000 acres, generating 500,000 jobs.\n\nThe Maharashtra government has appr",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "adda247",
+        "url": "https://currentaffairs.adda247.com/maharashtra-government-approves-logistics-policy-2024/"
+      },
+      {
+        "name": "Here's what Meta's $18 billion multistate settlement could m",
+        "provider": "Egypt Independent",
+        "type": "AI 项目/工具",
+        "bestFor": "New York -- Meta on Wednesday agreed to make sweeping changes to its platforms as part of an $18 billion settlement with dozens of states over claims its platfo",
+        "description": "New York -- Meta on Wednesday agreed to make sweeping changes to its platforms as part of an $18 billion settlement with dozens of states over claims its platforms contributed to a",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Egypt Independent",
+        "url": "https://cloudflare.egyptindependent.com/heres-what-metas-18-billion-multistate-settlement-could-mean-for-kids-and-for-its-bottom-line/"
+      },
+      {
+        "name": "Here's what Meta's $18 billion multistate settlement could m",
+        "provider": "Egypt Independent",
+        "type": "AI 项目/工具",
+        "bestFor": "New York -- Meta on Wednesday agreed to make sweeping changes to its platforms as part of an $18 billion settlement with dozens of states over claims its platfo",
+        "description": "New York -- Meta on Wednesday agreed to make sweeping changes to its platforms as part of an $18 billion settlement with dozens of states over claims its platforms contributed to a",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Egypt Independent",
+        "url": "https://www.egyptindependent.com/heres-what-metas-18-billion-multistate-settlement-could-mean-for-kids-and-for-its-bottom-line/"
+      },
+      {
+        "name": "CM Decides To Introduce AI-powered Multi-disease Scanner In ",
+        "provider": "UrduPoint",
+        "type": "AI 项目/工具",
+        "bestFor": "LAHORE, (APP - UrduPoint / Pakistan Point News - 30th Aug, 2026) Punjab Chief Minister Maryam Nawaz Sharif has decided to introduce an AI-powered\n\nmulti-disease",
+        "description": "LAHORE, (APP - UrduPoint / Pakistan Point News - 30th Aug, 2026) Punjab Chief Minister Maryam Nawaz Sharif has decided to introduce an AI-powered\n\nmulti-disease scanner in Punjab a",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "UrduPoint",
+        "url": "https://www.urdupoint.com/en/pakistan/cm-decides-to-introduce-ai-powered-multi-dise-2243429.html"
+      },
+      {
+        "name": "ChatTJB: The chat service powered by AI... 'Average Individu",
+        "provider": "Firstpost",
+        "type": "AI 项目/工具",
+        "bestFor": "ChatTJB appears like a regular chatbot, but it is one of a kind. Created by former Google employee Tucker Bryant as an art project, it has attracted more than 1",
+        "description": "ChatTJB appears like a regular chatbot, but it is one of a kind. Created by former Google employee Tucker Bryant as an art project, it has attracted more than 100,000 prompts. Answ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Firstpost",
+        "url": "https://www.firstpost.com/explainers/chattjb-the-chat-service-powered-by-ai-average-individuals-14041258.html"
+      },
+      {
         "name": "Anthropic Sued By Sony Music, Warner Chappell Music, Other M",
         "provider": "Tekedia",
         "type": "AI 项目/工具",
@@ -6934,64 +6989,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Google DeepMind：Blog（RSS）",
         "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe"
-      },
-      {
-        "name": "Qwen3.8-Flash 开源，Qwen4 架构预览",
-        "provider": "X：通义千问 / Qwen (@Alibaba_Qwen)",
-        "type": "AI 项目/工具",
-        "bestFor": "通义千问发布 Qwen3.8-Flash，一款多模态 MoE 模型，作为 Qwen4 架构的早期预览并开放权重。该模型总参数 125B，每 token 仅激活 6B，训练成本仅为 Qwen3.7-Plus 的 1/9，性能全面超越后者。生产版 API 定价 $0.16/1M 输入 tokens 和 $0.47/1M 输",
-        "description": "通义千问发布 Qwen3.8-Flash，一款多模态 MoE 模型，作为 Qwen4 架构的早期预览并开放权重。该模型总参数 125B，每 token 仅激活 6B，训练成本仅为 Qwen3.7-Plus 的 1/9，性能全面超越后者。生产版 API 定价 $0.16/1M 输入 tokens 和 $0.47/1M 输出 tokens，原生上下文 262K，",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "X：通义千问 / Qwen (@Alibaba_Qwen)",
-        "url": "https://x.com/Alibaba_Qwen/status/2092636376990990503"
-      },
-      {
-        "name": "腾讯混元将端侧翻译模型 Hy-MT2-1.8B 压缩至 440MB，已落地哔哩哔哩直播弹幕翻译",
-        "provider": "公众号：腾讯混元",
-        "type": "AI 项目/工具",
-        "bestFor": "腾讯混元将端侧翻译模型 Hy-MT2-1.8B 通过 2-bit 与 1.25-bit 量化方案压缩至 574MB 和 440MB，翻译质量几乎无损，在 FLORES-200 上优于 Microsoft Translator 等商业 API。该模型已联合英特尔完成 x86 适配，并在哔哩哔哩直播弹幕实时翻译中落地，单条",
-        "description": "腾讯混元将端侧翻译模型 Hy-MT2-1.8B 通过 2-bit 与 1.25-bit 量化方案压缩至 574MB 和 440MB，翻译质量几乎无损，在 FLORES-200 上优于 Microsoft Translator 等商业 API。该模型已联合英特尔完成 x86 适配，并在哔哩哔哩直播弹幕实时翻译中落地，单条弹幕翻译耗时 500~800ms。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "公众号：腾讯混元",
-        "url": "https://mp.weixin.qq.com/s?__biz=MzkwODU2OTQyNQ%3D%3D&mid=2247498367&idx=1&sn=f1a5cf87eb06015cbe995bd5ef8b5d0a"
-      },
-      {
-        "name": "Solana price forms bullish setup above $96 support",
-        "provider": "crypto.news",
-        "type": "AI 项目/工具",
-        "bestFor": "Solana price traded near $97.50 on Aug. 26 after gaining about 14% over seven days, as improving risk appetite, short liquidations, ETF inflows, and network dev",
-        "description": "Solana price traded near $97.50 on Aug. 26 after gaining about 14% over seven days, as improving risk appetite, short liquidations, ETF inflows, and network developments pushed SOL",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "crypto.news",
-        "url": "https://crypto.news/solana-price-forms-bullish-setup-above-96-support/"
-      },
-      {
-        "name": "Qwen3.8-Flash-Next 开源：Qwen4 架构早期预览",
-        "provider": "Qwen：Blog Retrieval（API）",
-        "type": "AI 项目/工具",
-        "bestFor": "通义千问开源 Qwen3.8-Flash-Next，一款多模态 MoE 模型，也是 Qwen4 架构的早期预览。该模型采用 GDN + QSA 混合注意力等四项升级，总参数 125B，每 token 激活 6B，训练成本约为 Qwen3.7-Plus 的 1/9，编码与办公任务能力更强。",
-        "description": "通义千问开源 Qwen3.8-Flash-Next，一款多模态 MoE 模型，也是 Qwen4 架构的早期预览。该模型采用 GDN + QSA 混合注意力等四项升级，总参数 125B，每 token 激活 6B，训练成本约为 Qwen3.7-Plus 的 1/9，编码与办公任务能力更强。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Qwen：Blog Retrieval（API）",
-        "url": "https://qwen.ai/blog?id=qwen3.8-flash-next"
-      },
-      {
-        "name": "AI learns from failed experiments to find recipes for new ma",
-        "provider": "Nanowerk",
-        "type": "AI 项目/工具",
-        "bestFor": "An AI platform turns literature into synthesis recipes, learns from failed experiments and finds successful conditions for previously unreported materials.\n\n(Na",
-        "description": "An AI platform turns literature into synthesis recipes, learns from failed experiments and finds successful conditions for previously unreported materials.\n\n(Nanowerk News) A resea",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Nanowerk",
-        "url": "https://www.nanowerk.com/news2/robotics/newsid=70100.php"
       }
     ],
     "ai-business": [
+      {
+        "name": "Prediction: This Investment Could Crush the Market Over the ",
+        "provider": "Yahoo! Finance",
+        "type": "AI 项目/工具",
+        "bestFor": "Where will the markets be in 20 years? It is hard to make even educated guesses, given how rapidly the artificial intelligence (AI) computing revolution is chan",
+        "description": "Where will the markets be in 20 years? It is hard to make even educated guesses, given how rapidly the artificial intelligence (AI) computing revolution is changing how so many org",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Yahoo! Finance",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/prediction-investment-could-crush-market-120500023.html"
+      },
       {
         "name": "Sony, Warner Chappell Sue Anthropic Over Copyright Claims - ",
         "provider": "BW Businessworld",
@@ -7444,17 +7455,6 @@ window.AI_GENERATED_DATA = {
         "watch": "在与阿里巴巴的合作中，可能面临API调用限制和配额问题，影响服务的稳定性。",
         "sourceName": "The Telegraph",
         "url": "https://www.telegraphindia.com/business/apple-trains-its-own-ai-model-for-china-market-with-alibabas-support-report/cid/2174943"
-      },
-      {
-        "name": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI.",
-        "description": "OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · OpenAI Blog",
-        "url": "https://openai.com/index/dali-rajic-chief-revenue-officer"
       }
     ],
     "ai-benchmark": [
@@ -10503,7 +10503,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-08-30",
-    "generatedAt": "2026-08-30T10:17:38.024857Z",
+    "generatedAt": "2026-08-30T12:44:20.567725Z",
     "total": 23,
     "sections": [
       {
