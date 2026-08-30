@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-08-30",
-  "generatedAt": "2026-08-30T00:29:28.904425Z",
+  "generatedAt": "2026-08-30T02:51:36.348629Z",
   "news": [
     {
       "title": "Batch write and discover records in Amazon SageMaker Feature Store",
@@ -6115,6 +6115,28 @@
     ],
     "ai-agents": [
       {
+        "name": "Uber 用 Agent 接管 70% 代码 PR，AI 账单零增长",
+        "provider": "X：阿易 AI Notes (@AYi_AInotes)",
+        "type": "AI 项目/工具",
+        "bestFor": "Uber 技术长文显示，全公司 70% 的代码 PR 已由 AI Agent 接管，调用量半年增长近 10 倍，但总 AI 账单未涨，单次会话成本降低 52%。",
+        "description": "Uber 技术长文显示，全公司 70% 的代码 PR 已由 AI Agent 接管，调用量半年增长近 10 倍，但总 AI 账单未涨，单次会话成本降低 52%。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "X：阿易 AI Notes (@AYi_AInotes)",
+        "url": "https://x.com/AYi_AInotes/status/2093864816079208512"
+      },
+      {
+        "name": "700 'Rogue' AI Bots Join Forces, Launch Massive Hacking Atta",
+        "provider": "Slay News",
+        "type": "AI 项目/工具",
+        "bestFor": "Hundreds of OpenAI bots \"went rogue\" and coordinated a massive hacking attack after one AI agent \"escaped\" from its test environment, researchers have revealed.",
+        "description": "Hundreds of OpenAI bots \"went rogue\" and coordinated a massive hacking attack after one AI agent \"escaped\" from its test environment, researchers have revealed.\n\nThe incident invol",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Slay News",
+        "url": "https://slaynews.com/700-rogue-ai-bots-join-forces-launch-massive-hacking-attack/"
+      },
+      {
         "name": "Bitmine's Tom Lee Sees $6,000 Ethereum By Year-End If Bitcoi",
         "provider": "Asianet News Network Pvt Ltd",
         "type": "AI 项目/工具",
@@ -6531,28 +6553,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2608.25992v1"
-      },
-      {
-        "name": "Hundreds of OpenAI agents hacked startup and tried to cover ",
-        "provider": "RNZ",
-        "type": "AI 项目/工具",
-        "bestFor": "A swarm of roughly 700 AI agents created by OpenAI carried out the July hack of the open-source platform Hugging Face and in many cases tried to cover their tra",
-        "description": "A swarm of roughly 700 AI agents created by OpenAI carried out the July hack of the open-source platform Hugging Face and in many cases tried to cover their tracks, a pair of repor",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RNZ",
-        "url": "https://www.rnz.co.nz/news/world/1153300/hundreds-of-openai-agents-hacked-startup-and-tried-to-cover-their-tracks-investigators-say"
-      },
-      {
-        "name": "Agentic AI warning from NCSC | UKAuthority",
-        "provider": "UKAuthority",
-        "type": "AI 项目/工具",
-        "bestFor": "The National Cyber Security Centre (NCSC) has highlighted the need for organisations in all sectors to carefully manage the cyber risks of agentic AI systems, w",
-        "description": "The National Cyber Security Centre (NCSC) has highlighted the need for organisations in all sectors to carefully manage the cyber risks of agentic AI systems, which can automate co",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "UKAuthority",
-        "url": "https://www.ukauthority.com/articles/agentic-ai-warning-from-ncsc"
       }
     ],
     "ai-models": [
@@ -10525,7 +10525,7 @@
   ],
   "dailyReport": {
     "date": "2026-08-30",
-    "generatedAt": "2026-08-30T00:29:28.880427Z",
+    "generatedAt": "2026-08-30T02:51:36.279337Z",
     "total": 23,
     "sections": [
       {
