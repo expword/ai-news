@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-08-30",
-  "generatedAt": "2026-08-30T06:32:24.685017Z",
+  "generatedAt": "2026-08-30T10:17:38.047826Z",
   "news": [
     {
       "title": "Batch write and discover records in Amazon SageMaker Feature Store",
@@ -6993,6 +6993,28 @@
     ],
     "ai-business": [
       {
+        "name": "Sony, Warner Chappell Sue Anthropic Over Copyright Claims - ",
+        "provider": "BW Businessworld",
+        "type": "AI 项目/工具",
+        "bestFor": "Sony Music Publishing and Warner Chappell Music have sued Anthropic, alleging the AI firm illegally scraped, torrented and downloaded thousands of copyrighted m",
+        "description": "Sony Music Publishing and Warner Chappell Music have sued Anthropic, alleging the AI firm illegally scraped, torrented and downloaded thousands of copyrighted musical works to trai",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "BW Businessworld",
+        "url": "https://www.businessworld.in/article/sony-warner-chappell-sue-anthropic-over-copyright-claims-621425"
+      },
+      {
+        "name": "How AI can make Nigeria's 2027 election harder to manipulate",
+        "provider": "Businessday NG",
+        "type": "AI 项目/工具",
+        "bestFor": "As Nigeria prepares for the 2027 elections, artificial intelligence is emerging as a tool for real-time election monitoring and verification. During the Osun go",
+        "description": "As Nigeria prepares for the 2027 elections, artificial intelligence is emerging as a tool for real-time election monitoring and verification. During the Osun governorship election,",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Businessday NG",
+        "url": "https://businessday.ng/life/article/how-ai-can-make-nigerias-2027-election-harder-to-manipulate-mundx/"
+      },
+      {
         "name": "Sony Music, Warner Chappell Sue Anthropic Over Copyright Cla",
         "provider": "Benzinga",
         "type": "AI 项目/工具",
@@ -7433,38 +7455,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · OpenAI Blog",
         "url": "https://openai.com/index/dali-rajic-chief-revenue-officer"
-      },
-      {
-        "name": "AICC 平台展示企业可低于每月 50 美元部署 AI 客服代理",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "这一发现将对中小企业产生深远影响，使其能够以更低的成本获得高效的客户服务解决方案。企业在决策时将更加倾向于采用 AI 技术，从而提升客户满意度和忠诚度。此外，随着越来越多的企业部署 AI 客服代理，整个行业的服务标准可能会提升，促使传统客服行业进行转型和升级。",
-        "description": "新加坡 AICC 平台发布研究结果，表明企业通过其网络的多模型路由技术，可以以每月低于 50 美元的成本部署生产就绪的 AI 客服代理。这一发现为中小企业提供了可负担的 AI 解决方案，可能会改变客户服务行业的格局。",
-        "useCases": [
-          "部署 AI 客服代理以降低客户服务成本，提升响应速度和准确性。",
-          "利用多模型路由技术优化客服资源配置，提高客户满意度。",
-          "为中小企业提供可负担的 AI 解决方案，增强市场竞争力。"
-        ],
-        "watch": "API 价格波动可能影响企业的长期成本预算，需谨慎评估。",
-        "sourceName": "NewsData.io:Claude AI",
-        "url": "https://www.openpr.com/news/4602592/aicc-platform-demonstrates-businesses-can-deploy-ai-customer"
-      },
-      {
-        "name": "谷歌的 Gemini AI 助手用户突破十亿",
-        "provider": "Free Malaysia Today",
-        "type": "AI 项目/工具",
-        "bestFor": "谷歌的 Gemini AI 助手用户激增将进一步推动其在搜索、Gmail、Google Maps 和 YouTube 等产品中的 AI 整合，可能会改变用户的使用习惯和决策方式。随着用户基础的扩大，谷歌将能够更有效地收集数据并优化其 AI 产品，提升用户体验。同时，市场竞争的加剧可能促使谷歌加快新产品的发布，以保持其市",
-        "description": "谷歌的人工智能助手 Gemini 月活跃用户已超过十亿，成为其增长最快的产品。这一里程碑在谷歌 AI 部门重大重组后宣布，显示出其在竞争激烈的市场中的优势。尽管面临技术滞后，谷歌依然依靠其庞大的用户基础整合 AI 应用。",
-        "useCases": [
-          "集成 Gemini AI 助手于企业内部工具，提升工作效率。",
-          "利用 Gemini 进行数据分析，快速生成报告。",
-          "在 Google Maps 中使用 Gemini 提供个性化导航建议。",
-          "通过 Gmail 的 Gemini 功能，自动整理和回复邮件。",
-          "在 YouTube 上利用 Gemini 生成视频内容的脚本。"
-        ],
-        "watch": "Gemini 可能面临 API 使用费用上涨的风险，影响开发者的使用意愿。",
-        "sourceName": "Free Malaysia Today",
-        "url": "https://www.freemalaysiatoday.com/category/business/2026/08/12/google-s-gemini-ai-assistant-reaches-one-billion-users"
       }
     ],
     "ai-benchmark": [
@@ -10513,7 +10503,7 @@
   ],
   "dailyReport": {
     "date": "2026-08-30",
-    "generatedAt": "2026-08-30T06:32:24.661051Z",
+    "generatedAt": "2026-08-30T10:17:38.024857Z",
     "total": 23,
     "sections": [
       {
