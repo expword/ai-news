@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-30",
-  "generatedAt": "2026-08-30T15:19:24.533543Z",
+  "lastUpdated": "2026-08-31",
+  "generatedAt": "2026-08-30T16:33:05.855490Z",
   "news": [
     {
       "title": "Batch write and discover records in Amazon SageMaker Feature Store",
@@ -10502,8 +10502,8 @@
     }
   ],
   "dailyReport": {
-    "date": "2026-08-30",
-    "generatedAt": "2026-08-30T15:19:24.509533Z",
+    "date": "2026-08-31",
+    "generatedAt": "2026-08-30T16:33:05.831522Z",
     "total": 23,
     "sections": [
       {
@@ -10798,6 +10798,302 @@
     ]
   },
   "dailyReports": [
+    {
+      "date": "2026-08-30",
+      "generatedAt": "2026-08-30T16:00:29.846631Z",
+      "total": 23,
+      "sections": [
+        {
+          "category": "ai-coding",
+          "label": "AI 编程",
+          "items": [
+            {
+              "title": "Batch write and discover records in Amazon SageMaker Feature Store",
+              "summary": "Amazon SageMaker Feature Store now supports two new APIs: BatchWriteRecord writes up to 25 records across multiple feature groups in a singl",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/batch-write-and-discover-records-in-amazon-sagemaker-feature-store/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-29",
+              "publishedAt": "2026-08-29T03:31",
+              "reason": ""
+            },
+            {
+              "title": "GLM-5.3 vs. GLM-5.3 Flash on DeepSWE: Cost, Coding, and Routing",
+              "summary": "We ran 900 DeepSWE rollouts on GLM-5.3 and GLM-5.3 Flash. Flash gives up 5.6 points of pass@1 at 17x lower cost, and only 2.6 points at pass",
+              "source": "RSS · Together AI",
+              "url": "https://www.together.ai/blog/glm-5-3-vs-glm-5-3-flash-on-deepswe-cost-coding-and-routing",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-28",
+              "publishedAt": "2026-08-28T08:00",
+              "reason": ""
+            },
+            {
+              "title": "Agent Seer: Synthesizing Scenarios from Specification Understanding",
+              "summary": "Evaluating AI agents that use external tools requires realistic test scenarios that capture how practitioners compose tools and iterate acro",
+              "source": "RSS · Apple ML Research",
+              "url": "https://machinelearning.apple.com/research/agent-seer-synthesizing-scenarios",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-28",
+              "publishedAt": "2026-08-28T08:00",
+              "reason": ""
+            },
+            {
+              "title": "From Static to Dynamic: Benchmarking Real-World Code Review with MCR-Bench",
+              "summary": "In real-world software development, code review typically involves iterative interactions between developers and reviewers to improve softwa",
+              "source": "arXiv",
+              "url": "http://arxiv.org/abs/2608.27442v1",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-27",
+              "publishedAt": "",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-image-video",
+          "label": "图像视频",
+          "items": [
+            {
+              "title": "Retrieval Heads Meet Vision: Uncovering How VLMs Locate and Extract Visual Information",
+              "summary": "Vision-language models (VLMs) can locate an image region referred to by a text prompt and route the corresponding visual evidence to the out",
+              "source": "arXiv",
+              "url": "http://arxiv.org/abs/2608.27417v1",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-27",
+              "publishedAt": "",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-agents",
+          "label": "Agent / MCP",
+          "items": [
+            {
+              "title": "Build agentic creative workflows with Amazon Quick and fal",
+              "summary": "Creative teams produce more assets than ever, but fragmented tools and manual context transfer slow production. This post shows how to build",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/build-agentic-creative-workflows-with-amazon-quick-and-fal/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-28",
+              "publishedAt": "2026-08-28T07:04",
+              "reason": ""
+            },
+            {
+              "title": "SPA: Securing Persistent LLM Agents Across Queries with Plan-First Information-Flow Control",
+              "summary": "Large language model (LLM) agents increasingly operate over untrusted webpages, documents, tools, and persistent states while exercising aut",
+              "source": "arXiv",
+              "url": "http://arxiv.org/abs/2608.27234v1",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-27",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "Persona-Execution Separation: An Architecture Pattern for Evolving LLM Agents under Execution Audit",
+              "summary": "Large language model (LLM) agents in governed organizations must let the persona (instructions, tone, self-presentation) evolve freely, whil",
+              "source": "arXiv",
+              "url": "http://arxiv.org/abs/2608.27427v1",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-27",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "INTENT-AS-A-TOOL Makes it Easy to Track Agentic Misalignment",
+              "summary": "As large language models (LLMs) are deployed as autonomous agents, safety failures increasingly involve consequential actions. We study agen",
+              "source": "arXiv",
+              "url": "http://arxiv.org/abs/2608.27348v1",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-27",
+              "publishedAt": "",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-models",
+          "label": "模型发布",
+          "items": [
+            {
+              "title": "Anthropic 让 Claude 自主训练模型以缓解对齐失败",
+              "summary": "Anthropic 让 Claude 自主训练模型，缓解欺骗、谄媚等 10 类对齐失败，均显著缩小与完美表现的安全差距且不损害通用能力，方法在比优化对象大 4.7 倍的模型上依然有效。Claude 还超越 28 名人类安全研究员，其欺骗场景最佳方法比人类最佳方案好 20%。",
+              "source": "Anthropic：Research（发表成果 · 网页）",
+              "url": "https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-29",
+              "publishedAt": "2026-08-29T01:25",
+              "reason": ""
+            },
+            {
+              "title": "How Decathlon runs demand forecasting at scale with Chronos-2",
+              "summary": "Decathlon, one of the world's largest sporting goods retailers, forecasts weekly demand for tens of thousands of products across multiple co",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/how-decathlon-runs-demand-forecasting-at-scale-with-chronos-2/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-29",
+              "publishedAt": "2026-08-29T00:22",
+              "reason": ""
+            },
+            {
+              "title": "Spreading the load: How Salesforce met Multi-AZ HA with SageMaker Inference Components",
+              "summary": "Learn how Salesforce used Amazon SageMaker AI Inference Component placement (the SchedulingConfig parameter) to distribute model copies acro",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/spreading-the-load-how-salesforce-met-multi-az-ha-with-sagemaker-inference-components/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-29",
+              "publishedAt": "2026-08-29T00:20",
+              "reason": ""
+            },
+            {
+              "title": "LLMs Are Not (Consistently) Bayesian: Quantifying Internal (In)consistencies of LLMs’ Probabilistic Beliefs",
+              "summary": "Modern AI systems are being deployed in complex domains such as medicine, science, and law, where there is often not a single correct answer",
+              "source": "RSS · Apple ML Research",
+              "url": "https://machinelearning.apple.com/research/llms-not-consistently-bayesian",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-28",
+              "publishedAt": "2026-08-28T08:00",
+              "reason": ""
+            },
+            {
+              "title": "Supporting Thailand’s next generation of AI startups",
+              "summary": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into tru",
+              "source": "RSS · OpenAI Blog",
+              "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-28",
+              "publishedAt": "2026-08-28T10:00",
+              "reason": ""
+            },
+            {
+              "title": "Introducing OpenAI models on Amazon Bedrock for in-country inferencing in India",
+              "summary": "Amazon Bedrock now supports the OpenAI GPT-5.6 models, Terra and Luna, in India with India geographic cross-Region inference. If you have lo",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/introducing-openai-models-on-amazon-bedrock-for-in-country-inferencing-in-india/",
+              "score": 70,
+              "sourceCount": 2,
+              "date": "2026-08-28",
+              "publishedAt": "2026-08-28T02:36",
+              "reason": ""
+            },
+            {
+              "title": "Planetary prediction engine: Automating global models via Earth AI",
+              "summary": "Earth AI",
+              "source": "RSS · Google Research",
+              "url": "https://research.google/blog/planetary-prediction-engine-automating-global-models-via-earth-ai/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-28",
+              "publishedAt": "2026-08-28T01:37",
+              "reason": ""
+            },
+            {
+              "title": "3 new ways to plan and book travel in Search",
+              "summary": "Book hotels and track airfares, plus view miles and rewards with AI Mode in Google Search.",
+              "source": "RSS · Google AI Blog",
+              "url": "https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-28",
+              "publishedAt": "2026-08-28T00:00",
+              "reason": ""
+            },
+            {
+              "title": "Reduce ASR inference costs by 75% with NVIDIA MPS on Amazon EC2",
+              "summary": "Serving automatic speech recognition (ASR) models at scale is costly when each request uses only a fraction of a GPU. Learn how NVIDIA CUDA ",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/reduce-asr-inference-costs-by-75-with-nvidia-mps-on-amazon-ec2/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-28",
+              "publishedAt": "2026-08-28T00:05",
+              "reason": ""
+            },
+            {
+              "title": "Deepgram deepens Amazon SageMaker AI observability with Enhanced Metrics",
+              "summary": "Self-hosted speech AI carries an observability trade-off: the numbers that drive capacity planning and cost management stay locked inside th",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/deepgram-deepens-amazon-sagemaker-ai-observability-with-enhanced-metrics/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-28",
+              "publishedAt": "2026-08-28T00:11",
+              "reason": ""
+            },
+            {
+              "title": "Gemini Omni 1.1 Flash lets you build with more control",
+              "summary": "",
+              "source": "RSS · Google DeepMind",
+              "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
+              "score": 70,
+              "sourceCount": 2,
+              "date": "2026-08-28",
+              "publishedAt": "2026-08-28T00:11",
+              "reason": ""
+            },
+            {
+              "title": "Sophistication in GenAI Use: Field Evidence from a Large Firm",
+              "summary": "We study how sophistication in generative AI (genAI) use varies among the back-office workforce of a large firm. Using proprietary data, we ",
+              "source": "arXiv",
+              "url": "http://arxiv.org/abs/2608.27364v1",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-27",
+              "publishedAt": "",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-benchmark",
+          "label": "评测榜单",
+          "items": [
+            {
+              "title": "BrailleBench: Investigating Multi-Criteria Braille Comprehension in Large Language Models",
+              "summary": "Although Large language models (LLMs) mediate access to knowledge and computational assistance, their capabilities should benefit vulnerable",
+              "source": "arXiv",
+              "url": "http://arxiv.org/abs/2608.27268v1",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-27",
+              "publishedAt": "",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-research",
+          "label": "论文研究",
+          "items": [
+            {
+              "title": "EduRiskX: A Neuro-Symbolic Framework with F-Logic Reasoning for Early Academic Risk Prediction",
+              "summary": "arXiv:2608.26107v1 Announce Type: new Abstract: Predicting students' academic risk in online education is crucial for enabling timely interv",
+              "source": "RSS · arXiv cs.AI",
+              "url": "https://arxiv.org/abs/2608.26107",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-28",
+              "publishedAt": "",
+              "reason": ""
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-29",
       "generatedAt": "2026-08-29T16:16:18.464135Z",
@@ -21997,301 +22293,10 @@
           ]
         }
       ]
-    },
-    {
-      "date": "2026-06-26",
-      "generatedAt": "2026-06-26T16:20:13.603321Z",
-      "total": 22,
-      "sections": [
-        {
-          "category": "ai-tools",
-          "label": "AI 工具",
-          "items": [
-            {
-              "title": "谷歌金融发布新应用，全面升级投资管理体验",
-              "summary": "谷歌金融正式推出新版本，包含全新安卓应用，旨在帮助用户更好地跟踪投资组合和市场动态。新功能包括全球投资组合管理、个性化市场更新等，提升了用户的投资决策能力。",
-              "source": "RSS · Google AI Blog",
-              "url": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026/",
-              "score": 78,
-              "sourceCount": 1,
-              "date": "2026-06-26",
-              "publishedAt": "2026-06-26T00:00",
-              "reason": "谷歌金融的新版本通过全面升级和新应用的推出，为用户提供了更高效的投资管理工具，值得关注。"
-            },
-            {
-              "title": "Codex 正式上线 ChatGPT 移动应用",
-              "summary": "我注意到 OpenAI 最近宣布，Codex 现在在 ChatGPT 移动应用中正式可用。这个更新不仅增强了手机与电脑之间的安全连接，还新增了通知、目标、侧边聊天、文件预览和内联审阅评论等功能。用户可以通过移动应用启动新工作、审查输出并引导执行，而 Codex 仍在后台运行，确保",
-              "source": "X：OpenAI Developers (@OpenAIDevs)",
-              "url": "https://x.com/OpenAIDevs/status/2070254532911882707",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-06-26",
-              "publishedAt": "2026-06-26T05:15",
-              "reason": "这条更新值得关注，因为它不仅提升了移动端的功能性，还增强了用户的安全性和工作效率，适应了现代开发者的需求。"
-            },
-            {
-              "title": "Codex 成为 OpenAI 主力 AI，内部输出占比达 99.8%",
-              "summary": "OpenAI 最新发布的内部论文显示，Codex 已迅速成为公司主要的 AI 工具，内部输出 tokens 的占比从一年前的不足 10% 增至 99.8%。这一变化不仅限于工程部门，法务、财务、招聘等多个部门的使用量也显著增长。自 8 月 25 日以来，个人用户的使用量增长了 1",
-              "source": "X：Rohan Paul (@rohanpaul_ai)",
-              "url": "https://x.com/rohanpaul_ai/status/2070221621676441642",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-06-26",
-              "publishedAt": "2026-06-26T03:04",
-              "reason": "这条信息揭示了 Codex 在 OpenAI 内部的广泛应用及其对工作方式的深远影响，值得关注。"
-            },
-            {
-              "title": "Google Finance 新版 Android 应用上线，投资组合功能强大",
-              "summary": "我注意到，Google Finance 最近推出了全新的 Android 应用，并同步上线了全球投资组合跟踪功能。用户可以通过截图、CSV/PDF 上传或文字描述来创建自己的投资组合，并利用 AI 研究工具提问有关资产配置和固定收益的相关问题。此外，新增的市场情报简报功能可以自动",
-              "source": "Google Blog：AI（RSS）",
-              "url": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-06-26",
-              "publishedAt": "2026-06-26T00:00",
-              "reason": "这款应用结合了 AI 技术与投资组合管理，极大提升了用户的投资决策能力，值得关注。"
-            },
-            {
-              "title": "小互开源个人IP配图工具，包含31个原创角色",
-              "summary": "小互推出的开源个人IP配图工具\"小互IP Studio\"，集成31个原创角色（15个手绘线稿角色和16个谐音梗meme形象），并提供一套配图方法论。该工具支持自动读取文章、规划配图类型（如情绪图、示意图、四格漫画），并具备自查返工功能。用户只需安装Python3，便可使用Clau",
-              "source": "X：小互 (@xiaohu)",
-              "url": "https://x.com/xiaohu/status/2070317717811540149",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-06-26",
-              "publishedAt": "2026-06-26T09:26",
-              "reason": "小互IP Studio通过开源方式提供丰富的角色设计和自动化配图功能，极大地提升了内容创作的效率和灵活性，值得关注。"
-            },
-            {
-              "title": "Claude Code 新增六种实用 Hook 玩法",
-              "summary": "Claude Code 近期内置了近30个 Hook 事件，较年初的13个有显著提升。这些 Hook 本质上是固定的规则脚本，运行时不消耗 token。六种实用玩法包括权限弹窗提醒、开机日程播报、上下文预压缩自动生成摘要卡片、结合 Skill 整理下载文件夹、久坐提醒以及通过 B",
-              "source": "公众号：数字生命卡兹克",
-              "url": "https://mp.weixin.qq.com/s/LVj2foSXi_hBRKxjuYaUyw",
-              "score": 58,
-              "sourceCount": 1,
-              "date": "2026-06-26",
-              "publishedAt": "2026-06-26T10:02",
-              "reason": "Claude Code 的新 Hook 玩法为用户提供了更高效的任务管理方式，值得关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-coding",
-          "label": "AI 编程",
-          "items": [
-            {
-              "title": "Claude Code v2.1.193 更新内容概述",
-              "summary": "Claude Code v2.1.193 版本引入了多个新功能和修复，包括自动模式分类所有 Bash/PowerShell 命令、实时文件路径自动补全等。这些改进旨在提升用户体验，但也存在一些潜在的局限性和使用风险。",
-              "source": "Claude Code：GitHub Releases（RSS）",
-              "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.193",
-              "score": 59,
-              "sourceCount": 1,
-              "date": "2026-06-26",
-              "publishedAt": "2026-06-26T05:45",
-              "reason": "此次更新引入了多项实用功能，尤其适合需要处理命令行的开发者，值得关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-image-video",
-          "label": "图像视频",
-          "items": [
-            {
-              "title": "Midjourney V8.2 预览与草稿模式加速",
-              "summary": "我注意到 Midjourney 最近推出了两个重要更新。首先，用户可以通过添加 `--preview` 参数提前体验 V8.2 的美学和个性化效果。其次，V8.1 中推出的大批量草稿模式现在支持与 `--sref random` 一起使用，使得探索风格空间的速度提升了 24 倍，",
-              "source": "X：Midjourney (@midjourney)",
-              "url": "https://x.com/midjourney/status/2070223272072065228",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-06-26",
-              "publishedAt": "2026-06-26T03:11",
-              "reason": "这次 Midjourney 的更新不仅提升了用户体验，还显著提高了创作效率，值得关注。"
-            },
-            {
-              "title": "Midjourney V8.1 草稿模式新增随机风格功能",
-              "summary": "Midjourney V8.1 的草稿模式引入了随机风格功能，用户只需在提示词中添加 `--sref random`，即可生成 24 张风格各异的图片。草稿模式可通过点击提示栏的 ⚡ 图标或添加 `--draft` 参数开启。这一更新虽然提升了创作的灵活性，但也存在一定的局限性。",
-              "source": "Midjourney：Updates（RSS）",
-              "url": "https://updates.midjourney.com/random-styles-in-draft-mode",
-              "score": 59,
-              "sourceCount": 1,
-              "date": "2026-06-26",
-              "publishedAt": "2026-06-26T02:50",
-              "reason": "这一更新为用户提供了更灵活的创作方式，尤其适合需要快速生成多样化内容的场景，值得关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-agents",
-          "label": "Agent / MCP",
-          "items": [
-            {
-              "title": "Runway推出Agent 2.0，提升营销效率",
-              "summary": "Runway最新发布的Agent 2.0为营销人员提供了一种高效的广告、视频及营销活动创建、测试和优化工具。该工具支持品牌营销人员在对话中开发活动概念，生成多种变体并自动本地化，同时帮助绩效营销人员分析广告数据，生成待测广告。社交媒体营销人员可快速生成一周的内容，并自动调整格式，",
-              "source": "Runway：News（网页）",
-              "url": "https://runwayml.com/news/introducing-agent-2",
-              "score": 67,
-              "sourceCount": 1,
-              "date": "2026-06-26",
-              "publishedAt": "2026-06-26T02:41",
-              "reason": "Agent 2.0通过智能化的广告优化和内容生成，显著提升了营销效率，是营销人员不可或缺的工具。"
-            },
-            {
-              "title": "General Intuition 完成 3.2 亿美元融资，利用游戏数据训练 AI",
-              "summary": "General Intuition 以 23 亿美元估值完成 3.2 亿美元融资，累计融资达 4.54 亿美元。公司利用旗下游戏剪辑平台 Medal 收集的数亿小时游戏数据，训练出能够在虚拟环境和现实世界中自我探索的 AI 模型。尽管技术展示令人印象深刻，但在实际应用中仍面临诸多",
-              "source": "TechCrunch：AI（RSS）",
-              "url": "https://techcrunch.com/2026/06/25/from-fortnite-to-robots-general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world",
-              "score": 59,
-              "sourceCount": 1,
-              "date": "2026-06-26",
-              "publishedAt": "2026-06-26T00:00",
-              "reason": "General Intuition 的融资和技术进展展示了游戏数据在 AI 训练中的潜力，值得关注其未来在实际应用中的表现。"
-            }
-          ]
-        },
-        {
-          "category": "ai-models",
-          "label": "模型发布",
-          "items": [
-            {
-              "title": "一条命令在 HF Jobs 上运行 vLLM 服务器",
-              "summary": "这次发布的核心点是，用户可以通过一条命令在 Hugging Face 的基础设施上快速启动一个兼容 OpenAI 的 LLM 端点，无需配置服务器或 Kubernetes，按秒计费。这种方式适合测试、评估或批量生成模型，极大地简化了流程。",
-              "source": "RSS · Hugging Face Blog",
-              "url": "https://huggingface.co/blog/vllm-jobs",
-              "score": 79,
-              "sourceCount": 1,
-              "date": "2026-06-26",
-              "publishedAt": "2026-06-26T08:00",
-              "reason": "这一服务的简化流程和灵活计费模式，使得更多用户能够轻松接触和使用大型语言模型，值得关注。"
-            },
-            {
-              "title": "IBM 发布全球首款亚纳米级芯片技术，性能与能效显著提升",
-              "summary": "IBM 于 2026 年 6 月 25 日推出全球首款亚纳米级芯片技术，采用 0.7 nm 芯片节点，集成近 1000 亿个晶体管，密度是 2021 年 2 nm 芯片的两倍。该芯片性能提升最高可达 50%，能效提升最高可达 70%。新技术在 VLSI 2026 会议上得到验证，",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
-              "score": 69,
-              "sourceCount": 1,
-              "date": "2026-06-26",
-              "publishedAt": "2026-06-26T02:52",
-              "reason": "IBM 的亚纳米级芯片技术不仅在性能和能效上实现了重大突破，还为未来的计算需求奠定了基础，值得关注。"
-            },
-            {
-              "title": "OLMo Hybrid模型在实义词预测上优于Transformer",
-              "summary": "最新实验表明，OLMo Hybrid混合模型在预测名词、动词和形容词等实义词时表现优于传统的Transformer模型，损失差距约为0.04，而在功能词上差距较小，仅为0.02。然而，在处理重复短语时，混合模型的优势几乎消失，Transformer在此类任务中更具优势。",
-              "source": "Hugging Face：Blog（RSS）",
-              "url": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-06-26",
-              "publishedAt": "2026-06-26T00:11",
-              "reason": "这项研究揭示了混合模型在特定任务中的优势，值得关注其在自然语言处理领域的应用潜力。"
-            },
-            {
-              "title": "小鹏汽车 CEO 何小鹏：2026 年底自动驾驶将合法进入全球",
-              "summary": "小鹏汽车 CEO 何小鹏在微博上透露，VLA 2.0 正在全球推广，并且联合国 WP29 会议批准了两项重要法规，预计到 2026 年底，自动驾驶将合法进入全球市场。这一进展将加速 L4 级 Robotaxi 的落地，未来小鹏汽车将在海外市场支持中英文混合语音对话。",
-              "source": "IT之家（RSS）",
-              "url": "https://www.ithome.com/0/968/894.htm",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-06-26",
-              "publishedAt": "2026-06-26T13:40",
-              "reason": "这条信息揭示了小鹏汽车在全球自动驾驶法规方面的重要进展，值得关注。"
-            },
-            {
-              "title": "美国政府要求OpenAI推迟GPT-5.6发布",
-              "summary": "因安全顾虑，美国政府要求OpenAI推迟GPT-5.6的广泛发布，改为推出受控预览版。OpenAI将向小部分合作伙伴提供早期访问，并由政府逐一审批准入。这一措施主要是由于对模型在高技能网络工作中的自动化能力的担忧。",
-              "source": "X：Rohan Paul (@rohanpaul_ai)",
-              "url": "https://x.com/rohanpaul_ai/status/2070252433109049466",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-06-26",
-              "publishedAt": "2026-06-26T05:06",
-              "reason": "此事件反映了政府对AI技术安全性的高度关注，值得关注其对行业的深远影响。"
-            },
-            {
-              "title": "主流AI聊天机器人政治立场偏左，反觉醒模型亦难逃此局",
-              "summary": "华盛顿邮报的调查显示，主流AI聊天机器人在政治问题上普遍偏向左派，即使是被标榜为保守派的模型也未能例外。OpenAI的GPT-5.5和DeepSeek V4 Pro在80%和70%的回答中仅呈现左派论据，而Google的Gemini 3.1 Pro则是个例外，93%的回答同时呈现",
-              "source": "The Decoder：AI News（RSS）",
-              "url": "https://the-decoder.com/most-major-ai-chatbots-still-lean-left-on-political-questions-even-anti-woke-models-are-no-exception",
-              "score": 63,
-              "sourceCount": 1,
-              "date": "2026-06-26",
-              "publishedAt": "2026-06-26T00:04",
-              "reason": "这篇文章揭示了主流AI聊天机器人在政治倾向上的普遍偏见，值得关注和思考。"
-            },
-            {
-              "title": "近400家美国报纸起诉微软与OpenAI侵犯版权",
-              "summary": "近400家美国报纸的出版商联盟向纽约南区联邦法院起诉微软和OpenAI，指控其未经授权抓取新闻内容用于训练AI模型，侵犯版权并违反《数字千年版权法》。原告称AI产品为被告创造数十亿美元价值，但出版商未获任何收益，警告此举可能对地方新闻业造成严重影响。",
-              "source": "IT之家（RSS）",
-              "url": "https://www.ithome.com/0/968/872.htm",
-              "score": 61,
-              "sourceCount": 1,
-              "date": "2026-06-26",
-              "publishedAt": "2026-06-26T12:37",
-              "reason": "此事件揭示了AI技术与传统内容创作之间的紧张关系，值得关注其对行业未来的深远影响。"
-            }
-          ]
-        },
-        {
-          "category": "ai-research",
-          "label": "论文研究",
-          "items": [
-            {
-              "title": "研究团队利用生成因果测试揭示大脑语言反应机制",
-              "summary": "微软研究院与多所大学合作，推出生成因果测试（GCT），将黑箱模型转化为可验证的假设，揭示特定大脑区域对语言的反应。该方法通过生成短语并在fMRI扫描中验证其准确性，推动了语言神经科学的可解释性进展。",
-              "source": "RSS · Microsoft Research",
-              "url": "https://www.microsoft.com/en-us/research/blog/understanding-the-brain-with-ai-driven-explanations-and-experiments/",
-              "score": 82,
-              "sourceCount": 1,
-              "date": "2026-06-26",
-              "publishedAt": "2026-06-26T00:00",
-              "reason": "GCT的推出为理解大脑语言反应提供了新的视角，具有重要的科学价值和应用潜力。"
-            },
-            {
-              "title": "赫库兰尼姆古卷PHerc.1667首次完整虚拟解读",
-              "summary": "研究团队成功利用高分辨率X射线显微断层扫描和机器学习技术，首次在未物理展开的情况下完整解读了赫库兰尼姆古卷PHerc.1667。该卷为斯多葛哲学论著，提及克里西普斯的侄子Aristocreon，标志着古代文献研究的新突破。",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://scrollprize.org/firstscroll",
-              "score": 69,
-              "sourceCount": 1,
-              "date": "2026-06-26",
-              "publishedAt": "2026-06-26T02:03",
-              "reason": "该研究展示了现代技术在古代文献解读中的应用潜力，具有重要的学术价值和技术创新意义。"
-            },
-            {
-              "title": "Anthropic Economic Index 报告揭示 Claude 使用节奏",
-              "summary": "Anthropic 发布的 Economic Index 报告显示，Claude 的使用模式在工作日和周末存在显著差异。工作日个人对话占比约 35%，而周末则接近 50%。高薪职业在工作日外的使用频率更高，且用户对 AI 承担更多任务的预期乐观，尤其在薪资和工作安全方面。",
-              "source": "Anthropic：Research（发表成果 · 网页）",
-              "url": "https://www.anthropic.com/research/economic-index-june-2026-report",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-06-26",
-              "publishedAt": "2026-06-26T23:18",
-              "reason": "这份报告提供了对 Claude 使用模式的深入分析，揭示了用户行为的变化及其对未来工作的潜在影响，值得关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-business",
-          "label": "行业商业",
-          "items": [
-            {
-              "title": "AI经济年化收入超1750亿美元，增长速度惊人",
-              "summary": "我注意到，最近发布的《AI经济现状》报告显示，过去12个月内，实际AI营收达1100亿美元，年化运行率超过1750亿美元，增速是移动和互联网普及的三倍。企业AI已逐步脱离试点阶段，但全面推广仍处于早期阶段。报告还指出，31%的标普500公司在财报中提及AI，需求价格弹性强，Tok",
-              "source": "X：Rohan Paul (@rohanpaul_ai)",
-              "url": "https://x.com/rohanpaul_ai/status/2070288396644491317",
-              "score": 67,
-              "sourceCount": 1,
-              "date": "2026-06-26",
-              "publishedAt": "2026-06-26T07:29",
-              "reason": "这份报告提供了对AI经济的全面分析，揭示了市场的快速变化和企业面临的挑战，非常值得关注。"
-            }
-          ]
-        }
-      ]
     }
   ],
   "llmLeaderboard": {
-    "updated": "2026-08-30",
+    "updated": "2026-08-31",
     "source": "ReLE 中文大模型能力评测（综合能力）",
     "sourceUrl": "https://github.com/jeinlee1991/chinese-llm-benchmark",
     "items": [
