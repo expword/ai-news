@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-08-30",
-  "generatedAt": "2026-08-29T16:16:18.281150Z",
+  "generatedAt": "2026-08-30T00:29:28.904425Z",
   "news": [
     {
       "title": "Batch write and discover records in Amazon SageMaker Feature Store",
@@ -6557,6 +6557,28 @@
     ],
     "ai-models": [
       {
+        "name": "Anthropic Sued By Sony Music, Warner Chappell Music, Other M",
+        "provider": "Tekedia",
+        "type": "AI 项目/工具",
+        "bestFor": "Anthropic has been sued by Sony Music Publishing, Warner Chappell Music and other major music publishers, which accuse the artificial intelligence company of il",
+        "description": "Anthropic has been sued by Sony Music Publishing, Warner Chappell Music and other major music publishers, which accuse the artificial intelligence company of illegally obtaining an",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Tekedia",
+        "url": "https://www.tekedia.com/anthropic-sued-by-sony-music-warner-chappell-music-other-music-publishers-over-alleged-mass-piracy-of-copyrighted-songs/"
+      },
+      {
+        "name": "'Robbing you of your thinking': Teacher warns AI is hurting ",
+        "provider": "NZ Herald",
+        "type": "AI 项目/工具",
+        "bestFor": "\"Now what's happening is, you type in a question, and it literally scans millions of articles, and gives you the answer - it does all the thinking for you.\n\n\"It",
+        "description": "\"Now what's happening is, you type in a question, and it literally scans millions of articles, and gives you the answer - it does all the thinking for you.\n\n\"It's taking all the co",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NZ Herald",
+        "url": "https://www.nzherald.co.nz/northern-advocate/news/ai-in-schools-whangarei-teacher-warns-of-harm-to-students-critical-thinking/premium/JSMZCNHEJVFU5NJRQOY5WHHHGQ/"
+      },
+      {
         "name": "Hormuz Shipping Remains Subdued Despite Apparent Reopening",
         "provider": "RocketNews | Top News Stories From Around the Globe",
         "type": "AI 项目/工具",
@@ -6973,28 +6995,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Nanowerk",
         "url": "https://www.nanowerk.com/news2/robotics/newsid=70100.php"
-      },
-      {
-        "name": "ChatGPT can now do things on your behalf without seeing your",
-        "provider": "Mashable SEA",
-        "type": "AI 项目/工具",
-        "bestFor": "ChatGPT can now check your insurance, cancel flights, or reschedule deliveries for you, all seemingly without seeing your login details.\n\nAnnounced by OpenAI on",
-        "description": "ChatGPT can now check your insurance, cancel flights, or reschedule deliveries for you, all seemingly without seeing your login details.\n\nAnnounced by OpenAI on X, the AI assistant",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Mashable SEA",
-        "url": "https://sea.mashable.com/tech/54145/chatgpt-can-now-do-things-on-your-behalf-without-seeing-your-login-details"
-      },
-      {
-        "name": "Looking for Signs of Jimothy With the Pixel 11 Pro XL Camera",
-        "provider": "CNET",
-        "type": "AI 项目/工具",
-        "bestFor": "Jeff Carlson writes about mobile technology at CNET, from cellular phone plans to devices and emerging technology.\n\nMy editor had an inspired idea: Take the new",
-        "description": "Jeff Carlson writes about mobile technology at CNET, from cellular phone plans to devices and emerging technology.\n\nMy editor had an inspired idea: Take the new Pixel 11 Pro XL int",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "CNET",
-        "url": "https://www.cnet.com/tech/mobile/looking-for-signs-of-jimothy-with-the-pixel-11-pro-xl-cameras/"
       }
     ],
     "ai-business": [
@@ -10525,7 +10525,7 @@
   ],
   "dailyReport": {
     "date": "2026-08-30",
-    "generatedAt": "2026-08-29T16:16:18.255125Z",
+    "generatedAt": "2026-08-30T00:29:28.880427Z",
     "total": 23,
     "sections": [
       {
