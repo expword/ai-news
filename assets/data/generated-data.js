@@ -1,7 +1,35 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-01",
-  "generatedAt": "2026-08-31T20:41:29.880695Z",
+  "generatedAt": "2026-08-31T23:00:59.279562Z",
   "news": [
+    {
+      "title": "Connect an AgentCore Runtime hosted MCP server to Amazon Quick",
+      "summary": "In this post, you will learn how to deploy and host your MCP server in AgentCore Runtime and integrate it with Amazon Quick, along with the prerequisites. With this pattern, you pr",
+      "category": "ai-agents",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-01",
+      "publishedAt": "2026-09-01T06:47",
+      "collectedAt": "2026-09-01T07:00",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/connect-an-agentcore-runtime-hosted-mcp-server-to-amazon-quick/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "AWS recognized as a Leader in The Forrester Wave: AI Infrastructure Solutions, Q4 2025",
       "summary": "We're excited to share that AWS has been recognized as a Leader in The Forrester Wave: AI Infrastructure Solutions, Q4 2025. In this evaluation of 13 providers, AWS received the hi",
@@ -131,6 +159,33 @@ window.AI_GENERATED_DATA = {
       "sourceDate": "",
       "tags": [],
       "url": "https://www.microsoft.com/en-us/research/blog/gigapath-flash-and-gigatime-flash-toward-population-scale-discovery-with-efficient-pathology-foundation-models/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Aug 31, 2026 Improving our alignment and security efforts",
+      "summary": "Aug 31, 2026 Improving our alignment and security efforts",
+      "category": "ai-models",
+      "source": "HTML · Anthropic",
+      "date": "2026-08-31",
+      "publishedAt": "",
+      "collectedAt": "2026-09-01T07:00",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-31",
+      "tags": [],
+      "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -2720,33 +2775,6 @@ window.AI_GENERATED_DATA = {
       "moduleTargets": [
         "news",
         "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "RENDER: Controlling Reader-Facing Evidence in LLM Memory Evaluation",
-      "summary": "arXiv:2608.23568v1 Announce Type: new Abstract: Memory and RAG evaluations often treat the answering model's input as an implementation detail, even though systems may render the s",
-      "category": "ai-benchmark",
-      "source": "RSS · arXiv cs.AI",
-      "date": "2026-08-26",
-      "publishedAt": "",
-      "collectedAt": "2026-08-26T15:32",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-26",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2608.23568",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
       ],
       "sourceCount": 1
     }
@@ -6333,6 +6361,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "Connect an AgentCore Runtime hosted MCP server to Amazon Qui",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "In this post, you will learn how to deploy and host your MCP server in AgentCore Runtime and integrate it with Amazon Quick, along with the prerequisites. With ",
+        "description": "In this post, you will learn how to deploy and host your MCP server in AgentCore Runtime and integrate it with Amazon Quick, along with the prerequisites. With this pattern, you pr",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/connect-an-agentcore-runtime-hosted-mcp-server-to-amazon-quick/"
+      },
+      {
         "name": "Build observable enterprise agentic retrieval using Managed ",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -6760,17 +6799,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Medium",
         "url": "https://ai.plainenglish.io/why-agentic-ai-represents-the-next-evolution-of-intelligent-software-937c09788be1"
-      },
-      {
-        "name": "Agent Seer: Synthesizing Scenarios from Specification Unders",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Evaluating AI agents that use external tools requires realistic test scenarios that capture how practitioners compose tools and iterate across conversation turn",
-        "description": "Evaluating AI agents that use external tools requires realistic test scenarios that capture how practitioners compose tools and iterate across conversation turns. Constructing such",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · Apple ML Research",
-        "url": "https://machinelearning.apple.com/research/agent-seer-synthesizing-scenarios"
       }
     ],
     "ai-models": [
@@ -10693,8 +10721,8 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-01",
-    "generatedAt": "2026-08-31T20:41:29.850125Z",
-    "total": 19,
+    "generatedAt": "2026-08-31T23:00:59.255561Z",
+    "total": 21,
     "sections": [
       {
         "category": "ai-coding",
@@ -10751,6 +10779,17 @@ window.AI_GENERATED_DATA = {
         "label": "Agent / MCP",
         "items": [
           {
+            "title": "Connect an AgentCore Runtime hosted MCP server to Amazon Quick",
+            "summary": "In this post, you will learn how to deploy and host your MCP server in AgentCore Runtime and integrate it with Amazon Quick, along with the ",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/connect-an-agentcore-runtime-hosted-mcp-server-to-amazon-quick/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-01",
+            "publishedAt": "2026-09-01T06:47",
+            "reason": ""
+          },
+          {
             "title": "Build observable enterprise agentic retrieval using Managed Amazon Bedrock Knowledge Base with AWS CloudFormation",
             "summary": "This post builds an enterprise agentic retrieval solution on the Amazon Bedrock Managed Knowledge Base and Amazon Bedrock AgentCore. An agen",
             "source": "RSS · AWS Machine Learning",
@@ -10798,6 +10837,17 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-09-01",
             "publishedAt": "2026-09-01T01:19",
+            "reason": ""
+          },
+          {
+            "title": "Aug 31, 2026 Improving our alignment and security efforts",
+            "summary": "Aug 31, 2026 Improving our alignment and security efforts",
+            "source": "HTML · Anthropic",
+            "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-31",
+            "publishedAt": "",
             "reason": ""
           },
           {
