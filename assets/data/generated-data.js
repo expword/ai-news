@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-08-31",
-  "generatedAt": "2026-08-31T08:21:07.091241Z",
+  "generatedAt": "2026-08-31T10:54:18.189801Z",
   "news": [
     {
       "title": "Accelerating LLM Inference via Vector Index Based Output Embeddings",
@@ -6112,6 +6112,72 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "Meta (META) Stock: How Internal AI Rebellion Stopped Zuckerb",
+        "provider": "Blockonomi",
+        "type": "AI 项目/工具",
+        "bestFor": "* Meta planned \"Project OT\" to slash workforce by potentially 60% in certain divisions, substituting human workers with artificial intelligence agents\n\n* CEO Ma",
+        "description": "* Meta planned \"Project OT\" to slash workforce by potentially 60% in certain divisions, substituting human workers with artificial intelligence agents\n\n* CEO Mark Zuckerberg revers",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Blockonomi",
+        "url": "https://blockonomi.com/meta-meta-stock-how-internal-ai-rebellion-stopped-zuckerbergs-mass-layoff-plan/"
+      },
+      {
+        "name": "AI Agent Analyst Engineer - South Africa - Paarl",
+        "provider": "Bizcommunity.com",
+        "type": "AI 项目/工具",
+        "bestFor": "Are you passionate about Data, Artificial Intelligence, and intelligent automation? We're looking for a talented Data and AI Agent Analyst Engineer to join a fo",
+        "description": "Are you passionate about Data, Artificial Intelligence, and intelligent automation? We're looking for a talented Data and AI Agent Analyst Engineer to join a forward-thinking techn",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Bizcommunity.com",
+        "url": "https://www.bizcommunity.com/job/paarl/development/ai-agent-analyst-engineer-187240a"
+      },
+      {
+        "name": "OpenClaw 2.0 Explained: How Its New AI Agents Can Automate Y",
+        "provider": "Gizbot",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenClaw 2.0 is here, bringing a major overhaul to the open-source AI agent platform. The new version focuses on making AI agents easier to install, manage, sha",
+        "description": "OpenClaw 2.0 is here, bringing a major overhaul to the open-source AI agent platform. The new version focuses on making AI agents easier to install, manage, share and use for every",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Gizbot",
+        "url": "https://www.gizbot.com/artificial-intelligence/openclaw-2-explained-how-its-new-ai-agents-can-automate-your-work-128221.html"
+      },
+      {
+        "name": "Delinea Brings Runtime Control for AI Agents to GISEC Global",
+        "provider": "mid-east.info",
+        "type": "AI 项目/工具",
+        "bestFor": "Channel-led presence with Shifra and Defa3 underscores Delinea's focus on empowering regional partners to help customers govern AI actions, not just AI access\n\n",
+        "description": "Channel-led presence with Shifra and Defa3 underscores Delinea's focus on empowering regional partners to help customers govern AI actions, not just AI access\n\nDubai, United Arab E",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "mid-east.info",
+        "url": "https://mid-east.info/delinea-brings-runtime-control-for-ai-agents-to-gisec-global-2026/"
+      },
+      {
+        "name": "AI Agents, Zero-Click Attacks: The Next Cybersecurity Threat",
+        "provider": "Analytics Insight",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenAI has termed this growing issue \"social engineering,\" in which external content attempts to trick an agent into performing an action that is not in the use",
+        "description": "OpenAI has termed this growing issue \"social engineering,\" in which external content attempts to trick an agent into performing an action that is not in the user's instructions.\n\nT",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Analytics Insight",
+        "url": "https://www.analyticsinsight.net/artificial-intelligence/ai-agents-zero-click-attacks-the-next-cybersecurity-threat"
+      },
+      {
+        "name": "Tom Lee Says Tokenization and AI Agent Finance Will Drive Cr",
+        "provider": "CryptoPanic",
+        "type": "AI 项目/工具",
+        "bestFor": "Bitmine Chairman Tom Lee said in an interview with Milk Road Show that asset tokenization and AI agent finance will become the most important narratives in the ",
+        "description": "Bitmine Chairman Tom Lee said in an interview with Milk Road Show that asset tokenization and AI agent finance will become the most important narratives in the crypto market over t",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "CryptoPanic",
+        "url": "https://cryptopanic.com/news/33303040/Tom-Lee-Says-Tokenization-and-AI-Agent-Finance-Will-Drive-Crypto-Over-Next-5-Years"
+      },
+      {
         "name": "Huawei Launches Agentic AI Cloud in Nigeria to Accelerate AI",
         "provider": "TechAfrica News",
         "type": "AI 项目/工具",
@@ -6484,75 +6550,42 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:AI agent",
         "url": "https://www.computerworld.com/article/4214479/metas-plans-to-replace-workers-with-ai-fell-flat-report-says.html"
-      },
-      {
-        "name": "China open-source AI usage hits record high as DeepSeek lead",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "China's open-weight AI models have surged in usage and have now overtaken proprietary models for the first time. South China Morning Post (SCMP), citing data fr",
-        "description": "China's open-weight AI models have surged in usage and have now overtaken proprietary models for the first time. South China Morning Post (SCMP), citing data from US web developmen",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.digitimes.com/news/a20260827PD201/deepseek-data-openai-development-cybersecurity.html"
-      },
-      {
-        "name": "Frontier dreams stall as labs turn to hosting Chinese models",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Are AI firms pivoting to cloud providers? Not quite, but many are finding ways to monetize their idle GPUs",
-        "description": "Are AI firms pivoting to cloud providers? Not quite, but many are finding ways to monetize their idle GPUs",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.techinasia.com/ai-labs-switching-training-inference"
-      },
-      {
-        "name": "Meta’s plans to replace workers with AI fell flat, report sa",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Earlier this year, Meta, one of the industry’s loudest AI advocates, was ready to slash up to 60% of the members of some teams and replace them with AI, as part",
-        "description": "Earlier this year, Meta, one of the industry’s loudest AI advocates, was ready to slash up to 60% of the members of some teams and replace them with AI, as part of what it called P",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.cio.com/article/4214515/metas-plans-to-replace-workers-with-ai-fell-flat-report-says-2.html"
-      },
-      {
-        "name": "'OH MY GOD! We've found other agents!': Investigators discov",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "An OpenAI security test took an alarming turn when AI agents escaped their controlled environment and began coordinating with one another. An investigation has ",
-        "description": "An OpenAI security test took an alarming turn when AI agents escaped their controlled environment and began coordinating with one another. An investigation has now revealed just ho",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.wionews.com/world/oh-my-god-we-ve-found-other-agents-investigators-discover-not-one-or-two-almost-700-openai-ai-agents-went-rogue-hacked-hugging-face-1787793202974"
-      },
-      {
-        "name": "Nearly 700 AI agents coordinated Hugging Face attack, says r",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "The agents, powered by ChatGPT tech, organised through a forum to exchange ideas and report what worked and what did not.",
-        "description": "The agents, powered by ChatGPT tech, organised through a forum to exchange ideas and report what worked and what did not.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.freemalaysiatoday.com/category/business/2026/08/27/nearly-700-ai-agents-coordinated-hugging-face-attack-says-report"
-      },
-      {
-        "name": "Nvidia gave its first-ever year-ahead forecast—a 70% growth ",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Nvidia jolted investors on Wednesday with a projection that its revenue would skyrocket by 70% next fiscal year and said demand for its AI chips is growing at 1",
-        "description": "Nvidia jolted investors on Wednesday with a projection that its revenue would skyrocket by 70% next fiscal year and said demand for its AI chips is growing at 100%, prompting an af",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://newspub.live/finance/nvidia-gave-its-first-ever-year-ahead-forecast-a-70-growth-bombshell-meant-to-silence-ai-bubble-critics-and-circular-financing-doomsayers-fortune/"
       }
     ],
     "ai-models": [
+      {
+        "name": "Sports Direct's Ashley attacks Burnham over 'populist' High ",
+        "provider": "RocketNews | Top News Stories From Around the Globe",
+        "type": "AI 项目/工具",
+        "bestFor": "Sports Direct founder Mike Ashley has written to Prime Minister Andy Burnham expressing strong disagreement with the government's approach to retail policy and ",
+        "description": "Sports Direct founder Mike Ashley has written to Prime Minister Andy Burnham expressing strong disagreement with the government's approach to retail policy and the cost of living c",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RocketNews | Top News Stories From Around the Globe",
+        "url": "https://rocketnews.com/2026/08/sports-directs-ashley-attacks-burnham-over-populist-high-street-revival-plans-2/"
+      },
+      {
+        "name": "Somerset cider makers left with very few apples after heatwa",
+        "provider": "RocketNews | Top News Stories From Around the Globe",
+        "type": "AI 项目/工具",
+        "bestFor": "Somerset's cider industry faces a significant production crisis following an extended drought that has severely impacted apple crops across the region. Multiple",
+        "description": "Somerset's cider industry faces a significant production crisis following an extended drought that has severely impacted apple crops across the region. Multiple producers reported ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RocketNews | Top News Stories From Around the Globe",
+        "url": "https://rocketnews.com/2026/08/somerset-cider-makers-left-with-very-few-apples-after-heatwaves/"
+      },
+      {
+        "name": "Arjun Wadwalkar on the Hidden AI Layer Payments Companies Ne",
+        "provider": "Daily News and Analysis (DNA) India",
+        "type": "AI 项目/工具",
+        "bestFor": "Hardly any modern commerce platform is a single application. A restaurant or a stadium concourse might run a point-of-sale system, a payment gateway, an online-",
+        "description": "Hardly any modern commerce platform is a single application. A restaurant or a stadium concourse might run a point-of-sale system, a payment gateway, an online-ordering platform, k",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Daily News and Analysis (DNA) India",
+        "url": "https://www.dnaindia.com/insights/report-arjun-wadwalkar-on-the-hidden-ai-layer-payments-companies-need-to-build-3219543"
+      },
       {
         "name": "India-Uzbekistan relations elevated to comprehensive strateg",
         "provider": "Swarajyamag",
@@ -6959,42 +6992,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "PCMag Australia",
         "url": "https://au.pcmag.com/ai/119558/pentagons-anthropic-blacklisting-ruled-illegal-by-us-judge"
-      },
-      {
-        "name": "Wall Street Breakfast Podcast: Marvell Beats, Street Shrugs ",
-        "provider": "Seeking Alpha",
-        "type": "AI 项目/工具",
-        "bestFor": "A federal judge strikes down the Pentagon's supply chain risk label against Anthropic as unlawful.\n\nDownload this episode on Apple Podcasts/Spotify or listen be",
-        "description": "A federal judge strikes down the Pentagon's supply chain risk label against Anthropic as unlawful.\n\nDownload this episode on Apple Podcasts/Spotify or listen below:\n\nMarvell's (MRV",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Seeking Alpha",
-        "url": "https://seekingalpha.com/article/4941158-wall-street-breakfast-podcast-marvell-beats-street-shrugs"
-      },
-      {
-        "name": "\"It Is Fucked Up What Is Happening\": Signal's Whittaker on A",
-        "provider": "Trending Topics",
-        "type": "AI 项目/工具",
-        "bestFor": "Meredith Whittaker, president of the messaging app Signal, delivered an unusually blunt assessment of the relationship between privacy and artificial intelligen",
-        "description": "Meredith Whittaker, president of the messaging app Signal, delivered an unusually blunt assessment of the relationship between privacy and artificial intelligence at the TechBBQ co",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Trending Topics",
-        "url": "https://www.trendingtopics.eu/signal-whittaker-ai-operating-system/"
-      },
-      {
-        "name": "How Species-Identification Apps Shape People's Nature-Observ",
-        "provider": "Scienmag",
-        "type": "AI 项目/工具",
-        "bestFor": "Species-Identification Apps Can Bring People Closer to Nature -- or Pull Them Away\n\nA smartphone camera pointed at a flower, insect or bird can now summon a sho",
-        "description": "Species-Identification Apps Can Bring People Closer to Nature -- or Pull Them Away\n\nA smartphone camera pointed at a flower, insect or bird can now summon a shortlist of possible s",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Scienmag: Latest Science and Health News",
-        "url": "https://scienmag.com/how-species-identification-apps-shape-peoples-nature-observation-experiences/"
       }
     ],
     "ai-business": [
+      {
+        "name": "Business groups urge Swinney to scrap 'ineffective' food pri",
+        "provider": "RocketNews | Top News Stories From Around the Globe",
+        "type": "AI 项目/工具",
+        "bestFor": "Business organizations across Scotland's retail, food production, manufacturing, and distribution sectors have collectively appealed to First Minister John Swin",
+        "description": "Business organizations across Scotland's retail, food production, manufacturing, and distribution sectors have collectively appealed to First Minister John Swinney to abandon his g",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RocketNews | Top News Stories From Around the Globe",
+        "url": "https://rocketnews.com/2026/08/business-groups-urge-swinney-to-scrap-ineffective-food-price-cap-plan/"
+      },
       {
         "name": "Tesla Just Killed Its Solar Roof After Years of Struggling t",
         "provider": "Yahoo! Finance",
@@ -7435,26 +7446,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "CNBC",
         "url": "https://www.cnbc.com/2026/08/14/5-things-to-know-before-the-market-opens.html"
-      },
-      {
-        "name": "DeepSeek 正式发布 V4 Pro 模型，扩展业务布局",
-        "provider": "BusinessWorld",
-        "type": "AI 项目/工具",
-        "bestFor": "DeepSeek 的 V4 Pro 模型发布将吸引大量开发者和企业用户，尤其是在需要高性能 AI 解决方案的领域。随着 API 定价的调整，可能会影响开发者的决策，促使他们重新评估使用 DeepSeek 产品的成本效益。此外，DeepSeek 的融资计划可能会推动更多投资流入 AI 行业，进一步加剧市场竞争。整体来看，",
-        "description": "中国人工智能初创公司 DeepSeek 于周四正式推出 V4 Pro 模型，旨在对抗迅速崛起的国内竞争对手，并扩大招聘、计算能力和融资力度。V4-Pro-0813 显著提升了智能体能力，并通过 API、APP 和 Web 渠道提供。此发布备受关注，因为 DeepSeek 的 V4 Flash 模型在多项独立测试中意外超越了 V4 Pro 的预览版本，显示出技术的快速进步。",
-        "useCases": [
-          "利用 V4 Pro 模型进行复杂数据分析，提升决策效率。",
-          "通过 API 接入 V4 Pro，开发智能客服系统，改善用户体验。",
-          "在电商平台上应用 V4 Pro 模型，优化推荐算法，提高转化率。",
-          "使用 V4 Pro 进行自然语言处理，提升文本生成质量。",
-          "在科研项目中应用 V4 Pro，进行大规模数据处理和分析。"
-        ],
-        "watch": "API 价格上涨可能导致开发者成本增加，影响使用意愿。",
-        "sourceName": "BusinessWorld",
-        "url": "https://bworldonline.com/technology/2026/08/14/770309/deepseek-releases-official-v4-pro-model-as-it-steps-up-expansion/"
       }
     ],
     "ai-benchmark": [
+      {
+        "name": "GCSA Agent Achieves 91.3% on CyberGym, Ranking Among the Wor",
+        "provider": "BeInCrypto",
+        "type": "AI 项目/工具",
+        "bestFor": "GCSA Agent demonstrates autonomous vulnerability analysis and PoC generation capabilities on a highly challenging real-world vulnerability benchmark\n\nThe Global",
+        "description": "GCSA Agent demonstrates autonomous vulnerability analysis and PoC generation capabilities on a highly challenging real-world vulnerability benchmark\n\nThe Global Cybersecurity Allia",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "BeInCrypto",
+        "url": "https://beincrypto.com/gcsa-agent-achieves-91-cybergym/"
+      },
       {
         "name": "How China is building an edge over the US in video AI",
         "provider": "South China Morning Post",
@@ -8028,21 +8033,6 @@ window.AI_GENERATED_DATA = {
         "watch": "由于未解决问题的复杂性，AI 可能无法提供有效的解决方案，导致评分不理想。",
         "sourceName": "NewsData.io:AI benchmark leaderboard",
         "url": "https://www.techtimes.com/articles/322297/20260730/princeton-gives-ai-agents-unpublished-questions-original-scientists-grade-results.htm"
-      },
-      {
-        "name": "OpenAI 两项 API 设置使 GPT-5.6 Sol 的 ARC-AGI-3 分数提升三倍",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "这一提升将直接影响到开发者和研究人员的工作方式，尤其是在需要高性能语言模型的应用场景中。通过优化 API 设置，开发者可以更有效地利用 GPT-5.6 Sol，提升其产品的智能化水平。此外，这一变化可能会促使更多企业和研究机构采用 OpenAI 的技术，从而推动整个行业的发展。随着模型性能的提升，用户在实际应用中将获得",
-        "description": "我注意到 OpenAI 最近宣布，通过调整两项 API 设置，GPT-5.6 Sol 的 ARC-AGI-3 分数实现了三倍的提升。这一变化可能会对开发者和研究人员在使用该模型时的表现产生显著影响。",
-        "useCases": [
-          "调整 API 设置以提高模型的响应速度和准确性。",
-          "在聊天机器人中集成 GPT-5.6 Sol，提升用户交互体验。",
-          "利用优化后的模型进行文本生成，满足高质量内容需求。"
-        ],
-        "watch": "API 调整可能导致使用成本上升，开发者需关注预算。",
-        "sourceName": "NewsData.io:AI benchmark leaderboard",
-        "url": "https://www.bundle.app/en/technology/openai-says-two-api-settings-tripled-gpt-56-sols-arc-agi-3-score-DAEFB5D1-055A-4A37-8367-9A1CD7EC76EC"
       }
     ],
     "ai-image-video": [
@@ -10496,7 +10486,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-08-31",
-    "generatedAt": "2026-08-31T08:21:07.067235Z",
+    "generatedAt": "2026-08-31T10:54:18.145763Z",
     "total": 13,
     "sections": [
       {
