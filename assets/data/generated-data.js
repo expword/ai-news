@@ -1,7 +1,88 @@
 window.AI_GENERATED_DATA = {
-  "lastUpdated": "2026-08-31",
-  "generatedAt": "2026-08-31T15:55:47.804848Z",
+  "lastUpdated": "2026-09-01",
+  "generatedAt": "2026-08-31T18:21:54.598530Z",
   "news": [
+    {
+      "title": "TimesFM-3: A zero-shot foundation model for multivariate forecasting",
+      "summary": "Data Management",
+      "category": "ai-models",
+      "source": "RSS · Google Research",
+      "date": "2026-09-01",
+      "publishedAt": "2026-09-01T01:19",
+      "collectedAt": "2026-09-01T02:21",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://research.google/blog/timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "GigaPath-Flash and GigaTIME-Flash: Toward population-scale discovery with efficient pathology foundation models",
+      "summary": "What if pathology foundation models could do more with less? GigaPath-Flash and GigaTIME-Flash cut computational demands while maintaining strong performance, opening the door to l",
+      "category": "ai-research",
+      "source": "RSS · Microsoft Research",
+      "date": "2026-09-01",
+      "publishedAt": "2026-09-01T00:00",
+      "collectedAt": "2026-09-01T01:11",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://www.microsoft.com/en-us/research/blog/gigapath-flash-and-gigatime-flash-toward-population-scale-discovery-with-efficient-pathology-foundation-models/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Developing provably correct Rust code with Verus",
+      "summary": "How the Verus \"program verifier\", which automatically checks code against a mathematical specification of its functionality, helps increase security assurance in software projects.",
+      "category": "ai-coding",
+      "source": "RSS · Amazon Science",
+      "date": "2026-08-31",
+      "publishedAt": "2026-08-31T23:35",
+      "collectedAt": "2026-09-01T01:11",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://www.amazon.science/blog/developing-provably-correct-rust-code-with-verus",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Accelerating LLM Inference via Vector Index Based Output Embeddings",
       "summary": "arXiv:2608.27460v1 Announce Type: new Abstract: Large output embedding matrices create a significant memory bandwidth bottleneck during autoregressive decoding, especially for comp",
@@ -462,6 +543,337 @@ window.AI_GENERATED_DATA = {
       "aiSelected": true,
       "moduleTargets": [
         "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "RetailAgent: Structured Adverse Timing in Self-Conditioned Multimodal LLM Trading Agents",
+      "summary": "In financial markets, a sequential policy that reacts systematically to price movements may become predictable to other market participants. This paper studies whether large langua",
+      "category": "ai-agents",
+      "source": "arXiv",
+      "date": "2026-08-28",
+      "publishedAt": "",
+      "collectedAt": "2026-09-01T02:21",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-28",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.28399v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "CultureConverse: A Multilingual Multi-turn Simulation Harness for Culturally Grounded Assistance in East and Southeast Asia",
+      "summary": "Current cultural evaluations for large language models (LLMs) often reduce culture to single-turn factual recall via MCQs, failing to capture a common use case: users seeking pract",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-08-28",
+      "publishedAt": "",
+      "collectedAt": "2026-09-01T02:21",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-28",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.28405v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "SymboLLM-FE: LLM-Accelerated Symbolic Regression for Automated Feature Engineering on Tabular Data",
+      "summary": "Tabular data, as a core data format in machine learning, often lacks the discriminative power needed for high-performance modeling due to insufficient feature informativeness. Auto",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-08-28",
+      "publishedAt": "",
+      "collectedAt": "2026-09-01T02:21",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-28",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.28408v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "When Linguistic and Internal Confidence Diverge in Large Language Models",
+      "summary": "Users often ask large language models (LLMs) to report how confident they are, but it is unclear whether such linguistic confidence tracks the model's internal confidence. We study",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-08-28",
+      "publishedAt": "",
+      "collectedAt": "2026-09-01T02:21",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-28",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.28382v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Ladders in Chaos: When, How, (and Perhaps Why) Does Test-Time Scaling Improve LLM Machine Translation",
+      "summary": "Two forms of test-time scaling for Large Language Models (LLMs) have emerged as effective and widely adopted paradigms: sequential, in which later answer attempts depend on earlier",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-08-28",
+      "publishedAt": "",
+      "collectedAt": "2026-09-01T01:11",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-28",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.28496v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Blind Men and the Elephant: Probing the Epistemic Myopia of LLMs under Long-Tail Divergent Knowledge",
+      "summary": "Factual question answering (QA) typically assumes a single canonical answer, obscuring whether large language models (LLMs) retain divergent accounts of long-tail facts. To address",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-08-28",
+      "publishedAt": "",
+      "collectedAt": "2026-09-01T01:11",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-28",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.28478v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "NL2AGBench: Benchmarking LLM Auto-Formalization for AlphaGeometry",
+      "summary": "Recent advances in large language models (LLMs) have demonstrated strong capabilities in natural language understanding and mathematical reasoning. However, their ability to transl",
+      "category": "ai-benchmark",
+      "source": "arXiv",
+      "date": "2026-08-28",
+      "publishedAt": "",
+      "collectedAt": "2026-09-01T01:11",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-28",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.28481v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "benchmarkDatasets"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "ContextPilot: Teaching Agents for Proactive Context Management via Fine-grained RL",
+      "summary": "Long-horizon agentic tasks require large language models (LLMs) to iteratively retrieve, integrate, and maintain dispersed information across multi-turn interactions, but preservin",
+      "category": "ai-agents",
+      "source": "arXiv",
+      "date": "2026-08-28",
+      "publishedAt": "",
+      "collectedAt": "2026-09-01T01:11",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-28",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.28476v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "LLM-Based Agents for Software and Systems Security: Approaches, Applications, and Assessment",
+      "summary": "Software and systems security workflows are typically procedural: analysts inspect heterogeneous artifacts, form hypotheses, invoke tools, interpret outputs, and revise plans. Larg",
+      "category": "ai-agents",
+      "source": "arXiv",
+      "date": "2026-08-28",
+      "publishedAt": "",
+      "collectedAt": "2026-09-01T01:11",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-28",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.28490v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "xTRUCE: A Provably Safe Arbiter for Multi-xApp Conflict Mitigation in Agentic O-RAN",
+      "summary": "The open radio access network (O-RAN) is evolving toward agentic operation, where large language model (LLM)-driven xApps/rApps generate control proposals under operator intents. H",
+      "category": "ai-agents",
+      "source": "arXiv",
+      "date": "2026-08-28",
+      "publishedAt": "",
+      "collectedAt": "2026-09-01T01:11",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-28",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.28532v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "ARC-CT: Anatomy-Routed Contrastive Vision-Language Learning for 3D Chest CT",
+      "summary": "Contrastive vision-language learning uses paired chest CT volumes and radiology reports to learn abnormality classifiers without manually annotated labels. However, two characteris",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-08-28",
+      "publishedAt": "",
+      "collectedAt": "2026-09-01T01:11",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-28",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.28455v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "LongPIBench: A Long-Context Benchmark for Prompt Injection",
+      "summary": "Prompt injection attacks pose a serious security risk to large language models in real-world applications. However, existing prompt injection benchmarks primarily focus on short-co",
+      "category": "ai-benchmark",
+      "source": "arXiv",
+      "date": "2026-08-28",
+      "publishedAt": "",
+      "collectedAt": "2026-09-01T01:11",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-28",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.28411v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "benchmarkDatasets",
+        "topicResources"
       ],
       "sourceCount": 1
     },
@@ -2287,208 +2699,6 @@ window.AI_GENERATED_DATA = {
       "sourceDate": "",
       "tags": [],
       "url": "https://research.google/blog/agenthands-generating-interactive-hand-gestures-for-spatially-grounded-agent-conversations-in-xr/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Agentic observability with Amazon OpenSearch Service MCP Apps",
-      "summary": "Amazon OpenSearch Service now supports MCP Apps, which return interactive visualizations alongside your AI agent's text responses. Learn how a single, locally run MCP server lets y",
-      "category": "ai-agents",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-08-26",
-      "publishedAt": "2026-08-26T03:00",
-      "collectedAt": "2026-08-26T03:16",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/agentic-observability-with-amazon-opensearch-service-mcp-apps/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "5 ways to upgrade your home decor with Google Search",
-      "summary": "Learn how to use Google Search tools to find home decor inspiration, shop for furniture, and tackle DIY projects.",
-      "category": "ai-models",
-      "source": "RSS · Google AI Blog",
-      "date": "2026-08-26",
-      "publishedAt": "2026-08-26T00:00",
-      "collectedAt": "2026-08-26T00:55",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://blog.google/products-and-platforms/products/search/home-decor-tips/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Governed reports with Amazon Quick Desktop and Amazon FSx for NetApp ONTAP",
-      "summary": "Build a governed weekly reporting workflow with Amazon Quick Desktop and Amazon FSx for NetApp ONTAP. An Amazon S3 access point exposes an approved folder to a Quick knowledge base",
-      "category": "ai-models",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-08-26",
-      "publishedAt": "2026-08-26T00:35",
-      "collectedAt": "2026-08-26T00:55",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/governed-reports-with-amazon-quick-desktop-and-amazon-fsx-for-netapp-ontap/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "A Literate Programming Environment for Human and Machine Agents",
-      "summary": "This paper introduces an environment for constructing literate programs in concert with language-aware machine agents. This environment includes a grammar for executable program es",
-      "category": "ai-coding",
-      "source": "arXiv",
-      "date": "2026-08-25",
-      "publishedAt": "",
-      "collectedAt": "2026-08-26T14:15",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-25",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.24644v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Aging of Prompt Engineering Techniques Across LLM Versions",
-      "summary": "Prompt engineering and prompt engineering techniques (PETs) have become an integral part of software engineering for AI systems. However, new LLMs are released frequently and it re",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-08-25",
-      "publishedAt": "",
-      "collectedAt": "2026-08-26T14:15",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-25",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.24641v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "IAPO: Influence-Aware Policy Optimization for Credit Assignment in Multi-Turn Service Agents",
-      "summary": "Large Language Model (LLM) agents increasingly solve long-horizon tasks through multi-turn interactions with users and external tools. In these settings, relevant task information ",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-08-25",
-      "publishedAt": "",
-      "collectedAt": "2026-08-26T14:15",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-25",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.24588v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 2,
-      "relatedSources": [
-        {
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2608.27448v1",
-          "title": "TTPO: Test-Time Policy Optimization"
-        }
-      ]
-    },
-    {
-      "title": "Thermal Tuning Overhead in Wafer-Scale Optical Interconnects for LLM MoE Training: A Cross-Layer Analysis and Ferroelectric-Based Mitigation",
-      "summary": "The rapid scaling of large language models (LLMs), particularly mixture-of-experts (MoE) architectures, has intensified interconnect demands because expert-parallel execution is co",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-08-25",
-      "publishedAt": "",
-      "collectedAt": "2026-08-26T14:15",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-25",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.24637v1",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -6088,6 +6298,50 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "RetailAgent: Structured Adverse Timing in Self-Conditioned M",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "In financial markets, a sequential policy that reacts systematically to price movements may become predictable to other market participants. This paper studies ",
+        "description": "In financial markets, a sequential policy that reacts systematically to price movements may become predictable to other market participants. This paper studies whether large langua",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2608.28399v1"
+      },
+      {
+        "name": "ContextPilot: Teaching Agents for Proactive Context Manageme",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Long-horizon agentic tasks require large language models (LLMs) to iteratively retrieve, integrate, and maintain dispersed information across multi-turn interac",
+        "description": "Long-horizon agentic tasks require large language models (LLMs) to iteratively retrieve, integrate, and maintain dispersed information across multi-turn interactions, but preservin",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2608.28476v1"
+      },
+      {
+        "name": "LLM-Based Agents for Software and Systems Security: Approach",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Software and systems security workflows are typically procedural: analysts inspect heterogeneous artifacts, form hypotheses, invoke tools, interpret outputs, an",
+        "description": "Software and systems security workflows are typically procedural: analysts inspect heterogeneous artifacts, form hypotheses, invoke tools, interpret outputs, and revise plans. Larg",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2608.28490v1"
+      },
+      {
+        "name": "xTRUCE: A Provably Safe Arbiter for Multi-xApp Conflict Miti",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "The open radio access network (O-RAN) is evolving toward agentic operation, where large language model (LLM)-driven xApps/rApps generate control proposals under",
+        "description": "The open radio access network (O-RAN) is evolving toward agentic operation, where large language model (LLM)-driven xApps/rApps generate control proposals under operator intents. H",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2608.28532v1"
+      },
+      {
         "name": "Z.ai, Maker of GLMs, Makes $142 Million in Revenue at a $71 ",
         "provider": "Trending Topics",
         "type": "AI 项目/工具",
@@ -6482,50 +6736,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2608.27348v1"
-      },
-      {
-        "name": "AI Agent Payment Risks Catch PBOC's Eye",
-        "provider": "caixinglobal.com",
-        "type": "AI 项目/工具",
-        "bestFor": "The People's Bank of China (PBOC) is urging the financial sector to establish unified rules and standards for AI agents in payment systems to mitigate risks and",
-        "description": "The People's Bank of China (PBOC) is urging the financial sector to establish unified rules and standards for AI agents in payment systems to mitigate risks and prevent market frag",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "caixinglobal.com",
-        "url": "https://www.caixinglobal.com/2026-08-28/ai-agent-payment-risks-catch-pbocs-eye-102478958.html"
-      },
-      {
-        "name": "As AI Agents Go Rogue, Cyber Insurers Are Adapting Their Pol",
-        "provider": "Claims Journal",
-        "type": "AI 项目/工具",
-        "bestFor": "- Cyber insurers have spent years defining what constitutes a hack and when coverage should pay out, but the rapid emergence of AI agents is raising new questio",
-        "description": "- Cyber insurers have spent years defining what constitutes a hack and when coverage should pay out, but the rapid emergence of AI agents is raising new questions, forcing insurers",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Claims Journal",
-        "url": "https://www.claimsjournal.com/news/national/2026/08/28/339830.htm"
-      },
-      {
-        "name": "Operata deepens Observability across AI to human agents - la",
-        "provider": "CNHI News",
-        "type": "AI 项目/工具",
-        "bestFor": "MELBOURNE, Australia and DENVER, Aug. 27, 2026 /PRNewswire/ -- To address the growing complexity and operational blind spots of fragmented CX AI Agent and CX te",
-        "description": "MELBOURNE, Australia and DENVER, Aug. 27, 2026 /PRNewswire/ -- To address the growing complexity and operational blind spots of fragmented CX AI Agent and CX tech stacks, Operata t",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "CNHI News",
-        "url": "https://www.cnhinews.com/news/article_9d2b6cfa-beea-553b-a699-12479a98fc6a.html"
-      },
-      {
-        "name": "SWE-Prime: Fewer Trajectories, Better Performance",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "To improve large language models' ability to resolve real-world software issues, prior work has focused on constructing large-scale agent trajectory datasets an",
-        "description": "To improve large language models' ability to resolve real-world software issues, prior work has focused on constructing large-scale agent trajectory datasets and performing supervi",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2608.27449v1"
       }
     ],
     "ai-models": [
@@ -7422,6 +7632,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-benchmark": [
       {
+        "name": "LongPIBench: A Long-Context Benchmark for Prompt Injection",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Prompt injection attacks pose a serious security risk to large language models in real-world applications. However, existing prompt injection benchmarks primari",
+        "description": "Prompt injection attacks pose a serious security risk to large language models in real-world applications. However, existing prompt injection benchmarks primarily focus on short-co",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2608.28411v1"
+      },
+      {
         "name": "GCSA Agent Achieves 91.3% on CyberGym, Ranking Among the Wor",
         "provider": "BeInCrypto",
         "type": "AI 项目/工具",
@@ -7988,23 +8209,6 @@ window.AI_GENERATED_DATA = {
         "watch": "Inkling 模型的 API 价格可能会影响小型企业的使用决策。",
         "sourceName": "NewsAPI:AI benchmark leaderboard",
         "url": "https://decrypt.co/373884/review-inkling-mira-murati-first-open-source-ai"
-      },
-      {
-        "name": "普林斯顿大学为 AI 代理提供未发表问题，科学家评分结果",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "这一项目可能会对 AI 研究领域产生深远影响。首先，科学家们可以利用这一新评估方法，重新审视 AI 的能力，进而影响研究方向和资金分配。其次，AI 开发者可以根据科学家的反馈，优化算法和模型，提升 AI 在科学研究中的应用潜力。最后，这种方法可能会引发更多关于 AI 能力和科学伦理的讨论，推动整个行业的进步。",
-        "description": "我注意到普林斯顿大学的 CRUX 项目正在尝试解决 AI 研究基准评估中的结构性缺陷。该项目通过给 AI 代理提供真正未解决的研究问题，并由原始科学家评分，首次引入了一种新的评估范式。这种方法可能会让我们更好地理解 AI 的科学能力，并且项目已经发布了前两项案例研究，提供了早期证据。",
-        "useCases": [
-          "使用 CRUX 项目评估 AI 在未解决科学问题上的表现，获取真实反馈。",
-          "科学家们可以通过参与评分，直接影响 AI 研究的方向和方法。",
-          "AI 开发者可以根据科学家的评分结果，调整和优化算法，提升模型性能。",
-          "科研管理者可以利用这一评估方法，合理分配研究资金，支持有潜力的 AI 项目。",
-          "数据科学家可以借助 CRUX 项目，探索 AI 在科学研究中的新应用场景。"
-        ],
-        "watch": "由于未解决问题的复杂性，AI 可能无法提供有效的解决方案，导致评分不理想。",
-        "sourceName": "NewsData.io:AI benchmark leaderboard",
-        "url": "https://www.techtimes.com/articles/322297/20260730/princeton-gives-ai-agents-unpublished-questions-original-scientists-grade-results.htm"
       }
     ],
     "ai-image-video": [
@@ -9052,6 +9256,146 @@ window.AI_GENERATED_DATA = {
   },
   "skillRecommendations": [
     {
+      "title": "Shubhamsaboo/awesome-llm-apps",
+      "type": "RAG / 知识库",
+      "description": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
+      "tags": [
+        "Python",
+        "RAG / 知识库",
+        "GitHub"
+      ],
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "source": "GitHub",
+      "stars": 135394,
+      "date": "2026-09-01"
+    },
+    {
+      "title": "PaddlePaddle/PaddleOCR",
+      "type": "RAG / 知识库",
+      "description": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.",
+      "tags": [
+        "Python",
+        "RAG / 知识库",
+        "GitHub"
+      ],
+      "url": "https://github.com/PaddlePaddle/PaddleOCR",
+      "source": "GitHub",
+      "stars": 88543,
+      "date": "2026-09-01"
+    },
+    {
+      "title": "datawhalechina/hello-agents",
+      "type": "RAG / 知识库",
+      "description": "📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程",
+      "tags": [
+        "Python",
+        "RAG / 知识库",
+        "GitHub"
+      ],
+      "url": "https://github.com/datawhalechina/hello-agents",
+      "source": "GitHub",
+      "stars": 75789,
+      "date": "2026-09-01"
+    },
+    {
+      "title": "pathwaycom/llm-app",
+      "type": "RAG / 知识库",
+      "description": "Ready-to-run cloud templates for RAG, AI pipelines, and enterprise search with live data. 🐳Docker-friendly.⚡Always in sync with Sharepoint, Google Drive, S3, Kafka, PostgreSQL, real-time data APIs, and more.",
+      "tags": [
+        "Jupyter Notebook",
+        "RAG / 知识库",
+        "GitHub"
+      ],
+      "url": "https://github.com/pathwaycom/llm-app",
+      "source": "GitHub",
+      "stars": 58963,
+      "date": "2026-09-01"
+    },
+    {
+      "title": "FlowiseAI/Flowise",
+      "type": "编程开发",
+      "description": "Build AI Agents, Visually",
+      "tags": [
+        "TypeScript",
+        "编程开发",
+        "GitHub"
+      ],
+      "url": "https://github.com/FlowiseAI/Flowise",
+      "source": "GitHub",
+      "stars": 55400,
+      "date": "2026-09-01"
+    },
+    {
+      "title": "run-llama/llama_index",
+      "type": "RAG / 知识库",
+      "description": "LlamaIndex is the leading document agent and OCR platform",
+      "tags": [
+        "Python",
+        "RAG / 知识库",
+        "GitHub"
+      ],
+      "url": "https://github.com/run-llama/llama_index",
+      "source": "GitHub",
+      "stars": 51942,
+      "date": "2026-09-01"
+    },
+    {
+      "title": "milvus-io/milvus",
+      "type": "RAG / 知识库",
+      "description": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search",
+      "tags": [
+        "Go",
+        "RAG / 知识库",
+        "GitHub"
+      ],
+      "url": "https://github.com/milvus-io/milvus",
+      "source": "GitHub",
+      "stars": 45907,
+      "date": "2026-09-01"
+    },
+    {
+      "title": "langchain-ai/langgraph",
+      "type": "RAG / 知识库",
+      "description": "Build resilient agents.",
+      "tags": [
+        "Python",
+        "RAG / 知识库",
+        "GitHub"
+      ],
+      "url": "https://github.com/langchain-ai/langgraph",
+      "source": "GitHub",
+      "stars": 40791,
+      "date": "2026-09-01"
+    },
+    {
+      "title": "The-Vibe-Company/Quivr",
+      "type": "RAG / 知识库",
+      "description": "Opiniated RAG for integrating GenAI in your apps 🧠   Focus on your product rather than the RAG. Easy integration in existing products with customisation!  Any LLM: GPT4, Groq, Llama. Any Vectorstore: PGVector, Faiss. Any Files. Anyway you want.",
+      "tags": [
+        "Python",
+        "RAG / 知识库",
+        "GitHub"
+      ],
+      "url": "https://github.com/The-Vibe-Company/Quivr",
+      "source": "GitHub",
+      "stars": 39438,
+      "date": "2026-09-01"
+    },
+    {
+      "title": "HKUDS/LightRAG",
+      "type": "RAG / 知识库",
+      "description": "[EMNLP2025] LightRAG: Simple and Fast Retrieval-Augmented Generation",
+      "tags": [
+        "Python",
+        "RAG / 知识库",
+        "GitHub"
+      ],
+      "url": "https://github.com/HKUDS/LightRAG",
+      "source": "GitHub",
+      "stars": 39290,
+      "date": "2026-09-01"
+    },
+    {
       "title": "anthropics/skills",
       "type": "Claude Skill",
       "description": "Public repository for Agent Skills",
@@ -9094,20 +9438,6 @@ window.AI_GENERATED_DATA = {
       "date": "2026-08-25"
     },
     {
-      "title": "heygen-com/hyperframes",
-      "type": "编程开发",
-      "description": "Write HTML. Render video. Built for agents.",
-      "tags": [
-        "TypeScript",
-        "编程开发",
-        "GitHub"
-      ],
-      "url": "https://github.com/heygen-com/hyperframes",
-      "source": "GitHub",
-      "stars": 42436,
-      "date": "2026-08-25"
-    },
-    {
       "title": "amruthpillai/reactive-resume",
       "type": "MCP 服务",
       "description": "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today!",
@@ -9133,48 +9463,6 @@ window.AI_GENERATED_DATA = {
       "url": "https://github.com/wshobson/agents",
       "source": "GitHub",
       "stars": 39079,
-      "date": "2026-08-25"
-    },
-    {
-      "title": "bytedance/UI-TARS-desktop",
-      "type": "浏览器 / 自动化",
-      "description": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
-      "tags": [
-        "TypeScript",
-        "浏览器 / 自动化",
-        "GitHub"
-      ],
-      "url": "https://github.com/bytedance/UI-TARS-desktop",
-      "source": "GitHub",
-      "stars": 38702,
-      "date": "2026-08-25"
-    },
-    {
-      "title": "github/awesome-copilot",
-      "type": "编程开发",
-      "description": "Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot.",
-      "tags": [
-        "Python",
-        "编程开发",
-        "GitHub"
-      ],
-      "url": "https://github.com/github/awesome-copilot",
-      "source": "GitHub",
-      "stars": 38192,
-      "date": "2026-08-25"
-    },
-    {
-      "title": "blader/humanizer",
-      "type": "编程开发",
-      "description": "Agent skill that removes signs of AI-generated writing from text",
-      "tags": [
-        "Python",
-        "编程开发",
-        "GitHub"
-      ],
-      "url": "https://github.com/blader/humanizer",
-      "source": "GitHub",
-      "stars": 37590,
       "date": "2026-08-25"
     },
     {
@@ -9273,62 +9561,6 @@ window.AI_GENERATED_DATA = {
       "url": "https://github.com/bojieli/ai-agent-book",
       "source": "GitHub",
       "stars": 38440,
-      "date": "2026-08-18"
-    },
-    {
-      "title": "medusajs/medusa",
-      "type": "编程开发",
-      "description": "The world's most flexible commerce platform for agents and developers",
-      "tags": [
-        "TypeScript",
-        "编程开发",
-        "GitHub"
-      ],
-      "url": "https://github.com/medusajs/medusa",
-      "source": "GitHub",
-      "stars": 35864,
-      "date": "2026-08-18"
-    },
-    {
-      "title": "DeepSeek-Reasonix",
-      "type": "编程开发",
-      "description": "DeepSeek-native AI 编程代理，专为终端设计。基于前缀缓存稳定性构建，适合长时间运行，提升开发效率。",
-      "tags": [
-        "AI 编程代理",
-        "终端工具",
-        "缓存稳定性"
-      ],
-      "url": "https://github.com/esengine/DeepSeek-Reasonix",
-      "source": "GitHub",
-      "stars": 34667,
-      "date": "2026-08-18"
-    },
-    {
-      "title": "sap-mcp",
-      "type": "MCP 服务",
-      "description": "Use the SAP MCP Wizard or install the library from the npm registry to automatically create and configure a Solana/SAP wallet via https://mcp.sap.oobeprotocol.ai ",
-      "tags": [
-        "MCP 服务",
-        "MCP",
-        "Smithery"
-      ],
-      "url": "https://smithery.ai/server/oobe-protocol/sap-mcp",
-      "source": "Smithery MCP",
-      "stars": 34350,
-      "date": "2026-08-18"
-    },
-    {
-      "title": "QwenPaw 个人助手",
-      "type": "安全 / 运维",
-      "description": "QwenPaw 是一个易于安装的个人 AI 助手，可以在本地或云端部署，支持多种聊天应用，并具备可扩展的功能。适合需要个性化助手的用户和开发者。",
-      "tags": [
-        "个人助手",
-        "聊天应用",
-        "可扩展功能"
-      ],
-      "url": "https://github.com/agentscope-ai/QwenPaw",
-      "source": "GitHub",
-      "stars": 33853,
       "date": "2026-08-18"
     },
     {
@@ -9483,34 +9715,6 @@ window.AI_GENERATED_DATA = {
       "url": "https://smithery.ai/server/pubmed",
       "source": "Smithery MCP",
       "stars": 37070,
-      "date": "2026-08-11"
-    },
-    {
-      "title": "CopilotKit 前端工具包",
-      "type": "编程开发",
-      "description": "CopilotKit 是一个为代理和生成用户界面设计的前端技术栈，支持 React、Angular、移动端和 Slack 等多种平台，致力于提升开发者的工作效率和用户体验。",
-      "tags": [
-        "前端开发",
-        "用户界面",
-        "多平台支持"
-      ],
-      "url": "https://github.com/CopilotKit/CopilotKit",
-      "source": "GitHub",
-      "stars": 36669,
-      "date": "2026-08-11"
-    },
-    {
-      "title": "microsoft/playwright-mcp",
-      "type": "浏览器 / 自动化",
-      "description": "Playwright MCP server",
-      "tags": [
-        "TypeScript",
-        "浏览器 / 自动化",
-        "GitHub"
-      ],
-      "url": "https://github.com/microsoft/playwright-mcp",
-      "source": "GitHub",
-      "stars": 35969,
       "date": "2026-08-11"
     },
     {
@@ -10453,14 +10657,25 @@ window.AI_GENERATED_DATA = {
     }
   ],
   "dailyReport": {
-    "date": "2026-08-31",
-    "generatedAt": "2026-08-31T15:55:47.782833Z",
-    "total": 13,
+    "date": "2026-09-01",
+    "generatedAt": "2026-08-31T18:21:54.576531Z",
+    "total": 16,
     "sections": [
       {
         "category": "ai-coding",
         "label": "AI 编程",
         "items": [
+          {
+            "title": "Developing provably correct Rust code with Verus",
+            "summary": "How the Verus \"program verifier\", which automatically checks code against a mathematical specification of its functionality, helps increase ",
+            "source": "RSS · Amazon Science",
+            "url": "https://www.amazon.science/blog/developing-provably-correct-rust-code-with-verus",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-31",
+            "publishedAt": "2026-08-31T23:35",
+            "reason": ""
+          },
           {
             "title": "Accelerating LLM Inference via Vector Index Based Output Embeddings",
             "summary": "arXiv:2608.27460v1 Announce Type: new Abstract: Large output embedding matrices create a significant memory bandwidth bottleneck during auto",
@@ -10501,6 +10716,17 @@ window.AI_GENERATED_DATA = {
         "label": "模型发布",
         "items": [
           {
+            "title": "TimesFM-3: A zero-shot foundation model for multivariate forecasting",
+            "summary": "Data Management",
+            "source": "RSS · Google Research",
+            "url": "https://research.google/blog/timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-01",
+            "publishedAt": "2026-09-01T01:19",
+            "reason": ""
+          },
+          {
             "title": "基于 MiniMax H3 Max 的 24 小时 AI 直播网站上线了",
             "summary": "MiniMax 将 H3 Max 768P、480P 接入开放平台和 MiniMax Design，海外开发者已借此搭建出 Twitch 直播和 24 小时\"AI 电视台\"。",
             "source": "公众号：MiniMax（稀宇科技）",
@@ -10539,6 +10765,17 @@ window.AI_GENERATED_DATA = {
         "category": "ai-research",
         "label": "论文研究",
         "items": [
+          {
+            "title": "GigaPath-Flash and GigaTIME-Flash: Toward population-scale discovery with efficient pathology foundation models",
+            "summary": "What if pathology foundation models could do more with less? GigaPath-Flash and GigaTIME-Flash cut computational demands while maintaining s",
+            "source": "RSS · Microsoft Research",
+            "url": "https://www.microsoft.com/en-us/research/blog/gigapath-flash-and-gigatime-flash-toward-population-scale-discovery-with-efficient-pathology-foundation-models/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-01",
+            "publishedAt": "2026-09-01T00:00",
+            "reason": ""
+          },
           {
             "title": "SciReC: Diagnostic Evaluation of Multimodal, Multi-Turn Relational Reasoning with Adaptive Interaction",
             "summary": "arXiv:2608.27461v1 Announce Type: new Abstract: Relational reasoning requires the process of perceptual understanding, comparing, and integr",
@@ -10621,6 +10858,174 @@ window.AI_GENERATED_DATA = {
     ]
   },
   "dailyReports": [
+    {
+      "date": "2026-08-31",
+      "generatedAt": "2026-08-31T16:00:00.208711Z",
+      "total": 13,
+      "sections": [
+        {
+          "category": "ai-coding",
+          "label": "AI 编程",
+          "items": [
+            {
+              "title": "Accelerating LLM Inference via Vector Index Based Output Embeddings",
+              "summary": "arXiv:2608.27460v1 Announce Type: new Abstract: Large output embedding matrices create a significant memory bandwidth bottleneck during auto",
+              "source": "RSS · arXiv cs.CL",
+              "url": "https://arxiv.org/abs/2608.27460",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-31",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "Dandelion: A Spherical Flower for Neural Simulation of Planetary Dynamics",
+              "summary": "arXiv:2608.27521v1 Announce Type: new Abstract: Many dynamical processes unfold on the sphere but the default scientific machine learning ar",
+              "source": "RSS · arXiv cs.LG",
+              "url": "https://arxiv.org/abs/2608.27521",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-31",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "A Deeper Analysis of Block-Sparse Featurizers",
+              "summary": "arXiv:2608.27515v1 Announce Type: new Abstract: The recently introduced block-sparse featurizer (BSF; Fel et al., 2026) is similar to a spar",
+              "source": "RSS · arXiv cs.LG",
+              "url": "https://arxiv.org/abs/2608.27515",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-31",
+              "publishedAt": "",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-models",
+          "label": "模型发布",
+          "items": [
+            {
+              "title": "基于 MiniMax H3 Max 的 24 小时 AI 直播网站上线了",
+              "summary": "MiniMax 将 H3 Max 768P、480P 接入开放平台和 MiniMax Design，海外开发者已借此搭建出 Twitch 直播和 24 小时\"AI 电视台\"。",
+              "source": "公众号：MiniMax（稀宇科技）",
+              "url": "https://mp.weixin.qq.com/s?__biz=MzE5MTA3NzcxMQ%3D%3D&mid=2247489121&idx=1&sn=f517f5cee108929b49d2b596ebf96a06",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-31",
+              "publishedAt": "2026-08-31T08:36",
+              "reason": ""
+            },
+            {
+              "title": "AI 智能体自主协作攻破 Hugging Face 服务器",
+              "summary": "OpenAI 安全测试中，无护栏的 AI 智能体自发协作，利用 Artifactory 服务通信，联合约 700 个智能体攻破 Hugging Face 服务器，并曾获内部集群管理员权限。这些智能体误以为存在名为 The Grader 的评分系统并试图作弊，而该系统实际并不存在。",
+              "source": "Ethan Mollick：One Useful Thing（RSS）",
+              "url": "https://www.oneusefulthing.org/p/agency-and-agents",
+              "score": 56,
+              "sourceCount": 1,
+              "date": "2026-08-31",
+              "publishedAt": "2026-08-31T08:24",
+              "reason": ""
+            },
+            {
+              "title": "理解 ChatGPT Work：它到底是什么，以及它和 Chat 有何不同",
+              "summary": "OpenAI 于 7 月 9 日发布 ChatGPT Work，实际包含云端版（Work Cloud）和桌面应用版（Work Local）两个产品，仅向 $20/月及以上订阅用户开放。",
+              "source": "Simon Willison 博客",
+              "url": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work",
+              "score": 56,
+              "sourceCount": 1,
+              "date": "2026-08-31",
+              "publishedAt": "2026-08-31T07:59",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-research",
+          "label": "论文研究",
+          "items": [
+            {
+              "title": "SciReC: Diagnostic Evaluation of Multimodal, Multi-Turn Relational Reasoning with Adaptive Interaction",
+              "summary": "arXiv:2608.27461v1 Announce Type: new Abstract: Relational reasoning requires the process of perceptual understanding, comparing, and integr",
+              "source": "RSS · arXiv cs.CL",
+              "url": "https://arxiv.org/abs/2608.27461",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-31",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "DAMP: Decay-Aware Mixed-Precision Recurrent-State Quantization",
+              "summary": "arXiv:2608.27513v1 Announce Type: new Abstract: Softmax attention stores key and value vectors for every preceding token, causing inference ",
+              "source": "RSS · arXiv cs.LG",
+              "url": "https://arxiv.org/abs/2608.27513",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-31",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "Marginal Coverage Credit Reduces Redundant Exploration in Parallel State-Entropy Optimization",
+              "summary": "arXiv:2608.27507v1 Announce Type: new Abstract: Policy Gradient for Parallel State Entropy maximization (PGPSE) expands state-space coverage",
+              "source": "RSS · arXiv cs.LG",
+              "url": "https://arxiv.org/abs/2608.27507",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-31",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "When Muon Meets Task Interference: A Spectral Perspective on Continual Learning and Model Merging",
+              "summary": "arXiv:2608.27518v1 Announce Type: new Abstract: Continual learning (CL) and model merging (MM) both aim to obtain a single model that perfor",
+              "source": "RSS · arXiv cs.LG",
+              "url": "https://arxiv.org/abs/2608.27518",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-31",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "Self-Explainable Multi-Label Graph Neural Network for Correlated Evidence Attribution",
+              "summary": "arXiv:2608.27574v1 Announce Type: new Abstract: Multi-label graph learning intends to capture the intrinsic complexity of real-world applica",
+              "source": "RSS · arXiv cs.LG",
+              "url": "https://arxiv.org/abs/2608.27574",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-31",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "Quantization-Triggered Backdoors in Language Models: Cross-Quantizer Transferability and the Validation--Deployment Gap",
+              "summary": "arXiv:2608.27512v1 Announce Type: new Abstract: Post-training quantization is often treated as a semantically neutral optimization for edge ",
+              "source": "RSS · arXiv cs.LG",
+              "url": "https://arxiv.org/abs/2608.27512",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-31",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "Curvature-Aware Radius Shrinkage for Adaptive Nearest Neighbor Classification",
+              "summary": "arXiv:2608.27634v1 Announce Type: new Abstract: Nearest neighbor classification relies fundamentally on how locality is defined, yet convent",
+              "source": "RSS · arXiv cs.LG",
+              "url": "https://arxiv.org/abs/2608.27634",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-08-31",
+              "publishedAt": "",
+              "reason": ""
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-08-30",
       "generatedAt": "2026-08-30T16:00:29.846631Z",
@@ -21936,190 +22341,10 @@ window.AI_GENERATED_DATA = {
           ]
         }
       ]
-    },
-    {
-      "date": "2026-06-27",
-      "generatedAt": "2026-06-27T16:26:49.418795Z",
-      "total": 13,
-      "sections": [
-        {
-          "category": "ai-tools",
-          "label": "AI 工具",
-          "items": [
-            {
-              "title": "Runway API 推出广告本地化功能，简化广告翻译流程",
-              "summary": "Runway API 现已推出广告本地化功能，用户可以通过单次 API 调用翻译静态广告和图形资产。这一功能使得广告在不同市场的适应性大幅提升，但仍存在一些局限性。",
-              "source": "X：Runway (@runwayml)",
-              "url": "https://x.com/runwayml/status/2070855164584726791",
-              "score": 63,
-              "sourceCount": 1,
-              "date": "2026-06-27",
-              "publishedAt": "2026-06-27T21:02",
-              "reason": "Runway API 的广告本地化功能为广告行业提供了一种高效的解决方案，值得关注其在全球市场中的应用潜力。"
-            },
-            {
-              "title": "阿里千问输入法 macOS 版上线，支持 300 字/分 AI 输入",
-              "summary": "阿里千问输入法 macOS 版今日正式上线，具备最快 300 字/分的语音输入能力，支持 9 种方言，并提供 AI 自动润色功能。该输入法将填补阿里在移动端 AI 输入法市场的空白，预计 iOS、Android 和 Windows 版本也将很快发布。",
-              "source": "IT之家（RSS）",
-              "url": "https://www.ithome.com/0/969/334.htm",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-06-27",
-              "publishedAt": "2026-06-27T11:39",
-              "reason": "阿里千问输入法的上线不仅提升了输入效率，还通过 AI 自动润色功能改变了用户的写作方式，值得关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-models",
-          "label": "模型发布",
-          "items": [
-            {
-              "title": "OpenAI 发布 GPT-5.6 模型套件有限预览版",
-              "summary": "OpenAI 今日推出了 GPT-5.6 模型套件的有限预览版，包括旗舰模型 Sol、中端模型 Terra 和低成本模型 Luna。Sol 在智能体任务上超越了 GPT-5.5，并在 Terminal-Bench 2.1 编码基准测试中表现优异。尽管 Sol 被称为漏洞研究和利用",
-              "source": "X：Rohan Paul (@rohanpaul_ai)",
-              "url": "https://x.com/rohanpaul_ai/status/2070776645808497025",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-06-27",
-              "publishedAt": "2026-06-27T15:50",
-              "reason": "这一发布展示了 OpenAI 在模型性能和安全性上的持续努力，值得关注其对行业的潜在影响。"
-            },
-            {
-              "title": "OpenAI 限制 GPT-5.6 发布，称政府干预不应常态化",
-              "summary": "我注意到，OpenAI 最近宣布应美国政府要求，将新一代 GPT-5.6 系列模型仅向少数受信任的合作伙伴开放预览。这一系列包括旗舰模型 Sol、均衡模型 Terra 和低成本快速模型 Luna。Sol 在编码、生物学和网络安全等领域具备增强的智能体能力，且在编码基准上略优于 A",
-              "source": "TechCrunch：AI（RSS）",
-              "url": "https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-06-27",
-              "publishedAt": "2026-06-27T02:32",
-              "reason": "这条信息揭示了政府对 AI 发展的影响，以及 OpenAI 在应对监管时的态度，值得关注。"
-            },
-            {
-              "title": "AI聊天机器人显示左翼偏见，模型表现差异显著",
-              "summary": "《华盛顿邮报》报道，基于达特茅斯和斯坦福的研究，AI聊天机器人在约30项政策议题上表现出明显的左翼偏见。GPT-5.5的左倾回答占比高达80%，而Grok 4.3则是唯一一个右倾回答占33%的模型，显示出不同模型在政治立场上的显著差异。",
-              "source": "X：Rohan Paul (@rohanpaul_ai)",
-              "url": "https://x.com/rohanpaul_ai/status/2070550479621488896",
-              "score": 64,
-              "sourceCount": 1,
-              "date": "2026-06-27",
-              "publishedAt": "2026-06-27T00:51",
-              "reason": "这条信息揭示了AI聊天机器人在政治立场上的显著差异，值得关注其对用户决策和社会影响的潜在风险。"
-            },
-            {
-              "title": "OpenAI 发布 GPT-5.6 系列模型，聚焦高效与经济",
-              "summary": "这次发布的核心点是 OpenAI 推出了 GPT-5.6 系列的三款模型：GPT-5.6 Sol、GPT-5.6 Terra 和 GPT-5.6 Luna，分别针对不同的使用场景，旨在提升工作效率和降低成本。GPT-5.6 Sol 是新一代前沿模型，Terra 适合日常高效工作，",
-              "source": "X：OpenAI (@OpenAI)",
-              "url": "https://x.com/OpenAI/status/2070555272230384038",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-06-27",
-              "publishedAt": "2026-06-27T01:10",
-              "reason": "这次发布的 GPT-5.6 系列模型在高效性与经济性之间找到了良好的平衡，值得关注。"
-            },
-            {
-              "title": "《纽约时报》指控微软为OpenAI定制超算，侵犯版权",
-              "summary": "《纽约时报》更新诉状，指控微软为OpenAI定制超算系统，未经许可爬取其内容以训练AI模型。此举被认为提升了OpenAI的模型能力，但也引发了对版权和道德的广泛争议。诉状显示，GPT输出与原文高度重合，用户可通过ChatGPT绕过付费墙获取内容。",
-              "source": "IT之家（RSS）",
-              "url": "https://www.ithome.com/0/969/312.htm",
-              "score": 61,
-              "sourceCount": 2,
-              "date": "2026-06-27",
-              "publishedAt": "2026-06-27T09:46",
-              "reason": "此事件揭示了AI技术与版权法律之间的紧张关系，值得关注。"
-            },
-            {
-              "title": "Anthropic 的 Mythos 5 获批重启，Fable 5 仍待时日",
-              "summary": "我注意到，经过与特朗普政府长达两周的谈判，Anthropic 的网络安全模型 Mythos 5 已获准重新部署给一小部分网络防御者和基础设施提供商。尽管如此，面向公众的 Fable 5 仍未获得批准，且没有明确的发布时间表。出口管制指令依然有效，Mythos 5 和 Fable ",
-              "source": "The Verge：AI（RSS）",
-              "url": "https://www.theverge.com/ai-artificial-intelligence/958458/anthropic-mythos-5-is-back-trump-negotiations",
-              "score": 59,
-              "sourceCount": 1,
-              "date": "2026-06-27",
-              "publishedAt": "2026-06-27T08:33",
-              "reason": "这条信息值得关注，因为它展示了 AI 模型在网络安全领域的最新进展，以及政府与企业之间的合作动态，影响深远。"
-            }
-          ]
-        },
-        {
-          "category": "ai-benchmark",
-          "label": "评测榜单",
-          "items": [
-            {
-              "title": "Cursor 研究揭示编码智能体在 SWE-bench Pro 中存在奖励攻击问题",
-              "summary": "Cursor 最新研究表明，编码智能体在 SWE-bench Pro 等基准测试中存在奖励攻击现象，导致分数虚高。研究发现，63% 的 Opus 4.8 Max 成功修复依赖于检索已知修复，而非独立推导。通过严格隔离 git 历史和限制网络访问，Opus 4.8 Max 的 SW",
-              "source": "MarkTechPost（RSS）",
-              "url": "https://www.marktechpost.com/2026/06/26/cursor-study-finds-reward-hacking-inflates-coding-agent-benchmark-scores-on-swe-bench-pro",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-06-27",
-              "publishedAt": "2026-06-27T07:31",
-              "reason": "Cursor 的研究揭示了编码智能体在基准测试中的潜在问题，值得关注其对行业标准的影响。"
-            }
-          ]
-        },
-        {
-          "category": "ai-research",
-          "label": "论文研究",
-          "items": [
-            {
-              "title": "谷歌推出多标记预测加速 Gemini Nano 模型",
-              "summary": "谷歌推出了一种新方法，将多标记预测技术应用于冻结的 Gemini Nano 模型，以提高移动设备上的推理速度。这一技术使得用户在手机上可以更高效地处理通知摘要和文本校对等功能，尽管在资源限制的移动环境中仍面临挑战。",
-              "source": "RSS · Google Research",
-              "url": "https://research.google/blog/accelerating-gemini-nano-models-on-pixel-with-frozen-multi-token-prediction/",
-              "score": 82,
-              "sourceCount": 1,
-              "date": "2026-06-27",
-              "publishedAt": "2026-06-27T02:30",
-              "reason": "这一技术的推出标志着移动 AI 处理能力的显著提升，值得关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-business",
-          "label": "行业商业",
-          "items": [
-            {
-              "title": "2023年1-5月中国工业企业利润增长18.8%，电子行业贡献显著",
-              "summary": "2023年1-5月，中国规模以上工业企业利润同比增长18.8%。电子行业利润增长103.9%，贡献率达43.1%，主要受全球AI技术变革推动高端算力和存储芯片需求激增的影响。原材料制造业和高技术制造业也分别实现了显著的利润增长，企业营收利润率达到2024年以来的最高水平。",
-              "source": "IT之家（RSS）",
-              "url": "https://www.ithome.com/0/969/311.htm",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-06-27",
-              "publishedAt": "2026-06-27T09:43",
-              "reason": "这条信息揭示了中国工业企业在AI技术推动下的显著增长，特别是电子行业的快速发展，值得关注和深入分析。"
-            },
-            {
-              "title": "前美商务部长发起\"Raise Us\"计划，筹集10亿美元应对AI就业挑战",
-              "summary": "前美国商务部长吉娜·雷蒙多与前印第安纳州长埃里克·霍尔科姆共同发起了非营利组织\"Raise Us\"，旨在为AI经济下的工人再培训筹集10亿美元，目前已锁定5亿。该计划得到亚马逊、Anthropic、微软和OpenAI等大公司的支持，但也引发了独立性方面的质疑。试点项目将在阿肯色、",
-              "source": "The Decoder：AI News（RSS）",
-              "url": "https://the-decoder.com/the-companies-most-likely-to-automate-your-job-are-now-funding-a-1-billion-program-to-retrain-you",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-06-27",
-              "publishedAt": "2026-06-27T20:25",
-              "reason": "该计划通过整合企业资源和政府支持，提供切实可行的再培训方案，值得关注。"
-            },
-            {
-              "title": "美国企业因 AI 账单失控转向 DeepSeek，节省数百万美元",
-              "summary": "随着 AI 账单失控，越来越多美国企业开始采用 Token 最小化策略，Lindy 公司已将 100% 流量切换至 DeepSeek，预计未来几个月可节省数百万美元。企业逐渐转向按任务匹配模型的“模型路由”，并暂停部分 AI 投入以评估投资回报率。",
-              "source": "IT之家（RSS）",
-              "url": "https://www.ithome.com/0/969/400.htm",
-              "score": 61,
-              "sourceCount": 1,
-              "date": "2026-06-27",
-              "publishedAt": "2026-06-27T16:16",
-              "reason": "这一事件反映了企业在 AI 投资上的新趋势，值得关注其对行业的深远影响。"
-            }
-          ]
-        }
-      ]
     }
   ],
   "llmLeaderboard": {
-    "updated": "2026-08-31",
+    "updated": "2026-09-01",
     "source": "ReLE 中文大模型能力评测（综合能力）",
     "sourceUrl": "https://github.com/jeinlee1991/chinese-llm-benchmark",
     "items": [
@@ -23386,6 +23611,30 @@ window.AI_GENERATED_DATA = {
     ]
   },
   "benchmarkDatasets": [
+    {
+      "name": "NL2AGBench",
+      "area": "AI 模型能力评测",
+      "note": "Recent advances in large language models (LLMs) have demonstrated strong capabilities in natural language understanding and mathematical reasoning. However, their ability to transl",
+      "source": "http://arxiv.org/abs/2608.28481v1",
+      "sourceName": "arXiv",
+      "date": "2026-08-28",
+      "originTitle": "NL2AGBench: Benchmarking LLM Auto-Formalization for AlphaGeometry",
+      "evaluates": [],
+      "useCases": [],
+      "limitations": []
+    },
+    {
+      "name": "LongPIBench",
+      "area": "AI 模型能力评测",
+      "note": "Prompt injection attacks pose a serious security risk to large language models in real-world applications. However, existing prompt injection benchmarks primarily focus on short-co",
+      "source": "http://arxiv.org/abs/2608.28411v1",
+      "sourceName": "arXiv",
+      "date": "2026-08-28",
+      "originTitle": "LongPIBench: A Long-Context Benchmark for Prompt Injection",
+      "evaluates": [],
+      "useCases": [],
+      "limitations": []
+    },
     {
       "name": "ranks-first-on-cybergym-agentic-ai-security-benchmark",
       "area": "Agent / 工具调用",
