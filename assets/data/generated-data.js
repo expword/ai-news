@@ -1,7 +1,34 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-08-31",
-  "generatedAt": "2026-08-30T16:33:05.855490Z",
+  "generatedAt": "2026-08-31T00:42:31.677776Z",
   "news": [
+    {
+      "title": "理解 ChatGPT Work：它到底是什么，以及它和 Chat 有何不同",
+      "summary": "OpenAI 于 7 月 9 日发布 ChatGPT Work，实际包含云端版（Work Cloud）和桌面应用版（Work Local）两个产品，仅向 $20/月及以上订阅用户开放。",
+      "category": "ai-models",
+      "source": "Simon Willison 博客",
+      "date": "2026-08-31",
+      "publishedAt": "2026-08-31T07:59",
+      "collectedAt": "2026-08-31T08:42",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1.5",
+      "scores": {},
+      "score": 56,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Batch write and discover records in Amazon SageMaker Feature Store",
       "summary": "Amazon SageMaker Feature Store now supports two new APIs: BatchWriteRecord writes up to 25 records across multiple feature groups in a single call, and ListRecords enumerates recor",
@@ -6551,6 +6578,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-models": [
       {
+        "name": "Beyond the flying fists",
+        "provider": "China Daily",
+        "type": "AI 项目/工具",
+        "bestFor": "Jackie Chan's enduring appeal brings fans together as filmmakers consider where Chinese action cinema goes next, Bai Shuhao and Tian Xuefei report in Harbin.\n\nM",
+        "description": "Jackie Chan's enduring appeal brings fans together as filmmakers consider where Chinese action cinema goes next, Bai Shuhao and Tian Xuefei report in Harbin.\n\nMalaysia rarely sees ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "China Daily",
+        "url": "https://www.chinadaily.com.cn/a/202608/31/WS6a8feb3de4b06d4aa055ac6d.html"
+      },
+      {
         "name": "AI for the People programme participants to complete six mod",
         "provider": "The Star",
         "type": "AI 项目/工具",
@@ -6978,17 +7016,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "ITWeb",
         "url": "https://www.itweb.co.za/article/local-ai-cloud-project-puts-over-400-nvidia-gpus-to-work/Gb3BwMWaPPav2k6V"
-      },
-      {
-        "name": "Anthropic signs $45B deal with Nscale for AI computing power",
-        "provider": "NewsBytes",
-        "type": "AI 项目/工具",
-        "bestFor": "Anthropic, a leading AI lab, has signed a major deal with British cloud infrastructure provider Nscale. The agreement is worth an estimated $45 billion and will",
-        "description": "Anthropic, a leading AI lab, has signed a major deal with British cloud infrastructure provider Nscale. The agreement is worth an estimated $45 billion and will see Anthropic rent ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsBytes",
-        "url": "https://www.newsbytesapp.com/news/science/anthropic-signs-45b-cloud-computing-deal-with-nscale/story"
       }
     ],
     "ai-business": [
@@ -10503,8 +10530,8 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-08-31",
-    "generatedAt": "2026-08-30T16:33:05.831522Z",
-    "total": 23,
+    "generatedAt": "2026-08-31T00:42:31.615785Z",
+    "total": 22,
     "sections": [
       {
         "category": "ai-coding",
@@ -10604,17 +10631,6 @@ window.AI_GENERATED_DATA = {
             "summary": "Large language model (LLM) agents in governed organizations must let the persona (instructions, tone, self-presentation) evolve freely, whil",
             "source": "arXiv",
             "url": "http://arxiv.org/abs/2608.27427v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-08-27",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "INTENT-AS-A-TOOL Makes it Easy to Track Agentic Misalignment",
-            "summary": "As large language models (LLMs) are deployed as autonomous agents, safety failures increasingly involve consequential actions. We study agen",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2608.27348v1",
             "score": 70,
             "sourceCount": 1,
             "date": "2026-08-27",
