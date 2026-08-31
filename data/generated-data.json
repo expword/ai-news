@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-08-31",
-  "generatedAt": "2026-08-31T13:24:57.109308Z",
+  "generatedAt": "2026-08-31T15:55:47.804848Z",
   "news": [
     {
       "title": "Accelerating LLM Inference via Vector Index Based Output Embeddings",
@@ -5616,6 +5616,17 @@
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Google unveils Gemini 3.7 Flash with enhanced coding power",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Google has launched Gemini 3.7 Flash, shortly after releasing Gemini 3.6 Flash, with the company saying the new model offers faster coding and AI agent capabili",
+        "description": "Google has launched Gemini 3.7 Flash, shortly after releasing Gemini 3.6 Flash, with the company saying the new model offers faster coding and AI agent capabilities. Google is also",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Google Gemini",
+        "url": "https://www.bangkokpost.com/life/tech/3311130/google-unveils-gemini-37-flash-with-enhanced-coding-power"
+      },
+      {
         "name": "DeepSeek-V4-Flash-Vision-Exp 模型已开源，多模态 Agent 能力接近 Opus-4.8",
         "provider": "IT之家（RSS）",
         "type": "AI 项目/工具",
@@ -6073,26 +6084,31 @@
         "watch": "安全编码实践的实施可能需要额外的培训和资源投入，增加开发成本，尤其对小型企业而言。",
         "sourceName": "NewsData.io:AI coding tool",
         "url": "https://techbullion.com/how-secure-coding-practices-works-a-guide-for-the-us-financial-market/"
-      },
-      {
-        "name": "SpaceX 完成 600 亿美元收购 Cursor，获得全球最大 GPU 集群",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "此次收购将使 SpaceX 在 AI 领域的决策更加灵活，能够快速响应市场需求。对于开发者和企业来说，拥有更强大的 GPU 资源意味着可以更高效地进行 AI 模型训练和应用开发。此外，Cursor 的 AI 供应商将面临新的市场竞争，可能促使其加速技术创新和产品迭代。整体来看，此次交易将对 AI 产业链产生深远影响，推",
-        "description": "SpaceX 于周五正式完成了 600 亿美元收购 Cursor 的交易，新增一百万用户，并获得全球最大的私人 GPU 集群。这笔交易将 Cursor 的 AI 供应商 Anthropic 和 Google 纳入了一个由其最大 GPU 竞争对手拥有的平台。",
-        "useCases": [
-          "利用 SpaceX 的 GPU 集群进行大规模 AI 模型训练，提升模型性能和准确性。",
-          "开发基于 Cursor 的 AI 应用，快速实现商业化落地。",
-          "借助强大的计算资源，进行复杂的数据分析和处理，优化业务决策。",
-          "在 AI 项目中使用 Anthropic 和 Google 的技术，提升产品竞争力。",
-          "通过整合 GPU 资源，降低 AI 开发和运营成本，提高效率。"
-        ],
-        "watch": "收购后可能面临 API 使用费用增加的问题，需提前评估预算。",
-        "sourceName": "NewsData.io:AI coding tool",
-        "url": "https://easternherald.com/2026/08/16/spacex-cursor-acquisition-close-gpu-fleet/"
       }
     ],
     "ai-agents": [
+      {
+        "name": "Z.ai, Maker of GLMs, Makes $142 Million in Revenue at a $71 ",
+        "provider": "Trending Topics",
+        "type": "AI 项目/工具",
+        "bestFor": "GLM models have reliably made the AI industry sit up and take notice. On agentic capabilities in particular, Z.ai has repeatedly set new standards in the open-w",
+        "description": "GLM models have reliably made the AI industry sit up and take notice. On agentic capabilities in particular, Z.ai has repeatedly set new standards in the open-weight space, most re",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Trending Topics",
+        "url": "https://www.trendingtopics.eu/z-ai-maker-of-glms-makes-142-million-in-revenue-at-a-71-billion-market-value/"
+      },
+      {
+        "name": "Google's Agentic Hotel Booking Tool Comes to AI Mode",
+        "provider": "RocketNews | Top News Stories From Around the Globe",
+        "type": "AI 项目/工具",
+        "bestFor": "Google has introduced an agentic hotel booking feature within its AI Mode platform, marking the realization of capabilities the company previewed in November. T",
+        "description": "Google has introduced an agentic hotel booking feature within its AI Mode platform, marking the realization of capabilities the company previewed in November. The tool enables trav",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RocketNews | Top News Stories From Around the Globe",
+        "url": "https://rocketnews.com/2026/08/googles-agentic-hotel-booking-tool-comes-to-ai-mode/"
+      },
       {
         "name": "Broadcom Unveils AgentMinder, An Enterprise Solution for AI ",
         "provider": "The Manila times",
@@ -6510,31 +6526,31 @@
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2608.27449v1"
-      },
-      {
-        "name": "HKT to participate in GenA.I. Sandbox++ to develop AI Agent ",
-        "provider": "asianews.network",
-        "type": "AI 项目/工具",
-        "bestFor": "HONG KONG SAR - - 27 August 2026 - HKT (SEHK: 6823) - HKT Payment Limited, HKT's financial services arm, has been selected by Hong Kong's financial regulators t",
-        "description": "HONG KONG SAR - - 27 August 2026 - HKT (SEHK: 6823) - HKT Payment Limited, HKT's financial services arm, has been selected by Hong Kong's financial regulators to participate in the",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "asianews.network",
-        "url": "https://asianews.network/hkt-to-participate-in-gena-i-sandbox-to-develop-ai-agent-identity-verification/"
-      },
-      {
-        "name": "Anthropic launches Model Hardware Standard to let AI agents ",
-        "provider": "Tech News | Startups News",
-        "type": "AI 项目/工具",
-        "bestFor": "Anthropic is giving AI agents a way to reach beyond screens and software and start operating machines in the physical world.\n\nThe Claude maker on Thursday unvei",
-        "description": "Anthropic is giving AI agents a way to reach beyond screens and software and start operating machines in the physical world.\n\nThe Claude maker on Thursday unveiled the Model Hardwa",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Tech News | Startups News",
-        "url": "https://techstartups.com/2026/08/27/anthropic-launches-model-hardware-standard-to-let-ai-agents-control-physical-machines/"
       }
     ],
     "ai-models": [
+      {
+        "name": "AI predicts XRP price for September 30, 2026",
+        "provider": "Finbold",
+        "type": "AI 项目/工具",
+        "bestFor": "XRP's rapid late August rise, which ensured the token is 27.07% in the green on the monthly chart, appears likely to turn into a slower uptrend in September, ba",
+        "description": "XRP's rapid late August rise, which ensured the token is 27.07% in the green on the monthly chart, appears likely to turn into a slower uptrend in September, based on the forecast ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Finbold",
+        "url": "https://finbold.com/ai-predicts-xrp-price-for-september-30-2026/"
+      },
+      {
+        "name": "As mathematicians grapple with AI, divisions are multiplying",
+        "provider": "Coda Story",
+        "type": "AI 项目/工具",
+        "bestFor": "Mathematics has long been considered - not least by mathematicians - to be the foundation of human knowledge. Now large language models are getting better at so",
+        "description": "Mathematics has long been considered - not least by mathematicians - to be the foundation of human knowledge. Now large language models are getting better at solving some puzzles. ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Coda Story",
+        "url": "https://www.codastory.com/authoritarian-tech/as-mathematicians-grapple-with-ai-divisions-are-multiplying/"
+      },
       {
         "name": "John Ternus becomes Apple CEO, with AI as first big challeng",
         "provider": "Yahoo! Finance",
@@ -6952,31 +6968,31 @@
         "watch": "请打开原始来源核对",
         "sourceName": "RocketNews | Top News Stories From Around the Globe",
         "url": "https://rocketnews.com/2026/08/401k-rollovers-can-be-costly-and-irreversible-what-to-know-before-moving-your-money-2/"
-      },
-      {
-        "name": "Myanmar military strike kills 14 people at a Buddhist monast",
-        "provider": "RocketNews | Top News Stories From Around the Globe",
-        "type": "AI 项目/工具",
-        "bestFor": "An airstrike targeting a Buddhist monastery in Swel Le Oh village, located approximately 45 miles west of Mandalay in Myanmar's central Sagaing region, resulted",
-        "description": "An airstrike targeting a Buddhist monastery in Swel Le Oh village, located approximately 45 miles west of Mandalay in Myanmar's central Sagaing region, resulted in 14 deaths on Fri",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RocketNews | Top News Stories From Around the Globe",
-        "url": "https://rocketnews.com/2026/08/myanmar-military-strike-kills-14-people-at-a-buddhist-monastery-opposition-group-says-2/"
-      },
-      {
-        "name": "Google releases Gemini 3.5 Transcribe in preview: speech-to-",
-        "provider": "Softonic",
-        "type": "AI 项目/工具",
-        "bestFor": "Live and batch APIs add faster transcripts and three-speaker diarization.\n\nGoogle opened Gemini 3.5 Transcribe to public preview today, putting its new speech-t",
-        "description": "Live and batch APIs add faster transcripts and three-speaker diarization.\n\nGoogle opened Gemini 3.5 Transcribe to public preview today, putting its new speech-to-text model in play",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Softonic",
-        "url": "https://en.softonic.com/articles/google-releases-gemini-3-5-transcribe-in-preview-speech-to-text-for-85-languages"
       }
     ],
     "ai-business": [
+      {
+        "name": "The AI model insurers keep signing deals with happens to be ",
+        "provider": "Insurance Business",
+        "type": "AI 项目/工具",
+        "bestFor": "ChatGPT v Grok v Claude v... - which is best?\n\nTransformation\n\nBy Matthew Sellers\n\nOver the past year, a striking pattern has shown up in the insurance industry",
+        "description": "ChatGPT v Grok v Claude v... - which is best?\n\nTransformation\n\nBy Matthew Sellers\n\nOver the past year, a striking pattern has shown up in the insurance industry's approach to artif",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Insurance Business",
+        "url": "https://www.insurancebusinessmag.com/us/news/technology/the-ai-model-insurers-keep-signing-deals-with-happens-to-be-the-one-users-like-most-588007.aspx"
+      },
+      {
+        "name": "AI Visibility Tools for B2B Marketers: Track - and Improve -",
+        "provider": "SitePoint",
+        "type": "AI 项目/工具",
+        "bestFor": "If you sell to other businesses, one of the most important lists your company can appear on is no longer a Google results page. It is the shortlist an AI assist",
+        "description": "If you sell to other businesses, one of the most important lists your company can appear on is no longer a Google results page. It is the shortlist an AI assistant gives a buyer wh",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "SitePoint",
+        "url": "https://www.sitepoint.com/ai-visibility-tools-b2b-marketers/"
+      },
       {
         "name": "It's Tim Cook's last day as Apple CEO. Investors are $4 tril",
         "provider": "Yahoo! Finance",
@@ -7402,32 +7418,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Hypergrid Business",
         "url": "https://www.hypergridbusiness.com/2026/08/is-there-an-ethical-ai-for-us-to-use/"
-      },
-      {
-        "name": "美国劳工统计局数据发布后多只科技股大幅上涨",
-        "provider": "Yahoo! Finance",
-        "type": "AI 项目/工具",
-        "bestFor": "此次数据发布后，市场对科技股的反应显著，尤其是软件和数据分析领域。Wix、AppLovin等公司的股价上涨，可能吸引更多投资者关注这些高质量股票。随着通胀压力的减轻，投资者可能会重新评估这些公司的长期价值，导致更多资金流入该行业。此外，市场对美联储政策的预期变化也可能影响其他行业的投资决策，形成连锁反应。",
-        "description": "在美国劳工统计局发布7月生产者价格指数（PPI）持平的消息后，多个科技股在下午交易中大幅上涨。此数据低于市场预期的0.2%增幅，显示出通胀压力减缓，可能影响美联储的利率政策。Wix、AppLovin、Manhattan Associates、Strategy和Oracle等公司股票均出现上涨，反映出市场对软件和数据分析行业的乐观情绪。",
-        "useCases": [
-          "分析市场趋势，利用PPI和CPI数据指导投资决策。",
-          "评估科技股的长期投资价值，选择合适的买入时机。",
-          "利用软件工具进行数据分析，优化投资组合。"
-        ],
-        "watch": "市场波动可能导致短期内股价剧烈波动，影响投资收益。",
-        "sourceName": "Yahoo! Finance",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/wix-applovin-manhattan-associates-strategy-063700901.html"
-      },
-      {
-        "name": "Wix, AppLovin, Manhattan Associates, Strategy, and Oracle Sh",
-        "provider": "Yahoo! Finance",
-        "type": "AI 项目/工具",
-        "bestFor": "A number of stocks jumped in the afternoon session after the Bureau of Labor Statistics reported that the July Producer Price Index was completely flat month-ov",
-        "description": "A number of stocks jumped in the afternoon session after the Bureau of Labor Statistics reported that the July Producer Price Index was completely flat month-over-month -- coming i",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Yahoo! Finance",
-        "url": "https://ca.finance.yahoo.com/news/wix-applovin-manhattan-associates-strategy-063700901.html"
       }
     ],
     "ai-benchmark": [
@@ -10464,7 +10454,7 @@
   ],
   "dailyReport": {
     "date": "2026-08-31",
-    "generatedAt": "2026-08-31T13:24:57.087305Z",
+    "generatedAt": "2026-08-31T15:55:47.782833Z",
     "total": 13,
     "sections": [
       {
