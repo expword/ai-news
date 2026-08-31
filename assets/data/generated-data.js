@@ -1,7 +1,97 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-01",
-  "generatedAt": "2026-08-31T18:21:54.598530Z",
+  "generatedAt": "2026-08-31T20:41:29.880695Z",
   "news": [
+    {
+      "title": "AWS recognized as a Leader in The Forrester Wave: AI Infrastructure Solutions, Q4 2025",
+      "summary": "We're excited to share that AWS has been recognized as a Leader in The Forrester Wave: AI Infrastructure Solutions, Q4 2025. In this evaluation of 13 providers, AWS received the hi",
+      "category": "ai-models",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-01",
+      "publishedAt": "2026-09-01T03:50",
+      "collectedAt": "2026-09-01T04:41",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/aws-recognized-as-a-leader-in-the-forrester-wave-ai-infrastructure-solutions-q4-2025/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Build observable enterprise agentic retrieval using Managed Amazon Bedrock Knowledge Base with AWS CloudFormation",
+      "summary": "This post builds an enterprise agentic retrieval solution on the Amazon Bedrock Managed Knowledge Base and Amazon Bedrock AgentCore. An agent reasons, routes across multiple knowle",
+      "category": "ai-agents",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-01",
+      "publishedAt": "2026-09-01T03:08",
+      "collectedAt": "2026-09-01T03:31",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-observable-enterprise-agentic-retrieval-using-managed-amazon-bedrock-knowledge-base-with-aws-cloudformation/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 2,
+      "relatedSources": [
+        {
+          "source": "RSS · AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-multi-tenant-agentic-chat-applications-on-enterprise-data-with-amazon-bedrock-managed-knowledge-base/",
+          "title": "Build multi-tenant agentic chat applications on enterprise data with Amazon Bedrock Managed Knowledge Base"
+        }
+      ]
+    },
+    {
+      "title": "Manage agents, tools and skills at scale with AWS Agent Registry",
+      "summary": "AWS Agent Registry is now generally available: a single, searchable, governed catalog for the agents, tools, skills, and custom resources across your organization. This post explai",
+      "category": "ai-agents",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-01",
+      "publishedAt": "2026-09-01T03:18",
+      "collectedAt": "2026-09-01T03:31",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/manage-agents-tools-and-skills-at-scale-with-aws-agent-registry/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "TimesFM-3: A zero-shot foundation model for multivariate forecasting",
       "summary": "Data Management",
@@ -2657,61 +2747,6 @@ window.AI_GENERATED_DATA = {
       "aiSelected": true,
       "moduleTargets": [
         "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "What We Learned Trying to Catch AI Liars: An Aletheia's Quest Retrospective",
-      "summary": "What we learned while building black-box and white-box detectors for AI deception during Aletheia's Quest.",
-      "category": "ai-models",
-      "source": "RSS · EleutherAI",
-      "date": "2026-08-26",
-      "publishedAt": "2026-08-26T00:35",
-      "collectedAt": "2026-08-26T10:25",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://blog.eleuther.ai/aletheia-retrospective/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "AgentHands: Generating interactive hand gestures for spatially grounded agent conversations in XR",
-      "summary": "Human-Computer Interaction and Visualization",
-      "category": "ai-agents",
-      "source": "RSS · Google Research",
-      "date": "2026-08-26",
-      "publishedAt": "2026-08-26T03:10",
-      "collectedAt": "2026-08-26T04:26",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://research.google/blog/agenthands-generating-interactive-hand-gestures-for-spatially-grounded-agent-conversations-in-xr/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
       ],
       "sourceCount": 1
     }
@@ -6298,6 +6333,39 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "Build observable enterprise agentic retrieval using Managed ",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "This post builds an enterprise agentic retrieval solution on the Amazon Bedrock Managed Knowledge Base and Amazon Bedrock AgentCore. An agent reasons, routes ac",
+        "description": "This post builds an enterprise agentic retrieval solution on the Amazon Bedrock Managed Knowledge Base and Amazon Bedrock AgentCore. An agent reasons, routes across multiple knowle",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/build-observable-enterprise-agentic-retrieval-using-managed-amazon-bedrock-knowledge-base-with-aws-cloudformation/"
+      },
+      {
+        "name": "Manage agents, tools and skills at scale with AWS Agent Regi",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "AWS Agent Registry is now generally available: a single, searchable, governed catalog for the agents, tools, skills, and custom resources across your organizati",
+        "description": "AWS Agent Registry is now generally available: a single, searchable, governed catalog for the agents, tools, skills, and custom resources across your organization. This post explai",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/manage-agents-tools-and-skills-at-scale-with-aws-agent-registry/"
+      },
+      {
+        "name": "Build multi-tenant agentic chat applications on enterprise d",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Learn how to build a multi-tenant agentic document chat application on Amazon Bedrock Managed Knowledge Base, where users upload documents and immediately ask g",
+        "description": "Learn how to build a multi-tenant agentic document chat application on Amazon Bedrock Managed Knowledge Base, where users upload documents and immediately ask grounded questions. T",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/build-multi-tenant-agentic-chat-applications-on-enterprise-data-with-amazon-bedrock-managed-knowledge-base/"
+      },
+      {
         "name": "RetailAgent: Structured Adverse Timing in Self-Conditioned M",
         "provider": "arXiv",
         "type": "AI 项目/工具",
@@ -6703,42 +6771,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · Apple ML Research",
         "url": "https://machinelearning.apple.com/research/agent-seer-synthesizing-scenarios"
-      },
-      {
-        "name": "SPA: Securing Persistent LLM Agents Across Queries with Plan",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Large language model (LLM) agents increasingly operate over untrusted webpages, documents, tools, and persistent states while exercising authority over security",
-        "description": "Large language model (LLM) agents increasingly operate over untrusted webpages, documents, tools, and persistent states while exercising authority over security-sensitive resources",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2608.27234v1"
-      },
-      {
-        "name": "Persona-Execution Separation: An Architecture Pattern for Ev",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Large language model (LLM) agents in governed organizations must let the persona (instructions, tone, self-presentation) evolve freely, while keeping execution ",
-        "description": "Large language model (LLM) agents in governed organizations must let the persona (instructions, tone, self-presentation) evolve freely, while keeping execution (stateful, audited w",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2608.27427v1"
-      },
-      {
-        "name": "INTENT-AS-A-TOOL Makes it Easy to Track Agentic Misalignment",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "As large language models (LLMs) are deployed as autonomous agents, safety failures increasingly involve consequential actions. We study agentic misalignment, wh",
-        "description": "As large language models (LLMs) are deployed as autonomous agents, safety failures increasingly involve consequential actions. We study agentic misalignment, where agents take harm",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2608.27348v1"
       }
     ],
     "ai-models": [
+      {
+        "name": "Sony 等音乐出版商起诉 Anthropic，引用员工赞美盗版图书馆的内部聊天",
+        "provider": "Ars Technica：AI（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "Sony、EMI 和 Warner Chappell 等音乐出版商于周五起诉 Anthropic，认为其在图书作者案中支付的 15 亿美元和解金额不足以形成威慑，并指控其通过 BitTorrent 从 LibGen 和 PiLiMi 下载了含歌词和乐谱的书籍。",
+        "description": "Sony、EMI 和 Warner Chappell 等音乐出版商于周五起诉 Anthropic，认为其在图书作者案中支付的 15 亿美元和解金额不足以形成威慑，并指控其通过 BitTorrent 从 LibGen 和 PiLiMi 下载了含歌词和乐谱的书籍。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Ars Technica：AI（RSS）",
+        "url": "https://arstechnica.com/tech-policy/2026/08/zlibrary-my-beloved-anthropic-staff-chats-extolling-piracy-cited-in-sony-suit"
+      },
       {
         "name": "AI predicts XRP price for September 30, 2026",
         "provider": "Finbold",
@@ -7167,17 +7213,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Notebookcheck",
         "url": "https://www.notebookcheck.net/Twitter-is-back-for-real-and-Elon-Musk-isn-t-happy-about-it.1381893.0.html"
-      },
-      {
-        "name": "401(k) rollovers can be costly -- and irreversible. What to ",
-        "provider": "RocketNews | Top News Stories From Around the Globe",
-        "type": "AI 项目/工具",
-        "bestFor": "Millions of Americans move retirement savings from workplace 401(k) plans to individual retirement accounts annually, a trend that has accelerated as baby boome",
-        "description": "Millions of Americans move retirement savings from workplace 401(k) plans to individual retirement accounts annually, a trend that has accelerated as baby boomers approach retireme",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RocketNews | Top News Stories From Around the Globe",
-        "url": "https://rocketnews.com/2026/08/401k-rollovers-can-be-costly-and-irreversible-what-to-know-before-moving-your-money-2/"
       }
     ],
     "ai-business": [
@@ -10658,8 +10693,8 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-01",
-    "generatedAt": "2026-08-31T18:21:54.576531Z",
-    "total": 16,
+    "generatedAt": "2026-08-31T20:41:29.850125Z",
+    "total": 19,
     "sections": [
       {
         "category": "ai-coding",
@@ -10712,9 +10747,48 @@ window.AI_GENERATED_DATA = {
         ]
       },
       {
+        "category": "ai-agents",
+        "label": "Agent / MCP",
+        "items": [
+          {
+            "title": "Build observable enterprise agentic retrieval using Managed Amazon Bedrock Knowledge Base with AWS CloudFormation",
+            "summary": "This post builds an enterprise agentic retrieval solution on the Amazon Bedrock Managed Knowledge Base and Amazon Bedrock AgentCore. An agen",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/build-observable-enterprise-agentic-retrieval-using-managed-amazon-bedrock-knowledge-base-with-aws-cloudformation/",
+            "score": 70,
+            "sourceCount": 2,
+            "date": "2026-09-01",
+            "publishedAt": "2026-09-01T03:08",
+            "reason": ""
+          },
+          {
+            "title": "Manage agents, tools and skills at scale with AWS Agent Registry",
+            "summary": "AWS Agent Registry is now generally available: a single, searchable, governed catalog for the agents, tools, skills, and custom resources ac",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/manage-agents-tools-and-skills-at-scale-with-aws-agent-registry/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-01",
+            "publishedAt": "2026-09-01T03:18",
+            "reason": ""
+          }
+        ]
+      },
+      {
         "category": "ai-models",
         "label": "模型发布",
         "items": [
+          {
+            "title": "AWS recognized as a Leader in The Forrester Wave: AI Infrastructure Solutions, Q4 2025",
+            "summary": "We're excited to share that AWS has been recognized as a Leader in The Forrester Wave: AI Infrastructure Solutions, Q4 2025. In this evaluat",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/aws-recognized-as-a-leader-in-the-forrester-wave-ai-infrastructure-solutions-q4-2025/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-01",
+            "publishedAt": "2026-09-01T03:50",
+            "reason": ""
+          },
           {
             "title": "TimesFM-3: A zero-shot foundation model for multivariate forecasting",
             "summary": "Data Management",
