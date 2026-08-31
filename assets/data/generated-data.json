@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-08-31",
-  "generatedAt": "2026-08-31T10:54:18.189801Z",
+  "generatedAt": "2026-08-31T13:24:57.109308Z",
   "news": [
     {
       "title": "Accelerating LLM Inference via Vector Index Based Output Embeddings",
@@ -5616,6 +5616,39 @@
   "topicResources": {
     "ai-coding": [
       {
+        "name": "DeepSeek-V4-Flash-Vision-Exp 模型已开源，多模态 Agent 能力接近 Opus-4.8",
+        "provider": "IT之家（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "DeepSeek 于 8 月 31 日在 Hugging Face 开源首个多模态模型 DeepSeek-V4-Flash-Vision-Exp，采用 MIT License，公开模型文件、Tokenizer、Prompt Encoding 参考实现及最小化 PyTorch 推理实现。",
+        "description": "DeepSeek 于 8 月 31 日在 Hugging Face 开源首个多模态模型 DeepSeek-V4-Flash-Vision-Exp，采用 MIT License，公开模型文件、Tokenizer、Prompt Encoding 参考实现及最小化 PyTorch 推理实现。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "IT之家（RSS）",
+        "url": "https://www.ithome.com/0/996/637.htm"
+      },
+      {
+        "name": "AI Agents Execute Phantom Code: How llms.txt Files Let Claud",
+        "provider": "WebProNews",
+        "type": "AI 项目/工具",
+        "bestFor": "Security researchers uncovered a startling weakness in how companies publish instructions for AI coding tools. They scanned thousands of corporate websites. Wha",
+        "description": "Security researchers uncovered a startling weakness in how companies publish instructions for AI coding tools. They scanned thousands of corporate websites. What they found exposed",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "WebProNews",
+        "url": "https://www.webpronews.com/ai-agents-execute-phantom-code-how-llms-txt-files-let-claude-codex-and-hermes-infect-corporate-networks/"
+      },
+      {
+        "name": "Aurora Mobile's Modellix Releases Beta Plugin for DeepSeek H",
+        "provider": "MarTech Series",
+        "type": "AI 项目/工具",
+        "bestFor": "Aurora Mobile Limited (NASDAQ: JG) (\"Aurora Mobile\" or the \"Company\"), a leading provider of customer engagement and marketing technology services, announced th",
+        "description": "Aurora Mobile Limited (NASDAQ: JG) (\"Aurora Mobile\" or the \"Company\"), a leading provider of customer engagement and marketing technology services, announced that Modellix.ai, its ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "MarTech Series",
+        "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/aurora-mobiles-modellix-releases-beta-plugin-for-deepseek-harness-adding-free-llm-models-to-the-fast-growing-open-source-coding-agent/"
+      },
+      {
         "name": "OpenAI cuts off Cursor's AI models, deepening feud with Musk",
         "provider": "Mashable ME",
         "type": "AI 项目/工具",
@@ -6057,60 +6090,42 @@
         "watch": "收购后可能面临 API 使用费用增加的问题，需提前评估预算。",
         "sourceName": "NewsData.io:AI coding tool",
         "url": "https://easternherald.com/2026/08/16/spacex-cursor-acquisition-close-gpu-fleet/"
-      },
-      {
-        "name": "中心化商业模型取代碎片化工具，提升企业效率",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "这一中心化模型将对创业者和中小企业产生深远影响。首先，企业将能够更高效地管理其在线业务，减少因工具不兼容而导致的时间浪费。其次，客户体验将得到显著改善，客户在品牌接触点的互动将更加顺畅。此外，随着数据的有效整合，企业将能够更好地进行市场分析和个性化营销，从而提升转化率和客户忠诚度。最终，这种转变可能会促使更多企业重新审",
-        "description": "随着AI商业构建者的推出，企业面临的碎片化工具问题将得到解决。2023年AI平台市场估值为146.9亿美元，预计到2032年将达到1002亿美元，年均增长率为23.8%。这一中心化模型将所有业务功能整合到一个自有生态系统中，显著提高了数据利用效率和客户体验。",
-        "useCases": [
-          "整合多个业务功能，使用中心化平台管理内容和客户关系。",
-          "通过AI工具分析客户数据，优化营销策略和客户体验。",
-          "利用中心化模型快速搭建在线课程，提升学习体验。",
-          "创建统一的品牌社区，增强客户互动和忠诚度。",
-          "减少工具间的切换，提高团队工作效率。"
-        ],
-        "watch": "中心化模型可能面临技术集成的挑战，尤其是在与现有系统兼容性方面。",
-        "sourceName": "NewsData.io:AI coding tool",
-        "url": "http://prsync.com/cashwell-forever/ai-business-builder-hub-centric-model-replaces-fragmented-tools-5194735/"
-      },
-      {
-        "name": "Anthropic Q2 收入超 115 亿美元，年增 14 倍，IPO 估值或达 2 万亿美元",
-        "provider": "WebProNews",
-        "type": "AI 项目/工具",
-        "bestFor": "Anthropic 的成功吸引了大量企业客户，尤其是在需要高精度和可靠性的任务中。随着企业对 AI 工具的依赖加深，Anthropic 的市场地位将进一步巩固，可能引发行业内其他竞争者的价格战。此外，企业在选择 AI 解决方案时，越来越倾向于选择能够提供高回报的产品，这将改变整个行业的定价和服务模式。",
-        "description": "Anthropic 在 2026 年第二季度的收入超过 115 亿美元，较去年同期增长 14 倍，年化收入率达 470 亿美元，首次实现正向经营收入。尽管定价较高，Anthropic 依然在企业支出中占据主导地位，尤其是通过 Claude Code 和 API 的广泛应用，预计将于未来进行高达 2 万亿美元的 IPO。",
-        "useCases": [
-          "集成 Claude Code 进行文档自动化，提高工作效率。",
-          "利用 Anthropic API 开发智能客服系统，提升客户满意度。",
-          "使用 Claude 进行复杂推理任务，优化决策过程。",
-          "通过 API 接口实现数据分析，支持业务洞察。",
-          "在企业内部培训中应用 AI 工具，提升员工技能。"
-        ],
-        "watch": "高昂的 API 费用可能限制小型企业的使用，导致市场分化。",
-        "sourceName": "WebProNews",
-        "url": "https://www.webpronews.com/anthropics-price-premium-pays-off-how-the-ai-upstart-outearned-rivals-and-chased-a-2-trillion-ipo/"
-      },
-      {
-        "name": "AWS推出Kiro，助力软件开发团队高效编码",
-        "provider": "Newsbytes.PH",
-        "type": "AI 项目/工具",
-        "bestFor": "Kiro的推出将影响广泛的软件开发团队，尤其是那些面临需求变更频繁和文档管理困难的团队。通过提供更高的控制力和结构化的开发流程，Kiro可能改变团队在项目规划和实施中的决策方式。此外，Kiro的hooks功能将促进开发过程中的自动化，减少人为错误，提高代码质量和安全性。",
-        "description": "亚马逊网络服务（AWS）在菲律宾推出了Kiro，这是一款基于人工智能的集成开发环境（IDE），旨在帮助软件团队通过结构化规范将应用概念转化为生产就绪的代码。Kiro采用规范驱动的开发方法，结合AI辅助的编码与正式需求，提升了开发过程的控制力和代码质量。",
-        "useCases": [
-          "使用Kiro生成用户故事和验收标准，快速定义项目需求。",
-          "利用Kiro生成技术设计文档，确保开发过程的规范性。",
-          "通过hooks功能自动化文档更新和安全扫描，提升代码提交的合规性。",
-          "在项目变更时，实时同步文档与代码库，保持信息一致性。",
-          "使用Kiro进行单元测试和可访问性检查，确保软件质量。"
-        ],
-        "watch": "Kiro的依赖性可能导致开发团队在使用过程中面临API调用费用和配额限制的问题。",
-        "sourceName": "Newsbytes.PH",
-        "url": "https://newsbytes.ph/2026/08/15/aws-brings-spec-driven-ai-coding-tool-kiro-to-ph-market/"
       }
     ],
     "ai-agents": [
+      {
+        "name": "Broadcom Unveils AgentMinder, An Enterprise Solution for AI ",
+        "provider": "The Manila times",
+        "type": "AI 项目/工具",
+        "bestFor": "New Solution Makes It Possible for Enterprises to Use AI Agents While Ensuring They Follow Company Rules and Security Standards\n\nBroadcom Utilizes AgentMinder t",
+        "description": "New Solution Makes It Possible for Enterprises to Use AI Agents While Ensuring They Follow Company Rules and Security Standards\n\nBroadcom Utilizes AgentMinder to Scale Enterprise G",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Manila times",
+        "url": "https://www.manilatimes.net/2026/08/31/tmt-newswire/globenewswire/broadcom-unveils-agentminder-an-enterprise-solution-for-ai-agent-governance-and-runtime-control/2415194"
+      },
+      {
+        "name": "Snack, beverage shoppers turning to AI agents",
+        "provider": "FoodBusinessNews",
+        "type": "AI 项目/工具",
+        "bestFor": "NEW YORK -- As artificial intelligence (AI) quickly gains traction with consumers, many are entrusting AI agents to shop for snacks and beverages, according to ",
+        "description": "NEW YORK -- As artificial intelligence (AI) quickly gains traction with consumers, many are entrusting AI agents to shop for snacks and beverages, according to the latest Consumer ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "FoodBusinessNews",
+        "url": "https://www.foodbusinessnews.net/articles/30921-snack-beverage-shoppers-turning-to-ai-agents"
+      },
+      {
+        "name": "China AI Data Services Market to Reach RMB 7.83 Billion in 2",
+        "provider": "InfotechLead",
+        "type": "AI 项目/工具",
+        "bestFor": "China's artificial intelligence data services market is accelerating as AI moves from experimentation to large-scale deployment. Data collection, annotation, ev",
+        "description": "China's artificial intelligence data services market is accelerating as AI moves from experimentation to large-scale deployment. Data collection, annotation, evaluation and special",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "InfotechLead",
+        "url": "https://infotechlead.com/artificial-intelligence/china-ai-data-services-market-to-reach-rmb-7-83-billion-in-2026-as-agentic-ai-demand-rises-98086"
+      },
       {
         "name": "Meta (META) Stock: How Internal AI Rebellion Stopped Zuckerb",
         "provider": "Blockonomi",
@@ -6517,42 +6532,53 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Tech News | Startups News",
         "url": "https://techstartups.com/2026/08/27/anthropic-launches-model-hardware-standard-to-let-ai-agents-control-physical-machines/"
-      },
-      {
-        "name": "Build agentic creative workflows with Amazon Quick and fal",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Creative teams produce more assets than ever, but fragmented tools and manual context transfer slow production. This post shows how to build a reusable agent ha",
-        "description": "Creative teams produce more assets than ever, but fragmented tools and manual context transfer slow production. This post shows how to build a reusable agent harness with Amazon Qu",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/build-agentic-creative-workflows-with-amazon-quick-and-fal/"
-      },
-      {
-        "name": "Previewing the Model Hardware Standard Announcements Aug 27,",
-        "provider": "HTML",
-        "type": "AI 项目/工具",
-        "bestFor": "Previewing the Model Hardware Standard Announcements Aug 27, 2026 We’re opening a research preview of the Model Hardware Standard (MHS), a shared specification ",
-        "description": "Previewing the Model Hardware Standard Announcements Aug 27, 2026 We’re opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to saf",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "HTML · Anthropic",
-        "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview"
-      },
-      {
-        "name": "Meta’s plans to replace workers with AI fell flat, report sa",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Earlier this year, Meta, one of the industry’s loudest AI advocates, was ready to slash up to 60% of the members of some teams and replace them with AI, as part",
-        "description": "Earlier this year, Meta, one of the industry’s loudest AI advocates, was ready to slash up to 60% of the members of some teams and replace them with AI, as part of what it called P",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.computerworld.com/article/4214479/metas-plans-to-replace-workers-with-ai-fell-flat-report-says.html"
       }
     ],
     "ai-models": [
+      {
+        "name": "John Ternus becomes Apple CEO, with AI as first big challeng",
+        "provider": "Yahoo! Finance",
+        "type": "AI 项目/工具",
+        "bestFor": "John Ternus becomes Apple Inc.'s chief executive officer on Sept. 1, stepping into the role with an immediate product launch cycle and a company under pressure ",
+        "description": "John Ternus becomes Apple Inc.'s chief executive officer on Sept. 1, stepping into the role with an immediate product launch cycle and a company under pressure to close the gap wit",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Yahoo! Finance",
+        "url": "https://finance.yahoo.com/technology/ai/articles/john-ternus-becomes-apple-ceo-111908957.html"
+      },
+      {
+        "name": "It's Tim Cook's last day as Apple CEO. Investors are $4 tril",
+        "provider": "Yahoo! Finance",
+        "type": "AI 项目/工具",
+        "bestFor": "Apple's (AAPL) Tim Cook is stepping as CEO today, turning over the role to senior vice president of hardware engineering John Ternus.\n\nCook will stay on at Appl",
+        "description": "Apple's (AAPL) Tim Cook is stepping as CEO today, turning over the role to senior vice president of hardware engineering John Ternus.\n\nCook will stay on at Apple as its executive c",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Yahoo! Finance",
+        "url": "https://uk.finance.yahoo.com/news/its-tim-cooks-last-day-as-apple-ceo-investors-are-4-trillion-richer-because-of-him-230325985.html"
+      },
+      {
+        "name": "John Ternus to replace Tim Cook as Apple CEO on September 1:",
+        "provider": "Firstpost",
+        "type": "AI 项目/工具",
+        "bestFor": "John Ternus is set to become Apple's next CEO, succeeding Tim Cook after his 15-year tenure. As he takes charge of the tech giant, Ternus will have several key ",
+        "description": "John Ternus is set to become Apple's next CEO, succeeding Tim Cook after his 15-year tenure. As he takes charge of the tech giant, Ternus will have several key challenges to naviga",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Firstpost",
+        "url": "https://www.firstpost.com/tech/john-ternus-to-replace-tim-cook-as-apple-ceo-on-september-1-ai-iphone-and-other-challenges-ahead-14042144.html"
+      },
+      {
+        "name": "As Apple gets a new CEO, here's what fifteen years of Tim Co",
+        "provider": "The Times of India",
+        "type": "AI 项目/工具",
+        "bestFor": "Tim Cook took over Apple in August 2011, weeks before Steve Jobs died, and hands it to John Ternus tomorrow, September 1, after fifteen years in the job.He took",
+        "description": "Tim Cook took over Apple in August 2011, weeks before Steve Jobs died, and hands it to John Ternus tomorrow, September 1, after fifteen years in the job.He took the job as the man ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Times of India",
+        "url": "https://timesofindia.indiatimes.com/technology/tech-news/as-apple-gets-a-new-ceo-heres-what-fifteen-years-of-tim-cook-did-to-the-company-in-numbers/articleshow/133650549.cms"
+      },
       {
         "name": "Sports Direct's Ashley attacks Burnham over 'populist' High ",
         "provider": "RocketNews | Top News Stories From Around the Globe",
@@ -6948,53 +6974,31 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Softonic",
         "url": "https://en.softonic.com/articles/google-releases-gemini-3-5-transcribe-in-preview-speech-to-text-for-85-languages"
-      },
-      {
-        "name": "KDDI gets robot job with Osaka Metro",
-        "provider": "Mobile World Live",
-        "type": "AI 项目/工具",
-        "bestFor": "KDDI lined up a public-facing test of physical AI, arranging to put a humanoid robot through its paces as a customer service assistant in a public transport sys",
-        "description": "KDDI lined up a public-facing test of physical AI, arranging to put a humanoid robot through its paces as a customer service assistant in a public transport system in the Japanese ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Mobile World Live",
-        "url": "https://www.mobileworldlive.com/industry/kddi-gets-robot-job-with-osaka-metro/"
-      },
-      {
-        "name": "Letters to the Editor",
-        "provider": "The Church Times",
-        "type": "AI 项目/工具",
-        "bestFor": "Among the topics this week: immigration management; artificial intelligence; and cathedrals' ministry\n\nMadam, -- While all the attention in immigration seems to",
-        "description": "Among the topics this week: immigration management; artificial intelligence; and cathedrals' ministry\n\nMadam, -- While all the attention in immigration seems to be falling on exter",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Church Times",
-        "url": "https://www.churchtimes.co.uk/articles/2026/28-august/comment/letters-to-the-editor/letters-to-the-editor"
-      },
-      {
-        "name": "Pentagon's Anthropic Blacklisting Ruled Illegal By US Judge",
-        "provider": "PCMag UK",
-        "type": "AI 项目/工具",
-        "bestFor": "The Department of Defense's (DOD) move to blacklist Anthropic's AI tools earlier this year was illegal, according to a ruling by a San Francisco federal judge.\n",
-        "description": "The Department of Defense's (DOD) move to blacklist Anthropic's AI tools earlier this year was illegal, according to a ruling by a San Francisco federal judge.\n\nThe AI company was ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "PCMag UK",
-        "url": "https://uk.pcmag.com/ai/166952/pentagons-anthropic-blacklisting-ruled-illegal-by-us-judge"
-      },
-      {
-        "name": "Pentagon's Anthropic Blacklisting Ruled Illegal By US Judge",
-        "provider": "PCMag Australia",
-        "type": "AI 项目/工具",
-        "bestFor": "The Department of Defense's (DOD) move to blacklist Anthropic's AI tools earlier this year was illegal, according to a ruling by a San Francisco federal judge.\n",
-        "description": "The Department of Defense's (DOD) move to blacklist Anthropic's AI tools earlier this year was illegal, according to a ruling by a San Francisco federal judge.\n\nThe AI company was ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "PCMag Australia",
-        "url": "https://au.pcmag.com/ai/119558/pentagons-anthropic-blacklisting-ruled-illegal-by-us-judge"
       }
     ],
     "ai-business": [
+      {
+        "name": "It's Tim Cook's last day as Apple CEO. Investors are $4 tril",
+        "provider": "Yahoo! Finance",
+        "type": "AI 项目/工具",
+        "bestFor": "Apple's (AAPL) Tim Cook is stepping as CEO today, turning over the role to senior vice president of hardware engineering John Ternus.\n\nCook will stay on at Appl",
+        "description": "Apple's (AAPL) Tim Cook is stepping as CEO today, turning over the role to senior vice president of hardware engineering John Ternus.\n\nCook will stay on at Apple as its executive c",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Yahoo! Finance",
+        "url": "https://finance.yahoo.com/markets/stocks/article/its-tim-cooks-last-day-as-apple-ceo-investors-are-4-trillion-richer-because-of-him-230325985.html"
+      },
+      {
+        "name": "You pay these 4 hidden costs every time you use Gmail",
+        "provider": "The How-To Geek",
+        "type": "AI 项目/工具",
+        "bestFor": "Lately, he's obsessed with how AI is reshaping the business world, the deals, the products, the quiet feature rollouts nobody notices until they're everywhere. ",
+        "description": "Lately, he's obsessed with how AI is reshaping the business world, the deals, the products, the quiet feature rollouts nobody notices until they're everywhere. Reading and writing ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The How-To Geek",
+        "url": "https://www.howtogeek.com/you-pay-these-4-hidden-costs-every-time-you-use-gmail/"
+      },
       {
         "name": "Business groups urge Swinney to scrap 'ineffective' food pri",
         "provider": "RocketNews | Top News Stories From Around the Globe",
@@ -7424,28 +7428,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Yahoo! Finance",
         "url": "https://ca.finance.yahoo.com/news/wix-applovin-manhattan-associates-strategy-063700901.html"
-      },
-      {
-        "name": "Google unveils lower-cost Gemini 3.7 Flash AI model",
-        "provider": "Birmingham Star",
-        "type": "AI 项目/工具",
-        "bestFor": "Gemini 3.7 Flash is being pitched as a lower-cost option for businesses building autonomous AI systems that can plan tasks, use software tools and complete mult",
-        "description": "Gemini 3.7 Flash is being pitched as a lower-cost option for businesses building autonomous AI systems that can plan tasks, use software tools and complete multi-step workflows wit",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Birmingham Star",
-        "url": "https://www.birminghamstar.com/news/279240309/google-unveils-lower-cost-gemini-3-7-flash-ai-model"
-      },
-      {
-        "name": "Anthropic's investor talks, Workday's stock surge, Apple's n",
-        "provider": "CNBC",
-        "type": "AI 项目/工具",
-        "bestFor": "Follow your favorite stocksCREATE FREE ACCOUNT\n\nThis is CNBC's Morning Squawk newsletter. Subscribe here to receive future editions in your inbox.\n\nHappy Friday",
-        "description": "Follow your favorite stocksCREATE FREE ACCOUNT\n\nThis is CNBC's Morning Squawk newsletter. Subscribe here to receive future editions in your inbox.\n\nHappy Friday. Reddit was announc",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "CNBC",
-        "url": "https://www.cnbc.com/2026/08/14/5-things-to-know-before-the-market-opens.html"
       }
     ],
     "ai-benchmark": [
@@ -8037,6 +8019,17 @@
     ],
     "ai-image-video": [
       {
+        "name": "Thailand gets a new passport, it will give free AI access to",
+        "provider": "India Today",
+        "type": "AI 项目/工具",
+        "bestFor": "Thailand has launched its TH-AI Passport today giving eligible Thai citizens access to a central platform called AiPASS (Image generated using AI)\n\nThailand has",
+        "description": "Thailand has launched its TH-AI Passport today giving eligible Thai citizens access to a central platform called AiPASS (Image generated using AI)\n\nThailand has launched a new kind",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "India Today",
+        "url": "https://www.indiatoday.in/technology/news/story/thailand-gets-a-new-passport-it-will-give-free-ai-access-to-everybody-2983821-2026-08-31"
+      },
+      {
         "name": "Google Gemini Omni 1.1 Unveils Better 4K AI Video Tools - Te",
         "provider": "TechGenyz",
         "type": "AI 项目/工具",
@@ -8578,21 +8571,6 @@
         "watch": "使用AI生成内容可能导致艺术价值的贬低，影响玩家对品牌的忠诚度。",
         "sourceName": "NewsData.io:generative AI",
         "url": "https://www.gamesradar.com/games/action/stellar-blade-blood-rain-gets-official-music-video-full-of-ai-slop-and-fans-arent-happy-its-a-slap-in-the-face-to-your-artists/"
-      },
-      {
-        "name": "Pixel 11 Pro Fold 完整泄露，Pixel Glow 特性曝光",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "此次 Pixel 11 Pro Fold 的泄露可能会影响消费者的购买决策，尤其是在即将到来的发布会前。Pixel Glow 特性的确认，可能会吸引更多对智能手机摄影和通知功能有需求的用户。此外，谷歌在设计上的延续性可能会影响其品牌忠诚度，消费者可能更倾向于选择熟悉的设计语言。随着市场上折叠手机的竞争加剧，谷歌的轻量化",
-        "description": "谷歌尚未正式发布 Pixel 11 Pro Fold，但最新泄露的高分辨率图像显示该设备的设计细节。泄露的图像不仅展示了绿色外观，还确认了 Pixel Glow 环境光特性将出现在该设备上，进一步提升了其市场吸引力。",
-        "useCases": [
-          "查看 Pixel 11 Pro Fold 的设计细节以进行市场分析。",
-          "评估 Pixel Glow 特性对用户体验的影响。",
-          "比较 Pixel 11 Pro Fold 与其他折叠手机的设计和功能。"
-        ],
-        "watch": "泄露的信息可能不完全准确，影响消费者预期。",
-        "sourceName": "NewsAPI:large language model",
-        "url": "https://the-gadgeteer.com/2026/07/30/pixel-11-pro-fold-leak-images-pixel-glow/"
       }
     ],
     "ai-research": [
@@ -10486,7 +10464,7 @@
   ],
   "dailyReport": {
     "date": "2026-08-31",
-    "generatedAt": "2026-08-31T10:54:18.145763Z",
+    "generatedAt": "2026-08-31T13:24:57.087305Z",
     "total": 13,
     "sections": [
       {
