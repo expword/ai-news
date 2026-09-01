@@ -1,7 +1,98 @@
 {
   "lastUpdated": "2026-09-02",
-  "generatedAt": "2026-09-01T16:54:58.567558Z",
+  "generatedAt": "2026-09-01T19:17:24.734584Z",
   "news": [
+    {
+      "title": "Mapping global methane emissions from space with deep learning",
+      "summary": "Climate & Sustainability",
+      "category": "ai-models",
+      "source": "RSS · Google Research",
+      "date": "2026-09-02",
+      "publishedAt": "2026-09-02T02:40",
+      "collectedAt": "2026-09-02T03:17",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://research.google/blog/mapping-global-methane-emissions-from-space-with-deep-learning/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "How AI-native companies turn workflows into operating capability",
+      "summary": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
+      "category": "ai-agents",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-09-02",
+      "publishedAt": "2026-09-02T01:00",
+      "collectedAt": "2026-09-02T02:05",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/ai-native-company-workflows",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Introducing agentic video understanding with Gemini",
+      "summary": "",
+      "category": "ai-agents",
+      "source": "RSS · Google DeepMind",
+      "date": "2026-09-02",
+      "publishedAt": "2026-09-02T01:08",
+      "collectedAt": "2026-09-02T02:05",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 2,
+      "relatedSources": [
+        {
+          "source": "Google DeepMind：Blog（RSS）",
+          "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini",
+          "title": "Google DeepMind 为 Gemini 推出 agentic 视频理解功能"
+        }
+      ]
+    },
     {
       "title": "Tokenomics at scale: How Jamf built real-time spend enforcement for Amazon Bedrock",
       "summary": "As generative AI adoption scales, cost governance becomes a top challenge. Learn how Jamf built real-time, per-user spend enforcement for Amazon Bedrock using IAM Customer Managed ",
@@ -110,6 +201,60 @@
       "moduleTargets": [
         "news",
         "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
+      "summary": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.",
+      "category": "ai-research",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-09-01",
+      "publishedAt": "2026-09-01T20:00",
+      "collectedAt": "2026-09-02T02:05",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Sep 1, 2026 Announcements Developing Enterprise Frontier Safeguards with our customers",
+      "summary": "Sep 1, 2026 Announcements Developing Enterprise Frontier Safeguards with our customers",
+      "category": "ai-models",
+      "source": "HTML · Anthropic",
+      "date": "2026-09-01",
+      "publishedAt": "",
+      "collectedAt": "2026-09-02T02:05",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-01",
+      "tags": [],
+      "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
       ],
       "sourceCount": 1
     },
@@ -2562,115 +2707,6 @@
       "sourceDate": "2026-08-27",
       "tags": [],
       "url": "https://www.anthropic.com/news/expanding-support-for-scientists",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Previewing the Model Hardware Standard Announcements Aug 27, 2026 We’re opening a research preview of the Model Hardware",
-      "summary": "Previewing the Model Hardware Standard Announcements Aug 27, 2026 We’re opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to saf",
-      "category": "ai-agents",
-      "source": "HTML · Anthropic",
-      "date": "2026-08-27",
-      "publishedAt": "",
-      "collectedAt": "2026-08-28T02:34",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-27",
-      "tags": [],
-      "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Piloting the world's first double-blind AI evaluations",
-      "summary": "Piloting the world's first double-blind AI evaluations",
-      "category": "ai-models",
-      "source": "RSS · Google DeepMind",
-      "date": "2026-08-27",
-      "publishedAt": "2026-08-27T20:59",
-      "collectedAt": "2026-08-28T01:24",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
-      "summary": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
-      "category": "ai-models",
-      "source": "RSS · OpenAI Blog",
-      "date": "2026-08-27",
-      "publishedAt": "2026-08-27T17:00",
-      "collectedAt": "2026-08-28T01:24",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Expanding OpenAI’s presence in Brazil",
-      "summary": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.",
-      "category": "ai-business",
-      "source": "RSS · OpenAI Blog",
-      "date": "2026-08-27",
-      "publishedAt": "2026-08-27T11:00",
-      "collectedAt": "2026-08-28T01:24",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://openai.com/index/expanding-our-presence-in-brazil",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -5652,29 +5688,30 @@
       "date": "2026-08-05"
     },
     {
-      "name": "career-ops-hq/career-ops",
-      "lang": "JavaScript",
-      "description": "Open-source AI job search: scan job portals, evaluate listings into a structured A-H report with a global 1-5 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)",
-      "stars": "69693 stars",
-      "why": "近期更新且具备 AI / LLM / Agent 相关主题，适合做项目介绍、教程或同类对比。",
-      "url": "https://github.com/career-ops-hq/career-ops",
-      "source": "GitHub Search · 2026-09-01",
+      "name": "QwenLM/E-CommerceBench",
+      "lang": "Python",
+      "description": "通义千问 Qwen 开源项目。",
+      "stars": "1 stars",
+      "why": "国产大模型厂商 通义千问 Qwen 的最新开源动态/模型发布，属一手信源。",
+      "url": "https://github.com/QwenLM/E-CommerceBench",
+      "source": "GitHub · 通义千问 Qwen",
+      "tier": "T1",
       "category": "Coding Agent",
-      "details": "Open-source AI job search: scan job portals, evaluate listings into a structured A-H report with a global 1-5 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)",
+      "details": "通义千问 Qwen 开源项目。",
       "features": [],
       "useCases": [],
       "quickStart": []
     },
     {
-      "name": "tinyhumansai/openhuman",
-      "lang": "Rust",
-      "description": "Your Personal AI super intelligence. A brain that builds a local-first memory of your life, a fantastic orchestrator of agent fleets and workflows, and a deep researcher.",
-      "stars": "39275 stars",
+      "name": "ItzCrazyKns/Vane",
+      "lang": "TypeScript",
+      "description": "Vane is an AI-powered answering engine.",
+      "stars": "36572 stars",
       "why": "近期更新且具备 AI / LLM / Agent 相关主题，适合做项目介绍、教程或同类对比。",
-      "url": "https://github.com/tinyhumansai/openhuman",
-      "source": "GitHub Search · 2026-09-01",
+      "url": "https://github.com/ItzCrazyKns/Vane",
+      "source": "GitHub Search · 2026-09-02",
       "category": "Coding Agent",
-      "details": "Your Personal AI super intelligence. A brain that builds a local-first memory of your life, a fantastic orchestrator of agent fleets and workflows, and a deep researcher.",
+      "details": "Vane is an AI-powered answering engine.",
       "features": [],
       "useCases": [],
       "quickStart": []
@@ -5794,6 +5831,17 @@
   ],
   "topicResources": {
     "ai-coding": [
+      {
+        "name": "Claude Fable 5.1 上线 OpenRouter",
+        "provider": "X：OpenRouter (@OpenRouter)",
+        "type": "AI 项目/工具",
+        "bestFor": "Anthropic 的 Claude Fable 5.1 已上线 OpenRouter，官方称其为 Fable 5 工作负载的直接升级版本，提升最大的方向包括 agentic coding、长时间运行的工作流、视觉代码生成、金融和分析。使用入口：https://openrouter.ai/anthropic/claud",
+        "description": "Anthropic 的 Claude Fable 5.1 已上线 OpenRouter，官方称其为 Fable 5 工作负载的直接升级版本，提升最大的方向包括 agentic coding、长时间运行的工作流、视觉代码生成、金融和分析。使用入口：https://openrouter.ai/anthropic/claude-fable-5.1",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "X：OpenRouter (@OpenRouter)",
+        "url": "https://x.com/OpenRouter/status/2094855056936022304"
+      },
       {
         "name": "S3C-LLM: Skill-Code Guided Agentic Language Models for Spect",
         "provider": "arXiv",
@@ -6232,26 +6280,42 @@
         "watch": "AI 工具的使用可能导致对内容创作的依赖，降低原创性。",
         "sourceName": "NewsData.io:AI coding tool",
         "url": "https://talkingbiznews.com/media-news/how-techdirt-uses-ai-but-not-to-write-articles/"
-      },
-      {
-        "name": "Gno.land 发布 Dora：区块链漏洞检测的自主 AI 安全工具",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Dora 的发布将对区块链开发者和安全专家产生深远影响。开发者可以利用 Dora 提高项目的安全性，减少因漏洞导致的损失。同时，安全专家也能借助该工具快速响应潜在威胁，优化安全策略。此外，Dora 的出现可能会促使更多企业重视区块链安全，推动行业标准的提升。",
-        "description": "这次发布的核心点是，Dora 是一款专为区块链安全设计的自主 AI 工具，能够在人工干预之前发现并重现漏洞，从而将区块链安全的工作从简单的漏洞报告提升到有效的修复方案。Dora 的推出标志着区块链安全领域的一次重要进步，尤其是在漏洞检测的效率和准确性上。",
-        "useCases": [
-          "使用 Dora 进行区块链项目的安全审计，及时发现并修复漏洞。",
-          "在开发新智能合约时，利用 Dora 进行漏洞检测，确保合约安全。",
-          "通过 Dora 的实时监控功能，持续跟踪区块链网络的安全状态。",
-          "结合 Dora 的报告，优化安全策略，提升团队的安全意识。",
-          "在区块链应用上线前，使用 Dora 进行全面的安全测试，降低上线风险。"
-        ],
-        "watch": "Dora 的使用可能需要一定的学习曲线，初学者可能会面临操作上的困难。",
-        "sourceName": "NewsData.io:AI coding tool",
-        "url": "https://www.einpresswire.com/article/935253559/gno-land-launches-dora-an-autonomous-ai-security-harness-for-blockchain-vulnerability-detection"
       }
     ],
     "ai-agents": [
+      {
+        "name": "How AI-native companies turn workflows into operating capabi",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
+        "description": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · OpenAI Blog",
+        "url": "https://openai.com/index/ai-native-company-workflows"
+      },
+      {
+        "name": "Introducing agentic video understanding with Gemini",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "",
+        "description": "",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Google DeepMind",
+        "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/"
+      },
+      {
+        "name": "Google DeepMind 为 Gemini 推出 agentic 视频理解功能",
+        "provider": "Google DeepMind：Blog（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "Google DeepMind 为 Gemini 3.7 Flash、3.6 Flash 和 3.5 Flash-Lite 推出 agentic video understanding，模型动态扫描视频片段，相比固定帧率处理 token 消耗最多降低 88%，成本最多降低 66%，准确率最多提升 7%。",
+        "description": "Google DeepMind 为 Gemini 3.7 Flash、3.6 Flash 和 3.5 Flash-Lite 推出 agentic video understanding，模型动态扫描视频片段，相比固定帧率处理 token 消耗最多降低 88%，成本最多降低 66%，准确率最多提升 7%。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Google DeepMind：Blog（RSS）",
+        "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini"
+      },
       {
         "name": "From theory to delivery: How Atos upskilled 400 engineers in",
         "provider": "RSS",
@@ -6658,42 +6722,20 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Ethan Mollick：One Useful Thing（RSS）",
         "url": "https://www.oneusefulthing.org/p/agency-and-agents"
-      },
-      {
-        "name": "OpenAI Is Buying So Many Mac Minis and Studios That Apple Ca",
-        "provider": "Startup Fortune",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenAI has quietly bought tens of thousands of Apple Mac minis and Mac Studios to train its AI agents, and Anthropic is renting more through AWS for similar wor",
-        "description": "OpenAI has quietly bought tens of thousands of Apple Mac minis and Mac Studios to train its AI agents, and Anthropic is renting more through AWS for similar work. The buying spree ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Startup Fortune",
-        "url": "https://startupfortune.com/openai-is-buying-so-many-mac-minis-and-studios-that-apple-cant-keep-up/"
-      },
-      {
-        "name": "Cashfree rolls out AI agents for merchants to automate payme",
-        "provider": "Business Standard",
-        "type": "AI 项目/工具",
-        "bestFor": "Cashfree said while the service is free at launch, it plans to introduce outcome-based pricing in the future\n\nFintech firm Cashfree Payments is rolling out arti",
-        "description": "Cashfree said while the service is free at launch, it plans to introduce outcome-based pricing in the future\n\nFintech firm Cashfree Payments is rolling out artificial intelligence ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Business Standard",
-        "url": "https://www.business-standard.com/companies/news/cashfree-rolls-out-ai-agents-for-merchants-to-automate-payment-operations-126083000455_1.html"
-      },
-      {
-        "name": "Voice AI Agent Security and Compliance Checklist for Regulat",
-        "provider": "Medium",
-        "type": "AI 项目/工具",
-        "bestFor": "A voice AI agent does not make one mistake at a time. If a single conversational flow lets an agent confirm a caller's identity after answering a sensitive ques",
-        "description": "A voice AI agent does not make one mistake at a time. If a single conversational flow lets an agent confirm a caller's identity after answering a sensitive question instead of befo",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Medium",
-        "url": "https://blog.stackademic.com/voice-ai-agent-security-and-compliance-checklist-for-regulated-industries-17d72e8eeb41"
       }
     ],
     "ai-models": [
+      {
+        "name": "Anthropic 发布 Claude Fable 5.1 与 Claude Mythos 5.1",
+        "provider": "Claude Platform：开发者版本说明（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "Anthropic 发布 Claude Fable 5.1（claude-fable-5-1），面向长时间运行的智能体编码、知识工作与研究，Claude Mythos 5.1 面向 Project Glasswing 参与者。",
+        "description": "Anthropic 发布 Claude Fable 5.1（claude-fable-5-1），面向长时间运行的智能体编码、知识工作与研究，Claude Mythos 5.1 面向 Project Glasswing 参与者。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Claude Platform：开发者版本说明（RSS）",
+        "url": "https://platform.claude.com/docs/en/release-notes/overview#september-1-2026"
+      },
       {
         "name": "Google Workspace 推出图像创作编辑工具 Google Pics",
         "provider": "Google Blog：AI（RSS）",
@@ -7122,17 +7164,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "adda247",
         "url": "https://currentaffairs.adda247.com/maharashtra-government-approves-logistics-policy-2024/"
-      },
-      {
-        "name": "Here's what Meta's $18 billion multistate settlement could m",
-        "provider": "Egypt Independent",
-        "type": "AI 项目/工具",
-        "bestFor": "New York -- Meta on Wednesday agreed to make sweeping changes to its platforms as part of an $18 billion settlement with dozens of states over claims its platfo",
-        "description": "New York -- Meta on Wednesday agreed to make sweeping changes to its platforms as part of an $18 billion settlement with dozens of states over claims its platforms contributed to a",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Egypt Independent",
-        "url": "https://cloudflare.egyptindependent.com/heres-what-metas-18-billion-multistate-settlement-could-mean-for-kids-and-for-its-bottom-line/"
       }
     ],
     "ai-business": [
@@ -8704,6 +8735,17 @@
     ],
     "ai-research": [
       {
+        "name": "Mapping global methane emissions from space with deep learni",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Climate & Sustainability",
+        "description": "Climate & Sustainability",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Google Research",
+        "url": "https://research.google/blog/mapping-global-methane-emissions-from-space-with-deep-learning/"
+      },
+      {
         "name": "LLMODE: Aligning ODEs with LLMs via Gated Token Injection fo",
         "provider": "arXiv",
         "type": "AI 项目/工具",
@@ -9166,21 +9208,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2608.11164v1"
-      },
-      {
-        "name": "专有 LLM API 的加密推理轨迹被窃取的风险分析",
-        "provider": "HuggingFace Daily Papers（社区热门论文）",
-        "type": "AI 项目/工具",
-        "bestFor": "这一发现对 LLM 的使用和开发产生了深远影响。首先，开发者需要重新评估其数据共享和存储策略，以防止无意中泄露敏感信息。其次，企业在选择 LLM 提供商时，需关注其安全性和合规性，可能会影响其决策过程。此外，用户对数据隐私的担忧将促使 LLM 提供商加强安全措施，进而影响整个行业的技术发展方向。",
-        "description": "研究表明，Anthropic、OpenAI 和 Google 等公司的专有 LLM API 存在严重的安全漏洞，攻击者可通过跨会话和用户互换加密推理轨迹，强制模型以明文输出推理内容。这一发现揭示了当前 LLM 保护机制的不足，可能导致大规模数据泄露和隐私风险。",
-        "useCases": [
-          "评估 LLM 的安全性，确保数据保护措施到位。",
-          "开发安全的 LLM 应用，避免潜在的隐私泄露。",
-          "设计加密机制，防止推理轨迹被窃取。"
-        ],
-        "watch": "API 的定价和配额可能影响开发者的使用成本，增加商业风险。",
-        "sourceName": "HuggingFace Daily Papers（社区热门论文）",
-        "url": "https://arxiv.org/abs/2608.09867"
       }
     ],
     "ai-office": []
@@ -10589,8 +10616,8 @@
   ],
   "dailyReport": {
     "date": "2026-09-02",
-    "generatedAt": "2026-09-01T16:54:58.544546Z",
-    "total": 16,
+    "generatedAt": "2026-09-01T19:17:24.707586Z",
+    "total": 21,
     "sections": [
       {
         "category": "ai-image-video",
@@ -10613,6 +10640,28 @@
         "category": "ai-agents",
         "label": "Agent / MCP",
         "items": [
+          {
+            "title": "How AI-native companies turn workflows into operating capability",
+            "summary": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders c",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/ai-native-company-workflows",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-02",
+            "publishedAt": "2026-09-02T01:00",
+            "reason": ""
+          },
+          {
+            "title": "Introducing agentic video understanding with Gemini",
+            "summary": "",
+            "source": "RSS · Google DeepMind",
+            "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
+            "score": 70,
+            "sourceCount": 2,
+            "date": "2026-09-02",
+            "publishedAt": "2026-09-02T01:08",
+            "reason": ""
+          },
           {
             "title": "From theory to delivery: How Atos upskilled 400 engineers in agentic AI",
             "summary": "When Atos set out to upskill 400 engineers in agentic AI, hands-on learning was the missing ingredient. Over three days, engineers built mul",
@@ -10697,6 +10746,17 @@
         "label": "模型发布",
         "items": [
           {
+            "title": "Mapping global methane emissions from space with deep learning",
+            "summary": "Climate & Sustainability",
+            "source": "RSS · Google Research",
+            "url": "https://research.google/blog/mapping-global-methane-emissions-from-space-with-deep-learning/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-02",
+            "publishedAt": "2026-09-02T02:40",
+            "reason": ""
+          },
+          {
             "title": "Tokenomics at scale: How Jamf built real-time spend enforcement for Amazon Bedrock",
             "summary": "As generative AI adoption scales, cost governance becomes a top challenge. Learn how Jamf built real-time, per-user spend enforcement for Am",
             "source": "RSS · AWS Machine Learning",
@@ -10705,6 +10765,17 @@
             "sourceCount": 1,
             "date": "2026-09-02",
             "publishedAt": "2026-09-02T00:03",
+            "reason": ""
+          },
+          {
+            "title": "Sep 1, 2026 Announcements Developing Enterprise Frontier Safeguards with our customers",
+            "summary": "Sep 1, 2026 Announcements Developing Enterprise Frontier Safeguards with our customers",
+            "source": "HTML · Anthropic",
+            "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-01",
+            "publishedAt": "",
             "reason": ""
           },
           {
@@ -10757,6 +10828,17 @@
         "category": "ai-research",
         "label": "论文研究",
         "items": [
+          {
+            "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
+            "summary": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-01",
+            "publishedAt": "2026-09-01T20:00",
+            "reason": ""
+          },
           {
             "title": "NLP-Driven Knowledge Extraction and Thematic Classification of Translated Ancient Indian Medical Texts",
             "summary": "arXiv:2608.28608v1 Announce Type: new Abstract: Ancient Indian medical texts like Sushruta Samhita have extensive information on diseases, t",
