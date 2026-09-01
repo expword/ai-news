@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-01",
-  "generatedAt": "2026-09-01T11:45:00.015507Z",
+  "generatedAt": "2026-09-01T13:04:31.719844Z",
   "news": [
     {
       "title": "NLP-Driven Knowledge Extraction and Thematic Classification of Translated Ancient Indian Medical Texts",
@@ -2476,33 +2476,6 @@
       "sourceDate": "",
       "tags": [],
       "url": "https://openai.com/index/expanding-our-presence-in-brazil",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "GlucoFM：面向连续血糖监测的基础模型",
-      "summary": "Google Research 推出 GlucoFM，一款轻量级自监督 CGM 基础模型，采用双流设计分别建模缓慢血糖趋势与短期波动。在四个队列、七项临床预测任务的 14 项评估中，其 PR-AUC 较最优 GluFormer 变体平均高出 5.8 个百分点，并在 PPGR 预测中取得最低 MAE。模型在 109，066 小时无标注 CGM 数据上预训练，具",
-      "category": "ai-research",
-      "source": "Google Research：Blog（网页）",
-      "date": "2026-08-27",
-      "publishedAt": "2026-08-27T04:10",
-      "collectedAt": "2026-08-27T05:16",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://research.google/blog/glucofm-foundation-model-for-continuous-glucose-monitoring",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -5484,31 +5457,29 @@
       "date": "2026-08-05"
     },
     {
-      "name": "THUDM/INFTY",
-      "lang": "Python",
-      "description": "INFTY Engine: An Optimization Toolkit to Support Continual AI",
-      "stars": "574 stars",
-      "why": "国产大模型厂商 智谱 GLM 的最新开源动态/模型发布，属一手信源。",
-      "url": "https://github.com/THUDM/INFTY",
-      "source": "GitHub · 智谱 GLM",
-      "tier": "T1",
+      "name": "career-ops-hq/career-ops",
+      "lang": "JavaScript",
+      "description": "Open-source AI job search: scan job portals, evaluate listings into a structured A-H report with a global 1-5 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)",
+      "stars": "69693 stars",
+      "why": "近期更新且具备 AI / LLM / Agent 相关主题，适合做项目介绍、教程或同类对比。",
+      "url": "https://github.com/career-ops-hq/career-ops",
+      "source": "GitHub Search · 2026-09-01",
       "category": "Coding Agent",
-      "details": "INFTY Engine: An Optimization Toolkit to Support Continual AI",
+      "details": "Open-source AI job search: scan job portals, evaluate listings into a structured A-H report with a global 1-5 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)",
       "features": [],
       "useCases": [],
       "quickStart": []
     },
     {
-      "name": "OpenBMB/SimpleNav",
-      "lang": "Python",
-      "description": "SimpleNav: A simple, unified, reproducible, and extensible framework for navigation VLA research.",
-      "stars": "7 stars",
-      "why": "国产大模型厂商 面壁智能 MiniCPM 的最新开源动态/模型发布，属一手信源。",
-      "url": "https://github.com/OpenBMB/SimpleNav",
-      "source": "GitHub · 面壁智能 MiniCPM",
-      "tier": "T1",
+      "name": "tinyhumansai/openhuman",
+      "lang": "Rust",
+      "description": "Your Personal AI super intelligence. A brain that builds a local-first memory of your life, a fantastic orchestrator of agent fleets and workflows, and a deep researcher.",
+      "stars": "39275 stars",
+      "why": "近期更新且具备 AI / LLM / Agent 相关主题，适合做项目介绍、教程或同类对比。",
+      "url": "https://github.com/tinyhumansai/openhuman",
+      "source": "GitHub Search · 2026-09-01",
       "category": "Coding Agent",
-      "details": "SimpleNav: A simple, unified, reproducible, and extensible framework for navigation VLA research.",
+      "details": "Your Personal AI super intelligence. A brain that builds a local-first memory of your life, a fantastic orchestrator of agent fleets and workflows, and a deep researcher.",
       "features": [],
       "useCases": [],
       "quickStart": []
@@ -6529,6 +6500,28 @@
     ],
     "ai-models": [
       {
+        "name": "OpenAI to Apple: This dispute is a mess of your own making, ",
+        "provider": "The Times of India",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenAI has strongly rejected accusations made by Apple on trade secret misappropriation, telling a federal judge that the iPhone maker has failed to show that a",
+        "description": "OpenAI has strongly rejected accusations made by Apple on trade secret misappropriation, telling a federal judge that the iPhone maker has failed to show that any proprietary asset",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Times of India",
+        "url": "https://timesofindia.indiatimes.com/technology/tech-news/openai-to-apple-this-dispute-is-a-mess-of-your-own-making-and-you-are-blaming-everyone/articleshow/133681835.cms"
+      },
+      {
+        "name": "Defense startup raises $61 million to put AI into a wrist-wo",
+        "provider": "Defense News",
+        "type": "AI 项目/工具",
+        "bestFor": "Smack Technologies' Alpha device. (Rendering courtesy of Smack Technologies)\n\nFor the U.S. military, artificial intelligence tools help analysts turn enormous a",
+        "description": "Smack Technologies' Alpha device. (Rendering courtesy of Smack Technologies)\n\nFor the U.S. military, artificial intelligence tools help analysts turn enormous amounts of data into ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Defense News",
+        "url": "https://www.defensenews.com/news/your-military/2026/09/01/defense-startup-raises-61-million-to-put-ai-into-a-wrist-worn-display/"
+      },
+      {
         "name": "Reliance Jio 3GB Per Day Prepaid Plans for Heavy Data Users ",
         "provider": "TelecomTalk",
         "type": "AI 项目/工具",
@@ -6945,28 +6938,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Firstpost",
         "url": "https://www.firstpost.com/explainers/chattjb-the-chat-service-powered-by-ai-average-individuals-14041258.html"
-      },
-      {
-        "name": "Anthropic Sued By Sony Music, Warner Chappell Music, Other M",
-        "provider": "Tekedia",
-        "type": "AI 项目/工具",
-        "bestFor": "Anthropic has been sued by Sony Music Publishing, Warner Chappell Music and other major music publishers, which accuse the artificial intelligence company of il",
-        "description": "Anthropic has been sued by Sony Music Publishing, Warner Chappell Music and other major music publishers, which accuse the artificial intelligence company of illegally obtaining an",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Tekedia",
-        "url": "https://www.tekedia.com/anthropic-sued-by-sony-music-warner-chappell-music-other-music-publishers-over-alleged-mass-piracy-of-copyrighted-songs/"
-      },
-      {
-        "name": "'Robbing you of your thinking': Teacher warns AI is hurting ",
-        "provider": "NZ Herald",
-        "type": "AI 项目/工具",
-        "bestFor": "\"Now what's happening is, you type in a question, and it literally scans millions of articles, and gives you the answer - it does all the thinking for you.\n\n\"It",
-        "description": "\"Now what's happening is, you type in a question, and it literally scans millions of articles, and gives you the answer - it does all the thinking for you.\n\n\"It's taking all the co",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NZ Herald",
-        "url": "https://www.nzherald.co.nz/northern-advocate/news/ai-in-schools-whangarei-teacher-warns-of-harm-to-students-critical-thinking/premium/JSMZCNHEJVFU5NJRQOY5WHHHGQ/"
       }
     ],
     "ai-business": [
@@ -7998,6 +7969,17 @@
     ],
     "ai-image-video": [
       {
+        "name": "YouTube inks Amazon partnership to boost online shopping bet",
+        "provider": "@businessline",
+        "type": "AI 项目/工具",
+        "bestFor": "YouTube has tapped Amazon.com Inc. as its newest affiliate partner in YouTube Shopping, part of the video giant's push to prioritize e-commerce as one of its ne",
+        "description": "YouTube has tapped Amazon.com Inc. as its newest affiliate partner in YouTube Shopping, part of the video giant's push to prioritize e-commerce as one of its next big bets.\n\nYouTub",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "@businessline",
+        "url": "https://www.thehindubusinessline.com/info-tech/youtube-inks-amazon-partnership-to-boost-online-shopping-bet/article71414986.ece"
+      },
+      {
         "name": "Thailand gets a new passport, it will give free AI access to",
         "provider": "India Today",
         "type": "AI 项目/工具",
@@ -8535,21 +8517,6 @@
         "watch": "可能面临的法律风险，包括因虚假信息引发的诉讼。",
         "sourceName": "NewsData.io:artificial intelligence",
         "url": "https://thefrontierpost.com/google-rolls-back-new-satellite-image-ai-tool-after-backlash/"
-      },
-      {
-        "name": "《Stellar Blade: Blood Rain》发布AI音乐视频引发玩家不满",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "这次事件引发了玩家对AI生成内容的广泛讨论，尤其是在游戏行业中。许多玩家表示，使用AI生成的内容可能会影响游戏的艺术质量和玩家的体验。对于Shift Up而言，这一争议可能会导致其品牌形象受损，影响未来的销售和玩家忠诚度。另一方面，随着AI技术的普及，开发者可能会面临如何平衡技术应用与艺术创作之间的挑战。",
-        "description": "《Stellar Blade: Blood Rain》的开发商Shift Up因发布一段由AI生成的官方音乐视频而遭到玩家的强烈反对。视频中主角Evie在未来城市中唱歌跳舞，但AI生成的痕迹明显，许多粉丝认为这贬低了团队的艺术价值，呼吁停止使用AI来制作内容。",
-        "useCases": [
-          "分析AI生成内容对游戏艺术的影响，评估其对玩家体验的潜在影响。",
-          "探讨如何在游戏开发中合理使用AI技术，以保持艺术创作的独特性。",
-          "研究玩家对AI生成内容的接受度，制定相应的市场策略。"
-        ],
-        "watch": "使用AI生成内容可能导致艺术价值的贬低，影响玩家对品牌的忠诚度。",
-        "sourceName": "NewsData.io:generative AI",
-        "url": "https://www.gamesradar.com/games/action/stellar-blade-blood-rain-gets-official-music-video-full-of-ai-slop-and-fans-arent-happy-its-a-slap-in-the-face-to-your-artists/"
       }
     ],
     "ai-research": [
@@ -10439,7 +10406,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-01",
-    "generatedAt": "2026-09-01T11:44:59.988528Z",
+    "generatedAt": "2026-09-01T13:04:31.696847Z",
     "total": 40,
     "sections": [
       {
