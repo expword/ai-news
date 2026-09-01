@@ -1,7 +1,61 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-01",
-  "generatedAt": "2026-09-01T09:12:01.490490Z",
+  "generatedAt": "2026-09-01T11:45:00.015507Z",
   "news": [
+    {
+      "title": "NLP-Driven Knowledge Extraction and Thematic Classification of Translated Ancient Indian Medical Texts",
+      "summary": "arXiv:2608.28608v1 Announce Type: new Abstract: Ancient Indian medical texts like Sushruta Samhita have extensive information on diseases, treatments, and surgical techniques. Yet,",
+      "category": "ai-research",
+      "source": "RSS · arXiv cs.CL",
+      "date": "2026-09-01",
+      "publishedAt": "",
+      "collectedAt": "2026-09-01T19:44",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-01",
+      "tags": [],
+      "url": "https://arxiv.org/abs/2608.28608",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Expert-validated STEM QA",
+      "summary": "arXiv:2608.28591v1 Announce Type: new Abstract: Recent advancements in AI are helping scientists achieve breakthroughs in fields such as mathematics, medicine, and materials scienc",
+      "category": "ai-research",
+      "source": "RSS · arXiv cs.AI",
+      "date": "2026-09-01",
+      "publishedAt": "",
+      "collectedAt": "2026-09-01T18:29",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-01",
+      "tags": [],
+      "url": "https://arxiv.org/abs/2608.28591",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Anthropic 研究：训练一个错位的奖励寻求者模型",
       "summary": "Anthropic 发布新研究 Training a Misaligned Reward Seeker，探究奖励作弊（reward-hacking）是否会让模型学会不择手段追求奖励。",
@@ -2461,34 +2515,6 @@ window.AI_GENERATED_DATA = {
       "aiSelected": true,
       "moduleTargets": [
         "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Evaluate any agent framework with Amazon Bedrock AgentCore Evaluations",
-      "summary": "Amazon Bedrock AgentCore Evaluations decouples agent evaluation from the framework you build on. As long as your agent emits OpenTelemetry telemetry, the service can score it, whet",
-      "category": "ai-agents",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-08-27",
-      "publishedAt": "2026-08-27T03:13",
-      "collectedAt": "2026-08-27T04:06",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/evaluate-any-agent-framework-with-amazon-bedrock-agentcore-evaluations/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
       ],
       "sourceCount": 1
     }
@@ -6503,6 +6529,61 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-models": [
       {
+        "name": "Reliance Jio 3GB Per Day Prepaid Plans for Heavy Data Users ",
+        "provider": "TelecomTalk",
+        "type": "AI 项目/工具",
+        "bestFor": "India's leading telecom operator, Reliance Jio, had per-capita data consumption of 43.7GB per month as of 1Q FY27 and offers a range of plans for its very-high-",
+        "description": "India's leading telecom operator, Reliance Jio, had per-capita data consumption of 43.7GB per month as of 1Q FY27 and offers a range of plans for its very-high-usage customers. Wit",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "TelecomTalk",
+        "url": "https://telecomtalk.info/reliance-jio-3gb-per-day-plans-sept2026/1011397/"
+      },
+      {
+        "name": "Tim Cook's Apple: his 10 biggest wins and misses",
+        "provider": "The Verge",
+        "type": "AI 项目/工具",
+        "bestFor": "Expectations for Tim Cook were almost impossibly high when he stepped in to replace Apple's visionary co-founder in 2011. He inherited a company on a blockbuste",
+        "description": "Expectations for Tim Cook were almost impossibly high when he stepped in to replace Apple's visionary co-founder in 2011. He inherited a company on a blockbuster run, after Steve J",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Verge",
+        "url": "https://www.theverge.com/tech/987043/tim-cook-biggest-wins-misses"
+      },
+      {
+        "name": "Android Auto gets a new app icon: a bigger redesign nears",
+        "provider": "Softonic",
+        "type": "AI 项目/工具",
+        "bestFor": "AIAndroid Auto gets a new app icon: a bigger redesign nears\n\nVersion 17.6 brings a greener icon before wider UI changes\n\nAndroid Auto, Google's in-car interface",
+        "description": "AIAndroid Auto gets a new app icon: a bigger redesign nears\n\nVersion 17.6 brings a greener icon before wider UI changes\n\nAndroid Auto, Google's in-car interface, has been bumped to",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Softonic",
+        "url": "https://en.softonic.com/articles/android-auto-gets-a-new-app-icon-a-bigger-redesign-nears"
+      },
+      {
+        "name": "Sony and Warner say Claude trained on stolen songs",
+        "provider": "Cybernews",
+        "type": "AI 项目/工具",
+        "bestFor": "The labels seek up to $150,000 for each alleged copyright infringement.\n\nSony Music Publishing and Warner Chappell are suing Anthropic, accusing the AI company ",
+        "description": "The labels seek up to $150,000 for each alleged copyright infringement.\n\nSony Music Publishing and Warner Chappell are suing Anthropic, accusing the AI company of training Claude o",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Cybernews",
+        "url": "https://cybernews.com/ai-news/sony-warner-sue-anthropic-over-training/"
+      },
+      {
+        "name": "Sony, Warner sue Anthropic over pirated lyrics in Claude",
+        "provider": "MediaNama",
+        "type": "AI 项目/工具",
+        "bestFor": "You can access the court document from here.\n\nSony Music Publishing, Warner Chappell Music and several affiliated publishers have sued Anthropic, CEO Dario Amod",
+        "description": "You can access the court document from here.\n\nSony Music Publishing, Warner Chappell Music and several affiliated publishers have sued Anthropic, CEO Dario Amodei and co-founder Be",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "MediaNama",
+        "url": "https://www.medianama.com/2026/09/223-publishers-sue-anthropi-pirated-lyrics/"
+      },
+      {
         "name": "Coastal Road Guards: Protecting a country from itself",
         "provider": "The Guardian",
         "type": "AI 项目/工具",
@@ -6886,61 +6967,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "NZ Herald",
         "url": "https://www.nzherald.co.nz/northern-advocate/news/ai-in-schools-whangarei-teacher-warns-of-harm-to-students-critical-thinking/premium/JSMZCNHEJVFU5NJRQOY5WHHHGQ/"
-      },
-      {
-        "name": "Hormuz Shipping Remains Subdued Despite Apparent Reopening",
-        "provider": "RocketNews | Top News Stories From Around the Globe",
-        "type": "AI 项目/工具",
-        "bestFor": "The Strait of Hormuz has been formally reopened to shipping following U.S. mine-clearing operations in internationally recognized lanes, yet commercial activity",
-        "description": "The Strait of Hormuz has been formally reopened to shipping following U.S. mine-clearing operations in internationally recognized lanes, yet commercial activity remains far below p",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RocketNews | Top News Stories From Around the Globe",
-        "url": "https://rocketnews.com/2026/08/hormuz-shipping-remains-subdued-despite-apparent-reopening/"
-      },
-      {
-        "name": "Viral Instinct AI Startup Bags $350M at $2.5B in 2026",
-        "provider": "TechnoSports",
-        "type": "AI 项目/工具",
-        "bestFor": "A 23-year-old founder, a one-year-old company, and a personal assistant that plans weddings and cancels subscriptions -- that's the snapshot behind viral instin",
-        "description": "A 23-year-old founder, a one-year-old company, and a personal assistant that plans weddings and cancels subscriptions -- that's the snapshot behind viral instinct, the AI startup t",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "TechnoSports",
-        "url": "https://technosports.co.in/?p=1425102"
-      },
-      {
-        "name": "Ridley Scott's New Thriller The Dog Stars Rotten Tomatoes Sc",
-        "provider": "ScreenRant",
-        "type": "AI 项目/工具",
-        "bestFor": "Fariba Rezwan is a Lead Editor for the Movie News team. She has been with ScreenRant for nearly five years, with roles ranging from list editor to junior news e",
-        "description": "Fariba Rezwan is a Lead Editor for the Movie News team. She has been with ScreenRant for nearly five years, with roles ranging from list editor to junior news editor.\n\nDuring that ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "ScreenRant",
-        "url": "https://screenrant.com/ridley-scott-the-dog-stars-rotten-tomatoes-audience-score/"
-      },
-      {
-        "name": "Mark Zuckerberg's Meta Just Open-Sourced Its Most Powerful A",
-        "provider": "The Motley Fool",
-        "type": "AI 项目/工具",
-        "bestFor": "Meta Platforms (META +1.21%) is once again releasing some of its artificial intelligence (AI) models with open weights, allowing developers to download and modi",
-        "description": "Meta Platforms (META +1.21%) is once again releasing some of its artificial intelligence (AI) models with open weights, allowing developers to download and modify them.\n\nThe compan",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Motley Fool",
-        "url": "https://www.fool.com/investing/2026/08/29/mark-zuckerbergs-meta-just-open-sourced-its-most-p/"
-      },
-      {
-        "name": "Complex queries sure to hit AI paywalls, or require patience",
-        "provider": "ArkansasOnline",
-        "type": "AI 项目/工具",
-        "bestFor": "When my niece recently applied for a doctoral program in physical therapy, she needed ChatGPT's help to consolidate a list of 20 varied work experiences. That's",
-        "description": "When my niece recently applied for a doctoral program in physical therapy, she needed ChatGPT's help to consolidate a list of 20 varied work experiences. That's when she ran up aga",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "ArkansasOnline",
-        "url": "https://www.arkansasonline.com/news/2026/aug/29/complex-queries-sure-to-hit-ai-paywalls-or/"
       }
     ],
     "ai-business": [
@@ -10413,8 +10439,8 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-01",
-    "generatedAt": "2026-09-01T09:12:01.464878Z",
-    "total": 38,
+    "generatedAt": "2026-09-01T11:44:59.988528Z",
+    "total": 40,
     "sections": [
       {
         "category": "ai-coding",
@@ -10763,6 +10789,28 @@ window.AI_GENERATED_DATA = {
         "category": "ai-research",
         "label": "论文研究",
         "items": [
+          {
+            "title": "NLP-Driven Knowledge Extraction and Thematic Classification of Translated Ancient Indian Medical Texts",
+            "summary": "arXiv:2608.28608v1 Announce Type: new Abstract: Ancient Indian medical texts like Sushruta Samhita have extensive information on diseases, t",
+            "source": "RSS · arXiv cs.CL",
+            "url": "https://arxiv.org/abs/2608.28608",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-01",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Expert-validated STEM QA",
+            "summary": "arXiv:2608.28591v1 Announce Type: new Abstract: Recent advancements in AI are helping scientists achieve breakthroughs in fields such as mat",
+            "source": "RSS · arXiv cs.AI",
+            "url": "https://arxiv.org/abs/2608.28591",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-01",
+            "publishedAt": "",
+            "reason": ""
+          },
           {
             "title": "GigaPath-Flash and GigaTIME-Flash: Toward population-scale discovery with efficient pathology foundation models",
             "summary": "What if pathology foundation models could do more with less? GigaPath-Flash and GigaTIME-Flash cut computational demands while maintaining s",
