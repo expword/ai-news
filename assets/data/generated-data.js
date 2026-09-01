@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-01",
-  "generatedAt": "2026-09-01T04:00:46.478810Z",
+  "generatedAt": "2026-09-01T06:35:41.291211Z",
   "news": [
     {
       "title": "Anthropic 研究：训练一个错位的奖励寻求者模型",
@@ -198,6 +198,336 @@ window.AI_GENERATED_DATA = {
       "aiSelected": true,
       "moduleTargets": [
         "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "From Prompt to Prototype: Towards a Frontier LLM Driven RF Engineering Workflow",
+      "summary": "Agentic coding environments give a frontier large language model (LLM) direct access to a workstation's terminal, file system, and software. This work demonstrates they extend to p",
+      "category": "ai-coding",
+      "source": "arXiv",
+      "date": "2026-08-31",
+      "publishedAt": "",
+      "collectedAt": "2026-09-01T14:34",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-31",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.31006v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "OpenAI supports California’s bill to advance youth AI safety",
+      "summary": "OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.",
+      "category": "ai-models",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-08-31",
+      "publishedAt": "2026-08-31T15:00",
+      "collectedAt": "2026-09-01T14:34",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "InsightToast: Proactive Information Retrieval & Glanceable Visualization in the Side Channel of Data-Rich Meetings",
+      "summary": "Missing institutional context during meetings can impede effective participation. Retrieving relevant information, often scattered across heterogeneous internal and external source",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-08-31",
+      "publishedAt": "",
+      "collectedAt": "2026-09-01T14:34",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-31",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.31115v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "S3Gym: Can LLMs Turn Self-Testing and Self-Judging into Self-Improvement?",
+      "summary": "Large language models (LLMs) increasingly interact with external environments and accumulate substantial behavioral experience, yet existing agent benchmarks largely evaluate them ",
+      "category": "ai-benchmark",
+      "source": "arXiv",
+      "date": "2026-08-31",
+      "publishedAt": "",
+      "collectedAt": "2026-09-01T14:34",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-31",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.31100v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "When Does Bigger Help? A Controlled Study of LLM Scale for Ontology Learning",
+      "summary": "The effect of Large Language Model (LLM) scale on ontology learning (OL) performance remains insufficiently characterized. We present a controlled evaluation of 13 models spanning ",
+      "category": "ai-coding",
+      "source": "arXiv",
+      "date": "2026-08-31",
+      "publishedAt": "",
+      "collectedAt": "2026-09-01T14:34",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-31",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.31118v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "DIASENTINEL: An Auditable Multi-Agent System for Guideline-Grounded Diabetes Risk Screening",
+      "summary": "Large language models (LLMs) offer promising clinical decision support but remain vulnerable to hallucinated facts, unsupported recommendations, and citation errors. We present DIA",
+      "category": "ai-agents",
+      "source": "arXiv",
+      "date": "2026-08-31",
+      "publishedAt": "",
+      "collectedAt": "2026-09-01T14:34",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-31",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.31128v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "A Model with No Head and Many Thoughts",
+      "summary": "Large language models decode by projecting hidden states through a large vocabulary head at every step. This operation is computationally costly and forces all reasoning to be expr",
+      "category": "ai-coding",
+      "source": "arXiv",
+      "date": "2026-08-31",
+      "publishedAt": "",
+      "collectedAt": "2026-09-01T14:34",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-31",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.31069v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "A Universal Context-Reuse Layer for Cross-Model KV Sharing",
+      "summary": "Modern large language model (LLM) serving systems increasingly operate over repeated or shared context, yet each model typically performs its own prefill computation even when anot",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-08-31",
+      "publishedAt": "",
+      "collectedAt": "2026-09-01T14:34",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-31",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.30963v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Wrong Prediction, Right Answer: Recovering Evidence from Collapsed LLM Sequence Scores",
+      "summary": "When a large language model fails a reasoning task, it is often assumed to lack the underlying capability. However, this conflates a genuine absence of reasoning with a late-stage ",
+      "category": "ai-coding",
+      "source": "arXiv",
+      "date": "2026-08-31",
+      "publishedAt": "",
+      "collectedAt": "2026-09-01T14:34",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-31",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.31068v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Beacon: LLM Multi-Agent Driven Hardware Design Space Exploration for Heterogeneous Multi-Chiplet Deep Learning Accelerators",
+      "summary": "Heterogeneous multi-chiplet accelerators allow chiplets to be configured independently to better match different operator characteristics and improve inference efficiency. However,",
+      "category": "ai-agents",
+      "source": "arXiv",
+      "date": "2026-08-31",
+      "publishedAt": "",
+      "collectedAt": "2026-09-01T14:34",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-31",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.30932v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "OntoAligner-Ensemble: Voting-Based Fusion across Heterogeneous Ontology Alignment Techniques",
+      "summary": "Ontology alignment (OA) has evolved through several methodological paradigms, ranging from lexical and structural aligners to knowledge graph embedding (KGE) models and, more recen",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-08-31",
+      "publishedAt": "",
+      "collectedAt": "2026-09-01T13:16",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-31",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.31137v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Agentic research is oxymoronic",
+      "summary": "The use of agentic large language models obviates human interpretation of scientific results, and will lead to substantial distrust in the literature.",
+      "category": "ai-agents",
+      "source": "arXiv",
+      "date": "2026-08-31",
+      "publishedAt": "",
+      "collectedAt": "2026-09-01T13:16",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-31",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.31161v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
       ],
       "sourceCount": 1
     },
@@ -2445,61 +2775,6 @@ window.AI_GENERATED_DATA = {
       "moduleTargets": [
         "news",
         "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "A Self-Evolving Multi-Agent Framework Defense against LLM Jailbreak Attacks",
-      "summary": "Large language models (LLMs) remain vulnerable to jailbreak attacks that exploit techniques such as role-playing, obfuscation, code transformation, and multi-step indirection to el",
-      "category": "ai-coding",
-      "source": "arXiv",
-      "date": "2026-08-26",
-      "publishedAt": "",
-      "collectedAt": "2026-08-27T15:15",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-26",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.26008v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Distinct dynamics of conceptual and referential disruptions in human reading and large language model processing",
-      "summary": "Linguistic meaning is grounded in conceptual content, from which reference to particular entities emerges as words enter discourse. To examine the processing dynamics associated wi",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-08-26",
-      "publishedAt": "",
-      "collectedAt": "2026-08-27T15:15",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-26",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.25999v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
       ],
       "sourceCount": 1
     }
@@ -5469,6 +5744,21 @@ window.AI_GENERATED_DATA = {
       "date": "2026-08-05"
     },
     {
+      "name": "THUDM/INFTY",
+      "lang": "Python",
+      "description": "INFTY Engine: An Optimization Toolkit to Support Continual AI",
+      "stars": "574 stars",
+      "why": "国产大模型厂商 智谱 GLM 的最新开源动态/模型发布，属一手信源。",
+      "url": "https://github.com/THUDM/INFTY",
+      "source": "GitHub · 智谱 GLM",
+      "tier": "T1",
+      "category": "Coding Agent",
+      "details": "INFTY Engine: An Optimization Toolkit to Support Continual AI",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
       "name": "OpenBMB/SimpleNav",
       "lang": "Python",
       "description": "SimpleNav: A simple, unified, reproducible, and extensible framework for navigation VLA research.",
@@ -5479,21 +5769,6 @@ window.AI_GENERATED_DATA = {
       "tier": "T1",
       "category": "Coding Agent",
       "details": "SimpleNav: A simple, unified, reproducible, and extensible framework for navigation VLA research.",
-      "features": [],
-      "useCases": [],
-      "quickStart": []
-    },
-    {
-      "name": "QwenLM/Qwen3.8-Flash-Next",
-      "lang": "Repo",
-      "description": "Qwen3.8-Flash-Next is the foundation model developed by Qwen Team, Alibaba Group.",
-      "stars": "87 stars",
-      "why": "国产大模型厂商 通义千问 Qwen 的最新开源动态/模型发布，属一手信源。",
-      "url": "https://github.com/QwenLM/Qwen3.8-Flash-Next",
-      "source": "GitHub · 通义千问 Qwen",
-      "tier": "T1",
-      "category": "Coding Agent",
-      "details": "Qwen3.8-Flash-Next is the foundation model developed by Qwen Team, Alibaba Group.",
       "features": [],
       "useCases": [],
       "quickStart": []
@@ -5613,6 +5888,39 @@ window.AI_GENERATED_DATA = {
   ],
   "topicResources": {
     "ai-coding": [
+      {
+        "name": "From Prompt to Prototype: Towards a Frontier LLM Driven RF E",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Agentic coding environments give a frontier large language model (LLM) direct access to a workstation's terminal, file system, and software. This work demonstra",
+        "description": "Agentic coding environments give a frontier large language model (LLM) direct access to a workstation's terminal, file system, and software. This work demonstrates they extend to p",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2608.31006v1"
+      },
+      {
+        "name": "We Don't Use AI-Generated Code in Live Production Environmen",
+        "provider": "Finance Magnates",
+        "type": "AI 项目/工具",
+        "bestFor": "The same logic applies to infrastructure: what works at 100 users can buckle at 500,000, and early decisions are the ones brokers end up stuck with.\n\nGrowth use",
+        "description": "The same logic applies to infrastructure: what works at 100 users can buckle at 500,000, and early decisions are the ones brokers end up stuck with.\n\nGrowth used to be linear. You ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Finance Magnates",
+        "url": "https://www.financemagnates.com/forex/we-dont-use-ai-generated-code-in-live-production-environments/"
+      },
+      {
+        "name": "AI Models Are Getting Powerful Enough That Companies Are Hir",
+        "provider": "Times Square Chronicles Newspaper - T2C - Times Square News",
+        "type": "AI 项目/工具",
+        "bestFor": "As AI agents become capable of coding, navigating systems and taking actions with less human supervision, companies are increasingly relying on independent secu",
+        "description": "As AI agents become capable of coding, navigating systems and taking actions with less human supervision, companies are increasingly relying on independent security researchers and",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Times Square Chronicles Newspaper - T2C - Times Square News",
+        "url": "https://t2conline.com/ai-models-are-getting-powerful-enough-that-companies-are-hiring-hackers-to-attack-them-before-customers-do/"
+      },
       {
         "name": "Rogue AI agents on the loose",
         "provider": "Macau Daily Times",
@@ -6039,48 +6347,53 @@ window.AI_GENERATED_DATA = {
         "watch": "缺乏统一的审核机制，可能导致 AI 生成的代码中存在未被发现的漏洞，影响软件安全性。",
         "sourceName": "ITWeb",
         "url": "https://www.itweb.co.za/article/ai-coding-tools-exposing-a-discipline-gap-in-sa-delivery-teams/LPp6VMrBNJZMDKQz"
-      },
-      {
-        "name": "Questflow 宣布品牌进化，推出 AI 财务代理平台",
-        "provider": "Barchart.com",
-        "type": "AI 项目/工具",
-        "bestFor": "Questflow 的平台将使零售投资者能够更好地理解和利用专业投资者的策略，从而在决策过程中获得更大的自主权。通过提供透明的投资框架和实时数据接入，用户将能够在更高的风险控制下进行投资。此外，专业策略提供者将能够通过平台发布经过验证的策略，建立与用户的长期关系。这种双边市场的模式可能会改变投资者与市场之间的互动方式，",
-        "description": "2026 年 8 月 18 日，Questflow 宣布其品牌进化，致力于构建一个 \"金融 Codex\"，将专业投资策略转化为透明、可配置的 AI 财务代理，旨在为投资者提供更广泛的专家金融智能。该平台允许零售投资者发现、理解并利用顶级投资者的市场策略。",
-        "useCases": [
-          "使用 Questflow 的 AI 财务代理分析市场趋势，制定投资决策。",
-          "通过平台发布经过验证的投资策略，吸引更多零售投资者。",
-          "利用实时数据监控市场变化，及时调整投资组合。",
-          "设置个性化的风险控制参数，确保投资安全。",
-          "与其他投资者分享和讨论策略，提升投资决策的透明度。"
-        ],
-        "watch": "API 价格波动可能影响平台的运营成本，需谨慎管理预算。",
-        "sourceName": "Barchart.com",
-        "url": "https://www.barchart.com/story/news/3920378/questflow-unveils-brand-evolution-as-ai-finance-agent-advancing-financial-intelligence-for-all"
-      },
-      {
-        "name": "Cursor Launches Origin to Rival GitHub the Same Day GitHub C",
-        "provider": "Startup Fortune",
-        "type": "AI 项目/工具",
-        "bestFor": "Cursor rolled out Origin, a git hosting platform built into its editor, in beta to all paid users on August 17, the same day a seven-hour GitHub outage knocked ",
-        "description": "Cursor rolled out Origin, a git hosting platform built into its editor, in beta to all paid users on August 17, the same day a seven-hour GitHub outage knocked out pull requests, A",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Startup Fortune",
-        "url": "https://startupfortune.com/cursor-launches-origin-to-rival-github-the-same-day-github-crashed/"
-      },
-      {
-        "name": "Finding Vulnerabilities via LLM-Augmented Semantics-Aware Ty",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Vulnerability detection via static analysis traditionally relies on security experts encoding insecure coding patterns into algorithmic rules. However, this app",
-        "description": "Vulnerability detection via static analysis traditionally relies on security experts encoding insecure coding patterns into algorithmic rules. However, this approach often focuses ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2608.14533v1"
       }
     ],
     "ai-agents": [
+      {
+        "name": "DIASENTINEL: An Auditable Multi-Agent System for Guideline-G",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Large language models (LLMs) offer promising clinical decision support but remain vulnerable to hallucinated facts, unsupported recommendations, and citation er",
+        "description": "Large language models (LLMs) offer promising clinical decision support but remain vulnerable to hallucinated facts, unsupported recommendations, and citation errors. We present DIA",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2608.31128v1"
+      },
+      {
+        "name": "Beacon: LLM Multi-Agent Driven Hardware Design Space Explora",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Heterogeneous multi-chiplet accelerators allow chiplets to be configured independently to better match different operator characteristics and improve inference ",
+        "description": "Heterogeneous multi-chiplet accelerators allow chiplets to be configured independently to better match different operator characteristics and improve inference efficiency. However,",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2608.30932v1"
+      },
+      {
+        "name": "Okta stock jumps 19% on AI agent security demand and a blowo",
+        "provider": "Startup Fortune",
+        "type": "AI 项目/工具",
+        "bestFor": "Okta shares jumped 19% after a fiscal second-quarter earnings beat, with new products led by Identity Governance driving 30% of bookings in a record non-Q4 quar",
+        "description": "Okta shares jumped 19% after a fiscal second-quarter earnings beat, with new products led by Identity Governance driving 30% of bookings in a record non-Q4 quarter. CEO Todd McKinn",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Startup Fortune",
+        "url": "https://startupfortune.com/okta-stock-jumps-19-on-ai-agent-security-demand-and-a-blowout-earnings-beat/"
+      },
+      {
+        "name": "Agentic research is oxymoronic",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "The use of agentic large language models obviates human interpretation of scientific results, and will lead to substantial distrust in the literature.",
+        "description": "The use of agentic large language models obviates human interpretation of scientific results, and will lead to substantial distrust in the literature.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2608.31161v1"
+      },
       {
         "name": "Retail Investing Opens Up to AI Assistants | PYMNTS.com",
         "provider": "PYMNTS.com",
@@ -6476,53 +6789,31 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Yahoo! Finance",
         "url": "https://finance.yahoo.com/markets/crypto/articles/ai-agent-platform-could-send-092000015.html"
-      },
-      {
-        "name": "This New AI Agent Platform Could Send Solana's Price Higher ",
-        "provider": "The Motley Fool",
-        "type": "AI 项目/工具",
-        "bestFor": "On Aug. 24, a platform called Virtuals Protocol (VIRTUAL -4.25%) launched a new suite of artificial intelligence (AI) agent creation and ownership tools on Sola",
-        "description": "On Aug. 24, a platform called Virtuals Protocol (VIRTUAL -4.25%) launched a new suite of artificial intelligence (AI) agent creation and ownership tools on Solana (CRYPTO: SOL). If",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Motley Fool",
-        "url": "https://www.fool.com/investing/2026/08/29/this-new-ai-agent-platform-could-send-solanas-pric/"
-      },
-      {
-        "name": "Agentic AI Spending Hits $1.41 Million a Year as 67% of Ente",
-        "provider": "InfotechLead",
-        "type": "AI 项目/工具",
-        "bestFor": "Agentic AI has moved from experimentation to enterprise-scale production, but cost controls are failing to keep pace.\n\nIDC agentic AI cost-governance research s",
-        "description": "Agentic AI has moved from experimentation to enterprise-scale production, but cost controls are failing to keep pace.\n\nIDC agentic AI cost-governance research shows that 95 percent",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "InfotechLead",
-        "url": "https://infotechlead.com/artificial-intelligence/agentic-ai-spending-hits-1-41-million-a-year-as-67-of-enterprises-exceed-budgets-98063"
-      },
-      {
-        "name": "Circle CEO Says AI Agents Use USDC for 99% of Payments",
-        "provider": "Live Bitcoin News",
-        "type": "AI 项目/工具",
-        "bestFor": "* USDC settled 99.3% of x402 AI agent payment volume during Q2 2026.\n\n* Circle's USDC circulation reached $73.3 billion by the end of Q2 2026.\n\n* Circle is expa",
-        "description": "* USDC settled 99.3% of x402 AI agent payment volume during Q2 2026.\n\n* Circle's USDC circulation reached $73.3 billion by the end of Q2 2026.\n\n* Circle is expanding USDC use acros",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Live Bitcoin News",
-        "url": "https://www.livebitcoinnews.com/circle-ceo-says-ai-agents-use-usdc-for-99-of-payments/"
-      },
-      {
-        "name": "Navigating 'Mind-Blowing' New Media Challenges",
-        "provider": "MediaPost",
-        "type": "AI 项目/工具",
-        "bestFor": "* by Laurie Sullivan , Staff Writer, August 26, 2026\n\nAs AI agents begin to request content directly, publishers and platforms will need systems that expose eno",
-        "description": "* by Laurie Sullivan , Staff Writer, August 26, 2026\n\nAs AI agents begin to request content directly, publishers and platforms will need systems that expose enough metadata for dis",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "MediaPost",
-        "url": "https://www.mediapost.com/publications/article/417480/navigating-mind-blowing-new-media-challenges.html"
       }
     ],
     "ai-models": [
+      {
+        "name": "OpenAI supports California’s bill to advance youth AI safety",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.",
+        "description": "OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · OpenAI Blog",
+        "url": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety"
+      },
+      {
+        "name": "The Best Unified Customer Experience Platform: The 2026 CRM ",
+        "provider": "CRM Magazine",
+        "type": "AI 项目/工具",
+        "bestFor": "Customer experience in 2026 is shifting rapidly from channel-led service to unified CX ecosystems where companies rely on one vendor's solution to orchestrate a",
+        "description": "Customer experience in 2026 is shifting rapidly from channel-led service to unified CX ecosystems where companies rely on one vendor's solution to orchestrate all their customer ex",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "CRM Magazine",
+        "url": "https://www.destinationcrm.com/Articles/ReadArticle.aspx?ArticleID=176262"
+      },
       {
         "name": "Pentagon brings on Grok and ChatGPT for military use",
         "provider": "WSPA 7News",
@@ -6940,28 +7231,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Yahoo! Finance",
         "url": "https://ca.finance.yahoo.com/news/okta-okta-grew-remaining-performance-031750646.html"
-      },
-      {
-        "name": "Forest City SFZ Clarifies Incentive Framework for Fintech an",
-        "provider": "The Manila times",
-        "type": "AI 项目/工具",
-        "bestFor": "Forest City SFZ sets out who may qualify for its 5% special corporate tax rate, how the separate Malaysia Digital tax incentive works, and which activities and ",
-        "description": "Forest City SFZ sets out who may qualify for its 5% special corporate tax rate, how the separate Malaysia Digital tax incentive works, and which activities and conditions apply to ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Manila times",
-        "url": "https://www.manilatimes.net/2026/08/29/tmt-newswire/media-outreach-newswire/forest-city-sfz-clarifies-incentive-framework-for-fintech-and-ai-enabled-financial-services-alongside-malaysia-digital-incentives/2414440"
-      },
-      {
-        "name": "Your Voice: Hong Kong in WWII, volunteering and data centres",
-        "provider": "Young Post Club",
-        "type": "AI 项目/工具",
-        "bestFor": "Have something to say? Send us a letter using this form.\n\nLessons from Hong Kong in WWII\n\nVenus Cheng Yee-lam, St Mary's Canossian College\n\nOur history class re",
-        "description": "Have something to say? Send us a letter using this form.\n\nLessons from Hong Kong in WWII\n\nVenus Cheng Yee-lam, St Mary's Canossian College\n\nOur history class recently finished a un",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Young Post Club",
-        "url": "https://www.youngpostclub.com/yp/share-us/letters-editors/article/3365310/your-voice-hong-kong-wwii-value-volunteering-and-environmental-impact-data-centres-online-letters"
       }
     ],
     "ai-business": [
@@ -7415,6 +7684,17 @@ window.AI_GENERATED_DATA = {
       }
     ],
     "ai-benchmark": [
+      {
+        "name": "S3Gym: Can LLMs Turn Self-Testing and Self-Judging into Self",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Large language models (LLMs) increasingly interact with external environments and accumulate substantial behavioral experience, yet existing agent benchmarks la",
+        "description": "Large language models (LLMs) increasingly interact with external environments and accumulate substantial behavioral experience, yet existing agent benchmarks largely evaluate them ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2608.31100v1"
+      },
       {
         "name": "LongPIBench: A Long-Context Benchmark for Prompt Injection",
         "provider": "arXiv",
@@ -7978,21 +8258,6 @@ window.AI_GENERATED_DATA = {
         "watch": "NOOA 框架的开源特性可能导致安全性问题，开发者需谨慎管理代码和数据。",
         "sourceName": "NewsAPI:AI benchmark leaderboard",
         "url": "https://developer.nvidia.com/blog/six-agent-harness-capabilities-for-higher-model-performance/"
-      },
-      {
-        "name": "Mira Murati 发布 Inkling AI 模型，西方最佳开源模型",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "Inkling 模型的发布将吸引大量开发者和研究人员的关注，可能会改变他们在选择开源 AI 模型时的决策。由于其高性能，Inkling 可能会被广泛应用于各类 AI 项目，尤其是在需要高效计算的领域。此外，Inkling 的成功可能会促使其他公司加大对开源 AI 模型的投资，进一步推动行业的发展。",
-        "description": "Mira Murati 在经历两年的沉默后，推出了她的首个开源 AI 模型 Inkling，并在 OpenRouter 上发布。该模型的 MCP 分数表现出色，尽管其性价比计算较为复杂。",
-        "useCases": [
-          "使用 Inkling 模型进行自然语言处理任务，提升文本生成的质量和效率。",
-          "在机器学习项目中集成 Inkling，利用其高性能进行数据分析。",
-          "开发基于 Inkling 的聊天机器人，提供更自然的用户交互体验。"
-        ],
-        "watch": "Inkling 模型的 API 价格可能会影响小型企业的使用决策。",
-        "sourceName": "NewsAPI:AI benchmark leaderboard",
-        "url": "https://decrypt.co/373884/review-inkling-mira-murati-first-open-source-ai"
       }
     ],
     "ai-image-video": [
@@ -10438,13 +10703,57 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-01",
-    "generatedAt": "2026-09-01T04:00:46.454811Z",
-    "total": 24,
+    "generatedAt": "2026-09-01T06:35:41.269212Z",
+    "total": 36,
     "sections": [
       {
         "category": "ai-coding",
         "label": "AI 编程",
         "items": [
+          {
+            "title": "From Prompt to Prototype: Towards a Frontier LLM Driven RF Engineering Workflow",
+            "summary": "Agentic coding environments give a frontier large language model (LLM) direct access to a workstation's terminal, file system, and software.",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.31006v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-31",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "When Does Bigger Help? A Controlled Study of LLM Scale for Ontology Learning",
+            "summary": "The effect of Large Language Model (LLM) scale on ontology learning (OL) performance remains insufficiently characterized. We present a cont",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.31118v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-31",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "A Model with No Head and Many Thoughts",
+            "summary": "Large language models decode by projecting hidden states through a large vocabulary head at every step. This operation is computationally co",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.31069v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-31",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Wrong Prediction, Right Answer: Recovering Evidence from Collapsed LLM Sequence Scores",
+            "summary": "When a large language model fails a reasoning task, it is often assumed to lack the underlying capability. However, this conflates a genuine",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.31068v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-31",
+            "publishedAt": "",
+            "reason": ""
+          },
           {
             "title": "Polimill builds Japan's next-generation public AI infrastructure",
             "summary": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
@@ -10538,6 +10847,39 @@ window.AI_GENERATED_DATA = {
             "date": "2026-09-01",
             "publishedAt": "2026-09-01T03:18",
             "reason": ""
+          },
+          {
+            "title": "DIASENTINEL: An Auditable Multi-Agent System for Guideline-Grounded Diabetes Risk Screening",
+            "summary": "Large language models (LLMs) offer promising clinical decision support but remain vulnerable to hallucinated facts, unsupported recommendati",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.31128v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-31",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Beacon: LLM Multi-Agent Driven Hardware Design Space Exploration for Heterogeneous Multi-Chiplet Deep Learning Accelerators",
+            "summary": "Heterogeneous multi-chiplet accelerators allow chiplets to be configured independently to better match different operator characteristics an",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.30932v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-31",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Agentic research is oxymoronic",
+            "summary": "The use of agentic large language models obviates human interpretation of scientific results, and will lead to substantial distrust in the l",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.31161v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-31",
+            "publishedAt": "",
+            "reason": ""
           }
         ]
       },
@@ -10576,6 +10918,50 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-09-01",
             "publishedAt": "2026-09-01T01:19",
+            "reason": ""
+          },
+          {
+            "title": "OpenAI supports California’s bill to advance youth AI safety",
+            "summary": "OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, creat",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-31",
+            "publishedAt": "2026-08-31T15:00",
+            "reason": ""
+          },
+          {
+            "title": "InsightToast: Proactive Information Retrieval & Glanceable Visualization in the Side Channel of Data-Rich Meetings",
+            "summary": "Missing institutional context during meetings can impede effective participation. Retrieving relevant information, often scattered across he",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.31115v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-31",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "A Universal Context-Reuse Layer for Cross-Model KV Sharing",
+            "summary": "Modern large language model (LLM) serving systems increasingly operate over repeated or shared context, yet each model typically performs it",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.30963v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-31",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "OntoAligner-Ensemble: Voting-Based Fusion across Heterogeneous Ontology Alignment Techniques",
+            "summary": "Ontology alignment (OA) has evolved through several methodological paradigms, ranging from lexical and structural aligners to knowledge grap",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.31137v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-31",
+            "publishedAt": "",
             "reason": ""
           },
           {
@@ -10620,6 +11006,23 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-08-31",
             "publishedAt": "2026-08-31T07:59",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "category": "ai-benchmark",
+        "label": "评测榜单",
+        "items": [
+          {
+            "title": "S3Gym: Can LLMs Turn Self-Testing and Self-Judging into Self-Improvement?",
+            "summary": "Large language models (LLMs) increasingly interact with external environments and accumulate substantial behavioral experience, yet existing",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.31100v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-31",
+            "publishedAt": "",
             "reason": ""
           }
         ]
