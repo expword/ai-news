@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-01",
-  "generatedAt": "2026-09-01T06:35:41.291211Z",
+  "generatedAt": "2026-09-01T09:12:01.490490Z",
   "news": [
     {
       "title": "Anthropic 研究：训练一个错位的奖励寻求者模型",
@@ -198,6 +198,62 @@ window.AI_GENERATED_DATA = {
       "aiSelected": true,
       "moduleTargets": [
         "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "MMDS-Bench: Benchmarking Multimodal Large Language Models on Dynamic Stance in Social Media Interactions",
+      "summary": "Dynamic stance classification models how a reply responds to its direct parent message, rather than how a post relates to a fixed topic. Existing work has mainly studied this probl",
+      "category": "ai-benchmark",
+      "source": "arXiv",
+      "date": "2026-08-31",
+      "publishedAt": "",
+      "collectedAt": "2026-09-01T15:52",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-31",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.30903v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "benchmarkDatasets"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "S3C-LLM: Skill-Code Guided Agentic Language Models for Spectrum-to-Structure Elucidation",
+      "summary": "Spectroscopic structure elucidation is central to molecular analysis, but recent Large Language Model (LLM)-based methods mostly formulate it as direct spectrum-to-SMILES generatio",
+      "category": "ai-coding",
+      "source": "arXiv",
+      "date": "2026-08-31",
+      "publishedAt": "",
+      "collectedAt": "2026-09-01T15:52",
+      "dateStatus": "collected",
+      "sourceDate": "2026-08-31",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2608.30910v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
       ],
       "sourceCount": 1
     },
@@ -2420,348 +2476,6 @@ window.AI_GENERATED_DATA = {
       "sourceDate": "",
       "tags": [],
       "url": "https://aws.amazon.com/blogs/machine-learning/evaluate-any-agent-framework-with-amazon-bedrock-agentcore-evaluations/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Anthropic 开放 Claude 真实使用数据供外部独立研究，公布试点结果",
-      "summary": "Anthropic 今年春季启动试点，通过隐私保护工具 Anthropic Insights（原 Clio）向斯坦福大学 SALT Lab、牛津大学人类信息处理实验室及 METR 三个外部机构开放约 25 万段 2026 年 4-5 月的 Claude.ai 或 Claude Code 对话数据，供其独立设计研究并公开发布结果。",
-      "category": "ai-coding",
-      "source": "Anthropic：Research（发表成果 · 网页）",
-      "date": "2026-08-27",
-      "publishedAt": "2026-08-27T01:30",
-      "collectedAt": "2026-08-27T02:57",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://www.anthropic.com/research/enabling-independent-research",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "GlucoFM: Foundation model for continuous glucose monitoring",
-      "summary": "Health & Bioscience",
-      "category": "ai-models",
-      "source": "RSS · Google Research",
-      "date": "2026-08-27",
-      "publishedAt": "2026-08-27T02:42",
-      "collectedAt": "2026-08-27T02:57",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://research.google/blog/glucofm-foundation-model-for-continuous-glucose-monitoring/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "When LLM judges agree, should we believe them?",
-      "summary": "Discounting the opinions of LLM judges with highly correlated outputs ensures that panels of judges reflect a true diversity of perspectives.",
-      "category": "ai-models",
-      "source": "RSS · Amazon Science",
-      "date": "2026-08-27",
-      "publishedAt": "2026-08-27T01:10",
-      "collectedAt": "2026-08-27T02:57",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://www.amazon.science/blog/when-llm-judges-agree-should-we-believe-them",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Intelligent transcription with Gemini 3.5 Transcribe",
-      "summary": "Now you can get more intelligent speech-to-text transcription with Gemini 3.5 Transcribe.",
-      "category": "ai-models",
-      "source": "RSS · Google DeepMind",
-      "date": "2026-08-27",
-      "publishedAt": "2026-08-27T01:01",
-      "collectedAt": "2026-08-27T02:57",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 2,
-      "relatedSources": [
-        {
-          "source": "Google DeepMind：Blog（RSS）",
-          "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe",
-          "title": "Gemini 3.5 Transcribe 发布：面向实时语音交互的高精度语音转文本模型"
-        }
-      ]
-    },
-    {
-      "title": "Natera’s intelligent appointment scheduling with Amazon Bedrock AgentCore",
-      "summary": "Learn how Natera built an automated voice agent on Amazon Bedrock AgentCore that lets patients book mobile phlebotomy appointments through natural conversation. The post covers the",
-      "category": "ai-agents",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-08-27",
-      "publishedAt": "2026-08-27T00:36",
-      "collectedAt": "2026-08-27T01:46",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/nateras-intelligent-appointment-scheduling-with-amazon-bedrock-agentcore/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Bring your own model with Amazon SageMaker AI: Script mode in SDK v3",
-      "summary": "The SageMaker Python SDK v3 redesigns script mode with unified ModelTrainer and ModelBuilder classes. This post walks through two end-to-end examples, a scikit-learn Random Forest ",
-      "category": "ai-coding",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-08-27",
-      "publishedAt": "2026-08-27T00:31",
-      "collectedAt": "2026-08-27T01:46",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/bring-your-own-model-with-amazon-sagemaker-ai-script-mode-in-sdk-v3/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "How GoDaddy transformed its analytics with Amazon Quick",
-      "summary": "In this post, you will learn how GoDaddy migrated from their legacy business intelligence (BI) tool to Amazon Quick. This was a two-year transformation that delivered results acros",
-      "category": "ai-business",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-08-27",
-      "publishedAt": "2026-08-27T00:51",
-      "collectedAt": "2026-08-27T01:46",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-godaddy-transformed-its-analytics-with-amazon-quick/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Preparing data for supervised fine-tuning Part 1: Formatting and quality",
-      "summary": "Data preparation determines the ceiling of any supervised fine-tuning project. This first post in a two-part series covers the foundations of SFT data prep: quality checks, convers",
-      "category": "ai-models",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-08-27",
-      "publishedAt": "2026-08-27T00:24",
-      "collectedAt": "2026-08-27T01:46",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/preparing-data-for-supervised-fine-tuning-part-1-formatting-and-quality/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 2,
-      "relatedSources": [
-        {
-          "source": "RSS · AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/preparing-data-for-supervised-fine-tuning-part-2-advanced-data-strategies/",
-          "title": "Preparing data for supervised fine-tuning Part 2: Advanced data strategies"
-        }
-      ]
-    },
-    {
-      "title": "XREPOTEST: Benchmarking Multilingual Repository-Level Unit Test Generation for Large Language Models",
-      "summary": "Large language models (LLMs) have shown promise for automated unit test generation, but existing evaluations largely rely on standalone settings and a narrow set of programming lan",
-      "category": "ai-benchmark",
-      "source": "arXiv",
-      "date": "2026-08-26",
-      "publishedAt": "",
-      "collectedAt": "2026-08-28T01:24",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-26",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.25939v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Unveiling Spectral Mechanisms in Training-Free LLM Text Detection",
-      "summary": "The rapid advancement of Large Language Models (LLMs) makes it increasingly difficult to distinguish human writing from machine-generated text. Training-free detection offers a sca",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-08-26",
-      "publishedAt": "",
-      "collectedAt": "2026-08-27T18:59",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-26",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.25944v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Bayesian Optimization for Self-Driving Materials Laboratories: From Algorithms to Physics-Informed Workflows",
-      "summary": "Self-driving laboratories (SDLs) are transforming materials research by closing the loop among synthesis, characterization, data analysis and experimental decision making. Bayesian",
-      "category": "ai-research",
-      "source": "arXiv",
-      "date": "2026-08-26",
-      "publishedAt": "",
-      "collectedAt": "2026-08-27T15:15",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-26",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.26016v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "RTLGuard: A Lightweight Teacher-Student Defense for Poisoned RTL Code Generation Models",
-      "summary": "The rapid advancement of large language models (LLMs) is driving a shift toward automated register transfer level (RTL) code generation, enabling designers to translate high-level ",
-      "category": "ai-coding",
-      "source": "arXiv",
-      "date": "2026-08-26",
-      "publishedAt": "",
-      "collectedAt": "2026-08-27T15:15",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-26",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.26049v1",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -5889,6 +5603,17 @@ window.AI_GENERATED_DATA = {
   "topicResources": {
     "ai-coding": [
       {
+        "name": "S3C-LLM: Skill-Code Guided Agentic Language Models for Spect",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Spectroscopic structure elucidation is central to molecular analysis, but recent Large Language Model (LLM)-based methods mostly formulate it as direct spectrum",
+        "description": "Spectroscopic structure elucidation is central to molecular analysis, but recent Large Language Model (LLM)-based methods mostly formulate it as direct spectrum-to-SMILES generatio",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2608.30910v1"
+      },
+      {
         "name": "From Prompt to Prototype: Towards a Frontier LLM Driven RF E",
         "provider": "arXiv",
         "type": "AI 项目/工具",
@@ -6332,24 +6057,42 @@ window.AI_GENERATED_DATA = {
         "watch": "Dora 的使用可能需要一定的学习曲线，初学者可能会面临操作上的困难。",
         "sourceName": "NewsData.io:AI coding tool",
         "url": "https://www.einpresswire.com/article/935253559/gno-land-launches-dora-an-autonomous-ai-security-harness-for-blockchain-vulnerability-detection"
-      },
-      {
-        "name": "南非交付团队在 AI 编码工具使用中存在纪律缺口",
-        "provider": "ITWeb",
-        "type": "AI 项目/工具",
-        "bestFor": "这一现象对软件开发行业的影响深远。首先，缺乏规范的使用可能导致代码质量下降，增加了后期维护的难度。其次，团队领导对工具使用情况的缺乏透明度，可能导致决策失误，影响项目进度。最后，随着 AI 工具的广泛应用，建立有效的使用标准将成为提升团队生产力和安全性的关键。",
-        "description": "南非的软件交付团队在日常使用 AI 编码工具时，缺乏统一的使用规范和审核机制，导致新员工继承了不规范的习惯，影响了代码质量和安全性。尽管工具的使用日益普遍，但缺乏有效的管理和培训使得团队面临风险，领导层对工具的使用情况也缺乏透明度。",
-        "useCases": [
-          "通过 JustCode - AI Mastery 计划，提升团队对 AI 工具的使用规范，确保代码质量。",
-          "建立统一的审核流程，减少 AI 生成代码中的潜在风险，提升交付的可靠性。",
-          "为新员工提供系统化的培训，帮助他们快速适应团队的工作流程和标准。"
-        ],
-        "watch": "缺乏统一的审核机制，可能导致 AI 生成的代码中存在未被发现的漏洞，影响软件安全性。",
-        "sourceName": "ITWeb",
-        "url": "https://www.itweb.co.za/article/ai-coding-tools-exposing-a-discipline-gap-in-sa-delivery-teams/LPp6VMrBNJZMDKQz"
       }
     ],
     "ai-agents": [
+      {
+        "name": "Manus Announces Return to Independent Operations",
+        "provider": "blockchain.news",
+        "type": "AI 项目/工具",
+        "bestFor": "Manus, the general-purpose AI agent known for its autonomous capabilities, announced on August 31, 2026, that it has resumed independent operations. The move co",
+        "description": "Manus, the general-purpose AI agent known for its autonomous capabilities, announced on August 31, 2026, that it has resumed independent operations. The move comes less than a year",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "blockchain.news",
+        "url": "https://blockchain.news/news/manus-resumes-independent-operations"
+      },
+      {
+        "name": "WeChat Pay expands AI AgentPay Card to DeepSeek Harness and ",
+        "provider": "TechNode",
+        "type": "AI 项目/工具",
+        "bestFor": "WeChat Pay's AI AgentPay Card now works with DeepSeek Harness and OpenClaw, adding two agent platforms to the payment service's supported ecosystem. After users",
+        "description": "WeChat Pay's AI AgentPay Card now works with DeepSeek Harness and OpenClaw, adding two agent platforms to the payment service's supported ecosystem. After users authorize the conne",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "TechNode",
+        "url": "https://technode.com/2026/09/01/wechat-pay-ai-agentpay-card-deepseek-openclaw/"
+      },
+      {
+        "name": "Snowflake: dashboard-era access controls won't govern AI age",
+        "provider": "Computer Weekly",
+        "type": "AI 项目/工具",
+        "bestFor": "The company's chief data and AI officer talks up efforts to move access controls into the data layer, the cost of dynamic model routing and why governance canno",
+        "description": "The company's chief data and AI officer talks up efforts to move access controls into the data layer, the cost of dynamic model routing and why governance cannot be baked into mode",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Computer Weekly",
+        "url": "https://www.computerweekly.com/news/366649624/Snowflake-dashboard-era-access-controls-wont-govern-AI-agents"
+      },
       {
         "name": "DIASENTINEL: An Auditable Multi-Agent System for Guideline-G",
         "provider": "arXiv",
@@ -6756,42 +6499,42 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Slay News",
         "url": "https://slaynews.com/700-rogue-ai-bots-join-forces-launch-massive-hacking-attack/"
-      },
-      {
-        "name": "Bitmine's Tom Lee Sees $6,000 Ethereum By Year-End If Bitcoi",
-        "provider": "Asianet News Network Pvt Ltd",
-        "type": "AI 项目/工具",
-        "bestFor": "Tom Lee said Ethereum was still \"vastly undervalued\", given its use in the settlement of AI agent transactions that legacy payment rails are unable to support.\n",
-        "description": "Tom Lee said Ethereum was still \"vastly undervalued\", given its use in the settlement of AI agent transactions that legacy payment rails are unable to support.\n\n* Tom Lee said the ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Asianet News Network Pvt Ltd",
-        "url": "https://newsable.asianetnews.com/markets/bitmine-s-tom-lee-sees-6-000-ethereum-by-year-end-if-bitcoin-hits-150-000-articleshow-n97avf8"
-      },
-      {
-        "name": "ImagineArt Launches Imagine Computer, Bringing Agentic AI to",
-        "provider": "Barchart.com",
-        "type": "AI 项目/工具",
-        "bestFor": "All information and data in this article is solely for informational purposes. For more information please view the Barchart Disclosure Policy here\n\nSAN FRANCIS",
-        "description": "All information and data in this article is solely for informational purposes. For more information please view the Barchart Disclosure Policy here\n\nSAN FRANCISCO - August 29, 2026",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Barchart.com",
-        "url": "https://www.barchart.com/story/news/4334158/imagineart-launches-imagine-computer-bringing-agentic-ai-to-creative-workflows"
-      },
-      {
-        "name": "This New AI Agent Platform Could Send Solana's Price Higher ",
-        "provider": "Yahoo! Finance",
-        "type": "AI 项目/工具",
-        "bestFor": "On Aug. 24, a platform called Virtuals Protocol (CRYPTO: VIRTUAL) launched a new suite of artificial intelligence (AI) agent creation and ownership tools on Sol",
-        "description": "On Aug. 24, a platform called Virtuals Protocol (CRYPTO: VIRTUAL) launched a new suite of artificial intelligence (AI) agent creation and ownership tools on Solana (CRYPTO: SOL). I",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Yahoo! Finance",
-        "url": "https://finance.yahoo.com/markets/crypto/articles/ai-agent-platform-could-send-092000015.html"
       }
     ],
     "ai-models": [
+      {
+        "name": "Coastal Road Guards: Protecting a country from itself",
+        "provider": "The Guardian",
+        "type": "AI 项目/工具",
+        "bestFor": "The Federal Government's deployment of 40 Coastal Road Guards to protect the multi-billion-naira Lagos-Calabar Coastal Highway from vandals is an extraordinary ",
+        "description": "The Federal Government's deployment of 40 Coastal Road Guards to protect the multi-billion-naira Lagos-Calabar Coastal Highway from vandals is an extraordinary measure that speaks ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Guardian",
+        "url": "https://guardian.ng/opinion/editorial/coastal-road-guards-protecting-a-country-from-itself/"
+      },
+      {
+        "name": "Springfield tourism awards honor local leaders shaping indus",
+        "provider": "Springfield News-Leader",
+        "type": "AI 项目/工具",
+        "bestFor": "Visit Springfield has named three recipients of its 2026 Toast to Tourism Awards, honoring contributions to the travel and tourism industry in Springfield.\n\nThe",
+        "description": "Visit Springfield has named three recipients of its 2026 Toast to Tourism Awards, honoring contributions to the travel and tourism industry in Springfield.\n\nThe awards will be pres",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Springfield News-Leader",
+        "url": "https://eu.news-leader.com/story/news/local/2026/09/01/visit-springfield-2026-toast-to-tourism-awards/91508556007/"
+      },
+      {
+        "name": "Why Nvidia's Hugging Face Acquisition Signals AI's Full Ecos",
+        "provider": "Forbes",
+        "type": "AI 项目/工具",
+        "bestFor": "Nvidia's acquisition of Hugging Face marks a strategic shift towards vertical integration in AI. Having dominated hardware, Nvidia aims to secure influence over",
+        "description": "Nvidia's acquisition of Hugging Face marks a strategic shift towards vertical integration in AI. Having dominated hardware, Nvidia aims to secure influence over the application lay",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Forbes",
+        "url": "https://www.forbes.com/sites/geruiwang/2026/09/01/why-nvidias-hugging-face-acquisition-signals-ais-full-ecosystem-play/"
+      },
       {
         "name": "OpenAI supports California’s bill to advance youth AI safety",
         "provider": "RSS",
@@ -7198,42 +6941,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "ArkansasOnline",
         "url": "https://www.arkansasonline.com/news/2026/aug/29/complex-queries-sure-to-hit-ai-paywalls-or/"
-      },
-      {
-        "name": "What Snowflake (SNOW)'s Cortex AI Model Routing Push Means F",
-        "provider": "Yahoo! Finance",
-        "type": "AI 项目/工具",
-        "bestFor": "* Earlier this month, Snowflake announced new dynamic model routing within its Cortex AI Gateway and flagship AI tools, plus broader access to leading open mode",
-        "description": "* Earlier this month, Snowflake announced new dynamic model routing within its Cortex AI Gateway and flagship AI tools, plus broader access to leading open models like DeepSeek-V4-",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Yahoo! Finance",
-        "url": "https://ca.finance.yahoo.com/news/snowflake-snow-cortex-ai-model-050431503.html"
-      },
-      {
-        "name": "Complex queries sure to hit AI paywalls, or require patience",
-        "provider": "Northwest Arkansas Democrat Gazette",
-        "type": "AI 项目/工具",
-        "bestFor": "When my niece recently applied for a doctoral program in physical therapy, she needed ChatGPT's help to consolidate a list of 20 varied work experiences. That's",
-        "description": "When my niece recently applied for a doctoral program in physical therapy, she needed ChatGPT's help to consolidate a list of 20 varied work experiences. That's when she ran up aga",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Northwest Arkansas Democrat Gazette",
-        "url": "https://www.nwaonline.com/news/2026/aug/29/complex-queries-sure-to-hit-ai-paywalls-or/"
-      },
-      {
-        "name": "Okta (OKTA) Grew Remaining Performance Obligations 17% While",
-        "provider": "Yahoo! Finance",
-        "type": "AI 项目/工具",
-        "bestFor": "Okta, Inc. (NASDAQ:OKTA) reported fiscal second-quarter 2027 results that strengthened the case for a bookings recovery. Revenue rose 11% year over year to $805",
-        "description": "Okta, Inc. (NASDAQ:OKTA) reported fiscal second-quarter 2027 results that strengthened the case for a bookings recovery. Revenue rose 11% year over year to $805 million, while comp",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Yahoo! Finance",
-        "url": "https://ca.finance.yahoo.com/news/okta-okta-grew-remaining-performance-031750646.html"
       }
     ],
     "ai-business": [
+      {
+        "name": "Springfield tech survey will measure AI use, workplace equit",
+        "provider": "Springfield News-Leader",
+        "type": "AI 项目/工具",
+        "bestFor": "Springfield Women in Technology has launched a regional survey aimed at measuring how artificial intelligence use, return-to-office policies and salary equity a",
+        "description": "Springfield Women in Technology has launched a regional survey aimed at measuring how artificial intelligence use, return-to-office policies and salary equity are shaping the techn",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Springfield News-Leader",
+        "url": "https://eu.news-leader.com/story/news/business/2026/09/01/springfield-survey-tech-professionals-ai-use-pay-equity/91510624007/"
+      },
       {
         "name": "The AI model insurers keep signing deals with happens to be ",
         "provider": "Insurance Business",
@@ -7670,17 +7391,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Stocktwits",
         "url": "https://stocktwits.com/news-articles/markets/equity/baba-stock-gains-ground-alibaba-reportedly-sells-gaming-unit-for-1-5-b-as-qwen-fuels-bigger-ai-push/cZo6Hp5RJKp"
-      },
-      {
-        "name": "Is there an 'ethical' AI for us to use?",
-        "provider": "Hypergrid Business",
-        "type": "AI 项目/工具",
-        "bestFor": "The noise around AI is getting louder. Last month, an author lost a $2 million book contract due to unsubstantiated allegations that he used AI. Meanwhile, a ju",
-        "description": "The noise around AI is getting louder. Last month, an author lost a $2 million book contract due to unsubstantiated allegations that he used AI. Meanwhile, a judge approved $1.5 bi",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Hypergrid Business",
-        "url": "https://www.hypergridbusiness.com/2026/08/is-there-an-ethical-ai-for-us-to-use/"
       }
     ],
     "ai-benchmark": [
@@ -10703,13 +10413,24 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-01",
-    "generatedAt": "2026-09-01T06:35:41.269212Z",
-    "total": 36,
+    "generatedAt": "2026-09-01T09:12:01.464878Z",
+    "total": 38,
     "sections": [
       {
         "category": "ai-coding",
         "label": "AI 编程",
         "items": [
+          {
+            "title": "S3C-LLM: Skill-Code Guided Agentic Language Models for Spectrum-to-Structure Elucidation",
+            "summary": "Spectroscopic structure elucidation is central to molecular analysis, but recent Large Language Model (LLM)-based methods mostly formulate i",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.30910v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-31",
+            "publishedAt": "",
+            "reason": ""
+          },
           {
             "title": "From Prompt to Prototype: Towards a Frontier LLM Driven RF Engineering Workflow",
             "summary": "Agentic coding environments give a frontier large language model (LLM) direct access to a workstation's terminal, file system, and software.",
@@ -11014,6 +10735,17 @@ window.AI_GENERATED_DATA = {
         "category": "ai-benchmark",
         "label": "评测榜单",
         "items": [
+          {
+            "title": "MMDS-Bench: Benchmarking Multimodal Large Language Models on Dynamic Stance in Social Media Interactions",
+            "summary": "Dynamic stance classification models how a reply responds to its direct parent message, rather than how a post relates to a fixed topic. Exi",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2608.30903v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-08-31",
+            "publishedAt": "",
+            "reason": ""
+          },
           {
             "title": "S3Gym: Can LLMs Turn Self-Testing and Self-Judging into Self-Improvement?",
             "summary": "Large language models (LLMs) increasingly interact with external environments and accumulate substantial behavioral experience, yet existing",
@@ -23888,6 +23620,18 @@ window.AI_GENERATED_DATA = {
     ]
   },
   "benchmarkDatasets": [
+    {
+      "name": "MMDS-Bench",
+      "area": "视觉感知 / 多模态",
+      "note": "Dynamic stance classification models how a reply responds to its direct parent message, rather than how a post relates to a fixed topic. Existing work has mainly studied this probl",
+      "source": "http://arxiv.org/abs/2608.30903v1",
+      "sourceName": "arXiv",
+      "date": "2026-08-31",
+      "originTitle": "MMDS-Bench: Benchmarking Multimodal Large Language Models on Dynamic Stance in Social Media Interactions",
+      "evaluates": [],
+      "useCases": [],
+      "limitations": []
+    },
     {
       "name": "NL2AGBench",
       "area": "AI 模型能力评测",
