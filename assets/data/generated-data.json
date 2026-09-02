@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-02",
-  "generatedAt": "2026-09-02T07:36:14.057008Z",
+  "generatedAt": "2026-09-02T10:14:37.307189Z",
   "news": [
     {
       "title": "Anthropic 发布 Claude Fable 5.1 与 Claude Mythos 5.1",
@@ -5459,6 +5459,21 @@
       "date": "2026-08-05"
     },
     {
+      "name": "zai-org/GLM-V",
+      "lang": "Python",
+      "description": "GLM-4.6V/4.5V/4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning",
+      "stars": "2379 stars",
+      "why": "国产大模型厂商 智谱 Z.ai 的最新开源动态/模型发布，属一手信源。",
+      "url": "https://github.com/zai-org/GLM-V",
+      "source": "GitHub · 智谱 Z.ai",
+      "tier": "T1",
+      "category": "Coding Agent",
+      "details": "GLM-4.6V/4.5V/4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
       "name": "QwenLM/E-CommerceBench",
       "lang": "Python",
       "description": "通义千问 Qwen 开源项目。",
@@ -5469,20 +5484,6 @@
       "tier": "T1",
       "category": "Coding Agent",
       "details": "通义千问 Qwen 开源项目。",
-      "features": [],
-      "useCases": [],
-      "quickStart": []
-    },
-    {
-      "name": "ItzCrazyKns/Vane",
-      "lang": "TypeScript",
-      "description": "Vane is an AI-powered answering engine.",
-      "stars": "36572 stars",
-      "why": "近期更新且具备 AI / LLM / Agent 相关主题，适合做项目介绍、教程或同类对比。",
-      "url": "https://github.com/ItzCrazyKns/Vane",
-      "source": "GitHub Search · 2026-09-02",
-      "category": "Coding Agent",
-      "details": "Vane is an AI-powered answering engine.",
       "features": [],
       "useCases": [],
       "quickStart": []
@@ -5602,6 +5603,17 @@
   ],
   "topicResources": {
     "ai-coding": [
+      {
+        "name": "Zoho Eyes AI App Boom With Catalyst 3.0 Cloud Platform - BW ",
+        "provider": "BW Businessworld",
+        "type": "AI 项目/工具",
+        "bestFor": "Zoho targets enterprises, system integrators and developers with usage-based pricing as AI coding shifts the software development bottleneck to deployment and i",
+        "description": "Zoho targets enterprises, system integrators and developers with usage-based pricing as AI coding shifts the software development bottleneck to deployment and infrastructure\n\nZoho ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "BW Businessworld",
+        "url": "https://www.businessworld.in/article/zoho-eyes-ai-app-boom-with-catalyst-3-0-cloud-platform-621904"
+      },
       {
         "name": "Claude Fable 5.1 上线 Claude Code 与 Claude Platform，缓存读取降价 75%",
         "provider": "X：Claude Devs (@ClaudeDevs)",
@@ -6030,20 +6042,31 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Crypto Briefing",
         "url": "https://cryptobriefing.com/ai-agents-x402-usdc-solana-transfers/"
-      },
-      {
-        "name": "Google's Gemini 3.7 Flash Beats Rivals on Agent Benchmarks a",
-        "provider": "Startup Fortune",
-        "type": "AI 项目/工具",
-        "bestFor": "Google released Gemini 3.7 Flash on August 13, 2026, at half the price of its predecessor, and it's already beating Claude Sonnet 5 and GPT-5.6 Terra on several",
-        "description": "Google released Gemini 3.7 Flash on August 13, 2026, at half the price of its predecessor, and it's already beating Claude Sonnet 5 and GPT-5.6 Terra on several agent and coding be",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Startup Fortune",
-        "url": "https://startupfortune.com/googles-gemini-37-flash-beats-rivals-on-agent-benchmarks-at-half-the-price/"
       }
     ],
     "ai-agents": [
+      {
+        "name": "Hey Chat, can you unlearn that trade secret?",
+        "provider": "Business Insider",
+        "type": "AI 项目/工具",
+        "bestFor": "Here's a novel problem companies may have to deal with in the AI era.\n\nA nefarious Big Tech employee leaves for a competitor with trade secrets, feeds them to a",
+        "description": "Here's a novel problem companies may have to deal with in the AI era.\n\nA nefarious Big Tech employee leaves for a competitor with trade secrets, feeds them to an AI agent or model ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Business Insider",
+        "url": "https://www.businessinsider.com/apple-openai-trade-secret-lawsuit-ai-unlearning-2026-9"
+      },
+      {
+        "name": "Loop Engineering: The new skill Indian students can't afford",
+        "provider": "Hindustan Times",
+        "type": "AI 项目/工具",
+        "bestFor": "Loop engineering is the discipline of designing these workflows responsibly: what triggers a run, what the agent may touch, how much it can spend, and when it m",
+        "description": "Loop engineering is the discipline of designing these workflows responsibly: what triggers a run, what the agent may touch, how much it can spend, and when it must stop and ask a h",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Hindustan Times",
+        "url": "https://www.hindustantimes.com/education/features/loop-engineering-the-new-skill-indian-students-cant-afford-to-ignore-101788340845678.html"
+      },
       {
         "name": "TRIAGE: Three-level Routing and Intelligent Agent Guidance f",
         "provider": "arXiv",
@@ -6461,31 +6484,20 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Gizbot",
         "url": "https://www.gizbot.com/artificial-intelligence/openclaw-2-explained-how-its-new-ai-agents-can-automate-your-work-128221.html"
-      },
-      {
-        "name": "Delinea Brings Runtime Control for AI Agents to GISEC Global",
-        "provider": "mid-east.info",
-        "type": "AI 项目/工具",
-        "bestFor": "Channel-led presence with Shifra and Defa3 underscores Delinea's focus on empowering regional partners to help customers govern AI actions, not just AI access\n\n",
-        "description": "Channel-led presence with Shifra and Defa3 underscores Delinea's focus on empowering regional partners to help customers govern AI actions, not just AI access\n\nDubai, United Arab E",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "mid-east.info",
-        "url": "https://mid-east.info/delinea-brings-runtime-control-for-ai-agents-to-gisec-global-2026/"
-      },
-      {
-        "name": "AI Agents, Zero-Click Attacks: The Next Cybersecurity Threat",
-        "provider": "Analytics Insight",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenAI has termed this growing issue \"social engineering,\" in which external content attempts to trick an agent into performing an action that is not in the use",
-        "description": "OpenAI has termed this growing issue \"social engineering,\" in which external content attempts to trick an agent into performing an action that is not in the user's instructions.\n\nT",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Analytics Insight",
-        "url": "https://www.analyticsinsight.net/artificial-intelligence/ai-agents-zero-click-attacks-the-next-cybersecurity-threat"
       }
     ],
     "ai-models": [
+      {
+        "name": "Uzbekistan Reforms Customs Administration System Through 203",
+        "provider": "UzDaily.uz",
+        "type": "AI 项目/工具",
+        "bestFor": "Tashkent, Uzbekistan (UzDaily.uz) -- President of Uzbekistan Shavkat Mirziyoyev signed a decree on 27 August 2026 to reform state customs services and implement",
+        "description": "Tashkent, Uzbekistan (UzDaily.uz) -- President of Uzbekistan Shavkat Mirziyoyev signed a decree on 27 August 2026 to reform state customs services and implement modern approaches t",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "UzDaily.uz",
+        "url": "https://www.uzdaily.uz/en/uzbekistan-reforms-customs-administration-system-through-2030/"
+      },
       {
         "name": "US wants access to all AI models; Philippines uses AI agains",
         "provider": "CoinGeek",
@@ -6914,20 +6926,42 @@
         "watch": "请打开原始来源核对",
         "sourceName": "China Daily",
         "url": "https://www.chinadaily.com.cn/a/202608/31/WS6a94d974e4b06d4aa055b534.html"
-      },
-      {
-        "name": "Beyond the flying fists",
-        "provider": "China Daily",
-        "type": "AI 项目/工具",
-        "bestFor": "Jackie Chan's enduring appeal brings fans together as filmmakers consider where Chinese action cinema goes next, Bai Shuhao and Tian Xuefei report in Harbin.\n\nM",
-        "description": "Jackie Chan's enduring appeal brings fans together as filmmakers consider where Chinese action cinema goes next, Bai Shuhao and Tian Xuefei report in Harbin.\n\nMalaysia rarely sees ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "China Daily",
-        "url": "https://www.chinadaily.com.cn/a/202608/31/WS6a8feb3de4b06d4aa055ac6d.html"
       }
     ],
     "ai-business": [
+      {
+        "name": "ImExHS Ltd (ASX:IME) (H1 2026) Earnings Call Highlights: EBI",
+        "provider": "Yahoo! Finance",
+        "type": "AI 项目/工具",
+        "bestFor": "This article first appeared on GuruFocus.\n\n* Sales Revenue: $16 million, up 17% (up 13% on a constant-currency basis).\n\n* Annual Recurring Revenue (ARR): $36.8 ",
+        "description": "This article first appeared on GuruFocus.\n\n* Sales Revenue: $16 million, up 17% (up 13% on a constant-currency basis).\n\n* Annual Recurring Revenue (ARR): $36.8 million, up 12% as r",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Yahoo! Finance",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/imexhs-ltd-asx-ime-h1-090029373.html"
+      },
+      {
+        "name": "Bitcoin enters first hashrate bear market, Twenty One Capita",
+        "provider": "crypto.news",
+        "type": "AI 项目/工具",
+        "bestFor": "Twenty One Capital CEO Raphael Zagury said Bitcoin is experiencing its first \"hashrate bear market\" as network computing power remains below its late 2025 recor",
+        "description": "Twenty One Capital CEO Raphael Zagury said Bitcoin is experiencing its first \"hashrate bear market\" as network computing power remains below its late 2025 record and listed mining ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "crypto.news",
+        "url": "https://crypto.news/bitcoin-enters-first-hashrate-bear-market-ceo-says/"
+      },
+      {
+        "name": "Africa cannot afford to scale AI faster than it can govern i",
+        "provider": "Businessday NG",
+        "type": "AI 项目/工具",
+        "bestFor": "Africa cannot afford to scale artificial intelligence faster than it can govern the technology, as rapid adoption without adequate safeguards could deepen priva",
+        "description": "Africa cannot afford to scale artificial intelligence faster than it can govern the technology, as rapid adoption without adequate safeguards could deepen privacy, discrimination, ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Businessday NG",
+        "url": "https://businessday.ng/technology/article/africa-cannot-afford-to-scale-ai-faster-than-it-can-govern-it/"
+      },
       {
         "name": "Apple's AI groundwork, OpenAI chip flex, and the joys of aer",
         "provider": "Hindustan Times",
@@ -7334,43 +7368,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "ABC Nepal TV",
         "url": "https://abcnews.com.np/ai-reshapes-chinas-job-market-sparking-adaptation-and-economic-concerns/"
-      },
-      {
-        "name": "Big Investors Admit Bitcoin Rally Signals Capital Fleeing an",
-        "provider": "CryptoRank",
-        "type": "AI 项目/工具",
-        "bestFor": "Bill Miller IV and Jordi Visser say AI capital is fleeing to Bitcoin.\n\nBitcoin (BTC) just posted its strongest three-day rally since 2023, and two prominent inv",
-        "description": "Bill Miller IV and Jordi Visser say AI capital is fleeing to Bitcoin.\n\nBitcoin (BTC) just posted its strongest three-day rally since 2023, and two prominent investors now say the m",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "CryptoRank",
-        "url": "https://cryptorank.io/news/feed/a5256-bitcoin-rally-ai-trade-rotation"
-      },
-      {
-        "name": "AUB international profit jumps 19.6% as UK retail platform s",
-        "provider": "Insurance Business",
-        "type": "AI 项目/工具",
-        "bestFor": "Record underlying earnings and a bigger UK platform frame a week in which ANZ's two largest broker networks report\n\nBy Daniel Wood\n\nAUB Group has delivered reco",
-        "description": "Record underlying earnings and a bigger UK platform frame a week in which ANZ's two largest broker networks report\n\nBy Daniel Wood\n\nAUB Group has delivered record underlying earnin",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Insurance Business",
-        "url": "https://www.insurancebusinessmag.com/uk/news/breaking-news/aub-international-profit-jumps-19-6-as-uk-retail-platform-scales-587252.aspx"
-      },
-      {
-        "name": "阿里巴巴股价因支付宝AI商业平台发布上涨5%",
-        "provider": "Blockonomi",
-        "type": "AI 项目/工具",
-        "bestFor": "该平台的推出可能会改变商家的运营模式，尤其是中小企业将更容易接入AI技术。随着越来越多的商家采用这一平台，预计将推动整个行业的数字化转型。同时，消费者的购物体验也将因AI助手的引入而变得更加便捷。然而，商家在转型过程中可能面临技术适应和成本控制的挑战。",
-        "description": "阿里巴巴股价在支付宝推出AI驱动的商业平台后上涨5%，标志着该公司在数字化转型中的重要一步。新平台为商家提供全面的AI工具，助力传统业务向智能化转型。尽管市场反应积极，但仍需关注平台的实际应用效果及潜在风险。",
-        "useCases": [
-          "商家利用Ah Bao进行客户服务，提升用户体验和满意度。",
-          "通过AI工具优化产品目录，简化在线销售流程。",
-          "使用平台分析消费者行为，制定更精准的市场策略。"
-        ],
-        "watch": "平台的API使用费用可能会对小型商家造成负担，限制其使用意愿。",
-        "sourceName": "Blockonomi",
-        "url": "https://blockonomi.com/alibaba-baba-stock-surges-5-following-alipays-ai-commerce-platform-debut/"
       }
     ],
     "ai-benchmark": [
@@ -10373,7 +10370,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-02",
-    "generatedAt": "2026-09-02T07:36:14.018483Z",
+    "generatedAt": "2026-09-02T10:14:37.280608Z",
     "total": 33,
     "sections": [
       {
