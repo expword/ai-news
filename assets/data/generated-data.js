@@ -1,7 +1,34 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-03",
-  "generatedAt": "2026-09-02T18:57:47.302174Z",
+  "generatedAt": "2026-09-02T22:28:52.832322Z",
   "news": [
+    {
+      "title": "Accessing OpenAI models on Amazon Bedrock from Australia with global cross-Region inference",
+      "summary": "Australian teams can now access OpenAI GPT-5.6 Sol, Terra, and Luna models on Amazon Bedrock with global cross-Region inference from the Asia Pacific (Sydney) and Asia Pacific (Mel",
+      "category": "ai-coding",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-03",
+      "publishedAt": "2026-09-03T05:22",
+      "collectedAt": "2026-09-03T06:28",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-5-6-models-on-amazon-bedrock-from-australia-with-global-cross-region-inference/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Modernizing and scaling support operations with generative AI on AWS",
       "summary": "Learn how to build a generative AI-based support operations platform on AWS that converts training videos into structured SOPs, applies Retrieval-Augmented Generation to guide tick",
@@ -146,6 +173,34 @@ window.AI_GENERATED_DATA = {
           "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber"
         }
       ]
+    },
+    {
+      "title": "An Organizational Second Brain: Building an AI That Learns From Experts",
+      "summary": "We’ve built an AI agent that acts as a secondary expert for a given domain, making deep specialist knowledge readily available and preserved for anyone in an organization to access",
+      "category": "ai-agents",
+      "source": "RSS · Meta Engineering",
+      "date": "2026-09-02",
+      "publishedAt": "2026-09-02T17:00",
+      "collectedAt": "2026-09-03T05:17",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://engineering.fb.com/2026/09/02/ml-applications/organizational-second-brain-ai-learns-from-experts/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
     },
     {
       "title": "Real-Time Intelligence with IBM Time Series Models on Confluent",
@@ -6253,6 +6308,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "An Organizational Second Brain: Building an AI That Learns F",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "We’ve built an AI agent that acts as a secondary expert for a given domain, making deep specialist knowledge readily available and preserved for anyone in an or",
+        "description": "We’ve built an AI agent that acts as a secondary expert for a given domain, making deep specialist knowledge readily available and preserved for anyone in an organization to access",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Meta Engineering",
+        "url": "https://engineering.fb.com/2026/09/02/ml-applications/organizational-second-brain-ai-learns-from-experts/"
+      },
+      {
         "name": "Trinity: Agentic AI-powered transition planning for students",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -6680,17 +6746,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2608.28476v1"
-      },
-      {
-        "name": "LLM-Based Agents for Software and Systems Security: Approach",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Software and systems security workflows are typically procedural: analysts inspect heterogeneous artifacts, form hypotheses, invoke tools, interpret outputs, an",
-        "description": "Software and systems security workflows are typically procedural: analysts inspect heterogeneous artifacts, form hypotheses, invoke tools, interpret outputs, and revise plans. Larg",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2608.28490v1"
       }
     ],
     "ai-models": [
@@ -10571,13 +10626,24 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-03",
-    "generatedAt": "2026-09-02T18:57:47.278174Z",
-    "total": 17,
+    "generatedAt": "2026-09-02T22:28:52.806292Z",
+    "total": 19,
     "sections": [
       {
         "category": "ai-coding",
         "label": "AI 编程",
         "items": [
+          {
+            "title": "Accessing OpenAI models on Amazon Bedrock from Australia with global cross-Region inference",
+            "summary": "Australian teams can now access OpenAI GPT-5.6 Sol, Terra, and Luna models on Amazon Bedrock with global cross-Region inference from the Asi",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-5-6-models-on-amazon-bedrock-from-australia-with-global-cross-region-inference/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-03",
+            "publishedAt": "2026-09-03T05:22",
+            "reason": ""
+          },
           {
             "title": "From code to diagrams: Agentic architecture documentation with Amazon Bedrock AgentCore",
             "summary": "Learn how a global interdealer broker built an automated architecture documentation pipeline on Amazon Bedrock AgentCore that analyzes .NET ",
@@ -10632,6 +10698,17 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-09-03",
             "publishedAt": "2026-09-03T02:14",
+            "reason": ""
+          },
+          {
+            "title": "An Organizational Second Brain: Building an AI That Learns From Experts",
+            "summary": "We’ve built an AI agent that acts as a secondary expert for a given domain, making deep specialist knowledge readily available and preserved",
+            "source": "RSS · Meta Engineering",
+            "url": "https://engineering.fb.com/2026/09/02/ml-applications/organizational-second-brain-ai-learns-from-experts/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-02",
+            "publishedAt": "2026-09-02T17:00",
             "reason": ""
           },
           {
