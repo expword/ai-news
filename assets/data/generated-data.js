@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-02",
-  "generatedAt": "2026-09-02T11:29:00.001120Z",
+  "generatedAt": "2026-09-02T15:20:59.882871Z",
   "news": [
     {
       "title": "Anthropic 发布 Claude Fable 5.1 与 Claude Mythos 5.1",
@@ -5459,6 +5459,21 @@ window.AI_GENERATED_DATA = {
       "date": "2026-08-05"
     },
     {
+      "name": "QwenLM/Qwen-Drive-1.0",
+      "lang": "Python",
+      "description": "An Initial Step towards a Vision-Language Foundation Model for Autonomous Driving",
+      "stars": "10 stars",
+      "why": "国产大模型厂商 通义千问 Qwen 的最新开源动态/模型发布，属一手信源。",
+      "url": "https://github.com/QwenLM/Qwen-Drive-1.0",
+      "source": "GitHub · 通义千问 Qwen",
+      "tier": "T1",
+      "category": "Coding Agent",
+      "details": "An Initial Step towards a Vision-Language Foundation Model for Autonomous Driving",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
       "name": "zai-org/GLM-V",
       "lang": "Python",
       "description": "GLM-4.6V/4.5V/4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning",
@@ -5469,21 +5484,6 @@ window.AI_GENERATED_DATA = {
       "tier": "T1",
       "category": "Coding Agent",
       "details": "GLM-4.6V/4.5V/4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning",
-      "features": [],
-      "useCases": [],
-      "quickStart": []
-    },
-    {
-      "name": "QwenLM/E-CommerceBench",
-      "lang": "Python",
-      "description": "通义千问 Qwen 开源项目。",
-      "stars": "1 stars",
-      "why": "国产大模型厂商 通义千问 Qwen 的最新开源动态/模型发布，属一手信源。",
-      "url": "https://github.com/QwenLM/E-CommerceBench",
-      "source": "GitHub · 通义千问 Qwen",
-      "tier": "T1",
-      "category": "Coding Agent",
-      "details": "通义千问 Qwen 开源项目。",
       "features": [],
       "useCases": [],
       "quickStart": []
@@ -6046,6 +6046,50 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "Test Phenom AI Agents for Hiring, Development and Retention ",
+        "provider": "FinanzNachrichten.de",
+        "type": "AI 项目/工具",
+        "bestFor": "Phenom Offers Attendees Immersive Experience Using Live Agentic Use Cases for Their Own Industries, Roles and Workflows\n\nPhenom, the leader in applied AI built ",
+        "description": "Phenom Offers Attendees Immersive Experience Using Live Agentic Use Cases for Their Own Industries, Roles and Workflows\n\nPhenom, the leader in applied AI built to redesign work ope",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "FinanzNachrichten.de",
+        "url": "https://www.finanznachrichten.de/nachrichten-2026-09/69476540-test-phenom-ai-agents-for-hiring-development-and-retention-at-hr-s-biggest-fall-events-004.htm"
+      },
+      {
+        "name": "AI agent orchestration: Emerging skill shaping the future of",
+        "provider": "Tribune Online",
+        "type": "AI 项目/工具",
+        "bestFor": "Artificial intelligence has moved past the simple wonder of creating text or images. The conversation is shifting toward a much more exciting possibility: the a",
+        "description": "Artificial intelligence has moved past the simple wonder of creating text or images. The conversation is shifting toward a much more exciting possibility: the ability for AI system",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Tribune Online",
+        "url": "https://tribuneonlineng.com/ai-agent-orchestration-emerging-skill-shaping-the-future-of-work/"
+      },
+      {
+        "name": "Walnut Launches Enterprise AI Agent Platform to Personalize ",
+        "provider": "The Next Web",
+        "type": "AI 项目/工具",
+        "bestFor": "For B2B software companies, product-led buying has created a new challenge: buyers increasingly expect to explore products on their own terms, while go-to-marke",
+        "description": "For B2B software companies, product-led buying has created a new challenge: buyers increasingly expect to explore products on their own terms, while go-to-market teams still have l",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Next Web",
+        "url": "https://thenextweb.com/news/walnut-launches-enterprise-ai-agent-platform"
+      },
+      {
+        "name": "Earnings call transcript: Cyclopharm posts record H1 2026 re",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Earnings call transcript: Cyclopharm posts record H1 2026 revenue as U.S. rollout gains pace",
+        "description": "Earnings call transcript: Cyclopharm posts record H1 2026 revenue as U.S. rollout gains pace",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://au.investing.com/news/stock-market-news/earnings-call-transcript-cyclopharm-posts-record-h1-2026-revenue-as-us-rollout-gains-pace-93CH-4625558"
+      },
+      {
         "name": "AI gentlemen will hack your company for 4 bucks: we caught a",
         "provider": "Cybernews",
         "type": "AI 项目/工具",
@@ -6440,53 +6484,53 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "The Manila times",
         "url": "https://www.manilatimes.net/2026/08/31/tmt-newswire/globenewswire/broadcom-unveils-agentminder-an-enterprise-solution-for-ai-agent-governance-and-runtime-control/2415194"
-      },
-      {
-        "name": "Snack, beverage shoppers turning to AI agents",
-        "provider": "FoodBusinessNews",
-        "type": "AI 项目/工具",
-        "bestFor": "NEW YORK -- As artificial intelligence (AI) quickly gains traction with consumers, many are entrusting AI agents to shop for snacks and beverages, according to ",
-        "description": "NEW YORK -- As artificial intelligence (AI) quickly gains traction with consumers, many are entrusting AI agents to shop for snacks and beverages, according to the latest Consumer ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "FoodBusinessNews",
-        "url": "https://www.foodbusinessnews.net/articles/30921-snack-beverage-shoppers-turning-to-ai-agents"
-      },
-      {
-        "name": "China AI Data Services Market to Reach RMB 7.83 Billion in 2",
-        "provider": "InfotechLead",
-        "type": "AI 项目/工具",
-        "bestFor": "China's artificial intelligence data services market is accelerating as AI moves from experimentation to large-scale deployment. Data collection, annotation, ev",
-        "description": "China's artificial intelligence data services market is accelerating as AI moves from experimentation to large-scale deployment. Data collection, annotation, evaluation and special",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "InfotechLead",
-        "url": "https://infotechlead.com/artificial-intelligence/china-ai-data-services-market-to-reach-rmb-7-83-billion-in-2026-as-agentic-ai-demand-rises-98086"
-      },
-      {
-        "name": "Meta (META) Stock: How Internal AI Rebellion Stopped Zuckerb",
-        "provider": "Blockonomi",
-        "type": "AI 项目/工具",
-        "bestFor": "* Meta planned \"Project OT\" to slash workforce by potentially 60% in certain divisions, substituting human workers with artificial intelligence agents\n\n* CEO Ma",
-        "description": "* Meta planned \"Project OT\" to slash workforce by potentially 60% in certain divisions, substituting human workers with artificial intelligence agents\n\n* CEO Mark Zuckerberg revers",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Blockonomi",
-        "url": "https://blockonomi.com/meta-meta-stock-how-internal-ai-rebellion-stopped-zuckerbergs-mass-layoff-plan/"
-      },
-      {
-        "name": "AI Agent Analyst Engineer - South Africa - Paarl",
-        "provider": "Bizcommunity.com",
-        "type": "AI 项目/工具",
-        "bestFor": "Are you passionate about Data, Artificial Intelligence, and intelligent automation? We're looking for a talented Data and AI Agent Analyst Engineer to join a fo",
-        "description": "Are you passionate about Data, Artificial Intelligence, and intelligent automation? We're looking for a talented Data and AI Agent Analyst Engineer to join a forward-thinking techn",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Bizcommunity.com",
-        "url": "https://www.bizcommunity.com/job/paarl/development/ai-agent-analyst-engineer-187240a"
       }
     ],
     "ai-models": [
+      {
+        "name": "Glean's AI assistant uses 70% fewer tokens than Anthropic's ",
+        "provider": "Crypto Briefing",
+        "type": "AI 项目/工具",
+        "bestFor": "Enterprise AI startup claims 81% cost savings per task and growing customer preference as the race to cut corporate AI bills heats up\n\nEnterprise AI spending is",
+        "description": "Enterprise AI startup claims 81% cost savings per task and growing customer preference as the race to cut corporate AI bills heats up\n\nEnterprise AI spending is becoming its own li",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Crypto Briefing",
+        "url": "https://cryptobriefing.com/glean-ai-assistant-70-percent-fewer-tokens-claude/"
+      },
+      {
+        "name": "Siri AI won't be your friend, and here's why that really mat",
+        "provider": "9to5Mac",
+        "type": "AI 项目/工具",
+        "bestFor": "Elon University has partnered with The Washington Post to conduct what turned out to be a worrying survey about Americans viewing AI chatbots as virtual friends",
+        "description": "Elon University has partnered with The Washington Post to conduct what turned out to be a worrying survey about Americans viewing AI chatbots as virtual friends or therapists.\n\nThe",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "9to5Mac",
+        "url": "https://9to5mac.com/2026/09/02/siri-ai-wont-be-your-friend-and-heres-why-that-really-matters/"
+      },
+      {
+        "name": "OpenMatter Network Expands Platform with New Capabilities fo",
+        "provider": "The Manila times",
+        "type": "AI 项目/工具",
+        "bestFor": "MELBOURNE, Fla., Sept. 02, 2026 (GLOBE NEWSWIRE) --\n\nLess than three months after its commercial launch, OpenMatter Network today announced a significant expans",
+        "description": "MELBOURNE, Fla., Sept. 02, 2026 (GLOBE NEWSWIRE) --\n\nLess than three months after its commercial launch, OpenMatter Network today announced a significant expansion of the platform ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Manila times",
+        "url": "https://www.manilatimes.net/2026/09/02/tmt-newswire/globenewswire/openmatter-network-expands-platform-with-new-capabilities-for-secure-ai-computing-and-data-collaboration/2417113"
+      },
+      {
+        "name": "How relocating families can manage the UK health surcharge",
+        "provider": "Tribune Online",
+        "type": "AI 项目/工具",
+        "bestFor": "Relocating your entire family to the United Kingdom can be a financial requirement that can catch even the most prepared applicants off guard. Beyond visa appli",
+        "description": "Relocating your entire family to the United Kingdom can be a financial requirement that can catch even the most prepared applicants off guard. Beyond visa application fees, flight ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Tribune Online",
+        "url": "https://tribuneonlineng.com/beat-the-uk-health-surcharge-financial-planning-hacks-relocating-families/"
+      },
       {
         "name": "Apple's New CEO Hypes Product Launch in First Employee Addre",
         "provider": "PYMNTS.com",
@@ -6882,53 +6926,31 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "RocketNews | Top News Stories From Around the Globe",
         "url": "https://rocketnews.com/2026/08/somerset-cider-makers-left-with-very-few-apples-after-heatwaves/"
-      },
-      {
-        "name": "Arjun Wadwalkar on the Hidden AI Layer Payments Companies Ne",
-        "provider": "Daily News and Analysis (DNA) India",
-        "type": "AI 项目/工具",
-        "bestFor": "Hardly any modern commerce platform is a single application. A restaurant or a stadium concourse might run a point-of-sale system, a payment gateway, an online-",
-        "description": "Hardly any modern commerce platform is a single application. A restaurant or a stadium concourse might run a point-of-sale system, a payment gateway, an online-ordering platform, k",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Daily News and Analysis (DNA) India",
-        "url": "https://www.dnaindia.com/insights/report-arjun-wadwalkar-on-the-hidden-ai-layer-payments-companies-need-to-build-3219543"
-      },
-      {
-        "name": "India-Uzbekistan relations elevated to comprehensive strateg",
-        "provider": "Swarajyamag",
-        "type": "AI 项目/工具",
-        "bestFor": "Bookmark stories for easy access on any device or the Swarajya app.\n\nIndia and Uzbekistan agreed to establish a long-term framework for uranium supply during Pr",
-        "description": "Bookmark stories for easy access on any device or the Swarajya app.\n\nIndia and Uzbekistan agreed to establish a long-term framework for uranium supply during Prime Minister Narendr",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Swarajyamag",
-        "url": "https://swarajyamag.com/news-brief/india-uzbekistan-relations-elevated-to-comprehensive-strategic-partnership-with-uranium-deal-and-5bn-trade-goal"
-      },
-      {
-        "name": "Sony Music, Warner sue Anthropic, alleging copyright infring",
-        "provider": "Mashable ME",
-        "type": "AI 项目/工具",
-        "bestFor": "Music giants Sony Music Publishing and Warner Chappell Music have just filed a potentially multibillion-dollar lawsuit against Anthropic, and the publishers are",
-        "description": "Music giants Sony Music Publishing and Warner Chappell Music have just filed a potentially multibillion-dollar lawsuit against Anthropic, and the publishers aren't mincing words.\n\n",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Mashable ME",
-        "url": "https://me.mashable.com/tech/75433/sony-music-warner-sue-anthropic-alleging-copyright-infringement"
-      },
-      {
-        "name": "Hackers Steal Claude Login Sessions With Infostealer Malware",
-        "provider": "Cyber Security News",
-        "type": "AI 项目/工具",
-        "bestFor": "Anthropic's Claude AI platform has become an active target for cybercriminals, with two distinct attack chains now confirmed to be stealing credentials, hijacki",
-        "description": "Anthropic's Claude AI platform has become an active target for cybercriminals, with two distinct attack chains now confirmed to be stealing credentials, hijacking paid usage, and r",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Cyber Security News",
-        "url": "https://cybersecuritynews.com/hackers-steal-claude-login-sessions/"
       }
     ],
     "ai-business": [
+      {
+        "name": "The Illusion of the 'Omnipotent' Mind: An expert explained w",
+        "provider": "International Business Times",
+        "type": "AI 项目/工具",
+        "bestFor": "According to The Kobeissi Letter, the combined capital spending on AI by Alphabet, Amazon, Meta, Microsoft, and Oracle is projected to reach around $1.1 trillio",
+        "description": "According to The Kobeissi Letter, the combined capital spending on AI by Alphabet, Amazon, Meta, Microsoft, and Oracle is projected to reach around $1.1 trillion by 2027, which wou",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "International Business Times",
+        "url": "https://www.ibtimes.com/illusion-omnipotent-mind-expert-explained-why-ai-breakthroughs-are-happening-beyond-3807055"
+      },
+      {
+        "name": "AI needs a map, not more horsepower",
+        "provider": "Computer Weekly",
+        "type": "AI 项目/工具",
+        "bestFor": "This is a guest blogpost by Andreas Krause, Chief Customer Advisory Officer SAP Business AI Platform, EMEA.\n\nMany organisations are treating artificial intellig",
+        "description": "This is a guest blogpost by Andreas Krause, Chief Customer Advisory Officer SAP Business AI Platform, EMEA.\n\nMany organisations are treating artificial intelligence (AI) like a rac",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Computer Weekly",
+        "url": "https://www.computerweekly.com/blog/Data-Matters/AI-needs-a-map-not-more-horsepower"
+      },
       {
         "name": "With Tim Cook's Era Ending, Is Apple Stock a Buy Under John ",
         "provider": "Yahoo! Finance",
@@ -7346,28 +7368,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Benzinga",
         "url": "https://www.benzinga.com/markets/economic-data/26/08/61426319/stanley-druckenmiller-ai-scott-bessent-anthony-pompliano-chess"
-      },
-      {
-        "name": "Nvidia Is Jolting Silicon Valley to Think Like China",
-        "provider": "Bloomberg Business",
-        "type": "AI 项目/工具",
-        "bestFor": "When a typical business finds its supply chain costs have risen, it will absorb the increase to keep its customers happy. Nvidia isn't a typical business. It en",
-        "description": "When a typical business finds its supply chain costs have risen, it will absorb the increase to keep its customers happy. Nvidia isn't a typical business. It enjoys gross profit ma",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Bloomberg Business",
-        "url": "https://www.bloomberg.com/opinion/articles/2026-08-26/ai-models-nvidia-is-jolting-silicon-valley-to-think-like-china"
-      },
-      {
-        "name": "Bourse seen enduring fluctuations",
-        "provider": "China Daily",
-        "type": "AI 项目/工具",
-        "bestFor": "Chinese equities are expected to retain their longer-term investment appeal despite spillovers from heightened global market volatility, underpinned by China's ",
-        "description": "Chinese equities are expected to retain their longer-term investment appeal despite spillovers from heightened global market volatility, underpinned by China's distinct technology ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "China Daily",
-        "url": "https://www.chinadaily.com.cn/a/202608/26/WS6a8e38b1e4b06d4aa055a706.html"
       }
     ],
     "ai-benchmark": [
@@ -10370,7 +10370,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-02",
-    "generatedAt": "2026-09-02T11:28:59.978121Z",
+    "generatedAt": "2026-09-02T15:20:59.858837Z",
     "total": 33,
     "sections": [
       {
