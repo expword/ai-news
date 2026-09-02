@@ -1,7 +1,118 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-03",
-  "generatedAt": "2026-09-02T17:47:47.736839Z",
+  "generatedAt": "2026-09-02T18:57:47.302174Z",
   "news": [
+    {
+      "title": "Modernizing and scaling support operations with generative AI on AWS",
+      "summary": "Learn how to build a generative AI-based support operations platform on AWS that converts training videos into structured SOPs, applies Retrieval-Augmented Generation to guide tick",
+      "category": "ai-image-video",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-03",
+      "publishedAt": "2026-09-03T02:26",
+      "collectedAt": "2026-09-03T02:57",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/modernizing-and-scaling-support-operations-with-generative-ai-on-aws/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "From code to diagrams: Agentic architecture documentation with Amazon Bedrock AgentCore",
+      "summary": "Learn how a global interdealer broker built an automated architecture documentation pipeline on Amazon Bedrock AgentCore that analyzes .NET code bases, generates architecture diagr",
+      "category": "ai-coding",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-03",
+      "publishedAt": "2026-09-03T02:18",
+      "collectedAt": "2026-09-03T02:57",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/from-code-to-diagrams-agentic-architecture-documentation-with-amazon-bedrock-agentcore/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "How an AWS team detects dashboard content failures at scale using Amazon Bedrock",
+      "summary": "Business intelligence dashboards can fail silently, showing blank, stale, or wrong data even when every infrastructure monitor reports healthy. Learn how an AWS team built an autom",
+      "category": "ai-business",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-03",
+      "publishedAt": "2026-09-03T02:21",
+      "collectedAt": "2026-09-03T02:57",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-an-aws-team-detects-dashboard-content-failures-at-scale-using-amazon-bedrock/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Trinity: Agentic AI-powered transition planning for students with disabilities",
+      "summary": "Learn how University Startups and its AWS partner g/d/n/a scaled Trinity, a conversational AI solution for students with disabilities, into a serverless multi-agent architecture on",
+      "category": "ai-agents",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-03",
+      "publishedAt": "2026-09-03T02:14",
+      "collectedAt": "2026-09-03T02:57",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/trinity-agentic-ai-powered-transition-planning-for-students-with-disabilities/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Google DeepMind 发布 Gemini 3.8 Flash 与 3.8 Flash Cyber 两款新模型",
       "summary": "Google DeepMind 发布 Gemini 3.8 Flash 与 3.8 Flash Cyber。",
@@ -5700,6 +5811,28 @@ window.AI_GENERATED_DATA = {
   "topicResources": {
     "ai-coding": [
       {
+        "name": "From code to diagrams: Agentic architecture documentation wi",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Learn how a global interdealer broker built an automated architecture documentation pipeline on Amazon Bedrock AgentCore that analyzes .NET code bases, generate",
+        "description": "Learn how a global interdealer broker built an automated architecture documentation pipeline on Amazon Bedrock AgentCore that analyzes .NET code bases, generates architecture diagr",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/from-code-to-diagrams-agentic-architecture-documentation-with-amazon-bedrock-agentcore/"
+      },
+      {
+        "name": "GitHub Copilot 如何在不牺牲任务质量的前提下降低 AI 编码成本",
+        "provider": "GitHub Blog",
+        "type": "AI 项目/工具",
+        "bestFor": "GitHub 工程师 Erik Kristensen 分享了 Copilot 降本的四项改动：选择性压缩工具输出、移除 view 工具行号前缀（线下推理成本降约 5%，线上用户日均推理成本降约 3%）、压缩 task-tool 提示词（每轮省约 1300 token，每活跃小时归一化成本降 2.9%）、后台任务完成后直",
+        "description": "GitHub 工程师 Erik Kristensen 分享了 Copilot 降本的四项改动：选择性压缩工具输出、移除 view 工具行号前缀（线下推理成本降约 5%，线上用户日均推理成本降约 3%）、压缩 task-tool 提示词（每轮省约 1300 token，每活跃小时归一化成本降 2.9%）、后台任务完成后直接交付结果（AI Credits 用量降",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "GitHub Blog",
+        "url": "https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality"
+      },
+      {
         "name": "Zoho Eyes AI App Boom With Catalyst 3.0 Cloud Platform - BW ",
         "provider": "BW Businessworld",
         "type": "AI 项目/工具",
@@ -6116,31 +6249,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · AWS Machine Learning",
         "url": "https://aws.amazon.com/blogs/machine-learning/introducing-new-ray-capabilities-on-sagemaker-hyperpod/"
-      },
-      {
-        "name": "OpenAI 正为一切构建 AI 智能体，但用户会愿意交出控制权吗？",
-        "provider": "TechCrunch：AI（RSS）",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenAI 推出 ChatGPT Work，将 Codex 改造为面向非工程师的智能体产品，最低订阅档每月 20 美元即可使用，旨在让白领通过 LLM 自主完成多步骤工作。OpenAI 内部 6 月有 98% 员工使用 Codex，但组织订阅者仅 17%、个人订阅者不足 1%。公司正通过简化界面扩大采用，以支撑其巨额",
-        "description": "OpenAI 推出 ChatGPT Work，将 Codex 改造为面向非工程师的智能体产品，最低订阅档每月 20 美元即可使用，旨在让白领通过 LLM 自主完成多步骤工作。OpenAI 内部 6 月有 98% 员工使用 Codex，但组织订阅者仅 17%、个人订阅者不足 1%。公司正通过简化界面扩大采用，以支撑其巨额训练投入。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "TechCrunch：AI（RSS）",
-        "url": "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them"
-      },
-      {
-        "name": "AI agents initiate 3.3M USDC transfers over x402 on Solana i",
-        "provider": "Crypto Briefing",
-        "type": "AI 项目/工具",
-        "bestFor": "The long-forgotten HTTP 402 status code is finally getting its moment as machine-to-machine payments explode on Solana\n\nBack in 1997, the architects of the inte",
-        "description": "The long-forgotten HTTP 402 status code is finally getting its moment as machine-to-machine payments explode on Solana\n\nBack in 1997, the architects of the internet reserved HTTP s",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Crypto Briefing",
-        "url": "https://cryptobriefing.com/ai-agents-x402-usdc-solana-transfers/"
       }
     ],
     "ai-agents": [
+      {
+        "name": "Trinity: Agentic AI-powered transition planning for students",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Learn how University Startups and its AWS partner g/d/n/a scaled Trinity, a conversational AI solution for students with disabilities, into a serverless multi-a",
+        "description": "Learn how University Startups and its AWS partner g/d/n/a scaled Trinity, a conversational AI solution for students with disabilities, into a serverless multi-agent architecture on",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/trinity-agentic-ai-powered-transition-planning-for-students-with-disabilities/"
+      },
       {
         "name": "Anthropic 发布电商 Agent 架构与生产实践指南，并开源 commerce-agents 参考实现",
         "provider": "Claude：Blog（网页）",
@@ -6569,17 +6691,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2608.28490v1"
-      },
-      {
-        "name": "xTRUCE: A Provably Safe Arbiter for Multi-xApp Conflict Miti",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "The open radio access network (O-RAN) is evolving toward agentic operation, where large language model (LLM)-driven xApps/rApps generate control proposals under",
-        "description": "The open radio access network (O-RAN) is evolving toward agentic operation, where large language model (LLM)-driven xApps/rApps generate control proposals under operator intents. H",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2608.28532v1"
       }
     ],
     "ai-models": [
@@ -8045,6 +8156,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-image-video": [
       {
+        "name": "Modernizing and scaling support operations with generative A",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Learn how to build a generative AI-based support operations platform on AWS that converts training videos into structured SOPs, applies Retrieval-Augmented Gene",
+        "description": "Learn how to build a generative AI-based support operations platform on AWS that converts training videos into structured SOPs, applies Retrieval-Augmented Generation to guide tick",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/modernizing-and-scaling-support-operations-with-generative-ai-on-aws/"
+      },
+      {
         "name": "Try Google Pics: Easy image creation and editing in Google W",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -8564,23 +8686,6 @@ window.AI_GENERATED_DATA = {
         "watch": "该功能可能导致虚假信息的传播，影响公众对信息的信任。",
         "sourceName": "Currents:generative AI",
         "url": "https://techxplore.com/news/2026-08-google-satellite-image-ai-tool.html"
-      },
-      {
-        "name": "fal推出MiniMax H3，助力开发者实现多模态视频生成",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "MiniMax H3的发布将改变开发者在音视频内容创作中的工作流程，提升创作效率。品牌、电影和电商等行业将能够利用这一技术实现更高水平的个性化和创意表达，推动市场竞争力的提升。随着多模态生成技术的普及，预计将引发更多创新应用和商业模式的出现。",
-        "description": "fal作为MiniMax H3的官方API合作伙伴，现已为开发者提供三个专用接口：文本转视频、图像转视频和参考转视频。该模型支持1440p分辨率和本地立体声，能够在单次调用中生成连贯的音视频内容，适用于电影、广告、电商等多个领域。",
-        "useCases": [
-          "使用MiniMax H3生成品牌宣传片，提升品牌形象和市场影响力。",
-          "通过文本转视频功能快速制作创意短片，节省制作时间和成本。",
-          "利用精准的多模态编辑功能，优化广告素材，增强视觉吸引力。",
-          "在电商平台上创建动态产品展示视频，提高用户购买转化率。",
-          "开发游戏中的动画过场，提升游戏的沉浸感和用户体验。"
-        ],
-        "watch": "API使用可能受到配额限制，需提前规划调用频率以避免超额费用。",
-        "sourceName": "NewsData.io:generative AI",
-        "url": "https://www.abnewswire.com/pressreleases/fal-launches-minimax-h3-as-an-official-api-partner-bringing-the-openweight-multimodal-video-model-to-developers_828183.html"
       }
     ],
     "ai-research": [
@@ -10466,13 +10571,41 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-03",
-    "generatedAt": "2026-09-02T17:47:47.710839Z",
-    "total": 13,
+    "generatedAt": "2026-09-02T18:57:47.278174Z",
+    "total": 17,
     "sections": [
+      {
+        "category": "ai-coding",
+        "label": "AI 编程",
+        "items": [
+          {
+            "title": "From code to diagrams: Agentic architecture documentation with Amazon Bedrock AgentCore",
+            "summary": "Learn how a global interdealer broker built an automated architecture documentation pipeline on Amazon Bedrock AgentCore that analyzes .NET ",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/from-code-to-diagrams-agentic-architecture-documentation-with-amazon-bedrock-agentcore/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-03",
+            "publishedAt": "2026-09-03T02:18",
+            "reason": ""
+          }
+        ]
+      },
       {
         "category": "ai-image-video",
         "label": "图像视频",
         "items": [
+          {
+            "title": "Modernizing and scaling support operations with generative AI on AWS",
+            "summary": "Learn how to build a generative AI-based support operations platform on AWS that converts training videos into structured SOPs, applies Retr",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/modernizing-and-scaling-support-operations-with-generative-ai-on-aws/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-03",
+            "publishedAt": "2026-09-03T02:26",
+            "reason": ""
+          },
           {
             "title": "Try Google Pics: Easy image creation and editing in Google Workspace",
             "summary": "Built on our latest Nano Banana model, Google Pics — our image creation and editing tool — is now available.",
@@ -10490,6 +10623,17 @@ window.AI_GENERATED_DATA = {
         "category": "ai-agents",
         "label": "Agent / MCP",
         "items": [
+          {
+            "title": "Trinity: Agentic AI-powered transition planning for students with disabilities",
+            "summary": "Learn how University Startups and its AWS partner g/d/n/a scaled Trinity, a conversational AI solution for students with disabilities, into ",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/trinity-agentic-ai-powered-transition-planning-for-students-with-disabilities/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-03",
+            "publishedAt": "2026-09-03T02:14",
+            "reason": ""
+          },
           {
             "title": "How AI-native companies turn workflows into operating capability",
             "summary": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders c",
@@ -10632,6 +10776,23 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-09-02",
             "publishedAt": "2026-09-02T05:39",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "category": "ai-business",
+        "label": "行业商业",
+        "items": [
+          {
+            "title": "How an AWS team detects dashboard content failures at scale using Amazon Bedrock",
+            "summary": "Business intelligence dashboards can fail silently, showing blank, stale, or wrong data even when every infrastructure monitor reports healt",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/how-an-aws-team-detects-dashboard-content-failures-at-scale-using-amazon-bedrock/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-03",
+            "publishedAt": "2026-09-03T02:21",
             "reason": ""
           }
         ]
