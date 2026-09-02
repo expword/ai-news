@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-02",
-  "generatedAt": "2026-09-02T10:14:37.307189Z",
+  "generatedAt": "2026-09-02T11:29:00.001120Z",
   "news": [
     {
       "title": "Anthropic 发布 Claude Fable 5.1 与 Claude Mythos 5.1",
@@ -6046,6 +6046,17 @@
     ],
     "ai-agents": [
       {
+        "name": "AI gentlemen will hack your company for 4 bucks: we caught a",
+        "provider": "Cybernews",
+        "type": "AI 项目/工具",
+        "bestFor": "Researchers urge companies to rotate exposed credentials, monitor GitLab access, and keep vulnerable software updated.\n\nAn AI agent is hacking and extorting doz",
+        "description": "Researchers urge companies to rotate exposed credentials, monitor GitLab access, and keep vulnerable software updated.\n\nAn AI agent is hacking and extorting dozens of victims simul",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Cybernews",
+        "url": "https://cybernews.com/security/exposed-ransomware-server-reveals-automated-4-dollar-cyberattacks/"
+      },
+      {
         "name": "Hey Chat, can you unlearn that trade secret?",
         "provider": "Business Insider",
         "type": "AI 项目/工具",
@@ -6473,20 +6484,31 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Bizcommunity.com",
         "url": "https://www.bizcommunity.com/job/paarl/development/ai-agent-analyst-engineer-187240a"
-      },
-      {
-        "name": "OpenClaw 2.0 Explained: How Its New AI Agents Can Automate Y",
-        "provider": "Gizbot",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenClaw 2.0 is here, bringing a major overhaul to the open-source AI agent platform. The new version focuses on making AI agents easier to install, manage, sha",
-        "description": "OpenClaw 2.0 is here, bringing a major overhaul to the open-source AI agent platform. The new version focuses on making AI agents easier to install, manage, share and use for every",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Gizbot",
-        "url": "https://www.gizbot.com/artificial-intelligence/openclaw-2-explained-how-its-new-ai-agents-can-automate-your-work-128221.html"
       }
     ],
     "ai-models": [
+      {
+        "name": "Apple's New CEO Hypes Product Launch in First Employee Addre",
+        "provider": "PYMNTS.com",
+        "type": "AI 项目/工具",
+        "bestFor": "John Ternus became Apple's chief executive Monday (Sept. 1), and used part of his introductory memo to workers to tout the company's annual September product sh",
+        "description": "John Ternus became Apple's chief executive Monday (Sept. 1), and used part of his introductory memo to workers to tout the company's annual September product showcase next week, Bl",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "PYMNTS.com",
+        "url": "https://www.pymnts.com/apple/2026/apples-new-ceo-hypes-product-launch-in-first-employee-address/"
+      },
+      {
+        "name": "The Pentagon Is Giving 3 Million Workers ChatGPT and Grok to",
+        "provider": "Wonderful Engineering",
+        "type": "AI 项目/工具",
+        "bestFor": "The Pentagon is expanding its use of artificial intelligence by giving its workforce access to specialized versions of ChatGPT and Grok through a secure platfor",
+        "description": "The Pentagon is expanding its use of artificial intelligence by giving its workforce access to specialized versions of ChatGPT and Grok through a secure platform designed to suppor",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Wonderful Engineering",
+        "url": "https://wonderfulengineering.com/the-pentagon-is-giving-3-million-workers-chatgpt-and-grok-to-transform-how-the-military-operates/"
+      },
       {
         "name": "Uzbekistan Reforms Customs Administration System Through 203",
         "provider": "UzDaily.uz",
@@ -6904,31 +6926,31 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Cyber Security News",
         "url": "https://cybersecuritynews.com/hackers-steal-claude-login-sessions/"
-      },
-      {
-        "name": "Travel platform sees growth in first half of year",
-        "provider": "China Daily",
-        "type": "AI 项目/工具",
-        "bestFor": "Tongcheng Travel Holdings Limited recently released its 2026 half-year and second-quarter financial results.\n\nAs travel consumption has further integrated into ",
-        "description": "Tongcheng Travel Holdings Limited recently released its 2026 half-year and second-quarter financial results.\n\nAs travel consumption has further integrated into people's daily lives",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "China Daily",
-        "url": "http://www.chinadaily.com.cn/a/202608/31/WS6a94d974e4b06d4aa055b534.html"
-      },
-      {
-        "name": "Travel platform sees growth in first half of year",
-        "provider": "China Daily",
-        "type": "AI 项目/工具",
-        "bestFor": "Tongcheng Travel Holdings Limited recently released its 2026 half-year and second-quarter financial results.\n\nAs travel consumption has further integrated into ",
-        "description": "Tongcheng Travel Holdings Limited recently released its 2026 half-year and second-quarter financial results.\n\nAs travel consumption has further integrated into people's daily lives",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "China Daily",
-        "url": "https://www.chinadaily.com.cn/a/202608/31/WS6a94d974e4b06d4aa055b534.html"
       }
     ],
     "ai-business": [
+      {
+        "name": "With Tim Cook's Era Ending, Is Apple Stock a Buy Under John ",
+        "provider": "Yahoo! Finance",
+        "type": "AI 项目/工具",
+        "bestFor": "The Tim Cook era at Apple (NASDAQ: AAPL) has come to an end. Cook took over from Apple Co-Founder Steve Jobs, who was then in ill health and passed away soon af",
+        "description": "The Tim Cook era at Apple (NASDAQ: AAPL) has come to an end. Cook took over from Apple Co-Founder Steve Jobs, who was then in ill health and passed away soon after. During his tenu",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Yahoo! Finance",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/tim-cooks-era-ending-apple-103500617.html"
+      },
+      {
+        "name": "With Tim Cook's Era Ending, Is Apple Stock a Buy Under John ",
+        "provider": "NASDAQ Stock Market",
+        "type": "AI 项目/工具",
+        "bestFor": "The Tim Cook era at Apple (NASDAQ: AAPL) has come to an end. Cook took over from Apple Co-Founder Steve Jobs, who was then in ill health and passed away soon af",
+        "description": "The Tim Cook era at Apple (NASDAQ: AAPL) has come to an end. Cook took over from Apple Co-Founder Steve Jobs, who was then in ill health and passed away soon after. During his tenu",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NASDAQ Stock Market",
+        "url": "https://www.nasdaq.com/articles/tim-cooks-era-ending-apple-stock-buy-under-john-ternus"
+      },
       {
         "name": "ImExHS Ltd (ASX:IME) (H1 2026) Earnings Call Highlights: EBI",
         "provider": "Yahoo! Finance",
@@ -7346,28 +7368,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "China Daily",
         "url": "https://www.chinadaily.com.cn/a/202608/26/WS6a8e38b1e4b06d4aa055a706.html"
-      },
-      {
-        "name": "Google expands Gemini AI platform for law firms, lawyers",
-        "provider": "The Business Standard",
-        "type": "AI 项目/工具",
-        "bestFor": "Alphabet's Google today (25 August, 2026) expanded its Gemini Enterprise artificial intelligence platform with new tools for lawyers and law firms, accelerating",
-        "description": "Alphabet's Google today (25 August, 2026) expanded its Gemini Enterprise artificial intelligence platform with new tools for lawyers and law firms, accelerating a race among techno",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Business Standard",
-        "url": "https://www.tbsnews.net/tech/google-expands-gemini-ai-platform-law-firms-lawyers-1524741"
-      },
-      {
-        "name": "AI Reshapes China's Job Market, Sparking Adaptation and Econ",
-        "provider": "ABC Nepal TV",
-        "type": "AI 项目/工具",
-        "bestFor": "Rapid adoption of artificial intelligence is displacing workers in China while simultaneously driving innovation and raising questions about long-term economic ",
-        "description": "Rapid adoption of artificial intelligence is displacing workers in China while simultaneously driving innovation and raising questions about long-term economic stability.\n\nKathmand",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "ABC Nepal TV",
-        "url": "https://abcnews.com.np/ai-reshapes-chinas-job-market-sparking-adaptation-and-economic-concerns/"
       }
     ],
     "ai-benchmark": [
@@ -8489,6 +8489,17 @@
     ],
     "ai-research": [
       {
+        "name": "SurveyMonkey updates platform | News | Research live",
+        "provider": "Research Live",
+        "type": "AI 项目/工具",
+        "bestFor": "US - Survey company SurveyMonkey has released new tools for its platform incorporating conversational AI survey-building tools.\n\nSurveyMonkey said that its AI w",
+        "description": "US - Survey company SurveyMonkey has released new tools for its platform incorporating conversational AI survey-building tools.\n\nSurveyMonkey said that its AI would help users with",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Research Live",
+        "url": "http://www.research-live.com/article/news/surveymonkey-updates-platform/id/5152487"
+      },
+      {
         "name": "From Rollouts to Recipes: Self-Contained Post-Training for L",
         "provider": "arXiv",
         "type": "AI 项目/工具",
@@ -8951,17 +8962,6 @@
         "watch": "在实施去学习框架时，可能会误删对模型有潜在影响的数据点，导致模型性能下降。",
         "sourceName": "RSS · Apple ML Research",
         "url": "https://machinelearning.apple.com/research/unlearning-low-influence-points"
-      },
-      {
-        "name": "Transit Destination Inference from Tap-In-Only Bus Smart-Car",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "arXiv:2608.11223v1 Announce Type: cross Abstract: Entry-only automatic fare collection systems record boardings but not alightings, preventing direct constructi",
-        "description": "arXiv:2608.11223v1 Announce Type: cross Abstract: Entry-only automatic fare collection systems record boardings but not alightings, preventing direct construction of origin-destina",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · arXiv stat.ML",
-        "url": "https://arxiv.org/abs/2608.11223"
       }
     ],
     "ai-office": []
@@ -10370,7 +10370,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-02",
-    "generatedAt": "2026-09-02T10:14:37.280608Z",
+    "generatedAt": "2026-09-02T11:28:59.978121Z",
     "total": 33,
     "sections": [
       {
