@@ -1,7 +1,41 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-02",
-  "generatedAt": "2026-09-02T02:30:22.843401Z",
+  "generatedAt": "2026-09-02T05:02:21.813206Z",
   "news": [
+    {
+      "title": "Anthropic 发布 Claude Fable 5.1 与 Claude Mythos 5.1",
+      "summary": "Anthropic 发布 Claude Fable 5.1 和 Claude Mythos 5.1，两者为同一模型，Mythos 5.1 仅通过受信任访问计划提供给网络安全和生命科学领域。",
+      "category": "ai-models",
+      "source": "Anthropic：Newsroom（网页）",
+      "date": "2026-09-02",
+      "publishedAt": "2026-09-02T11:33",
+      "collectedAt": "2026-09-02T13:02",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 2,
+      "relatedSources": [
+        {
+          "source": "RSS · AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-fable-5-1-on-aws/",
+          "title": "Introducing Claude Fable 5.1 on AWS"
+        }
+      ]
+    },
     {
       "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
       "summary": "",
@@ -53,34 +87,6 @@ window.AI_GENERATED_DATA = {
       "aiSelected": true,
       "moduleTargets": [
         "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Introducing Claude Fable 5.1 on AWS",
-      "summary": "Claude Fable 5.1 is now available on Amazon Bedrock and Claude Platform on AWS. This post covers Claude Fable 5.1's improvements, the Enterprise Frontier Safeguards for keeping you",
-      "category": "ai-models",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-09-02",
-      "publishedAt": "2026-09-02T03:12",
-      "collectedAt": "2026-09-02T04:27",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-fable-5-1-on-aws/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
       ],
       "sourceCount": 1
     },
@@ -283,6 +289,171 @@ window.AI_GENERATED_DATA = {
       "moduleTargets": [
         "news",
         "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "The Structure of Quantization Damage in LLMs: Why the Next Bit Should Be Spent Globally",
+      "summary": "Post-training quantization (PTQ) is widely used to reduce the cost of serving large language models (LLMs), but its accuracy cost is uneven and is often tuned per model. We study w",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-09-01",
+      "publishedAt": "",
+      "collectedAt": "2026-09-02T11:46",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-01",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.01587v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "From Confusion to Clarity: Confusion-Aware Retrieval and Knowledge Injection for Text Classification",
+      "summary": "Large language models (LLMs) struggle to classify text into taxonomies with many semantically similar labels, as the distinctions are domain-specific and not captured by pre-traini",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-09-01",
+      "publishedAt": "",
+      "collectedAt": "2026-09-02T11:46",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-01",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.01564v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "SDARE-Bench: Evaluating Large Language Models on Conversational Stigma Detection and Response in Dyadic and Group Dialogue",
+      "summary": "Large Language Models (LLMs) are increasingly used in advice seeking and decision making that may affect social judgements. Despite stigma's profound effects on people and communit",
+      "category": "ai-benchmark",
+      "source": "arXiv",
+      "date": "2026-09-01",
+      "publishedAt": "",
+      "collectedAt": "2026-09-02T11:46",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-01",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.01548v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "benchmarkDatasets"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "A systematic Approach to constructing a Chance-and-Risk Matrix for Semiconductor Supply Chains",
+      "summary": "Semiconductor supply chains face escalating risks from geopolitical tensions, geographic concentration, and rapid technological shifts, yet no scalable system continuously extracts",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-09-01",
+      "publishedAt": "",
+      "collectedAt": "2026-09-02T11:46",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-01",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.01563v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Can LLMs Design Video Coding Tools? A Case Study on Planar Mode",
+      "summary": "This paper explores whether large language models (LLMs) can design video coding tools, a highly challenging task due to the intricate algorithmic coupling of tool modifications. I",
+      "category": "ai-coding",
+      "source": "arXiv",
+      "date": "2026-09-01",
+      "publishedAt": "",
+      "collectedAt": "2026-09-02T11:46",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-01",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.01535v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "RadMatch: Auditable Radiology Report Evaluation via Finding-Level Matching",
+      "summary": "As AI systems are increasingly used to draft radiology reports, reliably evaluating their clinical quality remains a critical challenge. Large language model (LLM)-based metrics ar",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-09-01",
+      "publishedAt": "",
+      "collectedAt": "2026-09-02T11:46",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-01",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.01470v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
       ],
       "sourceCount": 1
     },
@@ -2307,211 +2478,6 @@ window.AI_GENERATED_DATA = {
       "sourceDate": "",
       "tags": [],
       "url": "https://aws.amazon.com/blogs/machine-learning/build-agentic-creative-workflows-with-amazon-quick-and-fal/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Introducing OpenAI models on Amazon Bedrock for in-country inferencing in India",
-      "summary": "Amazon Bedrock now supports the OpenAI GPT-5.6 models, Terra and Luna, in India with India geographic cross-Region inference. If you have local data processing requirements, you ca",
-      "category": "ai-models",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-08-28",
-      "publishedAt": "2026-08-28T02:36",
-      "collectedAt": "2026-08-28T06:06",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-openai-models-on-amazon-bedrock-for-in-country-inferencing-in-india/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 2,
-      "relatedSources": [
-        {
-          "source": "RSS · AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-india-cross-region-inference-for-openai-gpt-5-6-models-on-amazon-bedrock/",
-          "title": "Introducing India cross-Region inference for OpenAI GPT-5.6 models on Amazon Bedrock"
-        }
-      ]
-    },
-    {
-      "title": "Planetary prediction engine: Automating global models via Earth AI",
-      "summary": "Earth AI",
-      "category": "ai-models",
-      "source": "RSS · Google Research",
-      "date": "2026-08-28",
-      "publishedAt": "2026-08-28T01:37",
-      "collectedAt": "2026-08-28T02:34",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://research.google/blog/planetary-prediction-engine-automating-global-models-via-earth-ai/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "3 new ways to plan and book travel in Search",
-      "summary": "Book hotels and track airfares, plus view miles and rewards with AI Mode in Google Search.",
-      "category": "ai-models",
-      "source": "RSS · Google AI Blog",
-      "date": "2026-08-28",
-      "publishedAt": "2026-08-28T00:00",
-      "collectedAt": "2026-08-28T02:34",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Reduce ASR inference costs by 75% with NVIDIA MPS on Amazon EC2",
-      "summary": "Serving automatic speech recognition (ASR) models at scale is costly when each request uses only a fraction of a GPU. Learn how NVIDIA CUDA Multi-Process Service (MPS) with NVIDIA ",
-      "category": "ai-models",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-08-28",
-      "publishedAt": "2026-08-28T00:05",
-      "collectedAt": "2026-08-28T01:24",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/reduce-asr-inference-costs-by-75-with-nvidia-mps-on-amazon-ec2/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Deepgram deepens Amazon SageMaker AI observability with Enhanced Metrics",
-      "summary": "Self-hosted speech AI carries an observability trade-off: the numbers that drive capacity planning and cost management stay locked inside the vendor container. Deepgram closes that",
-      "category": "ai-models",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-08-28",
-      "publishedAt": "2026-08-28T00:11",
-      "collectedAt": "2026-08-28T01:24",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/deepgram-deepens-amazon-sagemaker-ai-observability-with-enhanced-metrics/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Gemini Omni 1.1 Flash lets you build with more control",
-      "summary": "",
-      "category": "ai-models",
-      "source": "RSS · Google DeepMind",
-      "date": "2026-08-28",
-      "publishedAt": "2026-08-28T00:11",
-      "collectedAt": "2026-08-28T01:24",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 2,
-      "relatedSources": [
-        {
-          "source": "Google DeepMind：Blog（RSS）",
-          "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control",
-          "title": "Gemini Omni 1.1 Flash 发布，为开发者提供更强生成式视频控制"
-        }
-      ]
-    },
-    {
-      "title": "SPA: Securing Persistent LLM Agents Across Queries with Plan-First Information-Flow Control",
-      "summary": "Large language model (LLM) agents increasingly operate over untrusted webpages, documents, tools, and persistent states while exercising authority over security-sensitive resources",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-08-27",
-      "publishedAt": "",
-      "collectedAt": "2026-08-29T00:59",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-27",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.27234v1",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -5638,6 +5604,17 @@ window.AI_GENERATED_DATA = {
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Can LLMs Design Video Coding Tools? A Case Study on Planar M",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "This paper explores whether large language models (LLMs) can design video coding tools, a highly challenging task due to the intricate algorithmic coupling of t",
+        "description": "This paper explores whether large language models (LLMs) can design video coding tools, a highly challenging task due to the intricate algorithmic coupling of tool modifications. I",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2609.01535v1"
+      },
+      {
         "name": "Claude Fable 5.1 上线 OpenRouter",
         "provider": "X：OpenRouter (@OpenRouter)",
         "type": "AI 项目/工具",
@@ -6071,21 +6048,6 @@ window.AI_GENERATED_DATA = {
         "watch": "Anthropic 的产品可能面临高昂的 API 使用费用，影响小型企业的使用意愿。",
         "sourceName": "NewsData.io:AI coding tool",
         "url": "https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-beats-openai-in-revenue-for-first-time/"
-      },
-      {
-        "name": "Techdirt 如何利用 AI 进行文章编辑而非创作",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Techdirt 的做法可能会影响其他新闻机构对 AI 工具的使用决策，尤其是在内容编辑方面。通过展示 AI 在提升编辑效率方面的潜力，Masnick 的经验可能促使更多机构考虑引入类似工具。然而，这也可能导致对 AI 角色的误解，认为其可以完全替代人类创作，从而影响内容的质量和真实性。此外，随着 AI 技术的不断发展",
-        "description": "Techdirt 的创始人 Mike Masnick 分享了他在新闻机构中使用人工智能的经验。他强调，尽管使用了名为 Lex 的工具来帮助编辑文章，但最终的创作仍然依赖于他个人的写作。这种方法在提升编辑效率的同时，也引发了对 AI 在内容创作中角色的思考。",
-        "useCases": [
-          "使用 Lex 工具提升文章编辑效率，减少重复性工作。",
-          "结合人工创作与 AI 辅助，确保内容的原创性与质量。",
-          "探索 AI 在新闻行业中的应用，寻找适合的工具与方法。"
-        ],
-        "watch": "AI 工具的使用可能导致对内容创作的依赖，降低原创性。",
-        "sourceName": "NewsData.io:AI coding tool",
-        "url": "https://talkingbiznews.com/media-news/how-techdirt-uses-ai-but-not-to-write-articles/"
       }
     ],
     "ai-agents": [
@@ -6532,6 +6494,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-models": [
       {
+        "name": "UC Berkeley 团队发布 Vero 基准：测试 AI 智能体能否构建形式化验证的软件仓库",
+        "provider": "Berkeley RDI：Blog（AI 安全与评测）",
+        "type": "AI 项目/工具",
+        "bestFor": "UC Berkeley 等机构发布 Vero，据称是首个要求智能体在仓库级同时编写实现与证明的基准，含 43 个多模块 Lean 4 实例、743 个计分 API 和 2705 条形式化规范。",
+        "description": "UC Berkeley 等机构发布 Vero，据称是首个要求智能体在仓库级同时编写实现与证明的基准，含 43 个多模块 Lean 4 实例、743 个计分 API 和 2705 条形式化规范。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Berkeley RDI：Blog（AI 安全与评测）",
+        "url": "https://rdi.berkeley.edu/blog/vero"
+      },
+      {
         "name": "Memphis City Council continues debate over data center morat",
         "provider": "Yahoo",
         "type": "AI 项目/工具",
@@ -6959,20 +6932,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "The Star",
         "url": "https://www.thestar.com.my/news/nation/2026/08/30/ai-for-the-people-programme-participants-to-complete-six-modules-for-free-ai-tools"
-      },
-      {
-        "name": "Improve your Android Auto experience by doing these simple t",
-        "provider": "engadget",
-        "type": "AI 项目/工具",
-        "bestFor": "Android Auto is easily one of the most useful tools drivers have today, but most people only use it with default settings, missing out on some really cool featu",
-        "description": "Android Auto is easily one of the most useful tools drivers have today, but most people only use it with default settings, missing out on some really cool features. You connect you",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "engadget",
-        "url": "https://www.engadget.com/2242776/improve-android-auto-experience-doing-simple-things/"
       }
     ],
     "ai-business": [
+      {
+        "name": "Apple's AI groundwork, OpenAI chip flex, and the joys of aer",
+        "provider": "Hindustan Times",
+        "type": "AI 项目/工具",
+        "bestFor": "Cognitive warmup. Remember when as kids, looking up at the sky and seeing those long white streaks being made by an aircraft told us two things. First, it was r",
+        "description": "Cognitive warmup. Remember when as kids, looking up at the sky and seeing those long white streaks being made by an aircraft told us two things. First, it was really high up in the",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Hindustan Times",
+        "url": "https://www.hindustantimes.com/business/apples-ai-groundwork-openai-chip-flex-and-the-joys-of-aeroplane-contrails-101788289880981.html"
+      },
       {
         "name": "U.S. urges hands-off approach to AI regulation at G20 tech m",
         "provider": "The Japan Times",
@@ -7405,21 +7378,6 @@ window.AI_GENERATED_DATA = {
         "watch": "平台的API使用费用可能会对小型商家造成负担，限制其使用意愿。",
         "sourceName": "Blockonomi",
         "url": "https://blockonomi.com/alibaba-baba-stock-surges-5-following-alipays-ai-commerce-platform-debut/"
-      },
-      {
-        "name": "Rothschild 将苹果评级上调至买入，折叠 iPhone 和 AI 战略激发乐观情绪",
-        "provider": "Investors Hub",
-        "type": "AI 项目/工具",
-        "bestFor": "苹果的评级上调可能会吸引更多投资者关注，尤其是在折叠手机市场的潜在增长方面。分析师预测，折叠 iPhone 的推出将为苹果带来新的收入来源，预计将销售 1400 万部，且仅有 400 万部是替代传统 iPhone 的需求。此举可能会改变消费者对折叠手机的看法，尤其是苹果进入该市场后，61% 的消费者表示会对折叠手机产生",
-        "description": "Rothschild & Co Redburn 将苹果（NASDAQ:AAPL）评级从中性上调至买入，并将目标价大幅提升至 $400，原因在于公司预计将推出折叠智能手机以及其人工智能战略的潜在演变。分析师指出，苹果的 AI 产品 Apple Intelligence 目前未能达到预期，且依赖于 Google 的 Gemini 模型。",
-        "useCases": [
-          "分析苹果的市场策略，评估其在折叠手机领域的潜力。",
-          "研究苹果与 Nvidia 合作的可能性，探索开源 AI 模型的应用。",
-          "评估苹果 AI 产品的市场表现，分析其对整体业务的影响。"
-        ],
-        "watch": "折叠 iPhone 的生产可能面临延迟，影响市场推出时间。",
-        "sourceName": "Investors Hub",
-        "url": "https://investorshub.advfn.com/market-news/article/34367/rothschild-upgrades-apple-to-buy-as-foldable-iphone-and-ai-strategy-drive-optimism"
       }
     ],
     "ai-benchmark": [
@@ -8541,6 +8499,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-research": [
       {
+        "name": "A systematic Approach to constructing a Chance-and-Risk Matr",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Semiconductor supply chains face escalating risks from geopolitical tensions, geographic concentration, and rapid technological shifts, yet no scalable system c",
+        "description": "Semiconductor supply chains face escalating risks from geopolitical tensions, geographic concentration, and rapid technological shifts, yet no scalable system continuously extracts",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2609.01563v1"
+      },
+      {
         "name": "Firm launches in Nigeria to drive strategic execution",
         "provider": "Punch Newspapers",
         "type": "AI 项目/工具",
@@ -9003,17 +8972,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2608.12283v1"
-      },
-      {
-        "name": "ReLTEx: Reliable LLM-based Taxonomy Expansion",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Recent advances in Large Language Models (LLMs) have demonstrated strong capabilities in generating semantically relevant concepts and relations, making them pr",
-        "description": "Recent advances in Large Language Models (LLMs) have demonstrated strong capabilities in generating semantically relevant concepts and relations, making them promising tools for ta",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2608.10970v1"
       }
     ],
     "ai-office": []
@@ -10422,13 +10380,24 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-02",
-    "generatedAt": "2026-09-02T02:30:22.818403Z",
-    "total": 26,
+    "generatedAt": "2026-09-02T05:02:21.790172Z",
+    "total": 30,
     "sections": [
       {
         "category": "ai-coding",
         "label": "AI 编程",
         "items": [
+          {
+            "title": "Can LLMs Design Video Coding Tools? A Case Study on Planar Mode",
+            "summary": "This paper explores whether large language models (LLMs) can design video coding tools, a highly challenging task due to the intricate algor",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.01535v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-01",
+            "publishedAt": "",
+            "reason": ""
+          },
           {
             "title": "How law firm Gilbert + Tobin governs and scales AI with OpenAI",
             "summary": "See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex acr",
@@ -10569,6 +10538,17 @@ window.AI_GENERATED_DATA = {
         "label": "模型发布",
         "items": [
           {
+            "title": "Anthropic 发布 Claude Fable 5.1 与 Claude Mythos 5.1",
+            "summary": "Anthropic 发布 Claude Fable 5.1 和 Claude Mythos 5.1，两者为同一模型，Mythos 5.1 仅通过受信任访问计划提供给网络安全和生命科学领域。",
+            "source": "Anthropic：Newsroom（网页）",
+            "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+            "score": 70,
+            "sourceCount": 2,
+            "date": "2026-09-02",
+            "publishedAt": "2026-09-02T11:33",
+            "reason": ""
+          },
+          {
             "title": "The latest AI news we announced in August 2026",
             "summary": "Here are Google’s latest AI updates from August 2026",
             "source": "RSS · Google AI Blog",
@@ -10577,17 +10557,6 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-09-02",
             "publishedAt": "2026-09-02T04:45",
-            "reason": ""
-          },
-          {
-            "title": "Introducing Claude Fable 5.1 on AWS",
-            "summary": "Claude Fable 5.1 is now available on Amazon Bedrock and Claude Platform on AWS. This post covers Claude Fable 5.1's improvements, the Enterp",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-fable-5-1-on-aws/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-02",
-            "publishedAt": "2026-09-02T03:12",
             "reason": ""
           },
           {
@@ -10610,6 +10579,50 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-09-02",
             "publishedAt": "2026-09-02T00:03",
+            "reason": ""
+          },
+          {
+            "title": "The Structure of Quantization Damage in LLMs: Why the Next Bit Should Be Spent Globally",
+            "summary": "Post-training quantization (PTQ) is widely used to reduce the cost of serving large language models (LLMs), but its accuracy cost is uneven ",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.01587v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-01",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "From Confusion to Clarity: Confusion-Aware Retrieval and Knowledge Injection for Text Classification",
+            "summary": "Large language models (LLMs) struggle to classify text into taxonomies with many semantically similar labels, as the distinctions are domain",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.01564v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-01",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "A systematic Approach to constructing a Chance-and-Risk Matrix for Semiconductor Supply Chains",
+            "summary": "Semiconductor supply chains face escalating risks from geopolitical tensions, geographic concentration, and rapid technological shifts, yet ",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.01563v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-01",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "RadMatch: Auditable Radiology Report Evaluation via Finding-Level Matching",
+            "summary": "As AI systems are increasingly used to draft radiology reports, reliably evaluating their clinical quality remains a critical challenge. Lar",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.01470v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-01",
+            "publishedAt": "",
             "reason": ""
           },
           {
@@ -10655,28 +10668,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-09-01",
             "publishedAt": "2026-09-01T08:07",
             "reason": ""
-          },
-          {
-            "title": "AWS recognized as a Leader in The Forrester Wave: AI Infrastructure Solutions, Q4 2025",
-            "summary": "We're excited to share that AWS has been recognized as a Leader in The Forrester Wave: AI Infrastructure Solutions, Q4 2025. In this evaluat",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/aws-recognized-as-a-leader-in-the-forrester-wave-ai-infrastructure-solutions-q4-2025/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-01",
-            "publishedAt": "2026-09-01T03:50",
-            "reason": ""
-          },
-          {
-            "title": "TimesFM-3: A zero-shot foundation model for multivariate forecasting",
-            "summary": "Data Management",
-            "source": "RSS · Google Research",
-            "url": "https://research.google/blog/timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-01",
-            "publishedAt": "2026-09-01T01:19",
-            "reason": ""
           }
         ]
       },
@@ -10693,6 +10684,17 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-09-02",
             "publishedAt": "2026-09-02T05:39",
+            "reason": ""
+          },
+          {
+            "title": "SDARE-Bench: Evaluating Large Language Models on Conversational Stigma Detection and Response in Dyadic and Group Dialogue",
+            "summary": "Large Language Models (LLMs) are increasingly used in advice seeking and decision making that may affect social judgements. Despite stigma's",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.01548v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-01",
+            "publishedAt": "",
             "reason": ""
           }
         ]
@@ -23514,6 +23516,18 @@ window.AI_GENERATED_DATA = {
     ]
   },
   "benchmarkDatasets": [
+    {
+      "name": "SDARE-Bench",
+      "area": "AI 模型能力评测",
+      "note": "Large Language Models (LLMs) are increasingly used in advice seeking and decision making that may affect social judgements. Despite stigma's profound effects on people and communit",
+      "source": "http://arxiv.org/abs/2609.01548v1",
+      "sourceName": "arXiv",
+      "date": "2026-09-01",
+      "originTitle": "SDARE-Bench: Evaluating Large Language Models on Conversational Stigma Detection and Response in Dyadic and Group Dialogue",
+      "evaluates": [],
+      "useCases": [],
+      "limitations": []
+    },
     {
       "name": "MMDS-Bench",
       "area": "视觉感知 / 多模态",
