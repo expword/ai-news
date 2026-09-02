@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-02",
-  "generatedAt": "2026-09-01T22:46:51.572500Z",
+  "generatedAt": "2026-09-02T02:30:22.843401Z",
   "news": [
     {
       "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
@@ -283,6 +283,33 @@
       "moduleTargets": [
         "news",
         "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "How law firm Gilbert + Tobin governs and scales AI with OpenAI",
+      "summary": "See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex across the firm.",
+      "category": "ai-coding",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-09-01",
+      "publishedAt": "2026-09-01T09:00",
+      "collectedAt": "2026-09-02T10:30",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/gilbert-tobin",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
       ],
       "sourceCount": 1
     },
@@ -2498,226 +2525,6 @@
       "moduleTargets": [
         "news",
         "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "BrailleBench: Investigating Multi-Criteria Braille Comprehension in Large Language Models",
-      "summary": "Although Large language models (LLMs) mediate access to knowledge and computational assistance, their capabilities should benefit vulnerable groups in the same way. However, it is ",
-      "category": "ai-benchmark",
-      "source": "arXiv",
-      "date": "2026-08-27",
-      "publishedAt": "",
-      "collectedAt": "2026-08-29T00:59",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-27",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.27268v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "benchmarkDatasets"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Persona-Execution Separation: An Architecture Pattern for Evolving LLM Agents under Execution Audit",
-      "summary": "Large language model (LLM) agents in governed organizations must let the persona (instructions, tone, self-presentation) evolve freely, while keeping execution (stateful, audited w",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-08-27",
-      "publishedAt": "",
-      "collectedAt": "2026-08-28T17:24",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-27",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.27427v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Sophistication in GenAI Use: Field Evidence from a Large Firm",
-      "summary": "We study how sophistication in generative AI (genAI) use varies among the back-office workforce of a large firm. Using proprietary data, we observe 713,564 employee prompts and the",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-08-27",
-      "publishedAt": "",
-      "collectedAt": "2026-08-28T17:24",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-27",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.27364v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "From Static to Dynamic: Benchmarking Real-World Code Review with MCR-Bench",
-      "summary": "In real-world software development, code review typically involves iterative interactions between developers and reviewers to improve software quality, making the process costly an",
-      "category": "ai-coding",
-      "source": "arXiv",
-      "date": "2026-08-27",
-      "publishedAt": "",
-      "collectedAt": "2026-08-28T17:24",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-27",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.27442v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "benchmarkDatasets"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Consolidating RLVR Capabilities Across Domains: A Deep Dive into Fusion Paradigms",
-      "summary": "Reinforcement learning with verifiable rewards (RLVR) improves specific capabilities of large language models, but covering multiple capabilities often involves training separate d",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-08-27",
-      "publishedAt": "",
-      "collectedAt": "2026-08-28T17:24",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-27",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.27409v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Retrieval Heads Meet Vision: Uncovering How VLMs Locate and Extract Visual Information",
-      "summary": "Vision-language models (VLMs) can locate an image region referred to by a text prompt and route the corresponding visual evidence to the output, yet the internal mechanism behind t",
-      "category": "ai-image-video",
-      "source": "arXiv",
-      "date": "2026-08-27",
-      "publishedAt": "",
-      "collectedAt": "2026-08-28T17:24",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-27",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.27417v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "INTENT-AS-A-TOOL Makes it Easy to Track Agentic Misalignment",
-      "summary": "As large language models (LLMs) are deployed as autonomous agents, safety failures increasingly involve consequential actions. We study agentic misalignment, where agents take harm",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-08-27",
-      "publishedAt": "",
-      "collectedAt": "2026-08-28T17:24",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-27",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.27348v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "How Language Models Organize and Structure Moral Knowledge",
-      "summary": "How do large language models (LLMs) organize moral knowledge? Models detect moral content broadly, but detection is a low bar. We ask whether they go further, distinguishing moral ",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-08-27",
-      "publishedAt": "",
-      "collectedAt": "2026-08-28T17:24",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-27",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.27402v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
       ],
       "sourceCount": 1
     }
@@ -6725,6 +6532,28 @@
     ],
     "ai-models": [
       {
+        "name": "Memphis City Council continues debate over data center morat",
+        "provider": "Yahoo",
+        "type": "AI 项目/工具",
+        "bestFor": "Add Yahoo as a preferred source to see more of our stories on Google.\n\nA temporary 12-month data center moratorium in Memphis could be put on hold after Memphis",
+        "description": "Add Yahoo as a preferred source to see more of our stories on Google.\n\nA temporary 12-month data center moratorium in Memphis could be put on hold after Memphis City Council approv",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Yahoo",
+        "url": "https://www.yahoo.com/news/politics/articles/memphis-city-council-continues-debate-003511620.html"
+      },
+      {
+        "name": "Fervo Energy (FRVO) Bags New Power Deal, Soars 28%; Hedge Fu",
+        "provider": "Yahoo! Finance",
+        "type": "AI 项目/工具",
+        "bestFor": "Fervo Energy (NASDAQ:FRVO) soared by 28.41 percent on Tuesday to close at $19.75 apiece after bagging home a new power purchase agreement (PPA) with Google to s",
+        "description": "Fervo Energy (NASDAQ:FRVO) soared by 28.41 percent on Tuesday to close at $19.75 apiece after bagging home a new power purchase agreement (PPA) with Google to support the developme",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Yahoo! Finance",
+        "url": "https://finance.yahoo.com/energy/articles/fervo-energy-frvo-bags-power-004015387.html"
+      },
+      {
         "name": "Introducing Claude Fable 5.1 on AWS",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -7141,31 +6970,20 @@
         "watch": "请打开原始来源核对",
         "sourceName": "engadget",
         "url": "https://www.engadget.com/2242776/improve-android-auto-experience-doing-simple-things/"
-      },
-      {
-        "name": "AI for the People participants must complete six modules to ",
-        "provider": "Malay Mail",
-        "type": "AI 项目/工具",
-        "bestFor": "PUTRAJAYA, Aug 30 -- Participants in the AI for the People (AI Untuk Rakyat) programme must complete and pass six designated modules to qualify for a free three",
-        "description": "PUTRAJAYA, Aug 30 -- Participants in the AI for the People (AI Untuk Rakyat) programme must complete and pass six designated modules to qualify for a free three-month subscription ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Malay Mail",
-        "url": "https://www.malaymail.com/news/malaysia/2026/08/30/ai-for-the-people-participants-must-complete-six-modules-to-receive-free-ai-tools/233316"
-      },
-      {
-        "name": "Mark Zuckerberg's Meta Just Open-Sourced Its Most Powerful A",
-        "provider": "Yahoo! Finance",
-        "type": "AI 项目/工具",
-        "bestFor": "Meta Platforms (NASDAQ: META) is once again releasing some of its artificial intelligence (AI) models with open weights, allowing developers to download and mod",
-        "description": "Meta Platforms (NASDAQ: META) is once again releasing some of its artificial intelligence (AI) models with open weights, allowing developers to download and modify them.\n\nThe compa",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Yahoo! Finance",
-        "url": "https://finance.yahoo.com/technology/ai/articles/mark-zuckerbergs-meta-just-open-090500191.html"
       }
     ],
     "ai-business": [
+      {
+        "name": "U.S. urges hands-off approach to AI regulation at G20 tech m",
+        "provider": "The Japan Times",
+        "type": "AI 项目/工具",
+        "bestFor": "CHAPEL HILL, North Carolina - The U.S. pressed G20 members on Tuesday to take a hands-off approach to artificial intelligence regulation and avoid creating rule",
+        "description": "CHAPEL HILL, North Carolina - The U.S. pressed G20 members on Tuesday to take a hands-off approach to artificial intelligence regulation and avoid creating rules for the technology",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Japan Times",
+        "url": "https://www.japantimes.co.jp/business/2026/09/02/tech/us-ai-regulation-g20/"
+      },
       {
         "name": "Springfield tech survey will measure AI use, workplace equit",
         "provider": "Springfield News-Leader",
@@ -7602,17 +7420,6 @@
         "watch": "折叠 iPhone 的生产可能面临延迟，影响市场推出时间。",
         "sourceName": "Investors Hub",
         "url": "https://investorshub.advfn.com/market-news/article/34367/rothschild-upgrades-apple-to-buy-as-foldable-iphone-and-ai-strategy-drive-optimism"
-      },
-      {
-        "name": "BABA Stock Gains Ground: Alibaba Reportedly Sells Gaming Uni",
-        "provider": "Stocktwits",
-        "type": "AI 项目/工具",
-        "bestFor": "* Alibaba is reportedly selling Lingxi Games to Trustar Capital.\n\n* The company's CEO, Eddie Wu, is shifting focus toward AI and cloud computing.\n\n* Alibaba's Q",
-        "description": "* Alibaba is reportedly selling Lingxi Games to Trustar Capital.\n\n* The company's CEO, Eddie Wu, is shifting focus toward AI and cloud computing.\n\n* Alibaba's Qwen AI models have t",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Stocktwits",
-        "url": "https://stocktwits.com/news-articles/markets/equity/baba-stock-gains-ground-alibaba-reportedly-sells-gaming-unit-for-1-5-b-as-qwen-fuels-bigger-ai-push/cZo6Hp5RJKp"
       }
     ],
     "ai-benchmark": [
@@ -8734,6 +8541,17 @@
     ],
     "ai-research": [
       {
+        "name": "Firm launches in Nigeria to drive strategic execution",
+        "provider": "Punch Newspapers",
+        "type": "AI 项目/工具",
+        "bestFor": "Management consulting firm, DAC Consulting, has officially commenced operations in Nigeria, unveiling an integrated 360-degree approach to help organisations br",
+        "description": "Management consulting firm, DAC Consulting, has officially commenced operations in Nigeria, unveiling an integrated 360-degree approach to help organisations bridge the critical ga",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Punch Newspapers",
+        "url": "https://punchng.com/firm-launches-in-nigeria-to-drive-strategic-execution/"
+      },
+      {
         "name": "Mapping global methane emissions from space with deep learni",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -9196,17 +9014,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2608.10970v1"
-      },
-      {
-        "name": "Role of Personality in Conversational Information Seeking",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Large language models (LLMs) are increasingly used for information seeking, where users find, compare, and evaluate information through dialogue. In this role, ",
-        "description": "Large language models (LLMs) are increasingly used for information seeking, where users find, compare, and evaluate information through dialogue. In this role, the assistant does m",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2608.11164v1"
       }
     ],
     "ai-office": []
@@ -10615,9 +10422,26 @@
   ],
   "dailyReport": {
     "date": "2026-09-02",
-    "generatedAt": "2026-09-01T22:46:51.545534Z",
-    "total": 25,
+    "generatedAt": "2026-09-02T02:30:22.818403Z",
+    "total": 26,
     "sections": [
+      {
+        "category": "ai-coding",
+        "label": "AI 编程",
+        "items": [
+          {
+            "title": "How law firm Gilbert + Tobin governs and scales AI with OpenAI",
+            "summary": "See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex acr",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/gilbert-tobin",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-01",
+            "publishedAt": "2026-09-01T09:00",
+            "reason": ""
+          }
+        ]
+      },
       {
         "category": "ai-image-video",
         "label": "图像视频",
