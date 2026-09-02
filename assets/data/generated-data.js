@@ -1,7 +1,103 @@
 window.AI_GENERATED_DATA = {
-  "lastUpdated": "2026-09-02",
-  "generatedAt": "2026-09-02T15:20:59.882871Z",
+  "lastUpdated": "2026-09-03",
+  "generatedAt": "2026-09-02T17:47:47.736839Z",
   "news": [
+    {
+      "title": "Google DeepMind 发布 Gemini 3.8 Flash 与 3.8 Flash Cyber 两款新模型",
+      "summary": "Google DeepMind 发布 Gemini 3.8 Flash 与 3.8 Flash Cyber。",
+      "category": "ai-models",
+      "source": "Google DeepMind：Blog（RSS）",
+      "date": "2026-09-03",
+      "publishedAt": "2026-09-03T00:18",
+      "collectedAt": "2026-09-03T01:47",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 2,
+      "relatedSources": [
+        {
+          "source": "RSS · Google DeepMind",
+          "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
+          "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber"
+        }
+      ]
+    },
+    {
+      "title": "Real-Time Intelligence with IBM Time Series Models on Confluent",
+      "summary": "",
+      "category": "ai-models",
+      "source": "RSS · Hugging Face Blog",
+      "date": "2026-09-02",
+      "publishedAt": "2026-09-02T21:49",
+      "collectedAt": "2026-09-03T01:47",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://huggingface.co/blog/ibm-research/real-time-intelligence",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Proactive cyber defense for governments and enterprises",
+      "summary": "The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.",
+      "category": "ai-models",
+      "source": "RSS · Google AI Blog",
+      "date": "2026-09-02",
+      "publishedAt": "2026-09-02T23:40",
+      "collectedAt": "2026-09-03T00:36",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 2,
+      "relatedSources": [
+        {
+          "source": "RSS · Google DeepMind",
+          "url": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
+          "title": "Proactive cyber defense for governments and enterprises"
+        }
+      ]
+    },
     {
       "title": "Anthropic 发布 Claude Fable 5.1 与 Claude Mythos 5.1",
       "summary": "Anthropic 发布 Claude Fable 5.1 和 Claude Mythos 5.1，两者为同一模型，Mythos 5.1 仅通过受信任访问计划提供给网络安全和生命科学领域。",
@@ -6046,6 +6142,39 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "Anthropic 发布电商 Agent 架构与生产实践指南，并开源 commerce-agents 参考实现",
+        "provider": "Claude：Blog（网页）",
+        "type": "AI 项目/工具",
+        "bestFor": "Anthropic 发布电商 Agent 构建指南，基于与零售、旅游、电信等团队的落地经验，核心架构是单个 Claude 在标准 Agent 循环中配合技能与工具，而非按领域拆分子智能体，并开源了 anthropics/commerce-agents 参考实现，含购物与商家 Agent。",
+        "description": "Anthropic 发布电商 Agent 构建指南，基于与零售、旅游、电信等团队的落地经验，核心架构是单个 Claude 在标准 Agent 循环中配合技能与工具，而非按领域拆分子智能体，并开源了 anthropics/commerce-agents 参考实现，含购物与商家 Agent。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Claude：Blog（网页）",
+        "url": "https://claude.com/blog/the-anatomy-of-effective-commerce-agents"
+      },
+      {
+        "name": "Google 总结 AI Agents Challenge 中最强提交背后的 4 个工程模式",
+        "provider": "Google Developers Blog（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "Google 复盘 AI Agents Challenge 赛事，从各赛道头部提交中提炼出四个工程模式：双向 MCP、事件驱动并发、同标准回退和分层路由。",
+        "description": "Google 复盘 AI Agents Challenge 赛事，从各赛道头部提交中提炼出四个工程模式：双向 MCP、事件驱动并发、同标准回退和分层路由。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Google Developers Blog（RSS）",
+        "url": "https://developers.googleblog.com/4-engineering-patterns-behind-the-strongest-ai-agents-challenge-submissions"
+      },
+      {
+        "name": "什么是 harness 工程？Google 用 ADK 2.0 与 Antigravity SDK 演示自动修复编码循环",
+        "provider": "Google AI：DEV 作者专属（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "Google 员工 Shir Meir Lador 介绍 harness 工程，即用确定性组件包裹 LLM，包括编排层、执行沙箱、状态持久化和验证工具，让 Agent 不需逐行人工审查即可安全生成代码。",
+        "description": "Google 员工 Shir Meir Lador 介绍 harness 工程，即用确定性组件包裹 LLM，包括编排层、执行沙箱、状态持久化和验证工具，让 Agent 不需逐行人工审查即可安全生成代码。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Google AI：DEV 作者专属（RSS）",
+        "url": "https://dev.to/googleai/what-is-harness-engineering-and-why-should-i-care-8n0"
+      },
+      {
         "name": "Test Phenom AI Agents for Hiring, Development and Retention ",
         "provider": "FinanzNachrichten.de",
         "type": "AI 项目/工具",
@@ -6451,42 +6580,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2608.28532v1"
-      },
-      {
-        "name": "Z.ai, Maker of GLMs, Makes $142 Million in Revenue at a $71 ",
-        "provider": "Trending Topics",
-        "type": "AI 项目/工具",
-        "bestFor": "GLM models have reliably made the AI industry sit up and take notice. On agentic capabilities in particular, Z.ai has repeatedly set new standards in the open-w",
-        "description": "GLM models have reliably made the AI industry sit up and take notice. On agentic capabilities in particular, Z.ai has repeatedly set new standards in the open-weight space, most re",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Trending Topics",
-        "url": "https://www.trendingtopics.eu/z-ai-maker-of-glms-makes-142-million-in-revenue-at-a-71-billion-market-value/"
-      },
-      {
-        "name": "Google's Agentic Hotel Booking Tool Comes to AI Mode",
-        "provider": "RocketNews | Top News Stories From Around the Globe",
-        "type": "AI 项目/工具",
-        "bestFor": "Google has introduced an agentic hotel booking feature within its AI Mode platform, marking the realization of capabilities the company previewed in November. T",
-        "description": "Google has introduced an agentic hotel booking feature within its AI Mode platform, marking the realization of capabilities the company previewed in November. The tool enables trav",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RocketNews | Top News Stories From Around the Globe",
-        "url": "https://rocketnews.com/2026/08/googles-agentic-hotel-booking-tool-comes-to-ai-mode/"
-      },
-      {
-        "name": "Broadcom Unveils AgentMinder, An Enterprise Solution for AI ",
-        "provider": "The Manila times",
-        "type": "AI 项目/工具",
-        "bestFor": "New Solution Makes It Possible for Enterprises to Use AI Agents While Ensuring They Follow Company Rules and Security Standards\n\nBroadcom Utilizes AgentMinder t",
-        "description": "New Solution Makes It Possible for Enterprises to Use AI Agents While Ensuring They Follow Company Rules and Security Standards\n\nBroadcom Utilizes AgentMinder to Scale Enterprise G",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Manila times",
-        "url": "https://www.manilatimes.net/2026/08/31/tmt-newswire/globenewswire/broadcom-unveils-agentminder-an-enterprise-solution-for-ai-agent-governance-and-runtime-control/2415194"
       }
     ],
     "ai-models": [
+      {
+        "name": "Proactive cyber defense for governments and enterprises",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.",
+        "description": "The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Google AI Blog",
+        "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/"
+      },
       {
         "name": "Glean's AI assistant uses 70% fewer tokens than Anthropic's ",
         "provider": "Crypto Briefing",
@@ -6915,17 +7022,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "RocketNews | Top News Stories From Around the Globe",
         "url": "https://rocketnews.com/2026/08/sports-directs-ashley-attacks-burnham-over-populist-high-street-revival-plans-2/"
-      },
-      {
-        "name": "Somerset cider makers left with very few apples after heatwa",
-        "provider": "RocketNews | Top News Stories From Around the Globe",
-        "type": "AI 项目/工具",
-        "bestFor": "Somerset's cider industry faces a significant production crisis following an extended drought that has severely impacted apple crops across the region. Multiple",
-        "description": "Somerset's cider industry faces a significant production crisis following an extended drought that has severely impacted apple crops across the region. Multiple producers reported ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RocketNews | Top News Stories From Around the Globe",
-        "url": "https://rocketnews.com/2026/08/somerset-cider-makers-left-with-very-few-apples-after-heatwaves/"
       }
     ],
     "ai-business": [
@@ -10369,38 +10465,10 @@ window.AI_GENERATED_DATA = {
     }
   ],
   "dailyReport": {
-    "date": "2026-09-02",
-    "generatedAt": "2026-09-02T15:20:59.858837Z",
-    "total": 33,
+    "date": "2026-09-03",
+    "generatedAt": "2026-09-02T17:47:47.710839Z",
+    "total": 13,
     "sections": [
-      {
-        "category": "ai-coding",
-        "label": "AI 编程",
-        "items": [
-          {
-            "title": "Can LLMs Design Video Coding Tools? A Case Study on Planar Mode",
-            "summary": "This paper explores whether large language models (LLMs) can design video coding tools, a highly challenging task due to the intricate algor",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.01535v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-01",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "How law firm Gilbert + Tobin governs and scales AI with OpenAI",
-            "summary": "See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex acr",
-            "source": "RSS · OpenAI Blog",
-            "url": "https://openai.com/index/gilbert-tobin",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-01",
-            "publishedAt": "2026-09-01T09:00",
-            "reason": ""
-          }
-        ]
-      },
       {
         "category": "ai-image-video",
         "label": "图像视频",
@@ -10465,83 +10533,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-09-02",
             "publishedAt": "2026-09-02T00:02",
             "reason": ""
-          },
-          {
-            "title": "TRIAGE: Three-level Routing and Intelligent Agent Guidance for Efficient Execution",
-            "summary": "Large Language Model (LLM) agents based on the ReAct paradigm have demonstrated remarkable capabilities in tool use and task execution. Howe",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.01428v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-01",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "EDGE: Error Dependency Graph-Guided Multi-Error Attribution in Multi-Agent LLM Systems",
-            "summary": "Large language model (LLM) agent failures often contain multiple related errors rather than a single mistake. Existing attribution methods u",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.01360v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-01",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "How t54 built a trust layer with Amazon Bedrock AgentCore payments",
-            "summary": "t54 built x402-secure, a trust layer on Amazon Bedrock AgentCore payments that scores every endpoint before an autonomous agent pays it. See",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/how-t54-built-a-trust-layer-with-amazon-bedrock-agentcore-payments/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-01",
-            "publishedAt": "2026-09-01T23:50",
-            "reason": ""
-          },
-          {
-            "title": "How Boomi Scribe streamlines documentation using AWS",
-            "summary": "Boomi Scribe is an AI-powered agent on AWS that automatically generates documentation for enterprise integration workflows. Learn how Boomi ",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/how-boomi-scribe-streamlines-documentation-using-aws/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-01",
-            "publishedAt": "2026-09-01T23:45",
-            "reason": ""
-          },
-          {
-            "title": "Connect an AgentCore Runtime hosted MCP server to Amazon Quick",
-            "summary": "In this post, you will learn how to deploy and host your MCP server in AgentCore Runtime and integrate it with Amazon Quick, along with the ",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/connect-an-agentcore-runtime-hosted-mcp-server-to-amazon-quick/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-01",
-            "publishedAt": "2026-09-01T06:47",
-            "reason": ""
-          },
-          {
-            "title": "Build observable enterprise agentic retrieval using Managed Amazon Bedrock Knowledge Base with AWS CloudFormation",
-            "summary": "This post builds an enterprise agentic retrieval solution on the Amazon Bedrock Managed Knowledge Base and Amazon Bedrock AgentCore. An agen",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/build-observable-enterprise-agentic-retrieval-using-managed-amazon-bedrock-knowledge-base-with-aws-cloudformation/",
-            "score": 70,
-            "sourceCount": 2,
-            "date": "2026-09-01",
-            "publishedAt": "2026-09-01T03:08",
-            "reason": ""
-          },
-          {
-            "title": "Manage agents, tools and skills at scale with AWS Agent Registry",
-            "summary": "AWS Agent Registry is now generally available: a single, searchable, governed catalog for the agents, tools, skills, and custom resources ac",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/manage-agents-tools-and-skills-at-scale-with-aws-agent-registry/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-01",
-            "publishedAt": "2026-09-01T03:18",
-            "reason": ""
           }
         ]
       },
@@ -10549,6 +10540,39 @@ window.AI_GENERATED_DATA = {
         "category": "ai-models",
         "label": "模型发布",
         "items": [
+          {
+            "title": "Google DeepMind 发布 Gemini 3.8 Flash 与 3.8 Flash Cyber 两款新模型",
+            "summary": "Google DeepMind 发布 Gemini 3.8 Flash 与 3.8 Flash Cyber。",
+            "source": "Google DeepMind：Blog（RSS）",
+            "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber",
+            "score": 70,
+            "sourceCount": 2,
+            "date": "2026-09-03",
+            "publishedAt": "2026-09-03T00:18",
+            "reason": ""
+          },
+          {
+            "title": "Real-Time Intelligence with IBM Time Series Models on Confluent",
+            "summary": "",
+            "source": "RSS · Hugging Face Blog",
+            "url": "https://huggingface.co/blog/ibm-research/real-time-intelligence",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-02",
+            "publishedAt": "2026-09-02T21:49",
+            "reason": ""
+          },
+          {
+            "title": "Proactive cyber defense for governments and enterprises",
+            "summary": "The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.",
+            "source": "RSS · Google AI Blog",
+            "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
+            "score": 70,
+            "sourceCount": 2,
+            "date": "2026-09-02",
+            "publishedAt": "2026-09-02T23:40",
+            "reason": ""
+          },
           {
             "title": "Anthropic 发布 Claude Fable 5.1 与 Claude Mythos 5.1",
             "summary": "Anthropic 发布 Claude Fable 5.1 和 Claude Mythos 5.1，两者为同一模型，Mythos 5.1 仅通过受信任访问计划提供给网络安全和生命科学领域。",
@@ -10592,94 +10616,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-09-02",
             "publishedAt": "2026-09-02T00:03",
             "reason": ""
-          },
-          {
-            "title": "Efficiently Estimating Optimal Hyperparameter Scaling Laws through Power-Law Entropy Search",
-            "summary": "Optimal hyperparameter scaling laws describe how the best hyperparameters for large language model (LLM) training change with model and data",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.01431v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-01",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Citing Less Critically: LLMs Reshape the Rhetoric and Reach of Scientific Citation",
-            "summary": "Scientific citations carry rhetorical intent. Scholars may cite prior work positively (supporting), negatively (contrasting), or neutrally (",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.01432v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-01",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Measuring consistency via ensemble margin and local prediction variability: Auditing decision systems in the presence of predictive multiplicity",
-            "summary": "The Rashomon effect is a machine learning phenomenon where equally accurate models produce different predictions for the same inputs (predic",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.01397v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-01",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "From Rollouts to Recipes: Self-Contained Post-Training for LLMs",
-            "summary": "Post-training large language models usually applies a single training recipe to all samples, even though the model's own rollouts reveal dif",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.01422v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-01",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Investigating Linear Probe Robustness to Linguistic Register, Medical Specialty, and Corpus Shifts in Medical QA",
-            "summary": "Linear classifiers trained on hidden states of a large language model (LLM), linear probes, can flag factual errors from a single forward pa",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.01361v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-01",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "The Structure of Quantization Damage in LLMs: Why the Next Bit Should Be Spent Globally",
-            "summary": "Post-training quantization (PTQ) is widely used to reduce the cost of serving large language models (LLMs), but its accuracy cost is uneven ",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.01587v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-01",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "From Confusion to Clarity: Confusion-Aware Retrieval and Knowledge Injection for Text Classification",
-            "summary": "Large language models (LLMs) struggle to classify text into taxonomies with many semantically similar labels, as the distinctions are domain",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.01564v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-01",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "A systematic Approach to constructing a Chance-and-Risk Matrix for Semiconductor Supply Chains",
-            "summary": "Semiconductor supply chains face escalating risks from geopolitical tensions, geographic concentration, and rapid technological shifts, yet ",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.01563v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-01",
-            "publishedAt": "",
-            "reason": ""
           }
         ]
       },
@@ -10697,84 +10633,153 @@ window.AI_GENERATED_DATA = {
             "date": "2026-09-02",
             "publishedAt": "2026-09-02T05:39",
             "reason": ""
-          },
-          {
-            "title": "Evaluating Multimodal LLMs as Generalist Vision-Language-Action Agents for Drone Control: Commanding, Approaching, Tracking and Searching",
-            "summary": "Multimodal Large Language Models (MLLMs) are strong perceivers of images and video. We ask how far that reach extends into acting: dropping ",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.01404v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-01",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "SDARE-Bench: Evaluating Large Language Models on Conversational Stigma Detection and Response in Dyadic and Group Dialogue",
-            "summary": "Large Language Models (LLMs) are increasingly used in advice seeking and decision making that may affect social judgements. Despite stigma's",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.01548v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-01",
-            "publishedAt": "",
-            "reason": ""
-          }
-        ]
-      },
-      {
-        "category": "ai-research",
-        "label": "论文研究",
-        "items": [
-          {
-            "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
-            "summary": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.",
-            "source": "RSS · OpenAI Blog",
-            "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-01",
-            "publishedAt": "2026-09-01T20:00",
-            "reason": ""
-          },
-          {
-            "title": "NLP-Driven Knowledge Extraction and Thematic Classification of Translated Ancient Indian Medical Texts",
-            "summary": "arXiv:2608.28608v1 Announce Type: new Abstract: Ancient Indian medical texts like Sushruta Samhita have extensive information on diseases, t",
-            "source": "RSS · arXiv cs.CL",
-            "url": "https://arxiv.org/abs/2608.28608",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-01",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Expert-validated STEM QA",
-            "summary": "arXiv:2608.28591v1 Announce Type: new Abstract: Recent advancements in AI are helping scientists achieve breakthroughs in fields such as mat",
-            "source": "RSS · arXiv cs.AI",
-            "url": "https://arxiv.org/abs/2608.28591",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-01",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "GigaPath-Flash and GigaTIME-Flash: Toward population-scale discovery with efficient pathology foundation models",
-            "summary": "What if pathology foundation models could do more with less? GigaPath-Flash and GigaTIME-Flash cut computational demands while maintaining s",
-            "source": "RSS · Microsoft Research",
-            "url": "https://www.microsoft.com/en-us/research/blog/gigapath-flash-and-gigatime-flash-toward-population-scale-discovery-with-efficient-pathology-foundation-models/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-01",
-            "publishedAt": "2026-09-01T00:00",
-            "reason": ""
           }
         ]
       }
     ]
   },
   "dailyReports": [
+    {
+      "date": "2026-09-02",
+      "generatedAt": "2026-09-02T16:00:07.084794Z",
+      "total": 10,
+      "sections": [
+        {
+          "category": "ai-image-video",
+          "label": "图像视频",
+          "items": [
+            {
+              "title": "Try Google Pics: Easy image creation and editing in Google Workspace",
+              "summary": "Built on our latest Nano Banana model, Google Pics — our image creation and editing tool — is now available.",
+              "source": "RSS · Google AI Blog",
+              "url": "https://blog.google/products-and-platforms/products/workspace/google-pics/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-02",
+              "publishedAt": "2026-09-02T00:00",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-agents",
+          "label": "Agent / MCP",
+          "items": [
+            {
+              "title": "How AI-native companies turn workflows into operating capability",
+              "summary": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders c",
+              "source": "RSS · OpenAI Blog",
+              "url": "https://openai.com/index/ai-native-company-workflows",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-02",
+              "publishedAt": "2026-09-02T01:00",
+              "reason": ""
+            },
+            {
+              "title": "Introducing agentic video understanding with Gemini",
+              "summary": "",
+              "source": "RSS · Google DeepMind",
+              "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
+              "score": 70,
+              "sourceCount": 2,
+              "date": "2026-09-02",
+              "publishedAt": "2026-09-02T01:08",
+              "reason": ""
+            },
+            {
+              "title": "From theory to delivery: How Atos upskilled 400 engineers in agentic AI",
+              "summary": "When Atos set out to upskill 400 engineers in agentic AI, hands-on learning was the missing ingredient. Over three days, engineers built mul",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/from-theory-to-delivery-how-atos-upskilled-400-engineers-in-agentic-ai/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-02",
+              "publishedAt": "2026-09-02T00:17",
+              "reason": ""
+            },
+            {
+              "title": "Securing Amazon Quick from POC to production: Agents, Flows, and Spaces",
+              "summary": "Amazon Quick proof-of-concept projects often stall when security teams review the production plan. This post walks through designing dashboa",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/securing-amazon-quick-from-poc-to-production-agents-flows-and-spaces/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-02",
+              "publishedAt": "2026-09-02T00:02",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-models",
+          "label": "模型发布",
+          "items": [
+            {
+              "title": "Anthropic 发布 Claude Fable 5.1 与 Claude Mythos 5.1",
+              "summary": "Anthropic 发布 Claude Fable 5.1 和 Claude Mythos 5.1，两者为同一模型，Mythos 5.1 仅通过受信任访问计划提供给网络安全和生命科学领域。",
+              "source": "Anthropic：Newsroom（网页）",
+              "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+              "score": 70,
+              "sourceCount": 2,
+              "date": "2026-09-02",
+              "publishedAt": "2026-09-02T11:33",
+              "reason": ""
+            },
+            {
+              "title": "The latest AI news we announced in August 2026",
+              "summary": "Here are Google’s latest AI updates from August 2026",
+              "source": "RSS · Google AI Blog",
+              "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-02",
+              "publishedAt": "2026-09-02T04:45",
+              "reason": ""
+            },
+            {
+              "title": "Mapping global methane emissions from space with deep learning",
+              "summary": "Climate & Sustainability",
+              "source": "RSS · Google Research",
+              "url": "https://research.google/blog/mapping-global-methane-emissions-from-space-with-deep-learning/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-02",
+              "publishedAt": "2026-09-02T02:40",
+              "reason": ""
+            },
+            {
+              "title": "Tokenomics at scale: How Jamf built real-time spend enforcement for Amazon Bedrock",
+              "summary": "As generative AI adoption scales, cost governance becomes a top challenge. Learn how Jamf built real-time, per-user spend enforcement for Am",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/tokenomics-at-scale-how-jamf-built-real-time-spend-enforcement-for-amazon-bedrock/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-02",
+              "publishedAt": "2026-09-02T00:03",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-benchmark",
+          "label": "评测榜单",
+          "items": [
+            {
+              "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
+              "summary": "",
+              "source": "RSS · Hugging Face Blog",
+              "url": "https://huggingface.co/blog/allenai/benchmirt",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-02",
+              "publishedAt": "2026-09-02T05:39",
+              "reason": ""
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-09-01",
       "generatedAt": "2026-09-01T16:00:48.299324Z",
@@ -22057,214 +22062,6 @@ window.AI_GENERATED_DATA = {
               "date": "2026-06-30",
               "publishedAt": "2026-06-30T05:09",
               "reason": "此次投资计划不仅展示了韩国在高科技领域的雄心，也可能对全球半导体和机器人市场产生深远影响。"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-06-29",
-      "generatedAt": "2026-06-29T16:22:57.934861Z",
-      "total": 15,
-      "sections": [
-        {
-          "category": "ai-tools",
-          "label": "AI 工具",
-          "items": [
-            {
-              "title": "Anthropic工程师Margot Van Laar分享提示词工程实战经验",
-              "summary": "Anthropic的应用AI工程师Margot Van Laar在Code with Claude大会上分享了提示词工程的实战经验，强调大部分时间用于调试和维护已有的生产提示词，而非从零开始编写。她指出，评估是唯一严谨的方式，缺乏评估则只能碰运气。",
-              "source": "X：Berry Xia (@berryxia)",
-              "url": "https://x.com/berryxia/status/2071610700213191075",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-06-29",
-              "publishedAt": "2026-06-29T23:04",
-              "reason": "这条信息提供了关于提示词工程的实战经验，强调评估的重要性，适合所有从事AI应用开发的人士参考。"
-            },
-            {
-              "title": "国务院发布《教育发展\"十五五\"规划》，推动人工智能教育全覆盖",
-              "summary": "国务院近日印发《教育发展\"十五五\"规划》，强调推进人工智能教育在各学段的全面实施，旨在提升学生的人工智能素养及其问题解决能力。规划中提到要完善科学教育体系，强化科技与人文教育的协同，培养青少年的科学素养、批判性思维和创新能力。此外，还将实施学生体质强健计划和心理健康促进行动，注重",
-              "source": "IT之家（RSS）",
-              "url": "https://www.ithome.com/0/970/097.htm",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-06-29",
-              "publishedAt": "2026-06-29T17:27",
-              "reason": "这项规划为未来教育的发展指明了方向，尤其是在人工智能领域的应用，值得关注。"
-            },
-            {
-              "title": "Herdr：终端内的多路复用AI智能体管理工具",
-              "summary": "Herdr是一款驻留在终端的AI智能体多路复用器，用户可以在单一界面内高效管理和切换多个AI会话。该工具支持多种操作系统，并提供丰富的功能以提升用户体验。",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://github.com/ogulcancelik/herdr",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-06-29",
-              "publishedAt": "2026-06-29T22:03",
-              "reason": "Herdr通过在终端内实现AI智能体的多路复用，为开发者提供了一种高效的会话管理方式，值得关注。"
-            },
-            {
-              "title": "Wayfinder Router 实现本地与云端模型的高效路由决策",
-              "summary": "Wayfinder Router 通过分析提示词的结构和措辞，在微秒级别实现离线路由决策，避免了模型调用带来的延迟和成本。虽然其默认设置仅依赖结构特征，但用户可根据自身数据进行校准，支持多种 OpenAI 兼容 API。与依赖模型调用的路由器相比，Wayfinder 提供了更为稳",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://github.com/itsthelore/wayfinder-router",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-06-29",
-              "publishedAt": "2026-06-29T00:58",
-              "reason": "Wayfinder Router 提供了一种高效且经济的路由决策方式，适合需要优化大语言模型使用的用户。"
-            },
-            {
-              "title": "美军首次大规模使用AI选目标，误炸伊朗小学致120名儿童遇难",
-              "summary": "美军在打击伊朗时首次大规模使用AI选择目标，Anthropic的Claude模型嵌入Palantir的Maven Smart System，首日建议约1000个目标。然而，因未能识别一所小学，导致120名儿童遇难。调查显示，早在2019年，情报分析师已标记该地点为小学，但信息未传",
-              "source": "The Decoder：AI News（RSS）",
-              "url": "https://the-decoder.com/the-us-military-used-ai-to-pick-thousands-of-targets-but-missed-a-note-saying-one-was-a-school",
-              "score": 61,
-              "sourceCount": 1,
-              "date": "2026-06-29",
-              "publishedAt": "2026-06-29T20:30",
-              "reason": "此次事件揭示了美军在AI应用中的重大缺陷，值得关注其后续改进措施和对军事伦理的影响。"
-            }
-          ]
-        },
-        {
-          "category": "ai-coding",
-          "label": "AI 编程",
-          "items": [
-            {
-              "title": "Claude Code 通过 GitHub 仓库执行隐藏恶意代码，攻击者可完全控制",
-              "summary": "2026 年 6 月 29 日，Mozilla 的 GenAI 漏洞赏金平台 0DIN 的安全研究人员发现了一种新型攻击向量。攻击者利用一个看似正常的 GitHub 仓库，通过设置脚本在运行时从 DNS 条目拉取并执行命令，恶意代码不在仓库中，无法被扫描器和代码审查检测到。使用 ",
-              "source": "The Decoder：AI News（RSS）",
-              "url": "https://the-decoder.com/claude-code-runs-a-github-repos-hidden-malware-without-verification-giving-attackers-full-control",
-              "score": 67,
-              "sourceCount": 1,
-              "date": "2026-06-29",
-              "publishedAt": "2026-06-29T18:04",
-              "reason": "这一事件揭示了 AI 编码工具在安全性方面的潜在漏洞，值得开发者和企业高度重视。"
-            },
-            {
-              "title": "Vibe Coding 的两个实用 Prompt：第一性原理与对抗式审查",
-              "summary": "我注意到在 Vibe Coding 中，有两个非常实用的 Prompt，分别是\"从第一性原理出发\"和\"对抗式审查\"。前者能帮助 AI 从基本事实出发，重新推导出本质，曾让我发现 AIHOT 抓取海外信源的流量路由隐患并进行彻底重构。后者则让 AI 站在恶意用户的角度进行攻防式审查",
-              "source": "公众号：数字生命卡兹克",
-              "url": "https://mp.weixin.qq.com/s/umPqTD_-IubbhXIgiS47eQ",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-06-29",
-              "publishedAt": "2026-06-29T10:08",
-              "reason": "这两个 Prompt 的结合不仅提升了代码的质量和安全性，还为开发者提供了新的思路，值得一试。"
-            }
-          ]
-        },
-        {
-          "category": "ai-agents",
-          "label": "Agent / MCP",
-          "items": [
-            {
-              "title": "EverOS：开源Markdown优先智能体记忆运行时，支持混合检索与自进化技能",
-              "summary": "EverMind推出的EverOS是一个开源的智能体记忆运行时，采用Apache 2.0许可。它通过可编辑的Markdown文件存储记忆，结合SQLite和LanceDB实现混合检索，支持自我进化的技能管理。新版本v1.1.0增加了知识API和反思功能，提升了智能体的记忆能力和效",
-              "source": "MarkTechPost（RSS）",
-              "url": "https://www.marktechpost.com/2026/06/29/meet-everos-an-open-source-markdown-first-agent-memory-runtime-with-hybrid-bm25-vector-retrieval-and-self-evolving-skills",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-06-29",
-              "publishedAt": "2026-06-29T18:42",
-              "reason": "EverOS通过创新的记忆管理方式和强大的检索能力，为智能体开发者提供了一个高效、灵活的解决方案，值得关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-models",
-          "label": "模型发布",
-          "items": [
-            {
-              "title": "Zyphra、Cohere 和 Poolside 扩展开源模型生态",
-              "summary": "开源模型生态日益多元化，参与者从少数中国公司扩展至全球各类组织。NVIDIA 发布的 Nemotron-3-Ultra-550B-A55B-BF16 采用 LatentMoE 架构，Cohere 的 Command A+ 模型则以 Apache 2.0 开源，具备多模态和多语言能",
-              "source": "Nathan Lambert：Interconnects（RSS）",
-              "url": "https://www.interconnects.ai/p/artifacts-22-zyphra-cohere-and-poolside",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-06-29",
-              "publishedAt": "2026-06-29T01:03",
-              "reason": "本次开源模型生态的扩展展示了多样化参与者的崛起，标志着技术发展的新阶段，值得关注。"
-            },
-            {
-              "title": "小红书 RedKnot 推理引擎通过 KV Cache 拆解实现长文本加速",
-              "summary": "小红书的 RedKnot 推理引擎通过将 KV Cache 沿注意力头维度拆解，采用头分类稀疏、稀疏 FFN 和 SegPagedAttention 三种机制，显著提升了长文本处理的效率。在 8 卡 H800 上，TTFT 加速达 1.6-3.54×，单卡并发提升 4.7-7.8",
-              "source": "公众号：小红书技术（dots.llm）",
-              "url": "https://mp.weixin.qq.com/s/qRrZvL0aZzYI82djFSrLug",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-06-29",
-              "publishedAt": "2026-06-29T19:00",
-              "reason": "RedKnot 推理引擎通过创新的 KV Cache 拆解技术，显著提升了长文本处理的效率，值得关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-research",
-          "label": "论文研究",
-          "items": [
-            {
-              "title": "Meta推出Brain2Qwerty v2：实时脑电信号解码新突破",
-              "summary": "Meta发布的Brain2Qwerty v2是非侵入式脑电信号解码技术的最新进展，能够实时解码句子，性能较前一版本提升显著。该技术从字符级解码升级至单词和语义解码，预计将为数百万因脑损伤或疾病而无法沟通的人群带来福音。",
-              "source": "X：AI at Meta (@AIatMeta)",
-              "url": "https://x.com/AIatMeta/status/2071566924803395741",
-              "score": 69,
-              "sourceCount": 1,
-              "date": "2026-06-29",
-              "publishedAt": "2026-06-29T20:10",
-              "reason": "Brain2Qwerty v2的发布标志着脑机接口技术的重要进步，具有广泛的应用潜力，值得关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-business",
-          "label": "行业商业",
-          "items": [
-            {
-              "title": "OpenAI 报告揭示 AI 对欧盟劳动力市场的影响",
-              "summary": "OpenAI 最新报告分析了人工智能如何重塑欧盟的就业市场，指出哪些职业可能面临自动化、增长或工作流程的变化。该报告为政策制定者和企业提供了重要的洞察，帮助他们理解未来的劳动力需求和技能转型。",
-              "source": "RSS · OpenAI Blog",
-              "url": "https://openai.com/index/mapping-ai-jobs-transition-eu",
-              "score": 82,
-              "sourceCount": 1,
-              "date": "2026-06-29",
-              "publishedAt": "2026-06-29T15:00",
-              "reason": "该报告为理解 AI 对未来就业市场的深远影响提供了重要视角，值得关注。"
-            },
-            {
-              "title": "HP Inc. 与 OpenAI 建立 Frontier 战略合作伙伴关系",
-              "summary": "HP Inc. 扩大与 OpenAI 的 Frontier 合作，旨在将 AI 技术应用于客户体验、软件开发和企业运营。这一合作将推动 HP 在 AI 领域的布局，提升其产品和服务的智能化水平。",
-              "source": "RSS · OpenAI Blog",
-              "url": "https://openai.com/index/hp-frontier-partnership",
-              "score": 77,
-              "sourceCount": 1,
-              "date": "2026-06-29",
-              "publishedAt": "2026-06-29T01:00",
-              "reason": "HP 与 OpenAI 的合作将推动 AI 技术在企业运营中的应用，具有重要的行业意义。"
-            },
-            {
-              "title": "SK 集团计划2035年前建设15GW AI数据中心，投资1000万亿韩元",
-              "summary": "SK集团会长崔泰源宣布，计划到2035年建成15GW AI数据中心，投资总额达1000万亿韩元（约4.4万亿元人民币）。该项目将成为韩国国家级基础设施，推动智能服务的出口转型。未来10年，SK集团每年将保持100万亿韩元以上的国内投资，助力构建新的智能市场。",
-              "source": "IT之家（RSS）",
-              "url": "https://www.ithome.com/0/969/953.htm",
-              "score": 67,
-              "sourceCount": 1,
-              "date": "2026-06-29",
-              "publishedAt": "2026-06-29T14:44",
-              "reason": "SK集团的这一投资计划将深刻影响韩国的经济结构和科技发展，值得关注其后续进展。"
-            },
-            {
-              "title": "三星与SK海力士计划投资5900亿美元扩产芯片以应对AI需求",
-              "summary": "在韩国政府的支持下，三星和SK海力士宣布将投资5900亿美元以扩大芯片生产能力，主要用于满足AI数据中心的需求。投资包括800万亿韩元建设四座新工厂、81万亿韩元建立封装中心，以及未来15年内投入30万亿韩元研发下一代芯片。Jefferies预测，内存价格将在2026年Q3上涨4",
-              "source": "The Decoder：AI News（RSS）",
-              "url": "https://the-decoder.com/samsung-and-sk-hynix-plan-590-billion-chip-investment-as-ai-demand-sends-memory-prices-soaring",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-06-29",
-              "publishedAt": "2026-06-29T16:17",
-              "reason": "这条信息揭示了三星和SK海力士在全球芯片市场的重大投资计划，反映出AI需求对行业的深远影响，值得关注。"
             }
           ]
         }
