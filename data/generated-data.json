@@ -1,7 +1,34 @@
 {
   "lastUpdated": "2026-09-02",
-  "generatedAt": "2026-09-01T21:37:00.177330Z",
+  "generatedAt": "2026-09-01T22:46:51.572500Z",
   "news": [
+    {
+      "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
+      "summary": "",
+      "category": "ai-benchmark",
+      "source": "RSS · Hugging Face Blog",
+      "date": "2026-09-02",
+      "publishedAt": "2026-09-02T05:39",
+      "collectedAt": "2026-09-02T06:46",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://huggingface.co/blog/allenai/benchmirt",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "The latest AI news we announced in August 2026",
       "summary": "Here are Google’s latest AI updates from August 2026",
@@ -2691,61 +2718,6 @@
       "aiSelected": true,
       "moduleTargets": [
         "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "LLMs Can Design Near-Optimal OR Algorithms",
-      "summary": "We ask whether large language models (LLMs) can design effective algorithms for well-specified operations research (OR) problems. We study inventory control, queueing network contr",
-      "category": "ai-research",
-      "source": "arXiv",
-      "date": "2026-08-27",
-      "publishedAt": "",
-      "collectedAt": "2026-08-28T17:24",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-27",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.27296v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "From Preferences to Principles: Rubric-Based Alignment for Grounded Knowledge Answers",
-      "summary": "Designing effective reward signals for open-domain question answering is challenging because high-quality responses must simultaneously satisfy multiple aspects of answer quality t",
-      "category": "ai-models",
-      "source": "RSS · Apple ML Research",
-      "date": "2026-08-27",
-      "publishedAt": "2026-08-27T08:00",
-      "collectedAt": "2026-08-28T11:00",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://machinelearning.apple.com/research/rubric-based-alignment",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
       ],
       "sourceCount": 1
     }
@@ -10643,8 +10615,8 @@
   ],
   "dailyReport": {
     "date": "2026-09-02",
-    "generatedAt": "2026-09-01T21:37:00.155331Z",
-    "total": 24,
+    "generatedAt": "2026-09-01T22:46:51.545534Z",
+    "total": 25,
     "sections": [
       {
         "category": "ai-image-video",
@@ -10880,6 +10852,23 @@
             "sourceCount": 1,
             "date": "2026-09-01",
             "publishedAt": "2026-09-01T01:19",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "category": "ai-benchmark",
+        "label": "评测榜单",
+        "items": [
+          {
+            "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
+            "summary": "",
+            "source": "RSS · Hugging Face Blog",
+            "url": "https://huggingface.co/blog/allenai/benchmirt",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-02",
+            "publishedAt": "2026-09-02T05:39",
             "reason": ""
           }
         ]
