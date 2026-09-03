@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-03",
-  "generatedAt": "2026-09-03T05:53:17.739102Z",
+  "generatedAt": "2026-09-03T08:24:49.917719Z",
   "news": [
     {
       "title": "Accessing OpenAI models on Amazon Bedrock from Australia with global cross-Region inference",
@@ -173,6 +173,60 @@
           "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber"
         }
       ]
+    },
+    {
+      "title": "User Feedback Provides a Unique Signal that LLMs Can not Detect",
+      "summary": "Harnessing naturally occurring feedback from user interactions offers a promising learning signal for Large Language Models (LLMs). However, recent studies suggest this feedback is",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-09-02",
+      "publishedAt": "",
+      "collectedAt": "2026-09-03T15:10",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-02",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.02859v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Post-Training Language Models for Gold-Medal Performance in Coding Competitions",
+      "summary": "Competitive programming has become a key test of large language model reasoning, with international competitions such as IOI and ICPC representing its most challenging settings. We",
+      "category": "ai-coding",
+      "source": "arXiv",
+      "date": "2026-09-02",
+      "publishedAt": "",
+      "collectedAt": "2026-09-03T15:10",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-02",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.02849v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
     },
     {
       "title": "REFACTOR-VLA: Unsupervised Library Learning of Typed Motor Programs",
@@ -2451,87 +2505,6 @@
       "moduleTargets": [
         "news",
         "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Anthropic 让 Claude 自主训练模型以缓解对齐失败",
-      "summary": "Anthropic 让 Claude 自主训练模型，缓解欺骗、谄媚等 10 类对齐失败，均显著缩小与完美表现的安全差距且不损害通用能力，方法在比优化对象大 4.7 倍的模型上依然有效。Claude 还超越 28 名人类安全研究员，其欺骗场景最佳方法比人类最佳方案好 20%。",
-      "category": "ai-models",
-      "source": "Anthropic：Research（发表成果 · 网页）",
-      "date": "2026-08-29",
-      "publishedAt": "2026-08-29T01:25",
-      "collectedAt": "2026-08-29T02:13",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "How Decathlon runs demand forecasting at scale with Chronos-2",
-      "summary": "Decathlon, one of the world's largest sporting goods retailers, forecasts weekly demand for tens of thousands of products across multiple continents. Learn how they deployed Chrono",
-      "category": "ai-models",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-08-29",
-      "publishedAt": "2026-08-29T00:22",
-      "collectedAt": "2026-08-29T00:59",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-decathlon-runs-demand-forecasting-at-scale-with-chronos-2/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Spreading the load: How Salesforce met Multi-AZ HA with SageMaker Inference Components",
-      "summary": "Learn how Salesforce used Amazon SageMaker AI Inference Component placement (the SchedulingConfig parameter) to distribute model copies across multiple Availability Zones, meeting ",
-      "category": "ai-models",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-08-29",
-      "publishedAt": "2026-08-29T00:20",
-      "collectedAt": "2026-08-29T00:59",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/spreading-the-load-how-salesforce-met-multi-az-ha-with-sagemaker-inference-components/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
       ],
       "sourceCount": 1
     }
@@ -5646,6 +5619,17 @@
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Claude AI Can Now Control macOS and Windows Computers to Cli",
+        "provider": "IT Security News - cybersecurity, infosecurity news",
+        "type": "AI 项目/工具",
+        "bestFor": "Anthropic has enhanced Claude's desktop automation capabilities, enabling the AI assistant to operate directly on macOS and Windows computers through Claude Cow",
+        "description": "Anthropic has enhanced Claude's desktop automation capabilities, enabling the AI assistant to operate directly on macOS and Windows computers through Claude Cowork and Claude Code.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "IT Security News - cybersecurity, infosecurity news",
+        "url": "https://www.itsecuritynews.info/claude-ai-can-now-control-macos-and-windows-computers-to-click-type-and-open-apps/"
+      },
+      {
         "name": "Snowflake's AI Coding Agent CoCo Helped Send Its Stock Up 22",
         "provider": "Startup Fortune",
         "type": "AI 项目/工具",
@@ -6073,17 +6057,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "ABC Nepal TV",
         "url": "https://abcnews.com.np/from-enigma-code-to-chatgpt-the-rapid-evolution-of-artificial-intelligence/"
-      },
-      {
-        "name": "Prompt Structure Redistributes, Not Reduces: An Empirical An",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Large Language Models (LLMs) increasingly generate code from natural-language prompts, making prompt engineering a key mechanism for shaping the security of gen",
-        "description": "Large Language Models (LLMs) increasingly generate code from natural-language prompts, making prompt engineering a key mechanism for shaping the security of generated software. Str",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2608.24857v1"
       }
     ],
     "ai-agents": [
@@ -6530,6 +6503,39 @@
     ],
     "ai-models": [
       {
+        "name": "Industry Gains Direct Cyber Command Line",
+        "provider": "Mirage News",
+        "type": "AI 项目/工具",
+        "bestFor": "Surrounded by family, colleagues and Defence personnel at an appointment ceremony in Canberra's Majura Park, Squadron Leader Talia Hedges received her Air Force",
+        "description": "Surrounded by family, colleagues and Defence personnel at an appointment ceremony in Canberra's Majura Park, Squadron Leader Talia Hedges received her Air Force rank slides from Di",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Mirage News",
+        "url": "https://www.miragenews.com/industry-gains-direct-cyber-command-line-1738161/"
+      },
+      {
+        "name": "ODILO Embarks on a New Era as Letmino to Transform Continuou",
+        "provider": "FinanzNachrichten.de",
+        "type": "AI 项目/工具",
+        "bestFor": "* The edtech company updates its brand and strategic vision, positioning artificial intelligence as a pedagogical tool to accelerate upskilling and reskilling t",
+        "description": "* The edtech company updates its brand and strategic vision, positioning artificial intelligence as a pedagogical tool to accelerate upskilling and reskilling throughout the Europe",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "FinanzNachrichten.de",
+        "url": "https://www.finanznachrichten.de/nachrichten-2026-09/69483134-odilo-embarks-on-a-new-era-as-letmino-to-transform-continuous-learning-in-the-age-of-ai-008.htm"
+      },
+      {
+        "name": "Law firms seek bespoke differences in legal AI",
+        "provider": "Financial Times News",
+        "type": "AI 项目/工具",
+        "bestFor": "Roula Khalaf, Editor of the FT, selects her favourite stories in this weekly newsletter.\n\nAfter a few short years of learning, experimenting and planning, law f",
+        "description": "Roula Khalaf, Editor of the FT, selects her favourite stories in this weekly newsletter.\n\nAfter a few short years of learning, experimenting and planning, law firms' strategies for",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Financial Times News",
+        "url": "https://www.ft.com/content/c0c8ae73-27fd-4828-aa48-72cdae6613ff"
+      },
+      {
         "name": "How China Is Harnessing Artificial Intelligence to Transform",
         "provider": "Alwihda Info - Actualités TCHAD, Afrique, International",
         "type": "AI 项目/工具",
@@ -6935,39 +6941,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Finbold",
         "url": "https://finbold.com/ai-predicts-xrp-price-for-september-30-2026/"
-      },
-      {
-        "name": "As mathematicians grapple with AI, divisions are multiplying",
-        "provider": "Coda Story",
-        "type": "AI 项目/工具",
-        "bestFor": "Mathematics has long been considered - not least by mathematicians - to be the foundation of human knowledge. Now large language models are getting better at so",
-        "description": "Mathematics has long been considered - not least by mathematicians - to be the foundation of human knowledge. Now large language models are getting better at solving some puzzles. ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Coda Story",
-        "url": "https://www.codastory.com/authoritarian-tech/as-mathematicians-grapple-with-ai-divisions-are-multiplying/"
-      },
-      {
-        "name": "John Ternus becomes Apple CEO, with AI as first big challeng",
-        "provider": "Yahoo! Finance",
-        "type": "AI 项目/工具",
-        "bestFor": "John Ternus becomes Apple Inc.'s chief executive officer on Sept. 1, stepping into the role with an immediate product launch cycle and a company under pressure ",
-        "description": "John Ternus becomes Apple Inc.'s chief executive officer on Sept. 1, stepping into the role with an immediate product launch cycle and a company under pressure to close the gap wit",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Yahoo! Finance",
-        "url": "https://finance.yahoo.com/technology/ai/articles/john-ternus-becomes-apple-ceo-111908957.html"
-      },
-      {
-        "name": "It's Tim Cook's last day as Apple CEO. Investors are $4 tril",
-        "provider": "Yahoo! Finance",
-        "type": "AI 项目/工具",
-        "bestFor": "Apple's (AAPL) Tim Cook is stepping as CEO today, turning over the role to senior vice president of hardware engineering John Ternus.\n\nCook will stay on at Appl",
-        "description": "Apple's (AAPL) Tim Cook is stepping as CEO today, turning over the role to senior vice president of hardware engineering John Ternus.\n\nCook will stay on at Apple as its executive c",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Yahoo! Finance",
-        "url": "https://uk.finance.yahoo.com/news/its-tim-cooks-last-day-as-apple-ceo-investors-are-4-trillion-richer-because-of-him-230325985.html"
       }
     ],
     "ai-business": [
@@ -7991,6 +7964,17 @@
     ],
     "ai-image-video": [
       {
+        "name": "'Like 2 days was too long apparently?': Designer's work is b",
+        "provider": "IndiaTimes",
+        "type": "AI 项目/工具",
+        "bestFor": "Image credit : Magnific | 'Like 2 days was too long?': Designer's logo loses to AI in a flash\n\nAI can make a logo in minutes. It can also write a social media c",
+        "description": "Image credit : Magnific | 'Like 2 days was too long?': Designer's logo loses to AI in a flash\n\nAI can make a logo in minutes. It can also write a social media caption before a huma",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "IndiaTimes",
+        "url": "https://www.indiatimes.com/trending/like-2-days-was-too-long-apparently-designers-work-is-brushed-aside-after-boss-gets-an-ai-made-logo-in-a-flash/articleshow/133713769.html"
+      },
+      {
         "name": "Modernizing and scaling support operations with generative A",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -8506,21 +8490,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Currents:generative AI",
         "url": "https://www.creativebloq.com/ai/from-amazon-to-tinder-and-reddit-tech-platforms-are-giving-users-ai-images-they-didnt-ask-for"
-      },
-      {
-        "name": "谷歌撤回新卫星图像 AI 工具，因研究者强烈反对",
-        "provider": "Currents",
-        "type": "AI 项目/工具",
-        "bestFor": "谷歌撤回该功能可能会影响到广泛的用户群体，包括地理信息系统（GIS）专业人士、研究人员以及普通用户。对于 GIS 专业人士而言，失去这一工具意味着在数据可视化方面的选择减少，可能影响其工作效率。对于普通用户，虽然短期内不会受到直接影响，但长远来看，谷歌的这一决定可能会促使其他科技公司在推出新功能时更加谨慎，重视用户反馈",
-        "description": "谷歌于周五撤回了一项新功能，该功能允许 Google Earth 用户在卫星图像上生成 AI 可视化。这一决定是由于研究人员和开源情报专家对该功能可能导致虚假信息传播的强烈反对。此举反映了在 AI 技术应用中，信息准确性与用户信任之间的紧张关系。",
-        "useCases": [
-          "生成基于卫星图像的可视化报告，提升地理数据分析的直观性。",
-          "利用 AI 技术进行环境监测，实时获取地理变化信息。",
-          "在教育领域使用卫星图像 AI 工具，帮助学生理解地理概念。"
-        ],
-        "watch": "该功能可能导致虚假信息的传播，影响公众对信息的信任。",
-        "sourceName": "Currents:generative AI",
-        "url": "https://techxplore.com/news/2026-08-google-satellite-image-ai-tool.html"
       }
     ],
     "ai-research": [
@@ -10400,8 +10369,8 @@
   ],
   "dailyReport": {
     "date": "2026-09-03",
-    "generatedAt": "2026-09-03T05:53:17.716094Z",
-    "total": 21,
+    "generatedAt": "2026-09-03T08:24:49.893630Z",
+    "total": 23,
     "sections": [
       {
         "category": "ai-coding",
@@ -10427,6 +10396,17 @@
             "sourceCount": 1,
             "date": "2026-09-03",
             "publishedAt": "2026-09-03T02:18",
+            "reason": ""
+          },
+          {
+            "title": "Post-Training Language Models for Gold-Medal Performance in Coding Competitions",
+            "summary": "Competitive programming has become a key test of large language model reasoning, with international competitions such as IOI and ICPC repres",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.02849v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-02",
+            "publishedAt": "",
             "reason": ""
           }
         ]
@@ -10544,6 +10524,17 @@
             "sourceCount": 2,
             "date": "2026-09-03",
             "publishedAt": "2026-09-03T00:18",
+            "reason": ""
+          },
+          {
+            "title": "User Feedback Provides a Unique Signal that LLMs Can not Detect",
+            "summary": "Harnessing naturally occurring feedback from user interactions offers a promising learning signal for Large Language Models (LLMs). However,",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.02859v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-02",
+            "publishedAt": "",
             "reason": ""
           },
           {
