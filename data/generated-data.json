@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-03",
-  "generatedAt": "2026-09-03T00:50:15.170102Z",
+  "generatedAt": "2026-09-03T03:19:14.996491Z",
   "news": [
     {
       "title": "Accessing OpenAI models on Amazon Bedrock from Australia with global cross-Region inference",
@@ -5618,6 +5618,17 @@
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Intelligence or Expense: Why AI Coding Tools Are Reshaping S",
+        "provider": "WebProNews",
+        "type": "AI 项目/工具",
+        "bestFor": "Developers once reached for autocomplete and got modest gains. Now they deploy agents that rewrite modules, chase bugs across repositories, and generate thousan",
+        "description": "Developers once reached for autocomplete and got modest gains. Now they deploy agents that rewrite modules, chase bugs across repositories, and generate thousands of tokens per ses",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "WebProNews",
+        "url": "https://www.webpronews.com/intelligence-or-expense-why-ai-coding-tools-are-reshaping-software-budgets/"
+      },
+      {
         "name": "From code to diagrams: Agentic architecture documentation wi",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -6045,20 +6056,31 @@
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · Apple ML Research",
         "url": "https://machinelearning.apple.com/research/progressive-refinement-pseudo-labeling"
-      },
-      {
-        "name": "Introducing new Ray capabilities on SageMaker HyperPod",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Amazon SageMaker HyperPod now offers managed Ray support on Amazon EKS. Create and monitor Ray clusters, connect JupyterLab and Code Editor notebooks to live cl",
-        "description": "Amazon SageMaker HyperPod now offers managed Ray support on Amazon EKS. Create and monitor Ray clusters, connect JupyterLab and Code Editor notebooks to live clusters, get out-of-t",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/introducing-new-ray-capabilities-on-sagemaker-hyperpod/"
       }
     ],
     "ai-agents": [
+      {
+        "name": "Meta Pushes Its New AI Agent on Employees -- but Eases Off o",
+        "provider": "Wired",
+        "type": "AI 项目/工具",
+        "bestFor": "Meta is formally ending what amounted to a tokenmaxxing incentive program for employees. In an internal announcement this week, the social media giant told work",
+        "description": "Meta is formally ending what amounted to a tokenmaxxing incentive program for employees. In an internal announcement this week, the social media giant told workers that their perfo",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Wired",
+        "url": "https://www.wired.com/story/meta-pushes-its-new-ai-agent-on-employees-but-eases-off-on-tokenmaxxing/"
+      },
+      {
+        "name": "The New Identity Security Challenge: Governing Humans, Machi",
+        "provider": "DataBreachToday",
+        "type": "AI 项目/工具",
+        "bestFor": "Agentic AI , AI-Driven Security Operations , Customer Identity & Access Management (CIAM)\n\nIdentity is becoming a strategic security challenge as cloud, automat",
+        "description": "Agentic AI , AI-Driven Security Operations , Customer Identity & Access Management (CIAM)\n\nIdentity is becoming a strategic security challenge as cloud, automation and AI reshape h",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "DataBreachToday",
+        "url": "https://www.databreachtoday.com/webinars/new-identity-security-challenge-governing-humans-machines-ai-agents-w-7290"
+      },
       {
         "name": "An Organizational Second Brain: Building an AI That Learns F",
         "provider": "RSS",
@@ -6476,31 +6498,20 @@
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · AWS Machine Learning",
         "url": "https://aws.amazon.com/blogs/machine-learning/build-multi-tenant-agentic-chat-applications-on-enterprise-data-with-amazon-bedrock-managed-knowledge-base/"
-      },
-      {
-        "name": "RetailAgent: Structured Adverse Timing in Self-Conditioned M",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "In financial markets, a sequential policy that reacts systematically to price movements may become predictable to other market participants. This paper studies ",
-        "description": "In financial markets, a sequential policy that reacts systematically to price movements may become predictable to other market participants. This paper studies whether large langua",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2608.28399v1"
-      },
-      {
-        "name": "ContextPilot: Teaching Agents for Proactive Context Manageme",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Long-horizon agentic tasks require large language models (LLMs) to iteratively retrieve, integrate, and maintain dispersed information across multi-turn interac",
-        "description": "Long-horizon agentic tasks require large language models (LLMs) to iteratively retrieve, integrate, and maintain dispersed information across multi-turn interactions, but preservin",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2608.28476v1"
       }
     ],
     "ai-models": [
+      {
+        "name": "From Downing Street to Anthropic: Matt Clifford's Move Spark",
+        "provider": "WebProNews",
+        "type": "AI 项目/工具",
+        "bestFor": "Matt Clifford spent years shaping Britain's approach to artificial intelligence. He advised two prime ministers. He drafted a sweeping action plan. Now he works",
+        "description": "Matt Clifford spent years shaping Britain's approach to artificial intelligence. He advised two prime ministers. He drafted a sweeping action plan. Now he works for one of the comp",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "WebProNews",
+        "url": "https://www.webpronews.com/from-downing-street-to-anthropic-matt-cliffords-move-sparks-fresh-scrutiny-over-ai-influence/"
+      },
       {
         "name": "Proactive cyber defense for governments and enterprises",
         "provider": "RSS",
@@ -6929,17 +6940,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "The Times of India",
         "url": "https://timesofindia.indiatimes.com/technology/tech-news/as-apple-gets-a-new-ceo-heres-what-fifteen-years-of-tim-cook-did-to-the-company-in-numbers/articleshow/133650549.cms"
-      },
-      {
-        "name": "Sports Direct's Ashley attacks Burnham over 'populist' High ",
-        "provider": "RocketNews | Top News Stories From Around the Globe",
-        "type": "AI 项目/工具",
-        "bestFor": "Sports Direct founder Mike Ashley has written to Prime Minister Andy Burnham expressing strong disagreement with the government's approach to retail policy and ",
-        "description": "Sports Direct founder Mike Ashley has written to Prime Minister Andy Burnham expressing strong disagreement with the government's approach to retail policy and the cost of living c",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RocketNews | Top News Stories From Around the Globe",
-        "url": "https://rocketnews.com/2026/08/sports-directs-ashley-attacks-burnham-over-populist-high-street-revival-plans-2/"
       }
     ],
     "ai-business": [
@@ -10378,7 +10378,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-03",
-    "generatedAt": "2026-09-03T00:50:15.145064Z",
+    "generatedAt": "2026-09-03T03:19:14.973514Z",
     "total": 20,
     "sections": [
       {
