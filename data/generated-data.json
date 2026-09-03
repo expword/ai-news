@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-03",
-  "generatedAt": "2026-09-03T13:34:34.270350Z",
+  "lastUpdated": "2026-09-04",
+  "generatedAt": "2026-09-03T16:08:39.242431Z",
   "news": [
     {
       "title": "Accessing OpenAI models on Amazon Bedrock from Australia with global cross-Region inference",
@@ -6060,6 +6060,17 @@
     ],
     "ai-agents": [
       {
+        "name": "ChatGPT, Claude, and Grok are down for thousands of users ri",
+        "provider": "Notebookcheck",
+        "type": "AI 项目/工具",
+        "bestFor": "Popular AI agents such as ChatGPT, Claude and Grok seem to be down for multiple users. Google Gemini seems to be unaffected, as does Claude's Haiku.\n\nIt appears",
+        "description": "Popular AI agents such as ChatGPT, Claude and Grok seem to be down for multiple users. Google Gemini seems to be unaffected, as does Claude's Haiku.\n\nIt appears that the AI-pocalyp",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Notebookcheck",
+        "url": "https://www.notebookcheck.net/ChatGPT-Claude-and-Grok-are-down-for-thousands-of-users-right-now.1387640.0.html"
+      },
+      {
         "name": "EliseAI Unveils Apollo, One AI Teammate Built to Work Across",
         "provider": "The Montreal Gazette",
         "type": "AI 项目/工具",
@@ -6487,20 +6498,64 @@
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2608.31161v1"
-      },
-      {
-        "name": "Retail Investing Opens Up to AI Assistants | PYMNTS.com",
-        "provider": "PYMNTS.com",
-        "type": "AI 项目/工具",
-        "bestFor": "The German neobroker, which holds more than €60 billion for over 1 million customers, calls the feature Agentic Investing. Once connected, the AI can analyze a ",
-        "description": "The German neobroker, which holds more than €60 billion for over 1 million customers, calls the feature Agentic Investing. Once connected, the AI can analyze a customer's actual po",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "PYMNTS.com",
-        "url": "https://www.pymnts.com/news/artificial-intelligence/2026/retail-investing-opens-up-to-ai-assistants/"
       }
     ],
     "ai-models": [
+      {
+        "name": "ChatGPT, Claude, Gemini, and More Are All Down Right Now",
+        "provider": "PCMag Australia",
+        "type": "AI 项目/工具",
+        "bestFor": "If you're trying to use AI tools today, you are likely experiencing problems. A widespread outage affecting thousands of users is ongoing across OpenAI's ChatGP",
+        "description": "If you're trying to use AI tools today, you are likely experiencing problems. A widespread outage affecting thousands of users is ongoing across OpenAI's ChatGPT, Anthropic's Claud",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "PCMag Australia",
+        "url": "https://au.pcmag.com/ai/119676/chatgpt-claude-gemini-and-more-are-all-down-right-now"
+      },
+      {
+        "name": "ChatGPT, Gemini, Claude face widespread outages; AWS also hi",
+        "provider": "News18",
+        "type": "AI 项目/工具",
+        "bestFor": "New Delhi, Sep 3 (PTI) Major artificial intelligence (AI) platforms, including OpenAI's ChatGPT, Google Gemini, and Anthropic's Claude, experienced significant ",
+        "description": "New Delhi, Sep 3 (PTI) Major artificial intelligence (AI) platforms, including OpenAI's ChatGPT, Google Gemini, and Anthropic's Claude, experienced significant service disruptions ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "News18",
+        "url": "https://www.news18.com/agency-feeds/chatgpt-gemini-claude-face-widespread-outages-aws-also-hit-10309110.html"
+      },
+      {
+        "name": "Trump administration officials at odds as Michael says Anthr",
+        "provider": "Seeking Alpha",
+        "type": "AI 项目/工具",
+        "bestFor": "Officials in the Trump Administration appear to be at odds this week, as Under Secretary of War Emil Michael said on Thursday that artificial intelligence lab A",
+        "description": "Officials in the Trump Administration appear to be at odds this week, as Under Secretary of War Emil Michael said on Thursday that artificial intelligence lab Anthropic (ANTHRO) is",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Seeking Alpha",
+        "url": "https://seekingalpha.com/news/4639995-trump-administration-officials-at-odds-as-michael-says-anthropic-still-a-supply-chain-risk"
+      },
+      {
+        "name": "He captivated millions on TV. Now Archbishop Fulton Sheen is",
+        "provider": "RocketNews | Top News Stories From Around the Globe",
+        "type": "AI 项目/工具",
+        "bestFor": "The Catholic Church has approved the beatification of Archbishop Fulton Sheen, the prominent 20th-century broadcaster whose television program \"Life is Worth Li",
+        "description": "The Catholic Church has approved the beatification of Archbishop Fulton Sheen, the prominent 20th-century broadcaster whose television program \"Life is Worth Living\" introduced rel",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RocketNews | Top News Stories From Around the Globe",
+        "url": "https://rocketnews.com/2026/09/he-captivated-millions-on-tv-now-archbishop-fulton-sheen-is-one-step-closer-to-sainthood/"
+      },
+      {
+        "name": "Vance privately addresses Republican Jewish Coalition during",
+        "provider": "RocketNews | Top News Stories From Around the Globe",
+        "type": "AI 项目/工具",
+        "bestFor": "Vice President JD Vance made a closed-door appearance before the Republican Jewish Coalition at its conference in Las Vegas, according to event organizers and a",
+        "description": "Vice President JD Vance made a closed-door appearance before the Republican Jewish Coalition at its conference in Las Vegas, according to event organizers and attendees. Board memb",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RocketNews | Top News Stories From Around the Globe",
+        "url": "https://rocketnews.com/2026/09/vance-privately-addresses-republican-jewish-coalition-during-tension-over-israel-and-antisemitism/"
+      },
       {
         "name": "Nvidia to spend $13 billion on Hugging Face, leaving it as a",
         "provider": "Spectrum News Bay News 9",
@@ -6885,64 +6940,20 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Cybernews",
         "url": "https://cybernews.com/ai-news/sony-warner-sue-anthropic-over-training/"
-      },
-      {
-        "name": "Sony, Warner sue Anthropic over pirated lyrics in Claude",
-        "provider": "MediaNama",
-        "type": "AI 项目/工具",
-        "bestFor": "You can access the court document from here.\n\nSony Music Publishing, Warner Chappell Music and several affiliated publishers have sued Anthropic, CEO Dario Amod",
-        "description": "You can access the court document from here.\n\nSony Music Publishing, Warner Chappell Music and several affiliated publishers have sued Anthropic, CEO Dario Amodei and co-founder Be",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "MediaNama",
-        "url": "https://www.medianama.com/2026/09/223-publishers-sue-anthropi-pirated-lyrics/"
-      },
-      {
-        "name": "Coastal Road Guards: Protecting a country from itself",
-        "provider": "The Guardian",
-        "type": "AI 项目/工具",
-        "bestFor": "The Federal Government's deployment of 40 Coastal Road Guards to protect the multi-billion-naira Lagos-Calabar Coastal Highway from vandals is an extraordinary ",
-        "description": "The Federal Government's deployment of 40 Coastal Road Guards to protect the multi-billion-naira Lagos-Calabar Coastal Highway from vandals is an extraordinary measure that speaks ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Guardian",
-        "url": "https://guardian.ng/opinion/editorial/coastal-road-guards-protecting-a-country-from-itself/"
-      },
-      {
-        "name": "Springfield tourism awards honor local leaders shaping indus",
-        "provider": "Springfield News-Leader",
-        "type": "AI 项目/工具",
-        "bestFor": "Visit Springfield has named three recipients of its 2026 Toast to Tourism Awards, honoring contributions to the travel and tourism industry in Springfield.\n\nThe",
-        "description": "Visit Springfield has named three recipients of its 2026 Toast to Tourism Awards, honoring contributions to the travel and tourism industry in Springfield.\n\nThe awards will be pres",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Springfield News-Leader",
-        "url": "https://eu.news-leader.com/story/news/local/2026/09/01/visit-springfield-2026-toast-to-tourism-awards/91508556007/"
-      },
-      {
-        "name": "Why Nvidia's Hugging Face Acquisition Signals AI's Full Ecos",
-        "provider": "Forbes",
-        "type": "AI 项目/工具",
-        "bestFor": "Nvidia's acquisition of Hugging Face marks a strategic shift towards vertical integration in AI. Having dominated hardware, Nvidia aims to secure influence over",
-        "description": "Nvidia's acquisition of Hugging Face marks a strategic shift towards vertical integration in AI. Having dominated hardware, Nvidia aims to secure influence over the application lay",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Forbes",
-        "url": "https://www.forbes.com/sites/geruiwang/2026/09/01/why-nvidias-hugging-face-acquisition-signals-ais-full-ecosystem-play/"
-      },
-      {
-        "name": "OpenAI supports California’s bill to advance youth AI safety",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.",
-        "description": "OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · OpenAI Blog",
-        "url": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety"
       }
     ],
     "ai-business": [
+      {
+        "name": "TCL On A Roll At IFA 2026 Tvs, Smartglasses & New Smartphone",
+        "provider": "ChannelNews",
+        "type": "AI 项目/工具",
+        "bestFor": "TCL Unveils SQD-Mini LED Flagship, Eyes Australian Market with New Smartphone Line at IFA 2026 challenging the RGB-LED approaches of Samsung, Sony, LG, and Hise",
+        "description": "TCL Unveils SQD-Mini LED Flagship, Eyes Australian Market with New Smartphone Line at IFA 2026 challenging the RGB-LED approaches of Samsung, Sony, LG, and Hisense.\n\nAt its press c",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "ChannelNews",
+        "url": "https://www.channelnews.com.au/tcl-on-a-roll-at-ifa-2026-tvs-smartglasses-new-smartphone-thats-oz-bound/"
+      },
       {
         "name": "Nvidia to spend $13 billion on Hugging Face, leaving it as a",
         "provider": "Newsday",
@@ -7371,17 +7382,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:Google Gemini",
         "url": "https://www.nationthailand.com/business/tech/40070314"
-      },
-      {
-        "name": "FDA approves breakthrough drug daraxonrasib to treat pancrea",
-        "provider": "RocketNews | Top News Stories From Around the Globe",
-        "type": "AI 项目/工具",
-        "bestFor": "The US Food and Drug Administration granted approval for daraxonrasib, a treatment developed by Revolution Medicines for pancreatic cancer. The drug, marketed u",
-        "description": "The US Food and Drug Administration granted approval for daraxonrasib, a treatment developed by Revolution Medicines for pancreatic cancer. The drug, marketed under the brand name ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RocketNews | Top News Stories From Around the Globe",
-        "url": "https://rocketnews.com/2026/08/fda-approves-breakthrough-drug-daraxonrasib-to-treat-pancreatic-cancer/"
       }
     ],
     "ai-benchmark": [
@@ -10363,9 +10363,9 @@
     }
   ],
   "dailyReport": {
-    "date": "2026-09-03",
-    "generatedAt": "2026-09-03T13:34:34.245151Z",
-    "total": 25,
+    "date": "2026-09-04",
+    "generatedAt": "2026-09-03T16:08:39.217402Z",
+    "total": 24,
     "sections": [
       {
         "category": "ai-coding",
@@ -10491,17 +10491,6 @@
             "sourceCount": 1,
             "date": "2026-09-02",
             "publishedAt": "2026-09-02T00:17",
-            "reason": ""
-          },
-          {
-            "title": "Securing Amazon Quick from POC to production: Agents, Flows, and Spaces",
-            "summary": "Amazon Quick proof-of-concept projects often stall when security teams review the production plan. This post walks through designing dashboa",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/securing-amazon-quick-from-poc-to-production-agents-flows-and-spaces/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-02",
-            "publishedAt": "2026-09-02T00:02",
             "reason": ""
           }
         ]
@@ -10681,6 +10670,109 @@
     ]
   },
   "dailyReports": [
+    {
+      "date": "2026-09-03",
+      "generatedAt": "2026-09-03T16:09:39.424655Z",
+      "total": 6,
+      "sections": [
+        {
+          "category": "ai-coding",
+          "label": "AI 编程",
+          "items": [
+            {
+              "title": "Accessing OpenAI models on Amazon Bedrock from Australia with global cross-Region inference",
+              "summary": "Australian teams can now access OpenAI GPT-5.6 Sol, Terra, and Luna models on Amazon Bedrock with global cross-Region inference from the Asi",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-5-6-models-on-amazon-bedrock-from-australia-with-global-cross-region-inference/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-03",
+              "publishedAt": "2026-09-03T05:22",
+              "reason": ""
+            },
+            {
+              "title": "From code to diagrams: Agentic architecture documentation with Amazon Bedrock AgentCore",
+              "summary": "Learn how a global interdealer broker built an automated architecture documentation pipeline on Amazon Bedrock AgentCore that analyzes .NET ",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/from-code-to-diagrams-agentic-architecture-documentation-with-amazon-bedrock-agentcore/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-03",
+              "publishedAt": "2026-09-03T02:18",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-image-video",
+          "label": "图像视频",
+          "items": [
+            {
+              "title": "Modernizing and scaling support operations with generative AI on AWS",
+              "summary": "Learn how to build a generative AI-based support operations platform on AWS that converts training videos into structured SOPs, applies Retr",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/modernizing-and-scaling-support-operations-with-generative-ai-on-aws/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-03",
+              "publishedAt": "2026-09-03T02:26",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-agents",
+          "label": "Agent / MCP",
+          "items": [
+            {
+              "title": "Trinity: Agentic AI-powered transition planning for students with disabilities",
+              "summary": "Learn how University Startups and its AWS partner g/d/n/a scaled Trinity, a conversational AI solution for students with disabilities, into ",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/trinity-agentic-ai-powered-transition-planning-for-students-with-disabilities/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-03",
+              "publishedAt": "2026-09-03T02:14",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-models",
+          "label": "模型发布",
+          "items": [
+            {
+              "title": "Google DeepMind 发布 Gemini 3.8 Flash 与 3.8 Flash Cyber 两款新模型",
+              "summary": "Google DeepMind 发布 Gemini 3.8 Flash 与 3.8 Flash Cyber。",
+              "source": "Google DeepMind：Blog（RSS）",
+              "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber",
+              "score": 70,
+              "sourceCount": 2,
+              "date": "2026-09-03",
+              "publishedAt": "2026-09-03T00:18",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-business",
+          "label": "行业商业",
+          "items": [
+            {
+              "title": "How an AWS team detects dashboard content failures at scale using Amazon Bedrock",
+              "summary": "Business intelligence dashboards can fail silently, showing blank, stale, or wrong data even when every infrastructure monitor reports healt",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/how-an-aws-team-detects-dashboard-content-failures-at-scale-using-amazon-bedrock/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-03",
+              "publishedAt": "2026-09-03T02:21",
+              "reason": ""
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-09-02",
       "generatedAt": "2026-09-02T16:00:07.084794Z",
@@ -21813,305 +21905,10 @@
           ]
         }
       ]
-    },
-    {
-      "date": "2026-06-30",
-      "generatedAt": "2026-06-30T16:23:28.002519Z",
-      "total": 24,
-      "sections": [
-        {
-          "category": "ai-tools",
-          "label": "AI 工具",
-          "items": [
-            {
-              "title": "OpenAI 通过核心转储分析修复了一个存在 18 年的漏洞",
-              "summary": "我注意到，OpenAI 的工程师们通过大规模的核心转储分析，成功调试了罕见的基础设施崩溃问题，发现了硬件故障和一个长期存在的软件漏洞。这项工作不仅提升了系统的稳定性，也为未来的故障排查提供了新的思路。",
-              "source": "RSS · OpenAI Blog",
-              "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
-              "score": 82,
-              "sourceCount": 1,
-              "date": "2026-06-30",
-              "publishedAt": "2026-06-30T08:00",
-              "reason": "这项技术的突破不仅解决了长期存在的漏洞，还为未来的系统维护提供了新的思路，值得关注。"
-            },
-            {
-              "title": "X（Twitter）推出 hosted X MCP，AI 可直接调用 X API",
-              "summary": "这次发布的核心点是 X（Twitter）推出的 hosted X MCP，允许 AI 智能体通过 MCP 协议直接连接 X API，获取实时信息。用户需注册 X API 并按量付费，个人用户每次调用仅需 0.01 美元，配置步骤简单明了，适合依赖 Twitter 信息的用户。",
-              "source": "X：歸藏 (@op7418)",
-              "url": "https://x.com/op7418/status/2071816099986022650",
-              "score": 63,
-              "sourceCount": 1,
-              "date": "2026-06-30",
-              "publishedAt": "2026-06-30T12:40",
-              "reason": "这条更新值得关注，因为它为 AI 开发者提供了一个高效、低成本的实时信息获取解决方案，极大地提升了工作效率。"
-            },
-            {
-              "title": "AI News Radar 更新：自媒体订阅与信息推荐功能上线",
-              "summary": "AI News Radar 进行了重大的功能更新，新增自媒体板块，用户可以订阅多个平台的账号，包括某书、某音、某站和某X。该平台每日根据热度推荐 Top10 信息，并保留时间轴视图，支持热度优先和时间优先的切换。信息来源涵盖 OpenAI、Anthropic、Google 等，项",
-              "source": "公众号：卡尔的AI沃茨",
-              "url": "https://mp.weixin.qq.com/s/iW5FVqbHtYi31mJ22Q_cog",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-06-30",
-              "publishedAt": "2026-06-30T09:47",
-              "reason": "这一更新显著提升了信息获取的灵活性和多样性，适合希望快速获取行业动态的用户。"
-            },
-            {
-              "title": "Anthropic 推出 Claude apps gateway，简化云端部署",
-              "summary": "这次发布的核心点是 Anthropic 推出的 Claude apps gateway，它为企业提供了在 Amazon Bedrock 和 Google Cloud 上运行 Claude Code 的自托管控制平面。该解决方案通过单个无状态容器部署，支持企业级 SSO 登录、集中",
-              "source": "Claude：Blog（网页）",
-              "url": "https://claude.com/blog/introducing-the-claude-apps-gateway",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-06-30",
-              "publishedAt": "2026-06-30T05:22",
-              "reason": "Claude apps gateway 提供了灵活的自托管解决方案，适合需要高效管理云端 AI 资源的企业，尤其是在安全性和成本控制方面具有独特优势。"
-            },
-            {
-              "title": "OpenClaw 发布原生移动应用，支持 iOS 和 Android",
-              "summary": "OpenClaw 现已推出原生移动应用，支持 iOS 和 Android 平台，用户可随时随地通过智能体处理任务。此举标志着 OpenClaw 在移动端的战略布局，进一步增强了用户的使用便利性。",
-              "source": "X：OpenClaw (@openclaw)",
-              "url": "https://x.com/openclaw/status/2071688039114342592",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-06-30",
-              "publishedAt": "2026-06-30T04:11",
-              "reason": "OpenClaw 的原生移动应用为用户提供了更高的灵活性和便利性，值得关注其在市场上的表现。"
-            },
-            {
-              "title": "Meta秘密测试ChatGPT等竞品，数万条危机提示引发关注",
-              "summary": "Meta通过承包商Covalen进行代号为\"Cannes\"的项目，雇佣数百人假扮未成年人，向ChatGPT、Gemini和Character.AI发送超过4.5万条关于自杀、自残等敏感提示。Meta称此为行业标准安全测试，但被测试公司对此表示不知情，且青少年使用AI聊天机器人的安",
-              "source": "The Decoder：AI News（RSS）",
-              "url": "https://the-decoder.com/meta-secretly-tested-chatgpt-gemini-and-character-ai-with-thousands-of-minor-perspective-crisis-prompts",
-              "score": 61,
-              "sourceCount": 1,
-              "date": "2026-06-30",
-              "publishedAt": "2026-06-30T19:14",
-              "reason": "此事件揭示了AI技术在青少年使用中的潜在风险，值得关注行业如何应对这一挑战。"
-            },
-            {
-              "title": "Every公司单人团队管理5款产品，80%时间不写代码",
-              "summary": "媒体软件公司Every推出的「复利工程」方法论，允许单人团队同时维护5款产品，工程师80%的时间用于规划和评审，只有20%用于编码。该方法通过将解决方案记录在CLAUDE.md和docs/solutions/中，利用AI避免重复错误。配套的开源插件支持多种功能，提升工作效率。",
-              "source": "X：小互 (@xiaohu)",
-              "url": "https://x.com/xiaohu/status/2071796715162857477",
-              "score": 59,
-              "sourceCount": 1,
-              "date": "2026-06-30",
-              "publishedAt": "2026-06-30T11:23",
-              "reason": "Every的复利工程方法论为单人团队提供了一种高效的工作模式，值得关注其在软件开发领域的应用潜力。"
-            }
-          ]
-        },
-        {
-          "category": "ai-agents",
-          "label": "Agent / MCP",
-          "items": [
-            {
-              "title": "Memora 提供可扩展的记忆系统，解决 AI 代理的上下文记忆问题",
-              "summary": "Microsoft Research 发布了 Memora，一个可扩展的记忆系统，旨在解决 AI 代理无法记住过去对话的问题。Memora 通过将存储内容与检索方式分离，提升了处理复杂任务时的效率。",
-              "source": "RSS · Microsoft Research",
-              "url": "https://www.microsoft.com/en-us/research/blog/memora-a-harmonic-memory-representation-balancing-abstraction-and-specificity/",
-              "score": 82,
-              "sourceCount": 1,
-              "date": "2026-06-30",
-              "publishedAt": "2026-06-30T05:14",
-              "reason": "Memora 的创新记忆系统为 AI 代理提供了更高效的上下文管理方案，值得关注。"
-            },
-            {
-              "title": "具身智能数据采集员日薪200元起，助力机器人训练",
-              "summary": "具身智能数据采集员以日薪200-250元招募兼职，无需学历和经验。工作分为遥操作采集和无机器人示教采集，前者通过穿戴设备控制机器人完成任务，后者则徒手重复动作。全球高质量物理交互数据截至2026年初仅约50万小时，远低于大语言模型训练所需数据，亟需大量人力进行数据采集。",
-              "source": "公众号：数字生命卡兹克",
-              "url": "https://mp.weixin.qq.com/s/aSd4kLu7xHllZatrd5EGsw",
-              "score": 58,
-              "sourceCount": 1,
-              "date": "2026-06-30",
-              "publishedAt": "2026-06-30T09:58",
-              "reason": "具身智能数据采集员的模式为AI模型训练提供了新的解决方案，值得关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-models",
-          "label": "模型发布",
-          "items": [
-            {
-              "title": "DiScoFormer：一种新型变换器模型用于密度与评分估计",
-              "summary": "DiScoFormer是一种新型的变换器模型，旨在同时估计数据分布的密度和评分。与传统的核密度估计（KDE）相比，DiScoFormer在高维数据中表现出色，能够在不需要重新训练的情况下，快速适应不同的数据分布。尽管其在准确性上有显著优势，但在处理小型数据集时，KDE仍然具有速度",
-              "source": "RSS · Hugging Face Blog",
-              "url": "https://huggingface.co/blog/allenai/discoformer",
-              "score": 82,
-              "sourceCount": 1,
-              "date": "2026-06-30",
-              "publishedAt": "2026-06-30T02:02",
-              "reason": "DiScoFormer通过创新的变换器架构，解决了高维数据密度和评分估计的难题，值得关注其在实际应用中的潜力。"
-            },
-            {
-              "title": "谷歌全栈 AI 方法的深度解析",
-              "summary": "谷歌专家理查德·塞罗特（Richard Seroter）阐述了全栈 AI 方法的概念，强调其整合硬件、模型和用户界面的优势。这种方法不仅提升了系统的可靠性，还降低了开发成本，简化了开发流程。谷歌的全栈策略使其能够为开发者和普通用户提供高效的 AI 产品。",
-              "source": "RSS · Google AI Blog",
-              "url": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/",
-              "score": 82,
-              "sourceCount": 1,
-              "date": "2026-06-30",
-              "publishedAt": "2026-06-30T00:00",
-              "reason": "谷歌的全栈 AI 方法为开发者提供了一个高效、可靠的开发环境，值得关注其在行业中的应用潜力。"
-            },
-            {
-              "title": "How ChatGPT adoption has expanded",
-              "summary": "New OpenAI Signals data shows how ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and drivin",
-              "source": "RSS · OpenAI Blog",
-              "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
-              "score": 70,
-              "sourceCount": 1,
-              "date": "2026-06-30",
-              "publishedAt": "2026-06-30T17:00",
-              "reason": ""
-            },
-            {
-              "title": "LongCat-2.0 开源：参数超 1.6 万亿的 MoE 模型",
-              "summary": "我注意到 LongCat-2.0 正式开源了！这个模型总参数达到 1.6 万亿，每个 token 激活约 480 亿参数，采用了 MoE 架构。它引入了 LongCat Sparse Attention（LSA）和 N-gram Embedding 模块，支持百万级上下文窗口。模",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://longcat.chat/blog/longcat-2.0",
-              "score": 69,
-              "sourceCount": 1,
-              "date": "2026-06-30",
-              "publishedAt": "2026-06-30T15:06",
-              "reason": "LongCat-2.0 的开源为开发者提供了一个强大的工具，尤其是在处理复杂任务和大规模数据时，值得一试。"
-            },
-            {
-              "title": "美团LongCat-2.0发布：1.6T参数MoE模型，支持1M上下文窗口",
-              "summary": "美团推出的LongCat-2.0模型拥有1.6T参数（MoE架构，活跃参数约48B），并支持1M的上下文窗口。该模型在AI ASIC超算集群上进行训练与部署，现已在OpenRouter以Owl Alpha名义上线测试。LongCat-2.0专为智能体编码设计，具备高效的Spars",
-              "source": "X：Testing Catalog (@testingcatalog)",
-              "url": "https://x.com/testingcatalog/status/2071864999799058768",
-              "score": 66,
-              "sourceCount": 2,
-              "date": "2026-06-30",
-              "publishedAt": "2026-06-30T15:54",
-              "reason": "LongCat-2.0的发布不仅提升了模型的性能，还为智能应用提供了更强大的支持，值得关注其在实际应用中的表现。"
-            },
-            {
-              "title": "特斯拉Cybercab量产版在奥斯汀启动公开道路测试",
-              "summary": "我注意到，特斯拉在2026年6月30日于奥斯汀正式启动了首批量产版Cybercab的公开道路工程测试。这款无人驾驶出租车没有方向盘和脚踏板，车内配有安全监督员，展示了特斯拉向无人驾驶出租车队迈出的重要一步。虽然目前不对外开放乘客，但34台Cybercab正在市中心进行硬件可靠性验",
-              "source": "IT之家（RSS）",
-              "url": "https://www.ithome.com/0/970/539.htm",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-06-30",
-              "publishedAt": "2026-06-30T14:45",
-              "reason": "这条信息展示了特斯拉在无人驾驶领域的最新进展，值得关注其对未来出行方式的潜在影响。"
-            },
-            {
-              "title": "美团LongCat Owl Alpha：1.6万亿参数MoE模型成OpenRouter最受欢迎",
-              "summary": "我注意到，美团LongCat推出的Owl Alpha模型在OpenRouter上迅速崛起，成为最受欢迎的模型。该模型拥有1.6万亿参数，经过35万亿tokens的训练，完全依赖于50,000块国产ASIC，无需GPU支持。上线后，Owl Alpha的日调用量全球排名第三，在Her",
-              "source": "X：Emad Mostaque (@EMostaque)",
-              "url": "https://x.com/EMostaque/status/2071701921241448574",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-06-30",
-              "publishedAt": "2026-06-30T05:06",
-              "reason": "Owl Alpha模型的推出展示了国产AI技术的强大实力，值得关注其后续发展和应用潜力。"
-            },
-            {
-              "title": "Claude 模型正式登陆 Microsoft Foundry",
-              "summary": "Claude 模型现已在 Microsoft Foundry 正式上线，托管于 Azure 环境，支持多种推理处理选项。用户可以选择在美国数据区域进行推理，确保数据合规性。首批推出的 Claude Opus 4.8 和 Claude Haiku 4.5 通过 Messages A",
-              "source": "Claude：Blog（网页）",
-              "url": "https://claude.com/blog/claude-in-microsoft-foundry",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-06-30",
-              "publishedAt": "2026-06-30T02:22",
-              "reason": "Claude 模型在 Microsoft Foundry 的上线为企业用户提供了强大的推理能力和数据安全保障，尤其适合需要高效处理复杂任务的团队。"
-            },
-            {
-              "title": "Qwen 3.6 27B：本地开发的强大语言模型",
-              "summary": "我注意到 Qwen 3.6 27B 是一款非常适合本地开发的密集参数大语言模型，支持高达 256k 的上下文。在 Macbook Max M5 上运行 llama.cpp Q8_0 量化版时，速度可达 30 tokens/s，而在 RTX 5090 上使用 Q6_K 量化版时，速",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://quesma.com/blog/qwen-36-is-awesome",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-06-30",
-              "publishedAt": "2026-06-30T02:03",
-              "reason": "Qwen 3.6 27B 以其强大的性能和灵活的应用场景，成为本地开发的理想选择，值得关注。"
-            },
-            {
-              "title": "Meta 发布 Brain2Qwerty v2，非侵入式脑机接口解码准确率显著提升",
-              "summary": "Meta 在《Nature Neuroscience》上发布了 Brain2Qwerty v1 和 v2，后者实现了句子级实时解码，平均单词准确率达到 61%。尽管这一进展为脑损伤患者提供了新的沟通途径，但仍面临设备体积大、成本高等局限。",
-              "source": "X：宝玉 (@dotey)",
-              "url": "https://x.com/dotey/status/2071658817214116106",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-06-30",
-              "publishedAt": "2026-06-30T02:15",
-              "reason": "Brain2Qwerty v2 的发布标志着非侵入式脑机接口技术的重要进展，尽管面临多重挑战，但为脑损伤患者提供了新的希望，值得关注。"
-            },
-            {
-              "title": "Rubin Ultra新版本性能大幅缩水，制造问题致原版取消",
-              "summary": "Rubin Ultra在GTC 2026发布仅3个月后因制造执行问题被取消，新的Rubin Ultra尺寸减半，实际性能约为原版的一半。这一变化将对市场竞争格局产生深远影响。",
-              "source": "X：SemiAnalysis (@SemiAnalysis_)",
-              "url": "https://x.com/SemiAnalysis_/status/2071700428249596290",
-              "score": 63,
-              "sourceCount": 1,
-              "date": "2026-06-30",
-              "publishedAt": "2026-06-30T05:00",
-              "reason": "这一事件揭示了半导体行业在技术更新与制造执行之间的矛盾，值得关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-business",
-          "label": "行业商业",
-          "items": [
-            {
-              "title": "英国推动 AI 生产力新纪元：培养 AI 先锋",
-              "summary": "谷歌英国发布最新经济影响报告，探讨如何让更多人享受 AI 技术带来的益处。研究显示，AI 用户的职业发展和薪资增长显著，但仍有 85% 的人未能有效利用 AI。通过提升 AI 技能，英国希望缩小这一差距，推动经济增长。",
-              "source": "RSS · Google AI Blog",
-              "url": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers/",
-              "score": 82,
-              "sourceCount": 1,
-              "date": "2026-06-30",
-              "publishedAt": "2026-06-30T14:00",
-              "reason": "这份报告揭示了 AI 技能提升的重要性，提供了实用的解决方案，值得关注。"
-            },
-            {
-              "title": "黑石未来3~5年在日本投资300亿美元建设AI数据中心",
-              "summary": "黑石计划在未来3~5年内在日本投资300亿美元，扩展AI数据中心的容量，新增超1GW的算力。黑石总裁指出，当前AI投资仍处于早期阶段，算力短缺是主要风险。同时，黑石与阿波罗、博通共同成立AI XPV平台，目标到2028年提供超20GW的算力支持。",
-              "source": "IT之家（RSS）",
-              "url": "https://www.ithome.com/0/970/583.htm",
-              "score": 67,
-              "sourceCount": 1,
-              "date": "2026-06-30",
-              "publishedAt": "2026-06-30T15:56",
-              "reason": "黑石的投资计划将显著提升日本的AI基础设施，推动行业发展，值得关注。"
-            },
-            {
-              "title": "AI裁员争议：高投入企业反而增员",
-              "summary": "我注意到，尽管AI引发了大量裁员的担忧，但Ramp与Revelio Labs的报告显示，高度投入AI的企业员工人数反而增长了10.2%。这表明，AI在资源充裕的科技公司中，更多是作为扩张工具，而非简单的岗位替代。未来五年，预计美国15%的岗位可能被AI取代，但持续投入的公司却能实",
-              "source": "TechCrunch：AI（RSS）",
-              "url": "https://techcrunch.com/2026/06/29/the-ai-jobs-debate-just-got-messier",
-              "score": 61,
-              "sourceCount": 1,
-              "date": "2026-06-30",
-              "publishedAt": "2026-06-30T12:01",
-              "reason": "这条信息揭示了AI投资与员工增长之间的复杂关系，值得关注未来的行业动态。"
-            },
-            {
-              "title": "韩国计划投资1万亿美元扩展存储芯片与人形机器人产业",
-              "summary": "韩国政府与三星、SK海力士等企业联合承诺投资1万亿美元，实施三大旗舰项目。包括5850亿美元用于新建芯片工厂，计划在五年内将DRAM产量翻倍；3570亿美元用于在偏远地区建设AI数据中心；现代汽车则投资58亿美元建设机器人工厂，计划到2028年每年生产3万台Atlas人形机器人。",
-              "source": "Ars Technica：AI（RSS）",
-              "url": "https://arstechnica.com/ai/2026/06/south-korea-to-spend-1t-on-more-memory-chip-production-and-humanoid-robots",
-              "score": 61,
-              "sourceCount": 1,
-              "date": "2026-06-30",
-              "publishedAt": "2026-06-30T05:09",
-              "reason": "此次投资计划不仅展示了韩国在高科技领域的雄心，也可能对全球半导体和机器人市场产生深远影响。"
-            }
-          ]
-        }
-      ]
     }
   ],
   "llmLeaderboard": {
-    "updated": "2026-09-02",
+    "updated": "2026-09-04",
     "source": "ReLE 中文大模型能力评测（综合能力）",
     "sourceUrl": "https://github.com/jeinlee1991/chinese-llm-benchmark",
     "items": [
@@ -22257,6 +22054,16 @@
       },
       {
         "rank": 15,
+        "type": "开源",
+        "org": "智谱AI",
+        "model": "glm-5.3-flash(new)",
+        "score": "74.2%",
+        "latency": "128s",
+        "tokens": "4689",
+        "cost": "12.7"
+      },
+      {
+        "rank": 16,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3.8-flash(new)",
@@ -22266,7 +22073,7 @@
         "cost": "10.0"
       },
       {
-        "rank": 16,
+        "rank": 17,
         "type": "商用",
         "org": "google",
         "model": "gemini-3.5-flash",
@@ -22276,7 +22083,7 @@
         "cost": "151.2"
       },
       {
-        "rank": 17,
+        "rank": 18,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3.7-plus(new)",
@@ -22286,7 +22093,7 @@
         "cost": "31.7"
       },
       {
-        "rank": 18,
+        "rank": 19,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "qwen3.5-plus",
@@ -22296,7 +22103,7 @@
         "cost": "22.9"
       },
       {
-        "rank": 19,
+        "rank": 20,
         "type": "商用",
         "org": "豆包",
         "model": "doubao-seed-2-1-turbo-260628(new)",
@@ -22306,7 +22113,7 @@
         "cost": "136.3"
       },
       {
-        "rank": 20,
+        "rank": 21,
         "type": "开源",
         "org": "智谱AI",
         "model": "glm-5.2(new)",
@@ -22316,7 +22123,7 @@
         "cost": "110.5"
       },
       {
-        "rank": 21,
+        "rank": 22,
         "type": "开源",
         "org": "月之暗面",
         "model": "kimi-k2.6",
@@ -22326,7 +22133,7 @@
         "cost": "100.4"
       },
       {
-        "rank": 22,
+        "rank": 23,
         "type": "商用",
         "org": "豆包",
         "model": "Doubao-Seed-2.0-pro",
@@ -22336,7 +22143,7 @@
         "cost": "22.5"
       },
       {
-        "rank": 23,
+        "rank": 24,
         "type": "开源",
         "org": "月之暗面",
         "model": "kimi-k2.7-code(new)",
@@ -22346,7 +22153,7 @@
         "cost": "49.7"
       },
       {
-        "rank": 24,
+        "rank": 25,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.4-high",
@@ -22356,7 +22163,7 @@
         "cost": "122.3"
       },
       {
-        "rank": 25,
+        "rank": 26,
         "type": "开源",
         "org": "深度求索",
         "model": "deepseek-v4-pro-0424",
@@ -22366,7 +22173,7 @@
         "cost": "54.3"
       },
       {
-        "rank": 26,
+        "rank": 27,
         "type": "商用",
         "org": "anthropic",
         "model": "claude-opus-4.8(new)",
@@ -22376,7 +22183,7 @@
         "cost": "99.4"
       },
       {
-        "rank": 27,
+        "rank": 28,
         "type": "开源",
         "org": "小米",
         "model": "mimo-v2.5-pro",
@@ -22386,7 +22193,7 @@
         "cost": "64.3"
       },
       {
-        "rank": 28,
+        "rank": 29,
         "type": "商用",
         "org": "google",
         "model": "gemini-3-flash-preview",
@@ -22396,7 +22203,7 @@
         "cost": "53.5"
       },
       {
-        "rank": 29,
+        "rank": 30,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "Qwen3.5-122B-A10B",
@@ -22406,7 +22213,7 @@
         "cost": "32.3"
       },
       {
-        "rank": 30,
+        "rank": 31,
         "type": "开源",
         "org": "月之暗面",
         "model": "Kimi-K2.5-Thinking",
@@ -22416,7 +22223,7 @@
         "cost": "77.1"
       },
       {
-        "rank": 31,
+        "rank": 32,
         "type": "商用",
         "org": "anthropic",
         "model": "claude-sonnet-5-thinking(new)",
@@ -22426,7 +22233,7 @@
         "cost": "93.7"
       },
       {
-        "rank": 32,
+        "rank": 33,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3.6-plus",
@@ -22436,7 +22243,7 @@
         "cost": "41.6"
       },
       {
-        "rank": 33,
+        "rank": 34,
         "type": "开源",
         "org": "智谱AI",
         "model": "GLM-5.1",
@@ -22446,7 +22253,7 @@
         "cost": "73.8"
       },
       {
-        "rank": 34,
+        "rank": 35,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "Qwen3.5-27B",
@@ -22456,7 +22263,7 @@
         "cost": "25.0"
       },
       {
-        "rank": 35,
+        "rank": 36,
         "type": "商用",
         "org": "豆包",
         "model": "Doubao-Seed-2.0-lite",
@@ -22466,7 +22273,7 @@
         "cost": "5.4"
       },
       {
-        "rank": 36,
+        "rank": 37,
         "type": "商用",
         "org": "anthropic",
         "model": "claude-opus-4.6",
@@ -22476,7 +22283,7 @@
         "cost": "96.5"
       },
       {
-        "rank": 37,
+        "rank": 38,
         "type": "商用",
         "org": "XAI",
         "model": "grok-4.5(new)",
@@ -22486,7 +22293,7 @@
         "cost": "125.7"
       },
       {
-        "rank": 38,
+        "rank": 39,
         "type": "商用",
         "org": "XAI",
         "model": "grok-4.6(new)",
@@ -22496,7 +22303,7 @@
         "cost": "118.4"
       },
       {
-        "rank": 39,
+        "rank": 40,
         "type": "商用",
         "org": "豆包",
         "model": "Doubao-Seed-2.0-mini",
@@ -22506,7 +22313,7 @@
         "cost": "7.0"
       },
       {
-        "rank": 40,
+        "rank": 41,
         "type": "商用",
         "org": "智谱AI",
         "model": "GLM-5-Turbo",
@@ -22516,7 +22323,7 @@
         "cost": "60.8"
       },
       {
-        "rank": 41,
+        "rank": 42,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3-max-think-2026-01-23",
@@ -22526,7 +22333,7 @@
         "cost": "43.5"
       },
       {
-        "rank": 42,
+        "rank": 43,
         "type": "开源",
         "org": "智谱AI",
         "model": "GLM-5",
@@ -22536,7 +22343,7 @@
         "cost": "61.2"
       },
       {
-        "rank": 43,
+        "rank": 44,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "qwen3.5-flash",
@@ -22546,7 +22353,7 @@
         "cost": "10.4"
       },
       {
-        "rank": 44,
+        "rank": 45,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "qwen3.6-27b",
@@ -22556,7 +22363,7 @@
         "cost": "73.2"
       },
       {
-        "rank": 45,
+        "rank": 46,
         "type": "开源",
         "org": "深度求索",
         "model": "deepseek-v4-flash-0424",
@@ -22566,7 +22373,7 @@
         "cost": "4.9"
       },
       {
-        "rank": 46,
+        "rank": 47,
         "type": "商用",
         "org": "腾讯",
         "model": "hunyuan-2.0-thinking-20251109",
@@ -22576,7 +22383,7 @@
         "cost": "9.5"
       },
       {
-        "rank": 47,
+        "rank": 48,
         "type": "商用",
         "org": "百度",
         "model": "ernie-5.1",
@@ -22586,7 +22393,7 @@
         "cost": "32.6"
       },
       {
-        "rank": 48,
+        "rank": 49,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "Qwen3.6-35B-A3B",
@@ -22596,7 +22403,7 @@
         "cost": "40.5"
       },
       {
-        "rank": 49,
+        "rank": 50,
         "type": "商用",
         "org": "minimax",
         "model": "MiniMax-M3(new)",
@@ -22606,7 +22413,7 @@
         "cost": "37.0"
       },
       {
-        "rank": 50,
+        "rank": 51,
         "type": "开源",
         "org": "智谱AI",
         "model": "GLM-4.7",
@@ -22616,7 +22423,7 @@
         "cost": "52.5"
       },
       {
-        "rank": 51,
+        "rank": 52,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.2-high",
@@ -22626,7 +22433,7 @@
         "cost": "94.1"
       },
       {
-        "rank": 52,
+        "rank": 53,
         "type": "开源",
         "org": "阶跃星辰",
         "model": "step-3.7-flash(new)",
@@ -22636,7 +22443,7 @@
         "cost": "40.6"
       },
       {
-        "rank": 53,
+        "rank": 54,
         "type": "商用",
         "org": "百度",
         "model": "ERNIE-5.0",
@@ -22646,7 +22453,7 @@
         "cost": "89.2"
       },
       {
-        "rank": 54,
+        "rank": 55,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.1-high",
@@ -22656,7 +22463,7 @@
         "cost": "180.0"
       },
       {
-        "rank": 55,
+        "rank": 56,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.1-medium",
@@ -22666,7 +22473,7 @@
         "cost": "87.9"
       },
       {
-        "rank": 56,
+        "rank": 57,
         "type": "开源",
         "org": "深度求索",
         "model": "DeepSeek-V3.2-Think",
@@ -22676,7 +22483,7 @@
         "cost": "7.5"
       },
       {
-        "rank": 57,
+        "rank": 58,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5-2025-08-07",
@@ -22686,7 +22493,7 @@
         "cost": "31.9"
       },
       {
-        "rank": 58,
+        "rank": 59,
         "type": "商用",
         "org": "anthropic",
         "model": "claude-sonnet-4.5-thinking",
@@ -22696,7 +22503,7 @@
         "cost": "305.1"
       },
       {
-        "rank": 59,
+        "rank": 60,
         "type": "开源",
         "org": "小米",
         "model": "MiMo-V2-Omni",
@@ -22706,7 +22513,7 @@
         "cost": "34.8"
       },
       {
-        "rank": 60,
+        "rank": 61,
         "type": "商用",
         "org": "豆包",
         "model": "doubao-seed-1-8-251215",
@@ -22716,7 +22523,7 @@
         "cost": "7.3"
       },
       {
-        "rank": 61,
+        "rank": 62,
         "type": "开源",
         "org": "小米",
         "model": "mimo-v2.5",
@@ -22726,7 +22533,7 @@
         "cost": "36.8"
       },
       {
-        "rank": 62,
+        "rank": 63,
         "type": "开源",
         "org": "小米",
         "model": "MiMo-V2-Pro",
@@ -22736,7 +22543,7 @@
         "cost": "50.2"
       },
       {
-        "rank": 63,
+        "rank": 64,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.4-mini-high",
@@ -22746,7 +22553,7 @@
         "cost": "71.8"
       },
       {
-        "rank": 64,
+        "rank": 65,
         "type": "商用",
         "org": "minimax",
         "model": "MiniMax-M2.7",
@@ -22756,7 +22563,7 @@
         "cost": "32.4"
       },
       {
-        "rank": 65,
+        "rank": 66,
         "type": "开源",
         "org": "月之暗面",
         "model": "Kimi-K2-Thinking",
@@ -22766,7 +22573,7 @@
         "cost": "89.2"
       },
       {
-        "rank": 66,
+        "rank": 67,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.3-chat",
@@ -22776,7 +22583,7 @@
         "cost": "51.5"
       },
       {
-        "rank": 67,
+        "rank": 68,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3-max-2026-01-23",
@@ -22786,7 +22593,7 @@
         "cost": "9.7"
       },
       {
-        "rank": 68,
+        "rank": 69,
         "type": "商用",
         "org": "小米",
         "model": "MiMo-V2-Flash-think-0204",
@@ -22796,7 +22603,7 @@
         "cost": "7.8"
       },
       {
-        "rank": 69,
+        "rank": 70,
         "type": "商用",
         "org": "百度",
         "model": "ERNIE-5.0-Thinking-Preview",
@@ -22806,7 +22613,7 @@
         "cost": "72.5"
       },
       {
-        "rank": 70,
+        "rank": 71,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3-max-preview-think",
@@ -22816,7 +22623,7 @@
         "cost": "86.8"
       },
       {
-        "rank": 71,
+        "rank": 72,
         "type": "商用",
         "org": "anthropic",
         "model": "claude-opus-4.5",
@@ -22826,7 +22633,7 @@
         "cost": "146.1"
       },
       {
-        "rank": 72,
+        "rank": 73,
         "type": "开源",
         "org": "阶跃星辰",
         "model": "step-3.5-flash",
@@ -22836,7 +22643,7 @@
         "cost": "9.8"
       },
       {
-        "rank": 73,
+        "rank": 74,
         "type": "开源",
         "org": "腾讯",
         "model": "hy3(new)",
@@ -22846,7 +22653,7 @@
         "cost": "1.8"
       },
       {
-        "rank": 74,
+        "rank": 75,
         "type": "商用",
         "org": "minimax",
         "model": "MiniMax-M2.5",
@@ -22856,7 +22663,7 @@
         "cost": "26.3"
       },
       {
-        "rank": 75,
+        "rank": 76,
         "type": "商用",
         "org": "腾讯",
         "model": "hunyuan-2.0-instruct-20251111",
@@ -22866,7 +22673,7 @@
         "cost": "1.5"
       },
       {
-        "rank": 76,
+        "rank": 77,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3-max-2025-09-23",
@@ -22876,7 +22683,7 @@
         "cost": "23.4"
       },
       {
-        "rank": 77,
+        "rank": 78,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.2-medium",
@@ -22886,7 +22693,7 @@
         "cost": "70.8"
       },
       {
-        "rank": 78,
+        "rank": 79,
         "type": "商用",
         "org": "minimax",
         "model": "MiniMax-M2.1",
@@ -22896,7 +22703,7 @@
         "cost": "28.1"
       },
       {
-        "rank": 79,
+        "rank": 80,
         "type": "开源",
         "org": "深度求索",
         "model": "DeepSeek-V3.1-Think",
@@ -22906,7 +22713,7 @@
         "cost": "24.7"
       },
       {
-        "rank": 80,
+        "rank": 81,
         "type": "开源",
         "org": "美团",
         "model": "LongCat-Flash-Thinking-2601",
@@ -22916,7 +22723,7 @@
         "cost": "0.0"
       },
       {
-        "rank": 81,
+        "rank": 82,
         "type": "商用",
         "org": "腾讯",
         "model": "hunyuan-turbos-20250926",
@@ -22926,7 +22733,7 @@
         "cost": "2.0"
       },
       {
-        "rank": 82,
+        "rank": 83,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3-max-preview",
@@ -22936,7 +22743,7 @@
         "cost": "17.5"
       },
       {
-        "rank": 83,
+        "rank": 84,
         "type": "开源",
         "org": "深度求索",
         "model": "DeepSeek-V3.2",
@@ -22946,7 +22753,7 @@
         "cost": "2.4"
       },
       {
-        "rank": 84,
+        "rank": 85,
         "type": "商用",
         "org": "anthropic",
         "model": "claude-sonnet-4.5",
@@ -22956,7 +22763,7 @@
         "cost": "54.7"
       },
       {
-        "rank": 85,
+        "rank": 86,
         "type": "商用",
         "org": "豆包",
         "model": "doubao-seed-1-6-lite-251015",
@@ -22966,7 +22773,7 @@
         "cost": "3.0"
       },
       {
-        "rank": 86,
+        "rank": 87,
         "type": "商用",
         "org": "anthropic",
         "model": "claude-haiku-4.5-thinking",
@@ -22976,7 +22783,7 @@
         "cost": "158.1"
       },
       {
-        "rank": 87,
+        "rank": 88,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.4",
@@ -22986,7 +22793,7 @@
         "cost": "34.8"
       },
       {
-        "rank": 88,
+        "rank": 89,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.4-nano-high",
@@ -22996,7 +22803,7 @@
         "cost": "13.2"
       },
       {
-        "rank": 89,
+        "rank": 90,
         "type": "开源",
         "org": "小米",
         "model": "MiMo-V2-Flash-think",
@@ -23006,7 +22813,7 @@
         "cost": "0.0"
       },
       {
-        "rank": 90,
+        "rank": 91,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen-plus-think-2025-12-01",
@@ -23016,7 +22823,7 @@
         "cost": "27.1"
       },
       {
-        "rank": 91,
+        "rank": 92,
         "type": "开源",
         "org": "豆包",
         "model": "Seed-OSS-36B-Instruct",
@@ -23026,7 +22833,7 @@
         "cost": "10.8"
       },
       {
-        "rank": 92,
+        "rank": 93,
         "type": "开源",
         "org": "深度求索",
         "model": "DeepSeek-V3.1",
@@ -23036,7 +22843,7 @@
         "cost": "6.5"
       },
       {
-        "rank": 93,
+        "rank": 94,
         "type": "商用",
         "org": "豆包",
         "model": "doubao-seed-1-6-251015",
@@ -23046,7 +22853,7 @@
         "cost": "8.3"
       },
       {
-        "rank": 94,
+        "rank": 95,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "qwen3-next-80b-a3b-instruct",
@@ -23056,7 +22863,7 @@
         "cost": "3.9"
       },
       {
-        "rank": 95,
+        "rank": 96,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5-mini-2025-08-07",
@@ -23066,7 +22873,7 @@
         "cost": "17.4"
       },
       {
-        "rank": 96,
+        "rank": 97,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "qwen3-next-80b-a3b-thinking",
@@ -23076,7 +22883,7 @@
         "cost": "17.1"
       },
       {
-        "rank": 97,
+        "rank": 98,
         "type": "商用",
         "org": "百度",
         "model": "ERNIE-X1.1-Preview",
@@ -23086,7 +22893,7 @@
         "cost": "9.3"
       },
       {
-        "rank": 98,
+        "rank": 99,
         "type": "商用",
         "org": "XAI",
         "model": "grok-4-1-fast-reasoning",
@@ -23096,7 +22903,7 @@
         "cost": "8.1"
       },
       {
-        "rank": 99,
+        "rank": 100,
         "type": "商用",
         "org": "小米",
         "model": "MiMo-V2-Flash-0204",
@@ -23106,7 +22913,7 @@
         "cost": "1.7"
       },
       {
-        "rank": 100,
+        "rank": 101,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5-mini-high",
@@ -23116,7 +22923,7 @@
         "cost": "48.4"
       },
       {
-        "rank": 101,
+        "rank": 102,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen-plus-2025-12-01",
@@ -23126,7 +22933,7 @@
         "cost": "2.8"
       },
       {
-        "rank": 102,
+        "rank": 103,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen-flash-think-2025-07-28",
@@ -23136,7 +22943,7 @@
         "cost": "4.6"
       },
       {
-        "rank": 103,
+        "rank": 104,
         "type": "开源",
         "org": "月之暗面",
         "model": "kimi-k2-0905",
@@ -23146,7 +22953,7 @@
         "cost": "13.2"
       },
       {
-        "rank": 104,
+        "rank": 105,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.2",
@@ -23156,7 +22963,7 @@
         "cost": "23.7"
       },
       {
-        "rank": 105,
+        "rank": 106,
         "type": "开源",
         "org": "小米",
         "model": "MiMo-V2-Flash",
@@ -23166,7 +22973,7 @@
         "cost": "0.0"
       },
       {
-        "rank": 106,
+        "rank": 107,
         "type": "开源",
         "org": "美团",
         "model": "LongCat-Flash-Lite",
@@ -23176,7 +22983,7 @@
         "cost": "0.0"
       },
       {
-        "rank": 107,
+        "rank": 108,
         "type": "开源",
         "org": "openAI",
         "model": "gpt-oss-120b",
@@ -23186,7 +22993,7 @@
         "cost": "2.9"
       },
       {
-        "rank": 108,
+        "rank": 109,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5-nano-high",
@@ -23196,7 +23003,7 @@
         "cost": "19.3"
       },
       {
-        "rank": 109,
+        "rank": 110,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5-nano-2025-08-07",
@@ -23206,7 +23013,7 @@
         "cost": "7.4"
       },
       {
-        "rank": 110,
+        "rank": 111,
         "type": "商用",
         "org": "google",
         "model": "gemini-3.1-flash-lite-preview",
@@ -23216,7 +23023,7 @@
         "cost": "3.9"
       },
       {
-        "rank": 111,
+        "rank": 112,
         "type": "商用",
         "org": "anthropic",
         "model": "claude-haiku-4.5",
@@ -23226,7 +23033,7 @@
         "cost": "18.9"
       },
       {
-        "rank": 112,
+        "rank": 113,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen-flash-2025-07-28",
@@ -23236,7 +23043,7 @@
         "cost": "1.5"
       },
       {
-        "rank": 113,
+        "rank": 114,
         "type": "开源",
         "org": "google",
         "model": "gemma-4-31b-it",
@@ -23246,7 +23053,7 @@
         "cost": "1.4"
       },
       {
-        "rank": 114,
+        "rank": 115,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.1",
@@ -23256,7 +23063,7 @@
         "cost": "19.3"
       },
       {
-        "rank": 115,
+        "rank": 116,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.4-mini",
@@ -23266,7 +23073,7 @@
         "cost": "7.0"
       },
       {
-        "rank": 116,
+        "rank": 117,
         "type": "开源",
         "org": "google",
         "model": "gemma-4-26b-a4b-it",
@@ -23276,7 +23083,7 @@
         "cost": "1.7"
       },
       {
-        "rank": 117,
+        "rank": 118,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen-turbo-think-2025-07-15",
@@ -23286,7 +23093,7 @@
         "cost": "8.8"
       },
       {
-        "rank": 118,
+        "rank": 119,
         "type": "开源",
         "org": "智谱AI",
         "model": "GLM-4.7-Flash",
@@ -23296,7 +23103,7 @@
         "cost": "0.0"
       },
       {
-        "rank": 119,
+        "rank": 120,
         "type": "开源",
         "org": "openAI",
         "model": "gpt-oss-20b",
@@ -23306,7 +23113,7 @@
         "cost": "2.1"
       },
       {
-        "rank": 120,
+        "rank": 121,
         "type": "开源",
         "org": "Mistral",
         "model": "mistral-large-2512",
@@ -23316,7 +23123,7 @@
         "cost": "6.9"
       },
       {
-        "rank": 121,
+        "rank": 122,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.4-nano",
@@ -23326,7 +23133,7 @@
         "cost": "2.2"
       },
       {
-        "rank": 122,
+        "rank": 123,
         "type": "商用",
         "org": "google",
         "model": "gemini-2.5-flash-lite",
@@ -23336,7 +23143,7 @@
         "cost": "8.9"
       },
       {
-        "rank": 123,
+        "rank": 124,
         "type": "商用",
         "org": "XAI",
         "model": "grok-4-1-fast-non-reasoning",
@@ -23346,7 +23153,7 @@
         "cost": "1.6"
       },
       {
-        "rank": 124,
+        "rank": 125,
         "type": "开源",
         "org": "Mistral",
         "model": "Ministral-3-14B-Instruct-2512",
@@ -23356,7 +23163,7 @@
         "cost": "2.3"
       },
       {
-        "rank": 125,
+        "rank": 126,
         "type": "开源",
         "org": "Mistral",
         "model": "Ministral-3-8B-Instruct-2512",
@@ -23366,7 +23173,7 @@
         "cost": "1.6"
       },
       {
-        "rank": 126,
+        "rank": 127,
         "type": "开源",
         "org": "Mistral",
         "model": "Ministral-3-3B-Instruct-2512",
