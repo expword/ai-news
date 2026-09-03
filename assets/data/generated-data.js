@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-04",
-  "generatedAt": "2026-09-03T18:33:28.802543Z",
+  "generatedAt": "2026-09-03T20:53:36.971766Z",
   "news": [
     {
       "title": "Transfer learning for genomic prediction in underrepresented populations",
@@ -169,17 +169,17 @@ window.AI_GENERATED_DATA = {
       "sourceCount": 1
     },
     {
-      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
-      "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
+      "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
+      "summary": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.",
       "category": "ai-models",
       "source": "RSS · OpenAI Blog",
       "date": "2026-09-03",
-      "publishedAt": "2026-09-03T20:00",
-      "collectedAt": "2026-09-04T02:33",
+      "publishedAt": "2026-09-03T21:15",
+      "collectedAt": "2026-09-04T04:53",
       "dateStatus": "verified",
       "sourceDate": "",
       "tags": [],
-      "url": "https://openai.com/index/playco-game-prototyping-with-astra",
+      "url": "https://openai.com/index/daybreak-for-frontline-defenders",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -196,17 +196,17 @@ window.AI_GENERATED_DATA = {
       "sourceCount": 1
     },
     {
-      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-      "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
+      "title": "Safety overview: GPT-6 Astra",
+      "summary": "GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework.",
       "category": "ai-models",
       "source": "RSS · OpenAI Blog",
       "date": "2026-09-03",
-      "publishedAt": "2026-09-03T20:00",
-      "collectedAt": "2026-09-04T02:33",
+      "publishedAt": "2026-09-03T08:00",
+      "collectedAt": "2026-09-04T04:53",
       "dateStatus": "verified",
       "sourceDate": "",
       "tags": [],
-      "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
+      "url": "https://openai.com/index/safety-overview-gpt-6-astra",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -220,7 +220,19 @@ window.AI_GENERATED_DATA = {
       "moduleTargets": [
         "news"
       ],
-      "sourceCount": 1
+      "sourceCount": 3,
+      "relatedSources": [
+        {
+          "source": "RSS · OpenAI Blog",
+          "url": "https://openai.com/index/playco-game-prototyping-with-astra",
+          "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra"
+        },
+        {
+          "source": "RSS · OpenAI Blog",
+          "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
+          "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra"
+        }
+      ]
     },
     {
       "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
@@ -474,6 +486,142 @@ window.AI_GENERATED_DATA = {
           "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber"
         }
       ]
+    },
+    {
+      "title": "Eliciting ESG Preferences for Reinforcement Learning-Based Portfolio Optimization",
+      "summary": "Modern portfolio management increasingly demands a balance between traditional risk-adjusted returns and strict Environmental, Social, and Governance (ESG) mandates. Current Reinfo",
+      "category": "ai-research",
+      "source": "arXiv",
+      "date": "2026-09-02",
+      "publishedAt": "",
+      "collectedAt": "2026-09-04T04:53",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-02",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.02677v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Loom: Weaving Diagnostic Strands into Free-Text Consensus via Embedding-Space Reweighting",
+      "summary": "Aggregating noisy, conflicting textual hypotheses into a reliable consensus is a fundamental challenge when deploying NLP systems in real-world industrial settings. While monolithi",
+      "category": "ai-agents",
+      "source": "arXiv",
+      "date": "2026-09-02",
+      "publishedAt": "",
+      "collectedAt": "2026-09-04T04:53",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-02",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.02649v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "CORAL: An LLM-Native Harness for Production Recommender Systems",
+      "summary": "Production recommender systems shape what billions of people see, and sustaining their performance requires continual optimization: as content, user behavior, and upstream models s",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-09-02",
+      "publishedAt": "",
+      "collectedAt": "2026-09-04T03:43",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-02",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.02730v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "BuildOcc: A Large Language Model Occupant Agent Platform for Building Energy Research",
+      "summary": "Occupants are a primary source of uncertainty in building energy consumption and management, yet existing occupant behavior models cannot capture adaptive and reasoning responses c",
+      "category": "ai-agents",
+      "source": "arXiv",
+      "date": "2026-09-02",
+      "publishedAt": "",
+      "collectedAt": "2026-09-04T03:43",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-02",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.02729v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Large Language Model-Driven Context-Aware Eco-Feedback Generation and Evaluation",
+      "summary": "The objective of this study was to demonstrate the potential of generating eco-feedback that accounted for unique household contextual information, named as context-aware eco-feedb",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-09-02",
+      "publishedAt": "",
+      "collectedAt": "2026-09-04T03:43",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-02",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.02719v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
     },
     {
       "title": "DiscoSign: Discourse-Aware Text to Sign Language Gloss Translation",
@@ -2415,224 +2563,6 @@ window.AI_GENERATED_DATA = {
       "sourceDate": "2026-08-31",
       "tags": [],
       "url": "https://arxiv.org/abs/2608.27460",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "SciReC: Diagnostic Evaluation of Multimodal, Multi-Turn Relational Reasoning with Adaptive Interaction",
-      "summary": "arXiv:2608.27461v1 Announce Type: new Abstract: Relational reasoning requires the process of perceptual understanding, comparing, and integrating the underlying relationships betwe",
-      "category": "ai-research",
-      "source": "RSS · arXiv cs.CL",
-      "date": "2026-08-31",
-      "publishedAt": "",
-      "collectedAt": "2026-08-31T15:04",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-31",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2608.27461",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Dandelion: A Spherical Flower for Neural Simulation of Planetary Dynamics",
-      "summary": "arXiv:2608.27521v1 Announce Type: new Abstract: Many dynamical processes unfold on the sphere but the default scientific machine learning architectures are Euclidean. Applying thes",
-      "category": "ai-coding",
-      "source": "RSS · arXiv cs.LG",
-      "date": "2026-08-31",
-      "publishedAt": "",
-      "collectedAt": "2026-08-31T13:47",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-31",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2608.27521",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "DAMP: Decay-Aware Mixed-Precision Recurrent-State Quantization",
-      "summary": "arXiv:2608.27513v1 Announce Type: new Abstract: Softmax attention stores key and value vectors for every preceding token, causing inference memory to grow with sequence length. Rec",
-      "category": "ai-research",
-      "source": "RSS · arXiv cs.LG",
-      "date": "2026-08-31",
-      "publishedAt": "",
-      "collectedAt": "2026-08-31T13:47",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-31",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2608.27513",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Marginal Coverage Credit Reduces Redundant Exploration in Parallel State-Entropy Optimization",
-      "summary": "arXiv:2608.27507v1 Announce Type: new Abstract: Policy Gradient for Parallel State Entropy maximization (PGPSE) expands state-space coverage by training independently parameterized",
-      "category": "ai-research",
-      "source": "RSS · arXiv cs.LG",
-      "date": "2026-08-31",
-      "publishedAt": "",
-      "collectedAt": "2026-08-31T13:47",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-31",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2608.27507",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "A Deeper Analysis of Block-Sparse Featurizers",
-      "summary": "arXiv:2608.27515v1 Announce Type: new Abstract: The recently introduced block-sparse featurizer (BSF; Fel et al., 2026) is similar to a sparse autoencoder (SAE), but its atomic uni",
-      "category": "ai-coding",
-      "source": "RSS · arXiv cs.LG",
-      "date": "2026-08-31",
-      "publishedAt": "",
-      "collectedAt": "2026-08-31T13:47",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-31",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2608.27515",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "When Muon Meets Task Interference: A Spectral Perspective on Continual Learning and Model Merging",
-      "summary": "arXiv:2608.27518v1 Announce Type: new Abstract: Continual learning (CL) and model merging (MM) both aim to obtain a single model that performs well across multiple tasks, challenge",
-      "category": "ai-research",
-      "source": "RSS · arXiv cs.LG",
-      "date": "2026-08-31",
-      "publishedAt": "",
-      "collectedAt": "2026-08-31T13:47",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-31",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2608.27518",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Self-Explainable Multi-Label Graph Neural Network for Correlated Evidence Attribution",
-      "summary": "arXiv:2608.27574v1 Announce Type: new Abstract: Multi-label graph learning intends to capture the intrinsic complexity of real-world applications, where one sample is often related",
-      "category": "ai-research",
-      "source": "RSS · arXiv cs.LG",
-      "date": "2026-08-31",
-      "publishedAt": "",
-      "collectedAt": "2026-08-31T13:47",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-31",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2608.27574",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Quantization-Triggered Backdoors in Language Models: Cross-Quantizer Transferability and the Validation--Deployment Gap",
-      "summary": "arXiv:2608.27512v1 Announce Type: new Abstract: Post-training quantization is often treated as a semantically neutral optimization for edge deployment of Large Language Models. Whe",
-      "category": "ai-research",
-      "source": "RSS · arXiv cs.LG",
-      "date": "2026-08-31",
-      "publishedAt": "",
-      "collectedAt": "2026-08-31T13:47",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-31",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2608.27512",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -5759,6 +5689,17 @@ window.AI_GENERATED_DATA = {
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Artificial Analysis 评测 GPT-6 Astra：编码智能体追平 Fable 5 但价格涨至 2.5",
+        "provider": "X：Artificial Analysis (@ArtificialAnlys)",
+        "type": "AI 项目/工具",
+        "bestFor": "Artificial Analysis 发布 GPT-6 Astra 评测，其 Coding Agent Index 得分 67，约等于 Claude Opus 5 和 Fable 5，且成本不到 Fable 5 的一半；token 效率比 GPT-5.6 Sol （max） 高约 70%。",
+        "description": "Artificial Analysis 发布 GPT-6 Astra 评测，其 Coding Agent Index 得分 67，约等于 Claude Opus 5 和 Fable 5，且成本不到 Fable 5 的一半；token 效率比 GPT-5.6 Sol （max） 高约 70%。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "X：Artificial Analysis (@ArtificialAnlys)",
+        "url": "https://x.com/ArtificialAnlys/status/2095595489031000350"
+      },
+      {
         "name": "AI-driven development lifecycle using Amazon Bedrock AgentCo",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -6186,20 +6127,31 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2608.26008v1"
-      },
-      {
-        "name": "GLM-5.3-Flash 开源：320B 总参数、AA 指数 57 分，定价为 Opus 4.8 的 1/40",
-        "provider": "公众号：智谱（GLM）",
-        "type": "AI 项目/工具",
-        "bestFor": "智谱上线并开源 GLM-5.3-Flash（320B-A18B），这是 GLM-5 系列首个原生多模态模型，AA 综合智能指数 57 分，与 Claude Opus 4.8 持平。其定价为 GLM-5.3 的 1/10，限时折扣内为 Opus 4.8 的 1/40，并已接入 ZCode 等平台开放 API 调用。该模型",
-        "description": "智谱上线并开源 GLM-5.3-Flash（320B-A18B），这是 GLM-5 系列首个原生多模态模型，AA 综合智能指数 57 分，与 Claude Opus 4.8 持平。其定价为 GLM-5.3 的 1/10，限时折扣内为 Opus 4.8 的 1/40，并已接入 ZCode 等平台开放 API 调用。该模型采用稀疏注意力与线性注意力混合架构，推理",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "公众号：智谱（GLM）",
-        "url": "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&mid=2247494157&idx=1&sn=6837b15a07d2518842eb6c6b53a3eb3c"
       }
     ],
     "ai-agents": [
+      {
+        "name": "OpenAI 发布 GPT-6 Astra，主打 Computer Use 与 Agent 对齐进展",
+        "provider": "X：Mark Chen（OpenAI 首席研究官，@markchen90）",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenAI 首席研究官 Mark Chen 宣布 GPT-6 Astra 发布，称其为团队多年预训练、强化学习和后训练工作的成果，是迄今能力最强、对齐最好的模型。",
+        "description": "OpenAI 首席研究官 Mark Chen 宣布 GPT-6 Astra 发布，称其为团队多年预训练、强化学习和后训练工作的成果，是迄今能力最强、对齐最好的模型。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "X：Mark Chen（OpenAI 首席研究官，@markchen90）",
+        "url": "https://x.com/markchen90/status/2095597534412673109"
+      },
+      {
+        "name": "BuildOcc: A Large Language Model Occupant Agent Platform for",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Occupants are a primary source of uncertainty in building energy consumption and management, yet existing occupant behavior models cannot capture adaptive and r",
+        "description": "Occupants are a primary source of uncertainty in building energy consumption and management, yet existing occupant behavior models cannot capture adaptive and reasoning responses c",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2609.02729v1"
+      },
       {
         "name": "Migrate agentic workloads to Amazon Bedrock AgentCore",
         "provider": "RSS",
@@ -6617,28 +6569,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "TechNode",
         "url": "https://technode.com/2026/09/01/wechat-pay-ai-agentpay-card-deepseek-openclaw/"
-      },
-      {
-        "name": "Snowflake: dashboard-era access controls won't govern AI age",
-        "provider": "Computer Weekly",
-        "type": "AI 项目/工具",
-        "bestFor": "The company's chief data and AI officer talks up efforts to move access controls into the data layer, the cost of dynamic model routing and why governance canno",
-        "description": "The company's chief data and AI officer talks up efforts to move access controls into the data layer, the cost of dynamic model routing and why governance cannot be baked into mode",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Computer Weekly",
-        "url": "https://www.computerweekly.com/news/366649624/Snowflake-dashboard-era-access-controls-wont-govern-AI-agents"
-      },
-      {
-        "name": "DIASENTINEL: An Auditable Multi-Agent System for Guideline-G",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Large language models (LLMs) offer promising clinical decision support but remain vulnerable to hallucinated facts, unsupported recommendations, and citation er",
-        "description": "Large language models (LLMs) offer promising clinical decision support but remain vulnerable to hallucinated facts, unsupported recommendations, and citation errors. We present DIA",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2608.31128v1"
       }
     ],
     "ai-models": [
@@ -7085,6 +7015,28 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-business": [
       {
+        "name": "OpenAI 发布 GPT-6 Astra，ARC-AGI 3 得分 99.9%",
+        "provider": "Simon Willison 博客",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenAI 的 GPT-6 Astra 今日起向部分组织推出，随后面向 ChatGPT Plus、Pro、Business、Enterprise 用户开放，API 定价为每百万输入 $10、每百万输出 $50，与 Claude Fable 5/5.1 持平。",
+        "description": "OpenAI 的 GPT-6 Astra 今日起向部分组织推出，随后面向 ChatGPT Plus、Pro、Business、Enterprise 用户开放，API 定价为每百万输入 $10、每百万输出 $50，与 Claude Fable 5/5.1 持平。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Simon Willison 博客",
+        "url": "https://simonwillison.net/2026/Sep/3/gpt6-astra"
+      },
+      {
+        "name": "OpenAI 发布 GPT-6 Astra，先向受限网络安全客户开放",
+        "provider": "X：Rohan Paul (@rohanpaul_ai)",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenAI 发布 GPT-6 Astra，首先向经过审核的 Daybreak 网络安全客户开放，Plus、Pro、Business、Enterprise、API 和 AWS 将在未来数日内跟进。",
+        "description": "OpenAI 发布 GPT-6 Astra，首先向经过审核的 Daybreak 网络安全客户开放，Plus、Pro、Business、Enterprise、API 和 AWS 将在未来数日内跟进。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "X：Rohan Paul (@rohanpaul_ai)",
+        "url": "https://x.com/rohanpaul_ai/status/2095586785455948112"
+      },
+      {
         "name": "OpenAI 发布新模型 Astra，主打计算机与浏览器操作但因 opaque recurrence 引发争议",
         "provider": "TechCrunch：AI（RSS）",
         "type": "AI 项目/工具",
@@ -7501,28 +7453,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "NewscastStudio",
         "url": "https://www.newscaststudio.com/2026/08/27/avid-media-composer-20068/?og=1"
-      },
-      {
-        "name": "BABA ALERT: Alibaba Group Holding Limited (NYSE: BABA) Inves",
-        "provider": "The Star Phoenix",
-        "type": "AI 项目/工具",
-        "bestFor": "Securities Class Action Filed; Firm Investigating Allegations of Undisclosed Chinese Military Ties and Fraudulent AI Distillation Attacks SAN FRANCISCO -- Hagen",
-        "description": "Securities Class Action Filed; Firm Investigating Allegations of Undisclosed Chinese Military Ties and Fraudulent AI Distillation Attacks SAN FRANCISCO -- Hagens Berman Sobol Shapi",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Star Phoenix",
-        "url": "https://thestarphoenix.com/press-releases/business-wire/baba-alert-alibaba-group-holding-limited-nyse-baba-investors-urged-to-contact-hagens-berman/"
-      },
-      {
-        "name": "BABA ALERT: Alibaba Group Holding Limited (NYSE: BABA) Inves",
-        "provider": "The Montreal Gazette",
-        "type": "AI 项目/工具",
-        "bestFor": "Securities Class Action Filed; Firm Investigating Allegations of Undisclosed Chinese Military Ties and Fraudulent AI Distillation Attacks SAN FRANCISCO -- Hagen",
-        "description": "Securities Class Action Filed; Firm Investigating Allegations of Undisclosed Chinese Military Ties and Fraudulent AI Distillation Attacks SAN FRANCISCO -- Hagens Berman Sobol Shapi",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Montreal Gazette",
-        "url": "https://montrealgazette.com/press-releases/business-wire/baba-alert-alibaba-group-holding-limited-nyse-baba-investors-urged-to-contact-hagens-berman/"
       }
     ],
     "ai-benchmark": [
@@ -10505,7 +10435,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-04",
-    "generatedAt": "2026-09-03T18:33:28.779575Z",
+    "generatedAt": "2026-09-03T20:53:36.944768Z",
     "total": 17,
     "sections": [
       {
@@ -10652,25 +10582,25 @@ window.AI_GENERATED_DATA = {
             "reason": ""
           },
           {
-            "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
-            "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the ",
+            "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
+            "summary": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for e",
             "source": "RSS · OpenAI Blog",
-            "url": "https://openai.com/index/playco-game-prototyping-with-astra",
+            "url": "https://openai.com/index/daybreak-for-frontline-defenders",
             "score": 70,
             "sourceCount": 1,
             "date": "2026-09-03",
-            "publishedAt": "2026-09-03T20:00",
+            "publishedAt": "2026-09-03T21:15",
             "reason": ""
           },
           {
-            "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-            "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this finan",
+            "title": "Safety overview: GPT-6 Astra",
+            "summary": "GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Prepa",
             "source": "RSS · OpenAI Blog",
-            "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
+            "url": "https://openai.com/index/safety-overview-gpt-6-astra",
             "score": 70,
-            "sourceCount": 1,
+            "sourceCount": 3,
             "date": "2026-09-03",
-            "publishedAt": "2026-09-03T20:00",
+            "publishedAt": "2026-09-03T08:00",
             "reason": ""
           },
           {
@@ -23243,6 +23173,18 @@ window.AI_GENERATED_DATA = {
     ]
   },
   "benchmarkDatasets": [
+    {
+      "name": "ExploitBench",
+      "area": "AI 模型能力评测",
+      "note": "作者引用 OpenAI 官方基准称 GPT-6 Astra 以 99.9% 饱和 ARC-AGI-3，在 ExploitBench 得 100%，并在各项基准上全面超过此前保持 SOTA 两天的 Claude Fable 5.1，且价格更低。",
+      "source": "https://x.com/kimmonismus/status/2095589174686400914",
+      "sourceName": "X：Kim (@kimmonismus)",
+      "date": "2026-09-04",
+      "originTitle": "OpenAI 发布 GPT-6 Astra，基准全面超越 Claude Fable 5.1",
+      "evaluates": [],
+      "useCases": [],
+      "limitations": []
+    },
     {
       "name": "SDARE-Bench",
       "area": "AI 模型能力评测",
