@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-03",
-  "generatedAt": "2026-09-03T03:19:14.996491Z",
+  "generatedAt": "2026-09-03T05:53:17.739102Z",
   "news": [
     {
       "title": "Accessing OpenAI models on Amazon Bedrock from Australia with global cross-Region inference",
@@ -173,6 +173,34 @@ window.AI_GENERATED_DATA = {
           "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber"
         }
       ]
+    },
+    {
+      "title": "REFACTOR-VLA: Unsupervised Library Learning of Typed Motor Programs",
+      "summary": "Most current vision-language-action (VLA) models—such as OpenVLA, π0, RT-2, and RDT-1B—are “monolithic.” This means they generate raw motor commands or very short sequences of acti",
+      "category": "ai-models",
+      "source": "RSS · Apple ML Research",
+      "date": "2026-09-02",
+      "publishedAt": "2026-09-02T08:00",
+      "collectedAt": "2026-09-03T13:53",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://machinelearning.apple.com/research/refactor-vla-motor-programs",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
     },
     {
       "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
@@ -5618,6 +5646,17 @@ window.AI_GENERATED_DATA = {
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Snowflake's AI Coding Agent CoCo Helped Send Its Stock Up 22",
+        "provider": "Startup Fortune",
+        "type": "AI 项目/工具",
+        "bestFor": "Snowflake's stock spiked 22% after the company beat Q2 fiscal 2027 earnings and raised full-year product revenue guidance to $6.07 billion, powered by rapid gro",
+        "description": "Snowflake's stock spiked 22% after the company beat Q2 fiscal 2027 earnings and raised full-year product revenue guidance to $6.07 billion, powered by rapid growth in CoCo, its AI ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Startup Fortune",
+        "url": "https://startupfortune.com/snowflakes-ai-coding-agent-coco-helped-send-its-stock-up-22/"
+      },
+      {
         "name": "Intelligence or Expense: Why AI Coding Tools Are Reshaping S",
         "provider": "WebProNews",
         "type": "AI 项目/工具",
@@ -6045,20 +6084,31 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2608.24857v1"
-      },
-      {
-        "name": "Progressive Refinement: An Iterative Pseudo-Labeling Approac",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Code-switching (CS), alternating languages within the same utterance, poses significant challenges for automatic speech recognition (ASR) due to limited CS trai",
-        "description": "Code-switching (CS), alternating languages within the same utterance, poses significant challenges for automatic speech recognition (ASR) due to limited CS training data. This pape",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · Apple ML Research",
-        "url": "https://machinelearning.apple.com/research/progressive-refinement-pseudo-labeling"
       }
     ],
     "ai-agents": [
+      {
+        "name": "ASUS Unveils ProArt PCs with NVIDIA RTX at IFA 2026",
+        "provider": "Mirage News",
+        "type": "AI 项目/工具",
+        "bestFor": "· Powered by NVIDIA RTX Spark: ASUS introduces ProArt P16 & P14 Laptops and GR1X Mini PC, the world's first Windows PC built for personal agents\n\n· Built for AI",
+        "description": "· Powered by NVIDIA RTX Spark: ASUS introduces ProArt P16 & P14 Laptops and GR1X Mini PC, the world's first Windows PC built for personal agents\n\n· Built for AI-powered creators an",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Mirage News",
+        "url": "https://www.miragenews.com/asus-unveils-proart-pcs-with-nvidia-rtx-at-ifa-1738086/"
+      },
+      {
+        "name": "OpenAI: OpenAI is building 'automated shutdown' capabilities",
+        "provider": "Economic Times",
+        "type": "AI 项目/工具",
+        "bestFor": "The company's safety practices have come under scrutiny since OpenAI, ⁠the company ⁠behind ChatGPT, disclosed that one of its AI agents went rogue during a secu",
+        "description": "The company's safety practices have come under scrutiny since OpenAI, ⁠the company ⁠behind ChatGPT, disclosed that one of its AI agents went rogue during a security test and hacked",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Economic Times",
+        "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-is-building-automated-shutdown-capabilities-for-ai-tools-letter-to-lawmakers-says/articleshow/133725313.cms"
+      },
       {
         "name": "Meta Pushes Its New AI Agent on Employees -- but Eases Off o",
         "provider": "Wired",
@@ -6476,31 +6526,31 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · AWS Machine Learning",
         "url": "https://aws.amazon.com/blogs/machine-learning/build-observable-enterprise-agentic-retrieval-using-managed-amazon-bedrock-knowledge-base-with-aws-cloudformation/"
-      },
-      {
-        "name": "Manage agents, tools and skills at scale with AWS Agent Regi",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "AWS Agent Registry is now generally available: a single, searchable, governed catalog for the agents, tools, skills, and custom resources across your organizati",
-        "description": "AWS Agent Registry is now generally available: a single, searchable, governed catalog for the agents, tools, skills, and custom resources across your organization. This post explai",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/manage-agents-tools-and-skills-at-scale-with-aws-agent-registry/"
-      },
-      {
-        "name": "Build multi-tenant agentic chat applications on enterprise d",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Learn how to build a multi-tenant agentic document chat application on Amazon Bedrock Managed Knowledge Base, where users upload documents and immediately ask g",
-        "description": "Learn how to build a multi-tenant agentic document chat application on Amazon Bedrock Managed Knowledge Base, where users upload documents and immediately ask grounded questions. T",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/build-multi-tenant-agentic-chat-applications-on-enterprise-data-with-amazon-bedrock-managed-knowledge-base/"
       }
     ],
     "ai-models": [
+      {
+        "name": "How China Is Harnessing Artificial Intelligence to Transform",
+        "provider": "Alwihda Info - Actualités TCHAD, Afrique, International",
+        "type": "AI 项目/工具",
+        "bestFor": "China is increasingly integrating artificial intelligence into grassroots governance, deploying cost-effective tools to streamline community services while bala",
+        "description": "China is increasingly integrating artificial intelligence into grassroots governance, deploying cost-effective tools to streamline community services while balancing innovation wit",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Alwihda Info - Actualités TCHAD, Afrique, International",
+        "url": "https://www.alwihdainfo.com/how-china-is-harnessing-artificial-intelligence-to-transform-grassroots-governance/"
+      },
+      {
+        "name": "The world appears to be entering a higher-rate era. Here's w",
+        "provider": "CNBC",
+        "type": "AI 项目/工具",
+        "bestFor": "* Governments face mounting interest bills as maturing debt is refinanced at higher rates.\n\n* Leveraged companies and lower-income consumers are most vulnerable",
+        "description": "* Governments face mounting interest bills as maturing debt is refinanced at higher rates.\n\n* Leveraged companies and lower-income consumers are most vulnerable to rising borrowing",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/03/global-bond-yields-rising-treasuries-jgb-bunds.html"
+      },
       {
         "name": "From Downing Street to Anthropic: Matt Clifford's Move Spark",
         "provider": "WebProNews",
@@ -6918,31 +6968,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Yahoo! Finance",
         "url": "https://uk.finance.yahoo.com/news/its-tim-cooks-last-day-as-apple-ceo-investors-are-4-trillion-richer-because-of-him-230325985.html"
-      },
-      {
-        "name": "John Ternus to replace Tim Cook as Apple CEO on September 1:",
-        "provider": "Firstpost",
-        "type": "AI 项目/工具",
-        "bestFor": "John Ternus is set to become Apple's next CEO, succeeding Tim Cook after his 15-year tenure. As he takes charge of the tech giant, Ternus will have several key ",
-        "description": "John Ternus is set to become Apple's next CEO, succeeding Tim Cook after his 15-year tenure. As he takes charge of the tech giant, Ternus will have several key challenges to naviga",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Firstpost",
-        "url": "https://www.firstpost.com/tech/john-ternus-to-replace-tim-cook-as-apple-ceo-on-september-1-ai-iphone-and-other-challenges-ahead-14042144.html"
-      },
-      {
-        "name": "As Apple gets a new CEO, here's what fifteen years of Tim Co",
-        "provider": "The Times of India",
-        "type": "AI 项目/工具",
-        "bestFor": "Tim Cook took over Apple in August 2011, weeks before Steve Jobs died, and hands it to John Ternus tomorrow, September 1, after fifteen years in the job.He took",
-        "description": "Tim Cook took over Apple in August 2011, weeks before Steve Jobs died, and hands it to John Ternus tomorrow, September 1, after fifteen years in the job.He took the job as the man ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Times of India",
-        "url": "https://timesofindia.indiatimes.com/technology/tech-news/as-apple-gets-a-new-ceo-heres-what-fifteen-years-of-tim-cook-did-to-the-company-in-numbers/articleshow/133650549.cms"
       }
     ],
     "ai-business": [
+      {
+        "name": "Vietnamese spend $1.7M on Claude, $7.1M on ChatGPT",
+        "provider": "VnExpress International – Latest news, business, travel and analysis from Vietnam",
+        "type": "AI 项目/工具",
+        "bestFor": "Vietnamese paid US$1.71 million for using generative AI Claude in the first half of the year, propelling Anthropic's mobile app from ninth to second place in re",
+        "description": "Vietnamese paid US$1.71 million for using generative AI Claude in the first half of the year, propelling Anthropic's mobile app from ninth to second place in revenues behind only C",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "VnExpress International – Latest news, business, travel and analysis from Vietnam",
+        "url": "https://e.vnexpress.net/news/tech/vietnam-innovation/vietnamese-spend-1-7m-on-claude-7-1m-on-chatgpt-5115931.html"
+      },
       {
         "name": "The Illusion of the 'Omnipotent' Mind: An expert explained w",
         "provider": "International Business Times",
@@ -7371,17 +7410,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Investing.com",
         "url": "https://www.investing.com/news/stock-market-news/chinas-minimax-sees-revenue-nearly-quadruple-in-first-half-as-ai-demand-surges-4876820"
-      },
-      {
-        "name": "Stanley Druckenmiller Used AI to Fire Back at Scott Bessent ",
-        "provider": "Benzinga",
-        "type": "AI 项目/工具",
-        "bestFor": "Stanley Druckenmiller's AI-assisted criticism of Treasury Secretary Scott Bessent's bond-buyback strategy has sparked a theory from Anthony Pompliano that the a",
-        "description": "Stanley Druckenmiller's AI-assisted criticism of Treasury Secretary Scott Bessent's bond-buyback strategy has sparked a theory from Anthony Pompliano that the apparent feud could b",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Benzinga",
-        "url": "https://www.benzinga.com/markets/economic-data/26/08/61426319/stanley-druckenmiller-ai-scott-bessent-anthony-pompliano-chess"
       }
     ],
     "ai-benchmark": [
@@ -8497,6 +8525,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-research": [
       {
+        "name": "REFACTOR-VLA: Unsupervised Library Learning of Typed Motor P",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Most current vision-language-action (VLA) models—such as OpenVLA, π0, RT-2, and RDT-1B—are “monolithic.” This means they generate raw motor commands or very sho",
+        "description": "Most current vision-language-action (VLA) models—such as OpenVLA, π0, RT-2, and RDT-1B—are “monolithic.” This means they generate raw motor commands or very short sequences of acti",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Apple ML Research",
+        "url": "https://machinelearning.apple.com/research/refactor-vla-motor-programs"
+      },
+      {
         "name": "SurveyMonkey updates platform | News | Research live",
         "provider": "Research Live",
         "type": "AI 项目/工具",
@@ -8953,23 +8992,6 @@ window.AI_GENERATED_DATA = {
         "watch": "在使用 CARE-X 时，需确保与现有医疗系统的兼容性，避免因技术不匹配导致的使用障碍。",
         "sourceName": "RSS · Microsoft Research",
         "url": "https://www.microsoft.com/en-us/research/blog/introducing-care-x-towards-clinically-useful-radiology-vlms-with-auxiliary-supervision-reward-aligned-learning-and-tool-augmented-measurement/"
-      },
-      {
-        "name": "研究揭示低影响数据点可降低机器学习模型的计算成本",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "这一研究成果可能会对机器学习领域产生深远影响。首先，开发者和研究人员可以利用这一去学习框架，优化模型训练过程，降低计算成本。其次，企业在处理用户数据时，可以更有效地遵循数据隐私法规，减少不必要的数据处理，从而提升用户信任。此外，这一方法的成功应用可能会促使更多研究者关注数据点的影响力，推动整个行业在数据隐私和模型优化方",
-        "description": "Udi Wieder 等人在 2026 年 8 月发布的论文中探讨了机器学习中数据隐私问题，提出了一种新颖的去学习框架，能够有效识别和移除对模型学习影响微小的数据点。该方法在实际应用中可实现约 50% 的计算成本节约，具有重要的实用价值。",
-        "useCases": [
-          "识别并移除对模型影响微小的数据点，优化机器学习模型的训练效率。",
-          "在数据隐私合规过程中，减少不必要的数据处理，提升用户信任度。",
-          "通过新提出的去学习框架，降低企业在模型训练中的计算成本。",
-          "为数据科学家提供新的工具，帮助他们在数据集管理中做出更明智的决策。",
-          "推动学术界对数据点影响力的研究，促进机器学习领域的创新。"
-        ],
-        "watch": "在实施去学习框架时，可能会误删对模型有潜在影响的数据点，导致模型性能下降。",
-        "sourceName": "RSS · Apple ML Research",
-        "url": "https://machinelearning.apple.com/research/unlearning-low-influence-points"
       }
     ],
     "ai-office": []
@@ -10378,8 +10400,8 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-03",
-    "generatedAt": "2026-09-03T03:19:14.973514Z",
-    "total": 20,
+    "generatedAt": "2026-09-03T05:53:17.716094Z",
+    "total": 21,
     "sections": [
       {
         "category": "ai-coding",
@@ -10522,6 +10544,17 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 2,
             "date": "2026-09-03",
             "publishedAt": "2026-09-03T00:18",
+            "reason": ""
+          },
+          {
+            "title": "REFACTOR-VLA: Unsupervised Library Learning of Typed Motor Programs",
+            "summary": "Most current vision-language-action (VLA) models—such as OpenVLA, π0, RT-2, and RDT-1B—are “monolithic.” This means they generate raw motor ",
+            "source": "RSS · Apple ML Research",
+            "url": "https://machinelearning.apple.com/research/refactor-vla-motor-programs",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-02",
+            "publishedAt": "2026-09-02T08:00",
             "reason": ""
           },
           {
