@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-03",
-  "generatedAt": "2026-09-03T11:01:28.255724Z",
+  "generatedAt": "2026-09-03T13:34:34.270350Z",
   "news": [
     {
       "title": "Accessing OpenAI models on Amazon Bedrock from Australia with global cross-Region inference",
@@ -2491,61 +2491,6 @@ window.AI_GENERATED_DATA = {
       "sourceDate": "2026-08-30",
       "tags": [],
       "url": "http://arxiv.org/abs/2608.29640v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Multi-Access Speculative Inference: Uplink or Downlink?",
-      "summary": "Multi-access speculative inference (Multi-SPIN) extends SPIN to multi-device edge networks to accelerate cooperative token generation. It allows on-device small language models (SL",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-08-30",
-      "publishedAt": "",
-      "collectedAt": "2026-09-01T09:28",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-30",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.29618v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Batch write and discover records in Amazon SageMaker Feature Store",
-      "summary": "Amazon SageMaker Feature Store now supports two new APIs: BatchWriteRecord writes up to 25 records across multiple feature groups in a single call, and ListRecords enumerates recor",
-      "category": "ai-coding",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-08-29",
-      "publishedAt": "2026-08-29T03:31",
-      "collectedAt": "2026-08-29T04:33",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/batch-write-and-discover-records-in-amazon-sagemaker-feature-store/",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -5673,6 +5618,17 @@ window.AI_GENERATED_DATA = {
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Hugging Face 发布开源工具 funes，为编码智能体提供可本地持有的记忆层",
+        "provider": "Hugging Face：Blog（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "Hugging Face 发布开源工具 funes，为 Claude Code、Codex、pi、Hermes 等编码智能体提供本地记忆层，把已有会话记录索引成 Lance 数据集，一条 funes add 命令即可让 Agent 自主召回原始出处（Agent、时间戳、会话、轮次）。",
+        "description": "Hugging Face 发布开源工具 funes，为 Claude Code、Codex、pi、Hermes 等编码智能体提供本地记忆层，把已有会话记录索引成 Lance 数据集，一条 funes add 命令即可让 Agent 自主召回原始出处（Agent、时间戳、会话、轮次）。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Hugging Face：Blog（RSS）",
+        "url": "https://huggingface.co/blog/funes"
+      },
+      {
         "name": "Claude AI Can Now Control macOS and Windows Computers to Cli",
         "provider": "IT Security News - cybersecurity, infosecurity news",
         "type": "AI 项目/工具",
@@ -6100,20 +6056,31 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "公众号：卡尔的AI沃茨",
         "url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247509950&idx=1&sn=18e7ecdceb66058f5ae1681009b4054e"
-      },
-      {
-        "name": "From Enigma Code to ChatGPT: The Rapid Evolution of Artifici",
-        "provider": "ABC Nepal TV",
-        "type": "AI 项目/工具",
-        "bestFor": "Tracing the lineage of modern AI from wartime codebreaking to today's powerful language models, and examining its growing impact on daily life.\n\nKathmandu -- Th",
-        "description": "Tracing the lineage of modern AI from wartime codebreaking to today's powerful language models, and examining its growing impact on daily life.\n\nKathmandu -- The development of art",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "ABC Nepal TV",
-        "url": "https://abcnews.com.np/from-enigma-code-to-chatgpt-the-rapid-evolution-of-artificial-intelligence/"
       }
     ],
     "ai-agents": [
+      {
+        "name": "EliseAI Unveils Apollo, One AI Teammate Built to Work Across",
+        "provider": "The Montreal Gazette",
+        "type": "AI 项目/工具",
+        "bestFor": "NEW YORK, Sept. 03, 2026 (GLOBE NEWSWIRE) -- EliseAI, the leading AI company automating complex housing systems, today announced Apollo, its first agentic AI te",
+        "description": "NEW YORK, Sept. 03, 2026 (GLOBE NEWSWIRE) -- EliseAI, the leading AI company automating complex housing systems, today announced Apollo, its first agentic AI teammate. Apollo is a ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Montreal Gazette",
+        "url": "https://montrealgazette.com/press-releases/globe-newswire/eliseai-unveils-apollo-one-ai-teammate-built-to-work-across-every-multifamily-role/"
+      },
+      {
+        "name": "AI agents can now remember and hackers can 'poison' their me",
+        "provider": "The Conversation",
+        "type": "AI 项目/工具",
+        "bestFor": "Artificial intelligence systems are starting to do more than answer questions. New AI \"agents\" can remember information from previous interactions, plan a serie",
+        "description": "Artificial intelligence systems are starting to do more than answer questions. New AI \"agents\" can remember information from previous interactions, plan a series of steps and use d",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Conversation",
+        "url": "https://theconversation.com/ai-agents-can-now-remember-and-hackers-can-poison-their-memories-a-new-cybersecurity-threat-290024"
+      },
       {
         "name": "How OpenAI let a mob of LLM agents game a test and ransack H",
         "provider": "RocketNews | Top News Stories From Around the Globe",
@@ -6531,31 +6498,53 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "PYMNTS.com",
         "url": "https://www.pymnts.com/news/artificial-intelligence/2026/retail-investing-opens-up-to-ai-assistants/"
-      },
-      {
-        "name": "Detect Before You Attribute: Cascade Failure Attribution for",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Large language model (LLM)-based agents have shown strong potential in solving complex tasks through multi-step reasoning, yet they remain vulnerable to executi",
-        "description": "Large language model (LLM)-based agents have shown strong potential in solving complex tasks through multi-step reasoning, yet they remain vulnerable to execution failures. Accurat",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2608.29646v1"
-      },
-      {
-        "name": "LG unveils ThinQ Claw AI agent for connected home platform",
-        "provider": "FutureFive New Zealand",
-        "type": "AI 项目/工具",
-        "bestFor": "LG has unveiled the next version of its AI Home system at IFA 2026, introducing a new text-based AI agent called ThinQ Claw.\n\nThe broader AI Home platform uses ",
-        "description": "LG has unveiled the next version of its AI Home system at IFA 2026, introducing a new text-based AI agent called ThinQ Claw.\n\nThe broader AI Home platform uses contextual intellige",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "FutureFive New Zealand",
-        "url": "https://futurefive.co.nz/story/lg-unveils-thinq-claw-ai-agent-for-connected-home-platform"
       }
     ],
     "ai-models": [
+      {
+        "name": "Nvidia to spend $13 billion on Hugging Face, leaving it as a",
+        "provider": "Spectrum News Bay News 9",
+        "type": "AI 项目/工具",
+        "bestFor": "Computer chip company Nvidia is buying artificial intelligence software platform Hugging Face for $12.93 billion.\n\nNvidia CEO Jensen Huang wrote in a blog post ",
+        "description": "Computer chip company Nvidia is buying artificial intelligence software platform Hugging Face for $12.93 billion.\n\nNvidia CEO Jensen Huang wrote in a blog post Thursday that more t",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Spectrum News Bay News 9",
+        "url": "https://baynews9.com/fl/tampa/ap-top-news/2026/09/03/nvidia-to-spend-13-billion-on-hugging-face-leaving-it-as-an-open-source-platform"
+      },
+      {
+        "name": "Nvidia to spend $13 billion on Hugging Face, leaving it as a",
+        "provider": "ABC News",
+        "type": "AI 项目/工具",
+        "bestFor": "Computer chip company Nvidia is buying artificial intelligence software platform Hugging Face for $12.93 billion.\n\nNvidia CEO Jensen Huang wrote in a blog post ",
+        "description": "Computer chip company Nvidia is buying artificial intelligence software platform Hugging Face for $12.93 billion.\n\nNvidia CEO Jensen Huang wrote in a blog post Thursday that more t",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "ABC News",
+        "url": "https://abcnews.com/Technology/wireStory/nvidia-spend-13-billion-hugging-face-leaving-open-136169595"
+      },
+      {
+        "name": "Nvidia to spend $13 billion on Hugging Face, leaving it as a",
+        "provider": "The Journal",
+        "type": "AI 项目/工具",
+        "bestFor": "Computer chip company Nvidia is buying artificial intelligence software platform Hugging Face for $12.93 billion.\n\nNvidia CEO Jensen Huang wrote in a blog post ",
+        "description": "Computer chip company Nvidia is buying artificial intelligence software platform Hugging Face for $12.93 billion.\n\nNvidia CEO Jensen Huang wrote in a blog post Thursday that more t",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Journal",
+        "url": "https://www.the-journal.com/articles/nvidia-to-spend-13-billion-on-hugging-face-leaving-it-as-an-open-source-platform/"
+      },
+      {
+        "name": "Letter to the Editor -- Adams County needs to actively seek ",
+        "provider": "Muddy River News",
+        "type": "AI 项目/工具",
+        "bestFor": "QUINCY -- Adams County should be actively and aggressively pursuing the development of a major data center in our community.\n\nA Wall Street Journal editorial pu",
+        "description": "QUINCY -- Adams County should be actively and aggressively pursuing the development of a major data center in our community.\n\nA Wall Street Journal editorial published September 1,",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Muddy River News",
+        "url": "https://muddyrivernews.com/communities/illinois/letter-to-the-editor-adams-county-needs-to-actively-seek-a-data-center-now/20260903065153/"
+      },
       {
         "name": "I rented a car, and within hours, my driver's license was fo",
         "provider": "RocketNews | Top News Stories From Around the Globe",
@@ -6951,53 +6940,31 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · OpenAI Blog",
         "url": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety"
-      },
-      {
-        "name": "The Best Unified Customer Experience Platform: The 2026 CRM ",
-        "provider": "CRM Magazine",
-        "type": "AI 项目/工具",
-        "bestFor": "Customer experience in 2026 is shifting rapidly from channel-led service to unified CX ecosystems where companies rely on one vendor's solution to orchestrate a",
-        "description": "Customer experience in 2026 is shifting rapidly from channel-led service to unified CX ecosystems where companies rely on one vendor's solution to orchestrate all their customer ex",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "CRM Magazine",
-        "url": "https://www.destinationcrm.com/Articles/ReadArticle.aspx?ArticleID=176262"
-      },
-      {
-        "name": "Pentagon brings on Grok and ChatGPT for military use",
-        "provider": "WSPA 7News",
-        "type": "AI 项目/工具",
-        "bestFor": "The Pentagon announced on Monday that it brought on Starshield AI's Grok for Government and OpenAI's ChatGPT for unclassified military use, expanding the number",
-        "description": "The Pentagon announced on Monday that it brought on Starshield AI's Grok for Government and OpenAI's ChatGPT for unclassified military use, expanding the number of AI assistants on",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "WSPA 7News",
-        "url": "https://www.wspa.com/news/top-stories/pentagon-brings-on-grok-and-chatgpt-for-military-use/"
-      },
-      {
-        "name": "Pentagon gives 3 million personnel access to ChatGPT, Grok A",
-        "provider": "Asaase Radio",
-        "type": "AI 项目/工具",
-        "bestFor": "The United States Department of Defense has launched customised versions of OpenAI's ChatGPT and xAI's Grok, giving about three million civilian and military pe",
-        "description": "The United States Department of Defense has launched customised versions of OpenAI's ChatGPT and xAI's Grok, giving about three million civilian and military personnel access to ge",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Asaase Radio",
-        "url": "https://asaaseradio.com/pentagon-gives-3-million-personnel-access-to-chatgpt-grok-ai-tools/"
-      },
-      {
-        "name": "iFLYTEK Accelerates Chinese AI Expansion in Southeast Asia w",
-        "provider": "The Cambodia News",
-        "type": "AI 项目/工具",
-        "bestFor": "Techsauce Global Summit 2026 opened in Bangkok, Thailand, on August 26, bringing together more than 350 exhibitors. Marking its third consecutive appearance at ",
-        "description": "Techsauce Global Summit 2026 opened in Bangkok, Thailand, on August 26, bringing together more than 350 exhibitors. Marking its third consecutive appearance at Techsauce, iFLYTEK s",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Cambodia News",
-        "url": "https://www.thecambodianews.net/news/279276343/iflytek-accelerates-chinese-ai-expansion-in-southeast-asia-with-third-consecutive-techsauce-appearance"
       }
     ],
     "ai-business": [
+      {
+        "name": "Nvidia to spend $13 billion on Hugging Face, leaving it as a",
+        "provider": "Newsday",
+        "type": "AI 项目/工具",
+        "bestFor": "Computer chip company Nvidia is buying artificial intelligence software platform Hugging Face for $12.93 billion.\n\nNvidia CEO Jensen Huang wrote in a blog post ",
+        "description": "Computer chip company Nvidia is buying artificial intelligence software platform Hugging Face for $12.93 billion.\n\nNvidia CEO Jensen Huang wrote in a blog post Thursday that more t",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Newsday",
+        "url": "https://www.newsday.com/business/nvidia-hugging-face-ai-e84002"
+      },
+      {
+        "name": "Alphabet (GOOGL) Stock Climbs as Berkshire Hathaway Praises ",
+        "provider": "Blockonomi",
+        "type": "AI 项目/工具",
+        "bestFor": "* Berkshire Hathaway purchased approximately $17 billion of Alphabet shares during Q2, elevating it to Berkshire's third-largest position with about 106 million",
+        "description": "* Berkshire Hathaway purchased approximately $17 billion of Alphabet shares during Q2, elevating it to Berkshire's third-largest position with about 106 million shares\n\n* Greg Abel",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Blockonomi",
+        "url": "https://blockonomi.com/alphabet-googl-stock-climbs-as-berkshire-hathaway-praises-googles-ai-leadership/"
+      },
       {
         "name": "Razorpay Launches a Conversational AI Account Manager 'RAY' ",
         "provider": "Sri Lanka Source",
@@ -7415,28 +7382,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "RocketNews | Top News Stories From Around the Globe",
         "url": "https://rocketnews.com/2026/08/fda-approves-breakthrough-drug-daraxonrasib-to-treat-pancreatic-cancer/"
-      },
-      {
-        "name": "Flowgear encourages teams to start building with AI - and ke",
-        "provider": "ITWeb",
-        "type": "AI 项目/工具",
-        "bestFor": "Flowgear is encouraging teams to use AI-assisted building. However, being deliberate about where business integrations live, how they are approved and who remai",
-        "description": "Flowgear is encouraging teams to use AI-assisted building. However, being deliberate about where business integrations live, how they are approved and who remains accountable for e",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "ITWeb",
-        "url": "https://www.itweb.co.za/article/flowgear-encourages-teams-to-start-building-with-ai-and-keep-the-integration-layer-durable/kYbe9MXbZPJvAWpG"
-      },
-      {
-        "name": "How GoDaddy transformed its analytics with Amazon Quick",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "In this post, you will learn how GoDaddy migrated from their legacy business intelligence (BI) tool to Amazon Quick. This was a two-year transformation that del",
-        "description": "In this post, you will learn how GoDaddy migrated from their legacy business intelligence (BI) tool to Amazon Quick. This was a two-year transformation that delivered results acros",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/how-godaddy-transformed-its-analytics-with-amazon-quick/"
       }
     ],
     "ai-benchmark": [
@@ -8018,6 +7963,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-image-video": [
       {
+        "name": "Kulhad Pizza Couple's Viral Leaked Video: Was It Real? What ",
+        "provider": "NewsX",
+        "type": "AI 项目/工具",
+        "bestFor": "The couple gained fame after their unique Kulhad Pizza business gained popularity.\n\nFamous Kulhad Pizza couple from Punjab's Ludhiana witnessed intense scrutiny",
+        "description": "The couple gained fame after their unique Kulhad Pizza business gained popularity.\n\nFamous Kulhad Pizza couple from Punjab's Ludhiana witnessed intense scrutiny after an alleged in",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsX",
+        "url": "https://www.newsx.com/offbeat/kulhad-pizza-couples-viral-leaked-video-was-it-real-what-happened-to-sehaj-arora-and-gurpreet-kaur-later-267850/"
+      },
+      {
         "name": "'Like 2 days was too long apparently?': Designer's work is b",
         "provider": "IndiaTimes",
         "type": "AI 项目/工具",
@@ -8533,17 +8489,6 @@ window.AI_GENERATED_DATA = {
         "watch": "该功能的撤回可能导致用户对谷歌产品的信任度下降，影响用户粘性。",
         "sourceName": "NewsAPI:artificial intelligence",
         "url": "https://www.digitaljournal.com/article/google-rolls-back-new-satellite-image-ai-tool-after-backlash/"
-      },
-      {
-        "name": "From Tinder and Reddit to Amazon, unwanted AI images are fre",
-        "provider": "Currents",
-        "type": "AI 项目/工具",
-        "bestFor": "Users complain of photos being generated or edited without their consent.",
-        "description": "Users complain of photos being generated or edited without their consent.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Currents:generative AI",
-        "url": "https://www.creativebloq.com/ai/from-amazon-to-tinder-and-reddit-tech-platforms-are-giving-users-ai-images-they-didnt-ask-for"
       }
     ],
     "ai-research": [
@@ -10419,7 +10364,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-03",
-    "generatedAt": "2026-09-03T11:01:28.232723Z",
+    "generatedAt": "2026-09-03T13:34:34.245151Z",
     "total": 25,
     "sections": [
       {
