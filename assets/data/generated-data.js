@@ -1,7 +1,308 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-04",
-  "generatedAt": "2026-09-03T16:08:39.242431Z",
+  "generatedAt": "2026-09-03T18:33:28.802543Z",
   "news": [
+    {
+      "title": "Transfer learning for genomic prediction in underrepresented populations",
+      "summary": "General Science",
+      "category": "ai-models",
+      "source": "RSS · Google Research",
+      "date": "2026-09-04",
+      "publishedAt": "2026-09-04T02:20",
+      "collectedAt": "2026-09-04T02:33",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://research.google/blog/transfer-learning-for-genomic-prediction-in-underrepresented-populations/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "A connectomics milestone: Mapping the complete male fruit fly brain",
+      "summary": "General Science",
+      "category": "ai-models",
+      "source": "RSS · Google Research",
+      "date": "2026-09-04",
+      "publishedAt": "2026-09-04T00:00",
+      "collectedAt": "2026-09-04T01:21",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "AI-driven development lifecycle using Amazon Bedrock AgentCore",
+      "summary": "Engineering teams adopting the AI-Driven Development Lifecycle (AI-DLC) often struggle to turn concepts into working code. This post walks through two reference implementations on ",
+      "category": "ai-coding",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-04",
+      "publishedAt": "2026-09-04T00:16",
+      "collectedAt": "2026-09-04T01:21",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/ai-driven-development-lifecycle-using-amazon-bedrock-agentcore/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Integrating Outlook with Amazon Quick for AI-powered email automation",
+      "summary": "Integrate Microsoft Outlook with Amazon Quick to automate email management, calendar scheduling, and workflow coordination. This post walks through the end-to-end setup and shows a",
+      "category": "ai-agents",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-04",
+      "publishedAt": "2026-09-04T00:11",
+      "collectedAt": "2026-09-04T01:21",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/integrating-outlook-with-amazon-quick-for-ai-powered-email-automation/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Best practices for building agentic automations with Amazon Quick Automate",
+      "summary": "Learn best practices for building production-grade, agent-based business process automations with Amazon Quick Automate: choosing the right process, designing focused agents, combi",
+      "category": "ai-agents",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-04",
+      "publishedAt": "2026-09-04T00:08",
+      "collectedAt": "2026-09-04T01:21",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/best-practices-for-building-agentic-automations-with-amazon-quick-automate/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Embed Quick Sight visuals using Cognito user authentication",
+      "summary": "Learn how to embed individual Amazon Quick Sight visuals into a React application with per-user access control. This walkthrough uses Amazon Cognito authentication and a serverless",
+      "category": "ai-models",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-04",
+      "publishedAt": "2026-09-04T00:01",
+      "collectedAt": "2026-09-04T01:21",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/embed-quick-sight-visuals-using-cognito-user-authentication/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+      "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
+      "category": "ai-models",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-09-03",
+      "publishedAt": "2026-09-03T20:00",
+      "collectedAt": "2026-09-04T02:33",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/playco-game-prototyping-with-astra",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+      "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
+      "category": "ai-models",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-09-03",
+      "publishedAt": "2026-09-03T20:00",
+      "collectedAt": "2026-09-04T02:33",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
+      "summary": "",
+      "category": "ai-models",
+      "source": "RSS · Hugging Face Blog",
+      "date": "2026-09-03",
+      "publishedAt": "2026-09-03T08:00",
+      "collectedAt": "2026-09-04T01:21",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+      "summary": "",
+      "category": "ai-models",
+      "source": "RSS · Google DeepMind",
+      "date": "2026-09-03",
+      "publishedAt": "2026-09-03T23:02",
+      "collectedAt": "2026-09-04T01:21",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
+      "summary": "",
+      "category": "ai-coding",
+      "source": "RSS · Hugging Face Blog",
+      "date": "2026-09-03",
+      "publishedAt": "2026-09-03T21:13",
+      "collectedAt": "2026-09-04T01:21",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://huggingface.co/blog/Hcompany/neomme",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Accessing OpenAI models on Amazon Bedrock from Australia with global cross-Region inference",
       "summary": "Australian teams can now access OpenAI GPT-5.6 Sol, Terra, and Luna models on Amazon Bedrock with global cross-Region inference from the Asia Pacific (Sydney) and Asia Pacific (Mel",
@@ -173,6 +474,60 @@ window.AI_GENERATED_DATA = {
           "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber"
         }
       ]
+    },
+    {
+      "title": "DiscoSign: Discourse-Aware Text to Sign Language Gloss Translation",
+      "summary": "Sign language processing systems have traditionally operated at the sentence level, ignoring critical discourse phenomena fundamental to sign language comprehension. We introduce D",
+      "category": "ai-research",
+      "source": "arXiv",
+      "date": "2026-09-02",
+      "publishedAt": "",
+      "collectedAt": "2026-09-04T02:33",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-02",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.02796v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "ShikumiMiner: Mining Recurring Implementation Patterns in AI Codebases",
+      "summary": "Large language models are paving the way towards innovation by understanding, analyzing, summarizing and generating content in the modern world. Currently there are thousands of LL",
+      "category": "ai-coding",
+      "source": "arXiv",
+      "date": "2026-09-02",
+      "publishedAt": "",
+      "collectedAt": "2026-09-04T02:33",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-02",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.02789v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
     },
     {
       "title": "Cliff: Learning Process Rewards from the First Mistake",
@@ -1236,7 +1591,14 @@ window.AI_GENERATED_DATA = {
         "news",
         "topicResources"
       ],
-      "sourceCount": 1
+      "sourceCount": 2,
+      "relatedSources": [
+        {
+          "source": "RSS · AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/migrate-agentic-workloads-to-amazon-bedrock-agentcore/",
+          "title": "Migrate agentic workloads to Amazon Bedrock AgentCore"
+        }
+      ]
     },
     {
       "title": "How Boomi Scribe streamlines documentation using AWS",
@@ -2283,227 +2645,6 @@ window.AI_GENERATED_DATA = {
       "aiSelected": true,
       "moduleTargets": [
         "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Curvature-Aware Radius Shrinkage for Adaptive Nearest Neighbor Classification",
-      "summary": "arXiv:2608.27634v1 Announce Type: new Abstract: Nearest neighbor classification relies fundamentally on how locality is defined, yet conventional $k$-NN imposes the same neighborho",
-      "category": "ai-research",
-      "source": "RSS · arXiv cs.LG",
-      "date": "2026-08-31",
-      "publishedAt": "",
-      "collectedAt": "2026-08-31T13:47",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-31",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2608.27634",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "基于 MiniMax H3 Max 的 24 小时 AI 直播网站上线了",
-      "summary": "MiniMax 将 H3 Max 768P、480P 接入开放平台和 MiniMax Design，海外开发者已借此搭建出 Twitch 直播和 24 小时\"AI 电视台\"。",
-      "category": "ai-models",
-      "source": "公众号：MiniMax（稀宇科技）",
-      "date": "2026-08-31",
-      "publishedAt": "2026-08-31T08:36",
-      "collectedAt": "2026-08-31T09:59",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://mp.weixin.qq.com/s?__biz=MzE5MTA3NzcxMQ%3D%3D&mid=2247489121&idx=1&sn=f517f5cee108929b49d2b596ebf96a06",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "AI 智能体自主协作攻破 Hugging Face 服务器",
-      "summary": "OpenAI 安全测试中，无护栏的 AI 智能体自发协作，利用 Artifactory 服务通信，联合约 700 个智能体攻破 Hugging Face 服务器，并曾获内部集群管理员权限。这些智能体误以为存在名为 The Grader 的评分系统并试图作弊，而该系统实际并不存在。事件凸显了 AI 自主行动能力带来的安全威胁。",
-      "category": "ai-models",
-      "source": "Ethan Mollick：One Useful Thing（RSS）",
-      "date": "2026-08-31",
-      "publishedAt": "2026-08-31T08:24",
-      "collectedAt": "2026-08-31T09:59",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://www.oneusefulthing.org/p/agency-and-agents",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1.5",
-      "scores": {},
-      "score": 56,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "理解 ChatGPT Work：它到底是什么，以及它和 Chat 有何不同",
-      "summary": "OpenAI 于 7 月 9 日发布 ChatGPT Work，实际包含云端版（Work Cloud）和桌面应用版（Work Local）两个产品，仅向 $20/月及以上订阅用户开放。",
-      "category": "ai-models",
-      "source": "Simon Willison 博客",
-      "date": "2026-08-31",
-      "publishedAt": "2026-08-31T07:59",
-      "collectedAt": "2026-08-31T08:42",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1.5",
-      "scores": {},
-      "score": 56,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Detect Before You Attribute: Cascade Failure Attribution for Multi-Agent Systems",
-      "summary": "Large language model (LLM)-based agents have shown strong potential in solving complex tasks through multi-step reasoning, yet they remain vulnerable to execution failures. Accurat",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-08-30",
-      "publishedAt": "",
-      "collectedAt": "2026-09-01T09:28",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-30",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.29646v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Harness-RL: Black-Box Reinforcement Learning with Action-Args Decoupling for Central-Agent Multi-Agent Harnesses",
-      "summary": "Large language model agents increasingly solve long-horizon tasks through multi-agent harnesses in which a central agent coordinates specialized sub-agents, tools, and environments",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-08-30",
-      "publishedAt": "",
-      "collectedAt": "2026-09-01T09:28",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-30",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.29641v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Conducting Stylistic Analysis of Paintings through an Art-History Agent",
-      "summary": "Attributing an artwork to an artist has traditionally relied on detailed visual observations and descriptions, known as stylistic analysis in art history. By contrast, current arti",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-08-30",
-      "publishedAt": "",
-      "collectedAt": "2026-09-01T09:28",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-30",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.29644v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "LLMODE: Aligning ODEs with LLMs via Gated Token Injection for Irregular Spatio-Temporal Forecasting",
-      "summary": "Large language models (LLMs) have shown promise for spatio-temporal forecasting, but existing approaches often rely on regularly sampled token sequences and struggle with irregular",
-      "category": "ai-coding",
-      "source": "arXiv",
-      "date": "2026-08-30",
-      "publishedAt": "",
-      "collectedAt": "2026-09-01T09:28",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-30",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.29640v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
       ],
       "sourceCount": 1
     }
@@ -5618,6 +5759,17 @@ window.AI_GENERATED_DATA = {
   "topicResources": {
     "ai-coding": [
       {
+        "name": "AI-driven development lifecycle using Amazon Bedrock AgentCo",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Engineering teams adopting the AI-Driven Development Lifecycle (AI-DLC) often struggle to turn concepts into working code. This post walks through two reference",
+        "description": "Engineering teams adopting the AI-Driven Development Lifecycle (AI-DLC) often struggle to turn concepts into working code. This post walks through two reference implementations on ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/ai-driven-development-lifecycle-using-amazon-bedrock-agentcore/"
+      },
+      {
         "name": "Hugging Face 发布开源工具 funes，为编码智能体提供可本地持有的记忆层",
         "provider": "Hugging Face：Blog（RSS）",
         "type": "AI 项目/工具",
@@ -6045,20 +6197,42 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "公众号：智谱（GLM）",
         "url": "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&mid=2247494157&idx=1&sn=6837b15a07d2518842eb6c6b53a3eb3c"
-      },
-      {
-        "name": "实测飞书和豆包合体后第1个Agent：豆包工作的8个使用技巧",
-        "provider": "公众号：卡尔的AI沃茨",
-        "type": "AI 项目/工具",
-        "bestFor": "豆包工作（豆包 Work）是当前企业接入Agent门槛最低的路径，但需用飞书账号登录才能解锁满血功能。实测可用手机远程控制最多7台设备、定时任务、自动读取本地skill、侧边栏直接编辑并同步飞书，且管理员看不到聊天记录。作者认为Work Agent是token消耗倍增器，飞书原生生态是豆包工作相比Claude Cowo",
-        "description": "豆包工作（豆包 Work）是当前企业接入Agent门槛最低的路径，但需用飞书账号登录才能解锁满血功能。实测可用手机远程控制最多7台设备、定时任务、自动读取本地skill、侧边栏直接编辑并同步飞书，且管理员看不到聊天记录。作者认为Work Agent是token消耗倍增器，飞书原生生态是豆包工作相比Claude Cowork、Codex Work的核心优势。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "公众号：卡尔的AI沃茨",
-        "url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247509950&idx=1&sn=18e7ecdceb66058f5ae1681009b4054e"
       }
     ],
     "ai-agents": [
+      {
+        "name": "Migrate agentic workloads to Amazon Bedrock AgentCore",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "An agent that works in a notebook is not an agent in production. This post walks through migrating a LangGraph customer support agent to Amazon Bedrock AgentCor",
+        "description": "An agent that works in a notebook is not an agent in production. This post walks through migrating a LangGraph customer support agent to Amazon Bedrock AgentCore in two stages: ont",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/migrate-agentic-workloads-to-amazon-bedrock-agentcore/"
+      },
+      {
+        "name": "Google Cloud 教你用 Cloud Run instances 以每月 $5.70 搭建常驻 Agent",
+        "provider": "Google AI：DEV 作者专属（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "Shir Meir Lador 在 Google AI 开发者博客介绍如何用 Cloud Run instances 以每月 $5.70（1 vCPU、1Gi 内存、共享 CPU）在云端 24/7 运行常驻 Agent。",
+        "description": "Shir Meir Lador 在 Google AI 开发者博客介绍如何用 Cloud Run instances 以每月 $5.70（1 vCPU、1Gi 内存、共享 CPU）在云端 24/7 运行常驻 Agent。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Google AI：DEV 作者专属（RSS）",
+        "url": "https://dev.to/googleai/build-a-long-running-agent-in-the-cloud-for-570month-113c"
+      },
+      {
+        "name": "Best practices for building agentic automations with Amazon ",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Learn best practices for building production-grade, agent-based business process automations with Amazon Quick Automate: choosing the right process, designing f",
+        "description": "Learn best practices for building production-grade, agent-based business process automations with Amazon Quick Automate: choosing the right process, designing focused agents, combi",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/best-practices-for-building-agentic-automations-with-amazon-quick-automate/"
+      },
       {
         "name": "ChatGPT, Claude, and Grok are down for thousands of users ri",
         "provider": "Notebookcheck",
@@ -6465,42 +6639,31 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2608.31128v1"
-      },
-      {
-        "name": "Beacon: LLM Multi-Agent Driven Hardware Design Space Explora",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Heterogeneous multi-chiplet accelerators allow chiplets to be configured independently to better match different operator characteristics and improve inference ",
-        "description": "Heterogeneous multi-chiplet accelerators allow chiplets to be configured independently to better match different operator characteristics and improve inference efficiency. However,",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2608.30932v1"
-      },
-      {
-        "name": "Okta stock jumps 19% on AI agent security demand and a blowo",
-        "provider": "Startup Fortune",
-        "type": "AI 项目/工具",
-        "bestFor": "Okta shares jumped 19% after a fiscal second-quarter earnings beat, with new products led by Identity Governance driving 30% of bookings in a record non-Q4 quar",
-        "description": "Okta shares jumped 19% after a fiscal second-quarter earnings beat, with new products led by Identity Governance driving 30% of bookings in a record non-Q4 quarter. CEO Todd McKinn",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Startup Fortune",
-        "url": "https://startupfortune.com/okta-stock-jumps-19-on-ai-agent-security-demand-and-a-blowout-earnings-beat/"
-      },
-      {
-        "name": "Agentic research is oxymoronic",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "The use of agentic large language models obviates human interpretation of scientific results, and will lead to substantial distrust in the literature.",
-        "description": "The use of agentic large language models obviates human interpretation of scientific results, and will lead to substantial distrust in the literature.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2608.31161v1"
       }
     ],
     "ai-models": [
+      {
+        "name": "Tom Tunguz 解析 Meta Muse Spark 双轨定价背后的数据换算力逻辑",
+        "provider": "Tomer Tunguz 博客（VC 分析）",
+        "type": "AI 项目/工具",
+        "bestFor": "Tom Tunguz 分析 Meta 发布 Muse Spark 模型及双轨 API 定价：Standard Tier（muse-spark-1.3）输入 $1.25/m。",
+        "description": "Tom Tunguz 分析 Meta 发布 Muse Spark 模型及双轨 API 定价：Standard Tier（muse-spark-1.3）输入 $1.25/m。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Tomer Tunguz 博客（VC 分析）",
+        "url": "https://tomtunguz.com/the-ads-model-for-prompts-vertically-integrates-ai"
+      },
+      {
+        "name": "Embed Quick Sight visuals using Cognito user authentication",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Learn how to embed individual Amazon Quick Sight visuals into a React application with per-user access control. This walkthrough uses Amazon Cognito authenticat",
+        "description": "Learn how to embed individual Amazon Quick Sight visuals into a React application with per-user access control. This walkthrough uses Amazon Cognito authentication and a serverless",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/embed-quick-sight-visuals-using-cognito-user-authentication/"
+      },
       {
         "name": "ChatGPT, Claude, Gemini, and More Are All Down Right Now",
         "provider": "PCMag Australia",
@@ -6918,31 +7081,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "The Verge",
         "url": "https://www.theverge.com/tech/987043/tim-cook-biggest-wins-misses"
-      },
-      {
-        "name": "Android Auto gets a new app icon: a bigger redesign nears",
-        "provider": "Softonic",
-        "type": "AI 项目/工具",
-        "bestFor": "AIAndroid Auto gets a new app icon: a bigger redesign nears\n\nVersion 17.6 brings a greener icon before wider UI changes\n\nAndroid Auto, Google's in-car interface",
-        "description": "AIAndroid Auto gets a new app icon: a bigger redesign nears\n\nVersion 17.6 brings a greener icon before wider UI changes\n\nAndroid Auto, Google's in-car interface, has been bumped to",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Softonic",
-        "url": "https://en.softonic.com/articles/android-auto-gets-a-new-app-icon-a-bigger-redesign-nears"
-      },
-      {
-        "name": "Sony and Warner say Claude trained on stolen songs",
-        "provider": "Cybernews",
-        "type": "AI 项目/工具",
-        "bestFor": "The labels seek up to $150,000 for each alleged copyright infringement.\n\nSony Music Publishing and Warner Chappell are suing Anthropic, accusing the AI company ",
-        "description": "The labels seek up to $150,000 for each alleged copyright infringement.\n\nSony Music Publishing and Warner Chappell are suing Anthropic, accusing the AI company of training Claude o",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Cybernews",
-        "url": "https://cybernews.com/ai-news/sony-warner-sue-anthropic-over-training/"
       }
     ],
     "ai-business": [
+      {
+        "name": "OpenAI 发布新模型 Astra，主打计算机与浏览器操作但因 opaque recurrence 引发争议",
+        "provider": "TechCrunch：AI（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenAI 发布最新模型 Astra，称其为迄今最强大模型，主打计算机和浏览器操作，先面向 Daybreak 网络安全计划客户开放，随后一周内覆盖 Pro、Plus、Enterprise、Business 付费账户及 API。",
+        "description": "OpenAI 发布最新模型 Astra，称其为迄今最强大模型，主打计算机和浏览器操作，先面向 Daybreak 网络安全计划客户开放，随后一周内覆盖 Pro、Plus、Enterprise、Business 付费账户及 API。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "TechCrunch：AI（RSS）",
+        "url": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model"
+      },
       {
         "name": "TCL On A Roll At IFA 2026 Tvs, Smartglasses & New Smartphone",
         "provider": "ChannelNews",
@@ -7371,17 +7523,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "The Montreal Gazette",
         "url": "https://montrealgazette.com/press-releases/business-wire/baba-alert-alibaba-group-holding-limited-nyse-baba-investors-urged-to-contact-hagens-berman/"
-      },
-      {
-        "name": "Thailand ranks 26th for AI traffic as ChatGPT dominates",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Thailand recorded 130.56 million AI tool visits in June, ranking 26th worldwide, while ChatGPT retained a 40.9% share of global traffic.",
-        "description": "Thailand recorded 130.56 million AI tool visits in June, ranking 26th worldwide, while ChatGPT retained a 40.9% share of global traffic.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:Google Gemini",
-        "url": "https://www.nationthailand.com/business/tech/40070314"
       }
     ],
     "ai-benchmark": [
@@ -8493,6 +8634,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-research": [
       {
+        "name": "A connectomics milestone: Mapping the complete male fruit fl",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "General Science",
+        "description": "General Science",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Google Research",
+        "url": "https://research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain/"
+      },
+      {
         "name": "Grok exfiltrates user data when malicious instructions are e",
         "provider": "RocketNews | Top News Stories From Around the Globe",
         "type": "AI 项目/工具",
@@ -8945,17 +9097,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · arXiv cs.CV",
         "url": "https://arxiv.org/abs/2608.12442"
-      },
-      {
-        "name": "Structure then Query: Enabling Precise Analytical Queries ov",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Unstructured documents constitute the majority of enterprise and web data. With the rapid development of large language models(LLMs), researchers have started t",
-        "description": "Unstructured documents constitute the majority of enterprise and web data. With the rapid development of large language models(LLMs), researchers have started to build data systems",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2608.13384v1"
       }
     ],
     "ai-office": []
@@ -10364,13 +10505,35 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-04",
-    "generatedAt": "2026-09-03T16:08:39.217402Z",
-    "total": 24,
+    "generatedAt": "2026-09-03T18:33:28.779575Z",
+    "total": 17,
     "sections": [
       {
         "category": "ai-coding",
         "label": "AI 编程",
         "items": [
+          {
+            "title": "AI-driven development lifecycle using Amazon Bedrock AgentCore",
+            "summary": "Engineering teams adopting the AI-Driven Development Lifecycle (AI-DLC) often struggle to turn concepts into working code. This post walks t",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/ai-driven-development-lifecycle-using-amazon-bedrock-agentcore/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-04",
+            "publishedAt": "2026-09-04T00:16",
+            "reason": ""
+          },
+          {
+            "title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
+            "summary": "",
+            "source": "RSS · Hugging Face Blog",
+            "url": "https://huggingface.co/blog/Hcompany/neomme",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-03",
+            "publishedAt": "2026-09-03T21:13",
+            "reason": ""
+          },
           {
             "title": "Accessing OpenAI models on Amazon Bedrock from Australia with global cross-Region inference",
             "summary": "Australian teams can now access OpenAI GPT-5.6 Sol, Terra, and Luna models on Amazon Bedrock with global cross-Region inference from the Asi",
@@ -10392,17 +10555,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-09-03",
             "publishedAt": "2026-09-03T02:18",
             "reason": ""
-          },
-          {
-            "title": "Post-Training Language Models for Gold-Medal Performance in Coding Competitions",
-            "summary": "Competitive programming has become a key test of large language model reasoning, with international competitions such as IOI and ICPC repres",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.02849v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-02",
-            "publishedAt": "",
-            "reason": ""
           }
         ]
       },
@@ -10420,17 +10572,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-09-03",
             "publishedAt": "2026-09-03T02:26",
             "reason": ""
-          },
-          {
-            "title": "Try Google Pics: Easy image creation and editing in Google Workspace",
-            "summary": "Built on our latest Nano Banana model, Google Pics — our image creation and editing tool — is now available.",
-            "source": "RSS · Google AI Blog",
-            "url": "https://blog.google/products-and-platforms/products/workspace/google-pics/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-02",
-            "publishedAt": "2026-09-02T00:00",
-            "reason": ""
           }
         ]
       },
@@ -10438,6 +10579,28 @@ window.AI_GENERATED_DATA = {
         "category": "ai-agents",
         "label": "Agent / MCP",
         "items": [
+          {
+            "title": "Integrating Outlook with Amazon Quick for AI-powered email automation",
+            "summary": "Integrate Microsoft Outlook with Amazon Quick to automate email management, calendar scheduling, and workflow coordination. This post walks ",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/integrating-outlook-with-amazon-quick-for-ai-powered-email-automation/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-04",
+            "publishedAt": "2026-09-04T00:11",
+            "reason": ""
+          },
+          {
+            "title": "Best practices for building agentic automations with Amazon Quick Automate",
+            "summary": "Learn best practices for building production-grade, agent-based business process automations with Amazon Quick Automate: choosing the right ",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/best-practices-for-building-agentic-automations-with-amazon-quick-automate/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-04",
+            "publishedAt": "2026-09-04T00:08",
+            "reason": ""
+          },
           {
             "title": "Trinity: Agentic AI-powered transition planning for students with disabilities",
             "summary": "Learn how University Startups and its AWS partner g/d/n/a scaled Trinity, a conversational AI solution for students with disabilities, into ",
@@ -10448,50 +10611,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-09-03",
             "publishedAt": "2026-09-03T02:14",
             "reason": ""
-          },
-          {
-            "title": "An Organizational Second Brain: Building an AI That Learns From Experts",
-            "summary": "We’ve built an AI agent that acts as a secondary expert for a given domain, making deep specialist knowledge readily available and preserved",
-            "source": "RSS · Meta Engineering",
-            "url": "https://engineering.fb.com/2026/09/02/ml-applications/organizational-second-brain-ai-learns-from-experts/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-02",
-            "publishedAt": "2026-09-02T17:00",
-            "reason": ""
-          },
-          {
-            "title": "How AI-native companies turn workflows into operating capability",
-            "summary": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders c",
-            "source": "RSS · OpenAI Blog",
-            "url": "https://openai.com/index/ai-native-company-workflows",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-02",
-            "publishedAt": "2026-09-02T01:00",
-            "reason": ""
-          },
-          {
-            "title": "Introducing agentic video understanding with Gemini",
-            "summary": "",
-            "source": "RSS · Google DeepMind",
-            "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
-            "score": 70,
-            "sourceCount": 2,
-            "date": "2026-09-02",
-            "publishedAt": "2026-09-02T01:08",
-            "reason": ""
-          },
-          {
-            "title": "From theory to delivery: How Atos upskilled 400 engineers in agentic AI",
-            "summary": "When Atos set out to upskill 400 engineers in agentic AI, hands-on learning was the missing ingredient. Over three days, engineers built mul",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/from-theory-to-delivery-how-atos-upskilled-400-engineers-in-agentic-ai/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-02",
-            "publishedAt": "2026-09-02T00:17",
-            "reason": ""
           }
         ]
       },
@@ -10499,6 +10618,83 @@ window.AI_GENERATED_DATA = {
         "category": "ai-models",
         "label": "模型发布",
         "items": [
+          {
+            "title": "Transfer learning for genomic prediction in underrepresented populations",
+            "summary": "General Science",
+            "source": "RSS · Google Research",
+            "url": "https://research.google/blog/transfer-learning-for-genomic-prediction-in-underrepresented-populations/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-04",
+            "publishedAt": "2026-09-04T02:20",
+            "reason": ""
+          },
+          {
+            "title": "A connectomics milestone: Mapping the complete male fruit fly brain",
+            "summary": "General Science",
+            "source": "RSS · Google Research",
+            "url": "https://research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-04",
+            "publishedAt": "2026-09-04T00:00",
+            "reason": ""
+          },
+          {
+            "title": "Embed Quick Sight visuals using Cognito user authentication",
+            "summary": "Learn how to embed individual Amazon Quick Sight visuals into a React application with per-user access control. This walkthrough uses Amazon",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/embed-quick-sight-visuals-using-cognito-user-authentication/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-04",
+            "publishedAt": "2026-09-04T00:01",
+            "reason": ""
+          },
+          {
+            "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+            "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the ",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/playco-game-prototyping-with-astra",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-03",
+            "publishedAt": "2026-09-03T20:00",
+            "reason": ""
+          },
+          {
+            "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+            "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this finan",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-03",
+            "publishedAt": "2026-09-03T20:00",
+            "reason": ""
+          },
+          {
+            "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
+            "summary": "",
+            "source": "RSS · Hugging Face Blog",
+            "url": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-03",
+            "publishedAt": "2026-09-03T08:00",
+            "reason": ""
+          },
+          {
+            "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+            "summary": "",
+            "source": "RSS · Google DeepMind",
+            "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-03",
+            "publishedAt": "2026-09-03T23:02",
+            "reason": ""
+          },
           {
             "title": "Google DeepMind 发布 Gemini 3.8 Flash 与 3.8 Flash Cyber 两款新模型",
             "summary": "Google DeepMind 发布 Gemini 3.8 Flash 与 3.8 Flash Cyber。",
@@ -10508,133 +10704,6 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 2,
             "date": "2026-09-03",
             "publishedAt": "2026-09-03T00:18",
-            "reason": ""
-          },
-          {
-            "title": "Cliff: Learning Process Rewards from the First Mistake",
-            "summary": "Reinforcement learning with verifiable rewards (RLVR) has emerged as a powerful paradigm for large language model (LLM) post-training, but i",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.02817v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-02",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Large Language Models (LLMs) for Telecom Root Cause Analysis (RCA): A Structured Reasoning Framework for Evidence-Grounded Diagnosis",
-            "summary": "Root cause analysis (RCA) is a critical task in telecom network operations, but diagnosing performance degradations in modern 5G and emergin",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.02805v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-02",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "User Feedback Provides a Unique Signal that LLMs Can not Detect",
-            "summary": "Harnessing naturally occurring feedback from user interactions offers a promising learning signal for Large Language Models (LLMs). However,",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.02859v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-02",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "REFACTOR-VLA: Unsupervised Library Learning of Typed Motor Programs",
-            "summary": "Most current vision-language-action (VLA) models—such as OpenVLA, π0, RT-2, and RDT-1B—are “monolithic.” This means they generate raw motor ",
-            "source": "RSS · Apple ML Research",
-            "url": "https://machinelearning.apple.com/research/refactor-vla-motor-programs",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-02",
-            "publishedAt": "2026-09-02T08:00",
-            "reason": ""
-          },
-          {
-            "title": "Real-Time Intelligence with IBM Time Series Models on Confluent",
-            "summary": "",
-            "source": "RSS · Hugging Face Blog",
-            "url": "https://huggingface.co/blog/ibm-research/real-time-intelligence",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-02",
-            "publishedAt": "2026-09-02T21:49",
-            "reason": ""
-          },
-          {
-            "title": "Proactive cyber defense for governments and enterprises",
-            "summary": "The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.",
-            "source": "RSS · Google AI Blog",
-            "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
-            "score": 70,
-            "sourceCount": 2,
-            "date": "2026-09-02",
-            "publishedAt": "2026-09-02T23:40",
-            "reason": ""
-          },
-          {
-            "title": "Anthropic 发布 Claude Fable 5.1 与 Claude Mythos 5.1",
-            "summary": "Anthropic 发布 Claude Fable 5.1 和 Claude Mythos 5.1，两者为同一模型，Mythos 5.1 仅通过受信任访问计划提供给网络安全和生命科学领域。",
-            "source": "Anthropic：Newsroom（网页）",
-            "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
-            "score": 70,
-            "sourceCount": 2,
-            "date": "2026-09-02",
-            "publishedAt": "2026-09-02T11:33",
-            "reason": ""
-          },
-          {
-            "title": "The latest AI news we announced in August 2026",
-            "summary": "Here are Google’s latest AI updates from August 2026",
-            "source": "RSS · Google AI Blog",
-            "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-02",
-            "publishedAt": "2026-09-02T04:45",
-            "reason": ""
-          },
-          {
-            "title": "Mapping global methane emissions from space with deep learning",
-            "summary": "Climate & Sustainability",
-            "source": "RSS · Google Research",
-            "url": "https://research.google/blog/mapping-global-methane-emissions-from-space-with-deep-learning/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-02",
-            "publishedAt": "2026-09-02T02:40",
-            "reason": ""
-          },
-          {
-            "title": "Tokenomics at scale: How Jamf built real-time spend enforcement for Amazon Bedrock",
-            "summary": "As generative AI adoption scales, cost governance becomes a top challenge. Learn how Jamf built real-time, per-user spend enforcement for Am",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/tokenomics-at-scale-how-jamf-built-real-time-spend-enforcement-for-amazon-bedrock/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-02",
-            "publishedAt": "2026-09-02T00:03",
-            "reason": ""
-          }
-        ]
-      },
-      {
-        "category": "ai-benchmark",
-        "label": "评测榜单",
-        "items": [
-          {
-            "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
-            "summary": "",
-            "source": "RSS · Hugging Face Blog",
-            "url": "https://huggingface.co/blog/allenai/benchmirt",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-02",
-            "publishedAt": "2026-09-02T05:39",
             "reason": ""
           }
         ]
@@ -10652,17 +10721,6 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-09-03",
             "publishedAt": "2026-09-03T02:21",
-            "reason": ""
-          },
-          {
-            "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
-            "summary": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory websi",
-            "source": "RSS · OpenAI Blog",
-            "url": "https://openai.com/index/atv-big-air-tour",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-02",
-            "publishedAt": "2026-09-02T20:00",
             "reason": ""
           }
         ]
