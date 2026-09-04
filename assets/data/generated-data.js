@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-04",
-  "generatedAt": "2026-09-04T10:35:28.396999Z",
+  "generatedAt": "2026-09-04T13:08:49.759440Z",
   "news": [
     {
       "title": "Transfer learning for genomic prediction in underrepresented populations",
@@ -2520,115 +2520,6 @@ window.AI_GENERATED_DATA = {
       "moduleTargets": [
         "news",
         "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "When Does Bigger Help? A Controlled Study of LLM Scale for Ontology Learning",
-      "summary": "The effect of Large Language Model (LLM) scale on ontology learning (OL) performance remains insufficiently characterized. We present a controlled evaluation of 13 models spanning ",
-      "category": "ai-coding",
-      "source": "arXiv",
-      "date": "2026-08-31",
-      "publishedAt": "",
-      "collectedAt": "2026-09-01T14:34",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-31",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.31118v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "DIASENTINEL: An Auditable Multi-Agent System for Guideline-Grounded Diabetes Risk Screening",
-      "summary": "Large language models (LLMs) offer promising clinical decision support but remain vulnerable to hallucinated facts, unsupported recommendations, and citation errors. We present DIA",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-08-31",
-      "publishedAt": "",
-      "collectedAt": "2026-09-01T14:34",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-31",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.31128v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "A Model with No Head and Many Thoughts",
-      "summary": "Large language models decode by projecting hidden states through a large vocabulary head at every step. This operation is computationally costly and forces all reasoning to be expr",
-      "category": "ai-coding",
-      "source": "arXiv",
-      "date": "2026-08-31",
-      "publishedAt": "",
-      "collectedAt": "2026-09-01T14:34",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-31",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.31069v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "A Universal Context-Reuse Layer for Cross-Model KV Sharing",
-      "summary": "Modern large language model (LLM) serving systems increasingly operate over repeated or shared context, yet each model typically performs its own prefill computation even when anot",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-08-31",
-      "publishedAt": "",
-      "collectedAt": "2026-09-01T14:34",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-31",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.30963v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
       ],
       "sourceCount": 1
     }
@@ -6626,6 +6517,28 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-models": [
       {
+        "name": "LG ELECTRONICS HIGHLIGHTS SEVEN HOME APPLIANCES AT IFA 2026",
+        "provider": "CNHI News",
+        "type": "AI 项目/工具",
+        "bestFor": "LG Electronics highlights seven home appliances at its IFA 2026 booth, showcasing how advances in AI, energy efficiency and space-conscious design are addressin",
+        "description": "LG Electronics highlights seven home appliances at its IFA 2026 booth, showcasing how advances in AI, energy efficiency and space-conscious design are addressing the modern Europea",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "CNHI News",
+        "url": "https://www.cnhinews.com/news/article_d0ff0a75-2e59-5e45-ad48-710de775a7a9.html"
+      },
+      {
+        "name": "Google launches Gmail Live: Gemini voice features come to Gm",
+        "provider": "Softonic",
+        "type": "AI 项目/工具",
+        "bestFor": "Users can search emails, draft text, and organize notes by voice\n\nGoogle is rolling out Gmail Live, Docs Live, and Keep Live, three new features that let us tal",
+        "description": "Users can search emails, draft text, and organize notes by voice\n\nGoogle is rolling out Gmail Live, Docs Live, and Keep Live, three new features that let us talk to our apps to loo",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Softonic",
+        "url": "https://en.softonic.com/articles/google-launches-gmail-live-gemini-voice-features-come-to-gmail-docs-and-keep"
+      },
+      {
         "name": "What Claude can do: A complete overview of one of the most p",
         "provider": "NEWS.am TECH - Innovations and science",
         "type": "AI 项目/工具",
@@ -7042,28 +6955,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "The Manila times",
         "url": "https://www.manilatimes.net/2026/09/02/tmt-newswire/globenewswire/openmatter-network-expands-platform-with-new-capabilities-for-secure-ai-computing-and-data-collaboration/2417113"
-      },
-      {
-        "name": "How relocating families can manage the UK health surcharge",
-        "provider": "Tribune Online",
-        "type": "AI 项目/工具",
-        "bestFor": "Relocating your entire family to the United Kingdom can be a financial requirement that can catch even the most prepared applicants off guard. Beyond visa appli",
-        "description": "Relocating your entire family to the United Kingdom can be a financial requirement that can catch even the most prepared applicants off guard. Beyond visa application fees, flight ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Tribune Online",
-        "url": "https://tribuneonlineng.com/beat-the-uk-health-surcharge-financial-planning-hacks-relocating-families/"
-      },
-      {
-        "name": "Apple's New CEO Hypes Product Launch in First Employee Addre",
-        "provider": "PYMNTS.com",
-        "type": "AI 项目/工具",
-        "bestFor": "John Ternus became Apple's chief executive Monday (Sept. 1), and used part of his introductory memo to workers to tout the company's annual September product sh",
-        "description": "John Ternus became Apple's chief executive Monday (Sept. 1), and used part of his introductory memo to workers to tout the company's annual September product showcase next week, Bl",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "PYMNTS.com",
-        "url": "https://www.pymnts.com/apple/2026/apples-new-ceo-hypes-product-launch-in-first-employee-address/"
       }
     ],
     "ai-business": [
@@ -10488,7 +10379,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-04",
-    "generatedAt": "2026-09-04T10:35:28.372999Z",
+    "generatedAt": "2026-09-04T13:08:49.725183Z",
     "total": 25,
     "sections": [
       {
