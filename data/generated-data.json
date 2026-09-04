@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-04",
-  "generatedAt": "2026-09-03T20:53:36.971766Z",
+  "generatedAt": "2026-09-04T00:22:58.325579Z",
   "news": [
     {
       "title": "Transfer learning for genomic prediction in underrepresented populations",
@@ -2509,60 +2509,6 @@
       "sourceDate": "2026-08-31",
       "tags": [],
       "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Developing provably correct Rust code with Verus",
-      "summary": "How the Verus \"program verifier\", which automatically checks code against a mathematical specification of its functionality, helps increase security assurance in software projects.",
-      "category": "ai-coding",
-      "source": "RSS · Amazon Science",
-      "date": "2026-08-31",
-      "publishedAt": "2026-08-31T23:35",
-      "collectedAt": "2026-09-01T01:11",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://www.amazon.science/blog/developing-provably-correct-rust-code-with-verus",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Accelerating LLM Inference via Vector Index Based Output Embeddings",
-      "summary": "arXiv:2608.27460v1 Announce Type: new Abstract: Large output embedding matrices create a significant memory bandwidth bottleneck during autoregressive decoding, especially for comp",
-      "category": "ai-coding",
-      "source": "RSS · arXiv cs.CL",
-      "date": "2026-08-31",
-      "publishedAt": "",
-      "collectedAt": "2026-08-31T15:04",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-31",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2608.27460",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -6573,6 +6519,17 @@
     ],
     "ai-models": [
       {
+        "name": "Meet the Seahawks' New Minority Owners",
+        "provider": "Yahoo Sports",
+        "type": "AI 项目/工具",
+        "bestFor": "The Seahawks' new ownership group includes three private equity firms, the family behind beer brand Modelo, a former U.S. Secretary of Commerce, and billionaire",
+        "description": "The Seahawks' new ownership group includes three private equity firms, the family behind beer brand Modelo, a former U.S. Secretary of Commerce, and billionaire venture capitalist ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Yahoo Sports",
+        "url": "https://sports.yahoo.com/articles/meet-seahawks-minority-owners-235524983.html"
+      },
+      {
         "name": "Tom Tunguz 解析 Meta Muse Spark 双轨定价背后的数据换算力逻辑",
         "provider": "Tomer Tunguz 博客（VC 分析）",
         "type": "AI 项目/工具",
@@ -7000,17 +6957,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "TelecomTalk",
         "url": "https://telecomtalk.info/reliance-jio-3gb-per-day-plans-sept2026/1011397/"
-      },
-      {
-        "name": "Tim Cook's Apple: his 10 biggest wins and misses",
-        "provider": "The Verge",
-        "type": "AI 项目/工具",
-        "bestFor": "Expectations for Tim Cook were almost impossibly high when he stepped in to replace Apple's visionary co-founder in 2011. He inherited a company on a blockbuste",
-        "description": "Expectations for Tim Cook were almost impossibly high when he stepped in to replace Apple's visionary co-founder in 2011. He inherited a company on a blockbuster run, after Steve J",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Verge",
-        "url": "https://www.theverge.com/tech/987043/tim-cook-biggest-wins-misses"
       }
     ],
     "ai-business": [
@@ -10435,7 +10381,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-04",
-    "generatedAt": "2026-09-03T20:53:36.944768Z",
+    "generatedAt": "2026-09-04T00:22:58.296583Z",
     "total": 17,
     "sections": [
       {
@@ -23173,6 +23119,18 @@
     ]
   },
   "benchmarkDatasets": [
+    {
+      "name": "TerminalBench",
+      "area": "AI 模型能力评测",
+      "note": "OpenAI 发布 GPT-6 Astra，在 FrontierMath Tier 4、ARC-AGI 3、TerminalBench-4.0 上达到 SOTA，并在 Terminal-Bench Science 0.1 和 HealthBench Pro 上取得领先成绩。",
+      "source": "https://x.com/sherwinwu/status/2095608486940086448",
+      "sourceName": "X：Sherwin Wu（@sherwinwu）",
+      "date": "2026-09-04",
+      "originTitle": "OpenAI 发布 GPT-6 Astra，多项基准达到 SOTA",
+      "evaluates": [],
+      "useCases": [],
+      "limitations": []
+    },
     {
       "name": "ExploitBench",
       "area": "AI 模型能力评测",
