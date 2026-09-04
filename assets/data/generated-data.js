@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-04",
-  "generatedAt": "2026-09-04T13:08:49.759440Z",
+  "generatedAt": "2026-09-04T15:44:33.518302Z",
   "news": [
     {
       "title": "Transfer learning for genomic prediction in underrepresented populations",
@@ -5489,30 +5489,30 @@ window.AI_GENERATED_DATA = {
       "date": "2026-08-05"
     },
     {
-      "name": "Hmbown/Codewhale",
-      "lang": "Rust",
-      "description": "Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome.",
-      "stars": "40914 stars",
+      "name": "microsoft/AI-For-Beginners",
+      "lang": "Jupyter Notebook",
+      "description": "12 Weeks, 24 Lessons, AI for All!",
+      "stars": "68062 stars",
       "why": "近期更新且具备 AI / LLM / Agent 相关主题，适合做项目介绍、教程或同类对比。",
-      "url": "https://github.com/Hmbown/Codewhale",
+      "url": "https://github.com/microsoft/AI-For-Beginners",
       "source": "GitHub Search · 2026-09-04",
       "category": "Coding Agent",
-      "details": "Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome.",
+      "details": "12 Weeks, 24 Lessons, AI for All!",
       "features": [],
       "useCases": [],
       "quickStart": []
     },
     {
-      "name": "QwenLM/Qwen-Drive-1.0",
+      "name": "stepfun-ai/SteptronOss",
       "lang": "Python",
-      "description": "An Initial Step towards a Vision-Language Foundation Model for Autonomous Driving",
-      "stars": "10 stars",
-      "why": "国产大模型厂商 通义千问 Qwen 的最新开源动态/模型发布，属一手信源。",
-      "url": "https://github.com/QwenLM/Qwen-Drive-1.0",
-      "source": "GitHub · 通义千问 Qwen",
+      "description": "A lightweight, AI-native training framework for large language models. Designed for fast iteration, reproducible experiments, and modular configuration across SFT, RLVR, and evaluation workflows.",
+      "stars": "586 stars",
+      "why": "国产大模型厂商 阶跃星辰 StepFun 的最新开源动态/模型发布，属一手信源。",
+      "url": "https://github.com/stepfun-ai/SteptronOss",
+      "source": "GitHub · 阶跃星辰 StepFun",
       "tier": "T1",
       "category": "Coding Agent",
-      "details": "An Initial Step towards a Vision-Language Foundation Model for Autonomous Driving",
+      "details": "A lightweight, AI-native training framework for large language models. Designed for fast iteration, reproducible experiments, and modular configuration across SFT, RLVR, and evaluation workflows.",
       "features": [],
       "useCases": [],
       "quickStart": []
@@ -6075,6 +6075,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "Google's Gemini Spark can now manage your Google Photos libr",
+        "provider": "TechCrunch",
+        "type": "AI 项目/工具",
+        "bestFor": "Google is integrating more of its services with AI, as the company announced that its personal agent, Gemini Spark, can now manage your Google Photos library. T",
+        "description": "Google is integrating more of its services with AI, as the company announced that its personal agent, Gemini Spark, can now manage your Google Photos library. That means you can as",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "TechCrunch",
+        "url": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/"
+      },
+      {
         "name": "SENTINEL-RL: Offloading Topological Reasoning from LLM Agent",
         "provider": "arXiv",
         "type": "AI 项目/工具",
@@ -6502,20 +6513,53 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2609.01360v1"
-      },
-      {
-        "name": "How AI-native companies turn workflows into operating capabi",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
-        "description": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · OpenAI Blog",
-        "url": "https://openai.com/index/ai-native-company-workflows"
       }
     ],
     "ai-models": [
+      {
+        "name": "VMware Cloud Foundation 9.1.1 Adds Shared AI Models, but Key",
+        "provider": "eWEEK",
+        "type": "AI 项目/工具",
+        "bestFor": "eWeek content and product recommendations are editorially independent. We may make money when you click on links to our partners. Learn More\n\nVMware's private A",
+        "description": "eWeek content and product recommendations are editorially independent. We may make money when you click on links to our partners. Learn More\n\nVMware's private AI stack is getting m",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "eWEEK",
+        "url": "https://www.eweek.com/news/vmware-vcf-shared-ai-models/"
+      },
+      {
+        "name": "Tech Advisor's Best of IFA 2026 Awards",
+        "provider": "Tech Advisor",
+        "type": "AI 项目/工具",
+        "bestFor": "Arriving neatly before Apple unveils the iPhone 18 series and likely the foldable iPhone Ultra next week, rival tech brands from around the world have gathered ",
+        "description": "Arriving neatly before Apple unveils the iPhone 18 series and likely the foldable iPhone Ultra next week, rival tech brands from around the world have gathered in Berlin to show of",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Tech Advisor",
+        "url": "https://www.techadvisor.com/article/3227215/best-of-ifa-2026-awards.html"
+      },
+      {
+        "name": "Happy Janmashtami 2026: 5 AI prompts to turn your kid's pics",
+        "provider": "mint",
+        "type": "AI 项目/工具",
+        "bestFor": "Happy Janmashtami 2026: Follow the social media trend and reimagine your child into adorable, divine little Krishna with the help of artificial intelligence too",
+        "description": "Happy Janmashtami 2026: Follow the social media trend and reimagine your child into adorable, divine little Krishna with the help of artificial intelligence tools like ChatGPT, Goo",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "mint",
+        "url": "https://www.livemint.com/technology/happy-janmashtami-2026-5-ai-prompts-to-turn-your-kids-pics-into-adorable-krishna-avatars-for-whatsapp-facebook-status-11788525495746.html"
+      },
+      {
+        "name": "AI Data Center Boom Pushes U.S. Power Equipment to the Break",
+        "provider": "RocketNews | Top News Stories From Around the Globe",
+        "type": "AI 项目/工具",
+        "bestFor": "The rapid expansion of artificial intelligence infrastructure is creating significant strain on electrical power supply systems across the United States. Major ",
+        "description": "The rapid expansion of artificial intelligence infrastructure is creating significant strain on electrical power supply systems across the United States. Major technology companies",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RocketNews | Top News Stories From Around the Globe",
+        "url": "https://rocketnews.com/2026/09/ai-data-center-boom-pushes-u-s-power-equipment-to-the-breaking-point/"
+      },
       {
         "name": "LG ELECTRONICS HIGHLIGHTS SEVEN HOME APPLIANCES AT IFA 2026",
         "provider": "CNHI News",
@@ -6911,50 +6955,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "WebProNews",
         "url": "https://www.webpronews.com/from-downing-street-to-anthropic-matt-cliffords-move-sparks-fresh-scrutiny-over-ai-influence/"
-      },
-      {
-        "name": "Proactive cyber defense for governments and enterprises",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.",
-        "description": "The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · Google AI Blog",
-        "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/"
-      },
-      {
-        "name": "Glean's AI assistant uses 70% fewer tokens than Anthropic's ",
-        "provider": "Crypto Briefing",
-        "type": "AI 项目/工具",
-        "bestFor": "Enterprise AI startup claims 81% cost savings per task and growing customer preference as the race to cut corporate AI bills heats up\n\nEnterprise AI spending is",
-        "description": "Enterprise AI startup claims 81% cost savings per task and growing customer preference as the race to cut corporate AI bills heats up\n\nEnterprise AI spending is becoming its own li",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Crypto Briefing",
-        "url": "https://cryptobriefing.com/glean-ai-assistant-70-percent-fewer-tokens-claude/"
-      },
-      {
-        "name": "Siri AI won't be your friend, and here's why that really mat",
-        "provider": "9to5Mac",
-        "type": "AI 项目/工具",
-        "bestFor": "Elon University has partnered with The Washington Post to conduct what turned out to be a worrying survey about Americans viewing AI chatbots as virtual friends",
-        "description": "Elon University has partnered with The Washington Post to conduct what turned out to be a worrying survey about Americans viewing AI chatbots as virtual friends or therapists.\n\nThe",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "9to5Mac",
-        "url": "https://9to5mac.com/2026/09/02/siri-ai-wont-be-your-friend-and-heres-why-that-really-matters/"
-      },
-      {
-        "name": "OpenMatter Network Expands Platform with New Capabilities fo",
-        "provider": "The Manila times",
-        "type": "AI 项目/工具",
-        "bestFor": "MELBOURNE, Fla., Sept. 02, 2026 (GLOBE NEWSWIRE) --\n\nLess than three months after its commercial launch, OpenMatter Network today announced a significant expans",
-        "description": "MELBOURNE, Fla., Sept. 02, 2026 (GLOBE NEWSWIRE) --\n\nLess than three months after its commercial launch, OpenMatter Network today announced a significant expansion of the platform ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Manila times",
-        "url": "https://www.manilatimes.net/2026/09/02/tmt-newswire/globenewswire/openmatter-network-expands-platform-with-new-capabilities-for-secure-ai-computing-and-data-collaboration/2417113"
       }
     ],
     "ai-business": [
@@ -10379,7 +10379,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-04",
-    "generatedAt": "2026-09-04T13:08:49.725183Z",
+    "generatedAt": "2026-09-04T15:44:33.495334Z",
     "total": 25,
     "sections": [
       {
