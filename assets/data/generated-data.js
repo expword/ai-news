@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-04",
-  "generatedAt": "2026-09-04T08:04:07.935816Z",
+  "generatedAt": "2026-09-04T10:35:28.396999Z",
   "news": [
     {
       "title": "Transfer learning for genomic prediction in underrepresented populations",
@@ -165,6 +165,115 @@ window.AI_GENERATED_DATA = {
       "moduleTargets": [
         "news",
         "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "FLY-EVAL++: An Evidence-Driven Evaluation Protocol for Safety-Constrained Flight Prediction with Large Language Models",
+      "summary": "Evaluating large language models (LLMs) in safety-critical, physics-governed environments requires more than accuracy-based metrics, because predictions that are numerically close ",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-09-03",
+      "publishedAt": "",
+      "collectedAt": "2026-09-04T17:20",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-03",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.04021v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "benchmarkDatasets"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Representational alignment yields generalizable safety in language models",
+      "summary": "Aligning large language models (LLMs) is essential for their safe deployment. Current alignment methods mainly optimize observable responses, yet models remain vulnerable when the ",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-09-03",
+      "publishedAt": "",
+      "collectedAt": "2026-09-04T17:20",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-03",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.04022v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "InSituMeasure: Probing Situated Measurement Grounding in Industrial Scenes with Multimodal Large Language Models",
+      "summary": "For trained operators, gauge reading requires little specialized knowledge, low cognitive effort, and high repeatability. Yet Multimodal Large Language Models (MLLMs) remain unreli",
+      "category": "ai-benchmark",
+      "source": "arXiv",
+      "date": "2026-09-03",
+      "publishedAt": "",
+      "collectedAt": "2026-09-04T17:20",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-03",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.04014v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Unlocking Lossless Speedups in LLMs via Discrete Diffusion",
+      "summary": "Large Language Models (LLMs) owe much of their success to next-token prediction (NTP), but their autoregressive (AR) structure requires slow, sequential token generation. To overco",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-09-03",
+      "publishedAt": "",
+      "collectedAt": "2026-09-04T17:20",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-03",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.04010v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
       ],
       "sourceCount": 1
     },
@@ -5633,6 +5742,17 @@ window.AI_GENERATED_DATA = {
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Claude Code Error Deletes 15% Of Bengaluru Heritage Records ",
+        "provider": "Oneindia",
+        "type": "AI 项目/工具",
+        "bestFor": "Years of work documenting Bengaluru's history will have to be done all over again after an AI coding tool accidentally deleted around 15 per cent of the records",
+        "description": "Years of work documenting Bengaluru's history will have to be done all over again after an AI coding tool accidentally deleted around 15 per cent of the records collected by a heri",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Oneindia",
+        "url": "https://www.oneindia.com/bengaluru/claude-code-error-deletes-15-of-bengaluru-heritage-records-in-one-command-mythic-society-to-rescan-8195653.html"
+      },
+      {
         "name": "Artificial Analysis 评测 GPT-6 Astra：编码智能体追平 Fable 5 但价格涨至 2.5",
         "provider": "X：Artificial Analysis (@ArtificialAnlys)",
         "type": "AI 项目/工具",
@@ -6060,17 +6180,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2608.26049v1"
-      },
-      {
-        "name": "A Self-Evolving Multi-Agent Framework Defense against LLM Ja",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Large language models (LLMs) remain vulnerable to jailbreak attacks that exploit techniques such as role-playing, obfuscation, code transformation, and multi-st",
-        "description": "Large language models (LLMs) remain vulnerable to jailbreak attacks that exploit techniques such as role-playing, obfuscation, code transformation, and multi-step indirection to el",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2608.26008v1"
       }
     ],
     "ai-agents": [
@@ -6517,6 +6626,72 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-models": [
       {
+        "name": "What Claude can do: A complete overview of one of the most p",
+        "provider": "NEWS.am TECH - Innovations and science",
+        "type": "AI 项目/工具",
+        "bestFor": "Claude is a neural network and chat assistant developed by Anthropic. Users can interact with it in natural language -- asking questions, requesting explanation",
+        "description": "Claude is a neural network and chat assistant developed by Anthropic. Users can interact with it in natural language -- asking questions, requesting explanations of complex topics,",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NEWS.am TECH - Innovations and science",
+        "url": "https://tech.news.am/eng/news/7674/what-claude-can-do-a-complete-overview-of-one-of-the-most-popular-ai-assistants.html"
+      },
+      {
+        "name": "Major U.S. AI platforms hit by near-simultaneous outages",
+        "provider": "english.news.cn",
+        "type": "AI 项目/工具",
+        "bestFor": "SAN FRANCISCO, Sept. 3 (Xinhua) -- ChatGPT, Claude and Grok were among several major U.S. artificial intelligence (AI) services hit by near-simultaneous outages",
+        "description": "SAN FRANCISCO, Sept. 3 (Xinhua) -- ChatGPT, Claude and Grok were among several major U.S. artificial intelligence (AI) services hit by near-simultaneous outages on Thursday, disrup",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "english.news.cn",
+        "url": "https://english.news.cn/northamerica/20260904/7f7cec53fd17466492c7a7727ce87994/c.html"
+      },
+      {
+        "name": "Major US AI platforms hit by near-simultaneous outages",
+        "provider": "chinadailyhk",
+        "type": "AI 项目/工具",
+        "bestFor": "ChatGPT, Claude and Grok were among several major US artificial intelligence services hit by near-simultaneous outages on Thursday, disrupting access for some u",
+        "description": "ChatGPT, Claude and Grok were among several major US artificial intelligence services hit by near-simultaneous outages on Thursday, disrupting access for some users before affected",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "chinadailyhk",
+        "url": "https://www.chinadailyhk.com/hk/article/639037"
+      },
+      {
+        "name": "mock.shop: Sample Stores for Building With AI (2026) - Shopi",
+        "provider": "Shopify",
+        "type": "AI 项目/工具",
+        "bestFor": "mock.shop is a free set of more than 100 sample online stores that developers and AI assistants can use to build a storefront before a real store exists.\n\nEach ",
+        "description": "mock.shop is a free set of more than 100 sample online stores that developers and AI assistants can use to build a storefront before a real store exists.\n\nEach store's API responds",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Shopify",
+        "url": "https://www.shopify.com/blog/mock-shop"
+      },
+      {
+        "name": "Major US AI platforms hit by near-simultaneous outages",
+        "provider": "China Daily Asia",
+        "type": "AI 项目/工具",
+        "bestFor": "ChatGPT, Claude and Grok were among several major US artificial intelligence services hit by near-simultaneous outages on Thursday, disrupting access for some u",
+        "description": "ChatGPT, Claude and Grok were among several major US artificial intelligence services hit by near-simultaneous outages on Thursday, disrupting access for some users before affected",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "China Daily Asia",
+        "url": "https://www.chinadailyasia.com/hk/article/639037"
+      },
+      {
+        "name": "Major U.S. AI platforms hit by near-simultaneous outages",
+        "provider": "Capital FM Kenya",
+        "type": "AI 项目/工具",
+        "bestFor": "SAN FRANCISCO, Sept. 3 (Xinhua) -- ChatGPT, Claude and Grok were among several major U.S. artificial intelligence (AI) services hit by near-simultaneous outages",
+        "description": "SAN FRANCISCO, Sept. 3 (Xinhua) -- ChatGPT, Claude and Grok were among several major U.S. artificial intelligence (AI) services hit by near-simultaneous outages on Thursday, disrup",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Capital FM Kenya",
+        "url": "https://capitalfm.africa/major-u-s-ai-platforms-hit-by-near-simultaneous-outages/"
+      },
+      {
         "name": "Grok, Gemini & ChatGPT Went Down At The Same Time; SpaceX Ap",
         "provider": "Mashable India",
         "type": "AI 项目/工具",
@@ -6889,72 +7064,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "PYMNTS.com",
         "url": "https://www.pymnts.com/apple/2026/apples-new-ceo-hypes-product-launch-in-first-employee-address/"
-      },
-      {
-        "name": "The Pentagon Is Giving 3 Million Workers ChatGPT and Grok to",
-        "provider": "Wonderful Engineering",
-        "type": "AI 项目/工具",
-        "bestFor": "The Pentagon is expanding its use of artificial intelligence by giving its workforce access to specialized versions of ChatGPT and Grok through a secure platfor",
-        "description": "The Pentagon is expanding its use of artificial intelligence by giving its workforce access to specialized versions of ChatGPT and Grok through a secure platform designed to suppor",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Wonderful Engineering",
-        "url": "https://wonderfulengineering.com/the-pentagon-is-giving-3-million-workers-chatgpt-and-grok-to-transform-how-the-military-operates/"
-      },
-      {
-        "name": "Uzbekistan Reforms Customs Administration System Through 203",
-        "provider": "UzDaily.uz",
-        "type": "AI 项目/工具",
-        "bestFor": "Tashkent, Uzbekistan (UzDaily.uz) -- President of Uzbekistan Shavkat Mirziyoyev signed a decree on 27 August 2026 to reform state customs services and implement",
-        "description": "Tashkent, Uzbekistan (UzDaily.uz) -- President of Uzbekistan Shavkat Mirziyoyev signed a decree on 27 August 2026 to reform state customs services and implement modern approaches t",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "UzDaily.uz",
-        "url": "https://www.uzdaily.uz/en/uzbekistan-reforms-customs-administration-system-through-2030/"
-      },
-      {
-        "name": "US wants access to all AI models; Philippines uses AI agains",
-        "provider": "CoinGeek",
-        "type": "AI 项目/工具",
-        "bestFor": "Governments, regulators, and security agencies around the globe are increasingly looking to artificial intelligence (AI) with a mixture of optimism and apprehen",
-        "description": "Governments, regulators, and security agencies around the globe are increasingly looking to artificial intelligence (AI) with a mixture of optimism and apprehension, regarding both",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "CoinGeek",
-        "url": "https://coingeek.com/us-wants-access-to-all-ai-models-philippines-uses-ai-against-crime/"
-      },
-      {
-        "name": "UC Berkeley 团队发布 Vero 基准：测试 AI 智能体能否构建形式化验证的软件仓库",
-        "provider": "Berkeley RDI：Blog（AI 安全与评测）",
-        "type": "AI 项目/工具",
-        "bestFor": "UC Berkeley 等机构发布 Vero，据称是首个要求智能体在仓库级同时编写实现与证明的基准，含 43 个多模块 Lean 4 实例、743 个计分 API 和 2705 条形式化规范。",
-        "description": "UC Berkeley 等机构发布 Vero，据称是首个要求智能体在仓库级同时编写实现与证明的基准，含 43 个多模块 Lean 4 实例、743 个计分 API 和 2705 条形式化规范。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Berkeley RDI：Blog（AI 安全与评测）",
-        "url": "https://rdi.berkeley.edu/blog/vero"
-      },
-      {
-        "name": "Memphis City Council continues debate over data center morat",
-        "provider": "Yahoo",
-        "type": "AI 项目/工具",
-        "bestFor": "Add Yahoo as a preferred source to see more of our stories on Google.\n\nA temporary 12-month data center moratorium in Memphis could be put on hold after Memphis",
-        "description": "Add Yahoo as a preferred source to see more of our stories on Google.\n\nA temporary 12-month data center moratorium in Memphis could be put on hold after Memphis City Council approv",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Yahoo",
-        "url": "https://www.yahoo.com/news/politics/articles/memphis-city-council-continues-debate-003511620.html"
-      },
-      {
-        "name": "Fervo Energy (FRVO) Bags New Power Deal, Soars 28%; Hedge Fu",
-        "provider": "Yahoo! Finance",
-        "type": "AI 项目/工具",
-        "bestFor": "Fervo Energy (NASDAQ:FRVO) soared by 28.41 percent on Tuesday to close at $19.75 apiece after bagging home a new power purchase agreement (PPA) with Google to s",
-        "description": "Fervo Energy (NASDAQ:FRVO) soared by 28.41 percent on Tuesday to close at $19.75 apiece after bagging home a new power purchase agreement (PPA) with Google to support the developme",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Yahoo! Finance",
-        "url": "https://finance.yahoo.com/energy/articles/fervo-energy-frvo-bags-power-004015387.html"
       }
     ],
     "ai-business": [
@@ -10379,8 +10488,8 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-04",
-    "generatedAt": "2026-09-04T08:04:07.913816Z",
-    "total": 24,
+    "generatedAt": "2026-09-04T10:35:28.372999Z",
+    "total": 25,
     "sections": [
       {
         "category": "ai-coding",
@@ -10548,6 +10657,39 @@ window.AI_GENERATED_DATA = {
             "reason": ""
           },
           {
+            "title": "FLY-EVAL++: An Evidence-Driven Evaluation Protocol for Safety-Constrained Flight Prediction with Large Language Models",
+            "summary": "Evaluating large language models (LLMs) in safety-critical, physics-governed environments requires more than accuracy-based metrics, because",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.04021v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-03",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Representational alignment yields generalizable safety in language models",
+            "summary": "Aligning large language models (LLMs) is essential for their safe deployment. Current alignment methods mainly optimize observable responses",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.04022v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-03",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Unlocking Lossless Speedups in LLMs via Discrete Diffusion",
+            "summary": "Large Language Models (LLMs) owe much of their success to next-token prediction (NTP), but their autoregressive (AR) structure requires slow",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.04010v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-03",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
             "title": "Rethinking On-Policy Distillation of Large Language Models II: One Training Example",
             "summary": "On-policy distillation (OPD) combines student-generated rollouts with dense token-level supervision from a teacher. Existing work has mainly",
             "source": "arXiv",
@@ -10612,38 +10754,22 @@ window.AI_GENERATED_DATA = {
             "date": "2026-09-03",
             "publishedAt": "2026-09-03T08:00",
             "reason": ""
-          },
+          }
+        ]
+      },
+      {
+        "category": "ai-benchmark",
+        "label": "评测榜单",
+        "items": [
           {
-            "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
-            "summary": "",
-            "source": "RSS · Hugging Face Blog",
-            "url": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
+            "title": "InSituMeasure: Probing Situated Measurement Grounding in Industrial Scenes with Multimodal Large Language Models",
+            "summary": "For trained operators, gauge reading requires little specialized knowledge, low cognitive effort, and high repeatability. Yet Multimodal Lar",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.04014v1",
             "score": 70,
             "sourceCount": 1,
             "date": "2026-09-03",
-            "publishedAt": "2026-09-03T08:00",
-            "reason": ""
-          },
-          {
-            "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
-            "summary": "",
-            "source": "RSS · Google DeepMind",
-            "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-03",
-            "publishedAt": "2026-09-03T23:02",
-            "reason": ""
-          },
-          {
-            "title": "Google DeepMind 发布 Gemini 3.8 Flash 与 3.8 Flash Cyber 两款新模型",
-            "summary": "Google DeepMind 发布 Gemini 3.8 Flash 与 3.8 Flash Cyber。",
-            "source": "Google DeepMind：Blog（RSS）",
-            "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber",
-            "score": 70,
-            "sourceCount": 2,
-            "date": "2026-09-03",
-            "publishedAt": "2026-09-03T00:18",
+            "publishedAt": "",
             "reason": ""
           }
         ]
@@ -23200,6 +23326,18 @@ window.AI_GENERATED_DATA = {
     ]
   },
   "benchmarkDatasets": [
+    {
+      "name": "FLY-EVAL",
+      "area": "AI 模型能力评测",
+      "note": "Evaluating large language models (LLMs) in safety-critical, physics-governed environments requires more than accuracy-based metrics, because predictions that are numerically close ",
+      "source": "http://arxiv.org/abs/2609.04021v1",
+      "sourceName": "arXiv",
+      "date": "2026-09-03",
+      "originTitle": "FLY-EVAL++: An Evidence-Driven Evaluation Protocol for Safety-Constrained Flight Prediction with Large Language Models",
+      "evaluates": [],
+      "useCases": [],
+      "limitations": []
+    },
     {
       "name": "ExploitBench",
       "area": "AI 模型能力评测",
