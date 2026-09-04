@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-04",
-  "generatedAt": "2026-09-04T02:59:22.424908Z",
+  "generatedAt": "2026-09-04T05:29:16.859324Z",
   "news": [
     {
       "title": "Transfer learning for genomic prediction in underrepresented populations",
@@ -6076,6 +6076,61 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "Agentic commerce is moving from concept to reality",
+        "provider": "Inside Retail",
+        "type": "AI 项目/工具",
+        "bestFor": "Artificial intelligence is rapidly changing the way Australians shop, and retailers are moving quickly to keep pace. But as AI takes on a bigger role in the cus",
+        "description": "Artificial intelligence is rapidly changing the way Australians shop, and retailers are moving quickly to keep pace. But as AI takes on a bigger role in the customer journey, one c",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Inside Retail",
+        "url": "https://insideretail.com.au/digital/agentic-commerce-is-moving-from-concept-to-reality-202609"
+      },
+      {
+        "name": "Breakingviews - COMMENTARY: AI agent hack tests solvency mor",
+        "provider": "Reuters",
+        "type": "AI 项目/工具",
+        "bestFor": "LONDON, Sept 4 (Reuters Breakingviews) - A spectacular cybersecurity breach at OpenAI has prompted lurid predictions that that the machines are about to take ov",
+        "description": "LONDON, Sept 4 (Reuters Breakingviews) - A spectacular cybersecurity breach at OpenAI has prompted lurid predictions that that the machines are about to take over. The reality is m",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Reuters",
+        "url": "https://www.reuters.com/commentary/breakingviews/ai-agent-hack-tests-solvency-more-than-sentience-2026-09-04/"
+      },
+      {
+        "name": "Atlas Brings Owner-Cloning AI to Service Business Customer C",
+        "provider": "The Manila times",
+        "type": "AI 项目/工具",
+        "bestFor": "Atlas differentiates its AI agents by \"cloning\" the communication styles of business owners and top performers. Atlas Blue and Atlas Voice apply those proven ap",
+        "description": "Atlas differentiates its AI agents by \"cloning\" the communication styles of business owners and top performers. Atlas Blue and Atlas Voice apply those proven approaches to iMessage",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Manila times",
+        "url": "https://www.manilatimes.net/2026/09/04/tmt-newswire/plentisoft/atlas-brings-owner-cloning-ai-to-service-business-customer-communication/2418515"
+      },
+      {
+        "name": "OpenAI Launches GPT-6 Astra With Advanced AI Agent Capabilit",
+        "provider": "EconoTimes",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenAI unveiled GPT-6 Astra on Thursday, describing it as its most capable artificial intelligence model yet as the company confronts growing concerns over the ",
+        "description": "OpenAI unveiled GPT-6 Astra on Thursday, describing it as its most capable artificial intelligence model yet as the company confronts growing concerns over the safety and control o",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "EconoTimes",
+        "url": "https://econotimes.com/OpenAI-Launches-GPT-6-Astra-With-Advanced-AI-Agent-Capabilities-1751258"
+      },
+      {
+        "name": "Major AI platforms suffer outages",
+        "provider": "The Express Tribune",
+        "type": "AI 项目/工具",
+        "bestFor": "AI agents Claude, ChatGPT and xAI's Grok, along with Microsoft's email services, were gradually recovering after a technical issue disrupted access to Exchange ",
+        "description": "AI agents Claude, ChatGPT and xAI's Grok, along with Microsoft's email services, were gradually recovering after a technical issue disrupted access to Exchange Online and several o",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Express Tribune",
+        "url": "https://tribune.com.pk/story/2627361/major-ai-platforms-suffer-outages"
+      },
+      {
         "name": "OpenAI is spending $1 billion to fight hackers -- while deal",
         "provider": "Yahoo! Finance",
         "type": "AI 项目/工具",
@@ -6459,64 +6514,53 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · Google DeepMind",
         "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/"
-      },
-      {
-        "name": "Google DeepMind 为 Gemini 推出 agentic 视频理解功能",
-        "provider": "Google DeepMind：Blog（RSS）",
-        "type": "AI 项目/工具",
-        "bestFor": "Google DeepMind 为 Gemini 3.7 Flash、3.6 Flash 和 3.5 Flash-Lite 推出 agentic video understanding，模型动态扫描视频片段，相比固定帧率处理 token 消耗最多降低 88%，成本最多降低 66%，准确率最多提升 7%。",
-        "description": "Google DeepMind 为 Gemini 3.7 Flash、3.6 Flash 和 3.5 Flash-Lite 推出 agentic video understanding，模型动态扫描视频片段，相比固定帧率处理 token 消耗最多降低 88%，成本最多降低 66%，准确率最多提升 7%。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Google DeepMind：Blog（RSS）",
-        "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini"
-      },
-      {
-        "name": "From theory to delivery: How Atos upskilled 400 engineers in",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "When Atos set out to upskill 400 engineers in agentic AI, hands-on learning was the missing ingredient. Over three days, engineers built multi-agent systems on ",
-        "description": "When Atos set out to upskill 400 engineers in agentic AI, hands-on learning was the missing ingredient. Over three days, engineers built multi-agent systems on AWS through an AI Le",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/from-theory-to-delivery-how-atos-upskilled-400-engineers-in-agentic-ai/"
-      },
-      {
-        "name": "Securing Amazon Quick from POC to production: Agents, Flows,",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Amazon Quick proof-of-concept projects often stall when security teams review the production plan. This post walks through designing dashboards, Spaces, knowled",
-        "description": "Amazon Quick proof-of-concept projects often stall when security teams review the production plan. This post walks through designing dashboards, Spaces, knowledge bases, agents, an",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/securing-amazon-quick-from-poc-to-production-agents-flows-and-spaces/"
-      },
-      {
-        "name": "How t54 built a trust layer with Amazon Bedrock AgentCore pa",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "t54 built x402-secure, a trust layer on Amazon Bedrock AgentCore payments that scores every endpoint before an autonomous agent pays it. See how session budgets",
-        "description": "t54 built x402-secure, a trust layer on Amazon Bedrock AgentCore payments that scores every endpoint before an autonomous agent pays it. See how session budgets, credential isolati",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/how-t54-built-a-trust-layer-with-amazon-bedrock-agentcore-payments/"
-      },
-      {
-        "name": "How Boomi Scribe streamlines documentation using AWS",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Boomi Scribe is an AI-powered agent on AWS that automatically generates documentation for enterprise integration workflows. Learn how Boomi uses Amazon Bedrock,",
-        "description": "Boomi Scribe is an AI-powered agent on AWS that automatically generates documentation for enterprise integration workflows. Learn how Boomi uses Amazon Bedrock, Amazon SageMaker AI",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/how-boomi-scribe-streamlines-documentation-using-aws/"
       }
     ],
     "ai-models": [
+      {
+        "name": "Major U.S. AI platforms hit by near-simultaneous outages",
+        "provider": "english.news.cn",
+        "type": "AI 项目/工具",
+        "bestFor": "SAN FRANCISCO, Sept. 3 (Xinhua) -- ChatGPT, Claude and Grok were among several major U.S. artificial intelligence (AI) services hit by near-simultaneous outages",
+        "description": "SAN FRANCISCO, Sept. 3 (Xinhua) -- ChatGPT, Claude and Grok were among several major U.S. artificial intelligence (AI) services hit by near-simultaneous outages on Thursday, disrup",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "english.news.cn",
+        "url": "http://english.news.cn/20260904/40a6feb711b84052a6baad6f3f8cf959/c.html"
+      },
+      {
+        "name": "Major U.S. AI platforms hit by near-simultaneous outages",
+        "provider": "english.news.cn",
+        "type": "AI 项目/工具",
+        "bestFor": "SAN FRANCISCO, Sept. 3 (Xinhua) -- ChatGPT, Claude and Grok were among several major U.S. artificial intelligence (AI) services hit by near-simultaneous outages",
+        "description": "SAN FRANCISCO, Sept. 3 (Xinhua) -- ChatGPT, Claude and Grok were among several major U.S. artificial intelligence (AI) services hit by near-simultaneous outages on Thursday, disrup",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "english.news.cn",
+        "url": "https://english.news.cn/20260904/40a6feb711b84052a6baad6f3f8cf959/c.html"
+      },
+      {
+        "name": "The Screw Counter Who Now Runs Apple: Is John Ternus Ready? ",
+        "provider": "Best Breaking News and Beyond",
+        "type": "AI 项目/工具",
+        "bestFor": "Tim Cook Is Gone. A Quiet Engineer Who Once Argued Over 35 Grooves On A Screw Now Holds The World's Most Valuable Company In His Hands.\n\nOn September 1, 2026, A",
+        "description": "Tim Cook Is Gone. A Quiet Engineer Who Once Argued Over 35 Grooves On A Screw Now Holds The World's Most Valuable Company In His Hands.\n\nOn September 1, 2026, Apple did something i",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Best Breaking News and Beyond: Singapore, Batam and some say JB",
+        "url": "https://batamnewsasia.com/2026/09/04/the-screw-counter-who-now-runs-apple-is-john-ternus-ready/"
+      },
+      {
+        "name": "AI, the crisis of capitalism and the tasks of the SEP",
+        "provider": "World Socialist",
+        "type": "AI 项目/工具",
+        "bestFor": "Report to the Ninth Congress of the Socialist Equality Party\n\nWe are publishing here the report to the Ninth Congress of the Socialist Equality Party (US) given",
+        "description": "Report to the Ninth Congress of the Socialist Equality Party\n\nWe are publishing here the report to the Ninth Congress of the Socialist Equality Party (US) given by Evan Blake. The ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "World Socialist",
+        "url": "https://www.wsws.org/en/articles/2026/09/04/nvmr-s04.html"
+      },
       {
         "name": "OpenAI 发布 GPT-6 Astra，主打电脑操作并触发网络安全 Critical 红线",
         "provider": "X：小北 (@frxiaobei)",
@@ -6912,53 +6956,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Claude Platform：开发者版本说明（RSS）",
         "url": "https://platform.claude.com/docs/en/release-notes/overview#september-1-2026"
-      },
-      {
-        "name": "Google Workspace 推出图像创作编辑工具 Google Pics",
-        "provider": "Google Blog：AI（RSS）",
-        "type": "AI 项目/工具",
-        "bestFor": "Google 发布 Workspace 图像创作与编辑工具 Google Pics，将在未来数周内面向所有 Google AI Pro 和 Ultra 订阅者及多数 Workspace 商业客户推出。",
-        "description": "Google 发布 Workspace 图像创作与编辑工具 Google Pics，将在未来数周内面向所有 Google AI Pro 和 Ultra 订阅者及多数 Workspace 商业客户推出。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Google Blog：AI（RSS）",
-        "url": "https://blog.google/products-and-platforms/products/workspace/google-pics"
-      },
-      {
-        "name": "How ZS democratized secure ad-hoc analytics with Amazon Sage",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Learn how ZS built a security-hardened Amazon SageMaker platform that balances developer agility with healthcare-grade governance, serving 1,000+ daily active u",
-        "description": "Learn how ZS built a security-hardened Amazon SageMaker platform that balances developer agility with healthcare-grade governance, serving 1,000+ daily active users across 200+ Sag",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/how-zs-democratized-secure-ad-hoc-analytics-with-amazon-sagemaker/"
-      },
-      {
-        "name": "US Military Rolls Out Custom Versions of ChatGPT and Grok fo",
-        "provider": "Gizmodo",
-        "type": "AI 项目/工具",
-        "bestFor": "The U.S. military continues to go all in on AI.\n\nThe Department of Defense (DoD) announced Monday that it launched custom versions of Grok and ChatGPT on its se",
-        "description": "The U.S. military continues to go all in on AI.\n\nThe Department of Defense (DoD) announced Monday that it launched custom versions of Grok and ChatGPT on its secure AI platform, Ge",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Gizmodo",
-        "url": "https://gizmodo.com/us-military-rolls-out-custom-versions-of-chatgpt-and-grok-for-warfighters-2000805580"
-      },
-      {
-        "name": "OpenAI to Apple: This dispute is a mess of your own making, ",
-        "provider": "The Times of India",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenAI has strongly rejected accusations made by Apple on trade secret misappropriation, telling a federal judge that the iPhone maker has failed to show that a",
-        "description": "OpenAI has strongly rejected accusations made by Apple on trade secret misappropriation, telling a federal judge that the iPhone maker has failed to show that any proprietary asset",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Times of India",
-        "url": "https://timesofindia.indiatimes.com/technology/tech-news/openai-to-apple-this-dispute-is-a-mess-of-your-own-making-and-you-are-blaming-everyone/articleshow/133681835.cms"
       }
     ],
     "ai-business": [
+      {
+        "name": "HTC brings its smart glasses to the US as privacy backlash g",
+        "provider": "The Star",
+        "type": "AI 项目/工具",
+        "bestFor": "HTC Corp is rolling out its Vive Eagle smart glasses in the US, entering a market where category leader Meta Platforms Inc is already facing mounting concerns f",
+        "description": "HTC Corp is rolling out its Vive Eagle smart glasses in the US, entering a market where category leader Meta Platforms Inc is already facing mounting concerns from consumers over c",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Star",
+        "url": "https://www.thestar.com.my/tech/tech-news/2026/09/04/htc-brings-its-smart-glasses-to-the-us-as-privacy-backlash-grows"
+      },
       {
         "name": "VC funding deals: Saviynt, Diffraqtion, Molten Salt Solution",
         "provider": "InfotechLead",
@@ -7387,17 +7398,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Tekedia",
         "url": "https://www.tekedia.com/nvidias-jensen-huang-enters-the-open-weight-ai-race/"
-      },
-      {
-        "name": "Asian stocks set to edge lower ahead of US Fed chair's polic",
-        "provider": "The Business Times",
-        "type": "AI 项目/工具",
-        "bestFor": "ASIAN STOCKS were set to open mildly lower on Friday (Aug 28) as investors braced for US Federal Reserve chair Kevin Warsh's speech in Jackson Hole, where some ",
-        "description": "ASIAN STOCKS were set to open mildly lower on Friday (Aug 28) as investors braced for US Federal Reserve chair Kevin Warsh's speech in Jackson Hole, where some expect a hawkish ton",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Business Times",
-        "url": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/asian-stocks-set-edge-lower-ahead-us-fed-chairs-policy-speech"
       }
     ],
     "ai-benchmark": [
@@ -10380,7 +10380,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-04",
-    "generatedAt": "2026-09-04T02:59:22.397910Z",
+    "generatedAt": "2026-09-04T05:29:16.835325Z",
     "total": 17,
     "sections": [
       {
