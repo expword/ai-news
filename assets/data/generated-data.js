@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-04",
-  "generatedAt": "2026-09-04T05:29:16.859324Z",
+  "generatedAt": "2026-09-04T08:04:07.935816Z",
   "news": [
     {
       "title": "Transfer learning for genomic prediction in underrepresented populations",
@@ -165,6 +165,196 @@ window.AI_GENERATED_DATA = {
       "moduleTargets": [
         "news",
         "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Rethinking On-Policy Distillation of Large Language Models II: One Training Example",
+      "summary": "On-policy distillation (OPD) combines student-generated rollouts with dense token-level supervision from a teacher. Existing work has mainly studied its algorithmic behavior, leavi",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-09-03",
+      "publishedAt": "",
+      "collectedAt": "2026-09-04T14:45",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-03",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.04172v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "When Models Edit Too Much: On the Fidelity of Minimal Code Edits",
+      "summary": "Large language models (LLMs) are increasingly used to edit existing code, but correctness alone is not enough: useful repairs should also be minimal, reviewable, and faithful to th",
+      "category": "ai-coding",
+      "source": "arXiv",
+      "date": "2026-09-03",
+      "publishedAt": "",
+      "collectedAt": "2026-09-04T14:45",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-03",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.04061v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Knowledge Acquisition During Pre-training? Large Language Models Learn Better With Auxiliary Views",
+      "summary": "Gaps remain in our understanding of how large language models (LLMs) acquire knowledge during pre-training. We posit that auxiliary views, reformulations of knowledge, are causally",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-09-03",
+      "publishedAt": "",
+      "collectedAt": "2026-09-04T14:45",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-03",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.04180v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "SENTINEL-RL: Offloading Topological Reasoning from LLM Agents in the Security Operations Center",
+      "summary": "Large language model (LLM) agents are increasingly proposed as autonomous SOC analysts, but two limitations make them unreliable at enterprise scale: a finite context window cannot",
+      "category": "ai-agents",
+      "source": "arXiv",
+      "date": "2026-09-03",
+      "publishedAt": "",
+      "collectedAt": "2026-09-04T14:45",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-03",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.04159v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Epistemic Warrant for LLM Recommendations: Characterizing the Basis for Reliance When Ground Truth Is Unavailable",
+      "summary": "Large language models are increasingly used to support organizational decisions, yet users often lack a principled basis for assessing whether to rely on a specific recommendation.",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-09-03",
+      "publishedAt": "",
+      "collectedAt": "2026-09-04T14:45",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-03",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.04127v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "LabelMate: An LLM-Driven Framework for Refined Issue Report Labeling",
+      "summary": "Software users often submit issue reports to a product's issue tracking system to report defects, suggest enhancements, or raise other product-related concerns. Labeling these issu",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-09-03",
+      "publishedAt": "",
+      "collectedAt": "2026-09-04T14:45",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-03",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.04055v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "The Dice Roll Method: A Standardized Protocol for Repeated-Query Auditing of Large Language Model Brand Recommendations",
+      "summary": "Background: Researchers increasingly use repeated identical prompts to audit stochastic variation in large language model (LLM) brand recommendations, yet no standardized protocol ",
+      "category": "ai-research",
+      "source": "arXiv",
+      "date": "2026-09-03",
+      "publishedAt": "",
+      "collectedAt": "2026-09-04T14:45",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-03",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.04047v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
       ],
       "sourceCount": 1
     },
@@ -1103,9 +1293,9 @@ window.AI_GENERATED_DATA = {
       "sourceCount": 2,
       "relatedSources": [
         {
-          "source": "Google DeepMind：Blog（RSS）",
-          "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini",
-          "title": "Google DeepMind 为 Gemini 推出 agentic 视频理解功能"
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2609.04131v1",
+          "title": "Beyond Retrieval: Progressive Latent Memory Evolution for Streaming Video Understanding"
         }
       ]
     },
@@ -2318,197 +2508,6 @@ window.AI_GENERATED_DATA = {
       "sourceDate": "2026-08-31",
       "tags": [],
       "url": "http://arxiv.org/abs/2608.30963v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Wrong Prediction, Right Answer: Recovering Evidence from Collapsed LLM Sequence Scores",
-      "summary": "When a large language model fails a reasoning task, it is often assumed to lack the underlying capability. However, this conflates a genuine absence of reasoning with a late-stage ",
-      "category": "ai-coding",
-      "source": "arXiv",
-      "date": "2026-08-31",
-      "publishedAt": "",
-      "collectedAt": "2026-09-01T14:34",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-31",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.31068v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Beacon: LLM Multi-Agent Driven Hardware Design Space Exploration for Heterogeneous Multi-Chiplet Deep Learning Accelerators",
-      "summary": "Heterogeneous multi-chiplet accelerators allow chiplets to be configured independently to better match different operator characteristics and improve inference efficiency. However,",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-08-31",
-      "publishedAt": "",
-      "collectedAt": "2026-09-01T14:34",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-31",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.30932v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "OntoAligner-Ensemble: Voting-Based Fusion across Heterogeneous Ontology Alignment Techniques",
-      "summary": "Ontology alignment (OA) has evolved through several methodological paradigms, ranging from lexical and structural aligners to knowledge graph embedding (KGE) models and, more recen",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-08-31",
-      "publishedAt": "",
-      "collectedAt": "2026-09-01T13:16",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-31",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.31137v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Agentic research is oxymoronic",
-      "summary": "The use of agentic large language models obviates human interpretation of scientific results, and will lead to substantial distrust in the literature.",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-08-31",
-      "publishedAt": "",
-      "collectedAt": "2026-09-01T13:16",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-31",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.31161v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "MURANO: Design, Run, and Reproduce Mechanistic Interpretability Experiments as Composable Pipelines",
-      "summary": "This paper presents Murano, an open source framework for designing, running, and reproducing mechanistic interpretability studies of large language models, intended for researchers",
-      "category": "ai-research",
-      "source": "arXiv",
-      "date": "2026-08-31",
-      "publishedAt": "",
-      "collectedAt": "2026-09-01T10:45",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-31",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.30662v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Polimill builds Japan's next-generation public AI infrastructure",
-      "summary": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
-      "category": "ai-coding",
-      "source": "RSS · OpenAI Blog",
-      "date": "2026-08-31",
-      "publishedAt": "2026-08-31T15:00",
-      "collectedAt": "2026-09-01T08:13",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://openai.com/index/polimill",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Aug 31, 2026 Improving our alignment and security efforts",
-      "summary": "Aug 31, 2026 Improving our alignment and security efforts",
-      "category": "ai-models",
-      "source": "HTML · Anthropic",
-      "date": "2026-08-31",
-      "publishedAt": "",
-      "collectedAt": "2026-09-01T07:00",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-31",
-      "tags": [],
-      "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -6076,6 +6075,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "SENTINEL-RL: Offloading Topological Reasoning from LLM Agent",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Large language model (LLM) agents are increasingly proposed as autonomous SOC analysts, but two limitations make them unreliable at enterprise scale: a finite c",
+        "description": "Large language model (LLM) agents are increasingly proposed as autonomous SOC analysts, but two limitations make them unreliable at enterprise scale: a finite context window cannot",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2609.04159v1"
+      },
+      {
         "name": "Agentic commerce is moving from concept to reality",
         "provider": "Inside Retail",
         "type": "AI 项目/工具",
@@ -6503,20 +6513,31 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · OpenAI Blog",
         "url": "https://openai.com/index/ai-native-company-workflows"
-      },
-      {
-        "name": "Introducing agentic video understanding with Gemini",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "",
-        "description": "",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · Google DeepMind",
-        "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/"
       }
     ],
     "ai-models": [
+      {
+        "name": "Grok, Gemini & ChatGPT Went Down At The Same Time; SpaceX Ap",
+        "provider": "Mashable India",
+        "type": "AI 项目/工具",
+        "bestFor": "Musk promised on X/Twitter that this won't happen ever again; however, the exact reason for the simultaneous outage of the AI services is still unclear.\n\nUsers ",
+        "description": "Musk promised on X/Twitter that this won't happen ever again; however, the exact reason for the simultaneous outage of the AI services is still unclear.\n\nUsers across the globe wer",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Mashable India",
+        "url": "https://in.mashable.com/tech/113578/grok-gemini-chatgpt-went-down-at-the-same-time-spacex-apologizes-for-outage"
+      },
+      {
+        "name": "This One-of-a-Kind Rugged Phone Has a Detachable Action Came",
+        "provider": "PetaPixel",
+        "type": "AI 项目/工具",
+        "bestFor": "RugOne unveiled its new modular action camera-slash-phone, the Xsnap 7 Pro, at IFA 2026 in Berlin.\n\nThe Xsnap 7 Pro is RugOne's third major product line and the",
+        "description": "RugOne unveiled its new modular action camera-slash-phone, the Xsnap 7 Pro, at IFA 2026 in Berlin.\n\nThe Xsnap 7 Pro is RugOne's third major product line and the world's first modul",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "PetaPixel",
+        "url": "https://petapixel.com/2026/09/04/this-one-of-a-kind-rugged-phone-has-a-detachable-action-camera/"
+      },
       {
         "name": "Major U.S. AI platforms hit by near-simultaneous outages",
         "provider": "english.news.cn",
@@ -6934,28 +6955,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Yahoo! Finance",
         "url": "https://finance.yahoo.com/energy/articles/fervo-energy-frvo-bags-power-004015387.html"
-      },
-      {
-        "name": "Introducing Claude Fable 5.1 on AWS",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Claude Fable 5.1 is now available on Amazon Bedrock and Claude Platform on AWS. This post covers Claude Fable 5.1's improvements, the Enterprise Frontier Safegu",
-        "description": "Claude Fable 5.1 is now available on Amazon Bedrock and Claude Platform on AWS. This post covers Claude Fable 5.1's improvements, the Enterprise Frontier Safeguards for keeping you",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-fable-5-1-on-aws/"
-      },
-      {
-        "name": "Anthropic 发布 Claude Fable 5.1 与 Claude Mythos 5.1",
-        "provider": "Claude Platform：开发者版本说明（RSS）",
-        "type": "AI 项目/工具",
-        "bestFor": "Anthropic 发布 Claude Fable 5.1（claude-fable-5-1），面向长时间运行的智能体编码、知识工作与研究，Claude Mythos 5.1 面向 Project Glasswing 参与者。",
-        "description": "Anthropic 发布 Claude Fable 5.1（claude-fable-5-1），面向长时间运行的智能体编码、知识工作与研究，Claude Mythos 5.1 面向 Project Glasswing 参与者。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Claude Platform：开发者版本说明（RSS）",
-        "url": "https://platform.claude.com/docs/en/release-notes/overview#september-1-2026"
       }
     ],
     "ai-business": [
@@ -10380,8 +10379,8 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-04",
-    "generatedAt": "2026-09-04T05:29:16.835325Z",
-    "total": 17,
+    "generatedAt": "2026-09-04T08:04:07.913816Z",
+    "total": 24,
     "sections": [
       {
         "category": "ai-coding",
@@ -10396,6 +10395,17 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-09-04",
             "publishedAt": "2026-09-04T00:16",
+            "reason": ""
+          },
+          {
+            "title": "When Models Edit Too Much: On the Fidelity of Minimal Code Edits",
+            "summary": "Large language models (LLMs) are increasingly used to edit existing code, but correctness alone is not enough: useful repairs should also be",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.04061v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-03",
+            "publishedAt": "",
             "reason": ""
           },
           {
@@ -10477,6 +10487,17 @@ window.AI_GENERATED_DATA = {
             "reason": ""
           },
           {
+            "title": "SENTINEL-RL: Offloading Topological Reasoning from LLM Agents in the Security Operations Center",
+            "summary": "Large language model (LLM) agents are increasingly proposed as autonomous SOC analysts, but two limitations make them unreliable at enterpri",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.04159v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-03",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
             "title": "Trinity: Agentic AI-powered transition planning for students with disabilities",
             "summary": "Learn how University Startups and its AWS partner g/d/n/a scaled Trinity, a conversational AI solution for students with disabilities, into ",
             "source": "RSS · AWS Machine Learning",
@@ -10524,6 +10545,50 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-09-04",
             "publishedAt": "2026-09-04T00:01",
+            "reason": ""
+          },
+          {
+            "title": "Rethinking On-Policy Distillation of Large Language Models II: One Training Example",
+            "summary": "On-policy distillation (OPD) combines student-generated rollouts with dense token-level supervision from a teacher. Existing work has mainly",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.04172v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-03",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Knowledge Acquisition During Pre-training? Large Language Models Learn Better With Auxiliary Views",
+            "summary": "Gaps remain in our understanding of how large language models (LLMs) acquire knowledge during pre-training. We posit that auxiliary views, r",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.04180v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-03",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Epistemic Warrant for LLM Recommendations: Characterizing the Basis for Reliance When Ground Truth Is Unavailable",
+            "summary": "Large language models are increasingly used to support organizational decisions, yet users often lack a principled basis for assessing wheth",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.04127v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-03",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "LabelMate: An LLM-Driven Framework for Refined Issue Report Labeling",
+            "summary": "Software users often submit issue reports to a product's issue tracking system to report defects, suggest enhancements, or raise other produ",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.04055v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-03",
+            "publishedAt": "",
             "reason": ""
           },
           {
@@ -10579,6 +10644,23 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 2,
             "date": "2026-09-03",
             "publishedAt": "2026-09-03T00:18",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "category": "ai-research",
+        "label": "论文研究",
+        "items": [
+          {
+            "title": "The Dice Roll Method: A Standardized Protocol for Repeated-Query Auditing of Large Language Model Brand Recommendations",
+            "summary": "Background: Researchers increasingly use repeated identical prompts to audit stochastic variation in large language model (LLM) brand recomm",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.04047v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-03",
+            "publishedAt": "",
             "reason": ""
           }
         ]
