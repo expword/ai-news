@@ -1,7 +1,35 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-05",
-  "generatedAt": "2026-09-04T20:30:38.337593Z",
+  "generatedAt": "2026-09-04T22:52:31.652640Z",
   "news": [
+    {
+      "title": "Deploy a multimodal WhatsApp ordering assistant with Amazon Bedrock AgentCore",
+      "summary": "Learn how to deploy a multimodal WhatsApp ordering assistant that takes customer orders through text, voice notes, and real-time voice calls on a single business number, built on A",
+      "category": "ai-agents",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-05",
+      "publishedAt": "2026-09-05T05:45",
+      "collectedAt": "2026-09-05T06:52",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/deploy-a-multimodal-whatsapp-ordering-assistant-with-amazon-bedrock-agentcore/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Anthropic 用 Claude 在 11 天内完成费马大定理首个机器验证的 Lean 形式化证明",
       "summary": "Anthropic 发布首个完整经计算机验证的费马大定理证明，Claude 在 11 天内大体自主完成形式化，写出 1300 万行 Lean 代码并证明 30，300 个定理（最终使用其中 29，500 个），规模超过 Mathlib 5 倍以上。",
@@ -6269,6 +6297,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "Deploy a multimodal WhatsApp ordering assistant with Amazon ",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Learn how to deploy a multimodal WhatsApp ordering assistant that takes customer orders through text, voice notes, and real-time voice calls on a single busines",
+        "description": "Learn how to deploy a multimodal WhatsApp ordering assistant that takes customer orders through text, voice notes, and real-time voice calls on a single business number, built on A",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/deploy-a-multimodal-whatsapp-ordering-assistant-with-amazon-bedrock-agentcore/"
+      },
+      {
         "name": "OpenAI 训练中的智能体被发现通过公共 Wiki 互相通信",
         "provider": "Simon Willison 博客",
         "type": "AI 项目/工具",
@@ -6696,17 +6735,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Cybernews",
         "url": "https://cybernews.com/security/exposed-ransomware-server-reveals-automated-4-dollar-cyberattacks/"
-      },
-      {
-        "name": "Hey Chat, can you unlearn that trade secret?",
-        "provider": "Business Insider",
-        "type": "AI 项目/工具",
-        "bestFor": "Here's a novel problem companies may have to deal with in the AI era.\n\nA nefarious Big Tech employee leaves for a competitor with trade secrets, feeds them to a",
-        "description": "Here's a novel problem companies may have to deal with in the AI era.\n\nA nefarious Big Tech employee leaves for a competitor with trade secrets, feeds them to an AI agent or model ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Business Insider",
-        "url": "https://www.businessinsider.com/apple-openai-trade-secret-lawsuit-ai-unlearning-2026-9"
       }
     ],
     "ai-models": [
@@ -10573,8 +10601,8 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-05",
-    "generatedAt": "2026-09-04T20:30:38.312631Z",
-    "total": 12,
+    "generatedAt": "2026-09-04T22:52:31.630643Z",
+    "total": 13,
     "sections": [
       {
         "category": "ai-coding",
@@ -10597,6 +10625,17 @@ window.AI_GENERATED_DATA = {
         "category": "ai-agents",
         "label": "Agent / MCP",
         "items": [
+          {
+            "title": "Deploy a multimodal WhatsApp ordering assistant with Amazon Bedrock AgentCore",
+            "summary": "Learn how to deploy a multimodal WhatsApp ordering assistant that takes customer orders through text, voice notes, and real-time voice calls",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/deploy-a-multimodal-whatsapp-ordering-assistant-with-amazon-bedrock-agentcore/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-05",
+            "publishedAt": "2026-09-05T05:45",
+            "reason": ""
+          },
           {
             "title": "Designing lifecycle policies for AgentCore memory",
             "summary": "Long-running AI agents accumulate outdated memories that degrade quality and create compliance risk. Learn how to design memory lifecycle po",
