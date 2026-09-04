@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-04",
-  "generatedAt": "2026-09-04T00:22:58.325579Z",
+  "generatedAt": "2026-09-04T02:59:22.424908Z",
   "news": [
     {
       "title": "Transfer learning for genomic prediction in underrepresented populations",
@@ -5490,6 +5490,20 @@ window.AI_GENERATED_DATA = {
       "date": "2026-08-05"
     },
     {
+      "name": "Hmbown/Codewhale",
+      "lang": "Rust",
+      "description": "Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome.",
+      "stars": "40914 stars",
+      "why": "近期更新且具备 AI / LLM / Agent 相关主题，适合做项目介绍、教程或同类对比。",
+      "url": "https://github.com/Hmbown/Codewhale",
+      "source": "GitHub Search · 2026-09-04",
+      "category": "Coding Agent",
+      "details": "Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome.",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
       "name": "QwenLM/Qwen-Drive-1.0",
       "lang": "Python",
       "description": "An Initial Step towards a Vision-Language Foundation Model for Autonomous Driving",
@@ -5500,21 +5514,6 @@ window.AI_GENERATED_DATA = {
       "tier": "T1",
       "category": "Coding Agent",
       "details": "An Initial Step towards a Vision-Language Foundation Model for Autonomous Driving",
-      "features": [],
-      "useCases": [],
-      "quickStart": []
-    },
-    {
-      "name": "zai-org/GLM-V",
-      "lang": "Python",
-      "description": "GLM-4.6V/4.5V/4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning",
-      "stars": "2379 stars",
-      "why": "国产大模型厂商 智谱 Z.ai 的最新开源动态/模型发布，属一手信源。",
-      "url": "https://github.com/zai-org/GLM-V",
-      "source": "GitHub · 智谱 Z.ai",
-      "tier": "T1",
-      "category": "Coding Agent",
-      "details": "GLM-4.6V/4.5V/4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning",
       "features": [],
       "useCases": [],
       "quickStart": []
@@ -6077,6 +6076,28 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "OpenAI is spending $1 billion to fight hackers -- while deal",
+        "provider": "Yahoo! Finance",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenAI is spending $1 billion to fight hackers -- while dealing with its own AI's bad behavior.The money will fund subsidized cybersecurity tools for U.S. utili",
+        "description": "OpenAI is spending $1 billion to fight hackers -- while dealing with its own AI's bad behavior.The money will fund subsidized cybersecurity tools for U.S. utilities, banks, and loc",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Yahoo! Finance",
+        "url": "https://ca.finance.yahoo.com/photos/openai-spending-1-billion-fight-001148274/"
+      },
+      {
+        "name": "AI agents are changing how businesses pay for software",
+        "provider": "Market Business News",
+        "type": "AI 项目/工具",
+        "bestFor": "Atlassian is expanding usage-based charges for artificial intelligence and automation, adding a new layer to the familiar software subscription. The move reflec",
+        "description": "Atlassian is expanding usage-based charges for artificial intelligence and automation, adding a new layer to the familiar software subscription. The move reflects a wider problem f",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Market Business News",
+        "url": "https://marketbusinessnews.com/ai-agents-are-changing-how-businesses-pay-for-software/451083/"
+      },
+      {
         "name": "OpenAI 发布 GPT-6 Astra，主打 Computer Use 与 Agent 对齐进展",
         "provider": "X：Mark Chen（OpenAI 首席研究官，@markchen90）",
         "type": "AI 项目/工具",
@@ -6493,31 +6514,31 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · AWS Machine Learning",
         "url": "https://aws.amazon.com/blogs/machine-learning/how-boomi-scribe-streamlines-documentation-using-aws/"
-      },
-      {
-        "name": "Manus Announces Return to Independent Operations",
-        "provider": "blockchain.news",
-        "type": "AI 项目/工具",
-        "bestFor": "Manus, the general-purpose AI agent known for its autonomous capabilities, announced on August 31, 2026, that it has resumed independent operations. The move co",
-        "description": "Manus, the general-purpose AI agent known for its autonomous capabilities, announced on August 31, 2026, that it has resumed independent operations. The move comes less than a year",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "blockchain.news",
-        "url": "https://blockchain.news/news/manus-resumes-independent-operations"
-      },
-      {
-        "name": "WeChat Pay expands AI AgentPay Card to DeepSeek Harness and ",
-        "provider": "TechNode",
-        "type": "AI 项目/工具",
-        "bestFor": "WeChat Pay's AI AgentPay Card now works with DeepSeek Harness and OpenClaw, adding two agent platforms to the payment service's supported ecosystem. After users",
-        "description": "WeChat Pay's AI AgentPay Card now works with DeepSeek Harness and OpenClaw, adding two agent platforms to the payment service's supported ecosystem. After users authorize the conne",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "TechNode",
-        "url": "https://technode.com/2026/09/01/wechat-pay-ai-agentpay-card-deepseek-openclaw/"
       }
     ],
     "ai-models": [
+      {
+        "name": "OpenAI 发布 GPT-6 Astra，主打电脑操作并触发网络安全 Critical 红线",
+        "provider": "X：小北 (@frxiaobei)",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenAI 于 9 月 3 日发布 GPT-6 Astra，API 模型名 gpt-6-astra，每百万输入 Token 10 美元、输出 50 美元，未来几天推送到 ChatGPT 各档订阅、API 和 AWS Bedrock。",
+        "description": "OpenAI 于 9 月 3 日发布 GPT-6 Astra，API 模型名 gpt-6-astra，每百万输入 Token 10 美元、输出 50 美元，未来几天推送到 ChatGPT 各档订阅、API 和 AWS Bedrock。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "X：小北 (@frxiaobei)",
+        "url": "https://x.com/frxiaobei/status/2095682473745363068"
+      },
+      {
+        "name": "OpenAI commits $1 billion to cyberdefense effort amid AI saf",
+        "provider": "The Star",
+        "type": "AI 项目/工具",
+        "bestFor": "Sept 3 (Reuters) - OpenAI said ⁠on Thursday it would commit $1 billion in subsidized access to ⁠its AI cybersecurity tools, training and technical support for o",
+        "description": "Sept 3 (Reuters) - OpenAI said ⁠on Thursday it would commit $1 billion in subsidized access to ⁠its AI cybersecurity tools, training and technical support for organizations that pr",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Star",
+        "url": "https://www.thestar.com.my/tech/tech-news/2026/09/04/openai-commits-1-billion-to-cyberdefense-effort-amid-ai-safety-scrutiny"
+      },
       {
         "name": "Meet the Seahawks' New Minority Owners",
         "provider": "Yahoo Sports",
@@ -6935,31 +6956,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "The Times of India",
         "url": "https://timesofindia.indiatimes.com/technology/tech-news/openai-to-apple-this-dispute-is-a-mess-of-your-own-making-and-you-are-blaming-everyone/articleshow/133681835.cms"
-      },
-      {
-        "name": "Defense startup raises $61 million to put AI into a wrist-wo",
-        "provider": "Defense News",
-        "type": "AI 项目/工具",
-        "bestFor": "Smack Technologies' Alpha device. (Rendering courtesy of Smack Technologies)\n\nFor the U.S. military, artificial intelligence tools help analysts turn enormous a",
-        "description": "Smack Technologies' Alpha device. (Rendering courtesy of Smack Technologies)\n\nFor the U.S. military, artificial intelligence tools help analysts turn enormous amounts of data into ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Defense News",
-        "url": "https://www.defensenews.com/news/your-military/2026/09/01/defense-startup-raises-61-million-to-put-ai-into-a-wrist-worn-display/"
-      },
-      {
-        "name": "Reliance Jio 3GB Per Day Prepaid Plans for Heavy Data Users ",
-        "provider": "TelecomTalk",
-        "type": "AI 项目/工具",
-        "bestFor": "India's leading telecom operator, Reliance Jio, had per-capita data consumption of 43.7GB per month as of 1Q FY27 and offers a range of plans for its very-high-",
-        "description": "India's leading telecom operator, Reliance Jio, had per-capita data consumption of 43.7GB per month as of 1Q FY27 and offers a range of plans for its very-high-usage customers. Wit",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "TelecomTalk",
-        "url": "https://telecomtalk.info/reliance-jio-3gb-per-day-plans-sept2026/1011397/"
       }
     ],
     "ai-business": [
+      {
+        "name": "VC funding deals: Saviynt, Diffraqtion, Molten Salt Solution",
+        "provider": "InfotechLead",
+        "type": "AI 项目/工具",
+        "bestFor": "The latest VC funding deals include announcements from Saviynt, Diffraqtion, Molten Salt Solutions, Carrick Capital Partners, Lockheed Martin Ventures, Presidio",
+        "description": "The latest VC funding deals include announcements from Saviynt, Diffraqtion, Molten Salt Solutions, Carrick Capital Partners, Lockheed Martin Ventures, Presidio Ventures, and other",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "InfotechLead",
+        "url": "https://infotechlead.com/tech/vc-funding-deals-saviynt-diffraqtion-molten-salt-solutions-98177"
+      },
       {
         "name": "OpenAI 发布 GPT-6 Astra，ARC-AGI 3 得分 99.9%",
         "provider": "Simon Willison 博客",
@@ -7388,17 +7398,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "The Business Times",
         "url": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/asian-stocks-set-edge-lower-ahead-us-fed-chairs-policy-speech"
-      },
-      {
-        "name": "avid to showcase new version of media composer at ibc as cri",
-        "provider": "NewscastStudio",
-        "type": "AI 项目/工具",
-        "bestFor": "Weekly insights on the technology, production and business decisions shaping media and broadcast. Free to access. Independent coverage. Unsubscribe anytime.\n\nAv",
-        "description": "Weekly insights on the technology, production and business decisions shaping media and broadcast. Free to access. Independent coverage. Unsubscribe anytime.\n\nAvid will introduce th",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewscastStudio",
-        "url": "https://www.newscaststudio.com/2026/08/27/avid-media-composer-20068/?og=1"
       }
     ],
     "ai-benchmark": [
@@ -10381,7 +10380,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-04",
-    "generatedAt": "2026-09-04T00:22:58.296583Z",
+    "generatedAt": "2026-09-04T02:59:22.397910Z",
     "total": 17,
     "sections": [
       {
@@ -23120,6 +23119,18 @@ window.AI_GENERATED_DATA = {
   },
   "benchmarkDatasets": [
     {
+      "name": "ExploitBench",
+      "area": "AI 模型能力评测",
+      "note": "OpenAI 发布 GPT-6 Astra，称其在 FrontierMath Tier 4 达 98%、ARC-AGI-3 达 99.9%、ExploitBench 达 100%，并称其网络安全能力达到 Preparedness Framework 的 Critical 门槛。",
+      "source": "https://openai.com/index/gpt-6-astra",
+      "sourceName": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "date": "2026-09-04",
+      "originTitle": "OpenAI 发布 GPT-6 Astra：多项基准刷新纪录并强化网络安全能力",
+      "evaluates": [],
+      "useCases": [],
+      "limitations": []
+    },
+    {
       "name": "TerminalBench",
       "area": "AI 模型能力评测",
       "note": "OpenAI 发布 GPT-6 Astra，在 FrontierMath Tier 4、ARC-AGI 3、TerminalBench-4.0 上达到 SOTA，并在 Terminal-Bench Science 0.1 和 HealthBench Pro 上取得领先成绩。",
@@ -23127,18 +23138,6 @@ window.AI_GENERATED_DATA = {
       "sourceName": "X：Sherwin Wu（@sherwinwu）",
       "date": "2026-09-04",
       "originTitle": "OpenAI 发布 GPT-6 Astra，多项基准达到 SOTA",
-      "evaluates": [],
-      "useCases": [],
-      "limitations": []
-    },
-    {
-      "name": "ExploitBench",
-      "area": "AI 模型能力评测",
-      "note": "作者引用 OpenAI 官方基准称 GPT-6 Astra 以 99.9% 饱和 ARC-AGI-3，在 ExploitBench 得 100%，并在各项基准上全面超过此前保持 SOTA 两天的 Claude Fable 5.1，且价格更低。",
-      "source": "https://x.com/kimmonismus/status/2095589174686400914",
-      "sourceName": "X：Kim (@kimmonismus)",
-      "date": "2026-09-04",
-      "originTitle": "OpenAI 发布 GPT-6 Astra，基准全面超越 Claude Fable 5.1",
       "evaluates": [],
       "useCases": [],
       "limitations": []
