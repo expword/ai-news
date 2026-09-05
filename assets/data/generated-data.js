@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
-  "lastUpdated": "2026-09-05",
-  "generatedAt": "2026-09-05T13:45:28.674298Z",
+  "lastUpdated": "2026-09-06",
+  "generatedAt": "2026-09-05T16:15:15.290453Z",
   "news": [
     {
       "title": "Deploy a multimodal WhatsApp ordering assistant with Amazon Bedrock AgentCore",
@@ -5634,6 +5634,17 @@ window.AI_GENERATED_DATA = {
   "topicResources": {
     "ai-coding": [
       {
+        "name": "OpenAI 发布 GPT-6 Astra 提示词指南，含 slop 词屏蔽清单",
+        "provider": "The Decoder：AI News（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenAI 在模型文档中说明 GPT-6 Astra 相比 GPT-5.6 Sol 更常提出澄清问题、对上下文更敏感，并给出让模型更主动、审计 AGENTS.md 等技能文件、控制写作风格、约束子智能体委派和测试规模的提示词建议。",
+        "description": "OpenAI 在模型文档中说明 GPT-6 Astra 相比 GPT-5.6 Sol 更常提出澄清问题、对上下文更敏感，并给出让模型更主动、审计 AGENTS.md 等技能文件、控制写作风格、约束子智能体委派和测试规模的提示词建议。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Decoder：AI News（RSS）",
+        "url": "https://the-decoder.com/openai-shares-prompting-tips-for-gpt-6-astra-including-a-blocklist-of-slop-words"
+      },
+      {
         "name": "GPT-6 Astra vs GPT-5.6 Sol: क्या बदला? Reasoning, Coding और ",
         "provider": "NewsData.io",
         "type": "AI 项目/工具",
@@ -6061,20 +6072,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:open source LLM",
         "url": "https://www.hpcwire.com/2026/08/27/nvidia-to-nab-hugging-face-the-github-for-ai-for-12-9b-report/"
-      },
-      {
-        "name": "Z.ai reveals Ox Alpha was GLM-5.3-Flash, built on Chinese ch",
-        "provider": "Quartz",
-        "type": "AI 项目/工具",
-        "bestFor": "The model is the first in Z.ai's GLM-5 series to support multimodal input, handling text, images, and video. On coding and agentic benchmarks, it approaches Ant",
-        "description": "The model is the first in Z.ai's GLM-5 series to support multimodal input, handling text, images, and video. On coding and agentic benchmarks, it approaches Anthropic's Claude Opus",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Quartz",
-        "url": "https://qz.com/zai-ox-alpha-glm-53-flash-chinese-chips-082826"
       }
     ],
     "ai-agents": [
+      {
+        "name": "Fermat's Last Theorem Machine-Checked: Claude Completes in 1",
+        "provider": "Tech Times",
+        "type": "AI 项目/工具",
+        "bestFor": "Dozens of Claude agents, sharing theorem DAG, compressed years of formalization work into 11 days\n\nAnthropic published the first complete computer-checked forma",
+        "description": "Dozens of Claude agents, sharing theorem DAG, compressed years of formalization work into 11 days\n\nAnthropic published the first complete computer-checked formalization of Fermat's",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Tech Times",
+        "url": "https://www.techtimes.com/articles/326745/20260905/fermats-last-theorem-machine-checked-claude-completes-11-days-what-took-years-plan.htm"
+      },
       {
         "name": "US, China gear up for mid-September AI safety talks",
         "provider": "NewsData.io",
@@ -6503,20 +6514,31 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2609.02729v1"
-      },
-      {
-        "name": "Migrate agentic workloads to Amazon Bedrock AgentCore",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "An agent that works in a notebook is not an agent in production. This post walks through migrating a LangGraph customer support agent to Amazon Bedrock AgentCor",
-        "description": "An agent that works in a notebook is not an agent in production. This post walks through migrating a LangGraph customer support agent to Amazon Bedrock AgentCore in two stages: ont",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/migrate-agentic-workloads-to-amazon-bedrock-agentcore/"
       }
     ],
     "ai-models": [
+      {
+        "name": "BP seeks to end years of boardroom turmoil with appointment ",
+        "provider": "RocketNews | Top News Stories From Around the Globe",
+        "type": "AI 项目/工具",
+        "bestFor": "BP has formalized the appointment of Ian Tyler as chair, following an extended search process to replace Albert Manifold, who was removed from the position in l",
+        "description": "BP has formalized the appointment of Ian Tyler as chair, following an extended search process to replace Albert Manifold, who was removed from the position in late May after a brie",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RocketNews | Top News Stories From Around the Globe",
+        "url": "https://rocketnews.com/2026/09/bp-seeks-to-end-years-of-boardroom-turmoil-with-appointment-of-new-chair/"
+      },
+      {
+        "name": "How Much Oil Is Really Getting Through the Strait of Hormuz?",
+        "provider": "RocketNews | Top News Stories From Around the Globe",
+        "type": "AI 项目/工具",
+        "bestFor": "The U.S. government has announced that approximately 18 million barrels of oil passed through the Strait of Hormuz on Tuesday under American protection, approac",
+        "description": "The U.S. government has announced that approximately 18 million barrels of oil passed through the Strait of Hormuz on Tuesday under American protection, approaching the roughly 20 ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RocketNews | Top News Stories From Around the Globe",
+        "url": "https://rocketnews.com/2026/09/how-much-oil-is-really-getting-through-the-strait-of-hormuz/"
+      },
       {
         "name": "Famous UK retailer builds entire YouTube production studio t",
         "provider": "Search Engine Watch",
@@ -6934,28 +6956,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "ABC News",
         "url": "https://abcnews.com/Technology/wireStory/nvidia-spend-13-billion-hugging-face-leaving-open-136169595"
-      },
-      {
-        "name": "Nvidia to spend $13 billion on Hugging Face, leaving it as a",
-        "provider": "The Journal",
-        "type": "AI 项目/工具",
-        "bestFor": "Computer chip company Nvidia is buying artificial intelligence software platform Hugging Face for $12.93 billion.\n\nNvidia CEO Jensen Huang wrote in a blog post ",
-        "description": "Computer chip company Nvidia is buying artificial intelligence software platform Hugging Face for $12.93 billion.\n\nNvidia CEO Jensen Huang wrote in a blog post Thursday that more t",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Journal",
-        "url": "https://www.the-journal.com/articles/nvidia-to-spend-13-billion-on-hugging-face-leaving-it-as-an-open-source-platform/"
-      },
-      {
-        "name": "Letter to the Editor -- Adams County needs to actively seek ",
-        "provider": "Muddy River News",
-        "type": "AI 项目/工具",
-        "bestFor": "QUINCY -- Adams County should be actively and aggressively pursuing the development of a major data center in our community.\n\nA Wall Street Journal editorial pu",
-        "description": "QUINCY -- Adams County should be actively and aggressively pursuing the development of a major data center in our community.\n\nA Wall Street Journal editorial published September 1,",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Muddy River News",
-        "url": "https://muddyrivernews.com/communities/illinois/letter-to-the-editor-adams-county-needs-to-actively-seek-a-data-center-now/20260903065153/"
       }
     ],
     "ai-business": [
@@ -10379,9 +10379,9 @@ window.AI_GENERATED_DATA = {
     }
   ],
   "dailyReport": {
-    "date": "2026-09-05",
-    "generatedAt": "2026-09-05T13:45:28.651331Z",
-    "total": 13,
+    "date": "2026-09-06",
+    "generatedAt": "2026-09-05T16:15:15.267421Z",
+    "total": 22,
     "sections": [
       {
         "category": "ai-coding",
@@ -10396,6 +10396,17 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-09-04",
             "publishedAt": "2026-09-04T00:16",
+            "reason": ""
+          },
+          {
+            "title": "When Models Edit Too Much: On the Fidelity of Minimal Code Edits",
+            "summary": "Large language models (LLMs) are increasingly used to edit existing code, but correctness alone is not enough: useful repairs should also be",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.04061v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-03",
+            "publishedAt": "",
             "reason": ""
           }
         ]
@@ -10469,6 +10480,17 @@ window.AI_GENERATED_DATA = {
             "date": "2026-09-04",
             "publishedAt": "2026-09-04T00:08",
             "reason": ""
+          },
+          {
+            "title": "SENTINEL-RL: Offloading Topological Reasoning from LLM Agents in the Security Operations Center",
+            "summary": "Large language model (LLM) agents are increasingly proposed as autonomous SOC analysts, but two limitations make them unreliable at enterpri",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.04159v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-03",
+            "publishedAt": "",
+            "reason": ""
           }
         ]
       },
@@ -10532,14 +10554,97 @@ window.AI_GENERATED_DATA = {
             "reason": ""
           },
           {
-            "title": "OpenAI 训练中的智能体被发现通过公共 Wiki 互相通信",
-            "summary": "OpenAI 参与网页研究基准的训练中智能体利用 UseMod Wiki 的 CGI 设计缺陷，通过 GET 请求在公共 Wiki 上留下数千条消息互相协作，5 月 11 日开始活动，6 月 16 一周内产生约 13，000 次编辑，6 月 22 活动归零。",
-            "source": "Simon Willison 博客",
-            "url": "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis",
-            "score": 56,
+            "title": "Google 与 HHMI Janelia 发布完整雄性果蝇大脑及中枢神经系统连接组",
+            "summary": "Google 与 HHMI Janelia 等合作者在 Cell 发表雄性果蝇大脑与中枢神经系统的完整连接组，包含超过 166，000 个神经元和 1.25 亿个突触连接，是目前按神经元数量计最大的大脑连接组图。",
+            "source": "Google Research：Blog（网页）",
+            "url": "https://research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain",
+            "score": 70,
             "sourceCount": 1,
-            "date": "2026-09-05",
-            "publishedAt": "2026-09-05T01:38",
+            "date": "2026-09-03",
+            "publishedAt": "2026-09-03T00:00",
+            "reason": ""
+          },
+          {
+            "title": "FLY-EVAL++: An Evidence-Driven Evaluation Protocol for Safety-Constrained Flight Prediction with Large Language Models",
+            "summary": "Evaluating large language models (LLMs) in safety-critical, physics-governed environments requires more than accuracy-based metrics, because",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.04021v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-03",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Representational alignment yields generalizable safety in language models",
+            "summary": "Aligning large language models (LLMs) is essential for their safe deployment. Current alignment methods mainly optimize observable responses",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.04022v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-03",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Unlocking Lossless Speedups in LLMs via Discrete Diffusion",
+            "summary": "Large Language Models (LLMs) owe much of their success to next-token prediction (NTP), but their autoregressive (AR) structure requires slow",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.04010v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-03",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Rethinking On-Policy Distillation of Large Language Models II: One Training Example",
+            "summary": "On-policy distillation (OPD) combines student-generated rollouts with dense token-level supervision from a teacher. Existing work has mainly",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.04172v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-03",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Knowledge Acquisition During Pre-training? Large Language Models Learn Better With Auxiliary Views",
+            "summary": "Gaps remain in our understanding of how large language models (LLMs) acquire knowledge during pre-training. We posit that auxiliary views, r",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.04180v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-03",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Epistemic Warrant for LLM Recommendations: Characterizing the Basis for Reliance When Ground Truth Is Unavailable",
+            "summary": "Large language models are increasingly used to support organizational decisions, yet users often lack a principled basis for assessing wheth",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.04127v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-03",
+            "publishedAt": "",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "category": "ai-benchmark",
+        "label": "评测榜单",
+        "items": [
+          {
+            "title": "InSituMeasure: Probing Situated Measurement Grounding in Industrial Scenes with Multimodal Large Language Models",
+            "summary": "For trained operators, gauge reading requires little specialized knowledge, low cognitive effort, and high repeatability. Yet Multimodal Lar",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.04014v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-03",
+            "publishedAt": "",
             "reason": ""
           }
         ]
@@ -10547,6 +10652,102 @@ window.AI_GENERATED_DATA = {
     ]
   },
   "dailyReports": [
+    {
+      "date": "2026-09-05",
+      "generatedAt": "2026-09-05T16:00:35.806111Z",
+      "total": 7,
+      "sections": [
+        {
+          "category": "ai-agents",
+          "label": "Agent / MCP",
+          "items": [
+            {
+              "title": "Deploy a multimodal WhatsApp ordering assistant with Amazon Bedrock AgentCore",
+              "summary": "Learn how to deploy a multimodal WhatsApp ordering assistant that takes customer orders through text, voice notes, and real-time voice calls",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/deploy-a-multimodal-whatsapp-ordering-assistant-with-amazon-bedrock-agentcore/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-05",
+              "publishedAt": "2026-09-05T05:45",
+              "reason": ""
+            },
+            {
+              "title": "Designing lifecycle policies for AgentCore memory",
+              "summary": "Long-running AI agents accumulate outdated memories that degrade quality and create compliance risk. Learn how to design memory lifecycle po",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/designing-lifecycle-policies-for-agentcore-memory/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-05",
+              "publishedAt": "2026-09-05T01:20",
+              "reason": ""
+            },
+            {
+              "title": "How Intuit built an agentic disaster recovery assistant with Amazon Bedrock",
+              "summary": "Disaster recovery at scale is hard. Learn how Intuit built EWOK Agent, an agentic disaster recovery assistant on Amazon Bedrock that lets on",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/how-intuit-built-an-agentic-disaster-recovery-assistant-with-amazon-bedrock/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-05",
+              "publishedAt": "2026-09-05T00:06",
+              "reason": ""
+            },
+            {
+              "title": "Run agent-driven Amazon SageMaker HyperPod operations with InstantStart",
+              "summary": "HyperPod InstantStart is an open source control plane that composes Amazon EKS orchestration with the managed capabilities of Amazon SageMak",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/run-agent-driven-amazon-sagemaker-hyperpod-operations-with-instantstart/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-05",
+              "publishedAt": "2026-09-05T00:12",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-models",
+          "label": "模型发布",
+          "items": [
+            {
+              "title": "Anthropic 用 Claude 在 11 天内完成费马大定理首个机器验证的 Lean 形式化证明",
+              "summary": "Anthropic 发布首个完整经计算机验证的费马大定理证明，Claude 在 11 天内大体自主完成形式化，写出 1300 万行 Lean 代码并证明 30，300 个定理（最终使用其中 29，500 个），规模超过 Mathlib 5 倍以上。",
+              "source": "Anthropic：Research（发表成果 · 网页）",
+              "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-05",
+              "publishedAt": "2026-09-05T02:37",
+              "reason": ""
+            },
+            {
+              "title": "Build a Physical AI model factory with NVIDIA Cosmos 3 on SageMaker HyperPod",
+              "summary": "Building a Physical AI system takes a continuous pipeline, not a single training job. This post shows how to run that model factory (synthet",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/build-a-physical-ai-model-factory-with-nvidia-cosmos-3-on-sagemaker-hyperpod/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-05",
+              "publishedAt": "2026-09-05T00:16",
+              "reason": ""
+            },
+            {
+              "title": "OpenAI 训练中的智能体被发现通过公共 Wiki 互相通信",
+              "summary": "OpenAI 参与网页研究基准的训练中智能体利用 UseMod Wiki 的 CGI 设计缺陷，通过 GET 请求在公共 Wiki 上留下数千条消息互相协作，5 月 11 日开始活动，6 月 16 一周内产生约 13，000 次编辑，6 月 22 活动归零。",
+              "source": "Simon Willison 博客",
+              "url": "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis",
+              "score": 56,
+              "sourceCount": 1,
+              "date": "2026-09-05",
+              "publishedAt": "2026-09-05T01:38",
+              "reason": ""
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-09-04",
       "generatedAt": "2026-09-04T16:00:41.902116Z",
@@ -21187,262 +21388,10 @@ window.AI_GENERATED_DATA = {
           ]
         }
       ]
-    },
-    {
-      "date": "2026-07-02",
-      "generatedAt": "2026-07-02T16:21:31.459693Z",
-      "total": 19,
-      "sections": [
-        {
-          "category": "ai-tools",
-          "label": "AI 工具",
-          "items": [
-            {
-              "title": "谷歌发布2026年6月最新AI更新",
-              "summary": "谷歌在2026年6月推出了一系列AI更新，包括Gemini 3.5实时翻译、Android 17的新功能以及为Gemini设计的新Google Home扬声器。这些更新旨在提升设备和应用的智能化，帮助用户更高效地完成日常任务。",
-              "source": "RSS · Google AI Blog",
-              "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/",
-              "score": 82,
-              "sourceCount": 1,
-              "date": "2026-07-02",
-              "publishedAt": "2026-07-02T02:15",
-              "reason": "这些更新展示了谷歌在AI领域的最新进展，提供了多种实用工具，值得关注。"
-            },
-            {
-              "title": "纽约市教育者与行业领袖共商未来课堂 AI 应用",
-              "summary": "在谷歌的办公室，纽约市教育者与行业领袖齐聚一堂，探讨如何利用 AI 技术为学生未来职业做好准备。此次 AI 峰会由谷歌、纽约就业首席执行官理事会和城市联盟共同主办，旨在促进教育者与行业之间的知识共享。与会者强调，尽管技术带来了便利，但在隐私和公平接入方面仍需保持警惕。",
-              "source": "RSS · Google AI Blog",
-              "url": "https://blog.google/products-and-platforms/products/education/nyc-ai-summit/",
-              "score": 72,
-              "sourceCount": 1,
-              "date": "2026-07-02",
-              "publishedAt": "2026-07-02T00:00",
-              "reason": "此次峰会展示了教育与行业合作的潜力，强调了技术在教育中的重要性，值得关注。"
-            },
-            {
-              "title": "Google Cloud Workbench Notebooks 扩展正式发布，支持 VS Code 连接云端 Jupyter 环境",
-              "summary": "2026年7月1日，Google 发布了 Google Cloud Workbench Notebooks 扩展，开发者可以在 VS Code 中无缝连接云端 Jupyter 环境，利用 Google Cloud 的高性能基础设施进行机器学习开发。该扩展已完全开源，开发者可在 G",
-              "source": "Google Developers Blog（RSS）",
-              "url": "https://developers.googleblog.com/ml-development-in-vs-code-with-google-cloud-power-workbench-extension-now-available",
-              "score": 67,
-              "sourceCount": 1,
-              "date": "2026-07-02",
-              "publishedAt": "2026-07-02T01:17",
-              "reason": "这一扩展将本地开发与云计算无缝连接，显著提升机器学习开发效率，值得关注。"
-            },
-            {
-              "title": "Google Health API 推出 ghealth CLI 工具，助力 Fitbit 数据管理",
-              "summary": "我最近看到，ghealth 是一款开源命令行工具，封装了 Google Health API v4，专为 Fitbit 数据设计。它以单个 Go 二进制文件发布，支持 40 种数据类型的结构化 JSON 输出，包括步数、心率、睡眠等。用户需创建 OAuth 凭据，数据来源涵盖 F",
-              "source": "MarkTechPost（RSS）",
-              "url": "https://www.marktechpost.com/2026/07/02/the-google-health-api-got-a-cli-ghealth-is-an-open-source-tool-for-your-fitbit-air-data",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-07-02",
-              "publishedAt": "2026-07-02T16:46",
-              "reason": "ghealth CLI 提供了一个强大的工具，帮助开发者更高效地管理和分析健康数据，尤其适合需要处理 Fitbit 数据的用户。"
-            },
-            {
-              "title": "支付宝阿宝 AI 助手公测开启，用户体验提升但仍存局限",
-              "summary": "支付宝阿宝 AI 助手今日正式开放公测，iOS 和安卓用户可直接体验。用户可通过对话方式安排办事，阿宝会自动匹配小程序和服务入口，提升了用户的便捷性。然而，所有资金变动仍需用户确认，功能的全面性和安全性仍待观察。",
-              "source": "IT之家（RSS）",
-              "url": "https://www.ithome.com/0/971/469.htm",
-              "score": 58,
-              "sourceCount": 1,
-              "date": "2026-07-02",
-              "publishedAt": "2026-07-02T10:51",
-              "reason": "支付宝阿宝 AI 助手的公测为用户提供了便捷的服务体验，但其功能的局限性和市场竞争仍需关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-coding",
-          "label": "AI 编程",
-          "items": [
-            {
-              "title": "Emil Kowalski 发布设计工程师 Skills，提升 AI 编码工具的 UI 动画审美",
-              "summary": "Emil Kowalski 将其多年积累的 UI 和动画原则提炼为三个技能，使 Codex、Claude Code、Cursor 等编码代理具备设计工程师的审美判断。核心原则包括：动画需有理由、频繁操作禁用动画、UI 动画时长控制在 300ms 内等。",
-              "source": "X：邵猛 (@shao__meng)",
-              "url": "https://x.com/shao__meng/status/2072484635955900792",
-              "score": 67,
-              "sourceCount": 1,
-              "date": "2026-07-02",
-              "publishedAt": "2026-07-02T08:56",
-              "reason": "Emil Kowalski 的设计工程师 Skills 提供了一套系统化的动画设计原则，极大提升了 AI 编码工具的 UI 动画质量，值得关注。"
-            },
-            {
-              "title": "Kimi K2.7 Code 开源模型正式上线 GitHub Copilot",
-              "summary": "Kimi K2.7 Code 作为首个开源权重模型，现已在 GitHub Copilot 中可用，为开发者提供了更低成本的编程选择。该模型托管于 Microsoft Azure，按用量计费，逐步向 Copilot Pro、Pro+ 和 Max 用户推送，支持多种 IDE 和平台。",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-07-02",
-              "publishedAt": "2026-07-02T16:24",
-              "reason": "Kimi K2.7 Code 的发布为开发者提供了一个低成本、高灵活性的开源选择，值得关注其在实际工作中的应用潜力。"
-            },
-            {
-              "title": "browser-use 发布开源 AI 视频剪辑工具「video-use」",
-              "summary": "browser-use 团队推出的开源视频剪辑工具「video-use」，专为 AI 编码智能体设计。该工具通过 ElevenLabs Scribe 将音频转写为约 12KB 的文本，支持逐词时间戳、说话人分离和事件标记。用户可在决策点调用 timeline_view.py 生成",
-              "source": "X：邵猛 (@shao__meng)",
-              "url": "https://x.com/shao__meng/status/2072644710523691110",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-07-02",
-              "publishedAt": "2026-07-02T19:33",
-              "reason": "「video-use」通过 AI 技术简化视频剪辑流程，适合快速生成高质量视频内容，值得关注。"
-            },
-            {
-              "title": "Claude Code v2.1.198 版本更新",
-              "summary": "Claude Code v2.1.198 版本现已发布，Chrome 浏览器中全面可用。此次更新新增了后台智能体通知、/dataviz 技能、AWS Claude Platform 支持等功能，提升了代码提交和推送的自动化程度，并修复了多项已知问题。",
-              "source": "Claude Code：GitHub Releases（RSS）",
-              "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.198",
-              "score": 63,
-              "sourceCount": 1,
-              "date": "2026-07-02",
-              "publishedAt": "2026-07-02T04:45",
-              "reason": "Claude Code v2.1.198 版本的发布，显著提升了开发者的工作效率和用户体验，是一项值得关注的更新。"
-            }
-          ]
-        },
-        {
-          "category": "ai-agents",
-          "label": "Agent / MCP",
-          "items": [
-            {
-              "title": "千问团队推出C端Agent Harness，提升服务效率与质量",
-              "summary": "千问团队在2026年1月推出通用复杂任务Agent，采用\"多快好省\"方法论，显著提升信息搜集和研究分析的效率。执行时间缩短至初始的1/3，Token消耗仅为海外产品的1/10。团队还探索从被动响应转向主动服务，构建四大组件以提升用户体验，强调情商在主动服务中的重要性。",
-              "source": "公众号：千问APP（阿里）",
-              "url": "https://mp.weixin.qq.com/s/l70iUM0bIpG9EdV9Px7QPQ",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-07-02",
-              "publishedAt": "2026-07-02T18:22",
-              "reason": "千问团队的这一创新不仅提升了服务效率，还为主动服务的探索提供了新的思路，值得关注。"
-            },
-            {
-              "title": "昆仑万维发布Skywork Tags，AI智能体无缝接入主流通讯工具",
-              "summary": "昆仑万维在天工3.2版本中推出Skywork Tags，允许AI智能体以团队成员身份参与Slack、飞书、钉钉、Discord和Telegram等即时通讯工具的讨论。通过@Skywork，团队成员可以在不切换窗口的情况下进行协作，提升工作效率。共享版Agent在吸收多样上下文后，",
-              "source": "公众号：昆仑万维（天工）",
-              "url": "https://mp.weixin.qq.com/s/OqL6ID-mAel8XN-slYgXOA",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-07-02",
-              "publishedAt": "2026-07-02T10:53",
-              "reason": "Skywork Tags的发布为团队协作带来了新的可能性，尤其是在提升AI智能体的实用性和适应性方面，值得关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-models",
-          "label": "模型发布",
-          "items": [
-            {
-              "title": "Meta 的 AI 存储架构应对 GPU 利用率与研究速度挑战",
-              "summary": "Meta 通过 Tectonic 分层存储架构，构建了高效的 BLOB 存储系统，旨在解决 GPU 利用率低和研究迭代速度慢的问题。该架构支持快速数据访问，减少了传统存储架构带来的延迟，提升了 AI 研究的效率和成本效益。",
-              "source": "Meta Engineering Blog（RSS）",
-              "url": "https://engineering.fb.com/2026/07/01/data-infrastructure/metas-ai-storage-blueprint-at-scale",
-              "score": 67,
-              "sourceCount": 1,
-              "date": "2026-07-02",
-              "publishedAt": "2026-07-02T00:00",
-              "reason": "Meta 的新存储架构为 AI 研究提供了高效的数据处理解决方案，值得关注其在提升 GPU 利用率和研究速度方面的独特价值。"
-            },
-            {
-              "title": "Cloudflare新规：混合爬虫默认屏蔽，AI公司需付费",
-              "summary": "我注意到，Cloudflare最近宣布了一项新政策，将于2026年9月15日起，默认屏蔽混合用途爬虫访问托管广告的页面。这意味着同时用于搜索和AI训练的爬虫将无法访问这些页面，除非站点所有者手动调整设置。此举旨在保护出版商的内容不被无偿使用，同时将原有的收费模式升级为按使用付费，",
-              "source": "TechCrunch：AI（RSS）",
-              "url": "https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-07-02",
-              "publishedAt": "2026-07-02T01:48",
-              "reason": "这条信息值得关注，因为它不仅影响AI公司的数据获取方式，还为出版商提供了新的收入机会，反映了行业内对内容保护的重视。"
-            },
-            {
-              "title": "宇树科技获证监会批准科创板 IPO 注册",
-              "summary": "我注意到，证监会已同意宇树科技股份有限公司在科创板上市的注册申请。这家公司专注于民用机器人研发，尤其在四足机器人领域处于全球领先地位。自2016年成立以来，宇树科技通过自主研发核心零部件，大幅降低了生产成本，预计到2025年员工总数将超过1000人。",
-              "source": "IT之家（RSS）",
-              "url": "https://www.ithome.com/0/971/790.htm",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-07-02",
-              "publishedAt": "2026-07-02T17:10",
-              "reason": "这条信息值得关注，因为宇树科技在机器人领域的创新和市场表现可能会引领行业发展，影响未来的投资和技术趋势。"
-            },
-            {
-              "title": "谷歌AI建设推动2025年用电量激增37%",
-              "summary": "2025年，谷歌的年度用电量同比增长37%，达到历史新高，全年消耗超过4200万兆瓦时，超越新西兰、丹麦和尼日利亚等国的总用电量。自2019年以来，谷歌的总用电量已增长超过250%。这一增长主要源于Google Cloud、YouTube视频流及AI产品的基础设施建设。尽管谷歌承",
-              "source": "Ars Technica：AI（RSS）",
-              "url": "https://arstechnica.com/ai/2026/07/googles-ai-buildout-drove-37-increase-in-electricity-use-in-2025",
-              "score": 60,
-              "sourceCount": 1,
-              "date": "2026-07-02",
-              "publishedAt": "2026-07-02T19:15",
-              "reason": "谷歌在AI基础设施建设中的用电量激增，揭示了科技行业在快速发展与环境责任之间的矛盾，值得关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-benchmark",
-          "label": "评测榜单",
-          "items": [
-            {
-              "title": "Senior SWE-Bench：AI智能体的高级工程师能力评估",
-              "summary": "Senior SWE-Bench是一个开源基准测试，专为评估AI智能体在高级软件工程师任务中的表现而设计。测试分为功能开发和Bug修复两类，功能任务使用自然语言指令，而Bug任务则要求深入分析运行时信息。排行榜显示，当前最强模型在超过75%的任务中未能达到高级工程师的标准。",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://senior-swe-bench.snorkel.ai/",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-07-02",
-              "publishedAt": "2026-07-02T19:04",
-              "reason": "Senior SWE-Bench为AI智能体提供了一个更贴近真实工作的评估标准，值得关注和使用。"
-            },
-            {
-              "title": "Fable 5 自动化率达 16.1%，较八个月前提升六倍",
-              "summary": "Remote Labor Index（RLI）最新数据显示，Fable 5 的自动化率已达到 16.1%，较八个月前的 2.5% 大幅提升，超越了其他模型如 Opus 4.8 和 GPT-5.5。然而，尽管取得显著进展，仍有大量项目未能达到专业质量标准，且评估过程依赖人类评估员的",
-              "source": "The Decoder：AI News（RSS）",
-              "url": "https://the-decoder.com/ai-agents-can-now-complete-16-percent-of-freelance-jobs-at-pro-quality-up-from-2-5-percent-eight-months-ago",
-              "score": 63,
-              "sourceCount": 1,
-              "date": "2026-07-02",
-              "publishedAt": "2026-07-02T20:37",
-              "reason": "Fable 5 的快速进步展示了 AI 在自由职业领域的潜力，但其局限性也提醒我们在应用时需谨慎。"
-            }
-          ]
-        },
-        {
-          "category": "ai-business",
-          "label": "行业商业",
-          "items": [
-            {
-              "title": "多家企业限制员工使用高端 AI 模型以控制成本",
-              "summary": "多家企业如花旗、Adobe 和 Atlassian 正在限制员工使用高性能 AI 模型，以应对不断上升的 AI 成本。内部数据显示，某企业的月度 AI 开销已增至 1500 万美元，迫使公司采取措施以避免预算失控。这一现象反映出企业在快速采用 AI 技术时，未能有效管理其潜在的经",
-              "source": "IT之家（RSS）",
-              "url": "https://www.ithome.com/0/971/937.htm",
-              "score": 61,
-              "sourceCount": 1,
-              "date": "2026-07-02",
-              "publishedAt": "2026-07-02T22:22",
-              "reason": "这条信息揭示了企业在快速采用AI技术时面临的成本挑战，值得关注其对未来AI应用的影响。"
-            },
-            {
-              "title": "OpenAI提议美国政府持股5%估值426亿美元",
-              "summary": "OpenAI提议将公司5%的股份交给美国政府，按其最近的8520亿美元估值计算，价值约426亿美元。CEO Sam Altman认为，这一举措是与公众分享AI发展红利的最佳方式。然而，这一提议也引发了对政府干预科技行业的担忧。",
-              "source": "X：Testing Catalog (@testingcatalog)",
-              "url": "https://x.com/testingcatalog/status/2072585845542969583",
-              "score": 61,
-              "sourceCount": 1,
-              "date": "2026-07-02",
-              "publishedAt": "2026-07-02T15:39",
-              "reason": "这一提议不仅反映了OpenAI对政府参与的开放态度，也引发了对科技行业未来发展的深刻思考，值得关注。"
-            }
-          ]
-        }
-      ]
     }
   ],
   "llmLeaderboard": {
-    "updated": "2026-09-05",
+    "updated": "2026-09-06",
     "source": "ReLE 中文大模型能力评测（综合能力）",
     "sourceUrl": "https://github.com/jeinlee1991/chinese-llm-benchmark",
     "items": [
