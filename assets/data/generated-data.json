@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-05",
-  "generatedAt": "2026-09-05T06:13:37.423880Z",
+  "generatedAt": "2026-09-05T08:43:27.979778Z",
   "news": [
     {
       "title": "Deploy a multimodal WhatsApp ordering assistant with Amazon Bedrock AgentCore",
@@ -5634,6 +5634,17 @@
   "topicResources": {
     "ai-coding": [
       {
+        "name": "OpenAI 向 Pro、Enterprise 和 Business Premium 用户推出 GPT-6 Astra，",
+        "provider": "The Decoder：AI News（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenAI 通过 ChatGPT Work 和 Codex 向 Pro、Enterprise、Business Premium 计划用户开放 GPT-6 Astra，并通过 API、Microsoft Azure 和 AWS Bedrock 提供。",
+        "description": "OpenAI 通过 ChatGPT Work 和 Codex 向 Pro、Enterprise、Business Premium 计划用户开放 GPT-6 Astra，并通过 API、Microsoft Azure 和 AWS Bedrock 提供。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Decoder：AI News（RSS）",
+        "url": "https://the-decoder.com/openai-rolls-out-gpt-6-astra-to-top-tier-chatgpt-plans-at-half-the-rate-of-gpt-5-6-sol"
+      },
+      {
         "name": "GPT-6 Astra 开始向 Plus 和 Business 用户推出",
         "provider": "X：Sam Altman (@sama)",
         "type": "AI 项目/工具",
@@ -6061,17 +6072,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:AI coding tool",
         "url": "https://completeaitraining.com/news/ai-skills-spread-beyond-coding-as-non-tech-professionals/"
-      },
-      {
-        "name": "Agentarius Launches an Independent Platform for Comparing AI",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "The platform helps professionals compare AI tools by features, pricing, limitations, privacy and suitability for real-world work.",
-        "description": "The platform helps professionals compare AI tools by features, pricing, limitations, privacy and suitability for real-world work.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI coding tool",
-        "url": "https://www.einpresswire.com/article/937149280/agentarius-launches-an-independent-platform-for-comparing-ai-tools"
       }
     ],
     "ai-agents": [
@@ -6518,6 +6518,39 @@
     ],
     "ai-models": [
       {
+        "name": "Anthropic Is Reportedly Gearing Up for an IPO This Year That",
+        "provider": "Yahoo! Finance",
+        "type": "AI 项目/工具",
+        "bestFor": "Anthropic, the parent company of the large language model (LLM) family known as Claude, is reportedly preparing for an initial public offering that could happen",
+        "description": "Anthropic, the parent company of the large language model (LLM) family known as Claude, is reportedly preparing for an initial public offering that could happen as soon as later th",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Yahoo! Finance",
+        "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-reportedly-gearing-ipo-could-184900286.html"
+      },
+      {
+        "name": "Teens Are Turning to AI Chatbots for Emotional Support - Her",
+        "provider": "The Good Men Project",
+        "type": "AI 项目/工具",
+        "bestFor": "It's 2 a.m., and a teenage girl, worrying about a friend issue, lies awake. Rather than wake her parents, she picks up her phone, opens an AI app and types, \"I'",
+        "description": "It's 2 a.m., and a teenage girl, worrying about a friend issue, lies awake. Rather than wake her parents, she picks up her phone, opens an AI app and types, \"I'm so stressed out, I",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Good Men Project",
+        "url": "https://goodmenproject.com/featured-content/teens-are-turning-to-ai-chatbots-for-emotional-support-heres-how-to-keep-kids-safe/"
+      },
+      {
+        "name": "Google Gemini now lets you minimize tasks into floating bubb",
+        "provider": "NewsBytes",
+        "type": "AI 项目/工具",
+        "bestFor": "Google has updated its Gemini overlay on Android, introducing a multitasking feature. The new addition gives users a floating bubble shortcut when they minimize",
+        "description": "Google has updated its Gemini overlay on Android, introducing a multitasking feature. The new addition gives users a floating bubble shortcut when they minimize their tasks. It now",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsBytes",
+        "url": "https://www.newsbytesapp.com/news/science/google-gemini-gets-an-update-to-improve-multitasking/story"
+      },
+      {
         "name": "They loved JFK, Reagan and Obama. Now Middle Ireland is aski",
         "provider": "Irish Examiner",
         "type": "AI 项目/工具",
@@ -6923,39 +6956,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "RocketNews | Top News Stories From Around the Globe",
         "url": "https://rocketnews.com/2026/09/google-microsoft-and-openai-among-100-firms-calling-for-better-cyber-defences-3/"
-      },
-      {
-        "name": "Industry Gains Direct Cyber Command Line",
-        "provider": "Mirage News",
-        "type": "AI 项目/工具",
-        "bestFor": "Surrounded by family, colleagues and Defence personnel at an appointment ceremony in Canberra's Majura Park, Squadron Leader Talia Hedges received her Air Force",
-        "description": "Surrounded by family, colleagues and Defence personnel at an appointment ceremony in Canberra's Majura Park, Squadron Leader Talia Hedges received her Air Force rank slides from Di",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Mirage News",
-        "url": "https://www.miragenews.com/industry-gains-direct-cyber-command-line-1738161/"
-      },
-      {
-        "name": "ODILO Embarks on a New Era as Letmino to Transform Continuou",
-        "provider": "FinanzNachrichten.de",
-        "type": "AI 项目/工具",
-        "bestFor": "* The edtech company updates its brand and strategic vision, positioning artificial intelligence as a pedagogical tool to accelerate upskilling and reskilling t",
-        "description": "* The edtech company updates its brand and strategic vision, positioning artificial intelligence as a pedagogical tool to accelerate upskilling and reskilling throughout the Europe",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "FinanzNachrichten.de",
-        "url": "https://www.finanznachrichten.de/nachrichten-2026-09/69483134-odilo-embarks-on-a-new-era-as-letmino-to-transform-continuous-learning-in-the-age-of-ai-008.htm"
-      },
-      {
-        "name": "Law firms seek bespoke differences in legal AI",
-        "provider": "Financial Times News",
-        "type": "AI 项目/工具",
-        "bestFor": "Roula Khalaf, Editor of the FT, selects her favourite stories in this weekly newsletter.\n\nAfter a few short years of learning, experimenting and planning, law f",
-        "description": "Roula Khalaf, Editor of the FT, selects her favourite stories in this weekly newsletter.\n\nAfter a few short years of learning, experimenting and planning, law firms' strategies for",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Financial Times News",
-        "url": "https://www.ft.com/content/c0c8ae73-27fd-4828-aa48-72cdae6613ff"
       }
     ],
     "ai-business": [
@@ -10380,7 +10380,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-05",
-    "generatedAt": "2026-09-05T06:13:37.391914Z",
+    "generatedAt": "2026-09-05T08:43:27.957808Z",
     "total": 13,
     "sections": [
       {
