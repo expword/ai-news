@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-05",
-  "generatedAt": "2026-09-05T08:43:27.979778Z",
+  "generatedAt": "2026-09-05T11:14:40.469555Z",
   "news": [
     {
       "title": "Deploy a multimodal WhatsApp ordering assistant with Amazon Bedrock AgentCore",
@@ -5634,6 +5634,17 @@
   "topicResources": {
     "ai-coding": [
       {
+        "name": "This $40 AI tool could turn your side-hustle idea into an ac",
+        "provider": "Mashable",
+        "type": "AI 项目/工具",
+        "bestFor": "TL;DR: Swiftspeed AI App Builder helps you create iOS, Android, and web apps without coding, and three years of Pro access is on sale for $39.99 (reg. $432).\n\nE",
+        "description": "TL;DR: Swiftspeed AI App Builder helps you create iOS, Android, and web apps without coding, and three years of Pro access is on sale for $39.99 (reg. $432).\n\nEver since the rise o",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Mashable",
+        "url": "https://mashable.com/tech/sept-5-swiftspeed-ai-app-builder-pro-plan-lifetime"
+      },
+      {
         "name": "OpenAI 向 Pro、Enterprise 和 Business Premium 用户推出 GPT-6 Astra，",
         "provider": "The Decoder：AI News（RSS）",
         "type": "AI 项目/工具",
@@ -6061,20 +6072,42 @@
         "watch": "请打开原始来源核对",
         "sourceName": "India Today",
         "url": "https://www.indiatoday.in/technology/news/story/anthropic-wants-ai-agents-to-control-lab-machines-giving-claude-hands-to-work-2981676-2026-08-28"
-      },
-      {
-        "name": "AI skills spread beyond coding as non-tech professionals ado",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "AI skills for non-tech roles now matter more than coding, as companies apply tools to marketing, finance, and HR workflows. Domain expertise and judgment determ",
-        "description": "AI skills for non-tech roles now matter more than coding, as companies apply tools to marketing, finance, and HR workflows. Domain expertise and judgment determine success, not tec",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI coding tool",
-        "url": "https://completeaitraining.com/news/ai-skills-spread-beyond-coding-as-non-tech-professionals/"
       }
     ],
     "ai-agents": [
+      {
+        "name": "Ammonnews : Google's Gemini Spark can now manage your Google",
+        "provider": "وكاله عمون الاخباريه",
+        "type": "AI 项目/工具",
+        "bestFor": "Ammon News - Google is integrating more of its services with AI, as the company announced that its personal agent, Gemini Spark, can now manage your Google Phot",
+        "description": "Ammon News - Google is integrating more of its services with AI, as the company announced that its personal agent, Gemini Spark, can now manage your Google Photos library. That mea",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "وكاله عمون الاخباريه",
+        "url": "https://en.ammonnews.net/article/94912"
+      },
+      {
+        "name": "OpenAI AI agents hijacked German wiki, shared ways to bypass",
+        "provider": "The Telegraph",
+        "type": "AI 项目/工具",
+        "bestFor": "A swarm of rogue OpenAI agents hijacked a German website this spring and transformed it into a bulletin board for other AI agents, according to new research pub",
+        "description": "A swarm of rogue OpenAI agents hijacked a German website this spring and transformed it into a bulletin board for other AI agents, according to new research published Friday and tw",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Telegraph",
+        "url": "https://www.telegraphindia.com/world/openai-ai-agents-hijacked-german-wiki-shared-ways-to-bypass-restrictions/cid/2178462"
+      },
+      {
+        "name": "WhatsApp may soon let you chat with third-party AI agents di",
+        "provider": "MobiGyaan",
+        "type": "AI 项目/工具",
+        "bestFor": "WhatsApp is reportedly testing a feature that could let users connect third-party AI agents and bots directly to the messaging app. The functionality is expecte",
+        "description": "WhatsApp is reportedly testing a feature that could let users connect third-party AI agents and bots directly to the messaging app. The functionality is expected to give each conne",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "MobiGyaan",
+        "url": "https://www.mobigyaan.com/whatsapp-chat-third-party-ai-agents"
+      },
       {
         "name": "OpenAI agents hijacked German website in previously undisclo",
         "provider": "dunyanews.tv",
@@ -6481,42 +6514,31 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Khaleej times",
         "url": "https://www.khaleejtimes.com/business/tech/outnumbered-by-ai-agents-cybersecurity-leader-mortada-ayad"
-      },
-      {
-        "name": "Leading DLP Provider, Kitecyber, Extends Endpoint DLP to AI ",
-        "provider": "The Bay City Tribune",
-        "type": "AI 项目/工具",
-        "bestFor": "Unfortunately you've used all of your gifts this month. Your counter will reset on the first day of next month.\n\nEndpoint-native data loss prevention now classi",
-        "description": "Unfortunately you've used all of your gifts this month. Your counter will reset on the first day of next month.\n\nEndpoint-native data loss prevention now classifies and governs wha",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Bay City Tribune",
-        "url": "https://baycitytribune.com/online_features/press_releases/leading-dlp-provider-kitecyber-extends-endpoint-dlp-to-ai-agents-with-real-time-data-classification/article_770d32c8-31b3-5a61-97f8-3e2201dd9624.html"
-      },
-      {
-        "name": "The Future of SIEM: From Rules to Agentic AI",
-        "provider": "CloudTweaks",
-        "type": "AI 项目/工具",
-        "bestFor": "For years, security teams have built their security information and event management (SIEM) systems around rules. SIEMs identify patterns, look for specific log",
-        "description": "For years, security teams have built their security information and event management (SIEM) systems around rules. SIEMs identify patterns, look for specific log events, correlate s",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "CloudTweaks",
-        "url": "https://cloudtweaks.com/2026/09/future-siem-from-rules-agentic-ai/"
-      },
-      {
-        "name": "ASUS Unveils ProArt PCs with NVIDIA RTX at IFA 2026",
-        "provider": "Mirage News",
-        "type": "AI 项目/工具",
-        "bestFor": "· Powered by NVIDIA RTX Spark: ASUS introduces ProArt P16 & P14 Laptops and GR1X Mini PC, the world's first Windows PC built for personal agents\n\n· Built for AI",
-        "description": "· Powered by NVIDIA RTX Spark: ASUS introduces ProArt P16 & P14 Laptops and GR1X Mini PC, the world's first Windows PC built for personal agents\n\n· Built for AI-powered creators an",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Mirage News",
-        "url": "https://www.miragenews.com/asus-unveils-proart-pcs-with-nvidia-rtx-at-ifa-1738086/"
       }
     ],
     "ai-models": [
+      {
+        "name": "Famous UK retailer builds entire YouTube production studio t",
+        "provider": "Search Engine Watch",
+        "type": "AI 项目/工具",
+        "bestFor": "British department store chain John Lewis is turning to YouTube to help its products appear in AI shopping recommendations.\n\nThe retailer has opened a permanent",
+        "description": "British department store chain John Lewis is turning to YouTube to help its products appear in AI shopping recommendations.\n\nThe retailer has opened a permanent studio inside its f",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Search Engine Watch",
+        "url": "https://searchenginewatch.com/famous-uk-retailer-builds-entire-youtube-production-studio-to-get-ai-to-recommend-its-products/"
+      },
+      {
+        "name": "Google Adds Gemini Voice Features to Gmail, Docs, and Keep f",
+        "provider": "gHacks",
+        "type": "AI 项目/工具",
+        "bestFor": "Google is introducing new voice features powered by Gemini for Gmail, Docs, and Keep, allowing users to carry out tasks by speaking, as stated in a Google annou",
+        "description": "Google is introducing new voice features powered by Gemini for Gmail, Docs, and Keep, allowing users to carry out tasks by speaking, as stated in a Google announcement.\n\nThe apps a",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "gHacks",
+        "url": "https://www.ghacks.net/2026/09/05/google-adds-gemini-voice-features-to-gmail-docs-and-keep-for-hands-free-tasks/"
+      },
       {
         "name": "Anthropic Is Reportedly Gearing Up for an IPO This Year That",
         "provider": "Yahoo! Finance",
@@ -6934,31 +6956,42 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Muddy River News",
         "url": "https://muddyrivernews.com/communities/illinois/letter-to-the-editor-adams-county-needs-to-actively-seek-a-data-center-now/20260903065153/"
-      },
-      {
-        "name": "I rented a car, and within hours, my driver's license was fo",
-        "provider": "RocketNews | Top News Stories From Around the Globe",
-        "type": "AI 项目/工具",
-        "bestFor": "A massive data breach involving driver's licenses has come to light following an investigation by cybersecurity journalist Brian Krebs. The breach appears to ce",
-        "description": "A massive data breach involving driver's licenses has come to light following an investigation by cybersecurity journalist Brian Krebs. The breach appears to center on Nexus, a dar",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RocketNews | Top News Stories From Around the Globe",
-        "url": "https://rocketnews.com/2026/09/i-rented-a-car-and-within-hours-my-drivers-license-was-for-sale/"
-      },
-      {
-        "name": "Google, Microsoft and OpenAI among 100 firms calling for bet",
-        "provider": "RocketNews | Top News Stories From Around the Globe",
-        "type": "AI 项目/工具",
-        "bestFor": "One hundred companies, including Google, Microsoft, OpenAI, Anthropic, Capital One, MasterCard, Visa, Adobe, Oracle, and IBM, have jointly released a letter war",
-        "description": "One hundred companies, including Google, Microsoft, OpenAI, Anthropic, Capital One, MasterCard, Visa, Adobe, Oracle, and IBM, have jointly released a letter warning that cybersecur",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RocketNews | Top News Stories From Around the Globe",
-        "url": "https://rocketnews.com/2026/09/google-microsoft-and-openai-among-100-firms-calling-for-better-cyber-defences-3/"
       }
     ],
     "ai-business": [
+      {
+        "name": "Tuya Smart Unveils Doova at IFA 2026, an AI Home Companion R",
+        "provider": "Thailand Business News",
+        "type": "AI 项目/工具",
+        "bestFor": "BERLIN, Sept. 5, 2026 /PRNewswire/ -- Tuya Smart (NYSE: TUYA; HKEX: 2391), a global AI cloud platform service provider, today unveiled Doova, its new AI home co",
+        "description": "BERLIN, Sept. 5, 2026 /PRNewswire/ -- Tuya Smart (NYSE: TUYA; HKEX: 2391), a global AI cloud platform service provider, today unveiled Doova, its new AI home companion robot, at IF",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Thailand Business News",
+        "url": "https://www.thailand-business-news.com/pr-news/tuya-smart-unveils-doova-at-ifa-2026-an-ai-home-companion-robot-designed-to-support-independently-living-seniors"
+      },
+      {
+        "name": "iFLYTEK Showcases AI Across Work, Home and Marketing at IFA ",
+        "provider": "FinanzNachrichten.de",
+        "type": "AI 项目/工具",
+        "bestFor": "Turning core AI capabilities into practical tools for work and everyday life\n\nBERLIN, Sept. 05, 2026 (GLOBE NEWSWIRE) -- iFLYTEK is showcasing its AI products a",
+        "description": "Turning core AI capabilities into practical tools for work and everyday life\n\nBERLIN, Sept. 05, 2026 (GLOBE NEWSWIRE) -- iFLYTEK is showcasing its AI products and solutions at IFA ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "FinanzNachrichten.de",
+        "url": "https://www.finanznachrichten.de/nachrichten-2026-09/69502079-iflytek-showcases-ai-across-work-home-and-marketing-at-ifa-2026-399.htm"
+      },
+      {
+        "name": "iFLYTEK Showcases AI Across Work, Home and Marketing at IFA ",
+        "provider": "The Manila times",
+        "type": "AI 项目/工具",
+        "bestFor": "Turning core AI capabilities into practical tools for work and everyday life\n\nBERLIN, Sept. 05, 2026 (GLOBE NEWSWIRE) -- iFLYTEK is showcasing its AI products a",
+        "description": "Turning core AI capabilities into practical tools for work and everyday life\n\nBERLIN, Sept. 05, 2026 (GLOBE NEWSWIRE) -- iFLYTEK is showcasing its AI products and solutions at IFA ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Manila times",
+        "url": "https://www.manilatimes.net/2026/09/05/tmt-newswire/globenewswire/iflytek-showcases-ai-across-work-home-and-marketing-at-ifa-2026/2419175"
+      },
       {
         "name": "Midea Unveils New AI-Powered Home Ecosystem And Appliances A",
         "provider": "Market Screener",
@@ -7365,39 +7398,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Trade Brains",
         "url": "https://tradebrains.in/indian-markets/8-mid-cap-stocks-with-positive-free-cash-flow-to-keep-on-your-radar-12447140"
-      },
-      {
-        "name": "Ford's India GCC to hire 500, bets on AI and connected vehic",
-        "provider": "ETCIO.com",
-        "type": "AI 项目/工具",
-        "bestFor": "The hiring plans come as Ford undergoes a broader transformation amid intensifying competition and rapid technological change in the automotive industry\n\nFord B",
-        "description": "The hiring plans come as Ford undergoes a broader transformation amid intensifying competition and rapid technological change in the automotive industry\n\nFord Business Solutions (F",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "ETCIO.com",
-        "url": "https://cio.economictimes.indiatimes.com/news/corporate-news/fords-india-gcc-to-hire-500-bets-on-ai-and-connected-vehicles/133603987"
-      },
-      {
-        "name": "Machine learning algorithm sets Apple stock price for iPhone",
-        "provider": "Finbold",
-        "type": "AI 项目/工具",
-        "bestFor": "Apple (NASDAQ: AAPL) stock is in focus as the market expects the company to launch its first foldable iPhone model on September 9.\n\nAs the shares have been quit",
-        "description": "Apple (NASDAQ: AAPL) stock is in focus as the market expects the company to launch its first foldable iPhone model on September 9.\n\nAs the shares have been quite volatile over the ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Finbold",
-        "url": "https://finbold.com/machine-learning-algorithm-sets-apple-stock-price-for-iphone-fold-september-9-launch/"
-      },
-      {
-        "name": "SMM learned that buyout quotes for H200 PCIe complete system",
-        "provider": "news.metal.com",
-        "type": "AI 项目/工具",
-        "bestFor": "SMM has learned that a certain MaaS platform is currently selling DeepSeek-V4-Flash model tokens at 78% of DeepSeek's official website price. The sales side als",
-        "description": "SMM has learned that a certain MaaS platform is currently selling DeepSeek-V4-Flash model tokens at 78% of DeepSeek's official website price. The sales side also has a policy: \"If ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "news.metal.com",
-        "url": "https://news.metal.com/newscontent/104086419-smm-computing-power-flash-h200-pcie-buyout-at-435-million-20-lower-than-hgx"
       }
     ],
     "ai-benchmark": [
@@ -10380,7 +10380,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-05",
-    "generatedAt": "2026-09-05T08:43:27.957808Z",
+    "generatedAt": "2026-09-05T11:14:40.441555Z",
     "total": 13,
     "sections": [
       {
@@ -22729,6 +22729,18 @@
     ]
   },
   "benchmarkDatasets": [
+    {
+      "name": "Terminal-Bench",
+      "area": "代码 / 软件工程",
+      "note": "What does OpenAI claim it can do?\n\nOn benchmarks published by the company, Astra scored 98% on FrontierMath Tier 4, 99.9% on ARC-AGI-3 and 57.9% on Terminal-Bench 4.0, a software-e",
+      "source": "https://theprint.in/tech/gpt-6-astra-is-here-what-openais-new-model-can-do/3033803/",
+      "sourceName": "ThePrint",
+      "date": "2026-09-05",
+      "originTitle": "GPT-6 Astra is here. What OpenAI's new model can do",
+      "evaluates": [],
+      "useCases": [],
+      "limitations": []
+    },
     {
       "name": "FLY-EVAL",
       "area": "AI 模型能力评测",
