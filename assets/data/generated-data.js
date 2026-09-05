@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-05",
-  "generatedAt": "2026-09-05T11:14:40.469555Z",
+  "generatedAt": "2026-09-05T13:45:28.674298Z",
   "news": [
     {
       "title": "Deploy a multimodal WhatsApp ordering assistant with Amazon Bedrock AgentCore",
@@ -5634,6 +5634,28 @@ window.AI_GENERATED_DATA = {
   "topicResources": {
     "ai-coding": [
       {
+        "name": "GPT-6 Astra vs GPT-5.6 Sol: क्या बदला? Reasoning, Coding और ",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenAI का नया AI मॉडल GPT-6 Astra आ गया है, जो कंप्यूटर पर मल्टी-स्टेप टास्क खुद कर सकता है. यह GPT-5.6 Sol से Reasoning, Coding और Cybersecurity में कहीं बेहतर",
+        "description": "OpenAI का नया AI मॉडल GPT-6 Astra आ गया है, जो कंप्यूटर पर मल्टी-स्टेप टास्क खुद कर सकता है. यह GPT-5.6 Sol से Reasoning, Coding और Cybersecurity में कहीं बेहतर है. जानिए इसकी खासि",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI coding tool",
+        "url": "https://www.prabhatkhabar.com/technology/openais-gpt-6-astra-the-ai-that-can-operate-computers-and-revolutionize-cybersecurity"
+      },
+      {
+        "name": "How Teachers Are Shaping Education Around What AI Can't Teac",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "New Delhi [India], September 5: Teacher’s Day 2026 comes as India’s education system is being asked to prepare students for a very different economy. AI and dig",
+        "description": "New Delhi [India], September 5: Teacher’s Day 2026 comes as India’s education system is being asked to prepare students for a very different economy. AI and digital platforms have ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI coding tool",
+        "url": "https://www.aninews.in/news/business/how-teachers-are-shaping-education-around-what-ai-cant-teach-in-202720260905144937/"
+      },
+      {
         "name": "This $40 AI tool could turn your side-hustle idea into an ac",
         "provider": "Mashable",
         "type": "AI 项目/工具",
@@ -6050,31 +6072,86 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Quartz",
         "url": "https://qz.com/zai-ox-alpha-glm-53-flash-chinese-chips-082826"
-      },
-      {
-        "name": "AI 工程师笔记本：在 Colab 上免费、无需框架即可使用 RAG/智能体/评估工具",
-        "provider": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "type": "AI 项目/工具",
-        "bestFor": "一套可运行的 Colab 笔记本，面向 AI 工程师与 FDE 技能栈，用原始 API 而非框架构建基于基础模型的系统，覆盖提示词、RAG、评估、智能体、微调与服务化。全部在免费 Groq API 上运行，无需信用卡；LoRA 微调和自托管服务提供概念讲解及可选的 Colab-GPU 附录。包含三个端到端案例研究，且全",
-        "description": "一套可运行的 Colab 笔记本，面向 AI 工程师与 FDE 技能栈，用原始 API 而非框架构建基于基础模型的系统，覆盖提示词、RAG、评估、智能体、微调与服务化。全部在免费 Groq API 上运行，无需信用卡；LoRA 微调和自托管服务提供概念讲解及可选的 Colab-GPU 附录。包含三个端到端案例研究，且全程兼容 OpenAI API，模式可直接",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "url": "https://github.com/calmrocks/ai-engineer-notebooks"
-      },
-      {
-        "name": "Anthropic wants AI agents to control lab machines, giving Cl",
-        "provider": "India Today",
-        "type": "AI 项目/工具",
-        "bestFor": "The buzz around AI seems to be shifting to AI agents. And they are doing pretty well using computers. They can write code for you, browse the web, analyse docum",
-        "description": "The buzz around AI seems to be shifting to AI agents. And they are doing pretty well using computers. They can write code for you, browse the web, analyse documents and even carry ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "India Today",
-        "url": "https://www.indiatoday.in/technology/news/story/anthropic-wants-ai-agents-to-control-lab-machines-giving-claude-hands-to-work-2981676-2026-08-28"
       }
     ],
     "ai-agents": [
+      {
+        "name": "US, China gear up for mid-September AI safety talks",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "This comes as rapidly advancing frontier AI capabilities reach a global tipping point.",
+        "description": "This comes as rapidly advancing frontier AI capabilities reach a global tipping point.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.businesstimes.com.sg/international/us-china-gear-mid-september-ai-safety-talks"
+      },
+      {
+        "name": "OpenAI GPT-6 Astra Rolls Out to Limited Organizations Ahead ",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenAI has begun rolling out GPT-6 Astra, its latest flagship artificial intelligence model, initially making it available to a limited group of organizations b",
+        "description": "OpenAI has begun rolling out GPT-6 Astra, its latest flagship artificial intelligence model, initially making it available to a limited group of organizations before expanding acce",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.tekedia.com/openai-gpt-6-astra-rolls-out-to-limited-organizations-ahead-of-public-release/"
+      },
+      {
+        "name": "numbat – AI agent observability, (Fri, Sep 4th)",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "â€‹â€‹â€‹â€‹â€‹â€‹â€‹ Read more → The post numbat – AI agent observability, (Fri, Sep 4th) appeared first on IT Security News .",
+        "description": "â€‹â€‹â€‹â€‹â€‹â€‹â€‹ Read more → The post numbat – AI agent observability, (Fri, Sep 4th) appeared first on IT Security News .",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.itsecuritynews.info/numbat-ai-agent-observability-fri-sep-4th/"
+      },
+      {
+        "name": "OpenAI agents went rogue on a German website... again",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "WASHINGTON, Sept 5 — Thousands of autonomous AI agents built by OpenAI defied their instructions and took over a G...",
+        "description": "WASHINGTON, Sept 5 — Thousands of autonomous AI agents built by OpenAI defied their instructions and took over a G...",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.malaymail.com/news/tech-gadgets/2026/09/05/openai-agents-went-rogue-on-a-german-website-again/233976"
+      },
+      {
+        "name": "CIO 2027 Checklist: 10 IT Priorities for Building an AI-Read",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Discover 10 key IT priorities CIOs should focus on in 2027 to build an AI-ready enterprise with strong data, security, governance, cost control and skills.",
+        "description": "Discover 10 key IT priorities CIOs should focus on in 2027 to build an AI-ready enterprise with strong data, security, governance, cost control and skills.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.analyticsinsight.net/artificial-intelligence/cio-2027-checklist-10-it-priorities-for-building-an-ai-ready-enterprise"
+      },
+      {
+        "name": "AI Tool of the Week: this Perplexity feature turns your inbo",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "What if your inbox could hand work straight to AI? Perplexity’s Computer in Email lets you forward an email and its attachments to an AI agent, which reads the ",
+        "description": "What if your inbox could hand work straight to AI? Perplexity’s Computer in Email lets you forward an email and its attachments to an AI agent, which reads the thread and gets to w",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.livemint.com/ai/perplexity-computer-in-email-ai-agents-artificial-intelligence-email-productivity-automation-workplace-ai-11788424180872.html"
+      },
+      {
+        "name": "“Daybreak for Frontline Defenders:” OpenAI Pledges $1bn to C",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenAI said Thursday it will commit $1 billion in subsidized access to its artificial intelligence cybersecurity tools, training and technical support for organ",
+        "description": "OpenAI said Thursday it will commit $1 billion in subsidized access to its artificial intelligence cybersecurity tools, training and technical support for organizations responsible",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.tekedia.com/daybreak-for-frontline-defenders-openai-pledges-1bn-to-cybersecurity-as-ai-powered-attacks-escalate/"
+      },
       {
         "name": "Ammonnews : Google's Gemini Spark can now manage your Google",
         "provider": "وكاله عمون الاخباريه",
@@ -6437,83 +6514,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · AWS Machine Learning",
         "url": "https://aws.amazon.com/blogs/machine-learning/migrate-agentic-workloads-to-amazon-bedrock-agentcore/"
-      },
-      {
-        "name": "Google Cloud 教你用 Cloud Run instances 以每月 $5.70 搭建常驻 Agent",
-        "provider": "Google AI：DEV 作者专属（RSS）",
-        "type": "AI 项目/工具",
-        "bestFor": "Shir Meir Lador 在 Google AI 开发者博客介绍如何用 Cloud Run instances 以每月 $5.70（1 vCPU、1Gi 内存、共享 CPU）在云端 24/7 运行常驻 Agent。",
-        "description": "Shir Meir Lador 在 Google AI 开发者博客介绍如何用 Cloud Run instances 以每月 $5.70（1 vCPU、1Gi 内存、共享 CPU）在云端 24/7 运行常驻 Agent。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Google AI：DEV 作者专属（RSS）",
-        "url": "https://dev.to/googleai/build-a-long-running-agent-in-the-cloud-for-570month-113c"
-      },
-      {
-        "name": "Best practices for building agentic automations with Amazon ",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Learn best practices for building production-grade, agent-based business process automations with Amazon Quick Automate: choosing the right process, designing f",
-        "description": "Learn best practices for building production-grade, agent-based business process automations with Amazon Quick Automate: choosing the right process, designing focused agents, combi",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/best-practices-for-building-agentic-automations-with-amazon-quick-automate/"
-      },
-      {
-        "name": "ChatGPT, Claude, and Grok are down for thousands of users ri",
-        "provider": "Notebookcheck",
-        "type": "AI 项目/工具",
-        "bestFor": "Popular AI agents such as ChatGPT, Claude and Grok seem to be down for multiple users. Google Gemini seems to be unaffected, as does Claude's Haiku.\n\nIt appears",
-        "description": "Popular AI agents such as ChatGPT, Claude and Grok seem to be down for multiple users. Google Gemini seems to be unaffected, as does Claude's Haiku.\n\nIt appears that the AI-pocalyp",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Notebookcheck",
-        "url": "https://www.notebookcheck.net/ChatGPT-Claude-and-Grok-are-down-for-thousands-of-users-right-now.1387640.0.html"
-      },
-      {
-        "name": "EliseAI Unveils Apollo, One AI Teammate Built to Work Across",
-        "provider": "The Montreal Gazette",
-        "type": "AI 项目/工具",
-        "bestFor": "NEW YORK, Sept. 03, 2026 (GLOBE NEWSWIRE) -- EliseAI, the leading AI company automating complex housing systems, today announced Apollo, its first agentic AI te",
-        "description": "NEW YORK, Sept. 03, 2026 (GLOBE NEWSWIRE) -- EliseAI, the leading AI company automating complex housing systems, today announced Apollo, its first agentic AI teammate. Apollo is a ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Montreal Gazette",
-        "url": "https://montrealgazette.com/press-releases/globe-newswire/eliseai-unveils-apollo-one-ai-teammate-built-to-work-across-every-multifamily-role/"
-      },
-      {
-        "name": "AI agents can now remember and hackers can 'poison' their me",
-        "provider": "The Conversation",
-        "type": "AI 项目/工具",
-        "bestFor": "Artificial intelligence systems are starting to do more than answer questions. New AI \"agents\" can remember information from previous interactions, plan a serie",
-        "description": "Artificial intelligence systems are starting to do more than answer questions. New AI \"agents\" can remember information from previous interactions, plan a series of steps and use d",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Conversation",
-        "url": "https://theconversation.com/ai-agents-can-now-remember-and-hackers-can-poison-their-memories-a-new-cybersecurity-threat-290024"
-      },
-      {
-        "name": "How OpenAI let a mob of LLM agents game a test and ransack H",
-        "provider": "RocketNews | Top News Stories From Around the Globe",
-        "type": "AI 项目/工具",
-        "bestFor": "An investigation by the AI research nonprofit METR revealed that roughly 1,200 OpenAI agents participated in an unauthorized incursion into Hugging Face's syste",
-        "description": "An investigation by the AI research nonprofit METR revealed that roughly 1,200 OpenAI agents participated in an unauthorized incursion into Hugging Face's systems during last month",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RocketNews | Top News Stories From Around the Globe",
-        "url": "https://rocketnews.com/2026/09/how-openai-let-a-mob-of-llm-agents-game-a-test-and-ransack-hugging-face-2/"
-      },
-      {
-        "name": "'We will be outnumbered 46 to 1 by AI agents,' says cybersec",
-        "provider": "Khaleej times",
-        "type": "AI 项目/工具",
-        "bestFor": "Controlling agents at the action, not access level has been the biggest change in implementing artificial intelligence in the past six months, said the Delinea ",
-        "description": "Controlling agents at the action, not access level has been the biggest change in implementing artificial intelligence in the past six months, said the Delinea VP\n\nPeople in an org",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Khaleej times",
-        "url": "https://www.khaleejtimes.com/business/tech/outnumbered-by-ai-agents-cybersecurity-leader-mortada-ayad"
       }
     ],
     "ai-models": [
@@ -6960,6 +6960,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-business": [
       {
+        "name": "All It Takes Is $10,000 Invested in This Dividend Stock to G",
+        "provider": "The Motley Fool",
+        "type": "AI 项目/工具",
+        "bestFor": "Identifying high-quality businesses that send investors cash every single quarter is a great way to allocate your capital.\n\nInstead of always chasing the popula",
+        "description": "Identifying high-quality businesses that send investors cash every single quarter is a great way to allocate your capital.\n\nInstead of always chasing the popular growth stocks, def",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Motley Fool",
+        "url": "https://www.fool.com/investing/2026/09/05/10000-invested-dividend-stock-241-yearly-income/"
+      },
+      {
         "name": "Tuya Smart Unveils Doova at IFA 2026, an AI Home Companion R",
         "provider": "Thailand Business News",
         "type": "AI 项目/工具",
@@ -7387,17 +7398,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Analytics Insight",
         "url": "https://www.analyticsinsight.net/smartwatch/best-smartwatches-to-buy-this-weekend-galaxy-watch-9-pixel-watch-5-redmi-watch-6-more"
-      },
-      {
-        "name": "8 Mid Cap Stocks With Positive Free Cash Flow to Keep on You",
-        "provider": "Trade Brains",
-        "type": "AI 项目/工具",
-        "bestFor": "Free cash flow (FCF) measures the cash a company generates from its operations after accounting for capital expenditure. Unlike accounting profit, it reflects t",
-        "description": "Free cash flow (FCF) measures the cash a company generates from its operations after accounting for capital expenditure. Unlike accounting profit, it reflects the actual cash avail",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Trade Brains",
-        "url": "https://tradebrains.in/indian-markets/8-mid-cap-stocks-with-positive-free-cash-flow-to-keep-on-your-radar-12447140"
       }
     ],
     "ai-benchmark": [
@@ -10380,7 +10380,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-05",
-    "generatedAt": "2026-09-05T11:14:40.441555Z",
+    "generatedAt": "2026-09-05T13:45:28.651331Z",
     "total": 13,
     "sections": [
       {
