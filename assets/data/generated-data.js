@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-05",
-  "generatedAt": "2026-09-05T03:40:36.413728Z",
+  "generatedAt": "2026-09-05T06:13:37.423880Z",
   "news": [
     {
       "title": "Deploy a multimodal WhatsApp ordering assistant with Amazon Bedrock AgentCore",
@@ -6076,6 +6076,61 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "OpenAI agents hijacked German website in previously undisclo",
+        "provider": "dunyanews.tv",
+        "type": "AI 项目/工具",
+        "bestFor": "Summary Rogue OpenAI agents hijacked a German wiki, making over 15,000 edits to share tactics for evading restrictions and detection, raising concerns over auto",
+        "description": "Summary Rogue OpenAI agents hijacked a German wiki, making over 15,000 edits to share tactics for evading restrictions and detection, raising concerns over autonomous AI behavior.\n",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "dunyanews.tv",
+        "url": "https://dunyanews.tv/en/Technology/971423-openai-agents-hijacked-german-website-in-previously-undisclosed-ai-bre"
+      },
+      {
+        "name": "Midea SMART MASTER at IFA 2026: From AI Agents to Embodied I",
+        "provider": "The City Weekly",
+        "type": "AI 项目/工具",
+        "bestFor": "BERLIN, Sept. 5, 2026 /PRNewswire/ -- Midea has placed SMART MASTER at the centre of its IFA 2026 showcase. Guided by this year's \"Simply ideal\" philosophy, SMA",
+        "description": "BERLIN, Sept. 5, 2026 /PRNewswire/ -- Midea has placed SMART MASTER at the centre of its IFA 2026 showcase. Guided by this year's \"Simply ideal\" philosophy, SMART MASTER is Midea's",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The City Weekly",
+        "url": "https://www.thecityweekly.com.au/midea-smart-master-at-ifa-2026-from-ai-agents-to-embodied-intelligence/"
+      },
+      {
+        "name": "OpenAI Rogue Agents Hacked German Wiki Before Hugging Face F",
+        "provider": "https",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenAI agents allegedly hijacked a German programming wiki in May and made more than 15,000 edits\n\nResearchers said the agents used the site to exchange tactics",
+        "description": "OpenAI agents allegedly hijacked a German programming wiki in May and made more than 15,000 edits\n\nResearchers said the agents used the site to exchange tactics, evade restrictions",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "https://www.outlookbusiness.com/",
+        "url": "https://www.outlookbusiness.com/deeptech/openai-rogue-agents-german-dsewiki-hijacking-hugging-face-breach"
+      },
+      {
+        "name": "OpenAI AI agents hack German site in undisclosed incident, u",
+        "provider": "Digit",
+        "type": "AI 项目/工具",
+        "bestFor": "Researchers found more than 15,000 edits on DseWiki, a German wiki site used mainly by programmers.\n\nA group of OpenAI AI agents reportedly took over a German w",
+        "description": "Researchers found more than 15,000 edits on DseWiki, a German wiki site used mainly by programmers.\n\nA group of OpenAI AI agents reportedly took over a German website earlier this ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Digit",
+        "url": "https://www.digit.in/news/general/openai-ai-agents-hack-german-site-in-undisclosed-incident-use-it-to-coordinate-and-bypass-restrictions.html"
+      },
+      {
+        "name": "Midea SMART MASTER at IFA 2026: From AI Agents to Embodied I",
+        "provider": "Australian Bloggers",
+        "type": "AI 项目/工具",
+        "bestFor": "BERLIN, Sept. 5, 2026 /PRNewswire/ -- Midea has placed SMART MASTER at the centre of its IFA 2026 showcase. Guided by this year's \"Simply ideal\" philosophy, SMA",
+        "description": "BERLIN, Sept. 5, 2026 /PRNewswire/ -- Midea has placed SMART MASTER at the centre of its IFA 2026 showcase. Guided by this year's \"Simply ideal\" philosophy, SMART MASTER is Midea's",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Australian Bloggers",
+        "url": "https://balticbusinessnews.com/midea-smart-master-at-ifa-2026-from-ai-agents-to-embodied-intelligence/"
+      },
+      {
         "name": "Google's Gemini Spark gains control of Google Photos",
         "provider": "Economy.pk",
         "type": "AI 项目/工具",
@@ -6459,64 +6514,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Mirage News",
         "url": "https://www.miragenews.com/asus-unveils-proart-pcs-with-nvidia-rtx-at-ifa-1738086/"
-      },
-      {
-        "name": "OpenAI: OpenAI is building 'automated shutdown' capabilities",
-        "provider": "Economic Times",
-        "type": "AI 项目/工具",
-        "bestFor": "The company's safety practices have come under scrutiny since OpenAI, ⁠the company ⁠behind ChatGPT, disclosed that one of its AI agents went rogue during a secu",
-        "description": "The company's safety practices have come under scrutiny since OpenAI, ⁠the company ⁠behind ChatGPT, disclosed that one of its AI agents went rogue during a security test and hacked",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Economic Times",
-        "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-is-building-automated-shutdown-capabilities-for-ai-tools-letter-to-lawmakers-says/articleshow/133725313.cms"
-      },
-      {
-        "name": "Meta Pushes Its New AI Agent on Employees -- but Eases Off o",
-        "provider": "Wired",
-        "type": "AI 项目/工具",
-        "bestFor": "Meta is formally ending what amounted to a tokenmaxxing incentive program for employees. In an internal announcement this week, the social media giant told work",
-        "description": "Meta is formally ending what amounted to a tokenmaxxing incentive program for employees. In an internal announcement this week, the social media giant told workers that their perfo",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Wired",
-        "url": "https://www.wired.com/story/meta-pushes-its-new-ai-agent-on-employees-but-eases-off-on-tokenmaxxing/"
-      },
-      {
-        "name": "The New Identity Security Challenge: Governing Humans, Machi",
-        "provider": "DataBreachToday",
-        "type": "AI 项目/工具",
-        "bestFor": "Agentic AI , AI-Driven Security Operations , Customer Identity & Access Management (CIAM)\n\nIdentity is becoming a strategic security challenge as cloud, automat",
-        "description": "Agentic AI , AI-Driven Security Operations , Customer Identity & Access Management (CIAM)\n\nIdentity is becoming a strategic security challenge as cloud, automation and AI reshape h",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "DataBreachToday",
-        "url": "https://www.databreachtoday.com/webinars/new-identity-security-challenge-governing-humans-machines-ai-agents-w-7290"
-      },
-      {
-        "name": "An Organizational Second Brain: Building an AI That Learns F",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "We’ve built an AI agent that acts as a secondary expert for a given domain, making deep specialist knowledge readily available and preserved for anyone in an or",
-        "description": "We’ve built an AI agent that acts as a secondary expert for a given domain, making deep specialist knowledge readily available and preserved for anyone in an organization to access",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · Meta Engineering",
-        "url": "https://engineering.fb.com/2026/09/02/ml-applications/organizational-second-brain-ai-learns-from-experts/"
-      },
-      {
-        "name": "Trinity: Agentic AI-powered transition planning for students",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Learn how University Startups and its AWS partner g/d/n/a scaled Trinity, a conversational AI solution for students with disabilities, into a serverless multi-a",
-        "description": "Learn how University Startups and its AWS partner g/d/n/a scaled Trinity, a conversational AI solution for students with disabilities, into a serverless multi-agent architecture on",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/trinity-agentic-ai-powered-transition-planning-for-students-with-disabilities/"
       }
     ],
     "ai-models": [
+      {
+        "name": "They loved JFK, Reagan and Obama. Now Middle Ireland is aski",
+        "provider": "Irish Examiner",
+        "type": "AI 项目/工具",
+        "bestFor": "Golf is a passion that as many as one in 10 Irish people share with the 47th president of the USA. Just one of ties that bind the American eagle and the shamroc",
+        "description": "Golf is a passion that as many as one in 10 Irish people share with the 47th president of the USA. Just one of ties that bind the American eagle and the shamrock.\n\nTrump also has a",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Irish Examiner",
+        "url": "https://www.irishexaminer.com/opinion/commentanalysis/arid-41905783.html"
+      },
       {
         "name": "Former Twitter team launches Twitter.now with AI fake-news c",
         "provider": "Bangkok Post",
@@ -6945,20 +6956,31 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Financial Times News",
         "url": "https://www.ft.com/content/c0c8ae73-27fd-4828-aa48-72cdae6613ff"
-      },
-      {
-        "name": "How China Is Harnessing Artificial Intelligence to Transform",
-        "provider": "Alwihda Info - Actualités TCHAD, Afrique, International",
-        "type": "AI 项目/工具",
-        "bestFor": "China is increasingly integrating artificial intelligence into grassroots governance, deploying cost-effective tools to streamline community services while bala",
-        "description": "China is increasingly integrating artificial intelligence into grassroots governance, deploying cost-effective tools to streamline community services while balancing innovation wit",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Alwihda Info - Actualités TCHAD, Afrique, International",
-        "url": "https://www.alwihdainfo.com/how-china-is-harnessing-artificial-intelligence-to-transform-grassroots-governance/"
       }
     ],
     "ai-business": [
+      {
+        "name": "Midea Unveils New AI-Powered Home Ecosystem And Appliances A",
+        "provider": "Market Screener",
+        "type": "AI 项目/工具",
+        "bestFor": "Midea brought its \"Simply ideal\" vision to life through the latest innovations, designed to bring greater intelligence, comfort, efficiency and ease to the home",
+        "description": "Midea brought its \"Simply ideal\" vision to life through the latest innovations, designed to bring greater intelligence, comfort, efficiency and ease to the home. The new SMART MAST",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Market Screener",
+        "url": "https://www.marketscreener.com/news/midea-unveils-new-ai-powered-home-ecosystem-and-appliances-at-ifa-2026-ce785bdbdb8ff522"
+      },
+      {
+        "name": "Asia Shifts from Digital Transformation to Global Leadership",
+        "provider": "Thailand Business News",
+        "type": "AI 项目/工具",
+        "bestFor": "Beyond hardware, major Asia-Pacific economies are developing domestic large language models and sovereign compute infrastructure, backed by significant capital ",
+        "description": "Beyond hardware, major Asia-Pacific economies are developing domestic large language models and sovereign compute infrastructure, backed by significant capital commitments and form",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Thailand Business News",
+        "url": "https://www.thailand-business-news.com/asean/319514-asia-shifts-from-digital-transformation-to-global-leadership"
+      },
       {
         "name": "HTC brings its smart glasses to the US as privacy backlash g",
         "provider": "The Star",
@@ -7376,28 +7398,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "news.metal.com",
         "url": "https://news.metal.com/newscontent/104086419-smm-computing-power-flash-h200-pcie-buyout-at-435-million-20-lower-than-hgx"
-      },
-      {
-        "name": "WhatsApp charges: What Meta's new business messaging fees me",
-        "provider": "People Daily",
-        "type": "AI 项目/工具",
-        "bestFor": "Kenyan businesses that have made WhatsApp a central part of their customer service and sales strategy are facing a new cost of doing business online after Meta ",
-        "description": "Kenyan businesses that have made WhatsApp a central part of their customer service and sales strategy are facing a new cost of doing business online after Meta announced changes to",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "People Daily",
-        "url": "https://peopledaily.digital/business/whatsapp-charges-what-metas-new-business-messaging-fees-mean-for-kenyan-businesses"
-      },
-      {
-        "name": "Nvidia's Jensen Huang Enters the Open-Weight AI Race",
-        "provider": "Tekedia",
-        "type": "AI 项目/工具",
-        "bestFor": "Nvidia CEO Jensen Huang is taking the company deeper into the rapidly expanding open-weight artificial intelligence market.\n\nSignaling that the world's leading ",
-        "description": "Nvidia CEO Jensen Huang is taking the company deeper into the rapidly expanding open-weight artificial intelligence market.\n\nSignaling that the world's leading AI chipmaker wants a",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Tekedia",
-        "url": "https://www.tekedia.com/nvidias-jensen-huang-enters-the-open-weight-ai-race/"
       }
     ],
     "ai-benchmark": [
@@ -10380,7 +10380,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-05",
-    "generatedAt": "2026-09-05T03:40:36.391660Z",
+    "generatedAt": "2026-09-05T06:13:37.391914Z",
     "total": 13,
     "sections": [
       {
