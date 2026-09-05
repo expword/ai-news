@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-05",
-  "generatedAt": "2026-09-04T22:52:31.652640Z",
+  "generatedAt": "2026-09-05T01:14:29.900133Z",
   "news": [
     {
       "title": "Deploy a multimodal WhatsApp ordering assistant with Amazon Bedrock AgentCore",
@@ -2548,200 +2548,6 @@
       "aiSelected": true,
       "moduleTargets": [
         "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "GigaPath-Flash and GigaTIME-Flash: Toward population-scale discovery with efficient pathology foundation models",
-      "summary": "What if pathology foundation models could do more with less? GigaPath-Flash and GigaTIME-Flash cut computational demands while maintaining strong performance, opening the door to l",
-      "category": "ai-research",
-      "source": "RSS · Microsoft Research",
-      "date": "2026-09-01",
-      "publishedAt": "2026-09-01T00:00",
-      "collectedAt": "2026-09-01T01:11",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://www.microsoft.com/en-us/research/blog/gigapath-flash-and-gigatime-flash-toward-population-scale-discovery-with-efficient-pathology-foundation-models/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "MMDS-Bench: Benchmarking Multimodal Large Language Models on Dynamic Stance in Social Media Interactions",
-      "summary": "Dynamic stance classification models how a reply responds to its direct parent message, rather than how a post relates to a fixed topic. Existing work has mainly studied this probl",
-      "category": "ai-benchmark",
-      "source": "arXiv",
-      "date": "2026-08-31",
-      "publishedAt": "",
-      "collectedAt": "2026-09-01T15:52",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-31",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.30903v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "benchmarkDatasets"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "S3C-LLM: Skill-Code Guided Agentic Language Models for Spectrum-to-Structure Elucidation",
-      "summary": "Spectroscopic structure elucidation is central to molecular analysis, but recent Large Language Model (LLM)-based methods mostly formulate it as direct spectrum-to-SMILES generatio",
-      "category": "ai-coding",
-      "source": "arXiv",
-      "date": "2026-08-31",
-      "publishedAt": "",
-      "collectedAt": "2026-09-01T15:52",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-31",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.30910v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "From Prompt to Prototype: Towards a Frontier LLM Driven RF Engineering Workflow",
-      "summary": "Agentic coding environments give a frontier large language model (LLM) direct access to a workstation's terminal, file system, and software. This work demonstrates they extend to p",
-      "category": "ai-coding",
-      "source": "arXiv",
-      "date": "2026-08-31",
-      "publishedAt": "",
-      "collectedAt": "2026-09-01T14:34",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-31",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.31006v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "OpenAI supports California’s bill to advance youth AI safety",
-      "summary": "OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.",
-      "category": "ai-models",
-      "source": "RSS · OpenAI Blog",
-      "date": "2026-08-31",
-      "publishedAt": "2026-08-31T15:00",
-      "collectedAt": "2026-09-01T14:34",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "InsightToast: Proactive Information Retrieval & Glanceable Visualization in the Side Channel of Data-Rich Meetings",
-      "summary": "Missing institutional context during meetings can impede effective participation. Retrieving relevant information, often scattered across heterogeneous internal and external source",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-08-31",
-      "publishedAt": "",
-      "collectedAt": "2026-09-01T14:34",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-31",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.31115v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "S3Gym: Can LLMs Turn Self-Testing and Self-Judging into Self-Improvement?",
-      "summary": "Large language models (LLMs) increasingly interact with external environments and accumulate substantial behavioral experience, yet existing agent benchmarks largely evaluate them ",
-      "category": "ai-benchmark",
-      "source": "arXiv",
-      "date": "2026-08-31",
-      "publishedAt": "",
-      "collectedAt": "2026-09-01T14:34",
-      "dateStatus": "collected",
-      "sourceDate": "2026-08-31",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2608.31100v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
       ],
       "sourceCount": 1
     }
@@ -5855,6 +5661,17 @@
   "topicResources": {
     "ai-coding": [
       {
+        "name": "GPT-6 Astra 开始向 Plus 和 Business 用户推出",
+        "provider": "X：Sam Altman (@sama)",
+        "type": "AI 项目/工具",
+        "bestFor": "Sam Altman 宣布 GPT-6 Astra 现已向所有 Plus 和 Business 用户推出。此前该模型已面向 Pro、Enterprise 和 Business Premium 用户在 Work/Codex 及 API 中提供。",
+        "description": "Sam Altman 宣布 GPT-6 Astra 现已向所有 Plus 和 Business 用户推出。此前该模型已面向 Pro、Enterprise 和 Business Premium 用户在 Work/Codex 及 API 中提供。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "X：Sam Altman (@sama)",
+        "url": "https://x.com/sama/status/2096008528834244741"
+      },
+      {
         "name": "OpenAI 发布 GPT-6 Astra，面向 Pro、Enterprise 和 Business Premium 用",
         "provider": "X：OpenAI (@OpenAI)",
         "type": "AI 项目/工具",
@@ -6282,20 +6099,86 @@
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:AI coding tool",
         "url": "https://www.einpresswire.com/article/937149280/agentarius-launches-an-independent-platform-for-comparing-ai-tools"
-      },
-      {
-        "name": "GLM-5.3-Flash：前沿智能进入普惠时代",
-        "provider": "智谱：研究（网页内嵌数据）",
-        "type": "AI 项目/工具",
-        "bestFor": "智谱上线并开源GLM-5.3-Flash（320B-A18B），这是GLM-5系列首个原生多模态模型，在AA综合智能指数取得57分，与Claude Opus 4.8持平。其定价为GLM-5.3的1/10（限时1/20），为Opus 4.8的1/40，并首次在大规模流量中由国产芯片集群提供算力支持。模型已接入ZCode等",
-        "description": "智谱上线并开源GLM-5.3-Flash（320B-A18B），这是GLM-5系列首个原生多模态模型，在AA综合智能指数取得57分，与Claude Opus 4.8持平。其定价为GLM-5.3的1/10（限时1/20），为Opus 4.8的1/40，并首次在大规模流量中由国产芯片集群提供算力支持。模型已接入ZCode等平台，同步开放API调用。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "智谱：研究（网页内嵌数据）",
-        "url": "https://www.zhipuai.cn/zh/research/163"
       }
     ],
     "ai-agents": [
+      {
+        "name": "Rogue OpenAI agents hijack German website, turn it into an A",
+        "provider": "Crypto Briefing",
+        "type": "AI 项目/工具",
+        "bestFor": "A swarm of over 3,100 autonomous AI agents quietly took over a German programming wiki, making thousands of edits while sharing strategies to bypass their own r",
+        "description": "A swarm of over 3,100 autonomous AI agents quietly took over a German programming wiki, making thousands of edits while sharing strategies to bypass their own restrictions.\n\nResear",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Crypto Briefing",
+        "url": "https://cryptobriefing.com/openai-agents-hijack-german-wiki/"
+      },
+      {
+        "name": "Full-Body AI Agents for Systems Biology and Precision Medici",
+        "provider": "Scienmag",
+        "type": "AI 项目/工具",
+        "bestFor": "Artificial intelligence has transformed biomedical research over the past decade, but most AI systems in biology remain confined to narrow tasks, single data ty",
+        "description": "Artificial intelligence has transformed biomedical research over the past decade, but most AI systems in biology remain confined to narrow tasks, single data types, or one biologic",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Scienmag: Latest Science and Health News",
+        "url": "https://scienmag.com/full-body-ai-agents-for-systems-biology-and-precision-medicine/"
+      },
+      {
+        "name": "Midea SMART MASTER at IFA 2026: From AI Agents to Embodied I",
+        "provider": "Asia Bulletin",
+        "type": "AI 项目/工具",
+        "bestFor": "BERLIN, Sept. 5, 2026 /PRNewswire/ -- Midea has placed SMART MASTER at the centre of its IFA 2026 showcase. Guided by this year's \"Simply ideal\" philosophy, SMA",
+        "description": "BERLIN, Sept. 5, 2026 /PRNewswire/ -- Midea has placed SMART MASTER at the centre of its IFA 2026 showcase. Guided by this year's \"Simply ideal\" philosophy, SMART MASTER is Midea's",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Asia Bulletin",
+        "url": "https://www.asiabulletin.com/news/279286960/midea-smart-master-at-ifa-2026-from-ai-agents-to-embodied-intelligence"
+      },
+      {
+        "name": "Midea SMART MASTER at IFA 2026: From AI Agents to Embodied I",
+        "provider": "Vietnam Tribune",
+        "type": "AI 项目/工具",
+        "bestFor": "BERLIN, Sept. 5, 2026 /PRNewswire/ -- Midea has placed SMART MASTER at the centre of its IFA 2026 showcase. Guided by this year's \"Simply ideal\" philosophy, SMA",
+        "description": "BERLIN, Sept. 5, 2026 /PRNewswire/ -- Midea has placed SMART MASTER at the centre of its IFA 2026 showcase. Guided by this year's \"Simply ideal\" philosophy, SMART MASTER is Midea's",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Vietnam Tribune",
+        "url": "https://www.vietnamtribune.com/news/279286960/midea-smart-master-at-ifa-2026-from-ai-agents-to-embodied-intelligence"
+      },
+      {
+        "name": "GreenCore Solutions Corp. (GSC) AI Agent Stack Passes 24.5 M",
+        "provider": "Asia Bulletin",
+        "type": "AI 项目/工具",
+        "bestFor": "Brendan Farrugia, Co-founder and Director of GSC Joint Venture Company GSC Agentic Pty. Ltd., joins the GSC Board of Advisors\n\nVANCOUVER, BC and SYDNEY, Sept. 5",
+        "description": "Brendan Farrugia, Co-founder and Director of GSC Joint Venture Company GSC Agentic Pty. Ltd., joins the GSC Board of Advisors\n\nVANCOUVER, BC and SYDNEY, Sept. 5, 2026 /PRNewswire/ ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Asia Bulletin",
+        "url": "https://www.asiabulletin.com/news/279286959/greencore-solutions-corp-gsc-ai-agent-stack-passes-245-million-inbound-ai-agent-transactions-in-30-days"
+      },
+      {
+        "name": "GreenCore Solutions Corp. (GSC) AI Agent Stack Passes 24.5 M",
+        "provider": "Vietnam Tribune",
+        "type": "AI 项目/工具",
+        "bestFor": "Brendan Farrugia, Co-founder and Director of GSC Joint Venture Company GSC Agentic Pty. Ltd., joins the GSC Board of Advisors\n\nVANCOUVER, BC and SYDNEY, Sept. 5",
+        "description": "Brendan Farrugia, Co-founder and Director of GSC Joint Venture Company GSC Agentic Pty. Ltd., joins the GSC Board of Advisors\n\nVANCOUVER, BC and SYDNEY, Sept. 5, 2026 /PRNewswire/ ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Vietnam Tribune",
+        "url": "https://www.vietnamtribune.com/news/279286959/greencore-solutions-corp-gsc-ai-agent-stack-passes-245-million-inbound-ai-agent-transactions-in-30-days"
+      },
+      {
+        "name": "GreenCore Solutions Corp. (GSC) AI Agent Stack Passes 24.5 M",
+        "provider": "Malaysia Sun",
+        "type": "AI 项目/工具",
+        "bestFor": "Brendan Farrugia, Co-founder and Director of GSC Joint Venture Company GSC Agentic Pty. Ltd., joins the GSC Board of Advisors\n\nVANCOUVER, BC and SYDNEY, Sept. 5",
+        "description": "Brendan Farrugia, Co-founder and Director of GSC Joint Venture Company GSC Agentic Pty. Ltd., joins the GSC Board of Advisors\n\nVANCOUVER, BC and SYDNEY, Sept. 5, 2026 /PRNewswire/ ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Malaysia Sun",
+        "url": "https://www.malaysiasun.com/news/279286959/greencore-solutions-corp-gsc-ai-agent-stack-passes-245-million-inbound-ai-agent-transactions-in-30-days"
+      },
       {
         "name": "Deploy a multimodal WhatsApp ordering assistant with Amazon ",
         "provider": "RSS",
@@ -6658,83 +6541,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Claude：Blog（网页）",
         "url": "https://claude.com/blog/the-anatomy-of-effective-commerce-agents"
-      },
-      {
-        "name": "Google 总结 AI Agents Challenge 中最强提交背后的 4 个工程模式",
-        "provider": "Google Developers Blog（RSS）",
-        "type": "AI 项目/工具",
-        "bestFor": "Google 复盘 AI Agents Challenge 赛事，从各赛道头部提交中提炼出四个工程模式：双向 MCP、事件驱动并发、同标准回退和分层路由。",
-        "description": "Google 复盘 AI Agents Challenge 赛事，从各赛道头部提交中提炼出四个工程模式：双向 MCP、事件驱动并发、同标准回退和分层路由。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Google Developers Blog（RSS）",
-        "url": "https://developers.googleblog.com/4-engineering-patterns-behind-the-strongest-ai-agents-challenge-submissions"
-      },
-      {
-        "name": "什么是 harness 工程？Google 用 ADK 2.0 与 Antigravity SDK 演示自动修复编码循环",
-        "provider": "Google AI：DEV 作者专属（RSS）",
-        "type": "AI 项目/工具",
-        "bestFor": "Google 员工 Shir Meir Lador 介绍 harness 工程，即用确定性组件包裹 LLM，包括编排层、执行沙箱、状态持久化和验证工具，让 Agent 不需逐行人工审查即可安全生成代码。",
-        "description": "Google 员工 Shir Meir Lador 介绍 harness 工程，即用确定性组件包裹 LLM，包括编排层、执行沙箱、状态持久化和验证工具，让 Agent 不需逐行人工审查即可安全生成代码。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Google AI：DEV 作者专属（RSS）",
-        "url": "https://dev.to/googleai/what-is-harness-engineering-and-why-should-i-care-8n0"
-      },
-      {
-        "name": "Test Phenom AI Agents for Hiring, Development and Retention ",
-        "provider": "FinanzNachrichten.de",
-        "type": "AI 项目/工具",
-        "bestFor": "Phenom Offers Attendees Immersive Experience Using Live Agentic Use Cases for Their Own Industries, Roles and Workflows\n\nPhenom, the leader in applied AI built ",
-        "description": "Phenom Offers Attendees Immersive Experience Using Live Agentic Use Cases for Their Own Industries, Roles and Workflows\n\nPhenom, the leader in applied AI built to redesign work ope",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "FinanzNachrichten.de",
-        "url": "https://www.finanznachrichten.de/nachrichten-2026-09/69476540-test-phenom-ai-agents-for-hiring-development-and-retention-at-hr-s-biggest-fall-events-004.htm"
-      },
-      {
-        "name": "AI agent orchestration: Emerging skill shaping the future of",
-        "provider": "Tribune Online",
-        "type": "AI 项目/工具",
-        "bestFor": "Artificial intelligence has moved past the simple wonder of creating text or images. The conversation is shifting toward a much more exciting possibility: the a",
-        "description": "Artificial intelligence has moved past the simple wonder of creating text or images. The conversation is shifting toward a much more exciting possibility: the ability for AI system",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Tribune Online",
-        "url": "https://tribuneonlineng.com/ai-agent-orchestration-emerging-skill-shaping-the-future-of-work/"
-      },
-      {
-        "name": "Walnut Launches Enterprise AI Agent Platform to Personalize ",
-        "provider": "The Next Web",
-        "type": "AI 项目/工具",
-        "bestFor": "For B2B software companies, product-led buying has created a new challenge: buyers increasingly expect to explore products on their own terms, while go-to-marke",
-        "description": "For B2B software companies, product-led buying has created a new challenge: buyers increasingly expect to explore products on their own terms, while go-to-market teams still have l",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Next Web",
-        "url": "https://thenextweb.com/news/walnut-launches-enterprise-ai-agent-platform"
-      },
-      {
-        "name": "Earnings call transcript: Cyclopharm posts record H1 2026 re",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Earnings call transcript: Cyclopharm posts record H1 2026 revenue as U.S. rollout gains pace",
-        "description": "Earnings call transcript: Cyclopharm posts record H1 2026 revenue as U.S. rollout gains pace",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://au.investing.com/news/stock-market-news/earnings-call-transcript-cyclopharm-posts-record-h1-2026-revenue-as-us-rollout-gains-pace-93CH-4625558"
-      },
-      {
-        "name": "AI gentlemen will hack your company for 4 bucks: we caught a",
-        "provider": "Cybernews",
-        "type": "AI 项目/工具",
-        "bestFor": "Researchers urge companies to rotate exposed credentials, monitor GitLab access, and keep vulnerable software updated.\n\nAn AI agent is hacking and extorting doz",
-        "description": "Researchers urge companies to rotate exposed credentials, monitor GitLab access, and keep vulnerable software updated.\n\nAn AI agent is hacking and extorting dozens of victims simul",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Cybernews",
-        "url": "https://cybernews.com/security/exposed-ransomware-server-reveals-automated-4-dollar-cyberattacks/"
       }
     ],
     "ai-models": [
@@ -10601,7 +10407,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-05",
-    "generatedAt": "2026-09-04T22:52:31.630643Z",
+    "generatedAt": "2026-09-05T01:14:29.878134Z",
     "total": 13,
     "sections": [
       {
