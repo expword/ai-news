@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-05",
-  "generatedAt": "2026-09-05T01:14:29.900133Z",
+  "generatedAt": "2026-09-05T03:40:36.413728Z",
   "news": [
     {
       "title": "Deploy a multimodal WhatsApp ordering assistant with Amazon Bedrock AgentCore",
@@ -2521,33 +2521,6 @@
       "moduleTargets": [
         "news",
         "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "TimesFM-3: A zero-shot foundation model for multivariate forecasting",
-      "summary": "Data Management",
-      "category": "ai-models",
-      "source": "RSS · Google Research",
-      "date": "2026-09-01",
-      "publishedAt": "2026-09-01T01:19",
-      "collectedAt": "2026-09-01T02:21",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://research.google/blog/timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
       ],
       "sourceCount": 1
     }
@@ -6103,6 +6076,17 @@
     ],
     "ai-agents": [
       {
+        "name": "Google's Gemini Spark gains control of Google Photos",
+        "provider": "Economy.pk",
+        "type": "AI 项目/工具",
+        "bestFor": "Google's Gemini Spark Gains Control of Google Photos\n\nGoogle is enhancing its services with artificial intelligence by allowing Gemini Spark, its personal agent",
+        "description": "Google's Gemini Spark Gains Control of Google Photos\n\nGoogle is enhancing its services with artificial intelligence by allowing Gemini Spark, its personal agent, to manage users' G",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Economy.pk",
+        "url": "https://www.economy.pk/news/googles-gemini-spark-gains-control-of-google-photos"
+      },
+      {
         "name": "Rogue OpenAI agents hijack German website, turn it into an A",
         "provider": "Crypto Briefing",
         "type": "AI 项目/工具",
@@ -6530,20 +6514,31 @@
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · AWS Machine Learning",
         "url": "https://aws.amazon.com/blogs/machine-learning/trinity-agentic-ai-powered-transition-planning-for-students-with-disabilities/"
-      },
-      {
-        "name": "Anthropic 发布电商 Agent 架构与生产实践指南，并开源 commerce-agents 参考实现",
-        "provider": "Claude：Blog（网页）",
-        "type": "AI 项目/工具",
-        "bestFor": "Anthropic 发布电商 Agent 构建指南，基于与零售、旅游、电信等团队的落地经验，核心架构是单个 Claude 在标准 Agent 循环中配合技能与工具，而非按领域拆分子智能体，并开源了 anthropics/commerce-agents 参考实现，含购物与商家 Agent。",
-        "description": "Anthropic 发布电商 Agent 构建指南，基于与零售、旅游、电信等团队的落地经验，核心架构是单个 Claude 在标准 Agent 循环中配合技能与工具，而非按领域拆分子智能体，并开源了 anthropics/commerce-agents 参考实现，含购物与商家 Agent。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Claude：Blog（网页）",
-        "url": "https://claude.com/blog/the-anatomy-of-effective-commerce-agents"
       }
     ],
     "ai-models": [
+      {
+        "name": "Former Twitter team launches Twitter.now with AI fake-news c",
+        "provider": "Bangkok Post",
+        "type": "AI 项目/工具",
+        "bestFor": "Former Twitter employees have launched a new social media platform called Twitter.now, featuring an automated artificial intelligence (AI) system designed to de",
+        "description": "Former Twitter employees have launched a new social media platform called Twitter.now, featuring an automated artificial intelligence (AI) system designed to detect misinformation ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Bangkok Post",
+        "url": "https://www.bangkokpost.com/life/tech/3314469/former-twitter-team-launches-twitternow-with-ai-fakenews-checks"
+      },
+      {
+        "name": "Hikers rescued after AI misroutes, strands them on Mount Sha",
+        "provider": "The Spokesman Review",
+        "type": "AI 项目/工具",
+        "bestFor": "Three California hikers who used Google's Gemini artificial intelligence assistant to plan their Mount Shasta climb had to be rescued after becoming stranded in",
+        "description": "Three California hikers who used Google's Gemini artificial intelligence assistant to plan their Mount Shasta climb had to be rescued after becoming stranded in a steep canyon, loc",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Spokesman Review",
+        "url": "https://www.spokesman.com/stories/2026/sep/04/hikers-rescued-after-ai-misroutes-strands-them-on-/"
+      },
       {
         "name": "VMware Cloud Foundation 9.1.1 Adds Shared AI Models, but Key",
         "provider": "eWEEK",
@@ -6961,28 +6956,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Alwihda Info - Actualités TCHAD, Afrique, International",
         "url": "https://www.alwihdainfo.com/how-china-is-harnessing-artificial-intelligence-to-transform-grassroots-governance/"
-      },
-      {
-        "name": "The world appears to be entering a higher-rate era. Here's w",
-        "provider": "CNBC",
-        "type": "AI 项目/工具",
-        "bestFor": "* Governments face mounting interest bills as maturing debt is refinanced at higher rates.\n\n* Leveraged companies and lower-income consumers are most vulnerable",
-        "description": "* Governments face mounting interest bills as maturing debt is refinanced at higher rates.\n\n* Leveraged companies and lower-income consumers are most vulnerable to rising borrowing",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "CNBC",
-        "url": "https://www.cnbc.com/2026/09/03/global-bond-yields-rising-treasuries-jgb-bunds.html"
-      },
-      {
-        "name": "From Downing Street to Anthropic: Matt Clifford's Move Spark",
-        "provider": "WebProNews",
-        "type": "AI 项目/工具",
-        "bestFor": "Matt Clifford spent years shaping Britain's approach to artificial intelligence. He advised two prime ministers. He drafted a sweeping action plan. Now he works",
-        "description": "Matt Clifford spent years shaping Britain's approach to artificial intelligence. He advised two prime ministers. He drafted a sweeping action plan. Now he works for one of the comp",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "WebProNews",
-        "url": "https://www.webpronews.com/from-downing-street-to-anthropic-matt-cliffords-move-sparks-fresh-scrutiny-over-ai-influence/"
       }
     ],
     "ai-business": [
@@ -10407,7 +10380,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-05",
-    "generatedAt": "2026-09-05T01:14:29.878134Z",
+    "generatedAt": "2026-09-05T03:40:36.391660Z",
     "total": 13,
     "sections": [
       {
