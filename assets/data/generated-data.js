@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-06",
-  "generatedAt": "2026-09-06T05:26:20.551353Z",
+  "generatedAt": "2026-09-06T07:59:06.186497Z",
   "news": [
     {
       "title": "Claude 完成 Fermat 大定理的形式化证明，生成超 1300 万行 Lean 代码",
@@ -5489,6 +5489,21 @@ window.AI_GENERATED_DATA = {
       "date": "2026-08-05"
     },
     {
+      "name": "OpenBMB/MiniCPM",
+      "lang": "Jupyter Notebook",
+      "description": "MiniCPM5-1B: A SOTA 1B on-device LLM, small yet powerful.",
+      "stars": "10309 stars",
+      "why": "国产大模型厂商 面壁智能 MiniCPM 的最新开源动态/模型发布，属一手信源。",
+      "url": "https://github.com/OpenBMB/MiniCPM",
+      "source": "GitHub · 面壁智能 MiniCPM",
+      "tier": "T1",
+      "category": "Coding Agent",
+      "details": "MiniCPM5-1B: A SOTA 1B on-device LLM, small yet powerful.",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
       "name": "microsoft/AI-For-Beginners",
       "lang": "Jupyter Notebook",
       "description": "12 Weeks, 24 Lessons, AI for All!",
@@ -5498,21 +5513,6 @@ window.AI_GENERATED_DATA = {
       "source": "GitHub Search · 2026-09-04",
       "category": "Coding Agent",
       "details": "12 Weeks, 24 Lessons, AI for All!",
-      "features": [],
-      "useCases": [],
-      "quickStart": []
-    },
-    {
-      "name": "stepfun-ai/SteptronOss",
-      "lang": "Python",
-      "description": "A lightweight, AI-native training framework for large language models. Designed for fast iteration, reproducible experiments, and modular configuration across SFT, RLVR, and evaluation workflows.",
-      "stars": "586 stars",
-      "why": "国产大模型厂商 阶跃星辰 StepFun 的最新开源动态/模型发布，属一手信源。",
-      "url": "https://github.com/stepfun-ai/SteptronOss",
-      "source": "GitHub · 阶跃星辰 StepFun",
-      "tier": "T1",
-      "category": "Coding Agent",
-      "details": "A lightweight, AI-native training framework for large language models. Designed for fast iteration, reproducible experiments, and modular configuration across SFT, RLVR, and evaluation workflows.",
       "features": [],
       "useCases": [],
       "quickStart": []
@@ -6075,6 +6075,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "Cracking 1.33 Trillion Daily Tokens: B.AI Powers the \"AI Gri",
+        "provider": "Crypto Reporter",
+        "type": "AI 项目/工具",
+        "bestFor": "SINGAPORE, Sept. 04, 2026 (GLOBE NEWSWIRE) -- B.AI, a next-generation AI infrastructure platform, recently set off a developer frenzy by offering free access to",
+        "description": "SINGAPORE, Sept. 04, 2026 (GLOBE NEWSWIRE) -- B.AI, a next-generation AI infrastructure platform, recently set off a developer frenzy by offering free access to top-tier models. Wi",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Crypto Reporter",
+        "url": "https://www.crypto-reporter.com/newsfeed/cracking-1-33-trillion-daily-tokens-b-ai-powers-the-ai-grid-with-full-stack-infrastructure-to-fuel-the-agentic-era-130973/"
+      },
+      {
         "name": "Rogue OpenAI agents took over German wiki, researchers say",
         "provider": "Phoenix Herald",
         "type": "AI 项目/工具",
@@ -6502,17 +6513,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "The Manila times",
         "url": "https://www.manilatimes.net/2026/09/04/tmt-newswire/plentisoft/atlas-brings-owner-cloning-ai-to-service-business-customer-communication/2418515"
-      },
-      {
-        "name": "OpenAI Launches GPT-6 Astra With Advanced AI Agent Capabilit",
-        "provider": "EconoTimes",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenAI unveiled GPT-6 Astra on Thursday, describing it as its most capable artificial intelligence model yet as the company confronts growing concerns over the ",
-        "description": "OpenAI unveiled GPT-6 Astra on Thursday, describing it as its most capable artificial intelligence model yet as the company confronts growing concerns over the safety and control o",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "EconoTimes",
-        "url": "https://econotimes.com/OpenAI-Launches-GPT-6-Astra-With-Advanced-AI-Agent-Capabilities-1751258"
       }
     ],
     "ai-models": [
@@ -10379,7 +10379,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-06",
-    "generatedAt": "2026-09-06T05:26:20.528779Z",
+    "generatedAt": "2026-09-06T07:59:06.164495Z",
     "total": 8,
     "sections": [
       {
