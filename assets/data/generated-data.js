@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-06",
-  "generatedAt": "2026-09-06T07:59:06.186497Z",
+  "generatedAt": "2026-09-06T10:27:02.011145Z",
   "news": [
     {
       "title": "Claude 完成 Fermat 大定理的形式化证明，生成超 1300 万行 Lean 代码",
@@ -6517,6 +6517,39 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-models": [
       {
+        "name": "Claude AI chatbot now available on CarPlay",
+        "provider": "NewsBytes",
+        "type": "AI 项目/工具",
+        "bestFor": "Anthropic has integrated its AI chatbot, Claude, with Apple's CarPlay platform. The integration allows users to interact with the Claude app through their car's",
+        "description": "Anthropic has integrated its AI chatbot, Claude, with Apple's CarPlay platform. The integration allows users to interact with the Claude app through their car's infotainment system",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsBytes",
+        "url": "https://www.newsbytesapp.com/news/science/anthropic-claude-integrates-with-carplay-for-hands-free-chat/story"
+      },
+      {
+        "name": "Pastors Fear the Machine Will Twist Scripture",
+        "provider": "Discern Report",
+        "type": "AI 项目/工具",
+        "bestFor": "He reigns. We pour. Promised Grounds is the Christian coffee company that happens to also offer the best coffee available.\n\nNinety-four percent of Protestant pa",
+        "description": "He reigns. We pour. Promised Grounds is the Christian coffee company that happens to also offer the best coffee available.\n\nNinety-four percent of Protestant pastors are worried ar",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Discern Report",
+        "url": "https://discernreport.com/pastors-fear-the-machine-will-twist-scripture/"
+      },
+      {
+        "name": "Tuya Smart Unveils Doova at IFA 2026, an AI Home Companion R",
+        "provider": "GoLaurens.Com",
+        "type": "AI 项目/工具",
+        "bestFor": "BERLIN, Sept. 5, 2026 /PRNewswire/ -- Tuya Smart (NYSE: TUYA; HKEX: 2391), a global AI cloud platform service provider, today unveiled Doova, its new AI home co",
+        "description": "BERLIN, Sept. 5, 2026 /PRNewswire/ -- Tuya Smart (NYSE: TUYA; HKEX: 2391), a global AI cloud platform service provider, today unveiled Doova, its new AI home companion robot, at IF",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "GoLaurens.Com",
+        "url": "https://www.golaurens.com/online_features/press_releases/tuya-smart-unveils-doova-at-ifa-2026-an-ai-home-companion-robot-designed-to-support/article_ea441342-f5b3-5504-8017-a8f21000c6ba.html"
+      },
+      {
         "name": "California Passes SB 813 to Police AI Audits After OpenAI's ",
         "provider": "Startup Fortune",
         "type": "AI 项目/工具",
@@ -6922,42 +6955,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Yahoo Sports",
         "url": "https://sports.yahoo.com/articles/meet-seahawks-minority-owners-235524983.html"
-      },
-      {
-        "name": "Tom Tunguz 解析 Meta Muse Spark 双轨定价背后的数据换算力逻辑",
-        "provider": "Tomer Tunguz 博客（VC 分析）",
-        "type": "AI 项目/工具",
-        "bestFor": "Tom Tunguz 分析 Meta 发布 Muse Spark 模型及双轨 API 定价：Standard Tier（muse-spark-1.3）输入 $1.25/m。",
-        "description": "Tom Tunguz 分析 Meta 发布 Muse Spark 模型及双轨 API 定价：Standard Tier（muse-spark-1.3）输入 $1.25/m。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Tomer Tunguz 博客（VC 分析）",
-        "url": "https://tomtunguz.com/the-ads-model-for-prompts-vertically-integrates-ai"
-      },
-      {
-        "name": "Embed Quick Sight visuals using Cognito user authentication",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Learn how to embed individual Amazon Quick Sight visuals into a React application with per-user access control. This walkthrough uses Amazon Cognito authenticat",
-        "description": "Learn how to embed individual Amazon Quick Sight visuals into a React application with per-user access control. This walkthrough uses Amazon Cognito authentication and a serverless",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/embed-quick-sight-visuals-using-cognito-user-authentication/"
-      },
-      {
-        "name": "ChatGPT, Claude, Gemini, and More Are All Down Right Now",
-        "provider": "PCMag Australia",
-        "type": "AI 项目/工具",
-        "bestFor": "If you're trying to use AI tools today, you are likely experiencing problems. A widespread outage affecting thousands of users is ongoing across OpenAI's ChatGP",
-        "description": "If you're trying to use AI tools today, you are likely experiencing problems. A widespread outage affecting thousands of users is ongoing across OpenAI's ChatGPT, Anthropic's Claud",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "PCMag Australia",
-        "url": "https://au.pcmag.com/ai/119676/chatgpt-claude-gemini-and-more-are-all-down-right-now"
       }
     ],
     "ai-business": [
+      {
+        "name": "P1-B NOAH boost to strengthen flood, disaster response",
+        "provider": "Daily Tribune",
+        "type": "AI 项目/工具",
+        "bestFor": "Lagmay, a UP geology professor, said the expanded funding would allow the UPRI-managed program to further translate scientific data into practical tools for flo",
+        "description": "Lagmay, a UP geology professor, said the expanded funding would allow the UPRI-managed program to further translate scientific data into practical tools for flood management and di",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Daily Tribune",
+        "url": "https://tribune.net.ph/2026/09/06/p1-b-noah-boost-to-strengthen-flood-disaster-response"
+      },
       {
         "name": "All It Takes Is $10,000 Invested in This Dividend Stock to G",
         "provider": "The Motley Fool",
@@ -7386,17 +7397,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "RocketNews | Top News Stories From Around the Globe",
         "url": "https://rocketnews.com/2026/08/hydrogen-is-still-a-tonnes-market-no-matter-how-many-mwh-we-assign-to-it-2/"
-      },
-      {
-        "name": "Best Smartwatches to Buy this Weekend: Galaxy Watch 9, Pixel",
-        "provider": "Analytics Insight",
-        "type": "AI 项目/工具",
-        "bestFor": "The smartwatch market has three clear choices for a weekend purchase: premium Android power, Google's health-first approach, and affordable battery strength. Sa",
-        "description": "The smartwatch market has three clear choices for a weekend purchase: premium Android power, Google's health-first approach, and affordable battery strength. Samsung Galaxy Watch 9",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Analytics Insight",
-        "url": "https://www.analyticsinsight.net/smartwatch/best-smartwatches-to-buy-this-weekend-galaxy-watch-9-pixel-watch-5-redmi-watch-6-more"
       }
     ],
     "ai-benchmark": [
@@ -10379,7 +10379,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-06",
-    "generatedAt": "2026-09-06T07:59:06.164495Z",
+    "generatedAt": "2026-09-06T10:27:01.989123Z",
     "total": 8,
     "sections": [
       {
