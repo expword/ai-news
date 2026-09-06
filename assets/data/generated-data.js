@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-06",
-  "generatedAt": "2026-09-06T02:58:44.654296Z",
+  "generatedAt": "2026-09-06T05:26:20.551353Z",
   "news": [
     {
       "title": "Claude 完成 Fermat 大定理的形式化证明，生成超 1300 万行 Lean 代码",
@@ -5633,6 +5633,17 @@ window.AI_GENERATED_DATA = {
   "topicResources": {
     "ai-coding": [
       {
+        "name": "I Vibe Coded the One Mac Feature Apple Refuses to Build -- a",
+        "provider": "PC Mag Middle East",
+        "type": "AI 项目/工具",
+        "bestFor": "Windows has always had a feature that macOS sorely needs: A simple way to assign a hotkey to launch an app, open a document in its default app, or bring up a fo",
+        "description": "Windows has always had a feature that macOS sorely needs: A simple way to assign a hotkey to launch an app, open a document in its default app, or bring up a folder on the desktop.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "PC Mag Middle East",
+        "url": "https://me.pcmag.com/en/ai/37973/i-vibe-coded-the-one-mac-feature-apple-refuses-to-build-and-put-it-on-the-app-store"
+      },
+      {
         "name": "OpenAI 发布 GPT-6 Astra 提示词指南，含 slop 词屏蔽清单",
         "provider": "The Decoder：AI News（RSS）",
         "type": "AI 项目/工具",
@@ -6060,20 +6071,64 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "LatestLY",
         "url": "https://www.latestly.com/technology/why-is-openai-ending-its-partnership-with-cursor-7580649.html"
-      },
-      {
-        "name": "Nvidia to Nab Hugging Face, the ‘GitHub for AI,’ for $12.9B:",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "GPU giant Nvidia has agreed to buy Hugging Face, an AI model, data, collaboration and platform with more than 13 million registered users, for $12.9 billion, ac",
-        "description": "GPU giant Nvidia has agreed to buy Hugging Face, an AI model, data, collaboration and platform with more than 13 million registered users, for $12.9 billion, according to a report ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:open source LLM",
-        "url": "https://www.hpcwire.com/2026/08/27/nvidia-to-nab-hugging-face-the-github-for-ai-for-12-9b-report/"
       }
     ],
     "ai-agents": [
+      {
+        "name": "Rogue OpenAI agents took over German wiki, researchers say",
+        "provider": "Phoenix Herald",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenAI last month briefly paused some model training to add safety measures\n\nSAN FRANCISCO, California: OpenAI agents took control of a German-language website ",
+        "description": "OpenAI last month briefly paused some model training to add safety measures\n\nSAN FRANCISCO, California: OpenAI agents took control of a German-language website this spring and used",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Phoenix Herald",
+        "url": "https://www.phoenixherald.com/news/279288425/rogue-openai-agents-took-over-german-wiki-researchers-say"
+      },
+      {
+        "name": "OpenAI working on framework to address rogue AI agent incide",
+        "provider": "newKerala.com",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenAI has announced it is developing a framework to address concerns about rogue AI agents following an incident where agents took control of a German website.",
+        "description": "OpenAI has announced it is developing a framework to address concerns about rogue AI agents following an incident where agents took control of a German website. The company is coll",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "newKerala.com",
+        "url": "https://www.newkerala.com/news/a/rogue-ai-agents-openai-says-working-framework-address-702.htm"
+      },
+      {
+        "name": "OpenAI admits wiki incident, plans AI misalignment disclosur",
+        "provider": "SAMAA TV",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenAI has acknowledged its involvement in a recently reported incident in which AI agents escaped a testing environment and took over an obscure German wiki fo",
+        "description": "OpenAI has acknowledged its involvement in a recently reported incident in which AI agents escaped a testing environment and took over an obscure German wiki forum, saying it is de",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "SAMAA TV",
+        "url": "https://www.samaa.tv/2087356341-openai-admits-wiki-incident-plans-ai-misalignment-disclosure-framework"
+      },
+      {
+        "name": "Rogue OpenAI agents took over German wiki, researchers say",
+        "provider": "Utah Independent",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenAI last month briefly paused some model training to add safety measures\n\nSAN FRANCISCO, California: OpenAI agents took control of a German-language website ",
+        "description": "OpenAI last month briefly paused some model training to add safety measures\n\nSAN FRANCISCO, California: OpenAI agents took control of a German-language website this spring and used",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Utah Independent",
+        "url": "https://www.utahindependent.com/news/279288425/rogue-openai-agents-took-over-german-wiki-researchers-say"
+      },
+      {
+        "name": "Rogue OpenAI agents took over German wiki, researchers say",
+        "provider": "Caribbean Herald",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenAI last month briefly paused some model training to add safety measures\n\nSAN FRANCISCO, California: OpenAI agents took control of a German-language website ",
+        "description": "OpenAI last month briefly paused some model training to add safety measures\n\nSAN FRANCISCO, California: OpenAI agents took control of a German-language website this spring and used",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Caribbean Herald",
+        "url": "https://www.caribbeanherald.com/news/279288425/rogue-openai-agents-took-over-german-wiki-researchers-say"
+      },
       {
         "name": "Fermat's Last Theorem Machine-Checked: Claude Completes in 1",
         "provider": "Tech Times",
@@ -6458,64 +6513,53 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "EconoTimes",
         "url": "https://econotimes.com/OpenAI-Launches-GPT-6-Astra-With-Advanced-AI-Agent-Capabilities-1751258"
-      },
-      {
-        "name": "Major AI platforms suffer outages",
-        "provider": "The Express Tribune",
-        "type": "AI 项目/工具",
-        "bestFor": "AI agents Claude, ChatGPT and xAI's Grok, along with Microsoft's email services, were gradually recovering after a technical issue disrupted access to Exchange ",
-        "description": "AI agents Claude, ChatGPT and xAI's Grok, along with Microsoft's email services, were gradually recovering after a technical issue disrupted access to Exchange Online and several o",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Express Tribune",
-        "url": "https://tribune.com.pk/story/2627361/major-ai-platforms-suffer-outages"
-      },
-      {
-        "name": "OpenAI is spending $1 billion to fight hackers -- while deal",
-        "provider": "Yahoo! Finance",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenAI is spending $1 billion to fight hackers -- while dealing with its own AI's bad behavior.The money will fund subsidized cybersecurity tools for U.S. utili",
-        "description": "OpenAI is spending $1 billion to fight hackers -- while dealing with its own AI's bad behavior.The money will fund subsidized cybersecurity tools for U.S. utilities, banks, and loc",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Yahoo! Finance",
-        "url": "https://ca.finance.yahoo.com/photos/openai-spending-1-billion-fight-001148274/"
-      },
-      {
-        "name": "AI agents are changing how businesses pay for software",
-        "provider": "Market Business News",
-        "type": "AI 项目/工具",
-        "bestFor": "Atlassian is expanding usage-based charges for artificial intelligence and automation, adding a new layer to the familiar software subscription. The move reflec",
-        "description": "Atlassian is expanding usage-based charges for artificial intelligence and automation, adding a new layer to the familiar software subscription. The move reflects a wider problem f",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Market Business News",
-        "url": "https://marketbusinessnews.com/ai-agents-are-changing-how-businesses-pay-for-software/451083/"
-      },
-      {
-        "name": "OpenAI 发布 GPT-6 Astra，主打 Computer Use 与 Agent 对齐进展",
-        "provider": "X：Mark Chen（OpenAI 首席研究官，@markchen90）",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenAI 首席研究官 Mark Chen 宣布 GPT-6 Astra 发布，称其为团队多年预训练、强化学习和后训练工作的成果，是迄今能力最强、对齐最好的模型。",
-        "description": "OpenAI 首席研究官 Mark Chen 宣布 GPT-6 Astra 发布，称其为团队多年预训练、强化学习和后训练工作的成果，是迄今能力最强、对齐最好的模型。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "X：Mark Chen（OpenAI 首席研究官，@markchen90）",
-        "url": "https://x.com/markchen90/status/2095597534412673109"
-      },
-      {
-        "name": "BuildOcc: A Large Language Model Occupant Agent Platform for",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Occupants are a primary source of uncertainty in building energy consumption and management, yet existing occupant behavior models cannot capture adaptive and r",
-        "description": "Occupants are a primary source of uncertainty in building energy consumption and management, yet existing occupant behavior models cannot capture adaptive and reasoning responses c",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2609.02729v1"
       }
     ],
     "ai-models": [
+      {
+        "name": "California Passes SB 813 to Police AI Audits After OpenAI's ",
+        "provider": "Startup Fortune",
+        "type": "AI 项目/工具",
+        "bestFor": "California's Assembly approved SB 813 on Aug. 30, 2026, setting up a state framework to certify independent auditors for frontier AI models by 2028. The bill ar",
+        "description": "California's Assembly approved SB 813 on Aug. 30, 2026, setting up a state framework to certify independent auditors for frontier AI models by 2028. The bill arrives days after a M",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Startup Fortune",
+        "url": "https://startupfortune.com/california-passes-sb-813-to-police-ai-audits-after-openais-400000-probe/"
+      },
+      {
+        "name": "4 Android Auto Apps Every EV Owner Needs To Install - BGR",
+        "provider": "BGR",
+        "type": "AI 项目/工具",
+        "bestFor": "Android Auto has been available for quite some time now, and as the ecosystem has developed, different kinds of vehicle owners have found it to be a beneficial ",
+        "description": "Android Auto has been available for quite some time now, and as the ecosystem has developed, different kinds of vehicle owners have found it to be a beneficial part of their drivin",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "BGR",
+        "url": "https://www.bgr.com/2249315/must-have-android-auto-apps-for-ev-owners/"
+      },
+      {
+        "name": "iPhone 18 Pro: How Apple's 'strategy of delay' might prove t",
+        "provider": "ET NOW",
+        "type": "AI 项目/工具",
+        "bestFor": "Rewriting industry calendarFor years, the global mobile calendar revolved around one gravitational event. Apple launched a full range of iPhones in the fall; ev",
+        "description": "Rewriting industry calendarFor years, the global mobile calendar revolved around one gravitational event. Apple launched a full range of iPhones in the fall; everyone else scramble",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "ET NOW",
+        "url": "https://www.etnownews.com/technology/iphone-18-pro-how-apples-strategy-of-delay-might-prove-to-be-a-game-changer-this-year-article-156094987"
+      },
+      {
+        "name": "Why everyone is searching the 'Epstein files search' - Film ",
+        "provider": "Film Daily",
+        "type": "AI 项目/工具",
+        "bestFor": "The surge in Epstein files search activity is not just curiosity. It is the direct result of three massive official data dumps, new AI tools that make millions ",
+        "description": "The surge in Epstein files search activity is not just curiosity. It is the direct result of three massive official data dumps, new AI tools that make millions of pages readable, a",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Film Daily",
+        "url": "https://filmdaily.co/news/why-everyone-is-searching-the-epstein-files-search-2/"
+      },
       {
         "name": "Is Trimble's (TRMB) Training Push with Eagle Point Quietly R",
         "provider": "Yahoo! Finance",
@@ -6911,50 +6955,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "PCMag Australia",
         "url": "https://au.pcmag.com/ai/119676/chatgpt-claude-gemini-and-more-are-all-down-right-now"
-      },
-      {
-        "name": "ChatGPT, Gemini, Claude face widespread outages; AWS also hi",
-        "provider": "News18",
-        "type": "AI 项目/工具",
-        "bestFor": "New Delhi, Sep 3 (PTI) Major artificial intelligence (AI) platforms, including OpenAI's ChatGPT, Google Gemini, and Anthropic's Claude, experienced significant ",
-        "description": "New Delhi, Sep 3 (PTI) Major artificial intelligence (AI) platforms, including OpenAI's ChatGPT, Google Gemini, and Anthropic's Claude, experienced significant service disruptions ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "News18",
-        "url": "https://www.news18.com/agency-feeds/chatgpt-gemini-claude-face-widespread-outages-aws-also-hit-10309110.html"
-      },
-      {
-        "name": "Trump administration officials at odds as Michael says Anthr",
-        "provider": "Seeking Alpha",
-        "type": "AI 项目/工具",
-        "bestFor": "Officials in the Trump Administration appear to be at odds this week, as Under Secretary of War Emil Michael said on Thursday that artificial intelligence lab A",
-        "description": "Officials in the Trump Administration appear to be at odds this week, as Under Secretary of War Emil Michael said on Thursday that artificial intelligence lab Anthropic (ANTHRO) is",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Seeking Alpha",
-        "url": "https://seekingalpha.com/news/4639995-trump-administration-officials-at-odds-as-michael-says-anthropic-still-a-supply-chain-risk"
-      },
-      {
-        "name": "He captivated millions on TV. Now Archbishop Fulton Sheen is",
-        "provider": "RocketNews | Top News Stories From Around the Globe",
-        "type": "AI 项目/工具",
-        "bestFor": "The Catholic Church has approved the beatification of Archbishop Fulton Sheen, the prominent 20th-century broadcaster whose television program \"Life is Worth Li",
-        "description": "The Catholic Church has approved the beatification of Archbishop Fulton Sheen, the prominent 20th-century broadcaster whose television program \"Life is Worth Living\" introduced rel",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RocketNews | Top News Stories From Around the Globe",
-        "url": "https://rocketnews.com/2026/09/he-captivated-millions-on-tv-now-archbishop-fulton-sheen-is-one-step-closer-to-sainthood/"
-      },
-      {
-        "name": "Vance privately addresses Republican Jewish Coalition during",
-        "provider": "RocketNews | Top News Stories From Around the Globe",
-        "type": "AI 项目/工具",
-        "bestFor": "Vice President JD Vance made a closed-door appearance before the Republican Jewish Coalition at its conference in Las Vegas, according to event organizers and a",
-        "description": "Vice President JD Vance made a closed-door appearance before the Republican Jewish Coalition at its conference in Las Vegas, according to event organizers and attendees. Board memb",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RocketNews | Top News Stories From Around the Globe",
-        "url": "https://rocketnews.com/2026/09/vance-privately-addresses-republican-jewish-coalition-during-tension-over-israel-and-antisemitism/"
       }
     ],
     "ai-business": [
@@ -10379,7 +10379,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-06",
-    "generatedAt": "2026-09-06T02:58:44.631304Z",
+    "generatedAt": "2026-09-06T05:26:20.528779Z",
     "total": 8,
     "sections": [
       {
@@ -22511,6 +22511,18 @@ window.AI_GENERATED_DATA = {
     ]
   },
   "benchmarkDatasets": [
+    {
+      "name": "improves-metaphor-sentiment-analysis-with-new-dataset",
+      "area": "AI 模型能力评测",
+      "note": "Metaphor is everywhere in human language, and it is far more than decorative flourish. When someone describes a bargain as \"a steal\" or a grief as \"a heavy weight,\" the figurative ",
+      "source": "https://scienmag.com/joint-source-target-context-modeling-improves-metaphor-sentiment-analysis-with-new-dataset/",
+      "sourceName": "Scienmag: Latest Science and Health News",
+      "date": "2026-09-06",
+      "originTitle": "Joint source-target-context modeling improves metaphor sentiment analysis",
+      "evaluates": [],
+      "useCases": [],
+      "limitations": []
+    },
     {
       "name": "Terminal-Bench",
       "area": "代码 / 软件工程",
