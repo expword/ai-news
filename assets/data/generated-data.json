@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-07",
-  "generatedAt": "2026-09-06T16:51:56.289735Z",
+  "generatedAt": "2026-09-06T19:12:13.280233Z",
   "news": [
     {
       "title": "Claude 完成 Fermat 大定理的形式化证明，生成超 1300 万行 Lean 代码",
@@ -6075,6 +6075,17 @@
     ],
     "ai-agents": [
       {
+        "name": "OpenAI 宣布达到自动化研究实习生里程碑，内部 agent 运行时达人力 3.1 倍",
+        "provider": "X：Rohan Paul (@rohanpaul_ai)",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenAI 发布内部数据称已达到自动化研究实习生里程碑，即可在人类监督下完成熟练研究员需数天的明确任务。截至 8 月中旬，其研究组织每投入 1 个人工工作日，就使用 3.1 个 agent 工作日的运行时长，该比值衡量的是运行时间而非等效生产力；原文作者援引 OpenAI 员工观点称递归自我改进或成为未来几年 AI ",
+        "description": "OpenAI 发布内部数据称已达到自动化研究实习生里程碑，即可在人类监督下完成熟练研究员需数天的明确任务。截至 8 月中旬，其研究组织每投入 1 个人工工作日，就使用 3.1 个 agent 工作日的运行时长，该比值衡量的是运行时间而非等效生产力；原文作者援引 OpenAI 员工观点称递归自我改进或成为未来几年 AI 能力的关键，并呼吁其他 AI 公司同样公",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "X：Rohan Paul (@rohanpaul_ai)",
+        "url": "https://x.com/rohanpaul_ai/status/2096665545190043737"
+      },
+      {
         "name": "Google's Gemini Spark Can Now Manage Google Photos Library",
         "provider": "Deccan Chronicle",
         "type": "AI 项目/工具",
@@ -6502,17 +6513,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2609.04159v1"
-      },
-      {
-        "name": "Agentic commerce is moving from concept to reality",
-        "provider": "Inside Retail",
-        "type": "AI 项目/工具",
-        "bestFor": "Artificial intelligence is rapidly changing the way Australians shop, and retailers are moving quickly to keep pace. But as AI takes on a bigger role in the cus",
-        "description": "Artificial intelligence is rapidly changing the way Australians shop, and retailers are moving quickly to keep pace. But as AI takes on a bigger role in the customer journey, one c",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Inside Retail",
-        "url": "https://insideretail.com.au/digital/agentic-commerce-is-moving-from-concept-to-reality-202609"
       }
     ],
     "ai-models": [
@@ -10379,7 +10379,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-07",
-    "generatedAt": "2026-09-06T16:51:56.259744Z",
+    "generatedAt": "2026-09-06T19:12:13.257238Z",
     "total": 22,
     "sections": [
       {
