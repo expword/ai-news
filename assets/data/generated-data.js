@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-06",
-  "generatedAt": "2026-09-06T00:36:10.225021Z",
+  "generatedAt": "2026-09-06T02:58:44.654296Z",
   "news": [
     {
       "title": "Claude 完成 Fermat 大定理的形式化证明，生成超 1300 万行 Lean 代码",
@@ -6517,6 +6517,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-models": [
       {
+        "name": "Is Trimble's (TRMB) Training Push with Eagle Point Quietly R",
+        "provider": "Yahoo! Finance",
+        "type": "AI 项目/工具",
+        "bestFor": "* In August 2026, Eagle Point Software announced a collaboration with Trimble that brings Trimble Learn training content into the Pinnacle Series platform for a",
+        "description": "* In August 2026, Eagle Point Software announced a collaboration with Trimble that brings Trimble Learn training content into the Pinnacle Series platform for architecture, enginee",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Yahoo! Finance",
+        "url": "https://ca.finance.yahoo.com/news/trimble-trmb-training-push-eagle-001350060.html"
+      },
+      {
         "name": "Saudi Arabia's King Salman, Crown Prince donate total of $7.",
         "provider": "قناة العربية",
         "type": "AI 项目/工具",
@@ -6944,17 +6955,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "RocketNews | Top News Stories From Around the Globe",
         "url": "https://rocketnews.com/2026/09/vance-privately-addresses-republican-jewish-coalition-during-tension-over-israel-and-antisemitism/"
-      },
-      {
-        "name": "Nvidia to spend $13 billion on Hugging Face, leaving it as a",
-        "provider": "Spectrum News Bay News 9",
-        "type": "AI 项目/工具",
-        "bestFor": "Computer chip company Nvidia is buying artificial intelligence software platform Hugging Face for $12.93 billion.\n\nNvidia CEO Jensen Huang wrote in a blog post ",
-        "description": "Computer chip company Nvidia is buying artificial intelligence software platform Hugging Face for $12.93 billion.\n\nNvidia CEO Jensen Huang wrote in a blog post Thursday that more t",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Spectrum News Bay News 9",
-        "url": "https://baynews9.com/fl/tampa/ap-top-news/2026/09/03/nvidia-to-spend-13-billion-on-hugging-face-leaving-it-as-an-open-source-platform"
       }
     ],
     "ai-business": [
@@ -10379,7 +10379,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-06",
-    "generatedAt": "2026-09-06T00:36:10.178469Z",
+    "generatedAt": "2026-09-06T02:58:44.631304Z",
     "total": 8,
     "sections": [
       {
