@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-06",
-  "generatedAt": "2026-09-05T17:33:43.527745Z",
+  "generatedAt": "2026-09-06T00:36:10.225021Z",
   "news": [
     {
       "title": "Claude 完成 Fermat 大定理的形式化证明，生成超 1300 万行 Lean 代码",
@@ -2522,34 +2522,6 @@ window.AI_GENERATED_DATA = {
           "title": "Customizing your knowledge base on Amazon Bedrock for large and complex documents using Amazon Textract"
         }
       ]
-    },
-    {
-      "title": "Manage agents, tools and skills at scale with AWS Agent Registry",
-      "summary": "AWS Agent Registry is now generally available: a single, searchable, governed catalog for the agents, tools, skills, and custom resources across your organization. This post explai",
-      "category": "ai-agents",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-09-01",
-      "publishedAt": "2026-09-01T03:18",
-      "collectedAt": "2026-09-01T03:31",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/manage-agents-tools-and-skills-at-scale-with-aws-agent-registry/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
     }
   ],
   "weeklyDigests": [
@@ -6545,6 +6517,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-models": [
       {
+        "name": "Saudi Arabia's King Salman, Crown Prince donate total of $7.",
+        "provider": "قناة العربية",
+        "type": "AI 项目/工具",
+        "bestFor": "Saudi Arabia's King Salman bin Abdulaziz and Crown Prince Mohammed bin Salman have donated a total of $7.9 million (SR30 million) to charity through the Kingdom",
+        "description": "Saudi Arabia's King Salman bin Abdulaziz and Crown Prince Mohammed bin Salman have donated a total of $7.9 million (SR30 million) to charity through the Kingdom's Ehsan Platform, t",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "قناة العربية",
+        "url": "https://english.alarabiya.net/News/gulf/2021/04/17/Saudi-Arabia-s-King-Salman-Crown-Prince-donate-total-of-7-9-mln-to-charity"
+      },
+      {
         "name": "BP seeks to end years of boardroom turmoil with appointment ",
         "provider": "RocketNews | Top News Stories From Around the Globe",
         "type": "AI 项目/工具",
@@ -6972,17 +6955,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Spectrum News Bay News 9",
         "url": "https://baynews9.com/fl/tampa/ap-top-news/2026/09/03/nvidia-to-spend-13-billion-on-hugging-face-leaving-it-as-an-open-source-platform"
-      },
-      {
-        "name": "Nvidia to spend $13 billion on Hugging Face, leaving it as a",
-        "provider": "ABC News",
-        "type": "AI 项目/工具",
-        "bestFor": "Computer chip company Nvidia is buying artificial intelligence software platform Hugging Face for $12.93 billion.\n\nNvidia CEO Jensen Huang wrote in a blog post ",
-        "description": "Computer chip company Nvidia is buying artificial intelligence software platform Hugging Face for $12.93 billion.\n\nNvidia CEO Jensen Huang wrote in a blog post Thursday that more t",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "ABC News",
-        "url": "https://abcnews.com/Technology/wireStory/nvidia-spend-13-billion-hugging-face-leaving-open-136169595"
       }
     ],
     "ai-business": [
@@ -10407,7 +10379,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-06",
-    "generatedAt": "2026-09-05T17:33:43.503744Z",
+    "generatedAt": "2026-09-06T00:36:10.178469Z",
     "total": 8,
     "sections": [
       {
