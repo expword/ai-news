@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-07",
-  "generatedAt": "2026-09-07T01:05:03.672357Z",
+  "generatedAt": "2026-09-07T01:45:20.136164Z",
   "news": [
     {
       "title": "Claude 完成 Fermat 大定理的形式化证明，生成超 1300 万行 Lean 代码",
@@ -2525,6 +2525,13 @@
     }
   ],
   "weeklyDigests": [
+    {
+      "weekId": "2026-W37",
+      "label": "2026-09-07 ~ 2026-09-07",
+      "summary": "本周自动收集 GitHub 项目 0 个、Skill 候选 0 条、新闻 0 条，全部由 LLM 并发整理为中文条目。",
+      "skills": [],
+      "github": []
+    },
     {
       "weekId": "2026-W36",
       "label": "2026-08-31 ~ 2026-08-31",
@@ -10379,7 +10386,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-07",
-    "generatedAt": "2026-09-07T01:05:03.650358Z",
+    "generatedAt": "2026-09-07T01:45:20.114167Z",
     "total": 22,
     "sections": [
       {
