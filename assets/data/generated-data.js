@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-07",
-  "generatedAt": "2026-09-07T11:17:59.925591Z",
+  "generatedAt": "2026-09-07T13:53:47.911737Z",
   "news": [
     {
       "title": "Supporting independent journalism in Ukraine",
@@ -6074,6 +6074,39 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "Why most AI agent pilots on solar sites never reach producti",
+        "provider": "List.Solar",
+        "type": "AI 项目/工具",
+        "bestFor": "The pitch deck usually arrives before the pilot does. It promises an autonomous agent that forecasts output, flags a failing string before the string fails, and",
+        "description": "The pitch deck usually arrives before the pilot does. It promises an autonomous agent that forecasts output, flags a failing string before the string fails, and bids the battery in",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "List.Solar",
+        "url": "https://list.solar/news/why-most-ai-agent-pilots/"
+      },
+      {
+        "name": "Why Microcooling Will Be a Critical Enabler of Agentic AI- E",
+        "provider": "EE Times",
+        "type": "AI 项目/工具",
+        "bestFor": "The AI industry is obsessed with compute. Every new generation of hardware promises more power, larger models, more parameters, and increasingly capable AI expe",
+        "description": "The AI industry is obsessed with compute. Every new generation of hardware promises more power, larger models, more parameters, and increasingly capable AI experiences. But as agen",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "EE Times",
+        "url": "https://www.eetimes.com/why-microcooling-will-be-a-critical-enabler-of-agentic-ai/"
+      },
+      {
+        "name": "Nuix Expands Generative AI for Legal Review, Debuts AI Chat ",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "SYDNEY, Sept. 6, 2026 /PRNewswire/ -- Nuix announced the general availability (GA) of its Generative AI (Gen AI) capabilities in Nuix Discover SaaS on September",
+        "description": "SYDNEY, Sept. 6, 2026 /PRNewswire/ -- Nuix announced the general availability (GA) of its Generative AI (Gen AI) capabilities in Nuix Discover SaaS on September 4. Bringing Documen",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://nwitimes.com/online_features/press_releases/article_e4213236-e094-573b-8231-e3879f36236c.html"
+      },
+      {
         "name": "US government to use AI virtual agents as part of interviewi",
         "provider": "The Jerusalem Post",
         "type": "AI 项目/工具",
@@ -6479,42 +6512,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Scienmag: Latest Science and Health News",
         "url": "https://scienmag.com/full-body-ai-agents-for-systems-biology-and-precision-medicine/"
-      },
-      {
-        "name": "Midea SMART MASTER at IFA 2026: From AI Agents to Embodied I",
-        "provider": "Asia Bulletin",
-        "type": "AI 项目/工具",
-        "bestFor": "BERLIN, Sept. 5, 2026 /PRNewswire/ -- Midea has placed SMART MASTER at the centre of its IFA 2026 showcase. Guided by this year's \"Simply ideal\" philosophy, SMA",
-        "description": "BERLIN, Sept. 5, 2026 /PRNewswire/ -- Midea has placed SMART MASTER at the centre of its IFA 2026 showcase. Guided by this year's \"Simply ideal\" philosophy, SMART MASTER is Midea's",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Asia Bulletin",
-        "url": "https://www.asiabulletin.com/news/279286960/midea-smart-master-at-ifa-2026-from-ai-agents-to-embodied-intelligence"
-      },
-      {
-        "name": "Midea SMART MASTER at IFA 2026: From AI Agents to Embodied I",
-        "provider": "Vietnam Tribune",
-        "type": "AI 项目/工具",
-        "bestFor": "BERLIN, Sept. 5, 2026 /PRNewswire/ -- Midea has placed SMART MASTER at the centre of its IFA 2026 showcase. Guided by this year's \"Simply ideal\" philosophy, SMA",
-        "description": "BERLIN, Sept. 5, 2026 /PRNewswire/ -- Midea has placed SMART MASTER at the centre of its IFA 2026 showcase. Guided by this year's \"Simply ideal\" philosophy, SMART MASTER is Midea's",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Vietnam Tribune",
-        "url": "https://www.vietnamtribune.com/news/279286960/midea-smart-master-at-ifa-2026-from-ai-agents-to-embodied-intelligence"
-      },
-      {
-        "name": "GreenCore Solutions Corp. (GSC) AI Agent Stack Passes 24.5 M",
-        "provider": "Asia Bulletin",
-        "type": "AI 项目/工具",
-        "bestFor": "Brendan Farrugia, Co-founder and Director of GSC Joint Venture Company GSC Agentic Pty. Ltd., joins the GSC Board of Advisors\n\nVANCOUVER, BC and SYDNEY, Sept. 5",
-        "description": "Brendan Farrugia, Co-founder and Director of GSC Joint Venture Company GSC Agentic Pty. Ltd., joins the GSC Board of Advisors\n\nVANCOUVER, BC and SYDNEY, Sept. 5, 2026 /PRNewswire/ ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Asia Bulletin",
-        "url": "https://www.asiabulletin.com/news/279286959/greencore-solutions-corp-gsc-ai-agent-stack-passes-245-million-inbound-ai-agent-transactions-in-30-days"
       }
     ],
     "ai-models": [
+      {
+        "name": "AI resumes are the new headache LinkedIn's hiring assistant ",
+        "provider": "Digit",
+        "type": "AI 项目/工具",
+        "bestFor": "It's crazy and unbelievable to think about it, but the thing losing most value in the hiring process is an applicant's CV. Just think about it, everyone and the",
+        "description": "It's crazy and unbelievable to think about it, but the thing losing most value in the hiring process is an applicant's CV. Just think about it, everyone and their grandma now uses ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Digit",
+        "url": "https://www.digit.in/features/general/ai-resumes-are-the-new-headache-linkedins-hiring-assistant-is-trying-to-solve-for.html"
+      },
       {
         "name": "What 2026 is teaching us about AI and quantum",
         "provider": "ITWeb Africa",
@@ -6943,17 +6954,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "China Daily Asia",
         "url": "https://www.chinadailyasia.com/hk/article/639037"
-      },
-      {
-        "name": "Major U.S. AI platforms hit by near-simultaneous outages",
-        "provider": "Capital FM Kenya",
-        "type": "AI 项目/工具",
-        "bestFor": "SAN FRANCISCO, Sept. 3 (Xinhua) -- ChatGPT, Claude and Grok were among several major U.S. artificial intelligence (AI) services hit by near-simultaneous outages",
-        "description": "SAN FRANCISCO, Sept. 3 (Xinhua) -- ChatGPT, Claude and Grok were among several major U.S. artificial intelligence (AI) services hit by near-simultaneous outages on Thursday, disrup",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Capital FM Kenya",
-        "url": "https://capitalfm.africa/major-u-s-ai-platforms-hit-by-near-simultaneous-outages/"
       }
     ],
     "ai-business": [
@@ -10372,7 +10372,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-07",
-    "generatedAt": "2026-09-07T11:17:59.902548Z",
+    "generatedAt": "2026-09-07T13:53:47.887229Z",
     "total": 23,
     "sections": [
       {
