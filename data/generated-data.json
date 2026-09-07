@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-07",
-  "generatedAt": "2026-09-06T19:12:13.280233Z",
+  "generatedAt": "2026-09-07T01:05:03.672357Z",
   "news": [
     {
       "title": "Claude 完成 Fermat 大定理的形式化证明，生成超 1300 万行 Lean 代码",
@@ -6517,6 +6517,17 @@
     ],
     "ai-models": [
       {
+        "name": "Applications open for 2027 Hertz Fellowship in science and e",
+        "provider": "Scienmag",
+        "type": "AI 项目/工具",
+        "bestFor": "The Hertz Foundation has officially opened the application window for the 2027 Hertz Fellowship, widely regarded as the most competitive doctoral fellowship ava",
+        "description": "The Hertz Foundation has officially opened the application window for the 2027 Hertz Fellowship, widely regarded as the most competitive doctoral fellowship available to graduate s",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Scienmag: Latest Science and Health News",
+        "url": "https://scienmag.com/applications-open-for-2027-hertz-fellowship-in-science-and-engineering/"
+      },
+      {
         "name": "The world is about to meet Apple's new CEO. Here are his big",
         "provider": "Pulse24.com",
         "type": "AI 项目/工具",
@@ -6944,17 +6955,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "english.news.cn",
         "url": "http://english.news.cn/20260904/40a6feb711b84052a6baad6f3f8cf959/c.html"
-      },
-      {
-        "name": "Major U.S. AI platforms hit by near-simultaneous outages",
-        "provider": "english.news.cn",
-        "type": "AI 项目/工具",
-        "bestFor": "SAN FRANCISCO, Sept. 3 (Xinhua) -- ChatGPT, Claude and Grok were among several major U.S. artificial intelligence (AI) services hit by near-simultaneous outages",
-        "description": "SAN FRANCISCO, Sept. 3 (Xinhua) -- ChatGPT, Claude and Grok were among several major U.S. artificial intelligence (AI) services hit by near-simultaneous outages on Thursday, disrup",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "english.news.cn",
-        "url": "https://english.news.cn/20260904/40a6feb711b84052a6baad6f3f8cf959/c.html"
       }
     ],
     "ai-business": [
@@ -10379,7 +10379,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-07",
-    "generatedAt": "2026-09-06T19:12:13.257238Z",
+    "generatedAt": "2026-09-07T01:05:03.650358Z",
     "total": 22,
     "sections": [
       {
