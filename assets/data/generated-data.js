@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-07",
-  "generatedAt": "2026-09-07T06:11:21.476311Z",
+  "generatedAt": "2026-09-07T08:43:33.628361Z",
   "news": [
     {
       "title": "FailSAE: Towards Interpretable Failure Prediction for Vision-Language Models via Sparse Autoencoders",
@@ -2514,41 +2514,6 @@ window.AI_GENERATED_DATA = {
         "news"
       ],
       "sourceCount": 1
-    },
-    {
-      "title": "Build observable enterprise agentic retrieval using Managed Amazon Bedrock Knowledge Base with AWS CloudFormation",
-      "summary": "This post builds an enterprise agentic retrieval solution on the Amazon Bedrock Managed Knowledge Base and Amazon Bedrock AgentCore. An agent reasons, routes across multiple knowle",
-      "category": "ai-agents",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-09-01",
-      "publishedAt": "2026-09-01T03:08",
-      "collectedAt": "2026-09-01T03:31",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/build-observable-enterprise-agentic-retrieval-using-managed-amazon-bedrock-knowledge-base-with-aws-cloudformation/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 2,
-      "relatedSources": [
-        {
-          "source": "RSS · AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/customizing-your-knowledge-base-on-amazon-bedrock-for-large-and-complex-documents-using-amazon-textract/",
-          "title": "Customizing your knowledge base on Amazon Bedrock for large and complex documents using Amazon Textract"
-        }
-      ]
     }
   ],
   "weeklyDigests": [
@@ -6551,6 +6516,28 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-models": [
       {
+        "name": "Can the new EU rules save you hundreds on broken appliances?",
+        "provider": "Euronews English",
+        "type": "AI 项目/工具",
+        "bestFor": "Broken toaster? Dead vacuum? Faulty fridge? For most Europeans, the answer is not repair but replacement. And that convenience comes with a large price tag: alm",
+        "description": "Broken toaster? Dead vacuum? Faulty fridge? For most Europeans, the answer is not repair but replacement. And that convenience comes with a large price tag: almost €12 billion a ye",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Euronews English",
+        "url": "https://www.euronews.com/my-europe/2026/09/07/how-can-new-eu-rules-save-you-hundreds-on-broken-appliances"
+      },
+      {
+        "name": "Jio Rs 3,599 Annual Plan Upgrade: What Extra Data, OTT and A",
+        "provider": "Mashable India",
+        "type": "AI 项目/工具",
+        "bestFor": "Jio 9th anniversary offer brings extra data, OTT subscriptions, AI tools and partner vouchers with the ₹3,599 annual prepaid recharge plan.\n\nReliance Jio is mar",
+        "description": "Jio 9th anniversary offer brings extra data, OTT subscriptions, AI tools and partner vouchers with the ₹3,599 annual prepaid recharge plan.\n\nReliance Jio is marking its ninth anniv",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Mashable India",
+        "url": "https://in.mashable.com/tech/113666/jio-rs-3599-annual-plan-upgrade-what-extra-data-ott-and-ai-benefits-are-included"
+      },
+      {
         "name": "Applications open for 2027 Hertz Fellowship in science and e",
         "provider": "Scienmag",
         "type": "AI 项目/工具",
@@ -6967,28 +6954,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Mashable India",
         "url": "https://in.mashable.com/tech/113578/grok-gemini-chatgpt-went-down-at-the-same-time-spacex-apologizes-for-outage"
-      },
-      {
-        "name": "This One-of-a-Kind Rugged Phone Has a Detachable Action Came",
-        "provider": "PetaPixel",
-        "type": "AI 项目/工具",
-        "bestFor": "RugOne unveiled its new modular action camera-slash-phone, the Xsnap 7 Pro, at IFA 2026 in Berlin.\n\nThe Xsnap 7 Pro is RugOne's third major product line and the",
-        "description": "RugOne unveiled its new modular action camera-slash-phone, the Xsnap 7 Pro, at IFA 2026 in Berlin.\n\nThe Xsnap 7 Pro is RugOne's third major product line and the world's first modul",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "PetaPixel",
-        "url": "https://petapixel.com/2026/09/04/this-one-of-a-kind-rugged-phone-has-a-detachable-action-camera/"
-      },
-      {
-        "name": "Major U.S. AI platforms hit by near-simultaneous outages",
-        "provider": "english.news.cn",
-        "type": "AI 项目/工具",
-        "bestFor": "SAN FRANCISCO, Sept. 3 (Xinhua) -- ChatGPT, Claude and Grok were among several major U.S. artificial intelligence (AI) services hit by near-simultaneous outages",
-        "description": "SAN FRANCISCO, Sept. 3 (Xinhua) -- ChatGPT, Claude and Grok were among several major U.S. artificial intelligence (AI) services hit by near-simultaneous outages on Thursday, disrup",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "english.news.cn",
-        "url": "http://english.news.cn/20260904/40a6feb711b84052a6baad6f3f8cf959/c.html"
       }
     ],
     "ai-business": [
@@ -8542,6 +8507,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-research": [
       {
+        "name": "Google AI Travel Tools: 5 New Ways to Plan Trips [2026]",
+        "provider": "shattered.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Google rolled out a batch of AI travel features this week that changes how millions of people research and book trips, according to a report published by Analyt",
+        "description": "Google rolled out a batch of AI travel features this week that changes how millions of people research and book trips, according to a report published by Analytics Insight on Septe",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "shattered.io",
+        "url": "https://shattered.io/google-ai-travel-tools-planning-2026/"
+      },
+      {
         "name": "Google 与 HHMI Janelia 发布完整雄性果蝇大脑及中枢神经系统连接组",
         "provider": "Google Research：Blog（网页）",
         "type": "AI 项目/工具",
@@ -8988,23 +8964,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "WealthUp",
         "url": "https://wealthup.com/outdated-money-rules-aug-18-2026/"
-      },
-      {
-        "name": "GLM-5.3 发布，编程和网络安全能力大幅提升",
-        "provider": "智谱：研究（网页内嵌数据）",
-        "type": "AI 项目/工具",
-        "bestFor": "GLM-5.3的发布将对开发者和安全工程师产生深远影响。编程能力的提升意味着开发者可以更高效地完成复杂任务，减少开发时间。同时，网络安全能力的增强将帮助企业更好地识别和修复潜在漏洞，提升整体安全性。随着API的上线，更多开发者将能够利用这一强大的工具，推动技术创新和应用落地。",
-        "description": "我注意到智谱发布了GLM-5.3，这个新版本在编程能力上较前代提升了50%，在多个公开基准测试中取得开源第一。同时，模型在网络安全任务中的表现也相当出色，展现了强大的潜力。完整模型权重将在两周内开源，API也将很快上线。",
-        "useCases": [
-          "使用GLM-5.3进行复杂软件开发，提升代码质量和开发效率。",
-          "在网络安全审计中应用GLM-5.3，快速识别和修复代码漏洞。",
-          "利用API接口集成GLM-5.3到现有开发流程中，实现自动化编程任务。",
-          "在教育和培训中使用GLM-5.3，帮助学生和新手快速掌握编程技能。",
-          "通过GLM-5.3进行代码审查，提升团队的代码安全性和可靠性。"
-        ],
-        "watch": "API的使用可能会受到配额限制，影响高并发场景下的应用效果。",
-        "sourceName": "智谱：研究（网页内嵌数据）",
-        "url": "https://www.zhipuai.cn/zh/research/162"
       }
     ],
     "ai-office": []
@@ -10413,7 +10372,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-07",
-    "generatedAt": "2026-09-07T06:11:21.454339Z",
+    "generatedAt": "2026-09-07T08:43:33.603257Z",
     "total": 23,
     "sections": [
       {
