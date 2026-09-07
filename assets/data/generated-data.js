@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-08",
-  "generatedAt": "2026-09-07T16:26:20.369006Z",
+  "generatedAt": "2026-09-07T18:50:25.254848Z",
   "news": [
     {
       "title": "Supporting independent journalism in Ukraine",
@@ -274,6 +274,360 @@ window.AI_GENERATED_DATA = {
       "moduleTargets": [
         "news",
         "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "What Matters in On-Policy Distillation? A Perspective on Data Efficiency and Data Selection",
+      "summary": "On-Policy Distillation (OPD) has emerged as a widely adopted post-training paradigm for enhancing large language models in reasoning domains. However, the data-centric mechanisms i",
+      "category": "ai-research",
+      "source": "arXiv",
+      "date": "2026-09-04",
+      "publishedAt": "",
+      "collectedAt": "2026-09-08T02:50",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-04",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.05198v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Can Large Language Models Anticipate Behavioral Responses to Social Policies? A Case of Pension Enrollment Prediction among China's Flexible Workers",
+      "summary": "Assessing the impacts of social policy changes is a widely acknowledged challenge for policymakers. Econometric methods can be unreliable when extrapolating to hypothetical scenari",
+      "category": "ai-research",
+      "source": "arXiv",
+      "date": "2026-09-04",
+      "publishedAt": "",
+      "collectedAt": "2026-09-08T02:50",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-04",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.05189v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "A Verifier-Guided Explainable Reasoning Framework with Gold-Anchored QLoRA, Task-Aware Mixture-of-Experts, and Group-Relative RLVR",
+      "summary": "Large language models (LLMs) show strong reasoning ability, but their explanations can remain inconsistent, weakly grounded, or difficult to verify. We propose a verifier-guided ex",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-09-04",
+      "publishedAt": "",
+      "collectedAt": "2026-09-08T02:50",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-04",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.05221v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Moral Advice as Interactional Negotiation: Framing, User Pressure, and Social Position in Large Language Model Responses",
+      "summary": "As conversational AI becomes a source of everyday guidance, LLMs increasingly participate in the interpretation and legitimation of morally contested choices. We examine LLM moral ",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-09-04",
+      "publishedAt": "",
+      "collectedAt": "2026-09-08T01:40",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-04",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.05345v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "GUT: Quantifying and Optimizing the Reasoning Uncertainty of LLMs via Graph Complexity",
+      "summary": "Recent years have witnessed great advances in the reasoning ability of Large Language Models (LLMs). However, the reasoning processes of LLMs often exhibit uncertainty, where LLMs ",
+      "category": "ai-research",
+      "source": "arXiv",
+      "date": "2026-09-04",
+      "publishedAt": "",
+      "collectedAt": "2026-09-08T01:40",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-04",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.05284v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Don't Drop Dropout: Optimizing Layer Sparsity for Efficient LLM Training and Inference",
+      "summary": "Layer dropout (a.k.a. stochastic depth) has been shown to enable faster training, higher accuracy, and robustness to zero-shot layer pruning in both language and vision transformer",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-09-04",
+      "publishedAt": "",
+      "collectedAt": "2026-09-08T01:40",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-04",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.05275v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Ask Before You Optimize: Dynamic Pre-Formulation Clarification for Interactive Optimization",
+      "summary": "Large language models (LLMs) are increasingly used to formulate optimization models from natural-language problem descriptions, yet realistic operations research (OR) requests are ",
+      "category": "ai-benchmark",
+      "source": "arXiv",
+      "date": "2026-09-04",
+      "publishedAt": "",
+      "collectedAt": "2026-09-08T01:40",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-04",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.05258v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Trace2Tower: Transition-Aware EigenTrace Induction of Multi-Level Skills for LLM Agents",
+      "summary": "Large language model agents increasingly rely on execution traces to master complex interactive tasks. However, current paradigms are bottlenecked by shallow trajectory retrieval a",
+      "category": "ai-agents",
+      "source": "arXiv",
+      "date": "2026-09-04",
+      "publishedAt": "",
+      "collectedAt": "2026-09-08T01:40",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-04",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.05261v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Development of a Humanoid Robot Prototype for Multimodal Human-Robot Interaction",
+      "summary": "Human-robot interaction (HRI) enables intuitive and intelligent collaboration between humans and robots in real-world environments. This paper introduces a humanoid robot prototype",
+      "category": "ai-research",
+      "source": "arXiv",
+      "date": "2026-09-04",
+      "publishedAt": "",
+      "collectedAt": "2026-09-08T01:40",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-04",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.05361v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Distill Globally, Adapt Locally: Reasoning Distillation and Product-Type Test-Time Training for Scalable Trade-Up Recommendation",
+      "summary": "Trade-up recommendation identifies higher-quality alternatives that preserve a customer's purchase intent while offering upgraded benefits. Large language models (LLMs) can reason ",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-09-04",
+      "publishedAt": "",
+      "collectedAt": "2026-09-08T01:40",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-04",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.05363v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Large Language Models for HVAC Operations in Building Energy Systems: A Critical Review of Methods, Applications, and Deployment Readiness",
+      "summary": "Building automation systems generate rich sensor data yet remain insight-poor because heterogeneous point naming, missing metadata, and fragmented documentation obstruct their oper",
+      "category": "ai-coding",
+      "source": "arXiv",
+      "date": "2026-09-04",
+      "publishedAt": "",
+      "collectedAt": "2026-09-08T01:40",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-04",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.05314v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Uncensored Open-weight Models: Redistribution as the Persistence Layer",
+      "summary": "A rapidly expanding ecosystem of actors is removing built-in safety guardrails from open-weight AI models. We profile this ecosystem by identifying key producers, downstream reprod",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-09-04",
+      "publishedAt": "",
+      "collectedAt": "2026-09-08T01:40",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-04",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.05241v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "PRICE: A Systematic Study of LLM Adaptation Choices for Bitcoin Price Forecasting",
+      "summary": "Cryptocurrency markets exhibit extreme volatility and non-stationary dynamics that challenge conventional forecasting methods. Although Large Language Models (LLMs) have shown prom",
+      "category": "ai-business",
+      "source": "arXiv",
+      "date": "2026-09-04",
+      "publishedAt": "",
+      "collectedAt": "2026-09-08T01:40",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-04",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.05235v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
       ],
       "sourceCount": 1
     },
@@ -2403,115 +2757,6 @@ window.AI_GENERATED_DATA = {
       "moduleTargets": [
         "news",
         "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "How ZS democratized secure ad-hoc analytics with Amazon SageMaker",
-      "summary": "Learn how ZS built a security-hardened Amazon SageMaker platform that balances developer agility with healthcare-grade governance, serving 1,000+ daily active users across 200+ Sag",
-      "category": "ai-models",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-09-01",
-      "publishedAt": "2026-09-01T23:47",
-      "collectedAt": "2026-09-02T00:54",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-zs-democratized-secure-ad-hoc-analytics-with-amazon-sagemaker/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "NLP-Driven Knowledge Extraction and Thematic Classification of Translated Ancient Indian Medical Texts",
-      "summary": "arXiv:2608.28608v1 Announce Type: new Abstract: Ancient Indian medical texts like Sushruta Samhita have extensive information on diseases, treatments, and surgical techniques. Yet,",
-      "category": "ai-research",
-      "source": "RSS · arXiv cs.CL",
-      "date": "2026-09-01",
-      "publishedAt": "",
-      "collectedAt": "2026-09-01T19:44",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-01",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2608.28608",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Expert-validated STEM QA",
-      "summary": "arXiv:2608.28591v1 Announce Type: new Abstract: Recent advancements in AI are helping scientists achieve breakthroughs in fields such as mathematics, medicine, and materials scienc",
-      "category": "ai-research",
-      "source": "RSS · arXiv cs.AI",
-      "date": "2026-09-01",
-      "publishedAt": "",
-      "collectedAt": "2026-09-01T18:29",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-01",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2608.28591",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Anthropic 研究：训练一个错位的奖励寻求者模型",
-      "summary": "Anthropic 发布新研究 Training a Misaligned Reward Seeker，探究奖励作弊（reward-hacking）是否会让模型学会不择手段追求奖励。",
-      "category": "ai-models",
-      "source": "X：Anthropic (@AnthropicAI)",
-      "date": "2026-09-01",
-      "publishedAt": "2026-09-01T08:07",
-      "collectedAt": "2026-09-01T09:28",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://x.com/AnthropicAI/status/2094577944056430865",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
       ],
       "sourceCount": 1
     }
@@ -5488,6 +5733,20 @@ window.AI_GENERATED_DATA = {
       "date": "2026-08-05"
     },
     {
+      "name": "DietrichGebert/ponytail",
+      "lang": "JavaScript",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "stars": "130701 stars",
+      "why": "近期更新且具备 AI / LLM / Agent 相关主题，适合做项目介绍、教程或同类对比。",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "source": "GitHub Search · 2026-09-08",
+      "category": "Coding Agent",
+      "details": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
       "name": "OpenBMB/MiniCPM",
       "lang": "Jupyter Notebook",
       "description": "MiniCPM5-1B: A SOTA 1B on-device LLM, small yet powerful.",
@@ -5498,20 +5757,6 @@ window.AI_GENERATED_DATA = {
       "tier": "T1",
       "category": "Coding Agent",
       "details": "MiniCPM5-1B: A SOTA 1B on-device LLM, small yet powerful.",
-      "features": [],
-      "useCases": [],
-      "quickStart": []
-    },
-    {
-      "name": "microsoft/AI-For-Beginners",
-      "lang": "Jupyter Notebook",
-      "description": "12 Weeks, 24 Lessons, AI for All!",
-      "stars": "68062 stars",
-      "why": "近期更新且具备 AI / LLM / Agent 相关主题，适合做项目介绍、教程或同类对比。",
-      "url": "https://github.com/microsoft/AI-For-Beginners",
-      "source": "GitHub Search · 2026-09-04",
-      "category": "Coding Agent",
-      "details": "12 Weeks, 24 Lessons, AI for All!",
       "features": [],
       "useCases": [],
       "quickStart": []
@@ -6074,6 +6319,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "Trace2Tower: Transition-Aware EigenTrace Induction of Multi-",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Large language model agents increasingly rely on execution traces to master complex interactive tasks. However, current paradigms are bottlenecked by shallow tr",
+        "description": "Large language model agents increasingly rely on execution traces to master complex interactive tasks. However, current paradigms are bottlenecked by shallow trajectory retrieval a",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2609.05261v1"
+      },
+      {
         "name": "Why most AI agent pilots on solar sites never reach producti",
         "provider": "List.Solar",
         "type": "AI 项目/工具",
@@ -6501,17 +6757,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Crypto Briefing",
         "url": "https://cryptobriefing.com/openai-agents-hijack-german-wiki/"
-      },
-      {
-        "name": "Full-Body AI Agents for Systems Biology and Precision Medici",
-        "provider": "Scienmag",
-        "type": "AI 项目/工具",
-        "bestFor": "Artificial intelligence has transformed biomedical research over the past decade, but most AI systems in biology remain confined to narrow tasks, single data ty",
-        "description": "Artificial intelligence has transformed biomedical research over the past decade, but most AI systems in biology remain confined to narrow tasks, single data types, or one biologic",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Scienmag: Latest Science and Health News",
-        "url": "https://scienmag.com/full-body-ai-agents-for-systems-biology-and-precision-medicine/"
       }
     ],
     "ai-models": [
@@ -8507,6 +8752,28 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-research": [
       {
+        "name": "Large Language Models for HVAC Operations in Building Energy",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Building automation systems generate rich sensor data yet remain insight-poor because heterogeneous point naming, missing metadata, and fragmented documentation",
+        "description": "Building automation systems generate rich sensor data yet remain insight-poor because heterogeneous point naming, missing metadata, and fragmented documentation obstruct their oper",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2609.05314v1"
+      },
+      {
+        "name": "Uncensored Open-weight Models: Redistribution as the Persist",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "A rapidly expanding ecosystem of actors is removing built-in safety guardrails from open-weight AI models. We profile this ecosystem by identifying key producer",
+        "description": "A rapidly expanding ecosystem of actors is removing built-in safety guardrails from open-weight AI models. We profile this ecosystem by identifying key producers, downstream reprod",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2609.05241v1"
+      },
+      {
         "name": "Google AI Travel Tools: 5 New Ways to Plan Trips [2026]",
         "provider": "shattered.io",
         "type": "AI 项目/工具",
@@ -8942,33 +9209,95 @@ window.AI_GENERATED_DATA = {
         "watch": "尽管SSN方法提高了计算效率，但在特定情况下仍可能面临收敛速度慢的问题，尤其是在数据分布不均时。",
         "sourceName": "RSS · Apple ML Research",
         "url": "https://machinelearning.apple.com/research/semismooth-newton-optimal-transport"
-      },
-      {
-        "name": "Can Large Language Models Explain Flight Safety Events? A Pr",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Improving flight safety with flight data requires not only accurate detection of risk events, but more importantly, clear interpretation of their underlying cau",
-        "description": "Improving flight safety with flight data requires not only accurate detection of risk events, but more importantly, clear interpretation of their underlying causes at the level of ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2608.18017v1"
-      },
-      {
-        "name": "Money Rules Aren't Static: 7 Guidelines That Are Obsolete",
-        "provider": "WealthUp",
-        "type": "AI 项目/工具",
-        "bestFor": "Disclosure: We scrutinize our research, ratings and reviews using strict editorial integrity. In full transparency, this site may receive compensation from part",
-        "description": "Disclosure: We scrutinize our research, ratings and reviews using strict editorial integrity. In full transparency, this site may receive compensation from partners listed through ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "WealthUp",
-        "url": "https://wealthup.com/outdated-money-rules-aug-18-2026/"
       }
     ],
     "ai-office": []
   },
   "skillRecommendations": [
+    {
+      "title": "career-ops-hq/career-ops",
+      "type": "编程开发",
+      "description": "Open-source AI job search: scan job portals, evaluate listings into a structured A-H report with a global 1-5 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)",
+      "tags": [
+        "JavaScript",
+        "编程开发",
+        "GitHub"
+      ],
+      "url": "https://github.com/career-ops-hq/career-ops",
+      "source": "GitHub",
+      "stars": 70435,
+      "date": "2026-09-08"
+    },
+    {
+      "title": "tt-a1i/archify",
+      "type": "编程开发",
+      "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+      "tags": [
+        "JavaScript",
+        "编程开发",
+        "GitHub"
+      ],
+      "url": "https://github.com/tt-a1i/archify",
+      "source": "GitHub",
+      "stars": 52332,
+      "date": "2026-09-08"
+    },
+    {
+      "title": "heygen-com/hyperframes",
+      "type": "编程开发",
+      "description": "Write HTML. Render video. Built for agents.",
+      "tags": [
+        "TypeScript",
+        "编程开发",
+        "GitHub"
+      ],
+      "url": "https://github.com/heygen-com/hyperframes",
+      "source": "GitHub",
+      "stars": 45282,
+      "date": "2026-09-08"
+    },
+    {
+      "title": "blader/humanizer",
+      "type": "编程开发",
+      "description": "Agent skill that removes signs of AI-generated writing from text",
+      "tags": [
+        "Python",
+        "编程开发",
+        "GitHub"
+      ],
+      "url": "https://github.com/blader/humanizer",
+      "source": "GitHub",
+      "stars": 44883,
+      "date": "2026-09-08"
+    },
+    {
+      "title": "Hmbown/Codewhale",
+      "type": "编程开发",
+      "description": "Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome.",
+      "tags": [
+        "Rust",
+        "编程开发",
+        "GitHub"
+      ],
+      "url": "https://github.com/Hmbown/Codewhale",
+      "source": "GitHub",
+      "stars": 40920,
+      "date": "2026-09-08"
+    },
+    {
+      "title": "The-Vibe-Company/quivr",
+      "type": "RAG / 知识库",
+      "description": "Opiniated RAG for integrating GenAI in your apps 🧠   Focus on your product rather than the RAG. Easy integration in existing products with customisation!  Any LLM: GPT4, Groq, Llama. Any Vectorstore: PGVector, Faiss. Any Files. Anyway you want.",
+      "tags": [
+        "Python",
+        "RAG / 知识库",
+        "GitHub"
+      ],
+      "url": "https://github.com/The-Vibe-Company/quivr",
+      "source": "GitHub",
+      "stars": 39498,
+      "date": "2026-09-08"
+    },
     {
       "title": "Shubhamsaboo/awesome-llm-apps",
       "type": "RAG / 知识库",
@@ -9079,20 +9408,6 @@ window.AI_GENERATED_DATA = {
       "url": "https://github.com/langchain-ai/langgraph",
       "source": "GitHub",
       "stars": 40791,
-      "date": "2026-09-01"
-    },
-    {
-      "title": "The-Vibe-Company/Quivr",
-      "type": "RAG / 知识库",
-      "description": "Opiniated RAG for integrating GenAI in your apps 🧠   Focus on your product rather than the RAG. Easy integration in existing products with customisation!  Any LLM: GPT4, Groq, Llama. Any Vectorstore: PGVector, Faiss. Any Files. Anyway you want.",
-      "tags": [
-        "Python",
-        "RAG / 知识库",
-        "GitHub"
-      ],
-      "url": "https://github.com/The-Vibe-Company/Quivr",
-      "source": "GitHub",
-      "stars": 39438,
       "date": "2026-09-01"
     },
     {
@@ -9247,20 +9562,6 @@ window.AI_GENERATED_DATA = {
       "url": "https://github.com/coreyhaines31/marketingskills",
       "source": "GitHub",
       "stars": 44606,
-      "date": "2026-08-18"
-    },
-    {
-      "title": "Hmbown/CodeWhale",
-      "type": "编程开发",
-      "description": "这是一个开源的社区驱动代理工具，旨在帮助开发者更高效地构建和管理 AI 代理。它提供了灵活的架构和丰富的功能，支持多种编程语言和框架，适合各种开发需求。",
-      "tags": [
-        "开源工具",
-        "社区驱动",
-        "AI 代理"
-      ],
-      "url": "https://github.com/Hmbown/CodeWhale",
-      "source": "GitHub",
-      "stars": 40826,
       "date": "2026-08-18"
     },
     {
@@ -9992,20 +10293,6 @@ window.AI_GENERATED_DATA = {
       "date": "2026-08-04"
     },
     {
-      "title": "职业搜索助手",
-      "type": "编程开发",
-      "description": "一个开源的 AI 职位搜索工具，能够扫描招聘网站，使用结构化的 A-F 评分标准对职位进行评估，打分范围为 1.0-5.0，帮助定制简历并跟踪申请进度，支持在本地 AI 编程 CLI 中运行（如 Claude Code、Codex、OpenCode、Antigravity 等）。",
-      "tags": [
-        "职位搜索",
-        "简历定制",
-        "申请跟踪"
-      ],
-      "url": "https://github.com/santifer/career-ops",
-      "source": "GitHub",
-      "stars": 62624,
-      "date": "2026-08-04"
-    },
-    {
       "title": "通用记忆层",
       "type": "RAG / 知识库",
       "description": "mem0是一个为AI代理提供的通用记忆层，能够帮助开发者构建更智能的应用，通过存储和检索知识，提升AI的响应能力和上下文理解。",
@@ -10057,20 +10344,6 @@ window.AI_GENERATED_DATA = {
         "开发工具"
       ],
       "url": "https://github.com/upstash/context7",
-      "source": "GitHub",
-      "stars": 60195,
-      "date": "2026-08-04"
-    },
-    {
-      "title": "智能代理编程框架",
-      "type": "编程开发",
-      "description": "这是一个为智能代理 AI 提供的编程框架，旨在帮助开发者更高效地构建和管理 AI 代理应用。通过简化开发流程，提升了 AI 代理的功能和灵活性。",
-      "tags": [
-        "编程框架",
-        "智能代理",
-        "开发工具"
-      ],
-      "url": "https://github.com/microsoft/autogen",
       "source": "GitHub",
       "stars": 60195,
       "date": "2026-08-04"
@@ -10314,20 +10587,6 @@ window.AI_GENERATED_DATA = {
       "date": "2026-08-04"
     },
     {
-      "title": "Kong 网关",
-      "type": "设计 / 创意",
-      "description": "Kong 是一个高性能的 API 网关和微服务管理工具，能够帮助开发者轻松地管理和保护 API，提供流量控制、身份验证和监控等功能，提升服务的可用性和安全性。",
-      "tags": [
-        "API 管理",
-        "微服务",
-        "流量控制"
-      ],
-      "url": "https://github.com/Kong/kong",
-      "source": "GitHub",
-      "stars": 43909,
-      "date": "2026-08-04"
-    },
-    {
       "title": "PPT 制作助手",
       "type": "编程开发",
       "description": "该工具可以将文档或主题转换为真实的 PowerPoint 演示文稿，支持原生形状、过渡和动画，按需生成数据驱动的图表和表格，并提供演讲者备注的音频解说，同时支持自定义 .pptx 模板。",
@@ -10354,26 +10613,12 @@ window.AI_GENERATED_DATA = {
       "source": "GitHub",
       "stars": 40715,
       "date": "2026-08-04"
-    },
-    {
-      "title": "ChatTTS 语音生成",
-      "type": "语音 / 音频",
-      "description": "ChatTTS 是一个生成式语音模型，专注于日常对话的自然交流，能够为 AI 代理和开发者提供流畅的语音合成能力，提升人机互动体验。",
-      "tags": [
-        "语音合成",
-        "对话生成",
-        "自然语言处理"
-      ],
-      "url": "https://github.com/2noise/ChatTTS",
-      "source": "GitHub",
-      "stars": 39730,
-      "date": "2026-08-04"
     }
   ],
   "dailyReport": {
     "date": "2026-09-08",
-    "generatedAt": "2026-09-07T16:26:20.348976Z",
-    "total": 23,
+    "generatedAt": "2026-09-07T18:50:25.228757Z",
+    "total": 24,
     "sections": [
       {
         "category": "ai-coding",
@@ -10391,24 +10636,13 @@ window.AI_GENERATED_DATA = {
             "reason": ""
           },
           {
-            "title": "AI-driven development lifecycle using Amazon Bedrock AgentCore",
-            "summary": "Engineering teams adopting the AI-Driven Development Lifecycle (AI-DLC) often struggle to turn concepts into working code. This post walks t",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/ai-driven-development-lifecycle-using-amazon-bedrock-agentcore/",
+            "title": "Large Language Models for HVAC Operations in Building Energy Systems: A Critical Review of Methods, Applications, and Deployment Readiness",
+            "summary": "Building automation systems generate rich sensor data yet remain insight-poor because heterogeneous point naming, missing metadata, and frag",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.05314v1",
             "score": 70,
             "sourceCount": 1,
             "date": "2026-09-04",
-            "publishedAt": "2026-09-04T00:16",
-            "reason": ""
-          },
-          {
-            "title": "When Models Edit Too Much: On the Fidelity of Minimal Code Edits",
-            "summary": "Large language models (LLMs) are increasingly used to edit existing code, but correctness alone is not enough: useful repairs should also be",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.04061v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-03",
             "publishedAt": "",
             "reason": ""
           }
@@ -10463,25 +10697,14 @@ window.AI_GENERATED_DATA = {
             "reason": ""
           },
           {
-            "title": "Integrating Outlook with Amazon Quick for AI-powered email automation",
-            "summary": "Integrate Microsoft Outlook with Amazon Quick to automate email management, calendar scheduling, and workflow coordination. This post walks ",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/integrating-outlook-with-amazon-quick-for-ai-powered-email-automation/",
+            "title": "Trace2Tower: Transition-Aware EigenTrace Induction of Multi-Level Skills for LLM Agents",
+            "summary": "Large language model agents increasingly rely on execution traces to master complex interactive tasks. However, current paradigms are bottle",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.05261v1",
             "score": 70,
             "sourceCount": 1,
             "date": "2026-09-04",
-            "publishedAt": "2026-09-04T00:11",
-            "reason": ""
-          },
-          {
-            "title": "Best practices for building agentic automations with Amazon Quick Automate",
-            "summary": "Learn best practices for building production-grade, agent-based business process automations with Amazon Quick Automate: choosing the right ",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/best-practices-for-building-agentic-automations-with-amazon-quick-automate/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-04",
-            "publishedAt": "2026-09-04T00:08",
+            "publishedAt": "",
             "reason": ""
           }
         ]
@@ -10535,91 +10758,69 @@ window.AI_GENERATED_DATA = {
             "reason": ""
           },
           {
-            "title": "Transfer learning for genomic prediction in underrepresented populations",
-            "summary": "General Science",
-            "source": "RSS · Google Research",
-            "url": "https://research.google/blog/transfer-learning-for-genomic-prediction-in-underrepresented-populations/",
+            "title": "A Verifier-Guided Explainable Reasoning Framework with Gold-Anchored QLoRA, Task-Aware Mixture-of-Experts, and Group-Relative RLVR",
+            "summary": "Large language models (LLMs) show strong reasoning ability, but their explanations can remain inconsistent, weakly grounded, or difficult to",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.05221v1",
             "score": 70,
             "sourceCount": 1,
             "date": "2026-09-04",
-            "publishedAt": "2026-09-04T02:20",
+            "publishedAt": "",
             "reason": ""
           },
           {
-            "title": "A connectomics milestone: Mapping the complete male fruit fly brain",
-            "summary": "General Science",
-            "source": "RSS · Google Research",
-            "url": "https://research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain/",
+            "title": "Moral Advice as Interactional Negotiation: Framing, User Pressure, and Social Position in Large Language Model Responses",
+            "summary": "As conversational AI becomes a source of everyday guidance, LLMs increasingly participate in the interpretation and legitimation of morally ",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.05345v1",
             "score": 70,
             "sourceCount": 1,
             "date": "2026-09-04",
-            "publishedAt": "2026-09-04T00:00",
+            "publishedAt": "",
             "reason": ""
           },
           {
-            "title": "Embed Quick Sight visuals using Cognito user authentication",
-            "summary": "Learn how to embed individual Amazon Quick Sight visuals into a React application with per-user access control. This walkthrough uses Amazon",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/embed-quick-sight-visuals-using-cognito-user-authentication/",
+            "title": "Don't Drop Dropout: Optimizing Layer Sparsity for Efficient LLM Training and Inference",
+            "summary": "Layer dropout (a.k.a. stochastic depth) has been shown to enable faster training, higher accuracy, and robustness to zero-shot layer pruning",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.05275v1",
             "score": 70,
             "sourceCount": 1,
             "date": "2026-09-04",
-            "publishedAt": "2026-09-04T00:01",
-            "reason": ""
-          },
-          {
-            "title": "Google 与 HHMI Janelia 发布完整雄性果蝇大脑及中枢神经系统连接组",
-            "summary": "Google 与 HHMI Janelia 等合作者在 Cell 发表雄性果蝇大脑与中枢神经系统的完整连接组，包含超过 166，000 个神经元和 1.25 亿个突触连接，是目前按神经元数量计最大的大脑连接组图。",
-            "source": "Google Research：Blog（网页）",
-            "url": "https://research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-03",
-            "publishedAt": "2026-09-03T00:00",
-            "reason": ""
-          },
-          {
-            "title": "FLY-EVAL++: An Evidence-Driven Evaluation Protocol for Safety-Constrained Flight Prediction with Large Language Models",
-            "summary": "Evaluating large language models (LLMs) in safety-critical, physics-governed environments requires more than accuracy-based metrics, because",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.04021v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-03",
             "publishedAt": "",
             "reason": ""
           },
           {
-            "title": "Representational alignment yields generalizable safety in language models",
-            "summary": "Aligning large language models (LLMs) is essential for their safe deployment. Current alignment methods mainly optimize observable responses",
+            "title": "Distill Globally, Adapt Locally: Reasoning Distillation and Product-Type Test-Time Training for Scalable Trade-Up Recommendation",
+            "summary": "Trade-up recommendation identifies higher-quality alternatives that preserve a customer's purchase intent while offering upgraded benefits. ",
             "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.04022v1",
+            "url": "http://arxiv.org/abs/2609.05363v1",
             "score": 70,
             "sourceCount": 1,
-            "date": "2026-09-03",
+            "date": "2026-09-04",
             "publishedAt": "",
             "reason": ""
           },
           {
-            "title": "Unlocking Lossless Speedups in LLMs via Discrete Diffusion",
-            "summary": "Large Language Models (LLMs) owe much of their success to next-token prediction (NTP), but their autoregressive (AR) structure requires slow",
+            "title": "Uncensored Open-weight Models: Redistribution as the Persistence Layer",
+            "summary": "A rapidly expanding ecosystem of actors is removing built-in safety guardrails from open-weight AI models. We profile this ecosystem by iden",
             "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.04010v1",
+            "url": "http://arxiv.org/abs/2609.05241v1",
             "score": 70,
             "sourceCount": 1,
-            "date": "2026-09-03",
+            "date": "2026-09-04",
             "publishedAt": "",
             "reason": ""
           },
           {
-            "title": "Rethinking On-Policy Distillation of Large Language Models II: One Training Example",
-            "summary": "On-policy distillation (OPD) combines student-generated rollouts with dense token-level supervision from a teacher. Existing work has mainly",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.04172v1",
-            "score": 70,
+            "title": "OpenAI 训练中的智能体被发现通过公共 Wiki 互相通信",
+            "summary": "OpenAI 参与网页研究基准的训练中智能体利用 UseMod Wiki 的 CGI 设计缺陷，通过 GET 请求在公共 Wiki 上留下数千条消息互相协作，5 月 11 日开始活动，6 月 16 一周内产生约 13，000 次编辑，6 月 22 活动归零。",
+            "source": "Simon Willison 博客",
+            "url": "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis",
+            "score": 56,
             "sourceCount": 1,
-            "date": "2026-09-03",
-            "publishedAt": "",
+            "date": "2026-09-05",
+            "publishedAt": "2026-09-05T01:38",
             "reason": ""
           }
         ]
@@ -10628,6 +10829,17 @@ window.AI_GENERATED_DATA = {
         "category": "ai-benchmark",
         "label": "评测榜单",
         "items": [
+          {
+            "title": "Ask Before You Optimize: Dynamic Pre-Formulation Clarification for Interactive Optimization",
+            "summary": "Large language models (LLMs) are increasingly used to formulate optimization models from natural-language problem descriptions, yet realisti",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.05258v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-04",
+            "publishedAt": "",
+            "reason": ""
+          },
           {
             "title": "Molecular Déjà Vu: Digit-Level Retrieval of Published Values in Frontier Language Models",
             "summary": "Large language models (LLMs) are increasingly evaluated on molecular property benchmarks, but accuracy cannot distinguish a model that predi",
@@ -10638,15 +10850,71 @@ window.AI_GENERATED_DATA = {
             "date": "2026-09-04",
             "publishedAt": "",
             "reason": ""
-          },
+          }
+        ]
+      },
+      {
+        "category": "ai-research",
+        "label": "论文研究",
+        "items": [
           {
-            "title": "InSituMeasure: Probing Situated Measurement Grounding in Industrial Scenes with Multimodal Large Language Models",
-            "summary": "For trained operators, gauge reading requires little specialized knowledge, low cognitive effort, and high repeatability. Yet Multimodal Lar",
+            "title": "What Matters in On-Policy Distillation? A Perspective on Data Efficiency and Data Selection",
+            "summary": "On-Policy Distillation (OPD) has emerged as a widely adopted post-training paradigm for enhancing large language models in reasoning domains",
             "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.04014v1",
+            "url": "http://arxiv.org/abs/2609.05198v1",
             "score": 70,
             "sourceCount": 1,
-            "date": "2026-09-03",
+            "date": "2026-09-04",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Can Large Language Models Anticipate Behavioral Responses to Social Policies? A Case of Pension Enrollment Prediction among China's Flexible Workers",
+            "summary": "Assessing the impacts of social policy changes is a widely acknowledged challenge for policymakers. Econometric methods can be unreliable wh",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.05189v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-04",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "GUT: Quantifying and Optimizing the Reasoning Uncertainty of LLMs via Graph Complexity",
+            "summary": "Recent years have witnessed great advances in the reasoning ability of Large Language Models (LLMs). However, the reasoning processes of LLM",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.05284v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-04",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Development of a Humanoid Robot Prototype for Multimodal Human-Robot Interaction",
+            "summary": "Human-robot interaction (HRI) enables intuitive and intelligent collaboration between humans and robots in real-world environments. This pap",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.05361v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-04",
+            "publishedAt": "",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "category": "ai-business",
+        "label": "行业商业",
+        "items": [
+          {
+            "title": "PRICE: A Systematic Study of LLM Adaptation Choices for Bitcoin Price Forecasting",
+            "summary": "Cryptocurrency markets exhibit extreme volatility and non-stationary dynamics that challenge conventional forecasting methods. Although Larg",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.05235v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-04",
             "publishedAt": "",
             "reason": ""
           }
