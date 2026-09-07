@@ -1,7 +1,34 @@
 {
   "lastUpdated": "2026-09-07",
-  "generatedAt": "2026-09-07T01:45:20.136164Z",
+  "generatedAt": "2026-09-07T06:11:21.476311Z",
   "news": [
+    {
+      "title": "FailSAE: Towards Interpretable Failure Prediction for Vision-Language Models via Sparse Autoencoders",
+      "summary": "arXiv:2609.04276v1 Announce Type: new Abstract: Vision-language models (VLMs), such as CLIP, have achieved strong performance across multimodal tasks by aligning visual and textual",
+      "category": "ai-coding",
+      "source": "RSS · arXiv cs.CV",
+      "date": "2026-09-07",
+      "publishedAt": "",
+      "collectedAt": "2026-09-07T14:11",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-07",
+      "tags": [],
+      "url": "https://arxiv.org/abs/2609.04276",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Claude 完成 Fermat 大定理的形式化证明，生成超 1300 万行 Lean 代码",
       "summary": "Anthropic 宣布 Claude 上月完成了 Fermat 大定理的首个形式化证明，这是迄今最大的 Lean 证明。",
@@ -6082,6 +6109,61 @@
     ],
     "ai-agents": [
       {
+        "name": "xLean Demonstrates Agent-Capable Dual-Form Floor-Washing Rob",
+        "provider": "Technology Org",
+        "type": "AI 项目/工具",
+        "bestFor": "Rather than asking users to adapt to rigid cleaning routines, xLean Robotics is bringing real-time adaptiveness directly to the show floor at IFA 2026 in Berlin",
+        "description": "Rather than asking users to adapt to rigid cleaning routines, xLean Robotics is bringing real-time adaptiveness directly to the show floor at IFA 2026 in Berlin. Live interactive d",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Technology Org",
+        "url": "https://www.technology.org/2026/09/07/xlean-demonstrates-agent-capable-dual-form-floor-washing-robot-at-ifa-2026/"
+      },
+      {
+        "name": "Nubia sets Sept. 16 launch for Doubao-powered NaviX Ultra · ",
+        "provider": "TechNode",
+        "type": "AI 项目/工具",
+        "bestFor": "Nubia will launch its NaviX Ultra smartphone on Sept. 16 at 2 p.m. Beijing time. Jointly developed by ZTE and ByteDance, the handset will feature the Doubao mob",
+        "description": "Nubia will launch its NaviX Ultra smartphone on Sept. 16 at 2 p.m. Beijing time. Jointly developed by ZTE and ByteDance, the handset will feature the Doubao mobile assistant and is",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "TechNode",
+        "url": "https://technode.com/2026/09/07/nubia-navix-ultra-ai-agent-phone/"
+      },
+      {
+        "name": "After OpenAI AI agent again 'caught hacking', company's chie",
+        "provider": "The Times of India",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenAI recently introduced its newest model Astra. Now days after the launch ChatGPT-maker has once again discovered its AI agents engaging in hacking behaviour",
+        "description": "OpenAI recently introduced its newest model Astra. Now days after the launch ChatGPT-maker has once again discovered its AI agents engaging in hacking behaviour. The incident promp",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Times of India",
+        "url": "https://timesofindia.indiatimes.com/technology/tech-news/after-openai-ai-agent-again-caught-hacking-companys-chief-scientist-jakub-pachocki-warns-every-other-company-you-are-not-prepared-for-/articleshow/133864593.cms"
+      },
+      {
+        "name": "Fynd founder Sreeraman Mohan Girija: here's why agentic comm",
+        "provider": "Retail Technology Innovation Hub",
+        "type": "AI 项目/工具",
+        "bestFor": "Think about what happens when a parcel does not arrive. The customer opens an app, looks for a way to get in touch, waits in a queue, explains the problem to so",
+        "description": "Think about what happens when a parcel does not arrive. The customer opens an app, looks for a way to get in touch, waits in a queue, explains the problem to someone who pulls up t",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Retail Technology Innovation Hub",
+        "url": "https://retailtechinnovationhub.com/home/2026/9/2/fynds-sreeraman-mohan-girija-heres-why-agentic-commerce-is-the-next-frontier-of-retail"
+      },
+      {
+        "name": "F5 and MuleSoft, a Salesforce company, collaborate to delive",
+        "provider": "itwire.com",
+        "type": "AI 项目/工具",
+        "bestFor": "Joint integration featuring F5 AI Security Platform and Agent Fabric embeds AI runtime security directly into agentic AI workflows, blocking threats like prompt",
+        "description": "Joint integration featuring F5 AI Security Platform and Agent Fabric embeds AI runtime security directly into agentic AI workflows, blocking threats like prompt injection and sensi",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "itwire.com",
+        "url": "https://itwire.com/it-industry-news/strategy/f5-and-mulesoft-a-salesforce-company-collaborate-to-deliver-inline-security-and-governance-for-agent-fabric-and-agentic-ai-applications"
+      },
+      {
         "name": "OpenAI 宣布达到自动化研究实习生里程碑，内部 agent 运行时达人力 3.1 倍",
         "provider": "X：Rohan Paul (@rohanpaul_ai)",
         "type": "AI 项目/工具",
@@ -6465,61 +6547,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Simon Willison 博客",
         "url": "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis"
-      },
-      {
-        "name": "Designing lifecycle policies for AgentCore memory",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Long-running AI agents accumulate outdated memories that degrade quality and create compliance risk. Learn how to design memory lifecycle policies for Amazon Be",
-        "description": "Long-running AI agents accumulate outdated memories that degrade quality and create compliance risk. Learn how to design memory lifecycle policies for Amazon Bedrock AgentCore: sco",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/designing-lifecycle-policies-for-agentcore-memory/"
-      },
-      {
-        "name": "How Intuit built an agentic disaster recovery assistant with",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Disaster recovery at scale is hard. Learn how Intuit built EWOK Agent, an agentic disaster recovery assistant on Amazon Bedrock that lets on-call engineers run ",
-        "description": "Disaster recovery at scale is hard. Learn how Intuit built EWOK Agent, an agentic disaster recovery assistant on Amazon Bedrock that lets on-call engineers run production failovers",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/how-intuit-built-an-agentic-disaster-recovery-assistant-with-amazon-bedrock/"
-      },
-      {
-        "name": "Run agent-driven Amazon SageMaker HyperPod operations with I",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "HyperPod InstantStart is an open source control plane that composes Amazon EKS orchestration with the managed capabilities of Amazon SageMaker HyperPod. It driv",
-        "description": "HyperPod InstantStart is an open source control plane that composes Amazon EKS orchestration with the managed capabilities of Amazon SageMaker HyperPod. It drives the same guarded ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/run-agent-driven-amazon-sagemaker-hyperpod-operations-with-instantstart/"
-      },
-      {
-        "name": "Google's Gemini Spark can now manage your Google Photos libr",
-        "provider": "TechCrunch",
-        "type": "AI 项目/工具",
-        "bestFor": "Google is integrating more of its services with AI, as the company announced that its personal agent, Gemini Spark, can now manage your Google Photos library. T",
-        "description": "Google is integrating more of its services with AI, as the company announced that its personal agent, Gemini Spark, can now manage your Google Photos library. That means you can as",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "TechCrunch",
-        "url": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/"
-      },
-      {
-        "name": "SENTINEL-RL: Offloading Topological Reasoning from LLM Agent",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Large language model (LLM) agents are increasingly proposed as autonomous SOC analysts, but two limitations make them unreliable at enterprise scale: a finite c",
-        "description": "Large language model (LLM) agents are increasingly proposed as autonomous SOC analysts, but two limitations make them unreliable at enterprise scale: a finite context window cannot",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2609.04159v1"
       }
     ],
     "ai-models": [
@@ -10386,13 +10413,24 @@
   ],
   "dailyReport": {
     "date": "2026-09-07",
-    "generatedAt": "2026-09-07T01:45:20.114167Z",
-    "total": 22,
+    "generatedAt": "2026-09-07T06:11:21.454339Z",
+    "total": 23,
     "sections": [
       {
         "category": "ai-coding",
         "label": "AI 编程",
         "items": [
+          {
+            "title": "FailSAE: Towards Interpretable Failure Prediction for Vision-Language Models via Sparse Autoencoders",
+            "summary": "arXiv:2609.04276v1 Announce Type: new Abstract: Vision-language models (VLMs), such as CLIP, have achieved strong performance across multimo",
+            "source": "RSS · arXiv cs.CV",
+            "url": "https://arxiv.org/abs/2609.04276",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-07",
+            "publishedAt": "",
+            "reason": ""
+          },
           {
             "title": "AI-driven development lifecycle using Amazon Bedrock AgentCore",
             "summary": "Engineering teams adopting the AI-Driven Development Lifecycle (AI-DLC) often struggle to turn concepts into working code. This post walks t",
