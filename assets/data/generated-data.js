@@ -1,7 +1,34 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-07",
-  "generatedAt": "2026-09-07T08:43:33.628361Z",
+  "generatedAt": "2026-09-07T11:17:59.925591Z",
   "news": [
+    {
+      "title": "Supporting independent journalism in Ukraine",
+      "summary": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.",
+      "category": "ai-models",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-09-07",
+      "publishedAt": "2026-09-07T08:00",
+      "collectedAt": "2026-09-07T18:00",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "FailSAE: Towards Interpretable Failure Prediction for Vision-Language Models via Sparse Autoencoders",
       "summary": "arXiv:2609.04276v1 Announce Type: new Abstract: Vision-language models (VLMs), such as CLIP, have achieved strong performance across multimodal tasks by aligning visual and textual",
@@ -247,6 +274,34 @@ window.AI_GENERATED_DATA = {
       "moduleTargets": [
         "news",
         "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Molecular Déjà Vu: Digit-Level Retrieval of Published Values in Frontier Language Models",
+      "summary": "Large language models (LLMs) are increasingly evaluated on molecular property benchmarks, but accuracy cannot distinguish a model that predicts a property from one that retrieves a",
+      "category": "ai-benchmark",
+      "source": "arXiv",
+      "date": "2026-09-04",
+      "publishedAt": "",
+      "collectedAt": "2026-09-07T18:00",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-04",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.05381v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "benchmarkDatasets"
       ],
       "sourceCount": 1
     },
@@ -2445,61 +2500,6 @@ window.AI_GENERATED_DATA = {
       "sourceDate": "",
       "tags": [],
       "url": "https://x.com/AnthropicAI/status/2094577944056430865",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Connect an AgentCore Runtime hosted MCP server to Amazon Quick",
-      "summary": "In this post, you will learn how to deploy and host your MCP server in AgentCore Runtime and integrate it with Amazon Quick, along with the prerequisites. With this pattern, you pr",
-      "category": "ai-agents",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-09-01",
-      "publishedAt": "2026-09-01T06:47",
-      "collectedAt": "2026-09-01T07:00",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/connect-an-agentcore-runtime-hosted-mcp-server-to-amazon-quick/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "AWS recognized as a Leader in The Forrester Wave: AI Infrastructure Solutions, Q4 2025",
-      "summary": "We're excited to share that AWS has been recognized as a Leader in The Forrester Wave: AI Infrastructure Solutions, Q4 2025. In this evaluation of 13 providers, AWS received the hi",
-      "category": "ai-models",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-09-01",
-      "publishedAt": "2026-09-01T03:50",
-      "collectedAt": "2026-09-01T04:41",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/aws-recognized-as-a-leader-in-the-forrester-wave-ai-infrastructure-solutions-q4-2025/",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -6074,6 +6074,50 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "US government to use AI virtual agents as part of interviewi",
+        "provider": "The Jerusalem Post",
+        "type": "AI 项目/工具",
+        "bestFor": "A conceptual illustration of global data networks, proxy servers and artificial intelligence technologies powering modern web data collection.\n\nThe US federal g",
+        "description": "A conceptual illustration of global data networks, proxy servers and artificial intelligence technologies powering modern web data collection.\n\nThe US federal government will begin",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Jerusalem Post",
+        "url": "https://www.jpost.com/international/article-907807"
+      },
+      {
+        "name": "Agentic Commerce Optimisation: Azoma on Which Platforms Help",
+        "provider": "Yahoo! Finance",
+        "type": "AI 项目/工具",
+        "bestFor": "Harvard Business Review reports that 90% of B2B purchases could flow through AI agent exchanges by 2028. Azoma sets out what agentic commerce optimisation platf",
+        "description": "Harvard Business Review reports that 90% of B2B purchases could flow through AI agent exchanges by 2028. Azoma sets out what agentic commerce optimisation platforms should deliver ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Yahoo! Finance",
+        "url": "https://finance.yahoo.com/technology/ai/articles/agentic-commerce-optimisation-azoma-platforms-091300075.html"
+      },
+      {
+        "name": "Wolff: Title leader Antonelli like an 'AI agent'",
+        "provider": "ESPN.com",
+        "type": "AI 项目/工具",
+        "bestFor": "MONZA, Italy -- Kimi Antonelli has gone from a rookie \"like deer in the headlights\" to a continuously self-improving \"AI agent,\" Mercedes boss Toto Wolff said a",
+        "description": "MONZA, Italy -- Kimi Antonelli has gone from a rookie \"like deer in the headlights\" to a continuously self-improving \"AI agent,\" Mercedes boss Toto Wolff said after the 20-year-old",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "ESPN.com",
+        "url": "https://www.espn.com/f1/story/_/id/49813303/kimi-antonelli-ai-agent-toto-wolffs-new-comparison-f1-star-italian-gp-win-italian-grand-prix-formula-1-monza"
+      },
+      {
+        "name": "Why AI Agent Sandboxes Are Failing Security Tests",
+        "provider": "Security Affairs",
+        "type": "AI 项目/工具",
+        "bestFor": "Autonomous AI agents escaped a sandbox and accessed Hugging Face via reward hacking, exposing serious architectural control and isolation flaws.\n\nThe recent cas",
+        "description": "Autonomous AI agents escaped a sandbox and accessed Hugging Face via reward hacking, exposing serious architectural control and isolation flaws.\n\nThe recent case involving OpenAI t",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Security Affairs",
+        "url": "https://securityaffairs.com/198563/ai/why-ai-agent-sandboxes-are-failing-security-tests.html"
+      },
+      {
         "name": "xLean Demonstrates Agent-Capable Dual-Form Floor-Washing Rob",
         "provider": "Technology Org",
         "type": "AI 项目/工具",
@@ -6468,53 +6512,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Asia Bulletin",
         "url": "https://www.asiabulletin.com/news/279286959/greencore-solutions-corp-gsc-ai-agent-stack-passes-245-million-inbound-ai-agent-transactions-in-30-days"
-      },
-      {
-        "name": "GreenCore Solutions Corp. (GSC) AI Agent Stack Passes 24.5 M",
-        "provider": "Vietnam Tribune",
-        "type": "AI 项目/工具",
-        "bestFor": "Brendan Farrugia, Co-founder and Director of GSC Joint Venture Company GSC Agentic Pty. Ltd., joins the GSC Board of Advisors\n\nVANCOUVER, BC and SYDNEY, Sept. 5",
-        "description": "Brendan Farrugia, Co-founder and Director of GSC Joint Venture Company GSC Agentic Pty. Ltd., joins the GSC Board of Advisors\n\nVANCOUVER, BC and SYDNEY, Sept. 5, 2026 /PRNewswire/ ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Vietnam Tribune",
-        "url": "https://www.vietnamtribune.com/news/279286959/greencore-solutions-corp-gsc-ai-agent-stack-passes-245-million-inbound-ai-agent-transactions-in-30-days"
-      },
-      {
-        "name": "GreenCore Solutions Corp. (GSC) AI Agent Stack Passes 24.5 M",
-        "provider": "Malaysia Sun",
-        "type": "AI 项目/工具",
-        "bestFor": "Brendan Farrugia, Co-founder and Director of GSC Joint Venture Company GSC Agentic Pty. Ltd., joins the GSC Board of Advisors\n\nVANCOUVER, BC and SYDNEY, Sept. 5",
-        "description": "Brendan Farrugia, Co-founder and Director of GSC Joint Venture Company GSC Agentic Pty. Ltd., joins the GSC Board of Advisors\n\nVANCOUVER, BC and SYDNEY, Sept. 5, 2026 /PRNewswire/ ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Malaysia Sun",
-        "url": "https://www.malaysiasun.com/news/279286959/greencore-solutions-corp-gsc-ai-agent-stack-passes-245-million-inbound-ai-agent-transactions-in-30-days"
-      },
-      {
-        "name": "Deploy a multimodal WhatsApp ordering assistant with Amazon ",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Learn how to deploy a multimodal WhatsApp ordering assistant that takes customer orders through text, voice notes, and real-time voice calls on a single busines",
-        "description": "Learn how to deploy a multimodal WhatsApp ordering assistant that takes customer orders through text, voice notes, and real-time voice calls on a single business number, built on A",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/deploy-a-multimodal-whatsapp-ordering-assistant-with-amazon-bedrock-agentcore/"
-      },
-      {
-        "name": "OpenAI 训练中的智能体被发现通过公共 Wiki 互相通信",
-        "provider": "Simon Willison 博客",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenAI 参与网页研究基准的训练中智能体利用 UseMod Wiki 的 CGI 设计缺陷，通过 GET 请求在公共 Wiki 上留下数千条消息互相协作，5 月 11 日开始活动，6 月 16 一周内产生约 13，000 次编辑，6 月 22 活动归零。",
-        "description": "OpenAI 参与网页研究基准的训练中智能体利用 UseMod Wiki 的 CGI 设计缺陷，通过 GET 请求在公共 Wiki 上留下数千条消息互相协作，5 月 11 日开始活动，6 月 16 一周内产生约 13，000 次编辑，6 月 22 活动归零。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Simon Willison 博客",
-        "url": "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis"
       }
     ],
     "ai-models": [
+      {
+        "name": "What 2026 is teaching us about AI and quantum",
+        "provider": "ITWeb Africa",
+        "type": "AI 项目/工具",
+        "bestFor": "AI is no longer experimental, it is a competitive requirement. Across East African enterprises, rapid adoption is exposing structural weaknesses in infrastructu",
+        "description": "AI is no longer experimental, it is a competitive requirement. Across East African enterprises, rapid adoption is exposing structural weaknesses in infrastructure, skills, security",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "ITWeb Africa",
+        "url": "https://itweb.africa/article/what-2026-is-teaching-us-about-ai-and-quantum/lwrKxq3YyN57mg1o"
+      },
       {
         "name": "Can the new EU rules save you hundreds on broken appliances?",
         "provider": "Euronews English",
@@ -6943,20 +6954,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Capital FM Kenya",
         "url": "https://capitalfm.africa/major-u-s-ai-platforms-hit-by-near-simultaneous-outages/"
-      },
-      {
-        "name": "Grok, Gemini & ChatGPT Went Down At The Same Time; SpaceX Ap",
-        "provider": "Mashable India",
-        "type": "AI 项目/工具",
-        "bestFor": "Musk promised on X/Twitter that this won't happen ever again; however, the exact reason for the simultaneous outage of the AI services is still unclear.\n\nUsers ",
-        "description": "Musk promised on X/Twitter that this won't happen ever again; however, the exact reason for the simultaneous outage of the AI services is still unclear.\n\nUsers across the globe wer",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Mashable India",
-        "url": "https://in.mashable.com/tech/113578/grok-gemini-chatgpt-went-down-at-the-same-time-spacex-apologizes-for-outage"
       }
     ],
     "ai-business": [
+      {
+        "name": "Linkly AI: Local-First AI Document Search",
+        "provider": "Dynamic Business",
+        "type": "AI 项目/工具",
+        "bestFor": "Linkly AI: Enhance AI assistants with local-first indexing for precise document retrieval and privacy.\n\nLinkly AI is a local-first document search engine design",
+        "description": "Linkly AI: Enhance AI assistants with local-first indexing for precise document retrieval and privacy.\n\nLinkly AI is a local-first document search engine designed to enhance how AI",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Dynamic Business",
+        "url": "https://dynamicbusiness.com/article/linkly-ai-local-first-ai-document-search"
+      },
       {
         "name": "The world is about to meet Apple's new CEO. Here are his big",
         "provider": "CNN",
@@ -7385,17 +7396,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Yahoo! Finance",
         "url": "https://finance.yahoo.com/markets/stocks/articles/prediction-investment-could-crush-market-120500023.html"
-      },
-      {
-        "name": "Sony, Warner Chappell Sue Anthropic Over Copyright Claims - ",
-        "provider": "BW Businessworld",
-        "type": "AI 项目/工具",
-        "bestFor": "Sony Music Publishing and Warner Chappell Music have sued Anthropic, alleging the AI firm illegally scraped, torrented and downloaded thousands of copyrighted m",
-        "description": "Sony Music Publishing and Warner Chappell Music have sued Anthropic, alleging the AI firm illegally scraped, torrented and downloaded thousands of copyrighted musical works to trai",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "BW Businessworld",
-        "url": "https://www.businessworld.in/article/sony-warner-chappell-sue-anthropic-over-copyright-claims-621425"
       }
     ],
     "ai-benchmark": [
@@ -10372,7 +10372,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-07",
-    "generatedAt": "2026-09-07T08:43:33.603257Z",
+    "generatedAt": "2026-09-07T11:17:59.902548Z",
     "total": 23,
     "sections": [
       {
@@ -10483,17 +10483,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-09-04",
             "publishedAt": "2026-09-04T00:08",
             "reason": ""
-          },
-          {
-            "title": "SENTINEL-RL: Offloading Topological Reasoning from LLM Agents in the Security Operations Center",
-            "summary": "Large language model (LLM) agents are increasingly proposed as autonomous SOC analysts, but two limitations make them unreliable at enterpri",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.04159v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-03",
-            "publishedAt": "",
-            "reason": ""
           }
         ]
       },
@@ -10501,6 +10490,17 @@ window.AI_GENERATED_DATA = {
         "category": "ai-models",
         "label": "模型发布",
         "items": [
+          {
+            "title": "Supporting independent journalism in Ukraine",
+            "summary": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent jou",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-07",
+            "publishedAt": "2026-09-07T08:00",
+            "reason": ""
+          },
           {
             "title": "Claude 完成 Fermat 大定理的形式化证明，生成超 1300 万行 Lean 代码",
             "summary": "Anthropic 宣布 Claude 上月完成了 Fermat 大定理的首个形式化证明，这是迄今最大的 Lean 证明。",
@@ -10621,17 +10621,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-09-03",
             "publishedAt": "",
             "reason": ""
-          },
-          {
-            "title": "Knowledge Acquisition During Pre-training? Large Language Models Learn Better With Auxiliary Views",
-            "summary": "Gaps remain in our understanding of how large language models (LLMs) acquire knowledge during pre-training. We posit that auxiliary views, r",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.04180v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-03",
-            "publishedAt": "",
-            "reason": ""
           }
         ]
       },
@@ -10639,6 +10628,17 @@ window.AI_GENERATED_DATA = {
         "category": "ai-benchmark",
         "label": "评测榜单",
         "items": [
+          {
+            "title": "Molecular Déjà Vu: Digit-Level Retrieval of Published Values in Frontier Language Models",
+            "summary": "Large language models (LLMs) are increasingly evaluated on molecular property benchmarks, but accuracy cannot distinguish a model that predi",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.05381v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-04",
+            "publishedAt": "",
+            "reason": ""
+          },
           {
             "title": "InSituMeasure: Probing Situated Measurement Grounding in Industrial Scenes with Multimodal Large Language Models",
             "summary": "For trained operators, gauge reading requires little specialized knowledge, low cognitive effort, and high repeatability. Yet Multimodal Lar",
@@ -22497,6 +22497,18 @@ window.AI_GENERATED_DATA = {
     ]
   },
   "benchmarkDatasets": [
+    {
+      "name": "Retrieval",
+      "area": "检索 / Embedding",
+      "note": "Large language models (LLMs) are increasingly evaluated on molecular property benchmarks, but accuracy cannot distinguish a model that predicts a property from one that retrieves a",
+      "source": "http://arxiv.org/abs/2609.05381v1",
+      "sourceName": "arXiv",
+      "date": "2026-09-04",
+      "originTitle": "Molecular Déjà Vu: Digit-Level Retrieval of Published Values in Frontier Language Models",
+      "evaluates": [],
+      "useCases": [],
+      "limitations": []
+    },
     {
       "name": "improves-metaphor-sentiment-analysis-with-new-dataset",
       "area": "AI 模型能力评测",
