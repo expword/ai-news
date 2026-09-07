@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
-  "lastUpdated": "2026-09-07",
-  "generatedAt": "2026-09-07T13:53:47.911737Z",
+  "lastUpdated": "2026-09-08",
+  "generatedAt": "2026-09-07T16:26:20.369006Z",
   "news": [
     {
       "title": "Supporting independent journalism in Ukraine",
@@ -6516,6 +6516,39 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-models": [
       {
+        "name": "US Lobby's $1.1 Trillion Freight Rail Electrification Study ",
+        "provider": "RocketNews | Top News Stories From Around the Globe",
+        "type": "AI 项目/工具",
+        "bestFor": "The Association of American Railroads commissioned HDR to assess the costs of installing catenary electric systems across approximately 105,000 to 139,000 track",
+        "description": "The Association of American Railroads commissioned HDR to assess the costs of installing catenary electric systems across approximately 105,000 to 139,000 track-miles of the Class ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RocketNews | Top News Stories From Around the Globe",
+        "url": "https://rocketnews.com/2026/09/us-lobbys-1-1-trillion-freight-rail-electrification-study-intentionally-asked-the-wrong-question/"
+      },
+      {
+        "name": "Oil Majors Seek Bigger Bargaining Power in Labor Disputes",
+        "provider": "RocketNews | Top News Stories From Around the Globe",
+        "type": "AI 项目/工具",
+        "bestFor": "The largest U.S. oil corporations have escalated their approach to unionized labor negotiations by employing lockouts and operating facilities with replacement ",
+        "description": "The largest U.S. oil corporations have escalated their approach to unionized labor negotiations by employing lockouts and operating facilities with replacement staff to gain negoti",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RocketNews | Top News Stories From Around the Globe",
+        "url": "https://rocketnews.com/2026/09/oil-majors-seek-bigger-bargaining-power-in-labor-disputes/"
+      },
+      {
+        "name": "Prompt Injection Remains Biggest LLM Risk, Despite Limited I",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Prompt injection remains the most dangerous security threat to LLMs, according to OWASP’s latest Top 10 LLM Applications list",
+        "description": "Prompt injection remains the most dangerous security threat to LLMs, according to OWASP’s latest Top 10 LLM Applications list",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:open source LLM",
+        "url": "https://www.infosecurity-magazine.com/news/prompt-injection-llm-risk/"
+      },
+      {
         "name": "AI resumes are the new headache LinkedIn's hiring assistant ",
         "provider": "Digit",
         "type": "AI 项目/工具",
@@ -6921,39 +6954,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "english.news.cn",
         "url": "https://english.news.cn/northamerica/20260904/7f7cec53fd17466492c7a7727ce87994/c.html"
-      },
-      {
-        "name": "Major US AI platforms hit by near-simultaneous outages",
-        "provider": "chinadailyhk",
-        "type": "AI 项目/工具",
-        "bestFor": "ChatGPT, Claude and Grok were among several major US artificial intelligence services hit by near-simultaneous outages on Thursday, disrupting access for some u",
-        "description": "ChatGPT, Claude and Grok were among several major US artificial intelligence services hit by near-simultaneous outages on Thursday, disrupting access for some users before affected",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "chinadailyhk",
-        "url": "https://www.chinadailyhk.com/hk/article/639037"
-      },
-      {
-        "name": "mock.shop: Sample Stores for Building With AI (2026) - Shopi",
-        "provider": "Shopify",
-        "type": "AI 项目/工具",
-        "bestFor": "mock.shop is a free set of more than 100 sample online stores that developers and AI assistants can use to build a storefront before a real store exists.\n\nEach ",
-        "description": "mock.shop is a free set of more than 100 sample online stores that developers and AI assistants can use to build a storefront before a real store exists.\n\nEach store's API responds",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Shopify",
-        "url": "https://www.shopify.com/blog/mock-shop"
-      },
-      {
-        "name": "Major US AI platforms hit by near-simultaneous outages",
-        "provider": "China Daily Asia",
-        "type": "AI 项目/工具",
-        "bestFor": "ChatGPT, Claude and Grok were among several major US artificial intelligence services hit by near-simultaneous outages on Thursday, disrupting access for some u",
-        "description": "ChatGPT, Claude and Grok were among several major US artificial intelligence services hit by near-simultaneous outages on Thursday, disrupting access for some users before affected",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "China Daily Asia",
-        "url": "https://www.chinadailyasia.com/hk/article/639037"
       }
     ],
     "ai-business": [
@@ -10371,8 +10371,8 @@ window.AI_GENERATED_DATA = {
     }
   ],
   "dailyReport": {
-    "date": "2026-09-07",
-    "generatedAt": "2026-09-07T13:53:47.887229Z",
+    "date": "2026-09-08",
+    "generatedAt": "2026-09-07T16:26:20.348976Z",
     "total": 23,
     "sections": [
       {
@@ -10655,6 +10655,47 @@ window.AI_GENERATED_DATA = {
     ]
   },
   "dailyReports": [
+    {
+      "date": "2026-09-07",
+      "generatedAt": "2026-09-07T16:00:53.244217Z",
+      "total": 2,
+      "sections": [
+        {
+          "category": "ai-coding",
+          "label": "AI 编程",
+          "items": [
+            {
+              "title": "FailSAE: Towards Interpretable Failure Prediction for Vision-Language Models via Sparse Autoencoders",
+              "summary": "arXiv:2609.04276v1 Announce Type: new Abstract: Vision-language models (VLMs), such as CLIP, have achieved strong performance across multimo",
+              "source": "RSS · arXiv cs.CV",
+              "url": "https://arxiv.org/abs/2609.04276",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-07",
+              "publishedAt": "",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-models",
+          "label": "模型发布",
+          "items": [
+            {
+              "title": "Supporting independent journalism in Ukraine",
+              "summary": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent jou",
+              "source": "RSS · OpenAI Blog",
+              "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-07",
+              "publishedAt": "2026-09-07T08:00",
+              "reason": ""
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-09-06",
       "generatedAt": "2026-09-06T16:00:41.402471Z",
@@ -21127,90 +21168,10 @@ window.AI_GENERATED_DATA = {
           ]
         }
       ]
-    },
-    {
-      "date": "2026-07-04",
-      "generatedAt": "2026-07-04T16:26:53.575052Z",
-      "total": 5,
-      "sections": [
-        {
-          "category": "ai-tools",
-          "label": "AI 工具",
-          "items": [
-            {
-              "title": "pxpipe通过图像化压缩显著降低Claude Code输入成本",
-              "summary": "pxpipe作为本地代理，通过将系统提示、工具文档和历史记录等文本渲染为PNG图像，有效压缩输入token。在Fable 5模型上，约25k文本token可压缩为约2.7k图像token，整体账单降低59-70%。在SWE-bench Lite测试中，成本从$54降至$27，SW",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://github.com/teamchong/pxpipe",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-07-04",
-              "publishedAt": "2026-07-04T03:19",
-              "reason": "pxpipe通过创新的图像化压缩技术，显著降低了AI模型的输入成本，值得关注。"
-            },
-            {
-              "title": "利用 Fable 的判断力提升工作效率",
-              "summary": "Simon Willison 建议在使用 Fable 和 Opus 时，允许它们自主判断，而不是强制规定操作方式。通过让 Fable 自行决定何时编写测试和将小任务委托给低功耗模型，可以显著提高效率并节省资源。Jesse Vincent 提供的技巧帮助减少 Fable token",
-              "source": "Simon Willison 博客",
-              "url": "https://simonwillison.net/2026/Jul/3/judgement",
-              "score": 63,
-              "sourceCount": 1,
-              "date": "2026-07-04",
-              "publishedAt": "2026-07-04T02:51",
-              "reason": "这条建议提供了实用的技巧，帮助开发者在使用 AI 工具时更高效地管理资源，值得关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-coding",
-          "label": "AI 编程",
-          "items": [
-            {
-              "title": "NVIDIA 与多所高校联合推出 ASPIRE 自我改进机器人框架，零样本成功率提升至 31%",
-              "summary": "NVIDIA 联合密歇根大学、UIUC 和 UC Berkeley 提出的 ASPIRE 框架，通过协调器-执行器架构和闭环执行引擎，显著提升机器人控制程序的编写与优化能力。在 LIBERO-Pro 上，ASPIRE 的零样本成功率达到 31%，相比之前的 4% 有显著提升，同时",
-              "source": "MarkTechPost（RSS）",
-              "url": "https://www.marktechpost.com/2026/07/03/nvidia-ai-introduces-aspire-a-self-improving-robotics-framework-reaching-31-zero-shot-on-libero-pro-long-tasks",
-              "score": 67,
-              "sourceCount": 1,
-              "date": "2026-07-04",
-              "publishedAt": "2026-07-04T14:32",
-              "reason": "ASPIRE 框架的推出标志着机器人编程领域的一次重大突破，其自我改进能力和高成功率将极大推动机器人技术的应用和发展。"
-            }
-          ]
-        },
-        {
-          "category": "ai-research",
-          "label": "论文研究",
-          "items": [
-            {
-              "title": "北京大学与中科院联合研发全球首款忆阻器神经动力学芯片",
-              "summary": "北京大学集成电路学院与中国科学院上海微系统所联合发布全球首款基于可控存内计算的忆阻器神经动力学芯片，成功将单步运算时延压缩至2.12毫秒。该芯片采用40纳米工艺，面积仅0.28平方毫米，运行频率为50 MHz，显著提升了脑皮层重建等任务的计算效率，较现有GPU提速50至478倍，",
-              "source": "IT之家（RSS）",
-              "url": "https://www.ithome.com/0/972/526.htm",
-              "score": 68,
-              "sourceCount": 1,
-              "date": "2026-07-04",
-              "publishedAt": "2026-07-04T13:01",
-              "reason": "该芯片的研发突破了神经动力学计算的时延瓶颈，具有广泛的应用前景，值得关注。"
-            },
-            {
-              "title": "26000名学生研究揭示AI使用的潜在学习成本",
-              "summary": "一项针对26000名中学生的研究显示，使用AI虽然能加快作业完成速度并提高作业分数，但闭卷考试分数却显著下降，且这种影响在两年后才完全显现。长期使用AI的学生作业完成时间大幅缩短，81%的用户在50分钟内完成作业，但同时也暴露出学习能力的下降，尤其在社会科学和STEM科目上表现尤",
-              "source": "The Decoder：AI News（RSS）",
-              "url": "https://the-decoder.com/a-26000-student-study-shows-ais-hidden-learning-cost-takes-two-full-years-to-surface",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-07-04",
-              "publishedAt": "2026-07-04T17:08",
-              "reason": "这项研究揭示了AI在教育中潜在的隐性成本，值得教育界深入探讨与反思。"
-            }
-          ]
-        }
-      ]
     }
   ],
   "llmLeaderboard": {
-    "updated": "2026-09-07",
+    "updated": "2026-09-08",
     "source": "ReLE 中文大模型能力评测（综合能力）",
     "sourceUrl": "https://github.com/jeinlee1991/chinese-llm-benchmark",
     "items": [
