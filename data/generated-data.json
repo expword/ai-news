@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-08",
-  "generatedAt": "2026-09-07T18:50:25.254848Z",
+  "generatedAt": "2026-09-08T00:40:31.724210Z",
   "news": [
     {
       "title": "Supporting independent journalism in Ukraine",
@@ -2503,260 +2503,6 @@
       "moduleTargets": [
         "news",
         "benchmarkDatasets"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "A systematic Approach to constructing a Chance-and-Risk Matrix for Semiconductor Supply Chains",
-      "summary": "Semiconductor supply chains face escalating risks from geopolitical tensions, geographic concentration, and rapid technological shifts, yet no scalable system continuously extracts",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-01",
-      "publishedAt": "",
-      "collectedAt": "2026-09-02T11:46",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-01",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.01563v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Can LLMs Design Video Coding Tools? A Case Study on Planar Mode",
-      "summary": "This paper explores whether large language models (LLMs) can design video coding tools, a highly challenging task due to the intricate algorithmic coupling of tool modifications. I",
-      "category": "ai-coding",
-      "source": "arXiv",
-      "date": "2026-09-01",
-      "publishedAt": "",
-      "collectedAt": "2026-09-02T11:46",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-01",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.01535v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "RadMatch: Auditable Radiology Report Evaluation via Finding-Level Matching",
-      "summary": "As AI systems are increasingly used to draft radiology reports, reliably evaluating their clinical quality remains a critical challenge. Large language model (LLM)-based metrics ar",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-01",
-      "publishedAt": "",
-      "collectedAt": "2026-09-02T11:46",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-01",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.01470v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "How law firm Gilbert + Tobin governs and scales AI with OpenAI",
-      "summary": "See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex across the firm.",
-      "category": "ai-coding",
-      "source": "RSS · OpenAI Blog",
-      "date": "2026-09-01",
-      "publishedAt": "2026-09-01T09:00",
-      "collectedAt": "2026-09-02T10:30",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://openai.com/index/gilbert-tobin",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Path to Astra: critical capabilities and frontier safeguards",
-      "summary": "Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.",
-      "category": "ai-models",
-      "source": "RSS · OpenAI Blog",
-      "date": "2026-09-01",
-      "publishedAt": "2026-09-01T21:00",
-      "collectedAt": "2026-09-02T04:27",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://openai.com/index/path-to-astra",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
-      "summary": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.",
-      "category": "ai-research",
-      "source": "RSS · OpenAI Blog",
-      "date": "2026-09-01",
-      "publishedAt": "2026-09-01T20:00",
-      "collectedAt": "2026-09-02T02:05",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Sep 1, 2026 Announcements Developing Enterprise Frontier Safeguards with our customers",
-      "summary": "Sep 1, 2026 Announcements Developing Enterprise Frontier Safeguards with our customers",
-      "category": "ai-models",
-      "source": "HTML · Anthropic",
-      "date": "2026-09-01",
-      "publishedAt": "",
-      "collectedAt": "2026-09-02T02:05",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-01",
-      "tags": [],
-      "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "How t54 built a trust layer with Amazon Bedrock AgentCore payments",
-      "summary": "t54 built x402-secure, a trust layer on Amazon Bedrock AgentCore payments that scores every endpoint before an autonomous agent pays it. See how session budgets, credential isolati",
-      "category": "ai-agents",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-09-01",
-      "publishedAt": "2026-09-01T23:50",
-      "collectedAt": "2026-09-02T00:54",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-t54-built-a-trust-layer-with-amazon-bedrock-agentcore-payments/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 2,
-      "relatedSources": [
-        {
-          "source": "RSS · AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/migrate-agentic-workloads-to-amazon-bedrock-agentcore/",
-          "title": "Migrate agentic workloads to Amazon Bedrock AgentCore"
-        }
-      ]
-    },
-    {
-      "title": "How Boomi Scribe streamlines documentation using AWS",
-      "summary": "Boomi Scribe is an AI-powered agent on AWS that automatically generates documentation for enterprise integration workflows. Learn how Boomi uses Amazon Bedrock, Amazon SageMaker AI",
-      "category": "ai-agents",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-09-01",
-      "publishedAt": "2026-09-01T23:45",
-      "collectedAt": "2026-09-02T00:54",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-boomi-scribe-streamlines-documentation-using-aws/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
       ],
       "sourceCount": 1
     }
@@ -6761,6 +6507,28 @@
     ],
     "ai-models": [
       {
+        "name": "Nvidia Gets a $1.47 Billion Supplier Cushion Without Spendin",
+        "provider": "Yahoo! Finance",
+        "type": "AI 项目/工具",
+        "bestFor": "This article first appeared on GuruFocus.\n\nNvidia (NASDAQ:NVDA), the dominant supplier of artificial-intelligence accelerators, secured another boost across its",
+        "description": "This article first appeared on GuruFocus.\n\nNvidia (NASDAQ:NVDA), the dominant supplier of artificial-intelligence accelerators, secured another boost across its manufacturing netwo",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Yahoo! Finance",
+        "url": "https://ca.finance.yahoo.com/news/nvidia-gets-1-47-billion-215008444.html"
+      },
+      {
+        "name": "The Anchor And The Scale: Germany, India, And Applied AI - A",
+        "provider": "Eurasia Review",
+        "type": "AI 项目/工具",
+        "bestFor": "* Mark Carney's line -- middle powers must sit at the table or they are on the menu -- is tested on AI. The U.S. and China own frontier models (2024: 40 notable",
+        "description": "* Mark Carney's line -- middle powers must sit at the table or they are on the menu -- is tested on AI. The U.S. and China own frontier models (2024: 40 notable U.S. models, 15 Chi",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Eurasia Review",
+        "url": "https://www.eurasiareview.com/08092026-the-anchor-and-the-scale-germany-india-and-applied-ai-analysis/"
+      },
+      {
         "name": "US Lobby's $1.1 Trillion Freight Rail Electrification Study ",
         "provider": "RocketNews | Top News Stories From Around the Globe",
         "type": "AI 项目/工具",
@@ -7177,31 +6945,20 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Softonic",
         "url": "https://en.softonic.com/articles/google-launches-gmail-live-gemini-voice-features-come-to-gmail-docs-and-keep"
-      },
-      {
-        "name": "What Claude can do: A complete overview of one of the most p",
-        "provider": "NEWS.am TECH - Innovations and science",
-        "type": "AI 项目/工具",
-        "bestFor": "Claude is a neural network and chat assistant developed by Anthropic. Users can interact with it in natural language -- asking questions, requesting explanation",
-        "description": "Claude is a neural network and chat assistant developed by Anthropic. Users can interact with it in natural language -- asking questions, requesting explanations of complex topics,",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NEWS.am TECH - Innovations and science",
-        "url": "https://tech.news.am/eng/news/7674/what-claude-can-do-a-complete-overview-of-one-of-the-most-popular-ai-assistants.html"
-      },
-      {
-        "name": "Major U.S. AI platforms hit by near-simultaneous outages",
-        "provider": "english.news.cn",
-        "type": "AI 项目/工具",
-        "bestFor": "SAN FRANCISCO, Sept. 3 (Xinhua) -- ChatGPT, Claude and Grok were among several major U.S. artificial intelligence (AI) services hit by near-simultaneous outages",
-        "description": "SAN FRANCISCO, Sept. 3 (Xinhua) -- ChatGPT, Claude and Grok were among several major U.S. artificial intelligence (AI) services hit by near-simultaneous outages on Thursday, disrup",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "english.news.cn",
-        "url": "https://english.news.cn/northamerica/20260904/7f7cec53fd17466492c7a7727ce87994/c.html"
       }
     ],
     "ai-business": [
+      {
+        "name": "Sharjah attracts $2.1bn investment as 142 projects create 5,",
+        "provider": "ArabianBusiness.com",
+        "type": "AI 项目/工具",
+        "bestFor": "Al Musharrkh said Sharjah's investment strategy focuses not only on the amount of capital attracted but also its longer-term economic impact.\n\nThis includes job",
+        "description": "Al Musharrkh said Sharjah's investment strategy focuses not only on the amount of capital attracted but also its longer-term economic impact.\n\nThis includes job creation, capacity ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "ArabianBusiness.com",
+        "url": "https://www.arabianbusiness.com/business/sharjah-attracts-2-1bn-investment-as-142-projects-create-5673-jobs"
+      },
       {
         "name": "Linkly AI: Local-First AI Document Search",
         "provider": "Dynamic Business",
@@ -7630,17 +7387,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Yahoo! Finance",
         "url": "https://finance.yahoo.com/energy/articles/tesla-just-killed-solar-roof-220544385.html"
-      },
-      {
-        "name": "Prediction: This Investment Could Crush the Market Over the ",
-        "provider": "Yahoo! Finance",
-        "type": "AI 项目/工具",
-        "bestFor": "Where will the markets be in 20 years? It is hard to make even educated guesses, given how rapidly the artificial intelligence (AI) computing revolution is chan",
-        "description": "Where will the markets be in 20 years? It is hard to make even educated guesses, given how rapidly the artificial intelligence (AI) computing revolution is changing how so many org",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Yahoo! Finance",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/prediction-investment-could-crush-market-120500023.html"
       }
     ],
     "ai-benchmark": [
@@ -10617,7 +10363,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-08",
-    "generatedAt": "2026-09-07T18:50:25.228757Z",
+    "generatedAt": "2026-09-08T00:40:31.697893Z",
     "total": 24,
     "sections": [
       {
