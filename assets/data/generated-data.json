@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-08",
-  "generatedAt": "2026-09-08T05:44:26.331910Z",
+  "generatedAt": "2026-09-08T08:19:45.214146Z",
   "news": [
     {
       "title": "Where Appearance Fails, Geometry Recognizes: A CAD-Free 3D Shape Prior That Complements Vision Foundation Models",
@@ -5477,6 +5477,21 @@
       "date": "2026-08-05"
     },
     {
+      "name": "THUDM/Awesome-Parameter-Efficient-Fine-Tuning-for-Foundation-Models",
+      "lang": "Repo",
+      "description": "Parameter-Efficient Fine-Tuning for Foundation Models",
+      "stars": "111 stars",
+      "why": "国产大模型厂商 智谱 GLM 的最新开源动态/模型发布，属一手信源。",
+      "url": "https://github.com/THUDM/Awesome-Parameter-Efficient-Fine-Tuning-for-Foundation-Models",
+      "source": "GitHub · 智谱 GLM",
+      "tier": "T1",
+      "category": "Coding Agent",
+      "details": "Parameter-Efficient Fine-Tuning for Foundation Models",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
       "name": "DietrichGebert/ponytail",
       "lang": "JavaScript",
       "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
@@ -5486,21 +5501,6 @@
       "source": "GitHub Search · 2026-09-08",
       "category": "Coding Agent",
       "details": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-      "features": [],
-      "useCases": [],
-      "quickStart": []
-    },
-    {
-      "name": "OpenBMB/MiniCPM",
-      "lang": "Jupyter Notebook",
-      "description": "MiniCPM5-1B: A SOTA 1B on-device LLM, small yet powerful.",
-      "stars": "10309 stars",
-      "why": "国产大模型厂商 面壁智能 MiniCPM 的最新开源动态/模型发布，属一手信源。",
-      "url": "https://github.com/OpenBMB/MiniCPM",
-      "source": "GitHub · 面壁智能 MiniCPM",
-      "tier": "T1",
-      "category": "Coding Agent",
-      "details": "MiniCPM5-1B: A SOTA 1B on-device LLM, small yet powerful.",
       "features": [],
       "useCases": [],
       "quickStart": []
@@ -5620,6 +5620,17 @@
   ],
   "topicResources": {
     "ai-coding": [
+      {
+        "name": "AgnesCode: AI Tool for Advanced Workflows",
+        "provider": "Dynamic Business",
+        "type": "AI 项目/工具",
+        "bestFor": "AgnesCode: AI agent for code, research, and automation with LLM provider support and security features.\n\nAgnesCode is an AI-powered agent designed to integrate ",
+        "description": "AgnesCode: AI agent for code, research, and automation with LLM provider support and security features.\n\nAgnesCode is an AI-powered agent designed to integrate seamlessly into prof",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Dynamic Business",
+        "url": "https://dynamicbusiness.com/article/agnescode-ai-tool-for-advanced-workflows"
+      },
       {
         "name": "Hikvision Launches Guanlan Large-Scale AI Models and Introdu",
         "provider": "Market Screener",
@@ -6048,17 +6059,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "ETCIO.com",
         "url": "https://cio.economictimes.indiatimes.com/news/artificial-intelligence/openai-to-end-agreement-with-spacexs-ai-coding-tool-cursor-deepening-musk-altman-clash/133604037"
-      },
-      {
-        "name": "OpenAI to terminate Cursor model access following SpaceX acq",
-        "provider": "The Tribune",
-        "type": "AI 项目/工具",
-        "bestFor": "New Delhi [India], August 29 (ANI): Artificial intelligence research company OpenAI, on Friday, decided to end its commercial partnership with coding platform C",
-        "description": "New Delhi [India], August 29 (ANI): Artificial intelligence research company OpenAI, on Friday, decided to end its commercial partnership with coding platform Cursor following the ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Tribune",
-        "url": "https://www.tribuneindia.com/news/business/openai-to-terminate-cursor-model-access-following-spacex-acquisition/"
       }
     ],
     "ai-agents": [
@@ -6505,6 +6505,28 @@
     ],
     "ai-models": [
       {
+        "name": "AI Does Not Have a Mindset: What Repetition Actually Changes",
+        "provider": "Digital Thought Disruption",
+        "type": "AI 项目/工具",
+        "bestFor": "AI systems can appear to learn when their behavior changes, but that phrase hides several very different mechanisms. Training and fine-tuning can alter model pa",
+        "description": "AI systems can appear to learn when their behavior changes, but that phrase hides several very different mechanisms. Training and fine-tuning can alter model parameters. In-context",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Digital Thought Disruption",
+        "url": "https://digitalthoughtdisruption.com/2026/09/08/ai-repetition-model-behavior/"
+      },
+      {
+        "name": "Beyond Foldables: Chinese Tech Firms Upgrade Chips and Syste",
+        "provider": "City News Service",
+        "type": "AI 项目/工具",
+        "bestFor": "Chinese tech giants Huawei, Xiaomi, and Vivo launched new hardware and strategic roadmaps on Monday ahead of Apple's iPhone's much-anticipated product event.\n\nT",
+        "description": "Chinese tech giants Huawei, Xiaomi, and Vivo launched new hardware and strategic roadmaps on Monday ahead of Apple's iPhone's much-anticipated product event.\n\nThough tri-fold scree",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "City News Service",
+        "url": "https://www.citynewsservice.cn/articles/china-biz-buzz/tech/beyond-foldables-chinese-tech-firms-upgrade-chips-and-systems-ahead-of-apple-launch-5nq5vlbn"
+      },
+      {
         "name": "Cellulose hydrogel development optimized using gradient boos",
         "provider": "Scienmag",
         "type": "AI 项目/工具",
@@ -6921,28 +6943,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "The Spokesman Review",
         "url": "https://www.spokesman.com/stories/2026/sep/04/hikers-rescued-after-ai-misroutes-strands-them-on-/"
-      },
-      {
-        "name": "VMware Cloud Foundation 9.1.1 Adds Shared AI Models, but Key",
-        "provider": "eWEEK",
-        "type": "AI 项目/工具",
-        "bestFor": "eWeek content and product recommendations are editorially independent. We may make money when you click on links to our partners. Learn More\n\nVMware's private A",
-        "description": "eWeek content and product recommendations are editorially independent. We may make money when you click on links to our partners. Learn More\n\nVMware's private AI stack is getting m",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "eWEEK",
-        "url": "https://www.eweek.com/news/vmware-vcf-shared-ai-models/"
-      },
-      {
-        "name": "Tech Advisor's Best of IFA 2026 Awards",
-        "provider": "Tech Advisor",
-        "type": "AI 项目/工具",
-        "bestFor": "Arriving neatly before Apple unveils the iPhone 18 series and likely the foldable iPhone Ultra next week, rival tech brands from around the world have gathered ",
-        "description": "Arriving neatly before Apple unveils the iPhone 18 series and likely the foldable iPhone Ultra next week, rival tech brands from around the world have gathered in Berlin to show of",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Tech Advisor",
-        "url": "https://www.techadvisor.com/article/3227215/best-of-ifa-2026-awards.html"
       }
     ],
     "ai-business": [
@@ -10342,7 +10342,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-08",
-    "generatedAt": "2026-09-08T05:44:26.309910Z",
+    "generatedAt": "2026-09-08T08:19:45.191150Z",
     "total": 8,
     "sections": [
       {
