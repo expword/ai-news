@@ -1,7 +1,89 @@
 {
   "lastUpdated": "2026-09-09",
-  "generatedAt": "2026-09-08T18:29:28.806827Z",
+  "generatedAt": "2026-09-08T20:51:09.453381Z",
   "news": [
+    {
+      "title": "How GPT-5.6 Sol helps run quantum computing experiments",
+      "summary": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.",
+      "category": "ai-coding",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-09-09",
+      "publishedAt": "2026-09-09T01:00",
+      "collectedAt": "2026-09-09T04:51",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/codex-quantum-computing-experiments",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Amazon SageMaker Feature Store introduces UpdateRecord for feature-level writes",
+      "summary": "Amazon SageMaker Feature Store now supports feature-level writes. With the new UpdateRecord API, you can update one or more feature values in a single call without reading or rewri",
+      "category": "ai-models",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-09",
+      "publishedAt": "2026-09-09T02:29",
+      "collectedAt": "2026-09-09T03:41",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-feature-store-introduces-updaterecord-for-feature-level-writes/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Pathway’s brain-inspired architecture development on Amazon SageMaker HyperPod",
+      "summary": "Pathway's Baby Dragon Hatchling (BDH) is a brain-inspired, post-transformer architecture that reasons in latent space instead of emitting chain-of-thought tokens. See how Pathway d",
+      "category": "ai-benchmark",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-09",
+      "publishedAt": "2026-09-09T03:12",
+      "collectedAt": "2026-09-09T03:41",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/pathways-brain-inspired-architecture-development-on-amazon-sagemaker-hyperpod/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Govern models with MLflow and Amazon SageMaker AI Model Registry sync: Part 1",
       "summary": "Managed MLflow on Amazon SageMaker AI now syncs richer model metadata (training metrics, evaluation results, inference specs, and lineage) into the SageMaker AI Model Registry, wit",
@@ -48,6 +130,34 @@
       "sourceDate": "",
       "tags": [],
       "url": "https://aws.amazon.com/blogs/machine-learning/automated-agent-evaluation-with-amazon-bedrock-agentcore-and-github-actions/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "1Password increases engineering productivity 21% with Codex",
+      "summary": "Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies.",
+      "category": "ai-coding",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-09-08",
+      "publishedAt": "2026-09-08T08:00",
+      "collectedAt": "2026-09-09T03:41",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/1password",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -5690,6 +5800,17 @@
   "topicResources": {
     "ai-coding": [
       {
+        "name": "1Password increases engineering productivity 21% with Codex",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies.",
+        "description": "Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · OpenAI Blog",
+        "url": "https://openai.com/index/1password"
+      },
+      {
         "name": "Automated agent evaluation with Amazon Bedrock AgentCore and",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -6117,20 +6238,20 @@
         "watch": "请打开原始来源核对",
         "sourceName": "CryptoRank",
         "url": "https://cryptorank.io/news/feed/f1661-openai-musk-war-cursor-cutoff"
-      },
-      {
-        "name": "OpenAI to end agreement with SpaceX's AI coding tool Cursor,",
-        "provider": "Tuoi tre news",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenAI said on Friday that it plans to stop providing AI models to Cursor, the coding-tool company now owned by Elon Musk's SpaceX, in a further escalation of t",
-        "description": "OpenAI said on Friday that it plans to stop providing AI models to Cursor, the coding-tool company now owned by Elon Musk's SpaceX, in a further escalation of the bitter rivalry be",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Tuoi tre news",
-        "url": "https://news.tuoitre.vn/openai-to-end-agreement-with-spacexs-ai-coding-tool-cursor-deepening-musk-altman-clash-103260829112201407.htm"
       }
     ],
     "ai-agents": [
+      {
+        "name": "Tom Tunguz 分析 OpenAI 的 3x AI 生产力增益是否只是机器不睡觉",
+        "provider": "Tomer Tunguz 博客（VC 分析）",
+        "type": "AI 项目/工具",
+        "bestFor": "Tom Tunguz 引用 OpenAI 内部数据，分析其 3x 研究生产力增益的来源：每名研究员 8 小时班次对应 3.14 个 agent 工作日，通常并行运行 4 个 agent。",
+        "description": "Tom Tunguz 引用 OpenAI 内部数据，分析其 3x 研究生产力增益的来源：每名研究员 8 小时班次对应 3.14 个 agent 工作日，通常并行运行 4 个 agent。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Tomer Tunguz 博客（VC 分析）",
+        "url": "https://tomtunguz.com/openai-research-acceleration-agentic-productivity"
+      },
       {
         "name": "How HPE Zerto built an agentic troubleshooting system with A",
         "provider": "RSS",
@@ -6559,20 +6680,20 @@
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:AI agent",
         "url": "https://www.tekedia.com/openai-gpt-6-astra-rolls-out-to-limited-organizations-ahead-of-public-release/"
-      },
-      {
-        "name": "numbat – AI agent observability, (Fri, Sep 4th)",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "â€‹â€‹â€‹â€‹â€‹â€‹â€‹ Read more → The post numbat – AI agent observability, (Fri, Sep 4th) appeared first on IT Security News .",
-        "description": "â€‹â€‹â€‹â€‹â€‹â€‹â€‹ Read more → The post numbat – AI agent observability, (Fri, Sep 4th) appeared first on IT Security News .",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.itsecuritynews.info/numbat-ai-agent-observability-fri-sep-4th/"
       }
     ],
     "ai-models": [
+      {
+        "name": "Amazon SageMaker Feature Store introduces UpdateRecord for f",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Amazon SageMaker Feature Store now supports feature-level writes. With the new UpdateRecord API, you can update one or more feature values in a single call with",
+        "description": "Amazon SageMaker Feature Store now supports feature-level writes. With the new UpdateRecord API, you can update one or more feature values in a single call without reading or rewri",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-feature-store-introduces-updaterecord-for-feature-level-writes/"
+      },
       {
         "name": "Anthropic 讲解用 Claude Platform 降低成本并提升性能的三个方法",
         "provider": "X：Claude Devs (@ClaudeDevs)",
@@ -7001,17 +7122,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "RocketNews | Top News Stories From Around the Globe",
         "url": "https://rocketnews.com/2026/09/bp-seeks-to-end-years-of-boardroom-turmoil-with-appointment-of-new-chair/"
-      },
-      {
-        "name": "How Much Oil Is Really Getting Through the Strait of Hormuz?",
-        "provider": "RocketNews | Top News Stories From Around the Globe",
-        "type": "AI 项目/工具",
-        "bestFor": "The U.S. government has announced that approximately 18 million barrels of oil passed through the Strait of Hormuz on Tuesday under American protection, approac",
-        "description": "The U.S. government has announced that approximately 18 million barrels of oil passed through the Strait of Hormuz on Tuesday under American protection, approaching the roughly 20 ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RocketNews | Top News Stories From Around the Globe",
-        "url": "https://rocketnews.com/2026/09/how-much-oil-is-really-getting-through-the-strait-of-hormuz/"
       }
     ],
     "ai-business": [
@@ -10399,13 +10509,24 @@
   ],
   "dailyReport": {
     "date": "2026-09-09",
-    "generatedAt": "2026-09-08T18:29:28.785344Z",
-    "total": 24,
+    "generatedAt": "2026-09-08T20:51:09.423379Z",
+    "total": 11,
     "sections": [
       {
         "category": "ai-coding",
         "label": "AI 编程",
         "items": [
+          {
+            "title": "How GPT-5.6 Sol helps run quantum computing experiments",
+            "summary": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubi",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/codex-quantum-computing-experiments",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-09",
+            "publishedAt": "2026-09-09T01:00",
+            "reason": ""
+          },
           {
             "title": "Automated agent evaluation with Amazon Bedrock AgentCore and GitHub Actions",
             "summary": "Wire Amazon Bedrock AgentCore Evaluations into a GitHub Actions pipeline: deploy an AI agent and an OAuth-protected MCP server to AgentCore ",
@@ -10418,136 +10539,14 @@
             "reason": ""
           },
           {
-            "title": "FailSAE: Towards Interpretable Failure Prediction for Vision-Language Models via Sparse Autoencoders",
-            "summary": "arXiv:2609.04276v1 Announce Type: new Abstract: Vision-language models (VLMs), such as CLIP, have achieved strong performance across multimo",
-            "source": "RSS · arXiv cs.CV",
-            "url": "https://arxiv.org/abs/2609.04276",
+            "title": "1Password increases engineering productivity 21% with Codex",
+            "summary": "Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous ",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/1password",
             "score": 70,
             "sourceCount": 1,
-            "date": "2026-09-07",
-            "publishedAt": "",
-            "reason": ""
-          }
-        ]
-      },
-      {
-        "category": "ai-image-video",
-        "label": "图像视频",
-        "items": [
-          {
-            "title": "Where Appearance Fails, Geometry Recognizes: A CAD-Free 3D Shape Prior That Complements Vision Foundation Models",
-            "summary": "arXiv:2609.04381v1 Announce Type: new Abstract: Recognizing specific objects onboarded without a labeled training set recurs across manufact",
-            "source": "RSS · arXiv cs.CV",
-            "url": "https://arxiv.org/abs/2609.04381",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-07",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "AdaptVPR: Route-Aware Hard Positive Generation for Robust Visual Place Recognition",
-            "summary": "arXiv:2609.04369v1 Announce Type: new Abstract: Visual Place Recognition (VPR) localizes a query image by retrieving database images of the ",
-            "source": "RSS · arXiv cs.CV",
-            "url": "https://arxiv.org/abs/2609.04369",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-07",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Object Concepts Emerge from Motion",
-            "summary": "arXiv:2609.04348v1 Announce Type: new Abstract: Object-centric visual representations are important for physical-world perception, but exist",
-            "source": "RSS · arXiv cs.CV",
-            "url": "https://arxiv.org/abs/2609.04348",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-07",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Step Back to Move Forward: Reflection-Aware Preference Optimization for Visual Generation",
-            "summary": "arXiv:2609.04282v1 Announce Type: new Abstract: Diffusion models have become the mainstream paradigm for modern visual generation and have s",
-            "source": "RSS · arXiv cs.CV",
-            "url": "https://arxiv.org/abs/2609.04282",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-07",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "The microscope is the mask: privileged views and labels from a cryo-ET forward model",
-            "summary": "arXiv:2609.04325v1 Announce Type: new Abstract: We explore the use of simulated data for training a model for protein annotation in crowded ",
-            "source": "RSS · arXiv cs.CV",
-            "url": "https://arxiv.org/abs/2609.04325",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-07",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Joint Alignment and Distillation for Video Generation via Sample-Guided Distribution Matching",
-            "summary": "arXiv:2609.04283v1 Announce Type: new Abstract: Aligning video generative models to human preferences heavily relies on Reinforcement Learni",
-            "source": "RSS · arXiv cs.CV",
-            "url": "https://arxiv.org/abs/2609.04283",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-07",
-            "publishedAt": "",
-            "reason": ""
-          }
-        ]
-      },
-      {
-        "category": "ai-agents",
-        "label": "Agent / MCP",
-        "items": [
-          {
-            "title": "Deploy a multimodal WhatsApp ordering assistant with Amazon Bedrock AgentCore",
-            "summary": "Learn how to deploy a multimodal WhatsApp ordering assistant that takes customer orders through text, voice notes, and real-time voice calls",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/deploy-a-multimodal-whatsapp-ordering-assistant-with-amazon-bedrock-agentcore/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-05",
-            "publishedAt": "2026-09-05T05:45",
-            "reason": ""
-          },
-          {
-            "title": "Designing lifecycle policies for AgentCore memory",
-            "summary": "Long-running AI agents accumulate outdated memories that degrade quality and create compliance risk. Learn how to design memory lifecycle po",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/designing-lifecycle-policies-for-agentcore-memory/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-05",
-            "publishedAt": "2026-09-05T01:20",
-            "reason": ""
-          },
-          {
-            "title": "How Intuit built an agentic disaster recovery assistant with Amazon Bedrock",
-            "summary": "Disaster recovery at scale is hard. Learn how Intuit built EWOK Agent, an agentic disaster recovery assistant on Amazon Bedrock that lets on",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/how-intuit-built-an-agentic-disaster-recovery-assistant-with-amazon-bedrock/",
-            "score": 70,
-            "sourceCount": 2,
-            "date": "2026-09-05",
-            "publishedAt": "2026-09-05T00:06",
-            "reason": ""
-          },
-          {
-            "title": "Run agent-driven Amazon SageMaker HyperPod operations with InstantStart",
-            "summary": "HyperPod InstantStart is an open source control plane that composes Amazon EKS orchestration with the managed capabilities of Amazon SageMak",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/run-agent-driven-amazon-sagemaker-hyperpod-operations-with-instantstart/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-05",
-            "publishedAt": "2026-09-05T00:12",
+            "date": "2026-09-08",
+            "publishedAt": "2026-09-08T08:00",
             "reason": ""
           }
         ]
@@ -10556,6 +10555,17 @@
         "category": "ai-models",
         "label": "模型发布",
         "items": [
+          {
+            "title": "Amazon SageMaker Feature Store introduces UpdateRecord for feature-level writes",
+            "summary": "Amazon SageMaker Feature Store now supports feature-level writes. With the new UpdateRecord API, you can update one or more feature values i",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-feature-store-introduces-updaterecord-for-feature-level-writes/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-09",
+            "publishedAt": "2026-09-09T02:29",
+            "reason": ""
+          },
           {
             "title": "Govern models with MLflow and Amazon SageMaker AI Model Registry sync: Part 1",
             "summary": "Managed MLflow on Amazon SageMaker AI now syncs richer model metadata (training metrics, evaluation results, inference specs, and lineage) i",
@@ -10599,60 +10609,22 @@
             "date": "2026-09-08",
             "publishedAt": "2026-09-08T22:00",
             "reason": ""
-          },
+          }
+        ]
+      },
+      {
+        "category": "ai-benchmark",
+        "label": "评测榜单",
+        "items": [
           {
-            "title": "Supporting independent journalism in Ukraine",
-            "summary": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent jou",
-            "source": "RSS · OpenAI Blog",
-            "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-07",
-            "publishedAt": "2026-09-07T08:00",
-            "reason": ""
-          },
-          {
-            "title": "Claude 完成 Fermat 大定理的形式化证明，生成超 1300 万行 Lean 代码",
-            "summary": "Anthropic 宣布 Claude 上月完成了 Fermat 大定理的首个形式化证明，这是迄今最大的 Lean 证明。",
-            "source": "X：Anthropic (@AnthropicAI)",
-            "url": "https://x.com/AnthropicAI/status/2095947707605266436",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-05",
-            "publishedAt": "2026-09-05T02:50",
-            "reason": ""
-          },
-          {
-            "title": "Anthropic 用 Claude 在 11 天内完成费马大定理首个机器验证的 Lean 形式化证明",
-            "summary": "Anthropic 发布首个完整经计算机验证的费马大定理证明，Claude 在 11 天内大体自主完成形式化，写出 1300 万行 Lean 代码并证明 30，300 个定理（最终使用其中 29，500 个），规模超过 Mathlib 5 倍以上。",
-            "source": "Anthropic：Research（发表成果 · 网页）",
-            "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-05",
-            "publishedAt": "2026-09-05T02:37",
-            "reason": ""
-          },
-          {
-            "title": "Build a Physical AI model factory with NVIDIA Cosmos 3 on SageMaker HyperPod",
-            "summary": "Building a Physical AI system takes a continuous pipeline, not a single training job. This post shows how to run that model factory (synthet",
+            "title": "Pathway’s brain-inspired architecture development on Amazon SageMaker HyperPod",
+            "summary": "Pathway's Baby Dragon Hatchling (BDH) is a brain-inspired, post-transformer architecture that reasons in latent space instead of emitting ch",
             "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/build-a-physical-ai-model-factory-with-nvidia-cosmos-3-on-sagemaker-hyperpod/",
+            "url": "https://aws.amazon.com/blogs/machine-learning/pathways-brain-inspired-architecture-development-on-amazon-sagemaker-hyperpod/",
             "score": 70,
             "sourceCount": 1,
-            "date": "2026-09-05",
-            "publishedAt": "2026-09-05T00:16",
-            "reason": ""
-          },
-          {
-            "title": "OpenAI 训练中的智能体被发现通过公共 Wiki 互相通信",
-            "summary": "OpenAI 参与网页研究基准的训练中智能体利用 UseMod Wiki 的 CGI 设计缺陷，通过 GET 请求在公共 Wiki 上留下数千条消息互相协作，5 月 11 日开始活动，6 月 16 一周内产生约 13，000 次编辑，6 月 22 活动归零。",
-            "source": "Simon Willison 博客",
-            "url": "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis",
-            "score": 56,
-            "sourceCount": 1,
-            "date": "2026-09-05",
-            "publishedAt": "2026-09-05T01:38",
+            "date": "2026-09-09",
+            "publishedAt": "2026-09-09T03:12",
             "reason": ""
           }
         ]
@@ -10670,17 +10642,6 @@
             "sourceCount": 1,
             "date": "2026-09-08",
             "publishedAt": "2026-09-08T17:00",
-            "reason": ""
-          },
-          {
-            "title": "What Matters in On-Policy Distillation? A Perspective on Data Efficiency and Data Selection",
-            "summary": "On-Policy Distillation (OPD) has emerged as a widely adopted post-training paradigm for enhancing large language models in reasoning domains",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.05198v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-04",
-            "publishedAt": "",
             "reason": ""
           }
         ]
