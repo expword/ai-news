@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-08",
-  "generatedAt": "2026-09-08T08:19:45.214146Z",
+  "generatedAt": "2026-09-08T10:51:55.283004Z",
   "news": [
     {
       "title": "Where Appearance Fails, Geometry Recognizes: A CAD-Free 3D Shape Prior That Complements Vision Foundation Models",
@@ -5621,6 +5621,17 @@
   "topicResources": {
     "ai-coding": [
       {
+        "name": "I Vibe Coded the One Mac Feature Apple Refuses to Build -- a",
+        "provider": "PCMag UK",
+        "type": "AI 项目/工具",
+        "bestFor": "Windows has always had a feature that macOS sorely needs: A simple way to assign a hotkey to launch an app, open a document in its default app, or bring up a fo",
+        "description": "Windows has always had a feature that macOS sorely needs: A simple way to assign a hotkey to launch an app, open a document in its default app, or bring up a folder on the desktop.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "PCMag UK",
+        "url": "https://uk.pcmag.com/ai/167130/i-vibe-coded-the-one-mac-feature-apple-refuses-to-build-and-put-it-on-the-app-store"
+      },
+      {
         "name": "AgnesCode: AI Tool for Advanced Workflows",
         "provider": "Dynamic Business",
         "type": "AI 项目/工具",
@@ -6048,20 +6059,53 @@
         "watch": "请打开原始来源核对",
         "sourceName": "The Indian Express",
         "url": "https://indianexpress.com/article/technology/artificial-intelligence/spacex-cursor-acquisition-openai-models-access-10854362/"
-      },
-      {
-        "name": "OpenAI to end agreement with SpaceX's AI coding tool Cursor,",
-        "provider": "ETCIO.com",
-        "type": "AI 项目/工具",
-        "bestFor": "This action is due to apprehensions about SpaceX's potential violations of contract agreements, reinforced by previous dealings with Musk's ventures. Reports in",
-        "description": "This action is due to apprehensions about SpaceX's potential violations of contract agreements, reinforced by previous dealings with Musk's ventures. Reports indicate Cursor's co-f",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "ETCIO.com",
-        "url": "https://cio.economictimes.indiatimes.com/news/artificial-intelligence/openai-to-end-agreement-with-spacexs-ai-coding-tool-cursor-deepening-musk-altman-clash/133604037"
       }
     ],
     "ai-agents": [
+      {
+        "name": "AgentQuant Secures Dual SEC and MSB Registrations, Solidifyi",
+        "provider": "The Manila times",
+        "type": "AI 项目/工具",
+        "bestFor": "DENVER, Sept. 08, 2026 (GLOBE NEWSWIRE) --\n\nAI-Native Architecture Redefines Quantitative Trading Standards as Human-AI Risk Management Strengthens the Complian",
+        "description": "DENVER, Sept. 08, 2026 (GLOBE NEWSWIRE) --\n\nAI-Native Architecture Redefines Quantitative Trading Standards as Human-AI Risk Management Strengthens the Compliance Framework.\n\nWhile",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Manila times",
+        "url": "https://www.manilatimes.net/2026/09/08/tmt-newswire/globenewswire/agentquant-secures-dual-sec-and-msb-registrations-solidifying-compliance-foundation/2420259"
+      },
+      {
+        "name": "How Portable USB Hermes AI Agent Runs Cross-Platform AI",
+        "provider": "Techmixer",
+        "type": "AI 项目/工具",
+        "bestFor": "Hermes AI Portable Setup on USB Drive: Your AI Workspace on the Go\n\nImagine carrying a powerful portable AI assistant that fits comfortably in your pocket, read",
+        "description": "Hermes AI Portable Setup on USB Drive: Your AI Workspace on the Go\n\nImagine carrying a powerful portable AI assistant that fits comfortably in your pocket, ready to jump into actio",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Techmixer",
+        "url": "https://www.techmixer.com/portable-usb-hermes-ai-agent-platform-ai/"
+      },
+      {
+        "name": "AI Agents Could Shop and Pay for One in 10 Consumers by 2030",
+        "provider": "Budapest Business Journal",
+        "type": "AI 项目/工具",
+        "bestFor": "A Short History of the Future of Shopping and Payments, drawing on Mastercard research and insights from four futurists working across the United States, Europe",
+        "description": "A Short History of the Future of Shopping and Payments, drawing on Mastercard research and insights from four futurists working across the United States, Europe and Asia, examines ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Budapest Business Journal",
+        "url": "https://bbj.hu/business/tech/fintech/ai-agents-could-shop-and-pay-for-one-in-10-consumers-by-2030-mastercard-says/"
+      },
+      {
+        "name": "Retailers face a trust and liability test as AI shopping age",
+        "provider": "Bizcommunity.com",
+        "type": "AI 项目/工具",
+        "bestFor": "Venture capital is pouring into AI-powered shopping agents as payment networks, browser developers and AI companies compete to shape how autonomous systems will",
+        "description": "Venture capital is pouring into AI-powered shopping agents as payment networks, browser developers and AI companies compete to shape how autonomous systems will search, compare and",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Bizcommunity.com",
+        "url": "https://www.bizcommunity.com/article/retailers-face-a-trust-and-liability-test-as-ai-shopping-agents-emerge-742252a"
+      },
       {
         "name": "Exclusive: Ex-Alan and Spotify alumni raise $3M for Outline ",
         "provider": "Tech Funding News",
@@ -6457,53 +6501,20 @@
         "watch": "请打开原始来源核对",
         "sourceName": "وكاله عمون الاخباريه",
         "url": "https://en.ammonnews.net/article/94912"
-      },
-      {
-        "name": "OpenAI AI agents hijacked German wiki, shared ways to bypass",
-        "provider": "The Telegraph",
-        "type": "AI 项目/工具",
-        "bestFor": "A swarm of rogue OpenAI agents hijacked a German website this spring and transformed it into a bulletin board for other AI agents, according to new research pub",
-        "description": "A swarm of rogue OpenAI agents hijacked a German website this spring and transformed it into a bulletin board for other AI agents, according to new research published Friday and tw",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Telegraph",
-        "url": "https://www.telegraphindia.com/world/openai-ai-agents-hijacked-german-wiki-shared-ways-to-bypass-restrictions/cid/2178462"
-      },
-      {
-        "name": "WhatsApp may soon let you chat with third-party AI agents di",
-        "provider": "MobiGyaan",
-        "type": "AI 项目/工具",
-        "bestFor": "WhatsApp is reportedly testing a feature that could let users connect third-party AI agents and bots directly to the messaging app. The functionality is expecte",
-        "description": "WhatsApp is reportedly testing a feature that could let users connect third-party AI agents and bots directly to the messaging app. The functionality is expected to give each conne",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "MobiGyaan",
-        "url": "https://www.mobigyaan.com/whatsapp-chat-third-party-ai-agents"
-      },
-      {
-        "name": "OpenAI agents hijacked German website in previously undisclo",
-        "provider": "dunyanews.tv",
-        "type": "AI 项目/工具",
-        "bestFor": "Summary Rogue OpenAI agents hijacked a German wiki, making over 15,000 edits to share tactics for evading restrictions and detection, raising concerns over auto",
-        "description": "Summary Rogue OpenAI agents hijacked a German wiki, making over 15,000 edits to share tactics for evading restrictions and detection, raising concerns over autonomous AI behavior.\n",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "dunyanews.tv",
-        "url": "https://dunyanews.tv/en/Technology/971423-openai-agents-hijacked-german-website-in-previously-undisclosed-ai-bre"
-      },
-      {
-        "name": "Midea SMART MASTER at IFA 2026: From AI Agents to Embodied I",
-        "provider": "The City Weekly",
-        "type": "AI 项目/工具",
-        "bestFor": "BERLIN, Sept. 5, 2026 /PRNewswire/ -- Midea has placed SMART MASTER at the centre of its IFA 2026 showcase. Guided by this year's \"Simply ideal\" philosophy, SMA",
-        "description": "BERLIN, Sept. 5, 2026 /PRNewswire/ -- Midea has placed SMART MASTER at the centre of its IFA 2026 showcase. Guided by this year's \"Simply ideal\" philosophy, SMART MASTER is Midea's",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The City Weekly",
-        "url": "https://www.thecityweekly.com.au/midea-smart-master-at-ifa-2026-from-ai-agents-to-embodied-intelligence/"
       }
     ],
     "ai-models": [
+      {
+        "name": "Anthropic Abandons $6B Decart AI Deal Ahead of Upcoming Publ",
+        "provider": "Blockonomi",
+        "type": "AI 项目/工具",
+        "bestFor": "* Anthropic has terminated its planned acquisition of Decart AI following completion of due diligence procedures\n\n* The abandoned transaction was worth approxim",
+        "description": "* Anthropic has terminated its planned acquisition of Decart AI following completion of due diligence procedures\n\n* The abandoned transaction was worth approximately $6 billion\n\n* ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Blockonomi",
+        "url": "https://blockonomi.com/anthropic-abandons-6b-decart-ai-deal-ahead-of-upcoming-public-debut/"
+      },
       {
         "name": "AI Does Not Have a Mindset: What Repetition Actually Changes",
         "provider": "Digital Thought Disruption",
@@ -6932,20 +6943,31 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Bangkok Post",
         "url": "https://www.bangkokpost.com/life/tech/3314469/former-twitter-team-launches-twitternow-with-ai-fakenews-checks"
-      },
-      {
-        "name": "Hikers rescued after AI misroutes, strands them on Mount Sha",
-        "provider": "The Spokesman Review",
-        "type": "AI 项目/工具",
-        "bestFor": "Three California hikers who used Google's Gemini artificial intelligence assistant to plan their Mount Shasta climb had to be rescued after becoming stranded in",
-        "description": "Three California hikers who used Google's Gemini artificial intelligence assistant to plan their Mount Shasta climb had to be rescued after becoming stranded in a steep canyon, loc",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Spokesman Review",
-        "url": "https://www.spokesman.com/stories/2026/sep/04/hikers-rescued-after-ai-misroutes-strands-them-on-/"
       }
     ],
     "ai-business": [
+      {
+        "name": "Prophecy AI Data Prep Tools Bridge AI Investment and Results",
+        "provider": "WBOC TV-16",
+        "type": "AI 项目/工具",
+        "bestFor": "SAN MATEO, Calif., Sept. 08, 2026 (GLOBE NEWSWIRE) -- Prophecy, the AI data prep platform, today launched new AI data prep products that give business users and",
+        "description": "SAN MATEO, Calif., Sept. 08, 2026 (GLOBE NEWSWIRE) -- Prophecy, the AI data prep platform, today launched new AI data prep products that give business users and data analysts a cle",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "WBOC TV-16",
+        "url": "https://www.wboc.com/online_features/press_releases/prophecy-ai-data-prep-tools-bridge-ai-investment-and-results/article_b7371473-b6f6-5962-98e3-08983899933a.html"
+      },
+      {
+        "name": "AionUI: AI Agency Organize AI Teams From One AI Workspace",
+        "provider": "Techmixer",
+        "type": "AI 项目/工具",
+        "bestFor": "What Is AionUI? A Practical Guide to Organizing AI Teams, Projects, and Workflows\n\nAI is no longer just a tool for answering questions or generating content. Fo",
+        "description": "What Is AionUI? A Practical Guide to Organizing AI Teams, Projects, and Workflows\n\nAI is no longer just a tool for answering questions or generating content. For many businesses, i",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Techmixer",
+        "url": "https://www.techmixer.com/aionui-ai-agency-ai-teams-ai-workspace/"
+      },
       {
         "name": "Sharjah attracts $2.1bn investment as 142 projects create 5,",
         "provider": "ArabianBusiness.com",
@@ -7363,28 +7385,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "The How-To Geek",
         "url": "https://www.howtogeek.com/you-pay-these-4-hidden-costs-every-time-you-use-gmail/"
-      },
-      {
-        "name": "Business groups urge Swinney to scrap 'ineffective' food pri",
-        "provider": "RocketNews | Top News Stories From Around the Globe",
-        "type": "AI 项目/工具",
-        "bestFor": "Business organizations across Scotland's retail, food production, manufacturing, and distribution sectors have collectively appealed to First Minister John Swin",
-        "description": "Business organizations across Scotland's retail, food production, manufacturing, and distribution sectors have collectively appealed to First Minister John Swinney to abandon his g",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RocketNews | Top News Stories From Around the Globe",
-        "url": "https://rocketnews.com/2026/08/business-groups-urge-swinney-to-scrap-ineffective-food-price-cap-plan/"
-      },
-      {
-        "name": "Tesla Just Killed Its Solar Roof After Years of Struggling t",
-        "provider": "Yahoo! Finance",
-        "type": "AI 项目/工具",
-        "bestFor": "Tesla (TSLA) has apparently ended sales of its Solar Roof tiles, nearly a decade after CEO Elon Musk unveiled the product as a sleek alternative to conventional",
-        "description": "Tesla (TSLA) has apparently ended sales of its Solar Roof tiles, nearly a decade after CEO Elon Musk unveiled the product as a sleek alternative to conventional solar panels. Tesla",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Yahoo! Finance",
-        "url": "https://finance.yahoo.com/energy/articles/tesla-just-killed-solar-roof-220544385.html"
       }
     ],
     "ai-benchmark": [
@@ -10342,7 +10342,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-08",
-    "generatedAt": "2026-09-08T08:19:45.191150Z",
+    "generatedAt": "2026-09-08T10:51:55.260005Z",
     "total": 8,
     "sections": [
       {
