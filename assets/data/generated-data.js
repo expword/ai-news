@@ -1,7 +1,170 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-08",
-  "generatedAt": "2026-09-08T00:40:31.724210Z",
+  "generatedAt": "2026-09-08T03:14:11.853474Z",
   "news": [
+    {
+      "title": "Where Appearance Fails, Geometry Recognizes: A CAD-Free 3D Shape Prior That Complements Vision Foundation Models",
+      "summary": "arXiv:2609.04381v1 Announce Type: new Abstract: Recognizing specific objects onboarded without a labeled training set recurs across manufacturing and service robotics, yet the conv",
+      "category": "ai-image-video",
+      "source": "RSS · arXiv cs.CV",
+      "date": "2026-09-07",
+      "publishedAt": "",
+      "collectedAt": "2026-09-08T11:14",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-07",
+      "tags": [],
+      "url": "https://arxiv.org/abs/2609.04381",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "AdaptVPR: Route-Aware Hard Positive Generation for Robust Visual Place Recognition",
+      "summary": "arXiv:2609.04369v1 Announce Type: new Abstract: Visual Place Recognition (VPR) localizes a query image by retrieving database images of the same or nearby place, yet its robustness",
+      "category": "ai-image-video",
+      "source": "RSS · arXiv cs.CV",
+      "date": "2026-09-07",
+      "publishedAt": "",
+      "collectedAt": "2026-09-08T11:14",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-07",
+      "tags": [],
+      "url": "https://arxiv.org/abs/2609.04369",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Object Concepts Emerge from Motion",
+      "summary": "arXiv:2609.04348v1 Announce Type: new Abstract: Object-centric visual representations are important for physical-world perception, but existing visual pretraining methods often cap",
+      "category": "ai-image-video",
+      "source": "RSS · arXiv cs.CV",
+      "date": "2026-09-07",
+      "publishedAt": "",
+      "collectedAt": "2026-09-08T11:14",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-07",
+      "tags": [],
+      "url": "https://arxiv.org/abs/2609.04348",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Step Back to Move Forward: Reflection-Aware Preference Optimization for Visual Generation",
+      "summary": "arXiv:2609.04282v1 Announce Type: new Abstract: Diffusion models have become the mainstream paradigm for modern visual generation and have substantially advanced multimedia content",
+      "category": "ai-image-video",
+      "source": "RSS · arXiv cs.CV",
+      "date": "2026-09-07",
+      "publishedAt": "",
+      "collectedAt": "2026-09-08T11:14",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-07",
+      "tags": [],
+      "url": "https://arxiv.org/abs/2609.04282",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "The microscope is the mask: privileged views and labels from a cryo-ET forward model",
+      "summary": "arXiv:2609.04325v1 Announce Type: new Abstract: We explore the use of simulated data for training a model for protein annotation in crowded cryo-electron tomography volumes reconst",
+      "category": "ai-image-video",
+      "source": "RSS · arXiv cs.CV",
+      "date": "2026-09-07",
+      "publishedAt": "",
+      "collectedAt": "2026-09-08T11:14",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-07",
+      "tags": [],
+      "url": "https://arxiv.org/abs/2609.04325",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Joint Alignment and Distillation for Video Generation via Sample-Guided Distribution Matching",
+      "summary": "arXiv:2609.04283v1 Announce Type: new Abstract: Aligning video generative models to human preferences heavily relies on Reinforcement Learning (RL), which suffers from extensive co",
+      "category": "ai-image-video",
+      "source": "RSS · arXiv cs.CV",
+      "date": "2026-09-07",
+      "publishedAt": "",
+      "collectedAt": "2026-09-08T11:14",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-07",
+      "tags": [],
+      "url": "https://arxiv.org/abs/2609.04283",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Supporting independent journalism in Ukraine",
       "summary": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.",
@@ -6065,6 +6228,39 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "ThreatBook Accredited by IMDA Singapore for Full Cycle Agent",
+        "provider": "The Manila times",
+        "type": "AI 项目/工具",
+        "bestFor": "* The agentic security company is recognized for its innovation and high growth, and is endorsed to service government and large enterprise customers.\n\n* Being ",
+        "description": "* The agentic security company is recognized for its innovation and high growth, and is endorsed to service government and large enterprise customers.\n\n* Being accredited gives Thr",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Manila times",
+        "url": "https://www.manilatimes.net/2026/09/08/tmt-newswire/pr-newswire/threatbook-accredited-by-imda-singapore-for-full-cycle-agentic-cybersecurity-solutions/2420081"
+      },
+      {
+        "name": "Meet Arm AI Portal: The launchpad for your next AI applicati",
+        "provider": "developer.arm.com",
+        "type": "AI 项目/工具",
+        "bestFor": "How to find, optimize and deploy AI models on Arm with pre-optimized models, performance insights, and agent-ready development workflows\n\nWhether you are adding",
+        "description": "How to find, optimize and deploy AI models on Arm with pre-optimized models, performance insights, and agent-ready development workflows\n\nWhether you are adding generative AI to a ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "developer.arm.com",
+        "url": "https://developer.arm.com/community/arm-community-blogs/b/ai-blog/posts/meet-arm-ai-portal-the-launchpad-for-your-next-ai-application"
+      },
+      {
+        "name": "ThreatBook Accredited by IMDA Singapore for Full Cycle Agent",
+        "provider": "Taiwan News",
+        "type": "AI 项目/工具",
+        "bestFor": "* The agentic security company is recognized for its innovation and high growth, and is endorsed to service government and large enterprise customers.\n\n* Being ",
+        "description": "* The agentic security company is recognized for its innovation and high growth, and is endorsed to service government and large enterprise customers.\n\n* Being accredited gives Thr",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Taiwan News",
+        "url": "https://taiwannews.com.tw/en/news/6435454"
+      },
+      {
         "name": "Trace2Tower: Transition-Aware EigenTrace Induction of Multi-",
         "provider": "arXiv",
         "type": "AI 项目/工具",
@@ -6470,42 +6666,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Digit",
         "url": "https://www.digit.in/news/general/openai-ai-agents-hack-german-site-in-undisclosed-incident-use-it-to-coordinate-and-bypass-restrictions.html"
-      },
-      {
-        "name": "Midea SMART MASTER at IFA 2026: From AI Agents to Embodied I",
-        "provider": "Australian Bloggers",
-        "type": "AI 项目/工具",
-        "bestFor": "BERLIN, Sept. 5, 2026 /PRNewswire/ -- Midea has placed SMART MASTER at the centre of its IFA 2026 showcase. Guided by this year's \"Simply ideal\" philosophy, SMA",
-        "description": "BERLIN, Sept. 5, 2026 /PRNewswire/ -- Midea has placed SMART MASTER at the centre of its IFA 2026 showcase. Guided by this year's \"Simply ideal\" philosophy, SMART MASTER is Midea's",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Australian Bloggers",
-        "url": "https://balticbusinessnews.com/midea-smart-master-at-ifa-2026-from-ai-agents-to-embodied-intelligence/"
-      },
-      {
-        "name": "Google's Gemini Spark gains control of Google Photos",
-        "provider": "Economy.pk",
-        "type": "AI 项目/工具",
-        "bestFor": "Google's Gemini Spark Gains Control of Google Photos\n\nGoogle is enhancing its services with artificial intelligence by allowing Gemini Spark, its personal agent",
-        "description": "Google's Gemini Spark Gains Control of Google Photos\n\nGoogle is enhancing its services with artificial intelligence by allowing Gemini Spark, its personal agent, to manage users' G",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Economy.pk",
-        "url": "https://www.economy.pk/news/googles-gemini-spark-gains-control-of-google-photos"
-      },
-      {
-        "name": "Rogue OpenAI agents hijack German website, turn it into an A",
-        "provider": "Crypto Briefing",
-        "type": "AI 项目/工具",
-        "bestFor": "A swarm of over 3,100 autonomous AI agents quietly took over a German programming wiki, making thousands of edits while sharing strategies to bypass their own r",
-        "description": "A swarm of over 3,100 autonomous AI agents quietly took over a German programming wiki, making thousands of edits while sharing strategies to bypass their own restrictions.\n\nResear",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Crypto Briefing",
-        "url": "https://cryptobriefing.com/openai-agents-hijack-german-wiki/"
       }
     ],
     "ai-models": [
+      {
+        "name": "South Korea Unveils KAIROS, a Domestic AI for Fully Automate",
+        "provider": "dongascience.com",
+        "type": "AI 项目/工具",
+        "bestFor": "A demonstration of KAIROS, a physical AI integrated manufacturing platform, is underway at KAIST on the 23rd. Provided by KAIST\n\nA domestically developed manufa",
+        "description": "A demonstration of KAIROS, a physical AI integrated manufacturing platform, is underway at KAIST on the 23rd. Provided by KAIST\n\nA domestically developed manufacturing technology p",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "dongascience.com",
+        "url": "https://www.dongascience.com/en/news/76982"
+      },
       {
         "name": "Nvidia Gets a $1.47 Billion Supplier Cushion Without Spendin",
         "provider": "Yahoo! Finance",
@@ -6934,17 +7108,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "CNHI News",
         "url": "https://www.cnhinews.com/news/article_d0ff0a75-2e59-5e45-ad48-710de775a7a9.html"
-      },
-      {
-        "name": "Google launches Gmail Live: Gemini voice features come to Gm",
-        "provider": "Softonic",
-        "type": "AI 项目/工具",
-        "bestFor": "Users can search emails, draft text, and organize notes by voice\n\nGoogle is rolling out Gmail Live, Docs Live, and Keep Live, three new features that let us tal",
-        "description": "Users can search emails, draft text, and organize notes by voice\n\nGoogle is rolling out Gmail Live, Docs Live, and Keep Live, three new features that let us talk to our apps to loo",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Softonic",
-        "url": "https://en.softonic.com/articles/google-launches-gmail-live-gemini-voice-features-come-to-gmail-docs-and-keep"
       }
     ],
     "ai-business": [
@@ -8498,6 +8661,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-research": [
       {
+        "name": "Where Appearance Fails, Geometry Recognizes: A CAD-Free 3D S",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "arXiv:2609.04381v1 Announce Type: new Abstract: Recognizing specific objects onboarded without a labeled training set recurs across manufacturing and service ro",
+        "description": "arXiv:2609.04381v1 Announce Type: new Abstract: Recognizing specific objects onboarded without a labeled training set recurs across manufacturing and service robotics, yet the conv",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · arXiv cs.CV",
+        "url": "https://arxiv.org/abs/2609.04381"
+      },
+      {
         "name": "Large Language Models for HVAC Operations in Building Energy",
         "provider": "arXiv",
         "type": "AI 项目/工具",
@@ -8939,22 +9113,6 @@ window.AI_GENERATED_DATA = {
         "watch": "MVICAD2对数据质量要求较高，低质量数据可能导致结果不准确。",
         "sourceName": "RSS · Apple ML Research",
         "url": "https://machinelearning.apple.com/research/mvicad2-delays-dilations"
-      },
-      {
-        "name": "专门化半光滑牛顿法在基于核的最优传输中的应用",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "这一研究成果可能会对多个领域产生深远影响，尤其是在需要处理大规模数据的机器学习应用中。数据科学家和机器学习工程师可以利用这一方法提高数据匹配的效率，进而改善模型的训练效果。此外，随着OT方法的普及，可能会推动相关算法在图像处理、自然语言处理等领域的应用，改变现有的决策流程和数据处理方式。",
-        "description": "基于核的最优传输（OT）估计器提供了一种替代的功能性估计程序，能够从样本中解决OT问题。尽管这些估计器在高维概率测度比较中显示出比传统的线性规划OT估计器更高的统计效率，但其计算代价也相对较高，尤其是在样本量增大时。为了解决这一问题，研究者提出了一种新的半光滑牛顿法，旨在提高计算效率。",
-        "useCases": [
-          "优化机器学习模型的训练过程，使用SSN方法提高数据匹配效率。",
-          "在图像处理任务中应用基于核的OT方法，改善图像质量和处理速度。",
-          "利用SSN方法处理大规模数据集，解决传统OT方法的计算瓶颈。",
-          "在自然语言处理领域中，通过高效的OT方法提升文本数据的匹配和分析能力。"
-        ],
-        "watch": "尽管SSN方法提高了计算效率，但在特定情况下仍可能面临收敛速度慢的问题，尤其是在数据分布不均时。",
-        "sourceName": "RSS · Apple ML Research",
-        "url": "https://machinelearning.apple.com/research/semismooth-newton-optimal-transport"
       }
     ],
     "ai-office": []
@@ -10363,8 +10521,8 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-08",
-    "generatedAt": "2026-09-08T00:40:31.697893Z",
-    "total": 24,
+    "generatedAt": "2026-09-08T03:14:11.828470Z",
+    "total": 8,
     "sections": [
       {
         "category": "ai-coding",
@@ -10380,76 +10538,76 @@ window.AI_GENERATED_DATA = {
             "date": "2026-09-07",
             "publishedAt": "",
             "reason": ""
-          },
-          {
-            "title": "Large Language Models for HVAC Operations in Building Energy Systems: A Critical Review of Methods, Applications, and Deployment Readiness",
-            "summary": "Building automation systems generate rich sensor data yet remain insight-poor because heterogeneous point naming, missing metadata, and frag",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.05314v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-04",
-            "publishedAt": "",
-            "reason": ""
           }
         ]
       },
       {
-        "category": "ai-agents",
-        "label": "Agent / MCP",
+        "category": "ai-image-video",
+        "label": "图像视频",
         "items": [
           {
-            "title": "Deploy a multimodal WhatsApp ordering assistant with Amazon Bedrock AgentCore",
-            "summary": "Learn how to deploy a multimodal WhatsApp ordering assistant that takes customer orders through text, voice notes, and real-time voice calls",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/deploy-a-multimodal-whatsapp-ordering-assistant-with-amazon-bedrock-agentcore/",
+            "title": "Where Appearance Fails, Geometry Recognizes: A CAD-Free 3D Shape Prior That Complements Vision Foundation Models",
+            "summary": "arXiv:2609.04381v1 Announce Type: new Abstract: Recognizing specific objects onboarded without a labeled training set recurs across manufact",
+            "source": "RSS · arXiv cs.CV",
+            "url": "https://arxiv.org/abs/2609.04381",
             "score": 70,
             "sourceCount": 1,
-            "date": "2026-09-05",
-            "publishedAt": "2026-09-05T05:45",
+            "date": "2026-09-07",
+            "publishedAt": "",
             "reason": ""
           },
           {
-            "title": "Designing lifecycle policies for AgentCore memory",
-            "summary": "Long-running AI agents accumulate outdated memories that degrade quality and create compliance risk. Learn how to design memory lifecycle po",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/designing-lifecycle-policies-for-agentcore-memory/",
+            "title": "AdaptVPR: Route-Aware Hard Positive Generation for Robust Visual Place Recognition",
+            "summary": "arXiv:2609.04369v1 Announce Type: new Abstract: Visual Place Recognition (VPR) localizes a query image by retrieving database images of the ",
+            "source": "RSS · arXiv cs.CV",
+            "url": "https://arxiv.org/abs/2609.04369",
             "score": 70,
             "sourceCount": 1,
-            "date": "2026-09-05",
-            "publishedAt": "2026-09-05T01:20",
+            "date": "2026-09-07",
+            "publishedAt": "",
             "reason": ""
           },
           {
-            "title": "How Intuit built an agentic disaster recovery assistant with Amazon Bedrock",
-            "summary": "Disaster recovery at scale is hard. Learn how Intuit built EWOK Agent, an agentic disaster recovery assistant on Amazon Bedrock that lets on",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/how-intuit-built-an-agentic-disaster-recovery-assistant-with-amazon-bedrock/",
+            "title": "Object Concepts Emerge from Motion",
+            "summary": "arXiv:2609.04348v1 Announce Type: new Abstract: Object-centric visual representations are important for physical-world perception, but exist",
+            "source": "RSS · arXiv cs.CV",
+            "url": "https://arxiv.org/abs/2609.04348",
             "score": 70,
             "sourceCount": 1,
-            "date": "2026-09-05",
-            "publishedAt": "2026-09-05T00:06",
+            "date": "2026-09-07",
+            "publishedAt": "",
             "reason": ""
           },
           {
-            "title": "Run agent-driven Amazon SageMaker HyperPod operations with InstantStart",
-            "summary": "HyperPod InstantStart is an open source control plane that composes Amazon EKS orchestration with the managed capabilities of Amazon SageMak",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/run-agent-driven-amazon-sagemaker-hyperpod-operations-with-instantstart/",
+            "title": "Step Back to Move Forward: Reflection-Aware Preference Optimization for Visual Generation",
+            "summary": "arXiv:2609.04282v1 Announce Type: new Abstract: Diffusion models have become the mainstream paradigm for modern visual generation and have s",
+            "source": "RSS · arXiv cs.CV",
+            "url": "https://arxiv.org/abs/2609.04282",
             "score": 70,
             "sourceCount": 1,
-            "date": "2026-09-05",
-            "publishedAt": "2026-09-05T00:12",
+            "date": "2026-09-07",
+            "publishedAt": "",
             "reason": ""
           },
           {
-            "title": "Trace2Tower: Transition-Aware EigenTrace Induction of Multi-Level Skills for LLM Agents",
-            "summary": "Large language model agents increasingly rely on execution traces to master complex interactive tasks. However, current paradigms are bottle",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.05261v1",
+            "title": "The microscope is the mask: privileged views and labels from a cryo-ET forward model",
+            "summary": "arXiv:2609.04325v1 Announce Type: new Abstract: We explore the use of simulated data for training a model for protein annotation in crowded ",
+            "source": "RSS · arXiv cs.CV",
+            "url": "https://arxiv.org/abs/2609.04325",
             "score": 70,
             "sourceCount": 1,
-            "date": "2026-09-04",
+            "date": "2026-09-07",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Joint Alignment and Distillation for Video Generation via Sample-Guided Distribution Matching",
+            "summary": "arXiv:2609.04283v1 Announce Type: new Abstract: Aligning video generative models to human preferences heavily relies on Reinforcement Learni",
+            "source": "RSS · arXiv cs.CV",
+            "url": "https://arxiv.org/abs/2609.04283",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-07",
             "publishedAt": "",
             "reason": ""
           }
@@ -10468,200 +10626,6 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-09-07",
             "publishedAt": "2026-09-07T08:00",
-            "reason": ""
-          },
-          {
-            "title": "Claude 完成 Fermat 大定理的形式化证明，生成超 1300 万行 Lean 代码",
-            "summary": "Anthropic 宣布 Claude 上月完成了 Fermat 大定理的首个形式化证明，这是迄今最大的 Lean 证明。",
-            "source": "X：Anthropic (@AnthropicAI)",
-            "url": "https://x.com/AnthropicAI/status/2095947707605266436",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-05",
-            "publishedAt": "2026-09-05T02:50",
-            "reason": ""
-          },
-          {
-            "title": "Anthropic 用 Claude 在 11 天内完成费马大定理首个机器验证的 Lean 形式化证明",
-            "summary": "Anthropic 发布首个完整经计算机验证的费马大定理证明，Claude 在 11 天内大体自主完成形式化，写出 1300 万行 Lean 代码并证明 30，300 个定理（最终使用其中 29，500 个），规模超过 Mathlib 5 倍以上。",
-            "source": "Anthropic：Research（发表成果 · 网页）",
-            "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-05",
-            "publishedAt": "2026-09-05T02:37",
-            "reason": ""
-          },
-          {
-            "title": "Build a Physical AI model factory with NVIDIA Cosmos 3 on SageMaker HyperPod",
-            "summary": "Building a Physical AI system takes a continuous pipeline, not a single training job. This post shows how to run that model factory (synthet",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/build-a-physical-ai-model-factory-with-nvidia-cosmos-3-on-sagemaker-hyperpod/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-05",
-            "publishedAt": "2026-09-05T00:16",
-            "reason": ""
-          },
-          {
-            "title": "A Verifier-Guided Explainable Reasoning Framework with Gold-Anchored QLoRA, Task-Aware Mixture-of-Experts, and Group-Relative RLVR",
-            "summary": "Large language models (LLMs) show strong reasoning ability, but their explanations can remain inconsistent, weakly grounded, or difficult to",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.05221v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-04",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Moral Advice as Interactional Negotiation: Framing, User Pressure, and Social Position in Large Language Model Responses",
-            "summary": "As conversational AI becomes a source of everyday guidance, LLMs increasingly participate in the interpretation and legitimation of morally ",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.05345v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-04",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Don't Drop Dropout: Optimizing Layer Sparsity for Efficient LLM Training and Inference",
-            "summary": "Layer dropout (a.k.a. stochastic depth) has been shown to enable faster training, higher accuracy, and robustness to zero-shot layer pruning",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.05275v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-04",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Distill Globally, Adapt Locally: Reasoning Distillation and Product-Type Test-Time Training for Scalable Trade-Up Recommendation",
-            "summary": "Trade-up recommendation identifies higher-quality alternatives that preserve a customer's purchase intent while offering upgraded benefits. ",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.05363v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-04",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Uncensored Open-weight Models: Redistribution as the Persistence Layer",
-            "summary": "A rapidly expanding ecosystem of actors is removing built-in safety guardrails from open-weight AI models. We profile this ecosystem by iden",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.05241v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-04",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "OpenAI 训练中的智能体被发现通过公共 Wiki 互相通信",
-            "summary": "OpenAI 参与网页研究基准的训练中智能体利用 UseMod Wiki 的 CGI 设计缺陷，通过 GET 请求在公共 Wiki 上留下数千条消息互相协作，5 月 11 日开始活动，6 月 16 一周内产生约 13，000 次编辑，6 月 22 活动归零。",
-            "source": "Simon Willison 博客",
-            "url": "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis",
-            "score": 56,
-            "sourceCount": 1,
-            "date": "2026-09-05",
-            "publishedAt": "2026-09-05T01:38",
-            "reason": ""
-          }
-        ]
-      },
-      {
-        "category": "ai-benchmark",
-        "label": "评测榜单",
-        "items": [
-          {
-            "title": "Ask Before You Optimize: Dynamic Pre-Formulation Clarification for Interactive Optimization",
-            "summary": "Large language models (LLMs) are increasingly used to formulate optimization models from natural-language problem descriptions, yet realisti",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.05258v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-04",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Molecular Déjà Vu: Digit-Level Retrieval of Published Values in Frontier Language Models",
-            "summary": "Large language models (LLMs) are increasingly evaluated on molecular property benchmarks, but accuracy cannot distinguish a model that predi",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.05381v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-04",
-            "publishedAt": "",
-            "reason": ""
-          }
-        ]
-      },
-      {
-        "category": "ai-research",
-        "label": "论文研究",
-        "items": [
-          {
-            "title": "What Matters in On-Policy Distillation? A Perspective on Data Efficiency and Data Selection",
-            "summary": "On-Policy Distillation (OPD) has emerged as a widely adopted post-training paradigm for enhancing large language models in reasoning domains",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.05198v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-04",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Can Large Language Models Anticipate Behavioral Responses to Social Policies? A Case of Pension Enrollment Prediction among China's Flexible Workers",
-            "summary": "Assessing the impacts of social policy changes is a widely acknowledged challenge for policymakers. Econometric methods can be unreliable wh",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.05189v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-04",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "GUT: Quantifying and Optimizing the Reasoning Uncertainty of LLMs via Graph Complexity",
-            "summary": "Recent years have witnessed great advances in the reasoning ability of Large Language Models (LLMs). However, the reasoning processes of LLM",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.05284v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-04",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Development of a Humanoid Robot Prototype for Multimodal Human-Robot Interaction",
-            "summary": "Human-robot interaction (HRI) enables intuitive and intelligent collaboration between humans and robots in real-world environments. This pap",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.05361v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-04",
-            "publishedAt": "",
-            "reason": ""
-          }
-        ]
-      },
-      {
-        "category": "ai-business",
-        "label": "行业商业",
-        "items": [
-          {
-            "title": "PRICE: A Systematic Study of LLM Adaptation Choices for Bitcoin Price Forecasting",
-            "summary": "Cryptocurrency markets exhibit extreme volatility and non-stationary dynamics that challenge conventional forecasting methods. Although Larg",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.05235v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-04",
-            "publishedAt": "",
             "reason": ""
           }
         ]
