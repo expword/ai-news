@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-08",
-  "generatedAt": "2026-09-08T03:14:11.853474Z",
+  "generatedAt": "2026-09-08T05:44:26.331910Z",
   "news": [
     {
       "title": "Where Appearance Fails, Geometry Recognizes: A CAD-Free 3D Shape Prior That Complements Vision Foundation Models",
@@ -2501,171 +2501,6 @@ window.AI_GENERATED_DATA = {
       "aiSelected": true,
       "moduleTargets": [
         "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "From Rollouts to Recipes: Self-Contained Post-Training for LLMs",
-      "summary": "Post-training large language models usually applies a single training recipe to all samples, even though the model's own rollouts reveal different sample-level learning states. We ",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-01",
-      "publishedAt": "",
-      "collectedAt": "2026-09-02T14:21",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-01",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.01422v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Investigating Linear Probe Robustness to Linguistic Register, Medical Specialty, and Corpus Shifts in Medical QA",
-      "summary": "Linear classifiers trained on hidden states of a large language model (LLM), linear probes, can flag factual errors from a single forward pass. Geometrically, that implies that tru",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-01",
-      "publishedAt": "",
-      "collectedAt": "2026-09-02T14:21",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-01",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.01361v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "EDGE: Error Dependency Graph-Guided Multi-Error Attribution in Multi-Agent LLM Systems",
-      "summary": "Large language model (LLM) agent failures often contain multiple related errors rather than a single mistake. Existing attribution methods usually identify a responsible agent, ste",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-09-01",
-      "publishedAt": "",
-      "collectedAt": "2026-09-02T14:21",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-01",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.01360v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "The Structure of Quantization Damage in LLMs: Why the Next Bit Should Be Spent Globally",
-      "summary": "Post-training quantization (PTQ) is widely used to reduce the cost of serving large language models (LLMs), but its accuracy cost is uneven and is often tuned per model. We study w",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-01",
-      "publishedAt": "",
-      "collectedAt": "2026-09-02T11:46",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-01",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.01587v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "From Confusion to Clarity: Confusion-Aware Retrieval and Knowledge Injection for Text Classification",
-      "summary": "Large language models (LLMs) struggle to classify text into taxonomies with many semantically similar labels, as the distinctions are domain-specific and not captured by pre-traini",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-01",
-      "publishedAt": "",
-      "collectedAt": "2026-09-02T11:46",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-01",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.01564v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "SDARE-Bench: Evaluating Large Language Models on Conversational Stigma Detection and Response in Dyadic and Group Dialogue",
-      "summary": "Large Language Models (LLMs) are increasingly used in advice seeking and decision making that may affect social judgements. Despite stigma's profound effects on people and communit",
-      "category": "ai-benchmark",
-      "source": "arXiv",
-      "date": "2026-09-01",
-      "publishedAt": "",
-      "collectedAt": "2026-09-02T11:46",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-01",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.01548v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "benchmarkDatasets"
       ],
       "sourceCount": 1
     }
@@ -5786,6 +5621,17 @@ window.AI_GENERATED_DATA = {
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Hikvision Launches Guanlan Large-Scale AI Models and Introdu",
+        "provider": "Market Screener",
+        "type": "AI 项目/工具",
+        "bestFor": "Hikvision launched the Guanlan large-scale AI models. DeepinViewX cameras run the model, cutting false alarms by 90% while detecting at twice the range of tradi",
+        "description": "Hikvision launched the Guanlan large-scale AI models. DeepinViewX cameras run the model, cutting false alarms by 90% while detecting at twice the range of traditional cameras, with",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Market Screener",
+        "url": "https://www.marketscreener.com/news/hikvision-launches-guanlan-large-scale-ai-models-and-introduces-deepinviewx-cameras-guanlan-encodin-ce785bd8d88cf320"
+      },
+      {
         "name": "I Vibe Coded the One Mac Feature Apple Refuses to Build -- a",
         "provider": "PC Mag Middle East",
         "type": "AI 项目/工具",
@@ -6213,20 +6059,31 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "The Tribune",
         "url": "https://www.tribuneindia.com/news/business/openai-to-terminate-cursor-model-access-following-spacex-acquisition/"
-      },
-      {
-        "name": "Why Is OpenAI Ending Its Partnership With Cursor?",
-        "provider": "LatestLY",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenAI has officially terminated its partnership with AI powered coding editor Cursor, with direct model access scheduled to end on November 12, 2026. The move ",
-        "description": "OpenAI has officially terminated its partnership with AI powered coding editor Cursor, with direct model access scheduled to end on November 12, 2026. The move follows Elon Musk's ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "LatestLY",
-        "url": "https://www.latestly.com/technology/why-is-openai-ending-its-partnership-with-cursor-7580649.html"
       }
     ],
     "ai-agents": [
+      {
+        "name": "Exclusive: Ex-Alan and Spotify alumni raise $3M for Outline ",
+        "provider": "Tech Funding News",
+        "type": "AI 项目/工具",
+        "bestFor": "* Outline raises $3M led by Founders Future to build an AI agent for CFOs.\n\n* The three-person team already has 10 paying customers, with 10 more due in Septemb",
+        "description": "* Outline raises $3M led by Founders Future to build an AI agent for CFOs.\n\n* The three-person team already has 10 paying customers, with 10 more due in September.\n\n* The CEO of Ce",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Tech Funding News",
+        "url": "https://techfundingnews.com/outline-raises-3m-seed-founders-future-ai-agent-cfo/"
+      },
+      {
+        "name": "KT joins KAIST, DAIM to drive next generation of autonomous ",
+        "provider": "The Korea Times",
+        "type": "AI 项目/工具",
+        "bestFor": "They will also develop simulation systems for training and testing robots and integrate AI agent technologies so robots can perceive, decide and act independent",
+        "description": "They will also develop simulation systems for training and testing robots and integrate AI agent technologies so robots can perceive, decide and act independently.\n\nFactories that ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Korea Times",
+        "url": "https://www.koreatimes.co.kr/business/companies/20260908/kt-joins-kaist-daim-to-drive-next-generation-of-autonomous-manufacturing"
+      },
       {
         "name": "ThreatBook Accredited by IMDA Singapore for Full Cycle Agent",
         "provider": "The Manila times",
@@ -6644,31 +6501,42 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "The City Weekly",
         "url": "https://www.thecityweekly.com.au/midea-smart-master-at-ifa-2026-from-ai-agents-to-embodied-intelligence/"
-      },
-      {
-        "name": "OpenAI Rogue Agents Hacked German Wiki Before Hugging Face F",
-        "provider": "https",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenAI agents allegedly hijacked a German programming wiki in May and made more than 15,000 edits\n\nResearchers said the agents used the site to exchange tactics",
-        "description": "OpenAI agents allegedly hijacked a German programming wiki in May and made more than 15,000 edits\n\nResearchers said the agents used the site to exchange tactics, evade restrictions",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "https://www.outlookbusiness.com/",
-        "url": "https://www.outlookbusiness.com/deeptech/openai-rogue-agents-german-dsewiki-hijacking-hugging-face-breach"
-      },
-      {
-        "name": "OpenAI AI agents hack German site in undisclosed incident, u",
-        "provider": "Digit",
-        "type": "AI 项目/工具",
-        "bestFor": "Researchers found more than 15,000 edits on DseWiki, a German wiki site used mainly by programmers.\n\nA group of OpenAI AI agents reportedly took over a German w",
-        "description": "Researchers found more than 15,000 edits on DseWiki, a German wiki site used mainly by programmers.\n\nA group of OpenAI AI agents reportedly took over a German website earlier this ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Digit",
-        "url": "https://www.digit.in/news/general/openai-ai-agents-hack-german-site-in-undisclosed-incident-use-it-to-coordinate-and-bypass-restrictions.html"
       }
     ],
     "ai-models": [
+      {
+        "name": "Cellulose hydrogel development optimized using gradient boos",
+        "provider": "Scienmag",
+        "type": "AI 项目/工具",
+        "bestFor": "Turning crop leftovers into high-performance, non-toxic superabsorbent gels is one of the more quietly exciting frontiers in green chemistry, and a new study ha",
+        "description": "Turning crop leftovers into high-performance, non-toxic superabsorbent gels is one of the more quietly exciting frontiers in green chemistry, and a new study has pushed it a signif",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Scienmag: Latest Science and Health News",
+        "url": "https://scienmag.com/cellulose-hydrogel-development-optimized-using-gradient-boosting-approach/"
+      },
+      {
+        "name": "China's services trade brings new impetus to an open economy",
+        "provider": "news.cgtn.com",
+        "type": "AI 项目/工具",
+        "bestFor": "Editor's note: Liu Chunsheng, a special commentator for CGTN, is an associate professor at the Beijing-based Central University of Finance and Economics. The ar",
+        "description": "Editor's note: Liu Chunsheng, a special commentator for CGTN, is an associate professor at the Beijing-based Central University of Finance and Economics. The article reflects the a",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "news.cgtn.com",
+        "url": "https://news.cgtn.com/news/2026-09-08/China-s-services-trade-brings-new-impetus-to-an-open-economy-1Qgw3cSAdeE/p.html"
+      },
+      {
+        "name": "ASUS Launches K-12 EmpowerED Hardware Grant | Taiwan News | ",
+        "provider": "Taiwan News",
+        "type": "AI 项目/工具",
+        "bestFor": "Applications now open: Four winning schools will receive a fully equipped ASUS tech lab for STEM, AI, Media, Digital Creativity and Esports\n\nFremont, CA, Sept. ",
+        "description": "Applications now open: Four winning schools will receive a fully equipped ASUS tech lab for STEM, AI, Media, Digital Creativity and Esports\n\nFremont, CA, Sept. 08, 2026 (GLOBE NEWS",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Taiwan News",
+        "url": "https://taiwannews.com.tw/en/news/6435560"
+      },
       {
         "name": "South Korea Unveils KAIROS, a Domestic AI for Fully Automate",
         "provider": "dongascience.com",
@@ -7075,39 +6943,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Tech Advisor",
         "url": "https://www.techadvisor.com/article/3227215/best-of-ifa-2026-awards.html"
-      },
-      {
-        "name": "Happy Janmashtami 2026: 5 AI prompts to turn your kid's pics",
-        "provider": "mint",
-        "type": "AI 项目/工具",
-        "bestFor": "Happy Janmashtami 2026: Follow the social media trend and reimagine your child into adorable, divine little Krishna with the help of artificial intelligence too",
-        "description": "Happy Janmashtami 2026: Follow the social media trend and reimagine your child into adorable, divine little Krishna with the help of artificial intelligence tools like ChatGPT, Goo",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "mint",
-        "url": "https://www.livemint.com/technology/happy-janmashtami-2026-5-ai-prompts-to-turn-your-kids-pics-into-adorable-krishna-avatars-for-whatsapp-facebook-status-11788525495746.html"
-      },
-      {
-        "name": "AI Data Center Boom Pushes U.S. Power Equipment to the Break",
-        "provider": "RocketNews | Top News Stories From Around the Globe",
-        "type": "AI 项目/工具",
-        "bestFor": "The rapid expansion of artificial intelligence infrastructure is creating significant strain on electrical power supply systems across the United States. Major ",
-        "description": "The rapid expansion of artificial intelligence infrastructure is creating significant strain on electrical power supply systems across the United States. Major technology companies",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RocketNews | Top News Stories From Around the Globe",
-        "url": "https://rocketnews.com/2026/09/ai-data-center-boom-pushes-u-s-power-equipment-to-the-breaking-point/"
-      },
-      {
-        "name": "LG ELECTRONICS HIGHLIGHTS SEVEN HOME APPLIANCES AT IFA 2026",
-        "provider": "CNHI News",
-        "type": "AI 项目/工具",
-        "bestFor": "LG Electronics highlights seven home appliances at its IFA 2026 booth, showcasing how advances in AI, energy efficiency and space-conscious design are addressin",
-        "description": "LG Electronics highlights seven home appliances at its IFA 2026 booth, showcasing how advances in AI, energy efficiency and space-conscious design are addressing the modern Europea",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "CNHI News",
-        "url": "https://www.cnhinews.com/news/article_d0ff0a75-2e59-5e45-ad48-710de775a7a9.html"
       }
     ],
     "ai-business": [
@@ -8131,6 +7966,39 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-image-video": [
       {
+        "name": "Guanlan AI Applications: Higher Accuracy, Lower Cost, Smarte",
+        "provider": "CNHI News",
+        "type": "AI 项目/工具",
+        "bestFor": "HANGZHOU, China, Sept. 8, 2026 /PRNewswire/ -- It's over a year since Hikvision launched the Guanlan large-scale AI models. In a very real sense, today's video ",
+        "description": "HANGZHOU, China, Sept. 8, 2026 /PRNewswire/ -- It's over a year since Hikvision launched the Guanlan large-scale AI models. In a very real sense, today's video systems 'understand'",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "CNHI News",
+        "url": "https://www.cnhinews.com/news/article_25746447-fd8a-524e-b9e5-f070d411c781.html"
+      },
+      {
+        "name": "Guanlan AI Applications: Higher Accuracy, Lower Cost, Smarte",
+        "provider": "The Star Phoenix",
+        "type": "AI 项目/工具",
+        "bestFor": "HANGZHOU, China, Sept. 7, 2026 /CNW/ -- It's over a year since Hikvision launched the Guanlan large-scale AI models. In a very real sense, today's video systems",
+        "description": "HANGZHOU, China, Sept. 7, 2026 /CNW/ -- It's over a year since Hikvision launched the Guanlan large-scale AI models. In a very real sense, today's video systems 'understand' what t",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Star Phoenix",
+        "url": "https://thestarphoenix.com/press-releases/pr-newswire/guanlan-ai-applications-higher-accuracy-lower-cost-smarter-interaction/"
+      },
+      {
+        "name": "Guanlan AI Applications: Higher Accuracy, Lower Cost, Smarte",
+        "provider": "Brockville Recorder & Times",
+        "type": "AI 项目/工具",
+        "bestFor": "HANGZHOU, China, Sept. 7, 2026 /CNW/ -- It's over a year since Hikvision launched the Guanlan large-scale AI models. In a very real sense, today's video systems",
+        "description": "HANGZHOU, China, Sept. 7, 2026 /CNW/ -- It's over a year since Hikvision launched the Guanlan large-scale AI models. In a very real sense, today's video systems 'understand' what t",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Brockville Recorder & Times",
+        "url": "https://www.recorder.ca/press-releases/pr-newswire/guanlan-ai-applications-higher-accuracy-lower-cost-smarter-interaction/"
+      },
+      {
         "name": "Kulhad Pizza Couple's Viral Leaked Video: Was It Real? What ",
         "provider": "NewsX",
         "type": "AI 项目/工具",
@@ -8610,53 +8478,6 @@ window.AI_GENERATED_DATA = {
         "watch": "虚假信息的传播可能导致公众误解，影响社会稳定。",
         "sourceName": "NewsAPI:generative AI",
         "url": "https://thenextweb.com/news/google-earth-ai-image-generation-rollback-fake-satellite-imagery"
-      },
-      {
-        "name": "科学 YouTuber Hank Green 承认与 AI 关系不健康，暂停频道",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "Hank Green 的反思可能会影响其他内容创作者对 AI 工具的使用态度，尤其是在科学和教育领域。随着 AI 技术的普及，创作者们需要平衡技术使用与个人创作风格之间的关系。Green 的决定暂停频道也可能促使其他创作者重新审视自己的创作方式，避免过度依赖 AI 工具，从而保持内容的独特性和真实性。此外，这一事件可能",
-        "description": "我注意到，知名科学 YouTuber Hank Green 最近因过度依赖 AI 工具而面临粉丝的批评。他在一段视频中被指控使用 AI 生成的内容，随后承认与 AI 的互动让他获得的多巴胺水平不健康。他计划暂停自己的主要频道，以重新审视与 AI 的关系。",
-        "useCases": [
-          "反思与 AI 工具的使用，调整创作方式，保持内容的独特性。",
-          "利用 AI 进行科学研究时，保持批判性思维，避免过度依赖。",
-          "在教育内容创作中，结合个人风格与 AI 技术，提升内容质量。",
-          "与观众互动时，坦诚分享创作过程中的挑战，增强信任感。",
-          "关注心理健康，定期评估与 AI 工具的关系，避免负面影响。"
-        ],
-        "watch": "过度依赖 AI 工具可能导致创作风格的同质化，降低内容的吸引力。",
-        "sourceName": "NewsAPI:generative AI",
-        "url": "https://kotaku.com/famous-science-youtuber-admits-he-has-unhealthy-relationship-with-ai-after-facing-backlash-over-recent-video-2000720908"
-      },
-      {
-        "name": "谷歌因深度伪造担忧撤回 Google Earth AI 图像工具",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "这一撤回决定可能对新闻行业产生深远影响，尤其是依赖卫星图像进行报道的记者和调查人员。随着 AI 技术的不断进步，如何平衡创新与风险将成为科技公司面临的重要挑战。此外，其他开发者在推出类似工具时也可能会更加谨慎，考虑到潜在的法律和道德责任。",
-        "description": "谷歌在推出仅一天后撤回了 Nano Banana 工具，该工具允许用户根据文本提示生成虚假的卫星场景。这一决定引发了对依赖 Google Earth 验证突发新闻和暴行的调查人员的担忧。",
-        "useCases": [
-          "使用 Nano Banana 工具生成卫星图像，快速验证突发新闻的真实性。",
-          "利用 AI 技术创建虚拟场景，帮助进行环境影响评估。",
-          "开发者可以借鉴谷歌的撤回案例，优化自己工具的安全性和合规性。"
-        ],
-        "watch": "使用 AI 生成的图像可能导致法律责任，需确保遵循相关法规。",
-        "sourceName": "NewsAPI:artificial intelligence",
-        "url": "https://decrypt.co/374805/google-yanks-google-earth-ai-image-tool-deepfake-fears"
-      },
-      {
-        "name": "谷歌撤回新卫星图像 AI 工具，因研究者强烈反对",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "这一撤回决定将影响 Google Earth 的用户，尤其是那些依赖该工具进行地理分析和研究的专业人士。研究人员和开源情报专家将更加关注 AI 技术在信息传播中的应用，可能促使其他科技公司重新审视其产品的伦理和合规性。此外，此事件可能引发更广泛的讨论，关于如何在创新与社会责任之间找到平衡。",
-        "description": "谷歌于上周五撤回了一项新功能，该功能允许用户在 Google Earth 的卫星图像上生成 AI 可视化。此举是由于研究人员和开源情报专家对该功能可能导致虚假信息传播的强烈反对。此事件反映出 AI 技术在敏感领域应用时的复杂性和潜在风险。",
-        "useCases": [
-          "分析卫星图像数据，识别环境变化趋势。",
-          "利用 Google Earth 进行地理教育，增强学生的学习体验。",
-          "开发基于卫星图像的应用程序，支持城市规划和管理。"
-        ],
-        "watch": "该功能的撤回可能导致用户对谷歌产品的信任度下降，影响用户粘性。",
-        "sourceName": "NewsAPI:artificial intelligence",
-        "url": "https://www.digitaljournal.com/article/google-rolls-back-new-satellite-image-ai-tool-after-backlash/"
       }
     ],
     "ai-research": [
@@ -10521,7 +10342,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-08",
-    "generatedAt": "2026-09-08T03:14:11.828470Z",
+    "generatedAt": "2026-09-08T05:44:26.309910Z",
     "total": 8,
     "sections": [
       {
