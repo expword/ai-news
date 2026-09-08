@@ -1,7 +1,206 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-09",
-  "generatedAt": "2026-09-08T16:03:52.448943Z",
+  "generatedAt": "2026-09-08T18:29:28.806827Z",
   "news": [
+    {
+      "title": "Govern models with MLflow and Amazon SageMaker AI Model Registry sync: Part 1",
+      "summary": "Managed MLflow on Amazon SageMaker AI now syncs richer model metadata (training metrics, evaluation results, inference specs, and lineage) into the SageMaker AI Model Registry, wit",
+      "category": "ai-models",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-09",
+      "publishedAt": "2026-09-09T01:03",
+      "collectedAt": "2026-09-09T01:18",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/govern-models-with-mlflow-and-amazon-sagemaker-ai-model-registry-sync-part-1/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 2,
+      "relatedSources": [
+        {
+          "source": "RSS · AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/govern-models-with-mlflow-and-amazon-sagemaker-ai-model-registry-sync-part-2/",
+          "title": "Govern models with MLflow and Amazon SageMaker AI Model Registry sync: Part 2"
+        }
+      ]
+    },
+    {
+      "title": "Automated agent evaluation with Amazon Bedrock AgentCore and GitHub Actions",
+      "summary": "Wire Amazon Bedrock AgentCore Evaluations into a GitHub Actions pipeline: deploy an AI agent and an OAuth-protected MCP server to AgentCore runtime, invoke the agent with test prom",
+      "category": "ai-coding",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-09",
+      "publishedAt": "2026-09-09T00:23",
+      "collectedAt": "2026-09-09T01:18",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/automated-agent-evaluation-with-amazon-bedrock-agentcore-and-github-actions/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "The Work Now Within Reach",
+      "summary": "Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical.",
+      "category": "ai-business",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-09-08",
+      "publishedAt": "2026-09-08T21:00",
+      "collectedAt": "2026-09-09T01:18",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/the-work-now-within-reach",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
+      "summary": "",
+      "category": "ai-models",
+      "source": "RSS · Hugging Face Blog",
+      "date": "2026-09-08",
+      "publishedAt": "2026-09-08T22:23",
+      "collectedAt": "2026-09-09T01:18",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
+      "summary": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.",
+      "category": "ai-models",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-09-08",
+      "publishedAt": "2026-09-08T08:00",
+      "collectedAt": "2026-09-09T01:18",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+      "summary": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.",
+      "category": "ai-models",
+      "source": "RSS · Google DeepMind",
+      "date": "2026-09-08",
+      "publishedAt": "2026-09-08T22:00",
+      "collectedAt": "2026-09-09T01:18",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Funding grants for new research into AI and teen development",
+      "summary": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.",
+      "category": "ai-research",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-09-08",
+      "publishedAt": "2026-09-08T17:00",
+      "collectedAt": "2026-09-09T01:18",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/teen-development-research-grants",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Where Appearance Fails, Geometry Recognizes: A CAD-Free 3D Shape Prior That Complements Vision Foundation Models",
       "summary": "arXiv:2609.04381v1 Announce Type: new Abstract: Recognizing specific objects onboarded without a labeled training set recurs across manufacturing and service robotics, yet the conv",
@@ -382,7 +581,14 @@ window.AI_GENERATED_DATA = {
         "news",
         "topicResources"
       ],
-      "sourceCount": 1
+      "sourceCount": 2,
+      "relatedSources": [
+        {
+          "source": "RSS · AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-hpe-zerto-built-an-agentic-troubleshooting-system-with-amazon-bedrock/",
+          "title": "How HPE Zerto built an agentic troubleshooting system with Amazon Bedrock"
+        }
+      ]
     },
     {
       "title": "Run agent-driven Amazon SageMaker HyperPod operations with InstantStart",
@@ -2364,143 +2570,6 @@ window.AI_GENERATED_DATA = {
       "moduleTargets": [
         "news",
         "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Efficiently Estimating Optimal Hyperparameter Scaling Laws through Power-Law Entropy Search",
-      "summary": "Optimal hyperparameter scaling laws describe how the best hyperparameters for large language model (LLM) training change with model and data scale, enabling practitioners to predic",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-01",
-      "publishedAt": "",
-      "collectedAt": "2026-09-02T14:21",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-01",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.01431v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "TRIAGE: Three-level Routing and Intelligent Agent Guidance for Efficient Execution",
-      "summary": "Large Language Model (LLM) agents based on the ReAct paradigm have demonstrated remarkable capabilities in tool use and task execution. However, ReAct suffers from a fundamental ef",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-09-01",
-      "publishedAt": "",
-      "collectedAt": "2026-09-02T14:21",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-01",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.01428v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Evaluating Multimodal LLMs as Generalist Vision-Language-Action Agents for Drone Control: Commanding, Approaching, Tracking and Searching",
-      "summary": "Multimodal Large Language Models (MLLMs) are strong perceivers of images and video. We ask how far that reach extends into acting: dropping an MLLM directly into a drone's control ",
-      "category": "ai-benchmark",
-      "source": "arXiv",
-      "date": "2026-09-01",
-      "publishedAt": "",
-      "collectedAt": "2026-09-02T14:21",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-01",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.01404v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Citing Less Critically: LLMs Reshape the Rhetoric and Reach of Scientific Citation",
-      "summary": "Scientific citations carry rhetorical intent. Scholars may cite prior work positively (supporting), negatively (contrasting), or neutrally (mentioning). As large language models (L",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-01",
-      "publishedAt": "",
-      "collectedAt": "2026-09-02T14:21",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-01",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.01432v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Measuring consistency via ensemble margin and local prediction variability: Auditing decision systems in the presence of predictive multiplicity",
-      "summary": "The Rashomon effect is a machine learning phenomenon where equally accurate models produce different predictions for the same inputs (predictive multiplicity). Existing work primar",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-01",
-      "publishedAt": "",
-      "collectedAt": "2026-09-02T14:21",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-01",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.01397v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
       ],
       "sourceCount": 1
     }
@@ -5621,6 +5690,17 @@ window.AI_GENERATED_DATA = {
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Automated agent evaluation with Amazon Bedrock AgentCore and",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Wire Amazon Bedrock AgentCore Evaluations into a GitHub Actions pipeline: deploy an AI agent and an OAuth-protected MCP server to AgentCore runtime, invoke the ",
+        "description": "Wire Amazon Bedrock AgentCore Evaluations into a GitHub Actions pipeline: deploy an AI agent and an OAuth-protected MCP server to AgentCore runtime, invoke the agent with test prom",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/automated-agent-evaluation-with-amazon-bedrock-agentcore-and-github-actions/"
+      },
+      {
         "name": "I Vibe Coded the One Mac Feature Apple Refuses to Build -- a",
         "provider": "PCMag UK",
         "type": "AI 项目/工具",
@@ -6048,20 +6128,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Tuoi tre news",
         "url": "https://news.tuoitre.vn/openai-to-end-agreement-with-spacexs-ai-coding-tool-cursor-deepening-musk-altman-clash-103260829112201407.htm"
-      },
-      {
-        "name": "The SpaceX-Cursor acquisition just cost developers access to",
-        "provider": "The Indian Express",
-        "type": "AI 项目/工具",
-        "bestFor": "Developers using AI coding tool Cursor in combination with OpenAI's models have until November 12, 2026 to continue accessing them.\n\nOpenAI on Friday, August 28",
-        "description": "Developers using AI coding tool Cursor in combination with OpenAI's models have until November 12, 2026 to continue accessing them.\n\nOpenAI on Friday, August 28, said that it is pu",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Indian Express",
-        "url": "https://indianexpress.com/article/technology/artificial-intelligence/spacex-cursor-acquisition-openai-models-access-10854362/"
       }
     ],
     "ai-agents": [
+      {
+        "name": "How HPE Zerto built an agentic troubleshooting system with A",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "HPE Zerto built an agentic troubleshooting system powered by Amazon Bedrock that runs on-premises inside the customer environment. This post describes the multi",
+        "description": "HPE Zerto built an agentic troubleshooting system powered by Amazon Bedrock that runs on-premises inside the customer environment. This post describes the multi-agent architecture,",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/how-hpe-zerto-built-an-agentic-troubleshooting-system-with-amazon-bedrock/"
+      },
       {
         "name": "Alibaba Cloud, Ant Group, Cambricon and Huawei Come Together",
         "provider": "NewsData.io",
@@ -6490,20 +6570,31 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:AI agent",
         "url": "https://www.itsecuritynews.info/numbat-ai-agent-observability-fri-sep-4th/"
-      },
-      {
-        "name": "OpenAI agents went rogue on a German website... again",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "WASHINGTON, Sept 5 — Thousands of autonomous AI agents built by OpenAI defied their instructions and took over a G...",
-        "description": "WASHINGTON, Sept 5 — Thousands of autonomous AI agents built by OpenAI defied their instructions and took over a G...",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.malaymail.com/news/tech-gadgets/2026/09/05/openai-agents-went-rogue-on-a-german-website-again/233976"
       }
     ],
     "ai-models": [
+      {
+        "name": "Anthropic 讲解用 Claude Platform 降低成本并提升性能的三个方法",
+        "provider": "X：Claude Devs (@ClaudeDevs)",
+        "type": "AI 项目/工具",
+        "bestFor": "Anthropic 团队文章指出，优化 prompt cache 命中率、清除升级到前沿 Claude 模型后的提示词反模式、校准 effort 三个手段可在不牺牲性能的情况下降低成本。",
+        "description": "Anthropic 团队文章指出，优化 prompt cache 命中率、清除升级到前沿 Claude 模型后的提示词反模式、校准 effort 三个手段可在不牺牲性能的情况下降低成本。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "X：Claude Devs (@ClaudeDevs)",
+        "url": "https://x.com/ClaudeDevs/status/2097369738968195513"
+      },
+      {
+        "name": "OpenAI expands initiatives to support journalism from classr",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.",
+        "description": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · OpenAI Blog",
+        "url": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms"
+      },
       {
         "name": "From Barrier to Bridge: How AI Live Translation Is Powering ",
         "provider": "The Manila times",
@@ -6921,28 +7012,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "RocketNews | Top News Stories From Around the Globe",
         "url": "https://rocketnews.com/2026/09/how-much-oil-is-really-getting-through-the-strait-of-hormuz/"
-      },
-      {
-        "name": "Famous UK retailer builds entire YouTube production studio t",
-        "provider": "Search Engine Watch",
-        "type": "AI 项目/工具",
-        "bestFor": "British department store chain John Lewis is turning to YouTube to help its products appear in AI shopping recommendations.\n\nThe retailer has opened a permanent",
-        "description": "British department store chain John Lewis is turning to YouTube to help its products appear in AI shopping recommendations.\n\nThe retailer has opened a permanent studio inside its f",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Search Engine Watch",
-        "url": "https://searchenginewatch.com/famous-uk-retailer-builds-entire-youtube-production-studio-to-get-ai-to-recommend-its-products/"
-      },
-      {
-        "name": "Google Adds Gemini Voice Features to Gmail, Docs, and Keep f",
-        "provider": "gHacks",
-        "type": "AI 项目/工具",
-        "bestFor": "Google is introducing new voice features powered by Gemini for Gmail, Docs, and Keep, allowing users to carry out tasks by speaking, as stated in a Google annou",
-        "description": "Google is introducing new voice features powered by Gemini for Gmail, Docs, and Keep, allowing users to carry out tasks by speaking, as stated in a Google announcement.\n\nThe apps a",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "gHacks",
-        "url": "https://www.ghacks.net/2026/09/05/google-adds-gemini-voice-features-to-gmail-docs-and-keep-for-hands-free-tasks/"
       }
     ],
     "ai-business": [
@@ -8478,6 +8547,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-research": [
       {
+        "name": "Funding grants for new research into AI and teen development",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.",
+        "description": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · OpenAI Blog",
+        "url": "https://openai.com/index/teen-development-research-grants"
+      },
+      {
         "name": "AI Chatbots Dropped Correct Sleep Apnea Referral Advice a Th",
         "provider": "Medical Daily",
         "type": "AI 项目/工具",
@@ -8911,21 +8991,6 @@ window.AI_GENERATED_DATA = {
         "watch": "使用 LLM 时需注意 API 费用和配额限制，避免超出预算。",
         "sourceName": "RSS · Apple ML Research",
         "url": "https://machinelearning.apple.com/research/human-like-behaviors-llms"
-      },
-      {
-        "name": "GRPO在非英语和多语言环境中的应用研究",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "本研究的发现对多语言模型的开发者和研究人员具有重要意义。做多语言处理的工程师可以利用这些研究结果优化模型训练策略，提升模型在不同语言上的表现。教育领域的研究者也可以借此推动多语言学习工具的开发，改善学习效果。此外，商业应用中，跨国公司可以更有效地利用多语言模型进行市场分析和用户反馈处理。",
-        "description": "这次发布的核心点是，GRPO（Group Relative Policy Optimization）在非英语和多语言环境中的应用研究，揭示了多语言训练对预训练语言模型推理能力的影响。研究表明，使用母语进行训练可以缩小与英语推理的差距，并且在某些情况下，跨语言迁移效果显著，但也存在特定语言导致其他语言能力下降的风险。",
-        "useCases": [
-          "优化多语言模型的训练流程，提高模型在非英语语言上的推理能力。",
-          "开发多语言教育工具，提升学习者的语言能力。",
-          "在跨国公司中，利用多语言模型分析不同市场的用户反馈。"
-        ],
-        "watch": "训练特定语言可能导致其他语言的能力下降，需谨慎选择训练语言。",
-        "sourceName": "RSS · Apple ML Research",
-        "url": "https://machinelearning.apple.com/research/grpo-beyond-english"
       }
     ],
     "ai-office": []
@@ -10334,13 +10399,24 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-09",
-    "generatedAt": "2026-09-08T16:03:52.427943Z",
+    "generatedAt": "2026-09-08T18:29:28.785344Z",
     "total": 24,
     "sections": [
       {
         "category": "ai-coding",
         "label": "AI 编程",
         "items": [
+          {
+            "title": "Automated agent evaluation with Amazon Bedrock AgentCore and GitHub Actions",
+            "summary": "Wire Amazon Bedrock AgentCore Evaluations into a GitHub Actions pipeline: deploy an AI agent and an OAuth-protected MCP server to AgentCore ",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/automated-agent-evaluation-with-amazon-bedrock-agentcore-and-github-actions/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-09",
+            "publishedAt": "2026-09-09T00:23",
+            "reason": ""
+          },
           {
             "title": "FailSAE: Towards Interpretable Failure Prediction for Vision-Language Models via Sparse Autoencoders",
             "summary": "arXiv:2609.04276v1 Announce Type: new Abstract: Vision-language models (VLMs), such as CLIP, have achieved strong performance across multimo",
@@ -10458,7 +10534,7 @@ window.AI_GENERATED_DATA = {
             "source": "RSS · AWS Machine Learning",
             "url": "https://aws.amazon.com/blogs/machine-learning/how-intuit-built-an-agentic-disaster-recovery-assistant-with-amazon-bedrock/",
             "score": 70,
-            "sourceCount": 1,
+            "sourceCount": 2,
             "date": "2026-09-05",
             "publishedAt": "2026-09-05T00:06",
             "reason": ""
@@ -10473,17 +10549,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-09-05",
             "publishedAt": "2026-09-05T00:12",
             "reason": ""
-          },
-          {
-            "title": "Trace2Tower: Transition-Aware EigenTrace Induction of Multi-Level Skills for LLM Agents",
-            "summary": "Large language model agents increasingly rely on execution traces to master complex interactive tasks. However, current paradigms are bottle",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.05261v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-04",
-            "publishedAt": "",
-            "reason": ""
           }
         ]
       },
@@ -10491,6 +10556,50 @@ window.AI_GENERATED_DATA = {
         "category": "ai-models",
         "label": "模型发布",
         "items": [
+          {
+            "title": "Govern models with MLflow and Amazon SageMaker AI Model Registry sync: Part 1",
+            "summary": "Managed MLflow on Amazon SageMaker AI now syncs richer model metadata (training metrics, evaluation results, inference specs, and lineage) i",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/govern-models-with-mlflow-and-amazon-sagemaker-ai-model-registry-sync-part-1/",
+            "score": 70,
+            "sourceCount": 2,
+            "date": "2026-09-09",
+            "publishedAt": "2026-09-09T01:03",
+            "reason": ""
+          },
+          {
+            "title": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
+            "summary": "",
+            "source": "RSS · Hugging Face Blog",
+            "url": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-08",
+            "publishedAt": "2026-09-08T22:23",
+            "reason": ""
+          },
+          {
+            "title": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
+            "summary": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizatio",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-08",
+            "publishedAt": "2026-09-08T08:00",
+            "reason": ""
+          },
+          {
+            "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+            "summary": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.",
+            "source": "RSS · Google DeepMind",
+            "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-08",
+            "publishedAt": "2026-09-08T22:00",
+            "reason": ""
+          },
           {
             "title": "Supporting independent journalism in Ukraine",
             "summary": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent jou",
@@ -10536,39 +10645,6 @@ window.AI_GENERATED_DATA = {
             "reason": ""
           },
           {
-            "title": "A Verifier-Guided Explainable Reasoning Framework with Gold-Anchored QLoRA, Task-Aware Mixture-of-Experts, and Group-Relative RLVR",
-            "summary": "Large language models (LLMs) show strong reasoning ability, but their explanations can remain inconsistent, weakly grounded, or difficult to",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.05221v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-04",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Moral Advice as Interactional Negotiation: Framing, User Pressure, and Social Position in Large Language Model Responses",
-            "summary": "As conversational AI becomes a source of everyday guidance, LLMs increasingly participate in the interpretation and legitimation of morally ",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.05345v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-04",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Don't Drop Dropout: Optimizing Layer Sparsity for Efficient LLM Training and Inference",
-            "summary": "Layer dropout (a.k.a. stochastic depth) has been shown to enable faster training, higher accuracy, and robustness to zero-shot layer pruning",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.05275v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-04",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
             "title": "OpenAI 训练中的智能体被发现通过公共 Wiki 互相通信",
             "summary": "OpenAI 参与网页研究基准的训练中智能体利用 UseMod Wiki 的 CGI 设计缺陷，通过 GET 请求在公共 Wiki 上留下数千条消息互相协作，5 月 11 日开始活动，6 月 16 一周内产生约 13，000 次编辑，6 月 22 活动归零。",
             "source": "Simon Willison 博客",
@@ -10582,26 +10658,20 @@ window.AI_GENERATED_DATA = {
         ]
       },
       {
-        "category": "ai-benchmark",
-        "label": "评测榜单",
-        "items": [
-          {
-            "title": "Ask Before You Optimize: Dynamic Pre-Formulation Clarification for Interactive Optimization",
-            "summary": "Large language models (LLMs) are increasingly used to formulate optimization models from natural-language problem descriptions, yet realisti",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.05258v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-04",
-            "publishedAt": "",
-            "reason": ""
-          }
-        ]
-      },
-      {
         "category": "ai-research",
         "label": "论文研究",
         "items": [
+          {
+            "title": "Funding grants for new research into AI and teen development",
+            "summary": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, a",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/teen-development-research-grants",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-08",
+            "publishedAt": "2026-09-08T17:00",
+            "reason": ""
+          },
           {
             "title": "What Matters in On-Policy Distillation? A Perspective on Data Efficiency and Data Selection",
             "summary": "On-Policy Distillation (OPD) has emerged as a widely adopted post-training paradigm for enhancing large language models in reasoning domains",
@@ -10612,27 +10682,22 @@ window.AI_GENERATED_DATA = {
             "date": "2026-09-04",
             "publishedAt": "",
             "reason": ""
-          },
+          }
+        ]
+      },
+      {
+        "category": "ai-business",
+        "label": "行业商业",
+        "items": [
           {
-            "title": "Can Large Language Models Anticipate Behavioral Responses to Social Policies? A Case of Pension Enrollment Prediction among China's Flexible Workers",
-            "summary": "Assessing the impacts of social policy changes is a widely acknowledged challenge for policymakers. Econometric methods can be unreliable wh",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.05189v1",
+            "title": "The Work Now Within Reach",
+            "summary": "Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical.",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/the-work-now-within-reach",
             "score": 70,
             "sourceCount": 1,
-            "date": "2026-09-04",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "GUT: Quantifying and Optimizing the Reasoning Uncertainty of LLMs via Graph Complexity",
-            "summary": "Recent years have witnessed great advances in the reasoning ability of Large Language Models (LLMs). However, the reasoning processes of LLM",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.05284v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-04",
-            "publishedAt": "",
+            "date": "2026-09-08",
+            "publishedAt": "2026-09-08T21:00",
             "reason": ""
           }
         ]
@@ -10640,6 +10705,313 @@ window.AI_GENERATED_DATA = {
     ]
   },
   "dailyReports": [
+    {
+      "date": "2026-09-08",
+      "generatedAt": "2026-09-08T16:05:23.731342Z",
+      "total": 24,
+      "sections": [
+        {
+          "category": "ai-coding",
+          "label": "AI 编程",
+          "items": [
+            {
+              "title": "FailSAE: Towards Interpretable Failure Prediction for Vision-Language Models via Sparse Autoencoders",
+              "summary": "arXiv:2609.04276v1 Announce Type: new Abstract: Vision-language models (VLMs), such as CLIP, have achieved strong performance across multimo",
+              "source": "RSS · arXiv cs.CV",
+              "url": "https://arxiv.org/abs/2609.04276",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-07",
+              "publishedAt": "",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-image-video",
+          "label": "图像视频",
+          "items": [
+            {
+              "title": "Where Appearance Fails, Geometry Recognizes: A CAD-Free 3D Shape Prior That Complements Vision Foundation Models",
+              "summary": "arXiv:2609.04381v1 Announce Type: new Abstract: Recognizing specific objects onboarded without a labeled training set recurs across manufact",
+              "source": "RSS · arXiv cs.CV",
+              "url": "https://arxiv.org/abs/2609.04381",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-07",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "AdaptVPR: Route-Aware Hard Positive Generation for Robust Visual Place Recognition",
+              "summary": "arXiv:2609.04369v1 Announce Type: new Abstract: Visual Place Recognition (VPR) localizes a query image by retrieving database images of the ",
+              "source": "RSS · arXiv cs.CV",
+              "url": "https://arxiv.org/abs/2609.04369",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-07",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "Object Concepts Emerge from Motion",
+              "summary": "arXiv:2609.04348v1 Announce Type: new Abstract: Object-centric visual representations are important for physical-world perception, but exist",
+              "source": "RSS · arXiv cs.CV",
+              "url": "https://arxiv.org/abs/2609.04348",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-07",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "Step Back to Move Forward: Reflection-Aware Preference Optimization for Visual Generation",
+              "summary": "arXiv:2609.04282v1 Announce Type: new Abstract: Diffusion models have become the mainstream paradigm for modern visual generation and have s",
+              "source": "RSS · arXiv cs.CV",
+              "url": "https://arxiv.org/abs/2609.04282",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-07",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "The microscope is the mask: privileged views and labels from a cryo-ET forward model",
+              "summary": "arXiv:2609.04325v1 Announce Type: new Abstract: We explore the use of simulated data for training a model for protein annotation in crowded ",
+              "source": "RSS · arXiv cs.CV",
+              "url": "https://arxiv.org/abs/2609.04325",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-07",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "Joint Alignment and Distillation for Video Generation via Sample-Guided Distribution Matching",
+              "summary": "arXiv:2609.04283v1 Announce Type: new Abstract: Aligning video generative models to human preferences heavily relies on Reinforcement Learni",
+              "source": "RSS · arXiv cs.CV",
+              "url": "https://arxiv.org/abs/2609.04283",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-07",
+              "publishedAt": "",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-agents",
+          "label": "Agent / MCP",
+          "items": [
+            {
+              "title": "Deploy a multimodal WhatsApp ordering assistant with Amazon Bedrock AgentCore",
+              "summary": "Learn how to deploy a multimodal WhatsApp ordering assistant that takes customer orders through text, voice notes, and real-time voice calls",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/deploy-a-multimodal-whatsapp-ordering-assistant-with-amazon-bedrock-agentcore/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-05",
+              "publishedAt": "2026-09-05T05:45",
+              "reason": ""
+            },
+            {
+              "title": "Designing lifecycle policies for AgentCore memory",
+              "summary": "Long-running AI agents accumulate outdated memories that degrade quality and create compliance risk. Learn how to design memory lifecycle po",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/designing-lifecycle-policies-for-agentcore-memory/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-05",
+              "publishedAt": "2026-09-05T01:20",
+              "reason": ""
+            },
+            {
+              "title": "How Intuit built an agentic disaster recovery assistant with Amazon Bedrock",
+              "summary": "Disaster recovery at scale is hard. Learn how Intuit built EWOK Agent, an agentic disaster recovery assistant on Amazon Bedrock that lets on",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/how-intuit-built-an-agentic-disaster-recovery-assistant-with-amazon-bedrock/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-05",
+              "publishedAt": "2026-09-05T00:06",
+              "reason": ""
+            },
+            {
+              "title": "Run agent-driven Amazon SageMaker HyperPod operations with InstantStart",
+              "summary": "HyperPod InstantStart is an open source control plane that composes Amazon EKS orchestration with the managed capabilities of Amazon SageMak",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/run-agent-driven-amazon-sagemaker-hyperpod-operations-with-instantstart/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-05",
+              "publishedAt": "2026-09-05T00:12",
+              "reason": ""
+            },
+            {
+              "title": "Trace2Tower: Transition-Aware EigenTrace Induction of Multi-Level Skills for LLM Agents",
+              "summary": "Large language model agents increasingly rely on execution traces to master complex interactive tasks. However, current paradigms are bottle",
+              "source": "arXiv",
+              "url": "http://arxiv.org/abs/2609.05261v1",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-04",
+              "publishedAt": "",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-models",
+          "label": "模型发布",
+          "items": [
+            {
+              "title": "Supporting independent journalism in Ukraine",
+              "summary": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent jou",
+              "source": "RSS · OpenAI Blog",
+              "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-07",
+              "publishedAt": "2026-09-07T08:00",
+              "reason": ""
+            },
+            {
+              "title": "Claude 完成 Fermat 大定理的形式化证明，生成超 1300 万行 Lean 代码",
+              "summary": "Anthropic 宣布 Claude 上月完成了 Fermat 大定理的首个形式化证明，这是迄今最大的 Lean 证明。",
+              "source": "X：Anthropic (@AnthropicAI)",
+              "url": "https://x.com/AnthropicAI/status/2095947707605266436",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-05",
+              "publishedAt": "2026-09-05T02:50",
+              "reason": ""
+            },
+            {
+              "title": "Anthropic 用 Claude 在 11 天内完成费马大定理首个机器验证的 Lean 形式化证明",
+              "summary": "Anthropic 发布首个完整经计算机验证的费马大定理证明，Claude 在 11 天内大体自主完成形式化，写出 1300 万行 Lean 代码并证明 30，300 个定理（最终使用其中 29，500 个），规模超过 Mathlib 5 倍以上。",
+              "source": "Anthropic：Research（发表成果 · 网页）",
+              "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-05",
+              "publishedAt": "2026-09-05T02:37",
+              "reason": ""
+            },
+            {
+              "title": "Build a Physical AI model factory with NVIDIA Cosmos 3 on SageMaker HyperPod",
+              "summary": "Building a Physical AI system takes a continuous pipeline, not a single training job. This post shows how to run that model factory (synthet",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/build-a-physical-ai-model-factory-with-nvidia-cosmos-3-on-sagemaker-hyperpod/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-05",
+              "publishedAt": "2026-09-05T00:16",
+              "reason": ""
+            },
+            {
+              "title": "A Verifier-Guided Explainable Reasoning Framework with Gold-Anchored QLoRA, Task-Aware Mixture-of-Experts, and Group-Relative RLVR",
+              "summary": "Large language models (LLMs) show strong reasoning ability, but their explanations can remain inconsistent, weakly grounded, or difficult to",
+              "source": "arXiv",
+              "url": "http://arxiv.org/abs/2609.05221v1",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-04",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "Moral Advice as Interactional Negotiation: Framing, User Pressure, and Social Position in Large Language Model Responses",
+              "summary": "As conversational AI becomes a source of everyday guidance, LLMs increasingly participate in the interpretation and legitimation of morally ",
+              "source": "arXiv",
+              "url": "http://arxiv.org/abs/2609.05345v1",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-04",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "Don't Drop Dropout: Optimizing Layer Sparsity for Efficient LLM Training and Inference",
+              "summary": "Layer dropout (a.k.a. stochastic depth) has been shown to enable faster training, higher accuracy, and robustness to zero-shot layer pruning",
+              "source": "arXiv",
+              "url": "http://arxiv.org/abs/2609.05275v1",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-04",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "OpenAI 训练中的智能体被发现通过公共 Wiki 互相通信",
+              "summary": "OpenAI 参与网页研究基准的训练中智能体利用 UseMod Wiki 的 CGI 设计缺陷，通过 GET 请求在公共 Wiki 上留下数千条消息互相协作，5 月 11 日开始活动，6 月 16 一周内产生约 13，000 次编辑，6 月 22 活动归零。",
+              "source": "Simon Willison 博客",
+              "url": "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis",
+              "score": 56,
+              "sourceCount": 1,
+              "date": "2026-09-05",
+              "publishedAt": "2026-09-05T01:38",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-benchmark",
+          "label": "评测榜单",
+          "items": [
+            {
+              "title": "Ask Before You Optimize: Dynamic Pre-Formulation Clarification for Interactive Optimization",
+              "summary": "Large language models (LLMs) are increasingly used to formulate optimization models from natural-language problem descriptions, yet realisti",
+              "source": "arXiv",
+              "url": "http://arxiv.org/abs/2609.05258v1",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-04",
+              "publishedAt": "",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-research",
+          "label": "论文研究",
+          "items": [
+            {
+              "title": "What Matters in On-Policy Distillation? A Perspective on Data Efficiency and Data Selection",
+              "summary": "On-Policy Distillation (OPD) has emerged as a widely adopted post-training paradigm for enhancing large language models in reasoning domains",
+              "source": "arXiv",
+              "url": "http://arxiv.org/abs/2609.05198v1",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-04",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "Can Large Language Models Anticipate Behavioral Responses to Social Policies? A Case of Pension Enrollment Prediction among China's Flexible Workers",
+              "summary": "Assessing the impacts of social policy changes is a widely acknowledged challenge for policymakers. Econometric methods can be unreliable wh",
+              "source": "arXiv",
+              "url": "http://arxiv.org/abs/2609.05189v1",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-04",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "GUT: Quantifying and Optimizing the Reasoning Uncertainty of LLMs via Graph Complexity",
+              "summary": "Recent years have witnessed great advances in the reasoning ability of Large Language Models (LLMs). However, the reasoning processes of LLM",
+              "source": "arXiv",
+              "url": "http://arxiv.org/abs/2609.05284v1",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-04",
+              "publishedAt": "",
+              "reason": ""
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-09-07",
       "generatedAt": "2026-09-07T16:00:53.244217Z",
@@ -21114,41 +21486,6 @@ window.AI_GENERATED_DATA = {
               "date": "2026-07-06",
               "publishedAt": "2026-07-06T16:55",
               "reason": "AT&T的专利法令不仅是技术共享的典范，更为后续的行业发展提供了宝贵的经验，值得深入研究与借鉴。"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-07-05",
-      "generatedAt": "2026-07-05T16:18:22.602835Z",
-      "total": 2,
-      "sections": [
-        {
-          "category": "ai-tools",
-          "label": "AI 工具",
-          "items": [
-            {
-              "title": "Claude Design 反向工程提示词开源，提升设计协作效率",
-              "summary": "这次发布的核心点是，Anthropic 旗下的 Claude Design 反向工程系统提示词在 GitHub 上以 MIT 许可证开源，包含 20 章提示词和 14 项技能，涵盖内容纪律、美学、无障碍设计等方面。新版本针对 Fable 5 和 Opus 4.7+ 系列进行了校准",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://github.com/Trystan-SA/claude-design-system-prompt",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-07-05",
-              "publishedAt": "2026-07-05T23:35",
-              "reason": "Claude Design 的开源提示词为设计师提供了一个高效的协作工具，值得关注和尝试。"
-            },
-            {
-              "title": "LlamaIndex 发布 legal-kb：法律文档智能检索工具",
-              "summary": "这次发布的核心点是 LlamaIndex 推出的 legal-kb，一个基于 Index v2 的法律文档知识库应用。它采用 Retrieval Harness 模式，提供四种文件系统风格的工具，支持混合语义检索、文件搜索、内容读取和正则匹配，旨在提升法律文档的检索效率和准确性。",
-              "source": "MarkTechPost（RSS）",
-              "url": "https://www.marktechpost.com/2026/07/05/llamaindex-legal-kb-agentic-retrieval-over-index-v2-with-retrieve-find-read-and-grep-tools",
-              "score": 60,
-              "sourceCount": 1,
-              "date": "2026-07-05",
-              "publishedAt": "2026-07-05T15:50",
-              "reason": "legal-kb 提供了一种高效的法律文档检索方式，适合需要处理大量法律信息的专业人士，值得一试。"
             }
           ]
         }
