@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
-  "lastUpdated": "2026-09-08",
-  "generatedAt": "2026-09-08T13:27:23.258992Z",
+  "lastUpdated": "2026-09-09",
+  "generatedAt": "2026-09-08T16:03:52.448943Z",
   "news": [
     {
       "title": "Where Appearance Fails, Geometry Recognizes: A CAD-Free 3D Shape Prior That Complements Vision Foundation Models",
@@ -6505,6 +6505,28 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-models": [
       {
+        "name": "From Barrier to Bridge: How AI Live Translation Is Powering ",
+        "provider": "The Manila times",
+        "type": "AI 项目/工具",
+        "bestFor": "SHENZHEN, China, Sept. 08, 2026 (GLOBE NEWSWIRE) -- Timekettle announces its new AI live translation platform, PolyPal, which enables real-time multilingual com",
+        "description": "SHENZHEN, China, Sept. 08, 2026 (GLOBE NEWSWIRE) -- Timekettle announces its new AI live translation platform, PolyPal, which enables real-time multilingual communication across me",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Manila times",
+        "url": "https://www.manilatimes.net/2026/09/08/tmt-newswire/globenewswire/from-barrier-to-bridge-how-ai-live-translation-is-powering-the-multilingual-era/2420831"
+      },
+      {
+        "name": "Council staff warned over leaking information to ChatGPT und",
+        "provider": "Deadline News",
+        "type": "AI 项目/工具",
+        "bestFor": "COUNCIL workers could face disciplinary action if they feed confidential information into artificial intelligence tools including ChatGPT under proposed new rul",
+        "description": "COUNCIL workers could face disciplinary action if they feed confidential information into artificial intelligence tools including ChatGPT under proposed new rules.\n\nStirling Counci",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Deadline News",
+        "url": "https://www.deadlinenews.co.uk/2026/09/08/council-staff-warned-over-leaking-information-to-chatgpt-under-new-ai-rules/"
+      },
+      {
         "name": "The ocean's fury: A 'super El Niño' may shatter records -- a",
         "provider": "Las Vegas Sun",
         "type": "AI 项目/工具",
@@ -6921,31 +6943,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "gHacks",
         "url": "https://www.ghacks.net/2026/09/05/google-adds-gemini-voice-features-to-gmail-docs-and-keep-for-hands-free-tasks/"
-      },
-      {
-        "name": "Anthropic Is Reportedly Gearing Up for an IPO This Year That",
-        "provider": "Yahoo! Finance",
-        "type": "AI 项目/工具",
-        "bestFor": "Anthropic, the parent company of the large language model (LLM) family known as Claude, is reportedly preparing for an initial public offering that could happen",
-        "description": "Anthropic, the parent company of the large language model (LLM) family known as Claude, is reportedly preparing for an initial public offering that could happen as soon as later th",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Yahoo! Finance",
-        "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-reportedly-gearing-ipo-could-184900286.html"
-      },
-      {
-        "name": "Teens Are Turning to AI Chatbots for Emotional Support - Her",
-        "provider": "The Good Men Project",
-        "type": "AI 项目/工具",
-        "bestFor": "It's 2 a.m., and a teenage girl, worrying about a friend issue, lies awake. Rather than wake her parents, she picks up her phone, opens an AI app and types, \"I'",
-        "description": "It's 2 a.m., and a teenage girl, worrying about a friend issue, lies awake. Rather than wake her parents, she picks up her phone, opens an AI app and types, \"I'm so stressed out, I",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Good Men Project",
-        "url": "https://goodmenproject.com/featured-content/teens-are-turning-to-ai-chatbots-for-emotional-support-heres-how-to-keep-kids-safe/"
       }
     ],
     "ai-business": [
+      {
+        "name": "Neural Network Statistics By Market Size And Trends (2026)",
+        "provider": "Sci-Tech Today",
+        "type": "AI 项目/工具",
+        "bestFor": "Aruna is an editor at Sci-Tech Today with a strong knowledge of SEO. She... Read more\n\nNeural Network Statistics: Neural networks are changing the way computers",
+        "description": "Aruna is an editor at Sci-Tech Today with a strong knowledge of SEO. She... Read more\n\nNeural Network Statistics: Neural networks are changing the way computers learn, think, and s",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Sci-Tech Today",
+        "url": "https://www.sci-tech-today.com/stats/neural-network-statistics/"
+      },
       {
         "name": "Prophecy AI Data Prep Tools Bridge AI Investment and Results",
         "provider": "WBOC TV-16",
@@ -7374,20 +7385,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Yahoo! Finance",
         "url": "https://finance.yahoo.com/markets/stocks/article/its-tim-cooks-last-day-as-apple-ceo-investors-are-4-trillion-richer-because-of-him-230325985.html"
-      },
-      {
-        "name": "You pay these 4 hidden costs every time you use Gmail",
-        "provider": "The How-To Geek",
-        "type": "AI 项目/工具",
-        "bestFor": "Lately, he's obsessed with how AI is reshaping the business world, the deals, the products, the quiet feature rollouts nobody notices until they're everywhere. ",
-        "description": "Lately, he's obsessed with how AI is reshaping the business world, the deals, the products, the quiet feature rollouts nobody notices until they're everywhere. Reading and writing ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The How-To Geek",
-        "url": "https://www.howtogeek.com/you-pay-these-4-hidden-costs-every-time-you-use-gmail/"
       }
     ],
     "ai-benchmark": [
+      {
+        "name": "Benchmarking LLM query generation across SQL, Cypher and Typ",
+        "provider": "typedb.com",
+        "type": "AI 项目/工具",
+        "bestFor": "Explore our new LLM benchmark comparing MySQL, Neo4j, and TypeDB. Learn how context and retry budgets help AI agents self-correct and improve performance.\n\nA fu",
+        "description": "Explore our new LLM benchmark comparing MySQL, Neo4j, and TypeDB. Learn how context and retry budgets help AI agents self-correct and improve performance.\n\nA full report on the Cla",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "typedb.com",
+        "url": "https://typedb.com/blog/benchmarking-llm-query-generation-across-sql-cypher-and-typeql"
+      },
       {
         "name": "S3Gym: Can LLMs Turn Self-Testing and Self-Judging into Self",
         "provider": "arXiv",
@@ -7947,21 +7958,6 @@ window.AI_GENERATED_DATA = {
         "watch": "MDASH 的实际应用可能受到 API 价格和配额的限制，影响其普及程度。",
         "sourceName": "NewsAPI:AI benchmark leaderboard",
         "url": "https://decrypt.co/374441/microsoft-mdash-beats-claude-mythos-gpt-5-6-sol-cybersecurity"
-      },
-      {
-        "name": "NVIDIA NOOA 框架提升 AI 代理性能",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "NOOA 框架的推出将使开发者能够更高效地构建和管理 AI 代理，尤其是在客户服务和自动化领域。通过简化开发流程，更多的开发者将能够快速上手，推动 AI 代理技术的普及和应用。同时，NOOA 的长期记忆管理能力将提升代理的智能水平，使其在复杂任务中表现更佳。",
-        "description": "NVIDIA Labs 推出的 NOOA 框架通过将代理结构化为单一 Python 类，显著提升了 AI 代理的性能和效率。与传统方法相比，NOOA 在准确性和令牌成本上均表现出色，支持长期记忆管理和高效上下文处理。",
-        "useCases": [
-          "构建高效的客户服务代理，利用 NOOA 框架简化开发流程。",
-          "在电商平台上实现智能订单处理，提升用户体验。",
-          "开发支持多轮对话的智能助手，管理复杂的客户请求。"
-        ],
-        "watch": "NOOA 框架的开源特性可能导致安全性问题，开发者需谨慎管理代码和数据。",
-        "sourceName": "NewsAPI:AI benchmark leaderboard",
-        "url": "https://developer.nvidia.com/blog/six-agent-harness-capabilities-for-higher-model-performance/"
       }
     ],
     "ai-image-video": [
@@ -8482,6 +8478,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-research": [
       {
+        "name": "AI Chatbots Dropped Correct Sleep Apnea Referral Advice a Th",
+        "provider": "Medical Daily",
+        "type": "AI 项目/工具",
+        "bestFor": "When researchers built seven fictional patients who all clearly qualified for a sleep study and ran them past the five most widely used free chatbots, the tools",
+        "description": "When researchers built seven fictional patients who all clearly qualified for a sleep study and ran them past the five most widely used free chatbots, the tools gave correct advice",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Medical Daily",
+        "url": "https://www.medicaldaily.com/ai-chatbots-sleep-apnea-referral-advice-ers-study-478372"
+      },
+      {
         "name": "Where Appearance Fails, Geometry Recognizes: A CAD-Free 3D S",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -8919,21 +8926,6 @@ window.AI_GENERATED_DATA = {
         "watch": "训练特定语言可能导致其他语言的能力下降，需谨慎选择训练语言。",
         "sourceName": "RSS · Apple ML Research",
         "url": "https://machinelearning.apple.com/research/grpo-beyond-english"
-      },
-      {
-        "name": "MVICAD2：多视角独立成分分析的新进展",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "MVICAD2的引入将对神经科学研究产生深远影响，尤其是在分析大脑活动动态时。研究人员可以更准确地理解不同个体在相同刺激下的反应，从而推动个性化医疗和神经科学的进步。此外，该方法的成功应用可能会影响其他领域的数据分析策略，促进跨学科的合作与创新。",
-        "description": "MVICAD2（多视角独立成分分析与延迟和膨胀）是一种新型机器学习方法，旨在解决多视角数据分析中的挑战，尤其是在神经科学领域。该方法允许不同个体的信号源在时间延迟和膨胀上有所不同，从而更准确地估计大脑活动动态。尽管MVICAD2在性能上优于现有方法，但其复杂性和对数据质量的要求仍然是其局限性。",
-        "useCases": [
-          "分析多视角神经科学数据，揭示大脑活动的个体差异。",
-          "在临床研究中应用MVICAD2，评估不同患者对治疗的反应。",
-          "利用该方法优化脑电图（EEG）信号的解读，提高诊断准确性。"
-        ],
-        "watch": "MVICAD2对数据质量要求较高，低质量数据可能导致结果不准确。",
-        "sourceName": "RSS · Apple ML Research",
-        "url": "https://machinelearning.apple.com/research/mvicad2-delays-dilations"
       }
     ],
     "ai-office": []
@@ -10341,9 +10333,9 @@ window.AI_GENERATED_DATA = {
     }
   ],
   "dailyReport": {
-    "date": "2026-09-08",
-    "generatedAt": "2026-09-08T13:27:23.236993Z",
-    "total": 8,
+    "date": "2026-09-09",
+    "generatedAt": "2026-09-08T16:03:52.427943Z",
+    "total": 24,
     "sections": [
       {
         "category": "ai-coding",
@@ -10435,6 +10427,67 @@ window.AI_GENERATED_DATA = {
         ]
       },
       {
+        "category": "ai-agents",
+        "label": "Agent / MCP",
+        "items": [
+          {
+            "title": "Deploy a multimodal WhatsApp ordering assistant with Amazon Bedrock AgentCore",
+            "summary": "Learn how to deploy a multimodal WhatsApp ordering assistant that takes customer orders through text, voice notes, and real-time voice calls",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/deploy-a-multimodal-whatsapp-ordering-assistant-with-amazon-bedrock-agentcore/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-05",
+            "publishedAt": "2026-09-05T05:45",
+            "reason": ""
+          },
+          {
+            "title": "Designing lifecycle policies for AgentCore memory",
+            "summary": "Long-running AI agents accumulate outdated memories that degrade quality and create compliance risk. Learn how to design memory lifecycle po",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/designing-lifecycle-policies-for-agentcore-memory/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-05",
+            "publishedAt": "2026-09-05T01:20",
+            "reason": ""
+          },
+          {
+            "title": "How Intuit built an agentic disaster recovery assistant with Amazon Bedrock",
+            "summary": "Disaster recovery at scale is hard. Learn how Intuit built EWOK Agent, an agentic disaster recovery assistant on Amazon Bedrock that lets on",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/how-intuit-built-an-agentic-disaster-recovery-assistant-with-amazon-bedrock/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-05",
+            "publishedAt": "2026-09-05T00:06",
+            "reason": ""
+          },
+          {
+            "title": "Run agent-driven Amazon SageMaker HyperPod operations with InstantStart",
+            "summary": "HyperPod InstantStart is an open source control plane that composes Amazon EKS orchestration with the managed capabilities of Amazon SageMak",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/run-agent-driven-amazon-sagemaker-hyperpod-operations-with-instantstart/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-05",
+            "publishedAt": "2026-09-05T00:12",
+            "reason": ""
+          },
+          {
+            "title": "Trace2Tower: Transition-Aware EigenTrace Induction of Multi-Level Skills for LLM Agents",
+            "summary": "Large language model agents increasingly rely on execution traces to master complex interactive tasks. However, current paradigms are bottle",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.05261v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-04",
+            "publishedAt": "",
+            "reason": ""
+          }
+        ]
+      },
+      {
         "category": "ai-models",
         "label": "模型发布",
         "items": [
@@ -10447,6 +10500,139 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-09-07",
             "publishedAt": "2026-09-07T08:00",
+            "reason": ""
+          },
+          {
+            "title": "Claude 完成 Fermat 大定理的形式化证明，生成超 1300 万行 Lean 代码",
+            "summary": "Anthropic 宣布 Claude 上月完成了 Fermat 大定理的首个形式化证明，这是迄今最大的 Lean 证明。",
+            "source": "X：Anthropic (@AnthropicAI)",
+            "url": "https://x.com/AnthropicAI/status/2095947707605266436",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-05",
+            "publishedAt": "2026-09-05T02:50",
+            "reason": ""
+          },
+          {
+            "title": "Anthropic 用 Claude 在 11 天内完成费马大定理首个机器验证的 Lean 形式化证明",
+            "summary": "Anthropic 发布首个完整经计算机验证的费马大定理证明，Claude 在 11 天内大体自主完成形式化，写出 1300 万行 Lean 代码并证明 30，300 个定理（最终使用其中 29，500 个），规模超过 Mathlib 5 倍以上。",
+            "source": "Anthropic：Research（发表成果 · 网页）",
+            "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-05",
+            "publishedAt": "2026-09-05T02:37",
+            "reason": ""
+          },
+          {
+            "title": "Build a Physical AI model factory with NVIDIA Cosmos 3 on SageMaker HyperPod",
+            "summary": "Building a Physical AI system takes a continuous pipeline, not a single training job. This post shows how to run that model factory (synthet",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/build-a-physical-ai-model-factory-with-nvidia-cosmos-3-on-sagemaker-hyperpod/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-05",
+            "publishedAt": "2026-09-05T00:16",
+            "reason": ""
+          },
+          {
+            "title": "A Verifier-Guided Explainable Reasoning Framework with Gold-Anchored QLoRA, Task-Aware Mixture-of-Experts, and Group-Relative RLVR",
+            "summary": "Large language models (LLMs) show strong reasoning ability, but their explanations can remain inconsistent, weakly grounded, or difficult to",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.05221v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-04",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Moral Advice as Interactional Negotiation: Framing, User Pressure, and Social Position in Large Language Model Responses",
+            "summary": "As conversational AI becomes a source of everyday guidance, LLMs increasingly participate in the interpretation and legitimation of morally ",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.05345v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-04",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Don't Drop Dropout: Optimizing Layer Sparsity for Efficient LLM Training and Inference",
+            "summary": "Layer dropout (a.k.a. stochastic depth) has been shown to enable faster training, higher accuracy, and robustness to zero-shot layer pruning",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.05275v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-04",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "OpenAI 训练中的智能体被发现通过公共 Wiki 互相通信",
+            "summary": "OpenAI 参与网页研究基准的训练中智能体利用 UseMod Wiki 的 CGI 设计缺陷，通过 GET 请求在公共 Wiki 上留下数千条消息互相协作，5 月 11 日开始活动，6 月 16 一周内产生约 13，000 次编辑，6 月 22 活动归零。",
+            "source": "Simon Willison 博客",
+            "url": "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis",
+            "score": 56,
+            "sourceCount": 1,
+            "date": "2026-09-05",
+            "publishedAt": "2026-09-05T01:38",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "category": "ai-benchmark",
+        "label": "评测榜单",
+        "items": [
+          {
+            "title": "Ask Before You Optimize: Dynamic Pre-Formulation Clarification for Interactive Optimization",
+            "summary": "Large language models (LLMs) are increasingly used to formulate optimization models from natural-language problem descriptions, yet realisti",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.05258v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-04",
+            "publishedAt": "",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "category": "ai-research",
+        "label": "论文研究",
+        "items": [
+          {
+            "title": "What Matters in On-Policy Distillation? A Perspective on Data Efficiency and Data Selection",
+            "summary": "On-Policy Distillation (OPD) has emerged as a widely adopted post-training paradigm for enhancing large language models in reasoning domains",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.05198v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-04",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Can Large Language Models Anticipate Behavioral Responses to Social Policies? A Case of Pension Enrollment Prediction among China's Flexible Workers",
+            "summary": "Assessing the impacts of social policy changes is a widely acknowledged challenge for policymakers. Econometric methods can be unreliable wh",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.05189v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-04",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "GUT: Quantifying and Optimizing the Reasoning Uncertainty of LLMs via Graph Complexity",
+            "summary": "Recent years have witnessed great advances in the reasoning ability of Large Language Models (LLMs). However, the reasoning processes of LLM",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.05284v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-04",
+            "publishedAt": "",
             "reason": ""
           }
         ]
