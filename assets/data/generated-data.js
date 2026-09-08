@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-08",
-  "generatedAt": "2026-09-08T10:51:55.283004Z",
+  "generatedAt": "2026-09-08T13:27:23.258992Z",
   "news": [
     {
       "title": "Where Appearance Fails, Geometry Recognizes: A CAD-Free 3D Shape Prior That Complements Vision Foundation Models",
@@ -6063,6 +6063,50 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "Alibaba Cloud, Ant Group, Cambricon and Huawei Come Together",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "China's leading AI technology companies Alibaba Cloud, Cambricon and Ant Group join the PyTorch Foundation as members",
+        "description": "China's leading AI technology companies Alibaba Cloud, Cambricon and Ant Group join the PyTorch Foundation as members",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.starkvilledailynews.com/online_features/press_releases/alibaba-cloud-ant-group-cambricon-and-huawei-come-together-in-shanghai-to-advance-the-open/article_61ccb16e-5a16-55a3-91af-bf4abf666024.html"
+      },
+      {
+        "name": "Agentic AI Can Optimise a Campaign. It Still Cannot Decide W",
+        "provider": "exchangewire.com",
+        "type": "AI 项目/工具",
+        "bestFor": "Mark Nedzelskii, VP of growth at BidMatrix, shares where he trusts AI agents today, where he does not, and why better automation may actually make human strateg",
+        "description": "Mark Nedzelskii, VP of growth at BidMatrix, shares where he trusts AI agents today, where he does not, and why better automation may actually make human strategy more important\n\nAd",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "exchangewire.com",
+        "url": "https://www.exchangewire.com/blog/2026/09/08/agentic-ai-can-optimise-a-campaign-it-still-cannot-decide-what-growth-means/"
+      },
+      {
+        "name": "Own an 8-Course AI Agent and Automation Training Program for",
+        "provider": "PC Magazine",
+        "type": "AI 项目/工具",
+        "bestFor": "TL;DR: Get lifetime access to eight courses and 25+ hours of hands-on AI agent and business automation training for $19.99 (MSRP $49) during this extended Labor",
+        "description": "TL;DR: Get lifetime access to eight courses and 25+ hours of hands-on AI agent and business automation training for $19.99 (MSRP $49) during this extended Labor Day sale.\n\nKnowing ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "PC Magazine",
+        "url": "https://www.pcmag.com/deals/own-an-8-course-ai-agent-and-automation-training-program-for-only-20"
+      },
+      {
+        "name": "New Workflow and Deployment Enhancements Released for Open-S",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Version 4.16.0 and Patch Updates Add Conditional Workflows, Sandbox Configuration, and Migration Guides HANGZHOU, China , Sept. 8, 2026 /PRNewswire/ -- FastGPT,",
+        "description": "Version 4.16.0 and Patch Updates Add Conditional Workflows, Sandbox Configuration, and Migration Guides HANGZHOU, China , Sept. 8, 2026 /PRNewswire/ -- FastGPT, an open-source AI o",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://en.prnasia.com/story/546869-0.shtml"
+      },
+      {
         "name": "AgentQuant Secures Dual SEC and MSB Registrations, Solidifyi",
         "provider": "The Manila times",
         "type": "AI 项目/工具",
@@ -6457,53 +6501,42 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:AI agent",
         "url": "https://www.malaymail.com/news/tech-gadgets/2026/09/05/openai-agents-went-rogue-on-a-german-website-again/233976"
-      },
-      {
-        "name": "CIO 2027 Checklist: 10 IT Priorities for Building an AI-Read",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Discover 10 key IT priorities CIOs should focus on in 2027 to build an AI-ready enterprise with strong data, security, governance, cost control and skills.",
-        "description": "Discover 10 key IT priorities CIOs should focus on in 2027 to build an AI-ready enterprise with strong data, security, governance, cost control and skills.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.analyticsinsight.net/artificial-intelligence/cio-2027-checklist-10-it-priorities-for-building-an-ai-ready-enterprise"
-      },
-      {
-        "name": "AI Tool of the Week: this Perplexity feature turns your inbo",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "What if your inbox could hand work straight to AI? Perplexity’s Computer in Email lets you forward an email and its attachments to an AI agent, which reads the ",
-        "description": "What if your inbox could hand work straight to AI? Perplexity’s Computer in Email lets you forward an email and its attachments to an AI agent, which reads the thread and gets to w",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.livemint.com/ai/perplexity-computer-in-email-ai-agents-artificial-intelligence-email-productivity-automation-workplace-ai-11788424180872.html"
-      },
-      {
-        "name": "“Daybreak for Frontline Defenders:” OpenAI Pledges $1bn to C",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenAI said Thursday it will commit $1 billion in subsidized access to its artificial intelligence cybersecurity tools, training and technical support for organ",
-        "description": "OpenAI said Thursday it will commit $1 billion in subsidized access to its artificial intelligence cybersecurity tools, training and technical support for organizations responsible",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.tekedia.com/daybreak-for-frontline-defenders-openai-pledges-1bn-to-cybersecurity-as-ai-powered-attacks-escalate/"
-      },
-      {
-        "name": "Ammonnews : Google's Gemini Spark can now manage your Google",
-        "provider": "وكاله عمون الاخباريه",
-        "type": "AI 项目/工具",
-        "bestFor": "Ammon News - Google is integrating more of its services with AI, as the company announced that its personal agent, Gemini Spark, can now manage your Google Phot",
-        "description": "Ammon News - Google is integrating more of its services with AI, as the company announced that its personal agent, Gemini Spark, can now manage your Google Photos library. That mea",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "وكاله عمون الاخباريه",
-        "url": "https://en.ammonnews.net/article/94912"
       }
     ],
     "ai-models": [
+      {
+        "name": "The ocean's fury: A 'super El Niño' may shatter records -- a",
+        "provider": "Las Vegas Sun",
+        "type": "AI 项目/工具",
+        "bestFor": "Editor's note: \"Behind the News\" is the product of Sun staff assisted by the Sun's AI lab, which includes a variety of tools such as Anthropic's Claude and Goog",
+        "description": "Editor's note: \"Behind the News\" is the product of Sun staff assisted by the Sun's AI lab, which includes a variety of tools such as Anthropic's Claude and Google Gemini.\n\nThe Atla",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Las Vegas Sun",
+        "url": "https://lasvegassun.com/news/2026/sep/08/the-oceans-fury-a-super-el-nio-may-shatter-records/"
+      },
+      {
+        "name": "Los Angeles recycled old street asphalt with microwaves inst",
+        "provider": "Economic Times",
+        "type": "AI 项目/工具",
+        "bestFor": "Los Angeles has pioneered a groundbreaking method for recycling old asphalt pavement through microwave technology. This inventive technique not only minimizes w",
+        "description": "Los Angeles has pioneered a groundbreaking method for recycling old asphalt pavement through microwave technology. This inventive technique not only minimizes waste but also leads ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Economic Times",
+        "url": "https://economictimes.indiatimes.com/news/international/us/los-angeles-recycled-old-street-asphalt-with-microwaves-instead-of-buying-virgin-paving-material-800000-tons-were-avoided-over-5-years-saving-about-8-million/articleshow/133871676.cms"
+      },
+      {
+        "name": "China's data-center boom thrives in remote locations, sidest",
+        "provider": "Crypto Briefing",
+        "type": "AI 项目/工具",
+        "bestFor": "Beijing's \"Eastern Data, Western Computing\" strategy is reshaping where the world's second-largest economy builds its AI infrastructure, with over half of new p",
+        "description": "Beijing's \"Eastern Data, Western Computing\" strategy is reshaping where the world's second-largest economy builds its AI infrastructure, with over half of new projects heading to t",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Crypto Briefing",
+        "url": "https://cryptobriefing.com/china-data-center-boom-remote-locations/"
+      },
       {
         "name": "Anthropic Abandons $6B Decart AI Deal Ahead of Upcoming Publ",
         "provider": "Blockonomi",
@@ -6910,39 +6943,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "The Good Men Project",
         "url": "https://goodmenproject.com/featured-content/teens-are-turning-to-ai-chatbots-for-emotional-support-heres-how-to-keep-kids-safe/"
-      },
-      {
-        "name": "Google Gemini now lets you minimize tasks into floating bubb",
-        "provider": "NewsBytes",
-        "type": "AI 项目/工具",
-        "bestFor": "Google has updated its Gemini overlay on Android, introducing a multitasking feature. The new addition gives users a floating bubble shortcut when they minimize",
-        "description": "Google has updated its Gemini overlay on Android, introducing a multitasking feature. The new addition gives users a floating bubble shortcut when they minimize their tasks. It now",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsBytes",
-        "url": "https://www.newsbytesapp.com/news/science/google-gemini-gets-an-update-to-improve-multitasking/story"
-      },
-      {
-        "name": "They loved JFK, Reagan and Obama. Now Middle Ireland is aski",
-        "provider": "Irish Examiner",
-        "type": "AI 项目/工具",
-        "bestFor": "Golf is a passion that as many as one in 10 Irish people share with the 47th president of the USA. Just one of ties that bind the American eagle and the shamroc",
-        "description": "Golf is a passion that as many as one in 10 Irish people share with the 47th president of the USA. Just one of ties that bind the American eagle and the shamrock.\n\nTrump also has a",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Irish Examiner",
-        "url": "https://www.irishexaminer.com/opinion/commentanalysis/arid-41905783.html"
-      },
-      {
-        "name": "Former Twitter team launches Twitter.now with AI fake-news c",
-        "provider": "Bangkok Post",
-        "type": "AI 项目/工具",
-        "bestFor": "Former Twitter employees have launched a new social media platform called Twitter.now, featuring an automated artificial intelligence (AI) system designed to de",
-        "description": "Former Twitter employees have launched a new social media platform called Twitter.now, featuring an automated artificial intelligence (AI) system designed to detect misinformation ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Bangkok Post",
-        "url": "https://www.bangkokpost.com/life/tech/3314469/former-twitter-team-launches-twitternow-with-ai-fakenews-checks"
       }
     ],
     "ai-business": [
@@ -10342,7 +10342,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-08",
-    "generatedAt": "2026-09-08T10:51:55.260005Z",
+    "generatedAt": "2026-09-08T13:27:23.236993Z",
     "total": 8,
     "sections": [
       {
