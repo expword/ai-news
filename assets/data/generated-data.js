@@ -1,7 +1,89 @@
 window.AI_GENERATED_DATA = {
-  "lastUpdated": "2026-09-09",
-  "generatedAt": "2026-09-09T14:22:08.978703Z",
+  "lastUpdated": "2026-09-10",
+  "generatedAt": "2026-09-09T16:56:56.815770Z",
   "news": [
+    {
+      "title": "Get ready for the game with new football features in Search",
+      "summary": "Track live game feeds, explore detailed stats, and get custom fantasy recommendations directly in Search this season.",
+      "category": "ai-models",
+      "source": "RSS · Google AI Blog",
+      "date": "2026-09-10",
+      "publishedAt": "2026-09-10T00:00",
+      "collectedAt": "2026-09-10T00:56",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://blog.google/products-and-platforms/products/search/football-features-google-search/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Recreating a 70-year love story frame by frame",
+      "summary": "Discover how filmmakers and Google DeepMind used AI to recreate a couple's unrecorded past in the short film \"Love, Rendered.\"",
+      "category": "ai-models",
+      "source": "RSS · Google AI Blog",
+      "date": "2026-09-10",
+      "publishedAt": "2026-09-10T00:00",
+      "collectedAt": "2026-09-10T00:56",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://blog.google/innovation-and-ai/technology/ai/love-rendered-film/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
+      "summary": "",
+      "category": "ai-models",
+      "source": "RSS · Hugging Face Blog",
+      "date": "2026-09-09",
+      "publishedAt": "2026-09-09T23:36",
+      "collectedAt": "2026-09-10T00:56",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Anthropic 发布经济情景模型，推演 AI 对 2030 年美国就业与工资的影响",
       "summary": "Anthropic 经济团队基于技术报告《Economic Scenarios for Transformative AI》发布交互式经济情景探索工具，把经济表示为任务束，推演 AI 到 2030 年对美国经济的影响。",
@@ -194,6 +276,115 @@ window.AI_GENERATED_DATA = {
       "tier": "T1.5",
       "scores": {},
       "score": 56,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Evaluating and Improving Evidence-Grounded Fact-Checking in LLMs via Multi-Round Evidence Ablation",
+      "summary": "Automatic fact-checking systems assess the veracity of claims given evidence from relevant documents. Large Language Models (LLMs) have demonstrated strong performance in fact-chec",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-09-08",
+      "publishedAt": "",
+      "collectedAt": "2026-09-10T00:56",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-08",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.08943v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "SQLMorph: Query Mutation and Fine-Grained Metrics for Text-to-SQL Evaluation",
+      "summary": "Text-to-SQL systems translate natural language queries into executable SQL, democratizing access to structured data. Despite recent advances driven by large language models (LLMs),",
+      "category": "ai-benchmark",
+      "source": "arXiv",
+      "date": "2026-09-08",
+      "publishedAt": "",
+      "collectedAt": "2026-09-10T00:56",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-08",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.08950v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Experience Funnel: A State-Policy Alternating Loop for Self-Evolving Agents",
+      "summary": "Autonomous agents powered by large language models (LLMs) continuously accumulate experience through interaction, creating an opportunity to improve future behavior through self-ev",
+      "category": "ai-agents",
+      "source": "arXiv",
+      "date": "2026-09-08",
+      "publishedAt": "",
+      "collectedAt": "2026-09-10T00:56",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-08",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.08919v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "AuK Technical Report: An Open-Source Foundational Model for Speech Generation and Editing",
+      "summary": "We introduce AuK, an open-source foundational model that unifies speech generation and editing through a common interface of natural-language instructions and audio context. To sup",
+      "category": "ai-image-video",
+      "source": "arXiv",
+      "date": "2026-09-08",
+      "publishedAt": "",
+      "collectedAt": "2026-09-10T00:56",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-08",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.08936v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
       "aiSelected": true,
       "moduleTargets": [
         "news"
@@ -2494,33 +2685,6 @@ window.AI_GENERATED_DATA = {
       "moduleTargets": [
         "news",
         "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
-      "summary": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes.",
-      "category": "ai-business",
-      "source": "RSS · OpenAI Blog",
-      "date": "2026-09-02",
-      "publishedAt": "2026-09-02T20:00",
-      "collectedAt": "2026-09-03T07:38",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://openai.com/index/atv-big-air-tour",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
       ],
       "sourceCount": 1
     }
@@ -6084,6 +6248,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "Experience Funnel: A State-Policy Alternating Loop for Self-",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Autonomous agents powered by large language models (LLMs) continuously accumulate experience through interaction, creating an opportunity to improve future beha",
+        "description": "Autonomous agents powered by large language models (LLMs) continuously accumulate experience through interaction, creating an opportunity to improve future behavior through self-ev",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2609.08919v1"
+      },
+      {
         "name": "Thomas Wolf 认为 AI 数学尚未被解决，Navier-Stokes 结果更像反例搜索而非完整证明",
         "provider": "X：Thomas Wolf（Hugging Face 联创/CSO） (@Thom_Wolf)",
         "type": "AI 项目/工具",
@@ -6511,20 +6686,42 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Yahoo! Finance",
         "url": "https://finance.yahoo.com/technology/ai/articles/agentic-commerce-optimisation-azoma-platforms-091300075.html"
-      },
-      {
-        "name": "Wolff: Title leader Antonelli like an 'AI agent'",
-        "provider": "ESPN.com",
-        "type": "AI 项目/工具",
-        "bestFor": "MONZA, Italy -- Kimi Antonelli has gone from a rookie \"like deer in the headlights\" to a continuously self-improving \"AI agent,\" Mercedes boss Toto Wolff said a",
-        "description": "MONZA, Italy -- Kimi Antonelli has gone from a rookie \"like deer in the headlights\" to a continuously self-improving \"AI agent,\" Mercedes boss Toto Wolff said after the 20-year-old",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "ESPN.com",
-        "url": "https://www.espn.com/f1/story/_/id/49813303/kimi-antonelli-ai-agent-toto-wolffs-new-comparison-f1-star-italian-gp-win-italian-grand-prix-formula-1-monza"
       }
     ],
     "ai-models": [
+      {
+        "name": "Get ready for the game with new football features in Search",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Track live game feeds, explore detailed stats, and get custom fantasy recommendations directly in Search this season.",
+        "description": "Track live game feeds, explore detailed stats, and get custom fantasy recommendations directly in Search this season.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Google AI Blog",
+        "url": "https://blog.google/products-and-platforms/products/search/football-features-google-search/"
+      },
+      {
+        "name": "OpenRouter 推出 shell 沙箱工具与 Files API，任何模型可在托管 Linux 容器中执行命令",
+        "provider": "OpenRouter：Announcements（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenRouter 发布 openrouter：shell 服务端工具和 Files API，OpenRouter 上任何支持工具调用的模型都可在托管 Linux 容器中运行命令，两者现已在 beta 阶段开放。",
+        "description": "OpenRouter 发布 openrouter：shell 服务端工具和 Files API，OpenRouter 上任何支持工具调用的模型都可在托管 Linux 容器中运行命令，两者现已在 beta 阶段开放。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "OpenRouter：Announcements（RSS）",
+        "url": "https://openrouter.ai/blog/announcements/shell-tool"
+      },
+      {
+        "name": "Anthropic 发布 Claude Platform 降本指南并更新 claude-api 技能",
+        "provider": "Claude：Blog（网页）",
+        "type": "AI 项目/工具",
+        "bestFor": "Anthropic 介绍用 Claude Platform 降低成本、保持性能的三种方法：提高提示词缓存命中率、升级到前沿模型时清除提示词反模式、按任务校准 effort。",
+        "description": "Anthropic 介绍用 Claude Platform 降低成本、保持性能的三种方法：提高提示词缓存命中率、升级到前沿模型时清除提示词反模式、按任务校准 effort。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Claude：Blog（网页）",
+        "url": "https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform"
+      },
       {
         "name": "A new Anthropic model seeks to test how AI could impact the ",
         "provider": "NPR",
@@ -6931,39 +7128,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Pulse24.com",
         "url": "https://www.cp24.com/news/world/2026/09/06/the-world-is-about-to-meet-apples-new-ceo-here-are-his-biggest-challenges/"
-      },
-      {
-        "name": "The world is about to meet Apple's new CEO. Here are his big",
-        "provider": "CTVNews",
-        "type": "AI 项目/工具",
-        "bestFor": "When Apple holds its annual iPhone event on September 9, it'll be the first time in more than a decade that Tim Cook won't introduce the company's latest produc",
-        "description": "When Apple holds its annual iPhone event on September 9, it'll be the first time in more than a decade that Tim Cook won't introduce the company's latest products. Instead, John Te",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "CTVNews",
-        "url": "https://www.ctvnews.ca/sci-tech/article/the-world-is-about-to-meet-apples-new-ceo-here-are-his-biggest-challenges/"
-      },
-      {
-        "name": "The world is about to meet Apple's new CEO. Here are his big",
-        "provider": "Egypt Independent",
-        "type": "AI 项目/工具",
-        "bestFor": "When Apple holds its annual iPhone event on September 9, it'll be the first time in more than a decade that Tim Cook won't introduce the company's latest produc",
-        "description": "When Apple holds its annual iPhone event on September 9, it'll be the first time in more than a decade that Tim Cook won't introduce the company's latest products.\n\nInstead, John T",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Egypt Independent",
-        "url": "https://cloudflare.egyptindependent.com/the-world-is-about-to-meet-apples-new-ceo-here-are-his-biggest-challenges/"
-      },
-      {
-        "name": "AI Model Turns 'Evil' During Test, Tries to Build 'Bioweapon",
-        "provider": "Conservative News & Right Wing News | Gun Laws & Rights News Site",
-        "type": "AI 项目/工具",
-        "bestFor": "Artificial intelligence giant Anthropic has revealed alarming results from safety testing that saw one of its advanced AI models rapidly descend into dangerous ",
-        "description": "Artificial intelligence giant Anthropic has revealed alarming results from safety testing that saw one of its advanced AI models rapidly descend into dangerous behavior when reward",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Conservative News & Right Wing News | Gun Laws & Rights News Site",
-        "url": "https://rightedition.com/2026/09/06/ai-model-turns-evil-during-test-tries-to-build-bioweapons-to-maximize-civilian-deaths/"
       }
     ],
     "ai-business": [
@@ -10338,9 +10502,9 @@ window.AI_GENERATED_DATA = {
     }
   ],
   "dailyReport": {
-    "date": "2026-09-09",
-    "generatedAt": "2026-09-09T14:22:08.940711Z",
-    "total": 19,
+    "date": "2026-09-10",
+    "generatedAt": "2026-09-09T16:56:56.793738Z",
+    "total": 10,
     "sections": [
       {
         "category": "ai-coding",
@@ -10367,56 +10531,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-09-09",
             "publishedAt": "2026-09-09T00:23",
             "reason": ""
-          },
-          {
-            "title": "1Password increases engineering productivity 21% with Codex",
-            "summary": "Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous ",
-            "source": "RSS · OpenAI Blog",
-            "url": "https://openai.com/index/1password",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-08",
-            "publishedAt": "2026-09-08T08:00",
-            "reason": ""
-          }
-        ]
-      },
-      {
-        "category": "ai-agents",
-        "label": "Agent / MCP",
-        "items": [
-          {
-            "title": "PlannerForge: LLM Agents for Scenario-Based Testing of Motion Planners in Autonomous Driving",
-            "summary": "Ensuring the safety of autonomous driving is a critical challenge. Scenario-based testing is a systematic process used to validate Autonomou",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.08965v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-08",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "PrivEscalate: Measuring and Augmenting the Threat of LLM-Automated Linux Privilege Escalation",
-            "summary": "As Large Language Model (LLM) agents increasingly automate offensive operations across the cyber kill chain, their efficacy in complex local",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.09087v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-08",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "MeClear: Cooperative Game-Theoretic Attribution and Risk-Aware Memory Clearance for Long-Horizon LLM Agents",
-            "summary": "Long horizon Large Language Model (LLM) agents rely on external memory systems to preserve user preferences and task knowledge across extend",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.09115v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-08",
-            "publishedAt": "",
-            "reason": ""
           }
         ]
       },
@@ -10424,6 +10538,39 @@ window.AI_GENERATED_DATA = {
         "category": "ai-models",
         "label": "模型发布",
         "items": [
+          {
+            "title": "Get ready for the game with new football features in Search",
+            "summary": "Track live game feeds, explore detailed stats, and get custom fantasy recommendations directly in Search this season.",
+            "source": "RSS · Google AI Blog",
+            "url": "https://blog.google/products-and-platforms/products/search/football-features-google-search/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-10",
+            "publishedAt": "2026-09-10T00:00",
+            "reason": ""
+          },
+          {
+            "title": "Recreating a 70-year love story frame by frame",
+            "summary": "Discover how filmmakers and Google DeepMind used AI to recreate a couple's unrecorded past in the short film \"Love, Rendered.\"",
+            "source": "RSS · Google AI Blog",
+            "url": "https://blog.google/innovation-and-ai/technology/ai/love-rendered-film/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-10",
+            "publishedAt": "2026-09-10T00:00",
+            "reason": ""
+          },
+          {
+            "title": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
+            "summary": "",
+            "source": "RSS · Hugging Face Blog",
+            "url": "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-09",
+            "publishedAt": "2026-09-09T23:36",
+            "reason": ""
+          },
           {
             "title": "Anthropic 发布经济情景模型，推演 AI 对 2030 年美国就业与工资的影响",
             "summary": "Anthropic 经济团队基于技术报告《Economic Scenarios for Transformative AI》发布交互式经济情景探索工具，把经济表示为任务束，推演 AI 到 2030 年对美国经济的影响。",
@@ -10458,61 +10605,6 @@ window.AI_GENERATED_DATA = {
             "reason": ""
           },
           {
-            "title": "It's Not RoPE that Creates Sinks: The Role of Self-Concentration and Value-Non-Mixing in Attention",
-            "summary": "Large Language Models (LLMs) often exhibit \"Attention Sink\" (AS) and the accompanying \"Massive Activations\" (MAs) at the initial position of",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.09085v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-08",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Training-Free Task Vectors for LLM Behavioral Control",
-            "summary": "Task vectors enable post-training model editing by identifying semantically meaningful directions in weight space, typically computed as the",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.09054v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-08",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
-            "summary": "",
-            "source": "RSS · Hugging Face Blog",
-            "url": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-08",
-            "publishedAt": "2026-09-08T22:23",
-            "reason": ""
-          },
-          {
-            "title": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
-            "summary": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizatio",
-            "source": "RSS · OpenAI Blog",
-            "url": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-08",
-            "publishedAt": "2026-09-08T08:00",
-            "reason": ""
-          },
-          {
-            "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
-            "summary": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.",
-            "source": "RSS · Google DeepMind",
-            "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-08",
-            "publishedAt": "2026-09-08T22:00",
-            "reason": ""
-          },
-          {
             "title": "Simon Willison 评 OpenAI 用未发布模型求解 Navier-Stokes 千禧年大奖难题之争",
             "summary": "OpenAI 用未发布模型在约88小时内给出 Navier-Stokes 存在与光滑性问题（七大千禧年难题之一）的解答，并通过 GPT-6 Astra 完成17小时 Lean 形式化验证，全程发送490万条消息、消耗约3000亿输出 token。",
             "source": "Simon Willison 博客",
@@ -10539,57 +10631,114 @@ window.AI_GENERATED_DATA = {
             "date": "2026-09-09",
             "publishedAt": "2026-09-09T03:12",
             "reason": ""
-          },
-          {
-            "title": "Measuring LLM Sycophancy under Sustained Multi-Turn Pressure",
-            "summary": "Large language models (LLMs) may abandon correct positions when users push back, exhibiting a failure mode known as sycophancy. Existing eva",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.09090v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-08",
-            "publishedAt": "",
-            "reason": ""
-          }
-        ]
-      },
-      {
-        "category": "ai-research",
-        "label": "论文研究",
-        "items": [
-          {
-            "title": "Funding grants for new research into AI and teen development",
-            "summary": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, a",
-            "source": "RSS · OpenAI Blog",
-            "url": "https://openai.com/index/teen-development-research-grants",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-08",
-            "publishedAt": "2026-09-08T17:00",
-            "reason": ""
-          }
-        ]
-      },
-      {
-        "category": "ai-business",
-        "label": "行业商业",
-        "items": [
-          {
-            "title": "The Work Now Within Reach",
-            "summary": "Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical.",
-            "source": "RSS · OpenAI Blog",
-            "url": "https://openai.com/index/the-work-now-within-reach",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-08",
-            "publishedAt": "2026-09-08T21:00",
-            "reason": ""
           }
         ]
       }
     ]
   },
   "dailyReports": [
+    {
+      "date": "2026-09-09",
+      "generatedAt": "2026-09-09T16:00:54.368594Z",
+      "total": 7,
+      "sections": [
+        {
+          "category": "ai-coding",
+          "label": "AI 编程",
+          "items": [
+            {
+              "title": "How GPT-5.6 Sol helps run quantum computing experiments",
+              "summary": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubi",
+              "source": "RSS · OpenAI Blog",
+              "url": "https://openai.com/index/codex-quantum-computing-experiments",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-09",
+              "publishedAt": "2026-09-09T01:00",
+              "reason": ""
+            },
+            {
+              "title": "Automated agent evaluation with Amazon Bedrock AgentCore and GitHub Actions",
+              "summary": "Wire Amazon Bedrock AgentCore Evaluations into a GitHub Actions pipeline: deploy an AI agent and an OAuth-protected MCP server to AgentCore ",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/automated-agent-evaluation-with-amazon-bedrock-agentcore-and-github-actions/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-09",
+              "publishedAt": "2026-09-09T00:23",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-models",
+          "label": "模型发布",
+          "items": [
+            {
+              "title": "Anthropic 发布经济情景模型，推演 AI 对 2030 年美国就业与工资的影响",
+              "summary": "Anthropic 经济团队基于技术报告《Economic Scenarios for Transformative AI》发布交互式经济情景探索工具，把经济表示为任务束，推演 AI 到 2030 年对美国经济的影响。",
+              "source": "Anthropic：The Institute（旗舰研究长文 · 网页）",
+              "url": "https://www.anthropic.com/institute/econ-scenarios",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-09",
+              "publishedAt": "2026-09-09T21:27",
+              "reason": ""
+            },
+            {
+              "title": "Amazon SageMaker Feature Store introduces UpdateRecord for feature-level writes",
+              "summary": "Amazon SageMaker Feature Store now supports feature-level writes. With the new UpdateRecord API, you can update one or more feature values i",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-feature-store-introduces-updaterecord-for-feature-level-writes/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-09",
+              "publishedAt": "2026-09-09T02:29",
+              "reason": ""
+            },
+            {
+              "title": "Govern models with MLflow and Amazon SageMaker AI Model Registry sync: Part 1",
+              "summary": "Managed MLflow on Amazon SageMaker AI now syncs richer model metadata (training metrics, evaluation results, inference specs, and lineage) i",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/govern-models-with-mlflow-and-amazon-sagemaker-ai-model-registry-sync-part-1/",
+              "score": 70,
+              "sourceCount": 2,
+              "date": "2026-09-09",
+              "publishedAt": "2026-09-09T01:03",
+              "reason": ""
+            },
+            {
+              "title": "Simon Willison 评 OpenAI 用未发布模型求解 Navier-Stokes 千禧年大奖难题之争",
+              "summary": "OpenAI 用未发布模型在约88小时内给出 Navier-Stokes 存在与光滑性问题（七大千禧年难题之一）的解答，并通过 GPT-6 Astra 完成17小时 Lean 形式化验证，全程发送490万条消息、消耗约3000亿输出 token。",
+              "source": "Simon Willison 博客",
+              "url": "https://simonwillison.net/2026/Sep/8/on-navier-stokes",
+              "score": 56,
+              "sourceCount": 1,
+              "date": "2026-09-09",
+              "publishedAt": "2026-09-09T07:55",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-benchmark",
+          "label": "评测榜单",
+          "items": [
+            {
+              "title": "Pathway’s brain-inspired architecture development on Amazon SageMaker HyperPod",
+              "summary": "Pathway's Baby Dragon Hatchling (BDH) is a brain-inspired, post-transformer architecture that reasons in latent space instead of emitting ch",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/pathways-brain-inspired-architecture-development-on-amazon-sagemaker-hyperpod/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-09",
+              "publishedAt": "2026-09-09T03:12",
+              "reason": ""
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-09-08",
       "generatedAt": "2026-09-08T16:05:23.731342Z",
@@ -21172,213 +21321,10 @@ window.AI_GENERATED_DATA = {
           ]
         }
       ]
-    },
-    {
-      "date": "2026-07-06",
-      "generatedAt": "2026-07-06T16:22:47.302468Z",
-      "total": 14,
-      "sections": [
-        {
-          "category": "ai-tools",
-          "label": "AI 工具",
-          "items": [
-            {
-              "title": "🤗 Kernels 项目重大更新",
-              "summary": "🤗 Kernels 项目推出了新型仓库，增强了安全性并改进了命令行工具。新仓库类型支持用户查看内核的计算特性，确保内核的安全性和可验证性。通过引入受信任的发布者和代码签名机制，用户可以更安全地使用内核，避免恶意代码的风险。",
-              "source": "RSS · Hugging Face Blog",
-              "url": "https://huggingface.co/blog/revamped-kernels",
-              "score": 82,
-              "sourceCount": 1,
-              "date": "2026-07-06",
-              "publishedAt": "2026-07-06T08:00",
-              "reason": "Kernels 项目的更新显著提升了内核的安全性和可用性，值得关注。"
-            },
-            {
-              "title": "父亲为非语言自闭症儿童开发沟通应用，市场反响热烈",
-              "summary": "一位父亲为其非语言自闭症儿子开发的沟通应用在言语治疗室引发了强烈反响，所有非语言儿童的母亲纷纷流泪，言语治疗师也被感动得无法言语。该应用专为理解语言困难的儿童设计，市场需求显著，父亲决定投入更多时间以帮助更多孩子，尽管这意味着几周的睡眠不足。",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://extelligence.substack.com/p/i-accidentally-started-a-small-business",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-07-06",
-              "publishedAt": "2026-07-06T01:43",
-              "reason": "该应用不仅解决了特定群体的沟通需求，还引发了情感共鸣，具有广泛的市场潜力和社会价值。"
-            },
-            {
-              "title": "监测网站tokhub.me上线，提供真实API调用评测",
-              "summary": "tokhub.me是一个新上线的中转站监测网站，区别于传统速度评测，通过真实充值调用API进行模型监控。该网站的代码完全开源，支持一键Docker部署，并可作为公司内部Token和网关管理系统，简化API Key和Base URL的管理。尽管其功能强大，但仍存在一些局限性。",
-              "source": "X：Vista (@vista8)",
-              "url": "https://x.com/vista8/status/2074130700421456089",
-              "score": 63,
-              "sourceCount": 1,
-              "date": "2026-07-06",
-              "publishedAt": "2026-07-06T21:57",
-              "reason": "tokhub.me通过真实API调用监测提供了更为精准的中转站评测，尤其适合需要高可靠性的开发者和企业使用。"
-            },
-            {
-              "title": "欧盟强制推行聊天管控新规，科技公司面临挑战",
-              "summary": "欧盟理事会通过新法规，要求科技公司对加密通信进行无差别扫描，以填补法律漏洞并施压欧洲议会。尽管理事会声称扫描范围有限，批评者认为此举可能绕过民主监督，且在紧急程序下，反对意见难以形成有效阻力。",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://www.heise.de/en/news/Chat-Control-1-0-EU-Council-forces-messenger-scans-via-fast-track-11353659.html",
-              "score": 60,
-              "sourceCount": 1,
-              "date": "2026-07-06",
-              "publishedAt": "2026-07-06T00:23",
-              "reason": "这条信息揭示了欧盟在数据隐私与安全之间的复杂平衡，值得关注其对科技行业的深远影响。"
-            }
-          ]
-        },
-        {
-          "category": "ai-coding",
-          "label": "AI 编程",
-          "items": [
-            {
-              "title": "初级程序员就业市场遭重创：斯坦福数据揭示19%下降",
-              "summary": "我注意到，斯坦福数字经济实验室的最新研究显示，美国22-25岁软件开发人员的就业率较2022年下降了19%。与此同时，41-49岁开发者的就业率却增长了14%。入门级岗位招聘减少28%，计算机科学毕业生失业率高达6.1%。这背后的主要原因是智能体编程的兴起，导致初级程序员的职位逐",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://seldo.com/posts/ai-has-torched-the-market-for-junior-programmers",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-07-06",
-              "publishedAt": "2026-07-06T19:51",
-              "reason": "这条信息揭示了AI对初级程序员就业市场的深远影响，值得关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-agents",
-          "label": "Agent / MCP",
-          "items": [
-            {
-              "title": "Claude Fable 5下线前的8个实用提示词",
-              "summary": "Claude Fable 5即将下线，作者整理了8个经过实战验证的提示词，旨在提升模型的实验效率和用户体验。这些提示词包括自主实验、工作模式转化、行动规范约束等，能够有效降低成本和提高构建速度。然而，这些提示词的使用仍存在一定的局限性，用户需谨慎评估。",
-              "source": "公众号：卡尔的AI沃茨",
-              "url": "https://mp.weixin.qq.com/s/ZkMsdeTK6wmgkaER0iPT8w",
-              "score": 57,
-              "sourceCount": 1,
-              "date": "2026-07-06",
-              "publishedAt": "2026-07-06T09:19",
-              "reason": "这条信息提供了实用的提示词，帮助用户在Claude Fable 5下线前最大化其使用价值，值得关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-models",
-          "label": "模型发布",
-          "items": [
-            {
-              "title": "Fun-ASR-Realtime：单模型支持30种语言与16种方言，语音识别准确率领先",
-              "summary": "我注意到通义实验室最近发布了Fun-ASR-Realtime实时语音识别模型，这个模型真的是个大突破！它不仅支持30种语言和16种方言，还特别针对东亚和东南亚地区进行了优化。在工业级方言测评中，这个模型的语义准确率达到了87.8%，接近人工水平，流式识别的延迟也控制在百毫秒级，准",
-              "source": "公众号：通义实验室（千问）",
-              "url": "https://mp.weixin.qq.com/s/ntw0SliBi4f8LROnFY26kA",
-              "score": 68,
-              "sourceCount": 1,
-              "date": "2026-07-06",
-              "publishedAt": "2026-07-06T14:09",
-              "reason": "这款模型的多语言和方言支持能力，结合高准确率和低延迟，极大地提升了语音识别的实用性，值得开发者关注。"
-            },
-            {
-              "title": "扎克伯格宣布建设千兆瓦级AI集群，聚焦人才与资本",
-              "summary": "扎克伯格近日透露，Meta正在建设名为Prometheus的千兆瓦级AI集群，预计将投入数千亿美元，旨在集中顶尖人才、资本和基础设施，以推动AI技术的发展和应用。",
-              "source": "X：Rohan Paul (@rohanpaul_ai)",
-              "url": "https://x.com/rohanpaul_ai/status/2073834219659534816",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-07-06",
-              "publishedAt": "2026-07-06T02:19",
-              "reason": "这一项目标志着AI技术发展的新里程碑，值得关注其对行业的深远影响。"
-            },
-            {
-              "title": "NVIDIA Kyber NVL144 项目推迟至 2028 年",
-              "summary": "NVIDIA 在 GTC 展示的 Kyber NVL144 项目仅三个月后便遭遇重大挫折，推迟超过 12 个月，预计至 2028 年才能发布。同时，NVL72x2 背靠背机架架构也被取消，影响了 Rubin Ultra 的扩展能力。",
-              "source": "X：SemiAnalysis (@SemiAnalysis_)",
-              "url": "https://x.com/SemiAnalysis_/status/2073874671498387899",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-07-06",
-              "publishedAt": "2026-07-06T05:00",
-              "reason": "NVIDIA Kyber NVL144 项目的重大延迟揭示了当前半导体行业面临的技术挑战，值得关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-benchmark",
-          "label": "评测榜单",
-          "items": [
-            {
-              "title": "Meta 外包人员伪装未成年人测试竞争对手 AI 聊天机器人",
-              "summary": "Meta 通过外包公司 Covalen 进行代号为\"Cannes\"的项目，数百名外包人员伪装成未成年人，向 OpenAI ChatGPT、谷歌 Gemini 和 Character.AI 发送超 4.5 万个高风险提示词，以测试竞品的安全拦截机制。Meta 声称此举为常规安全测试",
-              "source": "IT之家（RSS）",
-              "url": "https://www.ithome.com/0/973/207.htm",
-              "score": 63,
-              "sourceCount": 1,
-              "date": "2026-07-06",
-              "publishedAt": "2026-07-06T17:23",
-              "reason": "此事件揭示了 AI 领域竞争的激烈程度及其潜在的伦理和法律风险，值得关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-research",
-          "label": "论文研究",
-          "items": [
-            {
-              "title": "Synthetic Sciences 发布 OpenScience：开源 AI 科研工作台",
-              "summary": "Synthetic Sciences 推出 OpenScience，这是一个开源（Apache 2.0）AI 科研工作台，支持机器学习、生物学、物理学和化学研究。该平台允许用户在自己的基础设施上运行，支持多种模型切换，并内置 250 余项可编辑技能和约 30 个科学数据库，提供全",
-              "source": "MarkTechPost（RSS）",
-              "url": "https://www.marktechpost.com/2026/07/05/synthetic-sciences-releases-openscience-an-open-source-model-agnostic-ai-workbench-for-machine-learning-biology-physics-and-chemistry-research",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-07-06",
-              "publishedAt": "2026-07-06T13:07",
-              "reason": "OpenScience 提供了一个灵活且全面的科研工具，打破了传统科研工具的限制，值得科研人员关注和使用。"
-            },
-            {
-              "title": "Runway 在巴黎设立研究中心",
-              "summary": "Runway 于 2026 年 7 月 6 日宣布在法国巴黎设立首个办公室，计划投资 3000 万美元以扩展其全球研究网络。该办公室将专注于世界模型和物理 AI 的研究，初期团队由十名员工组成，未来将继续增加人手。",
-              "source": "Runway：News（网页）",
-              "url": "https://runwayml.com/news/announcing-our-paris-office",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-07-06",
-              "publishedAt": "2026-07-06T16:33",
-              "reason": "Runway 在巴黎设立研究中心，标志着其全球扩展战略的重要一步，尤其是在 AI 研究领域的深耕，值得关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-business",
-          "label": "行业商业",
-          "items": [
-            {
-              "title": "SK 海力士启动 280 亿美元美股上市，成史上第二大 IPO",
-              "summary": "SK 海力士于本周一启动约 280 亿美元的美股上市计划，预计将成为历史上第二大 IPO。该公司将在纳斯达克通过存托凭证发行 1779 万股新股，受益于人工智能热潮，股价年内涨幅超 270%。最终发行价将于周四确定，股票周五挂牌交易。",
-              "source": "IT之家（RSS）",
-              "url": "https://www.ithome.com/0/972/896.htm",
-              "score": 63,
-              "sourceCount": 1,
-              "date": "2026-07-06",
-              "publishedAt": "2026-07-06T09:09",
-              "reason": "SK 海力士的上市不仅是其自身发展的重要里程碑，也将对整个科技行业产生深远影响，值得关注。"
-            },
-            {
-              "title": "AT&T 1956年专利法令的影响与启示",
-              "summary": "1956年，AT&T签署的专利法令将其7820项未过期专利免费授权给美国企业，推动了半导体行业的快速发展。这一法令不仅促进了技术创新，还为硅谷的崛起奠定了基础，成为商业半导体行业的重要里程碑。",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://www.wysr.xyz/p/the-private-capture-of-public-genius",
-              "score": 61,
-              "sourceCount": 1,
-              "date": "2026-07-06",
-              "publishedAt": "2026-07-06T16:55",
-              "reason": "AT&T的专利法令不仅是技术共享的典范，更为后续的行业发展提供了宝贵的经验，值得深入研究与借鉴。"
-            }
-          ]
-        }
-      ]
     }
   ],
   "llmLeaderboard": {
-    "updated": "2026-09-08",
+    "updated": "2026-09-10",
     "source": "ReLE 中文大模型能力评测（综合能力）",
     "sourceUrl": "https://github.com/jeinlee1991/chinese-llm-benchmark",
     "items": [
@@ -21534,6 +21480,16 @@ window.AI_GENERATED_DATA = {
       },
       {
         "rank": 16,
+        "type": "商用",
+        "org": "openAI",
+        "model": "gpt-6-astra(new)",
+        "score": "74.2%",
+        "latency": "14s",
+        "tokens": "350",
+        "cost": "108.1"
+      },
+      {
+        "rank": 17,
         "type": "开源",
         "org": "智谱AI",
         "model": "glm-5.3-flash(new)",
@@ -21543,7 +21499,7 @@ window.AI_GENERATED_DATA = {
         "cost": "12.7"
       },
       {
-        "rank": 17,
+        "rank": 18,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3.8-flash(new)",
@@ -21553,7 +21509,7 @@ window.AI_GENERATED_DATA = {
         "cost": "10.0"
       },
       {
-        "rank": 18,
+        "rank": 19,
         "type": "商用",
         "org": "google",
         "model": "gemini-3.5-flash",
@@ -21563,7 +21519,7 @@ window.AI_GENERATED_DATA = {
         "cost": "151.2"
       },
       {
-        "rank": 19,
+        "rank": 20,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3.7-plus(new)",
@@ -21573,7 +21529,7 @@ window.AI_GENERATED_DATA = {
         "cost": "31.7"
       },
       {
-        "rank": 20,
+        "rank": 21,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "qwen3.5-plus",
@@ -21583,7 +21539,7 @@ window.AI_GENERATED_DATA = {
         "cost": "22.9"
       },
       {
-        "rank": 21,
+        "rank": 22,
         "type": "商用",
         "org": "豆包",
         "model": "doubao-seed-2-1-turbo-260628(new)",
@@ -21593,7 +21549,7 @@ window.AI_GENERATED_DATA = {
         "cost": "136.3"
       },
       {
-        "rank": 22,
+        "rank": 23,
         "type": "开源",
         "org": "智谱AI",
         "model": "glm-5.2(new)",
@@ -21603,7 +21559,7 @@ window.AI_GENERATED_DATA = {
         "cost": "110.5"
       },
       {
-        "rank": 23,
+        "rank": 24,
         "type": "开源",
         "org": "月之暗面",
         "model": "kimi-k2.6",
@@ -21613,7 +21569,7 @@ window.AI_GENERATED_DATA = {
         "cost": "100.4"
       },
       {
-        "rank": 24,
+        "rank": 25,
         "type": "商用",
         "org": "豆包",
         "model": "Doubao-Seed-2.0-pro",
@@ -21623,7 +21579,7 @@ window.AI_GENERATED_DATA = {
         "cost": "22.5"
       },
       {
-        "rank": 25,
+        "rank": 26,
         "type": "开源",
         "org": "月之暗面",
         "model": "kimi-k2.7-code(new)",
@@ -21633,7 +21589,7 @@ window.AI_GENERATED_DATA = {
         "cost": "49.7"
       },
       {
-        "rank": 26,
+        "rank": 27,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.4-high",
@@ -21643,7 +21599,7 @@ window.AI_GENERATED_DATA = {
         "cost": "122.3"
       },
       {
-        "rank": 27,
+        "rank": 28,
         "type": "开源",
         "org": "深度求索",
         "model": "deepseek-v4-pro-0424",
@@ -21653,7 +21609,7 @@ window.AI_GENERATED_DATA = {
         "cost": "54.3"
       },
       {
-        "rank": 28,
+        "rank": 29,
         "type": "商用",
         "org": "anthropic",
         "model": "claude-opus-4.8(new)",
@@ -21663,7 +21619,7 @@ window.AI_GENERATED_DATA = {
         "cost": "99.4"
       },
       {
-        "rank": 29,
+        "rank": 30,
         "type": "开源",
         "org": "小米",
         "model": "mimo-v2.5-pro",
@@ -21673,7 +21629,7 @@ window.AI_GENERATED_DATA = {
         "cost": "64.3"
       },
       {
-        "rank": 30,
+        "rank": 31,
         "type": "商用",
         "org": "google",
         "model": "gemini-3-flash-preview",
@@ -21683,7 +21639,7 @@ window.AI_GENERATED_DATA = {
         "cost": "53.5"
       },
       {
-        "rank": 31,
+        "rank": 32,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "Qwen3.5-122B-A10B",
@@ -21693,7 +21649,7 @@ window.AI_GENERATED_DATA = {
         "cost": "32.3"
       },
       {
-        "rank": 32,
+        "rank": 33,
         "type": "开源",
         "org": "月之暗面",
         "model": "Kimi-K2.5-Thinking",
@@ -21703,7 +21659,7 @@ window.AI_GENERATED_DATA = {
         "cost": "77.1"
       },
       {
-        "rank": 33,
+        "rank": 34,
         "type": "商用",
         "org": "anthropic",
         "model": "claude-sonnet-5-thinking(new)",
@@ -21713,7 +21669,7 @@ window.AI_GENERATED_DATA = {
         "cost": "93.7"
       },
       {
-        "rank": 34,
+        "rank": 35,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3.6-plus",
@@ -21723,7 +21679,7 @@ window.AI_GENERATED_DATA = {
         "cost": "41.6"
       },
       {
-        "rank": 35,
+        "rank": 36,
         "type": "开源",
         "org": "智谱AI",
         "model": "GLM-5.1",
@@ -21733,7 +21689,7 @@ window.AI_GENERATED_DATA = {
         "cost": "73.8"
       },
       {
-        "rank": 36,
+        "rank": 37,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "Qwen3.5-27B",
@@ -21743,7 +21699,7 @@ window.AI_GENERATED_DATA = {
         "cost": "25.0"
       },
       {
-        "rank": 37,
+        "rank": 38,
         "type": "商用",
         "org": "豆包",
         "model": "Doubao-Seed-2.0-lite",
@@ -21753,7 +21709,7 @@ window.AI_GENERATED_DATA = {
         "cost": "5.4"
       },
       {
-        "rank": 38,
+        "rank": 39,
         "type": "商用",
         "org": "anthropic",
         "model": "claude-opus-4.6",
@@ -21763,7 +21719,7 @@ window.AI_GENERATED_DATA = {
         "cost": "96.5"
       },
       {
-        "rank": 39,
+        "rank": 40,
         "type": "商用",
         "org": "XAI",
         "model": "grok-4.5(new)",
@@ -21773,7 +21729,7 @@ window.AI_GENERATED_DATA = {
         "cost": "125.7"
       },
       {
-        "rank": 40,
+        "rank": 41,
         "type": "商用",
         "org": "XAI",
         "model": "grok-4.6(new)",
@@ -21783,7 +21739,7 @@ window.AI_GENERATED_DATA = {
         "cost": "118.4"
       },
       {
-        "rank": 41,
+        "rank": 42,
         "type": "商用",
         "org": "豆包",
         "model": "Doubao-Seed-2.0-mini",
@@ -21793,7 +21749,7 @@ window.AI_GENERATED_DATA = {
         "cost": "7.0"
       },
       {
-        "rank": 42,
+        "rank": 43,
         "type": "商用",
         "org": "智谱AI",
         "model": "GLM-5-Turbo",
@@ -21803,7 +21759,7 @@ window.AI_GENERATED_DATA = {
         "cost": "60.8"
       },
       {
-        "rank": 43,
+        "rank": 44,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3-max-think-2026-01-23",
@@ -21813,7 +21769,7 @@ window.AI_GENERATED_DATA = {
         "cost": "43.5"
       },
       {
-        "rank": 44,
+        "rank": 45,
         "type": "开源",
         "org": "智谱AI",
         "model": "GLM-5",
@@ -21823,7 +21779,7 @@ window.AI_GENERATED_DATA = {
         "cost": "61.2"
       },
       {
-        "rank": 45,
+        "rank": 46,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "qwen3.5-flash",
@@ -21833,7 +21789,7 @@ window.AI_GENERATED_DATA = {
         "cost": "10.4"
       },
       {
-        "rank": 46,
+        "rank": 47,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "qwen3.6-27b",
@@ -21843,7 +21799,7 @@ window.AI_GENERATED_DATA = {
         "cost": "73.2"
       },
       {
-        "rank": 47,
+        "rank": 48,
         "type": "开源",
         "org": "深度求索",
         "model": "deepseek-v4-flash-0424",
@@ -21853,7 +21809,7 @@ window.AI_GENERATED_DATA = {
         "cost": "4.9"
       },
       {
-        "rank": 48,
+        "rank": 49,
         "type": "商用",
         "org": "腾讯",
         "model": "hunyuan-2.0-thinking-20251109",
@@ -21863,7 +21819,7 @@ window.AI_GENERATED_DATA = {
         "cost": "9.5"
       },
       {
-        "rank": 49,
+        "rank": 50,
         "type": "商用",
         "org": "百度",
         "model": "ernie-5.1",
@@ -21873,7 +21829,7 @@ window.AI_GENERATED_DATA = {
         "cost": "32.6"
       },
       {
-        "rank": 50,
+        "rank": 51,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "Qwen3.6-35B-A3B",
@@ -21883,7 +21839,7 @@ window.AI_GENERATED_DATA = {
         "cost": "40.5"
       },
       {
-        "rank": 51,
+        "rank": 52,
         "type": "商用",
         "org": "minimax",
         "model": "MiniMax-M3(new)",
@@ -21893,7 +21849,7 @@ window.AI_GENERATED_DATA = {
         "cost": "37.0"
       },
       {
-        "rank": 52,
+        "rank": 53,
         "type": "开源",
         "org": "智谱AI",
         "model": "GLM-4.7",
@@ -21903,7 +21859,7 @@ window.AI_GENERATED_DATA = {
         "cost": "52.5"
       },
       {
-        "rank": 53,
+        "rank": 54,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.2-high",
@@ -21913,7 +21869,7 @@ window.AI_GENERATED_DATA = {
         "cost": "94.1"
       },
       {
-        "rank": 54,
+        "rank": 55,
         "type": "开源",
         "org": "阶跃星辰",
         "model": "step-3.7-flash(new)",
@@ -21923,7 +21879,7 @@ window.AI_GENERATED_DATA = {
         "cost": "40.6"
       },
       {
-        "rank": 55,
+        "rank": 56,
         "type": "商用",
         "org": "百度",
         "model": "ERNIE-5.0",
@@ -21933,27 +21889,7 @@ window.AI_GENERATED_DATA = {
         "cost": "89.2"
       },
       {
-        "rank": 56,
-        "type": "商用",
-        "org": "openAI",
-        "model": "gpt-5.1-high",
-        "score": "67.1%",
-        "latency": "117s",
-        "tokens": "2745",
-        "cost": "180.0"
-      },
-      {
         "rank": 57,
-        "type": "商用",
-        "org": "openAI",
-        "model": "gpt-5.1-medium",
-        "score": "67.0%",
-        "latency": "160s",
-        "tokens": "1448",
-        "cost": "87.9"
-      },
-      {
-        "rank": 58,
         "type": "开源",
         "org": "深度求索",
         "model": "DeepSeek-V3.2-Think",
@@ -21963,27 +21899,7 @@ window.AI_GENERATED_DATA = {
         "cost": "7.5"
       },
       {
-        "rank": 59,
-        "type": "商用",
-        "org": "openAI",
-        "model": "gpt-5-2025-08-07",
-        "score": "66.8%",
-        "latency": "72s",
-        "tokens": "630",
-        "cost": "31.9"
-      },
-      {
-        "rank": 60,
-        "type": "商用",
-        "org": "anthropic",
-        "model": "claude-sonnet-4.5-thinking",
-        "score": "66.2%",
-        "latency": "39s",
-        "tokens": "3070",
-        "cost": "305.1"
-      },
-      {
-        "rank": 61,
+        "rank": 58,
         "type": "开源",
         "org": "小米",
         "model": "MiMo-V2-Omni",
@@ -21993,7 +21909,7 @@ window.AI_GENERATED_DATA = {
         "cost": "34.8"
       },
       {
-        "rank": 62,
+        "rank": 59,
         "type": "商用",
         "org": "豆包",
         "model": "doubao-seed-1-8-251215",
@@ -22003,7 +21919,7 @@ window.AI_GENERATED_DATA = {
         "cost": "7.3"
       },
       {
-        "rank": 63,
+        "rank": 60,
         "type": "开源",
         "org": "小米",
         "model": "mimo-v2.5",
@@ -22013,7 +21929,7 @@ window.AI_GENERATED_DATA = {
         "cost": "36.8"
       },
       {
-        "rank": 64,
+        "rank": 61,
         "type": "开源",
         "org": "小米",
         "model": "MiMo-V2-Pro",
@@ -22023,7 +21939,7 @@ window.AI_GENERATED_DATA = {
         "cost": "50.2"
       },
       {
-        "rank": 65,
+        "rank": 62,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.4-mini-high",
@@ -22033,7 +21949,7 @@ window.AI_GENERATED_DATA = {
         "cost": "71.8"
       },
       {
-        "rank": 66,
+        "rank": 63,
         "type": "商用",
         "org": "minimax",
         "model": "MiniMax-M2.7",
@@ -22043,17 +21959,7 @@ window.AI_GENERATED_DATA = {
         "cost": "32.4"
       },
       {
-        "rank": 67,
-        "type": "开源",
-        "org": "月之暗面",
-        "model": "Kimi-K2-Thinking",
-        "score": "65.0%",
-        "latency": "333s",
-        "tokens": "5732",
-        "cost": "89.2"
-      },
-      {
-        "rank": 68,
+        "rank": 64,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.3-chat",
@@ -22063,7 +21969,7 @@ window.AI_GENERATED_DATA = {
         "cost": "51.5"
       },
       {
-        "rank": 69,
+        "rank": 65,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3-max-2026-01-23",
@@ -22073,7 +21979,7 @@ window.AI_GENERATED_DATA = {
         "cost": "9.7"
       },
       {
-        "rank": 70,
+        "rank": 66,
         "type": "商用",
         "org": "小米",
         "model": "MiMo-V2-Flash-think-0204",
@@ -22083,17 +21989,7 @@ window.AI_GENERATED_DATA = {
         "cost": "7.8"
       },
       {
-        "rank": 71,
-        "type": "商用",
-        "org": "百度",
-        "model": "ERNIE-5.0-Thinking-Preview",
-        "score": "64.5%",
-        "latency": "301s",
-        "tokens": "3202",
-        "cost": "72.5"
-      },
-      {
-        "rank": 72,
+        "rank": 67,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3-max-preview-think",
@@ -22103,17 +21999,7 @@ window.AI_GENERATED_DATA = {
         "cost": "86.8"
       },
       {
-        "rank": 73,
-        "type": "商用",
-        "org": "anthropic",
-        "model": "claude-opus-4.5",
-        "score": "64.2%",
-        "latency": "16s",
-        "tokens": "1063",
-        "cost": "146.1"
-      },
-      {
-        "rank": 74,
+        "rank": 68,
         "type": "开源",
         "org": "阶跃星辰",
         "model": "step-3.5-flash",
@@ -22123,7 +22009,7 @@ window.AI_GENERATED_DATA = {
         "cost": "9.8"
       },
       {
-        "rank": 75,
+        "rank": 69,
         "type": "开源",
         "org": "腾讯",
         "model": "hy3(new)",
@@ -22133,7 +22019,7 @@ window.AI_GENERATED_DATA = {
         "cost": "1.8"
       },
       {
-        "rank": 76,
+        "rank": 70,
         "type": "商用",
         "org": "minimax",
         "model": "MiniMax-M2.5",
@@ -22143,7 +22029,7 @@ window.AI_GENERATED_DATA = {
         "cost": "26.3"
       },
       {
-        "rank": 77,
+        "rank": 71,
         "type": "商用",
         "org": "腾讯",
         "model": "hunyuan-2.0-instruct-20251111",
@@ -22153,17 +22039,7 @@ window.AI_GENERATED_DATA = {
         "cost": "1.5"
       },
       {
-        "rank": 78,
-        "type": "商用",
-        "org": "阿里巴巴",
-        "model": "qwen3-max-2025-09-23",
-        "score": "63.5%",
-        "latency": "187s",
-        "tokens": "1167",
-        "cost": "23.4"
-      },
-      {
-        "rank": 79,
+        "rank": 72,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.2-medium",
@@ -22173,7 +22049,7 @@ window.AI_GENERATED_DATA = {
         "cost": "70.8"
       },
       {
-        "rank": 80,
+        "rank": 73,
         "type": "商用",
         "org": "minimax",
         "model": "MiniMax-M2.1",
@@ -22183,17 +22059,7 @@ window.AI_GENERATED_DATA = {
         "cost": "28.1"
       },
       {
-        "rank": 81,
-        "type": "开源",
-        "org": "深度求索",
-        "model": "DeepSeek-V3.1-Think",
-        "score": "63.2%",
-        "latency": "102s",
-        "tokens": "2188",
-        "cost": "24.7"
-      },
-      {
-        "rank": 82,
+        "rank": 74,
         "type": "开源",
         "org": "美团",
         "model": "LongCat-Flash-Thinking-2601",
@@ -22203,27 +22069,7 @@ window.AI_GENERATED_DATA = {
         "cost": "0.0"
       },
       {
-        "rank": 83,
-        "type": "商用",
-        "org": "腾讯",
-        "model": "hunyuan-turbos-20250926",
-        "score": "62.2%",
-        "latency": "23s",
-        "tokens": "1149",
-        "cost": "2.0"
-      },
-      {
-        "rank": 84,
-        "type": "商用",
-        "org": "阿里巴巴",
-        "model": "qwen3-max-preview",
-        "score": "62.2%",
-        "latency": "59s",
-        "tokens": "903",
-        "cost": "17.5"
-      },
-      {
-        "rank": 85,
+        "rank": 75,
         "type": "开源",
         "org": "深度求索",
         "model": "DeepSeek-V3.2",
@@ -22233,37 +22079,7 @@ window.AI_GENERATED_DATA = {
         "cost": "2.4"
       },
       {
-        "rank": 86,
-        "type": "商用",
-        "org": "anthropic",
-        "model": "claude-sonnet-4.5",
-        "score": "61.2%",
-        "latency": "9s",
-        "tokens": "744",
-        "cost": "54.7"
-      },
-      {
-        "rank": 87,
-        "type": "商用",
-        "org": "豆包",
-        "model": "doubao-seed-1-6-lite-251015",
-        "score": "60.9%",
-        "latency": "79s",
-        "tokens": "1500",
-        "cost": "3.0"
-      },
-      {
-        "rank": 88,
-        "type": "商用",
-        "org": "anthropic",
-        "model": "claude-haiku-4.5-thinking",
-        "score": "60.8%",
-        "latency": "45s",
-        "tokens": "4637",
-        "cost": "158.1"
-      },
-      {
-        "rank": 89,
+        "rank": 76,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.4",
@@ -22273,7 +22089,7 @@ window.AI_GENERATED_DATA = {
         "cost": "34.8"
       },
       {
-        "rank": 90,
+        "rank": 77,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.4-nano-high",
@@ -22283,7 +22099,7 @@ window.AI_GENERATED_DATA = {
         "cost": "13.2"
       },
       {
-        "rank": 91,
+        "rank": 78,
         "type": "开源",
         "org": "小米",
         "model": "MiMo-V2-Flash-think",
@@ -22293,7 +22109,7 @@ window.AI_GENERATED_DATA = {
         "cost": "0.0"
       },
       {
-        "rank": 92,
+        "rank": 79,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen-plus-think-2025-12-01",
@@ -22303,57 +22119,7 @@ window.AI_GENERATED_DATA = {
         "cost": "27.1"
       },
       {
-        "rank": 93,
-        "type": "开源",
-        "org": "豆包",
-        "model": "Seed-OSS-36B-Instruct",
-        "score": "59.2%",
-        "latency": "203s",
-        "tokens": "2848",
-        "cost": "10.8"
-      },
-      {
-        "rank": 94,
-        "type": "开源",
-        "org": "深度求索",
-        "model": "DeepSeek-V3.1",
-        "score": "59.1%",
-        "latency": "27s",
-        "tokens": "668",
-        "cost": "6.5"
-      },
-      {
-        "rank": 95,
-        "type": "商用",
-        "org": "豆包",
-        "model": "doubao-seed-1-6-251015",
-        "score": "58.8%",
-        "latency": "51s",
-        "tokens": "1297",
-        "cost": "8.3"
-      },
-      {
-        "rank": 96,
-        "type": "开源",
-        "org": "阿里巴巴",
-        "model": "qwen3-next-80b-a3b-instruct",
-        "score": "58.8%",
-        "latency": "67s",
-        "tokens": "1146",
-        "cost": "3.9"
-      },
-      {
-        "rank": 97,
-        "type": "商用",
-        "org": "openAI",
-        "model": "gpt-5-mini-2025-08-07",
-        "score": "58.6%",
-        "latency": "88s",
-        "tokens": "1388",
-        "cost": "17.4"
-      },
-      {
-        "rank": 98,
+        "rank": 80,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "qwen3-next-80b-a3b-thinking",
@@ -22363,27 +22129,7 @@ window.AI_GENERATED_DATA = {
         "cost": "17.1"
       },
       {
-        "rank": 99,
-        "type": "商用",
-        "org": "百度",
-        "model": "ERNIE-X1.1-Preview",
-        "score": "58.3%",
-        "latency": "174s",
-        "tokens": "2505",
-        "cost": "9.3"
-      },
-      {
-        "rank": 100,
-        "type": "商用",
-        "org": "XAI",
-        "model": "grok-4-1-fast-reasoning",
-        "score": "58.3%",
-        "latency": "62s",
-        "tokens": "2492",
-        "cost": "8.1"
-      },
-      {
-        "rank": 101,
+        "rank": 81,
         "type": "商用",
         "org": "小米",
         "model": "MiMo-V2-Flash-0204",
@@ -22393,17 +22139,7 @@ window.AI_GENERATED_DATA = {
         "cost": "1.7"
       },
       {
-        "rank": 102,
-        "type": "商用",
-        "org": "openAI",
-        "model": "gpt-5-mini-high",
-        "score": "57.7%",
-        "latency": "503s",
-        "tokens": "3551",
-        "cost": "48.4"
-      },
-      {
-        "rank": 103,
+        "rank": 82,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen-plus-2025-12-01",
@@ -22413,27 +22149,7 @@ window.AI_GENERATED_DATA = {
         "cost": "2.8"
       },
       {
-        "rank": 104,
-        "type": "商用",
-        "org": "阿里巴巴",
-        "model": "qwen-flash-think-2025-07-28",
-        "score": "57.0%",
-        "latency": "69s",
-        "tokens": "3289",
-        "cost": "4.6"
-      },
-      {
-        "rank": 105,
-        "type": "开源",
-        "org": "月之暗面",
-        "model": "kimi-k2-0905",
-        "score": "56.6%",
-        "latency": "80s",
-        "tokens": "998",
-        "cost": "13.2"
-      },
-      {
-        "rank": 106,
+        "rank": 83,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.2",
@@ -22443,7 +22159,7 @@ window.AI_GENERATED_DATA = {
         "cost": "23.7"
       },
       {
-        "rank": 107,
+        "rank": 84,
         "type": "开源",
         "org": "小米",
         "model": "MiMo-V2-Flash",
@@ -22453,7 +22169,7 @@ window.AI_GENERATED_DATA = {
         "cost": "0.0"
       },
       {
-        "rank": 108,
+        "rank": 85,
         "type": "开源",
         "org": "美团",
         "model": "LongCat-Flash-Lite",
@@ -22463,7 +22179,7 @@ window.AI_GENERATED_DATA = {
         "cost": "0.0"
       },
       {
-        "rank": 109,
+        "rank": 86,
         "type": "开源",
         "org": "openAI",
         "model": "gpt-oss-120b",
@@ -22473,27 +22189,7 @@ window.AI_GENERATED_DATA = {
         "cost": "2.9"
       },
       {
-        "rank": 110,
-        "type": "商用",
-        "org": "openAI",
-        "model": "gpt-5-nano-high",
-        "score": "53.5%",
-        "latency": "488s",
-        "tokens": "6870",
-        "cost": "19.3"
-      },
-      {
-        "rank": 111,
-        "type": "商用",
-        "org": "openAI",
-        "model": "gpt-5-nano-2025-08-07",
-        "score": "52.9%",
-        "latency": "81s",
-        "tokens": "2747",
-        "cost": "7.4"
-      },
-      {
-        "rank": 112,
+        "rank": 87,
         "type": "商用",
         "org": "google",
         "model": "gemini-3.1-flash-lite-preview",
@@ -22503,27 +22199,7 @@ window.AI_GENERATED_DATA = {
         "cost": "3.9"
       },
       {
-        "rank": 113,
-        "type": "商用",
-        "org": "anthropic",
-        "model": "claude-haiku-4.5",
-        "score": "52.2%",
-        "latency": "13s",
-        "tokens": "775",
-        "cost": "18.9"
-      },
-      {
-        "rank": 114,
-        "type": "商用",
-        "org": "阿里巴巴",
-        "model": "qwen-flash-2025-07-28",
-        "score": "51.8%",
-        "latency": "51s",
-        "tokens": "1188",
-        "cost": "1.5"
-      },
-      {
-        "rank": 115,
+        "rank": 88,
         "type": "开源",
         "org": "google",
         "model": "gemma-4-31b-it",
@@ -22533,17 +22209,7 @@ window.AI_GENERATED_DATA = {
         "cost": "1.4"
       },
       {
-        "rank": 116,
-        "type": "商用",
-        "org": "openAI",
-        "model": "gpt-5.1",
-        "score": "51.3%",
-        "latency": "169s",
-        "tokens": "482",
-        "cost": "19.3"
-      },
-      {
-        "rank": 117,
+        "rank": 89,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.4-mini",
@@ -22553,7 +22219,7 @@ window.AI_GENERATED_DATA = {
         "cost": "7.0"
       },
       {
-        "rank": 118,
+        "rank": 90,
         "type": "开源",
         "org": "google",
         "model": "gemma-4-26b-a4b-it",
@@ -22563,17 +22229,7 @@ window.AI_GENERATED_DATA = {
         "cost": "1.7"
       },
       {
-        "rank": 119,
-        "type": "商用",
-        "org": "阿里巴巴",
-        "model": "qwen-turbo-think-2025-07-15",
-        "score": "50.1%",
-        "latency": "/",
-        "tokens": "3131",
-        "cost": "8.8"
-      },
-      {
-        "rank": 120,
+        "rank": 91,
         "type": "开源",
         "org": "智谱AI",
         "model": "GLM-4.7-Flash",
@@ -22583,7 +22239,7 @@ window.AI_GENERATED_DATA = {
         "cost": "0.0"
       },
       {
-        "rank": 121,
+        "rank": 92,
         "type": "开源",
         "org": "openAI",
         "model": "gpt-oss-20b",
@@ -22593,7 +22249,7 @@ window.AI_GENERATED_DATA = {
         "cost": "2.1"
       },
       {
-        "rank": 122,
+        "rank": 93,
         "type": "开源",
         "org": "Mistral",
         "model": "mistral-large-2512",
@@ -22603,7 +22259,7 @@ window.AI_GENERATED_DATA = {
         "cost": "6.9"
       },
       {
-        "rank": 123,
+        "rank": 94,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.4-nano",
@@ -22613,27 +22269,7 @@ window.AI_GENERATED_DATA = {
         "cost": "2.2"
       },
       {
-        "rank": 124,
-        "type": "商用",
-        "org": "google",
-        "model": "gemini-2.5-flash-lite",
-        "score": "42.7%",
-        "latency": "46s",
-        "tokens": "3230",
-        "cost": "8.9"
-      },
-      {
-        "rank": 125,
-        "type": "商用",
-        "org": "XAI",
-        "model": "grok-4-1-fast-non-reasoning",
-        "score": "42.6%",
-        "latency": "60s",
-        "tokens": "685",
-        "cost": "1.6"
-      },
-      {
-        "rank": 126,
+        "rank": 95,
         "type": "开源",
         "org": "Mistral",
         "model": "Ministral-3-14B-Instruct-2512",
@@ -22643,7 +22279,7 @@ window.AI_GENERATED_DATA = {
         "cost": "2.3"
       },
       {
-        "rank": 127,
+        "rank": 96,
         "type": "开源",
         "org": "Mistral",
         "model": "Ministral-3-8B-Instruct-2512",
@@ -22653,7 +22289,7 @@ window.AI_GENERATED_DATA = {
         "cost": "1.6"
       },
       {
-        "rank": 128,
+        "rank": 97,
         "type": "开源",
         "org": "Mistral",
         "model": "Ministral-3-3B-Instruct-2512",
