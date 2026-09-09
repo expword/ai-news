@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-09",
-  "generatedAt": "2026-09-09T06:43:33.850634Z",
+  "generatedAt": "2026-09-09T09:21:30.916574Z",
   "news": [
     {
       "title": "How GPT-5.6 Sol helps run quantum computing experiments",
@@ -2494,156 +2494,6 @@ window.AI_GENERATED_DATA = {
       "moduleTargets": [
         "news",
         "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Real-Time Intelligence with IBM Time Series Models on Confluent",
-      "summary": "",
-      "category": "ai-models",
-      "source": "RSS · Hugging Face Blog",
-      "date": "2026-09-02",
-      "publishedAt": "2026-09-02T21:49",
-      "collectedAt": "2026-09-03T01:47",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://huggingface.co/blog/ibm-research/real-time-intelligence",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Proactive cyber defense for governments and enterprises",
-      "summary": "The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.",
-      "category": "ai-models",
-      "source": "RSS · Google AI Blog",
-      "date": "2026-09-02",
-      "publishedAt": "2026-09-02T23:40",
-      "collectedAt": "2026-09-03T00:36",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 2,
-      "relatedSources": [
-        {
-          "source": "RSS · Google DeepMind",
-          "url": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
-          "title": "Proactive cyber defense for governments and enterprises"
-        }
-      ]
-    },
-    {
-      "title": "Anthropic 发布 Claude Fable 5.1 与 Claude Mythos 5.1",
-      "summary": "Anthropic 发布 Claude Fable 5.1 和 Claude Mythos 5.1，两者为同一模型，Mythos 5.1 仅通过受信任访问计划提供给网络安全和生命科学领域。",
-      "category": "ai-models",
-      "source": "Anthropic：Newsroom（网页）",
-      "date": "2026-09-02",
-      "publishedAt": "2026-09-02T11:33",
-      "collectedAt": "2026-09-02T13:02",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 2,
-      "relatedSources": [
-        {
-          "source": "RSS · AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-fable-5-1-on-aws/",
-          "title": "Introducing Claude Fable 5.1 on AWS"
-        }
-      ]
-    },
-    {
-      "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
-      "summary": "",
-      "category": "ai-benchmark",
-      "source": "RSS · Hugging Face Blog",
-      "date": "2026-09-02",
-      "publishedAt": "2026-09-02T05:39",
-      "collectedAt": "2026-09-02T06:46",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://huggingface.co/blog/allenai/benchmirt",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "The latest AI news we announced in August 2026",
-      "summary": "Here are Google’s latest AI updates from August 2026",
-      "category": "ai-models",
-      "source": "RSS · Google AI Blog",
-      "date": "2026-09-02",
-      "publishedAt": "2026-09-02T04:45",
-      "collectedAt": "2026-09-02T05:37",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
       ],
       "sourceCount": 1
     }
@@ -6207,6 +6057,50 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "Meta Launches Muse Personal AI Agent",
+        "provider": "Market Screener",
+        "type": "AI 项目/工具",
+        "bestFor": "Meta Platforms, Inc. specializes in online social networking services. Net sales break down by activity as follows: - operation of social networking, messaging,",
+        "description": "Meta Platforms, Inc. specializes in online social networking services. Net sales break down by activity as follows: - operation of social networking, messaging, photo and video sha",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Market Screener",
+        "url": "https://www.marketscreener.com/news/meta-launches-muse-personal-ai-agent-ce785bd9dd88f720"
+      },
+      {
+        "name": "Meta (META) Unveils Muse AI Agent in Bid to Compete with Cha",
+        "provider": "Blockonomi",
+        "type": "AI 项目/工具",
+        "bestFor": "* Meta has introduced Muse, an autonomous AI assistant capable of managing emails, arranging travel accommodations, processing payments, and executing tasks con",
+        "description": "* Meta has introduced Muse, an autonomous AI assistant capable of managing emails, arranging travel accommodations, processing payments, and executing tasks continuously even after",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Blockonomi",
+        "url": "https://blockonomi.com/meta-meta-unveils-muse-ai-agent-in-bid-to-compete-with-chatgpt-and-claude/"
+      },
+      {
+        "name": "Can AI agents police each other? Google's DeepMind study off",
+        "provider": "Business Standard",
+        "type": "AI 项目/工具",
+        "bestFor": "AI agents collaborate on mathematical problems while monitoring each other for rule-breaking behaviour. (Image: AI-generated)\n\nIncidents of artificial intellige",
+        "description": "AI agents collaborate on mathematical problems while monitoring each other for rule-breaking behaviour. (Image: AI-generated)\n\nIncidents of artificial intelligence (AI) agents brea",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Business Standard",
+        "url": "https://www.business-standard.com/technology/artificial-intelligence/can-ai-agents-police-each-other-google-s-deepmind-study-offers-early-clues-126090900694_1.html"
+      },
+      {
+        "name": "Meta's New AI Agent Can Send Emails, Book Tickets & Handle E",
+        "provider": "Agniban",
+        "type": "AI 项目/工具",
+        "bestFor": "New Delhi: Meta is stepping up its AI game with a new autonomous artificial intelligence agent designed to handle everyday tasks on behalf of users. From sendin",
+        "description": "New Delhi: Meta is stepping up its AI game with a new autonomous artificial intelligence agent designed to handle everyday tasks on behalf of users. From sending emails and filling",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Agniban",
+        "url": "https://www.agniban.com/metas-new-ai-agent-can-send-emails-book-tickets-handle-everyday-tasks-for-you/"
+      },
+      {
         "name": "PrivEscalate: Measuring and Augmenting the Threat of LLM-Aut",
         "provider": "arXiv",
         "type": "AI 项目/工具",
@@ -6601,53 +6495,31 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Technology Org",
         "url": "https://www.technology.org/2026/09/07/xlean-demonstrates-agent-capable-dual-form-floor-washing-robot-at-ifa-2026/"
-      },
-      {
-        "name": "Nubia sets Sept. 16 launch for Doubao-powered NaviX Ultra · ",
-        "provider": "TechNode",
-        "type": "AI 项目/工具",
-        "bestFor": "Nubia will launch its NaviX Ultra smartphone on Sept. 16 at 2 p.m. Beijing time. Jointly developed by ZTE and ByteDance, the handset will feature the Doubao mob",
-        "description": "Nubia will launch its NaviX Ultra smartphone on Sept. 16 at 2 p.m. Beijing time. Jointly developed by ZTE and ByteDance, the handset will feature the Doubao mobile assistant and is",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "TechNode",
-        "url": "https://technode.com/2026/09/07/nubia-navix-ultra-ai-agent-phone/"
-      },
-      {
-        "name": "After OpenAI AI agent again 'caught hacking', company's chie",
-        "provider": "The Times of India",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenAI recently introduced its newest model Astra. Now days after the launch ChatGPT-maker has once again discovered its AI agents engaging in hacking behaviour",
-        "description": "OpenAI recently introduced its newest model Astra. Now days after the launch ChatGPT-maker has once again discovered its AI agents engaging in hacking behaviour. The incident promp",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Times of India",
-        "url": "https://timesofindia.indiatimes.com/technology/tech-news/after-openai-ai-agent-again-caught-hacking-companys-chief-scientist-jakub-pachocki-warns-every-other-company-you-are-not-prepared-for-/articleshow/133864593.cms"
-      },
-      {
-        "name": "Fynd founder Sreeraman Mohan Girija: here's why agentic comm",
-        "provider": "Retail Technology Innovation Hub",
-        "type": "AI 项目/工具",
-        "bestFor": "Think about what happens when a parcel does not arrive. The customer opens an app, looks for a way to get in touch, waits in a queue, explains the problem to so",
-        "description": "Think about what happens when a parcel does not arrive. The customer opens an app, looks for a way to get in touch, waits in a queue, explains the problem to someone who pulls up t",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Retail Technology Innovation Hub",
-        "url": "https://retailtechinnovationhub.com/home/2026/9/2/fynds-sreeraman-mohan-girija-heres-why-agentic-commerce-is-the-next-frontier-of-retail"
-      },
-      {
-        "name": "F5 and MuleSoft, a Salesforce company, collaborate to delive",
-        "provider": "itwire.com",
-        "type": "AI 项目/工具",
-        "bestFor": "Joint integration featuring F5 AI Security Platform and Agent Fabric embeds AI runtime security directly into agentic AI workflows, blocking threats like prompt",
-        "description": "Joint integration featuring F5 AI Security Platform and Agent Fabric embeds AI runtime security directly into agentic AI workflows, blocking threats like prompt injection and sensi",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "itwire.com",
-        "url": "https://itwire.com/it-industry-news/strategy/f5-and-mulesoft-a-salesforce-company-collaborate-to-deliver-inline-security-and-governance-for-agent-fabric-and-agentic-ai-applications"
       }
     ],
     "ai-models": [
+      {
+        "name": "Computing services revenue exceeds 80 bln yuan in SW China's",
+        "provider": "People's Daily, China",
+        "type": "AI 项目/工具",
+        "bestFor": "Photo shows a data center of Huawei Cloud in Gui'an New Area, Guiyang, southwest China's Guizhou province. (People's Daily Online/Jia Zhi)\n\nToday, an increasing",
+        "description": "Photo shows a data center of Huawei Cloud in Gui'an New Area, Guiyang, southwest China's Guizhou province. (People's Daily Online/Jia Zhi)\n\nToday, an increasing number of smart app",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "People's Daily, China",
+        "url": "https://en.people.cn/n3/2026/0909/c90000-20497514.html"
+      },
+      {
+        "name": "Google report warns of AI-powered cyberattacks becoming more",
+        "provider": "The Financial Express",
+        "type": "AI 项目/工具",
+        "bestFor": "Artificial intelligence (AI) is seemingly the most sought-after tool for cybercriminals and state-backed hacking groups. They are no longer limited to simple ta",
+        "description": "Artificial intelligence (AI) is seemingly the most sought-after tool for cybercriminals and state-backed hacking groups. They are no longer limited to simple tasks such as writing ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Financial Express",
+        "url": "https://www.financialexpress.com/life/technology-google-report-warns-of-ai-powered-cyberattacks-becoming-more-autonomous-4335158/"
+      },
       {
         "name": "Instagram users beware: Scammers are using fake copyright cl",
         "provider": "Digit",
@@ -7065,31 +6937,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "GoLaurens.Com",
         "url": "https://www.golaurens.com/online_features/press_releases/tuya-smart-unveils-doova-at-ifa-2026-an-ai-home-companion-robot-designed-to-support/article_ea441342-f5b3-5504-8017-a8f21000c6ba.html"
-      },
-      {
-        "name": "California Passes SB 813 to Police AI Audits After OpenAI's ",
-        "provider": "Startup Fortune",
-        "type": "AI 项目/工具",
-        "bestFor": "California's Assembly approved SB 813 on Aug. 30, 2026, setting up a state framework to certify independent auditors for frontier AI models by 2028. The bill ar",
-        "description": "California's Assembly approved SB 813 on Aug. 30, 2026, setting up a state framework to certify independent auditors for frontier AI models by 2028. The bill arrives days after a M",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Startup Fortune",
-        "url": "https://startupfortune.com/california-passes-sb-813-to-police-ai-audits-after-openais-400000-probe/"
-      },
-      {
-        "name": "4 Android Auto Apps Every EV Owner Needs To Install - BGR",
-        "provider": "BGR",
-        "type": "AI 项目/工具",
-        "bestFor": "Android Auto has been available for quite some time now, and as the ecosystem has developed, different kinds of vehicle owners have found it to be a beneficial ",
-        "description": "Android Auto has been available for quite some time now, and as the ecosystem has developed, different kinds of vehicle owners have found it to be a beneficial part of their drivin",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "BGR",
-        "url": "https://www.bgr.com/2249315/must-have-android-auto-apps-for-ev-owners/"
       }
     ],
     "ai-business": [
+      {
+        "name": "OpenAI deepens Samsung ties on chips, enterprise AI",
+        "provider": "@businessline",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenAI is deepening cooperation with Samsung Electronics on next-generation chips and enterprise AI as businesses in South Korea rapidly expand their use of art",
+        "description": "OpenAI is deepening cooperation with Samsung Electronics on next-generation chips and enterprise AI as businesses in South Korea rapidly expand their use of artificial intelligence",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "@businessline",
+        "url": "https://www.thehindubusinessline.com/info-tech/openai-deepens-cooperation-with-samsung-on-chips-and-enterprise-ai/article71445950.ece"
+      },
       {
         "name": "How Are Corporations Adapting to AI and Digital Transformati",
         "provider": "The European Business Review",
@@ -7518,17 +7379,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Businessday NG",
         "url": "https://businessday.ng/technology/article/africa-cannot-afford-to-scale-ai-faster-than-it-can-govern-it/"
-      },
-      {
-        "name": "Apple's AI groundwork, OpenAI chip flex, and the joys of aer",
-        "provider": "Hindustan Times",
-        "type": "AI 项目/工具",
-        "bestFor": "Cognitive warmup. Remember when as kids, looking up at the sky and seeing those long white streaks being made by an aircraft told us two things. First, it was r",
-        "description": "Cognitive warmup. Remember when as kids, looking up at the sky and seeing those long white streaks being made by an aircraft told us two things. First, it was really high up in the",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Hindustan Times",
-        "url": "https://www.hindustantimes.com/business/apples-ai-groundwork-openai-chip-flex-and-the-joys-of-aeroplane-contrails-101788289880981.html"
       }
     ],
     "ai-benchmark": [
@@ -10462,7 +10312,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-09",
-    "generatedAt": "2026-09-09T06:43:33.819665Z",
+    "generatedAt": "2026-09-09T09:21:30.895542Z",
     "total": 17,
     "sections": [
       {
