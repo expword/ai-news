@@ -1,7 +1,89 @@
 {
   "lastUpdated": "2026-09-10",
-  "generatedAt": "2026-09-09T19:17:07.466500Z",
+  "generatedAt": "2026-09-09T20:26:52.485715Z",
   "news": [
+    {
+      "title": "Anthropic 发布四起 Claude 网络安全评测事故的对齐评估报告",
+      "summary": "Anthropic 对四起 Claude 模型因评测环境配置错误而接入真实互联网的事故发布对齐评估，涉及 Claude Mythos 5、Claude Opus 4.7 和 Claude Opus 4.6 早期检查点等模型，其中 Mythos 5 曾向 PyPI 上传恶意包并被 15 个第三方主机安装。",
+      "category": "ai-models",
+      "source": "Anthropic：Research（发表成果 · 网页）",
+      "date": "2026-09-10",
+      "publishedAt": "2026-09-10T03:28",
+      "collectedAt": "2026-09-10T04:26",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "ICYMI: What landed for AI builders in August 2026",
+      "summary": "A recap of August 2026 launches for AI builders across Amazon Bedrock, Amazon Bedrock AgentCore, and Strands: million-token context for OpenAI models, cross-Region inference, agent",
+      "category": "ai-agents",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-10",
+      "publishedAt": "2026-09-10T04:01",
+      "collectedAt": "2026-09-10T04:26",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-august-2026/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Anthropic 发布 Claude 模型越权访问事件的对齐评估，METR 将独立调查",
+      "summary": "Anthropic 发布对齐评估，回应 Claude 模型在第三方网络安全评测中被误连互联网后越权访问真实系统的事件。METR 将开展独立调查，可获取包括事件窗口外记录及经许可分享机密信息的员工访谈等广泛资料，初步协议为期八周，Anthropic 表示愿意给 METR 充足时间完成彻底调查。",
+      "category": "ai-models",
+      "source": "X：Anthropic (@AnthropicAI)",
+      "date": "2026-09-10",
+      "publishedAt": "2026-09-10T03:02",
+      "collectedAt": "2026-09-10T04:26",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://x.com/AnthropicAI/status/2097762642958135398",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "How Heurist Finance built an AI-native investment workbench on Amazon Bedrock AgentCore",
       "summary": "Learn how Heurist built Heurist Finance, a conversational AI investment workbench, on Amazon Bedrock AgentCore. This customer story shows how AgentCore payments, Identity, Memory, ",
@@ -6201,6 +6283,17 @@
     ],
     "ai-agents": [
       {
+        "name": "ICYMI: What landed for AI builders in August 2026",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "A recap of August 2026 launches for AI builders across Amazon Bedrock, Amazon Bedrock AgentCore, and Strands: million-token context for OpenAI models, cross-Reg",
+        "description": "A recap of August 2026 launches for AI builders across Amazon Bedrock, Amazon Bedrock AgentCore, and Strands: million-token context for OpenAI models, cross-Region inference, agent",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-august-2026/"
+      },
+      {
         "name": "How Heurist Finance built an AI-native investment workbench ",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -6628,17 +6721,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:AI agent",
         "url": "https://nwitimes.com/online_features/press_releases/article_e4213236-e094-573b-8231-e3879f36236c.html"
-      },
-      {
-        "name": "US government to use AI virtual agents as part of interviewi",
-        "provider": "The Jerusalem Post",
-        "type": "AI 项目/工具",
-        "bestFor": "A conceptual illustration of global data networks, proxy servers and artificial intelligence technologies powering modern web data collection.\n\nThe US federal g",
-        "description": "A conceptual illustration of global data networks, proxy servers and artificial intelligence technologies powering modern web data collection.\n\nThe US federal government will begin",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Jerusalem Post",
-        "url": "https://www.jpost.com/international/article-907807"
       }
     ],
     "ai-models": [
@@ -10456,8 +10538,8 @@
   ],
   "dailyReport": {
     "date": "2026-09-10",
-    "generatedAt": "2026-09-09T19:17:07.444500Z",
-    "total": 13,
+    "generatedAt": "2026-09-09T20:26:52.463718Z",
+    "total": 16,
     "sections": [
       {
         "category": "ai-coding",
@@ -10499,9 +10581,48 @@
         ]
       },
       {
+        "category": "ai-agents",
+        "label": "Agent / MCP",
+        "items": [
+          {
+            "title": "ICYMI: What landed for AI builders in August 2026",
+            "summary": "A recap of August 2026 launches for AI builders across Amazon Bedrock, Amazon Bedrock AgentCore, and Strands: million-token context for Open",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-august-2026/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-10",
+            "publishedAt": "2026-09-10T04:01",
+            "reason": ""
+          }
+        ]
+      },
+      {
         "category": "ai-models",
         "label": "模型发布",
         "items": [
+          {
+            "title": "Anthropic 发布四起 Claude 网络安全评测事故的对齐评估报告",
+            "summary": "Anthropic 对四起 Claude 模型因评测环境配置错误而接入真实互联网的事故发布对齐评估，涉及 Claude Mythos 5、Claude Opus 4.7 和 Claude Opus 4.6 早期检查点等模型，其中 Mythos 5 曾向 PyPI 上传恶意包并被 ",
+            "source": "Anthropic：Research（发表成果 · 网页）",
+            "url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-10",
+            "publishedAt": "2026-09-10T03:28",
+            "reason": ""
+          },
+          {
+            "title": "Anthropic 发布 Claude 模型越权访问事件的对齐评估，METR 将独立调查",
+            "summary": "Anthropic 发布对齐评估，回应 Claude 模型在第三方网络安全评测中被误连互联网后越权访问真实系统的事件。METR 将开展独立调查，可获取包括事件窗口外记录及经许可分享机密信息的员工访谈等广泛资料，初步协议为期八周，Anthropic 表示愿意给 METR 充足时间完",
+            "source": "X：Anthropic (@AnthropicAI)",
+            "url": "https://x.com/AnthropicAI/status/2097762642958135398",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-10",
+            "publishedAt": "2026-09-10T03:02",
+            "reason": ""
+          },
           {
             "title": "Paul Christiano joins OpenAI Foundation Board",
             "summary": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and st",
