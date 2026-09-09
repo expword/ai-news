@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-09",
-  "generatedAt": "2026-09-08T23:10:53.605669Z",
+  "generatedAt": "2026-09-09T01:38:41.423881Z",
   "news": [
     {
       "title": "How GPT-5.6 Sol helps run quantum computing experiments",
@@ -143,6 +143,33 @@
       "moduleTargets": [
         "news",
         "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Simon Willison 评 OpenAI 用未发布模型求解 Navier-Stokes 千禧年大奖难题之争",
+      "summary": "OpenAI 用未发布模型在约88小时内给出 Navier-Stokes 存在与光滑性问题（七大千禧年难题之一）的解答，并通过 GPT-6 Astra 完成17小时 Lean 形式化验证，全程发送490万条消息、消耗约3000亿输出 token。",
+      "category": "ai-models",
+      "source": "Simon Willison 博客",
+      "date": "2026-09-09",
+      "publishedAt": "2026-09-09T07:55",
+      "collectedAt": "2026-09-09T09:38",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://simonwillison.net/2026/Sep/8/on-navier-stokes",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1.5",
+      "scores": {},
+      "score": 56,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
       ],
       "sourceCount": 1
     },
@@ -2488,180 +2515,6 @@
       "sourceDate": "",
       "tags": [],
       "url": "https://research.google/blog/mapping-global-methane-emissions-from-space-with-deep-learning/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "How AI-native companies turn workflows into operating capability",
-      "summary": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
-      "category": "ai-agents",
-      "source": "RSS · OpenAI Blog",
-      "date": "2026-09-02",
-      "publishedAt": "2026-09-02T01:00",
-      "collectedAt": "2026-09-02T02:05",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://openai.com/index/ai-native-company-workflows",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Introducing agentic video understanding with Gemini",
-      "summary": "",
-      "category": "ai-agents",
-      "source": "RSS · Google DeepMind",
-      "date": "2026-09-02",
-      "publishedAt": "2026-09-02T01:08",
-      "collectedAt": "2026-09-02T02:05",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 2,
-      "relatedSources": [
-        {
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2609.04131v1",
-          "title": "Beyond Retrieval: Progressive Latent Memory Evolution for Streaming Video Understanding"
-        }
-      ]
-    },
-    {
-      "title": "Tokenomics at scale: How Jamf built real-time spend enforcement for Amazon Bedrock",
-      "summary": "As generative AI adoption scales, cost governance becomes a top challenge. Learn how Jamf built real-time, per-user spend enforcement for Amazon Bedrock using IAM Customer Managed ",
-      "category": "ai-models",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-09-02",
-      "publishedAt": "2026-09-02T00:03",
-      "collectedAt": "2026-09-02T00:54",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/tokenomics-at-scale-how-jamf-built-real-time-spend-enforcement-for-amazon-bedrock/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Try Google Pics: Easy image creation and editing in Google Workspace",
-      "summary": "Built on our latest Nano Banana model, Google Pics — our image creation and editing tool — is now available.",
-      "category": "ai-image-video",
-      "source": "RSS · Google AI Blog",
-      "date": "2026-09-02",
-      "publishedAt": "2026-09-02T00:00",
-      "collectedAt": "2026-09-02T00:54",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://blog.google/products-and-platforms/products/workspace/google-pics/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "From theory to delivery: How Atos upskilled 400 engineers in agentic AI",
-      "summary": "When Atos set out to upskill 400 engineers in agentic AI, hands-on learning was the missing ingredient. Over three days, engineers built multi-agent systems on AWS through an AI Le",
-      "category": "ai-agents",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-09-02",
-      "publishedAt": "2026-09-02T00:17",
-      "collectedAt": "2026-09-02T00:54",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/from-theory-to-delivery-how-atos-upskilled-400-engineers-in-agentic-ai/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Securing Amazon Quick from POC to production: Agents, Flows, and Spaces",
-      "summary": "Amazon Quick proof-of-concept projects often stall when security teams review the production plan. This post walks through designing dashboards, Spaces, knowledge bases, agents, an",
-      "category": "ai-agents",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-09-02",
-      "publishedAt": "2026-09-02T00:02",
-      "collectedAt": "2026-09-02T00:54",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/securing-amazon-quick-from-poc-to-production-agents-flows-and-spaces/",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -5795,6 +5648,17 @@
   "topicResources": {
     "ai-coding": [
       {
+        "name": "AgentCX Labs Launches Agent Builder Studio: Agencies and BPO",
+        "provider": "WBOC TV-16",
+        "type": "AI 项目/工具",
+        "bestFor": "Agencies and BPOs describe an agent in plain language. Studio builds it on their own AI infrastructure and delivers it under their brand. Founding Beta open.\n\nA",
+        "description": "Agencies and BPOs describe an agent in plain language. Studio builds it on their own AI infrastructure and delivers it under their brand. Founding Beta open.\n\nAgent Studio gives ag",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "WBOC TV-16",
+        "url": "https://www.wboc.com/online_features/press_releases/agentcx-labs-launches-agent-builder-studio-agencies-and-bpos-can-now-build-brand-and-sell/article_17e838ed-14ec-5f07-b46b-07b0ac4b0838.html"
+      },
+      {
         "name": "1Password increases engineering productivity 21% with Codex",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -6222,20 +6086,53 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Startup Fortune",
         "url": "https://startupfortune.com/servicenow-patches-three-maximum-severity-flaws-inside-its-ai-agent-platform/"
-      },
-      {
-        "name": "Sam Altman and Musk's War Costs Cursor AI After $60B Deal | ",
-        "provider": "CryptoRank",
-        "type": "AI 项目/工具",
-        "bestFor": "Cursor says OpenAI serves 5% of traffic. Musk says he couldn't care less.\n\nSpaceX bought Cursor on August 14, and two weeks later, OpenAI is moving to cut the A",
-        "description": "Cursor says OpenAI serves 5% of traffic. Musk says he couldn't care less.\n\nSpaceX bought Cursor on August 14, and two weeks later, OpenAI is moving to cut the AI coding tool off fr",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "CryptoRank",
-        "url": "https://cryptorank.io/news/feed/f1661-openai-musk-war-cursor-cutoff"
       }
     ],
     "ai-agents": [
+      {
+        "name": "Meta launches Muse AI agent that can book travel and manage ",
+        "provider": "India Today",
+        "type": "AI 项目/工具",
+        "bestFor": "Meta has launched a new artificial intelligence assistant called Muse, marking its biggest push yet into AI agents that can independently complete real-world ta",
+        "description": "Meta has launched a new artificial intelligence assistant called Muse, marking its biggest push yet into AI agents that can independently complete real-world tasks for users rather",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "India Today",
+        "url": "https://www.indiatoday.in/business/story/meta-unveils-muse-ai-agent-for-emails-travel-bookings-and-daily-tasks-2990339-2026-09-09"
+      },
+      {
+        "name": "LG CNS Launches AI Agent for Chaum Health Check-ups",
+        "provider": "조선일보",
+        "type": "AI 项目/工具",
+        "bestFor": "Collaboration with Chaum and CHA Healthcare to streamline check-up processes and improve operational efficiency\n\nLG CNS announced on the 9th that it will collab",
+        "description": "Collaboration with Chaum and CHA Healthcare to streamline check-up processes and improve operational efficiency\n\nLG CNS announced on the 9th that it will collaborate with Chaum and",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "조선일보",
+        "url": "https://www.chosun.com/english/industry-en/2026/09/09/774BZ66ISNAXFG5HQT3ABZWZ54/"
+      },
+      {
+        "name": "Meta Launches Muse, a Personal AI Agent That Handles Everyda",
+        "provider": "iClarified - Apple News and Tutorials",
+        "type": "AI 项目/工具",
+        "bestFor": "Meta has launched Muse, a personal AI agent designed to handle everyday tasks including sending emails, shopping online, and planning trips. The service is roll",
+        "description": "Meta has launched Muse, a personal AI agent designed to handle everyday tasks including sending emails, shopping online, and planning trips. The service is rolling out to users in ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "iClarified - Apple News and Tutorials",
+        "url": "https://www.iclarified.com/102030/meta-launches-muse-a-personal-ai-agent-that-handles-everyday-tasks"
+      },
+      {
+        "name": "Meta launches personal AI agent, Muse, emphasizes safety and",
+        "provider": "Newsday",
+        "type": "AI 项目/工具",
+        "bestFor": "Meta launched on Tuesday a personal artificial intelligence agent, Muse, for people 18 and over who are looking for help with day-to-day tasks like schedules, s",
+        "description": "Meta launched on Tuesday a personal artificial intelligence agent, Muse, for people 18 and over who are looking for help with day-to-day tasks like schedules, shopping and, in the ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Newsday",
+        "url": "https://www.newsday.com/business/meta-muse-ai-agent-v57803"
+      },
       {
         "name": "Tom Tunguz 分析 OpenAI 的 3x AI 生产力增益是否只是机器不睡觉",
         "provider": "Tomer Tunguz 博客（VC 分析）",
@@ -6631,53 +6528,31 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Utah Independent",
         "url": "https://www.utahindependent.com/news/279288425/rogue-openai-agents-took-over-german-wiki-researchers-say"
-      },
-      {
-        "name": "Rogue OpenAI agents took over German wiki, researchers say",
-        "provider": "Caribbean Herald",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenAI last month briefly paused some model training to add safety measures\n\nSAN FRANCISCO, California: OpenAI agents took control of a German-language website ",
-        "description": "OpenAI last month briefly paused some model training to add safety measures\n\nSAN FRANCISCO, California: OpenAI agents took control of a German-language website this spring and used",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Caribbean Herald",
-        "url": "https://www.caribbeanherald.com/news/279288425/rogue-openai-agents-took-over-german-wiki-researchers-say"
-      },
-      {
-        "name": "Fermat's Last Theorem Machine-Checked: Claude Completes in 1",
-        "provider": "Tech Times",
-        "type": "AI 项目/工具",
-        "bestFor": "Dozens of Claude agents, sharing theorem DAG, compressed years of formalization work into 11 days\n\nAnthropic published the first complete computer-checked forma",
-        "description": "Dozens of Claude agents, sharing theorem DAG, compressed years of formalization work into 11 days\n\nAnthropic published the first complete computer-checked formalization of Fermat's",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Tech Times",
-        "url": "https://www.techtimes.com/articles/326745/20260905/fermats-last-theorem-machine-checked-claude-completes-11-days-what-took-years-plan.htm"
-      },
-      {
-        "name": "US, China gear up for mid-September AI safety talks",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "This comes as rapidly advancing frontier AI capabilities reach a global tipping point.",
-        "description": "This comes as rapidly advancing frontier AI capabilities reach a global tipping point.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.businesstimes.com.sg/international/us-china-gear-mid-september-ai-safety-talks"
-      },
-      {
-        "name": "OpenAI GPT-6 Astra Rolls Out to Limited Organizations Ahead ",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenAI has begun rolling out GPT-6 Astra, its latest flagship artificial intelligence model, initially making it available to a limited group of organizations b",
-        "description": "OpenAI has begun rolling out GPT-6 Astra, its latest flagship artificial intelligence model, initially making it available to a limited group of organizations before expanding acce",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.tekedia.com/openai-gpt-6-astra-rolls-out-to-limited-organizations-ahead-of-public-release/"
       }
     ],
     "ai-models": [
+      {
+        "name": "Don't be seduced by the language of AI - The Korea Times",
+        "provider": "The Korea Times",
+        "type": "AI 项目/工具",
+        "bestFor": "Olson says OpenAI had spotted warning signs months earlier but failed to act on them.\n\nThe attacks on Hugging Face ran from May to late July, yet the details of",
+        "description": "Olson says OpenAI had spotted warning signs months earlier but failed to act on them.\n\nThe attacks on Hugging Face ran from May to late July, yet the details of what actually happe",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Korea Times",
+        "url": "https://www.koreatimes.co.kr/opinion/20260909/dont-be-seduced-by-the-language-of-ai"
+      },
+      {
+        "name": "Constellation Energy's Biggest AI Power Deal Doesn't Start P",
+        "provider": "Yahoo! Finance",
+        "type": "AI 项目/工具",
+        "bestFor": "In June of last year, Meta Platforms (NASDAQ:META) agreed to buy the clean energy attributes of Constellation Energy's (NASDAQ:CEG) Clinton Clean Energy Center ",
+        "description": "In June of last year, Meta Platforms (NASDAQ:META) agreed to buy the clean energy attributes of Constellation Energy's (NASDAQ:CEG) Clinton Clean Energy Center in Illinois for 20 y",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Yahoo! Finance",
+        "url": "https://finance.yahoo.com/energy/articles/constellation-energys-biggest-ai-power-235801730.html"
+      },
       {
         "name": "Amazon SageMaker Feature Store introduces UpdateRecord for f",
         "provider": "RSS",
@@ -7095,31 +6970,20 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Yahoo! Finance",
         "url": "https://ca.finance.yahoo.com/news/trimble-trmb-training-push-eagle-001350060.html"
-      },
-      {
-        "name": "Saudi Arabia's King Salman, Crown Prince donate total of $7.",
-        "provider": "قناة العربية",
-        "type": "AI 项目/工具",
-        "bestFor": "Saudi Arabia's King Salman bin Abdulaziz and Crown Prince Mohammed bin Salman have donated a total of $7.9 million (SR30 million) to charity through the Kingdom",
-        "description": "Saudi Arabia's King Salman bin Abdulaziz and Crown Prince Mohammed bin Salman have donated a total of $7.9 million (SR30 million) to charity through the Kingdom's Ehsan Platform, t",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "قناة العربية",
-        "url": "https://english.alarabiya.net/News/gulf/2021/04/17/Saudi-Arabia-s-King-Salman-Crown-Prince-donate-total-of-7-9-mln-to-charity"
-      },
-      {
-        "name": "BP seeks to end years of boardroom turmoil with appointment ",
-        "provider": "RocketNews | Top News Stories From Around the Globe",
-        "type": "AI 项目/工具",
-        "bestFor": "BP has formalized the appointment of Ian Tyler as chair, following an extended search process to replace Albert Manifold, who was removed from the position in l",
-        "description": "BP has formalized the appointment of Ian Tyler as chair, following an extended search process to replace Albert Manifold, who was removed from the position in late May after a brie",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RocketNews | Top News Stories From Around the Globe",
-        "url": "https://rocketnews.com/2026/09/bp-seeks-to-end-years-of-boardroom-turmoil-with-appointment-of-new-chair/"
       }
     ],
     "ai-business": [
+      {
+        "name": "AXA Venture Partners raises €130M funding; focuses on Europe",
+        "provider": "Silicon Canals",
+        "type": "AI 项目/工具",
+        "bestFor": "AXA Venture Partners (AVP) is a venture capital firm with its presence in several countries has invested in many high-growth technology companies. In a recent d",
+        "description": "AXA Venture Partners (AVP) is a venture capital firm with its presence in several countries has invested in many high-growth technology companies. In a recent development, the vent",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Silicon Canals",
+        "url": "https://siliconcanals.com/axa-venture-partners-raises-e130m-funding-focuses-on-europe-north-america-and-israel-markets/"
+      },
       {
         "name": "Neural Network Statistics By Market Size And Trends (2026)",
         "provider": "Sci-Tech Today",
@@ -7548,17 +7412,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "SitePoint",
         "url": "https://www.sitepoint.com/ai-visibility-tools-b2b-marketers/"
-      },
-      {
-        "name": "It's Tim Cook's last day as Apple CEO. Investors are $4 tril",
-        "provider": "Yahoo! Finance",
-        "type": "AI 项目/工具",
-        "bestFor": "Apple's (AAPL) Tim Cook is stepping as CEO today, turning over the role to senior vice president of hardware engineering John Ternus.\n\nCook will stay on at Appl",
-        "description": "Apple's (AAPL) Tim Cook is stepping as CEO today, turning over the role to senior vice president of hardware engineering John Ternus.\n\nCook will stay on at Apple as its executive c",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Yahoo! Finance",
-        "url": "https://finance.yahoo.com/markets/stocks/article/its-tim-cooks-last-day-as-apple-ceo-investors-are-4-trillion-richer-because-of-him-230325985.html"
       }
     ],
     "ai-benchmark": [
@@ -8652,6 +8505,17 @@
     ],
     "ai-research": [
       {
+        "name": "9 in 10 Popular Social Apps Collect Browsing History, Study ",
+        "provider": "EURweb",
+        "type": "AI 项目/工具",
+        "bestFor": "*Your favorite social media app may know more about your travels around the web than you realize. New research from Surfshark found that nine of the 10 popular ",
+        "description": "*Your favorite social media app may know more about your travels around the web than you realize. New research from Surfshark found that nine of the 10 popular social media apps it",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "EURweb",
+        "url": "https://eurweb.com/social-apps-collect-browsing-history/"
+      },
+      {
         "name": "Funding grants for new research into AI and teen development",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -9079,23 +8943,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · Google Research",
         "url": "https://research.google/blog/an-ai-tool-for-prioritizing-candidate-biomarkers-from-wearable-sensor-data/"
-      },
-      {
-        "name": "深入分析 LLM 中的人类行为表现及其影响",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "本研究的发现将影响多个领域的开发者和研究者，尤其是在设计人机交互系统时。通过理解 LLM 的人类行为表现，开发者可以更有效地设计用户体验，提升用户满意度。此外，研究结果将帮助决策者在选择和应用 LLM 时，考虑其行为的适当性和可控性，从而减少潜在的误用和不当行为。",
-        "description": "大型语言模型（LLMs）展现出多种人类行为，包括表达情感、与用户建立关系、拒绝请求等。尽管这些行为普遍存在，研究者和实践者却缺乏有效的方法来判断何时以及何种类型的人类行为应由 LLM 展现。本文通过对 21,000 个多轮对话的分析，探讨了这些行为的普遍性、潜在影响及可控性，并提出了系统提示的使用建议。",
-        "useCases": [
-          "分析 LLM 的对话行为，优化用户交互体验，提升用户满意度。",
-          "设计系统提示，控制 LLM 的行为表现，确保其适当性。",
-          "评估不同 LLM 模型在特定场景下的表现，选择最合适的模型进行应用。",
-          "开展人机交互研究，探索 LLM 行为对用户决策的影响。",
-          "制定 LLM 的使用规范，确保其在商业环境中的负责任应用。"
-        ],
-        "watch": "使用 LLM 时需注意 API 费用和配额限制，避免超出预算。",
-        "sourceName": "RSS · Apple ML Research",
-        "url": "https://machinelearning.apple.com/research/human-like-behaviors-llms"
       }
     ],
     "ai-office": []
@@ -10504,8 +10351,8 @@
   ],
   "dailyReport": {
     "date": "2026-09-09",
-    "generatedAt": "2026-09-08T23:10:53.581702Z",
-    "total": 11,
+    "generatedAt": "2026-09-09T01:38:41.400229Z",
+    "total": 12,
     "sections": [
       {
         "category": "ai-coding",
@@ -10603,6 +10450,17 @@
             "sourceCount": 1,
             "date": "2026-09-08",
             "publishedAt": "2026-09-08T22:00",
+            "reason": ""
+          },
+          {
+            "title": "Simon Willison 评 OpenAI 用未发布模型求解 Navier-Stokes 千禧年大奖难题之争",
+            "summary": "OpenAI 用未发布模型在约88小时内给出 Navier-Stokes 存在与光滑性问题（七大千禧年难题之一）的解答，并通过 GPT-6 Astra 完成17小时 Lean 形式化验证，全程发送490万条消息、消耗约3000亿输出 token。",
+            "source": "Simon Willison 博客",
+            "url": "https://simonwillison.net/2026/Sep/8/on-navier-stokes",
+            "score": 56,
+            "sourceCount": 1,
+            "date": "2026-09-09",
+            "publishedAt": "2026-09-09T07:55",
             "reason": ""
           }
         ]
