@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-09",
-  "generatedAt": "2026-09-09T01:38:41.423881Z",
+  "generatedAt": "2026-09-09T04:11:53.566578Z",
   "news": [
     {
       "title": "How GPT-5.6 Sol helps run quantum computing experiments",
@@ -2500,34 +2500,6 @@ window.AI_GENERATED_DATA = {
       "aiSelected": true,
       "moduleTargets": [
         "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Mapping global methane emissions from space with deep learning",
-      "summary": "Climate & Sustainability",
-      "category": "ai-models",
-      "source": "RSS · Google Research",
-      "date": "2026-09-02",
-      "publishedAt": "2026-09-02T02:40",
-      "collectedAt": "2026-09-02T03:17",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://research.google/blog/mapping-global-methane-emissions-from-space-with-deep-learning/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
       ],
       "sourceCount": 1
     }
@@ -5504,6 +5476,21 @@ window.AI_GENERATED_DATA = {
       "date": "2026-08-05"
     },
     {
+      "name": "OpenBMB/Meshy",
+      "lang": "Python",
+      "description": "面壁智能 MiniCPM 开源项目。",
+      "stars": "89 stars",
+      "why": "国产大模型厂商 面壁智能 MiniCPM 的最新开源动态/模型发布，属一手信源。",
+      "url": "https://github.com/OpenBMB/Meshy",
+      "source": "GitHub · 面壁智能 MiniCPM",
+      "tier": "T1",
+      "category": "Coding Agent",
+      "details": "面壁智能 MiniCPM 开源项目。",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
       "name": "THUDM/Awesome-Parameter-Efficient-Fine-Tuning-for-Foundation-Models",
       "lang": "Repo",
       "description": "Parameter-Efficient Fine-Tuning for Foundation Models",
@@ -5514,20 +5501,6 @@ window.AI_GENERATED_DATA = {
       "tier": "T1",
       "category": "Coding Agent",
       "details": "Parameter-Efficient Fine-Tuning for Foundation Models",
-      "features": [],
-      "useCases": [],
-      "quickStart": []
-    },
-    {
-      "name": "DietrichGebert/ponytail",
-      "lang": "JavaScript",
-      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-      "stars": "130701 stars",
-      "why": "近期更新且具备 AI / LLM / Agent 相关主题，适合做项目介绍、教程或同类对比。",
-      "url": "https://github.com/DietrichGebert/ponytail",
-      "source": "GitHub Search · 2026-09-08",
-      "category": "Coding Agent",
-      "details": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
       "features": [],
       "useCases": [],
       "quickStart": []
@@ -6090,6 +6063,28 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "BharatPe leads the AI-First Shift in Fintech with new Mercha",
+        "provider": "Asian News International (ANI)",
+        "type": "AI 项目/工具",
+        "bestFor": "Mumbai (Maharashtra) [India], September 9 (ANI): BharatPe, one of India's leading fintech companies, today launched BharatPe Agentic AI at the Global Fintech Fe",
+        "description": "Mumbai (Maharashtra) [India], September 9 (ANI): BharatPe, one of India's leading fintech companies, today launched BharatPe Agentic AI at the Global Fintech Fest 2026. This makes ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Asian News International (ANI)",
+        "url": "https://www.aninews.in/news/business/bharatpe-leads-the-ai-first-shift-in-fintech-with-new-merchant-ai-suite-launches-agentic-ai-and-credit-coach-at-gff-202616020260909090214/"
+      },
+      {
+        "name": "BharatPe leads the AI-First Shift in Fintech with new Mercha",
+        "provider": "The Tribune",
+        "type": "AI 项目/工具",
+        "bestFor": "Mumbai (Maharashtra) [India], September 9 (ANI): BharatPe, one of India's leading fintech companies, today launched BharatPe Agentic AI at the Global Fintech Fe",
+        "description": "Mumbai (Maharashtra) [India], September 9 (ANI): BharatPe, one of India's leading fintech companies, today launched BharatPe Agentic AI at the Global Fintech Fest 2026. This makes ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Tribune",
+        "url": "https://www.tribuneindia.com/news/business/bharatpe-leads-the-ai-first-shift-in-fintech-with-new-merchant-ai-suite-launches-agentic-ai-and-credit-coach-at-gff-2026/"
+      },
+      {
         "name": "Meta launches Muse AI agent that can book travel and manage ",
         "provider": "India Today",
         "type": "AI 项目/工具",
@@ -6506,31 +6501,31 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "newKerala.com",
         "url": "https://www.newkerala.com/news/a/rogue-ai-agents-openai-says-working-framework-address-702.htm"
-      },
-      {
-        "name": "OpenAI admits wiki incident, plans AI misalignment disclosur",
-        "provider": "SAMAA TV",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenAI has acknowledged its involvement in a recently reported incident in which AI agents escaped a testing environment and took over an obscure German wiki fo",
-        "description": "OpenAI has acknowledged its involvement in a recently reported incident in which AI agents escaped a testing environment and took over an obscure German wiki forum, saying it is de",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "SAMAA TV",
-        "url": "https://www.samaa.tv/2087356341-openai-admits-wiki-incident-plans-ai-misalignment-disclosure-framework"
-      },
-      {
-        "name": "Rogue OpenAI agents took over German wiki, researchers say",
-        "provider": "Utah Independent",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenAI last month briefly paused some model training to add safety measures\n\nSAN FRANCISCO, California: OpenAI agents took control of a German-language website ",
-        "description": "OpenAI last month briefly paused some model training to add safety measures\n\nSAN FRANCISCO, California: OpenAI agents took control of a German-language website this spring and used",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Utah Independent",
-        "url": "https://www.utahindependent.com/news/279288425/rogue-openai-agents-took-over-german-wiki-researchers-say"
       }
     ],
     "ai-models": [
+      {
+        "name": "AsiaOne",
+        "provider": "AsiaOne",
+        "type": "AI 项目/工具",
+        "bestFor": "SAN FRANCISCO -- When new CEO John Ternus unveils Apple's latest products on Wednesday (Sept 9), Wall Street expects him to show that the company can still deli",
+        "description": "SAN FRANCISCO -- When new CEO John Ternus unveils Apple's latest products on Wednesday (Sept 9), Wall Street expects him to show that the company can still deliver breakthrough har",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "AsiaOne",
+        "url": "https://www.asiaone.com/digital/apples-ternus-faces-ai-test-foldable-iphone-takes-centre-stage"
+      },
+      {
+        "name": "Apple's Ternus faces AI test as foldable iPhone takes center",
+        "provider": "ETTelecom.com",
+        "type": "AI 项目/工具",
+        "bestFor": "The company has already announced a deep overhaul of Siri - in part by tapping Google's AI tech behind the scenes - and that may prove to be Ternus' first big s",
+        "description": "The company has already announced a deep overhaul of Siri - in part by tapping Google's AI tech behind the scenes - and that may prove to be Ternus' first big success after years o",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "ETTelecom.com",
+        "url": "https://telecom.economictimes.indiatimes.com/news/devices/apples-ternus-faces-ai-test-as-foldable-iphone-takes-center-stage/133948966"
+      },
       {
         "name": "Don't be seduced by the language of AI - The Korea Times",
         "provider": "The Korea Times",
@@ -6948,31 +6943,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "ET NOW",
         "url": "https://www.etnownews.com/technology/iphone-18-pro-how-apples-strategy-of-delay-might-prove-to-be-a-game-changer-this-year-article-156094987"
-      },
-      {
-        "name": "Why everyone is searching the 'Epstein files search' - Film ",
-        "provider": "Film Daily",
-        "type": "AI 项目/工具",
-        "bestFor": "The surge in Epstein files search activity is not just curiosity. It is the direct result of three massive official data dumps, new AI tools that make millions ",
-        "description": "The surge in Epstein files search activity is not just curiosity. It is the direct result of three massive official data dumps, new AI tools that make millions of pages readable, a",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Film Daily",
-        "url": "https://filmdaily.co/news/why-everyone-is-searching-the-epstein-files-search-2/"
-      },
-      {
-        "name": "Is Trimble's (TRMB) Training Push with Eagle Point Quietly R",
-        "provider": "Yahoo! Finance",
-        "type": "AI 项目/工具",
-        "bestFor": "* In August 2026, Eagle Point Software announced a collaboration with Trimble that brings Trimble Learn training content into the Pinnacle Series platform for a",
-        "description": "* In August 2026, Eagle Point Software announced a collaboration with Trimble that brings Trimble Learn training content into the Pinnacle Series platform for architecture, enginee",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Yahoo! Finance",
-        "url": "https://ca.finance.yahoo.com/news/trimble-trmb-training-push-eagle-001350060.html"
       }
     ],
     "ai-business": [
+      {
+        "name": "Bank of America Spots Reassuring Signal for Google Stock",
+        "provider": "Yahoo! Finance",
+        "type": "AI 项目/工具",
+        "bestFor": "This article first appeared on GuruFocus.\n\nBank of America sees a reassuring Google parent Alphabet (NASDAQ:GOOGL) stock signal: fast-growing AI rivals are not ",
+        "description": "This article first appeared on GuruFocus.\n\nBank of America sees a reassuring Google parent Alphabet (NASDAQ:GOOGL) stock signal: fast-growing AI rivals are not eroding the search g",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Yahoo! Finance",
+        "url": "https://ca.finance.yahoo.com/news/bank-america-spots-reassuring-signal-205753282.html"
+      },
       {
         "name": "AXA Venture Partners raises €130M funding; focuses on Europe",
         "provider": "Silicon Canals",
@@ -7401,17 +7385,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Insurance Business",
         "url": "https://www.insurancebusinessmag.com/us/news/technology/the-ai-model-insurers-keep-signing-deals-with-happens-to-be-the-one-users-like-most-588007.aspx"
-      },
-      {
-        "name": "AI Visibility Tools for B2B Marketers: Track - and Improve -",
-        "provider": "SitePoint",
-        "type": "AI 项目/工具",
-        "bestFor": "If you sell to other businesses, one of the most important lists your company can appear on is no longer a Google results page. It is the shortlist an AI assist",
-        "description": "If you sell to other businesses, one of the most important lists your company can appear on is no longer a Google results page. It is the shortlist an AI assistant gives a buyer wh",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "SitePoint",
-        "url": "https://www.sitepoint.com/ai-visibility-tools-b2b-marketers/"
       }
     ],
     "ai-benchmark": [
@@ -10351,7 +10324,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-09",
-    "generatedAt": "2026-09-09T01:38:41.400229Z",
+    "generatedAt": "2026-09-09T04:11:53.544576Z",
     "total": 12,
     "sections": [
       {
