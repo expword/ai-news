@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-09",
-  "generatedAt": "2026-09-09T09:21:30.916574Z",
+  "generatedAt": "2026-09-09T11:50:50.745923Z",
   "news": [
     {
       "title": "How GPT-5.6 Sol helps run quantum computing experiments",
@@ -170,6 +170,34 @@ window.AI_GENERATED_DATA = {
       "aiSelected": true,
       "moduleTargets": [
         "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "PlannerForge: LLM Agents for Scenario-Based Testing of Motion Planners in Autonomous Driving",
+      "summary": "Ensuring the safety of autonomous driving is a critical challenge. Scenario-based testing is a systematic process used to validate Autonomous Driving Systems (ADSs), but it remains",
+      "category": "ai-agents",
+      "source": "arXiv",
+      "date": "2026-09-08",
+      "publishedAt": "",
+      "collectedAt": "2026-09-09T18:36",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-08",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.08965v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
       ],
       "sourceCount": 1
     },
@@ -2466,34 +2494,6 @@ window.AI_GENERATED_DATA = {
       "aiSelected": true,
       "moduleTargets": [
         "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "An Organizational Second Brain: Building an AI That Learns From Experts",
-      "summary": "We’ve built an AI agent that acts as a secondary expert for a given domain, making deep specialist knowledge readily available and preserved for anyone in an organization to access",
-      "category": "ai-agents",
-      "source": "RSS · Meta Engineering",
-      "date": "2026-09-02",
-      "publishedAt": "2026-09-02T17:00",
-      "collectedAt": "2026-09-03T05:17",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://engineering.fb.com/2026/09/02/ml-applications/organizational-second-brain-ai-learns-from-experts/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
       ],
       "sourceCount": 1
     }
@@ -6057,6 +6057,28 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "Thomas Wolf 认为 AI 数学尚未被解决，Navier-Stokes 结果更像反例搜索而非完整证明",
+        "provider": "X：Thomas Wolf（Hugging Face 联创/CSO） (@Thom_Wolf)",
+        "type": "AI 项目/工具",
+        "bestFor": "Hugging Face 联创 Thomas Wolf 回应 OpenAI 用下一代模型（强于 GPT-6 Astra）的 agent 群组证明 Navier-Stokes 千禧年问题猜想为假的结果，称其令人印象深刻。",
+        "description": "Hugging Face 联创 Thomas Wolf 回应 OpenAI 用下一代模型（强于 GPT-6 Astra）的 agent 群组证明 Navier-Stokes 千禧年问题猜想为假的结果，称其令人印象深刻。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "X：Thomas Wolf（Hugging Face 联创/CSO） (@Thom_Wolf)",
+        "url": "https://x.com/Thom_Wolf/status/2097615465698713666"
+      },
+      {
+        "name": "PlannerForge: LLM Agents for Scenario-Based Testing of Motio",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Ensuring the safety of autonomous driving is a critical challenge. Scenario-based testing is a systematic process used to validate Autonomous Driving Systems (A",
+        "description": "Ensuring the safety of autonomous driving is a critical challenge. Scenario-based testing is a systematic process used to validate Autonomous Driving Systems (ADSs), but it remains",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2609.08965v1"
+      },
+      {
         "name": "Meta Launches Muse Personal AI Agent",
         "provider": "Market Screener",
         "type": "AI 项目/工具",
@@ -6473,31 +6495,42 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "ESPN.com",
         "url": "https://www.espn.com/f1/story/_/id/49813303/kimi-antonelli-ai-agent-toto-wolffs-new-comparison-f1-star-italian-gp-win-italian-grand-prix-formula-1-monza"
-      },
-      {
-        "name": "Why AI Agent Sandboxes Are Failing Security Tests",
-        "provider": "Security Affairs",
-        "type": "AI 项目/工具",
-        "bestFor": "Autonomous AI agents escaped a sandbox and accessed Hugging Face via reward hacking, exposing serious architectural control and isolation flaws.\n\nThe recent cas",
-        "description": "Autonomous AI agents escaped a sandbox and accessed Hugging Face via reward hacking, exposing serious architectural control and isolation flaws.\n\nThe recent case involving OpenAI t",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Security Affairs",
-        "url": "https://securityaffairs.com/198563/ai/why-ai-agent-sandboxes-are-failing-security-tests.html"
-      },
-      {
-        "name": "xLean Demonstrates Agent-Capable Dual-Form Floor-Washing Rob",
-        "provider": "Technology Org",
-        "type": "AI 项目/工具",
-        "bestFor": "Rather than asking users to adapt to rigid cleaning routines, xLean Robotics is bringing real-time adaptiveness directly to the show floor at IFA 2026 in Berlin",
-        "description": "Rather than asking users to adapt to rigid cleaning routines, xLean Robotics is bringing real-time adaptiveness directly to the show floor at IFA 2026 in Berlin. Live interactive d",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Technology Org",
-        "url": "https://www.technology.org/2026/09/07/xlean-demonstrates-agent-capable-dual-form-floor-washing-robot-at-ifa-2026/"
       }
     ],
     "ai-models": [
+      {
+        "name": "ChatGPT photo trend: Top 5 prompts to turn your photo into 1",
+        "provider": "mint",
+        "type": "AI 项目/工具",
+        "bestFor": "ChatGPT photo trend: A new social media trend has created a storm on the internet. From celebrities and politicians, several people are turning to Artificial In",
+        "description": "ChatGPT photo trend: A new social media trend has created a storm on the internet. From celebrities and politicians, several people are turning to Artificial Intelligence (AI) to c",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "mint",
+        "url": "https://www.livemint.com/news/trends/chatgpt-photo-trend-top-5-prompts-to-turn-your-photo-into-1960s-70s-80s-and-90s-versions-for-instagram-whatsapp-11788948305194.html"
+      },
+      {
+        "name": "This Is the Biggest 2D Map of the Universe. Here's How to Us",
+        "provider": "CNET",
+        "type": "AI 项目/工具",
+        "bestFor": "Scientists have pointed telescopes at the sky and mapped the cosmos for centuries. That relentless pursuit is producing maps that are bigger and more detailed t",
+        "description": "Scientists have pointed telescopes at the sky and mapped the cosmos for centuries. That relentless pursuit is producing maps that are bigger and more detailed than ever. But there'",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "CNET",
+        "url": "https://www.cnet.com/science/biggest-2d-map-of-universe-how-to-use-dr11/"
+      },
+      {
+        "name": "Logitech MX Keypad: All You Need to Know About the Multi-App",
+        "provider": "Analytics Insight",
+        "type": "AI 项目/工具",
+        "bestFor": "A nine-key device may look too small for a serious developer tool, yet Logitech has given the MX Keypad a much larger role. The new device acts as a physical co",
+        "description": "A nine-key device may look too small for a serious developer tool, yet Logitech has given the MX Keypad a much larger role. The new device acts as a physical control center for AI ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Analytics Insight",
+        "url": "https://www.analyticsinsight.net/apps/logitech-mx-keypad-all-you-need-to-know-about-the-multi-app-ai-control-center-for-developers"
+      },
       {
         "name": "Computing services revenue exceeds 80 bln yuan in SW China's",
         "provider": "People's Daily, China",
@@ -6904,42 +6937,31 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "FortuneIndia",
         "url": "https://www.fortuneindia.com/technology/ai-value-optimization-is-now-making-enterprises-think-about-their-language-model-approach/157734"
-      },
-      {
-        "name": "Claude AI chatbot now available on CarPlay",
-        "provider": "NewsBytes",
-        "type": "AI 项目/工具",
-        "bestFor": "Anthropic has integrated its AI chatbot, Claude, with Apple's CarPlay platform. The integration allows users to interact with the Claude app through their car's",
-        "description": "Anthropic has integrated its AI chatbot, Claude, with Apple's CarPlay platform. The integration allows users to interact with the Claude app through their car's infotainment system",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsBytes",
-        "url": "https://www.newsbytesapp.com/news/science/anthropic-claude-integrates-with-carplay-for-hands-free-chat/story"
-      },
-      {
-        "name": "Pastors Fear the Machine Will Twist Scripture",
-        "provider": "Discern Report",
-        "type": "AI 项目/工具",
-        "bestFor": "He reigns. We pour. Promised Grounds is the Christian coffee company that happens to also offer the best coffee available.\n\nNinety-four percent of Protestant pa",
-        "description": "He reigns. We pour. Promised Grounds is the Christian coffee company that happens to also offer the best coffee available.\n\nNinety-four percent of Protestant pastors are worried ar",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Discern Report",
-        "url": "https://discernreport.com/pastors-fear-the-machine-will-twist-scripture/"
-      },
-      {
-        "name": "Tuya Smart Unveils Doova at IFA 2026, an AI Home Companion R",
-        "provider": "GoLaurens.Com",
-        "type": "AI 项目/工具",
-        "bestFor": "BERLIN, Sept. 5, 2026 /PRNewswire/ -- Tuya Smart (NYSE: TUYA; HKEX: 2391), a global AI cloud platform service provider, today unveiled Doova, its new AI home co",
-        "description": "BERLIN, Sept. 5, 2026 /PRNewswire/ -- Tuya Smart (NYSE: TUYA; HKEX: 2391), a global AI cloud platform service provider, today unveiled Doova, its new AI home companion robot, at IF",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "GoLaurens.Com",
-        "url": "https://www.golaurens.com/online_features/press_releases/tuya-smart-unveils-doova-at-ifa-2026-an-ai-home-companion-robot-designed-to-support/article_ea441342-f5b3-5504-8017-a8f21000c6ba.html"
       }
     ],
     "ai-business": [
+      {
+        "name": "META: Apple Ultra-Luxury Foldable iPhone Aims Past Samsung, ",
+        "provider": "Stocktwits",
+        "type": "AI 项目/工具",
+        "bestFor": "* HSBC also expects Apple to raise iPhone prices by at least $100, citing higher memory costs and the company's pricing power.\n\n* Needham maintained a 'Hold' ra",
+        "description": "* HSBC also expects Apple to raise iPhone prices by at least $100, citing higher memory costs and the company's pricing power.\n\n* Needham maintained a 'Hold' rating ahead of Apple'",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Stocktwits",
+        "url": "https://stocktwits.com/news-articles/markets/equity/apple-ultra-luxury-foldable-i-phone-aims-past-samsung-says-analyst/cZt7RsIRJzP"
+      },
+      {
+        "name": "Apple's Foldable iPhone Could Become The 'Birkin Of Smartpho",
+        "provider": "Asianet News Network Pvt Ltd",
+        "type": "AI 项目/工具",
+        "bestFor": "Apple is expected to unveil its first foldable iPhone Wednesday, with the device reportedly starting at about $2,199.\n\n* HSBC also expects Apple to raise iPhone",
+        "description": "Apple is expected to unveil its first foldable iPhone Wednesday, with the device reportedly starting at about $2,199.\n\n* HSBC also expects Apple to raise iPhone prices by at least ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Asianet News Network Pvt Ltd",
+        "url": "https://newsable.asianetnews.com/markets/apple-s-foldable-iphone-could-become-the-birkin-of-smartphones-in-china-analyst-says-but-others-think-the-odds-are-4-to-1-against-the-company-articleshow-4d40tpa"
+      },
       {
         "name": "OpenAI deepens Samsung ties on chips, enterprise AI",
         "provider": "@businessline",
@@ -7357,28 +7379,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Yahoo! Finance",
         "url": "https://finance.yahoo.com/markets/stocks/articles/imexhs-ltd-asx-ime-h1-090029373.html"
-      },
-      {
-        "name": "Bitcoin enters first hashrate bear market, Twenty One Capita",
-        "provider": "crypto.news",
-        "type": "AI 项目/工具",
-        "bestFor": "Twenty One Capital CEO Raphael Zagury said Bitcoin is experiencing its first \"hashrate bear market\" as network computing power remains below its late 2025 recor",
-        "description": "Twenty One Capital CEO Raphael Zagury said Bitcoin is experiencing its first \"hashrate bear market\" as network computing power remains below its late 2025 record and listed mining ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "crypto.news",
-        "url": "https://crypto.news/bitcoin-enters-first-hashrate-bear-market-ceo-says/"
-      },
-      {
-        "name": "Africa cannot afford to scale AI faster than it can govern i",
-        "provider": "Businessday NG",
-        "type": "AI 项目/工具",
-        "bestFor": "Africa cannot afford to scale artificial intelligence faster than it can govern the technology, as rapid adoption without adequate safeguards could deepen priva",
-        "description": "Africa cannot afford to scale artificial intelligence faster than it can govern the technology, as rapid adoption without adequate safeguards could deepen privacy, discrimination, ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Businessday NG",
-        "url": "https://businessday.ng/technology/article/africa-cannot-afford-to-scale-ai-faster-than-it-can-govern-it/"
       }
     ],
     "ai-benchmark": [
@@ -10312,8 +10312,8 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-09",
-    "generatedAt": "2026-09-09T09:21:30.895542Z",
-    "total": 17,
+    "generatedAt": "2026-09-09T11:50:50.723893Z",
+    "total": 18,
     "sections": [
       {
         "category": "ai-coding",
@@ -10358,6 +10358,17 @@ window.AI_GENERATED_DATA = {
         "category": "ai-agents",
         "label": "Agent / MCP",
         "items": [
+          {
+            "title": "PlannerForge: LLM Agents for Scenario-Based Testing of Motion Planners in Autonomous Driving",
+            "summary": "Ensuring the safety of autonomous driving is a critical challenge. Scenario-based testing is a systematic process used to validate Autonomou",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.08965v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-08",
+            "publishedAt": "",
+            "reason": ""
+          },
           {
             "title": "PrivEscalate: Measuring and Augmenting the Threat of LLM-Automated Linux Privilege Escalation",
             "summary": "As Large Language Model (LLM) agents increasingly automate offensive operations across the cyber kill chain, their efficacy in complex local",
