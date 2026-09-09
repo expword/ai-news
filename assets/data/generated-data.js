@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-09",
-  "generatedAt": "2026-09-09T04:11:53.566578Z",
+  "generatedAt": "2026-09-09T06:43:33.850634Z",
   "news": [
     {
       "title": "How GPT-5.6 Sol helps run quantum computing experiments",
@@ -170,6 +170,143 @@ window.AI_GENERATED_DATA = {
       "aiSelected": true,
       "moduleTargets": [
         "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "It's Not RoPE that Creates Sinks: The Role of Self-Concentration and Value-Non-Mixing in Attention",
+      "summary": "Large Language Models (LLMs) often exhibit \"Attention Sink\" (AS) and the accompanying \"Massive Activations\" (MAs) at the initial position of a sequence. These phenomena frequently ",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-09-08",
+      "publishedAt": "",
+      "collectedAt": "2026-09-09T14:43",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-08",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.09085v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Measuring LLM Sycophancy under Sustained Multi-Turn Pressure",
+      "summary": "Large language models (LLMs) may abandon correct positions when users push back, exhibiting a failure mode known as sycophancy. Existing evaluations typically use short, pre-specif",
+      "category": "ai-benchmark",
+      "source": "arXiv",
+      "date": "2026-09-08",
+      "publishedAt": "",
+      "collectedAt": "2026-09-09T14:43",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-08",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.09090v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "PrivEscalate: Measuring and Augmenting the Threat of LLM-Automated Linux Privilege Escalation",
+      "summary": "As Large Language Model (LLM) agents increasingly automate offensive operations across the cyber kill chain, their efficacy in complex local post-exploitation tasks remains inadequ",
+      "category": "ai-agents",
+      "source": "arXiv",
+      "date": "2026-09-08",
+      "publishedAt": "",
+      "collectedAt": "2026-09-09T14:43",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-08",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.09087v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Training-Free Task Vectors for LLM Behavioral Control",
+      "summary": "Task vectors enable post-training model editing by identifying semantically meaningful directions in weight space, typically computed as the difference between a fine-tuned model a",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-09-08",
+      "publishedAt": "",
+      "collectedAt": "2026-09-09T14:43",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-08",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.09054v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "MeClear: Cooperative Game-Theoretic Attribution and Risk-Aware Memory Clearance for Long-Horizon LLM Agents",
+      "summary": "Long horizon Large Language Model (LLM) agents rely on external memory systems to preserve user preferences and task knowledge across extended interactions. Conventional retrieval ",
+      "category": "ai-agents",
+      "source": "arXiv",
+      "date": "2026-09-08",
+      "publishedAt": "",
+      "collectedAt": "2026-09-09T14:43",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-08",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.09115v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
       ],
       "sourceCount": 1
     },
@@ -2106,7 +2243,14 @@ window.AI_GENERATED_DATA = {
       "moduleTargets": [
         "news"
       ],
-      "sourceCount": 1
+      "sourceCount": 2,
+      "relatedSources": [
+        {
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2609.09004v1",
+          "title": "Evaluation of Contextual Understanding in Large Language Models"
+        }
+      ]
     },
     {
       "title": "DiscoSign: Discourse-Aware Text to Sign Language Gloss Translation",
@@ -6063,6 +6207,72 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "PrivEscalate: Measuring and Augmenting the Threat of LLM-Aut",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "As Large Language Model (LLM) agents increasingly automate offensive operations across the cyber kill chain, their efficacy in complex local post-exploitation t",
+        "description": "As Large Language Model (LLM) agents increasingly automate offensive operations across the cyber kill chain, their efficacy in complex local post-exploitation tasks remains inadequ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2609.09087v1"
+      },
+      {
+        "name": "MeClear: Cooperative Game-Theoretic Attribution and Risk-Awa",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Long horizon Large Language Model (LLM) agents rely on external memory systems to preserve user preferences and task knowledge across extended interactions. Con",
+        "description": "Long horizon Large Language Model (LLM) agents rely on external memory systems to preserve user preferences and task knowledge across extended interactions. Conventional retrieval ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2609.09115v1"
+      },
+      {
+        "name": "Muse, help me quit Instagram\": Mark Zuckerberg introduces Me",
+        "provider": "The Times of India",
+        "type": "AI 项目/工具",
+        "bestFor": "Mark Zuckerberg has introduced Muse on Instagram with a simple promise: a personal AI agent designed to do more than just answer questions, it can help users ac",
+        "description": "Mark Zuckerberg has introduced Muse on Instagram with a simple promise: a personal AI agent designed to do more than just answer questions, it can help users actually get things do",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Times of India",
+        "url": "https://timesofindia.indiatimes.com/etimes/trending/muse-help-me-quit-instagram-mark-zuckerberg-introduces-metas-new-ai-agent-the-internets-hilarious-reactions-took-a-very-different-turn/articleshow/133953007.cms"
+      },
+      {
+        "name": "Georgie & Cog: \"The agentic bank",
+        "provider": "FinTech Futures",
+        "type": "AI 项目/工具",
+        "bestFor": "We're racing to give AI agents agency. It might be worth checking what we're giving them access to.\n\n\"We're now an agentic bank!\"\n\nExcellent.\n\nCan the agents fi",
+        "description": "We're racing to give AI agents agency. It might be worth checking what we're giving them access to.\n\n\"We're now an agentic bank!\"\n\nExcellent.\n\nCan the agents find the customer docu",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "FinTech Futures",
+        "url": "https://www.fintechfutures.com/bankingtech/georgie-cog-the-agentic-bank"
+      },
+      {
+        "name": "How Does AI Agent Memory Work Across Sessions, and Why It Ke",
+        "provider": "Startup Fortune",
+        "type": "AI 项目/工具",
+        "bestFor": "How does AI agent memory work across sessions? It doesn't, not really: what looks like memory is a context window, a vector database, and a summarizer passing n",
+        "description": "How does AI agent memory work across sessions? It doesn't, not really: what looks like memory is a context window, a vector database, and a summarizer passing notes to each other b",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Startup Fortune",
+        "url": "https://startupfortune.com/how-does-ai-agent-memory-work-across-sessions-and-why-it-keeps-failing/"
+      },
+      {
+        "name": "Meta Introduces Muse, a Personal AI Agent That Runs on Its O",
+        "provider": "MarkTechPost",
+        "type": "AI 项目/工具",
+        "bestFor": "Today, Meta has introduced Muse, a personal AI agent that takes actions rather than just answering questions. Muse can send emails, book travel, negotiate bills",
+        "description": "Today, Meta has introduced Muse, a personal AI agent that takes actions rather than just answering questions. Muse can send emails, book travel, negotiate bills, and pursue long te",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "MarkTechPost",
+        "url": "https://www.marktechpost.com/2026/09/08/meta-introduces-muse-a-personal-ai-agent-that-runs-on-its-own-dedicated-secure-cloud-computer/"
+      },
+      {
         "name": "BharatPe leads the AI-First Shift in Fintech with new Mercha",
         "provider": "Asian News International (ANI)",
         "type": "AI 项目/工具",
@@ -6435,75 +6645,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "itwire.com",
         "url": "https://itwire.com/it-industry-news/strategy/f5-and-mulesoft-a-salesforce-company-collaborate-to-deliver-inline-security-and-governance-for-agent-fabric-and-agentic-ai-applications"
-      },
-      {
-        "name": "OpenAI 宣布达到自动化研究实习生里程碑，内部 agent 运行时达人力 3.1 倍",
-        "provider": "X：Rohan Paul (@rohanpaul_ai)",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenAI 发布内部数据称已达到自动化研究实习生里程碑，即可在人类监督下完成熟练研究员需数天的明确任务。截至 8 月中旬，其研究组织每投入 1 个人工工作日，就使用 3.1 个 agent 工作日的运行时长，该比值衡量的是运行时间而非等效生产力；原文作者援引 OpenAI 员工观点称递归自我改进或成为未来几年 AI ",
-        "description": "OpenAI 发布内部数据称已达到自动化研究实习生里程碑，即可在人类监督下完成熟练研究员需数天的明确任务。截至 8 月中旬，其研究组织每投入 1 个人工工作日，就使用 3.1 个 agent 工作日的运行时长，该比值衡量的是运行时间而非等效生产力；原文作者援引 OpenAI 员工观点称递归自我改进或成为未来几年 AI 能力的关键，并呼吁其他 AI 公司同样公",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "X：Rohan Paul (@rohanpaul_ai)",
-        "url": "https://x.com/rohanpaul_ai/status/2096665545190043737"
-      },
-      {
-        "name": "Google's Gemini Spark Can Now Manage Google Photos Library",
-        "provider": "Deccan Chronicle",
-        "type": "AI 项目/工具",
-        "bestFor": "Google announced that its personal agent, Gemini Spark, will now be able to manage users' Google Photos libraries.\n\nThe tech giant said that users can now ask G",
-        "description": "Google announced that its personal agent, Gemini Spark, will now be able to manage users' Google Photos libraries.\n\nThe tech giant said that users can now ask Gemini Spark to perfo",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Deccan Chronicle",
-        "url": "https://www.deccanchronicle.com/technology/googles-gemini-spark-can-now-manage-google-photos-library-1985301"
-      },
-      {
-        "name": "What Type of Course Platforms Should Course Creators Use in ",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "AI agents are quietly rewriting the rules of online education. Here’s what creators need to look for in a course platform built for what comes next. Something i",
-        "description": "AI agents are quietly rewriting the rules of online education. Here’s what creators need to look for in a course platform built for what comes next. Something is shifting in 2026. ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:Claude AI",
-        "url": "https://techbullion.com/what-course-platforms-to-use-in-the-ai-agent-era/"
-      },
-      {
-        "name": "Cracking 1.33 Trillion Daily Tokens: B.AI Powers the \"AI Gri",
-        "provider": "Crypto Reporter",
-        "type": "AI 项目/工具",
-        "bestFor": "SINGAPORE, Sept. 04, 2026 (GLOBE NEWSWIRE) -- B.AI, a next-generation AI infrastructure platform, recently set off a developer frenzy by offering free access to",
-        "description": "SINGAPORE, Sept. 04, 2026 (GLOBE NEWSWIRE) -- B.AI, a next-generation AI infrastructure platform, recently set off a developer frenzy by offering free access to top-tier models. Wi",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Crypto Reporter",
-        "url": "https://www.crypto-reporter.com/newsfeed/cracking-1-33-trillion-daily-tokens-b-ai-powers-the-ai-grid-with-full-stack-infrastructure-to-fuel-the-agentic-era-130973/"
-      },
-      {
-        "name": "Rogue OpenAI agents took over German wiki, researchers say",
-        "provider": "Phoenix Herald",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenAI last month briefly paused some model training to add safety measures\n\nSAN FRANCISCO, California: OpenAI agents took control of a German-language website ",
-        "description": "OpenAI last month briefly paused some model training to add safety measures\n\nSAN FRANCISCO, California: OpenAI agents took control of a German-language website this spring and used",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Phoenix Herald",
-        "url": "https://www.phoenixherald.com/news/279288425/rogue-openai-agents-took-over-german-wiki-researchers-say"
-      },
-      {
-        "name": "OpenAI working on framework to address rogue AI agent incide",
-        "provider": "newKerala.com",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenAI has announced it is developing a framework to address concerns about rogue AI agents following an incident where agents took control of a German website.",
-        "description": "OpenAI has announced it is developing a framework to address concerns about rogue AI agents following an incident where agents took control of a German website. The company is coll",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "newKerala.com",
-        "url": "https://www.newkerala.com/news/a/rogue-ai-agents-openai-says-working-framework-address-702.htm"
       }
     ],
     "ai-models": [
+      {
+        "name": "Instagram users beware: Scammers are using fake copyright cl",
+        "provider": "Digit",
+        "type": "AI 项目/工具",
+        "bestFor": "Once the account's owner loses access, the scammers contact them and demand money to remove the claims.\n\nInstagram users are being targeted by a new scam. Scamm",
+        "description": "Once the account's owner loses access, the scammers contact them and demand money to remove the claims.\n\nInstagram users are being targeted by a new scam. Scammers are reportedly f",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Digit",
+        "url": "https://www.digit.in/news/apps/instagram-users-beware-scammers-are-using-fake-copyright-claims-to-suspend-accounts-and-demand-ransom.html"
+      },
       {
         "name": "AsiaOne",
         "provider": "AsiaOne",
@@ -6932,20 +7087,42 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "BGR",
         "url": "https://www.bgr.com/2249315/must-have-android-auto-apps-for-ev-owners/"
-      },
-      {
-        "name": "iPhone 18 Pro: How Apple's 'strategy of delay' might prove t",
-        "provider": "ET NOW",
-        "type": "AI 项目/工具",
-        "bestFor": "Rewriting industry calendarFor years, the global mobile calendar revolved around one gravitational event. Apple launched a full range of iPhones in the fall; ev",
-        "description": "Rewriting industry calendarFor years, the global mobile calendar revolved around one gravitational event. Apple launched a full range of iPhones in the fall; everyone else scramble",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "ET NOW",
-        "url": "https://www.etnownews.com/technology/iphone-18-pro-how-apples-strategy-of-delay-might-prove-to-be-a-game-changer-this-year-article-156094987"
       }
     ],
     "ai-business": [
+      {
+        "name": "How Are Corporations Adapting to AI and Digital Transformati",
+        "provider": "The European Business Review",
+        "type": "AI 项目/工具",
+        "bestFor": "The mid-2020s are all about technological disruption. There's a fundamental change under way, and it's bringing root and branch reshaping of how multinational f",
+        "description": "The mid-2020s are all about technological disruption. There's a fundamental change under way, and it's bringing root and branch reshaping of how multinational firms operate.\n\nRight",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The European Business Review",
+        "url": "https://www.europeanbusinessreview.com/how-are-corporations-adapting-to-ai-and-digital-transformation/"
+      },
+      {
+        "name": "Meta platforms chief accounting officer Aaron Anderson sells",
+        "provider": "Investing.com",
+        "type": "AI 项目/工具",
+        "bestFor": "Aaron Anderson, Chief Accounting Officer at Meta Platforms, Inc. (NASDAQ:META), sold 3,240 shares of the company's Class A Common Stock on September 3, 2026. Th",
+        "description": "Aaron Anderson, Chief Accounting Officer at Meta Platforms, Inc. (NASDAQ:META), sold 3,240 shares of the company's Class A Common Stock on September 3, 2026. The transactions total",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Investing.com",
+        "url": "https://www.investing.com/news/insider-trading-news/meta-platforms-chief-accounting-officer-aaron-anderson-sells-2m-93CH-4892701"
+      },
+      {
+        "name": "VC funding deals: Konko AI, HiddenLayer, Visko",
+        "provider": "InfotechLead",
+        "type": "AI 项目/工具",
+        "bestFor": "The latest VC funding deals include announcements on Konko AI, HiddenLayer, Visko, LifeX Ventures, SquareOne Capital, Delta-v Capital, and others.\n\nKonko AI Rai",
+        "description": "The latest VC funding deals include announcements on Konko AI, HiddenLayer, Visko, LifeX Ventures, SquareOne Capital, Delta-v Capital, and others.\n\nKonko AI Raises $6 Million to Sc",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "InfotechLead",
+        "url": "https://infotechlead.com/tech/vc-funding-deals-konko-ai-hiddenlayer-visko-98226"
+      },
       {
         "name": "Bank of America Spots Reassuring Signal for Google Stock",
         "provider": "Yahoo! Finance",
@@ -7352,39 +7529,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Hindustan Times",
         "url": "https://www.hindustantimes.com/business/apples-ai-groundwork-openai-chip-flex-and-the-joys-of-aeroplane-contrails-101788289880981.html"
-      },
-      {
-        "name": "U.S. urges hands-off approach to AI regulation at G20 tech m",
-        "provider": "The Japan Times",
-        "type": "AI 项目/工具",
-        "bestFor": "CHAPEL HILL, North Carolina - The U.S. pressed G20 members on Tuesday to take a hands-off approach to artificial intelligence regulation and avoid creating rule",
-        "description": "CHAPEL HILL, North Carolina - The U.S. pressed G20 members on Tuesday to take a hands-off approach to artificial intelligence regulation and avoid creating rules for the technology",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Japan Times",
-        "url": "https://www.japantimes.co.jp/business/2026/09/02/tech/us-ai-regulation-g20/"
-      },
-      {
-        "name": "Springfield tech survey will measure AI use, workplace equit",
-        "provider": "Springfield News-Leader",
-        "type": "AI 项目/工具",
-        "bestFor": "Springfield Women in Technology has launched a regional survey aimed at measuring how artificial intelligence use, return-to-office policies and salary equity a",
-        "description": "Springfield Women in Technology has launched a regional survey aimed at measuring how artificial intelligence use, return-to-office policies and salary equity are shaping the techn",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Springfield News-Leader",
-        "url": "https://eu.news-leader.com/story/news/business/2026/09/01/springfield-survey-tech-professionals-ai-use-pay-equity/91510624007/"
-      },
-      {
-        "name": "The AI model insurers keep signing deals with happens to be ",
-        "provider": "Insurance Business",
-        "type": "AI 项目/工具",
-        "bestFor": "ChatGPT v Grok v Claude v... - which is best?\n\nTransformation\n\nBy Matthew Sellers\n\nOver the past year, a striking pattern has shown up in the insurance industry",
-        "description": "ChatGPT v Grok v Claude v... - which is best?\n\nTransformation\n\nBy Matthew Sellers\n\nOver the past year, a striking pattern has shown up in the insurance industry's approach to artif",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Insurance Business",
-        "url": "https://www.insurancebusinessmag.com/us/news/technology/the-ai-model-insurers-keep-signing-deals-with-happens-to-be-the-one-users-like-most-588007.aspx"
       }
     ],
     "ai-benchmark": [
@@ -7962,6 +8106,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-image-video": [
       {
+        "name": "OpenAI 上线 GPT Image 2.5，作者实测新版与 image2 的生图差异",
+        "provider": "公众号：卡尔的AI沃茨",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenAI 上线 GPT Image 2.5，主打更快生成、更高清、多轮编辑一致性和区域标注精修，并新增涂鸦绘图与 15 个图片模版功能。API 同步发布 GPT-Image-2.5 Flare（速度提升 50%）和 GPT-Image-2.5 Sunburst（更高精度）。",
+        "description": "OpenAI 上线 GPT Image 2.5，主打更快生成、更高清、多轮编辑一致性和区域标注精修，并新增涂鸦绘图与 15 个图片模版功能。API 同步发布 GPT-Image-2.5 Flare（速度提升 50%）和 GPT-Image-2.5 Sunburst（更高精度）。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "公众号：卡尔的AI沃茨",
+        "url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247510824&idx=1&sn=025a8b7c5fec54d8a00c8632f55f8d98"
+      },
+      {
         "name": "Guanlan AI Applications: Higher Accuracy, Lower Cost, Smarte",
         "provider": "CNHI News",
         "type": "AI 项目/工具",
@@ -8457,23 +8612,6 @@ window.AI_GENERATED_DATA = {
         "watch": "使用该功能时，需注意生成的图像可能违反谷歌的政策，导致账户被封禁。",
         "sourceName": "NewsAPI:generative AI",
         "url": "https://nypost.com/2026/07/31/business/google-earth-ai-image-feature-scraped-after-users-raise-misinformation-concerns/"
-      },
-      {
-        "name": "谷歌撤回 Google Earth AI 图像工具，因生成虚假卫星图像",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "这一事件对多个领域产生了深远的影响。首先，新闻机构和情报分析师可能会重新评估他们对AI生成内容的依赖程度，考虑到虚假信息的潜在风险。其次，谷歌的撤回决定可能促使其他科技公司在推出类似工具时更加谨慎，增强合规性和安全性。此外，用户对AI生成内容的信任度可能会受到影响，特别是在快速变化的冲突环境中，虚假信息的传播速度可能超",
-        "description": "谷歌在推出仅一天后撤回了其 Google Earth 中的新 AI 图像生成工具，原因是研究人员发现该工具能够在真实坐标上生成虚假的战争区域卫星图像。该工具使用 Nano Banana 2 模型，允许用户通过输入文本提示生成逼真的航空场景，但其潜在的滥用风险引发了广泛关注。",
-        "useCases": [
-          "生成真实场景的虚拟模型，帮助城市规划者进行可视化分析。",
-          "在教育领域中，利用AI生成图像来增强学习体验。",
-          "为游戏开发者提供逼真的环境图像，提升游戏的沉浸感。",
-          "辅助科研人员在地理研究中生成可视化数据。",
-          "为市场营销人员创建吸引眼球的广告素材。"
-        ],
-        "watch": "虚假信息的传播可能导致公众误解，影响社会稳定。",
-        "sourceName": "NewsAPI:generative AI",
-        "url": "https://thenextweb.com/news/google-earth-ai-image-generation-rollback-fake-satellite-imagery"
       }
     ],
     "ai-research": [
@@ -10324,8 +10462,8 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-09",
-    "generatedAt": "2026-09-09T04:11:53.544576Z",
-    "total": 12,
+    "generatedAt": "2026-09-09T06:43:33.819665Z",
+    "total": 17,
     "sections": [
       {
         "category": "ai-coding",
@@ -10367,6 +10505,34 @@ window.AI_GENERATED_DATA = {
         ]
       },
       {
+        "category": "ai-agents",
+        "label": "Agent / MCP",
+        "items": [
+          {
+            "title": "PrivEscalate: Measuring and Augmenting the Threat of LLM-Automated Linux Privilege Escalation",
+            "summary": "As Large Language Model (LLM) agents increasingly automate offensive operations across the cyber kill chain, their efficacy in complex local",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.09087v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-08",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "MeClear: Cooperative Game-Theoretic Attribution and Risk-Aware Memory Clearance for Long-Horizon LLM Agents",
+            "summary": "Long horizon Large Language Model (LLM) agents rely on external memory systems to preserve user preferences and task knowledge across extend",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.09115v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-08",
+            "publishedAt": "",
+            "reason": ""
+          }
+        ]
+      },
+      {
         "category": "ai-models",
         "label": "模型发布",
         "items": [
@@ -10390,6 +10556,28 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 2,
             "date": "2026-09-09",
             "publishedAt": "2026-09-09T01:03",
+            "reason": ""
+          },
+          {
+            "title": "It's Not RoPE that Creates Sinks: The Role of Self-Concentration and Value-Non-Mixing in Attention",
+            "summary": "Large Language Models (LLMs) often exhibit \"Attention Sink\" (AS) and the accompanying \"Massive Activations\" (MAs) at the initial position of",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.09085v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-08",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Training-Free Task Vectors for LLM Behavioral Control",
+            "summary": "Task vectors enable post-training model editing by identifying semantically meaningful directions in weight space, typically computed as the",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.09054v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-08",
+            "publishedAt": "",
             "reason": ""
           },
           {
@@ -10451,6 +10639,17 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-09-09",
             "publishedAt": "2026-09-09T03:12",
+            "reason": ""
+          },
+          {
+            "title": "Measuring LLM Sycophancy under Sustained Multi-Turn Pressure",
+            "summary": "Large language models (LLMs) may abandon correct positions when users push back, exhibiting a failure mode known as sycophancy. Existing eva",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.09090v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-08",
+            "publishedAt": "",
             "reason": ""
           }
         ]
