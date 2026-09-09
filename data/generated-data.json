@@ -1,7 +1,62 @@
 {
   "lastUpdated": "2026-09-10",
-  "generatedAt": "2026-09-09T16:56:56.815770Z",
+  "generatedAt": "2026-09-09T19:17:07.466500Z",
   "news": [
+    {
+      "title": "How Heurist Finance built an AI-native investment workbench on Amazon Bedrock AgentCore",
+      "summary": "Learn how Heurist built Heurist Finance, a conversational AI investment workbench, on Amazon Bedrock AgentCore. This customer story shows how AgentCore payments, Identity, Memory, ",
+      "category": "ai-coding",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-10",
+      "publishedAt": "2026-09-10T02:11",
+      "collectedAt": "2026-09-10T03:17",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-heurist-finance-built-an-ai-native-investment-workbench-on-amazon-bedrock-agentcore/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Paul Christiano joins OpenAI Foundation Board",
+      "summary": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
+      "category": "ai-models",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-09-10",
+      "publishedAt": "2026-09-10T01:00",
+      "collectedAt": "2026-09-10T02:07",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Get ready for the game with new football features in Search",
       "summary": "Track live game feeds, explore detailed stats, and get custom fantasy recommendations directly in Search this season.",
@@ -42,6 +97,33 @@
       "sourceDate": "",
       "tags": [],
       "url": "https://blog.google/innovation-and-ai/technology/ai/love-rendered-film/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Simplify and support your TorchServe workloads using Ray Serve Deep Learning Containers",
+      "summary": "TorchServe is no longer maintained, leaving teams to own the entire GPU inference stack. The AWS Ray Serve Deep Learning Container is a supported, pre-tested container with the fra",
+      "category": "ai-models",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-09",
+      "publishedAt": "2026-09-09T23:51",
+      "collectedAt": "2026-09-10T02:07",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/simplify-and-support-your-torchserve-workloads-using-ray-serve-deep-learning-containers/",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -1684,7 +1766,14 @@
         "news",
         "topicResources"
       ],
-      "sourceCount": 1
+      "sourceCount": 2,
+      "relatedSources": [
+        {
+          "source": "RSS · AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/automate-user-level-custom-permissions-for-amazon-quick/",
+          "title": "Automate user-level custom permissions for Amazon Quick"
+        }
+      ]
     },
     {
       "title": "Embed Quick Sight visuals using Cognito user authentication",
@@ -2549,142 +2638,6 @@
       "aiSelected": true,
       "moduleTargets": [
         "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Cliff: Learning Process Rewards from the First Mistake",
-      "summary": "Reinforcement learning with verifiable rewards (RLVR) has emerged as a powerful paradigm for large language model (LLM) post-training, but its reliance on coarse outcome rewards le",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-02",
-      "publishedAt": "",
-      "collectedAt": "2026-09-03T18:57",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-02",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.02817v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Large Language Models (LLMs) for Telecom Root Cause Analysis (RCA): A Structured Reasoning Framework for Evidence-Grounded Diagnosis",
-      "summary": "Root cause analysis (RCA) is a critical task in telecom network operations, but diagnosing performance degradations in modern 5G and emerging 6G networks remains challenging due to",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-02",
-      "publishedAt": "",
-      "collectedAt": "2026-09-03T18:57",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-02",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.02805v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "User Feedback Provides a Unique Signal that LLMs Can not Detect",
-      "summary": "Harnessing naturally occurring feedback from user interactions offers a promising learning signal for Large Language Models (LLMs). However, recent studies suggest this feedback is",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-02",
-      "publishedAt": "",
-      "collectedAt": "2026-09-03T15:10",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-02",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.02859v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Post-Training Language Models for Gold-Medal Performance in Coding Competitions",
-      "summary": "Competitive programming has become a key test of large language model reasoning, with international competitions such as IOI and ICPC representing its most challenging settings. We",
-      "category": "ai-coding",
-      "source": "arXiv",
-      "date": "2026-09-02",
-      "publishedAt": "",
-      "collectedAt": "2026-09-03T15:10",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-02",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.02849v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "REFACTOR-VLA: Unsupervised Library Learning of Typed Motor Programs",
-      "summary": "Most current vision-language-action (VLA) models—such as OpenVLA, π0, RT-2, and RDT-1B—are “monolithic.” This means they generate raw motor commands or very short sequences of acti",
-      "category": "ai-models",
-      "source": "RSS · Apple ML Research",
-      "date": "2026-09-02",
-      "publishedAt": "2026-09-02T08:00",
-      "collectedAt": "2026-09-03T13:53",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://machinelearning.apple.com/research/refactor-vla-motor-programs",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
       ],
       "sourceCount": 1
     }
@@ -5806,6 +5759,17 @@
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Mistral 复盘用 AI Agent 迁移 40000 行 Fortran 77 到 C++ 的经验",
+        "provider": "Mistral AI：News（网页）",
+        "type": "AI 项目/工具",
+        "bestFor": "Mistral 帮助一家欧洲能源运营商将 40000 行 Fortran 77 储层模拟器迁移到 C++，并复盘了方法与经验。",
+        "description": "Mistral 帮助一家欧洲能源运营商将 40000 行 Fortran 77 储层模拟器迁移到 C++，并复盘了方法与经验。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Mistral AI：News（网页）",
+        "url": "https://mistral.ai/news/legacy-code-modernization"
+      },
+      {
         "name": "AgentCX Labs Launches Agent Builder Studio: Agencies and BPO",
         "provider": "WBOC TV-16",
         "type": "AI 项目/工具",
@@ -6233,20 +6197,20 @@
         "watch": "请打开原始来源核对",
         "sourceName": "TechRadar",
         "url": "https://www.techradar.com/pro/security/top-ai-tools-including-claude-codex-and-hermes-installed-suspicious-code-inside-corporate-networks"
-      },
-      {
-        "name": "ServiceNow patches three maximum severity flaws inside its A",
-        "provider": "Startup Fortune",
-        "type": "AI 项目/工具",
-        "bestFor": "ServiceNow disclosed four security vulnerabilities on August 27, three rated a perfect 10.0 on the CVSS scale, that let unauthenticated attackers execute code, ",
-        "description": "ServiceNow disclosed four security vulnerabilities on August 27, three rated a perfect 10.0 on the CVSS scale, that let unauthenticated attackers execute code, alter data, or run a",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Startup Fortune",
-        "url": "https://startupfortune.com/servicenow-patches-three-maximum-severity-flaws-inside-its-ai-agent-platform/"
       }
     ],
     "ai-agents": [
+      {
+        "name": "How Heurist Finance built an AI-native investment workbench ",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Learn how Heurist built Heurist Finance, a conversational AI investment workbench, on Amazon Bedrock AgentCore. This customer story shows how AgentCore payments",
+        "description": "Learn how Heurist built Heurist Finance, a conversational AI investment workbench, on Amazon Bedrock AgentCore. This customer story shows how AgentCore payments, Identity, Memory, ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/how-heurist-finance-built-an-ai-native-investment-workbench-on-amazon-bedrock-agentcore/"
+      },
       {
         "name": "Experience Funnel: A State-Policy Alternating Loop for Self-",
         "provider": "arXiv",
@@ -6675,20 +6639,42 @@
         "watch": "请打开原始来源核对",
         "sourceName": "The Jerusalem Post",
         "url": "https://www.jpost.com/international/article-907807"
-      },
-      {
-        "name": "Agentic Commerce Optimisation: Azoma on Which Platforms Help",
-        "provider": "Yahoo! Finance",
-        "type": "AI 项目/工具",
-        "bestFor": "Harvard Business Review reports that 90% of B2B purchases could flow through AI agent exchanges by 2028. Azoma sets out what agentic commerce optimisation platf",
-        "description": "Harvard Business Review reports that 90% of B2B purchases could flow through AI agent exchanges by 2028. Azoma sets out what agentic commerce optimisation platforms should deliver ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Yahoo! Finance",
-        "url": "https://finance.yahoo.com/technology/ai/articles/agentic-commerce-optimisation-azoma-platforms-091300075.html"
       }
     ],
     "ai-models": [
+      {
+        "name": "Apple 发布 Apple Watch Series 12，搭载全新 Health Sensing System 与 ",
+        "provider": "Apple：Newsroom（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "Apple 发布 Apple Watch Series 12，称其具备可穿戴设备中最准确的心率监测，心率每 5 秒测量一次，HRV 测量频率提升至 24 倍，并新增 0-10 分 readiness 评分。",
+        "description": "Apple 发布 Apple Watch Series 12，称其具备可穿戴设备中最准确的心率监测，心率每 5 秒测量一次，HRV 测量频率提升至 24 倍，并新增 0-10 分 readiness 评分。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Apple：Newsroom（RSS）",
+        "url": "https://www.apple.com/newsroom/2026/09/introducing-apple-watch-series-12-with-the-all-new-health-sensing-system"
+      },
+      {
+        "name": "Apple 发布 iPhone 18 Pro 与 iPhone 18 Pro Max",
+        "provider": "Apple：Newsroom（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "Apple 发布 iPhone 18 Pro 和 iPhone 18 Pro Max，配备带可变光圈的 48MP Fusion 主摄、A20 Pro 芯片和新一代 vapor chamber，eSIM 版 iPhone 18 Pro Max 视频播放最长可达 45 小时。",
+        "description": "Apple 发布 iPhone 18 Pro 和 iPhone 18 Pro Max，配备带可变光圈的 48MP Fusion 主摄、A20 Pro 芯片和新一代 vapor chamber，eSIM 版 iPhone 18 Pro Max 视频播放最长可达 45 小时。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Apple：Newsroom（RSS）",
+        "url": "https://www.apple.com/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max"
+      },
+      {
+        "name": "Apple 发布首款折叠屏 iPhone Duo，起售价 $1，999",
+        "provider": "Apple：Newsroom（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "Apple 发布首款折叠屏 iPhone Duo，展开为 7.6 英寸内屏，合盖后为 5.4 英寸外屏，提供 iPhone 上最大显示面积。搭载 A20 Pro 芯片和蒸汽室散热，iPhone 17 Pro 续航最高 44 小时视频播放，10 月 16 日开启预购、10 月 23 日发售，起售价 $1，999。",
+        "description": "Apple 发布首款折叠屏 iPhone Duo，展开为 7.6 英寸内屏，合盖后为 5.4 英寸外屏，提供 iPhone 上最大显示面积。搭载 A20 Pro 芯片和蒸汽室散热，iPhone 17 Pro 续航最高 44 小时视频播放，10 月 16 日开启预购、10 月 23 日发售，起售价 $1，999。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Apple：Newsroom（RSS）",
+        "url": "https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo"
+      },
       {
         "name": "Get ready for the game with new football features in Search",
         "provider": "RSS",
@@ -7095,39 +7081,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Euronews English",
         "url": "https://www.euronews.com/my-europe/2026/09/07/how-can-new-eu-rules-save-you-hundreds-on-broken-appliances"
-      },
-      {
-        "name": "Jio Rs 3,599 Annual Plan Upgrade: What Extra Data, OTT and A",
-        "provider": "Mashable India",
-        "type": "AI 项目/工具",
-        "bestFor": "Jio 9th anniversary offer brings extra data, OTT subscriptions, AI tools and partner vouchers with the ₹3,599 annual prepaid recharge plan.\n\nReliance Jio is mar",
-        "description": "Jio 9th anniversary offer brings extra data, OTT subscriptions, AI tools and partner vouchers with the ₹3,599 annual prepaid recharge plan.\n\nReliance Jio is marking its ninth anniv",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Mashable India",
-        "url": "https://in.mashable.com/tech/113666/jio-rs-3599-annual-plan-upgrade-what-extra-data-ott-and-ai-benefits-are-included"
-      },
-      {
-        "name": "Applications open for 2027 Hertz Fellowship in science and e",
-        "provider": "Scienmag",
-        "type": "AI 项目/工具",
-        "bestFor": "The Hertz Foundation has officially opened the application window for the 2027 Hertz Fellowship, widely regarded as the most competitive doctoral fellowship ava",
-        "description": "The Hertz Foundation has officially opened the application window for the 2027 Hertz Fellowship, widely regarded as the most competitive doctoral fellowship available to graduate s",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Scienmag: Latest Science and Health News",
-        "url": "https://scienmag.com/applications-open-for-2027-hertz-fellowship-in-science-and-engineering/"
-      },
-      {
-        "name": "The world is about to meet Apple's new CEO. Here are his big",
-        "provider": "Pulse24.com",
-        "type": "AI 项目/工具",
-        "bestFor": "When Apple holds its annual iPhone event on September 9, it'll be the first time in more than a decade that Tim Cook won't introduce the company's latest produc",
-        "description": "When Apple holds its annual iPhone event on September 9, it'll be the first time in more than a decade that Tim Cook won't introduce the company's latest products.\n\nInstead, John T",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Pulse24.com",
-        "url": "https://www.cp24.com/news/world/2026/09/06/the-world-is-about-to-meet-apples-new-ceo-here-are-his-biggest-challenges/"
       }
     ],
     "ai-business": [
@@ -10503,13 +10456,24 @@
   ],
   "dailyReport": {
     "date": "2026-09-10",
-    "generatedAt": "2026-09-09T16:56:56.793738Z",
-    "total": 10,
+    "generatedAt": "2026-09-09T19:17:07.444500Z",
+    "total": 13,
     "sections": [
       {
         "category": "ai-coding",
         "label": "AI 编程",
         "items": [
+          {
+            "title": "How Heurist Finance built an AI-native investment workbench on Amazon Bedrock AgentCore",
+            "summary": "Learn how Heurist built Heurist Finance, a conversational AI investment workbench, on Amazon Bedrock AgentCore. This customer story shows ho",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/how-heurist-finance-built-an-ai-native-investment-workbench-on-amazon-bedrock-agentcore/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-10",
+            "publishedAt": "2026-09-10T02:11",
+            "reason": ""
+          },
           {
             "title": "How GPT-5.6 Sol helps run quantum computing experiments",
             "summary": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubi",
@@ -10539,6 +10503,17 @@
         "label": "模型发布",
         "items": [
           {
+            "title": "Paul Christiano joins OpenAI Foundation Board",
+            "summary": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and st",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-10",
+            "publishedAt": "2026-09-10T01:00",
+            "reason": ""
+          },
+          {
             "title": "Get ready for the game with new football features in Search",
             "summary": "Track live game feeds, explore detailed stats, and get custom fantasy recommendations directly in Search this season.",
             "source": "RSS · Google AI Blog",
@@ -10558,6 +10533,17 @@
             "sourceCount": 1,
             "date": "2026-09-10",
             "publishedAt": "2026-09-10T00:00",
+            "reason": ""
+          },
+          {
+            "title": "Simplify and support your TorchServe workloads using Ray Serve Deep Learning Containers",
+            "summary": "TorchServe is no longer maintained, leaving teams to own the entire GPU inference stack. The AWS Ray Serve Deep Learning Container is a supp",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/simplify-and-support-your-torchserve-workloads-using-ray-serve-deep-learning-containers/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-09",
+            "publishedAt": "2026-09-09T23:51",
             "reason": ""
           },
           {
