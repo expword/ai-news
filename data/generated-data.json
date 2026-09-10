@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-10",
-  "generatedAt": "2026-09-10T02:25:00.102831Z",
+  "generatedAt": "2026-09-10T04:54:51.548335Z",
   "news": [
     {
       "title": "Anthropic 发布四起 Claude 网络安全评测事故的对齐评估报告",
@@ -2494,115 +2494,6 @@
       "moduleTargets": [
         "news",
         "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "From code to diagrams: Agentic architecture documentation with Amazon Bedrock AgentCore",
-      "summary": "Learn how a global interdealer broker built an automated architecture documentation pipeline on Amazon Bedrock AgentCore that analyzes .NET code bases, generates architecture diagr",
-      "category": "ai-coding",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-09-03",
-      "publishedAt": "2026-09-03T02:18",
-      "collectedAt": "2026-09-03T02:57",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/from-code-to-diagrams-agentic-architecture-documentation-with-amazon-bedrock-agentcore/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "How an AWS team detects dashboard content failures at scale using Amazon Bedrock",
-      "summary": "Business intelligence dashboards can fail silently, showing blank, stale, or wrong data even when every infrastructure monitor reports healthy. Learn how an AWS team built an autom",
-      "category": "ai-business",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-09-03",
-      "publishedAt": "2026-09-03T02:21",
-      "collectedAt": "2026-09-03T02:57",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-an-aws-team-detects-dashboard-content-failures-at-scale-using-amazon-bedrock/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Teaching Everyone to Fish for Tokens",
-      "summary": "Nvidia wants you building your own model, not buying from Anthropic/OpenAI.",
-      "category": "ai-models",
-      "source": "RSS · Interconnects (Nathan Lambert)",
-      "date": "2026-08-17",
-      "publishedAt": "2026-08-17T23:07",
-      "collectedAt": "2026-09-10T10:24",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://www.interconnects.ai/p/teaching-everyone-to-fish-for-tokens",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1.5",
-      "scores": {},
-      "score": 56,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "GLM-5.3: How Chinese labs keep stride with the frontier",
-      "summary": "Hint: It&#8217;s really not a distillation story.",
-      "category": "ai-models",
-      "source": "RSS · Interconnects (Nathan Lambert)",
-      "date": "2026-08-15",
-      "publishedAt": "2026-08-15T05:23",
-      "collectedAt": "2026-09-10T10:24",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://www.interconnects.ai/p/glm-53-how-chinese-labs-keep-stride",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1.5",
-      "scores": {},
-      "score": 56,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
       ],
       "sourceCount": 1
     }
@@ -6166,6 +6057,28 @@
     ],
     "ai-agents": [
       {
+        "name": "9 sales tasks that agents are taking over in 2026, and 4 tha",
+        "provider": "Gonzales Inquirer",
+        "type": "AI 项目/工具",
+        "bestFor": "9 sales tasks that agents are taking over in 2026, and 4 that humans have kept\n\nArtificial intelligence is making waves across a wide variety of industries. One",
+        "description": "9 sales tasks that agents are taking over in 2026, and 4 that humans have kept\n\nArtificial intelligence is making waves across a wide variety of industries. One area where many emp",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Gonzales Inquirer",
+        "url": "https://gonzalesinquirer.com/premium/stacker/stories/9-sales-tasks-that-agents-are-taking-over-in-2026-and-4-that-humans-have-kept,198033"
+      },
+      {
+        "name": "The Hidden Layer That Makes Voice AI Sound Human",
+        "provider": "WebProNews",
+        "type": "AI 项目/工具",
+        "bestFor": "Developers once accepted awkward pauses in voice agents. A second or more of dead air. The caller waiting. The system catching up. Those days are ending. Twilio",
+        "description": "Developers once accepted awkward pauses in voice agents. A second or more of dead air. The caller waiting. The system catching up. Those days are ending. Twilio's work on a dedicat",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "WebProNews",
+        "url": "https://www.webpronews.com/the-hidden-layer-that-makes-voice-ai-sound-human/"
+      },
+      {
         "name": "ICYMI: What landed for AI builders in August 2026",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -6582,31 +6495,108 @@
         "watch": "请打开原始来源核对",
         "sourceName": "List.Solar",
         "url": "https://list.solar/news/why-most-ai-agent-pilots/"
-      },
-      {
-        "name": "Why Microcooling Will Be a Critical Enabler of Agentic AI- E",
-        "provider": "EE Times",
-        "type": "AI 项目/工具",
-        "bestFor": "The AI industry is obsessed with compute. Every new generation of hardware promises more power, larger models, more parameters, and increasingly capable AI expe",
-        "description": "The AI industry is obsessed with compute. Every new generation of hardware promises more power, larger models, more parameters, and increasingly capable AI experiences. But as agen",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "EE Times",
-        "url": "https://www.eetimes.com/why-microcooling-will-be-a-critical-enabler-of-agentic-ai/"
-      },
-      {
-        "name": "Nuix Expands Generative AI for Legal Review, Debuts AI Chat ",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "SYDNEY, Sept. 6, 2026 /PRNewswire/ -- Nuix announced the general availability (GA) of its Generative AI (Gen AI) capabilities in Nuix Discover SaaS on September",
-        "description": "SYDNEY, Sept. 6, 2026 /PRNewswire/ -- Nuix announced the general availability (GA) of its Generative AI (Gen AI) capabilities in Nuix Discover SaaS on September 4. Bringing Documen",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://nwitimes.com/online_features/press_releases/article_e4213236-e094-573b-8231-e3879f36236c.html"
       }
     ],
     "ai-models": [
+      {
+        "name": "BMW's Neue Klasse iX3 electric SUV appears in China filing a",
+        "provider": "CnEVPost",
+        "type": "AI 项目/工具",
+        "bestFor": "* Pre-orders are open for the China-specific long-wheelbase Neue Klasse iX3, with prices starting at 269,900 yuan ($39,810).\n\n* The iX3 30L in the filing featur",
+        "description": "* Pre-orders are open for the China-specific long-wheelbase Neue Klasse iX3, with prices starting at 269,900 yuan ($39,810).\n\n* The iX3 30L in the filing features a 235 kW motor an",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "CnEVPost",
+        "url": "https://cnevpost.com/2026/09/08/bmw-neue-klasse-ix3-filing/"
+      },
+      {
+        "name": "11th Airborne Division uses AI to increase lethality during ",
+        "provider": "www.army.mil",
+        "type": "AI 项目/工具",
+        "bestFor": "NORTHERN HOKKAIDO, Japan -- Soldiers from the 11th Airborne Division employed artificial intelligence enabled tools across the battlefield during Yama Sakura 91",
+        "description": "NORTHERN HOKKAIDO, Japan -- Soldiers from the 11th Airborne Division employed artificial intelligence enabled tools across the battlefield during Yama Sakura 91, a trilateral exerc",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "www.army.mil",
+        "url": "https://www.army.mil/article/295198/11th_airborne_division_uses_ai_to_increase_lethality_during_yama_sakura_91"
+      },
+      {
+        "name": "SCX.ai developing package for Apple LLM access with Australi",
+        "provider": "ARN",
+        "type": "AI 项目/工具",
+        "bestFor": "Allowing developers to use Apple's on-device model for one task and an SCX-hosted model for another. endif; ?>\n\nSCX.ai is tapping into Apple's large language mo",
+        "description": "Allowing developers to use Apple's on-device model for one task and an SCX-hosted model for another. endif; ?>\n\nSCX.ai is tapping into Apple's large language model (LLM) flexibilit",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "ARN",
+        "url": "https://www.arnnet.com.au/article/4220448/scx-ai-developing-package-for-apple-llm-access-with-australian-focus.html"
+      },
+      {
+        "name": "Apple Embraces AI as Core Feature in New Products",
+        "provider": "Digital News Report",
+        "type": "AI 项目/工具",
+        "bestFor": "Apple has officially embraced artificial intelligence as a central part of its product strategy during its recent event at Apple Park in Cupertino, California. ",
+        "description": "Apple has officially embraced artificial intelligence as a central part of its product strategy during its recent event at Apple Park in Cupertino, California. The company's new CE",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Digital News Report",
+        "url": "https://www.digitalnewsreport.com/2026/09/apple-embraces-ai-as-core-feature-in-new-products/28127"
+      },
+      {
+        "name": "Apple Announces iOS 27 Rollout Details With Gemini-Powered S",
+        "provider": "Free Press Journal",
+        "type": "AI 项目/工具",
+        "bestFor": "Apple has confirmed that iOS 27 will roll out worldwide from September 14 with a revamped Siri, visual updates and redesigned apps. The update introduces AI-pow",
+        "description": "Apple has confirmed that iOS 27 will roll out worldwide from September 14 with a revamped Siri, visual updates and redesigned apps. The update introduces AI-powered conversations, ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Free Press Journal",
+        "url": "https://www.freepressjournal.in/tech/apple-event-2026-ios-27-announced-rollout-date-compatible-devices-whats-new"
+      },
+      {
+        "name": "Intelligent Machines: September 39th | TWiT.TV",
+        "provider": "TWiT.tv",
+        "type": "AI 项目/工具",
+        "bestFor": "As Apple finally pulls back the curtain on its next-gen Siri AI, we break down what actually works, where it falls short, and how a wave of developer confusion ",
+        "description": "As Apple finally pulls back the curtain on its next-gen Siri AI, we break down what actually works, where it falls short, and how a wave of developer confusion could shape whether ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "TWiT.tv",
+        "url": "https://twit.tv/shows/intelligent-machines/episodes/887"
+      },
+      {
+        "name": "Early Apple Siri AI Can't Read Gmail or WhatsApp Messages | ",
+        "provider": "PYMNTS.com",
+        "type": "AI 项目/工具",
+        "bestFor": "Without access, Siri AI cannot perform tasks such as finding messages within those apps, according to the report, which was based on an early version available ",
+        "description": "Without access, Siri AI cannot perform tasks such as finding messages within those apps, according to the report, which was based on an early version available to app developers.\n\n",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "PYMNTS.com",
+        "url": "https://www.pymnts.com/apple/2026/early-apple-siri-ai-cant-read-gmail-or-whatsapp-messages/"
+      },
+      {
+        "name": "Apple unveils foldable iPhone Duo at September event",
+        "provider": "WATE 6 On Your Side",
+        "type": "AI 项目/工具",
+        "bestFor": "(NewsNation) -- New Apple CEO John Ternus unveiled its first foldable iPhone, dubbed the iPhone Duo, which starts at $1,999, at the company's September event We",
+        "description": "(NewsNation) -- New Apple CEO John Ternus unveiled its first foldable iPhone, dubbed the iPhone Duo, which starts at $1,999, at the company's September event Wednesday.\n\nApple said",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "WATE 6 On Your Side",
+        "url": "https://www.wate.com/news/national/apple-unveils-foldable-iphone-duo-at-september-event/"
+      },
+      {
+        "name": "iOS 27 Update Release Date Is September 14: Full List Of Sup",
+        "provider": "TimesNow",
+        "type": "AI 项目/工具",
+        "bestFor": "After a spectacular iPhone 18 Pro series launch event, Apple has announced that its much-awaited iOS 27 update will be available for compatible iPhones from Sep",
+        "description": "After a spectacular iPhone 18 Pro series launch event, Apple has announced that its much-awaited iOS 27 update will be available for compatible iPhones from September 14, 2026. The",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "TimesNow",
+        "url": "https://www.timesnownews.com/technology-science/ios-27-update-release-date-is-september-14-full-list-of-supported-iphones-new-features-how-to-download-and-install-article-156129831"
+      },
       {
         "name": "Apple unveils first foldable iPhone: 5 takeaways from Wednes",
         "provider": "WCBD 2 - Charleston",
@@ -6947,108 +6937,20 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Blockonomi",
         "url": "https://blockonomi.com/anthropic-abandons-6b-decart-ai-deal-ahead-of-upcoming-public-debut/"
-      },
-      {
-        "name": "AI Does Not Have a Mindset: What Repetition Actually Changes",
-        "provider": "Digital Thought Disruption",
-        "type": "AI 项目/工具",
-        "bestFor": "AI systems can appear to learn when their behavior changes, but that phrase hides several very different mechanisms. Training and fine-tuning can alter model pa",
-        "description": "AI systems can appear to learn when their behavior changes, but that phrase hides several very different mechanisms. Training and fine-tuning can alter model parameters. In-context",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Digital Thought Disruption",
-        "url": "https://digitalthoughtdisruption.com/2026/09/08/ai-repetition-model-behavior/"
-      },
-      {
-        "name": "Beyond Foldables: Chinese Tech Firms Upgrade Chips and Syste",
-        "provider": "City News Service",
-        "type": "AI 项目/工具",
-        "bestFor": "Chinese tech giants Huawei, Xiaomi, and Vivo launched new hardware and strategic roadmaps on Monday ahead of Apple's iPhone's much-anticipated product event.\n\nT",
-        "description": "Chinese tech giants Huawei, Xiaomi, and Vivo launched new hardware and strategic roadmaps on Monday ahead of Apple's iPhone's much-anticipated product event.\n\nThough tri-fold scree",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "City News Service",
-        "url": "https://www.citynewsservice.cn/articles/china-biz-buzz/tech/beyond-foldables-chinese-tech-firms-upgrade-chips-and-systems-ahead-of-apple-launch-5nq5vlbn"
-      },
-      {
-        "name": "Cellulose hydrogel development optimized using gradient boos",
-        "provider": "Scienmag",
-        "type": "AI 项目/工具",
-        "bestFor": "Turning crop leftovers into high-performance, non-toxic superabsorbent gels is one of the more quietly exciting frontiers in green chemistry, and a new study ha",
-        "description": "Turning crop leftovers into high-performance, non-toxic superabsorbent gels is one of the more quietly exciting frontiers in green chemistry, and a new study has pushed it a signif",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Scienmag: Latest Science and Health News",
-        "url": "https://scienmag.com/cellulose-hydrogel-development-optimized-using-gradient-boosting-approach/"
-      },
-      {
-        "name": "China's services trade brings new impetus to an open economy",
-        "provider": "news.cgtn.com",
-        "type": "AI 项目/工具",
-        "bestFor": "Editor's note: Liu Chunsheng, a special commentator for CGTN, is an associate professor at the Beijing-based Central University of Finance and Economics. The ar",
-        "description": "Editor's note: Liu Chunsheng, a special commentator for CGTN, is an associate professor at the Beijing-based Central University of Finance and Economics. The article reflects the a",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "news.cgtn.com",
-        "url": "https://news.cgtn.com/news/2026-09-08/China-s-services-trade-brings-new-impetus-to-an-open-economy-1Qgw3cSAdeE/p.html"
-      },
-      {
-        "name": "ASUS Launches K-12 EmpowerED Hardware Grant | Taiwan News | ",
-        "provider": "Taiwan News",
-        "type": "AI 项目/工具",
-        "bestFor": "Applications now open: Four winning schools will receive a fully equipped ASUS tech lab for STEM, AI, Media, Digital Creativity and Esports\n\nFremont, CA, Sept. ",
-        "description": "Applications now open: Four winning schools will receive a fully equipped ASUS tech lab for STEM, AI, Media, Digital Creativity and Esports\n\nFremont, CA, Sept. 08, 2026 (GLOBE NEWS",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Taiwan News",
-        "url": "https://taiwannews.com.tw/en/news/6435560"
-      },
-      {
-        "name": "South Korea Unveils KAIROS, a Domestic AI for Fully Automate",
-        "provider": "dongascience.com",
-        "type": "AI 项目/工具",
-        "bestFor": "A demonstration of KAIROS, a physical AI integrated manufacturing platform, is underway at KAIST on the 23rd. Provided by KAIST\n\nA domestically developed manufa",
-        "description": "A demonstration of KAIROS, a physical AI integrated manufacturing platform, is underway at KAIST on the 23rd. Provided by KAIST\n\nA domestically developed manufacturing technology p",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "dongascience.com",
-        "url": "https://www.dongascience.com/en/news/76982"
-      },
-      {
-        "name": "Nvidia Gets a $1.47 Billion Supplier Cushion Without Spendin",
-        "provider": "Yahoo! Finance",
-        "type": "AI 项目/工具",
-        "bestFor": "This article first appeared on GuruFocus.\n\nNvidia (NASDAQ:NVDA), the dominant supplier of artificial-intelligence accelerators, secured another boost across its",
-        "description": "This article first appeared on GuruFocus.\n\nNvidia (NASDAQ:NVDA), the dominant supplier of artificial-intelligence accelerators, secured another boost across its manufacturing netwo",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Yahoo! Finance",
-        "url": "https://ca.finance.yahoo.com/news/nvidia-gets-1-47-billion-215008444.html"
-      },
-      {
-        "name": "The Anchor And The Scale: Germany, India, And Applied AI - A",
-        "provider": "Eurasia Review",
-        "type": "AI 项目/工具",
-        "bestFor": "* Mark Carney's line -- middle powers must sit at the table or they are on the menu -- is tested on AI. The U.S. and China own frontier models (2024: 40 notable",
-        "description": "* Mark Carney's line -- middle powers must sit at the table or they are on the menu -- is tested on AI. The U.S. and China own frontier models (2024: 40 notable U.S. models, 15 Chi",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Eurasia Review",
-        "url": "https://www.eurasiareview.com/08092026-the-anchor-and-the-scale-germany-india-and-applied-ai-analysis/"
-      },
-      {
-        "name": "US Lobby's $1.1 Trillion Freight Rail Electrification Study ",
-        "provider": "RocketNews | Top News Stories From Around the Globe",
-        "type": "AI 项目/工具",
-        "bestFor": "The Association of American Railroads commissioned HDR to assess the costs of installing catenary electric systems across approximately 105,000 to 139,000 track",
-        "description": "The Association of American Railroads commissioned HDR to assess the costs of installing catenary electric systems across approximately 105,000 to 139,000 track-miles of the Class ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RocketNews | Top News Stories From Around the Globe",
-        "url": "https://rocketnews.com/2026/09/us-lobbys-1-1-trillion-freight-rail-electrification-study-intentionally-asked-the-wrong-question/"
       }
     ],
     "ai-business": [
+      {
+        "name": "What Happens To Books When AI Does The Reading For Us",
+        "provider": "TimesNow",
+        "type": "AI 项目/工具",
+        "bestFor": "Are We Still Reading If AI Reads The Book For Us (Picture Credit - iStock)\n\nReading has always demanded something inconvenient from us: time. A novel refuses to",
+        "description": "Are We Still Reading If AI Reads The Book For Us (Picture Credit - iStock)\n\nReading has always demanded something inconvenient from us: time. A novel refuses to reveal its ending s",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "TimesNow",
+        "url": "https://www.timesnownews.com/lifestyle/books/what-happens-to-books-when-ai-does-the-reading-for-us-article-156130419"
+      },
       {
         "name": "META: Apple Ultra-Luxury Foldable iPhone Aims Past Samsung, ",
         "provider": "Stocktwits",
@@ -7477,17 +7379,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "NASDAQ Stock Market",
         "url": "https://www.nasdaq.com/articles/tim-cooks-era-ending-apple-stock-buy-under-john-ternus"
-      },
-      {
-        "name": "ImExHS Ltd (ASX:IME) (H1 2026) Earnings Call Highlights: EBI",
-        "provider": "Yahoo! Finance",
-        "type": "AI 项目/工具",
-        "bestFor": "This article first appeared on GuruFocus.\n\n* Sales Revenue: $16 million, up 17% (up 13% on a constant-currency basis).\n\n* Annual Recurring Revenue (ARR): $36.8 ",
-        "description": "This article first appeared on GuruFocus.\n\n* Sales Revenue: $16 million, up 17% (up 13% on a constant-currency basis).\n\n* Annual Recurring Revenue (ARR): $36.8 million, up 12% as r",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Yahoo! Finance",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/imexhs-ltd-asx-ime-h1-090029373.html"
       }
     ],
     "ai-benchmark": [
@@ -10421,7 +10312,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-10",
-    "generatedAt": "2026-09-10T02:25:00.079825Z",
+    "generatedAt": "2026-09-10T04:54:51.526334Z",
     "total": 17,
     "sections": [
       {
