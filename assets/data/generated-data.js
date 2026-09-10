@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-10",
-  "generatedAt": "2026-09-10T10:07:08.986744Z",
+  "generatedAt": "2026-09-10T12:43:25.585146Z",
   "news": [
     {
       "title": "Anthropic 发布四起 Claude 网络安全评测事故的对齐评估报告",
@@ -5399,102 +5399,61 @@ window.AI_GENERATED_DATA = {
       "date": "2026-08-05"
     },
     {
-      "name": "InternLM/Intern-S2-Mobius",
-      "lang": "Repo",
-      "category": "Agent 框架",
-      "description": "Intern-S2-Mobius 是一个为开发者提供的智能代理框架，支持快速构建和部署智能应用，具备灵活性和可扩展性。",
-      "details": "Intern-S2-Mobius 旨在解决智能代理开发中的复杂性问题，提供了一个易于使用的框架，帮助开发者快速构建智能应用。与其他同类产品如 Rasa 和 Botpress 相比，Intern-S2-Mobius 更加注重灵活性和可扩展性，允许开发者根据需求自定义功能。该项目使用 Python 语言开发，采用 MIT 许可证，适合希望快速开发智能代理的开发者使用，而不推荐给对复杂配置不感兴趣的用户。",
-      "features": [
-        "支持多种智能代理模型",
-        "提供丰富的 API 接口",
-        "支持自定义插件扩展",
-        "集成多种数据源",
-        "易于部署和维护"
-      ],
-      "useCases": [
-        "构建智能客服系统",
-        "开发个性化推荐引擎",
-        "实现自动化任务处理",
-        "集成第三方服务进行数据分析"
-      ],
-      "quickStart": [
-        "git clone https://github.com/InternLM/Intern-S2-Mobius.git",
-        "cd Intern-S2-Mobius",
-        "pip install -r requirements.txt",
-        "python run.py"
-      ],
-      "why": "Intern-S2-Mobius 通过简化智能代理的开发流程，帮助开发者更快速地实现功能。该项目刚刚发布，尚无 star 数，但其灵活的架构和丰富的功能使其在同类产品中脱颖而出，适合希望快速上手的开发者。",
-      "tags": [
-        "智能代理",
-        "开发框架",
-        "Python"
-      ],
-      "stars": "0 stars",
-      "url": "https://github.com/InternLM/Intern-S2-Mobius",
-      "source": "GitHub · 上海AI实验室 书生",
-      "date": "2026-08-05"
-    },
-    {
-      "name": "InternLM/WildClawBench",
-      "lang": "Python",
-      "category": "Coding Agent",
-      "description": "这是一个用于在 OpenClaw 环境中评估 AI 代理的基准工具，突出其在真实环境中的应用能力。",
-      "details": "WildClawBench 提供了一个在真实环境中评估 AI 代理的基准测试框架，旨在帮助研究人员和开发者测试和比较不同 AI 代理的性能。与其他基准测试工具（如 OpenAI Gym 和 Unity ML-Agents）相比，WildClawBench 更加专注于真实世界的应用场景，提供了更具挑战性的测试环境。该项目使用 Python 开发，采用 MIT 许可证，适合希望在复杂环境中测试 AI 代理的开发者和研究人员，不推荐初学者使用。",
-      "features": [
-        "提供真实环境中的基准测试",
-        "支持多种 AI 代理的评估",
-        "易于集成到现有项目中",
-        "提供详细的性能分析报告",
-        "支持自定义测试场景"
-      ],
-      "useCases": [
-        "评估新开发的 AI 代理在真实环境中的表现",
-        "与现有 AI 代理进行性能比较",
-        "测试不同算法在复杂场景下的适应能力"
-      ],
-      "quickStart": [
-        "git clone https://github.com/InternLM/WildClawBench.git",
-        "cd WildClawBench",
-        "pip install -r requirements.txt",
-        "python run_benchmark.py"
-      ],
-      "why": "WildClawBench 通过提供真实环境中的基准测试，帮助开发者更准确地评估 AI 代理的性能。该项目目前已有 500 stars，显示出良好的社区关注度。与其他基准测试工具相比，它在复杂场景下的适应能力更强，适合需要高真实度评估的开发者。",
-      "tags": [
-        "AI 代理",
-        "基准测试",
-        "真实环境"
-      ],
-      "url": "https://github.com/InternLM/WildClawBench",
-      "stars": "500 stars",
-      "source": "GitHub · 上海AI实验室 书生",
-      "date": "2026-08-05"
-    },
-    {
-      "name": "QwenLM/qwen-mm-plugins-hub",
-      "lang": "HTML",
-      "description": "A documentation for Qwen-MM-Plugins",
-      "stars": "1 stars",
-      "why": "国产大模型厂商 通义千问 Qwen 的最新开源动态/模型发布，属一手信源。",
-      "url": "https://github.com/QwenLM/qwen-mm-plugins-hub",
-      "source": "GitHub · 通义千问 Qwen",
+      "name": "deepseek-ai/DeepJIT",
+      "lang": "C++",
+      "description": "A lightweight library for xPU kernel JIT compilation",
+      "stars": "133 stars",
+      "why": "国产大模型厂商 DeepSeek 的最新开源动态/模型发布，属一手信源。",
+      "url": "https://github.com/deepseek-ai/DeepJIT",
+      "source": "GitHub · DeepSeek",
       "tier": "T1",
       "category": "Coding Agent",
-      "details": "A documentation for Qwen-MM-Plugins",
+      "details": "A lightweight library for xPU kernel JIT compilation",
       "features": [],
       "useCases": [],
       "quickStart": []
     },
     {
-      "name": "OpenBMB/Meshy",
-      "lang": "Python",
-      "description": "面壁智能 MiniCPM 开源项目。",
-      "stars": "89 stars",
-      "why": "国产大模型厂商 面壁智能 MiniCPM 的最新开源动态/模型发布，属一手信源。",
-      "url": "https://github.com/OpenBMB/Meshy",
-      "source": "GitHub · 面壁智能 MiniCPM",
+      "name": "deepseek-ai/FlashMLA",
+      "lang": "C++",
+      "description": "FlashMLA: Efficient Multi-head Latent Attention Kernels",
+      "stars": "12911 stars",
+      "why": "国产大模型厂商 DeepSeek 的最新开源动态/模型发布，属一手信源。",
+      "url": "https://github.com/deepseek-ai/FlashMLA",
+      "source": "GitHub · DeepSeek",
       "tier": "T1",
       "category": "Coding Agent",
-      "details": "面壁智能 MiniCPM 开源项目。",
+      "details": "FlashMLA: Efficient Multi-head Latent Attention Kernels",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
+      "name": "deepseek-ai/deepseek-recipe",
+      "lang": "Rust",
+      "description": "DeepSeek 开源项目。",
+      "stars": "106 stars",
+      "why": "国产大模型厂商 DeepSeek 的最新开源动态/模型发布，属一手信源。",
+      "url": "https://github.com/deepseek-ai/deepseek-recipe",
+      "source": "GitHub · DeepSeek",
+      "tier": "T1",
+      "category": "Coding Agent",
+      "details": "DeepSeek 开源项目。",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
+      "name": "deepseek-ai/DeepSelect",
+      "lang": "Cuda",
+      "description": "DeepSelect: TopK kernels for DeepSeek Sparse Attention (DSA) and Samplers",
+      "stars": "168 stars",
+      "why": "国产大模型厂商 DeepSeek 的最新开源动态/模型发布，属一手信源。",
+      "url": "https://github.com/deepseek-ai/DeepSelect",
+      "source": "GitHub · DeepSeek",
+      "tier": "T1",
+      "category": "Coding Agent",
+      "details": "DeepSelect: TopK kernels for DeepSeek Sparse Attention (DSA) and Samplers",
       "features": [],
       "useCases": [],
       "quickStart": []
@@ -6499,6 +6458,61 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-models": [
       {
+        "name": "Google PPA boosts Loviisa life ex - Nuclear Engineering Inte",
+        "provider": "Nuclear Engineering International",
+        "type": "AI 项目/工具",
+        "bestFor": "Alphabet's Google has committed to a €13bn ($15.1bn) investment in Finland - Google's largest single capital deployment in Europe to date. Planned for execution",
+        "description": "Alphabet's Google has committed to a €13bn ($15.1bn) investment in Finland - Google's largest single capital deployment in Europe to date. Planned for execution across 2027 and 202",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Nuclear Engineering International",
+        "url": "https://www.neimagazine.com/news/google-ppa-boosts-loviisa-life-ex/"
+      },
+      {
+        "name": "Apple unveils foldable iPhone Duo at September event",
+        "provider": "NewsChannel 9",
+        "type": "AI 项目/工具",
+        "bestFor": "(NewsNation) -- New Apple CEO John Ternus unveiled its first foldable iPhone, dubbed the iPhone Duo, which starts at $1,999, at the company's September event We",
+        "description": "(NewsNation) -- New Apple CEO John Ternus unveiled its first foldable iPhone, dubbed the iPhone Duo, which starts at $1,999, at the company's September event Wednesday.\n\nApple said",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsChannel 9",
+        "url": "https://www.localsyr.com/news/local-news/apple-rumored-to-reveal-foldable-iphone-at-september-event/"
+      },
+      {
+        "name": "Can AI be your interior designer? Not quite, but it can act ",
+        "provider": "Boston",
+        "type": "AI 项目/工具",
+        "bestFor": "Eva Barbier was overwhelmed with options while renovating her home office.\n\nThe \"fairly large\" third-floor space of her home in Newton's Waban village needed to",
+        "description": "Eva Barbier was overwhelmed with options while renovating her home office.\n\nThe \"fairly large\" third-floor space of her home in Newton's Waban village needed to serve multiple func",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Boston",
+        "url": "https://www.boston.com/real-estate/home-improvement/2026/09/10/ai-interior-design-chatgpt-google-gemini/"
+      },
+      {
+        "name": "John Ternus Borrowed From Four Apple CEOs In One Keynote, An",
+        "provider": "Gadgets Now",
+        "type": "AI 项目/工具",
+        "bestFor": "John Ternus led Apple's Surprise and Shine keynote on 9 September 2026, his first as chief executive. He echoed Steve Jobs with a turtleneck, a \"one more thing\"",
+        "description": "John Ternus led Apple's Surprise and Shine keynote on 9 September 2026, his first as chief executive. He echoed Steve Jobs with a turtleneck, a \"one more thing\" reveal and a 2007-s",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Gadgets Now",
+        "url": "https://gadgetsnow.indiatimes.com/tech-news/john-ternus-borrowed-from-four-apple-ceos-in-one-keynote-and-only-one-was-jobs/articleshow/134001506.cms"
+      },
+      {
+        "name": "Samsung Galaxy Buds3 FE Drop Near Their Lowest Price Just as",
+        "provider": "Kotaku",
+        "type": "AI 项目/工具",
+        "bestFor": "A fast-selling Amazon deal has dropped the Samsung Galaxy Buds3 FE down to just $110, a steep drop-off from their $150 list price. That $40 discount marks the f",
+        "description": "A fast-selling Amazon deal has dropped the Samsung Galaxy Buds3 FE down to just $110, a steep drop-off from their $150 list price. That $40 discount marks the fastest route into Sa",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Kotaku",
+        "url": "https://kotaku.com/samsung-galaxy-buds3-fe-drop-near-their-lowest-price-just-as-apple-unveils-airpods-5-2000732988"
+      },
+      {
         "name": "From alerts to action: how Varun Kumar Reddy Gaddam is shapi",
         "provider": "India News, Breaking News, Entertainment News | India.com",
         "type": "AI 项目/工具",
@@ -6882,64 +6896,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "The Korea Times",
         "url": "https://www.koreatimes.co.kr/opinion/20260909/dont-be-seduced-by-the-language-of-ai"
-      },
-      {
-        "name": "Constellation Energy's Biggest AI Power Deal Doesn't Start P",
-        "provider": "Yahoo! Finance",
-        "type": "AI 项目/工具",
-        "bestFor": "In June of last year, Meta Platforms (NASDAQ:META) agreed to buy the clean energy attributes of Constellation Energy's (NASDAQ:CEG) Clinton Clean Energy Center ",
-        "description": "In June of last year, Meta Platforms (NASDAQ:META) agreed to buy the clean energy attributes of Constellation Energy's (NASDAQ:CEG) Clinton Clean Energy Center in Illinois for 20 y",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Yahoo! Finance",
-        "url": "https://finance.yahoo.com/energy/articles/constellation-energys-biggest-ai-power-235801730.html"
-      },
-      {
-        "name": "Amazon SageMaker Feature Store introduces UpdateRecord for f",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Amazon SageMaker Feature Store now supports feature-level writes. With the new UpdateRecord API, you can update one or more feature values in a single call with",
-        "description": "Amazon SageMaker Feature Store now supports feature-level writes. With the new UpdateRecord API, you can update one or more feature values in a single call without reading or rewri",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-feature-store-introduces-updaterecord-for-feature-level-writes/"
-      },
-      {
-        "name": "Anthropic 讲解用 Claude Platform 降低成本并提升性能的三个方法",
-        "provider": "X：Claude Devs (@ClaudeDevs)",
-        "type": "AI 项目/工具",
-        "bestFor": "Anthropic 团队文章指出，优化 prompt cache 命中率、清除升级到前沿 Claude 模型后的提示词反模式、校准 effort 三个手段可在不牺牲性能的情况下降低成本。",
-        "description": "Anthropic 团队文章指出，优化 prompt cache 命中率、清除升级到前沿 Claude 模型后的提示词反模式、校准 effort 三个手段可在不牺牲性能的情况下降低成本。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "X：Claude Devs (@ClaudeDevs)",
-        "url": "https://x.com/ClaudeDevs/status/2097369738968195513"
-      },
-      {
-        "name": "OpenAI expands initiatives to support journalism from classr",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.",
-        "description": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · OpenAI Blog",
-        "url": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms"
-      },
-      {
-        "name": "From Barrier to Bridge: How AI Live Translation Is Powering ",
-        "provider": "The Manila times",
-        "type": "AI 项目/工具",
-        "bestFor": "SHENZHEN, China, Sept. 08, 2026 (GLOBE NEWSWIRE) -- Timekettle announces its new AI live translation platform, PolyPal, which enables real-time multilingual com",
-        "description": "SHENZHEN, China, Sept. 08, 2026 (GLOBE NEWSWIRE) -- Timekettle announces its new AI live translation platform, PolyPal, which enables real-time multilingual communication across me",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Manila times",
-        "url": "https://www.manilatimes.net/2026/09/08/tmt-newswire/globenewswire/from-barrier-to-bridge-how-ai-live-translation-is-powering-the-multilingual-era/2420831"
       }
     ],
     "ai-business": [
+      {
+        "name": "Apple iOS 27 update: Release date, new AI-powered Siri featu",
+        "provider": "Zee Business",
+        "type": "AI 项目/工具",
+        "bestFor": "Apple has announced the release date for the next iOS major update for the iPhone, which is iOS 27. The firm revealed the launch in its 'Surprise and Shine' eve",
+        "description": "Apple has announced the release date for the next iOS major update for the iPhone, which is iOS 27. The firm revealed the launch in its 'Surprise and Shine' event, nearly three mon",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Zee Business",
+        "url": "https://www.zeebiz.com/technology/news-apple-ios-27-update-release-date-new-ai-powered-siri-features-liquid-glass-changes-and-compatible-iphones-401989"
+      },
       {
         "name": "Can AI replace leadership? Tasc chief says firms still searc",
         "provider": "Khaleej times",
@@ -7368,17 +7338,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Computer Weekly",
         "url": "https://www.computerweekly.com/blog/Data-Matters/AI-needs-a-map-not-more-horsepower"
-      },
-      {
-        "name": "With Tim Cook's Era Ending, Is Apple Stock a Buy Under John ",
-        "provider": "Yahoo! Finance",
-        "type": "AI 项目/工具",
-        "bestFor": "The Tim Cook era at Apple (NASDAQ: AAPL) has come to an end. Cook took over from Apple Co-Founder Steve Jobs, who was then in ill health and passed away soon af",
-        "description": "The Tim Cook era at Apple (NASDAQ: AAPL) has come to an end. Cook took over from Apple Co-Founder Steve Jobs, who was then in ill health and passed away soon after. During his tenu",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Yahoo! Finance",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/tim-cooks-era-ending-apple-103500617.html"
       }
     ],
     "ai-benchmark": [
@@ -10302,7 +10261,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-10",
-    "generatedAt": "2026-09-10T10:07:08.964773Z",
+    "generatedAt": "2026-09-10T12:43:25.562168Z",
     "total": 17,
     "sections": [
       {
