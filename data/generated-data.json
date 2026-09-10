@@ -1,7 +1,35 @@
 {
   "lastUpdated": "2026-09-11",
-  "generatedAt": "2026-09-10T18:16:46.199150Z",
+  "generatedAt": "2026-09-10T20:40:03.592625Z",
   "news": [
+    {
+      "title": "Amazon Quick is now generally available on desktop",
+      "summary": "Your teams get an AI assistant that handles real work while your data stays in your environment and your conversations stay private Today, the Amazon Quick desktop application is g",
+      "category": "ai-models",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-11",
+      "publishedAt": "2026-09-11T02:16",
+      "collectedAt": "2026-09-11T03:30",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/amazon-quick-is-now-generally-available-on-desktop/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Build an end-to-end RFI questionnaire workflow using Amazon Quick Automate",
       "summary": "Learn how to build an end-to-end RFI questionnaire workflow with Amazon Quick Automate. Read a multi-tab RFI workbook from Amazon S3, use natural-language prompts to extract and st",
@@ -123,6 +151,33 @@
       "sourceDate": "",
       "tags": [],
       "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Introducing ChatGPT for Financial Services",
+      "summary": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
+      "category": "ai-research",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-09-10",
+      "publishedAt": "2026-09-10T15:00",
+      "collectedAt": "2026-09-11T03:30",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/introducing-chatgpt-financial-services",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -472,6 +527,224 @@
       "aiSelected": true,
       "moduleTargets": [
         "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "From Symbolic Perception to Logical Deduction: A Framework for Guiding Language Models in Geometric Reasoning",
+      "summary": "Plane geometry remains a significant challenge in AI, requiring the integration of visual perception and mathematical reasoning. While Large Multimodal Models (LMMs) naturally hand",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-09-09",
+      "publishedAt": "",
+      "collectedAt": "2026-09-11T03:30",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-09",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.10335v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Ensembling LLMs for AI-Augmented Cybersecurity Software Requirements Generation",
+      "summary": "Translating high-level controls from security standards into concrete, system-specific requirements is central to cybersecurity requirements engineering. Large language models (LLM",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-09-09",
+      "publishedAt": "",
+      "collectedAt": "2026-09-11T03:30",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-09",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.10316v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Total Simulated Survey Error: Designing and Diagnosing Survey Responses from Large Language Models",
+      "summary": "Large Language models (LLMs), having been trained on vast amounts of human-generated data, may encode the attitudes and behaviors of these humans. As such, LLMs show promise in mim",
+      "category": "ai-coding",
+      "source": "arXiv",
+      "date": "2026-09-09",
+      "publishedAt": "",
+      "collectedAt": "2026-09-11T03:30",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-09",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.10280v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Why Is Video Still So Expensive? A Survey of Inference-Efficiency Mechanisms in Video and Audiovisual LLMs",
+      "summary": "Video understanding has rapidly evolved toward video large language models (VideoLLMs): systems that couple video representations with pretrained large language models and conditio",
+      "category": "ai-image-video",
+      "source": "arXiv",
+      "date": "2026-09-09",
+      "publishedAt": "",
+      "collectedAt": "2026-09-11T03:30",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-09",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.10355v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Beyond One-Size-Fits-All: Sample-Adaptive Strategy Routing for Vision Token Pruning in MLLMs",
+      "summary": "Multimodal large language models (MLLMs) process hundreds or thousands of visual tokens per image, incurring prohibitive inference costs. While existing vision token pruning method",
+      "category": "ai-benchmark",
+      "source": "arXiv",
+      "date": "2026-09-09",
+      "publishedAt": "",
+      "collectedAt": "2026-09-11T03:30",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-09",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.10346v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Retrofitting Code Using LLMs to Support Exceptional Behavior",
+      "summary": "Exception Related Code (ERC), which includes throw statements, conditions (if statements) that guard those throw statements, and try/catch blocks, is an essential component of soft",
+      "category": "ai-coding",
+      "source": "arXiv",
+      "date": "2026-09-09",
+      "publishedAt": "",
+      "collectedAt": "2026-09-11T03:30",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-09",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.10397v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Maverick: Private and Verifiable LLM Inference Made Practical via Matrix-Vector Multiplication Delegation",
+      "summary": "Open-source large language models (LLMs) are increasingly competitive with closed-source models while offering transparency and the ability to run inference without exposing user i",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-09-09",
+      "publishedAt": "",
+      "collectedAt": "2026-09-11T03:30",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-09",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.10264v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "DiSCo: A Distribution-First Steering and Cultural Prior Evaluation Framework for Measuring Cultural Preference Bias in LLMs",
+      "summary": "Large language models (LLMs) are increasingly deployed in globally used assistants, yet their default choices in culturally grounded everyday situations can systematically favour s",
+      "category": "ai-benchmark",
+      "source": "arXiv",
+      "date": "2026-09-09",
+      "publishedAt": "",
+      "collectedAt": "2026-09-11T03:30",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-09",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.10253v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
       ],
       "sourceCount": 1
     },
@@ -2458,257 +2731,6 @@
       "sourceDate": "2026-09-03",
       "tags": [],
       "url": "http://arxiv.org/abs/2609.04172v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "When Models Edit Too Much: On the Fidelity of Minimal Code Edits",
-      "summary": "Large language models (LLMs) are increasingly used to edit existing code, but correctness alone is not enough: useful repairs should also be minimal, reviewable, and faithful to th",
-      "category": "ai-coding",
-      "source": "arXiv",
-      "date": "2026-09-03",
-      "publishedAt": "",
-      "collectedAt": "2026-09-04T14:45",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-03",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.04061v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Knowledge Acquisition During Pre-training? Large Language Models Learn Better With Auxiliary Views",
-      "summary": "Gaps remain in our understanding of how large language models (LLMs) acquire knowledge during pre-training. We posit that auxiliary views, reformulations of knowledge, are causally",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-03",
-      "publishedAt": "",
-      "collectedAt": "2026-09-04T14:45",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-03",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.04180v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "SENTINEL-RL: Offloading Topological Reasoning from LLM Agents in the Security Operations Center",
-      "summary": "Large language model (LLM) agents are increasingly proposed as autonomous SOC analysts, but two limitations make them unreliable at enterprise scale: a finite context window cannot",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-09-03",
-      "publishedAt": "",
-      "collectedAt": "2026-09-04T14:45",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-03",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.04159v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Epistemic Warrant for LLM Recommendations: Characterizing the Basis for Reliance When Ground Truth Is Unavailable",
-      "summary": "Large language models are increasingly used to support organizational decisions, yet users often lack a principled basis for assessing whether to rely on a specific recommendation.",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-03",
-      "publishedAt": "",
-      "collectedAt": "2026-09-04T14:45",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-03",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.04127v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "LabelMate: An LLM-Driven Framework for Refined Issue Report Labeling",
-      "summary": "Software users often submit issue reports to a product's issue tracking system to report defects, suggest enhancements, or raise other product-related concerns. Labeling these issu",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-03",
-      "publishedAt": "",
-      "collectedAt": "2026-09-04T14:45",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-03",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.04055v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "The Dice Roll Method: A Standardized Protocol for Repeated-Query Auditing of Large Language Model Brand Recommendations",
-      "summary": "Background: Researchers increasingly use repeated identical prompts to audit stochastic variation in large language model (LLM) brand recommendations, yet no standardized protocol ",
-      "category": "ai-research",
-      "source": "arXiv",
-      "date": "2026-09-03",
-      "publishedAt": "",
-      "collectedAt": "2026-09-04T14:45",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-03",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.04047v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
-      "summary": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.",
-      "category": "ai-models",
-      "source": "RSS · OpenAI Blog",
-      "date": "2026-09-03",
-      "publishedAt": "2026-09-03T21:15",
-      "collectedAt": "2026-09-04T04:53",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://openai.com/index/daybreak-for-frontline-defenders",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Safety overview: GPT-6 Astra",
-      "summary": "GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework.",
-      "category": "ai-models",
-      "source": "RSS · OpenAI Blog",
-      "date": "2026-09-03",
-      "publishedAt": "2026-09-03T08:00",
-      "collectedAt": "2026-09-04T04:53",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://openai.com/index/safety-overview-gpt-6-astra",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 2,
-      "relatedSources": [
-        {
-          "source": "RSS · AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/take-on-your-most-ambitious-work-with-gpt-6-astra-on-amazon-bedrock/",
-          "title": "Take on your most ambitious work with GPT-6 Astra on Amazon Bedrock"
-        }
-      ]
-    },
-    {
-      "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
-      "summary": "",
-      "category": "ai-models",
-      "source": "RSS · Hugging Face Blog",
-      "date": "2026-09-03",
-      "publishedAt": "2026-09-03T08:00",
-      "collectedAt": "2026-09-04T01:21",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -5801,6 +5823,17 @@
   "topicResources": {
     "ai-coding": [
       {
+        "name": "OpenAI 发布 Agents API 公测版",
+        "provider": "OpenAI：官网动态（RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenAI 推出 Agents API 公开测试版，将驱动 Codex 的 harness 与基础设施通过单次 API 调用开放给开发者，托管在云端。",
+        "description": "OpenAI 推出 Agents API 公开测试版，将驱动 Codex 的 harness 与基础设施通过单次 API 调用开放给开发者，托管在云端。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+        "url": "https://openai.com/index/introducing-the-agents-api"
+      },
+      {
         "name": "Swarmchasers 追踪疑似 OpenAI 智能体，Anthropic 复查自身四起安全事件，而思维链可读性正受 ",
         "provider": "The Decoder：AI News（RSS）",
         "type": "AI 项目/工具",
@@ -6228,17 +6261,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Times Square Chronicles Newspaper - T2C - Times Square News",
         "url": "https://t2conline.com/ai-models-are-getting-powerful-enough-that-companies-are-hiring-hackers-to-attack-them-before-customers-do/"
-      },
-      {
-        "name": "Rogue AI agents on the loose",
-        "provider": "Macau Daily Times",
-        "type": "AI 项目/工具",
-        "bestFor": "The evolution of language models into autonomous artificial intelligence agents -- able to use tools, execute code and browse the web independently -- has intro",
-        "description": "The evolution of language models into autonomous artificial intelligence agents -- able to use tools, execute code and browse the web independently -- has introduced a cybersecurit",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Macau Daily Times",
-        "url": "https://macaudailytimes.com.mo/rogue-ai-agents-on-the-loose.html"
       }
     ],
     "ai-agents": [
@@ -6685,6 +6707,17 @@
     ],
     "ai-models": [
       {
+        "name": "Amazon Quick is now generally available on desktop",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Your teams get an AI assistant that handles real work while your data stays in your environment and your conversations stay private Today, the Amazon Quick desk",
+        "description": "Your teams get an AI assistant that handles real work while your data stays in your environment and your conversations stay private Today, the Amazon Quick desktop application is g",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/amazon-quick-is-now-generally-available-on-desktop/"
+      },
+      {
         "name": "OpenAI 在 API 中推出全双工语音模型 GPT-Live-1",
         "provider": "OpenAI：官网动态（RSS",
         "type": "AI 项目/工具",
@@ -7112,17 +7145,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Analytics Insight",
         "url": "https://www.analyticsinsight.net/apps/logitech-mx-keypad-all-you-need-to-know-about-the-multi-app-ai-control-center-for-developers"
-      },
-      {
-        "name": "Computing services revenue exceeds 80 bln yuan in SW China's",
-        "provider": "People's Daily, China",
-        "type": "AI 项目/工具",
-        "bestFor": "Photo shows a data center of Huawei Cloud in Gui'an New Area, Guiyang, southwest China's Guizhou province. (People's Daily Online/Jia Zhi)\n\nToday, an increasing",
-        "description": "Photo shows a data center of Huawei Cloud in Gui'an New Area, Guiyang, southwest China's Guizhou province. (People's Daily Online/Jia Zhi)\n\nToday, an increasing number of smart app",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "People's Daily, China",
-        "url": "https://en.people.cn/n3/2026/0909/c90000-20497514.html"
       }
     ],
     "ai-business": [
@@ -8142,6 +8164,17 @@
     ],
     "ai-image-video": [
       {
+        "name": "Why Is Video Still So Expensive? A Survey of Inference-Effic",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Video understanding has rapidly evolved toward video large language models (VideoLLMs): systems that couple video representations with pretrained large language",
+        "description": "Video understanding has rapidly evolved toward video large language models (VideoLLMs): systems that couple video representations with pretrained large language models and conditio",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2609.10355v1"
+      },
+      {
         "name": "OpenAI 在 API 发布 GPT-Image-2.5 Flare 和 Sunburst 图像模型",
         "provider": "X：OpenAI Developers (@OpenAIDevs)",
         "type": "AI 项目/工具",
@@ -8623,24 +8656,20 @@
         "watch": "API 使用费用可能超出预算，尤其是在生成大量图像时。",
         "sourceName": "Currents:generative AI",
         "url": "https://dev.to/paswkeria/picking-a-text-to-image-api-for-marketing-posters-and-social-ads-style-control-upscale-21lg"
-      },
-      {
-        "name": "苹果股价暴跌近10%，供应链压力影响增长预期",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "苹果的供应链问题可能会影响到其产品的交付时间，进而影响消费者的购买决策。随着AI基础设施的扩张，其他科技公司也可能面临类似的供应链挑战，导致整个行业的生产能力下降。此外，苹果的服务业务增长放缓，可能会影响其整体盈利能力，进而影响投资者信心。",
-        "description": "苹果公司在周五遭遇五年内最大单日股价下跌，跌幅接近10%。公司发布的营收预期低于市场预期，显示出与人工智能相关的全球供应链限制开始影响其满足客户需求的能力。分析师指出，苹果的供应链灵活性受到严重挑战，且AI基础设施的快速扩张加剧了关键组件的短缺。",
-        "useCases": [
-          "分析苹果的财务报告，评估投资风险。",
-          "监控供应链动态，调整采购策略。",
-          "研究AI对硬件市场的影响，制定产品开发计划。"
-        ],
-        "watch": "苹果的供应链依赖于少数关键供应商，任何中断都可能导致生产延误。",
-        "sourceName": "NewsData.io:artificial intelligence",
-        "url": "http://www.brandiconimage.com/2026/08/apple-shares-tumble-nearly-10-as-supply.html"
       }
     ],
     "ai-research": [
+      {
+        "name": "DiSCo: A Distribution-First Steering and Cultural Prior Eval",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Large language models (LLMs) are increasingly deployed in globally used assistants, yet their default choices in culturally grounded everyday situations can sys",
+        "description": "Large language models (LLMs) are increasingly deployed in globally used assistants, yet their default choices in culturally grounded everyday situations can systematically favour s",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2609.10253v1"
+      },
       {
         "name": "9 in 10 Popular Social Apps Collect Browsing History, Study ",
         "provider": "EURweb",
@@ -9069,17 +9098,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2608.21278v1"
-      },
-      {
-        "name": "An AI tool for prioritizing candidate biomarkers from wearab",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Generative AI",
-        "description": "Generative AI",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · Google Research",
-        "url": "https://research.google/blog/an-ai-tool-for-prioritizing-candidate-biomarkers-from-wearable-sensor-data/"
       }
     ],
     "ai-office": []
@@ -10488,8 +10506,8 @@
   ],
   "dailyReport": {
     "date": "2026-09-11",
-    "generatedAt": "2026-09-10T18:16:46.169308Z",
-    "total": 17,
+    "generatedAt": "2026-09-10T20:40:03.568653Z",
+    "total": 19,
     "sections": [
       {
         "category": "ai-coding",
@@ -10584,6 +10602,17 @@
         "category": "ai-models",
         "label": "模型发布",
         "items": [
+          {
+            "title": "Amazon Quick is now generally available on desktop",
+            "summary": "Your teams get an AI assistant that handles real work while your data stays in your environment and your conversations stay private Today, t",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/amazon-quick-is-now-generally-available-on-desktop/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-11",
+            "publishedAt": "2026-09-11T02:16",
+            "reason": ""
+          },
           {
             "title": "Build an end-to-end RFI questionnaire workflow using Amazon Quick Automate",
             "summary": "Learn how to build an end-to-end RFI questionnaire workflow with Amazon Quick Automate. Read a multi-tab RFI workbook from Amazon S3, use na",
@@ -10692,6 +10721,23 @@
             "sourceCount": 1,
             "date": "2026-09-10",
             "publishedAt": "2026-09-10T00:00",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "category": "ai-research",
+        "label": "论文研究",
+        "items": [
+          {
+            "title": "Introducing ChatGPT for Financial Services",
+            "summary": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready mater",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/introducing-chatgpt-financial-services",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-10",
+            "publishedAt": "2026-09-10T15:00",
             "reason": ""
           }
         ]
