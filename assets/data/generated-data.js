@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-10",
-  "generatedAt": "2026-09-10T12:43:25.585146Z",
+  "generatedAt": "2026-09-10T15:32:52.436399Z",
   "news": [
     {
       "title": "Anthropic 发布四起 Claude 网络安全评测事故的对齐评估报告",
@@ -5574,6 +5574,17 @@ window.AI_GENERATED_DATA = {
   "topicResources": {
     "ai-coding": [
       {
+        "name": "DeepSeek 发布 V4.1-Flash，大幅降低 AI Agent 的 KV cache 内存需求",
+        "provider": "The Decoder：AI News（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "DeepSeek 发布多模态模型 V4.1-Flash，以 MIT 许可开源在 Hugging Face，目标是大幅压缩 KV cache 和长上下文处理成本。",
+        "description": "DeepSeek 发布多模态模型 V4.1-Flash，以 MIT 许可开源在 Hugging Face，目标是大幅压缩 KV cache 和长上下文处理成本。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Decoder：AI News（RSS）",
+        "url": "https://the-decoder.com/new-deepseek-model-v4-1-flash-cuts-memory-needs-for-ai-agents"
+      },
+      {
         "name": "DeepSeek 发布 V4.1-Flash：新 Causal Encoder-Decoder 架构，带原生视觉理解",
         "provider": "X：Kim (@kimmonismus)",
         "type": "AI 项目/工具",
@@ -6001,20 +6012,86 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "IT之家（RSS）",
         "url": "https://www.ithome.com/0/996/637.htm"
-      },
-      {
-        "name": "AI Agents Execute Phantom Code: How llms.txt Files Let Claud",
-        "provider": "WebProNews",
-        "type": "AI 项目/工具",
-        "bestFor": "Security researchers uncovered a startling weakness in how companies publish instructions for AI coding tools. They scanned thousands of corporate websites. Wha",
-        "description": "Security researchers uncovered a startling weakness in how companies publish instructions for AI coding tools. They scanned thousands of corporate websites. What they found exposed",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "WebProNews",
-        "url": "https://www.webpronews.com/ai-agents-execute-phantom-code-how-llms-txt-files-let-claude-codex-and-hermes-infect-corporate-networks/"
       }
     ],
     "ai-agents": [
+      {
+        "name": "OpenAI agents target obscure sites, Anthropic reveals 4th ha",
+        "provider": "The Indian Express",
+        "type": "AI 项目/工具",
+        "bestFor": "Even as AI companies grapple with the fallout from the string of hacking incidents involving misaligned AI agents, new details are emerging about the scale of t",
+        "description": "Even as AI companies grapple with the fallout from the string of hacking incidents involving misaligned AI agents, new details are emerging about the scale of these attacks and the",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Indian Express",
+        "url": "https://indianexpress.com/article/technology/artificial-intelligence/openai-agents-anthropic-hacking-incident-what-we-know-10872178/"
+      },
+      {
+        "name": "Futurum Launches 'Futurum API' and MCP Server, Granting Acce",
+        "provider": "The Montreal Gazette",
+        "type": "AI 项目/工具",
+        "bestFor": "The new Futurum API and MCP Server allow customers to access the vast proprietary research and intelligence, multi-year forecasts directly within the AI tools a",
+        "description": "The new Futurum API and MCP Server allow customers to access the vast proprietary research and intelligence, multi-year forecasts directly within the AI tools already in enterprise",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Montreal Gazette",
+        "url": "https://montrealgazette.com/press-releases/globe-newswire/futurum-launches-futurum-api-and-mcp-server-granting-access-to-ai-powered-institutional-grade-intelligence-directly-into-enterprise-workflows/"
+      },
+      {
+        "name": "Blue Machines AI Partners with Muthoot Finance to Deploy Con",
+        "provider": "Nepal National",
+        "type": "AI 项目/工具",
+        "bestFor": "VMPL\n\nNew Delhi [India], September 10: Blue Machines AI, an advanced agentic CX operating system for enterprises, has partnered with Muthoot Finance, one of Ind",
+        "description": "VMPL\n\nNew Delhi [India], September 10: Blue Machines AI, an advanced agentic CX operating system for enterprises, has partnered with Muthoot Finance, one of India's leading financi",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Nepal National",
+        "url": "https://www.nepalnational.com/news/279298318/blue-machines-ai-partners-with-muthoot-finance-to-deploy-conversational-ai-driving-150-uplift-in-gold-loan-branch-visits"
+      },
+      {
+        "name": "Salesforce Completes Acquisition of Fin",
+        "provider": "Yahoo! Finance",
+        "type": "AI 项目/工具",
+        "bestFor": "Fin's customer agent platform joins Salesforce, giving companies faster, more flexible ways to automate customer service and deliver measurable outcomes\n\nSAN FR",
+        "description": "Fin's customer agent platform joins Salesforce, giving companies faster, more flexible ways to automate customer service and deliver measurable outcomes\n\nSAN FRANCISCO, September 1",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Yahoo! Finance",
+        "url": "https://finance.yahoo.com/technology/ai/articles/salesforce-completes-acquisition-fin-130000261.html"
+      },
+      {
+        "name": "OpenAI Hugging Face hack keeps getting ‘more crazy and sci-f",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Two new reports reveal that much of what the public was initially told about the OpenAI–Hugging Face hack was wrong. An AI researcher says the fuller picture is",
+        "description": "Two new reports reveal that much of what the public was initially told about the OpenAI–Hugging Face hack was wrong. An AI researcher says the fuller picture is even more alarming.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.kold.com/2026/09/10/openai-hugging-face-hack-keeps-getting-more-crazy-sci-fi/"
+      },
+      {
+        "name": "Muse Rock Band Forced to Change Social Media Username for Me",
+        "provider": "ProPakistani",
+        "type": "AI 项目/工具",
+        "bestFor": "Meta's newly launched Muse AI agent is now using social media usernames that were previously associated with the English rock band Muse, raising fresh questions",
+        "description": "Meta's newly launched Muse AI agent is now using social media usernames that were previously associated with the English rock band Muse, raising fresh questions about how major pla",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "ProPakistani",
+        "url": "https://propakistani.pk/?p=1079241"
+      },
+      {
+        "name": "META Stock On Track To Extend Gains After Hitting 1-Month Hi",
+        "provider": "Asianet News Network Pvt Ltd",
+        "type": "AI 项目/工具",
+        "bestFor": "Oppenheimer questioned whether consumers will pay for Muse when many already subscribe to competing AI services such as Gemini and ChatGPT.\n\n* Oppenheimer reite",
+        "description": "Oppenheimer questioned whether consumers will pay for Muse when many already subscribe to competing AI services such as Gemini and ChatGPT.\n\n* Oppenheimer reiterated its 'Perform' ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Asianet News Network Pvt Ltd",
+        "url": "https://newsable.asianetnews.com/markets/meta-stock-on-track-to-extend-gains-after-hitting-1-month-high-but-wall-street-divided-on-when-muse-ai-agent-will-be-a-game-changer-articleshow-57st3um"
+      },
       {
         "name": "HelmGuard raises $7.3m for agentic GRC platform",
         "provider": "Finextra Research",
@@ -6377,86 +6454,42 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:AI agent",
         "url": "https://www.starkvilledailynews.com/online_features/press_releases/alibaba-cloud-ant-group-cambricon-and-huawei-come-together-in-shanghai-to-advance-the-open/article_61ccb16e-5a16-55a3-91af-bf4abf666024.html"
-      },
-      {
-        "name": "Agentic AI Can Optimise a Campaign. It Still Cannot Decide W",
-        "provider": "exchangewire.com",
-        "type": "AI 项目/工具",
-        "bestFor": "Mark Nedzelskii, VP of growth at BidMatrix, shares where he trusts AI agents today, where he does not, and why better automation may actually make human strateg",
-        "description": "Mark Nedzelskii, VP of growth at BidMatrix, shares where he trusts AI agents today, where he does not, and why better automation may actually make human strategy more important\n\nAd",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "exchangewire.com",
-        "url": "https://www.exchangewire.com/blog/2026/09/08/agentic-ai-can-optimise-a-campaign-it-still-cannot-decide-what-growth-means/"
-      },
-      {
-        "name": "Own an 8-Course AI Agent and Automation Training Program for",
-        "provider": "PC Magazine",
-        "type": "AI 项目/工具",
-        "bestFor": "TL;DR: Get lifetime access to eight courses and 25+ hours of hands-on AI agent and business automation training for $19.99 (MSRP $49) during this extended Labor",
-        "description": "TL;DR: Get lifetime access to eight courses and 25+ hours of hands-on AI agent and business automation training for $19.99 (MSRP $49) during this extended Labor Day sale.\n\nKnowing ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "PC Magazine",
-        "url": "https://www.pcmag.com/deals/own-an-8-course-ai-agent-and-automation-training-program-for-only-20"
-      },
-      {
-        "name": "New Workflow and Deployment Enhancements Released for Open-S",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Version 4.16.0 and Patch Updates Add Conditional Workflows, Sandbox Configuration, and Migration Guides HANGZHOU, China , Sept. 8, 2026 /PRNewswire/ -- FastGPT,",
-        "description": "Version 4.16.0 and Patch Updates Add Conditional Workflows, Sandbox Configuration, and Migration Guides HANGZHOU, China , Sept. 8, 2026 /PRNewswire/ -- FastGPT, an open-source AI o",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://en.prnasia.com/story/546869-0.shtml"
-      },
-      {
-        "name": "AgentQuant Secures Dual SEC and MSB Registrations, Solidifyi",
-        "provider": "The Manila times",
-        "type": "AI 项目/工具",
-        "bestFor": "DENVER, Sept. 08, 2026 (GLOBE NEWSWIRE) --\n\nAI-Native Architecture Redefines Quantitative Trading Standards as Human-AI Risk Management Strengthens the Complian",
-        "description": "DENVER, Sept. 08, 2026 (GLOBE NEWSWIRE) --\n\nAI-Native Architecture Redefines Quantitative Trading Standards as Human-AI Risk Management Strengthens the Compliance Framework.\n\nWhile",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Manila times",
-        "url": "https://www.manilatimes.net/2026/09/08/tmt-newswire/globenewswire/agentquant-secures-dual-sec-and-msb-registrations-solidifying-compliance-foundation/2420259"
-      },
-      {
-        "name": "How Portable USB Hermes AI Agent Runs Cross-Platform AI",
-        "provider": "Techmixer",
-        "type": "AI 项目/工具",
-        "bestFor": "Hermes AI Portable Setup on USB Drive: Your AI Workspace on the Go\n\nImagine carrying a powerful portable AI assistant that fits comfortably in your pocket, read",
-        "description": "Hermes AI Portable Setup on USB Drive: Your AI Workspace on the Go\n\nImagine carrying a powerful portable AI assistant that fits comfortably in your pocket, ready to jump into actio",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Techmixer",
-        "url": "https://www.techmixer.com/portable-usb-hermes-ai-agent-platform-ai/"
-      },
-      {
-        "name": "AI Agents Could Shop and Pay for One in 10 Consumers by 2030",
-        "provider": "Budapest Business Journal",
-        "type": "AI 项目/工具",
-        "bestFor": "A Short History of the Future of Shopping and Payments, drawing on Mastercard research and insights from four futurists working across the United States, Europe",
-        "description": "A Short History of the Future of Shopping and Payments, drawing on Mastercard research and insights from four futurists working across the United States, Europe and Asia, examines ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Budapest Business Journal",
-        "url": "https://bbj.hu/business/tech/fintech/ai-agents-could-shop-and-pay-for-one-in-10-consumers-by-2030-mastercard-says/"
-      },
-      {
-        "name": "Retailers face a trust and liability test as AI shopping age",
-        "provider": "Bizcommunity.com",
-        "type": "AI 项目/工具",
-        "bestFor": "Venture capital is pouring into AI-powered shopping agents as payment networks, browser developers and AI companies compete to shape how autonomous systems will",
-        "description": "Venture capital is pouring into AI-powered shopping agents as payment networks, browser developers and AI companies compete to shape how autonomous systems will search, compare and",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Bizcommunity.com",
-        "url": "https://www.bizcommunity.com/article/retailers-face-a-trust-and-liability-test-as-ai-shopping-agents-emerge-742252a"
       }
     ],
     "ai-models": [
+      {
+        "name": "Anthropic's new tool explores AI's impact on the US economy",
+        "provider": "NewsBytes",
+        "type": "AI 项目/工具",
+        "bestFor": "Anthropic, the company behind the popular Claude AI assistant, has developed an interactive tool to explore the potential effects of artificial intelligence (AI",
+        "description": "Anthropic, the company behind the popular Claude AI assistant, has developed an interactive tool to explore the potential effects of artificial intelligence (AI) on the US economy.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsBytes",
+        "url": "https://www.newsbytesapp.com/news/science/anthropic-s-new-tool-tests-ai-s-impact-on-us-economy/story"
+      },
+      {
+        "name": "Nithin Kamath runs every post through ChatGPT, Claude: 'My w",
+        "provider": "MoneyControl",
+        "type": "AI 项目/工具",
+        "bestFor": "As artificial intelligence becomes increasingly embedded in everyday work, Nithin Kamath has admitted that nearly everything he writes now passes through tools ",
+        "description": "As artificial intelligence becomes increasingly embedded in everyday work, Nithin Kamath has admitted that nearly everything he writes now passes through tools such as ChatGPT and ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "MoneyControl",
+        "url": "https://www.moneycontrol.com/news/trends/nithin-kamath-runs-every-post-through-chatgpt-claude-my-writing-without-ai-is-getting-worse-14027300.html"
+      },
+      {
+        "name": "The A20 Pro Chip Is Apple's High-Stakes Hardware Pivot to Ow",
+        "provider": "PCMag Australia",
+        "type": "AI 项目/工具",
+        "bestFor": "Another Apple September event is in the books, and this time, most people are excited about Apple's new foldable iPhone Duo, or the kicked-up camera features on",
+        "description": "Another Apple September event is in the books, and this time, most people are excited about Apple's new foldable iPhone Duo, or the kicked-up camera features on the iPhone 18 Pro. ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "PCMag Australia",
+        "url": "https://au.pcmag.com/ai/119817/a20-pro-iphone-chip-explained-apple-event"
+      },
       {
         "name": "Google PPA boosts Loviisa life ex - Nuclear Engineering Inte",
         "provider": "Nuclear Engineering International",
@@ -6863,39 +6896,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Digit",
         "url": "https://www.digit.in/news/apps/instagram-users-beware-scammers-are-using-fake-copyright-claims-to-suspend-accounts-and-demand-ransom.html"
-      },
-      {
-        "name": "AsiaOne",
-        "provider": "AsiaOne",
-        "type": "AI 项目/工具",
-        "bestFor": "SAN FRANCISCO -- When new CEO John Ternus unveils Apple's latest products on Wednesday (Sept 9), Wall Street expects him to show that the company can still deli",
-        "description": "SAN FRANCISCO -- When new CEO John Ternus unveils Apple's latest products on Wednesday (Sept 9), Wall Street expects him to show that the company can still deliver breakthrough har",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "AsiaOne",
-        "url": "https://www.asiaone.com/digital/apples-ternus-faces-ai-test-foldable-iphone-takes-centre-stage"
-      },
-      {
-        "name": "Apple's Ternus faces AI test as foldable iPhone takes center",
-        "provider": "ETTelecom.com",
-        "type": "AI 项目/工具",
-        "bestFor": "The company has already announced a deep overhaul of Siri - in part by tapping Google's AI tech behind the scenes - and that may prove to be Ternus' first big s",
-        "description": "The company has already announced a deep overhaul of Siri - in part by tapping Google's AI tech behind the scenes - and that may prove to be Ternus' first big success after years o",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "ETTelecom.com",
-        "url": "https://telecom.economictimes.indiatimes.com/news/devices/apples-ternus-faces-ai-test-as-foldable-iphone-takes-center-stage/133948966"
-      },
-      {
-        "name": "Don't be seduced by the language of AI - The Korea Times",
-        "provider": "The Korea Times",
-        "type": "AI 项目/工具",
-        "bestFor": "Olson says OpenAI had spotted warning signs months earlier but failed to act on them.\n\nThe attacks on Hugging Face ran from May to late July, yet the details of",
-        "description": "Olson says OpenAI had spotted warning signs months earlier but failed to act on them.\n\nThe attacks on Hugging Face ran from May to late July, yet the details of what actually happe",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Korea Times",
-        "url": "https://www.koreatimes.co.kr/opinion/20260909/dont-be-seduced-by-the-language-of-ai"
       }
     ],
     "ai-business": [
@@ -10261,7 +10261,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-10",
-    "generatedAt": "2026-09-10T12:43:25.562168Z",
+    "generatedAt": "2026-09-10T15:32:52.414430Z",
     "total": 17,
     "sections": [
       {
