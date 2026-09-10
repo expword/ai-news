@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-10",
-  "generatedAt": "2026-09-09T23:57:44.904421Z",
+  "generatedAt": "2026-09-10T02:25:00.102831Z",
   "news": [
     {
       "title": "Anthropic 发布四起 Claude 网络安全评测事故的对齐评估报告",
@@ -443,6 +443,33 @@ window.AI_GENERATED_DATA = {
       "moduleTargets": [
         "news",
         "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "When will average people feel AI’s impact?",
+      "summary": "We&#8217;re <5 years into a compounding revolution which could take a century, and how the AI industry should manage this.",
+      "category": "ai-models",
+      "source": "RSS · Interconnects (Nathan Lambert)",
+      "date": "2026-09-09",
+      "publishedAt": "2026-09-09T19:01",
+      "collectedAt": "2026-09-10T10:24",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://www.interconnects.ai/p/when-will-average-people-feel-ais",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1.5",
+      "scores": {},
+      "score": 56,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
       ],
       "sourceCount": 1
     },
@@ -909,6 +936,33 @@ window.AI_GENERATED_DATA = {
       "moduleTargets": [
         "news",
         "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Latest open artifacts (#24): Motif-3, GLM-5.3, Hy4-preview and open model licenses",
+      "summary": "The open model ecosystem continues to expand in its breadth",
+      "category": "ai-models",
+      "source": "RSS · Interconnects (Nathan Lambert)",
+      "date": "2026-09-08",
+      "publishedAt": "2026-09-08T22:15",
+      "collectedAt": "2026-09-10T10:24",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://www.interconnects.ai/p/latest-open-artifacts-24-motif-3",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1.5",
+      "scores": {},
+      "score": 56,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
       ],
       "sourceCount": 1
     },
@@ -2499,258 +2553,53 @@ window.AI_GENERATED_DATA = {
       "sourceCount": 1
     },
     {
-      "title": "Trinity: Agentic AI-powered transition planning for students with disabilities",
-      "summary": "Learn how University Startups and its AWS partner g/d/n/a scaled Trinity, a conversational AI solution for students with disabilities, into a serverless multi-agent architecture on",
-      "category": "ai-agents",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-09-03",
-      "publishedAt": "2026-09-03T02:14",
-      "collectedAt": "2026-09-03T02:57",
+      "title": "Teaching Everyone to Fish for Tokens",
+      "summary": "Nvidia wants you building your own model, not buying from Anthropic/OpenAI.",
+      "category": "ai-models",
+      "source": "RSS · Interconnects (Nathan Lambert)",
+      "date": "2026-08-17",
+      "publishedAt": "2026-08-17T23:07",
+      "collectedAt": "2026-09-10T10:24",
       "dateStatus": "verified",
       "sourceDate": "",
       "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/trinity-agentic-ai-powered-transition-planning-for-students-with-disabilities/",
+      "url": "https://www.interconnects.ai/p/teaching-everyone-to-fish-for-tokens",
       "keyPoints": [],
       "background": "",
       "impact": "",
       "audience": [],
       "useCases": [],
       "risks": [],
-      "tier": "T1",
+      "tier": "T1.5",
       "scores": {},
-      "score": 70,
+      "score": 56,
       "aiSelected": true,
       "moduleTargets": [
-        "news",
-        "topicResources"
+        "news"
       ],
       "sourceCount": 1
     },
     {
-      "title": "Google DeepMind 发布 Gemini 3.8 Flash 与 3.8 Flash Cyber 两款新模型",
-      "summary": "Google DeepMind 发布 Gemini 3.8 Flash 与 3.8 Flash Cyber。",
+      "title": "GLM-5.3: How Chinese labs keep stride with the frontier",
+      "summary": "Hint: It&#8217;s really not a distillation story.",
       "category": "ai-models",
-      "source": "Google DeepMind：Blog（RSS）",
-      "date": "2026-09-03",
-      "publishedAt": "2026-09-03T00:18",
-      "collectedAt": "2026-09-03T01:47",
+      "source": "RSS · Interconnects (Nathan Lambert)",
+      "date": "2026-08-15",
+      "publishedAt": "2026-08-15T05:23",
+      "collectedAt": "2026-09-10T10:24",
       "dateStatus": "verified",
       "sourceDate": "",
       "tags": [],
-      "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber",
+      "url": "https://www.interconnects.ai/p/glm-53-how-chinese-labs-keep-stride",
       "keyPoints": [],
       "background": "",
       "impact": "",
       "audience": [],
       "useCases": [],
       "risks": [],
-      "tier": "T1",
+      "tier": "T1.5",
       "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 2,
-      "relatedSources": [
-        {
-          "source": "RSS · Google DeepMind",
-          "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
-          "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber"
-        }
-      ]
-    },
-    {
-      "title": "Eliciting ESG Preferences for Reinforcement Learning-Based Portfolio Optimization",
-      "summary": "Modern portfolio management increasingly demands a balance between traditional risk-adjusted returns and strict Environmental, Social, and Governance (ESG) mandates. Current Reinfo",
-      "category": "ai-research",
-      "source": "arXiv",
-      "date": "2026-09-02",
-      "publishedAt": "",
-      "collectedAt": "2026-09-04T04:53",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-02",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.02677v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Loom: Weaving Diagnostic Strands into Free-Text Consensus via Embedding-Space Reweighting",
-      "summary": "Aggregating noisy, conflicting textual hypotheses into a reliable consensus is a fundamental challenge when deploying NLP systems in real-world industrial settings. While monolithi",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-09-02",
-      "publishedAt": "",
-      "collectedAt": "2026-09-04T04:53",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-02",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.02649v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "CORAL: An LLM-Native Harness for Production Recommender Systems",
-      "summary": "Production recommender systems shape what billions of people see, and sustaining their performance requires continual optimization: as content, user behavior, and upstream models s",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-02",
-      "publishedAt": "",
-      "collectedAt": "2026-09-04T03:43",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-02",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.02730v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "BuildOcc: A Large Language Model Occupant Agent Platform for Building Energy Research",
-      "summary": "Occupants are a primary source of uncertainty in building energy consumption and management, yet existing occupant behavior models cannot capture adaptive and reasoning responses c",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-09-02",
-      "publishedAt": "",
-      "collectedAt": "2026-09-04T03:43",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-02",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.02729v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Large Language Model-Driven Context-Aware Eco-Feedback Generation and Evaluation",
-      "summary": "The objective of this study was to demonstrate the potential of generating eco-feedback that accounted for unique household contextual information, named as context-aware eco-feedb",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-02",
-      "publishedAt": "",
-      "collectedAt": "2026-09-04T03:43",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-02",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.02719v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 2,
-      "relatedSources": [
-        {
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2609.09004v1",
-          "title": "Evaluation of Contextual Understanding in Large Language Models"
-        }
-      ]
-    },
-    {
-      "title": "DiscoSign: Discourse-Aware Text to Sign Language Gloss Translation",
-      "summary": "Sign language processing systems have traditionally operated at the sentence level, ignoring critical discourse phenomena fundamental to sign language comprehension. We introduce D",
-      "category": "ai-research",
-      "source": "arXiv",
-      "date": "2026-09-02",
-      "publishedAt": "",
-      "collectedAt": "2026-09-04T02:33",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-02",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.02796v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "ShikumiMiner: Mining Recurring Implementation Patterns in AI Codebases",
-      "summary": "Large language models are paving the way towards innovation by understanding, analyzing, summarizing and generating content in the modern world. Currently there are thousands of LL",
-      "category": "ai-coding",
-      "source": "arXiv",
-      "date": "2026-09-02",
-      "publishedAt": "",
-      "collectedAt": "2026-09-04T02:33",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-02",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.02789v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
+      "score": 56,
       "aiSelected": true,
       "moduleTargets": [
         "news"
@@ -6759,6 +6608,61 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-models": [
       {
+        "name": "Apple unveils first foldable iPhone: 5 takeaways from Wednes",
+        "provider": "WCBD 2 - Charleston",
+        "type": "AI 项目/工具",
+        "bestFor": "(The Hill) -- Apple rolled out its next generation of the iPhone, AirPod and Apple Watch, with the company's first-ever foldable smartphone taking center stage ",
+        "description": "(The Hill) -- Apple rolled out its next generation of the iPhone, AirPod and Apple Watch, with the company's first-ever foldable smartphone taking center stage on Wednesday.\n\nThe \"",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "WCBD 2 - Charleston",
+        "url": "https://www.counton2.com/news/national-news/apple-unveils-first-foldable-iphone-5-takeaways-from-wednesdays-event/"
+      },
+      {
+        "name": "Apple unveils first foldable iPhone: 5 takeaways from Wednes",
+        "provider": "WDHN - wdhn.com",
+        "type": "AI 项目/工具",
+        "bestFor": "(The Hill) -- Apple rolled out its next generation of the iPhone, AirPod and Apple Watch, with the company's first-ever foldable smartphone taking center stage ",
+        "description": "(The Hill) -- Apple rolled out its next generation of the iPhone, AirPod and Apple Watch, with the company's first-ever foldable smartphone taking center stage on Wednesday.\n\nThe \"",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "WDHN - wdhn.com",
+        "url": "https://www.wdhn.com/news/apple-unveils-first-foldable-iphone-5-takeaways-from-wednesdays-event/"
+      },
+      {
+        "name": "Innovation, tech major draws for FDI",
+        "provider": "China Daily",
+        "type": "AI 项目/工具",
+        "bestFor": "Strategic sectors include AI, chips, critical minerals, energy transition\n\nTechnology and innovation are playing a growing role in bolstering China's appeal amo",
+        "description": "Strategic sectors include AI, chips, critical minerals, energy transition\n\nTechnology and innovation are playing a growing role in bolstering China's appeal among foreign investors",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "China Daily",
+        "url": "https://www.chinadaily.com.cn/a/202609/10/WS6aa1ff73e4b06d4aa055d380.html"
+      },
+      {
+        "name": "Apple unveils first foldable iPhone: 5 takeaways from Wednes",
+        "provider": "KTSM 9 News",
+        "type": "AI 项目/工具",
+        "bestFor": "(The Hill) -- Apple rolled out its next generation of the iPhone, AirPod and Apple Watch, with the company's first-ever foldable smartphone taking center stage ",
+        "description": "(The Hill) -- Apple rolled out its next generation of the iPhone, AirPod and Apple Watch, with the company's first-ever foldable smartphone taking center stage on Wednesday.\n\nThe \"",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "KTSM 9 News",
+        "url": "https://www.ktsm.com/news/national-news/apple-unveils-first-foldable-iphone-5-takeaways-from-wednesdays-event/"
+      },
+      {
+        "name": "Apple unveils first foldable iPhone: 5 takeaways from Wednes",
+        "provider": "phl17",
+        "type": "AI 项目/工具",
+        "bestFor": "(The Hill) -- Apple rolled out its next generation of the iPhone, AirPod and Apple Watch, with the company's first-ever foldable smartphone taking center stage ",
+        "description": "(The Hill) -- Apple rolled out its next generation of the iPhone, AirPod and Apple Watch, with the company's first-ever foldable smartphone taking center stage on Wednesday.\n\nThe \"",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "phl17",
+        "url": "https://phl17.com/nmw/apple-unveils-first-foldable-iphone-5-takeaways-from-wednesdays-event/"
+      },
+      {
         "name": "Apple 发布 Apple Watch Series 12，搭载全新 Health Sensing System 与 ",
         "provider": "Apple：Newsroom（RSS）",
         "type": "AI 项目/工具",
@@ -7142,61 +7046,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "RocketNews | Top News Stories From Around the Globe",
         "url": "https://rocketnews.com/2026/09/us-lobbys-1-1-trillion-freight-rail-electrification-study-intentionally-asked-the-wrong-question/"
-      },
-      {
-        "name": "Oil Majors Seek Bigger Bargaining Power in Labor Disputes",
-        "provider": "RocketNews | Top News Stories From Around the Globe",
-        "type": "AI 项目/工具",
-        "bestFor": "The largest U.S. oil corporations have escalated their approach to unionized labor negotiations by employing lockouts and operating facilities with replacement ",
-        "description": "The largest U.S. oil corporations have escalated their approach to unionized labor negotiations by employing lockouts and operating facilities with replacement staff to gain negoti",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RocketNews | Top News Stories From Around the Globe",
-        "url": "https://rocketnews.com/2026/09/oil-majors-seek-bigger-bargaining-power-in-labor-disputes/"
-      },
-      {
-        "name": "Prompt Injection Remains Biggest LLM Risk, Despite Limited I",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Prompt injection remains the most dangerous security threat to LLMs, according to OWASP’s latest Top 10 LLM Applications list",
-        "description": "Prompt injection remains the most dangerous security threat to LLMs, according to OWASP’s latest Top 10 LLM Applications list",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:open source LLM",
-        "url": "https://www.infosecurity-magazine.com/news/prompt-injection-llm-risk/"
-      },
-      {
-        "name": "AI resumes are the new headache LinkedIn's hiring assistant ",
-        "provider": "Digit",
-        "type": "AI 项目/工具",
-        "bestFor": "It's crazy and unbelievable to think about it, but the thing losing most value in the hiring process is an applicant's CV. Just think about it, everyone and the",
-        "description": "It's crazy and unbelievable to think about it, but the thing losing most value in the hiring process is an applicant's CV. Just think about it, everyone and their grandma now uses ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Digit",
-        "url": "https://www.digit.in/features/general/ai-resumes-are-the-new-headache-linkedins-hiring-assistant-is-trying-to-solve-for.html"
-      },
-      {
-        "name": "What 2026 is teaching us about AI and quantum",
-        "provider": "ITWeb Africa",
-        "type": "AI 项目/工具",
-        "bestFor": "AI is no longer experimental, it is a competitive requirement. Across East African enterprises, rapid adoption is exposing structural weaknesses in infrastructu",
-        "description": "AI is no longer experimental, it is a competitive requirement. Across East African enterprises, rapid adoption is exposing structural weaknesses in infrastructure, skills, security",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "ITWeb Africa",
-        "url": "https://itweb.africa/article/what-2026-is-teaching-us-about-ai-and-quantum/lwrKxq3YyN57mg1o"
-      },
-      {
-        "name": "Can the new EU rules save you hundreds on broken appliances?",
-        "provider": "Euronews English",
-        "type": "AI 项目/工具",
-        "bestFor": "Broken toaster? Dead vacuum? Faulty fridge? For most Europeans, the answer is not repair but replacement. And that convenience comes with a large price tag: alm",
-        "description": "Broken toaster? Dead vacuum? Faulty fridge? For most Europeans, the answer is not repair but replacement. And that convenience comes with a large price tag: almost €12 billion a ye",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Euronews English",
-        "url": "https://www.euronews.com/my-europe/2026/09/07/how-can-new-eu-rules-save-you-hundreds-on-broken-appliances"
       }
     ],
     "ai-business": [
@@ -10572,7 +10421,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-10",
-    "generatedAt": "2026-09-09T23:57:44.879370Z",
+    "generatedAt": "2026-09-10T02:25:00.079825Z",
     "total": 17,
     "sections": [
       {
@@ -10757,14 +10606,14 @@ window.AI_GENERATED_DATA = {
             "reason": ""
           },
           {
-            "title": "Simon Willison 评 OpenAI 用未发布模型求解 Navier-Stokes 千禧年大奖难题之争",
-            "summary": "OpenAI 用未发布模型在约88小时内给出 Navier-Stokes 存在与光滑性问题（七大千禧年难题之一）的解答，并通过 GPT-6 Astra 完成17小时 Lean 形式化验证，全程发送490万条消息、消耗约3000亿输出 token。",
-            "source": "Simon Willison 博客",
-            "url": "https://simonwillison.net/2026/Sep/8/on-navier-stokes",
+            "title": "When will average people feel AI’s impact?",
+            "summary": "We&#8217;re <5 years into a compounding revolution which could take a century, and how the AI industry should manage this.",
+            "source": "RSS · Interconnects (Nathan Lambert)",
+            "url": "https://www.interconnects.ai/p/when-will-average-people-feel-ais",
             "score": 56,
             "sourceCount": 1,
             "date": "2026-09-09",
-            "publishedAt": "2026-09-09T07:55",
+            "publishedAt": "2026-09-09T19:01",
             "reason": ""
           }
         ]
