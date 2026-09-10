@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-10",
-  "generatedAt": "2026-09-10T04:54:51.548335Z",
+  "generatedAt": "2026-09-10T07:33:45.655378Z",
   "news": [
     {
       "title": "Anthropic 发布四起 Claude 网络安全评测事故的对齐评估报告",
@@ -5615,6 +5615,28 @@ window.AI_GENERATED_DATA = {
   "topicResources": {
     "ai-coding": [
       {
+        "name": "DeepSeek 发布 V4.1-Flash，API 价格同步下调",
+        "provider": "DeepSeek：API 更新日志",
+        "type": "AI 项目/工具",
+        "bestFor": "DeepSeek 发布 DeepSeek-V4.1-Flash，是全新模型结构系列中最小尺寸的模型，具备原生多模态视觉理解能力，评测包括 GPQA Diamond 90.9、HLE 36.8、Codeforces Rating 3471、Terminal-Bench 2.1 90.6 等。",
+        "description": "DeepSeek 发布 DeepSeek-V4.1-Flash，是全新模型结构系列中最小尺寸的模型，具备原生多模态视觉理解能力，评测包括 GPQA Diamond 90.9、HLE 36.8、Codeforces Rating 3471、Terminal-Bench 2.1 90.6 等。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "DeepSeek：API 更新日志",
+        "url": "https://api-docs.deepseek.com/zh-cn/updates#%E6%97%B6%E9%97%B4-2026-09-10"
+      },
+      {
+        "name": "DeepSeek 发布 V4.1 Flash：552B MoE 多模态模型，同步开源并下调 API 定价",
+        "provider": "公众号：DeepSeek（深度求索）",
+        "type": "AI 项目/工具",
+        "bestFor": "DeepSeek 正式发布 V4.1 Flash，全新 Causal-Encoder-Decoder 结构的 552B 参数 MoE 模型，输入激活 8B、输出激活 16B，具备原生多模态视觉理解，基准测试超越包括 DeepSeek V4 Pro 在内的旗舰模型。",
+        "description": "DeepSeek 正式发布 V4.1 Flash，全新 Causal-Encoder-Decoder 结构的 552B 参数 MoE 模型，输入激活 8B、输出激活 16B，具备原生多模态视觉理解，基准测试超越包括 DeepSeek V4 Pro 在内的旗舰模型。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "公众号：DeepSeek（深度求索）",
+        "url": "https://mp.weixin.qq.com/s?__biz=Mzk0OTYwNzc3NQ%3D%3D&mid=2247485817&idx=1&sn=627dd80114901f3fd8717e2c13feaf6a"
+      },
+      {
         "name": "OpenAI 发布 GPT-6 Astra，面向专业工作场景",
         "provider": "OpenAI：官网动态（RSS",
         "type": "AI 项目/工具",
@@ -6031,31 +6053,42 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "MarTech Series",
         "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/aurora-mobiles-modellix-releases-beta-plugin-for-deepseek-harness-adding-free-llm-models-to-the-fast-growing-open-source-coding-agent/"
-      },
-      {
-        "name": "OpenAI cuts off Cursor's AI models, deepening feud with Musk",
-        "provider": "Mashable ME",
-        "type": "AI 项目/工具",
-        "bestFor": "The contract will end by mid-November, months after SpaceX bought the coding tool's parent company for $60 billion.\n\nOpenAI said Friday it will wind down its pa",
-        "description": "The contract will end by mid-November, months after SpaceX bought the coding tool's parent company for $60 billion.\n\nOpenAI said Friday it will wind down its partnership with Curso",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Mashable ME",
-        "url": "https://me.mashable.com/tech/75446/openai-cuts-off-cursors-ai-models-deepening-feud-with-musk"
-      },
-      {
-        "name": "AI Code Generation 2026: What 3,000+ G2 Reviews Reveal",
-        "provider": "learn.g2.com",
-        "type": "AI 项目/工具",
-        "bestFor": "Developers complain about their AI coding tools and rate them highly anyway. Both show up in the same review. According to G2's analysis of 3,000+ verified AI C",
-        "description": "Developers complain about their AI coding tools and rate them highly anyway. Both show up in the same review. According to G2's analysis of 3,000+ verified AI Code Generation revie",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "learn.g2.com",
-        "url": "https://learn.g2.com/ai-code-generation"
       }
     ],
     "ai-agents": [
+      {
+        "name": "How Context Window Length Actually Breaks Your AI Agent's Un",
+        "provider": "Startup Fortune",
+        "type": "AI 项目/工具",
+        "bestFor": "How does context window length affect inference cost? Not linearly. Attention scales roughly with the square of context length, and the KV cache adds a growing ",
+        "description": "How does context window length affect inference cost? Not linearly. Attention scales roughly with the square of context length, and the KV cache adds a growing memory tax on top, w",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Startup Fortune",
+        "url": "https://startupfortune.com/how-context-window-length-actually-breaks-your-ai-agents-unit-economics/"
+      },
+      {
+        "name": "Ant International, Mastercard and Visa Initiate Collaboratio",
+        "provider": "iberonews.com",
+        "type": "AI 项目/工具",
+        "bestFor": "Ant International, Mastercard and Visa Initiate Collaboration on Know-Your-Agent Interoperability to Scale Agentic Commerce\n\nSHANGHAI & SINGAPORE (Business Wire",
+        "description": "Ant International, Mastercard and Visa Initiate Collaboration on Know-Your-Agent Interoperability to Scale Agentic Commerce\n\nSHANGHAI & SINGAPORE (Business Wire)\n\nTexto completo a ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "iberonews.com",
+        "url": "https://iberonews.com/not_det.php?lang=es&notid=109744"
+      },
+      {
+        "name": "Meta's New AI Agent Can Shop For You",
+        "provider": "British Vogue",
+        "type": "AI 项目/工具",
+        "bestFor": "Meta is adding an AI agent to its social media universe. On Tuesday, it launched Muse, a personal AI agent that will sit inside WhatsApp, Instagram and Facebook",
+        "description": "Meta is adding an AI agent to its social media universe. On Tuesday, it launched Muse, a personal AI agent that will sit inside WhatsApp, Instagram and Facebook, and can act autono",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "British Vogue",
+        "url": "https://www.vogue.com/article/metas-new-ai-agent-can-shop-for-you"
+      },
       {
         "name": "9 sales tasks that agents are taking over in 2026, and 4 tha",
         "provider": "Gonzales Inquirer",
@@ -6462,42 +6495,42 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "developer.arm.com",
         "url": "https://developer.arm.com/community/arm-community-blogs/b/ai-blog/posts/meet-arm-ai-portal-the-launchpad-for-your-next-ai-application"
-      },
-      {
-        "name": "ThreatBook Accredited by IMDA Singapore for Full Cycle Agent",
-        "provider": "Taiwan News",
-        "type": "AI 项目/工具",
-        "bestFor": "* The agentic security company is recognized for its innovation and high growth, and is endorsed to service government and large enterprise customers.\n\n* Being ",
-        "description": "* The agentic security company is recognized for its innovation and high growth, and is endorsed to service government and large enterprise customers.\n\n* Being accredited gives Thr",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Taiwan News",
-        "url": "https://taiwannews.com.tw/en/news/6435454"
-      },
-      {
-        "name": "Trace2Tower: Transition-Aware EigenTrace Induction of Multi-",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Large language model agents increasingly rely on execution traces to master complex interactive tasks. However, current paradigms are bottlenecked by shallow tr",
-        "description": "Large language model agents increasingly rely on execution traces to master complex interactive tasks. However, current paradigms are bottlenecked by shallow trajectory retrieval a",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2609.05261v1"
-      },
-      {
-        "name": "Why most AI agent pilots on solar sites never reach producti",
-        "provider": "List.Solar",
-        "type": "AI 项目/工具",
-        "bestFor": "The pitch deck usually arrives before the pilot does. It promises an autonomous agent that forecasts output, flags a failing string before the string fails, and",
-        "description": "The pitch deck usually arrives before the pilot does. It promises an autonomous agent that forecasts output, flags a failing string before the string fails, and bids the battery in",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "List.Solar",
-        "url": "https://list.solar/news/why-most-ai-agent-pilots/"
       }
     ],
     "ai-models": [
+      {
+        "name": "Apple 发布 Health Sensing System 与重构版 Health app，Apple Watch S",
+        "provider": "Apple：Newsroom（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "Apple 发布全新健康与健身功能，Apple Watch Series 12 和 Apple Watch Ultra 4 引入 Health Sensing System，支持每 5 秒测心率、HRV 测量频率提升至 24 倍、每日 0-10 的 readiness 评分。",
+        "description": "Apple 发布全新健康与健身功能，Apple Watch Series 12 和 Apple Watch Ultra 4 引入 Health Sensing System，支持每 5 秒测心率、HRV 测量频率提升至 24 倍、每日 0-10 的 readiness 评分。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Apple：Newsroom（RSS）",
+        "url": "https://www.apple.com/newsroom/2026/09/apple-advances-health-and-fitness-capabilities-using-apple-intelligence"
+      },
+      {
+        "name": "iOS 27 Features: Top Changes, Compatible iPhones, Key Update",
+        "provider": "Analytics Insight",
+        "type": "AI 项目/工具",
+        "bestFor": "The update follows its preview at WWDC 2026 and introduces several changes to improve everyday iPhone use.\n\nApple's iOS 27 update brings a redesigned Liquid Gla",
+        "description": "The update follows its preview at WWDC 2026 and introduces several changes to improve everyday iPhone use.\n\nApple's iOS 27 update brings a redesigned Liquid Glass experience, a rev",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Analytics Insight",
+        "url": "https://www.analyticsinsight.net/news/ios-27-features-top-changes-compatible-iphones-key-updates"
+      },
+      {
+        "name": "AIApply vs JobCopilot: Which AI Job Search Tool Is Better in",
+        "provider": "aiapply.co",
+        "type": "AI 项目/工具",
+        "bestFor": "AIApply vs JobCopilot compared on auto-apply pricing, ATS tools, and real Trustpilot ratings, so you know which one actually fits your job search.\n\nTwo AI job-s",
+        "description": "AIApply vs JobCopilot compared on auto-apply pricing, ATS tools, and real Trustpilot ratings, so you know which one actually fits your job search.\n\nTwo AI job-search tools, two dif",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "aiapply.co",
+        "url": "https://aiapply.co/blog/aiapply-vs-jobcopilot"
+      },
       {
         "name": "BMW's Neue Klasse iX3 electric SUV appears in China filing a",
         "provider": "CnEVPost",
@@ -6904,39 +6937,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Las Vegas Sun",
         "url": "https://lasvegassun.com/news/2026/sep/08/the-oceans-fury-a-super-el-nio-may-shatter-records/"
-      },
-      {
-        "name": "Los Angeles recycled old street asphalt with microwaves inst",
-        "provider": "Economic Times",
-        "type": "AI 项目/工具",
-        "bestFor": "Los Angeles has pioneered a groundbreaking method for recycling old asphalt pavement through microwave technology. This inventive technique not only minimizes w",
-        "description": "Los Angeles has pioneered a groundbreaking method for recycling old asphalt pavement through microwave technology. This inventive technique not only minimizes waste but also leads ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Economic Times",
-        "url": "https://economictimes.indiatimes.com/news/international/us/los-angeles-recycled-old-street-asphalt-with-microwaves-instead-of-buying-virgin-paving-material-800000-tons-were-avoided-over-5-years-saving-about-8-million/articleshow/133871676.cms"
-      },
-      {
-        "name": "China's data-center boom thrives in remote locations, sidest",
-        "provider": "Crypto Briefing",
-        "type": "AI 项目/工具",
-        "bestFor": "Beijing's \"Eastern Data, Western Computing\" strategy is reshaping where the world's second-largest economy builds its AI infrastructure, with over half of new p",
-        "description": "Beijing's \"Eastern Data, Western Computing\" strategy is reshaping where the world's second-largest economy builds its AI infrastructure, with over half of new projects heading to t",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Crypto Briefing",
-        "url": "https://cryptobriefing.com/china-data-center-boom-remote-locations/"
-      },
-      {
-        "name": "Anthropic Abandons $6B Decart AI Deal Ahead of Upcoming Publ",
-        "provider": "Blockonomi",
-        "type": "AI 项目/工具",
-        "bestFor": "* Anthropic has terminated its planned acquisition of Decart AI following completion of due diligence procedures\n\n* The abandoned transaction was worth approxim",
-        "description": "* Anthropic has terminated its planned acquisition of Decart AI following completion of due diligence procedures\n\n* The abandoned transaction was worth approximately $6 billion\n\n* ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Blockonomi",
-        "url": "https://blockonomi.com/anthropic-abandons-6b-decart-ai-deal-ahead-of-upcoming-public-debut/"
       }
     ],
     "ai-business": [
@@ -7956,6 +7956,28 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-image-video": [
       {
+        "name": "OpenAI 在 API 发布 GPT-Image-2.5 Flare 和 Sunburst 图像模型",
+        "provider": "X：OpenAI Developers (@OpenAIDevs)",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenAI 推出 API 新图像模型 GPT-Image-2.5 Flare 和 Sunburst，主要改进包括更锐利的细节、更强的风格遵循，以及更多对图像编辑的控制。",
+        "description": "OpenAI 推出 API 新图像模型 GPT-Image-2.5 Flare 和 Sunburst，主要改进包括更锐利的细节、更强的风格遵循，以及更多对图像编辑的控制。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "X：OpenAI Developers (@OpenAIDevs)",
+        "url": "https://x.com/OpenAIDevs/status/2097399255975813387"
+      },
+      {
+        "name": "iPhone Duo launched: What Apple packs into its Rs 2.99 lakh ",
+        "provider": "Business Standard",
+        "type": "AI 项目/工具",
+        "bestFor": "Apple iPhone Duo is the company's first foldable iPhone (Image: Apple)\n\nApple has entered the foldable smartphone market with the iPhone Duo, its first iPhone w",
+        "description": "Apple iPhone Duo is the company's first foldable iPhone (Image: Apple)\n\nApple has entered the foldable smartphone market with the iPhone Duo, its first iPhone with a folding displa",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Business Standard",
+        "url": "https://www.business-standard.com/technology/tech-news/apple-iphone-duo-first-foldable-iphone-price-specs-features-126091000292_1.html"
+      },
+      {
         "name": "OpenAI 上线 GPT Image 2.5，作者实测新版与 image2 的生图差异",
         "provider": "公众号：卡尔的AI沃茨",
         "type": "AI 项目/工具",
@@ -8430,38 +8452,6 @@ window.AI_GENERATED_DATA = {
         "watch": "苹果的供应链依赖于少数关键供应商，任何中断都可能导致生产延误。",
         "sourceName": "NewsData.io:artificial intelligence",
         "url": "http://www.brandiconimage.com/2026/08/apple-shares-tumble-nearly-10-as-supply.html"
-      },
-      {
-        "name": "MiniMax H3：全新视频生成模型的深度评测",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "MiniMax H3 的推出将对短视频创作者、广告公司和内容制作团队产生深远影响。对于需要频繁生成视频内容的用户，H3 的高效生成能力和音频同步功能将显著降低制作时间和成本。此外，H3 的角色一致性技术将使得系列视频的制作变得更加流畅，减少了因角色变化带来的观众困惑。对于教育、娱乐和市场营销等多个领域，H3 的应用潜力",
-        "description": "MiniMax H3 是中国 AI 公司 MiniMax 发布的第三代视频生成模型，具备原生 2K 分辨率和同步音频功能，旨在简化短视频制作流程。其 Omni-Reference 技术确保角色一致性，Native Audio 功能则实现视频与音频的同步生成，提升了创作效率。",
-        "useCases": [
-          "制作短视频广告，快速生成高质量的视觉和音频内容。",
-          "创建系列视频内容，利用 Omni-Reference 技术保持角色一致性。",
-          "为教育课程制作视频，结合图像和文本生成生动的教学材料。",
-          "在社交媒体上发布创意视频，提升用户互动和参与度。",
-          "进行产品宣传，利用短视频展示产品特点和使用场景。"
-        ],
-        "watch": "生成的音频质量可能不尽如人意，需进行后期调整以确保对话准确性和情感表达。",
-        "sourceName": "NewsAPI:large language model",
-        "url": "https://minimaxh3.art/blog/what-is-minimax-h3"
-      },
-      {
-        "name": "谷歌撤回 Google Earth AI 图像生成功能",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "这一事件对谷歌及其用户产生了深远影响。首先，开发者和用户在使用 AI 工具时需更加谨慎，避免生成虚假信息。其次，谷歌的品牌形象可能受到损害，用户对其技术的信任度下降。此外，其他科技公司也可能会重新审视其 AI 产品的安全性和合规性，以避免类似问题的发生。",
-        "description": "谷歌因用户对其新推出的 Google Earth AI 图像生成功能引发的虚假信息担忧，决定撤回该功能。用户利用该功能生成了大量违反公司政策的虚假卫星图像，包括战争场景和虚构的灾难事件。",
-        "useCases": [
-          "使用 Google Earth 的图像生成功能，创建历史场景以用于教育材料。",
-          "通过文本提示生成房地产规划图像，帮助客户可视化项目。",
-          "利用 AI 工具进行市场调研，分析虚构场景对公众情绪的影响。"
-        ],
-        "watch": "使用该功能时，需注意生成的图像可能违反谷歌的政策，导致账户被封禁。",
-        "sourceName": "NewsAPI:generative AI",
-        "url": "https://nypost.com/2026/07/31/business/google-earth-ai-image-feature-scraped-after-users-raise-misinformation-concerns/"
       }
     ],
     "ai-research": [
@@ -10312,7 +10302,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-10",
-    "generatedAt": "2026-09-10T04:54:51.526334Z",
+    "generatedAt": "2026-09-10T07:33:45.631376Z",
     "total": 17,
     "sections": [
       {
