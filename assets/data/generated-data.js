@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-10",
-  "generatedAt": "2026-09-09T20:26:52.485715Z",
+  "generatedAt": "2026-09-09T23:57:44.904421Z",
   "news": [
     {
       "title": "Anthropic 发布四起 Claude 网络安全评测事故的对齐评估报告",
@@ -179,6 +179,33 @@ window.AI_GENERATED_DATA = {
       "sourceDate": "",
       "tags": [],
       "url": "https://blog.google/innovation-and-ai/technology/ai/love-rendered-film/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "The Open Source AI Stack",
+      "summary": "",
+      "category": "ai-models",
+      "source": "RSS · Together AI",
+      "date": "2026-09-09",
+      "publishedAt": "2026-09-09T08:00",
+      "collectedAt": "2026-09-10T07:57",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://www.together.ai/blog/the-open-source-ai-stack",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -1300,7 +1327,14 @@ window.AI_GENERATED_DATA = {
         "news",
         "topicResources"
       ],
-      "sourceCount": 1
+      "sourceCount": 2,
+      "relatedSources": [
+        {
+          "source": "RSS · AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/deploying-qwen3-8-2-4t-a95b-on-amazon-sagemaker-hyperpod-with-vllm/",
+          "title": "Deploying Qwen3.8-2.4T-A95B on Amazon SageMaker HyperPod with vLLM"
+        }
+      ]
     },
     {
       "title": "OpenAI 训练中的智能体被发现通过公共 Wiki 互相通信",
@@ -5696,6 +5730,21 @@ window.AI_GENERATED_DATA = {
       "date": "2026-08-05"
     },
     {
+      "name": "QwenLM/qwen-mm-plugins-hub",
+      "lang": "HTML",
+      "description": "A documentation for Qwen-MM-Plugins",
+      "stars": "1 stars",
+      "why": "国产大模型厂商 通义千问 Qwen 的最新开源动态/模型发布，属一手信源。",
+      "url": "https://github.com/QwenLM/qwen-mm-plugins-hub",
+      "source": "GitHub · 通义千问 Qwen",
+      "tier": "T1",
+      "category": "Coding Agent",
+      "details": "A documentation for Qwen-MM-Plugins",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
       "name": "OpenBMB/Meshy",
       "lang": "Python",
       "description": "面壁智能 MiniCPM 开源项目。",
@@ -5706,21 +5755,6 @@ window.AI_GENERATED_DATA = {
       "tier": "T1",
       "category": "Coding Agent",
       "details": "面壁智能 MiniCPM 开源项目。",
-      "features": [],
-      "useCases": [],
-      "quickStart": []
-    },
-    {
-      "name": "THUDM/Awesome-Parameter-Efficient-Fine-Tuning-for-Foundation-Models",
-      "lang": "Repo",
-      "description": "Parameter-Efficient Fine-Tuning for Foundation Models",
-      "stars": "111 stars",
-      "why": "国产大模型厂商 智谱 GLM 的最新开源动态/模型发布，属一手信源。",
-      "url": "https://github.com/THUDM/Awesome-Parameter-Efficient-Fine-Tuning-for-Foundation-Models",
-      "source": "GitHub · 智谱 GLM",
-      "tier": "T1",
-      "category": "Coding Agent",
-      "details": "Parameter-Efficient Fine-Tuning for Foundation Models",
       "features": [],
       "useCases": [],
       "quickStart": []
@@ -5840,6 +5874,17 @@ window.AI_GENERATED_DATA = {
   ],
   "topicResources": {
     "ai-coding": [
+      {
+        "name": "OpenAI 发布 GPT-6 Astra，面向专业工作场景",
+        "provider": "OpenAI：官网动态（RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenAI 发布 GPT-6 Astra，已在 ChatGPT Work、Codex 和 API 提供，定价为每百万输入 token $10、输出 token $50。",
+        "description": "OpenAI 发布 GPT-6 Astra，已在 ChatGPT Work、Codex 和 API 提供，定价为每百万输入 token $10、输出 token $50。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+        "url": "https://openai.com/index/gpt-6-astra-next-generation-work"
+      },
       {
         "name": "Mistral 复盘用 AI Agent 迁移 40000 行 Fortran 77 到 C++ 的经验",
         "provider": "Mistral AI：News（网页）",
@@ -6268,17 +6313,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "learn.g2.com",
         "url": "https://learn.g2.com/ai-code-generation"
-      },
-      {
-        "name": "Top AI tools including Claude, Codex, and Hermes installed s",
-        "provider": "TechRadar",
-        "type": "AI 项目/工具",
-        "bestFor": "A new class of \"squatting\" risks is emerging right in front of us\n\n* Researchers found unclaimed llms.txt references on 120 domains, exploitable by cybercrimina",
-        "description": "A new class of \"squatting\" risks is emerging right in front of us\n\n* Researchers found unclaimed llms.txt references on 120 domains, exploitable by cybercriminals\n\n* AI agents coul",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "TechRadar",
-        "url": "https://www.techradar.com/pro/security/top-ai-tools-including-claude-codex-and-hermes-installed-suspicious-code-inside-corporate-networks"
       }
     ],
     "ai-agents": [
@@ -10538,8 +10572,8 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-10",
-    "generatedAt": "2026-09-09T20:26:52.463718Z",
-    "total": 16,
+    "generatedAt": "2026-09-09T23:57:44.879370Z",
+    "total": 17,
     "sections": [
       {
         "category": "ai-coding",
@@ -10654,6 +10688,17 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-09-10",
             "publishedAt": "2026-09-10T00:00",
+            "reason": ""
+          },
+          {
+            "title": "The Open Source AI Stack",
+            "summary": "",
+            "source": "RSS · Together AI",
+            "url": "https://www.together.ai/blog/the-open-source-ai-stack",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-09",
+            "publishedAt": "2026-09-09T08:00",
             "reason": ""
           },
           {
