@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-10",
-  "generatedAt": "2026-09-10T07:33:45.655378Z",
+  "generatedAt": "2026-09-10T10:07:08.986744Z",
   "news": [
     {
       "title": "Anthropic 发布四起 Claude 网络安全评测事故的对齐评估报告",
@@ -5615,6 +5615,17 @@
   "topicResources": {
     "ai-coding": [
       {
+        "name": "DeepSeek 发布 V4.1-Flash：新 Causal Encoder-Decoder 架构，带原生视觉理解",
+        "provider": "X：Kim (@kimmonismus)",
+        "type": "AI 项目/工具",
+        "bestFor": "DeepSeek 发布 V4.1-Flash，采用新 Causal Encoder-Decoder 架构并支持原生视觉理解，为其新架构家族中最小模型。该模型为 552B 参数 MoE，输入处理激活 8B、输出生成激活 16B；KV cache 需求较上一代降至 HBM 的 1/4、SSD 存储的 1/8，API 价格更",
+        "description": "DeepSeek 发布 V4.1-Flash，采用新 Causal Encoder-Decoder 架构并支持原生视觉理解，为其新架构家族中最小模型。该模型为 552B 参数 MoE，输入处理激活 8B、输出生成激活 16B；KV cache 需求较上一代降至 HBM 的 1/4、SSD 存储的 1/8，API 价格更低。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "X：Kim (@kimmonismus)",
+        "url": "https://x.com/kimmonismus/status/2097962333767102665"
+      },
+      {
         "name": "DeepSeek 发布 V4.1-Flash，API 价格同步下调",
         "provider": "DeepSeek：API 更新日志",
         "type": "AI 项目/工具",
@@ -6042,20 +6053,53 @@
         "watch": "请打开原始来源核对",
         "sourceName": "WebProNews",
         "url": "https://www.webpronews.com/ai-agents-execute-phantom-code-how-llms-txt-files-let-claude-codex-and-hermes-infect-corporate-networks/"
-      },
-      {
-        "name": "Aurora Mobile's Modellix Releases Beta Plugin for DeepSeek H",
-        "provider": "MarTech Series",
-        "type": "AI 项目/工具",
-        "bestFor": "Aurora Mobile Limited (NASDAQ: JG) (\"Aurora Mobile\" or the \"Company\"), a leading provider of customer engagement and marketing technology services, announced th",
-        "description": "Aurora Mobile Limited (NASDAQ: JG) (\"Aurora Mobile\" or the \"Company\"), a leading provider of customer engagement and marketing technology services, announced that Modellix.ai, its ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "MarTech Series",
-        "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/aurora-mobiles-modellix-releases-beta-plugin-for-deepseek-harness-adding-free-llm-models-to-the-fast-growing-open-source-coding-agent/"
       }
     ],
     "ai-agents": [
+      {
+        "name": "HelmGuard raises $7.3m for agentic GRC platform",
+        "provider": "Finextra Research",
+        "type": "AI 项目/工具",
+        "bestFor": "This content has been selected, created and edited by the Finextra editorial team based upon its relevance and interest to our community.\n\nHelmGuard has raised ",
+        "description": "This content has been selected, created and edited by the Finextra editorial team based upon its relevance and interest to our community.\n\nHelmGuard has raised $7.3 million in seed",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Finextra Research",
+        "url": "https://www.finextra.com/newsarticle/48371/helmguard-raises-73m-for-agentic-grc-platform"
+      },
+      {
+        "name": "India plans AI registry as it looks to roll out agentic paym",
+        "provider": "Reuters",
+        "type": "AI 项目/工具",
+        "bestFor": "MUMBAI, Sept 10 (Reuters) - India's payments authority is building a registry to verify and monitor artificial intelligence agents making transactions on its ho",
+        "description": "MUMBAI, Sept 10 (Reuters) - India's payments authority is building a registry to verify and monitor artificial intelligence agents making transactions on its homegrown payments net",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Reuters",
+        "url": "https://www.reuters.com/world/india/india-plans-ai-registry-it-looks-roll-out-agentic-payments-sources-say-2026-09-10/"
+      },
+      {
+        "name": "Check Point built a firewall that reads AI prompts",
+        "provider": "The Next Web",
+        "type": "AI 项目/工具",
+        "bestFor": "Nearly half of organizations are entirely blind to the machine-to-machine traffic their AI agents generate, and the tools built to watch enterprise networks wer",
+        "description": "Nearly half of organizations are entirely blind to the machine-to-machine traffic their AI agents generate, and the tools built to watch enterprise networks were never designed to ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Next Web",
+        "url": "https://thenextweb.com/news/check-point-ai-network-firewall-prompt-inspection"
+      },
+      {
+        "name": "CIOs Are Taking the Blame When AI Goes Wrong, despite lack o",
+        "provider": "bbntimes.com",
+        "type": "AI 项目/工具",
+        "bestFor": "CIOs are increasingly becoming the people held accountable when AI agents make mistakes, despite often lacking the visibility, control and audit trails needed t",
+        "description": "CIOs are increasingly becoming the people held accountable when AI agents make mistakes, despite often lacking the visibility, control and audit trails needed to prevent them, acco",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "bbntimes.com",
+        "url": "https://www.bbntimes.com/companies/cios-are-taking-the-blame-when-ai-goes-wrong-despite-lack-of-visibility"
+      },
       {
         "name": "How Context Window Length Actually Breaks Your AI Agent's Un",
         "provider": "Startup Fortune",
@@ -6451,53 +6495,31 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Bizcommunity.com",
         "url": "https://www.bizcommunity.com/article/retailers-face-a-trust-and-liability-test-as-ai-shopping-agents-emerge-742252a"
-      },
-      {
-        "name": "Exclusive: Ex-Alan and Spotify alumni raise $3M for Outline ",
-        "provider": "Tech Funding News",
-        "type": "AI 项目/工具",
-        "bestFor": "* Outline raises $3M led by Founders Future to build an AI agent for CFOs.\n\n* The three-person team already has 10 paying customers, with 10 more due in Septemb",
-        "description": "* Outline raises $3M led by Founders Future to build an AI agent for CFOs.\n\n* The three-person team already has 10 paying customers, with 10 more due in September.\n\n* The CEO of Ce",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Tech Funding News",
-        "url": "https://techfundingnews.com/outline-raises-3m-seed-founders-future-ai-agent-cfo/"
-      },
-      {
-        "name": "KT joins KAIST, DAIM to drive next generation of autonomous ",
-        "provider": "The Korea Times",
-        "type": "AI 项目/工具",
-        "bestFor": "They will also develop simulation systems for training and testing robots and integrate AI agent technologies so robots can perceive, decide and act independent",
-        "description": "They will also develop simulation systems for training and testing robots and integrate AI agent technologies so robots can perceive, decide and act independently.\n\nFactories that ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Korea Times",
-        "url": "https://www.koreatimes.co.kr/business/companies/20260908/kt-joins-kaist-daim-to-drive-next-generation-of-autonomous-manufacturing"
-      },
-      {
-        "name": "ThreatBook Accredited by IMDA Singapore for Full Cycle Agent",
-        "provider": "The Manila times",
-        "type": "AI 项目/工具",
-        "bestFor": "* The agentic security company is recognized for its innovation and high growth, and is endorsed to service government and large enterprise customers.\n\n* Being ",
-        "description": "* The agentic security company is recognized for its innovation and high growth, and is endorsed to service government and large enterprise customers.\n\n* Being accredited gives Thr",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Manila times",
-        "url": "https://www.manilatimes.net/2026/09/08/tmt-newswire/pr-newswire/threatbook-accredited-by-imda-singapore-for-full-cycle-agentic-cybersecurity-solutions/2420081"
-      },
-      {
-        "name": "Meet Arm AI Portal: The launchpad for your next AI applicati",
-        "provider": "developer.arm.com",
-        "type": "AI 项目/工具",
-        "bestFor": "How to find, optimize and deploy AI models on Arm with pre-optimized models, performance insights, and agent-ready development workflows\n\nWhether you are adding",
-        "description": "How to find, optimize and deploy AI models on Arm with pre-optimized models, performance insights, and agent-ready development workflows\n\nWhether you are adding generative AI to a ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "developer.arm.com",
-        "url": "https://developer.arm.com/community/arm-community-blogs/b/ai-blog/posts/meet-arm-ai-portal-the-launchpad-for-your-next-ai-application"
       }
     ],
     "ai-models": [
+      {
+        "name": "From alerts to action: how Varun Kumar Reddy Gaddam is shapi",
+        "provider": "India News, Breaking News, Entertainment News | India.com",
+        "type": "AI 项目/工具",
+        "bestFor": "Gaddam, a veteran SAP warehouse architect with experience in solar, food, and consumer-goods manufacturing, is shifting the industry's focus from visibility to ",
+        "description": "Gaddam, a veteran SAP warehouse architect with experience in solar, food, and consumer-goods manufacturing, is shifting the industry's focus from visibility to a more challenging g",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "India News, Breaking News, Entertainment News | India.com",
+        "url": "https://www.india.com/money/from-alerts-to-action-how-varun-kumar-reddy-gaddam-is-shaping-intelligent-supply-chain-8521134/"
+      },
+      {
+        "name": "Earnings call transcript: Oakley Capital Investments posts 6",
+        "provider": "Investing.com",
+        "type": "AI 项目/工具",
+        "bestFor": "Oakley Capital Investments said net asset value rose 6% in the first half of 2026, helped by gains across its portfolio and share buybacks, while the investment",
+        "description": "Oakley Capital Investments said net asset value rose 6% in the first half of 2026, helped by gains across its portfolio and share buybacks, while the investment company continued t",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Investing.com",
+        "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-oakley-capital-investments-posts-6-h1-2026-nav-return-93CH-4895195"
+      },
       {
         "name": "Apple 发布 Health Sensing System 与重构版 Health app，Apple Watch S",
         "provider": "Apple：Newsroom（RSS）",
@@ -6915,31 +6937,20 @@
         "watch": "请打开原始来源核对",
         "sourceName": "The Manila times",
         "url": "https://www.manilatimes.net/2026/09/08/tmt-newswire/globenewswire/from-barrier-to-bridge-how-ai-live-translation-is-powering-the-multilingual-era/2420831"
-      },
-      {
-        "name": "Council staff warned over leaking information to ChatGPT und",
-        "provider": "Deadline News",
-        "type": "AI 项目/工具",
-        "bestFor": "COUNCIL workers could face disciplinary action if they feed confidential information into artificial intelligence tools including ChatGPT under proposed new rul",
-        "description": "COUNCIL workers could face disciplinary action if they feed confidential information into artificial intelligence tools including ChatGPT under proposed new rules.\n\nStirling Counci",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Deadline News",
-        "url": "https://www.deadlinenews.co.uk/2026/09/08/council-staff-warned-over-leaking-information-to-chatgpt-under-new-ai-rules/"
-      },
-      {
-        "name": "The ocean's fury: A 'super El Niño' may shatter records -- a",
-        "provider": "Las Vegas Sun",
-        "type": "AI 项目/工具",
-        "bestFor": "Editor's note: \"Behind the News\" is the product of Sun staff assisted by the Sun's AI lab, which includes a variety of tools such as Anthropic's Claude and Goog",
-        "description": "Editor's note: \"Behind the News\" is the product of Sun staff assisted by the Sun's AI lab, which includes a variety of tools such as Anthropic's Claude and Google Gemini.\n\nThe Atla",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Las Vegas Sun",
-        "url": "https://lasvegassun.com/news/2026/sep/08/the-oceans-fury-a-super-el-nio-may-shatter-records/"
       }
     ],
     "ai-business": [
+      {
+        "name": "Can AI replace leadership? Tasc chief says firms still searc",
+        "provider": "Khaleej times",
+        "type": "AI 项目/工具",
+        "bestFor": "As businesses grapple with AI, industry experts highlight that leaders must invest in new skills while bringing experience to a rapidly changing workforce\n\n[Edi",
+        "description": "As businesses grapple with AI, industry experts highlight that leaders must invest in new skills while bringing experience to a rapidly changing workforce\n\n[Editor's note: Follow K",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Khaleej times",
+        "url": "https://www.khaleejtimes.com/uae/future-of-workforce-summit-second-edition-tasc-group-ai-leadership"
+      },
       {
         "name": "What Happens To Books When AI Does The Reading For Us",
         "provider": "TimesNow",
@@ -7368,17 +7379,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Yahoo! Finance",
         "url": "https://finance.yahoo.com/markets/stocks/articles/tim-cooks-era-ending-apple-103500617.html"
-      },
-      {
-        "name": "With Tim Cook's Era Ending, Is Apple Stock a Buy Under John ",
-        "provider": "NASDAQ Stock Market",
-        "type": "AI 项目/工具",
-        "bestFor": "The Tim Cook era at Apple (NASDAQ: AAPL) has come to an end. Cook took over from Apple Co-Founder Steve Jobs, who was then in ill health and passed away soon af",
-        "description": "The Tim Cook era at Apple (NASDAQ: AAPL) has come to an end. Cook took over from Apple Co-Founder Steve Jobs, who was then in ill health and passed away soon after. During his tenu",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NASDAQ Stock Market",
-        "url": "https://www.nasdaq.com/articles/tim-cooks-era-ending-apple-stock-buy-under-john-ternus"
       }
     ],
     "ai-benchmark": [
@@ -10302,7 +10302,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-10",
-    "generatedAt": "2026-09-10T07:33:45.631376Z",
+    "generatedAt": "2026-09-10T10:07:08.964773Z",
     "total": 17,
     "sections": [
       {
