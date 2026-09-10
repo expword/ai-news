@@ -1,7 +1,97 @@
 {
   "lastUpdated": "2026-09-11",
-  "generatedAt": "2026-09-10T20:40:03.592625Z",
+  "generatedAt": "2026-09-10T23:00:06.609347Z",
   "news": [
+    {
+      "title": "ToolGrad: Efficient tool-use dataset generation with textual \"gradients\"",
+      "summary": "Machine Intelligence",
+      "category": "ai-models",
+      "source": "RSS · Google Research",
+      "date": "2026-09-11",
+      "publishedAt": "2026-09-11T06:50",
+      "collectedAt": "2026-09-11T07:00",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://research.google/blog/toolgrad-efficient-tool-use-dataset-generation-with-textual-gradients/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "benchmarkDatasets",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Reduce LLM latency with prefix-aware routing on Amazon SageMaker Inference",
+      "summary": "Amazon SageMaker Inference now offers prefix-aware routing, a routing strategy that sends requests sharing the same prompt prefix to the same instance so the KV cache stays warm. I",
+      "category": "ai-benchmark",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-11",
+      "publishedAt": "2026-09-11T05:58",
+      "collectedAt": "2026-09-11T07:00",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/reduce-llm-latency-with-prefix-aware-routing-on-amazon-sagemaker-inference/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 2,
+      "relatedSources": [
+        {
+          "source": "RSS · AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/reduce-inference-cold-starts-on-amazon-sagemaker-hyperpod-with-model-caching/",
+          "title": "Reduce inference cold starts on Amazon SageMaker HyperPod with model caching"
+        }
+      ]
+    },
+    {
+      "title": "Video and image search in Amazon Bedrock Knowledge Base using Marengo 3.0",
+      "summary": "TwelveLabs Marengo Embed 3.0 is now generally available as an embedding model in Amazon Bedrock Knowledge Bases, bringing fully managed natural language search to video, image, and",
+      "category": "ai-image-video",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-11",
+      "publishedAt": "2026-09-11T05:15",
+      "collectedAt": "2026-09-11T05:50",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/video-and-image-search-in-amazon-bedrock-knowledge-base-using-marengo-3-0/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Amazon Quick is now generally available on desktop",
       "summary": "Your teams get an AI assistant that handles real work while your data stays in your environment and your conversations stay private Today, the Amazon Quick desktop application is g",
@@ -2650,87 +2740,6 @@
       "sourceDate": "2026-09-03",
       "tags": [],
       "url": "http://arxiv.org/abs/2609.04022v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "InSituMeasure: Probing Situated Measurement Grounding in Industrial Scenes with Multimodal Large Language Models",
-      "summary": "For trained operators, gauge reading requires little specialized knowledge, low cognitive effort, and high repeatability. Yet Multimodal Large Language Models (MLLMs) remain unreli",
-      "category": "ai-benchmark",
-      "source": "arXiv",
-      "date": "2026-09-03",
-      "publishedAt": "",
-      "collectedAt": "2026-09-04T17:20",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-03",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.04014v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Unlocking Lossless Speedups in LLMs via Discrete Diffusion",
-      "summary": "Large Language Models (LLMs) owe much of their success to next-token prediction (NTP), but their autoregressive (AR) structure requires slow, sequential token generation. To overco",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-03",
-      "publishedAt": "",
-      "collectedAt": "2026-09-04T17:20",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-03",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.04010v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Rethinking On-Policy Distillation of Large Language Models II: One Training Example",
-      "summary": "On-policy distillation (OPD) combines student-generated rollouts with dense token-level supervision from a teacher. Existing work has mainly studied its algorithmic behavior, leavi",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-03",
-      "publishedAt": "",
-      "collectedAt": "2026-09-04T14:45",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-03",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.04172v1",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -8660,6 +8669,17 @@
     ],
     "ai-research": [
       {
+        "name": "ToolGrad: Efficient tool-use dataset generation with textual",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Machine Intelligence",
+        "description": "Machine Intelligence",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Google Research",
+        "url": "https://research.google/blog/toolgrad-efficient-tool-use-dataset-generation-with-textual-gradients/"
+      },
+      {
         "name": "DiSCo: A Distribution-First Steering and Cultural Prior Eval",
         "provider": "arXiv",
         "type": "AI 项目/工具",
@@ -9087,17 +9107,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2608.21165v1"
-      },
-      {
-        "name": "CLEAR: Continuous Latent Adapter Routing for Utility-Preserv",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Improving the safety of large language models (LLMs) often comes at the expense of utility, as globally applied safety tuning may affect model responses to both",
-        "description": "Improving the safety of large language models (LLMs) often comes at the expense of utility, as globally applied safety tuning may affect model responses to both harmful and benign ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2608.21278v1"
       }
     ],
     "ai-office": []
@@ -10506,8 +10515,8 @@
   ],
   "dailyReport": {
     "date": "2026-09-11",
-    "generatedAt": "2026-09-10T20:40:03.568653Z",
-    "total": 19,
+    "generatedAt": "2026-09-10T23:00:06.586776Z",
+    "total": 22,
     "sections": [
       {
         "category": "ai-coding",
@@ -10544,6 +10553,23 @@
             "sourceCount": 1,
             "date": "2026-09-10",
             "publishedAt": "2026-09-10T02:11",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "category": "ai-image-video",
+        "label": "图像视频",
+        "items": [
+          {
+            "title": "Video and image search in Amazon Bedrock Knowledge Base using Marengo 3.0",
+            "summary": "TwelveLabs Marengo Embed 3.0 is now generally available as an embedding model in Amazon Bedrock Knowledge Bases, bringing fully managed natu",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/video-and-image-search-in-amazon-bedrock-knowledge-base-using-marengo-3-0/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-11",
+            "publishedAt": "2026-09-11T05:15",
             "reason": ""
           }
         ]
@@ -10602,6 +10628,17 @@
         "category": "ai-models",
         "label": "模型发布",
         "items": [
+          {
+            "title": "ToolGrad: Efficient tool-use dataset generation with textual \"gradients\"",
+            "summary": "Machine Intelligence",
+            "source": "RSS · Google Research",
+            "url": "https://research.google/blog/toolgrad-efficient-tool-use-dataset-generation-with-textual-gradients/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-11",
+            "publishedAt": "2026-09-11T06:50",
+            "reason": ""
+          },
           {
             "title": "Amazon Quick is now generally available on desktop",
             "summary": "Your teams get an AI assistant that handles real work while your data stays in your environment and your conversations stay private Today, t",
@@ -10721,6 +10758,23 @@
             "sourceCount": 1,
             "date": "2026-09-10",
             "publishedAt": "2026-09-10T00:00",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "category": "ai-benchmark",
+        "label": "评测榜单",
+        "items": [
+          {
+            "title": "Reduce LLM latency with prefix-aware routing on Amazon SageMaker Inference",
+            "summary": "Amazon SageMaker Inference now offers prefix-aware routing, a routing strategy that sends requests sharing the same prompt prefix to the sam",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/reduce-llm-latency-with-prefix-aware-routing-on-amazon-sagemaker-inference/",
+            "score": 70,
+            "sourceCount": 2,
+            "date": "2026-09-11",
+            "publishedAt": "2026-09-11T05:58",
             "reason": ""
           }
         ]
@@ -22280,6 +22334,18 @@
     ]
   },
   "benchmarkDatasets": [
+    {
+      "name": "toolgrad-efficient-tool-use-dataset",
+      "area": "AI 模型能力评测",
+      "note": "Machine Intelligence",
+      "source": "https://research.google/blog/toolgrad-efficient-tool-use-dataset-generation-with-textual-gradients/",
+      "sourceName": "RSS · Google Research",
+      "date": "2026-09-11",
+      "originTitle": "ToolGrad: Efficient tool-use dataset generation with textual \"gradients\"",
+      "evaluates": [],
+      "useCases": [],
+      "limitations": []
+    },
     {
       "name": "Retrieval",
       "area": "检索 / Embedding",
