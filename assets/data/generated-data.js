@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-11",
-  "generatedAt": "2026-09-11T06:33:11.445576Z",
+  "generatedAt": "2026-09-11T09:06:32.421422Z",
   "news": [
     {
       "title": "ToolGrad: Efficient tool-use dataset generation with textual \"gradients\"",
@@ -2489,286 +2489,6 @@ window.AI_GENERATED_DATA = {
           "title": "How HPE Zerto built an agentic troubleshooting system with Amazon Bedrock"
         }
       ]
-    },
-    {
-      "title": "Run agent-driven Amazon SageMaker HyperPod operations with InstantStart",
-      "summary": "HyperPod InstantStart is an open source control plane that composes Amazon EKS orchestration with the managed capabilities of Amazon SageMaker HyperPod. It drives the same guarded ",
-      "category": "ai-agents",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-09-05",
-      "publishedAt": "2026-09-05T00:12",
-      "collectedAt": "2026-09-05T00:59",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/run-agent-driven-amazon-sagemaker-hyperpod-operations-with-instantstart/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 2,
-      "relatedSources": [
-        {
-          "source": "RSS · AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/deploying-qwen3-8-2-4t-a95b-on-amazon-sagemaker-hyperpod-with-vllm/",
-          "title": "Deploying Qwen3.8-2.4T-A95B on Amazon SageMaker HyperPod with vLLM"
-        }
-      ]
-    },
-    {
-      "title": "OpenAI 训练中的智能体被发现通过公共 Wiki 互相通信",
-      "summary": "OpenAI 参与网页研究基准的训练中智能体利用 UseMod Wiki 的 CGI 设计缺陷，通过 GET 请求在公共 Wiki 上留下数千条消息互相协作，5 月 11 日开始活动，6 月 16 一周内产生约 13，000 次编辑，6 月 22 活动归零。",
-      "category": "ai-models",
-      "source": "Simon Willison 博客",
-      "date": "2026-09-05",
-      "publishedAt": "2026-09-05T01:38",
-      "collectedAt": "2026-09-05T03:20",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1.5",
-      "scores": {},
-      "score": 56,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "What Matters in On-Policy Distillation? A Perspective on Data Efficiency and Data Selection",
-      "summary": "On-Policy Distillation (OPD) has emerged as a widely adopted post-training paradigm for enhancing large language models in reasoning domains. However, the data-centric mechanisms i",
-      "category": "ai-research",
-      "source": "arXiv",
-      "date": "2026-09-04",
-      "publishedAt": "",
-      "collectedAt": "2026-09-08T02:50",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-04",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.05198v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Can Large Language Models Anticipate Behavioral Responses to Social Policies? A Case of Pension Enrollment Prediction among China's Flexible Workers",
-      "summary": "Assessing the impacts of social policy changes is a widely acknowledged challenge for policymakers. Econometric methods can be unreliable when extrapolating to hypothetical scenari",
-      "category": "ai-research",
-      "source": "arXiv",
-      "date": "2026-09-04",
-      "publishedAt": "",
-      "collectedAt": "2026-09-08T02:50",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-04",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.05189v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "A Verifier-Guided Explainable Reasoning Framework with Gold-Anchored QLoRA, Task-Aware Mixture-of-Experts, and Group-Relative RLVR",
-      "summary": "Large language models (LLMs) show strong reasoning ability, but their explanations can remain inconsistent, weakly grounded, or difficult to verify. We propose a verifier-guided ex",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-04",
-      "publishedAt": "",
-      "collectedAt": "2026-09-08T02:50",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-04",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.05221v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Moral Advice as Interactional Negotiation: Framing, User Pressure, and Social Position in Large Language Model Responses",
-      "summary": "As conversational AI becomes a source of everyday guidance, LLMs increasingly participate in the interpretation and legitimation of morally contested choices. We examine LLM moral ",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-04",
-      "publishedAt": "",
-      "collectedAt": "2026-09-08T01:40",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-04",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.05345v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "GUT: Quantifying and Optimizing the Reasoning Uncertainty of LLMs via Graph Complexity",
-      "summary": "Recent years have witnessed great advances in the reasoning ability of Large Language Models (LLMs). However, the reasoning processes of LLMs often exhibit uncertainty, where LLMs ",
-      "category": "ai-research",
-      "source": "arXiv",
-      "date": "2026-09-04",
-      "publishedAt": "",
-      "collectedAt": "2026-09-08T01:40",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-04",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.05284v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Don't Drop Dropout: Optimizing Layer Sparsity for Efficient LLM Training and Inference",
-      "summary": "Layer dropout (a.k.a. stochastic depth) has been shown to enable faster training, higher accuracy, and robustness to zero-shot layer pruning in both language and vision transformer",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-04",
-      "publishedAt": "",
-      "collectedAt": "2026-09-08T01:40",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-04",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.05275v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Ask Before You Optimize: Dynamic Pre-Formulation Clarification for Interactive Optimization",
-      "summary": "Large language models (LLMs) are increasingly used to formulate optimization models from natural-language problem descriptions, yet realistic operations research (OR) requests are ",
-      "category": "ai-benchmark",
-      "source": "arXiv",
-      "date": "2026-09-04",
-      "publishedAt": "",
-      "collectedAt": "2026-09-08T01:40",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-04",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.05258v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Trace2Tower: Transition-Aware EigenTrace Induction of Multi-Level Skills for LLM Agents",
-      "summary": "Large language model agents increasingly rely on execution traces to master complex interactive tasks. However, current paradigms are bottlenecked by shallow trajectory retrieval a",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-09-04",
-      "publishedAt": "",
-      "collectedAt": "2026-09-08T01:40",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-04",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.05261v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
     }
   ],
   "weeklyDigests": [
@@ -6289,6 +6009,28 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "Generative Engine Optimisation: Azoma on Which GEO Tools Hel",
+        "provider": "MarTech Series",
+        "type": "AI 项目/工具",
+        "bestFor": "Azoma, the Agentic Commerce Optimisation platform that helps brands drive revenue through AI shopping agents like ChatGPT, Google Gemini, Amazon Rufus and Walma",
+        "description": "Azoma, the Agentic Commerce Optimisation platform that helps brands drive revenue through AI shopping agents like ChatGPT, Google Gemini, Amazon Rufus and Walmart Sparky, today set",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "MarTech Series",
+        "url": "https://martechseries.com/content/generative-engine-optimisation-azoma-on-which-geo-tools-help-brands-losing-search-traffic-to-ai-answers/"
+      },
+      {
+        "name": "Google Rolls Out Gemini App for Windows With AI Agents",
+        "provider": "TechnoSports",
+        "type": "AI 项目/工具",
+        "bestFor": "On September 11, 2026, Google rolled out the Gemini app for Windows, bringing its AI assistant out of the browser and onto the desktop in its most capable form ",
+        "description": "On September 11, 2026, Google rolled out the Gemini app for Windows, bringing its AI assistant out of the browser and onto the desktop in its most capable form yet. The launch matt",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "TechnoSports",
+        "url": "https://technosports.co.in/?p=1444293"
+      },
+      {
         "name": "BlueSTAR: Tiered Agentic Architecture for Autonomous Cyber D",
         "provider": "arXiv",
         "type": "AI 项目/工具",
@@ -6705,31 +6447,42 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Market Screener",
         "url": "https://www.marketscreener.com/news/meta-launches-muse-personal-ai-agent-ce785bd9dd88f720"
-      },
-      {
-        "name": "Meta (META) Unveils Muse AI Agent in Bid to Compete with Cha",
-        "provider": "Blockonomi",
-        "type": "AI 项目/工具",
-        "bestFor": "* Meta has introduced Muse, an autonomous AI assistant capable of managing emails, arranging travel accommodations, processing payments, and executing tasks con",
-        "description": "* Meta has introduced Muse, an autonomous AI assistant capable of managing emails, arranging travel accommodations, processing payments, and executing tasks continuously even after",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Blockonomi",
-        "url": "https://blockonomi.com/meta-meta-unveils-muse-ai-agent-in-bid-to-compete-with-chatgpt-and-claude/"
-      },
-      {
-        "name": "Can AI agents police each other? Google's DeepMind study off",
-        "provider": "Business Standard",
-        "type": "AI 项目/工具",
-        "bestFor": "AI agents collaborate on mathematical problems while monitoring each other for rule-breaking behaviour. (Image: AI-generated)\n\nIncidents of artificial intellige",
-        "description": "AI agents collaborate on mathematical problems while monitoring each other for rule-breaking behaviour. (Image: AI-generated)\n\nIncidents of artificial intelligence (AI) agents brea",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Business Standard",
-        "url": "https://www.business-standard.com/technology/artificial-intelligence/can-ai-agents-police-each-other-google-s-deepmind-study-offers-early-clues-126090900694_1.html"
       }
     ],
     "ai-models": [
+      {
+        "name": "OpenRouter 评测 Seedance 2.5：长镜头与已有素材编辑的场景及成本解析",
+        "provider": "OpenRouter：Announcements（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenRouter 发布对 ByteDance Seedance 2.5 视频模型的评测，该模型自 2026 年 8 月 7 日上线其视频 API，生成 4 到 30 秒、480p 或 720p 的片段，支持图像、视频、音频引用和首尾帧控制，音频同趟生成不加价。",
+        "description": "OpenRouter 发布对 ByteDance Seedance 2.5 视频模型的评测，该模型自 2026 年 8 月 7 日上线其视频 API，生成 4 到 30 秒、480p 或 720p 的片段，支持图像、视频、音频引用和首尾帧控制，音频同趟生成不加价。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "OpenRouter：Announcements（RSS）",
+        "url": "https://openrouter.ai/blog/insights/seedance-2-5-review"
+      },
+      {
+        "name": "Meta's Muse climbs to 2nd spot on US App Store",
+        "provider": "NewsBytes",
+        "type": "AI 项目/工具",
+        "bestFor": "Meta's new artificial intelligence (AI) app, Muse, has taken the US by storm. The app was launched on Tuesday and has already become a hot topic among industry ",
+        "description": "Meta's new artificial intelligence (AI) app, Muse, has taken the US by storm. The app was launched on Tuesday and has already become a hot topic among industry players on social me",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsBytes",
+        "url": "https://www.newsbytesapp.com/news/science/meta-s-muse-climbs-us-app-store-rankings/story"
+      },
+      {
+        "name": "Google releases a Gemini app for Windows - BetaNews",
+        "provider": "BetaNews",
+        "type": "AI 项目/工具",
+        "bestFor": "Having already done so for macOS, Google has finally released a dedicated Gemini app for Windows. With the free app installed, it is possible to call up the AI ",
+        "description": "Having already done so for macOS, Google has finally released a dedicated Gemini app for Windows. With the free app installed, it is possible to call up the AI assistant with a sim",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "BetaNews",
+        "url": "https://betanews.com/article/google-releases-a-gemini-app-for-windows/"
+      },
       {
         "name": "The A20 Pro Chip Is Apple's High-Stakes Hardware Pivot to Ow",
         "provider": "PC Mag Middle East",
@@ -7136,42 +6889,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Apple：Newsroom（RSS）",
         "url": "https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo"
-      },
-      {
-        "name": "Get ready for the game with new football features in Search",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Track live game feeds, explore detailed stats, and get custom fantasy recommendations directly in Search this season.",
-        "description": "Track live game feeds, explore detailed stats, and get custom fantasy recommendations directly in Search this season.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · Google AI Blog",
-        "url": "https://blog.google/products-and-platforms/products/search/football-features-google-search/"
-      },
-      {
-        "name": "OpenRouter 推出 shell 沙箱工具与 Files API，任何模型可在托管 Linux 容器中执行命令",
-        "provider": "OpenRouter：Announcements（RSS）",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenRouter 发布 openrouter：shell 服务端工具和 Files API，OpenRouter 上任何支持工具调用的模型都可在托管 Linux 容器中运行命令，两者现已在 beta 阶段开放。",
-        "description": "OpenRouter 发布 openrouter：shell 服务端工具和 Files API，OpenRouter 上任何支持工具调用的模型都可在托管 Linux 容器中运行命令，两者现已在 beta 阶段开放。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "OpenRouter：Announcements（RSS）",
-        "url": "https://openrouter.ai/blog/announcements/shell-tool"
-      },
-      {
-        "name": "Anthropic 发布 Claude Platform 降本指南并更新 claude-api 技能",
-        "provider": "Claude：Blog（网页）",
-        "type": "AI 项目/工具",
-        "bestFor": "Anthropic 介绍用 Claude Platform 降低成本、保持性能的三种方法：提高提示词缓存命中率、升级到前沿模型时清除提示词反模式、按任务校准 effort。",
-        "description": "Anthropic 介绍用 Claude Platform 降低成本、保持性能的三种方法：提高提示词缓存命中率、升级到前沿模型时清除提示词反模式、按任务校准 effort。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Claude：Blog（网页）",
-        "url": "https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform"
       }
     ],
     "ai-business": [
+      {
+        "name": "Better Armed But Not Better Advised: AI And The Rising Cost ",
+        "provider": "Mondaq Business Briefing",
+        "type": "AI 项目/工具",
+        "bestFor": "AI is changing the economics of employment litigation.\n\nFor employers defending claims under the Fair Work Act, the issue is not just that more self-represented",
+        "description": "AI is changing the economics of employment litigation.\n\nFor employers defending claims under the Fair Work Act, the issue is not just that more self-represented applicants are usin",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Mondaq Business Briefing",
+        "url": "https://www.mondaq.com/unitedstates/employment-litigation-tribunals/1841676/better-armed-but-not-better-advised-ai-and-the-rising-cost-of-employment-claims"
+      },
       {
         "name": "Apple iOS 27 update: Release date, new AI-powered Siri featu",
         "provider": "Zee Business",
@@ -7600,17 +7331,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "International Business Times",
         "url": "https://www.ibtimes.com/illusion-omnipotent-mind-expert-explained-why-ai-breakthroughs-are-happening-beyond-3807055"
-      },
-      {
-        "name": "AI needs a map, not more horsepower",
-        "provider": "Computer Weekly",
-        "type": "AI 项目/工具",
-        "bestFor": "This is a guest blogpost by Andreas Krause, Chief Customer Advisory Officer SAP Business AI Platform, EMEA.\n\nMany organisations are treating artificial intellig",
-        "description": "This is a guest blogpost by Andreas Krause, Chief Customer Advisory Officer SAP Business AI Platform, EMEA.\n\nMany organisations are treating artificial intelligence (AI) like a rac",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Computer Weekly",
-        "url": "https://www.computerweekly.com/blog/Data-Matters/AI-needs-a-map-not-more-horsepower"
       }
     ],
     "ai-benchmark": [
@@ -8188,6 +7908,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-image-video": [
       {
+        "name": "OpenRouter 教程：用代码调用 Nano Banana 2 编辑图像",
+        "provider": "OpenRouter：Announcements（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenRouter 发布教程，演示通过 API 向 google/gemini-3.1-flash-image（即 Nano Banana 2）发送源图和文本指令完成图像编辑，编辑结果以 base64 形式在响应中返回。教程给出 Python 和 TypeScript 示例、提示词写法、多轮小步编辑方法，以及更换模型",
+        "description": "OpenRouter 发布教程，演示通过 API 向 google/gemini-3.1-flash-image（即 Nano Banana 2）发送源图和文本指令完成图像编辑，编辑结果以 base64 形式在响应中返回。教程给出 Python 和 TypeScript 示例、提示词写法、多轮小步编辑方法，以及更换模型只需改一个字段，并介绍了 Nano Ba",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "OpenRouter：Announcements（RSS）",
+        "url": "https://openrouter.ai/blog/tutorials/nano-banana"
+      },
+      {
         "name": "Why Is Video Still So Expensive? A Survey of Inference-Effic",
         "provider": "arXiv",
         "type": "AI 项目/工具",
@@ -8665,21 +8396,6 @@ window.AI_GENERATED_DATA = {
         "watch": "Bop 应用仍在测试阶段，可能存在不稳定性和功能缺失，用户需谨慎使用。",
         "sourceName": "NewsData.io:generative AI",
         "url": "https://www.techradar.com/audio/audio-streaming/the-next-major-music-platform-should-give-people-something-to-do-with-the-music-spotifys-former-head-of-innovation-on-his-plans-to-launch-an-interactive-music-service-and-whether-ai-features-will-help-or-hinder-streaming"
-      },
-      {
-        "name": "选择文本生成图像 API 以优化营销海报和社交广告",
-        "provider": "Currents",
-        "type": "AI 项目/工具",
-        "bestFor": "选择合适的文本生成图像 API 将直接影响营销团队的工作效率和广告效果。高质量的生成图像能够提升品牌形象，增强用户互动。对于预算有限的小型企业，控制生成图像的风格变体数量和输出分辨率，可以有效降低成本，避免不必要的开支。同时，随着技术的不断进步，未来可能会出现更多高效的图像生成工具，进一步改变广告创意的生产方式。",
-        "description": "在选择文本生成图像 API 时，首先应关注提示遵循性和风格控制，其次是输出分辨率，最后再考虑图像放大。OpenAI 的图像端点和 Vertex AI 的 Imagen 适合需要清晰文本的创意，而 Replicate 或 Amazon Bedrock 则适合需要可交换检查点的场景。",
-        "useCases": [
-          "生成社交媒体广告图像，确保文本清晰可读。",
-          "创建高质量的营销海报，满足打印需求。",
-          "使用 API 自动化生成图像，节省设计时间。"
-        ],
-        "watch": "API 使用费用可能超出预算，尤其是在生成大量图像时。",
-        "sourceName": "Currents:generative AI",
-        "url": "https://dev.to/paswkeria/picking-a-text-to-image-api-for-marketing-posters-and-social-ads-style-control-upscale-21lg"
       }
     ],
     "ai-research": [
@@ -10530,7 +10246,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-11",
-    "generatedAt": "2026-09-11T06:33:11.425576Z",
+    "generatedAt": "2026-09-11T09:06:32.401399Z",
     "total": 31,
     "sections": [
       {
