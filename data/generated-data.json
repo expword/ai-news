@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-11",
-  "generatedAt": "2026-09-11T09:06:32.421422Z",
+  "generatedAt": "2026-09-11T11:38:05.208508Z",
   "news": [
     {
       "title": "ToolGrad: Efficient tool-use dataset generation with textual \"gradients\"",
@@ -241,6 +241,33 @@
       "sourceDate": "",
       "tags": [],
       "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Negative Self-Distillation: Learning to Reason by Avoiding Flaws",
+      "summary": "On-Policy Self-Distillation (OPSD) has emerged as a popular paradigm for large language model (LLM) self-improvement, allowing models to act as their own teachers by leveraging pri",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-09-10",
+      "publishedAt": "",
+      "collectedAt": "2026-09-11T19:38",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-10",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.11699v1",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -6451,6 +6478,39 @@
     ],
     "ai-models": [
       {
+        "name": "Google Gemini Windows App is Here: How to Download and Use I",
+        "provider": "Analytics Insight",
+        "type": "AI 项目/工具",
+        "bestFor": "The app is available globally for Windows 10 and Windows 11.Reportedly, users can access Gemini through a keyboard shortcut, work on multi-step tasks and use Go",
+        "description": "The app is available globally for Windows 10 and Windows 11.Reportedly, users can access Gemini through a keyboard shortcut, work on multi-step tasks and use Google apps for additi",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Analytics Insight",
+        "url": "https://www.analyticsinsight.net/news/google-gemini-windows-app-is-here-how-to-download-and-use-it"
+      },
+      {
+        "name": "Gemini Notebook keeps mind-map creation in its desktop exper",
+        "provider": "Bangla news",
+        "type": "AI 项目/工具",
+        "bestFor": "Google's Gemini Notebook supports mind-map creation in its desktop experience, but the company's help page says the mobile app does not support the feature at t",
+        "description": "Google's Gemini Notebook supports mind-map creation in its desktop experience, but the company's help page says the mobile app does not support the feature at this time. The differ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Bangla news",
+        "url": "https://inews.zoombangla.com/gemini-notebook-mind-maps-desktop-not-mobile/"
+      },
+      {
+        "name": "World News | Iranian President Pezeshkian Arrives in Delhi t",
+        "provider": "LatestLY",
+        "type": "AI 项目/工具",
+        "bestFor": "New Delhi [India], September 11 (ANI): Iranian President Masoud Pezeshkian arrived in the national capital on Friday to attend the 18th BRICS Summit 2026; he wi",
+        "description": "New Delhi [India], September 11 (ANI): Iranian President Masoud Pezeshkian arrived in the national capital on Friday to attend the 18th BRICS Summit 2026; he will also hold a bilat",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "LatestLY",
+        "url": "https://www.latestly.com/agency-news/world-news-iranian-president-pezeshkian-arrives-in-delhi-to-attend-18th-brics-summit-7599816.html"
+      },
+      {
         "name": "OpenRouter 评测 Seedance 2.5：长镜头与已有素材编辑的场景及成本解析",
         "provider": "OpenRouter：Announcements（RSS）",
         "type": "AI 项目/工具",
@@ -6856,42 +6916,20 @@
         "watch": "请打开原始来源核对",
         "sourceName": "phl17",
         "url": "https://phl17.com/nmw/apple-unveils-first-foldable-iphone-5-takeaways-from-wednesdays-event/"
-      },
-      {
-        "name": "Apple 发布 Apple Watch Series 12，搭载全新 Health Sensing System 与 ",
-        "provider": "Apple：Newsroom（RSS）",
-        "type": "AI 项目/工具",
-        "bestFor": "Apple 发布 Apple Watch Series 12，称其具备可穿戴设备中最准确的心率监测，心率每 5 秒测量一次，HRV 测量频率提升至 24 倍，并新增 0-10 分 readiness 评分。",
-        "description": "Apple 发布 Apple Watch Series 12，称其具备可穿戴设备中最准确的心率监测，心率每 5 秒测量一次，HRV 测量频率提升至 24 倍，并新增 0-10 分 readiness 评分。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Apple：Newsroom（RSS）",
-        "url": "https://www.apple.com/newsroom/2026/09/introducing-apple-watch-series-12-with-the-all-new-health-sensing-system"
-      },
-      {
-        "name": "Apple 发布 iPhone 18 Pro 与 iPhone 18 Pro Max",
-        "provider": "Apple：Newsroom（RSS）",
-        "type": "AI 项目/工具",
-        "bestFor": "Apple 发布 iPhone 18 Pro 和 iPhone 18 Pro Max，配备带可变光圈的 48MP Fusion 主摄、A20 Pro 芯片和新一代 vapor chamber，eSIM 版 iPhone 18 Pro Max 视频播放最长可达 45 小时。",
-        "description": "Apple 发布 iPhone 18 Pro 和 iPhone 18 Pro Max，配备带可变光圈的 48MP Fusion 主摄、A20 Pro 芯片和新一代 vapor chamber，eSIM 版 iPhone 18 Pro Max 视频播放最长可达 45 小时。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Apple：Newsroom（RSS）",
-        "url": "https://www.apple.com/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max"
-      },
-      {
-        "name": "Apple 发布首款折叠屏 iPhone Duo，起售价 $1，999",
-        "provider": "Apple：Newsroom（RSS）",
-        "type": "AI 项目/工具",
-        "bestFor": "Apple 发布首款折叠屏 iPhone Duo，展开为 7.6 英寸内屏，合盖后为 5.4 英寸外屏，提供 iPhone 上最大显示面积。搭载 A20 Pro 芯片和蒸汽室散热，iPhone 17 Pro 续航最高 44 小时视频播放，10 月 16 日开启预购、10 月 23 日发售，起售价 $1，999。",
-        "description": "Apple 发布首款折叠屏 iPhone Duo，展开为 7.6 英寸内屏，合盖后为 5.4 英寸外屏，提供 iPhone 上最大显示面积。搭载 A20 Pro 芯片和蒸汽室散热，iPhone 17 Pro 续航最高 44 小时视频播放，10 月 16 日开启预购、10 月 23 日发售，起售价 $1，999。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Apple：Newsroom（RSS）",
-        "url": "https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo"
       }
     ],
     "ai-business": [
+      {
+        "name": "Renault Duster Niagara Pickup Truck Revealed: Photo Gallery",
+        "provider": "CarToq - India’s #1 auto content site",
+        "type": "AI 项目/工具",
+        "bestFor": "The French automaker Renault has officially revealed its new Niagara pickup truck for the South American market. It is based on the same RGMP platform as the ne",
+        "description": "The French automaker Renault has officially revealed its new Niagara pickup truck for the South American market. It is based on the same RGMP platform as the new-generation Duster.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "CarToq - India’s #1 auto content site",
+        "url": "https://www.cartoq.com/car-news/renault-duster-niagara-pickup-revealed/"
+      },
       {
         "name": "Better Armed But Not Better Advised: AI And The Rising Cost ",
         "provider": "Mondaq Business Briefing",
@@ -7320,17 +7358,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "VnExpress International – Latest news, business, travel and analysis from Vietnam",
         "url": "https://e.vnexpress.net/news/tech/vietnam-innovation/vietnamese-spend-1-7m-on-claude-7-1m-on-chatgpt-5115931.html"
-      },
-      {
-        "name": "The Illusion of the 'Omnipotent' Mind: An expert explained w",
-        "provider": "International Business Times",
-        "type": "AI 项目/工具",
-        "bestFor": "According to The Kobeissi Letter, the combined capital spending on AI by Alphabet, Amazon, Meta, Microsoft, and Oracle is projected to reach around $1.1 trillio",
-        "description": "According to The Kobeissi Letter, the combined capital spending on AI by Alphabet, Amazon, Meta, Microsoft, and Oracle is projected to reach around $1.1 trillion by 2027, which wou",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "International Business Times",
-        "url": "https://www.ibtimes.com/illusion-omnipotent-mind-expert-explained-why-ai-breakthroughs-are-happening-beyond-3807055"
       }
     ],
     "ai-benchmark": [
@@ -10246,7 +10273,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-11",
-    "generatedAt": "2026-09-11T09:06:32.401399Z",
+    "generatedAt": "2026-09-11T11:38:05.185508Z",
     "total": 31,
     "sections": [
       {
@@ -10459,6 +10486,17 @@
             "reason": ""
           },
           {
+            "title": "Negative Self-Distillation: Learning to Reason by Avoiding Flaws",
+            "summary": "On-Policy Self-Distillation (OPSD) has emerged as a popular paradigm for large language model (LLM) self-improvement, allowing models to act",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.11699v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-10",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
             "title": "SpecGuard: Inference-Time Backdoor Detection For Free",
             "summary": "Large language models are often fine-tuned, shared, or downloaded from third parties, so a deployed model may carry a hidden backdoor that b",
             "source": "arXiv",
@@ -10518,17 +10556,6 @@
             "summary": "Generalized latent factor models provide a flexible framework for analyzing high-dimensional non-Gaussian data, but principled estimation an",
             "source": "arXiv",
             "url": "http://arxiv.org/abs/2609.11740v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-10",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "LOCUS: Task-Aware Low-Rank Post-Training for Token-Efficient Language Generation",
-            "summary": "Large language model serving costs scale directly with output sequence length, yet standard preference alignment often inflates response ver",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.11739v1",
             "score": 70,
             "sourceCount": 1,
             "date": "2026-09-10",
