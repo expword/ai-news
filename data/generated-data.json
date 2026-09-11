@@ -1,7 +1,90 @@
 {
-  "lastUpdated": "2026-09-11",
-  "generatedAt": "2026-09-11T14:07:32.209834Z",
+  "lastUpdated": "2026-09-12",
+  "generatedAt": "2026-09-11T16:40:13.174834Z",
   "news": [
+    {
+      "title": "DiscoSign: Discourse-Aware Text to Sign Language Gloss Translation",
+      "summary": "Sign language processing systems have traditionally operated at the sentence level, ignoring critical discourse phenomena fundamental to sign language comprehension. We introduce D",
+      "category": "ai-research",
+      "source": "RSS · Apple ML Research",
+      "date": "2026-09-11",
+      "publishedAt": "2026-09-11T08:00",
+      "collectedAt": "2026-09-12T00:40",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://machinelearning.apple.com/research/discosign-gloss-translation",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Together AI expands fine-tuning service with more models, live metrics, and finer controls",
+      "summary": "Together Fine-Tuning adds the latest open-weight models, live experiment tracking, Expert LoRA, early stopping, tokenized dataset previews, pre-flight validation, and lower trainin",
+      "category": "ai-models",
+      "source": "RSS · Together AI",
+      "date": "2026-09-11",
+      "publishedAt": "2026-09-11T08:00",
+      "collectedAt": "2026-09-12T00:40",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://www.together.ai/blog/together-ai-expands-fine-tuning-service-with-more-models-live-metrics-and-finer-controls",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Putting Captions to the Test: Evaluating Video Caption Quality through Multiple-Choice Question Answering",
+      "summary": "Evaluating video captioning remains a critical challenge for Visual Large Language Models (VLLMs). Existing metrics primarily rely on matching generated text against ground-truth r",
+      "category": "ai-image-video",
+      "source": "RSS · Apple ML Research",
+      "date": "2026-09-11",
+      "publishedAt": "2026-09-11T08:00",
+      "collectedAt": "2026-09-12T00:40",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://machinelearning.apple.com/research/video-caption-quality",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "ToolGrad: Efficient tool-use dataset generation with textual \"gradients\"",
       "summary": "Machine Intelligence",
@@ -5559,6 +5642,17 @@
   "topicResources": {
     "ai-coding": [
       {
+        "name": "This incredible accessibility tool was coded with help from ",
+        "provider": "Android Authority",
+        "type": "AI 项目/工具",
+        "bestFor": "Generative AI is everywhere, whether it's used as a cornerstone of a service, used to build apps, or employed to boost functionality within them. But with so ma",
+        "description": "Generative AI is everywhere, whether it's used as a cornerstone of a service, used to build apps, or employed to boost functionality within them. But with so many new products appe",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Android Authority",
+        "url": "https://www.androidauthority.com/new-ai-apps-services-bens-accessibility-hub-3710318/"
+      },
+      {
         "name": "Cognition's SWE-2 Coding Agent Matches Rivals at a Quarter o",
         "provider": "Startup Fortune",
         "type": "AI 项目/工具",
@@ -5986,17 +6080,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2608.31006v1"
-      },
-      {
-        "name": "We Don't Use AI-Generated Code in Live Production Environmen",
-        "provider": "Finance Magnates",
-        "type": "AI 项目/工具",
-        "bestFor": "The same logic applies to infrastructure: what works at 100 users can buckle at 500,000, and early decisions are the ones brokers end up stuck with.\n\nGrowth use",
-        "description": "The same logic applies to infrastructure: what works at 100 users can buckle at 500,000, and early decisions are the ones brokers end up stuck with.\n\nGrowth used to be linear. You ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Finance Magnates",
-        "url": "https://www.financemagnates.com/forex/we-dont-use-ai-generated-code-in-live-production-environments/"
       }
     ],
     "ai-agents": [
@@ -6443,6 +6526,50 @@
     ],
     "ai-models": [
       {
+        "name": "Google's Gemini app for Windows 11 uses the same keyboard sh",
+        "provider": "Windows Central",
+        "type": "AI 项目/工具",
+        "bestFor": "You can now summon Gemini on your computer by pressing Alt + Space.\n\nGoogle Gemini now competes with Microsoft Copilot for space on your keyboard. Google just r",
+        "description": "You can now summon Gemini on your computer by pressing Alt + Space.\n\nGoogle Gemini now competes with Microsoft Copilot for space on your keyboard. Google just released Gemini for W",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Windows Central",
+        "url": "https://www.windowscentral.com/artificial-intelligence/microsoft-copilot/googles-gemini-app-for-windows-11-uses-the-same-keyboard-shortcut-as-copilot"
+      },
+      {
+        "name": "Apple iOS 27 is almost here: When you can download it",
+        "provider": "Mashable SEA",
+        "type": "AI 项目/工具",
+        "bestFor": "We've been testing the iOS 27 and Siri AI beta for months, but the public release is fast approaching.\n\nApple's next big iOS update is finally on the launch pad",
+        "description": "We've been testing the iOS 27 and Siri AI beta for months, but the public release is fast approaching.\n\nApple's next big iOS update is finally on the launch pad.\n\nAt its \"Surprise ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Mashable SEA",
+        "url": "https://sea.mashable.com/mobile/54732/apple-ios-27-is-almost-here-when-you-can-download-it"
+      },
+      {
+        "name": "Microsoft Copilot joins CarPlay, leaving Gemini as the bigge",
+        "provider": "9to5Mac",
+        "type": "AI 项目/工具",
+        "bestFor": "Apple CarPlay now works with six major third-party AI chatbot apps. Microsoft Copilot is the latest iPhone app to add CarPlay support. This leaves Google Gemini",
+        "description": "Apple CarPlay now works with six major third-party AI chatbot apps. Microsoft Copilot is the latest iPhone app to add CarPlay support. This leaves Google Gemini as the last major h",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "9to5Mac",
+        "url": "https://9to5mac.com/2026/09/11/microsoft-copilot-joins-carplay-leaving-gemini-as-the-biggest-holdout/"
+      },
+      {
+        "name": "Apple iOS 27 release date: When you can download it",
+        "provider": "Mashable",
+        "type": "AI 项目/工具",
+        "bestFor": "Apple's next big iOS update is finally on the launch pad.\n\nAt its \"Surprise and Shine\" event on Sept. 9, Apple showed off new wares like the iPhone 18 Pro lineu",
+        "description": "Apple's next big iOS update is finally on the launch pad.\n\nAt its \"Surprise and Shine\" event on Sept. 9, Apple showed off new wares like the iPhone 18 Pro lineup, the foldable iPho",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Mashable",
+        "url": "https://mashable.com/tech/apple-ios-27-release-date-when-to-download"
+      },
+      {
         "name": "Gemini app for desktop",
         "provider": "TechSpot",
         "type": "AI 项目/工具",
@@ -6837,50 +6964,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "TimesNow",
         "url": "https://www.timesnownews.com/technology-science/ios-27-update-release-date-is-september-14-full-list-of-supported-iphones-new-features-how-to-download-and-install-article-156129831"
-      },
-      {
-        "name": "Apple unveils first foldable iPhone: 5 takeaways from Wednes",
-        "provider": "WCBD 2 - Charleston",
-        "type": "AI 项目/工具",
-        "bestFor": "(The Hill) -- Apple rolled out its next generation of the iPhone, AirPod and Apple Watch, with the company's first-ever foldable smartphone taking center stage ",
-        "description": "(The Hill) -- Apple rolled out its next generation of the iPhone, AirPod and Apple Watch, with the company's first-ever foldable smartphone taking center stage on Wednesday.\n\nThe \"",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "WCBD 2 - Charleston",
-        "url": "https://www.counton2.com/news/national-news/apple-unveils-first-foldable-iphone-5-takeaways-from-wednesdays-event/"
-      },
-      {
-        "name": "Apple unveils first foldable iPhone: 5 takeaways from Wednes",
-        "provider": "WDHN - wdhn.com",
-        "type": "AI 项目/工具",
-        "bestFor": "(The Hill) -- Apple rolled out its next generation of the iPhone, AirPod and Apple Watch, with the company's first-ever foldable smartphone taking center stage ",
-        "description": "(The Hill) -- Apple rolled out its next generation of the iPhone, AirPod and Apple Watch, with the company's first-ever foldable smartphone taking center stage on Wednesday.\n\nThe \"",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "WDHN - wdhn.com",
-        "url": "https://www.wdhn.com/news/apple-unveils-first-foldable-iphone-5-takeaways-from-wednesdays-event/"
-      },
-      {
-        "name": "Innovation, tech major draws for FDI",
-        "provider": "China Daily",
-        "type": "AI 项目/工具",
-        "bestFor": "Strategic sectors include AI, chips, critical minerals, energy transition\n\nTechnology and innovation are playing a growing role in bolstering China's appeal amo",
-        "description": "Strategic sectors include AI, chips, critical minerals, energy transition\n\nTechnology and innovation are playing a growing role in bolstering China's appeal among foreign investors",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "China Daily",
-        "url": "https://www.chinadaily.com.cn/a/202609/10/WS6aa1ff73e4b06d4aa055d380.html"
-      },
-      {
-        "name": "Apple unveils first foldable iPhone: 5 takeaways from Wednes",
-        "provider": "KTSM 9 News",
-        "type": "AI 项目/工具",
-        "bestFor": "(The Hill) -- Apple rolled out its next generation of the iPhone, AirPod and Apple Watch, with the company's first-ever foldable smartphone taking center stage ",
-        "description": "(The Hill) -- Apple rolled out its next generation of the iPhone, AirPod and Apple Watch, with the company's first-ever foldable smartphone taking center stage on Wednesday.\n\nThe \"",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "KTSM 9 News",
-        "url": "https://www.ktsm.com/news/national-news/apple-unveils-first-foldable-iphone-5-takeaways-from-wednesdays-event/"
       }
     ],
     "ai-business": [
@@ -7900,6 +7983,17 @@
     ],
     "ai-image-video": [
       {
+        "name": "Putting Captions to the Test: Evaluating Video Caption Quali",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Evaluating video captioning remains a critical challenge for Visual Large Language Models (VLLMs). Existing metrics primarily rely on matching generated text ag",
+        "description": "Evaluating video captioning remains a critical challenge for Visual Large Language Models (VLLMs). Existing metrics primarily rely on matching generated text against ground-truth r",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Apple ML Research",
+        "url": "https://machinelearning.apple.com/research/video-caption-quality"
+      },
+      {
         "name": "OpenRouter 教程：用代码调用 Nano Banana 2 编辑图像",
         "provider": "OpenRouter：Announcements（RSS）",
         "type": "AI 项目/工具",
@@ -8371,26 +8465,20 @@
         "watch": "请打开原始来源核对",
         "sourceName": "NewsAPI:large language model",
         "url": "https://www.digitimes.com/news/a20260731VL210/stereo-competition-language.html"
-      },
-      {
-        "name": "前 Spotify 创新负责人推出互动音乐平台，探索音乐新玩法",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Zonoozy 的新平台可能会吸引那些希望在音乐中找到更多表达方式的用户，尤其是年轻一代。通过提供互动工具，用户能够更自由地探索和创造音乐，这可能会改变他们对音乐消费的传统看法。此外，随着 AI 技术的不断发展，Zonoozy 计划将这些技术融入到音乐创作中，进一步提升用户体验。",
-        "description": "Mauhan M. Zonoozy，前 Spotify 创新负责人，正在推出自己的互动音乐平台，旨在提升用户与音乐的互动体验。他的新项目 Bop 是一款便携式 DJ 应用，允许用户混音和创作，强调音乐的参与性和表达性。",
-        "useCases": [
-          "下载并安装 Bop 应用，使用其混音功能创建个性化音乐作品。",
-          "通过 A Vinyl Bar 的平台，探索不同的音乐创作工具，提升自己的音乐制作技能。",
-          "参与社区活动，与其他音乐爱好者分享和交流自己的创作，获取反馈。",
-          "利用 Bop 应用的社交功能，邀请朋友一起进行音乐创作，增强互动体验。",
-          "关注 Zonoozy 的新动态，获取最新的音乐创作工具和平台更新。"
-        ],
-        "watch": "Bop 应用仍在测试阶段，可能存在不稳定性和功能缺失，用户需谨慎使用。",
-        "sourceName": "NewsData.io:generative AI",
-        "url": "https://www.techradar.com/audio/audio-streaming/the-next-major-music-platform-should-give-people-something-to-do-with-the-music-spotifys-former-head-of-innovation-on-his-plans-to-launch-an-interactive-music-service-and-whether-ai-features-will-help-or-hinder-streaming"
       }
     ],
     "ai-research": [
+      {
+        "name": "DiscoSign: Discourse-Aware Text to Sign Language Gloss Trans",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Sign language processing systems have traditionally operated at the sentence level, ignoring critical discourse phenomena fundamental to sign language comprehen",
+        "description": "Sign language processing systems have traditionally operated at the sentence level, ignoring critical discourse phenomena fundamental to sign language comprehension. We introduce D",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Apple ML Research",
+        "url": "https://machinelearning.apple.com/research/discosign-gloss-translation"
+      },
       {
         "name": "Explainability Assistant: A Conversational XAI Interface for",
         "provider": "arXiv",
@@ -8819,17 +8907,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · Apple ML Research",
         "url": "https://machinelearning.apple.com/research/multilingual-knowledge-transfer-lexical-interventions"
-      },
-      {
-        "name": "A Comprehensive Analysis of Arabic Natural Language Processi",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Natural Language Processing (NLP) has grown rapidly over the past decade, driven by digital transformation in the Arab world, social media, and large language m",
-        "description": "Natural Language Processing (NLP) has grown rapidly over the past decade, driven by digital transformation in the Arab world, social media, and large language models (LLMs). Despit",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2608.23421v1"
       }
     ],
     "ai-office": []
@@ -10237,9 +10314,9 @@
     }
   ],
   "dailyReport": {
-    "date": "2026-09-11",
-    "generatedAt": "2026-09-11T14:07:32.187834Z",
-    "total": 31,
+    "date": "2026-09-12",
+    "generatedAt": "2026-09-11T16:40:13.153837Z",
+    "total": 12,
     "sections": [
       {
         "category": "ai-coding",
@@ -10266,39 +10343,6 @@
             "date": "2026-09-11",
             "publishedAt": "2026-09-11T00:00",
             "reason": ""
-          },
-          {
-            "title": "Component-Aware Differential Privacy for Federated Multilingual Speech-LLMs",
-            "summary": "Per-layer differential privacy (DP) clipping improves gradient fidelity in federated learning by allocating per-matrix clipping budgets prop",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.11762v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-10",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Capsule Lens: Locating and Tracking Concept Geometry in Model Representations",
-            "summary": "arXiv:2609.05575v1 Announce Type: new Abstract: Understanding how concepts are encoded in the internal representations of machine learning m",
-            "source": "RSS · arXiv cs.LG",
-            "url": "https://arxiv.org/abs/2609.05575",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-10",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "How Heurist Finance built an AI-native investment workbench on Amazon Bedrock AgentCore",
-            "summary": "Learn how Heurist built Heurist Finance, a conversational AI investment workbench, on Amazon Bedrock AgentCore. This customer story shows ho",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/how-heurist-finance-built-an-ai-native-investment-workbench-on-amazon-bedrock-agentcore/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-10",
-            "publishedAt": "2026-09-10T02:11",
-            "reason": ""
           }
         ]
       },
@@ -10306,6 +10350,17 @@
         "category": "ai-image-video",
         "label": "图像视频",
         "items": [
+          {
+            "title": "Putting Captions to the Test: Evaluating Video Caption Quality through Multiple-Choice Question Answering",
+            "summary": "Evaluating video captioning remains a critical challenge for Visual Large Language Models (VLLMs). Existing metrics primarily rely on matchi",
+            "source": "RSS · Apple ML Research",
+            "url": "https://machinelearning.apple.com/research/video-caption-quality",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-11",
+            "publishedAt": "2026-09-11T08:00",
+            "reason": ""
+          },
           {
             "title": "Video and image search in Amazon Bedrock Knowledge Base using Marengo 3.0",
             "summary": "TwelveLabs Marengo Embed 3.0 is now generally available as an embedding model in Amazon Bedrock Knowledge Bases, bringing fully managed natu",
@@ -10320,81 +10375,20 @@
         ]
       },
       {
-        "category": "ai-agents",
-        "label": "Agent / MCP",
-        "items": [
-          {
-            "title": "BlueSTAR: Tiered Agentic Architecture for Autonomous Cyber Defense",
-            "summary": "Cyber attacks are increasingly automated, narrowing the time available for human analysts to detect, reason about, and respond to intrusions",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.11852v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-10",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Endogenous Exploration in Reinforcement Learning with Intrinsic Curiosity",
-            "summary": "arXiv:2609.05650v1 Announce Type: new Abstract: We propose a reinforcement learning framework in which exploration is driven by intrinsic cu",
-            "source": "RSS · arXiv cs.LG",
-            "url": "https://arxiv.org/abs/2609.05650",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-10",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "How AvioBook builds turnaround insights from operational data with Amazon Bedrock AgentCore",
-            "summary": "AvioBook, a Thales Group Company, prototyped Connected Analytics on Amazon Bedrock AgentCore to turn AvioBook Connect's operational data int",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/how-aviobook-uses-generative-ai-to-drive-airline-turnaround-insights/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-10",
-            "publishedAt": "2026-09-10T23:53",
-            "reason": ""
-          },
-          {
-            "title": "Agent Evaluation Metric for multi-turn conversations",
-            "summary": "Multi-turn agents fail in ways single-turn evaluation misses: one early mistake corrupts every later turn. This post introduces the Agent Ev",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/agent-evaluation-metric-for-multi-turn-conversations/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-10",
-            "publishedAt": "2026-09-10T23:55",
-            "reason": ""
-          },
-          {
-            "title": "Why don&#8217;t machine learning research agents overfit?",
-            "summary": "New research indicates that AI agents learn compressible models of data, which don&#8217;t have enough space to enable memorization.",
-            "source": "RSS · Amazon Science",
-            "url": "https://www.amazon.science/blog/why-dont-machine-learning-research-agents-overfit",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-10",
-            "publishedAt": "2026-09-10T23:03",
-            "reason": ""
-          },
-          {
-            "title": "ICYMI: What landed for AI builders in August 2026",
-            "summary": "A recap of August 2026 launches for AI builders across Amazon Bedrock, Amazon Bedrock AgentCore, and Strands: million-token context for Open",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-august-2026/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-10",
-            "publishedAt": "2026-09-10T04:01",
-            "reason": ""
-          }
-        ]
-      },
-      {
         "category": "ai-models",
         "label": "模型发布",
         "items": [
+          {
+            "title": "Together AI expands fine-tuning service with more models, live metrics, and finer controls",
+            "summary": "Together Fine-Tuning adds the latest open-weight models, live experiment tracking, Expert LoRA, early stopping, tokenized dataset previews, ",
+            "source": "RSS · Together AI",
+            "url": "https://www.together.ai/blog/together-ai-expands-fine-tuning-service-with-more-models-live-metrics-and-finer-controls",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-11",
+            "publishedAt": "2026-09-11T08:00",
+            "reason": ""
+          },
           {
             "title": "ToolGrad: Efficient tool-use dataset generation with textual \"gradients\"",
             "summary": "Machine Intelligence",
@@ -10449,83 +10443,6 @@
             "date": "2026-09-11",
             "publishedAt": "2026-09-11T00:00",
             "reason": ""
-          },
-          {
-            "title": "Negative Self-Distillation: Learning to Reason by Avoiding Flaws",
-            "summary": "On-Policy Self-Distillation (OPSD) has emerged as a popular paradigm for large language model (LLM) self-improvement, allowing models to act",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.11699v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-10",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "SpecGuard: Inference-Time Backdoor Detection For Free",
-            "summary": "Large language models are often fine-tuned, shared, or downloaded from third parties, so a deployed model may carry a hidden backdoor that b",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.11799v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-10",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Explainability Assistant: A Conversational XAI Interface for Interpreting Energy Consumption Models",
-            "summary": "Energy consumption forecasting relies on increasingly complex machine learning (ML) models, such as Genetic Programming-based symbolic regre",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.11860v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-10",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "RetroThinker: Enabling Retrospective Thinking in Speech LLMs",
-            "summary": "Speech large language models (SpeechLLMs) offer reduced latency and retain paralinguistic nuances that are typically lost in cascaded automa",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.11864v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-10",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Recognizing Is Not Reversing: A Controlled Inversion Test of Fact-Preserving News Framing",
-            "summary": "Large language models (LLMs) are increasingly used to analyze and rewrite news, yet current framing studies mainly evaluate generation, dete",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.11769v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-10",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "RAG-Safety-Bench: Reliable Evaluation of Retrieval-Augmented LLM Safety",
-            "summary": "Allowing large language models (LLMs) to retrieve information from a set of trusted documents can increase reliability and reduce hallucinat",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.11758v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-10",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "From Good Starts to Optimal Inference: Generalized Latent Factor Models with Missingness and Implicit Regularization",
-            "summary": "Generalized latent factor models provide a flexible framework for analyzing high-dimensional non-Gaussian data, but principled estimation an",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.11740v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-10",
-            "publishedAt": "",
-            "reason": ""
           }
         ]
       },
@@ -10543,17 +10460,6 @@
             "date": "2026-09-11",
             "publishedAt": "2026-09-11T05:58",
             "reason": ""
-          },
-          {
-            "title": "Domain-Specific Hallucination Detection in Large Language Models",
-            "summary": "Large language models generate fluent text that can contain unfaithful claims -- a phenomenon known as hallucination. We present a multi-sig",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.11878v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-10",
-            "publishedAt": "",
-            "reason": ""
           }
         ]
       },
@@ -10562,58 +10468,14 @@
         "label": "论文研究",
         "items": [
           {
-            "title": "When Do Options Help? Policy Necrosis and Redundant Coverage in Option-Critic",
-            "summary": "arXiv:2609.05508v1 Announce Type: new Abstract: Option-critic learns options: sub-policies together with a learned rule for when each one ha",
-            "source": "RSS · arXiv cs.LG",
-            "url": "https://arxiv.org/abs/2609.05508",
+            "title": "DiscoSign: Discourse-Aware Text to Sign Language Gloss Translation",
+            "summary": "Sign language processing systems have traditionally operated at the sentence level, ignoring critical discourse phenomena fundamental to sig",
+            "source": "RSS · Apple ML Research",
+            "url": "https://machinelearning.apple.com/research/discosign-gloss-translation",
             "score": 70,
             "sourceCount": 1,
-            "date": "2026-09-10",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Multi-granularity Adaptive Hypergraph Representation Learning via Granular-ball",
-            "summary": "arXiv:2609.05574v1 Announce Type: new Abstract: Hypergraph representation learning aims to capture high-order information in graphs by const",
-            "source": "RSS · arXiv cs.LG",
-            "url": "https://arxiv.org/abs/2609.05574",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-10",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Robustness of LLM-Generated SystemVerilog Assertions to Semantics-Preserving RTL Transformations",
-            "summary": "arXiv:2609.05658v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly being explored for automating SystemVerilog As",
-            "source": "RSS · arXiv cs.LG",
-            "url": "https://arxiv.org/abs/2609.05658",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-10",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "HB-PVI: A Hierarchical Bayesian Personalization and Value-of-Information Framework for Complex Activity Recognition",
-            "summary": "arXiv:2609.05582v1 Announce Type: new Abstract: Personalization can improve activity-recognition performance, but participant-specific gains",
-            "source": "RSS · arXiv cs.LG",
-            "url": "https://arxiv.org/abs/2609.05582",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-10",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Introducing ChatGPT for Financial Services",
-            "summary": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready mater",
-            "source": "RSS · OpenAI Blog",
-            "url": "https://openai.com/index/introducing-chatgpt-financial-services",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-10",
-            "publishedAt": "2026-09-10T15:00",
+            "date": "2026-09-11",
+            "publishedAt": "2026-09-11T08:00",
             "reason": ""
           }
         ]
@@ -10621,6 +10483,136 @@
     ]
   },
   "dailyReports": [
+    {
+      "date": "2026-09-11",
+      "generatedAt": "2026-09-11T16:00:31.365578Z",
+      "total": 9,
+      "sections": [
+        {
+          "category": "ai-coding",
+          "label": "AI 编程",
+          "items": [
+            {
+              "title": "Model-agnostic PII detection with LLMs",
+              "summary": "A configurable, model-agnostic detector that turns any large language model on Amazon Bedrock into a PII detector. Because the entities to d",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/model-agnostic-pii-detection-with-llms/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-11",
+              "publishedAt": "2026-09-11T00:02",
+              "reason": ""
+            },
+            {
+              "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
+              "summary": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant in",
+              "source": "RSS · OpenAI Blog",
+              "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-11",
+              "publishedAt": "2026-09-11T00:00",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-image-video",
+          "label": "图像视频",
+          "items": [
+            {
+              "title": "Video and image search in Amazon Bedrock Knowledge Base using Marengo 3.0",
+              "summary": "TwelveLabs Marengo Embed 3.0 is now generally available as an embedding model in Amazon Bedrock Knowledge Bases, bringing fully managed natu",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/video-and-image-search-in-amazon-bedrock-knowledge-base-using-marengo-3-0/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-11",
+              "publishedAt": "2026-09-11T05:15",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-models",
+          "label": "模型发布",
+          "items": [
+            {
+              "title": "ToolGrad: Efficient tool-use dataset generation with textual \"gradients\"",
+              "summary": "Machine Intelligence",
+              "source": "RSS · Google Research",
+              "url": "https://research.google/blog/toolgrad-efficient-tool-use-dataset-generation-with-textual-gradients/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-11",
+              "publishedAt": "2026-09-11T06:50",
+              "reason": ""
+            },
+            {
+              "title": "Amazon Quick is now generally available on desktop",
+              "summary": "Your teams get an AI assistant that handles real work while your data stays in your environment and your conversations stay private Today, t",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/amazon-quick-is-now-generally-available-on-desktop/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-11",
+              "publishedAt": "2026-09-11T02:16",
+              "reason": ""
+            },
+            {
+              "title": "Build an end-to-end RFI questionnaire workflow using Amazon Quick Automate",
+              "summary": "Learn how to build an end-to-end RFI questionnaire workflow with Amazon Quick Automate. Read a multi-tab RFI workbook from Amazon S3, use na",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/build-an-end-to-end-rfi-questionnaire-workflow-using-amazon-quick-automate/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-11",
+              "publishedAt": "2026-09-11T00:08",
+              "reason": ""
+            },
+            {
+              "title": "Anthropic 评估 AI 模型的战术情报定位与常规武器能力",
+              "summary": "Anthropic Frontier Red Team 发布新评测，衡量模型在战术情报定位（账户关联、照片与文本地理定位）和常规武器开发（无人机末段制导、投送、GPS 干扰下导航）上的能力。",
+              "source": "Anthropic：Research（发表成果 · 网页）",
+              "url": "https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-11",
+              "publishedAt": "2026-09-11T01:28",
+              "reason": ""
+            },
+            {
+              "title": "3 ways to prep for your next big race with Search",
+              "summary": "Search can help runners get race-day ready with registration alerts, tailored training plans, and more.",
+              "source": "RSS · Google AI Blog",
+              "url": "https://blog.google/products-and-platforms/products/search/running-race-training-tips/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-11",
+              "publishedAt": "2026-09-11T00:00",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-benchmark",
+          "label": "评测榜单",
+          "items": [
+            {
+              "title": "Reduce LLM latency with prefix-aware routing on Amazon SageMaker Inference",
+              "summary": "Amazon SageMaker Inference now offers prefix-aware routing, a routing strategy that sends requests sharing the same prompt prefix to the sam",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/reduce-llm-latency-with-prefix-aware-routing-on-amazon-sagemaker-inference/",
+              "score": 70,
+              "sourceCount": 2,
+              "date": "2026-09-11",
+              "publishedAt": "2026-09-11T05:58",
+              "reason": ""
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-09-10",
       "generatedAt": "2026-09-10T16:00:03.932450Z",
@@ -20825,361 +20817,10 @@
           ]
         }
       ]
-    },
-    {
-      "date": "2026-07-08",
-      "generatedAt": "2026-07-08T16:19:41.889294Z",
-      "total": 28,
-      "sections": [
-        {
-          "category": "ai-tools",
-          "label": "AI 工具",
-          "items": [
-            {
-              "title": "Runway Dev 发布新一代 AI 媒体平台",
-              "summary": "Runway Dev 是一款面向开发者的 AI 媒体平台，提供一站式 API 集成图像、视频、音频和实时角色模型。该平台已被多家知名企业使用，支持快速生成创意内容，具备严格的安全标准和零数据保留承诺。",
-              "source": "Runway：News（网页）",
-              "url": "https://runwayml.com/news/introducing-runway-dev",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-07-08",
-              "publishedAt": "2026-07-08T23:35",
-              "reason": "Runway Dev 的推出为开发者提供了强大的工具，简化了内容生成流程，值得关注。"
-            },
-            {
-              "title": "工信部警告Claude Code存在安全隐患",
-              "summary": "中国工信部发布风险提示，指出Claude Code 2.1.91至2.1.196版本内置监控机制，未经用户同意回传敏感信息。建议用户立即排查并升级至安全版本，以防数据泄露。",
-              "source": "X：小互 (@xiaohu)",
-              "url": "https://x.com/xiaohu/status/2074736623284256881",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-07-08",
-              "publishedAt": "2026-07-08T14:05",
-              "reason": "此次工信部的警告揭示了开发工具安全性的重要性，值得开发者关注和采取措施。"
-            },
-            {
-              "title": "Claude Cowork 使用情况分析：业务流程与内容创作占主导",
-              "summary": "根据2026年5月11日至31日的120万次匿名会话样本，Claude Cowork的主要用途为业务流程与运营，占比33.4%，其次为内容创作与文案，占比16.4%。软件开发仅占8.7%。用户普遍利用该工具处理跨团队任务，如律师格式化文档、招聘经理汇总面试反馈，显示出其在知识工作",
-              "source": "Claude：Blog（网页）",
-              "url": "https://claude.com/blog/how-people-are-using-claude-cowork",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-07-08",
-              "publishedAt": "2026-07-08T00:24",
-              "reason": "Claude Cowork的使用数据揭示了AI在知识工作中的重要性，值得关注其对未来工作方式的深远影响。"
-            },
-            {
-              "title": "OpenRouter 自动升级至 Grok 4.5",
-              "summary": "我注意到 OpenRouter 将在 Grok 4.5 发布时自动升级，用户无需进行任何代码更改。这意味着开发者可以无缝体验最新功能，提升工作效率。只需将 API 路由指向 ~x-ai/grok-latest，便可在新版本上线时自动更新，省去手动调整的麻烦。",
-              "source": "X：OpenRouter (@OpenRouter)",
-              "url": "https://x.com/OpenRouter/status/2074881863030812832",
-              "score": 63,
-              "sourceCount": 1,
-              "date": "2026-07-08",
-              "publishedAt": "2026-07-08T23:42",
-              "reason": "这条信息值得关注，因为它展示了 OpenRouter 在提升用户体验方面的创新，自动升级功能将极大简化开发者的工作流程。"
-            },
-            {
-              "title": "黑客利用流行AI工具组装大规模僵尸网络的风险",
-              "summary": "这次发布的核心点是，研究人员揭示了一种新型的拉取式提示注入攻击，名为HalluSquatting，能够利用9款流行的AI工具组装大规模僵尸网络，执行分布式拒绝服务攻击（DDoS）。这一攻击方式标志着提示注入攻击的规模化利用，给AI安全带来了新的挑战。黑客可以通过这种方式感染大量设",
-              "source": "Ars Technica：AI（RSS）",
-              "url": "https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets",
-              "score": 63,
-              "sourceCount": 1,
-              "date": "2026-07-08",
-              "publishedAt": "2026-07-08T15:00",
-              "reason": "这条信息揭示了AI工具在安全方面的新威胁，值得关注和深入了解，以便及时采取防护措施。"
-            },
-            {
-              "title": "Krea 2 发布身份保留功能",
-              "summary": "Krea 2 于 2026 年 7 月 7 日正式上线身份保留功能，配套的 ComfyUI 节点也一并发布。该功能旨在提升用户在使用 Krea 2 时的个性化体验，尤其在处理风格化角色时的表现备受期待。",
-              "source": "X：Krea AI (@krea_ai)",
-              "url": "https://x.com/krea_ai/status/2074589965653303321",
-              "score": 63,
-              "sourceCount": 1,
-              "date": "2026-07-08",
-              "publishedAt": "2026-07-08T04:22",
-              "reason": "Krea 2 的身份保留功能为用户提供了更高的个性化体验，值得关注其在实际应用中的表现。"
-            },
-            {
-              "title": "NotebookLM短视频概览功能全面上线",
-              "summary": "NotebookLM的短视频概览功能已在移动端和网页端向所有英语用户正式推出，标志着该平台在内容呈现方式上的重要升级。用户反馈将直接影响后续功能的开发，平台鼓励用户分享使用体验和建议。",
-              "source": "X：NotebookLM (@NotebookLM)",
-              "url": "https://x.com/NotebookLM/status/2074551227594264799",
-              "score": 63,
-              "sourceCount": 1,
-              "date": "2026-07-08",
-              "publishedAt": "2026-07-08T01:48",
-              "reason": "NotebookLM短视频概览功能的推出，标志着其在内容创作工具领域的进一步创新，值得关注。"
-            },
-            {
-              "title": "OpenRouter聊天室推出一键零数据保留功能",
-              "summary": "我注意到OpenRouter最近推出了一项新功能，聊天室支持一键零数据保留（ZDR）。这个功能让用户在完全隐私保护的情况下，可以横向对比不同模型，确保数据安全性。具体可以在他们的网站上体验。",
-              "source": "X：OpenRouter (@OpenRouter)",
-              "url": "https://x.com/OpenRouter/status/2074870468394250461",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-07-08",
-              "publishedAt": "2026-07-08T22:57",
-              "reason": "这项新功能为用户提供了更高的隐私保护，尤其是在对比不同AI模型时，确保数据安全性，是值得关注的创新。"
-            },
-            {
-              "title": "Kunkun开源的Skill管理方法",
-              "summary": "我最近看到在校研究生Kunkun分享了一种管理大量互相调用Skill的实用方法，并已开源到GitHub。他搭建了一个HTML后台，通过标签将Skill分类，便于快速筛选。同时，他将连环调用的Skill绘制成Mermaid流程图，帮助定位使用的技能组。此外，他开发了一个“ask m",
-              "source": "X：Berry Xia (@berryxia)",
-              "url": "https://x.com/berryxia/status/2074827915779580055",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-07-08",
-              "publishedAt": "2026-07-08T20:08",
-              "reason": "Kunkun的管理方法为处理复杂Skill调用提供了实用的解决方案，值得关注和学习。"
-            },
-            {
-              "title": "zkSecurity AI 审计代理发现 Cloudflare CIRCL 中 7 个漏洞",
-              "summary": "zkSecurity 的 AI 审计代理 zkao 在 Cloudflare 的 CIRCL 密码学库中发现并确认了 7 个漏洞，包括阈值 RSA 中的 float64 精度丢失和属性基加密（CP-ABE）访问控制失效。虽然所有漏洞已被修复并在 HackerOne 上获得确认和奖",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://blog.zksecurity.xyz/posts/circl-bugs",
-              "score": 59,
-              "sourceCount": 1,
-              "date": "2026-07-08",
-              "publishedAt": "2026-07-08T12:29",
-              "reason": "这条信息展示了 AI 在安全审计领域的应用潜力及其局限性，值得关注。"
-            },
-            {
-              "title": "Rowboat：开源桌面 AI 助手，支持本地存储与知识图谱",
-              "summary": "Rowboat 是一款开源的桌面 AI 助手，专注于本地优先的设计，能够将邮件、会议和 Slack 等信息索引为 Obsidian 风格的知识图谱，提供持久的上下文记忆。它内置邮件客户端、浏览器和会议记录功能，并支持通过 MCP 协议接入外部工具。所有数据以纯 Markdown ",
-              "source": "Hacker News：AI 热帖",
-              "url": "https://github.com/rowboatlabs/rowboat",
-              "score": 59,
-              "sourceCount": 1,
-              "date": "2026-07-08",
-              "publishedAt": "2026-07-08T00:10",
-              "reason": "Rowboat 提供了一种新颖的本地优先 AI 助手解决方案，适合重视数据隐私和信息管理的用户，值得关注。"
-            },
-            {
-              "title": "微软用自研MAI模型替换Copilot中的OpenAI和Anthropic模型",
-              "summary": "微软正在逐步用自研的MAI模型替换Copilot中的OpenAI和Anthropic模型，以降低成本。尽管MAI模型在Excel和Outlook中每周处理数万次请求，但仍占总请求的较小比例。新发布的MAI-Thinking 1模型在编码能力上声称可与Sonnet 4.6和Opus",
-              "source": "The Decoder：AI News（RSS）",
-              "url": "https://the-decoder.com/copilot-goes-cheap-as-microsoft-phases-out-openai-and-anthropic-models-to-cut-costs",
-              "score": 58,
-              "sourceCount": 1,
-              "date": "2026-07-08",
-              "publishedAt": "2026-07-08T02:35",
-              "reason": "此信息揭示了微软在AI领域的战略调整及其潜在影响，值得关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-coding",
-          "label": "AI 编程",
-          "items": [
-            {
-              "title": "GitLost 漏洞：GitHub AI 代理面临提示词注入风险",
-              "summary": "我注意到 Noma Labs 最近发现了 GitHub Agentic Workflows 中的一个严重漏洞，名为 GitLost。这个漏洞允许未认证的攻击者通过在公共仓库中创建恶意 Issue，诱使基于 Claude 或 GitHub Copilot 的 AI 代理泄露私有仓库",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-07-08",
-              "publishedAt": "2026-07-08T16:29",
-              "reason": "这条信息揭示了 GitHub AI 代理的安全漏洞，值得关注和深入了解，以保护开发者和企业的敏感信息。"
-            },
-            {
-              "title": "Replit 推出社区档案与力量排名功能",
-              "summary": "这次发布的核心点是 Replit 新推出的社区档案功能，旨在为开发者提供工作证明和使用数据的可视化展示。用户可以查看自己的智能体使用情况和检查点活跃度，并获得专业用户的力量排名。通过登录并认领个人档案，用户能够挑选最佳项目并与朋友分享数据，增强社交互动。",
-              "source": "X：Replit (@Replit)",
-              "url": "https://x.com/Replit/status/2074871322220339515",
-              "score": 59,
-              "sourceCount": 1,
-              "date": "2026-07-08",
-              "publishedAt": "2026-07-08T23:00",
-              "reason": "Replit 的社区档案功能为开发者提供了一个展示个人成就的新方式，增强了社交互动的可能性，值得关注。"
-            },
-            {
-              "title": "YC CEO声称每日用AI部署3.7万行代码，开发者发现前端代码低效",
-              "summary": "我注意到Y Combinator的CEO Garry Tan在社交媒体上宣称，他与AI编码代理每天在五个项目中部署37000行代码，并保持了72天的持续发布记录。然而，波兰开发者Gregorein对Tan的网站前端代码进行了深入审查，发现了许多低效和臃肿的问题，包括页面加载时的1",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://www.fastcompany.com/91520702/y-combinator-garry-tan-agentic-ai-social-media",
-              "score": 58,
-              "sourceCount": 1,
-              "date": "2026-07-08",
-              "publishedAt": "2026-07-08T01:52",
-              "reason": "这条信息揭示了AI编码工具在实际应用中的潜在问题，值得开发者关注和反思。"
-            }
-          ]
-        },
-        {
-          "category": "ai-image-video",
-          "label": "图像视频",
-          "items": [
-            {
-              "title": "Meta Superintelligence Labs 发布 Muse Image 和 Muse Video 媒体生成模型",
-              "summary": "Meta Superintelligence Labs 推出了其首个媒体生成模型 Muse Image 和 Muse Video。Muse Image 是一款先进的图像生成工具，能够精准遵循指令并进行多参考构图，同时集成了社交媒体上下文。Muse Video 则在此基础上，提供高",
-              "source": "X：AI at Meta (@AIatMeta)",
-              "url": "https://x.com/AIatMeta/status/2074577662840832382",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-07-08",
-              "publishedAt": "2026-07-08T03:33",
-              "reason": "Muse Image 和 Muse Video 的发布展示了 Meta 在 AI 媒体生成领域的创新，值得关注其对内容创作的潜在影响。"
-            }
-          ]
-        },
-        {
-          "category": "ai-agents",
-          "label": "Agent / MCP",
-          "items": [
-            {
-              "title": "Claude Cowork 推出移动端与网页端，实现跨设备工作同步",
-              "summary": "Claude Cowork 正式向移动端和网页端开放，支持会话和文件在多设备间同步，Beta 版优先面向 Max 用户推出。该工具不仅限于软件开发，超过90%的使用场景涉及日常知识工作，如业务运营和内容创作。用户可在桌面端启动任务，手机端随时查看进度，且支持后台持续运行和定时任务",
-              "source": "Claude：Blog（网页）",
-              "url": "https://claude.com/blog/cowork-web-mobile",
-              "score": 60,
-              "sourceCount": 1,
-              "date": "2026-07-08",
-              "publishedAt": "2026-07-08T00:24",
-              "reason": "Claude Cowork 移动端和网页端的开放显著提升了跨设备知识工作效率，尤其适合业务运营和内容创作场景，体现了 AI 助理从代码生成向综合办公支持的转型趋势。"
-            }
-          ]
-        },
-        {
-          "category": "ai-models",
-          "label": "模型发布",
-          "items": [
-            {
-              "title": "Mistral AI 发布首个具身导航模型 Robostral Navigate",
-              "summary": "我注意到 Mistral AI 最近推出了 Robostral Navigate，这是他们的首个具身导航模型，参数量达到 8B。该模型仅依靠单个 RGB 摄像头，在 R2R-CE 验证集上取得了 76.6%（未见）和 79.4%（已见）的成功率，显著超越了其他多传感器方案。通过强",
-              "source": "Mistral AI：News（网页）",
-              "url": "https://mistral.ai/news/robostral-navigate",
-              "score": 69,
-              "sourceCount": 1,
-              "date": "2026-07-08",
-              "publishedAt": "2026-07-08T22:33",
-              "reason": "Robostral Navigate 的独特之处在于它仅依赖单个 RGB 摄像头就能实现高效的自主导航，极大地降低了成本和复杂性，值得关注。"
-            },
-            {
-              "title": "字节跳动发布 Seedream 5.0 Pro 多模态图像创作模型",
-              "summary": "字节跳动推出的 Seedream 5.0 Pro 模型在图文匹配、信息可视化和交互编辑等方面实现了显著提升。新功能包括复杂信息可视化、交互式精准编辑、真实影像质感及多语种支持，适用于多种创作场景，提升内容生产效率。",
-              "source": "IT之家（RSS）",
-              "url": "https://www.ithome.com/0/974/249.htm",
-              "score": 66,
-              "sourceCount": 2,
-              "date": "2026-07-08",
-              "publishedAt": "2026-07-08T21:33",
-              "reason": "Seedream 5.0 Pro 通过多模态技术提升了图像创作的效率和质量，适合多种应用场景，是内容创作者的理想选择。"
-            },
-            {
-              "title": "美国商务部批准OpenAI大规模发布GPT-5.6 Sol",
-              "summary": "美国商务部正式批准OpenAI大规模发布GPT-5.6 Sol，标志着临时管控结束。该模型将于本周四与Terra和Luna一同向公众推出，之前因国家安全考量采取分阶段发布策略。此次全面放行为OpenAI与政府的沟通与测试成果，未来将建立正式的AI模型评估框架。",
-              "source": "IT之家（RSS）",
-              "url": "https://www.ithome.com/0/973/922.htm",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-07-08",
-              "publishedAt": "2026-07-08T11:30",
-              "reason": "此次GPT-5.6 Sol的发布为开发者和企业提供了更强大的AI工具，值得关注与尝试。"
-            },
-            {
-              "title": "Claude开发者分享Advisor与Orchestrator多智能体模式的性能对比",
-              "summary": "Claude开发者团队介绍了两种多智能体模式的高频使用情况。Advisor模式中，Sonnet 5通过调用Fable 5获取指导，组合方案性能达到92%，成本仅为63%。Orchestrator模式则通过Fable 5编排多个Sonnet 5 worker，性能接近96%，成本降",
-              "source": "X：邵猛 (@shao__meng)",
-              "url": "https://x.com/shao__meng/status/2074661249804366310",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-07-08",
-              "publishedAt": "2026-07-08T09:06",
-              "reason": "这条信息展示了Claude团队在多智能体系统中的创新应用，提供了实证数据支持，值得关注。"
-            },
-            {
-              "title": "蚂蚁集团开源LingBot-Vision：1B参数视觉模型助力密集空间感知",
-              "summary": "蚂蚁集团旗下的Robbyant公司推出了LingBot-Vision，这是一款自监督的视觉Transformer模型，专为密集空间感知设计。该模型的旗舰版本ViT-g/16拥有约1.1B参数，采用创新的掩膜边界建模训练方法，能够在密集空间任务中与参数高达7倍的大模型相媲美。Lin",
-              "source": "MarkTechPost（RSS）",
-              "url": "https://www.marktechpost.com/2026/07/07/ant-groups-robbyant-open-sources-lingbot-vision-a-1b-boundary-centric-vision-foundation-model-for-dense-spatial-perception",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-07-08",
-              "publishedAt": "2026-07-08T11:03",
-              "reason": "LingBot-Vision凭借其创新的边界建模方法和开源特性，为密集空间感知提供了新的解决方案，值得关注。"
-            },
-            {
-              "title": "Pulpie：高效清理网页内容的Pareto最优模型",
-              "summary": "Pulpie是一款用于从HTML页面提取主要内容的Pareto最优模型，其最小版本pulpie-orange-small在WebMainBench上取得了0.862的ROUGE-5 F1分数，接近更大模型Dripper的0.864，但成本仅为其1/20。Pulpie在NVIDIA",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://usefeyn.com/blog/pulpie-pareto-optimal-models-for-cleaning-the-web",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-07-08",
-              "publishedAt": "2026-07-08T09:33",
-              "reason": "Pulpie以其高效的内容提取能力和低廉的使用成本，成为网页清理领域的理想选择，值得关注。"
-            },
-            {
-              "title": "蚂蚁集团周俊在AICon演讲中提出万亿参数模型效率新策略",
-              "summary": "蚂蚁集团副总裁周俊在AICon演讲中强调，万亿参数模型的算力成本每15分钟相当于一辆特斯拉，效率问题亟待解决。团队提出从\"更多Token\"转向\"更高Token密度\"的策略，通过混合线性注意力架构显著降低256K长上下文的成本，并在多个基准测试中取得优异表现。",
-              "source": "公众号：蚂蚁百灵（Ling）",
-              "url": "https://mp.weixin.qq.com/s/dsIfi4C-T5Q4emmIh-7yzg",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-07-08",
-              "publishedAt": "2026-07-08T09:00",
-              "reason": "该演讲提出的策略在降低算力成本的同时提升模型效率，具有重要的行业应用价值。"
-            },
-            {
-              "title": "用Claude设计人生的四个阶段：实测与分析",
-              "summary": "这次发布的核心点是，作者将斯坦福大学的《人生设计课》理论转化为Prompt，通过Claude进行逐步提问和分析，帮助用户设计人生蓝图。该Prompt结合了设计思维、心流理论和积极心理学，分为四个阶段：看清现状、找到指南针、寻路和制定奥德赛计划。最终生成的《个人人生设计蓝图》字数在",
-              "source": "公众号：数字生命卡兹克",
-              "url": "https://mp.weixin.qq.com/s/VDlBdkspV0SQNFJYLxOogQ",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-07-08",
-              "publishedAt": "2026-07-08T08:12",
-              "reason": "这条内容值得一看，因为它将理论与实践结合，通过AI工具帮助用户系统性设计人生，提升自我认知与规划能力。"
-            },
-            {
-              "title": "不列颠哥伦比亚省起诉OpenAI因未上报暴力对话",
-              "summary": "加拿大不列颠哥伦比亚省计划起诉OpenAI，指控其未向执法部门报告一名ChatGPT用户的暴力对话，导致该用户在2026年2月实施校园枪击案，造成8人遇害。OpenAI CEO已对此表示歉意，承认未能及时上报。受害者家属已在加州提起诉讼，省政府也在协调独立诉讼，寻求赔偿以支持社区",
-              "source": "IT之家（RSS）",
-              "url": "https://www.ithome.com/0/974/169.htm",
-              "score": 61,
-              "sourceCount": 1,
-              "date": "2026-07-08",
-              "publishedAt": "2026-07-08T17:55",
-              "reason": "此事件揭示了AI平台在用户内容管理中的法律责任，值得关注其对行业未来的影响。"
-            },
-            {
-              "title": "Liquid AI 开源 Antidoom 修复推理模型死循环问题",
-              "summary": "Liquid AI 发布了 Antidoom，这是一种开源方法，旨在解决推理模型中的死循环问题。通过基于最终 Token 偏好优化（FTPO），该方法能够有效减少模型在处理复杂任务时的循环现象。尽管在 LFM2.5-2.6B 和 Qwen3.5-4B 模型上取得了显著的循环率下降",
-              "source": "MarkTechPost（RSS）",
-              "url": "https://www.marktechpost.com/2026/07/07/liquid-ai-antidoom-doom-loops-ftpo",
-              "score": 61,
-              "sourceCount": 1,
-              "date": "2026-07-08",
-              "publishedAt": "2026-07-08T00:50",
-              "reason": "Antidoom 提供了一种有效的解决方案，专注于优化推理模型中的死循环问题，值得关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-research",
-          "label": "论文研究",
-          "items": [
-            {
-              "title": "利用协作减少交通拥堵的潜力与挑战",
-              "summary": "谷歌研究团队通过对美国10个主要城市的实证研究，探讨了网络感知路由在导航应用中的应用，旨在提升交通效率。尽管初步结果显示小规模干预能有效改善交通状况，但系统性优化仍面临诸多挑战。",
-              "source": "RSS · Google Research",
-              "url": "https://research.google/blog/the-power-of-collaboration-how-we-can-reduce-traffic-congestion/",
-              "score": 78,
-              "sourceCount": 1,
-              "date": "2026-07-08",
-              "publishedAt": "2026-07-08T00:42",
-              "reason": "该研究提供了实证数据，揭示了协作路由在改善城市交通中的潜力，值得关注。"
-            }
-          ]
-        }
-      ]
     }
   ],
   "llmLeaderboard": {
-    "updated": "2026-09-11",
+    "updated": "2026-09-12",
     "source": "ReLE 中文大模型能力评测（综合能力）",
     "sourceUrl": "https://github.com/jeinlee1991/chinese-llm-benchmark",
     "items": [
