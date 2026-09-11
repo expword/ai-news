@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-12",
-  "generatedAt": "2026-09-11T19:04:44.544318Z",
+  "generatedAt": "2026-09-11T23:47:06.138258Z",
   "news": [
     {
       "title": "Monitoring production agent lifecycle with AWS DevOps Agent and AgentCore Evaluations",
@@ -1328,7 +1328,14 @@
       "moduleTargets": [
         "news"
       ],
-      "sourceCount": 1
+      "sourceCount": 2,
+      "relatedSources": [
+        {
+          "source": "Semantic Scholar",
+          "url": "https://www.semanticscholar.org/paper/28c6ac721f54544162865f41c5692e70d61bccab",
+          "title": "A survey on large language model based autonomous agents"
+        }
+      ]
     },
     {
       "title": "Why Is Video Still So Expensive? A Survey of Inference-Efficiency Mechanisms in Video and Audiovisual LLMs",
@@ -6167,6 +6174,17 @@
     ],
     "ai-agents": [
       {
+        "name": "A survey on large language model based autonomous agents",
+        "provider": "Semantic Scholar",
+        "type": "AI 项目/工具",
+        "bestFor": "Autonomous agents have long been a research focus in academic and industry communities. Previous research often focuses on training agents with limited knowledg",
+        "description": "Autonomous agents have long been a research focus in academic and industry communities. Previous research often focuses on training agents with limited knowledge within isolated en",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Semantic Scholar",
+        "url": "https://www.semanticscholar.org/paper/28c6ac721f54544162865f41c5692e70d61bccab"
+      },
+      {
         "name": "Monitoring production agent lifecycle with AWS DevOps Agent ",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -6594,17 +6612,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "British Vogue",
         "url": "https://www.vogue.com/article/metas-new-ai-agent-can-shop-for-you"
-      },
-      {
-        "name": "9 sales tasks that agents are taking over in 2026, and 4 tha",
-        "provider": "Gonzales Inquirer",
-        "type": "AI 项目/工具",
-        "bestFor": "9 sales tasks that agents are taking over in 2026, and 4 that humans have kept\n\nArtificial intelligence is making waves across a wide variety of industries. One",
-        "description": "9 sales tasks that agents are taking over in 2026, and 4 that humans have kept\n\nArtificial intelligence is making waves across a wide variety of industries. One area where many emp",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Gonzales Inquirer",
-        "url": "https://gonzalesinquirer.com/premium/stacker/stories/9-sales-tasks-that-agents-are-taking-over-in-2026-and-4-that-humans-have-kept,198033"
       }
     ],
     "ai-models": [
@@ -10398,7 +10405,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-12",
-    "generatedAt": "2026-09-11T19:04:44.507817Z",
+    "generatedAt": "2026-09-11T23:47:06.114543Z",
     "total": 15,
     "sections": [
       {
