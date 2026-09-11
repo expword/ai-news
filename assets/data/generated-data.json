@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-11",
-  "generatedAt": "2026-09-10T23:00:06.609347Z",
+  "generatedAt": "2026-09-11T01:25:21.839946Z",
   "news": [
     {
       "title": "ToolGrad: Efficient tool-use dataset generation with textual \"gradients\"",
@@ -2496,262 +2496,6 @@
       "moduleTargets": [
         "news",
         "benchmarkDatasets"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Transfer learning for genomic prediction in underrepresented populations",
-      "summary": "General Science",
-      "category": "ai-models",
-      "source": "RSS · Google Research",
-      "date": "2026-09-04",
-      "publishedAt": "2026-09-04T02:20",
-      "collectedAt": "2026-09-04T02:33",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://research.google/blog/transfer-learning-for-genomic-prediction-in-underrepresented-populations/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "A connectomics milestone: Mapping the complete male fruit fly brain",
-      "summary": "General Science",
-      "category": "ai-models",
-      "source": "RSS · Google Research",
-      "date": "2026-09-04",
-      "publishedAt": "2026-09-04T00:00",
-      "collectedAt": "2026-09-04T01:21",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "AI-driven development lifecycle using Amazon Bedrock AgentCore",
-      "summary": "Engineering teams adopting the AI-Driven Development Lifecycle (AI-DLC) often struggle to turn concepts into working code. This post walks through two reference implementations on ",
-      "category": "ai-coding",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-09-04",
-      "publishedAt": "2026-09-04T00:16",
-      "collectedAt": "2026-09-04T01:21",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/ai-driven-development-lifecycle-using-amazon-bedrock-agentcore/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Integrating Outlook with Amazon Quick for AI-powered email automation",
-      "summary": "Integrate Microsoft Outlook with Amazon Quick to automate email management, calendar scheduling, and workflow coordination. This post walks through the end-to-end setup and shows a",
-      "category": "ai-agents",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-09-04",
-      "publishedAt": "2026-09-04T00:11",
-      "collectedAt": "2026-09-04T01:21",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/integrating-outlook-with-amazon-quick-for-ai-powered-email-automation/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Best practices for building agentic automations with Amazon Quick Automate",
-      "summary": "Learn best practices for building production-grade, agent-based business process automations with Amazon Quick Automate: choosing the right process, designing focused agents, combi",
-      "category": "ai-agents",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-09-04",
-      "publishedAt": "2026-09-04T00:08",
-      "collectedAt": "2026-09-04T01:21",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/best-practices-for-building-agentic-automations-with-amazon-quick-automate/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 2,
-      "relatedSources": [
-        {
-          "source": "RSS · AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/automate-user-level-custom-permissions-for-amazon-quick/",
-          "title": "Automate user-level custom permissions for Amazon Quick"
-        }
-      ]
-    },
-    {
-      "title": "Embed Quick Sight visuals using Cognito user authentication",
-      "summary": "Learn how to embed individual Amazon Quick Sight visuals into a React application with per-user access control. This walkthrough uses Amazon Cognito authentication and a serverless",
-      "category": "ai-models",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-09-04",
-      "publishedAt": "2026-09-04T00:01",
-      "collectedAt": "2026-09-04T01:21",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/embed-quick-sight-visuals-using-cognito-user-authentication/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Google 与 HHMI Janelia 发布完整雄性果蝇大脑及中枢神经系统连接组",
-      "summary": "Google 与 HHMI Janelia 等合作者在 Cell 发表雄性果蝇大脑与中枢神经系统的完整连接组，包含超过 166，000 个神经元和 1.25 亿个突触连接，是目前按神经元数量计最大的大脑连接组图。",
-      "category": "ai-models",
-      "source": "Google Research：Blog（网页）",
-      "date": "2026-09-03",
-      "publishedAt": "2026-09-03T00:00",
-      "collectedAt": "2026-09-05T00:59",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "FLY-EVAL++: An Evidence-Driven Evaluation Protocol for Safety-Constrained Flight Prediction with Large Language Models",
-      "summary": "Evaluating large language models (LLMs) in safety-critical, physics-governed environments requires more than accuracy-based metrics, because predictions that are numerically close ",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-03",
-      "publishedAt": "",
-      "collectedAt": "2026-09-04T17:20",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-03",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.04021v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "benchmarkDatasets"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Representational alignment yields generalizable safety in language models",
-      "summary": "Aligning large language models (LLMs) is essential for their safe deployment. Current alignment methods mainly optimize observable responses, yet models remain vulnerable when the ",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-03",
-      "publishedAt": "",
-      "collectedAt": "2026-09-04T17:20",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-03",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.04022v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
       ],
       "sourceCount": 1
     }
@@ -5832,6 +5576,17 @@
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Cognition's SWE-2 Coding Agent Matches Rivals at a Quarter o",
+        "provider": "Startup Fortune",
+        "type": "AI 项目/工具",
+        "bestFor": "Cognition launched SWE-2 on September 10, 2026, claiming its new Devin coding agent scores within a point of Anthropic's Fable 5.1 on real-world benchmarks whil",
+        "description": "Cognition launched SWE-2 on September 10, 2026, claiming its new Devin coding agent scores within a point of Anthropic's Fable 5.1 on real-world benchmarks while costing up to 70% ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Startup Fortune",
+        "url": "https://startupfortune.com/cognitions-swe-2-coding-agent-matches-rivals-at-a-quarter-of-the-price/"
+      },
+      {
         "name": "OpenAI 发布 Agents API 公测版",
         "provider": "OpenAI：官网动态（RSS",
         "type": "AI 项目/工具",
@@ -6259,20 +6014,53 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Finance Magnates",
         "url": "https://www.financemagnates.com/forex/we-dont-use-ai-generated-code-in-live-production-environments/"
-      },
-      {
-        "name": "AI Models Are Getting Powerful Enough That Companies Are Hir",
-        "provider": "Times Square Chronicles Newspaper - T2C - Times Square News",
-        "type": "AI 项目/工具",
-        "bestFor": "As AI agents become capable of coding, navigating systems and taking actions with less human supervision, companies are increasingly relying on independent secu",
-        "description": "As AI agents become capable of coding, navigating systems and taking actions with less human supervision, companies are increasingly relying on independent security researchers and",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Times Square Chronicles Newspaper - T2C - Times Square News",
-        "url": "https://t2conline.com/ai-models-are-getting-powerful-enough-that-companies-are-hiring-hackers-to-attack-them-before-customers-do/"
       }
     ],
     "ai-agents": [
+      {
+        "name": "LivePerson Conversational Cloud Says AI Agent Testing Is 60%",
+        "provider": "CX Today",
+        "type": "AI 项目/工具",
+        "bestFor": "LivePerson's 2026 roadmap is really about filling the gaps that appear once conversational AI has to survive an actual customer journey. Syntrix tests behavior ",
+        "description": "LivePerson's 2026 roadmap is really about filling the gaps that appear once conversational AI has to survive an actual customer journey. Syntrix tests behavior before customers run",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "CX Today",
+        "url": "https://www.cxtoday.com/customer-engagement-journey-orchestration/liveperson-conversational-cloud/"
+      },
+      {
+        "name": "The Next CX Security Risk May Be the AI Agent You Gave Acces",
+        "provider": "CX Today",
+        "type": "AI 项目/工具",
+        "bestFor": "Anthropic, Concentrix, Zscaler, Proofpoint and OpenAI reveal how AI agents are reshaping enterprise security, access and customer experience risk\n\nEnterprise AI",
+        "description": "Anthropic, Concentrix, Zscaler, Proofpoint and OpenAI reveal how AI agents are reshaping enterprise security, access and customer experience risk\n\nEnterprise AI is gaining access t",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "CX Today",
+        "url": "https://www.cxtoday.com/security-privacy-compliance/ai-agent-security-cx-risk/"
+      },
+      {
+        "name": "MegazoneCloud Begins Building Hanmi Pharmaceutical's Quality",
+        "provider": "Taiwan News",
+        "type": "AI 项目/工具",
+        "bestFor": "Fine-tunes the Korean model Solar and deploys it on its own AI platform, AIR Studio, to automate quality-document operations\n\nPart of the MSIT*NIPA 'AX One-Stop",
+        "description": "Fine-tunes the Korean model Solar and deploys it on its own AI platform, AIR Studio, to automate quality-document operations\n\nPart of the MSIT*NIPA 'AX One-Stop Voucher Program'; c",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Taiwan News",
+        "url": "https://taiwannews.com.tw/en/news/6437995"
+      },
+      {
+        "name": "Salesforce introduces Enterprise AI Harness, AI Control Plan",
+        "provider": "SiliconANGLE",
+        "type": "AI 项目/工具",
+        "bestFor": "Salesforce introduces Enterprise AI Harness, AI Control Plane\n\nSalesforce Inc. today previewed two offerings that will help customers build and manage artificia",
+        "description": "Salesforce introduces Enterprise AI Harness, AI Control Plane\n\nSalesforce Inc. today previewed two offerings that will help customers build and manage artificial intelligence agent",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "SiliconANGLE",
+        "url": "https://siliconangle.com/2026/09/10/salesforce-introduces-enterprise-ai-harness-ai-control-plane/"
+      },
       {
         "name": "How AvioBook builds turnaround insights from operational dat",
         "provider": "RSS",
@@ -6668,53 +6456,20 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Asian News International (ANI)",
         "url": "https://www.aninews.in/news/business/bharatpe-leads-the-ai-first-shift-in-fintech-with-new-merchant-ai-suite-launches-agentic-ai-and-credit-coach-at-gff-202616020260909090214/"
-      },
-      {
-        "name": "BharatPe leads the AI-First Shift in Fintech with new Mercha",
-        "provider": "The Tribune",
-        "type": "AI 项目/工具",
-        "bestFor": "Mumbai (Maharashtra) [India], September 9 (ANI): BharatPe, one of India's leading fintech companies, today launched BharatPe Agentic AI at the Global Fintech Fe",
-        "description": "Mumbai (Maharashtra) [India], September 9 (ANI): BharatPe, one of India's leading fintech companies, today launched BharatPe Agentic AI at the Global Fintech Fest 2026. This makes ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Tribune",
-        "url": "https://www.tribuneindia.com/news/business/bharatpe-leads-the-ai-first-shift-in-fintech-with-new-merchant-ai-suite-launches-agentic-ai-and-credit-coach-at-gff-2026/"
-      },
-      {
-        "name": "Meta launches Muse AI agent that can book travel and manage ",
-        "provider": "India Today",
-        "type": "AI 项目/工具",
-        "bestFor": "Meta has launched a new artificial intelligence assistant called Muse, marking its biggest push yet into AI agents that can independently complete real-world ta",
-        "description": "Meta has launched a new artificial intelligence assistant called Muse, marking its biggest push yet into AI agents that can independently complete real-world tasks for users rather",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "India Today",
-        "url": "https://www.indiatoday.in/business/story/meta-unveils-muse-ai-agent-for-emails-travel-bookings-and-daily-tasks-2990339-2026-09-09"
-      },
-      {
-        "name": "LG CNS Launches AI Agent for Chaum Health Check-ups",
-        "provider": "조선일보",
-        "type": "AI 项目/工具",
-        "bestFor": "Collaboration with Chaum and CHA Healthcare to streamline check-up processes and improve operational efficiency\n\nLG CNS announced on the 9th that it will collab",
-        "description": "Collaboration with Chaum and CHA Healthcare to streamline check-up processes and improve operational efficiency\n\nLG CNS announced on the 9th that it will collaborate with Chaum and",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "조선일보",
-        "url": "https://www.chosun.com/english/industry-en/2026/09/09/774BZ66ISNAXFG5HQT3ABZWZ54/"
-      },
-      {
-        "name": "Meta Launches Muse, a Personal AI Agent That Handles Everyda",
-        "provider": "iClarified - Apple News and Tutorials",
-        "type": "AI 项目/工具",
-        "bestFor": "Meta has launched Muse, a personal AI agent designed to handle everyday tasks including sending emails, shopping online, and planning trips. The service is roll",
-        "description": "Meta has launched Muse, a personal AI agent designed to handle everyday tasks including sending emails, shopping online, and planning trips. The service is rolling out to users in ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "iClarified - Apple News and Tutorials",
-        "url": "https://www.iclarified.com/102030/meta-launches-muse-a-personal-ai-agent-that-handles-everyday-tasks"
       }
     ],
     "ai-models": [
+      {
+        "name": "Can Zendesk Cut Multilingual Contact Center Costs With AI?",
+        "provider": "CX Today",
+        "type": "AI 项目/工具",
+        "bestFor": "The vendor's new voice translation tool promises broader coverage, but latency and escalation limits remain significant questions\n\nZendesk has announced Real-Ti",
+        "description": "The vendor's new voice translation tool promises broader coverage, but latency and escalation limits remain significant questions\n\nZendesk has announced Real-Time Voice Translation",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "CX Today",
+        "url": "https://www.cxtoday.com/contact-center/zendesk-real-time-voice-translation-contact-center/"
+      },
       {
         "name": "Amazon Quick is now generally available on desktop",
         "provider": "RSS",
@@ -7143,17 +6898,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "CNET",
         "url": "https://www.cnet.com/science/biggest-2d-map-of-universe-how-to-use-dr11/"
-      },
-      {
-        "name": "Logitech MX Keypad: All You Need to Know About the Multi-App",
-        "provider": "Analytics Insight",
-        "type": "AI 项目/工具",
-        "bestFor": "A nine-key device may look too small for a serious developer tool, yet Logitech has given the MX Keypad a much larger role. The new device acts as a physical co",
-        "description": "A nine-key device may look too small for a serious developer tool, yet Logitech has given the MX Keypad a much larger role. The new device acts as a physical control center for AI ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Analytics Insight",
-        "url": "https://www.analyticsinsight.net/apps/logitech-mx-keypad-all-you-need-to-know-about-the-multi-app-ai-control-center-for-developers"
       }
     ],
     "ai-business": [
@@ -10515,7 +10259,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-11",
-    "generatedAt": "2026-09-10T23:00:06.586776Z",
+    "generatedAt": "2026-09-11T01:25:21.810975Z",
     "total": 22,
     "sections": [
       {
