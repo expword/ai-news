@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-11",
-  "generatedAt": "2026-09-11T11:38:05.208508Z",
+  "generatedAt": "2026-09-11T14:07:32.209834Z",
   "news": [
     {
       "title": "ToolGrad: Efficient tool-use dataset generation with textual \"gradients\"",
@@ -2481,41 +2481,6 @@ window.AI_GENERATED_DATA = {
         "news"
       ],
       "sourceCount": 1
-    },
-    {
-      "title": "How Intuit built an agentic disaster recovery assistant with Amazon Bedrock",
-      "summary": "Disaster recovery at scale is hard. Learn how Intuit built EWOK Agent, an agentic disaster recovery assistant on Amazon Bedrock that lets on-call engineers run production failovers",
-      "category": "ai-agents",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-09-05",
-      "publishedAt": "2026-09-05T00:06",
-      "collectedAt": "2026-09-05T00:59",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-intuit-built-an-agentic-disaster-recovery-assistant-with-amazon-bedrock/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 2,
-      "relatedSources": [
-        {
-          "source": "RSS · AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/how-hpe-zerto-built-an-agentic-troubleshooting-system-with-amazon-bedrock/",
-          "title": "How HPE Zerto built an agentic troubleshooting system with Amazon Bedrock"
-        }
-      ]
     }
   ],
   "weeklyDigests": [
@@ -6036,6 +6001,61 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "Meta's Muse $20 vs $100 AI plans: How much revenue can its p",
+        "provider": "mint",
+        "type": "AI 项目/工具",
+        "bestFor": "Meta has decided to put a price on its AI ambitions. But even if the social media company manages to get millions of users to sign up for its new paid AI agent,",
+        "description": "Meta has decided to put a price on its AI ambitions. But even if the social media company manages to get millions of users to sign up for its new paid AI agent, the revenue from it",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "mint",
+        "url": "https://www.livemint.com/companies/news/metas-muse-20-vs-100-ai-plans-how-much-revenue-can-its-paid-ai-agent-really-generate-11789130248665.html"
+      },
+      {
+        "name": "AI Agents, Tokenized Cows and the Hunt for a Cab at India's ",
+        "provider": "Bloomberg Business",
+        "type": "AI 项目/工具",
+        "bestFor": "Welcome to India Edition, Bloomberg's daily dive into what's moving the worlds of business, markets and politics in this dynamic, fast-paced economy. I'm Menaka",
+        "description": "Welcome to India Edition, Bloomberg's daily dive into what's moving the worlds of business, markets and politics in this dynamic, fast-paced economy. I'm Menaka Doshi. If you didn'",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Bloomberg Business",
+        "url": "https://www.bloomberg.com/news/newsletters/2026-09-11/global-fintech-fest-wrap-upi-ai-agents-tokenized-cows-and-traffic"
+      },
+      {
+        "name": "ProreX Brings Agentic Trading & MCP Tools to MetaTrader 5",
+        "provider": "accessnewswire.com",
+        "type": "AI 项目/工具",
+        "bestFor": "Beyond MetaTrader 5's native AI, ProreX exposes its own screener, Smart Score, trade ideas and market data to AI agents over the Model Context Protocol - with A",
+        "description": "Beyond MetaTrader 5's native AI, ProreX exposes its own screener, Smart Score, trade ideas and market data to AI agents over the Model Context Protocol - with AI trading set to man",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "accessnewswire.com",
+        "url": "https://www.accessnewswire.com/newsroom/en/blockchain-and-cryptocurrency/prorex-limited-brings-agentic-trading-and-its-own-mcp-tools-to-metatr-1207275"
+      },
+      {
+        "name": "Council Post: The Era Of B2A Marketing: Position Your Brand ",
+        "provider": "Forbes",
+        "type": "AI 项目/工具",
+        "bestFor": "Pratik Bhadra is CEO North America at Netcore and Netcore Unbxd.\n\nFor a century, the marketing playbook has been written for human psychology. We designed campa",
+        "description": "Pratik Bhadra is CEO North America at Netcore and Netcore Unbxd.\n\nFor a century, the marketing playbook has been written for human psychology. We designed campaigns to appeal to hu",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Forbes",
+        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/09/11/the-era-of-b2a-marketing-position-your-brand-to-appeal-to-agents/"
+      },
+      {
+        "name": "Feed to Feat: Can Meta Unlock the AI Agent Cash Machine?",
+        "provider": "Market Beat",
+        "type": "AI 项目/工具",
+        "bestFor": "For years, investors have wondered how social media leaders would convert their substantial artificial intelligence spending into high-margin, recurring softwar",
+        "description": "For years, investors have wondered how social media leaders would convert their substantial artificial intelligence spending into high-margin, recurring software revenue.\n\nMeta Pla",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Market Beat",
+        "url": "https://www.marketbeat.com/articles/feed-to-feat-can-meta-unlock-the-ai-agent-cash-machine/"
+      },
+      {
         "name": "Generative Engine Optimisation: Azoma on Which GEO Tools Hel",
         "provider": "MarTech Series",
         "type": "AI 项目/工具",
@@ -6419,64 +6439,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · AWS Machine Learning",
         "url": "https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-august-2026/"
-      },
-      {
-        "name": "How Heurist Finance built an AI-native investment workbench ",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Learn how Heurist built Heurist Finance, a conversational AI investment workbench, on Amazon Bedrock AgentCore. This customer story shows how AgentCore payments",
-        "description": "Learn how Heurist built Heurist Finance, a conversational AI investment workbench, on Amazon Bedrock AgentCore. This customer story shows how AgentCore payments, Identity, Memory, ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/how-heurist-finance-built-an-ai-native-investment-workbench-on-amazon-bedrock-agentcore/"
-      },
-      {
-        "name": "Experience Funnel: A State-Policy Alternating Loop for Self-",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Autonomous agents powered by large language models (LLMs) continuously accumulate experience through interaction, creating an opportunity to improve future beha",
-        "description": "Autonomous agents powered by large language models (LLMs) continuously accumulate experience through interaction, creating an opportunity to improve future behavior through self-ev",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2609.08919v1"
-      },
-      {
-        "name": "Thomas Wolf 认为 AI 数学尚未被解决，Navier-Stokes 结果更像反例搜索而非完整证明",
-        "provider": "X：Thomas Wolf（Hugging Face 联创/CSO） (@Thom_Wolf)",
-        "type": "AI 项目/工具",
-        "bestFor": "Hugging Face 联创 Thomas Wolf 回应 OpenAI 用下一代模型（强于 GPT-6 Astra）的 agent 群组证明 Navier-Stokes 千禧年问题猜想为假的结果，称其令人印象深刻。",
-        "description": "Hugging Face 联创 Thomas Wolf 回应 OpenAI 用下一代模型（强于 GPT-6 Astra）的 agent 群组证明 Navier-Stokes 千禧年问题猜想为假的结果，称其令人印象深刻。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "X：Thomas Wolf（Hugging Face 联创/CSO） (@Thom_Wolf)",
-        "url": "https://x.com/Thom_Wolf/status/2097615465698713666"
-      },
-      {
-        "name": "PlannerForge: LLM Agents for Scenario-Based Testing of Motio",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Ensuring the safety of autonomous driving is a critical challenge. Scenario-based testing is a systematic process used to validate Autonomous Driving Systems (A",
-        "description": "Ensuring the safety of autonomous driving is a critical challenge. Scenario-based testing is a systematic process used to validate Autonomous Driving Systems (ADSs), but it remains",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2609.08965v1"
-      },
-      {
-        "name": "Meta Launches Muse Personal AI Agent",
-        "provider": "Market Screener",
-        "type": "AI 项目/工具",
-        "bestFor": "Meta Platforms, Inc. specializes in online social networking services. Net sales break down by activity as follows: - operation of social networking, messaging,",
-        "description": "Meta Platforms, Inc. specializes in online social networking services. Net sales break down by activity as follows: - operation of social networking, messaging, photo and video sha",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Market Screener",
-        "url": "https://www.marketscreener.com/news/meta-launches-muse-personal-ai-agent-ce785bd9dd88f720"
       }
     ],
     "ai-models": [
+      {
+        "name": "Gemini app for desktop",
+        "provider": "TechSpot",
+        "type": "AI 项目/工具",
+        "bestFor": "Access Gemini from any screen on your desktop to clarify a topic, recall a formula, or brainstorm on the fly without opening a tab. It's help on demand.\n\nFrom d",
+        "description": "Access Gemini from any screen on your desktop to clarify a topic, recall a formula, or brainstorm on the fly without opening a tab. It's help on demand.\n\nFrom drafting documents to",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "TechSpot",
+        "url": "https://www.techspot.com/downloads/7868-gemini-for-desktop.html"
+      },
       {
         "name": "Google Gemini Windows App is Here: How to Download and Use I",
         "provider": "Analytics Insight",
@@ -6905,20 +6881,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "KTSM 9 News",
         "url": "https://www.ktsm.com/news/national-news/apple-unveils-first-foldable-iphone-5-takeaways-from-wednesdays-event/"
-      },
-      {
-        "name": "Apple unveils first foldable iPhone: 5 takeaways from Wednes",
-        "provider": "phl17",
-        "type": "AI 项目/工具",
-        "bestFor": "(The Hill) -- Apple rolled out its next generation of the iPhone, AirPod and Apple Watch, with the company's first-ever foldable smartphone taking center stage ",
-        "description": "(The Hill) -- Apple rolled out its next generation of the iPhone, AirPod and Apple Watch, with the company's first-ever foldable smartphone taking center stage on Wednesday.\n\nThe \"",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "phl17",
-        "url": "https://phl17.com/nmw/apple-unveils-first-foldable-iphone-5-takeaways-from-wednesdays-event/"
       }
     ],
     "ai-business": [
+      {
+        "name": "AI boom faces a reality check as OpenAI, Anthropic head for ",
+        "provider": "India Today",
+        "type": "AI 项目/工具",
+        "bestFor": "The artificial intelligence boom is approaching a crucial test as OpenAI and Anthropic prepare to enter public markets, where their valuations will face scrutin",
+        "description": "The artificial intelligence boom is approaching a crucial test as OpenAI and Anthropic prepare to enter public markets, where their valuations will face scrutiny from investors arm",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "India Today",
+        "url": "https://www.indiatoday.in/business/ipo/story/openai-anthropic-ipos-ai-boom-valuations-public-market-test-spacex-2992561-2026-09-11"
+      },
       {
         "name": "Renault Duster Niagara Pickup Truck Revealed: Photo Gallery",
         "provider": "CarToq - India’s #1 auto content site",
@@ -7347,17 +7323,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "The Cambodia News",
         "url": "https://www.thecambodianews.net/news/279283280/razorpay-launches-a-conversational-ai-account-manager-ray-on-whatsapp-for-businesses-in-partnership-with-indusind-bank"
-      },
-      {
-        "name": "Vietnamese spend $1.7M on Claude, $7.1M on ChatGPT",
-        "provider": "VnExpress International – Latest news, business, travel and analysis from Vietnam",
-        "type": "AI 项目/工具",
-        "bestFor": "Vietnamese paid US$1.71 million for using generative AI Claude in the first half of the year, propelling Anthropic's mobile app from ninth to second place in re",
-        "description": "Vietnamese paid US$1.71 million for using generative AI Claude in the first half of the year, propelling Anthropic's mobile app from ninth to second place in revenues behind only C",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "VnExpress International – Latest news, business, travel and analysis from Vietnam",
-        "url": "https://e.vnexpress.net/news/tech/vietnam-innovation/vietnamese-spend-1-7m-on-claude-7-1m-on-chatgpt-5115931.html"
       }
     ],
     "ai-benchmark": [
@@ -10273,7 +10238,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-11",
-    "generatedAt": "2026-09-11T11:38:05.185508Z",
+    "generatedAt": "2026-09-11T14:07:32.187834Z",
     "total": 31,
     "sections": [
       {
