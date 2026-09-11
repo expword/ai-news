@@ -1,7 +1,90 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-12",
-  "generatedAt": "2026-09-11T16:40:13.174834Z",
+  "generatedAt": "2026-09-11T19:04:44.544318Z",
   "news": [
+    {
+      "title": "Monitoring production agent lifecycle with AWS DevOps Agent and AgentCore Evaluations",
+      "summary": "Multi-agent systems fail in ways traditional monitoring misses. This post presents a dual-layer approach to monitoring production agents: Amazon Bedrock AgentCore Evaluations for c",
+      "category": "ai-agents",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-12",
+      "publishedAt": "2026-09-12T02:26",
+      "collectedAt": "2026-09-12T03:04",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/monitoring-production-agent-lifecycle-with-aws-devops-agent-and-agentcore-evaluations/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Beyond the price per token: Choosing the right OpenAI model on Amazon Bedrock for your workload",
+      "summary": "Comparing models on dollars per million tokens misses what production workloads actually pay for: outcomes. This post shares an open-source benchmarking harness that measures cost ",
+      "category": "ai-benchmark",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-12",
+      "publishedAt": "2026-09-12T02:24",
+      "collectedAt": "2026-09-12T03:04",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/beyond-the-price-per-token-choosing-the-right-openai-model-on-amazon-bedrock-for-your-workload/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Build interactive MCP Apps using Amazon Bedrock AgentCore",
+      "summary": "Learn how to build and deploy an MCP App with interactive HTML widgets on Amazon Bedrock AgentCore. Because MCP Apps is a host-agnostic standard, the same server delivers the same ",
+      "category": "ai-agents",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-12",
+      "publishedAt": "2026-09-12T02:23",
+      "collectedAt": "2026-09-12T03:04",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-interactive-mcp-apps-using-amazon-bedrock-agentcore/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "DiscoSign: Discourse-Aware Text to Sign Language Gloss Translation",
       "summary": "Sign language processing systems have traditionally operated at the sentence level, ignoring critical discourse phenomena fundamental to sign language comprehension. We introduce D",
@@ -6084,6 +6167,28 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "Monitoring production agent lifecycle with AWS DevOps Agent ",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Multi-agent systems fail in ways traditional monitoring misses. This post presents a dual-layer approach to monitoring production agents: Amazon Bedrock AgentCo",
+        "description": "Multi-agent systems fail in ways traditional monitoring misses. This post presents a dual-layer approach to monitoring production agents: Amazon Bedrock AgentCore Evaluations for c",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/monitoring-production-agent-lifecycle-with-aws-devops-agent-and-agentcore-evaluations/"
+      },
+      {
+        "name": "Build interactive MCP Apps using Amazon Bedrock AgentCore",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Learn how to build and deploy an MCP App with interactive HTML widgets on Amazon Bedrock AgentCore. Because MCP Apps is a host-agnostic standard, the same serve",
+        "description": "Learn how to build and deploy an MCP App with interactive HTML widgets on Amazon Bedrock AgentCore. Because MCP Apps is a host-agnostic standard, the same server delivers the same ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/build-interactive-mcp-apps-using-amazon-bedrock-agentcore/"
+      },
+      {
         "name": "Meta's Muse $20 vs $100 AI plans: How much revenue can its p",
         "provider": "mint",
         "type": "AI 项目/工具",
@@ -6500,28 +6605,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Gonzales Inquirer",
         "url": "https://gonzalesinquirer.com/premium/stacker/stories/9-sales-tasks-that-agents-are-taking-over-in-2026-and-4-that-humans-have-kept,198033"
-      },
-      {
-        "name": "The Hidden Layer That Makes Voice AI Sound Human",
-        "provider": "WebProNews",
-        "type": "AI 项目/工具",
-        "bestFor": "Developers once accepted awkward pauses in voice agents. A second or more of dead air. The caller waiting. The system catching up. Those days are ending. Twilio",
-        "description": "Developers once accepted awkward pauses in voice agents. A second or more of dead air. The caller waiting. The system catching up. Those days are ending. Twilio's work on a dedicat",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "WebProNews",
-        "url": "https://www.webpronews.com/the-hidden-layer-that-makes-voice-ai-sound-human/"
-      },
-      {
-        "name": "ICYMI: What landed for AI builders in August 2026",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "A recap of August 2026 launches for AI builders across Amazon Bedrock, Amazon Bedrock AgentCore, and Strands: million-token context for OpenAI models, cross-Reg",
-        "description": "A recap of August 2026 launches for AI builders across Amazon Bedrock, Amazon Bedrock AgentCore, and Strands: million-token context for OpenAI models, cross-Region inference, agent",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-august-2026/"
       }
     ],
     "ai-models": [
@@ -10315,8 +10398,8 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-12",
-    "generatedAt": "2026-09-11T16:40:13.153837Z",
-    "total": 12,
+    "generatedAt": "2026-09-11T19:04:44.507817Z",
+    "total": 15,
     "sections": [
       {
         "category": "ai-coding",
@@ -10370,6 +10453,34 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-09-11",
             "publishedAt": "2026-09-11T05:15",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "category": "ai-agents",
+        "label": "Agent / MCP",
+        "items": [
+          {
+            "title": "Monitoring production agent lifecycle with AWS DevOps Agent and AgentCore Evaluations",
+            "summary": "Multi-agent systems fail in ways traditional monitoring misses. This post presents a dual-layer approach to monitoring production agents: Am",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/monitoring-production-agent-lifecycle-with-aws-devops-agent-and-agentcore-evaluations/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-12",
+            "publishedAt": "2026-09-12T02:26",
+            "reason": ""
+          },
+          {
+            "title": "Build interactive MCP Apps using Amazon Bedrock AgentCore",
+            "summary": "Learn how to build and deploy an MCP App with interactive HTML widgets on Amazon Bedrock AgentCore. Because MCP Apps is a host-agnostic stan",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/build-interactive-mcp-apps-using-amazon-bedrock-agentcore/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-12",
+            "publishedAt": "2026-09-12T02:23",
             "reason": ""
           }
         ]
@@ -10450,6 +10561,17 @@ window.AI_GENERATED_DATA = {
         "category": "ai-benchmark",
         "label": "评测榜单",
         "items": [
+          {
+            "title": "Beyond the price per token: Choosing the right OpenAI model on Amazon Bedrock for your workload",
+            "summary": "Comparing models on dollars per million tokens misses what production workloads actually pay for: outcomes. This post shares an open-source ",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/beyond-the-price-per-token-choosing-the-right-openai-model-on-amazon-bedrock-for-your-workload/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-12",
+            "publishedAt": "2026-09-12T02:24",
+            "reason": ""
+          },
           {
             "title": "Reduce LLM latency with prefix-aware routing on Amazon SageMaker Inference",
             "summary": "Amazon SageMaker Inference now offers prefix-aware routing, a routing strategy that sends requests sharing the same prompt prefix to the sam",
