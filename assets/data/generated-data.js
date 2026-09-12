@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-12",
-  "generatedAt": "2026-09-12T07:02:46.340243Z",
+  "generatedAt": "2026-09-12T09:31:45.965224Z",
   "news": [
     {
       "title": "Probabilistic Focal Search: Accelerating Bounded-Suboptimal Search via Lower-Bound Advancement",
@@ -2476,60 +2476,6 @@ window.AI_GENERATED_DATA = {
       "sourceDate": "2026-09-07",
       "tags": [],
       "url": "https://arxiv.org/abs/2609.04348",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Step Back to Move Forward: Reflection-Aware Preference Optimization for Visual Generation",
-      "summary": "arXiv:2609.04282v1 Announce Type: new Abstract: Diffusion models have become the mainstream paradigm for modern visual generation and have substantially advanced multimedia content",
-      "category": "ai-image-video",
-      "source": "RSS · arXiv cs.CV",
-      "date": "2026-09-07",
-      "publishedAt": "",
-      "collectedAt": "2026-09-08T11:14",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-07",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2609.04282",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "The microscope is the mask: privileged views and labels from a cryo-ET forward model",
-      "summary": "arXiv:2609.04325v1 Announce Type: new Abstract: We explore the use of simulated data for training a model for protein annotation in crowded cryo-electron tomography volumes reconst",
-      "category": "ai-image-video",
-      "source": "RSS · arXiv cs.CV",
-      "date": "2026-09-07",
-      "publishedAt": "",
-      "collectedAt": "2026-09-08T11:14",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-07",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2609.04325",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -6064,6 +6010,61 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "China Focus: Chinese researchers unveil lightweight dual-mod",
+        "provider": "english.news.cn",
+        "type": "AI 项目/工具",
+        "bestFor": "SHENZHEN, Sept. 12 (Xinhua) -- Chinese researchers have unveiled a lightweight dual-model collaborative AI agent for materials research, enabling AI not only to",
+        "description": "SHENZHEN, Sept. 12 (Xinhua) -- Chinese researchers have unveiled a lightweight dual-model collaborative AI agent for materials research, enabling AI not only to \"think\" but also to",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "english.news.cn",
+        "url": "https://english.news.cn/20260912/50a282d0d44a464aa66bdb2618121f4e/c.html"
+      },
+      {
+        "name": "Boomi Targets AI Governance Risk With New Control Plane - My",
+        "provider": "MyChesCo",
+        "type": "AI 项目/工具",
+        "bestFor": "CONSHOHOCKEN, PA -- Boomi is expanding its enterprise AI platform with a vendor- and model-neutral control layer designed to govern how AI agents access corpora",
+        "description": "CONSHOHOCKEN, PA -- Boomi is expanding its enterprise AI platform with a vendor- and model-neutral control layer designed to govern how AI agents access corporate systems, enforce ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "MyChesCo",
+        "url": "https://www.mychesco.com/a/news/regional/boomi-targets-ai-governance-risk-with-new-control-plane/"
+      },
+      {
+        "name": "Power Up Your AI Agent With Live Web Search, for Fewer Token",
+        "provider": "SitePoint",
+        "type": "AI 项目/工具",
+        "bestFor": "This article is sponsored by SerpApi. The techniques below work with any search provider; SerpApi is used for the runnable examples.\n\nIf you ask a large languag",
+        "description": "This article is sponsored by SerpApi. The techniques below work with any search provider; SerpApi is used for the runnable examples.\n\nIf you ask a large language model what happene",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "SitePoint",
+        "url": "https://www.sitepoint.com/ai-agent-live-web-search-fewer-tokens/"
+      },
+      {
+        "name": "Harden AIF: Safety for AI Development",
+        "provider": "Dynamic Business",
+        "type": "AI 项目/工具",
+        "bestFor": "Harden AIF ensures secure AI agent operations with pre-execution monitoring and local-first security for developers and teams.\n\nHarden Agentic Integrity Foundat",
+        "description": "Harden AIF ensures secure AI agent operations with pre-execution monitoring and local-first security for developers and teams.\n\nHarden Agentic Integrity Foundation (AIF) is a secur",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Dynamic Business",
+        "url": "https://dynamicbusiness.com/ai-tools/harden-aif-safety-for-ai-development.html"
+      },
+      {
+        "name": "China Focus: Chinese researchers unveil lightweight dual-mod",
+        "provider": "english.news.cn",
+        "type": "AI 项目/工具",
+        "bestFor": "SHENZHEN, Sept. 12 (Xinhua) -- Chinese researchers have unveiled a lightweight dual-model collaborative AI agent for materials research, enabling AI not only to",
+        "description": "SHENZHEN, Sept. 12 (Xinhua) -- Chinese researchers have unveiled a lightweight dual-model collaborative AI agent for materials research, enabling AI not only to \"think\" but also to",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "english.news.cn",
+        "url": "http://english.news.cn/20260912/50a282d0d44a464aa66bdb2618121f4e/c.html"
+      },
+      {
         "name": "Minitap 指控 Google Artemis 未署名使用其开源项目 mobile-use 代码",
         "provider": "Hacker News：AI 热帖",
         "type": "AI 项目/工具",
@@ -6447,64 +6448,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Asianet News Network Pvt Ltd",
         "url": "https://newsable.asianetnews.com/markets/meta-stock-on-track-to-extend-gains-after-hitting-1-month-high-but-wall-street-divided-on-when-muse-ai-agent-will-be-a-game-changer-articleshow-57st3um"
-      },
-      {
-        "name": "HelmGuard raises $7.3m for agentic GRC platform",
-        "provider": "Finextra Research",
-        "type": "AI 项目/工具",
-        "bestFor": "This content has been selected, created and edited by the Finextra editorial team based upon its relevance and interest to our community.\n\nHelmGuard has raised ",
-        "description": "This content has been selected, created and edited by the Finextra editorial team based upon its relevance and interest to our community.\n\nHelmGuard has raised $7.3 million in seed",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Finextra Research",
-        "url": "https://www.finextra.com/newsarticle/48371/helmguard-raises-73m-for-agentic-grc-platform"
-      },
-      {
-        "name": "India plans AI registry as it looks to roll out agentic paym",
-        "provider": "Reuters",
-        "type": "AI 项目/工具",
-        "bestFor": "MUMBAI, Sept 10 (Reuters) - India's payments authority is building a registry to verify and monitor artificial intelligence agents making transactions on its ho",
-        "description": "MUMBAI, Sept 10 (Reuters) - India's payments authority is building a registry to verify and monitor artificial intelligence agents making transactions on its homegrown payments net",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Reuters",
-        "url": "https://www.reuters.com/world/india/india-plans-ai-registry-it-looks-roll-out-agentic-payments-sources-say-2026-09-10/"
-      },
-      {
-        "name": "Check Point built a firewall that reads AI prompts",
-        "provider": "The Next Web",
-        "type": "AI 项目/工具",
-        "bestFor": "Nearly half of organizations are entirely blind to the machine-to-machine traffic their AI agents generate, and the tools built to watch enterprise networks wer",
-        "description": "Nearly half of organizations are entirely blind to the machine-to-machine traffic their AI agents generate, and the tools built to watch enterprise networks were never designed to ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Next Web",
-        "url": "https://thenextweb.com/news/check-point-ai-network-firewall-prompt-inspection"
-      },
-      {
-        "name": "CIOs Are Taking the Blame When AI Goes Wrong, despite lack o",
-        "provider": "bbntimes.com",
-        "type": "AI 项目/工具",
-        "bestFor": "CIOs are increasingly becoming the people held accountable when AI agents make mistakes, despite often lacking the visibility, control and audit trails needed t",
-        "description": "CIOs are increasingly becoming the people held accountable when AI agents make mistakes, despite often lacking the visibility, control and audit trails needed to prevent them, acco",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "bbntimes.com",
-        "url": "https://www.bbntimes.com/companies/cios-are-taking-the-blame-when-ai-goes-wrong-despite-lack-of-visibility"
-      },
-      {
-        "name": "How Context Window Length Actually Breaks Your AI Agent's Un",
-        "provider": "Startup Fortune",
-        "type": "AI 项目/工具",
-        "bestFor": "How does context window length affect inference cost? Not linearly. Attention scales roughly with the square of context length, and the KV cache adds a growing ",
-        "description": "How does context window length affect inference cost? Not linearly. Attention scales roughly with the square of context length, and the KV cache adds a growing memory tax on top, w",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Startup Fortune",
-        "url": "https://startupfortune.com/how-context-window-length-actually-breaks-your-ai-agents-unit-economics/"
       }
     ],
     "ai-models": [
+      {
+        "name": "OpenRouter 推出有状态 Shell 工具 `openrouter：shell` 并上线 Files API",
+        "provider": "X：OpenRouter (@OpenRouter)",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenRouter 推出新的有状态服务端工具 Shell，任何 OpenRouter 上的模型都可以在托管的 Linux 容器中运行命令。该功能今日起以 beta 形式提供，代号为 `openrouter：shell`，同时新增 Files API 用于在容器内外传输文件。",
+        "description": "OpenRouter 推出新的有状态服务端工具 Shell，任何 OpenRouter 上的模型都可以在托管的 Linux 容器中运行命令。该功能今日起以 beta 形式提供，代号为 `openrouter：shell`，同时新增 Files API 用于在容器内外传输文件。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "X：OpenRouter (@OpenRouter)",
+        "url": "https://x.com/OpenRouter/status/2098063468759027725"
+      },
       {
         "name": "Hackers abused Claude to extract secrets from 1.8 million An",
         "provider": "dunyanews.tv",
@@ -6933,17 +6890,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "www.army.mil",
         "url": "https://www.army.mil/article/295198/11th_airborne_division_uses_ai_to_increase_lethality_during_yama_sakura_91"
-      },
-      {
-        "name": "SCX.ai developing package for Apple LLM access with Australi",
-        "provider": "ARN",
-        "type": "AI 项目/工具",
-        "bestFor": "Allowing developers to use Apple's on-device model for one task and an SCX-hosted model for another. endif; ?>\n\nSCX.ai is tapping into Apple's large language mo",
-        "description": "Allowing developers to use Apple's on-device model for one task and an SCX-hosted model for another. endif; ?>\n\nSCX.ai is tapping into Apple's large language model (LLM) flexibilit",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "ARN",
-        "url": "https://www.arnnet.com.au/article/4220448/scx-ai-developing-package-for-apple-llm-access-with-australian-focus.html"
       }
     ],
     "ai-business": [
@@ -8449,6 +8395,28 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-research": [
       {
+        "name": "AI tools are making 'experts' out of stock traders in mainla",
+        "provider": "South China Morning Post",
+        "type": "AI 项目/工具",
+        "bestFor": "For China's 250 million individual investors, AI is helping them make money from one of the world's most volatile stock markets\n\nWhen Ryan Lei has an investment",
+        "description": "For China's 250 million individual investors, AI is helping them make money from one of the world's most volatile stock markets\n\nWhen Ryan Lei has an investment idea, he no longer ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "South China Morning Post",
+        "url": "https://www.scmp.com/business/china-business/article/3367211/how-ai-tools-are-reshaping-stock-trading-investment-research-china"
+      },
+      {
+        "name": "Robot self-dynamics help SLAM stay on course",
+        "provider": "mykxlg.com",
+        "type": "AI 项目/工具",
+        "bestFor": "GA, UNITED STATES, September 12, 2026 /EINPresswire.com/ -- A research team has developed a simultaneous localization and mapping (SLAM) system that helps robot",
+        "description": "GA, UNITED STATES, September 12, 2026 /EINPresswire.com/ -- A research team has developed a simultaneous localization and mapping (SLAM) system that helps robots remain oriented wh",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "mykxlg.com",
+        "url": "https://www.mykxlg.com/online_features/press_releases/robot-self-dynamics-help-slam-stay-on-course/article_cbccdf2a-1f92-571a-9fa4-f1b50221e95b.html"
+      },
+      {
         "name": "Britons Back AI Tools to Help GPs Spot Skin Cancer, Nationwi",
         "provider": "Scienmag",
         "type": "AI 项目/工具",
@@ -8865,28 +8833,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2608.24824v1"
-      },
-      {
-        "name": "Scaling Laws for Mixture Pretraining Under Data Constraints",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "As language models scale, the amount of data they require grows – yet many target data sources, such as low-resource languages or specialized domains, are inher",
-        "description": "As language models scale, the amount of data they require grows – yet many target data sources, such as low-resource languages or specialized domains, are inherently limited in siz",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · Apple ML Research",
-        "url": "https://machinelearning.apple.com/research/scaling-laws-mixture-pretraining"
-      },
-      {
-        "name": "Action-Aligned Retrieval with Pairwise Multimodal Reranking ",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Text-based person anomaly search requires distinguishing individuals based on fine-grained, context-dependent behaviors rather than mere appearance. Existing me",
-        "description": "Text-based person anomaly search requires distinguishing individuals based on fine-grained, context-dependent behaviors rather than mere appearance. Existing methods struggle to ca",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2608.23503v1"
       }
     ],
     "ai-office": []
@@ -10295,7 +10241,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-12",
-    "generatedAt": "2026-09-12T07:02:46.319242Z",
+    "generatedAt": "2026-09-12T09:31:45.943256Z",
     "total": 19,
     "sections": [
       {
