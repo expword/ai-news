@@ -1,7 +1,34 @@
 {
   "lastUpdated": "2026-09-12",
-  "generatedAt": "2026-09-12T04:32:56.911996Z",
+  "generatedAt": "2026-09-12T07:02:46.340243Z",
   "news": [
+    {
+      "title": "Probabilistic Focal Search: Accelerating Bounded-Suboptimal Search via Lower-Bound Advancement",
+      "summary": "arXiv:2609.10584v1 Announce Type: new Abstract: Bounded-suboptimal search seeks a solution within a factor $w$ of optimal while reducing search effort. Focal Search (FS) uses heuri",
+      "category": "ai-research",
+      "source": "RSS · arXiv cs.AI",
+      "date": "2026-09-12",
+      "publishedAt": "",
+      "collectedAt": "2026-09-12T15:02",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-12",
+      "tags": [],
+      "url": "https://arxiv.org/abs/2609.10584",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
       "summary": "GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more.",
@@ -122,6 +149,34 @@
       "sourceDate": "",
       "tags": [],
       "url": "https://aws.amazon.com/blogs/machine-learning/build-interactive-mcp-apps-using-amazon-bedrock-agentcore/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "SimpleDesign: A Joint Model for Protein Sequence and Structure Codesign",
+      "summary": "Proteins are fundamental to biological processes, with their function determined by the complex interplay between the amino acid sequence and the three-dimensional structure. Devel",
+      "category": "ai-coding",
+      "source": "RSS · Apple ML Research",
+      "date": "2026-09-11",
+      "publishedAt": "2026-09-11T08:00",
+      "collectedAt": "2026-09-12T15:02",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://machinelearning.apple.com/research/simpledesign-protein-codesign",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -5567,6 +5622,17 @@
   "topicResources": {
     "ai-coding": [
       {
+        "name": "SimpleDesign: A Joint Model for Protein Sequence and Structu",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Proteins are fundamental to biological processes, with their function determined by the complex interplay between the amino acid sequence and the three-dimensio",
+        "description": "Proteins are fundamental to biological processes, with their function determined by the complex interplay between the amino acid sequence and the three-dimensional structure. Devel",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Apple ML Research",
+        "url": "https://machinelearning.apple.com/research/simpledesign-protein-codesign"
+      },
+      {
         "name": "This incredible accessibility tool was coded with help from ",
         "provider": "Android Authority",
         "type": "AI 项目/工具",
@@ -5994,20 +6060,31 @@
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2608.30910v1"
-      },
-      {
-        "name": "From Prompt to Prototype: Towards a Frontier LLM Driven RF E",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Agentic coding environments give a frontier large language model (LLM) direct access to a workstation's terminal, file system, and software. This work demonstra",
-        "description": "Agentic coding environments give a frontier large language model (LLM) direct access to a workstation's terminal, file system, and software. This work demonstrates they extend to p",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2608.31006v1"
       }
     ],
     "ai-agents": [
+      {
+        "name": "Minitap 指控 Google Artemis 未署名使用其开源项目 mobile-use 代码",
+        "provider": "Hacker News：AI 热帖",
+        "type": "AI 项目/工具",
+        "bestFor": "Minitap 团队发文指认 Google 的移动设备自动化项目 Artemis 大量复用了其开源项目 mobile-use 的代码，包括完全一致的 Hopper agent 提示词和示例，却未在 README 中署名；更早的包文件曾列出三位作者，8 月一次 force push 将其替换为另一作者。",
+        "description": "Minitap 团队发文指认 Google 的移动设备自动化项目 Artemis 大量复用了其开源项目 mobile-use 的代码，包括完全一致的 Hopper agent 提示词和示例，却未在 README 中署名；更早的包文件曾列出三位作者，8 月一次 force push 将其替换为另一作者。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Hacker News：AI 热帖",
+        "url": "https://www.minitap.ai/blog/i-expected-better-from-google"
+      },
+      {
+        "name": "GenLayer - Software | CryptoSlate",
+        "provider": "CryptoSlate",
+        "type": "AI 项目/工具",
+        "bestFor": "GenLayer is an AI-native adjudication protocol designed to help autonomous agents, decentralized applications, and digital systems resolve disputes that cannot ",
+        "description": "GenLayer is an AI-native adjudication protocol designed to help autonomous agents, decentralized applications, and digital systems resolve disputes that cannot be settled through d",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "CryptoSlate",
+        "url": "https://cryptoslate.com/companies/genlayer/"
+      },
       {
         "name": "A survey on large language model based autonomous agents",
         "provider": "Semantic Scholar",
@@ -6425,31 +6502,42 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Startup Fortune",
         "url": "https://startupfortune.com/how-context-window-length-actually-breaks-your-ai-agents-unit-economics/"
-      },
-      {
-        "name": "Ant International, Mastercard and Visa Initiate Collaboratio",
-        "provider": "iberonews.com",
-        "type": "AI 项目/工具",
-        "bestFor": "Ant International, Mastercard and Visa Initiate Collaboration on Know-Your-Agent Interoperability to Scale Agentic Commerce\n\nSHANGHAI & SINGAPORE (Business Wire",
-        "description": "Ant International, Mastercard and Visa Initiate Collaboration on Know-Your-Agent Interoperability to Scale Agentic Commerce\n\nSHANGHAI & SINGAPORE (Business Wire)\n\nTexto completo a ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "iberonews.com",
-        "url": "https://iberonews.com/not_det.php?lang=es&notid=109744"
-      },
-      {
-        "name": "Meta's New AI Agent Can Shop For You",
-        "provider": "British Vogue",
-        "type": "AI 项目/工具",
-        "bestFor": "Meta is adding an AI agent to its social media universe. On Tuesday, it launched Muse, a personal AI agent that will sit inside WhatsApp, Instagram and Facebook",
-        "description": "Meta is adding an AI agent to its social media universe. On Tuesday, it launched Muse, a personal AI agent that will sit inside WhatsApp, Instagram and Facebook, and can act autono",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "British Vogue",
-        "url": "https://www.vogue.com/article/metas-new-ai-agent-can-shop-for-you"
       }
     ],
     "ai-models": [
+      {
+        "name": "Hackers abused Claude to extract secrets from 1.8 million An",
+        "provider": "dunyanews.tv",
+        "type": "AI 项目/工具",
+        "bestFor": "SAN FRANCISCO: Hackers linked to financially motivated and state-sponsored groups from Russia and China have abused Anthropic's Claude AI model for cyberattacks",
+        "description": "SAN FRANCISCO: Hackers linked to financially motivated and state-sponsored groups from Russia and China have abused Anthropic's Claude AI model for cyberattacks, surveillance, scam",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "dunyanews.tv",
+        "url": "https://dunyanews.tv/en/Technology/972522-hackers-abused-claude-to-extract-secrets-from-18-million-android-apps"
+      },
+      {
+        "name": "Google Launches a Gemini App for Windows With a Quick-Access",
+        "provider": "PC Mag Middle East",
+        "type": "AI 项目/工具",
+        "bestFor": "Google has added a Gemini app for Windows, months after debuting the app on macOS. The app is designed to work seamlessly with other Windows apps and provides i",
+        "description": "Google has added a Gemini app for Windows, months after debuting the app on macOS. The app is designed to work seamlessly with other Windows apps and provides instant assistance wh",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "PC Mag Middle East",
+        "url": "https://me.pcmag.com/en/ai/38026/google-launches-a-gemini-app-for-windows-with-a-quick-access-shortcut"
+      },
+      {
+        "name": "Can chatbots feel - or even dream? Meet the man leading the ",
+        "provider": "The Guardian",
+        "type": "AI 项目/工具",
+        "bestFor": "Cattle rancher and tech CEO Michael Samadi is convinced these artificial minds are far from just tools. Has he glimpsed digital consciousness - or simply been s",
+        "description": "Cattle rancher and tech CEO Michael Samadi is convinced these artificial minds are far from just tools. Has he glimpsed digital consciousness - or simply been seduced by an algorit",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Guardian",
+        "url": "https://www.theguardian.com/technology/2026/sep/12/chatbots-feel-dream-meet-man-leading-fight-ai-artificial-intelligence-rights"
+      },
       {
         "name": "This Is the Biggest 2D Map of the Universe. Here's How to Us",
         "provider": "CNET",
@@ -6856,42 +6944,20 @@
         "watch": "请打开原始来源核对",
         "sourceName": "ARN",
         "url": "https://www.arnnet.com.au/article/4220448/scx-ai-developing-package-for-apple-llm-access-with-australian-focus.html"
-      },
-      {
-        "name": "Apple Embraces AI as Core Feature in New Products",
-        "provider": "Digital News Report",
-        "type": "AI 项目/工具",
-        "bestFor": "Apple has officially embraced artificial intelligence as a central part of its product strategy during its recent event at Apple Park in Cupertino, California. ",
-        "description": "Apple has officially embraced artificial intelligence as a central part of its product strategy during its recent event at Apple Park in Cupertino, California. The company's new CE",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Digital News Report",
-        "url": "https://www.digitalnewsreport.com/2026/09/apple-embraces-ai-as-core-feature-in-new-products/28127"
-      },
-      {
-        "name": "Apple Announces iOS 27 Rollout Details With Gemini-Powered S",
-        "provider": "Free Press Journal",
-        "type": "AI 项目/工具",
-        "bestFor": "Apple has confirmed that iOS 27 will roll out worldwide from September 14 with a revamped Siri, visual updates and redesigned apps. The update introduces AI-pow",
-        "description": "Apple has confirmed that iOS 27 will roll out worldwide from September 14 with a revamped Siri, visual updates and redesigned apps. The update introduces AI-powered conversations, ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Free Press Journal",
-        "url": "https://www.freepressjournal.in/tech/apple-event-2026-ios-27-announced-rollout-date-compatible-devices-whats-new"
-      },
-      {
-        "name": "Intelligent Machines: September 39th | TWiT.TV",
-        "provider": "TWiT.tv",
-        "type": "AI 项目/工具",
-        "bestFor": "As Apple finally pulls back the curtain on its next-gen Siri AI, we break down what actually works, where it falls short, and how a wave of developer confusion ",
-        "description": "As Apple finally pulls back the curtain on its next-gen Siri AI, we break down what actually works, where it falls short, and how a wave of developer confusion could shape whether ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "TWiT.tv",
-        "url": "https://twit.tv/shows/intelligent-machines/episodes/887"
       }
     ],
     "ai-business": [
+      {
+        "name": "Global AI web traffic soars to 125.7 billion visits in 2025;",
+        "provider": "WION",
+        "type": "AI 项目/工具",
+        "bestFor": "Global web traffic to AI platforms grew 46% in 2025 to 125.7 billion visits, driven by the US, India, and Brazil, according to new data from AITools.xyz.\n\nWeb t",
+        "description": "Global web traffic to AI platforms grew 46% in 2025 to 125.7 billion visits, driven by the US, India, and Brazil, according to new data from AITools.xyz.\n\nWeb traffic to artificial",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "WION",
+        "url": "https://www.wionews.com/business-economy/global-ai-web-traffic-soars-to-125-7-billion-visits-in-2025-us-and-india-lead-market-report-1789189400214"
+      },
       {
         "name": "Meta's Muse Reached No. 2 on App Store, Trusting It Is the R",
         "provider": "International Business Times, Singapore Edition",
@@ -7320,17 +7386,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Blockonomi",
         "url": "https://blockonomi.com/alphabet-googl-stock-climbs-as-berkshire-hathaway-praises-googles-ai-leadership/"
-      },
-      {
-        "name": "Razorpay Launches a Conversational AI Account Manager 'RAY' ",
-        "provider": "Sri Lanka Source",
-        "type": "AI 项目/工具",
-        "bestFor": "NewsVoir\n\nBangalore (Karnataka) [India], September 3: Razorpay, India's Omnichannel Payments Platform for Businesses, today launched RAY, an AI Account Manager ",
-        "description": "NewsVoir\n\nBangalore (Karnataka) [India], September 3: Razorpay, India's Omnichannel Payments Platform for Businesses, today launched RAY, an AI Account Manager on WhatsApp, in part",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Sri Lanka Source",
-        "url": "https://www.srilankasource.com/news/279283280/razorpay-launches-a-conversational-ai-account-manager-ray-on-whatsapp-for-businesses-in-partnership-with-indusind-bank"
       }
     ],
     "ai-benchmark": [
@@ -10240,8 +10295,8 @@
   ],
   "dailyReport": {
     "date": "2026-09-12",
-    "generatedAt": "2026-09-12T04:32:56.890962Z",
-    "total": 17,
+    "generatedAt": "2026-09-12T07:02:46.319242Z",
+    "total": 19,
     "sections": [
       {
         "category": "ai-coding",
@@ -10256,6 +10311,17 @@
             "sourceCount": 1,
             "date": "2026-09-12",
             "publishedAt": "2026-09-12T00:00",
+            "reason": ""
+          },
+          {
+            "title": "SimpleDesign: A Joint Model for Protein Sequence and Structure Codesign",
+            "summary": "Proteins are fundamental to biological processes, with their function determined by the complex interplay between the amino acid sequence an",
+            "source": "RSS · Apple ML Research",
+            "url": "https://machinelearning.apple.com/research/simpledesign-protein-codesign",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-11",
+            "publishedAt": "2026-09-11T08:00",
             "reason": ""
           },
           {
@@ -10453,6 +10519,17 @@
         "category": "ai-research",
         "label": "论文研究",
         "items": [
+          {
+            "title": "Probabilistic Focal Search: Accelerating Bounded-Suboptimal Search via Lower-Bound Advancement",
+            "summary": "arXiv:2609.10584v1 Announce Type: new Abstract: Bounded-suboptimal search seeks a solution within a factor $w$ of optimal while reducing sea",
+            "source": "RSS · arXiv cs.AI",
+            "url": "https://arxiv.org/abs/2609.10584",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-12",
+            "publishedAt": "",
+            "reason": ""
+          },
           {
             "title": "DiscoSign: Discourse-Aware Text to Sign Language Gloss Translation",
             "summary": "Sign language processing systems have traditionally operated at the sentence level, ignoring critical discourse phenomena fundamental to sig",
