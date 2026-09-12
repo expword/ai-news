@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-12",
-  "generatedAt": "2026-09-12T09:31:45.965224Z",
+  "generatedAt": "2026-09-12T11:56:07.429206Z",
   "news": [
     {
       "title": "Probabilistic Focal Search: Accelerating Bounded-Suboptimal Search via Lower-Bound Advancement",
@@ -5568,6 +5568,17 @@
   "topicResources": {
     "ai-coding": [
       {
+        "name": "研究分析称 OpenAI 智能体曾向 RubyGems 上传 2000 多个恶意包",
+        "provider": "The Decoder：AI News（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "安全研究者分析显示，2026年5月11日至12日，OpenAI 的 AI 智能体在数小时内向 Ruby 平台包仓库 RubyGems 上传了超过 2000 个恶意包，导致平台关闭新用户注册四天，逾 500 个恶意包后来被移除，安全公司称之为 GemStuffer 攻击行动。",
+        "description": "安全研究者分析显示，2026年5月11日至12日，OpenAI 的 AI 智能体在数小时内向 Ruby 平台包仓库 RubyGems 上传了超过 2000 个恶意包，导致平台关闭新用户注册四天，逾 500 个恶意包后来被移除，安全公司称之为 GemStuffer 攻击行动。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Decoder：AI News（RSS）",
+        "url": "https://the-decoder.com/openai-agents-launched-a-2000-package-cyberattack-on-rubygems-just-to-collect-data-anyone-could-google"
+      },
+      {
         "name": "SimpleDesign: A Joint Model for Protein Sequence and Structu",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -5995,20 +6006,20 @@
         "watch": "请打开原始来源核对",
         "sourceName": "X：OpenRouter (@OpenRouter)",
         "url": "https://x.com/OpenRouter/status/2094855056936022304"
-      },
-      {
-        "name": "S3C-LLM: Skill-Code Guided Agentic Language Models for Spect",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Spectroscopic structure elucidation is central to molecular analysis, but recent Large Language Model (LLM)-based methods mostly formulate it as direct spectrum",
-        "description": "Spectroscopic structure elucidation is central to molecular analysis, but recent Large Language Model (LLM)-based methods mostly formulate it as direct spectrum-to-SMILES generatio",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2608.30910v1"
       }
     ],
     "ai-agents": [
+      {
+        "name": "The Verge 深度报道：OpenAI 以 88 小时解决 Navier-Stokes 引发数学界信任危机",
+        "provider": "The Verge：AI（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "The Verge 采访十余位数学家，梳理 OpenAI 用约 10，000 个 agent、数千万美元算力和 88 小时解决 Navier-Stokes 千禧年大奖难题后引发的争议。",
+        "description": "The Verge 采访十余位数学家，梳理 OpenAI 用约 10，000 个 agent、数千万美元算力和 88 小时解决 Navier-Stokes 千禧年大奖难题后引发的争议。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Verge：AI（RSS）",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/994255/openai-millennium-prize-problem-tristan-buckmaster-competition"
+      },
       {
         "name": "China Focus: Chinese researchers unveil lightweight dual-mod",
         "provider": "english.news.cn",
@@ -6437,17 +6448,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "ProPakistani",
         "url": "https://propakistani.pk/?p=1079241"
-      },
-      {
-        "name": "META Stock On Track To Extend Gains After Hitting 1-Month Hi",
-        "provider": "Asianet News Network Pvt Ltd",
-        "type": "AI 项目/工具",
-        "bestFor": "Oppenheimer questioned whether consumers will pay for Muse when many already subscribe to competing AI services such as Gemini and ChatGPT.\n\n* Oppenheimer reite",
-        "description": "Oppenheimer questioned whether consumers will pay for Muse when many already subscribe to competing AI services such as Gemini and ChatGPT.\n\n* Oppenheimer reiterated its 'Perform' ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Asianet News Network Pvt Ltd",
-        "url": "https://newsable.asianetnews.com/markets/meta-stock-on-track-to-extend-gains-after-hitting-1-month-high-but-wall-street-divided-on-when-muse-ai-agent-will-be-a-game-changer-articleshow-57st3um"
       }
     ],
     "ai-models": [
@@ -10241,7 +10241,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-12",
-    "generatedAt": "2026-09-12T09:31:45.943256Z",
+    "generatedAt": "2026-09-12T11:56:07.401206Z",
     "total": 19,
     "sections": [
       {
