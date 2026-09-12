@@ -1,7 +1,34 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-13",
-  "generatedAt": "2026-09-12T18:08:44.680517Z",
+  "generatedAt": "2026-09-12T21:40:29.253236Z",
   "news": [
+    {
+      "title": "Dario Amodei 发文呼吁 AI 行业放慢前沿速度并公布三步计划",
+      "summary": "Dario Amodei 发布新文章 We Must Pace the Frontier，主张 AI 行业应放慢速度，并提出三部分计划。Anthropic 单方面承诺第一步，为第三方评估者提供永久的员工级系统访问权限，以核实安全措施执行、报告事故并评估训练期间模型的 alignment。",
+      "category": "ai-models",
+      "source": "X：Peter McCrory（Anthropic 首席经济学家，@PeterMcCrory）",
+      "date": "2026-09-13",
+      "publishedAt": "2026-09-13T04:18",
+      "collectedAt": "2026-09-13T05:40",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://x.com/PeterMcCrory/status/2098868931071226252",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Probabilistic Focal Search: Accelerating Bounded-Suboptimal Search via Lower-Bound Advancement",
       "summary": "arXiv:2609.10584v1 Announce Type: new Abstract: Bounded-suboptimal search seeks a solution within a factor $w$ of optimal while reducing search effort. Focal Search (FS) uses heuri",
@@ -5568,6 +5595,17 @@ window.AI_GENERATED_DATA = {
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Augment 复盘软件工厂建设：人均规模调整产出增长 4.5 倍",
+        "provider": "Augment Code 博客（网页）",
+        "type": "AI 项目/工具",
+        "bestFor": "Augment Code 发布长文，复盘其九个月建设的软件工厂：2025 年 11 月至 2026 年 7 月，基于 Cosmos 平台在需求、工单、PR、生产四个环节部署 PR Author。",
+        "description": "Augment Code 发布长文，复盘其九个月建设的软件工厂：2025 年 11 月至 2026 年 7 月，基于 Cosmos 平台在需求、工单、PR、生产四个环节部署 PR Author。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Augment Code 博客（网页）",
+        "url": "https://www.augmentcode.com/blog/beyond-ai-coding-agents-how-we-built-augments-software-factory"
+      },
+      {
         "name": "DeepSeek 开源 V4.1-Flash：CED 架构降低编码 Agent 的 prefill 开销",
         "provider": "Baseten 工程博客（网页）",
         "type": "AI 项目/工具",
@@ -5995,20 +6033,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · AWS Machine Learning",
         "url": "https://aws.amazon.com/blogs/machine-learning/from-code-to-diagrams-agentic-architecture-documentation-with-amazon-bedrock-agentcore/"
-      },
-      {
-        "name": "GitHub Copilot 如何在不牺牲任务质量的前提下降低 AI 编码成本",
-        "provider": "GitHub Blog",
-        "type": "AI 项目/工具",
-        "bestFor": "GitHub 工程师 Erik Kristensen 分享了 Copilot 降本的四项改动：选择性压缩工具输出、移除 view 工具行号前缀（线下推理成本降约 5%，线上用户日均推理成本降约 3%）、压缩 task-tool 提示词（每轮省约 1300 token，每活跃小时归一化成本降 2.9%）、后台任务完成后直",
-        "description": "GitHub 工程师 Erik Kristensen 分享了 Copilot 降本的四项改动：选择性压缩工具输出、移除 view 工具行号前缀（线下推理成本降约 5%，线上用户日均推理成本降约 3%）、压缩 task-tool 提示词（每轮省约 1300 token，每活跃小时归一化成本降 2.9%）、后台任务完成后直接交付结果（AI Credits 用量降",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "GitHub Blog",
-        "url": "https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality"
       }
     ],
     "ai-agents": [
+      {
+        "name": "LlamaIndex 解析 just-in-time Agentic OCR：两遍式文档处理如何平衡成本与精度",
+        "provider": "LlamaIndex：产品、工程与评测",
+        "type": "AI 项目/工具",
+        "bestFor": "LlamaIndex 博客提出 just-in-time Agentic OCR 模式：先用 LiteParse 等免费解析器粗读全部文件供检索，再仅对相关页面调用 VLM 做 OCR。",
+        "description": "LlamaIndex 博客提出 just-in-time Agentic OCR 模式：先用 LiteParse 等免费解析器粗读全部文件供检索，再仅对相关页面调用 VLM 做 OCR。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "LlamaIndex：产品、工程与评测",
+        "url": "https://www.llamaindex.ai/blog/just-in-time-agentic-ocr"
+      },
       {
         "name": "Chinese researchers unveil lightweight dual-model AI agent f",
         "provider": "China National News",
@@ -6437,17 +6475,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · AWS Machine Learning",
         "url": "https://aws.amazon.com/blogs/machine-learning/how-aviobook-uses-generative-ai-to-drive-airline-turnaround-insights/"
-      },
-      {
-        "name": "Agent Evaluation Metric for multi-turn conversations",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Multi-turn agents fail in ways single-turn evaluation misses: one early mistake corrupts every later turn. This post introduces the Agent Evaluation Metric (AEM",
-        "description": "Multi-turn agents fail in ways single-turn evaluation misses: one early mistake corrupts every later turn. This post introduces the Agent Evaluation Metric (AEM), a decomposable, t",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/agent-evaluation-metric-for-multi-turn-conversations/"
       }
     ],
     "ai-models": [
@@ -10241,7 +10268,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-13",
-    "generatedAt": "2026-09-12T18:08:44.658482Z",
+    "generatedAt": "2026-09-12T21:40:29.229266Z",
     "total": 24,
     "sections": [
       {
@@ -10290,17 +10317,6 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-09-11",
             "publishedAt": "2026-09-11T00:00",
-            "reason": ""
-          },
-          {
-            "title": "Component-Aware Differential Privacy for Federated Multilingual Speech-LLMs",
-            "summary": "Per-layer differential privacy (DP) clipping improves gradient fidelity in federated learning by allocating per-matrix clipping budgets prop",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.11762v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-10",
-            "publishedAt": "",
             "reason": ""
           }
         ]
@@ -10365,6 +10381,17 @@ window.AI_GENERATED_DATA = {
         "category": "ai-models",
         "label": "模型发布",
         "items": [
+          {
+            "title": "Dario Amodei 发文呼吁 AI 行业放慢前沿速度并公布三步计划",
+            "summary": "Dario Amodei 发布新文章 We Must Pace the Frontier，主张 AI 行业应放慢速度，并提出三部分计划。Anthropic 单方面承诺第一步，为第三方评估者提供永久的员工级系统访问权限，以核实安全措施执行、报告事故并评估训练期间模型的 alignm",
+            "source": "X：Peter McCrory（Anthropic 首席经济学家，@PeterMcCrory）",
+            "url": "https://x.com/PeterMcCrory/status/2098868931071226252",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-13",
+            "publishedAt": "2026-09-13T04:18",
+            "reason": ""
+          },
           {
             "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
             "summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with",
