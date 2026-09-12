@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-13",
-  "generatedAt": "2026-09-12T16:56:16.351016Z",
+  "generatedAt": "2026-09-12T18:08:44.680517Z",
   "news": [
     {
       "title": "Probabilistic Focal Search: Accelerating Bounded-Suboptimal Search via Lower-Bound Advancement",
@@ -5568,6 +5568,17 @@ window.AI_GENERATED_DATA = {
   "topicResources": {
     "ai-coding": [
       {
+        "name": "DeepSeek 开源 V4.1-Flash：CED 架构降低编码 Agent 的 prefill 开销",
+        "provider": "Baseten 工程博客（网页）",
+        "type": "AI 项目/工具",
+        "bestFor": "DeepSeek 本周在 HuggingFace 开源 DeepSeek-V4.1-Flash 权重，模型已在 Baseten Model APIs 上线。规格为 552B 总参数、prefill 激活 8B、decode 激活 16B、1M token 上下文、支持文本加图像输入。",
+        "description": "DeepSeek 本周在 HuggingFace 开源 DeepSeek-V4.1-Flash 权重，模型已在 Baseten Model APIs 上线。规格为 552B 总参数、prefill 激活 8B、decode 激活 16B、1M token 上下文、支持文本加图像输入。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Baseten 工程博客（网页）",
+        "url": "https://www.baseten.co/blog/deepseek-v41-flash-more-efficient-prefill-for-coding-agents"
+      },
+      {
         "name": "easyspecs.ai launches a spec review platform so engineering ",
         "provider": "NewsData.io",
         "type": "AI 项目/工具",
@@ -5995,17 +6006,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "GitHub Blog",
         "url": "https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality"
-      },
-      {
-        "name": "Zoho Eyes AI App Boom With Catalyst 3.0 Cloud Platform - BW ",
-        "provider": "BW Businessworld",
-        "type": "AI 项目/工具",
-        "bestFor": "Zoho targets enterprises, system integrators and developers with usage-based pricing as AI coding shifts the software development bottleneck to deployment and i",
-        "description": "Zoho targets enterprises, system integrators and developers with usage-based pricing as AI coding shifts the software development bottleneck to deployment and infrastructure\n\nZoho ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "BW Businessworld",
-        "url": "https://www.businessworld.in/article/zoho-eyes-ai-app-boom-with-catalyst-3-0-cloud-platform-621904"
       }
     ],
     "ai-agents": [
@@ -10241,7 +10241,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-13",
-    "generatedAt": "2026-09-12T16:56:16.325017Z",
+    "generatedAt": "2026-09-12T18:08:44.658482Z",
     "total": 24,
     "sections": [
       {
