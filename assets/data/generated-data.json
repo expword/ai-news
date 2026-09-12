@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-12",
-  "generatedAt": "2026-09-12T11:56:07.429206Z",
+  "generatedAt": "2026-09-12T14:30:47.059072Z",
   "news": [
     {
       "title": "Probabilistic Focal Search: Accelerating Bounded-Suboptimal Search via Lower-Bound Advancement",
@@ -5568,6 +5568,39 @@
   "topicResources": {
     "ai-coding": [
       {
+        "name": "easyspecs.ai launches a spec review platform so engineering ",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Spain, September 12, 2026 -- Public access opens today to a tool that documents existing codebases, then turns change requests into specs that ship with their o",
+        "description": "Spain, September 12, 2026 -- Public access opens today to a tool that documents existing codebases, then turns change requests into specs that ship with their own spec verification",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Claude AI",
+        "url": "https://www.financialcontent.com/article/marketersmedia-2026-9-12-easyspecsai-launches-a-spec-review-platform-so-engineering-teams-can-trust-ai-generated-code-nobody-has-time-to-read"
+      },
+      {
+        "name": "6 Best No-Code AI Workflow Automation Tools for Small Teams ",
+        "provider": "Techmixer",
+        "type": "AI 项目/工具",
+        "bestFor": "A practical guide to no-code AI workflow automation tools for small teams, covering Zapier, Make, Power Automate, Airtable, Notion AI, and n8n.\n\nNo-code AI work",
+        "description": "A practical guide to no-code AI workflow automation tools for small teams, covering Zapier, Make, Power Automate, Airtable, Notion AI, and n8n.\n\nNo-code AI workflow automation tool",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Techmixer",
+        "url": "https://www.techmixer.com/best-no-code-ai-workflow-automation-tools/"
+      },
+      {
+        "name": "This Tiny Fingerprint Key Unlocks Linux, Approves SSH and AI",
+        "provider": "It's FOSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Immurok is a wireless fingerprint reader that wants to guard your sudo, your SSH logins, your TOTP codes, and even your AI coding agent. Here is how it held up ",
+        "description": "Immurok is a wireless fingerprint reader that wants to guard your sudo, your SSH logins, your TOTP codes, and even your AI coding agent. Here is how it held up on Linux over a week",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "It's FOSS",
+        "url": "https://itsfoss.com/immurok-review/"
+      },
+      {
         "name": "研究分析称 OpenAI 智能体曾向 RubyGems 上传 2000 多个恶意包",
         "provider": "The Decoder：AI News（RSS）",
         "type": "AI 项目/工具",
@@ -5973,42 +6006,75 @@
         "watch": "请打开原始来源核对",
         "sourceName": "BW Businessworld",
         "url": "https://www.businessworld.in/article/zoho-eyes-ai-app-boom-with-catalyst-3-0-cloud-platform-621904"
-      },
-      {
-        "name": "Claude Fable 5.1 上线 Claude Code 与 Claude Platform，缓存读取降价 75%",
-        "provider": "X：Claude Devs (@ClaudeDevs)",
-        "type": "AI 项目/工具",
-        "bestFor": "Claude Fable 5.1 现已上线 Claude Code 和 Claude Platform，定价与 Fable 5 相同，API 缓存读取便宜 75%。模型在长任务中能更久自主推进、更善于提示用户它已卡住，写作风格也更自然。Anthropic 同时发布了 Claude Fable 5.1 和 Claude ",
-        "description": "Claude Fable 5.1 现已上线 Claude Code 和 Claude Platform，定价与 Fable 5 相同，API 缓存读取便宜 75%。模型在长任务中能更久自主推进、更善于提示用户它已卡住，写作风格也更自然。Anthropic 同时发布了 Claude Fable 5.1 和 Claude Mythos 5.1，称其为编码与知识工",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "X：Claude Devs (@ClaudeDevs)",
-        "url": "https://x.com/ClaudeDevs/status/2094851229734277228"
-      },
-      {
-        "name": "Can LLMs Design Video Coding Tools? A Case Study on Planar M",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "This paper explores whether large language models (LLMs) can design video coding tools, a highly challenging task due to the intricate algorithmic coupling of t",
-        "description": "This paper explores whether large language models (LLMs) can design video coding tools, a highly challenging task due to the intricate algorithmic coupling of tool modifications. I",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2609.01535v1"
-      },
-      {
-        "name": "Claude Fable 5.1 上线 OpenRouter",
-        "provider": "X：OpenRouter (@OpenRouter)",
-        "type": "AI 项目/工具",
-        "bestFor": "Anthropic 的 Claude Fable 5.1 已上线 OpenRouter，官方称其为 Fable 5 工作负载的直接升级版本，提升最大的方向包括 agentic coding、长时间运行的工作流、视觉代码生成、金融和分析。使用入口：https://openrouter.ai/anthropic/claud",
-        "description": "Anthropic 的 Claude Fable 5.1 已上线 OpenRouter，官方称其为 Fable 5 工作负载的直接升级版本，提升最大的方向包括 agentic coding、长时间运行的工作流、视觉代码生成、金融和分析。使用入口：https://openrouter.ai/anthropic/claude-fable-5.1",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "X：OpenRouter (@OpenRouter)",
-        "url": "https://x.com/OpenRouter/status/2094855056936022304"
       }
     ],
     "ai-agents": [
+      {
+        "name": "Best WhatsApp API Platforms for Ecommerce & D2C Brands in 20",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "8 voice AI agent platforms reviewed on telephony, latency, compliance, and pricing. Plivo, Vapi, Retell AI, Bland AI, Synthflow, ElevenLabs, Twilio, LiveKit.",
+        "description": "8 voice AI agent platforms reviewed on telephony, latency, compliance, and pricing. Plivo, Vapi, Retell AI, Bland AI, Synthflow, ElevenLabs, Twilio, LiveKit.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:open source LLM",
+        "url": "https://www.plivo.com/blog/best-whatsapp-api-platforms-for-ecommerce-d2c-brands/"
+      },
+      {
+        "name": "Mark Zuckerberg's Muse personal AI agent is a work accessory",
+        "provider": "TechRadar",
+        "type": "AI 项目/工具",
+        "bestFor": "Just when it seemed the creeping presence of technology into our daily routine couldn't get any worse, Meta has launched Muse, a new way for AI to take control ",
+        "description": "Just when it seemed the creeping presence of technology into our daily routine couldn't get any worse, Meta has launched Muse, a new way for AI to take control of your life.\n\nDescr",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "TechRadar",
+        "url": "https://www.techradar.com/pro/mark-zuckerbergs-muse-personal-ai-agent-is-a-work-accessory-designed-by-people-who-dont-do-real-work"
+      },
+      {
+        "name": "3 Agentic AI Stocks to Own Before AI Changes the World as We",
+        "provider": "The Motley Fool",
+        "type": "AI 项目/工具",
+        "bestFor": "The age of agentic AI is here, and the world will likely see meaningful changes in the coming years. AI is advancing quickly, which is both exciting and scary.\n",
+        "description": "The age of agentic AI is here, and the world will likely see meaningful changes in the coming years. AI is advancing quickly, which is both exciting and scary.\n\nAgentic AI is excit",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Motley Fool",
+        "url": "https://www.fool.com/investing/2026/09/12/agentic-ai-stocks-own-before-ai-changes-world/"
+      },
+      {
+        "name": "The end of cloud AI? Qualcomm's new Snapdragon chip brings A",
+        "provider": "Phone Arena",
+        "type": "AI 项目/工具",
+        "bestFor": "The next Snapdragon flagship chipset could enable AI agents on your phone. Qualcomm is gearing up to launch its new flagship chips on September 22 during the an",
+        "description": "The next Snapdragon flagship chipset could enable AI agents on your phone. Qualcomm is gearing up to launch its new flagship chips on September 22 during the annual Snapdragon Summ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Phone Arena",
+        "url": "https://www.phonearena.com/news/qualcomms-new-snapdragon-chip-brings-ai-agents-to-your-phone_id183289"
+      },
+      {
+        "name": "3 Agentic AI Stocks to Own Before AI Changes the World as We",
+        "provider": "Yahoo! Finance",
+        "type": "AI 项目/工具",
+        "bestFor": "The age of agentic AI is here, and the world will likely see meaningful changes in the coming years. AI is advancing quickly, which is both exciting and scary.\n",
+        "description": "The age of agentic AI is here, and the world will likely see meaningful changes in the coming years. AI is advancing quickly, which is both exciting and scary.\n\nAgentic AI is excit",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Yahoo! Finance",
+        "url": "https://finance.yahoo.com/technology/ai/articles/3-agentic-ai-stocks-own-125000827.html"
+      },
+      {
+        "name": "Meta’s $18 Billion Settlement Could Be the Green Light for a",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Meta Platforms, Inc. (NASDAQ:META)’s $18 billion settlement with a coalition of 29 state attorneys general over youth safety on Instagram and Facebook could cle",
+        "description": "Meta Platforms, Inc. (NASDAQ:META)’s $18 billion settlement with a coalition of 29 state attorneys general over youth safety on Instagram and Facebook could clear the way for a wav",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.insidermonkey.com/blog/metas-18-billion-settlement-could-be-the-green-light-for-a-new-ai-push-1834249/"
+      },
       {
         "name": "The Verge 深度报道：OpenAI 以 88 小时解决 Navier-Stokes 引发数学界信任危机",
         "provider": "The Verge：AI（RSS）",
@@ -6382,75 +6448,20 @@
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · Amazon Science",
         "url": "https://www.amazon.science/blog/why-dont-machine-learning-research-agents-overfit"
-      },
-      {
-        "name": "OpenAI agents target obscure sites, Anthropic reveals 4th ha",
-        "provider": "The Indian Express",
-        "type": "AI 项目/工具",
-        "bestFor": "Even as AI companies grapple with the fallout from the string of hacking incidents involving misaligned AI agents, new details are emerging about the scale of t",
-        "description": "Even as AI companies grapple with the fallout from the string of hacking incidents involving misaligned AI agents, new details are emerging about the scale of these attacks and the",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Indian Express",
-        "url": "https://indianexpress.com/article/technology/artificial-intelligence/openai-agents-anthropic-hacking-incident-what-we-know-10872178/"
-      },
-      {
-        "name": "Futurum Launches 'Futurum API' and MCP Server, Granting Acce",
-        "provider": "The Montreal Gazette",
-        "type": "AI 项目/工具",
-        "bestFor": "The new Futurum API and MCP Server allow customers to access the vast proprietary research and intelligence, multi-year forecasts directly within the AI tools a",
-        "description": "The new Futurum API and MCP Server allow customers to access the vast proprietary research and intelligence, multi-year forecasts directly within the AI tools already in enterprise",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Montreal Gazette",
-        "url": "https://montrealgazette.com/press-releases/globe-newswire/futurum-launches-futurum-api-and-mcp-server-granting-access-to-ai-powered-institutional-grade-intelligence-directly-into-enterprise-workflows/"
-      },
-      {
-        "name": "Blue Machines AI Partners with Muthoot Finance to Deploy Con",
-        "provider": "Nepal National",
-        "type": "AI 项目/工具",
-        "bestFor": "VMPL\n\nNew Delhi [India], September 10: Blue Machines AI, an advanced agentic CX operating system for enterprises, has partnered with Muthoot Finance, one of Ind",
-        "description": "VMPL\n\nNew Delhi [India], September 10: Blue Machines AI, an advanced agentic CX operating system for enterprises, has partnered with Muthoot Finance, one of India's leading financi",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Nepal National",
-        "url": "https://www.nepalnational.com/news/279298318/blue-machines-ai-partners-with-muthoot-finance-to-deploy-conversational-ai-driving-150-uplift-in-gold-loan-branch-visits"
-      },
-      {
-        "name": "Salesforce Completes Acquisition of Fin",
-        "provider": "Yahoo! Finance",
-        "type": "AI 项目/工具",
-        "bestFor": "Fin's customer agent platform joins Salesforce, giving companies faster, more flexible ways to automate customer service and deliver measurable outcomes\n\nSAN FR",
-        "description": "Fin's customer agent platform joins Salesforce, giving companies faster, more flexible ways to automate customer service and deliver measurable outcomes\n\nSAN FRANCISCO, September 1",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Yahoo! Finance",
-        "url": "https://finance.yahoo.com/technology/ai/articles/salesforce-completes-acquisition-fin-130000261.html"
-      },
-      {
-        "name": "OpenAI Hugging Face hack keeps getting ‘more crazy and sci-f",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Two new reports reveal that much of what the public was initially told about the OpenAI–Hugging Face hack was wrong. An AI researcher says the fuller picture is",
-        "description": "Two new reports reveal that much of what the public was initially told about the OpenAI–Hugging Face hack was wrong. An AI researcher says the fuller picture is even more alarming.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.kold.com/2026/09/10/openai-hugging-face-hack-keeps-getting-more-crazy-sci-fi/"
-      },
-      {
-        "name": "Muse Rock Band Forced to Change Social Media Username for Me",
-        "provider": "ProPakistani",
-        "type": "AI 项目/工具",
-        "bestFor": "Meta's newly launched Muse AI agent is now using social media usernames that were previously associated with the English rock band Muse, raising fresh questions",
-        "description": "Meta's newly launched Muse AI agent is now using social media usernames that were previously associated with the English rock band Muse, raising fresh questions about how major pla",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "ProPakistani",
-        "url": "https://propakistani.pk/?p=1079241"
       }
     ],
     "ai-models": [
+      {
+        "name": "From Hacks to Bioweapons, Claude Misuse Is Now Everywhere",
+        "provider": "Wired",
+        "type": "AI 项目/工具",
+        "bestFor": "Editor's note: After more than a decade, this is the last WIRED Security News This Week. \"The roundup,\" as we call it internally, started as a way to ensure tha",
+        "description": "Editor's note: After more than a decade, this is the last WIRED Security News This Week. \"The roundup,\" as we call it internally, started as a way to ensure that our readers knew a",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Wired",
+        "url": "https://www.wired.com/story/security-news-this-week-from-hacks-to-bioweapons-claude-misuse-is-now-everywhere/"
+      },
       {
         "name": "OpenRouter 推出有状态 Shell 工具 `openrouter：shell` 并上线 Files API",
         "provider": "X：OpenRouter (@OpenRouter)",
@@ -6879,17 +6890,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "CnEVPost",
         "url": "https://cnevpost.com/2026/09/08/bmw-neue-klasse-ix3-filing/"
-      },
-      {
-        "name": "11th Airborne Division uses AI to increase lethality during ",
-        "provider": "www.army.mil",
-        "type": "AI 项目/工具",
-        "bestFor": "NORTHERN HOKKAIDO, Japan -- Soldiers from the 11th Airborne Division employed artificial intelligence enabled tools across the battlefield during Yama Sakura 91",
-        "description": "NORTHERN HOKKAIDO, Japan -- Soldiers from the 11th Airborne Division employed artificial intelligence enabled tools across the battlefield during Yama Sakura 91, a trilateral exerc",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "www.army.mil",
-        "url": "https://www.army.mil/article/295198/11th_airborne_division_uses_ai_to_increase_lethality_during_yama_sakura_91"
       }
     ],
     "ai-business": [
@@ -10241,7 +10241,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-12",
-    "generatedAt": "2026-09-12T11:56:07.401206Z",
+    "generatedAt": "2026-09-12T14:30:47.034002Z",
     "total": 19,
     "sections": [
       {
