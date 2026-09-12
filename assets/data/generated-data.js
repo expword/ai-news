@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-12",
-  "generatedAt": "2026-09-12T02:09:23.147043Z",
+  "generatedAt": "2026-09-12T04:32:56.911996Z",
   "news": [
     {
       "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
@@ -2475,60 +2475,6 @@ window.AI_GENERATED_DATA = {
       "sourceDate": "2026-09-07",
       "tags": [],
       "url": "https://arxiv.org/abs/2609.04325",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Joint Alignment and Distillation for Video Generation via Sample-Guided Distribution Matching",
-      "summary": "arXiv:2609.04283v1 Announce Type: new Abstract: Aligning video generative models to human preferences heavily relies on Reinforcement Learning (RL), which suffers from extensive co",
-      "category": "ai-image-video",
-      "source": "RSS · arXiv cs.CV",
-      "date": "2026-09-07",
-      "publishedAt": "",
-      "collectedAt": "2026-09-08T11:14",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-07",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2609.04283",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Supporting independent journalism in Ukraine",
-      "summary": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.",
-      "category": "ai-models",
-      "source": "RSS · OpenAI Blog",
-      "date": "2026-09-07",
-      "publishedAt": "2026-09-07T08:00",
-      "collectedAt": "2026-09-07T18:00",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -6505,6 +6451,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-models": [
       {
+        "name": "This Is the Biggest 2D Map of the Universe. Here's How to Us",
+        "provider": "CNET",
+        "type": "AI 项目/工具",
+        "bestFor": "Scientists have pointed telescopes at the sky and mapped the cosmos for centuries. That relentless pursuit is producing maps that are bigger and more detailed t",
+        "description": "Scientists have pointed telescopes at the sky and mapped the cosmos for centuries. That relentless pursuit is producing maps that are bigger and more detailed than ever. But there'",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "CNET",
+        "url": "https://www.cnet.com/science/biggest-2d-map-of-universe-how-to-use-dr11-2/"
+      },
+      {
         "name": "Meta's $18 Billion Settlement Could Be the Green Light for a",
         "provider": "Yahoo! Finance",
         "type": "AI 项目/工具",
@@ -6932,20 +6889,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "TWiT.tv",
         "url": "https://twit.tv/shows/intelligent-machines/episodes/887"
-      },
-      {
-        "name": "Early Apple Siri AI Can't Read Gmail or WhatsApp Messages | ",
-        "provider": "PYMNTS.com",
-        "type": "AI 项目/工具",
-        "bestFor": "Without access, Siri AI cannot perform tasks such as finding messages within those apps, according to the report, which was based on an early version available ",
-        "description": "Without access, Siri AI cannot perform tasks such as finding messages within those apps, according to the report, which was based on an early version available to app developers.\n\n",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "PYMNTS.com",
-        "url": "https://www.pymnts.com/apple/2026/early-apple-siri-ai-cant-read-gmail-or-whatsapp-messages/"
       }
     ],
     "ai-business": [
+      {
+        "name": "Meta's Muse Reached No. 2 on App Store, Trusting It Is the R",
+        "provider": "International Business Times, Singapore Edition",
+        "type": "AI 项目/工具",
+        "bestFor": "Meta's Muse reached No. 2 on the U.S. App Store within two days of launch, recording more than 83,000 U.S.\n\nMeta's Muse reached No. 2 on the U.S. App Store with",
+        "description": "Meta's Muse reached No. 2 on the U.S. App Store within two days of launch, recording more than 83,000 U.S.\n\nMeta's Muse reached No. 2 on the U.S. App Store within two days of launc",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "International Business Times, Singapore Edition",
+        "url": "https://www.ibtimes.sg/metas-muse-reached-no-2-app-store-trusting-it-real-test-93677"
+      },
       {
         "name": "AI boom faces a reality check as OpenAI, Anthropic head for ",
         "provider": "India Today",
@@ -7374,17 +7331,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Sri Lanka Source",
         "url": "https://www.srilankasource.com/news/279283280/razorpay-launches-a-conversational-ai-account-manager-ray-on-whatsapp-for-businesses-in-partnership-with-indusind-bank"
-      },
-      {
-        "name": "Razorpay Launches a Conversational AI Account Manager 'RAY' ",
-        "provider": "The Cambodia News",
-        "type": "AI 项目/工具",
-        "bestFor": "NewsVoir\n\nBangalore (Karnataka) [India], September 3: Razorpay, India's Omnichannel Payments Platform for Businesses, today launched RAY, an AI Account Manager ",
-        "description": "NewsVoir\n\nBangalore (Karnataka) [India], September 3: Razorpay, India's Omnichannel Payments Platform for Businesses, today launched RAY, an AI Account Manager on WhatsApp, in part",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Cambodia News",
-        "url": "https://www.thecambodianews.net/news/279283280/razorpay-launches-a-conversational-ai-account-manager-ray-on-whatsapp-for-businesses-in-partnership-with-indusind-bank"
       }
     ],
     "ai-benchmark": [
@@ -8448,6 +8394,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-research": [
       {
+        "name": "Britons Back AI Tools to Help GPs Spot Skin Cancer, Nationwi",
+        "provider": "Scienmag",
+        "type": "AI 项目/工具",
+        "bestFor": "Artificial intelligence is steadily moving from the research laboratory into the GP surgery, and one of its most promising applications lies in the early detect",
+        "description": "Artificial intelligence is steadily moving from the research laboratory into the GP surgery, and one of its most promising applications lies in the early detection of skin cancer. ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Scienmag: Latest Science and Health News",
+        "url": "https://scienmag.com/britons-back-ai-tools-to-help-gps-spot-skin-cancer-nationwide-survey-finds/"
+      },
+      {
         "name": "DiscoSign: Discourse-Aware Text to Sign Language Gloss Trans",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -8875,17 +8832,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2608.23503v1"
-      },
-      {
-        "name": "Multilingual Knowledge Transfer under Data Constraints via L",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Cross-lingual knowledge transfer is critical for building high-performing multilingual language models for languages with insufficient training data. When targe",
-        "description": "Cross-lingual knowledge transfer is critical for building high-performing multilingual language models for languages with insufficient training data. When target language data is s",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · Apple ML Research",
-        "url": "https://machinelearning.apple.com/research/multilingual-knowledge-transfer-lexical-interventions"
       }
     ],
     "ai-office": []
@@ -10294,7 +10240,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-12",
-    "generatedAt": "2026-09-12T02:09:23.122033Z",
+    "generatedAt": "2026-09-12T04:32:56.890962Z",
     "total": 17,
     "sections": [
       {
