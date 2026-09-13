@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-13",
-  "generatedAt": "2026-09-13T13:37:58.589811Z",
+  "lastUpdated": "2026-09-14",
+  "generatedAt": "2026-09-13T16:09:54.093624Z",
   "news": [
     {
       "title": "Dario Amodei 发文呼吁 AI 行业放慢前沿速度并公布三步计划",
@@ -6452,6 +6452,61 @@
     ],
     "ai-models": [
       {
+        "name": "I used Gemini to scan and organize 400 physical games to avo",
+        "provider": "Android Police",
+        "type": "AI 项目/工具",
+        "bestFor": "Akshay Bhalla was the former game guides editor for Screen Rant and the technology editor at MensXP. He has previously written about smartphones, apps, streamin",
+        "description": "Akshay Bhalla was the former game guides editor for Screen Rant and the technology editor at MensXP. He has previously written about smartphones, apps, streaming, gadgets, and game",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Android Police",
+        "url": "https://www.androidpolice.com/gemini-scan-organize-physical-games/"
+      },
+      {
+        "name": "5 Reasons Why Users Ditch Claude - BGR",
+        "provider": "BGR",
+        "type": "AI 项目/工具",
+        "bestFor": "Anthropic's Claude is one of the main AI tools customers use for everyday tasks. While compared to OpenAI's ChatGPT and Google Gemini, Claude has a great advant",
+        "description": "Anthropic's Claude is one of the main AI tools customers use for everyday tasks. While compared to OpenAI's ChatGPT and Google Gemini, Claude has a great advantage in text generati",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "BGR",
+        "url": "https://www.bgr.com/2252333/reasons-users-ditching-claude/"
+      },
+      {
+        "name": "Anthropic secures $517B in AI compute deals with Amazon, Goo",
+        "provider": "Crypto Briefing",
+        "type": "AI 项目/工具",
+        "bestFor": "Logo via Wikimedia Commons; treatment-A cover, license to verify on approval\n\nAnthropic, known for its Claude AI, has secured up to $517 billion in compute deal",
+        "description": "Logo via Wikimedia Commons; treatment-A cover, license to verify on approval\n\nAnthropic, known for its Claude AI, has secured up to $517 billion in compute deals for AI infrastruct",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Crypto Briefing",
+        "url": "https://cryptobriefing.com/anthropic-secures-517b-in-ai-compute-deals-with-amazon-google-over-10-years/"
+      },
+      {
+        "name": "Fake Bangladeshi expatriate persona found in AI surveillance",
+        "provider": "The Daily Star",
+        "type": "AI 项目/工具",
+        "bestFor": "An AI-assisted surveillance operation prepared a fake online identity appearing to represent a Bangladeshi expatriate in Sharjah, according to findings publishe",
+        "description": "An AI-assisted surveillance operation prepared a fake online identity appearing to represent a Bangladeshi expatriate in Sharjah, according to findings published by Anthropic. The ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Daily Star",
+        "url": "https://www.thedailystar.net/news/technology/news/fake-bangladeshi-expatriate-persona-found-ai-surveillance-operation-4271851"
+      },
+      {
+        "name": "House Speaker Mike Johnson calls for meeting with AI leaders",
+        "provider": "Crypto Briefing",
+        "type": "AI 项目/工具",
+        "bestFor": "Johnson resists Democratic pressure to cut recess short for AI regulation, preferring industry consultation over rapid lawmaking\n\nWhile Democratic lawmakers are",
+        "description": "Johnson resists Democratic pressure to cut recess short for AI regulation, preferring industry consultation over rapid lawmaking\n\nWhile Democratic lawmakers are sounding alarms abo",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Crypto Briefing",
+        "url": "https://cryptobriefing.com/johnson-ai-leaders-meeting-before-legislation/"
+      },
+      {
         "name": "Google Gemini Just Leveled-Up With A New App For Windows",
         "provider": "HotHardware",
         "type": "AI 项目/工具",
@@ -6835,64 +6890,42 @@
         "watch": "请打开原始来源核对",
         "sourceName": "PC Mag Middle East",
         "url": "https://me.pcmag.com/en/ai/38011/the-a20-pro-chip-is-apples-high-stakes-hardware-pivot-to-own-on-device-ai"
-      },
-      {
-        "name": "John Ternus: Apple's New CEO, Hardware Architect, Product Pe",
-        "provider": "bbntimes.com",
-        "type": "AI 项目/工具",
-        "bestFor": "John Ternus is the Chief Executive Officer of Apple Inc., having assumed the role on September 1, 2026, after 25 years leading the company's hardware engineerin",
-        "description": "John Ternus is the Chief Executive Officer of Apple Inc., having assumed the role on September 1, 2026, after 25 years leading the company's hardware engineering organization.\n\nHe ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "bbntimes.com",
-        "url": "https://www.bbntimes.com/technology/john-ternus-apple-s-new-ceo-hardware-architect-product-perfectionist-and-successor-to-tim-cook"
-      },
-      {
-        "name": "Block AI from tracking your phone? There's an app for that",
-        "provider": "NewsNation",
-        "type": "AI 项目/工具",
-        "bestFor": "(NewsNation) -- A subscription app developed by former intelligence professionals is offering civilians some spy-quality anonymity to keep AI-powered data track",
-        "description": "(NewsNation) -- A subscription app developed by former intelligence professionals is offering civilians some spy-quality anonymity to keep AI-powered data trackers at bay.\n\nEx-Navy",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsNation",
-        "url": "https://www.newsnationnow.com/vargasreports/ai-tracking-blocked-with-privacy-app/"
-      },
-      {
-        "name": "Can Zendesk Cut Multilingual Contact Center Costs With AI?",
-        "provider": "CX Today",
-        "type": "AI 项目/工具",
-        "bestFor": "The vendor's new voice translation tool promises broader coverage, but latency and escalation limits remain significant questions\n\nZendesk has announced Real-Ti",
-        "description": "The vendor's new voice translation tool promises broader coverage, but latency and escalation limits remain significant questions\n\nZendesk has announced Real-Time Voice Translation",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "CX Today",
-        "url": "https://www.cxtoday.com/contact-center/zendesk-real-time-voice-translation-contact-center/"
-      },
-      {
-        "name": "Amazon Quick is now generally available on desktop",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Your teams get an AI assistant that handles real work while your data stays in your environment and your conversations stay private Today, the Amazon Quick desk",
-        "description": "Your teams get an AI assistant that handles real work while your data stays in your environment and your conversations stay private Today, the Amazon Quick desktop application is g",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/amazon-quick-is-now-generally-available-on-desktop/"
-      },
-      {
-        "name": "OpenAI 在 API 中推出全双工语音模型 GPT-Live-1",
-        "provider": "OpenAI：官网动态（RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenAI 在 API 中发布语音模型 GPT-Live-1，可同时听和说，支持将推理和工具调用委派给 GPT-6 Astra 等后端模型，前端语音层定价为每分钟 $0.05。",
-        "description": "OpenAI 在 API 中发布语音模型 GPT-Live-1，可同时听和说，支持将推理和工具调用委派给 GPT-6 Astra 等后端模型，前端语音层定价为每分钟 $0.05。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-        "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api"
       }
     ],
     "ai-business": [
+      {
+        "name": "Broadcom CEO Hock Tan Says Demand Already Exceeds Broadcom's",
+        "provider": "The Motley Fool",
+        "type": "AI 项目/工具",
+        "bestFor": "Broadcom (AVGO +0.32%) has emerged as an important AI processor company, albeit in a niche space. The company sells a variety of processors, but its application",
+        "description": "Broadcom (AVGO +0.32%) has emerged as an important AI processor company, albeit in a niche space. The company sells a variety of processors, but its application-specific integrated",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Motley Fool",
+        "url": "https://www.fool.com/investing/2026/09/13/broadcom-ceo-hock-tan-says-demand-already-exceeds/"
+      },
+      {
+        "name": "Broadcom CEO Hock Tan Says Demand Already Exceeds Broadcom's",
+        "provider": "Aol",
+        "type": "AI 项目/工具",
+        "bestFor": "Broadcom (NASDAQ: AVGO) has emerged as an important AI processor company, albeit in a niche space. The company sells a variety of processors, but its applicatio",
+        "description": "Broadcom (NASDAQ: AVGO) has emerged as an important AI processor company, albeit in a niche space. The company sells a variety of processors, but its application-specific integrate",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Aol",
+        "url": "https://www.aol.com/articles/broadcom-ceo-hock-tan-says-132000000.html"
+      },
+      {
+        "name": "Broadcom CEO Hock Tan Says Demand Already Exceeds Broadcom's",
+        "provider": "NASDAQ Stock Market",
+        "type": "AI 项目/工具",
+        "bestFor": "Broadcom (NASDAQ: AVGO) has emerged as an important AI processor company, albeit in a niche space. The company sells a variety of processors, but its applicatio",
+        "description": "Broadcom (NASDAQ: AVGO) has emerged as an important AI processor company, albeit in a niche space. The company sells a variety of processors, but its application-specific integrate",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NASDAQ Stock Market",
+        "url": "https://www.nasdaq.com/articles/broadcom-ceo-hock-tan-says-demand-already-exceeds-broadcoms-115-billion-ai-forecast-heres"
+      },
       {
         "name": "Apple's AED 8,499 iPhone Duo Puts UAE Consumers' Appetite fo",
         "provider": "Al Bawaba",
@@ -7299,39 +7332,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "InfotechLead",
         "url": "https://infotechlead.com/tech/vc-funding-deals-saviynt-diffraqtion-molten-salt-solutions-98177"
-      },
-      {
-        "name": "OpenAI 发布 GPT-6 Astra，ARC-AGI 3 得分 99.9%",
-        "provider": "Simon Willison 博客",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenAI 的 GPT-6 Astra 今日起向部分组织推出，随后面向 ChatGPT Plus、Pro、Business、Enterprise 用户开放，API 定价为每百万输入 $10、每百万输出 $50，与 Claude Fable 5/5.1 持平。",
-        "description": "OpenAI 的 GPT-6 Astra 今日起向部分组织推出，随后面向 ChatGPT Plus、Pro、Business、Enterprise 用户开放，API 定价为每百万输入 $10、每百万输出 $50，与 Claude Fable 5/5.1 持平。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Simon Willison 博客",
-        "url": "https://simonwillison.net/2026/Sep/3/gpt6-astra"
-      },
-      {
-        "name": "OpenAI 发布 GPT-6 Astra，先向受限网络安全客户开放",
-        "provider": "X：Rohan Paul (@rohanpaul_ai)",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenAI 发布 GPT-6 Astra，首先向经过审核的 Daybreak 网络安全客户开放，Plus、Pro、Business、Enterprise、API 和 AWS 将在未来数日内跟进。",
-        "description": "OpenAI 发布 GPT-6 Astra，首先向经过审核的 Daybreak 网络安全客户开放，Plus、Pro、Business、Enterprise、API 和 AWS 将在未来数日内跟进。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "X：Rohan Paul (@rohanpaul_ai)",
-        "url": "https://x.com/rohanpaul_ai/status/2095586785455948112"
-      },
-      {
-        "name": "OpenAI 发布新模型 Astra，主打计算机与浏览器操作但因 opaque recurrence 引发争议",
-        "provider": "TechCrunch：AI（RSS）",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenAI 发布最新模型 Astra，称其为迄今最强大模型，主打计算机和浏览器操作，先面向 Daybreak 网络安全计划客户开放，随后一周内覆盖 Pro、Plus、Enterprise、Business 付费账户及 API。",
-        "description": "OpenAI 发布最新模型 Astra，称其为迄今最强大模型，主打计算机和浏览器操作，先面向 Daybreak 网络安全计划客户开放，随后一周内覆盖 Pro、Plus、Enterprise、Business 付费账户及 API。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "TechCrunch：AI（RSS）",
-        "url": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model"
       }
     ],
     "ai-benchmark": [
@@ -10240,8 +10240,8 @@
     }
   ],
   "dailyReport": {
-    "date": "2026-09-13",
-    "generatedAt": "2026-09-13T13:37:58.566778Z",
+    "date": "2026-09-14",
+    "generatedAt": "2026-09-13T16:09:54.071391Z",
     "total": 24,
     "sections": [
       {
@@ -21722,6 +21722,18 @@
     ]
   },
   "benchmarkDatasets": [
+    {
+      "name": "energy-vault-scaled-gravity-storage-the-battery-benchmark",
+      "area": "检索 / Embedding",
+      "note": "Energy Vault's Rudong gravity-storage installation in China represents a significant engineering achievement in demonstrating utility-scale block storage technology. The 25 MW faci",
+      "source": "https://rocketnews.com/2026/09/energy-vault-scaled-gravity-storage-the-battery-benchmark-is-brutal-2/",
+      "sourceName": "RocketNews | Top News Stories From Around the Globe",
+      "date": "2026-09-13",
+      "originTitle": "Energy Vault Scaled Gravity Storage. The Battery Benchmark Is Brutal.",
+      "evaluates": [],
+      "useCases": [],
+      "limitations": []
+    },
     {
       "name": "RAG-Safety-Bench",
       "area": "检索 / Embedding",
