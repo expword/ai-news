@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-13",
-  "generatedAt": "2026-09-12T21:40:29.253236Z",
+  "generatedAt": "2026-09-13T00:00:34.041181Z",
   "news": [
     {
       "title": "Dario Amodei 发文呼吁 AI 行业放慢前沿速度并公布三步计划",
@@ -6479,6 +6479,17 @@
     ],
     "ai-models": [
       {
+        "name": "OpenAI 将 GPT-Live-1 语音模型开放至 API",
+        "provider": "X：OpenAI Developers (@OpenAIDevs)",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenAI 宣布 GPT-Live-1 正式登陆 API，即 1-800-ChatGPT 背后的语音能力。开发者可把它接入应用，获得边说边听的自然对话语音智能体，并搭配自选的模型与 harness 使用。",
+        "description": "OpenAI 宣布 GPT-Live-1 正式登陆 API，即 1-800-ChatGPT 背后的语音能力。开发者可把它接入应用，获得边说边听的自然对话语音智能体，并搭配自选的模型与 harness 使用。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "X：OpenAI Developers (@OpenAIDevs)",
+        "url": "https://x.com/OpenAIDevs/status/2098913661993603215"
+      },
+      {
         "name": "5 AI Workflow Automation Apps To Help Professionals Work Sma",
         "provider": "Analytics Insight",
         "type": "AI 项目/工具",
@@ -6906,17 +6917,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Apple：Newsroom（RSS）",
         "url": "https://www.apple.com/newsroom/2026/09/apple-advances-health-and-fitness-capabilities-using-apple-intelligence"
-      },
-      {
-        "name": "iOS 27 Features: Top Changes, Compatible iPhones, Key Update",
-        "provider": "Analytics Insight",
-        "type": "AI 项目/工具",
-        "bestFor": "The update follows its preview at WWDC 2026 and introduces several changes to improve everyday iPhone use.\n\nApple's iOS 27 update brings a redesigned Liquid Gla",
-        "description": "The update follows its preview at WWDC 2026 and introduces several changes to improve everyday iPhone use.\n\nApple's iOS 27 update brings a redesigned Liquid Glass experience, a rev",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Analytics Insight",
-        "url": "https://www.analyticsinsight.net/news/ios-27-features-top-changes-compatible-iphones-key-updates"
       }
     ],
     "ai-business": [
@@ -10268,7 +10268,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-13",
-    "generatedAt": "2026-09-12T21:40:29.229266Z",
+    "generatedAt": "2026-09-13T00:00:34.017188Z",
     "total": 24,
     "sections": [
       {
