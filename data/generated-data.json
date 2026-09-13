@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-13",
-  "generatedAt": "2026-09-13T07:14:51.794046Z",
+  "generatedAt": "2026-09-13T11:00:24.224488Z",
   "news": [
     {
       "title": "Dario Amodei 发文呼吁 AI 行业放慢前沿速度并公布三步计划",
@@ -6010,6 +6010,72 @@
     ],
     "ai-agents": [
       {
+        "name": "SpaceXAI Team Launches 72-Hour Startup Challenge Powered by ",
+        "provider": "Blockonomi",
+        "type": "AI 项目/工具",
+        "bestFor": "* A trio of SpaceXAI engineers will livestream an ambitious 72-hour challenge to create a complete startup using autonomous AI agents\n\n* Grok Bot Galaxy takes p",
+        "description": "* A trio of SpaceXAI engineers will livestream an ambitious 72-hour challenge to create a complete startup using autonomous AI agents\n\n* Grok Bot Galaxy takes place September 15-17",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Blockonomi",
+        "url": "https://blockonomi.com/spacexai-team-launches-72-hour-startup-challenge-powered-by-grok-bot-ai-agents/"
+      },
+      {
+        "name": "Generative AI Jobs in 2026: AI Engineers, Agentic AI Roles a",
+        "provider": "InfotechLead",
+        "type": "AI 项目/工具",
+        "bestFor": "Generative AI is reshaping the global employment market in 2026, creating new jobs in AI engineering, agentic AI, enterprise implementation, model evaluation, d",
+        "description": "Generative AI is reshaping the global employment market in 2026, creating new jobs in AI engineering, agentic AI, enterprise implementation, model evaluation, data governance and A",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "InfotechLead",
+        "url": "https://infotechlead.com/artificial-intelligence/generative-ai-jobs-in-2026-ai-engineers-agentic-ai-roles-and-salaries-in-demand-98309"
+      },
+      {
+        "name": "5 big analyst AI moves: JPMorgan upgrades Meta, names KLA to",
+        "provider": "Investing.com",
+        "type": "AI 项目/工具",
+        "bestFor": "Investing.com -- Here are the biggest analyst moves in the area of artificial intelligence (AI) for this week.\n\nJPMorgan upgrades Meta to Overweight on AI agent",
+        "description": "Investing.com -- Here are the biggest analyst moves in the area of artificial intelligence (AI) for this week.\n\nJPMorgan upgrades Meta to Overweight on AI agent opportunity\n\nJPMorg",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Investing.com",
+        "url": "https://www.investing.com/news/stock-market-news/5-big-analyst-ai-moves-jpmorgan-upgrades-meta-names-kla-top-chip-equipment-stock-4898673"
+      },
+      {
+        "name": "Blackwell vs Rubin: NVIDIA's AI GPU Battle Moves Into the Ag",
+        "provider": "InfotechLead",
+        "type": "AI 项目/工具",
+        "bestFor": "NVIDIA's Blackwell and Vera Rubin platforms represent two different stages of the AI infrastructure market. Blackwell has become a production platform for train",
+        "description": "NVIDIA's Blackwell and Vera Rubin platforms represent two different stages of the AI infrastructure market. Blackwell has become a production platform for training, inference and r",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "InfotechLead",
+        "url": "https://infotechlead.com/?p=98306"
+      },
+      {
+        "name": "AI is upending the hiring process",
+        "provider": "Morning Brew",
+        "type": "AI 项目/工具",
+        "bestFor": "Need a new job? Just use AI to polish up your résumé, submit an application to an AI-powered tracking system, interview with an AI agent, and then pass an AI ba",
+        "description": "Need a new job? Just use AI to polish up your résumé, submit an application to an AI-powered tracking system, interview with an AI agent, and then pass an AI background check.\n\nApp",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Morning Brew",
+        "url": "https://www.morningbrew.com/stories/ai-is-upending-the-hiring-process"
+      },
+      {
+        "name": "AI Agent Learning: Governing What Becomes Permanent",
+        "provider": "Digital Thought Disruption",
+        "type": "AI 项目/工具",
+        "bestFor": "AI agent learning needs a boundary between using feedback now and changing future behavior. Preserve operational evidence without automatically turning it into ",
+        "description": "AI agent learning needs a boundary between using feedback now and changing future behavior. Preserve operational evidence without automatically turning it into trusted memory, proc",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Digital Thought Disruption",
+        "url": "https://digitalthoughtdisruption.com/2026/09/13/ai-agent-learning-memory-governance/"
+      },
+      {
         "name": "Agent 长任务上下文工程解析：用预算控制、压缩、todo-state 和记忆对抗上下文溢出与目标丢失",
         "provider": "MarkTechPost（RSS）",
         "type": "AI 项目/工具",
@@ -6382,75 +6448,42 @@
         "watch": "请打开原始来源核对",
         "sourceName": "The Tribune",
         "url": "https://www.tribuneindia.com/news/business/meet-payu-agent-hq-merchants-own-ai-agents-team-built-to-power-their-agentic-commerce-journey-end-to-end/"
-      },
-      {
-        "name": "Mark Zuckerberg's Meta Is Charging Consumers for a Personal ",
-        "provider": "The Motley Fool",
-        "type": "AI 项目/工具",
-        "bestFor": "Meta Platforms (META -1.42%) launched Muse on Sept. 8 -- a personal artificial intelligence (AI) agent that can send emails, book travel, fill out forms, and ne",
-        "description": "Meta Platforms (META -1.42%) launched Muse on Sept. 8 -- a personal artificial intelligence (AI) agent that can send emails, book travel, fill out forms, and negotiate on your beha",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Motley Fool",
-        "url": "https://www.fool.com/investing/2026/09/11/mark-zuckerberg-s-meta-is-charging-consumers-for-a-personal-ai-agent-for-the-first-time-here-s-what-usd20-and-usd100-a-month-could-add-to-revenue/"
-      },
-      {
-        "name": "THINKCAR's Tyler AI Agent: Designed to Work Alongside Techni",
-        "provider": "mykxlg.com",
-        "type": "AI 项目/工具",
-        "bestFor": "Inside the R&D story behind Tyler, the diagnostic agent on the THINKCAR T394 AI, and what a veteran tech and a rookie say after putting it to work.\n\nNewyork,USA",
-        "description": "Inside the R&D story behind Tyler, the diagnostic agent on the THINKCAR T394 AI, and what a veteran tech and a rookie say after putting it to work.\n\nNewyork,USA-September 10, 2026 ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "mykxlg.com",
-        "url": "https://www.mykxlg.com/online_features/press_releases/thinkcar-s-tyler-ai-agent-designed-to-work-alongside-technicians-not-replace-them/article_dba07ddc-2041-5eed-8040-2d3b7daf751c.html"
-      },
-      {
-        "name": "Ant International's Agentic Mobile Protocol Rolls Out Global",
-        "provider": "Leader-Post",
-        "type": "AI 项目/工具",
-        "bestFor": "With payment leaders accelerating adoption, the Alipay+ ecosystem -- with 50+ mobile payment partners, over 10 national QR schemes and serving over 2 billion co",
-        "description": "With payment leaders accelerating adoption, the Alipay+ ecosystem -- with 50+ mobile payment partners, over 10 national QR schemes and serving over 2 billion consumer accounts -- i",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Leader-Post",
-        "url": "https://leaderpost.com/press-releases/business-wire/ant-internationals-agentic-mobile-protocol-rolls-out-globally-with-wallets-and-acquirers-initiating-collaboration-on-kya-interoperability-framework-with-mastercard-and-visa/"
-      },
-      {
-        "name": "Ant International's Agentic Mobile Protocol Rolls Out Global",
-        "provider": "Brockville Recorder & Times",
-        "type": "AI 项目/工具",
-        "bestFor": "With payment leaders accelerating adoption, the Alipay+ ecosystem -- with 50+ mobile payment partners, over 10 national QR schemes and serving over 2 billion co",
-        "description": "With payment leaders accelerating adoption, the Alipay+ ecosystem -- with 50+ mobile payment partners, over 10 national QR schemes and serving over 2 billion consumer accounts -- i",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Brockville Recorder & Times",
-        "url": "https://www.recorder.ca/press-releases/business-wire/ant-internationals-agentic-mobile-protocol-rolls-out-globally-with-wallets-and-acquirers-initiating-collaboration-on-kya-interoperability-framework-with-mastercard-and-visa/"
-      },
-      {
-        "name": "THINKCAR's Tyler AI Agent: Designed to Work Alongside Techni",
-        "provider": "WBOC TV-16",
-        "type": "AI 项目/工具",
-        "bestFor": "Inside the R&D story behind Tyler, the diagnostic agent on the THINKCAR T394 AI, and what a veteran tech and a rookie say after putting it to work.\n\nNewyork,USA",
-        "description": "Inside the R&D story behind Tyler, the diagnostic agent on the THINKCAR T394 AI, and what a veteran tech and a rookie say after putting it to work.\n\nNewyork,USA-September 10, 2026 ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "WBOC TV-16",
-        "url": "https://www.wboc.com/online_features/press_releases/thinkcar-s-tyler-ai-agent-designed-to-work-alongside-technicians-not-replace-them/article_c8fa73cf-d3fc-5af3-9a07-8eee5c8357dd.html"
-      },
-      {
-        "name": "LivePerson Conversational Cloud Says AI Agent Testing Is 60%",
-        "provider": "CX Today",
-        "type": "AI 项目/工具",
-        "bestFor": "LivePerson's 2026 roadmap is really about filling the gaps that appear once conversational AI has to survive an actual customer journey. Syntrix tests behavior ",
-        "description": "LivePerson's 2026 roadmap is really about filling the gaps that appear once conversational AI has to survive an actual customer journey. Syntrix tests behavior before customers run",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "CX Today",
-        "url": "https://www.cxtoday.com/customer-engagement-journey-orchestration/liveperson-conversational-cloud/"
       }
     ],
     "ai-models": [
+      {
+        "name": "5 Ways Anthropic Says AI Is Already Powering Dangerous Opera",
+        "provider": "TimesNow",
+        "type": "AI 项目/工具",
+        "bestFor": "Claude was also reportedly used to help an operator communicate in Syrian Arabic. The AI helped translate messages and suggested ways to approach people based o",
+        "description": "Claude was also reportedly used to help an operator communicate in Syrian Arabic. The AI helped translate messages and suggested ways to approach people based on issues such as fin",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "TimesNow",
+        "url": "https://www.timesnownews.com/technology-science/5-ways-anthropic-says-ai-is-already-powering-dangerous-operations-article-156149979"
+      },
+      {
+        "name": "Anthropic CEO Dario Amodei Urges AI Industry to Slow Develop",
+        "provider": "The Khaama Press News Agency",
+        "type": "AI 项目/工具",
+        "bestFor": "Fidai Rahmati is the editor and content writer for Khaama Press. You may follow him at Twitter @FidelRahmati\n\nAnthropic Chief Executive Dario Amodei has urged l",
+        "description": "Fidai Rahmati is the editor and content writer for Khaama Press. You may follow him at Twitter @FidelRahmati\n\nAnthropic Chief Executive Dario Amodei has urged leading artificial in",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Khaama Press News Agency",
+        "url": "https://www.khaama.com/anthropic-ceo-dario-amodei-urges-ai-industry-to-slow-development-over-safety-risks/"
+      },
+      {
+        "name": "Which SaaS Tools Are Enterprises Cutting in 2026? Salesforce",
+        "provider": "InfotechLead",
+        "type": "AI 项目/工具",
+        "bestFor": "Enterprise software spending is facing a new kind of pressure in 2026. CIOs are no longer asking only how much discount they can secure on the next Salesforce o",
+        "description": "Enterprise software spending is facing a new kind of pressure in 2026. CIOs are no longer asking only how much discount they can secure on the next Salesforce or ServiceNow renewal",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "InfotechLead",
+        "url": "https://infotechlead.com/artificial-intelligence/which-saas-tools-are-enterprises-cutting-in-2026-salesforce-and-servicenow-face-ai-cost-pressure-98312"
+      },
       {
         "name": "How 'Terminator 2' Predicted Our AI Anxiety 35 Years Ago",
         "provider": "Yahoo",
@@ -6857,39 +6890,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Nuclear Engineering International",
         "url": "https://www.neimagazine.com/news/google-ppa-boosts-loviisa-life-ex/"
-      },
-      {
-        "name": "Apple unveils foldable iPhone Duo at September event",
-        "provider": "NewsChannel 9",
-        "type": "AI 项目/工具",
-        "bestFor": "(NewsNation) -- New Apple CEO John Ternus unveiled its first foldable iPhone, dubbed the iPhone Duo, which starts at $1,999, at the company's September event We",
-        "description": "(NewsNation) -- New Apple CEO John Ternus unveiled its first foldable iPhone, dubbed the iPhone Duo, which starts at $1,999, at the company's September event Wednesday.\n\nApple said",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsChannel 9",
-        "url": "https://www.localsyr.com/news/local-news/apple-rumored-to-reveal-foldable-iphone-at-september-event/"
-      },
-      {
-        "name": "Can AI be your interior designer? Not quite, but it can act ",
-        "provider": "Boston",
-        "type": "AI 项目/工具",
-        "bestFor": "Eva Barbier was overwhelmed with options while renovating her home office.\n\nThe \"fairly large\" third-floor space of her home in Newton's Waban village needed to",
-        "description": "Eva Barbier was overwhelmed with options while renovating her home office.\n\nThe \"fairly large\" third-floor space of her home in Newton's Waban village needed to serve multiple func",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Boston",
-        "url": "https://www.boston.com/real-estate/home-improvement/2026/09/10/ai-interior-design-chatgpt-google-gemini/"
-      },
-      {
-        "name": "John Ternus Borrowed From Four Apple CEOs In One Keynote, An",
-        "provider": "Gadgets Now",
-        "type": "AI 项目/工具",
-        "bestFor": "John Ternus led Apple's Surprise and Shine keynote on 9 September 2026, his first as chief executive. He echoed Steve Jobs with a turtleneck, a \"one more thing\"",
-        "description": "John Ternus led Apple's Surprise and Shine keynote on 9 September 2026, his first as chief executive. He echoed Steve Jobs with a turtleneck, a \"one more thing\" reveal and a 2007-s",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Gadgets Now",
-        "url": "https://gadgetsnow.indiatimes.com/tech-news/john-ternus-borrowed-from-four-apple-ceos-in-one-keynote-and-only-one-was-jobs/articleshow/134001506.cms"
       }
     ],
     "ai-business": [
@@ -10241,7 +10241,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-13",
-    "generatedAt": "2026-09-13T07:14:51.772278Z",
+    "generatedAt": "2026-09-13T11:00:24.197488Z",
     "total": 24,
     "sections": [
       {
