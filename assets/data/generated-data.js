@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-13",
-  "generatedAt": "2026-09-13T11:00:24.224488Z",
+  "generatedAt": "2026-09-13T13:37:58.589811Z",
   "news": [
     {
       "title": "Dario Amodei 发文呼吁 AI 行业放慢前沿速度并公布三步计划",
@@ -6010,6 +6010,39 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "AI Agents Spending Money Online? New Research Says Not Reall",
+        "provider": "Decrypt",
+        "type": "AI 项目/工具",
+        "bestFor": "Agents accounted for a small share under TRM's models, which cannot conclusively distinguish them from scripts.\n\nMost payment volume on Coinbase's x402 protocol",
+        "description": "Agents accounted for a small share under TRM's models, which cannot conclusively distinguish them from scripts.\n\nMost payment volume on Coinbase's x402 protocol isn't coming from A",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Decrypt",
+        "url": "https://decrypt.co/378103/ai-agents-spending-money-research"
+      },
+      {
+        "name": "Salesforce launches new AI agents to automate sales and supp",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Salesforce launched five AI agents for sales and support teams, including Casey and Fin, which automate returns and product questions using tech from a $3.6 bil",
+        "description": "Salesforce launched five AI agents for sales and support teams, including Casey and Fin, which automate returns and product questions using tech from a $3.6 billion acquisition.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://completeaitraining.com/news/salesforce-launches-new-ai-agents-to-automate-sales-and/"
+      },
+      {
+        "name": "OpenAI summarizes another security incident following its AI",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "AI agents linked to OpenAI would have uploaded malicious packages to RubyGems before the Hugging Face attack.",
+        "description": "AI agents linked to OpenAI would have uploaded malicious packages to RubyGems before the Hugging Face attack.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.news247plus.com/news/world/openai-summarizes-another-security-incident-following-its-ai-agents-attack-on-rubygems-59587"
+      },
+      {
         "name": "SpaceXAI Team Launches 72-Hour Startup Challenge Powered by ",
         "provider": "Blockonomi",
         "type": "AI 项目/工具",
@@ -6415,42 +6448,64 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "TechnoSports",
         "url": "https://technosports.co.in/?p=1444293"
-      },
-      {
-        "name": "BlueSTAR: Tiered Agentic Architecture for Autonomous Cyber D",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Cyber attacks are increasingly automated, narrowing the time available for human analysts to detect, reason about, and respond to intrusions. Large language mod",
-        "description": "Cyber attacks are increasingly automated, narrowing the time available for human analysts to detect, reason about, and respond to intrusions. Large language models (LLMs) offer a p",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2609.11852v1"
-      },
-      {
-        "name": "Meet PayU Agent HQ: Merchants' Own AI Agents Team, Built to ",
-        "provider": "Asian News International (ANI)",
-        "type": "AI 项目/工具",
-        "bestFor": "Mumbai (Maharashtra) [India], September 11: PayU, India's leading diversified fintech platform, announced the launch of its Agent HQ, an AI agent store for Indi",
-        "description": "Mumbai (Maharashtra) [India], September 11: PayU, India's leading diversified fintech platform, announced the launch of its Agent HQ, an AI agent store for Indian SMB merchants, wh",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Asian News International (ANI)",
-        "url": "https://www.aninews.in/news/business/meet-payu-agent-hq-merchants-own-ai-agents-team-built-to-power-their-agentic-commerce-journey-end-to-end20260911101843/"
-      },
-      {
-        "name": "Meet PayU Agent HQ: Merchants Own AI Agents Team, Built to P",
-        "provider": "The Tribune",
-        "type": "AI 项目/工具",
-        "bestFor": "Mumbai (Maharashtra) [India], September 11: PayU, India's leading diversified fintech platform, announced the launch of its Agent HQ, an AI agent store for Indi",
-        "description": "Mumbai (Maharashtra) [India], September 11: PayU, India's leading diversified fintech platform, announced the launch of its Agent HQ, an AI agent store for Indian SMB merchants, wh",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Tribune",
-        "url": "https://www.tribuneindia.com/news/business/meet-payu-agent-hq-merchants-own-ai-agents-team-built-to-power-their-agentic-commerce-journey-end-to-end/"
       }
     ],
     "ai-models": [
+      {
+        "name": "Google Gemini Just Leveled-Up With A New App For Windows",
+        "provider": "HotHardware",
+        "type": "AI 项目/工具",
+        "bestFor": "Google is expanding its desktop footprint by releasing a dedicated Gemini app for Windows 10 and 11, with support for both x86 and Arm. Having already arrived o",
+        "description": "Google is expanding its desktop footprint by releasing a dedicated Gemini app for Windows 10 and 11, with support for both x86 and Arm. Having already arrived on Apple's macOS seve",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "HotHardware",
+        "url": "https://hothardware.com/news/google-gemini-levels-up-new-app-windows"
+      },
+      {
+        "name": "Vulcan Infrastructure And Power Raises $39.4 Million Strateg",
+        "provider": "Pulse 2.0",
+        "type": "AI 项目/工具",
+        "bestFor": "Vulcan Infrastructure and Power has completed an approximately $39.4 million strategic investment from affiliates of Machine Investment Group and Atlas Holdings",
+        "description": "Vulcan Infrastructure and Power has completed an approximately $39.4 million strategic investment from affiliates of Machine Investment Group and Atlas Holdings, along with institu",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Pulse 2.0",
+        "url": "https://pulse2.com/vulcan-infrastructure-and-power-raises-39-4-million-strategic-investment-from-machine-investment-group-atlas-holdings-conversant-capital-and-others/"
+      },
+      {
+        "name": "Cerenome Secures Up To $20 Million Financing Facility From 3",
+        "provider": "Pulse 2.0",
+        "type": "AI 项目/工具",
+        "bestFor": "Cerenome has entered into a financing agreement with 3i, LP for a senior secured facility of up to $20 million with royalty-based repayments, providing addition",
+        "description": "Cerenome has entered into a financing agreement with 3i, LP for a senior secured facility of up to $20 million with royalty-based repayments, providing additional capital for the c",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Pulse 2.0",
+        "url": "https://pulse2.com/cerenome-secures-up-to-20-million-financing-facility-from-3i-fund/"
+      },
+      {
+        "name": "Microsoft Announces Grok Rollout To Copilot Across Office 36",
+        "provider": "NDTV Profit",
+        "type": "AI 项目/工具",
+        "bestFor": "Microsoft CEO Satya Nadella has announced the rollout of Grok, the large language model developed by Elon Musk's artificial intelligence company xAI, to Microso",
+        "description": "Microsoft CEO Satya Nadella has announced the rollout of Grok, the large language model developed by Elon Musk's artificial intelligence company xAI, to Microsoft Copilot, expandin",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NDTV Profit",
+        "url": "https://www.ndtvprofit.com/technology/microsoft-announces-grok-rollout-to-copilot-across-office-365-apps-in-multi-model-push-12040533"
+      },
+      {
+        "name": "Xi Pitches His AI Vision at BRICS Summit as China Duels With",
+        "provider": "Yahoo! Finance",
+        "type": "AI 项目/工具",
+        "bestFor": "(Bloomberg) -- Chinese President Xi Jinping has sought to turn the annual BRICS summit into another platform for championing Beijing's vision for artificial int",
+        "description": "(Bloomberg) -- Chinese President Xi Jinping has sought to turn the annual BRICS summit into another platform for championing Beijing's vision for artificial intelligence, as it vie",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Yahoo! Finance",
+        "url": "https://finance.yahoo.com/technology/ai/articles/xi-pitches-ai-vision-brics-091057118.html"
+      },
       {
         "name": "5 Ways Anthropic Says AI Is Already Powering Dangerous Opera",
         "provider": "TimesNow",
@@ -6835,61 +6890,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
         "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api"
-      },
-      {
-        "name": "3 ways to prep for your next big race with Search",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Search can help runners get race-day ready with registration alerts, tailored training plans, and more.",
-        "description": "Search can help runners get race-day ready with registration alerts, tailored training plans, and more.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · Google AI Blog",
-        "url": "https://blog.google/products-and-platforms/products/search/running-race-training-tips/"
-      },
-      {
-        "name": "Anthropic's new tool explores AI's impact on the US economy",
-        "provider": "NewsBytes",
-        "type": "AI 项目/工具",
-        "bestFor": "Anthropic, the company behind the popular Claude AI assistant, has developed an interactive tool to explore the potential effects of artificial intelligence (AI",
-        "description": "Anthropic, the company behind the popular Claude AI assistant, has developed an interactive tool to explore the potential effects of artificial intelligence (AI) on the US economy.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsBytes",
-        "url": "https://www.newsbytesapp.com/news/science/anthropic-s-new-tool-tests-ai-s-impact-on-us-economy/story"
-      },
-      {
-        "name": "Nithin Kamath runs every post through ChatGPT, Claude: 'My w",
-        "provider": "MoneyControl",
-        "type": "AI 项目/工具",
-        "bestFor": "As artificial intelligence becomes increasingly embedded in everyday work, Nithin Kamath has admitted that nearly everything he writes now passes through tools ",
-        "description": "As artificial intelligence becomes increasingly embedded in everyday work, Nithin Kamath has admitted that nearly everything he writes now passes through tools such as ChatGPT and ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "MoneyControl",
-        "url": "https://www.moneycontrol.com/news/trends/nithin-kamath-runs-every-post-through-chatgpt-claude-my-writing-without-ai-is-getting-worse-14027300.html"
-      },
-      {
-        "name": "The A20 Pro Chip Is Apple's High-Stakes Hardware Pivot to Ow",
-        "provider": "PCMag Australia",
-        "type": "AI 项目/工具",
-        "bestFor": "Another Apple September event is in the books, and this time, most people are excited about Apple's new foldable iPhone Duo, or the kicked-up camera features on",
-        "description": "Another Apple September event is in the books, and this time, most people are excited about Apple's new foldable iPhone Duo, or the kicked-up camera features on the iPhone 18 Pro. ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "PCMag Australia",
-        "url": "https://au.pcmag.com/ai/119817/a20-pro-iphone-chip-explained-apple-event"
-      },
-      {
-        "name": "Google PPA boosts Loviisa life ex - Nuclear Engineering Inte",
-        "provider": "Nuclear Engineering International",
-        "type": "AI 项目/工具",
-        "bestFor": "Alphabet's Google has committed to a €13bn ($15.1bn) investment in Finland - Google's largest single capital deployment in Europe to date. Planned for execution",
-        "description": "Alphabet's Google has committed to a €13bn ($15.1bn) investment in Finland - Google's largest single capital deployment in Europe to date. Planned for execution across 2027 and 202",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Nuclear Engineering International",
-        "url": "https://www.neimagazine.com/news/google-ppa-boosts-loviisa-life-ex/"
       }
     ],
     "ai-business": [
@@ -10241,7 +10241,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-13",
-    "generatedAt": "2026-09-13T11:00:24.197488Z",
+    "generatedAt": "2026-09-13T13:37:58.566778Z",
     "total": 24,
     "sections": [
       {
