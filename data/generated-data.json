@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-13",
-  "generatedAt": "2026-09-13T06:01:03.554113Z",
+  "generatedAt": "2026-09-13T07:14:51.794046Z",
   "news": [
     {
       "title": "Dario Amodei 发文呼吁 AI 行业放慢前沿速度并公布三步计划",
@@ -6010,6 +6010,17 @@
     ],
     "ai-agents": [
       {
+        "name": "Agent 长任务上下文工程解析：用预算控制、压缩、todo-state 和记忆对抗上下文溢出与目标丢失",
+        "provider": "MarkTechPost（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "文章解析 Agent harness 层应对长任务中上下文溢出与目标丢失的四类机制：上下文预算与卸载、压缩、todo-state 复述和跨会话记忆。",
+        "description": "文章解析 Agent harness 层应对长任务中上下文溢出与目标丢失的四类机制：上下文预算与卸载、压缩、todo-state 复述和跨会话记忆。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "MarkTechPost（RSS）",
+        "url": "https://www.marktechpost.com/2026/09/12/context-engineering-inside-the-harness-4-mechanisms-that-beat-context-overflow-and-goal-loss-on-long-horizon-tasks"
+      },
+      {
         "name": "China AI industry shifts from model development to monetizat",
         "provider": "경향신문",
         "type": "AI 项目/工具",
@@ -6437,17 +6448,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "CX Today",
         "url": "https://www.cxtoday.com/customer-engagement-journey-orchestration/liveperson-conversational-cloud/"
-      },
-      {
-        "name": "The Next CX Security Risk May Be the AI Agent You Gave Acces",
-        "provider": "CX Today",
-        "type": "AI 项目/工具",
-        "bestFor": "Anthropic, Concentrix, Zscaler, Proofpoint and OpenAI reveal how AI agents are reshaping enterprise security, access and customer experience risk\n\nEnterprise AI",
-        "description": "Anthropic, Concentrix, Zscaler, Proofpoint and OpenAI reveal how AI agents are reshaping enterprise security, access and customer experience risk\n\nEnterprise AI is gaining access t",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "CX Today",
-        "url": "https://www.cxtoday.com/security-privacy-compliance/ai-agent-security-cx-risk/"
       }
     ],
     "ai-models": [
@@ -7909,6 +7909,17 @@
     ],
     "ai-image-video": [
       {
+        "name": "Ganesh Chaturthi 2026: Best AI prompts to create Ganesh imag",
+        "provider": "MoneyControl",
+        "type": "AI 项目/工具",
+        "bestFor": "Ganesh Chaturthi is almost here, and if you are looking for a different way to celebrate the festival online, AI image generators can help you create personalis",
+        "description": "Ganesh Chaturthi is almost here, and if you are looking for a different way to celebrate the festival online, AI image generators can help you create personalised Lord Ganesha imag",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "MoneyControl",
+        "url": "https://www.moneycontrol.com/technology/ganesh-chaturthi-2026-best-ai-prompts-to-create-ganesh-images-wishes-and-whatsapp-status-article-14028796.html"
+      },
+      {
         "name": "Putting Captions to the Test: Evaluating Video Caption Quali",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -8380,17 +8391,6 @@
         "watch": "可能面临 API 调用限制，影响内容上传和推荐的频率。",
         "sourceName": "NewsAPI:generative AI",
         "url": "https://thenextweb.com/news/snapchat-spotlight-bans-ai-generated-videos-recommendations"
-      },
-      {
-        "name": "MiniMax H3 pairs 2K video with native stereo audio in China'",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "Chinese AI start-up MiniMax launched MiniMax H3 on July 31, expanding its position in multimodal generative AI as competition among China's model developers spr",
-        "description": "Chinese AI start-up MiniMax launched MiniMax H3 on July 31, expanding its position in multimodal generative AI as competition among China's model developers spreads beyond large la",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsAPI:large language model",
-        "url": "https://www.digitimes.com/news/a20260731VL210/stereo-competition-language.html"
       }
     ],
     "ai-research": [
@@ -10241,7 +10241,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-13",
-    "generatedAt": "2026-09-13T06:01:03.531294Z",
+    "generatedAt": "2026-09-13T07:14:51.772278Z",
     "total": 24,
     "sections": [
       {
