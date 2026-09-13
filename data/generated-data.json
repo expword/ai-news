@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-13",
-  "generatedAt": "2026-09-13T03:36:19.266510Z",
+  "generatedAt": "2026-09-13T06:01:03.554113Z",
   "news": [
     {
       "title": "Dario Amodei 发文呼吁 AI 行业放慢前沿速度并公布三步计划",
@@ -6010,6 +6010,28 @@
     ],
     "ai-agents": [
       {
+        "name": "China AI industry shifts from model development to monetizat",
+        "provider": "경향신문",
+        "type": "AI 项目/工具",
+        "bestFor": "Token usage 10 trillion this year→350 trillion by 2030\n\nLogo of OpenKlo, an AI agent that was highly popular in China early this year..\n\nA report says the focus",
+        "description": "Token usage 10 trillion this year→350 trillion by 2030\n\nLogo of OpenKlo, an AI agent that was highly popular in China early this year..\n\nA report says the focus of China AI is shif",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "경향신문",
+        "url": "https://www.khan.co.kr/en/article/202609131417007"
+      },
+      {
+        "name": "Anthropic CEO Calls for AI Development Slowdown to Enhance S",
+        "provider": "조선일보",
+        "type": "AI 项目/工具",
+        "bestFor": "Rival CEOs, including OpenAI's Sam Altman, endorse proposal as AI safety concerns grow\n\nAs concerns over AI-driven cyber threats, such as AI agents hacking exte",
+        "description": "Rival CEOs, including OpenAI's Sam Altman, endorse proposal as AI safety concerns grow\n\nAs concerns over AI-driven cyber threats, such as AI agents hacking external sites beyond te",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "조선일보",
+        "url": "https://www.chosun.com/english/industry-en/2026/09/13/IJJS35RIRVECHBOKG4NP2S65JE/"
+      },
+      {
         "name": "Meta's AI Shopping Push Grows as Agentic Commerce Remains Be",
         "provider": "EconoTimes",
         "type": "AI 项目/工具",
@@ -6426,31 +6448,31 @@
         "watch": "请打开原始来源核对",
         "sourceName": "CX Today",
         "url": "https://www.cxtoday.com/security-privacy-compliance/ai-agent-security-cx-risk/"
-      },
-      {
-        "name": "MegazoneCloud Begins Building Hanmi Pharmaceutical's Quality",
-        "provider": "Taiwan News",
-        "type": "AI 项目/工具",
-        "bestFor": "Fine-tunes the Korean model Solar and deploys it on its own AI platform, AIR Studio, to automate quality-document operations\n\nPart of the MSIT*NIPA 'AX One-Stop",
-        "description": "Fine-tunes the Korean model Solar and deploys it on its own AI platform, AIR Studio, to automate quality-document operations\n\nPart of the MSIT*NIPA 'AX One-Stop Voucher Program'; c",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Taiwan News",
-        "url": "https://taiwannews.com.tw/en/news/6437995"
-      },
-      {
-        "name": "Salesforce introduces Enterprise AI Harness, AI Control Plan",
-        "provider": "SiliconANGLE",
-        "type": "AI 项目/工具",
-        "bestFor": "Salesforce introduces Enterprise AI Harness, AI Control Plane\n\nSalesforce Inc. today previewed two offerings that will help customers build and manage artificia",
-        "description": "Salesforce introduces Enterprise AI Harness, AI Control Plane\n\nSalesforce Inc. today previewed two offerings that will help customers build and manage artificial intelligence agent",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "SiliconANGLE",
-        "url": "https://siliconangle.com/2026/09/10/salesforce-introduces-enterprise-ai-harness-ai-control-plane/"
       }
     ],
     "ai-models": [
+      {
+        "name": "How 'Terminator 2' Predicted Our AI Anxiety 35 Years Ago",
+        "provider": "Yahoo",
+        "type": "AI 项目/工具",
+        "bestFor": "Thirty-five years ago, a cyborg, a scrappy kid and a steely mom saved the world from annihilation at the hands of self-aware machines in James Cameron's Termina",
+        "description": "Thirty-five years ago, a cyborg, a scrappy kid and a steely mom saved the world from annihilation at the hands of self-aware machines in James Cameron's Terminator 2: Judgment Day.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Yahoo",
+        "url": "https://ca.news.yahoo.com/terminator-2-predicted-ai-anxiety-030605189.html"
+      },
+      {
+        "name": "Some assembly required, with machine learning - Technology O",
+        "provider": "Technology Org",
+        "type": "AI 项目/工具",
+        "bestFor": "Machine learning doesn't replace human intelligence, but it can outlast human endurance, which makes it a very helpful tool for chemistry and material discovery",
+        "description": "Machine learning doesn't replace human intelligence, but it can outlast human endurance, which makes it a very helpful tool for chemistry and material discovery. Scientists know th",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Technology Org",
+        "url": "https://www.technology.org/2026/09/13/some-assembly-required-with-machine-learning/"
+      },
       {
         "name": "Harley the Robot Brings Multilingual AI Home Automation for ",
         "provider": "Scienmag",
@@ -6868,31 +6890,31 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Gadgets Now",
         "url": "https://gadgetsnow.indiatimes.com/tech-news/john-ternus-borrowed-from-four-apple-ceos-in-one-keynote-and-only-one-was-jobs/articleshow/134001506.cms"
-      },
-      {
-        "name": "Samsung Galaxy Buds3 FE Drop Near Their Lowest Price Just as",
-        "provider": "Kotaku",
-        "type": "AI 项目/工具",
-        "bestFor": "A fast-selling Amazon deal has dropped the Samsung Galaxy Buds3 FE down to just $110, a steep drop-off from their $150 list price. That $40 discount marks the f",
-        "description": "A fast-selling Amazon deal has dropped the Samsung Galaxy Buds3 FE down to just $110, a steep drop-off from their $150 list price. That $40 discount marks the fastest route into Sa",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Kotaku",
-        "url": "https://kotaku.com/samsung-galaxy-buds3-fe-drop-near-their-lowest-price-just-as-apple-unveils-airpods-5-2000732988"
-      },
-      {
-        "name": "From alerts to action: how Varun Kumar Reddy Gaddam is shapi",
-        "provider": "India News, Breaking News, Entertainment News | India.com",
-        "type": "AI 项目/工具",
-        "bestFor": "Gaddam, a veteran SAP warehouse architect with experience in solar, food, and consumer-goods manufacturing, is shifting the industry's focus from visibility to ",
-        "description": "Gaddam, a veteran SAP warehouse architect with experience in solar, food, and consumer-goods manufacturing, is shifting the industry's focus from visibility to a more challenging g",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "India News, Breaking News, Entertainment News | India.com",
-        "url": "https://www.india.com/money/from-alerts-to-action-how-varun-kumar-reddy-gaddam-is-shaping-intelligent-supply-chain-8521134/"
       }
     ],
     "ai-business": [
+      {
+        "name": "Apple's AED 8,499 iPhone Duo Puts UAE Consumers' Appetite fo",
+        "provider": "Al Bawaba",
+        "type": "AI 项目/工具",
+        "bestFor": "Apple's biggest iPhone redesign in a decade has given investors a new hardware story, but the real test will be whether its first foldable device can attract co",
+        "description": "Apple's biggest iPhone redesign in a decade has given investors a new hardware story, but the real test will be whether its first foldable device can attract consumers at scale whi",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Al Bawaba",
+        "url": "https://www.albawaba.com/business/pr/apple%E2%80%99s-aed-8499-iphone-duo-puts-uae-1636834?overridden_route_name=entity.node.canonical&base_route_name=entity.node.canonical&page_manager_page=node_view&page_manager_page_variant=node_view-panels_variant-0&page_manager_page_variant_weight=0"
+      },
+      {
+        "name": "Molbio Diagnostics: What Does It Do, and Is Its 65x P/E Just",
+        "provider": "Trade Brains",
+        "type": "AI 项目/工具",
+        "bestFor": "Molbio Diagnostics is primarily a diagnostics technology company, with molecular diagnostics forming the core of its business. Its main platform, Truenat, is de",
+        "description": "Molbio Diagnostics is primarily a diagnostics technology company, with molecular diagnostics forming the core of its business. Its main platform, Truenat, is designed to bring mole",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Trade Brains",
+        "url": "https://tradebrains.in/indian-markets/molbio-diagnostics-what-does-it-do-and-is-its-65x-pe-justified-12527149"
+      },
       {
         "name": "iPhone 18 Pro vs Pixel 11 Pro: Which flagship is better?",
         "provider": "SAMAA TV",
@@ -7310,28 +7332,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "TechCrunch：AI（RSS）",
         "url": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model"
-      },
-      {
-        "name": "TCL On A Roll At IFA 2026 Tvs, Smartglasses & New Smartphone",
-        "provider": "ChannelNews",
-        "type": "AI 项目/工具",
-        "bestFor": "TCL Unveils SQD-Mini LED Flagship, Eyes Australian Market with New Smartphone Line at IFA 2026 challenging the RGB-LED approaches of Samsung, Sony, LG, and Hise",
-        "description": "TCL Unveils SQD-Mini LED Flagship, Eyes Australian Market with New Smartphone Line at IFA 2026 challenging the RGB-LED approaches of Samsung, Sony, LG, and Hisense.\n\nAt its press c",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "ChannelNews",
-        "url": "https://www.channelnews.com.au/tcl-on-a-roll-at-ifa-2026-tvs-smartglasses-new-smartphone-thats-oz-bound/"
-      },
-      {
-        "name": "Nvidia to spend $13 billion on Hugging Face, leaving it as a",
-        "provider": "Newsday",
-        "type": "AI 项目/工具",
-        "bestFor": "Computer chip company Nvidia is buying artificial intelligence software platform Hugging Face for $12.93 billion.\n\nNvidia CEO Jensen Huang wrote in a blog post ",
-        "description": "Computer chip company Nvidia is buying artificial intelligence software platform Hugging Face for $12.93 billion.\n\nNvidia CEO Jensen Huang wrote in a blog post Thursday that more t",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Newsday",
-        "url": "https://www.newsday.com/business/nvidia-hugging-face-ai-e84002"
       }
     ],
     "ai-benchmark": [
@@ -10241,7 +10241,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-13",
-    "generatedAt": "2026-09-13T03:36:19.243539Z",
+    "generatedAt": "2026-09-13T06:01:03.531294Z",
     "total": 24,
     "sections": [
       {
