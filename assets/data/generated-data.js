@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-14",
-  "generatedAt": "2026-09-13T16:09:54.093624Z",
+  "generatedAt": "2026-09-13T17:23:44.684061Z",
   "news": [
     {
       "title": "Dario Amodei 发文呼吁 AI 行业放慢前沿速度并公布三步计划",
@@ -5393,6 +5393,21 @@ window.AI_GENERATED_DATA = {
       "date": "2026-08-05"
     },
     {
+      "name": "InternLM/Intern-S1",
+      "lang": "Repo",
+      "description": "A Scientific Multimodal Foundation Model",
+      "stars": "855 stars",
+      "why": "国产大模型厂商 上海AI实验室 书生 的最新开源动态/模型发布，属一手信源。",
+      "url": "https://github.com/InternLM/Intern-S1",
+      "source": "GitHub · 上海AI实验室 书生",
+      "tier": "T1",
+      "category": "Coding Agent",
+      "details": "A Scientific Multimodal Foundation Model",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
       "name": "deepseek-ai/DeepJIT",
       "lang": "C++",
       "description": "A lightweight library for xPU kernel JIT compilation",
@@ -5433,21 +5448,6 @@ window.AI_GENERATED_DATA = {
       "tier": "T1",
       "category": "Coding Agent",
       "details": "DeepSeek 开源项目。",
-      "features": [],
-      "useCases": [],
-      "quickStart": []
-    },
-    {
-      "name": "deepseek-ai/DeepSelect",
-      "lang": "Cuda",
-      "description": "DeepSelect: TopK kernels for DeepSeek Sparse Attention (DSA) and Samplers",
-      "stars": "168 stars",
-      "why": "国产大模型厂商 DeepSeek 的最新开源动态/模型发布，属一手信源。",
-      "url": "https://github.com/deepseek-ai/DeepSelect",
-      "source": "GitHub · DeepSeek",
-      "tier": "T1",
-      "category": "Coding Agent",
-      "details": "DeepSelect: TopK kernels for DeepSeek Sparse Attention (DSA) and Samplers",
       "features": [],
       "useCases": [],
       "quickStart": []
@@ -10241,7 +10241,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-14",
-    "generatedAt": "2026-09-13T16:09:54.071391Z",
+    "generatedAt": "2026-09-13T17:23:44.661056Z",
     "total": 24,
     "sections": [
       {
@@ -10547,6 +10547,30 @@ window.AI_GENERATED_DATA = {
     ]
   },
   "dailyReports": [
+    {
+      "date": "2026-09-13",
+      "generatedAt": "2026-09-13T16:10:59.269630Z",
+      "total": 1,
+      "sections": [
+        {
+          "category": "ai-models",
+          "label": "模型发布",
+          "items": [
+            {
+              "title": "Dario Amodei 发文呼吁 AI 行业放慢前沿速度并公布三步计划",
+              "summary": "Dario Amodei 发布新文章 We Must Pace the Frontier，主张 AI 行业应放慢速度，并提出三部分计划。Anthropic 单方面承诺第一步，为第三方评估者提供永久的员工级系统访问权限，以核实安全措施执行、报告事故并评估训练期间模型的 alignm",
+              "source": "X：Peter McCrory（Anthropic 首席经济学家，@PeterMcCrory）",
+              "url": "https://x.com/PeterMcCrory/status/2098868931071226252",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-13",
+              "publishedAt": "2026-09-13T04:18",
+              "reason": ""
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-09-12",
       "generatedAt": "2026-09-12T16:00:17.679527Z",
@@ -20403,339 +20427,10 @@ window.AI_GENERATED_DATA = {
           ]
         }
       ]
-    },
-    {
-      "date": "2026-07-10",
-      "generatedAt": "2026-07-10T16:15:46.149064Z",
-      "total": 26,
-      "sections": [
-        {
-          "category": "ai-tools",
-          "label": "AI 工具",
-          "items": [
-            {
-              "title": "在低配置电脑上运行 GLM-5.2 的实用指南",
-              "summary": "通过 colibrì v1.0 引擎，用户可以在约 25 GB RAM 的消费级电脑上运行 744B 参数的 GLM-5.2 MoE 模型。该引擎以纯 C 实现，零运行时依赖，经过 int4 量化后，模型磁盘占用约 370 GB，常驻内存仅 9.9 GB，支持流式加载推理，冷解码",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://github.com/JustVugg/colibri",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-07-10",
-              "publishedAt": "2026-07-10T06:18",
-              "reason": "这篇指南提供了在低配置电脑上运行前沿 AI 模型的实用方法，适合希望在资源有限的情况下进行 AI 开发的用户。"
-            },
-            {
-              "title": "Pangram报告显示LinkedIn超40%长文由AI生成",
-              "summary": "安全公司Pangram通过Chrome扩展分析超过100万条社交媒体帖子，发现AI生成内容在社交平台上泛滥。整体AI检测率为13.8%，长文中25.72%完全由AI生成，LinkedIn的长文AI生成率超过40%，成为最严重的平台。X/Twitter近一半的文章也包含AI写作。",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://www.pangram.com/blog/ai-in-your-feed",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-07-10",
-              "publishedAt": "2026-07-10T05:46",
-              "reason": "这条信息揭示了社交媒体上AI生成内容的严重性，尤其是在LinkedIn等平台，值得关注其对用户和内容创作的影响。"
-            },
-            {
-              "title": "Google 发布 LiteRT.js：为 Web 开发者带来高性能 AI 推理",
-              "summary": "这次发布的核心点是 Google 推出的 LiteRT.js，一个专为 JavaScript 开发者设计的高性能 Web AI 推理运行时。它允许开发者在浏览器中直接运行机器学习模型，利用 WebGPU 和即将推出的 WebNN 实现卓越的推理性能，同时支持回退到 WebAsse",
-              "source": "Google Developers Blog（RSS）",
-              "url": "https://developers.googleblog.com/litertjs-googles-high-performance-web-ai-inference",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-07-10",
-              "publishedAt": "2026-07-10T05:21",
-              "reason": "LiteRT.js 以其高性能和易用性，为 Web 开发者提供了一个强大的工具，值得关注和尝试。"
-            },
-            {
-              "title": "Perplexity推出跨模型信用额度分析功能，提升用户管理能力",
-              "summary": "Perplexity近期推出了Computer Analytics功能，允许用户跨多个模型跟踪信用额度支出。该功能现已向个人和企业用户开放，用户可在账户设置的Analytics部分找到相关选项。",
-              "source": "X：Perplexity (@perplexity_ai)",
-              "url": "https://x.com/perplexity_ai/status/2075599540640714863",
-              "score": 63,
-              "sourceCount": 1,
-              "date": "2026-07-10",
-              "publishedAt": "2026-07-10T23:14",
-              "reason": "Computer Analytics功能的推出，标志着Perplexity在数据分析领域的创新，值得关注。"
-            },
-            {
-              "title": "百度搭子在成都AI Day发布四项重要更新",
-              "summary": "在成都百度AI Day上，百度搭子宣布了四项更新，包括个人版的多项功能升级、自媒体专业套件的推出、企业版的团队协作功能，以及搭子联盟的启动。这些更新旨在提升用户体验和功能多样性，个人版新增的智能路由功能显著提高了任务效率，日均提问量增长20倍，显示出市场需求的强劲。",
-              "source": "公众号：百度智能云（文心）",
-              "url": "https://mp.weixin.qq.com/s/Haqbjim9YGmRu1XpxG_VvA",
-              "score": 63,
-              "sourceCount": 1,
-              "date": "2026-07-10",
-              "publishedAt": "2026-07-10T21:58",
-              "reason": "此次更新展示了百度搭子在AI工具领域的持续创新，尤其是在自媒体和企业服务方面的深耕，值得关注。"
-            },
-            {
-              "title": "Bun 被 Anthropic 收购后重写为 Rust，月下载量超 2200 万",
-              "summary": "Bun 于 2025 年 12 月被 Anthropic 收购，经过大量 Rust 重写后，现已成为广受欢迎的 CLI 工具，月下载量超过 2200 万。尽管其功能强大，但在稳定性方面仍面临挑战，团队通过多种测试手段努力减少内存相关缺陷。",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://bun.com/blog/bun-in-rust",
-              "score": 63,
-              "sourceCount": 1,
-              "date": "2026-07-10",
-              "publishedAt": "2026-07-10T05:46",
-              "reason": "Bun 的重写和广泛应用展示了开发工具在性能和安全性上的重要性，值得关注。"
-            },
-            {
-              "title": "OpenAI Sites 让创意变成可分享的网站",
-              "summary": "OpenAI 最近推出了 Sites 功能，允许用户将创意快速转化为可发布和分享的实时网站。该功能现已向 Plus、Pro、Business 和 Enterprise 用户开放，支持网页、移动和桌面端使用。用户可以通过简单的步骤创建个人应用或项目，提升工作效率。",
-              "source": "X：OpenAI Developers (@OpenAIDevs)",
-              "url": "https://x.com/OpenAIDevs/status/2075337031954395447",
-              "score": 63,
-              "sourceCount": 1,
-              "date": "2026-07-10",
-              "publishedAt": "2026-07-10T05:51",
-              "reason": "OpenAI Sites 提供了一种简单高效的方式，将创意转化为可分享的网站，适合各类用户，尤其是需要快速展示想法的创意工作者。"
-            },
-            {
-              "title": "OpenAI 发布 GPT 5.6，ChatGPT 应用重塑交互体验",
-              "summary": "我注意到 OpenAI 最近发布了 GPT 5.6，并推出了全新的 ChatGPT 应用，模仿了 Anthropic 的设计风格。新应用将功能分为 Work 和 Code 两个 Tab，用户在切换时可能会感到困惑，尤其是旧聊天记录难以找到。此外，Codex 的 Site 插件也上",
-              "source": "X：歸藏 (@op7418)",
-              "url": "https://x.com/op7418/status/2075389540387455355",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-07-10",
-              "publishedAt": "2026-07-10T09:19",
-              "reason": "这次更新值得关注，因为它不仅带来了新功能，还重新定义了用户与 AI 工具的交互方式，影响深远。"
-            },
-            {
-              "title": "微软推出Flint：简化AI智能体图表生成的可视化语言",
-              "summary": "这次发布的核心点是微软研究院推出的Flint，这是一种可视化中间语言，旨在帮助AI智能体通过简洁的人类可编辑规格自动生成美观的图表。用户只需提供数据、语义类型和图表类型，Flint编译器便能推导出坐标轴、配色和布局等底层参数。Flint支持46种图表类型，并可渲染到Vega-Li",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://microsoft.github.io/flint-chart",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-07-10",
-              "publishedAt": "2026-07-10T05:46",
-              "reason": "Flint通过简化图表生成过程，为数据可视化提供了新的解决方案，值得关注。"
-            },
-            {
-              "title": "OpenAI 团队推出 ChatGPT Sites 实时网站构建工具",
-              "summary": "OpenAI 团队推出了 ChatGPT Sites，允许用户将创意转化为可发布和分享的实时网站。该工具的示例展示了如何将个人专注应用快速构建成网站，提升创意的可视化和传播能力。",
-              "source": "X：OpenAI Developers (@OpenAIDevs)",
-              "url": "https://x.com/OpenAIDevs/status/2075331020090687666",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-07-10",
-              "publishedAt": "2026-07-10T05:27",
-              "reason": "ChatGPT Sites 的推出为创意工作者提供了一个高效、易用的工具，值得关注其在创意行业的潜在影响。"
-            }
-          ]
-        },
-        {
-          "category": "ai-coding",
-          "label": "AI 编程",
-          "items": [
-            {
-              "title": "Elon Musk 转发用户称赞 Grok Build 的反馈",
-              "summary": "Elon Musk 在社交媒体上转发了用户 @0x0funky 对 Grok Build 的高度评价，称其为目前唯一集大成的 coding agentic workflow。该工具内建图像生成和视频生成功能，速度快且品质媲美 Codex，显著提升了游戏开发效率。",
-              "source": "X：Elon Musk (@elonmusk, xAI)",
-              "url": "https://x.com/elonmusk/status/2075478792273842370",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-07-10",
-              "publishedAt": "2026-07-10T15:14",
-              "reason": "Grok Build 的强大功能和高效性使其在游戏开发领域脱颖而出，值得开发者关注和尝试。"
-            },
-            {
-              "title": "GPT-5.6 发布，Codex 现已集成于 ChatGPT",
-              "summary": "OpenAI 最新发布的 GPT-5.6 版本中，Codex 功能已成功集成至 ChatGPT。这一更新为开发者提供了更便捷的编程支持，但也引发了对其使用限制和潜在问题的讨论。Codex 团队将在 Reddit 上进行 AMA，解答开发者的疑问。",
-              "source": "X：OpenAI Developers (@OpenAIDevs)",
-              "url": "https://x.com/OpenAIDevs/status/2075395561860321412",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-07-10",
-              "publishedAt": "2026-07-10T09:43",
-              "reason": "这一更新为开发者提供了强大的编程工具，但也伴随着使用限制和潜在风险，值得关注。"
-            },
-            {
-              "title": "Claude Code v2.1.206 发布，新增多项功能与修复",
-              "summary": "Claude Code v2.1.206 于 7 月 10 日发布，新增了目录路径建议、/doctor 检查等功能，并修复了多项登录和输入问题。此次更新旨在提升用户体验和系统稳定性。",
-              "source": "Claude Code：GitHub Releases（RSS）",
-              "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.206",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-07-10",
-              "publishedAt": "2026-07-10T09:45",
-              "reason": "Claude Code v2.1.206 的发布不仅带来了实用的新功能，还解决了用户长期以来的痛点，值得开发者关注和尝试。"
-            }
-          ]
-        },
-        {
-          "category": "ai-agents",
-          "label": "Agent / MCP",
-          "items": [
-            {
-              "title": "OpenAI 推出 ChatGPT Work，标志着 AI Agent 的新进展",
-              "summary": "OpenAI 发布的 ChatGPT Work 是一款基于 Codex 和 GPT-5.6 的新型 AI Agent，能够在应用和文件中执行操作，并长时间跟踪项目。该产品今日起在 Pro、Enterprise 和 Edu 计划中推送，未来几天将扩展至 Plus 和 Busines",
-              "source": "X：Testing Catalog (@testingcatalog)",
-              "url": "https://x.com/testingcatalog/status/2075340652011819353",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-07-10",
-              "publishedAt": "2026-07-10T06:05",
-              "reason": "ChatGPT Work 的推出不仅提升了工作效率，还标志着 AI 应用的进一步融合，值得关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-models",
-          "label": "模型发布",
-          "items": [
-            {
-              "title": "OpenAI 发布 GPT-5.6 模型与博文",
-              "summary": "我注意到 OpenAI 最近推出了他们迄今为止最强大的模型 GPT-5.6，同时还发布了一篇精彩的博文，详细介绍了这一模型的前沿智能特性。这个模型的设计旨在与用户的雄心相匹配，展现了 OpenAI 在 AI 领域的最新进展。",
-              "source": "X：Sam Altman (@sama)",
-              "url": "https://x.com/sama/status/2075266471316615436",
-              "score": 69,
-              "sourceCount": 1,
-              "date": "2026-07-10",
-              "publishedAt": "2026-07-10T01:10",
-              "reason": "这篇博文和新模型的发布展示了 OpenAI 在 AI 领域的最新突破，值得关注其潜在应用和影响。"
-            },
-            {
-              "title": "OpenAI 发布 GPT-5.6，ChatGPT 与 Codex 正式合并",
-              "summary": "OpenAI 于近期推出 GPT-5.6 系列，包含旗舰模型 Sol、均衡模型 Terra 和低成本模型 Luna。Sol 在 Agents' Last Exam 中以 53.6 分刷新纪录，超越 Claude Fable 5 13.1 分；在编程智能体指数中得分 80，显著提高",
-              "source": "公众号：数字生命卡兹克",
-              "url": "https://mp.weixin.qq.com/s/EqgGQ2TkKhSv1eCKVLD-Vg",
-              "score": 67,
-              "sourceCount": 1,
-              "date": "2026-07-10",
-              "publishedAt": "2026-07-10T06:10",
-              "reason": "OpenAI 的 GPT-5.6 系列在性能和功能上的重大突破，值得关注其对行业的影响。"
-            },
-            {
-              "title": "GPT-5.6 API 正式推出，三款新模型亮相",
-              "summary": "OpenAI 宣布 GPT-5.6 正式在 API 中推出，包含三款新模型：Sol、Terra 和 Luna。Sol 是旗舰模型，适用于编程、知识工作等领域；Terra 提供与 GPT-5.5 相当的性能但成本更低；Luna 则是最快、最实惠的选择，适合高容量任务。",
-              "source": "X：OpenAI Developers (@OpenAIDevs)",
-              "url": "https://x.com/OpenAIDevs/status/2075273992609599834",
-              "score": 67,
-              "sourceCount": 1,
-              "date": "2026-07-10",
-              "publishedAt": "2026-07-10T01:40",
-              "reason": "GPT-5.6 的推出为开发者和企业提供了更强大的 AI 工具，值得关注其在各行业的应用潜力。"
-            },
-            {
-              "title": "SWE-1.7 模型发布：成本效益显著提升",
-              "summary": "SWE-1.7 是迄今为止最强大的 AI 模型，具备前沿智能，且成本显著降低，推动了成本-性能帕累托曲线的进步。该模型在多项关键指标上超越了前代 Kimi K2.7，尤其在长时间异步任务的表现上具有显著优化，展现出更高的稳定性和数据质量。",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://cognition.com/blog/swe-1-7",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-07-10",
-              "publishedAt": "2026-07-10T05:46",
-              "reason": "SWE-1.7 模型的发布标志着 AI 技术在成本和性能上的重要突破，值得关注其在实际应用中的表现。"
-            },
-            {
-              "title": "小红书推出新型 PIPO 模型架构，显著提升性能",
-              "summary": "我注意到小红书最近发布了 PIPO 架构，这是一种创新的模型设计。通过输入侧压缩器将两个 token 合并为一个 latent，输出侧的 MTP head 则将隐藏状态展开为额外的 token。这种设计使得输入长度减半，同时每步输出翻倍。基于 Qwen3.5-4B/9B back",
-              "source": "公众号：小红书技术（dots.llm）",
-              "url": "https://mp.weixin.qq.com/s/1eo7rrCAH-OA0TnXwwqJEg",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-07-10",
-              "publishedAt": "2026-07-10T17:59",
-              "reason": "PIPO 架构的创新设计和显著性能提升，值得关注和探索，尤其是在处理长文本和高效生成内容的场景中。"
-            },
-            {
-              "title": "马斯克承认Anthropic为AI领域领导者",
-              "summary": "马斯克在社交媒体上承认自己对Anthropic的判断失误，称其为当前AI领域的领导者，并对其即将推出的Mythos 2表示期待。他强调，即使在竞争中也不会以伤害对方的方式切断合作，列举了特斯拉的开源专利等先例。这一表态引发了广泛关注，尤其是Rohan Paul的转发，称这是Ant",
-              "source": "X：Rohan Paul (@rohanpaul_ai)",
-              "url": "https://x.com/rohanpaul_ai/status/2075480331600417141",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-07-10",
-              "publishedAt": "2026-07-10T15:20",
-              "reason": "马斯克的公开承认为Anthropic的市场地位提供了强有力的背书，值得关注其未来发展动态。"
-            },
-            {
-              "title": "本·伯南克被任命为Anthropic长期利益信托受托人",
-              "summary": "Anthropic于2026年7月9日宣布，前美联储主席本·伯南克被任命为其长期利益信托（LTBT）的新受托人。他将与其他三位受托人共同监督公司在负责任地开发先进AI方面的使命，确保其对社会的长期利益。伯南克的经济学背景将为公司提供重要的经济研究支持，帮助理解AI对全球经济的影响",
-              "source": "Anthropic：Newsroom（网页）",
-              "url": "https://www.anthropic.com/news/ben-bernanke",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-07-10",
-              "publishedAt": "2026-07-10T00:40",
-              "reason": "本·伯南克的任命为Anthropic长期利益信托受托人，标志着AI治理结构的进一步完善，值得关注其对AI经济影响的深远研究。"
-            },
-            {
-              "title": "马斯克称赞Anthropic并承诺不切断其算力",
-              "summary": "马斯克在X平台上承认对Anthropic的误判，称其为AI领域的领导者，并表示不会恶意切断其计算资源。Anthropic与SpaceX签署协议，将以每月12.5亿美元的价格购买xAI旗下Colossus 1数据中心的全部算力，合同总额约400亿美元。尽管马斯克强调自己的合作风格，",
-              "source": "TechCrunch：AI（RSS）",
-              "url": "https://techcrunch.com/2026/07/09/elon-musk-praises-mythos-fable-promises-not-to-cut-off-anthropic",
-              "score": 61,
-              "sourceCount": 1,
-              "date": "2026-07-10",
-              "publishedAt": "2026-07-10T05:57",
-              "reason": "这一事件展示了马斯克对AI行业的态度转变及其对竞争关系的重新评估，值得关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-research",
-          "label": "论文研究",
-          "items": [
-            {
-              "title": "Anthropic发起\"硬问题\"倡议，鼓励公众提出AI尖锐问题",
-              "summary": "Anthropic作为一家公益公司，推出了\"硬问题\"倡议，旨在收集公众对AI在就业、社会、家庭及科学医学等领域影响的尖锐问题。通过多种方式收集意见，包括对5.2万美国人的调研和对81,000名Claude用户的调查，Anthropic希望更好地理解公众的担忧与期望，并承诺公开追踪",
-              "source": "Anthropic：Newsroom（网页）",
-              "url": "https://www.anthropic.com/news/hard-questions",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-07-10",
-              "publishedAt": "2026-07-10T01:40",
-              "reason": "这项倡议为公众提供了一个表达对AI技术看法的平台，值得关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-business",
-          "label": "行业商业",
-          "items": [
-            {
-              "title": "德意志电信如何通过 AI 重塑电信行业",
-              "summary": "德意志电信正通过与 OpenAI 的合作，逐步转型为 AI 原生电信公司，重点提升客户服务、员工工作流程、网络运营及语音服务的未来。这一转型不仅提升了服务效率，还为公司带来了新的商业模式和运营方式。",
-              "source": "RSS · OpenAI Blog",
-              "url": "https://openai.com/index/deutsche-telekom",
-              "score": 72,
-              "sourceCount": 1,
-              "date": "2026-07-10",
-              "publishedAt": "2026-07-10T15:00",
-              "reason": "德意志电信的 AI 转型案例展示了如何通过技术创新提升电信服务的效率和用户体验，值得关注。"
-            },
-            {
-              "title": "扎克伯格回应Meta算力过剩传言，云基础设施出租更具盈利性",
-              "summary": "Meta CEO扎克伯格首次回应关于公司算力过剩的猜测，强调内部算力需求依然旺盛。他指出，当前市场对算力的高需求使得将部分AI基础设施对外出租在财务上更为划算。Meta正在推进名为“Meta Compute”的云计算计划，计划于2026年量产自研AI芯片，并在2027年将算力提升",
-              "source": "IT之家（RSS）",
-              "url": "https://www.ithome.com/0/975/078.htm",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-07-10",
-              "publishedAt": "2026-07-10T15:26",
-              "reason": "扎克伯格的表态揭示了Meta在云计算领域的战略转型，值得关注其对行业的潜在影响。"
-            },
-            {
-              "title": "Sequoia 预测 2026 年 AI 基础设施支出将达 1.5 万亿美元",
-              "summary": "Sequoia 合伙人 David Cahn 更新了 AI 基础设施支出估算，预计到 2026 年全球投入将达到 1.5 万亿美元。为了回本，行业需创造 3 万亿美元的收入。尽管 Anthropic 年化收入（ARR）已达 600 亿美元，OpenAI 预计 2025 年收入为 ",
-              "source": "TechCrunch：AI（RSS）",
-              "url": "https://techcrunch.com/2026/07/09/can-ai-answer-the-3-trillion-question",
-              "score": 60,
-              "sourceCount": 1,
-              "date": "2026-07-10",
-              "publishedAt": "2026-07-10T05:47",
-              "reason": "这条信息揭示了 AI 行业未来的经济挑战，值得关注。"
-            }
-          ]
-        }
-      ]
     }
   ],
   "llmLeaderboard": {
-    "updated": "2026-09-13",
+    "updated": "2026-09-14",
     "source": "ReLE 中文大模型能力评测（综合能力）",
     "sourceUrl": "https://github.com/jeinlee1991/chinese-llm-benchmark",
     "items": [
