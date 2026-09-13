@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-13",
-  "generatedAt": "2026-09-13T00:00:34.041181Z",
+  "generatedAt": "2026-09-13T03:36:19.266510Z",
   "news": [
     {
       "title": "Dario Amodei 发文呼吁 AI 行业放慢前沿速度并公布三步计划",
@@ -2476,33 +2476,6 @@ window.AI_GENERATED_DATA = {
       "sourceDate": "2026-09-07",
       "tags": [],
       "url": "https://arxiv.org/abs/2609.04369",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Object Concepts Emerge from Motion",
-      "summary": "arXiv:2609.04348v1 Announce Type: new Abstract: Object-centric visual representations are important for physical-world perception, but existing visual pretraining methods often cap",
-      "category": "ai-image-video",
-      "source": "RSS · arXiv cs.CV",
-      "date": "2026-09-07",
-      "publishedAt": "",
-      "collectedAt": "2026-09-08T11:14",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-07",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2609.04348",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -6037,6 +6010,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "Meta's AI Shopping Push Grows as Agentic Commerce Remains Be",
+        "provider": "EconoTimes",
+        "type": "AI 项目/工具",
+        "bestFor": "Meta's AI Shopping Push Grows as Agentic Commerce Remains Below 1%. Source: VisbyStar, CC BY-SA 4.0, via Wikimedia Commons\n\nAgentic commerce still accounts for ",
+        "description": "Meta's AI Shopping Push Grows as Agentic Commerce Remains Below 1%. Source: VisbyStar, CC BY-SA 4.0, via Wikimedia Commons\n\nAgentic commerce still accounts for less than 1% of over",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "EconoTimes",
+        "url": "https://econotimes.com/Metas-AI-Shopping-Push-Grows-as-Agentic-Commerce-Remains-Below-1-1751913"
+      },
+      {
         "name": "LlamaIndex 解析 just-in-time Agentic OCR：两遍式文档处理如何平衡成本与精度",
         "provider": "LlamaIndex：产品、工程与评测",
         "type": "AI 项目/工具",
@@ -6464,20 +6448,31 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "SiliconANGLE",
         "url": "https://siliconangle.com/2026/09/10/salesforce-introduces-enterprise-ai-harness-ai-control-plane/"
-      },
-      {
-        "name": "How AvioBook builds turnaround insights from operational dat",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "AvioBook, a Thales Group Company, prototyped Connected Analytics on Amazon Bedrock AgentCore to turn AvioBook Connect's operational data into plain-language, ev",
-        "description": "AvioBook, a Thales Group Company, prototyped Connected Analytics on Amazon Bedrock AgentCore to turn AvioBook Connect's operational data into plain-language, evidence-based answers",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/how-aviobook-uses-generative-ai-to-drive-airline-turnaround-insights/"
       }
     ],
     "ai-models": [
+      {
+        "name": "Harley the Robot Brings Multilingual AI Home Automation for ",
+        "provider": "Scienmag",
+        "type": "AI 项目/工具",
+        "bestFor": "A voice-controlled home robot that can navigate a house, switch appliances on and off, and hold a natural conversation in multiple languages has been built for ",
+        "description": "A voice-controlled home robot that can navigate a house, switch appliances on and off, and hold a natural conversation in multiple languages has been built for less than 10,000 rup",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Scienmag: Latest Science and Health News",
+        "url": "https://scienmag.com/harley-the-robot-brings-multilingual-ai-home-automation-for-under-10000-rupees/"
+      },
+      {
+        "name": "Anthropic CEO urges AI companies to slow model development a",
+        "provider": "Rappler",
+        "type": "AI 项目/工具",
+        "bestFor": "This is AI-generated. Read the article for full context. Report any errors.\n\nAnthropic CEO Dario Amodei called on AI companies to slow the rate at which they ad",
+        "description": "This is AI-generated. Read the article for full context. Report any errors.\n\nAnthropic CEO Dario Amodei called on AI companies to slow the rate at which they advance model capabili",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Rappler",
+        "url": "https://www.rappler.com/technology/anthropic-ceo-urges-ai-companies-slow-model-development/"
+      },
       {
         "name": "OpenAI 将 GPT-Live-1 语音模型开放至 API",
         "provider": "X：OpenAI Developers (@OpenAIDevs)",
@@ -6895,28 +6890,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "India News, Breaking News, Entertainment News | India.com",
         "url": "https://www.india.com/money/from-alerts-to-action-how-varun-kumar-reddy-gaddam-is-shaping-intelligent-supply-chain-8521134/"
-      },
-      {
-        "name": "Earnings call transcript: Oakley Capital Investments posts 6",
-        "provider": "Investing.com",
-        "type": "AI 项目/工具",
-        "bestFor": "Oakley Capital Investments said net asset value rose 6% in the first half of 2026, helped by gains across its portfolio and share buybacks, while the investment",
-        "description": "Oakley Capital Investments said net asset value rose 6% in the first half of 2026, helped by gains across its portfolio and share buybacks, while the investment company continued t",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Investing.com",
-        "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-oakley-capital-investments-posts-6-h1-2026-nav-return-93CH-4895195"
-      },
-      {
-        "name": "Apple 发布 Health Sensing System 与重构版 Health app，Apple Watch S",
-        "provider": "Apple：Newsroom（RSS）",
-        "type": "AI 项目/工具",
-        "bestFor": "Apple 发布全新健康与健身功能，Apple Watch Series 12 和 Apple Watch Ultra 4 引入 Health Sensing System，支持每 5 秒测心率、HRV 测量频率提升至 24 倍、每日 0-10 的 readiness 评分。",
-        "description": "Apple 发布全新健康与健身功能，Apple Watch Series 12 和 Apple Watch Ultra 4 引入 Health Sensing System，支持每 5 秒测心率、HRV 测量频率提升至 24 倍、每日 0-10 的 readiness 评分。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Apple：Newsroom（RSS）",
-        "url": "https://www.apple.com/newsroom/2026/09/apple-advances-health-and-fitness-capabilities-using-apple-intelligence"
       }
     ],
     "ai-business": [
@@ -10268,7 +10241,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-13",
-    "generatedAt": "2026-09-13T00:00:34.017188Z",
+    "generatedAt": "2026-09-13T03:36:19.243539Z",
     "total": 24,
     "sections": [
       {
