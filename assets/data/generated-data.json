@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-14",
-  "generatedAt": "2026-09-14T05:30:49.411315Z",
+  "generatedAt": "2026-09-14T09:19:50.167703Z",
   "news": [
     {
       "title": "Dario Amodei 发文呼吁 AI 行业放慢前沿速度并公布三步计划",
@@ -542,6 +542,33 @@
       "sourceDate": "",
       "tags": [],
       "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
+      "summary": "",
+      "category": "ai-models",
+      "source": "RSS · Hugging Face Blog",
+      "date": "2026-09-10",
+      "publishedAt": "2026-09-10T08:00",
+      "collectedAt": "2026-09-14T17:19",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -6010,6 +6037,28 @@
     ],
     "ai-agents": [
       {
+        "name": "Cyprus hosts pioneering AI shopping trials as Mastercard tes",
+        "provider": "Cyprus Mail",
+        "type": "AI 项目/工具",
+        "bestFor": "AI agents set to take bigger role in shopping and payments\n\nMore than one in 10 consumers could be regularly using AI agents to shop and make purchases online o",
+        "description": "AI agents set to take bigger role in shopping and payments\n\nMore than one in 10 consumers could be regularly using AI agents to shop and make purchases online on their behalf by 20",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Cyprus Mail",
+        "url": "https://cyprus-mail.com/2026/09/14/cyprus-hosts-pioneering-ai-shopping-trials-as-mastercard-tests-agentic-tech"
+      },
+      {
+        "name": "China's MYbank Launches AI Agent to Benefit Small Enterprise",
+        "provider": "yicaiglobal.com",
+        "type": "AI 项目/工具",
+        "bestFor": "(Yicai) Sept. 14 -- MYbank has launched its first finance agent for small and micro business clients, marking the full entrance of artificial intelligence into ",
+        "description": "(Yicai) Sept. 14 -- MYbank has launched its first finance agent for small and micro business clients, marking the full entrance of artificial intelligence into the leading Chinese ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "yicaiglobal.com",
+        "url": "https://www.yicaiglobal.com/news/chinas-mybank-launches-ai-agent-for-smaller-customers"
+      },
+      {
         "name": "Salesforce rolls out job-specific AI agents for sales, servi",
         "provider": "Newsbytes.PH",
         "type": "AI 项目/工具",
@@ -6426,31 +6475,64 @@
         "watch": "请打开原始来源核对",
         "sourceName": "accessnewswire.com",
         "url": "https://www.accessnewswire.com/newsroom/en/blockchain-and-cryptocurrency/prorex-limited-brings-agentic-trading-and-its-own-mcp-tools-to-metatr-1207275"
-      },
-      {
-        "name": "Council Post: The Era Of B2A Marketing: Position Your Brand ",
-        "provider": "Forbes",
-        "type": "AI 项目/工具",
-        "bestFor": "Pratik Bhadra is CEO North America at Netcore and Netcore Unbxd.\n\nFor a century, the marketing playbook has been written for human psychology. We designed campa",
-        "description": "Pratik Bhadra is CEO North America at Netcore and Netcore Unbxd.\n\nFor a century, the marketing playbook has been written for human psychology. We designed campaigns to appeal to hu",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Forbes",
-        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/09/11/the-era-of-b2a-marketing-position-your-brand-to-appeal-to-agents/"
-      },
-      {
-        "name": "Feed to Feat: Can Meta Unlock the AI Agent Cash Machine?",
-        "provider": "Market Beat",
-        "type": "AI 项目/工具",
-        "bestFor": "For years, investors have wondered how social media leaders would convert their substantial artificial intelligence spending into high-margin, recurring softwar",
-        "description": "For years, investors have wondered how social media leaders would convert their substantial artificial intelligence spending into high-margin, recurring software revenue.\n\nMeta Pla",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Market Beat",
-        "url": "https://www.marketbeat.com/articles/feed-to-feat-can-meta-unlock-the-ai-agent-cash-machine/"
       }
     ],
     "ai-models": [
+      {
+        "name": "Fujitsu Ltd: Sony Bank and Fujitsu apply Generative AI to Co",
+        "provider": "FinanzNachrichten.de",
+        "type": "AI 项目/工具",
+        "bestFor": "Achieving 30% reduction in development period from basic design to integration testing\n\nTokyo and Kawasaki, Japan, Sept 14, 2026 - (JCN Newswire) - Sony Bank, I",
+        "description": "Achieving 30% reduction in development period from basic design to integration testing\n\nTokyo and Kawasaki, Japan, Sept 14, 2026 - (JCN Newswire) - Sony Bank, Inc. (Sony Bank) and ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "FinanzNachrichten.de",
+        "url": "https://www.finanznachrichten.de/nachrichten-2026-09/69569550-fujitsu-ltd-sony-bank-and-fujitsu-apply-generative-ai-to-core-banking-system-development-011.htm"
+      },
+      {
+        "name": "iOS 27 launch in India on 14 September: Apple introduces iPh",
+        "provider": "mint",
+        "type": "AI 项目/工具",
+        "bestFor": "Apple will launch iOS 27 to compatible iPhone models worldwide today, 14 September. The update brings changes to Siri, the Liquid Glass interface, Visual Intell",
+        "description": "Apple will launch iOS 27 to compatible iPhone models worldwide today, 14 September. The update brings changes to Siri, the Liquid Glass interface, Visual Intelligence, and parental",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "mint",
+        "url": "https://www.livemint.com/technology/ios-27-launch-in-india-on-14-september-apple-introduces-iphone-handoff-time-supported-devices-11789368613402.html"
+      },
+      {
+        "name": "iOS 27 releases today: New features and how to update",
+        "provider": "NewsBytes",
+        "type": "AI 项目/工具",
+        "bestFor": "The update will be delivered as an over-the-air (OTA) software update on compatible iPhones.\n\nApple will start rolling out the highly anticipated iOS 27 update ",
+        "description": "The update will be delivered as an over-the-air (OTA) software update on compatible iPhones.\n\nApple will start rolling out the highly anticipated iOS 27 update for compatible iPhon",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsBytes",
+        "url": "https://www.newsbytesapp.com/news/science/ios-27-releases-today-new-features-and-how-to-update/story"
+      },
+      {
+        "name": "Apple iOS 27 Release Today: Check India Rollout Time, Suppor",
+        "provider": "Gadgets Now",
+        "type": "AI 项目/工具",
+        "bestFor": "I love telling stories about technology that actually matter. I enjoy going beyond specs and buzzwords to understand how tech is changing the way we live, work ",
+        "description": "I love telling stories about technology that actually matter. I enjoy going beyond specs and buzzwords to understand how tech is changing the way we live, work and connect. I start",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Gadgets Now",
+        "url": "https://gadgetsnow.indiatimes.com/tech-news/apple-ios-27-release-today-check-india-rollout-time-supported-iphones-and-download-steps/articleshow/134233899.cms"
+      },
+      {
+        "name": "Apple rolling out iOS 27 today: Check new features, compatib",
+        "provider": "India Today",
+        "type": "AI 项目/工具",
+        "bestFor": "Apple will start rolling out iOS 27 to compatible iPhones on September 14. The update brings a new Siri experience, interface changes, Visual Intelligence upgra",
+        "description": "Apple will start rolling out iOS 27 to compatible iPhones on September 14. The update brings a new Siri experience, interface changes, Visual Intelligence upgrades and wider parent",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "India Today",
+        "url": "https://www.indiatoday.in/technology/news/story/apple-rolling-out-ios-27-today-check-new-features-compatible-iphones-and-how-to-download-2994091-2026-09-14"
+      },
       {
         "name": "Bank of Baroda unveils new mobile banking app with voice-ena",
         "provider": "Asian Banking & Finance",
@@ -6835,64 +6917,31 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Analytics Insight",
         "url": "https://www.analyticsinsight.net/news/google-gemini-windows-app-is-here-how-to-download-and-use-it"
-      },
-      {
-        "name": "Gemini Notebook keeps mind-map creation in its desktop exper",
-        "provider": "Bangla news",
-        "type": "AI 项目/工具",
-        "bestFor": "Google's Gemini Notebook supports mind-map creation in its desktop experience, but the company's help page says the mobile app does not support the feature at t",
-        "description": "Google's Gemini Notebook supports mind-map creation in its desktop experience, but the company's help page says the mobile app does not support the feature at this time. The differ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Bangla news",
-        "url": "https://inews.zoombangla.com/gemini-notebook-mind-maps-desktop-not-mobile/"
-      },
-      {
-        "name": "World News | Iranian President Pezeshkian Arrives in Delhi t",
-        "provider": "LatestLY",
-        "type": "AI 项目/工具",
-        "bestFor": "New Delhi [India], September 11 (ANI): Iranian President Masoud Pezeshkian arrived in the national capital on Friday to attend the 18th BRICS Summit 2026; he wi",
-        "description": "New Delhi [India], September 11 (ANI): Iranian President Masoud Pezeshkian arrived in the national capital on Friday to attend the 18th BRICS Summit 2026; he will also hold a bilat",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "LatestLY",
-        "url": "https://www.latestly.com/agency-news/world-news-iranian-president-pezeshkian-arrives-in-delhi-to-attend-18th-brics-summit-7599816.html"
-      },
-      {
-        "name": "OpenRouter 评测 Seedance 2.5：长镜头与已有素材编辑的场景及成本解析",
-        "provider": "OpenRouter：Announcements（RSS）",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenRouter 发布对 ByteDance Seedance 2.5 视频模型的评测，该模型自 2026 年 8 月 7 日上线其视频 API，生成 4 到 30 秒、480p 或 720p 的片段，支持图像、视频、音频引用和首尾帧控制，音频同趟生成不加价。",
-        "description": "OpenRouter 发布对 ByteDance Seedance 2.5 视频模型的评测，该模型自 2026 年 8 月 7 日上线其视频 API，生成 4 到 30 秒、480p 或 720p 的片段，支持图像、视频、音频引用和首尾帧控制，音频同趟生成不加价。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "OpenRouter：Announcements（RSS）",
-        "url": "https://openrouter.ai/blog/insights/seedance-2-5-review"
-      },
-      {
-        "name": "Meta's Muse climbs to 2nd spot on US App Store",
-        "provider": "NewsBytes",
-        "type": "AI 项目/工具",
-        "bestFor": "Meta's new artificial intelligence (AI) app, Muse, has taken the US by storm. The app was launched on Tuesday and has already become a hot topic among industry ",
-        "description": "Meta's new artificial intelligence (AI) app, Muse, has taken the US by storm. The app was launched on Tuesday and has already become a hot topic among industry players on social me",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsBytes",
-        "url": "https://www.newsbytesapp.com/news/science/meta-s-muse-climbs-us-app-store-rankings/story"
-      },
-      {
-        "name": "Google releases a Gemini app for Windows - BetaNews",
-        "provider": "BetaNews",
-        "type": "AI 项目/工具",
-        "bestFor": "Having already done so for macOS, Google has finally released a dedicated Gemini app for Windows. With the free app installed, it is possible to call up the AI ",
-        "description": "Having already done so for macOS, Google has finally released a dedicated Gemini app for Windows. With the free app installed, it is possible to call up the AI assistant with a sim",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "BetaNews",
-        "url": "https://betanews.com/article/google-releases-a-gemini-app-for-windows/"
       }
     ],
     "ai-business": [
+      {
+        "name": "TCL On A Roll At IFA 2026 Tvs, Smartglasses & New Smartphone",
+        "provider": "SmartHouse",
+        "type": "AI 项目/工具",
+        "bestFor": "TCL Unveils SQD-Mini LED Flagship, Eyes Australian Market with New Smartphone Line at IFA 2026 challenging the RGB-LED approaches of Samsung, Sony, LG, and Hise",
+        "description": "TCL Unveils SQD-Mini LED Flagship, Eyes Australian Market with New Smartphone Line at IFA 2026 challenging the RGB-LED approaches of Samsung, Sony, LG, and Hisense.\n\nAt its press c",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "SmartHouse",
+        "url": "https://www.smarthouse.com.au/ifa-2026-tcl-unveils-new-tvs-smart-glasses-and-australia-bound-p80-phones/"
+      },
+      {
+        "name": "iOS 27 Update Today: When To Expect It In India And Which iP",
+        "provider": "thedailyjagran.com",
+        "type": "AI 项目/工具",
+        "bestFor": "Apple is rolling out iOS 27 today, September 14, bringing its latest iPhone software to compatible models in India and other markets. The update was first shown",
+        "description": "Apple is rolling out iOS 27 today, September 14, bringing its latest iPhone software to compatible models in India and other markets. The update was first shown at WWDC 2026 and ha",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "thedailyjagran.com",
+        "url": "https://www.thedailyjagran.com/technology/news/ios-27-update-today-when-to-expect-it-in-india-and-which-iphones-are-eligible-10329028"
+      },
       {
         "name": "Amazon Stock Trades at Rare Discount as Andy Jassy Bets $220",
         "provider": "International Business Times AU",
@@ -7310,28 +7359,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Market Screener",
         "url": "https://www.marketscreener.com/news/midea-unveils-new-ai-powered-home-ecosystem-and-appliances-at-ifa-2026-ce785bdbdb8ff522"
-      },
-      {
-        "name": "Asia Shifts from Digital Transformation to Global Leadership",
-        "provider": "Thailand Business News",
-        "type": "AI 项目/工具",
-        "bestFor": "Beyond hardware, major Asia-Pacific economies are developing domestic large language models and sovereign compute infrastructure, backed by significant capital ",
-        "description": "Beyond hardware, major Asia-Pacific economies are developing domestic large language models and sovereign compute infrastructure, backed by significant capital commitments and form",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Thailand Business News",
-        "url": "https://www.thailand-business-news.com/asean/319514-asia-shifts-from-digital-transformation-to-global-leadership"
-      },
-      {
-        "name": "HTC brings its smart glasses to the US as privacy backlash g",
-        "provider": "The Star",
-        "type": "AI 项目/工具",
-        "bestFor": "HTC Corp is rolling out its Vive Eagle smart glasses in the US, entering a market where category leader Meta Platforms Inc is already facing mounting concerns f",
-        "description": "HTC Corp is rolling out its Vive Eagle smart glasses in the US, entering a market where category leader Meta Platforms Inc is already facing mounting concerns from consumers over c",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Star",
-        "url": "https://www.thestar.com.my/tech/tech-news/2026/09/04/htc-brings-its-smart-glasses-to-the-us-as-privacy-backlash-grows"
       }
     ],
     "ai-benchmark": [
@@ -7909,6 +7936,17 @@
     ],
     "ai-image-video": [
       {
+        "name": "Ganesh Chaturthi AI photo: 5 best prompts to turn your photo",
+        "provider": "The Times of India",
+        "type": "AI 项目/工具",
+        "bestFor": "Want to create a special photo with Lord Ganesha this Ganesh Chaturthi? AI image tools like OpenAI's ChatGPT and Google Gemini can turn a regular picture into a",
+        "description": "Want to create a special photo with Lord Ganesha this Ganesh Chaturthi? AI image tools like OpenAI's ChatGPT and Google Gemini can turn a regular picture into a festive portrait fe",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Times of India",
+        "url": "https://timesofindia.indiatimes.com/technology/tech-news/ganesh-chaturthi-ai-photo-5-best-prompts-to-turn-your-photo-into-a-ganesh-chaturthi-image/articleshow/134233918.cms"
+      },
+      {
         "name": "Ganesh Chaturthi 2026: Best AI prompts to create Ganesh imag",
         "provider": "MoneyControl",
         "type": "AI 项目/工具",
@@ -8376,21 +8414,6 @@
         "watch": "生成内容的真实性无法保证，可能导致用户对信息的信任下降，影响决策。",
         "sourceName": "NewsAPI:generative AI",
         "url": "https://forkast.news/google-pulls-ai-satellite-imagery-feature-after-less-than-24-hours/"
-      },
-      {
-        "name": "Snapchat 停止推荐完全由 AI 生成的视频",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "Snapchat 的这一政策变动可能会影响到内容创作者的行为，尤其是那些依赖 AI 生成内容的用户。随着平台对 AI 内容的限制，创作者可能会重新考虑他们的内容策略，以确保符合平台的推荐标准。此外，这一政策可能会促使其他平台采取类似措施，从而在整个行业内引发连锁反应。用户将更倾向于关注和分享真实的人类创作内容，这可能会",
-        "description": "Snapchat 宣布将不再在 Spotlight 中推荐完全由 AI 生成的视频，旨在优先展示真实的人类创作内容。这一政策变动与 LinkedIn 和 YouTube 的类似举措一致，反映出对 AI 内容质量的广泛关注。用户仍可上传 AI 生成的视频，但这些视频不会被推荐给未关注创作者的用户。",
-        "useCases": [
-          "上传使用 Snapchat AI 功能编辑的视频，确保内容符合推荐标准。",
-          "监测 Spotlight 中的内容趋势，调整创作策略以适应平台政策。",
-          "利用数据分析工具评估用户对人类创作内容的反应，优化内容发布计划。"
-        ],
-        "watch": "可能面临 API 调用限制，影响内容上传和推荐的频率。",
-        "sourceName": "NewsAPI:generative AI",
-        "url": "https://thenextweb.com/news/snapchat-spotlight-bans-ai-generated-videos-recommendations"
       }
     ],
     "ai-research": [
@@ -10241,7 +10264,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-14",
-    "generatedAt": "2026-09-14T05:30:49.387321Z",
+    "generatedAt": "2026-09-14T09:19:50.145703Z",
     "total": 24,
     "sections": [
       {
@@ -10443,6 +10466,17 @@
             "reason": ""
           },
           {
+            "title": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
+            "summary": "",
+            "source": "RSS · Hugging Face Blog",
+            "url": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-10",
+            "publishedAt": "2026-09-10T08:00",
+            "reason": ""
+          },
+          {
             "title": "Negative Self-Distillation: Learning to Reason by Avoiding Flaws",
             "summary": "On-Policy Self-Distillation (OPSD) has emerged as a popular paradigm for large language model (LLM) self-improvement, allowing models to act",
             "source": "arXiv",
@@ -10458,17 +10492,6 @@
             "summary": "Large language models are often fine-tuned, shared, or downloaded from third parties, so a deployed model may carry a hidden backdoor that b",
             "source": "arXiv",
             "url": "http://arxiv.org/abs/2609.11799v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-10",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Explainability Assistant: A Conversational XAI Interface for Interpreting Energy Consumption Models",
-            "summary": "Energy consumption forecasting relies on increasingly complex machine learning (ML) models, such as Genetic Programming-based symbolic regre",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.11860v1",
             "score": 70,
             "sourceCount": 1,
             "date": "2026-09-10",
