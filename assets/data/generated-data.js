@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-15",
-  "generatedAt": "2026-09-14T16:50:41.961620Z",
+  "generatedAt": "2026-09-14T18:01:00.083630Z",
   "news": [
     {
       "title": "DevFest is back",
@@ -8974,6 +8974,76 @@ window.AI_GENERATED_DATA = {
   },
   "skillRecommendations": [
     {
+      "title": "microsoft/autogen",
+      "type": "编程开发",
+      "description": "A programming framework for agentic AI",
+      "tags": [
+        "Python",
+        "编程开发",
+        "GitHub"
+      ],
+      "url": "https://github.com/microsoft/autogen",
+      "source": "GitHub",
+      "stars": 60980,
+      "date": "2026-09-15"
+    },
+    {
+      "title": "ayghri/i-have-adhd",
+      "type": "编程开发",
+      "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+      "tags": [
+        "Python",
+        "编程开发",
+        "GitHub"
+      ],
+      "url": "https://github.com/ayghri/i-have-adhd",
+      "source": "GitHub",
+      "stars": 45209,
+      "date": "2026-09-15"
+    },
+    {
+      "title": "reactive-resume/reactive-resume",
+      "type": "MCP 服务",
+      "description": "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today!",
+      "tags": [
+        "TypeScript",
+        "MCP 服务",
+        "GitHub"
+      ],
+      "url": "https://github.com/reactive-resume/reactive-resume",
+      "source": "GitHub",
+      "stars": 42845,
+      "date": "2026-09-15"
+    },
+    {
+      "title": "2noise/ChatTTS",
+      "type": "语音 / 音频",
+      "description": "A generative speech model for daily dialogue.",
+      "tags": [
+        "Python",
+        "语音 / 音频",
+        "GitHub"
+      ],
+      "url": "https://github.com/2noise/ChatTTS",
+      "source": "GitHub",
+      "stars": 39837,
+      "date": "2026-09-15"
+    },
+    {
+      "title": "cathrynlavery/diagram-design",
+      "type": "编程开发",
+      "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "tags": [
+        "HTML",
+        "编程开发",
+        "GitHub"
+      ],
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "source": "GitHub",
+      "stars": 39682,
+      "date": "2026-09-15"
+    },
+    {
       "title": "career-ops-hq/career-ops",
       "type": "编程开发",
       "description": "Open-source AI job search: scan job portals, evaluate listings into a structured A-H report with a global 1-5 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)",
@@ -9041,20 +9111,6 @@ window.AI_GENERATED_DATA = {
       "url": "https://github.com/Hmbown/Codewhale",
       "source": "GitHub",
       "stars": 40920,
-      "date": "2026-09-08"
-    },
-    {
-      "title": "The-Vibe-Company/quivr",
-      "type": "RAG / 知识库",
-      "description": "Opiniated RAG for integrating GenAI in your apps 🧠   Focus on your product rather than the RAG. Easy integration in existing products with customisation!  Any LLM: GPT4, Groq, Llama. Any Vectorstore: PGVector, Faiss. Any Files. Anyway you want.",
-      "tags": [
-        "Python",
-        "RAG / 知识库",
-        "GitHub"
-      ],
-      "url": "https://github.com/The-Vibe-Company/quivr",
-      "source": "GitHub",
-      "stars": 39498,
       "date": "2026-09-08"
     },
     {
@@ -9170,20 +9226,6 @@ window.AI_GENERATED_DATA = {
       "date": "2026-09-01"
     },
     {
-      "title": "HKUDS/LightRAG",
-      "type": "RAG / 知识库",
-      "description": "[EMNLP2025] LightRAG: Simple and Fast Retrieval-Augmented Generation",
-      "tags": [
-        "Python",
-        "RAG / 知识库",
-        "GitHub"
-      ],
-      "url": "https://github.com/HKUDS/LightRAG",
-      "source": "GitHub",
-      "stars": 39290,
-      "date": "2026-09-01"
-    },
-    {
       "title": "anthropics/skills",
       "type": "Claude Skill",
       "description": "Public repository for Agent Skills",
@@ -9223,34 +9265,6 @@ window.AI_GENERATED_DATA = {
       "url": "https://github.com/VoltAgent/awesome-openclaw-skills",
       "source": "GitHub",
       "stars": 52150,
-      "date": "2026-08-25"
-    },
-    {
-      "title": "amruthpillai/reactive-resume",
-      "type": "MCP 服务",
-      "description": "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today!",
-      "tags": [
-        "TypeScript",
-        "MCP 服务",
-        "GitHub"
-      ],
-      "url": "https://github.com/amruthpillai/reactive-resume",
-      "source": "GitHub",
-      "stars": 41644,
-      "date": "2026-08-25"
-    },
-    {
-      "title": "wshobson/agents",
-      "type": "编程开发",
-      "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, and Google Antigravity",
-      "tags": [
-        "Python",
-        "编程开发",
-        "GitHub"
-      ],
-      "url": "https://github.com/wshobson/agents",
-      "source": "GitHub",
-      "stars": 39079,
       "date": "2026-08-25"
     },
     {
@@ -9447,20 +9461,6 @@ window.AI_GENERATED_DATA = {
       "url": "https://github.com/diegosouzapw/OmniRoute",
       "source": "GitHub",
       "stars": 44956,
-      "date": "2026-08-11"
-    },
-    {
-      "title": "Polymarket 数据分析",
-      "type": "编程开发",
-      "description": "实时提供 Polymarket 的市场分析，支持 AI 代理查询活跃的预测市场数据，包括大额交易、市场赔率、交易者资料和排行榜。",
-      "tags": [
-        "市场分析",
-        "实时数据",
-        "交易统计"
-      ],
-      "url": "https://smithery.ai/server/jordan-s648/PolymarketScan",
-      "source": "Smithery MCP",
-      "stars": 39447,
       "date": "2026-08-11"
     },
     {
@@ -10376,7 +10376,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-15",
-    "generatedAt": "2026-09-14T16:50:41.938591Z",
+    "generatedAt": "2026-09-14T18:01:00.049632Z",
     "total": 24,
     "sections": [
       {
