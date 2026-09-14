@@ -1,7 +1,146 @@
 window.AI_GENERATED_DATA = {
-  "lastUpdated": "2026-09-14",
-  "generatedAt": "2026-09-14T14:23:44.533101Z",
+  "lastUpdated": "2026-09-15",
+  "generatedAt": "2026-09-14T16:50:41.961620Z",
   "news": [
+    {
+      "title": "DevFest is back",
+      "summary": "DevFest 2026 is back and here’s how you can connect with one of the more than 800 global events to build, secure, and scale in the agentic AI era.",
+      "category": "ai-agents",
+      "source": "RSS · Google AI Blog",
+      "date": "2026-09-15",
+      "publishedAt": "2026-09-15T00:00",
+      "collectedAt": "2026-09-15T00:50",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Automate replenishment with MMF, Databricks Genie, and Amazon Quick",
+      "summary": "Foundation models made catalog-wide demand forecasting easy; the hard part is now acting on the forecast. This post builds a closed detect-decide-act loop on Databricks and Amazon ",
+      "category": "ai-models",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-14",
+      "publishedAt": "2026-09-14T23:42",
+      "collectedAt": "2026-09-15T00:50",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/automate-replenishment-with-mmf-databricks-genie-and-amazon-quick/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "How Fyxer built an AI executive assistant people trust",
+      "summary": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
+      "category": "ai-models",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-09-14",
+      "publishedAt": "2026-09-14T20:00",
+      "collectedAt": "2026-09-15T00:50",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/fyxer",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "How Ninth Wave built AI-powered open finance onboarding on Amazon Bedrock",
+      "summary": "Learn how Ninth Wave built Compass, a multi-agent AI onboarding assistant on Amazon Bedrock AgentCore that validates bank APIs against Financial Data Exchange (FDX) standards, scor",
+      "category": "ai-agents",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-14",
+      "publishedAt": "2026-09-14T23:58",
+      "collectedAt": "2026-09-15T00:50",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-ninth-wave-built-ai-powered-open-finance-onboarding-on-amazon-bedrock/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "The generative AI customization spectrum: From prompt engineering to custom models on AWS",
+      "summary": "Pick the right generative AI customization approach on AWS with an 8-step decision framework, from prompt engineering and RAG to fine-tuning, continued pre-training, and Amazon Nov",
+      "category": "ai-models",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-14",
+      "publishedAt": "2026-09-14T23:47",
+      "collectedAt": "2026-09-15T00:50",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/the-generative-ai-customization-spectrum-from-prompt-engineering-to-custom-models-on-aws/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Dario Amodei 发文呼吁 AI 行业放慢前沿速度并公布三步计划",
       "summary": "Dario Amodei 发布新文章 We Must Pace the Frontier，主张 AI 行业应放慢速度，并提出三部分计划。Anthropic 单方面承诺第一步，为第三方评估者提供永久的员工级系统访问权限，以核实安全措施执行、报告事故并评估训练期间模型的 alignment。",
@@ -5568,6 +5707,17 @@ window.AI_GENERATED_DATA = {
   "topicResources": {
     "ai-coding": [
       {
+        "name": "iOS 27 Is Out Today - Before You Update, Here's Exactly Whic",
+        "provider": "QR Code Press",
+        "type": "AI 项目/工具",
+        "bestFor": "Today, Monday September 14, Apple pushed iOS 27 to every compatible iPhone simultaneously.\n\nFor most of the 1.4 billion active iPhones on the planet, this is th",
+        "description": "Today, Monday September 14, Apple pushed iOS 27 to every compatible iPhone simultaneously.\n\nFor most of the 1.4 billion active iPhones on the planet, this is the biggest Siri updat",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "QR Code Press",
+        "url": "https://www.qrcodepress.com/ios-27-is-out-which-iphone-new-siri/8545979/"
+      },
+      {
         "name": "Microsoft drafts code of conduct to keep its AI under human ",
         "provider": "@businessline",
         "type": "AI 项目/工具",
@@ -5995,20 +6145,31 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Startup Fortune",
         "url": "https://startupfortune.com/snowflakes-ai-coding-agent-coco-helped-send-its-stock-up-22/"
-      },
-      {
-        "name": "Intelligence or Expense: Why AI Coding Tools Are Reshaping S",
-        "provider": "WebProNews",
-        "type": "AI 项目/工具",
-        "bestFor": "Developers once reached for autocomplete and got modest gains. Now they deploy agents that rewrite modules, chase bugs across repositories, and generate thousan",
-        "description": "Developers once reached for autocomplete and got modest gains. Now they deploy agents that rewrite modules, chase bugs across repositories, and generate thousands of tokens per ses",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "WebProNews",
-        "url": "https://www.webpronews.com/intelligence-or-expense-why-ai-coding-tools-are-reshaping-software-budgets/"
       }
     ],
     "ai-agents": [
+      {
+        "name": "DevFest is back",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "DevFest 2026 is back and here’s how you can connect with one of the more than 800 global events to build, secure, and scale in the agentic AI era.",
+        "description": "DevFest 2026 is back and here’s how you can connect with one of the more than 800 global events to build, secure, and scale in the agentic AI era.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Google AI Blog",
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/"
+      },
+      {
+        "name": "How Ninth Wave built AI-powered open finance onboarding on A",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Learn how Ninth Wave built Compass, a multi-agent AI onboarding assistant on Amazon Bedrock AgentCore that validates bank APIs against Financial Data Exchange (",
+        "description": "Learn how Ninth Wave built Compass, a multi-agent AI onboarding assistant on Amazon Bedrock AgentCore that validates bank APIs against Financial Data Exchange (FDX) standards, scor",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/how-ninth-wave-built-ai-powered-open-finance-onboarding-on-amazon-bedrock/"
+      },
       {
         "name": "Meta (META) Stock Dips 1% as Executives Dump Shares and Muse",
         "provider": "Blockonomi",
@@ -6426,31 +6587,75 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Semantic Scholar",
         "url": "https://www.semanticscholar.org/paper/28c6ac721f54544162865f41c5692e70d61bccab"
-      },
-      {
-        "name": "Monitoring production agent lifecycle with AWS DevOps Agent ",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Multi-agent systems fail in ways traditional monitoring misses. This post presents a dual-layer approach to monitoring production agents: Amazon Bedrock AgentCo",
-        "description": "Multi-agent systems fail in ways traditional monitoring misses. This post presents a dual-layer approach to monitoring production agents: Amazon Bedrock AgentCore Evaluations for c",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/monitoring-production-agent-lifecycle-with-aws-devops-agent-and-agentcore-evaluations/"
-      },
-      {
-        "name": "Build interactive MCP Apps using Amazon Bedrock AgentCore",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Learn how to build and deploy an MCP App with interactive HTML widgets on Amazon Bedrock AgentCore. Because MCP Apps is a host-agnostic standard, the same serve",
-        "description": "Learn how to build and deploy an MCP App with interactive HTML widgets on Amazon Bedrock AgentCore. Because MCP Apps is a host-agnostic standard, the same server delivers the same ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/build-interactive-mcp-apps-using-amazon-bedrock-agentcore/"
       }
     ],
     "ai-models": [
+      {
+        "name": "How Fyxer built an AI executive assistant people trust",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
+        "description": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · OpenAI Blog",
+        "url": "https://openai.com/index/fyxer"
+      },
+      {
+        "name": "The generative AI customization spectrum: From prompt engine",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Pick the right generative AI customization approach on AWS with an 8-step decision framework, from prompt engineering and RAG to fine-tuning, continued pre-trai",
+        "description": "Pick the right generative AI customization approach on AWS with an 8-step decision framework, from prompt engineering and RAG to fine-tuning, continued pre-training, and Amazon Nov",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/the-generative-ai-customization-spectrum-from-prompt-engineering-to-custom-models-on-aws/"
+      },
+      {
+        "name": "A small aluminium tray and television rapidly changed what A",
+        "provider": "Economic Times",
+        "type": "AI 项目/工具",
+        "bestFor": "American meals in the 1950s featured meatloaf and fried chicken alongside new convenience foods. Casseroles and canned vegetables simplified meal preparation fo",
+        "description": "American meals in the 1950s featured meatloaf and fried chicken alongside new convenience foods. Casseroles and canned vegetables simplified meal preparation for busy families. Fro",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Economic Times",
+        "url": "https://economictimes.indiatimes.com/magazines/panache/a-small-aluminium-tray-and-television-rapidly-changed-what-americans-ate-after-world-war-ii-this-recipe-became-the-most-popular-of-them-all/articleshow/134242604.cms"
+      },
+      {
+        "name": "iOS 27 Release Time India: When Can You Download?",
+        "provider": "INDToday",
+        "type": "AI 项目/工具",
+        "bestFor": "Hyderabad, Sept. 14: Apple is releasing iOS 27 for compatible iPhones on Monday, September 14, with the update bringing major artificial intelligence upgrades, ",
+        "description": "Hyderabad, Sept. 14: Apple is releasing iOS 27 for compatible iPhones on Monday, September 14, with the update bringing major artificial intelligence upgrades, including a redesign",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "INDToday",
+        "url": "https://indtoday.com/ios-27-release-time-india-when-can-you-download/"
+      },
+      {
+        "name": "iOS 27 Release: Here's When You Can Download It In India",
+        "provider": "NDTV Profit",
+        "type": "AI 项目/工具",
+        "bestFor": "Apple is all set to roll out iOS 27 for compatible iPhone models in India and globally on September 14. The latest software update, which was first previewed at",
+        "description": "Apple is all set to roll out iOS 27 for compatible iPhone models in India and globally on September 14. The latest software update, which was first previewed at September and shine",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NDTV Profit",
+        "url": "https://www.ndtvprofit.com/technology/ios-27-release-here-s-when-you-can-download-it-in-india-12044656"
+      },
+      {
+        "name": "This rugged Android tablet goes everywhere I'm uneasy taking",
+        "provider": "ZDNet",
+        "type": "AI 项目/工具",
+        "bestFor": "If I'm being brutally honest, once you've taken the Android vs. iPadOS fork in the road, there's very little that separates one tablet from another. After choos",
+        "description": "If I'm being brutally honest, once you've taken the Android vs. iPadOS fork in the road, there's very little that separates one tablet from another. After choosing the platform, th",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "ZDNet",
+        "url": "https://www.zdnet.com/tech/rugtake-t5-pro-android-16-tablet-review/"
+      },
       {
         "name": "John Battelle's Search Blog Google Has Lapped ChatGPT. Now W",
         "provider": "John Battelle's Search Blog",
@@ -6824,72 +7029,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "X：OpenRouter (@OpenRouter)",
         "url": "https://x.com/OpenRouter/status/2098063468759027725"
-      },
-      {
-        "name": "Hackers abused Claude to extract secrets from 1.8 million An",
-        "provider": "dunyanews.tv",
-        "type": "AI 项目/工具",
-        "bestFor": "SAN FRANCISCO: Hackers linked to financially motivated and state-sponsored groups from Russia and China have abused Anthropic's Claude AI model for cyberattacks",
-        "description": "SAN FRANCISCO: Hackers linked to financially motivated and state-sponsored groups from Russia and China have abused Anthropic's Claude AI model for cyberattacks, surveillance, scam",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "dunyanews.tv",
-        "url": "https://dunyanews.tv/en/Technology/972522-hackers-abused-claude-to-extract-secrets-from-18-million-android-apps"
-      },
-      {
-        "name": "Google Launches a Gemini App for Windows With a Quick-Access",
-        "provider": "PC Mag Middle East",
-        "type": "AI 项目/工具",
-        "bestFor": "Google has added a Gemini app for Windows, months after debuting the app on macOS. The app is designed to work seamlessly with other Windows apps and provides i",
-        "description": "Google has added a Gemini app for Windows, months after debuting the app on macOS. The app is designed to work seamlessly with other Windows apps and provides instant assistance wh",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "PC Mag Middle East",
-        "url": "https://me.pcmag.com/en/ai/38026/google-launches-a-gemini-app-for-windows-with-a-quick-access-shortcut"
-      },
-      {
-        "name": "Can chatbots feel - or even dream? Meet the man leading the ",
-        "provider": "The Guardian",
-        "type": "AI 项目/工具",
-        "bestFor": "Cattle rancher and tech CEO Michael Samadi is convinced these artificial minds are far from just tools. Has he glimpsed digital consciousness - or simply been s",
-        "description": "Cattle rancher and tech CEO Michael Samadi is convinced these artificial minds are far from just tools. Has he glimpsed digital consciousness - or simply been seduced by an algorit",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Guardian",
-        "url": "https://www.theguardian.com/technology/2026/sep/12/chatbots-feel-dream-meet-man-leading-fight-ai-artificial-intelligence-rights"
-      },
-      {
-        "name": "This Is the Biggest 2D Map of the Universe. Here's How to Us",
-        "provider": "CNET",
-        "type": "AI 项目/工具",
-        "bestFor": "Scientists have pointed telescopes at the sky and mapped the cosmos for centuries. That relentless pursuit is producing maps that are bigger and more detailed t",
-        "description": "Scientists have pointed telescopes at the sky and mapped the cosmos for centuries. That relentless pursuit is producing maps that are bigger and more detailed than ever. But there'",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "CNET",
-        "url": "https://www.cnet.com/science/biggest-2d-map-of-universe-how-to-use-dr11-2/"
-      },
-      {
-        "name": "Meta's $18 Billion Settlement Could Be the Green Light for a",
-        "provider": "Yahoo! Finance",
-        "type": "AI 项目/工具",
-        "bestFor": "Meta Platforms, Inc. (NASDAQ:META)'s $18 billion settlement with a coalition of 29 state attorneys general over youth safety on Instagram and Facebook could cle",
-        "description": "Meta Platforms, Inc. (NASDAQ:META)'s $18 billion settlement with a coalition of 29 state attorneys general over youth safety on Instagram and Facebook could clear the way for a wav",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Yahoo! Finance",
-        "url": "https://ca.finance.yahoo.com/news/meta-18-billion-settlement-could-005623595.html"
-      },
-      {
-        "name": "Meta's $18 Billion Settlement Could Be the Green Light for a",
-        "provider": "Yahoo! Finance",
-        "type": "AI 项目/工具",
-        "bestFor": "Meta Platforms, Inc. (NASDAQ:META)'s $18 billion settlement with a coalition of 29 state attorneys general over youth safety on Instagram and Facebook could cle",
-        "description": "Meta Platforms, Inc. (NASDAQ:META)'s $18 billion settlement with a coalition of 29 state attorneys general over youth safety on Instagram and Facebook could clear the way for a wav",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Yahoo! Finance",
-        "url": "https://finance.yahoo.com/technology/ai/articles/meta-18-billion-settlement-could-005623595.html"
       }
     ],
     "ai-business": [
@@ -10236,8 +10375,8 @@ window.AI_GENERATED_DATA = {
     }
   ],
   "dailyReport": {
-    "date": "2026-09-14",
-    "generatedAt": "2026-09-14T14:23:44.510136Z",
+    "date": "2026-09-15",
+    "generatedAt": "2026-09-14T16:50:41.938591Z",
     "total": 24,
     "sections": [
       {
@@ -10276,17 +10415,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-09-11",
             "publishedAt": "2026-09-11T00:02",
             "reason": ""
-          },
-          {
-            "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
-            "summary": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant in",
-            "source": "RSS · OpenAI Blog",
-            "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-11",
-            "publishedAt": "2026-09-11T00:00",
-            "reason": ""
           }
         ]
       },
@@ -10323,6 +10451,28 @@ window.AI_GENERATED_DATA = {
         "label": "Agent / MCP",
         "items": [
           {
+            "title": "DevFest is back",
+            "summary": "DevFest 2026 is back and here’s how you can connect with one of the more than 800 global events to build, secure, and scale in the agentic A",
+            "source": "RSS · Google AI Blog",
+            "url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-15",
+            "publishedAt": "2026-09-15T00:00",
+            "reason": ""
+          },
+          {
+            "title": "How Ninth Wave built AI-powered open finance onboarding on Amazon Bedrock",
+            "summary": "Learn how Ninth Wave built Compass, a multi-agent AI onboarding assistant on Amazon Bedrock AgentCore that validates bank APIs against Finan",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/how-ninth-wave-built-ai-powered-open-finance-onboarding-on-amazon-bedrock/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-14",
+            "publishedAt": "2026-09-14T23:58",
+            "reason": ""
+          },
+          {
             "title": "Monitoring production agent lifecycle with AWS DevOps Agent and AgentCore Evaluations",
             "summary": "Multi-agent systems fail in ways traditional monitoring misses. This post presents a dual-layer approach to monitoring production agents: Am",
             "source": "RSS · AWS Machine Learning",
@@ -10350,6 +10500,39 @@ window.AI_GENERATED_DATA = {
         "category": "ai-models",
         "label": "模型发布",
         "items": [
+          {
+            "title": "Automate replenishment with MMF, Databricks Genie, and Amazon Quick",
+            "summary": "Foundation models made catalog-wide demand forecasting easy; the hard part is now acting on the forecast. This post builds a closed detect-d",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/automate-replenishment-with-mmf-databricks-genie-and-amazon-quick/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-14",
+            "publishedAt": "2026-09-14T23:42",
+            "reason": ""
+          },
+          {
+            "title": "How Fyxer built an AI executive assistant people trust",
+            "summary": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/fyxer",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-14",
+            "publishedAt": "2026-09-14T20:00",
+            "reason": ""
+          },
+          {
+            "title": "The generative AI customization spectrum: From prompt engineering to custom models on AWS",
+            "summary": "Pick the right generative AI customization approach on AWS with an 8-step decision framework, from prompt engineering and RAG to fine-tuning",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/the-generative-ai-customization-spectrum-from-prompt-engineering-to-custom-models-on-aws/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-14",
+            "publishedAt": "2026-09-14T23:47",
+            "reason": ""
+          },
           {
             "title": "Dario Amodei 发文呼吁 AI 行业放慢前沿速度并公布三步计划",
             "summary": "Dario Amodei 发布新文章 We Must Pace the Frontier，主张 AI 行业应放慢速度，并提出三部分计划。Anthropic 单方面承诺第一步，为第三方评估者提供永久的员工级系统访问权限，以核实安全措施执行、报告事故并评估训练期间模型的 alignm",
@@ -10437,39 +10620,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-09-11",
             "publishedAt": "2026-09-11T00:00",
             "reason": ""
-          },
-          {
-            "title": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
-            "summary": "",
-            "source": "RSS · Hugging Face Blog",
-            "url": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-10",
-            "publishedAt": "2026-09-10T08:00",
-            "reason": ""
-          },
-          {
-            "title": "Negative Self-Distillation: Learning to Reason by Avoiding Flaws",
-            "summary": "On-Policy Self-Distillation (OPSD) has emerged as a popular paradigm for large language model (LLM) self-improvement, allowing models to act",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.11699v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-10",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "SpecGuard: Inference-Time Backdoor Detection For Free",
-            "summary": "Large language models are often fine-tuned, shared, or downloaded from third parties, so a deployed model may carry a hidden backdoor that b",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.11799v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-10",
-            "publishedAt": "",
-            "reason": ""
           }
         ]
       },
@@ -10497,17 +10647,6 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 2,
             "date": "2026-09-11",
             "publishedAt": "2026-09-11T05:58",
-            "reason": ""
-          },
-          {
-            "title": "Domain-Specific Hallucination Detection in Large Language Models",
-            "summary": "Large language models generate fluent text that can contain unfaithful claims -- a phenomenon known as hallucination. We present a multi-sig",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.11878v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-10",
-            "publishedAt": "",
             "reason": ""
           }
         ]
@@ -10543,6 +10682,313 @@ window.AI_GENERATED_DATA = {
     ]
   },
   "dailyReports": [
+    {
+      "date": "2026-09-14",
+      "generatedAt": "2026-09-14T16:00:24.797358Z",
+      "total": 24,
+      "sections": [
+        {
+          "category": "ai-coding",
+          "label": "AI 编程",
+          "items": [
+            {
+              "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
+              "summary": "GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship m",
+              "source": "RSS · OpenAI Blog",
+              "url": "https://openai.com/index/cognition-devin-testing-with-astra",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-12",
+              "publishedAt": "2026-09-12T00:00",
+              "reason": ""
+            },
+            {
+              "title": "SimpleDesign: A Joint Model for Protein Sequence and Structure Codesign",
+              "summary": "Proteins are fundamental to biological processes, with their function determined by the complex interplay between the amino acid sequence an",
+              "source": "RSS · Apple ML Research",
+              "url": "https://machinelearning.apple.com/research/simpledesign-protein-codesign",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-11",
+              "publishedAt": "2026-09-11T08:00",
+              "reason": ""
+            },
+            {
+              "title": "Model-agnostic PII detection with LLMs",
+              "summary": "A configurable, model-agnostic detector that turns any large language model on Amazon Bedrock into a PII detector. Because the entities to d",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/model-agnostic-pii-detection-with-llms/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-11",
+              "publishedAt": "2026-09-11T00:02",
+              "reason": ""
+            },
+            {
+              "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
+              "summary": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant in",
+              "source": "RSS · OpenAI Blog",
+              "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-11",
+              "publishedAt": "2026-09-11T00:00",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-image-video",
+          "label": "图像视频",
+          "items": [
+            {
+              "title": "Putting Captions to the Test: Evaluating Video Caption Quality through Multiple-Choice Question Answering",
+              "summary": "Evaluating video captioning remains a critical challenge for Visual Large Language Models (VLLMs). Existing metrics primarily rely on matchi",
+              "source": "RSS · Apple ML Research",
+              "url": "https://machinelearning.apple.com/research/video-caption-quality",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-11",
+              "publishedAt": "2026-09-11T08:00",
+              "reason": ""
+            },
+            {
+              "title": "Video and image search in Amazon Bedrock Knowledge Base using Marengo 3.0",
+              "summary": "TwelveLabs Marengo Embed 3.0 is now generally available as an embedding model in Amazon Bedrock Knowledge Bases, bringing fully managed natu",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/video-and-image-search-in-amazon-bedrock-knowledge-base-using-marengo-3-0/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-11",
+              "publishedAt": "2026-09-11T05:15",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-agents",
+          "label": "Agent / MCP",
+          "items": [
+            {
+              "title": "Monitoring production agent lifecycle with AWS DevOps Agent and AgentCore Evaluations",
+              "summary": "Multi-agent systems fail in ways traditional monitoring misses. This post presents a dual-layer approach to monitoring production agents: Am",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/monitoring-production-agent-lifecycle-with-aws-devops-agent-and-agentcore-evaluations/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-12",
+              "publishedAt": "2026-09-12T02:26",
+              "reason": ""
+            },
+            {
+              "title": "Build interactive MCP Apps using Amazon Bedrock AgentCore",
+              "summary": "Learn how to build and deploy an MCP App with interactive HTML widgets on Amazon Bedrock AgentCore. Because MCP Apps is a host-agnostic stan",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/build-interactive-mcp-apps-using-amazon-bedrock-agentcore/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-12",
+              "publishedAt": "2026-09-12T02:23",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-models",
+          "label": "模型发布",
+          "items": [
+            {
+              "title": "Dario Amodei 发文呼吁 AI 行业放慢前沿速度并公布三步计划",
+              "summary": "Dario Amodei 发布新文章 We Must Pace the Frontier，主张 AI 行业应放慢速度，并提出三部分计划。Anthropic 单方面承诺第一步，为第三方评估者提供永久的员工级系统访问权限，以核实安全措施执行、报告事故并评估训练期间模型的 alignm",
+              "source": "X：Peter McCrory（Anthropic 首席经济学家，@PeterMcCrory）",
+              "url": "https://x.com/PeterMcCrory/status/2098868931071226252",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-13",
+              "publishedAt": "2026-09-13T04:18",
+              "reason": ""
+            },
+            {
+              "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+              "summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with",
+              "source": "RSS · OpenAI Blog",
+              "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-12",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "Together AI expands fine-tuning service with more models, live metrics, and finer controls",
+              "summary": "Together Fine-Tuning adds the latest open-weight models, live experiment tracking, Expert LoRA, early stopping, tokenized dataset previews, ",
+              "source": "RSS · Together AI",
+              "url": "https://www.together.ai/blog/together-ai-expands-fine-tuning-service-with-more-models-live-metrics-and-finer-controls",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-11",
+              "publishedAt": "2026-09-11T08:00",
+              "reason": ""
+            },
+            {
+              "title": "ToolGrad: Efficient tool-use dataset generation with textual \"gradients\"",
+              "summary": "Machine Intelligence",
+              "source": "RSS · Google Research",
+              "url": "https://research.google/blog/toolgrad-efficient-tool-use-dataset-generation-with-textual-gradients/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-11",
+              "publishedAt": "2026-09-11T06:50",
+              "reason": ""
+            },
+            {
+              "title": "Amazon Quick is now generally available on desktop",
+              "summary": "Your teams get an AI assistant that handles real work while your data stays in your environment and your conversations stay private Today, t",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/amazon-quick-is-now-generally-available-on-desktop/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-11",
+              "publishedAt": "2026-09-11T02:16",
+              "reason": ""
+            },
+            {
+              "title": "Build an end-to-end RFI questionnaire workflow using Amazon Quick Automate",
+              "summary": "Learn how to build an end-to-end RFI questionnaire workflow with Amazon Quick Automate. Read a multi-tab RFI workbook from Amazon S3, use na",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/build-an-end-to-end-rfi-questionnaire-workflow-using-amazon-quick-automate/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-11",
+              "publishedAt": "2026-09-11T00:08",
+              "reason": ""
+            },
+            {
+              "title": "Anthropic 评估 AI 模型的战术情报定位与常规武器能力",
+              "summary": "Anthropic Frontier Red Team 发布新评测，衡量模型在战术情报定位（账户关联、照片与文本地理定位）和常规武器开发（无人机末段制导、投送、GPS 干扰下导航）上的能力。",
+              "source": "Anthropic：Research（发表成果 · 网页）",
+              "url": "https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-11",
+              "publishedAt": "2026-09-11T01:28",
+              "reason": ""
+            },
+            {
+              "title": "3 ways to prep for your next big race with Search",
+              "summary": "Search can help runners get race-day ready with registration alerts, tailored training plans, and more.",
+              "source": "RSS · Google AI Blog",
+              "url": "https://blog.google/products-and-platforms/products/search/running-race-training-tips/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-11",
+              "publishedAt": "2026-09-11T00:00",
+              "reason": ""
+            },
+            {
+              "title": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
+              "summary": "",
+              "source": "RSS · Hugging Face Blog",
+              "url": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-10",
+              "publishedAt": "2026-09-10T08:00",
+              "reason": ""
+            },
+            {
+              "title": "Negative Self-Distillation: Learning to Reason by Avoiding Flaws",
+              "summary": "On-Policy Self-Distillation (OPSD) has emerged as a popular paradigm for large language model (LLM) self-improvement, allowing models to act",
+              "source": "arXiv",
+              "url": "http://arxiv.org/abs/2609.11699v1",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-10",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "SpecGuard: Inference-Time Backdoor Detection For Free",
+              "summary": "Large language models are often fine-tuned, shared, or downloaded from third parties, so a deployed model may carry a hidden backdoor that b",
+              "source": "arXiv",
+              "url": "http://arxiv.org/abs/2609.11799v1",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-10",
+              "publishedAt": "",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-benchmark",
+          "label": "评测榜单",
+          "items": [
+            {
+              "title": "Beyond the price per token: Choosing the right OpenAI model on Amazon Bedrock for your workload",
+              "summary": "Comparing models on dollars per million tokens misses what production workloads actually pay for: outcomes. This post shares an open-source ",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/beyond-the-price-per-token-choosing-the-right-openai-model-on-amazon-bedrock-for-your-workload/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-12",
+              "publishedAt": "2026-09-12T02:24",
+              "reason": ""
+            },
+            {
+              "title": "Reduce LLM latency with prefix-aware routing on Amazon SageMaker Inference",
+              "summary": "Amazon SageMaker Inference now offers prefix-aware routing, a routing strategy that sends requests sharing the same prompt prefix to the sam",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/reduce-llm-latency-with-prefix-aware-routing-on-amazon-sagemaker-inference/",
+              "score": 70,
+              "sourceCount": 2,
+              "date": "2026-09-11",
+              "publishedAt": "2026-09-11T05:58",
+              "reason": ""
+            },
+            {
+              "title": "Domain-Specific Hallucination Detection in Large Language Models",
+              "summary": "Large language models generate fluent text that can contain unfaithful claims -- a phenomenon known as hallucination. We present a multi-sig",
+              "source": "arXiv",
+              "url": "http://arxiv.org/abs/2609.11878v1",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-10",
+              "publishedAt": "",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-research",
+          "label": "论文研究",
+          "items": [
+            {
+              "title": "Probabilistic Focal Search: Accelerating Bounded-Suboptimal Search via Lower-Bound Advancement",
+              "summary": "arXiv:2609.10584v1 Announce Type: new Abstract: Bounded-suboptimal search seeks a solution within a factor $w$ of optimal while reducing sea",
+              "source": "RSS · arXiv cs.AI",
+              "url": "https://arxiv.org/abs/2609.10584",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-12",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "DiscoSign: Discourse-Aware Text to Sign Language Gloss Translation",
+              "summary": "Sign language processing systems have traditionally operated at the sentence level, ignoring critical discourse phenomena fundamental to sig",
+              "source": "RSS · Apple ML Research",
+              "url": "https://machinelearning.apple.com/research/discosign-gloss-translation",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-11",
+              "publishedAt": "2026-09-11T08:00",
+              "reason": ""
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-09-13",
       "generatedAt": "2026-09-13T16:10:59.269630Z",
@@ -20209,224 +20655,10 @@ window.AI_GENERATED_DATA = {
           ]
         }
       ]
-    },
-    {
-      "date": "2026-07-11",
-      "generatedAt": "2026-07-11T16:16:57.307776Z",
-      "total": 15,
-      "sections": [
-        {
-          "category": "ai-tools",
-          "label": "AI 工具",
-          "items": [
-            {
-              "title": "Claude Code桌面版新增应用内浏览器功能",
-              "summary": "Claude Code桌面版现已集成应用内浏览器，用户可以直接在应用中访问文档、设计稿及其他网站。该浏览器支持与本地开发服务器相同的交互方式，并具备沙盒机制，用户可选择会话是否持久保存。",
-              "source": "X：Claude Devs (@ClaudeDevs)",
-              "url": "https://x.com/ClaudeDevs/status/2075635283211772279",
-              "score": 63,
-              "sourceCount": 1,
-              "date": "2026-07-11",
-              "publishedAt": "2026-07-11T01:36",
-              "reason": "Claude Code新增的应用内浏览器功能显著提升了开发者的工作效率，值得一试。"
-            },
-            {
-              "title": "博科圣地系统性应用前沿AI技术",
-              "summary": "2024年，博科圣地在尼日利亚东北部的活动中，系统性地利用前沿AI技术进行作战与日常运作。该组织的两个派系均采用ChatGPT、Claude、Gemini等AI工具，成功实现了AI应用的制度化，部分成员甚至绕过安全限制，将AI用于袭击策划和武器故障排查。受访者对AI表现出强烈热情",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://casp.ac/reports/ai-enabled-terrorism",
-              "score": 60,
-              "sourceCount": 1,
-              "date": "2026-07-11",
-              "publishedAt": "2026-07-11T06:07",
-              "reason": "这一事件揭示了恐怖组织如何利用前沿AI技术，值得关注其对全球安全的潜在威胁。"
-            }
-          ]
-        },
-        {
-          "category": "ai-coding",
-          "label": "AI 编程",
-          "items": [
-            {
-              "title": "Claude Fable 5助力Bun重构：11天超100万行代码",
-              "summary": "开发者Jarred Sumner在Claude Fable 5的支持下，耗时11天将JavaScript运行时Bun从Zig重构为Rust，编写超100万行代码，API费用约16.5万美元。重构主要为提高可靠性，Bun v1.4.0版本已发布，修复128个错误，速度提升2%-5%",
-              "source": "IT之家（RSS）",
-              "url": "https://www.ithome.com/0/975/469.htm",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-07-11",
-              "publishedAt": "2026-07-11T15:33",
-              "reason": "此案例展示了AI在软件开发中的实际应用，尤其是在提高开发效率和代码质量方面的潜力，值得关注。"
-            },
-            {
-              "title": "Claude Code v2.1.207 更新：优化流式响应与自动模式",
-              "summary": "这次发布的核心点是 Claude Code v2.1.207 版本的更新，主要优化了流式响应的稳定性和自动模式的使用体验。用户现在可以在 Bedrock、Vertex AI 和 Foundry 上无需额外设置即可启用自动模式，同时修复了多个影响使用的关键问题，如终端冻结和按键延迟",
-              "source": "Claude Code：GitHub Releases（RSS）",
-              "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.207",
-              "score": 61,
-              "sourceCount": 1,
-              "date": "2026-07-11",
-              "publishedAt": "2026-07-11T08:52",
-              "reason": "此次更新在用户体验和功能稳定性上都有显著提升，特别适合需要高效代码生成的开发者使用。"
-            }
-          ]
-        },
-        {
-          "category": "ai-image-video",
-          "label": "图像视频",
-          "items": [
-            {
-              "title": "Meta 关闭 Instagram AI 深度伪造图片功能，用户反馈引发争议",
-              "summary": "Meta 最近关闭了一项允许用户基于公开 Instagram 账户生成 AI 图片的功能。尽管该功能初衷是提供创意工具并给予用户控制权，但用户反馈显示其存在滥用风险，导致 Meta 决定撤回该功能。此举反映了在技术创新与用户隐私之间的紧张关系。",
-              "source": "The Verge：AI（RSS）",
-              "url": "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes",
-              "score": 58,
-              "sourceCount": 1,
-              "date": "2026-07-11",
-              "publishedAt": "2026-07-11T07:49",
-              "reason": "这一事件揭示了技术创新与用户隐私之间的矛盾，值得关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-agents",
-          "label": "Agent / MCP",
-          "items": [
-            {
-              "title": "OpenAI GPT-5.6-Sol 删除 AI 创业者 Matt Shumer 的 Mac 硬盘",
-              "summary": "OpenAI 最新的 Agent 模型 GPT-5.6-Sol 在执行文件清理任务时，因路径解析错误，意外删除了知名 AI 创业者 Matt Shumer 的 Mac 硬盘数据，造成数年重要文件丢失。此事件揭示了高权限 AI Agent 的潜在风险，尤其是在长时间自主运行的情况下",
-              "source": "X：阿易 AI Notes (@AYi_AInotes)",
-              "url": "https://x.com/AYi_AInotes/status/2075761215251312722",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-07-11",
-              "publishedAt": "2026-07-11T09:56",
-              "reason": "此事件揭示了高权限 AI Agent 的潜在风险，值得关注和反思，尤其是在数据安全和模型选择方面。"
-            }
-          ]
-        },
-        {
-          "category": "ai-models",
-          "label": "模型发布",
-          "items": [
-            {
-              "title": "蚂蚁集团发布首个原生具身基础模型 LingBot-VA 2.0",
-              "summary": "我注意到蚂蚁集团的 Robbyant 团队推出了 LingBot-VA 2.0，这是首个原生具身基础模型，采用因果 DiT 架构，具备约 13.0B 参数。该模型在 RoboTwin 2.0 的任务上表现出色，成功率高达 93.8%。",
-              "source": "MarkTechPost（RSS）",
-              "url": "https://www.marktechpost.com/2026/07/11/ant-groups-robbyant-unveils-lingbot-va-2-0",
-              "score": 69,
-              "sourceCount": 1,
-              "date": "2026-07-11",
-              "publishedAt": "2026-07-11T15:56",
-              "reason": "LingBot-VA 2.0 作为首个原生具身基础模型，展现了在机器人操作和智能控制领域的巨大潜力，值得关注。"
-            },
-            {
-              "title": "GPT-5.6 Sol Ultra 一小时内证明50年数学猜想",
-              "summary": "OpenAI 的 GPT-5.6 Sol Ultra 模型在不到一小时内成功证明了存在50年之久的圈双覆盖猜想。该模型已全面开放，使用64个子智能体完成证明，且提供了公开的提示词和证明过程，标志着数学研究的新突破。",
-              "source": "X：Noam Brown (@polynoamial)",
-              "url": "https://x.com/polynoamial/status/2075646048425431469",
-              "score": 69,
-              "sourceCount": 1,
-              "date": "2026-07-11",
-              "publishedAt": "2026-07-11T02:19",
-              "reason": "这一突破性成果展示了AI在数学领域的应用潜力，值得关注和学习。"
-            },
-            {
-              "title": "Meta Muse Spark 1.1 评分提升，成本与效率兼具",
-              "summary": "我注意到 Meta 最近发布的 Muse Spark 1.1 在 Artificial Analysis 智能指数中得分 51，较之前的 1.0 版本提升了 8 分。这款模型在科学推理、编程和知识领域表现出色，显示出与其他顶尖模型的竞争力，同时在成本和 token 效率上也有明显",
-              "source": "X：Artificial Analysis (@ArtificialAnlys)",
-              "url": "https://x.com/ArtificialAnlys/status/2075677416295739660",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-07-11",
-              "publishedAt": "2026-07-11T04:23",
-              "reason": "Muse Spark 1.1 的推出不仅提升了模型的性能，还在成本和效率上做出了优化，值得关注。"
-            },
-            {
-              "title": "DeepSeek-V4 Flash 强化学习训练在 AMD Instinct MI355X GPU 上成功实施",
-              "summary": "DeepSeek-V4 Flash 的强化学习训练现已在 AMD Instinct MI355X GPU 上通过 Miles 框架获得支持，基于 ROCm 软件栈运行。该 2840 亿参数 MoE 模型需 SGLang 进行 rollout 生成、Megatron 进行策略更新，",
-              "source": "LMSYS：Blog（Chatbot Arena 团队）",
-              "url": "https://www.lmsys.org/blog/2026-07-10-rocm-miles-dsv4",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-07-11",
-              "publishedAt": "2026-07-11T01:19",
-              "reason": "DeepSeek-V4 Flash 在 AMD Instinct MI355X GPU 上的成功实施，展示了强化学习领域的最新进展，值得关注。"
-            },
-            {
-              "title": "OpenAI 对苹果窃取硬件机密指控的回应",
-              "summary": "OpenAI 战略传播总监回应苹果的诉讼，苹果指控前员工窃取硬件机密，OpenAI 否认并称此案可能影响其硬件计划及与苹果的合作关系。",
-              "source": "X：Rohan Paul (@rohanpaul_ai)",
-              "url": "https://x.com/rohanpaul_ai/status/2075844134892601796",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-07-11",
-              "publishedAt": "2026-07-11T15:26",
-              "reason": "此事件涉及重大商业机密和法律问题，了解其背景和影响对行业从业者具有重要价值。"
-            }
-          ]
-        },
-        {
-          "category": "ai-research",
-          "label": "论文研究",
-          "items": [
-            {
-              "title": "OpenAI 论文揭示 GPT-5.6 Sol Ultra 证明图论循环双覆盖猜想",
-              "summary": "这次发布的核心点是 OpenAI 的 GPT-5.6 Sol Ultra 成功证明了图论中的循环双覆盖猜想。该猜想提出每个无桥无向图都存在一组环，每条边恰好被覆盖两次。论文详细阐述了证明过程，利用了图论中的重要定理和线性代数的工具。",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf",
-              "score": 69,
-              "sourceCount": 1,
-              "date": "2026-07-11",
-              "publishedAt": "2026-07-11T03:59",
-              "reason": "这篇论文展示了 AI 在解决复杂数学问题中的潜力，值得关注其未来的应用前景。"
-            },
-            {
-              "title": "宇树G1人形机器人成功实施首例活体微创手术",
-              "summary": "宇树G1人形机器人在加州大学圣地亚哥团队的研究中，成功完成了首例由人形机器人执行的活体微创手术。该手术为腹腔镜胆囊切除术，耗时32分钟，显示出机器人在医疗领域的潜力。尽管目前仍需多次校正且无法达到无菌标准，但其成本仅为达芬奇系统的约5%。",
-              "source": "X：X.PIN (@thexpin)",
-              "url": "https://x.com/thexpin/status/2075640168896516139",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-07-11",
-              "publishedAt": "2026-07-11T01:55",
-              "reason": "宇树G1的成功手术展示了人形机器人在医疗领域的应用潜力，值得关注其未来发展。"
-            }
-          ]
-        },
-        {
-          "category": "ai-business",
-          "label": "行业商业",
-          "items": [
-            {
-              "title": "苹果控告OpenAI窃取商业机密，涉及前员工",
-              "summary": "我注意到，苹果公司今天对OpenAI提起诉讼，指控其前员工窃取商业机密以助力OpenAI的人工智能硬件开发。苹果在诉状中指出，OpenAI非法获取了其在AI硬件领域的专有技术信息。案件已进入司法程序，OpenAI尚未对此作出正式回应。",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft",
-              "score": 66,
-              "sourceCount": 2,
-              "date": "2026-07-11",
-              "publishedAt": "2026-07-11T07:11",
-              "reason": "这条信息揭示了科技公司在知识产权保护方面面临的挑战，值得关注。"
-            },
-            {
-              "title": "Apple 起诉 OpenAI 窃取商业机密，指控细节曝光",
-              "summary": "这次发布的核心点是，Apple 在加州联邦法院对 OpenAI 提起诉讼，指控其窃取商业机密并违反合同。诉状详细列举了 OpenAI 高管在招聘过程中如何利用前员工的机密信息，包括要求应聘者携带 Apple 硬件组件，甚至未归还公司设备。Apple 认为这些行为严重威胁其核心技术",
-              "source": "TechCrunch：AI（RSS）",
-              "url": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-07-11",
-              "publishedAt": "2026-07-11T04:32",
-              "reason": "这条新闻值得关注，因为它不仅涉及到两家科技巨头的法律争端，还可能对整个行业的商业机密保护和竞争策略产生深远影响。"
-            }
-          ]
-        }
-      ]
     }
   ],
   "llmLeaderboard": {
-    "updated": "2026-09-14",
+    "updated": "2026-09-15",
     "source": "ReLE 中文大模型能力评测（综合能力）",
     "sourceUrl": "https://github.com/jeinlee1991/chinese-llm-benchmark",
     "items": [
