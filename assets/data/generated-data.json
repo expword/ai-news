@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-14",
-  "generatedAt": "2026-09-14T09:19:50.167703Z",
+  "generatedAt": "2026-09-14T11:48:41.682818Z",
   "news": [
     {
       "title": "Dario Amodei 发文呼吁 AI 行业放慢前沿速度并公布三步计划",
@@ -2488,33 +2488,6 @@
       "moduleTargets": [
         "news",
         "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "AdaptVPR: Route-Aware Hard Positive Generation for Robust Visual Place Recognition",
-      "summary": "arXiv:2609.04369v1 Announce Type: new Abstract: Visual Place Recognition (VPR) localizes a query image by retrieving database images of the same or nearby place, yet its robustness",
-      "category": "ai-image-video",
-      "source": "RSS · arXiv cs.CV",
-      "date": "2026-09-07",
-      "publishedAt": "",
-      "collectedAt": "2026-09-08T11:14",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-07",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2609.04369",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
       ],
       "sourceCount": 1
     }
@@ -6037,6 +6010,39 @@
     ],
     "ai-agents": [
       {
+        "name": "Meta (META) Stock Dips 1% as Executives Dump Shares and Muse",
+        "provider": "Blockonomi",
+        "type": "AI 项目/工具",
+        "bestFor": "* Meta shares declined approximately 1% to $640 in early Monday trading, wiping out previous session gains\n\n* CPO Christopher Cox offloaded 20,000 shares valued",
+        "description": "* Meta shares declined approximately 1% to $640 in early Monday trading, wiping out previous session gains\n\n* CPO Christopher Cox offloaded 20,000 shares valued at roughly $13 mill",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Blockonomi",
+        "url": "https://blockonomi.com/meta-meta-stock-dips-1-as-executives-dump-shares-and-muse-agent-draws-skepticism/"
+      },
+      {
+        "name": "小红书 AllSpark 开源 Search Agent 模型 Iris，35B 与 397B 版本同量级成绩领先",
+        "provider": "公众号：小红书技术（dots.llm）",
+        "type": "AI 项目/工具",
+        "bestFor": "小红书 AllSpark 团队发布并开源 Search Agent 模型 Iris，权重和评测代码已公开，数据与训练配方将陆续公布。",
+        "description": "小红书 AllSpark 团队发布并开源 Search Agent 模型 Iris，权重和评测代码已公开，数据与训练配方将陆续公布。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "公众号：小红书技术（dots.llm）",
+        "url": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496383&idx=1&sn=2db8607f797615a3647d9fec7e54f448"
+      },
+      {
+        "name": "VOX-POP: AI agents, machine communication and collective beh",
+        "provider": "The New Times",
+        "type": "AI 项目/工具",
+        "bestFor": "New advancements in AI are piling up day by day, and now we have researchers at some of the world's leading frontier labs quitting over concerns about where the",
+        "description": "New advancements in AI are piling up day by day, and now we have researchers at some of the world's leading frontier labs quitting over concerns about where the technology is heade",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The New Times",
+        "url": "https://www.newtimes.co.rw/article/38944/news/vox-pop-ai-agents-machine-communication-and-collective-behavior-explained"
+      },
+      {
         "name": "Cyprus hosts pioneering AI shopping trials as Mastercard tes",
         "provider": "Cyprus Mail",
         "type": "AI 项目/工具",
@@ -6442,42 +6448,64 @@
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · AWS Machine Learning",
         "url": "https://aws.amazon.com/blogs/machine-learning/build-interactive-mcp-apps-using-amazon-bedrock-agentcore/"
-      },
-      {
-        "name": "Meta's Muse $20 vs $100 AI plans: How much revenue can its p",
-        "provider": "mint",
-        "type": "AI 项目/工具",
-        "bestFor": "Meta has decided to put a price on its AI ambitions. But even if the social media company manages to get millions of users to sign up for its new paid AI agent,",
-        "description": "Meta has decided to put a price on its AI ambitions. But even if the social media company manages to get millions of users to sign up for its new paid AI agent, the revenue from it",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "mint",
-        "url": "https://www.livemint.com/companies/news/metas-muse-20-vs-100-ai-plans-how-much-revenue-can-its-paid-ai-agent-really-generate-11789130248665.html"
-      },
-      {
-        "name": "AI Agents, Tokenized Cows and the Hunt for a Cab at India's ",
-        "provider": "Bloomberg Business",
-        "type": "AI 项目/工具",
-        "bestFor": "Welcome to India Edition, Bloomberg's daily dive into what's moving the worlds of business, markets and politics in this dynamic, fast-paced economy. I'm Menaka",
-        "description": "Welcome to India Edition, Bloomberg's daily dive into what's moving the worlds of business, markets and politics in this dynamic, fast-paced economy. I'm Menaka Doshi. If you didn'",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Bloomberg Business",
-        "url": "https://www.bloomberg.com/news/newsletters/2026-09-11/global-fintech-fest-wrap-upi-ai-agents-tokenized-cows-and-traffic"
-      },
-      {
-        "name": "ProreX Brings Agentic Trading & MCP Tools to MetaTrader 5",
-        "provider": "accessnewswire.com",
-        "type": "AI 项目/工具",
-        "bestFor": "Beyond MetaTrader 5's native AI, ProreX exposes its own screener, Smart Score, trade ideas and market data to AI agents over the Model Context Protocol - with A",
-        "description": "Beyond MetaTrader 5's native AI, ProreX exposes its own screener, Smart Score, trade ideas and market data to AI agents over the Model Context Protocol - with AI trading set to man",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "accessnewswire.com",
-        "url": "https://www.accessnewswire.com/newsroom/en/blockchain-and-cryptocurrency/prorex-limited-brings-agentic-trading-and-its-own-mcp-tools-to-metatr-1207275"
       }
     ],
     "ai-models": [
+      {
+        "name": "AppleInsider.com",
+        "provider": "AppleInsider",
+        "type": "AI 项目/工具",
+        "bestFor": "If you buy through our links, we may get a commission. Read our ethics policy.\n\nApple has launched the iPhone 18 Pro, and Google's Pixel 11 Pro was waiting for ",
+        "description": "If you buy through our links, we may get a commission. Read our ethics policy.\n\nApple has launched the iPhone 18 Pro, and Google's Pixel 11 Pro was waiting for it. Here's how the s",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "AppleInsider",
+        "url": "https://appleinsider.com/inside/iphone-18/vs/iphone-18-pro-vs-google-pixel-11-pro-tech-giant-flagships-compared"
+      },
+      {
+        "name": "iPhone 18 Pro vs Google Pixel 11 Pro: Tech giant flagships c",
+        "provider": "AppleInsider Forums",
+        "type": "AI 项目/工具",
+        "bestFor": "Apple has launched the iPhone 18 Pro, and Google's Pixel 11 Pro was waiting for it. Here's how the specs of the two flagships compare.\n\nThe timing is hard to ig",
+        "description": "Apple has launched the iPhone 18 Pro, and Google's Pixel 11 Pro was waiting for it. Here's how the specs of the two flagships compare.\n\nThe timing is hard to ignore. Google launche",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "AppleInsider Forums",
+        "url": "https://forums.appleinsider.com/discussion/245653/iphone-18-pro-vs-google-pixel-11-pro-tech-giant-flagships-compared"
+      },
+      {
+        "name": "Apple's reimagined Siri AI is SO good, your old iPhone will ",
+        "provider": "GB News",
+        "type": "AI 项目/工具",
+        "bestFor": "Good news: You won't need to upgrade to the latest-and-greatest iPhone for an entirely new experience this year.\n\nWhile the brand-new iPhone 18 Pro lineup lands",
+        "description": "Good news: You won't need to upgrade to the latest-and-greatest iPhone for an entirely new experience this year.\n\nWhile the brand-new iPhone 18 Pro lineup lands on store shelves th",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "GB News",
+        "url": "https://www.gbnews.com/tech/siri-ai-ios-27-update"
+      },
+      {
+        "name": "They created Siri before Apple bought it. They're still wait",
+        "provider": "CNN International",
+        "type": "AI 项目/工具",
+        "bestFor": "Dag Kittlaus and Adam Cheyer, known for creating an assistant that's now found in billions of Apple devices, have been thinking about what comes after the searc",
+        "description": "Dag Kittlaus and Adam Cheyer, known for creating an assistant that's now found in billions of Apple devices, have been thinking about what comes after the search engine for a long ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "CNN International",
+        "url": "https://edition.cnn.com/2026/09/14/tech/siri-founders-apple-ai"
+      },
+      {
+        "name": "The Next Era Of Intelligence: iOS 27 Arrives",
+        "provider": "Capital FM Kenya",
+        "type": "AI 项目/工具",
+        "bestFor": "The wait is finally over. Today, Apple officially unleashes iOS 27 to the public, bringing a sweeping wave of next-generation features, performance enhancements",
+        "description": "The wait is finally over. Today, Apple officially unleashes iOS 27 to the public, bringing a sweeping wave of next-generation features, performance enhancements, and cutting-edge a",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Capital FM Kenya",
+        "url": "https://capitalfm.africa/the-next-era-of-intelligence-ios-27-arrives/"
+      },
       {
         "name": "Fujitsu Ltd: Sony Bank and Fujitsu apply Generative AI to Co",
         "provider": "FinanzNachrichten.de",
@@ -6862,64 +6890,31 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Windows Central",
         "url": "https://www.windowscentral.com/artificial-intelligence/microsoft-copilot/googles-gemini-app-for-windows-11-uses-the-same-keyboard-shortcut-as-copilot"
-      },
-      {
-        "name": "Apple iOS 27 is almost here: When you can download it",
-        "provider": "Mashable SEA",
-        "type": "AI 项目/工具",
-        "bestFor": "We've been testing the iOS 27 and Siri AI beta for months, but the public release is fast approaching.\n\nApple's next big iOS update is finally on the launch pad",
-        "description": "We've been testing the iOS 27 and Siri AI beta for months, but the public release is fast approaching.\n\nApple's next big iOS update is finally on the launch pad.\n\nAt its \"Surprise ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Mashable SEA",
-        "url": "https://sea.mashable.com/mobile/54732/apple-ios-27-is-almost-here-when-you-can-download-it"
-      },
-      {
-        "name": "Microsoft Copilot joins CarPlay, leaving Gemini as the bigge",
-        "provider": "9to5Mac",
-        "type": "AI 项目/工具",
-        "bestFor": "Apple CarPlay now works with six major third-party AI chatbot apps. Microsoft Copilot is the latest iPhone app to add CarPlay support. This leaves Google Gemini",
-        "description": "Apple CarPlay now works with six major third-party AI chatbot apps. Microsoft Copilot is the latest iPhone app to add CarPlay support. This leaves Google Gemini as the last major h",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "9to5Mac",
-        "url": "https://9to5mac.com/2026/09/11/microsoft-copilot-joins-carplay-leaving-gemini-as-the-biggest-holdout/"
-      },
-      {
-        "name": "Apple iOS 27 release date: When you can download it",
-        "provider": "Mashable",
-        "type": "AI 项目/工具",
-        "bestFor": "Apple's next big iOS update is finally on the launch pad.\n\nAt its \"Surprise and Shine\" event on Sept. 9, Apple showed off new wares like the iPhone 18 Pro lineu",
-        "description": "Apple's next big iOS update is finally on the launch pad.\n\nAt its \"Surprise and Shine\" event on Sept. 9, Apple showed off new wares like the iPhone 18 Pro lineup, the foldable iPho",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Mashable",
-        "url": "https://mashable.com/tech/apple-ios-27-release-date-when-to-download"
-      },
-      {
-        "name": "Gemini app for desktop",
-        "provider": "TechSpot",
-        "type": "AI 项目/工具",
-        "bestFor": "Access Gemini from any screen on your desktop to clarify a topic, recall a formula, or brainstorm on the fly without opening a tab. It's help on demand.\n\nFrom d",
-        "description": "Access Gemini from any screen on your desktop to clarify a topic, recall a formula, or brainstorm on the fly without opening a tab. It's help on demand.\n\nFrom drafting documents to",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "TechSpot",
-        "url": "https://www.techspot.com/downloads/7868-gemini-for-desktop.html"
-      },
-      {
-        "name": "Google Gemini Windows App is Here: How to Download and Use I",
-        "provider": "Analytics Insight",
-        "type": "AI 项目/工具",
-        "bestFor": "The app is available globally for Windows 10 and Windows 11.Reportedly, users can access Gemini through a keyboard shortcut, work on multi-step tasks and use Go",
-        "description": "The app is available globally for Windows 10 and Windows 11.Reportedly, users can access Gemini through a keyboard shortcut, work on multi-step tasks and use Google apps for additi",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Analytics Insight",
-        "url": "https://www.analyticsinsight.net/news/google-gemini-windows-app-is-here-how-to-download-and-use-it"
       }
     ],
     "ai-business": [
+      {
+        "name": "They created Siri before Apple bought it. They're still wait",
+        "provider": "CNN",
+        "type": "AI 项目/工具",
+        "bestFor": "Dag Kittlaus and Adam Cheyer, known for creating an assistant that's now found in billions of Apple devices, have been thinking about what comes after the searc",
+        "description": "Dag Kittlaus and Adam Cheyer, known for creating an assistant that's now found in billions of Apple devices, have been thinking about what comes after the search engine for a long ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "CNN",
+        "url": "https://us.cnn.com/2026/09/14/tech/siri-founders-apple-ai"
+      },
+      {
+        "name": "Calls for tapping brakes on AI development rattle tech stock",
+        "provider": "Daily Sabah",
+        "type": "AI 项目/工具",
+        "bestFor": "AI-related stocks dropped sharply Monday after the CEOs of U.S. companies developing the most advanced AI models warned that the pace of development must slow t",
+        "description": "AI-related stocks dropped sharply Monday after the CEOs of U.S. companies developing the most advanced AI models warned that the pace of development must slow to avoid threats to h",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Daily Sabah",
+        "url": "https://www.dailysabah.com/business/economy/calls-for-tapping-brakes-on-ai-development-rattle-tech-stocks"
+      },
       {
         "name": "TCL On A Roll At IFA 2026 Tvs, Smartglasses & New Smartphone",
         "provider": "SmartHouse",
@@ -7337,28 +7332,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "FinanzNachrichten.de",
         "url": "https://www.finanznachrichten.de/nachrichten-2026-09/69502079-iflytek-showcases-ai-across-work-home-and-marketing-at-ifa-2026-399.htm"
-      },
-      {
-        "name": "iFLYTEK Showcases AI Across Work, Home and Marketing at IFA ",
-        "provider": "The Manila times",
-        "type": "AI 项目/工具",
-        "bestFor": "Turning core AI capabilities into practical tools for work and everyday life\n\nBERLIN, Sept. 05, 2026 (GLOBE NEWSWIRE) -- iFLYTEK is showcasing its AI products a",
-        "description": "Turning core AI capabilities into practical tools for work and everyday life\n\nBERLIN, Sept. 05, 2026 (GLOBE NEWSWIRE) -- iFLYTEK is showcasing its AI products and solutions at IFA ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Manila times",
-        "url": "https://www.manilatimes.net/2026/09/05/tmt-newswire/globenewswire/iflytek-showcases-ai-across-work-home-and-marketing-at-ifa-2026/2419175"
-      },
-      {
-        "name": "Midea Unveils New AI-Powered Home Ecosystem And Appliances A",
-        "provider": "Market Screener",
-        "type": "AI 项目/工具",
-        "bestFor": "Midea brought its \"Simply ideal\" vision to life through the latest innovations, designed to bring greater intelligence, comfort, efficiency and ease to the home",
-        "description": "Midea brought its \"Simply ideal\" vision to life through the latest innovations, designed to bring greater intelligence, comfort, efficiency and ease to the home. The new SMART MAST",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Market Screener",
-        "url": "https://www.marketscreener.com/news/midea-unveils-new-ai-powered-home-ecosystem-and-appliances-at-ifa-2026-ce785bdbdb8ff522"
       }
     ],
     "ai-benchmark": [
@@ -10264,7 +10237,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-14",
-    "generatedAt": "2026-09-14T09:19:50.145703Z",
+    "generatedAt": "2026-09-14T11:48:41.659818Z",
     "total": 24,
     "sections": [
       {
