@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-14",
-  "generatedAt": "2026-09-14T01:43:45.946609Z",
+  "generatedAt": "2026-09-14T04:14:23.199778Z",
   "news": [
     {
       "title": "Dario Amodei 发文呼吁 AI 行业放慢前沿速度并公布三步计划",
@@ -6452,6 +6452,17 @@
     ],
     "ai-models": [
       {
+        "name": "Bank of Baroda unveils new mobile banking app with voice-ena",
+        "provider": "Asian Banking & Finance",
+        "type": "AI 项目/工具",
+        "bestFor": "The app has voice-enabled navigation, it said.\n\nIndia's Bank of Baroda has launched its new mobile banking application, bob World 2.0.\n\nThe new app is powered b",
+        "description": "The app has voice-enabled navigation, it said.\n\nIndia's Bank of Baroda has launched its new mobile banking application, bob World 2.0.\n\nThe new app is powered by artificial intelli",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Asian Banking & Finance",
+        "url": "https://asianbankingandfinance.net/banking-technology/news/bank-baroda-unveils-new-mobile-banking-app-voice-enabled-payments"
+      },
+      {
         "name": "I used Gemini to scan and organize 400 physical games to avo",
         "provider": "Android Police",
         "type": "AI 项目/工具",
@@ -6879,20 +6890,20 @@
         "watch": "请打开原始来源核对",
         "sourceName": "BetaNews",
         "url": "https://betanews.com/article/google-releases-a-gemini-app-for-windows/"
-      },
-      {
-        "name": "The A20 Pro Chip Is Apple's High-Stakes Hardware Pivot to Ow",
-        "provider": "PC Mag Middle East",
-        "type": "AI 项目/工具",
-        "bestFor": "Another Apple September event is in the books, and this time, most people are excited about Apple's new foldable iPhone Duo, or the kicked-up camera features on",
-        "description": "Another Apple September event is in the books, and this time, most people are excited about Apple's new foldable iPhone Duo, or the kicked-up camera features on the iPhone 18 Pro. ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "PC Mag Middle East",
-        "url": "https://me.pcmag.com/en/ai/38011/the-a20-pro-chip-is-apples-high-stakes-hardware-pivot-to-own-on-device-ai"
       }
     ],
     "ai-business": [
+      {
+        "name": "Amazon Stock Trades at Rare Discount as Andy Jassy Bets $220",
+        "provider": "International Business Times AU",
+        "type": "AI 项目/工具",
+        "bestFor": "CEO Andy Jassy is betting record capital expenditure on data centres, custom chips and cloud capacity will extend AWS's rapid growth despite near-term cash flow",
+        "description": "CEO Andy Jassy is betting record capital expenditure on data centres, custom chips and cloud capacity will extend AWS's rapid growth despite near-term cash flow pressure.\n\nSEATTLE ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "International Business Times AU",
+        "url": "https://www.ibtimes.com.au/amazon-220-billion-ai-spending-aws-growth-1875482"
+      },
       {
         "name": "Broadcom CEO Hock Tan Says Demand Already Exceeds Broadcom's",
         "provider": "The Motley Fool",
@@ -7321,17 +7332,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "The Star",
         "url": "https://www.thestar.com.my/tech/tech-news/2026/09/04/htc-brings-its-smart-glasses-to-the-us-as-privacy-backlash-grows"
-      },
-      {
-        "name": "VC funding deals: Saviynt, Diffraqtion, Molten Salt Solution",
-        "provider": "InfotechLead",
-        "type": "AI 项目/工具",
-        "bestFor": "The latest VC funding deals include announcements from Saviynt, Diffraqtion, Molten Salt Solutions, Carrick Capital Partners, Lockheed Martin Ventures, Presidio",
-        "description": "The latest VC funding deals include announcements from Saviynt, Diffraqtion, Molten Salt Solutions, Carrick Capital Partners, Lockheed Martin Ventures, Presidio Ventures, and other",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "InfotechLead",
-        "url": "https://infotechlead.com/tech/vc-funding-deals-saviynt-diffraqtion-molten-salt-solutions-98177"
       }
     ],
     "ai-benchmark": [
@@ -10241,7 +10241,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-14",
-    "generatedAt": "2026-09-14T01:43:45.925607Z",
+    "generatedAt": "2026-09-14T04:14:23.178776Z",
     "total": 24,
     "sections": [
       {
