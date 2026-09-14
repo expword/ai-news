@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-14",
-  "generatedAt": "2026-09-13T17:23:44.684061Z",
+  "generatedAt": "2026-09-14T01:43:45.946609Z",
   "news": [
     {
       "title": "Dario Amodei 发文呼吁 AI 行业放慢前沿速度并公布三步计划",
@@ -6010,6 +6010,17 @@
     ],
     "ai-agents": [
       {
+        "name": "AI agents to start spending your money with Visa, Mastercard",
+        "provider": "Yahoo! Finance",
+        "type": "AI 项目/工具",
+        "bestFor": "An AI assistant that orders your groceries and renews subscriptions on its own might hit the market soon.\n\nVisa (V) and Mastercard (MA) want to make sure that p",
+        "description": "An AI assistant that orders your groceries and renews subscriptions on its own might hit the market soon.\n\nVisa (V) and Mastercard (MA) want to make sure that payment still runs th",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Yahoo! Finance",
+        "url": "https://finance.yahoo.com/technology/ai/articles/ai-agents-start-spending-money-010300686.html"
+      },
+      {
         "name": "AI Agents Spending Money Online? New Research Says Not Reall",
         "provider": "Decrypt",
         "type": "AI 项目/工具",
@@ -6437,17 +6448,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "MarTech Series",
         "url": "https://martechseries.com/content/generative-engine-optimisation-azoma-on-which-geo-tools-help-brands-losing-search-traffic-to-ai-answers/"
-      },
-      {
-        "name": "Google Rolls Out Gemini App for Windows With AI Agents",
-        "provider": "TechnoSports",
-        "type": "AI 项目/工具",
-        "bestFor": "On September 11, 2026, Google rolled out the Gemini app for Windows, bringing its AI assistant out of the browser and onto the desktop in its most capable form ",
-        "description": "On September 11, 2026, Google rolled out the Gemini app for Windows, bringing its AI assistant out of the browser and onto the desktop in its most capable form yet. The launch matt",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "TechnoSports",
-        "url": "https://technosports.co.in/?p=1444293"
       }
     ],
     "ai-models": [
@@ -10241,7 +10241,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-14",
-    "generatedAt": "2026-09-13T17:23:44.661056Z",
+    "generatedAt": "2026-09-14T01:43:45.925607Z",
     "total": 24,
     "sections": [
       {
