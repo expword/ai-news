@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-14",
-  "generatedAt": "2026-09-14T04:14:23.199778Z",
+  "generatedAt": "2026-09-14T05:30:49.411315Z",
   "news": [
     {
       "title": "Dario Amodei 发文呼吁 AI 行业放慢前沿速度并公布三步计划",
@@ -6010,6 +6010,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "Salesforce rolls out job-specific AI agents for sales, servi",
+        "provider": "Newsbytes.PH",
+        "type": "AI 项目/工具",
+        "bestFor": "Salesforce has expanded its Agentforce platform with a portfolio of preconfigured artificial intelligence agents designed to handle tasks across sales, customer",
+        "description": "Salesforce has expanded its Agentforce platform with a portfolio of preconfigured artificial intelligence agents designed to handle tasks across sales, customer service, commerce, ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Newsbytes.PH",
+        "url": "https://newsbytes.ph/2026/09/14/salesforce-rolls-out-job-specific-ai-agents-for-sales-service-hr/"
+      },
+      {
         "name": "AI agents to start spending your money with Visa, Mastercard",
         "provider": "Yahoo! Finance",
         "type": "AI 项目/工具",
@@ -6437,17 +6448,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Market Beat",
         "url": "https://www.marketbeat.com/articles/feed-to-feat-can-meta-unlock-the-ai-agent-cash-machine/"
-      },
-      {
-        "name": "Generative Engine Optimisation: Azoma on Which GEO Tools Hel",
-        "provider": "MarTech Series",
-        "type": "AI 项目/工具",
-        "bestFor": "Azoma, the Agentic Commerce Optimisation platform that helps brands drive revenue through AI shopping agents like ChatGPT, Google Gemini, Amazon Rufus and Walma",
-        "description": "Azoma, the Agentic Commerce Optimisation platform that helps brands drive revenue through AI shopping agents like ChatGPT, Google Gemini, Amazon Rufus and Walmart Sparky, today set",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "MarTech Series",
-        "url": "https://martechseries.com/content/generative-engine-optimisation-azoma-on-which-geo-tools-help-brands-losing-search-traffic-to-ai-answers/"
       }
     ],
     "ai-models": [
@@ -10241,7 +10241,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-14",
-    "generatedAt": "2026-09-14T04:14:23.178776Z",
+    "generatedAt": "2026-09-14T05:30:49.387321Z",
     "total": 24,
     "sections": [
       {
