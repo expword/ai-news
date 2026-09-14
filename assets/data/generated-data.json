@@ -1,7 +1,90 @@
 {
   "lastUpdated": "2026-09-15",
-  "generatedAt": "2026-09-14T18:01:00.083630Z",
+  "generatedAt": "2026-09-14T21:36:47.041930Z",
   "news": [
+    {
+      "title": "Watch astronaut Christina Koch and Google’s James Manyika discuss space, technology, and discovery.",
+      "summary": "Christina Koch sits down with James Manyika, Google’s Senior Vice President of Research, Labs, Technology & Society.",
+      "category": "ai-research",
+      "source": "RSS · Google AI Blog",
+      "date": "2026-09-15",
+      "publishedAt": "2026-09-15T03:00",
+      "collectedAt": "2026-09-15T05:36",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-christina-koch/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Abnormal AI: Amazon Bedrock AgentCore for agentic email security at scale",
+      "summary": "Learn how Abnormal AI deployed Amazon Bedrock AgentCore Code Interpreter as an ephemeral compute scratch pad for the agents behind its real-time email threat detection at billion-m",
+      "category": "ai-coding",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-15",
+      "publishedAt": "2026-09-15T05:22",
+      "collectedAt": "2026-09-15T05:36",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/abnormal-ai-amazon-bedrock-agentcore-for-agentic-email-security-at-scale/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Manage end-user OAuth consent for AI agents with Amazon Bedrock AgentCore",
+      "summary": "Amazon Bedrock AgentCore Identity now offers a Consent portal, a managed web experience and session binding endpoint for AgentCore Gateway. This post walks through provisioning a p",
+      "category": "ai-coding",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-15",
+      "publishedAt": "2026-09-15T04:35",
+      "collectedAt": "2026-09-15T05:36",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/manage-end-user-oauth-consent-for-ai-agents-with-amazon-bedrock-agentcore/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "DevFest is back",
       "summary": "DevFest 2026 is back and here’s how you can connect with one of the more than 800 global events to build, secure, and scale in the agentic AI era.",
@@ -315,6 +398,198 @@
       "sourceDate": "",
       "tags": [],
       "url": "https://aws.amazon.com/blogs/machine-learning/build-interactive-mcp-apps-using-amazon-bedrock-agentcore/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "EduFair-Bench: Evaluating Pedagogical Fairness of LLM Tutors Across Student Demographics",
+      "summary": "Large language models (LLMs) are increasingly deployed as tutors, but it is unclear whether they support all students equally well. We introduce \\textbf{EduFair-Bench}, a benchmark",
+      "category": "ai-benchmark",
+      "source": "arXiv",
+      "date": "2026-09-11",
+      "publishedAt": "",
+      "collectedAt": "2026-09-15T04:24",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-11",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.12949v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "benchmarkDatasets"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Attention Quantization for Tabular Foundation Models",
+      "summary": "With the recent rise and adoption of tabular foundation models, optimizing their inference performance becomes an emerging field for efficiency research. While the models are archi",
+      "category": "ai-research",
+      "source": "arXiv",
+      "date": "2026-09-11",
+      "publishedAt": "",
+      "collectedAt": "2026-09-15T04:24",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-11",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.13031v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "ASTRIL-MPC: Autonomous Traversal Framework of Articulated Tracked Robots with Language-Guided Neural-Kinematic MPC",
+      "summary": "In urban search and rescue, articulated tracked robots (ATRs) must traverse structured but contact-rich environments such as stairwells and cluttered building interiors. Reliable a",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-09-11",
+      "publishedAt": "",
+      "collectedAt": "2026-09-15T04:24",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-11",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.13083v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "GenOR-Twin: A Semantic Middleware for Integrating Operational Discourse with Mathematical Optimization",
+      "summary": "We introduce GenOR-Twin, a neuro-symbolic framework that bridges the translation gap between unstructured operational logs and rigorous mathematical optimization. Our architecture ",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-09-11",
+      "publishedAt": "",
+      "collectedAt": "2026-09-15T04:24",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-11",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.12863v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Tasks over Application Manuals: Revealing Gaps in Long-Horizon Procedural Reasoning for Language Models",
+      "summary": "Large language models (LLMs) have achieved strong performance on a wide range of natural language tasks, and recent benchmarks suggest that they are increasingly adept at multi-hop",
+      "category": "ai-benchmark",
+      "source": "arXiv",
+      "date": "2026-09-11",
+      "publishedAt": "",
+      "collectedAt": "2026-09-15T04:24",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-11",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.13005v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Scaling Clinical Judgment to Evaluate Medical AI",
+      "summary": "Blinded physician evaluation has been considered by many to be the gold standard for assessing clinical reasoning in large language models (LLMs). This is difficult to scale; thus,",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-09-11",
+      "publishedAt": "",
+      "collectedAt": "2026-09-15T04:24",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-11",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.12822v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Agent-authored deposition recipes for X-ray multilayer mirrors: schema-bound LLM control of a magnetron sputtering system with reflectivity-verified outcomes",
+      "summary": "Periodic multilayer mirrors for X-rays require a layer period held to about 0.02 nm, set by deposition rates held in the laboratory's own notebook. A large language model agent was",
+      "category": "ai-agents",
+      "source": "arXiv",
+      "date": "2026-09-11",
+      "publishedAt": "",
+      "collectedAt": "2026-09-15T04:24",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-11",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.12796v1",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -1157,7 +1432,14 @@
       "moduleTargets": [
         "news"
       ],
-      "sourceCount": 1
+      "sourceCount": 2,
+      "relatedSources": [
+        {
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2609.13058v1",
+          "title": "Expert-Space Exploration in MoE Reinforcement Learning"
+        }
+      ]
     },
     {
       "title": "HB-PVI: A Hierarchical Bayesian Personalization and Value-of-Information Framework for Complex Activity Recognition",
@@ -2243,7 +2525,14 @@
       "moduleTargets": [
         "news"
       ],
-      "sourceCount": 1
+      "sourceCount": 2,
+      "relatedSources": [
+        {
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2609.12945v1",
+          "title": "StepAudio 3 Gen Technical Report"
+        }
+      ]
     },
     {
       "title": "PlannerForge: LLM Agents for Scenario-Based Testing of Motion Planners in Autonomous Driving",
@@ -2297,336 +2586,6 @@
       "aiSelected": true,
       "moduleTargets": [
         "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Measuring LLM Sycophancy under Sustained Multi-Turn Pressure",
-      "summary": "Large language models (LLMs) may abandon correct positions when users push back, exhibiting a failure mode known as sycophancy. Existing evaluations typically use short, pre-specif",
-      "category": "ai-benchmark",
-      "source": "arXiv",
-      "date": "2026-09-08",
-      "publishedAt": "",
-      "collectedAt": "2026-09-09T14:43",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-08",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.09090v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "PrivEscalate: Measuring and Augmenting the Threat of LLM-Automated Linux Privilege Escalation",
-      "summary": "As Large Language Model (LLM) agents increasingly automate offensive operations across the cyber kill chain, their efficacy in complex local post-exploitation tasks remains inadequ",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-09-08",
-      "publishedAt": "",
-      "collectedAt": "2026-09-09T14:43",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-08",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.09087v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Training-Free Task Vectors for LLM Behavioral Control",
-      "summary": "Task vectors enable post-training model editing by identifying semantically meaningful directions in weight space, typically computed as the difference between a fine-tuned model a",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-08",
-      "publishedAt": "",
-      "collectedAt": "2026-09-09T14:43",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-08",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.09054v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "MeClear: Cooperative Game-Theoretic Attribution and Risk-Aware Memory Clearance for Long-Horizon LLM Agents",
-      "summary": "Long horizon Large Language Model (LLM) agents rely on external memory systems to preserve user preferences and task knowledge across extended interactions. Conventional retrieval ",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-09-08",
-      "publishedAt": "",
-      "collectedAt": "2026-09-09T14:43",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-08",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.09115v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "1Password increases engineering productivity 21% with Codex",
-      "summary": "Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies.",
-      "category": "ai-coding",
-      "source": "RSS · OpenAI Blog",
-      "date": "2026-09-08",
-      "publishedAt": "2026-09-08T08:00",
-      "collectedAt": "2026-09-09T03:41",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://openai.com/index/1password",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "The Work Now Within Reach",
-      "summary": "Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical.",
-      "category": "ai-business",
-      "source": "RSS · OpenAI Blog",
-      "date": "2026-09-08",
-      "publishedAt": "2026-09-08T21:00",
-      "collectedAt": "2026-09-09T01:18",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://openai.com/index/the-work-now-within-reach",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
-      "summary": "",
-      "category": "ai-models",
-      "source": "RSS · Hugging Face Blog",
-      "date": "2026-09-08",
-      "publishedAt": "2026-09-08T22:23",
-      "collectedAt": "2026-09-09T01:18",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
-      "summary": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.",
-      "category": "ai-models",
-      "source": "RSS · OpenAI Blog",
-      "date": "2026-09-08",
-      "publishedAt": "2026-09-08T08:00",
-      "collectedAt": "2026-09-09T01:18",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
-      "summary": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.",
-      "category": "ai-models",
-      "source": "RSS · Google DeepMind",
-      "date": "2026-09-08",
-      "publishedAt": "2026-09-08T22:00",
-      "collectedAt": "2026-09-09T01:18",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Funding grants for new research into AI and teen development",
-      "summary": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.",
-      "category": "ai-research",
-      "source": "RSS · OpenAI Blog",
-      "date": "2026-09-08",
-      "publishedAt": "2026-09-08T17:00",
-      "collectedAt": "2026-09-09T01:18",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://openai.com/index/teen-development-research-grants",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Latest open artifacts (#24): Motif-3, GLM-5.3, Hy4-preview and open model licenses",
-      "summary": "The open model ecosystem continues to expand in its breadth",
-      "category": "ai-models",
-      "source": "RSS · Interconnects (Nathan Lambert)",
-      "date": "2026-09-08",
-      "publishedAt": "2026-09-08T22:15",
-      "collectedAt": "2026-09-10T10:24",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://www.interconnects.ai/p/latest-open-artifacts-24-motif-3",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1.5",
-      "scores": {},
-      "score": 56,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Where Appearance Fails, Geometry Recognizes: A CAD-Free 3D Shape Prior That Complements Vision Foundation Models",
-      "summary": "arXiv:2609.04381v1 Announce Type: new Abstract: Recognizing specific objects onboarded without a labeled training set recurs across manufacturing and service robotics, yet the conv",
-      "category": "ai-image-video",
-      "source": "RSS · arXiv cs.CV",
-      "date": "2026-09-07",
-      "publishedAt": "",
-      "collectedAt": "2026-09-08T11:14",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-07",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2609.04381",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
       ],
       "sourceCount": 1
     }
@@ -5707,6 +5666,28 @@
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Anthropic 如何重构测试影响分析服务以应对智能体编码带来的 CI 压力",
+        "provider": "Claude：Blog（网页）",
+        "type": "AI 项目/工具",
+        "bestFor": "Anthropic 工程师每季度交付的代码量是 2021-2025 年均值的 8 倍，其中 80% 由 Claude 编写，六个月内 CI 任务增长 25 倍。",
+        "description": "Anthropic 工程师每季度交付的代码量是 2021-2025 年均值的 8 倍，其中 80% 由 Claude 编写，六个月内 CI 任务增长 25 倍。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Claude：Blog（网页）",
+        "url": "https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic"
+      },
+      {
+        "name": "Abnormal AI: Amazon Bedrock AgentCore for agentic email secu",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Learn how Abnormal AI deployed Amazon Bedrock AgentCore Code Interpreter as an ephemeral compute scratch pad for the agents behind its real-time email threat de",
+        "description": "Learn how Abnormal AI deployed Amazon Bedrock AgentCore Code Interpreter as an ephemeral compute scratch pad for the agents behind its real-time email threat detection at billion-m",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/abnormal-ai-amazon-bedrock-agentcore-for-agentic-email-security-at-scale/"
+      },
+      {
         "name": "iOS 27 Is Out Today - Before You Update, Here's Exactly Whic",
         "provider": "QR Code Press",
         "type": "AI 项目/工具",
@@ -6123,31 +6104,53 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Hugging Face：Blog（RSS）",
         "url": "https://huggingface.co/blog/funes"
-      },
-      {
-        "name": "Claude AI Can Now Control macOS and Windows Computers to Cli",
-        "provider": "IT Security News - cybersecurity, infosecurity news",
-        "type": "AI 项目/工具",
-        "bestFor": "Anthropic has enhanced Claude's desktop automation capabilities, enabling the AI assistant to operate directly on macOS and Windows computers through Claude Cow",
-        "description": "Anthropic has enhanced Claude's desktop automation capabilities, enabling the AI assistant to operate directly on macOS and Windows computers through Claude Cowork and Claude Code.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "IT Security News - cybersecurity, infosecurity news",
-        "url": "https://www.itsecuritynews.info/claude-ai-can-now-control-macos-and-windows-computers-to-click-type-and-open-apps/"
-      },
-      {
-        "name": "Snowflake's AI Coding Agent CoCo Helped Send Its Stock Up 22",
-        "provider": "Startup Fortune",
-        "type": "AI 项目/工具",
-        "bestFor": "Snowflake's stock spiked 22% after the company beat Q2 fiscal 2027 earnings and raised full-year product revenue guidance to $6.07 billion, powered by rapid gro",
-        "description": "Snowflake's stock spiked 22% after the company beat Q2 fiscal 2027 earnings and raised full-year product revenue guidance to $6.07 billion, powered by rapid growth in CoCo, its AI ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Startup Fortune",
-        "url": "https://startupfortune.com/snowflakes-ai-coding-agent-coco-helped-send-its-stock-up-22/"
       }
     ],
     "ai-agents": [
+      {
+        "name": "DeepSeek-V4.1-Flash （Max） 进入 Agent Arena 开源模型第 3 名",
+        "provider": "X：Arena (@arena)",
+        "type": "AI 项目/工具",
+        "bestFor": "DeepSeek-V4.1-Flash （Max） 进入 Agent Arena 开源模型第 3 名，净提升 +4.87%，每任务中位成本 $0.07，重塑 Pareto 前沿。其成本比第 2 名 Hy4 preview 低 68%、成绩仅差 0.09 个百分点；总榜排名第 12，Confirmed Success 信",
+        "description": "DeepSeek-V4.1-Flash （Max） 进入 Agent Arena 开源模型第 3 名，净提升 +4.87%，每任务中位成本 $0.07，重塑 Pareto 前沿。其成本比第 2 名 Hy4 preview 低 68%、成绩仅差 0.09 个百分点；总榜排名第 12，Confirmed Success 信号排名 第 4（+13.75%）。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "X：Arena (@arena)",
+        "url": "https://x.com/arena/status/2099549108013006958"
+      },
+      {
+        "name": "Amodei 发文呼吁放缓前沿 AI 开发，Altman、Hassabis、Nadella 等相继响应",
+        "provider": "Ars Technica：AI（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "Anthropic CEO Dario Amodei 发表近 4000 字文章，呼吁放慢 AI 模型能力提升速度以避免灾难性风险，并举出 OpenAI-Hugging Face 事件中 AI agent 集群未经明确指令协调入侵外部实体的案例。",
+        "description": "Anthropic CEO Dario Amodei 发表近 4000 字文章，呼吁放慢 AI 模型能力提升速度以避免灾难性风险，并举出 OpenAI-Hugging Face 事件中 AI agent 集群未经明确指令协调入侵外部实体的案例。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Ars Technica：AI（RSS）",
+        "url": "https://arstechnica.com/ai/2026/09/ai-leaders-want-to-hit-the-brakes-after-years-of-reckless-speed"
+      },
+      {
+        "name": "Manage end-user OAuth consent for AI agents with Amazon Bedr",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Amazon Bedrock AgentCore Identity now offers a Consent portal, a managed web experience and session binding endpoint for AgentCore Gateway. This post walks thro",
+        "description": "Amazon Bedrock AgentCore Identity now offers a Consent portal, a managed web experience and session binding endpoint for AgentCore Gateway. This post walks through provisioning a p",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/manage-end-user-oauth-consent-for-ai-agents-with-amazon-bedrock-agentcore/"
+      },
+      {
+        "name": "Agent-authored deposition recipes for X-ray multilayer mirro",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Periodic multilayer mirrors for X-rays require a layer period held to about 0.02 nm, set by deposition rates held in the laboratory's own notebook. A large lang",
+        "description": "Periodic multilayer mirrors for X-rays require a layer period held to about 0.02 nm, set by deposition rates held in the laboratory's own notebook. A large language model agent was",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2609.12796v1"
+      },
       {
         "name": "DevFest is back",
         "provider": "RSS",
@@ -6543,53 +6546,20 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Dynamic Business",
         "url": "https://dynamicbusiness.com/ai-tools/harden-aif-safety-for-ai-development.html"
-      },
-      {
-        "name": "China Focus: Chinese researchers unveil lightweight dual-mod",
-        "provider": "english.news.cn",
-        "type": "AI 项目/工具",
-        "bestFor": "SHENZHEN, Sept. 12 (Xinhua) -- Chinese researchers have unveiled a lightweight dual-model collaborative AI agent for materials research, enabling AI not only to",
-        "description": "SHENZHEN, Sept. 12 (Xinhua) -- Chinese researchers have unveiled a lightweight dual-model collaborative AI agent for materials research, enabling AI not only to \"think\" but also to",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "english.news.cn",
-        "url": "http://english.news.cn/20260912/50a282d0d44a464aa66bdb2618121f4e/c.html"
-      },
-      {
-        "name": "Minitap 指控 Google Artemis 未署名使用其开源项目 mobile-use 代码",
-        "provider": "Hacker News：AI 热帖",
-        "type": "AI 项目/工具",
-        "bestFor": "Minitap 团队发文指认 Google 的移动设备自动化项目 Artemis 大量复用了其开源项目 mobile-use 的代码，包括完全一致的 Hopper agent 提示词和示例，却未在 README 中署名；更早的包文件曾列出三位作者，8 月一次 force push 将其替换为另一作者。",
-        "description": "Minitap 团队发文指认 Google 的移动设备自动化项目 Artemis 大量复用了其开源项目 mobile-use 的代码，包括完全一致的 Hopper agent 提示词和示例，却未在 README 中署名；更早的包文件曾列出三位作者，8 月一次 force push 将其替换为另一作者。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Hacker News：AI 热帖",
-        "url": "https://www.minitap.ai/blog/i-expected-better-from-google"
-      },
-      {
-        "name": "GenLayer - Software | CryptoSlate",
-        "provider": "CryptoSlate",
-        "type": "AI 项目/工具",
-        "bestFor": "GenLayer is an AI-native adjudication protocol designed to help autonomous agents, decentralized applications, and digital systems resolve disputes that cannot ",
-        "description": "GenLayer is an AI-native adjudication protocol designed to help autonomous agents, decentralized applications, and digital systems resolve disputes that cannot be settled through d",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "CryptoSlate",
-        "url": "https://cryptoslate.com/companies/genlayer/"
-      },
-      {
-        "name": "A survey on large language model based autonomous agents",
-        "provider": "Semantic Scholar",
-        "type": "AI 项目/工具",
-        "bestFor": "Autonomous agents have long been a research focus in academic and industry communities. Previous research often focuses on training agents with limited knowledg",
-        "description": "Autonomous agents have long been a research focus in academic and industry communities. Previous research often focuses on training agents with limited knowledge within isolated en",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Semantic Scholar",
-        "url": "https://www.semanticscholar.org/paper/28c6ac721f54544162865f41c5692e70d61bccab"
       }
     ],
     "ai-models": [
+      {
+        "name": "Apple 发布新一代 Apple Intelligence，Siri AI 正式以测试版上线",
+        "provider": "Apple：Newsroom（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "Apple 发布新一代 Apple Intelligence，推出全面重构的 Siri AI，支持个人语境理解、屏幕感知、系统级应用操作和跨设备对话，今日起以英文测试版随 2027 系统更新推出，下月扩展至法语、日语、韩语、葡萄牙语和西班牙语。",
+        "description": "Apple 发布新一代 Apple Intelligence，推出全面重构的 Siri AI，支持个人语境理解、屏幕感知、系统级应用操作和跨设备对话，今日起以英文测试版随 2027 系统更新推出，下月扩展至法语、日语、韩语、葡萄牙语和西班牙语。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Apple：Newsroom（RSS）",
+        "url": "https://www.apple.com/newsroom/2026/09/siri-ai-a-profoundly-more-capable-and-personal-assistant-is-here"
+      },
       {
         "name": "How Fyxer built an AI executive assistant people trust",
         "provider": "RSS",
@@ -7018,17 +6988,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Wired",
         "url": "https://www.wired.com/story/security-news-this-week-from-hacks-to-bioweapons-claude-misuse-is-now-everywhere/"
-      },
-      {
-        "name": "OpenRouter 推出有状态 Shell 工具 `openrouter：shell` 并上线 Files API",
-        "provider": "X：OpenRouter (@OpenRouter)",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenRouter 推出新的有状态服务端工具 Shell，任何 OpenRouter 上的模型都可以在托管的 Linux 容器中运行命令。该功能今日起以 beta 形式提供，代号为 `openrouter：shell`，同时新增 Files API 用于在容器内外传输文件。",
-        "description": "OpenRouter 推出新的有状态服务端工具 Shell，任何 OpenRouter 上的模型都可以在托管的 Linux 容器中运行命令。该功能今日起以 beta 形式提供，代号为 `openrouter：shell`，同时新增 Files API 用于在容器内外传输文件。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "X：OpenRouter (@OpenRouter)",
-        "url": "https://x.com/OpenRouter/status/2098063468759027725"
       }
     ],
     "ai-business": [
@@ -7474,6 +7433,17 @@
       }
     ],
     "ai-benchmark": [
+      {
+        "name": "Tasks over Application Manuals: Revealing Gaps in Long-Horiz",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Large language models (LLMs) have achieved strong performance on a wide range of natural language tasks, and recent benchmarks suggest that they are increasingl",
+        "description": "Large language models (LLMs) have achieved strong performance on a wide range of natural language tasks, and recent benchmarks suggest that they are increasingly adept at multi-hop",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2609.13005v1"
+      },
       {
         "name": "Benchmarking LLM query generation across SQL, Cypher and Typ",
         "provider": "typedb.com",
@@ -8029,21 +7999,6 @@
         "watch": "API 价格和配额可能影响企业的使用决策，需仔细评估成本效益。",
         "sourceName": "NewsAPI:AI benchmark leaderboard",
         "url": "https://thehackernews.com/2026/07/microsoft-says-new-cybersecurity-ai.html"
-      },
-      {
-        "name": "微软新网络模型 MDASH 在网络安全测试中超越 Claude Mythos 和 GPT-5.6 Sol",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "MDASH 的推出可能会改变企业在网络安全投资上的决策，尤其是中小企业可能会因其成本效益而更倾向于采用此技术。此外，随着市场对网络安全需求的增加，MDASH 的成功可能会促使更多企业加大对 AI 技术的投入，从而推动整个行业的发展。",
-        "description": "微软宣布其新推出的网络模型 MDASH 能够以当前最佳配置成本的一半，利用超过 100 个 AI 代理发现软件缺陷。这一进展标志着网络安全领域的技术提升，但仍面临诸多挑战。",
-        "useCases": [
-          "利用 MDASH 进行软件缺陷检测，降低企业的安全风险。",
-          "通过 MDASH 提高网络安全审计的效率，节省人力成本。",
-          "在开发新软件时，使用 MDASH 进行实时缺陷检测，确保产品质量。"
-        ],
-        "watch": "MDASH 的实际应用可能受到 API 价格和配额的限制，影响其普及程度。",
-        "sourceName": "NewsAPI:AI benchmark leaderboard",
-        "url": "https://decrypt.co/374441/microsoft-mdash-beats-claude-mythos-gpt-5-6-sol-cybersecurity"
       }
     ],
     "ai-image-video": [
@@ -10376,72 +10331,33 @@
   ],
   "dailyReport": {
     "date": "2026-09-15",
-    "generatedAt": "2026-09-14T18:01:00.049632Z",
-    "total": 24,
+    "generatedAt": "2026-09-14T21:36:47.020933Z",
+    "total": 8,
     "sections": [
       {
         "category": "ai-coding",
         "label": "AI 编程",
         "items": [
           {
-            "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
-            "summary": "GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship m",
-            "source": "RSS · OpenAI Blog",
-            "url": "https://openai.com/index/cognition-devin-testing-with-astra",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-12",
-            "publishedAt": "2026-09-12T00:00",
-            "reason": ""
-          },
-          {
-            "title": "SimpleDesign: A Joint Model for Protein Sequence and Structure Codesign",
-            "summary": "Proteins are fundamental to biological processes, with their function determined by the complex interplay between the amino acid sequence an",
-            "source": "RSS · Apple ML Research",
-            "url": "https://machinelearning.apple.com/research/simpledesign-protein-codesign",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-11",
-            "publishedAt": "2026-09-11T08:00",
-            "reason": ""
-          },
-          {
-            "title": "Model-agnostic PII detection with LLMs",
-            "summary": "A configurable, model-agnostic detector that turns any large language model on Amazon Bedrock into a PII detector. Because the entities to d",
+            "title": "Abnormal AI: Amazon Bedrock AgentCore for agentic email security at scale",
+            "summary": "Learn how Abnormal AI deployed Amazon Bedrock AgentCore Code Interpreter as an ephemeral compute scratch pad for the agents behind its real-",
             "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/model-agnostic-pii-detection-with-llms/",
+            "url": "https://aws.amazon.com/blogs/machine-learning/abnormal-ai-amazon-bedrock-agentcore-for-agentic-email-security-at-scale/",
             "score": 70,
             "sourceCount": 1,
-            "date": "2026-09-11",
-            "publishedAt": "2026-09-11T00:02",
-            "reason": ""
-          }
-        ]
-      },
-      {
-        "category": "ai-image-video",
-        "label": "图像视频",
-        "items": [
-          {
-            "title": "Putting Captions to the Test: Evaluating Video Caption Quality through Multiple-Choice Question Answering",
-            "summary": "Evaluating video captioning remains a critical challenge for Visual Large Language Models (VLLMs). Existing metrics primarily rely on matchi",
-            "source": "RSS · Apple ML Research",
-            "url": "https://machinelearning.apple.com/research/video-caption-quality",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-11",
-            "publishedAt": "2026-09-11T08:00",
+            "date": "2026-09-15",
+            "publishedAt": "2026-09-15T05:22",
             "reason": ""
           },
           {
-            "title": "Video and image search in Amazon Bedrock Knowledge Base using Marengo 3.0",
-            "summary": "TwelveLabs Marengo Embed 3.0 is now generally available as an embedding model in Amazon Bedrock Knowledge Bases, bringing fully managed natu",
+            "title": "Manage end-user OAuth consent for AI agents with Amazon Bedrock AgentCore",
+            "summary": "Amazon Bedrock AgentCore Identity now offers a Consent portal, a managed web experience and session binding endpoint for AgentCore Gateway. ",
             "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/video-and-image-search-in-amazon-bedrock-knowledge-base-using-marengo-3-0/",
+            "url": "https://aws.amazon.com/blogs/machine-learning/manage-end-user-oauth-consent-for-ai-agents-with-amazon-bedrock-agentcore/",
             "score": 70,
             "sourceCount": 1,
-            "date": "2026-09-11",
-            "publishedAt": "2026-09-11T05:15",
+            "date": "2026-09-15",
+            "publishedAt": "2026-09-15T04:35",
             "reason": ""
           }
         ]
@@ -10470,28 +10386,6 @@
             "sourceCount": 1,
             "date": "2026-09-14",
             "publishedAt": "2026-09-14T23:58",
-            "reason": ""
-          },
-          {
-            "title": "Monitoring production agent lifecycle with AWS DevOps Agent and AgentCore Evaluations",
-            "summary": "Multi-agent systems fail in ways traditional monitoring misses. This post presents a dual-layer approach to monitoring production agents: Am",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/monitoring-production-agent-lifecycle-with-aws-devops-agent-and-agentcore-evaluations/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-12",
-            "publishedAt": "2026-09-12T02:26",
-            "reason": ""
-          },
-          {
-            "title": "Build interactive MCP Apps using Amazon Bedrock AgentCore",
-            "summary": "Learn how to build and deploy an MCP App with interactive HTML widgets on Amazon Bedrock AgentCore. Because MCP Apps is a host-agnostic stan",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/build-interactive-mcp-apps-using-amazon-bedrock-agentcore/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-12",
-            "publishedAt": "2026-09-12T02:23",
             "reason": ""
           }
         ]
@@ -10532,122 +10426,6 @@
             "date": "2026-09-14",
             "publishedAt": "2026-09-14T23:47",
             "reason": ""
-          },
-          {
-            "title": "Dario Amodei 发文呼吁 AI 行业放慢前沿速度并公布三步计划",
-            "summary": "Dario Amodei 发布新文章 We Must Pace the Frontier，主张 AI 行业应放慢速度，并提出三部分计划。Anthropic 单方面承诺第一步，为第三方评估者提供永久的员工级系统访问权限，以核实安全措施执行、报告事故并评估训练期间模型的 alignm",
-            "source": "X：Peter McCrory（Anthropic 首席经济学家，@PeterMcCrory）",
-            "url": "https://x.com/PeterMcCrory/status/2098868931071226252",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-13",
-            "publishedAt": "2026-09-13T04:18",
-            "reason": ""
-          },
-          {
-            "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
-            "summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with",
-            "source": "RSS · OpenAI Blog",
-            "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-12",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Together AI expands fine-tuning service with more models, live metrics, and finer controls",
-            "summary": "Together Fine-Tuning adds the latest open-weight models, live experiment tracking, Expert LoRA, early stopping, tokenized dataset previews, ",
-            "source": "RSS · Together AI",
-            "url": "https://www.together.ai/blog/together-ai-expands-fine-tuning-service-with-more-models-live-metrics-and-finer-controls",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-11",
-            "publishedAt": "2026-09-11T08:00",
-            "reason": ""
-          },
-          {
-            "title": "ToolGrad: Efficient tool-use dataset generation with textual \"gradients\"",
-            "summary": "Machine Intelligence",
-            "source": "RSS · Google Research",
-            "url": "https://research.google/blog/toolgrad-efficient-tool-use-dataset-generation-with-textual-gradients/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-11",
-            "publishedAt": "2026-09-11T06:50",
-            "reason": ""
-          },
-          {
-            "title": "Amazon Quick is now generally available on desktop",
-            "summary": "Your teams get an AI assistant that handles real work while your data stays in your environment and your conversations stay private Today, t",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/amazon-quick-is-now-generally-available-on-desktop/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-11",
-            "publishedAt": "2026-09-11T02:16",
-            "reason": ""
-          },
-          {
-            "title": "Build an end-to-end RFI questionnaire workflow using Amazon Quick Automate",
-            "summary": "Learn how to build an end-to-end RFI questionnaire workflow with Amazon Quick Automate. Read a multi-tab RFI workbook from Amazon S3, use na",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/build-an-end-to-end-rfi-questionnaire-workflow-using-amazon-quick-automate/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-11",
-            "publishedAt": "2026-09-11T00:08",
-            "reason": ""
-          },
-          {
-            "title": "Anthropic 评估 AI 模型的战术情报定位与常规武器能力",
-            "summary": "Anthropic Frontier Red Team 发布新评测，衡量模型在战术情报定位（账户关联、照片与文本地理定位）和常规武器开发（无人机末段制导、投送、GPS 干扰下导航）上的能力。",
-            "source": "Anthropic：Research（发表成果 · 网页）",
-            "url": "https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-11",
-            "publishedAt": "2026-09-11T01:28",
-            "reason": ""
-          },
-          {
-            "title": "3 ways to prep for your next big race with Search",
-            "summary": "Search can help runners get race-day ready with registration alerts, tailored training plans, and more.",
-            "source": "RSS · Google AI Blog",
-            "url": "https://blog.google/products-and-platforms/products/search/running-race-training-tips/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-11",
-            "publishedAt": "2026-09-11T00:00",
-            "reason": ""
-          }
-        ]
-      },
-      {
-        "category": "ai-benchmark",
-        "label": "评测榜单",
-        "items": [
-          {
-            "title": "Beyond the price per token: Choosing the right OpenAI model on Amazon Bedrock for your workload",
-            "summary": "Comparing models on dollars per million tokens misses what production workloads actually pay for: outcomes. This post shares an open-source ",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/beyond-the-price-per-token-choosing-the-right-openai-model-on-amazon-bedrock-for-your-workload/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-12",
-            "publishedAt": "2026-09-12T02:24",
-            "reason": ""
-          },
-          {
-            "title": "Reduce LLM latency with prefix-aware routing on Amazon SageMaker Inference",
-            "summary": "Amazon SageMaker Inference now offers prefix-aware routing, a routing strategy that sends requests sharing the same prompt prefix to the sam",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/reduce-llm-latency-with-prefix-aware-routing-on-amazon-sagemaker-inference/",
-            "score": 70,
-            "sourceCount": 2,
-            "date": "2026-09-11",
-            "publishedAt": "2026-09-11T05:58",
-            "reason": ""
           }
         ]
       },
@@ -10656,25 +10434,14 @@
         "label": "论文研究",
         "items": [
           {
-            "title": "Probabilistic Focal Search: Accelerating Bounded-Suboptimal Search via Lower-Bound Advancement",
-            "summary": "arXiv:2609.10584v1 Announce Type: new Abstract: Bounded-suboptimal search seeks a solution within a factor $w$ of optimal while reducing sea",
-            "source": "RSS · arXiv cs.AI",
-            "url": "https://arxiv.org/abs/2609.10584",
+            "title": "Watch astronaut Christina Koch and Google’s James Manyika discuss space, technology, and discovery.",
+            "summary": "Christina Koch sits down with James Manyika, Google’s Senior Vice President of Research, Labs, Technology & Society.",
+            "source": "RSS · Google AI Blog",
+            "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-christina-koch/",
             "score": 70,
             "sourceCount": 1,
-            "date": "2026-09-12",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "DiscoSign: Discourse-Aware Text to Sign Language Gloss Translation",
-            "summary": "Sign language processing systems have traditionally operated at the sentence level, ignoring critical discourse phenomena fundamental to sig",
-            "source": "RSS · Apple ML Research",
-            "url": "https://machinelearning.apple.com/research/discosign-gloss-translation",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-11",
-            "publishedAt": "2026-09-11T08:00",
+            "date": "2026-09-15",
+            "publishedAt": "2026-09-15T03:00",
             "reason": ""
           }
         ]
@@ -21645,6 +21412,18 @@
     ]
   },
   "benchmarkDatasets": [
+    {
+      "name": "EduFair-Bench",
+      "area": "AI 模型能力评测",
+      "note": "Large language models (LLMs) are increasingly deployed as tutors, but it is unclear whether they support all students equally well. We introduce \\textbf{EduFair-Bench}, a benchmark",
+      "source": "http://arxiv.org/abs/2609.12949v1",
+      "sourceName": "arXiv",
+      "date": "2026-09-11",
+      "originTitle": "EduFair-Bench: Evaluating Pedagogical Fairness of LLM Tutors Across Student Demographics",
+      "evaluates": [],
+      "useCases": [],
+      "limitations": []
+    },
     {
       "name": "energy-vault-scaled-gravity-storage-the-battery-benchmark",
       "area": "检索 / Embedding",
