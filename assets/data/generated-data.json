@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-14",
-  "generatedAt": "2026-09-14T11:48:41.682818Z",
+  "generatedAt": "2026-09-14T14:23:44.533101Z",
   "news": [
     {
       "title": "Dario Amodei 发文呼吁 AI 行业放慢前沿速度并公布三步计划",
@@ -5568,6 +5568,17 @@
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Microsoft drafts code of conduct to keep its AI under human ",
+        "provider": "@businessline",
+        "type": "AI 项目/工具",
+        "bestFor": "AI chief Suleyman tells Reuters that OpenAI agents' hack of Hugging Face was warning shot\n\nMicrosoft on Monday unveiled a draft code ⁠of conduct for its in-hous",
+        "description": "AI chief Suleyman tells Reuters that OpenAI agents' hack of Hugging Face was warning shot\n\nMicrosoft on Monday unveiled a draft code ⁠of conduct for its in-house artificial intelli",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "@businessline",
+        "url": "https://www.thehindubusinessline.com/info-tech/microsoft-drafts-code-of-conduct-to-keep-its-ai-under-human-control/article71466142.ece"
+      },
+      {
         "name": "Augment 复盘软件工厂建设：人均规模调整产出增长 4.5 倍",
         "provider": "Augment Code 博客（网页）",
         "type": "AI 项目/工具",
@@ -5995,17 +6006,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "WebProNews",
         "url": "https://www.webpronews.com/intelligence-or-expense-why-ai-coding-tools-are-reshaping-software-budgets/"
-      },
-      {
-        "name": "From code to diagrams: Agentic architecture documentation wi",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Learn how a global interdealer broker built an automated architecture documentation pipeline on Amazon Bedrock AgentCore that analyzes .NET code bases, generate",
-        "description": "Learn how a global interdealer broker built an automated architecture documentation pipeline on Amazon Bedrock AgentCore that analyzes .NET code bases, generates architecture diagr",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/from-code-to-diagrams-agentic-architecture-documentation-with-amazon-bedrock-agentcore/"
       }
     ],
     "ai-agents": [
@@ -6452,6 +6452,17 @@
     ],
     "ai-models": [
       {
+        "name": "John Battelle's Search Blog Google Has Lapped ChatGPT. Now W",
+        "provider": "John Battelle's Search Blog",
+        "type": "AI 项目/工具",
+        "bestFor": "You've noticed it, but maybe you've not thought too hard about it. Over the past few months, your Google search habits have changed. What was once mostly call a",
+        "description": "You've noticed it, but maybe you've not thought too hard about it. Over the past few months, your Google search habits have changed. What was once mostly call and response - query,",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "John Battelle's Search Blog",
+        "url": "https://battellemedia.com/archives/2026/09/google-has-lapped-chatgpt-now-what"
+      },
+      {
         "name": "AppleInsider.com",
         "provider": "AppleInsider",
         "type": "AI 项目/工具",
@@ -6879,20 +6890,42 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Yahoo! Finance",
         "url": "https://finance.yahoo.com/technology/ai/articles/meta-18-billion-settlement-could-005623595.html"
-      },
-      {
-        "name": "Google's Gemini app for Windows 11 uses the same keyboard sh",
-        "provider": "Windows Central",
-        "type": "AI 项目/工具",
-        "bestFor": "You can now summon Gemini on your computer by pressing Alt + Space.\n\nGoogle Gemini now competes with Microsoft Copilot for space on your keyboard. Google just r",
-        "description": "You can now summon Gemini on your computer by pressing Alt + Space.\n\nGoogle Gemini now competes with Microsoft Copilot for space on your keyboard. Google just released Gemini for W",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Windows Central",
-        "url": "https://www.windowscentral.com/artificial-intelligence/microsoft-copilot/googles-gemini-app-for-windows-11-uses-the-same-keyboard-shortcut-as-copilot"
       }
     ],
     "ai-business": [
+      {
+        "name": "Instacart, Shipt launch AI-powered shopping assistants",
+        "provider": "Retail Dive",
+        "type": "AI 项目/工具",
+        "bestFor": "* Instacart and Shipt separately announced Wednesday the launches of artificial intelligence-powered shopping assistants.\n\n* Clementine, Instacart's new marketp",
+        "description": "* Instacart and Shipt separately announced Wednesday the launches of artificial intelligence-powered shopping assistants.\n\n* Clementine, Instacart's new marketplace tool, and Ask S",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Retail Dive",
+        "url": "https://www.retaildive.com/news/instacart-shipt-launch-ai-powered-shopping-assistants/830092/"
+      },
+      {
+        "name": "Global AI stocks slide as warnings over rapid development tr",
+        "provider": "The Times of India",
+        "type": "AI 项目/工具",
+        "bestFor": "AI-linked stocks across global markets plunged on Monday after leaders of some of the world's biggest artificial intelligence companies called for a slower pace",
+        "description": "AI-linked stocks across global markets plunged on Monday after leaders of some of the world's biggest artificial intelligence companies called for a slower pace of development, rai",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Times of India",
+        "url": "https://timesofindia.indiatimes.com/business/international-business/global-ai-stocks-slide-as-warnings-over-rapid-development-trigger-investor-concerns/articleshow/134242445.cms"
+      },
+      {
+        "name": "Global AI stocks fall as industry chiefs call for slowing de",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "AI-linked stocks across the globe plunged on Monday after leaders of the biggest AI companies warned of risks from rapid development.",
+        "description": "AI-linked stocks across the globe plunged on Monday after leaders of the biggest AI companies warned of risks from rapid development.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Claude AI",
+        "url": "https://www.news24.com/business/tech/global-ai-stocks-fall-as-industry-chiefs-call-for-slowing-development-20260914-0761"
+      },
       {
         "name": "They created Siri before Apple bought it. They're still wait",
         "provider": "CNN",
@@ -7299,39 +7332,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Daily Tribune",
         "url": "https://tribune.net.ph/2026/09/06/p1-b-noah-boost-to-strengthen-flood-disaster-response"
-      },
-      {
-        "name": "All It Takes Is $10,000 Invested in This Dividend Stock to G",
-        "provider": "The Motley Fool",
-        "type": "AI 项目/工具",
-        "bestFor": "Identifying high-quality businesses that send investors cash every single quarter is a great way to allocate your capital.\n\nInstead of always chasing the popula",
-        "description": "Identifying high-quality businesses that send investors cash every single quarter is a great way to allocate your capital.\n\nInstead of always chasing the popular growth stocks, def",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Motley Fool",
-        "url": "https://www.fool.com/investing/2026/09/05/10000-invested-dividend-stock-241-yearly-income/"
-      },
-      {
-        "name": "Tuya Smart Unveils Doova at IFA 2026, an AI Home Companion R",
-        "provider": "Thailand Business News",
-        "type": "AI 项目/工具",
-        "bestFor": "BERLIN, Sept. 5, 2026 /PRNewswire/ -- Tuya Smart (NYSE: TUYA; HKEX: 2391), a global AI cloud platform service provider, today unveiled Doova, its new AI home co",
-        "description": "BERLIN, Sept. 5, 2026 /PRNewswire/ -- Tuya Smart (NYSE: TUYA; HKEX: 2391), a global AI cloud platform service provider, today unveiled Doova, its new AI home companion robot, at IF",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Thailand Business News",
-        "url": "https://www.thailand-business-news.com/pr-news/tuya-smart-unveils-doova-at-ifa-2026-an-ai-home-companion-robot-designed-to-support-independently-living-seniors"
-      },
-      {
-        "name": "iFLYTEK Showcases AI Across Work, Home and Marketing at IFA ",
-        "provider": "FinanzNachrichten.de",
-        "type": "AI 项目/工具",
-        "bestFor": "Turning core AI capabilities into practical tools for work and everyday life\n\nBERLIN, Sept. 05, 2026 (GLOBE NEWSWIRE) -- iFLYTEK is showcasing its AI products a",
-        "description": "Turning core AI capabilities into practical tools for work and everyday life\n\nBERLIN, Sept. 05, 2026 (GLOBE NEWSWIRE) -- iFLYTEK is showcasing its AI products and solutions at IFA ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "FinanzNachrichten.de",
-        "url": "https://www.finanznachrichten.de/nachrichten-2026-09/69502079-iflytek-showcases-ai-across-work-home-and-marketing-at-ifa-2026-399.htm"
       }
     ],
     "ai-benchmark": [
@@ -10237,7 +10237,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-14",
-    "generatedAt": "2026-09-14T11:48:41.659818Z",
+    "generatedAt": "2026-09-14T14:23:44.510136Z",
     "total": 24,
     "sections": [
       {
