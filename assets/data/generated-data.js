@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-15",
-  "generatedAt": "2026-09-15T01:08:00.823818Z",
+  "generatedAt": "2026-09-15T03:39:28.243136Z",
   "news": [
     {
       "title": "Watch astronaut Christina Koch and Google’s James Manyika discuss space, technology, and discovery.",
@@ -110,6 +110,33 @@ window.AI_GENERATED_DATA = {
       "moduleTargets": [
         "news",
         "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Extracting Dataset Mentions in Forced Displacement and FCV Documents: A Weakly Supervised Framework with LLM-Based Label Refinement",
+      "summary": "arXiv:2609.12107v1 Announce Type: new Abstract: Development and humanitarian organizations produce and support surveys, administrative registries, and other data resources to infor",
+      "category": "ai-research",
+      "source": "RSS · arXiv cs.CL",
+      "date": "2026-09-14",
+      "publishedAt": "",
+      "collectedAt": "2026-09-15T11:39",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-14",
+      "tags": [],
+      "url": "https://arxiv.org/abs/2609.12107",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
       ],
       "sourceCount": 1
     },
@@ -6461,6 +6488,28 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-models": [
       {
+        "name": "AsiaOne",
+        "provider": "AsiaOne",
+        "type": "AI 项目/工具",
+        "bestFor": "DeepSeek plans to hire Yan Wentao, a partner at venture-capital firm GL Ventures, as its first chief financial officer, two people with knowledge of the matter ",
+        "description": "DeepSeek plans to hire Yan Wentao, a partner at venture-capital firm GL Ventures, as its first chief financial officer, two people with knowledge of the matter said, as the Chinese",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "AsiaOne",
+        "url": "https://www.asiaone.com/china/chinas-deepseek-hires-dealmaker-cfo-ahead-possible-ipo"
+      },
+      {
+        "name": "DeepSeek hires GL Ventures partner as CFO ahead of possible ",
+        "provider": "DealStreetAsia",
+        "type": "AI 项目/工具",
+        "bestFor": "DeepSeek plans to hire Yan Wentao, a partner at venture-capital firm GL Ventures, as its first chief financial officer, two people with knowledge of the matter ",
+        "description": "DeepSeek plans to hire Yan Wentao, a partner at venture-capital firm GL Ventures, as its first chief financial officer, two people with knowledge of the matter said, as the Chinese",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "DealStreetAsia",
+        "url": "https://www.dealstreetasia.com/stories/deepseek-gl-ventures-cfo-495120"
+      },
+      {
         "name": "Apple 发布新一代 Apple Intelligence，Siri AI 正式以测试版上线",
         "provider": "Apple：Newsroom（RSS）",
         "type": "AI 项目/工具",
@@ -6877,28 +6926,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Analytics Insight",
         "url": "https://www.analyticsinsight.net/artificial-intelligence/5-ai-workflow-automation-apps-to-help-professionals-work-smarter"
-      },
-      {
-        "name": "Full-Duplex Voice AI Hits Developer APIs: GPT-Live-1 Kills C",
-        "provider": "Tech Times",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenAI opens its full-duplex voice model to all developers at five cents per minute\n\nOpenAI released GPT-Live-1 to developers on Wednesday, moving the full-dupl",
-        "description": "OpenAI opens its full-duplex voice model to all developers at five cents per minute\n\nOpenAI released GPT-Live-1 to developers on Wednesday, moving the full-duplex voice model that ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Tech Times",
-        "url": "https://www.techtimes.com/articles/327310/20260912/full-duplex-voice-ai-hits-developer-apis-gpt-live-1-kills-cascaded-pipeline.htm"
-      },
-      {
-        "name": "From Hacks to Bioweapons, Claude Misuse Is Now Everywhere",
-        "provider": "Wired",
-        "type": "AI 项目/工具",
-        "bestFor": "Editor's note: After more than a decade, this is the last WIRED Security News This Week. \"The roundup,\" as we call it internally, started as a way to ensure tha",
-        "description": "Editor's note: After more than a decade, this is the last WIRED Security News This Week. \"The roundup,\" as we call it internally, started as a way to ensure that our readers knew a",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Wired",
-        "url": "https://www.wired.com/story/security-news-this-week-from-hacks-to-bioweapons-claude-misuse-is-now-everywhere/"
       }
     ],
     "ai-business": [
@@ -10242,8 +10269,8 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-15",
-    "generatedAt": "2026-09-15T01:08:00.803849Z",
-    "total": 8,
+    "generatedAt": "2026-09-15T03:39:28.217730Z",
+    "total": 9,
     "sections": [
       {
         "category": "ai-coding",
@@ -10353,6 +10380,17 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-09-15",
             "publishedAt": "2026-09-15T03:00",
+            "reason": ""
+          },
+          {
+            "title": "Extracting Dataset Mentions in Forced Displacement and FCV Documents: A Weakly Supervised Framework with LLM-Based Label Refinement",
+            "summary": "arXiv:2609.12107v1 Announce Type: new Abstract: Development and humanitarian organizations produce and support surveys, administrative regis",
+            "source": "RSS · arXiv cs.CL",
+            "url": "https://arxiv.org/abs/2609.12107",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-14",
+            "publishedAt": "",
             "reason": ""
           }
         ]
