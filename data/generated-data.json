@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-15",
-  "generatedAt": "2026-09-14T21:36:47.041930Z",
+  "generatedAt": "2026-09-15T01:08:00.823818Z",
   "news": [
     {
       "title": "Watch astronaut Christina Koch and Google’s James Manyika discuss space, technology, and discovery.",
@@ -2497,95 +2497,6 @@
       "moduleTargets": [
         "news",
         "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "AuK Technical Report: An Open-Source Foundational Model for Speech Generation and Editing",
-      "summary": "We introduce AuK, an open-source foundational model that unifies speech generation and editing through a common interface of natural-language instructions and audio context. To sup",
-      "category": "ai-image-video",
-      "source": "arXiv",
-      "date": "2026-09-08",
-      "publishedAt": "",
-      "collectedAt": "2026-09-10T00:56",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-08",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.08936v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 2,
-      "relatedSources": [
-        {
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2609.12945v1",
-          "title": "StepAudio 3 Gen Technical Report"
-        }
-      ]
-    },
-    {
-      "title": "PlannerForge: LLM Agents for Scenario-Based Testing of Motion Planners in Autonomous Driving",
-      "summary": "Ensuring the safety of autonomous driving is a critical challenge. Scenario-based testing is a systematic process used to validate Autonomous Driving Systems (ADSs), but it remains",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-09-08",
-      "publishedAt": "",
-      "collectedAt": "2026-09-09T18:36",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-08",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.08965v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "It's Not RoPE that Creates Sinks: The Role of Self-Concentration and Value-Non-Mixing in Attention",
-      "summary": "Large Language Models (LLMs) often exhibit \"Attention Sink\" (AS) and the accompanying \"Massive Activations\" (MAs) at the initial position of a sequence. These phenomena frequently ",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-08",
-      "publishedAt": "",
-      "collectedAt": "2026-09-09T14:43",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-08",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.09085v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
       ],
       "sourceCount": 1
     }
@@ -10331,7 +10242,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-15",
-    "generatedAt": "2026-09-14T21:36:47.020933Z",
+    "generatedAt": "2026-09-15T01:08:00.803849Z",
     "total": 8,
     "sections": [
       {
