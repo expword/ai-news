@@ -1,7 +1,122 @@
 {
   "lastUpdated": "2026-09-16",
-  "generatedAt": "2026-09-15T16:21:37.104844Z",
+  "generatedAt": "2026-09-15T18:45:40.875374Z",
   "news": [
+    {
+      "title": "Google DeepMind 发布 Gemini 3.8 Live 和 3.8 Live Extended Thinking",
+      "summary": "Google DeepMind 发布 Gemini 3.8 Live 与 Gemini 3.8 Live Extended Thinking 两个近实时语音对话模型，主打语音智能体和复杂任务执行。",
+      "category": "ai-models",
+      "source": "Google DeepMind：Blog（RSS）",
+      "date": "2026-09-16",
+      "publishedAt": "2026-09-16T01:05",
+      "collectedAt": "2026-09-16T02:45",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 2,
+      "relatedSources": [
+        {
+          "source": "RSS · Google DeepMind",
+          "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+          "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking"
+        }
+      ]
+    },
+    {
+      "title": "Optimizing cost and latency with Amazon Bedrock prompt caching",
+      "summary": "Prompt caching in Amazon Bedrock can cut input token costs by up to 90% when you repeatedly send the same context to foundation models. This post walks through six practical prompt",
+      "category": "ai-models",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-16",
+      "publishedAt": "2026-09-16T00:18",
+      "collectedAt": "2026-09-16T01:35",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/optimizing-cost-and-latency-with-amazon-bedrock-prompt-caching/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Build an AI-powered product tagging system with Amazon SageMaker serverless model customization",
+      "summary": "Manually tagging thousands of catalog products is slow and inconsistent. This walkthrough shows how to customize Qwen3-8B with supervised fine-tuning (SFT) and reinforcement learni",
+      "category": "ai-models",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-16",
+      "publishedAt": "2026-09-16T00:11",
+      "collectedAt": "2026-09-16T01:35",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-an-ai-powered-product-tagging-system-with-amazon-sagemaker-serverless-model-customization/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "AI for Societal Impact",
+      "summary": "Explore this collection to see how experts and local leaders are using AI breakthroughs to ensure everyone can share the opportunity of AI.",
+      "category": "ai-models",
+      "source": "RSS · Google AI Blog",
+      "date": "2026-09-16",
+      "publishedAt": "2026-09-16T00:00",
+      "collectedAt": "2026-09-16T01:35",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Announcing instance preference lists for Amazon SageMaker AI training jobs",
       "summary": "Amazon SageMaker AI now offers instance preference lists for training and processing jobs. Specify an ordered list of up to five instance types, and SageMaker AI automatically laun",
@@ -2604,33 +2719,6 @@
       "tier": "T1.5",
       "scores": {},
       "score": 56,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Evaluating and Improving Evidence-Grounded Fact-Checking in LLMs via Multi-Round Evidence Ablation",
-      "summary": "Automatic fact-checking systems assess the veracity of claims given evidence from relevant documents. Large Language Models (LLMs) have demonstrated strong performance in fact-chec",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-08",
-      "publishedAt": "",
-      "collectedAt": "2026-09-10T00:56",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-08",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.08943v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
       "aiSelected": true,
       "moduleTargets": [
         "news"
@@ -6156,6 +6244,17 @@
     ],
     "ai-agents": [
       {
+        "name": "Tessl 提出 Agent 上下文归属模型：所有权跟随组织单元",
+        "provider": "Tessl：产品与工程博客",
+        "type": "AI 项目/工具",
+        "bestFor": "Tessl 发文提出智能体转型的真正难点是上下文等要素的归属问题，而非 Agent 本身。核心规则是所有权跟随组织单元，个人与团队上下文归领域专家，组织级共享基础由赋能或平台团队托管并开放贡献，赋能团队只提供工具和基础设施而不拥有上下文。",
+        "description": "Tessl 发文提出智能体转型的真正难点是上下文等要素的归属问题，而非 Agent 本身。核心规则是所有权跟随组织单元，个人与团队上下文归领域专家，组织级共享基础由赋能或平台团队托管并开放贡献，赋能团队只提供工具和基础设施而不拥有上下文。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Tessl：产品与工程博客",
+        "url": "https://tessl.io/blog/who-owns-yourthe-context"
+      },
+      {
         "name": "Your Agent Aced the Task. Will It Do It Again?",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -6583,17 +6682,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "EconoTimes",
         "url": "https://econotimes.com/Metas-AI-Shopping-Push-Grows-as-Agentic-Commerce-Remains-Below-1-1751913"
-      },
-      {
-        "name": "LlamaIndex 解析 just-in-time Agentic OCR：两遍式文档处理如何平衡成本与精度",
-        "provider": "LlamaIndex：产品、工程与评测",
-        "type": "AI 项目/工具",
-        "bestFor": "LlamaIndex 博客提出 just-in-time Agentic OCR 模式：先用 LiteParse 等免费解析器粗读全部文件供检索，再仅对相关页面调用 VLM 做 OCR。",
-        "description": "LlamaIndex 博客提出 just-in-time Agentic OCR 模式：先用 LiteParse 等免费解析器粗读全部文件供检索，再仅对相关页面调用 VLM 做 OCR。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "LlamaIndex：产品、工程与评测",
-        "url": "https://www.llamaindex.ai/blog/just-in-time-agentic-ocr"
       }
     ],
     "ai-models": [
@@ -10367,8 +10455,8 @@
   ],
   "dailyReport": {
     "date": "2026-09-16",
-    "generatedAt": "2026-09-15T16:21:37.082847Z",
-    "total": 10,
+    "generatedAt": "2026-09-15T18:45:40.852377Z",
+    "total": 14,
     "sections": [
       {
         "category": "ai-coding",
@@ -10441,6 +10529,50 @@
         "category": "ai-models",
         "label": "模型发布",
         "items": [
+          {
+            "title": "Google DeepMind 发布 Gemini 3.8 Live 和 3.8 Live Extended Thinking",
+            "summary": "Google DeepMind 发布 Gemini 3.8 Live 与 Gemini 3.8 Live Extended Thinking 两个近实时语音对话模型，主打语音智能体和复杂任务执行。",
+            "source": "Google DeepMind：Blog（RSS）",
+            "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking",
+            "score": 70,
+            "sourceCount": 2,
+            "date": "2026-09-16",
+            "publishedAt": "2026-09-16T01:05",
+            "reason": ""
+          },
+          {
+            "title": "Optimizing cost and latency with Amazon Bedrock prompt caching",
+            "summary": "Prompt caching in Amazon Bedrock can cut input token costs by up to 90% when you repeatedly send the same context to foundation models. This",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/optimizing-cost-and-latency-with-amazon-bedrock-prompt-caching/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-16",
+            "publishedAt": "2026-09-16T00:18",
+            "reason": ""
+          },
+          {
+            "title": "Build an AI-powered product tagging system with Amazon SageMaker serverless model customization",
+            "summary": "Manually tagging thousands of catalog products is slow and inconsistent. This walkthrough shows how to customize Qwen3-8B with supervised fi",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/build-an-ai-powered-product-tagging-system-with-amazon-sagemaker-serverless-model-customization/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-16",
+            "publishedAt": "2026-09-16T00:11",
+            "reason": ""
+          },
+          {
+            "title": "AI for Societal Impact",
+            "summary": "Explore this collection to see how experts and local leaders are using AI breakthroughs to ensure everyone can share the opportunity of AI.",
+            "source": "RSS · Google AI Blog",
+            "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-16",
+            "publishedAt": "2026-09-16T00:00",
+            "reason": ""
+          },
           {
             "title": "Announcing instance preference lists for Amazon SageMaker AI training jobs",
             "summary": "Amazon SageMaker AI now offers instance preference lists for training and processing jobs. Specify an ordered list of up to five instance ty",
