@@ -1,7 +1,144 @@
 window.AI_GENERATED_DATA = {
-  "lastUpdated": "2026-09-15",
-  "generatedAt": "2026-09-15T13:51:18.718226Z",
+  "lastUpdated": "2026-09-16",
+  "generatedAt": "2026-09-15T16:21:37.104844Z",
   "news": [
+    {
+      "title": "Announcing instance preference lists for Amazon SageMaker AI training jobs",
+      "summary": "Amazon SageMaker AI now offers instance preference lists for training and processing jobs. Specify an ordered list of up to five instance types, and SageMaker AI automatically laun",
+      "category": "ai-models",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-16",
+      "publishedAt": "2026-09-16T00:01",
+      "collectedAt": "2026-09-16T00:21",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/announcing-instance-preference-lists-for-amazon-sagemaker-ai-training-jobs/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Your Agent Aced the Task. Will It Do It Again?",
+      "summary": "",
+      "category": "ai-agents",
+      "source": "RSS · Hugging Face Blog",
+      "date": "2026-09-16",
+      "publishedAt": "2026-09-16T00:00",
+      "collectedAt": "2026-09-16T00:21",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "AI for everyone in every language",
+      "summary": "We’re moving beyond traditional text translation to build models that understand the world’s rich, living languages exactly as they are expressed.",
+      "category": "ai-models",
+      "source": "RSS · Google AI Blog",
+      "date": "2026-09-16",
+      "publishedAt": "2026-09-16T00:00",
+      "collectedAt": "2026-09-16T00:21",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Building AI to accelerate science and improve lives",
+      "summary": "The true measure of AI is who it helps. Here’s how it’s impacting lives today. We're focused on key areas where advanced technology can help make extraordinary progress …",
+      "category": "ai-models",
+      "source": "RSS · Google AI Blog",
+      "date": "2026-09-16",
+      "publishedAt": "2026-09-16T00:00",
+      "collectedAt": "2026-09-16T00:21",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-applications-science-people/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "New insights from Google’s AI & Economy ATLAS",
+      "summary": "We’ve translated ATLAS’s millions of global data points into an interactive, open-access experience.",
+      "category": "ai-models",
+      "source": "RSS · Google AI Blog",
+      "date": "2026-09-15",
+      "publishedAt": "2026-09-15T21:00",
+      "collectedAt": "2026-09-16T00:21",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-economy-atlas-september-2026/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "ZGCM-1: A Fully Open and Extremely Efficient Foundation Model for Math and Agentic Search",
       "summary": "arXiv:2609.13356v1 Announce Type: new Abstract: In this work, we present ZGCM-1, a fully open 7B dense foundation model trained from scratch with extreme data, system, and algorith",
@@ -6019,6 +6156,28 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "Your Agent Aced the Task. Will It Do It Again?",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "",
+        "description": "",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Hugging Face Blog",
+        "url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency"
+      },
+      {
+        "name": "Agent-net Open Sources Webagent: A Go Harness That Turns Any",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Agent-net, the team building an agent-to-agent marketplace where AI agents discover, trust, and pay each other, has released Webagent, an open source harne",
+        "description": "Agent-net, the team building an agent-to-agent marketplace where AI agents discover, trust, and pay each other, has released Webagent, an open source harne",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:open source LLM",
+        "url": "https://www.newsbreak.com/news/4886567866197-agent-net-open-sources-webagent-a-go-harness-that-turns-any-website-into-a-guarded-ai-agent"
+      },
+      {
         "name": "Augmentir Reinvents Industrial Software: Natural Language Be",
         "provider": "CNHI News",
         "type": "AI 项目/工具",
@@ -6435,31 +6594,31 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "LlamaIndex：产品、工程与评测",
         "url": "https://www.llamaindex.ai/blog/just-in-time-agentic-ocr"
-      },
-      {
-        "name": "Chinese researchers unveil lightweight dual-model AI agent f",
-        "provider": "China National News",
-        "type": "AI 项目/工具",
-        "bestFor": "SHENZHEN, Sept. 12 (Xinhua) -- Chinese researchers have unveiled a lightweight dual-model collaborative AI agent for materials research, enabling AI not only to",
-        "description": "SHENZHEN, Sept. 12 (Xinhua) -- Chinese researchers have unveiled a lightweight dual-model collaborative AI agent for materials research, enabling AI not only to \"think\" but also to",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "China National News",
-        "url": "https://www.chinanationalnews.com/news/279302796/chinese-researchers-unveil-lightweight-dual-model-ai-agent-for-materials-research"
-      },
-      {
-        "name": "Chinese researchers unveil lightweight dual-model AI agent f",
-        "provider": "People's Daily, China",
-        "type": "AI 项目/工具",
-        "bestFor": "SHENZHEN, Sept. 12 (Xinhua) -- Chinese researchers have unveiled a lightweight dual-model collaborative AI agent for materials research, enabling AI not only to",
-        "description": "SHENZHEN, Sept. 12 (Xinhua) -- Chinese researchers have unveiled a lightweight dual-model collaborative AI agent for materials research, enabling AI not only to \"think\" but also to",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "People's Daily, China",
-        "url": "http://en.people.cn/n3/2026/0912/c90000-20498946.html"
       }
     ],
     "ai-models": [
+      {
+        "name": "Building AI to accelerate science and improve lives",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "The true measure of AI is who it helps. Here’s how it’s impacting lives today. We're focused on key areas where advanced technology can help make extraordinary ",
+        "description": "The true measure of AI is who it helps. Here’s how it’s impacting lives today. We're focused on key areas where advanced technology can help make extraordinary progress …",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Google AI Blog",
+        "url": "https://blog.google/innovation-and-ai/technology/ai/ai-applications-science-people/"
+      },
+      {
+        "name": "Fake 10 Downing Street listing on Booking.com highlights sec",
+        "provider": "RocketNews | Top News Stories From Around the Globe",
+        "type": "AI 项目/工具",
+        "bestFor": "A consumer watchdog organization set up a fraudulent property listing on a major online travel platform to test security vulnerabilities. The listing, created o",
+        "description": "A consumer watchdog organization set up a fraudulent property listing on a major online travel platform to test security vulnerabilities. The listing, created on 18 June, presented",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RocketNews | Top News Stories From Around the Globe",
+        "url": "https://rocketnews.com/2026/09/fake-10-downing-street-listing-on-booking-com-highlights-security-failures-2/"
+      },
       {
         "name": "Biren Technology Is Going Back to Investors for Another $1 B",
         "provider": "Startup Fortune",
@@ -6877,31 +7036,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Crypto Briefing",
         "url": "https://cryptobriefing.com/anthropic-secures-517b-in-ai-compute-deals-with-amazon-google-over-10-years/"
-      },
-      {
-        "name": "Fake Bangladeshi expatriate persona found in AI surveillance",
-        "provider": "The Daily Star",
-        "type": "AI 项目/工具",
-        "bestFor": "An AI-assisted surveillance operation prepared a fake online identity appearing to represent a Bangladeshi expatriate in Sharjah, according to findings publishe",
-        "description": "An AI-assisted surveillance operation prepared a fake online identity appearing to represent a Bangladeshi expatriate in Sharjah, according to findings published by Anthropic. The ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Daily Star",
-        "url": "https://www.thedailystar.net/news/technology/news/fake-bangladeshi-expatriate-persona-found-ai-surveillance-operation-4271851"
-      },
-      {
-        "name": "House Speaker Mike Johnson calls for meeting with AI leaders",
-        "provider": "Crypto Briefing",
-        "type": "AI 项目/工具",
-        "bestFor": "Johnson resists Democratic pressure to cut recess short for AI regulation, preferring industry consultation over rapid lawmaking\n\nWhile Democratic lawmakers are",
-        "description": "Johnson resists Democratic pressure to cut recess short for AI regulation, preferring industry consultation over rapid lawmaking\n\nWhile Democratic lawmakers are sounding alarms abo",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Crypto Briefing",
-        "url": "https://cryptobriefing.com/johnson-ai-leaders-meeting-before-legislation/"
       }
     ],
     "ai-business": [
+      {
+        "name": "Child trust fund firms face review over efforts to find who ",
+        "provider": "RocketNews | Top News Stories From Around the Globe",
+        "type": "AI 项目/工具",
+        "bestFor": "The Financial Conduct Authority has initiated a market review of child trust fund providers, citing concerns over significant sums remaining unclaimed. Approxim",
+        "description": "The Financial Conduct Authority has initiated a market review of child trust fund providers, citing concerns over significant sums remaining unclaimed. Approximately 760,000 accoun",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RocketNews | Top News Stories From Around the Globe",
+        "url": "https://rocketnews.com/2026/09/child-trust-fund-firms-face-review-over-efforts-to-find-who-owns-1-5bn-worth-of-pots-5/"
+      },
       {
         "name": "VC funding news: EUCLYD, Agilis Air, Temporal",
         "provider": "InfotechLead",
@@ -7330,17 +7478,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Evrim Ağacı",
         "url": "https://evrimagaci.org/gpt/apple-unveils-foldable-iphone-ultra-and-ai-leap-545125"
-      },
-      {
-        "name": "Strong economy, advanced technology, unity vital to national",
-        "provider": "Associated Press Of Pakistan",
-        "type": "AI 项目/工具",
-        "bestFor": "ISLAMABAD, Sep 06 (APP):Federal Minister for Planning, Development and Special Initiatives Professor Ahsan Iqbal on Sunday said that Pakistan's defence in the 2",
-        "description": "ISLAMABAD, Sep 06 (APP):Federal Minister for Planning, Development and Special Initiatives Professor Ahsan Iqbal on Sunday said that Pakistan's defence in the 21st century could no",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Associated Press Of Pakistan",
-        "url": "https://www.app.com.pk/business/strong-economy-advanced-technology-unity-vital-to-national-defence-ahsan/"
       }
     ],
     "ai-benchmark": [
@@ -10229,8 +10366,8 @@ window.AI_GENERATED_DATA = {
     }
   ],
   "dailyReport": {
-    "date": "2026-09-15",
-    "generatedAt": "2026-09-15T13:51:18.694625Z",
+    "date": "2026-09-16",
+    "generatedAt": "2026-09-15T16:21:37.082847Z",
     "total": 10,
     "sections": [
       {
@@ -10266,6 +10403,17 @@ window.AI_GENERATED_DATA = {
         "label": "Agent / MCP",
         "items": [
           {
+            "title": "Your Agent Aced the Task. Will It Do It Again?",
+            "summary": "",
+            "source": "RSS · Hugging Face Blog",
+            "url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-16",
+            "publishedAt": "2026-09-16T00:00",
+            "reason": ""
+          },
+          {
             "title": "ZGCM-1: A Fully Open and Extremely Efficient Foundation Model for Math and Agentic Search",
             "summary": "arXiv:2609.13356v1 Announce Type: new Abstract: In this work, we present ZGCM-1, a fully open 7B dense foundation model trained from scratch",
             "source": "RSS · arXiv cs.AI",
@@ -10286,17 +10434,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-09-15",
             "publishedAt": "2026-09-15T00:00",
             "reason": ""
-          },
-          {
-            "title": "How Ninth Wave built AI-powered open finance onboarding on Amazon Bedrock",
-            "summary": "Learn how Ninth Wave built Compass, a multi-agent AI onboarding assistant on Amazon Bedrock AgentCore that validates bank APIs against Finan",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/how-ninth-wave-built-ai-powered-open-finance-onboarding-on-amazon-bedrock/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-14",
-            "publishedAt": "2026-09-14T23:58",
-            "reason": ""
           }
         ]
       },
@@ -10305,36 +10442,47 @@ window.AI_GENERATED_DATA = {
         "label": "模型发布",
         "items": [
           {
-            "title": "Automate replenishment with MMF, Databricks Genie, and Amazon Quick",
-            "summary": "Foundation models made catalog-wide demand forecasting easy; the hard part is now acting on the forecast. This post builds a closed detect-d",
+            "title": "Announcing instance preference lists for Amazon SageMaker AI training jobs",
+            "summary": "Amazon SageMaker AI now offers instance preference lists for training and processing jobs. Specify an ordered list of up to five instance ty",
             "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/automate-replenishment-with-mmf-databricks-genie-and-amazon-quick/",
+            "url": "https://aws.amazon.com/blogs/machine-learning/announcing-instance-preference-lists-for-amazon-sagemaker-ai-training-jobs/",
             "score": 70,
             "sourceCount": 1,
-            "date": "2026-09-14",
-            "publishedAt": "2026-09-14T23:42",
+            "date": "2026-09-16",
+            "publishedAt": "2026-09-16T00:01",
             "reason": ""
           },
           {
-            "title": "How Fyxer built an AI executive assistant people trust",
-            "summary": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
-            "source": "RSS · OpenAI Blog",
-            "url": "https://openai.com/index/fyxer",
+            "title": "AI for everyone in every language",
+            "summary": "We’re moving beyond traditional text translation to build models that understand the world’s rich, living languages exactly as they are expr",
+            "source": "RSS · Google AI Blog",
+            "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/",
             "score": 70,
             "sourceCount": 1,
-            "date": "2026-09-14",
-            "publishedAt": "2026-09-14T20:00",
+            "date": "2026-09-16",
+            "publishedAt": "2026-09-16T00:00",
             "reason": ""
           },
           {
-            "title": "The generative AI customization spectrum: From prompt engineering to custom models on AWS",
-            "summary": "Pick the right generative AI customization approach on AWS with an 8-step decision framework, from prompt engineering and RAG to fine-tuning",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/the-generative-ai-customization-spectrum-from-prompt-engineering-to-custom-models-on-aws/",
+            "title": "Building AI to accelerate science and improve lives",
+            "summary": "The true measure of AI is who it helps. Here’s how it’s impacting lives today. We're focused on key areas where advanced technology can help",
+            "source": "RSS · Google AI Blog",
+            "url": "https://blog.google/innovation-and-ai/technology/ai/ai-applications-science-people/",
             "score": 70,
             "sourceCount": 1,
-            "date": "2026-09-14",
-            "publishedAt": "2026-09-14T23:47",
+            "date": "2026-09-16",
+            "publishedAt": "2026-09-16T00:00",
+            "reason": ""
+          },
+          {
+            "title": "New insights from Google’s AI & Economy ATLAS",
+            "summary": "We’ve translated ATLAS’s millions of global data points into an interactive, open-access experience.",
+            "source": "RSS · Google AI Blog",
+            "url": "https://blog.google/innovation-and-ai/technology/ai/ai-economy-atlas-september-2026/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-15",
+            "publishedAt": "2026-09-15T21:00",
             "reason": ""
           }
         ]
@@ -10353,23 +10501,92 @@ window.AI_GENERATED_DATA = {
             "date": "2026-09-15",
             "publishedAt": "2026-09-15T03:00",
             "reason": ""
-          },
-          {
-            "title": "Extracting Dataset Mentions in Forced Displacement and FCV Documents: A Weakly Supervised Framework with LLM-Based Label Refinement",
-            "summary": "arXiv:2609.12107v1 Announce Type: new Abstract: Development and humanitarian organizations produce and support surveys, administrative regis",
-            "source": "RSS · arXiv cs.CL",
-            "url": "https://arxiv.org/abs/2609.12107",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-14",
-            "publishedAt": "",
-            "reason": ""
           }
         ]
       }
     ]
   },
   "dailyReports": [
+    {
+      "date": "2026-09-15",
+      "generatedAt": "2026-09-15T16:00:46.007605Z",
+      "total": 5,
+      "sections": [
+        {
+          "category": "ai-coding",
+          "label": "AI 编程",
+          "items": [
+            {
+              "title": "Abnormal AI: Amazon Bedrock AgentCore for agentic email security at scale",
+              "summary": "Learn how Abnormal AI deployed Amazon Bedrock AgentCore Code Interpreter as an ephemeral compute scratch pad for the agents behind its real-",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/abnormal-ai-amazon-bedrock-agentcore-for-agentic-email-security-at-scale/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-15",
+              "publishedAt": "2026-09-15T05:22",
+              "reason": ""
+            },
+            {
+              "title": "Manage end-user OAuth consent for AI agents with Amazon Bedrock AgentCore",
+              "summary": "Amazon Bedrock AgentCore Identity now offers a Consent portal, a managed web experience and session binding endpoint for AgentCore Gateway. ",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/manage-end-user-oauth-consent-for-ai-agents-with-amazon-bedrock-agentcore/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-15",
+              "publishedAt": "2026-09-15T04:35",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-agents",
+          "label": "Agent / MCP",
+          "items": [
+            {
+              "title": "ZGCM-1: A Fully Open and Extremely Efficient Foundation Model for Math and Agentic Search",
+              "summary": "arXiv:2609.13356v1 Announce Type: new Abstract: In this work, we present ZGCM-1, a fully open 7B dense foundation model trained from scratch",
+              "source": "RSS · arXiv cs.AI",
+              "url": "https://arxiv.org/abs/2609.13356",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-15",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "DevFest is back",
+              "summary": "DevFest 2026 is back and here’s how you can connect with one of the more than 800 global events to build, secure, and scale in the agentic A",
+              "source": "RSS · Google AI Blog",
+              "url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-15",
+              "publishedAt": "2026-09-15T00:00",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-research",
+          "label": "论文研究",
+          "items": [
+            {
+              "title": "Watch astronaut Christina Koch and Google’s James Manyika discuss space, technology, and discovery.",
+              "summary": "Christina Koch sits down with James Manyika, Google’s Senior Vice President of Research, Labs, Technology & Society.",
+              "source": "RSS · Google AI Blog",
+              "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-christina-koch/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-15",
+              "publishedAt": "2026-09-15T03:00",
+              "reason": ""
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-09-14",
       "generatedAt": "2026-09-14T16:00:24.797358Z",
@@ -20196,157 +20413,10 @@ window.AI_GENERATED_DATA = {
           ]
         }
       ]
-    },
-    {
-      "date": "2026-07-12",
-      "generatedAt": "2026-07-12T16:17:57.046217Z",
-      "total": 10,
-      "sections": [
-        {
-          "category": "ai-tools",
-          "label": "AI 工具",
-          "items": [
-            {
-              "title": "xAI Grok Build CLI 数据上传机制分析",
-              "summary": "这次发布的核心点是，xAI 的 Grok Build CLI 在用户登录后会上传大量数据，包括文件内容和 git 历史，且这一机制默认开启，用户难以关闭。这一行为引发了对隐私和数据安全的广泛关注。",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-07-12",
-              "publishedAt": "2026-07-12T11:59",
-              "reason": "这条评测揭示了 Grok Build CLI 的数据上传机制，帮助用户了解潜在的隐私风险，值得关注。"
-            },
-            {
-              "title": "Mindwalk：可视化编码代理会话的 3D 地图工具",
-              "summary": "Mindwalk 是一款创新的可视化工具，能够在代码库的 3D 地图上回放 Claude Code 和 Codex 的编码代理会话。它通过将仓库呈现为夜间地图，清晰展示代理的搜索、读取和编辑活动，帮助用户直观理解代理的任务理解范围。该工具完全本地处理会话数据，确保信息安全，支持多",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://github.com/cosmtrek/mindwalk",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-07-12",
-              "publishedAt": "2026-07-12T21:51",
-              "reason": "Mindwalk 提供了一种全新的方式来理解和分析编码代理的行为，帮助开发者更高效地管理和优化编码过程，值得关注和尝试。"
-            },
-            {
-              "title": "Ghost Font：一种人类可读但AI无法识别的字体",
-              "summary": "Ghost Font 是一种新型反AI字体，能够通过运动和噪点隐藏文字，用户输入后生成的视频片段可供下载。该字体在传递给 Claude Fable 和 GPT Sol 5.6 Ultra 等前沿模型时，这些模型无法解码其中的信息，直到被提示具体技术。该项目灵感源自2013年设计的",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://www.mixfont.com/ghost-font",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-07-12",
-              "publishedAt": "2026-07-12T00:31",
-              "reason": "Ghost Font 提供了一种创新的方式来隐藏信息，挑战现代AI模型的解码能力，值得关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-coding",
-          "label": "AI 编程",
-          "items": [
-            {
-              "title": "通过 CLIProxyAPI 切换 Claude Code 后端模型至 GPT-5.6 Sol 的简单方法",
-              "summary": "我注意到用户 Tibo 分享了一种通过 CLIProxyAPI 将 Claude Code 后端模型切换为 GPT-5.6 Sol 的方法。整个过程只需三步：安装 CLIProxyAPI、连接认证、设置环境变量别名 `claudex`。这个别名配置了子智能体模型、始终启用 Eff",
-              "source": "X：Tibo (@thsottiaux)",
-              "url": "https://x.com/thsottiaux/status/2076119366647894371",
-              "score": 63,
-              "sourceCount": 1,
-              "date": "2026-07-12",
-              "publishedAt": "2026-07-12T09:40",
-              "reason": "这条分享提供了一个简单高效的模型切换方法，适合需要快速迭代的开发者，值得一看。"
-            }
-          ]
-        },
-        {
-          "category": "ai-models",
-          "label": "模型发布",
-          "items": [
-            {
-              "title": "OpenAI GPT-5.6 系列医疗评估结果超越医生表现",
-              "summary": "我注意到 OpenAI 最近发布了 GPT-5.6 系列在医疗领域的评估结果，显示其在多项任务中表现优于医生。最小变体 GPT-5.6 Luna 在最低推理强度下的表现超越了最高推理强度的 GPT-5.5，且成本低 25 倍。最大变体 GPT-5.6 Sol 则树立了新的标杆，所",
-              "source": "X：Sam Altman (@sama)",
-              "url": "https://x.com/sama/status/2075985056846451123",
-              "score": 67,
-              "sourceCount": 1,
-              "date": "2026-07-12",
-              "publishedAt": "2026-07-12T00:46",
-              "reason": "这条信息展示了 GPT-5.6 系列在医疗领域的突破性进展，值得关注其对未来医疗决策的潜在影响。"
-            },
-            {
-              "title": "Mesh LLM 实现分布式 AI 计算",
-              "summary": "Mesh LLM 是一个开源项目，能够将多台机器的 GPU 和内存池化，提供兼容 OpenAI 的 API。通过 iroh 网络库实现点对点连接，无需中央服务器，支持多种模型，适合希望降低 AI 计算成本的团队。",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://www.iroh.computer/blog/mesh-llm",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-07-12",
-              "publishedAt": "2026-07-12T10:23",
-              "reason": "Mesh LLM 提供了一种灵活且经济的方式来运行大型 AI 模型，适合希望掌控计算资源的团队，值得关注。"
-            },
-            {
-              "title": "苹果起诉OpenAI，指控窃密或影响硬件计划",
-              "summary": "我注意到苹果最近在美国对OpenAI提起诉讼，指控其挖角400名员工并窃取机密文件。分析师认为，即使这些指控未被证实，OpenAI的硬件计划也可能受到影响，双方的合作关系将进一步恶化。斯坦福教授指出，如果前苹果员工确实带走了机密信息，情况将更加严重。此案涉及消费级硬件，未来可能会",
-              "source": "IT之家（RSS）",
-              "url": "https://www.ithome.com/0/975/666.htm",
-              "score": 61,
-              "sourceCount": 1,
-              "date": "2026-07-12",
-              "publishedAt": "2026-07-12T10:37",
-              "reason": "这条信息揭示了苹果与OpenAI之间的法律纠纷，可能对双方的硬件计划产生深远影响，值得关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-research",
-          "label": "论文研究",
-          "items": [
-            {
-              "title": "博科圣地利用主流AI聊天机器人进行袭击策划与武器开发",
-              "summary": "剑桥大学的研究表明，博科圣地已利用ChatGPT、Claude等主流AI聊天机器人进行袭击策划、武器开发及维护。该组织的两个派系均设立了专门的AI部门，利用AI技术提升作战能力。研究指出，AI安全过滤器未能有效防止滥用，恐怖组织对AI的兴趣日益增加，可能导致更大安全隐患。",
-              "source": "The Decoder：AI News（RSS）",
-              "url": "https://the-decoder.com/terrorist-groups-are-using-every-major-ai-chatbot-for-attack-planning-and-weapons-development",
-              "score": 67,
-              "sourceCount": 1,
-              "date": "2026-07-12",
-              "publishedAt": "2026-07-12T01:04",
-              "reason": "本研究揭示了恐怖组织如何利用AI技术进行武器开发和袭击策划，警示我们对AI安全的重视和应对措施的必要性。"
-            }
-          ]
-        },
-        {
-          "category": "ai-business",
-          "label": "行业商业",
-          "items": [
-            {
-              "title": "纳德拉：企业需保护核心知识以应对反向信息悖论",
-              "summary": "微软CEO萨提亚·纳德拉提出\"反向信息悖论\"，强调在AI时代，企业在使用AI时必须保护自身的专有知识。企业需要建立信任边界，确保数据和评估权重不被外泄，并主张拥有私有评估和组织记忆的所有权，以控制学习循环。",
-              "source": "X：Satya Nadella (@satyanadella)",
-              "url": "https://x.com/satyanadella/status/2076323181154230284",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-07-12",
-              "publishedAt": "2026-07-12T23:09",
-              "reason": "纳德拉的观点为企业在AI时代如何保护核心知识提供了重要的思考，值得关注。"
-            },
-            {
-              "title": "苹果起诉 OpenAI 涉窃商业机密，前员工泄密成关键",
-              "summary": "苹果公司对 OpenAI 提起诉讼，指控前员工 Chang Liu 在离职时带走未归还的 MacBook 和商业机密，并利用软件漏洞持续访问苹果内网。诉讼称 OpenAI 试图复制 iPhone 的研发体系，核心基于非法获取的商业机密。至今已有超过 400 名苹果员工跳槽至 Op",
-              "source": "IT之家（RSS）",
-              "url": "https://www.ithome.com/0/975/634.htm",
-              "score": 64,
-              "sourceCount": 1,
-              "date": "2026-07-12",
-              "publishedAt": "2026-07-12T07:21",
-              "reason": "此次诉讼揭示了苹果与 OpenAI 之间的激烈竞争，涉及商业机密的泄露和技术研发的未来走向，值得关注。"
-            }
-          ]
-        }
-      ]
     }
   ],
   "llmLeaderboard": {
-    "updated": "2026-09-15",
+    "updated": "2026-09-16",
     "source": "ReLE 中文大模型能力评测（综合能力）",
     "sourceUrl": "https://github.com/jeinlee1991/chinese-llm-benchmark",
     "items": [
