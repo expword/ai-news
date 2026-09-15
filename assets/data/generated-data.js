@@ -1,7 +1,35 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-15",
-  "generatedAt": "2026-09-15T03:39:28.243136Z",
+  "generatedAt": "2026-09-15T06:12:58.530109Z",
   "news": [
+    {
+      "title": "ZGCM-1: A Fully Open and Extremely Efficient Foundation Model for Math and Agentic Search",
+      "summary": "arXiv:2609.13356v1 Announce Type: new Abstract: In this work, we present ZGCM-1, a fully open 7B dense foundation model trained from scratch with extreme data, system, and algorith",
+      "category": "ai-agents",
+      "source": "RSS · arXiv cs.AI",
+      "date": "2026-09-15",
+      "publishedAt": "",
+      "collectedAt": "2026-09-15T14:12",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-15",
+      "tags": [],
+      "url": "https://arxiv.org/abs/2609.13356",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Watch astronaut Christina Koch and Google’s James Manyika discuss space, technology, and discovery.",
       "summary": "Christina Koch sits down with James Manyika, Google’s Senior Vice President of Research, Labs, Technology & Society.",
@@ -2496,34 +2524,6 @@ window.AI_GENERATED_DATA = {
       "aiSelected": true,
       "moduleTargets": [
         "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Experience Funnel: A State-Policy Alternating Loop for Self-Evolving Agents",
-      "summary": "Autonomous agents powered by large language models (LLMs) continuously accumulate experience through interaction, creating an opportunity to improve future behavior through self-ev",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-09-08",
-      "publishedAt": "",
-      "collectedAt": "2026-09-10T00:56",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-08",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.08919v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
       ],
       "sourceCount": 1
     }
@@ -6046,6 +6046,39 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "SK Telecom Proposes AI-RCS Standard for Secure Transaction A",
+        "provider": "조선일보",
+        "type": "AI 项目/工具",
+        "bestFor": "SK Telecom hosts GSMA RCS meeting with global telecoms, tech giants to standardize AI-agent approvals via RCS\n\nSK Telecom announced on the 15th that it is redef",
+        "description": "SK Telecom hosts GSMA RCS meeting with global telecoms, tech giants to standardize AI-agent approvals via RCS\n\nSK Telecom announced on the 15th that it is redefining the role of 't",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "조선일보",
+        "url": "https://www.chosun.com/english/industry-en/2026/09/15/SYZ4K3JNKREWXLOQHHHSORUREM/"
+      },
+      {
+        "name": "ZGCM-1: A Fully Open and Extremely Efficient Foundation Mode",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "arXiv:2609.13356v1 Announce Type: new Abstract: In this work, we present ZGCM-1, a fully open 7B dense foundation model trained from scratch with extreme data, ",
+        "description": "arXiv:2609.13356v1 Announce Type: new Abstract: In this work, we present ZGCM-1, a fully open 7B dense foundation model trained from scratch with extreme data, system, and algorith",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · arXiv cs.AI",
+        "url": "https://arxiv.org/abs/2609.13356"
+      },
+      {
+        "name": "How Agentic AI and AI Platforms Overcome Operational Bottlen",
+        "provider": "www.newspatrolling.com",
+        "type": "AI 项目/工具",
+        "bestFor": "Enterprises today are under pressure to respond faster, operate leaner, and innovate continuously. Yet many organizations remain constrained by fragmented workf",
+        "description": "Enterprises today are under pressure to respond faster, operate leaner, and innovate continuously. Yet many organizations remain constrained by fragmented workflows, siloed systems",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "www.newspatrolling.com",
+        "url": "https://newspatrolling.com/how-agentic-ai-and-ai-platforms-overcome-operational-bottlenecks-for-better-enterprise-agility/"
+      },
+      {
         "name": "DeepSeek-V4.1-Flash （Max） 进入 Agent Arena 开源模型第 3 名",
         "provider": "X：Arena (@arena)",
         "type": "AI 项目/工具",
@@ -6451,39 +6484,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "english.news.cn",
         "url": "https://english.news.cn/20260912/50a282d0d44a464aa66bdb2618121f4e/c.html"
-      },
-      {
-        "name": "Boomi Targets AI Governance Risk With New Control Plane - My",
-        "provider": "MyChesCo",
-        "type": "AI 项目/工具",
-        "bestFor": "CONSHOHOCKEN, PA -- Boomi is expanding its enterprise AI platform with a vendor- and model-neutral control layer designed to govern how AI agents access corpora",
-        "description": "CONSHOHOCKEN, PA -- Boomi is expanding its enterprise AI platform with a vendor- and model-neutral control layer designed to govern how AI agents access corporate systems, enforce ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "MyChesCo",
-        "url": "https://www.mychesco.com/a/news/regional/boomi-targets-ai-governance-risk-with-new-control-plane/"
-      },
-      {
-        "name": "Power Up Your AI Agent With Live Web Search, for Fewer Token",
-        "provider": "SitePoint",
-        "type": "AI 项目/工具",
-        "bestFor": "This article is sponsored by SerpApi. The techniques below work with any search provider; SerpApi is used for the runnable examples.\n\nIf you ask a large languag",
-        "description": "This article is sponsored by SerpApi. The techniques below work with any search provider; SerpApi is used for the runnable examples.\n\nIf you ask a large language model what happene",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "SitePoint",
-        "url": "https://www.sitepoint.com/ai-agent-live-web-search-fewer-tokens/"
-      },
-      {
-        "name": "Harden AIF: Safety for AI Development",
-        "provider": "Dynamic Business",
-        "type": "AI 项目/工具",
-        "bestFor": "Harden AIF ensures secure AI agent operations with pre-execution monitoring and local-first security for developers and teams.\n\nHarden Agentic Integrity Foundat",
-        "description": "Harden AIF ensures secure AI agent operations with pre-execution monitoring and local-first security for developers and teams.\n\nHarden Agentic Integrity Foundation (AIF) is a secur",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Dynamic Business",
-        "url": "https://dynamicbusiness.com/ai-tools/harden-aif-safety-for-ai-development.html"
       }
     ],
     "ai-models": [
@@ -6930,6 +6930,28 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-business": [
       {
+        "name": "VC funding news: EUCLYD, Agilis Air, Temporal",
+        "provider": "InfotechLead",
+        "type": "AI 项目/工具",
+        "bestFor": "The latest VC funding news includes announcements from EUCLYD, Agilis Air, Temporal, Samsung, Somerset Capital Partners, and others.\n\nEUCLYD Raises Over €200 Mi",
+        "description": "The latest VC funding news includes announcements from EUCLYD, Agilis Air, Temporal, Samsung, Somerset Capital Partners, and others.\n\nEUCLYD Raises Over €200 Million to Build Energ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "InfotechLead",
+        "url": "https://infotechlead.com/tech/vc-funding-news-euclyd-agilis-air-temporal-98321"
+      },
+      {
+        "name": "How Musk's Apple lawsuit fizzled out in court",
+        "provider": "Rolling Out",
+        "type": "AI 项目/工具",
+        "bestFor": "Musk's dropped Apple lawsuit spotlights a fierce battle for AI dominance in the smartphone market.\n\nElon Musk has quietly ended one of the more closely watched ",
+        "description": "Musk's dropped Apple lawsuit spotlights a fierce battle for AI dominance in the smartphone market.\n\nElon Musk has quietly ended one of the more closely watched legal disputes in th",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Rolling Out",
+        "url": "https://rollingout.com/2026/09/15/musk-drops-apple-lawsuit/"
+      },
+      {
         "name": "Instacart, Shipt launch AI-powered shopping assistants",
         "provider": "Retail Dive",
         "type": "AI 项目/工具",
@@ -7346,28 +7368,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Associated Press Of Pakistan",
         "url": "https://www.app.com.pk/business/strong-economy-advanced-technology-unity-vital-to-national-defence-ahsan/"
-      },
-      {
-        "name": "Elon Musk's Inner Circle Pours Millions Into Psychedelics As",
-        "provider": "International Business Times AU",
-        "type": "AI 项目/工具",
-        "bestFor": "Prominent figures in Elon Musk's network are investing heavily in psychedelic therapeutics, aiming to mainstream drugs like MDMA and psilocybin for mental healt",
-        "description": "Prominent figures in Elon Musk's network are investing heavily in psychedelic therapeutics, aiming to mainstream drugs like MDMA and psilocybin for mental health treatment.\n\nSAN FR",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "International Business Times AU",
-        "url": "https://www.ibtimes.com.au/billionaires-back-psychedelic-therapies-1875100"
-      },
-      {
-        "name": "P1-B NOAH boost to strengthen flood, disaster response",
-        "provider": "Daily Tribune",
-        "type": "AI 项目/工具",
-        "bestFor": "Lagmay, a UP geology professor, said the expanded funding would allow the UPRI-managed program to further translate scientific data into practical tools for flo",
-        "description": "Lagmay, a UP geology professor, said the expanded funding would allow the UPRI-managed program to further translate scientific data into practical tools for flood management and di",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Daily Tribune",
-        "url": "https://tribune.net.ph/2026/09/06/p1-b-noah-boost-to-strengthen-flood-disaster-response"
       }
     ],
     "ai-benchmark": [
@@ -7941,6 +7941,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-image-video": [
       {
+        "name": "How China is preparing for the risk of AI escaping human con",
+        "provider": "The Tribune",
+        "type": "AI 项目/工具",
+        "bestFor": "China warns AI could rapidly replicate and seek power. Image credit: iStock\n\nWarnings from researchers at leading U.S. AI developer Anthropic that increasingly ",
+        "description": "China warns AI could rapidly replicate and seek power. Image credit: iStock\n\nWarnings from researchers at leading U.S. AI developer Anthropic that increasingly powerful models coul",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Tribune",
+        "url": "https://www.tribuneindia.com/news/china/how-china-is-preparing-for-the-risk-of-ai-escaping-human-control/"
+      },
+      {
         "name": "Ganesh Chaturthi AI photo: 5 best prompts to turn your photo",
         "provider": "The Times of India",
         "type": "AI 项目/工具",
@@ -8402,26 +8413,20 @@ window.AI_GENERATED_DATA = {
         "watch": "可能面临 API 费用和配额限制，影响大规模应用的可行性。",
         "sourceName": "RSS · Apple ML Research",
         "url": "https://machinelearning.apple.com/research/audio-synthesis-diffusion-transformers"
-      },
-      {
-        "name": "谷歌在推出不到24小时后撤回AI卫星影像功能",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "这一事件对多个方面产生了深远影响。首先，企业在使用AI技术时可能会重新评估其信任基础，影响数据分析和决策的可靠性。其次，用户对卫星影像的信任可能会受到长期损害，导致对相关产品的使用减少。此外，AI生成影像的泛滥可能使得真实证据的价值降低，增加了信息混乱的风险。最终，这一事件可能促使行业对AI技术的监管加强，推动更严格的",
-        "description": "谷歌在推出其生成式AI功能不到24小时后即撤回，原因是用户利用该功能制造虚假的卫星影像，涉及假灾难和军事设施。这一快速撤回反映了谷歌对产品风险评估的严重失误，可能对用户信任造成长期影响。",
-        "useCases": [
-          "评估AI生成内容的真实性，确保信息来源可靠。",
-          "在地理信息系统中集成更严格的内容审核机制，防止虚假信息传播。",
-          "开发新的AI工具，专注于内容生成的安全性和合规性。",
-          "利用AI技术进行灾难管理和应急响应，但需确保信息的准确性。",
-          "为企业提供培训，提升员工对AI生成内容的识别能力。"
-        ],
-        "watch": "生成内容的真实性无法保证，可能导致用户对信息的信任下降，影响决策。",
-        "sourceName": "NewsAPI:generative AI",
-        "url": "https://forkast.news/google-pulls-ai-satellite-imagery-feature-after-less-than-24-hours/"
       }
     ],
     "ai-research": [
+      {
+        "name": "How China is preparing for the risk of AI escaping human con",
+        "provider": "Free Malaysia Today",
+        "type": "AI 项目/工具",
+        "bestFor": "Chinese policymakers see AI as a manageable risk, not an extinction event, through technical standards, regulation and state oversight.\n\nBEIJING: Warnings from ",
+        "description": "Chinese policymakers see AI as a manageable risk, not an extinction event, through technical standards, regulation and state oversight.\n\nBEIJING: Warnings from researchers at leadi",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Free Malaysia Today",
+        "url": "https://www.freemalaysiatoday.com/category/world/2026/09/15/how-china-is-preparing-for-the-risk-of-ai-escaping-human-control"
+      },
       {
         "name": "AI tools are making 'experts' out of stock traders in mainla",
         "provider": "South China Morning Post",
@@ -8850,17 +8855,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2608.24825v1"
-      },
-      {
-        "name": "Constrained Entity Selection under Partial Knowledge for LLM",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Large language models are increasingly used for knowledge graph question answering (KGQA), but can fail to correctly ground answers in the underlying graph. Cur",
-        "description": "Large language models are increasingly used for knowledge graph question answering (KGQA), but can fail to correctly ground answers in the underlying graph. Current approaches to L",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2608.24824v1"
       }
     ],
     "ai-office": []
@@ -10269,8 +10263,8 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-15",
-    "generatedAt": "2026-09-15T03:39:28.217730Z",
-    "total": 9,
+    "generatedAt": "2026-09-15T06:12:58.507106Z",
+    "total": 10,
     "sections": [
       {
         "category": "ai-coding",
@@ -10304,6 +10298,17 @@ window.AI_GENERATED_DATA = {
         "category": "ai-agents",
         "label": "Agent / MCP",
         "items": [
+          {
+            "title": "ZGCM-1: A Fully Open and Extremely Efficient Foundation Model for Math and Agentic Search",
+            "summary": "arXiv:2609.13356v1 Announce Type: new Abstract: In this work, we present ZGCM-1, a fully open 7B dense foundation model trained from scratch",
+            "source": "RSS · arXiv cs.AI",
+            "url": "https://arxiv.org/abs/2609.13356",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-15",
+            "publishedAt": "",
+            "reason": ""
+          },
           {
             "title": "DevFest is back",
             "summary": "DevFest 2026 is back and here’s how you can connect with one of the more than 800 global events to build, secure, and scale in the agentic A",
