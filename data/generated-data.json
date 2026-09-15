@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-15",
-  "generatedAt": "2026-09-15T06:12:58.530109Z",
+  "generatedAt": "2026-09-15T08:47:03.570522Z",
   "news": [
     {
       "title": "ZGCM-1: A Fully Open and Extremely Efficient Foundation Model for Math and Agentic Search",
@@ -2485,33 +2485,6 @@
       "sourceDate": "2026-09-08",
       "tags": [],
       "url": "http://arxiv.org/abs/2609.08943v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "SQLMorph: Query Mutation and Fine-Grained Metrics for Text-to-SQL Evaluation",
-      "summary": "Text-to-SQL systems translate natural language queries into executable SQL, democratizing access to structured data. Despite recent advances driven by large language models (LLMs),",
-      "category": "ai-benchmark",
-      "source": "arXiv",
-      "date": "2026-09-08",
-      "publishedAt": "",
-      "collectedAt": "2026-09-10T00:56",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-08",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.08950v1",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -5604,6 +5577,50 @@
   "topicResources": {
     "ai-coding": [
       {
+        "name": "CometAPI Adds OpenAI's GPT-6 Astra API to Its Multi-Model De",
+        "provider": "Brattleboro Reformer",
+        "type": "AI 项目/工具",
+        "bestFor": "The addition gives developers access to advanced reasoning, coding and computer-use capabilities through a single API key.\n\nUNITED STATES - September 14, 2026 -",
+        "description": "The addition gives developers access to advanced reasoning, coding and computer-use capabilities through a single API key.\n\nUNITED STATES - September 14, 2026 - CometAPI, an AI inf",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Brattleboro Reformer",
+        "url": "https://www.reformer.com/online_features/press_releases/cometapi-adds-openai-s-gpt-6-astra-api-to-its-multi-model-developer-platform/article_253e42f3-516b-51eb-af92-ecb290a09d5c.html"
+      },
+      {
+        "name": "CometAPI Adds OpenAI's GPT-6 Astra API to Its Multi-Model De",
+        "provider": "The Berkshire Eagle",
+        "type": "AI 项目/工具",
+        "bestFor": "The addition gives developers access to advanced reasoning, coding and computer-use capabilities through a single API key.\n\nUNITED STATES - September 14, 2026 -",
+        "description": "The addition gives developers access to advanced reasoning, coding and computer-use capabilities through a single API key.\n\nUNITED STATES - September 14, 2026 - CometAPI, an AI inf",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Berkshire Eagle",
+        "url": "https://www.berkshireeagle.com/online_features/press_releases/cometapi-adds-openai-s-gpt-6-astra-api-to-its-multi-model-developer-platform/article_396294bd-3204-5662-937f-800318406535.html"
+      },
+      {
+        "name": "CometAPI Adds OpenAI's GPT-6 Astra API to Its Multi-Model De",
+        "provider": "GoLaurens.Com",
+        "type": "AI 项目/工具",
+        "bestFor": "The addition gives developers access to advanced reasoning, coding and computer-use capabilities through a single API key.\n\nUNITED STATES - September 14, 2026 -",
+        "description": "The addition gives developers access to advanced reasoning, coding and computer-use capabilities through a single API key.\n\nUNITED STATES - September 14, 2026 - CometAPI, an AI inf",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "GoLaurens.Com",
+        "url": "https://www.golaurens.com/online_features/press_releases/cometapi-adds-openai-s-gpt-6-astra-api-to-its-multi-model-developer-platform/article_0f45f385-493b-5458-89b1-150522fd8441.html"
+      },
+      {
+        "name": "CometAPI Adds OpenAI's GPT-6 Astra API to Its Multi-Model De",
+        "provider": "Trinidad Express Newspapers",
+        "type": "AI 项目/工具",
+        "bestFor": "The addition gives developers access to advanced reasoning, coding and computer-use capabilities through a single API key.\n\nUNITED STATES - September 14, 2026 -",
+        "description": "The addition gives developers access to advanced reasoning, coding and computer-use capabilities through a single API key.\n\nUNITED STATES - September 14, 2026 - CometAPI, an AI inf",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Trinidad Express Newspapers",
+        "url": "https://trinidadexpress.com/online_features/press_releases/cometapi-adds-openai-s-gpt-6-astra-api-to-its-multi-model-developer-platform/article_e87b884b-fd74-5310-96cb-89ef80e54aa1.html"
+      },
+      {
         "name": "Anthropic 如何重构测试影响分析服务以应对智能体编码带来的 CI 压力",
         "provider": "Claude：Blog（网页）",
         "type": "AI 项目/工具",
@@ -5998,53 +6015,42 @@
         "watch": "请打开原始来源核对",
         "sourceName": "X：OpenAI (@OpenAI)",
         "url": "https://x.com/OpenAI/status/2095968413646737608"
-      },
-      {
-        "name": "Claude Code Error Deletes 15% Of Bengaluru Heritage Records ",
-        "provider": "Oneindia",
-        "type": "AI 项目/工具",
-        "bestFor": "Years of work documenting Bengaluru's history will have to be done all over again after an AI coding tool accidentally deleted around 15 per cent of the records",
-        "description": "Years of work documenting Bengaluru's history will have to be done all over again after an AI coding tool accidentally deleted around 15 per cent of the records collected by a heri",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Oneindia",
-        "url": "https://www.oneindia.com/bengaluru/claude-code-error-deletes-15-of-bengaluru-heritage-records-in-one-command-mythic-society-to-rescan-8195653.html"
-      },
-      {
-        "name": "Artificial Analysis 评测 GPT-6 Astra：编码智能体追平 Fable 5 但价格涨至 2.5",
-        "provider": "X：Artificial Analysis (@ArtificialAnlys)",
-        "type": "AI 项目/工具",
-        "bestFor": "Artificial Analysis 发布 GPT-6 Astra 评测，其 Coding Agent Index 得分 67，约等于 Claude Opus 5 和 Fable 5，且成本不到 Fable 5 的一半；token 效率比 GPT-5.6 Sol （max） 高约 70%。",
-        "description": "Artificial Analysis 发布 GPT-6 Astra 评测，其 Coding Agent Index 得分 67，约等于 Claude Opus 5 和 Fable 5，且成本不到 Fable 5 的一半；token 效率比 GPT-5.6 Sol （max） 高约 70%。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "X：Artificial Analysis (@ArtificialAnlys)",
-        "url": "https://x.com/ArtificialAnlys/status/2095595489031000350"
-      },
-      {
-        "name": "AI-driven development lifecycle using Amazon Bedrock AgentCo",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Engineering teams adopting the AI-Driven Development Lifecycle (AI-DLC) often struggle to turn concepts into working code. This post walks through two reference",
-        "description": "Engineering teams adopting the AI-Driven Development Lifecycle (AI-DLC) often struggle to turn concepts into working code. This post walks through two reference implementations on ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/ai-driven-development-lifecycle-using-amazon-bedrock-agentcore/"
-      },
-      {
-        "name": "Hugging Face 发布开源工具 funes，为编码智能体提供可本地持有的记忆层",
-        "provider": "Hugging Face：Blog（RSS）",
-        "type": "AI 项目/工具",
-        "bestFor": "Hugging Face 发布开源工具 funes，为 Claude Code、Codex、pi、Hermes 等编码智能体提供本地记忆层，把已有会话记录索引成 Lance 数据集，一条 funes add 命令即可让 Agent 自主召回原始出处（Agent、时间戳、会话、轮次）。",
-        "description": "Hugging Face 发布开源工具 funes，为 Claude Code、Codex、pi、Hermes 等编码智能体提供本地记忆层，把已有会话记录索引成 Lance 数据集，一条 funes add 命令即可让 Agent 自主召回原始出处（Agent、时间戳、会话、轮次）。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Hugging Face：Blog（RSS）",
-        "url": "https://huggingface.co/blog/funes"
       }
     ],
     "ai-agents": [
+      {
+        "name": "Companies Can Delegate to AI Agents but Can't Delegate Accou",
+        "provider": "PYMNTS.com",
+        "type": "AI 项目/工具",
+        "bestFor": "Companies have embraced generative artificial intelligence, examining where software could help employees. The truly agentic enterprise must examine what happen",
+        "description": "Companies have embraced generative artificial intelligence, examining where software could help employees. The truly agentic enterprise must examine what happens when the software ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "PYMNTS.com",
+        "url": "https://www.pymnts.com/news/artificial-intelligence/2026/companies-can-delegate-to-ai-agents-but-cant-delegate-accountability/"
+      },
+      {
+        "name": "SPONSORED: How Everpure plans to stop AI from starving witho",
+        "provider": "TheRegister.com",
+        "type": "AI 项目/工具",
+        "bestFor": "Imagine you are an AI Agent. You execute inside a $20-40 million-plus Nvidia SuperPOD system's accelerator hardware, have a skill set and can call up other agen",
+        "description": "Imagine you are an AI Agent. You execute inside a $20-40 million-plus Nvidia SuperPOD system's accelerator hardware, have a skill set and can call up other agents to do your biddin",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "TheRegister.com",
+        "url": "https://www.theregister.com/ai-ml/2026/09/15/sponsored-how-everpure-plans-to-stop-ai-from-starving-without-data/5295812"
+      },
+      {
+        "name": "SPONSORED: How Everpure plans to stop AI from starving witho",
+        "provider": "Blocks and Files",
+        "type": "AI 项目/工具",
+        "bestFor": "Imagine you are an AI Agent. You execute inside a $20-40 million-plus Nvidia SuperPOD system's accelerator hardware, have a skill set and can call up other agen",
+        "description": "Imagine you are an AI Agent. You execute inside a $20-40 million-plus Nvidia SuperPOD system's accelerator hardware, have a skill set and can call up other agents to do your biddin",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Blocks and Files",
+        "url": "https://www.blocksandfiles.com/ai-ml/2026/09/15/sponsored-how-everpure-plans-to-stop-ai-from-starving-without-data/5295582"
+      },
       {
         "name": "SK Telecom Proposes AI-RCS Standard for Secure Transaction A",
         "provider": "조선일보",
@@ -6451,42 +6457,20 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Yahoo! Finance",
         "url": "https://finance.yahoo.com/technology/ai/articles/3-agentic-ai-stocks-own-125000827.html"
-      },
-      {
-        "name": "Meta’s $18 Billion Settlement Could Be the Green Light for a",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Meta Platforms, Inc. (NASDAQ:META)’s $18 billion settlement with a coalition of 29 state attorneys general over youth safety on Instagram and Facebook could cle",
-        "description": "Meta Platforms, Inc. (NASDAQ:META)’s $18 billion settlement with a coalition of 29 state attorneys general over youth safety on Instagram and Facebook could clear the way for a wav",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.insidermonkey.com/blog/metas-18-billion-settlement-could-be-the-green-light-for-a-new-ai-push-1834249/"
-      },
-      {
-        "name": "The Verge 深度报道：OpenAI 以 88 小时解决 Navier-Stokes 引发数学界信任危机",
-        "provider": "The Verge：AI（RSS）",
-        "type": "AI 项目/工具",
-        "bestFor": "The Verge 采访十余位数学家，梳理 OpenAI 用约 10，000 个 agent、数千万美元算力和 88 小时解决 Navier-Stokes 千禧年大奖难题后引发的争议。",
-        "description": "The Verge 采访十余位数学家，梳理 OpenAI 用约 10，000 个 agent、数千万美元算力和 88 小时解决 Navier-Stokes 千禧年大奖难题后引发的争议。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Verge：AI（RSS）",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/994255/openai-millennium-prize-problem-tristan-buckmaster-competition"
-      },
-      {
-        "name": "China Focus: Chinese researchers unveil lightweight dual-mod",
-        "provider": "english.news.cn",
-        "type": "AI 项目/工具",
-        "bestFor": "SHENZHEN, Sept. 12 (Xinhua) -- Chinese researchers have unveiled a lightweight dual-model collaborative AI agent for materials research, enabling AI not only to",
-        "description": "SHENZHEN, Sept. 12 (Xinhua) -- Chinese researchers have unveiled a lightweight dual-model collaborative AI agent for materials research, enabling AI not only to \"think\" but also to",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "english.news.cn",
-        "url": "https://english.news.cn/20260912/50a282d0d44a464aa66bdb2618121f4e/c.html"
       }
     ],
     "ai-models": [
+      {
+        "name": "NotebookLM Alternatives: What Gemini Notebook Won't Do",
+        "provider": "Fello AI",
+        "type": "AI 项目/工具",
+        "bestFor": "Most lists of NotebookLM alternatives answer the wrong question. They rank twelve note-taking apps and leave you to work out which one solves the thing that act",
+        "description": "Most lists of NotebookLM alternatives answer the wrong question. They rank twelve note-taking apps and leave you to work out which one solves the thing that actually annoyed you. T",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Fello AI",
+        "url": "https://felloai.com/notebooklm-alternatives/"
+      },
       {
         "name": "AsiaOne",
         "provider": "AsiaOne",
@@ -6915,17 +6899,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "X：OpenAI Developers (@OpenAIDevs)",
         "url": "https://x.com/OpenAIDevs/status/2098913661993603215"
-      },
-      {
-        "name": "5 AI Workflow Automation Apps To Help Professionals Work Sma",
-        "provider": "Analytics Insight",
-        "type": "AI 项目/工具",
-        "bestFor": "Here are five AI workflow automation apps worth considering in 2026.\n\nAutomate repetitive workplace tasks while reducing manual effort and administrative worklo",
-        "description": "Here are five AI workflow automation apps worth considering in 2026.\n\nAutomate repetitive workplace tasks while reducing manual effort and administrative workload for professionals",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Analytics Insight",
-        "url": "https://www.analyticsinsight.net/artificial-intelligence/5-ai-workflow-automation-apps-to-help-professionals-work-smarter"
       }
     ],
     "ai-business": [
@@ -8417,6 +8390,17 @@
     ],
     "ai-research": [
       {
+        "name": "Open weights are not open source: Why AI's favorite label is",
+        "provider": "TheRegister.com",
+        "type": "AI 项目/工具",
+        "bestFor": "The AI industry likes to abuse the word \"open.\" It appears in product releases, research papers, policy debates, and investor presentations. A company publishes",
+        "description": "The AI industry likes to abuse the word \"open.\" It appears in product releases, research papers, policy debates, and investor presentations. A company publishes model files to Hugg",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "TheRegister.com",
+        "url": "https://www.theregister.com/columnists/2026/09/15/open-weights-are-not-open-source-why-ais-favorite-label-is-under-dispute/5295436"
+      },
+      {
         "name": "How China is preparing for the risk of AI escaping human con",
         "provider": "Free Malaysia Today",
         "type": "AI 项目/工具",
@@ -8844,17 +8828,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2608.24662v1"
-      },
-      {
-        "name": "A Dual-Dimensional LLM Framework for Automated Item Incident",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "The rapid expansion of large-scale assessments and the growing adoption of automatic item generation have intensified concerns about incidental content redundan",
-        "description": "The rapid expansion of large-scale assessments and the growing adoption of automatic item generation have intensified concerns about incidental content redundancy, where construct-",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2608.24825v1"
       }
     ],
     "ai-office": []
@@ -10263,7 +10236,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-15",
-    "generatedAt": "2026-09-15T06:12:58.507106Z",
+    "generatedAt": "2026-09-15T08:47:03.549520Z",
     "total": 10,
     "sections": [
       {
