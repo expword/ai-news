@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-15",
-  "generatedAt": "2026-09-15T11:19:21.093487Z",
+  "generatedAt": "2026-09-15T13:51:18.718226Z",
   "news": [
     {
       "title": "ZGCM-1: A Fully Open and Extremely Efficient Foundation Model for Math and Agentic Search",
@@ -5577,6 +5577,28 @@ window.AI_GENERATED_DATA = {
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Should all enterprise code and workflows become natural lang",
+        "provider": "VentureBeat",
+        "type": "AI 项目/工具",
+        "bestFor": "AI coding agents are rapidly becoming the predominant authors of enterprise software (at Anthropic, they're already up to 80% of all production code shipped). W",
+        "description": "AI coding agents are rapidly becoming the predominant authors of enterprise software (at Anthropic, they're already up to 80% of all production code shipped). While this may improv",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "VentureBeat",
+        "url": "https://venturebeat.com/technology/should-all-enterprise-code-and-workflows-become-natural-language-g5-labs-thinks-so-and-its-new-g5-platform-does-it-for-you"
+      },
+      {
+        "name": "How to Create and Adapt an RL Agent with an LLM and Quantum ",
+        "provider": "mql5.com",
+        "type": "AI 项目/工具",
+        "bestFor": "A paradoxical situation has emerged in modern algorithmic trading: despite the impressive achievements of machine learning in other fields, the application of r",
+        "description": "A paradoxical situation has emerged in modern algorithmic trading: despite the impressive achievements of machine learning in other fields, the application of reinforcement learnin",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "mql5.com",
+        "url": "https://www.mql5.com/en/articles/21182"
+      },
+      {
         "name": "CometAPI Adds OpenAI's GPT-6 Astra API to Its Multi-Model De",
         "provider": "Brattleboro Reformer",
         "type": "AI 项目/工具",
@@ -5993,31 +6015,64 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "The Decoder：AI News（RSS）",
         "url": "https://the-decoder.com/openai-rolls-out-gpt-6-astra-to-top-tier-chatgpt-plans-at-half-the-rate-of-gpt-5-6-sol"
-      },
-      {
-        "name": "GPT-6 Astra 开始向 Plus 和 Business 用户推出",
-        "provider": "X：Sam Altman (@sama)",
-        "type": "AI 项目/工具",
-        "bestFor": "Sam Altman 宣布 GPT-6 Astra 现已向所有 Plus 和 Business 用户推出。此前该模型已面向 Pro、Enterprise 和 Business Premium 用户在 Work/Codex 及 API 中提供。",
-        "description": "Sam Altman 宣布 GPT-6 Astra 现已向所有 Plus 和 Business 用户推出。此前该模型已面向 Pro、Enterprise 和 Business Premium 用户在 Work/Codex 及 API 中提供。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "X：Sam Altman (@sama)",
-        "url": "https://x.com/sama/status/2096008528834244741"
-      },
-      {
-        "name": "OpenAI 发布 GPT-6 Astra，面向 Pro、Enterprise 和 Business Premium 用",
-        "provider": "X：OpenAI (@OpenAI)",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenAI 宣布 GPT-6 Astra 现已向所有 Pro、Enterprise 和 Business Premium 用户开放，可在 ChatGPT Work 和 Codex 中使用，同时已上线 API。Plus 和 Business 用户的推送可能需要几天时间。",
-        "description": "OpenAI 宣布 GPT-6 Astra 现已向所有 Pro、Enterprise 和 Business Premium 用户开放，可在 ChatGPT Work 和 Codex 中使用，同时已上线 API。Plus 和 Business 用户的推送可能需要几天时间。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "X：OpenAI (@OpenAI)",
-        "url": "https://x.com/OpenAI/status/2095968413646737608"
       }
     ],
     "ai-agents": [
+      {
+        "name": "Augmentir Reinvents Industrial Software: Natural Language Be",
+        "provider": "CNHI News",
+        "type": "AI 项目/工具",
+        "bestFor": "New Augie Command Center and Procedure Studio let manufacturers create, deploy, and scale everything from AI agents to complete frontline solutions by describin",
+        "description": "New Augie Command Center and Procedure Studio let manufacturers create, deploy, and scale everything from AI agents to complete frontline solutions by describing what they want\n\nHO",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "CNHI News",
+        "url": "https://www.cnhinews.com/news/article_cbaa69d9-fdd3-5998-ba48-cc4e46187753.html"
+      },
+      {
+        "name": "Eve Security Raises $4.5 Million For AI Agent Runtime Securi",
+        "provider": "Pulse 2.0",
+        "type": "AI 项目/工具",
+        "bestFor": "Eve Security, a runtime security company focused on identifying and stopping dangerous AI agent behavior in real time, announced that it has raised $4.5 million",
+        "description": "Eve Security, a runtime security company focused on identifying and stopping dangerous AI agent behavior in real time, announced that it has raised $4.5 million in new funding, ext",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Pulse 2.0",
+        "url": "https://pulse2.com/eve-security-4-5-million-funding/"
+      },
+      {
+        "name": "Salesforce Koa Takes on Enterprise AI with 3× Fewer CRM Erro",
+        "provider": "InfotechLead",
+        "type": "AI 项目/工具",
+        "bestFor": "Salesforce and NVIDIA are deepening their enterprise AI partnership with Koa, Salesforce's first CRM-focused reasoning model for Agentforce, as the software com",
+        "description": "Salesforce and NVIDIA are deepening their enterprise AI partnership with Koa, Salesforce's first CRM-focused reasoning model for Agentforce, as the software company bets that speci",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "InfotechLead",
+        "url": "https://infotechlead.com/artificial-intelligence/salesforce-koa-takes-on-enterprise-ai-with-3x-fewer-crm-errors-nvidia-nemotron-and-agentforce-98336"
+      },
+      {
+        "name": "How to Redesign Revenue Work for Humans and AI Agents",
+        "provider": "goairspeed.com",
+        "type": "AI 项目/工具",
+        "bestFor": "One agent preps sellers for meetings. Another updates the CRM. A few more sit on forecasting, coaching, reporting, and handovers. Each one earns its keep on its",
+        "description": "One agent preps sellers for meetings. Another updates the CRM. A few more sit on forecasting, coaching, reporting, and handovers. Each one earns its keep on its own. Put them toget",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "goairspeed.com",
+        "url": "https://www.goairspeed.com/events/redesign-revenue-work-humans-ai-agents"
+      },
+      {
+        "name": "UME LIFE Introduces Its Proprietary LLM-Powered AI Super-Age",
+        "provider": "Taiwan News",
+        "type": "AI 项目/工具",
+        "bestFor": "The six-in-one ecosystem connects AI Social, AI Search, AI Content, AI Feed, AI Game and AI Payment\n\nSINGAPORE, Sept. 15, 2026 /PRNewswire/ -- UME LIFE has intr",
+        "description": "The six-in-one ecosystem connects AI Social, AI Search, AI Content, AI Feed, AI Game and AI Payment\n\nSINGAPORE, Sept. 15, 2026 /PRNewswire/ -- UME LIFE has introduced its vision fo",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Taiwan News",
+        "url": "https://taiwannews.com.tw/en/news/6440267"
+      },
       {
         "name": "Companies Can Delegate to AI Agents but Can't Delegate Accou",
         "provider": "PYMNTS.com",
@@ -6402,64 +6457,42 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "People's Daily, China",
         "url": "http://en.people.cn/n3/2026/0912/c90000-20498946.html"
-      },
-      {
-        "name": "Best WhatsApp API Platforms for Ecommerce & D2C Brands in 20",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "8 voice AI agent platforms reviewed on telephony, latency, compliance, and pricing. Plivo, Vapi, Retell AI, Bland AI, Synthflow, ElevenLabs, Twilio, LiveKit.",
-        "description": "8 voice AI agent platforms reviewed on telephony, latency, compliance, and pricing. Plivo, Vapi, Retell AI, Bland AI, Synthflow, ElevenLabs, Twilio, LiveKit.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:open source LLM",
-        "url": "https://www.plivo.com/blog/best-whatsapp-api-platforms-for-ecommerce-d2c-brands/"
-      },
-      {
-        "name": "Mark Zuckerberg's Muse personal AI agent is a work accessory",
-        "provider": "TechRadar",
-        "type": "AI 项目/工具",
-        "bestFor": "Just when it seemed the creeping presence of technology into our daily routine couldn't get any worse, Meta has launched Muse, a new way for AI to take control ",
-        "description": "Just when it seemed the creeping presence of technology into our daily routine couldn't get any worse, Meta has launched Muse, a new way for AI to take control of your life.\n\nDescr",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "TechRadar",
-        "url": "https://www.techradar.com/pro/mark-zuckerbergs-muse-personal-ai-agent-is-a-work-accessory-designed-by-people-who-dont-do-real-work"
-      },
-      {
-        "name": "3 Agentic AI Stocks to Own Before AI Changes the World as We",
-        "provider": "The Motley Fool",
-        "type": "AI 项目/工具",
-        "bestFor": "The age of agentic AI is here, and the world will likely see meaningful changes in the coming years. AI is advancing quickly, which is both exciting and scary.\n",
-        "description": "The age of agentic AI is here, and the world will likely see meaningful changes in the coming years. AI is advancing quickly, which is both exciting and scary.\n\nAgentic AI is excit",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Motley Fool",
-        "url": "https://www.fool.com/investing/2026/09/12/agentic-ai-stocks-own-before-ai-changes-world/"
-      },
-      {
-        "name": "The end of cloud AI? Qualcomm's new Snapdragon chip brings A",
-        "provider": "Phone Arena",
-        "type": "AI 项目/工具",
-        "bestFor": "The next Snapdragon flagship chipset could enable AI agents on your phone. Qualcomm is gearing up to launch its new flagship chips on September 22 during the an",
-        "description": "The next Snapdragon flagship chipset could enable AI agents on your phone. Qualcomm is gearing up to launch its new flagship chips on September 22 during the annual Snapdragon Summ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Phone Arena",
-        "url": "https://www.phonearena.com/news/qualcomms-new-snapdragon-chip-brings-ai-agents-to-your-phone_id183289"
-      },
-      {
-        "name": "3 Agentic AI Stocks to Own Before AI Changes the World as We",
-        "provider": "Yahoo! Finance",
-        "type": "AI 项目/工具",
-        "bestFor": "The age of agentic AI is here, and the world will likely see meaningful changes in the coming years. AI is advancing quickly, which is both exciting and scary.\n",
-        "description": "The age of agentic AI is here, and the world will likely see meaningful changes in the coming years. AI is advancing quickly, which is both exciting and scary.\n\nAgentic AI is excit",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Yahoo! Finance",
-        "url": "https://finance.yahoo.com/technology/ai/articles/3-agentic-ai-stocks-own-125000827.html"
       }
     ],
     "ai-models": [
+      {
+        "name": "Biren Technology Is Going Back to Investors for Another $1 B",
+        "provider": "Startup Fortune",
+        "type": "AI 项目/工具",
+        "bestFor": "Bloomberg reports Shanghai-based Biren Technology is weighing a roughly $1 billion follow-on share sale, its third capital raise since a blockbuster January 202",
+        "description": "Bloomberg reports Shanghai-based Biren Technology is weighing a roughly $1 billion follow-on share sale, its third capital raise since a blockbuster January 2026 Hong Kong debut th",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Startup Fortune",
+        "url": "https://startupfortune.com/biren-technology-is-going-back-to-investors-for-another-1-billion/"
+      },
+      {
+        "name": "B.AI, SUN.io, JustLend DAO, and BitTorrent Expand MetaMask C",
+        "provider": "The Block",
+        "type": "AI 项目/工具",
+        "bestFor": "Singapore, September 10, 2026 -- B.AI, SUN.io, JustLend DAO, and BitTorrent, four leading decentralized applications (dApps) across the TRON ecosystem, now supp",
+        "description": "Singapore, September 10, 2026 -- B.AI, SUN.io, JustLend DAO, and BitTorrent, four leading decentralized applications (dApps) across the TRON ecosystem, now support MetaMask connect",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Block",
+        "url": "https://www.theblock.co/news/sponsored/2026-09-15-b-ai-sun-io-justlend-dao-and-bittorrent-expand-metamask-connectivity-driving-global-defi-access-414152"
+      },
+      {
+        "name": "MediaTek 9600 Pro Chip Brings More Powerful AI, Gaming Upgra",
+        "provider": "PC Magazine",
+        "type": "AI 项目/工具",
+        "bestFor": "MediaTek is back with its next top-end processor, expected to appear in flagship phones from various Android makers as a rival to Qualcomm's upcoming flagship c",
+        "description": "MediaTek is back with its next top-end processor, expected to appear in flagship phones from various Android makers as a rival to Qualcomm's upcoming flagship chipset and the newly",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "PC Magazine",
+        "url": "https://www.pcmag.com/news/mediatek-9600-pro-chip-brings-more-powerful-ai-gaming-upgrades-to-phones"
+      },
       {
         "name": "As the world debates the risks of AI, China closes the techn",
         "provider": "AP NEWS",
@@ -6866,39 +6899,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Crypto Briefing",
         "url": "https://cryptobriefing.com/johnson-ai-leaders-meeting-before-legislation/"
-      },
-      {
-        "name": "Google Gemini Just Leveled-Up With A New App For Windows",
-        "provider": "HotHardware",
-        "type": "AI 项目/工具",
-        "bestFor": "Google is expanding its desktop footprint by releasing a dedicated Gemini app for Windows 10 and 11, with support for both x86 and Arm. Having already arrived o",
-        "description": "Google is expanding its desktop footprint by releasing a dedicated Gemini app for Windows 10 and 11, with support for both x86 and Arm. Having already arrived on Apple's macOS seve",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "HotHardware",
-        "url": "https://hothardware.com/news/google-gemini-levels-up-new-app-windows"
-      },
-      {
-        "name": "Vulcan Infrastructure And Power Raises $39.4 Million Strateg",
-        "provider": "Pulse 2.0",
-        "type": "AI 项目/工具",
-        "bestFor": "Vulcan Infrastructure and Power has completed an approximately $39.4 million strategic investment from affiliates of Machine Investment Group and Atlas Holdings",
-        "description": "Vulcan Infrastructure and Power has completed an approximately $39.4 million strategic investment from affiliates of Machine Investment Group and Atlas Holdings, along with institu",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Pulse 2.0",
-        "url": "https://pulse2.com/vulcan-infrastructure-and-power-raises-39-4-million-strategic-investment-from-machine-investment-group-atlas-holdings-conversant-capital-and-others/"
-      },
-      {
-        "name": "Cerenome Secures Up To $20 Million Financing Facility From 3",
-        "provider": "Pulse 2.0",
-        "type": "AI 项目/工具",
-        "bestFor": "Cerenome has entered into a financing agreement with 3i, LP for a senior secured facility of up to $20 million with royalty-based repayments, providing addition",
-        "description": "Cerenome has entered into a financing agreement with 3i, LP for a senior secured facility of up to $20 million with royalty-based repayments, providing additional capital for the c",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Pulse 2.0",
-        "url": "https://pulse2.com/cerenome-secures-up-to-20-million-financing-facility-from-3i-fund/"
       }
     ],
     "ai-business": [
@@ -7344,6 +7344,17 @@ window.AI_GENERATED_DATA = {
       }
     ],
     "ai-benchmark": [
+      {
+        "name": "Trail of Bits 批评 1Password 的 AI 补丁基准存在误导，并发布两个补丁验证 Agent 技能",
+        "provider": "Trail of Bits：AI安全研究",
+        "type": "AI 项目/工具",
+        "bestFor": "Trail of Bits 发文批评 1Password 8月6日发布的 FLAWED 报告，称其 26% 的 AI 干净修复率受四项实验设计选择影响而失真，包括刻意指示智能体应用错误修复的提示词占 22% 数据、36% 的试验禁止编译测试，以及不同推理档位设置。",
+        "description": "Trail of Bits 发文批评 1Password 8月6日发布的 FLAWED 报告，称其 26% 的 AI 干净修复率受四项实验设计选择影响而失真，包括刻意指示智能体应用错误修复的提示词占 22% 数据、36% 的试验禁止编译测试，以及不同推理档位设置。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Trail of Bits：AI安全研究",
+        "url": "https://blog.trailofbits.com/2026/09/15/1passwords-ai-patching-benchmark-is-misleading"
+      },
       {
         "name": "Tasks over Application Manuals: Revealing Gaps in Long-Horiz",
         "provider": "arXiv",
@@ -7893,23 +7904,6 @@ window.AI_GENERATED_DATA = {
         "watch": "可能面临 API 价格上涨的风险，影响长期使用成本。",
         "sourceName": "NewsData.io:generative AI",
         "url": "https://www.prnewswire.com/news-releases/invideo-agent-one-ranks-1-in-physion-arc-1-0-benchmark-302839863.html"
-      },
-      {
-        "name": "微软推出新网络安全 AI 模型，MDASH 成绩达 95.95% 费用减半",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "MAI-Cyber-1-Flash 的推出可能会改变企业在网络安全领域的决策，尤其是那些依赖于漏洞管理的公司。通过降低成本和提高效率，企业能够更有效地应对网络威胁。此外，微软计划在 8 月 3 日公开预览 Project Perception，进一步扩展该模型的应用场景，可能会吸引更多企业采用其解决方案。随着网络安全需",
-        "description": "微软在 2026 年 7 月 28 日推出了首个专门针对网络安全的模型 MAI-Cyber-1-Flash，集成于其多模型漏洞识别和修复工具 MDASH 中。该模型与 GPT-5.4 联合使用，MDASH 在 CyberGym 测试中取得了 95.95% 的高分，且配置成本比现有最佳组合降低了 50%。",
-        "useCases": [
-          "使用 MAI-Cyber-1-Flash 进行漏洞扫描，识别潜在安全风险。",
-          "集成 MDASH 以优化企业的漏洞修复流程，降低运营成本。",
-          "利用 CyberGym 测试评估模型性能，确保安全措施的有效性。",
-          "通过 Azure AI Foundry 访问新模型，提升企业的安全防护能力。",
-          "在项目中应用 MAI-Cyber-1-Flash，增强软件开发过程中的安全性。"
-        ],
-        "watch": "API 价格和配额可能影响企业的使用决策，需仔细评估成本效益。",
-        "sourceName": "NewsAPI:AI benchmark leaderboard",
-        "url": "https://thehackernews.com/2026/07/microsoft-says-new-cybersecurity-ai.html"
       }
     ],
     "ai-image-video": [
@@ -8390,6 +8384,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-research": [
       {
+        "name": "Google DeepMind Researcher Quits, Warns AI Could 'Kill Us Al",
+        "provider": "News18",
+        "type": "AI 项目/工具",
+        "bestFor": "Google DeepMind researcher Bilal Chughtai quit his job, warning that the rapid rise of AI could create serious risks and that humanity may be running out of tim",
+        "description": "Google DeepMind researcher Bilal Chughtai quit his job, warning that the rapid rise of AI could create serious risks and that humanity may be running out of time.\n\nA Google DeepMin",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "News18",
+        "url": "https://www.news18.com/viral/google-deepmind-researcher-quits-warns-ai-could-kill-us-all-running-out-of-time-ws-l-10331218.html"
+      },
+      {
         "name": "How China is preparing for AI escaping human control: New ru",
         "provider": "Deccan Herald",
         "type": "AI 项目/工具",
@@ -8817,17 +8822,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · arXiv cs.AI",
         "url": "https://arxiv.org/abs/2608.23640"
-      },
-      {
-        "name": "PROOF-Gen: From Optimized Data to Better Distillation",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Supervised fine-tuning on teacher-generated trajectories is the standard first stage for distilling tool-calling capabilities into deployable models. Post-train",
-        "description": "Supervised fine-tuning on teacher-generated trajectories is the standard first stage for distilling tool-calling capabilities into deployable models. Post-training pipelines that d",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · Apple ML Research",
-        "url": "https://machinelearning.apple.com/research/proof-gen-optimized-distillation"
       }
     ],
     "ai-office": []
@@ -10236,7 +10230,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-15",
-    "generatedAt": "2026-09-15T11:19:21.069486Z",
+    "generatedAt": "2026-09-15T13:51:18.694625Z",
     "total": 10,
     "sections": [
       {
@@ -21339,6 +21333,18 @@ window.AI_GENERATED_DATA = {
     ]
   },
   "benchmarkDatasets": [
+    {
+      "name": "ai-patching-benchmark",
+      "area": "Agent / 工具调用",
+      "note": "Trail of Bits 发文批评 1Password 8月6日发布的 FLAWED 报告，称其 26% 的 AI 干净修复率受四项实验设计选择影响而失真，包括刻意指示智能体应用错误修复的提示词占 22% 数据、36% 的试验禁止编译测试，以及不同推理档位设置。",
+      "source": "https://blog.trailofbits.com/2026/09/15/1passwords-ai-patching-benchmark-is-misleading",
+      "sourceName": "Trail of Bits：AI安全研究",
+      "date": "2026-09-15",
+      "originTitle": "Trail of Bits 批评 1Password 的 AI 补丁基准存在误导，并发布两个补丁验证 Agent 技能",
+      "evaluates": [],
+      "useCases": [],
+      "limitations": []
+    },
     {
       "name": "EduFair-Bench",
       "area": "AI 模型能力评测",
