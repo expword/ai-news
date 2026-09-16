@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-16",
-  "generatedAt": "2026-09-16T05:42:08.209965Z",
+  "generatedAt": "2026-09-16T08:20:05.780019Z",
   "news": [
     {
       "title": "Bypassing inference bottlenecks: Accelerating complex AI search with Retrieve-for-Train",
@@ -238,6 +238,34 @@ window.AI_GENERATED_DATA = {
       "sourceDate": "",
       "tags": [],
       "url": "https://blog.google/innovation-and-ai/technology/ai/ai-applications-science-people/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "End-to-End Latency-Minimizing and Load-Balanced Request Scheduling for Edge LLM Inference in Agentic AI Services",
+      "summary": "Large language model (LLM)-powered agentic AI services increasingly demand low-latency inference, motivating the deployment of LLMs across distributed edge servers. However, hetero",
+      "category": "ai-agents",
+      "source": "arXiv",
+      "date": "2026-09-15",
+      "publishedAt": "",
+      "collectedAt": "2026-09-16T15:04",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-15",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.17193v1",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -2451,259 +2479,6 @@ window.AI_GENERATED_DATA = {
       "aiSelected": true,
       "moduleTargets": [
         "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
-      "summary": "",
-      "category": "ai-models",
-      "source": "RSS · Hugging Face Blog",
-      "date": "2026-09-10",
-      "publishedAt": "2026-09-10T08:00",
-      "collectedAt": "2026-09-14T17:19",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Negative Self-Distillation: Learning to Reason by Avoiding Flaws",
-      "summary": "On-Policy Self-Distillation (OPSD) has emerged as a popular paradigm for large language model (LLM) self-improvement, allowing models to act as their own teachers by leveraging pri",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-10",
-      "publishedAt": "",
-      "collectedAt": "2026-09-11T19:38",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-10",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.11699v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "SpecGuard: Inference-Time Backdoor Detection For Free",
-      "summary": "Large language models are often fine-tuned, shared, or downloaded from third parties, so a deployed model may carry a hidden backdoor that behaves normally on benign inputs but swi",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-10",
-      "publishedAt": "",
-      "collectedAt": "2026-09-11T14:33",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-10",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.11799v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Domain-Specific Hallucination Detection in Large Language Models",
-      "summary": "Large language models generate fluent text that can contain unfaithful claims -- a phenomenon known as hallucination. We present a multi-signal detection pipeline combining fine-tu",
-      "category": "ai-benchmark",
-      "source": "arXiv",
-      "date": "2026-09-10",
-      "publishedAt": "",
-      "collectedAt": "2026-09-11T14:33",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-10",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.11878v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 2,
-      "relatedSources": [
-        {
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2609.17269v1",
-          "title": "Semantic-Spatial Agreement Verification for Mitigating Object Hallucination in Multimodal Large Language Models"
-        }
-      ]
-    },
-    {
-      "title": "Explainability Assistant: A Conversational XAI Interface for Interpreting Energy Consumption Models",
-      "summary": "Energy consumption forecasting relies on increasingly complex machine learning (ML) models, such as Genetic Programming-based symbolic regressors, whose predictions can be difficul",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-10",
-      "publishedAt": "",
-      "collectedAt": "2026-09-11T14:33",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-10",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.11860v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Component-Aware Differential Privacy for Federated Multilingual Speech-LLMs",
-      "summary": "Per-layer differential privacy (DP) clipping improves gradient fidelity in federated learning by allocating per-matrix clipping budgets proportional to parameter count. We show tha",
-      "category": "ai-coding",
-      "source": "arXiv",
-      "date": "2026-09-10",
-      "publishedAt": "",
-      "collectedAt": "2026-09-11T14:33",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-10",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.11762v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "BlueSTAR: Tiered Agentic Architecture for Autonomous Cyber Defense",
-      "summary": "Cyber attacks are increasingly automated, narrowing the time available for human analysts to detect, reason about, and respond to intrusions. Large language models (LLMs) offer a p",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-09-10",
-      "publishedAt": "",
-      "collectedAt": "2026-09-11T14:33",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-10",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.11852v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "RetroThinker: Enabling Retrospective Thinking in Speech LLMs",
-      "summary": "Speech large language models (SpeechLLMs) offer reduced latency and retain paralinguistic nuances that are typically lost in cascaded automatic speech recognition (ASR) and text-ba",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-10",
-      "publishedAt": "",
-      "collectedAt": "2026-09-11T14:33",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-10",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.11864v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Recognizing Is Not Reversing: A Controlled Inversion Test of Fact-Preserving News Framing",
-      "summary": "Large language models (LLMs) are increasingly used to analyze and rewrite news, yet current framing studies mainly evaluate generation, detection, or whether rewritten text appears",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-10",
-      "publishedAt": "",
-      "collectedAt": "2026-09-11T14:33",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-10",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.11769v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
       ],
       "sourceCount": 1
     }
@@ -6226,6 +6001,28 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "47% of Shoppers Who Abandoned Their Carts Wanted a Digital W",
+        "provider": "PYMNTS.com",
+        "type": "AI 项目/工具",
+        "bestFor": "The PYMNTS Intelligence report \"The Hidden Cost of Checkout Gaps: What 56 Million Abandoned Carts Mean for U.S. Merchants and How Agentic AI Is Changing What Co",
+        "description": "The PYMNTS Intelligence report \"The Hidden Cost of Checkout Gaps: What 56 Million Abandoned Carts Mean for U.S. Merchants and How Agentic AI Is Changing What Comes Next\" found in S",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "PYMNTS.com",
+        "url": "https://www.pymnts.com/digital-payments/2026/47-percent-of-shoppers-who-abandoned-their-carts-wanted-a-digital-wallet-option/"
+      },
+      {
+        "name": "End-to-End Latency-Minimizing and Load-Balanced Request Sche",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Large language model (LLM)-powered agentic AI services increasingly demand low-latency inference, motivating the deployment of LLMs across distributed edge serv",
+        "description": "Large language model (LLM)-powered agentic AI services increasingly demand low-latency inference, motivating the deployment of LLMs across distributed edge servers. However, hetero",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2609.17193v1"
+      },
+      {
         "name": "BudgetBench: A Budget-Tiered Protocol and Pilot Harness for ",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -6642,31 +6439,31 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "InfotechLead",
         "url": "https://infotechlead.com/artificial-intelligence/generative-ai-jobs-in-2026-ai-engineers-agentic-ai-roles-and-salaries-in-demand-98309"
-      },
-      {
-        "name": "5 big analyst AI moves: JPMorgan upgrades Meta, names KLA to",
-        "provider": "Investing.com",
-        "type": "AI 项目/工具",
-        "bestFor": "Investing.com -- Here are the biggest analyst moves in the area of artificial intelligence (AI) for this week.\n\nJPMorgan upgrades Meta to Overweight on AI agent",
-        "description": "Investing.com -- Here are the biggest analyst moves in the area of artificial intelligence (AI) for this week.\n\nJPMorgan upgrades Meta to Overweight on AI agent opportunity\n\nJPMorg",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Investing.com",
-        "url": "https://www.investing.com/news/stock-market-news/5-big-analyst-ai-moves-jpmorgan-upgrades-meta-names-kla-top-chip-equipment-stock-4898673"
-      },
-      {
-        "name": "Blackwell vs Rubin: NVIDIA's AI GPU Battle Moves Into the Ag",
-        "provider": "InfotechLead",
-        "type": "AI 项目/工具",
-        "bestFor": "NVIDIA's Blackwell and Vera Rubin platforms represent two different stages of the AI infrastructure market. Blackwell has become a production platform for train",
-        "description": "NVIDIA's Blackwell and Vera Rubin platforms represent two different stages of the AI infrastructure market. Blackwell has become a production platform for training, inference and r",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "InfotechLead",
-        "url": "https://infotechlead.com/?p=98306"
       }
     ],
     "ai-models": [
+      {
+        "name": "AI Moves Into Brazil's Everyday Shopping Journey | PYMNTS.co",
+        "provider": "PYMNTS.com",
+        "type": "AI 项目/工具",
+        "bestFor": "Brazil has become one of the clearest tests of what happens when digital shopping ceases to occupy a separate corner of commerce and becomes indispensable to ev",
+        "description": "Brazil has become one of the clearest tests of what happens when digital shopping ceases to occupy a separate corner of commerce and becomes indispensable to everyday interactions.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "PYMNTS.com",
+        "url": "https://www.pymnts.com/news/artificial-intelligence/2026/ai-moves-into-brazils-everyday-shopping-journey/"
+      },
+      {
+        "name": "Tech utility spends: AI Pro tools and extra storage are beco",
+        "provider": "mint",
+        "type": "AI 项目/工具",
+        "bestFor": "Summary\n\nAI tools and cloud storage are emerging as a new category of recurring household spending, but experts say users should regularly assess their utility,",
+        "description": "Summary\n\nAI tools and cloud storage are emerging as a new category of recurring household spending, but experts say users should regularly assess their utility, avoid overlapping s",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "mint",
+        "url": "https://www.livemint.com/money/personal-finance/tech-utility-spends-ai-subscriptions-chatgpt-plus-claude-pro-cloud-storage-apple-icloud-google-one-dropbox-11789484135975.html"
+      },
       {
         "name": "Anthropic signs first Australia data centre agreement",
         "provider": "Superhits 97.9 Terre Haute, IN",
@@ -7084,31 +6881,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "NewsBytes",
         "url": "https://www.newsbytesapp.com/news/science/ios-27-releases-today-new-features-and-how-to-update/story"
-      },
-      {
-        "name": "Apple iOS 27 Release Today: Check India Rollout Time, Suppor",
-        "provider": "Gadgets Now",
-        "type": "AI 项目/工具",
-        "bestFor": "I love telling stories about technology that actually matter. I enjoy going beyond specs and buzzwords to understand how tech is changing the way we live, work ",
-        "description": "I love telling stories about technology that actually matter. I enjoy going beyond specs and buzzwords to understand how tech is changing the way we live, work and connect. I start",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Gadgets Now",
-        "url": "https://gadgetsnow.indiatimes.com/tech-news/apple-ios-27-release-today-check-india-rollout-time-supported-iphones-and-download-steps/articleshow/134233899.cms"
-      },
-      {
-        "name": "Apple rolling out iOS 27 today: Check new features, compatib",
-        "provider": "India Today",
-        "type": "AI 项目/工具",
-        "bestFor": "Apple will start rolling out iOS 27 to compatible iPhones on September 14. The update brings a new Siri experience, interface changes, Visual Intelligence upgra",
-        "description": "Apple will start rolling out iOS 27 to compatible iPhones on September 14. The update brings a new Siri experience, interface changes, Visual Intelligence upgrades and wider parent",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "India Today",
-        "url": "https://www.indiatoday.in/technology/news/story/apple-rolling-out-ios-27-today-check-new-features-compatible-iphones-and-how-to-download-2994091-2026-09-14"
       }
     ],
     "ai-business": [
+      {
+        "name": "Texas Lt. Gov. Features 3 Texas Universities in AI Ad",
+        "provider": "Inside Higher Ed | Higher Education News, Events and Jobs",
+        "type": "AI 项目/工具",
+        "bestFor": "Patrick presides over the state senate and has significant sway over institutions' funding.\n\nTexas Lt. Gov. Dan Patrick released a political ad earlier this mon",
+        "description": "Patrick presides over the state senate and has significant sway over institutions' funding.\n\nTexas Lt. Gov. Dan Patrick released a political ad earlier this month that appears to h",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Inside Higher Ed | Higher Education News, Events and Jobs",
+        "url": "https://www.insidehighered.com/news/quick-takes/2026/09/16/texas-lt-gov-features-3-texas-universities-ai-ad"
+      },
       {
         "name": "Child trust fund firms face review over efforts to find who ",
         "provider": "RocketNews | Top News Stories From Around the Globe",
@@ -7537,17 +7323,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "CNN",
         "url": "https://us.cnn.com/2026/09/06/tech/apple-ceo-john-ternus-challenges"
-      },
-      {
-        "name": "Apple Unveils Foldable IPhone Ultra And AI Leap",
-        "provider": "Evrim Ağacı",
-        "type": "AI 项目/工具",
-        "bestFor": "Apple's September event brings Google-powered AI, a high-priced foldable iPhone Ultra, and a new launch strategy that could reshape the global smartphone market",
-        "description": "Apple's September event brings Google-powered AI, a high-priced foldable iPhone Ultra, and a new launch strategy that could reshape the global smartphone market.\n\nApple is poised t",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Evrim Ağacı",
-        "url": "https://evrimagaci.org/gpt/apple-unveils-foldable-iphone-ultra-and-ai-leap-545125"
       }
     ],
     "ai-benchmark": [
@@ -10423,8 +10198,8 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-16",
-    "generatedAt": "2026-09-16T05:42:08.188995Z",
-    "total": 38,
+    "generatedAt": "2026-09-16T08:20:05.758020Z",
+    "total": 39,
     "sections": [
       {
         "category": "ai-coding",
@@ -10522,6 +10297,17 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-09-16",
             "publishedAt": "2026-09-16T00:00",
+            "reason": ""
+          },
+          {
+            "title": "End-to-End Latency-Minimizing and Load-Balanced Request Scheduling for Edge LLM Inference in Agentic AI Services",
+            "summary": "Large language model (LLM)-powered agentic AI services increasingly demand low-latency inference, motivating the deployment of LLMs across d",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.17193v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-15",
+            "publishedAt": "",
             "reason": ""
           },
           {
