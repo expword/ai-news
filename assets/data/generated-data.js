@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-16",
-  "generatedAt": "2026-09-16T03:13:35.296345Z",
+  "generatedAt": "2026-09-16T05:42:08.209965Z",
   "news": [
     {
       "title": "Bypassing inference bottlenecks: Accelerating complex AI search with Retrieve-for-Train",
@@ -251,6 +251,223 @@ window.AI_GENERATED_DATA = {
       "moduleTargets": [
         "news",
         "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "What Breaks Under Pruning in Smart Homes, and When? Evaluating LLM Degradation Across Architectures and Task Complexity",
+      "summary": "Pruning can reduce the deployment cost of large language models (LLMs), but its impact on context-grounded tool calling remains poorly understood. We systematically study pruning-i",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-09-15",
+      "publishedAt": "",
+      "collectedAt": "2026-09-16T13:42",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-15",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.17515v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "When Should LLMs Abstain? Chain-of-Self-Questioning for Selective Risk Control",
+      "summary": "Large language models can produce fluent answers when their factual support is weak. This paper introduces Chain-of-Self-Questioning (CoSQ), a prompt-only framework that makes answ",
+      "category": "ai-research",
+      "source": "arXiv",
+      "date": "2026-09-15",
+      "publishedAt": "",
+      "collectedAt": "2026-09-16T13:42",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-15",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.17516v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Where Should a Document Live: Context, Representations, or Parameters?",
+      "summary": "To answer questions outside of their pre-training data, large language models (LLMs) need access to new information, which can be presented in the context window as documents, enco",
+      "category": "ai-coding",
+      "source": "arXiv",
+      "date": "2026-09-15",
+      "publishedAt": "",
+      "collectedAt": "2026-09-16T13:42",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-15",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.17346v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Enhancing Accessibility of Medical Texts through Large Language Model-Driven Plain Language Adaptation",
+      "summary": "This paper addresses the challenge of making complex healthcare information more accessible through automated Plain Language Adaptation (PLA). PLA aims to simplify technical medica",
+      "category": "ai-research",
+      "source": "arXiv",
+      "date": "2026-09-15",
+      "publishedAt": "",
+      "collectedAt": "2026-09-16T13:42",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-15",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.17398v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Large Language Models Develop Belief State Geometry In-Context",
+      "summary": "Large language models (LLMs) trained on next-token prediction exhibit remarkable in-context learning (ICL) abilities, yet the representations that support ICL remain poorly underst",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-09-15",
+      "publishedAt": "",
+      "collectedAt": "2026-09-16T13:42",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-15",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.17376v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Coupled Calibration and Learning: Mitigating Teacher Bias in LLM Distillation without Target-Domain Reward Feedback",
+      "summary": "Large language model (LLM) distillation aims to transfer the capabilities of a powerful teacher to a smaller student. Direct imitation, however, can also transfer the teacher's sys",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-09-15",
+      "publishedAt": "",
+      "collectedAt": "2026-09-16T13:42",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-15",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.17474v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Type-IV Code Clone Detection via Layer-Wise Non-Contrastive Representation Learning",
+      "summary": "Software clones are fragments of code that are similar or functionally equivalent to each other. They pose significant challenges for maintenance, refactoring, and bug detection. D",
+      "category": "ai-coding",
+      "source": "arXiv",
+      "date": "2026-09-15",
+      "publishedAt": "",
+      "collectedAt": "2026-09-16T13:42",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-15",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.17338v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Zero-shot narrative detection in social messaging",
+      "summary": "This study investigates the zero-shot ability of large language models (LLMs) to identify and classify hidden narratives in social messages. Our research hypothesis is that LLMs' e",
+      "category": "ai-research",
+      "source": "arXiv",
+      "date": "2026-09-15",
+      "publishedAt": "",
+      "collectedAt": "2026-09-16T13:42",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-15",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.17310v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
       ],
       "sourceCount": 1
     },
@@ -2343,7 +2560,14 @@ window.AI_GENERATED_DATA = {
       "moduleTargets": [
         "news"
       ],
-      "sourceCount": 1
+      "sourceCount": 2,
+      "relatedSources": [
+        {
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2609.17269v1",
+          "title": "Semantic-Spatial Agreement Verification for Mitigating Object Hallucination in Multimodal Large Language Models"
+        }
+      ]
     },
     {
       "title": "Explainability Assistant: A Conversational XAI Interface for Interpreting Energy Consumption Models",
@@ -2480,284 +2704,6 @@ window.AI_GENERATED_DATA = {
       "moduleTargets": [
         "news",
         "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "RAG-Safety-Bench: Reliable Evaluation of Retrieval-Augmented LLM Safety",
-      "summary": "Allowing large language models (LLMs) to retrieve information from a set of trusted documents can increase reliability and reduce hallucination. However, recent work has demonstrat",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-10",
-      "publishedAt": "",
-      "collectedAt": "2026-09-11T14:33",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-10",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.11758v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "benchmarkDatasets"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "From Good Starts to Optimal Inference: Generalized Latent Factor Models with Missingness and Implicit Regularization",
-      "summary": "Generalized latent factor models provide a flexible framework for analyzing high-dimensional non-Gaussian data, but principled estimation and uncertainty quantification under missi",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-10",
-      "publishedAt": "",
-      "collectedAt": "2026-09-11T14:33",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-10",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.11740v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "LOCUS: Task-Aware Low-Rank Post-Training for Token-Efficient Language Generation",
-      "summary": "Large language model serving costs scale directly with output sequence length, yet standard preference alignment often inflates response verbosity without improving utility. We stu",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-10",
-      "publishedAt": "",
-      "collectedAt": "2026-09-11T14:33",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-10",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.11739v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Capsule Lens: Locating and Tracking Concept Geometry in Model Representations",
-      "summary": "arXiv:2609.05575v1 Announce Type: new Abstract: Understanding how concepts are encoded in the internal representations of machine learning models is a central problem in mechanisti",
-      "category": "ai-coding",
-      "source": "RSS · arXiv cs.LG",
-      "date": "2026-09-10",
-      "publishedAt": "",
-      "collectedAt": "2026-09-11T10:46",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-10",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2609.05575",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "When Do Options Help? Policy Necrosis and Redundant Coverage in Option-Critic",
-      "summary": "arXiv:2609.05508v1 Announce Type: new Abstract: Option-critic learns options: sub-policies together with a learned rule for when each one hands control back. Its headline result is",
-      "category": "ai-research",
-      "source": "RSS · arXiv cs.LG",
-      "date": "2026-09-10",
-      "publishedAt": "",
-      "collectedAt": "2026-09-11T10:46",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-10",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2609.05508",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Multi-granularity Adaptive Hypergraph Representation Learning via Granular-ball",
-      "summary": "arXiv:2609.05574v1 Announce Type: new Abstract: Hypergraph representation learning aims to capture high-order information in graphs by constructing hyperedges that simultaneously c",
-      "category": "ai-research",
-      "source": "RSS · arXiv cs.LG",
-      "date": "2026-09-10",
-      "publishedAt": "",
-      "collectedAt": "2026-09-11T10:46",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-10",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2609.05574",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Robustness of LLM-Generated SystemVerilog Assertions to Semantics-Preserving RTL Transformations",
-      "summary": "arXiv:2609.05658v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly being explored for automating SystemVerilog Assertion (SVA) generation, yet most evalu",
-      "category": "ai-research",
-      "source": "RSS · arXiv cs.LG",
-      "date": "2026-09-10",
-      "publishedAt": "",
-      "collectedAt": "2026-09-11T10:46",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-10",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2609.05658",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Endogenous Exploration in Reinforcement Learning with Intrinsic Curiosity",
-      "summary": "arXiv:2609.05650v1 Announce Type: new Abstract: We propose a reinforcement learning framework in which exploration is driven by intrinsic curiosity, designed for scenarios where en",
-      "category": "ai-agents",
-      "source": "RSS · arXiv cs.LG",
-      "date": "2026-09-10",
-      "publishedAt": "",
-      "collectedAt": "2026-09-11T10:46",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-10",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2609.05650",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 2,
-      "relatedSources": [
-        {
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2609.13058v1",
-          "title": "Expert-Space Exploration in MoE Reinforcement Learning"
-        }
-      ]
-    },
-    {
-      "title": "HB-PVI: A Hierarchical Bayesian Personalization and Value-of-Information Framework for Complex Activity Recognition",
-      "summary": "arXiv:2609.05582v1 Announce Type: new Abstract: Personalization can improve activity-recognition performance, but participant-specific gains are heterogeneous, and every additional",
-      "category": "ai-research",
-      "source": "RSS · arXiv cs.LG",
-      "date": "2026-09-10",
-      "publishedAt": "",
-      "collectedAt": "2026-09-11T10:46",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-10",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2609.05582",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Introducing ChatGPT for Financial Services",
-      "summary": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
-      "category": "ai-research",
-      "source": "RSS · OpenAI Blog",
-      "date": "2026-09-10",
-      "publishedAt": "2026-09-10T15:00",
-      "collectedAt": "2026-09-11T03:30",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://openai.com/index/introducing-chatgpt-financial-services",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
       ],
       "sourceCount": 1
     }
@@ -6722,6 +6668,28 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-models": [
       {
+        "name": "Anthropic signs first Australia data centre agreement",
+        "provider": "Superhits 97.9 Terre Haute, IN",
+        "type": "AI 项目/工具",
+        "bestFor": "SYDNEY, Sept 16 (Reuters) - AI giant Anthropic signed its first data centre lease agreement in Australia, two people familiar with the deal said, capitalising o",
+        "description": "SYDNEY, Sept 16 (Reuters) - AI giant Anthropic signed its first data centre lease agreement in Australia, two people familiar with the deal said, capitalising on a favourable polit",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Superhits 97.9 Terre Haute, IN",
+        "url": "https://superhits979.com/2026/09/15/anthropic-signs-first-australia-data-centre-agreement/"
+      },
+      {
+        "name": "Botswana gambling authority focuses on regulatory readiness ",
+        "provider": "E-PLAY Africa",
+        "type": "AI 项目/工具",
+        "bestFor": "The Gambling Authority of Botswana is reviewing its approach to digital risks as artificial intelligence (AI) and cybersecurity become increasingly relevant to ",
+        "description": "The Gambling Authority of Botswana is reviewing its approach to digital risks as artificial intelligence (AI) and cybersecurity become increasingly relevant to gambling regulation.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "E-PLAY Africa",
+        "url": "https://e-playafrica.com/botswana-gambling-authority-focuses-on-regulatory-readiness/"
+      },
+      {
         "name": "Ro Khanna calls to abolish ICE as Jayapal warns of AAPI impa",
         "provider": "The American Bazaar",
         "type": "AI 项目/工具",
@@ -7138,28 +7106,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "India Today",
         "url": "https://www.indiatoday.in/technology/news/story/apple-rolling-out-ios-27-today-check-new-features-compatible-iphones-and-how-to-download-2994091-2026-09-14"
-      },
-      {
-        "name": "Bank of Baroda unveils new mobile banking app with voice-ena",
-        "provider": "Asian Banking & Finance",
-        "type": "AI 项目/工具",
-        "bestFor": "The app has voice-enabled navigation, it said.\n\nIndia's Bank of Baroda has launched its new mobile banking application, bob World 2.0.\n\nThe new app is powered b",
-        "description": "The app has voice-enabled navigation, it said.\n\nIndia's Bank of Baroda has launched its new mobile banking application, bob World 2.0.\n\nThe new app is powered by artificial intelli",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Asian Banking & Finance",
-        "url": "https://asianbankingandfinance.net/banking-technology/news/bank-baroda-unveils-new-mobile-banking-app-voice-enabled-payments"
-      },
-      {
-        "name": "I used Gemini to scan and organize 400 physical games to avo",
-        "provider": "Android Police",
-        "type": "AI 项目/工具",
-        "bestFor": "Akshay Bhalla was the former game guides editor for Screen Rant and the technology editor at MensXP. He has previously written about smartphones, apps, streamin",
-        "description": "Akshay Bhalla was the former game guides editor for Screen Rant and the technology editor at MensXP. He has previously written about smartphones, apps, streaming, gadgets, and game",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Android Police",
-        "url": "https://www.androidpolice.com/gemini-scan-organize-physical-games/"
       }
     ],
     "ai-business": [
@@ -7605,6 +7551,17 @@ window.AI_GENERATED_DATA = {
       }
     ],
     "ai-benchmark": [
+      {
+        "name": "Google's new voice models can talk and reason in real-time",
+        "provider": "NewsBytes",
+        "type": "AI 项目/工具",
+        "bestFor": "Meanwhile, Gemini 3.8 Live ranked second on the alternative Speech Agent Arena benchmark and topped ServiceNow Inc.'s EVA-Bench rankings with its impressive per",
+        "description": "Meanwhile, Gemini 3.8 Live ranked second on the alternative Speech Agent Arena benchmark and topped ServiceNow Inc.'s EVA-Bench rankings with its impressive performance metrics.\n\nG",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsBytes",
+        "url": "https://www.newsbytesapp.com/news/science/google-gemini-3-8-live-model-can-think-talk-in-real-time/story"
+      },
       {
         "name": "PhysMent: An Interactive Approach For LLM Reasoning In Physi",
         "provider": "RSS",
@@ -8146,21 +8103,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:generative AI",
         "url": "https://www.techtimes.com/articles/322461/20260731/roblox-stock-hits-near-two-year-low-benchmark-warns-platform-lifecycle-decline.htm"
-      },
-      {
-        "name": "Invideo Agent One 在 Physion-Arc 1.0 基准测试中排名第一",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Invideo Agent One 的优异表现将吸引更多创意工作者和视频制作团队的关注，可能改变他们在视频生成工具选择上的决策。随着生成媒体技术的不断发展，Agent One 的成功可能会促使其他公司加大对技术深度和战略的投入，从而推动整个行业的技术进步。",
-        "description": "在 Physion Labs 的独立评估中，Invideo Agent One 在七个代理中表现优异，获得了 72.4 分，领先于其他竞争者。该代理在叙事连贯性、电影语言和制作质量三个维度上均排名第一，显示出其在视频生成领域的技术深度和战略优势。",
-        "useCases": [
-          "利用 Invideo Agent One 生成高质量的多场景视频，提升视频制作效率。",
-          "在创意项目中应用 Agent One 的叙事一致性功能，确保故事流畅性。",
-          "通过 Agent One 的制作质量优势，优化广告和宣传视频的视觉效果。"
-        ],
-        "watch": "在使用过程中可能面临 API 费用上涨的风险，影响项目预算。",
-        "sourceName": "NewsData.io:generative AI",
-        "url": "https://www.manilatimes.net/2026/07/31/tmt-newswire/pr-newswire/invideo-agent-one-ranks-1-in-physion-arc-10-benchmark/2395933"
       }
     ],
     "ai-image-video": [
@@ -8635,6 +8577,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-research": [
       {
+        "name": "What Breaks Under Pruning in Smart Homes, and When? Evaluati",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Pruning can reduce the deployment cost of large language models (LLMs), but its impact on context-grounded tool calling remains poorly understood. We systematic",
+        "description": "Pruning can reduce the deployment cost of large language models (LLMs), but its impact on context-grounded tool calling remains poorly understood. We systematically study pruning-i",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2609.17515v1"
+      },
+      {
         "name": "RFCLLM: Evaluating LLMs' Reasoning Ability of Network Protoc",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -9062,17 +9015,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · Apple ML Research",
         "url": "https://machinelearning.apple.com/research/llms-not-consistently-bayesian"
-      },
-      {
-        "name": "TTPO: Test-Time Policy Optimization",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Recent prominent post-training methods, such as Reinforcement Learning (RL) and On-Policy Self-Distillation (OPSD), have driven rapid progress in mathematical r",
-        "description": "Recent prominent post-training methods, such as Reinforcement Learning (RL) and On-Policy Self-Distillation (OPSD), have driven rapid progress in mathematical reasoning for large l",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2608.27448v1"
       }
     ],
     "ai-office": []
@@ -10481,13 +10423,35 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-16",
-    "generatedAt": "2026-09-16T03:13:35.274345Z",
-    "total": 33,
+    "generatedAt": "2026-09-16T05:42:08.188995Z",
+    "total": 38,
     "sections": [
       {
         "category": "ai-coding",
         "label": "AI 编程",
         "items": [
+          {
+            "title": "Where Should a Document Live: Context, Representations, or Parameters?",
+            "summary": "To answer questions outside of their pre-training data, large language models (LLMs) need access to new information, which can be presented ",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.17346v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-15",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Type-IV Code Clone Detection via Layer-Wise Non-Contrastive Representation Learning",
+            "summary": "Software clones are fragments of code that are similar or functionally equivalent to each other. They pose significant challenges for mainte",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.17338v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-15",
+            "publishedAt": "",
+            "reason": ""
+          },
           {
             "title": "BudgetBench: A Budget-Tiered Protocol and Pilot Harness for Memory Strategy Evaluation in Local Large Language Model Agents",
             "summary": "arXiv:2609.13149v1 Announce Type: new Abstract: For local large language model agents, active context is a scarce resource: memory capacity,",
@@ -10699,43 +10663,43 @@ window.AI_GENERATED_DATA = {
             "reason": ""
           },
           {
+            "title": "What Breaks Under Pruning in Smart Homes, and When? Evaluating LLM Degradation Across Architectures and Task Complexity",
+            "summary": "Pruning can reduce the deployment cost of large language models (LLMs), but its impact on context-grounded tool calling remains poorly under",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.17515v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-15",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Large Language Models Develop Belief State Geometry In-Context",
+            "summary": "Large language models (LLMs) trained on next-token prediction exhibit remarkable in-context learning (ICL) abilities, yet the representation",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.17376v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-15",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Coupled Calibration and Learning: Mitigating Teacher Bias in LLM Distillation without Target-Domain Reward Feedback",
+            "summary": "Large language model (LLM) distillation aims to transfer the capabilities of a powerful teacher to a smaller student. Direct imitation, howe",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.17474v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-15",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
             "title": "The Role of Implicit and Explicit Demographic Signals in Large Language Model-based Student Assessment",
             "summary": "Large Language Models are now common in student assessment, but we know little about how student demographics affect their use. Sometimes, c",
             "source": "arXiv",
             "url": "http://arxiv.org/abs/2609.16993v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-15",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Sparse MLLM Anchors, Dense Adaptation: Breaking the Self-Referential Loop in Wild Test-Time Adaptation",
-            "summary": "Wild test-time adaptation (WTTA) updates a source model online under small test batches, concurrent distribution shifts, and time-varying cl",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.17040v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-15",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Enhancing Procedural Writing Through Personalized Example Retrieval: A Case Study on Cooking Recipes",
-            "summary": "Writing high-quality procedural texts is a challenging task for many learners. While example-based learning has shown promise as a feedback ",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.17118v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-15",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "An Empirical Study of Counterfactual Self-Explanations in LLMs",
-            "summary": "Large language models can easily generate explanations for their own outputs, but such self-explanations are not necessarily faithful to the",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.17119v1",
             "score": 70,
             "sourceCount": 1,
             "date": "2026-09-15",
@@ -10798,6 +10762,39 @@ window.AI_GENERATED_DATA = {
         "category": "ai-research",
         "label": "论文研究",
         "items": [
+          {
+            "title": "When Should LLMs Abstain? Chain-of-Self-Questioning for Selective Risk Control",
+            "summary": "Large language models can produce fluent answers when their factual support is weak. This paper introduces Chain-of-Self-Questioning (CoSQ),",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.17516v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-15",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Enhancing Accessibility of Medical Texts through Large Language Model-Driven Plain Language Adaptation",
+            "summary": "This paper addresses the challenge of making complex healthcare information more accessible through automated Plain Language Adaptation (PLA",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.17398v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-15",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Zero-shot narrative detection in social messaging",
+            "summary": "This study investigates the zero-shot ability of large language models (LLMs) to identify and classify hidden narratives in social messages.",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.17310v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-15",
+            "publishedAt": "",
+            "reason": ""
+          },
           {
             "title": "Clinical Reasoning Under a Partially Observed Objective in Cone Beam CT Report Generation",
             "summary": "arXiv:2609.13238v1 Announce Type: new Abstract: Maxillofacial report generation from cone beam computed tomography is scored here by a compo",
@@ -21776,6 +21773,18 @@ window.AI_GENERATED_DATA = {
     ]
   },
   "benchmarkDatasets": [
+    {
+      "name": "EVA-Bench",
+      "area": "语音 / 音频",
+      "note": "Meanwhile, Gemini 3.8 Live ranked second on the alternative Speech Agent Arena benchmark and topped ServiceNow Inc.'s EVA-Bench rankings with its impressive performance metrics.\n\nG",
+      "source": "https://www.newsbytesapp.com/news/science/google-gemini-3-8-live-model-can-think-talk-in-real-time/story",
+      "sourceName": "NewsBytes",
+      "date": "2026-09-16",
+      "originTitle": "Google's new voice models can talk and reason in real-time",
+      "evaluates": [],
+      "useCases": [],
+      "limitations": []
+    },
     {
       "name": "BudgetBench",
       "area": "Agent / 工具调用",
