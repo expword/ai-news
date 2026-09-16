@@ -1,7 +1,62 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-17",
-  "generatedAt": "2026-09-16T17:04:08.684126Z",
+  "generatedAt": "2026-09-16T19:23:51.007662Z",
   "news": [
+    {
+      "title": "Improving HCLS AI reasoning with open-source agent skills",
+      "summary": "AI agents on foundation models often misapply healthcare and life sciences decision frameworks, citing the right guideline but applying it incorrectly. This post shares 38 open-sou",
+      "category": "ai-agents",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-17",
+      "publishedAt": "2026-09-17T03:00",
+      "collectedAt": "2026-09-17T03:23",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/improving-hcls-ai-reasoning-with-open-source-agent-skills/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Fault tolerant distributed training on Amazon EKS using NVRx",
+      "summary": "Integrate NVIDIA Resiliency Extension (NVRx) into PyTorch FSDP training on Amazon EKS to overlap checkpoint I/O with training and recover from GPU faults in seconds. This post cove",
+      "category": "ai-benchmark",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-17",
+      "publishedAt": "2026-09-17T02:59",
+      "collectedAt": "2026-09-17T03:23",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/fault-tolerant-distributed-training-on-amazon-eks-using-nvrx/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Helping older adults use AI in everyday life",
       "summary": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
@@ -14,6 +69,33 @@ window.AI_GENERATED_DATA = {
       "sourceDate": "",
       "tags": [],
       "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "How to connect AI usage to business value",
+      "summary": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes.",
+      "category": "ai-coding",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-09-16",
+      "publishedAt": "2026-09-16T20:00",
+      "collectedAt": "2026-09-17T03:23",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -6110,6 +6192,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "Improving HCLS AI reasoning with open-source agent skills",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "AI agents on foundation models often misapply healthcare and life sciences decision frameworks, citing the right guideline but applying it incorrectly. This pos",
+        "description": "AI agents on foundation models often misapply healthcare and life sciences decision frameworks, citing the right guideline but applying it incorrectly. This post shares 38 open-sou",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/improving-hcls-ai-reasoning-with-open-source-agent-skills/"
+      },
+      {
         "name": "Optimizing agent system prompts with Amazon Bedrock AgentCor",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -6537,17 +6630,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Blockonomi",
         "url": "https://blockonomi.com/meta-meta-stock-dips-1-as-executives-dump-shares-and-muse-agent-draws-skepticism/"
-      },
-      {
-        "name": "小红书 AllSpark 开源 Search Agent 模型 Iris，35B 与 397B 版本同量级成绩领先",
-        "provider": "公众号：小红书技术（dots.llm）",
-        "type": "AI 项目/工具",
-        "bestFor": "小红书 AllSpark 团队发布并开源 Search Agent 模型 Iris，权重和评测代码已公开，数据与训练配方将陆续公布。",
-        "description": "小红书 AllSpark 团队发布并开源 Search Agent 模型 Iris，权重和评测代码已公开，数据与训练配方将陆续公布。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "公众号：小红书技术（dots.llm）",
-        "url": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496383&idx=1&sn=2db8607f797615a3647d9fec7e54f448"
       }
     ],
     "ai-models": [
@@ -10299,13 +10381,41 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-17",
-    "generatedAt": "2026-09-16T17:04:08.652089Z",
-    "total": 13,
+    "generatedAt": "2026-09-16T19:23:50.971662Z",
+    "total": 16,
     "sections": [
+      {
+        "category": "ai-coding",
+        "label": "AI 编程",
+        "items": [
+          {
+            "title": "How to connect AI usage to business value",
+            "summary": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to busine",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-16",
+            "publishedAt": "2026-09-16T20:00",
+            "reason": ""
+          }
+        ]
+      },
       {
         "category": "ai-agents",
         "label": "Agent / MCP",
         "items": [
+          {
+            "title": "Improving HCLS AI reasoning with open-source agent skills",
+            "summary": "AI agents on foundation models often misapply healthcare and life sciences decision frameworks, citing the right guideline but applying it i",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/improving-hcls-ai-reasoning-with-open-source-agent-skills/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-17",
+            "publishedAt": "2026-09-17T03:00",
+            "reason": ""
+          },
           {
             "title": "Your Agent Aced the Task. Will It Do It Again?",
             "summary": "",
@@ -10439,6 +10549,17 @@ window.AI_GENERATED_DATA = {
         "category": "ai-benchmark",
         "label": "评测榜单",
         "items": [
+          {
+            "title": "Fault tolerant distributed training on Amazon EKS using NVRx",
+            "summary": "Integrate NVIDIA Resiliency Extension (NVRx) into PyTorch FSDP training on Amazon EKS to overlap checkpoint I/O with training and recover fr",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/fault-tolerant-distributed-training-on-amazon-eks-using-nvrx/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-17",
+            "publishedAt": "2026-09-17T02:59",
+            "reason": ""
+          },
           {
             "title": "Optimizing agent system prompts with Amazon Bedrock AgentCore",
             "summary": "AgentCore optimization turns production traces into proposed configuration changes, then validates them before promotion. This technical com",
