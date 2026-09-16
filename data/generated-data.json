@@ -1,7 +1,116 @@
 {
-  "lastUpdated": "2026-09-16",
-  "generatedAt": "2026-09-16T15:52:45.594657Z",
+  "lastUpdated": "2026-09-17",
+  "generatedAt": "2026-09-16T17:04:08.684126Z",
   "news": [
+    {
+      "title": "Helping older adults use AI in everyday life",
+      "summary": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
+      "category": "ai-models",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-09-17",
+      "publishedAt": "2026-09-17T00:00",
+      "collectedAt": "2026-09-17T01:04",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Optimizing agent system prompts with Amazon Bedrock AgentCore",
+      "summary": "AgentCore optimization turns production traces into proposed configuration changes, then validates them before promotion. This technical companion to the launch post explains how t",
+      "category": "ai-benchmark",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-16",
+      "publishedAt": "2026-09-16T23:47",
+      "collectedAt": "2026-09-17T01:04",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/optimizing-agent-system-prompts-with-amazon-bedrock-agentcore/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Build a serverless PII redaction pipeline with Amazon Bedrock Data Automation",
+      "summary": "Learn how to automate end-to-end PII detection and redaction from scanned documents at scale using Amazon Bedrock Data Automation with a custom blueprint, AWS Step Functions, and A",
+      "category": "ai-models",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-16",
+      "publishedAt": "2026-09-16T23:17",
+      "collectedAt": "2026-09-17T01:04",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-a-serverless-pii-redaction-pipeline-with-amazon-bedrock-data-automation/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "How workers are unlocking new ways of working",
+      "summary": "New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activities become recurring parts of their work.",
+      "category": "ai-research",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-09-16",
+      "publishedAt": "2026-09-16T17:00",
+      "collectedAt": "2026-09-17T01:04",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/unlocking-new-ways-of-working",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Bypassing inference bottlenecks: Accelerating complex AI search with Retrieve-for-Train",
       "summary": "Algorithms & Theory",
@@ -6001,6 +6110,17 @@
     ],
     "ai-agents": [
       {
+        "name": "Optimizing agent system prompts with Amazon Bedrock AgentCor",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "AgentCore optimization turns production traces into proposed configuration changes, then validates them before promotion. This technical companion to the launch",
+        "description": "AgentCore optimization turns production traces into proposed configuration changes, then validates them before promotion. This technical companion to the launch post explains how t",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/optimizing-agent-system-prompts-with-amazon-bedrock-agentcore/"
+      },
+      {
         "name": "AI Search Engineers, the No. 1 AI Search Results Engineering",
         "provider": "FinanzNachrichten.de",
         "type": "AI 项目/工具",
@@ -6428,17 +6548,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "公众号：小红书技术（dots.llm）",
         "url": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496383&idx=1&sn=2db8607f797615a3647d9fec7e54f448"
-      },
-      {
-        "name": "VOX-POP: AI agents, machine communication and collective beh",
-        "provider": "The New Times",
-        "type": "AI 项目/工具",
-        "bestFor": "New advancements in AI are piling up day by day, and now we have researchers at some of the world's leading frontier labs quitting over concerns about where the",
-        "description": "New advancements in AI are piling up day by day, and now we have researchers at some of the world's leading frontier labs quitting over concerns about where the technology is heade",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The New Times",
-        "url": "https://www.newtimes.co.rw/article/38944/news/vox-pop-ai-agents-machine-communication-and-collective-behavior-explained"
       }
     ],
     "ai-models": [
@@ -10189,93 +10298,10 @@
     }
   ],
   "dailyReport": {
-    "date": "2026-09-16",
-    "generatedAt": "2026-09-16T15:52:45.574661Z",
-    "total": 40,
+    "date": "2026-09-17",
+    "generatedAt": "2026-09-16T17:04:08.652089Z",
+    "total": 13,
     "sections": [
-      {
-        "category": "ai-coding",
-        "label": "AI 编程",
-        "items": [
-          {
-            "title": "Where Should a Document Live: Context, Representations, or Parameters?",
-            "summary": "To answer questions outside of their pre-training data, large language models (LLMs) need access to new information, which can be presented ",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.17346v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-15",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Type-IV Code Clone Detection via Layer-Wise Non-Contrastive Representation Learning",
-            "summary": "Software clones are fragments of code that are similar or functionally equivalent to each other. They pose significant challenges for mainte",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.17338v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-15",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "BudgetBench: A Budget-Tiered Protocol and Pilot Harness for Memory Strategy Evaluation in Local Large Language Model Agents",
-            "summary": "arXiv:2609.13149v1 Announce Type: new Abstract: For local large language model agents, active context is a scarce resource: memory capacity,",
-            "source": "RSS · arXiv cs.LG",
-            "url": "https://arxiv.org/abs/2609.13149",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-15",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "FlexEE: Self-Speculative and KV-Compatible Early Exiting for Offloading-Aware LLM Inference",
-            "summary": "Large language model (LLM) inference is often constrained by both computation and memory, especially in offloading-based deployments where m",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.17008v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-15",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "ROSETTA: Efficient and Accurate Privacy-Preserving LLM Decoding via Hybrid CKKS/TFHE Evaluation",
-            "summary": "Generative large language models (LLMs) have achieved state-of-the-art performance on many real-world tasks such as code generation and ques",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.16915v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-15",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Abnormal AI: Amazon Bedrock AgentCore for agentic email security at scale",
-            "summary": "Learn how Abnormal AI deployed Amazon Bedrock AgentCore Code Interpreter as an ephemeral compute scratch pad for the agents behind its real-",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/abnormal-ai-amazon-bedrock-agentcore-for-agentic-email-security-at-scale/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-15",
-            "publishedAt": "2026-09-15T05:22",
-            "reason": ""
-          },
-          {
-            "title": "Manage end-user OAuth consent for AI agents with Amazon Bedrock AgentCore",
-            "summary": "Amazon Bedrock AgentCore Identity now offers a Consent portal, a managed web experience and session binding endpoint for AgentCore Gateway. ",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/manage-end-user-oauth-consent-for-ai-agents-with-amazon-bedrock-agentcore/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-15",
-            "publishedAt": "2026-09-15T04:35",
-            "reason": ""
-          }
-        ]
-      },
       {
         "category": "ai-agents",
         "label": "Agent / MCP",
@@ -10290,61 +10316,6 @@
             "date": "2026-09-16",
             "publishedAt": "2026-09-16T00:00",
             "reason": ""
-          },
-          {
-            "title": "End-to-End Latency-Minimizing and Load-Balanced Request Scheduling for Edge LLM Inference in Agentic AI Services",
-            "summary": "Large language model (LLM)-powered agentic AI services increasingly demand low-latency inference, motivating the deployment of LLMs across d",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.17193v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-15",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Agentic RDZ: Autonomous Zone Management with AI Agents and an FR3 Coexistence Use Case",
-            "summary": "Radio Dynamic Zones (RDZs) allow wireless experiments to operate outside conventional spectrum regulations while continuously guaranteeing p",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.17110v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-15",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Interactive Memory Learning for Long-Term Conversations",
-            "summary": "Recent advancements in large language models have significantly enhanced the capabilities of agents in modeling long-term conversations. Des",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.17088v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-15",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "ZGCM-1: A Fully Open and Extremely Efficient Foundation Model for Math and Agentic Search",
-            "summary": "arXiv:2609.13356v1 Announce Type: new Abstract: In this work, we present ZGCM-1, a fully open 7B dense foundation model trained from scratch",
-            "source": "RSS · arXiv cs.AI",
-            "url": "https://arxiv.org/abs/2609.13356",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-15",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "DevFest is back",
-            "summary": "DevFest 2026 is back and here’s how you can connect with one of the more than 800 global events to build, secure, and scale in the agentic A",
-            "source": "RSS · Google AI Blog",
-            "url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-15",
-            "publishedAt": "2026-09-15T00:00",
-            "reason": ""
           }
         ]
       },
@@ -10352,6 +10323,28 @@
         "category": "ai-models",
         "label": "模型发布",
         "items": [
+          {
+            "title": "Helping older adults use AI in everyday life",
+            "summary": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safel",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-17",
+            "publishedAt": "2026-09-17T00:00",
+            "reason": ""
+          },
+          {
+            "title": "Build a serverless PII redaction pipeline with Amazon Bedrock Data Automation",
+            "summary": "Learn how to automate end-to-end PII detection and redaction from scanned documents at scale using Amazon Bedrock Data Automation with a cus",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/build-a-serverless-pii-redaction-pipeline-with-amazon-bedrock-data-automation/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-16",
+            "publishedAt": "2026-09-16T23:17",
+            "reason": ""
+          },
           {
             "title": "Bypassing inference bottlenecks: Accelerating complex AI search with Retrieve-for-Train",
             "summary": "Algorithms & Theory",
@@ -10439,50 +10432,6 @@
             "date": "2026-09-16",
             "publishedAt": "2026-09-16T00:00",
             "reason": ""
-          },
-          {
-            "title": "What Breaks Under Pruning in Smart Homes, and When? Evaluating LLM Degradation Across Architectures and Task Complexity",
-            "summary": "Pruning can reduce the deployment cost of large language models (LLMs), but its impact on context-grounded tool calling remains poorly under",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.17515v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-15",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Large Language Models Develop Belief State Geometry In-Context",
-            "summary": "Large language models (LLMs) trained on next-token prediction exhibit remarkable in-context learning (ICL) abilities, yet the representation",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.17376v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-15",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Coupled Calibration and Learning: Mitigating Teacher Bias in LLM Distillation without Target-Domain Reward Feedback",
-            "summary": "Large language model (LLM) distillation aims to transfer the capabilities of a powerful teacher to a smaller student. Direct imitation, howe",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.17474v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-15",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "The Role of Implicit and Explicit Demographic Signals in Large Language Model-based Student Assessment",
-            "summary": "Large Language Models are now common in student assessment, but we know little about how student demographics affect their use. Sometimes, c",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.16993v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-15",
-            "publishedAt": "",
-            "reason": ""
           }
         ]
       },
@@ -10491,58 +10440,14 @@
         "label": "评测榜单",
         "items": [
           {
-            "title": "FirmCORe: A Benchmark for Structured Reasoning about Inter-Firm Collaboration Opportunities",
-            "summary": "Comprehensive structured data on inter-firm relationships is often scarce or inaccessible because many relationships are privately negotiate",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.17128v1",
+            "title": "Optimizing agent system prompts with Amazon Bedrock AgentCore",
+            "summary": "AgentCore optimization turns production traces into proposed configuration changes, then validates them before promotion. This technical com",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/optimizing-agent-system-prompts-with-amazon-bedrock-agentcore/",
             "score": 70,
             "sourceCount": 1,
-            "date": "2026-09-15",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "PhysMent: An Interactive Approach For LLM Reasoning In Physics Problems",
-            "summary": "arXiv:2609.13152v1 Announce Type: new Abstract: Large language models (LLMs) perform strongly on static science benchmarks, yet their abilit",
-            "source": "RSS · arXiv cs.CL",
-            "url": "https://arxiv.org/abs/2609.13152",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-15",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "TestHallVQA: Exploring LVLMs' Document-Level Reasoning under Redundant Contexts from Scientific Exams",
-            "summary": "arXiv:2609.13158v1 Announce Type: new Abstract: Large Vision--Language Models (LVLMs) are increasingly expected to perform visual question a",
-            "source": "RSS · arXiv cs.CL",
-            "url": "https://arxiv.org/abs/2609.13158",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-15",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "A derivative-fidelity failure mode in physics-informed neural networks: strengthened benchmark evidence from function-value training",
-            "summary": "arXiv:2609.13171v1 Announce Type: new Abstract: Physics-informed neural networks (PINNs) use automatic differentiation to impose differentia",
-            "source": "RSS · arXiv cs.LG",
-            "url": "https://arxiv.org/abs/2609.13171",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-15",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "LLMs or Naive Bayes? Old Gems or New Ways",
-            "summary": "arXiv:2609.13185v1 Announce Type: new Abstract: Large language models (LLMs) prompt a recurring question in research computing: should class",
-            "source": "RSS · arXiv cs.LG",
-            "url": "https://arxiv.org/abs/2609.13185",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-15",
-            "publishedAt": "",
+            "date": "2026-09-16",
+            "publishedAt": "2026-09-16T23:47",
             "reason": ""
           }
         ]
@@ -10552,113 +10457,14 @@
         "label": "论文研究",
         "items": [
           {
-            "title": "When Should LLMs Abstain? Chain-of-Self-Questioning for Selective Risk Control",
-            "summary": "Large language models can produce fluent answers when their factual support is weak. This paper introduces Chain-of-Self-Questioning (CoSQ),",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.17516v1",
+            "title": "How workers are unlocking new ways of working",
+            "summary": "New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activities become recurring parts of their work",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/unlocking-new-ways-of-working",
             "score": 70,
             "sourceCount": 1,
-            "date": "2026-09-15",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Enhancing Accessibility of Medical Texts through Large Language Model-Driven Plain Language Adaptation",
-            "summary": "This paper addresses the challenge of making complex healthcare information more accessible through automated Plain Language Adaptation (PLA",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.17398v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-15",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Zero-shot narrative detection in social messaging",
-            "summary": "This study investigates the zero-shot ability of large language models (LLMs) to identify and classify hidden narratives in social messages.",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.17310v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-15",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Clinical Reasoning Under a Partially Observed Objective in Cone Beam CT Report Generation",
-            "summary": "arXiv:2609.13238v1 Announce Type: new Abstract: Maxillofacial report generation from cone beam computed tomography is scored here by a compo",
-            "source": "RSS · arXiv cs.CL",
-            "url": "https://arxiv.org/abs/2609.13238",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-15",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Token Merging for Multilingual Speech Recognition: A Systematic Study Across Model Scale and Fine-Tuning",
-            "summary": "arXiv:2609.13151v1 Announce Type: new Abstract: Leading multilingual speech recognition models like Whisper transcribe diverse, low-resource",
-            "source": "RSS · arXiv cs.CL",
-            "url": "https://arxiv.org/abs/2609.13151",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-15",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "CVSS-X: A Multilingual Speech-to-Speech Translation Corpus for 28 Languages",
-            "summary": "arXiv:2609.13413v1 Announce Type: new Abstract: We introduce CVSS-X, a large-scale synthetic speech-to-speech translation corpus that extend",
-            "source": "RSS · arXiv cs.CL",
-            "url": "https://arxiv.org/abs/2609.13413",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-15",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Causal Analysis and Mitigation of Spurious Onsets in Full-Duplex Speech LLMs",
-            "summary": "arXiv:2609.13445v1 Announce Type: new Abstract: Speech-to-speech LLMs like Moshi, and its derivative PersonaPlex, can listen and speak concu",
-            "source": "RSS · arXiv cs.CL",
-            "url": "https://arxiv.org/abs/2609.13445",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-15",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "RFCLLM: Evaluating LLMs' Reasoning Ability of Network Protocol State Machines",
-            "summary": "arXiv:2609.13389v1 Announce Type: new Abstract: Mapping textual specifications into formal representations is essential for ensuring the cor",
-            "source": "RSS · arXiv cs.CL",
-            "url": "https://arxiv.org/abs/2609.13389",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-15",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "SKIP: a Self-knowledge-guided Step-wise Preference Learning Framework for Concise Reasoning",
-            "summary": "While Chain-of-Thought (CoT) reasoning has been proven to be effective, it often leads to overthinking, resulting in computational overhead,",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.17019v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-15",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Watch astronaut Christina Koch and Google’s James Manyika discuss space, technology, and discovery.",
-            "summary": "Christina Koch sits down with James Manyika, Google’s Senior Vice President of Research, Labs, Technology & Society.",
-            "source": "RSS · Google AI Blog",
-            "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-christina-koch/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-15",
-            "publishedAt": "2026-09-15T03:00",
+            "date": "2026-09-16",
+            "publishedAt": "2026-09-16T17:00",
             "reason": ""
           }
         ]
@@ -10666,6 +10472,124 @@
     ]
   },
   "dailyReports": [
+    {
+      "date": "2026-09-16",
+      "generatedAt": "2026-09-16T16:00:51.568711Z",
+      "total": 9,
+      "sections": [
+        {
+          "category": "ai-agents",
+          "label": "Agent / MCP",
+          "items": [
+            {
+              "title": "Your Agent Aced the Task. Will It Do It Again?",
+              "summary": "",
+              "source": "RSS · Hugging Face Blog",
+              "url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-16",
+              "publishedAt": "2026-09-16T00:00",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-models",
+          "label": "模型发布",
+          "items": [
+            {
+              "title": "Bypassing inference bottlenecks: Accelerating complex AI search with Retrieve-for-Train",
+              "summary": "Algorithms & Theory",
+              "source": "RSS · Google Research",
+              "url": "https://research.google/blog/bypassing-inference-bottlenecks-accelerating-complex-ai-search-with-retrieve-for-train/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-16",
+              "publishedAt": "2026-09-16T04:00",
+              "reason": ""
+            },
+            {
+              "title": "Google DeepMind 发布 Gemini 3.8 Live 和 3.8 Live Extended Thinking",
+              "summary": "Google DeepMind 发布 Gemini 3.8 Live 与 Gemini 3.8 Live Extended Thinking 两个近实时语音对话模型，主打语音智能体和复杂任务执行。",
+              "source": "Google DeepMind：Blog（RSS）",
+              "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking",
+              "score": 70,
+              "sourceCount": 2,
+              "date": "2026-09-16",
+              "publishedAt": "2026-09-16T01:05",
+              "reason": ""
+            },
+            {
+              "title": "Optimizing cost and latency with Amazon Bedrock prompt caching",
+              "summary": "Prompt caching in Amazon Bedrock can cut input token costs by up to 90% when you repeatedly send the same context to foundation models. This",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/optimizing-cost-and-latency-with-amazon-bedrock-prompt-caching/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-16",
+              "publishedAt": "2026-09-16T00:18",
+              "reason": ""
+            },
+            {
+              "title": "Build an AI-powered product tagging system with Amazon SageMaker serverless model customization",
+              "summary": "Manually tagging thousands of catalog products is slow and inconsistent. This walkthrough shows how to customize Qwen3-8B with supervised fi",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/build-an-ai-powered-product-tagging-system-with-amazon-sagemaker-serverless-model-customization/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-16",
+              "publishedAt": "2026-09-16T00:11",
+              "reason": ""
+            },
+            {
+              "title": "AI for Societal Impact",
+              "summary": "Explore this collection to see how experts and local leaders are using AI breakthroughs to ensure everyone can share the opportunity of AI.",
+              "source": "RSS · Google AI Blog",
+              "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-16",
+              "publishedAt": "2026-09-16T00:00",
+              "reason": ""
+            },
+            {
+              "title": "Announcing instance preference lists for Amazon SageMaker AI training jobs",
+              "summary": "Amazon SageMaker AI now offers instance preference lists for training and processing jobs. Specify an ordered list of up to five instance ty",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/announcing-instance-preference-lists-for-amazon-sagemaker-ai-training-jobs/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-16",
+              "publishedAt": "2026-09-16T00:01",
+              "reason": ""
+            },
+            {
+              "title": "AI for everyone in every language",
+              "summary": "We’re moving beyond traditional text translation to build models that understand the world’s rich, living languages exactly as they are expr",
+              "source": "RSS · Google AI Blog",
+              "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-16",
+              "publishedAt": "2026-09-16T00:00",
+              "reason": ""
+            },
+            {
+              "title": "Building AI to accelerate science and improve lives",
+              "summary": "The true measure of AI is who it helps. Here’s how it’s impacting lives today. We're focused on key areas where advanced technology can help",
+              "source": "RSS · Google AI Blog",
+              "url": "https://blog.google/innovation-and-ai/technology/ai/ai-applications-science-people/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-16",
+              "publishedAt": "2026-09-16T00:00",
+              "reason": ""
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-09-15",
       "generatedAt": "2026-09-15T16:00:46.007605Z",
@@ -20548,34 +20472,10 @@
           ]
         }
       ]
-    },
-    {
-      "date": "2026-07-13",
-      "generatedAt": "2026-07-13T16:23:56.412664Z",
-      "total": 1,
-      "sections": [
-        {
-          "category": "ai-agents",
-          "label": "Agent / MCP",
-          "items": [
-            {
-              "title": "腾讯混元Hy3模型发布：2950亿参数MoE架构，微信10亿用户已集成",
-              "summary": "腾讯混元团队推出Hy3大模型，采用2950亿总参数和210亿激活参数的稀疏专家模型（MoE）架构，推理效率相当于传统密集模型的2-5倍。Hy3定位为Agent向大语言模型，经过50余个真实业务场景迭代，内部任务成功率从72%提升至90%，响应时间缩短34%，幻觉和常识错误显著减少",
-              "source": "X：阿易 AI Notes (@AYi_AInotes)",
-              "url": "https://x.com/AYi_AInotes/status/2076341952023310580",
-              "score": 68,
-              "sourceCount": 1,
-              "date": "2026-07-13",
-              "publishedAt": "2026-07-13T00:24",
-              "reason": "Hy3通过大规模MoE架构实现高效推理和多场景落地，结合微信10亿用户生态，展示国产大模型在商业化和技术性能上的显著进步，值得关注。"
-            }
-          ]
-        }
-      ]
     }
   ],
   "llmLeaderboard": {
-    "updated": "2026-09-16",
+    "updated": "2026-09-17",
     "source": "ReLE 中文大模型能力评测（综合能力）",
     "sourceUrl": "https://github.com/jeinlee1991/chinese-llm-benchmark",
     "items": [
