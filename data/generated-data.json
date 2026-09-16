@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-16",
-  "generatedAt": "2026-09-15T21:08:34.959314Z",
+  "generatedAt": "2026-09-16T00:40:53.008642Z",
   "news": [
     {
       "title": "Bypassing inference bottlenecks: Accelerating complex AI search with Retrieve-for-Train",
@@ -2480,258 +2480,6 @@
       "sourceDate": "",
       "tags": [],
       "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Get ready for the game with new football features in Search",
-      "summary": "Track live game feeds, explore detailed stats, and get custom fantasy recommendations directly in Search this season.",
-      "category": "ai-models",
-      "source": "RSS · Google AI Blog",
-      "date": "2026-09-10",
-      "publishedAt": "2026-09-10T00:00",
-      "collectedAt": "2026-09-10T00:56",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://blog.google/products-and-platforms/products/search/football-features-google-search/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Recreating a 70-year love story frame by frame",
-      "summary": "Discover how filmmakers and Google DeepMind used AI to recreate a couple's unrecorded past in the short film \"Love, Rendered.\"",
-      "category": "ai-models",
-      "source": "RSS · Google AI Blog",
-      "date": "2026-09-10",
-      "publishedAt": "2026-09-10T00:00",
-      "collectedAt": "2026-09-10T00:56",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://blog.google/innovation-and-ai/technology/ai/love-rendered-film/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "From Symbolic Perception to Logical Deduction: A Framework for Guiding Language Models in Geometric Reasoning",
-      "summary": "Plane geometry remains a significant challenge in AI, requiring the integration of visual perception and mathematical reasoning. While Large Multimodal Models (LMMs) naturally hand",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-09",
-      "publishedAt": "",
-      "collectedAt": "2026-09-11T03:30",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-09",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.10335v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Ensembling LLMs for AI-Augmented Cybersecurity Software Requirements Generation",
-      "summary": "Translating high-level controls from security standards into concrete, system-specific requirements is central to cybersecurity requirements engineering. Large language models (LLM",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-09",
-      "publishedAt": "",
-      "collectedAt": "2026-09-11T03:30",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-09",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.10316v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Total Simulated Survey Error: Designing and Diagnosing Survey Responses from Large Language Models",
-      "summary": "Large Language models (LLMs), having been trained on vast amounts of human-generated data, may encode the attitudes and behaviors of these humans. As such, LLMs show promise in mim",
-      "category": "ai-coding",
-      "source": "arXiv",
-      "date": "2026-09-09",
-      "publishedAt": "",
-      "collectedAt": "2026-09-11T03:30",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-09",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.10280v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 2,
-      "relatedSources": [
-        {
-          "source": "Semantic Scholar",
-          "url": "https://www.semanticscholar.org/paper/28c6ac721f54544162865f41c5692e70d61bccab",
-          "title": "A survey on large language model based autonomous agents"
-        }
-      ]
-    },
-    {
-      "title": "Why Is Video Still So Expensive? A Survey of Inference-Efficiency Mechanisms in Video and Audiovisual LLMs",
-      "summary": "Video understanding has rapidly evolved toward video large language models (VideoLLMs): systems that couple video representations with pretrained large language models and conditio",
-      "category": "ai-image-video",
-      "source": "arXiv",
-      "date": "2026-09-09",
-      "publishedAt": "",
-      "collectedAt": "2026-09-11T03:30",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-09",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.10355v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Beyond One-Size-Fits-All: Sample-Adaptive Strategy Routing for Vision Token Pruning in MLLMs",
-      "summary": "Multimodal large language models (MLLMs) process hundreds or thousands of visual tokens per image, incurring prohibitive inference costs. While existing vision token pruning method",
-      "category": "ai-benchmark",
-      "source": "arXiv",
-      "date": "2026-09-09",
-      "publishedAt": "",
-      "collectedAt": "2026-09-11T03:30",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-09",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.10346v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Retrofitting Code Using LLMs to Support Exceptional Behavior",
-      "summary": "Exception Related Code (ERC), which includes throw statements, conditions (if statements) that guard those throw statements, and try/catch blocks, is an essential component of soft",
-      "category": "ai-coding",
-      "source": "arXiv",
-      "date": "2026-09-09",
-      "publishedAt": "",
-      "collectedAt": "2026-09-11T03:30",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-09",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.10397v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Maverick: Private and Verifiable LLM Inference Made Practical via Matrix-Vector Multiplication Delegation",
-      "summary": "Open-source large language models (LLMs) are increasingly competitive with closed-source models while offering transparency and the ability to run inference without exposing user i",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-09",
-      "publishedAt": "",
-      "collectedAt": "2026-09-11T03:30",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-09",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.10264v1",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -6708,6 +6456,28 @@
     ],
     "ai-models": [
       {
+        "name": "Ro Khanna calls to abolish ICE as Jayapal warns of AAPI impa",
+        "provider": "The American Bazaar",
+        "type": "AI 项目/工具",
+        "bestFor": "Rep. Ro Khanna called for the abolition of Immigration and Customs Enforcement and the creation of a new immigration agency, while Rep. Pramila Jayapal accused ",
+        "description": "Rep. Ro Khanna called for the abolition of Immigration and Customs Enforcement and the creation of a new immigration agency, while Rep. Pramila Jayapal accused the Trump administra",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The American Bazaar",
+        "url": "https://americanbazaaronline.com/2026/09/15/ro-khanna-abolish-ice-pramila-jayapal-aapi-immigration-488221/"
+      },
+      {
+        "name": "Did Caitlin Clark and Angel Reese Enjoy European Lunch Toget",
+        "provider": "Sportskeeda",
+        "type": "AI 项目/工具",
+        "bestFor": "Indiana Fever star Caitlin Clark and Atlanta Dream star Angel Reese had just wrapped up their first FIBA World Cup run on Sunday. The WNBA stars became temporar",
+        "description": "Indiana Fever star Caitlin Clark and Atlanta Dream star Angel Reese had just wrapped up their first FIBA World Cup run on Sunday. The WNBA stars became temporary teammates and help",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Sportskeeda",
+        "url": "https://www.sportskeeda.com/us/wnba/news-did-caitlin-clark-angel-reese-enjoy-european-lunch-together-after-fiba-world-cup-win-viral-claim-debunked"
+      },
+      {
         "name": "Building AI to accelerate science and improve lives",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -7124,28 +6894,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Android Police",
         "url": "https://www.androidpolice.com/gemini-scan-organize-physical-games/"
-      },
-      {
-        "name": "5 Reasons Why Users Ditch Claude - BGR",
-        "provider": "BGR",
-        "type": "AI 项目/工具",
-        "bestFor": "Anthropic's Claude is one of the main AI tools customers use for everyday tasks. While compared to OpenAI's ChatGPT and Google Gemini, Claude has a great advant",
-        "description": "Anthropic's Claude is one of the main AI tools customers use for everyday tasks. While compared to OpenAI's ChatGPT and Google Gemini, Claude has a great advantage in text generati",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "BGR",
-        "url": "https://www.bgr.com/2252333/reasons-users-ditching-claude/"
-      },
-      {
-        "name": "Anthropic secures $517B in AI compute deals with Amazon, Goo",
-        "provider": "Crypto Briefing",
-        "type": "AI 项目/工具",
-        "bestFor": "Logo via Wikimedia Commons; treatment-A cover, license to verify on approval\n\nAnthropic, known for its Claude AI, has secured up to $517 billion in compute deal",
-        "description": "Logo via Wikimedia Commons; treatment-A cover, license to verify on approval\n\nAnthropic, known for its Claude AI, has secured up to $517 billion in compute deals for AI infrastruct",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Crypto Briefing",
-        "url": "https://cryptobriefing.com/anthropic-secures-517b-in-ai-compute-deals-with-amazon-google-over-10-years/"
       }
     ],
     "ai-business": [
@@ -8155,6 +7903,17 @@
     ],
     "ai-image-video": [
       {
+        "name": "Is image of Trump kissing Natalie Harp on golf course real?",
+        "provider": "Snopes",
+        "type": "AI 项目/工具",
+        "bestFor": "Snopes will update this report if additional information surfaces.\n\nIn summer 2026, many people scrutinized White House aide Natalie Harp following news reports",
+        "description": "Snopes will update this report if additional information surfaces.\n\nIn summer 2026, many people scrutinized White House aide Natalie Harp following news reports of what appeared to",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Snopes",
+        "url": "https://www.snopes.com//news/2026/09/15/trump-kissing-natalie-harp-photo/"
+      },
+      {
         "name": "How China is preparing for the risk of AI escaping human con",
         "provider": "The Tribune",
         "type": "AI 项目/工具",
@@ -8610,23 +8369,6 @@
         "watch": "API 调用频率可能受到限制，用户需关注配额管理，以避免超出调用限制。",
         "sourceName": "Cloudflare Blog",
         "url": "https://blog.cloudflare.com/billable-usage-api"
-      },
-      {
-        "name": "苹果推出高效内存音频合成架构，提升 Siri 语音质量",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "这项技术的推出将对语音助手的用户体验产生深远影响，尤其是在智能设备上。开发者可以利用这一架构为用户提供更自然的语音交互，提升产品的竞争力。此外，随着语音识别和合成技术的不断进步，用户在使用智能设备时将享受到更流畅的交互体验，可能会改变他们对语音助手的使用习惯。",
-        "description": "我最近看到苹果在音频合成领域的最新研究，推出了一种高效的内存音频合成架构，支持 Siri 实时生成丰富的可配置语音。这项技术利用了苹果最强大的基础模型 AFM 3 Core Advanced，能够在设备上实现高保真音频合成，且内存占用极低，极大提升了用户体验。",
-        "useCases": [
-          "开发语音助手应用，利用新架构实现更自然的语音交互。",
-          "在移动设备上集成高效音频合成技术，提升用户体验。",
-          "为智能家居设备设计自定义语音反馈，增强用户互动。",
-          "优化现有的语音合成系统，减少内存占用，提高响应速度。",
-          "研究音频合成的最新趋势，推动相关技术的创新。"
-        ],
-        "watch": "可能面临 API 费用和配额限制，影响大规模应用的可行性。",
-        "sourceName": "RSS · Apple ML Research",
-        "url": "https://machinelearning.apple.com/research/audio-synthesis-diffusion-transformers"
       }
     ],
     "ai-research": [
@@ -10477,7 +10219,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-16",
-    "generatedAt": "2026-09-15T21:08:34.936345Z",
+    "generatedAt": "2026-09-16T00:40:52.982926Z",
     "total": 15,
     "sections": [
       {
