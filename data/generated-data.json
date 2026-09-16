@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-16",
-  "generatedAt": "2026-09-16T08:20:05.780019Z",
+  "generatedAt": "2026-09-16T10:50:41.199950Z",
   "news": [
     {
       "title": "Bypassing inference bottlenecks: Accelerating complex AI search with Retrieve-for-Train",
@@ -251,6 +251,33 @@
       "moduleTargets": [
         "news",
         "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "FirmCORe: A Benchmark for Structured Reasoning about Inter-Firm Collaboration Opportunities",
+      "summary": "Comprehensive structured data on inter-firm relationships is often scarce or inaccessible because many relationships are privately negotiated, selectively disclosed, and fragmented",
+      "category": "ai-benchmark",
+      "source": "arXiv",
+      "date": "2026-09-15",
+      "publishedAt": "",
+      "collectedAt": "2026-09-16T17:36",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-15",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.17128v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
       ],
       "sourceCount": 1
     },
@@ -2452,33 +2479,6 @@
       "moduleTargets": [
         "news",
         "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
-      "summary": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
-      "category": "ai-coding",
-      "source": "RSS · OpenAI Blog",
-      "date": "2026-09-11",
-      "publishedAt": "2026-09-11T00:00",
-      "collectedAt": "2026-09-11T01:00",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
       ],
       "sourceCount": 1
     }
@@ -6443,6 +6443,17 @@
     ],
     "ai-models": [
       {
+        "name": "As the world debates the risks of AI, China closes the techn",
+        "provider": "Kyodo News+",
+        "type": "AI 项目/工具",
+        "bestFor": "HONG KONG - As the rapid development of artificial intelligence triggers a renewed debate about its risks, the United States and China keep racing to develop in",
+        "description": "HONG KONG - As the rapid development of artificial intelligence triggers a renewed debate about its risks, the United States and China keep racing to develop increasingly powerful ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Kyodo News+",
+        "url": "https://english.kyodonews.net/articles/-/85284"
+      },
+      {
         "name": "AI Moves Into Brazil's Everyday Shopping Journey | PYMNTS.co",
         "provider": "PYMNTS.com",
         "type": "AI 项目/工具",
@@ -6870,17 +6881,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "mint",
         "url": "https://www.livemint.com/technology/ios-27-launch-in-india-on-14-september-apple-introduces-iphone-handoff-time-supported-devices-11789368613402.html"
-      },
-      {
-        "name": "iOS 27 releases today: New features and how to update",
-        "provider": "NewsBytes",
-        "type": "AI 项目/工具",
-        "bestFor": "The update will be delivered as an over-the-air (OTA) software update on compatible iPhones.\n\nApple will start rolling out the highly anticipated iOS 27 update ",
-        "description": "The update will be delivered as an over-the-air (OTA) software update on compatible iPhones.\n\nApple will start rolling out the highly anticipated iOS 27 update for compatible iPhon",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsBytes",
-        "url": "https://www.newsbytesapp.com/news/science/ios-27-releases-today-new-features-and-how-to-update/story"
       }
     ],
     "ai-business": [
@@ -10198,8 +10198,8 @@
   ],
   "dailyReport": {
     "date": "2026-09-16",
-    "generatedAt": "2026-09-16T08:20:05.758020Z",
-    "total": 39,
+    "generatedAt": "2026-09-16T10:50:41.179130Z",
+    "total": 40,
     "sections": [
       {
         "category": "ai-coding",
@@ -10498,6 +10498,17 @@
         "category": "ai-benchmark",
         "label": "评测榜单",
         "items": [
+          {
+            "title": "FirmCORe: A Benchmark for Structured Reasoning about Inter-Firm Collaboration Opportunities",
+            "summary": "Comprehensive structured data on inter-firm relationships is often scarce or inaccessible because many relationships are privately negotiate",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.17128v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-15",
+            "publishedAt": "",
+            "reason": ""
+          },
           {
             "title": "PhysMent: An Interactive Approach For LLM Reasoning In Physics Problems",
             "summary": "arXiv:2609.13152v1 Announce Type: new Abstract: Large language models (LLMs) perform strongly on static science benchmarks, yet their abilit",
