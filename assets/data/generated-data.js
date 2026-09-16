@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-16",
-  "generatedAt": "2026-09-16T13:19:17.980632Z",
+  "generatedAt": "2026-09-16T15:52:45.594657Z",
   "news": [
     {
       "title": "Bypassing inference bottlenecks: Accelerating complex AI search with Retrieve-for-Train",
@@ -6001,6 +6001,50 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "AI Search Engineers, the No. 1 AI Search Results Engineering",
+        "provider": "FinanzNachrichten.de",
+        "type": "AI 项目/工具",
+        "bestFor": "Illustrative client results from AI Search Engineers document extraordinary wins across legal, financial, medical, and B2B consulting categories, as the agency ",
+        "description": "Illustrative client results from AI Search Engineers document extraordinary wins across legal, financial, medical, and B2B consulting categories, as the agency prepares to launch g",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "FinanzNachrichten.de",
+        "url": "https://www.finanznachrichten.de/nachrichten-2026-09/69597964-ai-search-engineers-the-no-1-ai-search-results-engineering-agency-in-the-usa-releases-extraordinary-ai-success-stories-from-professional-service-bu-200.htm"
+      },
+      {
+        "name": "AI Search Client Results | AI Agent Launch Oct 2026",
+        "provider": "accessnewswire.com",
+        "type": "AI 项目/工具",
+        "bestFor": "Illustrative client results from AI Search Engineers document extraordinary wins across legal, financial, medical, and B2B consulting categories, as the agency ",
+        "description": "Illustrative client results from AI Search Engineers document extraordinary wins across legal, financial, medical, and B2B consulting categories, as the agency prepares to launch g",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "accessnewswire.com",
+        "url": "https://www.accessnewswire.com/newsroom/en/computers-technology-and-internet/ai-search-engineers-the-no.-1-ai-search-results-engineering-agenc-1219891"
+      },
+      {
+        "name": "AI Agent Swarm Breached 395 Organizations Through PaperCut F",
+        "provider": "Startup Fortune",
+        "type": "AI 项目/工具",
+        "bestFor": "A threat actor built an AI agent swarm that went from an empty workspace to real world domain admin access in six hours, then compromised 440 PaperCut print ser",
+        "description": "A threat actor built an AI agent swarm that went from an empty workspace to real world domain admin access in six hours, then compromised 440 PaperCut print servers across 48 count",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Startup Fortune",
+        "url": "https://startupfortune.com/ai-agent-swarm-breached-395-organizations-through-papercut-flaws-in-hours/"
+      },
+      {
+        "name": "OpenAI 推出 ChatGPT Ads 新功能：Sponsored Agents 测试并集成 HubSpot 与 S",
+        "provider": "OpenAI：官网动态（RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenAI 为 ChatGPT Ads 推出多项 AI 驱动的新体验。Sponsored Agents 允许用户在点击广告后与明确标识的商业赞助智能体对话，目前在美国部分广告主中测试。",
+        "description": "OpenAI 为 ChatGPT Ads 推出多项 AI 驱动的新体验。Sponsored Agents 允许用户在点击广告后与明确标识的商业赞助智能体对话，目前在美国部分广告主中测试。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+        "url": "https://openai.com/index/reimagining-advertising-with-ai"
+      },
+      {
         "name": "Your agent spending policy should block nothing in its first",
         "provider": "Finextra Research",
         "type": "AI 项目/工具",
@@ -6395,53 +6439,64 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "The New Times",
         "url": "https://www.newtimes.co.rw/article/38944/news/vox-pop-ai-agents-machine-communication-and-collective-behavior-explained"
-      },
-      {
-        "name": "Cyprus hosts pioneering AI shopping trials as Mastercard tes",
-        "provider": "Cyprus Mail",
-        "type": "AI 项目/工具",
-        "bestFor": "AI agents set to take bigger role in shopping and payments\n\nMore than one in 10 consumers could be regularly using AI agents to shop and make purchases online o",
-        "description": "AI agents set to take bigger role in shopping and payments\n\nMore than one in 10 consumers could be regularly using AI agents to shop and make purchases online on their behalf by 20",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Cyprus Mail",
-        "url": "https://cyprus-mail.com/2026/09/14/cyprus-hosts-pioneering-ai-shopping-trials-as-mastercard-tests-agentic-tech"
-      },
-      {
-        "name": "China's MYbank Launches AI Agent to Benefit Small Enterprise",
-        "provider": "yicaiglobal.com",
-        "type": "AI 项目/工具",
-        "bestFor": "(Yicai) Sept. 14 -- MYbank has launched its first finance agent for small and micro business clients, marking the full entrance of artificial intelligence into ",
-        "description": "(Yicai) Sept. 14 -- MYbank has launched its first finance agent for small and micro business clients, marking the full entrance of artificial intelligence into the leading Chinese ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "yicaiglobal.com",
-        "url": "https://www.yicaiglobal.com/news/chinas-mybank-launches-ai-agent-for-smaller-customers"
-      },
-      {
-        "name": "Salesforce rolls out job-specific AI agents for sales, servi",
-        "provider": "Newsbytes.PH",
-        "type": "AI 项目/工具",
-        "bestFor": "Salesforce has expanded its Agentforce platform with a portfolio of preconfigured artificial intelligence agents designed to handle tasks across sales, customer",
-        "description": "Salesforce has expanded its Agentforce platform with a portfolio of preconfigured artificial intelligence agents designed to handle tasks across sales, customer service, commerce, ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Newsbytes.PH",
-        "url": "https://newsbytes.ph/2026/09/14/salesforce-rolls-out-job-specific-ai-agents-for-sales-service-hr/"
-      },
-      {
-        "name": "AI agents to start spending your money with Visa, Mastercard",
-        "provider": "Yahoo! Finance",
-        "type": "AI 项目/工具",
-        "bestFor": "An AI assistant that orders your groceries and renews subscriptions on its own might hit the market soon.\n\nVisa (V) and Mastercard (MA) want to make sure that p",
-        "description": "An AI assistant that orders your groceries and renews subscriptions on its own might hit the market soon.\n\nVisa (V) and Mastercard (MA) want to make sure that payment still runs th",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Yahoo! Finance",
-        "url": "https://finance.yahoo.com/technology/ai/articles/ai-agents-start-spending-money-010300686.html"
       }
     ],
     "ai-models": [
+      {
+        "name": "WSJ: Siri finally grows up: Apple's new assistant can see yo",
+        "provider": "MacDailyNews",
+        "type": "AI 项目/工具",
+        "bestFor": "After years of being the punchline of the AI race, Siri is getting a real second act in iOS 27. In a hands-on review, The Wall Street Journal's Nicole Nguyen sa",
+        "description": "After years of being the punchline of the AI race, Siri is getting a real second act in iOS 27. In a hands-on review, The Wall Street Journal's Nicole Nguyen says the overhauled as",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "MacDailyNews",
+        "url": "https://macdailynews.com/2026/09/16/wsj-siri-finally-grows-up-apples-new-assistant-can-see-your-screen-search-your-photos-and-get-real-work-done/"
+      },
+      {
+        "name": "How to Fix Wi-Fi Problems in Windows 11: Easy Troubleshootin",
+        "provider": "Analytics Insight",
+        "type": "AI 项目/工具",
+        "bestFor": "Check Wi-Fi, Airplane Mode, and connection status first, then use Windows 11's built-in Network and Internet troubleshooting tools for common problems.\n\nIf conn",
+        "description": "Check Wi-Fi, Airplane Mode, and connection status first, then use Windows 11's built-in Network and Internet troubleshooting tools for common problems.\n\nIf connectivity issues cont",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Analytics Insight",
+        "url": "https://www.analyticsinsight.net/how-to/how-to-fix-wi-fi-problems-in-windows-11-easy-troubleshooting-steps"
+      },
+      {
+        "name": "Karrot Adds AI Chat Tool for Advertisers to Analyze Ad Data",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Karrot has launched a Model Context Protocol service letting advertisers check and analyze ad data through ChatGPT and Claude conversations.",
+        "description": "Karrot has launched a Model Context Protocol service letting advertisers check and analyze ad data through ChatGPT and Claude conversations.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Claude AI",
+        "url": "https://en.sedaily.com/finance/2026/09/16/karrot-adds-ai-chat-tool-for-advertisers-to-analyze-ad-data"
+      },
+      {
+        "name": "UK workers spend nearly £1 billion of their own money on AI ",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "LONDON: One is six workers in Britain is paying for an AI tool to help them do their job, at a total cost of nearly £1 billion ($1.4 billion) a year of their ow",
+        "description": "LONDON: One is six workers in Britain is paying for an AI tool to help them do their job, at a total cost of nearly £1 billion ($1.4 billion) a year of their own money, according t",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Claude AI",
+        "url": "https://telecomlive.in/web/2026/09/16/uk-workers-spend-nearly-1-billion-of-their-own-money-on-ai-for-work-deloitte-finds/"
+      },
+      {
+        "name": "Amid AI debates, China catches US",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "As the rapid development of artificial intelligence triggers a renewed debate about its risks, the US and China keep racing to develop increasingly powerful mod",
+        "description": "As the rapid development of artificial intelligence triggers a renewed debate about its risks, the US and China keep racing to develop increasingly powerful models. The US has outp",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Claude AI",
+        "url": "https://www.koreaherald.com/article/10875383"
+      },
       {
         "name": "Meta One launches globally, giving Instagram, Facebook and W",
         "provider": "Hindustan Times",
@@ -6826,64 +6881,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "ZDNet",
         "url": "https://www.zdnet.com/tech/rugtake-t5-pro-android-16-tablet-review/"
-      },
-      {
-        "name": "John Battelle's Search Blog Google Has Lapped ChatGPT. Now W",
-        "provider": "John Battelle's Search Blog",
-        "type": "AI 项目/工具",
-        "bestFor": "You've noticed it, but maybe you've not thought too hard about it. Over the past few months, your Google search habits have changed. What was once mostly call a",
-        "description": "You've noticed it, but maybe you've not thought too hard about it. Over the past few months, your Google search habits have changed. What was once mostly call and response - query,",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "John Battelle's Search Blog",
-        "url": "https://battellemedia.com/archives/2026/09/google-has-lapped-chatgpt-now-what"
-      },
-      {
-        "name": "AppleInsider.com",
-        "provider": "AppleInsider",
-        "type": "AI 项目/工具",
-        "bestFor": "If you buy through our links, we may get a commission. Read our ethics policy.\n\nApple has launched the iPhone 18 Pro, and Google's Pixel 11 Pro was waiting for ",
-        "description": "If you buy through our links, we may get a commission. Read our ethics policy.\n\nApple has launched the iPhone 18 Pro, and Google's Pixel 11 Pro was waiting for it. Here's how the s",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "AppleInsider",
-        "url": "https://appleinsider.com/inside/iphone-18/vs/iphone-18-pro-vs-google-pixel-11-pro-tech-giant-flagships-compared"
-      },
-      {
-        "name": "iPhone 18 Pro vs Google Pixel 11 Pro: Tech giant flagships c",
-        "provider": "AppleInsider Forums",
-        "type": "AI 项目/工具",
-        "bestFor": "Apple has launched the iPhone 18 Pro, and Google's Pixel 11 Pro was waiting for it. Here's how the specs of the two flagships compare.\n\nThe timing is hard to ig",
-        "description": "Apple has launched the iPhone 18 Pro, and Google's Pixel 11 Pro was waiting for it. Here's how the specs of the two flagships compare.\n\nThe timing is hard to ignore. Google launche",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "AppleInsider Forums",
-        "url": "https://forums.appleinsider.com/discussion/245653/iphone-18-pro-vs-google-pixel-11-pro-tech-giant-flagships-compared"
-      },
-      {
-        "name": "Apple's reimagined Siri AI is SO good, your old iPhone will ",
-        "provider": "GB News",
-        "type": "AI 项目/工具",
-        "bestFor": "Good news: You won't need to upgrade to the latest-and-greatest iPhone for an entirely new experience this year.\n\nWhile the brand-new iPhone 18 Pro lineup lands",
-        "description": "Good news: You won't need to upgrade to the latest-and-greatest iPhone for an entirely new experience this year.\n\nWhile the brand-new iPhone 18 Pro lineup lands on store shelves th",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "GB News",
-        "url": "https://www.gbnews.com/tech/siri-ai-ios-27-update"
-      },
-      {
-        "name": "They created Siri before Apple bought it. They're still wait",
-        "provider": "CNN International",
-        "type": "AI 项目/工具",
-        "bestFor": "Dag Kittlaus and Adam Cheyer, known for creating an assistant that's now found in billions of Apple devices, have been thinking about what comes after the searc",
-        "description": "Dag Kittlaus and Adam Cheyer, known for creating an assistant that's now found in billions of Apple devices, have been thinking about what comes after the search engine for a long ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "CNN International",
-        "url": "https://edition.cnn.com/2026/09/14/tech/siri-founders-apple-ai"
       }
     ],
     "ai-business": [
+      {
+        "name": "What Is Siri AI? Here's What Apple's New Siri Can Actually D",
+        "provider": "International Business Times, Singapore Edition",
+        "type": "AI 项目/工具",
+        "bestFor": "Ask Siri what your cousin wanted to cook during a visit next week, and the old Siri would have struggled with the question. Apple's new Siri can search your Mes",
+        "description": "Ask Siri what your cousin wanted to cook during a visit next week, and the old Siri would have struggled with the question. Apple's new Siri can search your Messages for the conver",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "International Business Times, Singapore Edition",
+        "url": "https://www.ibtimes.sg/what-siri-ai-heres-what-apples-new-siri-can-actually-do-93843"
+      },
       {
         "name": "Texas Lt. Gov. Features 3 Texas Universities in AI Ad",
         "provider": "Inside Higher Ed | Higher Education News, Events and Jobs",
@@ -7312,17 +7323,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Dynamic Business",
         "url": "https://dynamicbusiness.com/article/linkly-ai-local-first-ai-document-search"
-      },
-      {
-        "name": "The world is about to meet Apple's new CEO. Here are his big",
-        "provider": "CNN",
-        "type": "AI 项目/工具",
-        "bestFor": "When Apple holds its annual iPhone event on September 9, it'll be the first time in more than a decade that Tim Cook won't introduce the company's latest produc",
-        "description": "When Apple holds its annual iPhone event on September 9, it'll be the first time in more than a decade that Tim Cook won't introduce the company's latest products.\n\nInstead, John T",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "CNN",
-        "url": "https://us.cnn.com/2026/09/06/tech/apple-ceo-john-ternus-challenges"
       }
     ],
     "ai-benchmark": [
@@ -7882,6 +7882,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-image-video": [
       {
+        "name": "Texas QB Arch Manning apologizes to ESPN reporter Holly Rowe",
+        "provider": "CBS News",
+        "type": "AI 项目/工具",
+        "bestFor": "Texas quarterback Arch Manning apologized Tuesday for publicly joking about an AI-altered video that depicted Longhorns coach Steve Sarkisian slapping ESPN side",
+        "description": "Texas quarterback Arch Manning apologized Tuesday for publicly joking about an AI-altered video that depicted Longhorns coach Steve Sarkisian slapping ESPN sideline reporter Holly ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "CBS News",
+        "url": "https://www.cbsnews.com/texas/news/what-did-texas-qb-arch-manning-say-apologizes-espn-reporter-holly-rowe-ai-video-slap/"
+      },
+      {
         "name": "Title of the Page",
         "provider": "KTBB",
         "type": "AI 项目/工具",
@@ -8329,21 +8340,6 @@ window.AI_GENERATED_DATA = {
         "watch": "SAGA 工具的有效性依赖于训练数据的质量，若数据不够全面，可能导致识别错误。",
         "sourceName": "Currents:artificial intelligence",
         "url": "https://www.darkreading.com/cyber-risk/new-tool-advances-ai-generated-video-detection"
-      },
-      {
-        "name": "AWS CEO 强调 AI 业务潜力巨大，但面临多重挑战",
-        "provider": "Currents",
-        "type": "AI 项目/工具",
-        "bestFor": "AWS 的 AI 业务扩展将对多个行业产生深远影响，包括医疗、金融和零售等领域。企业将更倾向于利用 AWS 提供的 AI 服务来提升运营效率和客户体验。此外，AWS 的持续投资可能会促使其他云服务提供商加大在 AI 领域的投入，从而加剧市场竞争。最终，用户将受益于更丰富的 AI 应用和服务，但也需警惕潜在的技术和成本风",
-        "description": "亚马逊网络服务（AWS）首席执行官马特·加尔曼表示，人工智能业务的潜力“非常庞大”，公司将持续加大资本支出以应对需求增长。然而，这一领域的快速发展也伴随着诸多挑战，包括技术兼容性、API 成本和市场竞争等。",
-        "useCases": [
-          "利用 AWS 的 AI 服务进行数据分析，提升业务决策效率。",
-          "开发基于 AWS 的机器学习模型，优化产品推荐系统。",
-          "通过 AWS 提供的 AI 工具，改善客户服务体验。"
-        ],
-        "watch": "AWS 的 API 成本可能会随着使用量的增加而显著上升，影响企业的预算。",
-        "sourceName": "Currents:artificial intelligence",
-        "url": "https://www.bloomberg.com/news/videos/2026-08-03/aws-ceo-says-ai-business-is-just-massive-video"
       }
     ],
     "ai-research": [
@@ -10194,7 +10190,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-16",
-    "generatedAt": "2026-09-16T13:19:17.957085Z",
+    "generatedAt": "2026-09-16T15:52:45.574661Z",
     "total": 40,
     "sections": [
       {
