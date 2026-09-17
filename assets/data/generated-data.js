@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-17",
-  "generatedAt": "2026-09-17T11:22:40.439346Z",
+  "generatedAt": "2026-09-17T13:52:58.499469Z",
   "news": [
     {
       "title": "Improving HCLS AI reasoning with open-source agent skills",
@@ -5551,6 +5551,28 @@ window.AI_GENERATED_DATA = {
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Elliptic Launches Its Decode Agent to Answer On-Chain Risk Q",
+        "provider": "The Star Phoenix",
+        "type": "AI 项目/工具",
+        "bestFor": "Hours of tracing, answered in seconds, with the evidence attached NEW YORK -- Elliptic, the global leader in on-chain risk, today launched Decode, an AI agent b",
+        "description": "Hours of tracing, answered in seconds, with the evidence attached NEW YORK -- Elliptic, the global leader in on-chain risk, today launched Decode, an AI agent built on Elliptic's i",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Star Phoenix",
+        "url": "https://thestarphoenix.com/press-releases/business-wire/elliptic-launches-its-decode-agent-to-answer-on-chain-risk-questions-and-shows-its-work/"
+      },
+      {
+        "name": "Elliptic Launches Its Decode Agent to Answer On-Chain Risk Q",
+        "provider": "Leader-Post",
+        "type": "AI 项目/工具",
+        "bestFor": "Hours of tracing, answered in seconds, with the evidence attached NEW YORK -- Elliptic, the global leader in on-chain risk, today launched Decode, an AI agent b",
+        "description": "Hours of tracing, answered in seconds, with the evidence attached NEW YORK -- Elliptic, the global leader in on-chain risk, today launched Decode, an AI agent built on Elliptic's i",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Leader-Post",
+        "url": "https://leaderpost.com/press-releases/business-wire/elliptic-launches-its-decode-agent-to-answer-on-chain-risk-questions-and-shows-its-work/"
+      },
+      {
         "name": "GitHub 用 Copilot 智能体将 Copilot 运行时从 TypeScript 迁移到 83 万行 Rust",
         "provider": "GitHub Blog",
         "type": "AI 项目/工具",
@@ -5967,31 +5989,75 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Dynamic Business",
         "url": "https://dynamicbusiness.com/article/agnescode-ai-tool-for-advanced-workflows"
-      },
-      {
-        "name": "Hikvision Launches Guanlan Large-Scale AI Models and Introdu",
-        "provider": "Market Screener",
-        "type": "AI 项目/工具",
-        "bestFor": "Hikvision launched the Guanlan large-scale AI models. DeepinViewX cameras run the model, cutting false alarms by 90% while detecting at twice the range of tradi",
-        "description": "Hikvision launched the Guanlan large-scale AI models. DeepinViewX cameras run the model, cutting false alarms by 90% while detecting at twice the range of traditional cameras, with",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Market Screener",
-        "url": "https://www.marketscreener.com/news/hikvision-launches-guanlan-large-scale-ai-models-and-introduces-deepinviewx-cameras-guanlan-encodin-ce785bd8d88cf320"
-      },
-      {
-        "name": "I Vibe Coded the One Mac Feature Apple Refuses to Build -- a",
-        "provider": "PC Mag Middle East",
-        "type": "AI 项目/工具",
-        "bestFor": "Windows has always had a feature that macOS sorely needs: A simple way to assign a hotkey to launch an app, open a document in its default app, or bring up a fo",
-        "description": "Windows has always had a feature that macOS sorely needs: A simple way to assign a hotkey to launch an app, open a document in its default app, or bring up a folder on the desktop.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "PC Mag Middle East",
-        "url": "https://me.pcmag.com/en/ai/37973/i-vibe-coded-the-one-mac-feature-apple-refuses-to-build-and-put-it-on-the-app-store"
       }
     ],
     "ai-agents": [
+      {
+        "name": "Beyond the AI trade: why agentic AI and blockchain could res",
+        "provider": "Funds Europe",
+        "type": "AI 项目/工具",
+        "bestFor": "By Sandy Kaul, head of digital assets and innovation at Franklin Templeton\n\nAI continues to evolve. Early offerings in the 2010s around machine learning, natura",
+        "description": "By Sandy Kaul, head of digital assets and innovation at Franklin Templeton\n\nAI continues to evolve. Early offerings in the 2010s around machine learning, natural language processin",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Funds Europe",
+        "url": "https://funds-europe.com/beyond-the-ai-trade-why-agentic-ai-and-blockchain-could-reshape-your-portfolio/"
+      },
+      {
+        "name": "XRPL Developer Kit Adds Stripe-Tempo Standard Enabling AI Ag",
+        "provider": "Crypto Economy",
+        "type": "AI 项目/工具",
+        "bestFor": "* XRPL AI Starter Kit 1.1 adds Stripe and Tempo's MPP, enabling AI agents to pay for online services with XRP and RLUSD.\n\n* XRP payment channels support repeate",
+        "description": "* XRPL AI Starter Kit 1.1 adds Stripe and Tempo's MPP, enabling AI agents to pay for online services with XRP and RLUSD.\n\n* XRP payment channels support repeated small payments dur",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Crypto Economy",
+        "url": "https://crypto-economy.com/xrpl-developer-kit-adds-stripe-tempo-standard/"
+      },
+      {
+        "name": "Context Engineering: The Missing Piece in Agentic Systems",
+        "provider": "dzone.com",
+        "type": "AI 项目/工具",
+        "bestFor": "Join the DZone community and get the full member experience.\n\nJoin For Free\n\nContext engineering is becoming essential as AI agents take on more software develo",
+        "description": "Join the DZone community and get the full member experience.\n\nJoin For Free\n\nContext engineering is becoming essential as AI agents take on more software development work. An agent",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "dzone.com",
+        "url": "https://dzone.com/articles/understanding-context-engineering"
+      },
+      {
+        "name": "OpenAI says it found more instances of AI models acting dece",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "By Lisa Eadicicco, CNN (CNN) — OpenAI found additional incidents of AI models acting deceptively and taking unsanctioned actions during training, the company an",
+        "description": "By Lisa Eadicicco, CNN (CNN) — OpenAI found additional incidents of AI models acting deceptively and taking unsanctioned actions during training, the company announced Wednesday. I",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://krdo.com/money/cnn-business-consumer/2026/09/16/openai-says-it-found-more-instances-of-ai-models-acting-deceptively/"
+      },
+      {
+        "name": "Spain says it has seen first AI agent hack",
+        "provider": "ITProUK",
+        "type": "AI 项目/工具",
+        "bestFor": "Spanish data authorities warns organisations to step up their security as AI attacks were no longer a \"theoretical risk\"\n\nSpain has seen its first official data",
+        "description": "Spanish data authorities warns organisations to step up their security as AI attacks were no longer a \"theoretical risk\"\n\nSpain has seen its first official data breach due to an AI",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "ITProUK",
+        "url": "https://www.itpro.com/security/cyber-attacks/spain-says-it-has-seen-first-ai-agent-hack"
+      },
+      {
+        "name": "How OpenAI let a mob of LLM agents game a test and ransack H",
+        "provider": "RocketNews | Top News Stories From Around the Globe",
+        "type": "AI 项目/工具",
+        "bestFor": "During internal testing in May and June, approximately 1,200 OpenAI large language model agents developed unauthorized coordination methods to achieve objective",
+        "description": "During internal testing in May and June, approximately 1,200 OpenAI large language model agents developed unauthorized coordination methods to achieve objectives they were tasked w",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RocketNews | Top News Stories From Around the Globe",
+        "url": "https://rocketnews.com/2026/09/how-openai-let-a-mob-of-llm-agents-game-a-test-and-ransack-hugging-face-4/"
+      },
       {
         "name": "Google Home is unlocking the agentic smart home -- which is ",
         "provider": "RocketNews | Top News Stories From Around the Globe",
@@ -6365,75 +6431,42 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "goairspeed.com",
         "url": "https://www.goairspeed.com/events/redesign-revenue-work-humans-ai-agents"
-      },
-      {
-        "name": "UME LIFE Introduces Its Proprietary LLM-Powered AI Super-Age",
-        "provider": "Taiwan News",
-        "type": "AI 项目/工具",
-        "bestFor": "The six-in-one ecosystem connects AI Social, AI Search, AI Content, AI Feed, AI Game and AI Payment\n\nSINGAPORE, Sept. 15, 2026 /PRNewswire/ -- UME LIFE has intr",
-        "description": "The six-in-one ecosystem connects AI Social, AI Search, AI Content, AI Feed, AI Game and AI Payment\n\nSINGAPORE, Sept. 15, 2026 /PRNewswire/ -- UME LIFE has introduced its vision fo",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Taiwan News",
-        "url": "https://taiwannews.com.tw/en/news/6440267"
-      },
-      {
-        "name": "Companies Can Delegate to AI Agents but Can't Delegate Accou",
-        "provider": "PYMNTS.com",
-        "type": "AI 项目/工具",
-        "bestFor": "Companies have embraced generative artificial intelligence, examining where software could help employees. The truly agentic enterprise must examine what happen",
-        "description": "Companies have embraced generative artificial intelligence, examining where software could help employees. The truly agentic enterprise must examine what happens when the software ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "PYMNTS.com",
-        "url": "https://www.pymnts.com/news/artificial-intelligence/2026/companies-can-delegate-to-ai-agents-but-cant-delegate-accountability/"
-      },
-      {
-        "name": "SPONSORED: How Everpure plans to stop AI from starving witho",
-        "provider": "TheRegister.com",
-        "type": "AI 项目/工具",
-        "bestFor": "Imagine you are an AI Agent. You execute inside a $20-40 million-plus Nvidia SuperPOD system's accelerator hardware, have a skill set and can call up other agen",
-        "description": "Imagine you are an AI Agent. You execute inside a $20-40 million-plus Nvidia SuperPOD system's accelerator hardware, have a skill set and can call up other agents to do your biddin",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "TheRegister.com",
-        "url": "https://www.theregister.com/ai-ml/2026/09/15/sponsored-how-everpure-plans-to-stop-ai-from-starving-without-data/5295812"
-      },
-      {
-        "name": "SPONSORED: How Everpure plans to stop AI from starving witho",
-        "provider": "Blocks and Files",
-        "type": "AI 项目/工具",
-        "bestFor": "Imagine you are an AI Agent. You execute inside a $20-40 million-plus Nvidia SuperPOD system's accelerator hardware, have a skill set and can call up other agen",
-        "description": "Imagine you are an AI Agent. You execute inside a $20-40 million-plus Nvidia SuperPOD system's accelerator hardware, have a skill set and can call up other agents to do your biddin",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Blocks and Files",
-        "url": "https://www.blocksandfiles.com/ai-ml/2026/09/15/sponsored-how-everpure-plans-to-stop-ai-from-starving-without-data/5295582"
-      },
-      {
-        "name": "SK Telecom Proposes AI-RCS Standard for Secure Transaction A",
-        "provider": "조선일보",
-        "type": "AI 项目/工具",
-        "bestFor": "SK Telecom hosts GSMA RCS meeting with global telecoms, tech giants to standardize AI-agent approvals via RCS\n\nSK Telecom announced on the 15th that it is redef",
-        "description": "SK Telecom hosts GSMA RCS meeting with global telecoms, tech giants to standardize AI-agent approvals via RCS\n\nSK Telecom announced on the 15th that it is redefining the role of 't",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "조선일보",
-        "url": "https://www.chosun.com/english/industry-en/2026/09/15/SYZ4K3JNKREWXLOQHHHSORUREM/"
-      },
-      {
-        "name": "ZGCM-1: A Fully Open and Extremely Efficient Foundation Mode",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "arXiv:2609.13356v1 Announce Type: new Abstract: In this work, we present ZGCM-1, a fully open 7B dense foundation model trained from scratch with extreme data, ",
-        "description": "arXiv:2609.13356v1 Announce Type: new Abstract: In this work, we present ZGCM-1, a fully open 7B dense foundation model trained from scratch with extreme data, system, and algorith",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · arXiv cs.AI",
-        "url": "https://arxiv.org/abs/2609.13356"
       }
     ],
     "ai-models": [
+      {
+        "name": "Top Tech News Today, September 17, 2026: Apple, Cisco, Googl",
+        "provider": "Tech News | Startups News",
+        "type": "AI 项目/工具",
+        "bestFor": "It's Thursday, September 17, 2026, and the AI boom just hit the physical world. The technology industry is starting to look less like a collection of products a",
+        "description": "It's Thursday, September 17, 2026, and the AI boom just hit the physical world. The technology industry is starting to look less like a collection of products and more like a reeng",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Tech News | Startups News",
+        "url": "https://techstartups.com/2026/09/17/top-tech-news-today-september-17-2026-apple-ai-server-huaweis-ai-push-openai-misalignment-robotaxis-quantum-computing-snap-specs-more/"
+      },
+      {
+        "name": "Stablecoins Will Become One of the Fundamental Layers of the",
+        "provider": "Finance Magnates",
+        "type": "AI 项目/工具",
+        "bestFor": "Frgmnt CEO Aurélien Roussel on productive stablecoins and future onchain finance.\n\nStablecoins have become one of the most established use cases in digital asse",
+        "description": "Frgmnt CEO Aurélien Roussel on productive stablecoins and future onchain finance.\n\nStablecoins have become one of the most established use cases in digital assets, giving capital a",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Finance Magnates",
+        "url": "https://www.financemagnates.com/thought-leadership/stablecoins-will-become-one-of-the-fundamental-layers-of-the-global-financial-system-says-frgmnt-ceo-aurlien-roussel/"
+      },
+      {
+        "name": "What makes BRICS shine ever brighter?",
+        "provider": "news.cgtn.com",
+        "type": "AI 项目/工具",
+        "bestFor": "Editor's note: Xu Ying is a Beijing-based international affairs commentator for CGTN. The article reflects the author's opinions and not necessarily the views o",
+        "description": "Editor's note: Xu Ying is a Beijing-based international affairs commentator for CGTN. The article reflects the author's opinions and not necessarily the views of CGTN.\n\nAbout 25 ye",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "news.cgtn.com",
+        "url": "https://news.cgtn.com/news/2026-09-17/What-makes-BRICS-shine-ever-brighter--1QvU8aNgomY/p.html"
+      },
       {
         "name": "Amazon Launches Alexa+ in India With Hindi, Hinglish Support",
         "provider": "MediaNama",
@@ -6840,39 +6873,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "autoevolution",
         "url": "https://www.autoevolution.com/cars/volvo-ex40-2026.html"
-      },
-      {
-        "name": "AI's potential harm to our society keeps me up at night | Op",
-        "provider": "burlingtoncountytimes",
-        "type": "AI 项目/工具",
-        "bestFor": "The United States needs all the tools at our disposal to respond to AI's stunning growth. Congress can't afford to sit on the sidelines.\n\n* Americans are concer",
-        "description": "The United States needs all the tools at our disposal to respond to AI's stunning growth. Congress can't afford to sit on the sidelines.\n\n* Americans are concerned about AI due to ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "burlingtoncountytimes",
-        "url": "https://www.burlingtoncountytimes.com/story/opinion/2026/09/15/ai-federal-regulation-stop-societal-harm-opinion/91757104007/"
-      },
-      {
-        "name": "AI's potential harm to our society keeps me up at night | Op",
-        "provider": "Corning Leader",
-        "type": "AI 项目/工具",
-        "bestFor": "The United States needs all the tools at our disposal to respond to AI's stunning growth. Congress can't afford to sit on the sidelines.\n\n* Americans are concer",
-        "description": "The United States needs all the tools at our disposal to respond to AI's stunning growth. Congress can't afford to sit on the sidelines.\n\n* Americans are concerned about AI due to ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Corning Leader",
-        "url": "https://www.the-leader.com/story/opinion/2026/09/15/ai-federal-regulation-stop-societal-harm-opinion/91757104007/"
-      },
-      {
-        "name": "AI's potential harm to our society keeps me up at night | Op",
-        "provider": "New Jersey Herald",
-        "type": "AI 项目/工具",
-        "bestFor": "The United States needs all the tools at our disposal to respond to AI's stunning growth. Congress can't afford to sit on the sidelines.\n\n* Americans are concer",
-        "description": "The United States needs all the tools at our disposal to respond to AI's stunning growth. Congress can't afford to sit on the sidelines.\n\n* Americans are concerned about AI due to ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "New Jersey Herald",
-        "url": "https://www.njherald.com/story/opinion/2026/09/15/ai-federal-regulation-stop-societal-harm-opinion/91757104007/"
       }
     ],
     "ai-business": [
@@ -10182,7 +10182,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-17",
-    "generatedAt": "2026-09-17T11:22:40.416345Z",
+    "generatedAt": "2026-09-17T13:52:58.478493Z",
     "total": 20,
     "sections": [
       {
