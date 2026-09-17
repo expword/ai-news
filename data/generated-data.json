@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-17",
-  "generatedAt": "2026-09-17T06:22:04.660140Z",
+  "generatedAt": "2026-09-17T08:51:36.635311Z",
   "news": [
     {
       "title": "Improving HCLS AI reasoning with open-source agent skills",
@@ -5993,6 +5993,17 @@
     ],
     "ai-agents": [
       {
+        "name": "Global Workspace Theory in AI: Coordinating Agent Intelligen",
+        "provider": "Digital Thought Disruption",
+        "type": "AI 项目/工具",
+        "bestFor": "Global Workspace Theory in AI offers a useful architectural lens: specialized components process information locally, selected information enters a limited shar",
+        "description": "Global Workspace Theory in AI offers a useful architectural lens: specialized components process information locally, selected information enters a limited shared workspace, and th",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Digital Thought Disruption",
+        "url": "https://digitalthoughtdisruption.com/2026/09/17/global-workspace-theory-ai-agent-architecture/"
+      },
+      {
         "name": "Glyph: A Multi-Strategy Agentic System for Column Descriptio",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -6420,20 +6431,64 @@
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · Google AI Blog",
         "url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/"
-      },
-      {
-        "name": "How Ninth Wave built AI-powered open finance onboarding on A",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Learn how Ninth Wave built Compass, a multi-agent AI onboarding assistant on Amazon Bedrock AgentCore that validates bank APIs against Financial Data Exchange (",
-        "description": "Learn how Ninth Wave built Compass, a multi-agent AI onboarding assistant on Amazon Bedrock AgentCore that validates bank APIs against Financial Data Exchange (FDX) standards, scor",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/how-ninth-wave-built-ai-powered-open-finance-onboarding-on-amazon-bedrock/"
       }
     ],
     "ai-models": [
+      {
+        "name": "S. Rajaratnam School of International Studies (RSIS)",
+        "provider": "RSIS_NTU",
+        "type": "AI 项目/工具",
+        "bestFor": "The landscape of information manipulation and interference is evolving rapidly, driven by advances in technology and shifting dynamics in information environmen",
+        "description": "The landscape of information manipulation and interference is evolving rapidly, driven by advances in technology and shifting dynamics in information environment governance. Develo",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSIS_NTU",
+        "url": "https://rsis.edu.sg/event/rsis-roundtable-by-mr-janis-sarts/"
+      },
+      {
+        "name": "S. Rajaratnam School of International Studies (RSIS)",
+        "provider": "RSIS_NTU",
+        "type": "AI 项目/工具",
+        "bestFor": "The landscape of information manipulation and interference is evolving rapidly, driven by advances in technology and shifting dynamics in information environmen",
+        "description": "The landscape of information manipulation and interference is evolving rapidly, driven by advances in technology and shifting dynamics in information environment governance. Develo",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSIS_NTU",
+        "url": "https://rsis.edu.sg/event/rsis-roundtable-with-mr-janis-sarts/"
+      },
+      {
+        "name": "🔒 Stop ChatGPT, Claude and Gemini from using your chats for ",
+        "provider": "Komando.com",
+        "type": "AI 项目/工具",
+        "bestFor": "Keep your ChatGPT history: Open Settings from your profile menu > Choose Data Controls > Turn off Improve the model for everyone.\n\nThe setting applies across we",
+        "description": "Keep your ChatGPT history: Open Settings from your profile menu > Choose Data Controls > Turn off Improve the model for everyone.\n\nThe setting applies across web, iPhone and Androi",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Komando.com",
+        "url": "https://www.komando.com/tips/artificial-intelligence/%F0%9F%94%92-stop-chatgpt-claude-and-gemini-from-using-your-chats-for-ai-training/"
+      },
+      {
+        "name": "Samsung just made its refrigerator smarter with Gemini; new ",
+        "provider": "Hindustan Times",
+        "type": "AI 项目/工具",
+        "bestFor": "Your refrigerator could soon do more than keep your vegetables cold, while your air conditioner could adjust itself to the way you sleep. That was the idea Sams",
+        "description": "Your refrigerator could soon do more than keep your vegetables cold, while your air conditioner could adjust itself to the way you sleep. That was the idea Samsung put on display a",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Hindustan Times",
+        "url": "https://www.hindustantimes.com/technology/samsung-just-made-its-refrigerator-smarter-with-gemini-new-ai-appliances-launched-in-india-101789624645164.html"
+      },
+      {
+        "name": "Samsung launches new AI fridge in India that recommends reci",
+        "provider": "mint",
+        "type": "AI 项目/工具",
+        "bestFor": "Samsung India has launched its 2026 Bespoke AI home appliance lineup in Gurugram, introducing new refrigerators and air conditioners with expanded AI and SmartT",
+        "description": "Samsung India has launched its 2026 Bespoke AI home appliance lineup in Gurugram, introducing new refrigerators and air conditioners with expanded AI and SmartThings features. The ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "mint",
+        "url": "https://www.livemint.com/technology/samsung-launches-new-ai-fridge-in-india-that-recommends-recipes-check-bespoke-ai-lineup-and-prices-11789621850749.html"
+      },
       {
         "name": "Microsoft AI chief criticises Anthropic's approach to Claude",
         "provider": "Digit",
@@ -6818,61 +6873,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "The Daily Messenger",
         "url": "https://www.mpnnow.com/story/opinion/2026/09/15/ai-federal-regulation-stop-societal-harm-opinion/91757104007/"
-      },
-      {
-        "name": "AI's potential harm to our society keeps me up at night | Op",
-        "provider": "Poughkeepsie Journal",
-        "type": "AI 项目/工具",
-        "bestFor": "The United States needs all the tools at our disposal to respond to AI's stunning growth. Congress can't afford to sit on the sidelines.\n\n* Americans are concer",
-        "description": "The United States needs all the tools at our disposal to respond to AI's stunning growth. Congress can't afford to sit on the sidelines.\n\n* Americans are concerned about AI due to ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Poughkeepsie Journal",
-        "url": "https://www.poughkeepsiejournal.com/story/opinion/2026/09/15/ai-federal-regulation-stop-societal-harm-opinion/91757104007/"
-      },
-      {
-        "name": "AI's potential harm to our society keeps me up at night | Op",
-        "provider": "The Ithaca Journal",
-        "type": "AI 项目/工具",
-        "bestFor": "The United States needs all the tools at our disposal to respond to AI's stunning growth. Congress can't afford to sit on the sidelines.\n\n* Americans are concer",
-        "description": "The United States needs all the tools at our disposal to respond to AI's stunning growth. Congress can't afford to sit on the sidelines.\n\n* Americans are concerned about AI due to ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Ithaca Journal",
-        "url": "https://www.ithacajournal.com/story/opinion/2026/09/15/ai-federal-regulation-stop-societal-harm-opinion/91757104007/"
-      },
-      {
-        "name": "AI's potential harm to our society keeps me up at night | Op",
-        "provider": "The Daily Journal",
-        "type": "AI 项目/工具",
-        "bestFor": "The United States needs all the tools at our disposal to respond to AI's stunning growth. Congress can't afford to sit on the sidelines.\n\n* Americans are concer",
-        "description": "The United States needs all the tools at our disposal to respond to AI's stunning growth. Congress can't afford to sit on the sidelines.\n\n* Americans are concerned about AI due to ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Daily Journal",
-        "url": "https://www.thedailyjournal.com/story/opinion/2026/09/15/ai-federal-regulation-stop-societal-harm-opinion/91757104007/"
-      },
-      {
-        "name": "NotebookLM Alternatives: What Gemini Notebook Won't Do",
-        "provider": "Fello AI",
-        "type": "AI 项目/工具",
-        "bestFor": "Most lists of NotebookLM alternatives answer the wrong question. They rank twelve note-taking apps and leave you to work out which one solves the thing that act",
-        "description": "Most lists of NotebookLM alternatives answer the wrong question. They rank twelve note-taking apps and leave you to work out which one solves the thing that actually annoyed you. T",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Fello AI",
-        "url": "https://felloai.com/notebooklm-alternatives/"
-      },
-      {
-        "name": "AsiaOne",
-        "provider": "AsiaOne",
-        "type": "AI 项目/工具",
-        "bestFor": "DeepSeek plans to hire Yan Wentao, a partner at venture-capital firm GL Ventures, as its first chief financial officer, two people with knowledge of the matter ",
-        "description": "DeepSeek plans to hire Yan Wentao, a partner at venture-capital firm GL Ventures, as its first chief financial officer, two people with knowledge of the matter said, as the Chinese",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "AsiaOne",
-        "url": "https://www.asiaone.com/china/chinas-deepseek-hires-dealmaker-cfo-ahead-possible-ipo"
       }
     ],
     "ai-business": [
@@ -10182,7 +10182,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-17",
-    "generatedAt": "2026-09-17T06:22:04.638330Z",
+    "generatedAt": "2026-09-17T08:51:36.607598Z",
     "total": 20,
     "sections": [
       {
