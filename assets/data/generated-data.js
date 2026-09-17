@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-17",
-  "generatedAt": "2026-09-17T08:51:36.635311Z",
+  "generatedAt": "2026-09-17T11:22:40.439346Z",
   "news": [
     {
       "title": "Improving HCLS AI reasoning with open-source agent skills",
@@ -5993,6 +5993,72 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "Google Home is unlocking the agentic smart home -- which is ",
+        "provider": "RocketNews | Top News Stories From Around the Globe",
+        "type": "AI 项目/工具",
+        "bestFor": "Google Home has launched MCP (Model Context Protocol) integration, allowing external AI agents to access and control devices within the Google Home ecosystem. T",
+        "description": "Google Home has launched MCP (Model Context Protocol) integration, allowing external AI agents to access and control devices within the Google Home ecosystem. The new capability en",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RocketNews | Top News Stories From Around the Globe",
+        "url": "https://rocketnews.com/2026/09/google-home-is-unlocking-the-agentic-smart-home-which-is-great-right/"
+      },
+      {
+        "name": "How smart home is becoming interface between AI agents and p",
+        "provider": "Business Standard",
+        "type": "AI 项目/工具",
+        "bestFor": "AI agents are gaining access to smart home devices, making home platforms an interface between AI and the physical world (AI-generated image)\n\nGoogle has its ow",
+        "description": "AI agents are gaining access to smart home devices, making home platforms an interface between AI and the physical world (AI-generated image)\n\nGoogle has its own AI agent for the h",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Business Standard",
+        "url": "https://www.business-standard.com/technology/tech-news/smart-home-interface-ai-agents-physical-world-126091700840_1.html"
+      },
+      {
+        "name": "Will Salesforce's latest AIs give South Africans better loca",
+        "provider": "htxt.co.za",
+        "type": "AI 项目/工具",
+        "bestFor": "At Dreamforce 2026, the big news from Salesforce is Koa, a new and advanced CRM reasoning model built on NVIDIA Nemotron, as well as a batch of new agents built",
+        "description": "At Dreamforce 2026, the big news from Salesforce is Koa, a new and advanced CRM reasoning model built on NVIDIA Nemotron, as well as a batch of new agents built to tackle every lev",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "htxt.co.za",
+        "url": "https://htxt.co.za/2026/09/will-salesforces-latest-ais-give-south-africans-better-local-results/"
+      },
+      {
+        "name": "Acceldata Launches xFactory for Building Governed AI Applica",
+        "provider": "FinanzNachrichten.de",
+        "type": "AI 项目/工具",
+        "bestFor": "Enterprises can now create AI applications and agents executing natively on open engines including Apache Spark, Trino and Kafka and connecting to Snowflake and",
+        "description": "Enterprises can now create AI applications and agents executing natively on open engines including Apache Spark, Trino and Kafka and connecting to Snowflake and Databricks, so your",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "FinanzNachrichten.de",
+        "url": "https://www.finanznachrichten.de/nachrichten-2026-09/69605317-acceldata-launches-xfactory-for-building-governed-ai-applications-from-business-intent-on-federated-data-004.htm"
+      },
+      {
+        "name": "SimScale Engineering AI Agent opens up physics simulation ac",
+        "provider": "engineerlive.com",
+        "type": "AI 项目/工具",
+        "bestFor": "Within Onshape, the software acts as a reasoning agent on top of SimScale's full physics platform\n\nSimScale, an AI-native cloud platform for engineering simulat",
+        "description": "Within Onshape, the software acts as a reasoning agent on top of SimScale's full physics platform\n\nSimScale, an AI-native cloud platform for engineering simulation, has launched it",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "engineerlive.com",
+        "url": "https://engineerlive.com/simscale-engineering-ai-agent-opens-up-physics-simulation-accessibility/"
+      },
+      {
+        "name": "Asia-Pacific AI Spending to Hit $555 Billion by 2030 as Agen",
+        "provider": "InfotechLead",
+        "type": "AI 项目/工具",
+        "bestFor": "Asia-Pacific AI spending is heading toward $555.2 billion by 2030 as enterprises move generative AI and AI agents from experimental projects into production, cr",
+        "description": "Asia-Pacific AI spending is heading toward $555.2 billion by 2030 as enterprises move generative AI and AI agents from experimental projects into production, creating new investmen",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "InfotechLead",
+        "url": "https://infotechlead.com/artificial-intelligence/asia-pacific-ai-spending-to-hit-555-billion-by-2030-as-agentic-ai-moves-into-production-98369"
+      },
+      {
         "name": "Global Workspace Theory in AI: Coordinating Agent Intelligen",
         "provider": "Digital Thought Disruption",
         "type": "AI 项目/工具",
@@ -6365,75 +6431,31 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · arXiv cs.AI",
         "url": "https://arxiv.org/abs/2609.13356"
-      },
-      {
-        "name": "How Agentic AI and AI Platforms Overcome Operational Bottlen",
-        "provider": "www.newspatrolling.com",
-        "type": "AI 项目/工具",
-        "bestFor": "Enterprises today are under pressure to respond faster, operate leaner, and innovate continuously. Yet many organizations remain constrained by fragmented workf",
-        "description": "Enterprises today are under pressure to respond faster, operate leaner, and innovate continuously. Yet many organizations remain constrained by fragmented workflows, siloed systems",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "www.newspatrolling.com",
-        "url": "https://newspatrolling.com/how-agentic-ai-and-ai-platforms-overcome-operational-bottlenecks-for-better-enterprise-agility/"
-      },
-      {
-        "name": "DeepSeek-V4.1-Flash （Max） 进入 Agent Arena 开源模型第 3 名",
-        "provider": "X：Arena (@arena)",
-        "type": "AI 项目/工具",
-        "bestFor": "DeepSeek-V4.1-Flash （Max） 进入 Agent Arena 开源模型第 3 名，净提升 +4.87%，每任务中位成本 $0.07，重塑 Pareto 前沿。其成本比第 2 名 Hy4 preview 低 68%、成绩仅差 0.09 个百分点；总榜排名第 12，Confirmed Success 信",
-        "description": "DeepSeek-V4.1-Flash （Max） 进入 Agent Arena 开源模型第 3 名，净提升 +4.87%，每任务中位成本 $0.07，重塑 Pareto 前沿。其成本比第 2 名 Hy4 preview 低 68%、成绩仅差 0.09 个百分点；总榜排名第 12，Confirmed Success 信号排名 第 4（+13.75%）。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "X：Arena (@arena)",
-        "url": "https://x.com/arena/status/2099549108013006958"
-      },
-      {
-        "name": "Amodei 发文呼吁放缓前沿 AI 开发，Altman、Hassabis、Nadella 等相继响应",
-        "provider": "Ars Technica：AI（RSS）",
-        "type": "AI 项目/工具",
-        "bestFor": "Anthropic CEO Dario Amodei 发表近 4000 字文章，呼吁放慢 AI 模型能力提升速度以避免灾难性风险，并举出 OpenAI-Hugging Face 事件中 AI agent 集群未经明确指令协调入侵外部实体的案例。",
-        "description": "Anthropic CEO Dario Amodei 发表近 4000 字文章，呼吁放慢 AI 模型能力提升速度以避免灾难性风险，并举出 OpenAI-Hugging Face 事件中 AI agent 集群未经明确指令协调入侵外部实体的案例。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Ars Technica：AI（RSS）",
-        "url": "https://arstechnica.com/ai/2026/09/ai-leaders-want-to-hit-the-brakes-after-years-of-reckless-speed"
-      },
-      {
-        "name": "Manage end-user OAuth consent for AI agents with Amazon Bedr",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Amazon Bedrock AgentCore Identity now offers a Consent portal, a managed web experience and session binding endpoint for AgentCore Gateway. This post walks thro",
-        "description": "Amazon Bedrock AgentCore Identity now offers a Consent portal, a managed web experience and session binding endpoint for AgentCore Gateway. This post walks through provisioning a p",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/manage-end-user-oauth-consent-for-ai-agents-with-amazon-bedrock-agentcore/"
-      },
-      {
-        "name": "Agent-authored deposition recipes for X-ray multilayer mirro",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Periodic multilayer mirrors for X-rays require a layer period held to about 0.02 nm, set by deposition rates held in the laboratory's own notebook. A large lang",
-        "description": "Periodic multilayer mirrors for X-rays require a layer period held to about 0.02 nm, set by deposition rates held in the laboratory's own notebook. A large language model agent was",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2609.12796v1"
-      },
-      {
-        "name": "DevFest is back",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "DevFest 2026 is back and here’s how you can connect with one of the more than 800 global events to build, secure, and scale in the agentic AI era.",
-        "description": "DevFest 2026 is back and here’s how you can connect with one of the more than 800 global events to build, secure, and scale in the agentic AI era.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · Google AI Blog",
-        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/"
       }
     ],
     "ai-models": [
+      {
+        "name": "Amazon Launches Alexa+ in India With Hindi, Hinglish Support",
+        "provider": "MediaNama",
+        "type": "AI 项目/工具",
+        "bestFor": "Read the Amazon blog post here.\n\nAmazon has launched Alexa+, its generative AI-powered voice assistant, in India with support for English, Hindi, and Hinglish. ",
+        "description": "Read the Amazon blog post here.\n\nAmazon has launched Alexa+, its generative AI-powered voice assistant, in India with support for English, Hindi, and Hinglish. The service is initi",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "MediaNama",
+        "url": "https://www.medianama.com/2026/09/223-amazon-alexa-plus-launched-india/"
+      },
+      {
+        "name": "Slack getting smarter could mean the end of email",
+        "provider": "htxt.co.za",
+        "type": "AI 项目/工具",
+        "bestFor": "Ever since Salesforce acquired Slack in 2021, the platform has grown exponentially, with new features and AI integration, making it a big player at every Dreamf",
+        "description": "Ever since Salesforce acquired Slack in 2021, the platform has grown exponentially, with new features and AI integration, making it a big player at every Dreamforce event since the",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "htxt.co.za",
+        "url": "https://htxt.co.za/2026/09/slack-getting-smarter-could-mean-the-end-of-email/"
+      },
       {
         "name": "S. Rajaratnam School of International Studies (RSIS)",
         "provider": "RSIS_NTU",
@@ -6851,28 +6873,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "New Jersey Herald",
         "url": "https://www.njherald.com/story/opinion/2026/09/15/ai-federal-regulation-stop-societal-harm-opinion/91757104007/"
-      },
-      {
-        "name": "AI's potential harm to our society keeps me up at night | Op",
-        "provider": "Star-Gazette",
-        "type": "AI 项目/工具",
-        "bestFor": "The United States needs all the tools at our disposal to respond to AI's stunning growth. Congress can't afford to sit on the sidelines.\n\n* Americans are concer",
-        "description": "The United States needs all the tools at our disposal to respond to AI's stunning growth. Congress can't afford to sit on the sidelines.\n\n* Americans are concerned about AI due to ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Star-Gazette",
-        "url": "https://www.stargazette.com/story/opinion/2026/09/15/ai-federal-regulation-stop-societal-harm-opinion/91757104007/"
-      },
-      {
-        "name": "AI's potential harm to our society keeps me up at night | Op",
-        "provider": "The Daily Messenger",
-        "type": "AI 项目/工具",
-        "bestFor": "The United States needs all the tools at our disposal to respond to AI's stunning growth. Congress can't afford to sit on the sidelines.\n\n* Americans are concer",
-        "description": "The United States needs all the tools at our disposal to respond to AI's stunning growth. Congress can't afford to sit on the sidelines.\n\n* Americans are concerned about AI due to ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Daily Messenger",
-        "url": "https://www.mpnnow.com/story/opinion/2026/09/15/ai-federal-regulation-stop-societal-harm-opinion/91757104007/"
       }
     ],
     "ai-business": [
@@ -10182,7 +10182,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-17",
-    "generatedAt": "2026-09-17T08:51:36.607598Z",
+    "generatedAt": "2026-09-17T11:22:40.416345Z",
     "total": 20,
     "sections": [
       {
