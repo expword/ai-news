@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-17",
-  "generatedAt": "2026-09-16T19:23:51.007662Z",
+  "generatedAt": "2026-09-17T01:19:04.546585Z",
   "news": [
     {
       "title": "Improving HCLS AI reasoning with open-source agent skills",
@@ -69,6 +69,173 @@
       "sourceDate": "",
       "tags": [],
       "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Shared Selective Persistent Memory for Agentic LLM Systems",
+      "summary": "Agentic LLM systems that generate code through multi-turn tool use face a fundamental context problem: each session starts from zero, discarding the configuration choices, domain c",
+      "category": "ai-coding",
+      "source": "RSS · Apple ML Research",
+      "date": "2026-09-16",
+      "publishedAt": "2026-09-16T08:00",
+      "collectedAt": "2026-09-17T09:19",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://machinelearning.apple.com/research/shared-selective-persistent-memory",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "DACA-GRPO: Denoising-Aware Credit Assignment for Reinforcement Learning in Diffusion Language Models",
+      "summary": "Diffusion large language models are a compelling alternative to autoregressive models, yet existing RL methods for diffusion treat all denoising steps as equally important and rely",
+      "category": "ai-models",
+      "source": "RSS · Apple ML Research",
+      "date": "2026-09-16",
+      "publishedAt": "2026-09-16T08:00",
+      "collectedAt": "2026-09-17T09:19",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://machinelearning.apple.com/research/denoising-aware-credit-assignment",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Trajectory as the Teacher: Few-Step Discrete Flow Matching via Energy-Navigated Distillation",
+      "summary": "Discrete flow matching generates text by iteratively transforming noise tokens into coherent language, but may require hundreds of forward passes. Distillation uses the multi-step ",
+      "category": "ai-models",
+      "source": "RSS · Apple ML Research",
+      "date": "2026-09-16",
+      "publishedAt": "2026-09-16T08:00",
+      "collectedAt": "2026-09-17T09:19",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://machinelearning.apple.com/research/trajectory-teacher-flow-matching",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "How Value Induction Reshapes LLM Behaviour",
+      "summary": "Conversational Large Language Models are post-trained on language that expresses specific behavioural traits, such as curiosity, open-mindedness, and empathy, and values, such as h",
+      "category": "ai-models",
+      "source": "RSS · Apple ML Research",
+      "date": "2026-09-16",
+      "publishedAt": "2026-09-16T08:00",
+      "collectedAt": "2026-09-17T09:19",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://machinelearning.apple.com/research/value-induction-llm-behaviour",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Glyph: A Multi-Strategy Agentic System for Column Description and Sensitivity-Ontology Tagging of Enterprise Data Catalogs",
+      "summary": "Enterprise data lakes accumulate tables faster than human stewards can document or classify them, leaving columns with missing descriptions and unassigned governance labels. This d",
+      "category": "ai-agents",
+      "source": "RSS · Apple ML Research",
+      "date": "2026-09-16",
+      "publishedAt": "2026-09-16T08:00",
+      "collectedAt": "2026-09-17T09:19",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://machinelearning.apple.com/research/glyph-column-description-tagging",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Migrating from closed to open source models, Together",
+      "summary": "Moving from closed to open source models can take weeks, not years. A five-stage playbook: discover, evaluate, adapt, decide, and production.",
+      "category": "ai-models",
+      "source": "RSS · Together AI",
+      "date": "2026-09-16",
+      "publishedAt": "2026-09-16T08:00",
+      "collectedAt": "2026-09-17T09:19",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://www.together.ai/blog/migrating-from-closed-to-open-source-models",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -2548,115 +2715,6 @@
       "sourceDate": "",
       "tags": [],
       "url": "https://aws.amazon.com/blogs/machine-learning/amazon-quick-is-now-generally-available-on-desktop/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Build an end-to-end RFI questionnaire workflow using Amazon Quick Automate",
-      "summary": "Learn how to build an end-to-end RFI questionnaire workflow with Amazon Quick Automate. Read a multi-tab RFI workbook from Amazon S3, use natural-language prompts to extract and st",
-      "category": "ai-models",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-09-11",
-      "publishedAt": "2026-09-11T00:08",
-      "collectedAt": "2026-09-11T02:16",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/build-an-end-to-end-rfi-questionnaire-workflow-using-amazon-quick-automate/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Anthropic 评估 AI 模型的战术情报定位与常规武器能力",
-      "summary": "Anthropic Frontier Red Team 发布新评测，衡量模型在战术情报定位（账户关联、照片与文本地理定位）和常规武器开发（无人机末段制导、投送、GPS 干扰下导航）上的能力。",
-      "category": "ai-models",
-      "source": "Anthropic：Research（发表成果 · 网页）",
-      "date": "2026-09-11",
-      "publishedAt": "2026-09-11T01:28",
-      "collectedAt": "2026-09-11T02:16",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Model-agnostic PII detection with LLMs",
-      "summary": "A configurable, model-agnostic detector that turns any large language model on Amazon Bedrock into a PII detector. Because the entities to detect live in a prompt rather than in co",
-      "category": "ai-coding",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-09-11",
-      "publishedAt": "2026-09-11T00:02",
-      "collectedAt": "2026-09-11T02:16",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/model-agnostic-pii-detection-with-llms/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "3 ways to prep for your next big race with Search",
-      "summary": "Search can help runners get race-day ready with registration alerts, tailored training plans, and more.",
-      "category": "ai-models",
-      "source": "RSS · Google AI Blog",
-      "date": "2026-09-11",
-      "publishedAt": "2026-09-11T00:00",
-      "collectedAt": "2026-09-11T02:16",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://blog.google/products-and-platforms/products/search/running-race-training-tips/",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -5750,6 +5808,17 @@
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Shared Selective Persistent Memory for Agentic LLM Systems",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Agentic LLM systems that generate code through multi-turn tool use face a fundamental context problem: each session starts from zero, discarding the configurati",
+        "description": "Agentic LLM systems that generate code through multi-turn tool use face a fundamental context problem: each session starts from zero, discarding the configuration choices, domain c",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Apple ML Research",
+        "url": "https://machinelearning.apple.com/research/shared-selective-persistent-memory"
+      },
+      {
         "name": "Linux development is really benefiting from AI, but not from",
         "provider": "XDA-Developers",
         "type": "AI 项目/工具",
@@ -6177,20 +6246,20 @@
         "watch": "请打开原始来源核对",
         "sourceName": "The Decoder：AI News（RSS）",
         "url": "https://the-decoder.com/openai-shares-prompting-tips-for-gpt-6-astra-including-a-blocklist-of-slop-words"
-      },
-      {
-        "name": "GPT-6 Astra vs GPT-5.6 Sol: क्या बदला? Reasoning, Coding और ",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenAI का नया AI मॉडल GPT-6 Astra आ गया है, जो कंप्यूटर पर मल्टी-स्टेप टास्क खुद कर सकता है. यह GPT-5.6 Sol से Reasoning, Coding और Cybersecurity में कहीं बेहतर",
-        "description": "OpenAI का नया AI मॉडल GPT-6 Astra आ गया है, जो कंप्यूटर पर मल्टी-स्टेप टास्क खुद कर सकता है. यह GPT-5.6 Sol से Reasoning, Coding और Cybersecurity में कहीं बेहतर है. जानिए इसकी खासि",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI coding tool",
-        "url": "https://www.prabhatkhabar.com/technology/openais-gpt-6-astra-the-ai-that-can-operate-computers-and-revolutionize-cybersecurity"
       }
     ],
     "ai-agents": [
+      {
+        "name": "Glyph: A Multi-Strategy Agentic System for Column Descriptio",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Enterprise data lakes accumulate tables faster than human stewards can document or classify them, leaving columns with missing descriptions and unassigned gover",
+        "description": "Enterprise data lakes accumulate tables faster than human stewards can document or classify them, leaving columns with missing descriptions and unassigned governance labels. This d",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Apple ML Research",
+        "url": "https://machinelearning.apple.com/research/glyph-column-description-tagging"
+      },
       {
         "name": "Improving HCLS AI reasoning with open-source agent skills",
         "provider": "RSS",
@@ -6619,17 +6688,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · AWS Machine Learning",
         "url": "https://aws.amazon.com/blogs/machine-learning/how-ninth-wave-built-ai-powered-open-finance-onboarding-on-amazon-bedrock/"
-      },
-      {
-        "name": "Meta (META) Stock Dips 1% as Executives Dump Shares and Muse",
-        "provider": "Blockonomi",
-        "type": "AI 项目/工具",
-        "bestFor": "* Meta shares declined approximately 1% to $640 in early Monday trading, wiping out previous session gains\n\n* CPO Christopher Cox offloaded 20,000 shares valued",
-        "description": "* Meta shares declined approximately 1% to $640 in early Monday trading, wiping out previous session gains\n\n* CPO Christopher Cox offloaded 20,000 shares valued at roughly $13 mill",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Blockonomi",
-        "url": "https://blockonomi.com/meta-meta-stock-dips-1-as-executives-dump-shares-and-muse-agent-draws-skepticism/"
       }
     ],
     "ai-models": [
@@ -8535,6 +8593,39 @@
     ],
     "ai-research": [
       {
+        "name": "DACA-GRPO: Denoising-Aware Credit Assignment for Reinforceme",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Diffusion large language models are a compelling alternative to autoregressive models, yet existing RL methods for diffusion treat all denoising steps as equall",
+        "description": "Diffusion large language models are a compelling alternative to autoregressive models, yet existing RL methods for diffusion treat all denoising steps as equally important and rely",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Apple ML Research",
+        "url": "https://machinelearning.apple.com/research/denoising-aware-credit-assignment"
+      },
+      {
+        "name": "Trajectory as the Teacher: Few-Step Discrete Flow Matching v",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Discrete flow matching generates text by iteratively transforming noise tokens into coherent language, but may require hundreds of forward passes. Distillation ",
+        "description": "Discrete flow matching generates text by iteratively transforming noise tokens into coherent language, but may require hundreds of forward passes. Distillation uses the multi-step ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Apple ML Research",
+        "url": "https://machinelearning.apple.com/research/trajectory-teacher-flow-matching"
+      },
+      {
+        "name": "How Value Induction Reshapes LLM Behaviour",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Conversational Large Language Models are post-trained on language that expresses specific behavioural traits, such as curiosity, open-mindedness, and empathy, a",
+        "description": "Conversational Large Language Models are post-trained on language that expresses specific behavioural traits, such as curiosity, open-mindedness, and empathy, and values, such as h",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Apple ML Research",
+        "url": "https://machinelearning.apple.com/research/value-induction-llm-behaviour"
+      },
+      {
         "name": "What Breaks Under Pruning in Smart Homes, and When? Evaluati",
         "provider": "arXiv",
         "type": "AI 项目/工具",
@@ -8940,39 +9031,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · arXiv cs.LG",
         "url": "https://arxiv.org/abs/2608.27574"
-      },
-      {
-        "name": "AI for Persona Research and Creation: Build Better Profiles ",
-        "provider": "The Interaction Design Foundation",
-        "type": "AI 项目/工具",
-        "bestFor": "Personas help you get inside your users' heads -- and build things they'll actually value. Now imagine having a tool that makes it all click faster. That's AI. ",
-        "description": "Personas help you get inside your users' heads -- and build things they'll actually value. Now imagine having a tool that makes it all click faster. That's AI. Let it handle the gr",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Interaction Design Foundation",
-        "url": "https://ixdf.org/literature/article/ai-for-personas"
-      },
-      {
-        "name": "How well do AI tools help when it comes to interior design?",
-        "provider": "The Star",
-        "type": "AI 项目/工具",
-        "bestFor": "BERLIN: Will the table really fit between the window and the door? Will there be enough room to get around it without bumping into the corner? And would that ma",
-        "description": "BERLIN: Will the table really fit between the window and the door? Will there be enough room to get around it without bumping into the corner? And would that maximalist wallpaper a",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Star",
-        "url": "https://www.thestar.com.my/tech/tech-news/2026/08/29/how-well-do-ai-tools-help-when-it-comes-to-interior-design"
-      },
-      {
-        "name": "LLMs Are Not (Consistently) Bayesian: Quantifying Internal (",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Modern AI systems are being deployed in complex domains such as medicine, science, and law, where there is often not a single correct answer given the observed ",
-        "description": "Modern AI systems are being deployed in complex domains such as medicine, science, and law, where there is often not a single correct answer given the observed evidence. Such syste",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · Apple ML Research",
-        "url": "https://machinelearning.apple.com/research/llms-not-consistently-bayesian"
       }
     ],
     "ai-office": []
@@ -10381,13 +10439,24 @@
   ],
   "dailyReport": {
     "date": "2026-09-17",
-    "generatedAt": "2026-09-16T19:23:50.971662Z",
-    "total": 16,
+    "generatedAt": "2026-09-17T01:19:04.524586Z",
+    "total": 20,
     "sections": [
       {
         "category": "ai-coding",
         "label": "AI 编程",
         "items": [
+          {
+            "title": "Shared Selective Persistent Memory for Agentic LLM Systems",
+            "summary": "Agentic LLM systems that generate code through multi-turn tool use face a fundamental context problem: each session starts from zero, discar",
+            "source": "RSS · Apple ML Research",
+            "url": "https://machinelearning.apple.com/research/shared-selective-persistent-memory",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-16",
+            "publishedAt": "2026-09-16T08:00",
+            "reason": ""
+          },
           {
             "title": "How to connect AI usage to business value",
             "summary": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to busine",
@@ -10417,6 +10486,17 @@
             "reason": ""
           },
           {
+            "title": "Glyph: A Multi-Strategy Agentic System for Column Description and Sensitivity-Ontology Tagging of Enterprise Data Catalogs",
+            "summary": "Enterprise data lakes accumulate tables faster than human stewards can document or classify them, leaving columns with missing descriptions ",
+            "source": "RSS · Apple ML Research",
+            "url": "https://machinelearning.apple.com/research/glyph-column-description-tagging",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-16",
+            "publishedAt": "2026-09-16T08:00",
+            "reason": ""
+          },
+          {
             "title": "Your Agent Aced the Task. Will It Do It Again?",
             "summary": "",
             "source": "RSS · Hugging Face Blog",
@@ -10442,6 +10522,50 @@
             "sourceCount": 1,
             "date": "2026-09-17",
             "publishedAt": "2026-09-17T00:00",
+            "reason": ""
+          },
+          {
+            "title": "DACA-GRPO: Denoising-Aware Credit Assignment for Reinforcement Learning in Diffusion Language Models",
+            "summary": "Diffusion large language models are a compelling alternative to autoregressive models, yet existing RL methods for diffusion treat all denoi",
+            "source": "RSS · Apple ML Research",
+            "url": "https://machinelearning.apple.com/research/denoising-aware-credit-assignment",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-16",
+            "publishedAt": "2026-09-16T08:00",
+            "reason": ""
+          },
+          {
+            "title": "Trajectory as the Teacher: Few-Step Discrete Flow Matching via Energy-Navigated Distillation",
+            "summary": "Discrete flow matching generates text by iteratively transforming noise tokens into coherent language, but may require hundreds of forward p",
+            "source": "RSS · Apple ML Research",
+            "url": "https://machinelearning.apple.com/research/trajectory-teacher-flow-matching",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-16",
+            "publishedAt": "2026-09-16T08:00",
+            "reason": ""
+          },
+          {
+            "title": "How Value Induction Reshapes LLM Behaviour",
+            "summary": "Conversational Large Language Models are post-trained on language that expresses specific behavioural traits, such as curiosity, open-minded",
+            "source": "RSS · Apple ML Research",
+            "url": "https://machinelearning.apple.com/research/value-induction-llm-behaviour",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-16",
+            "publishedAt": "2026-09-16T08:00",
+            "reason": ""
+          },
+          {
+            "title": "Migrating from closed to open source models, Together",
+            "summary": "Moving from closed to open source models can take weeks, not years. A five-stage playbook: discover, evaluate, adapt, decide, and production",
+            "source": "RSS · Together AI",
+            "url": "https://www.together.ai/blog/migrating-from-closed-to-open-source-models",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-16",
+            "publishedAt": "2026-09-16T08:00",
             "reason": ""
           },
           {
@@ -10519,28 +10643,6 @@
             "sourceCount": 1,
             "date": "2026-09-16",
             "publishedAt": "2026-09-16T00:01",
-            "reason": ""
-          },
-          {
-            "title": "AI for everyone in every language",
-            "summary": "We’re moving beyond traditional text translation to build models that understand the world’s rich, living languages exactly as they are expr",
-            "source": "RSS · Google AI Blog",
-            "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-16",
-            "publishedAt": "2026-09-16T00:00",
-            "reason": ""
-          },
-          {
-            "title": "Building AI to accelerate science and improve lives",
-            "summary": "The true measure of AI is who it helps. Here’s how it’s impacting lives today. We're focused on key areas where advanced technology can help",
-            "source": "RSS · Google AI Blog",
-            "url": "https://blog.google/innovation-and-ai/technology/ai/ai-applications-science-people/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-16",
-            "publishedAt": "2026-09-16T00:00",
             "reason": ""
           }
         ]
