@@ -1,7 +1,61 @@
 {
   "lastUpdated": "2026-09-18",
-  "generatedAt": "2026-09-17T16:21:55.668727Z",
+  "generatedAt": "2026-09-17T18:43:51.886801Z",
   "news": [
+    {
+      "title": "Reduce time-to-hire for quality candidates with AI-powered Amazon Connect Talent",
+      "summary": "Amazon Connect Talent is an AI hiring solution built for talent acquisition leaders managing scaled hiring. It delivers AI-led interviews, data-driven assessments, and consistent e",
+      "category": "ai-models",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-18",
+      "publishedAt": "2026-09-18T01:55",
+      "collectedAt": "2026-09-18T02:43",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/reduce-time-to-hire-for-quality-candidates-with-ai-powered-amazon-connect-talent/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Sep 17, 2026 Announcements Introducing the Life Sciences Verification Program",
+      "summary": "Sep 17, 2026 Announcements Introducing the Life Sciences Verification Program",
+      "category": "ai-models",
+      "source": "HTML · Anthropic",
+      "date": "2026-09-17",
+      "publishedAt": "",
+      "collectedAt": "2026-09-18T02:43",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-17",
+      "tags": [],
+      "url": "https://www.anthropic.com/news/life-sciences-verification-program",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Implementing defense-in-depth authorization for MCP tools on Amazon Quick",
       "summary": "Learn how to enforce defense-in-depth authorization for Model Context Protocol (MCP) tools on Amazon Quick. This walkthrough wires Microsoft Entra ID group and claims-based JWTs th",
@@ -6609,6 +6663,17 @@
     ],
     "ai-models": [
       {
+        "name": "Qwen 发布原生全模态模型 Qwen3.8-Omni-Flash，主打音视频智能体任务交付",
+        "provider": "Qwen：Blog Retrieval（API）",
+        "type": "AI 项目/工具",
+        "bestFor": "Qwen 发布下一代原生全模态模型 Qwen3.8-Omni-Flash，支持文本、图像、音频和视频输入及 1M token 上下文窗口，29 项评测平均分较 Qwen3.5-Omni-Plus 提升超过 25%，音频输入每小时价格下降超过 98%，音视频输入每小时价格下降超过 93%。",
+        "description": "Qwen 发布下一代原生全模态模型 Qwen3.8-Omni-Flash，支持文本、图像、音频和视频输入及 1M token 上下文窗口，29 项评测平均分较 Qwen3.5-Omni-Plus 提升超过 25%，音频输入每小时价格下降超过 98%，音视频输入每小时价格下降超过 93%。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Qwen：Blog Retrieval（API）",
+        "url": "https://qwen.ai/blog?id=qwen3.8-omni-flash"
+      },
+      {
         "name": "Selecting a vector store for Amazon Bedrock Knowledge Bases",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -7036,17 +7101,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "The Block",
         "url": "https://www.theblock.co/news/sponsored/2026-09-15-b-ai-sun-io-justlend-dao-and-bittorrent-expand-metamask-connectivity-driving-global-defi-access-414152"
-      },
-      {
-        "name": "MediaTek 9600 Pro Chip Brings More Powerful AI, Gaming Upgra",
-        "provider": "PC Magazine",
-        "type": "AI 项目/工具",
-        "bestFor": "MediaTek is back with its next top-end processor, expected to appear in flagship phones from various Android makers as a rival to Qualcomm's upcoming flagship c",
-        "description": "MediaTek is back with its next top-end processor, expected to appear in flagship phones from various Android makers as a rival to Qualcomm's upcoming flagship chipset and the newly",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "PC Magazine",
-        "url": "https://www.pcmag.com/news/mediatek-9600-pro-chip-brings-more-powerful-ai-gaming-upgrades-to-phones"
       }
     ],
     "ai-business": [
@@ -10356,8 +10410,8 @@
   ],
   "dailyReport": {
     "date": "2026-09-18",
-    "generatedAt": "2026-09-17T16:21:55.647120Z",
-    "total": 9,
+    "generatedAt": "2026-09-17T18:43:51.865802Z",
+    "total": 11,
     "sections": [
       {
         "category": "ai-coding",
@@ -10436,6 +10490,28 @@
         "category": "ai-models",
         "label": "模型发布",
         "items": [
+          {
+            "title": "Reduce time-to-hire for quality candidates with AI-powered Amazon Connect Talent",
+            "summary": "Amazon Connect Talent is an AI hiring solution built for talent acquisition leaders managing scaled hiring. It delivers AI-led interviews, d",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/reduce-time-to-hire-for-quality-candidates-with-ai-powered-amazon-connect-talent/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-18",
+            "publishedAt": "2026-09-18T01:55",
+            "reason": ""
+          },
+          {
+            "title": "Sep 17, 2026 Announcements Introducing the Life Sciences Verification Program",
+            "summary": "Sep 17, 2026 Announcements Introducing the Life Sciences Verification Program",
+            "source": "HTML · Anthropic",
+            "url": "https://www.anthropic.com/news/life-sciences-verification-program",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-17",
+            "publishedAt": "",
+            "reason": ""
+          },
           {
             "title": "Helping older adults use AI in everyday life",
             "summary": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safel",
