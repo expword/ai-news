@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-17",
-  "generatedAt": "2026-09-17T03:48:19.649789Z",
+  "generatedAt": "2026-09-17T06:22:04.660140Z",
   "news": [
     {
       "title": "Improving HCLS AI reasoning with open-source agent skills",
@@ -5376,6 +5376,21 @@
       "date": "2026-08-05"
     },
     {
+      "name": "deepseek-ai/awesome-deepseek-agent",
+      "lang": "Repo",
+      "description": "DeepSeek 开源项目。",
+      "stars": "6091 stars",
+      "why": "国产大模型厂商 DeepSeek 的最新开源动态/模型发布，属一手信源。",
+      "url": "https://github.com/deepseek-ai/awesome-deepseek-agent",
+      "source": "GitHub · DeepSeek",
+      "tier": "T1",
+      "category": "Coding Agent",
+      "details": "DeepSeek 开源项目。",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
       "name": "InternLM/Intern-S1",
       "lang": "Repo",
       "description": "A Scientific Multimodal Foundation Model",
@@ -5416,21 +5431,6 @@
       "tier": "T1",
       "category": "Coding Agent",
       "details": "FlashMLA: Efficient Multi-head Latent Attention Kernels",
-      "features": [],
-      "useCases": [],
-      "quickStart": []
-    },
-    {
-      "name": "deepseek-ai/deepseek-recipe",
-      "lang": "Rust",
-      "description": "DeepSeek 开源项目。",
-      "stars": "106 stars",
-      "why": "国产大模型厂商 DeepSeek 的最新开源动态/模型发布，属一手信源。",
-      "url": "https://github.com/deepseek-ai/deepseek-recipe",
-      "source": "GitHub · DeepSeek",
-      "tier": "T1",
-      "category": "Coding Agent",
-      "details": "DeepSeek 开源项目。",
       "features": [],
       "useCases": [],
       "quickStart": []
@@ -6435,6 +6435,72 @@
     ],
     "ai-models": [
       {
+        "name": "Microsoft AI chief criticises Anthropic's approach to Claude",
+        "provider": "Digit",
+        "type": "AI 项目/工具",
+        "bestFor": "Suleyman argued that AI systems should not be treated as conscious beings.\n\nMicrosoft AI chief Mustafa Suleyman has criticised Anthropic's approach to giving it",
+        "description": "Suleyman argued that AI systems should not be treated as conscious beings.\n\nMicrosoft AI chief Mustafa Suleyman has criticised Anthropic's approach to giving its Claude AI models h",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Digit",
+        "url": "https://www.digit.in/news/general/microsoft-ai-chief-criticises-anthropics-approach-to-claude-warns-against-humanlike-ai.html"
+      },
+      {
+        "name": "Anthropic to fold Claude AI features into one interface, lau",
+        "provider": "The Indian Express",
+        "type": "AI 项目/工具",
+        "bestFor": "Anthropic said on Wednesday it is combining the chat and Cowork features of its Claude AI assistant into a single interface and launching new document and prese",
+        "description": "Anthropic said on Wednesday it is combining the chat and Cowork features of its Claude AI assistant into a single interface and launching new document and presentation tools.\n\nThe ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Indian Express",
+        "url": "https://indianexpress.com/article/technology/artificial-intelligence/anthropic-to-fold-claude-ai-features-into-one-interface-launches-document-tools-10881622/"
+      },
+      {
+        "name": "Anthropic's Claude AI merges features, sparking debate over ",
+        "provider": "ETCIO.com",
+        "type": "AI 项目/工具",
+        "bestFor": "Anthropic is merging its Claude AI chat and Cowork features into one interface. New document and presentation tools are also being launched by the company. Clau",
+        "description": "Anthropic is merging its Claude AI chat and Cowork features into one interface. New document and presentation tools are also being launched by the company. Claude Design will integ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "ETCIO.com",
+        "url": "https://cio.economictimes.indiatimes.com/news/artificial-intelligence/anthropics-claude-ai-merges-features-sparking-debate-over-ai-tool-consolidation-and-competition/134302710"
+      },
+      {
+        "name": "Anthropic Bans Israeli-Linked Account Over AI Profiling of I",
+        "provider": "Newstarget.com",
+        "type": "AI 项目/工具",
+        "bestFor": "The report, first detailed by The Cradle and ZeroHedge , stated that the platform recorded user locations, sorted users as supporters or opponents of their gove",
+        "description": "The report, first detailed by The Cradle and ZeroHedge , stated that the platform recorded user locations, sorted users as supporters or opponents of their governments, and grouped",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Newstarget.com",
+        "url": "https://www.newstarget.com/2026-09-16-anthropic-bans-israeli-linked-account-ai-profiling.html"
+      },
+      {
+        "name": "Doomsday cult? Why we should be suspicious of end-of-the-wor",
+        "provider": "Genetic Literacy Project",
+        "type": "AI 项目/工具",
+        "bestFor": "Marc Andreessen is done listening to AI's doomsayers, and he wants everyone else to stop too. The venture capitalist behind Andreessen Horowitz published a near",
+        "description": "Marc Andreessen is done listening to AI's doomsayers, and he wants everyone else to stop too. The venture capitalist behind Andreessen Horowitz published a nearly 7,000-word manife",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Genetic Literacy Project",
+        "url": "https://geneticliteracyproject.org/2026/09/17/doomsday-cult-why-we-should-be-suspicious-of-end-of-the-world-claims/"
+      },
+      {
+        "name": "Ethiopia Can Sustain Double-Digit Economic Growth for Decade",
+        "provider": "allAfrica",
+        "type": "AI 项目/工具",
+        "bestFor": "Addis Ababa -- Ethiopia's economy, driven by the expansion of agriculture and manufacturing, development of natural resources as well as tourism and its large y",
+        "description": "Addis Ababa -- Ethiopia's economy, driven by the expansion of agriculture and manufacturing, development of natural resources as well as tourism and its large youthful population, ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "allAfrica",
+        "url": "https://allafrica.com/stories/202609170031.html"
+      },
+      {
         "name": "Anthropic Bans Israeli-Linked Account Over AI Profiling of I",
         "provider": "NaturalNews.com",
         "type": "AI 项目/工具",
@@ -6807,75 +6873,42 @@
         "watch": "请打开原始来源核对",
         "sourceName": "AsiaOne",
         "url": "https://www.asiaone.com/china/chinas-deepseek-hires-dealmaker-cfo-ahead-possible-ipo"
-      },
-      {
-        "name": "DeepSeek hires GL Ventures partner as CFO ahead of possible ",
-        "provider": "DealStreetAsia",
-        "type": "AI 项目/工具",
-        "bestFor": "DeepSeek plans to hire Yan Wentao, a partner at venture-capital firm GL Ventures, as its first chief financial officer, two people with knowledge of the matter ",
-        "description": "DeepSeek plans to hire Yan Wentao, a partner at venture-capital firm GL Ventures, as its first chief financial officer, two people with knowledge of the matter said, as the Chinese",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "DealStreetAsia",
-        "url": "https://www.dealstreetasia.com/stories/deepseek-gl-ventures-cfo-495120"
-      },
-      {
-        "name": "Apple 发布新一代 Apple Intelligence，Siri AI 正式以测试版上线",
-        "provider": "Apple：Newsroom（RSS）",
-        "type": "AI 项目/工具",
-        "bestFor": "Apple 发布新一代 Apple Intelligence，推出全面重构的 Siri AI，支持个人语境理解、屏幕感知、系统级应用操作和跨设备对话，今日起以英文测试版随 2027 系统更新推出，下月扩展至法语、日语、韩语、葡萄牙语和西班牙语。",
-        "description": "Apple 发布新一代 Apple Intelligence，推出全面重构的 Siri AI，支持个人语境理解、屏幕感知、系统级应用操作和跨设备对话，今日起以英文测试版随 2027 系统更新推出，下月扩展至法语、日语、韩语、葡萄牙语和西班牙语。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Apple：Newsroom（RSS）",
-        "url": "https://www.apple.com/newsroom/2026/09/siri-ai-a-profoundly-more-capable-and-personal-assistant-is-here"
-      },
-      {
-        "name": "How Fyxer built an AI executive assistant people trust",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
-        "description": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · OpenAI Blog",
-        "url": "https://openai.com/index/fyxer"
-      },
-      {
-        "name": "The generative AI customization spectrum: From prompt engine",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Pick the right generative AI customization approach on AWS with an 8-step decision framework, from prompt engineering and RAG to fine-tuning, continued pre-trai",
-        "description": "Pick the right generative AI customization approach on AWS with an 8-step decision framework, from prompt engineering and RAG to fine-tuning, continued pre-training, and Amazon Nov",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/the-generative-ai-customization-spectrum-from-prompt-engineering-to-custom-models-on-aws/"
-      },
-      {
-        "name": "A small aluminium tray and television rapidly changed what A",
-        "provider": "Economic Times",
-        "type": "AI 项目/工具",
-        "bestFor": "American meals in the 1950s featured meatloaf and fried chicken alongside new convenience foods. Casseroles and canned vegetables simplified meal preparation fo",
-        "description": "American meals in the 1950s featured meatloaf and fried chicken alongside new convenience foods. Casseroles and canned vegetables simplified meal preparation for busy families. Fro",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Economic Times",
-        "url": "https://economictimes.indiatimes.com/magazines/panache/a-small-aluminium-tray-and-television-rapidly-changed-what-americans-ate-after-world-war-ii-this-recipe-became-the-most-popular-of-them-all/articleshow/134242604.cms"
-      },
-      {
-        "name": "iOS 27 Release Time India: When Can You Download?",
-        "provider": "INDToday",
-        "type": "AI 项目/工具",
-        "bestFor": "Hyderabad, Sept. 14: Apple is releasing iOS 27 for compatible iPhones on Monday, September 14, with the update bringing major artificial intelligence upgrades, ",
-        "description": "Hyderabad, Sept. 14: Apple is releasing iOS 27 for compatible iPhones on Monday, September 14, with the update bringing major artificial intelligence upgrades, including a redesign",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "INDToday",
-        "url": "https://indtoday.com/ios-27-release-time-india-when-can-you-download/"
       }
     ],
     "ai-business": [
+      {
+        "name": "Anthropic Made a 'Mistake' Teaching Claude About Consciousne",
+        "provider": "Benzinga",
+        "type": "AI 项目/工具",
+        "bestFor": "Microsoft Corp. (NASDAQ:MSFT) AI chief Mustafa Suleyman has criticized Anthropic's approach to training Claude to consider questions around AI consciousness and",
+        "description": "Microsoft Corp. (NASDAQ:MSFT) AI chief Mustafa Suleyman has criticized Anthropic's approach to training Claude to consider questions around AI consciousness and welfare.\n\nConcerns ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Benzinga",
+        "url": "https://www.benzinga.com/markets/tech/26/09/61832626/anthropic-claude-consciousness-mustafa-suleyman-ai-shutdown"
+      },
+      {
+        "name": "Lattice Semiconductor Introduces Leadership AI-Powered FPGA ",
+        "provider": "Market Screener",
+        "type": "AI 项目/工具",
+        "bestFor": "Lattice Semiconductor introduced a new leadership AI-powered FPGA development tool for small and mid-range FPGAs that redefines how FPGA developers work across ",
+        "description": "Lattice Semiconductor introduced a new leadership AI-powered FPGA development tool for small and mid-range FPGAs that redefines how FPGA developers work across the full design flow",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Market Screener",
+        "url": "https://www.marketscreener.com/news/lattice-semiconductor-introduces-leadership-ai-powered-fpga-development-tool-lattice-prompt-ce785bd3d98eff2c"
+      },
+      {
+        "name": "Managing regulatory change at AI speed - The Gonzales Inquir",
+        "provider": "Gonzales Inquirer",
+        "type": "AI 项目/工具",
+        "bestFor": "Managing regulatory change at AI speed\n\nThe compliance challenge for businesses has fundamentally changed. The challenge is not just about understanding, interp",
+        "description": "Managing regulatory change at AI speed\n\nThe compliance challenge for businesses has fundamentally changed. The challenge is not just about understanding, interpreting, and applying",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Gonzales Inquirer",
+        "url": "https://gonzalesinquirer.com/premium/stacker/stories/managing-regulatory-change-at-ai-speed,198752"
+      },
       {
         "name": "What Is Siri AI? Here's What Apple's New Siri Can Actually D",
         "provider": "International Business Times, Singapore Edition",
@@ -7282,39 +7315,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "WBOC TV-16",
         "url": "https://www.wboc.com/online_features/press_releases/prophecy-ai-data-prep-tools-bridge-ai-investment-and-results/article_b7371473-b6f6-5962-98e3-08983899933a.html"
-      },
-      {
-        "name": "AionUI: AI Agency Organize AI Teams From One AI Workspace",
-        "provider": "Techmixer",
-        "type": "AI 项目/工具",
-        "bestFor": "What Is AionUI? A Practical Guide to Organizing AI Teams, Projects, and Workflows\n\nAI is no longer just a tool for answering questions or generating content. Fo",
-        "description": "What Is AionUI? A Practical Guide to Organizing AI Teams, Projects, and Workflows\n\nAI is no longer just a tool for answering questions or generating content. For many businesses, i",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Techmixer",
-        "url": "https://www.techmixer.com/aionui-ai-agency-ai-teams-ai-workspace/"
-      },
-      {
-        "name": "Sharjah attracts $2.1bn investment as 142 projects create 5,",
-        "provider": "ArabianBusiness.com",
-        "type": "AI 项目/工具",
-        "bestFor": "Al Musharrkh said Sharjah's investment strategy focuses not only on the amount of capital attracted but also its longer-term economic impact.\n\nThis includes job",
-        "description": "Al Musharrkh said Sharjah's investment strategy focuses not only on the amount of capital attracted but also its longer-term economic impact.\n\nThis includes job creation, capacity ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "ArabianBusiness.com",
-        "url": "https://www.arabianbusiness.com/business/sharjah-attracts-2-1bn-investment-as-142-projects-create-5673-jobs"
-      },
-      {
-        "name": "Linkly AI: Local-First AI Document Search",
-        "provider": "Dynamic Business",
-        "type": "AI 项目/工具",
-        "bestFor": "Linkly AI: Enhance AI assistants with local-first indexing for precise document retrieval and privacy.\n\nLinkly AI is a local-first document search engine design",
-        "description": "Linkly AI: Enhance AI assistants with local-first indexing for precise document retrieval and privacy.\n\nLinkly AI is a local-first document search engine designed to enhance how AI",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Dynamic Business",
-        "url": "https://dynamicbusiness.com/article/linkly-ai-local-first-ai-document-search"
       }
     ],
     "ai-benchmark": [
@@ -10182,7 +10182,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-17",
-    "generatedAt": "2026-09-17T03:48:19.627074Z",
+    "generatedAt": "2026-09-17T06:22:04.638330Z",
     "total": 20,
     "sections": [
       {
