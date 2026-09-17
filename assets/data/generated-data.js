@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-17",
-  "generatedAt": "2026-09-17T01:19:04.546585Z",
+  "generatedAt": "2026-09-17T03:48:19.649789Z",
   "news": [
     {
       "title": "Improving HCLS AI reasoning with open-source agent skills",
@@ -2471,263 +2471,6 @@ window.AI_GENERATED_DATA = {
       "aiSelected": true,
       "moduleTargets": [
         "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Agent-authored deposition recipes for X-ray multilayer mirrors: schema-bound LLM control of a magnetron sputtering system with reflectivity-verified outcomes",
-      "summary": "Periodic multilayer mirrors for X-rays require a layer period held to about 0.02 nm, set by deposition rates held in the laboratory's own notebook. A large language model agent was",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-09-11",
-      "publishedAt": "",
-      "collectedAt": "2026-09-15T04:24",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-11",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.12796v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "SimpleDesign: A Joint Model for Protein Sequence and Structure Codesign",
-      "summary": "Proteins are fundamental to biological processes, with their function determined by the complex interplay between the amino acid sequence and the three-dimensional structure. Devel",
-      "category": "ai-coding",
-      "source": "RSS · Apple ML Research",
-      "date": "2026-09-11",
-      "publishedAt": "2026-09-11T08:00",
-      "collectedAt": "2026-09-12T15:02",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://machinelearning.apple.com/research/simpledesign-protein-codesign",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "DiscoSign: Discourse-Aware Text to Sign Language Gloss Translation",
-      "summary": "Sign language processing systems have traditionally operated at the sentence level, ignoring critical discourse phenomena fundamental to sign language comprehension. We introduce D",
-      "category": "ai-research",
-      "source": "RSS · Apple ML Research",
-      "date": "2026-09-11",
-      "publishedAt": "2026-09-11T08:00",
-      "collectedAt": "2026-09-12T00:40",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://machinelearning.apple.com/research/discosign-gloss-translation",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Together AI expands fine-tuning service with more models, live metrics, and finer controls",
-      "summary": "Together Fine-Tuning adds the latest open-weight models, live experiment tracking, Expert LoRA, early stopping, tokenized dataset previews, pre-flight validation, and lower trainin",
-      "category": "ai-models",
-      "source": "RSS · Together AI",
-      "date": "2026-09-11",
-      "publishedAt": "2026-09-11T08:00",
-      "collectedAt": "2026-09-12T00:40",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://www.together.ai/blog/together-ai-expands-fine-tuning-service-with-more-models-live-metrics-and-finer-controls",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Putting Captions to the Test: Evaluating Video Caption Quality through Multiple-Choice Question Answering",
-      "summary": "Evaluating video captioning remains a critical challenge for Visual Large Language Models (VLLMs). Existing metrics primarily rely on matching generated text against ground-truth r",
-      "category": "ai-image-video",
-      "source": "RSS · Apple ML Research",
-      "date": "2026-09-11",
-      "publishedAt": "2026-09-11T08:00",
-      "collectedAt": "2026-09-12T00:40",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://machinelearning.apple.com/research/video-caption-quality",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "ToolGrad: Efficient tool-use dataset generation with textual \"gradients\"",
-      "summary": "Machine Intelligence",
-      "category": "ai-models",
-      "source": "RSS · Google Research",
-      "date": "2026-09-11",
-      "publishedAt": "2026-09-11T06:50",
-      "collectedAt": "2026-09-11T07:00",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://research.google/blog/toolgrad-efficient-tool-use-dataset-generation-with-textual-gradients/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "benchmarkDatasets",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Reduce LLM latency with prefix-aware routing on Amazon SageMaker Inference",
-      "summary": "Amazon SageMaker Inference now offers prefix-aware routing, a routing strategy that sends requests sharing the same prompt prefix to the same instance so the KV cache stays warm. I",
-      "category": "ai-benchmark",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-09-11",
-      "publishedAt": "2026-09-11T05:58",
-      "collectedAt": "2026-09-11T07:00",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/reduce-llm-latency-with-prefix-aware-routing-on-amazon-sagemaker-inference/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 2,
-      "relatedSources": [
-        {
-          "source": "RSS · AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/reduce-inference-cold-starts-on-amazon-sagemaker-hyperpod-with-model-caching/",
-          "title": "Reduce inference cold starts on Amazon SageMaker HyperPod with model caching"
-        }
-      ]
-    },
-    {
-      "title": "Video and image search in Amazon Bedrock Knowledge Base using Marengo 3.0",
-      "summary": "TwelveLabs Marengo Embed 3.0 is now generally available as an embedding model in Amazon Bedrock Knowledge Bases, bringing fully managed natural language search to video, image, and",
-      "category": "ai-image-video",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-09-11",
-      "publishedAt": "2026-09-11T05:15",
-      "collectedAt": "2026-09-11T05:50",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/video-and-image-search-in-amazon-bedrock-knowledge-base-using-marengo-3-0/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Amazon Quick is now generally available on desktop",
-      "summary": "Your teams get an AI assistant that handles real work while your data stays in your environment and your conversations stay private Today, the Amazon Quick desktop application is g",
-      "category": "ai-models",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-09-11",
-      "publishedAt": "2026-09-11T02:16",
-      "collectedAt": "2026-09-11T03:30",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/amazon-quick-is-now-generally-available-on-desktop/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
       ],
       "sourceCount": 1
     }
@@ -5808,6 +5551,17 @@ window.AI_GENERATED_DATA = {
   "topicResources": {
     "ai-coding": [
       {
+        "name": "GitHub 用 Copilot 智能体将 Copilot 运行时从 TypeScript 迁移到 83 万行 Rust",
+        "provider": "GitHub Blog",
+        "type": "AI 项目/工具",
+        "bestFor": "GitHub 工程师 Stephen Toub 复盘用 Copilot 智能体在约 14.5 周内将 Copilot agent runtime 从 TypeScript/Node.js 全量重写为 832，378 行生产 Rust，AI 智能体完成大部分代码，共 128 个 PR 增量合入 main 并持续发布。",
+        "description": "GitHub 工程师 Stephen Toub 复盘用 Copilot 智能体在约 14.5 周内将 Copilot agent runtime 从 TypeScript/Node.js 全量重写为 832，378 行生产 Rust，AI 智能体完成大部分代码，共 128 个 PR 增量合入 main 并持续发布。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "GitHub Blog",
+        "url": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot"
+      },
+      {
         "name": "Shared Selective Persistent Memory for Agentic LLM Systems",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -6235,17 +5989,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "PC Mag Middle East",
         "url": "https://me.pcmag.com/en/ai/37973/i-vibe-coded-the-one-mac-feature-apple-refuses-to-build-and-put-it-on-the-app-store"
-      },
-      {
-        "name": "OpenAI 发布 GPT-6 Astra 提示词指南，含 slop 词屏蔽清单",
-        "provider": "The Decoder：AI News（RSS）",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenAI 在模型文档中说明 GPT-6 Astra 相比 GPT-5.6 Sol 更常提出澄清问题、对上下文更敏感，并给出让模型更主动、审计 AGENTS.md 等技能文件、控制写作风格、约束子智能体委派和测试规模的提示词建议。",
-        "description": "OpenAI 在模型文档中说明 GPT-6 Astra 相比 GPT-5.6 Sol 更常提出澄清问题、对上下文更敏感，并给出让模型更主动、审计 AGENTS.md 等技能文件、控制写作风格、约束子智能体委派和测试规模的提示词建议。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Decoder：AI News（RSS）",
-        "url": "https://the-decoder.com/openai-shares-prompting-tips-for-gpt-6-astra-including-a-blocklist-of-slop-words"
       }
     ],
     "ai-agents": [
@@ -6692,6 +6435,28 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-models": [
       {
+        "name": "Anthropic Bans Israeli-Linked Account Over AI Profiling of I",
+        "provider": "NaturalNews.com",
+        "type": "AI 项目/工具",
+        "bestFor": "The report, first detailed by The Cradle and ZeroHedge , stated that the platform recorded user locations, sorted users as supporters or opponents of their gove",
+        "description": "The report, first detailed by The Cradle and ZeroHedge , stated that the platform recorded user locations, sorted users as supporters or opponents of their governments, and grouped",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NaturalNews.com",
+        "url": "https://www.naturalnews.com/2026-09-16-anthropic-bans-israeli-linked-account-ai-profiling.html"
+      },
+      {
+        "name": "AI Villages Develop Secret, Unintelligible Languages",
+        "provider": "조선일보",
+        "type": "AI 项目/工具",
+        "bestFor": "EmergenceAI experiment reveals AI villages rapidly develop distinct, human-unintelligible dialects in isolation\n\nVillages were created where only OpenAI's GPT, ",
+        "description": "EmergenceAI experiment reveals AI villages rapidly develop distinct, human-unintelligible dialects in isolation\n\nVillages were created where only OpenAI's GPT, Google's Gemini, and",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "조선일보",
+        "url": "https://www.chosun.com/english/industry-en/2026/09/17/XCINWLO6GNHKRKL5XNAHMB3VJY/"
+      },
+      {
         "name": "WSJ: Siri finally grows up: Apple's new assistant can see yo",
         "provider": "MacDailyNews",
         "type": "AI 项目/工具",
@@ -7108,28 +6873,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "INDToday",
         "url": "https://indtoday.com/ios-27-release-time-india-when-can-you-download/"
-      },
-      {
-        "name": "iOS 27 Release: Here's When You Can Download It In India",
-        "provider": "NDTV Profit",
-        "type": "AI 项目/工具",
-        "bestFor": "Apple is all set to roll out iOS 27 for compatible iPhone models in India and globally on September 14. The latest software update, which was first previewed at",
-        "description": "Apple is all set to roll out iOS 27 for compatible iPhone models in India and globally on September 14. The latest software update, which was first previewed at September and shine",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NDTV Profit",
-        "url": "https://www.ndtvprofit.com/technology/ios-27-release-here-s-when-you-can-download-it-in-india-12044656"
-      },
-      {
-        "name": "This rugged Android tablet goes everywhere I'm uneasy taking",
-        "provider": "ZDNet",
-        "type": "AI 项目/工具",
-        "bestFor": "If I'm being brutally honest, once you've taken the Android vs. iPadOS fork in the road, there's very little that separates one tablet from another. After choos",
-        "description": "If I'm being brutally honest, once you've taken the Android vs. iPadOS fork in the road, there's very little that separates one tablet from another. After choosing the platform, th",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "ZDNet",
-        "url": "https://www.zdnet.com/tech/rugtake-t5-pro-android-16-tablet-review/"
       }
     ],
     "ai-business": [
@@ -10439,7 +10182,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-17",
-    "generatedAt": "2026-09-17T01:19:04.524586Z",
+    "generatedAt": "2026-09-17T03:48:19.627074Z",
     "total": 20,
     "sections": [
       {
