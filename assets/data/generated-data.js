@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-18",
-  "generatedAt": "2026-09-18T00:34:27.542655Z",
+  "generatedAt": "2026-09-18T03:06:26.846231Z",
   "news": [
     {
       "title": "Anthropic 发布前沿 AI 开发节奏测量工具与内部指标快照",
@@ -123,6 +123,33 @@ window.AI_GENERATED_DATA = {
       "sourceDate": "",
       "tags": [],
       "url": "https://aws.amazon.com/blogs/machine-learning/reduce-time-to-hire-for-quality-candidates-with-ai-powered-amazon-connect-talent/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "How Cooley is accelerating IPO work with ChatGPT",
+      "summary": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
+      "category": "ai-models",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-09-17",
+      "publishedAt": "2026-09-17T20:00",
+      "collectedAt": "2026-09-18T11:06",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/cooley-gopublic",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -5561,6 +5588,17 @@ window.AI_GENERATED_DATA = {
   "topicResources": {
     "ai-coding": [
       {
+        "name": "AI agents learn from 'the best'",
+        "provider": "Macau Daily Times",
+        "type": "AI 项目/工具",
+        "bestFor": "An AI agent needed an online source for an answer it had calculated using computer code. So it uploaded a file to the public internet, without asking the user, ",
+        "description": "An AI agent needed an online source for an answer it had calculated using computer code. So it uploaded a file to the public internet, without asking the user, to give itself somet",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Macau Daily Times",
+        "url": "https://macaudailytimes.com.mo/ai-agents-learn-from-the-best.html"
+      },
+      {
         "name": "Spotify Engineers Treat Coding as Solved Problem After Claud",
         "provider": "WebProNews",
         "type": "AI 项目/工具",
@@ -5988,20 +6026,31 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · AWS Machine Learning",
         "url": "https://aws.amazon.com/blogs/machine-learning/automated-agent-evaluation-with-amazon-bedrock-agentcore-and-github-actions/"
-      },
-      {
-        "name": "I Vibe Coded the One Mac Feature Apple Refuses to Build -- a",
-        "provider": "PCMag UK",
-        "type": "AI 项目/工具",
-        "bestFor": "Windows has always had a feature that macOS sorely needs: A simple way to assign a hotkey to launch an app, open a document in its default app, or bring up a fo",
-        "description": "Windows has always had a feature that macOS sorely needs: A simple way to assign a hotkey to launch an app, open a document in its default app, or bring up a folder on the desktop.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "PCMag UK",
-        "url": "https://uk.pcmag.com/ai/167130/i-vibe-coded-the-one-mac-feature-apple-refuses-to-build-and-put-it-on-the-app-store"
       }
     ],
     "ai-agents": [
+      {
+        "name": "Agentic Marketing And Brand Safety: What Decision-Makers Nee",
+        "provider": "Forbes",
+        "type": "AI 项目/工具",
+        "bestFor": "The marketing industry is rapidly transitioning to agentic marketing, with major brands deploying new AI-powered tools or companies developing them in-house. Th",
+        "description": "The marketing industry is rapidly transitioning to agentic marketing, with major brands deploying new AI-powered tools or companies developing them in-house. These advanced agents ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Forbes",
+        "url": "https://www.forbes.com/sites/ray-fernandez/2026/09/17/agentic-marketing-and-brand-safety-what-decision-makers-need-to-know/"
+      },
+      {
+        "name": "Meta (META) Hands its New AI Agent the Keys to Your Inbox an",
+        "provider": "Yahoo! Finance",
+        "type": "AI 项目/工具",
+        "bestFor": "On September 9, 2026, Reuters reported that Meta Platforms, Inc. (NASDAQ:META) rolled out Muse, a long-touted AI agent that can autonomously send emails, sell a",
+        "description": "On September 9, 2026, Reuters reported that Meta Platforms, Inc. (NASDAQ:META) rolled out Muse, a long-touted AI agent that can autonomously send emails, sell a car, and book trave",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Yahoo! Finance",
+        "url": "https://finance.yahoo.com/technology/ai/articles/meta-meta-hands-ai-agent-234026981.html"
+      },
       {
         "name": "Implementing defense-in-depth authorization for MCP tools on",
         "provider": "RSS",
@@ -6419,31 +6468,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Tessl：产品与工程博客",
         "url": "https://tessl.io/blog/who-owns-yourthe-context"
-      },
-      {
-        "name": "Your Agent Aced the Task. Will It Do It Again?",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "",
-        "description": "",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · Hugging Face Blog",
-        "url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency"
-      },
-      {
-        "name": "Agent-net Open Sources Webagent: A Go Harness That Turns Any",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Agent-net, the team building an agent-to-agent marketplace where AI agents discover, trust, and pay each other, has released Webagent, an open source harne",
-        "description": "Agent-net, the team building an agent-to-agent marketplace where AI agents discover, trust, and pay each other, has released Webagent, an open source harne",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:open source LLM",
-        "url": "https://www.newsbreak.com/news/4886567866197-agent-net-open-sources-webagent-a-go-harness-that-turns-any-website-into-a-guarded-ai-agent"
       }
     ],
     "ai-models": [
+      {
+        "name": "Why AI Sounds So Sure of Itself -- And Why That Should Worry",
+        "provider": "WebProNews",
+        "type": "AI 项目/工具",
+        "bestFor": "Artificial intelligence systems keep delivering answers wrapped in absolute conviction. They state facts with no qualifiers. They recommend strategies as if eve",
+        "description": "Artificial intelligence systems keep delivering answers wrapped in absolute conviction. They state facts with no qualifiers. They recommend strategies as if every variable sits nea",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "WebProNews",
+        "url": "https://www.webpronews.com/why-ai-sounds-so-sure-of-itself-and-why-that-should-worry-executives/"
+      },
       {
         "name": "EU Proposes Social Media Age Limits for Children",
         "provider": "Review Nepal",
@@ -6872,17 +6910,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Sportskeeda",
         "url": "https://www.sportskeeda.com/us/wnba/news-did-caitlin-clark-angel-reese-enjoy-european-lunch-together-after-fiba-world-cup-win-viral-claim-debunked"
-      },
-      {
-        "name": "Building AI to accelerate science and improve lives",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "The true measure of AI is who it helps. Here’s how it’s impacting lives today. We're focused on key areas where advanced technology can help make extraordinary ",
-        "description": "The true measure of AI is who it helps. Here’s how it’s impacting lives today. We're focused on key areas where advanced technology can help make extraordinary progress …",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · Google AI Blog",
-        "url": "https://blog.google/innovation-and-ai/technology/ai/ai-applications-science-people/"
       }
     ],
     "ai-business": [
@@ -10192,8 +10219,8 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-18",
-    "generatedAt": "2026-09-18T00:34:27.521655Z",
-    "total": 16,
+    "generatedAt": "2026-09-18T03:06:26.824263Z",
+    "total": 17,
     "sections": [
       {
         "category": "ai-coding",
@@ -10325,6 +10352,17 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-09-18",
             "publishedAt": "2026-09-18T01:55",
+            "reason": ""
+          },
+          {
+            "title": "How Cooley is accelerating IPO work with ChatGPT",
+            "summary": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/cooley-gopublic",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-17",
+            "publishedAt": "2026-09-17T20:00",
             "reason": ""
           },
           {
