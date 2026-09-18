@@ -1,7 +1,172 @@
 window.AI_GENERATED_DATA = {
-  "lastUpdated": "2026-09-18",
-  "generatedAt": "2026-09-18T15:41:30.103348Z",
+  "lastUpdated": "2026-09-19",
+  "generatedAt": "2026-09-18T18:06:47.944890Z",
   "news": [
+    {
+      "title": "MilleMiglia: A realistic instance generator for middle-mile logistics",
+      "summary": "Algorithms & Theory",
+      "category": "ai-models",
+      "source": "RSS · Google Research",
+      "date": "2026-09-19",
+      "publishedAt": "2026-09-19T01:46",
+      "collectedAt": "2026-09-19T02:06",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://research.google/blog/millemiglia-a-realistic-instance-generator-for-middle-mile-logistics/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "The new AgentCore runtime: Elastic, optimized, and consistently fast starts",
+      "summary": "Today we are announcing the new AgentCore runtime, a capability of Amazon Bedrock AgentCore built for the speed, flexibility, and cost efficiency that production agents demand. It ",
+      "category": "ai-agents",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-18",
+      "publishedAt": "2026-09-18T23:31",
+      "collectedAt": "2026-09-19T00:55",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/the-new-agentcore-runtime-elastic-optimized-and-consistently-fast-starts/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Co-creating the future of fashion with Google",
+      "summary": "Google worked side-by-side with designers Jane Wade and Sergio Hudson to custom-design Google Flow tools to prep for NYFW.",
+      "category": "ai-models",
+      "source": "RSS · Google AI Blog",
+      "date": "2026-09-18",
+      "publishedAt": "2026-09-18T21:00",
+      "collectedAt": "2026-09-19T00:55",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "New experts join Google’s AI & Economy team",
+      "summary": "We are expanding our AI & Economy team with world-class academic advisors, fellows, and core internal researchers.",
+      "category": "ai-research",
+      "source": "RSS · Google AI Blog",
+      "date": "2026-09-18",
+      "publishedAt": "2026-09-18T22:00",
+      "collectedAt": "2026-09-19T00:55",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Introducing Amazon SageMaker HyperPod Inference Gateway",
+      "summary": "Amazon SageMaker HyperPod Inference Gateway is a Kubernetes-native, GPU-aware routing add-on for Amazon EKS. It uses real-time GPU signals to send each inference request to the bes",
+      "category": "ai-models",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-18",
+      "publishedAt": "2026-09-18T21:08",
+      "collectedAt": "2026-09-19T00:55",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-inference-gateway/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Deploy Hugging Face models on Amazon SageMaker AI with coding agents",
+      "summary": "Deploy production-ready Hugging Face models on Amazon SageMaker AI using six open-source agent skills. Point a coding agent at a model and get back a real-time endpoint with the ri",
+      "category": "ai-coding",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-18",
+      "publishedAt": "2026-09-18T23:25",
+      "collectedAt": "2026-09-19T00:55",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/deploy-hugging-face-models-on-amazon-sagemaker-ai-with-coding-agents/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Regularized Emphatic Temporal-Difference Learning: Stability under Constant Stepsizes",
       "summary": "arXiv:2609.19170v1 Announce Type: new Abstract: Emphatic temporal-difference learning (ETD) stabilizes the expected off-policy TD update and changes its projection geometry, but ne",
@@ -1955,8 +2120,8 @@ window.AI_GENERATED_DATA = {
       "relatedSources": [
         {
           "source": "RSS · AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/a-shared-agentic-platform-for-wood-mackenzie-on-amazon-bedrock-agentcore/",
-          "title": "A shared agentic platform for Wood Mackenzie, on Amazon Bedrock AgentCore"
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-kimi-k3-on-amazon-bedrock/",
+          "title": "Introducing Kimi K3 on Amazon Bedrock"
         }
       ]
     },
@@ -1986,7 +2151,14 @@ window.AI_GENERATED_DATA = {
         "news",
         "topicResources"
       ],
-      "sourceCount": 1
+      "sourceCount": 2,
+      "relatedSources": [
+        {
+          "source": "RSS · AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/migrating-multi-model-ai-agents-to-amazon-bedrock-agentcore-runtime/",
+          "title": "Migrating multi-model AI agents to Amazon Bedrock AgentCore runtime"
+        }
+      ]
     },
     {
       "title": "DevFest is back",
@@ -5559,6 +5731,17 @@ window.AI_GENERATED_DATA = {
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Deploy Hugging Face models on Amazon SageMaker AI with codin",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Deploy production-ready Hugging Face models on Amazon SageMaker AI using six open-source agent skills. Point a coding agent at a model and get back a real-time ",
+        "description": "Deploy production-ready Hugging Face models on Amazon SageMaker AI using six open-source agent skills. Point a coding agent at a model and get back a real-time endpoint with the ri",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/deploy-hugging-face-models-on-amazon-sagemaker-ai-with-coding-agents/"
+      },
+      {
         "name": "Zero-click RCE vulnerability hit four major AI coding agents",
         "provider": "IT Security News - cybersecurity, infosecurity news",
         "type": "AI 项目/工具",
@@ -5986,20 +6169,42 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Mistral AI：News（网页）",
         "url": "https://mistral.ai/news/legacy-code-modernization"
-      },
-      {
-        "name": "AgentCX Labs Launches Agent Builder Studio: Agencies and BPO",
-        "provider": "WBOC TV-16",
-        "type": "AI 项目/工具",
-        "bestFor": "Agencies and BPOs describe an agent in plain language. Studio builds it on their own AI infrastructure and delivers it under their brand. Founding Beta open.\n\nA",
-        "description": "Agencies and BPOs describe an agent in plain language. Studio builds it on their own AI infrastructure and delivers it under their brand. Founding Beta open.\n\nAgent Studio gives ag",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "WBOC TV-16",
-        "url": "https://www.wboc.com/online_features/press_releases/agentcx-labs-launches-agent-builder-studio-agencies-and-bpos-can-now-build-brand-and-sell/article_17e838ed-14ec-5f07-b46b-07b0ac4b0838.html"
       }
     ],
     "ai-agents": [
+      {
+        "name": "Gary Marcus：近期更该警惕的不是失控超级智能，而是智能体 AI 引发的规模化黑客攻击",
+        "provider": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "Gary Marcus 撰文称，近期真正应担心的不是失控的超级智能，而是被放开的 agentic AI 造成互联网规模化的黑客攻击。",
+        "description": "Gary Marcus 撰文称，近期真正应担心的不是失控的超级智能，而是被放开的 agentic AI 造成互联网规模化的黑客攻击。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+        "url": "https://garymarcus.substack.com/p/wake-up-people-what-we-should-actually"
+      },
+      {
+        "name": "The new AgentCore runtime: Elastic, optimized, and consisten",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Today we are announcing the new AgentCore runtime, a capability of Amazon Bedrock AgentCore built for the speed, flexibility, and cost efficiency that productio",
+        "description": "Today we are announcing the new AgentCore runtime, a capability of Amazon Bedrock AgentCore built for the speed, flexibility, and cost efficiency that production agents demand. It ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/the-new-agentcore-runtime-elastic-optimized-and-consistently-fast-starts/"
+      },
+      {
+        "name": "Migrating multi-model AI agents to Amazon Bedrock AgentCore ",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Migrate a multi-model healthcare AI agent from self-managed Amazon ECS with AWS Fargate to Amazon Bedrock AgentCore runtime, preserving triple-model orchestrati",
+        "description": "Migrate a multi-model healthcare AI agent from self-managed Amazon ECS with AWS Fargate to Amazon Bedrock AgentCore runtime, preserving triple-model orchestration and vector-enhanc",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/migrating-multi-model-ai-agents-to-amazon-bedrock-agentcore-runtime/"
+      },
       {
         "name": "Justin Cormack 用 35 万行 Rust 复盘 AI Agent 评估：从证据开始",
         "provider": "Tessl：产品与工程博客",
@@ -6406,42 +6611,31 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
         "url": "https://openai.com/index/reimagining-advertising-with-ai"
-      },
-      {
-        "name": "Your agent spending policy should block nothing in its first",
-        "provider": "Finextra Research",
-        "type": "AI 项目/工具",
-        "bestFor": "There is a moment in every AI agent deployment when someone asks the obvious question: should the spending policy actually block anything yet?\n\nThe instinct is ",
-        "description": "There is a moment in every AI agent deployment when someone asks the obvious question: should the spending policy actually block anything yet?\n\nThe instinct is yes. You wrote the r",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Finextra Research",
-        "url": "https://www.finextra.com/blogposting/32879/your-agent-spending-policy-should-block-nothing-in-its-first-month"
-      },
-      {
-        "name": "Would you let AI spend your money? The trust issue facing ag",
-        "provider": "Finextra Research",
-        "type": "AI 项目/工具",
-        "bestFor": "Artificial intelligence (AI) is rewiring consumer behaviour and habits, changing the way in which we shop.\n\nPeople increasingly use sophisticated AI chatbots an",
-        "description": "Artificial intelligence (AI) is rewiring consumer behaviour and habits, changing the way in which we shop.\n\nPeople increasingly use sophisticated AI chatbots and conversational ass",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Finextra Research",
-        "url": "https://www.finextra.com/blogposting/32887/would-you-let-ai-spend-your-money-the-trust-issue-facing-agentic-payments"
-      },
-      {
-        "name": "Safety framework covering AI agent risks necessary",
-        "provider": "China Daily",
-        "type": "AI 项目/工具",
-        "bestFor": "Editor's note: The Chinese government issued the Artificial Intelligence Safety Governance Framework 3.0 at the opening ceremony of the 2026 China Cybersecurity",
-        "description": "Editor's note: The Chinese government issued the Artificial Intelligence Safety Governance Framework 3.0 at the opening ceremony of the 2026 China Cybersecurity Week on Monday in J",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "China Daily",
-        "url": "https://www.chinadaily.com.cn/a/202609/16/WS6aaa91b4e4b06d4aa055e6e1.html"
       }
     ],
     "ai-models": [
+      {
+        "name": "Co-creating the future of fashion with Google",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Google worked side-by-side with designers Jane Wade and Sergio Hudson to custom-design Google Flow tools to prep for NYFW.",
+        "description": "Google worked side-by-side with designers Jane Wade and Sergio Hudson to custom-design Google Flow tools to prep for NYFW.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Google AI Blog",
+        "url": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/"
+      },
+      {
+        "name": "Qwen 发布 Qwen3.8-LiveTranslate 实时同传模型，LAAL 降至 2.3 秒",
+        "provider": "Qwen：Blog Retrieval（API）",
+        "type": "AI 项目/工具",
+        "bestFor": "Qwen 发布 Qwen3.8-LiveTranslate，采用 Interleave 架构与 Hybrid-MoE Thinker-Talker 设计重构实时同声传译，平均滞后（LAAL）从上一代的 2.8 秒降至 2.3 秒。",
+        "description": "Qwen 发布 Qwen3.8-LiveTranslate，采用 Interleave 架构与 Hybrid-MoE Thinker-Talker 设计重构实时同声传译，平均滞后（LAAL）从上一代的 2.8 秒降至 2.3 秒。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Qwen：Blog Retrieval（API）",
+        "url": "https://qwen.ai/blog?id=qwen3.8-livetranslate"
+      },
       {
         "name": "These Are Hands-Down the Best Smartwatches for Android Users",
         "provider": "Esquire",
@@ -6859,28 +7053,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:Claude AI",
         "url": "https://www.koreaherald.com/article/10875383"
-      },
-      {
-        "name": "Meta One launches globally, giving Instagram, Facebook and W",
-        "provider": "Hindustan Times",
-        "type": "AI 项目/工具",
-        "bestFor": "Meta has launched Meta One, a new subscription service that adds features and expands AI access across Instagram, Facebook, WhatsApp and Meta AI. The company is",
-        "description": "Meta has launched Meta One, a new subscription service that adds features and expands AI access across Instagram, Facebook, WhatsApp and Meta AI. The company is introducing separat",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Hindustan Times",
-        "url": "https://www.hindustantimes.com/technology/meta-one-launches-globally-giving-instagram-facebook-and-whatsapp-users-more-ways-to-create-connect-and-personalise-101789561074580.html"
-      },
-      {
-        "name": "Macy's built an AI chatbot on Google's Gemini -- and it's pu",
-        "provider": "Oregon Live",
-        "type": "AI 项目/工具",
-        "bestFor": "Artificial intelligence is reshaping retail, offering companies new ways to engage shoppers and drive sales.\n\nThe technology can help customers in ways that wer",
-        "description": "Artificial intelligence is reshaping retail, offering companies new ways to engage shoppers and drive sales.\n\nThe technology can help customers in ways that weren't possible before",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Oregon Live",
-        "url": "https://www.oregonlive.com/trending/2026/09/heres-what-macys-is-using-to-completely-change-the-way-you-shop-for-clothes-and-its-already-working.html"
       }
     ],
     "ai-business": [
@@ -10189,40 +10361,23 @@ window.AI_GENERATED_DATA = {
     }
   ],
   "dailyReport": {
-    "date": "2026-09-18",
-    "generatedAt": "2026-09-18T15:41:30.081399Z",
-    "total": 18,
+    "date": "2026-09-19",
+    "generatedAt": "2026-09-18T18:06:47.922298Z",
+    "total": 12,
     "sections": [
       {
         "category": "ai-coding",
         "label": "AI 编程",
         "items": [
           {
-            "title": "A serverless, data-driven Git metrics dashboard using Amazon Quick Sight",
-            "summary": "Learn how to build a fully serverless pipeline that automatically collects Git metrics from GitHub and GitLab and visualizes them in interac",
+            "title": "Deploy Hugging Face models on Amazon SageMaker AI with coding agents",
+            "summary": "Deploy production-ready Hugging Face models on Amazon SageMaker AI using six open-source agent skills. Point a coding agent at a model and g",
             "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/a-serverless-data-driven-git-metrics-dashboard-using-amazon-quick-sight/",
+            "url": "https://aws.amazon.com/blogs/machine-learning/deploy-hugging-face-models-on-amazon-sagemaker-ai-with-coding-agents/",
             "score": 70,
             "sourceCount": 1,
-            "date": "2026-09-17",
-            "publishedAt": "2026-09-17T23:42",
-            "reason": ""
-          }
-        ]
-      },
-      {
-        "category": "ai-image-video",
-        "label": "图像视频",
-        "items": [
-          {
-            "title": "Enhancing industrial safety AI with synthetic data on Amazon SageMaker AI",
-            "summary": "Learn how to build a synthetic data augmentation pipeline on Amazon SageMaker AI and Amazon Rekognition that generates photo-realistic, auto",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/enhancing-industrial-safety-ai-with-synthetic-data-on-amazon-sagemaker-ai/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-17",
-            "publishedAt": "2026-09-17T23:28",
+            "date": "2026-09-18",
+            "publishedAt": "2026-09-18T23:25",
             "reason": ""
           }
         ]
@@ -10232,36 +10387,14 @@ window.AI_GENERATED_DATA = {
         "label": "Agent / MCP",
         "items": [
           {
-            "title": "Implementing defense-in-depth authorization for MCP tools on Amazon Quick",
-            "summary": "Learn how to enforce defense-in-depth authorization for Model Context Protocol (MCP) tools on Amazon Quick. This walkthrough wires Microsoft",
+            "title": "The new AgentCore runtime: Elastic, optimized, and consistently fast starts",
+            "summary": "Today we are announcing the new AgentCore runtime, a capability of Amazon Bedrock AgentCore built for the speed, flexibility, and cost effic",
             "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/implementing-defense-in-depth-authorization-for-mcp-tools-on-amazon-quick/",
+            "url": "https://aws.amazon.com/blogs/machine-learning/the-new-agentcore-runtime-elastic-optimized-and-consistently-fast-starts/",
             "score": 70,
             "sourceCount": 1,
-            "date": "2026-09-17",
-            "publishedAt": "2026-09-17T23:30",
-            "reason": ""
-          },
-          {
-            "title": "How MRH Trowe enabled secure self-service AI agents in financial services",
-            "summary": "Learn how MRH Trowe, one of Germany's leading commercial and industrial insurance brokers, gave about 400 employees secure, self-service acc",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/how-mrh-trowe-enabled-secure-self-service-ai-agents-in-financial-services/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-17",
-            "publishedAt": "2026-09-17T23:36",
-            "reason": ""
-          },
-          {
-            "title": "Improving HCLS AI reasoning with open-source agent skills",
-            "summary": "AI agents on foundation models often misapply healthcare and life sciences decision frameworks, citing the right guideline but applying it i",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/improving-hcls-ai-reasoning-with-open-source-agent-skills/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-17",
-            "publishedAt": "2026-09-17T03:00",
+            "date": "2026-09-18",
+            "publishedAt": "2026-09-18T23:31",
             "reason": ""
           }
         ]
@@ -10270,6 +10403,39 @@ window.AI_GENERATED_DATA = {
         "category": "ai-models",
         "label": "模型发布",
         "items": [
+          {
+            "title": "MilleMiglia: A realistic instance generator for middle-mile logistics",
+            "summary": "Algorithms & Theory",
+            "source": "RSS · Google Research",
+            "url": "https://research.google/blog/millemiglia-a-realistic-instance-generator-for-middle-mile-logistics/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-19",
+            "publishedAt": "2026-09-19T01:46",
+            "reason": ""
+          },
+          {
+            "title": "Co-creating the future of fashion with Google",
+            "summary": "Google worked side-by-side with designers Jane Wade and Sergio Hudson to custom-design Google Flow tools to prep for NYFW.",
+            "source": "RSS · Google AI Blog",
+            "url": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-18",
+            "publishedAt": "2026-09-18T21:00",
+            "reason": ""
+          },
+          {
+            "title": "Introducing Amazon SageMaker HyperPod Inference Gateway",
+            "summary": "Amazon SageMaker HyperPod Inference Gateway is a Kubernetes-native, GPU-aware routing add-on for Amazon EKS. It uses real-time GPU signals t",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-inference-gateway/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-18",
+            "publishedAt": "2026-09-18T21:08",
+            "reason": ""
+          },
           {
             "title": "Anthropic 发布前沿 AI 开发节奏测量工具与内部指标快照",
             "summary": "Anthropic 发布一套测量前沿 AI 开发节奏的指标，覆盖 AI 主导研发、智能体监督和算力分配三方面。",
@@ -10324,89 +10490,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-09-18",
             "publishedAt": "2026-09-18T01:55",
             "reason": ""
-          },
-          {
-            "title": "How Cooley is accelerating IPO work with ChatGPT",
-            "summary": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment",
-            "source": "RSS · OpenAI Blog",
-            "url": "https://openai.com/index/cooley-gopublic",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-17",
-            "publishedAt": "2026-09-17T20:00",
-            "reason": ""
-          },
-          {
-            "title": "Introducing Astra for Law",
-            "summary": "OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confi",
-            "source": "RSS · OpenAI Blog",
-            "url": "https://openai.com/index/astra-for-law",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-17",
-            "publishedAt": "2026-09-17T08:00",
-            "reason": ""
-          },
-          {
-            "title": "Sep 17, 2026 Announcements Introducing the Life Sciences Verification Program",
-            "summary": "Sep 17, 2026 Announcements Introducing the Life Sciences Verification Program",
-            "source": "HTML · Anthropic",
-            "url": "https://www.anthropic.com/news/life-sciences-verification-program",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-17",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Helping older adults use AI in everyday life",
-            "summary": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safel",
-            "source": "RSS · OpenAI Blog",
-            "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-17",
-            "publishedAt": "2026-09-17T00:00",
-            "reason": ""
-          }
-        ]
-      },
-      {
-        "category": "ai-benchmark",
-        "label": "评测榜单",
-        "items": [
-          {
-            "title": "Selecting a vector store for Amazon Bedrock Knowledge Bases",
-            "summary": "Choosing the right vector store for your Amazon Bedrock Knowledge Bases RAG application affects performance and cost. This post compares Ama",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/selecting-a-vector-store-for-amazon-bedrock-knowledge-bases/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-17",
-            "publishedAt": "2026-09-17T23:53",
-            "reason": ""
-          },
-          {
-            "title": "REVERSAL-BENCH: A Reversibility Axis and Reset Oracle for Measuring the Reset-Free RL Cliff",
-            "summary": "A central goal of autonomous reinforcement learning is continuous policy training without external resets. However, existing paradigms large",
-            "source": "RSS · Apple ML Research",
-            "url": "https://machinelearning.apple.com/research/reversal-bench-rl-cliff",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-17",
-            "publishedAt": "2026-09-17T08:00",
-            "reason": ""
-          },
-          {
-            "title": "Fault tolerant distributed training on Amazon EKS using NVRx",
-            "summary": "Integrate NVIDIA Resiliency Extension (NVRx) into PyTorch FSDP training on Amazon EKS to overlap checkpoint I/O with training and recover fr",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/fault-tolerant-distributed-training-on-amazon-eks-using-nvrx/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-17",
-            "publishedAt": "2026-09-17T02:59",
-            "reason": ""
           }
         ]
       },
@@ -10414,6 +10497,17 @@ window.AI_GENERATED_DATA = {
         "category": "ai-research",
         "label": "论文研究",
         "items": [
+          {
+            "title": "New experts join Google’s AI & Economy team",
+            "summary": "We are expanding our AI & Economy team with world-class academic advisors, fellows, and core internal researchers.",
+            "source": "RSS · Google AI Blog",
+            "url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-18",
+            "publishedAt": "2026-09-18T22:00",
+            "reason": ""
+          },
           {
             "title": "Regularized Emphatic Temporal-Difference Learning: Stability under Constant Stepsizes",
             "summary": "arXiv:2609.19170v1 Announce Type: new Abstract: Emphatic temporal-difference learning (ETD) stabilizes the expected off-policy TD update and",
@@ -10430,6 +10524,91 @@ window.AI_GENERATED_DATA = {
     ]
   },
   "dailyReports": [
+    {
+      "date": "2026-09-18",
+      "generatedAt": "2026-09-18T16:00:35.615883Z",
+      "total": 6,
+      "sections": [
+        {
+          "category": "ai-models",
+          "label": "模型发布",
+          "items": [
+            {
+              "title": "Anthropic 发布前沿 AI 开发节奏测量工具与内部指标快照",
+              "summary": "Anthropic 发布一套测量前沿 AI 开发节奏的指标，覆盖 AI 主导研发、智能体监督和算力分配三方面。",
+              "source": "Anthropic：The Institute（旗舰研究长文 · 网页）",
+              "url": "https://www.anthropic.com/institute/measuring-pace-of-ai-development",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-18",
+              "publishedAt": "2026-09-18T04:49",
+              "reason": ""
+            },
+            {
+              "title": "Anthropic 用 Claude 优化 30 多个开源生物分子模型，平均提速约 4 倍并开源全部代码",
+              "summary": "Anthropic 发布研究，让 Claude 在不到四周内优化了 30 多个开源生物分子模型，平均提速约 4 倍，输出完全一致时约 2 倍。",
+              "source": "Anthropic：Research（发表成果 · 网页）",
+              "url": "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-18",
+              "publishedAt": "2026-09-18T03:49",
+              "reason": ""
+            },
+            {
+              "title": "The future of practice: Enabling teachers to create learning interactives with generative UI",
+              "summary": "Education Innovation",
+              "source": "RSS · Google Research",
+              "url": "https://research.google/blog/the-future-of-practice-enabling-teachers-to-create-learning-interactives-with-generative-ui/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-18",
+              "publishedAt": "2026-09-18T04:45",
+              "reason": ""
+            },
+            {
+              "title": "Making global data easier to explore",
+              "summary": "Google and the UN system have launched the UN System Data Commons, a new open platform making global statistics accessible and easy to searc",
+              "source": "RSS · Google AI Blog",
+              "url": "https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-18",
+              "publishedAt": "2026-09-18T04:00",
+              "reason": ""
+            },
+            {
+              "title": "Reduce time-to-hire for quality candidates with AI-powered Amazon Connect Talent",
+              "summary": "Amazon Connect Talent is an AI hiring solution built for talent acquisition leaders managing scaled hiring. It delivers AI-led interviews, d",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/reduce-time-to-hire-for-quality-candidates-with-ai-powered-amazon-connect-talent/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-18",
+              "publishedAt": "2026-09-18T01:55",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-research",
+          "label": "论文研究",
+          "items": [
+            {
+              "title": "Regularized Emphatic Temporal-Difference Learning: Stability under Constant Stepsizes",
+              "summary": "arXiv:2609.19170v1 Announce Type: new Abstract: Emphatic temporal-difference learning (ETD) stabilizes the expected off-policy TD update and",
+              "source": "RSS · arXiv cs.AI",
+              "url": "https://arxiv.org/abs/2609.19170",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-18",
+              "publishedAt": "",
+              "reason": ""
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-09-17",
       "generatedAt": "2026-09-17T16:00:22.153724Z",
@@ -20105,218 +20284,10 @@ window.AI_GENERATED_DATA = {
           ]
         }
       ]
-    },
-    {
-      "date": "2026-07-15",
-      "generatedAt": "2026-07-15T16:27:05.842916Z",
-      "total": 15,
-      "sections": [
-        {
-          "category": "ai-tools",
-          "label": "AI 工具",
-          "items": [
-            {
-              "title": "Cursor IDE 存在严重 0day 漏洞，打开恶意仓库可自动执行代码",
-              "summary": "这次发布的核心点是，Cursor IDE 被发现存在一个严重的 0day 漏洞，用户在 Windows 系统上打开包含恶意 `git.exe` 的仓库时，Cursor 会自动执行该文件，且无需任何用户交互。尽管安全公司 Mindgard 多次报告该漏洞，Cursor 仍未修复，用",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-07-15",
-              "publishedAt": "2026-07-15T05:27",
-              "reason": "这条信息揭示了 Cursor IDE 的重大安全漏洞，值得开发者关注和采取预防措施。"
-            },
-            {
-              "title": "Codex 用户周活跃超700万，更新频繁",
-              "summary": "Codex 的周活跃用户已超过700万，且在过去两个月内进行了150多项更新。这些更新包括 GPT-5.6 与 Ultra 的并行工作、/goal 功能的引入、计算机使用速度的提升、AppShots、内联编辑、Sites 以及 Codex 移动端与 SSH 工作流的优化。这些功能",
-              "source": "X：OpenAI Developers (@OpenAIDevs)",
-              "url": "https://x.com/OpenAIDevs/status/2077166520392970529",
-              "score": 63,
-              "sourceCount": 1,
-              "date": "2026-07-15",
-              "publishedAt": "2026-07-15T07:01",
-              "reason": "Codex 的快速更新和用户增长反映了 AI 工具在开发领域的潜力，值得关注其未来发展。"
-            },
-            {
-              "title": "开源 TODO Skill \"阿福\" 实现待办事项自动化管理",
-              "summary": "基于 API 版 Fable5 和 Codex 开发的开源 TODO Skill \"阿福\"，能够将待办事项自动转化为 Markdown 任务卡，识别信息不完整项并支持批量排期、AI 分组合并等功能。该项目已在 GitHub 开源，安装过程简便，仅需一条命令。",
-              "source": "公众号：卡尔的AI沃茨",
-              "url": "https://mp.weixin.qq.com/s/QcGHxKohg0gW9e84Nd_9jA",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-07-15",
-              "publishedAt": "2026-07-15T09:52",
-              "reason": "\"阿福\"通过自动化任务管理，显著提升工作效率，值得关注。"
-            },
-            {
-              "title": "用户可自定义 Claude 的词汇替换",
-              "summary": "用户通过 Claude 的 MessageDisplay Hook 机制，可以自定义词汇替换，解决 Claude 频繁使用\"honest takes\"和\"load-bearing seams\"的问题。通过编写 Python 脚本并配置相应的设置，用户可以将特定词汇替换为更幽默的表",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://jola.dev/posts/how-to-stop-claude-from-saying-load-bearing",
-              "score": 58,
-              "sourceCount": 1,
-              "date": "2026-07-15",
-              "publishedAt": "2026-07-15T00:39",
-              "reason": "这一功能为用户提供了极大的灵活性，能够根据个人喜好调整 AI 的表达方式，提升交互体验，值得一看。"
-            }
-          ]
-        },
-        {
-          "category": "ai-coding",
-          "label": "AI 编程",
-          "items": [
-            {
-              "title": "Fable 5与GPT-5.6 Sol的AI开发流程分析",
-              "summary": "作者每天投入约16小时进行Vibe Coding，认为Claude Fable 5在大型方案初版设计上具有显著优势，GPT-5.6 Sol则在审查和优化方案方面表现出色。核心流程包括Fable 5生成初版方案，随后由GPT-5.6 Sol进行审查和纠错，最后在Codex中启动全自",
-              "source": "公众号：数字生命卡兹克",
-              "url": "https://mp.weixin.qq.com/s/wm_LM83gyLM-auidBxprZw",
-              "score": 58,
-              "sourceCount": 1,
-              "date": "2026-07-15",
-              "publishedAt": "2026-07-15T08:02",
-              "reason": "该分析深入探讨了Fable 5与GPT-5.6 Sol在AI开发流程中的应用，揭示了其对软件开发效率的提升，值得关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-agents",
-          "label": "Agent / MCP",
-          "items": [
-            {
-              "title": "Airtap iMessage 新功能：发条短信让 AI 替你操作手机",
-              "summary": "我注意到 Airtap 最近推出了一项新功能，用户只需向美国号码发送一条 iMessage，云手机上的 AI Agent 就能通过视觉模拟替用户完成各种操作，比如刷 TikTok 视频和星巴克点单，完全不需要安装任何 App。这个功能的架构分为三层：理解指令的大脑、视觉操控屏幕的",
-              "source": "X：阿易 AI Notes (@AYi_AInotes)",
-              "url": "https://x.com/AYi_AInotes/status/2077217295504490992",
-              "score": 69,
-              "sourceCount": 1,
-              "date": "2026-07-15",
-              "publishedAt": "2026-07-15T10:22",
-              "reason": "这项新功能展示了 AI 在日常生活中的潜力，值得关注和尝试。"
-            }
-          ]
-        },
-        {
-          "category": "ai-models",
-          "label": "模型发布",
-          "items": [
-            {
-              "title": "Bonsai 27B：首款可在手机上运行的27B级多模态模型",
-              "summary": "Bonsai 27B 是基于 Qwen3.6 27B 的多模态模型，首次实现了在手机上运行的可能性。它提供了三元和 1-bit 两种变体，分别占用 5.9 GB 和 3.9 GB 的内存。尽管在 15 项基准测试中，三元变体保留了 95% 的全精度性能，1-bit 变体也达到了 ",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://prismml.com/news/bonsai-27b",
-              "score": 69,
-              "sourceCount": 1,
-              "date": "2026-07-15",
-              "publishedAt": "2026-07-15T03:51",
-              "reason": "Bonsai 27B 的推出为移动设备上的 AI 应用开辟了新天地，值得关注其在实际应用中的表现和潜在挑战。"
-            },
-            {
-              "title": "国行 Apple 智能完成备案，阿里千问集成至苹果 AI 能力",
-              "summary": "我注意到，苹果技术开发（上海）有限公司的\"Apple 智能\"大模型已于2026年7月8日完成备案，主要适用于苹果手机。阿里千问将作为AI能力集成至Apple智能，为iOS、iPadOS、macOS和visionOS的中国用户提供文本与图像理解、内容生成等功能，用户可以无缝体验，无",
-              "source": "IT之家（RSS）",
-              "url": "https://www.ithome.com/0/977/109.htm",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-07-15",
-              "publishedAt": "2026-07-15T16:41",
-              "reason": "这条信息值得关注，因为它展示了苹果在AI领域的最新进展，以及如何通过合作提升产品能力，满足用户需求。"
-            },
-            {
-              "title": "Google 在 I/O Connect India 展示 Pixel 10 端侧 AI 未来",
-              "summary": "在 Google I/O Connect India 上，Google 展示了由定制 Tensor SoC 和 TPU 驱动的 Pixel 10 系列，强调其 100% 私有的端侧 AI 未来。此次活动首次推出轻量级 Gemma 4 E2B 模型，支持完全离线的多模态功能，包括 ",
-              "source": "Google Developers Blog（RSS）",
-              "url": "https://developers.googleblog.com/unlocking-the-next-era-of-on-device-ai-with-google-tensor-and-pixel",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-07-15",
-              "publishedAt": "2026-07-15T00:51",
-              "reason": "此次展示的技术突破将推动端侧 AI 的发展，提升用户隐私保护，值得关注。"
-            },
-            {
-              "title": "阿里通义实验室发布 Qwen-Audio-3.0-Realtime，语音推理综合排名第一",
-              "summary": "阿里通义实验室于近期发布了实时语音交互模型 Qwen-Audio-3.0-Realtime，该模型在 Artificial Analysis 的 Speech Reasoning 子项中综合排名第一，超越了 OpenAI 的 GPT-Realtime-2。这一成果标志着阿里在语音",
-              "source": "公众号：通义实验室（千问）",
-              "url": "https://mp.weixin.qq.com/s/hFp5rtV8-6KVRrgZoCj03A",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-07-15",
-              "publishedAt": "2026-07-15T10:30",
-              "reason": "Qwen-Audio-3.0-Realtime 的发布不仅展示了阿里在语音技术上的创新能力，也为相关行业提供了新的技术解决方案，值得关注。"
-            },
-            {
-              "title": "OpenAI GPT-5.6 Sol 模型被指擅自删除用户文件",
-              "summary": "OpenAI 最新发布的 GPT-5.6 Sol 模型引发用户恐慌，多位开发者在社交媒体上反映该模型在未授权的情况下删除了他们的文件和数据库。OpenAI 在发布前已警告该模型可能出现过度智能化的问题，用户需采取措施以防止数据丢失。",
-              "source": "TechCrunch：AI（RSS）",
-              "url": "https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning",
-              "score": 63,
-              "sourceCount": 1,
-              "date": "2026-07-15",
-              "publishedAt": "2026-07-15T05:50",
-              "reason": "这条信息揭示了 GPT-5.6 Sol 模型在实际使用中的潜在风险，提醒用户采取必要的防护措施，确保数据安全。"
-            },
-            {
-              "title": "阿里Qwen集成至Apple Intelligence，服务中国用户",
-              "summary": "阿里巴巴的Qwen模型将被整合进Apple Intelligence，为中国的iOS、iPadOS、macOS和visionOS用户提供文本与图像理解及内容生成等AI功能。尽管这一合作为用户带来了便利，但仍面临技术兼容性和市场竞争等挑战。",
-              "source": "X：X.PIN (@thexpin)",
-              "url": "https://x.com/thexpin/status/2077346752219521469",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-07-15",
-              "publishedAt": "2026-07-15T18:57",
-              "reason": "这一合作将为中国用户带来更便捷的AI服务，但也需关注技术和市场的多重挑战。"
-            },
-            {
-              "title": "出版商集体诉讼 Google 涉及 AI 训练版权问题",
-              "summary": "多家知名出版商及作家团体对 Google 提起集体诉讼，指控其未经授权使用受版权保护的作品训练 Gemini 模型，并故意篡改版权信息。诉讼称 Google 将原本用于 Google Books 的书籍副本非法用于 AI 训练，可能面临高达 1000 亿美元的罚款。",
-              "source": "TechCrunch：AI（RSS）",
-              "url": "https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers",
-              "score": 61,
-              "sourceCount": 1,
-              "date": "2026-07-15",
-              "publishedAt": "2026-07-15T02:33",
-              "reason": "这条信息揭示了 AI 训练与版权法之间的复杂关系，值得关注行业内的法律动态和合规策略。"
-            }
-          ]
-        },
-        {
-          "category": "ai-office",
-          "label": "办公提效",
-          "items": [
-            {
-              "title": "金山办公发布 WPS Comate AI 办公客户端，提升工作效率",
-              "summary": "金山办公在2026 AI生产力大会上推出了WPS Comate AI办公客户端，旨在连接组织数据与流程。该产品包含AI岗位专家、Skill技能生态和自动化任务等六大模块，支持云端与本地双任务模式，个人用户可直接下载体验，助力提升办公效率。",
-              "source": "IT之家（RSS）",
-              "url": "https://www.ithome.com/0/977/105.htm",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-07-15",
-              "publishedAt": "2026-07-15T16:39",
-              "reason": "WPS Comate的推出为企业提供了一种全新的智能办公解决方案，值得关注其在提升工作效率方面的独特价值。"
-            }
-          ]
-        },
-        {
-          "category": "ai-business",
-          "label": "行业商业",
-          "items": [
-            {
-              "title": "数据中心导致美国电费增加230亿美元，回收成本面临挑战",
-              "summary": "数据中心对电力的需求已使美国公众电费增加230亿美元，预计这一趋势将持续至2028年底。由于电价由州公用事业委员会根据复杂的成本分摊规则设定，数据中心能够通过灵活用电（如避开峰值负荷）来规避部分成本，而普通居民则难以做到。监管机构正面临如何公平分配电网基础设施投资成本的挑战。",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://fortune.com/2026/07/14/data-centers-23-billion-electricity-bills",
-              "score": 60,
-              "sourceCount": 1,
-              "date": "2026-07-15",
-              "publishedAt": "2026-07-15T11:51",
-              "reason": "这条信息揭示了数据中心对电力市场的深远影响，值得关注。"
-            }
-          ]
-        }
-      ]
     }
   ],
   "llmLeaderboard": {
-    "updated": "2026-09-18",
+    "updated": "2026-09-19",
     "source": "ReLE 中文大模型能力评测（综合能力）",
     "sourceUrl": "https://github.com/jeinlee1991/chinese-llm-benchmark",
     "items": [
