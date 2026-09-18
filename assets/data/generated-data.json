@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-19",
-  "generatedAt": "2026-09-18T20:26:26.179396Z",
+  "generatedAt": "2026-09-18T22:50:02.641958Z",
   "news": [
     {
       "title": "MilleMiglia: A realistic instance generator for middle-mile logistics",
@@ -191,7 +191,14 @@
       "moduleTargets": [
         "news"
       ],
-      "sourceCount": 1
+      "sourceCount": 2,
+      "relatedSources": [
+        {
+          "source": "RSS · AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-inference-2026-year-to-date-launches-in-review/",
+          "title": "Amazon SageMaker Inference: 2026 year-to-date launches in review"
+        }
+      ]
     },
     {
       "title": "Deploy Hugging Face models on Amazon SageMaker AI with coding agents",
@@ -711,6 +718,34 @@
       "aiSelected": true,
       "moduleTargets": [
         "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Hex turns complex analysis into visual reports with GPT‑6 Astra",
+      "summary": "GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share.",
+      "category": "ai-agents",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-09-16",
+      "publishedAt": "2026-09-16T20:00",
+      "collectedAt": "2026-09-19T06:50",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/hex-gpt-6-astra",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
       ],
       "sourceCount": 1
     },
@@ -6227,6 +6262,17 @@
     ],
     "ai-agents": [
       {
+        "name": "Hex turns complex analysis into visual reports with GPT‑6 As",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share.",
+        "description": "GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · OpenAI Blog",
+        "url": "https://openai.com/index/hex-gpt-6-astra"
+      },
+      {
         "name": "Gary Marcus：近期更该警惕的不是失控超级智能，而是智能体 AI 引发的规模化黑客攻击",
         "provider": "Gary Marcus：The Road to AI We Can Trust（RSS）",
         "type": "AI 项目/工具",
@@ -6654,17 +6700,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Startup Fortune",
         "url": "https://startupfortune.com/ai-agent-swarm-breached-395-organizations-through-papercut-flaws-in-hours/"
-      },
-      {
-        "name": "OpenAI 推出 ChatGPT Ads 新功能：Sponsored Agents 测试并集成 HubSpot 与 S",
-        "provider": "OpenAI：官网动态（RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenAI 为 ChatGPT Ads 推出多项 AI 驱动的新体验。Sponsored Agents 允许用户在点击广告后与明确标识的商业赞助智能体对话，目前在美国部分广告主中测试。",
-        "description": "OpenAI 为 ChatGPT Ads 推出多项 AI 驱动的新体验。Sponsored Agents 允许用户在点击广告后与明确标识的商业赞助智能体对话，目前在美国部分广告主中测试。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-        "url": "https://openai.com/index/reimagining-advertising-with-ai"
       }
     ],
     "ai-models": [
@@ -10416,7 +10451,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-19",
-    "generatedAt": "2026-09-18T20:26:26.156399Z",
+    "generatedAt": "2026-09-18T22:50:02.619215Z",
     "total": 14,
     "sections": [
       {
@@ -10496,7 +10531,7 @@
             "source": "RSS · AWS Machine Learning",
             "url": "https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-inference-gateway/",
             "score": 70,
-            "sourceCount": 1,
+            "sourceCount": 2,
             "date": "2026-09-18",
             "publishedAt": "2026-09-18T21:08",
             "reason": ""
