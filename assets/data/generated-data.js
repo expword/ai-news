@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-18",
-  "generatedAt": "2026-09-18T09:24:29.467231Z",
+  "generatedAt": "2026-09-18T13:09:31.211749Z",
   "news": [
     {
       "title": "Regularized Emphatic Temporal-Difference Learning: Stability under Constant Stepsizes",
@@ -6001,6 +6001,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "Trail of Bits 用 Agent 为 Miden zkVM 审计自建 LSP、反编译器和 Lean 形式化证明",
+        "provider": "Trail of Bits：AI安全研究",
+        "type": "AI 项目/工具",
+        "bestFor": "Trail of Bits 在审计 Miden zkVM 前，让 Agent 用六个月从零构建了 MASM 的 LSP 服务器、反编译器、静态分析引擎和 Lean VM 执行器模型。这些工具发现了可让恶意 prover 伪造 Falcon 签名盗取资金的高危漏洞，静态分析定位了 400 多处类型验证缺陷，Lean 工作",
+        "description": "Trail of Bits 在审计 Miden zkVM 前，让 Agent 用六个月从零构建了 MASM 的 LSP 服务器、反编译器、静态分析引擎和 Lean VM 执行器模型。这些工具发现了可让恶意 prover 伪造 Falcon 签名盗取资金的高危漏洞，静态分析定位了 400 多处类型验证缺陷，Lean 工作产出 95 个机器验证的正确性证明，还发",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Trail of Bits：AI安全研究",
+        "url": "https://blog.trailofbits.com/2026/09/18/auditing-in-the-age-of-good-enough-ai"
+      },
+      {
         "name": "Agentic AI for ITOps: Is your organization ready for the sec",
         "provider": "ManageEngine Blog",
         "type": "AI 项目/工具",
@@ -6428,20 +6439,42 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "WWD",
         "url": "https://wwd.com/sourcing-journal/industry-news/raspberry-ai-expands-plm-platform-to-improve-workflow-1239236907/"
-      },
-      {
-        "name": "Diligent adds agentic AI tools to risk & audit platform",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Boards will get faster visibility into shifting risks as Diligent's new AI agents automate audit and governance tasks across its platform.",
-        "description": "Boards will get faster visibility into shifting risks as Diligent's new AI agents automate audit and governance tasks across its platform.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://itbrief.com.au/story/diligent-adds-agentic-ai-tools-to-risk-audit-platform"
       }
     ],
     "ai-models": [
+      {
+        "name": "IDTA Members Invest Approximately INR 2,170 Crores Across 56",
+        "provider": "Sri Lanka Source",
+        "type": "AI 项目/工具",
+        "bestFor": "NewsVoir\n\nNew Delhi [India], September 18: Members of the India Deep Tech Alliance (IDTA) invested approximately INR 2,170 crores across 56 deep-tech companies ",
+        "description": "NewsVoir\n\nNew Delhi [India], September 18: Members of the India Deep Tech Alliance (IDTA) invested approximately INR 2,170 crores across 56 deep-tech companies between 1 September ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Sri Lanka Source",
+        "url": "https://www.srilankasource.com/news/279315410/idta-members-invest-approximately-inr-2170-crores-across-56-deep-tech-companies-in-alliance-first-year"
+      },
+      {
+        "name": "Samsung Launches 2026 Bespoke AI Appliances in India to Tran",
+        "provider": "Gizbot",
+        "type": "AI 项目/工具",
+        "bestFor": "Samsung India has expanded its connected home play with the 2026 Bespoke AI appliances lineup, bringing AI features to refrigerators, air conditioners and laund",
+        "description": "Samsung India has expanded its connected home play with the 2026 Bespoke AI appliances lineup, bringing AI features to refrigerators, air conditioners and laundry products. The lau",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Gizbot",
+        "url": "https://www.gizbot.com/gadgets/news/samsung-launches-2026-bespoke-ai-appliances-india-transform-your-home-into-a-genius-assistant-014-128625.html"
+      },
+      {
+        "name": "Apple, Google both drop new beta updates for iOS 27 and Andr",
+        "provider": "PhoneArena",
+        "type": "AI 项目/工具",
+        "bestFor": "Google and Apple both released new beta updates for Android 17 and iOS 27 respectively. Let's start with Google, which released Android 17 QPR1 Beta 9, which sh",
+        "description": "Google and Apple both released new beta updates for Android 17 and iOS 27 respectively. Let's start with Google, which released Android 17 QPR1 Beta 9, which should be the last bet",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "PhoneArena",
+        "url": "https://origin.phonearena.com/news/apple-google-both-drop-new-beta-updates_id182662"
+      },
       {
         "name": "Mark Kantor appointed CEO of Cinode: increased focus on AI, ",
         "provider": "via.tt.se",
@@ -6848,39 +6881,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "India TV News",
         "url": "https://www.indiatvnews.com/technology/news/samsung-galaxy-a18-4g-launched-with-50mp-camera-and-exynos-1610-chip-price-specifications-2026-09-16-1054406"
-      },
-      {
-        "name": "As the world debates the risks of AI, China closes the techn",
-        "provider": "Kyodo News+",
-        "type": "AI 项目/工具",
-        "bestFor": "HONG KONG - As the rapid development of artificial intelligence triggers a renewed debate about its risks, the United States and China keep racing to develop in",
-        "description": "HONG KONG - As the rapid development of artificial intelligence triggers a renewed debate about its risks, the United States and China keep racing to develop increasingly powerful ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Kyodo News+",
-        "url": "https://english.kyodonews.net/articles/-/85284"
-      },
-      {
-        "name": "AI Moves Into Brazil's Everyday Shopping Journey | PYMNTS.co",
-        "provider": "PYMNTS.com",
-        "type": "AI 项目/工具",
-        "bestFor": "Brazil has become one of the clearest tests of what happens when digital shopping ceases to occupy a separate corner of commerce and becomes indispensable to ev",
-        "description": "Brazil has become one of the clearest tests of what happens when digital shopping ceases to occupy a separate corner of commerce and becomes indispensable to everyday interactions.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "PYMNTS.com",
-        "url": "https://www.pymnts.com/news/artificial-intelligence/2026/ai-moves-into-brazils-everyday-shopping-journey/"
-      },
-      {
-        "name": "Tech utility spends: AI Pro tools and extra storage are beco",
-        "provider": "mint",
-        "type": "AI 项目/工具",
-        "bestFor": "Summary\n\nAI tools and cloud storage are emerging as a new category of recurring household spending, but experts say users should regularly assess their utility,",
-        "description": "Summary\n\nAI tools and cloud storage are emerging as a new category of recurring household spending, but experts say users should regularly assess their utility, avoid overlapping s",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "mint",
-        "url": "https://www.livemint.com/money/personal-finance/tech-utility-spends-ai-subscriptions-chatgpt-plus-claude-pro-cloud-storage-apple-icloud-google-one-dropbox-11789484135975.html"
       }
     ],
     "ai-business": [
@@ -10190,7 +10190,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-18",
-    "generatedAt": "2026-09-18T09:24:29.444236Z",
+    "generatedAt": "2026-09-18T13:09:31.188782Z",
     "total": 18,
     "sections": [
       {
