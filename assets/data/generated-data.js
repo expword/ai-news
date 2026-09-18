@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-18",
-  "generatedAt": "2026-09-18T13:09:31.211749Z",
+  "generatedAt": "2026-09-18T15:41:30.103348Z",
   "news": [
     {
       "title": "Regularized Emphatic Temporal-Difference Learning: Stability under Constant Stepsizes",
@@ -5384,6 +5384,21 @@ window.AI_GENERATED_DATA = {
       "date": "2026-08-05"
     },
     {
+      "name": "QwenLM/Omnilingua-Bench",
+      "lang": "Python",
+      "description": "通义千问 Qwen 开源项目。",
+      "stars": "0 stars",
+      "why": "国产大模型厂商 通义千问 Qwen 的最新开源动态/模型发布，属一手信源。",
+      "url": "https://github.com/QwenLM/Omnilingua-Bench",
+      "source": "GitHub · 通义千问 Qwen",
+      "tier": "T1",
+      "category": "Coding Agent",
+      "details": "通义千问 Qwen 开源项目。",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
       "name": "deepseek-ai/awesome-deepseek-agent",
       "lang": "Repo",
       "description": "DeepSeek 开源项目。",
@@ -5424,21 +5439,6 @@ window.AI_GENERATED_DATA = {
       "tier": "T1",
       "category": "Coding Agent",
       "details": "A lightweight library for xPU kernel JIT compilation",
-      "features": [],
-      "useCases": [],
-      "quickStart": []
-    },
-    {
-      "name": "deepseek-ai/FlashMLA",
-      "lang": "C++",
-      "description": "FlashMLA: Efficient Multi-head Latent Attention Kernels",
-      "stars": "12911 stars",
-      "why": "国产大模型厂商 DeepSeek 的最新开源动态/模型发布，属一手信源。",
-      "url": "https://github.com/deepseek-ai/FlashMLA",
-      "source": "GitHub · DeepSeek",
-      "tier": "T1",
-      "category": "Coding Agent",
-      "details": "FlashMLA: Efficient Multi-head Latent Attention Kernels",
       "features": [],
       "useCases": [],
       "quickStart": []
@@ -6001,6 +6001,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "Justin Cormack 用 35 万行 Rust 复盘 AI Agent 评估：从证据开始",
+        "provider": "Tessl：产品与工程博客",
+        "type": "AI 项目/工具",
+        "bestFor": "Tessl 发布的这篇博客复盘作者用 AI 构建约 35 万行 Rust 的 S3 兼容对象存储的实验。",
+        "description": "Tessl 发布的这篇博客复盘作者用 AI 构建约 35 万行 Rust 的 S3 兼容对象存储的实验。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Tessl：产品与工程博客",
+        "url": "https://tessl.io/blog/ai-agent-evaluation-starts-with-evidence"
+      },
+      {
         "name": "Trail of Bits 用 Agent 为 Miden zkVM 审计自建 LSP、反编译器和 Lean 形式化证明",
         "provider": "Trail of Bits：AI安全研究",
         "type": "AI 项目/工具",
@@ -6428,20 +6439,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "China Daily",
         "url": "https://www.chinadaily.com.cn/a/202609/16/WS6aaa91b4e4b06d4aa055e6e1.html"
-      },
-      {
-        "name": "Raspberry AI Expands Platform to Improve Apparel Workflow",
-        "provider": "WWD",
-        "type": "AI 项目/工具",
-        "bestFor": "Raspberry AI, an agentic solution provider, has announced Wednesday the launch of an expansion of its platform that aims to bring \"the entire fashion product li",
-        "description": "Raspberry AI, an agentic solution provider, has announced Wednesday the launch of an expansion of its platform that aims to bring \"the entire fashion product lifecycle into one AI-",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "WWD",
-        "url": "https://wwd.com/sourcing-journal/industry-news/raspberry-ai-expands-plm-platform-to-improve-workflow-1239236907/"
       }
     ],
     "ai-models": [
+      {
+        "name": "These Are Hands-Down the Best Smartwatches for Android Users",
+        "provider": "Esquire",
+        "type": "AI 项目/工具",
+        "bestFor": "Compatible with all modern Android phones, these are the best from Samsung, Google, and Garmin.\n\nFor me, the Pixel Watch wins the honor of being the Apple Watch",
+        "description": "Compatible with all modern Android phones, these are the best from Samsung, Google, and Garmin.\n\nFor me, the Pixel Watch wins the honor of being the Apple Watch of Android. It's ea",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Esquire",
+        "url": "https://www.esquire.com/lifestyle/tech/g73774284/best-android-smartwatch/"
+      },
       {
         "name": "IDTA Members Invest Approximately INR 2,170 Crores Across 56",
         "provider": "Sri Lanka Source",
@@ -6870,17 +6881,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Oregon Live",
         "url": "https://www.oregonlive.com/trending/2026/09/heres-what-macys-is-using-to-completely-change-the-way-you-shop-for-clothes-and-its-already-working.html"
-      },
-      {
-        "name": "Samsung Galaxy A18 4G launched with 50MP camera and Exynos 1",
-        "provider": "India TV News",
-        "type": "AI 项目/工具",
-        "bestFor": "Samsung Galaxy A18 4G features a 6.7-inch Super AMOLED display with a 90Hz refresh rate, a 50-megapixel triple rear camera system and a 5,000mAh battery. It run",
-        "description": "Samsung Galaxy A18 4G features a 6.7-inch Super AMOLED display with a 90Hz refresh rate, a 50-megapixel triple rear camera system and a 5,000mAh battery. It runs Android 17-based O",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "India TV News",
-        "url": "https://www.indiatvnews.com/technology/news/samsung-galaxy-a18-4g-launched-with-50mp-camera-and-exynos-1610-chip-price-specifications-2026-09-16-1054406"
       }
     ],
     "ai-business": [
@@ -10190,7 +10190,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-18",
-    "generatedAt": "2026-09-18T13:09:31.188782Z",
+    "generatedAt": "2026-09-18T15:41:30.081399Z",
     "total": 18,
     "sections": [
       {
@@ -21303,6 +21303,18 @@ window.AI_GENERATED_DATA = {
     ]
   },
   "benchmarkDatasets": [
+    {
+      "name": "aging-biology-benchmark",
+      "area": "AI 模型能力评测",
+      "note": "Insilico Releases Free Open-Source Aging AI Models That Outscore Gemini, GPT, and Claude\n\nA family of small, openly released language models trained specifically on aging biology d",
+      "source": "https://www.techtimes.com/articles/327711/20260918/aging-biology-benchmark-finds-compact-ai-beats-every-frontier-system-tested.htm",
+      "sourceName": "Tech Times",
+      "date": "2026-09-18",
+      "originTitle": "Aging Biology Benchmark Finds Compact AI Beats Every Frontier System Tested",
+      "evaluates": [],
+      "useCases": [],
+      "limitations": []
+    },
     {
       "name": "REVERSAL-BENCH",
       "area": "AI 模型能力评测",
