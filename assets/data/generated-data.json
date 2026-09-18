@@ -1,7 +1,34 @@
 {
   "lastUpdated": "2026-09-18",
-  "generatedAt": "2026-09-18T05:34:40.956372Z",
+  "generatedAt": "2026-09-18T08:06:05.165175Z",
   "news": [
+    {
+      "title": "Regularized Emphatic Temporal-Difference Learning: Stability under Constant Stepsizes",
+      "summary": "arXiv:2609.19170v1 Announce Type: new Abstract: Emphatic temporal-difference learning (ETD) stabilizes the expected off-policy TD update and changes its projection geometry, but ne",
+      "category": "ai-research",
+      "source": "RSS · arXiv cs.AI",
+      "date": "2026-09-18",
+      "publishedAt": "",
+      "collectedAt": "2026-09-18T14:50",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-18",
+      "tags": [],
+      "url": "https://arxiv.org/abs/2609.19170",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Anthropic 发布前沿 AI 开发节奏测量工具与内部指标快照",
       "summary": "Anthropic 发布一套测量前沿 AI 开发节奏的指标，覆盖 AI 主导研发、智能体监督和算力分配三方面。",
@@ -2439,34 +2466,6 @@
       "sourceDate": "",
       "tags": [],
       "url": "https://openai.com/index/fyxer",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "How Ninth Wave built AI-powered open finance onboarding on Amazon Bedrock",
-      "summary": "Learn how Ninth Wave built Compass, a multi-agent AI onboarding assistant on Amazon Bedrock AgentCore that validates bank APIs against Financial Data Exchange (FDX) standards, scor",
-      "category": "ai-agents",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-09-14",
-      "publishedAt": "2026-09-14T23:58",
-      "collectedAt": "2026-09-15T00:50",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-ninth-wave-built-ai-powered-open-finance-onboarding-on-amazon-bedrock/",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -5560,6 +5559,17 @@
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Jio Prepaid Plans Under Rs 500: FanCode, Google Gemini Pro, ",
+        "provider": "Gizbot",
+        "type": "AI 项目/工具",
+        "bestFor": "Jio users looking for a prepaid recharge with sports streaming benefits have a few options under Rs 500. The operator currently lists FanCode access with select",
+        "description": "Jio users looking for a prepaid recharge with sports streaming benefits have a few options under Rs 500. The operator currently lists FanCode access with select 28-day prepaid plan",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Gizbot",
+        "url": "https://www.gizbot.com/telecom/news/jio-prepaid-plans-under-rs-500-fancode-google-gemini-pro-ott-apps-and-5g-benefits-014-128611.html"
+      },
+      {
         "name": "AI agents learn from 'the best'",
         "provider": "Macau Daily Times",
         "type": "AI 项目/工具",
@@ -5987,17 +5997,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · OpenAI Blog",
         "url": "https://openai.com/index/1password"
-      },
-      {
-        "name": "Automated agent evaluation with Amazon Bedrock AgentCore and",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Wire Amazon Bedrock AgentCore Evaluations into a GitHub Actions pipeline: deploy an AI agent and an OAuth-protected MCP server to AgentCore runtime, invoke the ",
-        "description": "Wire Amazon Bedrock AgentCore Evaluations into a GitHub Actions pipeline: deploy an AI agent and an OAuth-protected MCP server to AgentCore runtime, invoke the agent with test prom",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/automated-agent-evaluation-with-amazon-bedrock-agentcore-and-github-actions/"
       }
     ],
     "ai-agents": [
@@ -6444,6 +6443,17 @@
     ],
     "ai-models": [
       {
+        "name": "Pay your bills, new deals with updated LiveSmart app",
+        "provider": "Inquirer",
+        "type": "AI 项目/工具",
+        "bestFor": "With the rising cost of everyday essentials, from groceries and transportation to household bills, every peso matters more to Filipino consumers.\n\nThis is why m",
+        "description": "With the rising cost of everyday essentials, from groceries and transportation to household bills, every peso matters more to Filipino consumers.\n\nThis is why mobile services provi",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Inquirer",
+        "url": "https://technology.inquirer.net/149307/pay-your-bills-new-deals-with-updated-livesmart-app"
+      },
+      {
         "name": "AI is arriving at the most dangerous possible moment",
         "provider": "The Christian Post",
         "type": "AI 项目/工具",
@@ -6871,20 +6881,64 @@
         "watch": "请打开原始来源核对",
         "sourceName": "E-PLAY Africa",
         "url": "https://e-playafrica.com/botswana-gambling-authority-focuses-on-regulatory-readiness/"
-      },
-      {
-        "name": "Ro Khanna calls to abolish ICE as Jayapal warns of AAPI impa",
-        "provider": "The American Bazaar",
-        "type": "AI 项目/工具",
-        "bestFor": "Rep. Ro Khanna called for the abolition of Immigration and Customs Enforcement and the creation of a new immigration agency, while Rep. Pramila Jayapal accused ",
-        "description": "Rep. Ro Khanna called for the abolition of Immigration and Customs Enforcement and the creation of a new immigration agency, while Rep. Pramila Jayapal accused the Trump administra",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The American Bazaar",
-        "url": "https://americanbazaaronline.com/2026/09/15/ro-khanna-abolish-ice-pramila-jayapal-aapi-immigration-488221/"
       }
     ],
     "ai-business": [
+      {
+        "name": "Smart's new app gives users access to transaction services, ",
+        "provider": "Philstar.com",
+        "type": "AI 项目/工具",
+        "bestFor": "MANILA, Philippines -- Mobile services provider Smart Communications Inc. (Smart) and its value mobile brand TNT on Friday launched its latest app that provides",
+        "description": "MANILA, Philippines -- Mobile services provider Smart Communications Inc. (Smart) and its value mobile brand TNT on Friday launched its latest app that provides loading, bill payme",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Philstar.com",
+        "url": "https://www.philstar.com/business/telecoms/2026/09/18/2557146/smarts-new-app-gives-users-access-transaction-services-deals"
+      },
+      {
+        "name": "Smart launches new platform for exclusive deals, savings, an",
+        "provider": "BusinessMirror",
+        "type": "AI 项目/工具",
+        "bestFor": "[September 18, 2026] With the rising cost of everyday essentials, from groceries and transportation to household bills, every peso matters more to Filipino cons",
+        "description": "[September 18, 2026] With the rising cost of everyday essentials, from groceries and transportation to household bills, every peso matters more to Filipino consumers.\n\nThis is why ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "BusinessMirror",
+        "url": "https://businessmirror.com.ph/2026/09/18/smart-launches-new-platform-for-exclusive-deals-savings-and-bill-payments/"
+      },
+      {
+        "name": "OpenAI launches legal AI platform, escalating race for law f",
+        "provider": "Business Standard",
+        "type": "AI 项目/工具",
+        "bestFor": "The launch of Astra for Law marks the latest push by the top AI labs into the legal market, where technology companies are racing to capture business from law f",
+        "description": "The launch of Astra for Law marks the latest push by the top AI labs into the legal market, where technology companies are racing to capture business from law firms and legal depar",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Business Standard",
+        "url": "https://www.business-standard.com/technology/artificial-intelligence/openai-launches-legal-ai-platform-escalating-race-for-law-firm-users-126091800335_1.html"
+      },
+      {
+        "name": "iPhone 18 Pro series now on sale in India, but delivery slip",
+        "provider": "Business Standard",
+        "type": "AI 项目/工具",
+        "bestFor": "Apple's latest product lineup featuring the iPhone 18 Pro series, Apple Watch Series 12, Apple Watch Ultra 4 and AirPods 5 to go on sale in India\n\nApple's iPhon",
+        "description": "Apple's latest product lineup featuring the iPhone 18 Pro series, Apple Watch Series 12, Apple Watch Ultra 4 and AirPods 5 to go on sale in India\n\nApple's iPhone 18 Pro series is n",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Business Standard",
+        "url": "https://www.business-standard.com/technology/tech-news/iphone-18-pro-series-now-on-sale-in-india-but-delivery-slips-to-october-126091800343_1.html"
+      },
+      {
+        "name": "FPJ Quick Take At 12 PM: 'iPhone 18 Pro Sale Begins In India",
+        "provider": "Free Press Journal",
+        "type": "AI 项目/工具",
+        "bestFor": "Delivering fast, unbiased reporting on Mumbai, national politics, global affairs, market trends, entertainment and lifestyle so you can understand the stories s",
+        "description": "Delivering fast, unbiased reporting on Mumbai, national politics, global affairs, market trends, entertainment and lifestyle so you can understand the stories shaping your day\n\nSta",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Free Press Journal",
+        "url": "https://www.freepressjournal.in/india/fpj-quick-take-at-12-pm-iphone-18-pro-sale-begins-in-india-tata-group-stocks-fall-7-18-september-2026"
+      },
       {
         "name": "Plentisoft: LinkDaddy LLC Expands AI Verified Business Passp",
         "provider": "FinanzNachrichten.de",
@@ -7269,61 +7323,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "The European Business Review",
         "url": "https://www.europeanbusinessreview.com/how-are-corporations-adapting-to-ai-and-digital-transformation/"
-      },
-      {
-        "name": "Meta platforms chief accounting officer Aaron Anderson sells",
-        "provider": "Investing.com",
-        "type": "AI 项目/工具",
-        "bestFor": "Aaron Anderson, Chief Accounting Officer at Meta Platforms, Inc. (NASDAQ:META), sold 3,240 shares of the company's Class A Common Stock on September 3, 2026. Th",
-        "description": "Aaron Anderson, Chief Accounting Officer at Meta Platforms, Inc. (NASDAQ:META), sold 3,240 shares of the company's Class A Common Stock on September 3, 2026. The transactions total",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Investing.com",
-        "url": "https://www.investing.com/news/insider-trading-news/meta-platforms-chief-accounting-officer-aaron-anderson-sells-2m-93CH-4892701"
-      },
-      {
-        "name": "VC funding deals: Konko AI, HiddenLayer, Visko",
-        "provider": "InfotechLead",
-        "type": "AI 项目/工具",
-        "bestFor": "The latest VC funding deals include announcements on Konko AI, HiddenLayer, Visko, LifeX Ventures, SquareOne Capital, Delta-v Capital, and others.\n\nKonko AI Rai",
-        "description": "The latest VC funding deals include announcements on Konko AI, HiddenLayer, Visko, LifeX Ventures, SquareOne Capital, Delta-v Capital, and others.\n\nKonko AI Raises $6 Million to Sc",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "InfotechLead",
-        "url": "https://infotechlead.com/tech/vc-funding-deals-konko-ai-hiddenlayer-visko-98226"
-      },
-      {
-        "name": "Bank of America Spots Reassuring Signal for Google Stock",
-        "provider": "Yahoo! Finance",
-        "type": "AI 项目/工具",
-        "bestFor": "This article first appeared on GuruFocus.\n\nBank of America sees a reassuring Google parent Alphabet (NASDAQ:GOOGL) stock signal: fast-growing AI rivals are not ",
-        "description": "This article first appeared on GuruFocus.\n\nBank of America sees a reassuring Google parent Alphabet (NASDAQ:GOOGL) stock signal: fast-growing AI rivals are not eroding the search g",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Yahoo! Finance",
-        "url": "https://ca.finance.yahoo.com/news/bank-america-spots-reassuring-signal-205753282.html"
-      },
-      {
-        "name": "AXA Venture Partners raises €130M funding; focuses on Europe",
-        "provider": "Silicon Canals",
-        "type": "AI 项目/工具",
-        "bestFor": "AXA Venture Partners (AVP) is a venture capital firm with its presence in several countries has invested in many high-growth technology companies. In a recent d",
-        "description": "AXA Venture Partners (AVP) is a venture capital firm with its presence in several countries has invested in many high-growth technology companies. In a recent development, the vent",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Silicon Canals",
-        "url": "https://siliconcanals.com/axa-venture-partners-raises-e130m-funding-focuses-on-europe-north-america-and-israel-markets/"
-      },
-      {
-        "name": "Neural Network Statistics By Market Size And Trends (2026)",
-        "provider": "Sci-Tech Today",
-        "type": "AI 项目/工具",
-        "bestFor": "Aruna is an editor at Sci-Tech Today with a strong knowledge of SEO. She... Read more\n\nNeural Network Statistics: Neural networks are changing the way computers",
-        "description": "Aruna is an editor at Sci-Tech Today with a strong knowledge of SEO. She... Read more\n\nNeural Network Statistics: Neural networks are changing the way computers learn, think, and s",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Sci-Tech Today",
-        "url": "https://www.sci-tech-today.com/stats/neural-network-statistics/"
       }
     ],
     "ai-benchmark": [
@@ -10191,8 +10190,8 @@
   ],
   "dailyReport": {
     "date": "2026-09-18",
-    "generatedAt": "2026-09-18T05:34:40.934370Z",
-    "total": 17,
+    "generatedAt": "2026-09-18T08:06:05.143175Z",
+    "total": 18,
     "sections": [
       {
         "category": "ai-coding",
@@ -10407,6 +10406,23 @@
             "sourceCount": 1,
             "date": "2026-09-17",
             "publishedAt": "2026-09-17T02:59",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "category": "ai-research",
+        "label": "论文研究",
+        "items": [
+          {
+            "title": "Regularized Emphatic Temporal-Difference Learning: Stability under Constant Stepsizes",
+            "summary": "arXiv:2609.19170v1 Announce Type: new Abstract: Emphatic temporal-difference learning (ETD) stabilizes the expected off-policy TD update and",
+            "source": "RSS · arXiv cs.AI",
+            "url": "https://arxiv.org/abs/2609.19170",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-18",
+            "publishedAt": "",
             "reason": ""
           }
         ]
