@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-19",
-  "generatedAt": "2026-09-18T18:06:47.944890Z",
+  "generatedAt": "2026-09-18T20:26:26.179396Z",
   "news": [
     {
       "title": "MilleMiglia: A realistic instance generator for middle-mile logistics",
@@ -14,6 +14,60 @@ window.AI_GENERATED_DATA = {
       "sourceDate": "",
       "tags": [],
       "url": "https://research.google/blog/millemiglia-a-realistic-instance-generator-for-middle-mile-logistics/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Ethan Mollick 谈能力悬差：GPT-6 Astra 与 Fable 5.1 的现有能力远未被用尽",
+      "summary": "Ethan Mollick 撰文指出 GPT-6 Astra 和 Fable 5.1 已能可靠完成数周量级的人类工作，但大多数人远未用尽其能力，形成能力悬差。",
+      "category": "ai-models",
+      "source": "Ethan Mollick：One Useful Thing（RSS）",
+      "date": "2026-09-19",
+      "publishedAt": "2026-09-19T01:54",
+      "collectedAt": "2026-09-19T03:16",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://www.oneusefulthing.org/p/the-overhang",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1.5",
+      "scores": {},
+      "score": 56,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Sep 18, 2026 Announcements Partnering with Accenture on embedded evaluation",
+      "summary": "Sep 18, 2026 Announcements Partnering with Accenture on embedded evaluation",
+      "category": "ai-models",
+      "source": "HTML · Anthropic",
+      "date": "2026-09-18",
+      "publishedAt": "",
+      "collectedAt": "2026-09-19T04:26",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-18",
+      "tags": [],
+      "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -10362,8 +10416,8 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-19",
-    "generatedAt": "2026-09-18T18:06:47.922298Z",
-    "total": 12,
+    "generatedAt": "2026-09-18T20:26:26.156399Z",
+    "total": 14,
     "sections": [
       {
         "category": "ai-coding",
@@ -10412,6 +10466,17 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-09-19",
             "publishedAt": "2026-09-19T01:46",
+            "reason": ""
+          },
+          {
+            "title": "Sep 18, 2026 Announcements Partnering with Accenture on embedded evaluation",
+            "summary": "Sep 18, 2026 Announcements Partnering with Accenture on embedded evaluation",
+            "source": "HTML · Anthropic",
+            "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-18",
+            "publishedAt": "",
             "reason": ""
           },
           {
@@ -10489,6 +10554,17 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-09-18",
             "publishedAt": "2026-09-18T01:55",
+            "reason": ""
+          },
+          {
+            "title": "Ethan Mollick 谈能力悬差：GPT-6 Astra 与 Fable 5.1 的现有能力远未被用尽",
+            "summary": "Ethan Mollick 撰文指出 GPT-6 Astra 和 Fable 5.1 已能可靠完成数周量级的人类工作，但大多数人远未用尽其能力，形成能力悬差。",
+            "source": "Ethan Mollick：One Useful Thing（RSS）",
+            "url": "https://www.oneusefulthing.org/p/the-overhang",
+            "score": 56,
+            "sourceCount": 1,
+            "date": "2026-09-19",
+            "publishedAt": "2026-09-19T01:54",
             "reason": ""
           }
         ]
