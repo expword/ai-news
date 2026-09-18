@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-18",
-  "generatedAt": "2026-09-18T08:06:05.165175Z",
+  "generatedAt": "2026-09-18T09:24:29.467231Z",
   "news": [
     {
       "title": "Regularized Emphatic Temporal-Difference Learning: Stability under Constant Stepsizes",
@@ -5559,6 +5559,17 @@ window.AI_GENERATED_DATA = {
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Zero-click RCE vulnerability hit four major AI coding agents",
+        "provider": "IT Security News - cybersecurity, infosecurity news",
+        "type": "AI 项目/工具",
+        "bestFor": "Four major AI coding agents, Claude Code, Codex, GitHub Copilot and Gemini CLI, all share the same zero-click RCE vulnerability, one that could give an attacker",
+        "description": "Four major AI coding agents, Claude Code, Codex, GitHub Copilot and Gemini CLI, all share the same zero-click RCE vulnerability, one that could give an attacker the same reach into",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "IT Security News - cybersecurity, infosecurity news",
+        "url": "https://www.itsecuritynews.info/zero-click-rce-vulnerability-hit-four-major-ai-coding-agents-two-remain-unpatched/"
+      },
+      {
         "name": "Jio Prepaid Plans Under Rs 500: FanCode, Google Gemini Pro, ",
         "provider": "Gizbot",
         "type": "AI 项目/工具",
@@ -5986,20 +5997,42 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "WBOC TV-16",
         "url": "https://www.wboc.com/online_features/press_releases/agentcx-labs-launches-agent-builder-studio-agencies-and-bpos-can-now-build-brand-and-sell/article_17e838ed-14ec-5f07-b46b-07b0ac4b0838.html"
-      },
-      {
-        "name": "1Password increases engineering productivity 21% with Codex",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies.",
-        "description": "Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · OpenAI Blog",
-        "url": "https://openai.com/index/1password"
       }
     ],
     "ai-agents": [
+      {
+        "name": "Agentic AI for ITOps: Is your organization ready for the sec",
+        "provider": "ManageEngine Blog",
+        "type": "AI 项目/工具",
+        "bestFor": "AI is set to provide increasing value in IT by enabling more ways to simplify complex IT operations, offering actionable insights, automating routine tasks with",
+        "description": "AI is set to provide increasing value in IT by enabling more ways to simplify complex IT operations, offering actionable insights, automating routine tasks with context-aware autom",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "ManageEngine Blog",
+        "url": "https://www.manageengine.com/blog/general/agentic-ai-for-itops-is-your-organization-ready-for-the-security-challenges.html"
+      },
+      {
+        "name": "AI agents resorted to crime and self-destruction to survive ",
+        "provider": "livescience.com",
+        "type": "AI 项目/工具",
+        "bestFor": "Artificial intelligence (AI) agents resorted to nefarious behavior, including crime sprees, in a virtual world as part of a recent study into how common large l",
+        "description": "Artificial intelligence (AI) agents resorted to nefarious behavior, including crime sprees, in a virtual world as part of a recent study into how common large language models (LLMs",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "livescience.com",
+        "url": "https://www.livescience.com/technology/artificial-intelligence/ai-agents-resorted-to-crime-and-self-destruction-to-survive-in-a-simulated-world-but-does-this-mean-they-would-do-the-same-in-the-real-world"
+      },
+      {
+        "name": "MagnetX Announces Completion of US$5 Million Financing and O",
+        "provider": "The Bay City Tribune",
+        "type": "AI 项目/工具",
+        "bestFor": "Unfortunately you've used all of your gifts this month. Your counter will reset on the first day of next month.\n\nHONG KONG, Sept. 17, 2026 -- MagnetX, a global ",
+        "description": "Unfortunately you've used all of your gifts this month. Your counter will reset on the first day of next month.\n\nHONG KONG, Sept. 17, 2026 -- MagnetX, a global AI Agent infrastruct",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Bay City Tribune",
+        "url": "https://baycitytribune.com/online_features/press_releases/magnetx-announces-completion-of-us-5-million-financing-and-opens-third-fundraising-round-to-accelerate/article_96a64f1f-f3bb-58a1-afba-4e968a892698.html"
+      },
       {
         "name": "Google Home Now Lets AI Agents Control Your Smart Home Devic",
         "provider": "PC Mag Middle East",
@@ -6406,42 +6439,31 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:AI agent",
         "url": "https://itbrief.com.au/story/diligent-adds-agentic-ai-tools-to-risk-audit-platform"
-      },
-      {
-        "name": "47% of Shoppers Who Abandoned Their Carts Wanted a Digital W",
-        "provider": "PYMNTS.com",
-        "type": "AI 项目/工具",
-        "bestFor": "The PYMNTS Intelligence report \"The Hidden Cost of Checkout Gaps: What 56 Million Abandoned Carts Mean for U.S. Merchants and How Agentic AI Is Changing What Co",
-        "description": "The PYMNTS Intelligence report \"The Hidden Cost of Checkout Gaps: What 56 Million Abandoned Carts Mean for U.S. Merchants and How Agentic AI Is Changing What Comes Next\" found in S",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "PYMNTS.com",
-        "url": "https://www.pymnts.com/digital-payments/2026/47-percent-of-shoppers-who-abandoned-their-carts-wanted-a-digital-wallet-option/"
-      },
-      {
-        "name": "End-to-End Latency-Minimizing and Load-Balanced Request Sche",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Large language model (LLM)-powered agentic AI services increasingly demand low-latency inference, motivating the deployment of LLMs across distributed edge serv",
-        "description": "Large language model (LLM)-powered agentic AI services increasingly demand low-latency inference, motivating the deployment of LLMs across distributed edge servers. However, hetero",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2609.17193v1"
-      },
-      {
-        "name": "BudgetBench: A Budget-Tiered Protocol and Pilot Harness for ",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "arXiv:2609.13149v1 Announce Type: new Abstract: For local large language model agents, active context is a scarce resource: memory capacity, prefill latency, ca",
-        "description": "arXiv:2609.13149v1 Announce Type: new Abstract: For local large language model agents, active context is a scarce resource: memory capacity, prefill latency, cache growth, and serv",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · arXiv cs.LG",
-        "url": "https://arxiv.org/abs/2609.13149"
       }
     ],
     "ai-models": [
+      {
+        "name": "Mark Kantor appointed CEO of Cinode: increased focus on AI, ",
+        "provider": "via.tt.se",
+        "type": "AI 项目/工具",
+        "bestFor": "Cinode is making changes to its leadership team to accelerate the company's next phase. Mark Kantor, currently Chief Product Officer, will take over as CEO. Aft",
+        "description": "Cinode is making changes to its leadership team to accelerate the company's next phase. Mark Kantor, currently Chief Product Officer, will take over as CEO. After eight years as CE",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "via.tt.se",
+        "url": "https://via.tt.se/pressmeddelande/4557272/mark-kantor-appointed-ceo-of-cinode-increased-focus-on-ai-product-and-growth?publisherId=3240168"
+      },
+      {
+        "name": "Letters to the Editor: Ticks, AI both small things hiding bi",
+        "provider": "Springfield News-Leader",
+        "type": "AI 项目/工具",
+        "bestFor": "Tiny ticks can be big problems\n\nThank you for publishing \"Ozarks a top hotspot for ticks in the U.S.\" The article was an important reminder that those of us who",
+        "description": "Tiny ticks can be big problems\n\nThank you for publishing \"Ozarks a top hotspot for ticks in the U.S.\" The article was an important reminder that those of us who live in the Ozarks ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Springfield News-Leader",
+        "url": "https://eu.news-leader.com/story/opinion/readers/2026/09/18/letters-to-the-editor-tick-borne-illness-ai-hacking-informed-voting/91802425007/"
+      },
       {
         "name": "Pay your bills, new deals with updated LiveSmart app",
         "provider": "Inquirer",
@@ -6859,28 +6881,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "mint",
         "url": "https://www.livemint.com/money/personal-finance/tech-utility-spends-ai-subscriptions-chatgpt-plus-claude-pro-cloud-storage-apple-icloud-google-one-dropbox-11789484135975.html"
-      },
-      {
-        "name": "Anthropic signs first Australia data centre agreement",
-        "provider": "Superhits 97.9 Terre Haute, IN",
-        "type": "AI 项目/工具",
-        "bestFor": "SYDNEY, Sept 16 (Reuters) - AI giant Anthropic signed its first data centre lease agreement in Australia, two people familiar with the deal said, capitalising o",
-        "description": "SYDNEY, Sept 16 (Reuters) - AI giant Anthropic signed its first data centre lease agreement in Australia, two people familiar with the deal said, capitalising on a favourable polit",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Superhits 97.9 Terre Haute, IN",
-        "url": "https://superhits979.com/2026/09/15/anthropic-signs-first-australia-data-centre-agreement/"
-      },
-      {
-        "name": "Botswana gambling authority focuses on regulatory readiness ",
-        "provider": "E-PLAY Africa",
-        "type": "AI 项目/工具",
-        "bestFor": "The Gambling Authority of Botswana is reviewing its approach to digital risks as artificial intelligence (AI) and cybersecurity become increasingly relevant to ",
-        "description": "The Gambling Authority of Botswana is reviewing its approach to digital risks as artificial intelligence (AI) and cybersecurity become increasingly relevant to gambling regulation.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "E-PLAY Africa",
-        "url": "https://e-playafrica.com/botswana-gambling-authority-focuses-on-regulatory-readiness/"
       }
     ],
     "ai-business": [
@@ -10190,7 +10190,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-18",
-    "generatedAt": "2026-09-18T08:06:05.143175Z",
+    "generatedAt": "2026-09-18T09:24:29.444236Z",
     "total": 18,
     "sections": [
       {
