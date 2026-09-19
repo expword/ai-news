@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-19",
-  "generatedAt": "2026-09-19T10:56:49.373578Z",
+  "generatedAt": "2026-09-19T13:28:01.915744Z",
   "news": [
     {
       "title": "MilleMiglia: A realistic instance generator for middle-mile logistics",
@@ -6016,6 +6016,72 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "GenAI Skills in 2026: Why AI Agents, Multi-Agent Systems Mat",
+        "provider": "Analytics Insight",
+        "type": "AI 项目/工具",
+        "bestFor": "Generative AI is moving beyond chatbots and basic prompt-based tools. In 2026, businesses are increasingly experimenting with AI agents that can handle multi-st",
+        "description": "Generative AI is moving beyond chatbots and basic prompt-based tools. In 2026, businesses are increasingly experimenting with AI agents that can handle multi-step tasks, use softwa",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Analytics Insight",
+        "url": "https://www.analyticsinsight.net/artificial-intelligence/genai-skills-in-2026-why-ai-agents-multi-agent-systems-matter"
+      },
+      {
+        "name": "Indian Consumers Are Walking Away From AI That Forgets Them,",
+        "provider": "BW Businessworld",
+        "type": "AI 项目/工具",
+        "bestFor": "Nearly seven in 10 have abandoned an AI agent mid-conversation for lacking basic context, says Twilio's survey; India remains the most eager market in Asia Paci",
+        "description": "Nearly seven in 10 have abandoned an AI agent mid-conversation for lacking basic context, says Twilio's survey; India remains the most eager market in Asia Pacific to hand everyday",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "BW Businessworld",
+        "url": "https://www.businessworld.in/article/indian-consumers-are-walking-away-from-ai-that-forgets-them-finds-twilio-study-624592"
+      },
+      {
+        "name": "Google Turns CC Into an AI Agent That Can Help Run Your Fami",
+        "provider": "ProPakistani",
+        "type": "AI 项目/工具",
+        "bestFor": "Google is testing a new version of CC, its AI agent that works across email, calendars, chats and tasks, with the service now focused on helping families organi",
+        "description": "Google is testing a new version of CC, its AI agent that works across email, calendars, chats and tasks, with the service now focused on helping families organize and manage everyd",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "ProPakistani",
+        "url": "https://propakistani.pk/?p=1084300"
+      },
+      {
+        "name": "Magentic Raises $18 Million Series A To Expand AI Digital Wo",
+        "provider": "Pulse 2.0",
+        "type": "AI 项目/工具",
+        "bestFor": "Magentic has raised $18 million in Series A funding to expand its AI digital workers across procurement, supply chain and industrial operations. Felicis led the",
+        "description": "Magentic has raised $18 million in Series A funding to expand its AI digital workers across procurement, supply chain and industrial operations. Felicis led the round, with existin",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Pulse 2.0",
+        "url": "https://pulse2.com/magentic-raises-18-million-series-a-to-expand-ai-digital-workers-for-global-manufacturers/"
+      },
+      {
+        "name": "Raindrop Raises Series A Funding For AI Agent Reliability Pl",
+        "provider": "Pulse 2.0",
+        "type": "AI 项目/工具",
+        "bestFor": "Raindrop has raised a Series A led by CRV, bringing its total funding to $50 million as the company expands technology designed to detect failures in autonomous",
+        "description": "Raindrop has raised a Series A led by CRV, bringing its total funding to $50 million as the company expands technology designed to detect failures in autonomous AI agents. Existing",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Pulse 2.0",
+        "url": "https://pulse2.com/raindrop-raises-series-a-led-by-crv-bringing-total-funding-to-50-million-for-ai-agent-reliability-platform/"
+      },
+      {
+        "name": "Oracle’s Java 27, AI Nurse, Wind Energy, and More: Key Devel",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Catch up on Oracle's latest: Java 27 with post-quantum security, AI nurse assistant, Texas wind farms, Ellison's share sale cancelation, and VA subpoenas. The p",
+        "description": "Catch up on Oracle's latest: Java 27 with post-quantum security, AI nurse assistant, Texas wind farms, Ellison's share sale cancelation, and VA subpoenas. The post Oracle’s Java 27",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.sourcetrail.com/java/oracles-java-27-ai-nurse-wind-energy-and-more-key-developments/"
+      },
+      {
         "name": "OpenAI agents discussed ways to escape their sandbox on publ",
         "provider": "RocketNews | Top News Stories From Around the Globe",
         "type": "AI 项目/工具",
@@ -6388,75 +6454,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Business Standard",
         "url": "https://www.business-standard.com/technology/tech-news/smart-home-interface-ai-agents-physical-world-126091700840_1.html"
-      },
-      {
-        "name": "Will Salesforce's latest AIs give South Africans better loca",
-        "provider": "htxt.co.za",
-        "type": "AI 项目/工具",
-        "bestFor": "At Dreamforce 2026, the big news from Salesforce is Koa, a new and advanced CRM reasoning model built on NVIDIA Nemotron, as well as a batch of new agents built",
-        "description": "At Dreamforce 2026, the big news from Salesforce is Koa, a new and advanced CRM reasoning model built on NVIDIA Nemotron, as well as a batch of new agents built to tackle every lev",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "htxt.co.za",
-        "url": "https://htxt.co.za/2026/09/will-salesforces-latest-ais-give-south-africans-better-local-results/"
-      },
-      {
-        "name": "Acceldata Launches xFactory for Building Governed AI Applica",
-        "provider": "FinanzNachrichten.de",
-        "type": "AI 项目/工具",
-        "bestFor": "Enterprises can now create AI applications and agents executing natively on open engines including Apache Spark, Trino and Kafka and connecting to Snowflake and",
-        "description": "Enterprises can now create AI applications and agents executing natively on open engines including Apache Spark, Trino and Kafka and connecting to Snowflake and Databricks, so your",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "FinanzNachrichten.de",
-        "url": "https://www.finanznachrichten.de/nachrichten-2026-09/69605317-acceldata-launches-xfactory-for-building-governed-ai-applications-from-business-intent-on-federated-data-004.htm"
-      },
-      {
-        "name": "SimScale Engineering AI Agent opens up physics simulation ac",
-        "provider": "engineerlive.com",
-        "type": "AI 项目/工具",
-        "bestFor": "Within Onshape, the software acts as a reasoning agent on top of SimScale's full physics platform\n\nSimScale, an AI-native cloud platform for engineering simulat",
-        "description": "Within Onshape, the software acts as a reasoning agent on top of SimScale's full physics platform\n\nSimScale, an AI-native cloud platform for engineering simulation, has launched it",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "engineerlive.com",
-        "url": "https://engineerlive.com/simscale-engineering-ai-agent-opens-up-physics-simulation-accessibility/"
-      },
-      {
-        "name": "Asia-Pacific AI Spending to Hit $555 Billion by 2030 as Agen",
-        "provider": "InfotechLead",
-        "type": "AI 项目/工具",
-        "bestFor": "Asia-Pacific AI spending is heading toward $555.2 billion by 2030 as enterprises move generative AI and AI agents from experimental projects into production, cr",
-        "description": "Asia-Pacific AI spending is heading toward $555.2 billion by 2030 as enterprises move generative AI and AI agents from experimental projects into production, creating new investmen",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "InfotechLead",
-        "url": "https://infotechlead.com/artificial-intelligence/asia-pacific-ai-spending-to-hit-555-billion-by-2030-as-agentic-ai-moves-into-production-98369"
-      },
-      {
-        "name": "Global Workspace Theory in AI: Coordinating Agent Intelligen",
-        "provider": "Digital Thought Disruption",
-        "type": "AI 项目/工具",
-        "bestFor": "Global Workspace Theory in AI offers a useful architectural lens: specialized components process information locally, selected information enters a limited shar",
-        "description": "Global Workspace Theory in AI offers a useful architectural lens: specialized components process information locally, selected information enters a limited shared workspace, and th",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Digital Thought Disruption",
-        "url": "https://digitalthoughtdisruption.com/2026/09/17/global-workspace-theory-ai-agent-architecture/"
-      },
-      {
-        "name": "Glyph: A Multi-Strategy Agentic System for Column Descriptio",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Enterprise data lakes accumulate tables faster than human stewards can document or classify them, leaving columns with missing descriptions and unassigned gover",
-        "description": "Enterprise data lakes accumulate tables faster than human stewards can document or classify them, leaving columns with missing descriptions and unassigned governance labels. This d",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · Apple ML Research",
-        "url": "https://machinelearning.apple.com/research/glyph-column-description-tagging"
       }
     ],
     "ai-models": [
+      {
+        "name": "Google Gemini Hacked Three Companies During a Cybersecurity ",
+        "provider": "TelecomTalk",
+        "type": "AI 项目/工具",
+        "bestFor": "Google's Gemini artificial intelligence model accessed systems belonging to three real companies during a controlled test of its cybersecurity capabilities, rai",
+        "description": "Google's Gemini artificial intelligence model accessed systems belonging to three real companies during a controlled test of its cybersecurity capabilities, raising questions about",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "TelecomTalk",
+        "url": "https://telecomtalk.info/googlegemini-hacked-three-companies-cybersecurity-test-whathappened/1011982/"
+      },
       {
         "name": "'A critical moment': concern UK is not up to speed in acting",
         "provider": "RocketNews | Top News Stories From Around the Globe",
@@ -6885,17 +6896,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Hindustan Times",
         "url": "https://www.hindustantimes.com/technology/samsung-just-made-its-refrigerator-smarter-with-gemini-new-ai-appliances-launched-in-india-101789624645164.html"
-      },
-      {
-        "name": "Samsung launches new AI fridge in India that recommends reci",
-        "provider": "mint",
-        "type": "AI 项目/工具",
-        "bestFor": "Samsung India has launched its 2026 Bespoke AI home appliance lineup in Gurugram, introducing new refrigerators and air conditioners with expanded AI and SmartT",
-        "description": "Samsung India has launched its 2026 Bespoke AI home appliance lineup in Gurugram, introducing new refrigerators and air conditioners with expanded AI and SmartThings features. The ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "mint",
-        "url": "https://www.livemint.com/technology/samsung-launches-new-ai-fridge-in-india-that-recommends-recipes-check-bespoke-ai-lineup-and-prices-11789621850749.html"
       }
     ],
     "ai-business": [
@@ -10205,7 +10205,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-19",
-    "generatedAt": "2026-09-19T10:56:49.333916Z",
+    "generatedAt": "2026-09-19T13:28:01.893921Z",
     "total": 15,
     "sections": [
       {
