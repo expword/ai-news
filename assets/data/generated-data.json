@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-19",
-  "generatedAt": "2026-09-19T01:09:23.083716Z",
+  "generatedAt": "2026-09-19T03:35:38.381242Z",
   "news": [
     {
       "title": "MilleMiglia: A realistic instance generator for middle-mile logistics",
@@ -53,6 +53,34 @@
       "aiSelected": true,
       "moduleTargets": [
         "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "How a global fintech scaled coding agent traffic with Dedicated Model Inference",
+      "summary": "Inside a global bank's shift to self-serve dedicated inference: how Together's DMI gave engineering teams direct control over scaling, models, and testing.",
+      "category": "ai-coding",
+      "source": "RSS · Together AI",
+      "date": "2026-09-18",
+      "publishedAt": "2026-09-18T08:00",
+      "collectedAt": "2026-09-19T10:23",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://www.together.ai/blog/global-fintech-scales-coding-agent-traffic-with-dedicated-model-inference",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
       ],
       "sourceCount": 1
     },
@@ -2466,34 +2494,6 @@
       "moduleTargets": [
         "news",
         "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "K-Bench: a clinically calibrated benchmark for evaluating large language models in high-risk mental health conversations",
-      "summary": "% !TEX root = ../main.tex People increasingly use large language models (LLMs) for mental health support, yet their safety in evolving, high-risk conversations remains poorly chara",
-      "category": "ai-benchmark",
-      "source": "arXiv",
-      "date": "2026-09-14",
-      "publishedAt": "",
-      "collectedAt": "2026-09-16T03:56",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-14",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.15855v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "benchmarkDatasets"
       ],
       "sourceCount": 1
     }
@@ -5574,6 +5574,17 @@
   "topicResources": {
     "ai-coding": [
       {
+        "name": "How a global fintech scaled coding agent traffic with Dedica",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Inside a global bank's shift to self-serve dedicated inference: how Together's DMI gave engineering teams direct control over scaling, models, and testing.",
+        "description": "Inside a global bank's shift to self-serve dedicated inference: how Together's DMI gave engineering teams direct control over scaling, models, and testing.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Together AI",
+        "url": "https://www.together.ai/blog/global-fintech-scales-coding-agent-traffic-with-dedicated-model-inference"
+      },
+      {
         "name": "Deploy Hugging Face models on Amazon SageMaker AI with codin",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -6001,17 +6012,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
         "url": "https://openai.com/index/gpt-6-astra-next-generation-work"
-      },
-      {
-        "name": "Mistral 复盘用 AI Agent 迁移 40000 行 Fortran 77 到 C++ 的经验",
-        "provider": "Mistral AI：News（网页）",
-        "type": "AI 项目/工具",
-        "bestFor": "Mistral 帮助一家欧洲能源运营商将 40000 行 Fortran 77 储层模拟器迁移到 C++，并复盘了方法与经验。",
-        "description": "Mistral 帮助一家欧洲能源运营商将 40000 行 Fortran 77 储层模拟器迁移到 C++，并复盘了方法与经验。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Mistral AI：News（网页）",
-        "url": "https://mistral.ai/news/legacy-code-modernization"
       }
     ],
     "ai-agents": [
@@ -6458,6 +6458,28 @@
     ],
     "ai-models": [
       {
+        "name": "Your Voice: Can-do robots, SBTI and labels, balanced diets a",
+        "provider": "Young Post Club",
+        "type": "AI 项目/工具",
+        "bestFor": "Have something to say? Send us a letter using this form.\n\nHong Kong artist Orson Li's can-do tiny robots\n\nBonny Liu, SKH Leung Kwai Yee Secondary School\n\nUsing ",
+        "description": "Have something to say? Send us a letter using this form.\n\nHong Kong artist Orson Li's can-do tiny robots\n\nBonny Liu, SKH Leung Kwai Yee Secondary School\n\nUsing two robots, Hong Kon",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Young Post Club",
+        "url": "https://www.youngpostclub.com/yp/share-us/letters-editors/article/3367563/your-voice-can-do-robots-sbti-and-labels-balanced-diets-and-effects-ai-use-letters"
+      },
+      {
+        "name": "Gemini hacked 3 companies in first known breakout by Google'",
+        "provider": "Rappler",
+        "type": "AI 项目/工具",
+        "bestFor": "The hacks, which occurred in May during a cybersecurity test, were conducted by Irregular, an independent company that conducts cybersecurity evaluations\n\nGoogl",
+        "description": "The hacks, which occurred in May during a cybersecurity test, were conducted by Irregular, an independent company that conducts cybersecurity evaluations\n\nGoogle's Gemini model acc",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Rappler",
+        "url": "https://www.rappler.com/technology/gemini-hacked-companies-first-known-breakout-google-ai/"
+      },
+      {
         "name": "Co-creating the future of fashion with Google",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -6874,28 +6896,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:Claude AI",
         "url": "https://en.sedaily.com/finance/2026/09/16/karrot-adds-ai-chat-tool-for-advertisers-to-analyze-ad-data"
-      },
-      {
-        "name": "UK workers spend nearly £1 billion of their own money on AI ",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "LONDON: One is six workers in Britain is paying for an AI tool to help them do their job, at a total cost of nearly £1 billion ($1.4 billion) a year of their ow",
-        "description": "LONDON: One is six workers in Britain is paying for an AI tool to help them do their job, at a total cost of nearly £1 billion ($1.4 billion) a year of their own money, according t",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:Claude AI",
-        "url": "https://telecomlive.in/web/2026/09/16/uk-workers-spend-nearly-1-billion-of-their-own-money-on-ai-for-work-deloitte-finds/"
-      },
-      {
-        "name": "Amid AI debates, China catches US",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "As the rapid development of artificial intelligence triggers a renewed debate about its risks, the US and China keep racing to develop increasingly powerful mod",
-        "description": "As the rapid development of artificial intelligence triggers a renewed debate about its risks, the US and China keep racing to develop increasingly powerful models. The US has outp",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:Claude AI",
-        "url": "https://www.koreaherald.com/article/10875383"
       }
     ],
     "ai-business": [
@@ -8359,6 +8359,17 @@
     ],
     "ai-research": [
       {
+        "name": "AI security experts say they used Claude to hack ChatGPT - A",
+        "provider": "Aol",
+        "type": "AI 项目/工具",
+        "bestFor": "Software security researchers used Anthropic's Claude AI platform to hack OpenAI's ChatGPT tool, adding to mounting concerns about the vulnerability of leading ",
+        "description": "Software security researchers used Anthropic's Claude AI platform to hack OpenAI's ChatGPT tool, adding to mounting concerns about the vulnerability of leading large language model",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Aol",
+        "url": "https://www.aol.com/articles/ai-security-experts-used-claude-004720000.html"
+      },
+      {
         "name": "REVERSAL-BENCH: A Reversibility Axis and Reset Oracle for Me",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -8786,17 +8797,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2608.29640v1"
-      },
-      {
-        "name": "Dandelion: A Spherical Flower for Neural Simulation of Plane",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "arXiv:2608.27521v1 Announce Type: new Abstract: Many dynamical processes unfold on the sphere but the default scientific machine learning architectures are Eucl",
-        "description": "arXiv:2608.27521v1 Announce Type: new Abstract: Many dynamical processes unfold on the sphere but the default scientific machine learning architectures are Euclidean. Applying thes",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · arXiv cs.LG",
-        "url": "https://arxiv.org/abs/2608.27521"
       }
     ],
     "ai-office": []
@@ -10205,13 +10205,24 @@
   ],
   "dailyReport": {
     "date": "2026-09-19",
-    "generatedAt": "2026-09-19T01:09:23.062716Z",
-    "total": 14,
+    "generatedAt": "2026-09-19T03:35:38.354273Z",
+    "total": 15,
     "sections": [
       {
         "category": "ai-coding",
         "label": "AI 编程",
         "items": [
+          {
+            "title": "How a global fintech scaled coding agent traffic with Dedicated Model Inference",
+            "summary": "Inside a global bank's shift to self-serve dedicated inference: how Together's DMI gave engineering teams direct control over scaling, model",
+            "source": "RSS · Together AI",
+            "url": "https://www.together.ai/blog/global-fintech-scales-coding-agent-traffic-with-dedicated-model-inference",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-18",
+            "publishedAt": "2026-09-18T08:00",
+            "reason": ""
+          },
           {
             "title": "Deploy Hugging Face models on Amazon SageMaker AI with coding agents",
             "summary": "Deploy production-ready Hugging Face models on Amazon SageMaker AI using six open-source agent skills. Point a coding agent at a model and g",
