@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-20",
-  "generatedAt": "2026-09-19T15:56:11.838012Z",
+  "generatedAt": "2026-09-19T17:07:24.572439Z",
   "news": [
     {
       "title": "MilleMiglia: A realistic instance generator for middle-mile logistics",
@@ -10204,9 +10204,9 @@ window.AI_GENERATED_DATA = {
     }
   ],
   "dailyReport": {
-    "date": "2026-09-19",
-    "generatedAt": "2026-09-19T15:56:11.816973Z",
-    "total": 15,
+    "date": "2026-09-20",
+    "generatedAt": "2026-09-19T17:07:24.551439Z",
+    "total": 23,
     "sections": [
       {
         "category": "ai-coding",
@@ -10233,6 +10233,34 @@ window.AI_GENERATED_DATA = {
             "date": "2026-09-18",
             "publishedAt": "2026-09-18T23:25",
             "reason": ""
+          },
+          {
+            "title": "A serverless, data-driven Git metrics dashboard using Amazon Quick Sight",
+            "summary": "Learn how to build a fully serverless pipeline that automatically collects Git metrics from GitHub and GitLab and visualizes them in interac",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/a-serverless-data-driven-git-metrics-dashboard-using-amazon-quick-sight/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-17",
+            "publishedAt": "2026-09-17T23:42",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "category": "ai-image-video",
+        "label": "图像视频",
+        "items": [
+          {
+            "title": "Enhancing industrial safety AI with synthetic data on Amazon SageMaker AI",
+            "summary": "Learn how to build a synthetic data augmentation pipeline on Amazon SageMaker AI and Amazon Rekognition that generates photo-realistic, auto",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/enhancing-industrial-safety-ai-with-synthetic-data-on-amazon-sagemaker-ai/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-17",
+            "publishedAt": "2026-09-17T23:28",
+            "reason": ""
           }
         ]
       },
@@ -10249,6 +10277,28 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-09-18",
             "publishedAt": "2026-09-18T23:31",
+            "reason": ""
+          },
+          {
+            "title": "Implementing defense-in-depth authorization for MCP tools on Amazon Quick",
+            "summary": "Learn how to enforce defense-in-depth authorization for Model Context Protocol (MCP) tools on Amazon Quick. This walkthrough wires Microsoft",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/implementing-defense-in-depth-authorization-for-mcp-tools-on-amazon-quick/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-17",
+            "publishedAt": "2026-09-17T23:30",
+            "reason": ""
+          },
+          {
+            "title": "How MRH Trowe enabled secure self-service AI agents in financial services",
+            "summary": "Learn how MRH Trowe, one of Germany's leading commercial and industrial insurance brokers, gave about 400 employees secure, self-service acc",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/how-mrh-trowe-enabled-secure-self-service-ai-agents-in-financial-services/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-17",
+            "publishedAt": "2026-09-17T23:36",
             "reason": ""
           }
         ]
@@ -10357,14 +10407,64 @@ window.AI_GENERATED_DATA = {
             "reason": ""
           },
           {
-            "title": "Ethan Mollick 谈能力悬差：GPT-6 Astra 与 Fable 5.1 的现有能力远未被用尽",
-            "summary": "Ethan Mollick 撰文指出 GPT-6 Astra 和 Fable 5.1 已能可靠完成数周量级的人类工作，但大多数人远未用尽其能力，形成能力悬差。",
-            "source": "Ethan Mollick：One Useful Thing（RSS）",
-            "url": "https://www.oneusefulthing.org/p/the-overhang",
-            "score": 56,
+            "title": "How Cooley is accelerating IPO work with ChatGPT",
+            "summary": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/cooley-gopublic",
+            "score": 70,
             "sourceCount": 1,
-            "date": "2026-09-19",
-            "publishedAt": "2026-09-19T01:54",
+            "date": "2026-09-17",
+            "publishedAt": "2026-09-17T20:00",
+            "reason": ""
+          },
+          {
+            "title": "Introducing Astra for Law",
+            "summary": "OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confi",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/astra-for-law",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-17",
+            "publishedAt": "2026-09-17T08:00",
+            "reason": ""
+          },
+          {
+            "title": "Sep 17, 2026 Announcements Introducing the Life Sciences Verification Program",
+            "summary": "Sep 17, 2026 Announcements Introducing the Life Sciences Verification Program",
+            "source": "HTML · Anthropic",
+            "url": "https://www.anthropic.com/news/life-sciences-verification-program",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-17",
+            "publishedAt": "",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "category": "ai-benchmark",
+        "label": "评测榜单",
+        "items": [
+          {
+            "title": "Selecting a vector store for Amazon Bedrock Knowledge Bases",
+            "summary": "Choosing the right vector store for your Amazon Bedrock Knowledge Bases RAG application affects performance and cost. This post compares Ama",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/selecting-a-vector-store-for-amazon-bedrock-knowledge-bases/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-17",
+            "publishedAt": "2026-09-17T23:53",
+            "reason": ""
+          },
+          {
+            "title": "REVERSAL-BENCH: A Reversibility Axis and Reset Oracle for Measuring the Reset-Free RL Cliff",
+            "summary": "A central goal of autonomous reinforcement learning is continuous policy training without external resets. However, existing paradigms large",
+            "source": "RSS · Apple ML Research",
+            "url": "https://machinelearning.apple.com/research/reversal-bench-rl-cliff",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-17",
+            "publishedAt": "2026-09-17T08:00",
             "reason": ""
           }
         ]
