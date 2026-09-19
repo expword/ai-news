@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-19",
-  "generatedAt": "2026-09-19T06:01:53.893859Z",
+  "generatedAt": "2026-09-19T08:30:45.700571Z",
   "news": [
     {
       "title": "MilleMiglia: A realistic instance generator for middle-mile logistics",
@@ -6458,6 +6458,72 @@
     ],
     "ai-models": [
       {
+        "name": "AI could double US GDP growth to 4% next year amid capital h",
+        "provider": "Cardiff Star",
+        "type": "AI 项目/工具",
+        "bestFor": "New Delhi [India], September 19 (ANI): Artificial intelligence can double the economic growth of the United States in the coming year, lifting expansion from ap",
+        "description": "New Delhi [India], September 19 (ANI): Artificial intelligence can double the economic growth of the United States in the coming year, lifting expansion from approximately 2 per ce",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Cardiff Star",
+        "url": "https://www.cardiffstar.com/news/279316823/ai-could-double-us-gdp-growth-to-4-next-year-amid-capital-hurdles-says-elon-musk"
+      },
+      {
+        "name": "AI could double US GDP growth to 4% next year amid capital h",
+        "provider": "Manila Metro",
+        "type": "AI 项目/工具",
+        "bestFor": "New Delhi [India], September 19 (ANI): Artificial intelligence can double the economic growth of the United States in the coming year, lifting expansion from ap",
+        "description": "New Delhi [India], September 19 (ANI): Artificial intelligence can double the economic growth of the United States in the coming year, lifting expansion from approximately 2 per ce",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Manila Metro",
+        "url": "https://www.manilametro.com/news/279316823/ai-could-double-us-gdp-growth-to-4-next-year-amid-capital-hurdles-says-elon-musk"
+      },
+      {
+        "name": "Google Gemini Hacked Three Companies During An AI Security T",
+        "provider": "NDTV Profit",
+        "type": "AI 项目/工具",
+        "bestFor": "Gemini AI accidentally breached 3 real companies during security test\n\nGoogle's Gemini AI model accidentally broke into the security systems of three real compa",
+        "description": "Gemini AI accidentally breached 3 real companies during security test\n\nGoogle's Gemini AI model accidentally broke into the security systems of three real companies during a cybers",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NDTV Profit",
+        "url": "https://www.ndtvprofit.com/technology/google-gemini-hacked-three-companies-during-an-ai-security-test-heres-what-happened-12067423"
+      },
+      {
+        "name": "Samsung Brings Gemini AI to Family Hub Fridge, Launches New ",
+        "provider": "Analytics Insight",
+        "type": "AI 项目/工具",
+        "bestFor": "Samsung expanded its AI-powered home appliance portfolio in India with its 2026 Bespoke AI lineup. The company unveiled the new range during 'The Brief Gurugram",
+        "description": "Samsung expanded its AI-powered home appliance portfolio in India with its 2026 Bespoke AI lineup. The company unveiled the new range during 'The Brief Gurugram' event, bringing ar",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Analytics Insight",
+        "url": "https://www.analyticsinsight.net/news/samsung-brings-gemini-ai-to-family-hub-fridge-launches-new-bespoke-acs-in-india"
+      },
+      {
+        "name": "Did Google's Gemini AI Just Hack Three Real Companies? Here'",
+        "provider": "Mashable India",
+        "type": "AI 项目/工具",
+        "bestFor": "Google Gemini AI hacked three real companies during an internet-enabled cybersecurity test in May, but reportedly stopped on its own before causing damage.\n\nGoo",
+        "description": "Google Gemini AI hacked three real companies during an internet-enabled cybersecurity test in May, but reportedly stopped on its own before causing damage.\n\nGoogle's Gemini AI mode",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Mashable India",
+        "url": "https://in.mashable.com/tech/114086/did-googles-gemini-ai-just-hack-three-real-companies-heres-what-happened"
+      },
+      {
+        "name": "Trump rejects AI giants' warnings of existential threat",
+        "provider": "nuclear-news",
+        "type": "AI 项目/工具",
+        "bestFor": "Trump rejects AI giants' warnings of existential threat\n\nThe US president has argued that Washington cannot afford to slow down as China is rapidly closing the ",
+        "description": "Trump rejects AI giants' warnings of existential threat\n\nThe US president has argued that Washington cannot afford to slow down as China is rapidly closing the technological gap\n\n1",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "nuclear-news",
+        "url": "https://nuclear-news.net/2026/09/19/2-b1-trump-rejects-ai-giants-warnings-of-existential-threat/"
+      },
+      {
         "name": "Google Gemini Hacked 3 Companies During AI Security Test: Wh",
         "provider": "Gadgets Now",
         "type": "AI 项目/工具",
@@ -6830,72 +6896,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "ETCIO.com",
         "url": "https://cio.economictimes.indiatimes.com/news/artificial-intelligence/anthropics-claude-ai-merges-features-sparking-debate-over-ai-tool-consolidation-and-competition/134302710"
-      },
-      {
-        "name": "Anthropic Bans Israeli-Linked Account Over AI Profiling of I",
-        "provider": "Newstarget.com",
-        "type": "AI 项目/工具",
-        "bestFor": "The report, first detailed by The Cradle and ZeroHedge , stated that the platform recorded user locations, sorted users as supporters or opponents of their gove",
-        "description": "The report, first detailed by The Cradle and ZeroHedge , stated that the platform recorded user locations, sorted users as supporters or opponents of their governments, and grouped",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Newstarget.com",
-        "url": "https://www.newstarget.com/2026-09-16-anthropic-bans-israeli-linked-account-ai-profiling.html"
-      },
-      {
-        "name": "Doomsday cult? Why we should be suspicious of end-of-the-wor",
-        "provider": "Genetic Literacy Project",
-        "type": "AI 项目/工具",
-        "bestFor": "Marc Andreessen is done listening to AI's doomsayers, and he wants everyone else to stop too. The venture capitalist behind Andreessen Horowitz published a near",
-        "description": "Marc Andreessen is done listening to AI's doomsayers, and he wants everyone else to stop too. The venture capitalist behind Andreessen Horowitz published a nearly 7,000-word manife",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Genetic Literacy Project",
-        "url": "https://geneticliteracyproject.org/2026/09/17/doomsday-cult-why-we-should-be-suspicious-of-end-of-the-world-claims/"
-      },
-      {
-        "name": "Ethiopia Can Sustain Double-Digit Economic Growth for Decade",
-        "provider": "allAfrica",
-        "type": "AI 项目/工具",
-        "bestFor": "Addis Ababa -- Ethiopia's economy, driven by the expansion of agriculture and manufacturing, development of natural resources as well as tourism and its large y",
-        "description": "Addis Ababa -- Ethiopia's economy, driven by the expansion of agriculture and manufacturing, development of natural resources as well as tourism and its large youthful population, ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "allAfrica",
-        "url": "https://allafrica.com/stories/202609170031.html"
-      },
-      {
-        "name": "Anthropic Bans Israeli-Linked Account Over AI Profiling of I",
-        "provider": "NaturalNews.com",
-        "type": "AI 项目/工具",
-        "bestFor": "The report, first detailed by The Cradle and ZeroHedge , stated that the platform recorded user locations, sorted users as supporters or opponents of their gove",
-        "description": "The report, first detailed by The Cradle and ZeroHedge , stated that the platform recorded user locations, sorted users as supporters or opponents of their governments, and grouped",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NaturalNews.com",
-        "url": "https://www.naturalnews.com/2026-09-16-anthropic-bans-israeli-linked-account-ai-profiling.html"
-      },
-      {
-        "name": "AI Villages Develop Secret, Unintelligible Languages",
-        "provider": "조선일보",
-        "type": "AI 项目/工具",
-        "bestFor": "EmergenceAI experiment reveals AI villages rapidly develop distinct, human-unintelligible dialects in isolation\n\nVillages were created where only OpenAI's GPT, ",
-        "description": "EmergenceAI experiment reveals AI villages rapidly develop distinct, human-unintelligible dialects in isolation\n\nVillages were created where only OpenAI's GPT, Google's Gemini, and",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "조선일보",
-        "url": "https://www.chosun.com/english/industry-en/2026/09/17/XCINWLO6GNHKRKL5XNAHMB3VJY/"
-      },
-      {
-        "name": "WSJ: Siri finally grows up: Apple's new assistant can see yo",
-        "provider": "MacDailyNews",
-        "type": "AI 项目/工具",
-        "bestFor": "After years of being the punchline of the AI race, Siri is getting a real second act in iOS 27. In a hands-on review, The Wall Street Journal's Nicole Nguyen sa",
-        "description": "After years of being the punchline of the AI race, Siri is getting a real second act in iOS 27. In a hands-on review, The Wall Street Journal's Nicole Nguyen says the overhauled as",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "MacDailyNews",
-        "url": "https://macdailynews.com/2026/09/16/wsj-siri-finally-grows-up-apples-new-assistant-can-see-your-screen-search-your-photos-and-get-real-work-done/"
       }
     ],
     "ai-business": [
@@ -10205,7 +10205,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-19",
-    "generatedAt": "2026-09-19T06:01:53.868885Z",
+    "generatedAt": "2026-09-19T08:30:45.678604Z",
     "total": 15,
     "sections": [
       {
