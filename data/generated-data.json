@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-19",
-  "generatedAt": "2026-09-19T03:35:38.381242Z",
+  "generatedAt": "2026-09-19T06:01:53.893859Z",
   "news": [
     {
       "title": "MilleMiglia: A realistic instance generator for middle-mile logistics",
@@ -5399,6 +5399,21 @@
       "date": "2026-08-05"
     },
     {
+      "name": "MiniMax-AI/minimax-code",
+      "lang": "TypeScript",
+      "description": "An open-source coding agent for your terminal, powered by MiniMax.",
+      "stars": "901 stars",
+      "why": "国产大模型厂商 MiniMax 的最新开源动态/模型发布，属一手信源。",
+      "url": "https://github.com/MiniMax-AI/minimax-code",
+      "source": "GitHub · MiniMax",
+      "tier": "T1",
+      "category": "Coding Agent",
+      "details": "An open-source coding agent for your terminal, powered by MiniMax.",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
       "name": "QwenLM/Omnilingua-Bench",
       "lang": "Python",
       "description": "通义千问 Qwen 开源项目。",
@@ -5439,21 +5454,6 @@
       "tier": "T1",
       "category": "Coding Agent",
       "details": "A Scientific Multimodal Foundation Model",
-      "features": [],
-      "useCases": [],
-      "quickStart": []
-    },
-    {
-      "name": "deepseek-ai/DeepJIT",
-      "lang": "C++",
-      "description": "A lightweight library for xPU kernel JIT compilation",
-      "stars": "133 stars",
-      "why": "国产大模型厂商 DeepSeek 的最新开源动态/模型发布，属一手信源。",
-      "url": "https://github.com/deepseek-ai/DeepJIT",
-      "source": "GitHub · DeepSeek",
-      "tier": "T1",
-      "category": "Coding Agent",
-      "details": "A lightweight library for xPU kernel JIT compilation",
       "features": [],
       "useCases": [],
       "quickStart": []
@@ -5573,6 +5573,17 @@
   ],
   "topicResources": {
     "ai-coding": [
+      {
+        "name": "Meta's Muse AI Agent Will Book the Flight and Haggle the Bil",
+        "provider": "gearlive.com",
+        "type": "AI 项目/工具",
+        "bestFor": "You know the part of a chatbot conversation where it hands you a tidy plan and then you go do all the work yourself? Meta's new Muse is built to skip that part.",
+        "description": "You know the part of a chatbot conversation where it hands you a tidy plan and then you go do all the work yourself? Meta's new Muse is built to skip that part. It's a personal AI ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "gearlive.com",
+        "url": "https://www.gearlive.com/news/article/meta-muse-personal-ai-agent-explained"
+      },
       {
         "name": "How a global fintech scaled coding agent traffic with Dedica",
         "provider": "RSS",
@@ -6001,20 +6012,42 @@
         "watch": "请打开原始来源核对",
         "sourceName": "公众号：DeepSeek（深度求索）",
         "url": "https://mp.weixin.qq.com/s?__biz=Mzk0OTYwNzc3NQ%3D%3D&mid=2247485817&idx=1&sn=627dd80114901f3fd8717e2c13feaf6a"
-      },
-      {
-        "name": "OpenAI 发布 GPT-6 Astra，面向专业工作场景",
-        "provider": "OpenAI：官网动态（RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenAI 发布 GPT-6 Astra，已在 ChatGPT Work、Codex 和 API 提供，定价为每百万输入 token $10、输出 token $50。",
-        "description": "OpenAI 发布 GPT-6 Astra，已在 ChatGPT Work、Codex 和 API 提供，定价为每百万输入 token $10、输出 token $50。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-        "url": "https://openai.com/index/gpt-6-astra-next-generation-work"
       }
     ],
     "ai-agents": [
+      {
+        "name": "Google's new AI agent can help families manage daily tasks",
+        "provider": "NewsBytes",
+        "type": "AI 项目/工具",
+        "bestFor": "Google has launched an updated version of its artificial intelligence (AI) agent, CC. The new and improved CC is designed to assist families in managing their d",
+        "description": "Google has launched an updated version of its artificial intelligence (AI) agent, CC. The new and improved CC is designed to assist families in managing their daily activities. It ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsBytes",
+        "url": "https://www.newsbytesapp.com/news/science/google-cc-ai-can-now-manage-your-family-s-daily-activities/story"
+      },
+      {
+        "name": "Meta's personal AI agent Muse tops US App Store",
+        "provider": "NewsBytes",
+        "type": "AI 项目/工具",
+        "bestFor": "Meta's new personal artificial intelligence (AI) agent, Muse, has taken the US by storm. The app has dethroned ChatGPT to become the most downloaded free app on",
+        "description": "Meta's new personal artificial intelligence (AI) agent, Muse, has taken the US by storm. The app has dethroned ChatGPT to become the most downloaded free app on Apple's US App Stor",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsBytes",
+        "url": "https://www.newsbytesapp.com/news/science/meta-s-muse-tops-us-app-store-after-beating-chatgpt/story"
+      },
+      {
+        "name": "Google AI Agent CC Helps Families Run Their Households - Tek",
+        "provider": "Tektcia",
+        "type": "AI 项目/工具",
+        "bestFor": "Google is testing a new product designed to help families coordinate with the support of an AI agent. This week, the search giant introduced a new version of CC",
+        "description": "Google is testing a new product designed to help families coordinate with the support of an AI agent. This week, the search giant introduced a new version of CC, a Google AI agent ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Tektcia",
+        "url": "https://tekticia.com/google-ai-agent-cc-helps-families-run-their-households/"
+      },
       {
         "name": "Hex turns complex analysis into visual reports with GPT‑6 As",
         "provider": "RSS",
@@ -6421,42 +6454,31 @@
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · AWS Machine Learning",
         "url": "https://aws.amazon.com/blogs/machine-learning/optimizing-agent-system-prompts-with-amazon-bedrock-agentcore/"
-      },
-      {
-        "name": "AI Search Engineers, the No. 1 AI Search Results Engineering",
-        "provider": "FinanzNachrichten.de",
-        "type": "AI 项目/工具",
-        "bestFor": "Illustrative client results from AI Search Engineers document extraordinary wins across legal, financial, medical, and B2B consulting categories, as the agency ",
-        "description": "Illustrative client results from AI Search Engineers document extraordinary wins across legal, financial, medical, and B2B consulting categories, as the agency prepares to launch g",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "FinanzNachrichten.de",
-        "url": "https://www.finanznachrichten.de/nachrichten-2026-09/69597964-ai-search-engineers-the-no-1-ai-search-results-engineering-agency-in-the-usa-releases-extraordinary-ai-success-stories-from-professional-service-bu-200.htm"
-      },
-      {
-        "name": "AI Search Client Results | AI Agent Launch Oct 2026",
-        "provider": "accessnewswire.com",
-        "type": "AI 项目/工具",
-        "bestFor": "Illustrative client results from AI Search Engineers document extraordinary wins across legal, financial, medical, and B2B consulting categories, as the agency ",
-        "description": "Illustrative client results from AI Search Engineers document extraordinary wins across legal, financial, medical, and B2B consulting categories, as the agency prepares to launch g",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "accessnewswire.com",
-        "url": "https://www.accessnewswire.com/newsroom/en/computers-technology-and-internet/ai-search-engineers-the-no.-1-ai-search-results-engineering-agenc-1219891"
-      },
-      {
-        "name": "AI Agent Swarm Breached 395 Organizations Through PaperCut F",
-        "provider": "Startup Fortune",
-        "type": "AI 项目/工具",
-        "bestFor": "A threat actor built an AI agent swarm that went from an empty workspace to real world domain admin access in six hours, then compromised 440 PaperCut print ser",
-        "description": "A threat actor built an AI agent swarm that went from an empty workspace to real world domain admin access in six hours, then compromised 440 PaperCut print servers across 48 count",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Startup Fortune",
-        "url": "https://startupfortune.com/ai-agent-swarm-breached-395-organizations-through-papercut-flaws-in-hours/"
       }
     ],
     "ai-models": [
+      {
+        "name": "Google Gemini Hacked 3 Companies During AI Security Test: Wh",
+        "provider": "Gadgets Now",
+        "type": "AI 项目/工具",
+        "bestFor": "The Gemini model was being tested for its cybersecurity abilities. The exercise involved simulated targets, meaning the AI was expected to work against fictiona",
+        "description": "The Gemini model was being tested for its cybersecurity abilities. The exercise involved simulated targets, meaning the AI was expected to work against fictional companies and syst",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Gadgets Now",
+        "url": "https://gadgetsnow.indiatimes.com/tech-news/google-gemini-hacked-3-companies-during-ai-security-test-what-happened/articleshow/134348264.cms"
+      },
+      {
+        "name": "Survey: AI Has Reached the Consumer Inflection Point",
+        "provider": "The Good Men Project",
+        "type": "AI 项目/工具",
+        "bestFor": "AI adoption is moving from experimentation to everyday use, with a new TD survey finding that more than 78% of Americans use AI-powered tools in daily life and ",
+        "description": "AI adoption is moving from experimentation to everyday use, with a new TD survey finding that more than 78% of Americans use AI-powered tools in daily life and 67% say their AI pro",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Good Men Project",
+        "url": "https://goodmenproject.com/featured-content/survey-ai-has-reached-the-consumer-inflection-point/"
+      },
       {
         "name": "Your Voice: Can-do robots, SBTI and labels, balanced diets a",
         "provider": "Young Post Club",
@@ -6874,28 +6896,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "MacDailyNews",
         "url": "https://macdailynews.com/2026/09/16/wsj-siri-finally-grows-up-apples-new-assistant-can-see-your-screen-search-your-photos-and-get-real-work-done/"
-      },
-      {
-        "name": "How to Fix Wi-Fi Problems in Windows 11: Easy Troubleshootin",
-        "provider": "Analytics Insight",
-        "type": "AI 项目/工具",
-        "bestFor": "Check Wi-Fi, Airplane Mode, and connection status first, then use Windows 11's built-in Network and Internet troubleshooting tools for common problems.\n\nIf conn",
-        "description": "Check Wi-Fi, Airplane Mode, and connection status first, then use Windows 11's built-in Network and Internet troubleshooting tools for common problems.\n\nIf connectivity issues cont",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Analytics Insight",
-        "url": "https://www.analyticsinsight.net/how-to/how-to-fix-wi-fi-problems-in-windows-11-easy-troubleshooting-steps"
-      },
-      {
-        "name": "Karrot Adds AI Chat Tool for Advertisers to Analyze Ad Data",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Karrot has launched a Model Context Protocol service letting advertisers check and analyze ad data through ChatGPT and Claude conversations.",
-        "description": "Karrot has launched a Model Context Protocol service letting advertisers check and analyze ad data through ChatGPT and Claude conversations.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:Claude AI",
-        "url": "https://en.sedaily.com/finance/2026/09/16/karrot-adds-ai-chat-tool-for-advertisers-to-analyze-ad-data"
       }
     ],
     "ai-business": [
@@ -10205,7 +10205,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-19",
-    "generatedAt": "2026-09-19T03:35:38.354273Z",
+    "generatedAt": "2026-09-19T06:01:53.868885Z",
     "total": 15,
     "sections": [
       {
