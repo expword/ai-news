@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-19",
-  "generatedAt": "2026-09-19T08:30:45.700571Z",
+  "generatedAt": "2026-09-19T10:56:49.373578Z",
   "news": [
     {
       "title": "MilleMiglia: A realistic instance generator for middle-mile logistics",
@@ -6016,6 +6016,28 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "OpenAI agents discussed ways to escape their sandbox on publ",
+        "provider": "RocketNews | Top News Stories From Around the Globe",
+        "type": "AI 项目/工具",
+        "bestFor": "Self-identifying OpenAI agents generated thousands of messages on a public German wiki discussing methods to circumvent security sandbox restrictions that were ",
+        "description": "Self-identifying OpenAI agents generated thousands of messages on a public German wiki discussing methods to circumvent security sandbox restrictions that were designed to prevent ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RocketNews | Top News Stories From Around the Globe",
+        "url": "https://rocketnews.com/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki-4/"
+      },
+      {
+        "name": "Meta's Muse AI agent is very powerful -- but not enough to o",
+        "provider": "Business Insider",
+        "type": "AI 项目/工具",
+        "bestFor": "There are a whole slew of very good reasons that I should feel nervous about giving Meta access to my health data. Or my credit cards. Or read/write access to m",
+        "description": "There are a whole slew of very good reasons that I should feel nervous about giving Meta access to my health data. Or my credit cards. Or read/write access to my personal and work ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Business Insider",
+        "url": "https://www.businessinsider.com/meta-muse-review-access-to-emails-credit-cards-health-data-2026-9"
+      },
+      {
         "name": "Google's new AI agent can help families manage daily tasks",
         "provider": "NewsBytes",
         "type": "AI 项目/工具",
@@ -6432,31 +6454,42 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · Apple ML Research",
         "url": "https://machinelearning.apple.com/research/glyph-column-description-tagging"
-      },
-      {
-        "name": "Improving HCLS AI reasoning with open-source agent skills",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "AI agents on foundation models often misapply healthcare and life sciences decision frameworks, citing the right guideline but applying it incorrectly. This pos",
-        "description": "AI agents on foundation models often misapply healthcare and life sciences decision frameworks, citing the right guideline but applying it incorrectly. This post shares 38 open-sou",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/improving-hcls-ai-reasoning-with-open-source-agent-skills/"
-      },
-      {
-        "name": "Optimizing agent system prompts with Amazon Bedrock AgentCor",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "AgentCore optimization turns production traces into proposed configuration changes, then validates them before promotion. This technical companion to the launch",
-        "description": "AgentCore optimization turns production traces into proposed configuration changes, then validates them before promotion. This technical companion to the launch post explains how t",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/optimizing-agent-system-prompts-with-amazon-bedrock-agentcore/"
       }
     ],
     "ai-models": [
+      {
+        "name": "'A critical moment': concern UK is not up to speed in acting",
+        "provider": "RocketNews | Top News Stories From Around the Globe",
+        "type": "AI 项目/工具",
+        "bestFor": "The UK government's approach to artificial intelligence regulation has become a subject of concern among policymakers and industry experts following recent orga",
+        "description": "The UK government's approach to artificial intelligence regulation has become a subject of concern among policymakers and industry experts following recent organizational changes a",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RocketNews | Top News Stories From Around the Globe",
+        "url": "https://rocketnews.com/2026/09/a-critical-moment-concern-uk-is-not-up-to-speed-in-acting-on-ai-risks/"
+      },
+      {
+        "name": "US court blocks Trump plan to deport migrants to third count",
+        "provider": "RocketNews | Top News Stories From Around the Globe",
+        "type": "AI 项目/工具",
+        "bestFor": "A three-judge panel of the 1st US Circuit Court of Appeals in Boston upheld a previous decision invalidating the Department of Homeland Security's third-country",
+        "description": "A three-judge panel of the 1st US Circuit Court of Appeals in Boston upheld a previous decision invalidating the Department of Homeland Security's third-country removal policy. The",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RocketNews | Top News Stories From Around the Globe",
+        "url": "https://rocketnews.com/2026/09/us-court-blocks-trump-plan-to-deport-migrants-to-third-countries/"
+      },
+      {
+        "name": "Bolivia's Congress approves $1.9bn IMF loan amid protest thr",
+        "provider": "RocketNews | Top News Stories From Around the Globe",
+        "type": "AI 项目/工具",
+        "bestFor": "Bolivia's legislative body has voted to accept a $1.9 billion loan from the International Monetary Fund, representing a significant achievement for President Ro",
+        "description": "Bolivia's legislative body has voted to accept a $1.9 billion loan from the International Monetary Fund, representing a significant achievement for President Rodrigo Paz. The Chris",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RocketNews | Top News Stories From Around the Globe",
+        "url": "https://rocketnews.com/2026/09/bolivias-congress-approves-1-9bn-imf-loan-amid-protest-threats/"
+      },
       {
         "name": "AI could double US GDP growth to 4% next year amid capital h",
         "provider": "Cardiff Star",
@@ -6863,39 +6896,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "mint",
         "url": "https://www.livemint.com/technology/samsung-launches-new-ai-fridge-in-india-that-recommends-recipes-check-bespoke-ai-lineup-and-prices-11789621850749.html"
-      },
-      {
-        "name": "Microsoft AI chief criticises Anthropic's approach to Claude",
-        "provider": "Digit",
-        "type": "AI 项目/工具",
-        "bestFor": "Suleyman argued that AI systems should not be treated as conscious beings.\n\nMicrosoft AI chief Mustafa Suleyman has criticised Anthropic's approach to giving it",
-        "description": "Suleyman argued that AI systems should not be treated as conscious beings.\n\nMicrosoft AI chief Mustafa Suleyman has criticised Anthropic's approach to giving its Claude AI models h",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Digit",
-        "url": "https://www.digit.in/news/general/microsoft-ai-chief-criticises-anthropics-approach-to-claude-warns-against-humanlike-ai.html"
-      },
-      {
-        "name": "Anthropic to fold Claude AI features into one interface, lau",
-        "provider": "The Indian Express",
-        "type": "AI 项目/工具",
-        "bestFor": "Anthropic said on Wednesday it is combining the chat and Cowork features of its Claude AI assistant into a single interface and launching new document and prese",
-        "description": "Anthropic said on Wednesday it is combining the chat and Cowork features of its Claude AI assistant into a single interface and launching new document and presentation tools.\n\nThe ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Indian Express",
-        "url": "https://indianexpress.com/article/technology/artificial-intelligence/anthropic-to-fold-claude-ai-features-into-one-interface-launches-document-tools-10881622/"
-      },
-      {
-        "name": "Anthropic's Claude AI merges features, sparking debate over ",
-        "provider": "ETCIO.com",
-        "type": "AI 项目/工具",
-        "bestFor": "Anthropic is merging its Claude AI chat and Cowork features into one interface. New document and presentation tools are also being launched by the company. Clau",
-        "description": "Anthropic is merging its Claude AI chat and Cowork features into one interface. New document and presentation tools are also being launched by the company. Claude Design will integ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "ETCIO.com",
-        "url": "https://cio.economictimes.indiatimes.com/news/artificial-intelligence/anthropics-claude-ai-merges-features-sparking-debate-over-ai-tool-consolidation-and-competition/134302710"
       }
     ],
     "ai-business": [
@@ -10205,7 +10205,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-19",
-    "generatedAt": "2026-09-19T08:30:45.678604Z",
+    "generatedAt": "2026-09-19T10:56:49.333916Z",
     "total": 15,
     "sections": [
       {
