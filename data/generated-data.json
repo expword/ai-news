@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-20",
-  "generatedAt": "2026-09-20T03:52:42.290971Z",
+  "generatedAt": "2026-09-20T06:23:31.538170Z",
   "news": [
     {
       "title": "MilleMiglia: A realistic instance generator for middle-mile logistics",
@@ -2494,6 +2494,33 @@
       "moduleTargets": [
         "news",
         "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Open-Source AI & Open Models Reading List",
+      "summary": "How to get up to speed on open models and their implications.",
+      "category": "ai-models",
+      "source": "RSS · Interconnects (Nathan Lambert)",
+      "date": "2026-09-11",
+      "publishedAt": "2026-09-11T20:36",
+      "collectedAt": "2026-09-20T14:23",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://www.interconnects.ai/p/open-source-ai-reading-list",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1.5",
+      "scores": {},
+      "score": 56,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
       ],
       "sourceCount": 1
     }
@@ -5574,6 +5601,17 @@
   "topicResources": {
     "ai-coding": [
       {
+        "name": "10 Best Vibe Coding Tools in 2026: Compared & Tested - Memeb",
+        "provider": "Memeburn",
+        "type": "AI 项目/工具",
+        "bestFor": "Pricing varies widely, from free tiers to usage-based models and plans reaching $200 per month.\n\nAI-assisted development has become a standard part of software ",
+        "description": "Pricing varies widely, from free tiers to usage-based models and plans reaching $200 per month.\n\nAI-assisted development has become a standard part of software work, with GitHub Co",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Memeburn",
+        "url": "https://memeburn.com/best-vibe-coding-tools/"
+      },
+      {
         "name": "Meta's Muse AI Agent Will Book the Flight and Haggle the Bil",
         "provider": "gearlive.com",
         "type": "AI 项目/工具",
@@ -6001,17 +6039,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "DeepSeek：API 更新日志",
         "url": "https://api-docs.deepseek.com/zh-cn/updates#%E6%97%B6%E9%97%B4-2026-09-10"
-      },
-      {
-        "name": "DeepSeek 发布 V4.1 Flash：552B MoE 多模态模型，同步开源并下调 API 定价",
-        "provider": "公众号：DeepSeek（深度求索）",
-        "type": "AI 项目/工具",
-        "bestFor": "DeepSeek 正式发布 V4.1 Flash，全新 Causal-Encoder-Decoder 结构的 552B 参数 MoE 模型，输入激活 8B、输出激活 16B，具备原生多模态视觉理解，基准测试超越包括 DeepSeek V4 Pro 在内的旗舰模型。",
-        "description": "DeepSeek 正式发布 V4.1 Flash，全新 Causal-Encoder-Decoder 结构的 552B 参数 MoE 模型，输入激活 8B、输出激活 16B，具备原生多模态视觉理解，基准测试超越包括 DeepSeek V4 Pro 在内的旗舰模型。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "公众号：DeepSeek（深度求索）",
-        "url": "https://mp.weixin.qq.com/s?__biz=Mzk0OTYwNzc3NQ%3D%3D&mid=2247485817&idx=1&sn=627dd80114901f3fd8717e2c13feaf6a"
       }
     ],
     "ai-agents": [
@@ -8359,6 +8386,17 @@
     ],
     "ai-research": [
       {
+        "name": "RSA-896 factored with AI assistance, pushing the public reco",
+        "provider": "Crypto Briefing",
+        "type": "AI 项目/工具",
+        "bestFor": "Two researchers cracked increasingly large semiprimes in 16 days using AI tools, raising quiet but serious questions about encryption's long-term durability.\n\nC",
+        "description": "Two researchers cracked increasingly large semiprimes in 16 days using AI tools, raising quiet but serious questions about encryption's long-term durability.\n\nCryptographers have b",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Crypto Briefing",
+        "url": "https://cryptobriefing.com/rsa-896-factored-ai-assistance-public-record/"
+      },
+      {
         "name": "Where Marine Energy Meets Hybrid Power Systems, This Laborat",
         "provider": "RocketNews | Top News Stories From Around the Globe",
         "type": "AI 项目/工具",
@@ -8786,17 +8824,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Punch Newspapers",
         "url": "https://punchng.com/firm-launches-in-nigeria-to-drive-strategic-execution/"
-      },
-      {
-        "name": "Mapping global methane emissions from space with deep learni",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Climate & Sustainability",
-        "description": "Climate & Sustainability",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · Google Research",
-        "url": "https://research.google/blog/mapping-global-methane-emissions-from-space-with-deep-learning/"
       }
     ],
     "ai-office": []
@@ -10205,7 +10232,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-20",
-    "generatedAt": "2026-09-20T03:52:42.269973Z",
+    "generatedAt": "2026-09-20T06:23:31.517542Z",
     "total": 23,
     "sections": [
       {
