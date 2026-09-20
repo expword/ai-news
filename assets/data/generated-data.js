@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-20",
-  "generatedAt": "2026-09-19T17:07:24.572439Z",
+  "generatedAt": "2026-09-20T01:21:20.416285Z",
   "news": [
     {
       "title": "MilleMiglia: A realistic instance generator for middle-mile logistics",
@@ -6016,6 +6016,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "HubSpot Unveils AI Agent Strategy, Lifts 2030 Margin Targets",
+        "provider": "Yahoo! Finance",
+        "type": "AI 项目/工具",
+        "bestFor": "* Docusign: Another Beat, Another Selloff -- Why the Analysts Are Wrong\n\nHubSpot (NYSE:HUBS) used its Analyst Day at UNBOUND to outline an AI-focused strategy c",
+        "description": "* Docusign: Another Beat, Another Selloff -- Why the Analysts Are Wrong\n\nHubSpot (NYSE:HUBS) used its Analyst Day at UNBOUND to outline an AI-focused strategy centered on what Chie",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Yahoo! Finance",
+        "url": "https://finance.yahoo.com/technology/ai/articles/hubspot-unveils-ai-agent-strategy-180216615.html"
+      },
+      {
         "name": "GenAI Skills in 2026: Why AI Agents, Multi-Agent Systems Mat",
         "provider": "Analytics Insight",
         "type": "AI 项目/工具",
@@ -6443,20 +6454,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "RocketNews | Top News Stories From Around the Globe",
         "url": "https://rocketnews.com/2026/09/google-home-is-unlocking-the-agentic-smart-home-which-is-great-right/"
-      },
-      {
-        "name": "How smart home is becoming interface between AI agents and p",
-        "provider": "Business Standard",
-        "type": "AI 项目/工具",
-        "bestFor": "AI agents are gaining access to smart home devices, making home platforms an interface between AI and the physical world (AI-generated image)\n\nGoogle has its ow",
-        "description": "AI agents are gaining access to smart home devices, making home platforms an interface between AI and the physical world (AI-generated image)\n\nGoogle has its own AI agent for the h",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Business Standard",
-        "url": "https://www.business-standard.com/technology/tech-news/smart-home-interface-ai-agents-physical-world-126091700840_1.html"
       }
     ],
     "ai-models": [
+      {
+        "name": "纽约时报诉讼文件披露：微软高管称 AI 抓取是人类历史上最大规模的劳动力盗用",
+        "provider": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "type": "AI 项目/工具",
+        "bestFor": "纽约时报在起诉 OpenAI 和微软的版权案中提交法律简报并申请即决判决，引用双方内部文件称 AI 抓取是\"人类历史上最大规模的劳动力盗用\"，OpenAI ChatGPT 负责人称其对出版商是\"生存威胁\"。文件还显示 Copilot 使纽约时报的点击率相比 Bing 搜索最多下降 93%，且 Nadella 在证词中表",
+        "description": "纽约时报在起诉 OpenAI 和微软的版权案中提交法律简报并申请即决判决，引用双方内部文件称 AI 抓取是\"人类历史上最大规模的劳动力盗用\"，OpenAI ChatGPT 负责人称其对出版商是\"生存威胁\"。文件还显示 Copilot 使纽约时报的点击率相比 Bing 搜索最多下降 93%，且 Nadella 在证词中表示付费墙内容应获得授权，这些内容可能削弱",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-director-called-ai-scraping-the-largest-theft-of-labor-in-human-history-while-openai-head-brands-chatgpt-an-existential-threat-to-publishers-revelations-come-from-legal-briefs-filed-in-nyt-lawsuit"
+      },
       {
         "name": "Google says its Gemini AI model hacked 3 other companies: re",
         "provider": "KVII",
@@ -6885,17 +6896,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · AWS Machine Learning",
         "url": "https://aws.amazon.com/blogs/machine-learning/selecting-a-vector-store-for-amazon-bedrock-knowledge-bases/"
-      },
-      {
-        "name": "Solar Energy Industries Association to Combine with Coalitio",
-        "provider": "RocketNews | Top News Stories From Around the Globe",
-        "type": "AI 项目/工具",
-        "bestFor": "The Solar Energy Industries Association (SEIA) and the Coalition for Community Solar Access (CCSA) announced a merger following board approval from both organiz",
-        "description": "The Solar Energy Industries Association (SEIA) and the Coalition for Community Solar Access (CCSA) announced a merger following board approval from both organizations. The integrat",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RocketNews | Top News Stories From Around the Globe",
-        "url": "https://rocketnews.com/2026/09/solar-energy-industries-association-to-combine-with-coalition-for-community-solar-access-strengthening-advocacy-for-entire-solar-storage-industry-across-the-country/"
       }
     ],
     "ai-business": [
@@ -10205,7 +10205,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-20",
-    "generatedAt": "2026-09-19T17:07:24.551439Z",
+    "generatedAt": "2026-09-20T01:21:20.392239Z",
     "total": 23,
     "sections": [
       {
