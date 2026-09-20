@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-21",
-  "generatedAt": "2026-09-20T16:26:12.083169Z",
+  "generatedAt": "2026-09-20T17:38:45.589371Z",
   "news": [
     {
       "title": "MilleMiglia: A realistic instance generator for middle-mile logistics",
@@ -5399,6 +5399,36 @@
       "date": "2026-08-05"
     },
     {
+      "name": "QwenLM/Qwen-Image-2.1",
+      "lang": "Python",
+      "description": "Qwen's most powerful open-source image generation model",
+      "stars": "242 stars",
+      "why": "国产大模型厂商 通义千问 Qwen 的最新开源动态/模型发布，属一手信源。",
+      "url": "https://github.com/QwenLM/Qwen-Image-2.1",
+      "source": "GitHub · 通义千问 Qwen",
+      "tier": "T1",
+      "category": "Coding Agent",
+      "details": "Qwen's most powerful open-source image generation model",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
+      "name": "QwenLM/RecreationWorld",
+      "lang": "Python",
+      "description": "通义千问 Qwen 开源项目。",
+      "stars": "0 stars",
+      "why": "国产大模型厂商 通义千问 Qwen 的最新开源动态/模型发布，属一手信源。",
+      "url": "https://github.com/QwenLM/RecreationWorld",
+      "source": "GitHub · 通义千问 Qwen",
+      "tier": "T1",
+      "category": "Coding Agent",
+      "details": "通义千问 Qwen 开源项目。",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
       "name": "MiniMax-AI/MiniMax-Code-MiniApps",
       "lang": "HTML",
       "description": "MiniMax 开源项目。",
@@ -5424,36 +5454,6 @@
       "tier": "T1",
       "category": "Coding Agent",
       "details": "AuK: An Open-Source Foundational Model for Speech Generation and Editing",
-      "features": [],
-      "useCases": [],
-      "quickStart": []
-    },
-    {
-      "name": "ByteDance-Seed/Triton-distributed",
-      "lang": "Python",
-      "description": "Distributed Compiler and Optimized Parallel Kernels",
-      "stars": "1546 stars",
-      "why": "国产大模型厂商 字节跳动 Seed 的最新开源动态/模型发布，属一手信源。",
-      "url": "https://github.com/ByteDance-Seed/Triton-distributed",
-      "source": "GitHub · 字节跳动 Seed",
-      "tier": "T1",
-      "category": "Coding Agent",
-      "details": "Distributed Compiler and Optimized Parallel Kernels",
-      "features": [],
-      "useCases": [],
-      "quickStart": []
-    },
-    {
-      "name": "MiniMax-AI/minimax-code",
-      "lang": "TypeScript",
-      "description": "An open-source coding agent for your terminal, powered by MiniMax.",
-      "stars": "901 stars",
-      "why": "国产大模型厂商 MiniMax 的最新开源动态/模型发布，属一手信源。",
-      "url": "https://github.com/MiniMax-AI/minimax-code",
-      "source": "GitHub · MiniMax",
-      "tier": "T1",
-      "category": "Coding Agent",
-      "details": "An open-source coding agent for your terminal, powered by MiniMax.",
       "features": [],
       "useCases": [],
       "quickStart": []
@@ -10195,7 +10195,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-21",
-    "generatedAt": "2026-09-20T16:26:12.056203Z",
+    "generatedAt": "2026-09-20T17:38:45.565360Z",
     "total": 23,
     "sections": [
       {
