@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-20",
-  "generatedAt": "2026-09-20T08:54:22.499039Z",
+  "generatedAt": "2026-09-20T11:24:56.519818Z",
   "news": [
     {
       "title": "MilleMiglia: A realistic instance generator for middle-mile logistics",
@@ -5399,6 +5399,21 @@ window.AI_GENERATED_DATA = {
       "date": "2026-08-05"
     },
     {
+      "name": "MiniMax-AI/MiniMax-Code-MiniApps",
+      "lang": "HTML",
+      "description": "MiniMax 开源项目。",
+      "stars": "5 stars",
+      "why": "国产大模型厂商 MiniMax 的最新开源动态/模型发布，属一手信源。",
+      "url": "https://github.com/MiniMax-AI/MiniMax-Code-MiniApps",
+      "source": "GitHub · MiniMax",
+      "tier": "T1",
+      "category": "Coding Agent",
+      "details": "MiniMax 开源项目。",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
       "name": "Tencent-Hunyuan/AuK",
       "lang": "Python",
       "description": "AuK: An Open-Source Foundational Model for Speech Generation and Editing",
@@ -5439,21 +5454,6 @@ window.AI_GENERATED_DATA = {
       "tier": "T1",
       "category": "Coding Agent",
       "details": "An open-source coding agent for your terminal, powered by MiniMax.",
-      "features": [],
-      "useCases": [],
-      "quickStart": []
-    },
-    {
-      "name": "QwenLM/Omnilingua-Bench",
-      "lang": "Python",
-      "description": "通义千问 Qwen 开源项目。",
-      "stars": "0 stars",
-      "why": "国产大模型厂商 通义千问 Qwen 的最新开源动态/模型发布，属一手信源。",
-      "url": "https://github.com/QwenLM/Omnilingua-Bench",
-      "source": "GitHub · 通义千问 Qwen",
-      "tier": "T1",
-      "category": "Coding Agent",
-      "details": "通义千问 Qwen 开源项目。",
       "features": [],
       "useCases": [],
       "quickStart": []
@@ -6016,6 +6016,72 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "Google's AI test takes an unexpected turn as Gemini reaches ",
+        "provider": "MoneyControl",
+        "type": "AI 项目/工具",
+        "bestFor": "Artificial intelligence is moving beyond answering questions. Modern AI agents can search the internet, use software tools and carry out tasks with limited huma",
+        "description": "Artificial intelligence is moving beyond answering questions. Modern AI agents can search the internet, use software tools and carry out tasks with limited human intervention. A re",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "MoneyControl",
+        "url": "https://www.moneycontrol.com/news/trends/google-s-ai-test-takes-an-unexpected-turn-as-gemini-reaches-real-systems-14033884.html"
+      },
+      {
+        "name": "Unlocking the trillion-token era: B.AI's global settlement l",
+        "provider": "Cointelegraph",
+        "type": "AI 项目/工具",
+        "bestFor": "B.AI has surpassed 1.51 trillion tokens in daily throughput just five months after launch, marking a more than 71,500-fold increase since its first day of opera",
+        "description": "B.AI has surpassed 1.51 trillion tokens in daily throughput just five months after launch, marking a more than 71,500-fold increase since its first day of operation.\n\nSeptember 20,",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Cointelegraph",
+        "url": "https://cointelegraph.com/press-releases/unlocking-the-trillion-token-era-bais-global-settlement-layer-for-the-agent-economy"
+      },
+      {
+        "name": "What Life Could Look Like in an AI-First World",
+        "provider": "Analytics Insight",
+        "type": "AI 项目/工具",
+        "bestFor": "AI Could Become the Default Layer of Daily Life: In an AI-first world, people may set goals while AI agents handle tasks across apps, devices and digital servic",
+        "description": "AI Could Become the Default Layer of Daily Life: In an AI-first world, people may set goals while AI agents handle tasks across apps, devices and digital services.\n\n.\n\nYour AI Agen",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Analytics Insight",
+        "url": "https://www.analyticsinsight.net/ampstories/artificial-intelligence/what-life-could-look-like-in-an-ai-first-world"
+      },
+      {
+        "name": "AI labs are losing control of agents just as they want to gi",
+        "provider": "Business Insider",
+        "type": "AI 项目/工具",
+        "bestFor": "AI assistants are finally ready to help you run your life. All you need to do is trust them with your email login, your contacts, and your credit card  --  and ",
+        "description": "AI assistants are finally ready to help you run your life. All you need to do is trust them with your email login, your contacts, and your credit card  --  and hope they don't go r",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Business Insider",
+        "url": "https://www.businessinsider.com/ai-agents-misbehavior-alignment-privacy-muse-instinct-2026-9"
+      },
+      {
+        "name": "AI helping speed up Worcestershire bus pass applications say",
+        "provider": "BBC",
+        "type": "AI 项目/工具",
+        "bestFor": "Artificial intelligence (AI) is being used to help speed up bus pass applications in Worcestershire.\n\nThe Bus Pass AI Agent has helped process 2,500 application",
+        "description": "Artificial intelligence (AI) is being used to help speed up bus pass applications in Worcestershire.\n\nThe Bus Pass AI Agent has helped process 2,500 applications and checked 7,500 ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "BBC",
+        "url": "https://www.bbc.com/news/articles/cjqlw7q0ld40o"
+      },
+      {
+        "name": "Google's new AI agent CC can help run your household: All yo",
+        "provider": "storyboard18.com",
+        "type": "AI 项目/工具",
+        "bestFor": "Google is expanding its experimental CC AI agent from a personal productivity tool into a shared assistant for families and households, giving groups a way to c",
+        "description": "Google is expanding its experimental CC AI agent from a personal productivity tool into a shared assistant for families and households, giving groups a way to coordinate schedules,",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "storyboard18.com",
+        "url": "https://www.storyboard18.com/digital/googles-new-ai-agent-cc-can-help-run-your-household-all-you-need-to-know-111016.htm"
+      },
+      {
         "name": "Google's Gemini AI Model Hacked 3 Real Time Companies During",
         "provider": "The Hans India",
         "type": "AI 项目/工具",
@@ -6388,75 +6454,31 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:open source LLM",
         "url": "https://cxotoday.com/media-coverage/wso2-agent-manager-brings-sovereign-ai-governance-to-enterprise-agent-sprawl/"
-      },
-      {
-        "name": "Beyond the AI trade: why agentic AI and blockchain could res",
-        "provider": "Funds Europe",
-        "type": "AI 项目/工具",
-        "bestFor": "By Sandy Kaul, head of digital assets and innovation at Franklin Templeton\n\nAI continues to evolve. Early offerings in the 2010s around machine learning, natura",
-        "description": "By Sandy Kaul, head of digital assets and innovation at Franklin Templeton\n\nAI continues to evolve. Early offerings in the 2010s around machine learning, natural language processin",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Funds Europe",
-        "url": "https://funds-europe.com/beyond-the-ai-trade-why-agentic-ai-and-blockchain-could-reshape-your-portfolio/"
-      },
-      {
-        "name": "XRPL Developer Kit Adds Stripe-Tempo Standard Enabling AI Ag",
-        "provider": "Crypto Economy",
-        "type": "AI 项目/工具",
-        "bestFor": "* XRPL AI Starter Kit 1.1 adds Stripe and Tempo's MPP, enabling AI agents to pay for online services with XRP and RLUSD.\n\n* XRP payment channels support repeate",
-        "description": "* XRPL AI Starter Kit 1.1 adds Stripe and Tempo's MPP, enabling AI agents to pay for online services with XRP and RLUSD.\n\n* XRP payment channels support repeated small payments dur",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Crypto Economy",
-        "url": "https://crypto-economy.com/xrpl-developer-kit-adds-stripe-tempo-standard/"
-      },
-      {
-        "name": "Context Engineering: The Missing Piece in Agentic Systems",
-        "provider": "dzone.com",
-        "type": "AI 项目/工具",
-        "bestFor": "Join the DZone community and get the full member experience.\n\nJoin For Free\n\nContext engineering is becoming essential as AI agents take on more software develo",
-        "description": "Join the DZone community and get the full member experience.\n\nJoin For Free\n\nContext engineering is becoming essential as AI agents take on more software development work. An agent",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "dzone.com",
-        "url": "https://dzone.com/articles/understanding-context-engineering"
-      },
-      {
-        "name": "OpenAI says it found more instances of AI models acting dece",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "By Lisa Eadicicco, CNN (CNN) — OpenAI found additional incidents of AI models acting deceptively and taking unsanctioned actions during training, the company an",
-        "description": "By Lisa Eadicicco, CNN (CNN) — OpenAI found additional incidents of AI models acting deceptively and taking unsanctioned actions during training, the company announced Wednesday. I",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://krdo.com/money/cnn-business-consumer/2026/09/16/openai-says-it-found-more-instances-of-ai-models-acting-deceptively/"
-      },
-      {
-        "name": "Spain says it has seen first AI agent hack",
-        "provider": "ITProUK",
-        "type": "AI 项目/工具",
-        "bestFor": "Spanish data authorities warns organisations to step up their security as AI attacks were no longer a \"theoretical risk\"\n\nSpain has seen its first official data",
-        "description": "Spanish data authorities warns organisations to step up their security as AI attacks were no longer a \"theoretical risk\"\n\nSpain has seen its first official data breach due to an AI",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "ITProUK",
-        "url": "https://www.itpro.com/security/cyber-attacks/spain-says-it-has-seen-first-ai-agent-hack"
-      },
-      {
-        "name": "How OpenAI let a mob of LLM agents game a test and ransack H",
-        "provider": "RocketNews | Top News Stories From Around the Globe",
-        "type": "AI 项目/工具",
-        "bestFor": "During internal testing in May and June, approximately 1,200 OpenAI large language model agents developed unauthorized coordination methods to achieve objective",
-        "description": "During internal testing in May and June, approximately 1,200 OpenAI large language model agents developed unauthorized coordination methods to achieve objectives they were tasked w",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RocketNews | Top News Stories From Around the Globe",
-        "url": "https://rocketnews.com/2026/09/how-openai-let-a-mob-of-llm-agents-game-a-test-and-ransack-hugging-face-4/"
       }
     ],
     "ai-models": [
+      {
+        "name": "Pentagon wants to give its men access to 'military versions'",
+        "provider": "The Times of India",
+        "type": "AI 项目/工具",
+        "bestFor": "ChatGPT and Grok are coming to the Pentagon's GenAI.mil platform as the Department of War expands access to specialised AI tools for military personnel and civi",
+        "description": "ChatGPT and Grok are coming to the Pentagon's GenAI.mil platform as the Department of War expands access to specialised AI tools for military personnel and civilian workers. The tw",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Times of India",
+        "url": "https://timesofindia.indiatimes.com/technology/tech-news/pentagon-wants-to-give-its-men-access-to-military-versions-of-chatgpt-and-grok-heres-what-these-specialised-versions-will-offer/articleshow/134365789.cms"
+      },
+      {
+        "name": "iPhone 18 vs Samsung Galaxy S26: Price, Specs, Camera, Batte",
+        "provider": "Analytics Insight",
+        "type": "AI 项目/工具",
+        "bestFor": "A20 Pro's 2nm chip powers the iPhone 18 Pro's camera and battery upgrades.\n\nGalaxy S26 Ultra holds 2025 pricing with a 200MP camera and 60W charging.\n\nApple lea",
+        "description": "A20 Pro's 2nm chip powers the iPhone 18 Pro's camera and battery upgrades.\n\nGalaxy S26 Ultra holds 2025 pricing with a 200MP camera and 60W charging.\n\nApple leads battery life; Sam",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Analytics Insight",
+        "url": "https://www.analyticsinsight.net/iphone/iphone-18-vs-samsung-galaxy-s26-price-specs-camera-battery-and-performance-compared"
+      },
       {
         "name": "Should You Invest in an Anthropic IPO ETF? What Investors Ne",
         "provider": "The Motley Fool",
@@ -6874,28 +6896,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "via.tt.se",
         "url": "https://via.tt.se/pressmeddelande/4557272/mark-kantor-appointed-ceo-of-cinode-increased-focus-on-ai-product-and-growth?publisherId=3240168"
-      },
-      {
-        "name": "Letters to the Editor: Ticks, AI both small things hiding bi",
-        "provider": "Springfield News-Leader",
-        "type": "AI 项目/工具",
-        "bestFor": "Tiny ticks can be big problems\n\nThank you for publishing \"Ozarks a top hotspot for ticks in the U.S.\" The article was an important reminder that those of us who",
-        "description": "Tiny ticks can be big problems\n\nThank you for publishing \"Ozarks a top hotspot for ticks in the U.S.\" The article was an important reminder that those of us who live in the Ozarks ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Springfield News-Leader",
-        "url": "https://eu.news-leader.com/story/opinion/readers/2026/09/18/letters-to-the-editor-tick-borne-illness-ai-hacking-informed-voting/91802425007/"
-      },
-      {
-        "name": "Pay your bills, new deals with updated LiveSmart app",
-        "provider": "Inquirer",
-        "type": "AI 项目/工具",
-        "bestFor": "With the rising cost of everyday essentials, from groceries and transportation to household bills, every peso matters more to Filipino consumers.\n\nThis is why m",
-        "description": "With the rising cost of everyday essentials, from groceries and transportation to household bills, every peso matters more to Filipino consumers.\n\nThis is why mobile services provi",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Inquirer",
-        "url": "https://technology.inquirer.net/149307/pay-your-bills-new-deals-with-updated-livesmart-app"
       }
     ],
     "ai-business": [
@@ -7341,6 +7341,17 @@ window.AI_GENERATED_DATA = {
       }
     ],
     "ai-benchmark": [
+      {
+        "name": "Alibaba's Qwen3.8-Omni-Flash Slashes Audio Pricing 98% and D",
+        "provider": "Startup Fortune",
+        "type": "AI 项目/工具",
+        "bestFor": "Alibaba's Qwen team launched Qwen3.8-Omni-Flash on September 18, cutting audio API pricing more than 98% and beating its predecessor by 26% across 30 benchmarks",
+        "description": "Alibaba's Qwen team launched Qwen3.8-Omni-Flash on September 18, cutting audio API pricing more than 98% and beating its predecessor by 26% across 30 benchmarks. The catch: unlike ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Startup Fortune",
+        "url": "https://startupfortune.com/alibabas-qwen38-omni-flash-slashes-audio-pricing-98-and-drops-open-weights/"
+      },
       {
         "name": "Google's new voice models can talk and reason in real-time",
         "provider": "NewsBytes",
@@ -7882,17 +7893,6 @@ window.AI_GENERATED_DATA = {
         "watch": "API 价格可能会随使用量增加而上涨，影响长期成本。",
         "sourceName": "NewsData.io:large language model",
         "url": "https://www.techtimes.com/articles/322513/20260731/deepseek-retrained-v4-flash-beats-its-flagship-pro-nine-agent-benchmarks.htm"
-      },
-      {
-        "name": "Roblox Stock Hits Near Two-Year Low as Benchmark Warns of Pl",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "RBLX stock plunged more than 21% on July 31, 2026, after Benchmark analyst Mike Hickey warned the platform may be entering \"lifecycle decline\" and Roblox withdr",
-        "description": "RBLX stock plunged more than 21% on July 31, 2026, after Benchmark analyst Mike Hickey warned the platform may be entering \"lifecycle decline\" and Roblox withdrew all full-year 202",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:generative AI",
-        "url": "https://www.techtimes.com/articles/322461/20260731/roblox-stock-hits-near-two-year-low-benchmark-warns-platform-lifecycle-decline.htm"
       }
     ],
     "ai-image-video": [
@@ -10199,7 +10199,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-20",
-    "generatedAt": "2026-09-20T08:54:22.477999Z",
+    "generatedAt": "2026-09-20T11:24:56.496618Z",
     "total": 23,
     "sections": [
       {
