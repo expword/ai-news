@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-20",
-  "generatedAt": "2026-09-20T13:54:05.342073Z",
+  "lastUpdated": "2026-09-21",
+  "generatedAt": "2026-09-20T16:26:12.083169Z",
   "news": [
     {
       "title": "MilleMiglia: A realistic instance generator for middle-mile logistics",
@@ -5574,6 +5574,17 @@
   "topicResources": {
     "ai-coding": [
       {
+        "name": "10 Best AI Tools for Developers in 2026 - Memeburn",
+        "provider": "Memeburn",
+        "type": "AI 项目/工具",
+        "bestFor": "AI developer tools can save substantial time, but our evaluation reinforced that generated code and fixes still need human review, particularly around security,",
+        "description": "AI developer tools can save substantial time, but our evaluation reinforced that generated code and fixes still need human review, particularly around security, architecture, depen",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Memeburn",
+        "url": "https://memeburn.com/best-ai-tools-for-developers/"
+      },
+      {
         "name": "10 Best Vibe Coding Tools in 2026: Compared & Tested - Memeb",
         "provider": "Memeburn",
         "type": "AI 项目/工具",
@@ -6001,17 +6012,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "X：Kim (@kimmonismus)",
         "url": "https://x.com/kimmonismus/status/2097962333767102665"
-      },
-      {
-        "name": "DeepSeek 发布 V4.1-Flash，API 价格同步下调",
-        "provider": "DeepSeek：API 更新日志",
-        "type": "AI 项目/工具",
-        "bestFor": "DeepSeek 发布 DeepSeek-V4.1-Flash，是全新模型结构系列中最小尺寸的模型，具备原生多模态视觉理解能力，评测包括 GPQA Diamond 90.9、HLE 36.8、Codeforces Rating 3471、Terminal-Bench 2.1 90.6 等。",
-        "description": "DeepSeek 发布 DeepSeek-V4.1-Flash，是全新模型结构系列中最小尺寸的模型，具备原生多模态视觉理解能力，评测包括 GPQA Diamond 90.9、HLE 36.8、Codeforces Rating 3471、Terminal-Bench 2.1 90.6 等。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "DeepSeek：API 更新日志",
-        "url": "https://api-docs.deepseek.com/zh-cn/updates#%E6%97%B6%E9%97%B4-2026-09-10"
       }
     ],
     "ai-agents": [
@@ -10194,8 +10194,8 @@
     }
   ],
   "dailyReport": {
-    "date": "2026-09-20",
-    "generatedAt": "2026-09-20T13:54:05.319075Z",
+    "date": "2026-09-21",
+    "generatedAt": "2026-09-20T16:26:12.056203Z",
     "total": 23,
     "sections": [
       {
@@ -10490,6 +10490,302 @@
     ]
   },
   "dailyReports": [
+    {
+      "date": "2026-09-20",
+      "generatedAt": "2026-09-20T16:00:03.180340Z",
+      "total": 23,
+      "sections": [
+        {
+          "category": "ai-coding",
+          "label": "AI 编程",
+          "items": [
+            {
+              "title": "How a global fintech scaled coding agent traffic with Dedicated Model Inference",
+              "summary": "Inside a global bank's shift to self-serve dedicated inference: how Together's DMI gave engineering teams direct control over scaling, model",
+              "source": "RSS · Together AI",
+              "url": "https://www.together.ai/blog/global-fintech-scales-coding-agent-traffic-with-dedicated-model-inference",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-18",
+              "publishedAt": "2026-09-18T08:00",
+              "reason": ""
+            },
+            {
+              "title": "Deploy Hugging Face models on Amazon SageMaker AI with coding agents",
+              "summary": "Deploy production-ready Hugging Face models on Amazon SageMaker AI using six open-source agent skills. Point a coding agent at a model and g",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/deploy-hugging-face-models-on-amazon-sagemaker-ai-with-coding-agents/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-18",
+              "publishedAt": "2026-09-18T23:25",
+              "reason": ""
+            },
+            {
+              "title": "A serverless, data-driven Git metrics dashboard using Amazon Quick Sight",
+              "summary": "Learn how to build a fully serverless pipeline that automatically collects Git metrics from GitHub and GitLab and visualizes them in interac",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/a-serverless-data-driven-git-metrics-dashboard-using-amazon-quick-sight/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-17",
+              "publishedAt": "2026-09-17T23:42",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-image-video",
+          "label": "图像视频",
+          "items": [
+            {
+              "title": "Enhancing industrial safety AI with synthetic data on Amazon SageMaker AI",
+              "summary": "Learn how to build a synthetic data augmentation pipeline on Amazon SageMaker AI and Amazon Rekognition that generates photo-realistic, auto",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/enhancing-industrial-safety-ai-with-synthetic-data-on-amazon-sagemaker-ai/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-17",
+              "publishedAt": "2026-09-17T23:28",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-agents",
+          "label": "Agent / MCP",
+          "items": [
+            {
+              "title": "The new AgentCore runtime: Elastic, optimized, and consistently fast starts",
+              "summary": "Today we are announcing the new AgentCore runtime, a capability of Amazon Bedrock AgentCore built for the speed, flexibility, and cost effic",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/the-new-agentcore-runtime-elastic-optimized-and-consistently-fast-starts/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-18",
+              "publishedAt": "2026-09-18T23:31",
+              "reason": ""
+            },
+            {
+              "title": "Implementing defense-in-depth authorization for MCP tools on Amazon Quick",
+              "summary": "Learn how to enforce defense-in-depth authorization for Model Context Protocol (MCP) tools on Amazon Quick. This walkthrough wires Microsoft",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/implementing-defense-in-depth-authorization-for-mcp-tools-on-amazon-quick/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-17",
+              "publishedAt": "2026-09-17T23:30",
+              "reason": ""
+            },
+            {
+              "title": "How MRH Trowe enabled secure self-service AI agents in financial services",
+              "summary": "Learn how MRH Trowe, one of Germany's leading commercial and industrial insurance brokers, gave about 400 employees secure, self-service acc",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/how-mrh-trowe-enabled-secure-self-service-ai-agents-in-financial-services/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-17",
+              "publishedAt": "2026-09-17T23:36",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-models",
+          "label": "模型发布",
+          "items": [
+            {
+              "title": "MilleMiglia: A realistic instance generator for middle-mile logistics",
+              "summary": "Algorithms & Theory",
+              "source": "RSS · Google Research",
+              "url": "https://research.google/blog/millemiglia-a-realistic-instance-generator-for-middle-mile-logistics/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-19",
+              "publishedAt": "2026-09-19T01:46",
+              "reason": ""
+            },
+            {
+              "title": "Sep 18, 2026 Announcements Partnering with Accenture on embedded evaluation",
+              "summary": "Sep 18, 2026 Announcements Partnering with Accenture on embedded evaluation",
+              "source": "HTML · Anthropic",
+              "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-18",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "Co-creating the future of fashion with Google",
+              "summary": "Google worked side-by-side with designers Jane Wade and Sergio Hudson to custom-design Google Flow tools to prep for NYFW.",
+              "source": "RSS · Google AI Blog",
+              "url": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-18",
+              "publishedAt": "2026-09-18T21:00",
+              "reason": ""
+            },
+            {
+              "title": "Introducing Amazon SageMaker HyperPod Inference Gateway",
+              "summary": "Amazon SageMaker HyperPod Inference Gateway is a Kubernetes-native, GPU-aware routing add-on for Amazon EKS. It uses real-time GPU signals t",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-inference-gateway/",
+              "score": 70,
+              "sourceCount": 2,
+              "date": "2026-09-18",
+              "publishedAt": "2026-09-18T21:08",
+              "reason": ""
+            },
+            {
+              "title": "Anthropic 发布前沿 AI 开发节奏测量工具与内部指标快照",
+              "summary": "Anthropic 发布一套测量前沿 AI 开发节奏的指标，覆盖 AI 主导研发、智能体监督和算力分配三方面。",
+              "source": "Anthropic：The Institute（旗舰研究长文 · 网页）",
+              "url": "https://www.anthropic.com/institute/measuring-pace-of-ai-development",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-18",
+              "publishedAt": "2026-09-18T04:49",
+              "reason": ""
+            },
+            {
+              "title": "Anthropic 用 Claude 优化 30 多个开源生物分子模型，平均提速约 4 倍并开源全部代码",
+              "summary": "Anthropic 发布研究，让 Claude 在不到四周内优化了 30 多个开源生物分子模型，平均提速约 4 倍，输出完全一致时约 2 倍。",
+              "source": "Anthropic：Research（发表成果 · 网页）",
+              "url": "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-18",
+              "publishedAt": "2026-09-18T03:49",
+              "reason": ""
+            },
+            {
+              "title": "The future of practice: Enabling teachers to create learning interactives with generative UI",
+              "summary": "Education Innovation",
+              "source": "RSS · Google Research",
+              "url": "https://research.google/blog/the-future-of-practice-enabling-teachers-to-create-learning-interactives-with-generative-ui/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-18",
+              "publishedAt": "2026-09-18T04:45",
+              "reason": ""
+            },
+            {
+              "title": "Making global data easier to explore",
+              "summary": "Google and the UN system have launched the UN System Data Commons, a new open platform making global statistics accessible and easy to searc",
+              "source": "RSS · Google AI Blog",
+              "url": "https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-18",
+              "publishedAt": "2026-09-18T04:00",
+              "reason": ""
+            },
+            {
+              "title": "Reduce time-to-hire for quality candidates with AI-powered Amazon Connect Talent",
+              "summary": "Amazon Connect Talent is an AI hiring solution built for talent acquisition leaders managing scaled hiring. It delivers AI-led interviews, d",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/reduce-time-to-hire-for-quality-candidates-with-ai-powered-amazon-connect-talent/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-18",
+              "publishedAt": "2026-09-18T01:55",
+              "reason": ""
+            },
+            {
+              "title": "How Cooley is accelerating IPO work with ChatGPT",
+              "summary": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment",
+              "source": "RSS · OpenAI Blog",
+              "url": "https://openai.com/index/cooley-gopublic",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-17",
+              "publishedAt": "2026-09-17T20:00",
+              "reason": ""
+            },
+            {
+              "title": "Introducing Astra for Law",
+              "summary": "OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confi",
+              "source": "RSS · OpenAI Blog",
+              "url": "https://openai.com/index/astra-for-law",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-17",
+              "publishedAt": "2026-09-17T08:00",
+              "reason": ""
+            },
+            {
+              "title": "Sep 17, 2026 Announcements Introducing the Life Sciences Verification Program",
+              "summary": "Sep 17, 2026 Announcements Introducing the Life Sciences Verification Program",
+              "source": "HTML · Anthropic",
+              "url": "https://www.anthropic.com/news/life-sciences-verification-program",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-17",
+              "publishedAt": "",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-benchmark",
+          "label": "评测榜单",
+          "items": [
+            {
+              "title": "Selecting a vector store for Amazon Bedrock Knowledge Bases",
+              "summary": "Choosing the right vector store for your Amazon Bedrock Knowledge Bases RAG application affects performance and cost. This post compares Ama",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/selecting-a-vector-store-for-amazon-bedrock-knowledge-bases/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-17",
+              "publishedAt": "2026-09-17T23:53",
+              "reason": ""
+            },
+            {
+              "title": "REVERSAL-BENCH: A Reversibility Axis and Reset Oracle for Measuring the Reset-Free RL Cliff",
+              "summary": "A central goal of autonomous reinforcement learning is continuous policy training without external resets. However, existing paradigms large",
+              "source": "RSS · Apple ML Research",
+              "url": "https://machinelearning.apple.com/research/reversal-bench-rl-cliff",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-17",
+              "publishedAt": "2026-09-17T08:00",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-research",
+          "label": "论文研究",
+          "items": [
+            {
+              "title": "New experts join Google’s AI & Economy team",
+              "summary": "We are expanding our AI & Economy team with world-class academic advisors, fellows, and core internal researchers.",
+              "source": "RSS · Google AI Blog",
+              "url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-18",
+              "publishedAt": "2026-09-18T22:00",
+              "reason": ""
+            },
+            {
+              "title": "Regularized Emphatic Temporal-Difference Learning: Stability under Constant Stepsizes",
+              "summary": "arXiv:2609.19170v1 Announce Type: new Abstract: Emphatic temporal-difference learning (ETD) stabilizes the expected off-policy TD update and",
+              "source": "RSS · arXiv cs.AI",
+              "url": "https://arxiv.org/abs/2609.19170",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-18",
+              "publishedAt": "",
+              "reason": ""
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-09-19",
       "generatedAt": "2026-09-19T16:00:12.012449Z",
@@ -19655,303 +19951,6 @@
               "date": "2026-07-18",
               "publishedAt": "2026-07-18T01:41",
               "reason": "此事件揭示了科技巨头之间的竞争与法律博弈，值得深入分析。"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-07-17",
-      "generatedAt": "2026-07-17T16:22:37.596271Z",
-      "total": 22,
-      "sections": [
-        {
-          "category": "ai-tools",
-          "label": "AI 工具",
-          "items": [
-            {
-              "title": "OpenAI 为青少年提供安全 AI 访问权限的措施",
-              "summary": "OpenAI 正在通过引入适合年龄的保护措施、学习工具、家长控制和专家合作，使 ChatGPT 对青少年更安全。此举旨在满足青少年对安全 AI 的需求，同时确保他们在使用 AI 工具时的保护和教育。",
-              "source": "RSS · OpenAI Blog",
-              "url": "https://openai.com/index/why-teens-deserve-access-safe-ai",
-              "score": 78,
-              "sourceCount": 1,
-              "date": "2026-07-17",
-              "publishedAt": "2026-07-17T00:00",
-              "reason": "OpenAI 的措施为青少年提供了安全的 AI 使用环境，值得关注其在教育和家庭中的潜在影响。"
-            },
-            {
-              "title": "Google 在 2026 年 7 月 16 日推出 AI 模式下的应用连接功能",
-              "summary": "Google 宣布用户可以在 AI 模式下安全地连接和互动他们常用的服务，如 Instacart、Canva 和 YouTube Music。这一功能旨在简化日常任务，提高效率。",
-              "source": "RSS · Google AI Blog",
-              "url": "https://blog.google/products-and-platforms/products/search/connected-apps/",
-              "score": 78,
-              "sourceCount": 1,
-              "date": "2026-07-17",
-              "publishedAt": "2026-07-17T00:00",
-              "reason": "这一功能通过简化用户的日常任务，提升了搜索的实用性，值得关注。"
-            },
-            {
-              "title": "OpenAI 推出实用 AI 评分卡，评估投资回报率",
-              "summary": "OpenAI 的首席财务官 Sarah Friar 介绍了一种实用的 AI 评分卡，旨在通过有效工作、成功任务的成本、可靠性和计算回报来衡量投资回报率（ROI）。该评分卡为企业提供了一种量化 AI 效益的工具，但在实际应用中仍面临一些挑战。",
-              "source": "RSS · OpenAI Blog",
-              "url": "https://openai.com/index/a-scorecard-for-the-ai-age",
-              "score": 74,
-              "sourceCount": 1,
-              "date": "2026-07-17",
-              "publishedAt": "2026-07-17T18:00",
-              "reason": "OpenAI 的评分卡为企业提供了一种量化 AI 效益的新工具，值得关注其在实际应用中的表现和局限性。"
-            },
-            {
-              "title": "xAI 为 Grok 引入 Automations 功能，支持定时和邮件触发",
-              "summary": "2026 年 7 月 16 日，xAI 在 Grok 中推出 Automations 功能，用户可以设定任务，让 Grok 按照预定计划或邮件触发自动执行。每次执行都记录为完整对话，结果可通过邮件或应用内通知获取。定时自动化对所有用户开放，而邮件触发功能则需 SuperGrok ",
-              "source": "xAI：News（网页）",
-              "url": "https://x.ai/news/grok-automations",
-              "score": 63,
-              "sourceCount": 1,
-              "date": "2026-07-17",
-              "publishedAt": "2026-07-17T05:39",
-              "reason": "Grok 的 Automations 功能通过自动化任务执行，显著提升了用户的工作效率，值得关注其在智能助手领域的应用潜力。"
-            },
-            {
-              "title": "\"智绘科普\"：乡村教育赛道一等奖作品技术解析",
-              "summary": "首届\"小有可为\"大赛乡村教育赛道一等奖作品\"智绘科普\"，利用 Qwen3.5-397B-A17B 大语言模型与 Manim 动画引擎，通过多Agent分阶段协作与自动修复机制，将知识主题转化为可控、可编辑的教学动画。该系统分为规划、草稿、实现、审查、合成五个阶段，具备自动修复渲染",
-              "source": "公众号：通义实验室（千问）",
-              "url": "https://mp.weixin.qq.com/s/a2YKWmyMoyIc3GKLbXffpQ",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-07-17",
-              "publishedAt": "2026-07-17T17:41",
-              "reason": "\"智绘科普\"通过创新的技术手段，提升了乡村教育的教学质量，值得关注。"
-            },
-            {
-              "title": "Decoy 字体：通过空间频率混淆保护输入信息",
-              "summary": "Decoy Font 是一款创新的 TTF 字体，利用不同空间频率的图形叠加技术，使得 AI 难以读取输入的文字。该字体在近距离时呈现“诱饵”字母，而人眼在远距离或眯眼时才能识别真实信息，提供了一种有效的文本保护手段。",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://www.mixfont.com/experiments/decoy-font",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-07-17",
-              "publishedAt": "2026-07-17T02:32",
-              "reason": "Decoy Font 提供了一种创新的方式来保护用户输入的信息，尤其在 AI 识别技术日益强大的背景下，其独特的设计理念和实用性使其值得关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-coding",
-          "label": "AI 编程",
-          "items": [
-            {
-              "title": "Anthropic 用 Claude Code 成功迁移百万行代码至 Rust",
-              "summary": "这次发布的核心点是，Anthropic 工程师利用 Claude Code 在短短两周内将 Bun 的百万行 Zig 代码成功迁移至 Rust，且所有现有测试均通过。迁移过程中，虽然合并后出现了 19 个回归问题，但已全部修复。此外，另一工程师在周末将 Python 代码库迁移至",
-              "source": "Claude：Blog（网页）",
-              "url": "https://claude.com/blog/ai-code-migration",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-07-17",
-              "publishedAt": "2026-07-17T01:32",
-              "reason": "这条信息展示了 AI 在代码迁移中的实际应用，值得关注其对开发流程的影响。"
-            },
-            {
-              "title": "Schema Harness 在 ARC-AGI-3 公开集上取得约 99% 成绩",
-              "summary": "Schema 框架在 ARC-AGI-3 公开集上表现出色，使用 Claude Opus 4.8 和 Fable 5 达到 99% RHAE 分数，使用 GPT-5.6 Sol 达到 95.35%。该框架通过不修改模型权重的方式，将原始观测转化为可编辑程序，成功解决状态归因和机制",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://schema-harness.github.io/",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-07-17",
-              "publishedAt": "2026-07-17T16:41",
-              "reason": "Schema Harness 的独特设计和出色表现，使其在 AI 领域中脱颖而出，值得关注和尝试。"
-            },
-            {
-              "title": "Kimi K3 在前端编码领域的崛起与挑战",
-              "summary": "Kimi K3 以1679分在 Frontend Code Arena 登顶，超越 Claude Fable 5 和 GPT-5.6 Sol，展现出强大的前端编码能力。该模型采用2.8万亿参数的 MoE 架构，具备百万上下文窗口，并于7月27日开放权重。尽管其 API 定价为每百",
-              "source": "X：阿易 AI Notes (@AYi_AInotes)",
-              "url": "https://x.com/AYi_AInotes/status/2077981025905316253",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-07-17",
-              "publishedAt": "2026-07-17T12:57",
-              "reason": "Kimi K3 的崛起不仅展示了中国模型的技术实力，也为开发者提供了新的选择，值得关注其未来的发展动态。"
-            }
-          ]
-        },
-        {
-          "category": "ai-image-video",
-          "label": "图像视频",
-          "items": [
-            {
-              "title": "Google Vids 更新：轻松创建和编辑视频",
-              "summary": "我注意到 Google Vids 最近推出了两个新功能，Gemini Omni 和个人头像，让视频创作变得前所未有的简单。用户现在可以通过自然语言生成和编辑高质量视频，并创建个性化的数字头像来代替自己出镜。这些更新不仅提升了视频制作的效率，还让更多人能够轻松参与到创作中来。",
-              "source": "RSS · Google AI Blog",
-              "url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
-              "score": 82,
-              "sourceCount": 1,
-              "date": "2026-07-17",
-              "publishedAt": "2026-07-17T00:00",
-              "reason": "这次更新让视频创作变得更加简单和高效，尤其适合那些希望快速制作内容的用户，值得一试。"
-            },
-            {
-              "title": "Google Vids 推出 Gemini Omni 和个人数字分身功能",
-              "summary": "Google Vids 最近推出了 Gemini Omni 和个人数字分身功能，前者允许用户通过自然语言和图片生成高质量视频，后者则支持用户上传自拍和语音录制后生成数字分身。这两项功能面向 Google AI Pro、Ultra 订阅者及 Google Workspace 商业客",
-              "source": "Google Blog：AI（RSS）",
-              "url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-07-17",
-              "publishedAt": "2026-07-17T00:00",
-              "reason": "Google Vids 的新功能通过创新的技术手段，显著提升了视频创作的便捷性和个性化体验，值得关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-agents",
-          "label": "Agent / MCP",
-          "items": [
-            {
-              "title": "54%企业遭遇AI智能体安全事件，凭证共享现象严重",
-              "summary": "VentureBeat对107家企业的调查显示，54%的企业已遭遇AI智能体安全事件，其中18%确认发生事故，36%险些酿成重大损失。调查还发现，仅32%的企业为每个智能体分配独立身份凭证，30%的企业将高风险智能体隔离在沙箱中，显示出安全措施的不足。",
-              "source": "VentureBeat：AI（RSS）",
-              "url": "https://venturebeat.com/ai/the-agent-security-gap-54-of-enterprises-have-already-had-an-ai-agent-incident-and-most-still-let-agents-share-credentials",
-              "score": 60,
-              "sourceCount": 1,
-              "date": "2026-07-17",
-              "publishedAt": "2026-07-17T03:02",
-              "reason": "这条信息揭示了企业在AI智能体安全管理中的严重漏洞，值得关注。"
-            },
-            {
-              "title": "调查显示企业AI智能体部署存在现实对齐缺口",
-              "summary": "一项针对157家企业的调查揭示，50%的组织在过去一年中部署了通过内部评估但导致客户故障的AI智能体。尽管信任度低，66%的企业仍计划在未来12个月内实现低风险智能体的全自动部署。29%的受访者认为评估与现实结果对齐不佳是主要局限，5%的企业完全信任自动化评估。",
-              "source": "VentureBeat：AI（RSS）",
-              "url": "https://venturebeat.com/ai/the-agent-evaluation-gap-enterprise-ai-organizations-have-a-reality-alignment-problem-not-a-coverage-problem-and-most-are-shipping-to-production-anyway",
-              "score": 56,
-              "sourceCount": 1,
-              "date": "2026-07-17",
-              "publishedAt": "2026-07-17T00:40",
-              "reason": "这项调查揭示了企业在AI智能体部署中面临的现实对齐问题，值得关注和反思。"
-            }
-          ]
-        },
-        {
-          "category": "ai-models",
-          "label": "模型发布",
-          "items": [
-            {
-              "title": "NVIDIA 发布 Nemotron 3 Embed 系列，8B 版本在 RTEB 基准上排名第一",
-              "summary": "我注意到 NVIDIA 最近推出了 Nemotron 3 Embed 系列，包含三个开源 checkpoint。其中，8B-BF16 版本在 RTEB 基准上以 78.46 的平均 NDCG@10 排名第一，表现相当出色。1B-NVFP4 版本在 Blackwell 上的吞吐量是",
-              "source": "MarkTechPost（RSS）",
-              "url": "https://www.marktechpost.com/2026/07/17/nvidia-ai-releases-nemotron-3-embed-an-open-embedding-collection-whose-8b-checkpoint-ranks-1-on-rteb",
-              "score": 67,
-              "sourceCount": 1,
-              "date": "2026-07-17",
-              "publishedAt": "2026-07-17T15:53",
-              "reason": "这款模型系列在 RTEB 基准上表现优异，适合需要高效信息检索的应用场景，值得关注。"
-            },
-            {
-              "title": "通义实验室发布 Wan-Streamer v0.2，响应延迟仅 550ms",
-              "summary": "我注意到通义实验室刚发布了 Wan-Streamer v0.2，这款全新的端到端全模态模型将听、看、说、演四种功能整合在一个 Transformer 中。它的响应延迟仅为 550ms，输出分辨率从之前的 192×336 提升至 640×368 @ 25FPS，同时采用了 Thin",
-              "source": "公众号：通义实验室（千问）",
-              "url": "https://mp.weixin.qq.com/s/_eaO0wmsiQFGsrE2_zW_Dg",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-07-17",
-              "publishedAt": "2026-07-17T15:14",
-              "reason": "这款模型在响应速度和画质上的突破，值得关注，尤其是对需要实时交互的应用场景。"
-            },
-            {
-              "title": "Kimi K3：开源模型的新标杆",
-              "summary": "Kimi K3 是迄今为止能力最强的开源模型，具备 2.8 万亿参数和 100 万 token 的上下文窗口，原生支持视觉理解。该模型在长程编程和知识工作等领域表现突出，整体能力仅次于 Claude Fable 5 和 GPT-5.6 Sol。用户可通过 kimi.com 和官方",
-              "source": "公众号：月之暗面（Kimi）",
-              "url": "https://mp.weixin.qq.com/s/lu1iJdvy_cDhVaX8PqbucQ",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-07-17",
-              "publishedAt": "2026-07-17T11:10",
-              "reason": "Kimi K3 以其超高的参数量和上下文处理能力，成为开源模型领域的新标杆，值得关注。"
-            },
-            {
-              "title": "xAI 起诉 Grok 用户，首次承认模型被滥用",
-              "summary": "xAI 对一名 Grok 用户提起诉讼，指控其利用该模型制作儿童性虐待图像（CSAM），标志着其对模型滥用的立场转变。此前，xAI 一直否认 Grok 能生成此类内容，此次诉讼聚焦于用户的滥用行为，而非模型的技术缺陷。",
-              "source": "Ars Technica：AI（RSS）",
-              "url": "https://arstechnica.com/tech-policy/2026/07/xai-cant-deny-grok-makes-csam-anymore-so-its-suing-users",
-              "score": 61,
-              "sourceCount": 1,
-              "date": "2026-07-17",
-              "publishedAt": "2026-07-17T04:26",
-              "reason": "此次诉讼揭示了 AI 模型滥用的潜在风险，值得关注其对行业的深远影响。"
-            },
-            {
-              "title": "AI 公司抢购高端内存，电脑价格飙升",
-              "summary": "我注意到，AI 公司为了维持大语言模型（如 ChatGPT 和 Claude）的运行，已经购买了全球70%的高端计算机内存。这导致内存和存储价格大幅上涨，过去两年350美元的硬盘现在涨至800美元且缺货，部分笔记本电脑价格上涨了50%。科技公司计划在未来几年将美国的数据中心容量扩",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://www.theatlantic.com/technology/2026/07/generative-ai-engineering-disaster/687901",
-              "score": 57,
-              "sourceCount": 1,
-              "date": "2026-07-17",
-              "publishedAt": "2026-07-17T08:40",
-              "reason": "这条信息揭示了AI行业对硬件资源的巨大需求，值得关注其对市场的深远影响。"
-            }
-          ]
-        },
-        {
-          "category": "ai-benchmark",
-          "label": "评测榜单",
-          "items": [
-            {
-              "title": "美团LongCat推出LoHoSearch：新一代搜索智能体基准",
-              "summary": "美团LongCat发布了LoHoSearch，这是一个基于762万实体维基百科知识图谱自动生成问题的搜索智能体基准，旨在解决现有基准的饱和问题。该基准包含544道问题，覆盖11个领域，采用树与图结构，已开源。测试结果显示，前沿模型的最佳得分仅为34.74%，远低于当前模型在Bro",
-              "source": "X：美团 LongCat (@Meituan_LongCat)",
-              "url": "https://x.com/Meituan_LongCat/status/2078119654632124547",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-07-17",
-              "publishedAt": "2026-07-17T22:08",
-              "reason": "LoHoSearch基准的推出为搜索智能体的评估提供了新的视角，具有重要的研究和应用价值，值得关注。"
-            },
-            {
-              "title": "Moonshot AI 发布 PerceptionBench 评估多模态模型视觉感知能力",
-              "summary": "Moonshot AI 推出的 PerceptionBench 是一项新基准，旨在评估多模态 AI 的视觉感知能力。该基准通过分析现有模型在 40 多个基准中的失败案例，提炼出 10 项原子感知能力和 3000 道验证题。测试结果显示，所有模型的准确率均未超过 60%，且许多正确",
-              "source": "Moonshot AI：Kimi Blog",
-              "url": "https://www.kimi.com/blog/perception-bench",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-07-17",
-              "publishedAt": "2026-07-17T03:11",
-              "reason": "PerceptionBench 提供了一种全新的视角来评估多模态 AI 的视觉感知能力，揭示了当前模型的不足，值得关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-office",
-          "label": "办公提效",
-          "items": [
-            {
-              "title": "ChatGPT 工作区新增文档、表格和幻灯片编辑功能",
-              "summary": "我注意到 ChatGPT 工作区现在支持创建和编辑文档、电子表格以及幻灯片，这让我们的工作变得更加高效和便捷。@nickbaumann_ 还提供了详细的操作演示，帮助大家快速上手。",
-              "source": "X：ChatGPT (@ChatGPTapp)",
-              "url": "https://x.com/ChatGPTapp/status/2077826846373380535",
-              "score": 63,
-              "sourceCount": 1,
-              "date": "2026-07-17",
-              "publishedAt": "2026-07-17T02:44",
-              "reason": "这个新功能让我们在 ChatGPT 工作区内可以高效地处理多种文档，值得一试！"
-            }
-          ]
-        },
-        {
-          "category": "ai-business",
-          "label": "行业商业",
-          "items": [
-            {
-              "title": "苹果向40名前OpenAI员工发律师函，要求保存机密文件",
-              "summary": "苹果公司已向约40名曾在OpenAI工作的前员工发出律师函，要求他们保存与苹果相关的机密文件。这一举措是苹果在起诉OpenAI及其两名前员工后采取的进一步行动，苹果指控OpenAI通过挖角获取商业机密以加速其AI硬件研发。苹果表示，已有超过400名前员工在OpenAI工作，并寻求",
-              "source": "IT之家（RSS）",
-              "url": "https://www.ithome.com/0/978/277.htm",
-              "score": 60,
-              "sourceCount": 1,
-              "date": "2026-07-17",
-              "publishedAt": "2026-07-17T19:10",
-              "reason": "此事件揭示了科技行业内对商业机密保护的紧迫性，值得关注其对行业人才流动和法律环境的深远影响。"
             }
           ]
         }
