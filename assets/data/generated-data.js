@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-20",
-  "generatedAt": "2026-09-20T01:21:20.416285Z",
+  "generatedAt": "2026-09-20T03:52:42.290971Z",
   "news": [
     {
       "title": "MilleMiglia: A realistic instance generator for middle-mile logistics",
@@ -5399,6 +5399,36 @@ window.AI_GENERATED_DATA = {
       "date": "2026-08-05"
     },
     {
+      "name": "Tencent-Hunyuan/AuK",
+      "lang": "Python",
+      "description": "AuK: An Open-Source Foundational Model for Speech Generation and Editing",
+      "stars": "1135 stars",
+      "why": "国产大模型厂商 腾讯混元 的最新开源动态/模型发布，属一手信源。",
+      "url": "https://github.com/Tencent-Hunyuan/AuK",
+      "source": "GitHub · 腾讯混元",
+      "tier": "T1",
+      "category": "Coding Agent",
+      "details": "AuK: An Open-Source Foundational Model for Speech Generation and Editing",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
+      "name": "ByteDance-Seed/Triton-distributed",
+      "lang": "Python",
+      "description": "Distributed Compiler and Optimized Parallel Kernels",
+      "stars": "1546 stars",
+      "why": "国产大模型厂商 字节跳动 Seed 的最新开源动态/模型发布，属一手信源。",
+      "url": "https://github.com/ByteDance-Seed/Triton-distributed",
+      "source": "GitHub · 字节跳动 Seed",
+      "tier": "T1",
+      "category": "Coding Agent",
+      "details": "Distributed Compiler and Optimized Parallel Kernels",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
       "name": "MiniMax-AI/minimax-code",
       "lang": "TypeScript",
       "description": "An open-source coding agent for your terminal, powered by MiniMax.",
@@ -5424,36 +5454,6 @@ window.AI_GENERATED_DATA = {
       "tier": "T1",
       "category": "Coding Agent",
       "details": "通义千问 Qwen 开源项目。",
-      "features": [],
-      "useCases": [],
-      "quickStart": []
-    },
-    {
-      "name": "deepseek-ai/awesome-deepseek-agent",
-      "lang": "Repo",
-      "description": "DeepSeek 开源项目。",
-      "stars": "6091 stars",
-      "why": "国产大模型厂商 DeepSeek 的最新开源动态/模型发布，属一手信源。",
-      "url": "https://github.com/deepseek-ai/awesome-deepseek-agent",
-      "source": "GitHub · DeepSeek",
-      "tier": "T1",
-      "category": "Coding Agent",
-      "details": "DeepSeek 开源项目。",
-      "features": [],
-      "useCases": [],
-      "quickStart": []
-    },
-    {
-      "name": "InternLM/Intern-S1",
-      "lang": "Repo",
-      "description": "A Scientific Multimodal Foundation Model",
-      "stars": "855 stars",
-      "why": "国产大模型厂商 上海AI实验室 书生 的最新开源动态/模型发布，属一手信源。",
-      "url": "https://github.com/InternLM/Intern-S1",
-      "source": "GitHub · 上海AI实验室 书生",
-      "tier": "T1",
-      "category": "Coding Agent",
-      "details": "A Scientific Multimodal Foundation Model",
       "features": [],
       "useCases": [],
       "quickStart": []
@@ -6458,6 +6458,39 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-models": [
       {
+        "name": "Infostealer Malware Now Targets Generative AI Accounts",
+        "provider": "조선일보",
+        "type": "AI 项目/工具",
+        "bestFor": "Stolen session cookies and API keys grant access to sensitive data and corporate computing resources\n\nInfostealer, a type of malware specializing in stealing us",
+        "description": "Stolen session cookies and API keys grant access to sensitive data and corporate computing resources\n\nInfostealer, a type of malware specializing in stealing user passwords, credit",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "조선일보",
+        "url": "https://www.chosun.com/english/industry-en/2026/09/20/DFE3KZNRWRG5NCLQAOFE764NYA/"
+      },
+      {
+        "name": "Gadget Weekly: Asus Vivobook, Oppo K14 Lite & Samsung Bespok",
+        "provider": "Deccan Herald",
+        "type": "AI 项目/工具",
+        "bestFor": "Technology companies Asus, Oppo, Samsung, Google, Sony and others launched smartphones, computers, cameras, accessories, and more this week (September 14-20, 20",
+        "description": "Technology companies Asus, Oppo, Samsung, Google, Sony and others launched smartphones, computers, cameras, accessories, and more this week (September 14-20, 2026).\n\nDH's Gadgets W",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Deccan Herald",
+        "url": "https://www.deccanherald.com/technology/gadget-weekly-asus-vivobook-14-flip-oppo-k14-lite-and-more-4151855"
+      },
+      {
+        "name": "Editor's Take: The Week That Was -- Sept 14-19",
+        "provider": "DealStreetAsia",
+        "type": "AI 项目/工具",
+        "bestFor": "This week, Grab put $1.49 billion behind its ambition to become more than a ride-hailing company, agreeing to buy a 60% stake in fintech unicorn Atome Financial",
+        "description": "This week, Grab put $1.49 billion behind its ambition to become more than a ride-hailing company, agreeing to buy a 60% stake in fintech unicorn Atome Financial, confirming a DealS",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "DealStreetAsia",
+        "url": "https://www.dealstreetasia.com/stories/editors-take-the-week-that-was-sept-14-19-495623"
+      },
+      {
         "name": "纽约时报诉讼文件披露：微软高管称 AI 抓取是人类历史上最大规模的劳动力盗用",
         "provider": "Hacker News 热门（buzzing.cc 中文翻译）",
         "type": "AI 项目/工具",
@@ -6863,39 +6896,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · Google AI Blog",
         "url": "https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/"
-      },
-      {
-        "name": "纽约时报诉 OpenAI 与微软案解封文件披露 AI 抓取被称为史上最大劳动窃取",
-        "provider": "TechCrunch：AI（RSS）",
-        "type": "AI 项目/工具",
-        "bestFor": "纽约时报诉 OpenAI 与微软版权案的新解封文件披露，微软高管 Brent Hecht 在内部备忘录中称 AI 抓取是\"人类历史上最大规模的劳动窃取\"，OpenAI 高管 Nick Turley 则称聊天机器人对出版商构成\"生存威胁\"。",
-        "description": "纽约时报诉 OpenAI 与微软版权案的新解封文件披露，微软高管 Brent Hecht 在内部备忘录中称 AI 抓取是\"人类历史上最大规模的劳动窃取\"，OpenAI 高管 Nick Turley 则称聊天机器人对出版商构成\"生存威胁\"。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "TechCrunch：AI（RSS）",
-        "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal"
-      },
-      {
-        "name": "Qwen 发布原生全模态模型 Qwen3.8-Omni-Flash，主打音视频智能体任务交付",
-        "provider": "Qwen：Blog Retrieval（API）",
-        "type": "AI 项目/工具",
-        "bestFor": "Qwen 发布下一代原生全模态模型 Qwen3.8-Omni-Flash，支持文本、图像、音频和视频输入及 1M token 上下文窗口，29 项评测平均分较 Qwen3.5-Omni-Plus 提升超过 25%，音频输入每小时价格下降超过 98%，音视频输入每小时价格下降超过 93%。",
-        "description": "Qwen 发布下一代原生全模态模型 Qwen3.8-Omni-Flash，支持文本、图像、音频和视频输入及 1M token 上下文窗口，29 项评测平均分较 Qwen3.5-Omni-Plus 提升超过 25%，音频输入每小时价格下降超过 98%，音视频输入每小时价格下降超过 93%。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Qwen：Blog Retrieval（API）",
-        "url": "https://qwen.ai/blog?id=qwen3.8-omni-flash"
-      },
-      {
-        "name": "Selecting a vector store for Amazon Bedrock Knowledge Bases",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Choosing the right vector store for your Amazon Bedrock Knowledge Bases RAG application affects performance and cost. This post compares Amazon OpenSearch Servi",
-        "description": "Choosing the right vector store for your Amazon Bedrock Knowledge Bases RAG application affects performance and cost. This post compares Amazon OpenSearch Service, Amazon Aurora Po",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/selecting-a-vector-store-for-amazon-bedrock-knowledge-bases/"
       }
     ],
     "ai-business": [
@@ -10205,7 +10205,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-20",
-    "generatedAt": "2026-09-20T01:21:20.392239Z",
+    "generatedAt": "2026-09-20T03:52:42.269973Z",
     "total": 23,
     "sections": [
       {
