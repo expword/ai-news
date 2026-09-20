@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-20",
-  "generatedAt": "2026-09-20T11:24:56.519818Z",
+  "generatedAt": "2026-09-20T13:54:05.342073Z",
   "news": [
     {
       "title": "MilleMiglia: A realistic instance generator for middle-mile logistics",
@@ -6016,6 +6016,61 @@
     ],
     "ai-agents": [
       {
+        "name": "Tempus Secures Up To $9.5 Million From ARPA-H To Develop Aut",
+        "provider": "Pulse 2.0",
+        "type": "AI 项目/工具",
+        "bestFor": "Tempus AI has been selected to receive up to $9.5 million from the Advanced Research Projects Agency for Health to develop and clinically validate an autonomous",
+        "description": "Tempus AI has been selected to receive up to $9.5 million from the Advanced Research Projects Agency for Health to develop and clinically validate an autonomous AI agent designed t",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Pulse 2.0",
+        "url": "https://pulse2.com/tempus-secures-up-to-9-5-million-from-arpa-h-to-develop-autonomous-ai-agent-for-heart-failure-care/"
+      },
+      {
+        "name": "Helpful companion or privacy concern? Meta Muse draws questi",
+        "provider": "Firstpost",
+        "type": "AI 项目/工具",
+        "bestFor": "Meta's Muse AI agent faces privacy concerns over its push for personal data, even as Mark Zuckerberg defends the company's approach to AI safety.\n\nMeta's Muse, ",
+        "description": "Meta's Muse AI agent faces privacy concerns over its push for personal data, even as Mark Zuckerberg defends the company's approach to AI safety.\n\nMeta's Muse, one of the mainstrea",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Firstpost",
+        "url": "https://www.firstpost.com/tech/helpful-companion-or-privacy-concern-meta-muse-draws-questions-over-data-use-report-14047144.html"
+      },
+      {
+        "name": "Meta opens Muse to third-party developers with new connector",
+        "provider": "Crypto Briefing",
+        "type": "AI 项目/工具",
+        "bestFor": "Ten days after launching its personal AI agent, Meta is letting outside developers build their own integrations into the platform.\n\nMeta launched its personal A",
+        "description": "Ten days after launching its personal AI agent, Meta is letting outside developers build their own integrations into the platform.\n\nMeta launched its personal AI agent, Muse, on Se",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Crypto Briefing",
+        "url": "https://cryptobriefing.com/meta-muse-developer-connector-api-access/"
+      },
+      {
+        "name": "Google Gives Families Their Own AI Agent To Manage Daily Cha",
+        "provider": "HotHardware",
+        "type": "AI 项目/工具",
+        "bestFor": "Google Labs is doing its best Oprah Winfrey impression by saying, 'You get an AI agent, you get an AI agent, everyone gets an AI agent!', as its experimental CC",
+        "description": "Google Labs is doing its best Oprah Winfrey impression by saying, 'You get an AI agent, you get an AI agent, everyone gets an AI agent!', as its experimental CC tool that released ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "HotHardware",
+        "url": "https://hothardware.com/news/google-gives-families-their-own-ai-agent-manage-daily-chaos"
+      },
+      {
+        "name": "Meta's Muse keeps asking users for more personal data",
+        "provider": "NewsBytes",
+        "type": "AI 项目/工具",
+        "bestFor": "Meta's Muse, an advanced artificial intelligence (AI) agent designed to automate personal tasks, has gained popularity among users. The tool is more of a compan",
+        "description": "Meta's Muse, an advanced artificial intelligence (AI) agent designed to automate personal tasks, has gained popularity among users. The tool is more of a companion than a tradition",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsBytes",
+        "url": "https://www.newsbytesapp.com/news/science/meta-s-muse-ai-repeatedly-asks-users-to-share-more-data/story"
+      },
+      {
         "name": "Google's AI test takes an unexpected turn as Gemini reaches ",
         "provider": "MoneyControl",
         "type": "AI 项目/工具",
@@ -6399,64 +6454,31 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Forbes",
         "url": "https://www.forbes.com/sites/ray-fernandez/2026/09/17/agentic-marketing-and-brand-safety-what-decision-makers-need-to-know/"
-      },
-      {
-        "name": "Meta (META) Hands its New AI Agent the Keys to Your Inbox an",
-        "provider": "Yahoo! Finance",
-        "type": "AI 项目/工具",
-        "bestFor": "On September 9, 2026, Reuters reported that Meta Platforms, Inc. (NASDAQ:META) rolled out Muse, a long-touted AI agent that can autonomously send emails, sell a",
-        "description": "On September 9, 2026, Reuters reported that Meta Platforms, Inc. (NASDAQ:META) rolled out Muse, a long-touted AI agent that can autonomously send emails, sell a car, and book trave",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Yahoo! Finance",
-        "url": "https://finance.yahoo.com/technology/ai/articles/meta-meta-hands-ai-agent-234026981.html"
-      },
-      {
-        "name": "Implementing defense-in-depth authorization for MCP tools on",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Learn how to enforce defense-in-depth authorization for Model Context Protocol (MCP) tools on Amazon Quick. This walkthrough wires Microsoft Entra ID group and ",
-        "description": "Learn how to enforce defense-in-depth authorization for Model Context Protocol (MCP) tools on Amazon Quick. This walkthrough wires Microsoft Entra ID group and claims-based JWTs th",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/implementing-defense-in-depth-authorization-for-mcp-tools-on-amazon-quick/"
-      },
-      {
-        "name": "How MRH Trowe enabled secure self-service AI agents in finan",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Learn how MRH Trowe, one of Germany's leading commercial and industrial insurance brokers, gave about 400 employees secure, self-service access to AI agents in ",
-        "description": "Learn how MRH Trowe, one of Germany's leading commercial and industrial insurance brokers, gave about 400 employees secure, self-service access to AI agents in its first month of p",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/how-mrh-trowe-enabled-secure-self-service-ai-agents-in-financial-services/"
-      },
-      {
-        "name": "A shared agentic platform for Wood Mackenzie, on Amazon Bedr",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Wood Mackenzie built APEX, a shared agentic AI platform on Amazon Bedrock AgentCore so every team can ship production agents without rebuilding runtime, identit",
-        "description": "Wood Mackenzie built APEX, a shared agentic AI platform on Amazon Bedrock AgentCore so every team can ship production agents without rebuilding runtime, identity, observability, an",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/a-shared-agentic-platform-for-wood-mackenzie-on-amazon-bedrock-agentcore/"
-      },
-      {
-        "name": "WSO2 Agent Manager Brings Sovereign AI Governance to Enterpr",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "WSO2 announced the general availability of WSO2 Agent Manager, an open control plane that governs AI agents across any framework, model, or deployment, helping ",
-        "description": "WSO2 announced the general availability of WSO2 Agent Manager, an open control plane that governs AI agents across any framework, model, or deployment, helping enterprises put agen",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:open source LLM",
-        "url": "https://cxotoday.com/media-coverage/wso2-agent-manager-brings-sovereign-ai-governance-to-enterprise-agent-sprawl/"
       }
     ],
     "ai-models": [
+      {
+        "name": "Why It Feels So Hard to Give a Sh*t Right Now, According to ",
+        "provider": "Men's Health",
+        "type": "AI 项目/工具",
+        "bestFor": "AI broke the deal between effort and reward. The flatness you feel at work has a name, and it's not depression.\n\nWE WERE ALL taught that caring about your work ",
+        "description": "AI broke the deal between effort and reward. The flatness you feel at work has a name, and it's not depression.\n\nWE WERE ALL taught that caring about your work was a good investmen",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Men's Health",
+        "url": "https://www.menshealth.com/health/a73746861/why-it-feels-so-hard-to-give-a-sht-right-now-according-to-a-therapist/"
+      },
+      {
+        "name": "ZETA Solana migration wins 99.4% support in vote",
+        "provider": "crypto.news",
+        "type": "AI 项目/工具",
+        "bestFor": "ZetaChain has moved closer to approving a plan that would migrate its native ZETA token to Solana and eventually shut down its own Layer 1, with 99.4% of votes ",
+        "description": "ZetaChain has moved closer to approving a plan that would migrate its native ZETA token to Solana and eventually shut down its own Layer 1, with 99.4% of votes supporting Proposal ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "crypto.news",
+        "url": "https://crypto.news/zeta-solana-migration-wins-99-4-support-in-vote/"
+      },
       {
         "name": "Pentagon wants to give its men access to 'military versions'",
         "provider": "The Times of India",
@@ -6874,28 +6896,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Gizbot",
         "url": "https://www.gizbot.com/gadgets/news/samsung-launches-2026-bespoke-ai-appliances-india-transform-your-home-into-a-genius-assistant-014-128625.html"
-      },
-      {
-        "name": "Apple, Google both drop new beta updates for iOS 27 and Andr",
-        "provider": "PhoneArena",
-        "type": "AI 项目/工具",
-        "bestFor": "Google and Apple both released new beta updates for Android 17 and iOS 27 respectively. Let's start with Google, which released Android 17 QPR1 Beta 9, which sh",
-        "description": "Google and Apple both released new beta updates for Android 17 and iOS 27 respectively. Let's start with Google, which released Android 17 QPR1 Beta 9, which should be the last bet",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "PhoneArena",
-        "url": "https://origin.phonearena.com/news/apple-google-both-drop-new-beta-updates_id182662"
-      },
-      {
-        "name": "Mark Kantor appointed CEO of Cinode: increased focus on AI, ",
-        "provider": "via.tt.se",
-        "type": "AI 项目/工具",
-        "bestFor": "Cinode is making changes to its leadership team to accelerate the company's next phase. Mark Kantor, currently Chief Product Officer, will take over as CEO. Aft",
-        "description": "Cinode is making changes to its leadership team to accelerate the company's next phase. Mark Kantor, currently Chief Product Officer, will take over as CEO. After eight years as CE",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "via.tt.se",
-        "url": "https://via.tt.se/pressmeddelande/4557272/mark-kantor-appointed-ceo-of-cinode-increased-focus-on-ai-product-and-growth?publisherId=3240168"
       }
     ],
     "ai-business": [
@@ -7897,6 +7897,17 @@
     ],
     "ai-image-video": [
       {
+        "name": "Qwen 开源 Qwen-Image-2.1：7B 统一生成与编辑并原生支持透明图像",
+        "provider": "Qwen：Blog Retrieval（API）",
+        "type": "AI 项目/工具",
+        "bestFor": "Qwen 团队开源 Qwen-Image-2.1，将文生图与图像编辑统一到一个模型中，视觉生成组件仅 7B 参数，并原生支持生成和编辑透明图像。模型支持最多 10 张参考图、圆形/涂鸦/独立蒙版指定局部编辑，通过混合粒度注意力架构和 KV cache 复用提升推理效率，同时改进文字渲染、人像光照与人物产品保真度，并覆盖",
+        "description": "Qwen 团队开源 Qwen-Image-2.1，将文生图与图像编辑统一到一个模型中，视觉生成组件仅 7B 参数，并原生支持生成和编辑透明图像。模型支持最多 10 张参考图、圆形/涂鸦/独立蒙版指定局部编辑，通过混合粒度注意力架构和 KV cache 复用提升推理效率，同时改进文字渲染、人像光照与人物产品保真度，并覆盖全景图、信息图和分镜等任务。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Qwen：Blog Retrieval（API）",
+        "url": "https://qwen.ai/blog?id=qwen-image-2.1"
+      },
+      {
         "name": "One AI Gateway for Text, Image, and Video Models",
         "provider": "TechBullion",
         "type": "AI 项目/工具",
@@ -8334,21 +8345,6 @@
         "watch": "Overchat 的免费版本可能会限制视频长度和功能，用户需注意使用限制。",
         "sourceName": "Techloy",
         "url": "https://www.techloy.com/best-ai-face-swap-video-tools-in-2026-quality-speed-and-price-compared/"
-      },
-      {
-        "name": "人工智能历经70年发展，未来将如何影响我们生活",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "AI的广泛应用将改变多个行业的运作方式。首先，企业将更依赖AI进行数据分析和决策，提升运营效率。其次，消费者将享受到更加个性化的服务，改善购物体验。此外，AI技术的进步也将促进新兴职业的出现，如AI训练师和数据分析师等。随着AI的不断发展，社会对技术伦理和隐私保护的关注也将加剧，企业需在创新与合规之间找到平衡。",
-        "description": "1956年7月，卡内基梅隆大学的赫伯·西蒙和艾伦·纽厄尔在达特茅斯夏季人工智能研究项目上展示了被认为是第一个AI计算机程序的“逻辑理论家”。该程序旨在模拟人类推理，标志着人工智能的起步。如今，AI技术已经取得显著进展，能够在多个领域提供支持。",
-        "useCases": [
-          "分析市场趋势，利用AI工具生成数据报告，帮助企业做出更明智的决策。",
-          "使用AI进行客户服务，通过聊天机器人自动回答常见问题，提高客户满意度。",
-          "在教育领域，利用AI个性化学习方案，帮助学生根据自身需求制定学习计划。"
-        ],
-        "watch": "AI技术的快速发展可能导致数据隐私问题，企业需确保合规性以避免法律风险。",
-        "sourceName": "NewsAPI:artificial intelligence",
-        "url": "https://wattsupwiththat.com/2026/08/05/it-took-ai-70-years-to-get-here-so-what-can-it-do-for-us/"
       }
     ],
     "ai-research": [
@@ -10199,7 +10195,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-20",
-    "generatedAt": "2026-09-20T11:24:56.496618Z",
+    "generatedAt": "2026-09-20T13:54:05.319075Z",
     "total": 23,
     "sections": [
       {
