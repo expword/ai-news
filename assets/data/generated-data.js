@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-22",
-  "generatedAt": "2026-09-21T20:40:30.477834Z",
+  "generatedAt": "2026-09-21T21:50:13.527151Z",
   "news": [
     {
       "title": "Amazon launches research initiative with Stanford University to advance AI and science",
@@ -2664,34 +2664,6 @@ window.AI_GENERATED_DATA = {
           "title": "Migrating multi-model AI agents to Amazon Bedrock AgentCore runtime"
         }
       ]
-    },
-    {
-      "title": "DevFest is back",
-      "summary": "DevFest 2026 is back and here’s how you can connect with one of the more than 800 global events to build, secure, and scale in the agentic AI era.",
-      "category": "ai-agents",
-      "source": "RSS · Google AI Blog",
-      "date": "2026-09-15",
-      "publishedAt": "2026-09-15T00:00",
-      "collectedAt": "2026-09-15T00:50",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
     }
   ],
   "weeklyDigests": [
@@ -6219,6 +6191,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "小米发布 MiMo-V2.6 Pro 与 Flash 全模态开源模型",
+        "provider": "X：小米 MiMo (@XiaomiMiMo)",
+        "type": "AI 项目/工具",
+        "bestFor": "小米 MiMo 发布 MiMo-V2.6 Pro 与 Flash 两个全模态模型，通过规模化强化学习训练。Pro 在多数 Agent 基准上与 Claude Opus 5 和 GPT-5.6 Sol 表现相当，在 Artificial Analysis Intelligence Index 得分 46，为开源模型中最高",
+        "description": "小米 MiMo 发布 MiMo-V2.6 Pro 与 Flash 两个全模态模型，通过规模化强化学习训练。Pro 在多数 Agent 基准上与 Claude Opus 5 和 GPT-5.6 Sol 表现相当，在 Artificial Analysis Intelligence Index 得分 46，为开源模型中最高；能力覆盖编码、computer use",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "X：小米 MiMo (@XiaomiMiMo)",
+        "url": "https://x.com/XiaomiMiMo/status/2102138559952290106"
+      },
+      {
         "name": "Linear 重构 CI 流程应对 AI 编码带来的验证瓶颈，PR 等待时间从 6 分钟降至 5 分钟",
         "provider": "Linear：Now（RSS）",
         "type": "AI 项目/工具",
@@ -6646,17 +6629,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "NewsBytes",
         "url": "https://www.newsbytesapp.com/news/science/google-cc-ai-can-now-manage-your-family-s-daily-activities/story"
-      },
-      {
-        "name": "Meta's personal AI agent Muse tops US App Store",
-        "provider": "NewsBytes",
-        "type": "AI 项目/工具",
-        "bestFor": "Meta's new personal artificial intelligence (AI) agent, Muse, has taken the US by storm. The app has dethroned ChatGPT to become the most downloaded free app on",
-        "description": "Meta's new personal artificial intelligence (AI) agent, Muse, has taken the US by storm. The app has dethroned ChatGPT to become the most downloaded free app on Apple's US App Stor",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsBytes",
-        "url": "https://www.newsbytesapp.com/news/science/meta-s-muse-tops-us-app-store-after-beating-chatgpt/story"
       }
     ],
     "ai-models": [
@@ -10392,7 +10364,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-22",
-    "generatedAt": "2026-09-21T20:40:30.455735Z",
+    "generatedAt": "2026-09-21T21:50:13.506082Z",
     "total": 14,
     "sections": [
       {
