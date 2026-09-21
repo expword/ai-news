@@ -1,7 +1,305 @@
 window.AI_GENERATED_DATA = {
-  "lastUpdated": "2026-09-21",
-  "generatedAt": "2026-09-21T15:56:58.978097Z",
+  "lastUpdated": "2026-09-22",
+  "generatedAt": "2026-09-21T18:18:57.423231Z",
   "news": [
+    {
+      "title": "Advancing AI for biology: Teaching models to design and characterize antibodies",
+      "summary": "Three new papers from Amazon Bio Discovery address bottlenecks in AI-driven antibody engineering, from benchmarking binding predictors to experimentally validating de novo design.",
+      "category": "ai-benchmark",
+      "source": "RSS · Amazon Science",
+      "date": "2026-09-22",
+      "publishedAt": "2026-09-22T01:51",
+      "collectedAt": "2026-09-22T02:18",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://www.amazon.science/blog/advancing-ai-for-biology-teaching-models-to-design-and-characterize-antibodies",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "How BMW Group detects cost anomalies across 14,000 cloud accounts",
+      "summary": "BMW Group operates CLEA, a FinOps platform monitoring more than 14,000 cloud accounts. This post shows how BMW added automated daily cost anomaly detection, moving from reactive da",
+      "category": "ai-models",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-22",
+      "publishedAt": "2026-09-22T00:36",
+      "collectedAt": "2026-09-22T01:08",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-bmw-group-detects-cost-anomalies-across-14000-cloud-accounts/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Run Positron on Amazon SageMaker AI for data science workflows",
+      "summary": "Positron, Posit's IDE for data science, now runs on Amazon SageMaker AI. This post shows how a data scientist explores an Amazon Athena table, validates features in R, trains an XG",
+      "category": "ai-models",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-22",
+      "publishedAt": "2026-09-22T00:34",
+      "collectedAt": "2026-09-22T01:08",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/run-positron-on-amazon-sagemaker-ai-for-data-science-workflows/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Open-Sourcing Rebalancer: A Generic, High-Performance Library for Solving Assignment Problems",
+      "summary": "We&#8217;re open-sourcing Rebalancer, the assignment-problem solver that has been used to solve resource allocation problems throughout Meta for over nine years. Rebalancer separat",
+      "category": "ai-models",
+      "source": "RSS · Meta Engineering",
+      "date": "2026-09-22",
+      "publishedAt": "2026-09-22T00:00",
+      "collectedAt": "2026-09-22T01:08",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://engineering.fb.com/2026/09/21/open-source/rebalancer-generic-high-performance-library-assignment-problems/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Building standards for the next phase of AI",
+      "summary": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.",
+      "category": "ai-models",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-09-21",
+      "publishedAt": "2026-09-21T18:00",
+      "collectedAt": "2026-09-22T02:18",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/building-standards-next-phase-ai",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Advisory Group on Mathematics and Artificial Intelligence",
+      "summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
+      "category": "ai-models",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-09-21",
+      "publishedAt": "2026-09-21T20:00",
+      "collectedAt": "2026-09-22T02:18",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Expanding OpenAI Academy with new learning paths",
+      "summary": "Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills.",
+      "category": "ai-models",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-09-21",
+      "publishedAt": "2026-09-21T15:00",
+      "collectedAt": "2026-09-22T02:18",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Inside Petal: Building the World’s First Petabit-Class Transoceanic Subsea Cable",
+      "summary": "Petal, the next step in Meta’s subsea innovation, will be the first subsea cable to deliver petabit capacity at transoceanic distances, connecting France and the United States over",
+      "category": "ai-models",
+      "source": "RSS · Meta Engineering",
+      "date": "2026-09-21",
+      "publishedAt": "2026-09-21T20:00",
+      "collectedAt": "2026-09-22T02:18",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://engineering.fb.com/2026/09/21/connectivity/petal-petabit-transoceanic-subsea-cable/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "tokenizers v1: encode, decode and scaling, measured",
+      "summary": "",
+      "category": "ai-coding",
+      "source": "RSS · Hugging Face Blog",
+      "date": "2026-09-21",
+      "publishedAt": "2026-09-21T08:00",
+      "collectedAt": "2026-09-22T01:08",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://huggingface.co/blog/tokenizers-v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
+      "summary": "",
+      "category": "ai-models",
+      "source": "RSS · Hugging Face Blog",
+      "date": "2026-09-21",
+      "publishedAt": "2026-09-21T21:44",
+      "collectedAt": "2026-09-22T01:08",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Improving synthesis prediction of small molecules at scale with RetroChimera",
+      "summary": "Custom-made molecules are advancing medicine, materials, and agriculture, but producing them is slow and expensive. A new Nature paper highlights RetroChimera, a predictive model t",
+      "category": "ai-research",
+      "source": "RSS · Microsoft Research",
+      "date": "2026-09-21",
+      "publishedAt": "2026-09-21T23:30",
+      "collectedAt": "2026-09-22T01:08",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://www.microsoft.com/en-us/research/blog/improving-synthesis-prediction-of-small-molecules-at-scale-with-retrochimera/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "MilleMiglia: A realistic instance generator for middle-mile logistics",
       "summary": "Algorithms & Theory",
@@ -1822,7 +2120,14 @@ window.AI_GENERATED_DATA = {
         "benchmarkDatasets",
         "topicResources"
       ],
-      "sourceCount": 1
+      "sourceCount": 2,
+      "relatedSources": [
+        {
+          "source": "RSS · OpenAI Blog",
+          "url": "https://openai.com/index/v7",
+          "title": "How V7 gives AI agents institutional memory"
+        }
+      ]
     },
     {
       "title": "LLMs or Naive Bayes? Old Gems or New Ways",
@@ -2412,88 +2717,6 @@ window.AI_GENERATED_DATA = {
       "aiSelected": true,
       "moduleTargets": [
         "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Corrupt Plans, Clean Traces: Evading Chain-of-Thought Monitoring with Plan Injection",
-      "summary": "Chain-of-thought (CoT) monitoring is a safety strategy where the reasoning of a large language model \"actor\" is inspected by a \"monitor\" (often another language model) for signs of",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-14",
-      "publishedAt": "",
-      "collectedAt": "2026-09-16T03:56",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-14",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.15989v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "LLM-Based Schema-Aware Split Learning for Privacy-Preserving Mental Distress Prediction Across Heterogeneous Surveys",
-      "summary": "Rising societal and lifestyle complexity has been linked to a growing prevalence of mental distress worldwide. Educational institutions, workplaces, clinics, etc. collect large vol",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-14",
-      "publishedAt": "",
-      "collectedAt": "2026-09-16T03:56",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-14",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.15871v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Adversarial Testing of Automated Program Repair Agents for Security Vulnerabilities",
-      "summary": "Software agents with Large Language Models (LLMs) are designed for Automated Program Repair (APR) tasks, raising the possibility that, in the near future, APR agents will fix bugs ",
-      "category": "ai-coding",
-      "source": "arXiv",
-      "date": "2026-09-14",
-      "publishedAt": "",
-      "collectedAt": "2026-09-16T03:56",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-14",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.15963v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
       ],
       "sourceCount": 1
     }
@@ -6023,6 +6246,28 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "Tomer Tunguz 谈 AI 优化 if-then 判断：专用决策器把分类成本降近百倍",
+        "provider": "Tomer Tunguz 博客（VC 分析）",
+        "type": "AI 项目/工具",
+        "bestFor": "Tomer Tunguz 撰文提出最新一波 AI 正在接管软件中的 if-then 判断原语，Jev 与 SemIf 这类专用决策器以数百毫秒返回结果，成本比传统生成式调用低约 76x 到 209x。作者在自己的 Agent 中替换了约四分之一的调用，在 98 条人工核验的生产邮件线程上，Jev 达到 80%、本地 S",
+        "description": "Tomer Tunguz 撰文提出最新一波 AI 正在接管软件中的 if-then 判断原语，Jev 与 SemIf 这类专用决策器以数百毫秒返回结果，成本比传统生成式调用低约 76x 到 209x。作者在自己的 Agent 中替换了约四分之一的调用，在 98 条人工核验的生产邮件线程上，Jev 达到 80%、本地 SemIf 达到 82% 的分类准确率，高",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Tomer Tunguz 博客（VC 分析）",
+        "url": "https://tomtunguz.com/ai-comes-for-the-if-statement"
+      },
+      {
+        "name": "How V7 gives AI agents institutional memory",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.",
+        "description": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · OpenAI Blog",
+        "url": "https://openai.com/index/v7"
+      },
+      {
         "name": "Securing AI Agents Requires More Than One-Time Risk Assessme",
         "provider": "TechNadu",
         "type": "AI 项目/工具",
@@ -6439,31 +6684,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Tektcia",
         "url": "https://tekticia.com/google-ai-agent-cc-helps-families-run-their-households/"
-      },
-      {
-        "name": "Hex turns complex analysis into visual reports with GPT‑6 As",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share.",
-        "description": "GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · OpenAI Blog",
-        "url": "https://openai.com/index/hex-gpt-6-astra"
-      },
-      {
-        "name": "Gary Marcus：近期更该警惕的不是失控超级智能，而是智能体 AI 引发的规模化黑客攻击",
-        "provider": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-        "type": "AI 项目/工具",
-        "bestFor": "Gary Marcus 撰文称，近期真正应担心的不是失控的超级智能，而是被放开的 agentic AI 造成互联网规模化的黑客攻击。",
-        "description": "Gary Marcus 撰文称，近期真正应担心的不是失控的超级智能，而是被放开的 agentic AI 造成互联网规模化的黑客攻击。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-        "url": "https://garymarcus.substack.com/p/wake-up-people-what-we-should-actually"
       }
     ],
     "ai-models": [
+      {
+        "name": "How BMW Group detects cost anomalies across 14,000 cloud acc",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "BMW Group operates CLEA, a FinOps platform monitoring more than 14,000 cloud accounts. This post shows how BMW added automated daily cost anomaly detection, mov",
+        "description": "BMW Group operates CLEA, a FinOps platform monitoring more than 14,000 cloud accounts. This post shows how BMW added automated daily cost anomaly detection, moving from reactive da",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/how-bmw-group-detects-cost-anomalies-across-14000-cloud-accounts/"
+      },
       {
         "name": "Cority Named a Leader in 2026 Verdantix Green Quadrant for E",
         "provider": "Financial Post",
@@ -6892,17 +7126,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "KBAK",
         "url": "https://bakersfieldnow.com/news/nation-world/google-says-its-gemini-ai-model-hacked-3-other-companies-reports-artificial-intelligence-network-unauthorized-access-credentials-internet-cybersecurity-test-risks"
-      },
-      {
-        "name": "Google says its Gemini AI model hacked 3 other companies: re",
-        "provider": "WLOS",
-        "type": "AI 项目/工具",
-        "bestFor": "A Google Gemini AI model gained unauthorized access to three other companies during a cybersecurity test, according to reports.\n\nGoogle disclosed the incident -",
-        "description": "A Google Gemini AI model gained unauthorized access to three other companies during a cybersecurity test, according to reports.\n\nGoogle disclosed the incident -- which happened in ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "WLOS",
-        "url": "https://wlos.com/news/nation-world/google-says-its-gemini-ai-model-hacked-3-other-companies-reports-artificial-intelligence-network-unauthorized-access-credentials-internet-cybersecurity-test-risks"
       }
     ],
     "ai-business": [
@@ -8800,6 +9023,20 @@ window.AI_GENERATED_DATA = {
   },
   "skillRecommendations": [
     {
+      "title": "HKUDS/DeepTutor",
+      "type": "RAG / 知识库",
+      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+      "tags": [
+        "Python",
+        "RAG / 知识库",
+        "GitHub"
+      ],
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "source": "GitHub",
+      "stars": 40125,
+      "date": "2026-09-22"
+    },
+    {
       "title": "microsoft/autogen",
       "type": "编程开发",
       "description": "A programming framework for agentic AI",
@@ -8839,20 +9076,6 @@ window.AI_GENERATED_DATA = {
       "url": "https://github.com/reactive-resume/reactive-resume",
       "source": "GitHub",
       "stars": 42845,
-      "date": "2026-09-15"
-    },
-    {
-      "title": "2noise/ChatTTS",
-      "type": "语音 / 音频",
-      "description": "A generative speech model for daily dialogue.",
-      "tags": [
-        "Python",
-        "语音 / 音频",
-        "GitHub"
-      ],
-      "url": "https://github.com/2noise/ChatTTS",
-      "source": "GitHub",
-      "stars": 39837,
       "date": "2026-09-15"
     },
     {
@@ -10201,101 +10424,23 @@ window.AI_GENERATED_DATA = {
     }
   ],
   "dailyReport": {
-    "date": "2026-09-21",
-    "generatedAt": "2026-09-21T15:56:58.956094Z",
-    "total": 23,
+    "date": "2026-09-22",
+    "generatedAt": "2026-09-21T18:18:57.402264Z",
+    "total": 11,
     "sections": [
       {
         "category": "ai-coding",
         "label": "AI 编程",
         "items": [
           {
-            "title": "How a global fintech scaled coding agent traffic with Dedicated Model Inference",
-            "summary": "Inside a global bank's shift to self-serve dedicated inference: how Together's DMI gave engineering teams direct control over scaling, model",
-            "source": "RSS · Together AI",
-            "url": "https://www.together.ai/blog/global-fintech-scales-coding-agent-traffic-with-dedicated-model-inference",
+            "title": "tokenizers v1: encode, decode and scaling, measured",
+            "summary": "",
+            "source": "RSS · Hugging Face Blog",
+            "url": "https://huggingface.co/blog/tokenizers-v1",
             "score": 70,
             "sourceCount": 1,
-            "date": "2026-09-18",
-            "publishedAt": "2026-09-18T08:00",
-            "reason": ""
-          },
-          {
-            "title": "Deploy Hugging Face models on Amazon SageMaker AI with coding agents",
-            "summary": "Deploy production-ready Hugging Face models on Amazon SageMaker AI using six open-source agent skills. Point a coding agent at a model and g",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/deploy-hugging-face-models-on-amazon-sagemaker-ai-with-coding-agents/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-18",
-            "publishedAt": "2026-09-18T23:25",
-            "reason": ""
-          },
-          {
-            "title": "A serverless, data-driven Git metrics dashboard using Amazon Quick Sight",
-            "summary": "Learn how to build a fully serverless pipeline that automatically collects Git metrics from GitHub and GitLab and visualizes them in interac",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/a-serverless-data-driven-git-metrics-dashboard-using-amazon-quick-sight/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-17",
-            "publishedAt": "2026-09-17T23:42",
-            "reason": ""
-          }
-        ]
-      },
-      {
-        "category": "ai-image-video",
-        "label": "图像视频",
-        "items": [
-          {
-            "title": "Enhancing industrial safety AI with synthetic data on Amazon SageMaker AI",
-            "summary": "Learn how to build a synthetic data augmentation pipeline on Amazon SageMaker AI and Amazon Rekognition that generates photo-realistic, auto",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/enhancing-industrial-safety-ai-with-synthetic-data-on-amazon-sagemaker-ai/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-17",
-            "publishedAt": "2026-09-17T23:28",
-            "reason": ""
-          }
-        ]
-      },
-      {
-        "category": "ai-agents",
-        "label": "Agent / MCP",
-        "items": [
-          {
-            "title": "The new AgentCore runtime: Elastic, optimized, and consistently fast starts",
-            "summary": "Today we are announcing the new AgentCore runtime, a capability of Amazon Bedrock AgentCore built for the speed, flexibility, and cost effic",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/the-new-agentcore-runtime-elastic-optimized-and-consistently-fast-starts/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-18",
-            "publishedAt": "2026-09-18T23:31",
-            "reason": ""
-          },
-          {
-            "title": "Implementing defense-in-depth authorization for MCP tools on Amazon Quick",
-            "summary": "Learn how to enforce defense-in-depth authorization for Model Context Protocol (MCP) tools on Amazon Quick. This walkthrough wires Microsoft",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/implementing-defense-in-depth-authorization-for-mcp-tools-on-amazon-quick/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-17",
-            "publishedAt": "2026-09-17T23:30",
-            "reason": ""
-          },
-          {
-            "title": "How MRH Trowe enabled secure self-service AI agents in financial services",
-            "summary": "Learn how MRH Trowe, one of Germany's leading commercial and industrial insurance brokers, gave about 400 employees secure, self-service acc",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/how-mrh-trowe-enabled-secure-self-service-ai-agents-in-financial-services/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-17",
-            "publishedAt": "2026-09-17T23:36",
+            "date": "2026-09-21",
+            "publishedAt": "2026-09-21T08:00",
             "reason": ""
           }
         ]
@@ -10305,135 +10450,91 @@ window.AI_GENERATED_DATA = {
         "label": "模型发布",
         "items": [
           {
-            "title": "MilleMiglia: A realistic instance generator for middle-mile logistics",
-            "summary": "Algorithms & Theory",
-            "source": "RSS · Google Research",
-            "url": "https://research.google/blog/millemiglia-a-realistic-instance-generator-for-middle-mile-logistics/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-19",
-            "publishedAt": "2026-09-19T01:46",
-            "reason": ""
-          },
-          {
-            "title": "Sep 18, 2026 Announcements Partnering with Accenture on embedded evaluation",
-            "summary": "Sep 18, 2026 Announcements Partnering with Accenture on embedded evaluation",
-            "source": "HTML · Anthropic",
-            "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-18",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Co-creating the future of fashion with Google",
-            "summary": "Google worked side-by-side with designers Jane Wade and Sergio Hudson to custom-design Google Flow tools to prep for NYFW.",
-            "source": "RSS · Google AI Blog",
-            "url": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-18",
-            "publishedAt": "2026-09-18T21:00",
-            "reason": ""
-          },
-          {
-            "title": "Introducing Amazon SageMaker HyperPod Inference Gateway",
-            "summary": "Amazon SageMaker HyperPod Inference Gateway is a Kubernetes-native, GPU-aware routing add-on for Amazon EKS. It uses real-time GPU signals t",
+            "title": "How BMW Group detects cost anomalies across 14,000 cloud accounts",
+            "summary": "BMW Group operates CLEA, a FinOps platform monitoring more than 14,000 cloud accounts. This post shows how BMW added automated daily cost an",
             "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-inference-gateway/",
-            "score": 70,
-            "sourceCount": 2,
-            "date": "2026-09-18",
-            "publishedAt": "2026-09-18T21:08",
-            "reason": ""
-          },
-          {
-            "title": "Anthropic 发布前沿 AI 开发节奏测量工具与内部指标快照",
-            "summary": "Anthropic 发布一套测量前沿 AI 开发节奏的指标，覆盖 AI 主导研发、智能体监督和算力分配三方面。",
-            "source": "Anthropic：The Institute（旗舰研究长文 · 网页）",
-            "url": "https://www.anthropic.com/institute/measuring-pace-of-ai-development",
+            "url": "https://aws.amazon.com/blogs/machine-learning/how-bmw-group-detects-cost-anomalies-across-14000-cloud-accounts/",
             "score": 70,
             "sourceCount": 1,
-            "date": "2026-09-18",
-            "publishedAt": "2026-09-18T04:49",
+            "date": "2026-09-22",
+            "publishedAt": "2026-09-22T00:36",
             "reason": ""
           },
           {
-            "title": "Anthropic 用 Claude 优化 30 多个开源生物分子模型，平均提速约 4 倍并开源全部代码",
-            "summary": "Anthropic 发布研究，让 Claude 在不到四周内优化了 30 多个开源生物分子模型，平均提速约 4 倍，输出完全一致时约 2 倍。",
-            "source": "Anthropic：Research（发表成果 · 网页）",
-            "url": "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-18",
-            "publishedAt": "2026-09-18T03:49",
-            "reason": ""
-          },
-          {
-            "title": "The future of practice: Enabling teachers to create learning interactives with generative UI",
-            "summary": "Education Innovation",
-            "source": "RSS · Google Research",
-            "url": "https://research.google/blog/the-future-of-practice-enabling-teachers-to-create-learning-interactives-with-generative-ui/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-18",
-            "publishedAt": "2026-09-18T04:45",
-            "reason": ""
-          },
-          {
-            "title": "Making global data easier to explore",
-            "summary": "Google and the UN system have launched the UN System Data Commons, a new open platform making global statistics accessible and easy to searc",
-            "source": "RSS · Google AI Blog",
-            "url": "https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-18",
-            "publishedAt": "2026-09-18T04:00",
-            "reason": ""
-          },
-          {
-            "title": "Reduce time-to-hire for quality candidates with AI-powered Amazon Connect Talent",
-            "summary": "Amazon Connect Talent is an AI hiring solution built for talent acquisition leaders managing scaled hiring. It delivers AI-led interviews, d",
+            "title": "Run Positron on Amazon SageMaker AI for data science workflows",
+            "summary": "Positron, Posit's IDE for data science, now runs on Amazon SageMaker AI. This post shows how a data scientist explores an Amazon Athena tabl",
             "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/reduce-time-to-hire-for-quality-candidates-with-ai-powered-amazon-connect-talent/",
+            "url": "https://aws.amazon.com/blogs/machine-learning/run-positron-on-amazon-sagemaker-ai-for-data-science-workflows/",
             "score": 70,
             "sourceCount": 1,
-            "date": "2026-09-18",
-            "publishedAt": "2026-09-18T01:55",
+            "date": "2026-09-22",
+            "publishedAt": "2026-09-22T00:34",
             "reason": ""
           },
           {
-            "title": "How Cooley is accelerating IPO work with ChatGPT",
-            "summary": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment",
+            "title": "Open-Sourcing Rebalancer: A Generic, High-Performance Library for Solving Assignment Problems",
+            "summary": "We&#8217;re open-sourcing Rebalancer, the assignment-problem solver that has been used to solve resource allocation problems throughout Meta",
+            "source": "RSS · Meta Engineering",
+            "url": "https://engineering.fb.com/2026/09/21/open-source/rebalancer-generic-high-performance-library-assignment-problems/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-22",
+            "publishedAt": "2026-09-22T00:00",
+            "reason": ""
+          },
+          {
+            "title": "Building standards for the next phase of AI",
+            "summary": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.",
             "source": "RSS · OpenAI Blog",
-            "url": "https://openai.com/index/cooley-gopublic",
+            "url": "https://openai.com/index/building-standards-next-phase-ai",
             "score": 70,
             "sourceCount": 1,
-            "date": "2026-09-17",
-            "publishedAt": "2026-09-17T20:00",
+            "date": "2026-09-21",
+            "publishedAt": "2026-09-21T18:00",
             "reason": ""
           },
           {
-            "title": "Introducing Astra for Law",
-            "summary": "OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confi",
+            "title": "Advisory Group on Mathematics and Artificial Intelligence",
+            "summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of eme",
             "source": "RSS · OpenAI Blog",
-            "url": "https://openai.com/index/astra-for-law",
+            "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
             "score": 70,
             "sourceCount": 1,
-            "date": "2026-09-17",
-            "publishedAt": "2026-09-17T08:00",
+            "date": "2026-09-21",
+            "publishedAt": "2026-09-21T20:00",
             "reason": ""
           },
           {
-            "title": "Sep 17, 2026 Announcements Introducing the Life Sciences Verification Program",
-            "summary": "Sep 17, 2026 Announcements Introducing the Life Sciences Verification Program",
-            "source": "HTML · Anthropic",
-            "url": "https://www.anthropic.com/news/life-sciences-verification-program",
+            "title": "Expanding OpenAI Academy with new learning paths",
+            "summary": "Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI ",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
             "score": 70,
             "sourceCount": 1,
-            "date": "2026-09-17",
-            "publishedAt": "",
+            "date": "2026-09-21",
+            "publishedAt": "2026-09-21T15:00",
+            "reason": ""
+          },
+          {
+            "title": "Inside Petal: Building the World’s First Petabit-Class Transoceanic Subsea Cable",
+            "summary": "Petal, the next step in Meta’s subsea innovation, will be the first subsea cable to deliver petabit capacity at transoceanic distances, conn",
+            "source": "RSS · Meta Engineering",
+            "url": "https://engineering.fb.com/2026/09/21/connectivity/petal-petabit-transoceanic-subsea-cable/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-21",
+            "publishedAt": "2026-09-21T20:00",
+            "reason": ""
+          },
+          {
+            "title": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
+            "summary": "",
+            "source": "RSS · Hugging Face Blog",
+            "url": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-21",
+            "publishedAt": "2026-09-21T21:44",
             "reason": ""
           }
         ]
@@ -10443,25 +10544,14 @@ window.AI_GENERATED_DATA = {
         "label": "评测榜单",
         "items": [
           {
-            "title": "Selecting a vector store for Amazon Bedrock Knowledge Bases",
-            "summary": "Choosing the right vector store for your Amazon Bedrock Knowledge Bases RAG application affects performance and cost. This post compares Ama",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/selecting-a-vector-store-for-amazon-bedrock-knowledge-bases/",
+            "title": "Advancing AI for biology: Teaching models to design and characterize antibodies",
+            "summary": "Three new papers from Amazon Bio Discovery address bottlenecks in AI-driven antibody engineering, from benchmarking binding predictors to ex",
+            "source": "RSS · Amazon Science",
+            "url": "https://www.amazon.science/blog/advancing-ai-for-biology-teaching-models-to-design-and-characterize-antibodies",
             "score": 70,
             "sourceCount": 1,
-            "date": "2026-09-17",
-            "publishedAt": "2026-09-17T23:53",
-            "reason": ""
-          },
-          {
-            "title": "REVERSAL-BENCH: A Reversibility Axis and Reset Oracle for Measuring the Reset-Free RL Cliff",
-            "summary": "A central goal of autonomous reinforcement learning is continuous policy training without external resets. However, existing paradigms large",
-            "source": "RSS · Apple ML Research",
-            "url": "https://machinelearning.apple.com/research/reversal-bench-rl-cliff",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-17",
-            "publishedAt": "2026-09-17T08:00",
+            "date": "2026-09-22",
+            "publishedAt": "2026-09-22T01:51",
             "reason": ""
           }
         ]
@@ -10471,25 +10561,14 @@ window.AI_GENERATED_DATA = {
         "label": "论文研究",
         "items": [
           {
-            "title": "New experts join Google’s AI & Economy team",
-            "summary": "We are expanding our AI & Economy team with world-class academic advisors, fellows, and core internal researchers.",
-            "source": "RSS · Google AI Blog",
-            "url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
+            "title": "Improving synthesis prediction of small molecules at scale with RetroChimera",
+            "summary": "Custom-made molecules are advancing medicine, materials, and agriculture, but producing them is slow and expensive. A new Nature paper highl",
+            "source": "RSS · Microsoft Research",
+            "url": "https://www.microsoft.com/en-us/research/blog/improving-synthesis-prediction-of-small-molecules-at-scale-with-retrochimera/",
             "score": 70,
             "sourceCount": 1,
-            "date": "2026-09-18",
-            "publishedAt": "2026-09-18T22:00",
-            "reason": ""
-          },
-          {
-            "title": "Regularized Emphatic Temporal-Difference Learning: Stability under Constant Stepsizes",
-            "summary": "arXiv:2609.19170v1 Announce Type: new Abstract: Emphatic temporal-difference learning (ETD) stabilizes the expected off-policy TD update and",
-            "source": "RSS · arXiv cs.AI",
-            "url": "https://arxiv.org/abs/2609.19170",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-18",
-            "publishedAt": "",
+            "date": "2026-09-21",
+            "publishedAt": "2026-09-21T23:30",
             "reason": ""
           }
         ]
@@ -10497,6 +10576,302 @@ window.AI_GENERATED_DATA = {
     ]
   },
   "dailyReports": [
+    {
+      "date": "2026-09-21",
+      "generatedAt": "2026-09-21T16:00:04.707310Z",
+      "total": 23,
+      "sections": [
+        {
+          "category": "ai-coding",
+          "label": "AI 编程",
+          "items": [
+            {
+              "title": "How a global fintech scaled coding agent traffic with Dedicated Model Inference",
+              "summary": "Inside a global bank's shift to self-serve dedicated inference: how Together's DMI gave engineering teams direct control over scaling, model",
+              "source": "RSS · Together AI",
+              "url": "https://www.together.ai/blog/global-fintech-scales-coding-agent-traffic-with-dedicated-model-inference",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-18",
+              "publishedAt": "2026-09-18T08:00",
+              "reason": ""
+            },
+            {
+              "title": "Deploy Hugging Face models on Amazon SageMaker AI with coding agents",
+              "summary": "Deploy production-ready Hugging Face models on Amazon SageMaker AI using six open-source agent skills. Point a coding agent at a model and g",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/deploy-hugging-face-models-on-amazon-sagemaker-ai-with-coding-agents/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-18",
+              "publishedAt": "2026-09-18T23:25",
+              "reason": ""
+            },
+            {
+              "title": "A serverless, data-driven Git metrics dashboard using Amazon Quick Sight",
+              "summary": "Learn how to build a fully serverless pipeline that automatically collects Git metrics from GitHub and GitLab and visualizes them in interac",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/a-serverless-data-driven-git-metrics-dashboard-using-amazon-quick-sight/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-17",
+              "publishedAt": "2026-09-17T23:42",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-image-video",
+          "label": "图像视频",
+          "items": [
+            {
+              "title": "Enhancing industrial safety AI with synthetic data on Amazon SageMaker AI",
+              "summary": "Learn how to build a synthetic data augmentation pipeline on Amazon SageMaker AI and Amazon Rekognition that generates photo-realistic, auto",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/enhancing-industrial-safety-ai-with-synthetic-data-on-amazon-sagemaker-ai/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-17",
+              "publishedAt": "2026-09-17T23:28",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-agents",
+          "label": "Agent / MCP",
+          "items": [
+            {
+              "title": "The new AgentCore runtime: Elastic, optimized, and consistently fast starts",
+              "summary": "Today we are announcing the new AgentCore runtime, a capability of Amazon Bedrock AgentCore built for the speed, flexibility, and cost effic",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/the-new-agentcore-runtime-elastic-optimized-and-consistently-fast-starts/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-18",
+              "publishedAt": "2026-09-18T23:31",
+              "reason": ""
+            },
+            {
+              "title": "Implementing defense-in-depth authorization for MCP tools on Amazon Quick",
+              "summary": "Learn how to enforce defense-in-depth authorization for Model Context Protocol (MCP) tools on Amazon Quick. This walkthrough wires Microsoft",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/implementing-defense-in-depth-authorization-for-mcp-tools-on-amazon-quick/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-17",
+              "publishedAt": "2026-09-17T23:30",
+              "reason": ""
+            },
+            {
+              "title": "How MRH Trowe enabled secure self-service AI agents in financial services",
+              "summary": "Learn how MRH Trowe, one of Germany's leading commercial and industrial insurance brokers, gave about 400 employees secure, self-service acc",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/how-mrh-trowe-enabled-secure-self-service-ai-agents-in-financial-services/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-17",
+              "publishedAt": "2026-09-17T23:36",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-models",
+          "label": "模型发布",
+          "items": [
+            {
+              "title": "MilleMiglia: A realistic instance generator for middle-mile logistics",
+              "summary": "Algorithms & Theory",
+              "source": "RSS · Google Research",
+              "url": "https://research.google/blog/millemiglia-a-realistic-instance-generator-for-middle-mile-logistics/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-19",
+              "publishedAt": "2026-09-19T01:46",
+              "reason": ""
+            },
+            {
+              "title": "Sep 18, 2026 Announcements Partnering with Accenture on embedded evaluation",
+              "summary": "Sep 18, 2026 Announcements Partnering with Accenture on embedded evaluation",
+              "source": "HTML · Anthropic",
+              "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-18",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "Co-creating the future of fashion with Google",
+              "summary": "Google worked side-by-side with designers Jane Wade and Sergio Hudson to custom-design Google Flow tools to prep for NYFW.",
+              "source": "RSS · Google AI Blog",
+              "url": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-18",
+              "publishedAt": "2026-09-18T21:00",
+              "reason": ""
+            },
+            {
+              "title": "Introducing Amazon SageMaker HyperPod Inference Gateway",
+              "summary": "Amazon SageMaker HyperPod Inference Gateway is a Kubernetes-native, GPU-aware routing add-on for Amazon EKS. It uses real-time GPU signals t",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-inference-gateway/",
+              "score": 70,
+              "sourceCount": 2,
+              "date": "2026-09-18",
+              "publishedAt": "2026-09-18T21:08",
+              "reason": ""
+            },
+            {
+              "title": "Anthropic 发布前沿 AI 开发节奏测量工具与内部指标快照",
+              "summary": "Anthropic 发布一套测量前沿 AI 开发节奏的指标，覆盖 AI 主导研发、智能体监督和算力分配三方面。",
+              "source": "Anthropic：The Institute（旗舰研究长文 · 网页）",
+              "url": "https://www.anthropic.com/institute/measuring-pace-of-ai-development",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-18",
+              "publishedAt": "2026-09-18T04:49",
+              "reason": ""
+            },
+            {
+              "title": "Anthropic 用 Claude 优化 30 多个开源生物分子模型，平均提速约 4 倍并开源全部代码",
+              "summary": "Anthropic 发布研究，让 Claude 在不到四周内优化了 30 多个开源生物分子模型，平均提速约 4 倍，输出完全一致时约 2 倍。",
+              "source": "Anthropic：Research（发表成果 · 网页）",
+              "url": "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-18",
+              "publishedAt": "2026-09-18T03:49",
+              "reason": ""
+            },
+            {
+              "title": "The future of practice: Enabling teachers to create learning interactives with generative UI",
+              "summary": "Education Innovation",
+              "source": "RSS · Google Research",
+              "url": "https://research.google/blog/the-future-of-practice-enabling-teachers-to-create-learning-interactives-with-generative-ui/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-18",
+              "publishedAt": "2026-09-18T04:45",
+              "reason": ""
+            },
+            {
+              "title": "Making global data easier to explore",
+              "summary": "Google and the UN system have launched the UN System Data Commons, a new open platform making global statistics accessible and easy to searc",
+              "source": "RSS · Google AI Blog",
+              "url": "https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-18",
+              "publishedAt": "2026-09-18T04:00",
+              "reason": ""
+            },
+            {
+              "title": "Reduce time-to-hire for quality candidates with AI-powered Amazon Connect Talent",
+              "summary": "Amazon Connect Talent is an AI hiring solution built for talent acquisition leaders managing scaled hiring. It delivers AI-led interviews, d",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/reduce-time-to-hire-for-quality-candidates-with-ai-powered-amazon-connect-talent/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-18",
+              "publishedAt": "2026-09-18T01:55",
+              "reason": ""
+            },
+            {
+              "title": "How Cooley is accelerating IPO work with ChatGPT",
+              "summary": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment",
+              "source": "RSS · OpenAI Blog",
+              "url": "https://openai.com/index/cooley-gopublic",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-17",
+              "publishedAt": "2026-09-17T20:00",
+              "reason": ""
+            },
+            {
+              "title": "Introducing Astra for Law",
+              "summary": "OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confi",
+              "source": "RSS · OpenAI Blog",
+              "url": "https://openai.com/index/astra-for-law",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-17",
+              "publishedAt": "2026-09-17T08:00",
+              "reason": ""
+            },
+            {
+              "title": "Sep 17, 2026 Announcements Introducing the Life Sciences Verification Program",
+              "summary": "Sep 17, 2026 Announcements Introducing the Life Sciences Verification Program",
+              "source": "HTML · Anthropic",
+              "url": "https://www.anthropic.com/news/life-sciences-verification-program",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-17",
+              "publishedAt": "",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-benchmark",
+          "label": "评测榜单",
+          "items": [
+            {
+              "title": "Selecting a vector store for Amazon Bedrock Knowledge Bases",
+              "summary": "Choosing the right vector store for your Amazon Bedrock Knowledge Bases RAG application affects performance and cost. This post compares Ama",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/selecting-a-vector-store-for-amazon-bedrock-knowledge-bases/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-17",
+              "publishedAt": "2026-09-17T23:53",
+              "reason": ""
+            },
+            {
+              "title": "REVERSAL-BENCH: A Reversibility Axis and Reset Oracle for Measuring the Reset-Free RL Cliff",
+              "summary": "A central goal of autonomous reinforcement learning is continuous policy training without external resets. However, existing paradigms large",
+              "source": "RSS · Apple ML Research",
+              "url": "https://machinelearning.apple.com/research/reversal-bench-rl-cliff",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-17",
+              "publishedAt": "2026-09-17T08:00",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-research",
+          "label": "论文研究",
+          "items": [
+            {
+              "title": "New experts join Google’s AI & Economy team",
+              "summary": "We are expanding our AI & Economy team with world-class academic advisors, fellows, and core internal researchers.",
+              "source": "RSS · Google AI Blog",
+              "url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-18",
+              "publishedAt": "2026-09-18T22:00",
+              "reason": ""
+            },
+            {
+              "title": "Regularized Emphatic Temporal-Difference Learning: Stability under Constant Stepsizes",
+              "summary": "arXiv:2609.19170v1 Announce Type: new Abstract: Emphatic temporal-difference learning (ETD) stabilizes the expected off-policy TD update and",
+              "source": "RSS · arXiv cs.AI",
+              "url": "https://arxiv.org/abs/2609.19170",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-18",
+              "publishedAt": "",
+              "reason": ""
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-09-20",
       "generatedAt": "2026-09-20T16:00:03.180340Z",
@@ -19826,146 +20201,10 @@ window.AI_GENERATED_DATA = {
           ]
         }
       ]
-    },
-    {
-      "date": "2026-07-18",
-      "generatedAt": "2026-07-18T16:28:20.739222Z",
-      "total": 9,
-      "sections": [
-        {
-          "category": "ai-tools",
-          "label": "AI 工具",
-          "items": [
-            {
-              "title": "亚马逊 Quick Dashboards 推出移动布局",
-              "summary": "亚马逊 Quick Dashboards 现已推出移动布局功能，旨在为依赖仪表板进行日常决策的团队提供更便捷的使用体验。此功能将仪表板自动渲染为单列、触控优化的视图，适配手机和平板，用户无需缩放或水平滚动即可访问数据。移动布局已在所有支持的 AWS 区域上线，提升了移动设备上的数",
-              "source": "RSS · AWS Machine Learning",
-              "url": "https://aws.amazon.com/blogs/machine-learning/introducing-mobile-layout-for-amazon-quick-dashboards/",
-              "score": 78,
-              "sourceCount": 1,
-              "date": "2026-07-18",
-              "publishedAt": "2026-07-18T01:13",
-              "reason": "亚马逊 Quick Dashboards 的移动布局功能显著提升了移动设备上的数据访问效率，值得关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-image-video",
-          "label": "图像视频",
-          "items": [
-            {
-              "title": "Sora 2 视频克隆技术引发热议，真实与虚假难以分辨",
-              "summary": "我注意到，Sora 2 的视频深度克隆技术在发布一年后依然无人能敌。它能够精准捕捉面部肌肉的每一个细微动作，甚至连走路的方式也不放过。通过这项技术，截取视频中的任意一帧，几乎无法判断其真伪。",
-              "source": "X：Gabriel (@gabriel1)",
-              "url": "https://x.com/gabriel1/status/2078156277247881438",
-              "score": 68,
-              "sourceCount": 1,
-              "date": "2026-07-18",
-              "publishedAt": "2026-07-18T00:34",
-              "reason": "Sora 2 的视频克隆技术在真实感和细节捕捉上达到了新的高度，值得关注和探索。"
-            }
-          ]
-        },
-        {
-          "category": "ai-agents",
-          "label": "Agent / MCP",
-          "items": [
-            {
-              "title": "利用 Amazon Quick 提升销售团队效率",
-              "summary": "Amazon Quick 是一款智能助手，旨在帮助销售团队优化工作流程，减少行政任务，提高销售效率。通过自动化潜在客户优先级排序、风险检测和个性化沟通，销售人员可以将更多时间投入到实际销售中，从而加速成交和增强客户忠诚度。",
-              "source": "RSS · AWS Machine Learning",
-              "url": "https://aws.amazon.com/blogs/machine-learning/transform-your-sales-organization-with-amazon-quick-your-new-agentic-ai-teammate/",
-              "score": 82,
-              "sourceCount": 2,
-              "date": "2026-07-18",
-              "publishedAt": "2026-07-18T02:42",
-              "reason": "Amazon Quick 提供了一种高效的方式来提升销售团队的工作效率，值得关注其在实际应用中的效果。"
-            },
-            {
-              "title": "Smartsheet 在 AWS 上构建远程 MCP 服务器",
-              "summary": "Smartsheet 近日在 AWS 上构建了远程模型上下文协议（MCP）服务器，旨在为 AI 客户端提供直接的数据访问。这一架构支持企业团队通过自然语言与 Smartsheet 进行交互，显著提升了工作效率。",
-              "source": "RSS · AWS Machine Learning",
-              "url": "https://aws.amazon.com/blogs/machine-learning/how-smartsheet-built-a-remote-mcp-server-on-aws/",
-              "score": 82,
-              "sourceCount": 1,
-              "date": "2026-07-18",
-              "publishedAt": "2026-07-18T00:32",
-              "reason": "Smartsheet 的 MCP 服务器架构展示了如何有效整合 AI 与企业管理工具，值得关注其在提升工作效率方面的潜力。"
-            }
-          ]
-        },
-        {
-          "category": "ai-models",
-          "label": "模型发布",
-          "items": [
-            {
-              "title": "月之暗面Kimi K2.5技术路线：重构AI训练基础组件",
-              "summary": "在GTC 2026上，月之暗面CEO杨植麟介绍了Kimi K2.5的技术路线，提出用MuonClip优化器替代Adam，显著提升数据利用效率；Kimi Linear线性注意力机制在百万Token上下文下超越全注意力；Agent Swarm支持300个Agent并行工作，提升任务执",
-              "source": "X：宝玉 (@dotey)",
-              "url": "https://x.com/dotey/status/2078172517085085951",
-              "score": 67,
-              "sourceCount": 1,
-              "date": "2026-07-18",
-              "publishedAt": "2026-07-18T01:38",
-              "reason": "Kimi K2.5的技术路线展示了AI训练基础组件的创新，值得关注其在实际应用中的潜力。"
-            },
-            {
-              "title": "Claude Fable 5 在 CursorBench 上创下 72.9% 的新高",
-              "summary": "Cursor 的模型评估负责人 Nate Schmidt 发现，Claude Fable 5 在 CursorBench 的 Max effort 模式下达到了 72.9% 的新高。这一成绩展示了该模型在复杂编程任务中的全局推理能力，能够在航天模拟器中自主规划并成功登月，显著优于",
-              "source": "Claude：Blog（网页）",
-              "url": "https://claude.com/blog/working-at-the-frontier-cursor",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-07-18",
-              "publishedAt": "2026-07-18T00:32",
-              "reason": "Claude Fable 5 的出色表现展示了 AI 编程模型在复杂任务中的潜力，值得开发者关注和尝试。"
-            },
-            {
-              "title": "四款前沿模型发布，Kimi K3 成为第三名",
-              "summary": "我注意到，过去八天内，Grok 4.5、GPT-5.6、Muse Spark 1.1 和 Kimi K3 四款前沿模型相继发布，推动了人工分析智能指数得分超过 50 的实验室数量从 6 月初的 2 家增至 6 家。",
-              "source": "X：Artificial Analysis (@ArtificialAnlys)",
-              "url": "https://x.com/ArtificialAnlys/status/2078165665278730490",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-07-18",
-              "publishedAt": "2026-07-18T01:11",
-              "reason": "这次发布的模型不仅数量多，而且各自的得分和性价比都很有竞争力，值得关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-business",
-          "label": "行业商业",
-          "items": [
-            {
-              "title": "Neil Rimer 预测 AI 财富将面临再分配",
-              "summary": "Index Ventures 联合创始人 Neil Rimer 在雅典的科技节上表示，围绕 AI 积累的财富将不可避免地面临某种形式的再分配，可能是自愿或强制。他呼吁科技领袖在自愿再分配中发挥主导作用。尽管美国慈善捐赠总额创新高，但捐赠人数却持续下降，加州正在考虑对亿万富翁征收 ",
-              "source": "TechCrunch：AI（RSS）",
-              "url": "https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out",
-              "score": 63,
-              "sourceCount": 1,
-              "date": "2026-07-18",
-              "publishedAt": "2026-07-18T12:47",
-              "reason": "Neil Rimer 的观点揭示了 AI 经济中的财富再分配趋势，值得关注其对科技行业和社会的深远影响。"
-            },
-            {
-              "title": "Apple 起诉 OpenAI，指控不当行为",
-              "summary": "Apple 最近对 OpenAI 提起诉讼，指控其存在多项不当行为，尽管业内专家认为部分指控属于行业惯例。此举正值 Apple 发布新版软件公测版之际，外界普遍猜测 Apple 是因担忧 OpenAI 成为潜在竞争对手，还是希望在 OpenAI 处于弱势时获利。",
-              "source": "The Verge：AI（RSS）",
-              "url": "https://www.theverge.com/podcast/967244/apple-openai-lawsuit-vergecast",
-              "score": 61,
-              "sourceCount": 1,
-              "date": "2026-07-18",
-              "publishedAt": "2026-07-18T01:41",
-              "reason": "此事件揭示了科技巨头之间的竞争与法律博弈，值得深入分析。"
-            }
-          ]
-        }
-      ]
     }
   ],
   "llmLeaderboard": {
-    "updated": "2026-09-20",
+    "updated": "2026-09-22",
     "source": "ReLE 中文大模型能力评测（综合能力）",
     "sourceUrl": "https://github.com/jeinlee1991/chinese-llm-benchmark",
     "items": [
