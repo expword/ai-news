@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-21",
-  "generatedAt": "2026-09-21T03:14:58.477404Z",
+  "generatedAt": "2026-09-21T05:45:31.681099Z",
   "news": [
     {
       "title": "MilleMiglia: A realistic instance generator for middle-mile logistics",
@@ -6023,6 +6023,72 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "This Week in Tech: Exclave Subpoena | TWiT.TV",
+        "provider": "TWiT.tv",
+        "type": "AI 项目/工具",
+        "bestFor": "AI hallucinations nearly sparked an international crisis, Google dodged a breakup but faces new rules, and Meta's personal AI agent might be about to run your l",
+        "description": "AI hallucinations nearly sparked an international crisis, Google dodged a breakup but faces new rules, and Meta's personal AI agent might be about to run your life. This week's epi",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "TWiT.tv",
+        "url": "https://twit.tv/shows/this-week-in-tech/episodes/1102"
+      },
+      {
+        "name": "Sibos: When an AI agent does the buying, who owns the custom",
+        "provider": "FinTech Futures",
+        "type": "AI 项目/工具",
+        "bestFor": "Disclaimer: The author is an employee at PayPal Inc. The views and opinions expressed in this article are those of the author and do not represent the views and",
+        "description": "Disclaimer: The author is an employee at PayPal Inc. The views and opinions expressed in this article are those of the author and do not represent the views and positions of PayPal",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "FinTech Futures",
+        "url": "https://www.fintechfutures.com/ai-in-fintech/sibos-2026-digital-finance-in-an-ai-driven-economy-when-the-agent-does-the-buying-who-owns-the-customer"
+      },
+      {
+        "name": "Big shifts coming to travel by 2030: Why infrastructure, not",
+        "provider": "phocuswire.com",
+        "type": "AI 项目/工具",
+        "bestFor": "Much of the travel discussion in 2026 appears to arrive at the conclusion that artificial intelligence (AI) agents will play a growing role in how people resear",
+        "description": "Much of the travel discussion in 2026 appears to arrive at the conclusion that artificial intelligence (AI) agents will play a growing role in how people research and book trips.\n\n",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "phocuswire.com",
+        "url": "https://www.phocuswire.com/opinion/technology/big-shift-coming-travel-2030-why-infrastructure-not-ai-decides-who-wins"
+      },
+      {
+        "name": "Hypit AI Video Cloning: 7 Things Creators Should Know in 202",
+        "provider": "Techmixer",
+        "type": "AI 项目/工具",
+        "bestFor": "Hypit AI video cloning guide for creators: install the open-source agent workflow, remix one viral video, and review many clip variants safely.\n\nHypit AI video ",
+        "description": "Hypit AI video cloning guide for creators: install the open-source agent workflow, remix one viral video, and review many clip variants safely.\n\nHypit AI video cloning is interesti",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Techmixer",
+        "url": "https://www.techmixer.com/hypit-ai-video-cloning/"
+      },
+      {
+        "name": "Obama on agentic AI",
+        "provider": "Marginal REVOLUTION",
+        "type": "AI 项目/工具",
+        "bestFor": "\"If we are thinking about AI just in terms of how do we cure cancer or get better energy, you can do that without having agentic AI and having it just roaming f",
+        "description": "\"If we are thinking about AI just in terms of how do we cure cancer or get better energy, you can do that without having agentic AI and having it just roaming free in the internet.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Marginal REVOLUTION",
+        "url": "https://marginalrevolution.com/marginalrevolution/2026/09/obama-on-agentic-ai.html"
+      },
+      {
+        "name": "Mastercard and Trip.com pave the way for agentic commerce in",
+        "provider": "Al Bawaba",
+        "type": "AI 项目/工具",
+        "bestFor": "Mastercard and Trip.com have joined forces to showcase AI powered booking experiences for the travel sector. Powered by Mastercard's Agent Suite for Merchants a",
+        "description": "Mastercard and Trip.com have joined forces to showcase AI powered booking experiences for the travel sector. Powered by Mastercard's Agent Suite for Merchants and in partnership wi",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Al Bawaba",
+        "url": "https://www.albawaba.com/business/pr/mastercard-and-tripcom-pave-way-agentic-1637212?overridden_route_name=entity.node.canonical&base_route_name=entity.node.canonical&page_manager_page=node_view&page_manager_page_variant=node_view-panels_variant-0&page_manager_page_variant_weight=0"
+      },
+      {
         "name": "Google Gemini allegedly hacked three companies on its own",
         "provider": "Mashable ME",
         "type": "AI 项目/工具",
@@ -6395,75 +6461,64 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "The Bay City Tribune",
         "url": "https://baycitytribune.com/online_features/press_releases/magnetx-announces-completion-of-us-5-million-financing-and-opens-third-fundraising-round-to-accelerate/article_96a64f1f-f3bb-58a1-afba-4e968a892698.html"
-      },
-      {
-        "name": "Google Home Now Lets AI Agents Control Your Smart Home Devic",
-        "provider": "PC Mag Middle East",
-        "type": "AI 项目/工具",
-        "bestFor": "Google on Wednesday announced it's adding support for Model Context Protocol (MCP) on Google Home, meaning you'll soon be able to let your preferred AI agents i",
-        "description": "Google on Wednesday announced it's adding support for Model Context Protocol (MCP) on Google Home, meaning you'll soon be able to let your preferred AI agents interact with your sm",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "PC Mag Middle East",
-        "url": "https://me.pcmag.com/en/smart-home-2/38087/google-home-now-lets-ai-agents-control-your-smart-home-devices"
-      },
-      {
-        "name": "MCP Governance: The Next Sovereign AI Decision",
-        "provider": "btr.geoactivegroup.com",
-        "type": "AI 项目/工具",
-        "bestFor": "Every enterprise racing to deploy Agentic AI is making an infrastructure decision it may not recognize as one. When an AI agent connects to internal systems and",
-        "description": "Every enterprise racing to deploy Agentic AI is making an infrastructure decision it may not recognize as one. When an AI agent connects to internal systems and proprietary content",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "btr.geoactivegroup.com",
-        "url": "https://btr.geoactivegroup.com/2026/09/mcp-governance-next-sovereign-ai.html"
-      },
-      {
-        "name": "How Agentic AI is Redefining Banking, Payments, and Fintech",
-        "provider": "Analytics Insight",
-        "type": "AI 项目/工具",
-        "bestFor": "Smarter Banking Decisions: Agentic AI can move beyond answering customer questions to handling complete banking tasks. It can analyze spending, understand finan",
-        "description": "Smarter Banking Decisions: Agentic AI can move beyond answering customer questions to handling complete banking tasks. It can analyze spending, understand financial goals, compare ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Analytics Insight",
-        "url": "https://www.analyticsinsight.net/photo/how-agentic-ai-is-redefining-banking-payments-and-fintech"
-      },
-      {
-        "name": "How Does Prompt Injection Work in AI Agents, and Why Startup",
-        "provider": "Startup Fortune",
-        "type": "AI 项目/工具",
-        "bestFor": "How does prompt injection work in AI agents? It happens when an agent can't distinguish a developer's instructions from text hidden in a webpage, email, or docu",
-        "description": "How does prompt injection work in AI agents? It happens when an agent can't distinguish a developer's instructions from text hidden in a webpage, email, or document it's reading, a",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Startup Fortune",
-        "url": "https://startupfortune.com/how-does-prompt-injection-work-in-ai-agents-and-why-startups-keep-getting-hit/"
-      },
-      {
-        "name": "Database for AI Agents: 5 Evaluation Criteria",
-        "provider": "Databricks",
-        "type": "AI 项目/工具",
-        "bestFor": "Databricks' Lakebase meets each criterion, with real-world validation from Superhuman and easyJet.\n\nThe five criteria for evaluating a database for AI agents ar",
-        "description": "Databricks' Lakebase meets each criterion, with real-world validation from Superhuman and easyJet.\n\nThe five criteria for evaluating a database for AI agents are branch isolation, ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Databricks",
-        "url": "https://www.databricks.com/blog/database-for-ai-agents"
-      },
-      {
-        "name": "An AI Agent Found Its Own Client, Sold Work and Got Paid, Wh",
-        "provider": "International Business Times, Singapore Edition",
-        "type": "AI 项目/工具",
-        "bestFor": "An AI agent called Pip, operating on the iLands platform, independently contacted humans to seek paid work and reportedly completed transactions after offering ",
-        "description": "An AI agent called Pip, operating on the iLands platform, independently contacted humans to seek paid work and reportedly completed transactions after offering services such as res",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "International Business Times, Singapore Edition",
-        "url": "https://www.ibtimes.sg/ai-agent-found-its-own-client-sold-work-got-paid-who-responsible-this-93900"
       }
     ],
     "ai-models": [
+      {
+        "name": "Mastering The Dark Side: Keysight's CIO Talks User Experienc",
+        "provider": "Silicon India",
+        "type": "AI 项目/工具",
+        "bestFor": "In an exclusive interaction with the siliconindia magazine editorial team, Dan Krantz, Chief Information Officer, Keysight Technologies shares his views about t",
+        "description": "In an exclusive interaction with the siliconindia magazine editorial team, Dan Krantz, Chief Information Officer, Keysight Technologies shares his views about the how digital trans",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Silicon India",
+        "url": "https://www.siliconindia.com/viewpoint/cxoinsights/mastering-the-dark-side-keysight-s-cio-talks-user-experience-and-digital-transformation-in-it-nwid-36231.html"
+      },
+      {
+        "name": "World leaders meet at UN as their planet grapples with war, ",
+        "provider": "Audacy",
+        "type": "AI 项目/工具",
+        "bestFor": "UNITED NATIONS (AP) -- Under a global cloud of wars and bitter divisions, world leaders meet at the United Nations this week facing new fears that runaway artif",
+        "description": "UNITED NATIONS (AP) -- Under a global cloud of wars and bitter divisions, world leaders meet at the United Nations this week facing new fears that runaway artificial intelligence c",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Audacy",
+        "url": "https://www.audacy.com/kdkaradio/news/world/un-assembly-leaders-ai-trump-netanyahu-climate-c4727651b9030d6e7f81c0457a33440b"
+      },
+      {
+        "name": "World leaders meet at UN as their planet grapples with war, ",
+        "provider": "Times Union",
+        "type": "AI 项目/工具",
+        "bestFor": "UNITED NATIONS (AP) -- Under a global cloud of wars and bitter divisions, world leaders meet at the United Nations this week facing new fears that runaway artif",
+        "description": "UNITED NATIONS (AP) -- Under a global cloud of wars and bitter divisions, world leaders meet at the United Nations this week facing new fears that runaway artificial intelligence c",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Times Union",
+        "url": "https://www.timesunion.com/news/world/article/world-leaders-meet-at-un-as-their-planet-grapples-22441296.php"
+      },
+      {
+        "name": "World leaders meet at UN as their planet grapples with war, ",
+        "provider": "Audacy",
+        "type": "AI 项目/工具",
+        "bestFor": "UNITED NATIONS (AP) -- Under a global cloud of wars and bitter divisions, world leaders meet at the United Nations this week facing new fears that runaway artif",
+        "description": "UNITED NATIONS (AP) -- Under a global cloud of wars and bitter divisions, world leaders meet at the United Nations this week facing new fears that runaway artificial intelligence c",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Audacy",
+        "url": "https://www.audacy.com/talk1370/news/world/un-assembly-leaders-ai-trump-netanyahu-climate-c4727651b9030d6e7f81c0457a33440b"
+      },
+      {
+        "name": "World leaders meet at UN as their planet grapples with war, ",
+        "provider": "Audacy",
+        "type": "AI 项目/工具",
+        "bestFor": "UNITED NATIONS (AP) -- Under a global cloud of wars and bitter divisions, world leaders meet at the United Nations this week facing new fears that runaway artif",
+        "description": "UNITED NATIONS (AP) -- Under a global cloud of wars and bitter divisions, world leaders meet at the United Nations this week facing new fears that runaway artificial intelligence c",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Audacy",
+        "url": "https://www.audacy.com/kywnewsradio/news/world/un-assembly-leaders-ai-trump-netanyahu-climate-c4727651b9030d6e7f81c0457a33440b"
+      },
       {
         "name": "Parenting in the age of the Open Web and AI - Time to take b",
         "provider": "The Daily Herald",
@@ -6848,61 +6903,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Young Post Club",
         "url": "https://www.youngpostclub.com/yp/share-us/letters-editors/article/3367563/your-voice-can-do-robots-sbti-and-labels-balanced-diets-and-effects-ai-use-letters"
-      },
-      {
-        "name": "Gemini hacked 3 companies in first known breakout by Google'",
-        "provider": "Rappler",
-        "type": "AI 项目/工具",
-        "bestFor": "The hacks, which occurred in May during a cybersecurity test, were conducted by Irregular, an independent company that conducts cybersecurity evaluations\n\nGoogl",
-        "description": "The hacks, which occurred in May during a cybersecurity test, were conducted by Irregular, an independent company that conducts cybersecurity evaluations\n\nGoogle's Gemini model acc",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Rappler",
-        "url": "https://www.rappler.com/technology/gemini-hacked-companies-first-known-breakout-google-ai/"
-      },
-      {
-        "name": "Co-creating the future of fashion with Google",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Google worked side-by-side with designers Jane Wade and Sergio Hudson to custom-design Google Flow tools to prep for NYFW.",
-        "description": "Google worked side-by-side with designers Jane Wade and Sergio Hudson to custom-design Google Flow tools to prep for NYFW.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · Google AI Blog",
-        "url": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/"
-      },
-      {
-        "name": "Qwen 发布 Qwen3.8-LiveTranslate 实时同传模型，LAAL 降至 2.3 秒",
-        "provider": "Qwen：Blog Retrieval（API）",
-        "type": "AI 项目/工具",
-        "bestFor": "Qwen 发布 Qwen3.8-LiveTranslate，采用 Interleave 架构与 Hybrid-MoE Thinker-Talker 设计重构实时同声传译，平均滞后（LAAL）从上一代的 2.8 秒降至 2.3 秒。",
-        "description": "Qwen 发布 Qwen3.8-LiveTranslate，采用 Interleave 架构与 Hybrid-MoE Thinker-Talker 设计重构实时同声传译，平均滞后（LAAL）从上一代的 2.8 秒降至 2.3 秒。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Qwen：Blog Retrieval（API）",
-        "url": "https://qwen.ai/blog?id=qwen3.8-livetranslate"
-      },
-      {
-        "name": "These Are Hands-Down the Best Smartwatches for Android Users",
-        "provider": "Esquire",
-        "type": "AI 项目/工具",
-        "bestFor": "Compatible with all modern Android phones, these are the best from Samsung, Google, and Garmin.\n\nFor me, the Pixel Watch wins the honor of being the Apple Watch",
-        "description": "Compatible with all modern Android phones, these are the best from Samsung, Google, and Garmin.\n\nFor me, the Pixel Watch wins the honor of being the Apple Watch of Android. It's ea",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Esquire",
-        "url": "https://www.esquire.com/lifestyle/tech/g73774284/best-android-smartwatch/"
-      },
-      {
-        "name": "IDTA Members Invest Approximately INR 2,170 Crores Across 56",
-        "provider": "Sri Lanka Source",
-        "type": "AI 项目/工具",
-        "bestFor": "NewsVoir\n\nNew Delhi [India], September 18: Members of the India Deep Tech Alliance (IDTA) invested approximately INR 2,170 crores across 56 deep-tech companies ",
-        "description": "NewsVoir\n\nNew Delhi [India], September 18: Members of the India Deep Tech Alliance (IDTA) invested approximately INR 2,170 crores across 56 deep-tech companies between 1 September ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Sri Lanka Source",
-        "url": "https://www.srilankasource.com/news/279315410/idta-members-invest-approximately-inr-2170-crores-across-56-deep-tech-companies-in-alliance-first-year"
       }
     ],
     "ai-business": [
@@ -10202,7 +10202,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-21",
-    "generatedAt": "2026-09-21T03:14:58.455368Z",
+    "generatedAt": "2026-09-21T05:45:31.658134Z",
     "total": 23,
     "sections": [
       {
