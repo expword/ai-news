@@ -1,7 +1,62 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-22",
-  "generatedAt": "2026-09-21T18:18:57.423231Z",
+  "generatedAt": "2026-09-21T20:40:30.477834Z",
   "news": [
+    {
+      "title": "Amazon launches research initiative with Stanford University to advance AI and science",
+      "summary": "The collaboration aims to advance research while broadening participation and translating discovery into real-world solutions.",
+      "category": "ai-research",
+      "source": "RSS · Amazon Science",
+      "date": "2026-09-22",
+      "publishedAt": "2026-09-22T03:31",
+      "collectedAt": "2026-09-22T04:40",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://www.amazon.science/news/amazon-launches-research-initiative-with-stanford-university-to-advance-ai-and-science",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "xAI’s Grok 4.6 is now available in Amazon Bedrock",
+      "summary": "xAI's Grok 4.6 is now available in Amazon Bedrock: a frontier model for long-running agents, coding, and knowledge work, with a 500K token context window and four reasoning effort ",
+      "category": "ai-coding",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-22",
+      "publishedAt": "2026-09-22T02:30",
+      "collectedAt": "2026-09-22T03:28",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/xais-grok-4-6-is-now-available-in-amazon-bedrock/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Advancing AI for biology: Teaching models to design and characterize antibodies",
       "summary": "Three new papers from Amazon Bio Discovery address bottlenecks in AI-driven antibody engineering, from benchmarking binding predictors to experimentally validating de novo design.",
@@ -108,6 +163,34 @@ window.AI_GENERATED_DATA = {
       "aiSelected": true,
       "moduleTargets": [
         "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+      "summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
+      "category": "ai-image-video",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-09-21",
+      "publishedAt": "2026-09-21T20:00",
+      "collectedAt": "2026-09-22T04:40",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
       ],
       "sourceCount": 1
     },
@@ -2607,116 +2690,6 @@ window.AI_GENERATED_DATA = {
       "moduleTargets": [
         "news",
         "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "EEG-Xplain: Decoding Neural Black-Boxes of EEG Foundation Models",
-      "summary": "EEG foundation models such as BIOT, LaBraM, and EEGMamba have achieved remarkable performance in neural signal decoding, but their black-box nature limits clinical trust and neuros",
-      "category": "ai-coding",
-      "source": "arXiv",
-      "date": "2026-09-14",
-      "publishedAt": "",
-      "collectedAt": "2026-09-16T05:08",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-14",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.15687v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "New Conditions for Philosophers to Catch the Wave of Citizen Deliberation in the Age of Artificial Intelligence in advance",
-      "summary": "Powerful technologies labeled ``AI''-without sufficient epistemic caution-are already reshaping political and private life, bringing both new dangers and new opportunities for citi",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-14",
-      "publishedAt": "",
-      "collectedAt": "2026-09-16T05:08",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-14",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.15707v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Assembling the CREW: A Collaborative Multi-agent Reinforcement Learning Framework for Automated Related Work Generation",
-      "summary": "Automatic Related Work Generation (RWG) significantly reduces the human time and effort required to author the Related Work Section (RWS) of a research paper. However, prior method",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-09-14",
-      "publishedAt": "",
-      "collectedAt": "2026-09-16T05:08",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-14",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.15721v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Circuit-MLLM: Topological Logic-Guided Latent-Space Visual Reasoning for Circuit Schematic Understanding",
-      "summary": "Through pre-training on extensive text and image datasets, current multi-modal large language models (MLLMs) achieve strong performance on general tasks. However, circuit schematic",
-      "category": "ai-image-video",
-      "source": "arXiv",
-      "date": "2026-09-14",
-      "publishedAt": "",
-      "collectedAt": "2026-09-16T05:08",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-14",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.15668v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
       ],
       "sourceCount": 1
     }
@@ -5804,6 +5777,17 @@ window.AI_GENERATED_DATA = {
   "topicResources": {
     "ai-coding": [
       {
+        "name": "xAI’s Grok 4.6 is now available in Amazon Bedrock",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "xAI's Grok 4.6 is now available in Amazon Bedrock: a frontier model for long-running agents, coding, and knowledge work, with a 500K token context window and fo",
+        "description": "xAI's Grok 4.6 is now available in Amazon Bedrock: a frontier model for long-running agents, coding, and knowledge work, with a 500K token context window and four reasoning effort ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/xais-grok-4-6-is-now-available-in-amazon-bedrock/"
+      },
+      {
         "name": "Kimi 发布 Kimi Code Desktop 1.0，macOS 与 Windows 版同步上线",
         "provider": "公众号：月之暗面（Kimi）",
         "type": "AI 项目/工具",
@@ -6231,20 +6215,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2609.10412v1"
-      },
-      {
-        "name": "DeepSeek 发布 V4.1-Flash，大幅降低 AI Agent 的 KV cache 内存需求",
-        "provider": "The Decoder：AI News（RSS）",
-        "type": "AI 项目/工具",
-        "bestFor": "DeepSeek 发布多模态模型 V4.1-Flash，以 MIT 许可开源在 Hugging Face，目标是大幅压缩 KV cache 和长上下文处理成本。",
-        "description": "DeepSeek 发布多模态模型 V4.1-Flash，以 MIT 许可开源在 Hugging Face，目标是大幅压缩 KV cache 和长上下文处理成本。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Decoder：AI News（RSS）",
-        "url": "https://the-decoder.com/new-deepseek-model-v4-1-flash-cuts-memory-needs-for-ai-agents"
       }
     ],
     "ai-agents": [
+      {
+        "name": "Linear 重构 CI 流程应对 AI 编码带来的验证瓶颈，PR 等待时间从 6 分钟降至 5 分钟",
+        "provider": "Linear：Now（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "Linear 工程师分享如何解决 AI Agent 加速写代码后 CI 成为瓶颈的问题，PR 等待时间从 6 分钟以上降至 5 分钟出头，单测 runner 时间约减半。",
+        "description": "Linear 工程师分享如何解决 AI Agent 加速写代码后 CI 成为瓶颈的问题，PR 等待时间从 6 分钟以上降至 5 分钟出头，单测 runner 时间约减半。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Linear：Now（RSS）",
+        "url": "https://linear.app/now/ci-bottleneck-reworked"
+      },
       {
         "name": "Tomer Tunguz 谈 AI 优化 if-then 判断：专用决策器把分类成本降近百倍",
         "provider": "Tomer Tunguz 博客（VC 分析）",
@@ -6673,17 +6657,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "NewsBytes",
         "url": "https://www.newsbytesapp.com/news/science/meta-s-muse-tops-us-app-store-after-beating-chatgpt/story"
-      },
-      {
-        "name": "Google AI Agent CC Helps Families Run Their Households - Tek",
-        "provider": "Tektcia",
-        "type": "AI 项目/工具",
-        "bestFor": "Google is testing a new product designed to help families coordinate with the support of an AI agent. This week, the search giant introduced a new version of CC",
-        "description": "Google is testing a new product designed to help families coordinate with the support of an AI agent. This week, the search giant introduced a new version of CC, a Google AI agent ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Tektcia",
-        "url": "https://tekticia.com/google-ai-agent-cc-helps-families-run-their-households/"
       }
     ],
     "ai-models": [
@@ -8127,6 +8100,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-image-video": [
       {
+        "name": "Higgsfield AI ships new video features in a day with GPT-6 A",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
+        "description": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · OpenAI Blog",
+        "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra"
+      },
+      {
         "name": "Qwen 开源 Qwen-Image-2.1：7B 统一生成与编辑并原生支持透明图像",
         "provider": "Qwen：Blog Retrieval（API）",
         "type": "AI 项目/工具",
@@ -8558,23 +8542,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "South China Morning Post",
         "url": "https://www.scmp.com/video/china/3363889/beijing-bar-serves-customers-drinks-and-access-ai-models"
-      },
-      {
-        "name": "2026 年最佳 AI 换脸视频工具评测：质量、速度与价格对比",
-        "provider": "Techloy",
-        "type": "AI 项目/工具",
-        "bestFor": "Overchat 的出现为内容创作者提供了更高效的换脸解决方案，尤其适合需要快速生成视频的用户。对于专注于换脸的用户，Deepswap 提供了稳定的质量，尽管需要付费。Vidnoz 则为 casual 用户提供了一个简单易用的选择，适合快速制作短视频。Akool 的企业定位则为市场营销团队提供了强大的功能，而 Pica",
-        "description": "这次发布的核心点是 2026 年最佳 AI 换脸视频工具的评测，Overchat 凭借其快速、清晰的换脸效果脱颖而出。该工具在保持原视频运动和光照的同时，能够在一分钟内完成换脸，适合各种平台使用。Deepswap、Vidnoz、Akool 和 Pica AI 也各有特色，适合不同需求的用户。",
-        "useCases": [
-          "使用 Overchat 制作短视频，快速生成高质量的换脸效果，适合社交媒体发布。",
-          "利用 Deepswap 的模板库，创建稳定的换脸 GIF，适合日常使用。",
-          "在 Vidnoz 上快速制作轻松的换脸视频，适合临时项目或娱乐用途。",
-          "通过 Akool 为企业营销活动制作专业的换脸视频，提升品牌形象。",
-          "使用 Pica AI 在手机上快速编辑换脸视频，方便随时随地分享。"
-        ],
-        "watch": "Overchat 的免费版本可能会限制视频长度和功能，用户需注意使用限制。",
-        "sourceName": "Techloy",
-        "url": "https://www.techloy.com/best-ai-face-swap-video-tools-in-2026-quality-speed-and-price-compared/"
       }
     ],
     "ai-research": [
@@ -10425,13 +10392,24 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-22",
-    "generatedAt": "2026-09-21T18:18:57.402264Z",
-    "total": 11,
+    "generatedAt": "2026-09-21T20:40:30.455735Z",
+    "total": 14,
     "sections": [
       {
         "category": "ai-coding",
         "label": "AI 编程",
         "items": [
+          {
+            "title": "xAI’s Grok 4.6 is now available in Amazon Bedrock",
+            "summary": "xAI's Grok 4.6 is now available in Amazon Bedrock: a frontier model for long-running agents, coding, and knowledge work, with a 500K token c",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/xais-grok-4-6-is-now-available-in-amazon-bedrock/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-22",
+            "publishedAt": "2026-09-22T02:30",
+            "reason": ""
+          },
           {
             "title": "tokenizers v1: encode, decode and scaling, measured",
             "summary": "",
@@ -10441,6 +10419,23 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-09-21",
             "publishedAt": "2026-09-21T08:00",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "category": "ai-image-video",
+        "label": "图像视频",
+        "items": [
+          {
+            "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+            "summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-21",
+            "publishedAt": "2026-09-21T20:00",
             "reason": ""
           }
         ]
@@ -10560,6 +10555,17 @@ window.AI_GENERATED_DATA = {
         "category": "ai-research",
         "label": "论文研究",
         "items": [
+          {
+            "title": "Amazon launches research initiative with Stanford University to advance AI and science",
+            "summary": "The collaboration aims to advance research while broadening participation and translating discovery into real-world solutions.",
+            "source": "RSS · Amazon Science",
+            "url": "https://www.amazon.science/news/amazon-launches-research-initiative-with-stanford-university-to-advance-ai-and-science",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-22",
+            "publishedAt": "2026-09-22T03:31",
+            "reason": ""
+          },
           {
             "title": "Improving synthesis prediction of small molecules at scale with RetroChimera",
             "summary": "Custom-made molecules are advancing medicine, materials, and agriculture, but producing them is slow and expensive. A new Nature paper highl",
