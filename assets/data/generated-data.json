@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-21",
-  "generatedAt": "2026-09-21T09:35:03.453392Z",
+  "generatedAt": "2026-09-21T13:26:58.616032Z",
   "news": [
     {
       "title": "MilleMiglia: A realistic instance generator for middle-mile logistics",
@@ -5406,6 +5406,21 @@
       "date": "2026-08-05"
     },
     {
+      "name": "QwenLM/Qwen-Live-Harness",
+      "lang": "TypeScript",
+      "description": "An open-source agent harness powered by the Qwen Omni Realtime API—see, hear, and act, with built-in memory.",
+      "stars": "11 stars",
+      "why": "国产大模型厂商 通义千问 Qwen 的最新开源动态/模型发布，属一手信源。",
+      "url": "https://github.com/QwenLM/Qwen-Live-Harness",
+      "source": "GitHub · 通义千问 Qwen",
+      "tier": "T1",
+      "category": "Coding Agent",
+      "details": "An open-source agent harness powered by the Qwen Omni Realtime API—see, hear, and act, with built-in memory.",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
       "name": "zai-org/ZCode",
       "lang": "TypeScript",
       "description": "Z.ai's coding agent harness. Powerful, intelligent, extensible.",
@@ -5446,21 +5461,6 @@
       "tier": "T1",
       "category": "Coding Agent",
       "details": "通义千问 Qwen 开源项目。",
-      "features": [],
-      "useCases": [],
-      "quickStart": []
-    },
-    {
-      "name": "MiniMax-AI/MiniMax-Code-MiniApps",
-      "lang": "HTML",
-      "description": "MiniMax 开源项目。",
-      "stars": "5 stars",
-      "why": "国产大模型厂商 MiniMax 的最新开源动态/模型发布，属一手信源。",
-      "url": "https://github.com/MiniMax-AI/MiniMax-Code-MiniApps",
-      "source": "GitHub · MiniMax",
-      "tier": "T1",
-      "category": "Coding Agent",
-      "details": "MiniMax 开源项目。",
       "features": [],
       "useCases": [],
       "quickStart": []
@@ -6023,6 +6023,39 @@
     ],
     "ai-agents": [
       {
+        "name": "Securing AI Agents Requires More Than One-Time Risk Assessme",
+        "provider": "TechNadu",
+        "type": "AI 项目/工具",
+        "bestFor": "Rohit Valia, Founder and CEO of Tumeryk, discusses securing AI systems and agents, from Shadow AI and data exposure to agent permissions, excessive agency, guar",
+        "description": "Rohit Valia, Founder and CEO of Tumeryk, discusses securing AI systems and agents, from Shadow AI and data exposure to agent permissions, excessive agency, guardrail testing, and c",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "TechNadu",
+        "url": "https://www.technadu.com/securing-ai-agents-requires-more-than-a-one-time-risk-assessment/638233/"
+      },
+      {
+        "name": "Vitalik Buterin Says His 90% Crypto Bet Is a Bet Against AI ",
+        "provider": "Memeburn",
+        "type": "AI 项目/工具",
+        "bestFor": "Software security has no shared reference for what \"secure\" means, and AI agents have repeatedly satisfied checkers while missing the intended property, which t",
+        "description": "Software security has no shared reference for what \"secure\" means, and AI agents have repeatedly satisfied checkers while missing the intended property, which turns the specificati",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Memeburn",
+        "url": "https://memeburn.com/vitalik-buterin-says-his-90-crypto-bet-is-a-bet-against-ai-hackers/"
+      },
+      {
+        "name": "Intel (INTC) Stock Surges 6% on Meta Muse Demand and AUO Pac",
+        "provider": "Blockonomi",
+        "type": "AI 项目/工具",
+        "bestFor": "* Intel shares climbed approximately 6% during Monday's premarket session, continuing a robust recovery trend from the previous week.\n\n* Meta's newly launched M",
+        "description": "* Intel shares climbed approximately 6% during Monday's premarket session, continuing a robust recovery trend from the previous week.\n\n* Meta's newly launched Muse AI agent is gene",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Blockonomi",
+        "url": "https://blockonomi.com/intel-intc-stock-surges-6-on-meta-muse-demand-and-auo-packaging-news/"
+      },
+      {
         "name": "HUAWEI CONNECT 2026 | Huawei Upgrades Stellar AI Fabric Solu",
         "provider": "Malaysia Sun",
         "type": "AI 项目/工具",
@@ -6428,42 +6461,53 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Gary Marcus：The Road to AI We Can Trust（RSS）",
         "url": "https://garymarcus.substack.com/p/wake-up-people-what-we-should-actually"
-      },
-      {
-        "name": "The new AgentCore runtime: Elastic, optimized, and consisten",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Today we are announcing the new AgentCore runtime, a capability of Amazon Bedrock AgentCore built for the speed, flexibility, and cost efficiency that productio",
-        "description": "Today we are announcing the new AgentCore runtime, a capability of Amazon Bedrock AgentCore built for the speed, flexibility, and cost efficiency that production agents demand. It ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/the-new-agentcore-runtime-elastic-optimized-and-consistently-fast-starts/"
-      },
-      {
-        "name": "Migrating multi-model AI agents to Amazon Bedrock AgentCore ",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Migrate a multi-model healthcare AI agent from self-managed Amazon ECS with AWS Fargate to Amazon Bedrock AgentCore runtime, preserving triple-model orchestrati",
-        "description": "Migrate a multi-model healthcare AI agent from self-managed Amazon ECS with AWS Fargate to Amazon Bedrock AgentCore runtime, preserving triple-model orchestration and vector-enhanc",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/migrating-multi-model-ai-agents-to-amazon-bedrock-agentcore-runtime/"
-      },
-      {
-        "name": "Justin Cormack 用 35 万行 Rust 复盘 AI Agent 评估：从证据开始",
-        "provider": "Tessl：产品与工程博客",
-        "type": "AI 项目/工具",
-        "bestFor": "Tessl 发布的这篇博客复盘作者用 AI 构建约 35 万行 Rust 的 S3 兼容对象存储的实验。",
-        "description": "Tessl 发布的这篇博客复盘作者用 AI 构建约 35 万行 Rust 的 S3 兼容对象存储的实验。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Tessl：产品与工程博客",
-        "url": "https://tessl.io/blog/ai-agent-evaluation-starts-with-evidence"
       }
     ],
     "ai-models": [
+      {
+        "name": "'Rethinking the laptop is a big undertaking' -- why Googlebo",
+        "provider": "TechRadar",
+        "type": "AI 项目/工具",
+        "bestFor": "I spent quite a bit of this year wondering about Googlebooks. After Google announced them in May, things got a little quiet, and I noticed that when I was at th",
+        "description": "I spent quite a bit of this year wondering about Googlebooks. After Google announced them in May, things got a little quiet, and I noticed that when I was at the huge Computex 2026",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "TechRadar",
+        "url": "https://www.techradar.com/computing/laptops/rethinking-the-laptop-is-a-big-undertaking-why-googlebooks-are-so-much-more-than-overpriced-chromebooks-and-apple-should-be-worried"
+      },
+      {
+        "name": "M6 Mac Mini First Look: Bigger Power Packed in the Same Smal",
+        "provider": "CNET",
+        "type": "AI 项目/工具",
+        "bestFor": "Matt Elliott is a senior editor at CNET with a focus on laptops and streaming services.... Read full bio\n\nThe M6 update for the Mac Mini arrived not a moment to",
+        "description": "Matt Elliott is a senior editor at CNET with a focus on laptops and streaming services.... Read full bio\n\nThe M6 update for the Mac Mini arrived not a moment too soon. Not only has",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "CNET",
+        "url": "https://www.cnet.com/tech/computing/m6-mac-mini-first-look-bigger-power-packed-in-same-small-package/"
+      },
+      {
+        "name": "Gemini helps Bengaluru CEO draft complaint after road-rage i",
+        "provider": "Economic Times",
+        "type": "AI 项目/工具",
+        "bestFor": "Gemini (Google Trends): Bengaluru CEO Siddharth Dialani said Google's Gemini helped him draft a police complaint after an alleged road-rage incident involving a",
+        "description": "Gemini (Google Trends): Bengaluru CEO Siddharth Dialani said Google's Gemini helped him draft a police complaint after an alleged road-rage incident involving a biker. He said the ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Economic Times",
+        "url": "https://economictimes.indiatimes.com/news/new-updates/gemini-helps-bengaluru-ceo-draft-complaint-after-road-rage-incident-what-happens-next-stuns-netizens/articleshow/134388264.cms"
+      },
+      {
+        "name": "Top Artificial Intelligence Project Ideas for Students",
+        "provider": "Analytics Insight",
+        "type": "AI 项目/工具",
+        "bestFor": "A project becomes more valuable when every technical feature has a clear purpose. A resume analyzer should solve a resume problem. A study assistant should answ",
+        "description": "A project becomes more valuable when every technical feature has a clear purpose. A resume analyzer should solve a resume problem. A study assistant should answer course questions ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Analytics Insight",
+        "url": "https://www.analyticsinsight.net/artificial-intelligence/top-artificial-intelligence-project-ideas-for-students"
+      },
       {
         "name": "AI Search Tools Need More Than Speed. These 3 Factors Separa",
         "provider": "Inc.",
@@ -6859,50 +6903,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Manila Metro",
         "url": "https://www.manilametro.com/news/279316823/ai-could-double-us-gdp-growth-to-4-next-year-amid-capital-hurdles-says-elon-musk"
-      },
-      {
-        "name": "Google Gemini Hacked Three Companies During An AI Security T",
-        "provider": "NDTV Profit",
-        "type": "AI 项目/工具",
-        "bestFor": "Gemini AI accidentally breached 3 real companies during security test\n\nGoogle's Gemini AI model accidentally broke into the security systems of three real compa",
-        "description": "Gemini AI accidentally breached 3 real companies during security test\n\nGoogle's Gemini AI model accidentally broke into the security systems of three real companies during a cybers",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NDTV Profit",
-        "url": "https://www.ndtvprofit.com/technology/google-gemini-hacked-three-companies-during-an-ai-security-test-heres-what-happened-12067423"
-      },
-      {
-        "name": "Samsung Brings Gemini AI to Family Hub Fridge, Launches New ",
-        "provider": "Analytics Insight",
-        "type": "AI 项目/工具",
-        "bestFor": "Samsung expanded its AI-powered home appliance portfolio in India with its 2026 Bespoke AI lineup. The company unveiled the new range during 'The Brief Gurugram",
-        "description": "Samsung expanded its AI-powered home appliance portfolio in India with its 2026 Bespoke AI lineup. The company unveiled the new range during 'The Brief Gurugram' event, bringing ar",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Analytics Insight",
-        "url": "https://www.analyticsinsight.net/news/samsung-brings-gemini-ai-to-family-hub-fridge-launches-new-bespoke-acs-in-india"
-      },
-      {
-        "name": "Did Google's Gemini AI Just Hack Three Real Companies? Here'",
-        "provider": "Mashable India",
-        "type": "AI 项目/工具",
-        "bestFor": "Google Gemini AI hacked three real companies during an internet-enabled cybersecurity test in May, but reportedly stopped on its own before causing damage.\n\nGoo",
-        "description": "Google Gemini AI hacked three real companies during an internet-enabled cybersecurity test in May, but reportedly stopped on its own before causing damage.\n\nGoogle's Gemini AI mode",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Mashable India",
-        "url": "https://in.mashable.com/tech/114086/did-googles-gemini-ai-just-hack-three-real-companies-heres-what-happened"
-      },
-      {
-        "name": "Trump rejects AI giants' warnings of existential threat",
-        "provider": "nuclear-news",
-        "type": "AI 项目/工具",
-        "bestFor": "Trump rejects AI giants' warnings of existential threat\n\nThe US president has argued that Washington cannot afford to slow down as China is rapidly closing the ",
-        "description": "Trump rejects AI giants' warnings of existential threat\n\nThe US president has argued that Washington cannot afford to slow down as China is rapidly closing the technological gap\n\n1",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "nuclear-news",
-        "url": "https://nuclear-news.net/2026/09/19/2-b1-trump-rejects-ai-giants-warnings-of-existential-threat/"
       }
     ],
     "ai-business": [
@@ -10202,7 +10202,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-21",
-    "generatedAt": "2026-09-21T09:35:03.432420Z",
+    "generatedAt": "2026-09-21T13:26:58.594056Z",
     "total": 23,
     "sections": [
       {
