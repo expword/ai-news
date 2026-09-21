@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-21",
-  "generatedAt": "2026-09-21T00:40:26.668620Z",
+  "generatedAt": "2026-09-21T03:14:58.477404Z",
   "news": [
     {
       "title": "MilleMiglia: A realistic instance generator for middle-mile logistics",
@@ -2499,6 +2499,13 @@
     }
   ],
   "weeklyDigests": [
+    {
+      "weekId": "2026-W39",
+      "label": "2026-09-21 ~ 2026-09-21",
+      "summary": "本周自动收集 GitHub 项目 0 个、Skill 候选 0 条、新闻 0 条，全部由 LLM 并发整理为中文条目。",
+      "skills": [],
+      "github": []
+    },
     {
       "weekId": "2026-W37",
       "label": "2026-09-07 ~ 2026-09-07",
@@ -6016,6 +6023,17 @@
     ],
     "ai-agents": [
       {
+        "name": "Google Gemini allegedly hacked three companies on its own",
+        "provider": "Mashable ME",
+        "type": "AI 项目/工具",
+        "bestFor": "Google's signature AI agent did something it probably shouldn't have, and Google opted not to mention it for months. The Wall Street Journal reported that, duri",
+        "description": "Google's signature AI agent did something it probably shouldn't have, and Google opted not to mention it for months. The Wall Street Journal reported that, during a test run by a c",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Mashable ME",
+        "url": "https://me.mashable.com/tech/76274/google-gemini-allegedly-hacked-three-companies-on-its-own"
+      },
+      {
         "name": "Tempus Secures Up To $9.5 Million From ARPA-H To Develop Aut",
         "provider": "Pulse 2.0",
         "type": "AI 项目/工具",
@@ -6443,17 +6461,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "International Business Times, Singapore Edition",
         "url": "https://www.ibtimes.sg/ai-agent-found-its-own-client-sold-work-got-paid-who-responsible-this-93900"
-      },
-      {
-        "name": "Agentic Marketing And Brand Safety: What Decision-Makers Nee",
-        "provider": "Forbes",
-        "type": "AI 项目/工具",
-        "bestFor": "The marketing industry is rapidly transitioning to agentic marketing, with major brands deploying new AI-powered tools or companies developing them in-house. Th",
-        "description": "The marketing industry is rapidly transitioning to agentic marketing, with major brands deploying new AI-powered tools or companies developing them in-house. These advanced agents ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Forbes",
-        "url": "https://www.forbes.com/sites/ray-fernandez/2026/09/17/agentic-marketing-and-brand-safety-what-decision-makers-need-to-know/"
       }
     ],
     "ai-models": [
@@ -8349,6 +8356,17 @@
     ],
     "ai-research": [
       {
+        "name": "61% vs. 26%: The number behind the real US-China AI divide",
+        "provider": "news.cgtn.com",
+        "type": "AI 项目/工具",
+        "bestFor": "Editor's note: Tian Feng is the dean of Thinking Fast and Slow Research Institute, an independent AI think tank. The article reflects the author's opinions and ",
+        "description": "Editor's note: Tian Feng is the dean of Thinking Fast and Slow Research Institute, an independent AI think tank. The article reflects the author's opinions and not necessarily the ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "news.cgtn.com",
+        "url": "https://news.cgtn.com/news/2026-09-21/61-vs-26-The-number-behind-the-real-US-China-AI-divide-1QC06kjnCtG/p.html"
+      },
+      {
         "name": "RSA-896 factored with AI assistance, pushing the public reco",
         "provider": "Crypto Briefing",
         "type": "AI 项目/工具",
@@ -8776,17 +8794,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2609.01563v1"
-      },
-      {
-        "name": "Firm launches in Nigeria to drive strategic execution",
-        "provider": "Punch Newspapers",
-        "type": "AI 项目/工具",
-        "bestFor": "Management consulting firm, DAC Consulting, has officially commenced operations in Nigeria, unveiling an integrated 360-degree approach to help organisations br",
-        "description": "Management consulting firm, DAC Consulting, has officially commenced operations in Nigeria, unveiling an integrated 360-degree approach to help organisations bridge the critical ga",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Punch Newspapers",
-        "url": "https://punchng.com/firm-launches-in-nigeria-to-drive-strategic-execution/"
       }
     ],
     "ai-office": []
@@ -10195,7 +10202,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-21",
-    "generatedAt": "2026-09-21T00:40:26.648651Z",
+    "generatedAt": "2026-09-21T03:14:58.455368Z",
     "total": 23,
     "sections": [
       {
