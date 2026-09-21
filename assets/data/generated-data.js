@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-21",
-  "generatedAt": "2026-09-20T17:38:45.589371Z",
+  "generatedAt": "2026-09-21T00:40:26.668620Z",
   "news": [
     {
       "title": "MilleMiglia: A realistic instance generator for middle-mile logistics",
@@ -5399,6 +5399,21 @@ window.AI_GENERATED_DATA = {
       "date": "2026-08-05"
     },
     {
+      "name": "zai-org/ZCode",
+      "lang": "TypeScript",
+      "description": "Z.ai's coding agent harness. Powerful, intelligent, extensible.",
+      "stars": "7 stars",
+      "why": "国产大模型厂商 智谱 Z.ai 的最新开源动态/模型发布，属一手信源。",
+      "url": "https://github.com/zai-org/ZCode",
+      "source": "GitHub · 智谱 Z.ai",
+      "tier": "T1",
+      "category": "Coding Agent",
+      "details": "Z.ai's coding agent harness. Powerful, intelligent, extensible.",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
       "name": "QwenLM/Qwen-Image-2.1",
       "lang": "Python",
       "description": "Qwen's most powerful open-source image generation model",
@@ -5439,21 +5454,6 @@ window.AI_GENERATED_DATA = {
       "tier": "T1",
       "category": "Coding Agent",
       "details": "MiniMax 开源项目。",
-      "features": [],
-      "useCases": [],
-      "quickStart": []
-    },
-    {
-      "name": "Tencent-Hunyuan/AuK",
-      "lang": "Python",
-      "description": "AuK: An Open-Source Foundational Model for Speech Generation and Editing",
-      "stars": "1135 stars",
-      "why": "国产大模型厂商 腾讯混元 的最新开源动态/模型发布，属一手信源。",
-      "url": "https://github.com/Tencent-Hunyuan/AuK",
-      "source": "GitHub · 腾讯混元",
-      "tier": "T1",
-      "category": "Coding Agent",
-      "details": "AuK: An Open-Source Foundational Model for Speech Generation and Editing",
       "features": [],
       "useCases": [],
       "quickStart": []
@@ -6458,6 +6458,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-models": [
       {
+        "name": "Parenting in the age of the Open Web and AI - Time to take b",
+        "provider": "The Daily Herald",
+        "type": "AI 项目/工具",
+        "bestFor": "This is my heart-wrenching experience that I firmly believe I need to share.\n\nWe often tell ourselves that our children are safe because they are home. They are",
+        "description": "This is my heart-wrenching experience that I firmly believe I need to share.\n\nWe often tell ourselves that our children are safe because they are home. They are in their bedrooms. ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Daily Herald",
+        "url": "https://www.thedailyherald.sx/opinion/letter-to-the-editor/parenting-in-the-age-of-the-open-web-and-ai-time-to-take-back-control-is-now"
+      },
+      {
         "name": "Why It Feels So Hard to Give a Sh*t Right Now, According to ",
         "provider": "Men's Health",
         "type": "AI 项目/工具",
@@ -6885,20 +6896,42 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Sri Lanka Source",
         "url": "https://www.srilankasource.com/news/279315410/idta-members-invest-approximately-inr-2170-crores-across-56-deep-tech-companies-in-alliance-first-year"
-      },
-      {
-        "name": "Samsung Launches 2026 Bespoke AI Appliances in India to Tran",
-        "provider": "Gizbot",
-        "type": "AI 项目/工具",
-        "bestFor": "Samsung India has expanded its connected home play with the 2026 Bespoke AI appliances lineup, bringing AI features to refrigerators, air conditioners and laund",
-        "description": "Samsung India has expanded its connected home play with the 2026 Bespoke AI appliances lineup, bringing AI features to refrigerators, air conditioners and laundry products. The lau",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Gizbot",
-        "url": "https://www.gizbot.com/gadgets/news/samsung-launches-2026-bespoke-ai-appliances-india-transform-your-home-into-a-genius-assistant-014-128625.html"
       }
     ],
     "ai-business": [
+      {
+        "name": "China's AI makes a great leap forward. But its economy is fa",
+        "provider": "NZ Herald",
+        "type": "AI 项目/工具",
+        "bestFor": "Those assessments of the artificial intelligence rivalry appeared in United States publications recently, and Xi Jinping will be pleased to have them in the air",
+        "description": "Those assessments of the artificial intelligence rivalry appeared in United States publications recently, and Xi Jinping will be pleased to have them in the air as he arrives in Wa",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NZ Herald",
+        "url": "https://www.nzherald.co.nz/business/chinas-ai-makes-a-great-leap-forward-but-its-economy-is-falling-behind/premium/P2DYD7IWPRD3NEKFEHLSDQ7Z6I/"
+      },
+      {
+        "name": "Academic Fellowship of CIPD Recognition for Alim Abubakre St",
+        "provider": "THISDAYLIVE",
+        "type": "AI 项目/工具",
+        "bestFor": "At a time when artificial intelligence is reshaping work, geopolitics is altering markets and public confidence in institutions is under pressure, the quality o",
+        "description": "At a time when artificial intelligence is reshaping work, geopolitics is altering markets and public confidence in institutions is under pressure, the quality of leadership matters",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "THISDAYLIVE",
+        "url": "https://www.thisdaylive.com/2026/09/21/academic-fellowship-of-cipd-recognition-for-alim-abubakre-strengthens-push-for-better-leadership-stronger-institutions/"
+      },
+      {
+        "name": "Neosapience Shares Surge 207% on First Day of KOSDAQ Listing",
+        "provider": "조선일보",
+        "type": "AI 项目/工具",
+        "bestFor": "AI Voice Company's Debut Driven by High Subscription Demand and Reduced Tradable Shares\n\nNeosapience, an AI voice generation company, has shown strong performan",
+        "description": "AI Voice Company's Debut Driven by High Subscription Demand and Reduced Tradable Shares\n\nNeosapience, an AI voice generation company, has shown strong performance on its first day ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "조선일보",
+        "url": "https://www.chosun.com/english/market-money-en/2026/09/21/SXPDXZZEEVB2JIPLFLM3DARHOE/"
+      },
       {
         "name": "Meta AI Overtakes ChatGPT On US App Store: Here's What Happe",
         "provider": "bizzbuzz.news",
@@ -7305,39 +7338,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "TimesNow",
         "url": "https://www.timesnownews.com/lifestyle/books/what-happens-to-books-when-ai-does-the-reading-for-us-article-156130419"
-      },
-      {
-        "name": "META: Apple Ultra-Luxury Foldable iPhone Aims Past Samsung, ",
-        "provider": "Stocktwits",
-        "type": "AI 项目/工具",
-        "bestFor": "* HSBC also expects Apple to raise iPhone prices by at least $100, citing higher memory costs and the company's pricing power.\n\n* Needham maintained a 'Hold' ra",
-        "description": "* HSBC also expects Apple to raise iPhone prices by at least $100, citing higher memory costs and the company's pricing power.\n\n* Needham maintained a 'Hold' rating ahead of Apple'",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Stocktwits",
-        "url": "https://stocktwits.com/news-articles/markets/equity/apple-ultra-luxury-foldable-i-phone-aims-past-samsung-says-analyst/cZt7RsIRJzP"
-      },
-      {
-        "name": "Apple's Foldable iPhone Could Become The 'Birkin Of Smartpho",
-        "provider": "Asianet News Network Pvt Ltd",
-        "type": "AI 项目/工具",
-        "bestFor": "Apple is expected to unveil its first foldable iPhone Wednesday, with the device reportedly starting at about $2,199.\n\n* HSBC also expects Apple to raise iPhone",
-        "description": "Apple is expected to unveil its first foldable iPhone Wednesday, with the device reportedly starting at about $2,199.\n\n* HSBC also expects Apple to raise iPhone prices by at least ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Asianet News Network Pvt Ltd",
-        "url": "https://newsable.asianetnews.com/markets/apple-s-foldable-iphone-could-become-the-birkin-of-smartphones-in-china-analyst-says-but-others-think-the-odds-are-4-to-1-against-the-company-articleshow-4d40tpa"
-      },
-      {
-        "name": "OpenAI deepens Samsung ties on chips, enterprise AI",
-        "provider": "@businessline",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenAI is deepening cooperation with Samsung Electronics on next-generation chips and enterprise AI as businesses in South Korea rapidly expand their use of art",
-        "description": "OpenAI is deepening cooperation with Samsung Electronics on next-generation chips and enterprise AI as businesses in South Korea rapidly expand their use of artificial intelligence",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "@businessline",
-        "url": "https://www.thehindubusinessline.com/info-tech/openai-deepens-cooperation-with-samsung-on-chips-and-enterprise-ai/article71445950.ece"
       }
     ],
     "ai-benchmark": [
@@ -10195,7 +10195,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-21",
-    "generatedAt": "2026-09-20T17:38:45.565360Z",
+    "generatedAt": "2026-09-21T00:40:26.648651Z",
     "total": 23,
     "sections": [
       {
