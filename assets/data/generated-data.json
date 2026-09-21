@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-21",
-  "generatedAt": "2026-09-21T08:19:32.701452Z",
+  "generatedAt": "2026-09-21T09:35:03.453392Z",
   "news": [
     {
       "title": "MilleMiglia: A realistic instance generator for middle-mile logistics",
@@ -5581,6 +5581,17 @@
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Kimi 发布 Kimi Code Desktop 1.0，macOS 与 Windows 版同步上线",
+        "provider": "公众号：月之暗面（Kimi）",
+        "type": "AI 项目/工具",
+        "bestFor": "Kimi（月之暗面）发布 Kimi Code Desktop 1.0，作为 Kimi Code 官方桌面客户端，macOS（Apple 与 Intel 芯片）和 Windows 版同步上线，下载地址为 kimi.com/code。",
+        "description": "Kimi（月之暗面）发布 Kimi Code Desktop 1.0，作为 Kimi Code 官方桌面客户端，macOS（Apple 与 Intel 芯片）和 Windows 版同步上线，下载地址为 kimi.com/code。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "公众号：月之暗面（Kimi）",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzkzMTY4NTIyNA%3D%3D&mid=2247484344&idx=1&sn=047cf702ff02ab334e3ea2ba8e34b4a6"
+      },
+      {
         "name": "10 Best AI Tools for Developers in 2026 - Memeburn",
         "provider": "Memeburn",
         "type": "AI 项目/工具",
@@ -6008,20 +6019,42 @@
         "watch": "请打开原始来源核对",
         "sourceName": "The Decoder：AI News（RSS）",
         "url": "https://the-decoder.com/new-deepseek-model-v4-1-flash-cuts-memory-needs-for-ai-agents"
-      },
-      {
-        "name": "DeepSeek 发布 V4.1-Flash：新 Causal Encoder-Decoder 架构，带原生视觉理解",
-        "provider": "X：Kim (@kimmonismus)",
-        "type": "AI 项目/工具",
-        "bestFor": "DeepSeek 发布 V4.1-Flash，采用新 Causal Encoder-Decoder 架构并支持原生视觉理解，为其新架构家族中最小模型。该模型为 552B 参数 MoE，输入处理激活 8B、输出生成激活 16B；KV cache 需求较上一代降至 HBM 的 1/4、SSD 存储的 1/8，API 价格更",
-        "description": "DeepSeek 发布 V4.1-Flash，采用新 Causal Encoder-Decoder 架构并支持原生视觉理解，为其新架构家族中最小模型。该模型为 552B 参数 MoE，输入处理激活 8B、输出生成激活 16B；KV cache 需求较上一代降至 HBM 的 1/4、SSD 存储的 1/8，API 价格更低。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "X：Kim (@kimmonismus)",
-        "url": "https://x.com/kimmonismus/status/2097962333767102665"
       }
     ],
     "ai-agents": [
+      {
+        "name": "HUAWEI CONNECT 2026 | Huawei Upgrades Stellar AI Fabric Solu",
+        "provider": "Malaysia Sun",
+        "type": "AI 项目/工具",
+        "bestFor": "SHANGHAI, Sept. 21, 2026 /PRNewswire/ -- At HUAWEI CONNECT 2026, Huawei hosted the AI DC Innovation Summit themed \"Leading AI DC Innovation, Shaping the Agentic",
+        "description": "SHANGHAI, Sept. 21, 2026 /PRNewswire/ -- At HUAWEI CONNECT 2026, Huawei hosted the AI DC Innovation Summit themed \"Leading AI DC Innovation, Shaping the Agentic World,\" convening o",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Malaysia Sun",
+        "url": "https://www.malaysiasun.com/news/279320490/huawei-connect-2026-huawei-upgrades-stellar-ai-fabric-solution-to-build-efficient-ai-computing-production-networks"
+      },
+      {
+        "name": "Akamai (AKAM) Wants to Be the Bouncer for Your AI Agents",
+        "provider": "Yahoo! Finance",
+        "type": "AI 项目/工具",
+        "bestFor": "On September 10, Akamai Technologies (NASDAQ:AKAM) expanded its work with integration platform MuleSoft to help companies spot the hidden APIs and AI agent conn",
+        "description": "On September 10, Akamai Technologies (NASDAQ:AKAM) expanded its work with integration platform MuleSoft to help companies spot the hidden APIs and AI agent connections that leave d",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Yahoo! Finance",
+        "url": "https://finance.yahoo.com/technology/ai/articles/akamai-akam-wants-bouncer-ai-042559212.html"
+      },
+      {
+        "name": "Your AI agent may have made the decision, but your company o",
+        "provider": "CIO",
+        "type": "AI 项目/工具",
+        "bestFor": "Gartner says 40% of enterprise apps will embed AI agents by 2026. Your auditors are going to hate it. endif; ?>\n\nDuring a recent architecture review with a clie",
+        "description": "Gartner says 40% of enterprise apps will embed AI agents by 2026. Your auditors are going to hate it. endif; ?>\n\nDuring a recent architecture review with a client, I asked their le",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "CIO",
+        "url": "https://www.cio.com/article/4223955/your-ai-agent-may-have-made-the-decision-but-your-company-owns-the-risk.html"
+      },
       {
         "name": "Turns Out Testing is Hard | Quality Remarks Keith Klain",
         "provider": "Quality Remarks - Reflections on a career trying to make software suck less . . .",
@@ -6428,42 +6461,20 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Tessl：产品与工程博客",
         "url": "https://tessl.io/blog/ai-agent-evaluation-starts-with-evidence"
-      },
-      {
-        "name": "Trail of Bits 用 Agent 为 Miden zkVM 审计自建 LSP、反编译器和 Lean 形式化证明",
-        "provider": "Trail of Bits：AI安全研究",
-        "type": "AI 项目/工具",
-        "bestFor": "Trail of Bits 在审计 Miden zkVM 前，让 Agent 用六个月从零构建了 MASM 的 LSP 服务器、反编译器、静态分析引擎和 Lean VM 执行器模型。这些工具发现了可让恶意 prover 伪造 Falcon 签名盗取资金的高危漏洞，静态分析定位了 400 多处类型验证缺陷，Lean 工作",
-        "description": "Trail of Bits 在审计 Miden zkVM 前，让 Agent 用六个月从零构建了 MASM 的 LSP 服务器、反编译器、静态分析引擎和 Lean VM 执行器模型。这些工具发现了可让恶意 prover 伪造 Falcon 签名盗取资金的高危漏洞，静态分析定位了 400 多处类型验证缺陷，Lean 工作产出 95 个机器验证的正确性证明，还发",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Trail of Bits：AI安全研究",
-        "url": "https://blog.trailofbits.com/2026/09/18/auditing-in-the-age-of-good-enough-ai"
-      },
-      {
-        "name": "Agentic AI for ITOps: Is your organization ready for the sec",
-        "provider": "ManageEngine Blog",
-        "type": "AI 项目/工具",
-        "bestFor": "AI is set to provide increasing value in IT by enabling more ways to simplify complex IT operations, offering actionable insights, automating routine tasks with",
-        "description": "AI is set to provide increasing value in IT by enabling more ways to simplify complex IT operations, offering actionable insights, automating routine tasks with context-aware autom",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "ManageEngine Blog",
-        "url": "https://www.manageengine.com/blog/general/agentic-ai-for-itops-is-your-organization-ready-for-the-security-challenges.html"
-      },
-      {
-        "name": "AI agents resorted to crime and self-destruction to survive ",
-        "provider": "livescience.com",
-        "type": "AI 项目/工具",
-        "bestFor": "Artificial intelligence (AI) agents resorted to nefarious behavior, including crime sprees, in a virtual world as part of a recent study into how common large l",
-        "description": "Artificial intelligence (AI) agents resorted to nefarious behavior, including crime sprees, in a virtual world as part of a recent study into how common large language models (LLMs",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "livescience.com",
-        "url": "https://www.livescience.com/technology/artificial-intelligence/ai-agents-resorted-to-crime-and-self-destruction-to-survive-in-a-simulated-world-but-does-this-mean-they-would-do-the-same-in-the-real-world"
       }
     ],
     "ai-models": [
+      {
+        "name": "AI Search Tools Need More Than Speed. These 3 Factors Separa",
+        "provider": "Inc.",
+        "type": "AI 项目/工具",
+        "bestFor": "When you search for something yourself, there's usually a pretty high tolerance for friction. You'll open three or four links, skim past a paywall, and compare ",
+        "description": "When you search for something yourself, there's usually a pretty high tolerance for friction. You'll open three or four links, skim past a paywall, and compare a couple of sources.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Inc.",
+        "url": "https://www.inc.com/larry-alton/ai-search-tools-need-more-than-speed-these-3-factors-separate-the-best/91408011"
+      },
       {
         "name": "PNY Technology and MTC Partner to Expand AI Computing Infras",
         "provider": "TechAfrica News",
@@ -6892,20 +6903,20 @@
         "watch": "请打开原始来源核对",
         "sourceName": "nuclear-news",
         "url": "https://nuclear-news.net/2026/09/19/2-b1-trump-rejects-ai-giants-warnings-of-existential-threat/"
-      },
-      {
-        "name": "Google Gemini Hacked 3 Companies During AI Security Test: Wh",
-        "provider": "Gadgets Now",
-        "type": "AI 项目/工具",
-        "bestFor": "The Gemini model was being tested for its cybersecurity abilities. The exercise involved simulated targets, meaning the AI was expected to work against fictiona",
-        "description": "The Gemini model was being tested for its cybersecurity abilities. The exercise involved simulated targets, meaning the AI was expected to work against fictional companies and syst",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Gadgets Now",
-        "url": "https://gadgetsnow.indiatimes.com/tech-news/google-gemini-hacked-3-companies-during-ai-security-test-what-happened/articleshow/134348264.cms"
       }
     ],
     "ai-business": [
+      {
+        "name": "Tencent Cloud and UTM Connect Malaysia's Emerging AI Talent ",
+        "provider": "Malaysia Sun",
+        "type": "AI 项目/工具",
+        "bestFor": "* Five-week programme to prepare students for a fast-evolving, more AI-centric job market\n\n* Cohort empowered with AI tools to solve real world challenges from ",
+        "description": "* Five-week programme to prepare students for a fast-evolving, more AI-centric job market\n\n* Cohort empowered with AI tools to solve real world challenges from leading local organi",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Malaysia Sun",
+        "url": "https://www.malaysiasun.com/news/279320493/tencent-cloud-and-utm-connect-malaysia-emerging-ai-talent-with-real-world-industry-challenges"
+      },
       {
         "name": "SK hynix launches 'SK hynix Ventures' in Silicon Valley for ",
         "provider": "Asianet News Network Pvt Ltd",
@@ -7334,17 +7345,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Zee Business",
         "url": "https://www.zeebiz.com/technology/news-apple-ios-27-update-release-date-new-ai-powered-siri-features-liquid-glass-changes-and-compatible-iphones-401989"
-      },
-      {
-        "name": "Can AI replace leadership? Tasc chief says firms still searc",
-        "provider": "Khaleej times",
-        "type": "AI 项目/工具",
-        "bestFor": "As businesses grapple with AI, industry experts highlight that leaders must invest in new skills while bringing experience to a rapidly changing workforce\n\n[Edi",
-        "description": "As businesses grapple with AI, industry experts highlight that leaders must invest in new skills while bringing experience to a rapidly changing workforce\n\n[Editor's note: Follow K",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Khaleej times",
-        "url": "https://www.khaleejtimes.com/uae/future-of-workforce-summit-second-edition-tasc-group-ai-leadership"
       }
     ],
     "ai-benchmark": [
@@ -10202,7 +10202,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-21",
-    "generatedAt": "2026-09-21T08:19:32.677455Z",
+    "generatedAt": "2026-09-21T09:35:03.432420Z",
     "total": 23,
     "sections": [
       {
