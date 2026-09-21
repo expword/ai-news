@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-21",
-  "generatedAt": "2026-09-21T05:45:31.681099Z",
+  "generatedAt": "2026-09-21T08:19:32.701452Z",
   "news": [
     {
       "title": "MilleMiglia: A realistic instance generator for middle-mile logistics",
@@ -6023,6 +6023,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "Turns Out Testing is Hard | Quality Remarks Keith Klain",
+        "provider": "Quality Remarks - Reflections on a career trying to make software suck less . . .",
+        "type": "AI 项目/工具",
+        "bestFor": "Guess what, somebody did some actual research on testing agentic systems, and they accidentally found out that good software testing is hard. So, to celebrate t",
+        "description": "Guess what, somebody did some actual research on testing agentic systems, and they accidentally found out that good software testing is hard. So, to celebrate their enlightenment a",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Quality Remarks - Reflections on a career trying to make software suck less . . .",
+        "url": "https://qualityremarks.com/turns-out-testing-is-hard/"
+      },
+      {
         "name": "This Week in Tech: Exclave Subpoena | TWiT.TV",
         "provider": "TWiT.tv",
         "type": "AI 项目/工具",
@@ -6450,20 +6461,31 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "livescience.com",
         "url": "https://www.livescience.com/technology/artificial-intelligence/ai-agents-resorted-to-crime-and-self-destruction-to-survive-in-a-simulated-world-but-does-this-mean-they-would-do-the-same-in-the-real-world"
-      },
-      {
-        "name": "MagnetX Announces Completion of US$5 Million Financing and O",
-        "provider": "The Bay City Tribune",
-        "type": "AI 项目/工具",
-        "bestFor": "Unfortunately you've used all of your gifts this month. Your counter will reset on the first day of next month.\n\nHONG KONG, Sept. 17, 2026 -- MagnetX, a global ",
-        "description": "Unfortunately you've used all of your gifts this month. Your counter will reset on the first day of next month.\n\nHONG KONG, Sept. 17, 2026 -- MagnetX, a global AI Agent infrastruct",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Bay City Tribune",
-        "url": "https://baycitytribune.com/online_features/press_releases/magnetx-announces-completion-of-us-5-million-financing-and-opens-third-fundraising-round-to-accelerate/article_96a64f1f-f3bb-58a1-afba-4e968a892698.html"
       }
     ],
     "ai-models": [
+      {
+        "name": "PNY Technology and MTC Partner to Expand AI Computing Infras",
+        "provider": "TechAfrica News",
+        "type": "AI 项目/工具",
+        "bestFor": "The collaboration marks a significant step toward supporting Saudi Arabia's rapidly growing artificial intelligence sector with advanced technologies designed t",
+        "description": "The collaboration marks a significant step toward supporting Saudi Arabia's rapidly growing artificial intelligence sector with advanced technologies designed to meet the demanding",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "TechAfrica News",
+        "url": "https://techafricanews.com/2026/09/21/pny-technology-and-mtc-partner-to-expand-ai-computing-infrastructure-in-saudi-arabia/"
+      },
+      {
+        "name": "Claude helped a 26 year old get matches and start conversati",
+        "provider": "MoneyControl",
+        "type": "AI 项目/工具",
+        "bestFor": "A Reddit user has shared an account of how Claude, the AI chatbot developed by Anthropic, helped them enter their first relationship at the age of 26. In a post",
+        "description": "A Reddit user has shared an account of how Claude, the AI chatbot developed by Anthropic, helped them enter their first relationship at the age of 26. In a post tagged as praise fo",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "MoneyControl",
+        "url": "https://www.moneycontrol.com/technology/claude-helped-a-26-year-old-get-matches-and-start-conversation-on-dating-apps-article-14034365.html"
+      },
       {
         "name": "Mastering The Dark Side: Keysight's CIO Talks User Experienc",
         "provider": "Silicon India",
@@ -6881,31 +6903,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Gadgets Now",
         "url": "https://gadgetsnow.indiatimes.com/tech-news/google-gemini-hacked-3-companies-during-ai-security-test-what-happened/articleshow/134348264.cms"
-      },
-      {
-        "name": "Survey: AI Has Reached the Consumer Inflection Point",
-        "provider": "The Good Men Project",
-        "type": "AI 项目/工具",
-        "bestFor": "AI adoption is moving from experimentation to everyday use, with a new TD survey finding that more than 78% of Americans use AI-powered tools in daily life and ",
-        "description": "AI adoption is moving from experimentation to everyday use, with a new TD survey finding that more than 78% of Americans use AI-powered tools in daily life and 67% say their AI pro",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Good Men Project",
-        "url": "https://goodmenproject.com/featured-content/survey-ai-has-reached-the-consumer-inflection-point/"
-      },
-      {
-        "name": "Your Voice: Can-do robots, SBTI and labels, balanced diets a",
-        "provider": "Young Post Club",
-        "type": "AI 项目/工具",
-        "bestFor": "Have something to say? Send us a letter using this form.\n\nHong Kong artist Orson Li's can-do tiny robots\n\nBonny Liu, SKH Leung Kwai Yee Secondary School\n\nUsing ",
-        "description": "Have something to say? Send us a letter using this form.\n\nHong Kong artist Orson Li's can-do tiny robots\n\nBonny Liu, SKH Leung Kwai Yee Secondary School\n\nUsing two robots, Hong Kon",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Young Post Club",
-        "url": "https://www.youngpostclub.com/yp/share-us/letters-editors/article/3367563/your-voice-can-do-robots-sbti-and-labels-balanced-diets-and-effects-ai-use-letters"
       }
     ],
     "ai-business": [
+      {
+        "name": "SK hynix launches 'SK hynix Ventures' in Silicon Valley for ",
+        "provider": "Asianet News Network Pvt Ltd",
+        "type": "AI 项目/工具",
+        "bestFor": "South Korean chipmaker SK hynix has launched 'SK hynix Ventures' in Silicon Valley, a new venture capital brand focused on AI technologies and next-generation A",
+        "description": "South Korean chipmaker SK hynix has launched 'SK hynix Ventures' in Silicon Valley, a new venture capital brand focused on AI technologies and next-generation AI infrastructure. Th",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Asianet News Network Pvt Ltd",
+        "url": "https://newsable.asianetnews.com/business/sk-hynix-launches-sk-hynix-ventures-in-silicon-valley-for-ai-tech-articleshow-uvomglk"
+      },
       {
         "name": "China's AI makes a great leap forward. But its economy is fa",
         "provider": "NZ Herald",
@@ -7334,17 +7345,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Khaleej times",
         "url": "https://www.khaleejtimes.com/uae/future-of-workforce-summit-second-edition-tasc-group-ai-leadership"
-      },
-      {
-        "name": "What Happens To Books When AI Does The Reading For Us",
-        "provider": "TimesNow",
-        "type": "AI 项目/工具",
-        "bestFor": "Are We Still Reading If AI Reads The Book For Us (Picture Credit - iStock)\n\nReading has always demanded something inconvenient from us: time. A novel refuses to",
-        "description": "Are We Still Reading If AI Reads The Book For Us (Picture Credit - iStock)\n\nReading has always demanded something inconvenient from us: time. A novel refuses to reveal its ending s",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "TimesNow",
-        "url": "https://www.timesnownews.com/lifestyle/books/what-happens-to-books-when-ai-does-the-reading-for-us-article-156130419"
       }
     ],
     "ai-benchmark": [
@@ -10202,7 +10202,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-21",
-    "generatedAt": "2026-09-21T05:45:31.658134Z",
+    "generatedAt": "2026-09-21T08:19:32.677455Z",
     "total": 23,
     "sections": [
       {
