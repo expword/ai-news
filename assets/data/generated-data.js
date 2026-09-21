@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-21",
-  "generatedAt": "2026-09-21T13:26:58.616032Z",
+  "generatedAt": "2026-09-21T15:56:58.978097Z",
   "news": [
     {
       "title": "MilleMiglia: A realistic instance generator for middle-mile logistics",
@@ -6465,6 +6465,105 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-models": [
       {
+        "name": "Cority Named a Leader in 2026 Verdantix Green Quadrant for E",
+        "provider": "Financial Post",
+        "type": "AI 项目/工具",
+        "bestFor": "EHS+ platform extends its Verdantix leadership, earning Leader status across three 2026 Green Quadrant reports spanning EHS, process safety and carbon managemen",
+        "description": "EHS+ platform extends its Verdantix leadership, earning Leader status across three 2026 Green Quadrant reports spanning EHS, process safety and carbon management\n\nTORONTO, Sept. 21",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Financial Post",
+        "url": "https://financialpost.com/globe-newswire/cority-named-a-leader-in-2026-verdantix-green-quadrant-for-ehs-software-for-seventh-consecutive-year"
+      },
+      {
+        "name": "Cority Named a Leader in 2026 Verdantix Green Quadrant for E",
+        "provider": "The Montreal Gazette",
+        "type": "AI 项目/工具",
+        "bestFor": "EHS+ platform extends its Verdantix leadership, earning Leader status across three 2026 Green Quadrant reports spanning EHS, process safety and carbon managemen",
+        "description": "EHS+ platform extends its Verdantix leadership, earning Leader status across three 2026 Green Quadrant reports spanning EHS, process safety and carbon management TORONTO, Sept. 21,",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Montreal Gazette",
+        "url": "https://montrealgazette.com/press-releases/globe-newswire/cority-named-a-leader-in-2026-verdantix-green-quadrant-for-ehs-software-for-seventh-consecutive-year/"
+      },
+      {
+        "name": "Cority Software Inc.: Cority Named a Leader in 2026 Verdanti",
+        "provider": "FinanzNachrichten.de",
+        "type": "AI 项目/工具",
+        "bestFor": "EHS+ platform extends its Verdantix leadership, earning Leader status across three 2026 Green Quadrant reports spanning EHS, process safety and carbon managemen",
+        "description": "EHS+ platform extends its Verdantix leadership, earning Leader status across three 2026 Green Quadrant reports spanning EHS, process safety and carbon management\n\nTORONTO, Sept. 21",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "FinanzNachrichten.de",
+        "url": "https://www.finanznachrichten.de/nachrichten-2026-09/69635379-cority-software-inc-cority-named-a-leader-in-2026-verdantix-green-quadrant-for-ehs-software-for-seventh-consecutive-year-399.htm"
+      },
+      {
+        "name": "Cority Named a Leader in 2026 Verdantix Green Quadrant for E",
+        "provider": "Chatham Daily News",
+        "type": "AI 项目/工具",
+        "bestFor": "EHS+ platform extends its Verdantix leadership, earning Leader status across three 2026 Green Quadrant reports spanning EHS, process safety and carbon managemen",
+        "description": "EHS+ platform extends its Verdantix leadership, earning Leader status across three 2026 Green Quadrant reports spanning EHS, process safety and carbon management TORONTO, Sept. 21,",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Chatham Daily News",
+        "url": "https://www.chathamdailynews.ca/press-releases/globe-newswire/cority-named-a-leader-in-2026-verdantix-green-quadrant-for-ehs-software-for-seventh-consecutive-year/"
+      },
+      {
+        "name": "Trump rejects AI slowdown calls, launches \"AI Force\" instead",
+        "provider": "Ars Technica",
+        "type": "AI 项目/工具",
+        "bestFor": "Donald Trump has said that the US would appoint a new AI tsar and create an \"AI Force\" while offering a full-throated defense of the emerging industry in the fa",
+        "description": "Donald Trump has said that the US would appoint a new AI tsar and create an \"AI Force\" while offering a full-throated defense of the emerging industry in the face of a growing popu",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Ars Technica",
+        "url": "https://arstechnica.com/ai/2026/09/trump-rejects-ai-slowdown-calls-launches-ai-force-instead/"
+      },
+      {
+        "name": "Cority Named a Leader in 2026 Verdantix Green Quadrant for E",
+        "provider": "The Kingston Whig-Standard",
+        "type": "AI 项目/工具",
+        "bestFor": "EHS+ platform extends its Verdantix leadership, earning Leader status across three 2026 Green Quadrant reports spanning EHS, process safety and carbon managemen",
+        "description": "EHS+ platform extends its Verdantix leadership, earning Leader status across three 2026 Green Quadrant reports spanning EHS, process safety and carbon management TORONTO, Sept. 21,",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Kingston Whig-Standard",
+        "url": "https://www.thewhig.com/press-releases/globe-newswire/cority-named-a-leader-in-2026-verdantix-green-quadrant-for-ehs-software-for-seventh-consecutive-year/"
+      },
+      {
+        "name": "Man of his word: Pope Leo speeches declared human-authored b",
+        "provider": "RocketNews | Top News Stories From Around the Globe",
+        "type": "AI 项目/工具",
+        "bestFor": "A collection of speeches and writings attributed to Pope Leo XIV has received certification as human-authored from Proudly Human, an Australian firm led by form",
+        "description": "A collection of speeches and writings attributed to Pope Leo XIV has received certification as human-authored from Proudly Human, an Australian firm led by former chief scientist D",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RocketNews | Top News Stories From Around the Globe",
+        "url": "https://rocketnews.com/2026/09/man-of-his-word-pope-leo-speeches-declared-human-authored-by-australian-ai-detection-tool-7/"
+      },
+      {
+        "name": "Pope Leo calls himself pontiff who 'happens to be American'",
+        "provider": "RocketNews | Top News Stories From Around the Globe",
+        "type": "AI 项目/工具",
+        "bestFor": "Pope Leo, who became the first pontiff from the United States, granted an interview to NBC at a papal retreat near Rome where he discussed his relationship with",
+        "description": "Pope Leo, who became the first pontiff from the United States, granted an interview to NBC at a papal retreat near Rome where he discussed his relationship with his home country an",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RocketNews | Top News Stories From Around the Globe",
+        "url": "https://rocketnews.com/2026/09/pope-leo-calls-himself-pontiff-who-happens-to-be-american-8/"
+      },
+      {
+        "name": "Fourth Forum on China-ASEAN Artificial Intelligence Cooperat",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Issuer: Institute of Artificial Intelligence and Big Data Application, GIIT NANNING, CHINA - Media OutReach Newswire - 20 September 2026 - On September 16, as a",
+        "description": "Issuer: Institute of Artificial Intelligence and Big Data Application, GIIT NANNING, CHINA - Media OutReach Newswire - 20 September 2026 - On September 16, as an international scie",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:open source LLM",
+        "url": "https://www.riauone.com/global/Fourth-Forum-on-China-ASEAN-Artificial-Intelligence-Cooperation-Successfully-Held-in-Nanning--Drawing-Over-700-Delegates"
+      },
+      {
         "name": "'Rethinking the laptop is a big undertaking' -- why Googlebo",
         "provider": "TechRadar",
         "type": "AI 项目/工具",
@@ -6804,105 +6903,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "WLOS",
         "url": "https://wlos.com/news/nation-world/google-says-its-gemini-ai-model-hacked-3-other-companies-reports-artificial-intelligence-network-unauthorized-access-credentials-internet-cybersecurity-test-risks"
-      },
-      {
-        "name": "Google says its Gemini AI model hacked 3 other companies: re",
-        "provider": "WJAR",
-        "type": "AI 项目/工具",
-        "bestFor": "A Google Gemini AI model gained unauthorized access to three other companies during a cybersecurity test, according to reports.\n\nGoogle disclosed the incident -",
-        "description": "A Google Gemini AI model gained unauthorized access to three other companies during a cybersecurity test, according to reports.\n\nGoogle disclosed the incident -- which happened in ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "WJAR",
-        "url": "https://turnto10.com/news/nation-world/google-says-its-gemini-ai-model-hacked-3-other-companies-reports-artificial-intelligence-network-unauthorized-access-credentials-internet-cybersecurity-test-risks"
-      },
-      {
-        "name": "Gemini Broke Out of Testing and Accessed Three Real Company ",
-        "provider": "ProPakistani",
-        "type": "AI 项目/工具",
-        "bestFor": "Two separate security incidents have highlighted the growing risks of giving advanced AI systems access to tools, computer environments, and external services.\n",
-        "description": "Two separate security incidents have highlighted the growing risks of giving advanced AI systems access to tools, computer environments, and external services.\n\nGoogle disclosed th",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "ProPakistani",
-        "url": "https://propakistani.pk/?p=1084364"
-      },
-      {
-        "name": "Space-Based Solar Power Could Reach the Grid by 2028",
-        "provider": "RocketNews | Top News Stories From Around the Globe",
-        "type": "AI 项目/工具",
-        "bestFor": "Growing demand for energy from artificial intelligence applications and hyperscale data centers is spurring investment in space-based solar power, a technology ",
-        "description": "Growing demand for energy from artificial intelligence applications and hyperscale data centers is spurring investment in space-based solar power, a technology that has been theore",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RocketNews | Top News Stories From Around the Globe",
-        "url": "https://rocketnews.com/2026/09/space-based-solar-power-could-reach-the-grid-by-2028/"
-      },
-      {
-        "name": "Google Gemini Hacked Three Companies During a Cybersecurity ",
-        "provider": "TelecomTalk",
-        "type": "AI 项目/工具",
-        "bestFor": "Google's Gemini artificial intelligence model accessed systems belonging to three real companies during a controlled test of its cybersecurity capabilities, rai",
-        "description": "Google's Gemini artificial intelligence model accessed systems belonging to three real companies during a controlled test of its cybersecurity capabilities, raising questions about",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "TelecomTalk",
-        "url": "https://telecomtalk.info/googlegemini-hacked-three-companies-cybersecurity-test-whathappened/1011982/"
-      },
-      {
-        "name": "'A critical moment': concern UK is not up to speed in acting",
-        "provider": "RocketNews | Top News Stories From Around the Globe",
-        "type": "AI 项目/工具",
-        "bestFor": "The UK government's approach to artificial intelligence regulation has become a subject of concern among policymakers and industry experts following recent orga",
-        "description": "The UK government's approach to artificial intelligence regulation has become a subject of concern among policymakers and industry experts following recent organizational changes a",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RocketNews | Top News Stories From Around the Globe",
-        "url": "https://rocketnews.com/2026/09/a-critical-moment-concern-uk-is-not-up-to-speed-in-acting-on-ai-risks/"
-      },
-      {
-        "name": "US court blocks Trump plan to deport migrants to third count",
-        "provider": "RocketNews | Top News Stories From Around the Globe",
-        "type": "AI 项目/工具",
-        "bestFor": "A three-judge panel of the 1st US Circuit Court of Appeals in Boston upheld a previous decision invalidating the Department of Homeland Security's third-country",
-        "description": "A three-judge panel of the 1st US Circuit Court of Appeals in Boston upheld a previous decision invalidating the Department of Homeland Security's third-country removal policy. The",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RocketNews | Top News Stories From Around the Globe",
-        "url": "https://rocketnews.com/2026/09/us-court-blocks-trump-plan-to-deport-migrants-to-third-countries/"
-      },
-      {
-        "name": "Bolivia's Congress approves $1.9bn IMF loan amid protest thr",
-        "provider": "RocketNews | Top News Stories From Around the Globe",
-        "type": "AI 项目/工具",
-        "bestFor": "Bolivia's legislative body has voted to accept a $1.9 billion loan from the International Monetary Fund, representing a significant achievement for President Ro",
-        "description": "Bolivia's legislative body has voted to accept a $1.9 billion loan from the International Monetary Fund, representing a significant achievement for President Rodrigo Paz. The Chris",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RocketNews | Top News Stories From Around the Globe",
-        "url": "https://rocketnews.com/2026/09/bolivias-congress-approves-1-9bn-imf-loan-amid-protest-threats/"
-      },
-      {
-        "name": "AI could double US GDP growth to 4% next year amid capital h",
-        "provider": "Cardiff Star",
-        "type": "AI 项目/工具",
-        "bestFor": "New Delhi [India], September 19 (ANI): Artificial intelligence can double the economic growth of the United States in the coming year, lifting expansion from ap",
-        "description": "New Delhi [India], September 19 (ANI): Artificial intelligence can double the economic growth of the United States in the coming year, lifting expansion from approximately 2 per ce",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Cardiff Star",
-        "url": "https://www.cardiffstar.com/news/279316823/ai-could-double-us-gdp-growth-to-4-next-year-amid-capital-hurdles-says-elon-musk"
-      },
-      {
-        "name": "AI could double US GDP growth to 4% next year amid capital h",
-        "provider": "Manila Metro",
-        "type": "AI 项目/工具",
-        "bestFor": "New Delhi [India], September 19 (ANI): Artificial intelligence can double the economic growth of the United States in the coming year, lifting expansion from ap",
-        "description": "New Delhi [India], September 19 (ANI): Artificial intelligence can double the economic growth of the United States in the coming year, lifting expansion from approximately 2 per ce",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Manila Metro",
-        "url": "https://www.manilametro.com/news/279316823/ai-could-double-us-gdp-growth-to-4-next-year-amid-capital-hurdles-says-elon-musk"
       }
     ],
     "ai-business": [
@@ -10202,7 +10202,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-21",
-    "generatedAt": "2026-09-21T13:26:58.594056Z",
+    "generatedAt": "2026-09-21T15:56:58.956094Z",
     "total": 23,
     "sections": [
       {
