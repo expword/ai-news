@@ -1,7 +1,34 @@
 {
   "lastUpdated": "2026-09-22",
-  "generatedAt": "2026-09-22T08:58:46.752032Z",
+  "generatedAt": "2026-09-22T11:30:51.861427Z",
   "news": [
+    {
+      "title": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
+      "summary": "",
+      "category": "ai-models",
+      "source": "RSS · Hugging Face Blog",
+      "date": "2026-09-22",
+      "publishedAt": "2026-09-22T08:00",
+      "collectedAt": "2026-09-22T18:17",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://huggingface.co/blog/omlx",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Amazon launches research initiative with Stanford University to advance AI and science",
       "summary": "The collaboration aims to advance research while broadening participation and translating discovery into real-world solutions.",
@@ -2455,34 +2482,6 @@
       "aiSelected": true,
       "moduleTargets": [
         "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Beyond Token-Local Imitation: Reward-Compatible Temporal Credit Assignment for On-Policy Distillation",
-      "summary": "On-policy distillation (OPD) has emerged as an effective approach for large language model post-training, yet existing objectives face a trade-off between objective fidelity and op",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-15",
-      "publishedAt": "",
-      "collectedAt": "2026-09-16T09:56",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-15",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.16937v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
       ],
       "sourceCount": 1
     }
@@ -8339,6 +8338,17 @@
     ],
     "ai-research": [
       {
+        "name": "AI company Anthropic opening SG office in Oct; hiring 10 Sin",
+        "provider": "The Independent",
+        "type": "AI 项目/工具",
+        "bestFor": "SINGAPORE: Anthropic will open a Singapore office in October, expanding its presence in Asia as demand for its Claude AI tools grows.\n\nThe company said Singapor",
+        "description": "SINGAPORE: Anthropic will open a Singapore office in October, expanding its presence in Asia as demand for its Claude AI tools grows.\n\nThe company said Singapore is a \"standout mar",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Independent",
+        "url": "https://theindependent.sg/ai-company-anthropic-opening-sg-office-in-oct-hiring-10-singapore-job-roles-across-applied-ai-finance-sales-marketing-and-research"
+      },
+      {
         "name": "61% vs. 26%: The number behind the real US-China AI divide",
         "provider": "news.cgtn.com",
         "type": "AI 项目/工具",
@@ -8766,17 +8776,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2609.01422v1"
-      },
-      {
-        "name": "A systematic Approach to constructing a Chance-and-Risk Matr",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Semiconductor supply chains face escalating risks from geopolitical tensions, geographic concentration, and rapid technological shifts, yet no scalable system c",
-        "description": "Semiconductor supply chains face escalating risks from geopolitical tensions, geographic concentration, and rapid technological shifts, yet no scalable system continuously extracts",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2609.01563v1"
       }
     ],
     "ai-office": []
@@ -10185,8 +10184,8 @@
   ],
   "dailyReport": {
     "date": "2026-09-22",
-    "generatedAt": "2026-09-22T08:58:46.732032Z",
-    "total": 14,
+    "generatedAt": "2026-09-22T11:30:51.837847Z",
+    "total": 15,
     "sections": [
       {
         "category": "ai-coding",
@@ -10237,6 +10236,17 @@
         "category": "ai-models",
         "label": "模型发布",
         "items": [
+          {
+            "title": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
+            "summary": "",
+            "source": "RSS · Hugging Face Blog",
+            "url": "https://huggingface.co/blog/omlx",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-22",
+            "publishedAt": "2026-09-22T08:00",
+            "reason": ""
+          },
           {
             "title": "How BMW Group detects cost anomalies across 14,000 cloud accounts",
             "summary": "BMW Group operates CLEA, a FinOps platform monitoring more than 14,000 cloud accounts. This post shows how BMW added automated daily cost an",
