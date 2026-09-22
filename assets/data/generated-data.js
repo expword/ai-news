@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
-  "lastUpdated": "2026-09-22",
-  "generatedAt": "2026-09-22T14:03:51.197586Z",
+  "lastUpdated": "2026-09-23",
+  "generatedAt": "2026-09-22T16:33:58.062145Z",
   "news": [
     {
       "title": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
@@ -6453,6 +6453,39 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-models": [
       {
+        "name": "Windows 11 Design Refresh: Which Legacy Dialogs are Being Mo",
+        "provider": "Analytics Insight",
+        "type": "AI 项目/工具",
+        "bestFor": "Microsoft is modernizing several legacy Windows 11 dialogs to create a more consistent design across Settings and system tools.\n\nVoice packages and Reset this P",
+        "description": "Microsoft is modernizing several legacy Windows 11 dialogs to create a more consistent design across Settings and system tools.\n\nVoice packages and Reset this PC are among the olde",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Analytics Insight",
+        "url": "https://www.analyticsinsight.net/technology/windows-11-design-refresh-which-legacy-dialogs-are-being-modernized"
+      },
+      {
+        "name": "Meta AI vs Grok vs DeepSeek vs Perplexity: Which free AI is ",
+        "provider": "The Financial Express",
+        "type": "AI 项目/工具",
+        "bestFor": "While flagship AI tools like ChatGPT, Google Gemini, and Anthropic Claude dominate most discussions on AI, subscribing to one of these \"premium\" ones can quickl",
+        "description": "While flagship AI tools like ChatGPT, Google Gemini, and Anthropic Claude dominate most discussions on AI, subscribing to one of these \"premium\" ones can quickly turn into a heavy ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Financial Express",
+        "url": "https://www.financialexpress.com/life/technology-meta-ai-vs-grok-vs-deepseek-vs-perplexity-which-free-ai-is-best-for-you-4344861/"
+      },
+      {
+        "name": "LiteParse 9 月更新：PDFium 提速 20-25%，新增视觉定位与 is-complex 路由 API",
+        "provider": "LlamaIndex：产品、工程与评测",
+        "type": "AI 项目/工具",
+        "bestFor": "LlamaIndex 发布 LiteParse 2.14.6 更新，通过对自维护 PDFium fork 做内存分配优化（内置 mimalloc）等手段，将文本提取耗时降低 20-25%，平均 2.76ms/页，markdown 渲染 3.94ms/页。",
+        "description": "LlamaIndex 发布 LiteParse 2.14.6 更新，通过对自维护 PDFium fork 做内存分配优化（内置 mimalloc）等手段，将文本提取耗时降低 20-25%，平均 2.76ms/页，markdown 渲染 3.94ms/页。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "LlamaIndex：产品、工程与评测",
+        "url": "https://www.llamaindex.ai/blog/liteparse-updates-september-2026"
+      },
+      {
         "name": "Apple 新款 Mac mini（M6/M5 Pro）与 Mac Studio（M5 Max/M5 Ultra）今日开",
         "provider": "Apple：Newsroom（RSS）",
         "type": "AI 项目/工具",
@@ -6858,42 +6891,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "https://www.13abc.com",
         "url": "https://www.13abc.com/2026/09/19/google-says-ai-model-gemini-hacked-into-3-companies-while-undergoing-testing/"
-      },
-      {
-        "name": "Google Gemini AI Hacked Real Companies During Cybersecurity ",
-        "provider": "bizzbuzz.news",
-        "type": "AI 项目/工具",
-        "bestFor": "By surprise, surpassed the limits of one controlled cybersecurity test and hacked into the systems of three real companies. The event was a new cause for concer",
-        "description": "By surprise, surpassed the limits of one controlled cybersecurity test and hacked into the systems of three real companies. The event was a new cause for concern regarding the beha",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "bizzbuzz.news",
-        "url": "https://www.bizzbuzz.news/technology/google-gemini-ai-hacked-real-companies-during-cybersecurity-testing-what-happened-1406388"
-      },
-      {
-        "name": "Google says AI model Gemini hacked into 3 companies while un",
-        "provider": "https",
-        "type": "AI 项目/工具",
-        "bestFor": "(CNN) - Google said its artificial intelligence system Gemini hacked into three companies.\n\nA company reported it happened in May while the AI model was undergo",
-        "description": "(CNN) - Google said its artificial intelligence system Gemini hacked into three companies.\n\nA company reported it happened in May while the AI model was undergoing testing.\n\nAccord",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "https://www.wndu.com",
-        "url": "https://www.wndu.com/2026/09/19/google-says-ai-model-gemini-hacked-into-3-companies-while-undergoing-testing/"
-      },
-      {
-        "name": "Infostealer Malware Now Targets Generative AI Accounts",
-        "provider": "조선일보",
-        "type": "AI 项目/工具",
-        "bestFor": "Stolen session cookies and API keys grant access to sensitive data and corporate computing resources\n\nInfostealer, a type of malware specializing in stealing us",
-        "description": "Stolen session cookies and API keys grant access to sensitive data and corporate computing resources\n\nInfostealer, a type of malware specializing in stealing user passwords, credit",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "조선일보",
-        "url": "https://www.chosun.com/english/industry-en/2026/09/20/DFE3KZNRWRG5NCLQAOFE764NYA/"
       }
     ],
     "ai-business": [
+      {
+        "name": "Shopify (SHOP) Stock Soars 7% on Meta Muse AI Shopping Integ",
+        "provider": "Blockonomi",
+        "type": "AI 项目/工具",
+        "bestFor": "* Meta and Shopify have announced a collaboration allowing Meta's Muse AI assistant to finalize transactions at Shopify merchants using Shop Pay\n\n* Shopify's CE",
+        "description": "* Meta and Shopify have announced a collaboration allowing Meta's Muse AI assistant to finalize transactions at Shopify merchants using Shop Pay\n\n* Shopify's CEO Tobi Lütke publicl",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Blockonomi",
+        "url": "https://blockonomi.com/shopify-shop-stock-soars-7-on-meta-muse-ai-shopping-integration/"
+      },
       {
         "name": "Meta's Muse Could Become Most Widely Used Consumer AI App Si",
         "provider": "Asianet News Network Pvt Ltd",
@@ -7322,17 +7333,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Al Bawaba",
         "url": "https://www.albawaba.com/business/pr/apple%E2%80%99s-aed-8499-iphone-duo-puts-uae-1636834?overridden_route_name=entity.node.canonical&base_route_name=entity.node.canonical&page_manager_page=node_view&page_manager_page_variant=node_view-panels_variant-0&page_manager_page_variant_weight=0"
-      },
-      {
-        "name": "Molbio Diagnostics: What Does It Do, and Is Its 65x P/E Just",
-        "provider": "Trade Brains",
-        "type": "AI 项目/工具",
-        "bestFor": "Molbio Diagnostics is primarily a diagnostics technology company, with molecular diagnostics forming the core of its business. Its main platform, Truenat, is de",
-        "description": "Molbio Diagnostics is primarily a diagnostics technology company, with molecular diagnostics forming the core of its business. Its main platform, Truenat, is designed to bring mole",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Trade Brains",
-        "url": "https://tradebrains.in/indian-markets/molbio-diagnostics-what-does-it-do-and-is-its-65x-pe-justified-12527149"
       }
     ],
     "ai-benchmark": [
@@ -10183,9 +10183,9 @@ window.AI_GENERATED_DATA = {
     }
   ],
   "dailyReport": {
-    "date": "2026-09-22",
-    "generatedAt": "2026-09-22T14:03:51.176587Z",
-    "total": 15,
+    "date": "2026-09-23",
+    "generatedAt": "2026-09-22T16:33:58.041175Z",
+    "total": 22,
     "sections": [
       {
         "category": "ai-coding",
@@ -10212,6 +10212,28 @@ window.AI_GENERATED_DATA = {
             "date": "2026-09-21",
             "publishedAt": "2026-09-21T08:00",
             "reason": ""
+          },
+          {
+            "title": "How a global fintech scaled coding agent traffic with Dedicated Model Inference",
+            "summary": "Inside a global bank's shift to self-serve dedicated inference: how Together's DMI gave engineering teams direct control over scaling, model",
+            "source": "RSS · Together AI",
+            "url": "https://www.together.ai/blog/global-fintech-scales-coding-agent-traffic-with-dedicated-model-inference",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-18",
+            "publishedAt": "2026-09-18T08:00",
+            "reason": ""
+          },
+          {
+            "title": "Deploy Hugging Face models on Amazon SageMaker AI with coding agents",
+            "summary": "Deploy production-ready Hugging Face models on Amazon SageMaker AI using six open-source agent skills. Point a coding agent at a model and g",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/deploy-hugging-face-models-on-amazon-sagemaker-ai-with-coding-agents/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-18",
+            "publishedAt": "2026-09-18T23:25",
+            "reason": ""
           }
         ]
       },
@@ -10228,6 +10250,23 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-09-21",
             "publishedAt": "2026-09-21T20:00",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "category": "ai-agents",
+        "label": "Agent / MCP",
+        "items": [
+          {
+            "title": "The new AgentCore runtime: Elastic, optimized, and consistently fast starts",
+            "summary": "Today we are announcing the new AgentCore runtime, a capability of Amazon Bedrock AgentCore built for the speed, flexibility, and cost effic",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/the-new-agentcore-runtime-elastic-optimized-and-consistently-fast-starts/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-18",
+            "publishedAt": "2026-09-18T23:31",
             "reason": ""
           }
         ]
@@ -10334,6 +10373,39 @@ window.AI_GENERATED_DATA = {
             "date": "2026-09-21",
             "publishedAt": "2026-09-21T21:44",
             "reason": ""
+          },
+          {
+            "title": "MilleMiglia: A realistic instance generator for middle-mile logistics",
+            "summary": "Algorithms & Theory",
+            "source": "RSS · Google Research",
+            "url": "https://research.google/blog/millemiglia-a-realistic-instance-generator-for-middle-mile-logistics/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-19",
+            "publishedAt": "2026-09-19T01:46",
+            "reason": ""
+          },
+          {
+            "title": "Sep 18, 2026 Announcements Partnering with Accenture on embedded evaluation",
+            "summary": "Sep 18, 2026 Announcements Partnering with Accenture on embedded evaluation",
+            "source": "HTML · Anthropic",
+            "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-18",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Co-creating the future of fashion with Google",
+            "summary": "Google worked side-by-side with designers Jane Wade and Sergio Hudson to custom-design Google Flow tools to prep for NYFW.",
+            "source": "RSS · Google AI Blog",
+            "url": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-18",
+            "publishedAt": "2026-09-18T21:00",
+            "reason": ""
           }
         ]
       },
@@ -10379,12 +10451,131 @@ window.AI_GENERATED_DATA = {
             "date": "2026-09-21",
             "publishedAt": "2026-09-21T23:30",
             "reason": ""
+          },
+          {
+            "title": "New experts join Google’s AI & Economy team",
+            "summary": "We are expanding our AI & Economy team with world-class academic advisors, fellows, and core internal researchers.",
+            "source": "RSS · Google AI Blog",
+            "url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-18",
+            "publishedAt": "2026-09-18T22:00",
+            "reason": ""
           }
         ]
       }
     ]
   },
   "dailyReports": [
+    {
+      "date": "2026-09-22",
+      "generatedAt": "2026-09-22T16:00:21.400451Z",
+      "total": 7,
+      "sections": [
+        {
+          "category": "ai-coding",
+          "label": "AI 编程",
+          "items": [
+            {
+              "title": "xAI’s Grok 4.6 is now available in Amazon Bedrock",
+              "summary": "xAI's Grok 4.6 is now available in Amazon Bedrock: a frontier model for long-running agents, coding, and knowledge work, with a 500K token c",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/xais-grok-4-6-is-now-available-in-amazon-bedrock/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-22",
+              "publishedAt": "2026-09-22T02:30",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-models",
+          "label": "模型发布",
+          "items": [
+            {
+              "title": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
+              "summary": "",
+              "source": "RSS · Hugging Face Blog",
+              "url": "https://huggingface.co/blog/omlx",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-22",
+              "publishedAt": "2026-09-22T08:00",
+              "reason": ""
+            },
+            {
+              "title": "How BMW Group detects cost anomalies across 14,000 cloud accounts",
+              "summary": "BMW Group operates CLEA, a FinOps platform monitoring more than 14,000 cloud accounts. This post shows how BMW added automated daily cost an",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/how-bmw-group-detects-cost-anomalies-across-14000-cloud-accounts/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-22",
+              "publishedAt": "2026-09-22T00:36",
+              "reason": ""
+            },
+            {
+              "title": "Run Positron on Amazon SageMaker AI for data science workflows",
+              "summary": "Positron, Posit's IDE for data science, now runs on Amazon SageMaker AI. This post shows how a data scientist explores an Amazon Athena tabl",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/run-positron-on-amazon-sagemaker-ai-for-data-science-workflows/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-22",
+              "publishedAt": "2026-09-22T00:34",
+              "reason": ""
+            },
+            {
+              "title": "Open-Sourcing Rebalancer: A Generic, High-Performance Library for Solving Assignment Problems",
+              "summary": "We&#8217;re open-sourcing Rebalancer, the assignment-problem solver that has been used to solve resource allocation problems throughout Meta",
+              "source": "RSS · Meta Engineering",
+              "url": "https://engineering.fb.com/2026/09/21/open-source/rebalancer-generic-high-performance-library-assignment-problems/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-22",
+              "publishedAt": "2026-09-22T00:00",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-benchmark",
+          "label": "评测榜单",
+          "items": [
+            {
+              "title": "Advancing AI for biology: Teaching models to design and characterize antibodies",
+              "summary": "Three new papers from Amazon Bio Discovery address bottlenecks in AI-driven antibody engineering, from benchmarking binding predictors to ex",
+              "source": "RSS · Amazon Science",
+              "url": "https://www.amazon.science/blog/advancing-ai-for-biology-teaching-models-to-design-and-characterize-antibodies",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-22",
+              "publishedAt": "2026-09-22T01:51",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-research",
+          "label": "论文研究",
+          "items": [
+            {
+              "title": "Amazon launches research initiative with Stanford University to advance AI and science",
+              "summary": "The collaboration aims to advance research while broadening participation and translating discovery into real-world solutions.",
+              "source": "RSS · Amazon Science",
+              "url": "https://www.amazon.science/news/amazon-launches-research-initiative-with-stanford-university-to-advance-ai-and-science",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-22",
+              "publishedAt": "2026-09-22T03:31",
+              "reason": ""
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-09-21",
       "generatedAt": "2026-09-21T16:00:04.707310Z",
@@ -19908,112 +20099,10 @@ window.AI_GENERATED_DATA = {
           ]
         }
       ]
-    },
-    {
-      "date": "2026-07-19",
-      "generatedAt": "2026-07-19T16:23:00.508780Z",
-      "total": 7,
-      "sections": [
-        {
-          "category": "ai-tools",
-          "label": "AI 工具",
-          "items": [
-            {
-              "title": "transcribe.cpp v0.1.0 发布：支持 16 个 ASR 模型的跨平台语音转录库",
-              "summary": "transcribe.cpp v0.1.0 发布，作为一个基于 ggml 的语音转录库，支持 16 个 ASR 模型族（超过 60 个模型），并通过 Vulkan、Metal、CUDA 和 TinyBLAS 实现 GPU 加速。该库旨在解决当前跨平台语音转录应用的分发难题。",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://workshop.cjpais.com/projects/transcribe-cpp",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-07-19",
-              "publishedAt": "2026-07-19T10:49",
-              "reason": "transcribe.cpp 提供了一个高效、可靠的跨平台语音转录解决方案，值得开发者关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-models",
-          "label": "模型发布",
-          "items": [
-            {
-              "title": "通义千问 Qwen3.8 开源发布在即，参数达 2.4T",
-              "summary": "通义千问 Qwen3.8 模型即将开源，参数高达 2.4T，具备强大的计算能力，预计将与 Fable 5 等前沿 AI 模型竞争。Qwen3.8-Max-Preview 已在阿里巴巴的多个平台上首次亮相，用户可立即体验其强大功能。",
-              "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
-              "url": "https://x.com/Alibaba_Qwen/status/2078759124914098291",
-              "score": 69,
-              "sourceCount": 2,
-              "date": "2026-07-19",
-              "publishedAt": "2026-07-19T16:29",
-              "reason": "Qwen3.8 的开源发布将为 AI 领域带来新的竞争格局，其强大的参数和功能值得关注。"
-            },
-            {
-              "title": "面壁智能发布 MiniCPM-Robot 具身智能模型系列",
-              "summary": "面壁智能于 2026 年 7 月 19 日发布了首个具身AI模型系列 MiniCPM-Robot，包含 1.5B 参数的通用视觉-语言-动作（VLA）模型 MiniCPM-RobotManip 和用于目标跟踪的 MiniCPM-RobotTrack。此外，还推出了高性能推理框架 ",
-              "source": "X：面壁智能 OpenBMB (@OpenBMB)",
-              "url": "https://x.com/OpenBMB/status/2078839529591759025",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-07-19",
-              "publishedAt": "2026-07-19T21:49",
-              "reason": "MiniCPM-Robot 系列的发布为具身智能技术的应用提供了新的可能性，值得关注其在实际场景中的表现。"
-            },
-            {
-              "title": "MiniCPM5-2B发布：全球性能第一的4B以下模型，适配9款芯片",
-              "summary": "面壁智能与OpenBMB联合推出的MiniCPM5-2B模型在AA-Index榜单中以17分的成绩成为4B以下模型的最高分，平均分为54.26，超越了Qwen3.5-2B等竞争对手。该模型支持混合思考和512K上下文，已完成对华为昇腾、英伟达等9款芯片的Day0适配，预计将开源发",
-              "source": "公众号：面壁智能（MiniCPM）",
-              "url": "https://mp.weixin.qq.com/s/rjFxrUylyGMqa5QtgypCdw",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-07-19",
-              "publishedAt": "2026-07-19T21:12",
-              "reason": "MiniCPM5-2B凭借其卓越的性能和广泛的适配性，成为4B以下模型中的佼佼者，值得关注。"
-            },
-            {
-              "title": "昆仑万维发布Matrix-Game 3.5，2026年被称为\"世界模型元年\"",
-              "summary": "昆仑万维在WAIC上宣布2026年为\"世界模型元年\"，并推出Matrix-Game 3.5、Mureka v9.5及O3音乐模型。Matrix-Game 3.5具备Patch级记忆注入功能，5B模型在720p分辨率下可实现单卡20FPS的实时生成，且核心架构已开源。这一系列发布标",
-              "source": "公众号：昆仑万维（天工）",
-              "url": "https://mp.weixin.qq.com/s/LidvGePhOOoUY3KTor_w9g",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-07-19",
-              "publishedAt": "2026-07-19T20:35",
-              "reason": "昆仑万维的Matrix-Game 3.5及其系列模型的发布，标志着AI模型技术的又一次重要进步，值得关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-business",
-          "label": "行业商业",
-          "items": [
-            {
-              "title": "全球决策机制受 AI 热潮冲击，项目成功率为零",
-              "summary": "随着 AI 技术的广泛应用，许多企业和机构陷入了集体狂热，导致决策失误和项目失败。过去一年半中，观察到的 AI 项目成功率为 0%，失败原因多与企业内部管理不善有关，而非 LLM 的能力不足。内部和客户服务聊天机器人普遍未能提供良好体验，反映出企业在 AI 应用上的困境。",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making",
-              "score": 64,
-              "sourceCount": 1,
-              "date": "2026-07-19",
-              "publishedAt": "2026-07-19T13:13",
-              "reason": "本文深入分析了 AI 热潮对企业决策的影响，揭示了项目失败的根本原因，值得关注。"
-            },
-            {
-              "title": "ChatGPT Work：一站式网站与文档管理工具",
-              "summary": "ChatGPT Work 是一款集网站创建、电子邮件管理、文档总结及高质量文档制作于一体的工具，适合需要高效处理信息的用户。它已在移动应用和官网提供，包含在 Plus、Pro、Business 和 Enterprise 套餐中，帮助用户提升工作效率。",
-              "source": "X：Tibo (@thsottiaux)",
-              "url": "https://x.com/thsottiaux/status/2078697631019303273",
-              "score": 63,
-              "sourceCount": 1,
-              "date": "2026-07-19",
-              "publishedAt": "2026-07-19T12:25",
-              "reason": "ChatGPT Work 通过集成多种功能，帮助用户在信息处理上实现高效化，值得一试。"
-            }
-          ]
-        }
-      ]
     }
   ],
   "llmLeaderboard": {
-    "updated": "2026-09-22",
+    "updated": "2026-09-23",
     "source": "ReLE 中文大模型能力评测（综合能力）",
     "sourceUrl": "https://github.com/jeinlee1991/chinese-llm-benchmark",
     "items": [
