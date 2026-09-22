@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-22",
-  "generatedAt": "2026-09-22T06:26:51.862397Z",
+  "generatedAt": "2026-09-22T08:58:46.752032Z",
   "news": [
     {
       "title": "Amazon launches research initiative with Stanford University to advance AI and science",
@@ -6454,6 +6454,39 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-models": [
       {
+        "name": "Inside India's Digital Audit Blueprint",
+        "provider": "Swarajyamag",
+        "type": "AI 项目/工具",
+        "bestFor": "The story of CADS, India's home-grown course that could become the global standard for auditing AI, privacy and digital public platforms.\n\nOn 27 August 2026, at",
+        "description": "The story of CADS, India's home-grown course that could become the global standard for auditing AI, privacy and digital public platforms.\n\nOn 27 August 2026, at the Indian Institut",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Swarajyamag",
+        "url": "https://swarajyamag.com/tech/inside-indias-digital-audit-blueprint"
+      },
+      {
+        "name": "WIOCC Group Welcomes United States' DFC As Investor Alongsid",
+        "provider": "TheTimes.com.ng",
+        "type": "AI 项目/工具",
+        "bestFor": "WIOCC Group, Africa's leading carrier-neutral digital infrastructure platform, has announced that the U.S. International Development Finance Corporation (DFC) i",
+        "description": "WIOCC Group, Africa's leading carrier-neutral digital infrastructure platform, has announced that the U.S. International Development Finance Corporation (DFC) intends to join Afric",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "TheTimes.com.ng",
+        "url": "https://www.thetimes.com.ng/2026/09/wiocc-group-welcomes-united-states-dfc-as-investor-alongside-afc-and-vision-invest-to-accelerate-digital-infrastructure-expansion-across-africa/"
+      },
+      {
+        "name": "Smart taps Avtica to make AI tools more accessible, affordab",
+        "provider": "GMA Network",
+        "type": "AI 项目/工具",
+        "bestFor": "Make this your preferred source to get more updates from this publisher on Google.\n\nPLDT Inc.'s wireless unit, Smart Communications Inc., is partnering with art",
+        "description": "Make this your preferred source to get more updates from this publisher on Google.\n\nPLDT Inc.'s wireless unit, Smart Communications Inc., is partnering with artificial intelligence",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "GMA Network",
+        "url": "https://www.gmanetwork.com/news/money/companies/1003258/smart-taps-avtica-to-make-ai-tools-more-accessible-affordable/story/"
+      },
+      {
         "name": "How to Build a University Crisis Communications Plan: The Ma",
         "provider": "everything-pr.com",
         "type": "AI 项目/工具",
@@ -6859,42 +6892,42 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Hacker News 热门（buzzing.cc 中文翻译）",
         "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-director-called-ai-scraping-the-largest-theft-of-labor-in-human-history-while-openai-head-brands-chatgpt-an-existential-threat-to-publishers-revelations-come-from-legal-briefs-filed-in-nyt-lawsuit"
-      },
-      {
-        "name": "Google says its Gemini AI model hacked 3 other companies: re",
-        "provider": "KVII",
-        "type": "AI 项目/工具",
-        "bestFor": "A Google Gemini AI model gained unauthorized access to three other companies during a cybersecurity test, according to reports.\n\nGoogle disclosed the incident -",
-        "description": "A Google Gemini AI model gained unauthorized access to three other companies during a cybersecurity test, according to reports.\n\nGoogle disclosed the incident -- which happened in ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "KVII",
-        "url": "https://abc7amarillo.com/news/nation-world/google-says-its-gemini-ai-model-hacked-3-other-companies-reports-artificial-intelligence-network-unauthorized-access-credentials-internet-cybersecurity-test-risks"
-      },
-      {
-        "name": "Google says its Gemini AI model hacked 3 other companies: re",
-        "provider": "The National Desk",
-        "type": "AI 项目/工具",
-        "bestFor": "A Google Gemini AI model gained unauthorized access to three other companies during a cybersecurity test, according to reports.\n\nGoogle disclosed the incident -",
-        "description": "A Google Gemini AI model gained unauthorized access to three other companies during a cybersecurity test, according to reports.\n\nGoogle disclosed the incident -- which happened in ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The National Desk",
-        "url": "https://thenationaldesk.com/news/americas-news-now/google-says-its-gemini-ai-model-hacked-3-other-companies-reports-artificial-intelligence-network-unauthorized-access-credentials-internet-cybersecurity-test-risks"
-      },
-      {
-        "name": "Google says its Gemini AI model hacked 3 other companies: re",
-        "provider": "WKEF",
-        "type": "AI 项目/工具",
-        "bestFor": "A Google Gemini AI model gained unauthorized access to three other companies during a cybersecurity test, according to reports.\n\nGoogle disclosed the incident -",
-        "description": "A Google Gemini AI model gained unauthorized access to three other companies during a cybersecurity test, according to reports.\n\nGoogle disclosed the incident -- which happened in ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "WKEF",
-        "url": "https://dayton247now.com/news/nation-world/google-says-its-gemini-ai-model-hacked-3-other-companies-reports-artificial-intelligence-network-unauthorized-access-credentials-internet-cybersecurity-test-risks"
       }
     ],
     "ai-business": [
+      {
+        "name": "Bharti Airtel Share Price: What Could Happen If Jio Lists on",
+        "provider": "Trade Brains",
+        "type": "AI 项目/工具",
+        "bestFor": "Jio's potential stock-market listing could reshape India's telecom valuations, with peer-based estimates ranging from ₹7 lakh crore to ₹12.7 lakh crore. Its val",
+        "description": "Jio's potential stock-market listing could reshape India's telecom valuations, with peer-based estimates ranging from ₹7 lakh crore to ₹12.7 lakh crore. Its valuation could influen",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Trade Brains",
+        "url": "https://tradebrains.in/indian-markets/bharti-airtel-share-price-what-could-happen-if-jio-lists-on-the-stock-market-12563656"
+      },
+      {
+        "name": "Mark Zuckerberg's net worth up $25B in a day",
+        "provider": "NewsBytes",
+        "type": "AI 项目/工具",
+        "bestFor": "Mark Zuckerberg saw his net worth jump by a whopping $25 billion in just one day. The spike came as Meta's stocks surged nearly 12%, according to Forbes. The ra",
+        "description": "Mark Zuckerberg saw his net worth jump by a whopping $25 billion in just one day. The spike came as Meta's stocks surged nearly 12%, according to Forbes. The rally took Zuckerberg'",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsBytes",
+        "url": "https://www.newsbytesapp.com/news/business/zuckerberg-s-wealth-jumps-25b-in-a-day-as-meta-soars/story"
+      },
+      {
+        "name": "ChatGPT loses AI market share to Gemini and Claude as prompt",
+        "provider": "Firstpost",
+        "type": "AI 项目/工具",
+        "bestFor": "AI usage is growing overall, but users are spreading their prompts across more platforms, with Gemini and Claude gaining share rapidly\n\nChatGPT's share of AI pr",
+        "description": "AI usage is growing overall, but users are spreading their prompts across more platforms, with Gemini and Claude gaining share rapidly\n\nChatGPT's share of AI prompt volume fell fro",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Firstpost",
+        "url": "https://www.firstpost.com/tech/chatgpt-ai-market-share-gemini-claude-prompt-share-comscore-2026-14047515.html"
+      },
       {
         "name": "Navigating Market Chaos: Expert Strategies from Calamos CEO ",
         "provider": "GreekReporter.com",
@@ -7301,39 +7334,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "SAMAA TV",
         "url": "https://www.samaa.tv/2087356678-iphone-18-pro-vs-pixel-11-pro-which-flagship-is-better"
-      },
-      {
-        "name": "Global AI web traffic soars to 125.7 billion visits in 2025;",
-        "provider": "WION",
-        "type": "AI 项目/工具",
-        "bestFor": "Global web traffic to AI platforms grew 46% in 2025 to 125.7 billion visits, driven by the US, India, and Brazil, according to new data from AITools.xyz.\n\nWeb t",
-        "description": "Global web traffic to AI platforms grew 46% in 2025 to 125.7 billion visits, driven by the US, India, and Brazil, according to new data from AITools.xyz.\n\nWeb traffic to artificial",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "WION",
-        "url": "https://www.wionews.com/business-economy/global-ai-web-traffic-soars-to-125-7-billion-visits-in-2025-us-and-india-lead-market-report-1789189400214"
-      },
-      {
-        "name": "Meta's Muse Reached No. 2 on App Store, Trusting It Is the R",
-        "provider": "International Business Times, Singapore Edition",
-        "type": "AI 项目/工具",
-        "bestFor": "Meta's Muse reached No. 2 on the U.S. App Store within two days of launch, recording more than 83,000 U.S.\n\nMeta's Muse reached No. 2 on the U.S. App Store with",
-        "description": "Meta's Muse reached No. 2 on the U.S. App Store within two days of launch, recording more than 83,000 U.S.\n\nMeta's Muse reached No. 2 on the U.S. App Store within two days of launc",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "International Business Times, Singapore Edition",
-        "url": "https://www.ibtimes.sg/metas-muse-reached-no-2-app-store-trusting-it-real-test-93677"
-      },
-      {
-        "name": "AI boom faces a reality check as OpenAI, Anthropic head for ",
-        "provider": "India Today",
-        "type": "AI 项目/工具",
-        "bestFor": "The artificial intelligence boom is approaching a crucial test as OpenAI and Anthropic prepare to enter public markets, where their valuations will face scrutin",
-        "description": "The artificial intelligence boom is approaching a crucial test as OpenAI and Anthropic prepare to enter public markets, where their valuations will face scrutiny from investors arm",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "India Today",
-        "url": "https://www.indiatoday.in/business/ipo/story/openai-anthropic-ipos-ai-boom-valuations-public-market-test-spacex-2992561-2026-09-11"
       }
     ],
     "ai-benchmark": [
@@ -10185,7 +10185,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-22",
-    "generatedAt": "2026-09-22T06:26:51.823214Z",
+    "generatedAt": "2026-09-22T08:58:46.732032Z",
     "total": 14,
     "sections": [
       {
