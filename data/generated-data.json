@@ -1,7 +1,178 @@
 {
   "lastUpdated": "2026-09-23",
-  "generatedAt": "2026-09-22T16:33:58.062145Z",
+  "generatedAt": "2026-09-22T18:54:23.759969Z",
   "news": [
+    {
+      "title": "Bring more intelligence to everyday work with GPT-6 Sol and GPT-6 Luna on Amazon Bedrock",
+      "summary": "GPT-6 Sol and GPT-6 Luna are now generally available on Amazon Bedrock, giving you more options to match intelligence and efficiency to each workload.",
+      "category": "ai-models",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-23",
+      "publishedAt": "2026-09-23T02:10",
+      "collectedAt": "2026-09-23T02:54",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/bring-more-intelligence-to-everyday-work-with-gpt-6-sol-and-gpt-6-luna-on-amazon-bedrock/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Anthropic 发布 Claude Opus 5.5，成本较 Opus 5 降低 40%",
+      "summary": "Anthropic 发布 Claude Opus 5.5，为 Claude 5.5 系列首个模型，在多数工作上达到 Fable 5.1 水平，典型负载成本较 Opus 5 低 40%。",
+      "category": "ai-models",
+      "source": "Anthropic：Newsroom（网页）",
+      "date": "2026-09-23",
+      "publishedAt": "2026-09-23T00:53",
+      "collectedAt": "2026-09-23T01:44",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://www.anthropic.com/claude-opus-5-5",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Evaluate skill-equipped agents with Strands Evals and Amazon Bedrock AgentCore",
+      "summary": "Skills let you encode domain-specific procedures as reusable, portable instructions for agents, but a fluent answer doesn't prove the agent picked the right skill or followed it. L",
+      "category": "ai-coding",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-23",
+      "publishedAt": "2026-09-23T01:18",
+      "collectedAt": "2026-09-23T01:44",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/evaluate-skill-equipped-agents-with-strands-evals-and-amazon-bedrock-agentcore/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Priorities and principles for effective third party assessments",
+      "summary": "OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.",
+      "category": "ai-models",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-09-22",
+      "publishedAt": "2026-09-22T08:00",
+      "collectedAt": "2026-09-23T02:54",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/priorities-principles-third-party-assessments",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "How Reactiv automates mobile commerce 80% faster with Amazon Bedrock AgentCore",
+      "summary": "Reactiv used Amazon Bedrock AgentCore to build a multi-agent AI Scheduler that autonomously refreshes Shopify merchants' mobile apps on a schedule, reducing merchant configuration ",
+      "category": "ai-agents",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-22",
+      "publishedAt": "2026-09-22T23:46",
+      "collectedAt": "2026-09-23T02:54",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-reactiv-automates-mobile-commerce-80-faster-with-amazon-bedrock-agentcore/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 2,
+      "relatedSources": [
+        {
+          "source": "RSS · AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-trane-gets-building-insights-60x-faster-with-amazon-bedrock-agentcore/",
+          "title": "How Trane gets building insights 60x faster with Amazon Bedrock AgentCore"
+        }
+      ]
+    },
+    {
+      "title": "Right-size generative AI endpoints with concurrency sweeps on Amazon SageMaker AI",
+      "summary": "Concurrency sweeps help you right-size a generative AI endpoint on Amazon SageMaker AI by systematically benchmarking it at increasing load levels. This post walks through deployin",
+      "category": "ai-benchmark",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-22",
+      "publishedAt": "2026-09-22T23:35",
+      "collectedAt": "2026-09-23T02:54",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/right-size-generative-ai-endpoints-with-concurrency-sweeps-on-amazon-sagemaker-ai/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
       "summary": "",
@@ -2427,61 +2598,6 @@
       "moduleTargets": [
         "news",
         "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Interactive Memory Learning for Long-Term Conversations",
-      "summary": "Recent advancements in large language models have significantly enhanced the capabilities of agents in modeling long-term conversations. Despite these successes, existing approache",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-09-15",
-      "publishedAt": "",
-      "collectedAt": "2026-09-16T09:56",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-15",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.17088v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "An Empirical Study of Counterfactual Self-Explanations in LLMs",
-      "summary": "Large language models can easily generate explanations for their own outputs, but such self-explanations are not necessarily faithful to the model's behavior. We study this issue t",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-15",
-      "publishedAt": "",
-      "collectedAt": "2026-09-16T09:56",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-15",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.17119v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
       ],
       "sourceCount": 1
     }
@@ -5569,6 +5685,17 @@
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Evaluate skill-equipped agents with Strands Evals and Amazon",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Skills let you encode domain-specific procedures as reusable, portable instructions for agents, but a fluent answer doesn't prove the agent picked the right ski",
+        "description": "Skills let you encode domain-specific procedures as reusable, portable instructions for agents, but a fluent answer doesn't prove the agent picked the right skill or followed it. L",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/evaluate-skill-equipped-agents-with-strands-evals-and-amazon-bedrock-agentcore/"
+      },
+      {
         "name": "The AI assurance trap: When agents generate their own eviden",
         "provider": "CIO",
         "type": "AI 项目/工具",
@@ -5996,20 +6123,42 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Android Authority",
         "url": "https://www.androidauthority.com/new-ai-apps-services-bens-accessibility-hub-3710318/"
-      },
-      {
-        "name": "Cognition's SWE-2 Coding Agent Matches Rivals at a Quarter o",
-        "provider": "Startup Fortune",
-        "type": "AI 项目/工具",
-        "bestFor": "Cognition launched SWE-2 on September 10, 2026, claiming its new Devin coding agent scores within a point of Anthropic's Fable 5.1 on real-world benchmarks whil",
-        "description": "Cognition launched SWE-2 on September 10, 2026, claiming its new Devin coding agent scores within a point of Anthropic's Fable 5.1 on real-world benchmarks while costing up to 70% ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Startup Fortune",
-        "url": "https://startupfortune.com/cognitions-swe-2-coding-agent-matches-rivals-at-a-quarter-of-the-price/"
       }
     ],
     "ai-agents": [
+      {
+        "name": "How Reactiv automates mobile commerce 80% faster with Amazon",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Reactiv used Amazon Bedrock AgentCore to build a multi-agent AI Scheduler that autonomously refreshes Shopify merchants' mobile apps on a schedule, reducing mer",
+        "description": "Reactiv used Amazon Bedrock AgentCore to build a multi-agent AI Scheduler that autonomously refreshes Shopify merchants' mobile apps on a schedule, reducing merchant configuration ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/how-reactiv-automates-mobile-commerce-80-faster-with-amazon-bedrock-agentcore/"
+      },
+      {
+        "name": "Claude Opus 5.5 上架 Arena 的 Agent Arena 与 Battle Mode",
+        "provider": "X：Arena (@arena)",
+        "type": "AI 项目/工具",
+        "bestFor": "Arena 宣布 Anthropic 的 Claude Opus 5.5 已进入 Agent Arena，用户可通过投票驱动排行榜。Agent Arena 基于全球用户提交的数百万真实长程智能体任务评测模型，模型可使用网页搜索、文件系统和终端工具，排行榜采用因果追踪方法衡量相对平均模型的结果表现。",
+        "description": "Arena 宣布 Anthropic 的 Claude Opus 5.5 已进入 Agent Arena，用户可通过投票驱动排行榜。Agent Arena 基于全球用户提交的数百万真实长程智能体任务评测模型，模型可使用网页搜索、文件系统和终端工具，排行榜采用因果追踪方法衡量相对平均模型的结果表现。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "X：Arena (@arena)",
+        "url": "https://x.com/arena/status/2102454952576868638"
+      },
+      {
+        "name": "How Trane gets building insights 60x faster with Amazon Bedr",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "In about four weeks, Trane Technologies built an AI-powered agentic solution on Amazon Bedrock AgentCore that reduced a 20-minute, multi-screen building diagnos",
+        "description": "In about four weeks, Trane Technologies built an AI-powered agentic solution on Amazon Bedrock AgentCore that reduced a 20-minute, multi-screen building diagnostic workflow to a 20",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/how-trane-gets-building-insights-60x-faster-with-amazon-bedrock-agentcore/"
+      },
       {
         "name": "Why Muse just added billions to Meta's market cap",
         "provider": "Yahoo! Finance",
@@ -6416,42 +6565,31 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Analytics Insight",
         "url": "https://www.analyticsinsight.net/ampstories/artificial-intelligence/what-life-could-look-like-in-an-ai-first-world"
-      },
-      {
-        "name": "AI labs are losing control of agents just as they want to gi",
-        "provider": "Business Insider",
-        "type": "AI 项目/工具",
-        "bestFor": "AI assistants are finally ready to help you run your life. All you need to do is trust them with your email login, your contacts, and your credit card  --  and ",
-        "description": "AI assistants are finally ready to help you run your life. All you need to do is trust them with your email login, your contacts, and your credit card  --  and hope they don't go r",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Business Insider",
-        "url": "https://www.businessinsider.com/ai-agents-misbehavior-alignment-privacy-muse-instinct-2026-9"
-      },
-      {
-        "name": "AI helping speed up Worcestershire bus pass applications say",
-        "provider": "BBC",
-        "type": "AI 项目/工具",
-        "bestFor": "Artificial intelligence (AI) is being used to help speed up bus pass applications in Worcestershire.\n\nThe Bus Pass AI Agent has helped process 2,500 application",
-        "description": "Artificial intelligence (AI) is being used to help speed up bus pass applications in Worcestershire.\n\nThe Bus Pass AI Agent has helped process 2,500 applications and checked 7,500 ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "BBC",
-        "url": "https://www.bbc.com/news/articles/cjqlw7q0ld40o"
-      },
-      {
-        "name": "Google's new AI agent CC can help run your household: All yo",
-        "provider": "storyboard18.com",
-        "type": "AI 项目/工具",
-        "bestFor": "Google is expanding its experimental CC AI agent from a personal productivity tool into a shared assistant for families and households, giving groups a way to c",
-        "description": "Google is expanding its experimental CC AI agent from a personal productivity tool into a shared assistant for families and households, giving groups a way to coordinate schedules,",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "storyboard18.com",
-        "url": "https://www.storyboard18.com/digital/googles-new-ai-agent-cc-can-help-run-your-household-all-you-need-to-know-111016.htm"
       }
     ],
     "ai-models": [
+      {
+        "name": "OpenAI 发布 GPT-6 Sol 和 GPT-6 Luna，API 价格比 GPT-5.6 促销价低 50%",
+        "provider": "X：Sam Altman (@sama)",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenAI 推出 GPT-6 Sol 和 GPT-6 Luna，基于 GPT-6 Astra 的技术，以更快、更实惠的模型支持大规模工作。两款模型通过更高效的缓存和推理降低成本，API 价格比 GPT-5.6 促销定价低 50%。Sam Altman 转发该公告并称这些角色形象很可爱。",
+        "description": "OpenAI 推出 GPT-6 Sol 和 GPT-6 Luna，基于 GPT-6 Astra 的技术，以更快、更实惠的模型支持大规模工作。两款模型通过更高效的缓存和推理降低成本，API 价格比 GPT-5.6 促销定价低 50%。Sam Altman 转发该公告并称这些角色形象很可爱。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "X：Sam Altman (@sama)",
+        "url": "https://x.com/sama/status/2102464201335984392"
+      },
+      {
+        "name": "Meta AI 助手 Muse 曝出严重 0-day，可被本地应用窃取账户令牌",
+        "provider": "Hacker News：AI 热帖",
+        "type": "AI 项目/工具",
+        "bestFor": "Ars Technica 报道，安全专家 Patrick Wardle 披露 Meta 的 macOS AI 助手 Muse 存在 0-day 漏洞：任何本地应用或终端命令都能修改未公开设置，把语音转录端点指向攻击者服务器，从而获取 Muse 账户令牌和完整控制权。",
+        "description": "Ars Technica 报道，安全专家 Patrick Wardle 披露 Meta 的 macOS AI 助手 Muse 存在 0-day 漏洞：任何本地应用或终端命令都能修改未公开设置，把语音转录端点指向攻击者服务器，从而获取 Muse 账户令牌和完整控制权。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Hacker News：AI 热帖",
+        "url": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day"
+      },
       {
         "name": "Windows 11 Design Refresh: Which Legacy Dialogs are Being Mo",
         "provider": "Analytics Insight",
@@ -6869,28 +7007,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Analytics Insight",
         "url": "https://www.analyticsinsight.net/iphone/iphone-18-vs-samsung-galaxy-s26-price-specs-camera-battery-and-performance-compared"
-      },
-      {
-        "name": "Should You Invest in an Anthropic IPO ETF? What Investors Ne",
-        "provider": "The Motley Fool",
-        "type": "AI 项目/工具",
-        "bestFor": "Anthropic's potentially record-breaking initial public offering (IPO) could happen as soon as October, and in advance of that, many investors want exposure to t",
-        "description": "Anthropic's potentially record-breaking initial public offering (IPO) could happen as soon as October, and in advance of that, many investors want exposure to the high-flying artif",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Motley Fool",
-        "url": "https://www.fool.com/investing/2026/09/20/should-you-invest-in-an-anthropic-ipo-etf-what-inv/"
-      },
-      {
-        "name": "Google says AI model Gemini hacked into 3 companies while un",
-        "provider": "https",
-        "type": "AI 项目/工具",
-        "bestFor": "(CNN) - Google said its artificial intelligence system Gemini hacked into three companies.\n\nA company reported it happened in May while the AI model was undergo",
-        "description": "(CNN) - Google said its artificial intelligence system Gemini hacked into three companies.\n\nA company reported it happened in May while the AI model was undergoing testing.\n\nAccord",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "https://www.13abc.com",
-        "url": "https://www.13abc.com/2026/09/19/google-says-ai-model-gemini-hacked-into-3-companies-while-undergoing-testing/"
       }
     ],
     "ai-business": [
@@ -10184,13 +10300,24 @@
   ],
   "dailyReport": {
     "date": "2026-09-23",
-    "generatedAt": "2026-09-22T16:33:58.041175Z",
-    "total": 22,
+    "generatedAt": "2026-09-22T18:54:23.736973Z",
+    "total": 13,
     "sections": [
       {
         "category": "ai-coding",
         "label": "AI 编程",
         "items": [
+          {
+            "title": "Evaluate skill-equipped agents with Strands Evals and Amazon Bedrock AgentCore",
+            "summary": "Skills let you encode domain-specific procedures as reusable, portable instructions for agents, but a fluent answer doesn't prove the agent ",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/evaluate-skill-equipped-agents-with-strands-evals-and-amazon-bedrock-agentcore/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-23",
+            "publishedAt": "2026-09-23T01:18",
+            "reason": ""
+          },
           {
             "title": "xAI’s Grok 4.6 is now available in Amazon Bedrock",
             "summary": "xAI's Grok 4.6 is now available in Amazon Bedrock: a frontier model for long-running agents, coding, and knowledge work, with a 500K token c",
@@ -10201,56 +10328,6 @@
             "date": "2026-09-22",
             "publishedAt": "2026-09-22T02:30",
             "reason": ""
-          },
-          {
-            "title": "tokenizers v1: encode, decode and scaling, measured",
-            "summary": "",
-            "source": "RSS · Hugging Face Blog",
-            "url": "https://huggingface.co/blog/tokenizers-v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-21",
-            "publishedAt": "2026-09-21T08:00",
-            "reason": ""
-          },
-          {
-            "title": "How a global fintech scaled coding agent traffic with Dedicated Model Inference",
-            "summary": "Inside a global bank's shift to self-serve dedicated inference: how Together's DMI gave engineering teams direct control over scaling, model",
-            "source": "RSS · Together AI",
-            "url": "https://www.together.ai/blog/global-fintech-scales-coding-agent-traffic-with-dedicated-model-inference",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-18",
-            "publishedAt": "2026-09-18T08:00",
-            "reason": ""
-          },
-          {
-            "title": "Deploy Hugging Face models on Amazon SageMaker AI with coding agents",
-            "summary": "Deploy production-ready Hugging Face models on Amazon SageMaker AI using six open-source agent skills. Point a coding agent at a model and g",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/deploy-hugging-face-models-on-amazon-sagemaker-ai-with-coding-agents/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-18",
-            "publishedAt": "2026-09-18T23:25",
-            "reason": ""
-          }
-        ]
-      },
-      {
-        "category": "ai-image-video",
-        "label": "图像视频",
-        "items": [
-          {
-            "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
-            "summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
-            "source": "RSS · OpenAI Blog",
-            "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-21",
-            "publishedAt": "2026-09-21T20:00",
-            "reason": ""
           }
         ]
       },
@@ -10259,14 +10336,14 @@
         "label": "Agent / MCP",
         "items": [
           {
-            "title": "The new AgentCore runtime: Elastic, optimized, and consistently fast starts",
-            "summary": "Today we are announcing the new AgentCore runtime, a capability of Amazon Bedrock AgentCore built for the speed, flexibility, and cost effic",
+            "title": "How Reactiv automates mobile commerce 80% faster with Amazon Bedrock AgentCore",
+            "summary": "Reactiv used Amazon Bedrock AgentCore to build a multi-agent AI Scheduler that autonomously refreshes Shopify merchants' mobile apps on a sc",
             "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/the-new-agentcore-runtime-elastic-optimized-and-consistently-fast-starts/",
+            "url": "https://aws.amazon.com/blogs/machine-learning/how-reactiv-automates-mobile-commerce-80-faster-with-amazon-bedrock-agentcore/",
             "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-18",
-            "publishedAt": "2026-09-18T23:31",
+            "sourceCount": 2,
+            "date": "2026-09-22",
+            "publishedAt": "2026-09-22T23:46",
             "reason": ""
           }
         ]
@@ -10275,6 +10352,39 @@
         "category": "ai-models",
         "label": "模型发布",
         "items": [
+          {
+            "title": "Bring more intelligence to everyday work with GPT-6 Sol and GPT-6 Luna on Amazon Bedrock",
+            "summary": "GPT-6 Sol and GPT-6 Luna are now generally available on Amazon Bedrock, giving you more options to match intelligence and efficiency to each",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/bring-more-intelligence-to-everyday-work-with-gpt-6-sol-and-gpt-6-luna-on-amazon-bedrock/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-23",
+            "publishedAt": "2026-09-23T02:10",
+            "reason": ""
+          },
+          {
+            "title": "Anthropic 发布 Claude Opus 5.5，成本较 Opus 5 降低 40%",
+            "summary": "Anthropic 发布 Claude Opus 5.5，为 Claude 5.5 系列首个模型，在多数工作上达到 Fable 5.1 水平，典型负载成本较 Opus 5 低 40%。",
+            "source": "Anthropic：Newsroom（网页）",
+            "url": "https://www.anthropic.com/claude-opus-5-5",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-23",
+            "publishedAt": "2026-09-23T00:53",
+            "reason": ""
+          },
+          {
+            "title": "Priorities and principles for effective third party assessments",
+            "summary": "OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and saf",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/priorities-principles-third-party-assessments",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-22",
+            "publishedAt": "2026-09-22T08:00",
+            "reason": ""
+          },
           {
             "title": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
             "summary": "",
@@ -10318,94 +10428,6 @@
             "date": "2026-09-22",
             "publishedAt": "2026-09-22T00:00",
             "reason": ""
-          },
-          {
-            "title": "Building standards for the next phase of AI",
-            "summary": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.",
-            "source": "RSS · OpenAI Blog",
-            "url": "https://openai.com/index/building-standards-next-phase-ai",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-21",
-            "publishedAt": "2026-09-21T18:00",
-            "reason": ""
-          },
-          {
-            "title": "Advisory Group on Mathematics and Artificial Intelligence",
-            "summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of eme",
-            "source": "RSS · OpenAI Blog",
-            "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-21",
-            "publishedAt": "2026-09-21T20:00",
-            "reason": ""
-          },
-          {
-            "title": "Expanding OpenAI Academy with new learning paths",
-            "summary": "Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI ",
-            "source": "RSS · OpenAI Blog",
-            "url": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-21",
-            "publishedAt": "2026-09-21T15:00",
-            "reason": ""
-          },
-          {
-            "title": "Inside Petal: Building the World’s First Petabit-Class Transoceanic Subsea Cable",
-            "summary": "Petal, the next step in Meta’s subsea innovation, will be the first subsea cable to deliver petabit capacity at transoceanic distances, conn",
-            "source": "RSS · Meta Engineering",
-            "url": "https://engineering.fb.com/2026/09/21/connectivity/petal-petabit-transoceanic-subsea-cable/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-21",
-            "publishedAt": "2026-09-21T20:00",
-            "reason": ""
-          },
-          {
-            "title": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
-            "summary": "",
-            "source": "RSS · Hugging Face Blog",
-            "url": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-21",
-            "publishedAt": "2026-09-21T21:44",
-            "reason": ""
-          },
-          {
-            "title": "MilleMiglia: A realistic instance generator for middle-mile logistics",
-            "summary": "Algorithms & Theory",
-            "source": "RSS · Google Research",
-            "url": "https://research.google/blog/millemiglia-a-realistic-instance-generator-for-middle-mile-logistics/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-19",
-            "publishedAt": "2026-09-19T01:46",
-            "reason": ""
-          },
-          {
-            "title": "Sep 18, 2026 Announcements Partnering with Accenture on embedded evaluation",
-            "summary": "Sep 18, 2026 Announcements Partnering with Accenture on embedded evaluation",
-            "source": "HTML · Anthropic",
-            "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-18",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Co-creating the future of fashion with Google",
-            "summary": "Google worked side-by-side with designers Jane Wade and Sergio Hudson to custom-design Google Flow tools to prep for NYFW.",
-            "source": "RSS · Google AI Blog",
-            "url": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-18",
-            "publishedAt": "2026-09-18T21:00",
-            "reason": ""
           }
         ]
       },
@@ -10413,6 +10435,17 @@
         "category": "ai-benchmark",
         "label": "评测榜单",
         "items": [
+          {
+            "title": "Right-size generative AI endpoints with concurrency sweeps on Amazon SageMaker AI",
+            "summary": "Concurrency sweeps help you right-size a generative AI endpoint on Amazon SageMaker AI by systematically benchmarking it at increasing load ",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/right-size-generative-ai-endpoints-with-concurrency-sweeps-on-amazon-sagemaker-ai/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-22",
+            "publishedAt": "2026-09-22T23:35",
+            "reason": ""
+          },
           {
             "title": "Advancing AI for biology: Teaching models to design and characterize antibodies",
             "summary": "Three new papers from Amazon Bio Discovery address bottlenecks in AI-driven antibody engineering, from benchmarking binding predictors to ex",
@@ -10439,28 +10472,6 @@
             "sourceCount": 1,
             "date": "2026-09-22",
             "publishedAt": "2026-09-22T03:31",
-            "reason": ""
-          },
-          {
-            "title": "Improving synthesis prediction of small molecules at scale with RetroChimera",
-            "summary": "Custom-made molecules are advancing medicine, materials, and agriculture, but producing them is slow and expensive. A new Nature paper highl",
-            "source": "RSS · Microsoft Research",
-            "url": "https://www.microsoft.com/en-us/research/blog/improving-synthesis-prediction-of-small-molecules-at-scale-with-retrochimera/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-21",
-            "publishedAt": "2026-09-21T23:30",
-            "reason": ""
-          },
-          {
-            "title": "New experts join Google’s AI & Economy team",
-            "summary": "We are expanding our AI & Economy team with world-class academic advisors, fellows, and core internal researchers.",
-            "source": "RSS · Google AI Blog",
-            "url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-18",
-            "publishedAt": "2026-09-18T22:00",
             "reason": ""
           }
         ]
