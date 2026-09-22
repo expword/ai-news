@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-22",
-  "generatedAt": "2026-09-22T11:30:51.861427Z",
+  "generatedAt": "2026-09-22T14:03:51.197586Z",
   "news": [
     {
       "title": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
@@ -5569,6 +5569,17 @@ window.AI_GENERATED_DATA = {
   "topicResources": {
     "ai-coding": [
       {
+        "name": "The AI assurance trap: When agents generate their own eviden",
+        "provider": "CIO",
+        "type": "AI 项目/工具",
+        "bestFor": "AI can write the code, tests and documentation, but who's checking that the AI got the important decisions right? endif; ?>\n\nFor millennia, the definition of \"w",
+        "description": "AI can write the code, tests and documentation, but who's checking that the AI got the important decisions right? endif; ?>\n\nFor millennia, the definition of \"work\" was defined by ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "CIO",
+        "url": "https://www.cio.com/article/4224477/the-ai-assurance-trap-when-agents-generate-their-own-evidence.html"
+      },
+      {
         "name": "'I Tell Our Engineers To Use AI, But...': Zoho Founder Sridh",
         "provider": "News18",
         "type": "AI 项目/工具",
@@ -5996,20 +6007,64 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Startup Fortune",
         "url": "https://startupfortune.com/cognitions-swe-2-coding-agent-matches-rivals-at-a-quarter-of-the-price/"
-      },
-      {
-        "name": "OpenAI 发布 Agents API 公测版",
-        "provider": "OpenAI：官网动态（RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenAI 推出 Agents API 公开测试版，将驱动 Codex 的 harness 与基础设施通过单次 API 调用开放给开发者，托管在云端。",
-        "description": "OpenAI 推出 Agents API 公开测试版，将驱动 Codex 的 harness 与基础设施通过单次 API 调用开放给开发者，托管在云端。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-        "url": "https://openai.com/index/introducing-the-agents-api"
       }
     ],
     "ai-agents": [
+      {
+        "name": "Why Muse just added billions to Meta's market cap",
+        "provider": "Yahoo! Finance",
+        "type": "AI 项目/工具",
+        "bestFor": "The way the market sees it now, Meta (META) is about to upend the enterprise tech market with its new Muse AI agent.\n\n\"Lots can and will change in the future, b",
+        "description": "The way the market sees it now, Meta (META) is about to upend the enterprise tech market with its new Muse AI agent.\n\n\"Lots can and will change in the future, but the key, simple p",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Yahoo! Finance",
+        "url": "https://ca.finance.yahoo.com/news/why-muse-just-added-billions-to-metas-market-cap-094853229.html"
+      },
+      {
+        "name": "Why Muse just added billions to Meta's market cap",
+        "provider": "Yahoo7 Finance",
+        "type": "AI 项目/工具",
+        "bestFor": "The way the market sees it now, Meta (META) is about to upend the enterprise tech market with its new Muse AI agent.\n\n\"Lots can and will change in the future, b",
+        "description": "The way the market sees it now, Meta (META) is about to upend the enterprise tech market with its new Muse AI agent.\n\n\"Lots can and will change in the future, but the key, simple p",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Yahoo7 Finance",
+        "url": "https://au.finance.yahoo.com/news/why-muse-just-added-billions-to-metas-market-cap-094853229.html"
+      },
+      {
+        "name": "Why Muse just added billions to Meta's market cap",
+        "provider": "Yahoo! Finance",
+        "type": "AI 项目/工具",
+        "bestFor": "The way the market sees it now, Meta (META) is about to upend the enterprise tech market with its new Muse AI agent.\n\n\"Lots can and will change in the future, b",
+        "description": "The way the market sees it now, Meta (META) is about to upend the enterprise tech market with its new Muse AI agent.\n\n\"Lots can and will change in the future, but the key, simple p",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Yahoo! Finance",
+        "url": "https://finance.yahoo.com/markets/stocks/article/why-muse-just-added-billions-to-metas-market-cap-094853229.html"
+      },
+      {
+        "name": "Groupthink -- Why AI Agent Groups Fail",
+        "provider": "Medium",
+        "type": "AI 项目/工具",
+        "bestFor": "AI agents just failed a 1985 social psychology experiment at the same rate humans did. We have seen this before.\n\nIn an experiment published this August, Anthro",
+        "description": "AI agents just failed a 1985 social psychology experiment at the same rate humans did. We have seen this before.\n\nIn an experiment published this August, Anthropic's Frontier Red T",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Medium",
+        "url": "https://aiadvances.org/groupthink-why-ai-agent-groups-fail-2cb0e13e14df"
+      },
+      {
+        "name": "Meta's Muse AI agent is taking off: What makes it different,",
+        "provider": "The Indian Express",
+        "type": "AI 项目/工具",
+        "bestFor": "Meta's personal AI agent 'Muse' has quickly become a major talking point in the AI world since its launch earlier this month.\n\nIn just the last 24 hours or so, ",
+        "description": "Meta's personal AI agent 'Muse' has quickly become a major talking point in the AI world since its launch earlier this month.\n\nIn just the last 24 hours or so, Muse has climbed to ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Indian Express",
+        "url": "https://indianexpress.com/article/technology/artificial-intelligence/meta-muse-ai-agent-what-makes-it-different-amazon-dispute-10889290/"
+      },
       {
         "name": "Enterprises debate final shield they must deploy to stop rog",
         "provider": "Economic Times",
@@ -6394,64 +6449,42 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "storyboard18.com",
         "url": "https://www.storyboard18.com/digital/googles-new-ai-agent-cc-can-help-run-your-household-all-you-need-to-know-111016.htm"
-      },
-      {
-        "name": "Google's Gemini AI Model Hacked 3 Real Time Companies During",
-        "provider": "The Hans India",
-        "type": "AI 项目/工具",
-        "bestFor": "Google has come forward and disclosed that its AI agents have hacked another company. The tech giant gave confirmation that its Gemini AI models have hacked int",
-        "description": "Google has come forward and disclosed that its AI agents have hacked another company. The tech giant gave confirmation that its Gemini AI models have hacked into three real compani",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Hans India",
-        "url": "https://www.thehansindia.com/tech/googles-gemini-ai-model-hacked-3-real-time-companies-during-cybersecurity-test-1123667"
-      },
-      {
-        "name": "HubSpot Unveils AI Agent Strategy, Lifts 2030 Margin Targets",
-        "provider": "Yahoo! Finance",
-        "type": "AI 项目/工具",
-        "bestFor": "* Docusign: Another Beat, Another Selloff -- Why the Analysts Are Wrong\n\nHubSpot (NYSE:HUBS) used its Analyst Day at UNBOUND to outline an AI-focused strategy c",
-        "description": "* Docusign: Another Beat, Another Selloff -- Why the Analysts Are Wrong\n\nHubSpot (NYSE:HUBS) used its Analyst Day at UNBOUND to outline an AI-focused strategy centered on what Chie",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Yahoo! Finance",
-        "url": "https://finance.yahoo.com/technology/ai/articles/hubspot-unveils-ai-agent-strategy-180216615.html"
-      },
-      {
-        "name": "GenAI Skills in 2026: Why AI Agents, Multi-Agent Systems Mat",
-        "provider": "Analytics Insight",
-        "type": "AI 项目/工具",
-        "bestFor": "Generative AI is moving beyond chatbots and basic prompt-based tools. In 2026, businesses are increasingly experimenting with AI agents that can handle multi-st",
-        "description": "Generative AI is moving beyond chatbots and basic prompt-based tools. In 2026, businesses are increasingly experimenting with AI agents that can handle multi-step tasks, use softwa",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Analytics Insight",
-        "url": "https://www.analyticsinsight.net/artificial-intelligence/genai-skills-in-2026-why-ai-agents-multi-agent-systems-matter"
-      },
-      {
-        "name": "Indian Consumers Are Walking Away From AI That Forgets Them,",
-        "provider": "BW Businessworld",
-        "type": "AI 项目/工具",
-        "bestFor": "Nearly seven in 10 have abandoned an AI agent mid-conversation for lacking basic context, says Twilio's survey; India remains the most eager market in Asia Paci",
-        "description": "Nearly seven in 10 have abandoned an AI agent mid-conversation for lacking basic context, says Twilio's survey; India remains the most eager market in Asia Pacific to hand everyday",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "BW Businessworld",
-        "url": "https://www.businessworld.in/article/indian-consumers-are-walking-away-from-ai-that-forgets-them-finds-twilio-study-624592"
-      },
-      {
-        "name": "Google Turns CC Into an AI Agent That Can Help Run Your Fami",
-        "provider": "ProPakistani",
-        "type": "AI 项目/工具",
-        "bestFor": "Google is testing a new version of CC, its AI agent that works across email, calendars, chats and tasks, with the service now focused on helping families organi",
-        "description": "Google is testing a new version of CC, its AI agent that works across email, calendars, chats and tasks, with the service now focused on helping families organize and manage everyd",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "ProPakistani",
-        "url": "https://propakistani.pk/?p=1084300"
       }
     ],
     "ai-models": [
+      {
+        "name": "Apple 新款 Mac mini（M6/M5 Pro）与 Mac Studio（M5 Max/M5 Ultra）今日开",
+        "provider": "Apple：Newsroom（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "Apple 宣布新款 Mac mini 和 Mac Studio 于 9 月 22 日开售。Mac mini 搭载 M6 和 M5 Pro，AI 性能最高提升 4 倍。",
+        "description": "Apple 宣布新款 Mac mini 和 Mac Studio 于 9 月 22 日开售。Mac mini 搭载 M6 和 M5 Pro，AI 性能最高提升 4 倍。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Apple：Newsroom（RSS）",
+        "url": "https://www.apple.com/newsroom/2026/09/the-new-mac-mini-and-mac-studio-are-available-today"
+      },
+      {
+        "name": "OpenRouter 推出 Batch API，批量推理可享半价",
+        "provider": "OpenRouter：Announcements（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenRouter 发布 Batch API，异步批量请求由供应商在 24 小时窗口内完成，通常按正常 per-token 价格的 50% 或更低收费，目前已支持 70 多个模型。",
+        "description": "OpenRouter 发布 Batch API，异步批量请求由供应商在 24 小时窗口内完成，通常按正常 per-token 价格的 50% 或更低收费，目前已支持 70 多个模型。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "OpenRouter：Announcements（RSS）",
+        "url": "https://openrouter.ai/blog/announcements/batch-api"
+      },
+      {
+        "name": "Don't Let GenAI's Glitz Distract From Predictive AI's Low-Ha",
+        "provider": "Forbes",
+        "type": "AI 项目/工具",
+        "bestFor": "Predictive AI remains as economically important as ever, and its emerging role in making genAI reliable further expands its importance.\n\nTwo types of AI appear ",
+        "description": "Predictive AI remains as economically important as ever, and its emerging role in making genAI reliable further expands its importance.\n\nTwo types of AI appear to be locked in an a",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Forbes",
+        "url": "https://www.forbes.com/sites/ericsiegel/2026/09/22/dont-let-genais-glitz-distract-from-predictive-ais-low-hanging-fruit/"
+      },
       {
         "name": "Inside India's Digital Audit Blueprint",
         "provider": "Swarajyamag",
@@ -6858,42 +6891,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "조선일보",
         "url": "https://www.chosun.com/english/industry-en/2026/09/20/DFE3KZNRWRG5NCLQAOFE764NYA/"
-      },
-      {
-        "name": "Gadget Weekly: Asus Vivobook, Oppo K14 Lite & Samsung Bespok",
-        "provider": "Deccan Herald",
-        "type": "AI 项目/工具",
-        "bestFor": "Technology companies Asus, Oppo, Samsung, Google, Sony and others launched smartphones, computers, cameras, accessories, and more this week (September 14-20, 20",
-        "description": "Technology companies Asus, Oppo, Samsung, Google, Sony and others launched smartphones, computers, cameras, accessories, and more this week (September 14-20, 2026).\n\nDH's Gadgets W",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Deccan Herald",
-        "url": "https://www.deccanherald.com/technology/gadget-weekly-asus-vivobook-14-flip-oppo-k14-lite-and-more-4151855"
-      },
-      {
-        "name": "Editor's Take: The Week That Was -- Sept 14-19",
-        "provider": "DealStreetAsia",
-        "type": "AI 项目/工具",
-        "bestFor": "This week, Grab put $1.49 billion behind its ambition to become more than a ride-hailing company, agreeing to buy a 60% stake in fintech unicorn Atome Financial",
-        "description": "This week, Grab put $1.49 billion behind its ambition to become more than a ride-hailing company, agreeing to buy a 60% stake in fintech unicorn Atome Financial, confirming a DealS",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "DealStreetAsia",
-        "url": "https://www.dealstreetasia.com/stories/editors-take-the-week-that-was-sept-14-19-495623"
-      },
-      {
-        "name": "纽约时报诉讼文件披露：微软高管称 AI 抓取是人类历史上最大规模的劳动力盗用",
-        "provider": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "type": "AI 项目/工具",
-        "bestFor": "纽约时报在起诉 OpenAI 和微软的版权案中提交法律简报并申请即决判决，引用双方内部文件称 AI 抓取是\"人类历史上最大规模的劳动力盗用\"，OpenAI ChatGPT 负责人称其对出版商是\"生存威胁\"。文件还显示 Copilot 使纽约时报的点击率相比 Bing 搜索最多下降 93%，且 Nadella 在证词中表",
-        "description": "纽约时报在起诉 OpenAI 和微软的版权案中提交法律简报并申请即决判决，引用双方内部文件称 AI 抓取是\"人类历史上最大规模的劳动力盗用\"，OpenAI ChatGPT 负责人称其对出版商是\"生存威胁\"。文件还显示 Copilot 使纽约时报的点击率相比 Bing 搜索最多下降 93%，且 Nadella 在证词中表示付费墙内容应获得授权，这些内容可能削弱",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-director-called-ai-scraping-the-largest-theft-of-labor-in-human-history-while-openai-head-brands-chatgpt-an-existential-threat-to-publishers-revelations-come-from-legal-briefs-filed-in-nyt-lawsuit"
       }
     ],
     "ai-business": [
+      {
+        "name": "Meta's Muse Could Become Most Widely Used Consumer AI App Si",
+        "provider": "Asianet News Network Pvt Ltd",
+        "type": "AI 项目/工具",
+        "bestFor": "Muse's early momentum is giving analysts more confidence that Meta can turn its AI spending into new revenue streams, with subscriptions, advertising and transa",
+        "description": "Muse's early momentum is giving analysts more confidence that Meta can turn its AI spending into new revenue streams, with subscriptions, advertising and transaction fees all emerg",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Asianet News Network Pvt Ltd",
+        "url": "https://newsable.asianetnews.com/markets/meta-s-muse-could-become-most-widely-used-consumer-ai-app-since-chatgpt-jpmorgan-says-bofa-sees-improving-ai-return-sentiment-articleshow-p6rvgid"
+      },
       {
         "name": "Bharti Airtel Share Price: What Could Happen If Jio Lists on",
         "provider": "Trade Brains",
@@ -7322,17 +7333,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Trade Brains",
         "url": "https://tradebrains.in/indian-markets/molbio-diagnostics-what-does-it-do-and-is-its-65x-pe-justified-12527149"
-      },
-      {
-        "name": "iPhone 18 Pro vs Pixel 11 Pro: Which flagship is better?",
-        "provider": "SAMAA TV",
-        "type": "AI 项目/工具",
-        "bestFor": "Apple's latest Pro iPhone focuses on performance and camera hardware\n\nApple's iPhone 18 Pro and Google's Pixel 11 Pro take different approaches to the premium s",
-        "description": "Apple's latest Pro iPhone focuses on performance and camera hardware\n\nApple's iPhone 18 Pro and Google's Pixel 11 Pro take different approaches to the premium smartphone market, wi",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "SAMAA TV",
-        "url": "https://www.samaa.tv/2087356678-iphone-18-pro-vs-pixel-11-pro-which-flagship-is-better"
       }
     ],
     "ai-benchmark": [
@@ -8338,6 +8338,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-research": [
       {
+        "name": "Using AI to 'talk to animals' might make us feel clever - bu",
+        "provider": "The Guardian",
+        "type": "AI 项目/工具",
+        "bestFor": "As animal behaviorists increasingly use AI in their research, they grapple with how to wield the technology responsibly\n\nI'm sitting in a small boat in Shark Ba",
+        "description": "As animal behaviorists increasingly use AI in their research, they grapple with how to wield the technology responsibly\n\nI'm sitting in a small boat in Shark Bay, Australia, eavesd",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Guardian",
+        "url": "https://www.theguardian.com/technology/ng-interactive/2026/sep/22/animal-language-recordings-ai"
+      },
+      {
         "name": "AI company Anthropic opening SG office in Oct; hiring 10 Sin",
         "provider": "The Independent",
         "type": "AI 项目/工具",
@@ -8765,17 +8776,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Research Live",
         "url": "http://www.research-live.com/article/news/surveymonkey-updates-platform/id/5152487"
-      },
-      {
-        "name": "From Rollouts to Recipes: Self-Contained Post-Training for L",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Post-training large language models usually applies a single training recipe to all samples, even though the model's own rollouts reveal different sample-level ",
-        "description": "Post-training large language models usually applies a single training recipe to all samples, even though the model's own rollouts reveal different sample-level learning states. We ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2609.01422v1"
       }
     ],
     "ai-office": []
@@ -10184,7 +10184,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-22",
-    "generatedAt": "2026-09-22T11:30:51.837847Z",
+    "generatedAt": "2026-09-22T14:03:51.176587Z",
     "total": 15,
     "sections": [
       {
