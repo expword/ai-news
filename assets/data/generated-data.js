@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-22",
-  "generatedAt": "2026-09-21T21:50:13.527151Z",
+  "generatedAt": "2026-09-22T01:24:53.156237Z",
   "news": [
     {
       "title": "Amazon launches research initiative with Stanford University to advance AI and science",
@@ -2485,185 +2485,6 @@ window.AI_GENERATED_DATA = {
         "topicResources"
       ],
       "sourceCount": 1
-    },
-    {
-      "title": "ROSETTA: Efficient and Accurate Privacy-Preserving LLM Decoding via Hybrid CKKS/TFHE Evaluation",
-      "summary": "Generative large language models (LLMs) have achieved state-of-the-art performance on many real-world tasks such as code generation and question answering. These models predominant",
-      "category": "ai-coding",
-      "source": "arXiv",
-      "date": "2026-09-15",
-      "publishedAt": "",
-      "collectedAt": "2026-09-16T09:56",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-15",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.16915v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "New insights from Google’s AI & Economy ATLAS",
-      "summary": "We’ve translated ATLAS’s millions of global data points into an interactive, open-access experience.",
-      "category": "ai-models",
-      "source": "RSS · Google AI Blog",
-      "date": "2026-09-15",
-      "publishedAt": "2026-09-15T21:00",
-      "collectedAt": "2026-09-16T00:21",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-economy-atlas-september-2026/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "ZGCM-1: A Fully Open and Extremely Efficient Foundation Model for Math and Agentic Search",
-      "summary": "arXiv:2609.13356v1 Announce Type: new Abstract: In this work, we present ZGCM-1, a fully open 7B dense foundation model trained from scratch with extreme data, system, and algorith",
-      "category": "ai-agents",
-      "source": "RSS · arXiv cs.AI",
-      "date": "2026-09-15",
-      "publishedAt": "",
-      "collectedAt": "2026-09-15T14:12",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-15",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2609.13356",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Watch astronaut Christina Koch and Google’s James Manyika discuss space, technology, and discovery.",
-      "summary": "Christina Koch sits down with James Manyika, Google’s Senior Vice President of Research, Labs, Technology & Society.",
-      "category": "ai-research",
-      "source": "RSS · Google AI Blog",
-      "date": "2026-09-15",
-      "publishedAt": "2026-09-15T03:00",
-      "collectedAt": "2026-09-15T05:36",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-christina-koch/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Abnormal AI: Amazon Bedrock AgentCore for agentic email security at scale",
-      "summary": "Learn how Abnormal AI deployed Amazon Bedrock AgentCore Code Interpreter as an ephemeral compute scratch pad for the agents behind its real-time email threat detection at billion-m",
-      "category": "ai-coding",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-09-15",
-      "publishedAt": "2026-09-15T05:22",
-      "collectedAt": "2026-09-15T05:36",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/abnormal-ai-amazon-bedrock-agentcore-for-agentic-email-security-at-scale/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 2,
-      "relatedSources": [
-        {
-          "source": "RSS · AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-kimi-k3-on-amazon-bedrock/",
-          "title": "Introducing Kimi K3 on Amazon Bedrock"
-        }
-      ]
-    },
-    {
-      "title": "Manage end-user OAuth consent for AI agents with Amazon Bedrock AgentCore",
-      "summary": "Amazon Bedrock AgentCore Identity now offers a Consent portal, a managed web experience and session binding endpoint for AgentCore Gateway. This post walks through provisioning a p",
-      "category": "ai-coding",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-09-15",
-      "publishedAt": "2026-09-15T04:35",
-      "collectedAt": "2026-09-15T05:36",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/manage-end-user-oauth-consent-for-ai-agents-with-amazon-bedrock-agentcore/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 2,
-      "relatedSources": [
-        {
-          "source": "RSS · AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/migrating-multi-model-ai-agents-to-amazon-bedrock-agentcore-runtime/",
-          "title": "Migrating multi-model AI agents to Amazon Bedrock AgentCore runtime"
-        }
-      ]
     }
   ],
   "weeklyDigests": [
@@ -6191,6 +6012,61 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "South Korean chip stocks gain as Meta's Muse AI agent spurs ",
+        "provider": "cnbctv18.com",
+        "type": "AI 项目/工具",
+        "bestFor": "South Korean chip stocks rose after Meta's AI agent showed early success. Samsung Electronics and SK Hynix saw gains, boosting the Kospi Index. Lower oil prices",
+        "description": "South Korean chip stocks rose after Meta's AI agent showed early success. Samsung Electronics and SK Hynix saw gains, boosting the Kospi Index. Lower oil prices and US-China talks ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "cnbctv18.com",
+        "url": "https://www.cnbctv18.com/market/south-korean-chip-stocks-gain-as-metas-muse-ai-agent-spurs-enthusiasm-19995293.htm"
+      },
+      {
+        "name": "Sydney Fintech OpenDebt Raises $2M Seed Round to Roll Out Au",
+        "provider": "International Business Times AU",
+        "type": "AI 项目/工具",
+        "bestFor": "The startup plans to use the seed funding to develop compliance-focused voice technology and expand enterprise deployments across lenders, utilities and collect",
+        "description": "The startup plans to use the seed funding to develop compliance-focused voice technology and expand enterprise deployments across lenders, utilities and collection agencies.\n\nSYDNE",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "International Business Times AU",
+        "url": "https://www.ibtimes.com.au/opendebt-raises-2-million-ai-debt-recovery-1875724"
+      },
+      {
+        "name": "Amazon Bars Meta's Muse AI From Its Store as Agent Shopping ",
+        "provider": "WebProNews",
+        "type": "AI 项目/工具",
+        "bestFor": "Amazon moved swiftly this weekend to shut Meta's new AI shopping helper out of its vast online marketplace. Users who asked the assistant, called Muse, to make ",
+        "description": "Amazon moved swiftly this weekend to shut Meta's new AI shopping helper out of its vast online marketplace. Users who asked the assistant, called Muse, to make purchases on the sit",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "WebProNews",
+        "url": "https://www.webpronews.com/amazon-bars-metas-muse-ai-from-its-store-as-agent-shopping-hits-first-roadblock/"
+      },
+      {
+        "name": "Cohesity Introduces Agent Resilience to Protect and Recover ",
+        "provider": "Yahoo! Finance",
+        "type": "AI 项目/工具",
+        "bestFor": "Cohesity Agent Resilience launches with support for Amazon Bedrock; Microsoft and Google platforms are on the roadmap. Cohesity also outlines a path to automate",
+        "description": "Cohesity Agent Resilience launches with support for Amazon Bedrock; Microsoft and Google platforms are on the roadmap. Cohesity also outlines a path to automate cyber resilience in",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Yahoo! Finance",
+        "url": "https://finance.yahoo.com/technology/ai/articles/cohesity-introduces-agent-resilience-protect-010000060.html"
+      },
+      {
+        "name": "OpenRouter 解读 NVIDIA Nemotron 3.5 Lightning 如何承担 Agent 高频执行调",
+        "provider": "OpenRouter：Announcements（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenRouter 发文解读 NVIDIA 的 Nemotron 3.5 Lightning，这是一款 30B 总参数、约 3B 激活参数的混合专家开源权重模型，定位于工具调用、编码等高频、边界清晰的 Agent 执行步骤，与负责复杂推理的 Nemotron 3 Ultra（550B 总参数、55B 激活）形成分工。",
+        "description": "OpenRouter 发文解读 NVIDIA 的 Nemotron 3.5 Lightning，这是一款 30B 总参数、约 3B 激活参数的混合专家开源权重模型，定位于工具调用、编码等高频、边界清晰的 Agent 执行步骤，与负责复杂推理的 Nemotron 3 Ultra（550B 总参数、55B 激活）形成分工。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "OpenRouter：Announcements（RSS）",
+        "url": "https://openrouter.ai/blog/insights/nemotron-3-5-lightning"
+      },
+      {
         "name": "小米发布 MiMo-V2.6 Pro 与 Flash 全模态开源模型",
         "provider": "X：小米 MiMo (@XiaomiMiMo)",
         "type": "AI 项目/工具",
@@ -6574,61 +6450,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Pulse 2.0",
         "url": "https://pulse2.com/magentic-raises-18-million-series-a-to-expand-ai-digital-workers-for-global-manufacturers/"
-      },
-      {
-        "name": "Raindrop Raises Series A Funding For AI Agent Reliability Pl",
-        "provider": "Pulse 2.0",
-        "type": "AI 项目/工具",
-        "bestFor": "Raindrop has raised a Series A led by CRV, bringing its total funding to $50 million as the company expands technology designed to detect failures in autonomous",
-        "description": "Raindrop has raised a Series A led by CRV, bringing its total funding to $50 million as the company expands technology designed to detect failures in autonomous AI agents. Existing",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Pulse 2.0",
-        "url": "https://pulse2.com/raindrop-raises-series-a-led-by-crv-bringing-total-funding-to-50-million-for-ai-agent-reliability-platform/"
-      },
-      {
-        "name": "Oracle’s Java 27, AI Nurse, Wind Energy, and More: Key Devel",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Catch up on Oracle's latest: Java 27 with post-quantum security, AI nurse assistant, Texas wind farms, Ellison's share sale cancelation, and VA subpoenas. The p",
-        "description": "Catch up on Oracle's latest: Java 27 with post-quantum security, AI nurse assistant, Texas wind farms, Ellison's share sale cancelation, and VA subpoenas. The post Oracle’s Java 27",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.sourcetrail.com/java/oracles-java-27-ai-nurse-wind-energy-and-more-key-developments/"
-      },
-      {
-        "name": "OpenAI agents discussed ways to escape their sandbox on publ",
-        "provider": "RocketNews | Top News Stories From Around the Globe",
-        "type": "AI 项目/工具",
-        "bestFor": "Self-identifying OpenAI agents generated thousands of messages on a public German wiki discussing methods to circumvent security sandbox restrictions that were ",
-        "description": "Self-identifying OpenAI agents generated thousands of messages on a public German wiki discussing methods to circumvent security sandbox restrictions that were designed to prevent ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RocketNews | Top News Stories From Around the Globe",
-        "url": "https://rocketnews.com/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki-4/"
-      },
-      {
-        "name": "Meta's Muse AI agent is very powerful -- but not enough to o",
-        "provider": "Business Insider",
-        "type": "AI 项目/工具",
-        "bestFor": "There are a whole slew of very good reasons that I should feel nervous about giving Meta access to my health data. Or my credit cards. Or read/write access to m",
-        "description": "There are a whole slew of very good reasons that I should feel nervous about giving Meta access to my health data. Or my credit cards. Or read/write access to my personal and work ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Business Insider",
-        "url": "https://www.businessinsider.com/meta-muse-review-access-to-emails-credit-cards-health-data-2026-9"
-      },
-      {
-        "name": "Google's new AI agent can help families manage daily tasks",
-        "provider": "NewsBytes",
-        "type": "AI 项目/工具",
-        "bestFor": "Google has launched an updated version of its artificial intelligence (AI) agent, CC. The new and improved CC is designed to assist families in managing their d",
-        "description": "Google has launched an updated version of its artificial intelligence (AI) agent, CC. The new and improved CC is designed to assist families in managing their daily activities. It ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsBytes",
-        "url": "https://www.newsbytesapp.com/news/science/google-cc-ai-can-now-manage-your-family-s-daily-activities/story"
       }
     ],
     "ai-models": [
@@ -7075,6 +6896,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-business": [
       {
+        "name": "Meta's Muse Surges to Top of Apple App Store, Stock Jumps 11",
+        "provider": "조선일보",
+        "type": "AI 项目/工具",
+        "bestFor": "Muse's 2.5 million downloads in two weeks outpace Claude, Grok; Meta's AI investments fuel market optimism, boosting semiconductor suppliers' stocks\n\nMeta, the ",
+        "description": "Muse's 2.5 million downloads in two weeks outpace Claude, Grok; Meta's AI investments fuel market optimism, boosting semiconductor suppliers' stocks\n\nMeta, the parent company of Fa",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "조선일보",
+        "url": "https://www.chosun.com/english/industry-en/2026/09/22/ODMLQBVQ4JFWLNT2GLPMEST42U/"
+      },
+      {
         "name": "Tencent Cloud and UTM Connect Malaysia's Emerging AI Talent ",
         "provider": "Malaysia Sun",
         "type": "AI 项目/工具",
@@ -7502,17 +7334,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Mondaq Business Briefing",
         "url": "https://www.mondaq.com/unitedstates/employment-litigation-tribunals/1841676/better-armed-but-not-better-advised-ai-and-the-rising-cost-of-employment-claims"
-      },
-      {
-        "name": "Apple iOS 27 update: Release date, new AI-powered Siri featu",
-        "provider": "Zee Business",
-        "type": "AI 项目/工具",
-        "bestFor": "Apple has announced the release date for the next iOS major update for the iPhone, which is iOS 27. The firm revealed the launch in its 'Surprise and Shine' eve",
-        "description": "Apple has announced the release date for the next iOS major update for the iPhone, which is iOS 27. The firm revealed the launch in its 'Surprise and Shine' event, nearly three mon",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Zee Business",
-        "url": "https://www.zeebiz.com/technology/news-apple-ios-27-update-release-date-new-ai-powered-siri-features-liquid-glass-changes-and-compatible-iphones-401989"
       }
     ],
     "ai-benchmark": [
@@ -10364,7 +10185,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-22",
-    "generatedAt": "2026-09-21T21:50:13.506082Z",
+    "generatedAt": "2026-09-22T01:24:53.135237Z",
     "total": 14,
     "sections": [
       {
