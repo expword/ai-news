@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-22",
-  "generatedAt": "2026-09-22T01:24:53.156237Z",
+  "generatedAt": "2026-09-22T03:58:07.153125Z",
   "news": [
     {
       "title": "Amazon launches research initiative with Stanford University to advance AI and science",
@@ -5570,6 +5570,17 @@ window.AI_GENERATED_DATA = {
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Claude down latest update: Users report outage as Mythos 5.1",
+        "provider": "MoneyControl",
+        "type": "AI 项目/工具",
+        "bestFor": "Anthropic's AI chatbot Claude faced service disruptions, with users reporting problems accessing the platform and Claude Code. More than 1,600 outage reports we",
+        "description": "Anthropic's AI chatbot Claude faced service disruptions, with users reporting problems accessing the platform and Claude Code. More than 1,600 outage reports were recorded on Downd",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "MoneyControl",
+        "url": "https://www.moneycontrol.com/world/claude-down-latest-update-users-report-outage-as-mythos-5-1-fable-5-1-and-opus-5-face-errors-article-14034936.html"
+      },
+      {
         "name": "xAI’s Grok 4.6 is now available in Amazon Bedrock",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -5997,20 +6008,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "The Decoder：AI News（RSS）",
         "url": "https://the-decoder.com/swarmchasers-hunt-rogue-agents-anthropic-investigates-itself-and-the-trail-they-both-follow-is-going-dark"
-      },
-      {
-        "name": "Towards Scalable and Cost-Efficient Vulnerability Detection:",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Static analysis remains a cornerstone of software security, yet the effectiveness of tools such as CodeQL is often limited by the substantial manual effort requ",
-        "description": "Static analysis remains a cornerstone of software security, yet the effectiveness of tools such as CodeQL is often limited by the substantial manual effort required to develop high",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2609.10412v1"
       }
     ],
     "ai-agents": [
+      {
+        "name": "Enterprises debate final shield they must deploy to stop rog",
+        "provider": "Economic Times",
+        "type": "AI 项目/工具",
+        "bestFor": "With AI agents now capable of accessing systems, moving across digital environments and communicating with other agents, a bigger question is emerging for enter",
+        "description": "With AI agents now capable of accessing systems, moving across digital environments and communicating with other agents, a bigger question is emerging for enterprises: Are they pre",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Economic Times",
+        "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/enterprises-debate-final-shield-they-must-deploy-to-stop-rogue-ai/articleshow/134396394.cms"
+      },
       {
         "name": "South Korean chip stocks gain as Meta's Muse AI agent spurs ",
         "provider": "cnbctv18.com",
@@ -6439,17 +6450,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "ProPakistani",
         "url": "https://propakistani.pk/?p=1084300"
-      },
-      {
-        "name": "Magentic Raises $18 Million Series A To Expand AI Digital Wo",
-        "provider": "Pulse 2.0",
-        "type": "AI 项目/工具",
-        "bestFor": "Magentic has raised $18 million in Series A funding to expand its AI digital workers across procurement, supply chain and industrial operations. Felicis led the",
-        "description": "Magentic has raised $18 million in Series A funding to expand its AI digital workers across procurement, supply chain and industrial operations. Felicis led the round, with existin",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Pulse 2.0",
-        "url": "https://pulse2.com/magentic-raises-18-million-series-a-to-expand-ai-digital-workers-for-global-manufacturers/"
       }
     ],
     "ai-models": [
@@ -6896,6 +6896,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-business": [
       {
+        "name": "Google Gemini Broke Out of a Cybersecurity Test and Accessed",
+        "provider": "International Business Times, Singapore Edition",
+        "type": "AI 项目/工具",
+        "bestFor": "Google Gemini accessed three real companies during a cybersecurity test after a setup error exposed it to the live internet. Here's how it happened and what it ",
+        "description": "Google Gemini accessed three real companies during a cybersecurity test after a setup error exposed it to the live internet. Here's how it happened and what it means.\n\nThe test had",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "International Business Times, Singapore Edition",
+        "url": "https://www.ibtimes.sg/google-gemini-broke-out-cybersecurity-test-accessed-3-real-companies-what-it-means-94029"
+      },
+      {
         "name": "Meta's Muse Surges to Top of Apple App Store, Stock Jumps 11",
         "provider": "조선일보",
         "type": "AI 项目/工具",
@@ -7323,17 +7334,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "CarToq - India’s #1 auto content site",
         "url": "https://www.cartoq.com/car-news/renault-duster-niagara-pickup-revealed/"
-      },
-      {
-        "name": "Better Armed But Not Better Advised: AI And The Rising Cost ",
-        "provider": "Mondaq Business Briefing",
-        "type": "AI 项目/工具",
-        "bestFor": "AI is changing the economics of employment litigation.\n\nFor employers defending claims under the Fair Work Act, the issue is not just that more self-represented",
-        "description": "AI is changing the economics of employment litigation.\n\nFor employers defending claims under the Fair Work Act, the issue is not just that more self-represented applicants are usin",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Mondaq Business Briefing",
-        "url": "https://www.mondaq.com/unitedstates/employment-litigation-tribunals/1841676/better-armed-but-not-better-advised-ai-and-the-rising-cost-of-employment-claims"
       }
     ],
     "ai-benchmark": [
@@ -7893,6 +7893,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-image-video": [
       {
+        "name": "腾讯混元发布 Hy Image3.5 preview 图像生成模型",
+        "provider": "腾讯混元：Research（API）",
+        "type": "AI 项目/工具",
+        "bestFor": "腾讯混元发布 Hy Image3.5 preview，支持文生图与图生图、最多 5 张参考图、多轮编辑和最高 2K 分辨率输出，经上百名专业设计师 GSB 盲测对上一代胜率综合提升 30% 以上。",
+        "description": "腾讯混元发布 Hy Image3.5 preview，支持文生图与图生图、最多 5 张参考图、多轮编辑和最高 2K 分辨率输出，经上百名专业设计师 GSB 盲测对上一代胜率综合提升 30% 以上。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "腾讯混元：Research（API）",
+        "url": "https://hunyuan.tencent.com/research/100119?langVersion=zh"
+      },
+      {
         "name": "Higgsfield AI ships new video features in a day with GPT-6 A",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -8324,17 +8335,6 @@ window.AI_GENERATED_DATA = {
         "watch": "摄像头功能可能面临隐私问题，用户需谨慎使用以避免泄露个人信息。",
         "sourceName": "Digit",
         "url": "https://www.digit.in/news/audio-video/is-apple-really-working-on-airpods-with-cameras-here-is-what-latest-leaks-suggest.html"
-      },
-      {
-        "name": "Beijing bar serves customers drinks and access to AI models ",
-        "provider": "South China Morning Post",
-        "type": "AI 项目/工具",
-        "bestFor": "Offer of free access to AI tools has been embraced by developers, start-up founders and investors.\n\nThe AGI Bar in Beijing's Zhongguan district has opened with ",
-        "description": "Offer of free access to AI tools has been embraced by developers, start-up founders and investors.\n\nThe AGI Bar in Beijing's Zhongguan district has opened with an unusual concept -",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "South China Morning Post",
-        "url": "https://www.scmp.com/video/china/3363889/beijing-bar-serves-customers-drinks-and-access-ai-models"
       }
     ],
     "ai-research": [
@@ -10185,7 +10185,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-22",
-    "generatedAt": "2026-09-22T01:24:53.135237Z",
+    "generatedAt": "2026-09-22T03:58:07.131068Z",
     "total": 14,
     "sections": [
       {
