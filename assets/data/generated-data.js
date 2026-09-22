@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-23",
-  "generatedAt": "2026-09-22T18:54:23.759969Z",
+  "generatedAt": "2026-09-22T20:04:15.140424Z",
   "news": [
     {
       "title": "Bring more intelligence to everyday work with GPT-6 Sol and GPT-6 Luna on Amazon Bedrock",
@@ -2543,61 +2543,6 @@ window.AI_GENERATED_DATA = {
       "aiSelected": true,
       "moduleTargets": [
         "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "FlexEE: Self-Speculative and KV-Compatible Early Exiting for Offloading-Aware LLM Inference",
-      "summary": "Large language model (LLM) inference is often constrained by both computation and memory, especially in offloading-based deployments where model weights are transferred across memo",
-      "category": "ai-coding",
-      "source": "arXiv",
-      "date": "2026-09-15",
-      "publishedAt": "",
-      "collectedAt": "2026-09-16T09:56",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-15",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.17008v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Agentic RDZ: Autonomous Zone Management with AI Agents and an FR3 Coexistence Use Case",
-      "summary": "Radio Dynamic Zones (RDZs) allow wireless experiments to operate outside conventional spectrum regulations while continuously guaranteeing protection for incumbent users. Existing ",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-09-15",
-      "publishedAt": "",
-      "collectedAt": "2026-09-16T09:56",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-15",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.17110v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
       ],
       "sourceCount": 1
     }
@@ -6569,6 +6514,39 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-models": [
       {
+        "name": "OpenAI 发布 GPT-6 Sol 和 GPT-6 Luna，API 价格较 GPT-5.6 降 50%",
+        "provider": "OpenAI：官网动态（RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenAI 发布 GPT-6 Sol 和 GPT-6 Luna，将 GPT-6 Astra 的训练方法用于更快更便宜的模型，API 价格较 GPT-5.6 促销价下调 50%（Sol 输入 $4→$2、输出 $20→$10；Luna 输入 $0.20→$0.10、输出 $1.20→$0.50，每百万 token）。",
+        "description": "OpenAI 发布 GPT-6 Sol 和 GPT-6 Luna，将 GPT-6 Astra 的训练方法用于更快更便宜的模型，API 价格较 GPT-5.6 促销价下调 50%（Sol 输入 $4→$2、输出 $20→$10；Luna 输入 $0.20→$0.10、输出 $1.20→$0.50，每百万 token）。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+        "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna"
+      },
+      {
+        "name": "GPT-6 Sol 与 Luna 发布，API 价格比 GPT-5.6 低 50%",
+        "provider": "X：Sherwin Wu（@sherwinwu）",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenAI 开发者账号宣布 GPT-6 Sol 和 Luna 发布，两者 API 定价比 GPT-5.6 低 50%。Sherwin Wu 补充 GPT-6 Luna 定价为每 1M tokens 输入 $0.10、输出 $0.50，并称价格很快需要改按每十亿 tokens 计价。",
+        "description": "OpenAI 开发者账号宣布 GPT-6 Sol 和 Luna 发布，两者 API 定价比 GPT-5.6 低 50%。Sherwin Wu 补充 GPT-6 Luna 定价为每 1M tokens 输入 $0.10、输出 $0.50，并称价格很快需要改按每十亿 tokens 计价。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "X：Sherwin Wu（@sherwinwu）",
+        "url": "https://x.com/sherwinwu/status/2102462783707344907"
+      },
+      {
+        "name": "GPT-6 Sol 和 GPT-6 Luna 上线 Arena，API 定价比 GPT-5.6 促销价低 50%",
+        "provider": "X：Arena (@arena)",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenAI 发布 GPT-6 Sol 和 GPT-6 Luna，基于 GPT-6 Astra 的技术，主打更快、更便宜以支持大规模工作，并优化了缓存和推理效率，API 定价比 GPT-5.6 促销价低 50%。",
+        "description": "OpenAI 发布 GPT-6 Sol 和 GPT-6 Luna，基于 GPT-6 Astra 的技术，主打更快、更便宜以支持大规模工作，并优化了缓存和推理效率，API 定价比 GPT-5.6 促销价低 50%。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "X：Arena (@arena)",
+        "url": "https://x.com/arena/status/2102470066784854177"
+      },
+      {
         "name": "OpenAI 发布 GPT-6 Sol 和 GPT-6 Luna，API 价格比 GPT-5.6 促销价低 50%",
         "provider": "X：Sam Altman (@sama)",
         "type": "AI 项目/工具",
@@ -6974,39 +6952,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Men's Health",
         "url": "https://www.menshealth.com/health/a73746861/why-it-feels-so-hard-to-give-a-sht-right-now-according-to-a-therapist/"
-      },
-      {
-        "name": "ZETA Solana migration wins 99.4% support in vote",
-        "provider": "crypto.news",
-        "type": "AI 项目/工具",
-        "bestFor": "ZetaChain has moved closer to approving a plan that would migrate its native ZETA token to Solana and eventually shut down its own Layer 1, with 99.4% of votes ",
-        "description": "ZetaChain has moved closer to approving a plan that would migrate its native ZETA token to Solana and eventually shut down its own Layer 1, with 99.4% of votes supporting Proposal ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "crypto.news",
-        "url": "https://crypto.news/zeta-solana-migration-wins-99-4-support-in-vote/"
-      },
-      {
-        "name": "Pentagon wants to give its men access to 'military versions'",
-        "provider": "The Times of India",
-        "type": "AI 项目/工具",
-        "bestFor": "ChatGPT and Grok are coming to the Pentagon's GenAI.mil platform as the Department of War expands access to specialised AI tools for military personnel and civi",
-        "description": "ChatGPT and Grok are coming to the Pentagon's GenAI.mil platform as the Department of War expands access to specialised AI tools for military personnel and civilian workers. The tw",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Times of India",
-        "url": "https://timesofindia.indiatimes.com/technology/tech-news/pentagon-wants-to-give-its-men-access-to-military-versions-of-chatgpt-and-grok-heres-what-these-specialised-versions-will-offer/articleshow/134365789.cms"
-      },
-      {
-        "name": "iPhone 18 vs Samsung Galaxy S26: Price, Specs, Camera, Batte",
-        "provider": "Analytics Insight",
-        "type": "AI 项目/工具",
-        "bestFor": "A20 Pro's 2nm chip powers the iPhone 18 Pro's camera and battery upgrades.\n\nGalaxy S26 Ultra holds 2025 pricing with a 200MP camera and 60W charging.\n\nApple lea",
-        "description": "A20 Pro's 2nm chip powers the iPhone 18 Pro's camera and battery upgrades.\n\nGalaxy S26 Ultra holds 2025 pricing with a 200MP camera and 60W charging.\n\nApple leads battery life; Sam",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Analytics Insight",
-        "url": "https://www.analyticsinsight.net/iphone/iphone-18-vs-samsung-galaxy-s26-price-specs-camera-battery-and-performance-compared"
       }
     ],
     "ai-business": [
@@ -10300,7 +10245,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-23",
-    "generatedAt": "2026-09-22T18:54:23.736973Z",
+    "generatedAt": "2026-09-22T20:04:15.119424Z",
     "total": 13,
     "sections": [
       {
