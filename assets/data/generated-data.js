@@ -1,7 +1,34 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-23",
-  "generatedAt": "2026-09-23T05:49:48.502808Z",
+  "generatedAt": "2026-09-23T12:13:13.492113Z",
   "news": [
+    {
+      "title": "Grab and OpenAI bring practical AI skills to Southeast Asia",
+      "summary": "OpenAI and Grab launch GO Forward with AI, a regional programme helping 30,000 partners build practical AI skills across Southeast Asia.",
+      "category": "ai-models",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-09-23",
+      "publishedAt": "2026-09-23T08:00",
+      "collectedAt": "2026-09-23T20:13",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Bring more intelligence to everyday work with GPT-6 Sol and GPT-6 Luna on Amazon Bedrock",
       "summary": "GPT-6 Sol and GPT-6 Luna are now generally available on Amazon Bedrock, giving you more options to match intelligence and efficiency to each workload.",
@@ -10187,8 +10214,8 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-23",
-    "generatedAt": "2026-09-23T05:49:48.479837Z",
-    "total": 15,
+    "generatedAt": "2026-09-23T12:13:13.467112Z",
+    "total": 16,
     "sections": [
       {
         "category": "ai-coding",
@@ -10250,6 +10277,17 @@ window.AI_GENERATED_DATA = {
         "category": "ai-models",
         "label": "模型发布",
         "items": [
+          {
+            "title": "Grab and OpenAI bring practical AI skills to Southeast Asia",
+            "summary": "OpenAI and Grab launch GO Forward with AI, a regional programme helping 30,000 partners build practical AI skills across Southeast Asia.",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-23",
+            "publishedAt": "2026-09-23T08:00",
+            "reason": ""
+          },
           {
             "title": "Bring more intelligence to everyday work with GPT-6 Sol and GPT-6 Luna on Amazon Bedrock",
             "summary": "GPT-6 Sol and GPT-6 Luna are now generally available on Amazon Bedrock, giving you more options to match intelligence and efficiency to each",
