@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-23",
-  "generatedAt": "2026-09-23T03:18:15.315736Z",
+  "generatedAt": "2026-09-23T05:49:48.502808Z",
   "news": [
     {
       "title": "Bring more intelligence to everyday work with GPT-6 Sol and GPT-6 Luna on Amazon Bedrock",
@@ -7344,6 +7344,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-benchmark": [
       {
+        "name": "OpenAI 发布 GPT-6 Sol 与 Luna，API 定价降至五折并公布基准成绩",
+        "provider": "MarkTechPost（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenAI 发布 GPT-6 系列两款新模型 GPT-6 Sol 与 Luna，API 定价相比 GPT-5.6 促销价下调约 50%，Sol 为每 1M tokens 输入 $2、输出 $10，Luna 为 $0.10、$0.50，两者已上线 API。",
+        "description": "OpenAI 发布 GPT-6 系列两款新模型 GPT-6 Sol 与 Luna，API 定价相比 GPT-5.6 促销价下调约 50%，Sol 为每 1M tokens 输入 $2、输出 $10，Luna 为 $0.10、$0.50，两者已上线 API。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "MarkTechPost（RSS）",
+        "url": "https://www.marktechpost.com/2026/09/22/openai-releases-gpt-6-sol-and-luna-50-cheaper-api-pricing-and-benchmarks"
+      },
+      {
         "name": "Alibaba's Qwen3.8-Omni-Flash Slashes Audio Pricing 98% and D",
         "provider": "Startup Fortune",
         "type": "AI 项目/工具",
@@ -7880,21 +7891,6 @@ window.AI_GENERATED_DATA = {
         "watch": "使用 Sol 可能面临文件删除风险，需谨慎管理数据。",
         "sourceName": "NewsData.io:AI agent",
         "url": "https://memeburn.com/gpt-5-6-model-comparison-benchmarks-pricing-safety/"
-      },
-      {
-        "name": "DeepSeek V4-Flash 在九项代理基准测试中超越旗舰版 V4-Pro",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "V4-Flash 的推出将吸引更多开发者和企业用户，尤其是在需要高性能和低成本解决方案的领域。此模型的性能提升可能促使企业重新评估其现有的 AI 解决方案，推动更多企业采用 DeepSeek 的技术。此外，随着模型性能的提升，可能会引发行业内对 AI 应用的更广泛探索，尤其是在自动化和智能决策支持系统方面。",
-        "description": "DeepSeek V4-Flash 于2026年7月31日重新训练，预算为284B的模型在所有九项代理基准测试中超越了其旗舰版 V4-Pro-Preview，DeepSWE 指标提升达645%，且每百万输入令牌的成本保持在0.14美元。开发者在调用 deepseek-v4-flash 时无需进行代码更改即可获得此升级。",
-        "useCases": [
-          "优化自然语言处理任务，使用 deepseek-v4-flash 提升文本生成质量。",
-          "在电商平台上应用 V4-Flash 进行智能推荐，提升用户体验。",
-          "利用 V4-Flash 进行数据分析，快速提取关键信息。"
-        ],
-        "watch": "API 价格可能会随使用量增加而上涨，影响长期成本。",
-        "sourceName": "NewsData.io:large language model",
-        "url": "https://www.techtimes.com/articles/322513/20260731/deepseek-retrained-v4-flash-beats-its-flagship-pro-nine-agent-benchmarks.htm"
       }
     ],
     "ai-image-video": [
@@ -8345,6 +8341,28 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-research": [
       {
+        "name": "Worries about an AI internet takeover gain new urgency among",
+        "provider": "KTBS",
+        "type": "AI 项目/工具",
+        "bestFor": "In a summer filled with revelations about artificial intelligence's rapid development, researchers were especially alarmed by runaway bots finding their way ont",
+        "description": "In a summer filled with revelations about artificial intelligence's rapid development, researchers were especially alarmed by runaway bots finding their way onto the internet and, ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "KTBS",
+        "url": "https://www.ktbs.com/news/business/worries-about-an-ai-internet-takeover-gain-new-urgency-among-doomsday-scenarios/article_299e7c67-dbd5-598a-a0a4-abc2d53151b2.html"
+      },
+      {
+        "name": "Worries about an AI internet takeover gain new urgency among",
+        "provider": "The Seattle Times",
+        "type": "AI 项目/工具",
+        "bestFor": "In a summer filled with revelations about artificial intelligence's rapid development, researchers were especially alarmed by runaway bots finding their way ont",
+        "description": "In a summer filled with revelations about artificial intelligence's rapid development, researchers were especially alarmed by runaway bots finding their way onto the internet and, ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Seattle Times",
+        "url": "https://www.seattletimes.com/business/worries-about-an-ai-internet-takeover-gain-new-urgency-among-doomsday-scenarios/"
+      },
+      {
         "name": "Using AI to 'talk to animals' might make us feel clever - bu",
         "provider": "The Guardian",
         "type": "AI 项目/工具",
@@ -8761,28 +8779,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "RocketNews | Top News Stories From Around the Globe",
         "url": "https://rocketnews.com/2026/09/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted-7/"
-      },
-      {
-        "name": "REFACTOR-VLA: Unsupervised Library Learning of Typed Motor P",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Most current vision-language-action (VLA) models—such as OpenVLA, π0, RT-2, and RDT-1B—are “monolithic.” This means they generate raw motor commands or very sho",
-        "description": "Most current vision-language-action (VLA) models—such as OpenVLA, π0, RT-2, and RDT-1B—are “monolithic.” This means they generate raw motor commands or very short sequences of acti",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · Apple ML Research",
-        "url": "https://machinelearning.apple.com/research/refactor-vla-motor-programs"
-      },
-      {
-        "name": "SurveyMonkey updates platform | News | Research live",
-        "provider": "Research Live",
-        "type": "AI 项目/工具",
-        "bestFor": "US - Survey company SurveyMonkey has released new tools for its platform incorporating conversational AI survey-building tools.\n\nSurveyMonkey said that its AI w",
-        "description": "US - Survey company SurveyMonkey has released new tools for its platform incorporating conversational AI survey-building tools.\n\nSurveyMonkey said that its AI would help users with",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Research Live",
-        "url": "http://www.research-live.com/article/news/surveymonkey-updates-platform/id/5152487"
       }
     ],
     "ai-office": []
@@ -10191,7 +10187,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-23",
-    "generatedAt": "2026-09-23T03:18:15.291670Z",
+    "generatedAt": "2026-09-23T05:49:48.479837Z",
     "total": 15,
     "sections": [
       {
