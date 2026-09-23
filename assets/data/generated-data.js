@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-23",
-  "generatedAt": "2026-09-22T20:04:15.140424Z",
+  "generatedAt": "2026-09-23T00:48:10.366003Z",
   "news": [
     {
       "title": "Bring more intelligence to everyday work with GPT-6 Sol and GPT-6 Luna on Amazon Bedrock",
@@ -68,6 +68,61 @@ window.AI_GENERATED_DATA = {
       "sourceDate": "",
       "tags": [],
       "url": "https://aws.amazon.com/blogs/machine-learning/evaluate-skill-equipped-agents-with-strands-evals-and-amazon-bedrock-agentcore/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Claude Opus 5.5 与 GPT-6 Sol/Luna 发布，Simon Willison 详解新一轮价格战",
+      "summary": "Anthropic 发布 Claude Opus 5.5，OpenAI 随后发布 GPT-6 Sol 和 GPT-6 Luna。GPT-6 两款价格为其 GPT-5.6 对应型号的一半，GPT-6 Luna 低至 $0.10/M 输入、$0.50/M 输出；Opus 5.5 降价 20% 至 $4/$20，缓存读取降 60%。",
+      "category": "ai-models",
+      "source": "Simon Willison 博客",
+      "date": "2026-09-23",
+      "publishedAt": "2026-09-23T07:46",
+      "collectedAt": "2026-09-23T08:45",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1.5",
+      "scores": {},
+      "score": 56,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
+      "summary": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
+      "category": "ai-agents",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-09-22",
+      "publishedAt": "2026-09-22T20:00",
+      "collectedAt": "2026-09-23T06:23",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -2449,88 +2504,6 @@ window.AI_GENERATED_DATA = {
       "sourceDate": "2026-09-15",
       "tags": [],
       "url": "http://arxiv.org/abs/2609.16993v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Sparse MLLM Anchors, Dense Adaptation: Breaking the Self-Referential Loop in Wild Test-Time Adaptation",
-      "summary": "Wild test-time adaptation (WTTA) updates a source model online under small test batches, concurrent distribution shifts, and time-varying class imbalance. Most WTTA methods derive ",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-15",
-      "publishedAt": "",
-      "collectedAt": "2026-09-16T09:56",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-15",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.17040v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Enhancing Procedural Writing Through Personalized Example Retrieval: A Case Study on Cooking Recipes",
-      "summary": "Writing high-quality procedural texts is a challenging task for many learners. While example-based learning has shown promise as a feedback approach, a limitation arises when all l",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-15",
-      "publishedAt": "",
-      "collectedAt": "2026-09-16T09:56",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-15",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.17118v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "SKIP: a Self-knowledge-guided Step-wise Preference Learning Framework for Concise Reasoning",
-      "summary": "While Chain-of-Thought (CoT) reasoning has been proven to be effective, it often leads to overthinking, resulting in computational overhead, inference latency, and even degraded pe",
-      "category": "ai-research",
-      "source": "arXiv",
-      "date": "2026-09-15",
-      "publishedAt": "",
-      "collectedAt": "2026-09-16T09:56",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-15",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.17019v1",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -6072,6 +6045,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "Parallel cut research time and cost in half with GPT‑6 Astra",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
+        "description": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · OpenAI Blog",
+        "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra"
+      },
+      {
         "name": "How Reactiv automates mobile commerce 80% faster with Amazon",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -6499,20 +6483,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Cointelegraph",
         "url": "https://cointelegraph.com/press-releases/unlocking-the-trillion-token-era-bais-global-settlement-layer-for-the-agent-economy"
-      },
-      {
-        "name": "What Life Could Look Like in an AI-First World",
-        "provider": "Analytics Insight",
-        "type": "AI 项目/工具",
-        "bestFor": "AI Could Become the Default Layer of Daily Life: In an AI-first world, people may set goals while AI agents handle tasks across apps, devices and digital servic",
-        "description": "AI Could Become the Default Layer of Daily Life: In an AI-first world, people may set goals while AI agents handle tasks across apps, devices and digital services.\n\n.\n\nYour AI Agen",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Analytics Insight",
-        "url": "https://www.analyticsinsight.net/ampstories/artificial-intelligence/what-life-could-look-like-in-an-ai-first-world"
       }
     ],
     "ai-models": [
+      {
+        "name": "OpenAI 发布 GPT-6 Sol 和 GPT-6 Luna，API 价格较 GPT-5.6 促销价低 50%",
+        "provider": "X：Tibo (@thsottiaux)",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenAI 欢迎两个新模型加入 GPT-6 系列。GPT-6 Sol 和 Luna 基于 GPT-6 Astra 的技术成果，将大部分能力带入更快、更便宜、支持大规模工作的模型中。通过提升缓存和推理效率，两款模型 API 价格比 GPT-5.6 促销定价低 50%。",
+        "description": "OpenAI 欢迎两个新模型加入 GPT-6 系列。GPT-6 Sol 和 Luna 基于 GPT-6 Astra 的技术成果，将大部分能力带入更快、更便宜、支持大规模工作的模型中。通过提升缓存和推理效率，两款模型 API 价格比 GPT-5.6 促销定价低 50%。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "X：Tibo (@thsottiaux)",
+        "url": "https://x.com/thsottiaux/status/2102509507415048245"
+      },
       {
         "name": "OpenAI 发布 GPT-6 Sol 和 GPT-6 Luna，API 价格较 GPT-5.6 降 50%",
         "provider": "OpenAI：官网动态（RSS",
@@ -6941,17 +6925,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "The Daily Herald",
         "url": "https://www.thedailyherald.sx/opinion/letter-to-the-editor/parenting-in-the-age-of-the-open-web-and-ai-time-to-take-back-control-is-now"
-      },
-      {
-        "name": "Why It Feels So Hard to Give a Sh*t Right Now, According to ",
-        "provider": "Men's Health",
-        "type": "AI 项目/工具",
-        "bestFor": "AI broke the deal between effort and reward. The flatness you feel at work has a name, and it's not depression.\n\nWE WERE ALL taught that caring about your work ",
-        "description": "AI broke the deal between effort and reward. The flatness you feel at work has a name, and it's not depression.\n\nWE WERE ALL taught that caring about your work was a good investmen",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Men's Health",
-        "url": "https://www.menshealth.com/health/a73746861/why-it-feels-so-hard-to-give-a-sht-right-now-according-to-a-therapist/"
       }
     ],
     "ai-business": [
@@ -10245,8 +10218,8 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-23",
-    "generatedAt": "2026-09-22T20:04:15.119424Z",
-    "total": 13,
+    "generatedAt": "2026-09-23T00:48:10.336347Z",
+    "total": 15,
     "sections": [
       {
         "category": "ai-coding",
@@ -10280,6 +10253,17 @@ window.AI_GENERATED_DATA = {
         "category": "ai-agents",
         "label": "Agent / MCP",
         "items": [
+          {
+            "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
+            "summary": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-22",
+            "publishedAt": "2026-09-22T20:00",
+            "reason": ""
+          },
           {
             "title": "How Reactiv automates mobile commerce 80% faster with Amazon Bedrock AgentCore",
             "summary": "Reactiv used Amazon Bedrock AgentCore to build a multi-agent AI Scheduler that autonomously refreshes Shopify merchants' mobile apps on a sc",
@@ -10372,6 +10356,17 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-09-22",
             "publishedAt": "2026-09-22T00:00",
+            "reason": ""
+          },
+          {
+            "title": "Claude Opus 5.5 与 GPT-6 Sol/Luna 发布，Simon Willison 详解新一轮价格战",
+            "summary": "Anthropic 发布 Claude Opus 5.5，OpenAI 随后发布 GPT-6 Sol 和 GPT-6 Luna。GPT-6 两款价格为其 GPT-5.6 对应型号的一半，GPT-6 Luna 低至 $0.10/M 输入、$0.50/M 输出；Opus 5.5 降价",
+            "source": "Simon Willison 博客",
+            "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna",
+            "score": 56,
+            "sourceCount": 1,
+            "date": "2026-09-23",
+            "publishedAt": "2026-09-23T07:46",
             "reason": ""
           }
         ]
