@@ -1,7 +1,172 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-24",
-  "generatedAt": "2026-09-23T17:20:21.197278Z",
+  "generatedAt": "2026-09-23T19:40:39.467184Z",
   "news": [
+    {
+      "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
+      "summary": "",
+      "category": "ai-models",
+      "source": "RSS · Hugging Face Blog",
+      "date": "2026-09-24",
+      "publishedAt": "2026-09-24T02:41",
+      "collectedAt": "2026-09-24T03:40",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "From portal-hopping to instant answers: HEMA’s journey with MCP and Amazon Bedrock",
+      "summary": "HEMA, a 100-year-old Dutch retailer, turned developer portal-hopping into instant answers by building HAL, an internal AI assistant on Amazon Bedrock AgentCore. Using Model Context",
+      "category": "ai-agents",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-24",
+      "publishedAt": "2026-09-24T02:41",
+      "collectedAt": "2026-09-24T03:40",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/from-portal-hopping-to-instant-answers-hemas-journey-with-mcp-and-amazon-bedrock/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Google Beam expands with new regions, partners, and customers",
+      "summary": "We’re expanding Google Beam to five new countries, and partnering with Industrious for an extended network.",
+      "category": "ai-models",
+      "source": "RSS · Google AI Blog",
+      "date": "2026-09-24",
+      "publishedAt": "2026-09-24T02:00",
+      "collectedAt": "2026-09-24T02:30",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Use open weight models as your AI coding agent with Amazon Bedrock",
+      "summary": "Pair OpenCode, an open-source terminal-native AI coding agent, with open weight models on Amazon Bedrock to get a secure, flexible, pay-per-use coding assistant. Learn how to confi",
+      "category": "ai-coding",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-24",
+      "publishedAt": "2026-09-24T02:17",
+      "collectedAt": "2026-09-24T02:30",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/use-open-weight-models-as-your-ai-coding-agent-with-amazon-bedrock/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Agentic conversational video intelligence built on AWS",
+      "summary": "Learn how to build a conversational video intelligence solution on AWS using an agentic architecture. A single Strands Agents SDK agent orchestrates Amazon Bedrock, Amazon Rekognit",
+      "category": "ai-agents",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-24",
+      "publishedAt": "2026-09-24T02:21",
+      "collectedAt": "2026-09-24T02:30",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/agentic-conversational-video-intelligence-built-on-aws/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Offloaded inference for real-world physical AI robotics",
+      "summary": "Robots are getting smarter, but how can their hardware match that growth? New Microsoft Research findings show that moving AI inference beyond the robot can improve task success, b",
+      "category": "ai-research",
+      "source": "RSS · Microsoft Research",
+      "date": "2026-09-24",
+      "publishedAt": "2026-09-24T00:01",
+      "collectedAt": "2026-09-24T02:30",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://www.microsoft.com/en-us/research/blog/offloaded-inference-for-real-world-physical-ai-robotics/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Advancing Private AI Compute with secure, server-side memory",
       "summary": "Introducing private, server-side memory to Private AI Compute for personal AI.",
@@ -54,6 +219,87 @@ window.AI_GENERATED_DATA = {
       "moduleTargets": [
         "news",
         "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "How invideo improves color grading 3x with GPT‑6 Astra",
+      "summary": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
+      "category": "ai-image-video",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-09-23",
+      "publishedAt": "2026-09-23T20:00",
+      "collectedAt": "2026-09-24T03:40",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
+      "summary": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
+      "category": "ai-models",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-09-23",
+      "publishedAt": "2026-09-23T20:00",
+      "collectedAt": "2026-09-24T03:40",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Sep 23, 2026 Science Claude discovers a novel enzyme system with CRISPR-like repeats",
+      "summary": "Sep 23, 2026 Science Claude discovers a novel enzyme system with CRISPR-like repeats",
+      "category": "ai-models",
+      "source": "HTML · Anthropic",
+      "date": "2026-09-23",
+      "publishedAt": "",
+      "collectedAt": "2026-09-24T02:30",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-23",
+      "tags": [],
+      "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
       ],
       "sourceCount": 1
     },
@@ -241,6 +487,33 @@ window.AI_GENERATED_DATA = {
       "tier": "T1.5",
       "scores": {},
       "score": 56,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Flash-dLLM: IO-Aware KV Caching and Parallel Decoding for Fast, Memory-Efficient Diffusion LLMs",
+      "summary": "Diffusion Large Language Models (dLLMs) have recently emerged as a promising alternative to autoregressive LLMs by enabling non-autoregressive text generation. However, their pract",
+      "category": "ai-coding",
+      "source": "arXiv",
+      "date": "2026-09-22",
+      "publishedAt": "",
+      "collectedAt": "2026-09-24T02:30",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-22",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.26796v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
       "aiSelected": true,
       "moduleTargets": [
         "news"
@@ -2326,287 +2599,6 @@ window.AI_GENERATED_DATA = {
         "news"
       ],
       "sourceCount": 1
-    },
-    {
-      "title": "Zero-shot narrative detection in social messaging",
-      "summary": "This study investigates the zero-shot ability of large language models (LLMs) to identify and classify hidden narratives in social messages. Our research hypothesis is that LLMs' e",
-      "category": "ai-research",
-      "source": "arXiv",
-      "date": "2026-09-15",
-      "publishedAt": "",
-      "collectedAt": "2026-09-16T13:42",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-15",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.17310v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Clinical Reasoning Under a Partially Observed Objective in Cone Beam CT Report Generation",
-      "summary": "arXiv:2609.13238v1 Announce Type: new Abstract: Maxillofacial report generation from cone beam computed tomography is scored here by a composite objective placing 80% of its weight",
-      "category": "ai-research",
-      "source": "RSS · arXiv cs.CL",
-      "date": "2026-09-15",
-      "publishedAt": "",
-      "collectedAt": "2026-09-16T11:13",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-15",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2609.13238",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Token Merging for Multilingual Speech Recognition: A Systematic Study Across Model Scale and Fine-Tuning",
-      "summary": "arXiv:2609.13151v1 Announce Type: new Abstract: Leading multilingual speech recognition models like Whisper transcribe diverse, low-resource languages without language-specific tra",
-      "category": "ai-research",
-      "source": "RSS · arXiv cs.CL",
-      "date": "2026-09-15",
-      "publishedAt": "",
-      "collectedAt": "2026-09-16T11:13",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-15",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2609.13151",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "PhysMent: An Interactive Approach For LLM Reasoning In Physics Problems",
-      "summary": "arXiv:2609.13152v1 Announce Type: new Abstract: Large language models (LLMs) perform strongly on static science benchmarks, yet their ability to reason about the physical world thr",
-      "category": "ai-benchmark",
-      "source": "RSS · arXiv cs.CL",
-      "date": "2026-09-15",
-      "publishedAt": "",
-      "collectedAt": "2026-09-16T11:13",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-15",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2609.13152",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "CVSS-X: A Multilingual Speech-to-Speech Translation Corpus for 28 Languages",
-      "summary": "arXiv:2609.13413v1 Announce Type: new Abstract: We introduce CVSS-X, a large-scale synthetic speech-to-speech translation corpus that extends CVSS by reversing the translation dire",
-      "category": "ai-research",
-      "source": "RSS · arXiv cs.CL",
-      "date": "2026-09-15",
-      "publishedAt": "",
-      "collectedAt": "2026-09-16T11:13",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-15",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2609.13413",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Causal Analysis and Mitigation of Spurious Onsets in Full-Duplex Speech LLMs",
-      "summary": "arXiv:2609.13445v1 Announce Type: new Abstract: Speech-to-speech LLMs like Moshi, and its derivative PersonaPlex, can listen and speak concurrently through full-duplex generation. ",
-      "category": "ai-research",
-      "source": "RSS · arXiv cs.CL",
-      "date": "2026-09-15",
-      "publishedAt": "",
-      "collectedAt": "2026-09-16T11:13",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-15",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2609.13445",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "TestHallVQA: Exploring LVLMs' Document-Level Reasoning under Redundant Contexts from Scientific Exams",
-      "summary": "arXiv:2609.13158v1 Announce Type: new Abstract: Large Vision--Language Models (LVLMs) are increasingly expected to perform visual question answering (VQA) over planar media. Howeve",
-      "category": "ai-benchmark",
-      "source": "RSS · arXiv cs.CL",
-      "date": "2026-09-15",
-      "publishedAt": "",
-      "collectedAt": "2026-09-16T11:13",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-15",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2609.13158",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "RFCLLM: Evaluating LLMs' Reasoning Ability of Network Protocol State Machines",
-      "summary": "arXiv:2609.13389v1 Announce Type: new Abstract: Mapping textual specifications into formal representations is essential for ensuring the correctness of protocol designs and impleme",
-      "category": "ai-research",
-      "source": "RSS · arXiv cs.CL",
-      "date": "2026-09-15",
-      "publishedAt": "",
-      "collectedAt": "2026-09-16T11:13",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-15",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2609.13389",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "A derivative-fidelity failure mode in physics-informed neural networks: strengthened benchmark evidence from function-value training",
-      "summary": "arXiv:2609.13171v1 Announce Type: new Abstract: Physics-informed neural networks (PINNs) use automatic differentiation to impose differential-equation residuals, but good agreement",
-      "category": "ai-benchmark",
-      "source": "RSS · arXiv cs.LG",
-      "date": "2026-09-15",
-      "publishedAt": "",
-      "collectedAt": "2026-09-16T11:13",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-15",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2609.13171",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "BudgetBench: A Budget-Tiered Protocol and Pilot Harness for Memory Strategy Evaluation in Local Large Language Model Agents",
-      "summary": "arXiv:2609.13149v1 Announce Type: new Abstract: For local large language model agents, active context is a scarce resource: memory capacity, prefill latency, cache growth, and serv",
-      "category": "ai-coding",
-      "source": "RSS · arXiv cs.LG",
-      "date": "2026-09-15",
-      "publishedAt": "",
-      "collectedAt": "2026-09-16T11:13",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-15",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2609.13149",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "benchmarkDatasets",
-        "topicResources"
-      ],
-      "sourceCount": 2,
-      "relatedSources": [
-        {
-          "source": "RSS · OpenAI Blog",
-          "url": "https://openai.com/index/v7",
-          "title": "How V7 gives AI agents institutional memory"
-        }
-      ]
     }
   ],
   "weeklyDigests": [
@@ -5692,6 +5684,17 @@ window.AI_GENERATED_DATA = {
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Use open weight models as your AI coding agent with Amazon B",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Pair OpenCode, an open-source terminal-native AI coding agent, with open weight models on Amazon Bedrock to get a secure, flexible, pay-per-use coding assistant",
+        "description": "Pair OpenCode, an open-source terminal-native AI coding agent, with open weight models on Amazon Bedrock to get a secure, flexible, pay-per-use coding assistant. Learn how to confi",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/use-open-weight-models-as-your-ai-coding-agent-with-amazon-bedrock/"
+      },
+      {
         "name": "Evaluate skill-equipped agents with Strands Evals and Amazon",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -6119,20 +6122,53 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · Apple ML Research",
         "url": "https://machinelearning.apple.com/research/simpledesign-protein-codesign"
-      },
-      {
-        "name": "This incredible accessibility tool was coded with help from ",
-        "provider": "Android Authority",
-        "type": "AI 项目/工具",
-        "bestFor": "Generative AI is everywhere, whether it's used as a cornerstone of a service, used to build apps, or employed to boost functionality within them. But with so ma",
-        "description": "Generative AI is everywhere, whether it's used as a cornerstone of a service, used to build apps, or employed to boost functionality within them. But with so many new products appe",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Android Authority",
-        "url": "https://www.androidauthority.com/new-ai-apps-services-bens-accessibility-hub-3710318/"
       }
     ],
     "ai-agents": [
+      {
+        "name": "Modal 详解如何以万亿 token 规模服务 Kimi K2.6 编码 Agent 推理",
+        "provider": "Modal 官方工程博客（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "Modal 分享为编码 Agent 提供万亿参数模型 Kimi K2.6 推理服务的优化实践，优化后单副本每用户性能提升 2.8x、副本整体吞吐提升 5.6x，单个服务日处理数千亿 token。",
+        "description": "Modal 分享为编码 Agent 提供万亿参数模型 Kimi K2.6 推理服务的优化实践，优化后单副本每用户性能提升 2.8x、副本整体吞吐提升 5.6x，单个服务日处理数千亿 token。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Modal 官方工程博客（RSS）",
+        "url": "https://modal.com/blog/trillion-tokens-trillion-parameters"
+      },
+      {
+        "name": "Anthropic 报告 Claude agent 在湿实验室发现噬菌体中的新型 ART 酶系统",
+        "provider": "X：Rohan Paul (@rohanpaul_ai)",
+        "type": "AI 项目/工具",
+        "bestFor": "Anthropic 报告其新湿实验室的首个成果：949 个 Claude agent 在约 21.5 小时内自主追踪到一个此前未知的酶系统，消耗 215.6M tokens，搜索了 1.94B 蛋白质簇并回收 198，290 个 RT 簇。",
+        "description": "Anthropic 报告其新湿实验室的首个成果：949 个 Claude agent 在约 21.5 小时内自主追踪到一个此前未知的酶系统，消耗 215.6M tokens，搜索了 1.94B 蛋白质簇并回收 198，290 个 RT 簇。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "X：Rohan Paul (@rohanpaul_ai)",
+        "url": "https://x.com/rohanpaul_ai/status/2102832068157984990"
+      },
+      {
+        "name": "From portal-hopping to instant answers: HEMA’s journey with ",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "HEMA, a 100-year-old Dutch retailer, turned developer portal-hopping into instant answers by building HAL, an internal AI assistant on Amazon Bedrock AgentCore.",
+        "description": "HEMA, a 100-year-old Dutch retailer, turned developer portal-hopping into instant answers by building HAL, an internal AI assistant on Amazon Bedrock AgentCore. Using Model Context",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/from-portal-hopping-to-instant-answers-hemas-journey-with-mcp-and-amazon-bedrock/"
+      },
+      {
+        "name": "Agentic conversational video intelligence built on AWS",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Learn how to build a conversational video intelligence solution on AWS using an agentic architecture. A single Strands Agents SDK agent orchestrates Amazon Bedr",
+        "description": "Learn how to build a conversational video intelligence solution on AWS using an agentic architecture. A single Strands Agents SDK agent orchestrates Amazon Bedrock, Amazon Rekognit",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/agentic-conversational-video-intelligence-built-on-aws/"
+      },
       {
         "name": "Ringg’s AI agents resolve up to 65% of customer calls with O",
         "provider": "RSS",
@@ -6528,53 +6564,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "TechNadu",
         "url": "https://www.technadu.com/securing-ai-agents-requires-more-than-a-one-time-risk-assessment/638233/"
-      },
-      {
-        "name": "Vitalik Buterin Says His 90% Crypto Bet Is a Bet Against AI ",
-        "provider": "Memeburn",
-        "type": "AI 项目/工具",
-        "bestFor": "Software security has no shared reference for what \"secure\" means, and AI agents have repeatedly satisfied checkers while missing the intended property, which t",
-        "description": "Software security has no shared reference for what \"secure\" means, and AI agents have repeatedly satisfied checkers while missing the intended property, which turns the specificati",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Memeburn",
-        "url": "https://memeburn.com/vitalik-buterin-says-his-90-crypto-bet-is-a-bet-against-ai-hackers/"
-      },
-      {
-        "name": "Intel (INTC) Stock Surges 6% on Meta Muse Demand and AUO Pac",
-        "provider": "Blockonomi",
-        "type": "AI 项目/工具",
-        "bestFor": "* Intel shares climbed approximately 6% during Monday's premarket session, continuing a robust recovery trend from the previous week.\n\n* Meta's newly launched M",
-        "description": "* Intel shares climbed approximately 6% during Monday's premarket session, continuing a robust recovery trend from the previous week.\n\n* Meta's newly launched Muse AI agent is gene",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Blockonomi",
-        "url": "https://blockonomi.com/intel-intc-stock-surges-6-on-meta-muse-demand-and-auo-packaging-news/"
-      },
-      {
-        "name": "HUAWEI CONNECT 2026 | Huawei Upgrades Stellar AI Fabric Solu",
-        "provider": "Malaysia Sun",
-        "type": "AI 项目/工具",
-        "bestFor": "SHANGHAI, Sept. 21, 2026 /PRNewswire/ -- At HUAWEI CONNECT 2026, Huawei hosted the AI DC Innovation Summit themed \"Leading AI DC Innovation, Shaping the Agentic",
-        "description": "SHANGHAI, Sept. 21, 2026 /PRNewswire/ -- At HUAWEI CONNECT 2026, Huawei hosted the AI DC Innovation Summit themed \"Leading AI DC Innovation, Shaping the Agentic World,\" convening o",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Malaysia Sun",
-        "url": "https://www.malaysiasun.com/news/279320490/huawei-connect-2026-huawei-upgrades-stellar-ai-fabric-solution-to-build-efficient-ai-computing-production-networks"
-      },
-      {
-        "name": "Akamai (AKAM) Wants to Be the Bouncer for Your AI Agents",
-        "provider": "Yahoo! Finance",
-        "type": "AI 项目/工具",
-        "bestFor": "On September 10, Akamai Technologies (NASDAQ:AKAM) expanded its work with integration platform MuleSoft to help companies spot the hidden APIs and AI agent conn",
-        "description": "On September 10, Akamai Technologies (NASDAQ:AKAM) expanded its work with integration platform MuleSoft to help companies spot the hidden APIs and AI agent connections that leave d",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Yahoo! Finance",
-        "url": "https://finance.yahoo.com/technology/ai/articles/akamai-akam-wants-bouncer-ai-042559212.html"
       }
     ],
     "ai-models": [
+      {
+        "name": "Anthropic 发布 Claude Opus 5.5：默认 1M token 上下文，面向长时间运行的智能体编码",
+        "provider": "Claude Platform：开发者版本说明（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "Anthropic 发布 Claude Opus 5.5（claude-opus-5-5），定位于长时间运行的智能体编码与知识工作，默认 1M token 上下文窗口。",
+        "description": "Anthropic 发布 Claude Opus 5.5（claude-opus-5-5），定位于长时间运行的智能体编码与知识工作，默认 1M token 上下文窗口。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Claude Platform：开发者版本说明（RSS）",
+        "url": "https://platform.claude.com/docs/en/release-notes/overview#september-22-2026"
+      },
       {
         "name": "OpenAI 发布 GPT-6 Sol 和 GPT-6 Luna，API 价格较 GPT-5.6 促销价降低 50%",
         "provider": "IT之家（RSS）",
@@ -7003,17 +7006,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "CNET",
         "url": "https://www.cnet.com/tech/computing/m6-mac-mini-first-look-bigger-power-packed-in-same-small-package/"
-      },
-      {
-        "name": "Gemini helps Bengaluru CEO draft complaint after road-rage i",
-        "provider": "Economic Times",
-        "type": "AI 项目/工具",
-        "bestFor": "Gemini (Google Trends): Bengaluru CEO Siddharth Dialani said Google's Gemini helped him draft a police complaint after an alleged road-rage incident involving a",
-        "description": "Gemini (Google Trends): Bengaluru CEO Siddharth Dialani said Google's Gemini helped him draft a police complaint after an alleged road-rage incident involving a biker. He said the ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Economic Times",
-        "url": "https://economictimes.indiatimes.com/news/new-updates/gemini-helps-bengaluru-ceo-draft-complaint-after-road-rage-incident-what-happens-next-stuns-netizens/articleshow/134388264.cms"
       }
     ],
     "ai-business": [
@@ -10303,13 +10295,24 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-24",
-    "generatedAt": "2026-09-23T17:20:21.163292Z",
-    "total": 9,
+    "generatedAt": "2026-09-23T19:40:39.445590Z",
+    "total": 18,
     "sections": [
       {
         "category": "ai-coding",
         "label": "AI 编程",
         "items": [
+          {
+            "title": "Use open weight models as your AI coding agent with Amazon Bedrock",
+            "summary": "Pair OpenCode, an open-source terminal-native AI coding agent, with open weight models on Amazon Bedrock to get a secure, flexible, pay-per-",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/use-open-weight-models-as-your-ai-coding-agent-with-amazon-bedrock/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-24",
+            "publishedAt": "2026-09-24T02:17",
+            "reason": ""
+          },
           {
             "title": "Evaluate skill-equipped agents with Strands Evals and Amazon Bedrock AgentCore",
             "summary": "Skills let you encode domain-specific procedures as reusable, portable instructions for agents, but a fluent answer doesn't prove the agent ",
@@ -10324,9 +10327,48 @@ window.AI_GENERATED_DATA = {
         ]
       },
       {
+        "category": "ai-image-video",
+        "label": "图像视频",
+        "items": [
+          {
+            "title": "How invideo improves color grading 3x with GPT‑6 Astra",
+            "summary": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effect",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-23",
+            "publishedAt": "2026-09-23T20:00",
+            "reason": ""
+          }
+        ]
+      },
+      {
         "category": "ai-agents",
         "label": "Agent / MCP",
         "items": [
+          {
+            "title": "From portal-hopping to instant answers: HEMA’s journey with MCP and Amazon Bedrock",
+            "summary": "HEMA, a 100-year-old Dutch retailer, turned developer portal-hopping into instant answers by building HAL, an internal AI assistant on Amazo",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/from-portal-hopping-to-instant-answers-hemas-journey-with-mcp-and-amazon-bedrock/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-24",
+            "publishedAt": "2026-09-24T02:41",
+            "reason": ""
+          },
+          {
+            "title": "Agentic conversational video intelligence built on AWS",
+            "summary": "Learn how to build a conversational video intelligence solution on AWS using an agentic architecture. A single Strands Agents SDK agent orch",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/agentic-conversational-video-intelligence-built-on-aws/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-24",
+            "publishedAt": "2026-09-24T02:21",
+            "reason": ""
+          },
           {
             "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
             "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
@@ -10345,6 +10387,28 @@ window.AI_GENERATED_DATA = {
         "label": "模型发布",
         "items": [
           {
+            "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
+            "summary": "",
+            "source": "RSS · Hugging Face Blog",
+            "url": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-24",
+            "publishedAt": "2026-09-24T02:41",
+            "reason": ""
+          },
+          {
+            "title": "Google Beam expands with new regions, partners, and customers",
+            "summary": "We’re expanding Google Beam to five new countries, and partnering with Industrious for an extended network.",
+            "source": "RSS · Google AI Blog",
+            "url": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-24",
+            "publishedAt": "2026-09-24T02:00",
+            "reason": ""
+          },
+          {
             "title": "Advancing Private AI Compute with secure, server-side memory",
             "summary": "Introducing private, server-side memory to Private AI Compute for personal AI.",
             "source": "RSS · Google DeepMind",
@@ -10353,6 +10417,28 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-09-24",
             "publishedAt": "2026-09-24T00:00",
+            "reason": ""
+          },
+          {
+            "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
+            "summary": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-23",
+            "publishedAt": "2026-09-23T20:00",
+            "reason": ""
+          },
+          {
+            "title": "Sep 23, 2026 Science Claude discovers a novel enzyme system with CRISPR-like repeats",
+            "summary": "Sep 23, 2026 Science Claude discovers a novel enzyme system with CRISPR-like repeats",
+            "source": "HTML · Anthropic",
+            "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-23",
+            "publishedAt": "",
             "reason": ""
           },
           {
@@ -10419,6 +10505,23 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-09-23",
             "publishedAt": "2026-09-23T07:46",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "category": "ai-research",
+        "label": "论文研究",
+        "items": [
+          {
+            "title": "Offloaded inference for real-world physical AI robotics",
+            "summary": "Robots are getting smarter, but how can their hardware match that growth? New Microsoft Research findings show that moving AI inference beyo",
+            "source": "RSS · Microsoft Research",
+            "url": "https://www.microsoft.com/en-us/research/blog/offloaded-inference-for-real-world-physical-ai-robotics/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-24",
+            "publishedAt": "2026-09-24T00:01",
             "reason": ""
           }
         ]
