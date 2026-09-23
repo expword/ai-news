@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-23",
-  "generatedAt": "2026-09-23T00:48:10.366003Z",
+  "generatedAt": "2026-09-23T03:18:15.315736Z",
   "news": [
     {
       "title": "Bring more intelligence to everyday work with GPT-6 Sol and GPT-6 Luna on Amazon Bedrock",
@@ -2477,33 +2477,6 @@ window.AI_GENERATED_DATA = {
       "sourceDate": "2026-09-15",
       "tags": [],
       "url": "https://arxiv.org/abs/2609.13185",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "The Role of Implicit and Explicit Demographic Signals in Large Language Model-based Student Assessment",
-      "summary": "Large Language Models are now common in student assessment, but we know little about how student demographics affect their use. Sometimes, considering student demographics may be n",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-15",
-      "publishedAt": "",
-      "collectedAt": "2026-09-16T09:56",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-15",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.16993v1",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -6045,6 +6018,72 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "Autonomous agents not ready for independent responsibility, ",
+        "provider": "Economic Times",
+        "type": "AI 项目/工具",
+        "bestFor": "His comment comes in the wake of reports that Google's Gemini model recently accessed the systems of three companies during a test of its cybersecurity capabili",
+        "description": "His comment comes in the wake of reports that Google's Gemini model recently accessed the systems of three companies during a test of its cybersecurity capabilities, after autonomo",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Economic Times",
+        "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/autonomous-agents-not-ready-for-independent-responsibility-says-google-cybersecurity-expert/articleshow/134416837.cms"
+      },
+      {
+        "name": "China's New AI Governance Goes Deep on AI Agent Security",
+        "provider": "govinfosecurity.com",
+        "type": "AI 项目/工具",
+        "bestFor": "Artificial Intelligence & Machine Learning , Governance & Risk Management , Next-Generation Technologies & Secure Development\n\nChina's new artificial intelligen",
+        "description": "Artificial Intelligence & Machine Learning , Governance & Risk Management , Next-Generation Technologies & Secure Development\n\nChina's new artificial intelligence governance framew",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "govinfosecurity.com",
+        "url": "https://www.govinfosecurity.com/chinas-new-ai-governance-goes-deep-on-ai-agent-security-a-32898"
+      },
+      {
+        "name": "We Are Beginning Agentic Age And Snapdragon Is The Platform ",
+        "provider": "TimesNow",
+        "type": "AI 项目/工具",
+        "bestFor": "At the Snapdragon Summit 2026, Qualcomm has announced a shift towards agentic AI where AI itself becomes the new UI.\n\nSpeaking at the Snapdragon Summit 2026 in ",
+        "description": "At the Snapdragon Summit 2026, Qualcomm has announced a shift towards agentic AI where AI itself becomes the new UI.\n\nSpeaking at the Snapdragon Summit 2026 in Maui, Hawaii, Qualco",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "TimesNow",
+        "url": "https://www.timesnownews.com/technology-science/we-are-beginning-agentic-age-and-snapdragon-is-the-platform-built-for-it-qualcomm-ceo-cristiano-amon-article-156206892"
+      },
+      {
+        "name": "Meta's New AI Agent Is an Instant Hit -- and the Backlash Ha",
+        "provider": "The Wall Street Journal",
+        "type": "AI 项目/工具",
+        "bestFor": "Meta's new personal AI agent, Muse, has reached No. 1 on Apple's U.S. App Store, sending Meta's stock up 11% on Monday.View more\n\nMeta META -0.63%decrease; down",
+        "description": "Meta's new personal AI agent, Muse, has reached No. 1 on Apple's U.S. App Store, sending Meta's stock up 11% on Monday.View more\n\nMeta META -0.63%decrease; down pointing triangle P",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Wall Street Journal",
+        "url": "https://www.wsj.com/tech/ai/meta-ai-agent-muse-reactions-5bf236af"
+      },
+      {
+        "name": "Qualcomm Takes Apple To 'Extreme' With 2nm AI Agent Chips",
+        "provider": "TimesNow",
+        "type": "AI 项目/工具",
+        "bestFor": "Qualcomm has officially unveiled its next-generation smartphone silicon: the Snapdragon 8 Elite Gen 6 and its higher-tier counterpart, the Snapdragon 8 Elite Ex",
+        "description": "Qualcomm has officially unveiled its next-generation smartphone silicon: the Snapdragon 8 Elite Gen 6 and its higher-tier counterpart, the Snapdragon 8 Elite Extreme Gen 6. This is",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "TimesNow",
+        "url": "https://www.timesnownews.com/technology-science/qualcomm-takes-apple-to-extreme-with-2nm-ai-agent-chips-article-156206860"
+      },
+      {
+        "name": "Okta debuts agentic lifecycle management tools, AI kill swit",
+        "provider": "Computer Weekly",
+        "type": "AI 项目/工具",
+        "bestFor": "In the wake of a string of incidents involving badly-managed AI agents, security firm Okta enhanced its year-old agentic services proposition with new capabilit",
+        "description": "In the wake of a string of incidents involving badly-managed AI agents, security firm Okta enhanced its year-old agentic services proposition with new capabilities to securely mana",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Computer Weekly",
+        "url": "https://www.computerweekly.com/news/366650934/Okta-debuts-agentic-lifecycle-management-tools-AI-kill-switch"
+      },
+      {
         "name": "Parallel cut research time and cost in half with GPT‑6 Astra",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -6417,75 +6456,42 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Pulse 2.0",
         "url": "https://pulse2.com/tempus-secures-up-to-9-5-million-from-arpa-h-to-develop-autonomous-ai-agent-for-heart-failure-care/"
-      },
-      {
-        "name": "Helpful companion or privacy concern? Meta Muse draws questi",
-        "provider": "Firstpost",
-        "type": "AI 项目/工具",
-        "bestFor": "Meta's Muse AI agent faces privacy concerns over its push for personal data, even as Mark Zuckerberg defends the company's approach to AI safety.\n\nMeta's Muse, ",
-        "description": "Meta's Muse AI agent faces privacy concerns over its push for personal data, even as Mark Zuckerberg defends the company's approach to AI safety.\n\nMeta's Muse, one of the mainstrea",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Firstpost",
-        "url": "https://www.firstpost.com/tech/helpful-companion-or-privacy-concern-meta-muse-draws-questions-over-data-use-report-14047144.html"
-      },
-      {
-        "name": "Meta opens Muse to third-party developers with new connector",
-        "provider": "Crypto Briefing",
-        "type": "AI 项目/工具",
-        "bestFor": "Ten days after launching its personal AI agent, Meta is letting outside developers build their own integrations into the platform.\n\nMeta launched its personal A",
-        "description": "Ten days after launching its personal AI agent, Meta is letting outside developers build their own integrations into the platform.\n\nMeta launched its personal AI agent, Muse, on Se",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Crypto Briefing",
-        "url": "https://cryptobriefing.com/meta-muse-developer-connector-api-access/"
-      },
-      {
-        "name": "Google Gives Families Their Own AI Agent To Manage Daily Cha",
-        "provider": "HotHardware",
-        "type": "AI 项目/工具",
-        "bestFor": "Google Labs is doing its best Oprah Winfrey impression by saying, 'You get an AI agent, you get an AI agent, everyone gets an AI agent!', as its experimental CC",
-        "description": "Google Labs is doing its best Oprah Winfrey impression by saying, 'You get an AI agent, you get an AI agent, everyone gets an AI agent!', as its experimental CC tool that released ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "HotHardware",
-        "url": "https://hothardware.com/news/google-gives-families-their-own-ai-agent-manage-daily-chaos"
-      },
-      {
-        "name": "Meta's Muse keeps asking users for more personal data",
-        "provider": "NewsBytes",
-        "type": "AI 项目/工具",
-        "bestFor": "Meta's Muse, an advanced artificial intelligence (AI) agent designed to automate personal tasks, has gained popularity among users. The tool is more of a compan",
-        "description": "Meta's Muse, an advanced artificial intelligence (AI) agent designed to automate personal tasks, has gained popularity among users. The tool is more of a companion than a tradition",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsBytes",
-        "url": "https://www.newsbytesapp.com/news/science/meta-s-muse-ai-repeatedly-asks-users-to-share-more-data/story"
-      },
-      {
-        "name": "Google's AI test takes an unexpected turn as Gemini reaches ",
-        "provider": "MoneyControl",
-        "type": "AI 项目/工具",
-        "bestFor": "Artificial intelligence is moving beyond answering questions. Modern AI agents can search the internet, use software tools and carry out tasks with limited huma",
-        "description": "Artificial intelligence is moving beyond answering questions. Modern AI agents can search the internet, use software tools and carry out tasks with limited human intervention. A re",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "MoneyControl",
-        "url": "https://www.moneycontrol.com/news/trends/google-s-ai-test-takes-an-unexpected-turn-as-gemini-reaches-real-systems-14033884.html"
-      },
-      {
-        "name": "Unlocking the trillion-token era: B.AI's global settlement l",
-        "provider": "Cointelegraph",
-        "type": "AI 项目/工具",
-        "bestFor": "B.AI has surpassed 1.51 trillion tokens in daily throughput just five months after launch, marking a more than 71,500-fold increase since its first day of opera",
-        "description": "B.AI has surpassed 1.51 trillion tokens in daily throughput just five months after launch, marking a more than 71,500-fold increase since its first day of operation.\n\nSeptember 20,",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Cointelegraph",
-        "url": "https://cointelegraph.com/press-releases/unlocking-the-trillion-token-era-bais-global-settlement-layer-for-the-agent-economy"
       }
     ],
     "ai-models": [
+      {
+        "name": "AI Framework Cortex Maps Career Goals to Prerequisite-Ready ",
+        "provider": "Scienmag",
+        "type": "AI 项目/工具",
+        "bestFor": "A career changer who types \"I want to interpret big data\" into a conventional guidance platform is likely to be met with silence or irrelevant suggestions, beca",
+        "description": "A career changer who types \"I want to interpret big data\" into a conventional guidance platform is likely to be met with silence or irrelevant suggestions, because the phrase never",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Scienmag: Latest Science and Health News",
+        "url": "https://scienmag.com/ai-framework-cortex-maps-career-goals-to-prerequisite-ready-learning-paths/"
+      },
+      {
+        "name": "OpenRouter 发布 2026 年最佳嵌入模型选型指南，覆盖 37 个目录条目",
+        "provider": "OpenRouter：Announcements（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenRouter 于 2026 年 9 月 11 日核实嵌入模型目录共 37 个条目，并通过自家 embeddings API 向 19 个模型发送批量请求、共 28 项检查，确认请求与响应行为。",
+        "description": "OpenRouter 于 2026 年 9 月 11 日核实嵌入模型目录共 37 个条目，并通过自家 embeddings API 向 19 个模型发送批量请求、共 28 项检查，确认请求与响应行为。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "OpenRouter：Announcements（RSS）",
+        "url": "https://openrouter.ai/blog/insights/best-embedding-models-2026"
+      },
+      {
+        "name": "From IT Services to Enterprise AI: What ATGL Must Prove Next",
+        "provider": "finanzen.at",
+        "type": "AI 项目/工具",
+        "bestFor": "AlphaClaw gives the Nasdaq-listed technology company a clearer platform strategy, but customer adoption, recurring revenue and capital discipline will determine",
+        "description": "AlphaClaw gives the Nasdaq-listed technology company a clearer platform strategy, but customer adoption, recurring revenue and capital discipline will determine whether the transit",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "finanzen.at",
+        "url": "https://www.finanzen.at/nachrichten/aktien/from-it-services-to-enterprise-ai-what-atgl-must-prove-next-1036565983"
+      },
       {
         "name": "OpenAI 发布 GPT-6 Sol 和 GPT-6 Luna，API 价格较 GPT-5.6 促销价低 50%",
         "provider": "X：Tibo (@thsottiaux)",
@@ -6892,39 +6898,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Times Union",
         "url": "https://www.timesunion.com/news/world/article/world-leaders-meet-at-un-as-their-planet-grapples-22441296.php"
-      },
-      {
-        "name": "World leaders meet at UN as their planet grapples with war, ",
-        "provider": "Audacy",
-        "type": "AI 项目/工具",
-        "bestFor": "UNITED NATIONS (AP) -- Under a global cloud of wars and bitter divisions, world leaders meet at the United Nations this week facing new fears that runaway artif",
-        "description": "UNITED NATIONS (AP) -- Under a global cloud of wars and bitter divisions, world leaders meet at the United Nations this week facing new fears that runaway artificial intelligence c",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Audacy",
-        "url": "https://www.audacy.com/talk1370/news/world/un-assembly-leaders-ai-trump-netanyahu-climate-c4727651b9030d6e7f81c0457a33440b"
-      },
-      {
-        "name": "World leaders meet at UN as their planet grapples with war, ",
-        "provider": "Audacy",
-        "type": "AI 项目/工具",
-        "bestFor": "UNITED NATIONS (AP) -- Under a global cloud of wars and bitter divisions, world leaders meet at the United Nations this week facing new fears that runaway artif",
-        "description": "UNITED NATIONS (AP) -- Under a global cloud of wars and bitter divisions, world leaders meet at the United Nations this week facing new fears that runaway artificial intelligence c",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Audacy",
-        "url": "https://www.audacy.com/kywnewsradio/news/world/un-assembly-leaders-ai-trump-netanyahu-climate-c4727651b9030d6e7f81c0457a33440b"
-      },
-      {
-        "name": "Parenting in the age of the Open Web and AI - Time to take b",
-        "provider": "The Daily Herald",
-        "type": "AI 项目/工具",
-        "bestFor": "This is my heart-wrenching experience that I firmly believe I need to share.\n\nWe often tell ourselves that our children are safe because they are home. They are",
-        "description": "This is my heart-wrenching experience that I firmly believe I need to share.\n\nWe often tell ourselves that our children are safe because they are home. They are in their bedrooms. ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Daily Herald",
-        "url": "https://www.thedailyherald.sx/opinion/letter-to-the-editor/parenting-in-the-age-of-the-open-web-and-ai-time-to-take-back-control-is-now"
       }
     ],
     "ai-business": [
@@ -10218,7 +10191,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-23",
-    "generatedAt": "2026-09-23T00:48:10.336347Z",
+    "generatedAt": "2026-09-23T03:18:15.291670Z",
     "total": 15,
     "sections": [
       {
