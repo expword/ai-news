@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-23",
-  "generatedAt": "2026-09-23T12:13:13.492113Z",
+  "generatedAt": "2026-09-23T14:50:17.562557Z",
   "news": [
     {
       "title": "Grab and OpenAI bring practical AI skills to Southeast Asia",
@@ -2491,33 +2491,6 @@
           "title": "How V7 gives AI agents institutional memory"
         }
       ]
-    },
-    {
-      "title": "LLMs or Naive Bayes? Old Gems or New Ways",
-      "summary": "arXiv:2609.13185v1 Announce Type: new Abstract: Large language models (LLMs) prompt a recurring question in research computing: should classical methods like Naive Bayes (NB) be re",
-      "category": "ai-benchmark",
-      "source": "RSS · arXiv cs.LG",
-      "date": "2026-09-15",
-      "publishedAt": "",
-      "collectedAt": "2026-09-16T11:13",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-15",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2609.13185",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
     }
   ],
   "weeklyDigests": [
@@ -6045,6 +6018,105 @@
     ],
     "ai-agents": [
       {
+        "name": "China’s AI trade favours global winners over local champions",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Export-oriented firms are outperforming more domestically-focused peers",
+        "description": "Export-oriented firms are outperforming more domestically-focused peers",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.businesstimes.com.sg/international/chinas-ai-trade-favours-global-winners-over-local-champions"
+      },
+      {
+        "name": "Snowflake (NYSE:SNOW) Director Sells $65,887,526.90 in Stock",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Snowflake Inc. (NYSE:SNOW – Get Free Report) Director Frank Slootman sold 197,209 shares of the business’s stock in a transaction dated Friday, September 18th. ",
+        "description": "Snowflake Inc. (NYSE:SNOW – Get Free Report) Director Frank Slootman sold 197,209 shares of the business’s stock in a transaction dated Friday, September 18th. The stock was sold a",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://baseballnewssource.com/2026/09/22/snowflake-nysesnow-director-sells-65887526-90-in-stock/11273340.html"
+      },
+      {
+        "name": "Insider Selling: Snowflake (NYSE:SNOW) EVP Sells 2,622 Share",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Snowflake Inc. (NYSE:SNOW – Get Free Report) EVP Christian Kleinerman sold 2,622 shares of the firm’s stock in a transaction dated Tuesday, September 22nd. The ",
+        "description": "Snowflake Inc. (NYSE:SNOW – Get Free Report) EVP Christian Kleinerman sold 2,622 shares of the firm’s stock in a transaction dated Tuesday, September 22nd. The shares were sold at ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.themarketsdaily.com/2026/09/23/insider-selling-snowflake-nysesnow-evp-sells-2622-shares.html"
+      },
+      {
+        "name": "Insider Selling: Snowflake (NYSE:SNOW) Director Sells $65,88",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Snowflake Inc. (NYSE:SNOW – Get Free Report) Director Frank Slootman sold 197,209 shares of the company’s stock in a transaction on Friday, September 18th. The ",
+        "description": "Snowflake Inc. (NYSE:SNOW – Get Free Report) Director Frank Slootman sold 197,209 shares of the company’s stock in a transaction on Friday, September 18th. The shares were sold at ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.thelincolnianonline.com/2026/09/22/insider-selling-snowflake-nysesnow-director-sells-65887526-90-in-stock.html"
+      },
+      {
+        "name": "AI Hype in 2026: Real Progress Meets Persistent Limitations,",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "The summer of 2026 saw a surge of AI announcements blending real progress with heavy marketing exaggeration, as detailed by MIT Technology Review. Despite hype ",
+        "description": "The summer of 2026 saw a surge of AI announcements blending real progress with heavy marketing exaggeration, as detailed by MIT Technology Review. Despite hype around breakthroughs",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.webpronews.com/ai-hype-in-2026-real-progress-meets-persistent-limitations-says-mit-review/"
+      },
+      {
+        "name": "Christian Kleinerman Sells 2,622 Shares of Snowflake (NYSE:S",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Snowflake Inc. (NYSE:SNOW – Get Free Report) EVP Christian Kleinerman sold 2,622 shares of the company’s stock in a transaction dated Tuesday, September 22nd. T",
+        "description": "Snowflake Inc. (NYSE:SNOW – Get Free Report) EVP Christian Kleinerman sold 2,622 shares of the company’s stock in a transaction dated Tuesday, September 22nd. The shares were sold ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://zolmax.com/investing/christian-kleinerman-sells-2622-shares-of-snowflake-nysesnow-stock/12002207.html"
+      },
+      {
+        "name": "Google debuts Googlebook laptop with on-device Gemini starti",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Google starts taking pre-orders for the $899 Googlebook laptop with Gemini AI built into the OS and ships October 4 in the U.S.",
+        "description": "Google starts taking pre-orders for the $899 Googlebook laptop with Gemini AI built into the OS and ships October 4 in the U.S.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://completeaitraining.com/news/google-debuts-googlebook-laptop-with-on-device-gemini/"
+      },
+      {
+        "name": "Qualcomm Unveils Snapdragon 8 Elite Gen 6, Bets Big on Agent",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Qualcomm (NASDAQ:QCOM) used its Snapdragon Summit 2026 keynote to outline its strategy for “agentic” artificial intelligence, positioning smartphones and other ",
+        "description": "Qualcomm (NASDAQ:QCOM) used its Snapdragon Summit 2026 keynote to outline its strategy for “agentic” artificial intelligence, positioning smartphones and other connected devices as",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.watchlistnews.com/qualcomm-unveils-snapdragon-8-elite-gen-6-bets-big-on-agentic-ai/11233121.html"
+      },
+      {
+        "name": "EQS Newswire: Alpha Technology Group Ltd: From IT Services t",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "EQS Newswire / 23/09/2026 / 09:00 UTC+8 AlphaClaw gives the Nasdaq-listed technology company a clearer platform strategy, but customer adoption, recurring reven",
+        "description": "EQS Newswire / 23/09/2026 / 09:00 UTC+8 AlphaClaw gives the Nasdaq-listed technology company a clearer platform strategy, but customer adoption, recurring revenue and capital disci",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.finanznachrichten.de/nachrichten-2026-09/69649650-eqs-newswire-alpha-technology-group-ltd-from-it-services-to-enterprise-ai-what-atgl-must-prove-next-023.htm"
+      },
+      {
         "name": "Autonomous agents not ready for independent responsibility, ",
         "provider": "Economic Times",
         "type": "AI 项目/工具",
@@ -6384,108 +6456,20 @@
         "watch": "请打开原始来源核对",
         "sourceName": "CIO",
         "url": "https://www.cio.com/article/4223955/your-ai-agent-may-have-made-the-decision-but-your-company-owns-the-risk.html"
-      },
-      {
-        "name": "Turns Out Testing is Hard | Quality Remarks Keith Klain",
-        "provider": "Quality Remarks - Reflections on a career trying to make software suck less . . .",
-        "type": "AI 项目/工具",
-        "bestFor": "Guess what, somebody did some actual research on testing agentic systems, and they accidentally found out that good software testing is hard. So, to celebrate t",
-        "description": "Guess what, somebody did some actual research on testing agentic systems, and they accidentally found out that good software testing is hard. So, to celebrate their enlightenment a",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Quality Remarks - Reflections on a career trying to make software suck less . . .",
-        "url": "https://qualityremarks.com/turns-out-testing-is-hard/"
-      },
-      {
-        "name": "This Week in Tech: Exclave Subpoena | TWiT.TV",
-        "provider": "TWiT.tv",
-        "type": "AI 项目/工具",
-        "bestFor": "AI hallucinations nearly sparked an international crisis, Google dodged a breakup but faces new rules, and Meta's personal AI agent might be about to run your l",
-        "description": "AI hallucinations nearly sparked an international crisis, Google dodged a breakup but faces new rules, and Meta's personal AI agent might be about to run your life. This week's epi",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "TWiT.tv",
-        "url": "https://twit.tv/shows/this-week-in-tech/episodes/1102"
-      },
-      {
-        "name": "Sibos: When an AI agent does the buying, who owns the custom",
-        "provider": "FinTech Futures",
-        "type": "AI 项目/工具",
-        "bestFor": "Disclaimer: The author is an employee at PayPal Inc. The views and opinions expressed in this article are those of the author and do not represent the views and",
-        "description": "Disclaimer: The author is an employee at PayPal Inc. The views and opinions expressed in this article are those of the author and do not represent the views and positions of PayPal",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "FinTech Futures",
-        "url": "https://www.fintechfutures.com/ai-in-fintech/sibos-2026-digital-finance-in-an-ai-driven-economy-when-the-agent-does-the-buying-who-owns-the-customer"
-      },
-      {
-        "name": "Big shifts coming to travel by 2030: Why infrastructure, not",
-        "provider": "phocuswire.com",
-        "type": "AI 项目/工具",
-        "bestFor": "Much of the travel discussion in 2026 appears to arrive at the conclusion that artificial intelligence (AI) agents will play a growing role in how people resear",
-        "description": "Much of the travel discussion in 2026 appears to arrive at the conclusion that artificial intelligence (AI) agents will play a growing role in how people research and book trips.\n\n",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "phocuswire.com",
-        "url": "https://www.phocuswire.com/opinion/technology/big-shift-coming-travel-2030-why-infrastructure-not-ai-decides-who-wins"
-      },
-      {
-        "name": "Hypit AI Video Cloning: 7 Things Creators Should Know in 202",
-        "provider": "Techmixer",
-        "type": "AI 项目/工具",
-        "bestFor": "Hypit AI video cloning guide for creators: install the open-source agent workflow, remix one viral video, and review many clip variants safely.\n\nHypit AI video ",
-        "description": "Hypit AI video cloning guide for creators: install the open-source agent workflow, remix one viral video, and review many clip variants safely.\n\nHypit AI video cloning is interesti",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Techmixer",
-        "url": "https://www.techmixer.com/hypit-ai-video-cloning/"
-      },
-      {
-        "name": "Obama on agentic AI",
-        "provider": "Marginal REVOLUTION",
-        "type": "AI 项目/工具",
-        "bestFor": "\"If we are thinking about AI just in terms of how do we cure cancer or get better energy, you can do that without having agentic AI and having it just roaming f",
-        "description": "\"If we are thinking about AI just in terms of how do we cure cancer or get better energy, you can do that without having agentic AI and having it just roaming free in the internet.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Marginal REVOLUTION",
-        "url": "https://marginalrevolution.com/marginalrevolution/2026/09/obama-on-agentic-ai.html"
-      },
-      {
-        "name": "Mastercard and Trip.com pave the way for agentic commerce in",
-        "provider": "Al Bawaba",
-        "type": "AI 项目/工具",
-        "bestFor": "Mastercard and Trip.com have joined forces to showcase AI powered booking experiences for the travel sector. Powered by Mastercard's Agent Suite for Merchants a",
-        "description": "Mastercard and Trip.com have joined forces to showcase AI powered booking experiences for the travel sector. Powered by Mastercard's Agent Suite for Merchants and in partnership wi",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Al Bawaba",
-        "url": "https://www.albawaba.com/business/pr/mastercard-and-tripcom-pave-way-agentic-1637212?overridden_route_name=entity.node.canonical&base_route_name=entity.node.canonical&page_manager_page=node_view&page_manager_page_variant=node_view-panels_variant-0&page_manager_page_variant_weight=0"
-      },
-      {
-        "name": "Google Gemini allegedly hacked three companies on its own",
-        "provider": "Mashable ME",
-        "type": "AI 项目/工具",
-        "bestFor": "Google's signature AI agent did something it probably shouldn't have, and Google opted not to mention it for months. The Wall Street Journal reported that, duri",
-        "description": "Google's signature AI agent did something it probably shouldn't have, and Google opted not to mention it for months. The Wall Street Journal reported that, during a test run by a c",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Mashable ME",
-        "url": "https://me.mashable.com/tech/76274/google-gemini-allegedly-hacked-three-companies-on-its-own"
-      },
-      {
-        "name": "Tempus Secures Up To $9.5 Million From ARPA-H To Develop Aut",
-        "provider": "Pulse 2.0",
-        "type": "AI 项目/工具",
-        "bestFor": "Tempus AI has been selected to receive up to $9.5 million from the Advanced Research Projects Agency for Health to develop and clinically validate an autonomous",
-        "description": "Tempus AI has been selected to receive up to $9.5 million from the Advanced Research Projects Agency for Health to develop and clinically validate an autonomous AI agent designed t",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Pulse 2.0",
-        "url": "https://pulse2.com/tempus-secures-up-to-9-5-million-from-arpa-h-to-develop-autonomous-ai-agent-for-heart-failure-care/"
       }
     ],
     "ai-models": [
+      {
+        "name": "「GPT-6 Sol」「GPT-6 Luna」登場、API料金半額でリセット権も配布 - PC Watch",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "「GPT-6 Sol」「GPT-6 Luna」登場、API料金半額でリセット権も配布 PC Watch Claude Opus 5.5発表、Astra超え・Fable 5.1級で半額以下。口調も結論から分かりやすく改善、無料リセット配布(テクノエッジ) Yahoo!ニュース OpenAI、「GPT-6 Sol」と",
+        "description": "「GPT-6 Sol」「GPT-6 Luna」登場、API料金半額でリセット権も配布 PC Watch Claude Opus 5.5発表、Astra超え・Fable 5.1級で半額以下。口調も結論から分かりやすく改善、無料リセット配布(テクノエッジ) Yahoo!ニュース OpenAI、「GPT-6 Sol」と「GPT-6 Luna」公開 API料金",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Claude AI",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB2ZU9lVThTZU1mbVJpODJDNW0tMVJ1eHV2U1JuVHpvcFVkdjdob3JXekZhQzZqVXFzOWVRcGlyNmdFdWVJODRYald4OXJMS3QxNmlaOVBvcWN3OGZ1eUl5d25vZw?oc=5"
+      },
       {
         "name": "AI Framework Cortex Maps Career Goals to Prerequisite-Ready ",
         "provider": "Scienmag",
@@ -6914,20 +6898,75 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Audacy",
         "url": "https://www.audacy.com/kdkaradio/news/world/un-assembly-leaders-ai-trump-netanyahu-climate-c4727651b9030d6e7f81c0457a33440b"
-      },
-      {
-        "name": "World leaders meet at UN as their planet grapples with war, ",
-        "provider": "Times Union",
-        "type": "AI 项目/工具",
-        "bestFor": "UNITED NATIONS (AP) -- Under a global cloud of wars and bitter divisions, world leaders meet at the United Nations this week facing new fears that runaway artif",
-        "description": "UNITED NATIONS (AP) -- Under a global cloud of wars and bitter divisions, world leaders meet at the United Nations this week facing new fears that runaway artificial intelligence c",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Times Union",
-        "url": "https://www.timesunion.com/news/world/article/world-leaders-meet-at-un-as-their-planet-grapples-22441296.php"
       }
     ],
     "ai-business": [
+      {
+        "name": "Barracuda launches AI Data Security for smaller firms",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Smaller businesses and MSPs are being offered controls to stop staff sending sensitive data into generative AI tools, amid growing governance gaps.",
+        "description": "Smaller businesses and MSPs are being offered controls to stop staff sending sensitive data into generative AI tools, amid growing governance gaps.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Claude AI",
+        "url": "https://securitybrief.asia/story/barracuda-launches-ai-data-security-for-smaller-firms"
+      },
+      {
+        "name": "Barracuda launches AI Data Security for smaller firms",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Smaller businesses and MSPs are being offered controls to stop staff sending sensitive data into generative AI tools, amid growing governance gaps.",
+        "description": "Smaller businesses and MSPs are being offered controls to stop staff sending sensitive data into generative AI tools, amid growing governance gaps.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Claude AI",
+        "url": "https://securitybrief.com.au/story/barracuda-launches-ai-data-security-for-smaller-firms"
+      },
+      {
+        "name": "Barracuda launches AI Data Security for smaller firms",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Smaller businesses and MSPs are being offered controls to stop staff sending sensitive data into generative AI tools, amid growing governance gaps.",
+        "description": "Smaller businesses and MSPs are being offered controls to stop staff sending sensitive data into generative AI tools, amid growing governance gaps.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Claude AI",
+        "url": "https://channellife.co.nz/story/barracuda-launches-ai-data-security-for-smaller-firms"
+      },
+      {
+        "name": "Barracuda launches AI Data Security for smaller firms",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Smaller businesses and MSPs are being offered controls to stop staff sending sensitive data into generative AI tools, amid growing governance gaps.",
+        "description": "Smaller businesses and MSPs are being offered controls to stop staff sending sensitive data into generative AI tools, amid growing governance gaps.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Claude AI",
+        "url": "https://securitybrief.co.uk/story/barracuda-launches-ai-data-security-for-smaller-firms"
+      },
+      {
+        "name": "Barracuda launches AI Data Security for smaller firms",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Smaller businesses and MSPs are being offered controls to stop staff sending sensitive data into generative AI tools, amid growing governance gaps.",
+        "description": "Smaller businesses and MSPs are being offered controls to stop staff sending sensitive data into generative AI tools, amid growing governance gaps.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Claude AI",
+        "url": "https://itbrief.co.nz/story/barracuda-launches-ai-data-security-for-smaller-firms"
+      },
+      {
+        "name": "Barracuda launches AI Data Security for smaller firms",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Smaller businesses and MSPs are being offered controls to stop staff sending sensitive data into generative AI tools, amid growing governance gaps.",
+        "description": "Smaller businesses and MSPs are being offered controls to stop staff sending sensitive data into generative AI tools, amid growing governance gaps.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Claude AI",
+        "url": "https://securitybrief.in/story/barracuda-launches-ai-data-security-for-smaller-firms"
+      },
       {
         "name": "Shopify (SHOP) Stock Soars 7% on Meta Muse AI Shopping Integ",
         "provider": "Blockonomi",
@@ -7301,72 +7340,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "SmartHouse",
         "url": "https://www.smarthouse.com.au/ifa-2026-tcl-unveils-new-tvs-smart-glasses-and-australia-bound-p80-phones/"
-      },
-      {
-        "name": "iOS 27 Update Today: When To Expect It In India And Which iP",
-        "provider": "thedailyjagran.com",
-        "type": "AI 项目/工具",
-        "bestFor": "Apple is rolling out iOS 27 today, September 14, bringing its latest iPhone software to compatible models in India and other markets. The update was first shown",
-        "description": "Apple is rolling out iOS 27 today, September 14, bringing its latest iPhone software to compatible models in India and other markets. The update was first shown at WWDC 2026 and ha",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "thedailyjagran.com",
-        "url": "https://www.thedailyjagran.com/technology/news/ios-27-update-today-when-to-expect-it-in-india-and-which-iphones-are-eligible-10329028"
-      },
-      {
-        "name": "Amazon Stock Trades at Rare Discount as Andy Jassy Bets $220",
-        "provider": "International Business Times AU",
-        "type": "AI 项目/工具",
-        "bestFor": "CEO Andy Jassy is betting record capital expenditure on data centres, custom chips and cloud capacity will extend AWS's rapid growth despite near-term cash flow",
-        "description": "CEO Andy Jassy is betting record capital expenditure on data centres, custom chips and cloud capacity will extend AWS's rapid growth despite near-term cash flow pressure.\n\nSEATTLE ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "International Business Times AU",
-        "url": "https://www.ibtimes.com.au/amazon-220-billion-ai-spending-aws-growth-1875482"
-      },
-      {
-        "name": "Broadcom CEO Hock Tan Says Demand Already Exceeds Broadcom's",
-        "provider": "The Motley Fool",
-        "type": "AI 项目/工具",
-        "bestFor": "Broadcom (AVGO +0.32%) has emerged as an important AI processor company, albeit in a niche space. The company sells a variety of processors, but its application",
-        "description": "Broadcom (AVGO +0.32%) has emerged as an important AI processor company, albeit in a niche space. The company sells a variety of processors, but its application-specific integrated",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Motley Fool",
-        "url": "https://www.fool.com/investing/2026/09/13/broadcom-ceo-hock-tan-says-demand-already-exceeds/"
-      },
-      {
-        "name": "Broadcom CEO Hock Tan Says Demand Already Exceeds Broadcom's",
-        "provider": "Aol",
-        "type": "AI 项目/工具",
-        "bestFor": "Broadcom (NASDAQ: AVGO) has emerged as an important AI processor company, albeit in a niche space. The company sells a variety of processors, but its applicatio",
-        "description": "Broadcom (NASDAQ: AVGO) has emerged as an important AI processor company, albeit in a niche space. The company sells a variety of processors, but its application-specific integrate",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Aol",
-        "url": "https://www.aol.com/articles/broadcom-ceo-hock-tan-says-132000000.html"
-      },
-      {
-        "name": "Broadcom CEO Hock Tan Says Demand Already Exceeds Broadcom's",
-        "provider": "NASDAQ Stock Market",
-        "type": "AI 项目/工具",
-        "bestFor": "Broadcom (NASDAQ: AVGO) has emerged as an important AI processor company, albeit in a niche space. The company sells a variety of processors, but its applicatio",
-        "description": "Broadcom (NASDAQ: AVGO) has emerged as an important AI processor company, albeit in a niche space. The company sells a variety of processors, but its application-specific integrate",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NASDAQ Stock Market",
-        "url": "https://www.nasdaq.com/articles/broadcom-ceo-hock-tan-says-demand-already-exceeds-broadcoms-115-billion-ai-forecast-heres"
-      },
-      {
-        "name": "Apple's AED 8,499 iPhone Duo Puts UAE Consumers' Appetite fo",
-        "provider": "Al Bawaba",
-        "type": "AI 项目/工具",
-        "bestFor": "Apple's biggest iPhone redesign in a decade has given investors a new hardware story, but the real test will be whether its first foldable device can attract co",
-        "description": "Apple's biggest iPhone redesign in a decade has given investors a new hardware story, but the real test will be whether its first foldable device can attract consumers at scale whi",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Al Bawaba",
-        "url": "https://www.albawaba.com/business/pr/apple%E2%80%99s-aed-8499-iphone-duo-puts-uae-1636834?overridden_route_name=entity.node.canonical&base_route_name=entity.node.canonical&page_manager_page=node_view&page_manager_page_variant=node_view-panels_variant-0&page_manager_page_variant_weight=0"
       }
     ],
     "ai-benchmark": [
@@ -10214,7 +10187,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-23",
-    "generatedAt": "2026-09-23T12:13:13.467112Z",
+    "generatedAt": "2026-09-23T14:50:17.540807Z",
     "total": 16,
     "sections": [
       {
