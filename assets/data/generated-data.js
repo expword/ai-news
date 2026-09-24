@@ -1,7 +1,34 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-25",
-  "generatedAt": "2026-09-24T16:49:17.888705Z",
+  "generatedAt": "2026-09-24T20:20:53.360299Z",
   "news": [
+    {
+      "title": "Automating coherent long-form video generation",
+      "summary": "Generative AI",
+      "category": "ai-image-video",
+      "source": "RSS · Google Research",
+      "date": "2026-09-25",
+      "publishedAt": "2026-09-25T03:40",
+      "collectedAt": "2026-09-25T04:20",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://research.google/blog/coherent-long-form-video-generation/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Build a multi-account AI agent with AgentCore Gateway and MCP",
       "summary": "Build a multi-account architecture that keeps each team's data in its own AWS account while giving AI agents a unified way to query across them. A central platform account runs the",
@@ -5687,6 +5714,17 @@ window.AI_GENERATED_DATA = {
   "topicResources": {
     "ai-coding": [
       {
+        "name": "GitHub Security Lab 发布 LLM 驱动的 Fuzzing Taskflow，自动完成 C/C++ 项",
+        "provider": "GitHub Blog",
+        "type": "AI 项目/工具",
+        "bestFor": "GitHub Security Lab 的 Antonio Morales 开源了基于 Taskflow Agent 的 Fuzzing Taskflow，指向 GitHub 仓库即可自动识别入口点、编写 harness、运行 AFL++、读取覆盖报告并分诊崩溃。",
+        "description": "GitHub Security Lab 的 Antonio Morales 开源了基于 Taskflow Agent 的 Fuzzing Taskflow，指向 GitHub 仓库即可自动识别入口点、编写 harness、运行 AFL++、读取覆盖报告并分诊崩溃。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "GitHub Blog",
+        "url": "https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent"
+      },
+      {
         "name": "OpenAI 智能体在 Hugging Face 事件前数月已尝试入侵政府和大学网站",
         "provider": "The Decoder：AI News（RSS）",
         "type": "AI 项目/工具",
@@ -6114,17 +6152,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:Claude AI",
         "url": "https://www.financialcontent.com/article/marketersmedia-2026-9-12-easyspecsai-launches-a-spec-review-platform-so-engineering-teams-can-trust-ai-generated-code-nobody-has-time-to-read"
-      },
-      {
-        "name": "6 Best No-Code AI Workflow Automation Tools for Small Teams ",
-        "provider": "Techmixer",
-        "type": "AI 项目/工具",
-        "bestFor": "A practical guide to no-code AI workflow automation tools for small teams, covering Zapier, Make, Power Automate, Airtable, Notion AI, and n8n.\n\nNo-code AI work",
-        "description": "A practical guide to no-code AI workflow automation tools for small teams, covering Zapier, Make, Power Automate, Airtable, Notion AI, and n8n.\n\nNo-code AI workflow automation tool",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Techmixer",
-        "url": "https://www.techmixer.com/best-no-code-ai-workflow-automation-tools/"
       }
     ],
     "ai-agents": [
@@ -10298,8 +10325,8 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-25",
-    "generatedAt": "2026-09-24T16:49:17.864700Z",
-    "total": 14,
+    "generatedAt": "2026-09-24T20:20:53.337197Z",
+    "total": 15,
     "sections": [
       {
         "category": "ai-coding",
@@ -10322,6 +10349,17 @@ window.AI_GENERATED_DATA = {
         "category": "ai-image-video",
         "label": "图像视频",
         "items": [
+          {
+            "title": "Automating coherent long-form video generation",
+            "summary": "Generative AI",
+            "source": "RSS · Google Research",
+            "url": "https://research.google/blog/coherent-long-form-video-generation/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-25",
+            "publishedAt": "2026-09-25T03:40",
+            "reason": ""
+          },
           {
             "title": "Speaker-labeled transcription with WhisperX on SageMaker AI",
             "summary": "The AWS WhisperX Deep Learning Container packages Whisper, wav2vec2 forced alignment, and speaker diarization into a GPU-ready image. Learn ",
