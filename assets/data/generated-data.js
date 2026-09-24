@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-24",
-  "generatedAt": "2026-09-24T00:22:54.581809Z",
+  "generatedAt": "2026-09-24T02:56:08.119422Z",
   "news": [
     {
       "title": "Bringing Private Processing to Meta AI Glasses",
@@ -246,6 +246,115 @@ window.AI_GENERATED_DATA = {
       "moduleTargets": [
         "news",
         "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "How to Guide Your Language Flow",
+      "summary": "We introduce a new method to guide flow matching models. Our approach, which we call probe guidance, uses the frozen internal states of an existing diffusion model to construct a g",
+      "category": "ai-benchmark",
+      "source": "RSS · Apple ML Research",
+      "date": "2026-09-23",
+      "publishedAt": "2026-09-23T08:00",
+      "collectedAt": "2026-09-24T10:56",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://machinelearning.apple.com/research/guide-language-flow",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "\"As a Language Model...\": Chat Template Switches LLM Self-Referential Voice and Activation Steering Reproduces It",
+      "summary": "arXiv:2609.25021v1 Announce Type: new Abstract: Large Language Models (LLMs) tend to add disclaimers like \"I'm just an AI\" when asked about something related to themselves. The sel",
+      "category": "ai-research",
+      "source": "RSS · arXiv cs.LG",
+      "date": "2026-09-23",
+      "publishedAt": "",
+      "collectedAt": "2026-09-24T10:56",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-23",
+      "tags": [],
+      "url": "https://arxiv.org/abs/2609.25021",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Entropy Can Flow, or It Can Guide. Be Entropy. LEDFlow: Introducing Entropy-guided Generation Order into Uniform Discrete Flow",
+      "summary": "arXiv:2609.25131v1 Announce Type: new Abstract: Uniform discrete flow permits repeated updates at every generation position. While continued revision supports correction of wrong t",
+      "category": "ai-research",
+      "source": "RSS · arXiv cs.LG",
+      "date": "2026-09-23",
+      "publishedAt": "",
+      "collectedAt": "2026-09-24T10:56",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-23",
+      "tags": [],
+      "url": "https://arxiv.org/abs/2609.25131",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Stable Unsupervised Continual Chunking with Sheaf SyncMap",
+      "summary": "arXiv:2609.25143v1 Announce Type: new Abstract: Unsupervised Continual chunking is a fundamental problem in machine learning and neuroscience, where the goal is to identify groups ",
+      "category": "ai-research",
+      "source": "RSS · arXiv cs.LG",
+      "date": "2026-09-23",
+      "publishedAt": "",
+      "collectedAt": "2026-09-24T10:56",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-23",
+      "tags": [],
+      "url": "https://arxiv.org/abs/2609.25143",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
       ],
       "sourceCount": 1
     },
@@ -845,7 +954,14 @@ window.AI_GENERATED_DATA = {
       "moduleTargets": [
         "news"
       ],
-      "sourceCount": 1
+      "sourceCount": 2,
+      "relatedSources": [
+        {
+          "source": "RSS · arXiv cs.LG",
+          "url": "https://arxiv.org/abs/2609.25134",
+          "title": "The Probabilistic Structure of Large Language Models"
+        }
+      ]
     },
     {
       "title": "Flash-dLLM: IO-Aware KV Caching and Parallel Decoding for Fast, Memory-Efficient Diffusion LLMs",
@@ -2481,231 +2597,6 @@ window.AI_GENERATED_DATA = {
       "aiSelected": true,
       "moduleTargets": [
         "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Google DeepMind 发布 Gemini 3.8 Live 和 3.8 Live Extended Thinking",
-      "summary": "Google DeepMind 发布 Gemini 3.8 Live 与 Gemini 3.8 Live Extended Thinking 两个近实时语音对话模型，主打语音智能体和复杂任务执行。",
-      "category": "ai-models",
-      "source": "Google DeepMind：Blog（RSS）",
-      "date": "2026-09-16",
-      "publishedAt": "2026-09-16T01:05",
-      "collectedAt": "2026-09-16T02:45",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 2,
-      "relatedSources": [
-        {
-          "source": "Google DeepMind：Blog（RSS）",
-          "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech",
-          "title": "Google DeepMind 发布 Gemini 3.8 Flash TTS 与 Flash-Lite TTS 语音生成模型"
-        }
-      ]
-    },
-    {
-      "title": "Optimizing cost and latency with Amazon Bedrock prompt caching",
-      "summary": "Prompt caching in Amazon Bedrock can cut input token costs by up to 90% when you repeatedly send the same context to foundation models. This post walks through six practical prompt",
-      "category": "ai-models",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-09-16",
-      "publishedAt": "2026-09-16T00:18",
-      "collectedAt": "2026-09-16T01:35",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/optimizing-cost-and-latency-with-amazon-bedrock-prompt-caching/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Build an AI-powered product tagging system with Amazon SageMaker serverless model customization",
-      "summary": "Manually tagging thousands of catalog products is slow and inconsistent. This walkthrough shows how to customize Qwen3-8B with supervised fine-tuning (SFT) and reinforcement learni",
-      "category": "ai-models",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-09-16",
-      "publishedAt": "2026-09-16T00:11",
-      "collectedAt": "2026-09-16T01:35",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/build-an-ai-powered-product-tagging-system-with-amazon-sagemaker-serverless-model-customization/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "AI for Societal Impact",
-      "summary": "Explore this collection to see how experts and local leaders are using AI breakthroughs to ensure everyone can share the opportunity of AI.",
-      "category": "ai-models",
-      "source": "RSS · Google AI Blog",
-      "date": "2026-09-16",
-      "publishedAt": "2026-09-16T00:00",
-      "collectedAt": "2026-09-16T01:35",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Announcing instance preference lists for Amazon SageMaker AI training jobs",
-      "summary": "Amazon SageMaker AI now offers instance preference lists for training and processing jobs. Specify an ordered list of up to five instance types, and SageMaker AI automatically laun",
-      "category": "ai-models",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-09-16",
-      "publishedAt": "2026-09-16T00:01",
-      "collectedAt": "2026-09-16T00:21",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/announcing-instance-preference-lists-for-amazon-sagemaker-ai-training-jobs/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Your Agent Aced the Task. Will It Do It Again?",
-      "summary": "",
-      "category": "ai-agents",
-      "source": "RSS · Hugging Face Blog",
-      "date": "2026-09-16",
-      "publishedAt": "2026-09-16T00:00",
-      "collectedAt": "2026-09-16T00:21",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "AI for everyone in every language",
-      "summary": "We’re moving beyond traditional text translation to build models that understand the world’s rich, living languages exactly as they are expressed.",
-      "category": "ai-models",
-      "source": "RSS · Google AI Blog",
-      "date": "2026-09-16",
-      "publishedAt": "2026-09-16T00:00",
-      "collectedAt": "2026-09-16T00:21",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Building AI to accelerate science and improve lives",
-      "summary": "The true measure of AI is who it helps. Here’s how it’s impacting lives today. We're focused on key areas where advanced technology can help make extraordinary progress …",
-      "category": "ai-models",
-      "source": "RSS · Google AI Blog",
-      "date": "2026-09-16",
-      "publishedAt": "2026-09-16T00:00",
-      "collectedAt": "2026-09-16T00:21",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-applications-science-people/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
       ],
       "sourceCount": 1
     }
@@ -5793,6 +5684,17 @@ window.AI_GENERATED_DATA = {
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Artificial Analysis：Claude Opus 5.5 登顶 Coding Agent Index，但单",
+        "provider": "X：Artificial Analysis (@ArtificialAnlys)",
+        "type": "AI 项目/工具",
+        "bestFor": "Artificial Analysis 测评显示，Claude Opus 5.5 在 Claude Code max effort 下以 66 分登顶 Coding Agent Index，较 Opus 5（60）高 6 分，三项评测 Terminal-Bench 4.0（63.1%）、DeepSWE v1.1（68.",
+        "description": "Artificial Analysis 测评显示，Claude Opus 5.5 在 Claude Code max effort 下以 66 分登顶 Coding Agent Index，较 Opus 5（60）高 6 分，三项评测 Terminal-Bench 4.0（63.1%）、DeepSWE v1.1（68.4%）、SWE-Atlas-QnA（66",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "X：Artificial Analysis (@ArtificialAnlys)",
+        "url": "https://x.com/ArtificialAnlys/status/2102932119995756613"
+      },
+      {
         "name": "Use open weight models as your AI coding agent with Amazon B",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -6220,17 +6122,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "The Decoder：AI News（RSS）",
         "url": "https://the-decoder.com/openai-agents-launched-a-2000-package-cyberattack-on-rubygems-just-to-collect-data-anyone-could-google"
-      },
-      {
-        "name": "SimpleDesign: A Joint Model for Protein Sequence and Structu",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Proteins are fundamental to biological processes, with their function determined by the complex interplay between the amino acid sequence and the three-dimensio",
-        "description": "Proteins are fundamental to biological processes, with their function determined by the complex interplay between the amino acid sequence and the three-dimensional structure. Devel",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · Apple ML Research",
-        "url": "https://machinelearning.apple.com/research/simpledesign-protein-codesign"
       }
     ],
     "ai-agents": [
@@ -6677,6 +6568,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-models": [
       {
+        "name": "OpenAI 称与苹果的 ChatGPT 合作表现远低于预期",
+        "provider": "IT之家（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenAI 在周三公开的法庭文件中称，2024 年与苹果达成协议由 ChatGPT 为 Apple Intelligence 提供支持后，该功能表现远低于预期，上线一个月后起步缓慢，OpenAI 下调了每周活跃用户预测。",
+        "description": "OpenAI 在周三公开的法庭文件中称，2024 年与苹果达成协议由 ChatGPT 为 Apple Intelligence 提供支持后，该功能表现远低于预期，上线一个月后起步缓慢，OpenAI 下调了每周活跃用户预测。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "IT之家（RSS）",
+        "url": "https://www.ithome.com/1/006/548.htm"
+      },
+      {
         "name": "How to train your own Jev for $17",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -7104,17 +7006,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:open source LLM",
         "url": "https://www.riauone.com/global/Fourth-Forum-on-China-ASEAN-Artificial-Intelligence-Cooperation-Successfully-Held-in-Nanning--Drawing-Over-700-Delegates"
-      },
-      {
-        "name": "'Rethinking the laptop is a big undertaking' -- why Googlebo",
-        "provider": "TechRadar",
-        "type": "AI 项目/工具",
-        "bestFor": "I spent quite a bit of this year wondering about Googlebooks. After Google announced them in May, things got a little quiet, and I noticed that when I was at th",
-        "description": "I spent quite a bit of this year wondering about Googlebooks. After Google announced them in May, things got a little quiet, and I noticed that when I was at the huge Computex 2026",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "TechRadar",
-        "url": "https://www.techradar.com/computing/laptops/rethinking-the-laptop-is-a-big-undertaking-why-googlebooks-are-so-much-more-than-overpriced-chromebooks-and-apple-should-be-worried"
       }
     ],
     "ai-business": [
@@ -8558,6 +8449,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-research": [
       {
+        "name": "How to Guide Your Language Flow",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "We introduce a new method to guide flow matching models. Our approach, which we call probe guidance, uses the frozen internal states of an existing diffusion mo",
+        "description": "We introduce a new method to guide flow matching models. Our approach, which we call probe guidance, uses the frozen internal states of an existing diffusion model to construct a g",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Apple ML Research",
+        "url": "https://machinelearning.apple.com/research/guide-language-flow"
+      },
+      {
         "name": "Does AI Save Time on Product Design? A Randomized Controlled",
         "provider": "arXiv",
         "type": "AI 项目/工具",
@@ -8985,17 +8887,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Google Research：Blog（网页）",
         "url": "https://research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain"
-      },
-      {
-        "name": "A connectomics milestone: Mapping the complete male fruit fl",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "General Science",
-        "description": "General Science",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · Google Research",
-        "url": "https://research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain/"
       }
     ],
     "ai-office": []
@@ -10404,8 +10295,8 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-24",
-    "generatedAt": "2026-09-24T00:22:54.559840Z",
-    "total": 19,
+    "generatedAt": "2026-09-24T02:56:08.097392Z",
+    "total": 23,
     "sections": [
       {
         "category": "ai-coding",
@@ -10630,6 +10521,23 @@ window.AI_GENERATED_DATA = {
         ]
       },
       {
+        "category": "ai-benchmark",
+        "label": "评测榜单",
+        "items": [
+          {
+            "title": "How to Guide Your Language Flow",
+            "summary": "We introduce a new method to guide flow matching models. Our approach, which we call probe guidance, uses the frozen internal states of an e",
+            "source": "RSS · Apple ML Research",
+            "url": "https://machinelearning.apple.com/research/guide-language-flow",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-23",
+            "publishedAt": "2026-09-23T08:00",
+            "reason": ""
+          }
+        ]
+      },
+      {
         "category": "ai-research",
         "label": "论文研究",
         "items": [
@@ -10642,6 +10550,39 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-09-24",
             "publishedAt": "2026-09-24T00:01",
+            "reason": ""
+          },
+          {
+            "title": "\"As a Language Model...\": Chat Template Switches LLM Self-Referential Voice and Activation Steering Reproduces It",
+            "summary": "arXiv:2609.25021v1 Announce Type: new Abstract: Large Language Models (LLMs) tend to add disclaimers like \"I'm just an AI\" when asked about ",
+            "source": "RSS · arXiv cs.LG",
+            "url": "https://arxiv.org/abs/2609.25021",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-23",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Entropy Can Flow, or It Can Guide. Be Entropy. LEDFlow: Introducing Entropy-guided Generation Order into Uniform Discrete Flow",
+            "summary": "arXiv:2609.25131v1 Announce Type: new Abstract: Uniform discrete flow permits repeated updates at every generation position. While continued",
+            "source": "RSS · arXiv cs.LG",
+            "url": "https://arxiv.org/abs/2609.25131",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-23",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Stable Unsupervised Continual Chunking with Sheaf SyncMap",
+            "summary": "arXiv:2609.25143v1 Announce Type: new Abstract: Unsupervised Continual chunking is a fundamental problem in machine learning and neuroscienc",
+            "source": "RSS · arXiv cs.LG",
+            "url": "https://arxiv.org/abs/2609.25143",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-23",
+            "publishedAt": "",
             "reason": ""
           }
         ]
