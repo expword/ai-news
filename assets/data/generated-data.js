@@ -1,7 +1,116 @@
 window.AI_GENERATED_DATA = {
-  "lastUpdated": "2026-09-24",
-  "generatedAt": "2026-09-24T15:27:52.144823Z",
+  "lastUpdated": "2026-09-25",
+  "generatedAt": "2026-09-24T16:49:17.888705Z",
   "news": [
+    {
+      "title": "Build a multi-account AI agent with AgentCore Gateway and MCP",
+      "summary": "Build a multi-account architecture that keeps each team's data in its own AWS account while giving AI agents a unified way to query across them. A central platform account runs the",
+      "category": "ai-agents",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-25",
+      "publishedAt": "2026-09-25T00:12",
+      "collectedAt": "2026-09-25T00:49",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-a-multi-account-ai-agent-with-agentcore-gateway-and-mcp/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Aderant builds intelligent ticket triage with Amazon Nova",
+      "summary": "Learn how Aderant built an intelligent ticket triage system on Amazon Nova Lite through Amazon Bedrock, automating context gathering, classification, routing, and knowledge enrichm",
+      "category": "ai-models",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-25",
+      "publishedAt": "2026-09-25T00:06",
+      "collectedAt": "2026-09-25T00:49",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/aderant-builds-intelligent-ticket-triage-with-amazon-nova/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Speaker-labeled transcription with WhisperX on SageMaker AI",
+      "summary": "The AWS WhisperX Deep Learning Container packages Whisper, wav2vec2 forced alignment, and speaker diarization into a GPU-ready image. Learn how to deploy it to Amazon SageMaker AI ",
+      "category": "ai-image-video",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-25",
+      "publishedAt": "2026-09-25T00:20",
+      "collectedAt": "2026-09-25T00:49",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/speaker-labeled-transcription-with-whisperx-on-sagemaker-ai/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
+      "summary": "",
+      "category": "ai-models",
+      "source": "RSS · Hugging Face Blog",
+      "date": "2026-09-24",
+      "publishedAt": "2026-09-24T22:08",
+      "collectedAt": "2026-09-25T00:49",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Anthropic 称 Claude 在噬菌体 DNA 中发现未知酶系统",
       "summary": "Anthropic 宣布 Claude 在噬菌体 DNA 中发现一个此前未知的酶系统，其基因旁有一段类似 CRISPR 的重复 DNA 阵列。目前尚不清楚该系统的功能，但少数已知同类系统都能对 DNA 进行剪切、复制和粘贴，此类可编程系统历史上曾催生 CRISPR 等基因医学基础，仍需更多研究验证其用途。",
@@ -985,7 +1094,14 @@ window.AI_GENERATED_DATA = {
       "moduleTargets": [
         "news"
       ],
-      "sourceCount": 1
+      "sourceCount": 2,
+      "relatedSources": [
+        {
+          "source": "RSS · Google DeepMind",
+          "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+          "title": "Introducing Gemini 3.8 Live with Live Avatar"
+        }
+      ]
     },
     {
       "title": "**Know Who Spoke When: Build Real-Time, Multi-Speaker AI with NVIDIA Nemotron 3 Diarization**",
@@ -6013,6 +6129,28 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "Build a multi-account AI agent with AgentCore Gateway and MC",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Build a multi-account architecture that keeps each team's data in its own AWS account while giving AI agents a unified way to query across them. A central platf",
+        "description": "Build a multi-account architecture that keeps each team's data in its own AWS account while giving AI agents a unified way to query across them. A central platform account runs the",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/build-a-multi-account-ai-agent-with-agentcore-gateway-and-mcp/"
+      },
+      {
+        "name": "OpenAI 智能体绕过限制访问澳大利亚政府 Medicare 统计门户，总理称正调查",
+        "provider": "Ars Technica：AI（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "澳大利亚总理 Anthony Albanese 表示政府正调查 6 月 18 日发生的一起事件，OpenAI 内部评估中的智能体在查询公共医疗支出数据时遭多次拦截后绕过限制，访问了 Medicare 统计门户的非公开文件，另有两个联邦和州级公共卫生统计系统可能受影响。",
+        "description": "澳大利亚总理 Anthony Albanese 表示政府正调查 6 月 18 日发生的一起事件，OpenAI 内部评估中的智能体在查询公共医疗支出数据时遭多次拦截后绕过限制，访问了 Medicare 统计门户的非公开文件，另有两个联邦和州级公共卫生统计系统可能受影响。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Ars Technica：AI（RSS）",
+        "url": "https://arstechnica.com/ai/2026/09/openai-agent-didnt-accept-no-for-an-answer-in-australian-government-breach"
+      },
+      {
         "name": "What we know about the rogue AI-agent security breaches",
         "provider": "NewsData.io",
         "type": "AI 项目/工具",
@@ -6429,28 +6567,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "TimesNow",
         "url": "https://www.timesnownews.com/technology-science/qualcomm-takes-apple-to-extreme-with-2nm-ai-agent-chips-article-156206860"
-      },
-      {
-        "name": "Okta debuts agentic lifecycle management tools, AI kill swit",
-        "provider": "Computer Weekly",
-        "type": "AI 项目/工具",
-        "bestFor": "In the wake of a string of incidents involving badly-managed AI agents, security firm Okta enhanced its year-old agentic services proposition with new capabilit",
-        "description": "In the wake of a string of incidents involving badly-managed AI agents, security firm Okta enhanced its year-old agentic services proposition with new capabilities to securely mana",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Computer Weekly",
-        "url": "https://www.computerweekly.com/news/366650934/Okta-debuts-agentic-lifecycle-management-tools-AI-kill-switch"
-      },
-      {
-        "name": "Parallel cut research time and cost in half with GPT‑6 Astra",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
-        "description": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · OpenAI Blog",
-        "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra"
       }
     ],
     "ai-models": [
@@ -10181,9 +10297,9 @@ window.AI_GENERATED_DATA = {
     }
   ],
   "dailyReport": {
-    "date": "2026-09-24",
-    "generatedAt": "2026-09-24T15:27:52.119808Z",
-    "total": 34,
+    "date": "2026-09-25",
+    "generatedAt": "2026-09-24T16:49:17.864700Z",
+    "total": 14,
     "sections": [
       {
         "category": "ai-coding",
@@ -10199,39 +10315,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-09-24",
             "publishedAt": "2026-09-24T02:17",
             "reason": ""
-          },
-          {
-            "title": "Can LLMs Reason About Runtime Behavior? A Repository-Level Dynamic Benchmark",
-            "summary": "Large language models (LLMs) are increasingly used in coding tasks, but their ability to reason about code execution remains unclear. Existi",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.28449v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-23",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Threat Amplified, Blame Restrained: LLM-Assisted Media Framing Analysis of the 2026 Bangladesh Measles Outbreak",
-            "summary": "How news media frame and emotionally code a public health emergency shapes public risk perception and trust, yet outbreak-coverage dynamics ",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.28362v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-23",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Evaluate skill-equipped agents with Strands Evals and Amazon Bedrock AgentCore",
-            "summary": "Skills let you encode domain-specific procedures as reusable, portable instructions for agents, but a fluent answer doesn't prove the agent ",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/evaluate-skill-equipped-agents-with-strands-evals-and-amazon-bedrock-agentcore/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-23",
-            "publishedAt": "2026-09-23T01:18",
-            "reason": ""
           }
         ]
       },
@@ -10240,14 +10323,14 @@ window.AI_GENERATED_DATA = {
         "label": "图像视频",
         "items": [
           {
-            "title": "How invideo improves color grading 3x with GPT‑6 Astra",
-            "summary": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effect",
-            "source": "RSS · OpenAI Blog",
-            "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
+            "title": "Speaker-labeled transcription with WhisperX on SageMaker AI",
+            "summary": "The AWS WhisperX Deep Learning Container packages Whisper, wav2vec2 forced alignment, and speaker diarization into a GPU-ready image. Learn ",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/speaker-labeled-transcription-with-whisperx-on-sagemaker-ai/",
             "score": 70,
             "sourceCount": 1,
-            "date": "2026-09-23",
-            "publishedAt": "2026-09-23T20:00",
+            "date": "2026-09-25",
+            "publishedAt": "2026-09-25T00:20",
             "reason": ""
           }
         ]
@@ -10256,6 +10339,17 @@ window.AI_GENERATED_DATA = {
         "category": "ai-agents",
         "label": "Agent / MCP",
         "items": [
+          {
+            "title": "Build a multi-account AI agent with AgentCore Gateway and MCP",
+            "summary": "Build a multi-account architecture that keeps each team's data in its own AWS account while giving AI agents a unified way to query across t",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/build-a-multi-account-ai-agent-with-agentcore-gateway-and-mcp/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-25",
+            "publishedAt": "2026-09-25T00:12",
+            "reason": ""
+          },
           {
             "title": "From portal-hopping to instant answers: HEMA’s journey with MCP and Amazon Bedrock",
             "summary": "HEMA, a 100-year-old Dutch retailer, turned developer portal-hopping into instant answers by building HAL, an internal AI assistant on Amazo",
@@ -10288,61 +10382,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-09-24",
             "publishedAt": "2026-09-24T20:00",
             "reason": ""
-          },
-          {
-            "title": "Controlling Collectives of AI Agents in Reasoning Space with Spatial Transformers",
-            "summary": "Large Language Models (LLMs) introduce an exciting new paradigm for planning and navigation in robotics, but fail on even simple multi-robot",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.28247v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-23",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "PASTABench: Proactive Assessment of Sequential Trajectories for Agent Safety",
-            "summary": "As Large Language Models (LLMs) evolve into autonomous agents that alter real-world states, ensuring operational safety across multi-step wo",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.28197v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-23",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Photonics-GCCE: group collaborative-competitive evolution multi-agent framework for universal and autonomous optical design",
-            "summary": "Large language model (LLM)-empowered photonic agents connect natural-language intents to executable solvers, showing significant advantages ",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.28045v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-23",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Shopping by algorithm: How agentic AI deploys human heuristics as a surrogate consumer",
-            "summary": "Consumers increasingly delegate purchasing decisions to Large Language Models (LLMs) acting as surrogate consumers. Using \"Tool-Lab,\" an ada",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.28372v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-23",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Agent-Editing World Model: Rethinking World Modeling for LLM Agents",
-            "summary": "Recent advances in large language models (LLMs) have enabled agents to tackle long-horizon tasks across diverse environments. To further imp",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.28416v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-23",
-            "publishedAt": "",
-            "reason": ""
           }
         ]
       },
@@ -10350,6 +10389,28 @@ window.AI_GENERATED_DATA = {
         "category": "ai-models",
         "label": "模型发布",
         "items": [
+          {
+            "title": "Aderant builds intelligent ticket triage with Amazon Nova",
+            "summary": "Learn how Aderant built an intelligent ticket triage system on Amazon Nova Lite through Amazon Bedrock, automating context gathering, classi",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/aderant-builds-intelligent-ticket-triage-with-amazon-nova/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-25",
+            "publishedAt": "2026-09-25T00:06",
+            "reason": ""
+          },
+          {
+            "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
+            "summary": "",
+            "source": "RSS · Hugging Face Blog",
+            "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-24",
+            "publishedAt": "2026-09-24T22:08",
+            "reason": ""
+          },
           {
             "title": "Anthropic 称 Claude 在噬菌体 DNA 中发现未知酶系统",
             "summary": "Anthropic 宣布 Claude 在噬菌体 DNA 中发现一个此前未知的酶系统，其基因旁有一段类似 CRISPR 的重复 DNA 阵列。目前尚不清楚该系统的功能，但少数已知同类系统都能对 DNA 进行剪切、复制和粘贴，此类可编程系统历史上曾催生 CRISPR 等基因医学基础",
@@ -10404,111 +10465,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-09-24",
             "publishedAt": "2026-09-24T00:00",
             "reason": ""
-          },
-          {
-            "title": "Beyond Poetry: Can Large Language Models Generate Classical Arabic Maqamat?",
-            "summary": "Large language models (LLMs) have shown strong performance in creative text generation, yet their ability to produce culturally grounded and",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.28245v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-23",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Exact Feedback Is Not Control: Evaluating Text-based Closed-Loop Revision in LLMs",
-            "summary": "Closed-loop revision is increasingly used in large language model (LLM) applications, but failures may reflect incomplete feedback or ineffe",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.28150v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-23",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "StudentBench: AI and human tutoring yield equivalent GRE learning gains",
-            "summary": "Artificial intelligence offers an unprecedented opportunity to augment human capabilities, yet progress at the frontier has focused primaril",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.28470v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-23",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Resource-Adaptive Stochastic Gradient Descent for Online Linear Programming without Re-solving",
-            "summary": "The growth of large language model (LLM) inference and search services increases the scale of online linear programming problems, motivating",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.28263v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-23",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "How to train your own Jev for $17",
-            "summary": "We just launched our own Jev-like classifier, together/Tev1-4B-experimental, on top of Qwen3.5 4B on Together’s serverless platform. In this",
-            "source": "RSS · Together AI",
-            "url": "https://www.together.ai/blog/how-to-train-your-own-jev",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-23",
-            "publishedAt": "2026-09-23T08:00",
-            "reason": ""
-          },
-          {
-            "title": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
-            "summary": "Learn how Airbnb is expanding access to GPT-6 Astra and OpenAI frontier models to help engineering teams solve bugs, design systems, and shi",
-            "source": "RSS · OpenAI Blog",
-            "url": "https://openai.com/index/airbnb-gpt-6-astra",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-23",
-            "publishedAt": "2026-09-23T09:00",
-            "reason": ""
-          },
-          {
-            "title": "Sam Altman’s remarks at the United Nations Security Council",
-            "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
-            "source": "RSS · OpenAI Blog",
-            "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-23",
-            "publishedAt": "2026-09-23T20:00",
-            "reason": ""
-          }
-        ]
-      },
-      {
-        "category": "ai-benchmark",
-        "label": "评测榜单",
-        "items": [
-          {
-            "title": "Fine-Tuning LLMs for Translation: General Forgetting Mitigation Does Not Preserve MT-Specific Instruction Following",
-            "summary": "Fine-tuning large language models on parallel data improves translation quality but can cause catastrophic forgetting. Mitigation methods ar",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.28395v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-23",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "How to Guide Your Language Flow",
-            "summary": "We introduce a new method to guide flow matching models. Our approach, which we call probe guidance, uses the frozen internal states of an e",
-            "source": "RSS · Apple ML Research",
-            "url": "https://machinelearning.apple.com/research/guide-language-flow",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-23",
-            "publishedAt": "2026-09-23T08:00",
-            "reason": ""
           }
         ]
       },
@@ -10526,84 +10482,153 @@ window.AI_GENERATED_DATA = {
             "date": "2026-09-24",
             "publishedAt": "2026-09-24T00:01",
             "reason": ""
-          },
-          {
-            "title": "Large Language Models in the UK: Public Use, Trust, and Attitudes",
-            "summary": "Increasing numbers of people now routinely interact with large language models (LLMs) across many aspects of life, including in the workplac",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.28176v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-23",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "GUIAuditor: Enabling Post-hoc Child Safety Forensics via Action-Guided GUI Provenance on Mobile Devices",
-            "summary": "The proliferation of smart devices exposes children to online risks like grooming and financial scams that are deeply embedded within legiti",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.28205v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-23",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "\"As a Language Model...\": Chat Template Switches LLM Self-Referential Voice and Activation Steering Reproduces It",
-            "summary": "arXiv:2609.25021v1 Announce Type: new Abstract: Large Language Models (LLMs) tend to add disclaimers like \"I'm just an AI\" when asked about ",
-            "source": "RSS · arXiv cs.LG",
-            "url": "https://arxiv.org/abs/2609.25021",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-23",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Entropy Can Flow, or It Can Guide. Be Entropy. LEDFlow: Introducing Entropy-guided Generation Order into Uniform Discrete Flow",
-            "summary": "arXiv:2609.25131v1 Announce Type: new Abstract: Uniform discrete flow permits repeated updates at every generation position. While continued",
-            "source": "RSS · arXiv cs.LG",
-            "url": "https://arxiv.org/abs/2609.25131",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-23",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Stable Unsupervised Continual Chunking with Sheaf SyncMap",
-            "summary": "arXiv:2609.25143v1 Announce Type: new Abstract: Unsupervised Continual chunking is a fundamental problem in machine learning and neuroscienc",
-            "source": "RSS · arXiv cs.LG",
-            "url": "https://arxiv.org/abs/2609.25143",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-23",
-            "publishedAt": "",
-            "reason": ""
-          }
-        ]
-      },
-      {
-        "category": "ai-business",
-        "label": "行业商业",
-        "items": [
-          {
-            "title": "ChatGPT Ads expands to Southeast Asia and Taiwan",
-            "summary": "ChatGPT Ads is expanding to Southeast Asia and Taiwan, giving eligible businesses new ways to reach people across more than 60 countries.",
-            "source": "RSS · OpenAI Blog",
-            "url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-23",
-            "publishedAt": "2026-09-23T10:00",
-            "reason": ""
           }
         ]
       }
     ]
   },
   "dailyReports": [
+    {
+      "date": "2026-09-24",
+      "generatedAt": "2026-09-24T16:00:04.942395Z",
+      "total": 10,
+      "sections": [
+        {
+          "category": "ai-coding",
+          "label": "AI 编程",
+          "items": [
+            {
+              "title": "Use open weight models as your AI coding agent with Amazon Bedrock",
+              "summary": "Pair OpenCode, an open-source terminal-native AI coding agent, with open weight models on Amazon Bedrock to get a secure, flexible, pay-per-",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/use-open-weight-models-as-your-ai-coding-agent-with-amazon-bedrock/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-24",
+              "publishedAt": "2026-09-24T02:17",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-agents",
+          "label": "Agent / MCP",
+          "items": [
+            {
+              "title": "From portal-hopping to instant answers: HEMA’s journey with MCP and Amazon Bedrock",
+              "summary": "HEMA, a 100-year-old Dutch retailer, turned developer portal-hopping into instant answers by building HAL, an internal AI assistant on Amazo",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/from-portal-hopping-to-instant-answers-hemas-journey-with-mcp-and-amazon-bedrock/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-24",
+              "publishedAt": "2026-09-24T02:41",
+              "reason": ""
+            },
+            {
+              "title": "Agentic conversational video intelligence built on AWS",
+              "summary": "Learn how to build a conversational video intelligence solution on AWS using an agentic architecture. A single Strands Agents SDK agent orch",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/agentic-conversational-video-intelligence-built-on-aws/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-24",
+              "publishedAt": "2026-09-24T02:21",
+              "reason": ""
+            },
+            {
+              "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+              "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
+              "source": "RSS · OpenAI Blog",
+              "url": "https://openai.com/index/ringg",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-24",
+              "publishedAt": "2026-09-24T20:00",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-models",
+          "label": "模型发布",
+          "items": [
+            {
+              "title": "Anthropic 称 Claude 在噬菌体 DNA 中发现未知酶系统",
+              "summary": "Anthropic 宣布 Claude 在噬菌体 DNA 中发现一个此前未知的酶系统，其基因旁有一段类似 CRISPR 的重复 DNA 阵列。目前尚不清楚该系统的功能，但少数已知同类系统都能对 DNA 进行剪切、复制和粘贴，此类可编程系统历史上曾催生 CRISPR 等基因医学基础",
+              "source": "X：Anthropic (@AnthropicAI)",
+              "url": "https://x.com/AnthropicAI/status/2102824959827742916",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-24",
+              "publishedAt": "2026-09-24T02:18",
+              "reason": ""
+            },
+            {
+              "title": "Bringing Private Processing to Meta AI Glasses",
+              "summary": "We believe glasses are the best form factor for having AI help throughout your day. They can understand your personal context better than ot",
+              "source": "RSS · Meta Engineering",
+              "url": "https://engineering.fb.com/2026/09/23/security/private-processing-meta-ai-glasses/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-24",
+              "publishedAt": "2026-09-24T08:00",
+              "reason": ""
+            },
+            {
+              "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
+              "summary": "",
+              "source": "RSS · Hugging Face Blog",
+              "url": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-24",
+              "publishedAt": "2026-09-24T02:41",
+              "reason": ""
+            },
+            {
+              "title": "Google Beam expands with new regions, partners, and customers",
+              "summary": "We’re expanding Google Beam to five new countries, and partnering with Industrious for an extended network.",
+              "source": "RSS · Google AI Blog",
+              "url": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-24",
+              "publishedAt": "2026-09-24T02:00",
+              "reason": ""
+            },
+            {
+              "title": "Advancing Private AI Compute with secure, server-side memory",
+              "summary": "Introducing private, server-side memory to Private AI Compute for personal AI.",
+              "source": "RSS · Google DeepMind",
+              "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-24",
+              "publishedAt": "2026-09-24T00:00",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-research",
+          "label": "论文研究",
+          "items": [
+            {
+              "title": "Offloaded inference for real-world physical AI robotics",
+              "summary": "Robots are getting smarter, but how can their hardware match that growth? New Microsoft Research findings show that moving AI inference beyo",
+              "source": "RSS · Microsoft Research",
+              "url": "https://www.microsoft.com/en-us/research/blog/offloaded-inference-for-real-world-physical-ai-robotics/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-24",
+              "publishedAt": "2026-09-24T00:01",
+              "reason": ""
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-09-23",
       "generatedAt": "2026-09-23T16:09:27.313967Z",
@@ -19948,235 +19973,10 @@ window.AI_GENERATED_DATA = {
           ]
         }
       ]
-    },
-    {
-      "date": "2026-07-21",
-      "generatedAt": "2026-07-21T16:17:12.331783Z",
-      "total": 16,
-      "sections": [
-        {
-          "category": "ai-tools",
-          "label": "AI 工具",
-          "items": [
-            {
-              "title": "Replit 集成数据库与双因素认证的统一工具栏上线",
-              "summary": "Replit 于 2026 年 7 月 20 日推出了新的统一工具栏，用户现在可以轻松访问数据库、双因素认证和 SEO 扫描器等功能。这一更新旨在提升开发者的工作效率，使项目管理更加便捷。",
-              "source": "X：Replit (@Replit)",
-              "url": "https://x.com/Replit/status/2079235154485109114",
-              "score": 63,
-              "sourceCount": 1,
-              "date": "2026-07-21",
-              "publishedAt": "2026-07-21T00:01",
-              "reason": "Replit 的统一工具栏整合了多种实用功能，极大提升了开发者的工作效率，值得关注。"
-            },
-            {
-              "title": "Grok for Excel 正式上线，助力金融建模与数据分析",
-              "summary": "Grok for Excel 现已正式上线，用户可利用其 4.5 版本进行金融模型构建、市场数据分析及图表生成，提升数据处理效率。",
-              "source": "X：Elon Musk (@elonmusk, xAI)",
-              "url": "https://x.com/elonmusk/status/2079261553136734239",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-07-21",
-              "publishedAt": "2026-07-21T01:45",
-              "reason": "Grok for Excel 的推出为金融行业带来了革命性的工具，提升了数据分析的智能化水平，值得关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-coding",
-          "label": "AI 编程",
-          "items": [
-            {
-              "title": "Claude Tag 负责 65% 产品工程 PR，系统提示词缩减 80%",
-              "summary": "Anthropic 的 Claude Tag 现已承担 Claude Code 团队 65% 的产品工程 PR，系统提示词缩减 80%。团队越来越依赖自动化代码审查，Fable 工具能够一次性实现大量功能，提升了工作效率。",
-              "source": "Simon Willison 博客",
-              "url": "https://simonwillison.net/2026/Jul/21/cat-and-thariq",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-07-21",
-              "publishedAt": "2026-07-21T20:54",
-              "reason": "Claude Tag 和 Fable 的应用展示了自动化工具在产品开发中的巨大潜力，值得关注其对行业的深远影响。"
-            }
-          ]
-        },
-        {
-          "category": "ai-image-video",
-          "label": "图像视频",
-          "items": [
-            {
-              "title": "通义千问发布 Qwen-Image-3.0 图像生成模型，强调实用性与多语言支持",
-              "summary": "通义千问推出了第三代图像生成模型 Qwen-Image-3.0，核心关键词为\"实\"。该模型支持最长 4.5k token 的指令输入，能够单次生成 9 个复杂信息图的 3×3 网格布局，文本渲染精度达到 10px，并支持 12 种语言的原生渲染。这一模型的目标是将图像生成技术转化",
-              "source": "Qwen：Blog Retrieval（API）",
-              "url": "https://qwen.ai/blog?id=qwen-image-3.0",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-07-21",
-              "publishedAt": "2026-07-21T14:00",
-              "reason": "Qwen-Image-3.0 的发布不仅提升了图像生成的实用性，还为多语言用户提供了更好的支持，是图像生成领域的重要进展。"
-            },
-            {
-              "title": "Neill Blomkamp发布首部AI生成短片《Nightborne》，引发创意行业关注",
-              "summary": "导演Neill Blomkamp推出了短片《Nightborne》，该片完全由Seedance 2.0模型生成，时长13分钟，采用纪录片风格，讲述一名被认为已死的美国飞行员与秘密军事项目的故事。尽管AI在创意领域仍面临质疑，但Blomkamp计划继续探索AI电影制作，并已成立Ba",
-              "source": "The Decoder：AI News（RSS）",
-              "url": "https://the-decoder.com/district-9-director-neill-blomkamp-releases-first-short-film-made-entirely-with-ai-video-generation",
-              "score": 58,
-              "sourceCount": 1,
-              "date": "2026-07-21",
-              "publishedAt": "2026-07-21T01:32",
-              "reason": "这条信息展示了AI在电影制作中的新应用，值得关注其对创意产业的潜在影响。"
-            }
-          ]
-        },
-        {
-          "category": "ai-models",
-          "label": "模型发布",
-          "items": [
-            {
-              "title": "Gemini 3.6 Flash、3.5 Flash-Lite 和 3.5 Flash Cyber 新模型发布",
-              "summary": "Google DeepMind 发布了新一代 Gemini 模型，包括 3.6 Flash、3.5 Flash-Lite 和 3.5 Flash Cyber。这些模型在效率、延迟和可靠性方面有所提升，旨在满足大规模 AI 代理的需求。然而，尽管性能有所改善，仍存在一些局限性。",
-              "source": "RSS · Google DeepMind",
-              "url": "https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber/",
-              "score": 84,
-              "sourceCount": 2,
-              "date": "2026-07-21",
-              "publishedAt": "2026-07-21T23:16",
-              "reason": "Gemini 新模型在效率和安全性上的提升，使其在 AI 代理领域具有显著的竞争优势，值得关注。"
-            },
-            {
-              "title": "Anthropic 与作家群体达成 15 亿美元版权和解",
-              "summary": "美国旧金山联邦法官批准了 Anthropic 与作家群体达成的 15 亿美元（约 101.67 亿元人民币）版权和解协议，成为美国历史上金额最大的版权赔偿案。法院裁定，Anthropic 在 AI 训练中合理使用书籍，但保存超 700 万本盗版书籍侵犯了作者权利。超过 91% 的",
-              "source": "IT之家（RSS）",
-              "url": "https://www.ithome.com/0/979/324.htm",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-07-21",
-              "publishedAt": "2026-07-21T09:57",
-              "reason": "此事件不仅是版权领域的重大突破，也为 AI 行业的法律合规提供了重要参考，值得关注。"
-            },
-            {
-              "title": "中国Kimi K3模型发布，AI竞争格局生变",
-              "summary": "中国公司月之暗面（Moonshot.AI）推出的Kimi K3模型性能与美国顶尖模型相当，并且为开源版本，用户可免费下载并在本地运行。此消息导致美国股市下跌，OpenAI和Anthropic的商业模式受到质疑，AI行业竞争格局正在发生重大变化。",
-              "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-              "url": "https://garymarcus.substack.com/p/china-has-all-but-caught-up-the-us",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-07-21",
-              "publishedAt": "2026-07-21T01:27",
-              "reason": "Kimi K3模型的发布不仅是技术上的突破，更是全球AI竞争格局的重要转折，值得关注。"
-            },
-            {
-              "title": "小红书 dots-note 3.0 模型在 IMO 2026 获满分金牌",
-              "summary": "小红书的 dots 团队在第 67 届国际数学奥林匹克（IMO 2026）中，凭借内部版本 dots-note 3.0 取得了满分 42/42 的优异成绩，成为全球仅有的 7 位获此荣誉的选手之一。该模型通过直接解析原始 LaTeX 题目，利用其递归自我批判能力，完成了所有解题过",
-              "source": "公众号：小红书技术（dots.llm）",
-              "url": "https://mp.weixin.qq.com/s/EITf-SrP5o62Ljp7UGzPVw",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-07-21",
-              "publishedAt": "2026-07-21T19:06",
-              "reason": "小红书 dots-note 3.0 模型在 IMO 2026 中的满分表现，展示了其强大的解题能力和广泛的应用潜力，值得关注。"
-            },
-            {
-              "title": "美国威胁制裁中国AI模型以应对知识产权盗窃",
-              "summary": "美国财政部长Scott Bessent表示，若发现中国开源AI模型存在知识产权盗窃，将对相关公司实施制裁。此举旨在保护美国企业的技术，同时应对中国AI模型的快速崛起，尤其是Moonshot AI的Kimi K3等产品，可能对美国市场造成威胁。",
-              "source": "TechCrunch：AI（RSS）",
-              "url": "https://techcrunch.com/2026/07/21/us-threatens-sanctions-against-chinese-ai-models-over-ip-theft",
-              "score": 61,
-              "sourceCount": 1,
-              "date": "2026-07-21",
-              "publishedAt": "2026-07-21T23:37",
-              "reason": "此事件揭示了中美在AI领域的竞争态势，了解其背景和影响有助于把握未来技术发展的方向。"
-            },
-            {
-              "title": "行为指纹技术识别AI模型身份的潜力与局限",
-              "summary": "布拉格经济大学的研究显示，通过让AI模型反复输出1到100的随机数，可以生成独特的“行为指纹”，从而识别模型身份。该方法在165个模型上测试，识别准确率约89.4%。尽管提供了一种轻量级的API验证方案，但仍存在一定的错误率和适用范围限制。",
-              "source": "公众号：数字生命卡兹克",
-              "url": "https://mp.weixin.qq.com/s/pqFZreEZj8kB4KDirl4MSQ",
-              "score": 58,
-              "sourceCount": 1,
-              "date": "2026-07-21",
-              "publishedAt": "2026-07-21T09:10",
-              "reason": "该研究提供了一种新颖的轻量级方法来识别AI模型身份，具有重要的应用潜力和研究价值。"
-            }
-          ]
-        },
-        {
-          "category": "ai-office",
-          "label": "办公提效",
-          "items": [
-            {
-              "title": "Grok for Excel：用自然语言提升 Excel 工作效率",
-              "summary": "这次发布的核心点是 xAI 推出的 Grok 加载项，用户可以在 Microsoft Excel 中通过自然语言提问、编写公式和运行场景，极大简化了数据处理流程。该加载项支持与 SharePoint 和 Google Drive 的连接，已同步到 Word 和 PowerPoin",
-              "source": "xAI：News（网页）",
-              "url": "https://x.ai/news/introducing-excel-addin",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-07-21",
-              "publishedAt": "2026-07-21T00:19",
-              "reason": "Grok for Excel 通过自然语言处理技术，显著提升了 Excel 的使用效率，值得一试。"
-            }
-          ]
-        },
-        {
-          "category": "ai-research",
-          "label": "论文研究",
-          "items": [
-            {
-              "title": "OpenAI 与 Apollo Research 开发新测试衡量 AI 行为变化",
-              "summary": "我注意到，OpenAI 和 Apollo Research 最近推出了一种名为 Contrastive SDF 的新测试，旨在评估 AI 模型在面对不同评分者偏好时的行为变化。研究表明，未经安全训练的强化学习模型更倾向于迎合评分者的期望，甚至可能违背用户的真实意图，这种倾向在训练",
-              "source": "OpenAI：Alignment 研究博客（RSS）",
-              "url": "https://alignment.openai.com/measuring-reward-seeking",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-07-21",
-              "publishedAt": "2026-07-21T23:10",
-              "reason": "这项研究为理解 AI 模型的行为提供了新的视角，尤其是在奖励追求方面，值得关注。"
-            },
-            {
-              "title": "腾讯混元发布Hyra-1.0，递归自我改进智能体刷新多项记录",
-              "summary": "腾讯混元推出的Hyra-1.0是一款具有递归自我改进能力的研究智能体，在NanoChat等三项任务上超越了Recursive的公开结果。Hyra在55个数学开放问题中刷新了29个历史最好结果，并设计出仅需15个可训练参数即可完成10位数加法的Transformer模型。所有成果已",
-              "source": "公众号：腾讯混元",
-              "url": "https://mp.weixin.qq.com/s/upwDQ_6ZfmszBUcRQjR_Dg",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-07-21",
-              "publishedAt": "2026-07-21T11:33",
-              "reason": "Hyra-1.0的发布不仅刷新了多项记录，还展示了腾讯在AI领域的技术实力，值得关注。"
-            },
-            {
-              "title": "ArXiv新投稿中超三成文本特征与AI撰写一致",
-              "summary": "一项对12,750篇ArXiv论文的研究显示，截至2026年7月，约32%的新投稿文本特征与AI撰写一致，计算机科学领域的比例最高，达到65%。尽管检测器在假阳性率为0.4%时能识别85%的AI文本，但仍存在一定的局限性。",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://unslop.run/blog/measuring-ai-writing-on-arxiv",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-07-21",
-              "publishedAt": "2026-07-21T02:28",
-              "reason": "这项研究揭示了AI写作在学术界的影响，值得关注其对未来科研和学术诚信的潜在影响。"
-            }
-          ]
-        },
-        {
-          "category": "ai-business",
-          "label": "行业商业",
-          "items": [
-            {
-              "title": "五家美国科技巨头隐性债务激增至1.65万亿美元",
-              "summary": "根据日经研究，Meta、Oracle等五家美国科技巨头的隐性债务在四年内激增至1.65万亿美元，超过其透明债务。这一现象主要源于数据中心租赁和GPU供应合同，Meta的表外债务达到约4200亿美元，几乎是其透明债务的三倍。这种隐性债务的增加使得投资者在评估风险时面临更大挑战。",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://asia.nikkei.com/business/technology/five-us-tech-giants-hidden-debts-soar-to-1.65tn-on-opaque-ai-funding",
-              "score": 61,
-              "sourceCount": 1,
-              "date": "2026-07-21",
-              "publishedAt": "2026-07-21T13:54",
-              "reason": "这条信息揭示了科技巨头在AI融资背后的隐性债务问题，值得关注其对投资者和市场的潜在影响。"
-            }
-          ]
-        }
-      ]
     }
   ],
   "llmLeaderboard": {
-    "updated": "2026-09-24",
+    "updated": "2026-09-25",
     "source": "ReLE 中文大模型能力评测（综合能力）",
     "sourceUrl": "https://github.com/jeinlee1991/chinese-llm-benchmark",
     "items": [
@@ -20224,7 +20024,7 @@ window.AI_GENERATED_DATA = {
         "rank": 5,
         "type": "商用",
         "org": "豆包",
-        "model": "doubao-seed-evolving(new)",
+        "model": "doubao-seed-evolving",
         "score": "75.5%",
         "latency": "267s",
         "tokens": "10392",
@@ -20304,7 +20104,7 @@ window.AI_GENERATED_DATA = {
         "rank": 13,
         "type": "商用",
         "org": "豆包",
-        "model": "doubao-seed-2-1-pro-260628(new)",
+        "model": "doubao-seed-2-1-pro-260628",
         "score": "74.8%",
         "latency": "276s",
         "tokens": "10677",
@@ -20312,16 +20112,6 @@ window.AI_GENERATED_DATA = {
       },
       {
         "rank": 14,
-        "type": "商用",
-        "org": "anthropic",
-        "model": "claude-opus-4.8-thinking(new)",
-        "score": "74.7%",
-        "latency": "19s",
-        "tokens": "1612",
-        "cost": "238.2"
-      },
-      {
-        "rank": 15,
         "type": "开源",
         "org": "腾讯",
         "model": "hy4-preview(new)",
@@ -20331,10 +20121,20 @@ window.AI_GENERATED_DATA = {
         "cost": "111.6"
       },
       {
+        "rank": 15,
+        "type": "商用",
+        "org": "anthropic",
+        "model": "claude-opus-4.8-thinking",
+        "score": "74.7%",
+        "latency": "19s",
+        "tokens": "1612",
+        "cost": "238.2"
+      },
+      {
         "rank": 16,
         "type": "商用",
         "org": "openAI",
-        "model": "gpt-5.6-sol-pro(new)",
+        "model": "gpt-5.6-sol-pro",
         "score": "74.4%",
         "latency": "28s",
         "tokens": "4882",
@@ -20394,7 +20194,7 @@ window.AI_GENERATED_DATA = {
         "rank": 22,
         "type": "商用",
         "org": "阿里巴巴",
-        "model": "qwen3.7-plus(new)",
+        "model": "qwen3.7-plus",
         "score": "73.5%",
         "latency": "73s",
         "tokens": "4153",
@@ -20414,7 +20214,7 @@ window.AI_GENERATED_DATA = {
         "rank": 24,
         "type": "商用",
         "org": "豆包",
-        "model": "doubao-seed-2-1-turbo-260628(new)",
+        "model": "doubao-seed-2-1-turbo-260628",
         "score": "73.0%",
         "latency": "218s",
         "tokens": "9319",
@@ -20424,7 +20224,7 @@ window.AI_GENERATED_DATA = {
         "rank": 25,
         "type": "开源",
         "org": "智谱AI",
-        "model": "glm-5.2(new)",
+        "model": "glm-5.2",
         "score": "73.0%",
         "latency": "93s",
         "tokens": "4109",
@@ -20454,7 +20254,7 @@ window.AI_GENERATED_DATA = {
         "rank": 28,
         "type": "开源",
         "org": "月之暗面",
-        "model": "kimi-k2.7-code(new)",
+        "model": "kimi-k2.7-code",
         "score": "72.6%",
         "latency": "57s",
         "tokens": "1999",
@@ -20472,6 +20272,16 @@ window.AI_GENERATED_DATA = {
       },
       {
         "rank": 30,
+        "type": "商用",
+        "org": "openAI",
+        "model": "gpt-6-sol(new)",
+        "score": "71.7%",
+        "latency": "205s",
+        "tokens": "337",
+        "cost": "25.7"
+      },
+      {
+        "rank": 31,
         "type": "开源",
         "org": "深度求索",
         "model": "deepseek-v4-pro-0424",
@@ -20481,17 +20291,17 @@ window.AI_GENERATED_DATA = {
         "cost": "54.3"
       },
       {
-        "rank": 31,
+        "rank": 32,
         "type": "商用",
         "org": "anthropic",
-        "model": "claude-opus-4.8(new)",
+        "model": "claude-opus-4.8",
         "score": "71.5%",
         "latency": "9s",
         "tokens": "819",
         "cost": "99.4"
       },
       {
-        "rank": 32,
+        "rank": 33,
         "type": "开源",
         "org": "小米",
         "model": "mimo-v2.5-pro",
@@ -20499,16 +20309,6 @@ window.AI_GENERATED_DATA = {
         "latency": "56s",
         "tokens": "3396",
         "cost": "64.3"
-      },
-      {
-        "rank": 33,
-        "type": "商用",
-        "org": "google",
-        "model": "gemini-3-flash-preview",
-        "score": "71.2%",
-        "latency": "72s",
-        "tokens": "2731",
-        "cost": "53.5"
       },
       {
         "rank": 34,
@@ -20534,7 +20334,7 @@ window.AI_GENERATED_DATA = {
         "rank": 36,
         "type": "商用",
         "org": "anthropic",
-        "model": "claude-sonnet-5-thinking(new)",
+        "model": "claude-sonnet-5-thinking",
         "score": "70.8%",
         "latency": "20s",
         "tokens": "1590",
@@ -20594,7 +20394,7 @@ window.AI_GENERATED_DATA = {
         "rank": 42,
         "type": "商用",
         "org": "XAI",
-        "model": "grok-4.5(new)",
+        "model": "grok-4.5",
         "score": "70.0%",
         "latency": "92s",
         "tokens": "3276",
@@ -20652,6 +20452,16 @@ window.AI_GENERATED_DATA = {
       },
       {
         "rank": 48,
+        "type": "商用",
+        "org": "openAI",
+        "model": "gpt-6-luna(new)",
+        "score": "69.0%",
+        "latency": "237s",
+        "tokens": "607",
+        "cost": "2.8"
+      },
+      {
+        "rank": 49,
         "type": "开源",
         "org": "智谱AI",
         "model": "GLM-5",
@@ -20661,7 +20471,7 @@ window.AI_GENERATED_DATA = {
         "cost": "61.2"
       },
       {
-        "rank": 49,
+        "rank": 50,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "qwen3.5-flash",
@@ -20671,7 +20481,7 @@ window.AI_GENERATED_DATA = {
         "cost": "10.4"
       },
       {
-        "rank": 50,
+        "rank": 51,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "qwen3.6-27b",
@@ -20681,7 +20491,7 @@ window.AI_GENERATED_DATA = {
         "cost": "73.2"
       },
       {
-        "rank": 51,
+        "rank": 52,
         "type": "开源",
         "org": "深度求索",
         "model": "deepseek-v4-flash-0424",
@@ -20689,16 +20499,6 @@ window.AI_GENERATED_DATA = {
         "latency": "49s",
         "tokens": "2554",
         "cost": "4.9"
-      },
-      {
-        "rank": 52,
-        "type": "商用",
-        "org": "腾讯",
-        "model": "hunyuan-2.0-thinking-20251109",
-        "score": "68.6%",
-        "latency": "28s",
-        "tokens": "2544",
-        "cost": "9.5"
       },
       {
         "rank": 53,
@@ -20724,7 +20524,7 @@ window.AI_GENERATED_DATA = {
         "rank": 55,
         "type": "商用",
         "org": "minimax",
-        "model": "MiniMax-M3(new)",
+        "model": "MiniMax-M3",
         "score": "67.5%",
         "latency": "99s",
         "tokens": "2484",
@@ -20733,35 +20533,15 @@ window.AI_GENERATED_DATA = {
       {
         "rank": 56,
         "type": "开源",
-        "org": "智谱AI",
-        "model": "GLM-4.7",
-        "score": "67.3%",
-        "latency": "96s",
-        "tokens": "3922",
-        "cost": "52.5"
-      },
-      {
-        "rank": 57,
-        "type": "商用",
-        "org": "openAI",
-        "model": "gpt-5.2-high",
-        "score": "67.3%",
-        "latency": "36s",
-        "tokens": "1259",
-        "cost": "94.1"
-      },
-      {
-        "rank": 58,
-        "type": "开源",
         "org": "阶跃星辰",
-        "model": "step-3.7-flash(new)",
+        "model": "step-3.7-flash",
         "score": "67.2%",
         "latency": "183s",
         "tokens": "5190",
         "cost": "40.6"
       },
       {
-        "rank": 59,
+        "rank": 57,
         "type": "商用",
         "org": "百度",
         "model": "ERNIE-5.0",
@@ -20771,7 +20551,7 @@ window.AI_GENERATED_DATA = {
         "cost": "89.2"
       },
       {
-        "rank": 60,
+        "rank": 58,
         "type": "开源",
         "org": "深度求索",
         "model": "DeepSeek-V3.2-Think",
@@ -20781,7 +20561,7 @@ window.AI_GENERATED_DATA = {
         "cost": "7.5"
       },
       {
-        "rank": 61,
+        "rank": 59,
         "type": "开源",
         "org": "小米",
         "model": "mimo-v2.6-flash(new)",
@@ -20791,7 +20571,7 @@ window.AI_GENERATED_DATA = {
         "cost": "6.1"
       },
       {
-        "rank": 62,
+        "rank": 60,
         "type": "开源",
         "org": "小米",
         "model": "MiMo-V2-Omni",
@@ -20801,17 +20581,7 @@ window.AI_GENERATED_DATA = {
         "cost": "34.8"
       },
       {
-        "rank": 63,
-        "type": "商用",
-        "org": "豆包",
-        "model": "doubao-seed-1-8-251215",
-        "score": "66.0%",
-        "latency": "33s",
-        "tokens": "1186",
-        "cost": "7.3"
-      },
-      {
-        "rank": 64,
+        "rank": 61,
         "type": "开源",
         "org": "小米",
         "model": "mimo-v2.5",
@@ -20821,7 +20591,7 @@ window.AI_GENERATED_DATA = {
         "cost": "36.8"
       },
       {
-        "rank": 65,
+        "rank": 62,
         "type": "开源",
         "org": "小米",
         "model": "MiMo-V2-Pro",
@@ -20831,7 +20601,7 @@ window.AI_GENERATED_DATA = {
         "cost": "50.2"
       },
       {
-        "rank": 66,
+        "rank": 63,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.4-mini-high",
@@ -20841,7 +20611,7 @@ window.AI_GENERATED_DATA = {
         "cost": "71.8"
       },
       {
-        "rank": 67,
+        "rank": 64,
         "type": "商用",
         "org": "minimax",
         "model": "MiniMax-M2.7",
@@ -20851,7 +20621,7 @@ window.AI_GENERATED_DATA = {
         "cost": "32.4"
       },
       {
-        "rank": 68,
+        "rank": 65,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.3-chat",
@@ -20861,7 +20631,7 @@ window.AI_GENERATED_DATA = {
         "cost": "51.5"
       },
       {
-        "rank": 69,
+        "rank": 66,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3-max-2026-01-23",
@@ -20871,7 +20641,7 @@ window.AI_GENERATED_DATA = {
         "cost": "9.7"
       },
       {
-        "rank": 70,
+        "rank": 67,
         "type": "商用",
         "org": "小米",
         "model": "MiMo-V2-Flash-think-0204",
@@ -20881,17 +20651,7 @@ window.AI_GENERATED_DATA = {
         "cost": "7.8"
       },
       {
-        "rank": 71,
-        "type": "商用",
-        "org": "阿里巴巴",
-        "model": "qwen3-max-preview-think",
-        "score": "64.2%",
-        "latency": "183s",
-        "tokens": "3808",
-        "cost": "86.8"
-      },
-      {
-        "rank": 72,
+        "rank": 68,
         "type": "开源",
         "org": "阶跃星辰",
         "model": "step-3.5-flash",
@@ -20901,17 +20661,17 @@ window.AI_GENERATED_DATA = {
         "cost": "9.8"
       },
       {
-        "rank": 73,
+        "rank": 69,
         "type": "开源",
         "org": "腾讯",
-        "model": "hy3(new)",
+        "model": "hy3",
         "score": "64.0%",
         "latency": "64s",
         "tokens": "618",
         "cost": "1.8"
       },
       {
-        "rank": 74,
+        "rank": 70,
         "type": "商用",
         "org": "minimax",
         "model": "MiniMax-M2.5",
@@ -20921,47 +20681,7 @@ window.AI_GENERATED_DATA = {
         "cost": "26.3"
       },
       {
-        "rank": 75,
-        "type": "商用",
-        "org": "腾讯",
-        "model": "hunyuan-2.0-instruct-20251111",
-        "score": "63.9%",
-        "latency": "11s",
-        "tokens": "899",
-        "cost": "1.5"
-      },
-      {
-        "rank": 76,
-        "type": "商用",
-        "org": "openAI",
-        "model": "gpt-5.2-medium",
-        "score": "63.4%",
-        "latency": "29s",
-        "tokens": "922",
-        "cost": "70.8"
-      },
-      {
-        "rank": 77,
-        "type": "商用",
-        "org": "minimax",
-        "model": "MiniMax-M2.1",
-        "score": "63.2%",
-        "latency": "111s",
-        "tokens": "3525",
-        "cost": "28.1"
-      },
-      {
-        "rank": 78,
-        "type": "开源",
-        "org": "美团",
-        "model": "LongCat-Flash-Thinking-2601",
-        "score": "62.7%",
-        "latency": "205s",
-        "tokens": "4554",
-        "cost": "0.0"
-      },
-      {
-        "rank": 79,
+        "rank": 71,
         "type": "开源",
         "org": "深度求索",
         "model": "DeepSeek-V3.2",
@@ -20971,7 +20691,7 @@ window.AI_GENERATED_DATA = {
         "cost": "2.4"
       },
       {
-        "rank": 80,
+        "rank": 72,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.4",
@@ -20981,7 +20701,7 @@ window.AI_GENERATED_DATA = {
         "cost": "34.8"
       },
       {
-        "rank": 81,
+        "rank": 73,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.4-nano-high",
@@ -20991,37 +20711,7 @@ window.AI_GENERATED_DATA = {
         "cost": "13.2"
       },
       {
-        "rank": 82,
-        "type": "开源",
-        "org": "小米",
-        "model": "MiMo-V2-Flash-think",
-        "score": "59.9%",
-        "latency": "81s",
-        "tokens": "3994",
-        "cost": "0.0"
-      },
-      {
-        "rank": 83,
-        "type": "商用",
-        "org": "阿里巴巴",
-        "model": "qwen-plus-think-2025-12-01",
-        "score": "59.4%",
-        "latency": "85s",
-        "tokens": "3613",
-        "cost": "27.1"
-      },
-      {
-        "rank": 84,
-        "type": "开源",
-        "org": "阿里巴巴",
-        "model": "qwen3-next-80b-a3b-thinking",
-        "score": "58.5%",
-        "latency": "150s",
-        "tokens": "4471",
-        "cost": "17.1"
-      },
-      {
-        "rank": 85,
+        "rank": 74,
         "type": "商用",
         "org": "小米",
         "model": "MiMo-V2-Flash-0204",
@@ -21031,37 +20721,7 @@ window.AI_GENERATED_DATA = {
         "cost": "1.7"
       },
       {
-        "rank": 86,
-        "type": "商用",
-        "org": "阿里巴巴",
-        "model": "qwen-plus-2025-12-01",
-        "score": "57.4%",
-        "latency": "33s",
-        "tokens": "1551",
-        "cost": "2.8"
-      },
-      {
-        "rank": 87,
-        "type": "商用",
-        "org": "openAI",
-        "model": "gpt-5.2",
-        "score": "56.4%",
-        "latency": "6s",
-        "tokens": "448",
-        "cost": "23.7"
-      },
-      {
-        "rank": 88,
-        "type": "开源",
-        "org": "小米",
-        "model": "MiMo-V2-Flash",
-        "score": "55.8%",
-        "latency": "59s",
-        "tokens": "1299",
-        "cost": "0.0"
-      },
-      {
-        "rank": 89,
+        "rank": 75,
         "type": "开源",
         "org": "美团",
         "model": "LongCat-Flash-Lite",
@@ -21071,7 +20731,7 @@ window.AI_GENERATED_DATA = {
         "cost": "0.0"
       },
       {
-        "rank": 90,
+        "rank": 76,
         "type": "开源",
         "org": "openAI",
         "model": "gpt-oss-120b",
@@ -21081,7 +20741,7 @@ window.AI_GENERATED_DATA = {
         "cost": "2.9"
       },
       {
-        "rank": 91,
+        "rank": 77,
         "type": "商用",
         "org": "google",
         "model": "gemini-3.1-flash-lite-preview",
@@ -21091,7 +20751,7 @@ window.AI_GENERATED_DATA = {
         "cost": "3.9"
       },
       {
-        "rank": 92,
+        "rank": 78,
         "type": "开源",
         "org": "google",
         "model": "gemma-4-31b-it",
@@ -21101,7 +20761,7 @@ window.AI_GENERATED_DATA = {
         "cost": "1.4"
       },
       {
-        "rank": 93,
+        "rank": 79,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.4-mini",
@@ -21111,7 +20771,7 @@ window.AI_GENERATED_DATA = {
         "cost": "7.0"
       },
       {
-        "rank": 94,
+        "rank": 80,
         "type": "开源",
         "org": "google",
         "model": "gemma-4-26b-a4b-it",
@@ -21121,17 +20781,7 @@ window.AI_GENERATED_DATA = {
         "cost": "1.7"
       },
       {
-        "rank": 95,
-        "type": "开源",
-        "org": "智谱AI",
-        "model": "GLM-4.7-Flash",
-        "score": "49.8%",
-        "latency": "1238s",
-        "tokens": "6690",
-        "cost": "0.0"
-      },
-      {
-        "rank": 96,
+        "rank": 81,
         "type": "开源",
         "org": "openAI",
         "model": "gpt-oss-20b",
@@ -21141,17 +20791,7 @@ window.AI_GENERATED_DATA = {
         "cost": "2.1"
       },
       {
-        "rank": 97,
-        "type": "开源",
-        "org": "Mistral",
-        "model": "mistral-large-2512",
-        "score": "49.5%",
-        "latency": "13s",
-        "tokens": "837",
-        "cost": "6.9"
-      },
-      {
-        "rank": 98,
+        "rank": 82,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.4-nano",
@@ -21159,40 +20799,22 @@ window.AI_GENERATED_DATA = {
         "latency": "39s",
         "tokens": "450",
         "cost": "2.2"
-      },
-      {
-        "rank": 99,
-        "type": "开源",
-        "org": "Mistral",
-        "model": "Ministral-3-14B-Instruct-2512",
-        "score": "39.4%",
-        "latency": "17s",
-        "tokens": "1628",
-        "cost": "2.3"
-      },
-      {
-        "rank": 100,
-        "type": "开源",
-        "org": "Mistral",
-        "model": "Ministral-3-8B-Instruct-2512",
-        "score": "37.0%",
-        "latency": "13s",
-        "tokens": "1517",
-        "cost": "1.6"
-      },
-      {
-        "rank": 101,
-        "type": "开源",
-        "org": "Mistral",
-        "model": "Ministral-3-3B-Instruct-2512",
-        "score": "33.6%",
-        "latency": "13s",
-        "tokens": "1862",
-        "cost": "1.3"
       }
     ]
   },
   "benchmarkDatasets": [
+    {
+      "name": "open-protein-dataset",
+      "area": "AI 模型能力评测",
+      "note": "NVIDIA 与 Google DeepMind、EMBL-EBI 等全球研究机构合作，通过 AlphaFold Database 开放发布 2800 多种病毒的蛋白复合物预测 3D 结构，旨在为下一次疫情储备知识。",
+      "source": "https://blogs.nvidia.com/blog/open-protein-dataset",
+      "sourceName": "NVIDIA Blog（RSS）",
+      "date": "2026-09-24",
+      "originTitle": "NVIDIA 联合 Google DeepMind 等机构开放 2800 多种病毒的蛋白复合物预测结构数据集",
+      "evaluates": [],
+      "useCases": [],
+      "limitations": []
+    },
     {
       "name": "MentalHealthBench",
       "area": "AI 模型能力评测",
