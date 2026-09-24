@@ -1,7 +1,34 @@
 {
   "lastUpdated": "2026-09-24",
-  "generatedAt": "2026-09-23T22:02:56.949808Z",
+  "generatedAt": "2026-09-24T00:22:54.581809Z",
   "news": [
+    {
+      "title": "Bringing Private Processing to Meta AI Glasses",
+      "summary": "We believe glasses are the best form factor for having AI help throughout your day. They can understand your personal context better than other kinds of devices and keep you presen",
+      "category": "ai-models",
+      "source": "RSS · Meta Engineering",
+      "date": "2026-09-24",
+      "publishedAt": "2026-09-24T08:00",
+      "collectedAt": "2026-09-24T08:22",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://engineering.fb.com/2026/09/23/security/private-processing-meta-ai-glasses/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
       "summary": "",
@@ -206,6 +233,34 @@
       "sourceDate": "",
       "tags": [],
       "url": "https://openai.com/index/ringg",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "How to train your own Jev for $17",
+      "summary": "We just launched our own Jev-like classifier, together/Tev1-4B-experimental, on top of Qwen3.5 4B on Together’s serverless platform. In this blog post we’ll show you how to fine-tu",
+      "category": "ai-models",
+      "source": "RSS · Together AI",
+      "date": "2026-09-23",
+      "publishedAt": "2026-09-23T08:00",
+      "collectedAt": "2026-09-24T08:22",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://www.together.ai/blog/how-to-train-your-own-jev",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -2651,33 +2706,6 @@
       "moduleTargets": [
         "news",
         "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "FirmCORe: A Benchmark for Structured Reasoning about Inter-Firm Collaboration Opportunities",
-      "summary": "Comprehensive structured data on inter-firm relationships is often scarce or inaccessible because many relationships are privately negotiated, selectively disclosed, and fragmented",
-      "category": "ai-benchmark",
-      "source": "arXiv",
-      "date": "2026-09-15",
-      "publishedAt": "",
-      "collectedAt": "2026-09-16T17:36",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-15",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.17128v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
       ],
       "sourceCount": 1
     }
@@ -6207,6 +6235,17 @@
     ],
     "ai-agents": [
       {
+        "name": "Cursor 提升 agent 长时运行 token 效率，用户成本降低 7%",
+        "provider": "Cursor Blog",
+        "type": "AI 项目/工具",
+        "bestFor": "Cursor 通过改进 agent harness，在不降低 agent 质量的情况下将用户 token 成本降低 7%。",
+        "description": "Cursor 通过改进 agent harness，在不降低 agent 质量的情况下将用户 token 成本降低 7%。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Cursor Blog",
+        "url": "https://cursor.com/blog/improved-token-efficiency"
+      },
+      {
         "name": "团队分享提升 Agent Harness Token 效率的提示词",
         "provider": "X：Eric Zakariasson (@ericzakariasson)",
         "type": "AI 项目/工具",
@@ -6634,20 +6673,20 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Linear：Now（RSS）",
         "url": "https://linear.app/now/ci-bottleneck-reworked"
-      },
-      {
-        "name": "Tomer Tunguz 谈 AI 优化 if-then 判断：专用决策器把分类成本降近百倍",
-        "provider": "Tomer Tunguz 博客（VC 分析）",
-        "type": "AI 项目/工具",
-        "bestFor": "Tomer Tunguz 撰文提出最新一波 AI 正在接管软件中的 if-then 判断原语，Jev 与 SemIf 这类专用决策器以数百毫秒返回结果，成本比传统生成式调用低约 76x 到 209x。作者在自己的 Agent 中替换了约四分之一的调用，在 98 条人工核验的生产邮件线程上，Jev 达到 80%、本地 S",
-        "description": "Tomer Tunguz 撰文提出最新一波 AI 正在接管软件中的 if-then 判断原语，Jev 与 SemIf 这类专用决策器以数百毫秒返回结果，成本比传统生成式调用低约 76x 到 209x。作者在自己的 Agent 中替换了约四分之一的调用，在 98 条人工核验的生产邮件线程上，Jev 达到 80%、本地 SemIf 达到 82% 的分类准确率，高",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Tomer Tunguz 博客（VC 分析）",
-        "url": "https://tomtunguz.com/ai-comes-for-the-if-statement"
       }
     ],
     "ai-models": [
+      {
+        "name": "How to train your own Jev for $17",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "We just launched our own Jev-like classifier, together/Tev1-4B-experimental, on top of Qwen3.5 4B on Together’s serverless platform. In this blog post we’ll sho",
+        "description": "We just launched our own Jev-like classifier, together/Tev1-4B-experimental, on top of Qwen3.5 4B on Together’s serverless platform. In this blog post we’ll show you how to fine-tu",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Together AI",
+        "url": "https://www.together.ai/blog/how-to-train-your-own-jev"
+      },
       {
         "name": "Anthropic 发布 Claude Opus 5.5：默认 1M token 上下文，面向长时间运行的智能体编码",
         "provider": "Claude Platform：开发者版本说明（RSS）",
@@ -7076,17 +7115,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "TechRadar",
         "url": "https://www.techradar.com/computing/laptops/rethinking-the-laptop-is-a-big-undertaking-why-googlebooks-are-so-much-more-than-overpriced-chromebooks-and-apple-should-be-worried"
-      },
-      {
-        "name": "M6 Mac Mini First Look: Bigger Power Packed in the Same Smal",
-        "provider": "CNET",
-        "type": "AI 项目/工具",
-        "bestFor": "Matt Elliott is a senior editor at CNET with a focus on laptops and streaming services.... Read full bio\n\nThe M6 update for the Mac Mini arrived not a moment to",
-        "description": "Matt Elliott is a senior editor at CNET with a focus on laptops and streaming services.... Read full bio\n\nThe M6 update for the Mac Mini arrived not a moment too soon. Not only has",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "CNET",
-        "url": "https://www.cnet.com/tech/computing/m6-mac-mini-first-look-bigger-power-packed-in-same-small-package/"
       }
     ],
     "ai-business": [
@@ -10376,7 +10404,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-24",
-    "generatedAt": "2026-09-23T22:02:56.928840Z",
+    "generatedAt": "2026-09-24T00:22:54.559840Z",
     "total": 19,
     "sections": [
       {
@@ -10468,6 +10496,17 @@
         "label": "模型发布",
         "items": [
           {
+            "title": "Bringing Private Processing to Meta AI Glasses",
+            "summary": "We believe glasses are the best form factor for having AI help throughout your day. They can understand your personal context better than ot",
+            "source": "RSS · Meta Engineering",
+            "url": "https://engineering.fb.com/2026/09/23/security/private-processing-meta-ai-glasses/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-24",
+            "publishedAt": "2026-09-24T08:00",
+            "reason": ""
+          },
+          {
             "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
             "summary": "",
             "source": "RSS · Hugging Face Blog",
@@ -10498,6 +10537,17 @@
             "sourceCount": 1,
             "date": "2026-09-24",
             "publishedAt": "2026-09-24T00:00",
+            "reason": ""
+          },
+          {
+            "title": "How to train your own Jev for $17",
+            "summary": "We just launched our own Jev-like classifier, together/Tev1-4B-experimental, on top of Qwen3.5 4B on Together’s serverless platform. In this",
+            "source": "RSS · Together AI",
+            "url": "https://www.together.ai/blog/how-to-train-your-own-jev",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-23",
+            "publishedAt": "2026-09-23T08:00",
             "reason": ""
           },
           {
@@ -10575,28 +10625,6 @@
             "sourceCount": 1,
             "date": "2026-09-23",
             "publishedAt": "2026-09-23T08:00",
-            "reason": ""
-          },
-          {
-            "title": "Bring more intelligence to everyday work with GPT-6 Sol and GPT-6 Luna on Amazon Bedrock",
-            "summary": "GPT-6 Sol and GPT-6 Luna are now generally available on Amazon Bedrock, giving you more options to match intelligence and efficiency to each",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/bring-more-intelligence-to-everyday-work-with-gpt-6-sol-and-gpt-6-luna-on-amazon-bedrock/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-23",
-            "publishedAt": "2026-09-23T02:10",
-            "reason": ""
-          },
-          {
-            "title": "Anthropic 发布 Claude Opus 5.5，成本较 Opus 5 降低 40%",
-            "summary": "Anthropic 发布 Claude Opus 5.5，为 Claude 5.5 系列首个模型，在多数工作上达到 Fable 5.1 水平，典型负载成本较 Opus 5 低 40%。",
-            "source": "Anthropic：Newsroom（网页）",
-            "url": "https://www.anthropic.com/claude-opus-5-5",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-23",
-            "publishedAt": "2026-09-23T00:53",
             "reason": ""
           }
         ]
