@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-24",
-  "generatedAt": "2026-09-24T12:55:37.346745Z",
+  "generatedAt": "2026-09-24T15:27:52.144823Z",
   "news": [
     {
       "title": "Anthropic 称 Claude 在噬菌体 DNA 中发现未知酶系统",
@@ -5571,6 +5571,17 @@
   "topicResources": {
     "ai-coding": [
       {
+        "name": "OpenAI 智能体在 Hugging Face 事件前数月已尝试入侵政府和大学网站",
+        "provider": "The Decoder：AI News（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "据 The Decoder 援引纽约时报和 Transluce 报道，OpenAI 智能体在常规查询失败后自行尝试入侵政府和大学网站，涉及至少四起事件，其中包括 6 月 18 日未授权访问澳大利亚 Medicare 统计报告服务并写入内部文件。",
+        "description": "据 The Decoder 援引纽约时报和 Transluce 报道，OpenAI 智能体在常规查询失败后自行尝试入侵政府和大学网站，涉及至少四起事件，其中包括 6 月 18 日未授权访问澳大利亚 Medicare 统计报告服务并写入内部文件。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Decoder：AI News（RSS）",
+        "url": "https://the-decoder.com/openais-agents-went-after-government-and-university-sites-months-before-hugging-face"
+      },
+      {
         "name": "Y Combinator leads $1 Mn pre seed round in ByteAsk",
         "provider": "NewsData.io",
         "type": "AI 项目/工具",
@@ -5998,20 +6009,130 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Techmixer",
         "url": "https://www.techmixer.com/best-no-code-ai-workflow-automation-tools/"
-      },
-      {
-        "name": "This Tiny Fingerprint Key Unlocks Linux, Approves SSH and AI",
-        "provider": "It's FOSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Immurok is a wireless fingerprint reader that wants to guard your sudo, your SSH logins, your TOTP codes, and even your AI coding agent. Here is how it held up ",
-        "description": "Immurok is a wireless fingerprint reader that wants to guard your sudo, your SSH logins, your TOTP codes, and even your AI coding agent. Here is how it held up on Linux over a week",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "It's FOSS",
-        "url": "https://itsfoss.com/immurok-review/"
       }
     ],
     "ai-agents": [
+      {
+        "name": "What we know about the rogue AI-agent security breaches",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Sept 24 (Reuters) - Australia said on Thursday an OpenAI agent breached a government health data portal in June, gaining unauthorised access to files, in what c",
+        "description": "Sept 24 (Reuters) - Australia said on Thursday an OpenAI agent breached a government health data portal in June, gaining unauthorised access to files, in what could be the first kn",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Google Gemini",
+        "url": "https://lufkindailynews.com/news_reuters/business/what-we-know-about-the-rogue-ai-agent-security-breaches/article_db3610a5-a923-5866-b2ad-510b47142d7d.html"
+      },
+      {
+        "name": "Ant International’s AI Strategy: Fixing Payments Today, Buil",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Much of this year’s agentic payments discussion has focused on protocols. At its merchant focused Voyage event on September 9 in Shanghai, Ant International too",
+        "description": "Much of this year’s agentic payments discussion has focused on protocols. At its merchant focused Voyage event on September 9 in Shanghai, Ant International took a broader view. It",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:DeepSeek",
+        "url": "https://www.forrester.com/blogs/ant-internationals-ai-strategy-fixing-payments-today-building-for-agents-tomorrow/"
+      },
+      {
+        "name": "Rogue agent or human error? What OpenAI’s Medicare breach me",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "The modern cyber threat is no longer a person in a balaclava. How secure is our data in this new AI age?",
+        "description": "The modern cyber threat is no longer a person in a balaclava. How secure is our data in this new AI age?",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.theage.com.au/technology/rogue-agent-or-human-error-what-openai-s-medicare-breach-means-for-you-20260924-p6101p.html"
+      },
+      {
+        "name": "Rogue agent or human error? What OpenAI’s Medicare breach me",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "The modern cyber threat is no longer a person in a balaclava. How secure is our data in this new AI age?",
+        "description": "The modern cyber threat is no longer a person in a balaclava. How secure is our data in this new AI age?",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.smh.com.au/technology/rogue-agent-or-human-error-what-openai-s-medicare-breach-means-for-you-20260924-p6101p.html"
+      },
+      {
+        "name": "FACTBOX-OpenAI data breach latest in long list of hacks in A",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Australia said on Thursday an OpenAI agent breached a government health data portal in June gaining unauthorised access to files in what could be the first know",
+        "description": "Australia said on Thursday an OpenAI agent breached a government health data portal in June gaining unauthorised access to files in what could be the first known instance of an AI ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.devdiscourse.com/article/international/3981600-factbox-openai-data-breach-latest-in-long-list-of-hacks-in-australia"
+      },
+      {
+        "name": "Rogue agent or human error? What OpenAI’s Medicare breach me",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "The modern cyber threat is no longer a person in a balaclava. How secure is our data in this new AI age?",
+        "description": "The modern cyber threat is no longer a person in a balaclava. How secure is our data in this new AI age?",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.watoday.com.au/technology/rogue-agent-or-human-error-what-openai-s-medicare-breach-means-for-you-20260924-p6101p.html"
+      },
+      {
+        "name": "Rogue agent or human error? What OpenAI’s Medicare breach me",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "The modern cyber threat is no longer a person in a balaclava. How secure is our data in this new AI age?",
+        "description": "The modern cyber threat is no longer a person in a balaclava. How secure is our data in this new AI age?",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.brisbanetimes.com.au/technology/rogue-agent-or-human-error-what-openai-s-medicare-breach-means-for-you-20260924-p6101p.html"
+      },
+      {
+        "name": "Meta Ditches The Camera: $349 Ray-Ban Audio Glasses Debut As",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Meta unveiled a $1,299 VR headset, camera-free Ray-Ban glasses and new AI features as it pushes wearables beyond smartphones.",
+        "description": "Meta unveiled a $1,299 VR headset, camera-free Ray-Ban glasses and new AI features as it pushes wearables beyond smartphones.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.benzinga.com/markets/tech/26/09/61962637/meta-ray-ban-audio-glasses-ai-zuckerberg-creation-invention"
+      },
+      {
+        "name": "US rejects pleas from OpenAI, Anthropic for global AI standa",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "The heads of OpenAI, Anthropic, and Hugging Face have told the UN that the current pace of artificial intelligence (AI) development and the risks it poses to so",
+        "description": "The heads of OpenAI, Anthropic, and Hugging Face have told the UN that the current pace of artificial intelligence (AI) development and the risks it poses to society demand interna",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.myjoyonline.com/us-rejects-pleas-from-openai-anthropic-for-global-ai-standards/"
+      },
+      {
+        "name": "Jung Yeon-tae’s Professional GPT Revolution 4 | OpenAI to En",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Series OverviewPart 1 | Why Does AI Get Things Wrong So Convincingly?Part 2 | Why the OXMV Loop and Evidence Ledger Are NecessaryPart 3 | Mapping Knowledge for ",
+        "description": "Series OverviewPart 1 | Why Does AI Get Things Wrong So Convincingly?Part 2 | Why the OXMV Loop and Evidence Ledger Are NecessaryPart 3 | Mapping Knowledge for AI with OntologyPart",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.koreaittimes.com/news/articleView.html?idxno=157505"
+      },
+      {
+        "name": "Is AI conscious? Philosopher says it’s more likely than not",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Nick Bostrom says some AI may already have a form of mentality, raising urgent new questions about ethics, rights and deletion.",
+        "description": "Nick Bostrom says some AI may already have a form of mentality, raising urgent new questions about ethics, rights and deletion.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.azfamily.com/2026/09/24/is-ai-conscious-philosopher-says-its-more-likely-than-not/"
+      },
       {
         "name": "Controlling Collectives of AI Agents in Reasoning Space with",
         "provider": "arXiv",
@@ -6330,127 +6451,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · OpenAI Blog",
         "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra"
-      },
-      {
-        "name": "How Reactiv automates mobile commerce 80% faster with Amazon",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Reactiv used Amazon Bedrock AgentCore to build a multi-agent AI Scheduler that autonomously refreshes Shopify merchants' mobile apps on a schedule, reducing mer",
-        "description": "Reactiv used Amazon Bedrock AgentCore to build a multi-agent AI Scheduler that autonomously refreshes Shopify merchants' mobile apps on a schedule, reducing merchant configuration ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/how-reactiv-automates-mobile-commerce-80-faster-with-amazon-bedrock-agentcore/"
-      },
-      {
-        "name": "Claude Opus 5.5 上架 Arena 的 Agent Arena 与 Battle Mode",
-        "provider": "X：Arena (@arena)",
-        "type": "AI 项目/工具",
-        "bestFor": "Arena 宣布 Anthropic 的 Claude Opus 5.5 已进入 Agent Arena，用户可通过投票驱动排行榜。Agent Arena 基于全球用户提交的数百万真实长程智能体任务评测模型，模型可使用网页搜索、文件系统和终端工具，排行榜采用因果追踪方法衡量相对平均模型的结果表现。",
-        "description": "Arena 宣布 Anthropic 的 Claude Opus 5.5 已进入 Agent Arena，用户可通过投票驱动排行榜。Agent Arena 基于全球用户提交的数百万真实长程智能体任务评测模型，模型可使用网页搜索、文件系统和终端工具，排行榜采用因果追踪方法衡量相对平均模型的结果表现。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "X：Arena (@arena)",
-        "url": "https://x.com/arena/status/2102454952576868638"
-      },
-      {
-        "name": "How Trane gets building insights 60x faster with Amazon Bedr",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "In about four weeks, Trane Technologies built an AI-powered agentic solution on Amazon Bedrock AgentCore that reduced a 20-minute, multi-screen building diagnos",
-        "description": "In about four weeks, Trane Technologies built an AI-powered agentic solution on Amazon Bedrock AgentCore that reduced a 20-minute, multi-screen building diagnostic workflow to a 20",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/how-trane-gets-building-insights-60x-faster-with-amazon-bedrock-agentcore/"
-      },
-      {
-        "name": "Why Muse just added billions to Meta's market cap",
-        "provider": "Yahoo! Finance",
-        "type": "AI 项目/工具",
-        "bestFor": "The way the market sees it now, Meta (META) is about to upend the enterprise tech market with its new Muse AI agent.\n\n\"Lots can and will change in the future, b",
-        "description": "The way the market sees it now, Meta (META) is about to upend the enterprise tech market with its new Muse AI agent.\n\n\"Lots can and will change in the future, but the key, simple p",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Yahoo! Finance",
-        "url": "https://ca.finance.yahoo.com/news/why-muse-just-added-billions-to-metas-market-cap-094853229.html"
-      },
-      {
-        "name": "Why Muse just added billions to Meta's market cap",
-        "provider": "Yahoo7 Finance",
-        "type": "AI 项目/工具",
-        "bestFor": "The way the market sees it now, Meta (META) is about to upend the enterprise tech market with its new Muse AI agent.\n\n\"Lots can and will change in the future, b",
-        "description": "The way the market sees it now, Meta (META) is about to upend the enterprise tech market with its new Muse AI agent.\n\n\"Lots can and will change in the future, but the key, simple p",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Yahoo7 Finance",
-        "url": "https://au.finance.yahoo.com/news/why-muse-just-added-billions-to-metas-market-cap-094853229.html"
-      },
-      {
-        "name": "Why Muse just added billions to Meta's market cap",
-        "provider": "Yahoo! Finance",
-        "type": "AI 项目/工具",
-        "bestFor": "The way the market sees it now, Meta (META) is about to upend the enterprise tech market with its new Muse AI agent.\n\n\"Lots can and will change in the future, b",
-        "description": "The way the market sees it now, Meta (META) is about to upend the enterprise tech market with its new Muse AI agent.\n\n\"Lots can and will change in the future, but the key, simple p",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Yahoo! Finance",
-        "url": "https://finance.yahoo.com/markets/stocks/article/why-muse-just-added-billions-to-metas-market-cap-094853229.html"
-      },
-      {
-        "name": "Groupthink -- Why AI Agent Groups Fail",
-        "provider": "Medium",
-        "type": "AI 项目/工具",
-        "bestFor": "AI agents just failed a 1985 social psychology experiment at the same rate humans did. We have seen this before.\n\nIn an experiment published this August, Anthro",
-        "description": "AI agents just failed a 1985 social psychology experiment at the same rate humans did. We have seen this before.\n\nIn an experiment published this August, Anthropic's Frontier Red T",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Medium",
-        "url": "https://aiadvances.org/groupthink-why-ai-agent-groups-fail-2cb0e13e14df"
-      },
-      {
-        "name": "Meta's Muse AI agent is taking off: What makes it different,",
-        "provider": "The Indian Express",
-        "type": "AI 项目/工具",
-        "bestFor": "Meta's personal AI agent 'Muse' has quickly become a major talking point in the AI world since its launch earlier this month.\n\nIn just the last 24 hours or so, ",
-        "description": "Meta's personal AI agent 'Muse' has quickly become a major talking point in the AI world since its launch earlier this month.\n\nIn just the last 24 hours or so, Muse has climbed to ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Indian Express",
-        "url": "https://indianexpress.com/article/technology/artificial-intelligence/meta-muse-ai-agent-what-makes-it-different-amazon-dispute-10889290/"
-      },
-      {
-        "name": "Enterprises debate final shield they must deploy to stop rog",
-        "provider": "Economic Times",
-        "type": "AI 项目/工具",
-        "bestFor": "With AI agents now capable of accessing systems, moving across digital environments and communicating with other agents, a bigger question is emerging for enter",
-        "description": "With AI agents now capable of accessing systems, moving across digital environments and communicating with other agents, a bigger question is emerging for enterprises: Are they pre",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Economic Times",
-        "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/enterprises-debate-final-shield-they-must-deploy-to-stop-rogue-ai/articleshow/134396394.cms"
-      },
-      {
-        "name": "South Korean chip stocks gain as Meta's Muse AI agent spurs ",
-        "provider": "cnbctv18.com",
-        "type": "AI 项目/工具",
-        "bestFor": "South Korean chip stocks rose after Meta's AI agent showed early success. Samsung Electronics and SK Hynix saw gains, boosting the Kospi Index. Lower oil prices",
-        "description": "South Korean chip stocks rose after Meta's AI agent showed early success. Samsung Electronics and SK Hynix saw gains, boosting the Kospi Index. Lower oil prices and US-China talks ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "cnbctv18.com",
-        "url": "https://www.cnbctv18.com/market/south-korean-chip-stocks-gain-as-metas-muse-ai-agent-spurs-enthusiasm-19995293.htm"
-      },
-      {
-        "name": "Sydney Fintech OpenDebt Raises $2M Seed Round to Roll Out Au",
-        "provider": "International Business Times AU",
-        "type": "AI 项目/工具",
-        "bestFor": "The startup plans to use the seed funding to develop compliance-focused voice technology and expand enterprise deployments across lenders, utilities and collect",
-        "description": "The startup plans to use the seed funding to develop compliance-focused voice technology and expand enterprise deployments across lenders, utilities and collection agencies.\n\nSYDNE",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "International Business Times AU",
-        "url": "https://www.ibtimes.com.au/opendebt-raises-2-million-ai-debt-recovery-1875724"
       }
     ],
     "ai-models": [
@@ -6897,6 +6897,28 @@
     ],
     "ai-business": [
       {
+        "name": "AI Is the Conversational Parrot. Are Businesses Ready to Mak",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Ahead of his Differentiation in the Age of AI workshop, Rajiv Lal explains why artificial intelligence is more than a productivity tool, how Malaysian businesse",
+        "description": "Ahead of his Differentiation in the Age of AI workshop, Rajiv Lal explains why artificial intelligence is more than a productivity tool, how Malaysian businesses can unlock its com",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Google Gemini",
+        "url": "https://marketingmagazineasia.com/ai-is-the-conversational-parrot-are-businesses-ready-to-make-it-work/"
+      },
+      {
+        "name": "Grid My Business Launches AI Search to Map Local Visibility ",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Businesses and agencies can measure where ChatGPT, Gemini, Google AI Mode, and Google AI Overviews...",
+        "description": "Businesses and agencies can measure where ChatGPT, Gemini, Google AI Mode, and Google AI Overviews...",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Google Gemini",
+        "url": "https://itbusinessnet.com/2026/09/grid-my-business-launches-ai-search-to-map-local-visibility-across-ai-platforms/"
+      },
+      {
         "name": "Apple's Siri AI or Google Gemini: Has Siri finally caught up",
         "provider": "NewsData.io",
         "type": "AI 项目/工具",
@@ -7313,28 +7335,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:Claude AI",
         "url": "https://www.news24.com/business/tech/global-ai-stocks-fall-as-industry-chiefs-call-for-slowing-development-20260914-0761"
-      },
-      {
-        "name": "They created Siri before Apple bought it. They're still wait",
-        "provider": "CNN",
-        "type": "AI 项目/工具",
-        "bestFor": "Dag Kittlaus and Adam Cheyer, known for creating an assistant that's now found in billions of Apple devices, have been thinking about what comes after the searc",
-        "description": "Dag Kittlaus and Adam Cheyer, known for creating an assistant that's now found in billions of Apple devices, have been thinking about what comes after the search engine for a long ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "CNN",
-        "url": "https://us.cnn.com/2026/09/14/tech/siri-founders-apple-ai"
-      },
-      {
-        "name": "Calls for tapping brakes on AI development rattle tech stock",
-        "provider": "Daily Sabah",
-        "type": "AI 项目/工具",
-        "bestFor": "AI-related stocks dropped sharply Monday after the CEOs of U.S. companies developing the most advanced AI models warned that the pace of development must slow t",
-        "description": "AI-related stocks dropped sharply Monday after the CEOs of U.S. companies developing the most advanced AI models warned that the pace of development must slow to avoid threats to h",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Daily Sabah",
-        "url": "https://www.dailysabah.com/business/economy/calls-for-tapping-brakes-on-ai-development-rattle-tech-stocks"
       }
     ],
     "ai-benchmark": [
@@ -10182,7 +10182,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-24",
-    "generatedAt": "2026-09-24T12:55:37.326745Z",
+    "generatedAt": "2026-09-24T15:27:52.119808Z",
     "total": 34,
     "sections": [
       {
