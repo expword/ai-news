@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-24",
-  "generatedAt": "2026-09-24T05:24:23.616357Z",
+  "generatedAt": "2026-09-24T09:11:10.563181Z",
   "news": [
     {
       "title": "Anthropic 称 Claude 在噬菌体 DNA 中发现未知酶系统",
@@ -2705,62 +2705,6 @@
       "aiSelected": true,
       "moduleTargets": [
         "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Hex turns complex analysis into visual reports with GPT‑6 Astra",
-      "summary": "GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share.",
-      "category": "ai-agents",
-      "source": "RSS · OpenAI Blog",
-      "date": "2026-09-16",
-      "publishedAt": "2026-09-16T20:00",
-      "collectedAt": "2026-09-19T06:50",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://openai.com/index/hex-gpt-6-astra",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Shared Selective Persistent Memory for Agentic LLM Systems",
-      "summary": "Agentic LLM systems that generate code through multi-turn tool use face a fundamental context problem: each session starts from zero, discarding the configuration choices, domain c",
-      "category": "ai-coding",
-      "source": "RSS · Apple ML Research",
-      "date": "2026-09-16",
-      "publishedAt": "2026-09-16T08:00",
-      "collectedAt": "2026-09-17T09:19",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://machinelearning.apple.com/research/shared-selective-persistent-memory",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
       ],
       "sourceCount": 1
     }
@@ -10459,7 +10403,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-24",
-    "generatedAt": "2026-09-24T05:24:23.594815Z",
+    "generatedAt": "2026-09-24T09:11:10.539182Z",
     "total": 34,
     "sections": [
       {
