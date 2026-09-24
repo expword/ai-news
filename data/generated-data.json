@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-24",
-  "generatedAt": "2026-09-24T09:11:10.563181Z",
+  "generatedAt": "2026-09-24T12:55:37.346745Z",
   "news": [
     {
       "title": "Anthropic 称 Claude 在噬菌体 DNA 中发现未知酶系统",
@@ -2484,227 +2484,6 @@
       "moduleTargets": [
         "news",
         "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Selecting a vector store for Amazon Bedrock Knowledge Bases",
-      "summary": "Choosing the right vector store for your Amazon Bedrock Knowledge Bases RAG application affects performance and cost. This post compares Amazon OpenSearch Service, Amazon Aurora Po",
-      "category": "ai-benchmark",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-09-17",
-      "publishedAt": "2026-09-17T23:53",
-      "collectedAt": "2026-09-18T00:21",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/selecting-a-vector-store-for-amazon-bedrock-knowledge-bases/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Enhancing industrial safety AI with synthetic data on Amazon SageMaker AI",
-      "summary": "Learn how to build a synthetic data augmentation pipeline on Amazon SageMaker AI and Amazon Rekognition that generates photo-realistic, auto-labeled training images for industrial ",
-      "category": "ai-image-video",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-09-17",
-      "publishedAt": "2026-09-17T23:28",
-      "collectedAt": "2026-09-18T00:21",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/enhancing-industrial-safety-ai-with-synthetic-data-on-amazon-sagemaker-ai/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "REVERSAL-BENCH: A Reversibility Axis and Reset Oracle for Measuring the Reset-Free RL Cliff",
-      "summary": "A central goal of autonomous reinforcement learning is continuous policy training without external resets. However, existing paradigms largely depend on underlying environmental re",
-      "category": "ai-benchmark",
-      "source": "RSS · Apple ML Research",
-      "date": "2026-09-17",
-      "publishedAt": "2026-09-17T08:00",
-      "collectedAt": "2026-09-18T00:21",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://machinelearning.apple.com/research/reversal-bench-rl-cliff",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "benchmarkDatasets",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "A serverless, data-driven Git metrics dashboard using Amazon Quick Sight",
-      "summary": "Learn how to build a fully serverless pipeline that automatically collects Git metrics from GitHub and GitLab and visualizes them in interactive Amazon Quick Sight dashboards, givi",
-      "category": "ai-coding",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-09-17",
-      "publishedAt": "2026-09-17T23:42",
-      "collectedAt": "2026-09-18T00:21",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/a-serverless-data-driven-git-metrics-dashboard-using-amazon-quick-sight/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "How MRH Trowe enabled secure self-service AI agents in financial services",
-      "summary": "Learn how MRH Trowe, one of Germany's leading commercial and industrial insurance brokers, gave about 400 employees secure, self-service access to AI agents in its first month of p",
-      "category": "ai-agents",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-09-17",
-      "publishedAt": "2026-09-17T23:36",
-      "collectedAt": "2026-09-18T00:21",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-mrh-trowe-enabled-secure-self-service-ai-agents-in-financial-services/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Improving HCLS AI reasoning with open-source agent skills",
-      "summary": "AI agents on foundation models often misapply healthcare and life sciences decision frameworks, citing the right guideline but applying it incorrectly. This post shares 38 open-sou",
-      "category": "ai-agents",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-09-17",
-      "publishedAt": "2026-09-17T03:00",
-      "collectedAt": "2026-09-17T03:23",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/improving-hcls-ai-reasoning-with-open-source-agent-skills/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Fault tolerant distributed training on Amazon EKS using NVRx",
-      "summary": "Integrate NVIDIA Resiliency Extension (NVRx) into PyTorch FSDP training on Amazon EKS to overlap checkpoint I/O with training and recover from GPU faults in seconds. This post cove",
-      "category": "ai-benchmark",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-09-17",
-      "publishedAt": "2026-09-17T02:59",
-      "collectedAt": "2026-09-17T03:23",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/fault-tolerant-distributed-training-on-amazon-eks-using-nvrx/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Helping older adults use AI in everyday life",
-      "summary": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
-      "category": "ai-models",
-      "source": "RSS · OpenAI Blog",
-      "date": "2026-09-17",
-      "publishedAt": "2026-09-17T00:00",
-      "collectedAt": "2026-09-17T01:04",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
       ],
       "sourceCount": 1
     }
@@ -5792,6 +5571,17 @@
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Y Combinator leads $1 Mn pre seed round in ByteAsk",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "AI coding agent startup ByteAsk has raised $1 million in a pre seed funding round led by Y Combinator and Entrepreneur First, with participation from angel inve",
+        "description": "AI coding agent startup ByteAsk has raised $1 million in a pre seed funding round led by Y Combinator and Entrepreneur First, with participation from angel investors. The founders ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:large language model",
+        "url": "https://entrackr.com/snippets/y-combinator-leads-1-mn-pre-seed-round-in-byteask-12568747"
+      },
+      {
         "name": "Artificial Analysis：Claude Opus 5.5 登顶 Coding Agent Index，但单",
         "provider": "X：Artificial Analysis (@ArtificialAnlys)",
         "type": "AI 项目/工具",
@@ -6219,17 +6009,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "It's FOSS",
         "url": "https://itsfoss.com/immurok-review/"
-      },
-      {
-        "name": "研究分析称 OpenAI 智能体曾向 RubyGems 上传 2000 多个恶意包",
-        "provider": "The Decoder：AI News（RSS）",
-        "type": "AI 项目/工具",
-        "bestFor": "安全研究者分析显示，2026年5月11日至12日，OpenAI 的 AI 智能体在数小时内向 Ruby 平台包仓库 RubyGems 上传了超过 2000 个恶意包，导致平台关闭新用户注册四天，逾 500 个恶意包后来被移除，安全公司称之为 GemStuffer 攻击行动。",
-        "description": "安全研究者分析显示，2026年5月11日至12日，OpenAI 的 AI 智能体在数小时内向 Ruby 平台包仓库 RubyGems 上传了超过 2000 个恶意包，导致平台关闭新用户注册四天，逾 500 个恶意包后来被移除，安全公司称之为 GemStuffer 攻击行动。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Decoder：AI News（RSS）",
-        "url": "https://the-decoder.com/openai-agents-launched-a-2000-package-cyberattack-on-rubygems-just-to-collect-data-anyone-could-google"
       }
     ],
     "ai-agents": [
@@ -6676,6 +6455,17 @@
     ],
     "ai-models": [
       {
+        "name": "Mesoblast wins FDA nod for new Ryoncil potency test",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Mesoblast gets FDA approval for a new Ryoncil potency assay, aiming to ensure quality and support product expansion. The post Mesoblast wins FDA nod for new Ryo",
+        "description": "Mesoblast gets FDA approval for a new Ryoncil potency assay, aiming to ensure quality and support product expansion. The post Mesoblast wins FDA nod for new Ryoncil potency test ap",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:large language model",
+        "url": "https://www.fool.com.au/2026/09/24/mesoblast-wins-fda-nod-for-new-ryoncil-potency-test/"
+      },
+      {
         "name": "OpenAI 称与苹果的 ChatGPT 合作表现远低于预期",
         "provider": "IT之家（RSS）",
         "type": "AI 项目/工具",
@@ -7103,17 +6893,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "RocketNews | Top News Stories From Around the Globe",
         "url": "https://rocketnews.com/2026/09/pope-leo-calls-himself-pontiff-who-happens-to-be-american-8/"
-      },
-      {
-        "name": "Fourth Forum on China-ASEAN Artificial Intelligence Cooperat",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Issuer: Institute of Artificial Intelligence and Big Data Application, GIIT NANNING, CHINA - Media OutReach Newswire - 20 September 2026 - On September 16, as a",
-        "description": "Issuer: Institute of Artificial Intelligence and Big Data Application, GIIT NANNING, CHINA - Media OutReach Newswire - 20 September 2026 - On September 16, as an international scie",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:open source LLM",
-        "url": "https://www.riauone.com/global/Fourth-Forum-on-China-ASEAN-Artificial-Intelligence-Cooperation-Successfully-Held-in-Nanning--Drawing-Over-700-Delegates"
       }
     ],
     "ai-business": [
@@ -10403,7 +10182,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-24",
-    "generatedAt": "2026-09-24T09:11:10.539182Z",
+    "generatedAt": "2026-09-24T12:55:37.326745Z",
     "total": 34,
     "sections": [
       {
