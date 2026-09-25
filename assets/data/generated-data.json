@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-25",
-  "generatedAt": "2026-09-25T04:39:49.384719Z",
+  "generatedAt": "2026-09-25T08:16:22.587459Z",
   "news": [
     {
       "title": "Automating coherent long-form video generation",
@@ -2717,33 +2717,6 @@
       "sourceDate": "",
       "tags": [],
       "url": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Improving synthesis prediction of small molecules at scale with RetroChimera",
-      "summary": "Custom-made molecules are advancing medicine, materials, and agriculture, but producing them is slow and expensive. A new Nature paper highlights RetroChimera, a predictive model t",
-      "category": "ai-research",
-      "source": "RSS · Microsoft Research",
-      "date": "2026-09-21",
-      "publishedAt": "2026-09-21T23:30",
-      "collectedAt": "2026-09-22T01:08",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://www.microsoft.com/en-us/research/blog/improving-synthesis-prediction-of-small-molecules-at-scale-with-retrochimera/",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -10450,7 +10423,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-25",
-    "generatedAt": "2026-09-25T04:39:49.359714Z",
+    "generatedAt": "2026-09-25T08:16:22.565425Z",
     "total": 32,
     "sections": [
       {
