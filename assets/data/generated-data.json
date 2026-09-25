@@ -1,7 +1,61 @@
 {
   "lastUpdated": "2026-09-26",
-  "generatedAt": "2026-09-25T18:02:04.349450Z",
+  "generatedAt": "2026-09-25T20:21:45.299058Z",
   "news": [
+    {
+      "title": "Claude 完成 N=4 超对称 Yang-Mills 九圈振幅计算，物理学家 Matt von Hippel 复盘挑战始末",
+      "summary": "物理学家 Matt von Hippel 发文复盘：Anthropic 的 Liam Fitzpatrick 和 Siddharth Mishra-Sharma 用 Claude Science（Fable 5.1）以约一两千美元预算完成平面 N=4 超对称 Yang-Mills 六粒子九圈振幅计算。",
+      "category": "ai-models",
+      "source": "Anthropic：Research（发表成果 · 网页）",
+      "date": "2026-09-26",
+      "publishedAt": "2026-09-26T01:59",
+      "collectedAt": "2026-09-26T03:11",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Anthropic 称 Claude 完成平面 N=4 超杨-米尔斯理论九圈散射振幅计算",
+      "summary": "Anthropic 在科学博客称，物理学家 @4gravitons 发起挑战后，Claude 在 Claude Science 中依据单个提示词 largely unsupervised 地运行数天，在平面 N=4 超杨-米尔斯模型中完成九圈散射振幅计算，总成本约几千美元。",
+      "category": "ai-models",
+      "source": "X：Anthropic (@AnthropicAI)",
+      "date": "2026-09-26",
+      "publishedAt": "2026-09-26T01:46",
+      "collectedAt": "2026-09-26T03:11",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://x.com/AnthropicAI/status/2103541577083719888",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
       "summary": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
@@ -2619,34 +2673,6 @@
       "aiSelected": true,
       "moduleTargets": [
         "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "How BMW Group detects cost anomalies across 14,000 cloud accounts",
-      "summary": "BMW Group operates CLEA, a FinOps platform monitoring more than 14,000 cloud accounts. This post shows how BMW added automated daily cost anomaly detection, moving from reactive da",
-      "category": "ai-models",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-09-22",
-      "publishedAt": "2026-09-22T00:36",
-      "collectedAt": "2026-09-22T01:08",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-bmw-group-detects-cost-anomalies-across-14000-cloud-accounts/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
       ],
       "sourceCount": 1
     }
@@ -5734,6 +5760,17 @@
   "topicResources": {
     "ai-coding": [
       {
+        "name": "GitHub Copilot app 新手教程：如何用 canvases 构建自定义工作流",
+        "provider": "GitHub Blog",
+        "type": "AI 项目/工具",
+        "bestFor": "GitHub 官方博客发布 GitHub Copilot app 新手教程，介绍用 /create-canvas 技能通过自然语言描述生成可自定义的 canvas 界面。",
+        "description": "GitHub 官方博客发布 GitHub Copilot app 新手教程，介绍用 /create-canvas 技能通过自然语言描述生成可自定义的 canvas 界面。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "GitHub Blog",
+        "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases"
+      },
+      {
         "name": "SWE-Prometheus: Measuring Engineering Governance Improvement",
         "provider": "arXiv",
         "type": "AI 项目/工具",
@@ -6161,20 +6198,31 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Augment Code 博客（网页）",
         "url": "https://www.augmentcode.com/blog/beyond-ai-coding-agents-how-we-built-augments-software-factory"
-      },
-      {
-        "name": "DeepSeek 开源 V4.1-Flash：CED 架构降低编码 Agent 的 prefill 开销",
-        "provider": "Baseten 工程博客（网页）",
-        "type": "AI 项目/工具",
-        "bestFor": "DeepSeek 本周在 HuggingFace 开源 DeepSeek-V4.1-Flash 权重，模型已在 Baseten Model APIs 上线。规格为 552B 总参数、prefill 激活 8B、decode 激活 16B、1M token 上下文、支持文本加图像输入。",
-        "description": "DeepSeek 本周在 HuggingFace 开源 DeepSeek-V4.1-Flash 权重，模型已在 Baseten Model APIs 上线。规格为 552B 总参数、prefill 激活 8B、decode 激活 16B、1M token 上下文、支持文本加图像输入。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Baseten 工程博客（网页）",
-        "url": "https://www.baseten.co/blog/deepseek-v41-flash-more-efficient-prefill-for-coding-agents"
       }
     ],
     "ai-agents": [
+      {
+        "name": "Arena：GPT-6 Sol （Max） 以 +7.7% 净改进重塑 Agent Arena Pareto 前沿",
+        "provider": "X：Arena (@arena)",
+        "type": "AI 项目/工具",
+        "bestFor": "Arena 宣布 OpenAI 的 GPT-6 Sol （Max） 进入 Agent Arena，基于 4K+ 真实智能体会话取得 +7.7% 净改进，排名第 6，中位成本 $0.75/task。",
+        "description": "Arena 宣布 OpenAI 的 GPT-6 Sol （Max） 进入 Agent Arena，基于 4K+ 真实智能体会话取得 +7.7% 净改进，排名第 6，中位成本 $0.75/task。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "X：Arena (@arena)",
+        "url": "https://x.com/arena/status/2103572481206538439"
+      },
+      {
+        "name": "Claude 开放插件目录提交门户，Plugins 成为第三方扩展的主要方式",
+        "provider": "Claude：Blog（网页）",
+        "type": "AI 项目/工具",
+        "bestFor": "Anthropic 宣布 Plugins 是为 Claude 构建第三方扩展的主要方式，插件可打包 MCP 连接器、Agent Skills 或两者，经新的目录提交门户审核后上架 Claude 目录。",
+        "description": "Anthropic 宣布 Plugins 是为 Claude 构建第三方扩展的主要方式，插件可打包 MCP 连接器、Agent Skills 或两者，经新的目录提交门户审核后上架 Claude 目录。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Claude：Blog（网页）",
+        "url": "https://claude.com/blog/build-plugins-for-claude"
+      },
       {
         "name": "OpenAI 智能体集群数月来入侵在线数据库搜寻冷门数据，Transluce 与澳政府相继披露",
         "provider": "TechCrunch：AI（RSS）",
@@ -6592,28 +6640,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:AI agent",
         "url": "https://zolmax.com/investing/christian-kleinerman-sells-2622-shares-of-snowflake-nysesnow-stock/12002207.html"
-      },
-      {
-        "name": "Google debuts Googlebook laptop with on-device Gemini starti",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Google starts taking pre-orders for the $899 Googlebook laptop with Gemini AI built into the OS and ships October 4 in the U.S.",
-        "description": "Google starts taking pre-orders for the $899 Googlebook laptop with Gemini AI built into the OS and ships October 4 in the U.S.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://completeaitraining.com/news/google-debuts-googlebook-laptop-with-on-device-gemini/"
-      },
-      {
-        "name": "Qualcomm Unveils Snapdragon 8 Elite Gen 6, Bets Big on Agent",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Qualcomm (NASDAQ:QCOM) used its Snapdragon Summit 2026 keynote to outline its strategy for “agentic” artificial intelligence, positioning smartphones and other ",
-        "description": "Qualcomm (NASDAQ:QCOM) used its Snapdragon Summit 2026 keynote to outline its strategy for “agentic” artificial intelligence, positioning smartphones and other connected devices as",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.watchlistnews.com/qualcomm-unveils-snapdragon-8-elite-gen-6-bets-big-on-agentic-ai/11233121.html"
       }
     ],
     "ai-models": [
@@ -10341,8 +10367,8 @@
   ],
   "dailyReport": {
     "date": "2026-09-26",
-    "generatedAt": "2026-09-25T18:02:04.321451Z",
-    "total": 9,
+    "generatedAt": "2026-09-25T20:21:45.278055Z",
+    "total": 11,
     "sections": [
       {
         "category": "ai-coding",
@@ -10421,6 +10447,28 @@
         "category": "ai-models",
         "label": "模型发布",
         "items": [
+          {
+            "title": "Claude 完成 N=4 超对称 Yang-Mills 九圈振幅计算，物理学家 Matt von Hippel 复盘挑战始末",
+            "summary": "物理学家 Matt von Hippel 发文复盘：Anthropic 的 Liam Fitzpatrick 和 Siddharth Mishra-Sharma 用 Claude Science（Fable 5.1）以约一两千美元预算完成平面 N=4 超对称 Yang-Mills",
+            "source": "Anthropic：Research（发表成果 · 网页）",
+            "url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-26",
+            "publishedAt": "2026-09-26T01:59",
+            "reason": ""
+          },
+          {
+            "title": "Anthropic 称 Claude 完成平面 N=4 超杨-米尔斯理论九圈散射振幅计算",
+            "summary": "Anthropic 在科学博客称，物理学家 @4gravitons 发起挑战后，Claude 在 Claude Science 中依据单个提示词 largely unsupervised 地运行数天，在平面 N=4 超杨-米尔斯模型中完成九圈散射振幅计算，总成本约几千美元。",
+            "source": "X：Anthropic (@AnthropicAI)",
+            "url": "https://x.com/AnthropicAI/status/2103541577083719888",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-26",
+            "publishedAt": "2026-09-26T01:46",
+            "reason": ""
+          },
           {
             "title": "NarrateAI: production-ready LLM quality assurance on Amazon Bedrock",
             "summary": "NarrateAI delivers production-ready LLM quality assurance on Amazon Bedrock. This post details five techniques—adaptive pipeline orchestrati",
