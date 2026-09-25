@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-25",
-  "generatedAt": "2026-09-25T13:05:19.458865Z",
+  "generatedAt": "2026-09-25T15:40:19.063877Z",
   "news": [
     {
       "title": "Automating coherent long-form video generation",
@@ -6007,6 +6007,28 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "DeepSeek tests efficient, safer method for training AI agent",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "China's DeepSeek detailed an innovative method for training artificial intelligence agents, potentially allowing them to learn more efficiently while minimising",
+        "description": "China's DeepSeek detailed an innovative method for training artificial intelligence agents, potentially allowing them to learn more efficiently while minimising the kind of misbeha",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:DeepSeek",
+        "url": "https://www.thestar.com.my/tech/tech-news/2026/09/25/deepseek-tests-efficient-safer-method-for-training-ai-agents"
+      },
+      {
+        "name": "Chinese Hacker Deploys AI Agents to Raid Retailers, Stealing",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "A Chinese-speaking attacker used three open-source AI agents to hit over 100 companies, steal more than 600,000 credit cards and plant skimmers on at least 119 ",
+        "description": "A Chinese-speaking attacker used three open-source AI agents to hit over 100 companies, steal more than 600,000 credit cards and plant skimmers on at least 119 retail sites. The ca",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Claude AI",
+        "url": "https://www.webpronews.com/chinese-hacker-deploys-ai-agents-to-raid-retailers-stealing-600000-cards-for-pennies/"
+      },
+      {
         "name": "GRASP: Generating, Revising, and Assessing for Strategic Pla",
         "provider": "arXiv",
         "type": "AI 项目/工具",
@@ -6423,31 +6445,53 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:AI agent",
         "url": "https://www.finanznachrichten.de/nachrichten-2026-09/69649650-eqs-newswire-alpha-technology-group-ltd-from-it-services-to-enterprise-ai-what-atgl-must-prove-next-023.htm"
-      },
-      {
-        "name": "Autonomous agents not ready for independent responsibility, ",
-        "provider": "Economic Times",
-        "type": "AI 项目/工具",
-        "bestFor": "His comment comes in the wake of reports that Google's Gemini model recently accessed the systems of three companies during a test of its cybersecurity capabili",
-        "description": "His comment comes in the wake of reports that Google's Gemini model recently accessed the systems of three companies during a test of its cybersecurity capabilities, after autonomo",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Economic Times",
-        "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/autonomous-agents-not-ready-for-independent-responsibility-says-google-cybersecurity-expert/articleshow/134416837.cms"
-      },
-      {
-        "name": "China's New AI Governance Goes Deep on AI Agent Security",
-        "provider": "govinfosecurity.com",
-        "type": "AI 项目/工具",
-        "bestFor": "Artificial Intelligence & Machine Learning , Governance & Risk Management , Next-Generation Technologies & Secure Development\n\nChina's new artificial intelligen",
-        "description": "Artificial Intelligence & Machine Learning , Governance & Risk Management , Next-Generation Technologies & Secure Development\n\nChina's new artificial intelligence governance framew",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "govinfosecurity.com",
-        "url": "https://www.govinfosecurity.com/chinas-new-ai-governance-goes-deep-on-ai-agent-security-a-32898"
       }
     ],
     "ai-models": [
+      {
+        "name": "2026 just became the year of FreeBSD on the (Amazonian cloud",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Desktop AMIs ‘designed to behave as much like Windows as possible’ now available as an on ramp for new users",
+        "description": "Desktop AMIs ‘designed to behave as much like Windows as possible’ now available as an on ramp for new users",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Google Gemini",
+        "url": "https://www.theregister.com/os-platforms/2026/09/25/2026-just-became-the-year-of-freebsd-on-the-amazonian-cloud-desktop/5299025"
+      },
+      {
+        "name": "TrustModel.ai Launches Independent Assessment Platform for t",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "TrustModel.ai launches independent assessment platform for foundation models powering Global 2000 to evaluate, monitor and certify AI to close assurance gaps",
+        "description": "TrustModel.ai launches independent assessment platform for foundation models powering Global 2000 to evaluate, monitor and certify AI to close assurance gaps",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:DeepSeek",
+        "url": "https://www.einpresswire.com/article/944997513/trustmodel-ai-launches-independent-assessment-platform-for-the-foundation-models-powering-the-global-2000"
+      },
+      {
+        "name": "Adobe Expands Claude Integration With Acrobat PDF Editing To",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Adobe is bringing more of its software directly into AI chat platforms, adding Acrobat PDF tools to Claude while expanding its integrations with Google Gemini. ",
+        "description": "Adobe is bringing more of its software directly into AI chat platforms, adding Acrobat PDF tools to Claude while expanding its integrations with Google Gemini. The updated Adobe fo",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Claude AI",
+        "url": "https://www.channelnews.com.au/adobe-expands-claude-integration-with-acrobat-pdf-editing-tools/"
+      },
+      {
+        "name": "Adobe Pushes Creative Tools Into Google Gemini and Claude in",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Adobe brings Photoshop, Lightroom, Express and Firefly tools directly into Google Gemini for all users while adding full Acrobat capabilities and interactive PD",
+        "description": "Adobe brings Photoshop, Lightroom, Express and Firefly tools directly into Google Gemini for all users while adding full Acrobat capabilities and interactive PDF editing to its Cla",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Claude AI",
+        "url": "https://www.webpronews.com/adobe-pushes-creative-tools-into-google-gemini-and-claude-in-latest-ai-push/"
+      },
       {
         "name": "Anthony Albanese's urgent warning to the world about AI as h",
         "provider": "NewsData.io",
@@ -6843,53 +6887,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "FinanzNachrichten.de",
         "url": "https://www.finanznachrichten.de/nachrichten-2026-09/69635379-cority-software-inc-cority-named-a-leader-in-2026-verdantix-green-quadrant-for-ehs-software-for-seventh-consecutive-year-399.htm"
-      },
-      {
-        "name": "Cority Named a Leader in 2026 Verdantix Green Quadrant for E",
-        "provider": "Chatham Daily News",
-        "type": "AI 项目/工具",
-        "bestFor": "EHS+ platform extends its Verdantix leadership, earning Leader status across three 2026 Green Quadrant reports spanning EHS, process safety and carbon managemen",
-        "description": "EHS+ platform extends its Verdantix leadership, earning Leader status across three 2026 Green Quadrant reports spanning EHS, process safety and carbon management TORONTO, Sept. 21,",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Chatham Daily News",
-        "url": "https://www.chathamdailynews.ca/press-releases/globe-newswire/cority-named-a-leader-in-2026-verdantix-green-quadrant-for-ehs-software-for-seventh-consecutive-year/"
-      },
-      {
-        "name": "Trump rejects AI slowdown calls, launches \"AI Force\" instead",
-        "provider": "Ars Technica",
-        "type": "AI 项目/工具",
-        "bestFor": "Donald Trump has said that the US would appoint a new AI tsar and create an \"AI Force\" while offering a full-throated defense of the emerging industry in the fa",
-        "description": "Donald Trump has said that the US would appoint a new AI tsar and create an \"AI Force\" while offering a full-throated defense of the emerging industry in the face of a growing popu",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Ars Technica",
-        "url": "https://arstechnica.com/ai/2026/09/trump-rejects-ai-slowdown-calls-launches-ai-force-instead/"
-      },
-      {
-        "name": "Cority Named a Leader in 2026 Verdantix Green Quadrant for E",
-        "provider": "The Kingston Whig-Standard",
-        "type": "AI 项目/工具",
-        "bestFor": "EHS+ platform extends its Verdantix leadership, earning Leader status across three 2026 Green Quadrant reports spanning EHS, process safety and carbon managemen",
-        "description": "EHS+ platform extends its Verdantix leadership, earning Leader status across three 2026 Green Quadrant reports spanning EHS, process safety and carbon management TORONTO, Sept. 21,",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Kingston Whig-Standard",
-        "url": "https://www.thewhig.com/press-releases/globe-newswire/cority-named-a-leader-in-2026-verdantix-green-quadrant-for-ehs-software-for-seventh-consecutive-year/"
-      },
-      {
-        "name": "Man of his word: Pope Leo speeches declared human-authored b",
-        "provider": "RocketNews | Top News Stories From Around the Globe",
-        "type": "AI 项目/工具",
-        "bestFor": "A collection of speeches and writings attributed to Pope Leo XIV has received certification as human-authored from Proudly Human, an Australian firm led by form",
-        "description": "A collection of speeches and writings attributed to Pope Leo XIV has received certification as human-authored from Proudly Human, an Australian firm led by former chief scientist D",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RocketNews | Top News Stories From Around the Globe",
-        "url": "https://rocketnews.com/2026/09/man-of-his-word-pope-leo-speeches-declared-human-authored-by-australian-ai-detection-tool-7/"
       }
     ],
     "ai-business": [
+      {
+        "name": "Anthropic seeks 50.1% voting control for co-founders ahead o",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Anthropic seeks shareholder approval for a new corporate structure giving CEO Dario Amodei and six co-founders 50.1% voting power, similar to Palantir's model. ",
+        "description": "Anthropic seeks shareholder approval for a new corporate structure giving CEO Dario Amodei and six co-founders 50.1% voting power, similar to Palantir's model. This applies as long",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Claude AI",
+        "url": "https://www.cnbctv18.com/market/anthropic-seeks-50-1-voting-control-for-co-founders-ahead-of-ipo-the-information-reports-19998181.htm"
+      },
       {
         "name": "AI Is the Conversational Parrot. Are Businesses Ready to Mak",
         "provider": "NewsData.io",
@@ -7318,17 +7329,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "The Times of India",
         "url": "https://timesofindia.indiatimes.com/business/international-business/global-ai-stocks-slide-as-warnings-over-rapid-development-trigger-investor-concerns/articleshow/134242445.cms"
-      },
-      {
-        "name": "Global AI stocks fall as industry chiefs call for slowing de",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "AI-linked stocks across the globe plunged on Monday after leaders of the biggest AI companies warned of risks from rapid development.",
-        "description": "AI-linked stocks across the globe plunged on Monday after leaders of the biggest AI companies warned of risks from rapid development.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:Claude AI",
-        "url": "https://www.news24.com/business/tech/global-ai-stocks-fall-as-industry-chiefs-call-for-slowing-development-20260914-0761"
       }
     ],
     "ai-benchmark": [
@@ -10172,7 +10172,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-25",
-    "generatedAt": "2026-09-25T13:05:19.438867Z",
+    "generatedAt": "2026-09-25T15:40:19.043877Z",
     "total": 32,
     "sections": [
       {
