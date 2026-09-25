@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-25",
-  "generatedAt": "2026-09-25T08:16:22.587459Z",
+  "generatedAt": "2026-09-25T13:05:19.458865Z",
   "news": [
     {
       "title": "Automating coherent long-form video generation",
@@ -2478,257 +2478,6 @@
       "moduleTargets": [
         "news",
         "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Run Positron on Amazon SageMaker AI for data science workflows",
-      "summary": "Positron, Posit's IDE for data science, now runs on Amazon SageMaker AI. This post shows how a data scientist explores an Amazon Athena table, validates features in R, trains an XG",
-      "category": "ai-models",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-09-22",
-      "publishedAt": "2026-09-22T00:34",
-      "collectedAt": "2026-09-22T01:08",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/run-positron-on-amazon-sagemaker-ai-for-data-science-workflows/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Open-Sourcing Rebalancer: A Generic, High-Performance Library for Solving Assignment Problems",
-      "summary": "We&#8217;re open-sourcing Rebalancer, the assignment-problem solver that has been used to solve resource allocation problems throughout Meta for over nine years. Rebalancer separat",
-      "category": "ai-models",
-      "source": "RSS · Meta Engineering",
-      "date": "2026-09-22",
-      "publishedAt": "2026-09-22T00:00",
-      "collectedAt": "2026-09-22T01:08",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://engineering.fb.com/2026/09/21/open-source/rebalancer-generic-high-performance-library-assignment-problems/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
-      "summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
-      "category": "ai-image-video",
-      "source": "RSS · OpenAI Blog",
-      "date": "2026-09-21",
-      "publishedAt": "2026-09-21T20:00",
-      "collectedAt": "2026-09-22T04:40",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Building standards for the next phase of AI",
-      "summary": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.",
-      "category": "ai-models",
-      "source": "RSS · OpenAI Blog",
-      "date": "2026-09-21",
-      "publishedAt": "2026-09-21T18:00",
-      "collectedAt": "2026-09-22T02:18",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://openai.com/index/building-standards-next-phase-ai",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Advisory Group on Mathematics and Artificial Intelligence",
-      "summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
-      "category": "ai-models",
-      "source": "RSS · OpenAI Blog",
-      "date": "2026-09-21",
-      "publishedAt": "2026-09-21T20:00",
-      "collectedAt": "2026-09-22T02:18",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Expanding OpenAI Academy with new learning paths",
-      "summary": "Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills.",
-      "category": "ai-models",
-      "source": "RSS · OpenAI Blog",
-      "date": "2026-09-21",
-      "publishedAt": "2026-09-21T15:00",
-      "collectedAt": "2026-09-22T02:18",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 2,
-      "relatedSources": [
-        {
-          "source": "RSS · OpenAI Blog",
-          "url": "https://openai.com/index/two-years-of-openai-academy",
-          "title": "Two years of OpenAI Academy"
-        }
-      ]
-    },
-    {
-      "title": "Inside Petal: Building the World’s First Petabit-Class Transoceanic Subsea Cable",
-      "summary": "Petal, the next step in Meta’s subsea innovation, will be the first subsea cable to deliver petabit capacity at transoceanic distances, connecting France and the United States over",
-      "category": "ai-models",
-      "source": "RSS · Meta Engineering",
-      "date": "2026-09-21",
-      "publishedAt": "2026-09-21T20:00",
-      "collectedAt": "2026-09-22T02:18",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://engineering.fb.com/2026/09/21/connectivity/petal-petabit-transoceanic-subsea-cable/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "tokenizers v1: encode, decode and scaling, measured",
-      "summary": "",
-      "category": "ai-coding",
-      "source": "RSS · Hugging Face Blog",
-      "date": "2026-09-21",
-      "publishedAt": "2026-09-21T08:00",
-      "collectedAt": "2026-09-22T01:08",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://huggingface.co/blog/tokenizers-v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
-      "summary": "",
-      "category": "ai-models",
-      "source": "RSS · Hugging Face Blog",
-      "date": "2026-09-21",
-      "publishedAt": "2026-09-21T21:44",
-      "collectedAt": "2026-09-22T01:08",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
       ],
       "sourceCount": 1
     }
@@ -6700,6 +6449,17 @@
     ],
     "ai-models": [
       {
+        "name": "Anthony Albanese's urgent warning to the world about AI as h",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "The prime minister has issued a call to world leaders to work together to confront the growing issues of unchecked artificial intelligence and climate change.",
+        "description": "The prime minister has issued a call to world leaders to work together to confront the growing issues of unchecked artificial intelligence and climate change.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:artificial intelligence",
+        "url": "https://www.dailymail.com/news/article-16159119/Anthony-Albaneses-ai-warning.html"
+      },
+      {
         "name": "Mesoblast wins FDA nod for new Ryoncil potency test",
         "provider": "NewsData.io",
         "type": "AI 项目/工具",
@@ -7127,17 +6887,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "RocketNews | Top News Stories From Around the Globe",
         "url": "https://rocketnews.com/2026/09/man-of-his-word-pope-leo-speeches-declared-human-authored-by-australian-ai-detection-tool-7/"
-      },
-      {
-        "name": "Pope Leo calls himself pontiff who 'happens to be American'",
-        "provider": "RocketNews | Top News Stories From Around the Globe",
-        "type": "AI 项目/工具",
-        "bestFor": "Pope Leo, who became the first pontiff from the United States, granted an interview to NBC at a papal retreat near Rome where he discussed his relationship with",
-        "description": "Pope Leo, who became the first pontiff from the United States, granted an interview to NBC at a papal retreat near Rome where he discussed his relationship with his home country an",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RocketNews | Top News Stories From Around the Globe",
-        "url": "https://rocketnews.com/2026/09/pope-leo-calls-himself-pontiff-who-happens-to-be-american-8/"
       }
     ],
     "ai-business": [
@@ -10423,7 +10172,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-25",
-    "generatedAt": "2026-09-25T08:16:22.565425Z",
+    "generatedAt": "2026-09-25T13:05:19.438867Z",
     "total": 32,
     "sections": [
       {
