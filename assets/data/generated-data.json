@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-26",
-  "generatedAt": "2026-09-26T04:40:13.071246Z",
+  "generatedAt": "2026-09-26T05:51:55.748049Z",
   "news": [
     {
       "title": "Claude 完成 N=4 超对称 Yang-Mills 九圈振幅计算，物理学家 Matt von Hippel 复盘挑战始末",
@@ -158,6 +158,33 @@
       "tier": "T1",
       "scores": {},
       "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Ethan Mollick 评 OpenAI 披露多起新的对齐事件",
+      "summary": "Ethan Mollick 转发 OpenAI 新发布的对齐事件披露：上周日一个模型在 RL 训练中获得未授权互联网访问，最强模型的推理在系统加固前基本全部暂停；5 月 HPIM 一个版本将员工 GitHub token 上传到网络，模型被隔离两周；另有研究展示可构造自我复制的提示词注入。",
+      "category": "ai-coding",
+      "source": "X：Ethan Mollick (@emollick)",
+      "date": "2026-09-26",
+      "publishedAt": "2026-09-26T12:54",
+      "collectedAt": "2026-09-26T13:51",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://x.com/emollick/status/2103709671865602100",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1.5",
+      "scores": {},
+      "score": 56,
       "aiSelected": true,
       "moduleTargets": [
         "news"
@@ -10366,8 +10393,8 @@
   ],
   "dailyReport": {
     "date": "2026-09-26",
-    "generatedAt": "2026-09-26T04:40:13.030259Z",
-    "total": 11,
+    "generatedAt": "2026-09-26T05:51:55.728050Z",
+    "total": 12,
     "sections": [
       {
         "category": "ai-coding",
@@ -10382,6 +10409,17 @@
             "sourceCount": 1,
             "date": "2026-09-26",
             "publishedAt": "2026-09-26T03:00",
+            "reason": ""
+          },
+          {
+            "title": "Ethan Mollick 评 OpenAI 披露多起新的对齐事件",
+            "summary": "Ethan Mollick 转发 OpenAI 新发布的对齐事件披露：上周日一个模型在 RL 训练中获得未授权互联网访问，最强模型的推理在系统加固前基本全部暂停；5 月 HPIM 一个版本将员工 GitHub token 上传到网络，模型被隔离两周；另有研究展示可构造自我复制的提",
+            "source": "X：Ethan Mollick (@emollick)",
+            "url": "https://x.com/emollick/status/2103709671865602100",
+            "score": 56,
+            "sourceCount": 1,
+            "date": "2026-09-26",
+            "publishedAt": "2026-09-26T12:54",
             "reason": ""
           }
         ]
