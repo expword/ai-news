@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-26",
-  "generatedAt": "2026-09-26T10:42:38.044122Z",
+  "generatedAt": "2026-09-26T14:23:58.736375Z",
   "news": [
     {
       "title": "Claude 完成 N=4 超对称 Yang-Mills 九圈振幅计算，物理学家 Matt von Hippel 复盘挑战始末",
@@ -2469,266 +2469,6 @@
       "aiSelected": true,
       "moduleTargets": [
         "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Semantic Abstraction for Natural Language Inference: a Methodological Framework for Discovering and Compensating Semantic Knowledge and Reasoning Gaps in Large Language Models",
-      "summary": "Despite their outstanding performance on many NLP tasks, LLMs face serious challenges related to semantic abstraction. In this study, we are interested in understanding how LLMs le",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-22",
-      "publishedAt": "",
-      "collectedAt": "2026-09-24T04:53",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-22",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.26610v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 2,
-      "relatedSources": [
-        {
-          "source": "RSS · arXiv cs.LG",
-          "url": "https://arxiv.org/abs/2609.25134",
-          "title": "The Probabilistic Structure of Large Language Models"
-        }
-      ]
-    },
-    {
-      "title": "Flash-dLLM: IO-Aware KV Caching and Parallel Decoding for Fast, Memory-Efficient Diffusion LLMs",
-      "summary": "Diffusion Large Language Models (dLLMs) have recently emerged as a promising alternative to autoregressive LLMs by enabling non-autoregressive text generation. However, their pract",
-      "category": "ai-coding",
-      "source": "arXiv",
-      "date": "2026-09-22",
-      "publishedAt": "",
-      "collectedAt": "2026-09-24T02:30",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-22",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.26796v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
-      "summary": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
-      "category": "ai-agents",
-      "source": "RSS · OpenAI Blog",
-      "date": "2026-09-22",
-      "publishedAt": "2026-09-22T20:00",
-      "collectedAt": "2026-09-23T06:23",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Priorities and principles for effective third party assessments",
-      "summary": "OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.",
-      "category": "ai-models",
-      "source": "RSS · OpenAI Blog",
-      "date": "2026-09-22",
-      "publishedAt": "2026-09-22T08:00",
-      "collectedAt": "2026-09-23T02:54",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://openai.com/index/priorities-principles-third-party-assessments",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "How Reactiv automates mobile commerce 80% faster with Amazon Bedrock AgentCore",
-      "summary": "Reactiv used Amazon Bedrock AgentCore to build a multi-agent AI Scheduler that autonomously refreshes Shopify merchants' mobile apps on a schedule, reducing merchant configuration ",
-      "category": "ai-agents",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-09-22",
-      "publishedAt": "2026-09-22T23:46",
-      "collectedAt": "2026-09-23T02:54",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-reactiv-automates-mobile-commerce-80-faster-with-amazon-bedrock-agentcore/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 2,
-      "relatedSources": [
-        {
-          "source": "RSS · AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/how-trane-gets-building-insights-60x-faster-with-amazon-bedrock-agentcore/",
-          "title": "How Trane gets building insights 60x faster with Amazon Bedrock AgentCore"
-        }
-      ]
-    },
-    {
-      "title": "Right-size generative AI endpoints with concurrency sweeps on Amazon SageMaker AI",
-      "summary": "Concurrency sweeps help you right-size a generative AI endpoint on Amazon SageMaker AI by systematically benchmarking it at increasing load levels. This post walks through deployin",
-      "category": "ai-benchmark",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-09-22",
-      "publishedAt": "2026-09-22T23:35",
-      "collectedAt": "2026-09-23T02:54",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/right-size-generative-ai-endpoints-with-concurrency-sweeps-on-amazon-sagemaker-ai/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
-      "summary": "",
-      "category": "ai-models",
-      "source": "RSS · Hugging Face Blog",
-      "date": "2026-09-22",
-      "publishedAt": "2026-09-22T08:00",
-      "collectedAt": "2026-09-22T18:17",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://huggingface.co/blog/omlx",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Amazon launches research initiative with Stanford University to advance AI and science",
-      "summary": "The collaboration aims to advance research while broadening participation and translating discovery into real-world solutions.",
-      "category": "ai-research",
-      "source": "RSS · Amazon Science",
-      "date": "2026-09-22",
-      "publishedAt": "2026-09-22T03:31",
-      "collectedAt": "2026-09-22T04:40",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://www.amazon.science/news/amazon-launches-research-initiative-with-stanford-university-to-advance-ai-and-science",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "xAI’s Grok 4.6 is now available in Amazon Bedrock",
-      "summary": "xAI's Grok 4.6 is now available in Amazon Bedrock: a frontier model for long-running agents, coding, and knowledge work, with a 500K token context window and four reasoning effort ",
-      "category": "ai-coding",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-09-22",
-      "publishedAt": "2026-09-22T02:30",
-      "collectedAt": "2026-09-22T03:28",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/xais-grok-4-6-is-now-available-in-amazon-bedrock/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
       ],
       "sourceCount": 1
     }
@@ -5815,6 +5555,28 @@
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Linux Kernel Weighs AGENTS.md File to Tame AI Coding Agents",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Linux kernel developers debate adding AGENTS.md to guide AI coding agents amid concerns over patch quality, attribution and project culture. The file, already u",
+        "description": "Linux kernel developers debate adding AGENTS.md to guide AI coding agents amid concerns over patch quality, attribution and project culture. The file, already used in firmware and ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:open source LLM",
+        "url": "https://www.webpronews.com/linux-kernel-weighs-agents-md-file-to-tame-ai-coding-agents/"
+      },
+      {
+        "name": "'The prophecy is fulfilled': Popular 2020 XKCD comic predict",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Fast forward to 2026, and researchers rode ImageMagick straight into OpenAI's internal GitHub.",
+        "description": "Fast forward to 2026, and researchers rode ImageMagick straight into OpenAI's internal GitHub.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Claude AI",
+        "url": "https://www.techradar.com/ai-platforms-assistants/openai/the-prophecy-is-fulfilled-popular-2020-xkcd-comic-predicted-heif-heist-openai-hack-and-even-mentions-imagemagick-in-spooky-coincidence"
+      },
+      {
         "name": "OpenAI 暂停最强模型的训练与工具使用，披露智能体利用 DNS 漏洞联网及泄露 GitHub token 等安全事件",
         "provider": "The Decoder：AI News（RSS）",
         "type": "AI 项目/工具",
@@ -6231,31 +5993,31 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Claude：Blog（网页）",
         "url": "https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic"
-      },
-      {
-        "name": "Abnormal AI: Amazon Bedrock AgentCore for agentic email secu",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Learn how Abnormal AI deployed Amazon Bedrock AgentCore Code Interpreter as an ephemeral compute scratch pad for the agents behind its real-time email threat de",
-        "description": "Learn how Abnormal AI deployed Amazon Bedrock AgentCore Code Interpreter as an ephemeral compute scratch pad for the agents behind its real-time email threat detection at billion-m",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/abnormal-ai-amazon-bedrock-agentcore-for-agentic-email-security-at-scale/"
-      },
-      {
-        "name": "iOS 27 Is Out Today - Before You Update, Here's Exactly Whic",
-        "provider": "QR Code Press",
-        "type": "AI 项目/工具",
-        "bestFor": "Today, Monday September 14, Apple pushed iOS 27 to every compatible iPhone simultaneously.\n\nFor most of the 1.4 billion active iPhones on the planet, this is th",
-        "description": "Today, Monday September 14, Apple pushed iOS 27 to every compatible iPhone simultaneously.\n\nFor most of the 1.4 billion active iPhones on the planet, this is the biggest Siri updat",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "QR Code Press",
-        "url": "https://www.qrcodepress.com/ios-27-is-out-which-iphone-new-siri/8545979/"
       }
     ],
     "ai-agents": [
+      {
+        "name": "JPMorgan makes a bold call on Meta after key launch",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Meta Platforms (META) just wrapped one of its biggest product weeks in years, and Wall Street’s reaction split in an interesting way. One bank is betting on an ",
+        "description": "Meta Platforms (META) just wrapped one of its biggest product weeks in years, and Wall Street’s reaction split in an interesting way. One bank is betting on an AI agent that could ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Claude AI",
+        "url": "https://etf-alerts.com/2026/09/26/jpmorgan-makes-a-bold-call-on-meta-after-key-launch/"
+      },
+      {
+        "name": "Subconscious raises $5.1 million to reduce the cost of runni",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Subconscious raised $5.1M for an inference platform that claims to cut token costs by up to 80%. One customer reported monthly AI spending dropping from $40,000",
+        "description": "Subconscious raised $5.1M for an inference platform that claims to cut token costs by up to 80%. One customer reported monthly AI spending dropping from $40,000 to $6,000 after swi",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Claude AI",
+        "url": "https://completeaitraining.com/news/subconscious-raises-51-million-to-reduce-the-cost-of/"
+      },
       {
         "name": "Arena：GPT-6 Sol （Max） 以 +7.7% 净改进重塑 Agent Arena Pareto 前沿",
         "provider": "X：Arena (@arena)",
@@ -6673,31 +6435,31 @@
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:AI agent",
         "url": "https://www.thelincolnianonline.com/2026/09/22/insider-selling-snowflake-nysesnow-director-sells-65887526-90-in-stock.html"
-      },
-      {
-        "name": "AI Hype in 2026: Real Progress Meets Persistent Limitations,",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "The summer of 2026 saw a surge of AI announcements blending real progress with heavy marketing exaggeration, as detailed by MIT Technology Review. Despite hype ",
-        "description": "The summer of 2026 saw a surge of AI announcements blending real progress with heavy marketing exaggeration, as detailed by MIT Technology Review. Despite hype around breakthroughs",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.webpronews.com/ai-hype-in-2026-real-progress-meets-persistent-limitations-says-mit-review/"
-      },
-      {
-        "name": "Christian Kleinerman Sells 2,622 Shares of Snowflake (NYSE:S",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Snowflake Inc. (NYSE:SNOW – Get Free Report) EVP Christian Kleinerman sold 2,622 shares of the company’s stock in a transaction dated Tuesday, September 22nd. T",
-        "description": "Snowflake Inc. (NYSE:SNOW – Get Free Report) EVP Christian Kleinerman sold 2,622 shares of the company’s stock in a transaction dated Tuesday, September 22nd. The shares were sold ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://zolmax.com/investing/christian-kleinerman-sells-2622-shares-of-snowflake-nysesnow-stock/12002207.html"
       }
     ],
     "ai-models": [
+      {
+        "name": "Bluebeam offers its paid AI tier to students and educators g",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Bluebeam is giving its $590/year AI tier, Bluebeam Max, to students and educators free worldwide. The move aims to train future AEC professionals on AI-assisted",
+        "description": "Bluebeam is giving its $590/year AI tier, Bluebeam Max, to students and educators free worldwide. The move aims to train future AEC professionals on AI-assisted review tools they w",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Claude AI",
+        "url": "https://completeaitraining.com/news/bluebeam-offers-its-paid-ai-tier-to-students-and-educators/"
+      },
+      {
+        "name": "US Joins Musk’s X Fight Against €120 Million EU Fine, Escala",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "The U.S. government has formally sought to join Elon Musk’s legal challenge against a €120 million ($137 million) European Union fine imposed on his social medi",
+        "description": "The U.S. government has formally sought to join Elon Musk’s legal challenge against a €120 million ($137 million) European Union fine imposed on his social media platform X, escala",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:artificial intelligence",
+        "url": "https://www.tekedia.com/us-joins-musks-x-fight-against-e120-million-eu-fine-escalating-transatlantic-tech-dispute/"
+      },
       {
         "name": "美国上诉法院维持五角大楼将 Anthropic 列为供应链风险的认定",
         "provider": "Hacker News：AI 热帖",
@@ -7115,28 +6877,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · AWS Machine Learning",
         "url": "https://aws.amazon.com/blogs/machine-learning/how-bmw-group-detects-cost-anomalies-across-14000-cloud-accounts/"
-      },
-      {
-        "name": "Cority Named a Leader in 2026 Verdantix Green Quadrant for E",
-        "provider": "Financial Post",
-        "type": "AI 项目/工具",
-        "bestFor": "EHS+ platform extends its Verdantix leadership, earning Leader status across three 2026 Green Quadrant reports spanning EHS, process safety and carbon managemen",
-        "description": "EHS+ platform extends its Verdantix leadership, earning Leader status across three 2026 Green Quadrant reports spanning EHS, process safety and carbon management\n\nTORONTO, Sept. 21",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Financial Post",
-        "url": "https://financialpost.com/globe-newswire/cority-named-a-leader-in-2026-verdantix-green-quadrant-for-ehs-software-for-seventh-consecutive-year"
-      },
-      {
-        "name": "Cority Named a Leader in 2026 Verdantix Green Quadrant for E",
-        "provider": "The Montreal Gazette",
-        "type": "AI 项目/工具",
-        "bestFor": "EHS+ platform extends its Verdantix leadership, earning Leader status across three 2026 Green Quadrant reports spanning EHS, process safety and carbon managemen",
-        "description": "EHS+ platform extends its Verdantix leadership, earning Leader status across three 2026 Green Quadrant reports spanning EHS, process safety and carbon management TORONTO, Sept. 21,",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Montreal Gazette",
-        "url": "https://montrealgazette.com/press-releases/globe-newswire/cority-named-a-leader-in-2026-verdantix-green-quadrant-for-ehs-software-for-seventh-consecutive-year/"
       }
     ],
     "ai-business": [
@@ -10422,7 +10162,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-26",
-    "generatedAt": "2026-09-26T10:42:38.021120Z",
+    "generatedAt": "2026-09-26T14:23:58.713342Z",
     "total": 12,
     "sections": [
       {
