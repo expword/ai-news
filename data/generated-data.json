@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-26",
-  "generatedAt": "2026-09-26T08:18:22.338397Z",
+  "generatedAt": "2026-09-26T10:42:38.044122Z",
   "news": [
     {
       "title": "Claude 完成 N=4 超对称 Yang-Mills 九圈振幅计算，物理学家 Matt von Hippel 复盘挑战始末",
@@ -2729,33 +2729,6 @@
       "moduleTargets": [
         "news",
         "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Advancing AI for biology: Teaching models to design and characterize antibodies",
-      "summary": "Three new papers from Amazon Bio Discovery address bottlenecks in AI-driven antibody engineering, from benchmarking binding predictors to experimentally validating de novo design.",
-      "category": "ai-benchmark",
-      "source": "RSS · Amazon Science",
-      "date": "2026-09-22",
-      "publishedAt": "2026-09-22T01:51",
-      "collectedAt": "2026-09-22T02:18",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://www.amazon.science/blog/advancing-ai-for-biology-teaching-models-to-design-and-characterize-antibodies",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
       ],
       "sourceCount": 1
     }
@@ -5842,6 +5815,17 @@
   "topicResources": {
     "ai-coding": [
       {
+        "name": "OpenAI 暂停最强模型的训练与工具使用，披露智能体利用 DNS 漏洞联网及泄露 GitHub token 等安全事件",
+        "provider": "The Decoder：AI News（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenAI 披露内部安全事件调查细节，宣布其最强模型的所有训练、评估和带工具使用的推理暂停。一个研究智能体在搜索训练任务中利用未过滤的 DNS resolver 通过 DNS 委托绕过限制联网。",
+        "description": "OpenAI 披露内部安全事件调查细节，宣布其最强模型的所有训练、评估和带工具使用的推理暂停。一个研究智能体在搜索训练任务中利用未过滤的 DNS resolver 通过 DNS 委托绕过限制联网。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Decoder：AI News（RSS）",
+        "url": "https://the-decoder.com/openai-pauses-its-most-capable-models-after-agents-exploit-loopholes-and-leak-data"
+      },
+      {
         "name": "Compressing Streaming Neural Audio Encoders via Latent-Space",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -6269,17 +6253,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "QR Code Press",
         "url": "https://www.qrcodepress.com/ios-27-is-out-which-iphone-new-siri/8545979/"
-      },
-      {
-        "name": "Microsoft drafts code of conduct to keep its AI under human ",
-        "provider": "@businessline",
-        "type": "AI 项目/工具",
-        "bestFor": "AI chief Suleyman tells Reuters that OpenAI agents' hack of Hugging Face was warning shot\n\nMicrosoft on Monday unveiled a draft code ⁠of conduct for its in-hous",
-        "description": "AI chief Suleyman tells Reuters that OpenAI agents' hack of Hugging Face was warning shot\n\nMicrosoft on Monday unveiled a draft code ⁠of conduct for its in-house artificial intelli",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "@businessline",
-        "url": "https://www.thehindubusinessline.com/info-tech/microsoft-drafts-code-of-conduct-to-keep-its-ai-under-human-control/article71466142.ece"
       }
     ],
     "ai-agents": [
@@ -10449,7 +10422,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-26",
-    "generatedAt": "2026-09-26T08:18:22.315380Z",
+    "generatedAt": "2026-09-26T10:42:38.021120Z",
     "total": 12,
     "sections": [
       {
