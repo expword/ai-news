@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-26",
-  "generatedAt": "2026-09-25T20:21:45.299058Z",
+  "generatedAt": "2026-09-26T04:40:13.071246Z",
   "news": [
     {
       "title": "Claude 完成 N=4 超对称 Yang-Mills 九圈振幅计算，物理学家 Matt von Hippel 复盘挑战始末",
@@ -5585,6 +5585,20 @@ window.AI_GENERATED_DATA = {
       "date": "2026-08-05"
     },
     {
+      "name": "ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code",
+      "lang": "Repo",
+      "description": "500 AI Machine learning Deep learning Computer vision NLP Projects with code",
+      "stars": "36988 stars",
+      "why": "近期更新且具备 AI / LLM / Agent 相关主题，适合做项目介绍、教程或同类对比。",
+      "url": "https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code",
+      "source": "GitHub Search · 2026-09-26",
+      "category": "Coding Agent",
+      "details": "500 AI Machine learning Deep learning Computer vision NLP Projects with code",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
       "name": "QwenLM/Qwen-Live-Harness",
       "lang": "TypeScript",
       "description": "An open-source agent harness powered by the Qwen Omni Realtime API—see, hear, and act, with built-in memory.",
@@ -5625,21 +5639,6 @@ window.AI_GENERATED_DATA = {
       "tier": "T1",
       "category": "Coding Agent",
       "details": "Qwen's most powerful open-source image generation model",
-      "features": [],
-      "useCases": [],
-      "quickStart": []
-    },
-    {
-      "name": "QwenLM/RecreationWorld",
-      "lang": "Python",
-      "description": "通义千问 Qwen 开源项目。",
-      "stars": "0 stars",
-      "why": "国产大模型厂商 通义千问 Qwen 的最新开源动态/模型发布，属一手信源。",
-      "url": "https://github.com/QwenLM/RecreationWorld",
-      "source": "GitHub · 通义千问 Qwen",
-      "tier": "T1",
-      "category": "Coding Agent",
-      "details": "通义千问 Qwen 开源项目。",
       "features": [],
       "useCases": [],
       "quickStart": []
@@ -10367,7 +10366,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-26",
-    "generatedAt": "2026-09-25T20:21:45.278055Z",
+    "generatedAt": "2026-09-26T04:40:13.030259Z",
     "total": 11,
     "sections": [
       {
