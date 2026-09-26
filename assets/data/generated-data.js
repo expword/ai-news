@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-27",
-  "generatedAt": "2026-09-26T16:57:47.815009Z",
+  "generatedAt": "2026-09-26T18:10:30.881514Z",
   "news": [
     {
       "title": "Claude 完成 N=4 超对称 Yang-Mills 九圈振幅计算，物理学家 Matt von Hippel 复盘挑战始末",
@@ -5381,6 +5381,36 @@ window.AI_GENERATED_DATA = {
       "date": "2026-08-05"
     },
     {
+      "name": "stepfun-ai/Step-Code",
+      "lang": "TypeScript",
+      "description": "阶跃星辰 StepFun 开源项目。",
+      "stars": "437 stars",
+      "why": "国产大模型厂商 阶跃星辰 StepFun 的最新开源动态/模型发布，属一手信源。",
+      "url": "https://github.com/stepfun-ai/Step-Code",
+      "source": "GitHub · 阶跃星辰 StepFun",
+      "tier": "T1",
+      "category": "Coding Agent",
+      "details": "阶跃星辰 StepFun 开源项目。",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
+      "name": "InternLM/Intern-Decision",
+      "lang": "Python",
+      "description": "Fast multi-modal decision model",
+      "stars": "19 stars",
+      "why": "国产大模型厂商 上海AI实验室 书生 的最新开源动态/模型发布，属一手信源。",
+      "url": "https://github.com/InternLM/Intern-Decision",
+      "source": "GitHub · 上海AI实验室 书生",
+      "tier": "T1",
+      "category": "Coding Agent",
+      "details": "Fast multi-modal decision model",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
       "name": "ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code",
       "lang": "Repo",
       "description": "500 AI Machine learning Deep learning Computer vision NLP Projects with code",
@@ -5405,36 +5435,6 @@ window.AI_GENERATED_DATA = {
       "tier": "T1",
       "category": "Coding Agent",
       "details": "An open-source agent harness powered by the Qwen Omni Realtime API—see, hear, and act, with built-in memory.",
-      "features": [],
-      "useCases": [],
-      "quickStart": []
-    },
-    {
-      "name": "zai-org/ZCode",
-      "lang": "TypeScript",
-      "description": "Z.ai's coding agent harness. Powerful, intelligent, extensible.",
-      "stars": "7 stars",
-      "why": "国产大模型厂商 智谱 Z.ai 的最新开源动态/模型发布，属一手信源。",
-      "url": "https://github.com/zai-org/ZCode",
-      "source": "GitHub · 智谱 Z.ai",
-      "tier": "T1",
-      "category": "Coding Agent",
-      "details": "Z.ai's coding agent harness. Powerful, intelligent, extensible.",
-      "features": [],
-      "useCases": [],
-      "quickStart": []
-    },
-    {
-      "name": "QwenLM/Qwen-Image-2.1",
-      "lang": "Python",
-      "description": "Qwen's most powerful open-source image generation model",
-      "stars": "242 stars",
-      "why": "国产大模型厂商 通义千问 Qwen 的最新开源动态/模型发布，属一手信源。",
-      "url": "https://github.com/QwenLM/Qwen-Image-2.1",
-      "source": "GitHub · 通义千问 Qwen",
-      "tier": "T1",
-      "category": "Coding Agent",
-      "details": "Qwen's most powerful open-source image generation model",
       "features": [],
       "useCases": [],
       "quickStart": []
@@ -10162,7 +10162,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-27",
-    "generatedAt": "2026-09-26T16:57:47.789007Z",
+    "generatedAt": "2026-09-26T18:10:30.859544Z",
     "total": 24,
     "sections": [
       {
