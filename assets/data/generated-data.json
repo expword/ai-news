@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-26",
-  "generatedAt": "2026-09-26T05:51:55.748049Z",
+  "generatedAt": "2026-09-26T08:18:22.338397Z",
   "news": [
     {
       "title": "Claude 完成 N=4 超对称 Yang-Mills 九圈振幅计算，物理学家 Matt von Hippel 复盘挑战始末",
@@ -331,6 +331,62 @@
       "aiSelected": true,
       "moduleTargets": [
         "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "A Practical Recipe for Semi-Supervised Federated ASR: Online Pseudo-Labels with Server Update Stabilization",
+      "summary": "Semi-supervised federated learning (SSFL) trains models on clients’ unlabeled data using a teacher to generate pseudo-labels, with a small labeled seed dataset on the server. Autom",
+      "category": "ai-models",
+      "source": "RSS · Apple ML Research",
+      "date": "2026-09-24",
+      "publishedAt": "2026-09-24T08:00",
+      "collectedAt": "2026-09-26T16:18",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://machinelearning.apple.com/research/practical-recipe-federated-asr",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Compressing Streaming Neural Audio Encoders via Latent-Space Distillation",
+      "summary": "System-wide Dictation on Apple devices runs entirely on-device, and the speech it transcribes reaches the foundation model through a tokenizer: an encoder that maps short windows o",
+      "category": "ai-coding",
+      "source": "RSS · Apple ML Research",
+      "date": "2026-09-24",
+      "publishedAt": "2026-09-24T08:00",
+      "collectedAt": "2026-09-26T16:18",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://machinelearning.apple.com/research/latent-space-distillation",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
       ],
       "sourceCount": 1
     },
@@ -5786,6 +5842,17 @@
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Compressing Streaming Neural Audio Encoders via Latent-Space",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "System-wide Dictation on Apple devices runs entirely on-device, and the speech it transcribes reaches the foundation model through a tokenizer: an encoder that ",
+        "description": "System-wide Dictation on Apple devices runs entirely on-device, and the speech it transcribes reaches the foundation model through a tokenizer: an encoder that maps short windows o",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Apple ML Research",
+        "url": "https://machinelearning.apple.com/research/latent-space-distillation"
+      },
+      {
         "name": "GitHub Copilot app 新手教程：如何用 canvases 构建自定义工作流",
         "provider": "GitHub Blog",
         "type": "AI 项目/工具",
@@ -6213,17 +6280,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "@businessline",
         "url": "https://www.thehindubusinessline.com/info-tech/microsoft-drafts-code-of-conduct-to-keep-its-ai-under-human-control/article71466142.ece"
-      },
-      {
-        "name": "Augment 复盘软件工厂建设：人均规模调整产出增长 4.5 倍",
-        "provider": "Augment Code 博客（网页）",
-        "type": "AI 项目/工具",
-        "bestFor": "Augment Code 发布长文，复盘其九个月建设的软件工厂：2025 年 11 月至 2026 年 7 月，基于 Cosmos 平台在需求、工单、PR、生产四个环节部署 PR Author。",
-        "description": "Augment Code 发布长文，复盘其九个月建设的软件工厂：2025 年 11 月至 2026 年 7 月，基于 Cosmos 平台在需求、工单、PR、生产四个环节部署 PR Author。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Augment Code 博客（网页）",
-        "url": "https://www.augmentcode.com/blog/beyond-ai-coding-agents-how-we-built-augments-software-factory"
       }
     ],
     "ai-agents": [
@@ -8547,6 +8603,17 @@
     ],
     "ai-research": [
       {
+        "name": "A Practical Recipe for Semi-Supervised Federated ASR: Online",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Semi-supervised federated learning (SSFL) trains models on clients’ unlabeled data using a teacher to generate pseudo-labels, with a small labeled seed dataset ",
+        "description": "Semi-supervised federated learning (SSFL) trains models on clients’ unlabeled data using a teacher to generate pseudo-labels, with a small labeled seed dataset on the server. Autom",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Apple ML Research",
+        "url": "https://machinelearning.apple.com/research/practical-recipe-federated-asr"
+      },
+      {
         "name": "PrivDrift: Auditing User-Secret Leakage Under Topic Drift in",
         "provider": "arXiv",
         "type": "AI 项目/工具",
@@ -8974,17 +9041,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · arXiv cs.CV",
         "url": "https://arxiv.org/abs/2609.04381"
-      },
-      {
-        "name": "Large Language Models for HVAC Operations in Building Energy",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Building automation systems generate rich sensor data yet remain insight-poor because heterogeneous point naming, missing metadata, and fragmented documentation",
-        "description": "Building automation systems generate rich sensor data yet remain insight-poor because heterogeneous point naming, missing metadata, and fragmented documentation obstruct their oper",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2609.05314v1"
       }
     ],
     "ai-office": []
@@ -10393,7 +10449,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-26",
-    "generatedAt": "2026-09-26T05:51:55.728050Z",
+    "generatedAt": "2026-09-26T08:18:22.315380Z",
     "total": 12,
     "sections": [
       {
