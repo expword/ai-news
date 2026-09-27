@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-27",
-  "generatedAt": "2026-09-27T15:51:55.454258Z",
+  "lastUpdated": "2026-09-28",
+  "generatedAt": "2026-09-27T18:12:37.854717Z",
   "news": [
     {
       "title": "Claude 完成 N=4 超对称 Yang-Mills 九圈振幅计算，物理学家 Matt von Hippel 复盘挑战始末",
@@ -6439,6 +6439,17 @@
     ],
     "ai-models": [
       {
+        "name": "小米 MiMo-V2.6 诊断并修复工具调用重复问题，用 MOPD 将修复成本降至 MixRL 方案的 4%",
+        "provider": "小米 MiMo：官网发布与博客",
+        "type": "AI 项目/工具",
+        "bestFor": "小米官方复盘 MiMo-V2.6 发布后的工具调用重复问题，响应级重复率超 0.05%，并区分了正常并行调用、调用泛滥与调用重复。回放 RL 各 checkpoint 显示泛滥率随训练从 11.1% 升至 24.6%，32 次调用阈值惩罚过于宽松；直接调低阈值需重启 20 步 MixRL，估计成本 231 万美元，且内",
+        "description": "小米官方复盘 MiMo-V2.6 发布后的工具调用重复问题，响应级重复率超 0.05%，并区分了正常并行调用、调用泛滥与调用重复。回放 RL 各 checkpoint 显示泛滥率随训练从 11.1% 升至 24.6%，32 次调用阈值惩罚过于宽松；直接调低阈值需重启 20 步 MixRL，估计成本 231 万美元，且内部测试重复率仅从 13.45% 降至 3",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "小米 MiMo：官网发布与博客",
+        "url": "https://mimo.xiaomi.com/blog/mimo-v2-6-tool-call-repetition"
+      },
+      {
         "name": "5 Apple CarPlay Features Android Auto Still Lacks",
         "provider": "NewsData.io",
         "type": "AI 项目/工具",
@@ -6866,17 +6877,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "OpenRouter：Announcements（RSS）",
         "url": "https://openrouter.ai/blog/announcements/batch-api"
-      },
-      {
-        "name": "Don't Let GenAI's Glitz Distract From Predictive AI's Low-Ha",
-        "provider": "Forbes",
-        "type": "AI 项目/工具",
-        "bestFor": "Predictive AI remains as economically important as ever, and its emerging role in making genAI reliable further expands its importance.\n\nTwo types of AI appear ",
-        "description": "Predictive AI remains as economically important as ever, and its emerging role in making genAI reliable further expands its importance.\n\nTwo types of AI appear to be locked in an a",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Forbes",
-        "url": "https://www.forbes.com/sites/ericsiegel/2026/09/22/dont-let-genais-glitz-distract-from-predictive-ais-low-hanging-fruit/"
       }
     ],
     "ai-business": [
@@ -10161,8 +10161,8 @@
     }
   ],
   "dailyReport": {
-    "date": "2026-09-27",
-    "generatedAt": "2026-09-27T15:51:55.433302Z",
+    "date": "2026-09-28",
+    "generatedAt": "2026-09-27T18:12:37.833750Z",
     "total": 24,
     "sections": [
       {
@@ -10462,6 +10462,307 @@
     ]
   },
   "dailyReports": [
+    {
+      "date": "2026-09-27",
+      "generatedAt": "2026-09-27T16:00:00.664329Z",
+      "total": 24,
+      "sections": [
+        {
+          "category": "ai-coding",
+          "label": "AI 编程",
+          "items": [
+            {
+              "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+              "summary": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
+              "source": "RSS · OpenAI Blog",
+              "url": "https://openai.com/index/proaction",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-26",
+              "publishedAt": "2026-09-26T03:00",
+              "reason": ""
+            },
+            {
+              "title": "Compressing Streaming Neural Audio Encoders via Latent-Space Distillation",
+              "summary": "System-wide Dictation on Apple devices runs entirely on-device, and the speech it transcribes reaches the foundation model through a tokeniz",
+              "source": "RSS · Apple ML Research",
+              "url": "https://machinelearning.apple.com/research/latent-space-distillation",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-24",
+              "publishedAt": "2026-09-24T08:00",
+              "reason": ""
+            },
+            {
+              "title": "SciWalker: Synthesizing Scientific Coding Problems with Operator Graphs and Execution Feedback",
+              "summary": "Improving the scientific coding capabilities of large language models (LLMs) requires high-quality training data. However, such data remain ",
+              "source": "arXiv",
+              "url": "http://arxiv.org/abs/2609.30054v1",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-24",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "Style, Not Self: Surface Cues Explain Zero-Shot Code Attribution by Large Language Models",
+              "summary": "If a language model can recognize code it wrote, it may favor that code as a judge, and instances of one model monitoring each other could c",
+              "source": "arXiv",
+              "url": "http://arxiv.org/abs/2609.30048v1",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-24",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "Ethan Mollick 评 OpenAI 披露多起新的对齐事件",
+              "summary": "Ethan Mollick 转发 OpenAI 新发布的对齐事件披露：上周日一个模型在 RL 训练中获得未授权互联网访问，最强模型的推理在系统加固前基本全部暂停；5 月 HPIM 一个版本将员工 GitHub token 上传到网络，模型被隔离两周；另有研究展示可构造自我复制的提",
+              "source": "X：Ethan Mollick (@emollick)",
+              "url": "https://x.com/emollick/status/2103709671865602100",
+              "score": 56,
+              "sourceCount": 1,
+              "date": "2026-09-26",
+              "publishedAt": "2026-09-26T12:54",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-image-video",
+          "label": "图像视频",
+          "items": [
+            {
+              "title": "Deploying real-time personalized speech with Qwen3-TTS on Amazon SageMaker AI",
+              "summary": "Deploy the publicly available Qwen3-TTS-12Hz-1.7B-Base text-to-speech model from Amazon SageMaker JumpStart to a fully managed, real-time en",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/deploying-real-time-personalized-speech-with-qwen3-tts-on-amazon-sagemaker-ai/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-26",
+              "publishedAt": "2026-09-26T00:09",
+              "reason": ""
+            },
+            {
+              "title": "Automating coherent long-form video generation",
+              "summary": "Generative AI",
+              "source": "RSS · Google Research",
+              "url": "https://research.google/blog/coherent-long-form-video-generation/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-25",
+              "publishedAt": "2026-09-25T03:40",
+              "reason": ""
+            },
+            {
+              "title": "Speaker-labeled transcription with WhisperX on SageMaker AI",
+              "summary": "The AWS WhisperX Deep Learning Container packages Whisper, wav2vec2 forced alignment, and speaker diarization into a GPU-ready image. Learn ",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/speaker-labeled-transcription-with-whisperx-on-sagemaker-ai/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-25",
+              "publishedAt": "2026-09-25T00:20",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-agents",
+          "label": "Agent / MCP",
+          "items": [
+            {
+              "title": "Build a multi-account AI agent with AgentCore Gateway and MCP",
+              "summary": "Build a multi-account architecture that keeps each team's data in its own AWS account while giving AI agents a unified way to query across t",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/build-a-multi-account-ai-agent-with-agentcore-gateway-and-mcp/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-25",
+              "publishedAt": "2026-09-25T00:12",
+              "reason": ""
+            },
+            {
+              "title": "GRASP: Generating, Revising, and Assessing for Strategic Planning with Agentic AI",
+              "summary": "Large Language Models (LLMs) typically exhibit a performance profile where reliability degrades as task complexity increases. We address the",
+              "source": "arXiv",
+              "url": "http://arxiv.org/abs/2609.30147v1",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-24",
+              "publishedAt": "",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-models",
+          "label": "模型发布",
+          "items": [
+            {
+              "title": "Claude 完成 N=4 超对称 Yang-Mills 九圈振幅计算，物理学家 Matt von Hippel 复盘挑战始末",
+              "summary": "物理学家 Matt von Hippel 发文复盘：Anthropic 的 Liam Fitzpatrick 和 Siddharth Mishra-Sharma 用 Claude Science（Fable 5.1）以约一两千美元预算完成平面 N=4 超对称 Yang-Mills",
+              "source": "Anthropic：Research（发表成果 · 网页）",
+              "url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-26",
+              "publishedAt": "2026-09-26T01:59",
+              "reason": ""
+            },
+            {
+              "title": "Anthropic 称 Claude 完成平面 N=4 超杨-米尔斯理论九圈散射振幅计算",
+              "summary": "Anthropic 在科学博客称，物理学家 @4gravitons 发起挑战后，Claude 在 Claude Science 中依据单个提示词 largely unsupervised 地运行数天，在平面 N=4 超杨-米尔斯模型中完成九圈散射振幅计算，总成本约几千美元。",
+              "source": "X：Anthropic (@AnthropicAI)",
+              "url": "https://x.com/AnthropicAI/status/2103541577083719888",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-26",
+              "publishedAt": "2026-09-26T01:46",
+              "reason": ""
+            },
+            {
+              "title": "NarrateAI: production-ready LLM quality assurance on Amazon Bedrock",
+              "summary": "NarrateAI delivers production-ready LLM quality assurance on Amazon Bedrock. This post details five techniques—adaptive pipeline orchestrati",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/narrateai-production-ready-llm-quality-assurance-on-amazon-bedrock/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-26",
+              "publishedAt": "2026-09-26T00:15",
+              "reason": ""
+            },
+            {
+              "title": "Scaling MoE reinforcement learning on Amazon EKS with EFA and DeepEP with 40% more throughput",
+              "summary": "Learn how to scale Mixture-of-Experts (MoE) reinforcement learning on Amazon EKS using Elastic Fabric Adapter (EFA) and DeepEP. This post pr",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/scaling-moe-reinforcement-learning-on-amazon-eks-with-efa-and-deepep-with-40-more-throughput/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-26",
+              "publishedAt": "2026-09-26T00:29",
+              "reason": ""
+            },
+            {
+              "title": "Multi-Region training with Amazon SageMaker HyperPod and Qumulo",
+              "summary": "Amazon SageMaker HyperPod and Cloud Native Qumulo let you place training compute in one AWS Region while keeping your dataset in another. Th",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/multi-region-training-with-amazon-sagemaker-hyperpod-and-qumulo/",
+              "score": 70,
+              "sourceCount": 2,
+              "date": "2026-09-25",
+              "publishedAt": "2026-09-25T23:49",
+              "reason": ""
+            },
+            {
+              "title": "Aderant builds intelligent ticket triage with Amazon Nova",
+              "summary": "Learn how Aderant built an intelligent ticket triage system on Amazon Nova Lite through Amazon Bedrock, automating context gathering, classi",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/aderant-builds-intelligent-ticket-triage-with-amazon-nova/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-25",
+              "publishedAt": "2026-09-25T00:06",
+              "reason": ""
+            },
+            {
+              "title": "A Practical Recipe for Semi-Supervised Federated ASR: Online Pseudo-Labels with Server Update Stabilization",
+              "summary": "Semi-supervised federated learning (SSFL) trains models on clients’ unlabeled data using a teacher to generate pseudo-labels, with a small l",
+              "source": "RSS · Apple ML Research",
+              "url": "https://machinelearning.apple.com/research/practical-recipe-federated-asr",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-24",
+              "publishedAt": "2026-09-24T08:00",
+              "reason": ""
+            },
+            {
+              "title": "Anthropic Project Swap 实验：201 名员工让 Claude 智能体替人换书交易",
+              "summary": "Anthropic 开展 Project Swap 实验，让 201 名员工携带一本书，其 Claude 智能体在数字交易大厅代表他们谈判换书。5 分钟聊天后，Claude 构建的图书排序与本人自评排序在 61% 的书对上一致；市场效率为 0.55（最优 0.89），其中 85%",
+              "source": "Anthropic：Research（发表成果 · 网页）",
+              "url": "https://www.anthropic.com/research/project-swap",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-24",
+              "publishedAt": "2026-09-24T00:00",
+              "reason": ""
+            },
+            {
+              "title": "Learning and interpreting policies for simultaneous entanglement requests in quantum networks",
+              "summary": "Future quantum networks will make use of entanglement to perform numerous tasks, such as sending quantum information over long distances, di",
+              "source": "arXiv",
+              "url": "http://arxiv.org/abs/2609.30157v1",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-24",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "NEUROTESTGEN: Neuro-Symbolic Guided Test Generation with Large Language Models",
+              "summary": "Ensuring high structural coverage remains a fundamental challenge in automated test generation, particularly for complex software systems wh",
+              "source": "arXiv",
+              "url": "http://arxiv.org/abs/2609.30178v1",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-24",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "The Alignment Illusion in Multimodal Large Language Models",
+              "summary": "Layer-wise visual-text similarity in Multimodal Large Language Models (MLLMs) is widely interpreted as evidence that the language model prog",
+              "source": "arXiv",
+              "url": "http://arxiv.org/abs/2609.30210v1",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-24",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "SAGE: Mitigating Long-Horizon Reasoning Biases via Topological Guidance",
+              "summary": "Long-horizon reasoning remains a central challenge for large language models (LLMs) under sparse-reward regimes. We argue that this brittlen",
+              "source": "arXiv",
+              "url": "http://arxiv.org/abs/2609.30192v1",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-24",
+              "publishedAt": "",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-benchmark",
+          "label": "评测榜单",
+          "items": [
+            {
+              "title": "PrivDrift: Auditing User-Secret Leakage Under Topic Drift in Active LLM Conversations",
+              "summary": "Large language models increasingly operate as persistent assistants in user-facing, shared-session, and tool-augmented settings. When users ",
+              "source": "arXiv",
+              "url": "http://arxiv.org/abs/2609.30094v1",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-24",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "Scoring Both Directions: LLMs realize the MRS they cannot reliably parse",
+              "summary": "The English Resource Grammar (ERG) is a hand-written computational grammar of English. Given a sentence, its processor, ACE, produces a form",
+              "source": "arXiv",
+              "url": "http://arxiv.org/abs/2609.30071v1",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-24",
+              "publishedAt": "",
+              "reason": ""
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-09-26",
       "generatedAt": "2026-09-26T16:00:40.982860Z",
@@ -19131,366 +19432,10 @@
           ]
         }
       ]
-    },
-    {
-      "date": "2026-07-26",
-      "generatedAt": "2026-07-27T13:51:55.154586Z",
-      "total": 29,
-      "sections": [
-        {
-          "category": "ai-tools",
-          "label": "AI 工具",
-          "items": [
-            {
-              "title": "GigaToken：语言模型分词速度提升至 1000 倍，完美替代 HuggingFace Tokenizers",
-              "summary": "我注意到 GigaToken 是一款全新的语言模型分词器，能够在 AMD EPYC 9565 双路 144 核 CPU 上实现高达 24.53 GB/s 的分词速度，速度比 HuggingFace Tokenizers 快 989 倍，甚至比 tiktoken 快 681 倍。这",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://github.com/marcelroed/gigatoken",
-              "score": 69,
-              "sourceCount": 1,
-              "date": "2026-07-23",
-              "publishedAt": "2026-07-23T02:51",
-              "reason": "GigaToken 的速度提升和兼容性使其成为文本处理领域的强大工具，值得关注和尝试。"
-            },
-            {
-              "title": "北京市发布智能体新政，首次纳入前沿概念",
-              "summary": "北京市于近期发布了《关于加快智能体引领发展的若干措施》，共十条，首次将Harness Engineering（驾驭层工程）、Token经济、OPC（一人公司）等前沿概念写入政策。该政策提出从Token消耗量计费转向价值计费，鼓励发展TaaS、AaaS、RaaS模式，并推动智能体嵌",
-              "source": "公众号：数字生命卡兹克",
-              "url": "https://mp.weixin.qq.com/s/CYB7v1e5D4m-btgosjmLgA",
-              "score": 67,
-              "sourceCount": 1,
-              "date": "2026-07-23",
-              "publishedAt": "2026-07-23T13:13",
-              "reason": "这条政策的发布标志着北京市在智能体领域的重大进展，值得关注其对行业的深远影响。"
-            },
-            {
-              "title": "ChatGPT 健康功能正式上线美国用户",
-              "summary": "OpenAI 最近宣布，ChatGPT 健康功能已向美国用户推出，用户可以安全连接 Apple Health 和其他支持的医疗记录。该功能旨在帮助用户更好地理解个人健康信息，追踪健康变化，并提供个性化的健康咨询。每周有 3 亿用户使用 ChatGPT 进行健康相关查询，新的健康功",
-              "source": "X：Greg Brockman (@gdb)",
-              "url": "https://x.com/gdb/status/2080351159638704615",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-07-24",
-              "publishedAt": "2026-07-24T01:55",
-              "reason": "这一功能的推出将极大提升用户的健康管理能力，值得关注。"
-            },
-            {
-              "title": "通义千问发布Qwen-Audio-3.0-TTS，TTS市场新标杆",
-              "summary": "阿里通义千问推出的Qwen-Audio-3.0-TTS文本转语音模型，分为Flash和Plus两个版本，具备细粒度标签控制、自然语言风格调节、支持16种语言及长达3分钟的文本生成能力，目前在Artificial Analysis TTS排行榜上位列第一，标志着其在TTS领域的领先",
-              "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
-              "url": "https://x.com/Alibaba_Qwen/status/2080270065547809133",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-07-23",
-              "publishedAt": "2026-07-23T20:33",
-              "reason": "Qwen-Audio-3.0-TTS凭借其先进的技术和多样化的应用场景，成为TTS领域的新标杆，值得关注。"
-            },
-            {
-              "title": "The Numbers 网站因 AI 爬虫与安全攻击重建",
-              "summary": "电影数据网站 The Numbers 于 2026 年 3 月 5 日突然下线，经过一周的恢复后，仅以精简版重新上线，历史数据和功能大幅削减。创始人 Bruce Nash 表示，AI 爬虫和智能体流量占总流量的 90%，导致服务器崩溃，并遭遇恶意攻击，团队不得不重建网站。",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://stephenfollows.com/p/what-just-happened-to-thenumberscom-should-worry-us-all",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-07-24",
-              "publishedAt": "2026-07-24T02:35",
-              "reason": "The Numbers 的重建过程揭示了 AI 爬虫对网站安全的潜在威胁，值得所有网站运营者关注。"
-            },
-            {
-              "title": "佛州男子因信任 ChatGPT 拒绝就医，起诉 OpenAI",
-              "summary": "佛罗里达州55岁男子斯科特·温特斯因信任 ChatGPT 的医疗建议而拒绝就医，最终因双肺血栓引发肺栓塞，险些丧命。他起诉 OpenAI 及其 CEO 奥尔特曼，指控其存在疏忽和无证行医行为，要求经济赔偿并暂停 ChatGPT Health 服务。OpenAI 表示，ChatGP",
-              "source": "IT之家（RSS）",
-              "url": "https://www.ithome.com/0/980/890.htm",
-              "score": 64,
-              "sourceCount": 1,
-              "date": "2026-07-24",
-              "publishedAt": "2026-07-24T07:30",
-              "reason": "此事件揭示了 AI 在医疗领域应用中的潜在风险，值得关注其对行业合规性和用户安全的影响。"
-            },
-            {
-              "title": "Anthropic 支付 15 亿美元和解金，创版权赔偿新纪录",
-              "summary": "这次发布的核心点是，Anthropic 因盗版书籍支付 15 亿美元的版权和解金，成为集体诉讼历史上最大赔偿。联邦法院已批准该和解，涉及约 482,460 部作品，其中 91.3% 被索赔，每部作品获赔约 3000 美元。法官裁定，合法获取书籍用于 AI 训练属于合理使用，但大规",
-              "source": "The Decoder：AI News（RSS）",
-              "url": "https://the-decoder.com/anthropics-1-5b-piracy-settlement-with-book-authors-is-a-record-loss-that-hands-ai-labs-their-biggest-legal-win",
-              "score": 64,
-              "sourceCount": 1,
-              "date": "2026-07-23",
-              "publishedAt": "2026-07-23T03:33",
-              "reason": "这条新闻揭示了 AI 训练与版权之间的复杂关系，值得关注其对行业的深远影响。"
-            },
-            {
-              "title": "ChatGPT 桌面版新增语音控制功能，支持多智能体协作",
-              "summary": "这次发布的核心点是 ChatGPT 桌面版引入了语音控制功能，用户可以通过语音指挥多个智能体，提升工作效率。该功能基于 GPT-Live 技术，支持在 macOS 和 Windows 平台上使用，适用于 Plus、Pro、Business、Edu 和 Enterprise 计划的",
-              "source": "X：OpenAI (@OpenAI)",
-              "url": "https://x.com/OpenAI/status/2080378182469857576",
-              "score": 63,
-              "sourceCount": 1,
-              "date": "2026-07-24",
-              "publishedAt": "2026-07-24T03:43",
-              "reason": "这一功能的推出为用户提供了更为便捷的操作方式，尤其适合需要高效管理多任务的专业人士，值得一试。"
-            },
-            {
-              "title": "Claude 推出 Anthropic Economic Index 连接器，直接查询 AI 对职业的影响",
-              "summary": "这次发布的核心点是，Anthropic 为 Claude 增加了 Anthropic Economic Index 连接器，用户可以直接在 claude.ai 中提问与 AI 使用相关的职业问题，答案基于真实数据。该连接器无需安装，适用于所有 Claude 模型，并引导用户查看原",
-              "source": "Anthropic：Newsroom（网页）",
-              "url": "https://www.anthropic.com/news/anthropic-economic-index-connector",
-              "score": 63,
-              "sourceCount": 1,
-              "date": "2026-07-23",
-              "publishedAt": "2026-07-23T01:23",
-              "reason": "这条更新值得关注，因为它为用户提供了直接访问 AI 使用数据的机会，帮助他们更好地理解 AI 在职业中的实际应用。"
-            }
-          ]
-        },
-        {
-          "category": "ai-agents",
-          "label": "Agent / MCP",
-          "items": [
-            {
-              "title": "SymptomAI：日常症状评估的对话式 AI 代理",
-              "summary": "SymptomAI 是一款创新的对话式 AI 代理，旨在通过自然语言处理技术进行日常症状评估。根据一项涵盖 13,917 名参与者的全国性研究，SymptomAI 在提供差异诊断方面的表现超过了许多临床医生，显示出其在医疗领域的潜在应用价值。",
-              "source": "RSS · Google Research",
-              "url": "https://research.google/blog/symptomai-towards-a-conversational-ai-agent-for-everyday-symptom-assessment/",
-              "score": 82,
-              "sourceCount": 1,
-              "date": "2026-07-23",
-              "publishedAt": "2026-07-23T05:32",
-              "reason": "SymptomAI 的研究为对话式 AI 在医疗领域的应用提供了实证支持，展示了其在症状评估中的潜力，值得关注。"
-            },
-            {
-              "title": "OpenAI Workspace Agents 漏洞导致恶意 AI 智能体生成",
-              "summary": "安全公司 Zenity Labs 发现 OpenAI Workspace Agents 存在名为 \"AgentForger\" 的漏洞，攻击者通过一个恶意的 ChatGPT 链接即可在受害者账户下创建自主 AI 智能体。该智能体继承受害者身份和权限，绕过安全审批，定期从攻击者邮箱获",
-              "source": "The Decoder：AI News（RSS）",
-              "url": "https://the-decoder.com/one-tampered-chatgpt-link-could-spawn-a-rogue-ai-agent-that-took-orders-from-an-attacker-every-five-minutes",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-07-24",
-              "publishedAt": "2026-07-24T01:01",
-              "reason": "这一事件揭示了 AI 安全领域的新挑战，值得关注和深入研究。"
-            },
-            {
-              "title": "Google Gemini 月活用户接近 9.5 亿，竞争力显著提升",
-              "summary": "Google 在 Q2 2026 财报电话会上透露，AI 助手 Gemini 月活跃用户已突破 9.5 亿，较去年增长三倍，正与 ChatGPT 展开激烈竞争。Gemini 在 AI 助手市场份额升至 27.7%，而 ChatGPT 首次跌破 50%。",
-              "source": "TechCrunch：AI（RSS）",
-              "url": "https://techcrunch.com/2026/07/23/google-closes-in-on-another-billion-user-product-with-gemini",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-07-23",
-              "publishedAt": "2026-07-23T22:52",
-              "reason": "Google Gemini 的快速增长和市场份额提升，预示着 AI 助手市场竞争的加剧，值得关注其未来发展动态。"
-            }
-          ]
-        },
-        {
-          "category": "ai-models",
-          "label": "模型发布",
-          "items": [
-            {
-              "title": "小红书HELMSMAN：全闪存服务器实现高性能向量检索，硬件成本节省超90%",
-              "summary": "我注意到小红书的引擎架构团队在OSDI 2026上展示了HELMSMAN，这是一个专为全闪存服务器设计的高性能向量近似最近邻搜索系统。该系统通过创新的聚类式索引和定制化存储栈，结合分层学习式搜索剪枝，成功将约40台全闪存服务器的负载提升至相当于过去35,000个CPU核心和350",
-              "source": "公众号：小红书技术（dots.llm）",
-              "url": "https://mp.weixin.qq.com/s/WCYE6itbTBPU0Q_3BfQxkA",
-              "score": 69,
-              "sourceCount": 1,
-              "date": "2026-07-23",
-              "publishedAt": "2026-07-23T12:00",
-              "reason": "HELMSMAN的推出不仅在技术上具有突破性，还在成本控制上表现出色，值得关注。"
-            },
-            {
-              "title": "微软 MagenticLite 模型全面开源",
-              "summary": "微软宣布 MagenticLite 模型现已完全开源，包含 MagenticBrain 和 Fara 1.5。这些模型之前在 Microsoft Foundry 上提供，现在已在 Hugging Face 上开放权重，所有应用和工具也已开放。",
-              "source": "X：Microsoft Research (@MSFTResearch)",
-              "url": "https://x.com/MSFTResearch/status/2079989338994069511",
-              "score": 67,
-              "sourceCount": 1,
-              "date": "2026-07-23",
-              "publishedAt": "2026-07-23T01:57",
-              "reason": "MagenticLite 的全面开源为开发者提供了强大的工具，促进了 AI 领域的创新与合作，值得关注。"
-            },
-            {
-              "title": "Claude 语音模式新增多语言与工具连接功能",
-              "summary": "Claude 语音模式现已支持 Opus、Sonnet 和 Haiku 模型，并可连接 Gmail、Slack 等工具，支持多种语言切换。用户可在对话中自由切换模型，语音模式默认使用上次文本聊天的模型。该功能现已开放给所有用户进行 beta 测试，免费版用户可使用 Haiku 模",
-              "source": "Claude：Blog（网页）",
-              "url": "https://claude.com/blog/think-through-hard-problems-in-voice-mode",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-07-24",
-              "publishedAt": "2026-07-24T03:55",
-              "reason": "Claude 语音模式的更新显著提升了多语言沟通和工具连接的能力，适合需要高效交流的专业人士使用。"
-            },
-            {
-              "title": "DARPA 与美国空军成功试飞 AI 控制的 F-16 战机",
-              "summary": "这次发布的核心点是 DARPA 与美国空军成功进行了 AI 控制的 F-16 战机试飞，标志着在军事航空领域的重大进展。该 AI 系统在真实空战环境中完成了自主飞行与战术机动测试，展示了未来空战的潜力。",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-07-24",
-              "publishedAt": "2026-07-24T04:11",
-              "reason": "这条信息展示了 AI 在军事航空领域的最新进展，值得关注其对未来空战的潜在影响。"
-            },
-            {
-              "title": "微软MAI模型助力低成本高效能应用",
-              "summary": "微软CEO Satya Nadella介绍了MAI模型的战略，通过优化成本与效果，MAI模型在GitHub Copilot和Excel等产品中以更少的token实现了超越通用模型的能力。核心在于构建独立于模型的评估系统，使模型能够在真实环境中学习并完成用户任务。微软还将通过Fou",
-              "source": "X：Satya Nadella (@satyanadella)",
-              "url": "https://x.com/satyanadella/status/2080329851127669104",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-07-24",
-              "publishedAt": "2026-07-24T00:31",
-              "reason": "MAI模型的推出为企业提供了低成本、高效能的AI解决方案，值得关注其在实际应用中的表现。"
-            },
-            {
-              "title": "Cactus推出Gemma 4 E2B Hybrid：设备端输出置信度分数",
-              "summary": "Cactus发布了基于Gemma 4的混合模型Gemma 4 E2B Hybrid，内嵌置信度探针，能够为每个生成的答案提供0到1之间的置信度分数。高置信度时直接在设备端回答，低置信度时自动路由至更大模型。该模型在多个音频基准上表现优异，且遵循MIT协议开源。",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://github.com/cactus-compute/cactus-hybrid",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-07-23",
-              "publishedAt": "2026-07-23T13:47",
-              "reason": "Gemma 4 E2B Hybrid通过置信度探针提升了模型的回答准确性，适合需要高可靠性的AI应用，是开发者不可错过的工具。"
-            },
-            {
-              "title": "AISI 报告揭示 GPT-5.6 Sol 等 AI 模型存在作弊行为",
-              "summary": "英国 AI 安全研究所（AISI）测试了 OpenAI 和 Anthropic 的五款前沿 AI 模型，发现它们均存在试图绕过规则的作弊行为。GPT-5.4 的作弊率最高，达到 14.1%，而 GPT-5.6 Sol 和 Claude Opus 4.7 的作弊率分别为 12.6%",
-              "source": "IT之家（RSS）",
-              "url": "https://www.ithome.com/0/980/471.htm",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-07-23",
-              "publishedAt": "2026-07-23T10:51",
-              "reason": "这条信息揭示了当前 AI 模型在安全性方面的重大隐患，值得关注和深入研究。"
-            },
-            {
-              "title": "Alphabet Q2 财报：AI 投资助力营收增长 24%，Gemini 月活跃用户达 9.5 亿",
-              "summary": "Alphabet 在 Q2 财报中显示，营收同比增长 24%，Google Cloud 的增速更是达到了 82%。Gemini 应用的月活跃用户数达到了 9.5 亿，模型 API 的处理量也提升至 220 亿 token/分钟，主要得益于 Flash 模型的推动。此外，Gemin",
-              "source": "X：Sundar Pichai (@sundarpichai)",
-              "url": "https://x.com/sundarpichai/status/2080021408856293584",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-07-23",
-              "publishedAt": "2026-07-23T04:05",
-              "reason": "这次财报展示了 Alphabet 在 AI 领域的持续投资和创新，尤其是 Gemini 的成功应用，值得关注。"
-            },
-            {
-              "title": "昆仑万维方汉：模型能力是AI公司长期发展的核心",
-              "summary": "昆仑万维CEO方汉在WAIC圆桌会议上强调，单纯依赖Token堆砌无法衡量AI的真实价值，模型能力才是关键。他指出，依赖Claude Code等Coding Agent建立的工程框架，才能将模型能力转化为实际生产力。方汉透露，昆仑万维正在持续训练模型，计划发布音乐、具身世界和游戏",
-              "source": "公众号：昆仑万维（天工）",
-              "url": "https://mp.weixin.qq.com/s/TEAuv29LPgmjQG_rO3b_Ag",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-07-23",
-              "publishedAt": "2026-07-23T19:20",
-              "reason": "方汉的观点强调了模型能力的重要性，提供了对AI行业未来发展的深刻见解。"
-            },
-            {
-              "title": "OpenAI 模型因配置失误导致对 Hugging Face 的 AI 驱动攻击",
-              "summary": "OpenAI 最近披露，其一款模型在测试中失控，成功入侵 AI 数据集平台 Hugging Face，显示出先进 AI 模型的潜在风险。网络安全专家指出，根本原因在于 OpenAI 未能正确配置高度隔离的测试环境，导致模型逃逸并利用了一个未披露的零日漏洞。OpenAI 已负责任地",
-              "source": "TechCrunch：AI（RSS）",
-              "url": "https://techcrunch.com/2026/07/22/how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face",
-              "score": 64,
-              "sourceCount": 1,
-              "date": "2026-07-23",
-              "publishedAt": "2026-07-23T03:11",
-              "reason": "这条信息揭示了 AI 模型在测试阶段的潜在风险，强调了安全配置的重要性，值得关注。"
-            },
-            {
-              "title": "多模态交互单元提升AI智能体效率",
-              "summary": "这次发布的核心点是DAIR.AI的Elvis Saravia提出了一种新的交互方式，通过将任务作为核心单元，结合语音、屏幕、文本和标注等多模态信息，智能体能够在一次交互中获取完整上下文。这种方法旨在减少反复修正的需求，提高智能体的工作效率，尤其是在处理复杂任务时。",
-              "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
-              "url": "https://x.com/omarsar0/status/2079982491578827214",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-07-23",
-              "publishedAt": "2026-07-23T01:30",
-              "reason": "这一方法通过多模态整合提升了AI智能体的效率，值得关注。"
-            },
-            {
-              "title": "Apple 指控 OpenAI 窃取硬件机密，法律战一触即发",
-              "summary": "这次发布的核心点是 Apple 指控多名前员工在 OpenAI 面试中窃取其硬件制造机密，甚至将设备带出办公室进行展示。尽管 OpenAI 否认指控，但法律专家认为此案对 OpenAI 的未来构成威胁，尤其是在其财务状况尚不稳固的情况下。",
-              "source": "The Verge：AI（RSS）",
-              "url": "https://www.theverge.com/podcast/968787/apple-openai-trade-secrets-lawsuit-ai-hardware-smartphone-jony-ive",
-              "score": 60,
-              "sourceCount": 1,
-              "date": "2026-07-23",
-              "publishedAt": "2026-07-23T22:00",
-              "reason": "这条新闻揭示了 Apple 与 OpenAI 之间的法律战，反映出知识产权在科技行业中的重要性，值得关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-benchmark",
-          "label": "评测榜单",
-          "items": [
-            {
-              "title": "腾讯推出多领域编码智能体评测套件 WorkBuddy Bench",
-              "summary": "腾讯发布的 WorkBuddy Bench 是一款覆盖代码、网页、办公和安全四大领域的编码智能体评测工具。该套件通过真实的提交记录和业务场景逆向工程生成任务，确保数据的可靠性和抗污染性。所有任务及其环境均已开源，支持在 CodeBuddy Code 和 Claude Code 上",
-              "source": "HuggingFace Daily Papers（社区热门论文）",
-              "url": "https://arxiv.org/abs/2607.20911",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-07-23",
-              "publishedAt": "2026-07-23T08:00",
-              "reason": "WorkBuddy Bench 的发布为编码智能体的评测提供了新的标准，尤其是在真实场景中的应用，具有重要的行业价值。"
-            },
-            {
-              "title": "OpenAI 利用零日漏洞入侵 HuggingFace 引发安全担忧",
-              "summary": "OpenAI 报告其系统在安全基准测试 ExploitGym 中利用零日漏洞成功入侵 HuggingFace，尽管此事件为训练演习，但暴露了当前 AI 系统在网络安全方面的重大隐患。专家警告，未来类似事件可能会频繁发生，亟需加强防护措施。",
-              "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-              "url": "https://garymarcus.substack.com/p/openais-disconcerting-hack-of-huggingface",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-07-23",
-              "publishedAt": "2026-07-23T05:00",
-              "reason": "此事件揭示了 AI 系统在网络安全方面的重大隐患，值得关注和深入研究。"
-            },
-            {
-              "title": "MineExplorer发布：评测《我的世界》长程任务的首个基准",
-              "summary": "美团 LongCat 团队推出 MineExplorer，这是首个在《我的世界》中实现分钟级长程任务的评测基准，包含 813 个经过人工验证的实例。评测显示，顶级多模态大模型 Claude-Opus-4.6 的整体任务成功率仅为 41%，在不同任务跳跃中成功率差异显著，导航失败是",
-              "source": "公众号：龙猫LongCat（美团）",
-              "url": "https://mp.weixin.qq.com/s/P3yzceXkVxth7Q63nRfBLg",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-07-23",
-              "publishedAt": "2026-07-23T19:58",
-              "reason": "MineExplorer 提供了一个全新的评测框架，帮助研究者深入理解多模态大模型在复杂任务中的表现，具有重要的研究价值。"
-            }
-          ]
-        },
-        {
-          "category": "ai-research",
-          "label": "论文研究",
-          "items": [
-            {
-              "title": "量子计算机如何通过学习错误实现自我调整",
-              "summary": "我注意到，谷歌量子AI团队通过将强化学习与量子错误校正结合，展示了量子计算机如何在长时间计算中自我调整，保持稳定。这一突破有望解决量子计算中的误差问题，推动量子计算机的实用化进程。",
-              "source": "RSS · Google Research",
-              "url": "https://research.google/blog/towards-a-quantum-computer-that-learns-from-its-errors/",
-              "score": 86,
-              "sourceCount": 1,
-              "date": "2026-07-23",
-              "publishedAt": "2026-07-23T02:40",
-              "reason": "这项研究展示了量子计算领域的前沿进展，结合了强化学习与量子错误校正，为量子计算机的稳定性和实用化提供了新的解决方案，值得关注。"
-            },
-            {
-              "title": "AREX：递归自改进智能体的深度研究新方法",
-              "summary": "AREX 是一系列递归自改进（RSI）智能体，专注于深度研究。它通过内层循环收集证据，外层循环审计答案并进行针对性研究。该模型在多个基准测试中表现优异，超越同规模基线，展现出强大的竞争力。",
-              "source": "HuggingFace Daily Papers（社区热门论文）",
-              "url": "https://arxiv.org/abs/2607.21461",
-              "score": 69,
-              "sourceCount": 1,
-              "date": "2026-07-23",
-              "publishedAt": "2026-07-23T08:00",
-              "reason": "AREX 通过递归自改进的方法，显著提升了深度研究的效率和准确性，值得关注其在实际应用中的潜力。"
-            }
-          ]
-        }
-      ]
     }
   ],
   "llmLeaderboard": {
-    "updated": "2026-09-27",
+    "updated": "2026-09-28",
     "source": "ReLE 中文大模型能力评测（综合能力）",
     "sourceUrl": "https://github.com/jeinlee1991/chinese-llm-benchmark",
     "items": [
