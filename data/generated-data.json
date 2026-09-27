@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-27",
-  "generatedAt": "2026-09-27T13:19:16.738244Z",
+  "generatedAt": "2026-09-27T15:51:55.454258Z",
   "news": [
     {
       "title": "Claude 完成 N=4 超对称 Yang-Mills 九圈振幅计算，物理学家 Matt von Hippel 复盘挑战始末",
@@ -5381,6 +5381,21 @@
       "date": "2026-08-05"
     },
     {
+      "name": "stepfun-ai/Step-Cookbook",
+      "lang": "PowerShell",
+      "description": "阶跃星辰 StepFun 开源项目。",
+      "stars": "2 stars",
+      "why": "国产大模型厂商 阶跃星辰 StepFun 的最新开源动态/模型发布，属一手信源。",
+      "url": "https://github.com/stepfun-ai/Step-Cookbook",
+      "source": "GitHub · 阶跃星辰 StepFun",
+      "tier": "T1",
+      "category": "Coding Agent",
+      "details": "阶跃星辰 StepFun 开源项目。",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
       "name": "stepfun-ai/Step-Code",
       "lang": "TypeScript",
       "description": "阶跃星辰 StepFun 开源项目。",
@@ -5420,21 +5435,6 @@
       "source": "GitHub Search · 2026-09-26",
       "category": "Coding Agent",
       "details": "500 AI Machine learning Deep learning Computer vision NLP Projects with code",
-      "features": [],
-      "useCases": [],
-      "quickStart": []
-    },
-    {
-      "name": "QwenLM/Qwen-Live-Harness",
-      "lang": "TypeScript",
-      "description": "An open-source agent harness powered by the Qwen Omni Realtime API—see, hear, and act, with built-in memory.",
-      "stars": "11 stars",
-      "why": "国产大模型厂商 通义千问 Qwen 的最新开源动态/模型发布，属一手信源。",
-      "url": "https://github.com/QwenLM/Qwen-Live-Harness",
-      "source": "GitHub · 通义千问 Qwen",
-      "tier": "T1",
-      "category": "Coding Agent",
-      "details": "An open-source agent harness powered by the Qwen Omni Realtime API—see, hear, and act, with built-in memory.",
       "features": [],
       "useCases": [],
       "quickStart": []
@@ -5997,6 +5997,28 @@
     ],
     "ai-agents": [
       {
+        "name": "Iran and China Create First-of-Their-Kind Autonomous A.I. In",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Iran and the PRC are using Chinese open-source AI models and AI agents to create influence campaigns on social media. These campaigns, which involved hundreds o",
+        "description": "Iran and the PRC are using Chinese open-source AI models and AI agents to create influence campaigns on social media. These campaigns, which involved hundreds of AI agents autonomo",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:DeepSeek",
+        "url": "https://cms.hoover.org/research/iran-and-china-create-first-their-kind-autonomous-ai-influence-campaigns"
+      },
+      {
+        "name": "Katie Miller’s Diva Tantrum Got Top FBI Officials Demoted",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Two decorated agents were demoted and reassigned after pushing back on an investigation into threatening calls to the MAGA podcaster.",
+        "description": "Two decorated agents were demoted and reassigned after pushing back on an investigation into threatening calls to the MAGA podcaster.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Claude AI",
+        "url": "https://us.headtopics.com/news/katie-miller-s-diva-tantrum-got-top-fbi-officials-demoted-88178411"
+      },
+      {
         "name": "Reese Witherspoon and Ryan Phillippe's kids are their parent",
         "provider": "NewsData.io",
         "type": "AI 项目/工具",
@@ -6413,31 +6435,42 @@
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2609.28247v1"
-      },
-      {
-        "name": "PASTABench: Proactive Assessment of Sequential Trajectories ",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "As Large Language Models (LLMs) evolve into autonomous agents that alter real-world states, ensuring operational safety across multi-step workflows has become a",
-        "description": "As Large Language Models (LLMs) evolve into autonomous agents that alter real-world states, ensuring operational safety across multi-step workflows has become a critical challenge.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2609.28197v1"
-      },
-      {
-        "name": "Photonics-GCCE: group collaborative-competitive evolution mu",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Large language model (LLM)-empowered photonic agents connect natural-language intents to executable solvers, showing significant advantages over conventional op",
-        "description": "Large language model (LLM)-empowered photonic agents connect natural-language intents to executable solvers, showing significant advantages over conventional optical design approac",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2609.28045v1"
       }
     ],
     "ai-models": [
+      {
+        "name": "5 Apple CarPlay Features Android Auto Still Lacks",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "While Android Auto has gained some useful features through recent updates, it still lacks many CarPlay staples that Apple users have enjoyed for a while.",
+        "description": "While Android Auto has gained some useful features through recent updates, it still lacks many CarPlay staples that Apple users have enjoyed for a while.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Google Gemini",
+        "url": "https://www.bgr.com/2264239/apple-carplay-features-android-auto-lacks/"
+      },
+      {
+        "name": "CarPlay vs Android Auto: Apple Exclusive Features Android Au",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Apple CarPlay and Android Auto compete in in-vehicle software, but CarPlay offers unique features like Live Activities, photo descriptions, and third-party AI c",
+        "description": "Apple CarPlay and Android Auto compete in in-vehicle software, but CarPlay offers unique features like Live Activities, photo descriptions, and third-party AI chatbots that Android",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Google Gemini",
+        "url": "https://us.headtopics.com/news/carplay-vs-android-auto-apple-exclusive-features-android-88178887"
+      },
+      {
+        "name": "Adobe expands Claude integration and adds Gemini connector t",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Adobe expanded its Claude integration to 80 tools across Creative Cloud apps and launched a Google Gemini connector, letting users edit designs and documents by",
+        "description": "Adobe expanded its Claude integration to 80 tools across Creative Cloud apps and launched a Google Gemini connector, letting users edit designs and documents by text prompt without",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Claude AI",
+        "url": "https://completeaitraining.com/news/adobe-expands-claude-integration-and-adds-gemini-connector/"
+      },
       {
         "name": "Trump-Xi summit ends with pomp and show but no major deal on",
         "provider": "NewsData.io",
@@ -6844,39 +6877,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Forbes",
         "url": "https://www.forbes.com/sites/ericsiegel/2026/09/22/dont-let-genais-glitz-distract-from-predictive-ais-low-hanging-fruit/"
-      },
-      {
-        "name": "Inside India's Digital Audit Blueprint",
-        "provider": "Swarajyamag",
-        "type": "AI 项目/工具",
-        "bestFor": "The story of CADS, India's home-grown course that could become the global standard for auditing AI, privacy and digital public platforms.\n\nOn 27 August 2026, at",
-        "description": "The story of CADS, India's home-grown course that could become the global standard for auditing AI, privacy and digital public platforms.\n\nOn 27 August 2026, at the Indian Institut",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Swarajyamag",
-        "url": "https://swarajyamag.com/tech/inside-indias-digital-audit-blueprint"
-      },
-      {
-        "name": "WIOCC Group Welcomes United States' DFC As Investor Alongsid",
-        "provider": "TheTimes.com.ng",
-        "type": "AI 项目/工具",
-        "bestFor": "WIOCC Group, Africa's leading carrier-neutral digital infrastructure platform, has announced that the U.S. International Development Finance Corporation (DFC) i",
-        "description": "WIOCC Group, Africa's leading carrier-neutral digital infrastructure platform, has announced that the U.S. International Development Finance Corporation (DFC) intends to join Afric",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "TheTimes.com.ng",
-        "url": "https://www.thetimes.com.ng/2026/09/wiocc-group-welcomes-united-states-dfc-as-investor-alongside-afc-and-vision-invest-to-accelerate-digital-infrastructure-expansion-across-africa/"
-      },
-      {
-        "name": "Smart taps Avtica to make AI tools more accessible, affordab",
-        "provider": "GMA Network",
-        "type": "AI 项目/工具",
-        "bestFor": "Make this your preferred source to get more updates from this publisher on Google.\n\nPLDT Inc.'s wireless unit, Smart Communications Inc., is partnering with art",
-        "description": "Make this your preferred source to get more updates from this publisher on Google.\n\nPLDT Inc.'s wireless unit, Smart Communications Inc., is partnering with artificial intelligence",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "GMA Network",
-        "url": "https://www.gmanetwork.com/news/money/companies/1003258/smart-taps-avtica-to-make-ai-tools-more-accessible-affordable/story/"
       }
     ],
     "ai-business": [
@@ -10162,7 +10162,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-27",
-    "generatedAt": "2026-09-27T13:19:16.717244Z",
+    "generatedAt": "2026-09-27T15:51:55.433302Z",
     "total": 24,
     "sections": [
       {
