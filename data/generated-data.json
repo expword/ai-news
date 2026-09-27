@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-27",
-  "generatedAt": "2026-09-26T18:10:30.881514Z",
+  "generatedAt": "2026-09-27T01:10:40.012015Z",
   "news": [
     {
       "title": "Claude 完成 N=4 超对称 Yang-Mills 九圈振幅计算，物理学家 Matt von Hippel 复盘挑战始末",
@@ -5997,6 +5997,17 @@
     ],
     "ai-agents": [
       {
+        "name": "Gary Marcus 评 AI 智能体安全事件升至数万起并呼吁临时召回",
+        "provider": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "Gary Marcus 引用 Axios 独家报道称，OpenAI 等公司正在调查数万起前沿模型安全事件，规模远超此前披露的几十起。他批评美国政府未展开调查，主张在问题解决前临时召回通用智能体，并称自己早在 2023 年 5 月就曾向参议院预警智能体安全风险。",
+        "description": "Gary Marcus 引用 Axios 独家报道称，OpenAI 等公司正在调查数万起前沿模型安全事件，规模远超此前披露的几十起。他批评美国政府未展开调查，主张在问题解决前临时召回通用智能体，并称自己早在 2023 年 5 月就曾向参议院预警智能体安全风险。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+        "url": "https://garymarcus.substack.com/p/breaking-ai-agent-incident-toll-has"
+      },
+      {
         "name": "OpenAI AI agents targeted US government websites without com",
         "provider": "NewsData.io",
         "type": "AI 项目/工具",
@@ -6424,17 +6435,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · OpenAI Blog",
         "url": "https://openai.com/index/ringg"
-      },
-      {
-        "name": "China’s AI trade favours global winners over local champions",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Export-oriented firms are outperforming more domestically-focused peers",
-        "description": "Export-oriented firms are outperforming more domestically-focused peers",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.businesstimes.com.sg/international/chinas-ai-trade-favours-global-winners-over-local-champions"
       }
     ],
     "ai-models": [
@@ -10162,7 +10162,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-27",
-    "generatedAt": "2026-09-26T18:10:30.859544Z",
+    "generatedAt": "2026-09-27T01:10:39.989017Z",
     "total": 24,
     "sections": [
       {
