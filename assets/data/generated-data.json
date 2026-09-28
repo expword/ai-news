@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-28",
-  "generatedAt": "2026-09-27T18:12:37.854717Z",
+  "generatedAt": "2026-09-28T01:14:57.351231Z",
   "news": [
     {
       "title": "Claude 完成 N=4 超对称 Yang-Mills 九圈振幅计算，物理学家 Matt von Hippel 复盘挑战始末",
@@ -188,6 +188,280 @@
       "aiSelected": true,
       "moduleTargets": [
         "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "When the Model Retires: An Empirical Study of LLM Migration in Open-Source Applications",
+      "summary": "Applications built on commercial large language model (LLM) APIs depend on model versions that providers retire on their own schedule, with notice periods ranging from one year to ",
+      "category": "ai-coding",
+      "source": "arXiv",
+      "date": "2026-09-25",
+      "publishedAt": "",
+      "collectedAt": "2026-09-28T09:14",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-25",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.31288v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Mutable Transcripts: Mitigating Context Pollution through Editable Conversation State",
+      "summary": "Contemporary large language model (LLM) chat systems treat conversation history as an immutable sequence of turns that defines the model's working context. However, user intent in ",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-09-25",
+      "publishedAt": "",
+      "collectedAt": "2026-09-28T09:14",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-25",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.31354v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Beyond Approved Actions: Runtime Validation of Persistent Outcomes in Agent Workflows",
+      "summary": "Large language model agents increasingly act on software systems, no longer merely generating text but also changing databases and online services. However, an approved database up",
+      "category": "ai-agents",
+      "source": "arXiv",
+      "date": "2026-09-25",
+      "publishedAt": "",
+      "collectedAt": "2026-09-28T09:14",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-25",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.31301v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Resource-Optimized and Energy-Aware Agentic AI Framework Anchored on Blockchain for Secure Software Supply Chains",
+      "summary": "This paper proposes a blockchain-backed agentic security framework designed to safeguard the complete software development lifecycle (SDLC) while also securing the agentic AI compo",
+      "category": "ai-agents",
+      "source": "arXiv",
+      "date": "2026-09-25",
+      "publishedAt": "",
+      "collectedAt": "2026-09-28T09:14",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-25",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.31282v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "RupeeBias: Auditing Demographic Bias in Indian Economic Guidance from Large Language Models",
+      "summary": "Individuals turn to large language models (LLMs) for guidance across a wide range of economic tasks, from comparing loan options and planning savings to deciding what raise to ask ",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-09-25",
+      "publishedAt": "",
+      "collectedAt": "2026-09-28T09:14",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-25",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.31245v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Towards Understanding LLM-Based Log Anomaly Detection: An Empirical Study of Performance, Efficiency, and Robustness",
+      "summary": "Large language models (LLMs) have demonstrated promising performance in log anomaly detection, yet how their adaptation strategies, architectures, and deployment configurations aff",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-09-25",
+      "publishedAt": "",
+      "collectedAt": "2026-09-28T09:14",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-25",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.31371v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Deduplication-while-Training: A Resilient Paradigm for Privacy-Preserving Cross-Client Deduplication in Federated Learning",
+      "summary": "Cross-client duplicate data in large language model training corpora degrades the efficiency of federated learning (FL) while exacerbating model memorization and privacy risks. Pri",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-09-25",
+      "publishedAt": "",
+      "collectedAt": "2026-09-28T09:14",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-25",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.31262v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "DIAL: Position-Debiased LLM Judges with Adaptive Human Preference Calibration",
+      "summary": "Large language models (LLMs) as a judge enable scalable evaluation, but their judgments can be sensitive to response order and, even after removing such position effects, can still",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-09-25",
+      "publishedAt": "",
+      "collectedAt": "2026-09-28T09:14",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-25",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.31215v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Pocket-STVG: lightweight architecture for Spatio-Temporal Video Grounding",
+      "summary": "Spatio-Temporal Video Grounding (STVG) aims to localize the spatio-temporal tube in a video corresponding to a natural language query. While recent methods achieve strong performan",
+      "category": "ai-image-video",
+      "source": "arXiv",
+      "date": "2026-09-25",
+      "publishedAt": "",
+      "collectedAt": "2026-09-28T09:14",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-25",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.31135v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "LocUS: Head Selection and Subspace Projection for Targeted Activation Steering",
+      "summary": "Activation steering is a powerful training-free paradigm for controlling large language models at inference time. However, standard approaches estimate a per-layer steering directi",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-09-25",
+      "publishedAt": "",
+      "collectedAt": "2026-09-28T09:14",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-25",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.31122v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
       ],
       "sourceCount": 1
     },
@@ -5997,6 +6271,28 @@
     ],
     "ai-agents": [
       {
+        "name": "Beyond Approved Actions: Runtime Validation of Persistent Ou",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Large language model agents increasingly act on software systems, no longer merely generating text but also changing databases and online services. However, an ",
+        "description": "Large language model agents increasingly act on software systems, no longer merely generating text but also changing databases and online services. However, an approved database up",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2609.31301v1"
+      },
+      {
+        "name": "Resource-Optimized and Energy-Aware Agentic AI Framework Anc",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "This paper proposes a blockchain-backed agentic security framework designed to safeguard the complete software development lifecycle (SDLC) while also securing ",
+        "description": "This paper proposes a blockchain-backed agentic security framework designed to safeguard the complete software development lifecycle (SDLC) while also securing the agentic AI compo",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2609.31282v1"
+      },
+      {
         "name": "Iran and China Create First-of-Their-Kind Autonomous A.I. In",
         "provider": "NewsData.io",
         "type": "AI 项目/工具",
@@ -6413,28 +6709,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:AI agent",
         "url": "https://www.koreaittimes.com/news/articleView.html?idxno=157505"
-      },
-      {
-        "name": "Is AI conscious? Philosopher says it’s more likely than not",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Nick Bostrom says some AI may already have a form of mentality, raising urgent new questions about ethics, rights and deletion.",
-        "description": "Nick Bostrom says some AI may already have a form of mentality, raising urgent new questions about ethics, rights and deletion.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.azfamily.com/2026/09/24/is-ai-conscious-philosopher-says-its-more-likely-than-not/"
-      },
-      {
-        "name": "Controlling Collectives of AI Agents in Reasoning Space with",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Large Language Models (LLMs) introduce an exciting new paradigm for planning and navigation in robotics, but fail on even simple multi-robot tasks as team sizes",
-        "description": "Large Language Models (LLMs) introduce an exciting new paradigm for planning and navigation in robotics, but fail on even simple multi-robot tasks as team sizes grow. We propose CO",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2609.28247v1"
       }
     ],
     "ai-models": [
@@ -8316,6 +8590,28 @@
     ],
     "ai-research": [
       {
+        "name": "When the Model Retires: An Empirical Study of LLM Migration ",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Applications built on commercial large language model (LLM) APIs depend on model versions that providers retire on their own schedule, with notice periods rangi",
+        "description": "Applications built on commercial large language model (LLM) APIs depend on model versions that providers retire on their own schedule, with notice periods ranging from one year to ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2609.31288v1"
+      },
+      {
+        "name": "LocUS: Head Selection and Subspace Projection for Targeted A",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Activation steering is a powerful training-free paradigm for controlling large language models at inference time. However, standard approaches estimate a per-la",
+        "description": "Activation steering is a powerful training-free paradigm for controlling large language models at inference time. However, standard approaches estimate a per-layer steering directi",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2609.31122v1"
+      },
+      {
         "name": "A Practical Recipe for Semi-Supervised Federated ASR: Online",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -8732,28 +9028,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · OpenAI Blog",
         "url": "https://openai.com/index/teen-development-research-grants"
-      },
-      {
-        "name": "AI Chatbots Dropped Correct Sleep Apnea Referral Advice a Th",
-        "provider": "Medical Daily",
-        "type": "AI 项目/工具",
-        "bestFor": "When researchers built seven fictional patients who all clearly qualified for a sleep study and ran them past the five most widely used free chatbots, the tools",
-        "description": "When researchers built seven fictional patients who all clearly qualified for a sleep study and ran them past the five most widely used free chatbots, the tools gave correct advice",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Medical Daily",
-        "url": "https://www.medicaldaily.com/ai-chatbots-sleep-apnea-referral-advice-ers-study-478372"
-      },
-      {
-        "name": "Where Appearance Fails, Geometry Recognizes: A CAD-Free 3D S",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "arXiv:2609.04381v1 Announce Type: new Abstract: Recognizing specific objects onboarded without a labeled training set recurs across manufacturing and service ro",
-        "description": "arXiv:2609.04381v1 Announce Type: new Abstract: Recognizing specific objects onboarded without a labeled training set recurs across manufacturing and service robotics, yet the conv",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · arXiv cs.CV",
-        "url": "https://arxiv.org/abs/2609.04381"
       }
     ],
     "ai-office": []
@@ -10162,8 +10436,8 @@
   ],
   "dailyReport": {
     "date": "2026-09-28",
-    "generatedAt": "2026-09-27T18:12:37.833750Z",
-    "total": 24,
+    "generatedAt": "2026-09-28T01:14:57.330202Z",
+    "total": 23,
     "sections": [
       {
         "category": "ai-coding",
@@ -10181,6 +10455,17 @@
             "reason": ""
           },
           {
+            "title": "When the Model Retires: An Empirical Study of LLM Migration in Open-Source Applications",
+            "summary": "Applications built on commercial large language model (LLM) APIs depend on model versions that providers retire on their own schedule, with ",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.31288v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-25",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
             "title": "Compressing Streaming Neural Audio Encoders via Latent-Space Distillation",
             "summary": "System-wide Dictation on Apple devices runs entirely on-device, and the speech it transcribes reaches the foundation model through a tokeniz",
             "source": "RSS · Apple ML Research",
@@ -10189,28 +10474,6 @@
             "sourceCount": 1,
             "date": "2026-09-24",
             "publishedAt": "2026-09-24T08:00",
-            "reason": ""
-          },
-          {
-            "title": "SciWalker: Synthesizing Scientific Coding Problems with Operator Graphs and Execution Feedback",
-            "summary": "Improving the scientific coding capabilities of large language models (LLMs) requires high-quality training data. However, such data remain ",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.30054v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-24",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Style, Not Self: Surface Cues Explain Zero-Shot Code Attribution by Large Language Models",
-            "summary": "If a language model can recognize code it wrote, it may favor that code as a judge, and instances of one model monitoring each other could c",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.30048v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-24",
-            "publishedAt": "",
             "reason": ""
           },
           {
@@ -10242,6 +10505,17 @@
             "reason": ""
           },
           {
+            "title": "Pocket-STVG: lightweight architecture for Spatio-Temporal Video Grounding",
+            "summary": "Spatio-Temporal Video Grounding (STVG) aims to localize the spatio-temporal tube in a video corresponding to a natural language query. While",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.31135v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-25",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
             "title": "Automating coherent long-form video generation",
             "summary": "Generative AI",
             "source": "RSS · Google Research",
@@ -10270,6 +10544,28 @@
         "label": "Agent / MCP",
         "items": [
           {
+            "title": "Beyond Approved Actions: Runtime Validation of Persistent Outcomes in Agent Workflows",
+            "summary": "Large language model agents increasingly act on software systems, no longer merely generating text but also changing databases and online se",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.31301v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-25",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Resource-Optimized and Energy-Aware Agentic AI Framework Anchored on Blockchain for Secure Software Supply Chains",
+            "summary": "This paper proposes a blockchain-backed agentic security framework designed to safeguard the complete software development lifecycle (SDLC) ",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.31282v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-25",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
             "title": "Build a multi-account AI agent with AgentCore Gateway and MCP",
             "summary": "Build a multi-account architecture that keeps each team's data in its own AWS account while giving AI agents a unified way to query across t",
             "source": "RSS · AWS Machine Learning",
@@ -10278,17 +10574,6 @@
             "sourceCount": 1,
             "date": "2026-09-25",
             "publishedAt": "2026-09-25T00:12",
-            "reason": ""
-          },
-          {
-            "title": "GRASP: Generating, Revising, and Assessing for Strategic Planning with Agentic AI",
-            "summary": "Large Language Models (LLMs) typically exhibit a performance profile where reliability degrades as task complexity increases. We address the",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.30147v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-24",
-            "publishedAt": "",
             "reason": ""
           }
         ]
@@ -10342,6 +10627,72 @@
             "reason": ""
           },
           {
+            "title": "Mutable Transcripts: Mitigating Context Pollution through Editable Conversation State",
+            "summary": "Contemporary large language model (LLM) chat systems treat conversation history as an immutable sequence of turns that defines the model's w",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.31354v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-25",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "RupeeBias: Auditing Demographic Bias in Indian Economic Guidance from Large Language Models",
+            "summary": "Individuals turn to large language models (LLMs) for guidance across a wide range of economic tasks, from comparing loan options and plannin",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.31245v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-25",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Towards Understanding LLM-Based Log Anomaly Detection: An Empirical Study of Performance, Efficiency, and Robustness",
+            "summary": "Large language models (LLMs) have demonstrated promising performance in log anomaly detection, yet how their adaptation strategies, architec",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.31371v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-25",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Deduplication-while-Training: A Resilient Paradigm for Privacy-Preserving Cross-Client Deduplication in Federated Learning",
+            "summary": "Cross-client duplicate data in large language model training corpora degrades the efficiency of federated learning (FL) while exacerbating m",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.31262v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-25",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "DIAL: Position-Debiased LLM Judges with Adaptive Human Preference Calibration",
+            "summary": "Large language models (LLMs) as a judge enable scalable evaluation, but their judgments can be sensitive to response order and, even after r",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.31215v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-25",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "LocUS: Head Selection and Subspace Projection for Targeted Activation Steering",
+            "summary": "Activation steering is a powerful training-free paradigm for controlling large language models at inference time. However, standard approach",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.31122v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-25",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
             "title": "Multi-Region training with Amazon SageMaker HyperPod and Qumulo",
             "summary": "Amazon SageMaker HyperPod and Cloud Native Qumulo let you place training compute in one AWS Region while keeping your dataset in another. Th",
             "source": "RSS · AWS Machine Learning",
@@ -10361,100 +10712,6 @@
             "sourceCount": 1,
             "date": "2026-09-25",
             "publishedAt": "2026-09-25T00:06",
-            "reason": ""
-          },
-          {
-            "title": "A Practical Recipe for Semi-Supervised Federated ASR: Online Pseudo-Labels with Server Update Stabilization",
-            "summary": "Semi-supervised federated learning (SSFL) trains models on clients’ unlabeled data using a teacher to generate pseudo-labels, with a small l",
-            "source": "RSS · Apple ML Research",
-            "url": "https://machinelearning.apple.com/research/practical-recipe-federated-asr",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-24",
-            "publishedAt": "2026-09-24T08:00",
-            "reason": ""
-          },
-          {
-            "title": "Anthropic Project Swap 实验：201 名员工让 Claude 智能体替人换书交易",
-            "summary": "Anthropic 开展 Project Swap 实验，让 201 名员工携带一本书，其 Claude 智能体在数字交易大厅代表他们谈判换书。5 分钟聊天后，Claude 构建的图书排序与本人自评排序在 61% 的书对上一致；市场效率为 0.55（最优 0.89），其中 85%",
-            "source": "Anthropic：Research（发表成果 · 网页）",
-            "url": "https://www.anthropic.com/research/project-swap",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-24",
-            "publishedAt": "2026-09-24T00:00",
-            "reason": ""
-          },
-          {
-            "title": "Learning and interpreting policies for simultaneous entanglement requests in quantum networks",
-            "summary": "Future quantum networks will make use of entanglement to perform numerous tasks, such as sending quantum information over long distances, di",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.30157v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-24",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "NEUROTESTGEN: Neuro-Symbolic Guided Test Generation with Large Language Models",
-            "summary": "Ensuring high structural coverage remains a fundamental challenge in automated test generation, particularly for complex software systems wh",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.30178v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-24",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "The Alignment Illusion in Multimodal Large Language Models",
-            "summary": "Layer-wise visual-text similarity in Multimodal Large Language Models (MLLMs) is widely interpreted as evidence that the language model prog",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.30210v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-24",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "SAGE: Mitigating Long-Horizon Reasoning Biases via Topological Guidance",
-            "summary": "Long-horizon reasoning remains a central challenge for large language models (LLMs) under sparse-reward regimes. We argue that this brittlen",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.30192v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-24",
-            "publishedAt": "",
-            "reason": ""
-          }
-        ]
-      },
-      {
-        "category": "ai-benchmark",
-        "label": "评测榜单",
-        "items": [
-          {
-            "title": "PrivDrift: Auditing User-Secret Leakage Under Topic Drift in Active LLM Conversations",
-            "summary": "Large language models increasingly operate as persistent assistants in user-facing, shared-session, and tool-augmented settings. When users ",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.30094v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-24",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Scoring Both Directions: LLMs realize the MRS they cannot reliably parse",
-            "summary": "The English Resource Grammar (ERG) is a hand-written computational grammar of English. Given a sentence, its processor, ACE, produces a form",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.30071v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-24",
-            "publishedAt": "",
             "reason": ""
           }
         ]
