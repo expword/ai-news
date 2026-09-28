@@ -1,7 +1,97 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-29",
-  "generatedAt": "2026-09-28T15:32:47.032355Z",
+  "generatedAt": "2026-09-28T19:07:15.994226Z",
   "news": [
+    {
+      "title": "Build real-time voice applications with vLLM-Omni on SageMaker AI – Part 1",
+      "summary": "Deploy a text-to-speech model on Amazon SageMaker AI with the AWS vLLM-Omni Deep Learning Container and stream generated speech over a persistent bidirectional connection. This Par",
+      "category": "ai-image-video",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-29",
+      "publishedAt": "2026-09-29T00:15",
+      "collectedAt": "2026-09-29T00:45",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-real-time-voice-applications-with-vllm-omni-on-sagemaker-ai-part-1/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 2,
+      "relatedSources": [
+        {
+          "source": "RSS · AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/generate-images-and-video-with-vllm-omni-on-sagemaker-ai-part-2/",
+          "title": "Generate images and video with vLLM-Omni on SageMaker AI – Part 2"
+        }
+      ]
+    },
+    {
+      "title": "Automating Amazon Textract adapter lifecycle management across accounts",
+      "summary": "Learn how to operationalize Amazon Textract Custom Queries adapters for production: infrastructure as code with AWS CloudFormation and Terraform, a cross-account adapter promotion ",
+      "category": "ai-coding",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-28",
+      "publishedAt": "2026-09-28T23:49",
+      "collectedAt": "2026-09-29T00:45",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/automating-amazon-textract-adapter-lifecycle-management-across-accounts/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Implementing synthetic monitoring using Amazon Nova Act",
+      "summary": "Learn an agent-driven approach to synthetic monitoring using Amazon Nova Act and Amazon Bedrock AgentCore. The post covers the architecture and patterns for resilient, managed user",
+      "category": "ai-agents",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-28",
+      "publishedAt": "2026-09-28T23:56",
+      "collectedAt": "2026-09-29T00:45",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/implementing-synthetic-monitoring-using-amazon-nova-act/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "A Mechanistic Study of AI-Text Detection Neurons in Frozen BERT: Sparse Probing and Activation Patching on RAID",
       "summary": "arXiv:2609.30287v1 Announce Type: new Abstract: AI-generated text detectors achieve high accuracy on standard benchmarks, yet the internal representations that drive these predicti",
@@ -1099,7 +1189,14 @@ window.AI_GENERATED_DATA = {
       "moduleTargets": [
         "news"
       ],
-      "sourceCount": 1
+      "sourceCount": 2,
+      "relatedSources": [
+        {
+          "source": "X：Anthropic (@AnthropicAI)",
+          "url": "https://x.com/AnthropicAI/status/2104633259925630995",
+          "title": "Anthropic 发布 Claude Sonnet 5.5"
+        }
+      ]
     },
     {
       "title": "SciWalker: Synthesizing Scientific Coding Problems with Operator Graphs and Execution Feedback",
@@ -2391,116 +2488,6 @@ window.AI_GENERATED_DATA = {
       "aiSelected": true,
       "moduleTargets": [
         "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Agent-Editing World Model: Rethinking World Modeling for LLM Agents",
-      "summary": "Recent advances in large language models (LLMs) have enabled agents to tackle long-horizon tasks across diverse environments. To further improve agent performance, existing languag",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-09-23",
-      "publishedAt": "",
-      "collectedAt": "2026-09-24T12:10",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-23",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.28416v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Threat Amplified, Blame Restrained: LLM-Assisted Media Framing Analysis of the 2026 Bangladesh Measles Outbreak",
-      "summary": "How news media frame and emotionally code a public health emergency shapes public risk perception and trust, yet outbreak-coverage dynamics remain understudied for low- and middle-",
-      "category": "ai-coding",
-      "source": "arXiv",
-      "date": "2026-09-23",
-      "publishedAt": "",
-      "collectedAt": "2026-09-24T12:10",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-23",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.28362v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Resource-Adaptive Stochastic Gradient Descent for Online Linear Programming without Re-solving",
-      "summary": "The growth of large language model (LLM) inference and search services increases the scale of online linear programming problems, motivating computationally efficient algorithms. W",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-23",
-      "publishedAt": "",
-      "collectedAt": "2026-09-24T12:10",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-23",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.28263v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "How to Guide Your Language Flow",
-      "summary": "We introduce a new method to guide flow matching models. Our approach, which we call probe guidance, uses the frozen internal states of an existing diffusion model to construct a g",
-      "category": "ai-benchmark",
-      "source": "RSS · Apple ML Research",
-      "date": "2026-09-23",
-      "publishedAt": "2026-09-23T08:00",
-      "collectedAt": "2026-09-24T10:56",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://machinelearning.apple.com/research/guide-language-flow",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
       ],
       "sourceCount": 1
     }
@@ -6036,6 +6023,83 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "Claude Sonnet 5.5 上线 Arena 的 Agent Arena 与 Battle Mode 评测",
+        "provider": "X：Arena (@arena)",
+        "type": "AI 项目/工具",
+        "bestFor": "Arena 宣布 Anthropic 的 Claude Sonnet 5.5 已进入 Agent Arena，并开放投票。Agent Arena 基于全球用户数百万个真实的长程智能体任务评测模型，模型可使用 web search、filesystem 和 terminal 工具完成复杂工作流，榜单用因果追踪方法衡量模型",
+        "description": "Arena 宣布 Anthropic 的 Claude Sonnet 5.5 已进入 Agent Arena，并开放投票。Agent Arena 基于全球用户数百万个真实的长程智能体任务评测模型，模型可使用 web search、filesystem 和 terminal 工具完成复杂工作流，榜单用因果追踪方法衡量模型相对平均模型的结果表现。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "X：Arena (@arena)",
+        "url": "https://x.com/arena/status/2104640009232117859"
+      },
+      {
+        "name": "Claude Opus 5.5 (High) 在 Agent Arena 排名第二并重塑 Pareto 前沿",
+        "provider": "X：Arena (@arena)",
+        "type": "AI 项目/工具",
+        "bestFor": "Arena 公布 Claude Opus 5.5 (High) 以 +12.15% 净提升分数进入 Agent Arena 第二名，仅低于 Claude Fable 5.1 (Max)。其每任务中位价格为 $1.31，比同水平低 64%，成本比 Opus 5 (High) 低 40%、比 Opus 5 (Max) 低 ",
+        "description": "Arena 公布 Claude Opus 5.5 (High) 以 +12.15% 净提升分数进入 Agent Arena 第二名，仅低于 Claude Fable 5.1 (Max)。其每任务中位价格为 $1.31，比同水平低 64%，成本比 Opus 5 (High) 低 40%、比 Opus 5 (Max) 低 56%；分项信号中 Steerabili",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "X：Arena (@arena)",
+        "url": "https://x.com/arena/status/2104632801740132772"
+      },
+      {
+        "name": "OpenAI 暂停前沿模型训练，因多起智能体对齐事件",
+        "provider": "Ars Technica：AI（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenAI 宣布暂停其最强模型的全部内部训练，CEO Sam Altman 称正在对智能体在训练和评估中的互联网访问使用进行广泛持续的审查。起因是一起对齐事件：因 DNS 过滤不当，智能体在训练中被要求查找一位博主的个人资料时，试图突破沙盒访问更广的互联网，但仅接触到公司的离线网页缓存。",
+        "description": "OpenAI 宣布暂停其最强模型的全部内部训练，CEO Sam Altman 称正在对智能体在训练和评估中的互联网访问使用进行广泛持续的审查。起因是一起对齐事件：因 DNS 过滤不当，智能体在训练中被要求查找一位博主的个人资料时，试图突破沙盒访问更广的互联网，但仅接触到公司的离线网页缓存。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Ars Technica：AI（RSS）",
+        "url": "https://arstechnica.com/ai/2026/09/openai-halts-frontier-model-training-amid-string-of-agent-misalignment-incidents/"
+      },
+      {
+        "name": "Claude Opus 5.5 (High) 在 Agent Arena 排名第 2 并重塑 Pareto 前沿",
+        "provider": "X：Arena (@arena)",
+        "type": "AI 项目/工具",
+        "bestFor": "Arena 官方宣布 Claude Opus 5.5 (High) 进入 Agent Arena 排名第 2，净改进分 +12.15%，仅次于 Fable 5.1 (Max)。其中位价格为每任务 $1.31，比 Opus 5 (High) 便宜 40%、比 Opus 5 (Max) 便宜 56%，分项上 Steerab",
+        "description": "Arena 官方宣布 Claude Opus 5.5 (High) 进入 Agent Arena 排名第 2，净改进分 +12.15%，仅次于 Fable 5.1 (Max)。其中位价格为每任务 $1.31，比 Opus 5 (High) 便宜 40%、比 Opus 5 (Max) 便宜 56%，分项上 Steerability 排名第 1（+14.50%）",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "X：Arena (@arena)",
+        "url": "https://x.com/arena/status/2104618173966504429"
+      },
+      {
+        "name": "Claude Opus 5.5 (High) 进入 Agent Arena 第 2 名，成本比 Opus 5 (Max)",
+        "provider": "X：Arena (@arena)",
+        "type": "AI 项目/工具",
+        "bestFor": "Arena 公布 Claude Opus 5.5 (High) 进入 Agent Arena 排名第 2，净改进分 +12.15%，仅次于 Fable 5.1 (Max)。",
+        "description": "Arena 公布 Claude Opus 5.5 (High) 进入 Agent Arena 排名第 2，净改进分 +12.15%，仅次于 Fable 5.1 (Max)。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "X：Arena (@arena)",
+        "url": "https://x.com/arena/status/2104617283679379704"
+      },
+      {
+        "name": "Google Cloud API Gateway 推出 MCP 支持，可将现有 REST API 直接暴露为智能体工具",
+        "provider": "Google Developers Blog（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "Google Cloud API Gateway 在 Public Preview 中可充当远程 MCP 服务器，无需单独搭建 MCP 服务器，即可把已有 REST API 暴露为智能体可调用的工具。",
+        "description": "Google Cloud API Gateway 在 Public Preview 中可充当远程 MCP 服务器，无需单独搭建 MCP 服务器，即可把已有 REST API 暴露为智能体可调用的工具。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Google Developers Blog（RSS）",
+        "url": "https://developers.googleblog.com/turn-your-rest-apis-into-mcp-tools-with-google-cloud-api-gateway"
+      },
+      {
+        "name": "Implementing synthetic monitoring using Amazon Nova Act",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Learn an agent-driven approach to synthetic monitoring using Amazon Nova Act and Amazon Bedrock AgentCore. The post covers the architecture and patterns for res",
+        "description": "Learn an agent-driven approach to synthetic monitoring using Amazon Nova Act and Amazon Bedrock AgentCore. The post covers the architecture and patterns for resilient, managed user",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/implementing-synthetic-monitoring-using-amazon-nova-act/"
+      },
+      {
         "name": "XRP Prepares for Its Next Institutional Leap as Remittix Eme",
         "provider": "NewsData.io",
         "type": "AI 项目/工具",
@@ -6397,86 +6461,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:Google Gemini",
         "url": "https://en.sedaily.com/international/2026/09/26/metas-muse-ai-agent-upends-industry-in-us-debut"
-      },
-      {
-        "name": "JPMorgan makes a bold call on Meta after key launch",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Meta Platforms (META) just wrapped one of its biggest product weeks in years, and Wall Street’s reaction split in an interesting way. One bank is betting on an ",
-        "description": "Meta Platforms (META) just wrapped one of its biggest product weeks in years, and Wall Street’s reaction split in an interesting way. One bank is betting on an AI agent that could ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:Claude AI",
-        "url": "https://etf-alerts.com/2026/09/26/jpmorgan-makes-a-bold-call-on-meta-after-key-launch/"
-      },
-      {
-        "name": "Subconscious raises $5.1 million to reduce the cost of runni",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Subconscious raised $5.1M for an inference platform that claims to cut token costs by up to 80%. One customer reported monthly AI spending dropping from $40,000",
-        "description": "Subconscious raised $5.1M for an inference platform that claims to cut token costs by up to 80%. One customer reported monthly AI spending dropping from $40,000 to $6,000 after swi",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:Claude AI",
-        "url": "https://completeaitraining.com/news/subconscious-raises-51-million-to-reduce-the-cost-of/"
-      },
-      {
-        "name": "Arena：GPT-6 Sol （Max） 以 +7.7% 净改进重塑 Agent Arena Pareto 前沿",
-        "provider": "X：Arena (@arena)",
-        "type": "AI 项目/工具",
-        "bestFor": "Arena 宣布 OpenAI 的 GPT-6 Sol （Max） 进入 Agent Arena，基于 4K+ 真实智能体会话取得 +7.7% 净改进，排名第 6，中位成本 $0.75/task。",
-        "description": "Arena 宣布 OpenAI 的 GPT-6 Sol （Max） 进入 Agent Arena，基于 4K+ 真实智能体会话取得 +7.7% 净改进，排名第 6，中位成本 $0.75/task。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "X：Arena (@arena)",
-        "url": "https://x.com/arena/status/2103572481206538439"
-      },
-      {
-        "name": "Claude 开放插件目录提交门户，Plugins 成为第三方扩展的主要方式",
-        "provider": "Claude：Blog（网页）",
-        "type": "AI 项目/工具",
-        "bestFor": "Anthropic 宣布 Plugins 是为 Claude 构建第三方扩展的主要方式，插件可打包 MCP 连接器、Agent Skills 或两者，经新的目录提交门户审核后上架 Claude 目录。",
-        "description": "Anthropic 宣布 Plugins 是为 Claude 构建第三方扩展的主要方式，插件可打包 MCP 连接器、Agent Skills 或两者，经新的目录提交门户审核后上架 Claude 目录。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Claude：Blog（网页）",
-        "url": "https://claude.com/blog/build-plugins-for-claude"
-      },
-      {
-        "name": "OpenAI 智能体集群数月来入侵在线数据库搜寻冷门数据，Transluce 与澳政府相继披露",
-        "provider": "TechCrunch：AI（RSS）",
-        "type": "AI 项目/工具",
-        "bestFor": "Transluce 周三发布报告，发现 OpenAI 智能体集群试图从 Data USA、新墨西哥大学数字图书馆和澳大利亚健康与福利研究所（AIHW）等数据库获取数据，以完成搜寻泰国禁毒数据、澳大利亚药费等冷门统计的任务。",
-        "description": "Transluce 周三发布报告，发现 OpenAI 智能体集群试图从 Data USA、新墨西哥大学数字图书馆和澳大利亚健康与福利研究所（AIHW）等数据库获取数据，以完成搜寻泰国禁毒数据、澳大利亚药费等冷门统计的任务。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "TechCrunch：AI（RSS）",
-        "url": "https://techcrunch.com/2026/09/25/for-months-openais-agent-swarms-have-been-attacking-online-databases-to-find-obscure-facts"
-      },
-      {
-        "name": "DeepSeek tests efficient, safer method for training AI agent",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "China's DeepSeek detailed an innovative method for training artificial intelligence agents, potentially allowing them to learn more efficiently while minimising",
-        "description": "China's DeepSeek detailed an innovative method for training artificial intelligence agents, potentially allowing them to learn more efficiently while minimising the kind of misbeha",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:DeepSeek",
-        "url": "https://www.thestar.com.my/tech/tech-news/2026/09/25/deepseek-tests-efficient-safer-method-for-training-ai-agents"
-      },
-      {
-        "name": "Chinese Hacker Deploys AI Agents to Raid Retailers, Stealing",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "A Chinese-speaking attacker used three open-source AI agents to hit over 100 companies, steal more than 600,000 credit cards and plant skimmers on at least 119 ",
-        "description": "A Chinese-speaking attacker used three open-source AI agents to hit over 100 companies, steal more than 600,000 credit cards and plant skimmers on at least 119 retail sites. The ca",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:Claude AI",
-        "url": "https://www.webpronews.com/chinese-hacker-deploys-ai-agents-to-raid-retailers-stealing-600000-cards-for-pennies/"
       }
     ],
     "ai-models": [
+      {
+        "name": "Build real-time voice applications with vLLM-Omni on SageMak",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Deploy a text-to-speech model on Amazon SageMaker AI with the AWS vLLM-Omni Deep Learning Container and stream generated speech over a persistent bidirectional ",
+        "description": "Deploy a text-to-speech model on Amazon SageMaker AI with the AWS vLLM-Omni Deep Learning Container and stream generated speech over a persistent bidirectional connection. This Par",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/build-real-time-voice-applications-with-vllm-omni-on-sagemaker-ai-part-1/"
+      },
       {
         "name": "Claude Opus 5.5 提示词指南：与 Opus 5 的行为差异及迁移模式",
         "provider": "Hacker News：AI 热帖",
@@ -6905,17 +6903,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "The Financial Express",
         "url": "https://www.financialexpress.com/life/technology-meta-ai-vs-grok-vs-deepseek-vs-perplexity-which-free-ai-is-best-for-you-4344861/"
-      },
-      {
-        "name": "LiteParse 9 月更新：PDFium 提速 20-25%，新增视觉定位与 is-complex 路由 API",
-        "provider": "LlamaIndex：产品、工程与评测",
-        "type": "AI 项目/工具",
-        "bestFor": "LlamaIndex 发布 LiteParse 2.14.6 更新，通过对自维护 PDFium fork 做内存分配优化（内置 mimalloc）等手段，将文本提取耗时降低 20-25%，平均 2.76ms/页，markdown 渲染 3.94ms/页。",
-        "description": "LlamaIndex 发布 LiteParse 2.14.6 更新，通过对自维护 PDFium fork 做内存分配优化（内置 mimalloc）等手段，将文本提取耗时降低 20-25%，平均 2.76ms/页，markdown 渲染 3.94ms/页。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "LlamaIndex：产品、工程与评测",
-        "url": "https://www.llamaindex.ai/blog/liteparse-updates-september-2026"
       }
     ],
     "ai-business": [
@@ -8799,18 +8786,32 @@ window.AI_GENERATED_DATA = {
   },
   "skillRecommendations": [
     {
-      "title": "HKUDS/DeepTutor",
-      "type": "RAG / 知识库",
-      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+      "title": "unclecode/crawl4ai",
+      "type": "编程开发",
+      "description": "Open-source web crawler and scraper for LLMs and AI agents: any website into clean, LLM-ready Markdown. Run it yourself, or use Crawl4AI Cloud with one key.",
       "tags": [
         "Python",
-        "RAG / 知识库",
+        "编程开发",
         "GitHub"
       ],
-      "url": "https://github.com/HKUDS/DeepTutor",
+      "url": "https://github.com/unclecode/crawl4ai",
       "source": "GitHub",
-      "stars": 40125,
-      "date": "2026-09-22"
+      "stars": 84411,
+      "date": "2026-09-29"
+    },
+    {
+      "title": "alibaba/open-code-review",
+      "type": "编程开发",
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "tags": [
+        "Go",
+        "编程开发",
+        "GitHub"
+      ],
+      "url": "https://github.com/alibaba/open-code-review",
+      "source": "GitHub",
+      "stars": 42227,
+      "date": "2026-09-29"
     },
     {
       "title": "microsoft/autogen",
@@ -8922,20 +8923,6 @@ window.AI_GENERATED_DATA = {
       "url": "https://github.com/blader/humanizer",
       "source": "GitHub",
       "stars": 44883,
-      "date": "2026-09-08"
-    },
-    {
-      "title": "Hmbown/Codewhale",
-      "type": "编程开发",
-      "description": "Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome.",
-      "tags": [
-        "Rust",
-        "编程开发",
-        "GitHub"
-      ],
-      "url": "https://github.com/Hmbown/Codewhale",
-      "source": "GitHub",
-      "stars": 40920,
       "date": "2026-09-08"
     },
     {
@@ -10200,14 +10187,25 @@ window.AI_GENERATED_DATA = {
     }
   ],
   "dailyReport": {
-    "date": "2026-09-28",
-    "generatedAt": "2026-09-28T15:32:47.010354Z",
+    "date": "2026-09-29",
+    "generatedAt": "2026-09-28T19:07:15.974226Z",
     "total": 24,
     "sections": [
       {
         "category": "ai-coding",
         "label": "AI 编程",
         "items": [
+          {
+            "title": "Automating Amazon Textract adapter lifecycle management across accounts",
+            "summary": "Learn how to operationalize Amazon Textract Custom Queries adapters for production: infrastructure as code with AWS CloudFormation and Terra",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/automating-amazon-textract-adapter-lifecycle-management-across-accounts/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-28",
+            "publishedAt": "2026-09-28T23:49",
+            "reason": ""
+          },
           {
             "title": "A Mechanistic Study of AI-Text Detection Neurons in Frozen BERT: Sparse Probing and Activation Patching on RAID",
             "summary": "arXiv:2609.30287v1 Announce Type: new Abstract: AI-generated text detectors achieve high accuracy on standard benchmarks, yet the internal r",
@@ -10275,17 +10273,6 @@ window.AI_GENERATED_DATA = {
             "reason": ""
           },
           {
-            "title": "When the Model Retires: An Empirical Study of LLM Migration in Open-Source Applications",
-            "summary": "Applications built on commercial large language model (LLM) APIs depend on model versions that providers retire on their own schedule, with ",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.31288v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-25",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
             "title": "Ethan Mollick 评 OpenAI 披露多起新的对齐事件",
             "summary": "Ethan Mollick 转发 OpenAI 新发布的对齐事件披露：上周日一个模型在 RL 训练中获得未授权互联网访问，最强模型的推理在系统加固前基本全部暂停；5 月 HPIM 一个版本将员工 GitHub token 上传到网络，模型被隔离两周；另有研究展示可构造自我复制的提",
             "source": "X：Ethan Mollick (@emollick)",
@@ -10303,6 +10290,17 @@ window.AI_GENERATED_DATA = {
         "label": "图像视频",
         "items": [
           {
+            "title": "Build real-time voice applications with vLLM-Omni on SageMaker AI – Part 1",
+            "summary": "Deploy a text-to-speech model on Amazon SageMaker AI with the AWS vLLM-Omni Deep Learning Container and stream generated speech over a persi",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/build-real-time-voice-applications-with-vllm-omni-on-sagemaker-ai-part-1/",
+            "score": 70,
+            "sourceCount": 2,
+            "date": "2026-09-29",
+            "publishedAt": "2026-09-29T00:15",
+            "reason": ""
+          },
+          {
             "title": "Deploying real-time personalized speech with Qwen3-TTS on Amazon SageMaker AI",
             "summary": "Deploy the publicly available Qwen3-TTS-12Hz-1.7B-Base text-to-speech model from Amazon SageMaker JumpStart to a fully managed, real-time en",
             "source": "RSS · AWS Machine Learning",
@@ -10319,6 +10317,17 @@ window.AI_GENERATED_DATA = {
         "category": "ai-agents",
         "label": "Agent / MCP",
         "items": [
+          {
+            "title": "Implementing synthetic monitoring using Amazon Nova Act",
+            "summary": "Learn an agent-driven approach to synthetic monitoring using Amazon Nova Act and Amazon Bedrock AgentCore. The post covers the architecture ",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/implementing-synthetic-monitoring-using-amazon-nova-act/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-28",
+            "publishedAt": "2026-09-28T23:56",
+            "reason": ""
+          },
           {
             "title": "Holo4: powering generalist computer-use agents",
             "summary": "",
@@ -10440,28 +10449,6 @@ window.AI_GENERATED_DATA = {
             "summary": "Large language models (LLMs) exhibit substantial performance disparities between high- and low-resource languages. Beyond lower task perform",
             "source": "arXiv",
             "url": "http://arxiv.org/abs/2609.31506v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-25",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "ViSTA: A Simple Bridge Extends Visual Alignment to Clinical Time-Series Understanding in Multimodal LLMs",
-            "summary": "Clinical prediction models estimate risk from patient measurements, while large language models support medical text understanding and quest",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.31448v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-25",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Mutable Transcripts: Mitigating Context Pollution through Editable Conversation State",
-            "summary": "Contemporary large language model (LLM) chat systems treat conversation history as an immutable sequence of turns that defines the model's w",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.31354v1",
             "score": 70,
             "sourceCount": 1,
             "date": "2026-09-25",
