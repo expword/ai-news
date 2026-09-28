@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-28",
-  "generatedAt": "2026-09-28T04:56:18.534867Z",
+  "generatedAt": "2026-09-28T07:36:11.135952Z",
   "news": [
     {
       "title": "Claude 完成 N=4 超对称 Yang-Mills 九圈振幅计算，物理学家 Matt von Hippel 复盘挑战始末",
@@ -2651,94 +2651,6 @@
       "sourceDate": "",
       "tags": [],
       "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Sep 23, 2026 Science Claude discovers a novel enzyme system with CRISPR-like repeats",
-      "summary": "Sep 23, 2026 Science Claude discovers a novel enzyme system with CRISPR-like repeats",
-      "category": "ai-models",
-      "source": "HTML · Anthropic",
-      "date": "2026-09-23",
-      "publishedAt": "",
-      "collectedAt": "2026-09-24T02:30",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-23",
-      "tags": [],
-      "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Gemini 3.8 text-to-speech says hello",
-      "summary": "",
-      "category": "ai-models",
-      "source": "RSS · Google DeepMind",
-      "date": "2026-09-23",
-      "publishedAt": "2026-09-23T23:25",
-      "collectedAt": "2026-09-24T01:20",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 2,
-      "relatedSources": [
-        {
-          "source": "RSS · Google DeepMind",
-          "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
-          "title": "Introducing Gemini 3.8 Live with Live Avatar"
-        }
-      ]
-    },
-    {
-      "title": "**Know Who Spoke When: Build Real-Time, Multi-Speaker AI with NVIDIA Nemotron 3 Diarization**",
-      "summary": "",
-      "category": "ai-models",
-      "source": "RSS · Hugging Face Blog",
-      "date": "2026-09-23",
-      "publishedAt": "2026-09-23T21:17",
-      "collectedAt": "2026-09-24T01:20",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://huggingface.co/blog/nvidia/nemotron-diarization",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -6728,6 +6640,17 @@
     ],
     "ai-models": [
       {
+        "name": "Meta 推出 Hologram 拟真虚拟形象，秋季上线雷朋眼镜与 Quest 头显",
+        "provider": "IT之家（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "Meta 宣布将于今年秋季在雷朋 Display 智能眼镜、Quest 头显及新轻薄头显上推出“Hologram”功能。该功能利用生成式 AI（实时扩散模型）创建高度拟真的用户虚拟形象，替代传统摄像头画面用于 WhatsApp 视频通话。用户需通过手机 Meta AI 应用采集面部表情和语音数据完成建模。雷朋版基于音频",
+        "description": "Meta 宣布将于今年秋季在雷朋 Display 智能眼镜、Quest 头显及新轻薄头显上推出“Hologram”功能。该功能利用生成式 AI（实时扩散模型）创建高度拟真的用户虚拟形象，替代传统摄像头画面用于 WhatsApp 视频通话。用户需通过手机 Meta AI 应用采集面部表情和语音数据完成建模。雷朋版基于音频驱动生成 2D 视频流，Quest 版支",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "IT之家（RSS）",
+        "url": "https://www.ithome.com/1/007/767.htm"
+      },
+      {
         "name": "小米 MiMo-V2.6 诊断并修复工具调用重复问题，用 MOPD 将修复成本降至 MixRL 方案的 4%",
         "provider": "小米 MiMo：官网发布与博客",
         "type": "AI 项目/工具",
@@ -7155,17 +7078,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Apple：Newsroom（RSS）",
         "url": "https://www.apple.com/newsroom/2026/09/the-new-mac-mini-and-mac-studio-are-available-today"
-      },
-      {
-        "name": "OpenRouter 推出 Batch API，批量推理可享半价",
-        "provider": "OpenRouter：Announcements（RSS）",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenRouter 发布 Batch API，异步批量请求由供应商在 24 小时窗口内完成，通常按正常 per-token 价格的 50% 或更低收费，目前已支持 70 多个模型。",
-        "description": "OpenRouter 发布 Batch API，异步批量请求由供应商在 24 小时窗口内完成，通常按正常 per-token 价格的 50% 或更低收费，目前已支持 70 多个模型。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "OpenRouter：Announcements（RSS）",
-        "url": "https://openrouter.ai/blog/announcements/batch-api"
       }
     ],
     "ai-business": [
@@ -10451,7 +10363,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-28",
-    "generatedAt": "2026-09-28T04:56:18.511862Z",
+    "generatedAt": "2026-09-28T07:36:11.116147Z",
     "total": 24,
     "sections": [
       {
