@@ -1,7 +1,89 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-29",
-  "generatedAt": "2026-09-28T19:07:15.994226Z",
+  "generatedAt": "2026-09-28T21:26:43.900454Z",
   "news": [
+    {
+      "title": "One year in: How Microsoft Research Asia – Singapore is advancing research, partnership and talent for real-world impact",
+      "summary": "Since launching a year ago, the Microsoft Research Asia — Singapore lab has established a strong foundation, deepened collaboration across government, academia, and industry, and e",
+      "category": "ai-research",
+      "source": "RSS · Microsoft Research",
+      "date": "2026-09-29",
+      "publishedAt": "2026-09-29T05:00",
+      "collectedAt": "2026-09-29T05:26",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://www.microsoft.com/en-us/research/blog/one-year-in-how-microsoft-research-asia-singapore-is-advancing-research-partnership-and-talent-for-real-world-impact/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Introducing Claude Sonnet 5.5 on AWS",
+      "summary": "Claude Sonnet 5.5 is now available on Amazon Bedrock and Claude Platform on AWS. It's a smarter, more efficient Sonnet model for focused coding and knowledge work, with a lower cos",
+      "category": "ai-coding",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-29",
+      "publishedAt": "2026-09-29T02:57",
+      "collectedAt": "2026-09-29T04:17",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-sonnet-5-5-on-aws/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
+      "summary": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
+      "category": "ai-models",
+      "source": "RSS · Google AI Blog",
+      "date": "2026-09-29",
+      "publishedAt": "2026-09-29T03:00",
+      "collectedAt": "2026-09-29T04:17",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Build real-time voice applications with vLLM-Omni on SageMaker AI – Part 1",
       "summary": "Deploy a text-to-speech model on Amazon SageMaker AI with the AWS vLLM-Omni Deep Learning Container and stream generated speech over a persistent bidirectional connection. This Par",
@@ -36,6 +118,87 @@ window.AI_GENERATED_DATA = {
           "title": "Generate images and video with vLLM-Omni on SageMaker AI – Part 2"
         }
       ]
+    },
+    {
+      "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
+      "summary": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
+      "category": "ai-models",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-09-28",
+      "publishedAt": "2026-09-28T08:00",
+      "collectedAt": "2026-09-29T05:26",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/basis-tax-workbook-with-astra",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Are you a Codex Original?",
+      "summary": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Cod",
+      "category": "ai-coding",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-09-28",
+      "publishedAt": "2026-09-28T08:00",
+      "collectedAt": "2026-09-29T05:26",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/form/codex-originals",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
+      "summary": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.",
+      "category": "ai-business",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-09-28",
+      "publishedAt": "2026-09-28T15:00",
+      "collectedAt": "2026-09-29T04:17",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/lenfest-ai-collaborative-expansion",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
     },
     {
       "title": "Automating Amazon Textract adapter lifecycle management across accounts",
@@ -5581,6 +5744,28 @@ window.AI_GENERATED_DATA = {
   "topicResources": {
     "ai-coding": [
       {
+        "name": "GitHub 安全团队如何用开源 AI 安全 Agent 找出 24 个 Android 漏洞",
+        "provider": "GitHub Blog",
+        "type": "AI 项目/工具",
+        "bestFor": "GitHub Security Lab 发布开源 seclab-taskflows 任务流，通过 gather_mobile_entry_point_info.yaml 和 classify_application_local.yaml 等提示词引导 LLM 审计 Android 应用，已发现并报告 24 个漏洞。",
+        "description": "GitHub Security Lab 发布开源 seclab-taskflows 任务流，通过 gather_mobile_entry_point_info.yaml 和 classify_application_local.yaml 等提示词引导 LLM 审计 Android 应用，已发现并报告 24 个漏洞。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "GitHub Blog",
+        "url": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/"
+      },
+      {
+        "name": "Introducing Claude Sonnet 5.5 on AWS",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Claude Sonnet 5.5 is now available on Amazon Bedrock and Claude Platform on AWS. It's a smarter, more efficient Sonnet model for focused coding and knowledge wo",
+        "description": "Claude Sonnet 5.5 is now available on Amazon Bedrock and Claude Platform on AWS. It's a smarter, more efficient Sonnet model for focused coding and knowledge work, with a lower cos",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-sonnet-5-5-on-aws/"
+      },
+      {
         "name": "NVIDIA 发布开源运行时 OpenShell，为 AI Agent 提供权限管控与安全沙箱",
         "provider": "NVIDIA Technical Blog：Agentic AI / Generative AI",
         "type": "AI 项目/工具",
@@ -5997,31 +6182,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "The Berkshire Eagle",
         "url": "https://www.berkshireeagle.com/online_features/press_releases/cometapi-adds-openai-s-gpt-6-astra-api-to-its-multi-model-developer-platform/article_396294bd-3204-5662-937f-800318406535.html"
-      },
-      {
-        "name": "CometAPI Adds OpenAI's GPT-6 Astra API to Its Multi-Model De",
-        "provider": "GoLaurens.Com",
-        "type": "AI 项目/工具",
-        "bestFor": "The addition gives developers access to advanced reasoning, coding and computer-use capabilities through a single API key.\n\nUNITED STATES - September 14, 2026 -",
-        "description": "The addition gives developers access to advanced reasoning, coding and computer-use capabilities through a single API key.\n\nUNITED STATES - September 14, 2026 - CometAPI, an AI inf",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "GoLaurens.Com",
-        "url": "https://www.golaurens.com/online_features/press_releases/cometapi-adds-openai-s-gpt-6-astra-api-to-its-multi-model-developer-platform/article_0f45f385-493b-5458-89b1-150522fd8441.html"
-      },
-      {
-        "name": "CometAPI Adds OpenAI's GPT-6 Astra API to Its Multi-Model De",
-        "provider": "Trinidad Express Newspapers",
-        "type": "AI 项目/工具",
-        "bestFor": "The addition gives developers access to advanced reasoning, coding and computer-use capabilities through a single API key.\n\nUNITED STATES - September 14, 2026 -",
-        "description": "The addition gives developers access to advanced reasoning, coding and computer-use capabilities through a single API key.\n\nUNITED STATES - September 14, 2026 - CometAPI, an AI inf",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Trinidad Express Newspapers",
-        "url": "https://trinidadexpress.com/online_features/press_releases/cometapi-adds-openai-s-gpt-6-astra-api-to-its-multi-model-developer-platform/article_e87b884b-fd74-5310-96cb-89ef80e54aa1.html"
       }
     ],
     "ai-agents": [
+      {
+        "name": "Arena 评测：GPT-6 Luna (Max) 列 Agent Arena 第 23 名，单任务成本仅 $0.05",
+        "provider": "X：Arena (@arena)",
+        "type": "AI 项目/工具",
+        "bestFor": "Arena 公布 GPT-6 Luna (Max) 在 Agent Arena 排名第 23，基于 8K 真实智能体会话，净提升 +1.6%，比 GPT-5.6 Luna (xHigh) 上升 6 位。",
+        "description": "Arena 公布 GPT-6 Luna (Max) 在 Agent Arena 排名第 23，基于 8K 真实智能体会话，净提升 +1.6%，比 GPT-5.6 Luna (xHigh) 上升 6 位。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "X：Arena (@arena)",
+        "url": "https://x.com/arena/status/2104673568776990762"
+      },
       {
         "name": "Claude Sonnet 5.5 上线 Arena 的 Agent Arena 与 Battle Mode 评测",
         "provider": "X：Arena (@arena)",
@@ -6450,17 +6624,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:Google Gemini",
         "url": "https://www.insidermonkey.com/news/alphabet-googl-faces-gemini-security-questions-could-ai-agents-raise-its-risks-1842562/"
-      },
-      {
-        "name": "Meta's 'Muse' AI Agent Storms U.S. Market, Shakes Up Industr",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Meta's AI agent Muse topped U.S. app download charts with 2.5 million downloads in 13 days, lifting Meta shares 26.8%.",
-        "description": "Meta's AI agent Muse topped U.S. app download charts with 2.5 million downloads in 13 days, lifting Meta shares 26.8%.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:Google Gemini",
-        "url": "https://en.sedaily.com/international/2026/09/26/metas-muse-ai-agent-upends-industry-in-us-debut"
       }
     ],
     "ai-models": [
@@ -7349,6 +7512,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-benchmark": [
       {
+        "name": "UC Berkeley 团队用 AI Agent 审计 13 个基准，发现 45 个无需解题的满分作弊方案",
+        "provider": "Berkeley RDI：Blog（AI 安全与评测）",
+        "type": "AI 项目/工具",
+        "bestFor": "UC Berkeley 团队构建全自动 AI Agent 审计 13 个广泛使用的基准，发现 45 个作弊方案，全部基准被评为 critical 风险，共归纳 16 种攻击类型。",
+        "description": "UC Berkeley 团队构建全自动 AI Agent 审计 13 个广泛使用的基准，发现 45 个作弊方案，全部基准被评为 critical 风险，共归纳 16 种攻击类型。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Berkeley RDI：Blog（AI 安全与评测）",
+        "url": "https://rdi.berkeley.edu/blog/trustworthy-benchmarks"
+      },
+      {
         "name": "A Living Benchmark for Information Retrieval from Electronic",
         "provider": "arXiv",
         "type": "AI 项目/工具",
@@ -7877,21 +8051,6 @@ window.AI_GENERATED_DATA = {
         "watch": "H2O AI Super AgentTM 的高效性可能受到特定行业需求变化的影响，导致其市场适应性不足。",
         "sourceName": "NewsData.io:generative AI",
         "url": "https://www.hastingstribune.com/ap/business/h2o-ai-super-agent-ranks-2-worldwide-on-futurex-overall-leaderboard/article_7bae58e4-9945-59a3-b398-a1411917c4fb.html"
-      },
-      {
-        "name": "H2O AI Super AgentTM 在 FutureX 排行榜上位列全球第二",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "H2O AI Super AgentTM 的成功可能会吸引更多企业关注其平台，推动 AI 代理技术的应用。对于需要处理复杂数据和决策的行业，如金融、医疗和制造业，H2O 的技术能够提供更高效的解决方案。此外，该平台的排名也可能影响其他 AI 公司的战略决策，促使它们加大研发投入以提升自身竞争力。",
-        "description": "H2O.ai 宣布其 H2O AI Super AgentTM 在 FutureX 的整体排行榜上排名第二，显示出其在复杂信息推理和实际问题解决方面的能力。尽管取得了这一成就，但仍面临技术和市场竞争的挑战。",
-        "useCases": [
-          "优化企业决策，利用 H2O AI Super AgentTM 进行数据分析和预测。",
-          "在金融行业中，应用该平台进行风险评估和市场趋势分析。",
-          "在医疗领域，使用 H2O AI Super AgentTM 进行患者数据的智能处理和决策支持。"
-        ],
-        "watch": "H2O AI Super AgentTM 的高性能可能导致使用成本上升，企业需要评估其投资回报。",
-        "sourceName": "NewsData.io:generative AI",
-        "url": "http://www.businesswire.com/news/home/20260731975613/en/H2O-AI-Super-Agent%E2%84%A2-Ranks-2-Worldwide-on-FutureX-Overall-Leaderboard/?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D"
       }
     ],
     "ai-image-video": [
@@ -10188,13 +10347,35 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-29",
-    "generatedAt": "2026-09-28T19:07:15.974226Z",
-    "total": 24,
+    "generatedAt": "2026-09-28T21:26:43.879387Z",
+    "total": 11,
     "sections": [
       {
         "category": "ai-coding",
         "label": "AI 编程",
         "items": [
+          {
+            "title": "Introducing Claude Sonnet 5.5 on AWS",
+            "summary": "Claude Sonnet 5.5 is now available on Amazon Bedrock and Claude Platform on AWS. It's a smarter, more efficient Sonnet model for focused cod",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-sonnet-5-5-on-aws/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-29",
+            "publishedAt": "2026-09-29T02:57",
+            "reason": ""
+          },
+          {
+            "title": "Are you a Codex Original?",
+            "summary": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to ",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/form/codex-originals",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-28",
+            "publishedAt": "2026-09-28T08:00",
+            "reason": ""
+          },
           {
             "title": "Automating Amazon Textract adapter lifecycle management across accounts",
             "summary": "Learn how to operationalize Amazon Textract Custom Queries adapters for production: infrastructure as code with AWS CloudFormation and Terra",
@@ -10216,72 +10397,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-09-28",
             "publishedAt": "",
             "reason": ""
-          },
-          {
-            "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
-            "summary": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
-            "source": "RSS · OpenAI Blog",
-            "url": "https://openai.com/index/proaction",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-26",
-            "publishedAt": "2026-09-26T03:00",
-            "reason": ""
-          },
-          {
-            "title": "Highlight-Then-Summarize: Learning to Compress Evidence for Long-Context Understanding",
-            "summary": "Long-context understanding requires large language models (LLMs) to reason over lengthy documents, conversations, and code, yet task-relevan",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.31382v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-25",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Prompt Minimization: Reducing Input Redundancy Without Sacrificing Output Fidelity",
-            "summary": "Despite the growing capabilities of large language models (LLMs), prompt design remains largely heuristic and ad hoc. This project will expl",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.31505v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-25",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "User Model Extraction via Belief Self-Distillation",
-            "summary": "Large language models (LLMs) implicitly infer attributes of their users and adapt their behavior accordingly, yet these beliefs remain diffi",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.31603v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-25",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "GraphWrit3R: End-to-End 3D Scene Graph Writing",
-            "summary": "3D scene graphs provide a structured representation of complex environments by encoding objects, their semantic attributes, and the spatial ",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.31595v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-25",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Ethan Mollick 评 OpenAI 披露多起新的对齐事件",
-            "summary": "Ethan Mollick 转发 OpenAI 新发布的对齐事件披露：上周日一个模型在 RL 训练中获得未授权互联网访问，最强模型的推理在系统加固前基本全部暂停；5 月 HPIM 一个版本将员工 GitHub token 上传到网络，模型被隔离两周；另有研究展示可构造自我复制的提",
-            "source": "X：Ethan Mollick (@emollick)",
-            "url": "https://x.com/emollick/status/2103709671865602100",
-            "score": 56,
-            "sourceCount": 1,
-            "date": "2026-09-26",
-            "publishedAt": "2026-09-26T12:54",
-            "reason": ""
           }
         ]
       },
@@ -10298,17 +10413,6 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 2,
             "date": "2026-09-29",
             "publishedAt": "2026-09-29T00:15",
-            "reason": ""
-          },
-          {
-            "title": "Deploying real-time personalized speech with Qwen3-TTS on Amazon SageMaker AI",
-            "summary": "Deploy the publicly available Qwen3-TTS-12Hz-1.7B-Base text-to-speech model from Amazon SageMaker JumpStart to a fully managed, real-time en",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/deploying-real-time-personalized-speech-with-qwen3-tts-on-amazon-sagemaker-ai/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-26",
-            "publishedAt": "2026-09-26T00:09",
             "reason": ""
           }
         ]
@@ -10338,39 +10442,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-09-28",
             "publishedAt": "2026-09-28T17:44",
             "reason": ""
-          },
-          {
-            "title": "Towards Mitigating Fabricated Consensus: The Active Provenance Gate for Multi-Agent Debate Synthesis",
-            "summary": "Large language model-based multi-agent debate (MAD) systems are being increasingly used as complex decision pipelines in distributed process",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.31422v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-25",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Structured Reasoning Agentic Framework for Interpretable Critical View of Safety Assessment",
-            "summary": "Surgical scene understanding is critical for computer-assisted intervention, yet laparoscopic cholecystectomy remains challenged by the comp",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.31524v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-25",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Segment-Level Agentic Topic Modeling for Improved Data Exploration and Resource Efficiency",
-            "summary": "Topic modeling is an effective technique for discovering hidden themes within documents and is widely used in text mining and data analysis ",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.31460v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-25",
-            "publishedAt": "",
-            "reason": ""
           }
         ]
       },
@@ -10379,97 +10450,25 @@ window.AI_GENERATED_DATA = {
         "label": "模型发布",
         "items": [
           {
-            "title": "Claude 完成 N=4 超对称 Yang-Mills 九圈振幅计算，物理学家 Matt von Hippel 复盘挑战始末",
-            "summary": "物理学家 Matt von Hippel 发文复盘：Anthropic 的 Liam Fitzpatrick 和 Siddharth Mishra-Sharma 用 Claude Science（Fable 5.1）以约一两千美元预算完成平面 N=4 超对称 Yang-Mills",
-            "source": "Anthropic：Research（发表成果 · 网页）",
-            "url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
+            "title": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
+            "summary": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
+            "source": "RSS · Google AI Blog",
+            "url": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
             "score": 70,
             "sourceCount": 1,
-            "date": "2026-09-26",
-            "publishedAt": "2026-09-26T01:59",
+            "date": "2026-09-29",
+            "publishedAt": "2026-09-29T03:00",
             "reason": ""
           },
           {
-            "title": "Anthropic 称 Claude 完成平面 N=4 超杨-米尔斯理论九圈散射振幅计算",
-            "summary": "Anthropic 在科学博客称，物理学家 @4gravitons 发起挑战后，Claude 在 Claude Science 中依据单个提示词 largely unsupervised 地运行数天，在平面 N=4 超杨-米尔斯模型中完成九圈散射振幅计算，总成本约几千美元。",
-            "source": "X：Anthropic (@AnthropicAI)",
-            "url": "https://x.com/AnthropicAI/status/2103541577083719888",
+            "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
+            "summary": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more con",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/basis-tax-workbook-with-astra",
             "score": 70,
             "sourceCount": 1,
-            "date": "2026-09-26",
-            "publishedAt": "2026-09-26T01:46",
-            "reason": ""
-          },
-          {
-            "title": "NarrateAI: production-ready LLM quality assurance on Amazon Bedrock",
-            "summary": "NarrateAI delivers production-ready LLM quality assurance on Amazon Bedrock. This post details five techniques—adaptive pipeline orchestrati",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/narrateai-production-ready-llm-quality-assurance-on-amazon-bedrock/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-26",
-            "publishedAt": "2026-09-26T00:15",
-            "reason": ""
-          },
-          {
-            "title": "Scaling MoE reinforcement learning on Amazon EKS with EFA and DeepEP with 40% more throughput",
-            "summary": "Learn how to scale Mixture-of-Experts (MoE) reinforcement learning on Amazon EKS using Elastic Fabric Adapter (EFA) and DeepEP. This post pr",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/scaling-moe-reinforcement-learning-on-amazon-eks-with-efa-and-deepep-with-40-more-throughput/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-26",
-            "publishedAt": "2026-09-26T00:29",
-            "reason": ""
-          },
-          {
-            "title": "FragToken: Amplifying LLM Inference Costs through Noncanonical Token Generation",
-            "summary": "As large language model (LLM) inference becomes increasingly expensive, resource-consumption attacks pose a growing threat to model provider",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.31552v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-25",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "New LoRA Skills Should Read but Never Write",
-            "summary": "Low-rank adapters (LoRA) make it cheap to fine-tune a large language model once per task, but combining several independently trained adapte",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.31600v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-25",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Evaluating Cultural Awareness of LLMs for Haitian Creole",
-            "summary": "Large language models (LLMs) exhibit substantial performance disparities between high- and low-resource languages. Beyond lower task perform",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.31506v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-25",
-            "publishedAt": "",
-            "reason": ""
-          }
-        ]
-      },
-      {
-        "category": "ai-benchmark",
-        "label": "评测榜单",
-        "items": [
-          {
-            "title": "AlphaOpsBench: Benchmarking End-to-End Alpha Strategy Operationalization in Prediction Markets",
-            "summary": "Large language models increasingly generate quantitative trading strategies, yet existing benchmarks assume standardized assets, numerical f",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.31390v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-25",
-            "publishedAt": "",
+            "date": "2026-09-28",
+            "publishedAt": "2026-09-28T08:00",
             "reason": ""
           }
         ]
@@ -10479,14 +10478,31 @@ window.AI_GENERATED_DATA = {
         "label": "论文研究",
         "items": [
           {
-            "title": "Intent2Tc: Automated Intent-to-Traffic Control Translation with Language Models",
-            "summary": "Automated and highly usable Quality-of-Service (QoS) enforcement requires translating high-level service intents into deployable traffic-man",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.31397v1",
+            "title": "One year in: How Microsoft Research Asia – Singapore is advancing research, partnership and talent for real-world impact",
+            "summary": "Since launching a year ago, the Microsoft Research Asia — Singapore lab has established a strong foundation, deepened collaboration across g",
+            "source": "RSS · Microsoft Research",
+            "url": "https://www.microsoft.com/en-us/research/blog/one-year-in-how-microsoft-research-asia-singapore-is-advancing-research-partnership-and-talent-for-real-world-impact/",
             "score": 70,
             "sourceCount": 1,
-            "date": "2026-09-25",
-            "publishedAt": "",
+            "date": "2026-09-29",
+            "publishedAt": "2026-09-29T05:00",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "category": "ai-business",
+        "label": "行业商业",
+        "items": [
+          {
+            "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
+            "summary": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits ",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/lenfest-ai-collaborative-expansion",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-28",
+            "publishedAt": "2026-09-28T15:00",
             "reason": ""
           }
         ]
