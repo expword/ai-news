@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-28",
-  "generatedAt": "2026-09-28T01:14:57.351231Z",
+  "generatedAt": "2026-09-28T02:29:56.461767Z",
   "news": [
     {
       "title": "Claude 完成 N=4 超对称 Yang-Mills 九圈振幅计算，物理学家 Matt von Hippel 复盘挑战始末",
@@ -185,6 +185,251 @@
       "tier": "T1.5",
       "scores": {},
       "score": 56,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Structured Reasoning Agentic Framework for Interpretable Critical View of Safety Assessment",
+      "summary": "Surgical scene understanding is critical for computer-assisted intervention, yet laparoscopic cholecystectomy remains challenged by the complex anatomy of the hepatocystic triangle",
+      "category": "ai-agents",
+      "source": "arXiv",
+      "date": "2026-09-25",
+      "publishedAt": "",
+      "collectedAt": "2026-09-28T10:29",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-25",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.31524v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Prompt Minimization: Reducing Input Redundancy Without Sacrificing Output Fidelity",
+      "summary": "Despite the growing capabilities of large language models (LLMs), prompt design remains largely heuristic and ad hoc. This project will explore $\\textit{prompt minimization}$, the ",
+      "category": "ai-coding",
+      "source": "arXiv",
+      "date": "2026-09-25",
+      "publishedAt": "",
+      "collectedAt": "2026-09-28T10:29",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-25",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.31505v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "User Model Extraction via Belief Self-Distillation",
+      "summary": "Large language models (LLMs) implicitly infer attributes of their users and adapt their behavior accordingly, yet these beliefs remain difficult to inspect and causally manipulate.",
+      "category": "ai-coding",
+      "source": "arXiv",
+      "date": "2026-09-25",
+      "publishedAt": "",
+      "collectedAt": "2026-09-28T10:29",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-25",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.31603v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "FragToken: Amplifying LLM Inference Costs through Noncanonical Token Generation",
+      "summary": "As large language model (LLM) inference becomes increasingly expensive, resource-consumption attacks pose a growing threat to model providers. Existing attacks typically amplify co",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-09-25",
+      "publishedAt": "",
+      "collectedAt": "2026-09-28T10:29",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-25",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.31552v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "New LoRA Skills Should Read but Never Write",
+      "summary": "Low-rank adapters (LoRA) make it cheap to fine-tune a large language model once per task, but combining several independently trained adapters into one model remains difficult: mer",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-09-25",
+      "publishedAt": "",
+      "collectedAt": "2026-09-28T10:29",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-25",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.31600v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "GraphWrit3R: End-to-End 3D Scene Graph Writing",
+      "summary": "3D scene graphs provide a structured representation of complex environments by encoding objects, their semantic attributes, and the spatial and functional relationships between the",
+      "category": "ai-coding",
+      "source": "arXiv",
+      "date": "2026-09-25",
+      "publishedAt": "",
+      "collectedAt": "2026-09-28T10:29",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-25",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.31595v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Evaluating Cultural Awareness of LLMs for Haitian Creole",
+      "summary": "Large language models (LLMs) exhibit substantial performance disparities between high- and low-resource languages. Beyond lower task performance, they often fail to capture the cul",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-09-25",
+      "publishedAt": "",
+      "collectedAt": "2026-09-28T10:29",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-25",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.31506v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Segment-Level Agentic Topic Modeling for Improved Data Exploration and Resource Efficiency",
+      "summary": "Topic modeling is an effective technique for discovering hidden themes within documents and is widely used in text mining and data analysis across a variety of industry sectors. Re",
+      "category": "ai-agents",
+      "source": "arXiv",
+      "date": "2026-09-25",
+      "publishedAt": "",
+      "collectedAt": "2026-09-28T10:29",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-25",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.31460v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "ViSTA: A Simple Bridge Extends Visual Alignment to Clinical Time-Series Understanding in Multimodal LLMs",
+      "summary": "Clinical prediction models estimate risk from patient measurements, while large language models support medical text understanding and question answering. Yet their language capabi",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-09-25",
+      "publishedAt": "",
+      "collectedAt": "2026-09-28T10:29",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-25",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.31448v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
       "aiSelected": true,
       "moduleTargets": [
         "news"
@@ -879,7 +1124,14 @@
       "moduleTargets": [
         "news"
       ],
-      "sourceCount": 1
+      "sourceCount": 2,
+      "relatedSources": [
+        {
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2609.31551v1",
+          "title": "EAServe: Encode-Aware Disaggregated Serving for Multimodal Large Language Models"
+        }
+      ]
     },
     {
       "title": "SAGE: Mitigating Long-Horizon Reasoning Biases via Topological Guidance",
@@ -2472,282 +2724,16 @@
         "news"
       ],
       "sourceCount": 1
-    },
-    {
-      "title": "Evaluate skill-equipped agents with Strands Evals and Amazon Bedrock AgentCore",
-      "summary": "Skills let you encode domain-specific procedures as reusable, portable instructions for agents, but a fluent answer doesn't prove the agent picked the right skill or followed it. L",
-      "category": "ai-coding",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-09-23",
-      "publishedAt": "2026-09-23T01:18",
-      "collectedAt": "2026-09-23T01:44",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/evaluate-skill-equipped-agents-with-strands-evals-and-amazon-bedrock-agentcore/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Claude Opus 5.5 与 GPT-6 Sol/Luna 发布，Simon Willison 详解新一轮价格战",
-      "summary": "Anthropic 发布 Claude Opus 5.5，OpenAI 随后发布 GPT-6 Sol 和 GPT-6 Luna。GPT-6 两款价格为其 GPT-5.6 对应型号的一半，GPT-6 Luna 低至 $0.10/M 输入、$0.50/M 输出；Opus 5.5 降价 20% 至 $4/$20，缓存读取降 60%。",
-      "category": "ai-models",
-      "source": "Simon Willison 博客",
-      "date": "2026-09-23",
-      "publishedAt": "2026-09-23T07:46",
-      "collectedAt": "2026-09-23T08:45",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1.5",
-      "scores": {},
-      "score": 56,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "How to Estimate Whether You Have Found Several Needles in a Haystack: Measuring Calibration in Multi-Label Text Classification",
-      "summary": "A key factor in deciding whether to trust an automatic prediction is its confidence score, which should be calibrated to match the actual probability of the prediction being correc",
-      "category": "ai-coding",
-      "source": "arXiv",
-      "date": "2026-09-22",
-      "publishedAt": "",
-      "collectedAt": "2026-09-24T06:02",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-22",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.26468v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Behavior is Not Enough: A Mechanism-Based Evaluation of Social Norm Emergence in LLM Societies",
-      "summary": "Social norms cannot be identified from behavior alone: the same cooperative equilibrium may reflect shared expectations, strategic incentives, or simple imitation. Yet in multi-age",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-09-22",
-      "publishedAt": "",
-      "collectedAt": "2026-09-24T06:02",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-22",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.26481v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "PERSONAWEAVER: Controllable Diversity Beyond Conventional Archetypes in Procedural Character Generation",
-      "summary": "Procedural character generation aims to populate games, simulations, and other virtual worlds with diverse characters. Large language models (LLMs) offer a promising foundation for",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-22",
-      "publishedAt": "",
-      "collectedAt": "2026-09-24T04:53",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-22",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.26629v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Decoding the Legalese: A Scalable and Quantitative Framework for Analyzing Corporate Privacy Policies",
-      "summary": "Even though privacy policies are the primary mechanism organizations use to disclose how they collect, process, and share personal data, they are difficult for average users to int",
-      "category": "ai-coding",
-      "source": "arXiv",
-      "date": "2026-09-22",
-      "publishedAt": "",
-      "collectedAt": "2026-09-24T04:53",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-22",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.26680v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Does AI Save Time on Product Design? A Randomized Controlled Experiment of AI Prompt-to-Design Workflows",
-      "summary": "AI tools for digital product design now offer prompt-to-design capabilities, allowing designers and their non-designer colleagues to create prototypes through conversational workfl",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-22",
-      "publishedAt": "",
-      "collectedAt": "2026-09-24T04:53",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-22",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.26725v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "From Alignment to Access Control: A Framework for GenAI Policy Enforcement",
-      "summary": "Generative AI (GenAI) applications have flourished enabling users to chat with large language models, and to create agents to act on their behalf for a variety of tasks. The pace o",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-09-22",
-      "publishedAt": "",
-      "collectedAt": "2026-09-24T04:53",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-22",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.26682v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Beyond Repeated Sampling: Learning Search Policies for LLM Reasoning",
-      "summary": "Large language models increasingly tackle hard reasoning problems by spending more test-time compute, yet the dominant strategy remains naive repeated sampling: draw many independe",
-      "category": "ai-coding",
-      "source": "arXiv",
-      "date": "2026-09-22",
-      "publishedAt": "",
-      "collectedAt": "2026-09-24T04:53",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-22",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.26704v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Greedy Decoding Is Not Precision-Invariant: Cross-Precision Output Divergence in LLM Inference",
-      "summary": "Greedy decoding from large language models is commonly treated as deterministic. We show it is not precision-invariant: the same model, prompt, and decoding algorithm produce diffe",
-      "category": "ai-coding",
-      "source": "arXiv",
-      "date": "2026-09-22",
-      "publishedAt": "",
-      "collectedAt": "2026-09-24T04:53",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-22",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.26621v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
     }
   ],
   "weeklyDigests": [
+    {
+      "weekId": "2026-W40",
+      "label": "2026-09-28 ~ 2026-09-28",
+      "summary": "本周自动收集 GitHub 项目 0 个、Skill 候选 0 条、新闻 0 条，全部由 LLM 并发整理为中文条目。",
+      "skills": [],
+      "github": []
+    },
     {
       "weekId": "2026-W39",
       "label": "2026-09-21 ~ 2026-09-21",
@@ -6271,6 +6257,28 @@
     ],
     "ai-agents": [
       {
+        "name": "Structured Reasoning Agentic Framework for Interpretable Cri",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Surgical scene understanding is critical for computer-assisted intervention, yet laparoscopic cholecystectomy remains challenged by the complex anatomy of the h",
+        "description": "Surgical scene understanding is critical for computer-assisted intervention, yet laparoscopic cholecystectomy remains challenged by the complex anatomy of the hepatocystic triangle",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2609.31524v1"
+      },
+      {
+        "name": "Segment-Level Agentic Topic Modeling for Improved Data Explo",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Topic modeling is an effective technique for discovering hidden themes within documents and is widely used in text mining and data analysis across a variety of ",
+        "description": "Topic modeling is an effective technique for discovering hidden themes within documents and is widely used in text mining and data analysis across a variety of industry sectors. Re",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2609.31460v1"
+      },
+      {
         "name": "Beyond Approved Actions: Runtime Validation of Persistent Ou",
         "provider": "arXiv",
         "type": "AI 项目/工具",
@@ -6687,28 +6695,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:AI agent",
         "url": "https://www.benzinga.com/markets/tech/26/09/61962637/meta-ray-ban-audio-glasses-ai-zuckerberg-creation-invention"
-      },
-      {
-        "name": "US rejects pleas from OpenAI, Anthropic for global AI standa",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "The heads of OpenAI, Anthropic, and Hugging Face have told the UN that the current pace of artificial intelligence (AI) development and the risks it poses to so",
-        "description": "The heads of OpenAI, Anthropic, and Hugging Face have told the UN that the current pace of artificial intelligence (AI) development and the risks it poses to society demand interna",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.myjoyonline.com/us-rejects-pleas-from-openai-anthropic-for-global-ai-standards/"
-      },
-      {
-        "name": "Jung Yeon-tae’s Professional GPT Revolution 4 | OpenAI to En",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Series OverviewPart 1 | Why Does AI Get Things Wrong So Convincingly?Part 2 | Why the OXMV Loop and Evidence Ledger Are NecessaryPart 3 | Mapping Knowledge for ",
-        "description": "Series OverviewPart 1 | Why Does AI Get Things Wrong So Convincingly?Part 2 | Why the OXMV Loop and Evidence Ledger Are NecessaryPart 3 | Mapping Knowledge for AI with OntologyPart",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.koreaittimes.com/news/articleView.html?idxno=157505"
       }
     ],
     "ai-models": [
@@ -10436,7 +10422,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-28",
-    "generatedAt": "2026-09-28T01:14:57.330202Z",
+    "generatedAt": "2026-09-28T02:29:56.438767Z",
     "total": 23,
     "sections": [
       {
@@ -10455,6 +10441,39 @@
             "reason": ""
           },
           {
+            "title": "Prompt Minimization: Reducing Input Redundancy Without Sacrificing Output Fidelity",
+            "summary": "Despite the growing capabilities of large language models (LLMs), prompt design remains largely heuristic and ad hoc. This project will expl",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.31505v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-25",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "User Model Extraction via Belief Self-Distillation",
+            "summary": "Large language models (LLMs) implicitly infer attributes of their users and adapt their behavior accordingly, yet these beliefs remain diffi",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.31603v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-25",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "GraphWrit3R: End-to-End 3D Scene Graph Writing",
+            "summary": "3D scene graphs provide a structured representation of complex environments by encoding objects, their semantic attributes, and the spatial ",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.31595v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-25",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
             "title": "When the Model Retires: An Empirical Study of LLM Migration in Open-Source Applications",
             "summary": "Applications built on commercial large language model (LLM) APIs depend on model versions that providers retire on their own schedule, with ",
             "source": "arXiv",
@@ -10463,17 +10482,6 @@
             "sourceCount": 1,
             "date": "2026-09-25",
             "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Compressing Streaming Neural Audio Encoders via Latent-Space Distillation",
-            "summary": "System-wide Dictation on Apple devices runs entirely on-device, and the speech it transcribes reaches the foundation model through a tokeniz",
-            "source": "RSS · Apple ML Research",
-            "url": "https://machinelearning.apple.com/research/latent-space-distillation",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-24",
-            "publishedAt": "2026-09-24T08:00",
             "reason": ""
           },
           {
@@ -10503,39 +10511,6 @@
             "date": "2026-09-26",
             "publishedAt": "2026-09-26T00:09",
             "reason": ""
-          },
-          {
-            "title": "Pocket-STVG: lightweight architecture for Spatio-Temporal Video Grounding",
-            "summary": "Spatio-Temporal Video Grounding (STVG) aims to localize the spatio-temporal tube in a video corresponding to a natural language query. While",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.31135v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-25",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Automating coherent long-form video generation",
-            "summary": "Generative AI",
-            "source": "RSS · Google Research",
-            "url": "https://research.google/blog/coherent-long-form-video-generation/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-25",
-            "publishedAt": "2026-09-25T03:40",
-            "reason": ""
-          },
-          {
-            "title": "Speaker-labeled transcription with WhisperX on SageMaker AI",
-            "summary": "The AWS WhisperX Deep Learning Container packages Whisper, wav2vec2 forced alignment, and speaker diarization into a GPU-ready image. Learn ",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/speaker-labeled-transcription-with-whisperx-on-sagemaker-ai/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-25",
-            "publishedAt": "2026-09-25T00:20",
-            "reason": ""
           }
         ]
       },
@@ -10543,6 +10518,28 @@
         "category": "ai-agents",
         "label": "Agent / MCP",
         "items": [
+          {
+            "title": "Structured Reasoning Agentic Framework for Interpretable Critical View of Safety Assessment",
+            "summary": "Surgical scene understanding is critical for computer-assisted intervention, yet laparoscopic cholecystectomy remains challenged by the comp",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.31524v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-25",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Segment-Level Agentic Topic Modeling for Improved Data Exploration and Resource Efficiency",
+            "summary": "Topic modeling is an effective technique for discovering hidden themes within documents and is widely used in text mining and data analysis ",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.31460v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-25",
+            "publishedAt": "",
+            "reason": ""
+          },
           {
             "title": "Beyond Approved Actions: Runtime Validation of Persistent Outcomes in Agent Workflows",
             "summary": "Large language model agents increasingly act on software systems, no longer merely generating text but also changing databases and online se",
@@ -10563,17 +10560,6 @@
             "sourceCount": 1,
             "date": "2026-09-25",
             "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Build a multi-account AI agent with AgentCore Gateway and MCP",
-            "summary": "Build a multi-account architecture that keeps each team's data in its own AWS account while giving AI agents a unified way to query across t",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/build-a-multi-account-ai-agent-with-agentcore-gateway-and-mcp/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-25",
-            "publishedAt": "2026-09-25T00:12",
             "reason": ""
           }
         ]
@@ -10627,6 +10613,50 @@
             "reason": ""
           },
           {
+            "title": "FragToken: Amplifying LLM Inference Costs through Noncanonical Token Generation",
+            "summary": "As large language model (LLM) inference becomes increasingly expensive, resource-consumption attacks pose a growing threat to model provider",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.31552v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-25",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "New LoRA Skills Should Read but Never Write",
+            "summary": "Low-rank adapters (LoRA) make it cheap to fine-tune a large language model once per task, but combining several independently trained adapte",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.31600v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-25",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Evaluating Cultural Awareness of LLMs for Haitian Creole",
+            "summary": "Large language models (LLMs) exhibit substantial performance disparities between high- and low-resource languages. Beyond lower task perform",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.31506v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-25",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "ViSTA: A Simple Bridge Extends Visual Alignment to Clinical Time-Series Understanding in Multimodal LLMs",
+            "summary": "Clinical prediction models estimate risk from patient measurements, while large language models support medical text understanding and quest",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.31448v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-25",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
             "title": "Mutable Transcripts: Mitigating Context Pollution through Editable Conversation State",
             "summary": "Contemporary large language model (LLM) chat systems treat conversation history as an immutable sequence of turns that defines the model's w",
             "source": "arXiv",
@@ -10668,50 +10698,6 @@
             "sourceCount": 1,
             "date": "2026-09-25",
             "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "DIAL: Position-Debiased LLM Judges with Adaptive Human Preference Calibration",
-            "summary": "Large language models (LLMs) as a judge enable scalable evaluation, but their judgments can be sensitive to response order and, even after r",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.31215v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-25",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "LocUS: Head Selection and Subspace Projection for Targeted Activation Steering",
-            "summary": "Activation steering is a powerful training-free paradigm for controlling large language models at inference time. However, standard approach",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.31122v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-25",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Multi-Region training with Amazon SageMaker HyperPod and Qumulo",
-            "summary": "Amazon SageMaker HyperPod and Cloud Native Qumulo let you place training compute in one AWS Region while keeping your dataset in another. Th",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/multi-region-training-with-amazon-sagemaker-hyperpod-and-qumulo/",
-            "score": 70,
-            "sourceCount": 2,
-            "date": "2026-09-25",
-            "publishedAt": "2026-09-25T23:49",
-            "reason": ""
-          },
-          {
-            "title": "Aderant builds intelligent ticket triage with Amazon Nova",
-            "summary": "Learn how Aderant built an intelligent ticket triage system on Amazon Nova Lite through Amazon Bedrock, automating context gathering, classi",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/aderant-builds-intelligent-ticket-triage-with-amazon-nova/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-25",
-            "publishedAt": "2026-09-25T00:06",
             "reason": ""
           }
         ]
