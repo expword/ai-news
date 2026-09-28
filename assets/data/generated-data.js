@@ -1,7 +1,35 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-28",
-  "generatedAt": "2026-09-28T07:36:11.135952Z",
+  "generatedAt": "2026-09-28T10:08:47.053089Z",
   "news": [
+    {
+      "title": "Holo4: powering generalist computer-use agents",
+      "summary": "",
+      "category": "ai-agents",
+      "source": "RSS · Hugging Face Blog",
+      "date": "2026-09-28",
+      "publishedAt": "2026-09-28T17:44",
+      "collectedAt": "2026-09-28T18:08",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://huggingface.co/blog/Hcompany/holo4",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Claude 完成 N=4 超对称 Yang-Mills 九圈振幅计算，物理学家 Matt von Hippel 复盘挑战始末",
       "summary": "物理学家 Matt von Hippel 发文复盘：Anthropic 的 Liam Fitzpatrick 和 Siddharth Mishra-Sharma 用 Claude Science（Fable 5.1）以约一两千美元预算完成平面 N=4 超对称 Yang-Mills 六粒子九圈振幅计算。",
@@ -2570,87 +2598,6 @@ window.AI_GENERATED_DATA = {
       "sourceDate": "",
       "tags": [],
       "url": "https://openai.com/index/airbnb-gpt-6-astra",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Sam Altman’s remarks at the United Nations Security Council",
-      "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
-      "category": "ai-models",
-      "source": "RSS · OpenAI Blog",
-      "date": "2026-09-23",
-      "publishedAt": "2026-09-23T20:00",
-      "collectedAt": "2026-09-24T06:02",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "How invideo improves color grading 3x with GPT‑6 Astra",
-      "summary": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
-      "category": "ai-image-video",
-      "source": "RSS · OpenAI Blog",
-      "date": "2026-09-23",
-      "publishedAt": "2026-09-23T20:00",
-      "collectedAt": "2026-09-24T03:40",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
-      "summary": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
-      "category": "ai-models",
-      "source": "RSS · OpenAI Blog",
-      "date": "2026-09-23",
-      "publishedAt": "2026-09-23T20:00",
-      "collectedAt": "2026-09-24T03:40",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -5756,6 +5703,17 @@ window.AI_GENERATED_DATA = {
   "topicResources": {
     "ai-coding": [
       {
+        "name": "NVIDIA 发布开源运行时 OpenShell，为 AI Agent 提供权限管控与安全沙箱",
+        "provider": "NVIDIA Technical Blog：Agentic AI / Generative AI",
+        "type": "AI 项目/工具",
+        "bestFor": "NVIDIA 推出开源项目 NVIDIA OpenShell 0.1.0，这是一个用于定义和执行 AI Agent 访问权限的运行时。它通过沙箱执行、受控服务访问、凭证管理和形式化策略分析，在 Agent 工作负载外部强制实施权限控制。OpenShell 支持 Codex、Claude Code 等框架，允许团队在不重",
+        "description": "NVIDIA 推出开源项目 NVIDIA OpenShell 0.1.0，这是一个用于定义和执行 AI Agent 访问权限的运行时。它通过沙箱执行、受控服务访问、凭证管理和形式化策略分析，在 Agent 工作负载外部强制实施权限控制。OpenShell 支持 Codex、Claude Code 等框架，允许团队在不重写 Agent 的情况下限制 API 操",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NVIDIA Technical Blog：Agentic AI / Generative AI",
+        "url": "https://developer.nvidia.com/blog/add-runtime-controls-to-ai-agents-with-nvidia-openshell/"
+      },
+      {
         "name": "Linux Kernel Weighs AGENTS.md File to Tame AI Coding Agents",
         "provider": "NewsData.io",
         "type": "AI 项目/工具",
@@ -6183,20 +6141,42 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Trinidad Express Newspapers",
         "url": "https://trinidadexpress.com/online_features/press_releases/cometapi-adds-openai-s-gpt-6-astra-api-to-its-multi-model-developer-platform/article_e87b884b-fd74-5310-96cb-89ef80e54aa1.html"
-      },
-      {
-        "name": "Anthropic 如何重构测试影响分析服务以应对智能体编码带来的 CI 压力",
-        "provider": "Claude：Blog（网页）",
-        "type": "AI 项目/工具",
-        "bestFor": "Anthropic 工程师每季度交付的代码量是 2021-2025 年均值的 8 倍，其中 80% 由 Claude 编写，六个月内 CI 任务增长 25 倍。",
-        "description": "Anthropic 工程师每季度交付的代码量是 2021-2025 年均值的 8 倍，其中 80% 由 Claude 编写，六个月内 CI 任务增长 25 倍。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Claude：Blog（网页）",
-        "url": "https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic"
       }
     ],
     "ai-agents": [
+      {
+        "name": "NVIDIA 发布开源智能体安全平台，提供芯片级持续监控与隔离",
+        "provider": "NVIDIA Technical Blog：Agentic AI / Generative AI",
+        "type": "AI 项目/工具",
+        "bestFor": "NVIDIA 推出 NVIDIA Open Agent Safety Platform，包含开源运行时 OpenShell、硬件层 Sentry 及 DOCA 技术。该平台旨在通过内核级隔离、零信任环境和带外（out-of-band）监控来防止 AI 智能体行为漂移和越权。OpenShell 将操作指令转化为可验证策略",
+        "description": "NVIDIA 推出 NVIDIA Open Agent Safety Platform，包含开源运行时 OpenShell、硬件层 Sentry 及 DOCA 技术。该平台旨在通过内核级隔离、零信任环境和带外（out-of-band）监控来防止 AI 智能体行为漂移和越权。OpenShell 将操作指令转化为可验证策略，BlueField DPU 在模型路径",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NVIDIA Technical Blog：Agentic AI / Generative AI",
+        "url": "https://developer.nvidia.com/blog/nvidia-open-agent-safety-platform-a-reference-for-continuous-in-silicon-agent-monitoring/"
+      },
+      {
+        "name": "Holo4: powering generalist computer-use agents",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "",
+        "description": "",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Hugging Face Blog",
+        "url": "https://huggingface.co/blog/Hcompany/holo4"
+      },
+      {
+        "name": "英伟达联合超100家伙伴推出开放代理安全平台",
+        "provider": "X：Jensen Huang (@JensenHuang)",
+        "type": "AI 项目/工具",
+        "bestFor": "2026年9月28日，黄仁勋在X平台宣布，英伟达联合超过100家行业伙伴，推出NVIDIA Open Agent Safety Platform，整合OpenShell与Sentry两大组件。该平台旨在构建安全代理系统的信任层，强调“安全是信任的基础”，并称其为“AI经济的基石”。",
+        "description": "2026年9月28日，黄仁勋在X平台宣布，英伟达联合超过100家行业伙伴，推出NVIDIA Open Agent Safety Platform，整合OpenShell与Sentry两大组件。该平台旨在构建安全代理系统的信任层，强调“安全是信任的基础”，并称其为“AI经济的基石”。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "X：Jensen Huang (@JensenHuang)",
+        "url": "https://x.com/JensenHuang/status/2104499465055023424"
+      },
       {
         "name": "Towards Mitigating Fabricated Consensus: The Active Provenan",
         "provider": "arXiv",
@@ -6603,39 +6583,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:AI agent",
         "url": "https://www.smh.com.au/technology/rogue-agent-or-human-error-what-openai-s-medicare-breach-means-for-you-20260924-p6101p.html"
-      },
-      {
-        "name": "FACTBOX-OpenAI data breach latest in long list of hacks in A",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Australia said on Thursday an OpenAI agent breached a government health data portal in June gaining unauthorised access to files in what could be the first know",
-        "description": "Australia said on Thursday an OpenAI agent breached a government health data portal in June gaining unauthorised access to files in what could be the first known instance of an AI ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.devdiscourse.com/article/international/3981600-factbox-openai-data-breach-latest-in-long-list-of-hacks-in-australia"
-      },
-      {
-        "name": "Rogue agent or human error? What OpenAI’s Medicare breach me",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "The modern cyber threat is no longer a person in a balaclava. How secure is our data in this new AI age?",
-        "description": "The modern cyber threat is no longer a person in a balaclava. How secure is our data in this new AI age?",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.watoday.com.au/technology/rogue-agent-or-human-error-what-openai-s-medicare-breach-means-for-you-20260924-p6101p.html"
-      },
-      {
-        "name": "Rogue agent or human error? What OpenAI’s Medicare breach me",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "The modern cyber threat is no longer a person in a balaclava. How secure is our data in this new AI age?",
-        "description": "The modern cyber threat is no longer a person in a balaclava. How secure is our data in this new AI age?",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.brisbanetimes.com.au/technology/rogue-agent-or-human-error-what-openai-s-medicare-breach-means-for-you-20260924-p6101p.html"
       }
     ],
     "ai-models": [
@@ -10363,7 +10310,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-28",
-    "generatedAt": "2026-09-28T07:36:11.116147Z",
+    "generatedAt": "2026-09-28T10:08:47.034085Z",
     "total": 24,
     "sections": [
       {
@@ -10471,6 +10418,17 @@ window.AI_GENERATED_DATA = {
         "label": "Agent / MCP",
         "items": [
           {
+            "title": "Holo4: powering generalist computer-use agents",
+            "summary": "",
+            "source": "RSS · Hugging Face Blog",
+            "url": "https://huggingface.co/blog/Hcompany/holo4",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-28",
+            "publishedAt": "2026-09-28T17:44",
+            "reason": ""
+          },
+          {
             "title": "Towards Mitigating Fabricated Consensus: The Active Provenance Gate for Multi-Agent Debate Synthesis",
             "summary": "Large language model-based multi-agent debate (MAD) systems are being increasingly used as complex decision pipelines in distributed process",
             "source": "arXiv",
@@ -10508,17 +10466,6 @@ window.AI_GENERATED_DATA = {
             "summary": "Large language model agents increasingly act on software systems, no longer merely generating text but also changing databases and online se",
             "source": "arXiv",
             "url": "http://arxiv.org/abs/2609.31301v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-25",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Resource-Optimized and Energy-Aware Agentic AI Framework Anchored on Blockchain for Secure Software Supply Chains",
-            "summary": "This paper proposes a blockchain-backed agentic security framework designed to safeguard the complete software development lifecycle (SDLC) ",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.31282v1",
             "score": 70,
             "sourceCount": 1,
             "date": "2026-09-25",
