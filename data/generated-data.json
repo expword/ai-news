@@ -1,7 +1,34 @@
 {
-  "lastUpdated": "2026-09-28",
-  "generatedAt": "2026-09-28T13:57:58.876143Z",
+  "lastUpdated": "2026-09-29",
+  "generatedAt": "2026-09-28T15:32:47.032355Z",
   "news": [
+    {
+      "title": "A Mechanistic Study of AI-Text Detection Neurons in Frozen BERT: Sparse Probing and Activation Patching on RAID",
+      "summary": "arXiv:2609.30287v1 Announce Type: new Abstract: AI-generated text detectors achieve high accuracy on standard benchmarks, yet the internal representations that drive these predicti",
+      "category": "ai-coding",
+      "source": "RSS · arXiv cs.CL",
+      "date": "2026-09-28",
+      "publishedAt": "",
+      "collectedAt": "2026-09-28T23:32",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-28",
+      "tags": [],
+      "url": "https://arxiv.org/abs/2609.30287",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Holo4: powering generalist computer-use agents",
       "summary": "",
@@ -10174,13 +10201,24 @@
   ],
   "dailyReport": {
     "date": "2026-09-28",
-    "generatedAt": "2026-09-28T13:57:58.853143Z",
+    "generatedAt": "2026-09-28T15:32:47.010354Z",
     "total": 24,
     "sections": [
       {
         "category": "ai-coding",
         "label": "AI 编程",
         "items": [
+          {
+            "title": "A Mechanistic Study of AI-Text Detection Neurons in Frozen BERT: Sparse Probing and Activation Patching on RAID",
+            "summary": "arXiv:2609.30287v1 Announce Type: new Abstract: AI-generated text detectors achieve high accuracy on standard benchmarks, yet the internal r",
+            "source": "RSS · arXiv cs.CL",
+            "url": "https://arxiv.org/abs/2609.30287",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-28",
+            "publishedAt": "",
+            "reason": ""
+          },
           {
             "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
             "summary": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
@@ -10319,17 +10357,6 @@
             "summary": "Topic modeling is an effective technique for discovering hidden themes within documents and is widely used in text mining and data analysis ",
             "source": "arXiv",
             "url": "http://arxiv.org/abs/2609.31460v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-25",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Beyond Approved Actions: Runtime Validation of Persistent Outcomes in Agent Workflows",
-            "summary": "Large language model agents increasingly act on software systems, no longer merely generating text but also changing databases and online se",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.31301v1",
             "score": 70,
             "sourceCount": 1,
             "date": "2026-09-25",
@@ -10480,6 +10507,47 @@
     ]
   },
   "dailyReports": [
+    {
+      "date": "2026-09-28",
+      "generatedAt": "2026-09-28T16:00:47.452803Z",
+      "total": 2,
+      "sections": [
+        {
+          "category": "ai-coding",
+          "label": "AI 编程",
+          "items": [
+            {
+              "title": "A Mechanistic Study of AI-Text Detection Neurons in Frozen BERT: Sparse Probing and Activation Patching on RAID",
+              "summary": "arXiv:2609.30287v1 Announce Type: new Abstract: AI-generated text detectors achieve high accuracy on standard benchmarks, yet the internal r",
+              "source": "RSS · arXiv cs.CL",
+              "url": "https://arxiv.org/abs/2609.30287",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-28",
+              "publishedAt": "",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-agents",
+          "label": "Agent / MCP",
+          "items": [
+            {
+              "title": "Holo4: powering generalist computer-use agents",
+              "summary": "",
+              "source": "RSS · Hugging Face Blog",
+              "url": "https://huggingface.co/blog/Hcompany/holo4",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-28",
+              "publishedAt": "2026-09-28T17:44",
+              "reason": ""
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-09-27",
       "generatedAt": "2026-09-27T16:00:00.664329Z",
@@ -19342,118 +19410,10 @@
           ]
         }
       ]
-    },
-    {
-      "date": "2026-07-27",
-      "generatedAt": "2026-07-27T16:31:55.774886Z",
-      "total": 7,
-      "sections": [
-        {
-          "category": "ai-tools",
-          "label": "AI 工具",
-          "items": [
-            {
-              "title": "Suno 新功能上线：MIDI 导出与高级音轨分离",
-              "summary": "Suno 最近推出了一系列新功能，旨在提升用户的创作体验。新功能包括高级音轨分离、音轨导出为 MIDI、歌词合写与自动保存、截图生成歌曲，以及支持 Apple CarPlay 和 Android Auto。这些功能将帮助音乐创作者更高效地制作和分享作品。",
-              "source": "X：Suno (@suno)",
-              "url": "https://x.com/suno/status/2081443050312843765",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-07-27",
-              "publishedAt": "2026-07-27T02:14",
-              "reason": "Suno 的新功能显著提升了音乐创作的效率和灵活性，值得音乐创作者尝试。"
-            }
-          ]
-        },
-        {
-          "category": "ai-agents",
-          "label": "Agent / MCP",
-          "items": [
-            {
-              "title": "Kimi K3 开源分布式智能体环境 AgentENV",
-              "summary": "Kimi.ai 与 kvcache-ai 合作推出的 AgentENV 是一个分布式系统，旨在支持大规模智能体环境的运行。该系统为 Kimi K3 的智能体强化学习训练提供了快速快照、恢复和分支功能，适合大规模并行工作流，标志着智能体技术的进一步发展。",
-              "source": "X：Kimi.ai (@Kimi_Moonshot)",
-              "url": "https://x.com/Kimi_Moonshot/status/2081762978391843020",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-07-27",
-              "publishedAt": "2026-07-27T23:25",
-              "reason": "AgentENV 的开源发布为智能体技术的开发和应用提供了新的可能性，值得关注。"
-            },
-            {
-              "title": "开源Leader.skill：将模糊需求转化为可执行目标",
-              "summary": "Leader.skill是一个新开源的工具，旨在将模糊的人类需求转化为Agent可独立执行的目标任务书。该工具基于\"目标七问\"方法论，涵盖多个维度，并推荐使用Claude Fable 5或Kimi K3进行目标规划，最终交由GPT-5.6 Sol或GLM-5.2等模型执行。",
-              "source": "公众号：数字生命卡兹克",
-              "url": "https://mp.weixin.qq.com/s/AwOk3di8m6eVeIUjzNftgg",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-07-27",
-              "publishedAt": "2026-07-27T08:12",
-              "reason": "Leader.skill通过系统化的方法将模糊需求转化为可执行目标，显著提升了Agent的实用性，是AI开发者不可错过的工具。"
-            }
-          ]
-        },
-        {
-          "category": "ai-models",
-          "label": "模型发布",
-          "items": [
-            {
-              "title": "Kimi K3 开源：强大的 2.8T MoE 模型与技术报告",
-              "summary": "我注意到 Kimi 最近发布了其最新的 Kimi K3 模型，这是一个拥有 2.8T 参数的 MoE 模型，具备原生的视觉理解能力和 1M token 的上下文窗口。新架构在每单位计算上实现了 2.5 倍的智能提升。此外，Kimi 还开源了高性能的注意力内核、MoE 通信库以及大",
-              "source": "X：Kimi.ai (@Kimi_Moonshot)",
-              "url": "https://x.com/Kimi_Moonshot/status/2081760186235289764",
-              "score": 69,
-              "sourceCount": 1,
-              "date": "2026-07-27",
-              "publishedAt": "2026-07-27T23:14",
-              "reason": "Kimi K3 的开源不仅提供了强大的技术支持，还为开发者和研究人员提供了丰富的工具，值得关注和尝试。"
-            },
-            {
-              "title": "Kimi K3 正式上线 Modal，采用无损加速推理技术",
-              "summary": "Kimi.ai 宣布与 Modal 合作，成为 Kimi K3 的 Day 0 发布合作伙伴。Modal 为 K3 的架构训练了定制的 DFlash 投机器，提升推理速度且无质量损失。",
-              "source": "X：Kimi.ai (@Kimi_Moonshot)",
-              "url": "https://x.com/Kimi_Moonshot/status/2081767591887122564",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-07-27",
-              "publishedAt": "2026-07-27T23:44",
-              "reason": "Kimi K3 的无损加速推理技术将显著提升 AI 应用的性能，值得关注。"
-            },
-            {
-              "title": "Berkeley RDI 提出软件自主开发三级框架",
-              "summary": "Berkeley RDI 提出的三级软件自主开发框架，旨在通过 AI 技术提升软件开发效率。框架分为代码自主、流水线自主和需求自主三个层级，分别对应 AI 在设计、实施及决策中的角色转变。该框架为软件开发的能力声明、部署选择与问责提供了清晰的分类，有助于开发者理解 AI 在软件开",
-              "source": "Berkeley RDI：Blog（AI 安全与评测）",
-              "url": "https://rdi.berkeley.edu/blog/auto-software-dev",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-07-27",
-              "publishedAt": "2026-07-27T15:51",
-              "reason": "该框架为软件开发提供了新的视角，帮助开发者理解 AI 在不同阶段的应用潜力，值得关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-office",
-          "label": "办公提效",
-          "items": [
-            {
-              "title": "Vista 推出可协作的 HTML PPT 生成工具",
-              "summary": "我最近看到 Vista 基于 bento PPT 开发了一个新工具，只需输入内容或主题，就能自动生成可编辑的 HTML PPT，支持在线演示和协作。安装非常简单，只需运行 `npx skills add joeseesun/qiaomu-bento-ppt`，推荐使用 Kimi ",
-              "source": "X：Vista (@vista8)",
-              "url": "https://x.com/vista8/status/2081568902241513786",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-07-27",
-              "publishedAt": "2026-07-27T10:34",
-              "reason": "这个工具的自动化和协作功能，能显著提升团队的工作效率，值得一试。"
-            }
-          ]
-        }
-      ]
     }
   ],
   "llmLeaderboard": {
-    "updated": "2026-09-28",
+    "updated": "2026-09-29",
     "source": "ReLE 中文大模型能力评测（综合能力）",
     "sourceUrl": "https://github.com/jeinlee1991/chinese-llm-benchmark",
     "items": [
