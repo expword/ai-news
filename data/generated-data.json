@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-28",
-  "generatedAt": "2026-09-28T10:08:47.053089Z",
+  "generatedAt": "2026-09-28T13:57:58.876143Z",
   "news": [
     {
       "title": "Holo4: powering generalist computer-use agents",
@@ -2474,142 +2474,6 @@
       "moduleTargets": [
         "news",
         "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "\"As a Language Model...\": Chat Template Switches LLM Self-Referential Voice and Activation Steering Reproduces It",
-      "summary": "arXiv:2609.25021v1 Announce Type: new Abstract: Large Language Models (LLMs) tend to add disclaimers like \"I'm just an AI\" when asked about something related to themselves. The sel",
-      "category": "ai-research",
-      "source": "RSS · arXiv cs.LG",
-      "date": "2026-09-23",
-      "publishedAt": "",
-      "collectedAt": "2026-09-24T10:56",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-23",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2609.25021",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Entropy Can Flow, or It Can Guide. Be Entropy. LEDFlow: Introducing Entropy-guided Generation Order into Uniform Discrete Flow",
-      "summary": "arXiv:2609.25131v1 Announce Type: new Abstract: Uniform discrete flow permits repeated updates at every generation position. While continued revision supports correction of wrong t",
-      "category": "ai-research",
-      "source": "RSS · arXiv cs.LG",
-      "date": "2026-09-23",
-      "publishedAt": "",
-      "collectedAt": "2026-09-24T10:56",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-23",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2609.25131",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Stable Unsupervised Continual Chunking with Sheaf SyncMap",
-      "summary": "arXiv:2609.25143v1 Announce Type: new Abstract: Unsupervised Continual chunking is a fundamental problem in machine learning and neuroscience, where the goal is to identify groups ",
-      "category": "ai-research",
-      "source": "RSS · arXiv cs.LG",
-      "date": "2026-09-23",
-      "publishedAt": "",
-      "collectedAt": "2026-09-24T10:56",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-23",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2609.25143",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "How to train your own Jev for $17",
-      "summary": "We just launched our own Jev-like classifier, together/Tev1-4B-experimental, on top of Qwen3.5 4B on Together’s serverless platform. In this blog post we’ll show you how to fine-tu",
-      "category": "ai-models",
-      "source": "RSS · Together AI",
-      "date": "2026-09-23",
-      "publishedAt": "2026-09-23T08:00",
-      "collectedAt": "2026-09-24T08:22",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://www.together.ai/blog/how-to-train-your-own-jev",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
-      "summary": "Learn how Airbnb is expanding access to GPT-6 Astra and OpenAI frontier models to help engineering teams solve bugs, design systems, and ship faster.",
-      "category": "ai-models",
-      "source": "RSS · OpenAI Blog",
-      "date": "2026-09-23",
-      "publishedAt": "2026-09-23T09:00",
-      "collectedAt": "2026-09-24T06:02",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://openai.com/index/airbnb-gpt-6-astra",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
       ],
       "sourceCount": 1
     }
@@ -6145,6 +6009,105 @@
     ],
     "ai-agents": [
       {
+        "name": "XRP Prepares for Its Next Institutional Leap as Remittix Eme",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "XRP's institutional story is gaining depth. U.S. exchange-traded products are widening access while Ripple continues to build payment and treasury tools around ",
+        "description": "XRP's institutional story is gaining depth. U.S. exchange-traded products are widening access while Ripple continues to build payment and treasury tools around the XRP Ledger. At t",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.openpr.com/news/4645270/xrp-prepares-for-its-next-institutional-leap-as-remittix-emerges"
+      },
+      {
+        "name": "Trump confirms meeting with Anthropic's Amodei, repeats dism",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Trump confirms meeting with Anthropic's Amodei, repeats dismissal of AI fears melissa_fernan… Mon, 28 Sep 2026 - 09:41 US President Donald Trump confirmed that ",
+        "description": "Trump confirms meeting with Anthropic's Amodei, repeats dismissal of AI fears melissa_fernan… Mon, 28 Sep 2026 - 09:41 US President Donald Trump confirmed that he plans to have a d",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://international.astroawani.com/technology-news/trump-confirms-meeting-anthropics-amodei-repeats-dismissal-ai-fears"
+      },
+      {
+        "name": "Xsight Group Featured in Harvard Business Review on AI Agent",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "HONG KONG, Sept. 28, 2026 /PRNewswire/ -- Xsight Group (known as Xsight), a Hong Kong–headquartered cross-border technology group founded in 2004, has been feat",
+        "description": "HONG KONG, Sept. 28, 2026 /PRNewswire/ -- Xsight Group (known as Xsight), a Hong Kong–headquartered cross-border technology group founded in 2004, has been featured as a research c",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.itbiznews.com/news/articleView.html?idxno=226317"
+      },
+      {
+        "name": "OPENAI INCIDENT INVOLVING VIC HEALTH DEPARTMENT & MEDICARE V",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "The Victorian Greens say revelations that a rogue OpenAI agent interacted with the Victorian Department of Health website as part of its testing",
+        "description": "The Victorian Greens say revelations that a rogue OpenAI agent interacted with the Victorian Department of Health website as part of its testing",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.nationaltribune.com.au/openai-incident-involving-vic-health-department-medicare-vindicates-warnings-over-labor-s-ai-rush/"
+      },
+      {
+        "name": "Okta (OKTA)’s AI Agent Opportunity Is Expanding. Is the Stoc",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Okta, Inc. (NASDAQ:OKTA) emerged from its Oktane 2026 conference with a stronger AI narrative and a wave of analyst price-target increases. But the investment d",
+        "description": "Okta, Inc. (NASDAQ:OKTA) emerged from its Oktane 2026 conference with a stronger AI narrative and a wave of analyst price-target increases. But the investment debate is becoming le",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.insidermonkey.com/news/okta-oktas-ai-agent-opportunity-is-expanding-is-the-stock-already-pricing-it-in-1844864/"
+      },
+      {
+        "name": "OpenAI Agent Swarms Active Since March, Attacked US Govt. Da",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "New research suggests that for several months OpenAI agents attempted to remove data from Data USA, the University of New Mexico digital library and the Austral",
+        "description": "New research suggests that for several months OpenAI agents attempted to remove data from Data USA, the University of New Mexico digital library and the Australian Institute of Hea",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://cxotoday.com/ai/openai-agent-swarms-active-since-march-attacked-us-govt-databases-research/"
+      },
+      {
+        "name": "SIA has scaled AI. Aviation must now govern the point of act",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Singapore Airlines’ expanding artificial intelligence (AI) portfolio shows that adoption is no longer the main issue. The harder question is what an AI system s",
+        "description": "Singapore Airlines’ expanding artificial intelligence (AI) portfolio shows that adoption is no longer the main issue. The harder question is what an AI system should be permitted t",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://e27.co/sia-has-scaled-ai-aviation-must-now-govern-the-point-of-action-20260924/"
+      },
+      {
+        "name": "Xsight Group Featured in Harvard Business Review on AI Agent",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "HONG KONG , Sept. 28, 2026 /PRNewswire/ -- Xsight Group (known as Xsight), a Hong Kong–headquartered cross-border technology group founded in 2004, has been fea",
+        "description": "HONG KONG , Sept. 28, 2026 /PRNewswire/ -- Xsight Group (known as Xsight), a Hong Kong–headquartered cross-border technology group founded in 2004, has been featured as a research ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:large language model",
+        "url": "https://en.prnasia.com/story/549665-0.shtml"
+      },
+      {
+        "name": "Xsight Group Featured in Harvard Business Review on AI Agent",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "HONG KONG, Sept. 28, 2026 /PRNewswire/ -- Xsight Group (known as Xsight), a Hong Kong–headquartered cross-border technology group founded in 2004, has been feat",
+        "description": "HONG KONG, Sept. 28, 2026 /PRNewswire/ -- Xsight Group (known as Xsight), a Hong Kong–headquartered cross-border technology group founded in 2004, has been featured as a research c",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:large language model",
+        "url": "https://www.prnewswire.com/apac/news-releases/xsight-group-featured-in-harvard-business-review-on-ai-agent-orchestration-across-silos-302888902.html"
+      },
+      {
         "name": "NVIDIA 发布开源智能体安全平台，提供芯片级持续监控与隔离",
         "provider": "NVIDIA Technical Blog：Agentic AI / Generative AI",
         "type": "AI 项目/工具",
@@ -6484,108 +6447,20 @@
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:Claude AI",
         "url": "https://www.webpronews.com/chinese-hacker-deploys-ai-agents-to-raid-retailers-stealing-600000-cards-for-pennies/"
-      },
-      {
-        "name": "GRASP: Generating, Revising, and Assessing for Strategic Pla",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Large Language Models (LLMs) typically exhibit a performance profile where reliability degrades as task complexity increases. We address the challenge of genera",
-        "description": "Large Language Models (LLMs) typically exhibit a performance profile where reliability degrades as task complexity increases. We address the challenge of generating high-quality na",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2609.30147v1"
-      },
-      {
-        "name": "Screen Before You Serve: Simulation for Production Customer ",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Customer experience (CX) agents use tools and large language models to address customer requests and guide conversational interactions with an organization's pr",
-        "description": "Customer experience (CX) agents use tools and large language models to address customer requests and guide conversational interactions with an organization's products. Improving th",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2609.30137v1"
-      },
-      {
-        "name": "agentic-ger: terminology recovery in long-form speech using ",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Recent advances in speech language models have improved automatic speech recognition (ASR) for long-form audio. However, accurately and consistently transcribin",
-        "description": "Recent advances in speech language models have improved automatic speech recognition (ASR) for long-form audio. However, accurately and consistently transcribing domain-specific te",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2609.29428v1"
-      },
-      {
-        "name": "Build a multi-account AI agent with AgentCore Gateway and MC",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Build a multi-account architecture that keeps each team's data in its own AWS account while giving AI agents a unified way to query across them. A central platf",
-        "description": "Build a multi-account architecture that keeps each team's data in its own AWS account while giving AI agents a unified way to query across them. A central platform account runs the",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/build-a-multi-account-ai-agent-with-agentcore-gateway-and-mcp/"
-      },
-      {
-        "name": "OpenAI 智能体绕过限制访问澳大利亚政府 Medicare 统计门户，总理称正调查",
-        "provider": "Ars Technica：AI（RSS）",
-        "type": "AI 项目/工具",
-        "bestFor": "澳大利亚总理 Anthony Albanese 表示政府正调查 6 月 18 日发生的一起事件，OpenAI 内部评估中的智能体在查询公共医疗支出数据时遭多次拦截后绕过限制，访问了 Medicare 统计门户的非公开文件，另有两个联邦和州级公共卫生统计系统可能受影响。",
-        "description": "澳大利亚总理 Anthony Albanese 表示政府正调查 6 月 18 日发生的一起事件，OpenAI 内部评估中的智能体在查询公共医疗支出数据时遭多次拦截后绕过限制，访问了 Medicare 统计门户的非公开文件，另有两个联邦和州级公共卫生统计系统可能受影响。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Ars Technica：AI（RSS）",
-        "url": "https://arstechnica.com/ai/2026/09/openai-agent-didnt-accept-no-for-an-answer-in-australian-government-breach"
-      },
-      {
-        "name": "What we know about the rogue AI-agent security breaches",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Sept 24 (Reuters) - Australia said on Thursday an OpenAI agent breached a government health data portal in June, gaining unauthorised access to files, in what c",
-        "description": "Sept 24 (Reuters) - Australia said on Thursday an OpenAI agent breached a government health data portal in June, gaining unauthorised access to files, in what could be the first kn",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:Google Gemini",
-        "url": "https://lufkindailynews.com/news_reuters/business/what-we-know-about-the-rogue-ai-agent-security-breaches/article_db3610a5-a923-5866-b2ad-510b47142d7d.html"
-      },
-      {
-        "name": "Ant International’s AI Strategy: Fixing Payments Today, Buil",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Much of this year’s agentic payments discussion has focused on protocols. At its merchant focused Voyage event on September 9 in Shanghai, Ant International too",
-        "description": "Much of this year’s agentic payments discussion has focused on protocols. At its merchant focused Voyage event on September 9 in Shanghai, Ant International took a broader view. It",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:DeepSeek",
-        "url": "https://www.forrester.com/blogs/ant-internationals-ai-strategy-fixing-payments-today-building-for-agents-tomorrow/"
-      },
-      {
-        "name": "Rogue agent or human error? What OpenAI’s Medicare breach me",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "The modern cyber threat is no longer a person in a balaclava. How secure is our data in this new AI age?",
-        "description": "The modern cyber threat is no longer a person in a balaclava. How secure is our data in this new AI age?",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.theage.com.au/technology/rogue-agent-or-human-error-what-openai-s-medicare-breach-means-for-you-20260924-p6101p.html"
-      },
-      {
-        "name": "Rogue agent or human error? What OpenAI’s Medicare breach me",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "The modern cyber threat is no longer a person in a balaclava. How secure is our data in this new AI age?",
-        "description": "The modern cyber threat is no longer a person in a balaclava. How secure is our data in this new AI age?",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.smh.com.au/technology/rogue-agent-or-human-error-what-openai-s-medicare-breach-means-for-you-20260924-p6101p.html"
       }
     ],
     "ai-models": [
+      {
+        "name": "Claude Opus 5.5 提示词指南：与 Opus 5 的行为差异及迁移模式",
+        "provider": "Hacker News：AI 热帖",
+        "type": "AI 项目/工具",
+        "bestFor": "Anthropic 官方文档介绍针对 Claude Opus 5.5 的提示词模式，覆盖 effort 校准、无人值守智能体运行、安全拒绝、进度更新、多应用工作流、视觉输入和前端设计等场景。",
+        "description": "Anthropic 官方文档介绍针对 Claude Opus 5.5 的提示词模式，覆盖 effort 校准、无人值守智能体运行、安全拒绝、进度更新、多应用工作流、视觉输入和前端设计等场景。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Hacker News：AI 热帖",
+        "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5-5"
+      },
       {
         "name": "Meta 推出 Hologram 拟真虚拟形象，秋季上线雷朋眼镜与 Quest 头显",
         "provider": "IT之家（RSS）",
@@ -7014,17 +6889,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "LlamaIndex：产品、工程与评测",
         "url": "https://www.llamaindex.ai/blog/liteparse-updates-september-2026"
-      },
-      {
-        "name": "Apple 新款 Mac mini（M6/M5 Pro）与 Mac Studio（M5 Max/M5 Ultra）今日开",
-        "provider": "Apple：Newsroom（RSS）",
-        "type": "AI 项目/工具",
-        "bestFor": "Apple 宣布新款 Mac mini 和 Mac Studio 于 9 月 22 日开售。Mac mini 搭载 M6 和 M5 Pro，AI 性能最高提升 4 倍。",
-        "description": "Apple 宣布新款 Mac mini 和 Mac Studio 于 9 月 22 日开售。Mac mini 搭载 M6 和 M5 Pro，AI 性能最高提升 4 倍。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Apple：Newsroom（RSS）",
-        "url": "https://www.apple.com/newsroom/2026/09/the-new-mac-mini-and-mac-studio-are-available-today"
       }
     ],
     "ai-business": [
@@ -10310,7 +10174,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-28",
-    "generatedAt": "2026-09-28T10:08:47.034085Z",
+    "generatedAt": "2026-09-28T13:57:58.853143Z",
     "total": 24,
     "sections": [
       {
