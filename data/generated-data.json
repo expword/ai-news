@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-28",
-  "generatedAt": "2026-09-28T02:29:56.461767Z",
+  "generatedAt": "2026-09-28T04:56:18.534867Z",
   "news": [
     {
       "title": "Claude 完成 N=4 超对称 Yang-Mills 九圈振幅计算，物理学家 Matt von Hippel 复盘挑战始末",
@@ -185,6 +185,116 @@
       "tier": "T1.5",
       "scores": {},
       "score": 56,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "AlphaOpsBench: Benchmarking End-to-End Alpha Strategy Operationalization in Prediction Markets",
+      "summary": "Large language models increasingly generate quantitative trading strategies, yet existing benchmarks assume standardized assets, numerical features, or directly compilable strategy",
+      "category": "ai-benchmark",
+      "source": "arXiv",
+      "date": "2026-09-25",
+      "publishedAt": "",
+      "collectedAt": "2026-09-28T12:56",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-25",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.31390v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "benchmarkDatasets"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Towards Mitigating Fabricated Consensus: The Active Provenance Gate for Multi-Agent Debate Synthesis",
+      "summary": "Large language model-based multi-agent debate (MAD) systems are being increasingly used as complex decision pipelines in distributed processes. However, their final synthesis phase",
+      "category": "ai-agents",
+      "source": "arXiv",
+      "date": "2026-09-25",
+      "publishedAt": "",
+      "collectedAt": "2026-09-28T12:56",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-25",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.31422v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Intent2Tc: Automated Intent-to-Traffic Control Translation with Language Models",
+      "summary": "Automated and highly usable Quality-of-Service (QoS) enforcement requires translating high-level service intents into deployable traffic-management policies. Although intent-based ",
+      "category": "ai-research",
+      "source": "arXiv",
+      "date": "2026-09-25",
+      "publishedAt": "",
+      "collectedAt": "2026-09-28T12:56",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-25",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.31397v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Highlight-Then-Summarize: Learning to Compress Evidence for Long-Context Understanding",
+      "summary": "Long-context understanding requires large language models (LLMs) to reason over lengthy documents, conversations, and code, yet task-relevant evidence is often sparse and scattered",
+      "category": "ai-coding",
+      "source": "arXiv",
+      "date": "2026-09-25",
+      "publishedAt": "",
+      "collectedAt": "2026-09-28T12:56",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-25",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.31382v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
       "aiSelected": true,
       "moduleTargets": [
         "news"
@@ -2629,87 +2739,6 @@
       "sourceDate": "",
       "tags": [],
       "url": "https://huggingface.co/blog/nvidia/nemotron-diarization",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Grab and OpenAI bring practical AI skills to Southeast Asia",
-      "summary": "OpenAI and Grab launch GO Forward with AI, a regional programme helping 30,000 partners build practical AI skills across Southeast Asia.",
-      "category": "ai-models",
-      "source": "RSS · OpenAI Blog",
-      "date": "2026-09-23",
-      "publishedAt": "2026-09-23T08:00",
-      "collectedAt": "2026-09-23T20:13",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Bring more intelligence to everyday work with GPT-6 Sol and GPT-6 Luna on Amazon Bedrock",
-      "summary": "GPT-6 Sol and GPT-6 Luna are now generally available on Amazon Bedrock, giving you more options to match intelligence and efficiency to each workload.",
-      "category": "ai-models",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-09-23",
-      "publishedAt": "2026-09-23T02:10",
-      "collectedAt": "2026-09-23T02:54",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/bring-more-intelligence-to-everyday-work-with-gpt-6-sol-and-gpt-6-luna-on-amazon-bedrock/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Anthropic 发布 Claude Opus 5.5，成本较 Opus 5 降低 40%",
-      "summary": "Anthropic 发布 Claude Opus 5.5，为 Claude 5.5 系列首个模型，在多数工作上达到 Fable 5.1 水平，典型负载成本较 Opus 5 低 40%。",
-      "category": "ai-models",
-      "source": "Anthropic：Newsroom（网页）",
-      "date": "2026-09-23",
-      "publishedAt": "2026-09-23T00:53",
-      "collectedAt": "2026-09-23T01:44",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://www.anthropic.com/claude-opus-5-5",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -6257,6 +6286,17 @@
     ],
     "ai-agents": [
       {
+        "name": "Towards Mitigating Fabricated Consensus: The Active Provenan",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Large language model-based multi-agent debate (MAD) systems are being increasingly used as complex decision pipelines in distributed processes. However, their f",
+        "description": "Large language model-based multi-agent debate (MAD) systems are being increasingly used as complex decision pipelines in distributed processes. However, their final synthesis phase",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2609.31422v1"
+      },
+      {
         "name": "Structured Reasoning Agentic Framework for Interpretable Cri",
         "provider": "arXiv",
         "type": "AI 项目/工具",
@@ -6684,17 +6724,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:AI agent",
         "url": "https://www.brisbanetimes.com.au/technology/rogue-agent-or-human-error-what-openai-s-medicare-breach-means-for-you-20260924-p6101p.html"
-      },
-      {
-        "name": "Meta Ditches The Camera: $349 Ray-Ban Audio Glasses Debut As",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Meta unveiled a $1,299 VR headset, camera-free Ray-Ban glasses and new AI features as it pushes wearables beyond smartphones.",
-        "description": "Meta unveiled a $1,299 VR headset, camera-free Ray-Ban glasses and new AI features as it pushes wearables beyond smartphones.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.benzinga.com/markets/tech/26/09/61962637/meta-ray-ban-audio-glasses-ai-zuckerberg-creation-invention"
       }
     ],
     "ai-models": [
@@ -10422,8 +10451,8 @@
   ],
   "dailyReport": {
     "date": "2026-09-28",
-    "generatedAt": "2026-09-28T02:29:56.438767Z",
-    "total": 23,
+    "generatedAt": "2026-09-28T04:56:18.511862Z",
+    "total": 24,
     "sections": [
       {
         "category": "ai-coding",
@@ -10438,6 +10467,17 @@
             "sourceCount": 1,
             "date": "2026-09-26",
             "publishedAt": "2026-09-26T03:00",
+            "reason": ""
+          },
+          {
+            "title": "Highlight-Then-Summarize: Learning to Compress Evidence for Long-Context Understanding",
+            "summary": "Long-context understanding requires large language models (LLMs) to reason over lengthy documents, conversations, and code, yet task-relevan",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.31382v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-25",
+            "publishedAt": "",
             "reason": ""
           },
           {
@@ -10518,6 +10558,17 @@
         "category": "ai-agents",
         "label": "Agent / MCP",
         "items": [
+          {
+            "title": "Towards Mitigating Fabricated Consensus: The Active Provenance Gate for Multi-Agent Debate Synthesis",
+            "summary": "Large language model-based multi-agent debate (MAD) systems are being increasingly used as complex decision pipelines in distributed process",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.31422v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-25",
+            "publishedAt": "",
+            "reason": ""
+          },
           {
             "title": "Structured Reasoning Agentic Framework for Interpretable Critical View of Safety Assessment",
             "summary": "Surgical scene understanding is critical for computer-assisted intervention, yet laparoscopic cholecystectomy remains challenged by the comp",
@@ -10666,34 +10717,35 @@
             "date": "2026-09-25",
             "publishedAt": "",
             "reason": ""
-          },
+          }
+        ]
+      },
+      {
+        "category": "ai-benchmark",
+        "label": "评测榜单",
+        "items": [
           {
-            "title": "RupeeBias: Auditing Demographic Bias in Indian Economic Guidance from Large Language Models",
-            "summary": "Individuals turn to large language models (LLMs) for guidance across a wide range of economic tasks, from comparing loan options and plannin",
+            "title": "AlphaOpsBench: Benchmarking End-to-End Alpha Strategy Operationalization in Prediction Markets",
+            "summary": "Large language models increasingly generate quantitative trading strategies, yet existing benchmarks assume standardized assets, numerical f",
             "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.31245v1",
+            "url": "http://arxiv.org/abs/2609.31390v1",
             "score": 70,
             "sourceCount": 1,
             "date": "2026-09-25",
             "publishedAt": "",
             "reason": ""
-          },
+          }
+        ]
+      },
+      {
+        "category": "ai-research",
+        "label": "论文研究",
+        "items": [
           {
-            "title": "Towards Understanding LLM-Based Log Anomaly Detection: An Empirical Study of Performance, Efficiency, and Robustness",
-            "summary": "Large language models (LLMs) have demonstrated promising performance in log anomaly detection, yet how their adaptation strategies, architec",
+            "title": "Intent2Tc: Automated Intent-to-Traffic Control Translation with Language Models",
+            "summary": "Automated and highly usable Quality-of-Service (QoS) enforcement requires translating high-level service intents into deployable traffic-man",
             "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.31371v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-25",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Deduplication-while-Training: A Resilient Paradigm for Privacy-Preserving Cross-Client Deduplication in Federated Learning",
-            "summary": "Cross-client duplicate data in large language model training corpora degrades the efficiency of federated learning (FL) while exacerbating m",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.31262v1",
+            "url": "http://arxiv.org/abs/2609.31397v1",
             "score": 70,
             "sourceCount": 1,
             "date": "2026-09-25",
@@ -20515,6 +20567,18 @@
     ]
   },
   "benchmarkDatasets": [
+    {
+      "name": "AlphaOpsBench",
+      "area": "AI 模型能力评测",
+      "note": "Large language models increasingly generate quantitative trading strategies, yet existing benchmarks assume standardized assets, numerical features, or directly compilable strategy",
+      "source": "http://arxiv.org/abs/2609.31390v1",
+      "sourceName": "arXiv",
+      "date": "2026-09-25",
+      "originTitle": "AlphaOpsBench: Benchmarking End-to-End Alpha Strategy Operationalization in Prediction Markets",
+      "evaluates": [],
+      "useCases": [],
+      "limitations": []
+    },
     {
       "name": "Retrieval",
       "area": "检索 / Embedding",
