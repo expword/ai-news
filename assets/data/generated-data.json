@@ -1,7 +1,180 @@
 {
-  "lastUpdated": "2026-09-29",
-  "generatedAt": "2026-09-29T14:57:42.236780Z",
+  "lastUpdated": "2026-09-30",
+  "generatedAt": "2026-09-29T17:24:24.471968Z",
   "news": [
+    {
+      "title": "Prompt engineering fundamentals for Amazon Quick",
+      "summary": "Prompt engineering in Amazon Quick shapes how accurately its AI-powered features respond to your requests. Part 1 of a two-part series covers the foundational principles and reusab",
+      "category": "ai-models",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-30",
+      "publishedAt": "2026-09-30T00:27",
+      "collectedAt": "2026-09-30T01:24",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/prompt-engineering-fundamentals-for-amazon-quick/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 2,
+      "relatedSources": [
+        {
+          "source": "RSS · AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/prompt-engineering-by-quick-component-patterns-and-pitfalls/",
+          "title": "Prompt engineering by Quick component: Patterns and pitfalls"
+        }
+      ]
+    },
+    {
+      "title": "Building an AI-powered contract intelligence platform with Amazon Quick and Amazon Bedrock AgentCore",
+      "summary": "Manually extracting data from hundreds of vendor contracts doesn't scale, and RAG chat tools fall short on portfolio-wide questions. This post shares a contract intelligence platfo",
+      "category": "ai-agents",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-30",
+      "publishedAt": "2026-09-30T00:14",
+      "collectedAt": "2026-09-30T01:24",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/building-an-ai-powered-contract-intelligence-platform-with-amazon-quick-and-amazon-bedrock-agentcore/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Anthropic 评测 GLM-5.3：能自主构建端到端网络漏洞利用且防护易被绕过",
+      "summary": "Anthropic 发布对智谱 GLM-5.3 网络攻击能力的分析，发现其可自主开发端到端漏洞利用，在 ExploitBench 410 次尝试中成功 50 次，接近 Claude Mythos Preview 的 56 次。",
+      "category": "ai-models",
+      "source": "Anthropic：Research（发表成果 · 网页）",
+      "date": "2026-09-29",
+      "publishedAt": "2026-09-29T00:00",
+      "collectedAt": "2026-09-30T01:24",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "How Condé Nast built multimodal video discovery with Amazon Bedrock",
+      "summary": "Condé Nast's editorial teams spent an average of 250 minutes per task searching a library of more than 140,000 videos using only titles and descriptions. Working with the AWS Gener",
+      "category": "ai-image-video",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-29",
+      "publishedAt": "2026-09-29T23:55",
+      "collectedAt": "2026-09-30T01:24",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-conde-nast-built-multimodal-video-discovery-with-amazon-bedrock/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
+      "summary": "",
+      "category": "ai-agents",
+      "source": "RSS · Hugging Face Blog",
+      "date": "2026-09-29",
+      "publishedAt": "2026-09-29T21:07",
+      "collectedAt": "2026-09-30T00:13",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "The Communication Bottleneck: A Round-Trip Study of Tree-Structured Expression Serialization in Language Models",
+      "summary": "When language models reason in chain-of-thought or exchange free-text intermediates, they serialize structured information into natural language. How much tree-structured compositi",
+      "category": "ai-models",
+      "source": "RSS · Apple ML Research",
+      "date": "2026-09-29",
+      "publishedAt": "2026-09-29T08:00",
+      "collectedAt": "2026-09-30T00:13",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://machinelearning.apple.com/research/communication-bottleneck-serialization",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Introducing Quine: An AI research system designed for the complexity of biology",
       "summary": "Biology doesn't operate in silos, and neither should the AI representation of it. Quine is an early-stage research effort to create a multimodal world model of biology. By connecti",
@@ -2442,90 +2615,6 @@
           "title": "EAServe: Encode-Aware Disaggregated Serving for Multimodal Large Language Models"
         }
       ]
-    },
-    {
-      "title": "SAGE: Mitigating Long-Horizon Reasoning Biases via Topological Guidance",
-      "summary": "Long-horizon reasoning remains a central challenge for large language models (LLMs) under sparse-reward regimes. We argue that this brittleness arises from two biases induced by co",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-24",
-      "publishedAt": "",
-      "collectedAt": "2026-09-25T10:13",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-24",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.30192v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "GRASP: Generating, Revising, and Assessing for Strategic Planning with Agentic AI",
-      "summary": "Large Language Models (LLMs) typically exhibit a performance profile where reliability degrades as task complexity increases. We address the challenge of generating high-quality na",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-09-24",
-      "publishedAt": "",
-      "collectedAt": "2026-09-25T10:13",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-24",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.30147v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "A Living Benchmark for Information Retrieval from Electronic Health Records",
-      "summary": "Large language model (LLM)-based clinical assistants are increasingly being integrated into electronic health record (EHR) systems, transforming how clinicians retrieve and synthes",
-      "category": "ai-benchmark",
-      "source": "arXiv",
-      "date": "2026-09-24",
-      "publishedAt": "",
-      "collectedAt": "2026-09-25T10:13",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-24",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.30205v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "benchmarkDatasets",
-        "topicResources"
-      ],
-      "sourceCount": 1
     }
   ],
   "weeklyDigests": [
@@ -6060,6 +6149,28 @@
     ],
     "ai-agents": [
       {
+        "name": "Building an AI-powered contract intelligence platform with A",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Manually extracting data from hundreds of vendor contracts doesn't scale, and RAG chat tools fall short on portfolio-wide questions. This post shares a contract",
+        "description": "Manually extracting data from hundreds of vendor contracts doesn't scale, and RAG chat tools fall short on portfolio-wide questions. This post shares a contract intelligence platfo",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/building-an-ai-powered-contract-intelligence-platform-with-amazon-quick-and-amazon-bedrock-agentcore/"
+      },
+      {
+        "name": "Getting the Source Right, Not Just the Fact: Source-Aware Ve",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "",
+        "description": "",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Hugging Face Blog",
+        "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source"
+      },
+      {
         "name": "CNBC Daily Open: From need for speed to seatbelts — AI major",
         "provider": "NewsData.io",
         "type": "AI 项目/工具",
@@ -6476,28 +6587,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "X：Jensen Huang (@JensenHuang)",
         "url": "https://x.com/JensenHuang/status/2104499465055023424"
-      },
-      {
-        "name": "Towards Mitigating Fabricated Consensus: The Active Provenan",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Large language model-based multi-agent debate (MAD) systems are being increasingly used as complex decision pipelines in distributed processes. However, their f",
-        "description": "Large language model-based multi-agent debate (MAD) systems are being increasingly used as complex decision pipelines in distributed processes. However, their final synthesis phase",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2609.31422v1"
-      },
-      {
-        "name": "Structured Reasoning Agentic Framework for Interpretable Cri",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Surgical scene understanding is critical for computer-assisted intervention, yet laparoscopic cholecystectomy remains challenged by the complex anatomy of the h",
-        "description": "Surgical scene understanding is critical for computer-assisted intervention, yet laparoscopic cholecystectomy remains challenged by the complex anatomy of the hepatocystic triangle",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2609.31524v1"
       }
     ],
     "ai-models": [
@@ -7929,6 +8018,17 @@
     ],
     "ai-image-video": [
       {
+        "name": "How Condé Nast built multimodal video discovery with Amazon ",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Condé Nast's editorial teams spent an average of 250 minutes per task searching a library of more than 140,000 videos using only titles and descriptions. Workin",
+        "description": "Condé Nast's editorial teams spent an average of 250 minutes per task searching a library of more than 140,000 videos using only titles and descriptions. Working with the AWS Gener",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/how-conde-nast-built-multimodal-video-discovery-with-amazon-bedrock/"
+      },
+      {
         "name": "FlowTool: Controlling Tool Parameter in Image Retouching via",
         "provider": "arXiv",
         "type": "AI 项目/工具",
@@ -8356,20 +8456,20 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Fello AI",
         "url": "https://felloai.com/ai-watermark/"
-      },
-      {
-        "name": "Video: Opinion | The A.I.s Are Already Out of Control",
-        "provider": "The New York Times",
-        "type": "AI 项目/工具",
-        "bestFor": "Helen Toner, who served on OpenAI's board, hopes the recent hack by that company's models serves as a warning.\n\nWe don't know how many situations we don't know ",
-        "description": "Helen Toner, who served on OpenAI's board, hopes the recent hack by that company's models serves as a warning.\n\nWe don't know how many situations we don't know have happened. The w",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The New York Times",
-        "url": "https://www.nytimes.com/video/opinion/100000011091562/the-ais-are-already-out-of-control.html"
       }
     ],
     "ai-research": [
+      {
+        "name": "The Communication Bottleneck: A Round-Trip Study of Tree-Str",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "When language models reason in chain-of-thought or exchange free-text intermediates, they serialize structured information into natural language. How much tree-",
+        "description": "When language models reason in chain-of-thought or exchange free-text intermediates, they serialize structured information into natural language. How much tree-structured compositi",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Apple ML Research",
+        "url": "https://machinelearning.apple.com/research/communication-bottleneck-serialization"
+      },
       {
         "name": "Output-aware Residual Stream Pruning for Large Language Mode",
         "provider": "arXiv",
@@ -8798,17 +8898,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2609.11769v1"
-      },
-      {
-        "name": "ToolGrad: Efficient tool-use dataset generation with textual",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Machine Intelligence",
-        "description": "Machine Intelligence",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · Google Research",
-        "url": "https://research.google/blog/toolgrad-efficient-tool-use-dataset-generation-with-textual-gradients/"
       }
     ],
     "ai-office": []
@@ -10216,9 +10305,9 @@
     }
   ],
   "dailyReport": {
-    "date": "2026-09-29",
-    "generatedAt": "2026-09-29T14:57:42.214814Z",
-    "total": 31,
+    "date": "2026-09-30",
+    "generatedAt": "2026-09-29T17:24:24.447969Z",
+    "total": 13,
     "sections": [
       {
         "category": "ai-coding",
@@ -10245,39 +10334,6 @@
             "date": "2026-09-29",
             "publishedAt": "2026-09-29T02:57",
             "reason": ""
-          },
-          {
-            "title": "Are you a Codex Original?",
-            "summary": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to ",
-            "source": "RSS · OpenAI Blog",
-            "url": "https://openai.com/form/codex-originals",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-28",
-            "publishedAt": "2026-09-28T08:00",
-            "reason": ""
-          },
-          {
-            "title": "Automating Amazon Textract adapter lifecycle management across accounts",
-            "summary": "Learn how to operationalize Amazon Textract Custom Queries adapters for production: infrastructure as code with AWS CloudFormation and Terra",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/automating-amazon-textract-adapter-lifecycle-management-across-accounts/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-28",
-            "publishedAt": "2026-09-28T23:49",
-            "reason": ""
-          },
-          {
-            "title": "A Mechanistic Study of AI-Text Detection Neurons in Frozen BERT: Sparse Probing and Activation Patching on RAID",
-            "summary": "arXiv:2609.30287v1 Announce Type: new Abstract: AI-generated text detectors achieve high accuracy on standard benchmarks, yet the internal r",
-            "source": "RSS · arXiv cs.CL",
-            "url": "https://arxiv.org/abs/2609.30287",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-28",
-            "publishedAt": "",
-            "reason": ""
           }
         ]
       },
@@ -10285,6 +10341,17 @@
         "category": "ai-image-video",
         "label": "图像视频",
         "items": [
+          {
+            "title": "How Condé Nast built multimodal video discovery with Amazon Bedrock",
+            "summary": "Condé Nast's editorial teams spent an average of 250 minutes per task searching a library of more than 140,000 videos using only titles and ",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/how-conde-nast-built-multimodal-video-discovery-with-amazon-bedrock/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-29",
+            "publishedAt": "2026-09-29T23:55",
+            "reason": ""
+          },
           {
             "title": "Build real-time voice applications with vLLM-Omni on SageMaker AI – Part 1",
             "summary": "Deploy a text-to-speech model on Amazon SageMaker AI with the AWS vLLM-Omni Deep Learning Container and stream generated speech over a persi",
@@ -10295,17 +10362,6 @@
             "date": "2026-09-29",
             "publishedAt": "2026-09-29T00:15",
             "reason": ""
-          },
-          {
-            "title": "FlowTool: Controlling Tool Parameter in Image Retouching via Flow Matching",
-            "summary": "Tool-based image editing (image retouching) is commonly formulated with autoregressive multimodal large language models (MLLMs) that sequent",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.35673v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-28",
-            "publishedAt": "",
-            "reason": ""
           }
         ]
       },
@@ -10314,58 +10370,25 @@
         "label": "Agent / MCP",
         "items": [
           {
-            "title": "TokenCast: Forecasting Token Consumption During LLM Agent Execution",
-            "summary": "When a large language model (LLM) agent executes the same task, token consumption can vary by over an order of magnitude across runs. The ag",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.35760v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-28",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Reinforcing Agentic Creativity in Scientific Ideation with Night Science",
-            "summary": "Large language models (LLMs) excel at structured, verifiable tasks, but their low-entropy bias can produce homogeneous and predictable outpu",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.35706v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-28",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Large Language Models for Structured Clinical Data Analysis: Dual-Agent Grounding and Validation",
-            "summary": "Objective: To develop and characterize CLEAR-Med, a dual-agent framework for natural-language analysis of structured clinical data that sepa",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.34039v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-28",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Implementing synthetic monitoring using Amazon Nova Act",
-            "summary": "Learn an agent-driven approach to synthetic monitoring using Amazon Nova Act and Amazon Bedrock AgentCore. The post covers the architecture ",
+            "title": "Building an AI-powered contract intelligence platform with Amazon Quick and Amazon Bedrock AgentCore",
+            "summary": "Manually extracting data from hundreds of vendor contracts doesn't scale, and RAG chat tools fall short on portfolio-wide questions. This po",
             "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/implementing-synthetic-monitoring-using-amazon-nova-act/",
+            "url": "https://aws.amazon.com/blogs/machine-learning/building-an-ai-powered-contract-intelligence-platform-with-amazon-quick-and-amazon-bedrock-agentcore/",
             "score": 70,
             "sourceCount": 1,
-            "date": "2026-09-28",
-            "publishedAt": "2026-09-28T23:56",
+            "date": "2026-09-30",
+            "publishedAt": "2026-09-30T00:14",
             "reason": ""
           },
           {
-            "title": "Holo4: powering generalist computer-use agents",
+            "title": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
             "summary": "",
             "source": "RSS · Hugging Face Blog",
-            "url": "https://huggingface.co/blog/Hcompany/holo4",
+            "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
             "score": 70,
             "sourceCount": 1,
-            "date": "2026-09-28",
-            "publishedAt": "2026-09-28T17:44",
+            "date": "2026-09-29",
+            "publishedAt": "2026-09-29T21:07",
             "reason": ""
           }
         ]
@@ -10374,6 +10397,39 @@
         "category": "ai-models",
         "label": "模型发布",
         "items": [
+          {
+            "title": "Prompt engineering fundamentals for Amazon Quick",
+            "summary": "Prompt engineering in Amazon Quick shapes how accurately its AI-powered features respond to your requests. Part 1 of a two-part series cover",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/prompt-engineering-fundamentals-for-amazon-quick/",
+            "score": 70,
+            "sourceCount": 2,
+            "date": "2026-09-30",
+            "publishedAt": "2026-09-30T00:27",
+            "reason": ""
+          },
+          {
+            "title": "Anthropic 评测 GLM-5.3：能自主构建端到端网络漏洞利用且防护易被绕过",
+            "summary": "Anthropic 发布对智谱 GLM-5.3 网络攻击能力的分析，发现其可自主开发端到端漏洞利用，在 ExploitBench 410 次尝试中成功 50 次，接近 Claude Mythos Preview 的 56 次。",
+            "source": "Anthropic：Research（发表成果 · 网页）",
+            "url": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-29",
+            "publishedAt": "2026-09-29T00:00",
+            "reason": ""
+          },
+          {
+            "title": "The Communication Bottleneck: A Round-Trip Study of Tree-Structured Expression Serialization in Language Models",
+            "summary": "When language models reason in chain-of-thought or exchange free-text intermediates, they serialize structured information into natural lang",
+            "source": "RSS · Apple ML Research",
+            "url": "https://machinelearning.apple.com/research/communication-bottleneck-serialization",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-29",
+            "publishedAt": "2026-09-29T08:00",
+            "reason": ""
+          },
           {
             "title": "Towards safety cases for frontier AI training",
             "summary": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignm",
@@ -10394,122 +10450,6 @@
             "sourceCount": 1,
             "date": "2026-09-29",
             "publishedAt": "2026-09-29T03:00",
-            "reason": ""
-          },
-          {
-            "title": "FactorEngram: Factorized N-gram Memory with Basis-Level Gating for Language Models",
-            "summary": "Lookup-based memory has been a promising way to scale the parameters of large language models (LLMs). It retrieves learned representations o",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.35578v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-28",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Output-aware Residual Stream Pruning for Large Language Models",
-            "summary": "Residual stream pruning methods reduce inference cost by shrinking the model's hidden dimension, but existing approaches typically choose th",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.35579v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-28",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "IMC-CLINIC: Coupled Loss-Informed Newton Iterations for Clipping in Analog In-Memory Computing",
-            "summary": "Analog in-memory computing (IMC) offers a promising path toward energy-efficient large language model (LLM) inference by executing matrix mu",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.35586v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-28",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Rethinking Personalized Generation: Test-Time Alignment via Factorized Ranking Models",
-            "summary": "Aligning large language models (LLMs) to diverse user preferences is fundamentally hindered by standard alignment paradigms that optimize fo",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.35695v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-28",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Distillation Defenses Easily Break After Reinforcement Learning",
-            "summary": "Distillation attacks copy the reasoning capabilities of closed-source large language models, allowing bad actors to replicate state-of-the-a",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.35699v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-28",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Not All Thinking is Created Equal: Latent Reasoning Discovers a Recurrent Search Algorithm for Depth Generalization",
-            "summary": "Large Language Models can perform multi-step reasoning and improve task performance through different forms of intermediate computation, fro",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.35643v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-28",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Behavioral Foundation Models for Quality Diversity",
-            "summary": "Behavioral Foundation Models (BFMs) are an emerging paradigm in reinforcement learning, playing a role analogous to large language models in",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.35615v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-28",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
-            "summary": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more con",
-            "source": "RSS · OpenAI Blog",
-            "url": "https://openai.com/index/basis-tax-workbook-with-astra",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-28",
-            "publishedAt": "2026-09-28T08:00",
-            "reason": ""
-          }
-        ]
-      },
-      {
-        "category": "ai-benchmark",
-        "label": "评测榜单",
-        "items": [
-          {
-            "title": "QC-Stark: A Multi-Task Benchmark Revealing Capability Dissociations in LLMs Evaluated on Quantum Computing Tasks",
-            "summary": "We introduce QC-Stark, a benchmark for evaluating large language models (LLMs) on 11 quantum computing (QC) tasks, spanning circuit construc",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.35581v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-28",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "TCSAlgBench: Benchmarking Automated Proving for Research-Level Theoretical Computer Science",
-            "summary": "Large language models perform strongly on competition mathematics, but their research-level reasoning remains difficult to evaluate systemat",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.35606v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-28",
-            "publishedAt": "",
             "reason": ""
           }
         ]
@@ -10539,73 +10479,148 @@
             "date": "2026-09-29",
             "publishedAt": "2026-09-29T05:00",
             "reason": ""
-          },
-          {
-            "title": "MeqMuon: Matrix-Equilibrating Muon for LLM Pretraining",
-            "summary": "The success of large language models (LLMs) has been accompanied by continued growth in model size and pretraining costs. Muon offers high a",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.35701v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-28",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Late Attention Layers Alone Can Copy Entity Tokens, but Not Without Attending to Their Context",
-            "summary": "Large language models (LLMs) reliably perform entity copying, in which a model copies tokens referring to an entity, termed entity tokens, f",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.35663v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-28",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Faster Rates for Federated Variational Inequalities",
-            "summary": "In this paper, we study federated optimization for solving stochastic variational inequalities (VIs), a problem that has attracted growing a",
-            "source": "RSS · Apple ML Research",
-            "url": "https://machinelearning.apple.com/research/federated-variational-inequalities",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-28",
-            "publishedAt": "2026-09-28T08:00",
-            "reason": ""
-          },
-          {
-            "title": "Kafila: Serving Large Language Models on a Trusted Set of Heterogeneous Commodity Machines",
-            "summary": "Between them, the members of a research group or a circle of friends own several consumer computers, none large enough to run a capable larg",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2609.34045v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-28",
-            "publishedAt": "",
-            "reason": ""
-          }
-        ]
-      },
-      {
-        "category": "ai-business",
-        "label": "行业商业",
-        "items": [
-          {
-            "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
-            "summary": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits ",
-            "source": "RSS · OpenAI Blog",
-            "url": "https://openai.com/index/lenfest-ai-collaborative-expansion",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-09-28",
-            "publishedAt": "2026-09-28T15:00",
-            "reason": ""
           }
         ]
       }
     ]
   },
   "dailyReports": [
+    {
+      "date": "2026-09-29",
+      "generatedAt": "2026-09-29T16:14:29.629718Z",
+      "total": 9,
+      "sections": [
+        {
+          "category": "ai-coding",
+          "label": "AI 编程",
+          "items": [
+            {
+              "title": "Grok 4.7 is now available on Amazon Bedrock",
+              "summary": "xAI's Grok 4.7 is now available on Amazon Bedrock: a frontier model for coding, long-running agents, and knowledge work. It offers a 500K to",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/grok-4-7-is-now-available-on-amazon-bedrock/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-29",
+              "publishedAt": "2026-09-29T06:13",
+              "reason": ""
+            },
+            {
+              "title": "Introducing Claude Sonnet 5.5 on AWS",
+              "summary": "Claude Sonnet 5.5 is now available on Amazon Bedrock and Claude Platform on AWS. It's a smarter, more efficient Sonnet model for focused cod",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-sonnet-5-5-on-aws/",
+              "score": 70,
+              "sourceCount": 2,
+              "date": "2026-09-29",
+              "publishedAt": "2026-09-29T02:57",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-image-video",
+          "label": "图像视频",
+          "items": [
+            {
+              "title": "Build real-time voice applications with vLLM-Omni on SageMaker AI – Part 1",
+              "summary": "Deploy a text-to-speech model on Amazon SageMaker AI with the AWS vLLM-Omni Deep Learning Container and stream generated speech over a persi",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/build-real-time-voice-applications-with-vllm-omni-on-sagemaker-ai-part-1/",
+              "score": 70,
+              "sourceCount": 2,
+              "date": "2026-09-29",
+              "publishedAt": "2026-09-29T00:15",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-agents",
+          "label": "Agent / MCP",
+          "items": [
+            {
+              "title": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
+              "summary": "",
+              "source": "RSS · Hugging Face Blog",
+              "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-29",
+              "publishedAt": "2026-09-29T21:07",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-models",
+          "label": "模型发布",
+          "items": [
+            {
+              "title": "The Communication Bottleneck: A Round-Trip Study of Tree-Structured Expression Serialization in Language Models",
+              "summary": "When language models reason in chain-of-thought or exchange free-text intermediates, they serialize structured information into natural lang",
+              "source": "RSS · Apple ML Research",
+              "url": "https://machinelearning.apple.com/research/communication-bottleneck-serialization",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-29",
+              "publishedAt": "2026-09-29T08:00",
+              "reason": ""
+            },
+            {
+              "title": "Towards safety cases for frontier AI training",
+              "summary": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignm",
+              "source": "RSS · OpenAI Blog",
+              "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-29",
+              "publishedAt": "2026-09-29T03:00",
+              "reason": ""
+            },
+            {
+              "title": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
+              "summary": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
+              "source": "RSS · Google AI Blog",
+              "url": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-29",
+              "publishedAt": "2026-09-29T03:00",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-research",
+          "label": "论文研究",
+          "items": [
+            {
+              "title": "Introducing Quine: An AI research system designed for the complexity of biology",
+              "summary": "Biology doesn't operate in silos, and neither should the AI representation of it. Quine is an early-stage research effort to create a multim",
+              "source": "RSS · Microsoft Research",
+              "url": "https://www.microsoft.com/en-us/research/blog/introducing-quine-an-ai-research-system-designed-for-the-complexity-of-biology/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-29",
+              "publishedAt": "2026-09-29T22:00",
+              "reason": ""
+            },
+            {
+              "title": "One year in: How Microsoft Research Asia – Singapore is advancing research, partnership and talent for real-world impact",
+              "summary": "Since launching a year ago, the Microsoft Research Asia — Singapore lab has established a strong foundation, deepened collaboration across g",
+              "source": "RSS · Microsoft Research",
+              "url": "https://www.microsoft.com/en-us/research/blog/one-year-in-how-microsoft-research-asia-singapore-is-advancing-research-partnership-and-talent-for-real-world-impact/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-09-29",
+              "publishedAt": "2026-09-29T05:00",
+              "reason": ""
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-09-28",
       "generatedAt": "2026-09-28T16:00:47.452803Z",
@@ -19152,372 +19167,25 @@
           ]
         }
       ]
-    },
-    {
-      "date": "2026-07-28",
-      "generatedAt": "2026-07-28T16:19:23.505435Z",
-      "total": 28,
-      "sections": [
-        {
-          "category": "ai-tools",
-          "label": "AI 工具",
-          "items": [
-            {
-              "title": "百度千帆推出批量推理促销活动",
-              "summary": "百度千帆平台近期更新了批量推理促销活动，旨在为用户提供更高效的模型服务。该活动将帮助开发者在短时间内实现大规模推理，提升应用性能和用户体验。通过该活动，用户可以更好地利用平台资源，进行模型调用和数据处理。",
-              "source": "中国一手 · 百度千帆更新",
-              "url": "https://cloud.baidu.com/doc/qianfan/s/8ml4udfu2",
-              "score": 78,
-              "sourceCount": 1,
-              "date": "2026-07-28",
-              "publishedAt": "",
-              "reason": "此次批量推理促销活动为开发者提供了一个降低成本、提升效率的绝佳机会，值得关注。"
-            },
-            {
-              "title": "人工智能政策推动人类福祉与文明进步的双刃剑",
-              "summary": "国家网信办提出的人工智能政策旨在增进全人类福祉与推动文明进步，然而在实施过程中也面临诸多挑战与风险。政策的有效性与可持续性仍需进一步观察与评估。",
-              "source": "中国一手 · 国家网信办 AI 政策",
-              "url": "https://www.cac.gov.cn/2026-07/18/c_1786294075793608.htm",
-              "score": 76,
-              "sourceCount": 1,
-              "date": "2026-07-28",
-              "publishedAt": "",
-              "reason": "这条政策信息值得关注，因为它不仅影响AI技术的发展方向，还涉及社会伦理与人类未来的重大议题。"
-            },
-            {
-              "title": "模力方舟推出可装进口袋的智能体，助力AI应用开发",
-              "summary": "模力方舟（Gitee AI）推出的Pocket Claw智能体，售价¥698，提供高性能的Serverless解决方案，支持自动扩缩容和低延迟API服务，旨在简化AI模型的部署与运行。该平台兼容多种主流应用，支持丰富的模型微调与算力租赁，全面拥抱国产算力，降低中小企业的使用门槛。",
-              "source": "中国一手 · Gitee 模力方舟",
-              "url": "https://ai.gitee.com/#update-7956039f7a44",
-              "score": 67,
-              "sourceCount": 1,
-              "date": "2026-07-28",
-              "publishedAt": "",
-              "reason": "模力方舟的Pocket Claw智能体通过高性能Serverless解决方案，显著降低了AI应用开发的门槛，值得关注。"
-            },
-            {
-              "title": "遥聚开源智能平台助力遥感数据共享与智能化应用",
-              "summary": "遥聚开源智能平台通过开源模式降低技术门槛，提供全流程支持，涵盖数据标注、样本管理、模型开发等，助力地理信息、环境监测等领域的数字化转型。该平台结合 RS-AGENT 探索智能化遥感解译技术，推动遥感数据的标准化共享。",
-              "source": "中国一手 · Gitee 模力方舟",
-              "url": "https://ai.gitee.com/topics/rsic",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-07-28",
-              "publishedAt": "",
-              "reason": "遥聚开源智能平台通过全面的技术支持和开源模式，推动遥感数据的普及与应用，具有重要的行业价值。"
-            },
-            {
-              "title": "PocketClaw（口袋智能体）发布，提供本地专属 AI 助手",
-              "summary": "PocketClaw（口袋智能体）是由 Gitee 模力方舟推出的一款集成了强大智能体操作系统和高性价比硬件的智能助手。该设备通过云端大模型提供全模态推理与决策能力，用户可在开箱后立即使用，极大简化了环境配置与使用门槛。",
-              "source": "中国一手 · Gitee 模力方舟",
-              "url": "https://ai.gitee.com/pocketclaw",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-07-28",
-              "publishedAt": "",
-              "reason": "PocketClaw 以其高性价比和强大的安全防护，成为市场上值得关注的 AI 助手，适合各类用户需求。"
-            },
-            {
-              "title": "Perplexity 推出 Windows 版个人电脑智能体，整合多种应用",
-              "summary": "Perplexity 最近在其 Windows 应用中推出了个人电脑智能体，旨在整合本地文件、已连接应用及网络资源，提升工作效率。该工具支持研究、编码、浏览和构建等多项功能，虽然功能强大，但仍存在一些局限性。",
-              "source": "X：Perplexity (@perplexity_ai)",
-              "url": "https://x.com/perplexity_ai/status/2082103880155046176",
-              "score": 63,
-              "sourceCount": 1,
-              "date": "2026-07-28",
-              "publishedAt": "2026-07-28T22:00",
-              "reason": "Perplexity 的个人电脑智能体通过整合多种功能，提供了一个高效的工作平台，值得关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-coding",
-          "label": "AI 编程",
-          "items": [
-            {
-              "title": "智谱开放平台发布 GLM Coding Plan 团队版",
-              "summary": "智谱开放平台推出了 GLM Coding Plan 团队版，旨在提升团队协作与代码生成效率。该版本专注于支持多用户协作，提供更强大的代码生成能力和优化工具，适用于软件开发团队。",
-              "source": "中国一手 · 智谱开放平台新品",
-              "url": "https://docs.bigmodel.cn/cn/coding-plan/team",
-              "score": 78,
-              "sourceCount": 1,
-              "date": "2026-07-28",
-              "publishedAt": "",
-              "reason": "GLM Coding Plan 团队版的发布为软件开发团队提供了强大的协作与代码生成工具，值得关注。"
-            },
-            {
-              "title": "Qwen3-Coder-Plus 限时折扣活动",
-              "summary": "这次发布的核心点是 Qwen3-Coder-Plus 模型将于 2025 年 7 月 23 日至 8 月 23 日期间提供限时折扣，输入 Token 价格可享受最低至 2.5 折的优惠。这一活动为开发者提供了降低成本的机会，尤其适合需要高频调用模型的用户。",
-              "source": "中国一手 · 阿里云百炼更新",
-              "url": "https://help.aliyun.com/zh/model-studio/qwen3-coder-plus-price-drop",
-              "score": 76,
-              "sourceCount": 1,
-              "date": "2026-07-28",
-              "publishedAt": "",
-              "reason": "这条限时优惠活动为开发者提供了降低使用成本的绝佳机会，值得关注。"
-            },
-            {
-              "title": "GitHub Copilot 推出 Harness 工作流，简化软件开发全流程",
-              "summary": "GitHub Copilot 新推出的 Harness 工作流，允许开发者通过单一工具完成软件开发的各个阶段，包括原型设计、规划、实现和代码审查，旨在提高开发效率，减少工具切换带来的时间损耗。该工作流强调实用性和集成性，适合各种开发环境。",
-              "source": "GitHub Blog",
-              "url": "https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-07-28",
-              "publishedAt": "2026-07-28T02:00",
-              "reason": "Harness 工作流的推出为开发者提供了一种高效、集成的开发方式，值得关注其在实际工作中的应用效果。"
-            },
-            {
-              "title": "GitHub Copilot app 升级为多 Agent 会话工作区",
-              "summary": "GitHub Copilot app 于 2026 年 7 月 27 日推出了多 Agent 会话工作区，允许用户同时管理多个任务线程，提升了编码效率。用户可以通过 `/create-canvas` 命令在浏览器中预览 UI，并直接进行修改，同时启用 Agent Merge 功能",
-              "source": "GitHub Blog",
-              "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-getting-started",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-07-28",
-              "publishedAt": "2026-07-28T00:00",
-              "reason": "GitHub Copilot app 的多 Agent 会话工作区和 Canvas 功能的推出，标志着编码工具向更高效、互动的方向发展，值得开发者关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-agents",
-          "label": "Agent / MCP",
-          "items": [
-            {
-              "title": "使用Claude和Python构建金融分析智能体",
-              "summary": "本教程详细介绍如何基于Anthropic的financial-services仓库，使用纯Python复现其技能驱动架构。通过解析SKILL.md文件，构建可搜索的技能注册表，并创建可复用的SkillAgent，将金融分析剧本注入Anthropic Messages API，支持",
-              "source": "MarkTechPost（RSS）",
-              "url": "https://www.marktechpost.com/2026/07/27/designing-skill-driven-financial-analysis-agents-with-claude-python-mcp-connectors-and-automated-deliverables",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-07-28",
-              "publishedAt": "2026-07-28T02:08",
-              "reason": "本教程提供了详细的步骤和实用的代码示例，适合希望构建金融分析智能体的开发者，具有很高的实用价值。"
-            }
-          ]
-        },
-        {
-          "category": "ai-models",
-          "label": "模型发布",
-          "items": [
-            {
-              "title": "MiniMax M3：首个集成多模态与长上下文的国产旗舰模型",
-              "summary": "MiniMax M3 是国内首个具备前沿编码、智能体能力及原生多模态的模型，支持高达 1M tokens 的上下文窗口，性能在国际评测中表现优异，尤其在自主任务拆解和工具调用方面。其创新架构和长程稳定任务能力使其在行业中脱颖而出。",
-              "source": "中国一手 · MiniMax 新闻",
-              "url": "https://www.minimaxi.com/models/text/m3",
-              "score": 86,
-              "sourceCount": 1,
-              "date": "2026-07-28",
-              "publishedAt": "",
-              "reason": "MiniMax M3 的多模态与长上下文能力的结合，标志着国产 AI 模型在技术上的重大突破，值得关注。"
-            },
-            {
-              "title": "智谱推出多模态编程基座模型GLM-5V-Turbo",
-              "summary": "GLM-5V-Turbo是智谱最新发布的多模态编程基座模型，支持图像、视频和文本输入，适用于复杂编程任务和长程规划。该模型能够与其他Agent协同工作，提升任务执行效率。",
-              "source": "中国一手 · 智谱开放平台新品",
-              "url": "https://docs.bigmodel.cn/cn/guide/models/vlm/glm-5v-turbo",
-              "score": 86,
-              "sourceCount": 1,
-              "date": "2026-07-28",
-              "publishedAt": "",
-              "reason": "GLM-5V-Turbo凭借其强大的多模态处理能力和高效的任务执行能力，成为开发者和设计师的理想选择，值得一试。"
-            },
-            {
-              "title": "MiniMax M2.5 发布，提升多语言编程能力与决策成熟度",
-              "summary": "MiniMax 在最新发布的 M2.5 模型中，显著增强了多语言编程能力，专为 Agent Universe 设计，提升了在复杂任务中的表现。与前代模型相比，M2.5 在处理 Agentic 任务时展现出更高的决策成熟度，平均胜率达到 59.0%。",
-              "source": "中国一手 · MiniMax 新闻",
-              "url": "https://www.minimaxi.com/models/text",
-              "score": 84,
-              "sourceCount": 1,
-              "date": "2026-07-28",
-              "publishedAt": "",
-              "reason": "MiniMax M2.5 的发布不仅提升了多语言编程能力，还在决策成熟度上实现了突破，值得开发者和企业关注。"
-            },
-            {
-              "title": "GLM-5-Turbo 模型发布，优化龙虾场景执行能力",
-              "summary": "GLM-5-Turbo 是一款针对 OpenClaw 龙虾场景深度优化的基座模型，具备强大的工具调用、指令遵循和长链路执行能力，适合复杂任务的执行。该模型在多项关键任务上表现优于前代产品 GLM-5，适合多种行业应用。",
-              "source": "中国一手 · 智谱开放平台新品",
-              "url": "https://docs.bigmodel.cn/cn/guide/models/text/glm-5-turbo",
-              "score": 84,
-              "sourceCount": 1,
-              "date": "2026-07-28",
-              "publishedAt": "",
-              "reason": "GLM-5-Turbo 的发布为复杂任务的执行提供了强有力的支持，值得关注其在各行业的应用潜力。"
-            },
-            {
-              "title": "智谱 GLM-5.1 模型发布，长程任务能力显著提升",
-              "summary": "我注意到智谱最近推出了 GLM-5.1，这是一个专为复杂代码和长程任务设计的高性能模型。它的代码能力和长程任务执行能力都有了显著提升，能够在单次任务中自主工作长达 8 小时，完成从规划到交付的完整流程，适合多种工程应用场景。",
-              "source": "中国一手 · 智谱开放平台新品",
-              "url": "https://docs.bigmodel.cn/cn/guide/models/text/glm-5.1",
-              "score": 84,
-              "sourceCount": 1,
-              "date": "2026-07-28",
-              "publishedAt": "",
-              "reason": "GLM-5.1 的发布标志着国内 AI 模型在长程任务执行能力上的重要突破，值得关注。"
-            },
-            {
-              "title": "国家互联网信息办公室发布生成式人工智能服务备案信息",
-              "summary": "国家互联网信息办公室近日发布了关于生成式人工智能服务的备案信息，旨在加强对AI服务的监管与管理。这一公告为行业提供了透明度，促进了合规性，确保生成式AI服务的安全性与可靠性。",
-              "source": "中国一手 · 生成式 AI 备案汇总",
-              "url": "https://www.cac.gov.cn/2024-04/02/c_1713729983803145.htm#update-8f34ab1e23b0",
-              "score": 82,
-              "sourceCount": 3,
-              "date": "2026-07-28",
-              "publishedAt": "",
-              "reason": "该公告为生成式AI服务的合规性提供了重要指导，值得关注。"
-            },
-            {
-              "title": "阿里云百炼模型平台功能更新",
-              "summary": "我注意到阿里云百炼最近进行了多项模型平台功能更新，包括降价通知、商业化通知以及新功能上线。这些更新将影响到模型的使用和管理，尤其是对于开发者和企业用户来说，能够带来更灵活的使用体验和成本控制。",
-              "source": "中国一手 · 阿里云百炼更新",
-              "url": "https://help.aliyun.com/zh/model-studio/model-release-notes#update-3901ad93595e",
-              "score": 82,
-              "sourceCount": 3,
-              "date": "2026-07-28",
-              "publishedAt": "",
-              "reason": "这次更新涵盖了多项重要功能，特别是商业化和降价策略，将为用户带来更高的灵活性和成本效益，值得关注。"
-            },
-            {
-              "title": "Kimi 开放平台新功能更新记录",
-              "summary": "我注意到 Kimi 开放平台近期发布了多项新功能和模型更新。这些更新包括 Kimi K2 Think 模型的发布、文档支持的增强以及价格调整等，旨在提升用户体验和功能多样性。具体更新内容涵盖了从模型发布到功能优化的多个方面，适合开发者和企业用户关注。",
-              "source": "中国一手 · Kimi 开放平台更新",
-              "url": "https://platform.kimi.com/blog/posts/changelog#update-5231a12dcd1c",
-              "score": 82,
-              "sourceCount": 1,
-              "date": "2026-07-28",
-              "publishedAt": "",
-              "reason": "这条更新记录展示了 Kimi 开放平台在功能和模型上的持续创新，值得关注。"
-            },
-            {
-              "title": "MiniMax Speech 2.8：让合成语音更具人性化",
-              "summary": "MiniMax Speech 2.8 正式发布，带来了语音合成的重大升级。新版本通过引入自然语气词、音色克隆技术和纯净音质处理，旨在让合成语音更接近真实人声，提升用户的听觉体验。特别是在跨语言表现上，MiniMax 也进行了优化，解决了发音偏移的问题。",
-              "source": "中国一手 · MiniMax 新闻",
-              "url": "https://www.minimaxi.com/news/minimax-speech-28",
-              "score": 82,
-              "sourceCount": 1,
-              "date": "2026-07-28",
-              "publishedAt": "",
-              "reason": "MiniMax Speech 2.8 通过引入自然语气词和音色克隆技术，显著提升了合成语音的真实感，值得关注。"
-            },
-            {
-              "title": "MiniMax M2.7 模型发布，生产力和专业能力显著提升",
-              "summary": "MiniMax 发布了 M2.7 模型，较前版本 M2.5 在多项基准测试中表现出色，尤其在软件工程和复杂任务处理方面。M2.7 的 GDPval-AA ELO 得分达到 1495，标志着其在开源领域的领先地位。",
-              "source": "中国一手 · MiniMax 新闻",
-              "url": "https://www.minimaxi.com/models/text/m27",
-              "score": 82,
-              "sourceCount": 1,
-              "date": "2026-07-28",
-              "publishedAt": "",
-              "reason": "MiniMax M2.7 模型在生产力和专业能力上的显著提升，值得关注其对行业的深远影响。"
-            },
-            {
-              "title": "中国人工智能政策加速发展，上海探索成长路径",
-              "summary": "中国人工智能政策正在加速推进，上海作为重要的创新中心，正在探索人工智能的成长密码。国家网信办发布的政策为AI行业提供了新的发展机遇，推动技术创新和应用落地。",
-              "source": "中国一手 · 国家网信办 AI 政策",
-              "url": "https://www.cac.gov.cn/2026-07/16/c_1785946780822901.htm",
-              "score": 82,
-              "sourceCount": 2,
-              "date": "2026-07-28",
-              "publishedAt": "",
-              "reason": "这条政策信息为AI行业提供了重要的指导，帮助企业把握发展机遇，值得关注。"
-            },
-            {
-              "title": "百度千帆大模型服务更新动态",
-              "summary": "我注意到百度千帆平台最近进行了多项重要更新，包括模型版本的升级与退役机制、Token Plan个人版的上线以及Coding Plan的停售。这些更新将影响开发者在使用大模型服务时的体验和选择，尤其是在资源管理和计费方面。",
-              "source": "中国一手 · 百度千帆更新",
-              "url": "https://cloud.baidu.com/doc/qianfan/s/Kmh4stnjp",
-              "score": 82,
-              "sourceCount": 2,
-              "date": "2026-07-28",
-              "publishedAt": "",
-              "reason": "这条更新值得关注，因为它不仅影响到百度千帆的用户体验，还可能改变整个行业的服务模式和计费策略。"
-            }
-          ]
-        },
-        {
-          "category": "ai-benchmark",
-          "label": "评测榜单",
-          "items": [
-            {
-              "title": "Kimi 发布 PerceptionBench 视觉感知基准",
-              "summary": "Kimi.ai 推出了 PerceptionBench，这是一个专注于视觉感知的基准，基于当前前沿模型在 42 个基准上的失败模式，归纳出 10 种原子能力，并设计了 3000 道验证题。每道题目仅考察单一感知能力，无需推理或外部知识，旨在提升视觉感知的评估标准。",
-              "source": "X：Kimi.ai (@Kimi_Moonshot)",
-              "url": "https://x.com/Kimi_Moonshot/status/2081813202514681878",
-              "score": 69,
-              "sourceCount": 1,
-              "date": "2026-07-28",
-              "publishedAt": "2026-07-28T02:45",
-              "reason": "PerceptionBench 提供了一种全新的视觉感知评估方法，简化了评估过程，适合研究和应用，值得关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-research",
-          "label": "论文研究",
-          "items": [
-            {
-              "title": "2026年亚太经合组织人工智能高级别论坛在成都召开",
-              "summary": "2026年亚太经合组织（APEC）人工智能高级别论坛将在四川成都举行，旨在推动区域内人工智能政策的交流与合作。此次论坛将汇聚各国政府官员、行业专家及学者，共同探讨人工智能的未来发展方向及其对经济社会的影响。",
-              "source": "中国一手 · 国家网信办 AI 政策",
-              "url": "https://www.cac.gov.cn/2026-07/24/c_1786639248102396.htm",
-              "score": 74,
-              "sourceCount": 1,
-              "date": "2026-07-28",
-              "publishedAt": "",
-              "reason": "此次论坛为亚太地区的人工智能政策交流提供了重要平台，值得关注。"
-            },
-            {
-              "title": "Kimi Linear：高效的混合线性注意力架构",
-              "summary": "我注意到月之暗面推出的 Kimi Linear 是一种新型的混合线性注意力架构，首次在短上下文、长上下文和强化学习场景中全面超越全注意力机制。其 3B 激活参数模型在各项评估任务中表现优异，同时将 KV cache 使用量降低了最多 75%，在 1M 上下文下实现了最高 6 倍的",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://arxiv.org/abs/2510.26692",
-              "score": 69,
-              "sourceCount": 1,
-              "date": "2026-07-28",
-              "publishedAt": "2026-07-28T23:21",
-              "reason": "Kimi Linear 提供了一种高效的替代方案，能够在多种场景中超越传统的全注意力机制，值得关注和尝试。"
-            }
-          ]
-        },
-        {
-          "category": "ai-business",
-          "label": "行业商业",
-          "items": [
-            {
-              "title": "中信建投为中银证券人工智能基金提供主做市服务",
-              "summary": "中信建投证券股份有限公司宣布自2026年07月29日起，为中银证券中证科创创业人工智能交易型开放式指数证券投资基金（基金代码：588530）提供主做市服务。这一举措旨在提升该基金的市场流动性，促进投资者交易。",
-              "source": "中国一手 · 上交所公告",
-              "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20260728_10827004.shtml",
-              "score": 74,
-              "sourceCount": 1,
-              "date": "2026-07-28",
-              "publishedAt": "",
-              "reason": "中信建投的这一公告展示了人工智能基金在市场中的新发展，值得关注。"
-            },
-            {
-              "title": "工信部与 Gitee 合作加速国内开源生态建设",
-              "summary": "工信部与 Gitee 的合作标志着国内开源生态建设进入快速发展阶段。Gitee 作为国内领先的开源平台，已在多个领域取得显著进展，包括供应链安全、教育和农业金融等。此举将推动国内开源技术的普及与应用，促进产业数字化转型。",
-              "source": "中国一手 · Gitee 官方博客",
-              "url": "https://blog.gitee.com/#update-9e6cf7b2d00c",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-07-28",
-              "publishedAt": "",
-              "reason": "工信部与 Gitee 的合作将显著推动国内开源生态的发展，值得关注。"
-            }
-          ]
-        }
-      ]
     }
   ],
   "llmLeaderboard": {
-    "updated": "2026-09-29",
+    "updated": "2026-09-30",
     "source": "ReLE 中文大模型能力评测（综合能力）",
     "sourceUrl": "https://github.com/jeinlee1991/chinese-llm-benchmark",
     "items": [
       {
         "rank": 1,
+        "type": "商用",
+        "org": "anthropic",
+        "model": "claude-opus-5.5(new)",
+        "score": "78.6%",
+        "latency": "24s",
+        "tokens": "959",
+        "cost": "98.9"
+      },
+      {
+        "rank": 2,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3.7-max",
@@ -19527,7 +19195,7 @@
         "cost": "99.0"
       },
       {
-        "rank": 2,
+        "rank": 3,
         "type": "商用",
         "org": "anthropic",
         "model": "claude-opus-5(new)",
@@ -19537,7 +19205,7 @@
         "cost": "168.8"
       },
       {
-        "rank": 3,
+        "rank": 4,
         "type": "商用",
         "org": "google",
         "model": "gemini-3.8-flash(new)",
@@ -19547,7 +19215,7 @@
         "cost": "76.9"
       },
       {
-        "rank": 4,
+        "rank": 5,
         "type": "开源",
         "org": "月之暗面",
         "model": "kimi-k3(new)",
@@ -19557,7 +19225,7 @@
         "cost": "172.4"
       },
       {
-        "rank": 5,
+        "rank": 6,
         "type": "商用",
         "org": "豆包",
         "model": "doubao-seed-evolving",
@@ -19567,7 +19235,7 @@
         "cost": "304.7"
       },
       {
-        "rank": 6,
+        "rank": 7,
         "type": "商用",
         "org": "google",
         "model": "gemini-3.7-flash(new)",
@@ -19577,7 +19245,7 @@
         "cost": "27.8"
       },
       {
-        "rank": 7,
+        "rank": 8,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3.6-max-preview",
@@ -19587,7 +19255,7 @@
         "cost": "139.2"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3.8-max(new)",
@@ -19597,7 +19265,7 @@
         "cost": "107.3"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.5",
@@ -19607,7 +19275,7 @@
         "cost": "158.5"
       },
       {
-        "rank": 10,
+        "rank": 11,
         "type": "开源",
         "org": "智谱AI",
         "model": "glm-5.3(new)",
@@ -19617,7 +19285,7 @@
         "cost": "134.9"
       },
       {
-        "rank": 11,
+        "rank": 12,
         "type": "商用",
         "org": "google",
         "model": "gemini-3.1-pro-preview",
@@ -19627,7 +19295,7 @@
         "cost": "250.5"
       },
       {
-        "rank": 12,
+        "rank": 13,
         "type": "开源",
         "org": "深度求索",
         "model": "deepseek-v4-pro(new)",
@@ -19637,7 +19305,7 @@
         "cost": "94.1"
       },
       {
-        "rank": 13,
+        "rank": 14,
         "type": "商用",
         "org": "豆包",
         "model": "doubao-seed-2-1-pro-260628",
@@ -19645,16 +19313,6 @@
         "latency": "276s",
         "tokens": "10677",
         "cost": "313.2"
-      },
-      {
-        "rank": 14,
-        "type": "开源",
-        "org": "腾讯",
-        "model": "hy4-preview(new)",
-        "score": "74.7%",
-        "latency": "95s",
-        "tokens": "6352",
-        "cost": "111.6"
       },
       {
         "rank": 15,
@@ -19668,6 +19326,16 @@
       },
       {
         "rank": 16,
+        "type": "开源",
+        "org": "腾讯",
+        "model": "hy4-preview(new)",
+        "score": "74.7%",
+        "latency": "95s",
+        "tokens": "6352",
+        "cost": "111.6"
+      },
+      {
+        "rank": 17,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.6-sol-pro",
@@ -19677,7 +19345,7 @@
         "cost": "398.7"
       },
       {
-        "rank": 17,
+        "rank": 18,
         "type": "开源",
         "org": "深度求索",
         "model": "deepseek-v4.1-flash(new)",
@@ -19687,7 +19355,7 @@
         "cost": "20.7"
       },
       {
-        "rank": 18,
+        "rank": 19,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-6-astra(new)",
@@ -19697,7 +19365,7 @@
         "cost": "108.1"
       },
       {
-        "rank": 19,
+        "rank": 20,
         "type": "开源",
         "org": "智谱AI",
         "model": "glm-5.3-flash(new)",
@@ -19707,7 +19375,7 @@
         "cost": "12.7"
       },
       {
-        "rank": 20,
+        "rank": 21,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3.8-flash(new)",
@@ -19717,7 +19385,7 @@
         "cost": "10.0"
       },
       {
-        "rank": 21,
+        "rank": 22,
         "type": "商用",
         "org": "google",
         "model": "gemini-3.5-flash",
@@ -19727,7 +19395,7 @@
         "cost": "151.2"
       },
       {
-        "rank": 22,
+        "rank": 23,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3.7-plus",
@@ -19737,7 +19405,7 @@
         "cost": "31.7"
       },
       {
-        "rank": 23,
+        "rank": 24,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "qwen3.5-plus",
@@ -19747,7 +19415,7 @@
         "cost": "22.9"
       },
       {
-        "rank": 24,
+        "rank": 25,
         "type": "商用",
         "org": "豆包",
         "model": "doubao-seed-2-1-turbo-260628",
@@ -19757,7 +19425,7 @@
         "cost": "136.3"
       },
       {
-        "rank": 25,
+        "rank": 26,
         "type": "开源",
         "org": "智谱AI",
         "model": "glm-5.2",
@@ -19767,7 +19435,7 @@
         "cost": "110.5"
       },
       {
-        "rank": 26,
+        "rank": 27,
         "type": "开源",
         "org": "月之暗面",
         "model": "kimi-k2.6",
@@ -19777,7 +19445,7 @@
         "cost": "100.4"
       },
       {
-        "rank": 27,
+        "rank": 28,
         "type": "商用",
         "org": "豆包",
         "model": "Doubao-Seed-2.0-pro",
@@ -19787,7 +19455,7 @@
         "cost": "22.5"
       },
       {
-        "rank": 28,
+        "rank": 29,
         "type": "开源",
         "org": "月之暗面",
         "model": "kimi-k2.7-code",
@@ -19797,7 +19465,7 @@
         "cost": "49.7"
       },
       {
-        "rank": 29,
+        "rank": 30,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.4-high",
@@ -19807,7 +19475,7 @@
         "cost": "122.3"
       },
       {
-        "rank": 30,
+        "rank": 31,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-6-sol(new)",
@@ -19817,7 +19485,7 @@
         "cost": "25.7"
       },
       {
-        "rank": 31,
+        "rank": 32,
         "type": "开源",
         "org": "深度求索",
         "model": "deepseek-v4-pro-0424",
@@ -19827,7 +19495,7 @@
         "cost": "54.3"
       },
       {
-        "rank": 32,
+        "rank": 33,
         "type": "商用",
         "org": "XAI",
         "model": "grok-4.7(new)",
@@ -19837,7 +19505,7 @@
         "cost": "210.0"
       },
       {
-        "rank": 33,
+        "rank": 34,
         "type": "商用",
         "org": "anthropic",
         "model": "claude-opus-4.8",
@@ -19847,7 +19515,7 @@
         "cost": "99.4"
       },
       {
-        "rank": 34,
+        "rank": 35,
         "type": "开源",
         "org": "小米",
         "model": "mimo-v2.5-pro",
@@ -19857,7 +19525,7 @@
         "cost": "64.3"
       },
       {
-        "rank": 35,
+        "rank": 36,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "Qwen3.5-122B-A10B",
@@ -19867,7 +19535,7 @@
         "cost": "32.3"
       },
       {
-        "rank": 36,
+        "rank": 37,
         "type": "开源",
         "org": "月之暗面",
         "model": "Kimi-K2.5-Thinking",
@@ -19877,7 +19545,7 @@
         "cost": "77.1"
       },
       {
-        "rank": 37,
+        "rank": 38,
         "type": "商用",
         "org": "anthropic",
         "model": "claude-sonnet-5-thinking",
@@ -19887,7 +19555,7 @@
         "cost": "93.7"
       },
       {
-        "rank": 38,
+        "rank": 39,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3.6-plus",
@@ -19897,7 +19565,7 @@
         "cost": "41.6"
       },
       {
-        "rank": 39,
+        "rank": 40,
         "type": "开源",
         "org": "智谱AI",
         "model": "GLM-5.1",
@@ -19907,7 +19575,7 @@
         "cost": "73.8"
       },
       {
-        "rank": 40,
+        "rank": 41,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "Qwen3.5-27B",
@@ -19917,7 +19585,7 @@
         "cost": "25.0"
       },
       {
-        "rank": 41,
+        "rank": 42,
         "type": "商用",
         "org": "豆包",
         "model": "Doubao-Seed-2.0-lite",
@@ -19927,7 +19595,7 @@
         "cost": "5.4"
       },
       {
-        "rank": 42,
+        "rank": 43,
         "type": "商用",
         "org": "anthropic",
         "model": "claude-opus-4.6",
@@ -19937,7 +19605,7 @@
         "cost": "96.5"
       },
       {
-        "rank": 43,
+        "rank": 44,
         "type": "商用",
         "org": "XAI",
         "model": "grok-4.5",
@@ -19947,7 +19615,7 @@
         "cost": "125.7"
       },
       {
-        "rank": 44,
+        "rank": 45,
         "type": "商用",
         "org": "XAI",
         "model": "grok-4.6(new)",
@@ -19957,7 +19625,7 @@
         "cost": "118.4"
       },
       {
-        "rank": 45,
+        "rank": 46,
         "type": "开源",
         "org": "小米",
         "model": "mimo-v2.6-pro(new)",
@@ -19967,7 +19635,7 @@
         "cost": "24.0"
       },
       {
-        "rank": 46,
+        "rank": 47,
         "type": "商用",
         "org": "豆包",
         "model": "Doubao-Seed-2.0-mini",
@@ -19977,7 +19645,7 @@
         "cost": "7.0"
       },
       {
-        "rank": 47,
+        "rank": 48,
         "type": "商用",
         "org": "智谱AI",
         "model": "GLM-5-Turbo",
@@ -19987,7 +19655,7 @@
         "cost": "60.8"
       },
       {
-        "rank": 48,
+        "rank": 49,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3-max-think-2026-01-23",
@@ -19997,7 +19665,7 @@
         "cost": "43.5"
       },
       {
-        "rank": 49,
+        "rank": 50,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-6-luna(new)",
@@ -20007,7 +19675,7 @@
         "cost": "2.8"
       },
       {
-        "rank": 50,
+        "rank": 51,
         "type": "开源",
         "org": "智谱AI",
         "model": "GLM-5",
@@ -20017,7 +19685,7 @@
         "cost": "61.2"
       },
       {
-        "rank": 51,
+        "rank": 52,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "qwen3.5-flash",
@@ -20027,7 +19695,7 @@
         "cost": "10.4"
       },
       {
-        "rank": 52,
+        "rank": 53,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "qwen3.6-27b",
@@ -20037,7 +19705,7 @@
         "cost": "73.2"
       },
       {
-        "rank": 53,
+        "rank": 54,
         "type": "开源",
         "org": "深度求索",
         "model": "deepseek-v4-flash-0424",
@@ -20047,7 +19715,7 @@
         "cost": "4.9"
       },
       {
-        "rank": 54,
+        "rank": 55,
         "type": "商用",
         "org": "百度",
         "model": "ernie-5.1",
@@ -20057,7 +19725,7 @@
         "cost": "32.6"
       },
       {
-        "rank": 55,
+        "rank": 56,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "Qwen3.6-35B-A3B",
@@ -20067,7 +19735,7 @@
         "cost": "40.5"
       },
       {
-        "rank": 56,
+        "rank": 57,
         "type": "商用",
         "org": "minimax",
         "model": "MiniMax-M3",
@@ -20077,7 +19745,7 @@
         "cost": "37.0"
       },
       {
-        "rank": 57,
+        "rank": 58,
         "type": "开源",
         "org": "阶跃星辰",
         "model": "step-3.7-flash",
@@ -20087,7 +19755,7 @@
         "cost": "40.6"
       },
       {
-        "rank": 58,
+        "rank": 59,
         "type": "商用",
         "org": "百度",
         "model": "ERNIE-5.0",
@@ -20097,7 +19765,7 @@
         "cost": "89.2"
       },
       {
-        "rank": 59,
+        "rank": 60,
         "type": "开源",
         "org": "深度求索",
         "model": "DeepSeek-V3.2-Think",
@@ -20107,7 +19775,7 @@
         "cost": "7.5"
       },
       {
-        "rank": 60,
+        "rank": 61,
         "type": "开源",
         "org": "小米",
         "model": "mimo-v2.6-flash(new)",
@@ -20117,7 +19785,7 @@
         "cost": "6.1"
       },
       {
-        "rank": 61,
+        "rank": 62,
         "type": "开源",
         "org": "小米",
         "model": "MiMo-V2-Omni",
@@ -20127,7 +19795,7 @@
         "cost": "34.8"
       },
       {
-        "rank": 62,
+        "rank": 63,
         "type": "开源",
         "org": "小米",
         "model": "mimo-v2.5",
@@ -20137,7 +19805,7 @@
         "cost": "36.8"
       },
       {
-        "rank": 63,
+        "rank": 64,
         "type": "开源",
         "org": "小米",
         "model": "MiMo-V2-Pro",
@@ -20147,7 +19815,7 @@
         "cost": "50.2"
       },
       {
-        "rank": 64,
+        "rank": 65,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.4-mini-high",
@@ -20157,7 +19825,7 @@
         "cost": "71.8"
       },
       {
-        "rank": 65,
+        "rank": 66,
         "type": "商用",
         "org": "minimax",
         "model": "MiniMax-M2.7",
@@ -20167,7 +19835,7 @@
         "cost": "32.4"
       },
       {
-        "rank": 66,
+        "rank": 67,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.3-chat",
@@ -20177,7 +19845,7 @@
         "cost": "51.5"
       },
       {
-        "rank": 67,
+        "rank": 68,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3-max-2026-01-23",
@@ -20187,7 +19855,7 @@
         "cost": "9.7"
       },
       {
-        "rank": 68,
+        "rank": 69,
         "type": "商用",
         "org": "小米",
         "model": "MiMo-V2-Flash-think-0204",
@@ -20197,7 +19865,7 @@
         "cost": "7.8"
       },
       {
-        "rank": 69,
+        "rank": 70,
         "type": "开源",
         "org": "阶跃星辰",
         "model": "step-3.5-flash",
@@ -20207,7 +19875,7 @@
         "cost": "9.8"
       },
       {
-        "rank": 70,
+        "rank": 71,
         "type": "开源",
         "org": "腾讯",
         "model": "hy3",
@@ -20217,7 +19885,7 @@
         "cost": "1.8"
       },
       {
-        "rank": 71,
+        "rank": 72,
         "type": "商用",
         "org": "minimax",
         "model": "MiniMax-M2.5",
@@ -20227,7 +19895,7 @@
         "cost": "26.3"
       },
       {
-        "rank": 72,
+        "rank": 73,
         "type": "开源",
         "org": "深度求索",
         "model": "DeepSeek-V3.2",
@@ -20237,7 +19905,7 @@
         "cost": "2.4"
       },
       {
-        "rank": 73,
+        "rank": 74,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.4",
@@ -20247,7 +19915,7 @@
         "cost": "34.8"
       },
       {
-        "rank": 74,
+        "rank": 75,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.4-nano-high",
@@ -20257,7 +19925,7 @@
         "cost": "13.2"
       },
       {
-        "rank": 75,
+        "rank": 76,
         "type": "商用",
         "org": "小米",
         "model": "MiMo-V2-Flash-0204",
@@ -20267,7 +19935,7 @@
         "cost": "1.7"
       },
       {
-        "rank": 76,
+        "rank": 77,
         "type": "开源",
         "org": "美团",
         "model": "LongCat-Flash-Lite",
@@ -20277,7 +19945,7 @@
         "cost": "0.0"
       },
       {
-        "rank": 77,
+        "rank": 78,
         "type": "开源",
         "org": "openAI",
         "model": "gpt-oss-120b",
@@ -20287,7 +19955,7 @@
         "cost": "2.9"
       },
       {
-        "rank": 78,
+        "rank": 79,
         "type": "商用",
         "org": "google",
         "model": "gemini-3.1-flash-lite-preview",
@@ -20297,7 +19965,7 @@
         "cost": "3.9"
       },
       {
-        "rank": 79,
+        "rank": 80,
         "type": "开源",
         "org": "google",
         "model": "gemma-4-31b-it",
@@ -20307,7 +19975,7 @@
         "cost": "1.4"
       },
       {
-        "rank": 80,
+        "rank": 81,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.4-mini",
@@ -20317,7 +19985,7 @@
         "cost": "7.0"
       },
       {
-        "rank": 81,
+        "rank": 82,
         "type": "开源",
         "org": "google",
         "model": "gemma-4-26b-a4b-it",
@@ -20327,7 +19995,7 @@
         "cost": "1.7"
       },
       {
-        "rank": 82,
+        "rank": 83,
         "type": "开源",
         "org": "openAI",
         "model": "gpt-oss-20b",
@@ -20337,7 +20005,7 @@
         "cost": "2.1"
       },
       {
-        "rank": 83,
+        "rank": 84,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.4-nano",
