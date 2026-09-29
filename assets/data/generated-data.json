@@ -1,7 +1,35 @@
 {
   "lastUpdated": "2026-09-29",
-  "generatedAt": "2026-09-28T21:26:43.900454Z",
+  "generatedAt": "2026-09-28T23:46:19.330842Z",
   "news": [
+    {
+      "title": "Grok 4.7 is now available on Amazon Bedrock",
+      "summary": "xAI's Grok 4.7 is now available on Amazon Bedrock: a frontier model for coding, long-running agents, and knowledge work. It offers a 500K token context window and four configurable",
+      "category": "ai-coding",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-29",
+      "publishedAt": "2026-09-29T06:13",
+      "collectedAt": "2026-09-29T06:36",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/grok-4-7-is-now-available-on-amazon-bedrock/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "One year in: How Microsoft Research Asia – Singapore is advancing research, partnership and talent for real-world impact",
       "summary": "Since launching a year ago, the Microsoft Research Asia — Singapore lab has established a strong foundation, deepened collaboration across government, academia, and industry, and e",
@@ -55,7 +83,14 @@
         "news",
         "topicResources"
       ],
-      "sourceCount": 1
+      "sourceCount": 2,
+      "relatedSources": [
+        {
+          "source": "Simon Willison 博客",
+          "url": "https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/",
+          "title": "Anthropic 发布 Claude Sonnet 5.5，更快更便宜并成为 claude.ai 免费层默认模型"
+        }
+      ]
     },
     {
       "title": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
@@ -2487,170 +2522,6 @@
       "moduleTargets": [
         "news",
         "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Exact Feedback Is Not Control: Evaluating Text-based Closed-Loop Revision in LLMs",
-      "summary": "Closed-loop revision is increasingly used in large language model (LLM) applications, but failures may reflect incomplete feedback or ineffective responses to correct feedback. We ",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-23",
-      "publishedAt": "",
-      "collectedAt": "2026-09-24T13:24",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-23",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.28150v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "ChatGPT Ads expands to Southeast Asia and Taiwan",
-      "summary": "ChatGPT Ads is expanding to Southeast Asia and Taiwan, giving eligible businesses new ways to reach people across more than 60 countries.",
-      "category": "ai-business",
-      "source": "RSS · OpenAI Blog",
-      "date": "2026-09-23",
-      "publishedAt": "2026-09-23T10:00",
-      "collectedAt": "2026-09-24T12:10",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Fine-Tuning LLMs for Translation: General Forgetting Mitigation Does Not Preserve MT-Specific Instruction Following",
-      "summary": "Fine-tuning large language models on parallel data improves translation quality but can cause catastrophic forgetting. Mitigation methods are generally evaluated by retention on ge",
-      "category": "ai-benchmark",
-      "source": "arXiv",
-      "date": "2026-09-23",
-      "publishedAt": "",
-      "collectedAt": "2026-09-24T12:10",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-23",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.28395v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "StudentBench: AI and human tutoring yield equivalent GRE learning gains",
-      "summary": "Artificial intelligence offers an unprecedented opportunity to augment human capabilities, yet progress at the frontier has focused primarily on advancing model capabilities. We in",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-23",
-      "publishedAt": "",
-      "collectedAt": "2026-09-24T12:10",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-23",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.28470v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Shopping by algorithm: How agentic AI deploys human heuristics as a surrogate consumer",
-      "summary": "Consumers increasingly delegate purchasing decisions to Large Language Models (LLMs) acting as surrogate consumers. Using \"Tool-Lab,\" an adaptation of information-board process tra",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-09-23",
-      "publishedAt": "",
-      "collectedAt": "2026-09-24T12:10",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-23",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.28372v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Can LLMs Reason About Runtime Behavior? A Repository-Level Dynamic Benchmark",
-      "summary": "Large language models (LLMs) are increasingly used in coding tasks, but their ability to reason about code execution remains unclear. Existing repository-level QA benchmarks mainly",
-      "category": "ai-coding",
-      "source": "arXiv",
-      "date": "2026-09-23",
-      "publishedAt": "",
-      "collectedAt": "2026-09-24T12:10",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-23",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.28449v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
       ],
       "sourceCount": 1
     }
@@ -5744,6 +5615,17 @@
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Grok 4.7 is now available on Amazon Bedrock",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "xAI's Grok 4.7 is now available on Amazon Bedrock: a frontier model for coding, long-running agents, and knowledge work. It offers a 500K token context window a",
+        "description": "xAI's Grok 4.7 is now available on Amazon Bedrock: a frontier model for coding, long-running agents, and knowledge work. It offers a 500K token context window and four configurable",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/grok-4-7-is-now-available-on-amazon-bedrock/"
+      },
+      {
         "name": "GitHub 安全团队如何用开源 AI 安全 Agent 找出 24 个 Android 漏洞",
         "provider": "GitHub Blog",
         "type": "AI 项目/工具",
@@ -6171,20 +6053,20 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Brattleboro Reformer",
         "url": "https://www.reformer.com/online_features/press_releases/cometapi-adds-openai-s-gpt-6-astra-api-to-its-multi-model-developer-platform/article_253e42f3-516b-51eb-af92-ecb290a09d5c.html"
-      },
-      {
-        "name": "CometAPI Adds OpenAI's GPT-6 Astra API to Its Multi-Model De",
-        "provider": "The Berkshire Eagle",
-        "type": "AI 项目/工具",
-        "bestFor": "The addition gives developers access to advanced reasoning, coding and computer-use capabilities through a single API key.\n\nUNITED STATES - September 14, 2026 -",
-        "description": "The addition gives developers access to advanced reasoning, coding and computer-use capabilities through a single API key.\n\nUNITED STATES - September 14, 2026 - CometAPI, an AI inf",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Berkshire Eagle",
-        "url": "https://www.berkshireeagle.com/online_features/press_releases/cometapi-adds-openai-s-gpt-6-astra-api-to-its-multi-model-developer-platform/article_396294bd-3204-5662-937f-800318406535.html"
       }
     ],
     "ai-agents": [
+      {
+        "name": "Anthropic 与 NVIDIA 合作推出 Claude Managed Agents 与 OpenShell 强化",
+        "provider": "Claude：Blog（网页）",
+        "type": "AI 项目/工具",
+        "bestFor": "Anthropic 与 NVIDIA 合作加强 Agent 安全。NVIDIA 发布 Open Agent Safety Platform，Anthropic 推出 Claude Managed Agents。",
+        "description": "Anthropic 与 NVIDIA 合作加强 Agent 安全。NVIDIA 发布 Open Agent Safety Platform，Anthropic 推出 Claude Managed Agents。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Claude：Blog（网页）",
+        "url": "https://claude.com/blog/giving-companies-more-control-over-their-ai-agents-with-nvidia"
+      },
       {
         "name": "Arena 评测：GPT-6 Luna (Max) 列 Agent Arena 第 23 名，单任务成本仅 $0.05",
         "provider": "X：Arena (@arena)",
@@ -6613,17 +6495,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:Google Gemini",
         "url": "https://english.mathrubhumi.com/technology/openai-ai-agents-us-government-websites-new-york-times-report-xgcjohz0"
-      },
-      {
-        "name": "Alphabet (GOOGL) Faces Gemini Security Questions. Could AI A",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "On September 18, 2026, Reuters reported that Alphabet Inc. (NASDAQ:GOOGL)’s Gemini model autonomously hacked into three companies during a May 2026 cybersecurit",
-        "description": "On September 18, 2026, Reuters reported that Alphabet Inc. (NASDAQ:GOOGL)’s Gemini model autonomously hacked into three companies during a May 2026 cybersecurity test conducted by ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:Google Gemini",
-        "url": "https://www.insidermonkey.com/news/alphabet-googl-faces-gemini-security-questions-could-ai-agents-raise-its-risks-1842562/"
       }
     ],
     "ai-models": [
@@ -10347,20 +10218,31 @@
   ],
   "dailyReport": {
     "date": "2026-09-29",
-    "generatedAt": "2026-09-28T21:26:43.879387Z",
-    "total": 11,
+    "generatedAt": "2026-09-28T23:46:19.309842Z",
+    "total": 12,
     "sections": [
       {
         "category": "ai-coding",
         "label": "AI 编程",
         "items": [
           {
+            "title": "Grok 4.7 is now available on Amazon Bedrock",
+            "summary": "xAI's Grok 4.7 is now available on Amazon Bedrock: a frontier model for coding, long-running agents, and knowledge work. It offers a 500K to",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/grok-4-7-is-now-available-on-amazon-bedrock/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-29",
+            "publishedAt": "2026-09-29T06:13",
+            "reason": ""
+          },
+          {
             "title": "Introducing Claude Sonnet 5.5 on AWS",
             "summary": "Claude Sonnet 5.5 is now available on Amazon Bedrock and Claude Platform on AWS. It's a smarter, more efficient Sonnet model for focused cod",
             "source": "RSS · AWS Machine Learning",
             "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-sonnet-5-5-on-aws/",
             "score": 70,
-            "sourceCount": 1,
+            "sourceCount": 2,
             "date": "2026-09-29",
             "publishedAt": "2026-09-29T02:57",
             "reason": ""
