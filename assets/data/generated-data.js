@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-30",
-  "generatedAt": "2026-09-29T19:44:08.531066Z",
+  "generatedAt": "2026-09-29T23:15:46.690152Z",
   "news": [
     {
       "title": "How Diffusion Controller unifies and simplifies AI image generation",
@@ -5737,6 +5737,17 @@ window.AI_GENERATED_DATA = {
   "topicResources": {
     "ai-coding": [
       {
+        "name": "OpenAI 推出新版 Codex Cloud，Agents API 开放预览并支持 computer use",
+        "provider": "X：Tibo (@thsottiaux)",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenAI 推出大幅升级的新版 Codex Cloud，主打可配置云环境，作者称配置后很难回到本地开发。同时 Agents API（驱动 dots 等云智能体的同一技术）开启预览，支持 computer use，可用于构建同类产品。",
+        "description": "OpenAI 推出大幅升级的新版 Codex Cloud，主打可配置云环境，作者称配置后很难回到本地开发。同时 Agents API（驱动 dots 等云智能体的同一技术）开启预览，支持 computer use，可用于构建同类产品。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "X：Tibo (@thsottiaux)",
+        "url": "https://x.com/thsottiaux/status/2104987594719461796"
+      },
+      {
         "name": "Introducing GPT-6.1 Sol",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -6164,20 +6175,31 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "XDA-Developers",
         "url": "https://www.xda-developers.com/linux-development-is-really-benefiting-from-ai-but-not-from-its-coding/"
-      },
-      {
-        "name": "Xsolla Launches AI Toolkit, Enabling Engine-Agnostic Game Co",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Game Developers Can Now Build A Fully Functional Shop On The First AI-Assisted Attempt, With Validation Built InLOS ANGELES, US – Media OutReach Newswire –",
-        "description": "Game Developers Can Now Build A Fully Functional Shop On The First AI-Assisted Attempt, With Validation Built InLOS ANGELES, US – Media OutReach Newswire –",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://asianews.network/xsolla-launches-ai-toolkit-enabling-engine-agnostic-game-commerce-setup-with-ai-coding-tools/"
       }
     ],
     "ai-agents": [
+      {
+        "name": "Sarvam AI 发布从第一性原理构建 AI 智能体的入门指南",
+        "provider": "Sarvam AI（网页）",
+        "type": "AI 项目/工具",
+        "bestFor": "Sarvam AI 发布 25 分钟长的智能体构建指南，核心观点是智能体就是在循环中运行、能调用工具的语言模型，而技能、记忆和领域知识本质上都是在合适时机把合适文本放进上下文窗口。指南围绕在线商店客服智能体 ShopBot 逐步展开，覆盖系统提示词、工具设计、渐进式披露的技能、短期与长期记忆、RAG 检索、智能体拆分原",
+        "description": "Sarvam AI 发布 25 分钟长的智能体构建指南，核心观点是智能体就是在循环中运行、能调用工具的语言模型，而技能、记忆和领域知识本质上都是在合适时机把合适文本放进上下文窗口。指南围绕在线商店客服智能体 ShopBot 逐步展开，覆盖系统提示词、工具设计、渐进式披露的技能、短期与长期记忆、RAG 检索、智能体拆分原则，并以完整端到端示例、常见错误清单和构",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Sarvam AI（网页）",
+        "url": "https://www.sarvam.ai/blogs/building-ai-agents"
+      },
+      {
+        "name": "OpenAI DevDay 2026 发布 Dots、GPT-6.1 Sol、500美元订阅等一揽子更新",
+        "provider": "公众号：数字生命卡兹克",
+        "type": "AI 项目/工具",
+        "bestFor": "作者总结OpenAI DevDay 2026的发布：个人Agent产品Dots向ChatGPT Pro、Business Premium和Enterprise用户推出，支持4000多个应用协作；新模型GPT-6.1 Sol以约Astra七分之一的任务成本上线；推出500美元订阅并将200美元Pro额度倍数从20x砍到1",
+        "description": "作者总结OpenAI DevDay 2026的发布：个人Agent产品Dots向ChatGPT Pro、Business Premium和Enterprise用户推出，支持4000多个应用协作；新模型GPT-6.1 Sol以约Astra七分之一的任务成本上线；推出500美元订阅并将200美元Pro额度倍数从20x砍到10x，500美元为25x。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "公众号：数字生命卡兹克",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647686841&idx=1&sn=630c0dc22de47c9c2f58bd5253a91a9a&chksm=f1e33576f80f214c7290b1545cc8bfbb32ac24c3144cd141b7c2dd7cdaaf71f44d3cf319db8b&scene=126&sessionid=1790722837#rd"
+      },
       {
         "name": "GPT-6.1 上线 Arena 评测平台",
         "provider": "X：Arena (@arena)",
@@ -6595,31 +6617,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:large language model",
         "url": "https://www.prnewswire.com/apac/news-releases/xsight-group-featured-in-harvard-business-review-on-ai-agent-orchestration-across-silos-302888902.html"
-      },
-      {
-        "name": "NVIDIA 发布开源智能体安全平台，提供芯片级持续监控与隔离",
-        "provider": "NVIDIA Technical Blog：Agentic AI / Generative AI",
-        "type": "AI 项目/工具",
-        "bestFor": "NVIDIA 推出 NVIDIA Open Agent Safety Platform，包含开源运行时 OpenShell、硬件层 Sentry 及 DOCA 技术。该平台旨在通过内核级隔离、零信任环境和带外（out-of-band）监控来防止 AI 智能体行为漂移和越权。OpenShell 将操作指令转化为可验证策略",
-        "description": "NVIDIA 推出 NVIDIA Open Agent Safety Platform，包含开源运行时 OpenShell、硬件层 Sentry 及 DOCA 技术。该平台旨在通过内核级隔离、零信任环境和带外（out-of-band）监控来防止 AI 智能体行为漂移和越权。OpenShell 将操作指令转化为可验证策略，BlueField DPU 在模型路径",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NVIDIA Technical Blog：Agentic AI / Generative AI",
-        "url": "https://developer.nvidia.com/blog/nvidia-open-agent-safety-platform-a-reference-for-continuous-in-silicon-agent-monitoring/"
-      },
-      {
-        "name": "Holo4: powering generalist computer-use agents",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "",
-        "description": "",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · Hugging Face Blog",
-        "url": "https://huggingface.co/blog/Hcompany/holo4"
       }
     ],
     "ai-models": [
+      {
+        "name": "OpenAI 发布 GPT-6.1 Sol，以约五分之一价格接近 GPT-6 Astra 的智能水平",
+        "provider": "OpenAI：官网动态（RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenAI 发布 GPT-6.1 Sol，在智能体编码、计算机使用和专业工作上接近 GPT-6 Astra，价格约为其五分之一。API 定价为每百万输入 token $2、缓存输入 $0.10、输出 $10。",
+        "description": "OpenAI 发布 GPT-6.1 Sol，在智能体编码、计算机使用和专业工作上接近 GPT-6 Astra，价格约为其五分之一。API 定价为每百万输入 token $2、缓存输入 $0.10、输出 $10。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+        "url": "https://openai.com/index/introducing-gpt-6-1-sol/"
+      },
       {
         "name": "Every 实测 OpenAI DevDay 2026：20 多项发布与上手体验",
         "provider": "Every：最新文章（网页）",
@@ -7048,17 +7059,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "X：Sam Altman (@sama)",
         "url": "https://x.com/sama/status/2102464201335984392"
-      },
-      {
-        "name": "Meta AI 助手 Muse 曝出严重 0-day，可被本地应用窃取账户令牌",
-        "provider": "Hacker News：AI 热帖",
-        "type": "AI 项目/工具",
-        "bestFor": "Ars Technica 报道，安全专家 Patrick Wardle 披露 Meta 的 macOS AI 助手 Muse 存在 0-day 漏洞：任何本地应用或终端命令都能修改未公开设置，把语音转录端点指向攻击者服务器，从而获取 Muse 账户令牌和完整控制权。",
-        "description": "Ars Technica 报道，安全专家 Patrick Wardle 披露 Meta 的 macOS AI 助手 Muse 存在 0-day 漏洞：任何本地应用或终端命令都能修改未公开设置，把语音转录端点指向攻击者服务器，从而获取 Muse 账户令牌和完整控制权。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Hacker News：AI 热帖",
-        "url": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day"
       }
     ],
     "ai-business": [
@@ -10336,7 +10336,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-30",
-    "generatedAt": "2026-09-29T19:44:08.511028Z",
+    "generatedAt": "2026-09-29T23:15:46.668526Z",
     "total": 17,
     "sections": [
       {
