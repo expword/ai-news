@@ -1,7 +1,34 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-30",
-  "generatedAt": "2026-09-29T17:24:24.471968Z",
+  "generatedAt": "2026-09-29T19:44:08.531066Z",
   "news": [
+    {
+      "title": "How Diffusion Controller unifies and simplifies AI image generation",
+      "summary": "Algorithms & Theory",
+      "category": "ai-image-video",
+      "source": "RSS · Google Research",
+      "date": "2026-09-30",
+      "publishedAt": "2026-09-30T02:38",
+      "collectedAt": "2026-09-30T03:44",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://research.google/blog/how-diffusion-controller-unifies-and-simplifies-ai-image-generation/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Prompt engineering fundamentals for Amazon Quick",
       "summary": "Prompt engineering in Amazon Quick shapes how accurately its AI-powered features respond to your requests. Part 1 of a two-part series covers the foundational principles and reusab",
@@ -48,6 +75,97 @@ window.AI_GENERATED_DATA = {
       "sourceDate": "",
       "tags": [],
       "url": "https://aws.amazon.com/blogs/machine-learning/building-an-ai-powered-contract-intelligence-platform-with-amazon-quick-and-amazon-bedrock-agentcore/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Introducing GPT-6.1 Sol",
+      "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
+      "category": "ai-coding",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-09-29",
+      "publishedAt": "2026-09-29T18:00",
+      "collectedAt": "2026-09-30T02:34",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 2,
+      "relatedSources": [
+        {
+          "source": "RSS · AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/bring-near-astra-intelligence-to-everyday-work-with-gpt-6-1-sol-on-amazon-bedrock/",
+          "title": "Bring near-Astra intelligence to everyday work with GPT-6.1 Sol on Amazon Bedrock"
+        }
+      ]
+    },
+    {
+      "title": "DevDay 2026 Recap",
+      "summary": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
+      "category": "ai-coding",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-09-29",
+      "publishedAt": "2026-09-29T18:00",
+      "collectedAt": "2026-09-30T02:34",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/devday-2026-recap",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Introducing dots",
+      "summary": "Dots by OpenAI are a proactive assistant that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
+      "category": "ai-models",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-09-29",
+      "publishedAt": "2026-09-29T08:00",
+      "collectedAt": "2026-09-30T02:34",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/introducing-dots",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -2527,94 +2645,6 @@ window.AI_GENERATED_DATA = {
         "news"
       ],
       "sourceCount": 1
-    },
-    {
-      "title": "Learning and interpreting policies for simultaneous entanglement requests in quantum networks",
-      "summary": "Future quantum networks will make use of entanglement to perform numerous tasks, such as sending quantum information over long distances, distributed quantum computing, and quantum",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-24",
-      "publishedAt": "",
-      "collectedAt": "2026-09-25T10:13",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-24",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.30157v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "NEUROTESTGEN: Neuro-Symbolic Guided Test Generation with Large Language Models",
-      "summary": "Ensuring high structural coverage remains a fundamental challenge in automated test generation, particularly for complex software systems where reaching specific lines or branches ",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-24",
-      "publishedAt": "",
-      "collectedAt": "2026-09-25T10:13",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-24",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.30178v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "The Alignment Illusion in Multimodal Large Language Models",
-      "summary": "Layer-wise visual-text similarity in Multimodal Large Language Models (MLLMs) is widely interpreted as evidence that the language model progressively integrates visual content into",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-24",
-      "publishedAt": "",
-      "collectedAt": "2026-09-25T10:13",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-24",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.30210v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 2,
-      "relatedSources": [
-        {
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2609.31551v1",
-          "title": "EAServe: Encode-Aware Disaggregated Serving for Multimodal Large Language Models"
-        }
-      ]
     }
   ],
   "weeklyDigests": [
@@ -5707,6 +5737,28 @@ window.AI_GENERATED_DATA = {
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Introducing GPT-6.1 Sol",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
+        "description": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · OpenAI Blog",
+        "url": "https://openai.com/index/introducing-gpt-6-1-sol"
+      },
+      {
+        "name": "DevDay 2026 Recap",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
+        "description": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · OpenAI Blog",
+        "url": "https://openai.com/index/devday-2026-recap"
+      },
+      {
         "name": "AI often leaves out minority languages – but some communitie",
         "provider": "NewsData.io",
         "type": "AI 项目/工具",
@@ -6123,31 +6175,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:AI agent",
         "url": "https://asianews.network/xsolla-launches-ai-toolkit-enabling-engine-agnostic-game-commerce-setup-with-ai-coding-tools/"
-      },
-      {
-        "name": "Data storytelling meets interpretable machine learning: Deco",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "AI-driven automated decision-making requires both predictive performance and interpretability. Recent advances in interpretable machine learning (IML) provide t",
-        "description": "AI-driven automated decision-making requires both predictive performance and interpretability. Recent advances in interpretable machine learning (IML) provide tools for explaining ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2609.15722v1"
-      },
-      {
-        "name": "Should all enterprise code and workflows become natural lang",
-        "provider": "VentureBeat",
-        "type": "AI 项目/工具",
-        "bestFor": "AI coding agents are rapidly becoming the predominant authors of enterprise software (at Anthropic, they're already up to 80% of all production code shipped). W",
-        "description": "AI coding agents are rapidly becoming the predominant authors of enterprise software (at Anthropic, they're already up to 80% of all production code shipped). While this may improv",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "VentureBeat",
-        "url": "https://venturebeat.com/technology/should-all-enterprise-code-and-workflows-become-natural-language-g5-labs-thinks-so-and-its-new-g5-platform-does-it-for-you"
       }
     ],
     "ai-agents": [
+      {
+        "name": "GPT-6.1 上线 Arena 评测平台",
+        "provider": "X：Arena (@arena)",
+        "type": "AI 项目/工具",
+        "bestFor": "Arena 宣布 OpenAI 的 GPT-6.1 现已上线 Agent Arena，用户投票将影响其评估，分数即将公布。Agent Arena 通过数百万个真实世界、长时程智能体任务评测模型，模型可调用网页搜索、文件系统和终端工具完成复杂工作流，排行榜采用因果追踪方法衡量模型相对平均模型的结果表现。",
+        "description": "Arena 宣布 OpenAI 的 GPT-6.1 现已上线 Agent Arena，用户投票将影响其评估，分数即将公布。Agent Arena 通过数百万个真实世界、长时程智能体任务评测模型，模型可调用网页搜索、文件系统和终端工具完成复杂工作流，排行榜采用因果追踪方法衡量模型相对平均模型的结果表现。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "X：Arena (@arena)",
+        "url": "https://x.com/arena/status/2105006240363581728"
+      },
       {
         "name": "Building an AI-powered contract intelligence platform with A",
         "provider": "RSS",
@@ -6576,20 +6617,31 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · Hugging Face Blog",
         "url": "https://huggingface.co/blog/Hcompany/holo4"
-      },
-      {
-        "name": "英伟达联合超100家伙伴推出开放代理安全平台",
-        "provider": "X：Jensen Huang (@JensenHuang)",
-        "type": "AI 项目/工具",
-        "bestFor": "2026年9月28日，黄仁勋在X平台宣布，英伟达联合超过100家行业伙伴，推出NVIDIA Open Agent Safety Platform，整合OpenShell与Sentry两大组件。该平台旨在构建安全代理系统的信任层，强调“安全是信任的基础”，并称其为“AI经济的基石”。",
-        "description": "2026年9月28日，黄仁勋在X平台宣布，英伟达联合超过100家行业伙伴，推出NVIDIA Open Agent Safety Platform，整合OpenShell与Sentry两大组件。该平台旨在构建安全代理系统的信任层，强调“安全是信任的基础”，并称其为“AI经济的基石”。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "X：Jensen Huang (@JensenHuang)",
-        "url": "https://x.com/JensenHuang/status/2104499465055023424"
       }
     ],
     "ai-models": [
+      {
+        "name": "Every 实测 OpenAI DevDay 2026：20 多项发布与上手体验",
+        "provider": "Every：最新文章（网页）",
+        "type": "AI 项目/工具",
+        "bestFor": "Every 评测 OpenAI DevDay 2026 发布的 20 多项产品和功能。作者实测后认为 Dots 持久智能体已改变其使用习惯但 bug 较多，Space 办公套件体验较好；Decisions API 在部分测试中以 76/78 对 73/78 的准确率和 230 毫秒对 500 毫秒的响应速度优于 Jev",
+        "description": "Every 评测 OpenAI DevDay 2026 发布的 20 多项产品和功能。作者实测后认为 Dots 持久智能体已改变其使用习惯但 bug 较多，Space 办公套件体验较好；Decisions API 在部分测试中以 76/78 对 73/78 的准确率和 230 毫秒对 500 毫秒的响应速度优于 Jev，但另一些测试落后，定价未公布。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Every：最新文章（网页）",
+        "url": "https://every.to/vibe-check/vibe-check-openai-devday-2026"
+      },
+      {
+        "name": "Introducing dots",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Dots by OpenAI are a proactive assistant that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work mo",
+        "description": "Dots by OpenAI are a proactive assistant that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · OpenAI Blog",
+        "url": "https://openai.com/index/introducing-dots"
+      },
       {
         "name": "Build real-time voice applications with vLLM-Omni on SageMak",
         "provider": "RSS",
@@ -7007,28 +7059,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Hacker News：AI 热帖",
         "url": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day"
-      },
-      {
-        "name": "Windows 11 Design Refresh: Which Legacy Dialogs are Being Mo",
-        "provider": "Analytics Insight",
-        "type": "AI 项目/工具",
-        "bestFor": "Microsoft is modernizing several legacy Windows 11 dialogs to create a more consistent design across Settings and system tools.\n\nVoice packages and Reset this P",
-        "description": "Microsoft is modernizing several legacy Windows 11 dialogs to create a more consistent design across Settings and system tools.\n\nVoice packages and Reset this PC are among the olde",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Analytics Insight",
-        "url": "https://www.analyticsinsight.net/technology/windows-11-design-refresh-which-legacy-dialogs-are-being-modernized"
-      },
-      {
-        "name": "Meta AI vs Grok vs DeepSeek vs Perplexity: Which free AI is ",
-        "provider": "The Financial Express",
-        "type": "AI 项目/工具",
-        "bestFor": "While flagship AI tools like ChatGPT, Google Gemini, and Anthropic Claude dominate most discussions on AI, subscribing to one of these \"premium\" ones can quickl",
-        "description": "While flagship AI tools like ChatGPT, Google Gemini, and Anthropic Claude dominate most discussions on AI, subscribing to one of these \"premium\" ones can quickly turn into a heavy ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Financial Express",
-        "url": "https://www.financialexpress.com/life/technology-meta-ai-vs-grok-vs-deepseek-vs-perplexity-which-free-ai-is-best-for-you-4344861/"
       }
     ],
     "ai-business": [
@@ -10306,13 +10336,35 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-30",
-    "generatedAt": "2026-09-29T17:24:24.447969Z",
-    "total": 13,
+    "generatedAt": "2026-09-29T19:44:08.511028Z",
+    "total": 17,
     "sections": [
       {
         "category": "ai-coding",
         "label": "AI 编程",
         "items": [
+          {
+            "title": "Introducing GPT-6.1 Sol",
+            "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and out",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+            "score": 70,
+            "sourceCount": 2,
+            "date": "2026-09-29",
+            "publishedAt": "2026-09-29T18:00",
+            "reason": ""
+          },
+          {
+            "title": "DevDay 2026 Recap",
+            "summary": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builder",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/devday-2026-recap",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-29",
+            "publishedAt": "2026-09-29T18:00",
+            "reason": ""
+          },
           {
             "title": "Grok 4.7 is now available on Amazon Bedrock",
             "summary": "xAI's Grok 4.7 is now available on Amazon Bedrock: a frontier model for coding, long-running agents, and knowledge work. It offers a 500K to",
@@ -10341,6 +10393,17 @@ window.AI_GENERATED_DATA = {
         "category": "ai-image-video",
         "label": "图像视频",
         "items": [
+          {
+            "title": "How Diffusion Controller unifies and simplifies AI image generation",
+            "summary": "Algorithms & Theory",
+            "source": "RSS · Google Research",
+            "url": "https://research.google/blog/how-diffusion-controller-unifies-and-simplifies-ai-image-generation/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-30",
+            "publishedAt": "2026-09-30T02:38",
+            "reason": ""
+          },
           {
             "title": "How Condé Nast built multimodal video discovery with Amazon Bedrock",
             "summary": "Condé Nast's editorial teams spent an average of 250 minutes per task searching a library of more than 140,000 videos using only titles and ",
@@ -10406,6 +10469,17 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 2,
             "date": "2026-09-30",
             "publishedAt": "2026-09-30T00:27",
+            "reason": ""
+          },
+          {
+            "title": "Introducing dots",
+            "summary": "Dots by OpenAI are a proactive assistant that can keep working across complex projects and everyday tasks. Learn how dots help you stay in c",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/introducing-dots",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-29",
+            "publishedAt": "2026-09-29T08:00",
             "reason": ""
           },
           {
