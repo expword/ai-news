@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-29",
-  "generatedAt": "2026-09-28T23:46:19.330842Z",
+  "generatedAt": "2026-09-29T02:15:19.881975Z",
   "news": [
     {
       "title": "Grok 4.7 is now available on Amazon Bedrock",
@@ -153,6 +153,89 @@ window.AI_GENERATED_DATA = {
           "title": "Generate images and video with vLLM-Omni on SageMaker AI – Part 2"
         }
       ]
+    },
+    {
+      "title": "Faster Rates for Federated Variational Inequalities",
+      "summary": "In this paper, we study federated optimization for solving stochastic variational inequalities (VIs), a problem that has attracted growing attention in recent years. Despite substa",
+      "category": "ai-research",
+      "source": "RSS · Apple ML Research",
+      "date": "2026-09-28",
+      "publishedAt": "2026-09-28T08:00",
+      "collectedAt": "2026-09-29T10:15",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://machinelearning.apple.com/research/federated-variational-inequalities",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Large Language Models for Structured Clinical Data Analysis: Dual-Agent Grounding and Validation",
+      "summary": "Objective: To develop and characterize CLEAR-Med, a dual-agent framework for natural-language analysis of structured clinical data that separates SQL-based invocation from independ",
+      "category": "ai-agents",
+      "source": "arXiv",
+      "date": "2026-09-28",
+      "publishedAt": "",
+      "collectedAt": "2026-09-29T10:15",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-28",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.34039v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Kafila: Serving Large Language Models on a Trusted Set of Heterogeneous Commodity Machines",
+      "summary": "Between them, the members of a research group or a circle of friends own several consumer computers, none large enough to run a capable large language model. Existing systems pool ",
+      "category": "ai-research",
+      "source": "arXiv",
+      "date": "2026-09-28",
+      "publishedAt": "",
+      "collectedAt": "2026-09-29T10:15",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-28",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.34045v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
     },
     {
       "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
@@ -342,6 +425,143 @@ window.AI_GENERATED_DATA = {
       "moduleTargets": [
         "news",
         "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Maat: Independent Deterministic Contract-Based Governance for Multi-Agent LLM Workflows",
+      "summary": "Large-language-model multi-agent systems (LLM-MAS) introduce a characteristic reliability problem: an error produced by one agent can be accepted as context by downstream agents an",
+      "category": "ai-agents",
+      "source": "arXiv",
+      "date": "2026-09-27",
+      "publishedAt": "",
+      "collectedAt": "2026-09-29T10:15",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-27",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.34017v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "MetaSampling: Making Frame Samplers Efficient for Long-Video Question Answering",
+      "summary": "Frame selection is an important component of long-video question answering (VQA) with Multimodal Large Language Models (MLLMs). Existing frame-selection methods improve over simple",
+      "category": "ai-image-video",
+      "source": "arXiv",
+      "date": "2026-09-27",
+      "publishedAt": "",
+      "collectedAt": "2026-09-29T10:15",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-27",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.33998v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Uncovering shortcut learning in audio classifiers by discovering recurring concepts in temporal explanations",
+      "summary": "Correlations between events in machine learning datasets may result in shortcut learning, where models learn to predict the target event based on the presence of a correlated event",
+      "category": "ai-image-video",
+      "source": "arXiv",
+      "date": "2026-09-27",
+      "publishedAt": "",
+      "collectedAt": "2026-09-29T10:15",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-27",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.34030v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Fisher-Informed Recalibration for Feedback-Based On-Policy Self-Distillation of LLMs",
+      "summary": "Feedback-based on-policy self-distillation has emerged as a promising approach for enabling foundation models, more specifically Large Language Models (LLMs), to learn from their o",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-09-27",
+      "publishedAt": "",
+      "collectedAt": "2026-09-29T10:15",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-27",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.34009v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Faithful Activation Verbalization: Reducing Hallucinations in LLM Representation Interpretation",
+      "summary": "Activation verbalization methods such as Activation Oracle and Natural Language Autoencoders decode hidden representations of large language models into human-readable natural lang",
+      "category": "ai-coding",
+      "source": "arXiv",
+      "date": "2026-09-27",
+      "publishedAt": "",
+      "collectedAt": "2026-09-29T10:15",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-27",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.34033v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
       ],
       "sourceCount": 1
     },
@@ -2494,34 +2714,6 @@ window.AI_GENERATED_DATA = {
       "aiSelected": true,
       "moduleTargets": [
         "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "GUIAuditor: Enabling Post-hoc Child Safety Forensics via Action-Guided GUI Provenance on Mobile Devices",
-      "summary": "The proliferation of smart devices exposes children to online risks like grooming and financial scams that are deeply embedded within legitimate applications. Current approaches re",
-      "category": "ai-research",
-      "source": "arXiv",
-      "date": "2026-09-23",
-      "publishedAt": "",
-      "collectedAt": "2026-09-24T13:24",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-23",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.28205v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
       ],
       "sourceCount": 1
     }
@@ -6057,6 +6249,28 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "Large Language Models for Structured Clinical Data Analysis:",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Objective: To develop and characterize CLEAR-Med, a dual-agent framework for natural-language analysis of structured clinical data that separates SQL-based invo",
+        "description": "Objective: To develop and characterize CLEAR-Med, a dual-agent framework for natural-language analysis of structured clinical data that separates SQL-based invocation from independ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2609.34039v1"
+      },
+      {
+        "name": "Maat: Independent Deterministic Contract-Based Governance fo",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Large-language-model multi-agent systems (LLM-MAS) introduce a characteristic reliability problem: an error produced by one agent can be accepted as context by ",
+        "description": "Large-language-model multi-agent systems (LLM-MAS) introduce a characteristic reliability problem: an error produced by one agent can be accepted as context by downstream agents an",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2609.34017v1"
+      },
+      {
         "name": "Anthropic 与 NVIDIA 合作推出 Claude Managed Agents 与 OpenShell 强化",
         "provider": "Claude：Blog（网页）",
         "type": "AI 项目/工具",
@@ -6473,28 +6687,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:AI agent",
         "url": "https://etf-alerts.com/2026/09/27/is-2-trillion-for-anthropic-believable-three-analysts-pull-apart-the-number/"
-      },
-      {
-        "name": "Gary Marcus 评 AI 智能体安全事件升至数万起并呼吁临时召回",
-        "provider": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-        "type": "AI 项目/工具",
-        "bestFor": "Gary Marcus 引用 Axios 独家报道称，OpenAI 等公司正在调查数万起前沿模型安全事件，规模远超此前披露的几十起。他批评美国政府未展开调查，主张在问题解决前临时召回通用智能体，并称自己早在 2023 年 5 月就曾向参议院预警智能体安全风险。",
-        "description": "Gary Marcus 引用 Axios 独家报道称，OpenAI 等公司正在调查数万起前沿模型安全事件，规模远超此前披露的几十起。他批评美国政府未展开调查，主张在问题解决前临时召回通用智能体，并称自己早在 2023 年 5 月就曾向参议院预警智能体安全风险。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-        "url": "https://garymarcus.substack.com/p/breaking-ai-agent-incident-toll-has"
-      },
-      {
-        "name": "OpenAI AI agents targeted US government websites without com",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenAI is reviewing cases involving AI agents accessing third-party websites, after a New York Times report linked agents to US government sites.",
-        "description": "OpenAI is reviewing cases involving AI agents accessing third-party websites, after a New York Times report linked agents to US government sites.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:Google Gemini",
-        "url": "https://english.mathrubhumi.com/technology/openai-ai-agents-us-government-websites-new-york-times-report-xgcjohz0"
       }
     ],
     "ai-models": [
@@ -8372,6 +8564,28 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-research": [
       {
+        "name": "Faster Rates for Federated Variational Inequalities",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "In this paper, we study federated optimization for solving stochastic variational inequalities (VIs), a problem that has attracted growing attention in recent y",
+        "description": "In this paper, we study federated optimization for solving stochastic variational inequalities (VIs), a problem that has attracted growing attention in recent years. Despite substa",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Apple ML Research",
+        "url": "https://machinelearning.apple.com/research/federated-variational-inequalities"
+      },
+      {
+        "name": "Fisher-Informed Recalibration for Feedback-Based On-Policy S",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Feedback-based on-policy self-distillation has emerged as a promising approach for enabling foundation models, more specifically Large Language Models (LLMs), t",
+        "description": "Feedback-based on-policy self-distillation has emerged as a promising approach for enabling foundation models, more specifically Large Language Models (LLMs), to learn from their o",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2609.34009v1"
+      },
+      {
         "name": "When the Model Retires: An Empirical Study of LLM Migration ",
         "provider": "arXiv",
         "type": "AI 项目/工具",
@@ -8788,28 +9002,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2609.10253v1"
-      },
-      {
-        "name": "9 in 10 Popular Social Apps Collect Browsing History, Study ",
-        "provider": "EURweb",
-        "type": "AI 项目/工具",
-        "bestFor": "*Your favorite social media app may know more about your travels around the web than you realize. New research from Surfshark found that nine of the 10 popular ",
-        "description": "*Your favorite social media app may know more about your travels around the web than you realize. New research from Surfshark found that nine of the 10 popular social media apps it",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "EURweb",
-        "url": "https://eurweb.com/social-apps-collect-browsing-history/"
-      },
-      {
-        "name": "Funding grants for new research into AI and teen development",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.",
-        "description": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · OpenAI Blog",
-        "url": "https://openai.com/index/teen-development-research-grants"
       }
     ],
     "ai-office": []
@@ -10218,8 +10410,8 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-29",
-    "generatedAt": "2026-09-28T23:46:19.309842Z",
-    "total": 12,
+    "generatedAt": "2026-09-29T02:15:19.858975Z",
+    "total": 15,
     "sections": [
       {
         "category": "ai-coding",
@@ -10304,6 +10496,17 @@ window.AI_GENERATED_DATA = {
         "label": "Agent / MCP",
         "items": [
           {
+            "title": "Large Language Models for Structured Clinical Data Analysis: Dual-Agent Grounding and Validation",
+            "summary": "Objective: To develop and characterize CLEAR-Med, a dual-agent framework for natural-language analysis of structured clinical data that sepa",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.34039v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-28",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
             "title": "Implementing synthetic monitoring using Amazon Nova Act",
             "summary": "Learn an agent-driven approach to synthetic monitoring using Amazon Nova Act and Amazon Bedrock AgentCore. The post covers the architecture ",
             "source": "RSS · AWS Machine Learning",
@@ -10368,6 +10571,28 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-09-29",
             "publishedAt": "2026-09-29T05:00",
+            "reason": ""
+          },
+          {
+            "title": "Faster Rates for Federated Variational Inequalities",
+            "summary": "In this paper, we study federated optimization for solving stochastic variational inequalities (VIs), a problem that has attracted growing a",
+            "source": "RSS · Apple ML Research",
+            "url": "https://machinelearning.apple.com/research/federated-variational-inequalities",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-28",
+            "publishedAt": "2026-09-28T08:00",
+            "reason": ""
+          },
+          {
+            "title": "Kafila: Serving Large Language Models on a Trusted Set of Heterogeneous Commodity Machines",
+            "summary": "Between them, the members of a research group or a circle of friends own several consumer computers, none large enough to run a capable larg",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.34045v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-28",
+            "publishedAt": "",
             "reason": ""
           }
         ]
