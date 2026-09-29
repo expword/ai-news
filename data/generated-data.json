@@ -1,7 +1,34 @@
 {
   "lastUpdated": "2026-09-29",
-  "generatedAt": "2026-09-29T12:27:33.621832Z",
+  "generatedAt": "2026-09-29T14:57:42.236780Z",
   "news": [
+    {
+      "title": "Introducing Quine: An AI research system designed for the complexity of biology",
+      "summary": "Biology doesn't operate in silos, and neither should the AI representation of it. Quine is an early-stage research effort to create a multimodal world model of biology. By connecti",
+      "category": "ai-research",
+      "source": "RSS · Microsoft Research",
+      "date": "2026-09-29",
+      "publishedAt": "2026-09-29T22:00",
+      "collectedAt": "2026-09-29T22:57",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://www.microsoft.com/en-us/research/blog/introducing-quine-an-ai-research-system-designed-for-the-complexity-of-biology/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Towards safety cases for frontier AI training",
       "summary": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
@@ -5591,6 +5618,17 @@
   "topicResources": {
     "ai-coding": [
       {
+        "name": "AI often leaves out minority languages – but some communitie",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "There’s plenty of warranted anxiety about the effect artificial intelligence (AI) will have on social and economic inequality. Authors Ekaterina",
+        "description": "There’s plenty of warranted anxiety about the effect artificial intelligence (AI) will have on social and economic inequality. Authors Ekaterina",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI coding tool",
+        "url": "https://www.nationaltribune.com.au/ai-often-leaves-out-minority-languages-but-some-communities-are-turning-it-into-a-lifeline/"
+      },
+      {
         "name": "Green AI: Cost of LLM-Based Code Completion",
         "provider": "arXiv",
         "type": "AI 项目/工具",
@@ -6018,20 +6056,108 @@
         "watch": "请打开原始来源核对",
         "sourceName": "VentureBeat",
         "url": "https://venturebeat.com/technology/should-all-enterprise-code-and-workflows-become-natural-language-g5-labs-thinks-so-and-its-new-g5-platform-does-it-for-you"
-      },
-      {
-        "name": "How to Create and Adapt an RL Agent with an LLM and Quantum ",
-        "provider": "mql5.com",
-        "type": "AI 项目/工具",
-        "bestFor": "A paradoxical situation has emerged in modern algorithmic trading: despite the impressive achievements of machine learning in other fields, the application of r",
-        "description": "A paradoxical situation has emerged in modern algorithmic trading: despite the impressive achievements of machine learning in other fields, the application of reinforcement learnin",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "mql5.com",
-        "url": "https://www.mql5.com/en/articles/21182"
       }
     ],
     "ai-agents": [
+      {
+        "name": "CNBC Daily Open: From need for speed to seatbelts — AI major",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "For the longest time, artificial intelligence companies competed to make each new model faster and smarter. Ostensibly, there's now a push to exercise restraint",
+        "description": "For the longest time, artificial intelligence companies competed to make each new model faster and smarter. Ostensibly, there's now a push to exercise restraint.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.cnbc.com/2026/09/29/cnbc-daily-open-from-need-for-speed-to-seatbelts-ai-majors-focus-on-risk-aversion.html"
+      },
+      {
+        "name": "Meta's Smart Glasses Are Getting Its 'Muse' AI Agent",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Meta's Muse AI agent is coming to its smart glasses \"soon\", letting it take actions at your request while your phone stays in your pocket.",
+        "description": "Meta's Muse AI agent is coming to its smart glasses \"soon\", letting it take actions at your request while your phone stays in your pocket.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.uploadvr.com/meta-smart-glasses-getting-muse-ai-agent/"
+      },
+      {
+        "name": "OpenAI apologises for Australian government website hack, pl",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "(Corrects typographical error in headline)SYDNEY, Sept 29 : OpenAI apologised for the hacking of an Australian government website by a rogue AI agent, committin",
+        "description": "(Corrects typographical error in headline)SYDNEY, Sept 29 : OpenAI apologised for the hacking of an Australian government website by a rogue AI agent, committing funding to improve",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.channelnewsasia.com/business/openai-apologises-australian-government-website-hack-pledges-rebuild-trust-6417116"
+      },
+      {
+        "name": "MongoDB, Kodiak Sciences, Navitas Semiconductor, Boeing and ",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Major U.S. indices closed lower on Monday, with the Dow Jones Industrial Average falling 0.67% to 51,481.51.",
+        "description": "Major U.S. indices closed lower on Monday, with the Dow Jones Industrial Average falling 0.67% to 51,481.51.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.benzinga.com/markets/equities/26/09/62038042/mongodb-kodiak-sciences-navitas-semiconductor-boeing-and-nvidia-why-these-5-stocks-are-on-investors-radars-today"
+      },
+      {
+        "name": "Nvidia unveils platform to prevent AI agents from going rogu",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "New platform traces AI agents' actions and quarantines them if they attempt to move outside their boundaries",
+        "description": "New platform traces AI agents' actions and quarantines them if they attempt to move outside their boundaries",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.hcamag.com/asia/news/general/nvidia-unveils-platform-to-prevent-ai-agents-from-going-rogue/591510"
+      },
+      {
+        "name": "OpenAI issues stunning apology to Australia following Medica",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "The Artificial Intelligence giant said 'we are sorry' in a media release posted to its website.",
+        "description": "The Artificial Intelligence giant said 'we are sorry' in a media release posted to its website.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.dailymail.com/news/article-16168193/OpenAI-issues-stunning-apology-Australia-following-Medicare-breach-sorry.html"
+      },
+      {
+        "name": "OpenAI apologies for Australian government website hack, ple",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "SYDNEY, Sept 29 : OpenAI apologised for the hacking of an Australian government website by a rogue AI agent, committing funding to improve cyber defences and to",
+        "description": "SYDNEY, Sept 29 : OpenAI apologised for the hacking of an Australian government website by a rogue AI agent, committing funding to improve cyber defences and to establish a local r",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.channelnewsasia.com/business/openai-apologies-australian-government-website-hack-pledges-rebuild-trust-6417116"
+      },
+      {
+        "name": "OpenAI scraps rollout of new model over safety concerns",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "The AI giant's safety chief said the model 'didn't quite meet the bar' of the firm's security standards.",
+        "description": "The AI giant's safety chief said the model 'didn't quite meet the bar' of the firm's security standards.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.bbc.co.uk/news/articles/cm5y5nynl75ko"
+      },
+      {
+        "name": "Okta builds shared architecture for agent runtime security",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Agent runtime security requires controls across the technology stack as enterprises move AI agents into production. This week, Okta turned its agent security fr",
+        "description": "Agent runtime security requires controls across the technology stack as enterprises move AI agents into production. This week, Okta turned its agent security framework into a multi",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://siliconangle.com/2026/09/28/okta-builds-shared-architecture-agent-runtime-security-oktane/"
+      },
       {
         "name": "Details on Nvidia's new security platform designed to stop r",
         "provider": "NewsData.io",
@@ -6372,105 +6498,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2609.31524v1"
-      },
-      {
-        "name": "Segment-Level Agentic Topic Modeling for Improved Data Explo",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Topic modeling is an effective technique for discovering hidden themes within documents and is widely used in text mining and data analysis across a variety of ",
-        "description": "Topic modeling is an effective technique for discovering hidden themes within documents and is widely used in text mining and data analysis across a variety of industry sectors. Re",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2609.31460v1"
-      },
-      {
-        "name": "Beyond Approved Actions: Runtime Validation of Persistent Ou",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Large language model agents increasingly act on software systems, no longer merely generating text but also changing databases and online services. However, an ",
-        "description": "Large language model agents increasingly act on software systems, no longer merely generating text but also changing databases and online services. However, an approved database up",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2609.31301v1"
-      },
-      {
-        "name": "Resource-Optimized and Energy-Aware Agentic AI Framework Anc",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "This paper proposes a blockchain-backed agentic security framework designed to safeguard the complete software development lifecycle (SDLC) while also securing ",
-        "description": "This paper proposes a blockchain-backed agentic security framework designed to safeguard the complete software development lifecycle (SDLC) while also securing the agentic AI compo",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2609.31282v1"
-      },
-      {
-        "name": "Iran and China Create First-of-Their-Kind Autonomous A.I. In",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Iran and the PRC are using Chinese open-source AI models and AI agents to create influence campaigns on social media. These campaigns, which involved hundreds o",
-        "description": "Iran and the PRC are using Chinese open-source AI models and AI agents to create influence campaigns on social media. These campaigns, which involved hundreds of AI agents autonomo",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:DeepSeek",
-        "url": "https://cms.hoover.org/research/iran-and-china-create-first-their-kind-autonomous-ai-influence-campaigns"
-      },
-      {
-        "name": "Katie Miller’s Diva Tantrum Got Top FBI Officials Demoted",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Two decorated agents were demoted and reassigned after pushing back on an investigation into threatening calls to the MAGA podcaster.",
-        "description": "Two decorated agents were demoted and reassigned after pushing back on an investigation into threatening calls to the MAGA podcaster.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:Claude AI",
-        "url": "https://us.headtopics.com/news/katie-miller-s-diva-tantrum-got-top-fbi-officials-demoted-88178411"
-      },
-      {
-        "name": "Reese Witherspoon and Ryan Phillippe's kids are their parent",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Reese Witherspoon and Ryan Phillippe's children Ava and Deacon showed off the family's unmistakable resemblance as they stepped out together in Nashville. See d",
-        "description": "Reese Witherspoon and Ryan Phillippe's children Ava and Deacon showed off the family's unmistakable resemblance as they stepped out together in Nashville. See details.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.hellomagazine.com/us/925600/reese-witherspoon-and-ryan-phillippes-children-look-just-like-their-famous-parents-in-rare-red-carpet-appearance/"
-      },
-      {
-        "name": "OpenAI called to inquiry as breach concerns rack up",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Two of the world's biggest AI names have been called to appear at an Australian data centres inquiry as dozens of bot hacks on government websites are revealed.",
-        "description": "Two of the world's biggest AI names have been called to appear at an Australian data centres inquiry as dozens of bot hacks on government websites are revealed.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.blayneychronicle.com.au/story/9357965/openai-called-to-inquiry-as-breach-concerns-rack-up/?src=rss"
-      },
-      {
-        "name": "OpenAI called to inquiry as breach concerns rack up",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Two of the world's biggest AI names have been called to appear at an Australian data centres inquiry as dozens of bot hacks on government websites are revealed.",
-        "description": "Two of the world's biggest AI names have been called to appear at an Australian data centres inquiry as dozens of bot hacks on government websites are revealed.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.bluemountainsgazette.com.au/story/9357965/openai-called-to-inquiry-as-breach-concerns-rack-up/?src=rss"
-      },
-      {
-        "name": "OpenAI called to inquiry as breach concerns rack up",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Two of the world's biggest AI names have been called to appear at an Australian data centres inquiry as dozens of bot hacks on government websites are revealed.",
-        "description": "Two of the world's biggest AI names have been called to appear at an Australian data centres inquiry as dozens of bot hacks on government websites are revealed.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.braidwoodtimes.com.au/story/9357965/openai-called-to-inquiry-as-breach-concerns-rack-up/?src=rss"
       }
     ],
     "ai-models": [
@@ -6917,6 +6944,17 @@
     ],
     "ai-business": [
       {
+        "name": "From SpaceX to Saudi Aramco: World's biggest IPOs as Anthrop",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "ANTHROPIC's hotly anticipated US IPO is expected to be one of the largest debuts ever attempted and a major test of public-market appetite for the rapidly growi",
+        "description": "ANTHROPIC's hotly anticipated US IPO is expected to be one of the largest debuts ever attempted and a major test of public-market appetite for the rapidly growing artificial intell",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Claude AI",
+        "url": "https://www.thestar.com.my/business/business-news/2026/09/29/from-spacex-to-saudi-aramco-world039s-biggest-ipos-as-anthropic039s-blockbuster-listing-looms"
+      },
+      {
         "name": "Anthropic seeks 50.1% voting control for co-founders ahead o",
         "provider": "NewsData.io",
         "type": "AI 项目/工具",
@@ -7344,17 +7382,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Retail Dive",
         "url": "https://www.retaildive.com/news/instacart-shipt-launch-ai-powered-shopping-assistants/830092/"
-      },
-      {
-        "name": "Global AI stocks slide as warnings over rapid development tr",
-        "provider": "The Times of India",
-        "type": "AI 项目/工具",
-        "bestFor": "AI-linked stocks across global markets plunged on Monday after leaders of some of the world's biggest artificial intelligence companies called for a slower pace",
-        "description": "AI-linked stocks across global markets plunged on Monday after leaders of some of the world's biggest artificial intelligence companies called for a slower pace of development, rai",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Times of India",
-        "url": "https://timesofindia.indiatimes.com/business/international-business/global-ai-stocks-slide-as-warnings-over-rapid-development-trigger-investor-concerns/articleshow/134242445.cms"
       }
     ],
     "ai-benchmark": [
@@ -10190,8 +10217,8 @@
   ],
   "dailyReport": {
     "date": "2026-09-29",
-    "generatedAt": "2026-09-29T12:27:33.594941Z",
-    "total": 30,
+    "generatedAt": "2026-09-29T14:57:42.214814Z",
+    "total": 31,
     "sections": [
       {
         "category": "ai-coding",
@@ -10491,6 +10518,17 @@
         "category": "ai-research",
         "label": "论文研究",
         "items": [
+          {
+            "title": "Introducing Quine: An AI research system designed for the complexity of biology",
+            "summary": "Biology doesn't operate in silos, and neither should the AI representation of it. Quine is an early-stage research effort to create a multim",
+            "source": "RSS · Microsoft Research",
+            "url": "https://www.microsoft.com/en-us/research/blog/introducing-quine-an-ai-research-system-designed-for-the-complexity-of-biology/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-29",
+            "publishedAt": "2026-09-29T22:00",
+            "reason": ""
+          },
           {
             "title": "One year in: How Microsoft Research Asia – Singapore is advancing research, partnership and talent for real-world impact",
             "summary": "Since launching a year ago, the Microsoft Research Asia — Singapore lab has established a strong foundation, deepened collaboration across g",
