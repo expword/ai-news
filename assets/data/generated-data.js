@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-29",
-  "generatedAt": "2026-09-29T07:21:58.149400Z",
+  "generatedAt": "2026-09-29T08:42:06.328645Z",
   "news": [
     {
       "title": "Towards safety cases for frontier AI training",
@@ -5660,6 +5660,21 @@ window.AI_GENERATED_DATA = {
       "date": "2026-08-05"
     },
     {
+      "name": "MiniMax-AI/parsar-core",
+      "lang": "Go",
+      "description": "MiniMax 开源项目。",
+      "stars": "0 stars",
+      "why": "国产大模型厂商 MiniMax 的最新开源动态/模型发布，属一手信源。",
+      "url": "https://github.com/MiniMax-AI/parsar-core",
+      "source": "GitHub · MiniMax",
+      "tier": "T1",
+      "category": "Coding Agent",
+      "details": "MiniMax 开源项目。",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
       "name": "stepfun-ai/Step-Cookbook",
       "lang": "PowerShell",
       "description": "阶跃星辰 StepFun 开源项目。",
@@ -5700,20 +5715,6 @@ window.AI_GENERATED_DATA = {
       "tier": "T1",
       "category": "Coding Agent",
       "details": "Fast multi-modal decision model",
-      "features": [],
-      "useCases": [],
-      "quickStart": []
-    },
-    {
-      "name": "ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code",
-      "lang": "Repo",
-      "description": "500 AI Machine learning Deep learning Computer vision NLP Projects with code",
-      "stars": "36988 stars",
-      "why": "近期更新且具备 AI / LLM / Agent 相关主题，适合做项目介绍、教程或同类对比。",
-      "url": "https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code",
-      "source": "GitHub Search · 2026-09-26",
-      "category": "Coding Agent",
-      "details": "500 AI Machine learning Deep learning Computer vision NLP Projects with code",
       "features": [],
       "useCases": [],
       "quickStart": []
@@ -10433,7 +10434,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-29",
-    "generatedAt": "2026-09-29T07:21:58.129399Z",
+    "generatedAt": "2026-09-29T08:42:06.308644Z",
     "total": 30,
     "sections": [
       {
