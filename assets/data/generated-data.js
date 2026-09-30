@@ -1,7 +1,34 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-10-01",
-  "generatedAt": "2026-09-30T17:56:37.024126Z",
+  "generatedAt": "2026-09-30T20:16:36.419593Z",
   "news": [
+    {
+      "title": "Gemini 4 Argon: our next era of frontier intelligence",
+      "summary": "",
+      "category": "ai-models",
+      "source": "RSS · Google DeepMind",
+      "date": "2026-10-01",
+      "publishedAt": "2026-10-01T04:01",
+      "collectedAt": "2026-10-01T04:16",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Forecasting space weather risks on power grids",
       "summary": "Extreme space-weather events can damage power systems on Earth and degrade GPS accuracy and satellite operations. A new machine learning system can predict where damage is likely t",
@@ -10374,8 +10401,8 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-10-01",
-    "generatedAt": "2026-09-30T17:56:37.003154Z",
-    "total": 13,
+    "generatedAt": "2026-09-30T20:16:36.400563Z",
+    "total": 14,
     "sections": [
       {
         "category": "ai-image-video",
@@ -10437,6 +10464,17 @@ window.AI_GENERATED_DATA = {
         "category": "ai-models",
         "label": "模型发布",
         "items": [
+          {
+            "title": "Gemini 4 Argon: our next era of frontier intelligence",
+            "summary": "",
+            "source": "RSS · Google DeepMind",
+            "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-01",
+            "publishedAt": "2026-10-01T04:01",
+            "reason": ""
+          },
           {
             "title": "Disrupting a coordinated model-distillation campaign",
             "summary": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
