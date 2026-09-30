@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-09-30",
-  "generatedAt": "2026-09-30T12:59:11.822349Z",
+  "generatedAt": "2026-09-30T15:33:38.988857Z",
   "news": [
     {
       "title": "Amazon Bedrock expands Claude model availability to in-country inferencing in India",
@@ -5409,6 +5409,36 @@
       "date": "2026-08-05"
     },
     {
+      "name": "deepseek-ai/dsh-libreoffice-kit",
+      "lang": "JavaScript",
+      "description": "An internal component used by DeepSeek Harness",
+      "stars": "6 stars",
+      "why": "国产大模型厂商 DeepSeek 的最新开源动态/模型发布，属一手信源。",
+      "url": "https://github.com/deepseek-ai/dsh-libreoffice-kit",
+      "source": "GitHub · DeepSeek",
+      "tier": "T1",
+      "category": "Coding Agent",
+      "details": "An internal component used by DeepSeek Harness",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
+      "name": "deepseek-ai/dsh-node-addon-require-builtin",
+      "lang": "C++",
+      "description": "An internal component used by DeepSeek Harness",
+      "stars": "6 stars",
+      "why": "国产大模型厂商 DeepSeek 的最新开源动态/模型发布，属一手信源。",
+      "url": "https://github.com/deepseek-ai/dsh-node-addon-require-builtin",
+      "source": "GitHub · DeepSeek",
+      "tier": "T1",
+      "category": "Coding Agent",
+      "details": "An internal component used by DeepSeek Harness",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
       "name": "deepseek-ai/TileKernels",
       "lang": "Python",
       "description": "A kernel library written in tilelang",
@@ -5434,36 +5464,6 @@
       "tier": "T1",
       "category": "Coding Agent",
       "details": "MiniMax 开源项目。",
-      "features": [],
-      "useCases": [],
-      "quickStart": []
-    },
-    {
-      "name": "stepfun-ai/Step-Cookbook",
-      "lang": "PowerShell",
-      "description": "阶跃星辰 StepFun 开源项目。",
-      "stars": "2 stars",
-      "why": "国产大模型厂商 阶跃星辰 StepFun 的最新开源动态/模型发布，属一手信源。",
-      "url": "https://github.com/stepfun-ai/Step-Cookbook",
-      "source": "GitHub · 阶跃星辰 StepFun",
-      "tier": "T1",
-      "category": "Coding Agent",
-      "details": "阶跃星辰 StepFun 开源项目。",
-      "features": [],
-      "useCases": [],
-      "quickStart": []
-    },
-    {
-      "name": "stepfun-ai/Step-Code",
-      "lang": "TypeScript",
-      "description": "阶跃星辰 StepFun 开源项目。",
-      "stars": "437 stars",
-      "why": "国产大模型厂商 阶跃星辰 StepFun 的最新开源动态/模型发布，属一手信源。",
-      "url": "https://github.com/stepfun-ai/Step-Code",
-      "source": "GitHub · 阶跃星辰 StepFun",
-      "tier": "T1",
-      "category": "Coding Agent",
-      "details": "阶跃星辰 StepFun 开源项目。",
       "features": [],
       "useCases": [],
       "quickStart": []
@@ -6026,6 +6026,28 @@
     ],
     "ai-agents": [
       {
+        "name": "Arena 开放限时测试 Claude Sonnet 5.5，Direct Mode 可用 48 小时",
+        "provider": "X：Arena (@arena)",
+        "type": "AI 项目/工具",
+        "bestFor": "Arena 宣布在 Direct Mode 限时开放 Anthropic 的 Claude Sonnet 5.5（High），截止 10 月 2 日上午 8 点（太平洋时间），之后仍可在 Battle 和 Agent Mode 使用。引用内容称 Claude Sonnet 5.5 是 Claude 5.5 系列第二款模",
+        "description": "Arena 宣布在 Direct Mode 限时开放 Anthropic 的 Claude Sonnet 5.5（High），截止 10 月 2 日上午 8 点（太平洋时间），之后仍可在 Battle 和 Agent Mode 使用。引用内容称 Claude Sonnet 5.5 是 Claude 5.5 系列第二款模型，比 Sonnet 5 快 30% 以",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "X：Arena (@arena)",
+        "url": "https://x.com/arena/status/2105311267619848419"
+      },
+      {
+        "name": "NYC Council to Hear AI Giants on Agent Risks in First Oath‑B",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenAI, Anthropic, Google and Meta will appear under oath before New York City Council on Oct. 5 to address concerns over autonomous AI agents accessing real‑wo",
+        "description": "OpenAI, Anthropic, Google and Meta will appear under oath before New York City Council on Oct. 5 to address concerns over autonomous AI agents accessing real‑world systems.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Claude AI",
+        "url": "https://kenya-today.com/report-nyc-council-to-hear-ai-giants-on-agent-risks-in-first-oathbound-testimony-4718/"
+      },
+      {
         "name": "Artificial Analysis 开源 AA-AgentPerf-Local，测试笔记本与工作站上本地 AI 智能",
         "provider": "Artificial Analysis 完整文章（网页）",
         "type": "AI 项目/工具",
@@ -6442,31 +6464,42 @@
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:AI agent",
         "url": "https://www.itbiznews.com/news/articleView.html?idxno=226317"
-      },
-      {
-        "name": "OPENAI INCIDENT INVOLVING VIC HEALTH DEPARTMENT & MEDICARE V",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "The Victorian Greens say revelations that a rogue OpenAI agent interacted with the Victorian Department of Health website as part of its testing",
-        "description": "The Victorian Greens say revelations that a rogue OpenAI agent interacted with the Victorian Department of Health website as part of its testing",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.nationaltribune.com.au/openai-incident-involving-vic-health-department-medicare-vindicates-warnings-over-labor-s-ai-rush/"
-      },
-      {
-        "name": "Okta (OKTA)’s AI Agent Opportunity Is Expanding. Is the Stoc",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Okta, Inc. (NASDAQ:OKTA) emerged from its Oktane 2026 conference with a stronger AI narrative and a wave of analyst price-target increases. But the investment d",
-        "description": "Okta, Inc. (NASDAQ:OKTA) emerged from its Oktane 2026 conference with a stronger AI narrative and a wave of analyst price-target increases. But the investment debate is becoming le",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.insidermonkey.com/news/okta-oktas-ai-agent-opportunity-is-expanding-is-the-stock-already-pricing-it-in-1844864/"
       }
     ],
     "ai-models": [
+      {
+        "name": "7 Essential Yearly Appraisal Sample Formats for Effective Ev",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Discover 7 essential yearly appraisal sample formats that streamline evaluations and enhance feedback. Elevate your performance reviews with these effective tem",
+        "description": "Discover 7 essential yearly appraisal sample formats that streamline evaluations and enhance feedback. Elevate your performance reviews with these effective templates tailored for ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Google Gemini",
+        "url": "https://smallbiztrends.com/yearly-appraisal-sample/"
+      },
+      {
+        "name": "SpaceX Still Trades Above Its IPO Price. Could Anthropic Do ",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Wondering what will happen when Anthropic goes public? SpaceX could have some answers.",
+        "description": "Wondering what will happen when Anthropic goes public? SpaceX could have some answers.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Claude AI",
+        "url": "https://www.fool.com/investing/2026/09/29/spacex-still-trades-above-its-ipo-price-could-anth/"
+      },
+      {
+        "name": "Hugging Face CEO 称收到数千条私信，将花几天逐一处理",
+        "provider": "X：Clément Delangue（Hugging Face CEO） (@ClementDelangue)",
+        "type": "AI 项目/工具",
+        "bestFor": "Clément Delangue 表示收到数千条私信，但 @bot 无法自动分析私信，需要几天时间处理。他称暂时只会关注特别匹配的人选，未获回复不代表负面评价，并可前往 https://apply.workable.com/huggingface 申请具体职位。",
+        "description": "Clément Delangue 表示收到数千条私信，但 @bot 无法自动分析私信，需要几天时间处理。他称暂时只会关注特别匹配的人选，未获回复不代表负面评价，并可前往 https://apply.workable.com/huggingface 申请具体职位。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "X：Clément Delangue（Hugging Face CEO） (@ClementDelangue)",
+        "url": "https://x.com/ClementDelangue/status/2105276853632094607"
+      },
       {
         "name": "OpenAI 发布 GPT-6.1 Sol，主打智能体编码与跨应用工作流",
         "provider": "X：OpenAI Developers (@OpenAIDevs)",
@@ -6873,39 +6906,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "X：Tibo (@thsottiaux)",
         "url": "https://x.com/thsottiaux/status/2102509507415048245"
-      },
-      {
-        "name": "OpenAI 发布 GPT-6 Sol 和 GPT-6 Luna，API 价格较 GPT-5.6 降 50%",
-        "provider": "OpenAI：官网动态（RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenAI 发布 GPT-6 Sol 和 GPT-6 Luna，将 GPT-6 Astra 的训练方法用于更快更便宜的模型，API 价格较 GPT-5.6 促销价下调 50%（Sol 输入 $4→$2、输出 $20→$10；Luna 输入 $0.20→$0.10、输出 $1.20→$0.50，每百万 token）。",
-        "description": "OpenAI 发布 GPT-6 Sol 和 GPT-6 Luna，将 GPT-6 Astra 的训练方法用于更快更便宜的模型，API 价格较 GPT-5.6 促销价下调 50%（Sol 输入 $4→$2、输出 $20→$10；Luna 输入 $0.20→$0.10、输出 $1.20→$0.50，每百万 token）。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-        "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna"
-      },
-      {
-        "name": "GPT-6 Sol 与 Luna 发布，API 价格比 GPT-5.6 低 50%",
-        "provider": "X：Sherwin Wu（@sherwinwu）",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenAI 开发者账号宣布 GPT-6 Sol 和 Luna 发布，两者 API 定价比 GPT-5.6 低 50%。Sherwin Wu 补充 GPT-6 Luna 定价为每 1M tokens 输入 $0.10、输出 $0.50，并称价格很快需要改按每十亿 tokens 计价。",
-        "description": "OpenAI 开发者账号宣布 GPT-6 Sol 和 Luna 发布，两者 API 定价比 GPT-5.6 低 50%。Sherwin Wu 补充 GPT-6 Luna 定价为每 1M tokens 输入 $0.10、输出 $0.50，并称价格很快需要改按每十亿 tokens 计价。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "X：Sherwin Wu（@sherwinwu）",
-        "url": "https://x.com/sherwinwu/status/2102462783707344907"
-      },
-      {
-        "name": "GPT-6 Sol 和 GPT-6 Luna 上线 Arena，API 定价比 GPT-5.6 促销价低 50%",
-        "provider": "X：Arena (@arena)",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenAI 发布 GPT-6 Sol 和 GPT-6 Luna，基于 GPT-6 Astra 的技术，主打更快、更便宜以支持大规模工作，并优化了缓存和推理效率，API 定价比 GPT-5.6 促销价低 50%。",
-        "description": "OpenAI 发布 GPT-6 Sol 和 GPT-6 Luna，基于 GPT-6 Astra 的技术，主打更快、更便宜以支持大规模工作，并优化了缓存和推理效率，API 定价比 GPT-5.6 促销价低 50%。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "X：Arena (@arena)",
-        "url": "https://x.com/arena/status/2102470066784854177"
       }
     ],
     "ai-business": [
@@ -10183,7 +10183,7 @@
   ],
   "dailyReport": {
     "date": "2026-09-30",
-    "generatedAt": "2026-09-30T12:59:11.795370Z",
+    "generatedAt": "2026-09-30T15:33:38.952876Z",
     "total": 32,
     "sections": [
       {
