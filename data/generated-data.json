@@ -1,7 +1,61 @@
 {
   "lastUpdated": "2026-09-30",
-  "generatedAt": "2026-09-29T23:15:46.690152Z",
+  "generatedAt": "2026-09-30T01:39:25.559651Z",
   "news": [
+    {
+      "title": "Amazon Bedrock expands Claude model availability to in-country inferencing in India",
+      "summary": "Anthropic's Claude Opus 5, Claude Sonnet 5, and Claude Haiku 4.5 are now available in India through Amazon Bedrock geographic cross-Region inference. You can access these models wh",
+      "category": "ai-models",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-30",
+      "publishedAt": "2026-09-30T09:13",
+      "collectedAt": "2026-09-30T09:39",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-expands-claude-model-availability-to-india-cross-region-inference/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Introducing Anthropic models on Amazon Bedrock for in-region inference in Seoul and Singapore",
+      "summary": "Amazon Bedrock now supports Anthropic's Claude Opus 5 and Claude Sonnet 5 with in-region inference in Seoul, and Claude Sonnet 5 in Singapore. If you have local data processing req",
+      "category": "ai-models",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-09-30",
+      "publishedAt": "2026-09-30T09:13",
+      "collectedAt": "2026-09-30T09:39",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-anthropic-models-on-amazon-bedrock-for-in-region-inference-in-seoul-and-singapore/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "How Diffusion Controller unifies and simplifies AI image generation",
       "summary": "Algorithms & Theory",
@@ -88,6 +142,116 @@
       "moduleTargets": [
         "news",
         "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Cobalt: Leveraging Expert Co-activation for Efficient Distributed MoE Training",
+      "summary": "Mixture-of-Experts (MoE) has increasingly become a mainstream approach for scaling large language models, as it expands model capacity while keeping computation cost nearly constan",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-09-29",
+      "publishedAt": "",
+      "collectedAt": "2026-09-30T09:39",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-29",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.36959v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Controlled Decoding Attacks on Black-Box LLMs",
+      "summary": "Manipulating next-token probabilities during generation can bypass the safety alignment of large language models. Existing approaches, however, rely on access to model weights or n",
+      "category": "ai-coding",
+      "source": "arXiv",
+      "date": "2026-09-29",
+      "publishedAt": "",
+      "collectedAt": "2026-09-30T09:39",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-29",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.36956v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "ER-JEPA: Experience Replay Improves Joint-Embedding Predictive Learning in Language Models",
+      "summary": "Large language models (LLMs) excel at token-level generation but may learn undesirable abstract semantics and lack comprehensive perception. LLM-JEPA mitigates this by aligning dif",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-09-29",
+      "publishedAt": "",
+      "collectedAt": "2026-09-30T09:39",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-29",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.36952v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Fine-Tuning on Self-Generated and Reward-Weighted Data: Learning Dynamics, Convergence Rates, and Benefits of Off-Policyness",
+      "summary": "We study the learning dynamics of fine-tuning a policy model on self-generated and reward-weighted data, with particular focus on a generalized version of REINFORCE -- referred to ",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-09-29",
+      "publishedAt": "",
+      "collectedAt": "2026-09-30T09:39",
+      "dateStatus": "collected",
+      "sourceDate": "2026-09-29",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2609.36945v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
       ],
       "sourceCount": 1
     },
@@ -2500,149 +2664,6 @@
       "moduleTargets": [
         "news",
         "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Anthropic Project Swap 实验：201 名员工让 Claude 智能体替人换书交易",
-      "summary": "Anthropic 开展 Project Swap 实验，让 201 名员工携带一本书，其 Claude 智能体在数字交易大厅代表他们谈判换书。5 分钟聊天后，Claude 构建的图书排序与本人自评排序在 61% 的书对上一致；市场效率为 0.55（最优 0.89），其中 85% 的差距来自智能体对参与者偏好的理解不足，而非谈判表现。",
-      "category": "ai-models",
-      "source": "Anthropic：Research（发表成果 · 网页）",
-      "date": "2026-09-24",
-      "publishedAt": "2026-09-24T00:00",
-      "collectedAt": "2026-09-26T00:51",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://www.anthropic.com/research/project-swap",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 2,
-      "relatedSources": [
-        {
-          "source": "X：Anthropic (@AnthropicAI)",
-          "url": "https://x.com/AnthropicAI/status/2104633259925630995",
-          "title": "Anthropic 发布 Claude Sonnet 5.5"
-        }
-      ]
-    },
-    {
-      "title": "SciWalker: Synthesizing Scientific Coding Problems with Operator Graphs and Execution Feedback",
-      "summary": "Improving the scientific coding capabilities of large language models (LLMs) requires high-quality training data. However, such data remain scarce because manually authoring realis",
-      "category": "ai-coding",
-      "source": "arXiv",
-      "date": "2026-09-24",
-      "publishedAt": "",
-      "collectedAt": "2026-09-25T12:39",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-24",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.30054v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "PrivDrift: Auditing User-Secret Leakage Under Topic Drift in Active LLM Conversations",
-      "summary": "Large language models increasingly operate as persistent assistants in user-facing, shared-session, and tool-augmented settings. When users disclose sensitive information during an",
-      "category": "ai-benchmark",
-      "source": "arXiv",
-      "date": "2026-09-24",
-      "publishedAt": "",
-      "collectedAt": "2026-09-25T12:39",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-24",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.30094v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Style, Not Self: Surface Cues Explain Zero-Shot Code Attribution by Large Language Models",
-      "summary": "If a language model can recognize code it wrote, it may favor that code as a judge, and instances of one model monitoring each other could collude. We test this zero-shot on curren",
-      "category": "ai-coding",
-      "source": "arXiv",
-      "date": "2026-09-24",
-      "publishedAt": "",
-      "collectedAt": "2026-09-25T12:39",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-24",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.30048v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Scoring Both Directions: LLMs realize the MRS they cannot reliably parse",
-      "summary": "The English Resource Grammar (ERG) is a hand-written computational grammar of English. Given a sentence, its processor, ACE, produces a formal meaning representation called Minimal",
-      "category": "ai-benchmark",
-      "source": "arXiv",
-      "date": "2026-09-24",
-      "publishedAt": "",
-      "collectedAt": "2026-09-25T12:39",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-24",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.30071v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
       ],
       "sourceCount": 1
     }
@@ -5737,6 +5758,17 @@
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Controlled Decoding Attacks on Black-Box LLMs",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Manipulating next-token probabilities during generation can bypass the safety alignment of large language models. Existing approaches, however, rely on access t",
+        "description": "Manipulating next-token probabilities during generation can bypass the safety alignment of large language models. Existing approaches, however, rely on access to model weights or n",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2609.36956v1"
+      },
+      {
         "name": "OpenAI 推出新版 Codex Cloud，Agents API 开放预览并支持 computer use",
         "provider": "X：Tibo (@thsottiaux)",
         "type": "AI 项目/工具",
@@ -6164,20 +6196,31 @@
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · Apple ML Research",
         "url": "https://machinelearning.apple.com/research/shared-selective-persistent-memory"
-      },
-      {
-        "name": "Linux development is really benefiting from AI, but not from",
-        "provider": "XDA-Developers",
-        "type": "AI 项目/工具",
-        "bestFor": "If you haven't been keeping up with the world of Linux distros, each one has been debating adding AI code. Some platforms have outright banned any output from a",
-        "description": "If you haven't been keeping up with the world of Linux distros, each one has been debating adding AI code. Some platforms have outright banned any output from an LLM -- not just th",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "XDA-Developers",
-        "url": "https://www.xda-developers.com/linux-development-is-really-benefiting-from-ai-but-not-from-its-coding/"
       }
     ],
     "ai-agents": [
+      {
+        "name": "OpenRouter 教程：如何测试 AI Agent 的工具调用准确性",
+        "provider": "OpenRouter：Announcements（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenRouter 发布教程，讲解如何测试 AI Agent 的工具调用准确性，将失败拆分为工具选择错误和参数错误两类分别测试。",
+        "description": "OpenRouter 发布教程，讲解如何测试 AI Agent 的工具调用准确性，将失败拆分为工具选择错误和参数错误两类分别测试。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "OpenRouter：Announcements（RSS）",
+        "url": "https://openrouter.ai/blog/tutorials/how-to-test-tool-calling-accuracy-in-ai-agents/"
+      },
+      {
+        "name": "OpenRouter 教程：提示词或模型变更后如何对 AI Agent 做回归测试",
+        "provider": "OpenRouter：Announcements（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenRouter 发布 AI Agent 回归测试教程：每次提示词、模型、工具定义或检索设置变更后，重跑锁定的用例集并对照书面行为契约检查。",
+        "description": "OpenRouter 发布 AI Agent 回归测试教程：每次提示词、模型、工具定义或检索设置变更后，重跑锁定的用例集并对照书面行为契约检查。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "OpenRouter：Announcements（RSS）",
+        "url": "https://openrouter.ai/blog/tutorials/ai-agent-regression-testing-after-a-prompt-or-model-change/"
+      },
       {
         "name": "Sarvam AI 发布从第一性原理构建 AI 智能体的入门指南",
         "provider": "Sarvam AI（网页）",
@@ -6595,31 +6638,20 @@
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:AI agent",
         "url": "https://e27.co/sia-has-scaled-ai-aviation-must-now-govern-the-point-of-action-20260924/"
-      },
-      {
-        "name": "Xsight Group Featured in Harvard Business Review on AI Agent",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "HONG KONG , Sept. 28, 2026 /PRNewswire/ -- Xsight Group (known as Xsight), a Hong Kong–headquartered cross-border technology group founded in 2004, has been fea",
-        "description": "HONG KONG , Sept. 28, 2026 /PRNewswire/ -- Xsight Group (known as Xsight), a Hong Kong–headquartered cross-border technology group founded in 2004, has been featured as a research ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:large language model",
-        "url": "https://en.prnasia.com/story/549665-0.shtml"
-      },
-      {
-        "name": "Xsight Group Featured in Harvard Business Review on AI Agent",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "HONG KONG, Sept. 28, 2026 /PRNewswire/ -- Xsight Group (known as Xsight), a Hong Kong–headquartered cross-border technology group founded in 2004, has been feat",
-        "description": "HONG KONG, Sept. 28, 2026 /PRNewswire/ -- Xsight Group (known as Xsight), a Hong Kong–headquartered cross-border technology group founded in 2004, has been featured as a research c",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:large language model",
-        "url": "https://www.prnewswire.com/apac/news-releases/xsight-group-featured-in-harvard-business-review-on-ai-agent-orchestration-across-silos-302888902.html"
       }
     ],
     "ai-models": [
+      {
+        "name": "OpenAI 发布 GPT-6.1 Sol，主打智能体编码与跨应用工作流",
+        "provider": "X：OpenAI Developers (@OpenAIDevs)",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenAI 发布 GPT-6.1 Sol，称其在编码、computer use 和跨应用工作流中表现强劲，价格低于 GPT-6 Astra。引用内容提到其面向复杂重构、深度代码库调查和长时间运行的智能体，缓存输入享有较标准输入定价 95% 的折扣，并附文档链接 https://developers.openai.co",
+        "description": "OpenAI 发布 GPT-6.1 Sol，称其在编码、computer use 和跨应用工作流中表现强劲，价格低于 GPT-6 Astra。引用内容提到其面向复杂重构、深度代码库调查和长时间运行的智能体，缓存输入享有较标准输入定价 95% 的折扣，并附文档链接 https://developers.openai.com/api/docs/models/gp",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "X：OpenAI Developers (@OpenAIDevs)",
+        "url": "https://x.com/OpenAIDevs/status/2105073621144338660"
+      },
       {
         "name": "OpenAI 发布 GPT-6.1 Sol，以约五分之一价格接近 GPT-6 Astra 的智能水平",
         "provider": "OpenAI：官网动态（RSS",
@@ -7048,17 +7080,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "X：Arena (@arena)",
         "url": "https://x.com/arena/status/2102470066784854177"
-      },
-      {
-        "name": "OpenAI 发布 GPT-6 Sol 和 GPT-6 Luna，API 价格比 GPT-5.6 促销价低 50%",
-        "provider": "X：Sam Altman (@sama)",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenAI 推出 GPT-6 Sol 和 GPT-6 Luna，基于 GPT-6 Astra 的技术，以更快、更实惠的模型支持大规模工作。两款模型通过更高效的缓存和推理降低成本，API 价格比 GPT-5.6 促销定价低 50%。Sam Altman 转发该公告并称这些角色形象很可爱。",
-        "description": "OpenAI 推出 GPT-6 Sol 和 GPT-6 Luna，基于 GPT-6 Astra 的技术，以更快、更实惠的模型支持大规模工作。两款模型通过更高效的缓存和推理降低成本，API 价格比 GPT-5.6 促销定价低 50%。Sam Altman 转发该公告并称这些角色形象很可爱。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "X：Sam Altman (@sama)",
-        "url": "https://x.com/sama/status/2102464201335984392"
       }
     ],
     "ai-business": [
@@ -8490,6 +8511,17 @@
     ],
     "ai-research": [
       {
+        "name": "Cobalt: Leveraging Expert Co-activation for Efficient Distri",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Mixture-of-Experts (MoE) has increasingly become a mainstream approach for scaling large language models, as it expands model capacity while keeping computation",
+        "description": "Mixture-of-Experts (MoE) has increasingly become a mainstream approach for scaling large language models, as it expands model capacity while keeping computation cost nearly constan",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2609.36959v1"
+      },
+      {
         "name": "The Communication Bottleneck: A Round-Trip Study of Tree-Str",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -8917,17 +8949,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2609.11860v1"
-      },
-      {
-        "name": "Recognizing Is Not Reversing: A Controlled Inversion Test of",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Large language models (LLMs) are increasingly used to analyze and rewrite news, yet current framing studies mainly evaluate generation, detection, or whether re",
-        "description": "Large language models (LLMs) are increasingly used to analyze and rewrite news, yet current framing studies mainly evaluate generation, detection, or whether rewritten text appears",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2609.11769v1"
       }
     ],
     "ai-office": []
@@ -10336,13 +10357,24 @@
   ],
   "dailyReport": {
     "date": "2026-09-30",
-    "generatedAt": "2026-09-29T23:15:46.668526Z",
-    "total": 17,
+    "generatedAt": "2026-09-30T01:39:25.539652Z",
+    "total": 23,
     "sections": [
       {
         "category": "ai-coding",
         "label": "AI 编程",
         "items": [
+          {
+            "title": "Controlled Decoding Attacks on Black-Box LLMs",
+            "summary": "Manipulating next-token probabilities during generation can bypass the safety alignment of large language models. Existing approaches, howev",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.36956v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-29",
+            "publishedAt": "",
+            "reason": ""
+          },
           {
             "title": "Introducing GPT-6.1 Sol",
             "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and out",
@@ -10461,6 +10493,28 @@
         "label": "模型发布",
         "items": [
           {
+            "title": "Amazon Bedrock expands Claude model availability to in-country inferencing in India",
+            "summary": "Anthropic's Claude Opus 5, Claude Sonnet 5, and Claude Haiku 4.5 are now available in India through Amazon Bedrock geographic cross-Region i",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-expands-claude-model-availability-to-india-cross-region-inference/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-30",
+            "publishedAt": "2026-09-30T09:13",
+            "reason": ""
+          },
+          {
+            "title": "Introducing Anthropic models on Amazon Bedrock for in-region inference in Seoul and Singapore",
+            "summary": "Amazon Bedrock now supports Anthropic's Claude Opus 5 and Claude Sonnet 5 with in-region inference in Seoul, and Claude Sonnet 5 in Singapor",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/introducing-anthropic-models-on-amazon-bedrock-for-in-region-inference-in-seoul-and-singapore/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-30",
+            "publishedAt": "2026-09-30T09:13",
+            "reason": ""
+          },
+          {
             "title": "Prompt engineering fundamentals for Amazon Quick",
             "summary": "Prompt engineering in Amazon Quick shapes how accurately its AI-powered features respond to your requests. Part 1 of a two-part series cover",
             "source": "RSS · AWS Machine Learning",
@@ -10469,6 +10523,39 @@
             "sourceCount": 2,
             "date": "2026-09-30",
             "publishedAt": "2026-09-30T00:27",
+            "reason": ""
+          },
+          {
+            "title": "Cobalt: Leveraging Expert Co-activation for Efficient Distributed MoE Training",
+            "summary": "Mixture-of-Experts (MoE) has increasingly become a mainstream approach for scaling large language models, as it expands model capacity while",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.36959v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-29",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "ER-JEPA: Experience Replay Improves Joint-Embedding Predictive Learning in Language Models",
+            "summary": "Large language models (LLMs) excel at token-level generation but may learn undesirable abstract semantics and lack comprehensive perception.",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.36952v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-29",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Fine-Tuning on Self-Generated and Reward-Weighted Data: Learning Dynamics, Convergence Rates, and Benefits of Off-Policyness",
+            "summary": "We study the learning dynamics of fine-tuning a policy model on self-generated and reward-weighted data, with particular focus on a generali",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2609.36945v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-09-29",
+            "publishedAt": "",
             "reason": ""
           },
           {
@@ -20091,6 +20178,18 @@
     ]
   },
   "benchmarkDatasets": [
+    {
+      "name": "building-a-golden-eval-dataset",
+      "area": "AI 模型能力评测",
+      "note": "OpenRouter 发布教程，讲解如何从生产流量构建 golden 评测集，作为每次部署前的回归测试。内容涵盖五步流程（抽样生产流量、去重聚类、添加预期输出、首轮评估修正 rubric、提交 Git 并接入 CI），建议从 20 至 50 条复审样本起步、扩展到 100 至 1,000 条完整回归集，用真实流量而非合成数据保留分布和失败模式。",
+      "source": "https://openrouter.ai/blog/tutorials/building-a-golden-eval-dataset-from-production-traffic/",
+      "sourceName": "OpenRouter：Announcements（RSS）",
+      "date": "2026-09-30",
+      "originTitle": "OpenRouter 教程：如何从生产流量构建 golden 评测集并跨模型复测",
+      "evaluates": [],
+      "useCases": [],
+      "limitations": []
+    },
     {
       "name": "TCSAlgBench",
       "area": "AI 模型能力评测",
