@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-30",
-  "generatedAt": "2026-09-30T06:46:06.257178Z",
+  "generatedAt": "2026-09-30T12:59:11.822349Z",
   "news": [
     {
       "title": "Amazon Bedrock expands Claude model availability to in-country inferencing in India",
@@ -2490,199 +2490,6 @@ window.AI_GENERATED_DATA = {
       "aiSelected": true,
       "moduleTargets": [
         "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Evaluating Cultural Awareness of LLMs for Haitian Creole",
-      "summary": "Large language models (LLMs) exhibit substantial performance disparities between high- and low-resource languages. Beyond lower task performance, they often fail to capture the cul",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-25",
-      "publishedAt": "",
-      "collectedAt": "2026-09-28T10:29",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-25",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.31506v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Segment-Level Agentic Topic Modeling for Improved Data Exploration and Resource Efficiency",
-      "summary": "Topic modeling is an effective technique for discovering hidden themes within documents and is widely used in text mining and data analysis across a variety of industry sectors. Re",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-09-25",
-      "publishedAt": "",
-      "collectedAt": "2026-09-28T10:29",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-25",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.31460v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "ViSTA: A Simple Bridge Extends Visual Alignment to Clinical Time-Series Understanding in Multimodal LLMs",
-      "summary": "Clinical prediction models estimate risk from patient measurements, while large language models support medical text understanding and question answering. Yet their language capabi",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-25",
-      "publishedAt": "",
-      "collectedAt": "2026-09-28T10:29",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-25",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.31448v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "When the Model Retires: An Empirical Study of LLM Migration in Open-Source Applications",
-      "summary": "Applications built on commercial large language model (LLM) APIs depend on model versions that providers retire on their own schedule, with notice periods ranging from one year to ",
-      "category": "ai-coding",
-      "source": "arXiv",
-      "date": "2026-09-25",
-      "publishedAt": "",
-      "collectedAt": "2026-09-28T09:14",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-25",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.31288v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Mutable Transcripts: Mitigating Context Pollution through Editable Conversation State",
-      "summary": "Contemporary large language model (LLM) chat systems treat conversation history as an immutable sequence of turns that defines the model's working context. However, user intent in ",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-25",
-      "publishedAt": "",
-      "collectedAt": "2026-09-28T09:14",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-25",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.31354v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Beyond Approved Actions: Runtime Validation of Persistent Outcomes in Agent Workflows",
-      "summary": "Large language model agents increasingly act on software systems, no longer merely generating text but also changing databases and online services. However, an approved database up",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-09-25",
-      "publishedAt": "",
-      "collectedAt": "2026-09-28T09:14",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-25",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.31301v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Resource-Optimized and Energy-Aware Agentic AI Framework Anchored on Blockchain for Secure Software Supply Chains",
-      "summary": "This paper proposes a blockchain-backed agentic security framework designed to safeguard the complete software development lifecycle (SDLC) while also securing the agentic AI compo",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-09-25",
-      "publishedAt": "",
-      "collectedAt": "2026-09-28T09:14",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-25",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.31282v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
       ],
       "sourceCount": 1
     }
@@ -7103,6 +6910,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-business": [
       {
+        "name": "Meta’s next big AI bet is enterprise; its biggest hurdle may",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Meta is once again repositioning itself to target the enterprise market. This week, the company announced the Meta Enterprise Platform , which it says will evol",
+        "description": "Meta is once again repositioning itself to target the enterprise market. This week, the company announced the Meta Enterprise Platform , which it says will evolve its AI stack into",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:artificial intelligence",
+        "url": "https://www.computerworld.com/article/4228531/metas-next-big-ai-bet-is-enterprise-its-biggest-hurdle-may-be-trust-3.html"
+      },
+      {
         "name": "From SpaceX to Saudi Aramco: World's biggest IPOs as Anthrop",
         "provider": "NewsData.io",
         "type": "AI 项目/工具",
@@ -7530,17 +7348,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Rolling Out",
         "url": "https://rollingout.com/2026/09/15/musk-drops-apple-lawsuit/"
-      },
-      {
-        "name": "Instacart, Shipt launch AI-powered shopping assistants",
-        "provider": "Retail Dive",
-        "type": "AI 项目/工具",
-        "bestFor": "* Instacart and Shipt separately announced Wednesday the launches of artificial intelligence-powered shopping assistants.\n\n* Clementine, Instacart's new marketp",
-        "description": "* Instacart and Shipt separately announced Wednesday the launches of artificial intelligence-powered shopping assistants.\n\n* Clementine, Instacart's new marketplace tool, and Ask S",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Retail Dive",
-        "url": "https://www.retaildive.com/news/instacart-shipt-launch-ai-powered-shopping-assistants/830092/"
       }
     ],
     "ai-benchmark": [
@@ -8530,6 +8337,72 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-research": [
       {
+        "name": "China outlines sci-tech priorities for 2026-2030 to underpin",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "BEIJING, Sept. 30 (Xinhua) -- China will strengthen basic research, tackle core technologies and speed up the industrial application of research results during ",
+        "description": "BEIJING, Sept. 30 (Xinhua) -- China will strengthen basic research, tackle core technologies and speed up the industrial application of research results during the 15th Five-Year P",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:artificial intelligence",
+        "url": "http://www.hongkongherald.com/news/279341653/china-outlines-sci-tech-priorities-for-2026-2030-to-underpin-high-quality-development"
+      },
+      {
+        "name": "China outlines sci-tech priorities for 2026-2030 to underpin",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "BEIJING, Sept. 30 (Xinhua) -- China will strengthen basic research, tackle core technologies and speed up the industrial application of research results during ",
+        "description": "BEIJING, Sept. 30 (Xinhua) -- China will strengthen basic research, tackle core technologies and speed up the industrial application of research results during the 15th Five-Year P",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:artificial intelligence",
+        "url": "http://www.sanjosesun.com/news/279341653/china-outlines-sci-tech-priorities-for-2026-2030-to-underpin-high-quality-development"
+      },
+      {
+        "name": "China outlines sci-tech priorities for 2026-2030 to underpin",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "BEIJING, Sept. 30 (Xinhua) -- China will strengthen basic research, tackle core technologies and speed up the industrial application of research results during ",
+        "description": "BEIJING, Sept. 30 (Xinhua) -- China will strengthen basic research, tackle core technologies and speed up the industrial application of research results during the 15th Five-Year P",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:artificial intelligence",
+        "url": "http://www.beijingbulletin.com/news/279341653/china-outlines-sci-tech-priorities-for-2026-2030-to-underpin-high-quality-development"
+      },
+      {
+        "name": "China outlines sci-tech priorities for 2026-2030 to underpin",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "BEIJING, Sept. 30 (Xinhua) -- China will strengthen basic research, tackle core technologies and speed up the industrial application of research results during ",
+        "description": "BEIJING, Sept. 30 (Xinhua) -- China will strengthen basic research, tackle core technologies and speed up the industrial application of research results during the 15th Five-Year P",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:artificial intelligence",
+        "url": "http://www.californiatelegraph.com/news/279341653/china-outlines-sci-tech-priorities-for-2026-2030-to-underpin-high-quality-development"
+      },
+      {
+        "name": "China outlines sci-tech priorities for 2026-2030 to underpin",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "BEIJING, Sept. 30 (Xinhua) -- China will strengthen basic research, tackle core technologies and speed up the industrial application of research results during ",
+        "description": "BEIJING, Sept. 30 (Xinhua) -- China will strengthen basic research, tackle core technologies and speed up the industrial application of research results during the 15th Five-Year P",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:artificial intelligence",
+        "url": "http://www.shanghaisun.com/news/279341653/china-outlines-sci-tech-priorities-for-2026-2030-to-underpin-high-quality-development"
+      },
+      {
+        "name": "China outlines sci-tech priorities for 2026-2030 to underpin",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "BEIJING, Sept. 30 (Xinhua) -- China will strengthen basic research, tackle core technologies and speed up the industrial application of research results during ",
+        "description": "BEIJING, Sept. 30 (Xinhua) -- China will strengthen basic research, tackle core technologies and speed up the industrial application of research results during the 15th Five-Year P",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:artificial intelligence",
+        "url": "http://www.chinanationalnews.com/news/279341653/china-outlines-sci-tech-priorities-for-2026-2030-to-underpin-high-quality-development"
+      },
+      {
         "name": "BrainNet Studio: A Unified Toolkit for Brain Network Constru",
         "provider": "arXiv",
         "type": "AI 项目/工具",
@@ -8902,72 +8775,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Deccan Herald",
         "url": "https://www.deccanherald.com/world/china/explained-how-china-is-preparing-for-the-risk-of-ai-escaping-human-control-4146732"
-      },
-      {
-        "name": "How China is preparing for the risk of AI escaping human con",
-        "provider": "Nation",
-        "type": "AI 项目/工具",
-        "bestFor": "Warnings from researchers at leading US AI developer Anthropic that increasingly powerful models could escape human control have drawn attention in China, where",
-        "description": "Warnings from researchers at leading US AI developer Anthropic that increasingly powerful models could escape human control have drawn attention in China, where policymakers have b",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Nation",
-        "url": "https://nation.africa/kenya/business/how-china-is-preparing-for-the-risk-of-ai-escaping-human-control-5595542"
-      },
-      {
-        "name": "Open weights are not open source: Why AI's favorite label is",
-        "provider": "TheRegister.com",
-        "type": "AI 项目/工具",
-        "bestFor": "The AI industry likes to abuse the word \"open.\" It appears in product releases, research papers, policy debates, and investor presentations. A company publishes",
-        "description": "The AI industry likes to abuse the word \"open.\" It appears in product releases, research papers, policy debates, and investor presentations. A company publishes model files to Hugg",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "TheRegister.com",
-        "url": "https://www.theregister.com/columnists/2026/09/15/open-weights-are-not-open-source-why-ais-favorite-label-is-under-dispute/5295436"
-      },
-      {
-        "name": "How China is preparing for the risk of AI escaping human con",
-        "provider": "Free Malaysia Today",
-        "type": "AI 项目/工具",
-        "bestFor": "Chinese policymakers see AI as a manageable risk, not an extinction event, through technical standards, regulation and state oversight.\n\nBEIJING: Warnings from ",
-        "description": "Chinese policymakers see AI as a manageable risk, not an extinction event, through technical standards, regulation and state oversight.\n\nBEIJING: Warnings from researchers at leadi",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Free Malaysia Today",
-        "url": "https://www.freemalaysiatoday.com/category/world/2026/09/15/how-china-is-preparing-for-the-risk-of-ai-escaping-human-control"
-      },
-      {
-        "name": "AI tools are making 'experts' out of stock traders in mainla",
-        "provider": "South China Morning Post",
-        "type": "AI 项目/工具",
-        "bestFor": "For China's 250 million individual investors, AI is helping them make money from one of the world's most volatile stock markets\n\nWhen Ryan Lei has an investment",
-        "description": "For China's 250 million individual investors, AI is helping them make money from one of the world's most volatile stock markets\n\nWhen Ryan Lei has an investment idea, he no longer ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "South China Morning Post",
-        "url": "https://www.scmp.com/business/china-business/article/3367211/how-ai-tools-are-reshaping-stock-trading-investment-research-china"
-      },
-      {
-        "name": "Robot self-dynamics help SLAM stay on course",
-        "provider": "mykxlg.com",
-        "type": "AI 项目/工具",
-        "bestFor": "GA, UNITED STATES, September 12, 2026 /EINPresswire.com/ -- A research team has developed a simultaneous localization and mapping (SLAM) system that helps robot",
-        "description": "GA, UNITED STATES, September 12, 2026 /EINPresswire.com/ -- A research team has developed a simultaneous localization and mapping (SLAM) system that helps robots remain oriented wh",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "mykxlg.com",
-        "url": "https://www.mykxlg.com/online_features/press_releases/robot-self-dynamics-help-slam-stay-on-course/article_cbccdf2a-1f92-571a-9fa4-f1b50221e95b.html"
-      },
-      {
-        "name": "Britons Back AI Tools to Help GPs Spot Skin Cancer, Nationwi",
-        "provider": "Scienmag",
-        "type": "AI 项目/工具",
-        "bestFor": "Artificial intelligence is steadily moving from the research laboratory into the GP surgery, and one of its most promising applications lies in the early detect",
-        "description": "Artificial intelligence is steadily moving from the research laboratory into the GP surgery, and one of its most promising applications lies in the early detection of skin cancer. ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Scienmag: Latest Science and Health News",
-        "url": "https://scienmag.com/britons-back-ai-tools-to-help-gps-spot-skin-cancer-nationwide-survey-finds/"
       }
     ],
     "ai-office": []
@@ -10376,7 +10183,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-30",
-    "generatedAt": "2026-09-30T06:46:06.237177Z",
+    "generatedAt": "2026-09-30T12:59:11.795370Z",
     "total": 32,
     "sections": [
       {
