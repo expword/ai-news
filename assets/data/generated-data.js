@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-09-30",
-  "generatedAt": "2026-09-30T04:09:40.526134Z",
+  "generatedAt": "2026-09-30T06:46:06.257178Z",
   "news": [
     {
       "title": "Amazon Bedrock expands Claude model availability to in-country inferencing in India",
@@ -5602,6 +5602,21 @@ window.AI_GENERATED_DATA = {
       "date": "2026-08-05"
     },
     {
+      "name": "deepseek-ai/TileKernels",
+      "lang": "Python",
+      "description": "A kernel library written in tilelang",
+      "stars": "1817 stars",
+      "why": "国产大模型厂商 DeepSeek 的最新开源动态/模型发布，属一手信源。",
+      "url": "https://github.com/deepseek-ai/TileKernels",
+      "source": "GitHub · DeepSeek",
+      "tier": "T1",
+      "category": "Coding Agent",
+      "details": "A kernel library written in tilelang",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
       "name": "MiniMax-AI/parsar-core",
       "lang": "Go",
       "description": "MiniMax 开源项目。",
@@ -5642,21 +5657,6 @@ window.AI_GENERATED_DATA = {
       "tier": "T1",
       "category": "Coding Agent",
       "details": "阶跃星辰 StepFun 开源项目。",
-      "features": [],
-      "useCases": [],
-      "quickStart": []
-    },
-    {
-      "name": "InternLM/Intern-Decision",
-      "lang": "Python",
-      "description": "Fast multi-modal decision model",
-      "stars": "19 stars",
-      "why": "国产大模型厂商 上海AI实验室 书生 的最新开源动态/模型发布，属一手信源。",
-      "url": "https://github.com/InternLM/Intern-Decision",
-      "source": "GitHub · 上海AI实验室 书生",
-      "tier": "T1",
-      "category": "Coding Agent",
-      "details": "Fast multi-modal decision model",
       "features": [],
       "useCases": [],
       "quickStart": []
@@ -10376,7 +10376,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-09-30",
-    "generatedAt": "2026-09-30T04:09:40.504135Z",
+    "generatedAt": "2026-09-30T06:46:06.237177Z",
     "total": 32,
     "sections": [
       {
