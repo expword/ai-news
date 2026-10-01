@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-10-01",
-  "generatedAt": "2026-10-01T04:35:23.598811Z",
+  "generatedAt": "2026-10-01T05:45:22.574763Z",
   "news": [
     {
       "title": "Gemini 4 Argon: our next era of frontier intelligence",
@@ -2728,33 +2728,6 @@
       "sourceDate": "",
       "tags": [],
       "url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Anthropic 称 Claude 完成平面 N=4 超杨-米尔斯理论九圈散射振幅计算",
-      "summary": "Anthropic 在科学博客称，物理学家 @4gravitons 发起挑战后，Claude 在 Claude Science 中依据单个提示词 largely unsupervised 地运行数天，在平面 N=4 超杨-米尔斯模型中完成九圈散射振幅计算，总成本约几千美元。",
-      "category": "ai-models",
-      "source": "X：Anthropic (@AnthropicAI)",
-      "date": "2026-09-26",
-      "publishedAt": "2026-09-26T01:46",
-      "collectedAt": "2026-09-26T03:11",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://x.com/AnthropicAI/status/2103541577083719888",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -10456,7 +10429,7 @@
   ],
   "dailyReport": {
     "date": "2026-10-01",
-    "generatedAt": "2026-10-01T04:35:23.576811Z",
+    "generatedAt": "2026-10-01T05:45:22.554986Z",
     "total": 30,
     "sections": [
       {
