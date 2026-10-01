@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-10-01",
-  "generatedAt": "2026-10-01T12:51:52.787872Z",
+  "generatedAt": "2026-10-01T15:16:06.791487Z",
   "news": [
     {
       "title": "Oct 1, 2026 Announcements Barclays scales Claude to upgrade operations and improve client experience",
@@ -2493,33 +2493,6 @@ window.AI_GENERATED_DATA = {
       "moduleTargets": [
         "news",
         "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Greenpixie's AI Token Methodology: Assessing the Energy, Water and $\\mathrm{CO_2\\text{-}eq}$ Impact of AI Tokens for Open and Closed Weight Models",
-      "summary": "We describe a methodology for estimating the per-token energy cost of cloud-hosted large language model (LLM) inference, separating between input (prefill) and output (decode) toke",
-      "category": "ai-coding",
-      "source": "arXiv",
-      "date": "2026-09-27",
-      "publishedAt": "",
-      "collectedAt": "2026-09-29T11:30",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-27",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.33965v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
       ],
       "sourceCount": 1
     }
@@ -5614,6 +5587,39 @@ window.AI_GENERATED_DATA = {
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Metaview wants to eliminate recruiting grunt work and speed ",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Artificial intelligence recruiting software startup Metaview Labs Inc. said today the industry is ready for a “Claude Code moment” after it closed on $60 millio",
+        "description": "Artificial intelligence recruiting software startup Metaview Labs Inc. said today the industry is ready for a “Claude Code moment” after it closed on $60 million in a Series C fund",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://siliconangle.com/2026/09/30/metaview-wants-to-eliminate-recruiting-grunt-work-and-speed-up-hiring-after-raising-60m-in-funding/"
+      },
+      {
+        "name": "From coding to critical thinking: What future engineers need",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "For the next generation of engineers, knowing how to code will remain valuable. But being able to think, question, understand and adapt will be equally importan",
+        "description": "For the next generation of engineers, knowing how to code will remain valuable. But being able to think, question, understand and adapt will be equally important.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI coding tool",
+        "url": "https://www.thehansindia.com/hans/young-hans/from-coding-to-critical-thinking-what-future-engineers-need-to-learn-1127467"
+      },
+      {
+        "name": "The AI agent boom is exposing Southeast Asia’s startup codeb",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Across Southeast Asia’s technology hubs, the AI conversation has moved quickly from “Can it help developers write code faster?” to a harder question: “Can it be",
+        "description": "Across Southeast Asia’s technology hubs, the AI conversation has moved quickly from “Can it help developers write code faster?” to a harder question: “Can it be trusted to work on ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://e27.co/the-ai-agent-boom-is-exposing-southeast-asias-startup-codebase-problem-20261001/"
+      },
+      {
         "name": "Is Weight Tying Still Beneficial for Decoder-Only LLMs in Pr",
         "provider": "arXiv",
         "type": "AI 项目/工具",
@@ -6019,42 +6025,97 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Macau Daily Times",
         "url": "https://macaudailytimes.com.mo/ai-agents-learn-from-the-best.html"
-      },
-      {
-        "name": "Spotify Engineers Treat Coding as Solved Problem After Claud",
-        "provider": "WebProNews",
-        "type": "AI 项目/工具",
-        "bestFor": "Spotify engineers now treat coding as a solved problem. According to a recent post on the company's engineering blog, 99 percent of them interact with artificia",
-        "description": "Spotify engineers now treat coding as a solved problem. According to a recent post on the company's engineering blog, 99 percent of them interact with artificial intelligence tools",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "WebProNews",
-        "url": "https://www.webpronews.com/spotify-engineers-treat-coding-as-solved-problem-after-claude-ai-adoption/"
-      },
-      {
-        "name": "Elliptic Launches Its Decode Agent to Answer On-Chain Risk Q",
-        "provider": "The Star Phoenix",
-        "type": "AI 项目/工具",
-        "bestFor": "Hours of tracing, answered in seconds, with the evidence attached NEW YORK -- Elliptic, the global leader in on-chain risk, today launched Decode, an AI agent b",
-        "description": "Hours of tracing, answered in seconds, with the evidence attached NEW YORK -- Elliptic, the global leader in on-chain risk, today launched Decode, an AI agent built on Elliptic's i",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Star Phoenix",
-        "url": "https://thestarphoenix.com/press-releases/business-wire/elliptic-launches-its-decode-agent-to-answer-on-chain-risk-questions-and-shows-its-work/"
-      },
-      {
-        "name": "Elliptic Launches Its Decode Agent to Answer On-Chain Risk Q",
-        "provider": "Leader-Post",
-        "type": "AI 项目/工具",
-        "bestFor": "Hours of tracing, answered in seconds, with the evidence attached NEW YORK -- Elliptic, the global leader in on-chain risk, today launched Decode, an AI agent b",
-        "description": "Hours of tracing, answered in seconds, with the evidence attached NEW YORK -- Elliptic, the global leader in on-chain risk, today launched Decode, an AI agent built on Elliptic's i",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Leader-Post",
-        "url": "https://leaderpost.com/press-releases/business-wire/elliptic-launches-its-decode-agent-to-answer-on-chain-risk-questions-and-shows-its-work/"
       }
     ],
     "ai-agents": [
+      {
+        "name": "Chinese AI Agents Are Lying: Inside the New Tech Cold War",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Last Updated on October 1, 2026 by Jeff Tomas BEIJING – Chinese AI systems in China are learning to bend the rules. Recent tests reveal these digital assistants",
+        "description": "Last Updated on October 1, 2026 by Jeff Tomas BEIJING – Chinese AI systems in China are learning to bend the rules. Recent tests reveal these digital assistants are doing the unthi",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:DeepSeek",
+        "url": "https://www.chiangraitimes.com/ai/chinese-ai-lying/"
+      },
+      {
+        "name": "Meta Stock Jumps 27% in September on Muse Success",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Meta shares rose 27% in September, the biggest monthly gain in nearly four years, after its AI agent app Muse topped Apple's App Store downloads.",
+        "description": "Meta shares rose 27% in September, the biggest monthly gain in nearly four years, after its AI agent app Muse topped Apple's App Store downloads.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://en.sedaily.com/international/2026/10/01/meta-stock-jumps-27-percent-in-september-on-muse-success"
+      },
+      {
+        "name": "Why upgrading old government systems won't stop the next cyb",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Experts say upgrading old government tech won't stop AI hacks",
+        "description": "Experts say upgrading old government tech won't stop AI hacks",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.canberratimes.com.au/story/9360571/home-affairs-cyber-tech-overhaul-experts-warn-of-ai-risks/?src=rss"
+      },
+      {
+        "name": "There is a word so powerful it need be spoken only once",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "If you’ve heard anything about “NAZA,” the new documentary about the war in the Gaza Strip, it might be that Prime Minister Benjamin Netanyahu was so outraged b",
+        "description": "If you’ve heard anything about “NAZA,” the new documentary about the war in the Gaza Strip, it might be that Prime Minister Benjamin Netanyahu was so outraged by it that he has pro",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.dtnext.in/edit/there-is-a-word-so-powerful-it-need-be-spoken-only-once"
+      },
+      {
+        "name": "Twilio Guide: Building Localized Enterprise AI Voice Agents ",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Twilio's guide details how to build localized, enterprise-grade AI voice agents that adapt to regional accents, cultural norms, and compliance needs. It covers ",
+        "description": "Twilio's guide details how to build localized, enterprise-grade AI voice agents that adapt to regional accents, cultural norms, and compliance needs. It covers specialized speech m",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.webpronews.com/twilio-guide-building-localized-enterprise-ai-voice-agents-at-scale/"
+      },
+      {
+        "name": "AI tools expand into finance and shopping, but expert urges ",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "AI is changing how Americans shop and manage money, but the biggest question remains: Who is protecting your data?",
+        "description": "AI is changing how Americans shop and manage money, but the biggest question remains: Who is protecting your data?",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.azfamily.com/2026/10/01/ai-tools-expand-into-finance-shopping-expert-urges-caution/"
+      },
+      {
+        "name": "Why SBI paid a premium for Ajaib amid a tough market",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Ajaib isn't Indonesia's largest digital investment platform. But its sizable presence could be valuable for the investor's push into digital assets.",
+        "description": "Ajaib isn't Indonesia's largest digital investment platform. But its sizable presence could be valuable for the investor's push into digital assets.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.techinasia.com/sbi-paid-premium-ajaib-tough-market"
+      },
+      {
+        "name": "Inside Berkeley's Lighthaven, Where AI Doomers Gather to Deb",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "At Berkeley's Lighthaven compound, hundreds gathered for the AGI.WTF conference to debate AI risk, omnicide fears, and the future of humanity.",
+        "description": "At Berkeley's Lighthaven compound, hundreds gathered for the AGI.WTF conference to debate AI risk, omnicide fears, and the future of humanity.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://hoodline.com/2026/09/inside-berkeley-s-lighthaven-where-ai-doomers-gather-to-debate-the-end-of-the-world/"
+      },
       {
         "name": "OpenAI’s Dots challenges Meta’s Muse in the race for AI agen",
         "provider": "NewsData.io",
@@ -6406,97 +6467,31 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:artificial intelligence",
         "url": "https://www.cbsnews.com/video/nvidia-unveils-security-platform-designed-to-stop-ai-agents-from-going-rouge/"
-      },
-      {
-        "name": "TokenCast: Forecasting Token Consumption During LLM Agent Ex",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "When a large language model (LLM) agent executes the same task, token consumption can vary by over an order of magnitude across runs. The agent chooses its next",
-        "description": "When a large language model (LLM) agent executes the same task, token consumption can vary by over an order of magnitude across runs. The agent chooses its next steps based on tool",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2609.35760v1"
-      },
-      {
-        "name": "Reinforcing Agentic Creativity in Scientific Ideation with N",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Large language models (LLMs) excel at structured, verifiable tasks, but their low-entropy bias can produce homogeneous and predictable outputs, limiting their u",
-        "description": "Large language models (LLMs) excel at structured, verifiable tasks, but their low-entropy bias can produce homogeneous and predictable outputs, limiting their utility for open-ende",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2609.35706v1"
-      },
-      {
-        "name": "Beyond Solo and Consistency: Vindicating Multi-Agent Debate ",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Large Language Model (LLM) based Multi-Agent Debate (MAD) is one of the most effective test time scaling techniques. Through multi-round communication, agents c",
-        "description": "Large Language Model (LLM) based Multi-Agent Debate (MAD) is one of the most effective test time scaling techniques. Through multi-round communication, agents complement each other",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2609.33974v1"
-      },
-      {
-        "name": "HyperMCTS: Hypergraph-Augmented MCTS for Long-Horizon LLM Ag",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Long-horizon tasks require large language model (LLM) agents to coordinate decisions under constraints that span an entire solution. Monte Carlo Tree Search (MC",
-        "description": "Long-horizon tasks require large language model (LLM) agents to coordinate decisions under constraints that span an entire solution. Monte Carlo Tree Search (MCTS) offers a promisi",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2609.33920v1"
-      },
-      {
-        "name": "A2A-ForensicTrace: Offline Verification of Tamper-Evident A2",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Security-relevant Agent2Agent (A2A) executions can cross organizational boundaries, leaving investigators without live access to all participating systems. Offl",
-        "description": "Security-relevant Agent2Agent (A2A) executions can cross organizational boundaries, leaving investigators without live access to all participating systems. Offline investigation in",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2609.33924v1"
-      },
-      {
-        "name": "Large Language Models for Structured Clinical Data Analysis:",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Objective: To develop and characterize CLEAR-Med, a dual-agent framework for natural-language analysis of structured clinical data that separates SQL-based invo",
-        "description": "Objective: To develop and characterize CLEAR-Med, a dual-agent framework for natural-language analysis of structured clinical data that separates SQL-based invocation from independ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2609.34039v1"
-      },
-      {
-        "name": "Maat: Independent Deterministic Contract-Based Governance fo",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Large-language-model multi-agent systems (LLM-MAS) introduce a characteristic reliability problem: an error produced by one agent can be accepted as context by ",
-        "description": "Large-language-model multi-agent systems (LLM-MAS) introduce a characteristic reliability problem: an error produced by one agent can be accepted as context by downstream agents an",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2609.34017v1"
-      },
-      {
-        "name": "Anthropic 与 NVIDIA 合作推出 Claude Managed Agents 与 OpenShell 强化",
-        "provider": "Claude：Blog（网页）",
-        "type": "AI 项目/工具",
-        "bestFor": "Anthropic 与 NVIDIA 合作加强 Agent 安全。NVIDIA 发布 Open Agent Safety Platform，Anthropic 推出 Claude Managed Agents。",
-        "description": "Anthropic 与 NVIDIA 合作加强 Agent 安全。NVIDIA 发布 Open Agent Safety Platform，Anthropic 推出 Claude Managed Agents。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Claude：Blog（网页）",
-        "url": "https://claude.com/blog/giving-companies-more-control-over-their-ai-agents-with-nvidia"
       }
     ],
     "ai-models": [
+      {
+        "name": "Google announces Gemini 4 flagship AI model after months of ",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "The new AI model, 'Argon,'' is larger in size than Google's previous line of advanced \"Pro\" models, a company spokesperson says",
+        "description": "The new AI model, 'Argon,'' is larger in size than Google's previous line of advanced \"Pro\" models, a company spokesperson says",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Google Gemini",
+        "url": "https://www.rappler.com/technology/google-gemini-4-flagship-ai-model-argon/"
+      },
+      {
+        "name": "A timeline of developments in AI safety since the attack on ",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "In one alarming announcement after another, artificial intelligence companies in recent months have shared examples of their technology acting in ways that appe",
+        "description": "In one alarming announcement after another, artificial intelligence companies in recent months have shared examples of their technology acting in ways that appeared to evade instru",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Google Gemini",
+        "url": "https://www.thestar.com.my/tech/tech-news/2026/10/01/a-timeline-of-developments-in-ai-safety-since-the-attack-on-hugging-face"
+      },
       {
         "name": "Query claims in natural language with Amazon Bedrock Knowled",
         "provider": "RSS",
@@ -6914,28 +6909,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Scienmag: Latest Science and Health News",
         "url": "https://scienmag.com/ai-framework-cortex-maps-career-goals-to-prerequisite-ready-learning-paths/"
-      },
-      {
-        "name": "OpenRouter 发布 2026 年最佳嵌入模型选型指南，覆盖 37 个目录条目",
-        "provider": "OpenRouter：Announcements（RSS）",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenRouter 于 2026 年 9 月 11 日核实嵌入模型目录共 37 个条目，并通过自家 embeddings API 向 19 个模型发送批量请求、共 28 项检查，确认请求与响应行为。",
-        "description": "OpenRouter 于 2026 年 9 月 11 日核实嵌入模型目录共 37 个条目，并通过自家 embeddings API 向 19 个模型发送批量请求、共 28 项检查，确认请求与响应行为。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "OpenRouter：Announcements（RSS）",
-        "url": "https://openrouter.ai/blog/insights/best-embedding-models-2026"
-      },
-      {
-        "name": "From IT Services to Enterprise AI: What ATGL Must Prove Next",
-        "provider": "finanzen.at",
-        "type": "AI 项目/工具",
-        "bestFor": "AlphaClaw gives the Nasdaq-listed technology company a clearer platform strategy, but customer adoption, recurring revenue and capital discipline will determine",
-        "description": "AlphaClaw gives the Nasdaq-listed technology company a clearer platform strategy, but customer adoption, recurring revenue and capital discipline will determine whether the transit",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "finanzen.at",
-        "url": "https://www.finanzen.at/nachrichten/aktien/from-it-services-to-enterprise-ai-what-atgl-must-prove-next-1036565983"
       }
     ],
     "ai-business": [
@@ -10209,7 +10182,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-10-01",
-    "generatedAt": "2026-10-01T12:51:52.757814Z",
+    "generatedAt": "2026-10-01T15:16:06.770457Z",
     "total": 30,
     "sections": [
       {
