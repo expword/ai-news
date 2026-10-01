@@ -1,7 +1,63 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-10-02",
-  "generatedAt": "2026-10-01T17:37:55.093512Z",
+  "generatedAt": "2026-10-01T19:59:34.205603Z",
   "news": [
+    {
+      "title": "Serve live, governed data in AI-built apps with Amazon Quick",
+      "summary": "With Live Data in Apps in Amazon Quick, AI-built apps query your governed Quick Sight datasets in real time instead of static, build-time snapshots. Each query runs as the person v",
+      "category": "ai-models",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-10-02",
+      "publishedAt": "2026-10-02T03:49",
+      "collectedAt": "2026-10-02T03:59",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/serve-live-governed-data-in-ai-built-apps-with-amazon-quick/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Build agent memory with NVIDIA NeMo Agent Toolkit and Amazon S3 Vectors",
+      "summary": "Learn how to use Amazon S3 Vectors as the persistent memory layer within the NVIDIA NeMo Agent Toolkit (NAT), deployed on Amazon Elastic Kubernetes Service (Amazon EKS). This post ",
+      "category": "ai-agents",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-10-02",
+      "publishedAt": "2026-10-02T01:34",
+      "collectedAt": "2026-10-02T02:49",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-agent-memory-with-nvidia-nemo-agent-toolkit-and-amazon-s3-vectors/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "The eternal complement",
       "summary": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.",
@@ -136,6 +192,60 @@ window.AI_GENERATED_DATA = {
       "moduleTargets": [
         "news",
         "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Claude Code mods 入门教程：从零构建 Token Weather 上下文窗口预报插件",
+      "summary": "这篇 Claude Code 官方开发者教程介绍 mods，即以 hooks 形式运行在插件内的 JavaScript 或 TypeScript 模块，可以观察、重写或拒绝事件，甚至绘制自定义 UI，需 Claude Code 2.1.287 或更高版本。",
+      "category": "ai-coding",
+      "source": "Anthropic：Claude.dev 开发者博客（RSS）",
+      "date": "2026-10-01",
+      "publishedAt": "2026-10-01T20:00",
+      "collectedAt": "2026-10-02T02:49",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://claude.dev/blog/getting-started-with-claude-code-mods/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "物理学者 Matthew Schwartz 分享用 Claude 与 BootLoops 做跨学科计算的经验",
+      "summary": "哈佛物理学者 Matthew Schwartz 在 Anthropic 客座文章中提出寻找 Claude-shaped 问题，并开源了用于定量科学精确计算的 BootLoops 工具包。",
+      "category": "ai-models",
+      "source": "Anthropic：Research（发表成果 · 网页）",
+      "date": "2026-10-01",
+      "publishedAt": "2026-10-01T00:00",
+      "collectedAt": "2026-10-02T02:49",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://www.anthropic.com/research/claude-shaped-science",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
       ],
       "sourceCount": 1
     },
@@ -2589,117 +2699,6 @@ window.AI_GENERATED_DATA = {
       "sourceDate": "",
       "tags": [],
       "url": "https://aws.amazon.com/blogs/machine-learning/implementing-synthetic-monitoring-using-amazon-nova-act/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "A Mechanistic Study of AI-Text Detection Neurons in Frozen BERT: Sparse Probing and Activation Patching on RAID",
-      "summary": "arXiv:2609.30287v1 Announce Type: new Abstract: AI-generated text detectors achieve high accuracy on standard benchmarks, yet the internal representations that drive these predicti",
-      "category": "ai-coding",
-      "source": "RSS · arXiv cs.CL",
-      "date": "2026-09-28",
-      "publishedAt": "",
-      "collectedAt": "2026-09-28T23:32",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-28",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2609.30287",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Holo4: powering generalist computer-use agents",
-      "summary": "",
-      "category": "ai-agents",
-      "source": "RSS · Hugging Face Blog",
-      "date": "2026-09-28",
-      "publishedAt": "2026-09-28T17:44",
-      "collectedAt": "2026-09-28T18:08",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://huggingface.co/blog/Hcompany/holo4",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Green AI: Cost of LLM-Based Code Completion",
-      "summary": "Code completion is one of the most widely used applications of large language models (LLMs) in software development. Open-weight LLMs are increasingly adopted for locally deployed ",
-      "category": "ai-coding",
-      "source": "arXiv",
-      "date": "2026-09-27",
-      "publishedAt": "",
-      "collectedAt": "2026-09-29T11:30",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-27",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.33918v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Beyond Solo and Consistency: Vindicating Multi-Agent Debate via Conditional Progressive Pruning",
-      "summary": "Large Language Model (LLM) based Multi-Agent Debate (MAD) is one of the most effective test time scaling techniques. Through multi-round communication, agents complement each other",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-09-27",
-      "publishedAt": "",
-      "collectedAt": "2026-09-29T11:30",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-27",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.33974v1",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -6249,6 +6248,39 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "MiMo-V2.6-Pro 和 MiMo-V2.6-Flash 登陆 Agent Arena，分列开源模型第5和第9",
+        "provider": "X：Arena (@arena)",
+        "type": "AI 项目/工具",
+        "bestFor": "Arena 宣布 Xiaomi MiMo-V2.6-Pro 和 MiMo-V2.6-Flash 登陆 Agent Arena。Pro 在 8.1K+ 真实智能体会话中净提升 +3.17%，列开源模型第5，较 MiMo-V2.5-Pro（第13，-7.23%）提升9个名次；其 Confirmed Success 得分 +",
+        "description": "Arena 宣布 Xiaomi MiMo-V2.6-Pro 和 MiMo-V2.6-Flash 登陆 Agent Arena。Pro 在 8.1K+ 真实智能体会话中净提升 +3.17%，列开源模型第5，较 MiMo-V2.5-Pro（第13，-7.23%）提升9个名次；其 Confirmed Success 得分 +7.35%，列开源模型第2。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "X：Arena (@arena)",
+        "url": "https://x.com/arena/status/2105733983250301224"
+      },
+      {
+        "name": "LangChain 讲解如何在 Agent Harness 中构建模型路由器",
+        "provider": "LangChain：Blog（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "LangChain 在其开源编码 Agent Open SWE 中构建模型路由器，在 973 个线程的 A/B 测试中，中位成本从 $2.61 降到 $0.94（降 64%），PR 合并率 29.2% 对 27.3%，质量无可测变化。",
+        "description": "LangChain 在其开源编码 Agent Open SWE 中构建模型路由器，在 973 个线程的 A/B 测试中，中位成本从 $2.61 降到 $0.94（降 64%），PR 合并率 29.2% 对 27.3%，质量无可测变化。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "LangChain：Blog（RSS）",
+        "url": "https://www.langchain.com/blog/how-to-build-a-model-router-in-the-harness"
+      },
+      {
+        "name": "Build agent memory with NVIDIA NeMo Agent Toolkit and Amazon",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Learn how to use Amazon S3 Vectors as the persistent memory layer within the NVIDIA NeMo Agent Toolkit (NAT), deployed on Amazon Elastic Kubernetes Service (Ama",
+        "description": "Learn how to use Amazon S3 Vectors as the persistent memory layer within the NVIDIA NeMo Agent Toolkit (NAT), deployed on Amazon Elastic Kubernetes Service (Amazon EKS). This post ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/build-agent-memory-with-nvidia-nemo-agent-toolkit-and-amazon-s3-vectors/"
+      },
+      {
         "name": "Building ambient agents with Amazon Bedrock AgentCore: From ",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -6654,42 +6686,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:AI agent",
         "url": "https://www.hcamag.com/asia/news/general/nvidia-unveils-platform-to-prevent-ai-agents-from-going-rogue/591510"
-      },
-      {
-        "name": "OpenAI issues stunning apology to Australia following Medica",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "The Artificial Intelligence giant said 'we are sorry' in a media release posted to its website.",
-        "description": "The Artificial Intelligence giant said 'we are sorry' in a media release posted to its website.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.dailymail.com/news/article-16168193/OpenAI-issues-stunning-apology-Australia-following-Medicare-breach-sorry.html"
-      },
-      {
-        "name": "OpenAI apologies for Australian government website hack, ple",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "SYDNEY, Sept 29 : OpenAI apologised for the hacking of an Australian government website by a rogue AI agent, committing funding to improve cyber defences and to",
-        "description": "SYDNEY, Sept 29 : OpenAI apologised for the hacking of an Australian government website by a rogue AI agent, committing funding to improve cyber defences and to establish a local r",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.channelnewsasia.com/business/openai-apologies-australian-government-website-hack-pledges-rebuild-trust-6417116"
-      },
-      {
-        "name": "OpenAI scraps rollout of new model over safety concerns",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "The AI giant's safety chief said the model 'didn't quite meet the bar' of the firm's security standards.",
-        "description": "The AI giant's safety chief said the model 'didn't quite meet the bar' of the firm's security standards.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.bbc.co.uk/news/articles/cm5y5nynl75ko"
       }
     ],
     "ai-models": [
+      {
+        "name": "Serve live, governed data in AI-built apps with Amazon Quick",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "With Live Data in Apps in Amazon Quick, AI-built apps query your governed Quick Sight datasets in real time instead of static, build-time snapshots. Each query ",
+        "description": "With Live Data in Apps in Amazon Quick, AI-built apps query your governed Quick Sight datasets in real time instead of static, build-time snapshots. Each query runs as the person v",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/serve-live-governed-data-in-ai-built-apps-with-amazon-quick/"
+      },
       {
         "name": "Implementing Multi-Environment Access for Claude Platform on",
         "provider": "RSS",
@@ -7118,17 +7128,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:Google Gemini",
         "url": "https://www.brecorder.com/news/40440813/with-new-macs-apple-aims-to-take-on-microsoft-nvidia-in-a-rush-to-lower-ai-costs"
-      },
-      {
-        "name": "vLLM 发布 vllm-metal v0.28.0：在 Apple Silicon 上支持并发推理服务",
-        "provider": "vLLM 官方博客（RSS）",
-        "type": "AI 项目/工具",
-        "bestFor": "vLLM 官方发布 vllm-metal v0.28.0，把 vLLM 的 V1 调度器、paged KV cache 和 OpenAI 兼容服务器带到 Apple Silicon，由 MLX 和 Metal 执行模型，版本号与上游 vLLM 对齐。",
-        "description": "vLLM 官方发布 vllm-metal v0.28.0，把 vLLM 的 V1 调度器、paged KV cache 和 OpenAI 兼容服务器带到 Apple Silicon，由 MLX 和 Metal 执行模型，版本号与上游 vLLM 对齐。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "vLLM 官方博客（RSS）",
-        "url": "https://vllm.ai/blog/2026-09-22-vllm-metal-v0-28-0"
       }
     ],
     "ai-business": [
@@ -10402,13 +10401,41 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-10-02",
-    "generatedAt": "2026-10-01T17:37:55.073511Z",
-    "total": 12,
+    "generatedAt": "2026-10-01T19:59:34.184600Z",
+    "total": 16,
     "sections": [
+      {
+        "category": "ai-coding",
+        "label": "AI 编程",
+        "items": [
+          {
+            "title": "Claude Code mods 入门教程：从零构建 Token Weather 上下文窗口预报插件",
+            "summary": "这篇 Claude Code 官方开发者教程介绍 mods，即以 hooks 形式运行在插件内的 JavaScript 或 TypeScript 模块，可以观察、重写或拒绝事件，甚至绘制自定义 UI，需 Claude Code 2.1.287 或更高版本。",
+            "source": "Anthropic：Claude.dev 开发者博客（RSS）",
+            "url": "https://claude.dev/blog/getting-started-with-claude-code-mods/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-01",
+            "publishedAt": "2026-10-01T20:00",
+            "reason": ""
+          }
+        ]
+      },
       {
         "category": "ai-agents",
         "label": "Agent / MCP",
         "items": [
+          {
+            "title": "Build agent memory with NVIDIA NeMo Agent Toolkit and Amazon S3 Vectors",
+            "summary": "Learn how to use Amazon S3 Vectors as the persistent memory layer within the NVIDIA NeMo Agent Toolkit (NAT), deployed on Amazon Elastic Kub",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/build-agent-memory-with-nvidia-nemo-agent-toolkit-and-amazon-s3-vectors/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-02",
+            "publishedAt": "2026-10-02T01:34",
+            "reason": ""
+          },
           {
             "title": "Building ambient agents with Amazon Bedrock AgentCore: From event-driven signals to human-in-the-loop workflows",
             "summary": "Ambient agents respond to events such as an Amazon S3 upload, a schedule, or an alert instead of waiting for a chat prompt. This post walks ",
@@ -10437,6 +10464,17 @@ window.AI_GENERATED_DATA = {
         "category": "ai-models",
         "label": "模型发布",
         "items": [
+          {
+            "title": "Serve live, governed data in AI-built apps with Amazon Quick",
+            "summary": "With Live Data in Apps in Amazon Quick, AI-built apps query your governed Quick Sight datasets in real time instead of static, build-time sn",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/serve-live-governed-data-in-ai-built-apps-with-amazon-quick/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-02",
+            "publishedAt": "2026-10-02T03:49",
+            "reason": ""
+          },
           {
             "title": "The eternal complement",
             "summary": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace ",
@@ -10468,6 +10506,17 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-10-02",
             "publishedAt": "2026-10-02T00:00",
+            "reason": ""
+          },
+          {
+            "title": "物理学者 Matthew Schwartz 分享用 Claude 与 BootLoops 做跨学科计算的经验",
+            "summary": "哈佛物理学者 Matthew Schwartz 在 Anthropic 客座文章中提出寻找 Claude-shaped 问题，并开源了用于定量科学精确计算的 BootLoops 工具包。",
+            "source": "Anthropic：Research（发表成果 · 网页）",
+            "url": "https://www.anthropic.com/research/claude-shaped-science",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-01",
+            "publishedAt": "2026-10-01T00:00",
             "reason": ""
           },
           {
