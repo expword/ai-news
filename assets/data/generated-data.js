@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-10-01",
-  "generatedAt": "2026-10-01T08:06:41.539090Z",
+  "generatedAt": "2026-10-01T12:51:52.787872Z",
   "news": [
     {
       "title": "Oct 1, 2026 Announcements Barclays scales Claude to upgrade operations and improve client experience",
@@ -77,6 +77,33 @@ window.AI_GENERATED_DATA = {
       "tier": "T1",
       "scores": {},
       "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Ethan Mollick 谈点与群：智能体自组织为何让管理假设失效",
+      "summary": "Ethan Mollick 承认自己此前认为人类需像经理一样精心设计智能体组织的判断错了，Bitter Lesson 同样适用于组织管理。",
+      "category": "ai-models",
+      "source": "Ethan Mollick：One Useful Thing（RSS）",
+      "date": "2026-10-01",
+      "publishedAt": "2026-10-01T18:54",
+      "collectedAt": "2026-10-01T20:51",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1.5",
+      "scores": {},
+      "score": 56,
       "aiSelected": true,
       "moduleTargets": [
         "news"
@@ -2481,253 +2508,6 @@ window.AI_GENERATED_DATA = {
       "sourceDate": "2026-09-27",
       "tags": [],
       "url": "http://arxiv.org/abs/2609.33965v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "On the Token Value Inequality in Efficient Reasoning",
-      "summary": "Chain-of-Thought reasoning has enabled large language models to achieve substantial performance gains on complex tasks. However, these gains come at the cost of dramatically increa",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-27",
-      "publishedAt": "",
-      "collectedAt": "2026-09-29T11:30",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-27",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.33970v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "HyperMCTS: Hypergraph-Augmented MCTS for Long-Horizon LLM Agents",
-      "summary": "Long-horizon tasks require large language model (LLM) agents to coordinate decisions under constraints that span an entire solution. Monte Carlo Tree Search (MCTS) offers a promisi",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-09-27",
-      "publishedAt": "",
-      "collectedAt": "2026-09-29T11:30",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-27",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.33920v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "GroupMask: Layer-Adaptive Group-wise Sparsity for Semi-Structured LLM Pruning",
-      "summary": "Semi-structured pruning compresses large language models (LLMs) while keeping a regular sparse structure, but the prevailing N:M pattern fixes the same local sparsity ratio in ever",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-27",
-      "publishedAt": "",
-      "collectedAt": "2026-09-29T11:30",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-27",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.33977v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "A2A-ForensicTrace: Offline Verification of Tamper-Evident A2A Runtime Evidence",
-      "summary": "Security-relevant Agent2Agent (A2A) executions can cross organizational boundaries, leaving investigators without live access to all participating systems. Offline investigation in",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-09-27",
-      "publishedAt": "",
-      "collectedAt": "2026-09-29T11:30",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-27",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.33924v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Maat: Independent Deterministic Contract-Based Governance for Multi-Agent LLM Workflows",
-      "summary": "Large-language-model multi-agent systems (LLM-MAS) introduce a characteristic reliability problem: an error produced by one agent can be accepted as context by downstream agents an",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-09-27",
-      "publishedAt": "",
-      "collectedAt": "2026-09-29T10:15",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-27",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.34017v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "MetaSampling: Making Frame Samplers Efficient for Long-Video Question Answering",
-      "summary": "Frame selection is an important component of long-video question answering (VQA) with Multimodal Large Language Models (MLLMs). Existing frame-selection methods improve over simple",
-      "category": "ai-image-video",
-      "source": "arXiv",
-      "date": "2026-09-27",
-      "publishedAt": "",
-      "collectedAt": "2026-09-29T10:15",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-27",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.33998v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Uncovering shortcut learning in audio classifiers by discovering recurring concepts in temporal explanations",
-      "summary": "Correlations between events in machine learning datasets may result in shortcut learning, where models learn to predict the target event based on the presence of a correlated event",
-      "category": "ai-image-video",
-      "source": "arXiv",
-      "date": "2026-09-27",
-      "publishedAt": "",
-      "collectedAt": "2026-09-29T10:15",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-27",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.34030v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Fisher-Informed Recalibration for Feedback-Based On-Policy Self-Distillation of LLMs",
-      "summary": "Feedback-based on-policy self-distillation has emerged as a promising approach for enabling foundation models, more specifically Large Language Models (LLMs), to learn from their o",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-27",
-      "publishedAt": "",
-      "collectedAt": "2026-09-29T10:15",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-27",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.34009v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Faithful Activation Verbalization: Reducing Hallucinations in LLM Representation Interpretation",
-      "summary": "Activation verbalization methods such as Activation Oracle and Natural Language Autoencoders decode hidden representations of large language models into human-readable natural lang",
-      "category": "ai-coding",
-      "source": "arXiv",
-      "date": "2026-09-27",
-      "publishedAt": "",
-      "collectedAt": "2026-09-29T10:15",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-27",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.34033v1",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -6276,6 +6056,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "OpenAI’s Dots challenges Meta’s Muse in the race for AI agen",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenAI jumped into the personal AI agent market on Tuesday with Dots, following Meta’s blockbuster Muse launch earlier this month and setting up what could beco",
+        "description": "OpenAI jumped into the personal AI agent market on Tuesday with Dots, following Meta’s blockbuster Muse launch earlier this month and setting up what could become the next major ba",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:artificial intelligence",
+        "url": "https://etf-alerts.com/2026/10/01/openais-dots-challenges-metas-muse-in-the-race-for-ai-agents/"
+      },
+      {
         "name": "JuryFlow: Disagreement-Guided Human-in-the-Loop Multi-Agent ",
         "provider": "arXiv",
         "type": "AI 项目/工具",
@@ -6703,17 +6494,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Claude：Blog（网页）",
         "url": "https://claude.com/blog/giving-companies-more-control-over-their-ai-agents-with-nvidia"
-      },
-      {
-        "name": "Arena 评测：GPT-6 Luna (Max) 列 Agent Arena 第 23 名，单任务成本仅 $0.05",
-        "provider": "X：Arena (@arena)",
-        "type": "AI 项目/工具",
-        "bestFor": "Arena 公布 GPT-6 Luna (Max) 在 Agent Arena 排名第 23，基于 8K 真实智能体会话，净提升 +1.6%，比 GPT-5.6 Luna (xHigh) 上升 6 位。",
-        "description": "Arena 公布 GPT-6 Luna (Max) 在 Agent Arena 排名第 23，基于 8K 真实智能体会话，净提升 +1.6%，比 GPT-5.6 Luna (xHigh) 上升 6 位。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "X：Arena (@arena)",
-        "url": "https://x.com/arena/status/2104673568776990762"
       }
     ],
     "ai-models": [
@@ -7160,6 +6940,28 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-business": [
       {
+        "name": "Singapore Business Federation launches future-ready index",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "The new tool aims to help Singapore firms pinpoint gaps in transformation as costs rise, emissions pressures mount and technology shifts accelerate.",
+        "description": "The new tool aims to help Singapore firms pinpoint gaps in transformation as costs rise, emissions pressures mount and technology shifts accelerate.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:artificial intelligence",
+        "url": "https://itbrief.asia/story/singapore-business-federation-launches-future-ready-index"
+      },
+      {
+        "name": "Singapore Business Federation launches future-ready index",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "The new tool aims to help Singapore firms pinpoint gaps in transformation as costs rise, emissions pressures mount and technology shifts accelerate.",
+        "description": "The new tool aims to help Singapore firms pinpoint gaps in transformation as costs rise, emissions pressures mount and technology shifts accelerate.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:artificial intelligence",
+        "url": "https://cfotech.asia/story/singapore-business-federation-launches-future-ready-index"
+      },
+      {
         "name": "Meta’s next big AI bet is enterprise; its biggest hurdle may",
         "provider": "NewsData.io",
         "type": "AI 项目/工具",
@@ -7576,28 +7378,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "RocketNews | Top News Stories From Around the Globe",
         "url": "https://rocketnews.com/2026/09/child-trust-fund-firms-face-review-over-efforts-to-find-who-owns-1-5bn-worth-of-pots-5/"
-      },
-      {
-        "name": "VC funding news: EUCLYD, Agilis Air, Temporal",
-        "provider": "InfotechLead",
-        "type": "AI 项目/工具",
-        "bestFor": "The latest VC funding news includes announcements from EUCLYD, Agilis Air, Temporal, Samsung, Somerset Capital Partners, and others.\n\nEUCLYD Raises Over €200 Mi",
-        "description": "The latest VC funding news includes announcements from EUCLYD, Agilis Air, Temporal, Samsung, Somerset Capital Partners, and others.\n\nEUCLYD Raises Over €200 Million to Build Energ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "InfotechLead",
-        "url": "https://infotechlead.com/tech/vc-funding-news-euclyd-agilis-air-temporal-98321"
-      },
-      {
-        "name": "How Musk's Apple lawsuit fizzled out in court",
-        "provider": "Rolling Out",
-        "type": "AI 项目/工具",
-        "bestFor": "Musk's dropped Apple lawsuit spotlights a fierce battle for AI dominance in the smartphone market.\n\nElon Musk has quietly ended one of the more closely watched ",
-        "description": "Musk's dropped Apple lawsuit spotlights a fierce battle for AI dominance in the smartphone market.\n\nElon Musk has quietly ended one of the more closely watched legal disputes in th",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Rolling Out",
-        "url": "https://rollingout.com/2026/09/15/musk-drops-apple-lawsuit/"
       }
     ],
     "ai-benchmark": [
@@ -8583,6 +8363,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-research": [
       {
+        "name": "Apple stock is rising today: here’s why",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Apple stock AAPL gained 2% on Wednesday after Counterpoint Research estimated that the company could sell 6 million units of its upcoming iPhone Duo this year, ",
+        "description": "Apple stock AAPL gained 2% on Wednesday after Counterpoint Research estimated that the company could sell 6 million units of its upcoming iPhone Duo this year, while UBS said wait ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:artificial intelligence",
+        "url": "https://etf-alerts.com/2026/10/01/apple-stock-is-rising-today-heres-why/"
+      },
+      {
         "name": "Ranking-Aware Prompt Optimization for Multimodal Clinical Di",
         "provider": "arXiv",
         "type": "AI 项目/工具",
@@ -9010,17 +8801,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2609.16937v1"
-      },
-      {
-        "name": "New Conditions for Philosophers to Catch the Wave of Citizen",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Powerful technologies labeled ``AI''-without sufficient epistemic caution-are already reshaping political and private life, bringing both new dangers and new op",
-        "description": "Powerful technologies labeled ``AI''-without sufficient epistemic caution-are already reshaping political and private life, bringing both new dangers and new opportunities for citi",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2609.15707v1"
       }
     ],
     "ai-office": []
@@ -10429,7 +10209,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-10-01",
-    "generatedAt": "2026-10-01T08:06:41.517092Z",
+    "generatedAt": "2026-10-01T12:51:52.757814Z",
     "total": 30,
     "sections": [
       {
