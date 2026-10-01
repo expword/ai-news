@@ -1,7 +1,34 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-10-01",
-  "generatedAt": "2026-10-01T05:45:22.574763Z",
+  "generatedAt": "2026-10-01T08:06:41.539090Z",
   "news": [
+    {
+      "title": "Oct 1, 2026 Announcements Barclays scales Claude to upgrade operations and improve client experience",
+      "summary": "Oct 1, 2026 Announcements Barclays scales Claude to upgrade operations and improve client experience",
+      "category": "ai-models",
+      "source": "HTML · Anthropic",
+      "date": "2026-10-01",
+      "publishedAt": "",
+      "collectedAt": "2026-10-01T16:06",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-01",
+      "tags": [],
+      "url": "https://www.anthropic.com/news/barclays-scales-claude",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Gemini 4 Argon: our next era of frontier intelligence",
       "summary": "",
@@ -2701,33 +2728,6 @@ window.AI_GENERATED_DATA = {
       "sourceDate": "2026-09-27",
       "tags": [],
       "url": "http://arxiv.org/abs/2609.34033v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Claude 完成 N=4 超对称 Yang-Mills 九圈振幅计算，物理学家 Matt von Hippel 复盘挑战始末",
-      "summary": "物理学家 Matt von Hippel 发文复盘：Anthropic 的 Liam Fitzpatrick 和 Siddharth Mishra-Sharma 用 Claude Science（Fable 5.1）以约一两千美元预算完成平面 N=4 超对称 Yang-Mills 六粒子九圈振幅计算。",
-      "category": "ai-models",
-      "source": "Anthropic：Research（发表成果 · 网页）",
-      "date": "2026-09-26",
-      "publishedAt": "2026-09-26T01:59",
-      "collectedAt": "2026-09-26T03:11",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -10429,7 +10429,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-10-01",
-    "generatedAt": "2026-10-01T05:45:22.554986Z",
+    "generatedAt": "2026-10-01T08:06:41.517092Z",
     "total": 30,
     "sections": [
       {
@@ -10576,6 +10576,17 @@ window.AI_GENERATED_DATA = {
         "label": "模型发布",
         "items": [
           {
+            "title": "Oct 1, 2026 Announcements Barclays scales Claude to upgrade operations and improve client experience",
+            "summary": "Oct 1, 2026 Announcements Barclays scales Claude to upgrade operations and improve client experience",
+            "source": "HTML · Anthropic",
+            "url": "https://www.anthropic.com/news/barclays-scales-claude",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-01",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
             "title": "Gemini 4 Argon: our next era of frontier intelligence",
             "summary": "",
             "source": "RSS · Google DeepMind",
@@ -10694,17 +10705,6 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-09-30",
             "publishedAt": "2026-09-30T09:13",
-            "reason": ""
-          },
-          {
-            "title": "Prompt engineering fundamentals for Amazon Quick",
-            "summary": "Prompt engineering in Amazon Quick shapes how accurately its AI-powered features respond to your requests. Part 1 of a two-part series cover",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/prompt-engineering-fundamentals-for-amazon-quick/",
-            "score": 70,
-            "sourceCount": 2,
-            "date": "2026-09-30",
-            "publishedAt": "2026-09-30T00:27",
             "reason": ""
           }
         ]
