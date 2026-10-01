@@ -1,7 +1,35 @@
 {
   "lastUpdated": "2026-10-02",
-  "generatedAt": "2026-10-01T19:59:34.205603Z",
+  "generatedAt": "2026-10-01T22:19:44.822855Z",
   "news": [
+    {
+      "title": "Scaling cloud migrations with agentic AI on Amazon Bedrock AgentCore",
+      "summary": "Learn how AWS Professional Services uses a multi-agent framework built on Amazon Bedrock AgentCore to automate enterprise cloud migrations end to end. Purpose-built AI agents handl",
+      "category": "ai-coding",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-10-02",
+      "publishedAt": "2026-10-02T06:06",
+      "collectedAt": "2026-10-02T06:19",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/scaling-cloud-migrations-with-agentic-ai-on-amazon-bedrock-agentcore/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Serve live, governed data in AI-built apps with Amazon Quick",
       "summary": "With Live Data in Apps in Amazon Quick, AI-built apps query your governed Quick Sight datasets in real time instead of static, build-time snapshots. Each query runs as the person v",
@@ -179,6 +207,34 @@
       "sourceDate": "",
       "tags": [],
       "url": "https://openai.com/index/albertsons-reimagining-retail",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
+      "summary": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
+      "category": "ai-models",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-10-01",
+      "publishedAt": "2026-10-01T08:00",
+      "collectedAt": "2026-10-02T06:19",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/the-den-family-social",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -2657,61 +2713,6 @@
       "aiSelected": true,
       "moduleTargets": [
         "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Automating Amazon Textract adapter lifecycle management across accounts",
-      "summary": "Learn how to operationalize Amazon Textract Custom Queries adapters for production: infrastructure as code with AWS CloudFormation and Terraform, a cross-account adapter promotion ",
-      "category": "ai-coding",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-09-28",
-      "publishedAt": "2026-09-28T23:49",
-      "collectedAt": "2026-09-29T00:45",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/automating-amazon-textract-adapter-lifecycle-management-across-accounts/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Implementing synthetic monitoring using Amazon Nova Act",
-      "summary": "Learn an agent-driven approach to synthetic monitoring using Amazon Nova Act and Amazon Bedrock AgentCore. The post covers the architecture and patterns for resilient, managed user",
-      "category": "ai-agents",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-09-28",
-      "publishedAt": "2026-09-28T23:56",
-      "collectedAt": "2026-09-29T00:45",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/implementing-synthetic-monitoring-using-amazon-nova-act/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
       ],
       "sourceCount": 1
     }
@@ -6248,6 +6249,39 @@
     ],
     "ai-agents": [
       {
+        "name": "Scaling cloud migrations with agentic AI on Amazon Bedrock A",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Learn how AWS Professional Services uses a multi-agent framework built on Amazon Bedrock AgentCore to automate enterprise cloud migrations end to end. Purpose-b",
+        "description": "Learn how AWS Professional Services uses a multi-agent framework built on Amazon Bedrock AgentCore to automate enterprise cloud migrations end to end. Purpose-built AI agents handl",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/scaling-cloud-migrations-with-agentic-ai-on-amazon-bedrock-agentcore/"
+      },
+      {
+        "name": "Modal 发布 VM Sandboxes、Modal Clusters 等多项 Runtime 产品更新",
+        "provider": "Modal 官方工程博客（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "Modal 在其首届 Runtime 大会上发布多项产品更新。VM Sandboxes 为 Agent 提供完整 Linux 环境，已在 Linear、Legora。",
+        "description": "Modal 在其首届 Runtime 大会上发布多项产品更新。VM Sandboxes 为 Agent 提供完整 Linux 环境，已在 Linear、Legora。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Modal 官方工程博客（RSS）",
+        "url": "https://modal.com/blog/runtime-product-update-sandbox-endpoints"
+      },
+      {
+        "name": "Modal 正式发布 VM Sandboxes：给 Agent 一台完整的 Linux 虚拟机",
+        "provider": "Modal 官方工程博客（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "Modal 宣布 VM Sandboxes 正式 GA，只需设置 runtime=\"vm\" 即可获得支持 Docker、FUSE 和内核功能的完整 Linux VM，沿用原有 Sandbox 的 API、modal.Image、亚秒级冷启动和内存爆发能力，早期客户已启动超过 2000 万个 VM。",
+        "description": "Modal 宣布 VM Sandboxes 正式 GA，只需设置 runtime=\"vm\" 即可获得支持 Docker、FUSE 和内核功能的完整 Linux VM，沿用原有 Sandbox 的 API、modal.Image、亚秒级冷启动和内存爆发能力，早期客户已启动超过 2000 万个 VM。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Modal 官方工程博客（RSS）",
+        "url": "https://modal.com/blog/vm-sandboxes-agent-computers"
+      },
+      {
         "name": "MiMo-V2.6-Pro 和 MiMo-V2.6-Flash 登陆 Agent Arena，分列开源模型第5和第9",
         "provider": "X：Arena (@arena)",
         "type": "AI 项目/工具",
@@ -6653,42 +6687,20 @@
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:AI agent",
         "url": "https://www.uploadvr.com/meta-smart-glasses-getting-muse-ai-agent/"
-      },
-      {
-        "name": "OpenAI apologises for Australian government website hack, pl",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "(Corrects typographical error in headline)SYDNEY, Sept 29 : OpenAI apologised for the hacking of an Australian government website by a rogue AI agent, committin",
-        "description": "(Corrects typographical error in headline)SYDNEY, Sept 29 : OpenAI apologised for the hacking of an Australian government website by a rogue AI agent, committing funding to improve",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.channelnewsasia.com/business/openai-apologises-australian-government-website-hack-pledges-rebuild-trust-6417116"
-      },
-      {
-        "name": "MongoDB, Kodiak Sciences, Navitas Semiconductor, Boeing and ",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Major U.S. indices closed lower on Monday, with the Dow Jones Industrial Average falling 0.67% to 51,481.51.",
-        "description": "Major U.S. indices closed lower on Monday, with the Dow Jones Industrial Average falling 0.67% to 51,481.51.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.benzinga.com/markets/equities/26/09/62038042/mongodb-kodiak-sciences-navitas-semiconductor-boeing-and-nvidia-why-these-5-stocks-are-on-investors-radars-today"
-      },
-      {
-        "name": "Nvidia unveils platform to prevent AI agents from going rogu",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "New platform traces AI agents' actions and quarantines them if they attempt to move outside their boundaries",
-        "description": "New platform traces AI agents' actions and quarantines them if they attempt to move outside their boundaries",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.hcamag.com/asia/news/general/nvidia-unveils-platform-to-prevent-ai-agents-from-going-rogue/591510"
       }
     ],
     "ai-models": [
+      {
+        "name": "The Den frees up 10-15 hours a week to grow with ChatGPT Wor",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
+        "description": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · OpenAI Blog",
+        "url": "https://openai.com/index/the-den-family-social"
+      },
       {
         "name": "Serve live, governed data in AI-built apps with Amazon Quick",
         "provider": "RSS",
@@ -7117,17 +7129,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:Google Gemini",
         "url": "https://www.firstpost.com/tech/sam-altman-dario-amodei-to-address-un-today-after-trump-rejects-global-ai-rules-14047733.html"
-      },
-      {
-        "name": "With new Macs, Apple aims to take on Microsoft, Nvidia in a ",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "SAN FRANCISCO: When Apple’s new desktop computers start shipping Tuesday, the ​company’s executives will make an unusual pitch to corporate buyers: They are che",
-        "description": "SAN FRANCISCO: When Apple’s new desktop computers start shipping Tuesday, the ​company’s executives will make an unusual pitch to corporate buyers: They are cheaper than renting da",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:Google Gemini",
-        "url": "https://www.brecorder.com/news/40440813/with-new-macs-apple-aims-to-take-on-microsoft-nvidia-in-a-rush-to-lower-ai-costs"
       }
     ],
     "ai-business": [
@@ -10401,13 +10402,24 @@
   ],
   "dailyReport": {
     "date": "2026-10-02",
-    "generatedAt": "2026-10-01T19:59:34.184600Z",
-    "total": 16,
+    "generatedAt": "2026-10-01T22:19:44.796855Z",
+    "total": 18,
     "sections": [
       {
         "category": "ai-coding",
         "label": "AI 编程",
         "items": [
+          {
+            "title": "Scaling cloud migrations with agentic AI on Amazon Bedrock AgentCore",
+            "summary": "Learn how AWS Professional Services uses a multi-agent framework built on Amazon Bedrock AgentCore to automate enterprise cloud migrations e",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/scaling-cloud-migrations-with-agentic-ai-on-amazon-bedrock-agentcore/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-02",
+            "publishedAt": "2026-10-02T06:06",
+            "reason": ""
+          },
           {
             "title": "Claude Code mods 入门教程：从零构建 Token Weather 上下文窗口预报插件",
             "summary": "这篇 Claude Code 官方开发者教程介绍 mods，即以 hooks 形式运行在插件内的 JavaScript 或 TypeScript 模块，可以观察、重写或拒绝事件，甚至绘制自定义 UI，需 Claude Code 2.1.287 或更高版本。",
@@ -10506,6 +10518,17 @@
             "sourceCount": 1,
             "date": "2026-10-02",
             "publishedAt": "2026-10-02T00:00",
+            "reason": ""
+          },
+          {
+            "title": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
+            "summary": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/the-den-family-social",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-01",
+            "publishedAt": "2026-10-01T08:00",
             "reason": ""
           },
           {
