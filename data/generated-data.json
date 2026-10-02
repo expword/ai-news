@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-10-03",
-  "generatedAt": "2026-10-02T17:27:33.452707Z",
+  "generatedAt": "2026-10-02T19:47:08.379465Z",
   "news": [
     {
       "title": "Chatham scales its capital markets expertise with OpenAI",
@@ -6237,6 +6237,17 @@
     ],
     "ai-agents": [
       {
+        "name": "Epoch AI 估算 2025–27 年 HBM 可支撑 3000 万至 1.7 亿并发前沿模型智能体",
+        "provider": "Epoch AI：研究、数据与评测",
+        "type": "AI 项目/工具",
+        "bestFor": "Epoch AI 发布研究，估算 2025–27 年出货的 HBM 硬件全面部署后可运行约 30–170 百万并发前沿模型智能体，相当于每周约 1.4–7.2 亿全职员工的工作时长。",
+        "description": "Epoch AI 发布研究，估算 2025–27 年出货的 HBM 硬件全面部署后可运行约 30–170 百万并发前沿模型智能体，相当于每周约 1.4–7.2 亿全职员工的工作时长。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Epoch AI：研究、数据与评测",
+        "url": "https://epoch.ai/publications/estimating-the-agent-population"
+      },
+      {
         "name": "Add secure Web Search to Claude Desktop with Amazon Bedrock ",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -6664,17 +6675,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2609.40296v1"
-      },
-      {
-        "name": "SCLATE: A Substrate for Continual-Learning Agent Training an",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Continual-learning agents are systems of models, harnesses, and memory operating over long multi-session horizons. Evaluating and training them requires interle",
-        "description": "Continual-learning agents are systems of models, harnesses, and memory operating over long multi-session horizons. Evaluating and training them requires interleaving tasks with age",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · Apple ML Research",
-        "url": "https://machinelearning.apple.com/research/sclate-agent-training-evaluation"
       }
     ],
     "ai-models": [
@@ -10390,7 +10390,7 @@
   ],
   "dailyReport": {
     "date": "2026-10-03",
-    "generatedAt": "2026-10-02T17:27:33.433074Z",
+    "generatedAt": "2026-10-02T19:47:08.350489Z",
     "total": 17,
     "sections": [
       {
