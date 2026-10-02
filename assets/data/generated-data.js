@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-10-02",
-  "generatedAt": "2026-10-02T12:34:56.901727Z",
+  "generatedAt": "2026-10-02T15:00:49.510138Z",
   "news": [
     {
       "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
@@ -2468,34 +2468,6 @@ window.AI_GENERATED_DATA = {
       "sourceDate": "",
       "tags": [],
       "url": "https://aws.amazon.com/blogs/machine-learning/how-conde-nast-built-multimodal-video-discovery-with-amazon-bedrock/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
-      "summary": "",
-      "category": "ai-agents",
-      "source": "RSS · Hugging Face Blog",
-      "date": "2026-09-29",
-      "publishedAt": "2026-09-29T21:07",
-      "collectedAt": "2026-09-30T00:13",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -6045,6 +6017,116 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "Dataiku launches cross-platform AI agent management tool",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "It aims to close a governance gap as firms struggle to track AI agents across multiple cloud and software platforms and assess their risks.",
+        "description": "It aims to close a governance gap as firms struggle to track AI agents across multiple cloud and software platforms and assess their risks.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://itbrief.in/story/dataiku-launches-cross-platform-ai-agent-management-tool"
+      },
+      {
+        "name": "Dataiku launches cross-platform AI agent management tool",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "It aims to close a governance gap as firms struggle to track AI agents across multiple cloud and software platforms and assess their risks.",
+        "description": "It aims to close a governance gap as firms struggle to track AI agents across multiple cloud and software platforms and assess their risks.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://cfotech.asia/story/dataiku-launches-cross-platform-ai-agent-management-tool"
+      },
+      {
+        "name": "Dataiku launches cross-platform AI agent management tool",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "It aims to close a governance gap as firms struggle to track AI agents across multiple cloud and software platforms and assess their risks.",
+        "description": "It aims to close a governance gap as firms struggle to track AI agents across multiple cloud and software platforms and assess their risks.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://itbrief.asia/story/dataiku-launches-cross-platform-ai-agent-management-tool"
+      },
+      {
+        "name": "Dataiku launches cross-platform AI agent management tool",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "It aims to close a governance gap as firms struggle to track AI agents across multiple cloud and software platforms and assess their risks.",
+        "description": "It aims to close a governance gap as firms struggle to track AI agents across multiple cloud and software platforms and assess their risks.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://itbrief.co.nz/story/dataiku-launches-cross-platform-ai-agent-management-tool"
+      },
+      {
+        "name": "Dataiku launches cross-platform AI agent management tool",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "It aims to close a governance gap as firms struggle to track AI agents across multiple cloud and software platforms and assess their risks.",
+        "description": "It aims to close a governance gap as firms struggle to track AI agents across multiple cloud and software platforms and assess their risks.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://cfotech.com.au/story/dataiku-launches-cross-platform-ai-agent-management-tool"
+      },
+      {
+        "name": "Dataiku launches cross-platform AI agent management tool",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "It aims to close a governance gap as firms struggle to track AI agents across multiple cloud and software platforms and assess their risks.",
+        "description": "It aims to close a governance gap as firms struggle to track AI agents across multiple cloud and software platforms and assess their risks.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://cfotech.co.nz/story/dataiku-launches-cross-platform-ai-agent-management-tool"
+      },
+      {
+        "name": "Microsoft targets ultra-realistic voice agents with its firs",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Microsoft Corp. has expanded its MAI artificial intelligence model family with its first streaming transcription model, debuting alongside two others focused on",
+        "description": "Microsoft Corp. has expanded its MAI artificial intelligence model family with its first streaming transcription model, debuting alongside two others focused on text-to-speech. The",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://siliconangle.com/2026/10/01/microsoft-targets-ultra-realistic-voice-agents-with-its-first-streaming-transcription-model/"
+      },
+      {
+        "name": "Can agentic AI make credit proactive, precise and more inclu",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Lending has traditionally followed a sequential process: sense, analyse, decide and act. Each step depends heavily on human intervention, with analysts collecti",
+        "description": "Lending has traditionally followed a sequential process: sense, analyse, decide and act. Each step depends heavily on human intervention, with analysts collecting information, inte",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.expresscomputer.in/interviews/can-agentic-ai-make-credit-proactive-precise-and-more-inclusive/139390/"
+      },
+      {
+        "name": "Dataiku launches cross-platform AI agent management tool",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "It aims to close a governance gap as firms struggle to track AI agents across multiple cloud and software platforms and assess their risks.",
+        "description": "It aims to close a governance gap as firms struggle to track AI agents across multiple cloud and software platforms and assess their risks.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://cfotech.in/story/dataiku-launches-cross-platform-ai-agent-management-tool"
+      },
+      {
+        "name": "OpenAI launches ChatGPT Space for team collaboration",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Teams can now share projects and documents in ChatGPT, as OpenAI pushes the service deeper into everyday office workflows.",
+        "description": "Teams can now share projects and documents in ChatGPT, as OpenAI pushes the service deeper into everyday office workflows.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://itbrief.in/story/openai-launches-chatgpt-space-for-team-collaboration"
+      },
+      {
         "name": "AutoSynthData: Generating Training Data for Enterprise Agent",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -6373,116 +6455,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · 雷峰网",
         "url": "https://www.leiphone.com/category/yanxishe/7bPyLlZDfncTOw5B.html"
-      },
-      {
-        "name": "ElevenLabs 完成 3 亿美元员工股份回购，估值升至 220 亿美元",
-        "provider": "ElevenLabs：Blog（网页）",
-        "type": "AI 项目/工具",
-        "bestFor": "ElevenLabs 完成 3 亿美元员工 tender offer，估值达 220 亿美元，是 2026 年 2 月 Series D 估值的两倍，由 Wellington 和 T. Rowe Price 领投。企业业务占收入 55%，ElevenAgents 每周处理超 1500 万次对话，ARR 自 2 月以来增",
-        "description": "ElevenLabs 完成 3 亿美元员工 tender offer，估值达 220 亿美元，是 2026 年 2 月 Series D 估值的两倍，由 Wellington 和 T. Rowe Price 领投。企业业务占收入 55%，ElevenAgents 每周处理超 1500 万次对话，ARR 自 2 月以来增长超 3 倍，客户语音智能体解决问题平均",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "ElevenLabs：Blog（网页）",
-        "url": "https://elevenlabs.io/blog/tender-22bn"
-      },
-      {
-        "name": "Build a multi-agent music production pipeline on Amazon Bedr",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Amazon Bedrock AgentCore Runtime Instances gives multi-agent workflows AWS managed EC2 infrastructure with GPUs, persistent volumes, and multi-day sessions. In ",
-        "description": "Amazon Bedrock AgentCore Runtime Instances gives multi-agent workflows AWS managed EC2 infrastructure with GPUs, persistent volumes, and multi-day sessions. In this post, we deploy",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/build-a-multi-agent-music-production-pipeline-on-amazon-bedrock-agentcore-runtime-instances/"
-      },
-      {
-        "name": "Arena 开放限时测试 Claude Sonnet 5.5，Direct Mode 可用 48 小时",
-        "provider": "X：Arena (@arena)",
-        "type": "AI 项目/工具",
-        "bestFor": "Arena 宣布在 Direct Mode 限时开放 Anthropic 的 Claude Sonnet 5.5（High），截止 10 月 2 日上午 8 点（太平洋时间），之后仍可在 Battle 和 Agent Mode 使用。引用内容称 Claude Sonnet 5.5 是 Claude 5.5 系列第二款模",
-        "description": "Arena 宣布在 Direct Mode 限时开放 Anthropic 的 Claude Sonnet 5.5（High），截止 10 月 2 日上午 8 点（太平洋时间），之后仍可在 Battle 和 Agent Mode 使用。引用内容称 Claude Sonnet 5.5 是 Claude 5.5 系列第二款模型，比 Sonnet 5 快 30% 以",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "X：Arena (@arena)",
-        "url": "https://x.com/arena/status/2105311267619848419"
-      },
-      {
-        "name": "NYC Council to Hear AI Giants on Agent Risks in First Oath‑B",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenAI, Anthropic, Google and Meta will appear under oath before New York City Council on Oct. 5 to address concerns over autonomous AI agents accessing real‑wo",
-        "description": "OpenAI, Anthropic, Google and Meta will appear under oath before New York City Council on Oct. 5 to address concerns over autonomous AI agents accessing real‑world systems.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:Claude AI",
-        "url": "https://kenya-today.com/report-nyc-council-to-hear-ai-giants-on-agent-risks-in-first-oathbound-testimony-4718/"
-      },
-      {
-        "name": "Artificial Analysis 开源 AA-AgentPerf-Local，测试笔记本与工作站上本地 AI 智能",
-        "provider": "Artificial Analysis 完整文章（网页）",
-        "type": "AI 项目/工具",
-        "bestFor": "Artificial Analysis 发布开源工具 AA-AgentPerf-Local，通过重放 8 个真实智能体任务（168 轮、上下文增长至约 56K tokens）测试本地推理性能，并上线笔记本与工作站排行榜。",
-        "description": "Artificial Analysis 发布开源工具 AA-AgentPerf-Local，通过重放 8 个真实智能体任务（168 轮、上下文增长至约 56K tokens）测试本地推理性能，并上线笔记本与工作站排行榜。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Artificial Analysis 完整文章（网页）",
-        "url": "https://artificialanalysis.ai/articles/aa-agentperf-local"
-      },
-      {
-        "name": "Do LLM Agents Execute the Plans They Declare? From Planning-",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Large language models (LLMs) enable agents to solve long-horizon tasks by generating a plan and then executing it in an environment. However, successful plannin",
-        "description": "Large language models (LLMs) enable agents to solve long-horizon tasks by generating a plan and then executing it in an environment. However, successful planning requires two disti",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2609.38108v1"
-      },
-      {
-        "name": "OpenRouter 教程：如何测试 AI Agent 的工具调用准确性",
-        "provider": "OpenRouter：Announcements（RSS）",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenRouter 发布教程，讲解如何测试 AI Agent 的工具调用准确性，将失败拆分为工具选择错误和参数错误两类分别测试。",
-        "description": "OpenRouter 发布教程，讲解如何测试 AI Agent 的工具调用准确性，将失败拆分为工具选择错误和参数错误两类分别测试。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "OpenRouter：Announcements（RSS）",
-        "url": "https://openrouter.ai/blog/tutorials/how-to-test-tool-calling-accuracy-in-ai-agents/"
-      },
-      {
-        "name": "OpenRouter 教程：提示词或模型变更后如何对 AI Agent 做回归测试",
-        "provider": "OpenRouter：Announcements（RSS）",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenRouter 发布 AI Agent 回归测试教程：每次提示词、模型、工具定义或检索设置变更后，重跑锁定的用例集并对照书面行为契约检查。",
-        "description": "OpenRouter 发布 AI Agent 回归测试教程：每次提示词、模型、工具定义或检索设置变更后，重跑锁定的用例集并对照书面行为契约检查。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "OpenRouter：Announcements（RSS）",
-        "url": "https://openrouter.ai/blog/tutorials/ai-agent-regression-testing-after-a-prompt-or-model-change/"
-      },
-      {
-        "name": "Sarvam AI 发布从第一性原理构建 AI 智能体的入门指南",
-        "provider": "Sarvam AI（网页）",
-        "type": "AI 项目/工具",
-        "bestFor": "Sarvam AI 发布 25 分钟长的智能体构建指南，核心观点是智能体就是在循环中运行、能调用工具的语言模型，而技能、记忆和领域知识本质上都是在合适时机把合适文本放进上下文窗口。指南围绕在线商店客服智能体 ShopBot 逐步展开，覆盖系统提示词、工具设计、渐进式披露的技能、短期与长期记忆、RAG 检索、智能体拆分原",
-        "description": "Sarvam AI 发布 25 分钟长的智能体构建指南，核心观点是智能体就是在循环中运行、能调用工具的语言模型，而技能、记忆和领域知识本质上都是在合适时机把合适文本放进上下文窗口。指南围绕在线商店客服智能体 ShopBot 逐步展开，覆盖系统提示词、工具设计、渐进式披露的技能、短期与长期记忆、RAG 检索、智能体拆分原则，并以完整端到端示例、常见错误清单和构",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Sarvam AI（网页）",
-        "url": "https://www.sarvam.ai/blogs/building-ai-agents"
-      },
-      {
-        "name": "OpenAI DevDay 2026 发布 Dots、GPT-6.1 Sol、500美元订阅等一揽子更新",
-        "provider": "公众号：数字生命卡兹克",
-        "type": "AI 项目/工具",
-        "bestFor": "作者总结OpenAI DevDay 2026的发布：个人Agent产品Dots向ChatGPT Pro、Business Premium和Enterprise用户推出，支持4000多个应用协作；新模型GPT-6.1 Sol以约Astra七分之一的任务成本上线；推出500美元订阅并将200美元Pro额度倍数从20x砍到1",
-        "description": "作者总结OpenAI DevDay 2026的发布：个人Agent产品Dots向ChatGPT Pro、Business Premium和Enterprise用户推出，支持4000多个应用协作；新模型GPT-6.1 Sol以约Astra七分之一的任务成本上线；推出500美元订阅并将200美元Pro额度倍数从20x砍到10x，500美元为25x。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "公众号：数字生命卡兹克",
-        "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647686841&idx=1&sn=630c0dc22de47c9c2f58bd5253a91a9a&chksm=f1e33576f80f214c7290b1545cc8bfbb32ac24c3144cd141b7c2dd7cdaaf71f44d3cf319db8b&scene=126&sessionid=1790722837#rd"
       }
     ],
     "ai-models": [
@@ -6929,6 +6901,28 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-business": [
       {
+        "name": "Demand Grows For AI Search Optimization For Small Businesses",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "As demand grows for AI search optimization for small businesses. Local marketing firm reports that AI assistants name two or three businesses per query, leaving",
+        "description": "As demand grows for AI search optimization for small businesses. Local marketing firm reports that AI assistants name two or three businesses per query, leaving the rest of it's se",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Claude AI",
+        "url": "https://www.openpr.com/news/4650406/demand-grows-for-ai-search-optimization-for-small-businesses"
+      },
+      {
+        "name": "Demand Grows For AI Search Optimization For Small Businesses",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "",
+        "description": "",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Claude AI",
+        "url": "https://www.appeal-democrat.com/online_features/press_releases/demand-grows-for-ai-search-optimization-for-small-businesses-in-ohio-as-owners-find-they/article_b817ec44-6e37-5b6f-bb43-5ea0e2f31a5b.html"
+      },
+      {
         "name": "Singapore Business Federation launches future-ready index",
         "provider": "NewsData.io",
         "type": "AI 项目/工具",
@@ -7345,28 +7339,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "International Business Times, Singapore Edition",
         "url": "https://www.ibtimes.sg/what-siri-ai-heres-what-apples-new-siri-can-actually-do-93843"
-      },
-      {
-        "name": "Texas Lt. Gov. Features 3 Texas Universities in AI Ad",
-        "provider": "Inside Higher Ed | Higher Education News, Events and Jobs",
-        "type": "AI 项目/工具",
-        "bestFor": "Patrick presides over the state senate and has significant sway over institutions' funding.\n\nTexas Lt. Gov. Dan Patrick released a political ad earlier this mon",
-        "description": "Patrick presides over the state senate and has significant sway over institutions' funding.\n\nTexas Lt. Gov. Dan Patrick released a political ad earlier this month that appears to h",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Inside Higher Ed | Higher Education News, Events and Jobs",
-        "url": "https://www.insidehighered.com/news/quick-takes/2026/09/16/texas-lt-gov-features-3-texas-universities-ai-ad"
-      },
-      {
-        "name": "Child trust fund firms face review over efforts to find who ",
-        "provider": "RocketNews | Top News Stories From Around the Globe",
-        "type": "AI 项目/工具",
-        "bestFor": "The Financial Conduct Authority has initiated a market review of child trust fund providers, citing concerns over significant sums remaining unclaimed. Approxim",
-        "description": "The Financial Conduct Authority has initiated a market review of child trust fund providers, citing concerns over significant sums remaining unclaimed. Approximately 760,000 accoun",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RocketNews | Top News Stories From Around the Globe",
-        "url": "https://rocketnews.com/2026/09/child-trust-fund-firms-face-review-over-efforts-to-find-who-owns-1-5bn-worth-of-pots-5/"
       }
     ],
     "ai-benchmark": [
@@ -10198,7 +10170,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-10-02",
-    "generatedAt": "2026-10-02T12:34:56.881727Z",
+    "generatedAt": "2026-10-02T15:00:49.488600Z",
     "total": 32,
     "sections": [
       {
