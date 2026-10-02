@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-10-02",
-  "generatedAt": "2026-10-02T04:12:52.164577Z",
+  "generatedAt": "2026-10-02T12:34:56.901727Z",
   "news": [
     {
       "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
@@ -2509,205 +2509,6 @@ window.AI_GENERATED_DATA = {
       "moduleTargets": [
         "news",
         "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "The Communication Bottleneck: A Round-Trip Study of Tree-Structured Expression Serialization in Language Models",
-      "summary": "When language models reason in chain-of-thought or exchange free-text intermediates, they serialize structured information into natural language. How much tree-structured compositi",
-      "category": "ai-models",
-      "source": "RSS · Apple ML Research",
-      "date": "2026-09-29",
-      "publishedAt": "2026-09-29T08:00",
-      "collectedAt": "2026-09-30T00:13",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://machinelearning.apple.com/research/communication-bottleneck-serialization",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Introducing Quine: An AI research system designed for the complexity of biology",
-      "summary": "Biology doesn't operate in silos, and neither should the AI representation of it. Quine is an early-stage research effort to create a multimodal world model of biology. By connecti",
-      "category": "ai-research",
-      "source": "RSS · Microsoft Research",
-      "date": "2026-09-29",
-      "publishedAt": "2026-09-29T22:00",
-      "collectedAt": "2026-09-29T22:57",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://www.microsoft.com/en-us/research/blog/introducing-quine-an-ai-research-system-designed-for-the-complexity-of-biology/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Towards safety cases for frontier AI training",
-      "summary": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
-      "category": "ai-models",
-      "source": "RSS · OpenAI Blog",
-      "date": "2026-09-29",
-      "publishedAt": "2026-09-29T03:00",
-      "collectedAt": "2026-09-29T15:17",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Grok 4.7 is now available on Amazon Bedrock",
-      "summary": "xAI's Grok 4.7 is now available on Amazon Bedrock: a frontier model for coding, long-running agents, and knowledge work. It offers a 500K token context window and four configurable",
-      "category": "ai-coding",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-09-29",
-      "publishedAt": "2026-09-29T06:13",
-      "collectedAt": "2026-09-29T06:36",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/grok-4-7-is-now-available-on-amazon-bedrock/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "One year in: How Microsoft Research Asia – Singapore is advancing research, partnership and talent for real-world impact",
-      "summary": "Since launching a year ago, the Microsoft Research Asia — Singapore lab has established a strong foundation, deepened collaboration across government, academia, and industry, and e",
-      "category": "ai-research",
-      "source": "RSS · Microsoft Research",
-      "date": "2026-09-29",
-      "publishedAt": "2026-09-29T05:00",
-      "collectedAt": "2026-09-29T05:26",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://www.microsoft.com/en-us/research/blog/one-year-in-how-microsoft-research-asia-singapore-is-advancing-research-partnership-and-talent-for-real-world-impact/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Introducing Claude Sonnet 5.5 on AWS",
-      "summary": "Claude Sonnet 5.5 is now available on Amazon Bedrock and Claude Platform on AWS. It's a smarter, more efficient Sonnet model for focused coding and knowledge work, with a lower cos",
-      "category": "ai-coding",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-09-29",
-      "publishedAt": "2026-09-29T02:57",
-      "collectedAt": "2026-09-29T04:17",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-sonnet-5-5-on-aws/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 2,
-      "relatedSources": [
-        {
-          "source": "RSS · AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/implementing-multi-environment-access-for-claude-platform-on-aws/",
-          "title": "Implementing Multi-Environment Access for Claude Platform on AWS"
-        }
-      ]
-    },
-    {
-      "title": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
-      "summary": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
-      "category": "ai-models",
-      "source": "RSS · Google AI Blog",
-      "date": "2026-09-29",
-      "publishedAt": "2026-09-29T03:00",
-      "collectedAt": "2026-09-29T04:17",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
       ],
       "sourceCount": 1
     }
@@ -6686,6 +6487,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-models": [
       {
+        "name": "Daily 'AI for Work' Pulse: 2nd of October",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Big Friday update! 14 new AI tools and 115 AI news articles just landed. This packed edition's a can't-miss drop-wrap up your week strong with the standouts.",
+        "description": "Big Friday update! 14 new AI tools and 115 AI news articles just landed. This packed edition's a can't-miss drop-wrap up your week strong with the standouts.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:large language model",
+        "url": "https://completeaitraining.com/newsletter/daily-ai-for-work-pulse-2nd-of-october/"
+      },
+      {
         "name": "The Den frees up 10-15 hours a week to grow with ChatGPT Wor",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -7113,17 +6925,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "METR：Blog（网页）",
         "url": "https://metr.org/blog/2026-09-22-claude-opus-5-5"
-      },
-      {
-        "name": "Sam Altman, Dario Amodei to address UN today after Trump rej",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenAI CEO Sam Altman and Anthropic’ CEO Dario Amodei are due to address the UN Security Council as governments grapple with how to manage increasingly capable ",
-        "description": "OpenAI CEO Sam Altman and Anthropic’ CEO Dario Amodei are due to address the UN Security Council as governments grapple with how to manage increasingly capable AI. Their appearance",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:Google Gemini",
-        "url": "https://www.firstpost.com/tech/sam-altman-dario-amodei-to-address-un-today-after-trump-rejects-global-ai-rules-14047733.html"
       }
     ],
     "ai-business": [
@@ -10397,7 +10198,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-10-02",
-    "generatedAt": "2026-10-02T04:12:52.134934Z",
+    "generatedAt": "2026-10-02T12:34:56.881727Z",
     "total": 32,
     "sections": [
       {
