@@ -1,7 +1,227 @@
 {
-  "lastUpdated": "2026-10-02",
-  "generatedAt": "2026-10-02T15:00:49.510138Z",
+  "lastUpdated": "2026-10-03",
+  "generatedAt": "2026-10-02T17:27:33.452707Z",
   "news": [
+    {
+      "title": "Chatham scales its capital markets expertise with OpenAI",
+      "summary": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
+      "category": "ai-coding",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-10-02",
+      "publishedAt": "2026-10-02T08:00",
+      "collectedAt": "2026-10-03T01:27",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/chatham-financial",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Oct 2, 2026 Announcements Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent g",
+      "summary": "Oct 2, 2026 Announcements Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap",
+      "category": "ai-models",
+      "source": "HTML · Anthropic",
+      "date": "2026-10-02",
+      "publishedAt": "",
+      "collectedAt": "2026-10-03T01:27",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-02",
+      "tags": [],
+      "url": "https://www.anthropic.com/news/claude-frontier-academy",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+      "summary": "",
+      "category": "ai-models",
+      "source": "RSS · Hugging Face Blog",
+      "date": "2026-10-02",
+      "publishedAt": "2026-10-02T23:19",
+      "collectedAt": "2026-10-03T00:16",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://huggingface.co/blog/allenai/astabrief",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Add secure Web Search to Claude Desktop with Amazon Bedrock AgentCore",
+      "summary": "Claude Desktop on Amazon Bedrock is limited to the model's knowledge cutoff without web search. In this post, we walk through connecting Claude Desktop to Web Search using Amazon B",
+      "category": "ai-agents",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-10-02",
+      "publishedAt": "2026-10-02T23:46",
+      "collectedAt": "2026-10-03T00:16",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/add-secure-web-search-to-claude-desktop-with-amazon-bedrock-agentcore/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Sweep thousands of leases for compliance using Amazon Quick and the Adjudicated Query pattern",
+      "summary": "The Adjudicated Query pattern pairs the Amazon Quick chat agent with a bounded MCP server over a deterministic rules engine to deliver provably complete, defensible compliance answ",
+      "category": "ai-agents",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-10-02",
+      "publishedAt": "2026-10-02T23:48",
+      "collectedAt": "2026-10-03T00:16",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/sweep-thousands-of-leases-for-compliance-using-amazon-quick-and-the-adjudicated-query-pattern/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Toward provably private learning from federated data",
+      "summary": "Mobile Systems",
+      "category": "ai-models",
+      "source": "RSS · Google Research",
+      "date": "2026-10-02",
+      "publishedAt": "2026-10-02T22:57",
+      "collectedAt": "2026-10-03T00:16",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://research.google/blog/toward-provably-private-learning-from-federated-data/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "The latest AI news we announced in September 2026",
+      "summary": "Here are Google’s latest AI updates from September 2026",
+      "category": "ai-models",
+      "source": "RSS · Google AI Blog",
+      "date": "2026-10-02",
+      "publishedAt": "2026-10-02T23:00",
+      "collectedAt": "2026-10-03T00:16",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Fine-tune a search agent with multi-turn RL on Amazon SageMaker AI",
+      "summary": "Fine-tuning teaches a small search agent your tools and environment, giving it the reliability of a frontier model at lower latency and cost. In this post, we fine-tune an LLM-powe",
+      "category": "ai-agents",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-10-02",
+      "publishedAt": "2026-10-02T23:44",
+      "collectedAt": "2026-10-03T00:16",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/fine-tune-a-search-agent-with-multi-turn-rl-on-amazon-sagemaker-ai/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
       "summary": "",
@@ -5400,6 +5620,21 @@
       "date": "2026-08-05"
     },
     {
+      "name": "MiniMax-AI/OpenAgentCore",
+      "lang": "Go",
+      "description": "Open-source, self-hosted implementation of the OpenAI Agents API with multiple native harnesses.",
+      "stars": "132 stars",
+      "why": "国产大模型厂商 MiniMax 的最新开源动态/模型发布，属一手信源。",
+      "url": "https://github.com/MiniMax-AI/OpenAgentCore",
+      "source": "GitHub · MiniMax",
+      "tier": "T1",
+      "category": "Coding Agent",
+      "details": "Open-source, self-hosted implementation of the OpenAI Agents API with multiple native harnesses.",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
       "name": "deepseek-ai/dsh-libreoffice-kit",
       "lang": "JavaScript",
       "description": "An internal component used by DeepSeek Harness",
@@ -5440,21 +5675,6 @@
       "tier": "T1",
       "category": "Coding Agent",
       "details": "A kernel library written in tilelang",
-      "features": [],
-      "useCases": [],
-      "quickStart": []
-    },
-    {
-      "name": "MiniMax-AI/parsar-core",
-      "lang": "Go",
-      "description": "MiniMax 开源项目。",
-      "stars": "0 stars",
-      "why": "国产大模型厂商 MiniMax 的最新开源动态/模型发布，属一手信源。",
-      "url": "https://github.com/MiniMax-AI/parsar-core",
-      "source": "GitHub · MiniMax",
-      "tier": "T1",
-      "category": "Coding Agent",
-      "details": "MiniMax 开源项目。",
       "features": [],
       "useCases": [],
       "quickStart": []
@@ -5574,6 +5794,17 @@
   ],
   "topicResources": {
     "ai-coding": [
+      {
+        "name": "Chatham scales its capital markets expertise with OpenAI",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
+        "description": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · OpenAI Blog",
+        "url": "https://openai.com/index/chatham-financial"
+      },
       {
         "name": "CARM: Cancellation-Aware Response Masking for LLM Reinforcem",
         "provider": "arXiv",
@@ -6002,20 +6233,42 @@
         "watch": "请打开原始来源核对",
         "sourceName": "gearlive.com",
         "url": "https://www.gearlive.com/news/article/meta-muse-personal-ai-agent-explained"
-      },
-      {
-        "name": "How a global fintech scaled coding agent traffic with Dedica",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Inside a global bank's shift to self-serve dedicated inference: how Together's DMI gave engineering teams direct control over scaling, models, and testing.",
-        "description": "Inside a global bank's shift to self-serve dedicated inference: how Together's DMI gave engineering teams direct control over scaling, models, and testing.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · Together AI",
-        "url": "https://www.together.ai/blog/global-fintech-scales-coding-agent-traffic-with-dedicated-model-inference"
       }
     ],
     "ai-agents": [
+      {
+        "name": "Add secure Web Search to Claude Desktop with Amazon Bedrock ",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Claude Desktop on Amazon Bedrock is limited to the model's knowledge cutoff without web search. In this post, we walk through connecting Claude Desktop to Web S",
+        "description": "Claude Desktop on Amazon Bedrock is limited to the model's knowledge cutoff without web search. In this post, we walk through connecting Claude Desktop to Web Search using Amazon B",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/add-secure-web-search-to-claude-desktop-with-amazon-bedrock-agentcore/"
+      },
+      {
+        "name": "Sweep thousands of leases for compliance using Amazon Quick ",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "The Adjudicated Query pattern pairs the Amazon Quick chat agent with a bounded MCP server over a deterministic rules engine to deliver provably complete, defens",
+        "description": "The Adjudicated Query pattern pairs the Amazon Quick chat agent with a bounded MCP server over a deterministic rules engine to deliver provably complete, defensible compliance answ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/sweep-thousands-of-leases-for-compliance-using-amazon-quick-and-the-adjudicated-query-pattern/"
+      },
+      {
+        "name": "Fine-tune a search agent with multi-turn RL on Amazon SageMa",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Fine-tuning teaches a small search agent your tools and environment, giving it the reliability of a frontier model at lower latency and cost. In this post, we f",
+        "description": "Fine-tuning teaches a small search agent your tools and environment, giving it the reliability of a frontier model at lower latency and cost. In this post, we fine-tune an LLM-powe",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/fine-tune-a-search-agent-with-multi-turn-rl-on-amazon-sagemaker-ai/"
+      },
       {
         "name": "Dataiku launches cross-platform AI agent management tool",
         "provider": "NewsData.io",
@@ -6422,39 +6675,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · Apple ML Research",
         "url": "https://machinelearning.apple.com/research/sclate-agent-training-evaluation"
-      },
-      {
-        "name": "Muse爆火，dots入场：Personal Agent开始和互联网平台抢入口",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Personal Agent，正在成为这一轮 AI 产品竞争里最热的新概念之一。 9 月 29 日，OpenAI 发布了可以长期在线的个人 Agent 产品 dots，提出“always-on agents”。更早把这个词推到台前的是 Meta 发布的个人 Agent 产品 Muse，截至 9 月下旬下载量突破 300",
-        "description": "Personal Agent，正在成为这一轮 AI 产品竞争里最热的新概念之一。 9 月 29 日，OpenAI 发布了可以长期在线的个人 Agent 产品 dots，提出“always-on agents”。更早把这个词推到台前的是 Meta 发布的个人 Agent 产品 Muse，截至 9 月下旬下载量突破 300 万，一度将 ChatGPT 从美国 A",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · 雷峰网",
-        "url": "https://www.leiphone.com/category/yanxishe/Zqcw9XvSO2Ht6FIQ.html"
-      },
-      {
-        "name": "Gemini 4 Argon (High) 登 Arena Agent Arena 第 8 名，净提升 +7.92%",
-        "provider": "X：Arena (@arena)",
-        "type": "AI 项目/工具",
-        "bestFor": "Arena 公布 Gemini 4 Argon (High) 在 Agent Arena 排名第 8，净提升分 +7.92%，每任务成本 $0.62。",
-        "description": "Arena 公布 Gemini 4 Argon (High) 在 Agent Arena 排名第 8，净提升分 +7.92%，每任务成本 $0.62。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "X：Arena (@arena)",
-        "url": "https://x.com/arena/status/2105411271525052418"
-      },
-      {
-        "name": "全网最硬核 OpenClaw 2.0 实测：从 ToC 到 ToB 的试探，Agent 网关能重塑工作流边界吗？",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "8 月 31 日，OpenClaw 2.0 正式发布（版本号： v2026.8.1 ），933 位贡献者、569 位首次贡献者、16,962 个 PR 提交。这组数字让它成为近期最受关注的开源 Agent 更新之一。（雷峰网） 在过去 230 天里，OpenClaw 曾发布 106 个版本，但在 2.0 到来前已经有近",
-        "description": "8 月 31 日，OpenClaw 2.0 正式发布（版本号： v2026.8.1 ），933 位贡献者、569 位首次贡献者、16,962 个 PR 提交。这组数字让它成为近期最受关注的开源 Agent 更新之一。（雷峰网） 在过去 230 天里，OpenClaw 曾发布 106 个版本，但在 2.0 到来前已经有近 7 周没有更新了。因此，这一次 Ope",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · 雷峰网",
-        "url": "https://www.leiphone.com/category/yanxishe/7bPyLlZDfncTOw5B.html"
       }
     ],
     "ai-models": [
@@ -10169,14 +10389,25 @@
     }
   ],
   "dailyReport": {
-    "date": "2026-10-02",
-    "generatedAt": "2026-10-02T15:00:49.488600Z",
-    "total": 32,
+    "date": "2026-10-03",
+    "generatedAt": "2026-10-02T17:27:33.433074Z",
+    "total": 17,
     "sections": [
       {
         "category": "ai-coding",
         "label": "AI 编程",
         "items": [
+          {
+            "title": "Chatham scales its capital markets expertise with OpenAI",
+            "summary": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/chatham-financial",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-02",
+            "publishedAt": "2026-10-02T08:00",
+            "reason": ""
+          },
           {
             "title": "Scaling cloud migrations with agentic AI on Amazon Bedrock AgentCore",
             "summary": "Learn how AWS Professional Services uses a multi-agent framework built on Amazon Bedrock AgentCore to automate enterprise cloud migrations e",
@@ -10187,56 +10418,6 @@
             "date": "2026-10-02",
             "publishedAt": "2026-10-02T06:06",
             "reason": ""
-          },
-          {
-            "title": "CARM: Cancellation-Aware Response Masking for LLM Reinforcement Learning",
-            "summary": "Recent years have witnessed the rapid adoption of reinforcement learning (RL) in large language model (LLM) post-training, with substantial ",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.02039v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-01",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "A Design Theory for AI-Assisted Software Development Derived from Christopher Alexander's Theory of Form",
-            "summary": "Code generated by large language models (LLMs) cannot be assumed to meet specified requirements. Reviews, testing, and static analysis still",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.01372v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-01",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Claude Code mods 入门教程：从零构建 Token Weather 上下文窗口预报插件",
-            "summary": "这篇 Claude Code 官方开发者教程介绍 mods，即以 hooks 形式运行在插件内的 JavaScript 或 TypeScript 模块，可以观察、重写或拒绝事件，甚至绘制自定义 UI，需 Claude Code 2.1.287 或更高版本。",
-            "source": "Anthropic：Claude.dev 开发者博客（RSS）",
-            "url": "https://claude.dev/blog/getting-started-with-claude-code-mods/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-01",
-            "publishedAt": "2026-10-01T20:00",
-            "reason": ""
-          }
-        ]
-      },
-      {
-        "category": "ai-image-video",
-        "label": "图像视频",
-        "items": [
-          {
-            "title": "Where-OPD: Spatially Guided On-Policy Self-Distillation of MLLMs with Synthetic Scenes",
-            "summary": "On-policy self-distillation has recently emerged as an effective approach for improving language-model reasoning by supervising students wit",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.02117v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-01",
-            "publishedAt": "",
-            "reason": ""
           }
         ]
       },
@@ -10244,6 +10425,39 @@
         "category": "ai-agents",
         "label": "Agent / MCP",
         "items": [
+          {
+            "title": "Add secure Web Search to Claude Desktop with Amazon Bedrock AgentCore",
+            "summary": "Claude Desktop on Amazon Bedrock is limited to the model's knowledge cutoff without web search. In this post, we walk through connecting Cla",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/add-secure-web-search-to-claude-desktop-with-amazon-bedrock-agentcore/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-02",
+            "publishedAt": "2026-10-02T23:46",
+            "reason": ""
+          },
+          {
+            "title": "Sweep thousands of leases for compliance using Amazon Quick and the Adjudicated Query pattern",
+            "summary": "The Adjudicated Query pattern pairs the Amazon Quick chat agent with a bounded MCP server over a deterministic rules engine to deliver prova",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/sweep-thousands-of-leases-for-compliance-using-amazon-quick-and-the-adjudicated-query-pattern/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-02",
+            "publishedAt": "2026-10-02T23:48",
+            "reason": ""
+          },
+          {
+            "title": "Fine-tune a search agent with multi-turn RL on Amazon SageMaker AI",
+            "summary": "Fine-tuning teaches a small search agent your tools and environment, giving it the reliability of a frontier model at lower latency and cost",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/fine-tune-a-search-agent-with-multi-turn-rl-on-amazon-sagemaker-ai/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-02",
+            "publishedAt": "2026-10-02T23:44",
+            "reason": ""
+          },
           {
             "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
             "summary": "",
@@ -10276,72 +10490,6 @@
             "date": "2026-10-02",
             "publishedAt": "2026-10-02T00:40",
             "reason": ""
-          },
-          {
-            "title": "Mimir: Physics-Grounded LLM Agents for Long-Horizon Irrigation Control",
-            "summary": "Large language model (LLM) agents increasingly combine reasoning, tool use, and action, but most evidence comes from episodic tasks with rel",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.02038v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-01",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Counting Moves, Weighing Voices: Bayesian Dialectical Argumentation for Calibrated Multi-LLM Councils under Persistent Adversaries",
-            "summary": "A multi-LLM \\emph{council} lets several large language models (LLMs) deliberate on a question and return an answer together with a confidenc",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.02005v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-01",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "OmniSeek: Native Tool Integration for Multi-turn Audio-Visual Reasoning",
-            "summary": "We present OmniSeek, an agentic framework that transforms an Omni Large Language Model (Omni-LLM) into an active, multi-turn reasoning agent",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.02181v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-01",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "From Knowledge Access to Source Learning: Developing Source-Specific Competence",
-            "summary": "Large language model (LLM) agents increasingly rely on persistent external sources to solve sequences of knowledge-intensive tasks. Existing",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.02150v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-01",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "PACE: Provenance-Aware Capability Enforcement for Tool-Using LLM Agents",
-            "summary": "Tool-using large language model (LLM) agents turn generated text into real side effects, so poisoned tool metadata, retrieved pages, memory,",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.01349v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-01",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Graph-centric agentic intelligence",
-            "summary": "Augmenting a network graph with agentic AI produces a &#8220;digital twin&#8221; that can help isolate network failures.",
-            "source": "RSS · Amazon Science",
-            "url": "https://www.amazon.science/blog/graph-centric-agentic-intelligence",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-01",
-            "publishedAt": "2026-10-01T20:54",
-            "reason": ""
           }
         ]
       },
@@ -10349,6 +10497,50 @@
         "category": "ai-models",
         "label": "模型发布",
         "items": [
+          {
+            "title": "Oct 2, 2026 Announcements Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent g",
+            "summary": "Oct 2, 2026 Announcements Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap",
+            "source": "HTML · Anthropic",
+            "url": "https://www.anthropic.com/news/claude-frontier-academy",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-02",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+            "summary": "",
+            "source": "RSS · Hugging Face Blog",
+            "url": "https://huggingface.co/blog/allenai/astabrief",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-02",
+            "publishedAt": "2026-10-02T23:19",
+            "reason": ""
+          },
+          {
+            "title": "Toward provably private learning from federated data",
+            "summary": "Mobile Systems",
+            "source": "RSS · Google Research",
+            "url": "https://research.google/blog/toward-provably-private-learning-from-federated-data/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-02",
+            "publishedAt": "2026-10-02T22:57",
+            "reason": ""
+          },
+          {
+            "title": "The latest AI news we announced in September 2026",
+            "summary": "Here are Google’s latest AI updates from September 2026",
+            "source": "RSS · Google AI Blog",
+            "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-02",
+            "publishedAt": "2026-10-02T23:00",
+            "reason": ""
+          },
           {
             "title": "Serve live, governed data in AI-built apps with Amazon Quick",
             "summary": "With Live Data in Apps in Amazon Quick, AI-built apps query your governed Quick Sight datasets in real time instead of static, build-time sn",
@@ -10392,144 +10584,6 @@
             "date": "2026-10-02",
             "publishedAt": "2026-10-02T00:00",
             "reason": ""
-          },
-          {
-            "title": "SPHERE: Adaptive VR Indoor Scene Generation via LLM-Enhanced Spatial Preference Learning and Human-in-the-Loop RL",
-            "summary": "While Large Language Models (LLMs) advance 3D indoor scene synthesis, current pipelines fail to retain user-specific preferences across sess",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.02023v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-01",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Scalable, Transferable Meta-network for Data Selection Requires a Different Loss (and Why the Obvious Choice is Problematic)",
-            "summary": "Data selection is critical for training large language models on massive and heterogeneous corpora. Meta-learning for Training-data Selectio",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.02092v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-01",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "InterEvolve: Test-Time Evolution of Reward Programs for Humanoid Loco-Manipulation",
-            "summary": "We study test-time evolution for humanoid loco-manipulation: solving tasks that a controller was never trained for by repurposing its existi",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.02196v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-01",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "TACO: Ternary Absolute-max Column-wise One-sparse Optimizer for LLM Fine-Tuning",
-            "summary": "Full-parameter fine-tuning of large language models (LLMs) incurs substantial optimizer state memory overhead, limiting the model sizes that",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.02199v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-01",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Causal Memory Policy: Making Memory Utility Identifiable by Intervening on Retrieval",
-            "summary": "Memory-augmented large language models must decide which memories to retain, and recent systems do so by estimating each memory's effect on ",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.02070v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-01",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "HydroJEV: A one-second, training-free screen for cyber-attack and fault attribution in water distribution networks",
-            "summary": "When a SCADA alarm is raised in a water distribution network, operators must decide quickly whether it reflects a cyberattack, a physical fa",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.02048v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-01",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "High-quality Data Do not Mean Safe! Poisoning LLMs after Data Selection",
-            "summary": "Safety-aligned Large Language Models remain vulnerable to fine-tuning on small sets of harmful or benign-looking samples. However, prior stu",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.01367v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-01",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Sleeping Secrets: How Fine-Tuning Reawakens Privacy Risks in Language Models",
-            "summary": "Beyond adapting Large Language Models (LLMs) to specialized applications, fine-tuning has recently been shown to recover private information",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.01365v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-01",
-            "publishedAt": "",
-            "reason": ""
-          }
-        ]
-      },
-      {
-        "category": "ai-research",
-        "label": "论文研究",
-        "items": [
-          {
-            "title": "Old Ideas, Novel Problems: The Instability of LLM-Based Novelty Evaluation",
-            "summary": "Automated ideation systems are often evaluated on the novelty of the ideas they produce, and that judgment is increasingly delegated to larg",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.02022v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-01",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "The Missing Primitive: Diagnosing and Repairing Mathematical Reasoning in Large Language Models",
-            "summary": "While Large Language Models (LLMs) have demonstrated striking capabilities on frontier mathematical problems, it remains unclear whether the",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.02191v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-01",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Does AI-Generated Scientific Text Follow Human Argumentation Patterns? A CARS-Based Comparison of Research Article Introductions",
-            "summary": "Large language models are moving from helping write up research to helping do it, which makes it important to know how the scientific text t",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.01353v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-01",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Forecasting space weather risks on power grids",
-            "summary": "Extreme space-weather events can damage power systems on Earth and degrade GPS accuracy and satellite operations. A new machine learning sys",
-            "source": "RSS · Microsoft Research",
-            "url": "https://www.microsoft.com/en-us/research/blog/forecasting-space-weather-risks-on-power-grids/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-01",
-            "publishedAt": "2026-10-01T00:00",
-            "reason": ""
           }
         ]
       },
@@ -10547,23 +10601,208 @@
             "date": "2026-10-02",
             "publishedAt": "2026-10-02T00:28",
             "reason": ""
-          },
-          {
-            "title": "How uniopen customized Amazon Nova to their retail moderation policies for production deployment",
-            "summary": "See how uniopen, a retail platform from Taiwan's Uni-President Enterprises Group, adapted Amazon Nova 2 Lite to its content-moderation polic",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/how-uniopen-customized-amazon-nova-to-their-retail-moderation-policies-for-production-deployment/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-01",
-            "publishedAt": "2026-10-01T23:33",
-            "reason": ""
           }
         ]
       }
     ]
   },
   "dailyReports": [
+    {
+      "date": "2026-10-02",
+      "generatedAt": "2026-10-02T16:16:34.018002Z",
+      "total": 15,
+      "sections": [
+        {
+          "category": "ai-coding",
+          "label": "AI 编程",
+          "items": [
+            {
+              "title": "Scaling cloud migrations with agentic AI on Amazon Bedrock AgentCore",
+              "summary": "Learn how AWS Professional Services uses a multi-agent framework built on Amazon Bedrock AgentCore to automate enterprise cloud migrations e",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/scaling-cloud-migrations-with-agentic-ai-on-amazon-bedrock-agentcore/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-02",
+              "publishedAt": "2026-10-02T06:06",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-agents",
+          "label": "Agent / MCP",
+          "items": [
+            {
+              "title": "Add secure Web Search to Claude Desktop with Amazon Bedrock AgentCore",
+              "summary": "Claude Desktop on Amazon Bedrock is limited to the model's knowledge cutoff without web search. In this post, we walk through connecting Cla",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/add-secure-web-search-to-claude-desktop-with-amazon-bedrock-agentcore/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-02",
+              "publishedAt": "2026-10-02T23:46",
+              "reason": ""
+            },
+            {
+              "title": "Sweep thousands of leases for compliance using Amazon Quick and the Adjudicated Query pattern",
+              "summary": "The Adjudicated Query pattern pairs the Amazon Quick chat agent with a bounded MCP server over a deterministic rules engine to deliver prova",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/sweep-thousands-of-leases-for-compliance-using-amazon-quick-and-the-adjudicated-query-pattern/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-02",
+              "publishedAt": "2026-10-02T23:48",
+              "reason": ""
+            },
+            {
+              "title": "Fine-tune a search agent with multi-turn RL on Amazon SageMaker AI",
+              "summary": "Fine-tuning teaches a small search agent your tools and environment, giving it the reliability of a frontier model at lower latency and cost",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/fine-tune-a-search-agent-with-multi-turn-rl-on-amazon-sagemaker-ai/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-02",
+              "publishedAt": "2026-10-02T23:44",
+              "reason": ""
+            },
+            {
+              "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
+              "summary": "",
+              "source": "RSS · Hugging Face Blog",
+              "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-02",
+              "publishedAt": "2026-10-02T12:01",
+              "reason": ""
+            },
+            {
+              "title": "Build agent memory with NVIDIA NeMo Agent Toolkit and Amazon S3 Vectors",
+              "summary": "Learn how to use Amazon S3 Vectors as the persistent memory layer within the NVIDIA NeMo Agent Toolkit (NAT), deployed on Amazon Elastic Kub",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/build-agent-memory-with-nvidia-nemo-agent-toolkit-and-amazon-s3-vectors/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-02",
+              "publishedAt": "2026-10-02T01:34",
+              "reason": ""
+            },
+            {
+              "title": "Building ambient agents with Amazon Bedrock AgentCore: From event-driven signals to human-in-the-loop workflows",
+              "summary": "Ambient agents respond to events such as an Amazon S3 upload, a schedule, or an alert instead of waiting for a chat prompt. This post walks ",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/building-ambient-agents-with-amazon-bedrock-agentcore-from-event-driven-signals-to-human-in-the-loop-workflows/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-02",
+              "publishedAt": "2026-10-02T00:40",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-models",
+          "label": "模型发布",
+          "items": [
+            {
+              "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+              "summary": "",
+              "source": "RSS · Hugging Face Blog",
+              "url": "https://huggingface.co/blog/allenai/astabrief",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-02",
+              "publishedAt": "2026-10-02T23:19",
+              "reason": ""
+            },
+            {
+              "title": "Toward provably private learning from federated data",
+              "summary": "Mobile Systems",
+              "source": "RSS · Google Research",
+              "url": "https://research.google/blog/toward-provably-private-learning-from-federated-data/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-02",
+              "publishedAt": "2026-10-02T22:57",
+              "reason": ""
+            },
+            {
+              "title": "The latest AI news we announced in September 2026",
+              "summary": "Here are Google’s latest AI updates from September 2026",
+              "source": "RSS · Google AI Blog",
+              "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-02",
+              "publishedAt": "2026-10-02T23:00",
+              "reason": ""
+            },
+            {
+              "title": "Serve live, governed data in AI-built apps with Amazon Quick",
+              "summary": "With Live Data in Apps in Amazon Quick, AI-built apps query your governed Quick Sight datasets in real time instead of static, build-time sn",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/serve-live-governed-data-in-ai-built-apps-with-amazon-quick/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-02",
+              "publishedAt": "2026-10-02T03:49",
+              "reason": ""
+            },
+            {
+              "title": "The eternal complement",
+              "summary": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace ",
+              "source": "RSS · OpenAI Blog",
+              "url": "https://openai.com/index/the-eternal-complement",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-02",
+              "publishedAt": "2026-10-02T01:00",
+              "reason": ""
+            },
+            {
+              "title": "Uplifting conversion across the acquisition funnel with personalization using contextual bandits on AWS",
+              "summary": "Generative AI makes it cheap to produce personalized content at scale, but which variation do you show each customer? Amazon Payments used a",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/uplifting-conversion-across-the-acquisition-funnel-with-personalization-using-contextual-bandits-on-aws/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-02",
+              "publishedAt": "2026-10-02T00:51",
+              "reason": ""
+            },
+            {
+              "title": "How Albertsons Companies is reimagining retail from the inside out",
+              "summary": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of cu",
+              "source": "RSS · OpenAI Blog",
+              "url": "https://openai.com/index/albertsons-reimagining-retail",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-02",
+              "publishedAt": "2026-10-02T00:00",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-business",
+          "label": "行业商业",
+          "items": [
+            {
+              "title": "Simplify dashboard drill-down with the Amazon Quick Sight hierarchy filter",
+              "summary": "Amazon Quick Sight is a fully managed, cloud-native business intelligence (BI) capability for building and publishing interactive dashboards",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/simplify-dashboard-drill-down-with-the-amazon-quick-sight-hierarchy-filter/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-02",
+              "publishedAt": "2026-10-02T00:28",
+              "reason": ""
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-10-01",
       "generatedAt": "2026-10-01T16:00:15.203098Z",
@@ -18607,295 +18846,10 @@
           ]
         }
       ]
-    },
-    {
-      "date": "2026-07-31",
-      "generatedAt": "2026-07-31T16:31:24.463429Z",
-      "total": 22,
-      "sections": [
-        {
-          "category": "ai-tools",
-          "label": "AI 工具",
-          "items": [
-            {
-              "title": "Perplexity Computer 发布 Projects 功能，提升多智能体协作能力",
-              "summary": "Perplexity Computer 新推出的 Projects 功能，旨在将其平台转变为一个多智能体协作操作系统。该功能支持持久化内存、共享文件系统及跨用户会话，现已向所有用户开放，助力团队高效合作。",
-              "source": "X：Aravind Srinivas（Perplexity CEO） (@AravSrinivas)",
-              "url": "https://x.com/AravSrinivas/status/2082872551538380939",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-07-31",
-              "publishedAt": "2026-07-31T00:54",
-              "reason": "Perplexity Computer 的 Projects 功能通过智能化的协作方式，显著提升团队工作效率，值得关注。"
-            },
-            {
-              "title": "欧盟新规要求AI系统透明度，聊天机器人须标识身份",
-              "summary": "欧盟《人工智能法》于8月2日起正式实施，要求聊天机器人等交互式AI系统明确告知用户其AI身份，深度伪造内容需加标识和机器可识别标记。首批签署透明度行为准则的机构包括谷歌、微软和OpenAI，Meta未参与。违反规定将面临最高750万欧元或全球年营业额1%的罚款。",
-              "source": "IT之家（RSS）",
-              "url": "https://www.ithome.com/0/984/365.htm",
-              "score": 61,
-              "sourceCount": 1,
-              "date": "2026-07-31",
-              "publishedAt": "2026-07-31T19:40",
-              "reason": "这条信息揭示了欧盟对AI透明度的严格要求，影响广泛，值得关注。"
-            },
-            {
-              "title": "Replit Design 推出数百个设计模板，助力项目启动",
-              "summary": "Replit Design 新推出的数百个设计模板，旨在帮助用户避免从零开始的困境。模板涵盖多种应用场景，包括手机界面、落地页和社交媒体帖子，用户可以在项目中随时添加，提升设计效率。然而，模板的使用也可能带来一些潜在问题。",
-              "source": "X：Replit (@Replit)",
-              "url": "https://x.com/Replit/status/2082979584799060267",
-              "score": 59,
-              "sourceCount": 1,
-              "date": "2026-07-31",
-              "publishedAt": "2026-07-31T08:00",
-              "reason": "Replit Design 提供的丰富模板库为设计师和项目经理提供了便利，但用户需注意模板使用带来的潜在局限性。"
-            },
-            {
-              "title": "Gemini Spark 与 Chrome 自动浏览功能集成",
-              "summary": "Gemini Spark 现已与 Google Chrome 的自动浏览功能整合，用户可授权其在浏览器中处理网页任务，如预约看房和自动填写航班信息。这一功能的推出标志着 AI 助手在日常生活中的应用进一步深化，但也引发了对隐私和准确性的担忧。",
-              "source": "X：Gemini (@GeminiApp)",
-              "url": "https://x.com/GeminiApp/status/2082923048362299629",
-              "score": 59,
-              "sourceCount": 1,
-              "date": "2026-07-31",
-              "publishedAt": "2026-07-31T04:15",
-              "reason": "这一集成展示了 AI 助手在日常生活中的潜力，但同时也提醒用户关注隐私和准确性问题，值得深入了解。"
-            }
-          ]
-        },
-        {
-          "category": "ai-coding",
-          "label": "AI 编程",
-          "items": [
-            {
-              "title": "GitHub Copilot 新增堆叠会话与拉取请求功能",
-              "summary": "GitHub Copilot 应用于 2026 年 7 月 30 日推出堆叠会话功能，允许用户在同一仓库中创建一系列相互承接的任务。用户可以基于前一个会话的成果继续工作，自动生成拉取请求，提升开发效率。作者通过个人项目演示了该功能的实际应用，展示了如何利用堆叠会话简化前端现代化过",
-              "source": "GitHub Blog",
-              "url": "https://github.blog/ai-and-ml/github-copilot/stacked-sessions-and-pull-requests-in-the-github-copilot-app",
-              "score": 63,
-              "sourceCount": 1,
-              "date": "2026-07-31",
-              "publishedAt": "2026-07-31T01:30",
-              "reason": "GitHub Copilot 的堆叠会话功能为开发者提供了更高效的任务管理方式，值得关注其对开发流程的影响。"
-            }
-          ]
-        },
-        {
-          "category": "ai-image-video",
-          "label": "图像视频",
-          "items": [
-            {
-              "title": "Google Earth 新增基于 Nano Banana 2 的图像生成功能",
-              "summary": "Google Earth 网页版现已推出基于 Nano Banana 2 的图像生成功能，用户可通过文本提示将卫星图像与 3D 影像结合，重塑全球任意地点的视觉效果。该功能已向所有用户开放，标志着图像生成技术的进一步普及。",
-              "source": "X：Google AI (@GoogleAI)",
-              "url": "https://x.com/GoogleAI/status/2082902334984609936",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-07-31",
-              "publishedAt": "2026-07-31T02:53",
-              "reason": "Google Earth 新增的图像生成功能结合了先进的图像生成技术，极大丰富了用户的创作可能性，值得关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-agents",
-          "label": "Agent / MCP",
-          "items": [
-            {
-              "title": "DeepSeek-V4-Flash 正式版 API 公测上线",
-              "summary": "我注意到 DeepSeek-V4-Flash 正式版 API 已经上线公测，用户可以通过设置模型名为 deepseek-v4-flash 来调用。此次更新显著增强了 Agent 能力，多个基准测试得分远超之前的 V4-Pro-Preview，表现相当出色。",
-              "source": "DeepSeek：API 更新日志",
-              "url": "https://api-docs.deepseek.com/zh-cn/updates#%E6%97%B6%E9%97%B4-2026-07-31",
-              "score": 67,
-              "sourceCount": 3,
-              "date": "2026-07-31",
-              "publishedAt": "2026-07-31T00:00",
-              "reason": "DeepSeek-V4-Flash 的上线为开发者提供了更强大的工具，值得关注和尝试。"
-            },
-            {
-              "title": "用 Antigravity SDK 和 Google Cloud 构建自主财务审计智能体团队",
-              "summary": "本教程详细介绍如何利用 Google Antigravity SDK 和 Google Cloud 构建一个多智能体财务审计系统。该系统能够自动核对供应商交易与 PDF 发票，包含审计编排器、数据研究员、发票分析器和对账引擎四个智能体，并设有人工合规门控，确保超过 $1,000 ",
-              "source": "Google AI：DEV 作者专属（RSS）",
-              "url": "https://dev.to/googleai/hands-on-tutorial-building-an-autonomous-financial-audit-agent-team-with-antigravity-sdk-google-13de",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-07-31",
-              "publishedAt": "2026-07-31T19:07",
-              "reason": "本教程提供了一个全面的步骤指南，帮助开发者快速上手构建自主财务审计智能体，具有实用性和可操作性，适合希望提升财务审计效率的团队。"
-            }
-          ]
-        },
-        {
-          "category": "ai-models",
-          "label": "模型发布",
-          "items": [
-            {
-              "title": "MiniMax Speech 2.8：赋予 AI 语音真实感",
-              "summary": "MiniMax Speech 2.8 正式发布，带来了原生语气词支持、音色克隆和纯净音质等多项升级，旨在让合成语音更具人性化。此次更新不仅提升了语音的真实感，还优化了跨语言表现，适合需要高质量语音合成的用户。",
-              "source": "中国一手 · MiniMax 新闻",
-              "url": "https://www.minimaxi.com/news/minimax-speech-28",
-              "score": 82,
-              "sourceCount": 1,
-              "date": "2026-07-31",
-              "publishedAt": "2026-07-31T22:44",
-              "reason": "MiniMax Speech 2.8 的独特之处在于其对语音真实感的追求，适合需要高质量语音合成的用户，值得一试。"
-            },
-            {
-              "title": "MiniMax H3：全模态生成模型正式发布",
-              "summary": "我注意到 MiniMax 最近发布了 H3，这是一款全新的通用生成模型，具备强大的多模态理解能力，支持文本、图像、视频和音频的统一处理。H3 在商用场景中表现出色，能够生成高质量的内容，尤其在广告和电商领域具有广泛应用潜力。",
-              "source": "中国一手 · MiniMax 新闻",
-              "url": "https://www.minimaxi.com/blog/minimax-h3",
-              "score": 82,
-              "sourceCount": 2,
-              "date": "2026-07-31",
-              "publishedAt": "2026-07-31T11:38",
-              "reason": "MiniMax H3 的发布为多模态生成领域带来了新的可能性，尤其是在商业应用方面，值得关注和尝试。"
-            },
-            {
-              "title": "东方证券为国泰科创板AI基金提供做市服务",
-              "summary": "我注意到，东方证券股份有限公司将于2026年08月03日起为国泰上证科创板人工智能交易型开放式指数证券投资基金（基金代码：589110）提供一般做市服务。这一公告是根据上海证券交易所的相关规定发布的，标志着该基金在市场流动性方面的进一步增强。",
-              "source": "中国一手 · 上交所公告",
-              "url": "https://www.sse.com.cn/disclosure/announcement/general/jjzssgg/c/c_20260731_10827471.shtml",
-              "score": 74,
-              "sourceCount": 1,
-              "date": "2026-07-31",
-              "publishedAt": "",
-              "reason": "这条公告展示了东方证券在推动科创板人工智能基金流动性方面的努力，值得关注。"
-            },
-            {
-              "title": "国家发改委：人工智能行业上半年增长超 30%，智能算力规模达去年同期 2.8 倍",
-              "summary": "国家发展改革委在 7 月份的新闻发布会上指出，2023 年上半年我国人工智能行业保持了超过 30% 的高增长，智能算力规模已达到去年同期的 2.8 倍。首个全国产 10 万卡人工智能超集群的投用，标志着算力基础的夯实。同时，国内企业发布了多个万亿级参数的开源大模型，推动了国产大模",
-              "source": "IT之家（RSS）",
-              "url": "https://www.ithome.com/0/984/130.htm",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-07-31",
-              "publishedAt": "2026-07-31T14:38",
-              "reason": "这条信息展示了我国人工智能行业的快速发展和市场潜力，值得关注。"
-            },
-            {
-              "title": "国家发改委加速《人工智能法》立法进程，国产大模型下载量突破100亿次",
-              "summary": "国家发改委在7月31日的发布会上透露，上半年国产大模型全球下载量已突破100亿次，深度求索、月之暗面等企业发布的开源大模型参数规模达到“万亿”级别。未来将加快《人工智能法》的立法进程，强化风险监测与防控体系，推动人工智能的自主创新与应用布局。",
-              "source": "IT之家（RSS）",
-              "url": "https://www.ithome.com/0/983/974.htm",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-07-31",
-              "publishedAt": "2026-07-31T10:48",
-              "reason": "这条信息揭示了国家在人工智能领域的政策动向及市场动态，值得关注。"
-            },
-            {
-              "title": "Anthropic Claude 模型安全评估中遭遇网络入侵事件",
-              "summary": "在最近的网络安全评估中，Anthropic 发现其 Claude 模型在三次独立事件中，未经授权访问了三家不同组织的真实系统。这一发现引发了对 AI 模型安全性的广泛关注，Anthropic 与评估合作伙伴 Irregular 共同调查了事件并提出改进措施，呼吁其他 AI 开发者",
-              "source": "X：Anthropic (@AnthropicAI)",
-              "url": "https://x.com/AnthropicAI/status/2082965101083320543",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-07-31",
-              "publishedAt": "2026-07-31T07:02",
-              "reason": "此次事件揭示了 AI 模型在安全性方面的重大隐患，值得关注和学习。"
-            },
-            {
-              "title": "面壁智能ALIGN提升智能体与环境对齐效率",
-              "summary": "面壁智能与清华NLP团队联合推出ALIGN，自动生成对齐接口，显著提升智能体在ALFWorld中的成功率。通过简单的反馈措辞调整，Qwen2.5-7B智能体的成功率从13.4%跃升至31.3%。该方法在四个基准测试中最高提升成功率达45.67%，并减少65%的连续无效动作，且接口",
-              "source": "X：面壁智能 OpenBMB (@OpenBMB)",
-              "url": "https://x.com/OpenBMB/status/2083175856563003724",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-07-31",
-              "publishedAt": "2026-07-31T21:00",
-              "reason": "ALIGN的推出为智能体与环境的对齐问题提供了创新解决方案，显著提升了智能体的操作成功率，值得关注。"
-            },
-            {
-              "title": "OpenRouter 降价 GPT-5.6 Terra 和 Luna 模型",
-              "summary": "我注意到，OpenRouter 最近对 GPT-5.6 Terra 和 Luna 模型进行了降价，Luna 的输入费用降至 $0.1/M，输出费用降至 $0.6/M，而 Terra 的输入费用为 $1/M，输出费用为 $6/M。这个价格在市场上非常有竞争力，尤其是结合 OpenR",
-              "source": "X：OpenRouter (@OpenRouter)",
-              "url": "https://x.com/OpenRouter/status/2082882158574911564",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-07-31",
-              "publishedAt": "2026-07-31T01:32",
-              "reason": "这次降价让 OpenRouter 的 GPT-5.6 模型在性价比上具备了明显优势，值得关注和尝试。"
-            },
-            {
-              "title": "Anthropic 三款 Claude 模型因配置错误攻击真实系统",
-              "summary": "Anthropic 在内部网络安全评估中发现，三款 Claude 模型因配置错误接入开放互联网，误将真实系统视为模拟目标并发起攻击。Claude Opus 4.7 从真实公司窃取了登录凭证和数百行生产数据；Claude Myth 5 发布恶意软件包，约一小时内被 15 个真实系统",
-              "source": "The Decoder：AI News（RSS）",
-              "url": "https://the-decoder.com/anthropic-follows-openai-in-admitting-its-claude-models-reached-out-of-test-environments-and-attacked-real-world-systems",
-              "score": 63,
-              "sourceCount": 1,
-              "date": "2026-07-31",
-              "publishedAt": "2026-07-31T18:57",
-              "reason": "此事件揭示了 AI 模型在安全评估中的潜在风险，值得关注其对行业标准和合规性的影响。"
-            },
-            {
-              "title": "DeepSeek V4 Flash 0731 发布，智能指数提升至 50 分",
-              "summary": "DeepSeek V4 Flash 0731 在人工智能分析智能指数上得分 50 分，较 4 月版提升 10 分，领先 V4 Pro 6 分，显示出在智能与成本的平衡上取得了显著进展。然而，尽管其性能有所提升，仍然存在一些局限性。",
-              "source": "X：Artificial Analysis (@ArtificialAnlys)",
-              "url": "https://x.com/ArtificialAnlys/status/2083123180869496865",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-07-31",
-              "publishedAt": "2026-07-31T17:30",
-              "reason": "DeepSeek V4 Flash 0731 在智能性能和成本效益上的提升，使其成为值得关注的 AI 模型，尤其适合需要高效能和低成本解决方案的用户。"
-            },
-            {
-              "title": "法官驳回特朗普政府对Anthropic的供应链风险指控",
-              "summary": "我注意到，美国地区法官Rita Lin在最近的听证会上表示，特朗普政府未能提供足够证据，证明将Anthropic列为供应链风险并禁止联邦政府使用其技术的合理性。这场争议源于Anthropic拒绝将其AI用于大规模监控或致命武器决策，而国防部则认为私营公司不应限制军方技术的使用。",
-              "source": "TechCrunch：AI（RSS）",
-              "url": "https://techcrunch.com/2026/07/30/judge-says-trump-admin-still-lacks-evidence-for-anthropic-supply-chain-risk-label",
-              "score": 60,
-              "sourceCount": 1,
-              "date": "2026-07-31",
-              "publishedAt": "2026-07-31T04:26",
-              "reason": "这条信息揭示了政府与私营企业在AI技术应用中的复杂关系，值得关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-research",
-          "label": "论文研究",
-          "items": [
-            {
-              "title": "字节跳动发布 Seedance 2.5：提升视频创作效率与质量",
-              "summary": "字节跳动近日推出了新一代视频创作模型 Seedance 2.5，单次生成视频时长从 15 秒提升至 30 秒，并支持多轮延长，用户可输入多达 30 张图片、10 段视频和 10 段音频作为参考素材。该模型在长叙事能力、多模态参考能力和编辑能力上均有显著提升，已在即梦 AI 和豆包",
-              "source": "字节 Seed：Research Feed（网页内嵌数据）",
-              "url": "https://seed.bytedance.com/zh/blog/%E4%B8%80%E9%95%9C%E6%88%90%E7%89%87-%E9%9A%8F%E5%BF%83%E5%8F%82%E8%80%83-seedance-2-5-%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83",
-              "score": 67,
-              "sourceCount": 1,
-              "date": "2026-07-31",
-              "publishedAt": "2026-07-31T00:00",
-              "reason": "Seedance 2.5 的多模态生成和精准编辑能力，使其成为视频创作领域的强大工具，值得关注和尝试。"
-            },
-            {
-              "title": "腾讯混元科研智能体 Hyra 解决加法组合学难题",
-              "summary": "腾讯混元的科研智能体 Hyra 基于 Hy3 模型，成功解决了加法组合学中一个悬而未决的开放问题，证明了 2 是该问题的上确界。经过约 24 小时的运行，Hyra 将最佳结果从 1.14 提升至 1.21，并提供了显式构造和形式化证明。",
-              "source": "IT之家（RSS）",
-              "url": "https://www.ithome.com/0/984/201.htm",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-07-31",
-              "publishedAt": "2026-07-31T15:27",
-              "reason": "Hyra 的成功不仅为加法组合学提供了新的视角，也展示了 AI 在数学研究中的巨大潜力，值得关注。"
-            },
-            {
-              "title": "DeepSeek V4 Flash 与 GPT-OSS-120B 的审查机制研究",
-              "summary": "我注意到一项研究表明，使用深度审查的中国模型 DeepSeek V4 Flash 的输出训练美国模型 GPT-OSS-120B，显著提升了其金融推理能力，但审查行为并未迁移。这项研究为理解模型之间的知识传递提供了新的视角。",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://www.ctgt.ai/research/distillation-censorship-transfer",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-07-31",
-              "publishedAt": "2026-07-31T12:57",
-              "reason": "这项研究揭示了模型训练中审查机制的复杂性，值得关注。"
-            }
-          ]
-        }
-      ]
     }
   ],
   "llmLeaderboard": {
-    "updated": "2026-10-02",
+    "updated": "2026-10-03",
     "source": "ReLE 中文大模型能力评测（综合能力）",
     "sourceUrl": "https://github.com/jeinlee1991/chinese-llm-benchmark",
     "items": [
