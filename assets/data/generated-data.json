@@ -1,7 +1,63 @@
 {
   "lastUpdated": "2026-10-03",
-  "generatedAt": "2026-10-03T02:48:26.418440Z",
+  "generatedAt": "2026-10-03T12:20:56.123903Z",
   "news": [
+    {
+      "title": "Language Discrimination Improves Linguistic Learning in Multilingual Speech Models",
+      "summary": "Multilingual self-supervised speech models can benefit from sharing information across languages, but under a matched total pretraining data budget they still fall short of monolin",
+      "category": "ai-models",
+      "source": "RSS · Apple ML Research",
+      "date": "2026-10-02",
+      "publishedAt": "2026-10-02T08:00",
+      "collectedAt": "2026-10-03T20:20",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://machinelearning.apple.com/research/language-discrimination-multilingual-learning",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Limits of Confidence in Diffusion",
+      "summary": "Discrete diffusion, including remasking and uniform-state samplers, generate a sequence by writing multiple token positions per step, drawing each from a per-position distribution ",
+      "category": "ai-models",
+      "source": "RSS · Apple ML Research",
+      "date": "2026-10-02",
+      "publishedAt": "2026-10-02T08:00",
+      "collectedAt": "2026-10-03T20:20",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://machinelearning.apple.com/research/limits-confidence-diffusion",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Chatham scales its capital markets expertise with OpenAI",
       "summary": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
@@ -455,6 +511,34 @@
       "sourceDate": "",
       "tags": [],
       "url": "https://openai.com/index/albertsons-reimagining-retail",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "RLTL;DR: Self-Improvement by Internalizing Self-Generated Feedback",
+      "summary": "The common paradigm of reinforcement learning with verifiable rewards (RLVR) is to let agents make multiple attempts at a task, and optimize towards the successful ones. This becom",
+      "category": "ai-agents",
+      "source": "RSS · Apple ML Research",
+      "date": "2026-10-01",
+      "publishedAt": "2026-10-01T08:00",
+      "collectedAt": "2026-10-03T20:20",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://machinelearning.apple.com/research/rltl-dr-self-improvement",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -2460,179 +2544,6 @@
       "sourceDate": "2026-09-29",
       "tags": [],
       "url": "http://arxiv.org/abs/2609.36959v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Controlled Decoding Attacks on Black-Box LLMs",
-      "summary": "Manipulating next-token probabilities during generation can bypass the safety alignment of large language models. Existing approaches, however, rely on access to model weights or n",
-      "category": "ai-coding",
-      "source": "arXiv",
-      "date": "2026-09-29",
-      "publishedAt": "",
-      "collectedAt": "2026-09-30T09:39",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-29",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.36956v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "ER-JEPA: Experience Replay Improves Joint-Embedding Predictive Learning in Language Models",
-      "summary": "Large language models (LLMs) excel at token-level generation but may learn undesirable abstract semantics and lack comprehensive perception. LLM-JEPA mitigates this by aligning dif",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-29",
-      "publishedAt": "",
-      "collectedAt": "2026-09-30T09:39",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-29",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.36952v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Fine-Tuning on Self-Generated and Reward-Weighted Data: Learning Dynamics, Convergence Rates, and Benefits of Off-Policyness",
-      "summary": "We study the learning dynamics of fine-tuning a policy model on self-generated and reward-weighted data, with particular focus on a generalized version of REINFORCE -- referred to ",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-29",
-      "publishedAt": "",
-      "collectedAt": "2026-09-30T09:39",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-29",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.36945v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Introducing GPT-6.1 Sol",
-      "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
-      "category": "ai-coding",
-      "source": "RSS · OpenAI Blog",
-      "date": "2026-09-29",
-      "publishedAt": "2026-09-29T18:00",
-      "collectedAt": "2026-09-30T02:34",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 2,
-      "relatedSources": [
-        {
-          "source": "RSS · AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/bring-near-astra-intelligence-to-everyday-work-with-gpt-6-1-sol-on-amazon-bedrock/",
-          "title": "Bring near-Astra intelligence to everyday work with GPT-6.1 Sol on Amazon Bedrock"
-        }
-      ]
-    },
-    {
-      "title": "DevDay 2026 Recap",
-      "summary": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
-      "category": "ai-coding",
-      "source": "RSS · OpenAI Blog",
-      "date": "2026-09-29",
-      "publishedAt": "2026-09-29T18:00",
-      "collectedAt": "2026-09-30T02:34",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://openai.com/index/devday-2026-recap",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Introducing dots",
-      "summary": "Dots by OpenAI are a proactive assistant that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
-      "category": "ai-models",
-      "source": "RSS · OpenAI Blog",
-      "date": "2026-09-29",
-      "publishedAt": "2026-09-29T08:00",
-      "collectedAt": "2026-09-30T02:34",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://openai.com/index/introducing-dots",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -6182,6 +6093,39 @@
     ],
     "ai-agents": [
       {
+        "name": "Bangladesh’s invisible visa trade market is worth at least B",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Work permits can change hands through multiple layers of agents, recruiting agencies and brokers before reaching migrants, adding commissions at each stage.",
+        "description": "Work permits can change hands through multiple layers of agents, recruiting agencies and brokers before reaching migrants, adding commissions at each stage.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:large language model",
+        "url": "https://en.bonikbarta.com/bangladesh/NYU3qQDrJyU2Ewbx"
+      },
+      {
+        "name": "Liberate’s AI Agents Take Over the Insurance Night Shift",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "A policyholder calls her insurance agency to ask what she owes. An artificial intelligence (AI) agent answers, pulls the balance and logs the call in the carrie",
+        "description": "A policyholder calls her insurance agency to ask what she owes. An artificial intelligence (AI) agent answers, pulls the balance and logs the call in the carrier’s core system, wit",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:artificial intelligence",
+        "url": "https://biztoc.com/x/1d2b63868a948429"
+      },
+      {
+        "name": "RLTL;DR: Self-Improvement by Internalizing Self-Generated Fe",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "The common paradigm of reinforcement learning with verifiable rewards (RLVR) is to let agents make multiple attempts at a task, and optimize towards the success",
+        "description": "The common paradigm of reinforcement learning with verifiable rewards (RLVR) is to let agents make multiple attempts at a task, and optimize towards the successful ones. This becom",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Apple ML Research",
+        "url": "https://machinelearning.apple.com/research/rltl-dr-self-improvement"
+      },
+      {
         "name": "Arena 评测：Claude Sonnet 5.5 登顶 Agent Arena 第 3 名但未入 Pareto 前沿",
         "provider": "X：Arena (@arena)",
         "type": "AI 项目/工具",
@@ -6587,42 +6531,20 @@
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:AI agent",
         "url": "https://hoodline.com/2026/09/inside-berkeley-s-lighthaven-where-ai-doomers-gather-to-debate-the-end-of-the-world/"
-      },
-      {
-        "name": "OpenAI’s Dots challenges Meta’s Muse in the race for AI agen",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenAI jumped into the personal AI agent market on Tuesday with Dots, following Meta’s blockbuster Muse launch earlier this month and setting up what could beco",
-        "description": "OpenAI jumped into the personal AI agent market on Tuesday with Dots, following Meta’s blockbuster Muse launch earlier this month and setting up what could become the next major ba",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:artificial intelligence",
-        "url": "https://etf-alerts.com/2026/10/01/openais-dots-challenges-metas-muse-in-the-race-for-ai-agents/"
-      },
-      {
-        "name": "JuryFlow: Disagreement-Guided Human-in-the-Loop Multi-Agent ",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Large language models (LLMs) are increasingly deployed as automated judges for AI-generated content, yet a single judge is unreliable and even a panel of judges",
-        "description": "Large language models (LLMs) are increasingly deployed as automated judges for AI-generated content, yet a single judge is unreliable and even a panel of judges leaves a hard resid",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2609.40103v1"
-      },
-      {
-        "name": "Conversational Capture: A Trajectory-Level Framework for Eva",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Generative Engine Optimization (GEO) shapes content to increase its likelihood of being cited by answer engines built on retrieval-augmented large language mode",
-        "description": "Generative Engine Optimization (GEO) shapes content to increase its likelihood of being cited by answer engines built on retrieval-augmented large language models. GEO is typically",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2609.40069v1"
       }
     ],
     "ai-models": [
+      {
+        "name": "Data centre pre-leasing doubles amid rising AI demand",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Demand is being driven by rising smartphone use and consumer AI applications such as OpenAI’s ChatGPT and Google’s Gemini.",
+        "description": "Demand is being driven by rising smartphone use and consumer AI applications such as OpenAI’s ChatGPT and Google’s Gemini.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:artificial intelligence",
+        "url": "https://www.livemint.com/industry/infotech/data-centre-pre-leasing-doubles-amid-rising-ai-demand-11790836267049.html"
+      },
       {
         "name": "OpenAI 披露内部模型从 Slack 获悉可能停机并提前准备重启事件",
         "provider": "OpenAI：失准报告与通报（网页）",
@@ -7051,17 +6973,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "IT之家（RSS）",
         "url": "https://www.ithome.com/1/006/548.htm"
-      },
-      {
-        "name": "How to train your own Jev for $17",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "We just launched our own Jev-like classifier, together/Tev1-4B-experimental, on top of Qwen3.5 4B on Together’s serverless platform. In this blog post we’ll sho",
-        "description": "We just launched our own Jev-like classifier, together/Tev1-4B-experimental, on top of Qwen3.5 4B on Together’s serverless platform. In this blog post we’ll show you how to fine-tu",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · Together AI",
-        "url": "https://www.together.ai/blog/how-to-train-your-own-jev"
       }
     ],
     "ai-business": [
@@ -8489,6 +8400,28 @@
     ],
     "ai-research": [
       {
+        "name": "Language Discrimination Improves Linguistic Learning in Mult",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Multilingual self-supervised speech models can benefit from sharing information across languages, but under a matched total pretraining data budget they still f",
+        "description": "Multilingual self-supervised speech models can benefit from sharing information across languages, but under a matched total pretraining data budget they still fall short of monolin",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Apple ML Research",
+        "url": "https://machinelearning.apple.com/research/language-discrimination-multilingual-learning"
+      },
+      {
+        "name": "Limits of Confidence in Diffusion",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Discrete diffusion, including remasking and uniform-state samplers, generate a sequence by writing multiple token positions per step, drawing each from a per-po",
+        "description": "Discrete diffusion, including remasking and uniform-state samplers, generate a sequence by writing multiple token positions per step, drawing each from a per-position distribution ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Apple ML Research",
+        "url": "https://machinelearning.apple.com/research/limits-confidence-diffusion"
+      },
+      {
         "name": "TACO: Ternary Absolute-max Column-wise One-sparse Optimizer ",
         "provider": "arXiv",
         "type": "AI 项目/工具",
@@ -8905,28 +8838,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · Apple ML Research",
         "url": "https://machinelearning.apple.com/research/trajectory-teacher-flow-matching"
-      },
-      {
-        "name": "How Value Induction Reshapes LLM Behaviour",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Conversational Large Language Models are post-trained on language that expresses specific behavioural traits, such as curiosity, open-mindedness, and empathy, a",
-        "description": "Conversational Large Language Models are post-trained on language that expresses specific behavioural traits, such as curiosity, open-mindedness, and empathy, and values, such as h",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · Apple ML Research",
-        "url": "https://machinelearning.apple.com/research/value-induction-llm-behaviour"
-      },
-      {
-        "name": "What Breaks Under Pruning in Smart Homes, and When? Evaluati",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Pruning can reduce the deployment cost of large language models (LLMs), but its impact on context-grounded tool calling remains poorly understood. We systematic",
-        "description": "Pruning can reduce the deployment cost of large language models (LLMs), but its impact on context-grounded tool calling remains poorly understood. We systematically study pruning-i",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2609.17515v1"
       }
     ],
     "ai-office": []
@@ -10335,8 +10246,8 @@
   ],
   "dailyReport": {
     "date": "2026-10-03",
-    "generatedAt": "2026-10-03T02:48:26.399168Z",
-    "total": 17,
+    "generatedAt": "2026-10-03T12:20:56.103905Z",
+    "total": 19,
     "sections": [
       {
         "category": "ai-coding",
@@ -10442,6 +10353,28 @@
         "category": "ai-models",
         "label": "模型发布",
         "items": [
+          {
+            "title": "Language Discrimination Improves Linguistic Learning in Multilingual Speech Models",
+            "summary": "Multilingual self-supervised speech models can benefit from sharing information across languages, but under a matched total pretraining data",
+            "source": "RSS · Apple ML Research",
+            "url": "https://machinelearning.apple.com/research/language-discrimination-multilingual-learning",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-02",
+            "publishedAt": "2026-10-02T08:00",
+            "reason": ""
+          },
+          {
+            "title": "Limits of Confidence in Diffusion",
+            "summary": "Discrete diffusion, including remasking and uniform-state samplers, generate a sequence by writing multiple token positions per step, drawin",
+            "source": "RSS · Apple ML Research",
+            "url": "https://machinelearning.apple.com/research/limits-confidence-diffusion",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-02",
+            "publishedAt": "2026-10-02T08:00",
+            "reason": ""
+          },
           {
             "title": "Oct 2, 2026 Announcements Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent g",
             "summary": "Oct 2, 2026 Announcements Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap",
