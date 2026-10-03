@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-10-03",
-  "generatedAt": "2026-10-03T12:20:56.123903Z",
+  "generatedAt": "2026-10-03T14:49:28.965768Z",
   "news": [
     {
       "title": "Language Discrimination Improves Linguistic Learning in Multilingual Speech Models",
@@ -2474,89 +2474,6 @@ window.AI_GENERATED_DATA = {
       "aiSelected": true,
       "moduleTargets": [
         "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Probability is Not Enough: Exploring and Counting Divergent Tokens for Reasoning Uncertainty Quantification in LLMs",
-      "summary": "As the chain-of-thought reasoning capabilities of large language models improve, evaluating and calibrating their reasoning confidence is becoming increasingly important for quanti",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-29",
-      "publishedAt": "",
-      "collectedAt": "2026-09-30T10:55",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-29",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.38070v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Gender bias across LLMs is common and highly heterogenous",
-      "summary": "Understanding gender biases in large language models (LLMs) is increasingly important as these systems become embedded in decision-support tools with real consequences. Prior resea",
-      "category": "ai-research",
-      "source": "arXiv",
-      "date": "2026-09-29",
-      "publishedAt": "",
-      "collectedAt": "2026-09-30T10:55",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-29",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.38036v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Cobalt: Leveraging Expert Co-activation for Efficient Distributed MoE Training",
-      "summary": "Mixture-of-Experts (MoE) has increasingly become a mainstream approach for scaling large language models, as it expands model capacity while keeping computation cost nearly constan",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-29",
-      "publishedAt": "",
-      "collectedAt": "2026-09-30T09:39",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-29",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.36959v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
       ],
       "sourceCount": 1
     }
@@ -5651,6 +5568,39 @@ window.AI_GENERATED_DATA = {
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Balance AI innovation and governance with Sumo Logic AI and ",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Discover how Sumo Logic’s suite of AI/ML apps—including ChatGPT, Claude, and GitHub Copilot integrations—helps security teams govern LLM usage, monitor spend, a",
+        "description": "Discover how Sumo Logic’s suite of AI/ML apps—including ChatGPT, Claude, and GitHub Copilot integrations—helps security teams govern LLM usage, monitor spend, and eliminate blind s",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.sumologic.com/blog/sumo-logic-ai-ml-apps-governance"
+      },
+      {
+        "name": "Decoding JavaScript Errors: Beyond the AI Prompt",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "JavaScript errors can be categorized into syntax errors, runtime errors, and logical errors, and understanding the differences between them is crucial.",
+        "description": "JavaScript errors can be categorized into syntax errors, runtime errors, and logical errors, and understanding the differences between them is crucial.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI coding tool",
+        "url": "https://hackernoon.com/decoding-javascript-errors-beyond-the-ai-prompt"
+      },
+      {
+        "name": "SkillPulse September Community Meet: Build an AI-native work",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Bengaluru (Karnataka) [India], October 3: Enqurious hosted the SkillPulse September Community Meet in Bengaluru on 25 September 2026. Technology leaders from Ni",
+        "description": "Bengaluru (Karnataka) [India], October 3: Enqurious hosted the SkillPulse September Community Meet in Bengaluru on 25 September 2026. Technology leaders from Nike, Varaha, XCaliber",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI coding tool",
+        "url": "https://www.aninews.in/news/business/skillpulse-september-community-meet-build-an-ai-native-workforce-to-tap-a-trillion-dollar-growth-opportunity20261003134335/"
+      },
+      {
         "name": "Baseten 工程师实测：LLM 生成的推理引擎比 vLLM 快最多 90%",
         "provider": "Baseten 工程博客（网页）",
         "type": "AI 项目/工具",
@@ -6056,42 +6006,108 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · AWS Machine Learning",
         "url": "https://aws.amazon.com/blogs/machine-learning/xais-grok-4-6-is-now-available-in-amazon-bedrock/"
-      },
-      {
-        "name": "Kimi 发布 Kimi Code Desktop 1.0，macOS 与 Windows 版同步上线",
-        "provider": "公众号：月之暗面（Kimi）",
-        "type": "AI 项目/工具",
-        "bestFor": "Kimi（月之暗面）发布 Kimi Code Desktop 1.0，作为 Kimi Code 官方桌面客户端，macOS（Apple 与 Intel 芯片）和 Windows 版同步上线，下载地址为 kimi.com/code。",
-        "description": "Kimi（月之暗面）发布 Kimi Code Desktop 1.0，作为 Kimi Code 官方桌面客户端，macOS（Apple 与 Intel 芯片）和 Windows 版同步上线，下载地址为 kimi.com/code。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "公众号：月之暗面（Kimi）",
-        "url": "https://mp.weixin.qq.com/s?__biz=MzkzMTY4NTIyNA%3D%3D&mid=2247484344&idx=1&sn=047cf702ff02ab334e3ea2ba8e34b4a6"
-      },
-      {
-        "name": "10 Best AI Tools for Developers in 2026 - Memeburn",
-        "provider": "Memeburn",
-        "type": "AI 项目/工具",
-        "bestFor": "AI developer tools can save substantial time, but our evaluation reinforced that generated code and fixes still need human review, particularly around security,",
-        "description": "AI developer tools can save substantial time, but our evaluation reinforced that generated code and fixes still need human review, particularly around security, architecture, depen",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Memeburn",
-        "url": "https://memeburn.com/best-ai-tools-for-developers/"
-      },
-      {
-        "name": "10 Best Vibe Coding Tools in 2026: Compared & Tested - Memeb",
-        "provider": "Memeburn",
-        "type": "AI 项目/工具",
-        "bestFor": "Pricing varies widely, from free tiers to usage-based models and plans reaching $200 per month.\n\nAI-assisted development has become a standard part of software ",
-        "description": "Pricing varies widely, from free tiers to usage-based models and plans reaching $200 per month.\n\nAI-assisted development has become a standard part of software work, with GitHub Co",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Memeburn",
-        "url": "https://memeburn.com/best-vibe-coding-tools/"
       }
     ],
     "ai-agents": [
+      {
+        "name": "Meta wants AI agents to handle your daily tasks. Here’s why ",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Meta wants people to use 'AI agents' to do daily tasks for them. Here's why that's a problem",
+        "description": "Meta wants people to use 'AI agents' to do daily tasks for them. Here's why that's a problem",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Claude AI",
+        "url": "https://www.edexlive.com/news/meta-wants-people-to-use-ai-agents-to-do-daily-tasks-for-them-here-s-why-that-s-a-problem"
+      },
+      {
+        "name": "‘AI Went Rogue’ Is Not The Full Story: Why ‘Reward Hacking’ ",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Mozilla Foundation India head Jibu Elias explains how agentic AI differs from chatbots, why reward hacking can lead to unexpected behaviour, risks to critical i",
+        "description": "Mozilla Foundation India head Jibu Elias explains how agentic AI differs from chatbots, why reward hacking can lead to unexpected behaviour, risks to critical infrastructure, accou",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Claude AI",
+        "url": "https://www.timesnownews.com/technology-science/ai-went-rogue-is-not-the-full-story-why-reward-hacking-is-a-concern-expert-explains-article-156265638"
+      },
+      {
+        "name": "Apple says it will flag AI requests for Mac data after Meta’",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Some claim Meta's Muse accessed what users believed to be private messages.",
+        "description": "Some claim Meta's Muse accessed what users believed to be private messages.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.straitstimes.com/world/united-states/apple-says-it-will-flag-ai-requests-for-mac-data-after-metas-muse-draws-complaints"
+      },
+      {
+        "name": "Meta wants you to build your own Muse gadget",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Meta’s Muse, a personal AI agent that books travel, fills out forms, and shops on a user’s behalf, has already proven popular with the masses, but a new side pr",
+        "description": "Meta’s Muse, a personal AI agent that books travel, fills out forms, and shops on a user’s behalf, has already proven popular with the masses, but a new side project could be parti",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://biztoc.com/x/04a705800038d294"
+      },
+      {
+        "name": "Why AMD Stock Jumped 30% in September",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Meta's new Muse agent helped lift CPU stocks, including AMD.",
+        "description": "Meta's new Muse agent helped lift CPU stocks, including AMD.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.fool.com/investing/2026/10/02/why-amd-stock-jumped-30-in-september/"
+      },
+      {
+        "name": "Meta, Amazon, And The Real Question About Agentic Commerce",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Recent media reports have highlighted Amazon’s decision to block Meta’s Muse AI agent from making purchases on its marketplace. Muse has quickly gained attentio",
+        "description": "Recent media reports have highlighted Amazon’s decision to block Meta’s Muse AI agent from making purchases on its marketplace. Muse has quickly gained attention for its ability to",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.forrester.com/blogs/meta-amazon-and-the-real-question-about-agentic-commerce/"
+      },
+      {
+        "name": "Apple says it will flag AI requests for Mac data after Meta'",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "SAN FRANCISCO, Oct ⁠2 (Reuters) - Apple said on Friday that it plans to change its Mac operating ⁠system to make it more obvious when AI agents ask to access al",
+        "description": "SAN FRANCISCO, Oct ⁠2 (Reuters) - Apple said on Friday that it plans to change its Mac operating ⁠system to make it more obvious when AI agents ask to access all of the data on Mac",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.thestar.com.my/tech/tech-news/2026/10/03/apple-says-it-will-flag-ai-requests-for-mac-data-after-meta039s-muse-draws-complaints"
+      },
+      {
+        "name": "OpenAI slammed after another government agency hacked by AI ",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "",
+        "description": "",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://7news.com.au/news/openai-slammed-after-another-government-agency-hacked-by-ai-agent-c-22963844"
+      },
+      {
+        "name": "Why AMD Stock Jumped 30% in September",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Shares of Advanced Micro Devices (NASDAQ:AMD) were among the winners last month after the diversified, fabless chip company rode a surge in CPU stocks following",
+        "description": "Shares of Advanced Micro Devices (NASDAQ:AMD) were among the winners last month after the diversified, fabless chip company rode a surge in CPU stocks following the launch of Meta ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://biztoc.com/x/47fd98986b60df3b"
+      },
       {
         "name": "Bangladesh’s invisible visa trade market is worth at least B",
         "provider": "NewsData.io",
@@ -6432,108 +6448,42 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · AWS Machine Learning",
         "url": "https://aws.amazon.com/blogs/machine-learning/building-ambient-agents-with-amazon-bedrock-agentcore-from-event-driven-signals-to-human-in-the-loop-workflows/"
-      },
-      {
-        "name": "Graph-centric agentic intelligence",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Augmenting a network graph with agentic AI produces a &#8220;digital twin&#8221; that can help isolate network failures.",
-        "description": "Augmenting a network graph with agentic AI produces a &#8220;digital twin&#8221; that can help isolate network failures.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · Amazon Science",
-        "url": "https://www.amazon.science/blog/graph-centric-agentic-intelligence"
-      },
-      {
-        "name": "Chinese AI Agents Are Lying: Inside the New Tech Cold War",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Last Updated on October 1, 2026 by Jeff Tomas BEIJING – Chinese AI systems in China are learning to bend the rules. Recent tests reveal these digital assistants",
-        "description": "Last Updated on October 1, 2026 by Jeff Tomas BEIJING – Chinese AI systems in China are learning to bend the rules. Recent tests reveal these digital assistants are doing the unthi",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:DeepSeek",
-        "url": "https://www.chiangraitimes.com/ai/chinese-ai-lying/"
-      },
-      {
-        "name": "Meta Stock Jumps 27% in September on Muse Success",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Meta shares rose 27% in September, the biggest monthly gain in nearly four years, after its AI agent app Muse topped Apple's App Store downloads.",
-        "description": "Meta shares rose 27% in September, the biggest monthly gain in nearly four years, after its AI agent app Muse topped Apple's App Store downloads.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://en.sedaily.com/international/2026/10/01/meta-stock-jumps-27-percent-in-september-on-muse-success"
-      },
-      {
-        "name": "Why upgrading old government systems won't stop the next cyb",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Experts say upgrading old government tech won't stop AI hacks",
-        "description": "Experts say upgrading old government tech won't stop AI hacks",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.canberratimes.com.au/story/9360571/home-affairs-cyber-tech-overhaul-experts-warn-of-ai-risks/?src=rss"
-      },
-      {
-        "name": "There is a word so powerful it need be spoken only once",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "If you’ve heard anything about “NAZA,” the new documentary about the war in the Gaza Strip, it might be that Prime Minister Benjamin Netanyahu was so outraged b",
-        "description": "If you’ve heard anything about “NAZA,” the new documentary about the war in the Gaza Strip, it might be that Prime Minister Benjamin Netanyahu was so outraged by it that he has pro",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.dtnext.in/edit/there-is-a-word-so-powerful-it-need-be-spoken-only-once"
-      },
-      {
-        "name": "Twilio Guide: Building Localized Enterprise AI Voice Agents ",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Twilio's guide details how to build localized, enterprise-grade AI voice agents that adapt to regional accents, cultural norms, and compliance needs. It covers ",
-        "description": "Twilio's guide details how to build localized, enterprise-grade AI voice agents that adapt to regional accents, cultural norms, and compliance needs. It covers specialized speech m",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.webpronews.com/twilio-guide-building-localized-enterprise-ai-voice-agents-at-scale/"
-      },
-      {
-        "name": "AI tools expand into finance and shopping, but expert urges ",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "AI is changing how Americans shop and manage money, but the biggest question remains: Who is protecting your data?",
-        "description": "AI is changing how Americans shop and manage money, but the biggest question remains: Who is protecting your data?",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.azfamily.com/2026/10/01/ai-tools-expand-into-finance-shopping-expert-urges-caution/"
-      },
-      {
-        "name": "Why SBI paid a premium for Ajaib amid a tough market",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Ajaib isn't Indonesia's largest digital investment platform. But its sizable presence could be valuable for the investor's push into digital assets.",
-        "description": "Ajaib isn't Indonesia's largest digital investment platform. But its sizable presence could be valuable for the investor's push into digital assets.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.techinasia.com/sbi-paid-premium-ajaib-tough-market"
-      },
-      {
-        "name": "Inside Berkeley's Lighthaven, Where AI Doomers Gather to Deb",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "At Berkeley's Lighthaven compound, hundreds gathered for the AGI.WTF conference to debate AI risk, omnicide fears, and the future of humanity.",
-        "description": "At Berkeley's Lighthaven compound, hundreds gathered for the AGI.WTF conference to debate AI risk, omnicide fears, and the future of humanity.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://hoodline.com/2026/09/inside-berkeley-s-lighthaven-where-ai-doomers-gather-to-debate-the-end-of-the-world/"
       }
     ],
     "ai-models": [
+      {
+        "name": "OpenClaw adds Tencent AI tool to security checks",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "The security setup was tested on a 556-case subset of Tencent’s SkillTrustBench.",
+        "description": "The security setup was tested on a 556-case subset of Tencent’s SkillTrustBench.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Claude AI",
+        "url": "https://www.techinasia.com/chinas-openclaw-ai-sparks-security-warnings-startup-hype"
+      },
+      {
+        "name": "We Asked AI Which Coin Will Finish October on Top: XRP, Sola",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "The post We Asked AI Which Coin Will Finish October on Top: XRP, Solana, Hyperliquid, or NEAR appeared first on 24/7 Wall St.. In a recent analysis, ChatGPT, Cl",
+        "description": "The post We Asked AI Which Coin Will Finish October on Top: XRP, Solana, Hyperliquid, or NEAR appeared first on 24/7 Wall St.. In a recent analysis, ChatGPT, Claude, and Grok evalu",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Claude AI",
+        "url": "https://biztoc.com/x/2cb9f420425e6df7"
+      },
+      {
+        "name": "Thai Language AI: Which Tools Actually Work",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Last Updated on October 3, 2026 by Jeff Tomas Which AI tools can handle real Thai language tasks, and where do they fall short? The answer depends on whether yo",
+        "description": "Last Updated on October 3, 2026 by Jeff Tomas Which AI tools can handle real Thai language tasks, and where do they fall short? The answer depends on whether you need text translat",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Claude AI",
+        "url": "https://www.chiangraitimes.com/tech/thai-language-ai/"
+      },
       {
         "name": "Data centre pre-leasing doubles amid rising AI demand",
         "provider": "NewsData.io",
@@ -6940,39 +6890,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:Claude AI",
         "url": "https://www.webpronews.com/adobe-pushes-creative-tools-into-google-gemini-and-claude-in-latest-ai-push/"
-      },
-      {
-        "name": "Anthony Albanese's urgent warning to the world about AI as h",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "The prime minister has issued a call to world leaders to work together to confront the growing issues of unchecked artificial intelligence and climate change.",
-        "description": "The prime minister has issued a call to world leaders to work together to confront the growing issues of unchecked artificial intelligence and climate change.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:artificial intelligence",
-        "url": "https://www.dailymail.com/news/article-16159119/Anthony-Albaneses-ai-warning.html"
-      },
-      {
-        "name": "Mesoblast wins FDA nod for new Ryoncil potency test",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Mesoblast gets FDA approval for a new Ryoncil potency assay, aiming to ensure quality and support product expansion. The post Mesoblast wins FDA nod for new Ryo",
-        "description": "Mesoblast gets FDA approval for a new Ryoncil potency assay, aiming to ensure quality and support product expansion. The post Mesoblast wins FDA nod for new Ryoncil potency test ap",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:large language model",
-        "url": "https://www.fool.com.au/2026/09/24/mesoblast-wins-fda-nod-for-new-ryoncil-potency-test/"
-      },
-      {
-        "name": "OpenAI 称与苹果的 ChatGPT 合作表现远低于预期",
-        "provider": "IT之家（RSS）",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenAI 在周三公开的法庭文件中称，2024 年与苹果达成协议由 ChatGPT 为 Apple Intelligence 提供支持后，该功能表现远低于预期，上线一个月后起步缓慢，OpenAI 下调了每周活跃用户预测。",
-        "description": "OpenAI 在周三公开的法庭文件中称，2024 年与苹果达成协议由 ChatGPT 为 Apple Intelligence 提供支持后，该功能表现远低于预期，上线一个月后起步缓慢，OpenAI 下调了每周活跃用户预测。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "IT之家（RSS）",
-        "url": "https://www.ithome.com/1/006/548.htm"
       }
     ],
     "ai-business": [
@@ -7418,6 +7335,17 @@ window.AI_GENERATED_DATA = {
       }
     ],
     "ai-benchmark": [
+      {
+        "name": "Anthropic Is Training 10,000 Engineers to Install Claude Ins",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "While the rest of the artificial intelligence industry remains locked in a high-stakes arms race over model benchmarks, token pricing, and agentic AI features, ",
+        "description": "While the rest of the artificial intelligence industry remains locked in a high-stakes arms race over model benchmarks, token pricing, and agentic AI features, Anthropic has quietl",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Claude AI",
+        "url": "https://biztoc.com/x/4ad4fa2ab4f30456"
+      },
       {
         "name": "How Much of a Harness Does a Strong Agent Need for Autonomou",
         "provider": "arXiv",
@@ -7939,21 +7867,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:AI benchmark leaderboard",
         "url": "https://www.bundle.app/en/technology/ai-daily-digest-august-1-2026-arc-agi-3-harness-discovery-eu-ai-gigafactories-devin-swe-17-C670369A-F7EE-4ED2-817C-50055679766A"
-      },
-      {
-        "name": "H2O AI Super AgentTM 在 FutureX 总排行榜中排名全球第二",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "H2O AI Super AgentTM 的全球第二名排名将吸引更多企业关注其技术，可能导致更多行业采用该模型来提升业务效率。随着 AI 代理技术的不断成熟，企业在决策时将更倾向于选择高性能的 AI 解决方案，从而推动整个行业的技术进步。此外，H2O AI Super AgentTM 的成功也可能促使竞争对手加大研发投",
-        "description": "H2O AI Super AgentTM 在 FutureX 总排行榜中获得全球第二名，显示出其在 AI 代理领域的强大实力。该模型凭借其卓越的性能和创新的技术，吸引了广泛的关注，成为行业内的重要竞争者。",
-        "useCases": [
-          "提升客户服务效率，使用 H2O AI Super AgentTM 处理用户咨询，缩短响应时间。",
-          "在金融行业中，利用 H2O AI Super AgentTM 进行风险评估，优化投资决策。",
-          "在电商平台上，应用 H2O AI Super AgentTM 进行个性化推荐，提高转化率。"
-        ],
-        "watch": "H2O AI Super AgentTM 的使用可能面临高昂的 API 费用，企业需评估成本效益。",
-        "sourceName": "NewsData.io:generative AI",
-        "url": "https://www.joplinglobe.com/region/national_business/h2o-ai-super-agent-ranks-2-worldwide-on-futurex-overall-leaderboard/article_940b972e-771e-54c8-b23f-ffa49fdb4c1a.html"
       }
     ],
     "ai-image-video": [
@@ -10246,7 +10159,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-10-03",
-    "generatedAt": "2026-10-03T12:20:56.103905Z",
+    "generatedAt": "2026-10-03T14:49:28.944769Z",
     "total": 19,
     "sections": [
       {
