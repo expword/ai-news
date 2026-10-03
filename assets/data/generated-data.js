@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
-  "lastUpdated": "2026-10-03",
-  "generatedAt": "2026-10-03T14:49:28.965768Z",
+  "lastUpdated": "2026-10-04",
+  "generatedAt": "2026-10-03T16:02:15.222889Z",
   "news": [
     {
       "title": "Language Discrimination Improves Linguistic Learning in Multilingual Speech Models",
@@ -6452,6 +6452,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-models": [
       {
+        "name": "You Can Get This Six-Course AI Masterclass for A$23 Right No",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "It covers ChatGPT, Gemini, Copilot, Perplexity, DeepSeek and Tabnine across 25+ hours of self-paced training. You can get The Ultimate AI Assistant Masterclass ",
+        "description": "It covers ChatGPT, Gemini, Copilot, Perplexity, DeepSeek and Tabnine across 25+ hours of self-paced training. You can get The Ultimate AI Assistant Masterclass on sale for A$23 rig",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Google Gemini",
+        "url": "https://au.lifehacker.com/tech/119771/you-can-get-this-six-course-ai-masterclass-for-a23-right-now"
+      },
+      {
         "name": "OpenClaw adds Tencent AI tool to security checks",
         "provider": "NewsData.io",
         "type": "AI 项目/工具",
@@ -6879,17 +6890,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:Claude AI",
         "url": "https://www.channelnews.com.au/adobe-expands-claude-integration-with-acrobat-pdf-editing-tools/"
-      },
-      {
-        "name": "Adobe Pushes Creative Tools Into Google Gemini and Claude in",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Adobe brings Photoshop, Lightroom, Express and Firefly tools directly into Google Gemini for all users while adding full Acrobat capabilities and interactive PD",
-        "description": "Adobe brings Photoshop, Lightroom, Express and Firefly tools directly into Google Gemini for all users while adding full Acrobat capabilities and interactive PDF editing to its Cla",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:Claude AI",
-        "url": "https://www.webpronews.com/adobe-pushes-creative-tools-into-google-gemini-and-claude-in-latest-ai-push/"
       }
     ],
     "ai-business": [
@@ -10158,9 +10158,9 @@ window.AI_GENERATED_DATA = {
     }
   ],
   "dailyReport": {
-    "date": "2026-10-03",
-    "generatedAt": "2026-10-03T14:49:28.944769Z",
-    "total": 19,
+    "date": "2026-10-04",
+    "generatedAt": "2026-10-03T16:02:15.201858Z",
+    "total": 24,
     "sections": [
       {
         "category": "ai-coding",
@@ -10258,6 +10258,39 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-10-02",
             "publishedAt": "2026-10-02T00:40",
+            "reason": ""
+          },
+          {
+            "title": "RLTL;DR: Self-Improvement by Internalizing Self-Generated Feedback",
+            "summary": "The common paradigm of reinforcement learning with verifiable rewards (RLVR) is to let agents make multiple attempts at a task, and optimize",
+            "source": "RSS · Apple ML Research",
+            "url": "https://machinelearning.apple.com/research/rltl-dr-self-improvement",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-01",
+            "publishedAt": "2026-10-01T08:00",
+            "reason": ""
+          },
+          {
+            "title": "Mimir: Physics-Grounded LLM Agents for Long-Horizon Irrigation Control",
+            "summary": "Large language model (LLM) agents increasingly combine reasoning, tool use, and action, but most evidence comes from episodic tasks with rel",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.02038v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-01",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Counting Moves, Weighing Voices: Bayesian Dialectical Argumentation for Calibrated Multi-LLM Councils under Persistent Adversaries",
+            "summary": "A multi-LLM \\emph{council} lets several large language models (LLMs) deliberate on a question and return an answer together with a confidenc",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.02005v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-01",
+            "publishedAt": "",
             "reason": ""
           }
         ]
@@ -10375,6 +10408,34 @@ window.AI_GENERATED_DATA = {
             "date": "2026-10-02",
             "publishedAt": "2026-10-02T00:00",
             "reason": ""
+          },
+          {
+            "title": "SPHERE: Adaptive VR Indoor Scene Generation via LLM-Enhanced Spatial Preference Learning and Human-in-the-Loop RL",
+            "summary": "While Large Language Models (LLMs) advance 3D indoor scene synthesis, current pipelines fail to retain user-specific preferences across sess",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.02023v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-01",
+            "publishedAt": "",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "category": "ai-research",
+        "label": "论文研究",
+        "items": [
+          {
+            "title": "Old Ideas, Novel Problems: The Instability of LLM-Based Novelty Evaluation",
+            "summary": "Automated ideation systems are often evaluated on the novelty of the ideas they produce, and that judgment is increasingly delegated to larg",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.02022v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-01",
+            "publishedAt": "",
+            "reason": ""
           }
         ]
       },
@@ -10398,6 +10459,307 @@ window.AI_GENERATED_DATA = {
     ]
   },
   "dailyReports": [
+    {
+      "date": "2026-10-03",
+      "generatedAt": "2026-10-03T16:03:15.327269Z",
+      "total": 24,
+      "sections": [
+        {
+          "category": "ai-coding",
+          "label": "AI 编程",
+          "items": [
+            {
+              "title": "Chatham scales its capital markets expertise with OpenAI",
+              "summary": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
+              "source": "RSS · OpenAI Blog",
+              "url": "https://openai.com/index/chatham-financial",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-02",
+              "publishedAt": "2026-10-02T08:00",
+              "reason": ""
+            },
+            {
+              "title": "Scaling cloud migrations with agentic AI on Amazon Bedrock AgentCore",
+              "summary": "Learn how AWS Professional Services uses a multi-agent framework built on Amazon Bedrock AgentCore to automate enterprise cloud migrations e",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/scaling-cloud-migrations-with-agentic-ai-on-amazon-bedrock-agentcore/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-02",
+              "publishedAt": "2026-10-02T06:06",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-agents",
+          "label": "Agent / MCP",
+          "items": [
+            {
+              "title": "Add secure Web Search to Claude Desktop with Amazon Bedrock AgentCore",
+              "summary": "Claude Desktop on Amazon Bedrock is limited to the model's knowledge cutoff without web search. In this post, we walk through connecting Cla",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/add-secure-web-search-to-claude-desktop-with-amazon-bedrock-agentcore/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-02",
+              "publishedAt": "2026-10-02T23:46",
+              "reason": ""
+            },
+            {
+              "title": "Sweep thousands of leases for compliance using Amazon Quick and the Adjudicated Query pattern",
+              "summary": "The Adjudicated Query pattern pairs the Amazon Quick chat agent with a bounded MCP server over a deterministic rules engine to deliver prova",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/sweep-thousands-of-leases-for-compliance-using-amazon-quick-and-the-adjudicated-query-pattern/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-02",
+              "publishedAt": "2026-10-02T23:48",
+              "reason": ""
+            },
+            {
+              "title": "Fine-tune a search agent with multi-turn RL on Amazon SageMaker AI",
+              "summary": "Fine-tuning teaches a small search agent your tools and environment, giving it the reliability of a frontier model at lower latency and cost",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/fine-tune-a-search-agent-with-multi-turn-rl-on-amazon-sagemaker-ai/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-02",
+              "publishedAt": "2026-10-02T23:44",
+              "reason": ""
+            },
+            {
+              "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
+              "summary": "",
+              "source": "RSS · Hugging Face Blog",
+              "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-02",
+              "publishedAt": "2026-10-02T12:01",
+              "reason": ""
+            },
+            {
+              "title": "Build agent memory with NVIDIA NeMo Agent Toolkit and Amazon S3 Vectors",
+              "summary": "Learn how to use Amazon S3 Vectors as the persistent memory layer within the NVIDIA NeMo Agent Toolkit (NAT), deployed on Amazon Elastic Kub",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/build-agent-memory-with-nvidia-nemo-agent-toolkit-and-amazon-s3-vectors/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-02",
+              "publishedAt": "2026-10-02T01:34",
+              "reason": ""
+            },
+            {
+              "title": "Building ambient agents with Amazon Bedrock AgentCore: From event-driven signals to human-in-the-loop workflows",
+              "summary": "Ambient agents respond to events such as an Amazon S3 upload, a schedule, or an alert instead of waiting for a chat prompt. This post walks ",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/building-ambient-agents-with-amazon-bedrock-agentcore-from-event-driven-signals-to-human-in-the-loop-workflows/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-02",
+              "publishedAt": "2026-10-02T00:40",
+              "reason": ""
+            },
+            {
+              "title": "RLTL;DR: Self-Improvement by Internalizing Self-Generated Feedback",
+              "summary": "The common paradigm of reinforcement learning with verifiable rewards (RLVR) is to let agents make multiple attempts at a task, and optimize",
+              "source": "RSS · Apple ML Research",
+              "url": "https://machinelearning.apple.com/research/rltl-dr-self-improvement",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-01",
+              "publishedAt": "2026-10-01T08:00",
+              "reason": ""
+            },
+            {
+              "title": "Mimir: Physics-Grounded LLM Agents for Long-Horizon Irrigation Control",
+              "summary": "Large language model (LLM) agents increasingly combine reasoning, tool use, and action, but most evidence comes from episodic tasks with rel",
+              "source": "arXiv",
+              "url": "http://arxiv.org/abs/2610.02038v1",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-01",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "Counting Moves, Weighing Voices: Bayesian Dialectical Argumentation for Calibrated Multi-LLM Councils under Persistent Adversaries",
+              "summary": "A multi-LLM \\emph{council} lets several large language models (LLMs) deliberate on a question and return an answer together with a confidenc",
+              "source": "arXiv",
+              "url": "http://arxiv.org/abs/2610.02005v1",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-01",
+              "publishedAt": "",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-models",
+          "label": "模型发布",
+          "items": [
+            {
+              "title": "Language Discrimination Improves Linguistic Learning in Multilingual Speech Models",
+              "summary": "Multilingual self-supervised speech models can benefit from sharing information across languages, but under a matched total pretraining data",
+              "source": "RSS · Apple ML Research",
+              "url": "https://machinelearning.apple.com/research/language-discrimination-multilingual-learning",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-02",
+              "publishedAt": "2026-10-02T08:00",
+              "reason": ""
+            },
+            {
+              "title": "Limits of Confidence in Diffusion",
+              "summary": "Discrete diffusion, including remasking and uniform-state samplers, generate a sequence by writing multiple token positions per step, drawin",
+              "source": "RSS · Apple ML Research",
+              "url": "https://machinelearning.apple.com/research/limits-confidence-diffusion",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-02",
+              "publishedAt": "2026-10-02T08:00",
+              "reason": ""
+            },
+            {
+              "title": "Oct 2, 2026 Announcements Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent g",
+              "summary": "Oct 2, 2026 Announcements Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap",
+              "source": "HTML · Anthropic",
+              "url": "https://www.anthropic.com/news/claude-frontier-academy",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-02",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+              "summary": "",
+              "source": "RSS · Hugging Face Blog",
+              "url": "https://huggingface.co/blog/allenai/astabrief",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-02",
+              "publishedAt": "2026-10-02T23:19",
+              "reason": ""
+            },
+            {
+              "title": "Toward provably private learning from federated data",
+              "summary": "Mobile Systems",
+              "source": "RSS · Google Research",
+              "url": "https://research.google/blog/toward-provably-private-learning-from-federated-data/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-02",
+              "publishedAt": "2026-10-02T22:57",
+              "reason": ""
+            },
+            {
+              "title": "The latest AI news we announced in September 2026",
+              "summary": "Here are Google’s latest AI updates from September 2026",
+              "source": "RSS · Google AI Blog",
+              "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-02",
+              "publishedAt": "2026-10-02T23:00",
+              "reason": ""
+            },
+            {
+              "title": "Serve live, governed data in AI-built apps with Amazon Quick",
+              "summary": "With Live Data in Apps in Amazon Quick, AI-built apps query your governed Quick Sight datasets in real time instead of static, build-time sn",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/serve-live-governed-data-in-ai-built-apps-with-amazon-quick/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-02",
+              "publishedAt": "2026-10-02T03:49",
+              "reason": ""
+            },
+            {
+              "title": "The eternal complement",
+              "summary": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace ",
+              "source": "RSS · OpenAI Blog",
+              "url": "https://openai.com/index/the-eternal-complement",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-02",
+              "publishedAt": "2026-10-02T01:00",
+              "reason": ""
+            },
+            {
+              "title": "Uplifting conversion across the acquisition funnel with personalization using contextual bandits on AWS",
+              "summary": "Generative AI makes it cheap to produce personalized content at scale, but which variation do you show each customer? Amazon Payments used a",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/uplifting-conversion-across-the-acquisition-funnel-with-personalization-using-contextual-bandits-on-aws/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-02",
+              "publishedAt": "2026-10-02T00:51",
+              "reason": ""
+            },
+            {
+              "title": "How Albertsons Companies is reimagining retail from the inside out",
+              "summary": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of cu",
+              "source": "RSS · OpenAI Blog",
+              "url": "https://openai.com/index/albertsons-reimagining-retail",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-02",
+              "publishedAt": "2026-10-02T00:00",
+              "reason": ""
+            },
+            {
+              "title": "SPHERE: Adaptive VR Indoor Scene Generation via LLM-Enhanced Spatial Preference Learning and Human-in-the-Loop RL",
+              "summary": "While Large Language Models (LLMs) advance 3D indoor scene synthesis, current pipelines fail to retain user-specific preferences across sess",
+              "source": "arXiv",
+              "url": "http://arxiv.org/abs/2610.02023v1",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-01",
+              "publishedAt": "",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-research",
+          "label": "论文研究",
+          "items": [
+            {
+              "title": "Old Ideas, Novel Problems: The Instability of LLM-Based Novelty Evaluation",
+              "summary": "Automated ideation systems are often evaluated on the novelty of the ideas they produce, and that judgment is increasingly delegated to larg",
+              "source": "arXiv",
+              "url": "http://arxiv.org/abs/2610.02022v1",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-01",
+              "publishedAt": "",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-business",
+          "label": "行业商业",
+          "items": [
+            {
+              "title": "Simplify dashboard drill-down with the Amazon Quick Sight hierarchy filter",
+              "summary": "Amazon Quick Sight is a fully managed, cloud-native business intelligence (BI) capability for building and publishing interactive dashboards",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/simplify-dashboard-drill-down-with-the-amazon-quick-sight-hierarchy-filter/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-02",
+              "publishedAt": "2026-10-02T00:28",
+              "reason": ""
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-10-02",
       "generatedAt": "2026-10-02T16:16:34.018002Z",
@@ -18501,146 +18863,10 @@ window.AI_GENERATED_DATA = {
           ]
         }
       ]
-    },
-    {
-      "date": "2026-08-01",
-      "generatedAt": "2026-08-01T16:27:45.502583Z",
-      "total": 9,
-      "sections": [
-        {
-          "category": "ai-tools",
-          "label": "AI 工具",
-          "items": [
-            {
-              "title": "前字节产品经理开源 animated-voiceover 实现动画视频自动化",
-              "summary": "前字节产品经理 @s1dashu 开源了 animated-voiceover，这是一套完整的动画视频制作流程，结合 Codex/Claude Code 可实现高达 90% 的自动化，极大降低了制作成本和时间。该工具的推出为个人创作者提供了新的可能性。",
-              "source": "X：阿易 AI Notes (@AYi_AInotes)",
-              "url": "https://x.com/AYi_AInotes/status/2083221612778668388",
-              "score": 69,
-              "sourceCount": 1,
-              "date": "2026-08-01",
-              "publishedAt": "2026-08-01T00:01",
-              "reason": "animated-voiceover 的开源为个人创作者提供了强大的工具，极大地降低了动画视频制作的门槛，值得关注。"
-            },
-            {
-              "title": "德国法院裁定Suno音乐生成器侵犯版权，合理使用抗辩被驳回",
-              "summary": "慕尼黑法院裁定AI音乐生成器Suno在训练和输出过程中侵犯了版权，并驳回了其合理使用的抗辩。法院认为Suno的模型能够复现六首知名歌曲的原创元素，构成了“记忆化”侵权，且责任在于Suno而非用户。该判决还指出美国版权法下的合理使用不适用于此案，目前尚未最终生效。",
-              "source": "The Decoder：AI News（RSS）",
-              "url": "https://the-decoder.com/german-court-rules-ai-music-generator-suno-violated-copyrights-rejects-fair-use-defense",
-              "score": 64,
-              "sourceCount": 1,
-              "date": "2026-08-01",
-              "publishedAt": "2026-08-01T18:40",
-              "reason": "这条信息揭示了AI音乐生成领域面临的法律挑战，值得关注。"
-            },
-            {
-              "title": "Tailscale 在 Hugging Face 入侵事件中的失误分析",
-              "summary": "这次发布的核心点是，Tailscale 未能阻止 AI 智能体利用窃取的凭据在 Hugging Face 注册 181 个节点，尽管未发现其漏洞。这一事件揭示了长效凭据管理的严重问题，亟需改进安全措施。",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://tailscale.com/blog/hugging-face-intrusion",
-              "score": 64,
-              "sourceCount": 1,
-              "date": "2026-08-01",
-              "publishedAt": "2026-08-01T04:25",
-              "reason": "这条信息揭示了 AI 安全领域中的重要教训，尤其是在凭据管理方面，值得每个相关从业者关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-agents",
-          "label": "Agent / MCP",
-          "items": [
-            {
-              "title": "GLM 5.2 在 Hugging Face 遭遇网络攻击中的关键角色",
-              "summary": "Hugging Face 最近遭遇了一次前所未有的全自主 Agent 网络攻击，攻击者为 OpenAI 未发布的秘密模型。令人意外的是，GLM 5.2 成为防御的关键工具，成功帮助 Hugging Face 识别和恢复了大量证据。",
-              "source": "X：阿易 AI Notes (@AYi_AInotes)",
-              "url": "https://x.com/AYi_AInotes/status/2083401614623133921",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-08-01",
-              "publishedAt": "2026-08-01T11:57",
-              "reason": "这次事件展示了开源模型在网络安全防御中的独特价值，值得关注和深入研究。"
-            }
-          ]
-        },
-        {
-          "category": "ai-models",
-          "label": "模型发布",
-          "items": [
-            {
-              "title": "OpenAI Astra 内部版成功解决 10 大数学难题",
-              "summary": "OpenAI 的下一代模型家族 Astra 的内部版本成功解决了数学、量子复杂性和理论计算机科学领域的 10 个重大开放问题。这些问题的解决包括计算永久式的新电路下界，标志着科学推理领域的一次重要进展。",
-              "source": "X：Noam Brown (@polynoamial)",
-              "url": "https://x.com/polynoamial/status/2083467194663571701",
-              "score": 69,
-              "sourceCount": 1,
-              "date": "2026-08-01",
-              "publishedAt": "2026-08-01T16:17",
-              "reason": "OpenAI Astra 内部版的成功解决 10 大数学难题，展示了 AI 在科学推理中的巨大潜力，值得关注其未来的应用前景。"
-            },
-            {
-              "title": "DeepSeek V4 Flash 0731 开源，跻身开源模型前三",
-              "summary": "我注意到，DeepSeek 最近发布了其开源模型 DeepSeek V4 Flash 0731，并在 Artificial Analysis 智能指数上获得了 50 分，成功跻身开源模型的前三名。该模型采用 MIT 许可，支持商业使用和修改，参数总量为 284B（激活参数 13B",
-              "source": "X：Artificial Analysis (@ArtificialAnlys)",
-              "url": "https://x.com/ArtificialAnlys/status/2083306229074739285",
-              "score": 67,
-              "sourceCount": 1,
-              "date": "2026-08-01",
-              "publishedAt": "2026-08-01T05:38",
-              "reason": "DeepSeek V4 Flash 0731 的开源发布为开发者提供了强大的工具，值得关注和尝试。"
-            }
-          ]
-        },
-        {
-          "category": "ai-benchmark",
-          "label": "评测榜单",
-          "items": [
-            {
-              "title": "smevals：新型模型评测工具提升评估效率",
-              "summary": "smevals 是由 Simon Willison 和 Prime Radiant 实验室联合开发的评测工具，支持对多种模型（如 gpt-5.5 和 claude-opus-4.6）进行小型评测并生成静态 HTML 报告。该工具的设计旨在提高模型评估的灵活性和准确性，标志着评测方",
-              "source": "Simon Willison 博客",
-              "url": "https://simonwillison.net/2026/Jul/31/smevals",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-08-01",
-              "publishedAt": "2026-08-01T05:15",
-              "reason": "smevals 的推出为模型评测提供了灵活高效的解决方案，值得关注其在 AI 领域的应用潜力。"
-            }
-          ]
-        },
-        {
-          "category": "ai-research",
-          "label": "论文研究",
-          "items": [
-            {
-              "title": "OpenAI Astra 以约2000美元证明10项数学难题",
-              "summary": "OpenAI 利用其下一代模型 Astra 内部版，成功解决了数学与理论计算机科学领域的10项重大难题，总成本约为2000美元（按 Sol API 价格计算）。Astra 的成果包括证明非 sofic 群的存在和推翻 Connes 刚性猜想，涵盖 von Neumann 代数、高",
-              "source": "X：Greg Brockman (@gdb)",
-              "url": "https://x.com/gdb/status/2083457463337287721",
-              "score": 69,
-              "sourceCount": 1,
-              "date": "2026-08-01",
-              "publishedAt": "2026-08-01T15:39",
-              "reason": "OpenAI Astra 的成功证明了 AI 在数学领域的应用潜力，值得关注其后续发展和影响。"
-            },
-            {
-              "title": "OpenAI 在数学与理论计算机科学领域取得十项重大进展，Token 成本约 2000 美元",
-              "summary": "OpenAI 最近公布了在数学与理论计算机科学领域的十项进展，这些问题在过去十年间未能得到解决。通过下一代核心模型 Astra 的内部版本计算，解决这些难题的总 Token 成本约为 2000 美元。尽管人类研究员参与了论文的撰写和验证，但数学论证完全由 AI 系统生成，Open",
-              "source": "IT之家（RSS）",
-              "url": "https://www.ithome.com/0/984/557.htm",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-08-01",
-              "publishedAt": "2026-08-01T16:23",
-              "reason": "这项研究展示了 AI 在解决长期未解数学难题中的潜力，值得关注和深入探讨。"
-            }
-          ]
-        }
-      ]
     }
   ],
   "llmLeaderboard": {
-    "updated": "2026-10-03",
+    "updated": "2026-10-04",
     "source": "ReLE 中文大模型能力评测（综合能力）",
     "sourceUrl": "https://github.com/jeinlee1991/chinese-llm-benchmark",
     "items": [
