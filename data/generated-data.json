@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-10-04",
-  "generatedAt": "2026-10-03T23:06:14.579240Z",
+  "generatedAt": "2026-10-04T13:23:15.828220Z",
   "news": [
     {
       "title": "The Agent Said It Was Done. The Database Disagreed.",
@@ -6038,6 +6038,72 @@
     ],
     "ai-agents": [
       {
+        "name": "OpenAI safety leader resigns, warns culture of developing th",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "One of the safety leaders of OpenAI has resigned, warning that the culture of Artificial Intelligence firms was \"broken\" and the tech giants are not “being near",
+        "description": "One of the safety leaders of OpenAI has resigned, warning that the culture of Artificial Intelligence firms was \"broken\" and the tech giants are not “being nearly careful enough” w",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.firstpost.com/tech/openai-safety-leader-resigns-warns-culture-of-developing-the-technology-is-broken-14050222.html"
+      },
+      {
+        "name": "Detroit Pistons announce contract extension for centre Jalen",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "The 22-year-old All-NBA player had been a restricted free agent.",
+        "description": "The 22-year-old All-NBA player had been a restricted free agent.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.straitstimes.com/sport/basketball/detroit-pistons-announce-contract-extension-for-centre-jalen-duren"
+      },
+      {
+        "name": "Oct. 3 News",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Editor's Choice: Scroll below for our monthly blend of mainstream and alternative October 2026 news and views Note: Excerpts are from the authors' words except ",
+        "description": "Editor's Choice: Scroll below for our monthly blend of mainstream and alternative October 2026 news and views Note: Excerpts are from the authors' words except for subheads and occ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://beforeitsnews.com/politics/2026/10/oct-3-news-3368271.html"
+      },
+      {
+        "name": "Did OpenAI Fire its Whistleblowers?(Video)",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "This is a 2 October 2026 published video. OpenAI has fired three employees for allegedly mishandling sensitive company information. The terminations come amid h",
+        "description": "This is a 2 October 2026 published video. OpenAI has fired three employees for allegedly mishandling sensitive company information. The terminations come amid heightened scrutiny o",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://beforeitsnews.com/science-and-technology/2026/10/did-openai-fire-its-whistleblowersvideo-3112718.html"
+      },
+      {
+        "name": "Software companies are shipping AI sales agents four times f",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "The biggest advancement in AI sales agents comes from the software sector sales and revenue teams in the past 13 months, according to data from ZoomInfo. That’s",
+        "description": "The biggest advancement in AI sales agents comes from the software sector sales and revenue teams in the past 13 months, according to data from ZoomInfo. That’s more than three-and",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://kesq.com/stacker-business-economy/2026/10/03/software-companies-are-shipping-ai-sales-agents-four-times-faster-than-any-other-industry/"
+      },
+      {
+        "name": "Catherine Thorbecke: What happens when Chinese AI goes rogue",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Covering the recent round of AI apocalypse warnings, I’ve tried to reject this cult-like deference toward all-powerful computer systems and the inevitability rh",
+        "description": "Covering the recent round of AI apocalypse warnings, I’ve tried to reject this cult-like deference toward all-powerful computer systems and the inevitability rhetoric: If Silicon V",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.arcamax.com/opeds/s-4311522"
+      },
+      {
         "name": "The Agent Said It Was Done. The Database Disagreed.",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -6410,72 +6476,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2610.01349v1"
-      },
-      {
-        "name": "Scaling cloud migrations with agentic AI on Amazon Bedrock A",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Learn how AWS Professional Services uses a multi-agent framework built on Amazon Bedrock AgentCore to automate enterprise cloud migrations end to end. Purpose-b",
-        "description": "Learn how AWS Professional Services uses a multi-agent framework built on Amazon Bedrock AgentCore to automate enterprise cloud migrations end to end. Purpose-built AI agents handl",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/scaling-cloud-migrations-with-agentic-ai-on-amazon-bedrock-agentcore/"
-      },
-      {
-        "name": "Modal 发布 VM Sandboxes、Modal Clusters 等多项 Runtime 产品更新",
-        "provider": "Modal 官方工程博客（RSS）",
-        "type": "AI 项目/工具",
-        "bestFor": "Modal 在其首届 Runtime 大会上发布多项产品更新。VM Sandboxes 为 Agent 提供完整 Linux 环境，已在 Linear、Legora。",
-        "description": "Modal 在其首届 Runtime 大会上发布多项产品更新。VM Sandboxes 为 Agent 提供完整 Linux 环境，已在 Linear、Legora。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Modal 官方工程博客（RSS）",
-        "url": "https://modal.com/blog/runtime-product-update-sandbox-endpoints"
-      },
-      {
-        "name": "Modal 正式发布 VM Sandboxes：给 Agent 一台完整的 Linux 虚拟机",
-        "provider": "Modal 官方工程博客（RSS）",
-        "type": "AI 项目/工具",
-        "bestFor": "Modal 宣布 VM Sandboxes 正式 GA，只需设置 runtime=\"vm\" 即可获得支持 Docker、FUSE 和内核功能的完整 Linux VM，沿用原有 Sandbox 的 API、modal.Image、亚秒级冷启动和内存爆发能力，早期客户已启动超过 2000 万个 VM。",
-        "description": "Modal 宣布 VM Sandboxes 正式 GA，只需设置 runtime=\"vm\" 即可获得支持 Docker、FUSE 和内核功能的完整 Linux VM，沿用原有 Sandbox 的 API、modal.Image、亚秒级冷启动和内存爆发能力，早期客户已启动超过 2000 万个 VM。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Modal 官方工程博客（RSS）",
-        "url": "https://modal.com/blog/vm-sandboxes-agent-computers"
-      },
-      {
-        "name": "MiMo-V2.6-Pro 和 MiMo-V2.6-Flash 登陆 Agent Arena，分列开源模型第5和第9",
-        "provider": "X：Arena (@arena)",
-        "type": "AI 项目/工具",
-        "bestFor": "Arena 宣布 Xiaomi MiMo-V2.6-Pro 和 MiMo-V2.6-Flash 登陆 Agent Arena。Pro 在 8.1K+ 真实智能体会话中净提升 +3.17%，列开源模型第5，较 MiMo-V2.5-Pro（第13，-7.23%）提升9个名次；其 Confirmed Success 得分 +",
-        "description": "Arena 宣布 Xiaomi MiMo-V2.6-Pro 和 MiMo-V2.6-Flash 登陆 Agent Arena。Pro 在 8.1K+ 真实智能体会话中净提升 +3.17%，列开源模型第5，较 MiMo-V2.5-Pro（第13，-7.23%）提升9个名次；其 Confirmed Success 得分 +7.35%，列开源模型第2。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "X：Arena (@arena)",
-        "url": "https://x.com/arena/status/2105733983250301224"
-      },
-      {
-        "name": "LangChain 讲解如何在 Agent Harness 中构建模型路由器",
-        "provider": "LangChain：Blog（RSS）",
-        "type": "AI 项目/工具",
-        "bestFor": "LangChain 在其开源编码 Agent Open SWE 中构建模型路由器，在 973 个线程的 A/B 测试中，中位成本从 $2.61 降到 $0.94（降 64%），PR 合并率 29.2% 对 27.3%，质量无可测变化。",
-        "description": "LangChain 在其开源编码 Agent Open SWE 中构建模型路由器，在 973 个线程的 A/B 测试中，中位成本从 $2.61 降到 $0.94（降 64%），PR 合并率 29.2% 对 27.3%，质量无可测变化。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "LangChain：Blog（RSS）",
-        "url": "https://www.langchain.com/blog/how-to-build-a-model-router-in-the-harness"
-      },
-      {
-        "name": "Build agent memory with NVIDIA NeMo Agent Toolkit and Amazon",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Learn how to use Amazon S3 Vectors as the persistent memory layer within the NVIDIA NeMo Agent Toolkit (NAT), deployed on Amazon Elastic Kubernetes Service (Ama",
-        "description": "Learn how to use Amazon S3 Vectors as the persistent memory layer within the NVIDIA NeMo Agent Toolkit (NAT), deployed on Amazon Elastic Kubernetes Service (Amazon EKS). This post ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/build-agent-memory-with-nvidia-nemo-agent-toolkit-and-amazon-s3-vectors/"
       }
     ],
     "ai-models": [
@@ -10187,7 +10187,7 @@
   ],
   "dailyReport": {
     "date": "2026-10-04",
-    "generatedAt": "2026-10-03T23:06:14.552949Z",
+    "generatedAt": "2026-10-04T13:23:15.803216Z",
     "total": 24,
     "sections": [
       {
