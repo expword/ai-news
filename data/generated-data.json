@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-04",
-  "generatedAt": "2026-10-04T15:48:25.111883Z",
+  "lastUpdated": "2026-10-05",
+  "generatedAt": "2026-10-04T16:59:55.768187Z",
   "news": [
     {
       "title": "The Agent Said It Was Done. The Database Disagreed.",
@@ -10159,8 +10159,8 @@
     }
   ],
   "dailyReport": {
-    "date": "2026-10-04",
-    "generatedAt": "2026-10-04T15:48:25.089853Z",
+    "date": "2026-10-05",
+    "generatedAt": "2026-10-04T16:59:55.747855Z",
     "total": 24,
     "sections": [
       {
@@ -10460,6 +10460,30 @@
     ]
   },
   "dailyReports": [
+    {
+      "date": "2026-10-04",
+      "generatedAt": "2026-10-04T16:00:45.638551Z",
+      "total": 1,
+      "sections": [
+        {
+          "category": "ai-agents",
+          "label": "Agent / MCP",
+          "items": [
+            {
+              "title": "The Agent Said It Was Done. The Database Disagreed.",
+              "summary": "",
+              "source": "RSS · Hugging Face Blog",
+              "url": "https://huggingface.co/blog/microsoft/thinkingbox",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-04",
+              "publishedAt": "2026-10-04T06:56",
+              "reason": ""
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-10-03",
       "generatedAt": "2026-10-03T16:03:15.327269Z",
@@ -18806,68 +18830,10 @@
           ]
         }
       ]
-    },
-    {
-      "date": "2026-08-02",
-      "generatedAt": "2026-08-02T16:27:41.744927Z",
-      "total": 3,
-      "sections": [
-        {
-          "category": "ai-tools",
-          "label": "AI 工具",
-          "items": [
-            {
-              "title": "Grok 新功能：全面分析任意视频内容",
-              "summary": "Grok 最新推出的功能允许用户分析任何视频，标志着其在视频内容理解领域的重大进展。此功能的推出，预计将提升用户在视频数据处理和信息提取方面的效率，尤其是在教育、媒体和市场研究等行业中。与传统视频分析工具相比，Grok 的分析能力更为全面，能够处理复杂的场景和多样化的内容。",
-              "source": "X：Elon Musk (@elonmusk, xAI)",
-              "url": "https://x.com/elonmusk/status/2083800942927839307",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-08-02",
-              "publishedAt": "2026-08-02T14:23",
-              "reason": "Grok 的视频分析功能为用户提供了前所未有的内容理解能力，值得关注其在各行业中的应用潜力。"
-            }
-          ]
-        },
-        {
-          "category": "ai-coding",
-          "label": "AI 编程",
-          "items": [
-            {
-              "title": "Codex 通过 Sol 指挥 Luna Max 实现产出翻倍",
-              "summary": "这次发布的核心点是 Codex 的高阶玩法，利用 Sol 和 Luna Max 的组合，显著提高开发效率并节省成本。通过让 Sol 负责任务拆分与代码审查，将具体实现交给 Luna Max，用户可以在同一订阅下实现产出翻倍，优化资源使用。",
-              "source": "X：阿易 AI Notes (@AYi_AInotes)",
-              "url": "https://x.com/AYi_AInotes/status/2083867265179537565",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-08-02",
-              "publishedAt": "2026-08-02T18:47",
-              "reason": "这条信息值得关注，因为它展示了如何通过合理的工具组合，显著提升开发效率并降低成本，适合广泛的开发者群体。"
-            }
-          ]
-        },
-        {
-          "category": "ai-image-video",
-          "label": "图像视频",
-          "items": [
-            {
-              "title": "Seedance 2.5 发布：支持多模态参考与精准编辑的高效视频生成工具",
-              "summary": "Seedance 2.5 正式上线，用户可单次生成最长 30 秒的高质量音视频片段，并支持多轮扩展以输出数分钟连贯内容。新版本允许一次输入最多 30 张图片、10 段视频和 10 段音频作为参考，新增的时间戳级编辑控制提升了长叙事和多模态剪辑能力。即日起可在即梦 AI、豆包 Pr",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-08-02",
-              "publishedAt": "2026-08-02T08:09",
-              "reason": "Seedance 2.5 的多模态支持和精准编辑功能，使其成为视频创作领域的强大工具，值得关注。"
-            }
-          ]
-        }
-      ]
     }
   ],
   "llmLeaderboard": {
-    "updated": "2026-10-04",
+    "updated": "2026-10-05",
     "source": "ReLE 中文大模型能力评测（综合能力）",
     "sourceUrl": "https://github.com/jeinlee1991/chinese-llm-benchmark",
     "items": [
