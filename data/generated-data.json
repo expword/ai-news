@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-10-04",
-  "generatedAt": "2026-10-04T13:23:15.828220Z",
+  "generatedAt": "2026-10-04T15:48:25.111883Z",
   "news": [
     {
       "title": "The Agent Said It Was Done. The Database Disagreed.",
@@ -2475,33 +2475,6 @@
       "moduleTargets": [
         "news",
         "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Effective Dense Retrieval using Only In-Context Examples",
-      "summary": "Turning decoder-only large language models (LLMs) into strong dense retrievers typically requires some form of retriever training. In this paper, we ask whether LLMs can instead be",
-      "category": "ai-coding",
-      "source": "arXiv",
-      "date": "2026-09-29",
-      "publishedAt": "",
-      "collectedAt": "2026-09-30T10:55",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-29",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.38099v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
       ],
       "sourceCount": 1
     }
@@ -6038,6 +6011,17 @@
     ],
     "ai-agents": [
       {
+        "name": "DeepSeek Harness v0.2 Brings Official Desktop Apps to Its Op",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "",
+        "description": "",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:DeepSeek",
+        "url": "https://www.newsbreak.com/news/4924267589896-deepseek-harness-v0-2-brings-official-desktop-apps-to-its-open-source-agent-harness"
+      },
+      {
         "name": "OpenAI safety leader resigns, warns culture of developing th",
         "provider": "NewsData.io",
         "type": "AI 项目/工具",
@@ -6465,20 +6449,20 @@
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2610.02150v1"
-      },
-      {
-        "name": "PACE: Provenance-Aware Capability Enforcement for Tool-Using",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Tool-using large language model (LLM) agents turn generated text into real side effects, so poisoned tool metadata, retrieved pages, memory, and reusable skills",
-        "description": "Tool-using large language model (LLM) agents turn generated text into real side effects, so poisoned tool metadata, retrieved pages, memory, and reusable skills can steer the next ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2610.01349v1"
       }
     ],
     "ai-models": [
+      {
+        "name": "DeepSeek down live: Chinese AI app not working properly amid",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "DeepSeek says its AI model is similar to US giants like OpenAI, despite fears of censorship around issues sensitive to Beijing... ▷ DeepSeek AI model",
+        "description": "DeepSeek says its AI model is similar to US giants like OpenAI, despite fears of censorship around issues sensitive to Beijing... ▷ DeepSeek AI model",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:DeepSeek",
+        "url": "https://ng.shotoe.com/deepseek-ai-model-st_563171/news/deepseek-down-live-chinese-ai-app-not-working-properly-amid-sn_5076052/"
+      },
       {
         "name": "You Can Get This Six-Course AI Masterclass for A$23 Right No",
         "provider": "NewsData.io",
@@ -6907,17 +6891,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:DeepSeek",
         "url": "https://www.einpresswire.com/article/944997513/trustmodel-ai-launches-independent-assessment-platform-for-the-foundation-models-powering-the-global-2000"
-      },
-      {
-        "name": "Adobe Expands Claude Integration With Acrobat PDF Editing To",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Adobe is bringing more of its software directly into AI chat platforms, adding Acrobat PDF tools to Claude while expanding its integrations with Google Gemini. ",
-        "description": "Adobe is bringing more of its software directly into AI chat platforms, adding Acrobat PDF tools to Claude while expanding its integrations with Google Gemini. The updated Adobe fo",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:Claude AI",
-        "url": "https://www.channelnews.com.au/adobe-expands-claude-integration-with-acrobat-pdf-editing-tools/"
       }
     ],
     "ai-business": [
@@ -10187,7 +10160,7 @@
   ],
   "dailyReport": {
     "date": "2026-10-04",
-    "generatedAt": "2026-10-04T13:23:15.803216Z",
+    "generatedAt": "2026-10-04T15:48:25.089853Z",
     "total": 24,
     "sections": [
       {
