@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-10-05",
-  "generatedAt": "2026-10-05T04:43:22.691988Z",
+  "generatedAt": "2026-10-05T08:23:27.838539Z",
   "news": [
     {
       "title": "The Agent Said It Was Done. The Database Disagreed.",
@@ -5692,6 +5692,21 @@
       "date": "2026-08-05"
     },
     {
+      "name": "QwenLM/D2K-Bench",
+      "lang": "Python",
+      "description": "通义千问 Qwen 开源项目。",
+      "stars": "0 stars",
+      "why": "国产大模型厂商 通义千问 Qwen 的最新开源动态/模型发布，属一手信源。",
+      "url": "https://github.com/QwenLM/D2K-Bench",
+      "source": "GitHub · 通义千问 Qwen",
+      "tier": "T1",
+      "category": "Coding Agent",
+      "details": "通义千问 Qwen 开源项目。",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
       "name": "MiniMax-AI/OpenAgentCore",
       "lang": "Go",
       "description": "Open-source, self-hosted implementation of the OpenAI Agents API with multiple native harnesses.",
@@ -5732,21 +5747,6 @@
       "tier": "T1",
       "category": "Coding Agent",
       "details": "An internal component used by DeepSeek Harness",
-      "features": [],
-      "useCases": [],
-      "quickStart": []
-    },
-    {
-      "name": "deepseek-ai/TileKernels",
-      "lang": "Python",
-      "description": "A kernel library written in tilelang",
-      "stars": "1817 stars",
-      "why": "国产大模型厂商 DeepSeek 的最新开源动态/模型发布，属一手信源。",
-      "url": "https://github.com/deepseek-ai/TileKernels",
-      "source": "GitHub · DeepSeek",
-      "tier": "T1",
-      "category": "Coding Agent",
-      "details": "A kernel library written in tilelang",
       "features": [],
       "useCases": [],
       "quickStart": []
@@ -10458,7 +10458,7 @@
   ],
   "dailyReport": {
     "date": "2026-10-05",
-    "generatedAt": "2026-10-05T04:43:22.670988Z",
+    "generatedAt": "2026-10-05T08:23:27.817538Z",
     "total": 24,
     "sections": [
       {
