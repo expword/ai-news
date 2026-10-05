@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-10-05",
-  "generatedAt": "2026-10-05T10:44:51.429014Z",
+  "generatedAt": "2026-10-05T13:19:12.021297Z",
   "news": [
     {
       "title": "Building advertising for the way people use AI",
@@ -2489,285 +2489,6 @@
         "news"
       ],
       "sourceCount": 1
-    },
-    {
-      "title": "Helping small businesses put AI to work",
-      "summary": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
-      "category": "ai-business",
-      "source": "RSS · OpenAI Blog",
-      "date": "2026-09-30",
-      "publishedAt": "2026-09-30T18:00",
-      "collectedAt": "2026-10-01T00:45",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
-      "summary": "",
-      "category": "ai-benchmark",
-      "source": "RSS · Hugging Face Blog",
-      "date": "2026-09-30",
-      "publishedAt": "2026-09-30T08:00",
-      "collectedAt": "2026-10-01T00:45",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://huggingface.co/blog/open-tts-leaderboard",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Anthropic 研究测算机器人对岗位的暴露度：机器人可做 74% 的物理任务但仅 0.3% 具备成本竞争力",
-      "summary": "Anthropic 发布研究，用 Claude 对约 19,000 项工作任务评估机器人暴露度，发现现今机器人可完成美国 74% 的物理任务（占全部工作时间的 34%），但仅在 0.3% 的任务上比人工更具成本竞争力，按每年约 3% 的降价趋势需约 40 年才能达到 10%。",
-      "category": "ai-models",
-      "source": "Anthropic：Research（发表成果 · 网页）",
-      "date": "2026-09-30",
-      "publishedAt": "2026-09-30T00:00",
-      "collectedAt": "2026-10-01T00:45",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://www.anthropic.com/research/what-work-can-robots-do",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Query claims in natural language with Amazon Bedrock Knowledge Bases",
-      "summary": "This technical how-to builds a conversational claims assistant on Amazon Bedrock Knowledge Bases that answers natural-language questions with citations. It covers ingesting claim d",
-      "category": "ai-agents",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-09-30",
-      "publishedAt": "2026-09-30T23:37",
-      "collectedAt": "2026-10-01T00:45",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/query-claims-in-natural-language-with-amazon-bedrock-knowledge-bases/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Google DeepMind 发布 SynthID Bio，为 AI 生成的蛋白质嵌入可验证水印",
-      "summary": "Google DeepMind 于 9 月 30 日发布 SynthID Bio，将水印技术引入合成生物学，把不可见签名嵌入生物序列和预测结构中，使水印可在合成的物理蛋白质上验证，且在湿实验中不损害生物功能。",
-      "category": "ai-models",
-      "source": "Google DeepMind：Blog（RSS）",
-      "date": "2026-09-30",
-      "publishedAt": "2026-09-30T23:03",
-      "collectedAt": "2026-10-01T00:45",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://deepmind.google/blog/introducing-synthid-bio/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Build a multi-agent music production pipeline on Amazon Bedrock AgentCore Runtime Instances",
-      "summary": "Amazon Bedrock AgentCore Runtime Instances gives multi-agent workflows AWS managed EC2 infrastructure with GPUs, persistent volumes, and multi-day sessions. In this post, we deploy",
-      "category": "ai-agents",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-09-30",
-      "publishedAt": "2026-09-30T23:21",
-      "collectedAt": "2026-10-01T00:45",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/build-a-multi-agent-music-production-pipeline-on-amazon-bedrock-agentcore-runtime-instances/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Amazon Bedrock expands Claude model availability to in-country inferencing in India",
-      "summary": "Anthropic's Claude Opus 5, Claude Sonnet 5, and Claude Haiku 4.5 are now available in India through Amazon Bedrock geographic cross-Region inference. You can access these models wh",
-      "category": "ai-models",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-09-30",
-      "publishedAt": "2026-09-30T09:13",
-      "collectedAt": "2026-09-30T09:39",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-expands-claude-model-availability-to-india-cross-region-inference/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Introducing Anthropic models on Amazon Bedrock for in-region inference in Seoul and Singapore",
-      "summary": "Amazon Bedrock now supports Anthropic's Claude Opus 5 and Claude Sonnet 5 with in-region inference in Seoul, and Claude Sonnet 5 in Singapore. If you have local data processing req",
-      "category": "ai-models",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-09-30",
-      "publishedAt": "2026-09-30T09:13",
-      "collectedAt": "2026-09-30T09:39",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-anthropic-models-on-amazon-bedrock-for-in-region-inference-in-seoul-and-singapore/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "How Diffusion Controller unifies and simplifies AI image generation",
-      "summary": "Algorithms & Theory",
-      "category": "ai-image-video",
-      "source": "RSS · Google Research",
-      "date": "2026-09-30",
-      "publishedAt": "2026-09-30T02:38",
-      "collectedAt": "2026-09-30T03:44",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://research.google/blog/how-diffusion-controller-unifies-and-simplifies-ai-image-generation/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Prompt engineering fundamentals for Amazon Quick",
-      "summary": "Prompt engineering in Amazon Quick shapes how accurately its AI-powered features respond to your requests. Part 1 of a two-part series covers the foundational principles and reusab",
-      "category": "ai-models",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-09-30",
-      "publishedAt": "2026-09-30T00:27",
-      "collectedAt": "2026-09-30T01:24",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/prompt-engineering-fundamentals-for-amazon-quick/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 2,
-      "relatedSources": [
-        {
-          "source": "RSS · AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/prompt-engineering-by-quick-component-patterns-and-pitfalls/",
-          "title": "Prompt engineering by Quick component: Patterns and pitfalls"
-        }
-      ]
     }
   ],
   "weeklyDigests": [
@@ -6751,6 +6472,28 @@
     ],
     "ai-models": [
       {
+        "name": "Nigeria: Wri Index 2026 - 70 Percent of Nigerian Workers App",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "[This Day] Abuja -- The findings of the fourth annual HP Work Relationship Index (WRI) has that over 70 per cent of workers in Nigeria were happy with the deplo",
+        "description": "[This Day] Abuja -- The findings of the fourth annual HP Work Relationship Index (WRI) has that over 70 per cent of workers in Nigeria were happy with the deployment of Artificial ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:artificial intelligence",
+        "url": "https://allafrica.com/stories/202610050004.html"
+      },
+      {
+        "name": "‘AI, digital mapping, to drive next wave of real estate grow",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Lagos-based estate surveyor and valuer, Chief M. I. Okoro has identified artificial intelligence (AI), digital mapping, building information modelling (BIM) and",
+        "description": "Lagos-based estate surveyor and valuer, Chief M. I. Okoro has identified artificial intelligence (AI), digital mapping, building information modelling (BIM) and smart-building syst",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:artificial intelligence",
+        "url": "https://dailytrust.com/ai-digital-mapping-to-drive-next-wave-of-real-estate-growth/"
+      },
+      {
         "name": "Building advertising for the way people use AI",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -7167,28 +6910,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:artificial intelligence",
         "url": "https://www.tekedia.com/us-joins-musks-x-fight-against-e120-million-eu-fine-escalating-transatlantic-tech-dispute/"
-      },
-      {
-        "name": "美国上诉法院维持五角大楼将 Anthropic 列为供应链风险的认定",
-        "provider": "Hacker News：AI 热帖",
-        "type": "AI 项目/工具",
-        "bestFor": "华盛顿特区联邦上诉法院以 2 比 1 裁定，维持国防部将 Anthropic 列为供应链风险的决定，禁止美军及国防承包商使用 Claude 模型。",
-        "description": "华盛顿特区联邦上诉法院以 2 比 1 裁定，维持国防部将 Anthropic 列为供应链风险的决定，禁止美军及国防承包商使用 Claude 模型。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Hacker News：AI 热帖",
-        "url": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html"
-      },
-      {
-        "name": "2026 just became the year of FreeBSD on the (Amazonian cloud",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Desktop AMIs ‘designed to behave as much like Windows as possible’ now available as an on ramp for new users",
-        "description": "Desktop AMIs ‘designed to behave as much like Windows as possible’ now available as an on ramp for new users",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:Google Gemini",
-        "url": "https://www.theregister.com/os-platforms/2026/09/25/2026-just-became-the-year-of-freebsd-on-the-amazonian-cloud-desktop/5299025"
       }
     ],
     "ai-business": [
@@ -10458,7 +10179,7 @@
   ],
   "dailyReport": {
     "date": "2026-10-05",
-    "generatedAt": "2026-10-05T10:44:51.409824Z",
+    "generatedAt": "2026-10-05T13:19:12.002294Z",
     "total": 24,
     "sections": [
       {
