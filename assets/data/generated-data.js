@@ -1,7 +1,147 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-10-06",
-  "generatedAt": "2026-10-05T15:47:52.596434Z",
+  "generatedAt": "2026-10-05T18:09:24.144728Z",
   "news": [
+    {
+      "title": "Supercharge regulated workloads with Claude Code and Amazon Bedrock",
+      "summary": "Anthropic Claude Opus 5.5 and Claude Sonnet 5.5 are available on Amazon Bedrock in the AWS GovCloud (US) Regions. Learn how to use them with Claude Code, Anthropic's agentic coding",
+      "category": "ai-coding",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-10-06",
+      "publishedAt": "2026-10-06T01:25",
+      "collectedAt": "2026-10-06T02:09",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/supercharge-regulated-workloads-with-claude-code-and-amazon-bedrock/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Agentic retrieval with LangChain and Amazon Bedrock Knowledge Bases",
+      "summary": "Build a Retrieval Augmented Generation (RAG) application on Amazon Bedrock Managed Knowledge Base with LangChain, and see how agentic retrieval handles the multi-part questions tha",
+      "category": "ai-agents",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-10-05",
+      "publishedAt": "2026-10-05T23:53",
+      "collectedAt": "2026-10-06T00:58",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/agentic-retrieval-with-langchain-and-amazon-bedrock-knowledge-bases/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Making Amazon Quick enterprise-ready: Automated, auditable cross-account resource promotion",
+      "summary": "Promoting Amazon Quick resources (agents, action connectors, knowledge bases, flows, and spaces) from a development to a production AWS account has been a manual, error-prone chore",
+      "category": "ai-agents",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-10-05",
+      "publishedAt": "2026-10-05T23:56",
+      "collectedAt": "2026-10-06T00:58",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/making-amazon-quick-enterprise-ready-automated-auditable-cross-account-resource-promotion/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Evaluating multi-agent systems for explainability and helpfulness with Amazon Bedrock AgentCore",
+      "summary": "Multi-agent systems need deeper guarantees than fluent responses: they must select the right tools, respect constraints, and explain their decisions. Learn how to build a Strands-b",
+      "category": "ai-agents",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-10-05",
+      "publishedAt": "2026-10-05T23:50",
+      "collectedAt": "2026-10-06T00:58",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/evaluating-multi-agent-systems-for-explainability-and-helpfulness-with-amazon-bedrock-agentcore/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Downgrading user roles in Amazon Quick",
+      "summary": "Amazon Quick doesn't offer a direct console path to downgrade a user from Admin or Author to Reader. This post walks through two reliable methods: a manual delete-and-recreate appr",
+      "category": "ai-models",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-10-05",
+      "publishedAt": "2026-10-05T23:51",
+      "collectedAt": "2026-10-06T00:58",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/downgrading-user-roles-in-amazon-quick/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Together Link: open models in the harness you already use. Start with one command today.",
       "summary": "Together Link brings frontier open models like GLM 5.3 and Kimi K3 into the coding agent your team already uses, cutting model spend by over 50%.",
@@ -936,7 +1076,14 @@ window.AI_GENERATED_DATA = {
         "news",
         "topicResources"
       ],
-      "sourceCount": 1
+      "sourceCount": 2,
+      "relatedSources": [
+        {
+          "source": "RSS · AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/new-agent-skill-amazon-sagemaker-optimized-generative-ai-inference-for-your-coding-agent/",
+          "title": "New agent skill: Amazon SageMaker optimized generative AI inference for your coding agent"
+        }
+      ]
     },
     {
       "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
@@ -2503,6 +2650,33 @@ window.AI_GENERATED_DATA = {
       "sourceDate": "",
       "tags": [],
       "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Welcome RL Environments to the hub",
+      "summary": "",
+      "category": "ai-models",
+      "source": "RSS · Hugging Face Blog",
+      "date": "2026-09-28",
+      "publishedAt": "2026-09-28T08:00",
+      "collectedAt": "2026-10-06T00:58",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://huggingface.co/blog/rl-environments",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -5616,6 +5790,28 @@ window.AI_GENERATED_DATA = {
   "topicResources": {
     "ai-coding": [
       {
+        "name": "New agent skill: Amazon SageMaker optimized generative AI in",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Amazon SageMaker optimized generative AI inference introduces the aws-ai-ml skill through the Agent Toolkit for AWS, giving coding agents like Kiro, Claude Code",
+        "description": "Amazon SageMaker optimized generative AI inference introduces the aws-ai-ml skill through the Agent Toolkit for AWS, giving coding agents like Kiro, Claude Code, and Codex deep exp",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/new-agent-skill-amazon-sagemaker-optimized-generative-ai-inference-for-your-coding-agent/"
+      },
+      {
+        "name": "Supercharge regulated workloads with Claude Code and Amazon ",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Anthropic Claude Opus 5.5 and Claude Sonnet 5.5 are available on Amazon Bedrock in the AWS GovCloud (US) Regions. Learn how to use them with Claude Code, Anthro",
+        "description": "Anthropic Claude Opus 5.5 and Claude Sonnet 5.5 are available on Amazon Bedrock in the AWS GovCloud (US) Regions. Learn how to use them with Claude Code, Anthropic's agentic coding",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/supercharge-regulated-workloads-with-claude-code-and-amazon-bedrock/"
+      },
+      {
         "name": "Together Link: open models in the harness you already use. S",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -6032,31 +6228,42 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · AWS Machine Learning",
         "url": "https://aws.amazon.com/blogs/machine-learning/evaluate-skill-equipped-agents-with-strands-evals-and-amazon-bedrock-agentcore/"
-      },
-      {
-        "name": "The AI assurance trap: When agents generate their own eviden",
-        "provider": "CIO",
-        "type": "AI 项目/工具",
-        "bestFor": "AI can write the code, tests and documentation, but who's checking that the AI got the important decisions right? endif; ?>\n\nFor millennia, the definition of \"w",
-        "description": "AI can write the code, tests and documentation, but who's checking that the AI got the important decisions right? endif; ?>\n\nFor millennia, the definition of \"work\" was defined by ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "CIO",
-        "url": "https://www.cio.com/article/4224477/the-ai-assurance-trap-when-agents-generate-their-own-evidence.html"
-      },
-      {
-        "name": "'I Tell Our Engineers To Use AI, But...': Zoho Founder Sridh",
-        "provider": "News18",
-        "type": "AI 项目/工具",
-        "bestFor": "Sridhar Vembu's warning about over-reliance on AI coding tools has sparked a debate over productivity, technical understanding and the future of software develo",
-        "description": "Sridhar Vembu's warning about over-reliance on AI coding tools has sparked a debate over productivity, technical understanding and the future of software development\n\nZoho founder ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "News18",
-        "url": "https://www.news18.com/viral/i-tell-our-engineers-to-use-ai-but-zoho-founder-sridhar-vembu-reacts-to-viral-x-post-on-ai-coding-ws-l-10345198.html"
       }
     ],
     "ai-agents": [
+      {
+        "name": "Agentic retrieval with LangChain and Amazon Bedrock Knowledg",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Build a Retrieval Augmented Generation (RAG) application on Amazon Bedrock Managed Knowledge Base with LangChain, and see how agentic retrieval handles the mult",
+        "description": "Build a Retrieval Augmented Generation (RAG) application on Amazon Bedrock Managed Knowledge Base with LangChain, and see how agentic retrieval handles the multi-part questions tha",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/agentic-retrieval-with-langchain-and-amazon-bedrock-knowledge-bases/"
+      },
+      {
+        "name": "Making Amazon Quick enterprise-ready: Automated, auditable c",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Promoting Amazon Quick resources (agents, action connectors, knowledge bases, flows, and spaces) from a development to a production AWS account has been a manua",
+        "description": "Promoting Amazon Quick resources (agents, action connectors, knowledge bases, flows, and spaces) from a development to a production AWS account has been a manual, error-prone chore",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/making-amazon-quick-enterprise-ready-automated-auditable-cross-account-resource-promotion/"
+      },
+      {
+        "name": "Evaluating multi-agent systems for explainability and helpfu",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Multi-agent systems need deeper guarantees than fluent responses: they must select the right tools, respect constraints, and explain their decisions. Learn how ",
+        "description": "Multi-agent systems need deeper guarantees than fluent responses: they must select the right tools, respect constraints, and explain their decisions. Learn how to build a Strands-b",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/evaluating-multi-agent-systems-for-explainability-and-helpfulness-with-amazon-bedrock-agentcore/"
+      },
       {
         "name": "China’s AI agents can lie and scheme – just like their US ri",
         "provider": "NewsData.io",
@@ -6463,42 +6670,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:AI agent",
         "url": "https://cfotech.asia/story/dataiku-launches-cross-platform-ai-agent-management-tool"
-      },
-      {
-        "name": "Dataiku launches cross-platform AI agent management tool",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "It aims to close a governance gap as firms struggle to track AI agents across multiple cloud and software platforms and assess their risks.",
-        "description": "It aims to close a governance gap as firms struggle to track AI agents across multiple cloud and software platforms and assess their risks.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://itbrief.asia/story/dataiku-launches-cross-platform-ai-agent-management-tool"
-      },
-      {
-        "name": "Dataiku launches cross-platform AI agent management tool",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "It aims to close a governance gap as firms struggle to track AI agents across multiple cloud and software platforms and assess their risks.",
-        "description": "It aims to close a governance gap as firms struggle to track AI agents across multiple cloud and software platforms and assess their risks.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://itbrief.co.nz/story/dataiku-launches-cross-platform-ai-agent-management-tool"
-      },
-      {
-        "name": "Dataiku launches cross-platform AI agent management tool",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "It aims to close a governance gap as firms struggle to track AI agents across multiple cloud and software platforms and assess their risks.",
-        "description": "It aims to close a governance gap as firms struggle to track AI agents across multiple cloud and software platforms and assess their risks.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://cfotech.com.au/story/dataiku-launches-cross-platform-ai-agent-management-tool"
       }
     ],
     "ai-models": [
+      {
+        "name": "Downgrading user roles in Amazon Quick",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Amazon Quick doesn't offer a direct console path to downgrade a user from Admin or Author to Reader. This post walks through two reliable methods: a manual dele",
+        "description": "Amazon Quick doesn't offer a direct console path to downgrade a user from Admin or Author to Reader. This post walks through two reliable methods: a manual delete-and-recreate appr",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/downgrading-user-roles-in-amazon-quick/"
+      },
       {
         "name": "What Is A VPN Vs Proxy",
         "provider": "NewsData.io",
@@ -6927,17 +7112,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:DeepSeek",
         "url": "https://www.firstpost.com/world/trump-xi-summit-ends-with-pomp-and-show-but-no-major-deal-on-ai-14048481.html"
-      },
-      {
-        "name": "Gemini AI Dials In: Pixel’s Voice Assistant Now Makes Real C",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Google’s Gemini AI now has a new “Call for Me” feature that can place real-world phone calls on your behalf, handling tasks like reservations, checking product ",
-        "description": "Google’s Gemini AI now has a new “Call for Me” feature that can place real-world phone calls on your behalf, handling tasks like reservations, checking product availability, or res",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:Google Gemini",
-        "url": "https://www.indianweb2.com/2026/09/gemini-ai-dials-in-pixels-voice.html"
       }
     ],
     "ai-business": [
@@ -10202,14 +10376,25 @@ window.AI_GENERATED_DATA = {
     }
   ],
   "dailyReport": {
-    "date": "2026-10-05",
-    "generatedAt": "2026-10-05T15:47:52.576858Z",
+    "date": "2026-10-06",
+    "generatedAt": "2026-10-05T18:09:24.120728Z",
     "total": 24,
     "sections": [
       {
         "category": "ai-coding",
         "label": "AI 编程",
         "items": [
+          {
+            "title": "Supercharge regulated workloads with Claude Code and Amazon Bedrock",
+            "summary": "Anthropic Claude Opus 5.5 and Claude Sonnet 5.5 are available on Amazon Bedrock in the AWS GovCloud (US) Regions. Learn how to use them with",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/supercharge-regulated-workloads-with-claude-code-and-amazon-bedrock/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-06",
+            "publishedAt": "2026-10-06T01:25",
+            "reason": ""
+          },
           {
             "title": "Together Link: open models in the harness you already use. Start with one command today.",
             "summary": "Together Link brings frontier open models like GLM 5.3 and Kimi K3 into the coding agent your team already uses, cutting model spend by over",
@@ -10289,6 +10474,39 @@ window.AI_GENERATED_DATA = {
         "label": "Agent / MCP",
         "items": [
           {
+            "title": "Agentic retrieval with LangChain and Amazon Bedrock Knowledge Bases",
+            "summary": "Build a Retrieval Augmented Generation (RAG) application on Amazon Bedrock Managed Knowledge Base with LangChain, and see how agentic retrie",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/agentic-retrieval-with-langchain-and-amazon-bedrock-knowledge-bases/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-05",
+            "publishedAt": "2026-10-05T23:53",
+            "reason": ""
+          },
+          {
+            "title": "Making Amazon Quick enterprise-ready: Automated, auditable cross-account resource promotion",
+            "summary": "Promoting Amazon Quick resources (agents, action connectors, knowledge bases, flows, and spaces) from a development to a production AWS acco",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/making-amazon-quick-enterprise-ready-automated-auditable-cross-account-resource-promotion/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-05",
+            "publishedAt": "2026-10-05T23:56",
+            "reason": ""
+          },
+          {
+            "title": "Evaluating multi-agent systems for explainability and helpfulness with Amazon Bedrock AgentCore",
+            "summary": "Multi-agent systems need deeper guarantees than fluent responses: they must select the right tools, respect constraints, and explain their d",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/evaluating-multi-agent-systems-for-explainability-and-helpfulness-with-amazon-bedrock-agentcore/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-05",
+            "publishedAt": "2026-10-05T23:50",
+            "reason": ""
+          },
+          {
             "title": "The Agent Said It Was Done. The Database Disagreed.",
             "summary": "",
             "source": "RSS · Hugging Face Blog",
@@ -10349,6 +10567,17 @@ window.AI_GENERATED_DATA = {
         "category": "ai-models",
         "label": "模型发布",
         "items": [
+          {
+            "title": "Downgrading user roles in Amazon Quick",
+            "summary": "Amazon Quick doesn't offer a direct console path to downgrade a user from Admin or Author to Reader. This post walks through two reliable me",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/downgrading-user-roles-in-amazon-quick/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-05",
+            "publishedAt": "2026-10-05T23:51",
+            "reason": ""
+          },
           {
             "title": "Building advertising for the way people use AI",
             "summary": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for adver",
@@ -10425,50 +10654,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-10-02",
             "publishedAt": "",
             "reason": ""
-          },
-          {
-            "title": "Architecture-Dependent Fusion Pathways in MLLMs",
-            "summary": "Multimodal Large Language Models (MLLMs) achieve strong performance across vision-language tasks, yet the internal mechanisms by which visua",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.03289v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-02",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Collective Bias Mitigation via Model Routing and Collaboration",
-            "summary": "Large language models (LLMs) are increasingly deployed in public health, finance, and governance, requiring both accuracy and societal value",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.03240v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-02",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "StanceEval 2026: The Second Stance Detection Shared Task",
-            "summary": "StanceEval 2026 is the second edition of the StanceEval shared task series on stance detection in Arabic social media text. Stance detection",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.03215v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-02",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Predicting Steering Vectors and Adapter Weights for Few-Shot Author-Style Transfer",
-            "summary": "Adapting large language models to an individual author's style from a few examples is challenging, and scientific writing sharpens the diffi",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.03163v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-02",
-            "publishedAt": "",
-            "reason": ""
           }
         ]
       },
@@ -10481,17 +10666,6 @@ window.AI_GENERATED_DATA = {
             "summary": "Large language models (LLMs) are increasingly used to support legal practice, education, and research, yet their reliability in national leg",
             "source": "arXiv",
             "url": "http://arxiv.org/abs/2610.03639v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-02",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "D2K-Bench: Can LLM Agents Turn Expert Designs into Efficient GPU Kernels?",
-            "summary": "GPU kernels generated by large language model (LLM) agents can remain less efficient than expert implementations, but runtime alone does not",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.03226v1",
             "score": 70,
             "sourceCount": 1,
             "date": "2026-10-02",
