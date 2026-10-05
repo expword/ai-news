@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-10-05",
-  "generatedAt": "2026-10-05T01:12:05.637821Z",
+  "generatedAt": "2026-10-05T02:22:20.987226Z",
   "news": [
     {
       "title": "The Agent Said It Was Done. The Database Disagreed.",
@@ -27,6 +27,279 @@ window.AI_GENERATED_DATA = {
       "moduleTargets": [
         "news",
         "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Do Large Language Models Know Colombian Law? A Reliability Benchmark for the Colombian Legal System",
+      "summary": "Large language models (LLMs) are increasingly used to support legal practice, education, and research, yet their reliability in national legal systems outside the United States rem",
+      "category": "ai-benchmark",
+      "source": "arXiv",
+      "date": "2026-10-02",
+      "publishedAt": "",
+      "collectedAt": "2026-10-05T10:22",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-02",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.03639v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "HazardWeaver: Scientific Route Selection for Hazard Analysis Agents",
+      "summary": "Understanding and assessing natural hazards is essential for disaster preparedness and risk reduction. Recent advances in large language models have spurred growing interest in AI ",
+      "category": "ai-agents",
+      "source": "arXiv",
+      "date": "2026-10-02",
+      "publishedAt": "",
+      "collectedAt": "2026-10-05T10:22",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-02",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.03591v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Divergence controls entropy in distillation",
+      "summary": "Distillation has become a core primitive of large language model training, but its properties are not yet well understood. We take an entropic perspective, studying how the entropy",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-10-02",
+      "publishedAt": "",
+      "collectedAt": "2026-10-05T10:22",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-02",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.03529v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Objects Without Morphisms: What LLMs for Mathematics Do Not Represent",
+      "summary": "Large language models (LLMs) have reached expert-level performance on competition mathematics largely through the volume of search placed around them: candidate solutions are sampl",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-10-02",
+      "publishedAt": "",
+      "collectedAt": "2026-10-05T10:22",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-02",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.03551v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Efficient Reasoning Training Does Not Always Harm CoT Faithfulness and Monitorability",
+      "summary": "Chain-of-thought (CoT) reasoning allows humans to inspect how large language models reach their answers, and oversee model behaviour. This reasoning comes at an increased inference",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-10-02",
+      "publishedAt": "",
+      "collectedAt": "2026-10-05T10:22",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-02",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.03509v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Structured Composition of Verifiable Atomic Insights for Table-to-Report Generation",
+      "summary": "Table-to-report generation refers to the task of automatically generating article-level analyt- ical reports from relational tables and is an essential capability for automated dat",
+      "category": "ai-agents",
+      "source": "arXiv",
+      "date": "2026-10-02",
+      "publishedAt": "",
+      "collectedAt": "2026-10-05T10:22",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-02",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.03525v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "PrivDev: Mapping Static-Analysis Data Types to DPV",
+      "summary": "Static-analysis scanners can identify personal-data types in source code, but they lack mechanisms to connect these findings to standardized privacy vocabularies. PrivDev maps 122 ",
+      "category": "ai-coding",
+      "source": "arXiv",
+      "date": "2026-10-02",
+      "publishedAt": "",
+      "collectedAt": "2026-10-05T10:22",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-02",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.03518v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "LESSER: Post-Training Data Selection with Output-Layer Gradients",
+      "summary": "The choice of post-training data for large language models substantially affects downstream performance. Gradient-based data selection is a popular approach that ranks training dat",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-10-02",
+      "publishedAt": "",
+      "collectedAt": "2026-10-05T10:22",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-02",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.03702v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Metropolis-Hastings Dominates Importance Resampling for Policy Composition",
+      "summary": "Post-training a large language model (LLM) often requires exploring trade-offs between multiple rewards, but retraining for each trade-off is expensive. Decoding-time policy compos",
+      "category": "ai-coding",
+      "source": "arXiv",
+      "date": "2026-10-02",
+      "publishedAt": "",
+      "collectedAt": "2026-10-05T10:22",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-02",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.03480v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "CLIMB: Confidence-Guided Complementary Evidence for Multimodal Retrieval-Augmented Generation",
+      "summary": "Multimodal large language models (MLLMs) have shown strong visual reasoning abilities, but knowledge-intensive visual question answering often requires external textual evidence be",
+      "category": "ai-image-video",
+      "source": "arXiv",
+      "date": "2026-10-02",
+      "publishedAt": "",
+      "collectedAt": "2026-10-05T10:22",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-02",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.03421v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
       ],
       "sourceCount": 1
     },
@@ -2494,199 +2767,16 @@ window.AI_GENERATED_DATA = {
         "news"
       ],
       "sourceCount": 1
-    },
-    {
-      "title": "ReCAP: Retrieval-Guided Capability Reuse for Multimodal Continual Instruction Tuning",
-      "summary": "Multimodal continual instruction tuning (MCIT) aims to enable multimodal large language models to acquire new capabilities from sequential tasks while preserving previously learned",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-29",
-      "publishedAt": "",
-      "collectedAt": "2026-09-30T12:09",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-29",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.37889v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Storage Is Not Strategy: State-Conditioned Support Control for LLM Unlearning",
-      "summary": "Many localized large language model (LLM) unlearning methods select a small parameter subset from a localization signal and keep it fixed during optimization. The parameters most a",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-29",
-      "publishedAt": "",
-      "collectedAt": "2026-09-30T12:09",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-29",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.37858v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Active Budget Can Kill Sensitivity: Diagnosing and Repairing TopK Sparse Autoencoder Reliability",
-      "summary": "Sparse autoencoders (SAEs) are increasingly scaled to wider dictionaries to recover fine-grained structure from large language model activations. However, a feature is useful for i",
-      "category": "ai-coding",
-      "source": "arXiv",
-      "date": "2026-09-29",
-      "publishedAt": "",
-      "collectedAt": "2026-09-30T12:09",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-29",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.37857v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Explore Broadly, Reason Sharply: Push Small Models toward the Frontier via Sampling",
-      "summary": "Power-sharpened sampling is an inference-time alternative to reinforcement-learning (RL) post-training for enhancing reasoning in large language models (LLMs). High-probability seq",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-29",
-      "publishedAt": "",
-      "collectedAt": "2026-09-30T10:55",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-29",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.38104v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Breaking the Uniformity Trap: Scaling Video Diffusion Model via SplitMoE",
-      "summary": "Mixture-of-Experts (MoE), popularized by large language models, is a promising paradigm for scaling visual generative models. However, conventional token-wise MoE routes tokens ind",
-      "category": "ai-image-video",
-      "source": "arXiv",
-      "date": "2026-09-29",
-      "publishedAt": "",
-      "collectedAt": "2026-09-30T10:55",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-29",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.38140v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Imagine3D-LLM: Teaching MLLMs to Imagine 3D Scenes Before Answering",
-      "summary": "Reasoning about the 3D world from multi-view images remains a fundamental challenge for Multimodal Large Language Models (MLLMs). While modern MLLMs handle single-image inputs effe",
-      "category": "ai-image-video",
-      "source": "arXiv",
-      "date": "2026-09-29",
-      "publishedAt": "",
-      "collectedAt": "2026-09-30T10:55",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-29",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.38177v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Do LLM Agents Execute the Plans They Declare? From Planning-Mode Declaration to Pattern-Specific Execution",
-      "summary": "Large language models (LLMs) enable agents to solve long-horizon tasks by generating a plan and then executing it in an environment. However, successful planning requires two disti",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-09-29",
-      "publishedAt": "",
-      "collectedAt": "2026-09-30T10:55",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-29",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.38108v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
     }
   ],
   "weeklyDigests": [
+    {
+      "weekId": "2026-W41",
+      "label": "2026-10-05 ~ 2026-10-05",
+      "summary": "本周自动收集 GitHub 项目 0 个、Skill 候选 0 条、新闻 0 条，全部由 LLM 并发整理为中文条目。",
+      "skills": [],
+      "github": []
+    },
     {
       "weekId": "2026-W40",
       "label": "2026-09-28 ~ 2026-09-28",
@@ -5776,6 +5866,17 @@ window.AI_GENERATED_DATA = {
   "topicResources": {
     "ai-coding": [
       {
+        "name": "PrivDev: Mapping Static-Analysis Data Types to DPV",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Static-analysis scanners can identify personal-data types in source code, but they lack mechanisms to connect these findings to standardized privacy vocabularie",
+        "description": "Static-analysis scanners can identify personal-data types in source code, but they lack mechanisms to connect these findings to standardized privacy vocabularies. PrivDev maps 122 ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2610.03518v1"
+      },
+      {
         "name": "Balance AI innovation and governance with Sumo Logic AI and ",
         "provider": "NewsData.io",
         "type": "AI 项目/工具",
@@ -6203,20 +6304,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "MoneyControl",
         "url": "https://www.moneycontrol.com/world/claude-down-latest-update-users-report-outage-as-mythos-5-1-fable-5-1-and-opus-5-face-errors-article-14034936.html"
-      },
-      {
-        "name": "xAI’s Grok 4.6 is now available in Amazon Bedrock",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "xAI's Grok 4.6 is now available in Amazon Bedrock: a frontier model for long-running agents, coding, and knowledge work, with a 500K token context window and fo",
-        "description": "xAI's Grok 4.6 is now available in Amazon Bedrock: a frontier model for long-running agents, coding, and knowledge work, with a 500K token context window and four reasoning effort ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/xais-grok-4-6-is-now-available-in-amazon-bedrock/"
       }
     ],
     "ai-agents": [
+      {
+        "name": "HazardWeaver: Scientific Route Selection for Hazard Analysis",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Understanding and assessing natural hazards is essential for disaster preparedness and risk reduction. Recent advances in large language models have spurred gro",
+        "description": "Understanding and assessing natural hazards is essential for disaster preparedness and risk reduction. Recent advances in large language models have spurred growing interest in AI ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2610.03591v1"
+      },
       {
         "name": "Prompt framing governs LLM default following in collective-a",
         "provider": "arXiv",
@@ -6645,17 +6746,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:AI agent",
         "url": "https://itbrief.in/story/openai-launches-chatgpt-space-for-team-collaboration"
-      },
-      {
-        "name": "AutoSynthData: Generating Training Data for Enterprise Agent",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "",
-        "description": "",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · Hugging Face Blog",
-        "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata"
       }
     ],
     "ai-models": [
@@ -8521,6 +8611,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-research": [
       {
+        "name": "LESSER: Post-Training Data Selection with Output-Layer Gradi",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "The choice of post-training data for large language models substantially affects downstream performance. Gradient-based data selection is a popular approach tha",
+        "description": "The choice of post-training data for large language models substantially affects downstream performance. Gradient-based data selection is a popular approach that ranks training dat",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2610.03702v1"
+      },
+      {
         "name": "Shrome at Touché: Soft-Vote Ensembling and Counter-Causal Au",
         "provider": "arXiv",
         "type": "AI 项目/工具",
@@ -8948,17 +9049,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · Apple ML Research",
         "url": "https://machinelearning.apple.com/research/reversal-bench-rl-cliff"
-      },
-      {
-        "name": "DACA-GRPO: Denoising-Aware Credit Assignment for Reinforceme",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Diffusion large language models are a compelling alternative to autoregressive models, yet existing RL methods for diffusion treat all denoising steps as equall",
-        "description": "Diffusion large language models are a compelling alternative to autoregressive models, yet existing RL methods for diffusion treat all denoising steps as equally important and rely",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · Apple ML Research",
-        "url": "https://machinelearning.apple.com/research/denoising-aware-credit-assignment"
       }
     ],
     "ai-office": []
@@ -10367,13 +10457,35 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-10-05",
-    "generatedAt": "2026-10-05T01:12:05.616816Z",
+    "generatedAt": "2026-10-05T02:22:20.965054Z",
     "total": 23,
     "sections": [
       {
         "category": "ai-coding",
         "label": "AI 编程",
         "items": [
+          {
+            "title": "PrivDev: Mapping Static-Analysis Data Types to DPV",
+            "summary": "Static-analysis scanners can identify personal-data types in source code, but they lack mechanisms to connect these findings to standardized",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.03518v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-02",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Metropolis-Hastings Dominates Importance Resampling for Policy Composition",
+            "summary": "Post-training a large language model (LLM) often requires exploring trade-offs between multiple rewards, but retraining for each trade-off i",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.03480v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-02",
+            "publishedAt": "",
+            "reason": ""
+          },
           {
             "title": "Chatham scales its capital markets expertise with OpenAI",
             "summary": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
@@ -10384,16 +10496,22 @@ window.AI_GENERATED_DATA = {
             "date": "2026-10-02",
             "publishedAt": "2026-10-02T08:00",
             "reason": ""
-          },
+          }
+        ]
+      },
+      {
+        "category": "ai-image-video",
+        "label": "图像视频",
+        "items": [
           {
-            "title": "Scaling cloud migrations with agentic AI on Amazon Bedrock AgentCore",
-            "summary": "Learn how AWS Professional Services uses a multi-agent framework built on Amazon Bedrock AgentCore to automate enterprise cloud migrations e",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/scaling-cloud-migrations-with-agentic-ai-on-amazon-bedrock-agentcore/",
+            "title": "CLIMB: Confidence-Guided Complementary Evidence for Multimodal Retrieval-Augmented Generation",
+            "summary": "Multimodal large language models (MLLMs) have shown strong visual reasoning abilities, but knowledge-intensive visual question answering oft",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.03421v1",
             "score": 70,
             "sourceCount": 1,
             "date": "2026-10-02",
-            "publishedAt": "2026-10-02T06:06",
+            "publishedAt": "",
             "reason": ""
           }
         ]
@@ -10411,6 +10529,28 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-10-04",
             "publishedAt": "2026-10-04T06:56",
+            "reason": ""
+          },
+          {
+            "title": "HazardWeaver: Scientific Route Selection for Hazard Analysis Agents",
+            "summary": "Understanding and assessing natural hazards is essential for disaster preparedness and risk reduction. Recent advances in large language mod",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.03591v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-02",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Structured Composition of Verifiable Atomic Insights for Table-to-Report Generation",
+            "summary": "Table-to-report generation refers to the task of automatically generating article-level analyt- ical reports from relational tables and is a",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.03525v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-02",
+            "publishedAt": "",
             "reason": ""
           },
           {
@@ -10434,50 +10574,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-10-02",
             "publishedAt": "2026-10-02T23:46",
             "reason": ""
-          },
-          {
-            "title": "Sweep thousands of leases for compliance using Amazon Quick and the Adjudicated Query pattern",
-            "summary": "The Adjudicated Query pattern pairs the Amazon Quick chat agent with a bounded MCP server over a deterministic rules engine to deliver prova",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/sweep-thousands-of-leases-for-compliance-using-amazon-quick-and-the-adjudicated-query-pattern/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-02",
-            "publishedAt": "2026-10-02T23:48",
-            "reason": ""
-          },
-          {
-            "title": "Fine-tune a search agent with multi-turn RL on Amazon SageMaker AI",
-            "summary": "Fine-tuning teaches a small search agent your tools and environment, giving it the reliability of a frontier model at lower latency and cost",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/fine-tune-a-search-agent-with-multi-turn-rl-on-amazon-sagemaker-ai/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-02",
-            "publishedAt": "2026-10-02T23:44",
-            "reason": ""
-          },
-          {
-            "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
-            "summary": "",
-            "source": "RSS · Hugging Face Blog",
-            "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-02",
-            "publishedAt": "2026-10-02T12:01",
-            "reason": ""
-          },
-          {
-            "title": "Build agent memory with NVIDIA NeMo Agent Toolkit and Amazon S3 Vectors",
-            "summary": "Learn how to use Amazon S3 Vectors as the persistent memory layer within the NVIDIA NeMo Agent Toolkit (NAT), deployed on Amazon Elastic Kub",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/build-agent-memory-with-nvidia-nemo-agent-toolkit-and-amazon-s3-vectors/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-02",
-            "publishedAt": "2026-10-02T01:34",
-            "reason": ""
           }
         ]
       },
@@ -10485,6 +10581,50 @@ window.AI_GENERATED_DATA = {
         "category": "ai-models",
         "label": "模型发布",
         "items": [
+          {
+            "title": "Divergence controls entropy in distillation",
+            "summary": "Distillation has become a core primitive of large language model training, but its properties are not yet well understood. We take an entrop",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.03529v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-02",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Objects Without Morphisms: What LLMs for Mathematics Do Not Represent",
+            "summary": "Large language models (LLMs) have reached expert-level performance on competition mathematics largely through the volume of search placed ar",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.03551v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-02",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Efficient Reasoning Training Does Not Always Harm CoT Faithfulness and Monitorability",
+            "summary": "Chain-of-thought (CoT) reasoning allows humans to inspect how large language models reach their answers, and oversee model behaviour. This r",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.03509v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-02",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "LESSER: Post-Training Data Selection with Output-Layer Gradients",
+            "summary": "The choice of post-training data for large language models substantially affects downstream performance. Gradient-based data selection is a ",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.03702v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-02",
+            "publishedAt": "",
+            "reason": ""
+          },
           {
             "title": "Shrome at Touché: Soft-Vote Ensembling and Counter-Causal Augmentation for Causality Extraction",
             "summary": "Touché 2026 extends causality extraction to counter-causal claims: news sentences whose surface form appears causal but whose meaning denies",
@@ -10572,50 +10712,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-10-02",
             "publishedAt": "",
             "reason": ""
-          },
-          {
-            "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
-            "summary": "",
-            "source": "RSS · Hugging Face Blog",
-            "url": "https://huggingface.co/blog/allenai/astabrief",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-02",
-            "publishedAt": "2026-10-02T23:19",
-            "reason": ""
-          },
-          {
-            "title": "Toward provably private learning from federated data",
-            "summary": "Mobile Systems",
-            "source": "RSS · Google Research",
-            "url": "https://research.google/blog/toward-provably-private-learning-from-federated-data/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-02",
-            "publishedAt": "2026-10-02T22:57",
-            "reason": ""
-          },
-          {
-            "title": "The latest AI news we announced in September 2026",
-            "summary": "Here are Google’s latest AI updates from September 2026",
-            "source": "RSS · Google AI Blog",
-            "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-02",
-            "publishedAt": "2026-10-02T23:00",
-            "reason": ""
-          },
-          {
-            "title": "Serve live, governed data in AI-built apps with Amazon Quick",
-            "summary": "With Live Data in Apps in Amazon Quick, AI-built apps query your governed Quick Sight datasets in real time instead of static, build-time sn",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/serve-live-governed-data-in-ai-built-apps-with-amazon-quick/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-02",
-            "publishedAt": "2026-10-02T03:49",
-            "reason": ""
           }
         ]
       },
@@ -10623,6 +10719,17 @@ window.AI_GENERATED_DATA = {
         "category": "ai-benchmark",
         "label": "评测榜单",
         "items": [
+          {
+            "title": "Do Large Language Models Know Colombian Law? A Reliability Benchmark for the Colombian Legal System",
+            "summary": "Large language models (LLMs) are increasingly used to support legal practice, education, and research, yet their reliability in national leg",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.03639v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-02",
+            "publishedAt": "",
+            "reason": ""
+          },
           {
             "title": "D2K-Bench: Can LLM Agents Turn Expert Designs into Efficient GPU Kernels?",
             "summary": "GPU kernels generated by large language model (LLM) agents can remain less efficient than expert implementations, but runtime alone does not",
@@ -10632,23 +10739,6 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-10-02",
             "publishedAt": "",
-            "reason": ""
-          }
-        ]
-      },
-      {
-        "category": "ai-business",
-        "label": "行业商业",
-        "items": [
-          {
-            "title": "Simplify dashboard drill-down with the Amazon Quick Sight hierarchy filter",
-            "summary": "Amazon Quick Sight is a fully managed, cloud-native business intelligence (BI) capability for building and publishing interactive dashboards",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/simplify-dashboard-drill-down-with-the-amazon-quick-sight-hierarchy-filter/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-02",
-            "publishedAt": "2026-10-02T00:28",
             "reason": ""
           }
         ]
