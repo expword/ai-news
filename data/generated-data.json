@@ -1,7 +1,35 @@
 {
-  "lastUpdated": "2026-10-05",
-  "generatedAt": "2026-10-05T13:19:12.021297Z",
+  "lastUpdated": "2026-10-06",
+  "generatedAt": "2026-10-05T15:47:52.596434Z",
   "news": [
+    {
+      "title": "Together Link: open models in the harness you already use. Start with one command today.",
+      "summary": "Together Link brings frontier open models like GLM 5.3 and Kimi K3 into the coding agent your team already uses, cutting model spend by over 50%.",
+      "category": "ai-coding",
+      "source": "RSS · Together AI",
+      "date": "2026-10-05",
+      "publishedAt": "2026-10-05T08:00",
+      "collectedAt": "2026-10-05T23:47",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://www.together.ai/blog/together-link-frontier-quality-open-models-in-the-harness-you-already-use",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Building advertising for the way people use AI",
       "summary": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
@@ -5588,6 +5616,17 @@
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Together Link: open models in the harness you already use. S",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Together Link brings frontier open models like GLM 5.3 and Kimi K3 into the coding agent your team already uses, cutting model spend by over 50%.",
+        "description": "Together Link brings frontier open models like GLM 5.3 and Kimi K3 into the coding agent your team already uses, cutting model spend by over 50%.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Together AI",
+        "url": "https://www.together.ai/blog/together-link-frontier-quality-open-models-in-the-harness-you-already-use"
+      },
+      {
         "name": "PrivDev: Mapping Static-Analysis Data Types to DPV",
         "provider": "arXiv",
         "type": "AI 项目/工具",
@@ -6015,20 +6054,53 @@
         "watch": "请打开原始来源核对",
         "sourceName": "News18",
         "url": "https://www.news18.com/viral/i-tell-our-engineers-to-use-ai-but-zoho-founder-sridhar-vembu-reacts-to-viral-x-post-on-ai-coding-ws-l-10345198.html"
-      },
-      {
-        "name": "Claude down latest update: Users report outage as Mythos 5.1",
-        "provider": "MoneyControl",
-        "type": "AI 项目/工具",
-        "bestFor": "Anthropic's AI chatbot Claude faced service disruptions, with users reporting problems accessing the platform and Claude Code. More than 1,600 outage reports we",
-        "description": "Anthropic's AI chatbot Claude faced service disruptions, with users reporting problems accessing the platform and Claude Code. More than 1,600 outage reports were recorded on Downd",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "MoneyControl",
-        "url": "https://www.moneycontrol.com/world/claude-down-latest-update-users-report-outage-as-mythos-5-1-fable-5-1-and-opus-5-face-errors-article-14034936.html"
       }
     ],
     "ai-agents": [
+      {
+        "name": "China’s AI agents can lie and scheme – just like their US ri",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "The review found no evidence that Chinese-powered agents independently escaped to the wider internet or evaded shutdown.",
+        "description": "The review found no evidence that Chinese-powered agents independently escaped to the wider internet or evaded shutdown.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:DeepSeek",
+        "url": "https://www.straitstimes.com/asia/east-asia/chinas-ai-agents-can-lie-and-scheme-just-like-their-us-rivals"
+      },
+      {
+        "name": "AI Security: Every Major AI Model Fails ClawSecure's Test",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "ClawSecure's AI Agent Threat Report reveals systematic failures across OpenAI, Anthropic, and Google, as labs hand security to 123 million developers.",
+        "description": "ClawSecure's AI Agent Threat Report reveals systematic failures across OpenAI, Anthropic, and Google, as labs hand security to 123 million developers.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:DeepSeek",
+        "url": "https://www.einpresswire.com/article/947439978/ai-security-every-major-ai-model-fails-clawsecure-s-test"
+      },
+      {
+        "name": "Anthropic: Is Russia Using AI for Disinformation in CAR?",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Anthropic says Russian agents in Central African Republic (CAR) misused Claude to monitor opposition politicians and support pro-Russian influence.",
+        "description": "Anthropic says Russian agents in Central African Republic (CAR) misused Claude to monitor opposition politicians and support pro-Russian influence.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Claude AI",
+        "url": "https://en.tempo.co/read/2120910/anthropic-is-russia-using-ai-for-disinformation-in-car"
+      },
+      {
+        "name": "Meta Muse vs ChatGPT vs Claude vs Grok: Features, Key Differ",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Explore how Meta Muse, ChatGPT, Claude, and Grok differ in models, AI agents, context limits, API costs, and safety features in 2026.",
+        "description": "Explore how Meta Muse, ChatGPT, Claude, and Grok differ in models, AI agents, context limits, API costs, and safety features in 2026.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Claude AI",
+        "url": "https://www.analyticsinsight.net/artificial-intelligence/meta-muse-vs-chatgpt-vs-claude-vs-grok-features-key-differences"
+      },
       {
         "name": "Follow the Winners: Conservative Policy Improvement with the",
         "provider": "arXiv",
@@ -6424,53 +6496,42 @@
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:AI agent",
         "url": "https://cfotech.com.au/story/dataiku-launches-cross-platform-ai-agent-management-tool"
-      },
-      {
-        "name": "Dataiku launches cross-platform AI agent management tool",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "It aims to close a governance gap as firms struggle to track AI agents across multiple cloud and software platforms and assess their risks.",
-        "description": "It aims to close a governance gap as firms struggle to track AI agents across multiple cloud and software platforms and assess their risks.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://cfotech.co.nz/story/dataiku-launches-cross-platform-ai-agent-management-tool"
-      },
-      {
-        "name": "Microsoft targets ultra-realistic voice agents with its firs",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Microsoft Corp. has expanded its MAI artificial intelligence model family with its first streaming transcription model, debuting alongside two others focused on",
-        "description": "Microsoft Corp. has expanded its MAI artificial intelligence model family with its first streaming transcription model, debuting alongside two others focused on text-to-speech. The",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://siliconangle.com/2026/10/01/microsoft-targets-ultra-realistic-voice-agents-with-its-first-streaming-transcription-model/"
-      },
-      {
-        "name": "Can agentic AI make credit proactive, precise and more inclu",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Lending has traditionally followed a sequential process: sense, analyse, decide and act. Each step depends heavily on human intervention, with analysts collecti",
-        "description": "Lending has traditionally followed a sequential process: sense, analyse, decide and act. Each step depends heavily on human intervention, with analysts collecting information, inte",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.expresscomputer.in/interviews/can-agentic-ai-make-credit-proactive-precise-and-more-inclusive/139390/"
-      },
-      {
-        "name": "Dataiku launches cross-platform AI agent management tool",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "It aims to close a governance gap as firms struggle to track AI agents across multiple cloud and software platforms and assess their risks.",
-        "description": "It aims to close a governance gap as firms struggle to track AI agents across multiple cloud and software platforms and assess their risks.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://cfotech.in/story/dataiku-launches-cross-platform-ai-agent-management-tool"
       }
     ],
     "ai-models": [
+      {
+        "name": "What Is A VPN Vs Proxy",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "While the purpose of a VPN and Proxy is similar, there are some technical differences that are important to understand It may happen that a site or network you ",
+        "description": "While the purpose of a VPN and Proxy is similar, there are some technical differences that are important to understand It may happen that a site or network you want to access is no",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Google Gemini",
+        "url": "https://newspatrolling.com/what-is-a-vpn-vs-proxy/"
+      },
+      {
+        "name": "How is AI useful in the middle of a paddock? This farmer fin",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "How AI has the potential to preserve generations of knowledge.",
+        "description": "How AI has the potential to preserve generations of knowledge.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Claude AI",
+        "url": "https://www.dailyliberal.com.au/story/9362640/central-west-farmer-tests-new-ai-tools-on-nsw-properties/?src=rss"
+      },
+      {
+        "name": "Cybersecurity Newsletter Bulletin – Pentagon Data Breach, Ci",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "This week’s security newsletter was dominated by a Pentagon personnel data breach affecting more than three million people, actively exploited zero-days in Appl",
+        "description": "This week’s security newsletter was dominated by a Pentagon personnel data breach affecting more than three million people, actively exploited zero-days in Apple CoreGraphics and F",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Claude AI",
+        "url": "https://cybersecuritynews.com/cybersecurity-newsletter-weekly-october-2/"
+      },
       {
         "name": "Nigeria: Wri Index 2026 - 70 Percent of Nigerian Workers App",
         "provider": "NewsData.io",
@@ -6877,42 +6938,31 @@
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:Google Gemini",
         "url": "https://www.indianweb2.com/2026/09/gemini-ai-dials-in-pixels-voice.html"
-      },
-      {
-        "name": "Daily 'AI for Work' Pulse: 26th of September",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Ease into your Sunday with a big weekend update! 19 new AI tools and 111 AI news articles make this a packed edition-grab the standouts and head into the week r",
-        "description": "Ease into your Sunday with a big weekend update! 19 new AI tools and 111 AI news articles make this a packed edition-grab the standouts and head into the week ready.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:DeepSeek",
-        "url": "https://completeaitraining.com/newsletter/daily-ai-for-work-pulse-26th-of-september-2/"
-      },
-      {
-        "name": "Bluebeam offers its paid AI tier to students and educators g",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Bluebeam is giving its $590/year AI tier, Bluebeam Max, to students and educators free worldwide. The move aims to train future AEC professionals on AI-assisted",
-        "description": "Bluebeam is giving its $590/year AI tier, Bluebeam Max, to students and educators free worldwide. The move aims to train future AEC professionals on AI-assisted review tools they w",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:Claude AI",
-        "url": "https://completeaitraining.com/news/bluebeam-offers-its-paid-ai-tier-to-students-and-educators/"
-      },
-      {
-        "name": "US Joins Musk’s X Fight Against €120 Million EU Fine, Escala",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "The U.S. government has formally sought to join Elon Musk’s legal challenge against a €120 million ($137 million) European Union fine imposed on his social medi",
-        "description": "The U.S. government has formally sought to join Elon Musk’s legal challenge against a €120 million ($137 million) European Union fine imposed on his social media platform X, escala",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:artificial intelligence",
-        "url": "https://www.tekedia.com/us-joins-musks-x-fight-against-e120-million-eu-fine-escalating-transatlantic-tech-dispute/"
       }
     ],
     "ai-business": [
+      {
+        "name": "Google to restrict free access to Gemini AI models",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Starting on 9th October, users without a Google AI subscription will have access to Flash-Lite only",
+        "description": "Starting on 9th October, users without a Google AI subscription will have access to Flash-Lite only",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Google Gemini",
+        "url": "https://www.zawya.com/en/business/ai-shaping-digital-future/google-to-restrict-free-access-to-gemini-ai-models-1498589"
+      },
+      {
+        "name": "What should the market watch as Xero heads towards its next ",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Xero’s interim results are scheduled soon, with focus on JAX AI tools, XeroForce and its US payments and payroll expansion.",
+        "description": "Xero’s interim results are scheduled soon, with focus on JAX AI tools, XeroForce and its US payments and payroll expansion.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Claude AI",
+        "url": "https://kalkinemedia.com/au/stocks/technology/what-should-the-market-watch-as-xero-heads-towards-its-next-results"
+      },
       {
         "name": "Demand Grows For AI Search Optimization For Small Businesses",
         "provider": "NewsData.io",
@@ -7330,31 +7380,20 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Market Screener",
         "url": "https://www.marketscreener.com/news/lattice-semiconductor-introduces-leadership-ai-powered-fpga-development-tool-lattice-prompt-ce785bd3d98eff2c"
-      },
-      {
-        "name": "Managing regulatory change at AI speed - The Gonzales Inquir",
-        "provider": "Gonzales Inquirer",
-        "type": "AI 项目/工具",
-        "bestFor": "Managing regulatory change at AI speed\n\nThe compliance challenge for businesses has fundamentally changed. The challenge is not just about understanding, interp",
-        "description": "Managing regulatory change at AI speed\n\nThe compliance challenge for businesses has fundamentally changed. The challenge is not just about understanding, interpreting, and applying",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Gonzales Inquirer",
-        "url": "https://gonzalesinquirer.com/premium/stacker/stories/managing-regulatory-change-at-ai-speed,198752"
-      },
-      {
-        "name": "What Is Siri AI? Here's What Apple's New Siri Can Actually D",
-        "provider": "International Business Times, Singapore Edition",
-        "type": "AI 项目/工具",
-        "bestFor": "Ask Siri what your cousin wanted to cook during a visit next week, and the old Siri would have struggled with the question. Apple's new Siri can search your Mes",
-        "description": "Ask Siri what your cousin wanted to cook during a visit next week, and the old Siri would have struggled with the question. Apple's new Siri can search your Messages for the conver",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "International Business Times, Singapore Edition",
-        "url": "https://www.ibtimes.sg/what-siri-ai-heres-what-apples-new-siri-can-actually-do-93843"
       }
     ],
     "ai-benchmark": [
+      {
+        "name": "Z.ai GLM-5.3 security draws scrutiny as Anthropic flags weak",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Anthropic has warned that GLM-5.3, the latest model from Chinese AI startup Z.ai, approached Claude Mythos Preview on an exploit-development benchmark but lacks",
+        "description": "Anthropic has warned that GLM-5.3, the latest model from Chinese AI startup Z.ai, approached Claude Mythos Preview on an exploit-development benchmark but lacks sufficient safety p",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Claude AI",
+        "url": "https://www.digitimes.com/news/a20261005PD205/anthropic-z.ai-claude-startup.html"
+      },
       {
         "name": "ReFract: Benchmarking Perspective Awareness in Language Mode",
         "provider": "arXiv",
@@ -7872,24 +7911,20 @@
         "watch": "H2O.ai 的 API 价格可能会影响小型企业的使用意愿，导致市场竞争不平衡。",
         "sourceName": "NewsData.io:AI benchmark leaderboard",
         "url": "https://www.financialcontent.com/article/bizwire-2026-7-31-h2o-ai-super-agent-ranks-2-worldwide-on-futurex-overall-leaderboard"
-      },
-      {
-        "name": "H2O AI Super AgentTM 在 FutureX 总排行榜中全球排名第二",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "H2O AI Super AgentTM 的全球排名提升将吸引更多企业和开发者关注其技术，可能导致市场上对 AI 代理技术的需求进一步增长。企业在选择 AI 代理解决方案时，可能会更加倾向于 H2O AI 的产品，从而影响竞争对手的市场策略。此外，H2O AI 的成功也可能促使其他公司加大研发投入，推动整个行业的技术进",
-        "description": "H2O AI Super AgentTM 在 FutureX 总排行榜中获得全球第二名，显示出其在 AI 代理领域的强大竞争力。该模型的表现超越了许多同类产品，标志着其技术的成熟与市场认可。",
-        "useCases": [
-          "提升客户服务效率，利用 H2O AI Super AgentTM 自动处理客户咨询。",
-          "在电商平台中集成 H2O AI Super AgentTM，优化用户购物体验。",
-          "通过 H2O AI Super AgentTM 实现智能化数据分析，支持业务决策。"
-        ],
-        "watch": "H2O AI Super AgentTM 的 API 价格可能会影响中小企业的使用意愿，导致市场份额的流失。",
-        "sourceName": "NewsData.io:AI benchmark leaderboard",
-        "url": "https://www.postregister.com/businessreport/technology/h2o-ai-super-agent-ranks-2-worldwide-on-futurex-overall-leaderboard/article_d0f95b43-7f11-500a-81f8-e3edd0f51d1e.html"
       }
     ],
     "ai-image-video": [
+      {
+        "name": "OpenAI's GPT-6 Astra Gets Frustrated Losing At StarCraft And",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "What happened when AI-created bots competed in the classic Blizzard videogame StarCraft? \"Struggling to stay apace with its competitors, OpenAI's GPT-6 Astra ap",
+        "description": "What happened when AI-created bots competed in the classic Blizzard videogame StarCraft? \"Struggling to stay apace with its competitors, OpenAI's GPT-6 Astra apparently changed str",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Claude AI",
+        "url": "https://games.slashdot.org/story/26/10/05/0047248/openais-gpt-6-astra-gets-frustrated-losing-at-starcraft-and-decides-to-cheat-instead"
+      },
       {
         "name": "Manus 2.0 发布视频编辑器，从一句话生成整支视频",
         "provider": "Manus：Blog（网页）",
@@ -8318,17 +8353,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "The Cairns Post",
         "url": "https://www.cairnspost.com.au/technology/gadgets/insta360-challenges-dji-with-new-luna-ultra-and-aipowered-x6-cameras/news-story/023f6473a573cb3264f6990ee1fc6503?nk=017470bbaea3b3b42f5c0f566bd610ef-1787637692"
-      },
-      {
-        "name": "Beyond Visual CoT: Internalized Visual Thinking for Proactiv",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Multimodal large language models increasingly use visual chain-of-thought (Visual CoT) to reason about spatial, temporal, and embodied environments. By generati",
-        "description": "Multimodal large language models increasingly use visual chain-of-thought (Visual CoT) to reason about spatial, temporal, and embodied environments. By generating intermediate reas",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · Apple ML Research",
-        "url": "https://machinelearning.apple.com/research/internalized-visual-thinking"
       }
     ],
     "ai-research": [
@@ -10179,13 +10203,24 @@
   ],
   "dailyReport": {
     "date": "2026-10-05",
-    "generatedAt": "2026-10-05T13:19:12.002294Z",
+    "generatedAt": "2026-10-05T15:47:52.576858Z",
     "total": 24,
     "sections": [
       {
         "category": "ai-coding",
         "label": "AI 编程",
         "items": [
+          {
+            "title": "Together Link: open models in the harness you already use. Start with one command today.",
+            "summary": "Together Link brings frontier open models like GLM 5.3 and Kimi K3 into the coding agent your team already uses, cutting model spend by over",
+            "source": "RSS · Together AI",
+            "url": "https://www.together.ai/blog/together-link-frontier-quality-open-models-in-the-harness-you-already-use",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-05",
+            "publishedAt": "2026-10-05T08:00",
+            "reason": ""
+          },
           {
             "title": "CVE2AP: Automated Generation of PDDL-Encoded Attack Paths via Large Language Models",
             "summary": "Attack Path (AP) modeling is fundamental to cybersecurity analysis, where the Planning Domain Definition Language (PDDL) has been widely ado",
@@ -10434,17 +10469,6 @@
             "date": "2026-10-02",
             "publishedAt": "",
             "reason": ""
-          },
-          {
-            "title": "Language Discrimination Improves Linguistic Learning in Multilingual Speech Models",
-            "summary": "Multilingual self-supervised speech models can benefit from sharing information across languages, but under a matched total pretraining data",
-            "source": "RSS · Apple ML Research",
-            "url": "https://machinelearning.apple.com/research/language-discrimination-multilingual-learning",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-02",
-            "publishedAt": "2026-10-02T08:00",
-            "reason": ""
           }
         ]
       },
@@ -10479,6 +10503,47 @@
     ]
   },
   "dailyReports": [
+    {
+      "date": "2026-10-05",
+      "generatedAt": "2026-10-05T16:00:52.806200Z",
+      "total": 2,
+      "sections": [
+        {
+          "category": "ai-coding",
+          "label": "AI 编程",
+          "items": [
+            {
+              "title": "Together Link: open models in the harness you already use. Start with one command today.",
+              "summary": "Together Link brings frontier open models like GLM 5.3 and Kimi K3 into the coding agent your team already uses, cutting model spend by over",
+              "source": "RSS · Together AI",
+              "url": "https://www.together.ai/blog/together-link-frontier-quality-open-models-in-the-harness-you-already-use",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-05",
+              "publishedAt": "2026-10-05T08:00",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-models",
+          "label": "模型发布",
+          "items": [
+            {
+              "title": "Building advertising for the way people use AI",
+              "summary": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for adver",
+              "source": "RSS · OpenAI Blog",
+              "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-05",
+              "publishedAt": "2026-10-05T18:00",
+              "reason": ""
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-10-04",
       "generatedAt": "2026-10-04T16:00:45.638551Z",
@@ -18725,134 +18790,10 @@
           ]
         }
       ]
-    },
-    {
-      "date": "2026-08-03",
-      "generatedAt": "2026-08-03T16:31:12.768361Z",
-      "total": 9,
-      "sections": [
-        {
-          "category": "ai-tools",
-          "label": "AI 工具",
-          "items": [
-            {
-              "title": "OpenRouter 推出 Ori Eval 简化模型评估流程",
-              "summary": "OpenRouter 发布 Ori Eval，旨在简化模型评估过程。该工具通过 OpenRouter API 处理代码库中的任务，评估模型表现，提供基于用户设定标准的排名比较，帮助开发者选择最适合的模型。",
-              "source": "X：OpenRouter (@OpenRouter)",
-              "url": "https://x.com/OpenRouter/status/2084301100078027143",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-08-03",
-              "publishedAt": "2026-08-03T23:31",
-              "reason": "Ori Eval 通过简化模型评估流程，帮助开发者高效选择最适合的模型，具有显著的实用价值。"
-            },
-            {
-              "title": "Cloudflare 发布 Billable Usage API，提供自助账户按产品计费的透明度",
-              "summary": "Cloudflare 推出了 Billable Usage API，为自助账户提供了一个单一端点，用户可以通过一次调用获取按产品和计费周期拆分的用量与成本信息，涵盖 Workers、R2、D1、Workers AI、Vectorize、Images 和 Stream 等服务。这一",
-              "source": "Cloudflare Blog",
-              "url": "https://blog.cloudflare.com/billable-usage-api",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-08-03",
-              "publishedAt": "2026-08-03T21:00",
-              "reason": "Cloudflare 的 Billable Usage API 提供了前所未有的透明度和灵活性，值得关注其在云支出管理中的应用潜力。"
-            },
-            {
-              "title": "Kimi Work 发布幻灯片制作教程，提升效率但仍有局限",
-              "summary": "Kimi Work 最近推出了幻灯片制作教程，展示了其 Kimi Slides 工具的功能，包括清晰的结构、连贯的设计和可编辑的幻灯片。然而，尽管这些功能提升了制作效率，用户仍需注意其在兼容性和使用限制方面的不足。",
-              "source": "X：Kimi.ai (@Kimi_Moonshot)",
-              "url": "https://x.com/Kimi_Moonshot/status/2084245860339298423",
-              "score": 58,
-              "sourceCount": 1,
-              "date": "2026-08-03",
-              "publishedAt": "2026-08-03T19:51",
-              "reason": "Kimi Work 的幻灯片制作教程展示了其独特的 AI 驱动设计，值得关注，但用户需谨慎评估其局限性。"
-            }
-          ]
-        },
-        {
-          "category": "ai-agents",
-          "label": "Agent / MCP",
-          "items": [
-            {
-              "title": "Google Agent Skills 的构建与治理流程",
-              "summary": "Google Agent Skills 团队通过开源技能库的构建与治理，确保 AI 代理的智能化与安全性。自项目启动以来，GitHub 上的星标数已超过 15,000，显示出其广泛的社区认可。团队采用标准化的目录结构和 CI/CD 流水线，确保技能质量与规模化并行发展。",
-              "source": "Google AI：DEV 作者专属（RSS）",
-              "url": "https://dev.to/googleai/behind-the-scenes-how-we-build-test-and-scale-google-agent-skills-1am5",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-08-03",
-              "publishedAt": "2026-08-03T22:33",
-              "reason": "Google Agent Skills 的构建与治理流程为 AI 代理的开发提供了重要的参考，尤其是在标准化和质量控制方面，值得关注。"
-            },
-            {
-              "title": "Cloudflare Workers 现支持入站 TCP 连接与 gRPC",
-              "summary": "Cloudflare 在 Agents Week 发布了 Workers 运行时的新处理器 connect，允许直接接受入站 TCP 套接字，并支持将其转发至 Durable Objects 或 Containers，实现全双工通信。这一功能将极大提升实时语音 AI 应用的性能。",
-              "source": "Cloudflare Blog",
-              "url": "https://blog.cloudflare.com/grpc-workers",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-08-03",
-              "publishedAt": "2026-08-03T21:00",
-              "reason": "Cloudflare Workers 的这一新功能将显著提升实时应用的性能，值得开发者关注和尝试。"
-            },
-            {
-              "title": "Cloudflare 推出 @cloudflare/computer 预览版，提供智能体虚拟文件系统",
-              "summary": "Cloudflare 发布了 @cloudflare/computer 的早期预览版，这是一个开源智能体运行时，旨在为每个智能体提供虚拟文件系统，并支持在不同环境中执行代码。尽管这一创新提升了智能体的灵活性，但仍面临可扩展性和资源分配的挑战。",
-              "source": "Cloudflare Blog",
-              "url": "https://blog.cloudflare.com/cloudflare-computer",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-08-03",
-              "publishedAt": "2026-08-03T21:15",
-              "reason": "Cloudflare 的 @cloudflare/computer 提供了一种创新的智能体运行时解决方案，值得关注其在计算资源管理和执行效率上的独特价值。"
-            }
-          ]
-        },
-        {
-          "category": "ai-models",
-          "label": "模型发布",
-          "items": [
-            {
-              "title": "Qwen3.8-Max 发布：开源最强编码与协作模型，2.4T 参数",
-              "summary": "我注意到 Qwen 正式推出了 Qwen3.8-Max，这是他们迄今为止最强大的模型，拥有 2.4T 参数（95B 激活）。这次发布还首次开源了 Qwen-Max 级权重，相关的开放权重将在下周发布，值得关注。",
-              "source": "Qwen：Blog Retrieval（API）",
-              "url": "https://qwen.ai/blog?id=qwen3.8",
-              "score": 69,
-              "sourceCount": 1,
-              "date": "2026-08-03",
-              "publishedAt": "2026-08-03T10:00",
-              "reason": "Qwen3.8-Max 的发布不仅提升了模型的性能，还首次开源了权重，为开发者提供了更多的创新空间，值得关注。"
-            },
-            {
-              "title": "商汤推出开源多模态模型 SenseNova U1.5-Lite-Preview",
-              "summary": "商汤科技发布了基于NEO-Unify架构的轻量级多模态模型SenseNova U1.5-Lite-Preview。该模型仅需8B-MoT参数，即可实现与商业闭源模型相媲美的生成与编辑质量，标志着其在多模态理解和生成领域的进一步创新。",
-              "source": "X：商汤 SenseTime (@SenseTime_AI)",
-              "url": "https://x.com/SenseTime_AI/status/2084288424236782073",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-08-03",
-              "publishedAt": "2026-08-03T22:40",
-              "reason": "SenseNova U1.5-Lite-Preview的发布展示了商汤在多模态模型领域的创新能力，值得关注其对行业的潜在影响。"
-            },
-            {
-              "title": "OpenAI 新模型 Astra 在数学领域表现突出，但被过度解读",
-              "summary": "OpenAI 正在内部测试的新模型 Astra 在解决数学、量子复杂性和理论计算机科学的十个重大开放问题上取得了显著成果。然而，Gary Marcus 指出，相关讨论存在\"合成谬误\"，即擅长某类数学并不意味着擅长所有数学及其他认知任务。此外，OpenAI 尚未公布具体方法，导致其",
-              "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-              "url": "https://garymarcus.substack.com/p/openais-amazing-but-vastly-oversold",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-08-03",
-              "publishedAt": "2026-08-03T05:25",
-              "reason": "Astra 模型在数学领域的突破引发了广泛讨论，但理解其局限性同样重要，值得深入关注。"
-            }
-          ]
-        }
-      ]
     }
   ],
   "llmLeaderboard": {
-    "updated": "2026-10-05",
+    "updated": "2026-10-06",
     "source": "ReLE 中文大模型能力评测（综合能力）",
     "sourceUrl": "https://github.com/jeinlee1991/chinese-llm-benchmark",
     "items": [
