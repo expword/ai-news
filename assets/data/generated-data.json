@@ -1,7 +1,35 @@
 {
   "lastUpdated": "2026-10-05",
-  "generatedAt": "2026-10-05T08:23:27.838539Z",
+  "generatedAt": "2026-10-05T10:44:51.429014Z",
   "news": [
+    {
+      "title": "Building advertising for the way people use AI",
+      "summary": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
+      "category": "ai-models",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-10-05",
+      "publishedAt": "2026-10-05T18:00",
+      "collectedAt": "2026-10-05T18:44",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "The Agent Said It Was Done. The Database Disagreed.",
       "summary": "",
@@ -2740,34 +2768,6 @@
           "title": "Prompt engineering by Quick component: Patterns and pitfalls"
         }
       ]
-    },
-    {
-      "title": "Building an AI-powered contract intelligence platform with Amazon Quick and Amazon Bedrock AgentCore",
-      "summary": "Manually extracting data from hundreds of vendor contracts doesn't scale, and RAG chat tools fall short on portfolio-wide questions. This post shares a contract intelligence platfo",
-      "category": "ai-agents",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-09-30",
-      "publishedAt": "2026-09-30T00:14",
-      "collectedAt": "2026-09-30T01:24",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/building-an-ai-powered-contract-intelligence-platform-with-amazon-quick-and-amazon-bedrock-agentcore/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
     }
   ],
   "weeklyDigests": [
@@ -6751,6 +6751,17 @@
     ],
     "ai-models": [
       {
+        "name": "Building advertising for the way people use AI",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
+        "description": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · OpenAI Blog",
+        "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement"
+      },
+      {
         "name": "DeepSeek down live: Chinese AI app not working properly amid",
         "provider": "NewsData.io",
         "type": "AI 项目/工具",
@@ -7178,17 +7189,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:Google Gemini",
         "url": "https://www.theregister.com/os-platforms/2026/09/25/2026-just-became-the-year-of-freebsd-on-the-amazonian-cloud-desktop/5299025"
-      },
-      {
-        "name": "TrustModel.ai Launches Independent Assessment Platform for t",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "TrustModel.ai launches independent assessment platform for foundation models powering Global 2000 to evaluate, monitor and certify AI to close assurance gaps",
-        "description": "TrustModel.ai launches independent assessment platform for foundation models powering Global 2000 to evaluate, monitor and certify AI to close assurance gaps",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:DeepSeek",
-        "url": "https://www.einpresswire.com/article/944997513/trustmodel-ai-launches-independent-assessment-platform-for-the-foundation-models-powering-the-global-2000"
       }
     ],
     "ai-business": [
@@ -10458,7 +10458,7 @@
   ],
   "dailyReport": {
     "date": "2026-10-05",
-    "generatedAt": "2026-10-05T08:23:27.817538Z",
+    "generatedAt": "2026-10-05T10:44:51.409824Z",
     "total": 24,
     "sections": [
       {
@@ -10594,6 +10594,17 @@
         "label": "模型发布",
         "items": [
           {
+            "title": "Building advertising for the way people use AI",
+            "summary": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for adver",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-05",
+            "publishedAt": "2026-10-05T18:00",
+            "reason": ""
+          },
+          {
             "title": "Track fitting as a language translation problem",
             "summary": "Particle physics analysis depends on information retrieved from particle tracks in a detector. Traditionally, this involves collecting indiv",
             "source": "arXiv",
@@ -10708,17 +10719,6 @@
             "summary": "Multilingual self-supervised speech models can benefit from sharing information across languages, but under a matched total pretraining data",
             "source": "RSS · Apple ML Research",
             "url": "https://machinelearning.apple.com/research/language-discrimination-multilingual-learning",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-02",
-            "publishedAt": "2026-10-02T08:00",
-            "reason": ""
-          },
-          {
-            "title": "Limits of Confidence in Diffusion",
-            "summary": "Discrete diffusion, including remasking and uniform-state samplers, generate a sequence by writing multiple token positions per step, drawin",
-            "source": "RSS · Apple ML Research",
-            "url": "https://machinelearning.apple.com/research/limits-confidence-diffusion",
             "score": 70,
             "sourceCount": 1,
             "date": "2026-10-02",
