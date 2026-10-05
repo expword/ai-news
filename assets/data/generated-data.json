@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-10-05",
-  "generatedAt": "2026-10-05T02:22:20.987226Z",
+  "generatedAt": "2026-10-05T04:43:22.691988Z",
   "news": [
     {
       "title": "The Agent Said It Was Done. The Database Disagreed.",
@@ -14,6 +14,116 @@
       "sourceDate": "",
       "tags": [],
       "url": "https://huggingface.co/blog/microsoft/thinkingbox",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "CVE2AP: Automated Generation of PDDL-Encoded Attack Paths via Large Language Models",
+      "summary": "Attack Path (AP) modeling is fundamental to cybersecurity analysis, where the Planning Domain Definition Language (PDDL) has been widely adopted to encode APs into formal and machi",
+      "category": "ai-coding",
+      "source": "arXiv",
+      "date": "2026-10-02",
+      "publishedAt": "",
+      "collectedAt": "2026-10-05T12:43",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-02",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.03383v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "ReFract: Benchmarking Perspective Awareness in Language Model Agents with Text World Models",
+      "summary": "Large Language Model (LLM) agents are increasingly deployed in high-stakes settings such as industrial maintenance and equipment fault troubleshooting, where workers occupy a varie",
+      "category": "ai-coding",
+      "source": "arXiv",
+      "date": "2026-10-02",
+      "publishedAt": "",
+      "collectedAt": "2026-10-05T12:43",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-02",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.03356v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Track fitting as a language translation problem",
+      "summary": "Particle physics analysis depends on information retrieved from particle tracks in a detector. Traditionally, this involves collecting individual detector hits, recombining them to",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-10-02",
+      "publishedAt": "",
+      "collectedAt": "2026-10-05T12:43",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-02",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.03339v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Follow the Winners: Conservative Policy Improvement with the Cross-Entropy Method for Critic-Free RFT",
+      "summary": "Critic-free reinforcement fine-tuning (RFT) for agentic large language models is often done through GRPO-style methods, which compute a group baseline over repeated rollouts to red",
+      "category": "ai-agents",
+      "source": "arXiv",
+      "date": "2026-10-02",
+      "publishedAt": "",
+      "collectedAt": "2026-10-05T12:43",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-02",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.03361v1",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -2656,115 +2766,6 @@
       "moduleTargets": [
         "news",
         "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "BrainNet Studio: A Unified Toolkit for Brain Network Construction, Intelligent Analysis, and Visualization",
-      "summary": "Brain networks characterize structural and functional relationships among brain regions and support research on cognition, brain disorders, and brain-computer interfaces. Their tim",
-      "category": "ai-research",
-      "source": "arXiv",
-      "date": "2026-09-29",
-      "publishedAt": "",
-      "collectedAt": "2026-09-30T12:09",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-29",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.37956v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "The Unequal Influence of Bad Advice: Using Training Data Attribution to Modulate Emergent Misalignment",
-      "summary": "Fine-tuning large language models on narrow, misaligned tasks can undo their post-training alignment and induce novel misaligned behaviors -- a phenomenon known as \\emph{emergent m",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-29",
-      "publishedAt": "",
-      "collectedAt": "2026-09-30T12:09",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-29",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.37914v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "WayFinder: Hierarchical Visual-Language-Action for Zero-Shot Waypoint Generation and Low-Level Kinematic Control",
-      "summary": "Visual Language Action (VLA) models offer unprecedented generalization for autonomous robots; however, their real-world deployment is frequently bottlenecked by unreliable executio",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-09-29",
-      "publishedAt": "",
-      "collectedAt": "2026-09-30T12:09",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-29",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.37922v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "SYNCR: Diagnosing and Learning Cross-Video Reasoning from Simulation",
-      "summary": "Reasoning across videos requires aligning events, matching identities, comparing motion, and integrating partial observations. Evaluating these capabilities and testing how to impr",
-      "category": "ai-image-video",
-      "source": "arXiv",
-      "date": "2026-09-29",
-      "publishedAt": "",
-      "collectedAt": "2026-09-30T12:09",
-      "dateStatus": "collected",
-      "sourceDate": "2026-09-29",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2609.37918v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
       ],
       "sourceCount": 1
     }
@@ -6308,6 +6309,17 @@
     ],
     "ai-agents": [
       {
+        "name": "Follow the Winners: Conservative Policy Improvement with the",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Critic-free reinforcement fine-tuning (RFT) for agentic large language models is often done through GRPO-style methods, which compute a group baseline over repe",
+        "description": "Critic-free reinforcement fine-tuning (RFT) for agentic large language models is often done through GRPO-style methods, which compute a group baseline over repeated rollouts to red",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2610.03361v1"
+      },
+      {
         "name": "HazardWeaver: Scientific Route Selection for Hazard Analysis",
         "provider": "arXiv",
         "type": "AI 项目/工具",
@@ -6735,17 +6747,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:AI agent",
         "url": "https://cfotech.in/story/dataiku-launches-cross-platform-ai-agent-management-tool"
-      },
-      {
-        "name": "OpenAI launches ChatGPT Space for team collaboration",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Teams can now share projects and documents in ChatGPT, as OpenAI pushes the service deeper into everyday office workflows.",
-        "description": "Teams can now share projects and documents in ChatGPT, as OpenAI pushes the service deeper into everyday office workflows.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://itbrief.in/story/openai-launches-chatgpt-space-for-team-collaboration"
       }
     ],
     "ai-models": [
@@ -7634,6 +7635,17 @@
     ],
     "ai-benchmark": [
       {
+        "name": "ReFract: Benchmarking Perspective Awareness in Language Mode",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Large Language Model (LLM) agents are increasingly deployed in high-stakes settings such as industrial maintenance and equipment fault troubleshooting, where wo",
+        "description": "Large Language Model (LLM) agents are increasingly deployed in high-stakes settings such as industrial maintenance and equipment fault troubleshooting, where workers occupy a varie",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2610.03356v1"
+      },
+      {
         "name": "Anthropic Is Training 10,000 Engineers to Install Claude Ins",
         "provider": "NewsData.io",
         "type": "AI 项目/工具",
@@ -8154,17 +8166,6 @@
         "watch": "H2O AI Super AgentTM 的 API 价格可能会影响中小企业的使用意愿，导致市场份额的流失。",
         "sourceName": "NewsData.io:AI benchmark leaderboard",
         "url": "https://www.postregister.com/businessreport/technology/h2o-ai-super-agent-ranks-2-worldwide-on-futurex-overall-leaderboard/article_d0f95b43-7f11-500a-81f8-e3edd0f51d1e.html"
-      },
-      {
-        "name": "AI Daily Digest â August 1, 2026: ARC-AGI-3 Harness Disco",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "",
-        "description": "",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI benchmark leaderboard",
-        "url": "https://www.bundle.app/en/technology/ai-daily-digest-august-1-2026-arc-agi-3-harness-discovery-eu-ai-gigafactories-devin-swe-17-C670369A-F7EE-4ED2-817C-50055679766A"
       }
     ],
     "ai-image-video": [
@@ -10457,13 +10458,35 @@
   ],
   "dailyReport": {
     "date": "2026-10-05",
-    "generatedAt": "2026-10-05T02:22:20.965054Z",
-    "total": 23,
+    "generatedAt": "2026-10-05T04:43:22.670988Z",
+    "total": 24,
     "sections": [
       {
         "category": "ai-coding",
         "label": "AI 编程",
         "items": [
+          {
+            "title": "CVE2AP: Automated Generation of PDDL-Encoded Attack Paths via Large Language Models",
+            "summary": "Attack Path (AP) modeling is fundamental to cybersecurity analysis, where the Planning Domain Definition Language (PDDL) has been widely ado",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.03383v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-02",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "ReFract: Benchmarking Perspective Awareness in Language Model Agents with Text World Models",
+            "summary": "Large Language Model (LLM) agents are increasingly deployed in high-stakes settings such as industrial maintenance and equipment fault troub",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.03356v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-02",
+            "publishedAt": "",
+            "reason": ""
+          },
           {
             "title": "PrivDev: Mapping Static-Analysis Data Types to DPV",
             "summary": "Static-analysis scanners can identify personal-data types in source code, but they lack mechanisms to connect these findings to standardized",
@@ -10484,17 +10507,6 @@
             "sourceCount": 1,
             "date": "2026-10-02",
             "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Chatham scales its capital markets expertise with OpenAI",
-            "summary": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
-            "source": "RSS · OpenAI Blog",
-            "url": "https://openai.com/index/chatham-financial",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-02",
-            "publishedAt": "2026-10-02T08:00",
             "reason": ""
           }
         ]
@@ -10532,6 +10544,17 @@
             "reason": ""
           },
           {
+            "title": "Follow the Winners: Conservative Policy Improvement with the Cross-Entropy Method for Critic-Free RFT",
+            "summary": "Critic-free reinforcement fine-tuning (RFT) for agentic large language models is often done through GRPO-style methods, which compute a grou",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.03361v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-02",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
             "title": "HazardWeaver: Scientific Route Selection for Hazard Analysis Agents",
             "summary": "Understanding and assessing natural hazards is essential for disaster preparedness and risk reduction. Recent advances in large language mod",
             "source": "arXiv",
@@ -10563,17 +10586,6 @@
             "date": "2026-10-02",
             "publishedAt": "",
             "reason": ""
-          },
-          {
-            "title": "Add secure Web Search to Claude Desktop with Amazon Bedrock AgentCore",
-            "summary": "Claude Desktop on Amazon Bedrock is limited to the model's knowledge cutoff without web search. In this post, we walk through connecting Cla",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/add-secure-web-search-to-claude-desktop-with-amazon-bedrock-agentcore/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-02",
-            "publishedAt": "2026-10-02T23:46",
-            "reason": ""
           }
         ]
       },
@@ -10581,6 +10593,17 @@
         "category": "ai-models",
         "label": "模型发布",
         "items": [
+          {
+            "title": "Track fitting as a language translation problem",
+            "summary": "Particle physics analysis depends on information retrieved from particle tracks in a detector. Traditionally, this involves collecting indiv",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.03339v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-02",
+            "publishedAt": "",
+            "reason": ""
+          },
           {
             "title": "Divergence controls entropy in distillation",
             "summary": "Distillation has become a core primitive of large language model training, but its properties are not yet well understood. We take an entrop",
@@ -10700,17 +10723,6 @@
             "sourceCount": 1,
             "date": "2026-10-02",
             "publishedAt": "2026-10-02T08:00",
-            "reason": ""
-          },
-          {
-            "title": "Oct 2, 2026 Announcements Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent g",
-            "summary": "Oct 2, 2026 Announcements Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap",
-            "source": "HTML · Anthropic",
-            "url": "https://www.anthropic.com/news/claude-frontier-academy",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-02",
-            "publishedAt": "",
             "reason": ""
           }
         ]
