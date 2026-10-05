@@ -1,7 +1,35 @@
 {
   "lastUpdated": "2026-10-06",
-  "generatedAt": "2026-10-05T20:28:54.580291Z",
+  "generatedAt": "2026-10-05T21:38:49.656530Z",
   "news": [
+    {
+      "title": "Open and Emergent Problems in Agentic Privacy and Security: A Contextual Angle",
+      "summary": "Education Innovation",
+      "category": "ai-agents",
+      "source": "RSS · Google Research",
+      "date": "2026-10-06",
+      "publishedAt": "2026-10-06T05:08",
+      "collectedAt": "2026-10-06T05:38",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Supercharge regulated workloads with Claude Code and Amazon Bedrock",
       "summary": "Anthropic Claude Opus 5.5 and Claude Sonnet 5.5 are available on Amazon Bedrock in the AWS GovCloud (US) Regions. Learn how to use them with Claude Code, Anthropic's agentic coding",
@@ -6232,6 +6260,17 @@
     ],
     "ai-agents": [
       {
+        "name": "Open and Emergent Problems in Agentic Privacy and Security: ",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Education Innovation",
+        "description": "Education Innovation",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Google Research",
+        "url": "https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle/"
+      },
+      {
         "name": "Wikimedia 基金会发现 OpenAI \"流氓\"智能体在维基媒体平台上的活动",
         "provider": "Hacker News：AI 热帖",
         "type": "AI 项目/工具",
@@ -6659,20 +6698,20 @@
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · AWS Machine Learning",
         "url": "https://aws.amazon.com/blogs/machine-learning/fine-tune-a-search-agent-with-multi-turn-rl-on-amazon-sagemaker-ai/"
-      },
-      {
-        "name": "Dataiku launches cross-platform AI agent management tool",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "It aims to close a governance gap as firms struggle to track AI agents across multiple cloud and software platforms and assess their risks.",
-        "description": "It aims to close a governance gap as firms struggle to track AI agents across multiple cloud and software platforms and assess their risks.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://itbrief.in/story/dataiku-launches-cross-platform-ai-agent-management-tool"
       }
     ],
     "ai-models": [
+      {
+        "name": "SemiAnalysis 测算：Anthropic 订阅的 API 等价价值约为 OpenAI 的 5 倍以上",
+        "provider": "SemiAnalysis 长文 RSS（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "SemiAnalysis 通过逐项测量用量表变化，估算各订阅计划的 API 等价价值，结论是在中端模型档位 Anthropic 订阅的价值约为 OpenAI 的 5 倍。",
+        "description": "SemiAnalysis 通过逐项测量用量表变化，估算各订阅计划的 API 等价价值，结论是在中端模型档位 Anthropic 订阅的价值约为 OpenAI 的 5 倍。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "SemiAnalysis 长文 RSS（RSS）",
+        "url": "https://newsletter.semianalysis.com/p/anthropic-subscriptions-offer-5x"
+      },
       {
         "name": "Downgrading user roles in Amazon Quick",
         "provider": "RSS",
@@ -7101,17 +7140,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:Claude AI",
         "url": "https://completeaitraining.com/news/adobe-expands-claude-integration-and-adds-gemini-connector/"
-      },
-      {
-        "name": "Trump-Xi summit ends with pomp and show but no major deal on",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "US President Donald Trump and his Chinese counterpart Xi Jinping wrapped up their much-talked-about Washington Summit on Friday without any major agreement on A",
-        "description": "US President Donald Trump and his Chinese counterpart Xi Jinping wrapped up their much-talked-about Washington Summit on Friday without any major agreement on Artificial Intelligen",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:DeepSeek",
-        "url": "https://www.firstpost.com/world/trump-xi-summit-ends-with-pomp-and-show-but-no-major-deal-on-ai-14048481.html"
       }
     ],
     "ai-business": [
@@ -10377,8 +10405,8 @@
   ],
   "dailyReport": {
     "date": "2026-10-06",
-    "generatedAt": "2026-10-05T20:28:54.561322Z",
-    "total": 24,
+    "generatedAt": "2026-10-05T21:38:49.635458Z",
+    "total": 8,
     "sections": [
       {
         "category": "ai-coding",
@@ -10405,67 +10433,6 @@
             "date": "2026-10-05",
             "publishedAt": "2026-10-05T08:00",
             "reason": ""
-          },
-          {
-            "title": "CVE2AP: Automated Generation of PDDL-Encoded Attack Paths via Large Language Models",
-            "summary": "Attack Path (AP) modeling is fundamental to cybersecurity analysis, where the Planning Domain Definition Language (PDDL) has been widely ado",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.03383v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-02",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "ReFract: Benchmarking Perspective Awareness in Language Model Agents with Text World Models",
-            "summary": "Large Language Model (LLM) agents are increasingly deployed in high-stakes settings such as industrial maintenance and equipment fault troub",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.03356v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-02",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "PrivDev: Mapping Static-Analysis Data Types to DPV",
-            "summary": "Static-analysis scanners can identify personal-data types in source code, but they lack mechanisms to connect these findings to standardized",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.03518v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-02",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Metropolis-Hastings Dominates Importance Resampling for Policy Composition",
-            "summary": "Post-training a large language model (LLM) often requires exploring trade-offs between multiple rewards, but retraining for each trade-off i",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.03480v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-02",
-            "publishedAt": "",
-            "reason": ""
-          }
-        ]
-      },
-      {
-        "category": "ai-image-video",
-        "label": "图像视频",
-        "items": [
-          {
-            "title": "CLIMB: Confidence-Guided Complementary Evidence for Multimodal Retrieval-Augmented Generation",
-            "summary": "Multimodal large language models (MLLMs) have shown strong visual reasoning abilities, but knowledge-intensive visual question answering oft",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.03421v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-02",
-            "publishedAt": "",
-            "reason": ""
           }
         ]
       },
@@ -10473,6 +10440,17 @@
         "category": "ai-agents",
         "label": "Agent / MCP",
         "items": [
+          {
+            "title": "Open and Emergent Problems in Agentic Privacy and Security: A Contextual Angle",
+            "summary": "Education Innovation",
+            "source": "RSS · Google Research",
+            "url": "https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-06",
+            "publishedAt": "2026-10-06T05:08",
+            "reason": ""
+          },
           {
             "title": "Agentic retrieval with LangChain and Amazon Bedrock Knowledge Bases",
             "summary": "Build a Retrieval Augmented Generation (RAG) application on Amazon Bedrock Managed Knowledge Base with LangChain, and see how agentic retrie",
@@ -10505,61 +10483,6 @@
             "date": "2026-10-05",
             "publishedAt": "2026-10-05T23:50",
             "reason": ""
-          },
-          {
-            "title": "The Agent Said It Was Done. The Database Disagreed.",
-            "summary": "",
-            "source": "RSS · Hugging Face Blog",
-            "url": "https://huggingface.co/blog/microsoft/thinkingbox",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-04",
-            "publishedAt": "2026-10-04T06:56",
-            "reason": ""
-          },
-          {
-            "title": "Follow the Winners: Conservative Policy Improvement with the Cross-Entropy Method for Critic-Free RFT",
-            "summary": "Critic-free reinforcement fine-tuning (RFT) for agentic large language models is often done through GRPO-style methods, which compute a grou",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.03361v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-02",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "HazardWeaver: Scientific Route Selection for Hazard Analysis Agents",
-            "summary": "Understanding and assessing natural hazards is essential for disaster preparedness and risk reduction. Recent advances in large language mod",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.03591v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-02",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Structured Composition of Verifiable Atomic Insights for Table-to-Report Generation",
-            "summary": "Table-to-report generation refers to the task of automatically generating article-level analyt- ical reports from relational tables and is a",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.03525v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-02",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Prompt framing governs LLM default following in collective-action",
-            "summary": "Large language models are increasingly deployed as agents that make or recommend decisions on behalf of users, often operating through inter",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.03253v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-02",
-            "publishedAt": "",
-            "reason": ""
           }
         ]
       },
@@ -10587,89 +10510,6 @@
             "sourceCount": 1,
             "date": "2026-10-05",
             "publishedAt": "2026-10-05T18:00",
-            "reason": ""
-          },
-          {
-            "title": "Track fitting as a language translation problem",
-            "summary": "Particle physics analysis depends on information retrieved from particle tracks in a detector. Traditionally, this involves collecting indiv",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.03339v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-02",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Divergence controls entropy in distillation",
-            "summary": "Distillation has become a core primitive of large language model training, but its properties are not yet well understood. We take an entrop",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.03529v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-02",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Objects Without Morphisms: What LLMs for Mathematics Do Not Represent",
-            "summary": "Large language models (LLMs) have reached expert-level performance on competition mathematics largely through the volume of search placed ar",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.03551v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-02",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Efficient Reasoning Training Does Not Always Harm CoT Faithfulness and Monitorability",
-            "summary": "Chain-of-thought (CoT) reasoning allows humans to inspect how large language models reach their answers, and oversee model behaviour. This r",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.03509v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-02",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "LESSER: Post-Training Data Selection with Output-Layer Gradients",
-            "summary": "The choice of post-training data for large language models substantially affects downstream performance. Gradient-based data selection is a ",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.03702v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-02",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Shrome at Touché: Soft-Vote Ensembling and Counter-Causal Augmentation for Causality Extraction",
-            "summary": "Touché 2026 extends causality extraction to counter-causal claims: news sentences whose surface form appears causal but whose meaning denies",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.03268v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-02",
-            "publishedAt": "",
-            "reason": ""
-          }
-        ]
-      },
-      {
-        "category": "ai-benchmark",
-        "label": "评测榜单",
-        "items": [
-          {
-            "title": "Do Large Language Models Know Colombian Law? A Reliability Benchmark for the Colombian Legal System",
-            "summary": "Large language models (LLMs) are increasingly used to support legal practice, education, and research, yet their reliability in national leg",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.03639v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-02",
-            "publishedAt": "",
             "reason": ""
           }
         ]
