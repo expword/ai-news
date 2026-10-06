@@ -1,7 +1,226 @@
 {
-  "lastUpdated": "2026-10-06",
-  "generatedAt": "2026-10-06T15:51:38.749927Z",
+  "lastUpdated": "2026-10-07",
+  "generatedAt": "2026-10-06T18:14:21.913537Z",
   "news": [
+    {
+      "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+      "summary": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
+      "category": "ai-models",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-10-07",
+      "publishedAt": "2026-10-07T00:00",
+      "collectedAt": "2026-10-07T01:04",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/atlassian-partnership",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "What AI gets wrong and what failure teaches us",
+      "summary": "Jennifer Neville did not want to go into computer science—but that’s exactly where she landed. Neville discusses the starts and stops that led to her professional sweet spot and he",
+      "category": "ai-research",
+      "source": "RSS · Microsoft Research",
+      "date": "2026-10-07",
+      "publishedAt": "2026-10-07T00:19",
+      "collectedAt": "2026-10-07T01:04",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://www.microsoft.com/en-us/research/podcast/what-ai-gets-wrong-and-what-failure-teaches-us/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "NTS: Authenticated Time at Meta",
+      "summary": "Meta’s public time service now speaks NTS (Network Time Security, RFC 8915) at nts.meta.com. Packets are authenticated, so a device can verify the time came from us and was not mod",
+      "category": "ai-models",
+      "source": "RSS · Meta Engineering",
+      "date": "2026-10-07",
+      "publishedAt": "2026-10-07T00:00",
+      "collectedAt": "2026-10-07T01:04",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://engineering.fb.com/2026/10/06/production-engineering/nts-authenticated-time-at-meta/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Responsible AI governance: How AWS positions customers to align with ISO/IEC 42005:2025",
+      "summary": "AWS invests in tools that help customers align with international standards for responsible AI governance. In this post, we explore the AI system impact assessment: what it is, how",
+      "category": "ai-models",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-10-06",
+      "publishedAt": "2026-10-06T23:53",
+      "collectedAt": "2026-10-07T01:04",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/responsible-ai-governance-how-aws-positions-customers-to-align-with-iso-iec-420052025/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Unlocking Earth AI’s planetary geospatial foundation models for global public health",
+      "summary": "Earth AI",
+      "category": "ai-models",
+      "source": "RSS · Google Research",
+      "date": "2026-10-06",
+      "publishedAt": "2026-10-06T23:05",
+      "collectedAt": "2026-10-07T01:04",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://research.google/blog/earth-ais-planetary-geospatial-foundation-models-for-global-public-health/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Best practices for Amazon SageMaker HyperPod administration and governance",
+      "summary": "Learn how to administer Amazon SageMaker HyperPod through Amazon SageMaker Unified Studio while preserving cluster governance. This post shows platform teams how to design infrastr",
+      "category": "ai-models",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-10-06",
+      "publishedAt": "2026-10-06T23:50",
+      "collectedAt": "2026-10-07T01:04",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/best-practices-for-amazon-sagemaker-hyperpod-administration-and-governance/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Manage Amazon SageMaker HyperPod Spaces directly from SageMaker Studio",
+      "summary": "Data scientists and ML engineers can now create, configure, start, stop, and open Amazon SageMaker Spaces on SageMaker HyperPod EKS clusters directly from SageMaker Studio. Launch ",
+      "category": "ai-coding",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-10-06",
+      "publishedAt": "2026-10-06T23:47",
+      "collectedAt": "2026-10-07T01:04",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/manage-amazon-sagemaker-hyperpod-spaces-directly-from-sagemaker-studio/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Build a voice travel concierge with Amazon Bedrock AgentCore, Managed Knowledge Base and Nova Sonic",
+      "summary": "Add a voice travel concierge to an airline app with Amazon Bedrock AgentCore, Amazon Nova Sonic for real-time speech, and Amazon Bedrock Knowledge Bases for policy answers. Travele",
+      "category": "ai-agents",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-10-06",
+      "publishedAt": "2026-10-06T23:45",
+      "collectedAt": "2026-10-07T01:04",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-a-voice-travel-concierge-with-amazon-bedrock-agentcore-managed-knowledge-base-and-nova-sonic/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Claude Code 云端会话实战指南：每个任务独占一台 VM，可并行跑任务并以分支收尾",
       "summary": "Claude Code 推出云端会话：每个任务在独立 VM 上运行，仓库克隆到新分支，可从 claude.ai/code、手机、Desktop、终端和 Slack 启动并跟踪，完成后产出可转 PR 的分支，Pro、Max、Team、Enterprise 计划不额外收费。",
@@ -2449,61 +2668,6 @@
       "sourceDate": "2026-10-01",
       "tags": [],
       "url": "http://arxiv.org/abs/2610.02005v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "OmniSeek: Native Tool Integration for Multi-turn Audio-Visual Reasoning",
-      "summary": "We present OmniSeek, an agentic framework that transforms an Omni Large Language Model (Omni-LLM) into an active, multi-turn reasoning agent with native tool use. Rather than passi",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-10-01",
-      "publishedAt": "",
-      "collectedAt": "2026-10-02T11:02",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-01",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.02181v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Scalable, Transferable Meta-network for Data Selection Requires a Different Loss (and Why the Obvious Choice is Problematic)",
-      "summary": "Data selection is critical for training large language models on massive and heterogeneous corpora. Meta-learning for Training-data Selection offers a principled alternative to heu",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-10-01",
-      "publishedAt": "",
-      "collectedAt": "2026-10-02T11:02",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-01",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.02092v1",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -6059,6 +6223,17 @@
     ],
     "ai-agents": [
       {
+        "name": "Build a voice travel concierge with Amazon Bedrock AgentCore",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Add a voice travel concierge to an airline app with Amazon Bedrock AgentCore, Amazon Nova Sonic for real-time speech, and Amazon Bedrock Knowledge Bases for pol",
+        "description": "Add a voice travel concierge to an airline app with Amazon Bedrock AgentCore, Amazon Nova Sonic for real-time speech, and Amazon Bedrock Knowledge Bases for policy answers. Travele",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/build-a-voice-travel-concierge-with-amazon-bedrock-agentcore-managed-knowledge-base-and-nova-sonic/"
+      },
+      {
         "name": "Vercel COO 讲解如何用 Agent 自动化 Inbound 销售",
         "provider": "Tomer Tunguz 博客（VC 分析）",
         "type": "AI 项目/工具",
@@ -6486,20 +6661,31 @@
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:AI agent",
         "url": "https://biztoc.com/x/47fd98986b60df3b"
-      },
-      {
-        "name": "Bangladesh’s invisible visa trade market is worth at least B",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Work permits can change hands through multiple layers of agents, recruiting agencies and brokers before reaching migrants, adding commissions at each stage.",
-        "description": "Work permits can change hands through multiple layers of agents, recruiting agencies and brokers before reaching migrants, adding commissions at each stage.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:large language model",
-        "url": "https://en.bonikbarta.com/bangladesh/NYU3qQDrJyU2Ewbx"
       }
     ],
     "ai-models": [
+      {
+        "name": "Responsible AI governance: How AWS positions customers to al",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "AWS invests in tools that help customers align with international standards for responsible AI governance. In this post, we explore the AI system impact assessm",
+        "description": "AWS invests in tools that help customers align with international standards for responsible AI governance. In this post, we explore the AI system impact assessment: what it is, how",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/responsible-ai-governance-how-aws-positions-customers-to-align-with-iso-iec-420052025/"
+      },
+      {
+        "name": "Best practices for Amazon SageMaker HyperPod administration ",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Learn how to administer Amazon SageMaker HyperPod through Amazon SageMaker Unified Studio while preserving cluster governance. This post shows platform teams ho",
+        "description": "Learn how to administer Amazon SageMaker HyperPod through Amazon SageMaker Unified Studio while preserving cluster governance. This post shows platform teams how to design infrastr",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/best-practices-for-amazon-sagemaker-hyperpod-administration-and-governance/"
+      },
       {
         "name": "China urges US to collaborate more in the field of AI",
         "provider": "NewsData.io",
@@ -6917,28 +7103,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "IT之家（RSS）",
         "url": "https://www.ithome.com/1/007/767.htm"
-      },
-      {
-        "name": "小米 MiMo-V2.6 诊断并修复工具调用重复问题，用 MOPD 将修复成本降至 MixRL 方案的 4%",
-        "provider": "小米 MiMo：官网发布与博客",
-        "type": "AI 项目/工具",
-        "bestFor": "小米官方复盘 MiMo-V2.6 发布后的工具调用重复问题，响应级重复率超 0.05%，并区分了正常并行调用、调用泛滥与调用重复。回放 RL 各 checkpoint 显示泛滥率随训练从 11.1% 升至 24.6%，32 次调用阈值惩罚过于宽松；直接调低阈值需重启 20 步 MixRL，估计成本 231 万美元，且内",
-        "description": "小米官方复盘 MiMo-V2.6 发布后的工具调用重复问题，响应级重复率超 0.05%，并区分了正常并行调用、调用泛滥与调用重复。回放 RL 各 checkpoint 显示泛滥率随训练从 11.1% 升至 24.6%，32 次调用阈值惩罚过于宽松；直接调低阈值需重启 20 步 MixRL，估计成本 231 万美元，且内部测试重复率仅从 13.45% 降至 3",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "小米 MiMo：官网发布与博客",
-        "url": "https://mimo.xiaomi.com/blog/mimo-v2-6-tool-call-repetition"
-      },
-      {
-        "name": "5 Apple CarPlay Features Android Auto Still Lacks",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "While Android Auto has gained some useful features through recent updates, it still lacks many CarPlay staples that Apple users have enjoyed for a while.",
-        "description": "While Android Auto has gained some useful features through recent updates, it still lacks many CarPlay staples that Apple users have enjoyed for a while.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:Google Gemini",
-        "url": "https://www.bgr.com/2264239/apple-carplay-features-android-auto-lacks/"
       }
     ],
     "ai-business": [
@@ -10193,14 +10357,25 @@
     }
   ],
   "dailyReport": {
-    "date": "2026-10-06",
-    "generatedAt": "2026-10-06T15:51:38.729958Z",
-    "total": 32,
+    "date": "2026-10-07",
+    "generatedAt": "2026-10-06T18:14:21.888569Z",
+    "total": 13,
     "sections": [
       {
         "category": "ai-coding",
         "label": "AI 编程",
         "items": [
+          {
+            "title": "Manage Amazon SageMaker HyperPod Spaces directly from SageMaker Studio",
+            "summary": "Data scientists and ML engineers can now create, configure, start, stop, and open Amazon SageMaker Spaces on SageMaker HyperPod EKS clusters",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/manage-amazon-sagemaker-hyperpod-spaces-directly-from-sagemaker-studio/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-06",
+            "publishedAt": "2026-10-06T23:47",
+            "reason": ""
+          },
           {
             "title": "Claude Code 云端会话实战指南：每个任务独占一台 VM，可并行跑任务并以分支收尾",
             "summary": "Claude Code 推出云端会话：每个任务在独立 VM 上运行，仓库克隆到新分支，可从 claude.ai/code、手机、Desktop、终端和 Slack 启动并跟踪，完成后产出可转 PR 的分支，Pro、Max、Team、Enterprise 计划不额外收费。",
@@ -10222,72 +10397,6 @@
             "date": "2026-10-06",
             "publishedAt": "2026-10-06T01:25",
             "reason": ""
-          },
-          {
-            "title": "Large Language Model-Guided Discovery of Weight-Five Bivariate Bicycle Codes",
-            "summary": "Building on our earlier program-evolution workflow guided by large language models (LLMs), we study weight-five bivariate bicycle (BB) and p",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.06623v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-05",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Back to the Future: Rethinking EDA Infrastructure for Agentic Systems in Chip Design Verification",
-            "summary": "The unprecedented computational scale of modern artificial intelligence depends on complex, multi-billion-transistor Systems-on-Chip, yet th",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.06790v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-05",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "What Matters for Latent Reasoning with Flow Matching",
-            "summary": "Latent reasoning lets a large language model (LLM) think in a continuous space and verbalize only the answer. We argue that an effective lat",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.06666v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-05",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Nash Equilibrium Text: A Game-Theoretic Decoding Framework for Text Generation",
-            "summary": "Text revision has become an integral component of large language models. This paper formulates revision such that it admits a Nash equilibri",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.05817v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-05",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "PreMaQ: Predicting Maintainability-Related Quality of LLM-Generated Code Before Generation",
-            "summary": "As large language models (LLMs) become increasingly capable of code generation, adopting generated code in software development requires ass",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.05858v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-05",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Together Link: open models in the harness you already use. Start with one command today.",
-            "summary": "Together Link brings frontier open models like GLM 5.3 and Kimi K3 into the coding agent your team already uses, cutting model spend by over",
-            "source": "RSS · Together AI",
-            "url": "https://www.together.ai/blog/together-link-frontier-quality-open-models-in-the-harness-you-already-use",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-05",
-            "publishedAt": "2026-10-05T08:00",
-            "reason": ""
           }
         ]
       },
@@ -10295,6 +10404,17 @@
         "category": "ai-agents",
         "label": "Agent / MCP",
         "items": [
+          {
+            "title": "Build a voice travel concierge with Amazon Bedrock AgentCore, Managed Knowledge Base and Nova Sonic",
+            "summary": "Add a voice travel concierge to an airline app with Amazon Bedrock AgentCore, Amazon Nova Sonic for real-time speech, and Amazon Bedrock Kno",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/build-a-voice-travel-concierge-with-amazon-bedrock-agentcore-managed-knowledge-base-and-nova-sonic/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-06",
+            "publishedAt": "2026-10-06T23:45",
+            "reason": ""
+          },
           {
             "title": "Open and Emergent Problems in Agentic Privacy and Security: A Contextual Angle",
             "summary": "Education Innovation",
@@ -10305,72 +10425,6 @@
             "date": "2026-10-06",
             "publishedAt": "2026-10-06T05:08",
             "reason": ""
-          },
-          {
-            "title": "MedPrune: Topology-Efficient Multimodal Multi-Agent Communication Evolution for Medical VQA Tasks",
-            "summary": "While medical multimodal large language models (Med-MLLMs) advance medical visual question answering (VQA), existing clinical workflow-inspi",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.06695v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-05",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Beyond Semantic Similarity: Performance and Costs of Agentic Retrieval for Complex Tasks",
-            "summary": "Modern information systems, including many agentic workflows, use dense retrieval to explore large amounts of unstructured data. However, de",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.05750v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-05",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Can CaMeLs Talk? Securing Multi-Agent Systems Against Indirect Prompt Injection Attacks",
-            "summary": "Indirect prompt injection attacks - malicious instructions embedded in content processed by large language models - remain a major obstacle ",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.05640v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-05",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Agentic retrieval with LangChain and Amazon Bedrock Knowledge Bases",
-            "summary": "Build a Retrieval Augmented Generation (RAG) application on Amazon Bedrock Managed Knowledge Base with LangChain, and see how agentic retrie",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/agentic-retrieval-with-langchain-and-amazon-bedrock-knowledge-bases/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-05",
-            "publishedAt": "2026-10-05T23:53",
-            "reason": ""
-          },
-          {
-            "title": "Making Amazon Quick enterprise-ready: Automated, auditable cross-account resource promotion",
-            "summary": "Promoting Amazon Quick resources (agents, action connectors, knowledge bases, flows, and spaces) from a development to a production AWS acco",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/making-amazon-quick-enterprise-ready-automated-auditable-cross-account-resource-promotion/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-05",
-            "publishedAt": "2026-10-05T23:56",
-            "reason": ""
-          },
-          {
-            "title": "Evaluating multi-agent systems for explainability and helpfulness with Amazon Bedrock AgentCore",
-            "summary": "Multi-agent systems need deeper guarantees than fluent responses: they must select the right tools, respect constraints, and explain their d",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/evaluating-multi-agent-systems-for-explainability-and-helpfulness-with-amazon-bedrock-agentcore/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-05",
-            "publishedAt": "2026-10-05T23:50",
-            "reason": ""
           }
         ]
       },
@@ -10378,6 +10432,61 @@
         "category": "ai-models",
         "label": "模型发布",
         "items": [
+          {
+            "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+            "summary": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and de",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/atlassian-partnership",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-07",
+            "publishedAt": "2026-10-07T00:00",
+            "reason": ""
+          },
+          {
+            "title": "NTS: Authenticated Time at Meta",
+            "summary": "Meta’s public time service now speaks NTS (Network Time Security, RFC 8915) at nts.meta.com. Packets are authenticated, so a device can veri",
+            "source": "RSS · Meta Engineering",
+            "url": "https://engineering.fb.com/2026/10/06/production-engineering/nts-authenticated-time-at-meta/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-07",
+            "publishedAt": "2026-10-07T00:00",
+            "reason": ""
+          },
+          {
+            "title": "Responsible AI governance: How AWS positions customers to align with ISO/IEC 42005:2025",
+            "summary": "AWS invests in tools that help customers align with international standards for responsible AI governance. In this post, we explore the AI s",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/responsible-ai-governance-how-aws-positions-customers-to-align-with-iso-iec-420052025/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-06",
+            "publishedAt": "2026-10-06T23:53",
+            "reason": ""
+          },
+          {
+            "title": "Unlocking Earth AI’s planetary geospatial foundation models for global public health",
+            "summary": "Earth AI",
+            "source": "RSS · Google Research",
+            "url": "https://research.google/blog/earth-ais-planetary-geospatial-foundation-models-for-global-public-health/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-06",
+            "publishedAt": "2026-10-06T23:05",
+            "reason": ""
+          },
+          {
+            "title": "Best practices for Amazon SageMaker HyperPod administration and governance",
+            "summary": "Learn how to administer Amazon SageMaker HyperPod through Amazon SageMaker Unified Studio while preserving cluster governance. This post sho",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/best-practices-for-amazon-sagemaker-hyperpod-administration-and-governance/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-06",
+            "publishedAt": "2026-10-06T23:50",
+            "reason": ""
+          },
           {
             "title": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
             "summary": "",
@@ -10390,152 +10499,14 @@
             "reason": ""
           },
           {
-            "title": "OrigaMIG: MIG-Aware VM Placement with a Neighborhood-Restricted BILP and Live Migration",
-            "summary": "The extensive use of GPUs in cloud computing, accelerated by the spread of large language model (LLM) services, and the growing need for mul",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.06646v1",
-            "score": 70,
+            "title": "Anthropic Cowork 改为云端运行模型推理与 VM",
+            "summary": "Anthropic 工程师 Felix Rieseberg 说明 Cowork 的新旧架构差异：旧版在云端推理、在用户电脑上运行本地 VM，磁盘、电池和性能开销大，合上笔记本工作就停止。新版把模型推理和 VM 都移到云端，每个会话有独立沙盒，桌面应用只负责文件访问等需要本机设备的",
+            "source": "Simon Willison 博客",
+            "url": "https://simonwillison.net/2026/Oct/5/felix-rieseberg/",
+            "score": 56,
             "sourceCount": 1,
-            "date": "2026-10-05",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "LoGRA: Scaling LLM Reinforcement Learning with Low-Rank Gradient Sketches",
-            "summary": "Reinforcement learning (RL) has greatly advanced the capabilities of large language models (LLMs), but its memory demands remain a barrier t",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.06647v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-05",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Improving Diversity in LLM Short Story Generation",
-            "summary": "Large language models (LLMs) can generate accurate responses, but these are void of diversity. We attempt to address this for the task of cr",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.06729v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-05",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Reading the Mood: Emotion-Guided Book-to-Music Recommendation via CGANs and LLMs",
-            "summary": "Background music that matches the mood of a text has been shown to make readers feel more immersed and improve their reading experience, mot",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.06703v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-05",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Learning to Read the Contextual Tokens in Diffusion Transformers",
-            "summary": "Multimodal Diffusion Transformers (MM-DiTs) jointly process visual and textual representations throughout generation. These models repeatedl",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.06844v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-05",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Aligning Multimodal Patient Evidence with Biomedical Knowledge Graphs for Clinical LLMs",
-            "summary": "Clinical questions often depend on linking a patient's multimodal evidence to external biomedical knowledge, yet existing predictive systems",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.06685v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-05",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "CIPHER-MoE: Balancing Efficiency and Routing Fidelity in Trillion-Scale MoE Training",
-            "summary": "Mixture-of-Experts (MoE) has been widely adopted in recent large language model (LLM) architectures. However, scaling up MoE in LLM training",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.05744v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-05",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Errors of LLM-Assisted Literature Retrieval in Environmental Science: A Comparison Study of Abstract versus Full-text Based Prompts",
-            "summary": "Large language models (LLMs) are increasingly used for literature search and synthesis. However, it is unclear whether they retrieve accurat",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.05690v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-05",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "FreSia: Frequency-Semantic Instantiation and Alignment for Multivariate Time Series Analysis",
-            "summary": "Large Language Models (LLMs) have shown strong potential in multivariate time series forecasting and anomaly detection. Existing studies pre",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.05726v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-05",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "MOLT: A Fine-Grained GPU Memory Sharing System for LLM Serving with Opportunistic Fine-Tuning",
-            "summary": "Large language model (LLM) serving scales its replica count with the request load, yet GPU memory still stands idle inside the replicas. Add",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.05748v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-05",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "How Should a Prompt Optimizer Spend a Tight Budget? BudgetAPO with Noise-Adaptive Evaluation",
-            "summary": "Automatic prompt optimization (APO) has been widely employed to adapt large language models without updating their weights, yielding promisi",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.05671v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-05",
-            "publishedAt": "",
-            "reason": ""
-          }
-        ]
-      },
-      {
-        "category": "ai-benchmark",
-        "label": "评测榜单",
-        "items": [
-          {
-            "title": "FREA: A Multi-Source Expert Benchmark for Reaction Feasibility Verification",
-            "summary": "As generative models and AI agents propose chemical reactions at a scale beyond expert review, feasibility verifiers decide which proposals ",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.06614v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-05",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "BazaarBench: Delegation Safety in Decentralized C2C Marketplaces Run by LLM Agents",
-            "summary": "In decentralized consumer-to-consumer (C2C) marketplaces, people list goods, negotiate with strangers, and rate one another, so trust rests ",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.06748v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-05",
-            "publishedAt": "",
+            "date": "2026-10-06",
+            "publishedAt": "2026-10-06T07:56",
             "reason": ""
           }
         ]
@@ -10545,42 +10516,14 @@
         "label": "论文研究",
         "items": [
           {
-            "title": "TranScope: What the Software Hides About LLM Training Data, the Hardware Reveals at Scale, and Accelerators Magnify",
-            "summary": "Membership is the root privacy primitive in machine learning: to date, no hardware-based out-of-distribution detection on black-box models h",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.06848v1",
+            "title": "What AI gets wrong and what failure teaches us",
+            "summary": "Jennifer Neville did not want to go into computer science—but that’s exactly where she landed. Neville discusses the starts and stops that l",
+            "source": "RSS · Microsoft Research",
+            "url": "https://www.microsoft.com/en-us/research/podcast/what-ai-gets-wrong-and-what-failure-teaches-us/",
             "score": 70,
             "sourceCount": 1,
-            "date": "2026-10-05",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Human-in-the-Loop Neuro-Symbolic Drift Anticipation for Reliable Visual SLAM",
-            "summary": "This paper introduces Hybrid DeepSEE (HDS), a Human-in-the-Loop (HITL) neuro-symbolic framework for proactive drift anticipation in Visual S",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.05757v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-05",
-            "publishedAt": "",
-            "reason": ""
-          }
-        ]
-      },
-      {
-        "category": "ai-business",
-        "label": "行业商业",
-        "items": [
-          {
-            "title": "JEV versus LLMs: Accuracy, Cost and Calibration on Seven Political Science Replications",
-            "summary": "Large language models (LLMs) annotate and scale political text or constructs by generating text tokens. A new class of models, which TypeSaf",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.06625v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-05",
-            "publishedAt": "",
+            "date": "2026-10-07",
+            "publishedAt": "2026-10-07T00:19",
             "reason": ""
           }
         ]
@@ -10588,6 +10531,86 @@
     ]
   },
   "dailyReports": [
+    {
+      "date": "2026-10-06",
+      "generatedAt": "2026-10-06T16:00:43.991846Z",
+      "total": 5,
+      "sections": [
+        {
+          "category": "ai-coding",
+          "label": "AI 编程",
+          "items": [
+            {
+              "title": "Claude Code 云端会话实战指南：每个任务独占一台 VM，可并行跑任务并以分支收尾",
+              "summary": "Claude Code 推出云端会话：每个任务在独立 VM 上运行，仓库克隆到新分支，可从 claude.ai/code、手机、Desktop、终端和 Slack 启动并跟踪，完成后产出可转 PR 的分支，Pro、Max、Team、Enterprise 计划不额外收费。",
+              "source": "Anthropic：Claude.dev 开发者博客（RSS）",
+              "url": "https://claude.dev/blog/claude-code-in-the-cloud/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-06",
+              "publishedAt": "2026-10-06T20:00",
+              "reason": ""
+            },
+            {
+              "title": "Supercharge regulated workloads with Claude Code and Amazon Bedrock",
+              "summary": "Anthropic Claude Opus 5.5 and Claude Sonnet 5.5 are available on Amazon Bedrock in the AWS GovCloud (US) Regions. Learn how to use them with",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/supercharge-regulated-workloads-with-claude-code-and-amazon-bedrock/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-06",
+              "publishedAt": "2026-10-06T01:25",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-agents",
+          "label": "Agent / MCP",
+          "items": [
+            {
+              "title": "Open and Emergent Problems in Agentic Privacy and Security: A Contextual Angle",
+              "summary": "Education Innovation",
+              "source": "RSS · Google Research",
+              "url": "https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-06",
+              "publishedAt": "2026-10-06T05:08",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-models",
+          "label": "模型发布",
+          "items": [
+            {
+              "title": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
+              "summary": "",
+              "source": "RSS · Hugging Face Blog",
+              "url": "https://huggingface.co/blog/tiiuae/falcon-emirati",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-06",
+              "publishedAt": "2026-10-06T14:44",
+              "reason": ""
+            },
+            {
+              "title": "Anthropic Cowork 改为云端运行模型推理与 VM",
+              "summary": "Anthropic 工程师 Felix Rieseberg 说明 Cowork 的新旧架构差异：旧版在云端推理、在用户电脑上运行本地 VM，磁盘、电池和性能开销大，合上笔记本工作就停止。新版把模型推理和 VM 都移到云端，每个会话有独立沙盒，桌面应用只负责文件访问等需要本机设备的",
+              "source": "Simon Willison 博客",
+              "url": "https://simonwillison.net/2026/Oct/5/felix-rieseberg/",
+              "score": 56,
+              "sourceCount": 1,
+              "date": "2026-10-06",
+              "publishedAt": "2026-10-06T07:56",
+              "reason": ""
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-10-05",
       "generatedAt": "2026-10-05T16:00:52.806200Z",
@@ -18746,131 +18769,6 @@
               "date": "2026-08-05",
               "publishedAt": "2026-08-05T12:00",
               "reason": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-08-04",
-      "generatedAt": "2026-08-04T16:13:09.345207Z",
-      "total": 8,
-      "sections": [
-        {
-          "category": "ai-tools",
-          "label": "AI 工具",
-          "items": [
-            {
-              "title": "Claude Code 连接器可复用至 Artifacts",
-              "summary": "Claude 连接器的使用范围扩展至 Artifacts，用户可通过连接 Gmail、日历、Slack 等工具，提升 Claude Code 的功能。许多用户尚未意识到这一点，可能影响其使用体验。",
-              "source": "X：Thariq (@trq212)",
-              "url": "https://x.com/trq212/status/2084387303959740449",
-              "score": 61,
-              "sourceCount": 1,
-              "date": "2026-08-04",
-              "publishedAt": "2026-08-04T05:13",
-              "reason": "Claude 连接器的扩展功能为用户提供了更高效的工作方式，值得关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-coding",
-          "label": "AI 编程",
-          "items": [
-            {
-              "title": "零基础利用Codex打造个性化硬件的实践与挑战",
-              "summary": "作者通过与Codex的互动，展示了从需求分析到硬件组装的全过程，成功在5天内制作出一款提醒久坐的猫爪硬件。文中还提及了调试宏键盘的Agent应用及OpenAI与Work Louder合作推出的Codex Micro键盘，强调了实践学习的重要性。然而，这种方法也面临着技术门槛和资源",
-              "source": "公众号：数字生命卡兹克",
-              "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647684924&idx=1&sn=f9ecf13ac374f13dfa75f98f685a231d",
-              "score": 57,
-              "sourceCount": 1,
-              "date": "2026-08-04",
-              "publishedAt": "2026-08-04T08:06",
-              "reason": "这篇文章展示了如何利用Codex进行硬件开发，适合对AI编程感兴趣的零基础用户，具有实用的学习价值。"
-            }
-          ]
-        },
-        {
-          "category": "ai-models",
-          "label": "模型发布",
-          "items": [
-            {
-              "title": "OpenAI 发布 GPT-Live 实时音频新架构",
-              "summary": "OpenAI 最新推出的 GPT-Live 架构支持实时音频交互，能够在说话的同时进行聆听。这一新架构通过重建语音栈，确保音频流畅持续，提升了 ChatGPT 的对话自然度，允许更深层次的推理与工具使用而不打断对话。",
-              "source": "X：Greg Brockman (@gdb)",
-              "url": "https://x.com/gdb/status/2084405421041963356",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-08-04",
-              "publishedAt": "2026-08-04T06:25",
-              "reason": "GPT-Live 的发布代表了语音交互技术的一次重要飞跃，值得关注其对行业的深远影响。"
-            },
-            {
-              "title": "欧盟新透明度规则生效，AI 违规罚款高达 1500 万欧元",
-              "summary": "我注意到，欧盟《人工智能法案》下的新透明度义务于 8 月 2 日正式生效。这项规定要求公司在用户与 AI 模型互动时进行披露，并为合成的音视频和文本添加机器可读标记。违规的公司将面临最高 1500 万欧元的罚款，或全球年营业额的 3%。而在 8 月 2 日之前推出的模型则享有 4",
-              "source": "The Verge：AI（RSS）",
-              "url": "https://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-08-04",
-              "publishedAt": "2026-08-04T01:38",
-              "reason": "这条信息值得关注，因为它不仅影响到科技公司的合规策略，还将改变用户与 AI 互动的方式，提升透明度和信任度。"
-            },
-            {
-              "title": "AirLLM 支持单卡 4GB GPU 运行 70B 模型推理",
-              "summary": "AirLLM 项目实现了在单块 4GB 显存的 GPU 上运行 70B 参数大模型推理的能力，省去了多卡和大规模显存的需求。该项目已开源，并在 Hacker News 上引发了广泛关注，获得了 103 点热度。",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://github.com/lyogavin/airllm",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-08-04",
-              "publishedAt": "2026-08-04T00:24",
-              "reason": "AirLLM 的独特之处在于其在资源有限的情况下，依然能够高效运行大型语言模型，极大地降低了技术门槛，值得关注。"
-            },
-            {
-              "title": "EA 首席战略官阐述生成式 AI 在实时游戏中的应用挑战",
-              "summary": "EA 首席战略官 Mihir Vaidya 指出，生成式 AI 在游戏中的应用面临诸多挑战，包括高帧率、玩家同步和低延迟等要求。他强调，AI 不仅要看起来真实，更要在行为上保持准确性。EA 将 AI 的影响分为效率、扩展和转型三个层面，特别提到《模拟人生》已吸引超过 5 亿玩家，",
-              "source": "Runway：News（网页）",
-              "url": "https://runwayml.com/news/company-news/electronic-arts-ai-summit-2026",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-08-04",
-              "publishedAt": "2026-08-04T04:12",
-              "reason": "EA 对生成式 AI 的深入探讨揭示了其在游戏行业的潜力与挑战，值得关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-research",
-          "label": "论文研究",
-          "items": [
-            {
-              "title": "微软开源 Orchard 框架，助力 AI 智能体训练",
-              "summary": "我注意到，微软最近推出了 Orchard，一个面向研究社区的开源框架，专门用于训练和评估 AI 智能体。这个框架的设计旨在降低复杂性，使得研究人员能够复用基础设施，从而即使是较小的模型也能展现出强劲的性能。这无疑为 AI 研究提供了新的可能性。",
-              "source": "X：Microsoft Research (@MSFTResearch)",
-              "url": "https://x.com/MSFTResearch/status/2084364547142418722",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-08-04",
-              "publishedAt": "2026-08-04T03:43",
-              "reason": "Orchard 框架的开源发布为 AI 研究提供了新的工具和机会，值得关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-business",
-          "label": "行业商业",
-          "items": [
-            {
-              "title": "Palantir CEO Alex Karp 指出 AI 行业的潜在风险",
-              "summary": "我注意到，Palantir 的 CEO Alex Karp 在最新的季度股东信中对 AI 行业提出了警告，称一些前沿 AI 实验室对企业来说过于不可信。他认为，这些实验室的行为带有\"马克思主义色彩\"，并可能会影响企业的数据控制。Palantir 在第二季度的营收达到了 19 亿美",
-              "source": "TechCrunch：AI（RSS）",
-              "url": "https://techcrunch.com/2026/08/03/after-killer-quarter-palantir-ceo-alex-karp-calls-ai-industry-marxist",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-08-04",
-              "publishedAt": "2026-08-04T07:19",
-              "reason": "Karp 的观点为我们提供了对 AI 行业的深刻洞察，尤其是在企业如何管理数据和选择合作伙伴方面，值得关注。"
             }
           ]
         }
