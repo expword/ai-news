@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-10-07",
-  "generatedAt": "2026-10-06T20:36:12.885872Z",
+  "generatedAt": "2026-10-06T22:55:47.935922Z",
   "news": [
     {
       "title": "Building a context-aware AI assistant on AgentCore and OpenClaw",
@@ -123,6 +123,60 @@ window.AI_GENERATED_DATA = {
       "sourceDate": "",
       "tags": [],
       "url": "https://engineering.fb.com/2026/10/06/production-engineering/nts-authenticated-time-at-meta/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Sharing AI progress in mathematics",
+      "summary": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
+      "category": "ai-coding",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-10-06",
+      "publishedAt": "2026-10-06T20:00",
+      "collectedAt": "2026-10-07T06:55",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Expanding our enterprise inference capacity with IBM Cloud and NVIDIA",
+      "summary": "Enterprises can now run open models at production scale on a dedicated B300 inference cluster, built by Together AI, IBM Cloud, and NVIDIA",
+      "category": "ai-models",
+      "source": "RSS · Together AI",
+      "date": "2026-10-06",
+      "publishedAt": "2026-10-06T08:00",
+      "collectedAt": "2026-10-07T05:46",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://www.together.ai/blog/expanding-our-enterprise-inference-capacity-with-ibm-cloud-and-nvidia",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -2640,89 +2694,6 @@ window.AI_GENERATED_DATA = {
       "sourceDate": "",
       "tags": [],
       "url": "https://openai.com/index/albertsons-reimagining-retail",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "RLTL;DR: Self-Improvement by Internalizing Self-Generated Feedback",
-      "summary": "The common paradigm of reinforcement learning with verifiable rewards (RLVR) is to let agents make multiple attempts at a task, and optimize towards the successful ones. This becom",
-      "category": "ai-agents",
-      "source": "RSS · Apple ML Research",
-      "date": "2026-10-01",
-      "publishedAt": "2026-10-01T08:00",
-      "collectedAt": "2026-10-03T20:20",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://machinelearning.apple.com/research/rltl-dr-self-improvement",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Old Ideas, Novel Problems: The Instability of LLM-Based Novelty Evaluation",
-      "summary": "Automated ideation systems are often evaluated on the novelty of the ideas they produce, and that judgment is increasingly delegated to large language models. Such judges are typic",
-      "category": "ai-research",
-      "source": "arXiv",
-      "date": "2026-10-01",
-      "publishedAt": "",
-      "collectedAt": "2026-10-02T12:12",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-01",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.02022v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Mimir: Physics-Grounded LLM Agents for Long-Horizon Irrigation Control",
-      "summary": "Large language model (LLM) agents increasingly combine reasoning, tool use, and action, but most evidence comes from episodic tasks with relatively immediate feedback and reset fai",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-10-01",
-      "publishedAt": "",
-      "collectedAt": "2026-10-02T12:12",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-01",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.02038v1",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -5837,6 +5808,17 @@ window.AI_GENERATED_DATA = {
   "topicResources": {
     "ai-coding": [
       {
+        "name": "GitHub 重建 Git 基础设施，应对智能体规模开发",
+        "provider": "GitHub Blog",
+        "type": "AI 项目/工具",
+        "bestFor": "GitHub 宣布重建 Git 基础设施，以支持智能体规模开发带来的高并发读写负载。2026 年 8 月 GitHub 月度 Git 事件量达 473.3 billion（一年翻倍以上），9 月智能体和开发者产生 7.38 billion commits（超一年前五倍），pushes 同比增长 4.9 倍。",
+        "description": "GitHub 宣布重建 Git 基础设施，以支持智能体规模开发带来的高并发读写负载。2026 年 8 月 GitHub 月度 Git 事件量达 473.3 billion（一年翻倍以上），9 月智能体和开发者产生 7.38 billion commits（超一年前五倍），pushes 同比增长 4.9 倍。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "GitHub Blog",
+        "url": "https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development/"
+      },
+      {
         "name": "Mistral Large 4 上线 Arena 的 Agent Arena 与 Code Arena 评测",
         "provider": "X：Arena (@arena)",
         "type": "AI 项目/工具",
@@ -6264,17 +6246,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · Apple ML Research",
         "url": "https://machinelearning.apple.com/research/latent-space-distillation"
-      },
-      {
-        "name": "GitHub Copilot app 新手教程：如何用 canvases 构建自定义工作流",
-        "provider": "GitHub Blog",
-        "type": "AI 项目/工具",
-        "bestFor": "GitHub 官方博客发布 GitHub Copilot app 新手教程，介绍用 /create-canvas 技能通过自然语言描述生成可自定义的 canvas 界面。",
-        "description": "GitHub 官方博客发布 GitHub Copilot app 新手教程，介绍用 /create-canvas 技能通过自然语言描述生成可自定义的 canvas 界面。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "GitHub Blog",
-        "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases"
       }
     ],
     "ai-agents": [
@@ -10414,13 +10385,24 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-10-07",
-    "generatedAt": "2026-10-06T20:36:12.865872Z",
-    "total": 17,
+    "generatedAt": "2026-10-06T22:55:47.914886Z",
+    "total": 19,
     "sections": [
       {
         "category": "ai-coding",
         "label": "AI 编程",
         "items": [
+          {
+            "title": "Sharing AI progress in mathematics",
+            "summary": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and resear",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-06",
+            "publishedAt": "2026-10-06T20:00",
+            "reason": ""
+          },
           {
             "title": "Manage Amazon SageMaker HyperPod Spaces directly from SageMaker Studio",
             "summary": "Data scientists and ML engineers can now create, configure, start, stop, and open Amazon SageMaker Spaces on SageMaker HyperPod EKS clusters",
@@ -10541,6 +10523,17 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-10-07",
             "publishedAt": "2026-10-07T00:00",
+            "reason": ""
+          },
+          {
+            "title": "Expanding our enterprise inference capacity with IBM Cloud and NVIDIA",
+            "summary": "Enterprises can now run open models at production scale on a dedicated B300 inference cluster, built by Together AI, IBM Cloud, and NVIDIA",
+            "source": "RSS · Together AI",
+            "url": "https://www.together.ai/blog/expanding-our-enterprise-inference-capacity-with-ibm-cloud-and-nvidia",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-06",
+            "publishedAt": "2026-10-06T08:00",
             "reason": ""
           },
           {
