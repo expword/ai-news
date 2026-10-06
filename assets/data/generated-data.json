@@ -1,7 +1,34 @@
 {
   "lastUpdated": "2026-10-06",
-  "generatedAt": "2026-10-06T13:19:44.392279Z",
+  "generatedAt": "2026-10-06T15:51:38.749927Z",
   "news": [
+    {
+      "title": "Claude Code 云端会话实战指南：每个任务独占一台 VM，可并行跑任务并以分支收尾",
+      "summary": "Claude Code 推出云端会话：每个任务在独立 VM 上运行，仓库克隆到新分支，可从 claude.ai/code、手机、Desktop、终端和 Slack 启动并跟踪，完成后产出可转 PR 的分支，Pro、Max、Team、Enterprise 计划不额外收费。",
+      "category": "ai-coding",
+      "source": "Anthropic：Claude.dev 开发者博客（RSS）",
+      "date": "2026-10-06",
+      "publishedAt": "2026-10-06T20:00",
+      "collectedAt": "2026-10-06T23:51",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://claude.dev/blog/claude-code-in-the-cloud/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
       "summary": "",
@@ -2489,123 +2516,6 @@
       "aiSelected": true,
       "moduleTargets": [
         "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "The Missing Primitive: Diagnosing and Repairing Mathematical Reasoning in Large Language Models",
-      "summary": "While Large Language Models (LLMs) have demonstrated striking capabilities on frontier mathematical problems, it remains unclear whether they possess the structural mathematical un",
-      "category": "ai-research",
-      "source": "arXiv",
-      "date": "2026-10-01",
-      "publishedAt": "",
-      "collectedAt": "2026-10-02T11:02",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-01",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.02191v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 2,
-      "relatedSources": [
-        {
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2610.03199v1",
-          "title": "Predicting and Repairing Merge Collapse in Large Language Models"
-        }
-      ]
-    },
-    {
-      "title": "From Knowledge Access to Source Learning: Developing Source-Specific Competence",
-      "summary": "Large language model (LLM) agents increasingly rely on persistent external sources to solve sequences of knowledge-intensive tasks. Existing methods improve how source content is a",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-10-01",
-      "publishedAt": "",
-      "collectedAt": "2026-10-02T11:02",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-01",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.02150v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "InterEvolve: Test-Time Evolution of Reward Programs for Humanoid Loco-Manipulation",
-      "summary": "We study test-time evolution for humanoid loco-manipulation: solving tasks that a controller was never trained for by repurposing its existing skills, improving from its own attemp",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-10-01",
-      "publishedAt": "",
-      "collectedAt": "2026-10-02T11:02",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-01",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.02196v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "TACO: Ternary Absolute-max Column-wise One-sparse Optimizer for LLM Fine-Tuning",
-      "summary": "Full-parameter fine-tuning of large language models (LLMs) incurs substantial optimizer state memory overhead, limiting the model sizes that fit on modern GPUs. Existing approaches",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-10-01",
-      "publishedAt": "",
-      "collectedAt": "2026-10-02T11:02",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-01",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.02199v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
       ],
       "sourceCount": 1
     }
@@ -5707,6 +5617,17 @@
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Mistral Large 4 上线 Arena 的 Agent Arena 与 Code Arena 评测",
+        "provider": "X：Arena (@arena)",
+        "type": "AI 项目/工具",
+        "bestFor": "Arena 宣布 Mistral 的 Mistral Large 4 现已进入 Agent Arena，用户可前往测试投票，分数稍后公布。该模型为 1T 参数、49B 激活的原生多模态开放权重模型，也已在 Code Arena 的 WebDev、Text 和 Vision 中可用。",
+        "description": "Arena 宣布 Mistral 的 Mistral Large 4 现已进入 Agent Arena，用户可前往测试投票，分数稍后公布。该模型为 1T 参数、49B 激活的原生多模态开放权重模型，也已在 Code Arena 的 WebDev、Text 和 Vision 中可用。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "X：Arena (@arena)",
+        "url": "https://x.com/arena/status/2107476436223504484"
+      },
+      {
         "name": "Meta and Microsoft Ban Claude AI, Push Staff to Use Llama an",
         "provider": "NewsData.io",
         "type": "AI 项目/工具",
@@ -6134,20 +6055,20 @@
         "watch": "请打开原始来源核对",
         "sourceName": "GitHub Blog",
         "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases"
-      },
-      {
-        "name": "SWE-Prometheus: Measuring Engineering Governance Improvement",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Large language model based coding agents have made substantial progress on repository-level software engineering tasks. Existing repository benchmarks, however,",
-        "description": "Large language model based coding agents have made substantial progress on repository-level software engineering tasks. Existing repository benchmarks, however, usually start from ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2609.29465v1"
       }
     ],
     "ai-agents": [
+      {
+        "name": "Vercel COO 讲解如何用 Agent 自动化 Inbound 销售",
+        "provider": "Tomer Tunguz 博客（VC 分析）",
+        "type": "AI 项目/工具",
+        "bestFor": "Vercel COO Jeanne DeWitt Grosser 在 Tom Tunguz 的 Office Hours 节目中讲解团队如何搭建运行销售漏斗顶端的 Agent。",
+        "description": "Vercel COO Jeanne DeWitt Grosser 在 Tom Tunguz 的 Office Hours 节目中讲解团队如何搭建运行销售漏斗顶端的 Agent。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Tomer Tunguz 博客（VC 分析）",
+        "url": "https://tomtunguz.com/how-to-automate-inbound/"
+      },
       {
         "name": "MedPrune: Topology-Efficient Multimodal Multi-Agent Communic",
         "provider": "arXiv",
@@ -6576,20 +6497,31 @@
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:large language model",
         "url": "https://en.bonikbarta.com/bangladesh/NYU3qQDrJyU2Ewbx"
-      },
-      {
-        "name": "Liberate’s AI Agents Take Over the Insurance Night Shift",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "A policyholder calls her insurance agency to ask what she owes. An artificial intelligence (AI) agent answers, pulls the balance and logs the call in the carrie",
-        "description": "A policyholder calls her insurance agency to ask what she owes. An artificial intelligence (AI) agent answers, pulls the balance and logs the call in the carrier’s core system, wit",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:artificial intelligence",
-        "url": "https://biztoc.com/x/1d2b63868a948429"
       }
     ],
     "ai-models": [
+      {
+        "name": "China urges US to collaborate more in the field of AI",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "BEIJING – As a leading nation in the field of artificial intelligence, the United States should adopt a more open approach and strengthen AI cooperation with de",
+        "description": "BEIJING – As a leading nation in the field of artificial intelligence, the United States should adopt a more open approach and strengthen AI cooperation with developing countries, ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:DeepSeek",
+        "url": "https://phnompenhpost.com/international/china-urges-us-to-collaborate-more-in-the-field-of-ai/"
+      },
+      {
+        "name": "Meta, Microsoft reportedly cut internal Claude use as AI cos",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Meta and Microsoft are reducing employees' internal reliance on Anthropic's Claude as they push proprietary AI tools and seek greater control over rapidly risin",
+        "description": "Meta and Microsoft are reducing employees' internal reliance on Anthropic's Claude as they push proprietary AI tools and seek greater control over rapidly rising AI costs, accordin",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Claude AI",
+        "url": "https://www.digitimes.com/news/a20261006VL203/microsoft-meta-claude-anthropic-copilot.html"
+      },
       {
         "name": "SemiAnalysis 测算：Anthropic 订阅的 API 等价价值约为 OpenAI 的 5 倍以上",
         "provider": "SemiAnalysis 长文 RSS（RSS）",
@@ -7007,31 +6939,20 @@
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:Google Gemini",
         "url": "https://www.bgr.com/2264239/apple-carplay-features-android-auto-lacks/"
-      },
-      {
-        "name": "CarPlay vs Android Auto: Apple Exclusive Features Android Au",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Apple CarPlay and Android Auto compete in in-vehicle software, but CarPlay offers unique features like Live Activities, photo descriptions, and third-party AI c",
-        "description": "Apple CarPlay and Android Auto compete in in-vehicle software, but CarPlay offers unique features like Live Activities, photo descriptions, and third-party AI chatbots that Android",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:Google Gemini",
-        "url": "https://us.headtopics.com/news/carplay-vs-android-auto-apple-exclusive-features-android-88178887"
-      },
-      {
-        "name": "Adobe expands Claude integration and adds Gemini connector t",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Adobe expanded its Claude integration to 80 tools across Creative Cloud apps and launched a Google Gemini connector, letting users edit designs and documents by",
-        "description": "Adobe expanded its Claude integration to 80 tools across Creative Cloud apps and launched a Google Gemini connector, letting users edit designs and documents by text prompt without",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:Claude AI",
-        "url": "https://completeaitraining.com/news/adobe-expands-claude-integration-and-adds-gemini-connector/"
       }
     ],
     "ai-business": [
+      {
+        "name": "How DTC SEO Agency Is Specializing in Telehealth, Telemeds, ",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "An examination of how DTC SEO Agency is approaching the changing search landscape for telehealth and other health-sector businesses, including the growing role ",
+        "description": "An examination of how DTC SEO Agency is approaching the changing search landscape for telehealth and other health-sector businesses, including the growing role of AI-driven search ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:open source LLM",
+        "url": "https://www.openpr.com/news/4652396/how-dtc-seo-agency-is-specializing-in-telehealth-telemeds"
+      },
       {
         "name": "Google to restrict free access to Gemini AI models",
         "provider": "NewsData.io",
@@ -7460,17 +7381,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Benzinga",
         "url": "https://www.benzinga.com/markets/tech/26/09/61832626/anthropic-claude-consciousness-mustafa-suleyman-ai-shutdown"
-      },
-      {
-        "name": "Lattice Semiconductor Introduces Leadership AI-Powered FPGA ",
-        "provider": "Market Screener",
-        "type": "AI 项目/工具",
-        "bestFor": "Lattice Semiconductor introduced a new leadership AI-powered FPGA development tool for small and mid-range FPGAs that redefines how FPGA developers work across ",
-        "description": "Lattice Semiconductor introduced a new leadership AI-powered FPGA development tool for small and mid-range FPGAs that redefines how FPGA developers work across the full design flow",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Market Screener",
-        "url": "https://www.marketscreener.com/news/lattice-semiconductor-introduces-leadership-ai-powered-fpga-development-tool-lattice-prompt-ce785bd3d98eff2c"
       }
     ],
     "ai-benchmark": [
@@ -10284,13 +10194,24 @@
   ],
   "dailyReport": {
     "date": "2026-10-06",
-    "generatedAt": "2026-10-06T13:19:44.370281Z",
-    "total": 31,
+    "generatedAt": "2026-10-06T15:51:38.729958Z",
+    "total": 32,
     "sections": [
       {
         "category": "ai-coding",
         "label": "AI 编程",
         "items": [
+          {
+            "title": "Claude Code 云端会话实战指南：每个任务独占一台 VM，可并行跑任务并以分支收尾",
+            "summary": "Claude Code 推出云端会话：每个任务在独立 VM 上运行，仓库克隆到新分支，可从 claude.ai/code、手机、Desktop、终端和 Slack 启动并跟踪，完成后产出可转 PR 的分支，Pro、Max、Team、Enterprise 计划不额外收费。",
+            "source": "Anthropic：Claude.dev 开发者博客（RSS）",
+            "url": "https://claude.dev/blog/claude-code-in-the-cloud/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-06",
+            "publishedAt": "2026-10-06T20:00",
+            "reason": ""
+          },
           {
             "title": "Supercharge regulated workloads with Claude Code and Amazon Bedrock",
             "summary": "Anthropic Claude Opus 5.5 and Claude Sonnet 5.5 are available on Amazon Bedrock in the AWS GovCloud (US) Regions. Learn how to use them with",
