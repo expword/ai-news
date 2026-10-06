@@ -1,7 +1,34 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-10-06",
-  "generatedAt": "2026-10-06T03:32:28.605484Z",
+  "generatedAt": "2026-10-06T07:12:03.098213Z",
   "news": [
+    {
+      "title": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
+      "summary": "",
+      "category": "ai-models",
+      "source": "RSS · Hugging Face Blog",
+      "date": "2026-10-06",
+      "publishedAt": "2026-10-06T14:44",
+      "collectedAt": "2026-10-06T15:12",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://huggingface.co/blog/tiiuae/falcon-emirati",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Open and Emergent Problems in Agentic Privacy and Security: A Contextual Angle",
       "summary": "Education Innovation",
@@ -79,6 +106,142 @@ window.AI_GENERATED_DATA = {
       "tier": "T1.5",
       "scores": {},
       "score": 56,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "JEV versus LLMs: Accuracy, Cost and Calibration on Seven Political Science Replications",
+      "summary": "Large language models (LLMs) annotate and scale political text or constructs by generating text tokens. A new class of models, which TypeSafe markets as \"System One\" models, instea",
+      "category": "ai-business",
+      "source": "arXiv",
+      "date": "2026-10-05",
+      "publishedAt": "",
+      "collectedAt": "2026-10-06T13:58",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-05",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.06625v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Large Language Model-Guided Discovery of Weight-Five Bivariate Bicycle Codes",
+      "summary": "Building on our earlier program-evolution workflow guided by large language models (LLMs), we study weight-five bivariate bicycle (BB) and perturbed bivariate bicycle (PBB) codes. ",
+      "category": "ai-coding",
+      "source": "arXiv",
+      "date": "2026-10-05",
+      "publishedAt": "",
+      "collectedAt": "2026-10-06T13:58",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-05",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.06623v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "FREA: A Multi-Source Expert Benchmark for Reaction Feasibility Verification",
+      "summary": "As generative models and AI agents propose chemical reactions at a scale beyond expert review, feasibility verifiers decide which proposals enter synthesis planning. But do their d",
+      "category": "ai-benchmark",
+      "source": "arXiv",
+      "date": "2026-10-05",
+      "publishedAt": "",
+      "collectedAt": "2026-10-06T13:58",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-05",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.06614v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "OrigaMIG: MIG-Aware VM Placement with a Neighborhood-Restricted BILP and Live Migration",
+      "summary": "The extensive use of GPUs in cloud computing, accelerated by the spread of large language model (LLM) services, and the growing need for multitenancy have driven the development of",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-10-05",
+      "publishedAt": "",
+      "collectedAt": "2026-10-06T13:58",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-05",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.06646v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "LoGRA: Scaling LLM Reinforcement Learning with Low-Rank Gradient Sketches",
+      "summary": "Reinforcement learning (RL) has greatly advanced the capabilities of large language models (LLMs), but its memory demands remain a barrier to broader adoption. We introduce LoGRA, ",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-10-05",
+      "publishedAt": "",
+      "collectedAt": "2026-10-06T13:58",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-05",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.06647v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
       "aiSelected": true,
       "moduleTargets": [
         "news"
@@ -2553,199 +2716,6 @@ window.AI_GENERATED_DATA = {
       "aiSelected": true,
       "moduleTargets": [
         "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "A Design Theory for AI-Assisted Software Development Derived from Christopher Alexander's Theory of Form",
-      "summary": "Code generated by large language models (LLMs) cannot be assumed to meet specified requirements. Reviews, testing, and static analysis still apply, but which of them a sufficient h",
-      "category": "ai-coding",
-      "source": "arXiv",
-      "date": "2026-10-01",
-      "publishedAt": "",
-      "collectedAt": "2026-10-02T09:51",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-01",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.01372v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "High-quality Data Do not Mean Safe! Poisoning LLMs after Data Selection",
-      "summary": "Safety-aligned Large Language Models remain vulnerable to fine-tuning on small sets of harmful or benign-looking samples. However, prior studies typically assume that poisoned samp",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-10-01",
-      "publishedAt": "",
-      "collectedAt": "2026-10-02T09:51",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-01",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.01367v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Sleeping Secrets: How Fine-Tuning Reawakens Privacy Risks in Language Models",
-      "summary": "Beyond adapting Large Language Models (LLMs) to specialized applications, fine-tuning has recently been shown to recover private information that is no longer accessible through di",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-10-01",
-      "publishedAt": "",
-      "collectedAt": "2026-10-02T09:51",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-01",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.01365v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Does AI-Generated Scientific Text Follow Human Argumentation Patterns? A CARS-Based Comparison of Research Article Introductions",
-      "summary": "Large language models are moving from helping write up research to helping do it, which makes it important to know how the scientific text they produce differs from human writing. ",
-      "category": "ai-research",
-      "source": "arXiv",
-      "date": "2026-10-01",
-      "publishedAt": "",
-      "collectedAt": "2026-10-02T09:51",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-01",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.01353v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "PACE: Provenance-Aware Capability Enforcement for Tool-Using LLM Agents",
-      "summary": "Tool-using large language model (LLM) agents turn generated text into real side effects, so poisoned tool metadata, retrieved pages, memory, and reusable skills can steer the next ",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-10-01",
-      "publishedAt": "",
-      "collectedAt": "2026-10-02T09:51",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-01",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.01349v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "TRACE: Trajectory Return Attribution and Contrastive Erasure for Multi-Turn Safety",
-      "summary": "Safety-aligned large language models (LLMs) often refuse a harmful request but comply once the same goal is spread over several turns. Preference objectives score whole responses t",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-10-01",
-      "publishedAt": "",
-      "collectedAt": "2026-10-02T09:51",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-01",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.01323v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
-      "summary": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
-      "category": "ai-models",
-      "source": "RSS · OpenAI Blog",
-      "date": "2026-10-01",
-      "publishedAt": "2026-10-01T08:00",
-      "collectedAt": "2026-10-02T06:19",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://openai.com/index/the-den-family-social",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
       ],
       "sourceCount": 1
     }
@@ -5672,6 +5642,21 @@ window.AI_GENERATED_DATA = {
       "date": "2026-08-05"
     },
     {
+      "name": "Tencent-Hunyuan/Prism",
+      "lang": "Python",
+      "description": "We propose Prism, a dynamic sparse attention framework for natively training joint video-audio generation models at 2K.",
+      "stars": "12 stars",
+      "why": "国产大模型厂商 腾讯混元 的最新开源动态/模型发布，属一手信源。",
+      "url": "https://github.com/Tencent-Hunyuan/Prism",
+      "source": "GitHub · 腾讯混元",
+      "tier": "T1",
+      "category": "Coding Agent",
+      "details": "We propose Prism, a dynamic sparse attention framework for natively training joint video-audio generation models at 2K.",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
       "name": "QwenLM/D2K-Bench",
       "lang": "Python",
       "description": "通义千问 Qwen 开源项目。",
@@ -5708,21 +5693,6 @@ window.AI_GENERATED_DATA = {
       "stars": "6 stars",
       "why": "国产大模型厂商 DeepSeek 的最新开源动态/模型发布，属一手信源。",
       "url": "https://github.com/deepseek-ai/dsh-libreoffice-kit",
-      "source": "GitHub · DeepSeek",
-      "tier": "T1",
-      "category": "Coding Agent",
-      "details": "An internal component used by DeepSeek Harness",
-      "features": [],
-      "useCases": [],
-      "quickStart": []
-    },
-    {
-      "name": "deepseek-ai/dsh-node-addon-require-builtin",
-      "lang": "C++",
-      "description": "An internal component used by DeepSeek Harness",
-      "stars": "6 stars",
-      "why": "国产大模型厂商 DeepSeek 的最新开源动态/模型发布，属一手信源。",
-      "url": "https://github.com/deepseek-ai/dsh-node-addon-require-builtin",
       "source": "GitHub · DeepSeek",
       "tier": "T1",
       "category": "Coding Agent",
@@ -7615,6 +7585,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-benchmark": [
       {
+        "name": "FREA: A Multi-Source Expert Benchmark for Reaction Feasibili",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "As generative models and AI agents propose chemical reactions at a scale beyond expert review, feasibility verifiers decide which proposals enter synthesis plan",
+        "description": "As generative models and AI agents propose chemical reactions at a scale beyond expert review, feasibility verifiers decide which proposals enter synthesis planning. But do their d",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2610.06614v1"
+      },
+      {
         "name": "MASBench: Benchmarking LLM-based Multi-Agent Collaboration u",
         "provider": "arXiv",
         "type": "AI 项目/工具",
@@ -8121,21 +8102,6 @@ window.AI_GENERATED_DATA = {
         "watch": "API 价格和配额可能会影响项目预算，需提前评估成本。",
         "sourceName": "NewsData.io:AI benchmark leaderboard",
         "url": "https://www.techbooky.com/deepseek-v4-flash-api-ai-agent-price-war/"
-      },
-      {
-        "name": "H2O AI Super Agent™ 在 FutureX 排行榜中全球排名第二",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "H2O AI Super Agent™ 的成功将推动更多企业在复杂决策中采用 AI 技术，尤其是在金融、医疗和政府等受监管行业。其高效的推理能力将帮助企业在风险管理和合规性方面做出更准确的判断，从而提升整体运营效率。此外，H2O.ai 的技术将促进 AI 在公共服务领域的应用，推动社会各界对 AI 技术的信任和接受。",
-        "description": "H2O.ai 的 H2O AI Super Agent™ 在 FutureX 排行榜中名列第二，显示出其在复杂信息推理和实际问题解决方面的持续领先。该平台在2026年多次获得第一名，超越了 OpenAI、Google 和其他主要竞争对手。",
-        "useCases": [
-          "优化金融风险评估，利用 H2O AI Super Agent™ 提高预测准确性。",
-          "在医疗行业中，应用该平台进行疾病预测和资源分配。",
-          "为政府机构提供实时数据分析，支持政策制定和执行。"
-        ],
-        "watch": "H2O.ai 的 API 价格可能会影响小型企业的使用意愿，导致市场竞争不平衡。",
-        "sourceName": "NewsData.io:AI benchmark leaderboard",
-        "url": "https://www.rutlandherald.com/news/business/h2o-ai-super-agent-ranks-2-worldwide-on-futurex-overall-leaderboard/article_4607dda7-1b79-5b9b-b25b-7a28e0bda386.html"
       }
     ],
     "ai-image-video": [
@@ -10428,8 +10394,8 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-10-06",
-    "generatedAt": "2026-10-06T03:32:28.585484Z",
-    "total": 28,
+    "generatedAt": "2026-10-06T07:12:03.077183Z",
+    "total": 31,
     "sections": [
       {
         "category": "ai-coding",
@@ -10444,6 +10410,17 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-10-06",
             "publishedAt": "2026-10-06T01:25",
+            "reason": ""
+          },
+          {
+            "title": "Large Language Model-Guided Discovery of Weight-Five Bivariate Bicycle Codes",
+            "summary": "Building on our earlier program-evolution workflow guided by large language models (LLMs), we study weight-five bivariate bicycle (BB) and p",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.06623v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-05",
+            "publishedAt": "",
             "reason": ""
           },
           {
@@ -10591,6 +10568,39 @@ window.AI_GENERATED_DATA = {
         "label": "模型发布",
         "items": [
           {
+            "title": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
+            "summary": "",
+            "source": "RSS · Hugging Face Blog",
+            "url": "https://huggingface.co/blog/tiiuae/falcon-emirati",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-06",
+            "publishedAt": "2026-10-06T14:44",
+            "reason": ""
+          },
+          {
+            "title": "OrigaMIG: MIG-Aware VM Placement with a Neighborhood-Restricted BILP and Live Migration",
+            "summary": "The extensive use of GPUs in cloud computing, accelerated by the spread of large language model (LLM) services, and the growing need for mul",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.06646v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-05",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "LoGRA: Scaling LLM Reinforcement Learning with Low-Rank Gradient Sketches",
+            "summary": "Reinforcement learning (RL) has greatly advanced the capabilities of large language models (LLMs), but its memory demands remain a barrier t",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.06647v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-05",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
             "title": "Improving Diversity in LLM Short Story Generation",
             "summary": "Large language models (LLMs) can generate accurate responses, but these are void of diversity. We attempt to address this for the task of cr",
             "source": "arXiv",
@@ -10688,39 +10698,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-10-05",
             "publishedAt": "",
             "reason": ""
-          },
-          {
-            "title": "Downgrading user roles in Amazon Quick",
-            "summary": "Amazon Quick doesn't offer a direct console path to downgrade a user from Admin or Author to Reader. This post walks through two reliable me",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/downgrading-user-roles-in-amazon-quick/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-05",
-            "publishedAt": "2026-10-05T23:51",
-            "reason": ""
-          },
-          {
-            "title": "Building advertising for the way people use AI",
-            "summary": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for adver",
-            "source": "RSS · OpenAI Blog",
-            "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-05",
-            "publishedAt": "2026-10-05T18:00",
-            "reason": ""
-          },
-          {
-            "title": "Anthropic Cowork 改为云端运行模型推理与 VM",
-            "summary": "Anthropic 工程师 Felix Rieseberg 说明 Cowork 的新旧架构差异：旧版在云端推理、在用户电脑上运行本地 VM，磁盘、电池和性能开销大，合上笔记本工作就停止。新版把模型推理和 VM 都移到云端，每个会话有独立沙盒，桌面应用只负责文件访问等需要本机设备的",
-            "source": "Simon Willison 博客",
-            "url": "https://simonwillison.net/2026/Oct/5/felix-rieseberg/",
-            "score": 56,
-            "sourceCount": 1,
-            "date": "2026-10-06",
-            "publishedAt": "2026-10-06T07:56",
-            "reason": ""
           }
         ]
       },
@@ -10728,6 +10705,17 @@ window.AI_GENERATED_DATA = {
         "category": "ai-benchmark",
         "label": "评测榜单",
         "items": [
+          {
+            "title": "FREA: A Multi-Source Expert Benchmark for Reaction Feasibility Verification",
+            "summary": "As generative models and AI agents propose chemical reactions at a scale beyond expert review, feasibility verifiers decide which proposals ",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.06614v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-05",
+            "publishedAt": "",
+            "reason": ""
+          },
           {
             "title": "BazaarBench: Delegation Safety in Decentralized C2C Marketplaces Run by LLM Agents",
             "summary": "In decentralized consumer-to-consumer (C2C) marketplaces, people list goods, negotiate with strangers, and rate one another, so trust rests ",
@@ -10761,6 +10749,23 @@ window.AI_GENERATED_DATA = {
             "summary": "This paper introduces Hybrid DeepSEE (HDS), a Human-in-the-Loop (HITL) neuro-symbolic framework for proactive drift anticipation in Visual S",
             "source": "arXiv",
             "url": "http://arxiv.org/abs/2610.05757v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-05",
+            "publishedAt": "",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "category": "ai-business",
+        "label": "行业商业",
+        "items": [
+          {
+            "title": "JEV versus LLMs: Accuracy, Cost and Calibration on Seven Political Science Replications",
+            "summary": "Large language models (LLMs) annotate and scale political text or constructs by generating text tokens. A new class of models, which TypeSaf",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.06625v1",
             "score": 70,
             "sourceCount": 1,
             "date": "2026-10-05",
