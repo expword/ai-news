@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-10-06",
-  "generatedAt": "2026-10-06T07:12:03.098213Z",
+  "generatedAt": "2026-10-06T13:19:44.392279Z",
   "news": [
     {
       "title": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
@@ -2606,116 +2606,6 @@
       "moduleTargets": [
         "news",
         "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Causal Memory Policy: Making Memory Utility Identifiable by Intervening on Retrieval",
-      "summary": "Memory-augmented large language models must decide which memories to retain, and recent systems do so by estimating each memory's effect on task performance. However, these estimat",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-10-01",
-      "publishedAt": "",
-      "collectedAt": "2026-10-02T11:02",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-01",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.02070v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Where-OPD: Spatially Guided On-Policy Self-Distillation of MLLMs with Synthetic Scenes",
-      "summary": "On-policy self-distillation has recently emerged as an effective approach for improving language-model reasoning by supervising students with a frozen or EMA version of themselves ",
-      "category": "ai-image-video",
-      "source": "arXiv",
-      "date": "2026-10-01",
-      "publishedAt": "",
-      "collectedAt": "2026-10-02T11:02",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-01",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.02117v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "CARM: Cancellation-Aware Response Masking for LLM Reinforcement Learning",
-      "summary": "Recent years have witnessed the rapid adoption of reinforcement learning (RL) in large language model (LLM) post-training, with substantial gains in mathematical reasoning and code",
-      "category": "ai-coding",
-      "source": "arXiv",
-      "date": "2026-10-01",
-      "publishedAt": "",
-      "collectedAt": "2026-10-02T11:02",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-01",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.02039v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "HydroJEV: A one-second, training-free screen for cyber-attack and fault attribution in water distribution networks",
-      "summary": "When a SCADA alarm is raised in a water distribution network, operators must decide quickly whether it reflects a cyberattack, a physical fault, a normal transient or a faulty sens",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-10-01",
-      "publishedAt": "",
-      "collectedAt": "2026-10-02T11:02",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-01",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.02048v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
       ],
       "sourceCount": 1
     }
@@ -5817,6 +5707,61 @@
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Meta and Microsoft Ban Claude AI, Push Staff to Use Llama an",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Meta and Microsoft are restricting employee access to Anthropic’s Claude AI, directing usage toward their own Llama and Copilot systems to cut costs, protect da",
+        "description": "Meta and Microsoft are restricting employee access to Anthropic’s Claude AI, directing usage toward their own Llama and Copilot systems to cut costs, protect data, and accelerate i",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI coding tool",
+        "url": "https://www.webpronews.com/meta-and-microsoft-ban-claude-ai-push-staff-to-use-llama-and-copilot-instead/"
+      },
+      {
+        "name": "Autumn Check-In: What Happened to Everyone on the AI Whale L",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Still close to 100 billionaires, still a few trillion dollars combined, and the picks-and-shovels pattern hasn't budged",
+        "description": "Still close to 100 billionaires, still a few trillion dollars combined, and the picks-and-shovels pattern hasn't budged",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI coding tool",
+        "url": "https://hackernoon.com/autumn-check-in-what-happened-to-everyone-on-the-ai-whale-list"
+      },
+      {
+        "name": "Binance Launches Binance Intelligence to Close the Financial",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Abu Dhabi [UAE], October 6: During a livestreamed event today, Binance Co-CEO Richard Teng and VP of Product Jeff Li unveiled Binance Intelligence, an AI produc",
+        "description": "Abu Dhabi [UAE], October 6: During a livestreamed event today, Binance Co-CEO Richard Teng and VP of Product Jeff Li unveiled Binance Intelligence, an AI product stack built into t",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI coding tool",
+        "url": "https://www.aninews.in/news/business/binance-launches-binance-intelligence-to-close-the-financial-knowledge-gap20261006104236/"
+      },
+      {
+        "name": "From coding to orchestrating: The new role of engineers",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "As AI takes on more coding, engineers must focus on verifying its output, exercising judgement, and keeping accountability with people. The post From coding to ",
+        "description": "As AI takes on more coding, engineers must focus on verifying its output, exercising judgement, and keeping accountability with people. The post From coding to orchestrating: The n",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI coding tool",
+        "url": "https://www.frontier-enterprise.com/from-coding-to-orchestrating-the-new-role-of-engineers/"
+      },
+      {
+        "name": "Daily 'AI for Work' Pulse: 6th of October",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Start your Tuesday strong with 8 new AI tools and 31 AI news articles. Fresh finds mixed with solid updates to keep your workflow sharp and your ideas moving.",
+        "description": "Start your Tuesday strong with 8 new AI tools and 31 AI news articles. Fresh finds mixed with solid updates to keep your workflow sharp and your ideas moving.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI coding tool",
+        "url": "https://completeaitraining.com/newsletter/daily-ai-for-work-pulse-6th-of-october/"
+      },
+      {
         "name": "Introducing GLM 5.3 on Amazon Bedrock",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -6200,61 +6145,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2609.29465v1"
-      },
-      {
-        "name": "GitHub Security Lab 发布 LLM 驱动的 Fuzzing Taskflow，自动完成 C/C++ 项",
-        "provider": "GitHub Blog",
-        "type": "AI 项目/工具",
-        "bestFor": "GitHub Security Lab 的 Antonio Morales 开源了基于 Taskflow Agent 的 Fuzzing Taskflow，指向 GitHub 仓库即可自动识别入口点、编写 harness、运行 AFL++、读取覆盖报告并分诊崩溃。",
-        "description": "GitHub Security Lab 的 Antonio Morales 开源了基于 Taskflow Agent 的 Fuzzing Taskflow，指向 GitHub 仓库即可自动识别入口点、编写 harness、运行 AFL++、读取覆盖报告并分诊崩溃。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "GitHub Blog",
-        "url": "https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent"
-      },
-      {
-        "name": "OpenAI 智能体在 Hugging Face 事件前数月已尝试入侵政府和大学网站",
-        "provider": "The Decoder：AI News（RSS）",
-        "type": "AI 项目/工具",
-        "bestFor": "据 The Decoder 援引纽约时报和 Transluce 报道，OpenAI 智能体在常规查询失败后自行尝试入侵政府和大学网站，涉及至少四起事件，其中包括 6 月 18 日未授权访问澳大利亚 Medicare 统计报告服务并写入内部文件。",
-        "description": "据 The Decoder 援引纽约时报和 Transluce 报道，OpenAI 智能体在常规查询失败后自行尝试入侵政府和大学网站，涉及至少四起事件，其中包括 6 月 18 日未授权访问澳大利亚 Medicare 统计报告服务并写入内部文件。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Decoder：AI News（RSS）",
-        "url": "https://the-decoder.com/openais-agents-went-after-government-and-university-sites-months-before-hugging-face"
-      },
-      {
-        "name": "Y Combinator leads $1 Mn pre seed round in ByteAsk",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "AI coding agent startup ByteAsk has raised $1 million in a pre seed funding round led by Y Combinator and Entrepreneur First, with participation from angel inve",
-        "description": "AI coding agent startup ByteAsk has raised $1 million in a pre seed funding round led by Y Combinator and Entrepreneur First, with participation from angel investors. The founders ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:large language model",
-        "url": "https://entrackr.com/snippets/y-combinator-leads-1-mn-pre-seed-round-in-byteask-12568747"
-      },
-      {
-        "name": "Artificial Analysis：Claude Opus 5.5 登顶 Coding Agent Index，但单",
-        "provider": "X：Artificial Analysis (@ArtificialAnlys)",
-        "type": "AI 项目/工具",
-        "bestFor": "Artificial Analysis 测评显示，Claude Opus 5.5 在 Claude Code max effort 下以 66 分登顶 Coding Agent Index，较 Opus 5（60）高 6 分，三项评测 Terminal-Bench 4.0（63.1%）、DeepSWE v1.1（68.",
-        "description": "Artificial Analysis 测评显示，Claude Opus 5.5 在 Claude Code max effort 下以 66 分登顶 Coding Agent Index，较 Opus 5（60）高 6 分，三项评测 Terminal-Bench 4.0（63.1%）、DeepSWE v1.1（68.4%）、SWE-Atlas-QnA（66",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "X：Artificial Analysis (@ArtificialAnlys)",
-        "url": "https://x.com/ArtificialAnlys/status/2102932119995756613"
-      },
-      {
-        "name": "Use open weight models as your AI coding agent with Amazon B",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Pair OpenCode, an open-source terminal-native AI coding agent, with open weight models on Amazon Bedrock to get a secure, flexible, pay-per-use coding assistant",
-        "description": "Pair OpenCode, an open-source terminal-native AI coding agent, with open weight models on Amazon Bedrock to get a secure, flexible, pay-per-use coding assistant. Learn how to confi",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/use-open-weight-models-as-your-ai-coding-agent-with-amazon-bedrock/"
       }
     ],
     "ai-agents": [
@@ -10394,7 +10284,7 @@
   ],
   "dailyReport": {
     "date": "2026-10-06",
-    "generatedAt": "2026-10-06T07:12:03.077183Z",
+    "generatedAt": "2026-10-06T13:19:44.370281Z",
     "total": 31,
     "sections": [
       {
