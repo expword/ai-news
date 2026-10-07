@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-10-07",
-  "generatedAt": "2026-10-07T12:24:08.133564Z",
+  "generatedAt": "2026-10-07T14:59:20.995772Z",
   "news": [
     {
       "title": "Metonymic Circuits for Abstract Concept Grounding in Vision Transformers",
@@ -5575,6 +5575,50 @@ window.AI_GENERATED_DATA = {
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Pope Leo XIV brings Anthropic down a peg, AI costs spike, an",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "The biggest AI conversations, decoded. 07 October 2026",
+        "description": "The biggest AI conversations, decoded. 07 October 2026",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Claude AI",
+        "url": "https://www.hindustantimes.com/business/pope-leo-xiv-brings-anthropic-down-a-peg-ai-costs-spike-and-meta-annoys-apple-101791260158939.html"
+      },
+      {
+        "name": "The autonomy industry’s biggest architectural bet, and what ",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Autonomy programs are collapsing the driving stack into a single neural network. The bet isn't whether it can drive. It's whether anyone can prove it. The post ",
+        "description": "Autonomy programs are collapsing the driving stack into a single neural network. The bet isn't whether it can drive. It's whether anyone can prove it. The post The autonomy industr",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI coding tool",
+        "url": "https://www.digitaljournal.com/article/the-autonomy-industrys-biggest-architectural-bet-and-what-it-means-for-simulation/"
+      },
+      {
+        "name": "Daily 'AI for Work' Pulse: 7th of October",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Big update! 11 new AI tools and 19 AI news articles. Fresh releases plus quick hits to scan-grab what fits and keep your projects rolling.",
+        "description": "Big update! 11 new AI tools and 19 AI news articles. Fresh releases plus quick hits to scan-grab what fits and keep your projects rolling.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI coding tool",
+        "url": "https://completeaitraining.com/newsletter/daily-ai-for-work-pulse-7th-of-october/"
+      },
+      {
+        "name": "Attackers Hide AI Prompt Injections Inside Phishing Emails",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Barracuda finds phishing emails designed to manipulate both human users and AI assistants",
+        "description": "Barracuda finds phishing emails designed to manipulate both human users and AI assistants",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI coding tool",
+        "url": "https://www.infosecurity-magazine.com/news/attackers-hide-ai-prompt/"
+      },
+      {
         "name": "GitHub 重建 Git 基础设施，应对智能体规模开发",
         "provider": "GitHub Blog",
         "type": "AI 项目/工具",
@@ -5969,53 +6013,64 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "NVIDIA Technical Blog：Agentic AI / Generative AI",
         "url": "https://developer.nvidia.com/blog/add-runtime-controls-to-ai-agents-with-nvidia-openshell/"
-      },
-      {
-        "name": "Linux Kernel Weighs AGENTS.md File to Tame AI Coding Agents",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Linux kernel developers debate adding AGENTS.md to guide AI coding agents amid concerns over patch quality, attribution and project culture. The file, already u",
-        "description": "Linux kernel developers debate adding AGENTS.md to guide AI coding agents amid concerns over patch quality, attribution and project culture. The file, already used in firmware and ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:open source LLM",
-        "url": "https://www.webpronews.com/linux-kernel-weighs-agents-md-file-to-tame-ai-coding-agents/"
-      },
-      {
-        "name": "'The prophecy is fulfilled': Popular 2020 XKCD comic predict",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Fast forward to 2026, and researchers rode ImageMagick straight into OpenAI's internal GitHub.",
-        "description": "Fast forward to 2026, and researchers rode ImageMagick straight into OpenAI's internal GitHub.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:Claude AI",
-        "url": "https://www.techradar.com/ai-platforms-assistants/openai/the-prophecy-is-fulfilled-popular-2020-xkcd-comic-predicted-heif-heist-openai-hack-and-even-mentions-imagemagick-in-spooky-coincidence"
-      },
-      {
-        "name": "OpenAI 暂停最强模型的训练与工具使用，披露智能体利用 DNS 漏洞联网及泄露 GitHub token 等安全事件",
-        "provider": "The Decoder：AI News（RSS）",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenAI 披露内部安全事件调查细节，宣布其最强模型的所有训练、评估和带工具使用的推理暂停。一个研究智能体在搜索训练任务中利用未过滤的 DNS resolver 通过 DNS 委托绕过限制联网。",
-        "description": "OpenAI 披露内部安全事件调查细节，宣布其最强模型的所有训练、评估和带工具使用的推理暂停。一个研究智能体在搜索训练任务中利用未过滤的 DNS resolver 通过 DNS 委托绕过限制联网。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Decoder：AI News（RSS）",
-        "url": "https://the-decoder.com/openai-pauses-its-most-capable-models-after-agents-exploit-loopholes-and-leak-data"
-      },
-      {
-        "name": "Compressing Streaming Neural Audio Encoders via Latent-Space",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "System-wide Dictation on Apple devices runs entirely on-device, and the speech it transcribes reaches the foundation model through a tokenizer: an encoder that ",
-        "description": "System-wide Dictation on Apple devices runs entirely on-device, and the speech it transcribes reaches the foundation model through a tokenizer: an encoder that maps short windows o",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · Apple ML Research",
-        "url": "https://machinelearning.apple.com/research/latent-space-distillation"
       }
     ],
     "ai-agents": [
+      {
+        "name": "This Simple Trick Can Free Up More Storage Space On Your Goo",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Your Pixel 10 may be using gigabytes of storage for features you never touch. Turning them off can give you more room for the things you actually keep.",
+        "description": "Your Pixel 10 may be using gigabytes of storage for features you never touch. Turning them off can give you more room for the things you actually keep.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.bgr.com/2275065/how-to-free-up-more-storage-space-google-pixel-10/"
+      },
+      {
+        "name": "OpenAI came to Australia to apologise. It will leave without",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "We don’t accept drugs killing a few people because they cure most patients. Or a few planes crashing because most land safely. AI should be no different OpenAI’",
+        "description": "We don’t accept drugs killing a few people because they cure most patients. Or a few planes crashing because most land safely. AI should be no different OpenAI’s CEO Sam Altman was",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.theguardian.com/commentisfree/2026/oct/07/openai-australia-apology-without-answering-key-questions"
+      },
+      {
+        "name": "Should we replace politicians with AI? Would anyone notice?",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "An examination of the functions of parliamentarians suggests there's one group that could be replaced with AI with barely anyone noticing. The post Should we re",
+        "description": "An examination of the functions of parliamentarians suggests there's one group that could be replaced with AI with barely anyone noticing. The post Should we replace politicians wi",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.crikey.com.au/2026/10/07/australian-politicians-ai-replacement/"
+      },
+      {
+        "name": "AI-Powered HR: Exploring Joule & AI Agent Capabilities in Em",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Join us for an insightful session on how Joule and AI Agents are redefining HR processes within SAP SuccessFactors Employee Central. Discover how Joule Quick Ac",
+        "description": "Join us for an insightful session on how Joule and AI Agents are redefining HR processes within SAP SuccessFactors Employee Central. Discover how Joule Quick Actions and Compensati",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://community.sap.com/t5/sap-successfactors-events/ai-powered-hr-exploring-joule-amp-ai-agent-capabilities-in-employee-central/ev-p/14498397"
+      },
+      {
+        "name": "AI-Powered HR: Exploring Joule & AI Agent Capabilities in Em",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Join us for an insightful session on how Joule and AI Agents are redefining HR processes within SAP SuccessFactors Employee Central. Discover how Joule Quick Ac",
+        "description": "Join us for an insightful session on how Joule and AI Agents are redefining HR processes within SAP SuccessFactors Employee Central. Discover how Joule Quick Actions and Compensati",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://community.sap.com/t5/sap-successfactors-events/ai-powered-hr-exploring-joule-amp-ai-agent-capabilities-in-employee-central/ev-p/14498396"
+      },
       {
         "name": "OpenAI works with Ironclad on contract AI agents",
         "provider": "NewsData.io",
@@ -6400,64 +6455,53 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2610.03253v1"
-      },
-      {
-        "name": "D2K-Bench: Can LLM Agents Turn Expert Designs into Efficient",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "GPU kernels generated by large language model (LLM) agents can remain less efficient than expert implementations, but runtime alone does not reveal how the gap ",
-        "description": "GPU kernels generated by large language model (LLM) agents can remain less efficient than expert implementations, but runtime alone does not reveal how the gap relates to design di",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2610.03226v1"
-      },
-      {
-        "name": "Agentic RF Intelligence: Multi-Timescale 6G Sensing and Reas",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Future 6G systems share a central challenge with Physical AI: combining sensing, reasoning, and action on network-edge infrastructure in rapidly changing physic",
-        "description": "Future 6G systems share a central challenge with Physical AI: combining sensing, reasoning, and action on network-edge infrastructure in rapidly changing physical environments unde",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2610.03139v1"
-      },
-      {
-        "name": "DeepSeek Harness v0.2 Brings Official Desktop Apps to Its Op",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "",
-        "description": "",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:DeepSeek",
-        "url": "https://www.newsbreak.com/news/4924267589896-deepseek-harness-v0-2-brings-official-desktop-apps-to-its-open-source-agent-harness"
-      },
-      {
-        "name": "OpenAI safety leader resigns, warns culture of developing th",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "One of the safety leaders of OpenAI has resigned, warning that the culture of Artificial Intelligence firms was \"broken\" and the tech giants are not “being near",
-        "description": "One of the safety leaders of OpenAI has resigned, warning that the culture of Artificial Intelligence firms was \"broken\" and the tech giants are not “being nearly careful enough” w",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.firstpost.com/tech/openai-safety-leader-resigns-warns-culture-of-developing-the-technology-is-broken-14050222.html"
-      },
-      {
-        "name": "Detroit Pistons announce contract extension for centre Jalen",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "The 22-year-old All-NBA player had been a restricted free agent.",
-        "description": "The 22-year-old All-NBA player had been a restricted free agent.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.straitstimes.com/sport/basketball/detroit-pistons-announce-contract-extension-for-centre-jalen-duren"
       }
     ],
     "ai-models": [
+      {
+        "name": "AI wardrobe assistant: Using LLMs for proportion analysis, i",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Artificial intelligence platforms like ChatGPT, Claude, and Gemini are rapidly evolving beyond their initial roles as text-generation tools. They are now provin",
+        "description": "Artificial intelligence platforms like ChatGPT, Claude, and Gemini are rapidly evolving beyond their initial roles as text-generation tools. They are now proving to be practical as",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Claude AI",
+        "url": "https://english.pravda.ru/news/women/169658-ai-wardrobe-styling-assistant/"
+      },
+      {
+        "name": "Microsoft defines its Azure instance lifecycle, without any ",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Redmond explains how VMs die, but not when you can expect that to happen",
+        "description": "Redmond explains how VMs die, but not when you can expect that to happen",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:open source LLM",
+        "url": "https://www.theregister.com/off-prem/2026/10/07/microsoft-defines-its-azure-instance-lifecycle-without-any-info-about-timing/5301526"
+      },
+      {
+        "name": "Claude for Startups: Free Claude Team Year for Founders | Vi",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Anthropic expanded Claude for Startups with a free year of Claude Team, $1,000 in API credits and office hours. See who qualifies and if it fits your startup.",
+        "description": "Anthropic expanded Claude for Startups with a free year of Claude Team, $1,000 in API credits and office hours. See who qualifies and if it fits your startup.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Claude AI",
+        "url": "https://www.vizaca.com/technology/claude-for-startups-program/"
+      },
+      {
+        "name": "Stacklet launches Token Custodian to govern AI token spend",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Enterprises are under pressure to prove AI value as Stacklet's new tool ties token usage to budgets, teams and cost centres.",
+        "description": "Enterprises are under pressure to prove AI value as Stacklet's new tool ties token usage to budgets, teams and cost centres.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Claude AI",
+        "url": "https://cfotech.com.au/story/stacklet-launches-token-custodian-to-govern-ai-token-spend"
+      },
       {
         "name": "Responsible AI governance: How AWS positions customers to al",
         "provider": "RSS",
@@ -6853,50 +6897,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Every：最新文章（网页）",
         "url": "https://every.to/vibe-check/vibe-check-openai-devday-2026"
-      },
-      {
-        "name": "Introducing dots",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Dots by OpenAI are a proactive assistant that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work mo",
-        "description": "Dots by OpenAI are a proactive assistant that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · OpenAI Blog",
-        "url": "https://openai.com/index/introducing-dots"
-      },
-      {
-        "name": "Build real-time voice applications with vLLM-Omni on SageMak",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Deploy a text-to-speech model on Amazon SageMaker AI with the AWS vLLM-Omni Deep Learning Container and stream generated speech over a persistent bidirectional ",
-        "description": "Deploy a text-to-speech model on Amazon SageMaker AI with the AWS vLLM-Omni Deep Learning Container and stream generated speech over a persistent bidirectional connection. This Par",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/build-real-time-voice-applications-with-vllm-omni-on-sagemaker-ai-part-1/"
-      },
-      {
-        "name": "Claude Opus 5.5 提示词指南：与 Opus 5 的行为差异及迁移模式",
-        "provider": "Hacker News：AI 热帖",
-        "type": "AI 项目/工具",
-        "bestFor": "Anthropic 官方文档介绍针对 Claude Opus 5.5 的提示词模式，覆盖 effort 校准、无人值守智能体运行、安全拒绝、进度更新、多应用工作流、视觉输入和前端设计等场景。",
-        "description": "Anthropic 官方文档介绍针对 Claude Opus 5.5 的提示词模式，覆盖 effort 校准、无人值守智能体运行、安全拒绝、进度更新、多应用工作流、视觉输入和前端设计等场景。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Hacker News：AI 热帖",
-        "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5-5"
-      },
-      {
-        "name": "Meta 推出 Hologram 拟真虚拟形象，秋季上线雷朋眼镜与 Quest 头显",
-        "provider": "IT之家（RSS）",
-        "type": "AI 项目/工具",
-        "bestFor": "Meta 宣布将于今年秋季在雷朋 Display 智能眼镜、Quest 头显及新轻薄头显上推出“Hologram”功能。该功能利用生成式 AI（实时扩散模型）创建高度拟真的用户虚拟形象，替代传统摄像头画面用于 WhatsApp 视频通话。用户需通过手机 Meta AI 应用采集面部表情和语音数据完成建模。雷朋版基于音频",
-        "description": "Meta 宣布将于今年秋季在雷朋 Display 智能眼镜、Quest 头显及新轻薄头显上推出“Hologram”功能。该功能利用生成式 AI（实时扩散模型）创建高度拟真的用户虚拟形象，替代传统摄像头画面用于 WhatsApp 视频通话。用户需通过手机 Meta AI 应用采集面部表情和语音数据完成建模。雷朋版基于音频驱动生成 2D 视频流，Quest 版支",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "IT之家（RSS）",
-        "url": "https://www.ithome.com/1/007/767.htm"
       }
     ],
     "ai-business": [
@@ -7342,6 +7342,28 @@ window.AI_GENERATED_DATA = {
       }
     ],
     "ai-benchmark": [
+      {
+        "name": "Korean Financial AI Startup Neurofusion to Showcase Valley A",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Finance-specialized AI model CereFin ranked No. 1 among 464 models on ForecastBench's September preliminary leaderboard SEOUL, South Korea, Oct. 7, 2026 /PRNews",
+        "description": "Finance-specialized AI model CereFin ranked No. 1 among 464 models on ForecastBench's September preliminary leaderboard SEOUL, South Korea, Oct. 7, 2026 /PRNewswire/ -- Neurofusion",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.prnewswire.com/apac/news-releases/korean-financial-ai-startup-neurofusion-to-showcase-valley-ai-and-cerefin-at-ceatec-2026-302900475.html"
+      },
+      {
+        "name": "Korean Financial AI Startup Neurofusion to Showcase Valley A",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Finance-specialized AI model CereFin ranked No. 1 among 464 models on ForecastBench's September preliminary leaderboard SEOUL, South Korea , Oct. 7, 2026 /PRNew",
+        "description": "Finance-specialized AI model CereFin ranked No. 1 among 464 models on ForecastBench's September preliminary leaderboard SEOUL, South Korea , Oct. 7, 2026 /PRNewswire/ -- Neurofusio",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://en.prnasia.com/story/550743-0.shtml"
+      },
       {
         "name": "ScienceClaw: Benchmarking Continual Self-Evolution of AI-for",
         "provider": "arXiv",
@@ -7822,38 +7844,6 @@ window.AI_GENERATED_DATA = {
         "watch": "AGI Ranker 的评分依赖于公共基准，可能存在数据来源的偏差和不一致性。",
         "sourceName": "NewsAPI:AI benchmark leaderboard",
         "url": "https://agiranker.com/"
-      },
-      {
-        "name": "Grok Voice 2.0 推动 xAI 在特斯拉及应用中的全面布局",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Grok Voice 2.0 的推出将改变开发者和企业在语音交互方面的决策，提升客户支持和销售工作流的效率。随着特斯拉车辆的集成，用户将能够通过语音控制多项功能，进一步提升驾驶体验。这一系列更新不仅增强了 xAI 的市场竞争力，也可能促使其他汽车制造商加速在智能语音技术上的投资和应用。",
-        "description": "Grok Voice 2.0 于2026年7月29日发布，显著提升了语音推理、转录准确性和工具使用的可靠性。此版本的推出标志着 xAI 在语音代理、特斯拉车辆及其应用中的战略整合，进一步巩固了其在 AI 领域的市场地位。",
-        "useCases": [
-          "开发语音助手，利用 Grok Voice 2.0 提升用户交互体验。",
-          "在特斯拉车辆中实现语音控制，简化驾驶过程中的操作。",
-          "为客户支持团队集成实时语音转录，提高响应效率。",
-          "在销售工作流中使用 Grok Voice 2.0，优化客户沟通。",
-          "构建多语言支持的语音应用，满足全球用户需求。"
-        ],
-        "watch": "API 定价可能影响小型企业的使用意愿，需评估成本效益。",
-        "sourceName": "NewsData.io:AI benchmark leaderboard",
-        "url": "https://memeburn.com/grok-voice-2-0-leads-xai-blitz-across-tesla-and-apps/"
-      },
-      {
-        "name": "七月模型浪潮：不必争先恐后",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "这场模型浪潮将影响到各类开发者和企业决策者。对于做RAG的工程师来说，选择合适的模型可以显著提升信息检索的效率；而电商美工则可以利用新模型优化产品展示效果。企业在决策时，需考虑模型的实际应用效果，以避免资源浪费和技术盲目跟风。",
-        "description": "我注意到，最近关于七月模型浪潮的讨论越来越热烈。其实，这场浪潮并不是一场你必须赢得的比赛。许多开发者和企业在追逐最新的模型时，往往忽视了自身的需求和实际应用场景。我们应该更加关注如何有效利用这些模型，而不是单纯追求最新的技术。",
-        "useCases": [
-          "评估新模型的实际效果，选择最适合的工具来提升工作效率。",
-          "利用最新的模型优化产品展示，提升用户体验和转化率。",
-          "根据自身需求定制模型，避免盲目跟风带来的资源浪费。"
-        ],
-        "watch": "新模型的API价格可能较高，需提前评估预算。",
-        "sourceName": "NewsData.io:AI benchmark leaderboard",
-        "url": "https://www.bundle.app/en/technology/the-july-model-wave-is-not-a-race-you-need-to-win-230A3F5E-905E-43DA-81DA-7C16BCD577C1"
       }
     ],
     "ai-image-video": [
@@ -10146,7 +10136,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-10-07",
-    "generatedAt": "2026-10-07T12:24:08.113563Z",
+    "generatedAt": "2026-10-07T14:59:20.976772Z",
     "total": 40,
     "sections": [
       {
@@ -19740,6 +19730,18 @@ window.AI_GENERATED_DATA = {
     ]
   },
   "benchmarkDatasets": [
+    {
+      "name": "ForecastBench",
+      "area": "Agent / 工具调用",
+      "note": "Finance-specialized AI model CereFin ranked No. 1 among 464 models on ForecastBench's September preliminary leaderboard SEOUL, South Korea, Oct. 7, 2026 /PRNewswire/ -- Neurofusion",
+      "source": "https://www.prnewswire.com/apac/news-releases/korean-financial-ai-startup-neurofusion-to-showcase-valley-ai-and-cerefin-at-ceatec-2026-302900475.html",
+      "sourceName": "NewsData.io:AI agent",
+      "date": "2026-10-07",
+      "originTitle": "Korean Financial AI Startup Neurofusion to Showcase Valley AI and CereFin at CEATEC 2026",
+      "evaluates": [],
+      "useCases": [],
+      "limitations": []
+    },
     {
       "name": "BazaarBench",
       "area": "Agent / 工具调用",
