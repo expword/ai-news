@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-10-07",
-  "generatedAt": "2026-10-07T02:27:32.633657Z",
+  "generatedAt": "2026-10-07T06:07:33.509365Z",
   "news": [
     {
       "title": "Building a context-aware AI assistant on AgentCore and OpenClaw",
@@ -135,6 +135,116 @@ window.AI_GENERATED_DATA = {
       "aiSelected": true,
       "moduleTargets": [
         "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "AssemState: Manual and Physical-State-Guided Reasoning for Zero-shot Furniture Assembly",
+      "summary": "Multimodal large language models (MLLMs) have made significant progress in visual understanding, but precise 3D spatial reasoning integrated with physical environment remains diffi",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-10-06",
+      "publishedAt": "",
+      "collectedAt": "2026-10-07T12:54",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-06",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.08446v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Latent space bias directions in LLMs capture confidence, not fairness",
+      "summary": "Activation steering has gained popularity as a lightweight inference-time debiasing technique for large language models. However, prior work reports that steering vectors generalis",
+      "category": "ai-coding",
+      "source": "arXiv",
+      "date": "2026-10-06",
+      "publishedAt": "",
+      "collectedAt": "2026-10-07T12:54",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-06",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.08559v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "RSJEV: Discriminative Remote Sensing Scene Classification with Multimodal Large Language Models",
+      "summary": "Remote sensing scene classification is a fundamental task in Earth observation and geospatial analysis. Existing approaches mainly follow three paradigms: task-specific visual clas",
+      "category": "ai-image-video",
+      "source": "arXiv",
+      "date": "2026-10-06",
+      "publishedAt": "",
+      "collectedAt": "2026-10-07T12:54",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-06",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.08539v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Agentic AutoRAG: RAG Pipeline Optimization through Reasoning-Driven Agents",
+      "summary": "Retrieval-augmented generation (RAG) is a widely used approach for grounding large language models (LLMs) in external knowledge. However, configuring a pipeline is an expensive hyp",
+      "category": "ai-agents",
+      "source": "arXiv",
+      "date": "2026-10-06",
+      "publishedAt": "",
+      "collectedAt": "2026-10-07T12:54",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-06",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.08452v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
       ],
       "sourceCount": 1
     },
@@ -2611,158 +2721,6 @@ window.AI_GENERATED_DATA = {
         "news"
       ],
       "sourceCount": 1
-    },
-    {
-      "title": "Add secure Web Search to Claude Desktop with Amazon Bedrock AgentCore",
-      "summary": "Claude Desktop on Amazon Bedrock is limited to the model's knowledge cutoff without web search. In this post, we walk through connecting Claude Desktop to Web Search using Amazon B",
-      "category": "ai-agents",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-10-02",
-      "publishedAt": "2026-10-02T23:46",
-      "collectedAt": "2026-10-03T00:16",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/add-secure-web-search-to-claude-desktop-with-amazon-bedrock-agentcore/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 2,
-      "relatedSources": [
-        {
-          "source": "RSS · AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-glm-5-3-on-amazon-bedrock/",
-          "title": "Introducing GLM 5.3 on Amazon Bedrock"
-        }
-      ]
-    },
-    {
-      "title": "Sweep thousands of leases for compliance using Amazon Quick and the Adjudicated Query pattern",
-      "summary": "The Adjudicated Query pattern pairs the Amazon Quick chat agent with a bounded MCP server over a deterministic rules engine to deliver provably complete, defensible compliance answ",
-      "category": "ai-agents",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-10-02",
-      "publishedAt": "2026-10-02T23:48",
-      "collectedAt": "2026-10-03T00:16",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/sweep-thousands-of-leases-for-compliance-using-amazon-quick-and-the-adjudicated-query-pattern/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Toward provably private learning from federated data",
-      "summary": "Mobile Systems",
-      "category": "ai-models",
-      "source": "RSS · Google Research",
-      "date": "2026-10-02",
-      "publishedAt": "2026-10-02T22:57",
-      "collectedAt": "2026-10-03T00:16",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://research.google/blog/toward-provably-private-learning-from-federated-data/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "The latest AI news we announced in September 2026",
-      "summary": "Here are Google’s latest AI updates from September 2026",
-      "category": "ai-models",
-      "source": "RSS · Google AI Blog",
-      "date": "2026-10-02",
-      "publishedAt": "2026-10-02T23:00",
-      "collectedAt": "2026-10-03T00:16",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Fine-tune a search agent with multi-turn RL on Amazon SageMaker AI",
-      "summary": "Fine-tuning teaches a small search agent your tools and environment, giving it the reliability of a frontier model at lower latency and cost. In this post, we fine-tune an LLM-powe",
-      "category": "ai-agents",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-10-02",
-      "publishedAt": "2026-10-02T23:44",
-      "collectedAt": "2026-10-03T00:16",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/fine-tune-a-search-agent-with-multi-turn-rl-on-amazon-sagemaker-ai/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 2,
-      "relatedSources": [
-        {
-          "source": "RSS · AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/new-agent-skill-amazon-sagemaker-optimized-generative-ai-inference-for-your-coding-agent/",
-          "title": "New agent skill: Amazon SageMaker optimized generative AI inference for your coding agent"
-        }
-      ]
     }
   ],
   "weeklyDigests": [
@@ -6304,6 +6262,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "Agentic AutoRAG: RAG Pipeline Optimization through Reasoning",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Retrieval-augmented generation (RAG) is a widely used approach for grounding large language models (LLMs) in external knowledge. However, configuring a pipeline",
+        "description": "Retrieval-augmented generation (RAG) is a widely used approach for grounding large language models (LLMs) in external knowledge. However, configuring a pipeline is an expensive hyp",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2610.08452v1"
+      },
+      {
         "name": "Agent in a Bottle: Can LLM Agents Turn Their Capabilities In",
         "provider": "arXiv",
         "type": "AI 项目/工具",
@@ -6731,17 +6700,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:Claude AI",
         "url": "https://www.timesnownews.com/technology-science/ai-went-rogue-is-not-the-full-story-why-reward-hacking-is-a-concern-expert-explains-article-156265638"
-      },
-      {
-        "name": "Apple says it will flag AI requests for Mac data after Meta’",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Some claim Meta's Muse accessed what users believed to be private messages.",
-        "description": "Some claim Meta's Muse accessed what users believed to be private messages.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.straitstimes.com/world/united-states/apple-says-it-will-flag-ai-requests-for-mac-data-after-metas-muse-draws-complaints"
       }
     ],
     "ai-models": [
@@ -8587,6 +8545,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-research": [
       {
+        "name": "RSJEV: Discriminative Remote Sensing Scene Classification wi",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Remote sensing scene classification is a fundamental task in Earth observation and geospatial analysis. Existing approaches mainly follow three paradigms: task-",
+        "description": "Remote sensing scene classification is a fundamental task in Earth observation and geospatial analysis. Existing approaches mainly follow three paradigms: task-specific visual clas",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2610.08539v1"
+      },
+      {
         "name": "PrimitiveCAD: An LLM-Based Point-to-CAD Reconstruction with ",
         "provider": "arXiv",
         "type": "AI 项目/工具",
@@ -9014,17 +8983,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "The Guardian",
         "url": "https://www.theguardian.com/technology/ng-interactive/2026/sep/22/animal-language-recordings-ai"
-      },
-      {
-        "name": "AI company Anthropic opening SG office in Oct; hiring 10 Sin",
-        "provider": "The Independent",
-        "type": "AI 项目/工具",
-        "bestFor": "SINGAPORE: Anthropic will open a Singapore office in October, expanding its presence in Asia as demand for its Claude AI tools grows.\n\nThe company said Singapor",
-        "description": "SINGAPORE: Anthropic will open a Singapore office in October, expanding its presence in Asia as demand for its Claude AI tools grows.\n\nThe company said Singapore is a \"standout mar",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Independent",
-        "url": "https://theindependent.sg/ai-company-anthropic-opening-sg-office-in-oct-hiring-10-singapore-job-roles-across-applied-ai-finance-sales-marketing-and-research"
       }
     ],
     "ai-office": []
@@ -10433,13 +10391,24 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-10-07",
-    "generatedAt": "2026-10-07T02:27:32.614624Z",
-    "total": 28,
+    "generatedAt": "2026-10-07T06:07:33.486365Z",
+    "total": 31,
     "sections": [
       {
         "category": "ai-coding",
         "label": "AI 编程",
         "items": [
+          {
+            "title": "Latent space bias directions in LLMs capture confidence, not fairness",
+            "summary": "Activation steering has gained popularity as a lightweight inference-time debiasing technique for large language models. However, prior work",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.08559v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-06",
+            "publishedAt": "",
+            "reason": ""
+          },
           {
             "title": "PrimitiveCAD: An LLM-Based Point-to-CAD Reconstruction with Primitive-Aware Tokenization and Operation Alignment",
             "summary": "Large-model-based point-to-CAD generation holds immense potential for advancing industrial design and enhancing 3D modeling efficiency. Howe",
@@ -10520,6 +10489,23 @@ window.AI_GENERATED_DATA = {
         ]
       },
       {
+        "category": "ai-image-video",
+        "label": "图像视频",
+        "items": [
+          {
+            "title": "RSJEV: Discriminative Remote Sensing Scene Classification with Multimodal Large Language Models",
+            "summary": "Remote sensing scene classification is a fundamental task in Earth observation and geospatial analysis. Existing approaches mainly follow th",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.08539v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-06",
+            "publishedAt": "",
+            "reason": ""
+          }
+        ]
+      },
+      {
         "category": "ai-agents",
         "label": "Agent / MCP",
         "items": [
@@ -10532,6 +10518,17 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-10-07",
             "publishedAt": "2026-10-07T03:19",
+            "reason": ""
+          },
+          {
+            "title": "Agentic AutoRAG: RAG Pipeline Optimization through Reasoning-Driven Agents",
+            "summary": "Retrieval-augmented generation (RAG) is a widely used approach for grounding large language models (LLMs) in external knowledge. However, co",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.08452v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-06",
+            "publishedAt": "",
             "reason": ""
           },
           {
@@ -10604,6 +10601,17 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-10-07",
             "publishedAt": "2026-10-07T00:00",
+            "reason": ""
+          },
+          {
+            "title": "AssemState: Manual and Physical-State-Guided Reasoning for Zero-shot Furniture Assembly",
+            "summary": "Multimodal large language models (MLLMs) have made significant progress in visual understanding, but precise 3D spatial reasoning integrated",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.08446v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-06",
+            "publishedAt": "",
             "reason": ""
           },
           {
@@ -10692,17 +10700,6 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-10-06",
             "publishedAt": "2026-10-06T23:05",
-            "reason": ""
-          },
-          {
-            "title": "Best practices for Amazon SageMaker HyperPod administration and governance",
-            "summary": "Learn how to administer Amazon SageMaker HyperPod through Amazon SageMaker Unified Studio while preserving cluster governance. This post sho",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/best-practices-for-amazon-sagemaker-hyperpod-administration-and-governance/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-06",
-            "publishedAt": "2026-10-06T23:50",
             "reason": ""
           }
         ]
