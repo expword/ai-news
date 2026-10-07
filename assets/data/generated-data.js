@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-10-07",
-  "generatedAt": "2026-10-06T22:55:47.935922Z",
+  "generatedAt": "2026-10-07T00:06:04.548417Z",
   "news": [
     {
       "title": "Building a context-aware AI assistant on AgentCore and OpenClaw",
@@ -123,6 +123,33 @@ window.AI_GENERATED_DATA = {
       "sourceDate": "",
       "tags": [],
       "url": "https://engineering.fb.com/2026/10/06/production-engineering/nts-authenticated-time-at-meta/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "How Jump Trading is scaling quant research with ChatGPT",
+      "summary": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
+      "category": "ai-research",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-10-06",
+      "publishedAt": "2026-10-06T20:00",
+      "collectedAt": "2026-10-07T08:06",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/jump-trading",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -2666,34 +2693,6 @@ window.AI_GENERATED_DATA = {
       "sourceDate": "",
       "tags": [],
       "url": "https://aws.amazon.com/blogs/machine-learning/building-ambient-agents-with-amazon-bedrock-agentcore-from-event-driven-signals-to-human-in-the-loop-workflows/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "How Albertsons Companies is reimagining retail from the inside out",
-      "summary": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
-      "category": "ai-models",
-      "source": "RSS · OpenAI Blog",
-      "date": "2026-10-02",
-      "publishedAt": "2026-10-02T00:00",
-      "collectedAt": "2026-10-02T00:28",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://openai.com/index/albertsons-reimagining-retail",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -6250,6 +6249,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "Cursor iOS 应用支持远程控制本地智能体",
+        "provider": "Cursor：Changelog（网页）",
+        "type": "AI 项目/工具",
+        "bestFor": "Cursor 在 iOS 应用中上线本地智能体远程控制，用户可查看并回复电脑上正在运行的智能体。除企业组织外默认对所有用户开启，登录后账户中的电脑自动显示，在桌面应用批准配对即可使用。智能体仍在本机运行，需电脑保持开机联网，可在设置中开启防止休眠选项，企业管理员可在 Org settings 中开启此功能。",
+        "description": "Cursor 在 iOS 应用中上线本地智能体远程控制，用户可查看并回复电脑上正在运行的智能体。除企业组织外默认对所有用户开启，登录后账户中的电脑自动显示，在桌面应用批准配对即可使用。智能体仍在本机运行，需电脑保持开机联网，可在设置中开启防止休眠选项，企业管理员可在 Org settings 中开启此功能。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Cursor：Changelog（网页）",
+        "url": "https://cursor.com/changelog/remote-control-local-agents"
+      },
+      {
         "name": "Building a context-aware AI assistant on AgentCore and OpenC",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -6677,17 +6687,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:AI agent",
         "url": "https://www.fool.com/investing/2026/10/02/why-amd-stock-jumped-30-in-september/"
-      },
-      {
-        "name": "Meta, Amazon, And The Real Question About Agentic Commerce",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Recent media reports have highlighted Amazon’s decision to block Meta’s Muse AI agent from making purchases on its marketplace. Muse has quickly gained attentio",
-        "description": "Recent media reports have highlighted Amazon’s decision to block Meta’s Muse AI agent from making purchases on its marketplace. Muse has quickly gained attention for its ability to",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.forrester.com/blogs/meta-amazon-and-the-real-question-about-agentic-commerce/"
       }
     ],
     "ai-models": [
@@ -10385,8 +10384,8 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-10-07",
-    "generatedAt": "2026-10-06T22:55:47.914886Z",
-    "total": 19,
+    "generatedAt": "2026-10-07T00:06:04.518417Z",
+    "total": 20,
     "sections": [
       {
         "category": "ai-coding",
@@ -10617,6 +10616,17 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-10-07",
             "publishedAt": "2026-10-07T00:19",
+            "reason": ""
+          },
+          {
+            "title": "How Jump Trading is scaling quant research with ChatGPT",
+            "summary": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human revie",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/jump-trading",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-06",
+            "publishedAt": "2026-10-06T20:00",
             "reason": ""
           }
         ]
