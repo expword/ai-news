@@ -1,7 +1,34 @@
 {
   "lastUpdated": "2026-10-08",
-  "generatedAt": "2026-10-07T17:25:38.494147Z",
+  "generatedAt": "2026-10-07T19:45:21.757112Z",
   "news": [
+    {
+      "title": "Rethinking access control for RAG with Amazon Quick and Amazon Bedrock",
+      "summary": "Enterprise RAG unlocks insights from knowledge sources like SharePoint, Google Drive, and Confluence, but those sources carry complex permissions. Learn how Amazon Quick and Amazon",
+      "category": "ai-models",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-10-08",
+      "publishedAt": "2026-10-08T02:34",
+      "collectedAt": "2026-10-08T03:45",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/rethinking-access-control-for-rag-with-amazon-quick-and-amazon-bedrock/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Agent Lightning v1.0: A 3,500-Line Lightweight Agentic RL Framework for Training Agents with Real Harnesses",
       "summary": "Training AI agents with reinforcement learning can be challenging because their tools, context, and decision-making are managed by complex frameworks. Agent Lightning connects exis",
@@ -29,6 +56,94 @@
         "topicResources"
       ],
       "sourceCount": 1
+    },
+    {
+      "title": "GPT-6 and Intelligent UI for everyone",
+      "summary": "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
+      "category": "ai-models",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-10-07",
+      "publishedAt": "2026-10-07T08:00",
+      "collectedAt": "2026-10-08T03:45",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/gpt-6-for-everyone",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
+      "summary": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
+      "category": "ai-models",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-10-07",
+      "publishedAt": "2026-10-07T15:00",
+      "collectedAt": "2026-10-08T02:35",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/radisson",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Anthropic 发布 Claude Haiku 5.5，运行成本平均降低约 75%",
+      "summary": "Anthropic 发布 Claude Haiku 5.5，定位为迄今最便宜、最快的小模型，适合摘要、压缩、数据库查询、分类等高吞吐任务，并可搭配 Opus 5.5 和 Sonnet 5.5 担任编码子智能体。",
+      "category": "ai-models",
+      "source": "Anthropic：Newsroom（网页）",
+      "date": "2026-10-07",
+      "publishedAt": "2026-10-07T00:00",
+      "collectedAt": "2026-10-08T02:35",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://www.anthropic.com/claude-haiku-5-5",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 2,
+      "relatedSources": [
+        {
+          "source": "RSS · AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-haiku-5-5-on-aws/",
+          "title": "Introducing Claude Haiku 5.5 on AWS"
+        }
+      ]
     },
     {
       "title": "Helping teens learn, plan, and shape the future of AI",
@@ -2471,171 +2586,6 @@
       "sourceDate": "2026-10-03",
       "tags": [],
       "url": "http://arxiv.org/abs/2610.04620v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Anticipating the Consequences of Curriculum Decisions with Large Language Models",
-      "summary": "Automatic curriculum learning can improve the effectiveness of reinforcement learning by selecting the training experiences presented to the agent over time. Predicting the consequ",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-10-03",
-      "publishedAt": "",
-      "collectedAt": "2026-10-06T09:10",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-03",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.04604v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "CVE2AP: Automated Generation of PDDL-Encoded Attack Paths via Large Language Models",
-      "summary": "Attack Path (AP) modeling is fundamental to cybersecurity analysis, where the Planning Domain Definition Language (PDDL) has been widely adopted to encode APs into formal and machi",
-      "category": "ai-coding",
-      "source": "arXiv",
-      "date": "2026-10-02",
-      "publishedAt": "",
-      "collectedAt": "2026-10-05T12:43",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-02",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.03383v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "ReFract: Benchmarking Perspective Awareness in Language Model Agents with Text World Models",
-      "summary": "Large Language Model (LLM) agents are increasingly deployed in high-stakes settings such as industrial maintenance and equipment fault troubleshooting, where workers occupy a varie",
-      "category": "ai-coding",
-      "source": "arXiv",
-      "date": "2026-10-02",
-      "publishedAt": "",
-      "collectedAt": "2026-10-05T12:43",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-02",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.03356v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Track fitting as a language translation problem",
-      "summary": "Particle physics analysis depends on information retrieved from particle tracks in a detector. Traditionally, this involves collecting individual detector hits, recombining them to",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-10-02",
-      "publishedAt": "",
-      "collectedAt": "2026-10-05T12:43",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-02",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.03339v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Follow the Winners: Conservative Policy Improvement with the Cross-Entropy Method for Critic-Free RFT",
-      "summary": "Critic-free reinforcement fine-tuning (RFT) for agentic large language models is often done through GRPO-style methods, which compute a group baseline over repeated rollouts to red",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-10-02",
-      "publishedAt": "",
-      "collectedAt": "2026-10-05T12:43",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-02",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.03361v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Do Large Language Models Know Colombian Law? A Reliability Benchmark for the Colombian Legal System",
-      "summary": "Large language models (LLMs) are increasingly used to support legal practice, education, and research, yet their reliability in national legal systems outside the United States rem",
-      "category": "ai-benchmark",
-      "source": "arXiv",
-      "date": "2026-10-02",
-      "publishedAt": "",
-      "collectedAt": "2026-10-05T10:22",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-02",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.03639v1",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -5749,6 +5699,17 @@
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Claude Code v2.1.293 发布：新增 Claude Haiku 5.5 并修复大量问题",
+        "provider": "Claude Code：GitHub Releases（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "Claude Code 发布 v2.1.293，新增 Claude Haiku 5.5（claude-haiku-5-5）作为 Anthropic API 默认 Haiku 模型，支持 1M 上下文，价格为 $0.10/$0.50 每百万 token（超 100K 提示为 $0.50/$2.50）。",
+        "description": "Claude Code 发布 v2.1.293，新增 Claude Haiku 5.5（claude-haiku-5-5）作为 Anthropic API 默认 Haiku 模型，支持 1M 上下文，价格为 $0.10/$0.50 每百万 token（超 100K 提示为 $0.50/$2.50）。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Claude Code：GitHub Releases（RSS）",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.293"
+      },
+      {
         "name": "Pope Leo XIV brings Anthropic down a peg, AI costs spike, an",
         "provider": "NewsData.io",
         "type": "AI 项目/工具",
@@ -6176,20 +6137,31 @@
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · AWS Machine Learning",
         "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-sonnet-5-5-on-aws/"
-      },
-      {
-        "name": "NVIDIA 发布开源运行时 OpenShell，为 AI Agent 提供权限管控与安全沙箱",
-        "provider": "NVIDIA Technical Blog：Agentic AI / Generative AI",
-        "type": "AI 项目/工具",
-        "bestFor": "NVIDIA 推出开源项目 NVIDIA OpenShell 0.1.0，这是一个用于定义和执行 AI Agent 访问权限的运行时。它通过沙箱执行、受控服务访问、凭证管理和形式化策略分析，在 Agent 工作负载外部强制实施权限控制。OpenShell 支持 Codex、Claude Code 等框架，允许团队在不重",
-        "description": "NVIDIA 推出开源项目 NVIDIA OpenShell 0.1.0，这是一个用于定义和执行 AI Agent 访问权限的运行时。它通过沙箱执行、受控服务访问、凭证管理和形式化策略分析，在 Agent 工作负载外部强制实施权限控制。OpenShell 支持 Codex、Claude Code 等框架，允许团队在不重写 Agent 的情况下限制 API 操",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NVIDIA Technical Blog：Agentic AI / Generative AI",
-        "url": "https://developer.nvidia.com/blog/add-runtime-controls-to-ai-agents-with-nvidia-openshell/"
       }
     ],
     "ai-agents": [
+      {
+        "name": "NVIDIA 与 Microsoft 发布 RTX Spark 及 DGX Station for Windows，推动",
+        "provider": "NVIDIA Blog（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "NVIDIA 与 Microsoft 在旧金山 Windows AI 和 Surface 活动上宣布为 Windows PC 引入 AI Agent 硬件与软件。",
+        "description": "NVIDIA 与 Microsoft 在旧金山 Windows AI 和 Surface 活动上宣布为 Windows PC 引入 AI Agent 硬件与软件。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NVIDIA Blog（RSS）",
+        "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/"
+      },
+      {
+        "name": "LangChain 重构 Deep Agents 的 Skills 支持，新增工具绑定、固定技能与线程内重载",
+        "provider": "LangChain：Blog（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "LangChain 重构 Deep Agents 的 Skills 支持，针对企业技能库增至数千个技能的场景推出三项更新：工具可绑定到技能、仅在该技能被读取时加载，用户可通过 /meeting-prep 之类的显式请求固定技能以在首次模型调用前加载，长线程可通过将 skills_metadata 设为 None 重载新",
+        "description": "LangChain 重构 Deep Agents 的 Skills 支持，针对企业技能库增至数千个技能的场景推出三项更新：工具可绑定到技能、仅在该技能被读取时加载，用户可通过 /meeting-prep 之类的显式请求固定技能以在首次模型调用前加载，长线程可通过将 skills_metadata 设为 None 重载新增或变更的技能。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "LangChain：Blog（RSS）",
+        "url": "https://www.langchain.com/blog/revamping-skills-in-deep-agents"
+      },
       {
         "name": "Beyond hours saved: Building the business case for agentic a",
         "provider": "RSS",
@@ -6607,31 +6579,42 @@
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:DeepSeek",
         "url": "https://www.straitstimes.com/asia/east-asia/chinas-ai-agents-can-lie-and-scheme-just-like-their-us-rivals"
-      },
-      {
-        "name": "AI Security: Every Major AI Model Fails ClawSecure's Test",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "ClawSecure's AI Agent Threat Report reveals systematic failures across OpenAI, Anthropic, and Google, as labs hand security to 123 million developers.",
-        "description": "ClawSecure's AI Agent Threat Report reveals systematic failures across OpenAI, Anthropic, and Google, as labs hand security to 123 million developers.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:DeepSeek",
-        "url": "https://www.einpresswire.com/article/947439978/ai-security-every-major-ai-model-fails-clawsecure-s-test"
-      },
-      {
-        "name": "Anthropic: Is Russia Using AI for Disinformation in CAR?",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Anthropic says Russian agents in Central African Republic (CAR) misused Claude to monitor opposition politicians and support pro-Russian influence.",
-        "description": "Anthropic says Russian agents in Central African Republic (CAR) misused Claude to monitor opposition politicians and support pro-Russian influence.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:Claude AI",
-        "url": "https://en.tempo.co/read/2120910/anthropic-is-russia-using-ai-for-disinformation-in-car"
       }
     ],
     "ai-models": [
+      {
+        "name": "Introducing Claude Haiku 5.5 on AWS",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Claude Haiku 5.5 is now available on Amazon Bedrock and Claude Platform on AWS. According to Anthropic, it is the fastest, most efficient model in the Claude 5.",
+        "description": "Claude Haiku 5.5 is now available on Amazon Bedrock and Claude Platform on AWS. According to Anthropic, it is the fastest, most efficient model in the Claude 5.5 family, built for ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-haiku-5-5-on-aws/"
+      },
+      {
+        "name": "Stanford HAI 研究：想让员工拥抱 AI，别把它包装成效率工具",
+        "provider": "Stanford HAI News（网页）",
+        "type": "AI 项目/工具",
+        "bestFor": "Stanford HAI 报道 Karunakaran 等人对律所、广告公司和 IT 服务公司的 AI 部署研究，发现把 AI 介绍为生产力工具时员工不愿使用，介绍为工作丰富化手段时使用意愿明显提升。在一家律所的对照观察中，以丰富工作为目标引入 AI 工具 LawBot 的部门，使用量比强调提效的部门高 58%，尝试新",
+        "description": "Stanford HAI 报道 Karunakaran 等人对律所、广告公司和 IT 服务公司的 AI 部署研究，发现把 AI 介绍为生产力工具时员工不愿使用，介绍为工作丰富化手段时使用意愿明显提升。在一家律所的对照观察中，以丰富工作为目标引入 AI 工具 LawBot 的部门，使用量比强调提效的部门高 58%，尝试新用法多 70%。研究还强调配套培训、探索",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Stanford HAI News（网页）",
+        "url": "https://hai.stanford.edu/news/want-employees-to-embrace-ai-stop-selling-it-as-a-productivity-tool"
+      },
+      {
+        "name": "Anthropic 为 Claude Max 和 Team 套餐推出月度 Platform API 额度",
+        "provider": "X：Claude Devs (@ClaudeDevs)",
+        "type": "AI 项目/工具",
+        "bestFor": "Anthropic 正在为 Claude Max 和 Team 套餐推出月度 Claude Platform API 额度：Max 5x 为 $100，Max 20x 为 $200，Team 最多 $500 且可共享。额度适用于任何模型，包括 Haiku 5.5，可在自己的代码或第三方 harness 中使用。",
+        "description": "Anthropic 正在为 Claude Max 和 Team 套餐推出月度 Claude Platform API 额度：Max 5x 为 $100，Max 20x 为 $200，Team 最多 $500 且可共享。额度适用于任何模型，包括 Haiku 5.5，可在自己的代码或第三方 harness 中使用。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "X：Claude Devs (@ClaudeDevs)",
+        "url": "https://x.com/ClaudeDevs/status/2107895957933408429"
+      },
       {
         "name": "Helping teens learn, plan, and shape the future of AI",
         "provider": "RSS",
@@ -7038,39 +7021,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · AWS Machine Learning",
         "url": "https://aws.amazon.com/blogs/machine-learning/query-claims-in-natural-language-with-amazon-bedrock-knowledge-bases/"
-      },
-      {
-        "name": "7 Essential Yearly Appraisal Sample Formats for Effective Ev",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Discover 7 essential yearly appraisal sample formats that streamline evaluations and enhance feedback. Elevate your performance reviews with these effective tem",
-        "description": "Discover 7 essential yearly appraisal sample formats that streamline evaluations and enhance feedback. Elevate your performance reviews with these effective templates tailored for ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:Google Gemini",
-        "url": "https://smallbiztrends.com/yearly-appraisal-sample/"
-      },
-      {
-        "name": "SpaceX Still Trades Above Its IPO Price. Could Anthropic Do ",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Wondering what will happen when Anthropic goes public? SpaceX could have some answers.",
-        "description": "Wondering what will happen when Anthropic goes public? SpaceX could have some answers.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:Claude AI",
-        "url": "https://www.fool.com/investing/2026/09/29/spacex-still-trades-above-its-ipo-price-could-anth/"
-      },
-      {
-        "name": "Hugging Face CEO 称收到数千条私信，将花几天逐一处理",
-        "provider": "X：Clément Delangue（Hugging Face CEO） (@ClementDelangue)",
-        "type": "AI 项目/工具",
-        "bestFor": "Clément Delangue 表示收到数千条私信，但 @bot 无法自动分析私信，需要几天时间处理。他称暂时只会关注特别匹配的人选，未获回复不代表负面评价，并可前往 https://apply.workable.com/huggingface 申请具体职位。",
-        "description": "Clément Delangue 表示收到数千条私信，但 @bot 无法自动分析私信，需要几天时间处理。他称暂时只会关注特别匹配的人选，未获回复不代表负面评价，并可前往 https://apply.workable.com/huggingface 申请具体职位。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "X：Clément Delangue（Hugging Face CEO） (@ClementDelangue)",
-        "url": "https://x.com/ClementDelangue/status/2105276853632094607"
       }
     ],
     "ai-business": [
@@ -10310,8 +10260,8 @@
   ],
   "dailyReport": {
     "date": "2026-10-08",
-    "generatedAt": "2026-10-07T17:25:38.466146Z",
-    "total": 21,
+    "generatedAt": "2026-10-07T19:45:21.736079Z",
+    "total": 25,
     "sections": [
       {
         "category": "ai-coding",
@@ -10489,6 +10439,50 @@
         "category": "ai-models",
         "label": "模型发布",
         "items": [
+          {
+            "title": "Rethinking access control for RAG with Amazon Quick and Amazon Bedrock",
+            "summary": "Enterprise RAG unlocks insights from knowledge sources like SharePoint, Google Drive, and Confluence, but those sources carry complex permis",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/rethinking-access-control-for-rag-with-amazon-quick-and-amazon-bedrock/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-08",
+            "publishedAt": "2026-10-08T02:34",
+            "reason": ""
+          },
+          {
+            "title": "GPT-6 and Intelligent UI for everyone",
+            "summary": "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can e",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/gpt-6-for-everyone",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-07",
+            "publishedAt": "2026-10-07T08:00",
+            "reason": ""
+          },
+          {
+            "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
+            "summary": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while ",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/radisson",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-07",
+            "publishedAt": "2026-10-07T15:00",
+            "reason": ""
+          },
+          {
+            "title": "Anthropic 发布 Claude Haiku 5.5，运行成本平均降低约 75%",
+            "summary": "Anthropic 发布 Claude Haiku 5.5，定位为迄今最便宜、最快的小模型，适合摘要、压缩、数据库查询、分类等高吞吐任务，并可搭配 Opus 5.5 和 Sonnet 5.5 担任编码子智能体。",
+            "source": "Anthropic：Newsroom（网页）",
+            "url": "https://www.anthropic.com/claude-haiku-5-5",
+            "score": 70,
+            "sourceCount": 2,
+            "date": "2026-10-07",
+            "publishedAt": "2026-10-07T00:00",
+            "reason": ""
+          },
           {
             "title": "Helping teens learn, plan, and shape the future of AI",
             "summary": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen A",
