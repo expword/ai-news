@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-10-08",
-  "generatedAt": "2026-10-08T05:30:06.868823Z",
+  "generatedAt": "2026-10-08T11:52:17.023487Z",
   "news": [
     {
       "title": "Does better work always mean better workers?",
@@ -5831,6 +5831,17 @@ window.AI_GENERATED_DATA = {
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Crowdstrike 报告疑似单人使用 AI 渗透工具攻击多家韩国银行",
+        "provider": "The Decoder：AI News（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "Crowdstrike 报告称，一名疑似中文使用者于2026年9月底至10月初利用 AI 驱动的开源渗透测试工具 ARTEX 攻击多家韩国金融机构，窃取大量数据，其中 Shinhan Bank 超过 25,000 条包含姓名、联系方式、收入和信用额度的记录泄露。",
+        "description": "Crowdstrike 报告称，一名疑似中文使用者于2026年9月底至10月初利用 AI 驱动的开源渗透测试工具 ARTEX 攻击多家韩国金融机构，窃取大量数据，其中 Shinhan Bank 超过 25,000 条包含姓名、联系方式、收入和信用额度的记录泄露。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Decoder：AI News（RSS）",
+        "url": "https://the-decoder.com/ai-powered-hacking-tools-enabled-a-likely-single-attacker-to-breach-multiple-south-korean-banks/"
+      },
+      {
         "name": "Claude Code v2.1.293 发布：新增 Claude Haiku 5.5 并修复大量问题",
         "provider": "Claude Code：GitHub Releases（RSS）",
         "type": "AI 项目/工具",
@@ -6258,17 +6269,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "GitHub Blog",
         "url": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/"
-      },
-      {
-        "name": "Introducing Claude Sonnet 5.5 on AWS",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Claude Sonnet 5.5 is now available on Amazon Bedrock and Claude Platform on AWS. It's a smarter, more efficient Sonnet model for focused coding and knowledge wo",
-        "description": "Claude Sonnet 5.5 is now available on Amazon Bedrock and Claude Platform on AWS. It's a smarter, more efficient Sonnet model for focused coding and knowledge work, with a lower cos",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-sonnet-5-5-on-aws/"
       }
     ],
     "ai-agents": [
@@ -10392,7 +10392,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-10-08",
-    "generatedAt": "2026-10-08T05:30:06.848823Z",
+    "generatedAt": "2026-10-08T11:52:17.001487Z",
     "total": 38,
     "sections": [
       {
