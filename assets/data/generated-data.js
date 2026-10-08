@@ -1,7 +1,62 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-10-09",
-  "generatedAt": "2026-10-08T17:03:19.415531Z",
+  "generatedAt": "2026-10-08T19:25:14.655866Z",
   "news": [
+    {
+      "title": "Pay-per-inference for AI agents: How BlockRun and Incarna use Amazon Bedrock AgentCore payments",
+      "summary": "Amazon Bedrock AgentCore payments gives AI agents a managed way to pay for services on demand, with spending limits enforced by the infrastructure. See how Incarna's agents pay Blo",
+      "category": "ai-agents",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-10-09",
+      "publishedAt": "2026-10-09T02:33",
+      "collectedAt": "2026-10-09T03:25",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/pay-per-inference-for-ai-agents-how-blockrun-and-incarna-use-amazon-bedrock-agentcore-payments/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+      "summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
+      "category": "ai-coding",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-10-09",
+      "publishedAt": "2026-10-09T00:00",
+      "collectedAt": "2026-10-09T02:13",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/oracle",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Share GPU clusters across teams with isolation and fairness using Amazon SageMaker HyperPod",
       "summary": "A reference architecture for securely sharing one Amazon SageMaker HyperPod EKS cluster across multiple teams, using AWS IAM Identity Center for authentication, per-team SageMaker ",
@@ -14,6 +69,60 @@ window.AI_GENERATED_DATA = {
       "sourceDate": "",
       "tags": [],
       "url": "https://aws.amazon.com/blogs/machine-learning/share-gpu-clusters-across-teams-with-isolation-and-fairness-using-amazon-sagemaker-hyperpod/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
+      "summary": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
+      "category": "ai-image-video",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-10-08",
+      "publishedAt": "2026-10-08T20:00",
+      "collectedAt": "2026-10-09T02:13",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/pollo-ai",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Anthropic 发布 2026 年使用政策更新，11 月 12 日生效",
+      "summary": "Anthropic 发布新版使用政策，将于 11 月 12 日生效，多数变化是对既有规则的澄清。更新包括新设禁止欺骗性活动章节、收窄选举条款、明确武器软件与无人机武装禁令、更精确的监控与执法限制、补充高风险用例及自主物理操作的 human in the loop 要求，并新增禁止对模型的持续无端虐待行为。",
+      "category": "ai-models",
+      "source": "Anthropic：Newsroom（网页）",
+      "date": "2026-10-08",
+      "publishedAt": "2026-10-08T00:00",
+      "collectedAt": "2026-10-09T02:13",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://www.anthropic.com/news/2026-usage-policy-update",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -2046,7 +2155,14 @@ window.AI_GENERATED_DATA = {
       "moduleTargets": [
         "news"
       ],
-      "sourceCount": 1
+      "sourceCount": 2,
+      "relatedSources": [
+        {
+          "source": "HTML · Anthropic",
+          "url": "https://www.anthropic.com/news/anthropic-cyber-mission",
+          "title": "Oct 8, 2026 Announcements Introducing the Anthropic Cyber Mission"
+        }
+      ]
     },
     {
       "title": "Responsible AI governance: How AWS positions customers to align with ISO/IEC 42005:2025",
@@ -2499,88 +2615,6 @@ window.AI_GENERATED_DATA = {
       "sourceDate": "2026-10-05",
       "tags": [],
       "url": "http://arxiv.org/abs/2610.06729v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "MedPrune: Topology-Efficient Multimodal Multi-Agent Communication Evolution for Medical VQA Tasks",
-      "summary": "While medical multimodal large language models (Med-MLLMs) advance medical visual question answering (VQA), existing clinical workflow-inspired multi-agent frameworks suffer from i",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-10-05",
-      "publishedAt": "",
-      "collectedAt": "2026-10-06T11:32",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-05",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.06695v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Reading the Mood: Emotion-Guided Book-to-Music Recommendation via CGANs and LLMs",
-      "summary": "Background music that matches the mood of a text has been shown to make readers feel more immersed and improve their reading experience, motivating recommender systems that pair bo",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-10-05",
-      "publishedAt": "",
-      "collectedAt": "2026-10-06T11:32",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-05",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.06703v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Learning to Read the Contextual Tokens in Diffusion Transformers",
-      "summary": "Multimodal Diffusion Transformers (MM-DiTs) jointly process visual and textual representations throughout generation. These models repeatedly update the text tokens through multimo",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-10-05",
-      "publishedAt": "",
-      "collectedAt": "2026-10-06T11:32",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-05",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.06844v1",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -6136,6 +6170,39 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "NVIDIA KGMON 团队分享 KDD Cup 2026 数据分析智能体的构建经验",
+        "provider": "NVIDIA Technical Blog：Agentic AI / Generative AI",
+        "type": "AI 项目/工具",
+        "bestFor": "NVIDIA KGMON 团队在 KDD Cup 2026 Data Agents 竞赛获得第二名，并发布构建可靠数据分析智能体的方法复盘。",
+        "description": "NVIDIA KGMON 团队在 KDD Cup 2026 Data Agents 竞赛获得第二名，并发布构建可靠数据分析智能体的方法复盘。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NVIDIA Technical Blog：Agentic AI / Generative AI",
+        "url": "https://developer.nvidia.com/blog/building-reliable-data-analytics-agents-lessons-from-the-kdd-cup/"
+      },
+      {
+        "name": "Pay-per-inference for AI agents: How BlockRun and Incarna us",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Amazon Bedrock AgentCore payments gives AI agents a managed way to pay for services on demand, with spending limits enforced by the infrastructure. See how Inca",
+        "description": "Amazon Bedrock AgentCore payments gives AI agents a managed way to pay for services on demand, with spending limits enforced by the infrastructure. See how Incarna's agents pay Blo",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/pay-per-inference-for-ai-agents-how-blockrun-and-incarna-use-amazon-bedrock-agentcore-payments/"
+      },
+      {
+        "name": "Google 开源 AQuA 环境质量智能体，自动诊断生产环境中的 Agent 故障",
+        "provider": "Google Developers Blog（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "Google 发布并开源 AQuA（Ambient Quality Agent），在 Google Cloud 项目中定时从 Cloud Trace、Cloud Logging 或 BigQuery 抽取生产会话，经抽样、评审、聚类、验证、跟踪五阶段流水线诊断 Agent 失败。",
+        "description": "Google 发布并开源 AQuA（Ambient Quality Agent），在 Google Cloud 项目中定时从 Cloud Trace、Cloud Logging 或 BigQuery 抽取生产会话，经抽样、评审、聚类、验证、跟踪五阶段流水线诊断 Agent 失败。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Google Developers Blog（RSS）",
+        "url": "https://developers.googleblog.com/the-outer-loop-insights-first-an-ambient-quality-agent-that-diagnoses-your-production-agent/"
+      },
+      {
         "name": "LangChain 用 Stripe Link 和 Managed Deep Agents 构建可支付的智能体 Rest",
         "provider": "LangChain：Blog（RSS）",
         "type": "AI 项目/工具",
@@ -6541,39 +6608,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · AWS Machine Learning",
         "url": "https://aws.amazon.com/blogs/machine-learning/build-a-voice-travel-concierge-with-amazon-bedrock-agentcore-managed-knowledge-base-and-nova-sonic/"
-      },
-      {
-        "name": "Vercel COO 讲解如何用 Agent 自动化 Inbound 销售",
-        "provider": "Tomer Tunguz 博客（VC 分析）",
-        "type": "AI 项目/工具",
-        "bestFor": "Vercel COO Jeanne DeWitt Grosser 在 Tom Tunguz 的 Office Hours 节目中讲解团队如何搭建运行销售漏斗顶端的 Agent。",
-        "description": "Vercel COO Jeanne DeWitt Grosser 在 Tom Tunguz 的 Office Hours 节目中讲解团队如何搭建运行销售漏斗顶端的 Agent。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Tomer Tunguz 博客（VC 分析）",
-        "url": "https://tomtunguz.com/how-to-automate-inbound/"
-      },
-      {
-        "name": "MedPrune: Topology-Efficient Multimodal Multi-Agent Communic",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "While medical multimodal large language models (Med-MLLMs) advance medical visual question answering (VQA), existing clinical workflow-inspired multi-agent fram",
-        "description": "While medical multimodal large language models (Med-MLLMs) advance medical visual question answering (VQA), existing clinical workflow-inspired multi-agent frameworks suffer from i",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2610.06695v1"
-      },
-      {
-        "name": "Back to the Future: Rethinking EDA Infrastructure for Agenti",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "The unprecedented computational scale of modern artificial intelligence depends on complex, multi-billion-transistor Systems-on-Chip, yet the workflows that ver",
-        "description": "The unprecedented computational scale of modern artificial intelligence depends on complex, multi-billion-transistor Systems-on-Chip, yet the workflows that verify these chips rema",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2610.06790v1"
       }
     ],
     "ai-models": [
@@ -10255,13 +10289,24 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-10-09",
-    "generatedAt": "2026-10-08T17:03:19.395531Z",
-    "total": 23,
+    "generatedAt": "2026-10-08T19:25:14.635828Z",
+    "total": 10,
     "sections": [
       {
         "category": "ai-coding",
         "label": "AI 编程",
         "items": [
+          {
+            "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+            "summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Code",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/oracle",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-09",
+            "publishedAt": "2026-10-09T00:00",
+            "reason": ""
+          },
           {
             "title": "Anthropic 用 Claude Managed Agents 构建定时智能体自动化的实践指南",
             "summary": "Anthropic 发布基于 Claude Managed Agents（beta）的每日简报参考实现，按计划读取 Slack 和 GitHub 来源并向 Slack 发布简报。",
@@ -10272,50 +10317,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-10-08",
             "publishedAt": "2026-10-08T20:00",
             "reason": ""
-          },
-          {
-            "title": "Fault-tolerant foundation models",
-            "summary": "Emerging computer hardware often trades reliability for energy efficiency; here we show that large-language models (LLMs) can be trained to ",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.10311v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-07",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Training Parallel Speculative Draft Models by Directly Minimizing Expected Decoding Rounds",
-            "summary": "Speculative decoding accelerates large language model inference by using a low-cost draft model to propose tokens that the full-size target ",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.10411v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-07",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "TaoD2C-Bench: Benchmarking MLLMs for Industrial UI Code Generation Beyond Visual Fidelity",
-            "summary": "A key challenge for multimodal large language models (MLLMs) is moving beyond visual recognition to constraint-aware cross-modal reasoning. ",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.10374v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-07",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Constrained-Action AI Remediation for SIEM/XDR via a NeMo-Guardrails Proxy",
-            "summary": "Security Operations Centers (SOCs) for information technology and operational technology share one incident-response problem: a flood of cor",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.09906v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-07",
-            "publishedAt": "",
-            "reason": ""
           }
         ]
       },
@@ -10324,14 +10325,14 @@ window.AI_GENERATED_DATA = {
         "label": "图像视频",
         "items": [
           {
-            "title": "Self-correction Optimization for Interleaved Multimodal Generation",
-            "summary": "Multimodal large language models (MLLMs) have made significant progress in visual understanding and generation. However, generating interlea",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.10400v1",
+            "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
+            "summary": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/pollo-ai",
             "score": 70,
             "sourceCount": 1,
-            "date": "2026-10-07",
-            "publishedAt": "",
+            "date": "2026-10-08",
+            "publishedAt": "2026-10-08T20:00",
             "reason": ""
           }
         ]
@@ -10341,6 +10342,17 @@ window.AI_GENERATED_DATA = {
         "label": "Agent / MCP",
         "items": [
           {
+            "title": "Pay-per-inference for AI agents: How BlockRun and Incarna use Amazon Bedrock AgentCore payments",
+            "summary": "Amazon Bedrock AgentCore payments gives AI agents a managed way to pay for services on demand, with spending limits enforced by the infrastr",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/pay-per-inference-for-ai-agents-how-blockrun-and-incarna-use-amazon-bedrock-agentcore-payments/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-09",
+            "publishedAt": "2026-10-09T02:33",
+            "reason": ""
+          },
+          {
             "title": "Agent Lightning v1.0: A 3,500-Line Lightweight Agentic RL Framework for Training Agents with Real Harnesses",
             "summary": "Training AI agents with reinforcement learning can be challenging because their tools, context, and decision-making are managed by complex f",
             "source": "RSS · Microsoft Research",
@@ -10349,39 +10361,6 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-10-08",
             "publishedAt": "2026-10-08T00:00",
-            "reason": ""
-          },
-          {
-            "title": "LLM-Assisted Generation of Transparent, Open-Source Multiphysics Models of Electrochemical Devices",
-            "summary": "Multiphysics continuum models are powerful tools for studying electrochemical devices, enabling in silico reactor design and resolution of l",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.10320v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-07",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "LOCAA: An Agentic System for Automated Lossy Compressor Tuning",
-            "summary": "Large-scale scientific simulations generate substantial data volumes, making lossy compression essential for reducing storage and data movem",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.10487v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-07",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "RECAST: Learning to Compute the Right Context through Adaptive Evidence Routing",
-            "summary": "Large language models are increasingly applied to tasks grounded in long, heterogeneous information sources. Conventional Retrieval-Augmente",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.10507v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-07",
-            "publishedAt": "",
             "reason": ""
           }
         ]
@@ -10399,6 +10378,17 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-10-09",
             "publishedAt": "2026-10-09T00:20",
+            "reason": ""
+          },
+          {
+            "title": "Anthropic 发布 2026 年使用政策更新，11 月 12 日生效",
+            "summary": "Anthropic 发布新版使用政策，将于 11 月 12 日生效，多数变化是对既有规则的澄清。更新包括新设禁止欺骗性活动章节、收窄选举条款、明确武器软件与无人机武装禁令、更精确的监控与执法限制、补充高风险用例及自主物理操作的 human in the loop 要求，并新增禁止",
+            "source": "Anthropic：Newsroom（网页）",
+            "url": "https://www.anthropic.com/news/2026-usage-policy-update",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-08",
+            "publishedAt": "2026-10-08T00:00",
             "reason": ""
           },
           {
@@ -10432,111 +10422,6 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-10-08",
             "publishedAt": "2026-10-08T02:34",
-            "reason": ""
-          },
-          {
-            "title": "Introducing Falcon ASR",
-            "summary": "",
-            "source": "RSS · Hugging Face Blog",
-            "url": "https://huggingface.co/blog/tiiuae/falcon-asr",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-07",
-            "publishedAt": "2026-10-07T21:21",
-            "reason": ""
-          },
-          {
-            "title": "SLDR: Defending Against Malicious Fine-tuning via Selective Layers Recovery and Dynamic Routing",
-            "summary": "Fine-tuning-as-a-service enables users to adapt aligned large language models (LLMs) to specialized tasks, but malicious fine-tuning can ero",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.10345v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-07",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Nobody Truly Agrees on Sentiment: Humans, Bespoke Tools, and LLMs Struggle with Social Media Texts",
-            "summary": "Social media is a rich source of real-time public sentiment, but widely used sentiment analysis tools are often applied without understandin",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.10318v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-07",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Open-MMUnlearning: Unifying Methods and Evaluation for MLLM Unlearning",
-            "summary": "As multimodal large language models (MLLMs) become more capable and widely deployed, concerns about privacy and safety have become increasin",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.10358v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-07",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Rephrase Before You Act: Characterizing and Mitigating Language Sensitivity in Vision-Language-Action Models",
-            "summary": "Vision-language-action models (VLAs) are strikingly sensitive to instruction phrasing and do not inherit the language robustness of the visi",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.10526v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-07",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "EngramEdit: Decoupled Knowledge Updates in LLMs through Conditional Memory",
-            "summary": "Conditional memory architectures such as DeepSeek Engram use input n-grams to look up learned embeddings, expanding the capacity of large la",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.10533v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-07",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Reasoning-Token Spikes Under Prompted Untruthful Responding in Large Language Models",
-            "summary": "Monitoring the chain-of-thought of reasoning artificial intelligence (AI) models remains a key approach to detecting deception and other for",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.10405v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-07",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "A Deafening Silence: Catastrophic Forgetting Lives in the Output Embeddings of Tokens the Data Never Speaks",
-            "summary": "Continual pre-training and fine-tuning in Large Language Models (LLMs) inevitably induce catastrophic forgetting, typically mitigated by rep",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.09835v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-07",
-            "publishedAt": "",
-            "reason": ""
-          }
-        ]
-      },
-      {
-        "category": "ai-benchmark",
-        "label": "评测榜单",
-        "items": [
-          {
-            "title": "PHRBench: A Behavioral Evaluation of Post-Hallucination Reasoning in LLMs",
-            "summary": "Hallucinated information can propagate through multi-stage LLM systems and become part of the context for subsequent reasoning. Existing stu",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.10455v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-07",
-            "publishedAt": "",
             "reason": ""
           }
         ]
