@@ -1,7 +1,89 @@
 window.AI_GENERATED_DATA = {
-  "lastUpdated": "2026-10-08",
-  "generatedAt": "2026-10-08T14:30:16.825505Z",
+  "lastUpdated": "2026-10-09",
+  "generatedAt": "2026-10-08T17:03:19.415531Z",
   "news": [
+    {
+      "title": "Share GPU clusters across teams with isolation and fairness using Amazon SageMaker HyperPod",
+      "summary": "A reference architecture for securely sharing one Amazon SageMaker HyperPod EKS cluster across multiple teams, using AWS IAM Identity Center for authentication, per-team SageMaker ",
+      "category": "ai-models",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-10-09",
+      "publishedAt": "2026-10-09T00:20",
+      "collectedAt": "2026-10-09T01:03",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/share-gpu-clusters-across-teams-with-isolation-and-fairness-using-amazon-sagemaker-hyperpod/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Anthropic 用 Claude Managed Agents 构建定时智能体自动化的实践指南",
+      "summary": "Anthropic 发布基于 Claude Managed Agents（beta）的每日简报参考实现，按计划读取 Slack 和 GitHub 来源并向 Slack 发布简报。",
+      "category": "ai-coding",
+      "source": "Anthropic：Claude.dev 开发者博客（RSS）",
+      "date": "2026-10-08",
+      "publishedAt": "2026-10-08T20:00",
+      "collectedAt": "2026-10-09T01:03",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://claude.dev/blog/building-effective-agent-automations/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Oct 8, 2026 Announcements Building on our commitment to American scientific discovery",
+      "summary": "Oct 8, 2026 Announcements Building on our commitment to American scientific discovery",
+      "category": "ai-models",
+      "source": "HTML · Anthropic",
+      "date": "2026-10-08",
+      "publishedAt": "",
+      "collectedAt": "2026-10-09T01:03",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-08",
+      "tags": [],
+      "url": "https://www.anthropic.com/news/genesis-mission-commitment",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Does better work always mean better workers?",
       "summary": "",
@@ -81,6 +163,33 @@ window.AI_GENERATED_DATA = {
       "moduleTargets": [
         "news",
         "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Introducing Falcon ASR",
+      "summary": "",
+      "category": "ai-models",
+      "source": "RSS · Hugging Face Blog",
+      "date": "2026-10-07",
+      "publishedAt": "2026-10-07T21:21",
+      "collectedAt": "2026-10-09T01:03",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://huggingface.co/blog/tiiuae/falcon-asr",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
       ],
       "sourceCount": 1
     },
@@ -5585,6 +5694,17 @@ window.AI_GENERATED_DATA = {
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Anthropic 用 Claude Managed Agents 构建定时智能体自动化的实践指南",
+        "provider": "Anthropic：Claude.dev 开发者博客（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "Anthropic 发布基于 Claude Managed Agents（beta）的每日简报参考实现，按计划读取 Slack 和 GitHub 来源并向 Slack 发布简报。",
+        "description": "Anthropic 发布基于 Claude Managed Agents（beta）的每日简报参考实现，按计划读取 Slack 和 GitHub 来源并向 Slack 发布简报。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Anthropic：Claude.dev 开发者博客（RSS）",
+        "url": "https://claude.dev/blog/building-effective-agent-automations/"
+      },
+      {
         "name": "Zenity 研究人员发现一条提示词即可劫持 AWS 账户内全部 AgentCore 智能体",
         "provider": "The Decoder：AI News（RSS）",
         "type": "AI 项目/工具",
@@ -6012,20 +6132,53 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2609.33918v1"
-      },
-      {
-        "name": "Grok 4.7 is now available on Amazon Bedrock",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "xAI's Grok 4.7 is now available on Amazon Bedrock: a frontier model for coding, long-running agents, and knowledge work. It offers a 500K token context window a",
-        "description": "xAI's Grok 4.7 is now available on Amazon Bedrock: a frontier model for coding, long-running agents, and knowledge work. It offers a 500K token context window and four configurable",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/grok-4-7-is-now-available-on-amazon-bedrock/"
       }
     ],
     "ai-agents": [
+      {
+        "name": "LangChain 用 Stripe Link 和 Managed Deep Agents 构建可支付的智能体 Rest",
+        "provider": "LangChain：Blog（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "LangChain 发布示例项目 Restock，一个在 Slack 上通过 Managed Deep Agents 运行的办公用品购买智能体，演示智能体如何安全完成支付。",
+        "description": "LangChain 发布示例项目 Restock，一个在 Slack 上通过 Managed Deep Agents 运行的办公用品购买智能体，演示智能体如何安全完成支付。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "LangChain：Blog（RSS）",
+        "url": "https://www.langchain.com/blog/agents-that-can-pay-with-stripe-link"
+      },
+      {
+        "name": "Tessl 工程博客：AI 不是笨，是瞎——企业级 Agent 记忆的三个关键设计决策",
+        "provider": "Tessl：产品与工程博客",
+        "type": "AI 项目/工具",
+        "bestFor": "作者基于为跨公司工作的 Agent 构建记忆系统一年的经验指出，AI 失败的常见原因不是模型推理差，而是它看不到关键决策上下文，多数 agent memory 只是给瞎子更大的档案柜。",
+        "description": "作者基于为跨公司工作的 Agent 构建记忆系统一年的经验指出，AI 失败的常见原因不是模型推理差，而是它看不到关键决策上下文，多数 agent memory 只是给瞎子更大的档案柜。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Tessl：产品与工程博客",
+        "url": "https://tessl.io/blog/your-ai-isnt-stupid-its-blind"
+      },
+      {
+        "name": "New Google Gemini setting could give AI tool broad access to",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "A new permission would allow an AI agent to access files and carry out actions without specific permission every time",
+        "description": "A new permission would allow an AI agent to access files and carry out actions without specific permission every time",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Google Gemini",
+        "url": "https://www.itpro.com/software/apple/new-google-gemini-setting-could-give-ai-tool-broad-access-to-users-macs"
+      },
+      {
+        "name": "Intelligent Machines 891: Previously on Swarm Chasers",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "From deleting critical files to oversharing your banking details in Slack, today's AI agents are proving both incredibly helpful and hilariously unpredictable. ",
+        "description": "From deleting critical files to oversharing your banking details in Slack, today's AI agents are proving both incredibly helpful and hilariously unpredictable. Hear what actually h",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Google Gemini",
+        "url": "https://twit.tv/shows/intelligent-machines/episodes/891"
+      },
       {
         "name": "Kaspersky issues guidelines on securing AI agents with Cyber",
         "provider": "NewsData.io",
@@ -6421,50 +6574,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2610.06790v1"
-      },
-      {
-        "name": "BazaarBench: Delegation Safety in Decentralized C2C Marketpl",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "In decentralized consumer-to-consumer (C2C) marketplaces, people list goods, negotiate with strangers, and rate one another, so trust rests on reputation. Large",
-        "description": "In decentralized consumer-to-consumer (C2C) marketplaces, people list goods, negotiate with strangers, and rate one another, so trust rests on reputation. Large language model (LLM",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2610.06748v1"
-      },
-      {
-        "name": "Beyond Semantic Similarity: Performance and Costs of Agentic",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Modern information systems, including many agentic workflows, use dense retrieval to explore large amounts of unstructured data. However, dense retrieval relies",
-        "description": "Modern information systems, including many agentic workflows, use dense retrieval to explore large amounts of unstructured data. However, dense retrieval relies on surface-level se",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2610.05750v1"
-      },
-      {
-        "name": "Can CaMeLs Talk? Securing Multi-Agent Systems Against Indire",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Indirect prompt injection attacks - malicious instructions embedded in content processed by large language models - remain a major obstacle to safely deploying ",
-        "description": "Indirect prompt injection attacks - malicious instructions embedded in content processed by large language models - remain a major obstacle to safely deploying tool-using agents. C",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2610.05640v1"
-      },
-      {
-        "name": "RETRACE: From Entangled Repair Histories to Reusable Experie",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Large language model (LLM) agents increasingly reuse prior experience, but most approaches assume that problems and solutions are already aligned. Software hist",
-        "description": "Large language model (LLM) agents increasingly reuse prior experience, but most approaches assume that problems and solutions are already aligned. Software histories rarely provide",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2610.04658v1"
       }
     ],
     "ai-models": [
@@ -6911,6 +7020,39 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-business": [
       {
+        "name": "Reputation In The Age Of AI: How To Do Gap Analysis & Tips t",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "When ChatGPT or Google's AI Overview describes your business, is it accurate? Small brands appear in AI answers just 11% of the time versus 73% for household na",
+        "description": "When ChatGPT or Google's AI Overview describes your business, is it accurate? Small brands appear in AI answers just 11% of the time versus 73% for household names, and a gap analy",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Google Gemini",
+        "url": "http://prsync.com/blu-ocean-innovations-llc/reputation-in-the-age-of-ai-how-to-do-gap-analysis--tips-to-boost-visibility-5205952/"
+      },
+      {
+        "name": "MSFT Stock On 4-Day Winning Streak: Microsoft Takes On Apple",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Microsoft is pushing Windows deeper into the local-AI era with Nvidia-powered Surface, on-device models and hybrid Copilot features.",
+        "description": "Microsoft is pushing Windows deeper into the local-AI era with Nvidia-powered Surface, on-device models and hybrid Copilot features.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:DeepSeek",
+        "url": "https://newsable.asianetnews.com/markets/msft-stock-on-4-day-winning-streak-microsoft-takes-on-apple-s-macs-with-nvidia-powered-surface-ultra-more-on-device-ai-articleshow-yxigx7h"
+      },
+      {
+        "name": "CrowdStrike says China-based suspect used AI tools in South ",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "SEOUL: The suspect behind recent cyberattacks targeting South Korea's financial sector may be a 26-year-old based in China's Guangdong province who used a Chine",
+        "description": "SEOUL: The suspect behind recent cyberattacks targeting South Korea's financial sector may be a 26-year-old based in China's Guangdong province who used a Chinese-developed AI agen",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:DeepSeek",
+        "url": "https://www.channelnewsasia.com/business/crowdstrike-says-china-based-suspect-used-ai-tools-in-south-korean-bank-hacks-6441386"
+      },
+      {
         "name": "How DTC SEO Agency Is Specializing in Telehealth, Telemeds, ",
         "provider": "NewsData.io",
         "type": "AI 项目/工具",
@@ -7316,39 +7458,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Business Standard",
         "url": "https://www.business-standard.com/technology/tech-news/iphone-18-pro-series-now-on-sale-in-india-but-delivery-slips-to-october-126091800343_1.html"
-      },
-      {
-        "name": "FPJ Quick Take At 12 PM: 'iPhone 18 Pro Sale Begins In India",
-        "provider": "Free Press Journal",
-        "type": "AI 项目/工具",
-        "bestFor": "Delivering fast, unbiased reporting on Mumbai, national politics, global affairs, market trends, entertainment and lifestyle so you can understand the stories s",
-        "description": "Delivering fast, unbiased reporting on Mumbai, national politics, global affairs, market trends, entertainment and lifestyle so you can understand the stories shaping your day\n\nSta",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Free Press Journal",
-        "url": "https://www.freepressjournal.in/india/fpj-quick-take-at-12-pm-iphone-18-pro-sale-begins-in-india-tata-group-stocks-fall-7-18-september-2026"
-      },
-      {
-        "name": "Plentisoft: LinkDaddy LLC Expands AI Verified Business Passp",
-        "provider": "FinanzNachrichten.de",
-        "type": "AI 项目/工具",
-        "bestFor": "LinkDaddy LLC is expanding AI Verified, a business identity platform that brings public business information and supporting sources into one profile with a stru",
-        "description": "LinkDaddy LLC is expanding AI Verified, a business identity platform that brings public business information and supporting sources into one profile with a structured record for AI",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "FinanzNachrichten.de",
-        "url": "https://www.finanznachrichten.de/nachrichten-2026-09/69612848-plentisoft-linkdaddy-llc-expands-ai-verified-business-passport-for-ai-visibility-296.htm"
-      },
-      {
-        "name": "Anthropic Made a 'Mistake' Teaching Claude About Consciousne",
-        "provider": "Benzinga",
-        "type": "AI 项目/工具",
-        "bestFor": "Microsoft Corp. (NASDAQ:MSFT) AI chief Mustafa Suleyman has criticized Anthropic's approach to training Claude to consider questions around AI consciousness and",
-        "description": "Microsoft Corp. (NASDAQ:MSFT) AI chief Mustafa Suleyman has criticized Anthropic's approach to training Claude to consider questions around AI consciousness and welfare.\n\nConcerns ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Benzinga",
-        "url": "https://www.benzinga.com/markets/tech/26/09/61832626/anthropic-claude-consciousness-mustafa-suleyman-ai-shutdown"
       }
     ],
     "ai-benchmark": [
@@ -7858,6 +7967,28 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-image-video": [
       {
+        "name": "Google debuts SynthID Detector tool for flagging AI-generate",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Google LLC is making its SynthID identification tools for artificial intelligence-created and AI-edited videos and images more widely available with the launch ",
+        "description": "Google LLC is making its SynthID identification tools for artificial intelligence-created and AI-edited videos and images more widely available with the launch of a new service tod",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Google Gemini",
+        "url": "https://siliconangle.com/2026/10/07/google-debuts-synthid-detector-tool-for-flagging-ai-generated-content-but-its-far-from-perfect/"
+      },
+      {
+        "name": "Google launches free AI detector for images, videos and audi",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "SynthID Detector allows you to upload files and search for invisible watermarks that identify content generated or modified with AI tools",
+        "description": "SynthID Detector allows you to upload files and search for invisible watermarks that identify content generated or modified with AI tools",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Google Gemini",
+        "url": "https://www.news247plus.com/news/Tech/google-launches-free-ai-detector-for-images-videos-and-audio-61733"
+      },
+      {
         "name": "OpenAI's GPT-6 Astra Gets Frustrated Losing At StarCraft And",
         "provider": "NewsData.io",
         "type": "AI 项目/工具",
@@ -8274,28 +8405,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · Apple ML Research",
         "url": "https://machinelearning.apple.com/research/starflow2-multimodal-generation"
-      },
-      {
-        "name": "OpenRouter 视频生成 API：一份代码优先的接入指南",
-        "provider": "OpenRouter：Announcements（RSS）",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenRouter 推出统一的异步视频生成 API，通过 POST /api/v1/videos 提交任务、轮询状态并下载 MP4，支持 Seedance、Veo、Wan 等模型，切换模型只需更改 model 标识符。",
-        "description": "OpenRouter 推出统一的异步视频生成 API，通过 POST /api/v1/videos 提交任务、轮询状态并下载 MP4，支持 Seedance、Veo、Wan 等模型，切换模型只需更改 model 标识符。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "OpenRouter：Announcements（RSS）",
-        "url": "https://openrouter.ai/blog/tutorials/video-generation-api"
-      },
-      {
-        "name": "How Insta360's new AI can edit your videos for you",
-        "provider": "The Cairns Post",
-        "type": "AI 项目/工具",
-        "bestFor": "The battle between DJI and Insta60 continues to deliver content creators some of the most incredible tools seen in years.\n\nThe Insta360 Luna Ultra is a great ex",
-        "description": "The battle between DJI and Insta60 continues to deliver content creators some of the most incredible tools seen in years.\n\nThe Insta360 Luna Ultra is a great example of that, along",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "The Cairns Post",
-        "url": "https://www.cairnspost.com.au/technology/gadgets/insta360-challenges-dji-with-new-luna-ultra-and-aipowered-x6-cameras/news-story/023f6473a573cb3264f6990ee1fc6503?nk=017470bbaea3b3b42f5c0f566bd610ef-1787637692"
       }
     ],
     "ai-research": [
@@ -10145,14 +10254,25 @@ window.AI_GENERATED_DATA = {
     }
   ],
   "dailyReport": {
-    "date": "2026-10-08",
-    "generatedAt": "2026-10-08T14:30:16.805474Z",
-    "total": 38,
+    "date": "2026-10-09",
+    "generatedAt": "2026-10-08T17:03:19.395531Z",
+    "total": 23,
     "sections": [
       {
         "category": "ai-coding",
         "label": "AI 编程",
         "items": [
+          {
+            "title": "Anthropic 用 Claude Managed Agents 构建定时智能体自动化的实践指南",
+            "summary": "Anthropic 发布基于 Claude Managed Agents（beta）的每日简报参考实现，按计划读取 Slack 和 GitHub 来源并向 Slack 发布简报。",
+            "source": "Anthropic：Claude.dev 开发者博客（RSS）",
+            "url": "https://claude.dev/blog/building-effective-agent-automations/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-08",
+            "publishedAt": "2026-10-08T20:00",
+            "reason": ""
+          },
           {
             "title": "Fault-tolerant foundation models",
             "summary": "Emerging computer hardware often trades reliability for energy efficiency; here we show that large-language models (LLMs) can be trained to ",
@@ -10196,72 +10316,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-10-07",
             "publishedAt": "",
             "reason": ""
-          },
-          {
-            "title": "FedSSMCoOp: SSM Encoders for light-weight Federated Prompt Learning for Few-shot Classification",
-            "summary": "Vision-Language Models (VLMs) have shown strong performance across a wide range of downstream vision tasks, thanks to the complementary info",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.09907v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-07",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "End-to-End Autonomous Generation of Human Assembly Plans",
-            "summary": "Turning a CAD design into an assembly plan is still largely done by hand, requiring engineers to reason about geometric feasibility, tool ac",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.09781v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-07",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Metonymic Circuits for Abstract Concept Grounding in Vision Transformers",
-            "summary": "arXiv:2610.06928v1 Announce Type: new Abstract: We study how Vision Transformers ground abstract concepts (e.g., angry) when training data p",
-            "source": "RSS · arXiv cs.AI",
-            "url": "https://arxiv.org/abs/2610.06928",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-07",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Text2Dashboard: A Governed Agent Architecture for Natural-Language Dashboard Generation over Enterprise DataBrain",
-            "summary": "arXiv:2610.06914v1 Announce Type: new Abstract: Text2Dashboard is a DataBrain-specific prototype that turns natural-language analytic reques",
-            "source": "RSS · arXiv cs.AI",
-            "url": "https://arxiv.org/abs/2610.06914",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-07",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "GAMEGO: Training Game-Dev Agents with Synthetic Trajectories Anchored in Real-World Assets",
-            "summary": "arXiv:2610.06910v1 Announce Type: new Abstract: Recent advances in Large Language Models (LLMs) have demonstrated remarkable capabilities in",
-            "source": "RSS · arXiv cs.AI",
-            "url": "https://arxiv.org/abs/2610.06910",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-07",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "FluidPD: In-Place Elasticity for SLO-Aware Prefill-Decode Disaggregated LLM Serving",
-            "summary": "arXiv:2610.06917v1 Announce Type: new Abstract: Prefill-decode disaggregation is becoming a common architecture for LLM serving because it s",
-            "source": "RSS · arXiv cs.AI",
-            "url": "https://arxiv.org/abs/2610.06917",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-07",
-            "publishedAt": "",
-            "reason": ""
           }
         ]
       },
@@ -10274,17 +10328,6 @@ window.AI_GENERATED_DATA = {
             "summary": "Multimodal large language models (MLLMs) have made significant progress in visual understanding and generation. However, generating interlea",
             "source": "arXiv",
             "url": "http://arxiv.org/abs/2610.10400v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-07",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Anchor Divergence for Semantic Geometry in Contrastive Learning",
-            "summary": "arXiv:2610.06919v1 Announce Type: new Abstract: This paper concerns how semantic context determines geometry in learned vector representatio",
-            "source": "RSS · arXiv cs.AI",
-            "url": "https://arxiv.org/abs/2610.06919",
             "score": 70,
             "sourceCount": 1,
             "date": "2026-10-07",
@@ -10340,94 +10383,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-10-07",
             "publishedAt": "",
             "reason": ""
-          },
-          {
-            "title": "Training Advisors for LLM Agents from Task Outcomes",
-            "summary": "Large language model agents tackle multi-step tasks by interleaving reasoning and tool calls with observations from the environment. Prior w",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.09858v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-07",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "AgentTracer: Tracing Indirect Prompt Injection Attack through Fine-Grained Intention-Execution Alignment",
-            "summary": "Large language model (LLM) agents interact with external resources to complete complex user tasks, exposing them to indirect prompt injectio",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.09935v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-07",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Beyond hours saved: Building the business case for agentic automation",
-            "summary": "The RPA-era ROI model misses most of the value agentic automation creates. This post gives AI center of excellence leaders a framework to si",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/beyond-hours-saved-building-the-business-case-for-agentic-automation/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-07",
-            "publishedAt": "2026-10-07T23:50",
-            "reason": ""
-          },
-          {
-            "title": "Automate remediation post AWS DevOps Agent investigation",
-            "summary": "AWS DevOps Agent can diagnose production incidents but is kept in observe-and-report mode so it does not change resources directly. This pos",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/automate-remediation-post-aws-devops-agent-investigation/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-07",
-            "publishedAt": "2026-10-07T23:46",
-            "reason": ""
-          },
-          {
-            "title": "How Qlik built grounded, enterprise-scale AI with Amazon Bedrock",
-            "summary": "Qlik built Qlik Answers on Amazon Bedrock to give its 40,000+ customers grounded, sourced answers across structured and unstructured enterpr",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/how-qlik-built-grounded-enterprise-scale-ai-with-amazon-bedrock/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-07",
-            "publishedAt": "2026-10-07T23:48",
-            "reason": ""
-          },
-          {
-            "title": "How Cornerstone OnDemand cut database diagnosis by 78% with Amazon Bedrock",
-            "summary": "Cornerstone OnDemand built Orion AI, a multi-agent system on Amazon Bedrock and Strands Agents, to turn database operations from reactive fi",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/how-cornerstone-ondemand-cut-database-diagnosis-by-78-with-amazon-bedrock/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-07",
-            "publishedAt": "2026-10-07T23:38",
-            "reason": ""
-          },
-          {
-            "title": "RadOnc-Agent: An LLM-Orchestrated Framework for AI Workflows Across the Radiotherapy Care Pathway",
-            "summary": "arXiv:2610.06923v1 Announce Type: new Abstract: Artificial intelligence has advanced individual radiotherapy tasks, yet these capabilities r",
-            "source": "RSS · arXiv cs.AI",
-            "url": "https://arxiv.org/abs/2610.06923",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-07",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Principles that Guide, Actions that Inform: Agent Evolution via Knowledge Abstraction",
-            "summary": "arXiv:2610.06964v1 Announce Type: new Abstract: Large language model (LLM) agents have demonstrated strong capabilities in interactive envir",
-            "source": "RSS · arXiv cs.AI",
-            "url": "https://arxiv.org/abs/2610.06964",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-07",
-            "publishedAt": "",
-            "reason": ""
           }
         ]
       },
@@ -10435,6 +10390,28 @@ window.AI_GENERATED_DATA = {
         "category": "ai-models",
         "label": "模型发布",
         "items": [
+          {
+            "title": "Share GPU clusters across teams with isolation and fairness using Amazon SageMaker HyperPod",
+            "summary": "A reference architecture for securely sharing one Amazon SageMaker HyperPod EKS cluster across multiple teams, using AWS IAM Identity Center",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/share-gpu-clusters-across-teams-with-isolation-and-fairness-using-amazon-sagemaker-hyperpod/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-09",
+            "publishedAt": "2026-10-09T00:20",
+            "reason": ""
+          },
+          {
+            "title": "Oct 8, 2026 Announcements Building on our commitment to American scientific discovery",
+            "summary": "Oct 8, 2026 Announcements Building on our commitment to American scientific discovery",
+            "source": "HTML · Anthropic",
+            "url": "https://www.anthropic.com/news/genesis-mission-commitment",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-08",
+            "publishedAt": "",
+            "reason": ""
+          },
           {
             "title": "Does better work always mean better workers?",
             "summary": "",
@@ -10455,6 +10432,17 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-10-08",
             "publishedAt": "2026-10-08T02:34",
+            "reason": ""
+          },
+          {
+            "title": "Introducing Falcon ASR",
+            "summary": "",
+            "source": "RSS · Hugging Face Blog",
+            "url": "https://huggingface.co/blog/tiiuae/falcon-asr",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-07",
+            "publishedAt": "2026-10-07T21:21",
             "reason": ""
           },
           {
@@ -10533,39 +10521,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-10-07",
             "publishedAt": "",
             "reason": ""
-          },
-          {
-            "title": "Empowering Users in Graph Rule Mining via Large Language Models",
-            "summary": "In the era of interconnected data, graphs have emerged as an effective abstraction for modeling complex systems in an intuitive format, espe",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.09842v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-07",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "RollVerify: Bridging Efficiency and Accuracy in Long-Tail Rollout Reinforcement Learning",
-            "summary": "Reinforcement learning is crucial for improving large language models' reasoning and generalization. It relies on massive rollouts whose len",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.09914v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-07",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "A Chat Assistant for Software Exploration in a 3D Software Visualization",
-            "summary": "We present a chat assistant for interactive software exploration, embedded in the 3D software visualization tool ExplorViz. The assistant bu",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.09901v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-07",
-            "publishedAt": "",
-            "reason": ""
           }
         ]
       },
@@ -10585,27 +10540,62 @@ window.AI_GENERATED_DATA = {
             "reason": ""
           }
         ]
-      },
-      {
-        "category": "ai-research",
-        "label": "论文研究",
-        "items": [
-          {
-            "title": "What AI gets wrong and what failure teaches us",
-            "summary": "Jennifer Neville did not want to go into computer science—but that’s exactly where she landed. Neville discusses the starts and stops that l",
-            "source": "RSS · Microsoft Research",
-            "url": "https://www.microsoft.com/en-us/research/podcast/what-ai-gets-wrong-and-what-failure-teaches-us/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-07",
-            "publishedAt": "2026-10-07T00:19",
-            "reason": ""
-          }
-        ]
       }
     ]
   },
   "dailyReports": [
+    {
+      "date": "2026-10-08",
+      "generatedAt": "2026-10-08T16:00:07.585264Z",
+      "total": 3,
+      "sections": [
+        {
+          "category": "ai-agents",
+          "label": "Agent / MCP",
+          "items": [
+            {
+              "title": "Agent Lightning v1.0: A 3,500-Line Lightweight Agentic RL Framework for Training Agents with Real Harnesses",
+              "summary": "Training AI agents with reinforcement learning can be challenging because their tools, context, and decision-making are managed by complex f",
+              "source": "RSS · Microsoft Research",
+              "url": "https://www.microsoft.com/en-us/research/blog/agent-lightning-v1-0-a-3500-line-lightweight-agentic-rl-framework-for-training-agents-with-real-harnesses/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-08",
+              "publishedAt": "2026-10-08T00:00",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-models",
+          "label": "模型发布",
+          "items": [
+            {
+              "title": "Does better work always mean better workers?",
+              "summary": "",
+              "source": "RSS · Google Research",
+              "url": "https://research.google/blog/does-better-work-always-mean-better-workers/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-08",
+              "publishedAt": "2026-10-08T04:19",
+              "reason": ""
+            },
+            {
+              "title": "Rethinking access control for RAG with Amazon Quick and Amazon Bedrock",
+              "summary": "Enterprise RAG unlocks insights from knowledge sources like SharePoint, Google Drive, and Confluence, but those sources carry complex permis",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/rethinking-access-control-for-rag-with-amazon-quick-and-amazon-bedrock/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-08",
+              "publishedAt": "2026-10-08T02:34",
+              "reason": ""
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-10-07",
       "generatedAt": "2026-10-07T16:14:07.677160Z",
@@ -18923,62 +18913,10 @@ window.AI_GENERATED_DATA = {
           ]
         }
       ]
-    },
-    {
-      "date": "2026-08-06",
-      "generatedAt": "2026-08-06T16:26:54.878886Z",
-      "total": 3,
-      "sections": [
-        {
-          "category": "ai-models",
-          "label": "模型发布",
-          "items": [
-            {
-              "title": "Optimizing What Policies Learn From: Recoverability-aware Rollout Intervention Learning",
-              "summary": "Critic-free group-based reinforcement learning has become a scalable approach for post-training large language models. However, most existin",
-              "source": "arXiv",
-              "url": "http://arxiv.org/abs/2608.05080v1",
-              "score": 70,
-              "sourceCount": 1,
-              "date": "2026-08-06",
-              "publishedAt": "",
-              "reason": ""
-            },
-            {
-              "title": "Gradient Immunity: Null-Space Resistance to Malicious Fine-Tuning",
-              "summary": "Released aligned large language models remain vulnerable to malicious downstream finetuning. Existing defenses are largely designed for the ",
-              "source": "arXiv",
-              "url": "http://arxiv.org/abs/2608.05045v1",
-              "score": 70,
-              "sourceCount": 1,
-              "date": "2026-08-06",
-              "publishedAt": "",
-              "reason": ""
-            }
-          ]
-        },
-        {
-          "category": "ai-research",
-          "label": "论文研究",
-          "items": [
-            {
-              "title": "From Score Matrices to Football-Aware Match-State Simulation: An Auditable LLM Harness for Exact-Score Reranking",
-              "summary": "Football score forecasting combines a strong statistical core with a difficult contextual edge. Dynamic Poisson-family models estimate team ",
-              "source": "arXiv",
-              "url": "http://arxiv.org/abs/2608.05030v1",
-              "score": 70,
-              "sourceCount": 1,
-              "date": "2026-08-06",
-              "publishedAt": "",
-              "reason": ""
-            }
-          ]
-        }
-      ]
     }
   ],
   "llmLeaderboard": {
-    "updated": "2026-10-08",
+    "updated": "2026-10-09",
     "source": "ReLE 中文大模型能力评测（综合能力）",
     "sourceUrl": "https://github.com/jeinlee1991/chinese-llm-benchmark",
     "items": [
