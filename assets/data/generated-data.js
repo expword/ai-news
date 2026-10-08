@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-10-08",
-  "generatedAt": "2026-10-08T03:00:16.960233Z",
+  "generatedAt": "2026-10-08T05:30:06.868823Z",
   "news": [
     {
       "title": "Does better work always mean better workers?",
@@ -81,6 +81,143 @@ window.AI_GENERATED_DATA = {
       "moduleTargets": [
         "news",
         "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "SLDR: Defending Against Malicious Fine-tuning via Selective Layers Recovery and Dynamic Routing",
+      "summary": "Fine-tuning-as-a-service enables users to adapt aligned large language models (LLMs) to specialized tasks, but malicious fine-tuning can erode refusal behavior while preserving tas",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-10-07",
+      "publishedAt": "",
+      "collectedAt": "2026-10-08T13:30",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-07",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.10345v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "LLM-Assisted Generation of Transparent, Open-Source Multiphysics Models of Electrochemical Devices",
+      "summary": "Multiphysics continuum models are powerful tools for studying electrochemical devices, enabling in silico reactor design and resolution of local pH, potential, and concentration fi",
+      "category": "ai-agents",
+      "source": "arXiv",
+      "date": "2026-10-07",
+      "publishedAt": "",
+      "collectedAt": "2026-10-08T13:30",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-07",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.10320v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Nobody Truly Agrees on Sentiment: Humans, Bespoke Tools, and LLMs Struggle with Social Media Texts",
+      "summary": "Social media is a rich source of real-time public sentiment, but widely used sentiment analysis tools are often applied without understanding their limitations. In this study, we e",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-10-07",
+      "publishedAt": "",
+      "collectedAt": "2026-10-08T13:30",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-07",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.10318v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Open-MMUnlearning: Unifying Methods and Evaluation for MLLM Unlearning",
+      "summary": "As multimodal large language models (MLLMs) become more capable and widely deployed, concerns about privacy and safety have become increasingly pressing. Machine unlearning offers ",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-10-07",
+      "publishedAt": "",
+      "collectedAt": "2026-10-08T13:30",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-07",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.10358v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Fault-tolerant foundation models",
+      "summary": "Emerging computer hardware often trades reliability for energy efficiency; here we show that large-language models (LLMs) can be trained to tolerate this unreliability, and that ra",
+      "category": "ai-coding",
+      "source": "arXiv",
+      "date": "2026-10-07",
+      "publishedAt": "",
+      "collectedAt": "2026-10-08T13:30",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-07",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.10311v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
       ],
       "sourceCount": 1
     },
@@ -2593,143 +2730,6 @@ window.AI_GENERATED_DATA = {
       "aiSelected": true,
       "moduleTargets": [
         "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "FreSia: Frequency-Semantic Instantiation and Alignment for Multivariate Time Series Analysis",
-      "summary": "Large Language Models (LLMs) have shown strong potential in multivariate time series forecasting and anomaly detection. Existing studies predominantly inject temporal information i",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-10-05",
-      "publishedAt": "",
-      "collectedAt": "2026-10-06T10:21",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-05",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.05726v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "MOLT: A Fine-Grained GPU Memory Sharing System for LLM Serving with Opportunistic Fine-Tuning",
-      "summary": "Large language model (LLM) serving scales its replica count with the request load, yet GPU memory still stands idle inside the replicas. Adding a replica takes minutes, while the m",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-10-05",
-      "publishedAt": "",
-      "collectedAt": "2026-10-06T10:21",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-05",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.05748v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "PreMaQ: Predicting Maintainability-Related Quality of LLM-Generated Code Before Generation",
-      "summary": "As large language models (LLMs) become increasingly capable of code generation, adopting generated code in software development requires assessing not only its functional correctne",
-      "category": "ai-coding",
-      "source": "arXiv",
-      "date": "2026-10-05",
-      "publishedAt": "",
-      "collectedAt": "2026-10-06T10:21",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-05",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.05858v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Beyond Semantic Similarity: Performance and Costs of Agentic Retrieval for Complex Tasks",
-      "summary": "Modern information systems, including many agentic workflows, use dense retrieval to explore large amounts of unstructured data. However, dense retrieval relies on surface-level se",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-10-05",
-      "publishedAt": "",
-      "collectedAt": "2026-10-06T10:21",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-05",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.05750v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Can CaMeLs Talk? Securing Multi-Agent Systems Against Indirect Prompt Injection Attacks",
-      "summary": "Indirect prompt injection attacks - malicious instructions embedded in content processed by large language models - remain a major obstacle to safely deploying tool-using agents. C",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-10-05",
-      "publishedAt": "",
-      "collectedAt": "2026-10-06T10:21",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-05",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.05640v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
       ],
       "sourceCount": 1
     }
@@ -8546,6 +8546,28 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-research": [
       {
+        "name": "LLM-Assisted Generation of Transparent, Open-Source Multiphy",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Multiphysics continuum models are powerful tools for studying electrochemical devices, enabling in silico reactor design and resolution of local pH, potential, ",
+        "description": "Multiphysics continuum models are powerful tools for studying electrochemical devices, enabling in silico reactor design and resolution of local pH, potential, and concentration fi",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2610.10320v1"
+      },
+      {
+        "name": "Nobody Truly Agrees on Sentiment: Humans, Bespoke Tools, and",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Social media is a rich source of real-time public sentiment, but widely used sentiment analysis tools are often applied without understanding their limitations.",
+        "description": "Social media is a rich source of real-time public sentiment, but widely used sentiment analysis tools are often applied without understanding their limitations. In this study, we e",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2610.10318v1"
+      },
+      {
         "name": "RECAST: Learning to Compute the Right Context through Adapti",
         "provider": "arXiv",
         "type": "AI 项目/工具",
@@ -8962,28 +8984,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2609.30094v1"
-      },
-      {
-        "name": "GUIAuditor: Enabling Post-hoc Child Safety Forensics via Act",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "The proliferation of smart devices exposes children to online risks like grooming and financial scams that are deeply embedded within legitimate applications. C",
-        "description": "The proliferation of smart devices exposes children to online risks like grooming and financial scams that are deeply embedded within legitimate applications. Current approaches re",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2609.28205v1"
-      },
-      {
-        "name": "Exact Feedback Is Not Control: Evaluating Text-based Closed-",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Closed-loop revision is increasingly used in large language model (LLM) applications, but failures may reflect incomplete feedback or ineffective responses to c",
-        "description": "Closed-loop revision is increasingly used in large language model (LLM) applications, but failures may reflect incomplete feedback or ineffective responses to correct feedback. We ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2609.28150v1"
       }
     ],
     "ai-office": []
@@ -10392,13 +10392,24 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-10-08",
-    "generatedAt": "2026-10-08T03:00:16.940232Z",
-    "total": 37,
+    "generatedAt": "2026-10-08T05:30:06.848823Z",
+    "total": 38,
     "sections": [
       {
         "category": "ai-coding",
         "label": "AI 编程",
         "items": [
+          {
+            "title": "Fault-tolerant foundation models",
+            "summary": "Emerging computer hardware often trades reliability for energy efficiency; here we show that large-language models (LLMs) can be trained to ",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.10311v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-07",
+            "publishedAt": "",
+            "reason": ""
+          },
           {
             "title": "Training Parallel Speculative Draft Models by Directly Minimizing Expected Decoding Rounds",
             "summary": "Speculative decoding accelerates large language model inference by using a low-cost draft model to propose tokens that the full-size target ",
@@ -10544,6 +10555,17 @@ window.AI_GENERATED_DATA = {
             "reason": ""
           },
           {
+            "title": "LLM-Assisted Generation of Transparent, Open-Source Multiphysics Models of Electrochemical Devices",
+            "summary": "Multiphysics continuum models are powerful tools for studying electrochemical devices, enabling in silico reactor design and resolution of l",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.10320v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-07",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
             "title": "LOCAA: An Agentic System for Automated Lossy Compressor Tuning",
             "summary": "Large-scale scientific simulations generate substantial data volumes, making lossy compression essential for reducing storage and data movem",
             "source": "arXiv",
@@ -10652,17 +10674,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-10-07",
             "publishedAt": "",
             "reason": ""
-          },
-          {
-            "title": "AegisFlow: A Multi-Agent Agentic AI Framework for Autonomous Remediation and Self-Healing in Fragile Data Ecosystems",
-            "summary": "arXiv:2610.06971v1 Announce Type: new Abstract: Traditional data pipelines are notoriously brittle, often failing due to upstream schema dri",
-            "source": "RSS · arXiv cs.AI",
-            "url": "https://arxiv.org/abs/2610.06971",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-07",
-            "publishedAt": "",
-            "reason": ""
           }
         ]
       },
@@ -10690,6 +10701,39 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-10-08",
             "publishedAt": "2026-10-08T02:34",
+            "reason": ""
+          },
+          {
+            "title": "SLDR: Defending Against Malicious Fine-tuning via Selective Layers Recovery and Dynamic Routing",
+            "summary": "Fine-tuning-as-a-service enables users to adapt aligned large language models (LLMs) to specialized tasks, but malicious fine-tuning can ero",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.10345v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-07",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Nobody Truly Agrees on Sentiment: Humans, Bespoke Tools, and LLMs Struggle with Social Media Texts",
+            "summary": "Social media is a rich source of real-time public sentiment, but widely used sentiment analysis tools are often applied without understandin",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.10318v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-07",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Open-MMUnlearning: Unifying Methods and Evaluation for MLLM Unlearning",
+            "summary": "As multimodal large language models (MLLMs) become more capable and widely deployed, concerns about privacy and safety have become increasin",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.10358v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-07",
+            "publishedAt": "",
             "reason": ""
           },
           {
@@ -10767,39 +10811,6 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-10-07",
             "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "BoT-GRPO: Efficient Process-Reward RL for Reasoning via Bag-of-Token Aggregation",
-            "summary": "Reinforcement learning is now central to eliciting reasoning in large language models, while in the popular algorithm Group Relative Policy ",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.09804v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-07",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "GPT-6 and Intelligent UI for everyone",
-            "summary": "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can e",
-            "source": "RSS · OpenAI Blog",
-            "url": "https://openai.com/index/gpt-6-for-everyone",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-07",
-            "publishedAt": "2026-10-07T08:00",
-            "reason": ""
-          },
-          {
-            "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
-            "summary": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while ",
-            "source": "RSS · OpenAI Blog",
-            "url": "https://openai.com/index/radisson",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-07",
-            "publishedAt": "2026-10-07T15:00",
             "reason": ""
           }
         ]
