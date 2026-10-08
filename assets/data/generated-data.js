@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-10-09",
-  "generatedAt": "2026-10-08T19:25:14.655866Z",
+  "generatedAt": "2026-10-08T20:35:16.453057Z",
   "news": [
     {
       "title": "Pay-per-inference for AI agents: How BlockRun and Incarna use Amazon Bedrock AgentCore payments",
@@ -69,6 +69,33 @@ window.AI_GENERATED_DATA = {
       "sourceDate": "",
       "tags": [],
       "url": "https://aws.amazon.com/blogs/machine-learning/share-gpu-clusters-across-teams-with-isolation-and-fairness-using-amazon-sagemaker-hyperpod/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Anthropic 推出开源漏洞扫描服务 OSS Scanner，免费面向开源项目",
+      "summary": "Anthropic 发布 OSS Scanner，一个可选加入的开源漏洞扫描服务，用其最强模型（包括 Claude Mythos）定期免费扫描开源项目，输出为全模型生成、无人工复核的报告。",
+      "category": "ai-models",
+      "source": "Anthropic：Research（发表成果 · 网页）",
+      "date": "2026-10-08",
+      "publishedAt": "2026-10-08T00:00",
+      "collectedAt": "2026-10-09T04:35",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -2588,33 +2615,6 @@ window.AI_GENERATED_DATA = {
       "sourceDate": "2026-10-05",
       "tags": [],
       "url": "http://arxiv.org/abs/2610.06647v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Improving Diversity in LLM Short Story Generation",
-      "summary": "Large language models (LLMs) can generate accurate responses, but these are void of diversity. We attempt to address this for the task of creative short story generation. Drawing o",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-10-05",
-      "publishedAt": "",
-      "collectedAt": "2026-10-06T11:32",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-05",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.06729v1",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -10289,8 +10289,8 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-10-09",
-    "generatedAt": "2026-10-08T19:25:14.635828Z",
-    "total": 10,
+    "generatedAt": "2026-10-08T20:35:16.428060Z",
+    "total": 11,
     "sections": [
       {
         "category": "ai-coding",
@@ -10378,6 +10378,17 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-10-09",
             "publishedAt": "2026-10-09T00:20",
+            "reason": ""
+          },
+          {
+            "title": "Anthropic 推出开源漏洞扫描服务 OSS Scanner，免费面向开源项目",
+            "summary": "Anthropic 发布 OSS Scanner，一个可选加入的开源漏洞扫描服务，用其最强模型（包括 Claude Mythos）定期免费扫描开源项目，输出为全模型生成、无人工复核的报告。",
+            "source": "Anthropic：Research（发表成果 · 网页）",
+            "url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-08",
+            "publishedAt": "2026-10-08T00:00",
             "reason": ""
           },
           {
