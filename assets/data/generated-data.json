@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-10-08",
-  "generatedAt": "2026-10-08T11:52:17.023487Z",
+  "generatedAt": "2026-10-08T14:30:16.825505Z",
   "news": [
     {
       "title": "Does better work always mean better workers?",
@@ -2472,252 +2472,6 @@
       "sourceDate": "2026-10-05",
       "tags": [],
       "url": "http://arxiv.org/abs/2610.06844v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Back to the Future: Rethinking EDA Infrastructure for Agentic Systems in Chip Design Verification",
-      "summary": "The unprecedented computational scale of modern artificial intelligence depends on complex, multi-billion-transistor Systems-on-Chip, yet the workflows that verify these chips rema",
-      "category": "ai-coding",
-      "source": "arXiv",
-      "date": "2026-10-05",
-      "publishedAt": "",
-      "collectedAt": "2026-10-06T11:32",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-05",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.06790v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "TranScope: What the Software Hides About LLM Training Data, the Hardware Reveals at Scale, and Accelerators Magnify",
-      "summary": "Membership is the root privacy primitive in machine learning: to date, no hardware-based out-of-distribution detection on black-box models has been demonstrated against constant-ti",
-      "category": "ai-research",
-      "source": "arXiv",
-      "date": "2026-10-05",
-      "publishedAt": "",
-      "collectedAt": "2026-10-06T11:32",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-05",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.06848v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "BazaarBench: Delegation Safety in Decentralized C2C Marketplaces Run by LLM Agents",
-      "summary": "In decentralized consumer-to-consumer (C2C) marketplaces, people list goods, negotiate with strangers, and rate one another, so trust rests on reputation. Large language model (LLM",
-      "category": "ai-benchmark",
-      "source": "arXiv",
-      "date": "2026-10-05",
-      "publishedAt": "",
-      "collectedAt": "2026-10-06T11:32",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-05",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.06748v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "benchmarkDatasets",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Aligning Multimodal Patient Evidence with Biomedical Knowledge Graphs for Clinical LLMs",
-      "summary": "Clinical questions often depend on linking a patient's multimodal evidence to external biomedical knowledge, yet existing predictive systems rarely represent such links explicitly,",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-10-05",
-      "publishedAt": "",
-      "collectedAt": "2026-10-06T11:32",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-05",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.06685v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "What Matters for Latent Reasoning with Flow Matching",
-      "summary": "Latent reasoning lets a large language model (LLM) think in a continuous space and verbalize only the answer. We argue that an effective latent thought must meet five requirements:",
-      "category": "ai-coding",
-      "source": "arXiv",
-      "date": "2026-10-05",
-      "publishedAt": "",
-      "collectedAt": "2026-10-06T11:32",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-05",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.06666v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Nash Equilibrium Text: A Game-Theoretic Decoding Framework for Text Generation",
-      "summary": "Text revision has become an integral component of large language models. This paper formulates revision such that it admits a Nash equilibrium: Token positions are players, vocabul",
-      "category": "ai-coding",
-      "source": "arXiv",
-      "date": "2026-10-05",
-      "publishedAt": "",
-      "collectedAt": "2026-10-06T10:21",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-05",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.05817v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "CIPHER-MoE: Balancing Efficiency and Routing Fidelity in Trillion-Scale MoE Training",
-      "summary": "Mixture-of-Experts (MoE) has been widely adopted in recent large language model (LLM) architectures. However, scaling up MoE in LLM training introduces system-level challenges on t",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-10-05",
-      "publishedAt": "",
-      "collectedAt": "2026-10-06T10:21",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-05",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.05744v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Human-in-the-Loop Neuro-Symbolic Drift Anticipation for Reliable Visual SLAM",
-      "summary": "This paper introduces Hybrid DeepSEE (HDS), a Human-in-the-Loop (HITL) neuro-symbolic framework for proactive drift anticipation in Visual SLAM (V-SLAM). While data-driven models o",
-      "category": "ai-research",
-      "source": "arXiv",
-      "date": "2026-10-05",
-      "publishedAt": "",
-      "collectedAt": "2026-10-06T10:21",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-05",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.05757v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Errors of LLM-Assisted Literature Retrieval in Environmental Science: A Comparison Study of Abstract versus Full-text Based Prompts",
-      "summary": "Large language models (LLMs) are increasingly used for literature search and synthesis. However, it is unclear whether they retrieve accurate bibliographic information in environme",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-10-05",
-      "publishedAt": "",
-      "collectedAt": "2026-10-06T10:21",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-05",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.05690v1",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -5831,6 +5585,17 @@
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Zenity 研究人员发现一条提示词即可劫持 AWS 账户内全部 AgentCore 智能体",
+        "provider": "The Decoder：AI News（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "Zenity Labs 研究人员披露名为 AgentCorruption 的漏洞链，只需对一个公开的 Amazon Bedrock AgentCore 智能体发送一条提示词，即可通过元数据服务 169.254.169.254 窃取其 AWS 凭据，进而控制同账户同区域内的所有 AgentCore 智能体，读取私人对话、",
+        "description": "Zenity Labs 研究人员披露名为 AgentCorruption 的漏洞链，只需对一个公开的 Amazon Bedrock AgentCore 智能体发送一条提示词，即可通过元数据服务 169.254.169.254 窃取其 AWS 凭据，进而控制同账户同区域内的所有 AgentCore 智能体，读取私人对话、源代码和存储的凭据，还能篡改长期记忆。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Decoder：AI News（RSS）",
+        "url": "https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found/"
+      },
+      {
         "name": "Crowdstrike 报告疑似单人使用 AI 渗透工具攻击多家韩国银行",
         "provider": "The Decoder：AI News（RSS）",
         "type": "AI 项目/工具",
@@ -6258,20 +6023,31 @@
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · AWS Machine Learning",
         "url": "https://aws.amazon.com/blogs/machine-learning/grok-4-7-is-now-available-on-amazon-bedrock/"
-      },
-      {
-        "name": "GitHub 安全团队如何用开源 AI 安全 Agent 找出 24 个 Android 漏洞",
-        "provider": "GitHub Blog",
-        "type": "AI 项目/工具",
-        "bestFor": "GitHub Security Lab 发布开源 seclab-taskflows 任务流，通过 gather_mobile_entry_point_info.yaml 和 classify_application_local.yaml 等提示词引导 LLM 审计 Android 应用，已发现并报告 24 个漏洞。",
-        "description": "GitHub Security Lab 发布开源 seclab-taskflows 任务流，通过 gather_mobile_entry_point_info.yaml 和 classify_application_local.yaml 等提示词引导 LLM 审计 Android 应用，已发现并报告 24 个漏洞。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "GitHub Blog",
-        "url": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/"
       }
     ],
     "ai-agents": [
+      {
+        "name": "Kaspersky issues guidelines on securing AI agents with Cyber",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Kaspersky has shared guidelines on mitigating risks associated with the use of autonomous AI agents in a corporate infrastructure. The document applies the",
+        "description": "Kaspersky has shared guidelines on mitigating risks associated with the use of autonomous AI agents in a corporate infrastructure. The document applies the",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:large language model",
+        "url": "https://www.bizbahrain.com/kaspersky-issues-guidelines-on-securing-ai-agents-with-cyber-immunity-approach/"
+      },
+      {
+        "name": "Students explore AI tools through new centre of excellence",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "The centre is designed to support practical work in areas such as machine learning, deep learning, generative AI, edge AI, agentic AI and data-intensive researc",
+        "description": "The centre is designed to support practical work in areas such as machine learning, deep learning, generative AI, edge AI, agentic AI and data-intensive research.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:large language model",
+        "url": "https://www.thehansindia.com/hans/young-hans/students-explore-ai-tools-through-new-centre-of-excellence-1130096"
+      },
       {
         "name": "【AIHOT 通知】旧版接口 2026 年 10 月 31 日停用，推送机器人和脚本请尽快迁移",
         "provider": "原始来源",
@@ -6689,31 +6465,42 @@
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2610.04658v1"
-      },
-      {
-        "name": "Anticipating the Consequences of Curriculum Decisions with L",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Automatic curriculum learning can improve the effectiveness of reinforcement learning by selecting the training experiences presented to the agent over time. Pr",
-        "description": "Automatic curriculum learning can improve the effectiveness of reinforcement learning by selecting the training experiences presented to the agent over time. Predicting the consequ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2610.04604v1"
-      },
-      {
-        "name": "Open and Emergent Problems in Agentic Privacy and Security: ",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Education Innovation",
-        "description": "Education Innovation",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · Google Research",
-        "url": "https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle/"
       }
     ],
     "ai-models": [
+      {
+        "name": "Google will limit free access to Gemini models",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Google trims Gemini access for free users. The post Google will limit free access to Gemini models appeared first on Technobaboy .",
+        "description": "Google trims Gemini access for free users. The post Google will limit free access to Gemini models appeared first on Technobaboy .",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Claude AI",
+        "url": "https://www.technobaboy.com/2026/10/08/google-will-limit-free-access-to-gemini-models/"
+      },
+      {
+        "name": "Datacentre company Firmus’s high flying valuation may be com",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Sources say Firmus is slashing its price and may even shelve initial public offering altogether Get our breaking news email , free app or daily news podcast The",
+        "description": "Sources say Firmus is slashing its price and may even shelve initial public offering altogether Get our breaking news email , free app or daily news podcast The momentum behind Fir",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:artificial intelligence",
+        "url": "https://www.theguardian.com/australia-news/2026/oct/08/ai-datacentre-firmus-slash-valuation-before-asx-listing"
+      },
+      {
+        "name": "AI’s Cash Burn Crisis: Why Massive Losses Persist Despite Re",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "The AI sector has reached a financial inflection point, with leading companies reporting persistently negative cash flows despite rapid revenue growth. Massive ",
+        "description": "The AI sector has reached a financial inflection point, with leading companies reporting persistently negative cash flows despite rapid revenue growth. Massive capital expenditures",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:artificial intelligence",
+        "url": "https://www.webpronews.com/ais-cash-burn-crisis-why-massive-losses-persist-despite-revenue-growth/"
+      },
       {
         "name": "Google 发布 Developer Knowledge API 生态，为 AI 智能体提供官方文档检索",
         "provider": "Google Developers Blog（RSS）",
@@ -7120,39 +6907,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · AWS Machine Learning",
         "url": "https://aws.amazon.com/blogs/machine-learning/implementing-multi-environment-access-for-claude-platform-on-aws/"
-      },
-      {
-        "name": "How uniopen customized Amazon Nova to their retail moderatio",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "See how uniopen, a retail platform from Taiwan's Uni-President Enterprises Group, adapted Amazon Nova 2 Lite to its content-moderation policies using supervised",
-        "description": "See how uniopen, a retail platform from Taiwan's Uni-President Enterprises Group, adapted Amazon Nova 2 Lite to its content-moderation policies using supervised fine-tuning in Amaz",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/how-uniopen-customized-amazon-nova-to-their-retail-moderation-policies-for-production-deployment/"
-      },
-      {
-        "name": "How Albertsons Companies is reimagining retail from the insi",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
-        "description": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · OpenAI Blog",
-        "url": "https://openai.com/index/albertsons-reimagining-retail"
-      },
-      {
-        "name": "Google announces Gemini 4 flagship AI model after months of ",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "The new AI model, 'Argon,'' is larger in size than Google's previous line of advanced \"Pro\" models, a company spokesperson says",
-        "description": "The new AI model, 'Argon,'' is larger in size than Google's previous line of advanced \"Pro\" models, a company spokesperson says",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:Google Gemini",
-        "url": "https://www.rappler.com/technology/google-gemini-4-flagship-ai-model-argon/"
       }
     ],
     "ai-business": [
@@ -10392,7 +10146,7 @@
   ],
   "dailyReport": {
     "date": "2026-10-08",
-    "generatedAt": "2026-10-08T11:52:17.001487Z",
+    "generatedAt": "2026-10-08T14:30:16.805474Z",
     "total": 38,
     "sections": [
       {
