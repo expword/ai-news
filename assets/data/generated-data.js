@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-10-09",
-  "generatedAt": "2026-10-08T20:35:16.453057Z",
+  "generatedAt": "2026-10-09T00:04:57.212847Z",
   "news": [
     {
       "title": "Pay-per-inference for AI agents: How BlockRun and Incarna use Amazon Bedrock AgentCore payments",
@@ -69,6 +69,33 @@ window.AI_GENERATED_DATA = {
       "sourceDate": "",
       "tags": [],
       "url": "https://aws.amazon.com/blogs/machine-learning/share-gpu-clusters-across-teams-with-isolation-and-fairness-using-amazon-sagemaker-hyperpod/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "LegalOn halves Codex costs while maintaining development speed",
+      "summary": "LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically.",
+      "category": "ai-coding",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-10-08",
+      "publishedAt": "2026-10-08T20:00",
+      "collectedAt": "2026-10-09T08:04",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/legalon-halves-codex-costs",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -6612,6 +6639,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-models": [
       {
+        "name": "Block 如何用 Claude Fable 编排数千个 pull request 的代码迁移",
+        "provider": "Claude：Blog（网页）",
+        "type": "AI 项目/工具",
+        "bestFor": "Anthropic 发表对 Block AI capabilities 负责人 Bradley Axen 的访谈，介绍 Block 用 Claude Fable 5 编排大规模代码迁移：Fable 做数据模型、API 规格等高层设计，再调度数十个更小的 Opus 或 Sonnet 模型执行文件修改和测试，一次迁移可能合",
+        "description": "Anthropic 发表对 Block AI capabilities 负责人 Bradley Axen 的访谈，介绍 Block 用 Claude Fable 5 编排大规模代码迁移：Fable 做数据模型、API 规格等高层设计，再调度数十个更小的 Opus 或 Sonnet 模型执行文件修改和测试，一次迁移可能合并上千个 pull request。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Claude：Blog（网页）",
+        "url": "https://claude.com/blog/how-block-orchestrates-claude-fable-across-thousands-of-pull-requests"
+      },
+      {
         "name": "Google will limit free access to Gemini models",
         "provider": "NewsData.io",
         "type": "AI 项目/工具",
@@ -7039,17 +7077,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · AWS Machine Learning",
         "url": "https://aws.amazon.com/blogs/machine-learning/serve-live-governed-data-in-ai-built-apps-with-amazon-quick/"
-      },
-      {
-        "name": "Implementing Multi-Environment Access for Claude Platform on",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Learn how to configure secure, multi-environment access to Claude Platform on AWS from a single subscription: cross-account SigV4 for AWS workloads, workspace-s",
-        "description": "Learn how to configure secure, multi-environment access to Claude Platform on AWS from a single subscription: cross-account SigV4 for AWS workloads, workspace-scoped API keys for d",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/implementing-multi-environment-access-for-claude-platform-on-aws/"
       }
     ],
     "ai-business": [
@@ -10289,8 +10316,8 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-10-09",
-    "generatedAt": "2026-10-08T20:35:16.428060Z",
-    "total": 11,
+    "generatedAt": "2026-10-09T00:04:57.193623Z",
+    "total": 12,
     "sections": [
       {
         "category": "ai-coding",
@@ -10305,6 +10332,17 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-10-09",
             "publishedAt": "2026-10-09T00:00",
+            "reason": ""
+          },
+          {
+            "title": "LegalOn halves Codex costs while maintaining development speed",
+            "summary": "LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed bud",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/legalon-halves-codex-costs",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-08",
+            "publishedAt": "2026-10-08T20:00",
             "reason": ""
           },
           {
