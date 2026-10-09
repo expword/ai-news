@@ -1,7 +1,34 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-10-09",
-  "generatedAt": "2026-10-09T09:09:33.054502Z",
+  "generatedAt": "2026-10-09T11:39:25.979484Z",
   "news": [
+    {
+      "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+      "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
+      "category": "ai-models",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-10-09",
+      "publishedAt": "2026-10-09T15:00",
+      "collectedAt": "2026-10-09T19:39",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/sophos",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Self-Organization from Constrained Geometric Radiation",
       "summary": "arXiv:2610.10621v1 Announce Type: new Abstract: How does dynamic order emerge spontaneously in closed systems without external driving? Existing paradigms all require external ener",
@@ -2708,34 +2735,6 @@ window.AI_GENERATED_DATA = {
       "sourceDate": "2026-10-07",
       "tags": [],
       "url": "https://arxiv.org/abs/2610.06971",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Building a context-aware AI assistant on AgentCore and OpenClaw",
-      "summary": "Off-the-shelf AI assistants forget you between conversations. This post shows how to build a personal assistant that accumulates context using OpenClaw on Amazon Bedrock AgentCore ",
-      "category": "ai-agents",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-10-07",
-      "publishedAt": "2026-10-07T03:19",
-      "collectedAt": "2026-10-07T04:36",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/building-a-context-aware-ai-assistant-on-agentcore-and-openclaw/",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -10410,8 +10409,8 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-10-09",
-    "generatedAt": "2026-10-09T09:09:33.034467Z",
-    "total": 53,
+    "generatedAt": "2026-10-09T11:39:25.959456Z",
+    "total": 54,
     "sections": [
       {
         "category": "ai-coding",
@@ -10699,6 +10698,17 @@ window.AI_GENERATED_DATA = {
         "category": "ai-models",
         "label": "模型发布",
         "items": [
+          {
+            "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+            "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving huma",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/sophos",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-09",
+            "publishedAt": "2026-10-09T15:00",
+            "reason": ""
+          },
           {
             "title": "Share GPU clusters across teams with isolation and fairness using Amazon SageMaker HyperPod",
             "summary": "A reference architecture for securely sharing one Amazon SageMaker HyperPod EKS cluster across multiple teams, using AWS IAM Identity Center",
