@@ -1,7 +1,35 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-10-10",
-  "generatedAt": "2026-10-09T16:51:23.100595Z",
+  "generatedAt": "2026-10-09T19:12:04.558798Z",
   "news": [
+    {
+      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+      "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+      "category": "ai-coding",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-10-09",
+      "publishedAt": "2026-10-09T15:00",
+      "collectedAt": "2026-10-10T03:12",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/asana-browser-agent",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "How Postman runs Agent Mode for 40 million developers on Amazon Bedrock",
       "summary": "Building an AI agent that works in a demo is a different problem from running one for 40 million developers. Postman and AWS share the architectural patterns behind Agent Mode: con",
@@ -5635,6 +5663,28 @@ window.AI_GENERATED_DATA = {
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+        "description": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · OpenAI Blog",
+        "url": "https://openai.com/index/asana-browser-agent"
+      },
+      {
+        "name": "OpenAI 年化收入约 500 亿美元并寻求 300 亿美元新融资",
+        "provider": "The Decoder：AI News（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "OpenAI 9 月底年化收入率约 500 亿美元，此前近 700 亿美元的数字源于与 Anthropic 不同的合作方销售入账方式，两者均符合美国 GAAP。公司正洽谈至少 300 亿美元新融资，目标投前估值 1.4 万亿美元，企业业务推动 Q3 总收入增长 77%，FT 报告发布后芯片股曾下跌数个百分点。",
+        "description": "OpenAI 9 月底年化收入率约 500 亿美元，此前近 700 亿美元的数字源于与 Anthropic 不同的合作方销售入账方式，两者均符合美国 GAAP。公司正洽谈至少 300 亿美元新融资，目标投前估值 1.4 万亿美元，企业业务推动 Q3 总收入增长 77%，FT 报告发布后芯片股曾下跌数个百分点。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "The Decoder：AI News（RSS）",
+        "url": "https://the-decoder.com/openai-revenue-keeps-surging-as-company-seeks-30-billion-in-fresh-capital/"
+      },
+      {
         "name": "SparseDecoding: Decoding-Aware Pruning for Accurate and Effi",
         "provider": "arXiv",
         "type": "AI 项目/工具",
@@ -6051,28 +6101,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "X：Tibo (@thsottiaux)",
         "url": "https://x.com/thsottiaux/status/2104987594719461796"
-      },
-      {
-        "name": "Introducing GPT-6.1 Sol",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
-        "description": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · OpenAI Blog",
-        "url": "https://openai.com/index/introducing-gpt-6-1-sol"
-      },
-      {
-        "name": "DevDay 2026 Recap",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
-        "description": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · OpenAI Blog",
-        "url": "https://openai.com/index/devday-2026-recap"
       }
     ],
     "ai-agents": [
@@ -10196,13 +10224,24 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-10-10",
-    "generatedAt": "2026-10-09T16:51:23.079565Z",
-    "total": 22,
+    "generatedAt": "2026-10-09T19:12:04.533761Z",
+    "total": 23,
     "sections": [
       {
         "category": "ai-coding",
         "label": "AI 编程",
         "items": [
+          {
+            "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+            "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/asana-browser-agent",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-09",
+            "publishedAt": "2026-10-09T15:00",
+            "reason": ""
+          },
           {
             "title": "Freeze the Decoder, Heal the Encoder: Parameter-Efficient Adaptation for SVD-Based KV-Cache Compression",
             "summary": "arXiv:2610.10552v1 Announce Type: new Abstract: Comparing parameter-efficient fine-tuning recipes under a single, shared learning rate is a ",
