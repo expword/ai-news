@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-10-09",
-  "generatedAt": "2026-10-09T00:04:57.212847Z",
+  "generatedAt": "2026-10-09T02:39:46.820236Z",
   "news": [
     {
       "title": "Pay-per-inference for AI agents: How BlockRun and Incarna use Amazon Bedrock AgentCore payments",
@@ -81,6 +81,283 @@
       "aiSelected": true,
       "moduleTargets": [
         "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Normalizing Trajectory Models",
+      "summary": "Diffusion-based models decompose sampling into many small Gaussian denoising steps, an assumption that breaks down when generation is compressed to a few coarse transitions. Existi",
+      "category": "ai-models",
+      "source": "RSS · Apple ML Research",
+      "date": "2026-10-08",
+      "publishedAt": "2026-10-08T08:00",
+      "collectedAt": "2026-10-09T10:39",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://machinelearning.apple.com/research/normalizing-trajectory-models",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "MoR-MLLM: Mixture of Recursions for Efficient Multimodal Large Language Models",
+      "summary": "arXiv:2610.08830v1 Announce Type: new Abstract: Multimodal Large Language Models (MLLMs) have demonstrated remarkable reasoning capabilities across vision and language tasks. Howev",
+      "category": "ai-research",
+      "source": "RSS · arXiv cs.CV",
+      "date": "2026-10-08",
+      "publishedAt": "",
+      "collectedAt": "2026-10-09T10:39",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-08",
+      "tags": [],
+      "url": "https://arxiv.org/abs/2610.08830",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "PanoPed: Beyond Bounding Boxes for Sim-to-Real Panoramic Pedestrian Tracking",
+      "summary": "arXiv:2610.08826v1 Announce Type: new Abstract: Full-sphere panoramic cameras let fixed monitoring systems and mobile robots track people in every direction, but a planar bounding ",
+      "category": "ai-benchmark",
+      "source": "RSS · arXiv cs.CV",
+      "date": "2026-10-08",
+      "publishedAt": "",
+      "collectedAt": "2026-10-09T10:39",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-08",
+      "tags": [],
+      "url": "https://arxiv.org/abs/2610.08826",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Autonomous Driving Research Requires a Community-Driven Data Paradigm",
+      "summary": "arXiv:2610.08825v1 Announce Type: new Abstract: Autonomous driving has made remarkable progress, with recent AI advances enabling commercial deployments that are reshaping urban mo",
+      "category": "ai-benchmark",
+      "source": "RSS · arXiv cs.CV",
+      "date": "2026-10-08",
+      "publishedAt": "",
+      "collectedAt": "2026-10-09T10:39",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-08",
+      "tags": [],
+      "url": "https://arxiv.org/abs/2610.08825",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "VCR-Bench: A Modular Open-Source Benchmark for Video Classification Robustness",
+      "summary": "arXiv:2610.08936v1 Announce Type: new Abstract: Robustness of image classification has several benchmarks, but their video counterparts are absent. In video classification temporal",
+      "category": "ai-benchmark",
+      "source": "RSS · arXiv cs.CV",
+      "date": "2026-10-08",
+      "publishedAt": "",
+      "collectedAt": "2026-10-09T10:39",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-08",
+      "tags": [],
+      "url": "https://arxiv.org/abs/2610.08936",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "benchmarkDatasets"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "SPW-Nav: A Streaming Panoramic World Model for Language-Guided Navigation",
+      "summary": "arXiv:2610.08941v1 Announce Type: new Abstract: Language-guided panoramic video generation benefits various downstream applications, such as interactive 3D scene exploration, virtu",
+      "category": "ai-agents",
+      "source": "RSS · arXiv cs.CV",
+      "date": "2026-10-08",
+      "publishedAt": "",
+      "collectedAt": "2026-10-09T10:39",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-08",
+      "tags": [],
+      "url": "https://arxiv.org/abs/2610.08941",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Pre-training, Reasoning, Benchmarking: X-ray Report Generation on CheXpert Plus Dataset",
+      "summary": "arXiv:2610.08813v1 Announce Type: new Abstract: X-ray image-based Radiology Report Generation (RRG) constitutes a critical research direction within medical artificial intelligence",
+      "category": "ai-benchmark",
+      "source": "RSS · arXiv cs.CV",
+      "date": "2026-10-08",
+      "publishedAt": "",
+      "collectedAt": "2026-10-09T10:39",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-08",
+      "tags": [],
+      "url": "https://arxiv.org/abs/2610.08813",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "OmniCapBench: A Deep-Structured Evaluation Framework for Fine-Grained Audio-Visual Captioning",
+      "summary": "Multimodal large language models (MLLMs) are rapidly evolving toward continuous audio--visual reasoning, creating an urgent need for evaluations that expose their capability limits",
+      "category": "ai-benchmark",
+      "source": "arXiv",
+      "date": "2026-10-08",
+      "publishedAt": "",
+      "collectedAt": "2026-10-09T10:39",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-08",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.12458v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "benchmarkDatasets",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "One-Slide Calibration of Pathology Foundation Models",
+      "summary": "arXiv:2610.08944v1 Announce Type: new Abstract: Scanner variation changes how pathology foundation models represent the same tissue. We introduce SlideRuler, which uses regions wit",
+      "category": "ai-coding",
+      "source": "RSS · arXiv cs.CV",
+      "date": "2026-10-08",
+      "publishedAt": "",
+      "collectedAt": "2026-10-09T10:39",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-08",
+      "tags": [],
+      "url": "https://arxiv.org/abs/2610.08944",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "RACER: Reflective Agent Coupling Query Interpretation and Tool-Based Retrieval for Frame Selection in Long Video Understanding",
+      "summary": "arXiv:2610.08954v1 Announce Type: new Abstract: Video large language models (Vid-LLMs) excel at diverse video-language tasks by reasoning over selected frames. However, frame selec",
+      "category": "ai-agents",
+      "source": "RSS · arXiv cs.CV",
+      "date": "2026-10-08",
+      "publishedAt": "",
+      "collectedAt": "2026-10-09T10:39",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-08",
+      "tags": [],
+      "url": "https://arxiv.org/abs/2610.08954",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
       ],
       "sourceCount": 1
     },
@@ -2487,170 +2764,6 @@
       "tier": "T1.5",
       "scores": {},
       "score": 56,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Negotiating Ontological Boundaries in User-Authored Personal Sensing Systems",
-      "summary": "Designed artifacts are ontological, shaping, and at times limiting, what becomes possible or imaginable. One path toward mitigating such foreclosures is giving people power over ho",
-      "category": "ai-models",
-      "source": "RSS · Apple ML Research",
-      "date": "2026-10-05",
-      "publishedAt": "2026-10-05T08:00",
-      "collectedAt": "2026-10-07T16:37",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://machinelearning.apple.com/research/ontological-boundary-negotiation",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "JEV versus LLMs: Accuracy, Cost and Calibration on Seven Political Science Replications",
-      "summary": "Large language models (LLMs) annotate and scale political text or constructs by generating text tokens. A new class of models, which TypeSafe markets as \"System One\" models, instea",
-      "category": "ai-business",
-      "source": "arXiv",
-      "date": "2026-10-05",
-      "publishedAt": "",
-      "collectedAt": "2026-10-06T13:58",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-05",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.06625v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Large Language Model-Guided Discovery of Weight-Five Bivariate Bicycle Codes",
-      "summary": "Building on our earlier program-evolution workflow guided by large language models (LLMs), we study weight-five bivariate bicycle (BB) and perturbed bivariate bicycle (PBB) codes. ",
-      "category": "ai-coding",
-      "source": "arXiv",
-      "date": "2026-10-05",
-      "publishedAt": "",
-      "collectedAt": "2026-10-06T13:58",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-05",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.06623v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "FREA: A Multi-Source Expert Benchmark for Reaction Feasibility Verification",
-      "summary": "As generative models and AI agents propose chemical reactions at a scale beyond expert review, feasibility verifiers decide which proposals enter synthesis planning. But do their d",
-      "category": "ai-benchmark",
-      "source": "arXiv",
-      "date": "2026-10-05",
-      "publishedAt": "",
-      "collectedAt": "2026-10-06T13:58",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-05",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.06614v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "OrigaMIG: MIG-Aware VM Placement with a Neighborhood-Restricted BILP and Live Migration",
-      "summary": "The extensive use of GPUs in cloud computing, accelerated by the spread of large language model (LLM) services, and the growing need for multitenancy have driven the development of",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-10-05",
-      "publishedAt": "",
-      "collectedAt": "2026-10-06T13:58",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-05",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.06646v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "LoGRA: Scaling LLM Reinforcement Learning with Low-Rank Gradient Sketches",
-      "summary": "Reinforcement learning (RL) has greatly advanced the capabilities of large language models (LLMs), but its memory demands remain a barrier to broader adoption. We introduce LoGRA, ",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-10-05",
-      "publishedAt": "",
-      "collectedAt": "2026-10-06T13:58",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-05",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.06647v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
       "aiSelected": true,
       "moduleTargets": [
         "news"
@@ -6197,6 +6310,17 @@
     ],
     "ai-agents": [
       {
+        "name": "RACER: Reflective Agent Coupling Query Interpretation and To",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "arXiv:2610.08954v1 Announce Type: new Abstract: Video large language models (Vid-LLMs) excel at diverse video-language tasks by reasoning over selected frames. ",
+        "description": "arXiv:2610.08954v1 Announce Type: new Abstract: Video large language models (Vid-LLMs) excel at diverse video-language tasks by reasoning over selected frames. However, frame selec",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · arXiv cs.CV",
+        "url": "https://arxiv.org/abs/2610.08954"
+      },
+      {
         "name": "NVIDIA KGMON 团队分享 KDD Cup 2026 数据分析智能体的构建经验",
         "provider": "NVIDIA Technical Blog：Agentic AI / Generative AI",
         "type": "AI 项目/工具",
@@ -6624,17 +6748,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Sierra：Blog（RSS）",
         "url": "https://sierra.ai/blog/introducing-personal-agent-protocol"
-      },
-      {
-        "name": "Build a voice travel concierge with Amazon Bedrock AgentCore",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Add a voice travel concierge to an airline app with Amazon Bedrock AgentCore, Amazon Nova Sonic for real-time speech, and Amazon Bedrock Knowledge Bases for pol",
-        "description": "Add a voice travel concierge to an airline app with Amazon Bedrock AgentCore, Amazon Nova Sonic for real-time speech, and Amazon Bedrock Knowledge Bases for policy answers. Travele",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/build-a-voice-travel-concierge-with-amazon-bedrock-agentcore-managed-knowledge-base-and-nova-sonic/"
       }
     ],
     "ai-models": [
@@ -8028,6 +8141,28 @@
     ],
     "ai-image-video": [
       {
+        "name": "SPW-Nav: A Streaming Panoramic World Model for Language-Guid",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "arXiv:2610.08941v1 Announce Type: new Abstract: Language-guided panoramic video generation benefits various downstream applications, such as interactive 3D scen",
+        "description": "arXiv:2610.08941v1 Announce Type: new Abstract: Language-guided panoramic video generation benefits various downstream applications, such as interactive 3D scene exploration, virtu",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · arXiv cs.CV",
+        "url": "https://arxiv.org/abs/2610.08941"
+      },
+      {
+        "name": "OmniCapBench: A Deep-Structured Evaluation Framework for Fin",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Multimodal large language models (MLLMs) are rapidly evolving toward continuous audio--visual reasoning, creating an urgent need for evaluations that expose the",
+        "description": "Multimodal large language models (MLLMs) are rapidly evolving toward continuous audio--visual reasoning, creating an urgent need for evaluations that expose their capability limits",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2610.12458v1"
+      },
+      {
         "name": "Google debuts SynthID Detector tool for flagging AI-generate",
         "provider": "NewsData.io",
         "type": "AI 项目/工具",
@@ -8444,31 +8579,31 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Social Media Today | A business community for the web's best thinkers on Social Media",
         "url": "https://www.socialmediatoday.com/news/meta-adds-new-ai-subscription-packages/828904/"
-      },
-      {
-        "name": "Luce: Relightable Gaussians for 3D Asset Generation",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "High-fidelity image-to-3D generation requires a 3D representation that captures both geometry and appearance. To support relighting and integration into standar",
-        "description": "High-fidelity image-to-3D generation requires a 3D representation that captures both geometry and appearance. To support relighting and integration into standard rendering pipeline",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · Apple ML Research",
-        "url": "https://machinelearning.apple.com/research/relightable-gaussians-3d-generation"
-      },
-      {
-        "name": "STARFlow2: Bridging Language Models and Normalizing Flows fo",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Unified multimodal models that understand, reason over, and generate interleaved text–image sequences remain structurally fragmented: existing approaches either",
-        "description": "Unified multimodal models that understand, reason over, and generate interleaved text–image sequences remain structurally fragmented: existing approaches either sacrifice visual fi",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · Apple ML Research",
-        "url": "https://machinelearning.apple.com/research/starflow2-multimodal-generation"
       }
     ],
     "ai-research": [
+      {
+        "name": "Normalizing Trajectory Models",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Diffusion-based models decompose sampling into many small Gaussian denoising steps, an assumption that breaks down when generation is compressed to a few coarse",
+        "description": "Diffusion-based models decompose sampling into many small Gaussian denoising steps, an assumption that breaks down when generation is compressed to a few coarse transitions. Existi",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Apple ML Research",
+        "url": "https://machinelearning.apple.com/research/normalizing-trajectory-models"
+      },
+      {
+        "name": "Autonomous Driving Research Requires a Community-Driven Data",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "arXiv:2610.08825v1 Announce Type: new Abstract: Autonomous driving has made remarkable progress, with recent AI advances enabling commercial deployments that ar",
+        "description": "arXiv:2610.08825v1 Announce Type: new Abstract: Autonomous driving has made remarkable progress, with recent AI advances enabling commercial deployments that are reshaping urban mo",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · arXiv cs.CV",
+        "url": "https://arxiv.org/abs/2610.08825"
+      },
       {
         "name": "LLM-Assisted Generation of Transparent, Open-Source Multiphy",
         "provider": "arXiv",
@@ -8886,28 +9021,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2609.31122v1"
-      },
-      {
-        "name": "A Practical Recipe for Semi-Supervised Federated ASR: Online",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Semi-supervised federated learning (SSFL) trains models on clients’ unlabeled data using a teacher to generate pseudo-labels, with a small labeled seed dataset ",
-        "description": "Semi-supervised federated learning (SSFL) trains models on clients’ unlabeled data using a teacher to generate pseudo-labels, with a small labeled seed dataset on the server. Autom",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · Apple ML Research",
-        "url": "https://machinelearning.apple.com/research/practical-recipe-federated-asr"
-      },
-      {
-        "name": "PrivDrift: Auditing User-Secret Leakage Under Topic Drift in",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Large language models increasingly operate as persistent assistants in user-facing, shared-session, and tool-augmented settings. When users disclose sensitive i",
-        "description": "Large language models increasingly operate as persistent assistants in user-facing, shared-session, and tool-augmented settings. When users disclose sensitive information during an",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2609.30094v1"
       }
     ],
     "ai-office": []
@@ -10316,8 +10429,8 @@
   ],
   "dailyReport": {
     "date": "2026-10-09",
-    "generatedAt": "2026-10-09T00:04:57.193623Z",
-    "total": 12,
+    "generatedAt": "2026-10-09T02:39:46.799208Z",
+    "total": 22,
     "sections": [
       {
         "category": "ai-coding",
@@ -10332,6 +10445,17 @@
             "sourceCount": 1,
             "date": "2026-10-09",
             "publishedAt": "2026-10-09T00:00",
+            "reason": ""
+          },
+          {
+            "title": "One-Slide Calibration of Pathology Foundation Models",
+            "summary": "arXiv:2610.08944v1 Announce Type: new Abstract: Scanner variation changes how pathology foundation models represent the same tissue. We intr",
+            "source": "RSS · arXiv cs.CV",
+            "url": "https://arxiv.org/abs/2610.08944",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-08",
+            "publishedAt": "",
             "reason": ""
           },
           {
@@ -10391,6 +10515,28 @@
             "reason": ""
           },
           {
+            "title": "SPW-Nav: A Streaming Panoramic World Model for Language-Guided Navigation",
+            "summary": "arXiv:2610.08941v1 Announce Type: new Abstract: Language-guided panoramic video generation benefits various downstream applications, such as",
+            "source": "RSS · arXiv cs.CV",
+            "url": "https://arxiv.org/abs/2610.08941",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-08",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "RACER: Reflective Agent Coupling Query Interpretation and Tool-Based Retrieval for Frame Selection in Long Video Understanding",
+            "summary": "arXiv:2610.08954v1 Announce Type: new Abstract: Video large language models (Vid-LLMs) excel at diverse video-language tasks by reasoning ov",
+            "source": "RSS · arXiv cs.CV",
+            "url": "https://arxiv.org/abs/2610.08954",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-08",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
             "title": "Agent Lightning v1.0: A 3,500-Line Lightweight Agentic RL Framework for Training Agents with Real Harnesses",
             "summary": "Training AI agents with reinforcement learning can be challenging because their tools, context, and decision-making are managed by complex f",
             "source": "RSS · Microsoft Research",
@@ -10416,6 +10562,17 @@
             "sourceCount": 1,
             "date": "2026-10-09",
             "publishedAt": "2026-10-09T00:20",
+            "reason": ""
+          },
+          {
+            "title": "Normalizing Trajectory Models",
+            "summary": "Diffusion-based models decompose sampling into many small Gaussian denoising steps, an assumption that breaks down when generation is compre",
+            "source": "RSS · Apple ML Research",
+            "url": "https://machinelearning.apple.com/research/normalizing-trajectory-models",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-08",
+            "publishedAt": "2026-10-08T08:00",
             "reason": ""
           },
           {
@@ -10471,6 +10628,84 @@
             "sourceCount": 1,
             "date": "2026-10-08",
             "publishedAt": "2026-10-08T02:34",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "category": "ai-benchmark",
+        "label": "评测榜单",
+        "items": [
+          {
+            "title": "PanoPed: Beyond Bounding Boxes for Sim-to-Real Panoramic Pedestrian Tracking",
+            "summary": "arXiv:2610.08826v1 Announce Type: new Abstract: Full-sphere panoramic cameras let fixed monitoring systems and mobile robots track people in",
+            "source": "RSS · arXiv cs.CV",
+            "url": "https://arxiv.org/abs/2610.08826",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-08",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Autonomous Driving Research Requires a Community-Driven Data Paradigm",
+            "summary": "arXiv:2610.08825v1 Announce Type: new Abstract: Autonomous driving has made remarkable progress, with recent AI advances enabling commercial",
+            "source": "RSS · arXiv cs.CV",
+            "url": "https://arxiv.org/abs/2610.08825",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-08",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "VCR-Bench: A Modular Open-Source Benchmark for Video Classification Robustness",
+            "summary": "arXiv:2610.08936v1 Announce Type: new Abstract: Robustness of image classification has several benchmarks, but their video counterparts are ",
+            "source": "RSS · arXiv cs.CV",
+            "url": "https://arxiv.org/abs/2610.08936",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-08",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Pre-training, Reasoning, Benchmarking: X-ray Report Generation on CheXpert Plus Dataset",
+            "summary": "arXiv:2610.08813v1 Announce Type: new Abstract: X-ray image-based Radiology Report Generation (RRG) constitutes a critical research directio",
+            "source": "RSS · arXiv cs.CV",
+            "url": "https://arxiv.org/abs/2610.08813",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-08",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "OmniCapBench: A Deep-Structured Evaluation Framework for Fine-Grained Audio-Visual Captioning",
+            "summary": "Multimodal large language models (MLLMs) are rapidly evolving toward continuous audio--visual reasoning, creating an urgent need for evaluat",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.12458v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-08",
+            "publishedAt": "",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "category": "ai-research",
+        "label": "论文研究",
+        "items": [
+          {
+            "title": "MoR-MLLM: Mixture of Recursions for Efficient Multimodal Large Language Models",
+            "summary": "arXiv:2610.08830v1 Announce Type: new Abstract: Multimodal Large Language Models (MLLMs) have demonstrated remarkable reasoning capabilities",
+            "source": "RSS · arXiv cs.CV",
+            "url": "https://arxiv.org/abs/2610.08830",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-08",
+            "publishedAt": "",
             "reason": ""
           }
         ]
@@ -19717,6 +19952,30 @@
     ]
   },
   "benchmarkDatasets": [
+    {
+      "name": "VCR-Bench",
+      "area": "AI 模型能力评测",
+      "note": "arXiv:2610.08936v1 Announce Type: new Abstract: Robustness of image classification has several benchmarks, but their video counterparts are absent. In video classification temporal",
+      "source": "https://arxiv.org/abs/2610.08936",
+      "sourceName": "RSS · arXiv cs.CV",
+      "date": "2026-10-08",
+      "originTitle": "VCR-Bench: A Modular Open-Source Benchmark for Video Classification Robustness",
+      "evaluates": [],
+      "useCases": [],
+      "limitations": []
+    },
+    {
+      "name": "OmniCapBench",
+      "area": "视觉感知 / 多模态",
+      "note": "Multimodal large language models (MLLMs) are rapidly evolving toward continuous audio--visual reasoning, creating an urgent need for evaluations that expose their capability limits",
+      "source": "http://arxiv.org/abs/2610.12458v1",
+      "sourceName": "arXiv",
+      "date": "2026-10-08",
+      "originTitle": "OmniCapBench: A Deep-Structured Evaluation Framework for Fine-Grained Audio-Visual Captioning",
+      "evaluates": [],
+      "useCases": [],
+      "limitations": []
+    },
     {
       "name": "PHRBench",
       "area": "AI 模型能力评测",
