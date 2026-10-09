@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-10-10",
-  "generatedAt": "2026-10-09T19:12:04.558798Z",
+  "generatedAt": "2026-10-09T21:31:41.234350Z",
   "news": [
     {
       "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
@@ -6105,6 +6105,17 @@
     ],
     "ai-agents": [
       {
+        "name": "Sierra 发布 Personal Agent Protocol（Poppy）协议草案，新增 35 家设计伙伴",
+        "provider": "Sierra：Blog（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "Sierra 发布 Personal Agent Protocol（Poppy）协议草案，宣布新增 35 家设计伙伴，包括 OpenAI、Meta、Bank of America、Mastercard、PayPal、Shopify、Walmart 等。",
+        "description": "Sierra 发布 Personal Agent Protocol（Poppy）协议草案，宣布新增 35 家设计伙伴，包括 OpenAI、Meta、Bank of America、Mastercard、PayPal、Shopify、Walmart 等。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Sierra：Blog（RSS）",
+        "url": "https://sierra.ai/blog/poppy"
+      },
+      {
         "name": "How Postman runs Agent Mode for 40 million developers on Ama",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -6532,17 +6543,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "vLLM 官方博客（RSS）",
         "url": "https://vllm.ai/blog/2026-10-07-deepseek-v41-flash"
-      },
-      {
-        "name": "NVIDIA 与 Microsoft 发布 RTX Spark 及 DGX Station for Windows，推动",
-        "provider": "NVIDIA Blog（RSS）",
-        "type": "AI 项目/工具",
-        "bestFor": "NVIDIA 与 Microsoft 在旧金山 Windows AI 和 Surface 活动上宣布为 Windows PC 引入 AI Agent 硬件与软件。",
-        "description": "NVIDIA 与 Microsoft 在旧金山 Windows AI 和 Surface 活动上宣布为 Windows PC 引入 AI Agent 硬件与软件。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NVIDIA Blog（RSS）",
-        "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/"
       }
     ],
     "ai-models": [
@@ -10224,7 +10224,7 @@
   ],
   "dailyReport": {
     "date": "2026-10-10",
-    "generatedAt": "2026-10-09T19:12:04.533761Z",
+    "generatedAt": "2026-10-09T21:31:41.206390Z",
     "total": 23,
     "sections": [
       {
