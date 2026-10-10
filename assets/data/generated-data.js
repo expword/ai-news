@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-10-10",
-  "generatedAt": "2026-10-10T12:41:36.800290Z",
+  "generatedAt": "2026-10-10T13:57:09.745252Z",
   "news": [
     {
       "title": "Large Language Model-Assisted Preparation of Transportation Management Plans: A Case Study with WisDOT WisTMP System",
@@ -5569,6 +5569,17 @@ window.AI_GENERATED_DATA = {
   "topicResources": {
     "ai-coding": [
       {
+        "name": "AI and Rust converge in compiler ports, creative suites and ",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "AI-assisted Rust experiments are reshaping compiler ports, free creative suites and agent command output. See costs, benchmarks and limits. The post AI and Rust",
+        "description": "AI-assisted Rust experiments are reshaping compiler ports, free creative suites and agent command output. See costs, benchmarks and limits. The post AI and Rust converge in compile",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI coding tool",
+        "url": "https://www.sourcetrail.com/rust/ai-and-rust-converge-in-compiler-ports-creative-suites-and-agent-tooling/"
+      },
+      {
         "name": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -5996,20 +6007,64 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2609.36956v1"
-      },
-      {
-        "name": "OpenAI 推出新版 Codex Cloud，Agents API 开放预览并支持 computer use",
-        "provider": "X：Tibo (@thsottiaux)",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenAI 推出大幅升级的新版 Codex Cloud，主打可配置云环境，作者称配置后很难回到本地开发。同时 Agents API（驱动 dots 等云智能体的同一技术）开启预览，支持 computer use，可用于构建同类产品。",
-        "description": "OpenAI 推出大幅升级的新版 Codex Cloud，主打可配置云环境，作者称配置后很难回到本地开发。同时 Agents API（驱动 dots 等云智能体的同一技术）开启预览，支持 computer use，可用于构建同类产品。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "X：Tibo (@thsottiaux)",
-        "url": "https://x.com/thsottiaux/status/2104987594719461796"
       }
     ],
     "ai-agents": [
+      {
+        "name": "Cutting-edge tech powers smart National Day travel in China",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "BEIJING, Oct. 10 (Xinhua) -- A 2,000-km road trip from Beijing to China's northern border in Inner Mongolia became less tiring for traveler Lu Jian during the N",
+        "description": "BEIJING, Oct. 10 (Xinhua) -- A 2,000-km road trip from Beijing to China's northern border in Inner Mongolia became less tiring for traveler Lu Jian during the National Day holiday,",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "http://www.turkmenistannews.net/news/279362918/cutting-edge-tech-powers-smart-national-day-travel-in-china"
+      },
+      {
+        "name": "Cutting-edge tech powers smart National Day travel in China",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "BEIJING, Oct. 10 (Xinhua) -- A 2,000-km road trip from Beijing to China's northern border in Inner Mongolia became less tiring for traveler Lu Jian during the N",
+        "description": "BEIJING, Oct. 10 (Xinhua) -- A 2,000-km road trip from Beijing to China's northern border in Inner Mongolia became less tiring for traveler Lu Jian during the National Day holiday,",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "http://www.pekingpress.com/news/279362918/cutting-edge-tech-powers-smart-national-day-travel-in-china"
+      },
+      {
+        "name": "Anthropic AI model sent fake murder tip to unsolved killings",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "SAN FRANCISCO, Oct 10 — An artificial intelligence model developed by Anthropic submitted a fabricated tip about a...",
+        "description": "SAN FRANCISCO, Oct 10 — An artificial intelligence model developed by Anthropic submitted a fabricated tip about a...",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.malaymail.com/news/world/2026/10/10/anthropic-ai-model-sent-fake-murder-tip-to-unsolved-killings-website-philadelphia-police-say/238501"
+      },
+      {
+        "name": "Cutting-edge tech powers smart National Day travel in China",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "BEIJING, Oct. 10 (Xinhua) -- A 2,000-km road trip from Beijing to China's northern border in Inner Mongolia became less tiring for traveler Lu Jian during the N",
+        "description": "BEIJING, Oct. 10 (Xinhua) -- A 2,000-km road trip from Beijing to China's northern border in Inner Mongolia became less tiring for traveler Lu Jian during the National Day holiday,",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "http://www.beijingbulletin.com/news/279362918/cutting-edge-tech-powers-smart-national-day-travel-in-china"
+      },
+      {
+        "name": "Cutting-edge tech powers smart National Day travel in China",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "BEIJING, Oct. 10 (Xinhua) -- A 2,000-km road trip from Beijing to China's northern border in Inner Mongolia became less tiring for traveler Lu Jian during the N",
+        "description": "BEIJING, Oct. 10 (Xinhua) -- A 2,000-km road trip from Beijing to China's northern border in Inner Mongolia became less tiring for traveler Lu Jian during the National Day holiday,",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "http://www.tajikistannews.net/news/279362918/cutting-edge-tech-powers-smart-national-day-travel-in-china"
+      },
       {
         "name": "Anthropic 承认难以可靠控制其 AI 智能体，将切断内部评测的实时联网",
         "provider": "TechCrunch：AI（RSS）",
@@ -6394,61 +6449,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:Google Gemini",
         "url": "https://twit.tv/shows/intelligent-machines/episodes/891"
-      },
-      {
-        "name": "Kaspersky issues guidelines on securing AI agents with Cyber",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Kaspersky has shared guidelines on mitigating risks associated with the use of autonomous AI agents in a corporate infrastructure. The document applies the",
-        "description": "Kaspersky has shared guidelines on mitigating risks associated with the use of autonomous AI agents in a corporate infrastructure. The document applies the",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:large language model",
-        "url": "https://www.bizbahrain.com/kaspersky-issues-guidelines-on-securing-ai-agents-with-cyber-immunity-approach/"
-      },
-      {
-        "name": "Students explore AI tools through new centre of excellence",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "The centre is designed to support practical work in areas such as machine learning, deep learning, generative AI, edge AI, agentic AI and data-intensive researc",
-        "description": "The centre is designed to support practical work in areas such as machine learning, deep learning, generative AI, edge AI, agentic AI and data-intensive research.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:large language model",
-        "url": "https://www.thehansindia.com/hans/young-hans/students-explore-ai-tools-through-new-centre-of-excellence-1130096"
-      },
-      {
-        "name": "【AIHOT 通知】旧版接口 2026 年 10 月 31 日停用，推送机器人和脚本请尽快迁移",
-        "provider": "原始来源",
-        "type": "AI 项目/工具",
-        "bestFor": "这条消息来自 AIHOT 旧版接口 /api/public/*：它将于 2026 年 10 月 31 日停用，之后这里不会再有新资讯。如果它是群机器人或脚本推送来的，请转告维护的人把地址换成 https://aihot.news/api/v1，字段一一对应；迁移指南和可以直接交给 AI 改写代码的提示词见 https:",
-        "description": "这条消息来自 AIHOT 旧版接口 /api/public/*：它将于 2026 年 10 月 31 日停用，之后这里不会再有新资讯。如果它是群机器人或脚本推送来的，请转告维护的人把地址换成 https://aihot.news/api/v1，字段一一对应；迁移指南和可以直接交给 AI 改写代码的提示词见 https://aihot.news/agent?t",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "原始来源",
-        "url": "https://aihot.news/agent?tab=api#legacy-api-migration"
-      },
-      {
-        "name": "LOCAA: An Agentic System for Automated Lossy Compressor Tuni",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Large-scale scientific simulations generate substantial data volumes, making lossy compression essential for reducing storage and data movement costs. However, ",
-        "description": "Large-scale scientific simulations generate substantial data volumes, making lossy compression essential for reducing storage and data movement costs. However, users configure comp",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2610.10487v1"
-      },
-      {
-        "name": "Training Advisors for LLM Agents from Task Outcomes",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Large language model agents tackle multi-step tasks by interleaving reasoning and tool calls with observations from the environment. Prior work has shown that n",
-        "description": "Large language model agents tackle multi-step tasks by interleaving reasoning and tool calls with observations from the environment. Prior work has shown that natural-language feed",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2610.09858v1"
       }
     ],
     "ai-models": [
@@ -10130,7 +10130,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-10-10",
-    "generatedAt": "2026-10-10T12:41:36.779290Z",
+    "generatedAt": "2026-10-10T13:57:09.724252Z",
     "total": 30,
     "sections": [
       {
