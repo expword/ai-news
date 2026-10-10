@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-10-10",
-  "generatedAt": "2026-10-10T02:23:40.184388Z",
+  "generatedAt": "2026-10-10T04:56:06.527242Z",
   "news": [
     {
       "title": "Large Language Model-Assisted Preparation of Transportation Management Plans: A Case Study with WisDOT WisTMP System",
@@ -2682,34 +2682,6 @@ window.AI_GENERATED_DATA = {
       "sourceDate": "",
       "tags": [],
       "url": "https://openai.com/index/teens-learn-and-plan",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Introducing Playground: Create and play custom games",
-      "summary": "Playground is a new experimental gaming platform that lets you create, play, and share custom games.",
-      "category": "ai-models",
-      "source": "RSS · Google AI Blog",
-      "date": "2026-10-07",
-      "publishedAt": "2026-10-07T20:00",
-      "collectedAt": "2026-10-08T00:13",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -10384,7 +10356,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-10-10",
-    "generatedAt": "2026-10-10T02:23:40.161352Z",
+    "generatedAt": "2026-10-10T04:56:06.498213Z",
     "total": 30,
     "sections": [
       {
