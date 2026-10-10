@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-10-10",
-  "generatedAt": "2026-10-10T06:17:10.055680Z",
+  "generatedAt": "2026-10-10T10:08:08.745920Z",
   "news": [
     {
       "title": "Large Language Model-Assisted Preparation of Transportation Management Plans: A Case Study with WisDOT WisTMP System",
@@ -2695,6 +2695,33 @@ window.AI_GENERATED_DATA = {
       "moduleTargets": [
         "news",
         "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Language Models for Text Classification: From Bag-of-Words to Jev",
+      "summary": "A Visual Guide to RNNs, CNNs, Transformers, and Calibration, with Hands-On Experiments on Accuracy and Efficiency",
+      "category": "ai-models",
+      "source": "RSS · Sebastian Raschka",
+      "date": "2026-09-29",
+      "publishedAt": "2026-09-29T18:50",
+      "collectedAt": "2026-10-10T18:08",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://magazine.sebastianraschka.com/p/classifier-history-and-jev",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1.5",
+      "scores": {},
+      "score": 56,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
       ],
       "sourceCount": 1
     }
@@ -10356,7 +10383,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-10-10",
-    "generatedAt": "2026-10-10T06:17:10.032680Z",
+    "generatedAt": "2026-10-10T10:08:08.725888Z",
     "total": 30,
     "sections": [
       {
