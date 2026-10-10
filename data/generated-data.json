@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-10",
-  "generatedAt": "2026-10-10T13:57:09.745252Z",
+  "lastUpdated": "2026-10-11",
+  "generatedAt": "2026-10-10T16:27:21.809195Z",
   "news": [
     {
       "title": "Large Language Model-Assisted Preparation of Transportation Management Plans: A Case Study with WisDOT WisTMP System",
@@ -10129,9 +10129,9 @@
     }
   ],
   "dailyReport": {
-    "date": "2026-10-10",
-    "generatedAt": "2026-10-10T13:57:09.724252Z",
-    "total": 30,
+    "date": "2026-10-11",
+    "generatedAt": "2026-10-10T16:27:21.785582Z",
+    "total": 23,
     "sections": [
       {
         "category": "ai-coding",
@@ -10179,17 +10179,6 @@
             "sourceCount": 1,
             "date": "2026-10-09",
             "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
-            "summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Code",
-            "source": "RSS · OpenAI Blog",
-            "url": "https://openai.com/index/oracle",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-09",
-            "publishedAt": "2026-10-09T00:00",
             "reason": ""
           }
         ]
@@ -10246,72 +10235,6 @@
             "sourceCount": 1,
             "date": "2026-10-09",
             "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Agent-Controlled Forgetting for Tool-Using Agents: Reversible Context Curation in Practice",
-            "summary": "arXiv:2610.10590v1 Announce Type: new Abstract: Tool-using agents repeatedly carry observations whose useful content can be much smaller tha",
-            "source": "RSS · arXiv cs.AI",
-            "url": "https://arxiv.org/abs/2610.10590",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-09",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Speaking the Navigator's Language: Trajectory-Grounded Instruction Translation for Frozen Aerial VLN Agents",
-            "summary": "arXiv:2610.10635v1 Announce Type: new Abstract: Aerial vision-and-language navigation (VLN) agents are typically trained on detail-rich, tra",
-            "source": "RSS · arXiv cs.AI",
-            "url": "https://arxiv.org/abs/2610.10635",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-09",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Plan-and-Patch: Diffusion Language Models for Agentic Planning",
-            "summary": "arXiv:2610.10786v1 Announce Type: new Abstract: Planning is increasingly important for long-horizon agents, where successful execution requi",
-            "source": "RSS · arXiv cs.AI",
-            "url": "https://arxiv.org/abs/2610.10786",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-09",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Verification and Self-Improvement in Agentic AI: Foundations and Limits",
-            "summary": "arXiv:2610.10611v1 Announce Type: new Abstract: Agentic AI systems can improve by searching longer, receiving additional support, or modifyi",
-            "source": "RSS · arXiv cs.AI",
-            "url": "https://arxiv.org/abs/2610.10611",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-09",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Synthesis Through Simulation: Generating Coherent Enterprise Data via Scalable Agent-System Interaction",
-            "summary": "arXiv:2610.10549v1 Announce Type: new Abstract: Tool-calling agents have become central to enterprise AI, yet training and evaluating them a",
-            "source": "RSS · arXiv cs.AI",
-            "url": "https://arxiv.org/abs/2610.10549",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-09",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Pay-per-inference for AI agents: How BlockRun and Incarna use Amazon Bedrock AgentCore payments",
-            "summary": "Amazon Bedrock AgentCore payments gives AI agents a managed way to pay for services on demand, with spending limits enforced by the infrastr",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/pay-per-inference-for-ai-agents-how-blockrun-and-incarna-use-amazon-bedrock-agentcore-payments/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-09",
-            "publishedAt": "2026-10-09T02:33",
             "reason": ""
           }
         ]
@@ -10496,6 +10419,373 @@
     ]
   },
   "dailyReports": [
+    {
+      "date": "2026-10-10",
+      "generatedAt": "2026-10-10T16:00:31.602255Z",
+      "total": 30,
+      "sections": [
+        {
+          "category": "ai-coding",
+          "label": "AI 编程",
+          "items": [
+            {
+              "title": "Lossy Compressive Text Autoencoders",
+              "summary": "arXiv:2610.10738v1 Announce Type: new Abstract: Our work explores learning a compressed latent representation of text, at the intersection o",
+              "source": "RSS · arXiv cs.CL",
+              "url": "https://arxiv.org/abs/2610.10738",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-09",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+              "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+              "source": "RSS · OpenAI Blog",
+              "url": "https://openai.com/index/asana-browser-agent",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-09",
+              "publishedAt": "2026-10-09T15:00",
+              "reason": ""
+            },
+            {
+              "title": "Freeze the Decoder, Heal the Encoder: Parameter-Efficient Adaptation for SVD-Based KV-Cache Compression",
+              "summary": "arXiv:2610.10552v1 Announce Type: new Abstract: Comparing parameter-efficient fine-tuning recipes under a single, shared learning rate is a ",
+              "source": "RSS · arXiv cs.LG",
+              "url": "https://arxiv.org/abs/2610.10552",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-09",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "Temporal transformer CAN encoder with federated lightweight heads for anomaly detection",
+              "summary": "arXiv:2610.10613v1 Announce Type: new Abstract: Modern vehicles rely on large numbers of Electronic Control Units (ECUs) that constantly exc",
+              "source": "RSS · arXiv cs.LG",
+              "url": "https://arxiv.org/abs/2610.10613",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-09",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+              "summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Code",
+              "source": "RSS · OpenAI Blog",
+              "url": "https://openai.com/index/oracle",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-09",
+              "publishedAt": "2026-10-09T00:00",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-image-video",
+          "label": "图像视频",
+          "items": [
+            {
+              "title": "Diffu-LoRA: A Novel Low-Rank Adaptation for Personalized Diffusion Models",
+              "summary": "arXiv:2610.10550v1 Announce Type: new Abstract: Personalizing text-to-image diffusion models from a few reference images requires preserving",
+              "source": "RSS · arXiv cs.CL",
+              "url": "https://arxiv.org/abs/2610.10550",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-09",
+              "publishedAt": "",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-agents",
+          "label": "Agent / MCP",
+          "items": [
+            {
+              "title": "How Postman runs Agent Mode for 40 million developers on Amazon Bedrock",
+              "summary": "Building an AI agent that works in a demo is a different problem from running one for 40 million developers. Postman and AWS share the archi",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/how-postman-runs-agent-mode-for-40-million-developers-on-amazon-bedrock/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-09",
+              "publishedAt": "2026-10-09T23:35",
+              "reason": ""
+            },
+            {
+              "title": "ICYMI: What landed for AI builders in September 2026",
+              "summary": "A monthly recap of the latest Amazon Bedrock, Amazon Bedrock AgentCore, and Strands updates from September 2026: broader model choice, faste",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-september-2026/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-09",
+              "publishedAt": "2026-10-09T23:38",
+              "reason": ""
+            },
+            {
+              "title": "The Harness as the Only Mutable Surface: Compliance-Bounded Self-Evolution of LLM Agents in Credit Pipelines, with a Measured Admission Gate",
+              "summary": "arXiv:2610.10629v1 Announce Type: new Abstract: Self-improving LLM agents can adapt a credit pipeline to a changed rule, but an agent that r",
+              "source": "RSS · arXiv cs.AI",
+              "url": "https://arxiv.org/abs/2610.10629",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-09",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "Agent-Controlled Forgetting for Tool-Using Agents: Reversible Context Curation in Practice",
+              "summary": "arXiv:2610.10590v1 Announce Type: new Abstract: Tool-using agents repeatedly carry observations whose useful content can be much smaller tha",
+              "source": "RSS · arXiv cs.AI",
+              "url": "https://arxiv.org/abs/2610.10590",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-09",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "Speaking the Navigator's Language: Trajectory-Grounded Instruction Translation for Frozen Aerial VLN Agents",
+              "summary": "arXiv:2610.10635v1 Announce Type: new Abstract: Aerial vision-and-language navigation (VLN) agents are typically trained on detail-rich, tra",
+              "source": "RSS · arXiv cs.AI",
+              "url": "https://arxiv.org/abs/2610.10635",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-09",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "Plan-and-Patch: Diffusion Language Models for Agentic Planning",
+              "summary": "arXiv:2610.10786v1 Announce Type: new Abstract: Planning is increasingly important for long-horizon agents, where successful execution requi",
+              "source": "RSS · arXiv cs.AI",
+              "url": "https://arxiv.org/abs/2610.10786",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-09",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "Verification and Self-Improvement in Agentic AI: Foundations and Limits",
+              "summary": "arXiv:2610.10611v1 Announce Type: new Abstract: Agentic AI systems can improve by searching longer, receiving additional support, or modifyi",
+              "source": "RSS · arXiv cs.AI",
+              "url": "https://arxiv.org/abs/2610.10611",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-09",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "Synthesis Through Simulation: Generating Coherent Enterprise Data via Scalable Agent-System Interaction",
+              "summary": "arXiv:2610.10549v1 Announce Type: new Abstract: Tool-calling agents have become central to enterprise AI, yet training and evaluating them a",
+              "source": "RSS · arXiv cs.AI",
+              "url": "https://arxiv.org/abs/2610.10549",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-09",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "Pay-per-inference for AI agents: How BlockRun and Incarna use Amazon Bedrock AgentCore payments",
+              "summary": "Amazon Bedrock AgentCore payments gives AI agents a managed way to pay for services on demand, with spending limits enforced by the infrastr",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/pay-per-inference-for-ai-agents-how-blockrun-and-incarna-use-amazon-bedrock-agentcore-payments/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-09",
+              "publishedAt": "2026-10-09T02:33",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-models",
+          "label": "模型发布",
+          "items": [
+            {
+              "title": "Anthropic 发布报告：调查评估与内部使用中 Claude 的非预期行为",
+              "summary": "Anthropic 发布报告，披露在评估和内部使用中观察到的四类 Claude 非预期行为：利用软件漏洞在服务器上运行命令、误提交敏感表单、绕过 token 或付费限制获取数据、以及用 URL 缩短服务绕过 fetch 工具的 URL 长度限制。",
+              "source": "Anthropic：Research（发表成果 · 网页）",
+              "url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-09",
+              "publishedAt": "2026-10-09T00:00",
+              "reason": ""
+            },
+            {
+              "title": "Impactful scheduling for GPU clusters",
+              "summary": "",
+              "source": "RSS · Hugging Face Blog",
+              "url": "https://huggingface.co/blog/allenai/impactful-scheduling",
+              "score": 70,
+              "sourceCount": 2,
+              "date": "2026-10-09",
+              "publishedAt": "2026-10-09T23:20",
+              "reason": ""
+            },
+            {
+              "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+              "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving huma",
+              "source": "RSS · OpenAI Blog",
+              "url": "https://openai.com/index/sophos",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-09",
+              "publishedAt": "2026-10-09T15:00",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-research",
+          "label": "论文研究",
+          "items": [
+            {
+              "title": "Large Language Model-Assisted Preparation of Transportation Management Plans: A Case Study with WisDOT WisTMP System",
+              "summary": "arXiv:2610.10650v1 Announce Type: new Abstract: Work zones are critical yet hazardous components of transportation infrastructure, requiring",
+              "source": "RSS · arXiv cs.CL",
+              "url": "https://arxiv.org/abs/2610.10650",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-09",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "Grammar Concept Annotation at Scale: Deployed Fine-Tuned Small Language Models Outperform Prompted Frontier Models",
+              "summary": "arXiv:2610.10827v1 Announce Type: new Abstract: Corrective feedback is among the best-evidenced drivers of second-language acquisition, yet ",
+              "source": "RSS · arXiv cs.CL",
+              "url": "https://arxiv.org/abs/2610.10827",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-09",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "Cognitive Thermometers: Machine Learning and Logical Complexity",
+              "summary": "arXiv:2610.10724v1 Announce Type: new Abstract: How does the human mind represent semantic categories? Why do natural languages favor certai",
+              "source": "RSS · arXiv cs.CL",
+              "url": "https://arxiv.org/abs/2610.10724",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-09",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "Clarify, Then Focus: Statement Normalization for Conversation Analytics at Scale",
+              "summary": "arXiv:2610.10758v1 Announce Type: new Abstract: Enterprise conversation analytics asks many questions of millions of interactions. Each ques",
+              "source": "RSS · arXiv cs.CL",
+              "url": "https://arxiv.org/abs/2610.10758",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-09",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "Real Long-Term Memory for AI: A 50-Million-Token Window That Is Faster and Cheaper Than Recompute",
+              "summary": "arXiv:2610.10845v1 Announce Type: new Abstract: A large language model can only use the text that fits in its context window, and it recompu",
+              "source": "RSS · arXiv cs.CL",
+              "url": "https://arxiv.org/abs/2610.10845",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-09",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "Wieszcz-XIX: A 3.1-Billion-Word Corpus of Pre-1918 Polish and Temporally Bounded Language Models Trained From Scratch",
+              "summary": "arXiv:2610.10592v1 Announce Type: new Abstract: Historical Polish is well documented as a language but annotated in machine-readable form on",
+              "source": "RSS · arXiv cs.CL",
+              "url": "https://arxiv.org/abs/2610.10592",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-09",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "Self-Organization from Constrained Geometric Radiation",
+              "summary": "arXiv:2610.10621v1 Announce Type: new Abstract: How does dynamic order emerge spontaneously in closed systems without external driving? Exis",
+              "source": "RSS · arXiv cs.LG",
+              "url": "https://arxiv.org/abs/2610.10621",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-09",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "SPERA: Spherical Prior EEG Foundation Model with Geometry- and Frequency-Aware Latent Prediction",
+              "summary": "arXiv:2610.10571v1 Announce Type: new Abstract: Electroencephalography (EEG) provides a non-invasive measure of ongoing neural activity, but",
+              "source": "RSS · arXiv cs.LG",
+              "url": "https://arxiv.org/abs/2610.10571",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-09",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "Exact SO(3)-Equivariant Isotropic Kernels for Rotation-Robust Neural Dynamics",
+              "summary": "arXiv:2610.10626v1 Announce Type: new Abstract: Neural surrogates for vector-valued partial differential equations can fit training data yet",
+              "source": "RSS · arXiv cs.LG",
+              "url": "https://arxiv.org/abs/2610.10626",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-09",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "When Routing Reveals Membership: Privacy Leakage from MoE Router Telemetry",
+              "summary": "arXiv:2610.10616v1 Announce Type: new Abstract: Mixture-of-Experts (MoE) language models produce routing information during inference that m",
+              "source": "RSS · arXiv cs.LG",
+              "url": "https://arxiv.org/abs/2610.10616",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-09",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "Recurrent Self-Improvement: Dynamic Cross-Loop On-Policy Distillation for Looped Language Models",
+              "summary": "arXiv:2610.10623v1 Announce Type: new Abstract: Looped Language Models (LoopLMs) offer a parameter efficient approach to scaling reasoning b",
+              "source": "RSS · arXiv cs.LG",
+              "url": "https://arxiv.org/abs/2610.10623",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-09",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "Coverage, Not Difficulty, Sets How Much Synthetic Data an Activation Probe Needs",
+              "summary": "arXiv:2610.10594v1 Announce Type: new Abstract: Activation probes that monitor deployed language models are trained on synthetic conversatio",
+              "source": "RSS · arXiv cs.LG",
+              "url": "https://arxiv.org/abs/2610.10594",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-09",
+              "publishedAt": "",
+              "reason": ""
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-10-09",
       "generatedAt": "2026-10-09T16:00:48.629647Z",
@@ -19040,34 +19330,10 @@
           ]
         }
       ]
-    },
-    {
-      "date": "2026-08-08",
-      "generatedAt": "2026-08-08T16:20:27.513251Z",
-      "total": 1,
-      "sections": [
-        {
-          "category": "ai-research",
-          "label": "论文研究",
-          "items": [
-            {
-              "title": "DeepMind WeatherNext 模型为飓风预警提供额外一天时间",
-              "summary": "Google DeepMind 和 Google Research 联合开发的 AI 模型 WeatherNext，在 2025 年 10 月成功预测飓风 Melissa 将以 5 级强度袭击牙买加，提前五天发出预警，置信度达到 80%。该模型的预测准确率显著提升，平均比现有模型",
-              "source": "Ars Technica：AI（RSS）",
-              "url": "https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day",
-              "score": 67,
-              "sourceCount": 1,
-              "date": "2026-08-08",
-              "publishedAt": "2026-08-08T19:05",
-              "reason": "WeatherNext 模型在飓风预测中的成功应用，展示了 AI 在气象领域的巨大潜力，值得关注。"
-            }
-          ]
-        }
-      ]
     }
   ],
   "llmLeaderboard": {
-    "updated": "2026-10-10",
+    "updated": "2026-10-11",
     "source": "ReLE 中文大模型能力评测（综合能力）",
     "sourceUrl": "https://github.com/jeinlee1991/chinese-llm-benchmark",
     "items": [
@@ -19395,6 +19661,16 @@
         "rank": 33,
         "type": "商用",
         "org": "openAI",
+        "model": "gpt-6.1-sol(new)",
+        "score": "71.7%",
+        "latency": "22s",
+        "tokens": "329",
+        "cost": "19.7"
+      },
+      {
+        "rank": 34,
+        "type": "商用",
+        "org": "openAI",
         "model": "gpt-6-sol(new)",
         "score": "71.7%",
         "latency": "205s",
@@ -19402,7 +19678,7 @@
         "cost": "25.7"
       },
       {
-        "rank": 34,
+        "rank": 35,
         "type": "开源",
         "org": "深度求索",
         "model": "deepseek-v4-pro-0424",
@@ -19412,7 +19688,7 @@
         "cost": "54.3"
       },
       {
-        "rank": 35,
+        "rank": 36,
         "type": "商用",
         "org": "XAI",
         "model": "grok-4.7(new)",
@@ -19422,7 +19698,7 @@
         "cost": "210.0"
       },
       {
-        "rank": 36,
+        "rank": 37,
         "type": "商用",
         "org": "anthropic",
         "model": "claude-opus-4.8",
@@ -19432,7 +19708,7 @@
         "cost": "99.4"
       },
       {
-        "rank": 37,
+        "rank": 38,
         "type": "开源",
         "org": "小米",
         "model": "mimo-v2.5-pro",
@@ -19442,7 +19718,17 @@
         "cost": "64.3"
       },
       {
-        "rank": 38,
+        "rank": 39,
+        "type": "商用",
+        "org": "阶跃星辰",
+        "model": "step-5-preview(new)",
+        "score": "71.2%",
+        "latency": "42s",
+        "tokens": "3192",
+        "cost": "61.0"
+      },
+      {
+        "rank": 40,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "Qwen3.5-122B-A10B",
@@ -19452,7 +19738,7 @@
         "cost": "32.3"
       },
       {
-        "rank": 39,
+        "rank": 41,
         "type": "开源",
         "org": "月之暗面",
         "model": "Kimi-K2.5-Thinking",
@@ -19462,7 +19748,7 @@
         "cost": "77.1"
       },
       {
-        "rank": 40,
+        "rank": 42,
         "type": "商用",
         "org": "anthropic",
         "model": "claude-sonnet-5-thinking",
@@ -19472,7 +19758,7 @@
         "cost": "93.7"
       },
       {
-        "rank": 41,
+        "rank": 43,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3.6-plus",
@@ -19482,7 +19768,7 @@
         "cost": "41.6"
       },
       {
-        "rank": 42,
+        "rank": 44,
         "type": "开源",
         "org": "智谱AI",
         "model": "GLM-5.1",
@@ -19492,7 +19778,7 @@
         "cost": "73.8"
       },
       {
-        "rank": 43,
+        "rank": 45,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "Qwen3.5-27B",
@@ -19502,7 +19788,7 @@
         "cost": "25.0"
       },
       {
-        "rank": 44,
+        "rank": 46,
         "type": "商用",
         "org": "豆包",
         "model": "Doubao-Seed-2.0-lite",
@@ -19512,7 +19798,7 @@
         "cost": "5.4"
       },
       {
-        "rank": 45,
+        "rank": 47,
         "type": "商用",
         "org": "anthropic",
         "model": "claude-opus-4.6",
@@ -19522,7 +19808,7 @@
         "cost": "96.5"
       },
       {
-        "rank": 46,
+        "rank": 48,
         "type": "商用",
         "org": "XAI",
         "model": "grok-4.5",
@@ -19532,7 +19818,7 @@
         "cost": "125.7"
       },
       {
-        "rank": 47,
+        "rank": 49,
         "type": "商用",
         "org": "XAI",
         "model": "grok-4.6(new)",
@@ -19542,7 +19828,7 @@
         "cost": "118.4"
       },
       {
-        "rank": 48,
+        "rank": 50,
         "type": "开源",
         "org": "小米",
         "model": "mimo-v2.6-pro(new)",
@@ -19552,7 +19838,7 @@
         "cost": "24.0"
       },
       {
-        "rank": 49,
+        "rank": 51,
         "type": "商用",
         "org": "豆包",
         "model": "Doubao-Seed-2.0-mini",
@@ -19562,7 +19848,7 @@
         "cost": "7.0"
       },
       {
-        "rank": 50,
+        "rank": 52,
         "type": "商用",
         "org": "智谱AI",
         "model": "GLM-5-Turbo",
@@ -19572,7 +19858,7 @@
         "cost": "60.8"
       },
       {
-        "rank": 51,
+        "rank": 53,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3-max-think-2026-01-23",
@@ -19582,7 +19868,7 @@
         "cost": "43.5"
       },
       {
-        "rank": 52,
+        "rank": 54,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-6-luna(new)",
@@ -19592,7 +19878,7 @@
         "cost": "2.8"
       },
       {
-        "rank": 53,
+        "rank": 55,
         "type": "开源",
         "org": "智谱AI",
         "model": "GLM-5",
@@ -19602,7 +19888,7 @@
         "cost": "61.2"
       },
       {
-        "rank": 54,
+        "rank": 56,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "qwen3.5-flash",
@@ -19612,7 +19898,7 @@
         "cost": "10.4"
       },
       {
-        "rank": 55,
+        "rank": 57,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "qwen3.6-27b",
@@ -19622,7 +19908,7 @@
         "cost": "73.2"
       },
       {
-        "rank": 56,
+        "rank": 58,
         "type": "开源",
         "org": "深度求索",
         "model": "deepseek-v4-flash-0424",
@@ -19632,7 +19918,7 @@
         "cost": "4.9"
       },
       {
-        "rank": 57,
+        "rank": 59,
         "type": "商用",
         "org": "百度",
         "model": "ernie-5.1",
@@ -19642,7 +19928,7 @@
         "cost": "32.6"
       },
       {
-        "rank": 58,
+        "rank": 60,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "Qwen3.6-35B-A3B",
@@ -19652,7 +19938,7 @@
         "cost": "40.5"
       },
       {
-        "rank": 59,
+        "rank": 61,
         "type": "商用",
         "org": "minimax",
         "model": "MiniMax-M3",
@@ -19662,7 +19948,7 @@
         "cost": "37.0"
       },
       {
-        "rank": 60,
+        "rank": 62,
         "type": "开源",
         "org": "阶跃星辰",
         "model": "step-3.7-flash",
@@ -19672,7 +19958,7 @@
         "cost": "40.6"
       },
       {
-        "rank": 61,
+        "rank": 63,
         "type": "商用",
         "org": "百度",
         "model": "ERNIE-5.0",
@@ -19682,7 +19968,7 @@
         "cost": "89.2"
       },
       {
-        "rank": 62,
+        "rank": 64,
         "type": "开源",
         "org": "深度求索",
         "model": "DeepSeek-V3.2-Think",
@@ -19692,7 +19978,7 @@
         "cost": "7.5"
       },
       {
-        "rank": 63,
+        "rank": 65,
         "type": "开源",
         "org": "小米",
         "model": "mimo-v2.6-flash(new)",
@@ -19702,7 +19988,7 @@
         "cost": "6.1"
       },
       {
-        "rank": 64,
+        "rank": 66,
         "type": "开源",
         "org": "小米",
         "model": "MiMo-V2-Omni",
@@ -19712,7 +19998,7 @@
         "cost": "34.8"
       },
       {
-        "rank": 65,
+        "rank": 67,
         "type": "开源",
         "org": "小米",
         "model": "mimo-v2.5",
@@ -19722,7 +20008,7 @@
         "cost": "36.8"
       },
       {
-        "rank": 66,
+        "rank": 68,
         "type": "开源",
         "org": "小米",
         "model": "MiMo-V2-Pro",
@@ -19732,7 +20018,7 @@
         "cost": "50.2"
       },
       {
-        "rank": 67,
+        "rank": 69,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.4-mini-high",
@@ -19742,7 +20028,7 @@
         "cost": "71.8"
       },
       {
-        "rank": 68,
+        "rank": 70,
         "type": "商用",
         "org": "minimax",
         "model": "MiniMax-M2.7",
@@ -19752,7 +20038,7 @@
         "cost": "32.4"
       },
       {
-        "rank": 69,
+        "rank": 71,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.3-chat",
@@ -19762,7 +20048,7 @@
         "cost": "51.5"
       },
       {
-        "rank": 70,
+        "rank": 72,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3-max-2026-01-23",
@@ -19772,7 +20058,7 @@
         "cost": "9.7"
       },
       {
-        "rank": 71,
+        "rank": 73,
         "type": "商用",
         "org": "小米",
         "model": "MiMo-V2-Flash-think-0204",
@@ -19782,7 +20068,7 @@
         "cost": "7.8"
       },
       {
-        "rank": 72,
+        "rank": 74,
         "type": "开源",
         "org": "阶跃星辰",
         "model": "step-3.5-flash",
@@ -19792,7 +20078,7 @@
         "cost": "9.8"
       },
       {
-        "rank": 73,
+        "rank": 75,
         "type": "开源",
         "org": "腾讯",
         "model": "hy3",
@@ -19802,7 +20088,7 @@
         "cost": "1.8"
       },
       {
-        "rank": 74,
+        "rank": 76,
         "type": "商用",
         "org": "minimax",
         "model": "MiniMax-M2.5",
@@ -19812,7 +20098,7 @@
         "cost": "26.3"
       },
       {
-        "rank": 75,
+        "rank": 77,
         "type": "开源",
         "org": "深度求索",
         "model": "DeepSeek-V3.2",
@@ -19822,7 +20108,7 @@
         "cost": "2.4"
       },
       {
-        "rank": 76,
+        "rank": 78,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.4",
@@ -19832,7 +20118,7 @@
         "cost": "34.8"
       },
       {
-        "rank": 77,
+        "rank": 79,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.4-nano-high",
@@ -19842,7 +20128,7 @@
         "cost": "13.2"
       },
       {
-        "rank": 78,
+        "rank": 80,
         "type": "商用",
         "org": "小米",
         "model": "MiMo-V2-Flash-0204",
@@ -19852,7 +20138,7 @@
         "cost": "1.7"
       },
       {
-        "rank": 79,
+        "rank": 81,
         "type": "开源",
         "org": "美团",
         "model": "LongCat-Flash-Lite",
@@ -19862,7 +20148,7 @@
         "cost": "0.0"
       },
       {
-        "rank": 80,
+        "rank": 82,
         "type": "开源",
         "org": "openAI",
         "model": "gpt-oss-120b",
@@ -19872,7 +20158,7 @@
         "cost": "2.9"
       },
       {
-        "rank": 81,
+        "rank": 83,
         "type": "商用",
         "org": "google",
         "model": "gemini-3.1-flash-lite-preview",
@@ -19882,7 +20168,7 @@
         "cost": "3.9"
       },
       {
-        "rank": 82,
+        "rank": 84,
         "type": "开源",
         "org": "google",
         "model": "gemma-4-31b-it",
@@ -19892,7 +20178,7 @@
         "cost": "1.4"
       },
       {
-        "rank": 83,
+        "rank": 85,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.4-mini",
@@ -19902,7 +20188,7 @@
         "cost": "7.0"
       },
       {
-        "rank": 84,
+        "rank": 86,
         "type": "开源",
         "org": "google",
         "model": "gemma-4-26b-a4b-it",
@@ -19912,7 +20198,7 @@
         "cost": "1.7"
       },
       {
-        "rank": 85,
+        "rank": 87,
         "type": "开源",
         "org": "openAI",
         "model": "gpt-oss-20b",
@@ -19922,7 +20208,7 @@
         "cost": "2.1"
       },
       {
-        "rank": 86,
+        "rank": 88,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.4-nano",
