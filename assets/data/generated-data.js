@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-10-10",
-  "generatedAt": "2026-10-10T04:56:06.527242Z",
+  "generatedAt": "2026-10-10T06:17:10.055680Z",
   "news": [
     {
       "title": "Large Language Model-Assisted Preparation of Transportation Management Plans: A Case Study with WisDOT WisTMP System",
@@ -5621,6 +5621,21 @@ window.AI_GENERATED_DATA = {
       "date": "2026-08-05"
     },
     {
+      "name": "OpenBMB/Trident",
+      "lang": "Python",
+      "description": "面壁智能 MiniCPM 开源项目。",
+      "stars": "3 stars",
+      "why": "国产大模型厂商 面壁智能 MiniCPM 的最新开源动态/模型发布，属一手信源。",
+      "url": "https://github.com/OpenBMB/Trident",
+      "source": "GitHub · 面壁智能 MiniCPM",
+      "tier": "T1",
+      "category": "Coding Agent",
+      "details": "面壁智能 MiniCPM 开源项目。",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
       "name": "codewhale-hq/Codewhale",
       "lang": "Rust",
       "description": "Open-source Rust agent engine and terminal client for Codewhale, with provider choice, tools, approvals and receipts.",
@@ -5660,21 +5675,6 @@ window.AI_GENERATED_DATA = {
       "tier": "T1",
       "category": "Coding Agent",
       "details": "通义千问 Qwen 开源项目。",
-      "features": [],
-      "useCases": [],
-      "quickStart": []
-    },
-    {
-      "name": "MiniMax-AI/OpenAgentCore",
-      "lang": "Go",
-      "description": "Open-source, self-hosted implementation of the OpenAI Agents API with multiple native harnesses.",
-      "stars": "132 stars",
-      "why": "国产大模型厂商 MiniMax 的最新开源动态/模型发布，属一手信源。",
-      "url": "https://github.com/MiniMax-AI/OpenAgentCore",
-      "source": "GitHub · MiniMax",
-      "tier": "T1",
-      "category": "Coding Agent",
-      "details": "Open-source, self-hosted implementation of the OpenAI Agents API with multiple native harnesses.",
       "features": [],
       "useCases": [],
       "quickStart": []
@@ -6679,6 +6679,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-models": [
       {
+        "name": "State of AI Report 2026 速读：AI 加速 AI、千亿收入、电力瓶颈与安全",
+        "provider": "X：indigo (@indigox)",
+        "type": "AI 项目/工具",
+        "bestFor": "Nathan Benaich（Air Street Capital）发布第九份年度 State of AI Report 2026，分研究、产业、政治、安全、预测五部分，PDF 见 https://www.stateof.ai/State-of-AI-Report-2026.pdf。",
+        "description": "Nathan Benaich（Air Street Capital）发布第九份年度 State of AI Report 2026，分研究、产业、政治、安全、预测五部分，PDF 见 https://www.stateof.ai/State-of-AI-Report-2026.pdf。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "X：indigo (@indigox)",
+        "url": "https://x.com/indigox/status/2108791275914993998"
+      },
+      {
         "name": "Google Rolls Out Gemini AI Across Workspace and Cloud for En",
         "provider": "NewsData.io",
         "type": "AI 项目/工具",
@@ -7106,17 +7117,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "OpenAI：失准报告与通报（网页）",
         "url": "https://alignment.openai.com/misalignment-reports/reaching-an-internal-eda-host-through-a-reference-tool/"
-      },
-      {
-        "name": "Daily 'AI for Work' Pulse: 2nd of October",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Big Friday update! 14 new AI tools and 115 AI news articles just landed. This packed edition's a can't-miss drop-wrap up your week strong with the standouts.",
-        "description": "Big Friday update! 14 new AI tools and 115 AI news articles just landed. This packed edition's a can't-miss drop-wrap up your week strong with the standouts.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:large language model",
-        "url": "https://completeaitraining.com/newsletter/daily-ai-for-work-pulse-2nd-of-october/"
       }
     ],
     "ai-business": [
@@ -10356,7 +10356,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-10-10",
-    "generatedAt": "2026-10-10T04:56:06.498213Z",
+    "generatedAt": "2026-10-10T06:17:10.032680Z",
     "total": 30,
     "sections": [
       {
