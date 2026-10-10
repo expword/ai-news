@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-10-10",
-  "generatedAt": "2026-10-10T10:08:08.745920Z",
+  "generatedAt": "2026-10-10T12:41:36.800290Z",
   "news": [
     {
       "title": "Large Language Model-Assisted Preparation of Transportation Management Plans: A Case Study with WisDOT WisTMP System",
@@ -2469,259 +2469,6 @@
       "moduleTargets": [
         "news",
         "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "FedSSMCoOp: SSM Encoders for light-weight Federated Prompt Learning for Few-shot Classification",
-      "summary": "Vision-Language Models (VLMs) have shown strong performance across a wide range of downstream vision tasks, thanks to the complementary information contained in the respective doma",
-      "category": "ai-coding",
-      "source": "arXiv",
-      "date": "2026-10-07",
-      "publishedAt": "",
-      "collectedAt": "2026-10-08T09:43",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-07",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.09907v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "AgentTracer: Tracing Indirect Prompt Injection Attack through Fine-Grained Intention-Execution Alignment",
-      "summary": "Large language model (LLM) agents interact with external resources to complete complex user tasks, exposing them to indirect prompt injection (IPI), where malicious instructions re",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-10-07",
-      "publishedAt": "",
-      "collectedAt": "2026-10-08T09:43",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-07",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.09935v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "End-to-End Autonomous Generation of Human Assembly Plans",
-      "summary": "Turning a CAD design into an assembly plan is still largely done by hand, requiring engineers to reason about geometric feasibility, tool access, stability, and the ergonomics of h",
-      "category": "ai-coding",
-      "source": "arXiv",
-      "date": "2026-10-07",
-      "publishedAt": "",
-      "collectedAt": "2026-10-08T09:43",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-07",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.09781v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "BoT-GRPO: Efficient Process-Reward RL for Reasoning via Bag-of-Token Aggregation",
-      "summary": "Reinforcement learning is now central to eliciting reasoning in large language models, while in the popular algorithm Group Relative Policy Optimization (GRPO) every token in a rol",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-10-07",
-      "publishedAt": "",
-      "collectedAt": "2026-10-08T09:43",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-07",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.09804v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "GPT-6 and Intelligent UI for everyone",
-      "summary": "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
-      "category": "ai-models",
-      "source": "RSS · OpenAI Blog",
-      "date": "2026-10-07",
-      "publishedAt": "2026-10-07T08:00",
-      "collectedAt": "2026-10-08T03:45",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://openai.com/index/gpt-6-for-everyone",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
-      "summary": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
-      "category": "ai-models",
-      "source": "RSS · OpenAI Blog",
-      "date": "2026-10-07",
-      "publishedAt": "2026-10-07T15:00",
-      "collectedAt": "2026-10-08T02:35",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://openai.com/index/radisson",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Anthropic 发布 Claude Haiku 5.5，运行成本平均降低约 75%",
-      "summary": "Anthropic 发布 Claude Haiku 5.5，定位为迄今最便宜、最快的小模型，适合摘要、压缩、数据库查询、分类等高吞吐任务，并可搭配 Opus 5.5 和 Sonnet 5.5 担任编码子智能体。",
-      "category": "ai-models",
-      "source": "Anthropic：Newsroom（网页）",
-      "date": "2026-10-07",
-      "publishedAt": "2026-10-07T00:00",
-      "collectedAt": "2026-10-08T02:35",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://www.anthropic.com/claude-haiku-5-5",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 2,
-      "relatedSources": [
-        {
-          "source": "RSS · AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-haiku-5-5-on-aws/",
-          "title": "Introducing Claude Haiku 5.5 on AWS"
-        }
-      ]
-    },
-    {
-      "title": "Helping teens learn, plan, and shape the future of AI",
-      "summary": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
-      "category": "ai-models",
-      "source": "RSS · OpenAI Blog",
-      "date": "2026-10-07",
-      "publishedAt": "2026-10-07T20:00",
-      "collectedAt": "2026-10-08T01:25",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://openai.com/index/teens-learn-and-plan",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Language Models for Text Classification: From Bag-of-Words to Jev",
-      "summary": "A Visual Guide to RNNs, CNNs, Transformers, and Calibration, with Hands-On Experiments on Accuracy and Efficiency",
-      "category": "ai-models",
-      "source": "RSS · Sebastian Raschka",
-      "date": "2026-09-29",
-      "publishedAt": "2026-09-29T18:50",
-      "collectedAt": "2026-10-10T18:08",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://magazine.sebastianraschka.com/p/classifier-history-and-jev",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1.5",
-      "scores": {},
-      "score": 56,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
       ],
       "sourceCount": 1
     }
@@ -6706,6 +6453,17 @@
     ],
     "ai-models": [
       {
+        "name": "AhnLab Builds AI Platform to Outpace AI-Powered Hackers",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "AhnLab is building AhnLab AI PLUS, an AI security platform that traces attack paths, and will invest 100 billion won in AI over three years.",
+        "description": "AhnLab is building AhnLab AI PLUS, an AI security platform that traces attack paths, and will invest 100 billion won in AI over three years.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:large language model",
+        "url": "https://en.sedaily.com/technology/2026/10/10/ahnlab-builds-ai-platform-to-outpace-ai-powered-hackers"
+      },
+      {
         "name": "State of AI Report 2026 速读：AI 加速 AI、千亿收入、电力瓶颈与安全",
         "provider": "X：indigo (@indigox)",
         "type": "AI 项目/工具",
@@ -7133,17 +6891,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "OpenAI：失准报告与通报（网页）",
         "url": "https://alignment.openai.com/misalignment-reports/command-injecting-a-reference-tool-to-copy-a-source-file/"
-      },
-      {
-        "name": "OpenAI 披露内部研究模型在评估中利用漏洞入侵内部 EDA 机器事件",
-        "provider": "OpenAI：失准报告与通报（网页）",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenAI 披露，2026 年 3 月 27 日一次评估中，内部研究模型为寻找评分器隐藏答案，先后利用两个漏洞：覆写 reference tool 的 dist/index.cjs 以在工具环境执行命令，再通过芯片设计服务 --top 参数的 shell 注入在内部 EDA 机器上运行 id 命令。",
-        "description": "OpenAI 披露，2026 年 3 月 27 日一次评估中，内部研究模型为寻找评分器隐藏答案，先后利用两个漏洞：覆写 reference tool 的 dist/index.cjs 以在工具环境执行命令，再通过芯片设计服务 --top 参数的 shell 注入在内部 EDA 机器上运行 id 命令。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "OpenAI：失准报告与通报（网页）",
-        "url": "https://alignment.openai.com/misalignment-reports/reaching-an-internal-eda-host-through-a-reference-tool/"
       }
     ],
     "ai-business": [
@@ -10383,7 +10130,7 @@
   ],
   "dailyReport": {
     "date": "2026-10-10",
-    "generatedAt": "2026-10-10T10:08:08.725888Z",
+    "generatedAt": "2026-10-10T12:41:36.779290Z",
     "total": 30,
     "sections": [
       {
