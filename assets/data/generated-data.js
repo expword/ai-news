@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-10-11",
-  "generatedAt": "2026-10-10T16:27:21.809195Z",
+  "generatedAt": "2026-10-11T13:22:13.328149Z",
   "news": [
     {
       "title": "Large Language Model-Assisted Preparation of Transportation Management Plans: A Case Study with WisDOT WisTMP System",
@@ -5569,6 +5569,17 @@ window.AI_GENERATED_DATA = {
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Do AI Labs Like Anthropic and OpenAI Have Economic Moats?",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Leading AI labs are building economic moats to stave off commodification threats.",
+        "description": "Leading AI labs are building economic moats to stave off commodification threats.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI coding tool",
+        "url": "https://www.morningstar.com/stocks/do-ai-labs-like-anthropic-openai-have-economic-moats"
+      },
+      {
         "name": "AI and Rust converge in compiler ports, creative suites and ",
         "provider": "NewsData.io",
         "type": "AI 项目/工具",
@@ -5996,20 +6007,86 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · 雷峰网",
         "url": "https://www.leiphone.com/category/yanxishe/HduKYmfhs2SeXQ39.html"
-      },
-      {
-        "name": "Controlled Decoding Attacks on Black-Box LLMs",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Manipulating next-token probabilities during generation can bypass the safety alignment of large language models. Existing approaches, however, rely on access t",
-        "description": "Manipulating next-token probabilities during generation can bypass the safety alignment of large language models. Existing approaches, however, rely on access to model weights or n",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2609.36956v1"
       }
     ],
     "ai-agents": [
+      {
+        "name": "Politics, Philosophy and Economics",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "The Politics, Philosophy and Economics (PPE) degree is based on the view that, to understand public phenomena, one must approach them from several disciplinary ",
+        "description": "The Politics, Philosophy and Economics (PPE) degree is based on the view that, to understand public phenomena, one must approach them from several disciplinary directions. This deg",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.qub.ac.uk/courses/undergraduate/politics-philosophy-economics-ba-lv00/"
+      },
+      {
+        "name": "8 Action Movies That Are Even Better on Rewatch",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Action movies have always been a popular mainstay of cinema, and with good reason. Featuring exciting set pieces designed for maximum thrill, these films a",
+        "description": "Action movies have always been a popular mainstay of cinema, and with good reason. Featuring exciting set pieces designed for maximum thrill, these films a",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.newsbreak.com/news/4937985354449-8-action-movies-that-are-even-better-on-rewatch"
+      },
+      {
+        "name": "The rise of AI personal assistants and the battle for users'",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Meta Connect recently unveiled Muse Charm, which serves as a personal AI assistant for users. This device can interact with emails, calendars, and other service",
+        "description": "Meta Connect recently unveiled Muse Charm, which serves as a personal AI assistant for users. This device can interact with emails, calendars, and other services to streamline life",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.inkl.com/news/the-rise-of-ai-personal-assistants-and-the-battle-for-users-trust"
+      },
+      {
+        "name": "8 seriously annoying tasks you can hand off to an AI agent",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "",
+        "description": "",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.newsbreak.com/news/4938188226652-8-seriously-annoying-tasks-you-can-hand-off-to-an-ai-agent"
+      },
+      {
+        "name": "Nicolas Cage Says He Refused Amazon’s AI Waiver on Spider-No",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Nicolas Cage said Saturday at New York Comic Con that he did not sign a waiver allowing AI use on Spider-Noir and will probably not work with Amazon again,",
+        "description": "Nicolas Cage said Saturday at New York Comic Con that he did not sign a waiver allowing AI use on Spider-Noir and will probably not work with Amazon again,",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.newsbreak.com/news/4938117471932-nicolas-cage-says-he-refused-amazon-s-ai-waiver-on-spider-noir"
+      },
+      {
+        "name": "What Is Meta Muse? What Its AI Agent Means for Search and Bu",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "",
+        "description": "",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.newsbreak.com/news/4938043506296-what-is-meta-muse-what-its-ai-agent-means-for-search-and-business-discovery"
+      },
+      {
+        "name": "💻 High-Paying IT & AI Roles: Multiple Openings in Houston",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Houston’s tech scene is on fire right now—especially around AI, cloud, and enterprise systems. Here are several standout IT openings you can scan and apply",
+        "description": "Houston’s tech scene is on fire right now—especially around AI, cloud, and enterprise systems. Here are several standout IT openings you can scan and apply",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.newsbreak.com/houston-tx-daily-brief-375420257/4938018085762-high-paying-it-ai-roles-multiple-openings-in-houston"
+      },
       {
         "name": "Cutting-edge tech powers smart National Day travel in China",
         "provider": "NewsData.io",
@@ -6372,83 +6449,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · arXiv cs.CV",
         "url": "https://arxiv.org/abs/2610.08954"
-      },
-      {
-        "name": "NVIDIA KGMON 团队分享 KDD Cup 2026 数据分析智能体的构建经验",
-        "provider": "NVIDIA Technical Blog：Agentic AI / Generative AI",
-        "type": "AI 项目/工具",
-        "bestFor": "NVIDIA KGMON 团队在 KDD Cup 2026 Data Agents 竞赛获得第二名，并发布构建可靠数据分析智能体的方法复盘。",
-        "description": "NVIDIA KGMON 团队在 KDD Cup 2026 Data Agents 竞赛获得第二名，并发布构建可靠数据分析智能体的方法复盘。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NVIDIA Technical Blog：Agentic AI / Generative AI",
-        "url": "https://developer.nvidia.com/blog/building-reliable-data-analytics-agents-lessons-from-the-kdd-cup/"
-      },
-      {
-        "name": "Pay-per-inference for AI agents: How BlockRun and Incarna us",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Amazon Bedrock AgentCore payments gives AI agents a managed way to pay for services on demand, with spending limits enforced by the infrastructure. See how Inca",
-        "description": "Amazon Bedrock AgentCore payments gives AI agents a managed way to pay for services on demand, with spending limits enforced by the infrastructure. See how Incarna's agents pay Blo",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/pay-per-inference-for-ai-agents-how-blockrun-and-incarna-use-amazon-bedrock-agentcore-payments/"
-      },
-      {
-        "name": "Google 开源 AQuA 环境质量智能体，自动诊断生产环境中的 Agent 故障",
-        "provider": "Google Developers Blog（RSS）",
-        "type": "AI 项目/工具",
-        "bestFor": "Google 发布并开源 AQuA（Ambient Quality Agent），在 Google Cloud 项目中定时从 Cloud Trace、Cloud Logging 或 BigQuery 抽取生产会话，经抽样、评审、聚类、验证、跟踪五阶段流水线诊断 Agent 失败。",
-        "description": "Google 发布并开源 AQuA（Ambient Quality Agent），在 Google Cloud 项目中定时从 Cloud Trace、Cloud Logging 或 BigQuery 抽取生产会话，经抽样、评审、聚类、验证、跟踪五阶段流水线诊断 Agent 失败。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Google Developers Blog（RSS）",
-        "url": "https://developers.googleblog.com/the-outer-loop-insights-first-an-ambient-quality-agent-that-diagnoses-your-production-agent/"
-      },
-      {
-        "name": "LangChain 用 Stripe Link 和 Managed Deep Agents 构建可支付的智能体 Rest",
-        "provider": "LangChain：Blog（RSS）",
-        "type": "AI 项目/工具",
-        "bestFor": "LangChain 发布示例项目 Restock，一个在 Slack 上通过 Managed Deep Agents 运行的办公用品购买智能体，演示智能体如何安全完成支付。",
-        "description": "LangChain 发布示例项目 Restock，一个在 Slack 上通过 Managed Deep Agents 运行的办公用品购买智能体，演示智能体如何安全完成支付。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "LangChain：Blog（RSS）",
-        "url": "https://www.langchain.com/blog/agents-that-can-pay-with-stripe-link"
-      },
-      {
-        "name": "Tessl 工程博客：AI 不是笨，是瞎——企业级 Agent 记忆的三个关键设计决策",
-        "provider": "Tessl：产品与工程博客",
-        "type": "AI 项目/工具",
-        "bestFor": "作者基于为跨公司工作的 Agent 构建记忆系统一年的经验指出，AI 失败的常见原因不是模型推理差，而是它看不到关键决策上下文，多数 agent memory 只是给瞎子更大的档案柜。",
-        "description": "作者基于为跨公司工作的 Agent 构建记忆系统一年的经验指出，AI 失败的常见原因不是模型推理差，而是它看不到关键决策上下文，多数 agent memory 只是给瞎子更大的档案柜。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Tessl：产品与工程博客",
-        "url": "https://tessl.io/blog/your-ai-isnt-stupid-its-blind"
-      },
-      {
-        "name": "New Google Gemini setting could give AI tool broad access to",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "A new permission would allow an AI agent to access files and carry out actions without specific permission every time",
-        "description": "A new permission would allow an AI agent to access files and carry out actions without specific permission every time",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:Google Gemini",
-        "url": "https://www.itpro.com/software/apple/new-google-gemini-setting-could-give-ai-tool-broad-access-to-users-macs"
-      },
-      {
-        "name": "Intelligent Machines 891: Previously on Swarm Chasers",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "From deleting critical files to oversharing your banking details in Slack, today's AI agents are proving both incredibly helpful and hilariously unpredictable. ",
-        "description": "From deleting critical files to oversharing your banking details in Slack, today's AI agents are proving both incredibly helpful and hilariously unpredictable. Hear what actually h",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:Google Gemini",
-        "url": "https://twit.tv/shows/intelligent-machines/episodes/891"
       }
     ],
     "ai-models": [
@@ -10130,7 +10130,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-10-11",
-    "generatedAt": "2026-10-10T16:27:21.785582Z",
+    "generatedAt": "2026-10-11T13:22:13.300149Z",
     "total": 23,
     "sections": [
       {
