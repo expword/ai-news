@@ -1,7 +1,89 @@
 {
   "lastUpdated": "2026-10-13",
-  "generatedAt": "2026-10-12T17:37:25.865939Z",
+  "generatedAt": "2026-10-12T20:43:05.486308Z",
   "news": [
+    {
+      "title": "Turning Opportunistic AI Inference Capacity Into Better Ads Recommendations",
+      "summary": "At Meta, we’ve built a system that enhances ads recommendations by leveraging idle inference capacity in our fleet. Two elasticity levers in the system allow ads recommendation wor",
+      "category": "ai-models",
+      "source": "RSS · Meta Engineering",
+      "date": "2026-10-13",
+      "publishedAt": "2026-10-13T00:00",
+      "collectedAt": "2026-10-13T02:39",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://engineering.fb.com/2026/10/12/ml-applications/turning-opportunistic-ai-inference-capacity-into-better-ads-recommendations/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Accessing OpenAI GPT models on Amazon Bedrock with global cross-Region inference in Thailand, Malaysia, Singapore, Indonesia, and Taiwan",
+      "summary": "Learn how to run OpenAI GPT-6 Sol, Luna, and Astra on Amazon Bedrock through global cross-Region inference from Singapore, Jakarta, Thailand, Malaysia, and Taipei. This post covers",
+      "category": "ai-models",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-10-13",
+      "publishedAt": "2026-10-13T01:52",
+      "collectedAt": "2026-10-13T02:39",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-models-on-amazon-bedrock-with-global-cross-region-inference-in-thailand-malaysia-singapore-indonesia-and-taiwan/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "AWS 提出 priming 方法，可将预训练 Transformer 改造成混合状态空间架构",
+      "summary": "AWS 团队发布论文《Priming: Hybrid state space models from pre-trained Transformers》，提出 priming 方法，复用预训练 Transformer 权重构建混合架构，将预训练成本降低逾 99%，全流程消耗不足源模型 0.5% 的 token 预算。",
+      "category": "ai-models",
+      "source": "Amazon Science（RSS）",
+      "date": "2026-10-13",
+      "publishedAt": "2026-10-13T01:36",
+      "collectedAt": "2026-10-13T02:39",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://www.amazon.science/blog/can-we-change-an-ai-models-architecture-without-retraining-it-from-scratch",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Simulating student learning for better AI tutoring",
       "summary": "StudentSim is a research system for evaluating and improving AI tutoring tools before they are tested with learners. It models how individuals may engage with tutors, giving feedba",
@@ -42,6 +124,33 @@
       "sourceDate": "",
       "tags": [],
       "url": "https://engineering.fb.com/2026/10/12/video-engineering/shipping-media-over-quic-at-meta-scale-for-instagram-live-ingest/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Anthropic 研究：小型 AI 模型可能接近在 IoT 设备上自主复制",
+      "summary": "Anthropic 发文评估小型模型在无数据中心条件下自主复制（ARA）的可行性，作者实验显示 9B 模型可在测试的 9 类硬件中 8 类上跑通推理，30B 及以下模型已能完成复制的多数单步。",
+      "category": "ai-models",
+      "source": "Anthropic：Research（发表成果 · 网页）",
+      "date": "2026-10-12",
+      "publishedAt": "2026-10-12T00:00",
+      "collectedAt": "2026-10-13T04:43",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://www.anthropic.com/research/self-replicating-ai",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -5502,6 +5611,21 @@
       "date": "2026-08-05"
     },
     {
+      "name": "zai-org/CogAgent",
+      "lang": "Python",
+      "description": "An open-sourced end-to-end VLM-based GUI Agent",
+      "stars": "1197 stars",
+      "why": "国产大模型厂商 智谱 Z.ai 的最新开源动态/模型发布，属一手信源。",
+      "url": "https://github.com/zai-org/CogAgent",
+      "source": "GitHub · 智谱 Z.ai",
+      "tier": "T1",
+      "category": "Coding Agent",
+      "details": "An open-sourced end-to-end VLM-based GUI Agent",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
       "name": "OpenBMB/Trident",
       "lang": "Python",
       "description": "面壁智能 MiniCPM 开源项目。",
@@ -5541,21 +5665,6 @@
       "tier": "T1",
       "category": "Coding Agent",
       "details": "We propose Prism, a dynamic sparse attention framework for natively training joint video-audio generation models at 2K.",
-      "features": [],
-      "useCases": [],
-      "quickStart": []
-    },
-    {
-      "name": "QwenLM/D2K-Bench",
-      "lang": "Python",
-      "description": "通义千问 Qwen 开源项目。",
-      "stars": "0 stars",
-      "why": "国产大模型厂商 通义千问 Qwen 的最新开源动态/模型发布，属一手信源。",
-      "url": "https://github.com/QwenLM/D2K-Bench",
-      "source": "GitHub · 通义千问 Qwen",
-      "tier": "T1",
-      "category": "Coding Agent",
-      "details": "通义千问 Qwen 开源项目。",
       "features": [],
       "useCases": [],
       "quickStart": []
@@ -5675,6 +5784,28 @@
   ],
   "topicResources": {
     "ai-coding": [
+      {
+        "name": "用户报告 Codex CLI 0.157.0 默认启动持久化自更新后台守护进程",
+        "provider": "Codex：GitHub Releases（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "一位 Linux (WSL2) 用户报告，Codex CLI 0.157.0 起打开交互式会话即默认启动持久后台守护进程 codex app-server --managed-daemon，窗口关闭后仍驻留。",
+        "description": "一位 Linux (WSL2) 用户报告，Codex CLI 0.157.0 起打开交互式会话即默认启动持久后台守护进程 codex app-server --managed-daemon，窗口关闭后仍驻留。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Codex：GitHub Releases（RSS）",
+        "url": "https://github.com/openai/codex/issues/48195"
+      },
+      {
+        "name": "Meta 发布 Muse Wonder 与 Muse Wonder Full 模型，主打个人与专业智能体能力",
+        "provider": "Meta AI：Research Blog（网页）",
+        "type": "AI 项目/工具",
+        "bestFor": "Meta 发布 Muse Wonder 系列模型，称其在个人与专业智能体任务上达到 SOTA 性能。Muse Wonder 现已通过 Meta Model API 和 Muse Code 提供，Muse Wonder Full 面向 Muse Code 订阅者开放。",
+        "description": "Meta 发布 Muse Wonder 系列模型，称其在个人与专业智能体任务上达到 SOTA 性能。Muse Wonder 现已通过 Meta Model API 和 Muse Code 提供，Muse Wonder Full 面向 Muse Code 订阅者开放。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Meta AI：Research Blog（网页）",
+        "url": "https://research.meta.ai/blog/muse-wonder"
+      },
       {
         "name": "如何只用自己拥有的文件约束编码智能体",
         "provider": "Tessl：产品与工程博客",
@@ -6092,31 +6223,20 @@
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:AI agent",
         "url": "https://siliconangle.com/2026/09/30/metaview-wants-to-eliminate-recruiting-grunt-work-and-speed-up-hiring-after-raising-60m-in-funding/"
-      },
-      {
-        "name": "From coding to critical thinking: What future engineers need",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "For the next generation of engineers, knowing how to code will remain valuable. But being able to think, question, understand and adapt will be equally importan",
-        "description": "For the next generation of engineers, knowing how to code will remain valuable. But being able to think, question, understand and adapt will be equally important.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI coding tool",
-        "url": "https://www.thehansindia.com/hans/young-hans/from-coding-to-critical-thinking-what-future-engineers-need-to-learn-1127467"
-      },
-      {
-        "name": "The AI agent boom is exposing Southeast Asia’s startup codeb",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Across Southeast Asia’s technology hubs, the AI conversation has moved quickly from “Can it help developers write code faster?” to a harder question: “Can it be",
-        "description": "Across Southeast Asia’s technology hubs, the AI conversation has moved quickly from “Can it help developers write code faster?” to a harder question: “Can it be trusted to work on ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://e27.co/the-ai-agent-boom-is-exposing-southeast-asias-startup-codebase-problem-20261001/"
       }
     ],
     "ai-agents": [
+      {
+        "name": "Meta Muse Wonder 系列上线 Agent Arena，分数即将公布",
+        "provider": "X：Arena (@arena)",
+        "type": "AI 项目/工具",
+        "bestFor": "Arena 宣布 Meta 的 Muse Wonder 系列模型上线 Agent Arena，用户可实测，分数即将公布。",
+        "description": "Arena 宣布 Meta 的 Muse Wonder 系列模型上线 Agent Arena，用户可实测，分数即将公布。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "X：Arena (@arena)",
+        "url": "https://x.com/arena/status/2109706854700044523"
+      },
       {
         "name": "Humanize Olympiad Agents: A Multi-Session Workflow for Olymp",
         "provider": "arXiv",
@@ -6545,20 +6665,20 @@
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2610.12325v1"
-      },
-      {
-        "name": "Mistral Large 4 进入 Agent Arena 前十五实验室，排名第 43",
-        "provider": "X：Arena (@arena)",
-        "type": "AI 项目/工具",
-        "bestFor": "Arena 宣布 Mistral Large 4 进入 Agent Arena 前十五实验室，基于超 5000 个真实智能体会话，该预览版净改进分为 -6.6%，总排名第 43，比前代 Mistral Medium 3.5（-12.60%）高出 11 位。",
-        "description": "Arena 宣布 Mistral Large 4 进入 Agent Arena 前十五实验室，基于超 5000 个真实智能体会话，该预览版净改进分为 -6.6%，总排名第 43，比前代 Mistral Medium 3.5（-12.60%）高出 11 位。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "X：Arena (@arena)",
-        "url": "https://x.com/arena/status/2108405474391728357"
       }
     ],
     "ai-models": [
+      {
+        "name": "Turning Opportunistic AI Inference Capacity Into Better Ads ",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "At Meta, we’ve built a system that enhances ads recommendations by leveraging idle inference capacity in our fleet. Two elasticity levers in the system allow ad",
+        "description": "At Meta, we’ve built a system that enhances ads recommendations by leveraging idle inference capacity in our fleet. Two elasticity levers in the system allow ads recommendation wor",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Meta Engineering",
+        "url": "https://engineering.fb.com/2026/10/12/ml-applications/turning-opportunistic-ai-inference-capacity-into-better-ads-recommendations/"
+      },
       {
         "name": "Android Automotive vs. Google Built-in: How Google’s Two Car",
         "provider": "NewsData.io",
@@ -6987,17 +7107,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:artificial intelligence",
         "url": "https://dailytrust.com/ai-digital-mapping-to-drive-next-wave-of-real-estate-growth/"
-      },
-      {
-        "name": "Building advertising for the way people use AI",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
-        "description": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · OpenAI Blog",
-        "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement"
       }
     ],
     "ai-business": [
@@ -10233,8 +10342,8 @@
   ],
   "dailyReport": {
     "date": "2026-10-13",
-    "generatedAt": "2026-10-12T17:37:25.845938Z",
-    "total": 11,
+    "generatedAt": "2026-10-12T20:43:05.467274Z",
+    "total": 15,
     "sections": [
       {
         "category": "ai-coding",
@@ -10296,6 +10405,50 @@
         "category": "ai-models",
         "label": "模型发布",
         "items": [
+          {
+            "title": "Turning Opportunistic AI Inference Capacity Into Better Ads Recommendations",
+            "summary": "At Meta, we’ve built a system that enhances ads recommendations by leveraging idle inference capacity in our fleet. Two elasticity levers in",
+            "source": "RSS · Meta Engineering",
+            "url": "https://engineering.fb.com/2026/10/12/ml-applications/turning-opportunistic-ai-inference-capacity-into-better-ads-recommendations/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-13",
+            "publishedAt": "2026-10-13T00:00",
+            "reason": ""
+          },
+          {
+            "title": "Accessing OpenAI GPT models on Amazon Bedrock with global cross-Region inference in Thailand, Malaysia, Singapore, Indonesia, and Taiwan",
+            "summary": "Learn how to run OpenAI GPT-6 Sol, Luna, and Astra on Amazon Bedrock through global cross-Region inference from Singapore, Jakarta, Thailand",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-models-on-amazon-bedrock-with-global-cross-region-inference-in-thailand-malaysia-singapore-indonesia-and-taiwan/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-13",
+            "publishedAt": "2026-10-13T01:52",
+            "reason": ""
+          },
+          {
+            "title": "AWS 提出 priming 方法，可将预训练 Transformer 改造成混合状态空间架构",
+            "summary": "AWS 团队发布论文《Priming: Hybrid state space models from pre-trained Transformers》，提出 priming 方法，复用预训练 Transformer 权重构建混合架构，将预训练成本降低逾 99%，全流程消耗不足源",
+            "source": "Amazon Science（RSS）",
+            "url": "https://www.amazon.science/blog/can-we-change-an-ai-models-architecture-without-retraining-it-from-scratch",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-13",
+            "publishedAt": "2026-10-13T01:36",
+            "reason": ""
+          },
+          {
+            "title": "Anthropic 研究：小型 AI 模型可能接近在 IoT 设备上自主复制",
+            "summary": "Anthropic 发文评估小型模型在无数据中心条件下自主复制（ARA）的可行性，作者实验显示 9B 模型可在测试的 9 类硬件中 8 类上跑通推理，30B 及以下模型已能完成复制的多数单步。",
+            "source": "Anthropic：Research（发表成果 · 网页）",
+            "url": "https://www.anthropic.com/research/self-replicating-ai",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-12",
+            "publishedAt": "2026-10-12T00:00",
+            "reason": ""
+          },
           {
             "title": "Deploy decision models with llama.cpp on Amazon SageMaker AI",
             "summary": "Learn how to deploy decision models with llama.cpp on Amazon SageMaker AI. This technical how-to serves OpenAI-compatible chat completions w",
