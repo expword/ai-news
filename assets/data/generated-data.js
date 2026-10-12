@@ -1,7 +1,116 @@
 window.AI_GENERATED_DATA = {
-  "lastUpdated": "2026-10-12",
-  "generatedAt": "2026-10-12T15:29:05.613194Z",
+  "lastUpdated": "2026-10-13",
+  "generatedAt": "2026-10-12T17:37:25.865939Z",
   "news": [
+    {
+      "title": "Simulating student learning for better AI tutoring",
+      "summary": "StudentSim is a research system for evaluating and improving AI tutoring tools before they are tested with learners. It models how individuals may engage with tutors, giving feedba",
+      "category": "ai-research",
+      "source": "RSS · Microsoft Research",
+      "date": "2026-10-13",
+      "publishedAt": "2026-10-13T00:00",
+      "collectedAt": "2026-10-13T00:34",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://www.microsoft.com/en-us/research/blog/simulating-student-learning-for-better-ai-tutoring/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Shipping Media Over QUIC at Meta Scale for Instagram Live Ingest",
+      "summary": "Meta has begun deploying Media over QUIC (MoQ), an emerging open protocol for real-time video streaming at scale. MoQ will help simplify our protocol stack for live streaming video",
+      "category": "ai-image-video",
+      "source": "RSS · Meta Engineering",
+      "date": "2026-10-13",
+      "publishedAt": "2026-10-13T00:01",
+      "collectedAt": "2026-10-13T00:34",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://engineering.fb.com/2026/10/12/video-engineering/shipping-media-over-quic-at-meta-scale-for-instagram-live-ingest/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Deploy decision models with llama.cpp on Amazon SageMaker AI",
+      "summary": "Learn how to deploy decision models with llama.cpp on Amazon SageMaker AI. This technical how-to serves OpenAI-compatible chat completions with the AWS Deep Learning Container for ",
+      "category": "ai-models",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-10-12",
+      "publishedAt": "2026-10-12T23:51",
+      "collectedAt": "2026-10-13T00:34",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/deploy-decision-models-with-llama-cpp-on-amazon-sagemaker-ai/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Run multi-node inference workloads using Ray LLM Deep Learning Containers",
+      "summary": "Learn how to deploy one large language model across two GPU nodes on Amazon EKS using the multi-node Ray LLM Deep Learning Containers, with separate prefill and decode nodes behind",
+      "category": "ai-coding",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-10-12",
+      "publishedAt": "2026-10-12T23:50",
+      "collectedAt": "2026-10-13T00:34",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/run-multi-node-inference-workloads-using-ray-llm-deep-learning-containers/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Kairos: Toward a Byte-Level Foundation Model for Every Modality",
       "summary": "arXiv:2610.12495v1 Announce Type: new Abstract: Small language models trained on a single local machine leave little room for architectural trial and error. Kairos combines bidirec",
@@ -8278,6 +8387,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-research": [
       {
+        "name": "Simulating student learning for better AI tutoring",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "StudentSim is a research system for evaluating and improving AI tutoring tools before they are tested with learners. It models how individuals may engage with t",
+        "description": "StudentSim is a research system for evaluating and improving AI tutoring tools before they are tested with learners. It models how individuals may engage with tutors, giving feedba",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Microsoft Research",
+        "url": "https://www.microsoft.com/en-us/research/blog/simulating-student-learning-for-better-ai-tutoring/"
+      },
+      {
         "name": "Algebraic Integer Quantization for Machine Learning Applicat",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -8705,22 +8825,39 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2609.35579v1"
-      },
-      {
-        "name": "Faster Rates for Federated Variational Inequalities",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "In this paper, we study federated optimization for solving stochastic variational inequalities (VIs), a problem that has attracted growing attention in recent y",
-        "description": "In this paper, we study federated optimization for solving stochastic variational inequalities (VIs), a problem that has attracted growing attention in recent years. Despite substa",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · Apple ML Research",
-        "url": "https://machinelearning.apple.com/research/federated-variational-inequalities"
       }
     ],
     "ai-office": []
   },
   "skillRecommendations": [
+    {
+      "title": "morluto/rea",
+      "type": "编程开发",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "tags": [
+        "TypeScript",
+        "编程开发",
+        "GitHub"
+      ],
+      "url": "https://github.com/morluto/rea",
+      "source": "GitHub",
+      "stars": 144152,
+      "date": "2026-10-13"
+    },
+    {
+      "title": "paperclipai/paperclip",
+      "type": "编程开发",
+      "description": "The open-source app everyone uses to manage agents at work",
+      "tags": [
+        "TypeScript",
+        "编程开发",
+        "GitHub"
+      ],
+      "url": "https://github.com/paperclipai/paperclip",
+      "source": "GitHub",
+      "stars": 100817,
+      "date": "2026-10-13"
+    },
     {
       "title": "unclecode/crawl4ai",
       "type": "编程开发",
@@ -9223,20 +9360,6 @@ window.AI_GENERATED_DATA = {
       "url": "https://github.com/DeusData/codebase-memory-mcp",
       "source": "GitHub",
       "stars": 38393,
-      "date": "2026-08-11"
-    },
-    {
-      "title": "PubMed 文献搜索",
-      "type": "搜索 / 信息",
-      "description": "通过 PubMed，用户可以搜索到超过 3600 万条生物医学文献，包括论文、摘要及来自 MEDLINE 和生命科学期刊的相关文章，帮助研究人员获取所需信息。",
-      "tags": [
-        "文献检索",
-        "生物医学",
-        "学术资源"
-      ],
-      "url": "https://smithery.ai/server/pubmed",
-      "source": "Smithery MCP",
-      "stars": 37070,
       "date": "2026-08-11"
     },
     {
@@ -9912,20 +10035,6 @@ window.AI_GENERATED_DATA = {
       "date": "2026-08-04"
     },
     {
-      "title": "CrewAI 协作框架",
-      "type": "Agent 框架",
-      "description": "CrewAI 是一个用于协调角色扮演和自主 AI 代理的框架。通过促进协作智能，CrewAI 使得代理能够无缝合作，处理复杂任务。",
-      "tags": [
-        "协作智能",
-        "自主代理",
-        "复杂任务处理"
-      ],
-      "url": "https://github.com/crewAIInc/crewAI",
-      "source": "GitHub",
-      "stars": 56572,
-      "date": "2026-08-04"
-    },
-    {
       "title": "Goose AI 代理",
       "type": "编程开发",
       "description": "Goose 是一个开源的可扩展 AI 代理，超越了代码建议的范畴。用户可以安装、执行、编辑和测试任何大型语言模型（LLM），提升开发效率。",
@@ -10123,14 +10232,25 @@ window.AI_GENERATED_DATA = {
     }
   ],
   "dailyReport": {
-    "date": "2026-10-12",
-    "generatedAt": "2026-10-12T15:29:05.591191Z",
-    "total": 8,
+    "date": "2026-10-13",
+    "generatedAt": "2026-10-12T17:37:25.845938Z",
+    "total": 11,
     "sections": [
       {
         "category": "ai-coding",
         "label": "AI 编程",
         "items": [
+          {
+            "title": "Run multi-node inference workloads using Ray LLM Deep Learning Containers",
+            "summary": "Learn how to deploy one large language model across two GPU nodes on Amazon EKS using the multi-node Ray LLM Deep Learning Containers, with ",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/run-multi-node-inference-workloads-using-ray-llm-deep-learning-containers/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-12",
+            "publishedAt": "2026-10-12T23:50",
+            "reason": ""
+          },
           {
             "title": "Kairos: Toward a Byte-Level Foundation Model for Every Modality",
             "summary": "arXiv:2610.12495v1 Announce Type: new Abstract: Small language models trained on a single local machine leave little room for architectural ",
@@ -10156,18 +10276,35 @@ window.AI_GENERATED_DATA = {
         ]
       },
       {
+        "category": "ai-image-video",
+        "label": "图像视频",
+        "items": [
+          {
+            "title": "Shipping Media Over QUIC at Meta Scale for Instagram Live Ingest",
+            "summary": "Meta has begun deploying Media over QUIC (MoQ), an emerging open protocol for real-time video streaming at scale. MoQ will help simplify our",
+            "source": "RSS · Meta Engineering",
+            "url": "https://engineering.fb.com/2026/10/12/video-engineering/shipping-media-over-quic-at-meta-scale-for-instagram-live-ingest/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-13",
+            "publishedAt": "2026-10-13T00:01",
+            "reason": ""
+          }
+        ]
+      },
+      {
         "category": "ai-models",
         "label": "模型发布",
         "items": [
           {
-            "title": "[Subscriber Exclusive] NYC Subscriber Meetups!",
-            "summary": "Tomorrow and Tuesday. If you see this you&#8217;re in!",
-            "source": "RSS · Latent Space (swyx)",
-            "url": "https://www.latent.space/p/nyc2026",
-            "score": 56,
+            "title": "Deploy decision models with llama.cpp on Amazon SageMaker AI",
+            "summary": "Learn how to deploy decision models with llama.cpp on Amazon SageMaker AI. This technical how-to serves OpenAI-compatible chat completions w",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/deploy-decision-models-with-llama-cpp-on-amazon-sagemaker-ai/",
+            "score": 70,
             "sourceCount": 1,
-            "date": "2026-10-11",
-            "publishedAt": "2026-10-11T06:07",
+            "date": "2026-10-12",
+            "publishedAt": "2026-10-12T23:51",
             "reason": ""
           }
         ]
@@ -10176,6 +10313,17 @@ window.AI_GENERATED_DATA = {
         "category": "ai-research",
         "label": "论文研究",
         "items": [
+          {
+            "title": "Simulating student learning for better AI tutoring",
+            "summary": "StudentSim is a research system for evaluating and improving AI tutoring tools before they are tested with learners. It models how individua",
+            "source": "RSS · Microsoft Research",
+            "url": "https://www.microsoft.com/en-us/research/blog/simulating-student-learning-for-better-ai-tutoring/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-13",
+            "publishedAt": "2026-10-13T00:00",
+            "reason": ""
+          },
           {
             "title": "Algebraic Integer Quantization for Machine Learning Applications",
             "summary": "arXiv:2610.12494v1 Announce Type: new Abstract: In this article, we propose algebraic integer number formats (AINF) as a framework for highl",
@@ -10236,6 +10384,102 @@ window.AI_GENERATED_DATA = {
     ]
   },
   "dailyReports": [
+    {
+      "date": "2026-10-12",
+      "generatedAt": "2026-10-12T16:00:11.285591Z",
+      "total": 7,
+      "sections": [
+        {
+          "category": "ai-coding",
+          "label": "AI 编程",
+          "items": [
+            {
+              "title": "Kairos: Toward a Byte-Level Foundation Model for Every Modality",
+              "summary": "arXiv:2610.12495v1 Announce Type: new Abstract: Small language models trained on a single local machine leave little room for architectural ",
+              "source": "RSS · arXiv cs.LG",
+              "url": "https://arxiv.org/abs/2610.12495",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-12",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "GlucoPRISM: Protocol-Supervised Pretraining for Cross-Cohort Glucose Transfer",
+              "summary": "arXiv:2610.12528v1 Announce Type: new Abstract: Continuous glucose monitoring (CGM) foundation models encode each day as one vector that mix",
+              "source": "RSS · arXiv cs.LG",
+              "url": "https://arxiv.org/abs/2610.12528",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-12",
+              "publishedAt": "",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-research",
+          "label": "论文研究",
+          "items": [
+            {
+              "title": "Algebraic Integer Quantization for Machine Learning Applications",
+              "summary": "arXiv:2610.12494v1 Announce Type: new Abstract: In this article, we propose algebraic integer number formats (AINF) as a framework for highl",
+              "source": "RSS · arXiv cs.LG",
+              "url": "https://arxiv.org/abs/2610.12494",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-12",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "CacheScope: Exact-Compute Allocation for Training-Free Diffusion Acceleration",
+              "summary": "arXiv:2610.12530v1 Announce Type: new Abstract: Training-free feature reuse accelerates diffusion transformer inference by replacing full de",
+              "source": "RSS · arXiv cs.LG",
+              "url": "https://arxiv.org/abs/2610.12530",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-12",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "An Input-Dependent Readout Phase for Resonant Sequence Models",
+              "summary": "arXiv:2610.12496v1 Announce Type: new Abstract: Sequence models with a fixed-size state avoid the quadratic cost of attention, but face a de",
+              "source": "RSS · arXiv cs.LG",
+              "url": "https://arxiv.org/abs/2610.12496",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-12",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "CircuitTree: Composing Circuits into A Syllable Transcriber",
+              "summary": "arXiv:2610.12520v1 Announce Type: new Abstract: The goal of circuit discovery is to decompose a monolithic neural network into tiny modular ",
+              "source": "RSS · arXiv cs.LG",
+              "url": "https://arxiv.org/abs/2610.12520",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-12",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "Behind-the-Meter Photovoltaic Visibility from Net Smart Meters: Deployment Regimes and Operational Insights",
+              "summary": "arXiv:2610.12527v1 Announce Type: new Abstract: Distribution operators need visibility of behind-the-meter photovoltaic (PV) generation, yet",
+              "source": "RSS · arXiv cs.LG",
+              "url": "https://arxiv.org/abs/2610.12527",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-12",
+              "publishedAt": "",
+              "reason": ""
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-10-11",
       "generatedAt": "2026-10-11T16:00:43.708132Z",
@@ -19372,51 +19616,10 @@ window.AI_GENERATED_DATA = {
           ]
         }
       ]
-    },
-    {
-      "date": "2026-08-10",
-      "generatedAt": "2026-08-10T16:41:02.853332Z",
-      "total": 2,
-      "sections": [
-        {
-          "category": "ai-tools",
-          "label": "AI 工具",
-          "items": [
-            {
-              "title": "千问开放平台正式上线，覆盖多领域智能服务",
-              "summary": "千问开放平台今日正式上线，面向生态伙伴和开发者提供手机、PC和AI眼镜三类终端的服务接入，涵盖物流、房产、本地生活、理财等十多个领域。用户可通过对话@相关服务或点击\"圆点角标\"，完成咨询、推荐及下单等流程。平台支持标准化协议接入、一键授权及端到端调测，并提供基础设施如账号、AI支",
-              "source": "公众号：千问APP（阿里）",
-              "url": "https://mp.weixin.qq.com/s?__biz=MzYzNDE5MDEwMQ%3D%3D&mid=2247488345&idx=1&sn=ef4e57c9c9350f9238d90211eb2dd453",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-08-10",
-              "publishedAt": "2026-08-10T10:07",
-              "reason": "千问开放平台的上线为开发者和用户提供了全新的智能服务体验，值得关注其在市场中的表现。"
-            }
-          ]
-        },
-        {
-          "category": "ai-agents",
-          "label": "Agent / MCP",
-          "items": [
-            {
-              "title": "Qwen-MM-Plugins 实现智能体多模态原生支持",
-              "summary": "Qwen-MM-Plugins 使智能体能够原生支持多模态功能，包括读取图片、视频和文档，编辑视频，处理 3D/CAD 文件等。这一创新标志着从多模态模型向多模态智能体的转变，极大提升了智能体的应用场景和灵活性。",
-              "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
-              "url": "https://x.com/Alibaba_Qwen/status/2086664887560970531",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-08-10",
-              "publishedAt": "2026-08-10T12:04",
-              "reason": "Qwen-MM-Plugins 的发布为智能体带来了革命性的多模态支持，极大拓展了其应用潜力，值得关注。"
-            }
-          ]
-        }
-      ]
     }
   ],
   "llmLeaderboard": {
-    "updated": "2026-10-12",
+    "updated": "2026-10-13",
     "source": "ReLE 中文大模型能力评测（综合能力）",
     "sourceUrl": "https://github.com/jeinlee1991/chinese-llm-benchmark",
     "items": [
