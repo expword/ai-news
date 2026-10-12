@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-10-12",
-  "generatedAt": "2026-10-12T06:46:12.145640Z",
+  "generatedAt": "2026-10-12T09:20:01.296499Z",
   "news": [
     {
       "title": "Kairos: Toward a Byte-Level Foundation Model for Every Modality",
@@ -295,6 +295,33 @@ window.AI_GENERATED_DATA = {
       "tier": "T1.5",
       "scores": {},
       "score": 56,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Simulating Training Spikes of Deep Neural Networks by Layer-wise Random Feature Models",
+      "summary": "Intermittent ``spikes'' in loss, during the pre-training of Large Language Models (LLMs), remains a mysterious phenomenon both theoretically and empirically. In this paper, we show",
+      "category": "ai-research",
+      "source": "arXiv",
+      "date": "2026-10-09",
+      "publishedAt": "",
+      "collectedAt": "2026-10-12T17:20",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-09",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.13524v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
       "aiSelected": true,
       "moduleTargets": [
         "news"
@@ -2675,61 +2702,6 @@ window.AI_GENERATED_DATA = {
       "sourceDate": "",
       "tags": [],
       "url": "https://www.anthropic.com/news/2026-usage-policy-update",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Anthropic 用 Claude Managed Agents 构建定时智能体自动化的实践指南",
-      "summary": "Anthropic 发布基于 Claude Managed Agents（beta）的每日简报参考实现，按计划读取 Slack 和 GitHub 来源并向 Slack 发布简报。",
-      "category": "ai-coding",
-      "source": "Anthropic：Claude.dev 开发者博客（RSS）",
-      "date": "2026-10-08",
-      "publishedAt": "2026-10-08T20:00",
-      "collectedAt": "2026-10-09T01:03",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://claude.dev/blog/building-effective-agent-automations/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Oct 8, 2026 Announcements Building on our commitment to American scientific discovery",
-      "summary": "Oct 8, 2026 Announcements Building on our commitment to American scientific discovery",
-      "category": "ai-models",
-      "source": "HTML · Anthropic",
-      "date": "2026-10-08",
-      "publishedAt": "",
-      "collectedAt": "2026-10-09T01:03",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-08",
-      "tags": [],
-      "url": "https://www.anthropic.com/news/genesis-mission-commitment",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -10399,7 +10371,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-10-12",
-    "generatedAt": "2026-10-12T06:46:12.125617Z",
+    "generatedAt": "2026-10-12T09:20:01.271498Z",
     "total": 8,
     "sections": [
       {
