@@ -1,7 +1,255 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-10-12",
-  "generatedAt": "2026-10-11T17:11:20.385759Z",
+  "generatedAt": "2026-10-12T01:30:19.413788Z",
   "news": [
+    {
+      "title": "Towards the Roof of the World: NLP Progress in Tibetan Languages",
+      "summary": "Tibetan, spoken by some seven million people on and around the Qinghai-Xizang Plateau, remains underrepresented in natural language processing (NLP). We present, to our knowledge, ",
+      "category": "ai-research",
+      "source": "arXiv",
+      "date": "2026-10-09",
+      "publishedAt": "",
+      "collectedAt": "2026-10-12T09:30",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-09",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.13398v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "MoPrO-SD: Modular Prompt Optimization for Stance Detection",
+      "summary": "Stance detection remains challenging for large language models (LLMs) due to implicit opinions, sarcasm, and context-dependent expressions of stance. Although automatic prompt opti",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-10-09",
+      "publishedAt": "",
+      "collectedAt": "2026-10-12T09:30",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-09",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.13386v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Rollout-Time Intervention: Unlocking Agentic Reinforcement Learning Beyond Policy Limits",
+      "summary": "Reinforcement learning (RL) has emerged as a key paradigm for improving large language model (LLM) agents, enabling stronger reasoning, planning, and tool-use in interactive enviro",
+      "category": "ai-agents",
+      "source": "arXiv",
+      "date": "2026-10-09",
+      "publishedAt": "",
+      "collectedAt": "2026-10-12T09:30",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-09",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.13438v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Web$hell: A Unified Interface for Agentic Web Access",
+      "summary": "Large language model (LLM) agents are becoming direct users of the open web. As they take on increasingly complex and information-intensive tasks, effective web access is becoming ",
+      "category": "ai-agents",
+      "source": "arXiv",
+      "date": "2026-10-09",
+      "publishedAt": "",
+      "collectedAt": "2026-10-12T09:30",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-09",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.13416v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Phonology-Aware Speaker Extraction Frontend for Audio LLMs",
+      "summary": "Target speaker extraction (TSE) is a key frontend for enabling audio large language models (LLMs) to recognize and understand a designated speaker in overlapping speech. However, m",
+      "category": "ai-image-video",
+      "source": "arXiv",
+      "date": "2026-10-09",
+      "publishedAt": "",
+      "collectedAt": "2026-10-12T09:30",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-09",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.13500v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "EviRepair: Evidence-Driven Agents for Reliable Vulnerability Repair",
+      "summary": "Recent advances in large language models (LLMs) have enabled agent-based approaches for repository-level automated vulnerability repair (AVR), showing promising repair capabilities",
+      "category": "ai-agents",
+      "source": "arXiv",
+      "date": "2026-10-09",
+      "publishedAt": "",
+      "collectedAt": "2026-10-12T09:30",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-09",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.13491v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Exploring Attention Sinks in Text-to-Image Transformers from Diffusion and Autoregressive Models",
+      "summary": "Attention sinks are tokens or positions that consistently receive disproportionate attention mass, often beyond what their semantic content would suggest. Despite extensive study i",
+      "category": "ai-image-video",
+      "source": "arXiv",
+      "date": "2026-10-09",
+      "publishedAt": "",
+      "collectedAt": "2026-10-12T09:30",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-09",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.13337v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Polarization Dynamics under Algorithmic Recommendations in LLM-based Online Social Networks",
+      "summary": "How do recommendation algorithms contribute to the formation of polarized opinions in online social networks? This question has been studied through empirical analyses of real plat",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-10-09",
+      "publishedAt": "",
+      "collectedAt": "2026-10-12T09:30",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-09",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.13351v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Proactive Agentic Orchestration",
+      "summary": "Agentic orchestration delegates tasks to sub-agents with independent contexts, providing a key path to extending the effective execution horizon of large language model agents. How",
+      "category": "ai-agents",
+      "source": "arXiv",
+      "date": "2026-10-09",
+      "publishedAt": "",
+      "collectedAt": "2026-10-12T09:30",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-09",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.13485v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Large Language Model-Assisted Preparation of Transportation Management Plans: A Case Study with WisDOT WisTMP System",
       "summary": "arXiv:2610.10650v1 Announce Type: new Abstract: Work zones are critical yet hazardous components of transportation infrastructure, requiring carefully designed Transportation Manag",
@@ -2278,7 +2526,14 @@ window.AI_GENERATED_DATA = {
         "news",
         "topicResources"
       ],
-      "sourceCount": 1
+      "sourceCount": 2,
+      "relatedSources": [
+        {
+          "source": "arXiv",
+          "url": "http://arxiv.org/abs/2610.13455v1",
+          "title": "Agentic Large Language Models"
+        }
+      ]
     },
     {
       "title": "TaoD2C-Bench: Benchmarking MLLMs for Industrial UI Code Generation Beyond Visual Fidelity",
@@ -6011,6 +6266,61 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "Rollout-Time Intervention: Unlocking Agentic Reinforcement L",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Reinforcement learning (RL) has emerged as a key paradigm for improving large language model (LLM) agents, enabling stronger reasoning, planning, and tool-use i",
+        "description": "Reinforcement learning (RL) has emerged as a key paradigm for improving large language model (LLM) agents, enabling stronger reasoning, planning, and tool-use in interactive enviro",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2610.13438v1"
+      },
+      {
+        "name": "Web$hell: A Unified Interface for Agentic Web Access",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Large language model (LLM) agents are becoming direct users of the open web. As they take on increasingly complex and information-intensive tasks, effective web",
+        "description": "Large language model (LLM) agents are becoming direct users of the open web. As they take on increasingly complex and information-intensive tasks, effective web access is becoming ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2610.13416v1"
+      },
+      {
+        "name": "Agentic Large Language Models",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Large language models (LLMs) have taken the world by storm. Their ability to communicate with us in our own language, and to reason about our world, has made th",
+        "description": "Large language models (LLMs) have taken the world by storm. Their ability to communicate with us in our own language, and to reason about our world, has made them a favorite tool f",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2610.13455v1"
+      },
+      {
+        "name": "EviRepair: Evidence-Driven Agents for Reliable Vulnerability",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Recent advances in large language models (LLMs) have enabled agent-based approaches for repository-level automated vulnerability repair (AVR), showing promising",
+        "description": "Recent advances in large language models (LLMs) have enabled agent-based approaches for repository-level automated vulnerability repair (AVR), showing promising repair capabilities",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2610.13491v1"
+      },
+      {
+        "name": "Proactive Agentic Orchestration",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Agentic orchestration delegates tasks to sub-agents with independent contexts, providing a key path to extending the effective execution horizon of large langua",
+        "description": "Agentic orchestration delegates tasks to sub-agents with independent contexts, providing a key path to extending the effective execution horizon of large language model agents. How",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2610.13485v1"
+      },
+      {
         "name": "Politics, Philosophy and Economics",
         "provider": "NewsData.io",
         "type": "AI 项目/工具",
@@ -6394,61 +6704,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · arXiv cs.AI",
         "url": "https://arxiv.org/abs/2610.10635"
-      },
-      {
-        "name": "Plan-and-Patch: Diffusion Language Models for Agentic Planni",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "arXiv:2610.10786v1 Announce Type: new Abstract: Planning is increasingly important for long-horizon agents, where successful execution requires coordinating sub",
-        "description": "arXiv:2610.10786v1 Announce Type: new Abstract: Planning is increasingly important for long-horizon agents, where successful execution requires coordinating subgoals, tool use, and",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · arXiv cs.AI",
-        "url": "https://arxiv.org/abs/2610.10786"
-      },
-      {
-        "name": "Verification and Self-Improvement in Agentic AI: Foundations",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "arXiv:2610.10611v1 Announce Type: new Abstract: Agentic AI systems can improve by searching longer, receiving additional support, or modifying how they propose ",
-        "description": "arXiv:2610.10611v1 Announce Type: new Abstract: Agentic AI systems can improve by searching longer, receiving additional support, or modifying how they propose and verify outputs. ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · arXiv cs.AI",
-        "url": "https://arxiv.org/abs/2610.10611"
-      },
-      {
-        "name": "Synthesis Through Simulation: Generating Coherent Enterprise",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "arXiv:2610.10549v1 Announce Type: new Abstract: Tool-calling agents have become central to enterprise AI, yet training and evaluating them at scale remains seve",
-        "description": "arXiv:2610.10549v1 Announce Type: new Abstract: Tool-calling agents have become central to enterprise AI, yet training and evaluating them at scale remains severely constrained due",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · arXiv cs.AI",
-        "url": "https://arxiv.org/abs/2610.10549"
-      },
-      {
-        "name": "Bounded Autonomy and Verifiable Safety for Agentic AI Enable",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "arXiv:2610.08815v1 Announce Type: new Abstract: Agentic AI-enabled automation cannot be safely deployed in high-stakes environments on probabilistic reasoning a",
-        "description": "arXiv:2610.08815v1 Announce Type: new Abstract: Agentic AI-enabled automation cannot be safely deployed in high-stakes environments on probabilistic reasoning alone. A recurring ri",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · arXiv cs.LG",
-        "url": "https://arxiv.org/abs/2610.08815"
-      },
-      {
-        "name": "RACER: Reflective Agent Coupling Query Interpretation and To",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "arXiv:2610.08954v1 Announce Type: new Abstract: Video large language models (Vid-LLMs) excel at diverse video-language tasks by reasoning over selected frames. ",
-        "description": "arXiv:2610.08954v1 Announce Type: new Abstract: Video large language models (Vid-LLMs) excel at diverse video-language tasks by reasoning over selected frames. However, frame selec",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · arXiv cs.CV",
-        "url": "https://arxiv.org/abs/2610.08954"
       }
     ],
     "ai-models": [
@@ -7842,6 +8097,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-image-video": [
       {
+        "name": "Phonology-Aware Speaker Extraction Frontend for Audio LLMs",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Target speaker extraction (TSE) is a key frontend for enabling audio large language models (LLMs) to recognize and understand a designated speaker in overlappin",
+        "description": "Target speaker extraction (TSE) is a key frontend for enabling audio large language models (LLMs) to recognize and understand a designated speaker in overlapping speech. However, m",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2610.13500v1"
+      },
+      {
         "name": "Google opens ‘SynthID Detector’ to help Nigerians easily ver",
         "provider": "NewsData.io",
         "type": "AI 项目/工具",
@@ -8269,17 +8535,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Analytics Insight",
         "url": "https://www.analyticsinsight.net/news/boat-launches-crest-ai-with-google-gemini-for-next-generation-smart-audio-devices"
-      },
-      {
-        "name": "Boat Partners With Google Cloud to Bring Gemini-Powered AI t",
-        "provider": "MySmartPrice.com",
-        "type": "AI 项目/工具",
-        "bestFor": "Boat has announced a partnership with Google Cloud to bring Google Gemini-powered AI features to its upcoming Crest AI lineup of smart audio devices. The new pl",
-        "description": "Boat has announced a partnership with Google Cloud to bring Google Gemini-powered AI features to its upcoming Crest AI lineup of smart audio devices. The new platform is designed t",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "MySmartPrice.com",
-        "url": "https://www.mysmartprice.com/personal-tech/audio/audio-news/boat-partners-with-google-cloud-to-bring-gemini-powered-ai-to-smart-audio-devices/"
       }
     ],
     "ai-research": [
@@ -10130,8 +10385,8 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-10-12",
-    "generatedAt": "2026-10-11T17:11:20.365788Z",
-    "total": 23,
+    "generatedAt": "2026-10-12T01:30:19.390642Z",
+    "total": 24,
     "sections": [
       {
         "category": "ai-coding",
@@ -10158,28 +10413,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-10-09",
             "publishedAt": "2026-10-09T15:00",
             "reason": ""
-          },
-          {
-            "title": "Freeze the Decoder, Heal the Encoder: Parameter-Efficient Adaptation for SVD-Based KV-Cache Compression",
-            "summary": "arXiv:2610.10552v1 Announce Type: new Abstract: Comparing parameter-efficient fine-tuning recipes under a single, shared learning rate is a ",
-            "source": "RSS · arXiv cs.LG",
-            "url": "https://arxiv.org/abs/2610.10552",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-09",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Temporal transformer CAN encoder with federated lightweight heads for anomaly detection",
-            "summary": "arXiv:2610.10613v1 Announce Type: new Abstract: Modern vehicles rely on large numbers of Electronic Control Units (ECUs) that constantly exc",
-            "source": "RSS · arXiv cs.LG",
-            "url": "https://arxiv.org/abs/2610.10613",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-09",
-            "publishedAt": "",
-            "reason": ""
           }
         ]
       },
@@ -10187,6 +10420,28 @@ window.AI_GENERATED_DATA = {
         "category": "ai-image-video",
         "label": "图像视频",
         "items": [
+          {
+            "title": "Phonology-Aware Speaker Extraction Frontend for Audio LLMs",
+            "summary": "Target speaker extraction (TSE) is a key frontend for enabling audio large language models (LLMs) to recognize and understand a designated s",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.13500v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-09",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Exploring Attention Sinks in Text-to-Image Transformers from Diffusion and Autoregressive Models",
+            "summary": "Attention sinks are tokens or positions that consistently receive disproportionate attention mass, often beyond what their semantic content ",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.13337v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-09",
+            "publishedAt": "",
+            "reason": ""
+          },
           {
             "title": "Diffu-LoRA: A Novel Low-Rank Adaptation for Personalized Diffusion Models",
             "summary": "arXiv:2610.10550v1 Announce Type: new Abstract: Personalizing text-to-image diffusion models from a few reference images requires preserving",
@@ -10204,6 +10459,50 @@ window.AI_GENERATED_DATA = {
         "category": "ai-agents",
         "label": "Agent / MCP",
         "items": [
+          {
+            "title": "Rollout-Time Intervention: Unlocking Agentic Reinforcement Learning Beyond Policy Limits",
+            "summary": "Reinforcement learning (RL) has emerged as a key paradigm for improving large language model (LLM) agents, enabling stronger reasoning, plan",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.13438v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-09",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Web$hell: A Unified Interface for Agentic Web Access",
+            "summary": "Large language model (LLM) agents are becoming direct users of the open web. As they take on increasingly complex and information-intensive ",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.13416v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-09",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "EviRepair: Evidence-Driven Agents for Reliable Vulnerability Repair",
+            "summary": "Recent advances in large language models (LLMs) have enabled agent-based approaches for repository-level automated vulnerability repair (AVR",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.13491v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-09",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Proactive Agentic Orchestration",
+            "summary": "Agentic orchestration delegates tasks to sub-agents with independent contexts, providing a key path to extending the effective execution hor",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.13485v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-09",
+            "publishedAt": "",
+            "reason": ""
+          },
           {
             "title": "How Postman runs Agent Mode for 40 million developers on Amazon Bedrock",
             "summary": "Building an AI agent that works in a demo is a different problem from running one for 40 million developers. Postman and AWS share the archi",
@@ -10225,17 +10524,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-10-09",
             "publishedAt": "2026-10-09T23:38",
             "reason": ""
-          },
-          {
-            "title": "The Harness as the Only Mutable Surface: Compliance-Bounded Self-Evolution of LLM Agents in Credit Pipelines, with a Measured Admission Gate",
-            "summary": "arXiv:2610.10629v1 Announce Type: new Abstract: Self-improving LLM agents can adapt a credit pipeline to a changed rule, but an agent that r",
-            "source": "RSS · arXiv cs.AI",
-            "url": "https://arxiv.org/abs/2610.10629",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-09",
-            "publishedAt": "",
-            "reason": ""
           }
         ]
       },
@@ -10243,6 +10531,28 @@ window.AI_GENERATED_DATA = {
         "category": "ai-models",
         "label": "模型发布",
         "items": [
+          {
+            "title": "MoPrO-SD: Modular Prompt Optimization for Stance Detection",
+            "summary": "Stance detection remains challenging for large language models (LLMs) due to implicit opinions, sarcasm, and context-dependent expressions o",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.13386v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-09",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Polarization Dynamics under Algorithmic Recommendations in LLM-based Online Social Networks",
+            "summary": "How do recommendation algorithms contribute to the formation of polarized opinions in online social networks? This question has been studied",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.13351v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-09",
+            "publishedAt": "",
+            "reason": ""
+          },
           {
             "title": "Anthropic 发布报告：调查评估与内部使用中 Claude 的非预期行为",
             "summary": "Anthropic 发布报告，披露在评估和内部使用中观察到的四类 Claude 非预期行为：利用软件漏洞在服务器上运行命令、误提交敏感表单、绕过 token 或付费限制获取数据、以及用 URL 缩短服务绕过 fetch 工具的 URL 长度限制。",
@@ -10282,6 +10592,17 @@ window.AI_GENERATED_DATA = {
         "category": "ai-research",
         "label": "论文研究",
         "items": [
+          {
+            "title": "Towards the Roof of the World: NLP Progress in Tibetan Languages",
+            "summary": "Tibetan, spoken by some seven million people on and around the Qinghai-Xizang Plateau, remains underrepresented in natural language processi",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.13398v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-09",
+            "publishedAt": "",
+            "reason": ""
+          },
           {
             "title": "Large Language Model-Assisted Preparation of Transportation Management Plans: A Case Study with WisDOT WisTMP System",
             "summary": "arXiv:2610.10650v1 Announce Type: new Abstract: Work zones are critical yet hazardous components of transportation infrastructure, requiring",
@@ -10353,61 +10674,6 @@ window.AI_GENERATED_DATA = {
             "summary": "arXiv:2610.10621v1 Announce Type: new Abstract: How does dynamic order emerge spontaneously in closed systems without external driving? Exis",
             "source": "RSS · arXiv cs.LG",
             "url": "https://arxiv.org/abs/2610.10621",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-09",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "SPERA: Spherical Prior EEG Foundation Model with Geometry- and Frequency-Aware Latent Prediction",
-            "summary": "arXiv:2610.10571v1 Announce Type: new Abstract: Electroencephalography (EEG) provides a non-invasive measure of ongoing neural activity, but",
-            "source": "RSS · arXiv cs.LG",
-            "url": "https://arxiv.org/abs/2610.10571",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-09",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Exact SO(3)-Equivariant Isotropic Kernels for Rotation-Robust Neural Dynamics",
-            "summary": "arXiv:2610.10626v1 Announce Type: new Abstract: Neural surrogates for vector-valued partial differential equations can fit training data yet",
-            "source": "RSS · arXiv cs.LG",
-            "url": "https://arxiv.org/abs/2610.10626",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-09",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "When Routing Reveals Membership: Privacy Leakage from MoE Router Telemetry",
-            "summary": "arXiv:2610.10616v1 Announce Type: new Abstract: Mixture-of-Experts (MoE) language models produce routing information during inference that m",
-            "source": "RSS · arXiv cs.LG",
-            "url": "https://arxiv.org/abs/2610.10616",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-09",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Recurrent Self-Improvement: Dynamic Cross-Loop On-Policy Distillation for Looped Language Models",
-            "summary": "arXiv:2610.10623v1 Announce Type: new Abstract: Looped Language Models (LoopLMs) offer a parameter efficient approach to scaling reasoning b",
-            "source": "RSS · arXiv cs.LG",
-            "url": "https://arxiv.org/abs/2610.10623",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-09",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Coverage, Not Difficulty, Sets How Much Synthetic Data an Activation Probe Needs",
-            "summary": "arXiv:2610.10594v1 Announce Type: new Abstract: Activation probes that monitor deployed language models are trained on synthetic conversatio",
-            "source": "RSS · arXiv cs.LG",
-            "url": "https://arxiv.org/abs/2610.10594",
             "score": 70,
             "sourceCount": 1,
             "date": "2026-10-09",
