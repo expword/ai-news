@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-10-12",
-  "generatedAt": "2026-10-12T13:13:35.226143Z",
+  "generatedAt": "2026-10-12T15:29:05.613194Z",
   "news": [
     {
       "title": "Kairos: Toward a Byte-Level Foundation Model for Every Modality",
@@ -6451,6 +6451,39 @@
     ],
     "ai-models": [
       {
+        "name": "Android Automotive vs. Google Built-in: How Google’s Two Car",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "If you connect your phone to a new Chevy expecting Android Auto, you'll come up empty. In 2023, GM abandoned Android Auto and switched to a Google Built-in setu",
+        "description": "If you connect your phone to a new Chevy expecting Android Auto, you'll come up empty. In 2023, GM abandoned Android Auto and switched to a Google Built-in setup, and other carmake",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Google Gemini",
+        "url": "https://egamers.io/android-automotive-vs-google-built-in-how-googles-two-car-platforms-actually-differ/"
+      },
+      {
+        "name": "Journalism is public good, not free fuel for AI",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "In just a few short years, AI tools like ChatGPT and Claude have become a mainstream technology. The companies behind these innovative products tout their immen",
+        "description": "In just a few short years, AI tools like ChatGPT and Claude have become a mainstream technology. The companies behind these innovative products tout their immense potential benefit",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Claude AI",
+        "url": "https://www.orissapost.com/journalism-is-public-good-not-free-fuel-for-ai/"
+      },
+      {
+        "name": "Tool, not replacement: Vail Christian High School offers cou",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Outside of his role as a computer science teacher at Vail Christian High School, Jim Pyke works as a technology consultant. With years of experience in the fiel",
+        "description": "Outside of his role as a computer science teacher at Vail Christian High School, Jim Pyke works as a technology consultant. With years of experience in the field, he’s seen how the",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Claude AI",
+        "url": "https://www.vaildaily.com/news/tool-not-replacement-vail-christian-high-school-offers-course-on-ethical-ai-use/"
+      },
+      {
         "name": "AXA Health Shaves 60 Seconds from AHT with AI-Powered Verint",
         "provider": "NewsData.io",
         "type": "AI 项目/工具",
@@ -6856,39 +6889,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · OpenAI Blog",
         "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement"
-      },
-      {
-        "name": "DeepSeek down live: Chinese AI app not working properly amid",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "DeepSeek says its AI model is similar to US giants like OpenAI, despite fears of censorship around issues sensitive to Beijing... ▷ DeepSeek AI model",
-        "description": "DeepSeek says its AI model is similar to US giants like OpenAI, despite fears of censorship around issues sensitive to Beijing... ▷ DeepSeek AI model",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:DeepSeek",
-        "url": "https://ng.shotoe.com/deepseek-ai-model-st_563171/news/deepseek-down-live-chinese-ai-app-not-working-properly-amid-sn_5076052/"
-      },
-      {
-        "name": "You Can Get This Six-Course AI Masterclass for A$23 Right No",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "It covers ChatGPT, Gemini, Copilot, Perplexity, DeepSeek and Tabnine across 25+ hours of self-paced training. You can get The Ultimate AI Assistant Masterclass ",
-        "description": "It covers ChatGPT, Gemini, Copilot, Perplexity, DeepSeek and Tabnine across 25+ hours of self-paced training. You can get The Ultimate AI Assistant Masterclass on sale for A$23 rig",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:Google Gemini",
-        "url": "https://au.lifehacker.com/tech/119771/you-can-get-this-six-course-ai-masterclass-for-a23-right-now"
-      },
-      {
-        "name": "OpenClaw adds Tencent AI tool to security checks",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "The security setup was tested on a 556-case subset of Tencent’s SkillTrustBench.",
-        "description": "The security setup was tested on a 556-case subset of Tencent’s SkillTrustBench.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:Claude AI",
-        "url": "https://www.techinasia.com/chinas-openclaw-ai-sparks-security-warnings-startup-hype"
       }
     ],
     "ai-business": [
@@ -10124,7 +10124,7 @@
   ],
   "dailyReport": {
     "date": "2026-10-12",
-    "generatedAt": "2026-10-12T13:13:35.206107Z",
+    "generatedAt": "2026-10-12T15:29:05.591191Z",
     "total": 8,
     "sections": [
       {
