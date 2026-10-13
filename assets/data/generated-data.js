@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-10-13",
-  "generatedAt": "2026-10-13T00:51:51.404636Z",
+  "generatedAt": "2026-10-13T03:06:18.061095Z",
   "news": [
     {
       "title": "OCP Summit 2026: Powering AI with Open Innovations in Scale-Up, Scale-Out, and Scale-Across Networks",
@@ -163,6 +163,62 @@ window.AI_GENERATED_DATA = {
       "aiSelected": true,
       "moduleTargets": [
         "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Minions: A Dynamic and Distributed Virtual GPU Cloud Built on Idle Apple Silicon Devices",
+      "summary": "The increasing demand for GPU-accelerated machine learning inference has exposed limitations in centralized GPU infrastructures, including high cost, limited elasticity, and long w",
+      "category": "ai-research",
+      "source": "RSS · Apple ML Research",
+      "date": "2026-10-12",
+      "publishedAt": "2026-10-12T08:00",
+      "collectedAt": "2026-10-13T11:06",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://machinelearning.apple.com/research/distributed-gpu-cloud",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Large Language Models for Machine Translation Quality Annotation: Humans and Models Are Both Challenged",
+      "summary": "Large Language Models (LLMs) are considered to be a more efficient and cost-effective alternative to human judgment for Machine Translation (MT) evaluation. With MT evaluation span",
+      "category": "ai-research",
+      "source": "RSS · Apple ML Research",
+      "date": "2026-10-12",
+      "publishedAt": "2026-10-12T08:00",
+      "collectedAt": "2026-10-13T11:06",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://machinelearning.apple.com/research/llm-translation-quality-annotation",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
       ],
       "sourceCount": 1
     },
@@ -1891,7 +1947,14 @@ window.AI_GENERATED_DATA = {
         "news",
         "topicResources"
       ],
-      "sourceCount": 1
+      "sourceCount": 2,
+      "relatedSources": [
+        {
+          "source": "RSS · Apple ML Research",
+          "url": "https://machinelearning.apple.com/research/self-compacting-language-agents",
+          "title": "Self-Compacting Language Model Agents"
+        }
+      ]
     },
     {
       "title": "Plan-and-Patch: Diffusion Language Models for Agentic Planning",
@@ -2644,33 +2707,6 @@ window.AI_GENERATED_DATA = {
       "sourceDate": "2026-10-08",
       "tags": [],
       "url": "https://arxiv.org/abs/2610.08830",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "PanoPed: Beyond Bounding Boxes for Sim-to-Real Panoramic Pedestrian Tracking",
-      "summary": "arXiv:2610.08826v1 Announce Type: new Abstract: Full-sphere panoramic cameras let fixed monitoring systems and mobile robots track people in every direction, but a planar bounding ",
-      "category": "ai-benchmark",
-      "source": "RSS · arXiv cs.CV",
-      "date": "2026-10-08",
-      "publishedAt": "",
-      "collectedAt": "2026-10-09T10:39",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-08",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2610.08826",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -6224,6 +6260,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "Self-Compacting Language Model Agents",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Long agent traces composed of chains of thought and tool calls accumulate stale content that anchor subsequent generations, and eventually outgrow the context w",
+        "description": "Long agent traces composed of chains of thought and tool calls accumulate stale content that anchor subsequent generations, and eventually outgrow the context window. Existing scaf",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Apple ML Research",
+        "url": "https://machinelearning.apple.com/research/self-compacting-language-agents"
+      },
+      {
         "name": "Meta Muse Wonder 系列上线 Agent Arena，分数即将公布",
         "provider": "X：Arena (@arena)",
         "type": "AI 项目/工具",
@@ -6651,17 +6698,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:AI agent",
         "url": "https://www.rutlandherald.com/news/business/modelfront-announces-openloc-the-open-tms-built-for-ai/article_9c98a181-2fb7-559c-8095-3f7a75ca64b8.html"
-      },
-      {
-        "name": "Prior or Feedback? What an LLM Uses When Adapting Neural Ope",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Do LLM scientific agents rely only on their initial task context, or do they adapt their decisions in response to experimental feedback? We study this question ",
-        "description": "Do LLM scientific agents rely only on their initial task context, or do they adapt their decisions in response to experimental feedback? We study this question in neural operator a",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2610.12325v1"
       }
     ],
     "ai-models": [
@@ -8493,6 +8529,28 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-research": [
       {
+        "name": "Minions: A Dynamic and Distributed Virtual GPU Cloud Built o",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "The increasing demand for GPU-accelerated machine learning inference has exposed limitations in centralized GPU infrastructures, including high cost, limited el",
+        "description": "The increasing demand for GPU-accelerated machine learning inference has exposed limitations in centralized GPU infrastructures, including high cost, limited elasticity, and long w",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Apple ML Research",
+        "url": "https://machinelearning.apple.com/research/distributed-gpu-cloud"
+      },
+      {
+        "name": "Large Language Models for Machine Translation Quality Annota",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Large Language Models (LLMs) are considered to be a more efficient and cost-effective alternative to human judgment for Machine Translation (MT) evaluation. Wit",
+        "description": "Large Language Models (LLMs) are considered to be a more efficient and cost-effective alternative to human judgment for Machine Translation (MT) evaluation. With MT evaluation span",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Apple ML Research",
+        "url": "https://machinelearning.apple.com/research/llm-translation-quality-annotation"
+      },
+      {
         "name": "Simulating student learning for better AI tutoring",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -8909,28 +8967,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2609.36959v1"
-      },
-      {
-        "name": "The Communication Bottleneck: A Round-Trip Study of Tree-Str",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "When language models reason in chain-of-thought or exchange free-text intermediates, they serialize structured information into natural language. How much tree-",
-        "description": "When language models reason in chain-of-thought or exchange free-text intermediates, they serialize structured information into natural language. How much tree-structured compositi",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · Apple ML Research",
-        "url": "https://machinelearning.apple.com/research/communication-bottleneck-serialization"
-      },
-      {
-        "name": "Output-aware Residual Stream Pruning for Large Language Mode",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Residual stream pruning methods reduce inference cost by shrinking the model's hidden dimension, but existing approaches typically choose these dimensions by mi",
-        "description": "Residual stream pruning methods reduce inference cost by shrinking the model's hidden dimension, but existing approaches typically choose these dimensions by minimizing activation ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2609.35579v1"
       }
     ],
     "ai-office": []
@@ -10339,8 +10375,8 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-10-13",
-    "generatedAt": "2026-10-13T00:51:51.381114Z",
-    "total": 17,
+    "generatedAt": "2026-10-13T03:06:18.040100Z",
+    "total": 19,
     "sections": [
       {
         "category": "ai-coding",
@@ -10494,6 +10530,28 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-10-13",
             "publishedAt": "2026-10-13T00:00",
+            "reason": ""
+          },
+          {
+            "title": "Minions: A Dynamic and Distributed Virtual GPU Cloud Built on Idle Apple Silicon Devices",
+            "summary": "The increasing demand for GPU-accelerated machine learning inference has exposed limitations in centralized GPU infrastructures, including h",
+            "source": "RSS · Apple ML Research",
+            "url": "https://machinelearning.apple.com/research/distributed-gpu-cloud",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-12",
+            "publishedAt": "2026-10-12T08:00",
+            "reason": ""
+          },
+          {
+            "title": "Large Language Models for Machine Translation Quality Annotation: Humans and Models Are Both Challenged",
+            "summary": "Large Language Models (LLMs) are considered to be a more efficient and cost-effective alternative to human judgment for Machine Translation ",
+            "source": "RSS · Apple ML Research",
+            "url": "https://machinelearning.apple.com/research/llm-translation-quality-annotation",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-12",
+            "publishedAt": "2026-10-12T08:00",
             "reason": ""
           },
           {
