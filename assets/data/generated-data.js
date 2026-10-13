@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-10-14",
-  "generatedAt": "2026-10-13T20:50:13.134076Z",
+  "generatedAt": "2026-10-13T23:55:42.510501Z",
   "news": [
     {
       "title": "Building agents that transact with Anchor Browser and AgentCore payments",
@@ -6651,6 +6651,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-models": [
       {
+        "name": "实测Gemini 4 Argon：知识工作强劲但体验糟糕，卡兹克称难撼Claude Opus 5.5与GPT-6 Ast",
+        "provider": "公众号：数字生命卡兹克",
+        "type": "AI 项目/工具",
+        "bestFor": "Gemini 4 Argon于10月13日全面开放，Pro会员可在Gemini APP使用，Antigravity需100刀Ultra会员。作者实测认为其知识类专业能力强，Vals Index综合第一（68.9）且单次成本仅15.68美元，但CUA-bench仅4.83%排倒数第二；前端效果不及GPT-6 Astra，",
+        "description": "Gemini 4 Argon于10月13日全面开放，Pro会员可在Gemini APP使用，Antigravity需100刀Ultra会员。作者实测认为其知识类专业能力强，Vals Index综合第一（68.9）且单次成本仅15.68美元，但CUA-bench仅4.83%排倒数第二；前端效果不及GPT-6 Astra，额度消耗快，中文写作味道重，整体体验糟糕",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "公众号：数字生命卡兹克",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647687032&idx=1&sn=c5368ed503c4b529ee3946cce017543e"
+      },
+      {
         "name": "Google 发布 Gemini 4 Argon 并逐步推送至 Gemini 应用",
         "provider": "X：Gemini (@GeminiApp)",
         "type": "AI 项目/工具",
@@ -7078,17 +7089,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:DeepSeek",
         "url": "https://phnompenhpost.com/international/china-urges-us-to-collaborate-more-in-the-field-of-ai/"
-      },
-      {
-        "name": "Meta, Microsoft reportedly cut internal Claude use as AI cos",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Meta and Microsoft are reducing employees' internal reliance on Anthropic's Claude as they push proprietary AI tools and seek greater control over rapidly risin",
-        "description": "Meta and Microsoft are reducing employees' internal reliance on Anthropic's Claude as they push proprietary AI tools and seek greater control over rapidly rising AI costs, accordin",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:Claude AI",
-        "url": "https://www.digitimes.com/news/a20261006VL203/microsoft-meta-claude-anthropic-copilot.html"
       }
     ],
     "ai-business": [
@@ -10324,7 +10324,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-10-14",
-    "generatedAt": "2026-10-13T20:50:13.112108Z",
+    "generatedAt": "2026-10-13T23:55:42.486513Z",
     "total": 19,
     "sections": [
       {
