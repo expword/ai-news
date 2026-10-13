@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-13",
-  "generatedAt": "2026-10-13T13:12:35.582396Z",
+  "lastUpdated": "2026-10-14",
+  "generatedAt": "2026-10-13T15:30:29.911833Z",
   "news": [
     {
       "title": "OCP Summit 2026: Powering AI with Open Innovations in Scale-Up, Scale-Out, and Scale-Across Networks",
@@ -6015,6 +6015,28 @@
     ],
     "ai-agents": [
       {
+        "name": "What CISOs Should Know (And Do) About OpenClaw",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Infosecurity spoke to several experts, including OpenClaw’s own security advisor, to explore what CISOs should do to contain the viral AI agent tool’s security ",
+        "description": "Infosecurity spoke to several experts, including OpenClaw’s own security advisor, to explore what CISOs should do to contain the viral AI agent tool’s security vulnerabilities",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:open source LLM",
+        "url": "https://www.infosecurity-magazine.com/news-features/what-cisos-should-know-and-do/"
+      },
+      {
+        "name": "LangSmith 推出 AI Search，用自然语言按行为搜索 agent 轨迹",
+        "provider": "LangChain：Blog（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "LangChain 在 LangSmith 中推出 AI Search 公测，允许用自然语言描述行为来查询 agent 轨迹，例如 PII 泄露或用户受挫等无法靠标签和全文检索回答的问题。",
+        "description": "LangChain 在 LangSmith 中推出 AI Search 公测，允许用自然语言描述行为来查询 agent 轨迹，例如 PII 泄露或用户受挫等无法靠标签和全文检索回答的问题。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "LangChain：Blog（RSS）",
+        "url": "https://www.langchain.com/blog/agent-traces-ai-search-langsmith"
+      },
+      {
         "name": "Daily Buzz: 13 October 2026",
         "provider": "NewsData.io",
         "type": "AI 项目/工具",
@@ -6431,31 +6453,42 @@
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:DeepSeek",
         "url": "https://www.thestandard.com.hk/innovation/article/345036/Chinese-developer-makes-ARTEX-AI-agent-closed-source-after-Korean-bank-hack"
-      },
-      {
-        "name": "Google Gemini can now complete tasks on your behalf",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Google has announced a major upgrade to its Gemini artificial intelligence (AI) platform, introducing an \"agentic\" feature at the Google Cloud event.",
-        "description": "Google has announced a major upgrade to its Gemini artificial intelligence (AI) platform, introducing an \"agentic\" feature at the Google Cloud event.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:Google Gemini",
-        "url": "https://www.newsbytesapp.com/news/science/google-brings-agentic-ai-capabilities-to-gemini/story"
-      },
-      {
-        "name": "Chinese developer makes ARTEX AI agent closed-source after K",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "SOUTHKOREA-CYBERATTACKS/DEVELOPER:Chinese developer makes ARTEX AI agent closed-source after Korean bank hack",
-        "description": "SOUTHKOREA-CYBERATTACKS/DEVELOPER:Chinese developer makes ARTEX AI agent closed-source after Korean bank hack",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.livemint.com/technology/chinese-developer-makes-artex-ai-agent-closed-source-after-korean-bank-hack-11791510804166.html"
       }
     ],
     "ai-models": [
+      {
+        "name": "How Red Bull's F1 team is using AI to make split-second deci",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Red Bull Racing is increasingly using AI to help make real-time Formula 1 race decisions, but the team says human judgment remains essential.",
+        "description": "Red Bull Racing is increasingly using AI to help make real-time Formula 1 race decisions, but the team says human judgment remains essential.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Google Gemini",
+        "url": "https://www.cnbc.com/2026/10/13/red-bull-f1-ai-max-verstappen.html"
+      },
+      {
+        "name": "Apple 发布 7 英寸智能音箱 HomeView，售价 299 美元并搭载 Siri AI",
+        "provider": "Apple：Newsroom（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "Apple 发布配备 7 英寸 Liquid Retina 显示屏的 HomeView，集娱乐、FaceTime、家庭监控和语音自动化于一体，标准版与壁挂版均定价 299 美元，11 月 13 日起在美英加澳等市场发售。",
+        "description": "Apple 发布配备 7 英寸 Liquid Retina 显示屏的 HomeView，集娱乐、FaceTime、家庭监控和语音自动化于一体，标准版与壁挂版均定价 299 美元，11 月 13 日起在美英加澳等市场发售。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Apple：Newsroom（RSS）",
+        "url": "https://www.apple.com/newsroom/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home/"
+      },
+      {
+        "name": "New GhostGPT AI Chatbot Facilitates Malware Creation and Phi",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Cybercriminals are selling access to the malicious GenAI chatbot via Telegram, providing rapid assistance for a range of nefarious activities, according to Abno",
+        "description": "Cybercriminals are selling access to the malicious GenAI chatbot via Telegram, providing rapid assistance for a range of nefarious activities, according to Abnormal Security",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:open source LLM",
+        "url": "https://www.infosecurity-magazine.com/news/ghostgpt-ai-chatbot-malware/"
+      },
       {
         "name": "Character.AI 成立五年后申请 Chapter 11 破产，部分资产以 2000 万美元出售给 Disney",
         "provider": "TechCrunch：AI（RSS）",
@@ -6862,39 +6895,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · AWS Machine Learning",
         "url": "https://aws.amazon.com/blogs/machine-learning/downgrading-user-roles-in-amazon-quick/"
-      },
-      {
-        "name": "What Is A VPN Vs Proxy",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "While the purpose of a VPN and Proxy is similar, there are some technical differences that are important to understand It may happen that a site or network you ",
-        "description": "While the purpose of a VPN and Proxy is similar, there are some technical differences that are important to understand It may happen that a site or network you want to access is no",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:Google Gemini",
-        "url": "https://newspatrolling.com/what-is-a-vpn-vs-proxy/"
-      },
-      {
-        "name": "How is AI useful in the middle of a paddock? This farmer fin",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "How AI has the potential to preserve generations of knowledge.",
-        "description": "How AI has the potential to preserve generations of knowledge.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:Claude AI",
-        "url": "https://www.dailyliberal.com.au/story/9362640/central-west-farmer-tests-new-ai-tools-on-nsw-properties/?src=rss"
-      },
-      {
-        "name": "Cybersecurity Newsletter Bulletin – Pentagon Data Breach, Ci",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "This week’s security newsletter was dominated by a Pentagon personnel data breach affecting more than three million people, actively exploited zero-days in Appl",
-        "description": "This week’s security newsletter was dominated by a Pentagon personnel data breach affecting more than three million people, actively exploited zero-days in Apple CoreGraphics and F",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:Claude AI",
-        "url": "https://cybersecuritynews.com/cybersecurity-newsletter-weekly-october-2/"
       }
     ],
     "ai-business": [
@@ -10130,7 +10130,7 @@
   ],
   "dailyReport": {
     "date": "2026-10-13",
-    "generatedAt": "2026-10-13T13:12:35.562396Z",
+    "generatedAt": "2026-10-13T15:30:29.889864Z",
     "total": 19,
     "sections": [
       {
@@ -10369,6 +10369,97 @@
     ]
   },
   "dailyReports": [
+    {
+      "date": "2026-10-13",
+      "generatedAt": "2026-10-13T16:00:30.275438Z",
+      "total": 6,
+      "sections": [
+        {
+          "category": "ai-image-video",
+          "label": "图像视频",
+          "items": [
+            {
+              "title": "Shipping Media Over QUIC at Meta Scale for Instagram Live Ingest",
+              "summary": "Meta has begun deploying Media over QUIC (MoQ), an emerging open protocol for real-time video streaming at scale. MoQ will help simplify our",
+              "source": "RSS · Meta Engineering",
+              "url": "https://engineering.fb.com/2026/10/12/video-engineering/shipping-media-over-quic-at-meta-scale-for-instagram-live-ingest/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-13",
+              "publishedAt": "2026-10-13T00:01",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-models",
+          "label": "模型发布",
+          "items": [
+            {
+              "title": "OCP Summit 2026: Powering AI with Open Innovations in Scale-Up, Scale-Out, and Scale-Across Networks",
+              "summary": "At the 2026 Open Compute Project Global Summit, Meta is sharing the next generation of open networking infrastructure, including: Our first ",
+              "source": "RSS · Meta Engineering",
+              "url": "https://engineering.fb.com/2026/10/12/open-source/ocp-summit-2026-powering-ai-with-open-innovations-in-scale-up-scale-out-and-scale-across-networks/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-13",
+              "publishedAt": "2026-10-13T05:19",
+              "reason": ""
+            },
+            {
+              "title": "Turning Opportunistic AI Inference Capacity Into Better Ads Recommendations",
+              "summary": "At Meta, we’ve built a system that enhances ads recommendations by leveraging idle inference capacity in our fleet. Two elasticity levers in",
+              "source": "RSS · Meta Engineering",
+              "url": "https://engineering.fb.com/2026/10/12/ml-applications/turning-opportunistic-ai-inference-capacity-into-better-ads-recommendations/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-13",
+              "publishedAt": "2026-10-13T00:00",
+              "reason": ""
+            },
+            {
+              "title": "Accessing OpenAI GPT models on Amazon Bedrock with global cross-Region inference in Thailand, Malaysia, Singapore, Indonesia, and Taiwan",
+              "summary": "Learn how to run OpenAI GPT-6 Sol, Luna, and Astra on Amazon Bedrock through global cross-Region inference from Singapore, Jakarta, Thailand",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-models-on-amazon-bedrock-with-global-cross-region-inference-in-thailand-malaysia-singapore-indonesia-and-taiwan/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-13",
+              "publishedAt": "2026-10-13T01:52",
+              "reason": ""
+            },
+            {
+              "title": "AWS 提出 priming 方法，可将预训练 Transformer 改造成混合状态空间架构",
+              "summary": "AWS 团队发布论文《Priming: Hybrid state space models from pre-trained Transformers》，提出 priming 方法，复用预训练 Transformer 权重构建混合架构，将预训练成本降低逾 99%，全流程消耗不足源",
+              "source": "Amazon Science（RSS）",
+              "url": "https://www.amazon.science/blog/can-we-change-an-ai-models-architecture-without-retraining-it-from-scratch",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-13",
+              "publishedAt": "2026-10-13T01:36",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-research",
+          "label": "论文研究",
+          "items": [
+            {
+              "title": "Simulating student learning for better AI tutoring",
+              "summary": "StudentSim is a research system for evaluating and improving AI tutoring tools before they are tested with learners. It models how individua",
+              "source": "RSS · Microsoft Research",
+              "url": "https://www.microsoft.com/en-us/research/blog/simulating-student-learning-for-better-ai-tutoring/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-13",
+              "publishedAt": "2026-10-13T00:00",
+              "reason": ""
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-10-12",
       "generatedAt": "2026-10-12T16:00:11.285591Z",
@@ -19521,90 +19612,10 @@
           ]
         }
       ]
-    },
-    {
-      "date": "2026-08-11",
-      "generatedAt": "2026-08-11T16:10:43.094632Z",
-      "total": 5,
-      "sections": [
-        {
-          "category": "ai-tools",
-          "label": "AI 工具",
-          "items": [
-            {
-              "title": "微信小微AI推出朋友圈AI帮写与点评功能",
-              "summary": "微信小微AI推出了朋友圈AI帮写与AI点评的内测功能，前者可根据图片和已有文字生成三条文案，后者则允许用户长按文字生成评价或快捷评论。这一变化可能会影响社交媒体内容的真实性，改变用户记录生活的方式。",
-              "source": "公众号：数字生命卡兹克",
-              "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685081&idx=1&sn=13a05578a3959c047209c8e74b56fa48",
-              "score": 58,
-              "sourceCount": 1,
-              "date": "2026-08-11",
-              "publishedAt": "2026-08-11T08:12",
-              "reason": "这条信息展示了AI在社交媒体领域的应用潜力，值得关注其对内容创作和用户互动的影响。"
-            }
-          ]
-        },
-        {
-          "category": "ai-models",
-          "label": "模型发布",
-          "items": [
-            {
-              "title": "NVIDIA 推出 Nemotron 3.5 Lightning 和 NeMo Switchyard，提升智能体 AI 效率",
-              "summary": "NVIDIA 最新发布的 Nemotron 3.5 Lightning 是一款具有 300 亿参数的混合专家模型，专为高吞吐量智能体工作负载设计，输出速度提升最高可达 4 倍，任务完成速度提升 30%。同时，开源模型路由库 NeMo Switchyard 也一并推出，能够将任务成",
-              "source": "NVIDIA Blog（RSS）",
-              "url": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-08-11",
-              "publishedAt": "2026-08-11T21:00",
-              "reason": "NVIDIA 的新发布在提升智能体效率方面具有显著优势，值得关注其对行业的潜在影响。"
-            },
-            {
-              "title": "蚂蚁百灵开源 Ling-3.0-tiny：1.3B 激活参数的混合推理模型",
-              "summary": "我注意到蚂蚁百灵最近开源了 Ling-3.0-tiny，这是一款总参数达到 7.9B 的原生混合推理模型。在推理时，它仅激活 1.3B 参数，并同时提供 BF16、FP8 和 INT4 三个版本，适合不同需求的开发者使用。",
-              "source": "公众号：蚂蚁百灵（Ling）",
-              "url": "https://mp.weixin.qq.com/s?__biz=MzkyODk2MDQwNw%3D%3D&mid=2247487491&idx=1&sn=fcb14aceb054f9a24e22525d3dae6fa0",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-08-11",
-              "publishedAt": "2026-08-11T17:20",
-              "reason": "Ling-3.0-tiny 的开源为开发者提供了一个高效、灵活的工具，尤其适合资源受限的环境，值得关注。"
-            },
-            {
-              "title": "统一 Radix 缓存提升混合模型性能，但存在设计复杂性",
-              "summary": "LMSYS 团队推出的统一 Radix 缓存通过单一的 token 键控 radix 拓扑，整合了混合模型的 FULL、SWA 和 MAMBA 组件缓存，旨在优化缓存的重用效率。然而，该设计在实现上可能面临复杂性和兼容性问题。",
-              "source": "LMSYS：Blog（Chatbot Arena 团队）",
-              "url": "https://www.lmsys.org/blog/2026-08-11-unified-radix-cache",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-08-11",
-              "publishedAt": "2026-08-11T21:51",
-              "reason": "统一 Radix 缓存的设计在提升混合模型性能的同时，也暴露出复杂性和兼容性等潜在问题，值得关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-research",
-          "label": "论文研究",
-          "items": [
-            {
-              "title": "ACE与ALTK-Evolve：如何减少AI代理的Token消耗",
-              "summary": "ACE（Agentic Context Engineering）和ALTK-Evolve是两种新型AI代理系统，旨在通过利用代理的历史经验来优化任务执行，减少Token消耗。它们通过将过去的学习转化为可重用的教训，帮助模型在执行复杂任务时提高可靠性。两者都强调不应压缩学习成果，而",
-              "source": "RSS · Hugging Face Blog",
-              "url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
-              "score": 82,
-              "sourceCount": 1,
-              "date": "2026-08-11",
-              "publishedAt": "2026-08-11T21:37",
-              "reason": "ACE和ALTK-Evolve提供了全新的方法来优化AI代理的学习和执行过程，值得关注其在实际应用中的潜力。"
-            }
-          ]
-        }
-      ]
     }
   ],
   "llmLeaderboard": {
-    "updated": "2026-10-13",
+    "updated": "2026-10-14",
     "source": "ReLE 中文大模型能力评测（综合能力）",
     "sourceUrl": "https://github.com/jeinlee1991/chinese-llm-benchmark",
     "items": [
