@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-10-13",
-  "generatedAt": "2026-10-13T03:06:18.061095Z",
+  "generatedAt": "2026-10-13T11:00:07.623309Z",
   "news": [
     {
       "title": "OCP Summit 2026: Powering AI with Open Innovations in Scale-Up, Scale-Out, and Scale-Across Networks",
@@ -6702,6 +6702,17 @@
     ],
     "ai-models": [
       {
+        "name": "千问发布AI眼镜N1/N1 Pro及首款AI耳夹式耳机并现货开售",
+        "provider": "公众号：千问APP（阿里）",
+        "type": "AI 项目/工具",
+        "bestFor": "千问发布三款硬件新品：AI眼镜N1、N1 Pro和AI耳夹式耳机，今日在淘宝、天猫、京东、抖音等平台现货开售，眼镜到手价2218元起，耳机1099元起。",
+        "description": "千问发布三款硬件新品：AI眼镜N1、N1 Pro和AI耳夹式耳机，今日在淘宝、天猫、京东、抖音等平台现货开售，眼镜到手价2218元起，耳机1099元起。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "公众号：千问APP（阿里）",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzYzNDE5MDEwMQ%3D%3D&mid=2247489149&idx=1&sn=26d7fefe24bfb18efa4582467313b1eb"
+      },
+      {
         "name": "Turning Opportunistic AI Inference Capacity Into Better Ads ",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -7129,17 +7140,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:artificial intelligence",
         "url": "https://allafrica.com/stories/202610050004.html"
-      },
-      {
-        "name": "‘AI, digital mapping, to drive next wave of real estate grow",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Lagos-based estate surveyor and valuer, Chief M. I. Okoro has identified artificial intelligence (AI), digital mapping, building information modelling (BIM) and",
-        "description": "Lagos-based estate surveyor and valuer, Chief M. I. Okoro has identified artificial intelligence (AI), digital mapping, building information modelling (BIM) and smart-building syst",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:artificial intelligence",
-        "url": "https://dailytrust.com/ai-digital-mapping-to-drive-next-wave-of-real-estate-growth/"
       }
     ],
     "ai-business": [
@@ -10375,7 +10375,7 @@
   ],
   "dailyReport": {
     "date": "2026-10-13",
-    "generatedAt": "2026-10-13T03:06:18.040100Z",
+    "generatedAt": "2026-10-13T11:00:07.594547Z",
     "total": 19,
     "sections": [
       {
