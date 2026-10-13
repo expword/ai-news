@@ -1,7 +1,282 @@
 {
   "lastUpdated": "2026-10-14",
-  "generatedAt": "2026-10-13T15:30:29.911833Z",
+  "generatedAt": "2026-10-13T17:43:46.458413Z",
   "news": [
+    {
+      "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+      "summary": "",
+      "category": "ai-agents",
+      "source": "RSS · Hugging Face Blog",
+      "date": "2026-10-14",
+      "publishedAt": "2026-10-14T01:05",
+      "collectedAt": "2026-10-14T01:43",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Meta’s Generative Ads Model (GEM): Scaling the Central Model and Compute Engine for Frontier Ads AI",
+      "summary": "Last year, we introduced GEM, the industry’s largest recommendation system (RecSys) foundation model. GEM established Meta&#8217;s first LLM-inspired paradigm for ads recommendatio",
+      "category": "ai-models",
+      "source": "RSS · Meta Engineering",
+      "date": "2026-10-14",
+      "publishedAt": "2026-10-14T00:01",
+      "collectedAt": "2026-10-14T01:43",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://engineering.fb.com/2026/10/13/ml-applications/generative-ads-model-gem-scaling-frontier-ads-ai/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Natural language security queries at Orca Security using Amazon Bedrock",
+      "summary": "Orca Security built Discovery AI, a natural language query agent on Amazon Bedrock that converts plain-English questions into Sonar queries. The post shares the multi-stage archite",
+      "category": "ai-agents",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-10-14",
+      "publishedAt": "2026-10-14T00:03",
+      "collectedAt": "2026-10-14T01:43",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/natural-language-security-queries-at-orca-security-using-amazon-bedrock/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Manage private pricing offers for Amazon Bedrock with managed entitlements",
+      "summary": "Managing AI model access across dozens or hundreds of AWS accounts creates friction when each account must accept AWS Marketplace Private Pricing Offers individually. This post sho",
+      "category": "ai-business",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-10-14",
+      "publishedAt": "2026-10-14T01:17",
+      "collectedAt": "2026-10-14T01:43",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/manage-private-pricing-offers-for-amazon-bedrock-with-managed-entitlements/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Google DeepMind 发布 Gemini 4 Argon 机器人模型，ERQA 基准得分 87%",
+      "summary": "Google DeepMind 发布 Gemini 4 Argon，定位为通用物理推理模型，在 Embodied Reasoning（ERQA）基准上以纯推理得分 87%，超过其他前沿模型。",
+      "category": "ai-models",
+      "source": "Google DeepMind：Blog（RSS）",
+      "date": "2026-10-14",
+      "publishedAt": "2026-10-14T00:01",
+      "collectedAt": "2026-10-14T00:37",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Gemini 4 Argon: Built to solve your hardest problems",
+      "summary": "",
+      "category": "ai-models",
+      "source": "RSS · Google DeepMind",
+      "date": "2026-10-14",
+      "publishedAt": "2026-10-14T00:01",
+      "collectedAt": "2026-10-14T00:37",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Mixture-of-Experts kernel engineering on Amazon SageMaker AI",
+      "summary": "AWS engineers share kernel optimizations for fused Mixture-of-Experts (MoE) models on Amazon SageMaker AI: Swap-AB for WGMMA utilization, Triton backend routing for FP8 quantizatio",
+      "category": "ai-models",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-10-13",
+      "publishedAt": "2026-10-13T23:17",
+      "collectedAt": "2026-10-14T01:43",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/mixture-of-experts-kernel-engineering-on-amazon-sagemaker-ai/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Build long-horizon agents with Grok 4.7 on Amazon Bedrock",
+      "summary": "Grok 4.7 is now available on Amazon Bedrock. In this post, we build a tool-calling agent on Grok 4.7 and evaluate it on three reasoning tasks at four reasoning effort levels, measu",
+      "category": "ai-agents",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-10-13",
+      "publishedAt": "2026-10-13T23:52",
+      "collectedAt": "2026-10-14T01:43",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-long-horizon-agents-with-grok-4-7-on-amazon-bedrock/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "How ShipStation Global built an AI IT help desk on Amazon Bedrock AgentCore",
+      "summary": "ShipStation Global's engineering team built Deckhand, an AI IT help desk agent for Slack on Amazon Bedrock AgentCore. It answers routine IT questions from a curated knowledge base,",
+      "category": "ai-agents",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-10-13",
+      "publishedAt": "2026-10-13T23:54",
+      "collectedAt": "2026-10-14T01:43",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-shipstation-global-built-an-ai-it-help-desk-on-amazon-bedrock-agentcore/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Anthropic 自研版本控制系统 Scion，五个月完成 monorepo 从 git 迁移",
+      "summary": "Anthropic 发布工程复盘，因 Claude 使日均合并代码量从 2026 年 5 月约 2,500 增至 9 月超 30,000，五个月内自研版本控制系统 Scion 并完全替代 git，同时推出代码评审工具 Antique。",
+      "category": "ai-models",
+      "source": "Anthropic：Engineering（事故复盘 + 工程实践 · 网页）",
+      "date": "2026-10-13",
+      "publishedAt": "2026-10-13T08:00",
+      "collectedAt": "2026-10-14T00:37",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "OCP Summit 2026: Powering AI with Open Innovations in Scale-Up, Scale-Out, and Scale-Across Networks",
       "summary": "At the 2026 Open Compute Project Global Summit, Meta is sharing the next generation of open networking infrastructure, including: Our first liquid-cooled network rack (IcePack), an",
@@ -2380,88 +2655,6 @@
       "sourceDate": "2026-10-08",
       "tags": [],
       "url": "http://arxiv.org/abs/2610.12304v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "TestPrism: Rethinking Test Evaluation Beyond a Single Reference",
-      "summary": "Large language model (LLM) coding agents have advanced test generation across diverse programming tasks. However, the common practice of evaluating tests against a single reference",
-      "category": "ai-coding",
-      "source": "arXiv",
-      "date": "2026-10-08",
-      "publishedAt": "",
-      "collectedAt": "2026-10-09T15:49",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-08",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.12289v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Long Text to Predictive Features: LLM-Guided Blockwise Feature Engineering via Executable Program Search",
-      "summary": "Industrial risk-control systems typically rely on structured-data models for efficient prediction, yet substantial valuable information remains embedded in unstructured long text. ",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-10-08",
-      "publishedAt": "",
-      "collectedAt": "2026-10-09T13:15",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-08",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.12390v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "The Cost of Long Memory: State, Context, and Stability Complexity in Sequence Models",
-      "summary": "arXiv:2610.08816v1 Announce Type: new Abstract: Long-range temporal dependence poses a resource question for sequence models: for a specified predictive-memory law, how much state,",
-      "category": "ai-research",
-      "source": "RSS · arXiv cs.LG",
-      "date": "2026-10-08",
-      "publishedAt": "",
-      "collectedAt": "2026-10-09T11:58",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-08",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2610.08816",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -5573,6 +5766,28 @@
   "topicResources": {
     "ai-coding": [
       {
+        "name": "LangChain 用 harness engineering 将 deepagents-cli 在 Terminal ",
+        "provider": "LangChain：Blog（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "LangChain 分享 harness engineering 方法，在不换模型（固定 gpt-5.2-codex）的情况下，把 deepagents-cli 在 Terminal Bench 2.0 上从 52.8 提升到 66.5，进入榜单前五。",
+        "description": "LangChain 分享 harness engineering 方法，在不换模型（固定 gpt-5.2-codex）的情况下，把 deepagents-cli 在 Terminal Bench 2.0 上从 52.8 提升到 66.5，进入榜单前五。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "LangChain：Blog（RSS）",
+        "url": "https://www.langchain.com/blog/improving-deep-agents-with-harness-engineering"
+      },
+      {
+        "name": "LangChain 开源 Open SWE 框架，用于构建内部编码智能体",
+        "provider": "LangChain：Blog（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "LangChain 发布开源框架 Open SWE，将 Stripe、Ramp、Coinbase 内部编码智能体的共性架构模式沉淀为可定制实现，MIT 许可，基于 Deep Agents 与 LangGraph 构建。",
+        "description": "LangChain 发布开源框架 Open SWE，将 Stripe、Ramp、Coinbase 内部编码智能体的共性架构模式沉淀为可定制实现，MIT 许可，基于 Deep Agents 与 LangGraph 构建。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "LangChain：Blog（RSS）",
+        "url": "https://www.langchain.com/blog/open-swe-an-open-source-framework-for-internal-coding-agents"
+      },
+      {
         "name": "Vapi 自研代码审查机器人如何将 PR 合并时间缩短一半",
         "provider": "Vapi 产品与 Agent 方法",
         "type": "AI 项目/工具",
@@ -5989,31 +6204,75 @@
         "watch": "请打开原始来源核对",
         "sourceName": "NVIDIA Blog（RSS）",
         "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/"
-      },
-      {
-        "name": "Artificial Analysis：Claude Sonnet 5.5、GPT-6.1 Sol 与 Gemini 4",
-        "provider": "X：Artificial Analysis (@ArtificialAnlys)",
-        "type": "AI 项目/工具",
-        "bestFor": "Artificial Analysis 发布 Coding Agent Index 榜单，Claude Sonnet 5.5 (max) 在 Claude Code 以 68 分居首，但每任务成本最高达 $14.19。",
-        "description": "Artificial Analysis 发布 Coding Agent Index 榜单，Claude Sonnet 5.5 (max) 在 Claude Code 以 68 分居首，但每任务成本最高达 $14.19。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "X：Artificial Analysis (@ArtificialAnlys)",
-        "url": "https://x.com/ArtificialAnlys/status/2105814318294114720"
-      },
-      {
-        "name": "A Design Theory for AI-Assisted Software Development Derived",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Code generated by large language models (LLMs) cannot be assumed to meet specified requirements. Reviews, testing, and static analysis still apply, but which of",
-        "description": "Code generated by large language models (LLMs) cannot be assumed to meet specified requirements. Reviews, testing, and static analysis still apply, but which of them a sufficient h",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2610.01372v1"
       }
     ],
     "ai-agents": [
+      {
+        "name": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "",
+        "description": "",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Hugging Face Blog",
+        "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b"
+      },
+      {
+        "name": "Natural language security queries at Orca Security using Ama",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Orca Security built Discovery AI, a natural language query agent on Amazon Bedrock that converts plain-English questions into Sonar queries. The post shares the",
+        "description": "Orca Security built Discovery AI, a natural language query agent on Amazon Bedrock that converts plain-English questions into Sonar queries. The post shares the multi-stage archite",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/natural-language-security-queries-at-orca-security-using-amazon-bedrock/"
+      },
+      {
+        "name": "Build long-horizon agents with Grok 4.7 on Amazon Bedrock",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Grok 4.7 is now available on Amazon Bedrock. In this post, we build a tool-calling agent on Grok 4.7 and evaluate it on three reasoning tasks at four reasoning ",
+        "description": "Grok 4.7 is now available on Amazon Bedrock. In this post, we build a tool-calling agent on Grok 4.7 and evaluate it on three reasoning tasks at four reasoning effort levels, measu",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/build-long-horizon-agents-with-grok-4-7-on-amazon-bedrock/"
+      },
+      {
+        "name": "How ShipStation Global built an AI IT help desk on Amazon Be",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "ShipStation Global's engineering team built Deckhand, an AI IT help desk agent for Slack on Amazon Bedrock AgentCore. It answers routine IT questions from a cur",
+        "description": "ShipStation Global's engineering team built Deckhand, an AI IT help desk agent for Slack on Amazon Bedrock AgentCore. It answers routine IT questions from a curated knowledge base,",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/how-shipstation-global-built-an-ai-it-help-desk-on-amazon-bedrock-agentcore/"
+      },
+      {
+        "name": "LangChain：开源模型在 Deep Agents 评测中已达到可用阈值",
+        "provider": "LangChain：Blog（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "LangChain 称其 Deep Agents 评测显示 GLM-5 和 MiniMax M2.7 在文件操作、工具调用等核心智能体任务上接近闭源前沿模型。",
+        "description": "LangChain 称其 Deep Agents 评测显示 GLM-5 和 MiniMax M2.7 在文件操作、工具调用等核心智能体任务上接近闭源前沿模型。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "LangChain：Blog（RSS）",
+        "url": "https://www.langchain.com/blog/open-models-have-crossed-a-threshold"
+      },
+      {
+        "name": "LangChain 推出 Deep Agents deploy 测试版，作为 Claude Managed Agents",
+        "provider": "LangChain：Blog（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "LangChain 发布 Deep Agents deploy 测试版，一条 deepagents deploy 命令即可将基于 Deep Agents 开源 harness 的自定义 Agent 以生产就绪方式部署。",
+        "description": "LangChain 发布 Deep Agents deploy 测试版，一条 deepagents deploy 命令即可将基于 Deep Agents 开源 harness 的自定义 Agent 以生产就绪方式部署。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "LangChain：Blog（RSS）",
+        "url": "https://www.langchain.com/blog/deep-agents-deploy-an-open-alternative-to-claude-managed-agents"
+      },
       {
         "name": "What CISOs Should Know (And Do) About OpenClaw",
         "provider": "NewsData.io",
@@ -6387,75 +6646,31 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Prime Intellect（网页）",
         "url": "https://www.primeintellect.ai/blog/prime-agent-rust"
-      },
-      {
-        "name": "Sierra 发布 Personal Agent Protocol（Poppy）协议草案，新增 35 家设计伙伴",
-        "provider": "Sierra：Blog（RSS）",
-        "type": "AI 项目/工具",
-        "bestFor": "Sierra 发布 Personal Agent Protocol（Poppy）协议草案，宣布新增 35 家设计伙伴，包括 OpenAI、Meta、Bank of America、Mastercard、PayPal、Shopify、Walmart 等。",
-        "description": "Sierra 发布 Personal Agent Protocol（Poppy）协议草案，宣布新增 35 家设计伙伴，包括 OpenAI、Meta、Bank of America、Mastercard、PayPal、Shopify、Walmart 等。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Sierra：Blog（RSS）",
-        "url": "https://sierra.ai/blog/poppy"
-      },
-      {
-        "name": "How Postman runs Agent Mode for 40 million developers on Ama",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Building an AI agent that works in a demo is a different problem from running one for 40 million developers. Postman and AWS share the architectural patterns be",
-        "description": "Building an AI agent that works in a demo is a different problem from running one for 40 million developers. Postman and AWS share the architectural patterns behind Agent Mode: con",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/how-postman-runs-agent-mode-for-40-million-developers-on-amazon-bedrock/"
-      },
-      {
-        "name": "ICYMI: What landed for AI builders in September 2026",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "A monthly recap of the latest Amazon Bedrock, Amazon Bedrock AgentCore, and Strands updates from September 2026: broader model choice, faster serverless agents ",
-        "description": "A monthly recap of the latest Amazon Bedrock, Amazon Bedrock AgentCore, and Strands updates from September 2026: broader model choice, faster serverless agents with built-in evalua",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-september-2026/"
-      },
-      {
-        "name": "Chinese developer makes ARTEX AI agent closed-source after S",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "They said they opposed any illegal use of the software.",
-        "description": "They said they opposed any illegal use of the software.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:DeepSeek",
-        "url": "https://www.straitstimes.com/asia/east-asia/chinese-developer-makes-artex-ai-agent-closed-source-after-south-korean-bank-hack"
-      },
-      {
-        "name": "AI Watch: OpenAI revenue estimate, Google AI launch and Spac",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Google is integrating Gemini and Claude into workplace tasks, while SpaceX expands Starlink Mobile through a spectrum deal. US lawmakers have also raised concer",
-        "description": "Google is integrating Gemini and Claude into workplace tasks, while SpaceX expands Starlink Mobile through a spectrum deal. US lawmakers have also raised concerns over Google's pur",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:Google Gemini",
-        "url": "https://www.cnbctv18.com/videos/technology/openai-revenue-google-gemini-artificial-intelligence-agent-spacex-starlink-tech-news-20008179.htm"
-      },
-      {
-        "name": "Chinese developer makes ARTEX AI agent closed-source after K",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "The Chinese developer of ARTEX said they have converted the AI agent to a closed-source project after cybersecurity firms identified it as a tool used in a rece",
-        "description": "The Chinese developer of ARTEX said they have converted the AI agent to a closed-source project after cybersecurity firms identified it as a tool used in a recent cyberattack campa",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:DeepSeek",
-        "url": "https://www.thestandard.com.hk/innovation/article/345036/Chinese-developer-makes-ARTEX-AI-agent-closed-source-after-Korean-bank-hack"
       }
     ],
     "ai-models": [
+      {
+        "name": "Google 发布 Gemini 4 Argon 并逐步推送至 Gemini 应用",
+        "provider": "X：Gemini (@GeminiApp)",
+        "type": "AI 项目/工具",
+        "bestFor": "Google Gemini 宣布新前沿模型 Gemini 4 Argon 正在 Gemini 应用中逐步推出，定位是把复杂想法变为现实。作者还预告将以推文串介绍 Gemini 4 Argon 及应用内最新更新如何提升每条提示词的效果。",
+        "description": "Google Gemini 宣布新前沿模型 Gemini 4 Argon 正在 Gemini 应用中逐步推出，定位是把复杂想法变为现实。作者还预告将以推文串介绍 Gemini 4 Argon 及应用内最新更新如何提升每条提示词的效果。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "X：Gemini (@GeminiApp)",
+        "url": "https://x.com/GeminiApp/status/2110039322229649783"
+      },
+      {
+        "name": "Meta’s Generative Ads Model (GEM): Scaling the Central Model",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Last year, we introduced GEM, the industry’s largest recommendation system (RecSys) foundation model. GEM established Meta&#8217;s first LLM-inspired paradigm f",
+        "description": "Last year, we introduced GEM, the industry’s largest recommendation system (RecSys) foundation model. GEM established Meta&#8217;s first LLM-inspired paradigm for ads recommendatio",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Meta Engineering",
+        "url": "https://engineering.fb.com/2026/10/13/ml-applications/generative-ads-model-gem-scaling-frontier-ads-ai/"
+      },
       {
         "name": "How Red Bull's F1 team is using AI to make split-second deci",
         "provider": "NewsData.io",
@@ -6873,28 +7088,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:Claude AI",
         "url": "https://www.digitimes.com/news/a20261006VL203/microsoft-meta-claude-anthropic-copilot.html"
-      },
-      {
-        "name": "SemiAnalysis 测算：Anthropic 订阅的 API 等价价值约为 OpenAI 的 5 倍以上",
-        "provider": "SemiAnalysis 长文 RSS（RSS）",
-        "type": "AI 项目/工具",
-        "bestFor": "SemiAnalysis 通过逐项测量用量表变化，估算各订阅计划的 API 等价价值，结论是在中端模型档位 Anthropic 订阅的价值约为 OpenAI 的 5 倍。",
-        "description": "SemiAnalysis 通过逐项测量用量表变化，估算各订阅计划的 API 等价价值，结论是在中端模型档位 Anthropic 订阅的价值约为 OpenAI 的 5 倍。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "SemiAnalysis 长文 RSS（RSS）",
-        "url": "https://newsletter.semianalysis.com/p/anthropic-subscriptions-offer-5x"
-      },
-      {
-        "name": "Downgrading user roles in Amazon Quick",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Amazon Quick doesn't offer a direct console path to downgrade a user from Admin or Author to Reader. This post walks through two reliable methods: a manual dele",
-        "description": "Amazon Quick doesn't offer a direct console path to downgrade a user from Admin or Author to Reader. This post walks through two reliable methods: a manual delete-and-recreate appr",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/downgrading-user-roles-in-amazon-quick/"
       }
     ],
     "ai-business": [
@@ -8284,6 +8477,17 @@
     ],
     "ai-research": [
       {
+        "name": "Google 发布 Gemini 4 Argon：面向复杂工程与科研任务的前沿模型",
+        "provider": "Google Blog：AI（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "Google 发布 Gemini 4 Argon，面向开发者、企业、科学家和消费者全球开放，可经 Gemini API、AI Studio、Google Antigravity。",
+        "description": "Google 发布 Gemini 4 Argon，面向开发者、企业、科学家和消费者全球开放，可经 Gemini API、AI Studio、Google Antigravity。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Google Blog：AI（RSS）",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/"
+      },
+      {
         "name": "Minions: A Dynamic and Distributed Virtual GPU Cloud Built o",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -8711,17 +8915,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2609.38036v1"
-      },
-      {
-        "name": "Cobalt: Leveraging Expert Co-activation for Efficient Distri",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Mixture-of-Experts (MoE) has increasingly become a mainstream approach for scaling large language models, as it expands model capacity while keeping computation",
-        "description": "Mixture-of-Experts (MoE) has increasingly become a mainstream approach for scaling large language models, as it expands model capacity while keeping computation cost nearly constan",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2609.36959v1"
       }
     ],
     "ai-office": []
@@ -10129,49 +10322,10 @@
     }
   ],
   "dailyReport": {
-    "date": "2026-10-13",
-    "generatedAt": "2026-10-13T15:30:29.889864Z",
-    "total": 19,
+    "date": "2026-10-14",
+    "generatedAt": "2026-10-13T17:43:46.437413Z",
+    "total": 16,
     "sections": [
-      {
-        "category": "ai-coding",
-        "label": "AI 编程",
-        "items": [
-          {
-            "title": "Run multi-node inference workloads using Ray LLM Deep Learning Containers",
-            "summary": "Learn how to deploy one large language model across two GPU nodes on Amazon EKS using the multi-node Ray LLM Deep Learning Containers, with ",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/run-multi-node-inference-workloads-using-ray-llm-deep-learning-containers/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-12",
-            "publishedAt": "2026-10-12T23:50",
-            "reason": ""
-          },
-          {
-            "title": "Kairos: Toward a Byte-Level Foundation Model for Every Modality",
-            "summary": "arXiv:2610.12495v1 Announce Type: new Abstract: Small language models trained on a single local machine leave little room for architectural ",
-            "source": "RSS · arXiv cs.LG",
-            "url": "https://arxiv.org/abs/2610.12495",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-12",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "GlucoPRISM: Protocol-Supervised Pretraining for Cross-Cohort Glucose Transfer",
-            "summary": "arXiv:2610.12528v1 Announce Type: new Abstract: Continuous glucose monitoring (CGM) foundation models encode each day as one vector that mix",
-            "source": "RSS · arXiv cs.LG",
-            "url": "https://arxiv.org/abs/2610.12528",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-12",
-            "publishedAt": "",
-            "reason": ""
-          }
-        ]
-      },
       {
         "category": "ai-image-video",
         "label": "图像视频",
@@ -10190,9 +10344,114 @@
         ]
       },
       {
+        "category": "ai-agents",
+        "label": "Agent / MCP",
+        "items": [
+          {
+            "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+            "summary": "",
+            "source": "RSS · Hugging Face Blog",
+            "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-14",
+            "publishedAt": "2026-10-14T01:05",
+            "reason": ""
+          },
+          {
+            "title": "Natural language security queries at Orca Security using Amazon Bedrock",
+            "summary": "Orca Security built Discovery AI, a natural language query agent on Amazon Bedrock that converts plain-English questions into Sonar queries.",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/natural-language-security-queries-at-orca-security-using-amazon-bedrock/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-14",
+            "publishedAt": "2026-10-14T00:03",
+            "reason": ""
+          },
+          {
+            "title": "Build long-horizon agents with Grok 4.7 on Amazon Bedrock",
+            "summary": "Grok 4.7 is now available on Amazon Bedrock. In this post, we build a tool-calling agent on Grok 4.7 and evaluate it on three reasoning task",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/build-long-horizon-agents-with-grok-4-7-on-amazon-bedrock/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-13",
+            "publishedAt": "2026-10-13T23:52",
+            "reason": ""
+          },
+          {
+            "title": "How ShipStation Global built an AI IT help desk on Amazon Bedrock AgentCore",
+            "summary": "ShipStation Global's engineering team built Deckhand, an AI IT help desk agent for Slack on Amazon Bedrock AgentCore. It answers routine IT ",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/how-shipstation-global-built-an-ai-it-help-desk-on-amazon-bedrock-agentcore/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-13",
+            "publishedAt": "2026-10-13T23:54",
+            "reason": ""
+          }
+        ]
+      },
+      {
         "category": "ai-models",
         "label": "模型发布",
         "items": [
+          {
+            "title": "Meta’s Generative Ads Model (GEM): Scaling the Central Model and Compute Engine for Frontier Ads AI",
+            "summary": "Last year, we introduced GEM, the industry’s largest recommendation system (RecSys) foundation model. GEM established Meta&#8217;s first LLM",
+            "source": "RSS · Meta Engineering",
+            "url": "https://engineering.fb.com/2026/10/13/ml-applications/generative-ads-model-gem-scaling-frontier-ads-ai/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-14",
+            "publishedAt": "2026-10-14T00:01",
+            "reason": ""
+          },
+          {
+            "title": "Google DeepMind 发布 Gemini 4 Argon 机器人模型，ERQA 基准得分 87%",
+            "summary": "Google DeepMind 发布 Gemini 4 Argon，定位为通用物理推理模型，在 Embodied Reasoning（ERQA）基准上以纯推理得分 87%，超过其他前沿模型。",
+            "source": "Google DeepMind：Blog（RSS）",
+            "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-14",
+            "publishedAt": "2026-10-14T00:01",
+            "reason": ""
+          },
+          {
+            "title": "Gemini 4 Argon: Built to solve your hardest problems",
+            "summary": "",
+            "source": "RSS · Google DeepMind",
+            "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-14",
+            "publishedAt": "2026-10-14T00:01",
+            "reason": ""
+          },
+          {
+            "title": "Mixture-of-Experts kernel engineering on Amazon SageMaker AI",
+            "summary": "AWS engineers share kernel optimizations for fused Mixture-of-Experts (MoE) models on Amazon SageMaker AI: Swap-AB for WGMMA utilization, Tr",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/mixture-of-experts-kernel-engineering-on-amazon-sagemaker-ai/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-13",
+            "publishedAt": "2026-10-13T23:17",
+            "reason": ""
+          },
+          {
+            "title": "Anthropic 自研版本控制系统 Scion，五个月完成 monorepo 从 git 迁移",
+            "summary": "Anthropic 发布工程复盘，因 Claude 使日均合并代码量从 2026 年 5 月约 2,500 增至 9 月超 30,000，五个月内自研版本控制系统 Scion 并完全替代 git，同时推出代码评审工具 Antique。",
+            "source": "Anthropic：Engineering（事故复盘 + 工程实践 · 网页）",
+            "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-13",
+            "publishedAt": "2026-10-13T08:00",
+            "reason": ""
+          },
           {
             "title": "OCP Summit 2026: Powering AI with Open Innovations in Scale-Up, Scale-Out, and Scale-Across Networks",
             "summary": "At the 2026 Open Compute Project Global Summit, Meta is sharing the next generation of open networking infrastructure, including: Our first ",
@@ -10236,39 +10495,6 @@
             "date": "2026-10-13",
             "publishedAt": "2026-10-13T01:36",
             "reason": ""
-          },
-          {
-            "title": "Anthropic 强化针对蒸馏攻击的防御， reasoning token 提取量下降 10 到 100 倍",
-            "summary": "Anthropic 发布博客，介绍其针对 Claude 蒸馏攻击的新防御方法，早期证据显示这些方法使蒸馏者获取的数据减少约 90% 到 99%。",
-            "source": "Anthropic：Research（发表成果 · 网页）",
-            "url": "https://www.anthropic.com/research/distillation-defenses",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-12",
-            "publishedAt": "2026-10-12T00:00",
-            "reason": ""
-          },
-          {
-            "title": "Anthropic 研究：小型 AI 模型可能接近在 IoT 设备上自主复制",
-            "summary": "Anthropic 发文评估小型模型在无数据中心条件下自主复制（ARA）的可行性，作者实验显示 9B 模型可在测试的 9 类硬件中 8 类上跑通推理，30B 及以下模型已能完成复制的多数单步。",
-            "source": "Anthropic：Research（发表成果 · 网页）",
-            "url": "https://www.anthropic.com/research/self-replicating-ai",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-12",
-            "publishedAt": "2026-10-12T00:00",
-            "reason": ""
-          },
-          {
-            "title": "Deploy decision models with llama.cpp on Amazon SageMaker AI",
-            "summary": "Learn how to deploy decision models with llama.cpp on Amazon SageMaker AI. This technical how-to serves OpenAI-compatible chat completions w",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/deploy-decision-models-with-llama-cpp-on-amazon-sagemaker-ai/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-12",
-            "publishedAt": "2026-10-12T23:51",
-            "reason": ""
           }
         ]
       },
@@ -10286,82 +10512,22 @@
             "date": "2026-10-13",
             "publishedAt": "2026-10-13T00:00",
             "reason": ""
-          },
+          }
+        ]
+      },
+      {
+        "category": "ai-business",
+        "label": "行业商业",
+        "items": [
           {
-            "title": "Minions: A Dynamic and Distributed Virtual GPU Cloud Built on Idle Apple Silicon Devices",
-            "summary": "The increasing demand for GPU-accelerated machine learning inference has exposed limitations in centralized GPU infrastructures, including h",
-            "source": "RSS · Apple ML Research",
-            "url": "https://machinelearning.apple.com/research/distributed-gpu-cloud",
+            "title": "Manage private pricing offers for Amazon Bedrock with managed entitlements",
+            "summary": "Managing AI model access across dozens or hundreds of AWS accounts creates friction when each account must accept AWS Marketplace Private Pr",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/manage-private-pricing-offers-for-amazon-bedrock-with-managed-entitlements/",
             "score": 70,
             "sourceCount": 1,
-            "date": "2026-10-12",
-            "publishedAt": "2026-10-12T08:00",
-            "reason": ""
-          },
-          {
-            "title": "Large Language Models for Machine Translation Quality Annotation: Humans and Models Are Both Challenged",
-            "summary": "Large Language Models (LLMs) are considered to be a more efficient and cost-effective alternative to human judgment for Machine Translation ",
-            "source": "RSS · Apple ML Research",
-            "url": "https://machinelearning.apple.com/research/llm-translation-quality-annotation",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-12",
-            "publishedAt": "2026-10-12T08:00",
-            "reason": ""
-          },
-          {
-            "title": "Algebraic Integer Quantization for Machine Learning Applications",
-            "summary": "arXiv:2610.12494v1 Announce Type: new Abstract: In this article, we propose algebraic integer number formats (AINF) as a framework for highl",
-            "source": "RSS · arXiv cs.LG",
-            "url": "https://arxiv.org/abs/2610.12494",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-12",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "CacheScope: Exact-Compute Allocation for Training-Free Diffusion Acceleration",
-            "summary": "arXiv:2610.12530v1 Announce Type: new Abstract: Training-free feature reuse accelerates diffusion transformer inference by replacing full de",
-            "source": "RSS · arXiv cs.LG",
-            "url": "https://arxiv.org/abs/2610.12530",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-12",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "An Input-Dependent Readout Phase for Resonant Sequence Models",
-            "summary": "arXiv:2610.12496v1 Announce Type: new Abstract: Sequence models with a fixed-size state avoid the quadratic cost of attention, but face a de",
-            "source": "RSS · arXiv cs.LG",
-            "url": "https://arxiv.org/abs/2610.12496",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-12",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "CircuitTree: Composing Circuits into A Syllable Transcriber",
-            "summary": "arXiv:2610.12520v1 Announce Type: new Abstract: The goal of circuit discovery is to decompose a monolithic neural network into tiny modular ",
-            "source": "RSS · arXiv cs.LG",
-            "url": "https://arxiv.org/abs/2610.12520",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-12",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Behind-the-Meter Photovoltaic Visibility from Net Smart Meters: Deployment Regimes and Operational Insights",
-            "summary": "arXiv:2610.12527v1 Announce Type: new Abstract: Distribution operators need visibility of behind-the-meter photovoltaic (PV) generation, yet",
-            "source": "RSS · arXiv cs.LG",
-            "url": "https://arxiv.org/abs/2610.12527",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-12",
-            "publishedAt": "",
+            "date": "2026-10-14",
+            "publishedAt": "2026-10-14T01:17",
             "reason": ""
           }
         ]
