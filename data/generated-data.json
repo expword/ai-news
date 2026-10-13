@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-10-13",
-  "generatedAt": "2026-10-12T22:46:16.835231Z",
+  "generatedAt": "2026-10-13T00:51:51.404636Z",
   "news": [
     {
       "title": "OCP Summit 2026: Powering AI with Open Innovations in Scale-Up, Scale-Out, and Scale-Across Networks",
@@ -151,6 +151,33 @@
       "sourceDate": "",
       "tags": [],
       "url": "https://engineering.fb.com/2026/10/12/video-engineering/shipping-media-over-quic-at-meta-scale-for-instagram-live-ingest/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Anthropic 强化针对蒸馏攻击的防御， reasoning token 提取量下降 10 到 100 倍",
+      "summary": "Anthropic 发布博客，介绍其针对 Claude 蒸馏攻击的新防御方法，早期证据显示这些方法使蒸馏者获取的数据减少约 90% 到 99%。",
+      "category": "ai-models",
+      "source": "Anthropic：Research（发表成果 · 网页）",
+      "date": "2026-10-12",
+      "publishedAt": "2026-10-12T00:00",
+      "collectedAt": "2026-10-13T08:51",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://www.anthropic.com/research/distillation-defenses",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -5582,6 +5609,20 @@
       "date": "2026-08-05"
     },
     {
+      "name": "morluto/rea",
+      "lang": "TypeScript",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "stars": "157147 stars",
+      "why": "近期更新且具备 AI / LLM / Agent 相关主题，适合做项目介绍、教程或同类对比。",
+      "url": "https://github.com/morluto/rea",
+      "source": "GitHub Search · 2026-10-13",
+      "category": "Coding Agent",
+      "details": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
       "name": "zai-org/CogAgent",
       "lang": "Python",
       "description": "An open-sourced end-to-end VLM-based GUI Agent",
@@ -5621,21 +5662,6 @@
       "source": "GitHub Search · 2026-10-09",
       "category": "Coding Agent",
       "details": "Open-source Rust agent engine and terminal client for Codewhale, with provider choice, tools, approvals and receipts.",
-      "features": [],
-      "useCases": [],
-      "quickStart": []
-    },
-    {
-      "name": "Tencent-Hunyuan/Prism",
-      "lang": "Python",
-      "description": "We propose Prism, a dynamic sparse attention framework for natively training joint video-audio generation models at 2K.",
-      "stars": "12 stars",
-      "why": "国产大模型厂商 腾讯混元 的最新开源动态/模型发布，属一手信源。",
-      "url": "https://github.com/Tencent-Hunyuan/Prism",
-      "source": "GitHub · 腾讯混元",
-      "tier": "T1",
-      "category": "Coding Agent",
-      "details": "We propose Prism, a dynamic sparse attention framework for natively training joint video-audio generation models at 2K.",
       "features": [],
       "useCases": [],
       "quickStart": []
@@ -10313,8 +10339,8 @@
   ],
   "dailyReport": {
     "date": "2026-10-13",
-    "generatedAt": "2026-10-12T22:46:16.807230Z",
-    "total": 16,
+    "generatedAt": "2026-10-13T00:51:51.381114Z",
+    "total": 17,
     "sections": [
       {
         "category": "ai-coding",
@@ -10418,6 +10444,17 @@
             "sourceCount": 1,
             "date": "2026-10-13",
             "publishedAt": "2026-10-13T01:36",
+            "reason": ""
+          },
+          {
+            "title": "Anthropic 强化针对蒸馏攻击的防御， reasoning token 提取量下降 10 到 100 倍",
+            "summary": "Anthropic 发布博客，介绍其针对 Claude 蒸馏攻击的新防御方法，早期证据显示这些方法使蒸馏者获取的数据减少约 90% 到 99%。",
+            "source": "Anthropic：Research（发表成果 · 网页）",
+            "url": "https://www.anthropic.com/research/distillation-defenses",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-12",
+            "publishedAt": "2026-10-12T00:00",
             "reason": ""
           },
           {
