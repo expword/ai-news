@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2026-10-14",
-  "generatedAt": "2026-10-14T03:20:30.072145Z",
+  "generatedAt": "2026-10-14T06:44:14.731950Z",
   "news": [
     {
       "title": "Google DeepMind and Singapore Government announce new AI tool to protect citizens against scams",
@@ -247,6 +247,310 @@
       "aiSelected": true,
       "moduleTargets": [
         "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics",
+      "summary": "Our first robotics pod with Dyna&#8217;s Chief Scientist on their big bet on World Action Models & the Next Frontier of Physical AI",
+      "category": "ai-agents",
+      "source": "RSS · Latent Space (swyx)",
+      "date": "2026-10-14",
+      "publishedAt": "2026-10-14T06:25",
+      "collectedAt": "2026-10-14T14:44",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://www.latent.space/p/dyna",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1.5",
+      "scores": {},
+      "score": 56,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "MFG: Multi-turn Feedback Guided Molecular Optimization",
+      "summary": "Multi-objective molecular optimization is a critical process in drug discovery that aims to modify a given molecule to simultaneously improve multiple properties while maintaining ",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-10-13",
+      "publishedAt": "",
+      "collectedAt": "2026-10-14T13:36",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-13",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.18851v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "OmniCompass: A Holistic Benchmark for Omni-Modal Video Grounding and Understanding",
+      "summary": "With the rapid development of multimodal large language models (MLLMs), evaluating their video understanding capabilities has become increasingly important. Existing video understa",
+      "category": "ai-benchmark",
+      "source": "arXiv",
+      "date": "2026-10-13",
+      "publishedAt": "",
+      "collectedAt": "2026-10-14T13:36",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-13",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.18829v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Beyond the Verdict: Agentic Code Judging with Verifiable Feedback",
+      "summary": "Test-time scaling for large language models (LLMs) can involve generating multiple candidate solutions for selection or revising an earlier attempt. To guide selection and revision",
+      "category": "ai-coding",
+      "source": "arXiv",
+      "date": "2026-10-13",
+      "publishedAt": "",
+      "collectedAt": "2026-10-14T13:36",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-13",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.18760v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Back-Translation Still Matters: Leveraging Monolingual Data for Low-Resource Machine Translation with LLMs",
+      "summary": "Pre-trained Large Language Model (LLMs) are effective on many tasks in zero-shot and few-shot settings. For machine translation of low-resource languages, the obvious options are f",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-10-13",
+      "publishedAt": "",
+      "collectedAt": "2026-10-14T13:36",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-13",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.18818v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Visual Tokens on Demand: Visual Budgeting for Scalable and Efficient Multi-Image Reasoning in Multimodal LLMs",
+      "summary": "Multimodal large language models have advanced rapidly, but most remain optimized for single-image inputs. Multi-image reasoning is costly because each image adds many visual token",
+      "category": "ai-coding",
+      "source": "arXiv",
+      "date": "2026-10-13",
+      "publishedAt": "",
+      "collectedAt": "2026-10-14T13:36",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-13",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.18858v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "ChunkAct: Action Chunking for Agentic Robotics",
+      "summary": "Agentic robotics places a large language model (LLM) agent in the robot control loop, where it composes perception, motion, and vision-language-action (VLA) tools under the guidanc",
+      "category": "ai-agents",
+      "source": "arXiv",
+      "date": "2026-10-13",
+      "publishedAt": "",
+      "collectedAt": "2026-10-14T13:36",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-13",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.18874v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Read the Room Before Your Model Generates",
+      "summary": "Large language models (LLMs) generally rely on sampling temperature to regulate the amount of randomness in their outputs. Mainstream methods for selecting temperature typically in",
+      "category": "ai-coding",
+      "source": "arXiv",
+      "date": "2026-10-13",
+      "publishedAt": "",
+      "collectedAt": "2026-10-14T13:36",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-13",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.18820v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "SkillScaffold: Scaffolding Agentic Reinforcement Learning with Policy-Adaptive Skill Credit Assignment and Selective Injection",
+      "summary": "Agentic reinforcement learning (RL) enables large language models (LLMs) to learn from multi-turn interactions with verifiable outcomes. Textual skills can improve exploration by d",
+      "category": "ai-agents",
+      "source": "arXiv",
+      "date": "2026-10-13",
+      "publishedAt": "",
+      "collectedAt": "2026-10-14T13:36",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-13",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.18807v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "SP$^2$ec: Adaptive Self-Speculative Decoding for Vision-Language Models",
+      "summary": "Speculative Decoding (SD) has demonstrated its efficacy in accelerating large language model inference, but for Vision-Language Models (VLMs), the diverse input modalities make it ",
+      "category": "ai-coding",
+      "source": "arXiv",
+      "date": "2026-10-13",
+      "publishedAt": "",
+      "collectedAt": "2026-10-14T13:36",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-13",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.18735v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "BLADE: Auditing Information Use for Failure Attribution in LLM Multi-Agent Systems",
+      "summary": "Large language model multi-agent systems extend individual agents' capabilities through collaboration across specialized roles, tools, and workflows. Yet collaboration makes failur",
+      "category": "ai-agents",
+      "source": "arXiv",
+      "date": "2026-10-13",
+      "publishedAt": "",
+      "collectedAt": "2026-10-14T13:36",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-13",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.18780v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
       ],
       "sourceCount": 1
     },
@@ -793,6 +1097,61 @@
       "tier": "T1",
       "scores": {},
       "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "How Anthropic’s Dynamic Workflows Coordinate Claude Agents",
+      "summary": "At AI Engineer New York, Anthropic drew on lessons from Unix and Linux to explain how agents can tackle bigger projects without overwhelming developers.",
+      "category": "ai-agents",
+      "source": "RSS · Latent Space (swyx)",
+      "date": "2026-10-13",
+      "publishedAt": "2026-10-13T02:18",
+      "collectedAt": "2026-10-14T14:44",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://www.latent.space/p/claude-dynamic-workflows",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1.5",
+      "scores": {},
+      "score": 56,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "[AINews] Meta Muse Wonder & Wonder Full: MSL’s Claude 5.5-tier Frontier Model",
+      "summary": "MSL&#8217;s emergence as a frontier lab is finally complete.",
+      "category": "ai-models",
+      "source": "RSS · Latent Space (swyx)",
+      "date": "2026-10-13",
+      "publishedAt": "2026-10-13T17:37",
+      "collectedAt": "2026-10-14T14:44",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1.5",
+      "scores": {},
+      "score": 56,
       "aiSelected": true,
       "moduleTargets": [
         "news"
@@ -2351,367 +2710,6 @@
       "moduleTargets": [
         "news",
         "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "How Postman runs Agent Mode for 40 million developers on Amazon Bedrock",
-      "summary": "Building an AI agent that works in a demo is a different problem from running one for 40 million developers. Postman and AWS share the architectural patterns behind Agent Mode: con",
-      "category": "ai-agents",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-10-09",
-      "publishedAt": "2026-10-09T23:35",
-      "collectedAt": "2026-10-10T00:47",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-postman-runs-agent-mode-for-40-million-developers-on-amazon-bedrock/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Impactful scheduling for GPU clusters",
-      "summary": "",
-      "category": "ai-models",
-      "source": "RSS · Hugging Face Blog",
-      "date": "2026-10-09",
-      "publishedAt": "2026-10-09T23:20",
-      "collectedAt": "2026-10-10T00:47",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://huggingface.co/blog/allenai/impactful-scheduling",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 2,
-      "relatedSources": [
-        {
-          "source": "RSS · AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/share-gpu-clusters-across-teams-with-isolation-and-fairness-using-amazon-sagemaker-hyperpod/",
-          "title": "Share GPU clusters across teams with isolation and fairness using Amazon SageMaker HyperPod"
-        }
-      ]
-    },
-    {
-      "title": "ICYMI: What landed for AI builders in September 2026",
-      "summary": "A monthly recap of the latest Amazon Bedrock, Amazon Bedrock AgentCore, and Strands updates from September 2026: broader model choice, faster serverless agents with built-in evalua",
-      "category": "ai-agents",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-10-09",
-      "publishedAt": "2026-10-09T23:38",
-      "collectedAt": "2026-10-10T00:47",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-september-2026/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
-      "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
-      "category": "ai-models",
-      "source": "RSS · OpenAI Blog",
-      "date": "2026-10-09",
-      "publishedAt": "2026-10-09T15:00",
-      "collectedAt": "2026-10-09T19:39",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://openai.com/index/sophos",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Self-Organization from Constrained Geometric Radiation",
-      "summary": "arXiv:2610.10621v1 Announce Type: new Abstract: How does dynamic order emerge spontaneously in closed systems without external driving? Existing paradigms all require external ener",
-      "category": "ai-research",
-      "source": "RSS · arXiv cs.LG",
-      "date": "2026-10-09",
-      "publishedAt": "",
-      "collectedAt": "2026-10-09T17:09",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-09",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2610.10621",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "SPERA: Spherical Prior EEG Foundation Model with Geometry- and Frequency-Aware Latent Prediction",
-      "summary": "arXiv:2610.10571v1 Announce Type: new Abstract: Electroencephalography (EEG) provides a non-invasive measure of ongoing neural activity, but building general-purpose EEG models rem",
-      "category": "ai-research",
-      "source": "RSS · arXiv cs.LG",
-      "date": "2026-10-09",
-      "publishedAt": "",
-      "collectedAt": "2026-10-09T17:09",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-09",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2610.10571",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Exact SO(3)-Equivariant Isotropic Kernels for Rotation-Robust Neural Dynamics",
-      "summary": "arXiv:2610.10626v1 Announce Type: new Abstract: Neural surrogates for vector-valued partial differential equations can fit training data yet change their predictions when the same ",
-      "category": "ai-research",
-      "source": "RSS · arXiv cs.LG",
-      "date": "2026-10-09",
-      "publishedAt": "",
-      "collectedAt": "2026-10-09T17:09",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-09",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2610.10626",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Freeze the Decoder, Heal the Encoder: Parameter-Efficient Adaptation for SVD-Based KV-Cache Compression",
-      "summary": "arXiv:2610.10552v1 Announce Type: new Abstract: Comparing parameter-efficient fine-tuning recipes under a single, shared learning rate is a common but flawed practice: when the arm",
-      "category": "ai-coding",
-      "source": "RSS · arXiv cs.LG",
-      "date": "2026-10-09",
-      "publishedAt": "",
-      "collectedAt": "2026-10-09T17:09",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-09",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2610.10552",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "When Routing Reveals Membership: Privacy Leakage from MoE Router Telemetry",
-      "summary": "arXiv:2610.10616v1 Announce Type: new Abstract: Mixture-of-Experts (MoE) language models produce routing information during inference that may be logged or exposed for monitoring, ",
-      "category": "ai-research",
-      "source": "RSS · arXiv cs.LG",
-      "date": "2026-10-09",
-      "publishedAt": "",
-      "collectedAt": "2026-10-09T17:09",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-09",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2610.10616",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Recurrent Self-Improvement: Dynamic Cross-Loop On-Policy Distillation for Looped Language Models",
-      "summary": "arXiv:2610.10623v1 Announce Type: new Abstract: Looped Language Models (LoopLMs) offer a parameter efficient approach to scaling reasoning by reusing shared parameters across recur",
-      "category": "ai-research",
-      "source": "RSS · arXiv cs.LG",
-      "date": "2026-10-09",
-      "publishedAt": "",
-      "collectedAt": "2026-10-09T17:09",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-09",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2610.10623",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Temporal transformer CAN encoder with federated lightweight heads for anomaly detection",
-      "summary": "arXiv:2610.10613v1 Announce Type: new Abstract: Modern vehicles rely on large numbers of Electronic Control Units (ECUs) that constantly exchange information over the Controller Ar",
-      "category": "ai-coding",
-      "source": "RSS · arXiv cs.LG",
-      "date": "2026-10-09",
-      "publishedAt": "",
-      "collectedAt": "2026-10-09T17:09",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-09",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2610.10613",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Coverage, Not Difficulty, Sets How Much Synthetic Data an Activation Probe Needs",
-      "summary": "arXiv:2610.10594v1 Announce Type: new Abstract: Activation probes that monitor deployed language models are trained on synthetic conversations, and how many a probe needs is open. ",
-      "category": "ai-research",
-      "source": "RSS · arXiv cs.LG",
-      "date": "2026-10-09",
-      "publishedAt": "",
-      "collectedAt": "2026-10-09T17:09",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-09",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2610.10594",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "An Explainable Header-Centric Framework for Large-Scale Semantic Table Interpretation and Data Quality Assessment",
-      "summary": "arXiv:2610.10541v1 Announce Type: new Abstract: Knowledge Graph (KG) quality depends not only on downstream graph validation, but also on the quality of tabular metadata used befor",
-      "category": "ai-research",
-      "source": "RSS · arXiv cs.AI",
-      "date": "2026-10-09",
-      "publishedAt": "",
-      "collectedAt": "2026-10-09T13:15",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-09",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2610.10541",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
       ],
       "sourceCount": 1
     }
@@ -5812,6 +5810,17 @@
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Beyond the Verdict: Agentic Code Judging with Verifiable Fee",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Test-time scaling for large language models (LLMs) can involve generating multiple candidate solutions for selection or revising an earlier attempt. To guide se",
+        "description": "Test-time scaling for large language models (LLMs) can involve generating multiple candidate solutions for selection or revising an earlier attempt. To guide selection and revision",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2610.18760v1"
+      },
+      {
         "name": "SWE-Duel: Towards a Self-Scaling Arena for Coding Agents",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -6239,20 +6248,64 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Baseten 工程博客（网页）",
         "url": "https://www.baseten.co/blog/agentic-inference-optimization-faster-than-sota/"
-      },
-      {
-        "name": "Chatham scales its capital markets expertise with OpenAI",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
-        "description": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · OpenAI Blog",
-        "url": "https://openai.com/index/chatham-financial"
       }
     ],
     "ai-agents": [
+      {
+        "name": "How Anthropic’s Dynamic Workflows Coordinate Claude Agents",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "At AI Engineer New York, Anthropic drew on lessons from Unix and Linux to explain how agents can tackle bigger projects without overwhelming developers.",
+        "description": "At AI Engineer New York, Anthropic drew on lessons from Unix and Linux to explain how agents can tackle bigger projects without overwhelming developers.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Latent Space (swyx)",
+        "url": "https://www.latent.space/p/claude-dynamic-workflows"
+      },
+      {
+        "name": "Dyna-2: General Purpose Physical Agents with Hour-Long Auton",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Our first robotics pod with Dyna&#8217;s Chief Scientist on their big bet on World Action Models & the Next Frontier of Physical AI",
+        "description": "Our first robotics pod with Dyna&#8217;s Chief Scientist on their big bet on World Action Models & the Next Frontier of Physical AI",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Latent Space (swyx)",
+        "url": "https://www.latent.space/p/dyna"
+      },
+      {
+        "name": "ChunkAct: Action Chunking for Agentic Robotics",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Agentic robotics places a large language model (LLM) agent in the robot control loop, where it composes perception, motion, and vision-language-action (VLA) too",
+        "description": "Agentic robotics places a large language model (LLM) agent in the robot control loop, where it composes perception, motion, and vision-language-action (VLA) tools under the guidanc",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2610.18874v1"
+      },
+      {
+        "name": "SkillScaffold: Scaffolding Agentic Reinforcement Learning wi",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Agentic reinforcement learning (RL) enables large language models (LLMs) to learn from multi-turn interactions with verifiable outcomes. Textual skills can impr",
+        "description": "Agentic reinforcement learning (RL) enables large language models (LLMs) to learn from multi-turn interactions with verifiable outcomes. Textual skills can improve exploration by d",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2610.18807v1"
+      },
+      {
+        "name": "BLADE: Auditing Information Use for Failure Attribution in L",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Large language model multi-agent systems extend individual agents' capabilities through collaboration across specialized roles, tools, and workflows. Yet collab",
+        "description": "Large language model multi-agent systems extend individual agents' capabilities through collaboration across specialized roles, tools, and workflows. Yet collaboration makes failur",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2610.18780v1"
+      },
       {
         "name": "Phantom Merge: When Your Large Language Model Agents Pick On",
         "provider": "arXiv",
@@ -6637,61 +6690,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:AI agent",
         "url": "https://www.newsbreak.com/news/4938043506296-what-is-meta-muse-what-its-ai-agent-means-for-search-and-business-discovery"
-      },
-      {
-        "name": "💻 High-Paying IT & AI Roles: Multiple Openings in Houston",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Houston’s tech scene is on fire right now—especially around AI, cloud, and enterprise systems. Here are several standout IT openings you can scan and apply",
-        "description": "Houston’s tech scene is on fire right now—especially around AI, cloud, and enterprise systems. Here are several standout IT openings you can scan and apply",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.newsbreak.com/houston-tx-daily-brief-375420257/4938018085762-high-paying-it-ai-roles-multiple-openings-in-houston"
-      },
-      {
-        "name": "Cutting-edge tech powers smart National Day travel in China",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "BEIJING, Oct. 10 (Xinhua) -- A 2,000-km road trip from Beijing to China's northern border in Inner Mongolia became less tiring for traveler Lu Jian during the N",
-        "description": "BEIJING, Oct. 10 (Xinhua) -- A 2,000-km road trip from Beijing to China's northern border in Inner Mongolia became less tiring for traveler Lu Jian during the National Day holiday,",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "http://www.turkmenistannews.net/news/279362918/cutting-edge-tech-powers-smart-national-day-travel-in-china"
-      },
-      {
-        "name": "Cutting-edge tech powers smart National Day travel in China",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "BEIJING, Oct. 10 (Xinhua) -- A 2,000-km road trip from Beijing to China's northern border in Inner Mongolia became less tiring for traveler Lu Jian during the N",
-        "description": "BEIJING, Oct. 10 (Xinhua) -- A 2,000-km road trip from Beijing to China's northern border in Inner Mongolia became less tiring for traveler Lu Jian during the National Day holiday,",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "http://www.pekingpress.com/news/279362918/cutting-edge-tech-powers-smart-national-day-travel-in-china"
-      },
-      {
-        "name": "Anthropic AI model sent fake murder tip to unsolved killings",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "SAN FRANCISCO, Oct 10 — An artificial intelligence model developed by Anthropic submitted a fabricated tip about a...",
-        "description": "SAN FRANCISCO, Oct 10 — An artificial intelligence model developed by Anthropic submitted a fabricated tip about a...",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.malaymail.com/news/world/2026/10/10/anthropic-ai-model-sent-fake-murder-tip-to-unsolved-killings-website-philadelphia-police-say/238501"
-      },
-      {
-        "name": "Cutting-edge tech powers smart National Day travel in China",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "BEIJING, Oct. 10 (Xinhua) -- A 2,000-km road trip from Beijing to China's northern border in Inner Mongolia became less tiring for traveler Lu Jian during the N",
-        "description": "BEIJING, Oct. 10 (Xinhua) -- A 2,000-km road trip from Beijing to China's northern border in Inner Mongolia became less tiring for traveler Lu Jian during the National Day holiday,",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "http://www.beijingbulletin.com/news/279362918/cutting-edge-tech-powers-smart-national-day-travel-in-china"
       }
     ],
     "ai-models": [
@@ -7580,6 +7578,17 @@
     ],
     "ai-benchmark": [
       {
+        "name": "OmniCompass: A Holistic Benchmark for Omni-Modal Video Groun",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "With the rapid development of multimodal large language models (MLLMs), evaluating their video understanding capabilities has become increasingly important. Exi",
+        "description": "With the rapid development of multimodal large language models (MLLMs), evaluating their video understanding capabilities has become increasingly important. Existing video understa",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2610.18829v1"
+      },
+      {
         "name": "OpenSocialJax: Evaluating Social Adaptation in Sequential So",
         "provider": "arXiv",
         "type": "AI 项目/工具",
@@ -8060,26 +8069,20 @@
         "watch": "虽然 Aligned AI 的偏见程度较低，但仍需注意其在特定文化背景下的适用性，可能存在误解的风险。",
         "sourceName": "NewsAPI:AI benchmark leaderboard",
         "url": "https://www.globenewswire.com/news-release/2026/07/31/3336812/0/en/Aligned-AI-Ranks-Highest-Among-Leading-AI-Models-in-Independent-Faith-and-Ethics-Benchmark.html"
-      },
-      {
-        "name": "Grok 4.5 在 HighWalk 基准测试中表现优异，成为技术文档更新的首选",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "Grok 4.5 的优异表现将吸引软件开发团队、技术文档编写者和项目经理等人群的关注。对于需要频繁更新文档的团队来说，Grok 4.5 提供了一种高效的解决方案，能够减少文档与代码之间的差距，降低开发中的错误率。此外，Grok 4.5 的高效性和准确性可能促使更多企业在其持续集成管道中集成此模型，从而提升整体开发效率和",
-        "description": "xAI 的 Grok 4.5 模型在最新发布的 HighWalk 基准测试中表现出色，成功从 46 个 Laravel 提交中高效更新技术文档，展示了其在软件可维护性方面的优势。该模型的高推理配置在质量和效率的综合评分中位列第一，成为技术文档更新的理想选择。",
-        "useCases": [
-          "使用 Grok 4.5 更新项目文档，确保文档与代码保持一致，减少开发中的错误。",
-          "在持续集成管道中集成 Grok 4.5，自动化文档更新流程，提高工作效率。",
-          "利用 Grok 4.5 进行代码审查，确保技术文档的准确性和及时性，提升团队协作。",
-          "通过 Grok 4.5 生成技术规格，帮助新成员快速了解项目背景和技术细节。",
-          "在软件维护阶段使用 Grok 4.5，及时更新文档以反映代码变更，确保长期可维护性。"
-        ],
-        "watch": "Grok 4.5 的使用可能会受到 API 调用费用的影响，需评估成本效益。",
-        "sourceName": "NewsAPI:AI benchmark leaderboard",
-        "url": "https://www.ibtimes.com.au/grok-4-5-tops-highwalk-benchmark-1873201"
       }
     ],
     "ai-image-video": [
+      {
+        "name": "Visual Tokens on Demand: Visual Budgeting for Scalable and E",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Multimodal large language models have advanced rapidly, but most remain optimized for single-image inputs. Multi-image reasoning is costly because each image ad",
+        "description": "Multimodal large language models have advanced rapidly, but most remain optimized for single-image inputs. Multi-image reasoning is costly because each image adds many visual token",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2610.18858v1"
+      },
       {
         "name": "Phonology-Aware Speaker Extraction Frontend for Audio LLMs",
         "provider": "arXiv",
@@ -8508,17 +8511,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "PC Magazine",
         "url": "https://www.pcmag.com/news/pentagons-anthropic-blacklisting-ruled-illegal-by-us-judge"
-      },
-      {
-        "name": "boAt Launches Crest AI with Google Gemini for Next-Generatio",
-        "provider": "Analytics Insight",
-        "type": "AI 项目/工具",
-        "bestFor": "boAt is expanding beyond Bluetooth audio with Crest AI, an artificial intelligence platform developed with Google Gemini for next-generation smart audio devices",
-        "description": "boAt is expanding beyond Bluetooth audio with Crest AI, an artificial intelligence platform developed with Google Gemini for next-generation smart audio devices. Announced by Googl",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Analytics Insight",
-        "url": "https://www.analyticsinsight.net/news/boat-launches-crest-ai-with-google-gemini-for-next-generation-smart-audio-devices"
       }
     ],
     "ai-research": [
@@ -10369,13 +10361,57 @@
   ],
   "dailyReport": {
     "date": "2026-10-14",
-    "generatedAt": "2026-10-14T03:20:30.048116Z",
-    "total": 29,
+    "generatedAt": "2026-10-14T06:44:14.707951Z",
+    "total": 39,
     "sections": [
       {
         "category": "ai-coding",
         "label": "AI 编程",
         "items": [
+          {
+            "title": "Beyond the Verdict: Agentic Code Judging with Verifiable Feedback",
+            "summary": "Test-time scaling for large language models (LLMs) can involve generating multiple candidate solutions for selection or revising an earlier ",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.18760v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-13",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Visual Tokens on Demand: Visual Budgeting for Scalable and Efficient Multi-Image Reasoning in Multimodal LLMs",
+            "summary": "Multimodal large language models have advanced rapidly, but most remain optimized for single-image inputs. Multi-image reasoning is costly b",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.18858v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-13",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Read the Room Before Your Model Generates",
+            "summary": "Large language models (LLMs) generally rely on sampling temperature to regulate the amount of randomness in their outputs. Mainstream method",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.18820v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-13",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "SP$^2$ec: Adaptive Self-Speculative Decoding for Vision-Language Models",
+            "summary": "Speculative Decoding (SD) has demonstrated its efficacy in accelerating large language model inference, but for Vision-Language Models (VLMs",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.18735v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-13",
+            "publishedAt": "",
+            "reason": ""
+          },
           {
             "title": "Contextual Correction of Parallel Draftsfor Speculative Decoding",
             "summary": "arXiv:2610.12570v1 Announce Type: new Abstract: Speculative decoding accelerates large language model inference by using a lightweight draft",
@@ -10477,6 +10513,39 @@
             "reason": ""
           },
           {
+            "title": "ChunkAct: Action Chunking for Agentic Robotics",
+            "summary": "Agentic robotics places a large language model (LLM) agent in the robot control loop, where it composes perception, motion, and vision-langu",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.18874v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-13",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "SkillScaffold: Scaffolding Agentic Reinforcement Learning with Policy-Adaptive Skill Credit Assignment and Selective Injection",
+            "summary": "Agentic reinforcement learning (RL) enables large language models (LLMs) to learn from multi-turn interactions with verifiable outcomes. Tex",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.18807v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-13",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "BLADE: Auditing Information Use for Failure Attribution in LLM Multi-Agent Systems",
+            "summary": "Large language model multi-agent systems extend individual agents' capabilities through collaboration across specialized roles, tools, and w",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.18780v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-13",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
             "title": "Reflective Prompt Optimization of a Deep-Research Agent: A Topic-Disjoint, Multi-Seed Protocol for Measuring Transferable Gains and Prompt-Level Overfitting",
             "summary": "arXiv:2610.12601v1 Announce Type: new Abstract: Prompt optimization is an attractive alternative to reinforcement learning for adapting lang",
             "source": "RSS · arXiv cs.CL",
@@ -10507,6 +10576,28 @@
             "sourceCount": 1,
             "date": "2026-10-13",
             "publishedAt": "2026-10-13T23:54",
+            "reason": ""
+          },
+          {
+            "title": "Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics",
+            "summary": "Our first robotics pod with Dyna&#8217;s Chief Scientist on their big bet on World Action Models & the Next Frontier of Physical AI",
+            "source": "RSS · Latent Space (swyx)",
+            "url": "https://www.latent.space/p/dyna",
+            "score": 56,
+            "sourceCount": 1,
+            "date": "2026-10-14",
+            "publishedAt": "2026-10-14T06:25",
+            "reason": ""
+          },
+          {
+            "title": "How Anthropic’s Dynamic Workflows Coordinate Claude Agents",
+            "summary": "At AI Engineer New York, Anthropic drew on lessons from Unix and Linux to explain how agents can tackle bigger projects without overwhelming",
+            "source": "RSS · Latent Space (swyx)",
+            "url": "https://www.latent.space/p/claude-dynamic-workflows",
+            "score": 56,
+            "sourceCount": 1,
+            "date": "2026-10-13",
+            "publishedAt": "2026-10-13T02:18",
             "reason": ""
           }
         ]
@@ -10571,6 +10662,28 @@
             "reason": ""
           },
           {
+            "title": "MFG: Multi-turn Feedback Guided Molecular Optimization",
+            "summary": "Multi-objective molecular optimization is a critical process in drug discovery that aims to modify a given molecule to simultaneously improv",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.18851v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-13",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Back-Translation Still Matters: Leveraging Monolingual Data for Low-Resource Machine Translation with LLMs",
+            "summary": "Pre-trained Large Language Model (LLMs) are effective on many tasks in zero-shot and few-shot settings. For machine translation of low-resou",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.18818v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-13",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
             "title": "Mix, Don't Tune: Bilingual Pre-Training Outperforms Hyperparameter Search in Data-Constrained Settings",
             "summary": "For most languages of the world, language model pre-training operates in a data-constrained regime where models must repeat their training d",
             "source": "RSS · Apple ML Research",
@@ -10624,28 +10737,6 @@
             "date": "2026-10-13",
             "publishedAt": "2026-10-13T00:00",
             "reason": ""
-          },
-          {
-            "title": "Accessing OpenAI GPT models on Amazon Bedrock with global cross-Region inference in Thailand, Malaysia, Singapore, Indonesia, and Taiwan",
-            "summary": "Learn how to run OpenAI GPT-6 Sol, Luna, and Astra on Amazon Bedrock through global cross-Region inference from Singapore, Jakarta, Thailand",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-models-on-amazon-bedrock-with-global-cross-region-inference-in-thailand-malaysia-singapore-indonesia-and-taiwan/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-13",
-            "publishedAt": "2026-10-13T01:52",
-            "reason": ""
-          },
-          {
-            "title": "AWS 提出 priming 方法，可将预训练 Transformer 改造成混合状态空间架构",
-            "summary": "AWS 团队发布论文《Priming: Hybrid state space models from pre-trained Transformers》，提出 priming 方法，复用预训练 Transformer 权重构建混合架构，将预训练成本降低逾 99%，全流程消耗不足源",
-            "source": "Amazon Science（RSS）",
-            "url": "https://www.amazon.science/blog/can-we-change-an-ai-models-architecture-without-retraining-it-from-scratch",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-13",
-            "publishedAt": "2026-10-13T01:36",
-            "reason": ""
           }
         ]
       },
@@ -10653,6 +10744,17 @@
         "category": "ai-benchmark",
         "label": "评测榜单",
         "items": [
+          {
+            "title": "OmniCompass: A Holistic Benchmark for Omni-Modal Video Grounding and Understanding",
+            "summary": "With the rapid development of multimodal large language models (MLLMs), evaluating their video understanding capabilities has become increas",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.18829v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-13",
+            "publishedAt": "",
+            "reason": ""
+          },
           {
             "title": "GeopoliticalQA: Benchmarking Retrieval and Generation over Intelligence Reports",
             "summary": "arXiv:2610.12617v1 Announce Type: new Abstract: Geopolitical and strategic intelligence reports constitute a rich source of expert knowledge",
@@ -20869,6 +20971,18 @@
     ]
   },
   "benchmarkDatasets": [
+    {
+      "name": "CursorBench",
+      "area": "AI 模型能力评测",
+      "note": "Gemini 4 Argon went GA today, but we already gave it title story 2 weeks ago and most benchmarks, like CursorBench, simply independently confirm their claims.",
+      "source": "https://www.latent.space/p/ainews-ai-engineer-nyc-gemini-4-argon",
+      "sourceName": "RSS · Latent Space (swyx)",
+      "date": "2026-10-14",
+      "originTitle": "[AINews] AI Engineer NYC: Gemini 4 Argon, Vals AI Benchmarks",
+      "evaluates": [],
+      "useCases": [],
+      "limitations": []
+    },
     {
       "name": "Retrieval",
       "area": "检索 / Embedding",
