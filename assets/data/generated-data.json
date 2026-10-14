@@ -1,7 +1,62 @@
 {
   "lastUpdated": "2026-10-15",
-  "generatedAt": "2026-10-14T17:00:38.103341Z",
+  "generatedAt": "2026-10-14T19:05:35.177440Z",
   "news": [
+    {
+      "title": "Research@ 2026: 10 ways we're amplifying human ingenuity",
+      "summary": "General Science",
+      "category": "ai-research",
+      "source": "RSS · Google Research",
+      "date": "2026-10-15",
+      "publishedAt": "2026-10-15T00:14",
+      "collectedAt": "2026-10-15T02:03",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://research.google/blog/research-2026-10-ways-were-amplifying-human-ingenuity/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Putting Earth AI to work: Geospatial agents for our planet's biggest challenges",
+      "summary": "Earth AI",
+      "category": "ai-agents",
+      "source": "RSS · Google Research",
+      "date": "2026-10-15",
+      "publishedAt": "2026-10-15T00:14",
+      "collectedAt": "2026-10-15T02:03",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
       "summary": "",
@@ -41,6 +96,61 @@
       "sourceDate": "",
       "tags": [],
       "url": "https://aws.amazon.com/blogs/machine-learning/build-self-improving-document-processing-using-amazon-bedrock-agentcore/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "SentinelOne cuts malware analysis from weeks to hours",
+      "summary": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
+      "category": "ai-models",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-10-14",
+      "publishedAt": "2026-10-14T20:00",
+      "collectedAt": "2026-10-15T03:05",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/sentinelone",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Amp puts AI agents to work beyond code with OpenAI models",
+      "summary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
+      "category": "ai-coding",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-10-14",
+      "publishedAt": "2026-10-14T20:00",
+      "collectedAt": "2026-10-15T02:03",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/amp-beyond-coding",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -5717,6 +5827,17 @@
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Amp puts AI agents to work beyond code with OpenAI models",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
+        "description": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · OpenAI Blog",
+        "url": "https://openai.com/index/amp-beyond-coding"
+      },
+      {
         "name": "How Third Moment Research runs 10,000 agents for 36+ hours",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -6144,20 +6265,31 @@
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:AI agent",
         "url": "https://www.sumologic.com/blog/sumo-logic-ai-ml-apps-governance"
-      },
-      {
-        "name": "Decoding JavaScript Errors: Beyond the AI Prompt",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "JavaScript errors can be categorized into syntax errors, runtime errors, and logical errors, and understanding the differences between them is crucial.",
-        "description": "JavaScript errors can be categorized into syntax errors, runtime errors, and logical errors, and understanding the differences between them is crucial.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI coding tool",
-        "url": "https://hackernoon.com/decoding-javascript-errors-beyond-the-ai-prompt"
       }
     ],
     "ai-agents": [
+      {
+        "name": "LangChain 详解 Deep Agents 的上下文工程：如何记住信息而不塞满上下文窗口",
+        "provider": "LangChain：Blog（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "LangChain 发布博客，介绍其开源 Agent 框架 Deep Agents 如何用 middleware 做上下文工程，应对长任务中的 context rot。",
+        "description": "LangChain 发布博客，介绍其开源 Agent 框架 Deep Agents 如何用 middleware 做上下文工程，应对长任务中的 context rot。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "LangChain：Blog（RSS）",
+        "url": "https://www.langchain.com/blog/context-engineering-deep-agents-remember"
+      },
+      {
+        "name": "Putting Earth AI to work: Geospatial agents for our planet's",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Earth AI",
+        "description": "Earth AI",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Google Research",
+        "url": "https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/"
+      },
       {
         "name": "Generate presentations with Amazon Bedrock AgentCore",
         "provider": "RSS",
@@ -6575,28 +6707,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "X：Arena (@arena)",
         "url": "https://x.com/arena/status/2109706854700044523"
-      },
-      {
-        "name": "Humanize Olympiad Agents: A Multi-Session Workflow for Olymp",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Large language model (LLM) agents are rapidly improving on long-horizon scientific and olympiad tasks. Recent systems have produced a Lean-formalized resolution",
-        "description": "Large language model (LLM) agents are rapidly improving on long-horizon scientific and olympiad tasks. Recent systems have produced a Lean-formalized resolution of the Navier--Stok",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2610.13632v1"
-      },
-      {
-        "name": "A Multi-Agent LLM System for Automated Tuning of Specialized",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Many machine learning approaches are two-level: an expert selects a class of methods, within this class the choice of key components is critical and usually man",
-        "description": "Many machine learning approaches are two-level: an expert selects a class of methods, within this class the choice of key components is critical and usually manual. This paper addr",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2610.13663v1"
       }
     ],
     "ai-models": [
@@ -10262,13 +10372,24 @@
   ],
   "dailyReport": {
     "date": "2026-10-15",
-    "generatedAt": "2026-10-14T17:00:38.078759Z",
-    "total": 17,
+    "generatedAt": "2026-10-14T19:05:35.156370Z",
+    "total": 21,
     "sections": [
       {
         "category": "ai-coding",
         "label": "AI 编程",
         "items": [
+          {
+            "title": "Amp puts AI agents to work beyond code with OpenAI models",
+            "summary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/amp-beyond-coding",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-14",
+            "publishedAt": "2026-10-14T20:00",
+            "reason": ""
+          },
           {
             "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
             "summary": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
@@ -10286,6 +10407,17 @@
         "category": "ai-agents",
         "label": "Agent / MCP",
         "items": [
+          {
+            "title": "Putting Earth AI to work: Geospatial agents for our planet's biggest challenges",
+            "summary": "Earth AI",
+            "source": "RSS · Google Research",
+            "url": "https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-15",
+            "publishedAt": "2026-10-15T00:14",
+            "reason": ""
+          },
           {
             "title": "Build self-improving document processing using Amazon Bedrock AgentCore",
             "summary": "Learn how to build an agentic intelligent document processing (IDP) system using Amazon Bedrock AgentCore that classifies, extracts, validat",
@@ -10381,6 +10513,17 @@
             "reason": ""
           },
           {
+            "title": "SentinelOne cuts malware analysis from weeks to hours",
+            "summary": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/sentinelone",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-14",
+            "publishedAt": "2026-10-14T20:00",
+            "reason": ""
+          },
+          {
             "title": "Google 发布智能体审稿系统 Deep Review，支持多领域技术文档审查",
             "summary": "Google 公开发布智能体审阅系统 Deep Review，可对复杂技术文档提供反馈与验证，最初面向计算机科学论文，现已扩展到法律、金融等领域。",
             "source": "Google Research：Blog（网页）",
@@ -10455,6 +10598,23 @@
             "sourceCount": 1,
             "date": "2026-10-14",
             "publishedAt": "2026-10-14T00:01",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "category": "ai-research",
+        "label": "论文研究",
+        "items": [
+          {
+            "title": "Research@ 2026: 10 ways we're amplifying human ingenuity",
+            "summary": "General Science",
+            "source": "RSS · Google Research",
+            "url": "https://research.google/blog/research-2026-10-ways-were-amplifying-human-ingenuity/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-15",
+            "publishedAt": "2026-10-15T00:14",
             "reason": ""
           }
         ]
