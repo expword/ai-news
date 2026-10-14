@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-10-14",
-  "generatedAt": "2026-10-14T02:10:28.641005Z",
+  "generatedAt": "2026-10-14T03:20:30.072145Z",
   "news": [
     {
       "title": "Google DeepMind and Singapore Government announce new AI tool to protect citizens against scams",
@@ -5638,6 +5638,21 @@ window.AI_GENERATED_DATA = {
       "date": "2026-08-05"
     },
     {
+      "name": "zai-org/GLM-OCR",
+      "lang": "Python",
+      "description": "GLM-OCR: Accurate ×  Fast × Comprehensive",
+      "stars": "7504 stars",
+      "why": "国产大模型厂商 智谱 Z.ai 的最新开源动态/模型发布，属一手信源。",
+      "url": "https://github.com/zai-org/GLM-OCR",
+      "source": "GitHub · 智谱 Z.ai",
+      "tier": "T1",
+      "category": "Coding Agent",
+      "details": "GLM-OCR: Accurate ×  Fast × Comprehensive",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
       "name": "morluto/rea",
       "lang": "TypeScript",
       "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
@@ -5677,20 +5692,6 @@ window.AI_GENERATED_DATA = {
       "tier": "T1",
       "category": "Coding Agent",
       "details": "面壁智能 MiniCPM 开源项目。",
-      "features": [],
-      "useCases": [],
-      "quickStart": []
-    },
-    {
-      "name": "codewhale-hq/Codewhale",
-      "lang": "Rust",
-      "description": "Open-source Rust agent engine and terminal client for Codewhale, with provider choice, tools, approvals and receipts.",
-      "stars": "41076 stars",
-      "why": "近期更新且具备 AI / LLM / Agent 相关主题，适合做项目介绍、教程或同类对比。",
-      "url": "https://github.com/codewhale-hq/Codewhale",
-      "source": "GitHub Search · 2026-10-09",
-      "category": "Coding Agent",
-      "details": "Open-source Rust agent engine and terminal client for Codewhale, with provider choice, tools, approvals and receipts.",
       "features": [],
       "useCases": [],
       "quickStart": []
@@ -10368,7 +10369,7 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-10-14",
-    "generatedAt": "2026-10-14T02:10:28.611975Z",
+    "generatedAt": "2026-10-14T03:20:30.048116Z",
     "total": 29,
     "sections": [
       {
