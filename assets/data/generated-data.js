@@ -1,7 +1,145 @@
 window.AI_GENERATED_DATA = {
-  "lastUpdated": "2026-10-14",
-  "generatedAt": "2026-10-14T14:44:36.364170Z",
+  "lastUpdated": "2026-10-15",
+  "generatedAt": "2026-10-14T17:00:38.103341Z",
   "news": [
+    {
+      "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
+      "summary": "",
+      "category": "ai-models",
+      "source": "RSS · Hugging Face Blog",
+      "date": "2026-10-15",
+      "publishedAt": "2026-10-15T00:12",
+      "collectedAt": "2026-10-15T01:00",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://huggingface.co/blog/allenai/hiro-acev2",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Build self-improving document processing using Amazon Bedrock AgentCore",
+      "summary": "Learn how to build an agentic intelligent document processing (IDP) system using Amazon Bedrock AgentCore that classifies, extracts, validates, and learns from business documents w",
+      "category": "ai-agents",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-10-15",
+      "publishedAt": "2026-10-15T00:24",
+      "collectedAt": "2026-10-15T01:00",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-self-improving-document-processing-using-amazon-bedrock-agentcore/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Google 发布智能体审稿系统 Deep Review，支持多领域技术文档审查",
+      "summary": "Google 公开发布智能体审阅系统 Deep Review，可对复杂技术文档提供反馈与验证，最初面向计算机科学论文，现已扩展到法律、金融等领域。",
+      "category": "ai-models",
+      "source": "Google Research：Blog（网页）",
+      "date": "2026-10-14",
+      "publishedAt": "2026-10-14T08:00",
+      "collectedAt": "2026-10-15T01:00",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://research.google/blog/analyzing-technical-documents-with-deep-review/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "How Tamnoon built AI-powered cloud security remediation with Amazon Bedrock",
+      "summary": "Learn how Tamnoon built Tami, an agentic cloud remediation orchestrator on Amazon Bedrock that autonomously investigates and safely remediates cloud security findings from CNAPP an",
+      "category": "ai-agents",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-10-14",
+      "publishedAt": "2026-10-14T21:53",
+      "collectedAt": "2026-10-15T01:00",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-tamnoon-built-ai-powered-cloud-security-remediation-with-amazon-bedrock/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
+      "summary": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
+      "category": "ai-coding",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-10-14",
+      "publishedAt": "2026-10-14T15:00",
+      "collectedAt": "2026-10-15T01:00",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/third-moment-research",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "The EU’s next chapter in AI is agentic",
       "summary": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
@@ -1074,7 +1212,14 @@ window.AI_GENERATED_DATA = {
         "news",
         "topicResources"
       ],
-      "sourceCount": 1
+      "sourceCount": 2,
+      "relatedSources": [
+        {
+          "source": "RSS · AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/generate-presentations-with-amazon-bedrock-agentcore/",
+          "title": "Generate presentations with Amazon Bedrock AgentCore"
+        }
+      ]
     },
     {
       "title": "Anthropic 自研版本控制系统 Scion，五个月完成 monorepo 从 git 迁移",
@@ -1674,7 +1819,14 @@ window.AI_GENERATED_DATA = {
       "moduleTargets": [
         "news"
       ],
-      "sourceCount": 1
+      "sourceCount": 2,
+      "relatedSources": [
+        {
+          "source": "RSS · AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/deploy-and-evaluate-models-with-amazon-sagemaker-jumpstart/",
+          "title": "Deploy and evaluate models with Amazon SageMaker JumpStart"
+        }
+      ]
     },
     {
       "title": "Run multi-node inference workloads using Ray LLM Deep Learning Containers",
@@ -2452,34 +2604,6 @@ window.AI_GENERATED_DATA = {
       "sourceDate": "2026-10-09",
       "tags": [],
       "url": "http://arxiv.org/abs/2610.13416v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Phonology-Aware Speaker Extraction Frontend for Audio LLMs",
-      "summary": "Target speaker extraction (TSE) is a key frontend for enabling audio large language models (LLMs) to recognize and understand a designated speaker in overlapping speech. However, m",
-      "category": "ai-image-video",
-      "source": "arXiv",
-      "date": "2026-10-09",
-      "publishedAt": "",
-      "collectedAt": "2026-10-12T09:30",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-09",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.13500v1",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -5419,6 +5543,21 @@ window.AI_GENERATED_DATA = {
       "date": "2026-08-05"
     },
     {
+      "name": "QwenLM/BlenderWorld",
+      "lang": "Python",
+      "description": "通义千问 Qwen 开源项目。",
+      "stars": "3 stars",
+      "why": "国产大模型厂商 通义千问 Qwen 的最新开源动态/模型发布，属一手信源。",
+      "url": "https://github.com/QwenLM/BlenderWorld",
+      "source": "GitHub · 通义千问 Qwen",
+      "tier": "T1",
+      "category": "Coding Agent",
+      "details": "通义千问 Qwen 开源项目。",
+      "features": [],
+      "useCases": [],
+      "quickStart": []
+    },
+    {
       "name": "deepseek-ai/DeepGEMM-Ascend",
       "lang": "C++",
       "description": "DeepGEMM-Ascend: clean and efficient matrix multiplication kernel library for Huawei Ascend NPUs",
@@ -5458,21 +5597,6 @@ window.AI_GENERATED_DATA = {
       "source": "GitHub Search · 2026-10-13",
       "category": "Coding Agent",
       "details": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-      "features": [],
-      "useCases": [],
-      "quickStart": []
-    },
-    {
-      "name": "zai-org/CogAgent",
-      "lang": "Python",
-      "description": "An open-sourced end-to-end VLM-based GUI Agent",
-      "stars": "1197 stars",
-      "why": "国产大模型厂商 智谱 Z.ai 的最新开源动态/模型发布，属一手信源。",
-      "url": "https://github.com/zai-org/CogAgent",
-      "source": "GitHub · 智谱 Z.ai",
-      "tier": "T1",
-      "category": "Coding Agent",
-      "details": "An open-sourced end-to-end VLM-based GUI Agent",
       "features": [],
       "useCases": [],
       "quickStart": []
@@ -5592,6 +5716,17 @@ window.AI_GENERATED_DATA = {
   ],
   "topicResources": {
     "ai-coding": [
+      {
+        "name": "How Third Moment Research runs 10,000 agents for 36+ hours",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
+        "description": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · OpenAI Blog",
+        "url": "https://openai.com/index/third-moment-research"
+      },
       {
         "name": "Introducing Chainguard Checks: Reinventing Continuous Integr",
         "provider": "NewsData.io",
@@ -6020,20 +6155,42 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:AI coding tool",
         "url": "https://hackernoon.com/decoding-javascript-errors-beyond-the-ai-prompt"
-      },
-      {
-        "name": "SkillPulse September Community Meet: Build an AI-native work",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Bengaluru (Karnataka) [India], October 3: Enqurious hosted the SkillPulse September Community Meet in Bengaluru on 25 September 2026. Technology leaders from Ni",
-        "description": "Bengaluru (Karnataka) [India], October 3: Enqurious hosted the SkillPulse September Community Meet in Bengaluru on 25 September 2026. Technology leaders from Nike, Varaha, XCaliber",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI coding tool",
-        "url": "https://www.aninews.in/news/business/skillpulse-september-community-meet-build-an-ai-native-workforce-to-tap-a-trillion-dollar-growth-opportunity20261003134335/"
       }
     ],
     "ai-agents": [
+      {
+        "name": "Generate presentations with Amazon Bedrock AgentCore",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "This post walks you through building an AI agent system with Amazon Bedrock AgentCore that automates PowerPoint presentation creation from enterprise documents.",
+        "description": "This post walks you through building an AI agent system with Amazon Bedrock AgentCore that automates PowerPoint presentation creation from enterprise documents. A supervisor agent,",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/generate-presentations-with-amazon-bedrock-agentcore/"
+      },
+      {
+        "name": "How Tamnoon built AI-powered cloud security remediation with",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Learn how Tamnoon built Tami, an agentic cloud remediation orchestrator on Amazon Bedrock that autonomously investigates and safely remediates cloud security fi",
+        "description": "Learn how Tamnoon built Tami, an agentic cloud remediation orchestrator on Amazon Bedrock that autonomously investigates and safely remediates cloud security findings from CNAPP an",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/how-tamnoon-built-ai-powered-cloud-security-remediation-with-amazon-bedrock/"
+      },
+      {
+        "name": "Build self-improving document processing using Amazon Bedroc",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Learn how to build an agentic intelligent document processing (IDP) system using Amazon Bedrock AgentCore that classifies, extracts, validates, and learns from ",
+        "description": "Learn how to build an agentic intelligent document processing (IDP) system using Amazon Bedrock AgentCore that classifies, extracts, validates, and learns from business documents w",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/build-self-improving-document-processing-using-amazon-bedrock-agentcore/"
+      },
       {
         "name": "The EU’s next chapter in AI is agentic",
         "provider": "RSS",
@@ -6440,42 +6597,31 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2610.13663v1"
-      },
-      {
-        "name": "ToFu: Exploiting and Fuzzing the LLM-Orchestrator-Tool Trust",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Large language models (LLMs) are increasingly deployed as agents that interact with external software through tools, with an orchestration layer translating mod",
-        "description": "Large language models (LLMs) are increasingly deployed as agents that interact with external software through tools, with an orchestration layer translating model outputs into stru",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2610.13651v1"
-      },
-      {
-        "name": "Rollout-Time Intervention: Unlocking Agentic Reinforcement L",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Reinforcement learning (RL) has emerged as a key paradigm for improving large language model (LLM) agents, enabling stronger reasoning, planning, and tool-use i",
-        "description": "Reinforcement learning (RL) has emerged as a key paradigm for improving large language model (LLM) agents, enabling stronger reasoning, planning, and tool-use in interactive enviro",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2610.13438v1"
-      },
-      {
-        "name": "Web$hell: A Unified Interface for Agentic Web Access",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Large language model (LLM) agents are becoming direct users of the open web. As they take on increasingly complex and information-intensive tasks, effective web",
-        "description": "Large language model (LLM) agents are becoming direct users of the open web. As they take on increasingly complex and information-intensive tasks, effective web access is becoming ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2610.13416v1"
       }
     ],
     "ai-models": [
+      {
+        "name": "Apple unveils HomeView smart display in renewed home push",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Apple on Tuesday unveiled HomeView, a voice-driven smart display built around its revamped Siri AI assistant",
+        "description": "Apple on Tuesday unveiled HomeView, a voice-driven smart display built around its revamped Siri AI assistant",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Google Gemini",
+        "url": "https://www.thehindu.com/sci-tech/technology/apple-unveils-homeview-smart-display-in-renewed-home-push/article71582173.ece"
+      },
+      {
+        "name": "Android Auto 18 beta reveals Google’s next big car makeover",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Apart from the new UI, the platform is also preparing Gemini personalization, new font tech, and more.",
+        "description": "Apart from the new UI, the platform is also preparing Gemini personalization, new font tech, and more.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Google Gemini",
+        "url": "https://www.androidauthority.com/android-auto-18-beta-redesign-new-features-3722911/"
+      },
       {
         "name": "Security Now 1100: Booby Trapping LLMs",
         "provider": "NewsData.io",
@@ -6893,28 +7039,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · OpenAI Blog",
         "url": "https://openai.com/index/teens-learn-and-plan"
-      },
-      {
-        "name": "Introducing Playground: Create and play custom games",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Playground is a new experimental gaming platform that lets you create, play, and share custom games.",
-        "description": "Playground is a new experimental gaming platform that lets you create, play, and share custom games.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · Google AI Blog",
-        "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/"
-      },
-      {
-        "name": "LlamaIndex 发布 OpenDocRouter：一个 API 统一调用多种文档解析模型",
-        "provider": "LlamaIndex：产品、工程与评测",
-        "type": "AI 项目/工具",
-        "bestFor": "LlamaIndex 推出 OpenDocRouter 平台，通过统一 API 将文档（PDF、PNG、JPEG 或 URL）解析为 markdown，接入 Claude Opus 5.5、Gemini 3 Flash、GPT-6 Luna 等 5 个前沿模型和 MinerU2.5-Pro、PaddleOCR-VL-1",
-        "description": "LlamaIndex 推出 OpenDocRouter 平台，通过统一 API 将文档（PDF、PNG、JPEG 或 URL）解析为 markdown，接入 Claude Opus 5.5、Gemini 3 Flash、GPT-6 Luna 等 5 个前沿模型和 MinerU2.5-Pro、PaddleOCR-VL-1.6 等 5 个开源模型。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "LlamaIndex：产品、工程与评测",
-        "url": "https://www.llamaindex.ai/blog/introducing-opendocrouter"
       }
     ],
     "ai-business": [
@@ -7850,6 +7974,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-image-video": [
       {
+        "name": "AI Watch: AI safety fears grow as Anthropic, OpenAI, Google ",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "AI regulation is gathering pace as banks face tougher oversight, Google expands Gemini 4 Argon access, Apple launches its smart home hub, and OpenAI deals with ",
+        "description": "AI regulation is gathering pace as banks face tougher oversight, Google expands Gemini 4 Argon access, Apple launches its smart home hub, and OpenAI deals with fresh legal and secu",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Google Gemini",
+        "url": "https://www.cnbctv18.com/videos/technology/anthropic-self-replicating-ai-warning-google-gemini-openai-apple-artificial-intelligence-20011366.htm"
+      },
+      {
         "name": "Amazon’s $7 Billion Decart Bet Isn’t Really About AI Video. ",
         "provider": "NewsData.io",
         "type": "AI 项目/工具",
@@ -8277,20 +8412,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "India Today",
         "url": "https://www.indiatoday.in/technology/news/story/thailand-gets-a-new-passport-it-will-give-free-ai-access-to-everybody-2983821-2026-08-31"
-      },
-      {
-        "name": "Google Gemini Omni 1.1 Unveils Better 4K AI Video Tools - Te",
-        "provider": "TechGenyz",
-        "type": "AI 项目/工具",
-        "bestFor": "Connect specific first and last frames to create smooth custom video transitions.\n\nGoogle has introduced Gemini Omni 1.1 Flash, an updated multimodal model focu",
-        "description": "Connect specific first and last frames to create smooth custom video transitions.\n\nGoogle has introduced Gemini Omni 1.1 Flash, an updated multimodal model focused on giving creato",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "TechGenyz",
-        "url": "https://techgenyz.com/gemini-omni-1-1-flash-video-tool/"
       }
     ],
     "ai-research": [
+      {
+        "name": "10 Best AI SEO Tools for Founders That Actually Move The Nee",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "The AI SEO tool market has split into four capabilities - research, analysis, tracking, and writing - and the wrong pick means paying monthly for a tool that st",
+        "description": "The AI SEO tool market has split into four capabilities - research, analysis, tracking, and writing - and the wrong pick means paying monthly for a tool that stops before the work ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Google Gemini",
+        "url": "https://www.openpr.com/news/4660742/10-best-ai-seo-tools-for-founders-that-actually-move-the-needle"
+      },
       {
         "name": "Mix, Don't Tune: Bilingual Pre-Training Outperforms Hyperpar",
         "provider": "RSS",
@@ -8719,17 +8854,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:artificial intelligence",
         "url": "http://www.shanghaisun.com/news/279341653/china-outlines-sci-tech-priorities-for-2026-2030-to-underpin-high-quality-development"
-      },
-      {
-        "name": "China outlines sci-tech priorities for 2026-2030 to underpin",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "BEIJING, Sept. 30 (Xinhua) -- China will strengthen basic research, tackle core technologies and speed up the industrial application of research results during ",
-        "description": "BEIJING, Sept. 30 (Xinhua) -- China will strengthen basic research, tackle core technologies and speed up the industrial application of research results during the 15th Five-Year P",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:artificial intelligence",
-        "url": "http://www.chinanationalnews.com/news/279341653/china-outlines-sci-tech-priorities-for-2026-2030-to-underpin-high-quality-development"
       }
     ],
     "ai-office": []
@@ -10137,117 +10261,23 @@ window.AI_GENERATED_DATA = {
     }
   ],
   "dailyReport": {
-    "date": "2026-10-14",
-    "generatedAt": "2026-10-14T14:44:36.343171Z",
-    "total": 40,
+    "date": "2026-10-15",
+    "generatedAt": "2026-10-14T17:00:38.078759Z",
+    "total": 17,
     "sections": [
       {
         "category": "ai-coding",
         "label": "AI 编程",
         "items": [
           {
-            "title": "Beyond the Verdict: Agentic Code Judging with Verifiable Feedback",
-            "summary": "Test-time scaling for large language models (LLMs) can involve generating multiple candidate solutions for selection or revising an earlier ",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.18760v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-13",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Visual Tokens on Demand: Visual Budgeting for Scalable and Efficient Multi-Image Reasoning in Multimodal LLMs",
-            "summary": "Multimodal large language models have advanced rapidly, but most remain optimized for single-image inputs. Multi-image reasoning is costly b",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.18858v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-13",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Read the Room Before Your Model Generates",
-            "summary": "Large language models (LLMs) generally rely on sampling temperature to regulate the amount of randomness in their outputs. Mainstream method",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.18820v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-13",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "SP$^2$ec: Adaptive Self-Speculative Decoding for Vision-Language Models",
-            "summary": "Speculative Decoding (SD) has demonstrated its efficacy in accelerating large language model inference, but for Vision-Language Models (VLMs",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.18735v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-13",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Contextual Correction of Parallel Draftsfor Speculative Decoding",
-            "summary": "arXiv:2610.12570v1 Announce Type: new Abstract: Speculative decoding accelerates large language model inference by using a lightweight draft",
-            "source": "RSS · arXiv cs.CL",
-            "url": "https://arxiv.org/abs/2610.12570",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-13",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "SWE-Duel: Towards a Self-Scaling Arena for Coding Agents",
-            "summary": "arXiv:2610.12569v1 Announce Type: new Abstract: Static coding benchmarks are fixed at release. Over time their tasks leak into training data",
-            "source": "RSS · arXiv cs.CL",
-            "url": "https://arxiv.org/abs/2610.12569",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-13",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "AutoIndexer: Flexible-Order Decoding by Training Causal Models on Chains of Edits",
-            "summary": "arXiv:2610.12545v1 Announce Type: new Abstract: Autoregressive decoding is less suited to non-causally ordered data, e.g., cross-references ",
-            "source": "RSS · arXiv cs.CL",
-            "url": "https://arxiv.org/abs/2610.12545",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-13",
-            "publishedAt": "",
-            "reason": ""
-          }
-        ]
-      },
-      {
-        "category": "ai-image-video",
-        "label": "图像视频",
-        "items": [
-          {
-            "title": "Higgsfield takes AI video from 1 minute to over 10",
-            "summary": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
+            "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
+            "summary": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
             "source": "RSS · OpenAI Blog",
-            "url": "https://openai.com/index/higgsfield-longer-videos-voice",
+            "url": "https://openai.com/index/third-moment-research",
             "score": 70,
             "sourceCount": 1,
-            "date": "2026-10-13",
-            "publishedAt": "2026-10-13T20:00",
-            "reason": ""
-          },
-          {
-            "title": "Shipping Media Over QUIC at Meta Scale for Instagram Live Ingest",
-            "summary": "Meta has begun deploying Media over QUIC (MoQ), an emerging open protocol for real-time video streaming at scale. MoQ will help simplify our",
-            "source": "RSS · Meta Engineering",
-            "url": "https://engineering.fb.com/2026/10/12/video-engineering/shipping-media-over-quic-at-meta-scale-for-instagram-live-ingest/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-13",
-            "publishedAt": "2026-10-13T00:01",
+            "date": "2026-10-14",
+            "publishedAt": "2026-10-14T15:00",
             "reason": ""
           }
         ]
@@ -10256,6 +10286,28 @@ window.AI_GENERATED_DATA = {
         "category": "ai-agents",
         "label": "Agent / MCP",
         "items": [
+          {
+            "title": "Build self-improving document processing using Amazon Bedrock AgentCore",
+            "summary": "Learn how to build an agentic intelligent document processing (IDP) system using Amazon Bedrock AgentCore that classifies, extracts, validat",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/build-self-improving-document-processing-using-amazon-bedrock-agentcore/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-15",
+            "publishedAt": "2026-10-15T00:24",
+            "reason": ""
+          },
+          {
+            "title": "How Tamnoon built AI-powered cloud security remediation with Amazon Bedrock",
+            "summary": "Learn how Tamnoon built Tami, an agentic cloud remediation orchestrator on Amazon Bedrock that autonomously investigates and safely remediat",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/how-tamnoon-built-ai-powered-cloud-security-remediation-with-amazon-bedrock/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-14",
+            "publishedAt": "2026-10-14T21:53",
+            "reason": ""
+          },
           {
             "title": "The EU’s next chapter in AI is agentic",
             "summary": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more valu",
@@ -10301,83 +10353,6 @@ window.AI_GENERATED_DATA = {
             "reason": ""
           },
           {
-            "title": "ProAS: A Progress-Aware Advantage Shaping Framework for Multi-Turn Agentic Reinforcement Learning",
-            "summary": "Reinforcement learning (RL) has emerged as the primary paradigm for optimizing Large Language Model (LLM) agents, yet efficient critic-free ",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.18683v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-13",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "ChunkAct: Action Chunking for Agentic Robotics",
-            "summary": "Agentic robotics places a large language model (LLM) agent in the robot control loop, where it composes perception, motion, and vision-langu",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.18874v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-13",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "SkillScaffold: Scaffolding Agentic Reinforcement Learning with Policy-Adaptive Skill Credit Assignment and Selective Injection",
-            "summary": "Agentic reinforcement learning (RL) enables large language models (LLMs) to learn from multi-turn interactions with verifiable outcomes. Tex",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.18807v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-13",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "BLADE: Auditing Information Use for Failure Attribution in LLM Multi-Agent Systems",
-            "summary": "Large language model multi-agent systems extend individual agents' capabilities through collaboration across specialized roles, tools, and w",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.18780v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-13",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Reflective Prompt Optimization of a Deep-Research Agent: A Topic-Disjoint, Multi-Seed Protocol for Measuring Transferable Gains and Prompt-Level Overfitting",
-            "summary": "arXiv:2610.12601v1 Announce Type: new Abstract: Prompt optimization is an attractive alternative to reinforcement learning for adapting lang",
-            "source": "RSS · arXiv cs.CL",
-            "url": "https://arxiv.org/abs/2610.12601",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-13",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Build long-horizon agents with Grok 4.7 on Amazon Bedrock",
-            "summary": "Grok 4.7 is now available on Amazon Bedrock. In this post, we build a tool-calling agent on Grok 4.7 and evaluate it on three reasoning task",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/build-long-horizon-agents-with-grok-4-7-on-amazon-bedrock/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-13",
-            "publishedAt": "2026-10-13T23:52",
-            "reason": ""
-          },
-          {
-            "title": "How ShipStation Global built an AI IT help desk on Amazon Bedrock AgentCore",
-            "summary": "ShipStation Global's engineering team built Deckhand, an AI IT help desk agent for Slack on Amazon Bedrock AgentCore. It answers routine IT ",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/how-shipstation-global-built-an-ai-it-help-desk-on-amazon-bedrock-agentcore/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-13",
-            "publishedAt": "2026-10-13T23:54",
-            "reason": ""
-          },
-          {
             "title": "Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics",
             "summary": "Our first robotics pod with Dyna&#8217;s Chief Scientist on their big bet on World Action Models & the Next Frontier of Physical AI",
             "source": "RSS · Latent Space (swyx)",
@@ -10394,6 +10369,28 @@ window.AI_GENERATED_DATA = {
         "category": "ai-models",
         "label": "模型发布",
         "items": [
+          {
+            "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
+            "summary": "",
+            "source": "RSS · Hugging Face Blog",
+            "url": "https://huggingface.co/blog/allenai/hiro-acev2",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-15",
+            "publishedAt": "2026-10-15T00:12",
+            "reason": ""
+          },
+          {
+            "title": "Google 发布智能体审稿系统 Deep Review，支持多领域技术文档审查",
+            "summary": "Google 公开发布智能体审阅系统 Deep Review，可对复杂技术文档提供反馈与验证，最初面向计算机科学论文，现已扩展到法律、金融等领域。",
+            "source": "Google Research：Blog（网页）",
+            "url": "https://research.google/blog/analyzing-technical-documents-with-deep-review/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-14",
+            "publishedAt": "2026-10-14T08:00",
+            "reason": ""
+          },
           {
             "title": "Oct 14, 2026 Announcements Anthropic opens Singapore office and signs MOU with the Government of Singapore",
             "summary": "Oct 14, 2026 Announcements Anthropic opens Singapore office and signs MOU with the Government of Singapore",
@@ -10459,150 +10456,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-10-14",
             "publishedAt": "2026-10-14T00:01",
             "reason": ""
-          },
-          {
-            "title": "DTScribe: Generating Models for Digital Twin Reporting using Local Large Language Models",
-            "summary": "The development of a digital twin brings together many stakeholders and technical components. We have previously investigated the reporting ",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.18635v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-13",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "From Relation-Specific Heads to Shared Interventions: Contextual Entrainment in Language Models",
-            "summary": "Large language models rely on prompt context to perform in-context learning, follow formats, and adapt to local evidence. This ability, howe",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.18674v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-13",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "MultiAlloc: Budget-Aware Precision Allocation for KV Cache Quantization",
-            "summary": "The Key-Value (KV) cache constitutes a dominant source of memory consumption during large language model (LLM) inference, particularly in lo",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.18642v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-13",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "MFG: Multi-turn Feedback Guided Molecular Optimization",
-            "summary": "Multi-objective molecular optimization is a critical process in drug discovery that aims to modify a given molecule to simultaneously improv",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.18851v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-13",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Back-Translation Still Matters: Leveraging Monolingual Data for Low-Resource Machine Translation with LLMs",
-            "summary": "Pre-trained Large Language Model (LLMs) are effective on many tasks in zero-shot and few-shot settings. For machine translation of low-resou",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.18818v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-13",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Mix, Don't Tune: Bilingual Pre-Training Outperforms Hyperparameter Search in Data-Constrained Settings",
-            "summary": "For most languages of the world, language model pre-training operates in a data-constrained regime where models must repeat their training d",
-            "source": "RSS · Apple ML Research",
-            "url": "https://machinelearning.apple.com/research/mix-dont-tune",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-13",
-            "publishedAt": "2026-10-13T08:00",
-            "reason": ""
-          }
-        ]
-      },
-      {
-        "category": "ai-benchmark",
-        "label": "评测榜单",
-        "items": [
-          {
-            "title": "OmniCompass: A Holistic Benchmark for Omni-Modal Video Grounding and Understanding",
-            "summary": "With the rapid development of multimodal large language models (MLLMs), evaluating their video understanding capabilities has become increas",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.18829v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-13",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "GeopoliticalQA: Benchmarking Retrieval and Generation over Intelligence Reports",
-            "summary": "arXiv:2610.12617v1 Announce Type: new Abstract: Geopolitical and strategic intelligence reports constitute a rich source of expert knowledge",
-            "source": "RSS · arXiv cs.CL",
-            "url": "https://arxiv.org/abs/2610.12617",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-13",
-            "publishedAt": "",
-            "reason": ""
-          }
-        ]
-      },
-      {
-        "category": "ai-research",
-        "label": "论文研究",
-        "items": [
-          {
-            "title": "One Model to Loop Them All: Elastic Latent Recurrence for Language Models",
-            "summary": "arXiv:2610.12582v1 Announce Type: new Abstract: A latent recurrent language model applies a shared block of layers repeatedly, so one checkp",
-            "source": "RSS · arXiv cs.CL",
-            "url": "https://arxiv.org/abs/2610.12582",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-13",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "CLUE: A Contrastive Learning Framework for Unsupervised Event Type Induction and Annotation",
-            "summary": "arXiv:2610.12580v1 Announce Type: new Abstract: Event ontology is the foundational framework for defining events in a dataset. Event type in",
-            "source": "RSS · arXiv cs.CL",
-            "url": "https://arxiv.org/abs/2610.12580",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-13",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Self-Preservation in Language Models",
-            "summary": "arXiv:2610.12602v1 Announce Type: new Abstract: Continual learning (CL) seeks to adapt pretrained models while preserving prior capabilities",
-            "source": "RSS · arXiv cs.CL",
-            "url": "https://arxiv.org/abs/2610.12602",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-13",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Simulating student learning for better AI tutoring",
-            "summary": "StudentSim is a research system for evaluating and improving AI tutoring tools before they are tested with learners. It models how individua",
-            "source": "RSS · Microsoft Research",
-            "url": "https://www.microsoft.com/en-us/research/blog/simulating-student-learning-for-better-ai-tutoring/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-13",
-            "publishedAt": "2026-10-13T00:00",
-            "reason": ""
           }
         ]
       },
@@ -10626,6 +10479,163 @@ window.AI_GENERATED_DATA = {
     ]
   },
   "dailyReports": [
+    {
+      "date": "2026-10-14",
+      "generatedAt": "2026-10-14T16:00:53.267324Z",
+      "total": 12,
+      "sections": [
+        {
+          "category": "ai-agents",
+          "label": "Agent / MCP",
+          "items": [
+            {
+              "title": "The EU’s next chapter in AI is agentic",
+              "summary": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more valu",
+              "source": "RSS · OpenAI Blog",
+              "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-14",
+              "publishedAt": "2026-10-14T08:00",
+              "reason": ""
+            },
+            {
+              "title": "Building agents that transact with Anchor Browser and AgentCore payments",
+              "summary": "Learn how the AWS Generative AI Innovation Center Partner Agent Factory and Anchor Browser built AI agents that autonomously pay for x402-pr",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/building-agents-that-transact-with-anchor-browser-and-agentcore-payments/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-14",
+              "publishedAt": "2026-10-14T04:10",
+              "reason": ""
+            },
+            {
+              "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+              "summary": "",
+              "source": "RSS · Hugging Face Blog",
+              "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-14",
+              "publishedAt": "2026-10-14T01:05",
+              "reason": ""
+            },
+            {
+              "title": "Natural language security queries at Orca Security using Amazon Bedrock",
+              "summary": "Orca Security built Discovery AI, a natural language query agent on Amazon Bedrock that converts plain-English questions into Sonar queries.",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/natural-language-security-queries-at-orca-security-using-amazon-bedrock/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-14",
+              "publishedAt": "2026-10-14T00:03",
+              "reason": ""
+            },
+            {
+              "title": "Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics",
+              "summary": "Our first robotics pod with Dyna&#8217;s Chief Scientist on their big bet on World Action Models & the Next Frontier of Physical AI",
+              "source": "RSS · Latent Space (swyx)",
+              "url": "https://www.latent.space/p/dyna",
+              "score": 56,
+              "sourceCount": 1,
+              "date": "2026-10-14",
+              "publishedAt": "2026-10-14T06:25",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-models",
+          "label": "模型发布",
+          "items": [
+            {
+              "title": "Oct 14, 2026 Announcements Anthropic opens Singapore office and signs MOU with the Government of Singapore",
+              "summary": "Oct 14, 2026 Announcements Anthropic opens Singapore office and signs MOU with the Government of Singapore",
+              "source": "HTML · Anthropic",
+              "url": "https://www.anthropic.com/news/singapore-office-opening",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-14",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "Google DeepMind and Singapore Government announce new AI tool to protect citizens against scams",
+              "summary": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats w",
+              "source": "RSS · Google DeepMind",
+              "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-14",
+              "publishedAt": "2026-10-14T10:00",
+              "reason": ""
+            },
+            {
+              "title": "Developing Gemini 4 Argon responsibly and safely",
+              "summary": "",
+              "source": "RSS · Google DeepMind",
+              "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-14",
+              "publishedAt": "2026-10-14T03:43",
+              "reason": ""
+            },
+            {
+              "title": "Meta’s Generative Ads Model (GEM): Scaling the Central Model and Compute Engine for Frontier Ads AI",
+              "summary": "Last year, we introduced GEM, the industry’s largest recommendation system (RecSys) foundation model. GEM established Meta&#8217;s first LLM",
+              "source": "RSS · Meta Engineering",
+              "url": "https://engineering.fb.com/2026/10/13/ml-applications/generative-ads-model-gem-scaling-frontier-ads-ai/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-14",
+              "publishedAt": "2026-10-14T00:01",
+              "reason": ""
+            },
+            {
+              "title": "Google DeepMind 发布 Gemini 4 Argon 机器人模型，ERQA 基准得分 87%",
+              "summary": "Google DeepMind 发布 Gemini 4 Argon，定位为通用物理推理模型，在 Embodied Reasoning（ERQA）基准上以纯推理得分 87%，超过其他前沿模型。",
+              "source": "Google DeepMind：Blog（RSS）",
+              "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-14",
+              "publishedAt": "2026-10-14T00:01",
+              "reason": ""
+            },
+            {
+              "title": "Gemini 4 Argon: Built to solve your hardest problems",
+              "summary": "",
+              "source": "RSS · Google DeepMind",
+              "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-14",
+              "publishedAt": "2026-10-14T00:01",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-business",
+          "label": "行业商业",
+          "items": [
+            {
+              "title": "Manage private pricing offers for Amazon Bedrock with managed entitlements",
+              "summary": "Managing AI model access across dozens or hundreds of AWS accounts creates friction when each account must accept AWS Marketplace Private Pr",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/manage-private-pricing-offers-for-amazon-bedrock-with-managed-entitlements/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-14",
+              "publishedAt": "2026-10-14T01:17",
+              "reason": ""
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-10-13",
       "generatedAt": "2026-10-13T16:00:30.275438Z",
@@ -19607,272 +19617,10 @@ window.AI_GENERATED_DATA = {
           ]
         }
       ]
-    },
-    {
-      "date": "2026-08-12",
-      "generatedAt": "2026-08-12T16:00:33.270162Z",
-      "total": 21,
-      "sections": [
-        {
-          "category": "ai-tools",
-          "label": "AI 工具",
-          "items": [
-            {
-              "title": "OpenAI 和 AWS 推出网络安全防御模型 Daybreak Red 和 Daybreak Blue",
-              "summary": "OpenAI 的网络安全防御模型 Daybreak Red 和 Daybreak Blue 现已在 Amazon Bedrock 上向符合条件的客户开放。这两个模型在芯片级别实施零操作员访问，确保代码和漏洞数据的安全性，提升了网络防御的效率和安全性。",
-              "source": "RSS · AWS Machine Learning",
-              "url": "https://aws.amazon.com/blogs/machine-learning/accelerate-cyber-defense-with-openai-and-aws-daybreak-red-daybreak-blue-now-available-to-eligible-customers-on-amazon-bedrock/",
-              "score": 82,
-              "sourceCount": 2,
-              "date": "2026-08-12",
-              "publishedAt": "2026-08-12T05:38",
-              "reason": "这条信息展示了 OpenAI 在网络安全领域的最新进展，尤其是与 AWS 的合作，值得关注。"
-            },
-            {
-              "title": "Pixieset 利用 Amazon Bedrock 实现 35% AI 功能采用率",
-              "summary": "Pixieset 在短短四个月内，通过解决摄影师在图像 SEO 中的痛点，成功推出 AI 生成的替代文本功能，达成 35% 的用户采用率。这一功能自动化了摄影师通常回避的繁琐工作，同时不干扰他们的创作过程。",
-              "source": "RSS · AWS Machine Learning",
-              "url": "https://aws.amazon.com/blogs/machine-learning/how-pixieset-achieved-35-ai-feature-adoption-by-solving-the-right-problem-with-amazon-bedrock/",
-              "score": 82,
-              "sourceCount": 1,
-              "date": "2026-08-12",
-              "publishedAt": "2026-08-12T00:11",
-              "reason": "Pixieset 的成功案例展示了如何通过解决用户痛点，实现 AI 技术的有效应用，值得关注。"
-            },
-            {
-              "title": "Gemini 助力 PostgreSQL 迁移，简化数据库转换",
-              "summary": "Google Cloud 的数据库迁移服务（DMS）引入了由 Gemini 驱动的 AI 辅助代码转换功能，能够高效将 Oracle 或 SQL Server 的存储过程、触发器和自定义函数转换为 PostgreSQL PL/pgSQL 代码。这一创新显著提升了数据库迁移的速度和",
-              "source": "Google Cloud：Databases（RSS）",
-              "url": "https://cloud.google.com/blog/products/databases/accelerate-postgresql-migrations-with-gemini-in-dms",
-              "score": 67,
-              "sourceCount": 1,
-              "date": "2026-08-12",
-              "publishedAt": "2026-08-12T00:00",
-              "reason": "Gemini 的引入为数据库迁移提供了高效、准确的解决方案，极大地简化了复杂的代码转换过程，值得关注。"
-            },
-            {
-              "title": "Google 推出 AMIE 医疗 AI 系统，首次实现实时视频问诊",
-              "summary": "我注意到 Google Research 和 Google DeepMind 联手推出的 AMIE 系统，首次在临床环境中实现了实时视频问诊。这一系统基于 Gemini 和 Project Astra 构建，能够解读视觉和听觉信息，进行虚拟体格检查并实时进行诊断。临床评估者对其病",
-              "source": "Google Blog：AI（RSS）",
-              "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-08-12",
-              "publishedAt": "2026-08-12T01:00",
-              "reason": "这条信息展示了医疗 AI 在实际应用中的最新进展，特别是实时视频问诊的能力，值得关注。"
-            },
-            {
-              "title": "Gemini月活跃用户突破10亿，成为谷歌增长最快的产品",
-              "summary": "谷歌的Gemini应用每月吸引超过10亿用户，成为公司历史上增长最快的产品。这一里程碑标志着Gemini成为第14个达到10亿用户的产品，展示了其在激发创意和提高工作效率方面的强大能力。",
-              "source": "X：Sundar Pichai (@sundarpichai)",
-              "url": "https://x.com/sundarpichai/status/2087222656819241292",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-08-12",
-              "publishedAt": "2026-08-12T01:00",
-              "reason": "Gemini的快速增长和用户基础的扩大，展示了其在提升工作效率和激发创意方面的独特价值，值得关注。"
-            },
-            {
-              "title": "ChatGPT 桌面端新增智能体数据导入功能",
-              "summary": "ChatGPT 桌面应用现支持导入其他智能体的工作数据，包括项目、聊天记录、技能和插件，用户可选择自动更新功能。这一更新旨在提升工作效率，但也可能面临兼容性和数据安全等问题。",
-              "source": "X：OpenAI Developers (@OpenAIDevs)",
-              "url": "https://x.com/OpenAIDevs/status/2087242829076791392",
-              "score": 61,
-              "sourceCount": 1,
-              "date": "2026-08-12",
-              "publishedAt": "2026-08-12T02:20",
-              "reason": "这一更新为用户提供了更高效的工作方式，但在享受便利的同时，需关注潜在的兼容性和安全问题。"
-            }
-          ]
-        },
-        {
-          "category": "ai-coding",
-          "label": "AI 编程",
-          "items": [
-            {
-              "title": "First Orion 利用 Amazon Nova Act 加速 QA 自动化",
-              "summary": "我注意到 First Orion 作为一家品牌通信公司，成功从脆弱的脚本基础 UI 测试转向了基于 AI 的 QA 自动化，借助 Amazon Nova Act 实现了显著的效率提升。通过用简单的英语描述测试，而不是维护选择器基础的代码，他们缩短了 QA 周期，释放了工程师的工作",
-              "source": "RSS · AWS Machine Learning",
-              "url": "https://aws.amazon.com/blogs/machine-learning/first-orion-accelerates-qa-automation-using-amazon-nova-act/",
-              "score": 82,
-              "sourceCount": 1,
-              "date": "2026-08-12",
-              "publishedAt": "2026-08-12T00:09",
-              "reason": "这篇文章展示了如何通过 AI 技术提升 QA 测试效率，值得关注和借鉴。"
-            },
-            {
-              "title": "深入分析 GitHub Copilot 的网络流量与架构",
-              "summary": "作者通过 mitmproxy 对 VS Code 中的 GitHub Copilot 进行中间人代理拦截，揭示了其网络流量和内部架构。文章指出，许多 AI 应用基于 Electron 构建，具有相似的网络栈，探测结果可迁移至其他同类应用。作者分享了配置代理的具体步骤，帮助读者理解",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://www.lighthousenewsletter.com/p/i-put-github-copilot-behind-a-mitm",
-              "score": 63,
-              "sourceCount": 1,
-              "date": "2026-08-12",
-              "publishedAt": "2026-08-12T02:32",
-              "reason": "这篇文章通过深入的技术分析，揭示了 GitHub Copilot 的内部机制，适合希望提升开发能力的技术人员阅读。"
-            },
-            {
-              "title": "Mojo 1.0 正式发布，助力开发者生态系统",
-              "summary": "Mojo 语言在经历了自 2023 年首次发布以来的快速发展后，正式推出 1.0 版本。这一版本为开发者提供了稳定的生产环境基础，吸引了近 200 名贡献者，合并了超过 1,100 个拉取请求，修改了超过 200,000 行代码，标志着其向通用语言的转变。",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://www.modular.com/blog/modular-26-5-mojo-1-0-is-here",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-08-12",
-              "publishedAt": "2026-08-12T03:52",
-              "reason": "Mojo 1.0 的发布为开发者提供了一个高性能的编程选择，值得关注和尝试。"
-            },
-            {
-              "title": "Apple Silicon 在 macOS 虚拟机中实现 LLM 推理加速",
-              "summary": "研究团队通过为 macOS 虚拟机构建进程级兼容层，使得 llama.cpp 能够利用更新的 Metal 内核。在 M1 Ultra 上，TinyLlama 1.1B 的提示处理速度提升 11.08 倍，token 生成速度提升 16.36 倍，接近裸机性能的 98%；Gemma",
-              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-              "url": "https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md",
-              "score": 61,
-              "sourceCount": 1,
-              "date": "2026-08-12",
-              "publishedAt": "2026-08-12T00:41",
-              "reason": "这一技术突破显著提升了 LLM 在 macOS 虚拟机中的性能，为开发者提供了更高效的工具，值得关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-models",
-          "label": "模型发布",
-          "items": [
-            {
-              "title": "ONESTRUCTION 利用 AWS GenAIIC 构建 Ishigaki-IDS 基础模型",
-              "summary": "ONESTRUCTION 在 AWS Generative AI Innovation Center 的技术指导下，成功构建了 Ishigaki-IDS，这是一款专为建筑和 BIM 工作流设计的基础模型。该案例展示了他们如何结合合成数据、三阶段训练管道和可验证奖励，在数据稀缺的领",
-              "source": "RSS · AWS Machine Learning",
-              "url": "https://aws.amazon.com/blogs/machine-learning/how-onestruction-built-the-ishigaki-ids-foundation-model-with-aws-genaiic/",
-              "score": 78,
-              "sourceCount": 1,
-              "date": "2026-08-12",
-              "publishedAt": "2026-08-12T00:14",
-              "reason": "该案例展示了如何在数据稀缺的领域成功构建专业化基础模型，具有重要的行业参考价值。"
-            },
-            {
-              "title": "OpenAI 和 Google 聊天机器人均突破 10 亿用户大关",
-              "summary": "OpenAI 和 Google 的聊天机器人 ChatGPT 与 Gemini 分别在 8 月和 2 月达成月活用户超 10 亿的里程碑。OpenAI 在 8 月 6 日的博文中确认 ChatGPT 月活用户已超 10 亿，而 Google CEO 皮查伊则宣布 Gemini 成",
-              "source": "The Verge：AI（RSS）",
-              "url": "https://www.theverge.com/ai-artificial-intelligence/978113/chatgpt-gemini-1-billion-users",
-              "score": 67,
-              "sourceCount": 1,
-              "date": "2026-08-12",
-              "publishedAt": "2026-08-12T03:41",
-              "reason": "这一事件标志着 AI 聊天工具的用户增长进入新阶段，值得关注其对市场的深远影响。"
-            },
-            {
-              "title": "AI 写作能力的反思：何时才能超越人类？",
-              "summary": "在完成一本关于 RLHF 的教科书后，作者反思了当前 AI 模型在长篇非虚构写作上的局限性。尽管 GPT 4.5 和 Kimi K2 等模型在某些任务上表现出色，但在组织和呈现复杂内容时仍显混乱，阻碍了它们在科学问题上的自主解决能力。",
-              "source": "Nathan Lambert：Interconnects（RSS）",
-              "url": "https://www.interconnects.ai/p/i-wrote-an-ai-textbook-how-long-until",
-              "score": 63,
-              "sourceCount": 1,
-              "date": "2026-08-12",
-              "publishedAt": "2026-08-12T21:01",
-              "reason": "这篇反思文章深入探讨了 AI 模型在写作能力上的不足，尤其是在科学领域的应用，值得关注。"
-            },
-            {
-              "title": "Meta 开源 Muse Glimmer 模型正式上线 OpenRouter",
-              "summary": "Meta AI 超级智能实验室推出的首个开放权重模型 Muse Glimmer 已在 OpenRouter 上线。这款 30B 密集文本与图像模型采用 Apache 2.0 许可证，旨在成为可靠的本地智能体，MCP Atlas 得分 75.5，SWE-Bench Pro 得分 5",
-              "source": "X：OpenRouter (@OpenRouter)",
-              "url": "https://x.com/OpenRouter/status/2087509478480765218",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-08-12",
-              "publishedAt": "2026-08-12T20:00",
-              "reason": "Muse Glimmer 的开放性和高性能使其成为开发多模态应用的理想选择，值得关注。"
-            },
-            {
-              "title": "LTX-2.5 模型发布：6.8 秒生成 10 秒 720P 视频",
-              "summary": "LTX 最新推出的 LTX-2.5 模型，结合 ComfyUI，能够在两张英伟达 GB200 显卡的支持下，仅需 6.8 秒便可生成 10 秒的 720P 视频。该模型的使用成本为每秒 0.09 美元，适合年收入低于 1,000 万美元的组织免费使用，具有较高的性价比。",
-              "source": "IT之家（RSS）",
-              "url": "https://www.ithome.com/0/988/766.htm",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-08-12",
-              "publishedAt": "2026-08-12T14:46",
-              "reason": "LTX-2.5 模型以其高效的生成速度和灵活的使用政策，特别适合小型企业和创作者，是视频内容制作的理想选择。"
-            }
-          ]
-        },
-        {
-          "category": "ai-research",
-          "label": "论文研究",
-          "items": [
-            {
-              "title": "AMIE 进阶：实现专家级音视频临床咨询",
-              "summary": "我注意到，Google 研究团队正在推进 AMIE 项目，旨在提升音视频临床咨询的质量。这个项目结合了最新的 AI 技术，能够帮助医生更高效地进行诊断和治疗。通过音视频的实时交互，医生可以更好地理解患者的情况，从而提供更精准的医疗建议。",
-              "source": "RSS · Google Research",
-              "url": "https://research.google/blog/advancing-amie-towards-expert-level-audio-visual-clinical-consultations/",
-              "score": 84,
-              "sourceCount": 1,
-              "date": "2026-08-12",
-              "publishedAt": "2026-08-12T01:04",
-              "reason": "AMIE 项目通过结合音视频技术与 AI，显著提升了医疗咨询的质量和效率，值得关注。"
-            },
-            {
-              "title": "闭环 LLM 辅助数字农业的应用研究",
-              "summary": "本研究探讨了大型语言模型（LLMs）在复杂生物系统中的应用，逐步从数据分析发展到自主的 AI 引导实验。该框架基于 49 通道植物传感器网络的数据，涵盖多光谱、电化学和介电模式。为提高可访问性，系统为专家和非专家提供实时自然语言解释。",
-              "source": "RSS · arXiv cs.AI",
-              "url": "https://arxiv.org/abs/2608.09949",
-              "score": 82,
-              "sourceCount": 1,
-              "date": "2026-08-12",
-              "publishedAt": "",
-              "reason": "该研究展示了 LLM 在农业领域的创新应用，具有重要的实用价值和研究意义。"
-            },
-            {
-              "title": "亚马逊自动推理组十年回顾：从学术研究到生产服务",
-              "summary": "亚马逊于2016年成立的自动推理组（ARG）在过去十年中，将数学逻辑从学术研究转变为处理数十亿查询的生产系统，确保AWS基础设施的数学正确性。该组的工具如Tiros和Zelkova演变为包括IAM Access Analyzer和Amazon Inspector等客户服务，数百万",
-              "source": "RSS · Amazon Science",
-              "url": "https://www.amazon.science/blog/a-decade-of-mathematical-certainty-reflections-on-the-automated-reasoning-group",
-              "score": 82,
-              "sourceCount": 1,
-              "date": "2026-08-12",
-              "publishedAt": "2026-08-12T00:22",
-              "reason": "这篇文章深入探讨了自动推理组如何将数学逻辑应用于实际生产环境，展示了其在云计算安全中的重要性。"
-            },
-            {
-              "title": "Google 推出 AMIE：实时临床视频咨询的医疗 AI 系统",
-              "summary": "这次发布的核心点是 Google 的 AMIE 系统在模拟环境中展示了实时临床视频咨询的能力。该系统基于多代理架构，能够解读视觉和听觉线索，进行虚拟体检，并实时进行诊断推理。尽管仍处于研究阶段，但 AMIE 为未来健康 AI 的发展提供了令人兴奋的前景。",
-              "source": "RSS · Google AI Blog",
-              "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/",
-              "score": 78,
-              "sourceCount": 1,
-              "date": "2026-08-12",
-              "publishedAt": "2026-08-12T01:00",
-              "reason": "AMIE 系统展示了医疗 AI 在实时视频咨询中的潜力，值得关注其未来的发展和应用。"
-            },
-            {
-              "title": "研究人员揭露OpenAI、Anthropic和Google等AI模型API漏洞",
-              "summary": "由Alexander Panfilov领导的研究团队发现，OpenAI、Anthropic和Google等主要AI提供商的API存在严重漏洞，允许读取模型的加密推理过程。通过对约7000条公开会话的扫描，研究人员发现62个API密钥、33个邮箱和33个密码，且通过越狱手段，Ant",
-              "source": "The Decoder：AI News（RSS）",
-              "url": "https://the-decoder.com/but-marinade-and-leaked-passwords-are-what-researchers-found-in-chatgpts-hidden-reasoning",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-08-12",
-              "publishedAt": "2026-08-12T01:38",
-              "reason": "这条信息揭示了AI模型API的安全隐患，值得关注以防止潜在的数据泄露风险。"
-            },
-            {
-              "title": "Ryan Greenblatt：2032年前人类级AI可能催生失控超级智能",
-              "summary": "在与Dwarkesh Patel的对话中，Redwood Research首席科学家Ryan Greenblatt探讨了递归自我改进（RSI）的潜力。他认为，一旦AI达到人类顶级专家的水平，可能在短短一年内实现相当于4-5年的进展，预计2031年将实现自动化AI研发。然而，这一进",
-              "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
-              "url": "https://www.dwarkesh.com/p/ryan-greenblatt",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-08-12",
-              "publishedAt": "2026-08-12T00:31",
-              "reason": "这次讨论揭示了递归自我改进对AI未来发展的深远影响，值得关注其潜在风险与伦理挑战。"
-            }
-          ]
-        }
-      ]
     }
   ],
   "llmLeaderboard": {
-    "updated": "2026-10-14",
+    "updated": "2026-10-15",
     "source": "ReLE 中文大模型能力评测（综合能力）",
     "sourceUrl": "https://github.com/jeinlee1991/chinese-llm-benchmark",
     "items": [
