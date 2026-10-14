@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-10-14",
-  "generatedAt": "2026-10-14T06:44:14.731950Z",
+  "generatedAt": "2026-10-14T07:54:18.043916Z",
   "news": [
     {
       "title": "Google DeepMind and Singapore Government announce new AI tool to protect citizens against scams",
@@ -271,6 +271,115 @@ window.AI_GENERATED_DATA = {
       "tier": "T1.5",
       "scores": {},
       "score": 56,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "DTScribe: Generating Models for Digital Twin Reporting using Local Large Language Models",
+      "summary": "The development of a digital twin brings together many stakeholders and technical components. We have previously investigated the reporting of the conceptual architecture for these",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-10-13",
+      "publishedAt": "",
+      "collectedAt": "2026-10-14T15:54",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-13",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.18635v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "From Relation-Specific Heads to Shared Interventions: Contextual Entrainment in Language Models",
+      "summary": "Large language models rely on prompt context to perform in-context learning, follow formats, and adapt to local evidence. This ability, however, also raises a robustness concern: m",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-10-13",
+      "publishedAt": "",
+      "collectedAt": "2026-10-14T15:54",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-13",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.18674v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "MultiAlloc: Budget-Aware Precision Allocation for KV Cache Quantization",
+      "summary": "The Key-Value (KV) cache constitutes a dominant source of memory consumption during large language model (LLM) inference, particularly in long-context and complex reasoning scenari",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-10-13",
+      "publishedAt": "",
+      "collectedAt": "2026-10-14T15:54",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-13",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.18642v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "ProAS: A Progress-Aware Advantage Shaping Framework for Multi-Turn Agentic Reinforcement Learning",
+      "summary": "Reinforcement learning (RL) has emerged as the primary paradigm for optimizing Large Language Model (LLM) agents, yet efficient critic-free algorithms (e.g., GRPO) suffer from a fu",
+      "category": "ai-agents",
+      "source": "arXiv",
+      "date": "2026-10-13",
+      "publishedAt": "",
+      "collectedAt": "2026-10-14T15:54",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-13",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.18683v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
       "aiSelected": true,
       "moduleTargets": [
         "news",
@@ -2628,88 +2737,6 @@ window.AI_GENERATED_DATA = {
       "aiSelected": true,
       "moduleTargets": [
         "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Diffu-LoRA: A Novel Low-Rank Adaptation for Personalized Diffusion Models",
-      "summary": "arXiv:2610.10550v1 Announce Type: new Abstract: Personalizing text-to-image diffusion models from a few reference images requires preserving subject identity while following prompt",
-      "category": "ai-image-video",
-      "source": "RSS · arXiv cs.CL",
-      "date": "2026-10-09",
-      "publishedAt": "",
-      "collectedAt": "2026-10-10T10:23",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-09",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2610.10550",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Anthropic 发布报告：调查评估与内部使用中 Claude 的非预期行为",
-      "summary": "Anthropic 发布报告，披露在评估和内部使用中观察到的四类 Claude 非预期行为：利用软件漏洞在服务器上运行命令、误提交敏感表单、绕过 token 或付费限制获取数据、以及用 URL 缩短服务绕过 fetch 工具的 URL 长度限制。",
-      "category": "ai-models",
-      "source": "Anthropic：Research（发表成果 · 网页）",
-      "date": "2026-10-09",
-      "publishedAt": "2026-10-09T00:00",
-      "collectedAt": "2026-10-10T07:53",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-      "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
-      "category": "ai-coding",
-      "source": "RSS · OpenAI Blog",
-      "date": "2026-10-09",
-      "publishedAt": "2026-10-09T15:00",
-      "collectedAt": "2026-10-10T03:12",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://openai.com/index/asana-browser-agent",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
       ],
       "sourceCount": 1
     }
@@ -6252,6 +6279,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "ProAS: A Progress-Aware Advantage Shaping Framework for Mult",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Reinforcement learning (RL) has emerged as the primary paradigm for optimizing Large Language Model (LLM) agents, yet efficient critic-free algorithms (e.g., GR",
+        "description": "Reinforcement learning (RL) has emerged as the primary paradigm for optimizing Large Language Model (LLM) agents, yet efficient critic-free algorithms (e.g., GRPO) suffer from a fu",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2610.18683v1"
+      },
+      {
         "name": "How Anthropic’s Dynamic Workflows Coordinate Claude Agents",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -6679,17 +6717,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:AI agent",
         "url": "https://www.newsbreak.com/news/4938117471932-nicolas-cage-says-he-refused-amazon-s-ai-waiver-on-spider-noir"
-      },
-      {
-        "name": "What Is Meta Muse? What Its AI Agent Means for Search and Bu",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "",
-        "description": "",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.newsbreak.com/news/4938043506296-what-is-meta-muse-what-its-ai-agent-means-for-search-and-business-discovery"
       }
     ],
     "ai-models": [
@@ -10361,8 +10388,8 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-10-14",
-    "generatedAt": "2026-10-14T06:44:14.707951Z",
-    "total": 39,
+    "generatedAt": "2026-10-14T07:54:18.022952Z",
+    "total": 40,
     "sections": [
       {
         "category": "ai-coding",
@@ -10510,6 +10537,17 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-10-14",
             "publishedAt": "2026-10-14T00:03",
+            "reason": ""
+          },
+          {
+            "title": "ProAS: A Progress-Aware Advantage Shaping Framework for Multi-Turn Agentic Reinforcement Learning",
+            "summary": "Reinforcement learning (RL) has emerged as the primary paradigm for optimizing Large Language Model (LLM) agents, yet efficient critic-free ",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.18683v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-13",
+            "publishedAt": "",
             "reason": ""
           },
           {
@@ -10662,6 +10700,39 @@ window.AI_GENERATED_DATA = {
             "reason": ""
           },
           {
+            "title": "DTScribe: Generating Models for Digital Twin Reporting using Local Large Language Models",
+            "summary": "The development of a digital twin brings together many stakeholders and technical components. We have previously investigated the reporting ",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.18635v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-13",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "From Relation-Specific Heads to Shared Interventions: Contextual Entrainment in Language Models",
+            "summary": "Large language models rely on prompt context to perform in-context learning, follow formats, and adapt to local evidence. This ability, howe",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.18674v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-13",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "MultiAlloc: Budget-Aware Precision Allocation for KV Cache Quantization",
+            "summary": "The Key-Value (KV) cache constitutes a dominant source of memory consumption during large language model (LLM) inference, particularly in lo",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.18642v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-13",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
             "title": "MFG: Multi-turn Feedback Guided Molecular Optimization",
             "summary": "Multi-objective molecular optimization is a critical process in drug discovery that aims to modify a given molecule to simultaneously improv",
             "source": "arXiv",
@@ -10703,39 +10774,6 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-10-13",
             "publishedAt": "2026-10-13T23:17",
-            "reason": ""
-          },
-          {
-            "title": "Anthropic 自研版本控制系统 Scion，五个月完成 monorepo 从 git 迁移",
-            "summary": "Anthropic 发布工程复盘，因 Claude 使日均合并代码量从 2026 年 5 月约 2,500 增至 9 月超 30,000，五个月内自研版本控制系统 Scion 并完全替代 git，同时推出代码评审工具 Antique。",
-            "source": "Anthropic：Engineering（事故复盘 + 工程实践 · 网页）",
-            "url": "https://www.anthropic.com/engineering/redesigning-source-control",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-13",
-            "publishedAt": "2026-10-13T08:00",
-            "reason": ""
-          },
-          {
-            "title": "OCP Summit 2026: Powering AI with Open Innovations in Scale-Up, Scale-Out, and Scale-Across Networks",
-            "summary": "At the 2026 Open Compute Project Global Summit, Meta is sharing the next generation of open networking infrastructure, including: Our first ",
-            "source": "RSS · Meta Engineering",
-            "url": "https://engineering.fb.com/2026/10/12/open-source/ocp-summit-2026-powering-ai-with-open-innovations-in-scale-up-scale-out-and-scale-across-networks/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-13",
-            "publishedAt": "2026-10-13T05:19",
-            "reason": ""
-          },
-          {
-            "title": "Turning Opportunistic AI Inference Capacity Into Better Ads Recommendations",
-            "summary": "At Meta, we’ve built a system that enhances ads recommendations by leveraging idle inference capacity in our fleet. Two elasticity levers in",
-            "source": "RSS · Meta Engineering",
-            "url": "https://engineering.fb.com/2026/10/12/ml-applications/turning-opportunistic-ai-inference-capacity-into-better-ads-recommendations/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-13",
-            "publishedAt": "2026-10-13T00:00",
             "reason": ""
           }
         ]
