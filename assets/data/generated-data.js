@@ -1,7 +1,34 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-10-15",
-  "generatedAt": "2026-10-14T19:05:35.177440Z",
+  "generatedAt": "2026-10-14T22:11:04.952593Z",
   "news": [
+    {
+      "title": "Claude Code 空闲压缩从摘要继续，可用 idleCompaction 关闭并自定义阈值",
+      "summary": "Claude Code 的空闲压缩会让 Claude 从摘要而非完整上下文继续。作者说明可在 settings. 中设置 \"idleCompaction\": false 关闭，并通过 CLAUDE_CODE_IDLE_COMPACT_MIN_TOKENS 自定义阈值，默认为 200k。",
+      "category": "ai-coding",
+      "source": "X：Lydia Hallie（Anthropic，Claude Code） (@lydiahallie)",
+      "date": "2026-10-15",
+      "publishedAt": "2026-10-15T05:36",
+      "collectedAt": "2026-10-15T06:11",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://x.com/lydiahallie/status/2110484841926152622",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Research@ 2026: 10 ways we're amplifying human ingenuity",
       "summary": "General Science",
@@ -109,6 +136,33 @@ window.AI_GENERATED_DATA = {
       "moduleTargets": [
         "news",
         "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Oct 14, 2026 Policy Preparing for the 2026 US midterms",
+      "summary": "Oct 14, 2026 Policy Preparing for the 2026 US midterms",
+      "category": "ai-models",
+      "source": "HTML · Anthropic",
+      "date": "2026-10-14",
+      "publishedAt": "",
+      "collectedAt": "2026-10-15T04:07",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-14",
+      "tags": [],
+      "url": "https://www.anthropic.com/news/2026-us-midterms",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
       ],
       "sourceCount": 1
     },
@@ -2686,34 +2740,6 @@ window.AI_GENERATED_DATA = {
       "sourceDate": "2026-10-09",
       "tags": [],
       "url": "http://arxiv.org/abs/2610.13438v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Web$hell: A Unified Interface for Agentic Web Access",
-      "summary": "Large language model (LLM) agents are becoming direct users of the open web. As they take on increasingly complex and information-intensive tasks, effective web access is becoming ",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-10-09",
-      "publishedAt": "",
-      "collectedAt": "2026-10-12T09:30",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-09",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.13416v1",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -6269,6 +6295,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "Meta 的 Muse Wonder (Max) 以 +6.4% 净提升进入 Agent Arena 第12名",
+        "provider": "X：Arena (@arena)",
+        "type": "AI 项目/工具",
+        "bestFor": "Arena 发布基于超过 5000 次真实智能体会话的评测结果，Meta 的 Muse Wonder (Max) 进入 Agent Arena 第12名，净提升 +6.4%，比 Muse Spark 1.3 (Max) 高 +2.8 分并上升四位。",
+        "description": "Arena 发布基于超过 5000 次真实智能体会话的评测结果，Meta 的 Muse Wonder (Max) 进入 Agent Arena 第12名，净提升 +6.4%，比 Muse Spark 1.3 (Max) 高 +2.8 分并上升四位。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "X：Arena (@arena)",
+        "url": "https://x.com/arena/status/2110465487914295770"
+      },
+      {
         "name": "LangChain 详解 Deep Agents 的上下文工程：如何记住信息而不塞满上下文窗口",
         "provider": "LangChain：Blog（RSS）",
         "type": "AI 项目/工具",
@@ -6696,17 +6733,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · Apple ML Research",
         "url": "https://machinelearning.apple.com/research/self-compacting-language-agents"
-      },
-      {
-        "name": "Meta Muse Wonder 系列上线 Agent Arena，分数即将公布",
-        "provider": "X：Arena (@arena)",
-        "type": "AI 项目/工具",
-        "bestFor": "Arena 宣布 Meta 的 Muse Wonder 系列模型上线 Agent Arena，用户可实测，分数即将公布。",
-        "description": "Arena 宣布 Meta 的 Muse Wonder 系列模型上线 Agent Arena，用户可实测，分数即将公布。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "X：Arena (@arena)",
-        "url": "https://x.com/arena/status/2109706854700044523"
       }
     ],
     "ai-models": [
@@ -10372,13 +10398,24 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-10-15",
-    "generatedAt": "2026-10-14T19:05:35.156370Z",
-    "total": 21,
+    "generatedAt": "2026-10-14T22:11:04.927588Z",
+    "total": 23,
     "sections": [
       {
         "category": "ai-coding",
         "label": "AI 编程",
         "items": [
+          {
+            "title": "Claude Code 空闲压缩从摘要继续，可用 idleCompaction 关闭并自定义阈值",
+            "summary": "Claude Code 的空闲压缩会让 Claude 从摘要而非完整上下文继续。作者说明可在 settings. 中设置 \"idleCompaction\": false 关闭，并通过 CLAUDE_CODE_IDLE_COMPACT_MIN_TOKENS 自定义阈值，默认为 20",
+            "source": "X：Lydia Hallie（Anthropic，Claude Code） (@lydiahallie)",
+            "url": "https://x.com/lydiahallie/status/2110484841926152622",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-15",
+            "publishedAt": "2026-10-15T05:36",
+            "reason": ""
+          },
           {
             "title": "Amp puts AI agents to work beyond code with OpenAI models",
             "summary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
@@ -10510,6 +10547,17 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-10-15",
             "publishedAt": "2026-10-15T00:12",
+            "reason": ""
+          },
+          {
+            "title": "Oct 14, 2026 Policy Preparing for the 2026 US midterms",
+            "summary": "Oct 14, 2026 Policy Preparing for the 2026 US midterms",
+            "source": "HTML · Anthropic",
+            "url": "https://www.anthropic.com/news/2026-us-midterms",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-14",
+            "publishedAt": "",
             "reason": ""
           },
           {
