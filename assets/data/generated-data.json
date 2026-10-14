@@ -1,7 +1,35 @@
 {
   "lastUpdated": "2026-10-14",
-  "generatedAt": "2026-10-14T12:25:41.369682Z",
+  "generatedAt": "2026-10-14T14:44:36.364170Z",
   "news": [
+    {
+      "title": "The EU’s next chapter in AI is agentic",
+      "summary": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
+      "category": "ai-agents",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-10-14",
+      "publishedAt": "2026-10-14T08:00",
+      "collectedAt": "2026-10-14T22:44",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Oct 14, 2026 Announcements Anthropic opens Singapore office and signs MOU with the Government of Singapore",
       "summary": "Oct 14, 2026 Announcements Anthropic opens Singapore office and signs MOU with the Government of Singapore",
@@ -5565,6 +5593,17 @@
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Introducing Chainguard Checks: Reinventing Continuous Integr",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "(MENAFN - PR Newswire) New approach to software development moves verification into the development loop, giving developers and AI agents trusted results in sec",
+        "description": "(MENAFN - PR Newswire) New approach to software development moves verification into the development loop, giving developers and AI agents trusted results in seconds, before code ev",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://menafn.com/1111804997/Introducing-Chainguard-Checks-Reinventing-Continuous-Integration-For-The-Agentic-Era"
+      },
+      {
         "name": "Beyond the Verdict: Agentic Code Judging with Verifiable Fee",
         "provider": "arXiv",
         "type": "AI 项目/工具",
@@ -5992,20 +6031,97 @@
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:AI coding tool",
         "url": "https://www.aninews.in/news/business/skillpulse-september-community-meet-build-an-ai-native-workforce-to-tap-a-trillion-dollar-growth-opportunity20261003134335/"
-      },
-      {
-        "name": "Baseten 工程师实测：LLM 生成的推理引擎比 vLLM 快最多 90%",
-        "provider": "Baseten 工程博客（网页）",
-        "type": "AI 项目/工具",
-        "bestFor": "Baseten 工程师参考 MetaInfer 论文，让 Claude Code（Fable 5）为 Qwen-3.6-35B-A3B（NVFP4，单张 B200）自动构建推理引擎 VibeQwen，单流解码比 vLLM 0.25.1 快 90%，首 token 从 28ms 降至 12ms，并发 32 时吞吐高 71",
-        "description": "Baseten 工程师参考 MetaInfer 论文，让 Claude Code（Fable 5）为 Qwen-3.6-35B-A3B（NVFP4，单张 B200）自动构建推理引擎 VibeQwen，单流解码比 vLLM 0.25.1 快 90%，首 token 从 28ms 降至 12ms，并发 32 时吞吐高 71%。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Baseten 工程博客（网页）",
-        "url": "https://www.baseten.co/blog/agentic-inference-optimization-faster-than-sota/"
       }
     ],
     "ai-agents": [
+      {
+        "name": "The EU’s next chapter in AI is agentic",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
+        "description": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · OpenAI Blog",
+        "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic"
+      },
+      {
+        "name": "Renters and home buyers are seeing AI-‘enhanced’ property ph",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "A photograph of a house is supposed to tell you what a house looks like. That sounds obvious. But increasingly, it’s becoming a question, rather than",
+        "description": "A photograph of a house is supposed to tell you what a house looks like. That sounds obvious. But increasingly, it’s becoming a question, rather than",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.nationaltribune.com.au/renters-and-home-buyers-are-seeing-ai-enhanced-property-photos-now-nsw-is-changing-the-rules/"
+      },
+      {
+        "name": "FBI arrests Saudi OpenAI engineer over covert recording devi",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Accused allegedly hid thumb-sized device in company's executive conference room, faces five years in prison",
+        "description": "Accused allegedly hid thumb-sized device in company's executive conference room, faces five years in prison",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://tribune.com.pk/story/2634767/fbi-arrests-saudi-openai-engineer-over-covert-recording-device-doj-says"
+      },
+      {
+        "name": "Introducing Chainguard Workspaces: Hardened, Hardware-Isolat",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "(MENAFN - PR Newswire) Hardware-isolated, credential-free microVMs built from zero-CVE Chainguard OS Packages give security and platform teams a safe way to run",
+        "description": "(MENAFN - PR Newswire) Hardware-isolated, credential-free microVMs built from zero-CVE Chainguard OS Packages give security and platform teams a safe way to run fleets of agents at",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://menafn.com/1111804966/Introducing-Chainguard-Workspaces-Hardened-Hardware-Isolated-Environments-For-Faster-Agentic-Development"
+      },
+      {
+        "name": "NSW Changes Rules for AI-Enhanced Property Photos",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "A photograph of a house is supposed to tell you what a house looks like. That sounds obvious. But increasingly, it's becoming a question, rather than",
+        "description": "A photograph of a house is supposed to tell you what a house looks like. That sounds obvious. But increasingly, it's becoming a question, rather than",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.miragenews.com/nsw-changes-rules-for-ai-enhanced-property-1759895/"
+      },
+      {
+        "name": "Nearly 70% Of Software And AI Companies Have Adopted Forward",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "(MENAFN - GlobeNewsWire - Nasdaq) New study of 133 software and AI companies highlights growing FDE adoption, stronger outcome accountability, and rising demand",
+        "description": "(MENAFN - GlobeNewsWire - Nasdaq) New study of 133 software and AI companies highlights growing FDE adoption, stronger outcome accountability, and rising demand for technically ski",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://menafn.com/1111804994/Nearly-70-Of-Software-And-AI-Companies-Have-Adopted-Forward-Deployed-Engineering-Goodfirms-Study-Finds"
+      },
+      {
+        "name": "Microsoft’s Brad Smith calls for ‘real and effective’ AI saf",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Concerns over AI safety have intensified following security incidents involving OpenAI and Anthropic models during testing, increasing pressure for tighter regu",
+        "description": "Concerns over AI safety have intensified following security incidents involving OpenAI and Anthropic models during testing, increasing pressure for tighter regulation.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.freemalaysiatoday.com/category/business/2026/10/14/microsoft-s-brad-smith-calls-for-real-and-effective-ai-safety-standards"
+      },
+      {
+        "name": "OPPO Partners with Manus to Bring Agentic AI Experiences to ",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "SHENZHEN, CHINA - Media OutReach Newswire - 13 October 2026 - Global smart device brand OPPO today announced a collaboration with Manus, a leading AI agent plat",
+        "description": "SHENZHEN, CHINA - Media OutReach Newswire - 13 October 2026 - Global smart device brand OPPO today announced a collaboration with Manus, a leading AI agent platform, to bring next-",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.riauone.com/global/OPPO-Partners-with-Manus-to-Bring-Agentic-AI-Experiences-to-Smartphones"
+      },
       {
         "name": "ProAS: A Progress-Aware Advantage Shaping Framework for Mult",
         "provider": "arXiv",
@@ -6357,97 +6473,42 @@
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2610.13416v1"
-      },
+      }
+    ],
+    "ai-models": [
       {
-        "name": "Agentic Large Language Models",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Large language models (LLMs) have taken the world by storm. Their ability to communicate with us in our own language, and to reason about our world, has made th",
-        "description": "Large language models (LLMs) have taken the world by storm. Their ability to communicate with us in our own language, and to reason about our world, has made them a favorite tool f",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2610.13455v1"
-      },
-      {
-        "name": "EviRepair: Evidence-Driven Agents for Reliable Vulnerability",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Recent advances in large language models (LLMs) have enabled agent-based approaches for repository-level automated vulnerability repair (AVR), showing promising",
-        "description": "Recent advances in large language models (LLMs) have enabled agent-based approaches for repository-level automated vulnerability repair (AVR), showing promising repair capabilities",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2610.13491v1"
-      },
-      {
-        "name": "Proactive Agentic Orchestration",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Agentic orchestration delegates tasks to sub-agents with independent contexts, providing a key path to extending the effective execution horizon of large langua",
-        "description": "Agentic orchestration delegates tasks to sub-agents with independent contexts, providing a key path to extending the effective execution horizon of large language model agents. How",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2610.13485v1"
-      },
-      {
-        "name": "Politics, Philosophy and Economics",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "The Politics, Philosophy and Economics (PPE) degree is based on the view that, to understand public phenomena, one must approach them from several disciplinary ",
-        "description": "The Politics, Philosophy and Economics (PPE) degree is based on the view that, to understand public phenomena, one must approach them from several disciplinary directions. This deg",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.qub.ac.uk/courses/undergraduate/politics-philosophy-economics-ba-lv00/"
-      },
-      {
-        "name": "8 Action Movies That Are Even Better on Rewatch",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Action movies have always been a popular mainstay of cinema, and with good reason. Featuring exciting set pieces designed for maximum thrill, these films a",
-        "description": "Action movies have always been a popular mainstay of cinema, and with good reason. Featuring exciting set pieces designed for maximum thrill, these films a",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.newsbreak.com/news/4937985354449-8-action-movies-that-are-even-better-on-rewatch"
-      },
-      {
-        "name": "The rise of AI personal assistants and the battle for users'",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Meta Connect recently unveiled Muse Charm, which serves as a personal AI assistant for users. This device can interact with emails, calendars, and other service",
-        "description": "Meta Connect recently unveiled Muse Charm, which serves as a personal AI assistant for users. This device can interact with emails, calendars, and other services to streamline life",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.inkl.com/news/the-rise-of-ai-personal-assistants-and-the-battle-for-users-trust"
-      },
-      {
-        "name": "8 seriously annoying tasks you can hand off to an AI agent",
+        "name": "Security Now 1100: Booby Trapping LLMs",
         "provider": "NewsData.io",
         "type": "AI 项目/工具",
         "bestFor": "",
         "description": "",
         "useCases": [],
         "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.newsbreak.com/news/4938188226652-8-seriously-annoying-tasks-you-can-hand-off-to-an-ai-agent"
+        "sourceName": "NewsData.io:open source LLM",
+        "url": "https://twit.tv/shows/security-now/episodes/1100"
       },
       {
-        "name": "Nicolas Cage Says He Refused Amazon’s AI Waiver on Spider-No",
+        "name": "ChatGPT’s Judgment: How AI Gatekeepers Now Shape Brand Reput",
         "provider": "NewsData.io",
         "type": "AI 项目/工具",
-        "bestFor": "Nicolas Cage said Saturday at New York Comic Con that he did not sign a waiver allowing AI use on Spider-Noir and will probably not work with Amazon again,",
-        "description": "Nicolas Cage said Saturday at New York Comic Con that he did not sign a waiver allowing AI use on Spider-Noir and will probably not work with Amazon again,",
+        "bestFor": "AI assistants like ChatGPT, Perplexity and Gemini now deliver the first impression for millions of brands in synthesized paragraphs drawn from disparate web sou",
+        "description": "AI assistants like ChatGPT, Perplexity and Gemini now deliver the first impression for millions of brands in synthesized paragraphs drawn from disparate web sources. Different mode",
         "useCases": [],
         "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.newsbreak.com/news/4938117471932-nicolas-cage-says-he-refused-amazon-s-ai-waiver-on-spider-noir"
-      }
-    ],
-    "ai-models": [
+        "sourceName": "NewsData.io:open source LLM",
+        "url": "https://www.webpronews.com/chatgpts-judgment-how-ai-gatekeepers-now-shape-brand-reputations/"
+      },
+      {
+        "name": "Lovable 推出增长工具，从同一聊天窗口帮你获客投广告和做 SEO",
+        "provider": "Lovable Blog",
+        "type": "AI 项目/工具",
+        "bestFor": "Lovable 推出增长工具，在原有建应用聊天窗口中提供增长计划、广告投放和 SEO 能力。用户设定目标后，Lovable 依据应用上下文生成可执行计划；可连接 Google Ads 和 Meta 账号在 Google。",
+        "description": "Lovable 推出增长工具，在原有建应用聊天窗口中提供增长计划、广告投放和 SEO 能力。用户设定目标后，Lovable 依据应用上下文生成可执行计划；可连接 Google Ads 和 Meta 账号在 Google。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Lovable Blog",
+        "url": "https://lovable.dev/blog/introducing-growth-tools"
+      },
       {
         "name": "AI Just Took Over 911 Training in Groundbreaking First",
         "provider": "NewsData.io",
@@ -6854,39 +6915,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "LlamaIndex：产品、工程与评测",
         "url": "https://www.llamaindex.ai/blog/introducing-opendocrouter"
-      },
-      {
-        "name": "AI wardrobe assistant: Using LLMs for proportion analysis, i",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Artificial intelligence platforms like ChatGPT, Claude, and Gemini are rapidly evolving beyond their initial roles as text-generation tools. They are now provin",
-        "description": "Artificial intelligence platforms like ChatGPT, Claude, and Gemini are rapidly evolving beyond their initial roles as text-generation tools. They are now proving to be practical as",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:Claude AI",
-        "url": "https://english.pravda.ru/news/women/169658-ai-wardrobe-styling-assistant/"
-      },
-      {
-        "name": "Microsoft defines its Azure instance lifecycle, without any ",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Redmond explains how VMs die, but not when you can expect that to happen",
-        "description": "Redmond explains how VMs die, but not when you can expect that to happen",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:open source LLM",
-        "url": "https://www.theregister.com/off-prem/2026/10/07/microsoft-defines-its-azure-instance-lifecycle-without-any-info-about-timing/5301526"
-      },
-      {
-        "name": "Claude for Startups: Free Claude Team Year for Founders | Vi",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Anthropic expanded Claude for Startups with a free year of Claude Team, $1,000 in API credits and office hours. See who qualifies and if it fits your startup.",
-        "description": "Anthropic expanded Claude for Startups with a free year of Claude Team, $1,000 in API credits and office hours. See who qualifies and if it fits your startup.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:Claude AI",
-        "url": "https://www.vizaca.com/technology/claude-for-startups-program/"
       }
     ],
     "ai-business": [
@@ -7332,6 +7360,17 @@
       }
     ],
     "ai-benchmark": [
+      {
+        "name": "Muse Wonder vs Claude Opus 5.5: What Developers Can Buy",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Muse Wonder is the Meta model developers can actually buy, and it costs the same per token as Claude Opus 5.5 while beating it on five of Meta's 14 benchmarks. ",
+        "description": "Muse Wonder is the Meta model developers can actually buy, and it costs the same per token as Claude Opus 5.5 while beating it on five of Meta's 14 benchmarks. Muse Wonder Full, th",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://memeburn.com/muse-wonder-vs-claude-opus-5-5/"
+      },
       {
         "name": "OmniCompass: A Holistic Benchmark for Omni-Modal Video Groun",
         "provider": "arXiv",
@@ -7807,26 +7846,20 @@
         "watch": "可能面临 API 使用限制，影响工具的灵活性。",
         "sourceName": "NewsAPI:AI benchmark leaderboard",
         "url": "https://pypi.org/project/best-engine-ai-helper/"
-      },
-      {
-        "name": "Aligned AI 在独立信仰与伦理基准测试中表现最佳",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "Aligned AI 的表现将吸引对伦理和信仰问题敏感的用户群体，尤其是教育工作者、心理咨询师和宗教研究者等。其高准确性和低偏见的特性，可能会影响用户在选择 AI 工具时的决策，尤其是在需要中立信息的场景中。此外，Aligned AI 的低成本运营模式也可能促使更多企业和个人用户转向使用该工具，从而推动其市场份额的增长",
-        "description": "这次发布的核心点是，Aligned AI 在由四所大学联合发布的 AllFaith 基准测试中，展现出最小的偏见，成为领先 AI 模型中的佼佼者。该基准旨在评估 AI 模型在处理信仰和伦理问题时的表现，Aligned AI 的回答最接近中立，显示出其在这一领域的独特优势。",
-        "useCases": [
-          "使用 Aligned AI 进行信仰与伦理问题的研究，获取中立的学术支持。",
-          "在心理咨询中，利用 Aligned AI 提供的客观信息，帮助客户更好地理解信仰问题。",
-          "内容创作者借助 Aligned AI 生成与伦理相关的文章，确保信息的准确性和中立性。",
-          "教育工作者利用 Aligned AI 进行课堂讨论，提供多元视角的伦理案例分析。",
-          "宗教研究者使用 Aligned AI 进行跨宗教比较，获取更全面的视角。"
-        ],
-        "watch": "虽然 Aligned AI 的偏见程度较低，但仍需注意其在特定文化背景下的适用性，可能存在误解的风险。",
-        "sourceName": "NewsAPI:AI benchmark leaderboard",
-        "url": "https://www.globenewswire.com/news-release/2026/07/31/3336812/0/en/Aligned-AI-Ranks-Highest-Among-Leading-AI-Models-in-Independent-Faith-and-Ethics-Benchmark.html"
       }
     ],
     "ai-image-video": [
+      {
+        "name": "Amazon’s $7 Billion Decart Bet Isn’t Really About AI Video. ",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Amazon's talks to buy Decart for around $7 billion would pay a 75% premium over the startup's $4 billion valuation from May. You'd think it's about Decart's fla",
+        "description": "Amazon's talks to buy Decart for around $7 billion would pay a 75% premium over the startup's $4 billion valuation from May. You'd think it's about Decart's flashy AI video tools. ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Claude AI",
+        "url": "https://memeburn.com/amazon-decart-deal/"
+      },
       {
         "name": "Visual Tokens on Demand: Visual Budgeting for Scalable and E",
         "provider": "arXiv",
@@ -8255,17 +8288,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "TechGenyz",
         "url": "https://techgenyz.com/gemini-omni-1-1-flash-video-tool/"
-      },
-      {
-        "name": "Pentagon's Anthropic Blacklisting Ruled Illegal By US Judge",
-        "provider": "PC Magazine",
-        "type": "AI 项目/工具",
-        "bestFor": "(Credit: Thomas Fuller/SOPA Images/LightRocket via Getty Images)\n\nThe Department of Defense's (DOD) move to blacklist Anthropic's AI tools earlier this year was",
-        "description": "(Credit: Thomas Fuller/SOPA Images/LightRocket via Getty Images)\n\nThe Department of Defense's (DOD) move to blacklist Anthropic's AI tools earlier this year was illegal, according ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "PC Magazine",
-        "url": "https://www.pcmag.com/news/pentagons-anthropic-blacklisting-ruled-illegal-by-us-judge"
       }
     ],
     "ai-research": [
@@ -10116,7 +10138,7 @@
   ],
   "dailyReport": {
     "date": "2026-10-14",
-    "generatedAt": "2026-10-14T12:25:41.349682Z",
+    "generatedAt": "2026-10-14T14:44:36.343171Z",
     "total": 40,
     "sections": [
       {
@@ -10234,6 +10256,17 @@
         "category": "ai-agents",
         "label": "Agent / MCP",
         "items": [
+          {
+            "title": "The EU’s next chapter in AI is agentic",
+            "summary": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more valu",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-14",
+            "publishedAt": "2026-10-14T08:00",
+            "reason": ""
+          },
           {
             "title": "Building agents that transact with Anchor Browser and AgentCore payments",
             "summary": "Learn how the AWS Generative AI Innovation Center Partner Agent Factory and Anchor Browser built AI agents that autonomously pay for x402-pr",
@@ -10353,17 +10386,6 @@
             "sourceCount": 1,
             "date": "2026-10-14",
             "publishedAt": "2026-10-14T06:25",
-            "reason": ""
-          },
-          {
-            "title": "How Anthropic’s Dynamic Workflows Coordinate Claude Agents",
-            "summary": "At AI Engineer New York, Anthropic drew on lessons from Unix and Linux to explain how agents can tackle bigger projects without overwhelming",
-            "source": "RSS · Latent Space (swyx)",
-            "url": "https://www.latent.space/p/claude-dynamic-workflows",
-            "score": 56,
-            "sourceCount": 1,
-            "date": "2026-10-13",
-            "publishedAt": "2026-10-13T02:18",
             "reason": ""
           }
         ]
