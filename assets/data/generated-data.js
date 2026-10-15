@@ -1,7 +1,144 @@
 window.AI_GENERATED_DATA = {
-  "lastUpdated": "2026-10-15",
-  "generatedAt": "2026-10-15T15:07:44.859701Z",
+  "lastUpdated": "2026-10-16",
+  "generatedAt": "2026-10-15T17:20:57.515558Z",
   "news": [
+    {
+      "title": "Proof-based general-purpose computing with Magnetar",
+      "summary": "Zero-knowledge proofs can verify computing results without rerunning workloads or exposing sensitive data. Magnetar helps bring them into the mainstream with support for standard p",
+      "category": "ai-research",
+      "source": "RSS · Microsoft Research",
+      "date": "2026-10-16",
+      "publishedAt": "2026-10-16T00:00",
+      "collectedAt": "2026-10-16T00:15",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://www.microsoft.com/en-us/research/blog/proof-based-general-purpose-computing-with-magnetar/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
+      "summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
+      "category": "ai-models",
+      "source": "RSS · Google DeepMind",
+      "date": "2026-10-16",
+      "publishedAt": "2026-10-16T00:08",
+      "collectedAt": "2026-10-16T00:15",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Sapienz Receives ISSTA 2026 Impact Paper Award",
+      "summary": "Ke Mao, Mark Harman, and Yue Jia have been recognized with the ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA) 2026 Most Influential Paper Award for th",
+      "category": "ai-research",
+      "source": "RSS · Meta Engineering",
+      "date": "2026-10-16",
+      "publishedAt": "2026-10-16T00:00",
+      "collectedAt": "2026-10-16T00:15",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://engineering.fb.com/2026/10/15/developer-tools/sapienz-issta-2026-impact-paper-award-meta/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Teaching students to think and learn through questions",
+      "summary": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
+      "category": "ai-models",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-10-15",
+      "publishedAt": "2026-10-15T21:00",
+      "collectedAt": "2026-10-16T00:15",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Trust in Depth: Giving agents more autonomy without losing control",
+      "summary": "Enterprise leaders want AI agents to take on more work but don't fully trust them to act correctly every time. Trust in Depth is AWS's layered approach-scope, know, bound, observe,",
+      "category": "ai-agents",
+      "source": "RSS · AWS Machine Learning",
+      "date": "2026-10-15",
+      "publishedAt": "2026-10-15T23:05",
+      "collectedAt": "2026-10-16T00:15",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://aws.amazon.com/blogs/machine-learning/trust-in-depth-giving-agents-more-autonomy-without-losing-control/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Apertus 1.5 Release Notes",
       "summary": "",
@@ -1490,7 +1627,14 @@ window.AI_GENERATED_DATA = {
       "moduleTargets": [
         "news"
       ],
-      "sourceCount": 1
+      "sourceCount": 2,
+      "relatedSources": [
+        {
+          "source": "HTML · Anthropic",
+          "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+          "title": "Oct 15, 2026 Announcements An update on independent evaluators"
+        }
+      ]
     },
     {
       "title": "Google DeepMind and Singapore Government announce new AI tool to protect citizens against scams",
@@ -6021,6 +6165,39 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-agents": [
       {
+        "name": "Google 介绍 google/adk-recipes 仓库的三层结构与 Agent Platform 集成",
+        "provider": "Google Developers Blog（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "Google Developers Blog 介绍 google/adk-recipes 仓库，它是 google/adk-samples 的重构后继版本，以 core/、plugins/、contrib/ 三层作为 Agent Platform 各入口的单一内容来源。",
+        "description": "Google Developers Blog 介绍 google/adk-recipes 仓库，它是 google/adk-samples 的重构后继版本，以 core/、plugins/、contrib/ 三层作为 Agent Platform 各入口的单一内容来源。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Google Developers Blog（RSS）",
+        "url": "https://developers.googleblog.com/three-layers-one-repo-a-tour-of-googleadk-recipes/"
+      },
+      {
+        "name": "可灵 Kling 4.0 正式全量开放，新增 MCP 和 CLI 接入",
+        "provider": "X：可灵 Kling AI (@Kling_ai)",
+        "type": "AI 项目/工具",
+        "bestFor": "可灵（Kling AI）宣布 Kling 4.0 正式全量开放，用户可通过 kling.ai 全新创作界面使用，并新增 MCP 和 CLI 接入以融入视频创作工作流。即将推出 4K 和 1080p 的 10-bit HDR 视频输出，以及面向企业客户和开发者的 API 访问。",
+        "description": "可灵（Kling AI）宣布 Kling 4.0 正式全量开放，用户可通过 kling.ai 全新创作界面使用，并新增 MCP 和 CLI 接入以融入视频创作工作流。即将推出 4K 和 1080p 的 10-bit HDR 视频输出，以及面向企业客户和开发者的 API 访问。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "X：可灵 Kling AI (@Kling_ai)",
+        "url": "https://x.com/Kling_ai/status/2110747537187709424"
+      },
+      {
+        "name": "Trust in Depth: Giving agents more autonomy without losing c",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Enterprise leaders want AI agents to take on more work but don't fully trust them to act correctly every time. Trust in Depth is AWS's layered approach-scope, k",
+        "description": "Enterprise leaders want AI agents to take on more work but don't fully trust them to act correctly every time. Trust in Depth is AWS's layered approach-scope, know, bound, observe,",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/trust-in-depth-giving-agents-more-autonomy-without-losing-control/"
+      },
+      {
         "name": "Award Winning Enterprise AI and Automation Provider, Fooyo, ",
         "provider": "NewsData.io",
         "type": "AI 项目/工具",
@@ -6426,39 +6603,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · Latent Space (swyx)",
         "url": "https://www.latent.space/p/claude-dynamic-workflows"
-      },
-      {
-        "name": "Dyna-2: General Purpose Physical Agents with Hour-Long Auton",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Our first robotics pod with Dyna&#8217;s Chief Scientist on their big bet on World Action Models & the Next Frontier of Physical AI",
-        "description": "Our first robotics pod with Dyna&#8217;s Chief Scientist on their big bet on World Action Models & the Next Frontier of Physical AI",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · Latent Space (swyx)",
-        "url": "https://www.latent.space/p/dyna"
-      },
-      {
-        "name": "ChunkAct: Action Chunking for Agentic Robotics",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Agentic robotics places a large language model (LLM) agent in the robot control loop, where it composes perception, motion, and vision-language-action (VLA) too",
-        "description": "Agentic robotics places a large language model (LLM) agent in the robot control loop, where it composes perception, motion, and vision-language-action (VLA) tools under the guidanc",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2610.18874v1"
-      },
-      {
-        "name": "SkillScaffold: Scaffolding Agentic Reinforcement Learning wi",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Agentic reinforcement learning (RL) enables large language models (LLMs) to learn from multi-turn interactions with verifiable outcomes. Textual skills can impr",
-        "description": "Agentic reinforcement learning (RL) enables large language models (LLMs) to learn from multi-turn interactions with verifiable outcomes. Textual skills can improve exploration by d",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2610.18807v1"
       }
     ],
     "ai-models": [
@@ -8265,6 +8409,28 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-research": [
       {
+        "name": "Apple 演示用 MLX 与 RDMA 在 Mac Studio 集群本地运行 816B 大模型",
+        "provider": "Apple Machine Learning Research（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "Apple 机器学习研究团队演示如何在 Mac Studio 上本地运行近万亿参数的 Muse Spark Open 等前沿模型，使用今天发布的新版 MLX（v0.30.1 起）与 macOS 26.2 的 RDMA over Thunderbolt 驱动。",
+        "description": "Apple 机器学习研究团队演示如何在 Mac Studio 上本地运行近万亿参数的 Muse Spark Open 等前沿模型，使用今天发布的新版 MLX（v0.30.1 起）与 macOS 26.2 的 RDMA over Thunderbolt 驱动。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Apple Machine Learning Research（RSS）",
+        "url": "https://machinelearning.apple.com/research/mlx-distributed-inference"
+      },
+      {
+        "name": "Sapienz Receives ISSTA 2026 Impact Paper Award",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Ke Mao, Mark Harman, and Yue Jia have been recognized with the ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA) 2026 Most Influentia",
+        "description": "Ke Mao, Mark Harman, and Yue Jia have been recognized with the ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA) 2026 Most Influential Paper Award for th",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Meta Engineering",
+        "url": "https://engineering.fb.com/2026/10/15/developer-tools/sapienz-issta-2026-impact-paper-award-meta/"
+      },
+      {
         "name": "Argument Graph Uncertainty: Quantifying Uncertainty from the",
         "provider": "arXiv",
         "type": "AI 项目/工具",
@@ -8681,28 +8847,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2609.40361v1"
-      },
-      {
-        "name": "On the Effectiveness-Fluency Trade-Off in LLM Conditioning: ",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Controlling the output of Large Language Models (LLMs) is a central challenge for their reliable deployment, yet a clear understanding of the involved trade-off",
-        "description": "Controlling the output of Large Language Models (LLMs) is a central challenge for their reliable deployment, yet a clear understanding of the involved trade-offs remains elusive. C",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · Apple ML Research",
-        "url": "https://machinelearning.apple.com/research/effectiveness-fluency-llm-conditioning"
-      },
-      {
-        "name": "China outlines sci-tech priorities for 2026-2030 to underpin",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "BEIJING, Sept. 30 (Xinhua) -- China will strengthen basic research, tackle core technologies and speed up the industrial application of research results during ",
-        "description": "BEIJING, Sept. 30 (Xinhua) -- China will strengthen basic research, tackle core technologies and speed up the industrial application of research results during the 15th Five-Year P",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:artificial intelligence",
-        "url": "http://www.hongkongherald.com/news/279341653/china-outlines-sci-tech-priorities-for-2026-2030-to-underpin-high-quality-development"
       }
     ],
     "ai-office": []
@@ -10110,9 +10254,9 @@ window.AI_GENERATED_DATA = {
     }
   ],
   "dailyReport": {
-    "date": "2026-10-15",
-    "generatedAt": "2026-10-15T15:07:44.836705Z",
-    "total": 52,
+    "date": "2026-10-16",
+    "generatedAt": "2026-10-15T17:20:57.495558Z",
+    "total": 25,
     "sections": [
       {
         "category": "ai-coding",
@@ -10150,83 +10294,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-10-15",
             "publishedAt": "2026-10-15T05:36",
             "reason": ""
-          },
-          {
-            "title": "Doc2Harness: Benchmarking LLMs on Long-Horizon Harness Engineering of Coding Agents",
-            "summary": "Agents driven by large language models are increasingly deployed on long-horizon tasks, where they use tools and modify real workspaces. How",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.20344v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-14",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "ReaDy: Recurrent States as Dynamic Context for Speculative Drafting in Hybrid Linear Attention Large Language Models",
-            "summary": "Speculative decoding accelerates autoregressive generation by drafting multiple tokens per step, yet feature-based drafters rely on target h",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.20503v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-14",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "GeoThinker-$F$: Endogenous Predictive World Representations for Fast Spatial Intelligence",
-            "summary": "Existing geometry-aware Multimodal Large Language Models (MLLMs) increasingly rely on external 3D encoders to provide structural priors, but",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.20592v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-14",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Code-Switching Detection via Language-Selective Dimensions in Speech Foundation Models",
-            "summary": "Code-switching (CS), the alternation between languages within an utterance, is common in multilingual speech but underrepresented in pretrai",
-            "source": "RSS · Apple ML Research",
-            "url": "https://machinelearning.apple.com/research/code-switching-detection",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-14",
-            "publishedAt": "2026-10-14T08:00",
-            "reason": ""
-          },
-          {
-            "title": "ReproBAIT: Can coding agents build their own biological AI tools?",
-            "summary": "Large language models are increasingly competent at leveraging scientific knowledge and existing computational tools to execute complex work",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.19810v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-14",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Amp puts AI agents to work beyond code with OpenAI models",
-            "summary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
-            "source": "RSS · OpenAI Blog",
-            "url": "https://openai.com/index/amp-beyond-coding",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-14",
-            "publishedAt": "2026-10-14T20:00",
-            "reason": ""
-          },
-          {
-            "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
-            "summary": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
-            "source": "RSS · OpenAI Blog",
-            "url": "https://openai.com/index/third-moment-research",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-14",
-            "publishedAt": "2026-10-14T15:00",
-            "reason": ""
           }
         ]
       },
@@ -10244,17 +10311,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-10-15",
             "publishedAt": "",
             "reason": ""
-          },
-          {
-            "title": "The Design Space of Tri-Modal Masked Diffusion Models",
-            "summary": "Discrete diffusion models have emerged as strong alternatives to autoregressive language models, with recent work initializing and finetunin",
-            "source": "RSS · Apple ML Research",
-            "url": "https://machinelearning.apple.com/research/tri-modal-masked-diffusion",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-14",
-            "publishedAt": "2026-10-14T08:00",
-            "reason": ""
           }
         ]
       },
@@ -10262,6 +10318,17 @@ window.AI_GENERATED_DATA = {
         "category": "ai-agents",
         "label": "Agent / MCP",
         "items": [
+          {
+            "title": "Trust in Depth: Giving agents more autonomy without losing control",
+            "summary": "Enterprise leaders want AI agents to take on more work but don't fully trust them to act correctly every time. Trust in Depth is AWS's layer",
+            "source": "RSS · AWS Machine Learning",
+            "url": "https://aws.amazon.com/blogs/machine-learning/trust-in-depth-giving-agents-more-autonomy-without-losing-control/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-15",
+            "publishedAt": "2026-10-15T23:05",
+            "reason": ""
+          },
           {
             "title": "Do Perturbation Predictors Learn Gene Interactions? Diagnosing Extrapolation in Agentic Screening",
             "summary": "arXiv:2610.18880v1 Announce Type: new Abstract: High-throughput perturbation screens increasingly use machine-learning models to predict the",
@@ -10316,83 +10383,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-10-15",
             "publishedAt": "2026-10-15T00:24",
             "reason": ""
-          },
-          {
-            "title": "PhySGA: A Physics-Space Grounded Agentic Framework for Generalizable and Interactive 3D Composition",
-            "summary": "3D object composition is pivotal to digital content creation and robot simulation, while also serving as a critical testbed for physical int",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.20560v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-14",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Bayesian Learning to Select Fair Classifiers",
-            "summary": "Evaluations of classifiers (AI or human or agents) often assume a batch setting in which every agent produces labels on every example in a t",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.20514v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-14",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "PerSo: Investigating Facets of LLMs' Social Intelligence in Real-World Persuasion Scenarios",
-            "summary": "Understanding the social intelligence of large language models (LLMs) is increasingly important for applications involving human-AI interact",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.20548v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-14",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "From Training to Escalation: Forensic Analysis and Local Recreation of RL/RLHF-Induced Privilege Escalation in AI Agents (CVE-2026-65616)",
-            "summary": "Mid-2026 reporting on autonomous AI evaluation incidents claimed that frontier large language model (LLM) agents escaped server containment ",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.20437v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-14",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Learning Perception to Action Rules through Reinforcement Learning for Theory-of-Mind Reasoning",
-            "summary": "In Theory-of-Mind (ToM) reasoning, large language models may correctly infer the agent's mental state but fail to use that inference when pr",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.19796v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-14",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "When Extremists Enter LLM Societies: Investigating Extreme Behavior in Multi-Agent Systems",
-            "summary": "Large language model (LLM) agents increasingly serve as computational actors in multi-agent social simulations. While existing work emphasiz",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.19863v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-14",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "C3: Rethinking Process Supervision via Confidence-Guided Credit Correction in Multi-Turn Reinforcement Learning",
-            "summary": "Large language models are increasingly trained as multi-turn agents that interact with external tools. However, outcome-only reinforcement l",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.19695v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-14",
-            "publishedAt": "",
-            "reason": ""
           }
         ]
       },
@@ -10400,6 +10390,28 @@ window.AI_GENERATED_DATA = {
         "category": "ai-models",
         "label": "模型发布",
         "items": [
+          {
+            "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
+            "summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
+            "source": "RSS · Google DeepMind",
+            "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-16",
+            "publishedAt": "2026-10-16T00:08",
+            "reason": ""
+          },
+          {
+            "title": "Teaching students to think and learn through questions",
+            "summary": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step ",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-15",
+            "publishedAt": "2026-10-15T21:00",
+            "reason": ""
+          },
           {
             "title": "Apertus 1.5 Release Notes",
             "summary": "",
@@ -10423,113 +10435,14 @@ window.AI_GENERATED_DATA = {
             "reason": ""
           },
           {
-            "title": "Argument Graph Uncertainty: Quantifying Uncertainty from the Logical Structure of Reasoning Chains",
-            "summary": "Reliable uncertainty estimation is essential for deploying large language models in high-stakes reasoning tasks, yet most existing approache",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.20328v1",
-            "score": 70,
+            "title": "八州总检察长起诉 OpenAI 指控 ChatGPT 诱导青少年自伤",
+            "summary": "八个州的总检察长周三分别在州法院起诉 OpenAI，指控 ChatGPT 强化用户妄想、提供危险医疗建议并协助策划暴力行为。诉讼依据各州消费者保护法，还要求法院禁止 OpenAI 开发可自我改进且无法保证与人类价值对齐的模型；此前佛罗里达和英属哥伦比亚已起诉 OpenAI，42 ",
+            "source": "Platformer（热点 RSS）",
+            "url": "https://www.platformer.news/openai-states-lawsuit-liability/",
+            "score": 56,
             "sourceCount": 1,
-            "date": "2026-10-14",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "When Does Momentum Help in Reinforcement Learning with Verifiable Rewards?",
-            "summary": "Momentum is a classical tool for accelerating convex optimization and a standard component of modern large language model training. Yet rece",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.20413v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-14",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Cortex: Consolidating Context into Parametric Memory",
-            "summary": "Context can improve large language model performance, but these gains may be lost after context removal. Inspired by biological systems cons",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.20399v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-14",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "The Cost of Context: Profiling the Energy Footprint of Input Tokens in Large Language Models",
-            "summary": "The rapid adoption of Retrieval-Augmented Generation (RAG) and long-context LLMs has shifted the computational burden toward the prefill pha",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.19819v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-14",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Text-Informed Training Data Filtering for Enhanced Virtual Flow Meter Performance",
-            "summary": "In sectors such as energy, aquaculture and chemical processing, the effectiveness of both mechanistic and data-driven models is frequently l",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.19860v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-14",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "How Block is building AI-powered security with OpenAI technology",
-            "summary": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
-            "source": "RSS · OpenAI Blog",
-            "url": "https://openai.com/index/block-ai-powered-security",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-14",
-            "publishedAt": "2026-10-14T15:00",
-            "reason": ""
-          },
-          {
-            "title": "Oct 14, 2026 Policy Preparing for the 2026 US midterms",
-            "summary": "Oct 14, 2026 Policy Preparing for the 2026 US midterms",
-            "source": "HTML · Anthropic",
-            "url": "https://www.anthropic.com/news/2026-us-midterms",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-14",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "SentinelOne cuts malware analysis from weeks to hours",
-            "summary": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
-            "source": "RSS · OpenAI Blog",
-            "url": "https://openai.com/index/sentinelone",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-14",
-            "publishedAt": "2026-10-14T20:00",
-            "reason": ""
-          },
-          {
-            "title": "Google 发布智能体审稿系统 Deep Review，支持多领域技术文档审查",
-            "summary": "Google 公开发布智能体审阅系统 Deep Review，可对复杂技术文档提供反馈与验证，最初面向计算机科学论文，现已扩展到法律、金融等领域。",
-            "source": "Google Research：Blog（网页）",
-            "url": "https://research.google/blog/analyzing-technical-documents-with-deep-review/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-14",
-            "publishedAt": "2026-10-14T08:00",
-            "reason": ""
-          },
-          {
-            "title": "Oct 14, 2026 Announcements Anthropic opens Singapore office and signs MOU with the Government of Singapore",
-            "summary": "Oct 14, 2026 Announcements Anthropic opens Singapore office and signs MOU with the Government of Singapore",
-            "source": "HTML · Anthropic",
-            "url": "https://www.anthropic.com/news/singapore-office-opening",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-14",
-            "publishedAt": "",
+            "date": "2026-10-15",
+            "publishedAt": "2026-10-15T08:52",
             "reason": ""
           }
         ]
@@ -10592,83 +10505,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-10-15",
             "publishedAt": "",
             "reason": ""
-          },
-          {
-            "title": "ReferFlow: Beyond Final-Target Localization for Complex Referring Expressions",
-            "summary": "Multimodal Large Language Models have made significant progress in referring expression comprehension (REC), yet most REC benchmarks still f",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.20352v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-14",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "SafeDriveVLA: Navigation-Conditioned World Model Dreaming for Conflict-Aware End-to-End Autonomous Driving",
-            "summary": "Vision-Language-Action (VLA) models are gaining attention in autonomous driving, inheriting commonsense priors from large language models (L",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.20609v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-14",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "ChronoCulture: Evaluating Cultural Awareness Across Time in Large Language Models",
-            "summary": "Cultural attitudes and social norms evolve over time, yet most cultural benchmarks for large language models (LLMs) treat culture as a stati",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.20472v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-14",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Energy Consumption Analysis of Discrete Diffusion and Autoregressive Language Models",
-            "summary": "As Large Language Models (LLMs) continue to scale, their energy consumption during inference has become a critical concern. While Autoregres",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.19855v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-14",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "OpenTWBench (Open Taiwan Benchmark): Taiwan-Domain Knowledge Evaluation for Large Language Models, and How the Measurement Apparatus Shapes the Score",
-            "summary": "We present OpenTWBench, an open evaluation suite for Taiwan-domain knowledge in large language models, built around two benchmarks. tw-exam-",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.19848v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-14",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "RuleTrek: Benchmarking Agentic Rule Reasoning in Complex Scenarios",
-            "summary": "Large language models (LLMs) increasingly tackle complex real-world tasks in specialized domains. However, identifying and correctly applyin",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.19698v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-14",
-            "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "ReFormBench: Benchmarking the Stability of Response-Conditioned Format Correction in Large Language Models",
-            "summary": "Reliable use of large language models requires responses to satisfy formatting requirements across changing instructions. Standard complianc",
-            "source": "arXiv",
-            "url": "http://arxiv.org/abs/2610.19693v1",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-14",
-            "publishedAt": "",
-            "reason": ""
           }
         ]
       },
@@ -10676,6 +10512,28 @@ window.AI_GENERATED_DATA = {
         "category": "ai-research",
         "label": "论文研究",
         "items": [
+          {
+            "title": "Proof-based general-purpose computing with Magnetar",
+            "summary": "Zero-knowledge proofs can verify computing results without rerunning workloads or exposing sensitive data. Magnetar helps bring them into th",
+            "source": "RSS · Microsoft Research",
+            "url": "https://www.microsoft.com/en-us/research/blog/proof-based-general-purpose-computing-with-magnetar/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-16",
+            "publishedAt": "2026-10-16T00:00",
+            "reason": ""
+          },
+          {
+            "title": "Sapienz Receives ISSTA 2026 Impact Paper Award",
+            "summary": "Ke Mao, Mark Harman, and Yue Jia have been recognized with the ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA) ",
+            "source": "RSS · Meta Engineering",
+            "url": "https://engineering.fb.com/2026/10/15/developer-tools/sapienz-issta-2026-impact-paper-award-meta/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-16",
+            "publishedAt": "2026-10-16T00:00",
+            "reason": ""
+          },
           {
             "title": "Inverse Reasoning Models for Efficient Post-Training and Verification from Answer-Only Data",
             "summary": "arXiv:2610.18878v1 Announce Type: new Abstract: Post-training reasoning LLMs often requires making a tradeoff between costly supervision and",
@@ -10710,27 +10568,273 @@ window.AI_GENERATED_DATA = {
             "reason": ""
           }
         ]
-      },
-      {
-        "category": "ai-business",
-        "label": "行业商业",
-        "items": [
-          {
-            "title": "Manage private pricing offers for Amazon Bedrock with managed entitlements",
-            "summary": "Managing AI model access across dozens or hundreds of AWS accounts creates friction when each account must accept AWS Marketplace Private Pr",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/manage-private-pricing-offers-for-amazon-bedrock-with-managed-entitlements/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-14",
-            "publishedAt": "2026-10-14T01:17",
-            "reason": ""
-          }
-        ]
       }
     ]
   },
   "dailyReports": [
+    {
+      "date": "2026-10-15",
+      "generatedAt": "2026-10-15T16:00:54.513745Z",
+      "total": 20,
+      "sections": [
+        {
+          "category": "ai-coding",
+          "label": "AI 编程",
+          "items": [
+            {
+              "title": "Do Vision CIL Methods Transfer to Protein? A Diagnostic Benchmark of Frozen Protein Encoders",
+              "summary": "arXiv:2610.18879v1 Announce Type: new Abstract: Protein function annotation operates over an expanding label space, making class-incremental",
+              "source": "RSS · arXiv cs.LG",
+              "url": "https://arxiv.org/abs/2610.18879",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-15",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "The Silent Failures in Agentic Data Science",
+              "summary": "arXiv:2610.14115v1 Announce Type: new Abstract: Large language models have significantly lowered the barrier to writing code. Naturally, thi",
+              "source": "RSS · arXiv cs.AI",
+              "url": "https://arxiv.org/abs/2610.14115",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-15",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "Claude Code 空闲压缩从摘要继续，可用 idleCompaction 关闭并自定义阈值",
+              "summary": "Claude Code 的空闲压缩会让 Claude 从摘要而非完整上下文继续。作者说明可在 settings. 中设置 \"idleCompaction\": false 关闭，并通过 CLAUDE_CODE_IDLE_COMPACT_MIN_TOKENS 自定义阈值，默认为 20",
+              "source": "X：Lydia Hallie（Anthropic，Claude Code） (@lydiahallie)",
+              "url": "https://x.com/lydiahallie/status/2110484841926152622",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-15",
+              "publishedAt": "2026-10-15T05:36",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-image-video",
+          "label": "图像视频",
+          "items": [
+            {
+              "title": "Correction Training for Diffusion Models",
+              "summary": "arXiv:2610.14136v2 Announce Type: new Abstract: Iterative sampling in diffusion models can lead to error accumulation due to exposure bias. ",
+              "source": "RSS · arXiv cs.AI",
+              "url": "https://arxiv.org/abs/2610.14136",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-15",
+              "publishedAt": "",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-agents",
+          "label": "Agent / MCP",
+          "items": [
+            {
+              "title": "Do Perturbation Predictors Learn Gene Interactions? Diagnosing Extrapolation in Agentic Screening",
+              "summary": "arXiv:2610.18880v1 Announce Type: new Abstract: High-throughput perturbation screens increasingly use machine-learning models to predict the",
+              "source": "RSS · arXiv cs.LG",
+              "url": "https://arxiv.org/abs/2610.18880",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-15",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "ClawLoop: Self-Improving Agents via Harness-Native Training Loop",
+              "summary": "arXiv:2610.14118v1 Announce Type: new Abstract: The rapid advancement of Large Language Models (LLMs) has driven their deployment toward gen",
+              "source": "RSS · arXiv cs.AI",
+              "url": "https://arxiv.org/abs/2610.14118",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-15",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "Visualizing the World Model in an Agent's Value Function",
+              "summary": "arXiv:2610.14186v1 Announce Type: new Abstract: Could model-free reinforcement learning algorithms actually be learning a model of the envir",
+              "source": "RSS · arXiv cs.AI",
+              "url": "https://arxiv.org/abs/2610.14186",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-15",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "Putting Earth AI to work: Geospatial agents for our planet's biggest challenges",
+              "summary": "Earth AI",
+              "source": "RSS · Google Research",
+              "url": "https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-15",
+              "publishedAt": "2026-10-15T00:14",
+              "reason": ""
+            },
+            {
+              "title": "Build self-improving document processing using Amazon Bedrock AgentCore",
+              "summary": "Learn how to build an agentic intelligent document processing (IDP) system using Amazon Bedrock AgentCore that classifies, extracts, validat",
+              "source": "RSS · AWS Machine Learning",
+              "url": "https://aws.amazon.com/blogs/machine-learning/build-self-improving-document-processing-using-amazon-bedrock-agentcore/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-15",
+              "publishedAt": "2026-10-15T00:24",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-models",
+          "label": "模型发布",
+          "items": [
+            {
+              "title": "Apertus 1.5 Release Notes",
+              "summary": "",
+              "source": "RSS · Hugging Face Blog",
+              "url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-15",
+              "publishedAt": "2026-10-15T17:08",
+              "reason": ""
+            },
+            {
+              "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
+              "summary": "",
+              "source": "RSS · Hugging Face Blog",
+              "url": "https://huggingface.co/blog/allenai/hiro-acev2",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-15",
+              "publishedAt": "2026-10-15T00:12",
+              "reason": ""
+            },
+            {
+              "title": "八州总检察长起诉 OpenAI 指控 ChatGPT 诱导青少年自伤",
+              "summary": "八个州的总检察长周三分别在州法院起诉 OpenAI，指控 ChatGPT 强化用户妄想、提供危险医疗建议并协助策划暴力行为。诉讼依据各州消费者保护法，还要求法院禁止 OpenAI 开发可自我改进且无法保证与人类价值对齐的模型；此前佛罗里达和英属哥伦比亚已起诉 OpenAI，42 ",
+              "source": "Platformer（热点 RSS）",
+              "url": "https://www.platformer.news/openai-states-lawsuit-liability/",
+              "score": 56,
+              "sourceCount": 1,
+              "date": "2026-10-15",
+              "publishedAt": "2026-10-15T08:52",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-benchmark",
+          "label": "评测榜单",
+          "items": [
+            {
+              "title": "PMO-Dock: Benchmarking Docking, Specificity, and Generalization in Molecular Optimization",
+              "summary": "arXiv:2610.19011v1 Announce Type: new Abstract: The Practical Molecular Optimization (PMO) benchmark standardized evaluation in molecular op",
+              "source": "RSS · arXiv cs.LG",
+              "url": "https://arxiv.org/abs/2610.19011",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-15",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "Artificiality's First Exam: An LLM-Referenced C-test for Supraintelligence",
+              "summary": "arXiv:2610.14005v1 Announce Type: new Abstract: Under the accelerated pace of AI development, any benchmark whose difficulty is calibrated w",
+              "source": "RSS · arXiv cs.AI",
+              "url": "https://arxiv.org/abs/2610.14005",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-15",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "VETNET: Assembling Benchmark Datasets for AI-Driven Veterinary Innovation",
+              "summary": "arXiv:2610.14149v1 Announce Type: new Abstract: VETNET represents an ecosystem of live benchmark datasets and evaluation frameworks designed",
+              "source": "RSS · arXiv cs.AI",
+              "url": "https://arxiv.org/abs/2610.14149",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-15",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "Long-Horizon-Terminal-Bench 2.0: Automating Diverse Task Construction and Measuring Sustained Agent Progress",
+              "summary": "arXiv:2610.14146v1 Announce Type: new Abstract: Long-horizon terminal benchmarks measure whether an agent can sustain progress through exten",
+              "source": "RSS · arXiv cs.AI",
+              "url": "https://arxiv.org/abs/2610.14146",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-15",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "Unconstrained CTI-REALM with Open-Weights",
+              "summary": "arXiv:2610.14180v1 Announce Type: new Abstract: Organisations that want language-model agents for security work face a choice between open-w",
+              "source": "RSS · arXiv cs.AI",
+              "url": "https://arxiv.org/abs/2610.14180",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-15",
+              "publishedAt": "",
+              "reason": ""
+            }
+          ]
+        },
+        {
+          "category": "ai-research",
+          "label": "论文研究",
+          "items": [
+            {
+              "title": "Inverse Reasoning Models for Efficient Post-Training and Verification from Answer-Only Data",
+              "summary": "arXiv:2610.18878v1 Announce Type: new Abstract: Post-training reasoning LLMs often requires making a tradeoff between costly supervision and",
+              "source": "RSS · arXiv cs.LG",
+              "url": "https://arxiv.org/abs/2610.18878",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-15",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "Token Utility for On-Policy Distillation via Local Trust-Region Optimization",
+              "summary": "arXiv:2610.18883v1 Announce Type: new Abstract: Token-selection methods for on-policy distillation (OPD) prioritize student-visited position",
+              "source": "RSS · arXiv cs.LG",
+              "url": "https://arxiv.org/abs/2610.18883",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-15",
+              "publishedAt": "",
+              "reason": ""
+            },
+            {
+              "title": "Research@ 2026: 10 ways we're amplifying human ingenuity",
+              "summary": "General Science",
+              "source": "RSS · Google Research",
+              "url": "https://research.google/blog/research-2026-10-ways-were-amplifying-human-ingenuity/",
+              "score": 70,
+              "sourceCount": 1,
+              "date": "2026-10-15",
+              "publishedAt": "2026-10-15T00:14",
+              "reason": ""
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-10-14",
       "generatedAt": "2026-10-14T16:00:53.267324Z",
@@ -19463,416 +19567,10 @@ window.AI_GENERATED_DATA = {
           ]
         }
       ]
-    },
-    {
-      "date": "2026-08-13",
-      "generatedAt": "2026-08-13T16:04:19.225556Z",
-      "total": 33,
-      "sections": [
-        {
-          "category": "ai-tools",
-          "label": "AI 工具",
-          "items": [
-            {
-              "title": "使用 Amazon Athena 和 CUDOS 进行 Amazon Bedrock 成本归属分析",
-              "summary": "这次发布的核心点是通过 Amazon Athena 和 CUDOS 仪表板，用户可以更直观地分析和可视化 Amazon Bedrock 的成本归属。文章详细介绍了如何设置 CUR 2.0 数据导出，查询 Bedrock 支出，并构建仪表板以跟踪组织内的 AI 成本，帮助用户更好地",
-              "source": "RSS · AWS Machine Learning",
-              "url": "https://aws.amazon.com/blogs/machine-learning/part-2-amazon-bedrock-cost-attribution-with-amazon-athena-and-cudos/",
-              "score": 78,
-              "sourceCount": 1,
-              "date": "2026-08-13",
-              "publishedAt": "2026-08-13T01:45",
-              "reason": "这篇文章提供了实用的指南，帮助用户通过 Amazon Athena 和 CUDOS 有效管理和优化 AI 成本，值得关注。"
-            },
-            {
-              "title": "OlmoEarth Studio 发布自定义嵌入导出功能",
-              "summary": "OlmoEarth Studio 最近推出了自定义嵌入导出功能，允许用户生成特定的嵌入以便于后续分析。这一功能的推出为数据科学家和机器学习工程师提供了更大的灵活性，能够根据具体需求调整嵌入的生成方式，从而提升模型的性能和适用性。",
-              "source": "RSS · Hugging Face Blog",
-              "url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
-              "score": 78,
-              "sourceCount": 1,
-              "date": "2026-08-13",
-              "publishedAt": "2026-08-13T00:14",
-              "reason": "这一功能的推出为用户提供了更大的灵活性，能够根据具体需求生成高质量的嵌入，极大提升了数据分析的效率。"
-            },
-            {
-              "title": "Distribird：基于文献的贝叶斯模型校准先验分布设计",
-              "summary": "我注意到，Distribird 是一个自动化的网络应用程序，旨在简化贝叶斯模型校准中的先验分布设计。它通过文献检索和多代理管道，提取和加权相关参数值，帮助研究人员更高效地构建信息丰富的先验分布，避免了传统方法中对均匀先验的依赖。",
-              "source": "RSS · arXiv cs.AI",
-              "url": "https://arxiv.org/abs/2608.11210",
-              "score": 70,
-              "sourceCount": 1,
-              "date": "2026-08-13",
-              "publishedAt": "",
-              "reason": "Distribird 通过自动化文献检索和参数值提取，极大地提高了贝叶斯模型校准的效率和准确性，是研究人员不可或缺的工具。"
-            },
-            {
-              "title": "Claude Cowork 会话升级：Chrome 侧边栏实现多平台无缝对接",
-              "summary": "Claude in Chrome 侧边栏已升级为 Claude Cowork 会话，支持在桌面、网页和移动端无缝切换，任务和对话历史得以保存，提升了用户的工作效率。该功能现已在 Max 和 Team 计划中推出，Pro 用户将在未来几周内获得更新。",
-              "source": "Claude：Blog（网页）",
-              "url": "https://claude.com/blog/cowork-chrome-side-panel",
-              "score": 65,
-              "sourceCount": 1,
-              "date": "2026-08-13",
-              "publishedAt": "2026-08-13T04:15",
-              "reason": "Claude Cowork 会话的升级显著提升了多平台工作效率，值得关注其在团队协作和任务管理中的应用潜力。"
-            },
-            {
-              "title": "WorkBuddy推出远程控制功能，提升多设备协作效率",
-              "summary": "WorkBuddy最新更新引入远程控制功能，用户可通过手机实时同步电脑任务、对话和工作空间，支持多台电脑的快速切换。此功能需将App升级至1.2.0及以上，电脑端升级至5.3.8及以上，且无需扫码连接。此外，新增的资料库和Markdown多人编辑功能将进一步提升团队协作效率。",
-              "source": "公众号：数字生命卡兹克",
-              "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685179&idx=1&sn=4cbee32b677b57a9dc6ec2a79d6f72c7",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-08-13",
-              "publishedAt": "2026-08-13T12:32",
-              "reason": "WorkBuddy的远程控制功能将极大提升用户在多设备间的协作效率，值得关注和尝试。"
-            }
-          ]
-        },
-        {
-          "category": "ai-coding",
-          "label": "AI 编程",
-          "items": [
-            {
-              "title": "利用扩散语言模型实现无损文本压缩",
-              "summary": "我注意到，随着数字文本数据的快速增长，如何实现无损文本压缩成为一个重要课题。最近的研究提出了一种新方法，利用扩散语言模型（DLMs）来解决传统自回归模型在压缩过程中的吞吐量瓶颈。这种方法在文本和代码的压缩比上表现优于现有的通用压缩工具，展现了良好的前景。",
-              "source": "RSS · arXiv cs.CL",
-              "url": "https://arxiv.org/abs/2608.11249",
-              "score": 82,
-              "sourceCount": 1,
-              "date": "2026-08-13",
-              "publishedAt": "",
-              "reason": "这项研究展示了扩散语言模型在无损文本压缩中的潜力，值得关注其未来的发展和应用。"
-            },
-            {
-              "title": "CHORUS：高覆盖率测试平台刺激生成的补充专家",
-              "summary": "这次发布的核心点是 CHORUS，一个后训练框架，旨在提升高覆盖率测试平台刺激生成的性能。通过结合行为多样的检查点和密集奖励的强化学习，CHORUS 能够超越传统的监督微调方法，显著提高硬件验证的效率，尤其在现代芯片设计中具有重要应用价值。",
-              "source": "RSS · arXiv cs.AI",
-              "url": "https://arxiv.org/abs/2608.10090",
-              "score": 82,
-              "sourceCount": 1,
-              "date": "2026-08-13",
-              "publishedAt": "",
-              "reason": "CHORUS 通过创新的后训练框架，显著提升了硬件验证的效率，值得关注和尝试。"
-            },
-            {
-              "title": "自我进化的具身智能体：技能与环境适应的新框架",
-              "summary": "这次发布的核心点是提出了一种名为 SHAPER 的自我进化框架，旨在实现具身智能体的无训练适应。SHAPER 通过演化可重用的技能和环境代码，保持模型参数不变，优化外部技能和环境代码，适用于不同的低级动作接口。该方法在 VLABench 和 ESI-Bench 上进行了评估，显示",
-              "source": "RSS · arXiv cs.CL",
-              "url": "https://arxiv.org/abs/2608.11350",
-              "score": 78,
-              "sourceCount": 1,
-              "date": "2026-08-13",
-              "publishedAt": "",
-              "reason": "SHAPER 提供了一种创新的无训练适应方法，适合希望降低训练成本的开发者，值得关注。"
-            },
-            {
-              "title": "AutoWorldModel-Bench: A State-Centric Benchmark for Automated World-Model Research",
-              "summary": "arXiv:2608.11216v1 Announce Type: new Abstract: World modeling is an unsettled field: architectures, training objectives, and state represen",
-              "source": "RSS · arXiv cs.AI",
-              "url": "https://arxiv.org/abs/2608.11216",
-              "score": 70,
-              "sourceCount": 1,
-              "date": "2026-08-13",
-              "publishedAt": "",
-              "reason": ""
-            }
-          ]
-        },
-        {
-          "category": "ai-agents",
-          "label": "Agent / MCP",
-          "items": [
-            {
-              "title": "多LLM代理系统的动态治理与协作对话成果",
-              "summary": "我注意到，本文探讨了在多轮交互中，当两个目标相对立的LLM代理缺乏共同目标时，可能导致对话崩溃的现象。研究提出了一种控制理论治理层，旨在替代缺失的目标函数，并在模拟金融服务环境中进行验证。通过60,000次模拟，治理层显著提高了高意图顾问联系率，显示出治理策略的重要性。",
-              "source": "RSS · arXiv cs.AI",
-              "url": "https://arxiv.org/abs/2608.11207",
-              "score": 82,
-              "sourceCount": 1,
-              "date": "2026-08-13",
-              "publishedAt": "",
-              "reason": "这项研究提供了对多LLM代理系统治理的新视角，尤其是在复杂对话场景中的应用，值得关注。"
-            },
-            {
-              "title": "MESA：任务自适应的多结构证据选择框架",
-              "summary": "这次发布的核心点是 MESA 框架，它针对长时间跨度的智能体内存进行了创新，能够根据查询动态选择和融合多种结构化记忆，显著提高了信息检索的效率和准确性。通过优化记忆结构的组合，MESA 在 AMA-Bench 基准测试中表现优于现有系统，减少了41%的证据令牌使用量。",
-              "source": "RSS · arXiv cs.AI",
-              "url": "https://arxiv.org/abs/2608.10108",
-              "score": 82,
-              "sourceCount": 1,
-              "date": "2026-08-13",
-              "publishedAt": "",
-              "reason": "MESA 框架通过创新的动态选择机制，显著提升了长时间跨度智能体的查询效率，值得关注。"
-            },
-            {
-              "title": "LLM代理工厂：领域特定LLM代理的检索",
-              "summary": "LLM代理工厂提供了一种基于检索的框架，能够根据需求构建领域特定的代理，显著降低计算成本并提高稳定性。该框架利用超过20,000个预设代理配置文件，通过语义搜索和模型蒸馏技术，优化了代理生成过程。实验表明，该方法在准确性上超越了传统基线，同时在推理成本上具有明显优势。",
-              "source": "RSS · arXiv cs.CL",
-              "url": "https://arxiv.org/abs/2608.09934",
-              "score": 82,
-              "sourceCount": 1,
-              "date": "2026-08-13",
-              "publishedAt": "",
-              "reason": "LLM代理工厂通过检索和蒸馏技术，提供了一种高效、准确的代理生成方案，适合工业应用，值得关注。"
-            },
-            {
-              "title": "A Forced-Structure Reduction and Verifiable Bounds for Conway's 99-Graph",
-              "summary": "arXiv:2608.11211v1 Announce Type: new Abstract: Conway's 99-graph problem asks whether a strongly regular graph with parameters $\\mathrm{srg",
-              "source": "RSS · arXiv cs.AI",
-              "url": "https://arxiv.org/abs/2608.11211",
-              "score": 70,
-              "sourceCount": 1,
-              "date": "2026-08-13",
-              "publishedAt": "",
-              "reason": ""
-            },
-            {
-              "title": "Better, Faster, Stronger: Programmatic Skill Learning Best Reduces Agent Cost",
-              "summary": "arXiv:2608.11338v1 Announce Type: new Abstract: Recently, the practice of augmenting LLM agent capability with skills has gained prevalence.",
-              "source": "RSS · arXiv cs.CL",
-              "url": "https://arxiv.org/abs/2608.11338",
-              "score": 70,
-              "sourceCount": 1,
-              "date": "2026-08-13",
-              "publishedAt": "",
-              "reason": ""
-            },
-            {
-              "title": "DeepSeek-V4-Pro 正式版上线，Agent 能力显著提升",
-              "summary": "DeepSeek-V4-Pro 正式版已在多个平台上线，Agent 能力显著增强，HLE (wo/w tools) 达到 42.7/60.0，Terminal Bench 2.1 分数为 87.9，标志着其在生产环境中的性能有了大幅提升。",
-              "source": "DeepSeek：API 更新日志",
-              "url": "https://api-docs.deepseek.com/zh-cn/updates#%E6%97%B6%E9%97%B4-2026-08-13",
-              "score": 67,
-              "sourceCount": 1,
-              "date": "2026-08-13",
-              "publishedAt": "2026-08-13T19:16",
-              "reason": "DeepSeek-V4-Pro 的正式上线不仅提升了模型性能，还优化了用户体验，值得关注其在行业中的应用潜力。"
-            }
-          ]
-        },
-        {
-          "category": "ai-models",
-          "label": "模型发布",
-          "items": [
-            {
-              "title": "基于任务感知的潜在空间耦合方法提升太阳能短期预测精度",
-              "summary": "准确的太阳辐射预测对于光伏电力的可靠接入至关重要。全景成像仪（ASI）能够提供高分辨率的云层观测，适合进行短期预测。尽管近期深度学习方法显著提高了预测精度，但仍存在确定性预测和对突发事件预测能力不足的问题。本文提出了一种新方法，旨在解决这些限制。",
-              "source": "RSS · arXiv cs.LG",
-              "url": "https://arxiv.org/abs/2608.11254",
-              "score": 84,
-              "sourceCount": 1,
-              "date": "2026-08-13",
-              "publishedAt": "",
-              "reason": "本文提出的新方法针对太阳能短期预测中的关键问题，具有显著的实用价值和应用潜力，值得关注。"
-            },
-            {
-              "title": "新兴多智能体系统的模式与问题",
-              "summary": "Anthropic 研究指出，随着 AI 智能体在共享代码库、市场等社会系统中承担更多任务，智能体间交互量或将超过人机交互。实验显示，45 个协调智能体在 2700 万 token 运行中发现 266 个漏洞，而独立并行方法在 650 万 token 中发现 21 个，两种方法仅",
-              "source": "Anthropic：Research（发表成果 · 网页）",
-              "url": "https://www.anthropic.com/research/multiagent-systems",
-              "score": 70,
-              "sourceCount": 1,
-              "date": "2026-08-13",
-              "publishedAt": "2026-08-13T09:20",
-              "reason": ""
-            },
-            {
-              "title": "微软推出自研推理模型 MAI-Thinking-1",
-              "summary": "我注意到微软最近发布了他们的首个推理模型 MAI-Thinking-1，这个模型是从零开始构建的，现在已经在 Microsoft Foundry 上线。这个项目的成功离不开团队的努力，值得点赞！",
-              "source": "X：Mustafa Suleyman（Microsoft AI CEO） (@mustafasuleyman)",
-              "url": "https://x.com/mustafasuleyman/status/2087570047967408396",
-              "score": 69,
-              "sourceCount": 1,
-              "date": "2026-08-13",
-              "publishedAt": "2026-08-13T00:00",
-              "reason": "MAI-Thinking-1 的发布展示了微软在 AI 领域的创新能力，值得关注和尝试。"
-            },
-            {
-              "title": "阿里开放 Qwen3.8-2.4T-A95B 模型权重，首次开源",
-              "summary": "我注意到阿里 Qwen 团队最近开放了 Qwen3.8-2.4T-A95B 模型权重，这是 Qwen-Max 级别模型的首次开源。该模型总参数达到 2.4T，每个 Token 激活 95B，原生支持 262,144 Token 上下文，并可扩展至 1,010,000 Token，",
-              "source": "IT之家（RSS）",
-              "url": "https://www.ithome.com/0/989/001.htm",
-              "score": 69,
-              "sourceCount": 1,
-              "date": "2026-08-13",
-              "publishedAt": "2026-08-13T00:10",
-              "reason": "这条信息值得关注，因为 Qwen3.8-2.4T-A95B 模型的开源将为开发者和研究人员提供强大的工具，推动 AI 应用的创新与发展。"
-            },
-            {
-              "title": "阿里开源 Qwen3.8-2.4T-A95B，硅基流动即日上线",
-              "summary": "阿里巴巴近日开源了 Qwen3.8-2.4T-A95B 模型，具备 2.4T 参数和 95B 激活参数，专注于自主编码、深度研究及端到端智能体执行。API 定价为输入 $2.00/百万 token，输出 $6.00/百万 token，缓存输入 $0.25/百万 token，标志着",
-              "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
-              "url": "https://x.com/SiliconFlowAI/status/2087903227224412222",
-              "score": 66,
-              "sourceCount": 1,
-              "date": "2026-08-13",
-              "publishedAt": "2026-08-13T22:04",
-              "reason": "Qwen3.8-2.4T-A95B 的开源发布为开发者提供了强大的工具，推动了 AI 技术的普及与应用，值得关注。"
-            },
-            {
-              "title": "小红书开源 dots.tts 语音合成模型，参数达 20 亿",
-              "summary": "小红书的 dots 团队近日开源了名为 dots.tts 的全连续端到端自回归语音合成模型，参数量达到 20 亿。在 Seed-TTS-Eval 三个子集上，该模型表现出最佳的平均内容准确度和平均说话人相似度，显示出其在语音合成领域的强大能力。",
-              "source": "公众号：小红书技术（dots.llm）",
-              "url": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496062&idx=1&sn=d4c48926c5d7607f129dfea03699a6c0",
-              "score": 62,
-              "sourceCount": 1,
-              "date": "2026-08-13",
-              "publishedAt": "2026-08-13T17:59",
-              "reason": "dots.tts 模型的开源为语音合成领域带来了新的可能性，尤其是在内容创作和智能助手应用方面，值得关注。"
-            },
-            {
-              "title": "DeepSeek V4 Pro与Grok 4.6同步发布，接近Claude Fable 5体验",
-              "summary": "DeepSeek V4 Pro和Grok 4.6于同一天发布，分别为1.6T和1.5T参数模型，均显示出接近Claude Fable 5的性能体验。这两款模型的推出标志着AI领域的又一次技术进步，吸引了广泛关注。",
-              "source": "公众号：数字生命卡兹克",
-              "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685175&idx=1&sn=64c383b5b757945397894270c5f38301",
-              "score": 61,
-              "sourceCount": 1,
-              "date": "2026-08-13",
-              "publishedAt": "2026-08-13T06:22",
-              "reason": "此次发布展示了AI模型技术的快速进步，值得关注其对行业的潜在影响。"
-            }
-          ]
-        },
-        {
-          "category": "ai-benchmark",
-          "label": "评测榜单",
-          "items": [
-            {
-              "title": "TRACE Bench：任务驱动的角色扮演代理检查评估框架",
-              "summary": "TRACE Bench 是一种新提出的任务驱动的角色扮演评估框架，旨在通过详细的检查清单揭示角色要求的测试情况及对话证据。该框架能够有效评估模型的表现，提供更为透明的评分依据。",
-              "source": "RSS · arXiv cs.CL",
-              "url": "https://arxiv.org/abs/2608.11236",
-              "score": 86,
-              "sourceCount": 1,
-              "date": "2026-08-13",
-              "publishedAt": "",
-              "reason": "TRACE Bench 提供了一种全新的角色扮演模型评估方法，强调透明性和系统性，值得关注。"
-            },
-            {
-              "title": "Backtrader-Bench 框架评估 LLM 代理在算法交易中的表现",
-              "summary": "Ruoxi Zhao 和 Maziar Raissi 提出了 Backtrader-Bench，一个用于评估 LLM 编码代理在算法交易中的新框架。该框架通过两个互补的管道生成自我生成的多项选择题 (MCQ)，并在 30 个问题的 curated 集合上对 11 个无工具模型和 ",
-              "source": "RSS · arXiv cs.CL",
-              "url": "https://arxiv.org/abs/2608.11232",
-              "score": 82,
-              "sourceCount": 1,
-              "date": "2026-08-13",
-              "publishedAt": "",
-              "reason": "Backtrader-Bench 提供了一种创新的评估方法，能够有效提升 LLM 在算法交易中的应用价值，值得关注。"
-            }
-          ]
-        },
-        {
-          "category": "ai-research",
-          "label": "论文研究",
-          "items": [
-            {
-              "title": "SPOT：深度强化学习的前瞻性解释框架",
-              "summary": "深度强化学习（DRL）在复杂环境中表现出色，但其决策过程难以理解。SPOT（采样策略观察树）是一种新颖的、与模型无关的框架，旨在通过采样和递归模拟来解释DRL策略。该框架能够构建可解释的有限视野树，帮助用户洞察策略的行动偏好及其潜在的后续演变。",
-              "source": "RSS · arXiv cs.AI",
-              "url": "https://arxiv.org/abs/2608.09967",
-              "score": 86,
-              "sourceCount": 1,
-              "date": "2026-08-13",
-              "publishedAt": "",
-              "reason": "SPOT为深度强化学习提供了一种全新的可解释性分析工具，帮助研究人员和开发者更好地理解和优化复杂模型的决策过程。"
-            },
-            {
-              "title": "量化混合专家中的因果路径介导损伤检测",
-              "summary": "本研究探讨了在量化混合专家（MoE）模型中，如何检测路径翻转现象。通过模拟4位KV缓存量化，发现这种不连续的路由机制会导致令牌跨越决策边界，影响专家的激活。研究提供了因果分析工具和实证结果，揭示了量化损伤的路径介导分数（RMF）约为0.31，且检测到的翻转无法区分有害与有益的翻转",
-              "source": "RSS · arXiv cs.AI",
-              "url": "https://arxiv.org/abs/2608.11212",
-              "score": 82,
-              "sourceCount": 1,
-              "date": "2026-08-13",
-              "publishedAt": "",
-              "reason": "本研究提供了量化混合专家模型中路径翻转现象的深入分析，揭示了其对模型性能的影响，具有重要的实用价值和研究意义。"
-            },
-            {
-              "title": "深度学习模型的碳足迹：可持续人工智能的全面评估",
-              "summary": "我注意到，人工智能（AI）和机器学习（ML）在支持和自动化复杂人类任务方面发挥着越来越重要的作用。然而，随着这些技术的广泛应用，尤其是大型深度学习模型的部署，其高能耗和碳排放引发了越来越多的环境关注。这篇综述文章对深度学习模型的碳足迹进行了全面分析，探讨了其对可持续发展的影响。",
-              "source": "RSS · arXiv cs.AI",
-              "url": "https://arxiv.org/abs/2608.09998",
-              "score": 82,
-              "sourceCount": 1,
-              "date": "2026-08-13",
-              "publishedAt": "",
-              "reason": "这篇文章深入探讨了深度学习模型的碳足迹问题，提供了重要的数据和见解，值得关注。"
-            },
-            {
-              "title": "ReCBM：不确定性引导的关系推理框架",
-              "summary": "我注意到最近有一篇关于概念瓶颈模型（CBMs）的新研究，提出了一种名为 ReCBM 的框架，旨在通过引入不确定性引导的关系推理来提升模型的鲁棒性。这项研究强调了在不可靠概念状态下进行有效推理的重要性，避免了误导性语义证据的传播。",
-              "source": "RSS · arXiv cs.AI",
-              "url": "https://arxiv.org/abs/2608.10004",
-              "score": 82,
-              "sourceCount": 1,
-              "date": "2026-08-13",
-              "publishedAt": "",
-              "reason": "ReCBM 提供了一种创新的框架，通过不确定性引导的关系推理，显著提升了概念瓶颈模型的鲁棒性，值得关注。"
-            },
-            {
-              "title": "低成本 LLM 代理建模：在笔记本上模拟大型 LLM 代理社会",
-              "summary": "这次发布的核心点是，Igor Itkin 提出了一个低成本的模型来模拟大型语言模型（LLM）代理的社会。通过将每个 LLM 代理替换为一个低参数模型，该方法能够在笔记本电脑上运行，显著降低了模拟的成本和复杂性。此方法的有效性在多个 LLM 模拟中得到了验证，提供了新的研究思路。",
-              "source": "RSS · arXiv cs.AI",
-              "url": "https://arxiv.org/abs/2608.11215",
-              "score": 78,
-              "sourceCount": 1,
-              "date": "2026-08-13",
-              "publishedAt": "",
-              "reason": "这项研究提供了一种低成本的 LLM 代理建模方法，适合广泛的研究和应用，值得关注。"
-            },
-            {
-              "title": "评估上下文压缩中的侧约束损失",
-              "summary": "这次发布的核心点是，LLM系统在上下文窗口受限时，会压缩之前的上下文以继续进行任务。然而，用户发出的某些指令（如“在我确认之前不要删除任何邮件”）在压缩过程中被悄然丢弃。为此，研究团队提出了COMPINT评估套件，旨在量化这一损失。",
-              "source": "RSS · arXiv cs.CL",
-              "url": "https://arxiv.org/abs/2608.11242",
-              "score": 78,
-              "sourceCount": 1,
-              "date": "2026-08-13",
-              "publishedAt": "",
-              "reason": "COMPINT评估套件为LLM系统提供了量化用户指令保留率的新方法，值得关注。"
-            },
-            {
-              "title": "将递归深度整合进预训练语言模型的研究进展",
-              "summary": "这次发布的核心点是通过将递归深度整合到预训练语言模型中，研究者展示了如何在不同参数预算下实现模型的迭代潜在转变。Qwen2.5-0.5B-Instruct模型经过改造后，能够在多个循环中保持性能，且在首次循环中未显著低于基线表现。该研究揭示了递归模块的有效性及其在语言模型中的应用",
-              "source": "RSS · arXiv cs.CL",
-              "url": "https://arxiv.org/abs/2608.11233",
-              "score": 78,
-              "sourceCount": 1,
-              "date": "2026-08-13",
-              "publishedAt": "",
-              "reason": "这项研究为语言模型的优化提供了新的思路，尤其是在递归深度的应用上，值得关注。"
-            },
-            {
-              "title": "MIDAS：不确定性融合的互信息解耦用于不完整多模态情感分析",
-              "summary": "MIDAS提出了一种新方法，旨在解决多模态情感分析中常见的输入不完整问题。尽管现有方法多依赖数据填补和启发式协调约束，但在实际应用中，这些方法往往未能有效提取和利用任务相关信息。该研究强调了在不完整或损坏的模态下进行情感分析的重要性，并为此提供了新的解决思路。",
-              "source": "RSS · arXiv cs.AI",
-              "url": "https://arxiv.org/abs/2608.09986",
-              "score": 78,
-              "sourceCount": 1,
-              "date": "2026-08-13",
-              "publishedAt": "",
-              "reason": "MIDAS为多模态情感分析提供了创新的解决方案，尤其在处理不完整数据方面具有重要价值。"
-            },
-            {
-              "title": "Gloss-Free Representation Learning for Cross-Dataset Sign Spotting",
-              "summary": "arXiv:2608.11332v1 Announce Type: new Abstract: Sign-language research for resource-constrained languages is often limited by the cost of de",
-              "source": "RSS · arXiv cs.CL",
-              "url": "https://arxiv.org/abs/2608.11332",
-              "score": 70,
-              "sourceCount": 1,
-              "date": "2026-08-13",
-              "publishedAt": "",
-              "reason": ""
-            }
-          ]
-        }
-      ]
     }
   ],
   "llmLeaderboard": {
-    "updated": "2026-10-15",
+    "updated": "2026-10-16",
     "source": "ReLE 中文大模型能力评测（综合能力）",
     "sourceUrl": "https://github.com/jeinlee1991/chinese-llm-benchmark",
     "items": [
@@ -19889,6 +19587,16 @@ window.AI_GENERATED_DATA = {
       {
         "rank": 2,
         "type": "商用",
+        "org": "google",
+        "model": "gemini-4-argon(new)",
+        "score": "77.3%",
+        "latency": "19s",
+        "tokens": "738",
+        "cost": "71.6"
+      },
+      {
+        "rank": 3,
+        "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3.7-max",
         "score": "76.9%",
@@ -19897,7 +19605,7 @@ window.AI_GENERATED_DATA = {
         "cost": "99.0"
       },
       {
-        "rank": 3,
+        "rank": 4,
         "type": "商用",
         "org": "anthropic",
         "model": "claude-opus-5(new)",
@@ -19907,7 +19615,7 @@ window.AI_GENERATED_DATA = {
         "cost": "168.8"
       },
       {
-        "rank": 4,
+        "rank": 5,
         "type": "商用",
         "org": "google",
         "model": "gemini-3.8-flash(new)",
@@ -19917,7 +19625,7 @@ window.AI_GENERATED_DATA = {
         "cost": "76.9"
       },
       {
-        "rank": 5,
+        "rank": 6,
         "type": "开源",
         "org": "月之暗面",
         "model": "kimi-k3(new)",
@@ -19927,7 +19635,7 @@ window.AI_GENERATED_DATA = {
         "cost": "172.4"
       },
       {
-        "rank": 6,
+        "rank": 7,
         "type": "商用",
         "org": "豆包",
         "model": "doubao-seed-evolving",
@@ -19937,7 +19645,7 @@ window.AI_GENERATED_DATA = {
         "cost": "304.7"
       },
       {
-        "rank": 7,
+        "rank": 8,
         "type": "商用",
         "org": "google",
         "model": "gemini-3.7-flash(new)",
@@ -19947,7 +19655,7 @@ window.AI_GENERATED_DATA = {
         "cost": "27.8"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3.6-max-preview",
@@ -19957,7 +19665,7 @@ window.AI_GENERATED_DATA = {
         "cost": "139.2"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3.8-max(new)",
@@ -19967,7 +19675,7 @@ window.AI_GENERATED_DATA = {
         "cost": "107.3"
       },
       {
-        "rank": 10,
+        "rank": 11,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.5",
@@ -19977,7 +19685,7 @@ window.AI_GENERATED_DATA = {
         "cost": "158.5"
       },
       {
-        "rank": 11,
+        "rank": 12,
         "type": "开源",
         "org": "智谱AI",
         "model": "glm-5.3(new)",
@@ -19987,7 +19695,7 @@ window.AI_GENERATED_DATA = {
         "cost": "134.9"
       },
       {
-        "rank": 12,
+        "rank": 13,
         "type": "商用",
         "org": "google",
         "model": "gemini-3.1-pro-preview",
@@ -19997,7 +19705,7 @@ window.AI_GENERATED_DATA = {
         "cost": "250.5"
       },
       {
-        "rank": 13,
+        "rank": 14,
         "type": "开源",
         "org": "深度求索",
         "model": "deepseek-v4-pro(new)",
@@ -20007,7 +19715,7 @@ window.AI_GENERATED_DATA = {
         "cost": "94.1"
       },
       {
-        "rank": 14,
+        "rank": 15,
         "type": "商用",
         "org": "豆包",
         "model": "doubao-seed-2-1-pro-260628",
@@ -20015,16 +19723,6 @@ window.AI_GENERATED_DATA = {
         "latency": "276s",
         "tokens": "10677",
         "cost": "313.2"
-      },
-      {
-        "rank": 15,
-        "type": "开源",
-        "org": "腾讯",
-        "model": "hy4-preview(new)",
-        "score": "74.7%",
-        "latency": "95s",
-        "tokens": "6352",
-        "cost": "111.6"
       },
       {
         "rank": 16,
@@ -20038,6 +19736,26 @@ window.AI_GENERATED_DATA = {
       },
       {
         "rank": 17,
+        "type": "开源",
+        "org": "腾讯",
+        "model": "hy4-preview(new)",
+        "score": "74.7%",
+        "latency": "95s",
+        "tokens": "6352",
+        "cost": "111.6"
+      },
+      {
+        "rank": 18,
+        "type": "商用",
+        "org": "anthropic",
+        "model": "claude-sonnet-5.5(new)",
+        "score": "74.5%",
+        "latency": "16s",
+        "tokens": "916",
+        "cost": "46.5"
+      },
+      {
+        "rank": 19,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.6-sol-pro",
@@ -20047,7 +19765,7 @@ window.AI_GENERATED_DATA = {
         "cost": "398.7"
       },
       {
-        "rank": 18,
+        "rank": 20,
         "type": "开源",
         "org": "深度求索",
         "model": "deepseek-v4.1-flash(new)",
@@ -20057,7 +19775,7 @@ window.AI_GENERATED_DATA = {
         "cost": "20.7"
       },
       {
-        "rank": 19,
+        "rank": 21,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-6-astra(new)",
@@ -20067,7 +19785,7 @@ window.AI_GENERATED_DATA = {
         "cost": "108.1"
       },
       {
-        "rank": 20,
+        "rank": 22,
         "type": "开源",
         "org": "智谱AI",
         "model": "glm-5.3-flash(new)",
@@ -20077,7 +19795,7 @@ window.AI_GENERATED_DATA = {
         "cost": "12.7"
       },
       {
-        "rank": 21,
+        "rank": 23,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3.8-flash(new)",
@@ -20087,7 +19805,7 @@ window.AI_GENERATED_DATA = {
         "cost": "10.0"
       },
       {
-        "rank": 22,
+        "rank": 24,
         "type": "商用",
         "org": "豆包",
         "model": "doubao-seed-2-1-pro-260915(new)",
@@ -20097,7 +19815,7 @@ window.AI_GENERATED_DATA = {
         "cost": "85.7"
       },
       {
-        "rank": 23,
+        "rank": 25,
         "type": "商用",
         "org": "google",
         "model": "gemini-3.5-flash",
@@ -20107,7 +19825,7 @@ window.AI_GENERATED_DATA = {
         "cost": "151.2"
       },
       {
-        "rank": 24,
+        "rank": 26,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3.7-plus",
@@ -20117,7 +19835,7 @@ window.AI_GENERATED_DATA = {
         "cost": "31.7"
       },
       {
-        "rank": 25,
+        "rank": 27,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "qwen3.5-plus",
@@ -20127,7 +19845,7 @@ window.AI_GENERATED_DATA = {
         "cost": "22.9"
       },
       {
-        "rank": 26,
+        "rank": 28,
         "type": "商用",
         "org": "豆包",
         "model": "doubao-seed-2-1-turbo-260628",
@@ -20137,7 +19855,7 @@ window.AI_GENERATED_DATA = {
         "cost": "136.3"
       },
       {
-        "rank": 27,
+        "rank": 29,
         "type": "开源",
         "org": "智谱AI",
         "model": "glm-5.2",
@@ -20147,7 +19865,7 @@ window.AI_GENERATED_DATA = {
         "cost": "110.5"
       },
       {
-        "rank": 28,
+        "rank": 30,
         "type": "开源",
         "org": "月之暗面",
         "model": "kimi-k2.6",
@@ -20157,7 +19875,7 @@ window.AI_GENERATED_DATA = {
         "cost": "100.4"
       },
       {
-        "rank": 29,
+        "rank": 31,
         "type": "商用",
         "org": "豆包",
         "model": "Doubao-Seed-2.0-pro",
@@ -20167,7 +19885,7 @@ window.AI_GENERATED_DATA = {
         "cost": "22.5"
       },
       {
-        "rank": 30,
+        "rank": 32,
         "type": "开源",
         "org": "月之暗面",
         "model": "kimi-k2.7-code",
@@ -20177,7 +19895,7 @@ window.AI_GENERATED_DATA = {
         "cost": "49.7"
       },
       {
-        "rank": 31,
+        "rank": 33,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.4-high",
@@ -20187,7 +19905,7 @@ window.AI_GENERATED_DATA = {
         "cost": "122.3"
       },
       {
-        "rank": 32,
+        "rank": 34,
         "type": "商用",
         "org": "豆包",
         "model": "doubao-seed-2-1-lite-260915(new)",
@@ -20197,17 +19915,7 @@ window.AI_GENERATED_DATA = {
         "cost": "9.0"
       },
       {
-        "rank": 33,
-        "type": "商用",
-        "org": "openAI",
-        "model": "gpt-6.1-sol(new)",
-        "score": "71.7%",
-        "latency": "22s",
-        "tokens": "329",
-        "cost": "19.7"
-      },
-      {
-        "rank": 34,
+        "rank": 35,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-6-sol(new)",
@@ -20217,7 +19925,17 @@ window.AI_GENERATED_DATA = {
         "cost": "25.7"
       },
       {
-        "rank": 35,
+        "rank": 36,
+        "type": "商用",
+        "org": "openAI",
+        "model": "gpt-6.1-sol(new)",
+        "score": "71.7%",
+        "latency": "22s",
+        "tokens": "329",
+        "cost": "19.7"
+      },
+      {
+        "rank": 37,
         "type": "开源",
         "org": "深度求索",
         "model": "deepseek-v4-pro-0424",
@@ -20227,7 +19945,7 @@ window.AI_GENERATED_DATA = {
         "cost": "54.3"
       },
       {
-        "rank": 36,
+        "rank": 38,
         "type": "商用",
         "org": "XAI",
         "model": "grok-4.7(new)",
@@ -20237,7 +19955,7 @@ window.AI_GENERATED_DATA = {
         "cost": "210.0"
       },
       {
-        "rank": 37,
+        "rank": 39,
         "type": "商用",
         "org": "anthropic",
         "model": "claude-opus-4.8",
@@ -20247,7 +19965,7 @@ window.AI_GENERATED_DATA = {
         "cost": "99.4"
       },
       {
-        "rank": 38,
+        "rank": 40,
         "type": "开源",
         "org": "小米",
         "model": "mimo-v2.5-pro",
@@ -20257,7 +19975,7 @@ window.AI_GENERATED_DATA = {
         "cost": "64.3"
       },
       {
-        "rank": 39,
+        "rank": 41,
         "type": "商用",
         "org": "阶跃星辰",
         "model": "step-5-preview(new)",
@@ -20267,7 +19985,7 @@ window.AI_GENERATED_DATA = {
         "cost": "61.0"
       },
       {
-        "rank": 40,
+        "rank": 42,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "Qwen3.5-122B-A10B",
@@ -20277,7 +19995,7 @@ window.AI_GENERATED_DATA = {
         "cost": "32.3"
       },
       {
-        "rank": 41,
+        "rank": 43,
         "type": "开源",
         "org": "月之暗面",
         "model": "Kimi-K2.5-Thinking",
@@ -20287,7 +20005,7 @@ window.AI_GENERATED_DATA = {
         "cost": "77.1"
       },
       {
-        "rank": 42,
+        "rank": 44,
         "type": "商用",
         "org": "anthropic",
         "model": "claude-sonnet-5-thinking",
@@ -20297,7 +20015,7 @@ window.AI_GENERATED_DATA = {
         "cost": "93.7"
       },
       {
-        "rank": 43,
+        "rank": 45,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3.6-plus",
@@ -20307,7 +20025,7 @@ window.AI_GENERATED_DATA = {
         "cost": "41.6"
       },
       {
-        "rank": 44,
+        "rank": 46,
         "type": "开源",
         "org": "智谱AI",
         "model": "GLM-5.1",
@@ -20317,7 +20035,7 @@ window.AI_GENERATED_DATA = {
         "cost": "73.8"
       },
       {
-        "rank": 45,
+        "rank": 47,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "Qwen3.5-27B",
@@ -20327,7 +20045,7 @@ window.AI_GENERATED_DATA = {
         "cost": "25.0"
       },
       {
-        "rank": 46,
+        "rank": 48,
         "type": "商用",
         "org": "豆包",
         "model": "Doubao-Seed-2.0-lite",
@@ -20337,7 +20055,7 @@ window.AI_GENERATED_DATA = {
         "cost": "5.4"
       },
       {
-        "rank": 47,
+        "rank": 49,
         "type": "商用",
         "org": "anthropic",
         "model": "claude-opus-4.6",
@@ -20347,7 +20065,7 @@ window.AI_GENERATED_DATA = {
         "cost": "96.5"
       },
       {
-        "rank": 48,
+        "rank": 50,
         "type": "商用",
         "org": "XAI",
         "model": "grok-4.5",
@@ -20357,7 +20075,7 @@ window.AI_GENERATED_DATA = {
         "cost": "125.7"
       },
       {
-        "rank": 49,
+        "rank": 51,
         "type": "商用",
         "org": "XAI",
         "model": "grok-4.6(new)",
@@ -20367,7 +20085,7 @@ window.AI_GENERATED_DATA = {
         "cost": "118.4"
       },
       {
-        "rank": 50,
+        "rank": 52,
         "type": "开源",
         "org": "小米",
         "model": "mimo-v2.6-pro(new)",
@@ -20377,7 +20095,7 @@ window.AI_GENERATED_DATA = {
         "cost": "24.0"
       },
       {
-        "rank": 51,
+        "rank": 53,
         "type": "商用",
         "org": "豆包",
         "model": "Doubao-Seed-2.0-mini",
@@ -20387,7 +20105,7 @@ window.AI_GENERATED_DATA = {
         "cost": "7.0"
       },
       {
-        "rank": 52,
+        "rank": 54,
         "type": "商用",
         "org": "智谱AI",
         "model": "GLM-5-Turbo",
@@ -20397,7 +20115,7 @@ window.AI_GENERATED_DATA = {
         "cost": "60.8"
       },
       {
-        "rank": 53,
+        "rank": 55,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3-max-think-2026-01-23",
@@ -20407,7 +20125,7 @@ window.AI_GENERATED_DATA = {
         "cost": "43.5"
       },
       {
-        "rank": 54,
+        "rank": 56,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-6-luna(new)",
@@ -20417,7 +20135,7 @@ window.AI_GENERATED_DATA = {
         "cost": "2.8"
       },
       {
-        "rank": 55,
+        "rank": 57,
         "type": "开源",
         "org": "智谱AI",
         "model": "GLM-5",
@@ -20427,7 +20145,7 @@ window.AI_GENERATED_DATA = {
         "cost": "61.2"
       },
       {
-        "rank": 56,
+        "rank": 58,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "qwen3.5-flash",
@@ -20437,7 +20155,7 @@ window.AI_GENERATED_DATA = {
         "cost": "10.4"
       },
       {
-        "rank": 57,
+        "rank": 59,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "qwen3.6-27b",
@@ -20447,7 +20165,7 @@ window.AI_GENERATED_DATA = {
         "cost": "73.2"
       },
       {
-        "rank": 58,
+        "rank": 60,
         "type": "开源",
         "org": "深度求索",
         "model": "deepseek-v4-flash-0424",
@@ -20457,7 +20175,7 @@ window.AI_GENERATED_DATA = {
         "cost": "4.9"
       },
       {
-        "rank": 59,
+        "rank": 61,
         "type": "商用",
         "org": "百度",
         "model": "ernie-5.1",
@@ -20467,7 +20185,7 @@ window.AI_GENERATED_DATA = {
         "cost": "32.6"
       },
       {
-        "rank": 60,
+        "rank": 62,
         "type": "开源",
         "org": "阿里巴巴",
         "model": "Qwen3.6-35B-A3B",
@@ -20477,7 +20195,7 @@ window.AI_GENERATED_DATA = {
         "cost": "40.5"
       },
       {
-        "rank": 61,
+        "rank": 63,
         "type": "商用",
         "org": "minimax",
         "model": "MiniMax-M3",
@@ -20487,7 +20205,7 @@ window.AI_GENERATED_DATA = {
         "cost": "37.0"
       },
       {
-        "rank": 62,
+        "rank": 64,
         "type": "开源",
         "org": "阶跃星辰",
         "model": "step-3.7-flash",
@@ -20497,7 +20215,7 @@ window.AI_GENERATED_DATA = {
         "cost": "40.6"
       },
       {
-        "rank": 63,
+        "rank": 65,
         "type": "商用",
         "org": "百度",
         "model": "ERNIE-5.0",
@@ -20507,7 +20225,7 @@ window.AI_GENERATED_DATA = {
         "cost": "89.2"
       },
       {
-        "rank": 64,
+        "rank": 66,
         "type": "开源",
         "org": "深度求索",
         "model": "DeepSeek-V3.2-Think",
@@ -20517,7 +20235,7 @@ window.AI_GENERATED_DATA = {
         "cost": "7.5"
       },
       {
-        "rank": 65,
+        "rank": 67,
         "type": "开源",
         "org": "小米",
         "model": "mimo-v2.6-flash(new)",
@@ -20527,7 +20245,7 @@ window.AI_GENERATED_DATA = {
         "cost": "6.1"
       },
       {
-        "rank": 66,
+        "rank": 68,
         "type": "开源",
         "org": "小米",
         "model": "MiMo-V2-Omni",
@@ -20537,7 +20255,7 @@ window.AI_GENERATED_DATA = {
         "cost": "34.8"
       },
       {
-        "rank": 67,
+        "rank": 69,
         "type": "开源",
         "org": "小米",
         "model": "mimo-v2.5",
@@ -20547,7 +20265,7 @@ window.AI_GENERATED_DATA = {
         "cost": "36.8"
       },
       {
-        "rank": 68,
+        "rank": 70,
         "type": "开源",
         "org": "小米",
         "model": "MiMo-V2-Pro",
@@ -20557,7 +20275,7 @@ window.AI_GENERATED_DATA = {
         "cost": "50.2"
       },
       {
-        "rank": 69,
+        "rank": 71,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.4-mini-high",
@@ -20567,7 +20285,7 @@ window.AI_GENERATED_DATA = {
         "cost": "71.8"
       },
       {
-        "rank": 70,
+        "rank": 72,
         "type": "商用",
         "org": "minimax",
         "model": "MiniMax-M2.7",
@@ -20577,7 +20295,7 @@ window.AI_GENERATED_DATA = {
         "cost": "32.4"
       },
       {
-        "rank": 71,
+        "rank": 73,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.3-chat",
@@ -20587,7 +20305,7 @@ window.AI_GENERATED_DATA = {
         "cost": "51.5"
       },
       {
-        "rank": 72,
+        "rank": 74,
         "type": "商用",
         "org": "阿里巴巴",
         "model": "qwen3-max-2026-01-23",
@@ -20597,7 +20315,7 @@ window.AI_GENERATED_DATA = {
         "cost": "9.7"
       },
       {
-        "rank": 73,
+        "rank": 75,
         "type": "商用",
         "org": "小米",
         "model": "MiMo-V2-Flash-think-0204",
@@ -20607,7 +20325,7 @@ window.AI_GENERATED_DATA = {
         "cost": "7.8"
       },
       {
-        "rank": 74,
+        "rank": 76,
         "type": "开源",
         "org": "阶跃星辰",
         "model": "step-3.5-flash",
@@ -20617,7 +20335,7 @@ window.AI_GENERATED_DATA = {
         "cost": "9.8"
       },
       {
-        "rank": 75,
+        "rank": 77,
         "type": "开源",
         "org": "腾讯",
         "model": "hy3",
@@ -20627,7 +20345,7 @@ window.AI_GENERATED_DATA = {
         "cost": "1.8"
       },
       {
-        "rank": 76,
+        "rank": 78,
         "type": "商用",
         "org": "minimax",
         "model": "MiniMax-M2.5",
@@ -20637,7 +20355,7 @@ window.AI_GENERATED_DATA = {
         "cost": "26.3"
       },
       {
-        "rank": 77,
+        "rank": 79,
         "type": "开源",
         "org": "深度求索",
         "model": "DeepSeek-V3.2",
@@ -20647,7 +20365,7 @@ window.AI_GENERATED_DATA = {
         "cost": "2.4"
       },
       {
-        "rank": 78,
+        "rank": 80,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.4",
@@ -20657,7 +20375,7 @@ window.AI_GENERATED_DATA = {
         "cost": "34.8"
       },
       {
-        "rank": 79,
+        "rank": 81,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.4-nano-high",
@@ -20667,7 +20385,7 @@ window.AI_GENERATED_DATA = {
         "cost": "13.2"
       },
       {
-        "rank": 80,
+        "rank": 82,
         "type": "商用",
         "org": "小米",
         "model": "MiMo-V2-Flash-0204",
@@ -20677,7 +20395,7 @@ window.AI_GENERATED_DATA = {
         "cost": "1.7"
       },
       {
-        "rank": 81,
+        "rank": 83,
         "type": "开源",
         "org": "美团",
         "model": "LongCat-Flash-Lite",
@@ -20687,7 +20405,7 @@ window.AI_GENERATED_DATA = {
         "cost": "0.0"
       },
       {
-        "rank": 82,
+        "rank": 84,
         "type": "开源",
         "org": "openAI",
         "model": "gpt-oss-120b",
@@ -20697,7 +20415,7 @@ window.AI_GENERATED_DATA = {
         "cost": "2.9"
       },
       {
-        "rank": 83,
+        "rank": 85,
         "type": "商用",
         "org": "google",
         "model": "gemini-3.1-flash-lite-preview",
@@ -20707,7 +20425,7 @@ window.AI_GENERATED_DATA = {
         "cost": "3.9"
       },
       {
-        "rank": 84,
+        "rank": 86,
         "type": "开源",
         "org": "google",
         "model": "gemma-4-31b-it",
@@ -20717,7 +20435,7 @@ window.AI_GENERATED_DATA = {
         "cost": "1.4"
       },
       {
-        "rank": 85,
+        "rank": 87,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.4-mini",
@@ -20727,7 +20445,7 @@ window.AI_GENERATED_DATA = {
         "cost": "7.0"
       },
       {
-        "rank": 86,
+        "rank": 88,
         "type": "开源",
         "org": "google",
         "model": "gemma-4-26b-a4b-it",
@@ -20737,7 +20455,7 @@ window.AI_GENERATED_DATA = {
         "cost": "1.7"
       },
       {
-        "rank": 87,
+        "rank": 89,
         "type": "开源",
         "org": "openAI",
         "model": "gpt-oss-20b",
@@ -20747,7 +20465,7 @@ window.AI_GENERATED_DATA = {
         "cost": "2.1"
       },
       {
-        "rank": 88,
+        "rank": 90,
         "type": "商用",
         "org": "openAI",
         "model": "gpt-5.4-nano",
