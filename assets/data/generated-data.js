@@ -1,6 +1,6 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-10-15",
-  "generatedAt": "2026-10-15T00:14:55.151666Z",
+  "generatedAt": "2026-10-15T03:37:15.192317Z",
   "news": [
     {
       "title": "Claude Code 空闲压缩从摘要继续，可用 idleCompaction 关闭并自定义阈值",
@@ -123,6 +123,341 @@ window.AI_GENERATED_DATA = {
       "sourceDate": "",
       "tags": [],
       "url": "https://aws.amazon.com/blogs/machine-learning/build-self-improving-document-processing-using-amazon-bedrock-agentcore/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Code-Switching Detection via Language-Selective Dimensions in Speech Foundation Models",
+      "summary": "Code-switching (CS), the alternation between languages within an utterance, is common in multilingual speech but underrepresented in pretraining corpora. Increasing CS coverage req",
+      "category": "ai-coding",
+      "source": "RSS · Apple ML Research",
+      "date": "2026-10-14",
+      "publishedAt": "2026-10-14T08:00",
+      "collectedAt": "2026-10-15T11:37",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://machinelearning.apple.com/research/code-switching-detection",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "The Design Space of Tri-Modal Masked Diffusion Models",
+      "summary": "Discrete diffusion models have emerged as strong alternatives to autoregressive language models, with recent work initializing and finetuning a base unimodal model for bi-modal gen",
+      "category": "ai-image-video",
+      "source": "RSS · Apple ML Research",
+      "date": "2026-10-14",
+      "publishedAt": "2026-10-14T08:00",
+      "collectedAt": "2026-10-15T11:37",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://machinelearning.apple.com/research/tri-modal-masked-diffusion",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Energy Consumption Analysis of Discrete Diffusion and Autoregressive Language Models",
+      "summary": "As Large Language Models (LLMs) continue to scale, their energy consumption during inference has become a critical concern. While Autoregressive (AR) models are the industry standa",
+      "category": "ai-benchmark",
+      "source": "arXiv",
+      "date": "2026-10-14",
+      "publishedAt": "",
+      "collectedAt": "2026-10-15T09:21",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-14",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.19855v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "The Cost of Context: Profiling the Energy Footprint of Input Tokens in Large Language Models",
+      "summary": "The rapid adoption of Retrieval-Augmented Generation (RAG) and long-context LLMs has shifted the computational burden toward the prefill phase---the initial stage where the model p",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-10-14",
+      "publishedAt": "",
+      "collectedAt": "2026-10-15T09:21",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-14",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.19819v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "OpenTWBench (Open Taiwan Benchmark): Taiwan-Domain Knowledge Evaluation for Large Language Models, and How the Measurement Apparatus Shapes the Score",
+      "summary": "We present OpenTWBench, an open evaluation suite for Taiwan-domain knowledge in large language models, built around two benchmarks. tw-exam-bench contains 255,854 four-option quest",
+      "category": "ai-benchmark",
+      "source": "arXiv",
+      "date": "2026-10-14",
+      "publishedAt": "",
+      "collectedAt": "2026-10-15T09:21",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-14",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.19848v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "benchmarkDatasets",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Text-Informed Training Data Filtering for Enhanced Virtual Flow Meter Performance",
+      "summary": "In sectors such as energy, aquaculture and chemical processing, the effectiveness of both mechanistic and data-driven models is frequently limited by poor-quality training data, wh",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-10-14",
+      "publishedAt": "",
+      "collectedAt": "2026-10-15T09:21",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-14",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.19860v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Learning Perception to Action Rules through Reinforcement Learning for Theory-of-Mind Reasoning",
+      "summary": "In Theory-of-Mind (ToM) reasoning, large language models may correctly infer the agent's mental state but fail to use that inference when predicting or judging the agent's subseque",
+      "category": "ai-agents",
+      "source": "arXiv",
+      "date": "2026-10-14",
+      "publishedAt": "",
+      "collectedAt": "2026-10-15T09:21",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-14",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.19796v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "RuleTrek: Benchmarking Agentic Rule Reasoning in Complex Scenarios",
+      "summary": "Large language models (LLMs) increasingly tackle complex real-world tasks in specialized domains. However, identifying and correctly applying domain-specific rules remains challeng",
+      "category": "ai-benchmark",
+      "source": "arXiv",
+      "date": "2026-10-14",
+      "publishedAt": "",
+      "collectedAt": "2026-10-15T09:21",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-14",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.19698v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "When Extremists Enter LLM Societies: Investigating Extreme Behavior in Multi-Agent Systems",
+      "summary": "Large language model (LLM) agents increasingly serve as computational actors in multi-agent social simulations. While existing work emphasizes representative personas and average-c",
+      "category": "ai-agents",
+      "source": "arXiv",
+      "date": "2026-10-14",
+      "publishedAt": "",
+      "collectedAt": "2026-10-15T09:21",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-14",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.19863v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "ReproBAIT: Can coding agents build their own biological AI tools?",
+      "summary": "Large language models are increasingly competent at leveraging scientific knowledge and existing computational tools to execute complex workflows. At present, little information ex",
+      "category": "ai-coding",
+      "source": "arXiv",
+      "date": "2026-10-14",
+      "publishedAt": "",
+      "collectedAt": "2026-10-15T09:21",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-14",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.19810v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "ReFormBench: Benchmarking the Stability of Response-Conditioned Format Correction in Large Language Models",
+      "summary": "Reliable use of large language models requires responses to satisfy formatting requirements across changing instructions. Standard compliance scores do not distinguish preserving a",
+      "category": "ai-benchmark",
+      "source": "arXiv",
+      "date": "2026-10-14",
+      "publishedAt": "",
+      "collectedAt": "2026-10-15T09:21",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-14",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.19693v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "benchmarkDatasets"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "C3: Rethinking Process Supervision via Confidence-Guided Credit Correction in Multi-Turn Reinforcement Learning",
+      "summary": "Large language models are increasingly trained as multi-turn agents that interact with external tools. However, outcome-only reinforcement learning can produce a form of misguided ",
+      "category": "ai-agents",
+      "source": "arXiv",
+      "date": "2026-10-14",
+      "publishedAt": "",
+      "collectedAt": "2026-10-15T09:21",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-14",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.19695v1",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -2425,223 +2760,6 @@ window.AI_GENERATED_DATA = {
       "moduleTargets": [
         "news",
         "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "AMLworld-Compact: Importance-Weighted Downsampling for Cost-Effective LLM Evaluation and Error Diagnosis",
-      "summary": "Evaluating large language models (LLMs) on AMLworld's smallest test splits is costly because each of over a million targets requires a separate graph prompt. Sampling reduces this ",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-10-09",
-      "publishedAt": "",
-      "collectedAt": "2026-10-12T14:46",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-09",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.13627v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "A Comprehensive JWST Slitless Spectroscopic Census of $\\sim$12,000 Emission-Line Galaxies at Redshift $0\\sim9$ in COSMOS",
-      "summary": "Emission-line galaxies provide key diagnostics of star formation, chemical enrichment, and AGN activity across cosmic time. We present a systematic census of emission-line sources ",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-10-09",
-      "publishedAt": "",
-      "collectedAt": "2026-10-12T13:26",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-09",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.13920v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "QTestBench: A Test Framework for Evaluating LLM-Generated Quantum Code",
-      "summary": "Large language models (LLMs) have shown strong results in classical code generation and are increasingly used to write the unit tests that safeguard that code. Whether they can do ",
-      "category": "ai-coding",
-      "source": "arXiv",
-      "date": "2026-10-09",
-      "publishedAt": "",
-      "collectedAt": "2026-10-12T13:26",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-09",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.13811v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Tracing and Taming Hallucinated Terms via Subsequence-Association Filtering and Breadth-Aware Selection for LLM Query Expansion",
-      "summary": "Large language models (LLMs) are now a standard source of query expansion terms but they hallucinate. They inject non existent entities and off-topic terms that add ranking noise a",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-10-09",
-      "publishedAt": "",
-      "collectedAt": "2026-10-12T13:26",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-09",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.13810v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Artificial Intelligence-Assisted Systems Biology Reconstruction of Diabetic Bone Marrow Dysfunction",
-      "summary": "This study aimed to reconstruct a regulatory network suitable for systems biology analysis of diabetic bone marrow. Three artificial intelligence large language models independentl",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-10-09",
-      "publishedAt": "",
-      "collectedAt": "2026-10-12T13:26",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-09",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.13721v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "OpenSocialJax: Evaluating Social Adaptation in Sequential Social Dilemmas with Open-Ended Environmental Dynamics",
-      "summary": "Sequential social dilemma benchmarks capture diverse social interactions, but rarely test whether agents can infer hidden environmental rules through repeated interaction while ada",
-      "category": "ai-benchmark",
-      "source": "arXiv",
-      "date": "2026-10-09",
-      "publishedAt": "",
-      "collectedAt": "2026-10-12T13:26",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-09",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.13710v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Same Query, Different Answer: Run-to-Run Variance in Semantic Query Processing",
-      "summary": "Semantic query engines ask a large language model (LLM) to judge individual rows, and benchmarks compare these engines on the quality of a few executions at temperature 0. We measu",
-      "category": "ai-benchmark",
-      "source": "arXiv",
-      "date": "2026-10-09",
-      "publishedAt": "",
-      "collectedAt": "2026-10-12T13:26",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-09",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.13823v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Task Context Shapes Component Roles in Language Models",
-      "summary": "Large language models reuse the same attention heads across tasks, but identifying these shared heads does not explain what they do differently in each task. A natural source of in",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-10-09",
-      "publishedAt": "",
-      "collectedAt": "2026-10-12T13:26",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-09",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.13895v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
       ],
       "sourceCount": 1
     }
@@ -5742,6 +5860,28 @@ window.AI_GENERATED_DATA = {
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Code-Switching Detection via Language-Selective Dimensions i",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Code-switching (CS), the alternation between languages within an utterance, is common in multilingual speech but underrepresented in pretraining corpora. Increa",
+        "description": "Code-switching (CS), the alternation between languages within an utterance, is common in multilingual speech but underrepresented in pretraining corpora. Increasing CS coverage req",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Apple ML Research",
+        "url": "https://machinelearning.apple.com/research/code-switching-detection"
+      },
+      {
+        "name": "ReproBAIT: Can coding agents build their own biological AI t",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Large language models are increasingly competent at leveraging scientific knowledge and existing computational tools to execute complex workflows. At present, l",
+        "description": "Large language models are increasingly competent at leveraging scientific knowledge and existing computational tools to execute complex workflows. At present, little information ex",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2610.19810v1"
+      },
+      {
         "name": "Amp puts AI agents to work beyond code with OpenAI models",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -6158,31 +6298,42 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · Together AI",
         "url": "https://www.together.ai/blog/together-link-frontier-quality-open-models-in-the-harness-you-already-use"
-      },
-      {
-        "name": "PrivDev: Mapping Static-Analysis Data Types to DPV",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Static-analysis scanners can identify personal-data types in source code, but they lack mechanisms to connect these findings to standardized privacy vocabularie",
-        "description": "Static-analysis scanners can identify personal-data types in source code, but they lack mechanisms to connect these findings to standardized privacy vocabularies. PrivDev maps 122 ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2610.03518v1"
-      },
-      {
-        "name": "Balance AI innovation and governance with Sumo Logic AI and ",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Discover how Sumo Logic’s suite of AI/ML apps—including ChatGPT, Claude, and GitHub Copilot integrations—helps security teams govern LLM usage, monitor spend, a",
-        "description": "Discover how Sumo Logic’s suite of AI/ML apps—including ChatGPT, Claude, and GitHub Copilot integrations—helps security teams govern LLM usage, monitor spend, and eliminate blind s",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.sumologic.com/blog/sumo-logic-ai-ml-apps-governance"
       }
     ],
     "ai-agents": [
+      {
+        "name": "Learning Perception to Action Rules through Reinforcement Le",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "In Theory-of-Mind (ToM) reasoning, large language models may correctly infer the agent's mental state but fail to use that inference when predicting or judging ",
+        "description": "In Theory-of-Mind (ToM) reasoning, large language models may correctly infer the agent's mental state but fail to use that inference when predicting or judging the agent's subseque",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2610.19796v1"
+      },
+      {
+        "name": "When Extremists Enter LLM Societies: Investigating Extreme B",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Large language model (LLM) agents increasingly serve as computational actors in multi-agent social simulations. While existing work emphasizes representative pe",
+        "description": "Large language model (LLM) agents increasingly serve as computational actors in multi-agent social simulations. While existing work emphasizes representative personas and average-c",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2610.19863v1"
+      },
+      {
+        "name": "C3: Rethinking Process Supervision via Confidence-Guided Cre",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Large language models are increasingly trained as multi-turn agents that interact with external tools. However, outcome-only reinforcement learning can produce ",
+        "description": "Large language models are increasingly trained as multi-turn agents that interact with external tools. However, outcome-only reinforcement learning can produce a form of misguided ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2610.19695v1"
+      },
       {
         "name": "Meta 的 Muse Wonder (Max) 以 +6.4% 净提升进入 Agent Arena 第12名",
         "provider": "X：Arena (@arena)",
@@ -6589,39 +6740,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:AI agent",
         "url": "https://www.businesstimes.com.sg/startups-tech/startups/ai-agent-platform-drylab-ai-raises-us3-million-seed-round-vertex-ventures-and-patsnap"
-      },
-      {
-        "name": "Can Enterprises Trust AI To Build Apps? Oracle APEX Makes Th",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Oracle’s APEX AI Application Generator uses APEXlang to make AI-built enterprise apps governable and auditable. What it means for CIOs weighing AI app developme",
-        "description": "Oracle’s APEX AI Application Generator uses APEXlang to make AI-built enterprise apps governable and auditable. What it means for CIOs weighing AI app development.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://www.forbes.com/sites/stevemcdowell/2026/10/12/can-enterprises-trust-ai-to-build-apps-oracle-apex-makes-the-case/"
-      },
-      {
-        "name": "Oobit launches AI payments for stablecoin purchases",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Users in more than 75 countries can now approve AI-made purchases without handing assistants ongoing access to funds or card details.",
-        "description": "Users in more than 75 countries can now approve AI-made purchases without handing assistants ongoing access to funds or card details.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI agent",
-        "url": "https://cfotech.co.nz/story/oobit-launches-ai-payments-for-stablecoin-purchases"
-      },
-      {
-        "name": "Self-Compacting Language Model Agents",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Long agent traces composed of chains of thought and tool calls accumulate stale content that anchor subsequent generations, and eventually outgrow the context w",
-        "description": "Long agent traces composed of chains of thought and tool calls accumulate stale content that anchor subsequent generations, and eventually outgrow the context window. Existing scaf",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · Apple ML Research",
-        "url": "https://machinelearning.apple.com/research/self-compacting-language-agents"
       }
     ],
     "ai-models": [
@@ -7510,6 +7628,28 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-benchmark": [
       {
+        "name": "OpenTWBench (Open Taiwan Benchmark): Taiwan-Domain Knowledge",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "We present OpenTWBench, an open evaluation suite for Taiwan-domain knowledge in large language models, built around two benchmarks. tw-exam-bench contains 255,8",
+        "description": "We present OpenTWBench, an open evaluation suite for Taiwan-domain knowledge in large language models, built around two benchmarks. tw-exam-bench contains 255,854 four-option quest",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2610.19848v1"
+      },
+      {
+        "name": "RuleTrek: Benchmarking Agentic Rule Reasoning in Complex Sce",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Large language models (LLMs) increasingly tackle complex real-world tasks in specialized domains. However, identifying and correctly applying domain-specific ru",
+        "description": "Large language models (LLMs) increasingly tackle complex real-world tasks in specialized domains. However, identifying and correctly applying domain-specific rules remains challeng",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2610.19698v1"
+      },
+      {
         "name": "Muse Wonder vs Claude Opus 5.5: What Developers Can Buy",
         "provider": "NewsData.io",
         "type": "AI 项目/工具",
@@ -7965,36 +8105,6 @@ window.AI_GENERATED_DATA = {
         "watch": "在使用过程中，可能会遇到加载问题，建议检查网络连接或尝试不同的浏览器。",
         "sourceName": "NewsAPI:AI benchmark leaderboard",
         "url": "https://pypi.org/project/local-bench-ai/0.4.13/"
-      },
-      {
-        "name": "rqeval 被添加至 PyPI，提供多维度 LLM 评估框架",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "rqeval 的推出将对 LLM 开发者和研究人员产生深远影响。首先，开发者可以利用该工具更准确地评估其模型的推理能力，从而优化模型设计。其次，研究人员能够通过 rqeval 获得更丰富的实验数据，推动 LLM 理论研究的深入。此外，rqeval 的多维度评估框架可能促使更多企业关注 LLM 的推理质量，进而影响他们的",
-        "description": "rqeval 作为一个多维度行为框架，专注于超越准确性评估 LLM 推理质量，现已上线 PyPI。该工具的推出为开发者提供了更全面的评估手段，尤其在处理复杂推理任务时，能够显著提升评估的深度和广度。",
-        "useCases": [
-          "使用 rqeval 评估 LLM 在特定任务中的推理能力，获取更全面的性能数据。",
-          "结合 rqeval 进行模型优化，提升 LLM 在复杂场景下的表现。",
-          "利用 rqeval 进行学术研究，探索 LLM 推理过程中的潜在问题。"
-        ],
-        "watch": "rqeval 可能需要较高的计算资源，导致使用成本上升。",
-        "sourceName": "NewsAPI:AI benchmark leaderboard",
-        "url": "https://pypi.org/project/rqeval/"
-      },
-      {
-        "name": "best-engine-ai-helper 已添加至 PyPI",
-        "provider": "NewsAPI",
-        "type": "AI 项目/工具",
-        "bestFor": "best-engine-ai-helper 的推出将对开发者产生显著影响，尤其是那些在多种硬件环境中工作的工程师。通过简化模型选择过程，开发者能够更快地进行原型开发和产品迭代，从而提升整体工作效率。此外，该工具的使用可能会促使更多开发者尝试本地 LLM/VLM，推动相关技术的普及和应用。随着 AI 工具的不断演进，类似",
-        "description": "best-engine-ai-helper 现已在 PyPI 上线，旨在为用户选择和提取最适合当前硬件的本地 LLM/VLM。这一工具的推出将简化用户在不同硬件环境下的模型选择过程，提升开发效率。",
-        "useCases": [
-          "选择适合当前硬件的 LLM/VLM，提升开发效率。",
-          "快速评估不同模型的性能，优化项目进度。",
-          "在多样化硬件环境中，简化模型选择流程。"
-        ],
-        "watch": "可能面临 API 使用限制，影响工具的灵活性。",
-        "sourceName": "NewsAPI:AI benchmark leaderboard",
-        "url": "https://pypi.org/project/best-engine-ai-helper/"
       }
     ],
     "ai-image-video": [
@@ -8441,6 +8551,28 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-research": [
       {
+        "name": "The Design Space of Tri-Modal Masked Diffusion Models",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Discrete diffusion models have emerged as strong alternatives to autoregressive language models, with recent work initializing and finetuning a base unimodal mo",
+        "description": "Discrete diffusion models have emerged as strong alternatives to autoregressive language models, with recent work initializing and finetuning a base unimodal model for bi-modal gen",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Apple ML Research",
+        "url": "https://machinelearning.apple.com/research/tri-modal-masked-diffusion"
+      },
+      {
+        "name": "The Cost of Context: Profiling the Energy Footprint of Input",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "The rapid adoption of Retrieval-Augmented Generation (RAG) and long-context LLMs has shifted the computational burden toward the prefill phase---the initial sta",
+        "description": "The rapid adoption of Retrieval-Augmented Generation (RAG) and long-context LLMs has shifted the computational burden toward the prefill phase---the initial stage where the model p",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2610.19819v1"
+      },
+      {
         "name": "10 Best AI SEO Tools for Founders That Actually Move The Nee",
         "provider": "NewsData.io",
         "type": "AI 项目/工具",
@@ -8857,28 +8989,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:artificial intelligence",
         "url": "http://www.beijingbulletin.com/news/279341653/china-outlines-sci-tech-priorities-for-2026-2030-to-underpin-high-quality-development"
-      },
-      {
-        "name": "China outlines sci-tech priorities for 2026-2030 to underpin",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "BEIJING, Sept. 30 (Xinhua) -- China will strengthen basic research, tackle core technologies and speed up the industrial application of research results during ",
-        "description": "BEIJING, Sept. 30 (Xinhua) -- China will strengthen basic research, tackle core technologies and speed up the industrial application of research results during the 15th Five-Year P",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:artificial intelligence",
-        "url": "http://www.californiatelegraph.com/news/279341653/china-outlines-sci-tech-priorities-for-2026-2030-to-underpin-high-quality-development"
-      },
-      {
-        "name": "China outlines sci-tech priorities for 2026-2030 to underpin",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "BEIJING, Sept. 30 (Xinhua) -- China will strengthen basic research, tackle core technologies and speed up the industrial application of research results during ",
-        "description": "BEIJING, Sept. 30 (Xinhua) -- China will strengthen basic research, tackle core technologies and speed up the industrial application of research results during the 15th Five-Year P",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:artificial intelligence",
-        "url": "http://www.shanghaisun.com/news/279341653/china-outlines-sci-tech-priorities-for-2026-2030-to-underpin-high-quality-development"
       }
     ],
     "ai-office": []
@@ -10287,8 +10397,8 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-10-15",
-    "generatedAt": "2026-10-15T00:14:55.127594Z",
-    "total": 24,
+    "generatedAt": "2026-10-15T03:37:15.171547Z",
+    "total": 35,
     "sections": [
       {
         "category": "ai-coding",
@@ -10303,6 +10413,28 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-10-15",
             "publishedAt": "2026-10-15T05:36",
+            "reason": ""
+          },
+          {
+            "title": "Code-Switching Detection via Language-Selective Dimensions in Speech Foundation Models",
+            "summary": "Code-switching (CS), the alternation between languages within an utterance, is common in multilingual speech but underrepresented in pretrai",
+            "source": "RSS · Apple ML Research",
+            "url": "https://machinelearning.apple.com/research/code-switching-detection",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-14",
+            "publishedAt": "2026-10-14T08:00",
+            "reason": ""
+          },
+          {
+            "title": "ReproBAIT: Can coding agents build their own biological AI tools?",
+            "summary": "Large language models are increasingly competent at leveraging scientific knowledge and existing computational tools to execute complex work",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.19810v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-14",
+            "publishedAt": "",
             "reason": ""
           },
           {
@@ -10325,6 +10457,23 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-10-14",
             "publishedAt": "2026-10-14T15:00",
+            "reason": ""
+          }
+        ]
+      },
+      {
+        "category": "ai-image-video",
+        "label": "图像视频",
+        "items": [
+          {
+            "title": "The Design Space of Tri-Modal Masked Diffusion Models",
+            "summary": "Discrete diffusion models have emerged as strong alternatives to autoregressive language models, with recent work initializing and finetunin",
+            "source": "RSS · Apple ML Research",
+            "url": "https://machinelearning.apple.com/research/tri-modal-masked-diffusion",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-14",
+            "publishedAt": "2026-10-14T08:00",
             "reason": ""
           }
         ]
@@ -10353,6 +10502,39 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-10-15",
             "publishedAt": "2026-10-15T00:24",
+            "reason": ""
+          },
+          {
+            "title": "Learning Perception to Action Rules through Reinforcement Learning for Theory-of-Mind Reasoning",
+            "summary": "In Theory-of-Mind (ToM) reasoning, large language models may correctly infer the agent's mental state but fail to use that inference when pr",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.19796v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-14",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "When Extremists Enter LLM Societies: Investigating Extreme Behavior in Multi-Agent Systems",
+            "summary": "Large language model (LLM) agents increasingly serve as computational actors in multi-agent social simulations. While existing work emphasiz",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.19863v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-14",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "C3: Rethinking Process Supervision via Confidence-Guided Credit Correction in Multi-Turn Reinforcement Learning",
+            "summary": "Large language models are increasingly trained as multi-turn agents that interact with external tools. However, outcome-only reinforcement l",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.19695v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-14",
+            "publishedAt": "",
             "reason": ""
           },
           {
@@ -10436,6 +10618,28 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-10-15",
             "publishedAt": "2026-10-15T00:12",
+            "reason": ""
+          },
+          {
+            "title": "The Cost of Context: Profiling the Energy Footprint of Input Tokens in Large Language Models",
+            "summary": "The rapid adoption of Retrieval-Augmented Generation (RAG) and long-context LLMs has shifted the computational burden toward the prefill pha",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.19819v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-14",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Text-Informed Training Data Filtering for Enhanced Virtual Flow Meter Performance",
+            "summary": "In sectors such as energy, aquaculture and chemical processing, the effectiveness of both mechanistic and data-driven models is frequently l",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.19860v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-14",
+            "publishedAt": "",
             "reason": ""
           },
           {
@@ -10536,16 +10740,55 @@ window.AI_GENERATED_DATA = {
             "date": "2026-10-14",
             "publishedAt": "2026-10-14T00:01",
             "reason": ""
-          },
+          }
+        ]
+      },
+      {
+        "category": "ai-benchmark",
+        "label": "评测榜单",
+        "items": [
           {
-            "title": "Gemini 4 Argon: Built to solve your hardest problems",
-            "summary": "",
-            "source": "RSS · Google DeepMind",
-            "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+            "title": "Energy Consumption Analysis of Discrete Diffusion and Autoregressive Language Models",
+            "summary": "As Large Language Models (LLMs) continue to scale, their energy consumption during inference has become a critical concern. While Autoregres",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.19855v1",
             "score": 70,
             "sourceCount": 1,
             "date": "2026-10-14",
-            "publishedAt": "2026-10-14T00:01",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "OpenTWBench (Open Taiwan Benchmark): Taiwan-Domain Knowledge Evaluation for Large Language Models, and How the Measurement Apparatus Shapes the Score",
+            "summary": "We present OpenTWBench, an open evaluation suite for Taiwan-domain knowledge in large language models, built around two benchmarks. tw-exam-",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.19848v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-14",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "RuleTrek: Benchmarking Agentic Rule Reasoning in Complex Scenarios",
+            "summary": "Large language models (LLMs) increasingly tackle complex real-world tasks in specialized domains. However, identifying and correctly applyin",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.19698v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-14",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "ReFormBench: Benchmarking the Stability of Response-Conditioned Format Correction in Large Language Models",
+            "summary": "Reliable use of large language models requires responses to satisfy formatting requirements across changing instructions. Standard complianc",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.19693v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-14",
+            "publishedAt": "",
             "reason": ""
           }
         ]
@@ -20615,6 +20858,30 @@ window.AI_GENERATED_DATA = {
     ]
   },
   "benchmarkDatasets": [
+    {
+      "name": "OpenTWBench",
+      "area": "AI 模型能力评测",
+      "note": "We present OpenTWBench, an open evaluation suite for Taiwan-domain knowledge in large language models, built around two benchmarks. tw-exam-bench contains 255,854 four-option quest",
+      "source": "http://arxiv.org/abs/2610.19848v1",
+      "sourceName": "arXiv",
+      "date": "2026-10-14",
+      "originTitle": "OpenTWBench (Open Taiwan Benchmark): Taiwan-Domain Knowledge Evaluation for Large Language Models, and How the Measurement Apparatus Shapes the Score",
+      "evaluates": [],
+      "useCases": [],
+      "limitations": []
+    },
+    {
+      "name": "ReFormBench",
+      "area": "AI 模型能力评测",
+      "note": "Reliable use of large language models requires responses to satisfy formatting requirements across changing instructions. Standard compliance scores do not distinguish preserving a",
+      "source": "http://arxiv.org/abs/2610.19693v1",
+      "sourceName": "arXiv",
+      "date": "2026-10-14",
+      "originTitle": "ReFormBench: Benchmarking the Stability of Response-Conditioned Format Correction in Large Language Models",
+      "evaluates": [],
+      "useCases": [],
+      "limitations": []
+    },
     {
       "name": "CursorBench",
       "area": "AI 模型能力评测",
