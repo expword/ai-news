@@ -1,7 +1,34 @@
 {
   "lastUpdated": "2026-10-15",
-  "generatedAt": "2026-10-15T12:44:30.438431Z",
+  "generatedAt": "2026-10-15T15:07:44.859701Z",
   "news": [
+    {
+      "title": "Apertus 1.5 Release Notes",
+      "summary": "",
+      "category": "ai-models",
+      "source": "RSS · Hugging Face Blog",
+      "date": "2026-10-15",
+      "publishedAt": "2026-10-15T17:08",
+      "collectedAt": "2026-10-15T21:56",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Do Vision CIL Methods Transfer to Protein? A Diagnostic Benchmark of Frozen Protein Encoders",
       "summary": "arXiv:2610.18879v1 Announce Type: new Abstract: Protein function annotation operates over an expanding label space, making class-incremental learning (CIL) a natural framework for ",
@@ -2455,41 +2482,6 @@
         "topicResources"
       ],
       "sourceCount": 1
-    },
-    {
-      "title": "How ShipStation Global built an AI IT help desk on Amazon Bedrock AgentCore",
-      "summary": "ShipStation Global's engineering team built Deckhand, an AI IT help desk agent for Slack on Amazon Bedrock AgentCore. It answers routine IT questions from a curated knowledge base,",
-      "category": "ai-agents",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-10-13",
-      "publishedAt": "2026-10-13T23:54",
-      "collectedAt": "2026-10-14T01:43",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-shipstation-global-built-an-ai-it-help-desk-on-amazon-bedrock-agentcore/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 2,
-      "relatedSources": [
-        {
-          "source": "RSS · AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/generate-presentations-with-amazon-bedrock-agentcore/",
-          "title": "Generate presentations with Amazon Bedrock AgentCore"
-        }
-      ]
     }
   ],
   "weeklyDigests": [
@@ -5587,6 +5579,39 @@
   "topicResources": {
     "ai-coding": [
       {
+        "name": "IM 892: Pants-based Benchmarks - GitHub's Agent Revolution",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "GitHub’s developer relations VP, Martin Woodward, reveals just how dramatically AI agents are reshaping who codes, what gets built, and why open source maintain",
+        "description": "GitHub’s developer relations VP, Martin Woodward, reveals just how dramatically AI agents are reshaping who codes, what gets built, and why open source maintainers are",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:open source LLM",
+        "url": "https://twit.tv/shows/intelligent-machines/episodes/892"
+      },
+      {
+        "name": "ReadyServer includes AI model access with every VPS plan, wi",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "ReadyServer includes AI model access with every VPS plan, without per-token billingSINGAPORE – – 14 October 2026 – ReadyServer, a Singapore-based provid",
+        "description": "ReadyServer includes AI model access with every VPS plan, without per-token billingSINGAPORE – – 14 October 2026 – ReadyServer, a Singapore-based provid",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI coding tool",
+        "url": "https://asianews.network/readyserver-includes-ai-model-access-with-every-vps-plan-without-per-token-billing/"
+      },
+      {
+        "name": "OpenAI goes beyond code",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "RaktKhoj, an AI tool developed by two Chandigarh professionals, connects blood donors with patients via WhatsApp, addressing blood shortages and easing access a",
+        "description": "RaktKhoj, an AI tool developed by two Chandigarh professionals, connects blood donors with patients via WhatsApp, addressing blood shortages and easing access amid limited supplies",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.financialexpress.com/life/technology-openai-goes-beyond-code-4361627/"
+      },
+      {
         "name": "Doc2Harness: Benchmarking LLMs on Long-Horizon Harness Engin",
         "provider": "arXiv",
         "type": "AI 项目/工具",
@@ -5992,42 +6017,97 @@
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:AI coding tool",
         "url": "https://www.frontier-enterprise.com/from-coding-to-orchestrating-the-new-role-of-engineers/"
-      },
-      {
-        "name": "Daily 'AI for Work' Pulse: 6th of October",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Start your Tuesday strong with 8 new AI tools and 31 AI news articles. Fresh finds mixed with solid updates to keep your workflow sharp and your ideas moving.",
-        "description": "Start your Tuesday strong with 8 new AI tools and 31 AI news articles. Fresh finds mixed with solid updates to keep your workflow sharp and your ideas moving.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI coding tool",
-        "url": "https://completeaitraining.com/newsletter/daily-ai-for-work-pulse-6th-of-october/"
-      },
-      {
-        "name": "Introducing GLM 5.3 on Amazon Bedrock",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "GLM 5.3 from Z.ai is now available on Amazon Bedrock: a 753B-parameter mixture-of-experts model built for coding and long-horizon agentic tasks. Learn how to in",
-        "description": "GLM 5.3 from Z.ai is now available on Amazon Bedrock: a 753B-parameter mixture-of-experts model built for coding and long-horizon agentic tasks. Learn how to invoke it with the Ope",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/introducing-glm-5-3-on-amazon-bedrock/"
-      },
-      {
-        "name": "New agent skill: Amazon SageMaker optimized generative AI in",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Amazon SageMaker optimized generative AI inference introduces the aws-ai-ml skill through the Agent Toolkit for AWS, giving coding agents like Kiro, Claude Code",
-        "description": "Amazon SageMaker optimized generative AI inference introduces the aws-ai-ml skill through the Agent Toolkit for AWS, giving coding agents like Kiro, Claude Code, and Codex deep exp",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/new-agent-skill-amazon-sagemaker-optimized-generative-ai-inference-for-your-coding-agent/"
       }
     ],
     "ai-agents": [
+      {
+        "name": "Award Winning Enterprise AI and Automation Provider, Fooyo, ",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Singapore AI engineering studio embeds senior engineers inside client operations across logistics, travel, retail and finance, replacing stalled pilots with wor",
+        "description": "Singapore AI engineering studio embeds senior engineers inside client operations across logistics, travel, retail and finance, replacing stalled pilots with working agentic AI syst",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Claude AI",
+        "url": "https://www.openpr.com/news/4662060/award-winning-enterprise-ai-and-automation-provider-fooyo"
+      },
+      {
+        "name": "Google 工程师讲解如何系统评测 AI 智能体，告别 vibe check",
+        "provider": "Google Developers Blog（RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "Google Developers Blog 发布智能体评测实践指南，指出仅靠终端跑几个提示词的 vibe check 无法发现智能体重试循环、工具参数幻觉等隐性失败。",
+        "description": "Google Developers Blog 发布智能体评测实践指南，指出仅靠终端跑几个提示词的 vibe check 无法发现智能体重试循环、工具参数幻觉等隐性失败。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Google Developers Blog（RSS）",
+        "url": "https://developers.googleblog.com/evaluating-ai-agents-moving-past-the-vibe-check/"
+      },
+      {
+        "name": "George on Wednesday: Pope Leo Has Lung Cancer, Guilfoyle Res",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "@THE LEDE Good morning! Today is Wednesday, the fourteenth of October, 2026 and this is the Wednesday Edition of GEORGE. For all its promises of progress, a con",
+        "description": "@THE LEDE Good morning! Today is Wednesday, the fourteenth of October, 2026 and this is the Wednesday Edition of GEORGE. For all its promises of progress, a connected world remains",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://www.frequentbusinesstraveler.com/2026/10/george-on-wednesday-pope-leo-has-lung-cancer-guilfoyle-resigns-as-ambassador-to-greece-ai-could-copy-itself-into-home-devices-french-protest-turnout-doubles-imf-raises-growth-forecast/"
+      },
+      {
+        "name": "Perplexity details Git-based persistent workspaces for AI ag",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Perplexity’s Projects lets people and AI agents work on the same files without overwriting each other by using Git-like commits and replay.",
+        "description": "Perplexity’s Projects lets people and AI agents work on the same files without overwriting each other by using Git-like commits and replay.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://completeaitraining.com/news/perplexity-details-git-based-persistent-workspaces-for-ai/"
+      },
+      {
+        "name": "CyCraft Technology Positioned as a Pace Setter in the 2026 G",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "The only vendor in the Pace Setters quadrant and the only Asia-based vendor in the report. CyCraft marks its third major international recognition of 2026TAIPEI",
+        "description": "The only vendor in the Pace Setters quadrant and the only Asia-based vendor in the report. CyCraft marks its third major international recognition of 2026TAIPEI",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://asianews.network/cycraft-technology-positioned-as-a-pace-setter-in-the-2026-gartner-emerging-market-quadrant-for-ai-application-security-startup-vendors/"
+      },
+      {
+        "name": "Ricursive Intelligence is betting on AI-designed chips to he",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Ricursive Intelligence is betting on AI-designed chips to help solve the compute crisis TechCrunch Making AI-driven chip design affordable with open agent facto",
+        "description": "Ricursive Intelligence is betting on AI-designed chips to help solve the compute crisis TechCrunch Making AI-driven chip design affordable with open agent factories and distributed",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOZmpiZnBhdzkxYnFRbGRUV3ZiSWpFMTFKaHR1SW1za29DWWw1SktDRWtmVEE0c3R3UmwzT2VReWlfcWVsYWJBTEFnWlpONFYxQndzTERvR3V2NE1CaEJlVHF3d3FidVQ2R3BOVGRITlM5Z3RRM0ZnN2hmREd2Q2RsZXJFZGUtTmtISTVMYmQ2bU1MWW5tNVhib0xoRnRsV1FOUkZYZ05sQWhJR19KM0QwZ2RkVlJLbkRwUkFpRVFQNA?oc=5"
+      },
+      {
+        "name": "Tessl Verifiers 正式发布，用仓库内纯文本规则检查每次 Agent 代码变更",
+        "provider": "Tessl：产品与工程博客",
+        "type": "AI 项目/工具",
+        "bestFor": "Tessl 发布 Verifiers，规则以 JSON 文件形式存放在仓库中，每次代码变更时由 LLM judge 逐条给出 pass 或 fail，可像 lint 或测试一样在本地、pre-commit 或 CI 中使用。",
+        "description": "Tessl 发布 Verifiers，规则以 JSON 文件形式存放在仓库中，每次代码变更时由 LLM judge 逐条给出 pass 或 fail，可像 lint 或测试一样在本地、pre-commit 或 CI 中使用。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Tessl：产品与工程博客",
+        "url": "https://tessl.io/blog/verifiers-enforce-your-repos-rules-on-every-agent-change"
+      },
+      {
+        "name": "Tokens are the wrong yardstick for AI agents, says JFrog’s S",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Anyone who has spent 10 minutes pressing “0” to escape a voice bot knows how the last automation wave ended. Call centres were promised dramatic savings from IV",
+        "description": "Anyone who has spent 10 minutes pressing “0” to escape a voice bot knows how the last automation wave ended. Call centres were promised dramatic savings from IVRs and chatbots. Cus",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:AI agent",
+        "url": "https://e27.co/tokens-are-the-wrong-yardstick-for-ai-agents-says-jfrogs-sunny-rao-20261014/"
+      },
       {
         "name": "Do Perturbation Predictors Learn Gene Interactions? Diagnosi",
         "provider": "RSS",
@@ -6379,97 +6459,20 @@
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2610.18807v1"
-      },
-      {
-        "name": "BLADE: Auditing Information Use for Failure Attribution in L",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Large language model multi-agent systems extend individual agents' capabilities through collaboration across specialized roles, tools, and workflows. Yet collab",
-        "description": "Large language model multi-agent systems extend individual agents' capabilities through collaboration across specialized roles, tools, and workflows. Yet collaboration makes failur",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2610.18780v1"
-      },
-      {
-        "name": "Phantom Merge: When Your Large Language Model Agents Pick On",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "LLM agents increasingly operate over multiple entities, where reliable response generation requires not only retrieving relevant evidence but also preserving it",
-        "description": "LLM agents increasingly operate over multiple entities, where reliable response generation requires not only retrieving relevant evidence but also preserving its association with t",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2610.16141v1"
-      },
-      {
-        "name": "Reflective Prompt Optimization of a Deep-Research Agent: A T",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "arXiv:2610.12601v1 Announce Type: new Abstract: Prompt optimization is an attractive alternative to reinforcement learning for adapting language-model agents, s",
-        "description": "arXiv:2610.12601v1 Announce Type: new Abstract: Prompt optimization is an attractive alternative to reinforcement learning for adapting language-model agents, since it is cheap and",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · arXiv cs.CL",
-        "url": "https://arxiv.org/abs/2610.12601"
-      },
-      {
-        "name": "Building agents that transact with Anchor Browser and AgentC",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Learn how the AWS Generative AI Innovation Center Partner Agent Factory and Anchor Browser built AI agents that autonomously pay for x402-protected web resource",
-        "description": "Learn how the AWS Generative AI Innovation Center Partner Agent Factory and Anchor Browser built AI agents that autonomously pay for x402-protected web resources and APIs. Amazon B",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/building-agents-that-transact-with-anchor-browser-and-agentcore-payments/"
-      },
-      {
-        "name": "Run fast, private agents on-device with LFM2.5-24B-A2B",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "",
-        "description": "",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · Hugging Face Blog",
-        "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b"
-      },
-      {
-        "name": "Natural language security queries at Orca Security using Ama",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Orca Security built Discovery AI, a natural language query agent on Amazon Bedrock that converts plain-English questions into Sonar queries. The post shares the",
-        "description": "Orca Security built Discovery AI, a natural language query agent on Amazon Bedrock that converts plain-English questions into Sonar queries. The post shares the multi-stage archite",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/natural-language-security-queries-at-orca-security-using-amazon-bedrock/"
-      },
-      {
-        "name": "Build long-horizon agents with Grok 4.7 on Amazon Bedrock",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Grok 4.7 is now available on Amazon Bedrock. In this post, we build a tool-calling agent on Grok 4.7 and evaluate it on three reasoning tasks at four reasoning ",
-        "description": "Grok 4.7 is now available on Amazon Bedrock. In this post, we build a tool-calling agent on Grok 4.7 and evaluate it on three reasoning tasks at four reasoning effort levels, measu",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/build-long-horizon-agents-with-grok-4-7-on-amazon-bedrock/"
-      },
-      {
-        "name": "How ShipStation Global built an AI IT help desk on Amazon Be",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "ShipStation Global's engineering team built Deckhand, an AI IT help desk agent for Slack on Amazon Bedrock AgentCore. It answers routine IT questions from a cur",
-        "description": "ShipStation Global's engineering team built Deckhand, an AI IT help desk agent for Slack on Amazon Bedrock AgentCore. It answers routine IT questions from a curated knowledge base,",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/how-shipstation-global-built-an-ai-it-help-desk-on-amazon-bedrock-agentcore/"
       }
     ],
     "ai-models": [
+      {
+        "name": "David Mondore Explains the Regulations for Asia's \"Second Ci",
+        "provider": "NewsData.io",
+        "type": "AI 项目/工具",
+        "bestFor": "Entrepreneur-turned-traveler David Mondore explains about Japan, Chiang Mai, and Da Nang over headline capitals, and the slow-travel life behind them. Los Angel",
+        "description": "Entrepreneur-turned-traveler David Mondore explains about Japan, Chiang Mai, and Da Nang over headline capitals, and the slow-travel life behind them. Los Angeles, USA - October 14",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "NewsData.io:Claude AI",
+        "url": "https://www.openpr.com/news/4662063/david-mondore-explains-the-regulations-for-asia-s-second"
+      },
       {
         "name": "Apple Finally Brings AI to China iPhones With Alibaba Models",
         "provider": "NewsData.io",
@@ -6898,17 +6901,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "Google Developers Blog（RSS）",
         "url": "https://developers.googleblog.com/supercharge-your-development-with-the-google-developer-knowledge-api-ecosystem/"
-      },
-      {
-        "name": "GPT-6 Luna Decisions 上架 OpenRouter",
-        "provider": "X：OpenRouter (@OpenRouter)",
-        "type": "AI 项目/工具",
-        "bestFor": "OpenRouter 宣布 GPT-6 Luna Decisions 上线。OpenAI 的 Decisions API 可让应用选择合适的模型、工具或动作，支持发送文本、JSON 或图片并返回带概率的类型化答案。定价为输入 $0.10/M、输出免费，上下文 1M；引用 OpenAI 开发者账号称其决策速度比通过 Re",
-        "description": "OpenRouter 宣布 GPT-6 Luna Decisions 上线。OpenAI 的 Decisions API 可让应用选择合适的模型、工具或动作，支持发送文本、JSON 或图片并返回带概率的类型化答案。定价为输入 $0.10/M、输出免费，上下文 1M；引用 OpenAI 开发者账号称其决策速度比通过 Responses API 的 GPT-6 ",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "X：OpenRouter (@OpenRouter)",
-        "url": "https://x.com/OpenRouter/status/2107929204142874759"
       }
     ],
     "ai-business": [
@@ -10119,7 +10111,7 @@
   ],
   "dailyReport": {
     "date": "2026-10-15",
-    "generatedAt": "2026-10-15T12:44:30.417425Z",
+    "generatedAt": "2026-10-15T15:07:44.836705Z",
     "total": 52,
     "sections": [
       {
@@ -10409,6 +10401,17 @@
         "label": "模型发布",
         "items": [
           {
+            "title": "Apertus 1.5 Release Notes",
+            "summary": "",
+            "source": "RSS · Hugging Face Blog",
+            "url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-15",
+            "publishedAt": "2026-10-15T17:08",
+            "reason": ""
+          },
+          {
             "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
             "summary": "",
             "source": "RSS · Hugging Face Blog",
@@ -10527,17 +10530,6 @@
             "sourceCount": 1,
             "date": "2026-10-14",
             "publishedAt": "",
-            "reason": ""
-          },
-          {
-            "title": "Google DeepMind and Singapore Government announce new AI tool to protect citizens against scams",
-            "summary": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats w",
-            "source": "RSS · Google DeepMind",
-            "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-14",
-            "publishedAt": "2026-10-14T10:00",
             "reason": ""
           }
         ]
