@@ -1,7 +1,62 @@
 {
   "lastUpdated": "2026-10-16",
-  "generatedAt": "2026-10-15T17:20:57.515558Z",
+  "generatedAt": "2026-10-15T19:26:08.958193Z",
   "news": [
+    {
+      "title": "2026 World Cup: Breaking Records, Spiky Charts and Reliability at Scale",
+      "summary": "Every four years, the World Cup becomes the largest planned stress test of our infrastructure. This year it also set an all-time record! There are a few moments throughout the year",
+      "category": "ai-models",
+      "source": "RSS · Meta Engineering",
+      "date": "2026-10-16",
+      "publishedAt": "2026-10-16T02:30",
+      "collectedAt": "2026-10-16T03:25",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://engineering.fb.com/2026/10/15/production-engineering/2026-world-cup-record-traffic-reliability-at-scale/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "How Meta Built Forum With AI-Native Engineering",
+      "summary": "Meta&#8217;s newest app, Forum, is for anyone who wants to go deeper into the conversations in their Facebook groups. To build Forum, Meta engineers adopted a whole new way of work",
+      "category": "ai-agents",
+      "source": "RSS · Meta Engineering",
+      "date": "2026-10-16",
+      "publishedAt": "2026-10-16T03:00",
+      "collectedAt": "2026-10-16T03:25",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://engineering.fb.com/2026/10/15/ml-applications/how-meta-built-forum-ai-native-engineering/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "Proof-based general-purpose computing with Magnetar",
       "summary": "Zero-knowledge proofs can verify computing results without rerunning workloads or exposing sensitive data. Magnetar helps bring them into the mainstream with support for standard p",
@@ -83,6 +138,40 @@
         "topicResources"
       ],
       "sourceCount": 1
+    },
+    {
+      "title": "Meta Muse Spark Open 上线 Together AI",
+      "summary": "Meta 的 Muse Spark Open 开源权重模型即日起在 Together AI 提供，Together AI 为 Day 0 发布合作方。该模型主打长时程智能体编码，具备 1M token 上下文窗口、计算机使用与多模态输入（文本、图像、音频、视频），并在行动前输出意图说明。",
+      "category": "ai-models",
+      "source": "Together AI 研究与产品博客（RSS）",
+      "date": "2026-10-15",
+      "publishedAt": "2026-10-15T08:00",
+      "collectedAt": "2026-10-16T03:25",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://www.together.ai/blog/meta-muse-spark-open",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 2,
+      "relatedSources": [
+        {
+          "source": "RSS · Hugging Face Blog",
+          "url": "https://huggingface.co/blog/meta-muse-spark-open",
+          "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta"
+        }
+      ]
     },
     {
       "title": "Teaching students to think and learn through questions",
@@ -2514,116 +2603,6 @@
       "aiSelected": true,
       "moduleTargets": [
         "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Reflective Prompt Optimization of a Deep-Research Agent: A Topic-Disjoint, Multi-Seed Protocol for Measuring Transferable Gains and Prompt-Level Overfitting",
-      "summary": "arXiv:2610.12601v1 Announce Type: new Abstract: Prompt optimization is an attractive alternative to reinforcement learning for adapting language-model agents, since it is cheap and",
-      "category": "ai-agents",
-      "source": "RSS · arXiv cs.CL",
-      "date": "2026-10-13",
-      "publishedAt": "",
-      "collectedAt": "2026-10-14T09:01",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-13",
-      "tags": [],
-      "url": "https://arxiv.org/abs/2610.12601",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Higgsfield takes AI video from 1 minute to over 10",
-      "summary": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
-      "category": "ai-image-video",
-      "source": "RSS · OpenAI Blog",
-      "date": "2026-10-13",
-      "publishedAt": "2026-10-13T20:00",
-      "collectedAt": "2026-10-14T03:48",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://openai.com/index/higgsfield-longer-videos-voice",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Mixture-of-Experts kernel engineering on Amazon SageMaker AI",
-      "summary": "AWS engineers share kernel optimizations for fused Mixture-of-Experts (MoE) models on Amazon SageMaker AI: Swap-AB for WGMMA utilization, Triton backend routing for FP8 quantizatio",
-      "category": "ai-models",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-10-13",
-      "publishedAt": "2026-10-13T23:17",
-      "collectedAt": "2026-10-14T01:43",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/mixture-of-experts-kernel-engineering-on-amazon-sagemaker-ai/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Build long-horizon agents with Grok 4.7 on Amazon Bedrock",
-      "summary": "Grok 4.7 is now available on Amazon Bedrock. In this post, we build a tool-calling agent on Grok 4.7 and evaluate it on three reasoning tasks at four reasoning effort levels, measu",
-      "category": "ai-agents",
-      "source": "RSS · AWS Machine Learning",
-      "date": "2026-10-13",
-      "publishedAt": "2026-10-13T23:52",
-      "collectedAt": "2026-10-14T01:43",
-      "dateStatus": "verified",
-      "sourceDate": "",
-      "tags": [],
-      "url": "https://aws.amazon.com/blogs/machine-learning/build-long-horizon-agents-with-grok-4-7-on-amazon-bedrock/",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
       ],
       "sourceCount": 1
     }
@@ -5723,6 +5702,28 @@
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Meta 发布开放权重模型 Muse Spark Open，上线 Baseten 支持 coding agent",
+        "provider": "Baseten 工程博客（网页）",
+        "type": "AI 项目/工具",
+        "bestFor": "Meta 开放 Muse Spark Open 权重，模型上线 Baseten Model APIs 和 Dedicated Inference。",
+        "description": "Meta 开放 Muse Spark Open 权重，模型上线 Baseten Model APIs 和 Dedicated Inference。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Baseten 工程博客（网页）",
+        "url": "https://www.baseten.co/blog/muse-spark-open-launch/"
+      },
+      {
+        "name": "Perplexity 开源驱动 Perplexity Computer 的沙箱平台 SPACE",
+        "provider": "X：Aravind Srinivas（Perplexity CEO） (@AravSrinivas)",
+        "type": "AI 项目/工具",
+        "bestFor": "Perplexity CEO Aravind Srinivas 宣布开源沙箱平台 SPACE，该平台为 Perplexity Computer 的全部沙箱能力提供支撑，仓库地址为 https://github.com/perplexityai/space。他表示沙箱虽是 commodity，但在生产级流量下服务数百万沙",
+        "description": "Perplexity CEO Aravind Srinivas 宣布开源沙箱平台 SPACE，该平台为 Perplexity Computer 的全部沙箱能力提供支撑，仓库地址为 https://github.com/perplexityai/space。他表示沙箱虽是 commodity，但在生产级流量下服务数百万沙箱、为企业和消费者扩展 Agent 需要",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "X：Aravind Srinivas（Perplexity CEO） (@AravSrinivas)",
+        "url": "https://x.com/AravSrinivas/status/2110785848958759165"
+      },
+      {
         "name": "IM 892: Pants-based Benchmarks - GitHub's Agent Revolution",
         "provider": "NewsData.io",
         "type": "AI 项目/工具",
@@ -6139,31 +6140,20 @@
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:AI coding tool",
         "url": "https://hackernoon.com/autumn-check-in-what-happened-to-everyone-on-the-ai-whale-list"
-      },
-      {
-        "name": "Binance Launches Binance Intelligence to Close the Financial",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "Abu Dhabi [UAE], October 6: During a livestreamed event today, Binance Co-CEO Richard Teng and VP of Product Jeff Li unveiled Binance Intelligence, an AI produc",
-        "description": "Abu Dhabi [UAE], October 6: During a livestreamed event today, Binance Co-CEO Richard Teng and VP of Product Jeff Li unveiled Binance Intelligence, an AI product stack built into t",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI coding tool",
-        "url": "https://www.aninews.in/news/business/binance-launches-binance-intelligence-to-close-the-financial-knowledge-gap20261006104236/"
-      },
-      {
-        "name": "From coding to orchestrating: The new role of engineers",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "As AI takes on more coding, engineers must focus on verifying its output, exercising judgement, and keeping accountability with people. The post From coding to ",
-        "description": "As AI takes on more coding, engineers must focus on verifying its output, exercising judgement, and keeping accountability with people. The post From coding to orchestrating: The n",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:AI coding tool",
-        "url": "https://www.frontier-enterprise.com/from-coding-to-orchestrating-the-new-role-of-engineers/"
       }
     ],
     "ai-agents": [
+      {
+        "name": "Muse Spark Open 上架 Arena，可在 Agent Arena 实测，评分即将公布",
+        "provider": "X：Arena (@arena)",
+        "type": "AI 项目/工具",
+        "bestFor": "Arena 宣布 Meta 的 Muse Spark Open 已进入 Agent Arena，用户可实测，评分即将公布。该模型为 816B 总参数、42B 激活参数，1M token 上下文窗口，原生多模态。",
+        "description": "Arena 宣布 Meta 的 Muse Spark Open 已进入 Agent Arena，用户可实测，评分即将公布。该模型为 816B 总参数、42B 激活参数，1M token 上下文窗口，原生多模态。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "X：Arena (@arena)",
+        "url": "https://x.com/arena/status/2110797782953132049"
+      },
       {
         "name": "Google 介绍 google/adk-recipes 仓库的三层结构与 Agent Platform 集成",
         "provider": "Google Developers Blog（RSS）",
@@ -6592,20 +6582,20 @@
         "watch": "请打开原始来源核对",
         "sourceName": "arXiv",
         "url": "http://arxiv.org/abs/2610.18683v1"
-      },
-      {
-        "name": "How Anthropic’s Dynamic Workflows Coordinate Claude Agents",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "At AI Engineer New York, Anthropic drew on lessons from Unix and Linux to explain how agents can tackle bigger projects without overwhelming developers.",
-        "description": "At AI Engineer New York, Anthropic drew on lessons from Unix and Linux to explain how agents can tackle bigger projects without overwhelming developers.",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · Latent Space (swyx)",
-        "url": "https://www.latent.space/p/claude-dynamic-workflows"
       }
     ],
     "ai-models": [
+      {
+        "name": "How Meta Built Forum With AI-Native Engineering",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Meta&#8217;s newest app, Forum, is for anyone who wants to go deeper into the conversations in their Facebook groups. To build Forum, Meta engineers adopted a w",
+        "description": "Meta&#8217;s newest app, Forum, is for anyone who wants to go deeper into the conversations in their Facebook groups. To build Forum, Meta engineers adopted a whole new way of work",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · Meta Engineering",
+        "url": "https://engineering.fb.com/2026/10/15/ml-applications/how-meta-built-forum-ai-native-engineering/"
+      },
       {
         "name": "David Mondore Explains the Regulations for Asia's \"Second Ci",
         "provider": "NewsData.io",
@@ -7034,17 +7024,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:artificial intelligence",
         "url": "https://www.webpronews.com/ais-cash-burn-crisis-why-massive-losses-persist-despite-revenue-growth/"
-      },
-      {
-        "name": "Google 发布 Developer Knowledge API 生态，为 AI 智能体提供官方文档检索",
-        "provider": "Google Developers Blog（RSS）",
-        "type": "AI 项目/工具",
-        "bestFor": "Google 推出 Developer Knowledge API 生态，作为 Google Cloud、Firebase、Android 等开发者文档的官方程序化来源，用结构化 API 和 Markdown 格式文档取代网页抓取，支持语义与关键词搜索、文档分块和有依据的问答。",
-        "description": "Google 推出 Developer Knowledge API 生态，作为 Google Cloud、Firebase、Android 等开发者文档的官方程序化来源，用结构化 API 和 Markdown 格式文档取代网页抓取，支持语义与关键词搜索、文档分块和有依据的问答。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "Google Developers Blog（RSS）",
-        "url": "https://developers.googleblog.com/supercharge-your-development-with-the-google-developer-knowledge-api-ecosystem/"
       }
     ],
     "ai-business": [
@@ -10255,8 +10234,8 @@
   ],
   "dailyReport": {
     "date": "2026-10-16",
-    "generatedAt": "2026-10-15T17:20:57.495558Z",
-    "total": 25,
+    "generatedAt": "2026-10-15T19:26:08.937160Z",
+    "total": 28,
     "sections": [
       {
         "category": "ai-coding",
@@ -10318,6 +10297,17 @@
         "category": "ai-agents",
         "label": "Agent / MCP",
         "items": [
+          {
+            "title": "How Meta Built Forum With AI-Native Engineering",
+            "summary": "Meta&#8217;s newest app, Forum, is for anyone who wants to go deeper into the conversations in their Facebook groups. To build Forum, Meta e",
+            "source": "RSS · Meta Engineering",
+            "url": "https://engineering.fb.com/2026/10/15/ml-applications/how-meta-built-forum-ai-native-engineering/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-16",
+            "publishedAt": "2026-10-16T03:00",
+            "reason": ""
+          },
           {
             "title": "Trust in Depth: Giving agents more autonomy without losing control",
             "summary": "Enterprise leaders want AI agents to take on more work but don't fully trust them to act correctly every time. Trust in Depth is AWS's layer",
@@ -10391,6 +10381,17 @@
         "label": "模型发布",
         "items": [
           {
+            "title": "2026 World Cup: Breaking Records, Spiky Charts and Reliability at Scale",
+            "summary": "Every four years, the World Cup becomes the largest planned stress test of our infrastructure. This year it also set an all-time record! The",
+            "source": "RSS · Meta Engineering",
+            "url": "https://engineering.fb.com/2026/10/15/production-engineering/2026-world-cup-record-traffic-reliability-at-scale/",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-16",
+            "publishedAt": "2026-10-16T02:30",
+            "reason": ""
+          },
+          {
             "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
             "summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
             "source": "RSS · Google DeepMind",
@@ -10399,6 +10400,17 @@
             "sourceCount": 1,
             "date": "2026-10-16",
             "publishedAt": "2026-10-16T00:08",
+            "reason": ""
+          },
+          {
+            "title": "Meta Muse Spark Open 上线 Together AI",
+            "summary": "Meta 的 Muse Spark Open 开源权重模型即日起在 Together AI 提供，Together AI 为 Day 0 发布合作方。该模型主打长时程智能体编码，具备 1M token 上下文窗口、计算机使用与多模态输入（文本、图像、音频、视频），并在行动前输出意",
+            "source": "Together AI 研究与产品博客（RSS）",
+            "url": "https://www.together.ai/blog/meta-muse-spark-open",
+            "score": 70,
+            "sourceCount": 2,
+            "date": "2026-10-15",
+            "publishedAt": "2026-10-15T08:00",
             "reason": ""
           },
           {
