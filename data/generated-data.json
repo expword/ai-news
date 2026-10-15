@@ -1,7 +1,62 @@
 {
   "lastUpdated": "2026-10-16",
-  "generatedAt": "2026-10-15T19:26:08.958193Z",
+  "generatedAt": "2026-10-15T22:32:00.376285Z",
   "news": [
+    {
+      "title": "Bringing GPT-Rosalind to academic research labs",
+      "summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+      "category": "ai-research",
+      "source": "RSS · OpenAI Blog",
+      "date": "2026-10-16",
+      "publishedAt": "2026-10-16T03:00",
+      "collectedAt": "2026-10-16T06:32",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
+      "summary": "",
+      "category": "ai-models",
+      "source": "RSS · Hugging Face Blog",
+      "date": "2026-10-16",
+      "publishedAt": "2026-10-16T04:34",
+      "collectedAt": "2026-10-16T05:30",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "2026 World Cup: Breaking Records, Spiky Charts and Reliability at Scale",
       "summary": "Every four years, the World Cup becomes the largest planned stress test of our infrastructure. This year it also set an all-time record! There are a few moments throughout the year",
@@ -8388,6 +8443,17 @@
     ],
     "ai-research": [
       {
+        "name": "Bringing GPT-Rosalind to academic research labs",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+        "description": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · OpenAI Blog",
+        "url": "https://openai.com/index/introducing-the-rosalind-academic-plan"
+      },
+      {
         "name": "Apple 演示用 MLX 与 RDMA 在 Mac Studio 集群本地运行 816B 大模型",
         "provider": "Apple Machine Learning Research（RSS）",
         "type": "AI 项目/工具",
@@ -8815,17 +8881,6 @@
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:artificial intelligence",
         "url": "https://etf-alerts.com/2026/10/01/apple-stock-is-rising-today-heres-why/"
-      },
-      {
-        "name": "Ranking-Aware Prompt Optimization for Multimodal Clinical Di",
-        "provider": "arXiv",
-        "type": "AI 项目/工具",
-        "bestFor": "Multimodal large language models (MLLMs) are rapidly advancing clinical diagnosis, yet their adaptation pipelines remain anchored to accuracy-based objectives. ",
-        "description": "Multimodal large language models (MLLMs) are rapidly advancing clinical diagnosis, yet their adaptation pipelines remain anchored to accuracy-based objectives. Clinical data are he",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "arXiv",
-        "url": "http://arxiv.org/abs/2609.40361v1"
       }
     ],
     "ai-office": []
@@ -10234,8 +10289,8 @@
   ],
   "dailyReport": {
     "date": "2026-10-16",
-    "generatedAt": "2026-10-15T19:26:08.937160Z",
-    "total": 28,
+    "generatedAt": "2026-10-15T22:32:00.354942Z",
+    "total": 30,
     "sections": [
       {
         "category": "ai-coding",
@@ -10381,6 +10436,17 @@
         "label": "模型发布",
         "items": [
           {
+            "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
+            "summary": "",
+            "source": "RSS · Hugging Face Blog",
+            "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-16",
+            "publishedAt": "2026-10-16T04:34",
+            "reason": ""
+          },
+          {
             "title": "2026 World Cup: Breaking Records, Spiky Charts and Reliability at Scale",
             "summary": "Every four years, the World Cup becomes the largest planned stress test of our infrastructure. This year it also set an all-time record! The",
             "source": "RSS · Meta Engineering",
@@ -10524,6 +10590,17 @@
         "category": "ai-research",
         "label": "论文研究",
         "items": [
+          {
+            "title": "Bringing GPT-Rosalind to academic research labs",
+            "summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences ",
+            "source": "RSS · OpenAI Blog",
+            "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-16",
+            "publishedAt": "2026-10-16T03:00",
+            "reason": ""
+          },
           {
             "title": "Proof-based general-purpose computing with Magnetar",
             "summary": "Zero-knowledge proofs can verify computing results without rerunning workloads or exposing sensitive data. Magnetar helps bring them into th",
