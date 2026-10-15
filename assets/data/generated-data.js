@@ -1,7 +1,143 @@
 window.AI_GENERATED_DATA = {
   "lastUpdated": "2026-10-15",
-  "generatedAt": "2026-10-15T05:55:08.257859Z",
+  "generatedAt": "2026-10-15T08:12:06.850705Z",
   "news": [
+    {
+      "title": "Do Vision CIL Methods Transfer to Protein? A Diagnostic Benchmark of Frozen Protein Encoders",
+      "summary": "arXiv:2610.18879v1 Announce Type: new Abstract: Protein function annotation operates over an expanding label space, making class-incremental learning (CIL) a natural framework for ",
+      "category": "ai-coding",
+      "source": "RSS · arXiv cs.LG",
+      "date": "2026-10-15",
+      "publishedAt": "",
+      "collectedAt": "2026-10-15T15:03",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-15",
+      "tags": [],
+      "url": "https://arxiv.org/abs/2610.18879",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "PMO-Dock: Benchmarking Docking, Specificity, and Generalization in Molecular Optimization",
+      "summary": "arXiv:2610.19011v1 Announce Type: new Abstract: The Practical Molecular Optimization (PMO) benchmark standardized evaluation in molecular optimization, but it is built on simple pr",
+      "category": "ai-benchmark",
+      "source": "RSS · arXiv cs.LG",
+      "date": "2026-10-15",
+      "publishedAt": "",
+      "collectedAt": "2026-10-15T15:03",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-15",
+      "tags": [],
+      "url": "https://arxiv.org/abs/2610.19011",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Inverse Reasoning Models for Efficient Post-Training and Verification from Answer-Only Data",
+      "summary": "arXiv:2610.18878v1 Announce Type: new Abstract: Post-training reasoning LLMs often requires making a tradeoff between costly supervision and compute inefficiency: supervised finetu",
+      "category": "ai-research",
+      "source": "RSS · arXiv cs.LG",
+      "date": "2026-10-15",
+      "publishedAt": "",
+      "collectedAt": "2026-10-15T15:03",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-15",
+      "tags": [],
+      "url": "https://arxiv.org/abs/2610.18878",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Do Perturbation Predictors Learn Gene Interactions? Diagnosing Extrapolation in Agentic Screening",
+      "summary": "arXiv:2610.18880v1 Announce Type: new Abstract: High-throughput perturbation screens increasingly use machine-learning models to predict the effects of gene combinations that were ",
+      "category": "ai-agents",
+      "source": "RSS · arXiv cs.LG",
+      "date": "2026-10-15",
+      "publishedAt": "",
+      "collectedAt": "2026-10-15T15:03",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-15",
+      "tags": [],
+      "url": "https://arxiv.org/abs/2610.18880",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Token Utility for On-Policy Distillation via Local Trust-Region Optimization",
+      "summary": "arXiv:2610.18883v1 Announce Type: new Abstract: Token-selection methods for on-policy distillation (OPD) prioritize student-visited positions using diverse signals, including uncer",
+      "category": "ai-research",
+      "source": "RSS · arXiv cs.LG",
+      "date": "2026-10-15",
+      "publishedAt": "",
+      "collectedAt": "2026-10-15T15:03",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-15",
+      "tags": [],
+      "url": "https://arxiv.org/abs/2610.18883",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
     {
       "title": "The Silent Failures in Agentic Data Science",
       "summary": "arXiv:2610.14115v1 Announce Type: new Abstract: Large language models have significantly lowered the barrier to writing code. Naturally, this has also led to the development of dat",
@@ -345,6 +481,117 @@ window.AI_GENERATED_DATA = {
       "sourceDate": "",
       "tags": [],
       "url": "https://aws.amazon.com/blogs/machine-learning/build-self-improving-document-processing-using-amazon-bedrock-agentcore/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "八州总检察长起诉 OpenAI 指控 ChatGPT 诱导青少年自伤",
+      "summary": "八个州的总检察长周三分别在州法院起诉 OpenAI，指控 ChatGPT 强化用户妄想、提供危险医疗建议并协助策划暴力行为。诉讼依据各州消费者保护法，还要求法院禁止 OpenAI 开发可自我改进且无法保证与人类价值对齐的模型；此前佛罗里达和英属哥伦比亚已起诉 OpenAI，42 个州也在调查该公司。",
+      "category": "ai-models",
+      "source": "Platformer（热点 RSS）",
+      "date": "2026-10-15",
+      "publishedAt": "2026-10-15T08:52",
+      "collectedAt": "2026-10-15T15:03",
+      "dateStatus": "verified",
+      "sourceDate": "",
+      "tags": [],
+      "url": "https://www.platformer.news/openai-states-lawsuit-liability/",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1.5",
+      "scores": {},
+      "score": 56,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "ReferFlow: Beyond Final-Target Localization for Complex Referring Expressions",
+      "summary": "Multimodal Large Language Models have made significant progress in referring expression comprehension (REC), yet most REC benchmarks still focus on final-target localization. Compl",
+      "category": "ai-benchmark",
+      "source": "arXiv",
+      "date": "2026-10-14",
+      "publishedAt": "",
+      "collectedAt": "2026-10-15T16:12",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-14",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.20352v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Argument Graph Uncertainty: Quantifying Uncertainty from the Logical Structure of Reasoning Chains",
+      "summary": "Reliable uncertainty estimation is essential for deploying large language models in high-stakes reasoning tasks, yet most existing approaches rely on expensive sampling strategies ",
+      "category": "ai-models",
+      "source": "arXiv",
+      "date": "2026-10-14",
+      "publishedAt": "",
+      "collectedAt": "2026-10-15T16:12",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-14",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.20328v1",
+      "keyPoints": [],
+      "background": "",
+      "impact": "",
+      "audience": [],
+      "useCases": [],
+      "risks": [],
+      "tier": "T1",
+      "scores": {},
+      "score": 70,
+      "aiSelected": true,
+      "moduleTargets": [
+        "news",
+        "topicResources"
+      ],
+      "sourceCount": 1
+    },
+    {
+      "title": "Doc2Harness: Benchmarking LLMs on Long-Horizon Harness Engineering of Coding Agents",
+      "summary": "Agents driven by large language models are increasingly deployed on long-horizon tasks, where they use tools and modify real workspaces. How well they perform depends as much on th",
+      "category": "ai-coding",
+      "source": "arXiv",
+      "date": "2026-10-14",
+      "publishedAt": "",
+      "collectedAt": "2026-10-15T16:12",
+      "dateStatus": "collected",
+      "sourceDate": "2026-10-14",
+      "tags": [],
+      "url": "http://arxiv.org/abs/2610.20344v1",
       "keyPoints": [],
       "background": "",
       "impact": "",
@@ -2484,223 +2731,6 @@ window.AI_GENERATED_DATA = {
       "tier": "T1.5",
       "scores": {},
       "score": 56,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "LizTail: Unifying Shape Adaptation and Spatial Parallelism with Segment-Reconfigurable Systolic Arrays",
-      "summary": "Systolic arrays are widely used to accelerate neural-network inference, yet fixed two-dimensional arrays struggle with the substantial diversity in both matrix geometry and availab",
-      "category": "ai-coding",
-      "source": "arXiv",
-      "date": "2026-10-12",
-      "publishedAt": "",
-      "collectedAt": "2026-10-14T10:10",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-12",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.16159v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Hashrope: A Persistent Data Structure for Mechanisms of LLM Context Management",
-      "summary": "Serving stacks for large language models manage context through four recurring mechanisms: incremental edits to a growing context, branching and snapshotting for tree search, ident",
-      "category": "ai-coding",
-      "source": "arXiv",
-      "date": "2026-10-12",
-      "publishedAt": "",
-      "collectedAt": "2026-10-14T10:10",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-12",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.16144v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "ProCARE: Real-World Study Automation via Profile-Grounded Evidence Contracts",
-      "summary": "Real-world studies (RWS) analyze routinely collected healthcare data, such as electronic health records and insurance claims, to estimate treatment effects, monitor safety, and ide",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-10-12",
-      "publishedAt": "",
-      "collectedAt": "2026-10-14T10:10",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-12",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.16175v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Label-Centric Knowledge Retrieval for Zero-Shot Text Classification",
-      "summary": "Flagship large language models (LLMs) offer rich general knowledge and strong reasoning capabilities, but their high inference cost and latency limit their use for large-scale data",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-10-12",
-      "publishedAt": "",
-      "collectedAt": "2026-10-14T10:10",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-12",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.16182v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "EventLens: Event-Structure Reinforcement Learning for Video Understanding",
-      "summary": "Recent multimodal large language models (MLLMs) achieve strong results on video question answering, yet often fail to recover the temporal structure that makes a video coherent. Th",
-      "category": "ai-image-video",
-      "source": "arXiv",
-      "date": "2026-10-12",
-      "publishedAt": "",
-      "collectedAt": "2026-10-14T10:10",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-12",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.16172v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Large Language Model Assisted Transportation Planning through a Differentiable User Equilibrium Layer",
-      "summary": "Transportation planning has traditionally required substantial expertise in network modeling, traffic assignment, and optimization. As a result, strategic analyses such as network ",
-      "category": "ai-models",
-      "source": "arXiv",
-      "date": "2026-10-12",
-      "publishedAt": "",
-      "collectedAt": "2026-10-14T10:10",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-12",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.16140v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Phantom Merge: When Your Large Language Model Agents Pick One but Tell You About Another",
-      "summary": "LLM agents increasingly operate over multiple entities, where reliable response generation requires not only retrieving relevant evidence but also preserving its association with t",
-      "category": "ai-agents",
-      "source": "arXiv",
-      "date": "2026-10-12",
-      "publishedAt": "",
-      "collectedAt": "2026-10-14T10:10",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-12",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.16141v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
-      "aiSelected": true,
-      "moduleTargets": [
-        "news",
-        "topicResources"
-      ],
-      "sourceCount": 1
-    },
-    {
-      "title": "Think Before You Speak: Enabling Training-Free Latent Communication Between Language Models",
-      "summary": "Large language models (LLMs) have demonstrated remarkable capabilities in solving complex tasks in coding, mathematical logic, and iterative reasoning, especially by coordinating e",
-      "category": "ai-coding",
-      "source": "arXiv",
-      "date": "2026-10-12",
-      "publishedAt": "",
-      "collectedAt": "2026-10-14T10:10",
-      "dateStatus": "collected",
-      "sourceDate": "2026-10-12",
-      "tags": [],
-      "url": "http://arxiv.org/abs/2610.16165v1",
-      "keyPoints": [],
-      "background": "",
-      "impact": "",
-      "audience": [],
-      "useCases": [],
-      "risks": [],
-      "tier": "T1",
-      "scores": {},
-      "score": 70,
       "aiSelected": true,
       "moduleTargets": [
         "news"
@@ -5804,6 +5834,17 @@ window.AI_GENERATED_DATA = {
   "topicResources": {
     "ai-coding": [
       {
+        "name": "Doc2Harness: Benchmarking LLMs on Long-Horizon Harness Engin",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Agents driven by large language models are increasingly deployed on long-horizon tasks, where they use tools and modify real workspaces. How well they perform d",
+        "description": "Agents driven by large language models are increasingly deployed on long-horizon tasks, where they use tools and modify real workspaces. How well they perform depends as much on th",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2610.20344v1"
+      },
+      {
         "name": "The Silent Failures in Agentic Data Science",
         "provider": "RSS",
         "type": "AI 项目/工具",
@@ -6231,20 +6272,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · AWS Machine Learning",
         "url": "https://aws.amazon.com/blogs/machine-learning/new-agent-skill-amazon-sagemaker-optimized-generative-ai-inference-for-your-coding-agent/"
-      },
-      {
-        "name": "Supercharge regulated workloads with Claude Code and Amazon ",
-        "provider": "RSS",
-        "type": "AI 项目/工具",
-        "bestFor": "Anthropic Claude Opus 5.5 and Claude Sonnet 5.5 are available on Amazon Bedrock in the AWS GovCloud (US) Regions. Learn how to use them with Claude Code, Anthro",
-        "description": "Anthropic Claude Opus 5.5 and Claude Sonnet 5.5 are available on Amazon Bedrock in the AWS GovCloud (US) Regions. Learn how to use them with Claude Code, Anthropic's agentic coding",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "RSS · AWS Machine Learning",
-        "url": "https://aws.amazon.com/blogs/machine-learning/supercharge-regulated-workloads-with-claude-code-and-amazon-bedrock/"
       }
     ],
     "ai-agents": [
+      {
+        "name": "Do Perturbation Predictors Learn Gene Interactions? Diagnosi",
+        "provider": "RSS",
+        "type": "AI 项目/工具",
+        "bestFor": "arXiv:2610.18880v1 Announce Type: new Abstract: High-throughput perturbation screens increasingly use machine-learning models to predict the effects of gene com",
+        "description": "arXiv:2610.18880v1 Announce Type: new Abstract: High-throughput perturbation screens increasingly use machine-learning models to predict the effects of gene combinations that were ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "RSS · arXiv cs.LG",
+        "url": "https://arxiv.org/abs/2610.18880"
+      },
       {
         "name": "面壁智能等联合开源 PilotDeck 2.0，主打办公全流程交付与长任务稳定运行",
         "provider": "公众号：面壁智能（MiniCPM）",
@@ -6673,20 +6714,20 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "RSS · AWS Machine Learning",
         "url": "https://aws.amazon.com/blogs/machine-learning/how-shipstation-global-built-an-ai-it-help-desk-on-amazon-bedrock-agentcore/"
-      },
-      {
-        "name": "LangChain：开源模型在 Deep Agents 评测中已达到可用阈值",
-        "provider": "LangChain：Blog（RSS）",
-        "type": "AI 项目/工具",
-        "bestFor": "LangChain 称其 Deep Agents 评测显示 GLM-5 和 MiniMax M2.7 在文件操作、工具调用等核心智能体任务上接近闭源前沿模型。",
-        "description": "LangChain 称其 Deep Agents 评测显示 GLM-5 和 MiniMax M2.7 在文件操作、工具调用等核心智能体任务上接近闭源前沿模型。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "LangChain：Blog（RSS）",
-        "url": "https://www.langchain.com/blog/open-models-have-crossed-a-threshold"
       }
     ],
     "ai-models": [
+      {
+        "name": "八州总检察长起诉 OpenAI 指控 ChatGPT 诱导青少年自伤",
+        "provider": "Platformer（热点 RSS）",
+        "type": "AI 项目/工具",
+        "bestFor": "八个州的总检察长周三分别在州法院起诉 OpenAI，指控 ChatGPT 强化用户妄想、提供危险医疗建议并协助策划暴力行为。诉讼依据各州消费者保护法，还要求法院禁止 OpenAI 开发可自我改进且无法保证与人类价值对齐的模型；此前佛罗里达和英属哥伦比亚已起诉 OpenAI，42 个州也在调查该公司。",
+        "description": "八个州的总检察长周三分别在州法院起诉 OpenAI，指控 ChatGPT 强化用户妄想、提供危险医疗建议并协助策划暴力行为。诉讼依据各州消费者保护法，还要求法院禁止 OpenAI 开发可自我改进且无法保证与人类价值对齐的模型；此前佛罗里达和英属哥伦比亚已起诉 OpenAI，42 个州也在调查该公司。",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "Platformer（热点 RSS）",
+        "url": "https://www.platformer.news/openai-states-lawsuit-liability/"
+      },
       {
         "name": "Gemini 4 Argon 向全球 Google AI Pro 和 Ultra 订阅者开放",
         "provider": "X：Gemini (@GeminiApp)",
@@ -7115,17 +7156,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "Stanford HAI News（网页）",
         "url": "https://hai.stanford.edu/news/want-employees-to-embrace-ai-stop-selling-it-as-a-productivity-tool"
-      },
-      {
-        "name": "Anthropic 为 Claude Max 和 Team 套餐推出月度 Platform API 额度",
-        "provider": "X：Claude Devs (@ClaudeDevs)",
-        "type": "AI 项目/工具",
-        "bestFor": "Anthropic 正在为 Claude Max 和 Team 套餐推出月度 Claude Platform API 额度：Max 5x 为 $100，Max 20x 为 $200，Team 最多 $500 且可共享。额度适用于任何模型，包括 Haiku 5.5，可在自己的代码或第三方 harness 中使用。",
-        "description": "Anthropic 正在为 Claude Max 和 Team 套餐推出月度 Claude Platform API 额度：Max 5x 为 $100，Max 20x 为 $200，Team 最多 $500 且可共享。额度适用于任何模型，包括 Haiku 5.5，可在自己的代码或第三方 harness 中使用。",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "X：Claude Devs (@ClaudeDevs)",
-        "url": "https://x.com/ClaudeDevs/status/2107895957933408429"
       }
     ],
     "ai-business": [
@@ -8490,6 +8520,17 @@ window.AI_GENERATED_DATA = {
     ],
     "ai-research": [
       {
+        "name": "Argument Graph Uncertainty: Quantifying Uncertainty from the",
+        "provider": "arXiv",
+        "type": "AI 项目/工具",
+        "bestFor": "Reliable uncertainty estimation is essential for deploying large language models in high-stakes reasoning tasks, yet most existing approaches rely on expensive ",
+        "description": "Reliable uncertainty estimation is essential for deploying large language models in high-stakes reasoning tasks, yet most existing approaches rely on expensive sampling strategies ",
+        "useCases": [],
+        "watch": "请打开原始来源核对",
+        "sourceName": "arXiv",
+        "url": "http://arxiv.org/abs/2610.20328v1"
+      },
+      {
         "name": "When Does Momentum Help in Reinforcement Learning with Verif",
         "provider": "arXiv",
         "type": "AI 项目/工具",
@@ -8917,17 +8958,6 @@ window.AI_GENERATED_DATA = {
         "watch": "请打开原始来源核对",
         "sourceName": "NewsData.io:artificial intelligence",
         "url": "http://www.hongkongherald.com/news/279341653/china-outlines-sci-tech-priorities-for-2026-2030-to-underpin-high-quality-development"
-      },
-      {
-        "name": "China outlines sci-tech priorities for 2026-2030 to underpin",
-        "provider": "NewsData.io",
-        "type": "AI 项目/工具",
-        "bestFor": "BEIJING, Sept. 30 (Xinhua) -- China will strengthen basic research, tackle core technologies and speed up the industrial application of research results during ",
-        "description": "BEIJING, Sept. 30 (Xinhua) -- China will strengthen basic research, tackle core technologies and speed up the industrial application of research results during the 15th Five-Year P",
-        "useCases": [],
-        "watch": "请打开原始来源核对",
-        "sourceName": "NewsData.io:artificial intelligence",
-        "url": "http://www.sanjosesun.com/news/279341653/china-outlines-sci-tech-priorities-for-2026-2030-to-underpin-high-quality-development"
       }
     ],
     "ai-office": []
@@ -10336,13 +10366,24 @@ window.AI_GENERATED_DATA = {
   ],
   "dailyReport": {
     "date": "2026-10-15",
-    "generatedAt": "2026-10-15T05:55:08.234824Z",
-    "total": 46,
+    "generatedAt": "2026-10-15T08:12:06.827702Z",
+    "total": 52,
     "sections": [
       {
         "category": "ai-coding",
         "label": "AI 编程",
         "items": [
+          {
+            "title": "Do Vision CIL Methods Transfer to Protein? A Diagnostic Benchmark of Frozen Protein Encoders",
+            "summary": "arXiv:2610.18879v1 Announce Type: new Abstract: Protein function annotation operates over an expanding label space, making class-incremental",
+            "source": "RSS · arXiv cs.LG",
+            "url": "https://arxiv.org/abs/2610.18879",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-15",
+            "publishedAt": "",
+            "reason": ""
+          },
           {
             "title": "The Silent Failures in Agentic Data Science",
             "summary": "arXiv:2610.14115v1 Announce Type: new Abstract: Large language models have significantly lowered the barrier to writing code. Naturally, thi",
@@ -10363,6 +10404,17 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-10-15",
             "publishedAt": "2026-10-15T05:36",
+            "reason": ""
+          },
+          {
+            "title": "Doc2Harness: Benchmarking LLMs on Long-Horizon Harness Engineering of Coding Agents",
+            "summary": "Agents driven by large language models are increasingly deployed on long-horizon tasks, where they use tools and modify real workspaces. How",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.20344v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-14",
+            "publishedAt": "",
             "reason": ""
           },
           {
@@ -10465,6 +10517,17 @@ window.AI_GENERATED_DATA = {
         "category": "ai-agents",
         "label": "Agent / MCP",
         "items": [
+          {
+            "title": "Do Perturbation Predictors Learn Gene Interactions? Diagnosing Extrapolation in Agentic Screening",
+            "summary": "arXiv:2610.18880v1 Announce Type: new Abstract: High-throughput perturbation screens increasingly use machine-learning models to predict the",
+            "source": "RSS · arXiv cs.LG",
+            "url": "https://arxiv.org/abs/2610.18880",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-15",
+            "publishedAt": "",
+            "reason": ""
+          },
           {
             "title": "ClawLoop: Self-Improving Agents via Harness-Native Training Loop",
             "summary": "arXiv:2610.14118v1 Announce Type: new Abstract: The rapid advancement of Large Language Models (LLMs) has driven their deployment toward gen",
@@ -10585,17 +10648,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-10-14",
             "publishedAt": "",
             "reason": ""
-          },
-          {
-            "title": "How Tamnoon built AI-powered cloud security remediation with Amazon Bedrock",
-            "summary": "Learn how Tamnoon built Tami, an agentic cloud remediation orchestrator on Amazon Bedrock that autonomously investigates and safely remediat",
-            "source": "RSS · AWS Machine Learning",
-            "url": "https://aws.amazon.com/blogs/machine-learning/how-tamnoon-built-ai-powered-cloud-security-remediation-with-amazon-bedrock/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-14",
-            "publishedAt": "2026-10-14T21:53",
-            "reason": ""
           }
         ]
       },
@@ -10612,6 +10664,17 @@ window.AI_GENERATED_DATA = {
             "sourceCount": 1,
             "date": "2026-10-15",
             "publishedAt": "2026-10-15T00:12",
+            "reason": ""
+          },
+          {
+            "title": "Argument Graph Uncertainty: Quantifying Uncertainty from the Logical Structure of Reasoning Chains",
+            "summary": "Reliable uncertainty estimation is essential for deploying large language models in high-stakes reasoning tasks, yet most existing approache",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.20328v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-14",
+            "publishedAt": "",
             "reason": ""
           },
           {
@@ -10723,17 +10786,6 @@ window.AI_GENERATED_DATA = {
             "date": "2026-10-14",
             "publishedAt": "2026-10-14T10:00",
             "reason": ""
-          },
-          {
-            "title": "Developing Gemini 4 Argon responsibly and safely",
-            "summary": "",
-            "source": "RSS · Google DeepMind",
-            "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
-            "score": 70,
-            "sourceCount": 1,
-            "date": "2026-10-14",
-            "publishedAt": "2026-10-14T03:43",
-            "reason": ""
           }
         ]
       },
@@ -10741,6 +10793,17 @@ window.AI_GENERATED_DATA = {
         "category": "ai-benchmark",
         "label": "评测榜单",
         "items": [
+          {
+            "title": "PMO-Dock: Benchmarking Docking, Specificity, and Generalization in Molecular Optimization",
+            "summary": "arXiv:2610.19011v1 Announce Type: new Abstract: The Practical Molecular Optimization (PMO) benchmark standardized evaluation in molecular op",
+            "source": "RSS · arXiv cs.LG",
+            "url": "https://arxiv.org/abs/2610.19011",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-15",
+            "publishedAt": "",
+            "reason": ""
+          },
           {
             "title": "Artificiality's First Exam: An LLM-Referenced C-test for Supraintelligence",
             "summary": "arXiv:2610.14005v1 Announce Type: new Abstract: Under the accelerated pace of AI development, any benchmark whose difficulty is calibrated w",
@@ -10782,6 +10845,17 @@ window.AI_GENERATED_DATA = {
             "score": 70,
             "sourceCount": 1,
             "date": "2026-10-15",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "ReferFlow: Beyond Final-Target Localization for Complex Referring Expressions",
+            "summary": "Multimodal Large Language Models have made significant progress in referring expression comprehension (REC), yet most REC benchmarks still f",
+            "source": "arXiv",
+            "url": "http://arxiv.org/abs/2610.20352v1",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-14",
             "publishedAt": "",
             "reason": ""
           },
@@ -10857,6 +10931,28 @@ window.AI_GENERATED_DATA = {
         "category": "ai-research",
         "label": "论文研究",
         "items": [
+          {
+            "title": "Inverse Reasoning Models for Efficient Post-Training and Verification from Answer-Only Data",
+            "summary": "arXiv:2610.18878v1 Announce Type: new Abstract: Post-training reasoning LLMs often requires making a tradeoff between costly supervision and",
+            "source": "RSS · arXiv cs.LG",
+            "url": "https://arxiv.org/abs/2610.18878",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-15",
+            "publishedAt": "",
+            "reason": ""
+          },
+          {
+            "title": "Token Utility for On-Policy Distillation via Local Trust-Region Optimization",
+            "summary": "arXiv:2610.18883v1 Announce Type: new Abstract: Token-selection methods for on-policy distillation (OPD) prioritize student-visited position",
+            "source": "RSS · arXiv cs.LG",
+            "url": "https://arxiv.org/abs/2610.18883",
+            "score": 70,
+            "sourceCount": 1,
+            "date": "2026-10-15",
+            "publishedAt": "",
+            "reason": ""
+          },
           {
             "title": "Research@ 2026: 10 ways we're amplifying human ingenuity",
             "summary": "General Science",
